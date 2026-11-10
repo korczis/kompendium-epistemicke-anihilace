@@ -40,33 +40,26 @@ Na rozdíl od technik **epistemické singularity** ([5.1](@/kompendium/technique
 
 Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje **uvnitř** klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích, jejichž cyklus je iterativní s rostoucí intenzitou paradoxního napětí:
+Samopodkopávající tvrzení je takové, jehož přijetí odstraňuje jeho vlastní oporu: globální
+skepse „nic nelze vědět s jistotou“ spadá pod sebe samu. Nejstarší rozbor této figury je Platónova
+peritropé proti Prótagorovi v Theaitétovi, kde je nauka o míře obrácena proti sobě (Burnyeat,
+1976). Transcendentální pragmatika z téže figury udělala argumentační nástroj: kdo popírá
+předpoklady vlastní promluvy, dopouští se performativního rozporu (Apel, 1976; Habermas, 1983).
+Jde o nástroj kritiky tvrzení, nikoli o prostředek nátlaku na člověka.
 
-### Krok 1 — Etablování paradoxního pole
+Pozorovatel vidí, že vzorec tuto figuru obrací proti osobě. Zasažený člověk zastává obecnou
+skeptickou tezi, jejímž důsledkem je, že ji sám nemůže zastávat, a prožívá tento rozpor jako
+vlastní selhání. Festinger (1957) popsal, jak se neudržitelný pár přesvědčení stabilizuje spíše
+posunem jiných postojů než opravou toho sporného.
 
-Manipulátor vytváří **bezpečně vyhlížející diskurzivní rámec** (filozofický seminář, hluboká introspektivní konverzace, terapeutická session, mystagogická výuka), v němž je legitimní zkoumat hraniční otázky o pravdě, sebe-reference a logických základech.
+Zpětně se znaky objevují v pořadí: nejprve je přijata teze s velkým dosahem, pak je upozorněno,
+že se týká i sebe sama, pak se vytrácí důvěra v možnost vůbec něco tvrdit a nakonec se jediným
+místem bez rozporu jeví výpověď druhé strany (Kramer & Alstad, 1993). Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Indukce paradoxního jádra
-
-V druhém kroku manipulátor implantuje thezi „nelze nic vědět s jistotou“ — pokud ji subjekt přijme, podkopal sám sebe. Manipulátor přitom úzkostlivě dbá, aby paradox **nebyl prezentován jako technický problém** (který by subjekt mohl uchopit metalogicky), ale jako **existenciální fakt** subjektovy mysli.
-
-### Krok 3 — Eliminace úniků
-
-Každá subjektova strategie úniku z paradoxu (rozlišení úrovní, kontextový posun, pragmatická redukce) je manipulátorem **prezentována jako další podoba téhož paradoxu**. Subjekt cítí, že žádný únik není dostupný — paradox je univerzální.
-
-### Krok 4 — Fenomenologická internalizace
-
-Paradox přechází z roviny *přemýšleného problému* do roviny *zakoušeného stavu*. Subjekt jej již nereflektuje — *prožívá* jej. Subjekt přijímá obecné skeptické thezi, jejichž důsledkem je nemožnost je zastávat — kognitivní disonance.
-
-### Krok 5 — Konsolidace evaluativní paralýzy
-
-V terminálním stadiu se subjekt nachází v stavu, v němž:
-
-- Nedokáže vynést **žádný** evaluativní soud bez toho, aby se nedostal do paradoxního napětí
-- Přijímá **manipulátorovy** sondy a interpretace jako jediné výpovědi imunní vůči paradoxu (manipulátor působí jako „mimo-paradoxní“ instance)
-- Obrací se na manipulátora pro každé základní rozhodnutí, neboť vlastní rozhodovací aparát je strukturálně paralyzován
+*Interpretace knihy*: sebevyvrácení je legitimní logický nález o tvrzení; patologií se stává,
+když je prezentováno jako nález o člověku. Toto rozlišení drží [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Fenomenologické znaky
 
@@ -85,11 +78,11 @@ Co prožívá subjekt **uvnitř** paradoxálního metaanihilačního protokolu:
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů (delší než 10–15 sekund) | Aktivní evaluativní paralýzu |
+| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů | Aktivní evaluativní paralýzu |
 | Subjekt opakovaně používá fráze typu „ale to by zase bylo paradoxní…“, „nemůžu to říct, protože…“ | Internalizovanou paradoxologii |
 | Subjekt se obrací na manipulátora s **velmi jednoduchými** otázkami, které dříve řešil sám | Konsolidaci závislosti přes paradox |
 | V subjektově řeči se zvyšuje frekvence formulací **bez jasné pravdivostní hodnoty** (vágnost, odkládací konstrukce) | Logofobii |
-| Subjektova **produkce** v posledních X týdnech se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
+| Subjektova **produkce** v delším časovém úseku se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
 
 ### Diferenciální detekce
 
@@ -153,6 +146,14 @@ Paradoxální metaanihilační protokoly jsou **strukturálním motivem** pro de
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} paradoxologický monitor** — provenance ledger detekuje výroky, jejichž pravdivostní hodnota je strukturálně rekurzivní, a označuje je k externí typové kontrole.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) typová hierarchie** — epistemický pipeline pracuje se **stratifikovanými** výroky; pokus o smíchání úrovní generuje invarianční chybu.
 - **[Color Teams](@/glossary/color-teams.md) red-team protokol** — periodická revize manipulativních paradoxizačních vzorců v akademických a klinických relacích kolem Prismatic operací.
+
+## Literatura
+
+- Burnyeat, M. F. (1976). Protagoras and self-refutation in Plato’s Theaetetus. *The Philosophical Review*, 85(2), 172–195.
+- Apel, K.-O. (1976). *Transformation der Philosophie*. Suhrkamp.
+- Habermas, J. (1983). *Moralbewußtsein und kommunikatives Handeln*. Suhrkamp.
+- Festinger, L. (1957). *A Theory of Cognitive Dissonance*. Stanford University Press.
+- Kramer, J., & Alstad, D. (1993). *The Guru Papers: Masks of Authoritarian Power*. North Atlantic Books.
 
 ## Související
 

@@ -40,29 +40,15 @@ Na rozdíl od [EA-5.2.7 kategoriální disoluce](@/kompendium/techniques/ea-5-2-
 
 Subjekt v terminálním stadiu prožívá svět jako **proud nestrukturovaných intenzit** bez objektů, bez příčin, bez jednoty — stav blízký Kantovu hypotetickému „rapsodii vjemů“ před kategoriální syntézou. Jazyk přetrvává, ale referuje k entitám, které nejsou kategoriálně konstituovány.
 
-## Operační modus
+## Struktura vzorce
 
-Anihilace probíhá v pěti krocích:
+Kategoriální anihilace se pozorovateli ukazuje jako rozpad toho, co zkušenost drží v jednom kuse. Zasažený člověk v běžných souvislostech popírá příčinnou souvislost, brání se označovat věci jako věci a nutnost se mu slévá s možností; nedokáže proto vyslovit předpověď, která by šla ověřit. Vlastní stav popisuje slovníkem probuzení a prožívá jej jako osvobození z kategoriálního vězení, zatímco okolí zaznamenává klesající orientaci v běžném provozu a disociační epizody.
 
-### Krok 1 — Identifikace dominantních kategorií subjektu
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejdřív bývá zasažena ta kategorie, které zasažený člověk důvěřoval nejvíc — u přírodovědně orientovaného příčinnost, u prakticky zaměřeného substance, u filozoficky vzdělaného modalita. Pak je kategoriální výbava jako celek prohlášena za kulturní zvyklost, nikoli za podmínku zkušenosti. Dál se jednotlivé kategorie rozebírají po jedné, vždy s příslibem hlubší pravdy. Nakonec kategorie přestávají zkušenost samočinně pořádat a výsledný stav je vykládán jako probuzení. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Manipulátor mapuje, které kantovské kategorie subjekt používá nejčastěji a nejdůvěřivěji — typicky kauzalita pro vědecké subjekty, substance pro hmotně orientované, modalita pro filozoficky vzdělané.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: popření příčinnosti, odpor k pojmu věci, splývající modality, nemožnost formulovat předpověď a slovník, který tento deficit zakrývá.
 
-### Krok 2 — Pseudo-osvícenecká delegitimizace
-
-Subjekt je veden k přesvědčení, že kategorie samy jsou **kulturně podmíněné konstrukty**, nikoli apriorní formy. Klíčová formulace: *„Kauzalita je iluze západního myšlení — skutečnost je akauzální.“* Tímto se etabluje meta-pozice nad kategoriálním aparátem.
-
-### Krok 3 — Systematická dekonstrukce jednotlivých kategorií
-
-Postupně jsou jednotlivé kategorie podlomeny: substance jako reifikace procesu, kauzalita jako narativní iluze, jednota jako násilná unifikace mnohosti. Každá dekonstrukce je prezentována jako **hlubší pravda**.
-
-### Krok 4 — Saturace nekategorialními cvičeními
-
-Subjekt je veden k **opakované zkušenosti** údajně nekategoriálních fenoménů (meditační praxe ovlivňující percepci, psychedelika, intenzivní simulace). Cvičení mají demonstrovat, že „skutečnost přesahuje kategorie“.
-
-### Krok 5 — Kategoriální vyprázdnění
-
-Kategorie přestávají automaticky strukturovat zkušenost. Subjekt prožívá fenomény bez jasné objekt-subjektové struktury, bez kauzálních linií, bez jednoty. Tento stav je interpretován jako **probuzení**, nikoli jako patologie rozvažování.
+*Interpretace knihy*: kritika kantovských kategorií je legitimní filozofická práce — Hegel, Husserl i Whitehead ji vedli na výslovné meta-úrovni a nabízeli náhradní uspořádání. Rozpoznávacím znakem je opak: kategoriální fungování mizí a filozofický slovník slouží až k dodatečnému zdůvodnění. Totéž odlišuje vzorec od autentické praxe šúnjaty, která ontologický status kategorií relativizuje, ale jejich funkci nechává k dispozici; k rozlišovacím kritériím vede [jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 ## Fenomenologické znaky
 
@@ -146,15 +132,18 @@ Buddhistická šúnyatá je rovněž odlišitelná — autentická praxe **neni�
 - **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4 = kosmická).
 - Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 - Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

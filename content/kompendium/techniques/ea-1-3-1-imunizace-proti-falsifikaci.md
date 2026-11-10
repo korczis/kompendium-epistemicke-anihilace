@@ -39,47 +39,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 Klíčový mechanismus: **strategické zavádění ad hoc výjimek**, **auxiliárních hypotéz** nebo **flexibilních definic**, které **absorbují** potenciálně kontradiktorní evidenci. Subjekt prožívá teorii jako **stále testovatelnou** — ale ve skutečnosti je strukturálně **netestovatelná**, protože **každá** myslitelná evidence je předem **konzistentní** s teorií.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování core teorie
+Imunizace proti falsifikaci se pozorovateli ohlašuje jednou otázkou, na kterou nelze dostat odpověď: co by tuto teorii vyvrátilo. Zasažený člověk ji zpravidla chválí za to, že vysvětlí cokoli, a nepovažuje to za vadu. Popper (1963) právě v tom viděl rozdíl mezi teorií, která něco riskuje, a teorií, jejíž síla je důsledkem toho, že nevylučuje nic.
 
-Iniciálně je prezentována **core teorie** s konkrétními predikcemi. To je strategicky důležité — kdyby teorie byla od začátku **nejasná**, byla by snadno detekovatelná. Místo toho **začíná** jako jasná a **postupně** se imunizuje.
+Retrospektivně se dá rozlišit, v jakém pořadí znaky vystupují. Na začátku stojí tvrzení s jasnými důsledky; kdyby bylo mlhavé od počátku, bylo by snadno odhaleno. Pak přichází nesouhlasný nález, po němž se neobjeví revize, nýbrž výjimka — a zvláštní podmínka, za níž mělo tvrzení platit, je vyslovena vždy až po nálezu, nikdy před ním. Dále se posouvají významy klíčových pojmů, takže rétorická kontinuita přetrvá, i když se obsah změnil. Nakonec je k dispozici hotový výklad pro jakýkoli myslitelný nález. Lakatos (1970) ukázal, že samotné přidávání pomocných předpokladů ještě není vada; rozhoduje, zda posun něco nového předpovídá, nebo jen hasí zasažené místo. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Konfrontace s falsifikujícimi evidenci
+Detekční markery zachycené níže odpovídají téže struktuře: cíl se při každém přiblížení posouvá, nahromaděné zvláštní případy nemají společné vysvětlení a nikdo nedokáže pojmenovat nález, který by byl nepříznivý. Kuhn (1962) připomíná, že žádná teorie není opuštěna pro jediný rozpor, takže odolnost sama ještě nic nedokazuje — rozlišuje se, zda je rozpor podržen jako nevyřešený, nebo prohlášen za vyřešený.
 
-Empirická realita generuje evidenci **proti** teorii. To je **nevyhnutelné** pro jakoukoli substantivní teorii.
-
-### Krok 3 — Strategická introdukce ad hoc výjimek
-
-Místo **revize** teorie je zavedena **ad hoc výjimka**:
-
-- „Ale ne v tomto případě, protože X.“
-- „Toto je speciální případ, kde platí Y.“
-- „Teorie predikuje Z, **ale pouze za podmínky** W (která dosud nebyla artikulována).“
-
-Klíčová charakteristika: **W** se objevuje **až po** kontradiktorní evidenci, **nikdy** předem.
-
-### Krok 4 — Modifikace definic
-
-Pokud konkrétní termín v teorii čelí kontradikci, jeho **definice** je modifikována:
-
-- „Když říkáme 'X', myslíme tím 'X v jistém smyslu'…“
-- „Kategorie X' nezahrnuje případy typu Y.“
-
-Po opakovaných modifikacích se původní teorie stává **významově nepoznatelnou**, ale udržuje **rétorickou kontinuitu**.
-
-### Krok 5 — Auxiliární hypotézy
-
-Pro každou vlnu kontradikcí jsou postulovány **auxiliární hypotézy**:
-
-- „Teorie hlavní platí, ale je modulována mechanismem M.“
-- „Predikce by se splnila, kdyby nebylo intervenujícího faktoru F.“
-
-Tyto hypotézy jsou samy o sobě často **nedokazatelné** a slouží **výhradně** k absorpci specifických kontradiktorních dat.
-
-### Krok 6 — Konsolidace netestovatelnosti
-
-Po několika cyklech se teorie stává **netestovatelnou**: pro **jakoukoli** myslitelnou evidenci existuje pre-hotová **interpretační strategie**, která ji integruje. Subjekt prožívá teorii jako „**explanační silnou**“ (vysvětluje vše), aniž by si uvědomoval, že explanační síla je důsledkem **strukturálního prázdnoty** — teorie nevylučuje **žádnou** evidenci, takže nepředstavuje žádné epistemické riziko.
+*Interpretace knihy*: rozlišujícím znakem není počet úprav, nýbrž jejich směr. Teorie, která zůstává v kontaktu s možností selhání, dokáže pojmenovat, co by ji poškodilo; kde se tato otázka setkává s nelibostí, přesunul se spor z poznání na příslušnost (Popper, 1963).
 
 ## Fenomenologické znaky
 
@@ -248,6 +216,12 @@ Intervence: Strukturální požadavek na pre-registered outcome criteria; advers
 - **NABLA Infinity Lakatosian audit** — pravidelná evaluace progresivních vs. degenerativních shiftů v dlouhodobých investigation pipelines.
 - **Color Teams [Red Team](@/glossary/red-team.md) protocol** — explicitní mandát hledat **falsifikační scénáře** pro core platformové hypotézy.
 
+## Literatura
+
+- Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
+- Lakatos, I. (1970). Falsification and the methodology of scientific research programmes. In I. Lakatos & A. Musgrave (Eds.), *Criticism and the Growth of Knowledge*. Cambridge University Press.
+- Popper, K. R. (1963). *Conjectures and Refutations: The Growth of Scientific Knowledge*. Routledge & Kegan Paul.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
@@ -262,21 +236,23 @@ Intervence: Strukturální požadavek na pre-registered outcome criteria; advers
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+  a výsledek patří do supervize
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

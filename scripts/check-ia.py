@@ -111,7 +111,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose"}
 # When a never-baselined requirement was introduced, these pages already failed it (listed by
 # `--list <rule>`); they are fixed in content, not accepted. Until then the gate fails only when
 # the count grows. The number may only go down, and the entry goes when it reaches 0.
-PENDING_ZERO = {"placeholder": 0, "technique-page": 5, "howto": 267, "drug-dose": 0}  # at 0 a rule stays: never baselined
+PENDING_ZERO = {"placeholder": 0, "technique-page": 5, "howto": 0, "drug-dose": 0}  # at 0 a rule stays: never baselined
 BOLD_CANDIDATE_PAGES = 3  # a bold phrase on this many pages is a term and needs its own page
 
 
@@ -189,7 +189,7 @@ CODED_HEADING = re.compile(r"^#{2,6}\s+`?EA-(\d+\.\d+\.\d+)`?\s*[—–:.-]?\s*(
 # A section that lays out how a technique is performed: the "Operační modus/postup/sekvence"
 # heading (also its "z hlediska supervize" reframing). The defensive frame forbids execution
 # steps; this names the whole class so none is written, old or reframed.
-HOWTO_HEADING = re.compile(r"^#{2,6}\s+Operační\s+(?:modus|postup|sekvence)\b", re.M | re.I)
+HOWTO_HEADING = re.compile(r"^#{2,6}\s+(?:Operační\s+(?:modus|postup|sekvence)|Forensní\s+markery)\b", re.M | re.I)
 HOWTO_APPLIER = re.compile(r"před\s+aplikac[ií]\s+\S+\s+techniky", re.I)
 # A numbered step subheading ("### Krok 1 — …", "### Krok:") is the playbook shape ADR 0006
 # removes; the reframe renames it to a sign ("### Znak: X" or "### X").

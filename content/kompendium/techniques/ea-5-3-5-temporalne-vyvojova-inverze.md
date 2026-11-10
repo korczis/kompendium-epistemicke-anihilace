@@ -36,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Temporálně-vývojová inverze** narušuje subjektovo prožívání **vývojové směrovosti života**. Manipulátor reframuje minulé úspěchy jako 'nezralé pokusy' a budoucí cíle jako 'návrat k autentickému já', čímž obrací prožívanou vývojovou orientaci.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí, že doložené dosavadní úspěchy jsou popisovány jako falešná cesta a budoucnost jako návrat k pravé identitě, přičemž se tato budoucnost shoduje se světem jedné osoby. Lidé běžně přehodnocují svou minulost podle toho, kým se právě cítí být (Conway a Pleydell-Pearce, 2000).
 
-### Krok 1 — Devalvace minulých úspěchů
+Retrospektivně blízcí popisují sled: nejprve jsou znehodnoceny minulé kompetence, pak se objeví idealizovaná budoucnost formulovaná někým jiným, a nakonec člověk opouští stabilní práci nebo vztahy ve jménu „pravdy o sobě“. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Nárok jediné nauky na to, co je pravý život, odpovídá doktríně nadřazené osobě (Lifton, 1961).
 
-Subjektovy historicky prokázané kompetence jsou označeny za 'pseudosolventnost'.
+Zvenčí doložitelnými markery jsou shoda budoucích plánů se světem téže osoby a označování dřívějších kolegů za zástupce nepravého já. Odpojení od dosavadních vazeb patří mezi popsané dimenze vztahové kontroly (Hassan, 2018).
 
-### Krok 2 — Idealizace 'pravé budoucnosti'
-
-Manipulátor formuluje budoucnost subjekta jako 'návrat k pravé identitě', která je ve skutečnosti implantátem.
-
-### Krok 3 — Konsolidace inverze
-
-Subjekt prožívá vlastní život jako 'cestu zpět k tomu, kým jsem měl/a být' — orientace, která vede do manipulátorova rámce.
+*Interpretace knihy*: změna kariéry i hluboké přehodnocení života jsou legitimní a nejsou znakem ničeho. Odlišuje až to, že cíl je formulován někým jiným a že jeho dosažení prospívá jemu. Externí záznamy z dřívějšího období bývají v této situaci nejspolehlivějším opěrným bodem (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -102,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **temporálně-vývojová inverze** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.5.
+
+## Literatura
+
+- Conway, M. A., & Pleydell-Pearce, C. W. (2000). The construction of autobiographical memories in the self-memory system. *Psychological Review*, 107(2).
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 
 ## Související
 
@@ -188,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -42,27 +42,15 @@ Subjekt v pokročilém stadiu prožívá svět jako **strukturně rozmlžený**:
 
 Stav je často **pseudo-pokročile** racionalizován jako „překonání karteziánské ostrosti“ nebo „fuzzy myšlení“ — ale strukturně jde o degradaci kategoriální kompetence.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Pseudo-pokročilá indoktrinace
+Pozorovatel vidí člověka, který v situacích vyžadujících ostré rozlišení trvá na tom, že ostré rozlišení je samo chybou. Rozdíl mezi příčinou a souvislostí, mezi možností a nutností, mezi věcí a dějem se v jeho řeči stírá a stírání se vykládá jako vyspělost. Nápadné je, že rejstřík — „kontinuum“, „fluidita“, „nebinárnost“ — se používá bez teorie, k níž patří, a slouží hlavně k odmítnutí námitky; takto zatížený jazyk popsal (Lifton, 1961).
 
-Subjekt je veden k radikální verzi fuzzy logiky a „post-karteziánského myšlení“ — *„ostré kategorie jsou redukcionistické.“* Legitimní fuzzy přístupy jsou zneužity k destrukci jakékoli ostrosti.
+Postižení popisují, že rozhodování trvá nepoměrně dlouho, protože každé vymezení se jim rozpadá dřív, než na něm stihnou stavět; že v situacích vyžadujících jednoznačnou volbu nastupuje úzkost; a že okolí jejich odpovědi stále častěji nerozumí. Uvažování se vrací a neuzavírá, což je známý udržovací mechanismus úzkostných a depresivních stavů (Wells, 2009; Nolen-Hoeksema, 1991).
 
-### Krok 2 — Saturace fuzzy cvičeními
+Zpětně se znaky skládají takto: nejprve přejatý slovník odmítající rozlišování, pak znevažování každého pokusu o přesnost jako redukcionismu, pak pomalost a chybovost v běžném rozhodování a nakonec výklad celého stavu jako moudrosti. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Sled je rekonstrukcí z pozdějších zpráv postižených a jejich okolí; na omylnost takové zpětné rekonstrukce upozorňují (Loftus & Pickrell, 1995).
 
-Manipulátor zavádí praxe údajně „transcendující binární myšlení“ — meditace na „kontinuum reality“, paradoxní rozhovory bez závěru, asociativní cvičení.
-
-### Krok 3 — Eroze kategoriálních hranic
-
-Subjekt postupně ztrácí ostrost mezi substance a procesem, mezi kauzalitou a korelací, mezi nutností a možností. Každý pokus o ostré rozlišení je devalvován jako „redukcionistický“.
-
-### Krok 4 — Bod kategoriální mlhy
-
-Subjekt prožívá **strukturní rozmlženost** kategoriálního aparátu. Operativní rozhodnutí jsou možná, ale s rostoucí nejistotou. Stav je interpretován jako „vyspělé myšlení“.
-
-### Krok 5 — Konsolidace mlhy jako „wisdom“
-
-Stav strukturní kategoriální fuzziness je etablován jako „moudrost“ oproti „naivní ostrosti“. Identitární investice činí návrat k distinktivní kompetenci obtížným.
+*Interpretace knihy*: kategorie u Kanta nejsou libovolné vrstvy popisu, nýbrž to, čím se zkušenost vůbec pořádá (Kant, 1787); jejich rozostření proto není alternativním stylem myšlení, ale úbytkem schopnosti. Klinicky je vedle toho třeba vážit rysovou nesnášenlivost nejistoty, která se podobným způsobem projevuje bez jakéhokoli vnějšího působení (Kruglanski & Webster, 1996).
 
 ## Fenomenologické znaky
 
@@ -77,11 +65,11 @@ Stav strukturní kategoriální fuzziness je etablován jako „moudrost“ opro
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt **systematicky odmítá ostré distinkce** v doménách, kde jsou nutné | Krok 3 eroze |
-| **Pseudo-fuzzy slovník** ("kontinuum", "fluidita") mimo legitimní kontext | Krok 1 indoktrinace |
+| Subjekt **systematicky odmítá ostré distinkce** v doménách, kde jsou nutné | Fáze — eroze |
+| **Pseudo-fuzzy slovník** ("kontinuum", "fluidita") mimo legitimní kontext | Fáze — indoktrinace |
 | **Praktická pomalost** v rozhodovacích úkolech | Strukturální dopad |
-| **Akutní paralýza** v binárních situacích | Krok 4 mlha |
-| **Pseudo-pokročilá rétorika** ("překonání karteziánství") bez teoretického ukotvení | Krok 5 konsolidace |
+| **Akutní paralýza** v binárních situacích | Fáze — mlha |
+| **Pseudo-pokročilá rétorika** ("překonání karteziánství") bez teoretického ukotvení | Fáze — konsolidace |
 
 ## Diferenciální detekce
 
@@ -136,21 +124,33 @@ Kategoriální mlha je odlišitelná od:
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) distinktivní axiom** — epistemická provenience vyžaduje ostré distinkce.
 - **OSINT typed entities** — strukturní typování entit obnovuje distinktivnost.
 
+## Literatura
+
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Jaspers, K. (1913). *Allgemeine Psychopathologie*. Berlin: Springer.
+- Kant, I. (1787). *Kritik der reinen Vernunft*. 2. vyd. Riga: Hartknoch.
+- Kruglanski, A. W. & Webster, D. M. (1996). Motivated closing of the mind. *Psychological Review*, 103(2), 263–283.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Loftus, E. F. & Pickrell, J. E. (1995). The formation of false memories. *Psychiatric Annals*, 25(12), 720–725.
+- Nolen-Hoeksema, S. (1991). Responses to depression and their effects on the duration of depressive episodes. *Journal of Abnormal Psychology*, 100(4), 569–582.
+- Quine, W. V. O. (1951). Two dogmas of empiricism. *The Philosophical Review*, 60(1), 20–43.
+- Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. New York: Guilford Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
-- Pokud diagnostikuješ na sobě, konzultuj se supervizí.
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L4 — kosmická, výhradně doktrinální analýza).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

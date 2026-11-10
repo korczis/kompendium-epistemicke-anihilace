@@ -45,27 +45,15 @@ Syntetická soudnost je **podmínkou empirického poznání** a **rozšiřujíc�
 
 Syntetická paralýza tuto kapacitu destruuje skrze systematické zpochybňování každého syntetického spojení. Subjekt je veden k pochybnosti o jakémkoli soudu, jenž jde za pojem subjektu — výsledkem je strukturní neschopnost **rozšiřovat poznání**.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Pseudo-rigorózní indoktrinace
+Pozorovatel vidí člověka, který se v řeči omezuje na tvrzení, jež nic nepřidávají: opakuje definice, odmítá zobecnit z vlastního pozorování a každý závěr podmiňuje důkazem, který předem označí za nedosažitelný. Odmítnutí se podává jako intelektuální poctivost. Skeptický slovník se přitom používá mimo kontext, který mu dával smysl — Humova analýza indukce je otázkou po oprávnění zobecnění (Hume, 1748), nikoli doporučením nezobecňovat.
 
-Subjekt je uveden do hyperskeptické verze epistemologie, kde *„každý syntetický soud je nedostatečně podložený“*. Hume je zneužit jako autorita.
+Postižení popisují, že nedokážou dojít k závěru ani ve věcech, kde dřív rozhodovali bez obtíží; že je každá otázka vrací k podmínkám, za nichž by se dalo odpovědět; a že tlak na rozhodnutí vyvolává úzkost. Uvažování pokračuje a neuzavírá se; opakované zpracování bez závěru jako udržovací faktor úzkosti a deprese popisuje (Wells, 2009), ruminaci v témže smyslu (Nolen-Hoeksema, 1991).
 
-### Krok 2 — Saturace pochybnostmi
+Zpětně se znaky skládají takto: nejprve přejatý hyperskeptický rejstřík, pak systematické zpochybňování vlastních úsudků ze strany okolí, pak ústup k tvrzením bez obsahu a nakonec výklad paralýzy jako ctnosti. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Mluvu, v níž několik obratů nese zároveň výklad i obranu proti námitce, popsal jako zatížení jazyka (Lifton, 1961).
 
-Manipulátor systematicky zpochybňuje každý subjektův syntetický soud — *„Jak víš, že to platí? Co když je to jen tvá konstrukce?“*
-
-### Krok 3 — Tautologická retreat
-
-Subjekt postupně omezuje své tvrzení na analytické soudy („víc [tautologie](@/glossary/tautologie.md), méně rizika“). Empirické generalizace mizí.
-
-### Krok 4 — Bod paralýzy
-
-Subjekt prožívá **akutní neschopnost rozšiřovat poznání**. Každý nový soud se zdá nepodložený. Stav je interpretován jako „intelektuální poctivost“.
-
-### Krok 5 — Konsolidace paralýzy jako „skepse“
-
-Stav strukturní syntetické paralýzy je etablován jako „filozofická ctnost“. Identitární investice činí návrat k syntetické kompetenci obtížným.
+*Interpretace knihy*: skeptická tradice je odlišitelná tím, že zůstává konzistentní a nese vlastní praxi; zde je skepse selektivní a vůči nauce, z níž vyšla, se neuplatňuje. Že i zdánlivě nedotknutelné rozdíly v poznání jsou předmětem argumentu, a nikoli hotovou zbraní, ukazuje (Quine, 1951).
 
 ## Fenomenologické znaky
 
@@ -80,11 +68,11 @@ Stav strukturní syntetické paralýzy je etablován jako „filozofická ctnost
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt **systematicky odmítá generalizovat** z pozorování | Krok 3 retreat |
-| **Pseudo-humeánský slovník** ("induktivní problém", "skepse") mimo legitimní kontext | Krok 1 indoktrinace |
+| Subjekt **systematicky odmítá generalizovat** z pozorování | Fáze — retreat |
+| **Pseudo-humeánský slovník** ("induktivní problém", "skepse") mimo legitimní kontext | Fáze — indoktrinace |
 | **Akutní úzkost při tlaku na rozhodnutí** vyžadující syntetické tvrzení | Strukturální dopad |
 | **Tautologická konverzace** — subjekt opakuje analytické pravdy | Pokročilá paralýza |
-| **Odmítání kantovské transcendentální dedukce** jako "nepodložené" | Krok 5 konsolidace |
+| **Odmítání kantovské transcendentální dedukce** jako "nepodložené" | Fáze — konsolidace |
 
 ## Diferenciální detekce
 
@@ -138,21 +126,32 @@ Syntetická paralýza je odlišitelná od:
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) bayesovský axiom** — epistemická provenience pracuje s graduální syntézou.
 - **OSINT pattern recognition** — strukturní syntéza napříč zdroji obnovuje kompetenci.
 
+## Literatura
+
+- Hume, D. (1748). *An Enquiry Concerning Human Understanding*. London: Millar.
+- Kant, I. (1787). *Kritik der reinen Vernunft*. 2. vyd. Riga: Hartknoch.
+- Kruglanski, A. W. & Webster, D. M. (1996). Motivated closing of the mind. *Psychological Review*, 103(2), 263–283.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Nolen-Hoeksema, S. (1991). Responses to depression and their effects on the duration of depressive episodes. *Journal of Abnormal Psychology*, 100(4), 569–582.
+- Quine, W. V. O. (1951). Two dogmas of empiricism. *The Philosophical Review*, 60(1), 20–43.
+- Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. New York: Guilford Press.
+- Yalom, I. D. (1980). *Existential Psychotherapy*. New York: Basic Books.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
-- Pokud diagnostikuješ na sobě, konzultuj se supervizí.
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L4 — kosmická, výhradně doktrinální analýza).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

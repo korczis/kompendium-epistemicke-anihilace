@@ -36,21 +36,17 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Perspektivní substituce nahrazuje subjektovu **kognitivní perspektivu** — způsob, jakým strukturuje, váží a interpretuje informace — manipulátorovou perspektivou. Cílem je, aby subjekt nakonec viděl svět doslova 'manipulátorovýma očima'.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel pozná vzorec podle jazykové signatury: idiomy, metafory a způsob vážení důkazů se u postiženého během krátké doby přiblížily jedné konkrétní osobě. Vlastní pozorování podává tak, že je cituje — uvádí, co by k nim řekl onen druhý, místo aby řekl, co vidí sám. Na přímou otázku po vlastním názoru nastupuje zmatek, nikoli neochota. Setkání s lidmi z doby před proměnou působí dezorientaci. Zatížení jazyka, v němž převzatý rejstřík zároveň vykládá zkušenost a brání námitce, popsal (Lifton, 1961).
 
-### Krok 1 — Devalvace subjektovy perspektivy
+Postižení popisují, že se jim uvažuje „jasněji“, když uvažují cizí perspektivou, a že vlastní pohled se jim při pokusu o jeho formulaci rozpadá. Zpětně uvádějí, že změně předcházelo soustavné zpochybňování jejich úsudku jako zaujatého či emocionálního. Nadřazení doktríny osobní zkušenosti a zatížený jazyk popsal jako znaky totalistického prostředí (Lifton, 1961); měřitelné dimenze kontroly myšlení a informací shrnuje (Hassan, 2018).
 
-'Nevidíš to objektivně, jsi v tom emocionálně.'
+Perspektivnost není u fenomenologie volitelné hledisko, ale strukturní rys, jímž se zkušenost vůbec dává (Husserl, 1913; Merleau-Ponty, 1945); výměna jejího centra proto není změnou názoru, ale ztrátou místa, z něhož by se názor dal mít. Že identita je nesena vyprávěním, do něhož druhý patří, aniž by je nahradil, rozpracoval (Ricoeur, 1990).
 
-### Krok 2 — Modeling alternativní perspektivy
+Zpětně se znaky skládají takto: nejprve znevažování úsudku postiženého, pak předvádění „správného“ pohledu, pak jeho převzetí a nakonec vymizení spontánní řeči v první osobě. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Sled je rekonstrukcí z pozdějších zpráv postižených a jejich okolí; na omylnost takové zpětné rekonstrukce upozorňují (Loftus & Pickrell, 1995).
 
-Manipulátor systematicky předvádí 'jak by to viděl moudrý člověk'.
-
-### Krok 3 — Internalizace cizí perspektivy
-
-Subjekt postupně přejímá manipulátorovu kognitivní strukturu jako vlastní.
+*Interpretace knihy*: rozlišující je, komu proměna prospívá. Trvalé podřízení v asymetrickém vztahu popisuje jako vzorec (Stark, 2007), pořadí zotavení (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -102,6 +98,20 @@ EA-5.3.10 (perspektivní substituce — sister), [EA-5.3.15](@/kompendium/techni
 ## Vztah k Prismatic platformě
 
 Technika **perspektivní substituce** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.10.
+
+## Literatura
+
+- Hassan, S. (2018). *Combating Cult Mind Control*. 3. vyd. Newton: Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Husserl, E. (1913). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie I*. Halle: Niemeyer.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Loftus, E. F. & Pickrell, J. E. (1995). The formation of false memories. *Psychiatric Annals*, 25(12), 720–725.
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Paris: Gallimard.
+- Ricoeur, P. (1990). *Soi-même comme un autre*. Paris: Seuil.
+- SAMHSA (2014). *TIP 57: Trauma-Informed Care in Behavioral Health Services*. Rockville: SAMHSA.
+- Singer, M. T. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
+- Stark, E. (2007). *Coercive Control*. New York: Oxford University Press.
+- van der Kolk, B. (2014). *The Body Keeps the Score*. New York: Viking.
 
 ## Související
 
@@ -188,15 +198,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L3 — omezený doktrinální rámec).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

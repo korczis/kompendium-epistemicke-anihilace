@@ -36,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Self-vector rotation je technika **kontrolované rotace** subjektova self-vektoru — souhrnu hodnot, motivací, životní směrovosti — v směr, který povrchově vypadá jako přirozený růst, ale ve skutečnosti je ortogonální nebo opačný k subjektovy autentické trajektorii.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí rozpor mezi dvěma popisy téhož člověka: sám se cítí stále stejný, zatímco lidé, kteří ho znají dlouho, popisují změnu, již on nevidí. Jednotlivá rozhodnutí přitom dávají smysl, celek nikoli. Drobné, postupně přijímané závazky mění pozdější jednání víc, než si lidé připouštějí (Cialdini, 2009).
 
-### Krok 1 — Identifikace baseline self-vektoru
+Retrospektivně se sled znaků popisuje takto: nejprve se hodnoty a motivace postupně přibližují hodnotám jedné osoby, pak je každý posun obhajován jako přirozený růst, a nakonec chybí jakýkoli bod, k němuž by člověk změnu uměl vztáhnout. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Nárok jediného výkladu na to, co je růst, odpovídá popisu doktríny nadřazené osobě (Lifton, 1961).
 
-Manipulátor pečlivě mapuje subjektovy hodnoty a motivace.
+Zvenčí je doložitelné především to, že životní trajektorie se strukturálně liší od projekcí vycházejících z dřívějších let, a že člověk nedokáže určit, kdy se změnil. Vnější archiv kontinuity — deníky, fotografie, korespondence — je proto v klinické práci doporučovaným opěrným bodem (Herman, 1992).
 
-### Krok 2 — Postupná rotace v 'sousedních' směrech
-
-Každý krok je dostatečně blízko, aby působil přirozeně, ale kumulativní efekt je radikální změna.
-
-### Krok 3 — Konsolidace nového vektoru
-
-Po sérii malých rotací subjekt operuje v zásadně jiném směru, aniž by reflektoval kumulativní změnu.
+*Interpretace knihy*: změna hodnot v průběhu života je normální a sama o sobě není znakem ničeho. Odlišuje až konvergence: posun končí u hodnot jedné osoby a chybí mu vlastní datum i vlastní důvod. Systematické sbližování se zájmy kontrolující strany je popsáno jako měřitelný rys (Hassan, 2018).
 
 ## Fenomenologické znaky
 
@@ -102,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **self-vector rotation** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.20.
+
+## Literatura
+
+- Cialdini, R. B. (2009). *Influence: Science and Practice* (5th ed.). Pearson.
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 
 ## Související
 
@@ -188,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

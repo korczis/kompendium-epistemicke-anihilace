@@ -36,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Mentalizační disrupce narušuje subjektovu **mentalizační kapacitu** — schopnost reflektovat vlastní mentální stavy a vyvozovat mentální stavy druhých. Bez mentalizační kapacity je subjekt epistemicky závislý na externím (manipulátorově) výkladu vlastní i cizí mysli.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel zachytí vzorec na tom, čím člověk odpovídá na jednoduchou otázku po vlastním prožitku. Místo popisu přichází prázdno nebo citace cizího výkladu; vlastní stavy i pohnutky druhých lidí jsou vykládány slovníkem jedné osoby. Reflektivní funkce — schopnost číst vlastní i cizí mysl — je přitom vázána na vztahy, v nichž je bezpečné se mýlit (Fonagy a Target, 1997).
 
-### Krok 1 — Devalvace subjektovy mentalizační kapacity
+Retrospektivně blízcí popisují sled, v němž znaky vystupují: nejprve se objeví pochybnost o tom, zda člověk vůbec ví, co cítí, pak se jeho popisy vlastních emocí začnou shodovat s popisy jedné osoby, a nakonec z řeči mizí spontánní reflexe v první osobě. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Nárok cizího výkladu na přednost před vlastním prožitkem popsal Lifton (1961) jako doktrínu nadřazenou osobě.
 
-'Nevíš, co skutečně cítíš', 'neumíš číst lidi'.
+Mezi markery doložitelné zvenčí patří soustavně chybné čtení pohnutek třetích osob vždy ve prospěch téže osoby, vyhledávání její validace pro každou významnou emoční navigaci a nejistota až úzkost při setkání s lidmi mimo její okruh. Taková kombinace kontroly nad informacemi, myšlením a emocemi je popsána jako měřitelná struktura (Hassan, 2018).
 
-### Krok 2 — Substituce manipulátorovou mentalizací
-
-Manipulátor systematicky vykládá subjektu, co subjekt 'doopravdy cítí' a co 'doopravdy myslí druzí'.
-
-### Krok 3 — Konsolidace závislosti
-
-Subjekt přestává vyvozovat mentální stavy spontánně; potřebuje manipulátorovu validaci.
+*Interpretace knihy*: alexithymie i běžná emoční nejistota existují bez jakéhokoli vnějšího činitele a mají vlastní diagnostiku. Odlišujícím znakem je zdroj náhradního výkladu — jedna konkrétní osoba, jejíž verze má přednost i proti přímému prožitku. Práce na obnově začíná bezpečím, nikoli konfrontací s tímto výkladem (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -102,6 +96,14 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **mentalizační disrupce** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.15.
+
+## Literatura
+
+- Fonagy, P., & Target, M. (1997). Attachment and reflective function: their role in self-organization. *Development and Psychopathology*, 9(4).
+- Fonagy, P., Gergely, G., Jurist, E. L., & Target, M. (2002). *Affect Regulation, Mentalization, and the Development of the Self*. Other Press.
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 
 ## Související
 
@@ -188,15 +190,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

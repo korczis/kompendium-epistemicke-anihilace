@@ -41,33 +41,15 @@ Klíčový mechanismus: **exploitace inherentní interpretační flexibility** e
 
 Strukturální problém: **veškerá** empirická evidence vyžaduje interpretaci. Strategická reinterpretace neexploituje tuto **legitimní** flexibilitu, ale její **nelegitimní** rozšíření na případy, kdy data **strukturálně** odporují teorii.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování interpretačního rámce
+Strategická reinterpretace je rozpoznatelná podle toho, že se nemění tvrzení ani data, nýbrž jejich čtení — a že se tato změna nikdy nepřizná. Zasažený člověk si nedokáže vybavit, jak tentýž nález chápal dřív, a přitom má dojem nepřerušené kontinuity. Festinger, Riecken a Schachter (1956) zaznamenali tento tvar v reálném čase: skupina, jejíž očekávání se nenaplnilo, nález neodmítla, nýbrž jej přečetla jako potvrzení.
 
-Iniciálně je etablován konkrétní interpretační rámec — pravidla pro čtení evidence ve prospěch / proti teorii. Subjekt přijímá rámec **bez** vědomí, že je flexibilní.
+Retrospektivně se dá rozlišit, v jakém pořadí znaky vystupují. Nejprve je zachytitelný výkladový rámec přijatý jako samozřejmý, bez vědomí, že je ohebný. Pak přichází nález, který v tomto rámci svědčí proti. Následuje posun ve čtení — ne v teorii — opřený o výzvu „nečíst to tak povrchně“. Nakonec se zpětně přepisují i dřívější nálezy, takže vzniká dojem, že teorii podpíraly odjakživa. Popper (1963) popsal právě tento krok jako okamžik, v němž teorie přestává být zkušenostně zodpovědná. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Konfrontace s kontradiktorní evidencí
+Detekční markery zachycené níže odpovídají téže struktuře: týž nález prochází několika neslučitelnými výklady, nikdo neeviduje, kdy a proč se výklad změnil, a správné čtení je dostupné jen přes jednu osobu. Právě tato poslední vlastnost odlišuje vzorec od běžné revize: Kuhn (1962) připomíná, že legitimní přehodnocení probíhá veřejně a jeho důvody jsou samy předmětem sporu.
 
-Empirická realita generuje data, která **podle iniciálního rámce** kontradiktují teorii.
-
-### Krok 3 — Strategická hermeneutická adjustace
-
-Místo **revize teorie** je provedena **adjustace interpretačního rámce**:
-
-- „Toto data nelze číst tak povrchně — strukturálně podporují teorii, pokud rozumíme…“
-- „Při hlubší analýze tato data ukazují, že…“
-- „Skutečný význam těchto dat je opačný od povrchového dojmu…“
-
-Výsledek: kontradiktorní evidence je **přečtena** jako podporující — bez **explicitního** přiznání, že se interpretační rámec změnil.
-
-### Krok 4 — Rekurzivní rekonstrukce minulosti
-
-Předchozí evidence, která byla **interpretována** v starém rámci, je **retrospektivně reinterpretována** v novém. Subjekt prožívá **kontinuální** narativ — „teorie byla **vždy** podporována touto evidencí“ — aniž by si uvědomoval, že interpretace byly průběžně **přepisovány**.
-
-### Krok 5 — Konsolidace nestability interpretace
-
-Po několika cyklech **každá** evidence — historická i budoucí — je **strukturálně podporující** teorii. Subjekt prožívá teorii jako **explanačně silnou**, aniž by si uvědomoval, že explanační síla pochází z **rekurzivní rekonfigurace interpretace**, ne z prediktivní validity.
+*Interpretace knihy*: evidence vždy potřebuje výklad, a změna výkladu není vadou. Rozlišujícím znakem je dohledatelnost — zda lze říci, co se četlo jak a proč se čtení změnilo. Kde tato stopa chybí, přesunula se epistemická váha z nálezu na vykladače (Popper, 1963).
 
 ## Fenomenologické znaky
 
@@ -232,6 +214,12 @@ Intervence: Pre-registered outcome criteria; structured clinical decision rules.
 - **NABLA Infinity provenance tracking** — každé tvrzení má **temporal lineage** s explicit interpretation rules; změny jsou auditovatelné.
 - **OSINT investigation framework** — pre-registered hypotheses s explicit interpretation principles před každou investigation.
 
+## Literatura
+
+- Festinger, L., Riecken, H. W., & Schachter, S. (1956). *When Prophecy Fails: A Social and Psychological Study of a Modern Group That Predicted the Destruction of the World*. University of Minnesota Press.
+- Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
+- Popper, K. R. (1963). *Conjectures and Refutations: The Growth of Scientific Knowledge*. Routledge & Kegan Paul.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
@@ -245,21 +233,23 @@ Intervence: Pre-registered outcome criteria; structured clinical decision rules.
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+  a výsledek patří do supervize
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

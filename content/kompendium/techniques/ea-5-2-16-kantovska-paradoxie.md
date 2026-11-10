@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.16 Kantovská paradoxie"
-description = "Detailní per-technique článek: technika kantovské paradoxie — exploitace antinomií čistého rozumu k vyvolání racionální paralýzy. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika kantovské paradoxie — exploitace antinomií čistého rozumu k vyvolání racionální paralýzy. Struktura vzorce, fenomenologie, detekční markery, neutralizace."
 weight = 5216
 insert_anchor_links = "right"
 
@@ -40,30 +40,17 @@ Kant v *Kritice čistého rozumu* explicitně ukázal, že antinomie vznikají *
 
 Na rozdíl od běžného filozofického zmatku, který vede k uznání obtíže a hledání řešení, kantovská paradoxie generuje **pseudo-osvícenou paralýzu**, kde subjekt **přijímá nerozhodnutelnost** jako „hlubokou pravdu“ a ztrácí schopnost racionálně jednat ve sporných oblastech.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Identifikace racionálních citlivostí subjektu
+Jméno v katalogovém označení pojmenovává látku, kterou si vzorec přivlastňuje, nikoli pozici, kterou by Kant zastával: v *Kritice čistého rozumu* ukazuje, že antinomie vznikají, když se ideje rozumu použijí na předměty možné zkušenosti, a rozlišením jevu a věci o sobě je rozpouští — neřešitelné pro něj nejsou (Kant, 1787).
 
-Manipulátor mapuje, ve kterých oblastech subjekt operuje racionálně — typicky etika, věda, metafyzika, politika.
+Pozorovatel vidí člověka, který v rozhodnutelných otázkách odmítá zaujmout stanovisko a odmítnutí obhajuje jako poctivost. Umí stejně silně argumentovat pro i proti; odkazuje na „paradoxní myšlení“ jako na dosaženou úroveň; výklad, podle něhož jsou protiklady rozpustitelné, odmítá jako naivní. Jazykové zatížení, v němž několik slov nese výklad celé zkušenosti i obranu proti námitkám, popsal (Lifton, 1961).
 
-### Krok 2 — Konstrukce antinomií ad-hoc
+Postižení popisují chronickou nerozhodnost v etických i praktických věcech, tíživý pocit, že nic není rozhodnutelné, a akutní úzkost pokaždé, když okolnosti rozhodnutí vynutí. Uvažování se vrací v kruzích a nikdy neuzavírá; tento způsob opakovaného zpracování bez závěru popisuje jako udržovací faktor úzkosti a deprese (Wells, 2009), analogicky k ruminaci v pojetí (Nolen-Hoeksema, 1991).
 
-Pro každou citlivou oblast je konstruována **kantovsky strukturovaná antinomie**: dvě protichůdné teze, obě s přesvědčivými argumenty. Příklady:
+Zpětně se znaky skládají takto: nejprve rostoucí zájem o neřešitelné otázky, pak symetrie argumentů v oblastech, kde byl dříve názor, pak odmítání jakéhokoli rozhodnutí a nakonec výklad paralýzy jako moudrosti. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Sled je rekonstrukcí z pozdějších zpráv postižených a jejich okolí; na omylnost takové zpětné rekonstrukce upozorňují (Loftus & Pickrell, 1995).
 
-- *„Buď je svoboda iluze, nebo determinismus je iluze — obojí je nemožné, ale obojí se zdá nutné.“*
-- *„Buď má morálka objektivní základ, nebo je všechna morálka konvence — obojí je obhajitelné.“*
-
-### Krok 3 — Odepření transcendentální disoluce
-
-Subjekt je systematicky vedeň k přesvědčení, že **antinomie nelze rozpustit** — že jsou „esenciálním rysem reality“. Kantův transcendentální klíč není zmiňován nebo je zesměšňován jako „naivní“.
-
-### Krok 4 — Saturace dialektickými cvičeními
-
-Subjekt je veden k opakovanému formulování protichůdných tezí s rovnocennou silou. Cvičení vytvářejí **proceduralizovanou nerozhodnutelnost**.
-
-### Krok 5 — Konsolidace pseudo-moudrosti
-
-Stav dialektické paralýzy je interpretován jako **„hluboká filozofická moudrost“** („kdo si nečerpe ze sporu, není moudrý“). Identitární investice činí stav rezistentní vůči disoluci.
+*Interpretace knihy*: paralýza je udržitelná jen potud, pokud jí společenství přiznává hodnotu; o roli skupiny při udržení neudržitelné pozice svědčí (Festinger, Riecken & Schachter, 1956). Klinicky je vedle toho třeba vážit nesnášenlivost nejistoty jako osobnostní rys (Kruglanski & Webster, 1996).
 
 ## Fenomenologické znaky
 
@@ -79,10 +66,10 @@ Stav dialektické paralýzy je interpretován jako **„hluboká filozofická mo
 | Marker | Indikuje |
 |--------|----------|
 | Subjekt **systematicky odmítá zaujmout pozici** v rozhodnutelných otázkách | Dialektická paralýza |
-| **Pseudo-filozofický slovník** ("paradoxie", "dialektika") mimo legitimní kontext | Krok 5 konsolidace |
+| **Pseudo-filozofický slovník** ("paradoxie", "dialektika") mimo legitimní kontext | Fáze — konsolidace |
 | **Akutní úzkost při praktickém tlaku** | Strukturální dopad |
-| **Argumentační symetrie** — subjekt umí stejně silně argumentovat pro i proti | Krok 4 saturace |
-| **Odmítání kantovské transcendentální dialektiky** jako řešení | Krok 3 odepření disoluce |
+| **Argumentační symetrie** — subjekt umí stejně silně argumentovat pro i proti | Fáze — saturace |
+| **Odmítání kantovské transcendentální dialektiky** jako řešení | Fáze — odepření disoluce |
 
 ## Diferenciální detekce
 
@@ -137,21 +124,33 @@ Kantovská paradoxie je odlišitelná od:
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) konfidenční intervaly** — epistemická provenience pracuje s gradovanou jistotou, nikoli s binární paralýzou.
 - **OSINT verdict requirement** — investigace musí ukončit rozhodnutím (proceed/abort/escalate).
 
+## Literatura
+
+- Festinger, L., Riecken, H. W. & Schachter, S. (1956). *When Prophecy Fails*. Minneapolis: University of Minnesota Press.
+- James, W. (1902). *The Varieties of Religious Experience*. New York: Longmans, Green.
+- Kant, I. (1787). *Kritik der reinen Vernunft*. 2. vyd. Riga: Hartknoch.
+- Kruglanski, A. W. & Webster, D. M. (1996). Motivated closing of the mind. *Psychological Review*, 103(2), 263–283.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Loftus, E. F. & Pickrell, J. E. (1995). The formation of false memories. *Psychiatric Annals*, 25(12), 720–725.
+- Nolen-Hoeksema, S. (1991). Responses to depression and their effects on the duration of depressive episodes. *Journal of Abnormal Psychology*, 100(4), 569–582.
+- Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. New York: Guilford Press.
+- Yalom, I. D. (1980). *Existential Psychotherapy*. New York: Basic Books.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
-- Pokud diagnostikuješ na sobě, konzultuj se supervizí.
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L4 — kosmická, výhradně doktrinální analýza).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

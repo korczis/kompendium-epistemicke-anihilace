@@ -38,16 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 **Experienciální scaffolding** je technika strukturovaného vrstvení zkušenosti, kdy je každá nová epistemicky náročná kompetence stavěna nad **plně osvojenou** předchozí. Lešení (scaffold) je dočasná pedagogická opora, jež je systematicky odebírána (fading) — výsledkem je studentova autonomní kompetence v plně realistických podmínkách.
 
-## Operační modus
+## Struktura vzorce
 
-Technika je strukturována pěti až šesti sekvenčními kroky implementace:
+Experienciální scaffolding je pozorovatelný jako dočasnost opory: to, co ji odlišuje od trvalé pomoci, je pozorovatelné až v čase, totiž že opor ubývá. Wood, Bruner a Ross (1976) popsali tuto oporu jako převzetí těch částí úlohy, které jsou zatím nad síly učícího se, s tím, že se vracejí zpět, jakmile je zvládne.
 
-1. **Identifikace zone of proximal development** — kde je student nyní vs. cílová kompetence.
-2. **Návrh lešení** — explicitní opěrné body (rubriky, prompts, checklists, peer-pairs).
-3. **Modelování** — supervizor demonstruje plnou kompetenci; student pozoruje s metakognitivním deníkem.
-4. **Joint performance** — student a supervizor provedou techniku společně.
-5. **Independent performance s safety net** — student samostatně, supervizor monitoruje.
-6. **Fading** — postupné odstraňování každé opory přesně dokumentovaným tempem.
+Retrospektivně se v dobře vedené praxi dá rozlišit sled, v němž se znaky objevují. Nejdřív je patrný rozdíl mezi samostatným a podpořeným výkonem (Vygotsky, 1978). Pak bývá zachytitelné předvedení celé dovednosti zkušenějším, na něž navazuje společné provedení. Dále se podíl učícího se zvětšuje a opory — vodítka, osnovy, přítomnost druhého — mizí jedna po druhé. Nakonec zůstává výkon v podmínkách, které se nijak neliší od skutečných. Collins, Brown a Newman (1989) popisují tento sled jako učňovství v kognitivní podobě: předvedení, spoluúčast, ubývající opora. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
+
+Nepříznivý průběh se pozná podle toho, že opora nezmizí. Učící se vykazuje výkon jen v přítomnosti vedoucího a mimo ni ztrácí jistotu; Wood, Bruner a Ross (1976) upozorňují, že opora, která se neodebírá, přestává být lešením a stává se součástí stavby.
+
+*Interpretace knihy*: rozlišujícím znakem je, kde končí závislost. Dobrá opora pracuje na vlastním zrušení; kde se mění v trvalou potřebu vedoucího, vzniká epistemická závislost — totiž vztah, který tato kniha jinde popisuje jako podmínku zranitelnosti (Collins, Brown a Newman, 1989).
 
 ## Cílová populace
 
@@ -131,6 +130,12 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
 - **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink ([EA-3.1.6](@/kompendium/techniques/ea-3-1-6-recognition-training.md)) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
+## Literatura
+
+- Collins, A., Brown, J. S., & Newman, S. E. (1989). Cognitive apprenticeship: Teaching the crafts of reading, writing, and mathematics. In L. B. Resnick (Ed.), *Knowing, Learning, and Instruction*. Lawrence Erlbaum.
+- Vygotsky, L. S. (1978). *Mind in Society: The Development of Higher Psychological Processes*. Harvard University Press.
+- Wood, D., Bruner, J. S., & Ross, G. (1976). The role of tutoring in problem solving. *Journal of Child Psychology and Psychiatry*, 17(2).
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
@@ -152,17 +157,22 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud implementuješ instituci, máš schválení [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Zavedení takového výcviku v instituci je předmětem schválení
+  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
+  nikoli rozhodnutí jednotlivého čtenáře
 
-> **Mandatorní akce**: bez ověření institucionální governance, supervizní infrastruktury a evaluačního rámce nepoužívej tuto techniku jako samostatnou intervenci — pouze jako součást komplexního programu.
+> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
+> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
+> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

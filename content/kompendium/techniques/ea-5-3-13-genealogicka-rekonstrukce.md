@@ -36,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Genealogická rekonstrukce zpochybňuje subjektovo **rodinné a kulturní zakotvení**. Manipulátor systematicky reframuje subjektovu rodinu, etnicitu, kulturu jako 'pseudo-identitu', která má být překonána ve prospěch 'pravé identity' definované manipulátorem.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí člověka, který svůj původ — rodinu, kraj, kulturu — popisuje jako omyl, jejž je třeba opustit, a který na jeho místo staví příslušnost k jedné skupině, nauce nebo osobě. Nová příbuznost se podává jako objevená, nikoli zvolená. Styky s rodinou postižený přerušuje sám a přerušení zdůvodňuje věrností „pravé identitě“. Nadřazení doktríny osobním vazbám a zatížený jazyk popsal jako znaky totalistického prostředí (Lifton, 1961); měřitelné dimenze téhož shrnuje (Hassan, 2018), mechanismy udržení člena (Singer, 1995).
 
-### Krok 1 — Devalvace rodinného původu
+Postižení popisují, že vzpomínky na rodinu dostaly nový a soustavně nepříznivý výklad; že si nevybaví, kdy se tento výklad objevil; a že při kontaktu s příbuznými prožívají vinu vůči skupině. Že paměť na vlastní původ je nesena sociálními rámci, které ji udržují a mohou ji také přeznačit, rozpracoval (Halbwachs, 1925); mezigenerační závazky jako skutečnou a přitom zneužitelnou vrstvu vztahů popisují (Boszormenyi-Nagy & Spark, 1973). Že podrobnou a prožitkově přesvědčivou vzpomínku lze vytvořit sugescí, prokázaly (Loftus & Pickrell, 1995).
 
-'Tvoje rodina tě jen formovala, neurčuje, kdo jsi.'
+Zpětně se znaky skládají takto: nejprve znevažování původu, pak nabídka náhradní příbuznosti, pak přerušení rodinných vazeb a nakonec výklad celé proměny jako návratu k sobě. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Sled je rekonstrukcí z pozdějších zpráv postižených a jejich okolí; na omylnost takové zpětné rekonstrukce upozorňují (Loftus & Pickrell, 1995).
 
-### Krok 2 — Implantace alternativní genealogie
-
-Manipulátor poskytuje 'pravou rodinu' (skupina, doktrina, učitel).
-
-### Krok 3 — Konsolidace nové genealogie
-
-Subjekt aktivně přerušuje rodinné vazby ve jménu 'pravé identity'.
+*Interpretace knihy*: kritika vlastního původu je sama o sobě legitimní; rozlišujícím znakem je, že výklad pochází zvenčí a že jeho přijetí je podmínkou setrvání ve skupině (Stark, 2007).
 
 ## Fenomenologické znaky
 
@@ -102,6 +96,19 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **genealogická rekonstrukce** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.13.
+
+## Literatura
+
+- Boszormenyi-Nagy, I. & Spark, G. M. (1973). *Invisible Loyalties*. New York: Harper & Row.
+- Halbwachs, M. (1925). *Les cadres sociaux de la mémoire*. Paris: Alcan.
+- Hassan, S. (2018). *Combating Cult Mind Control*. 3. vyd. Newton: Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Loftus, E. F. & Pickrell, J. E. (1995). The formation of false memories. *Psychiatric Annals*, 25(12), 720–725.
+- SAMHSA (2014). *TIP 57: Trauma-Informed Care in Behavioral Health Services*. Rockville: SAMHSA.
+- Singer, M. T. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
+- Stark, E. (2007). *Coercive Control*. New York: Oxford University Press.
+- van der Kolk, B. (2014). *The Body Keeps the Score*. New York: Viking.
 
 ## Související
 
@@ -188,15 +195,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L3 — omezený doktrinální rámec).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

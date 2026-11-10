@@ -36,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Proto-self rozklad cílí na **nejzákladnější self-strukturu** — proto-self definovaný v Damasiánské tradici jako kontinuita základního body-mapping. Rozklad této úrovně vede k self-fragmentaci na úrovni, která předchází narativnímu i kognitivnímu self.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí projevy, které předcházejí jakémukoli vyprávění o sobě: člověk nedokáže funkčně odpovědět na otázku, kde právě je, tělo popisuje jako cizí předmět a vzpomínku na vlastní jednání neprovází pocit, že to byl on. Základní, tělesně ukotvená vrstva sebeprožívání je v neurovědeckém popisu předpokladem vrstev vyšších (Damasio, 1999).
 
-### Krok 1 — Disrupce body-mappingu
+Retrospektivně se sled znaků popisuje takto: nejprve se ztrácí ukotvení v tělesné sebepercepci, pak se rozpadá prožívání přítomného okamžiku jako souvislého, a nakonec jsou narušeny základní funkce, jako je jídlo a spánek. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Tělesný rozměr těchto stavů je v klinické literatuře dobře doložen (van der Kolk, 2014).
 
-Systematické rozpojení subjekta od základní tělesné self-percepce.
+Zvenčí jsou doložitelné projevy depersonalizace a derealizace a vyhledávání intenzivních stavů, aby se dostavil pocit vlastní existence. Tyto projevy mají vlastní klinický popis a vyžadují samostatné diferenciální posouzení (Sierra, 2009).
 
-### Krok 2 — Disrupce kontinuity okamžiku
-
-Narušení prožívání 'teď-tady' jako kontinuitního zážitku.
-
-### Krok 3 — Konsolidace proto-self fragmentace
-
-Subjekt operuje bez funkčního proto-self; každý okamžik je dezintegrován.
+*Interpretace knihy*: popsané projevy nejsou samy o sobě dokladem vnějšího působení; mají mnoho příčin, od neurologických po lékové, a jejich posouzení patří do rukou kliniky. Kniha je uvádí proto, aby se při jejich výskytu nepřehlédla otázka po prostředí. Jakákoli práce tu začíná bezpečím a stabilizací, nikoli výkladem (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -102,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **proto-self rozklad** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.24.
+
+## Literatura
+
+- Damasio, A. R. (1999). *The Feeling of What Happens: Body and Emotion in the Making of Consciousness*. Harcourt Brace.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Sierra, M. (2009). *Depersonalization: A New Look at a Neglected Syndrome*. Cambridge University Press.
+- van der Kolk, B. A. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma*. Viking.
 
 ## Související
 
@@ -188,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

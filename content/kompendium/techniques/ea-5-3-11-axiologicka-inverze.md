@@ -36,21 +36,17 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Axiologická inverze obrací subjektovu **hodnotovou strukturu**. Hodnoty, které byly subjektu klíčové (autonomie, čestnost, blaho blízkých), jsou systematicky reframovány jako 'falešné' nebo 'povrchní'. Hodnoty, které subjekt dříve odmítal (poslušnost, sebezapření, oddělení), jsou prezentovány jako 'pravé' nebo 'duchovně vyšší'.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí člověka, jehož rozhodnutí se obrátila proti tomu, co po léta hájil: opouští závazky, kariéru i etické zásady a obhajuje to hodnotovou mluvou, kterou okolí rozpozná jako slovník jedné konkrétní osoby nebo skupiny. Nápadné je, že výsledná rozhodnutí soustavně vycházejí ve prospěch téže strany. Vlastní dřívější hodnoty popisuje s pohrdáním jako nezralost. Požadavek čistoty a nadřazení nauky osobní zkušenosti patří ke znakům totalistického prostředí (Lifton, 1961).
 
-### Krok 1 — Devalvace baseline hodnot
+Postižení popisují vinu, kdykoli jednají podle toho, co dříve pokládali za správné; hrdost na rozhodnutí, jež jim prokazatelně škodí; a potíž vysvětlit, kdy a proč se posun stal. Blízké vztahy líčí jako zátěž. Že hodnoty tvoří uspořádaný celek, který nelze libovolně obracet bez ztráty orientace, rozpracoval (Scheler, 1916); že sebepojetí je drženo vyprávěním, v němž hodnocení a jednání musí držet pohromadě, (Ricoeur, 1990). Rozpad nosných předpokladů o sobě a o světě po dlouhodobém působení popisuje (Janoff-Bulman, 1992).
 
-'Autonomie je iluze ega', 'rodina tě omezuje', 'spravedlnost je naivní'.
+Nadřazení doktríny osobní zkušenosti, požadavek čistoty a zatížený jazyk patří mezi popsané znaky totalistického prostředí (Lifton, 1961); jejich měřitelné dimenze shrnuje (Hassan, 2018), mechanismy udržení člena (Singer, 1995).
 
-### Krok 2 — Implantace inverzních hodnot
+Zpětně se znaky skládají takto: nejprve znevažování dosavadních hodnot, pak předvádění obrácených hodnot jako vyšších, pak jednání podle nich a nakonec pohrdání vlastní dřívější hodnotovou strukturou. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Sled je rekonstrukcí z pozdějších zpráv postižených a jejich okolí; na omylnost takové zpětné rekonstrukce upozorňují (Loftus & Pickrell, 1995).
 
-Manipulátor systematicky předvádí inverzní hodnoty jako 'duchovně vyšší'.
-
-### Krok 3 — Konsolidace inverze
-
-Subjekt aktivně jedná podle inverzních hodnot, prožívá vlastní baseline jako 'minulou nezralost'.
+*Interpretace knihy*: rozlišující není obsah hodnot, ale asymetrie prospěchu a ztráta schopnosti o nich smlouvat (Stark, 2007).
 
 ## Fenomenologické znaky
 
@@ -102,6 +98,20 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **axiologická inverze** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.11.
+
+## Literatura
+
+- Hassan, S. (2018). *Combating Cult Mind Control*. 3. vyd. Newton: Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Janoff-Bulman, R. (1992). *Shattered Assumptions*. New York: Free Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Loftus, E. F. & Pickrell, J. E. (1995). The formation of false memories. *Psychiatric Annals*, 25(12), 720–725.
+- Ricoeur, P. (1990). *Soi-même comme un autre*. Paris: Seuil.
+- SAMHSA (2014). *TIP 57: Trauma-Informed Care in Behavioral Health Services*. Rockville: SAMHSA.
+- Scheler, M. (1916). *Der Formalismus in der Ethik und die materiale Wertethik*. Halle: Niemeyer.
+- Singer, M. T. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
+- Stark, E. (2007). *Coercive Control*. New York: Oxford University Press.
+- van der Kolk, B. (2014). *The Body Keeps the Score*. New York: Viking.
 
 ## Související
 
@@ -188,15 +198,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L3 — omezený doktrinální rámec).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

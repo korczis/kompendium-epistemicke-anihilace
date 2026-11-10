@@ -34,32 +34,27 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 ## Definice
 
-**Emergency extraction** představuje protokol nouzové extrakce subjektu z expozičního prostředí v situaci akutního ohrožení. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození.
+**Emergency extraction** představuje protokol nouzové extrakce subjektu z expozičního prostředí v situaci akutního ohrožení. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození. Akutní zásah má přitom vlastní rizika: podpora podaná plošně a bez volby nemá doloženou preventivní účinnost a u části lidí je spojena s horším výsledkem (Rose a kol., 2002).
 
-Tento článek **nemá operační charakter**: jeho účelem je výhradně **defenzivní rozpoznání**, **detekce neúmyslné manifestace** a **supervidovaná intervence**. Jakékoliv ofenzivní použití techniky je v rozporu s [doktrinou platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a její aplikace bez doložitelného etického rámce je explicitně zakázána.
+Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 
-Mechanismus, kterým technika operuje uvnitř supervidovaného rámce, spočívá v: předem nacvičená extrakční sekvence, dedikovaný extrakční tým a definovaný cílový stabilizační prostor mimo expoziční kontext. Tento popis slouží jako **referenční rámec pro detekci**, nikoliv jako návod k provedení.
+Rámec stanoví [doktrína platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
-## Operační modus (z hlediska supervize)
+## Struktura vzorce
 
-Technika prochází pěti supervizními fázemi, z nichž každá vyžaduje explicitní [souhlas subjektu](@/glossary/informed-consent.md), [IRB](@/glossary/irb-review.md) přezkum a doložitelnou kvalifikaci supervizora.
+Pozorovatel pozná legitimní nouzové přerušení podle toho, že je dohodnuto předem a že ho lze vyvolat i proti vůli toho, kdo protokol vede. Kde taková možnost chybí, je odchod vázán na souhlas prostředí, a tím přestává být odchodem (Faden a Beauchamp, 1986).
 
-### Fáze 1 — Indikační audit
-Identifikace, zda u konkrétního subjektu existuje legitimní indikace pro vstup do protokolu, a vyloučení známých kontraindikací (komorbidní psychiatrické poruchy, akutní krize, nedostatečná podpůrná síť).
+Druhý obraz je přerušení, které se promění v nátlak. Zasažený člověk popisuje, že byl přemístěn bez vysvětlení a bez možnosti se vyjádřit; jeho vlastní hodnocení situace nehrálo roli. Donucení v blízkém a závislém vztahu se přitom pozná spíš podle omezeného prostoru než podle jednotlivého činu (Stark, 2007).
 
-### Fáze 2 — Pre-expoziční stabilizace
-Etablování stabilní baseline psychofyzické kapacity subjektu, vytvoření individualizované [risk map](@/glossary/individual-risk-map.md) a explicitní dohoda o termincích zastavení.
+Retrospektivně se znaky objevují v pořadí: nejprve se zúží okruh těch, kdo mohou přerušení vyvolat, pak se přerušení začne vykládat jako selhání a nakonec se přestane používat. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Měřítkem zůstává, zda má člověk kam odejít (Herman, 1992).
 
-### Fáze 3 — Řízená expozice
-Postupná expozice s nepřetržitým monitoringem, eskalačními prahy a předem definovanými exit kritérii. Každý krok je dokumentován a podléhá supervizní validaci.
+*Interpretace knihy*: rozhodující není, co člověk prožil, ale zda si o tom smí myslet něco jiného.
 
-### Fáze 4 — Stabilizace a integrace
-Sjednocení expoziční zkušenosti do koherentní sebestruktury subjektu pod klinickou supervizí.
-
-### Fáze 5 — Dlouhodobé sledování
-Monitorování po dobu nejméně 24 měsíců s předem definovanými kontrolními body a dostupnou eskalační cestou.
+Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Bezpečnostní rámec
+
+Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama nálezem.
 
 | Mechanismus | Implementace |
 |--------------|--------------|
@@ -71,22 +66,15 @@ Monitorování po dobu nejméně 24 měsíců s předem definovanými kontrolní
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Kdy je rámec legitimní
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Legitimní rámec je pro tyto protokoly úzký a vždy vnější: doložená indikace, nezávislé posouzení poměru přínosu a rizika, odpovídající výběr účastníků a souhlas, který lze kdykoli odvolat. Nejde o formality, ale o minimum, bez něhož se zátěžová intervence ani výzkum nepovažují za eticky přijatelné (Emanuel, Wendler a Grady, 2000).
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+Hranici, která se dá pozorovat zvenčí, tvoří souhlas. Souhlas je proces, nikoli podpis, a v závislém postavení — zaměstnanec, podřízený, student, klient bez jiné možnosti — ho nelze číst jako svobodný; tam, kde je cíl protokolu komerční, soutěžní nebo politický, přestává jít o intervenci a začíná vzorec, který tato kniha popisuje (Faden a Beauchamp, 1986).
 
 ## Klinické markery (neúmyslná manifestace)
 
-Co může klinik nebo supervizor pozorovat, pokud se technika manifestuje **mimo** supervidovaný rámec — v důsledku patologické sociální struktury, kultovního prostředí, abusivního vztahu nebo neetické instituce:
+Následující znaky jsou to, co klinik, supervizor nebo vyšetřující pozoruje u člověka, který prošel nestrukturovaným ekvivalentem protokolu — v kultovním prostředí, v abusivním vztahu nebo v neetické instituci. Jde o rozpad vztahu k vlastnímu příběhu, jak ho popsala Herman (1992).
 
 | Marker | Indikuje |
 |--------|----------|
@@ -97,88 +85,44 @@ Co může klinik nebo supervizor pozorovat, pokud se technika manifestuje **mimo
 | [Sociální izolace](@/glossary/socialni-izolace.md) s jediným referenčním zdrojem autority | Strukturální rizikový kontext |
 | Časová dezorientace ve vztahu k vlastnímu životnímu příběhu | Indukovanou temporální disrupci |
 
-Detekce vyžaduje **diferenciální diagnózu** vůči primárním psychiatrickým stavům (disociativní poruchy, PTSD, psychotická spektra) a vůči [legitimní transformativní zkušenosti](@/glossary/transformative-experience.md).
+Detekce vyžaduje diferenciální diagnózu vůči primárním psychiatrickým stavům (disociativní poruchy, PTSD, psychotická spektra) a vůči [legitimní transformativní zkušenosti](@/glossary/transformative-experience.md); přehled doložených případů, kdy dobře míněná intervence poškodila, ukazuje, jak snadno se obojí zamění (Lilienfeld, 2007).
 
-## Klinické pozadí
+## Odlišení od neškodných jevů
 
-Technika **EA-4.2.10** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu [polyvagální teorie](@/glossary/polyvagalni-teorie.md) (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje etická governance vysokorizikové výzkumné nebo intervenční expozice.
+Od neškodných jevů se vzorec odlišuje tím, co po něm zůstává. Náročný výcvik, otřesná zkušenost i hluboká změna hodnot samy o sobě nic neznamenají; poznávacím znakem je ztráta schopnosti vlastní zkušenost zpochybnit a vyprávět ji jinak než jediným předepsaným způsobem (Herman, 1992).
 
-**Klinické zacílení**: etické rámce pre/inter/post-engagement supervize ve studiích s extrémní expozicí (forenzní psychiatry, vojenský výzkum, kult-deconstruction protokoly). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+Druhým rozlišovacím hlediskem je dohledatelnost. Legitimní rámec po sobě nechává zápis: kdo posoudil poměr přínosu a rizika, co bylo sporné a za jakých podmínek se mělo zastavit. Kde takový zápis chybí, nelze o supervidovaném protokolu mluvit bez ohledu na to, jak se prostředí samo popisuje (Belmont Report, 1979).
 
-**DSM-5-TR / ICD-11 mapování**: technika je primárně indikována pro diagnózy odpovídající primárně preventivní rámec mapovaný proti DSM-5-TR Z71.9 (counseling), Z73.3 (stress, life-management), v ICD-11 odpovídá QD80 Problémy spojené s prací nebo nezaměstnaností. V rámci ICD-11 6B41 Complex PTSD (CPTSD) představuje technika klíčovou intervenční komponentu pro tři jádrové domény CPTSD: dysregulace afektu, negativní sebepojetí a relační poruchy. Diferenciální diagnostika musí explicitně vyloučit primární psychotické spektra (F20-F29 / 6A2X), bipolární poruchy (F31 / 6A6X) a organické afektivní poruchy (F06.3X / 6E62).
+## Rizikové kontexty
 
-**Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
+Rizikovým kontextem je prostředí bez cílového bezpečného místa. Přerušení, které vede zpět do téhož prostředí, mění jen formu zátěže (Hobfoll a kol., 2007).
 
-**Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
-
-## Vulnerabilní podpopulace
-
-Aplikace techniky **EA-4.2.10** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
-
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), zkrácená sezení (30-45 min vs. 60-90 min standard), vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
-
-**Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
-
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci (atypická antipsychotika), úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
-
-**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise (≥ 90 dní), poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
-
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training 12-24 týdnů) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
-
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence do 6 měsíců post-partum.
-
-## Outcome měření
-
-Validace efektivity techniky vyžaduje multidimenzionální outcome battery aplikovanou v klinicky validovaných intervalech:
-
-**Primární outcome instrumenty** (administrace baseline / mid-treatment / termination / 3-month FU / 12-month FU):
-
-| Instrument | Doména | Klinicky významná změna |
-|------------|--------|--------------------------|
-| **PCL-5** | PTSD symptomy (DSM-5) | ≥ 10-bodová redukce, sub-threshold < 33 |
-| **ITQ** | ICD-11 PTSD/CPTSD | DSO klinicky pod prahem, redukce ≥ 30% |
-| **CAPS-5** | Klinicián-administrovaná PTSD | ≥ 30% redukce celkového skóru |
-| **DERS** | Emoční regulace | g ≥ 0.5 pre-post |
-| **WHODAS 2.0** | Funkční disabilita | ≥ 5-bodová redukce |
-
-**Sekundární outcome**:
-
-- **PHQ-9** (depresivní symptomatologie, target < 10)
-- **GAD-7** (úzkostná symptomatologie, target < 10)
-- **DES-II** (disociativní symptomatologie, target < 30)
-- **WAI-SR** (terapeutická aliance, target ≥ 25. percentil)
-- **CGI-S** (klinické globální zhodnocení)
-- **PSQI** (kvalita spánku)
-
-**Benchmarks pro úspěch intervence**:
-
-- **Reliable Change Index (RCI)** > 1.96 na PCL-5 (Jacobson & Truax, 1991)
-- **Clinical Significance**: post-treatment skór v rámci 1 SD nontraumatizované normy
-- **Functional Recovery**: WHODAS 2.0 skór ≤ percentil 75 srovnatelné populace
-- **Sustained Remission**: udržení nad RCI prahem v 12měsíčním FU
+Druhým rizikovým kontextem je přerušení vedené proti vůli dospělého člověka. Hranice mezi ochranou a donucením je zde tenká a její překročení reprodukuje právě ten vzorec, který má přerušení ukončit (Stark, 2007).
 
 ## Vztah k jiným technikám
 
-### V rámci subkategorie 4.2 Bezpečnostní protokoly
-  - [EA-4.2.1 Pre-engagement screening](@/kompendium/techniques/ea-4-2-1-pre-engagement-screening.md)
-  - [EA-4.2.2 Real-time monitoring](@/kompendium/techniques/ea-4-2-2-real-time-monitoring.md)
-  - [EA-4.2.3 Post-engagement reintegration](@/kompendium/techniques/ea-4-2-3-post-engagement-reintegration.md)
-  - [EA-4.2.4 IRB review multi-tier](@/kompendium/techniques/ea-4-2-4-irb-review-multi-tier.md)
-  - [EA-4.2.5 Whistleblower protection](@/kompendium/techniques/ea-4-2-5-whistleblower-protection.md)
-
-### Provázanost mezi subkategoriemi 4
-  - [EA-4.3.1 Systematic conceptual disassembly](@/kompendium/techniques/ea-4-3-1-systematic-conceptual-disassembly.md)
-
-### Cross-kategoriální vazby
-- **[EA 2 1 3 CREDENTIALING ATTACK](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md)** — akademická vrstva, jejíž eskalace může vést k terminální fázi.
-- **[EA 1 3 2 STRATEGICKA REINTERPRETACE](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)** — související vstupní mechanismus.
-- **[EA 5 1 2 KONCEPTUALNI NIHILACE](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md)** — ultramární technika strukturálně příbuzná, vyžadující ostřejší distinktivní detekci.
+| Stránka | Vztah |
+|---|---|
+| [EA-4.2.1 Pre-engagement screening](@/kompendium/techniques/ea-4-2-1-pre-engagement-screening.md) | Stránka ze stejného okruhu knihy. |
+| [EA-4.2.2 Real-time monitoring](@/kompendium/techniques/ea-4-2-2-real-time-monitoring.md) | Stránka ze stejného okruhu knihy. |
+| [EA-4.2.3 Post-engagement reintegration](@/kompendium/techniques/ea-4-2-3-post-engagement-reintegration.md) | Stránka ze stejného okruhu knihy. |
+| [EA-4.2.4 IRB review multi-tier](@/kompendium/techniques/ea-4-2-4-irb-review-multi-tier.md) | Stránka ze stejného okruhu knihy. |
+| [EA-4.2.5 Whistleblower protection](@/kompendium/techniques/ea-4-2-5-whistleblower-protection.md) | Stránka ze stejného okruhu knihy. |
+| [EA-4.3.1 Systematic conceptual disassembly](@/kompendium/techniques/ea-4-3-1-systematic-conceptual-disassembly.md) | Stránka ze stejného okruhu knihy. |
+| [EA 2 1 3 CREDENTIALING ATTACK](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) | Stránka ze stejného okruhu knihy. |
+| [EA 1 3 2 STRATEGICKA REINTERPRETACE](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) | Stránka ze stejného okruhu knihy. |
+| [EA 5 1 2 KONCEPTUALNI NIHILACE](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md) | Stránka ze stejného okruhu knihy. |
 
 ## Literatura
 
-- Hobfoll, S. E. et al. (2007). Five essential elements of immediate and mid-term mass trauma intervention: Empirical evidence. *Psychiatry*.
+- Emanuel, E. J., Wendler, D., & Grady, C. (2000). What makes clinical research ethical? *JAMA*.
+- Faden, R. R., & Beauchamp, T. L. (1986). *A History and Theory of Informed Consent*. Oxford University Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Hobfoll, S. E., Watson, P., Bell, C. C., Bryant, R. A., Brymer, M. J., Friedman, M. J., et al. (2007). Five essential elements of immediate and mid-term mass trauma intervention: Empirical evidence. *Psychiatry*.
+- Lilienfeld, S. O. (2007). Psychological treatments that cause harm. *Perspectives on Psychological Science*.
 - National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research (1979). *The Belmont Report*.
-- Roberts, A. R. (Ed.) (2005). *Crisis Intervention Handbook* (3. vyd.). Oxford University Press.
+- Rose, S., Bisson, J., Churchill, R., & Wessely, S. (2002). Psychological debriefing for preventing post traumatic stress disorder (PTSD). *Cochrane Database of Systematic Reviews*.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 
@@ -199,12 +143,16 @@ Validace efektivity techniky vyžaduje multidimenzionální outcome battery apli
 - [Coerce léčba a EA framework](@/kompendium/critical-perspectives/16-treatment-coercion-risk.md) – kdy se extrakce mění v nátlak.
 - [Informovaný souhlas](@/glossary/informed-consent.md) – předem dohodnutá pravidla přerušení.
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před jakoukoliv prací s touto technikou** (i v rámci čistě diagnostické konzultace) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L2 = doložená kvalifikace + supervize).
-- Máš funkční [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) na úrovni odpovídající rizikovému profilu techniky.
-- Pokud diagnostikuješ na sobě nebo na blízkém kontaktu, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí.
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+  (L2 = doložená kvalifikace a supervize).
+- Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající rizikovému profilu stránky.
+- Stránka není nástroj sebediagnostiky; podezření na sebe nebo na blízkou osobu patří
+  k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+  a ke konzultaci se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně, IRB rámce a klinické supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický a defenzivní popis pro detekci.
+> **Rámec čtení**: stránka popisuje rozpoznatelný vzorec, nikoli nástroj.

@@ -40,29 +40,15 @@ Klíčové pojmenování — **diferenciální** vs. *globální* — záměrně
 
 Diferenciální nihilace je **prerekvizitou** několika dalších ultramarine technik (zejména [EA-5.1.23 asymptotické dezintegrace](@/kompendium/techniques/ea-5-1-23-asymptoticka-dezintegrace.md) a [EA-5.1.24 epistemické vakuace](@/kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md)) — bez kolapsu distinkcí by nemohlo dojít k terminálnímu vakuu, neboť subjekt by stále disponoval nástroji k rekonstrukci pole.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích:
+Diferenciální nihilace se pozorovateli ukazuje na slovníku dřív než na názorech. Zasažený člověk pořád mluví, reaguje i argumentuje, ale rozdíly, které jeho řeč dřív nesly, z ní mizí: argument, apel a vyprávění splývají v souhrnné „promluvy“, dřív pečlivě oddělované termíny se zaměňují a projev lexikálně chudne. Okolí přitom zaznamenává opakovaný pocit, že „to je v zásadě totéž“, i tam, kde jde o věci různé, a v pokročilejším stavu neschopnost dřívější rozlišení vůbec zopakovat.
 
-### Krok 1 — Identifikace **rozlišovacího aparátu** subjektu
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejdřív bývají zasaženy hraniční případy, v nichž rozdíl skutečně jasný není a jejichž výběr je nápadně jednostranný. Pak se z toho, že některé případy jsou nejasné, stává tvrzení o celé distinkci — tedy záměna existenčního kvantifikátoru za univerzální, která zůstává v argumentaci zasaženého člověka jako stopa. Teprve pak se zplošťuje běžný slovník a nakonec je samotná snaha o jemné rozlišení označena za pedanterii a scholastiku, takže k tlaku kognitivnímu přistupuje tlak statusový. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Operátor mapuje, jaké distinkce subjekt aktuálně používá: rozdíly mezi argumentem a apelem, mezi důkazem a domněnkou, mezi normativním a deskriptivním, mezi metodologickou a substantivní kritikou. Cílem mapování je identifikovat **klíčové páry**, jejichž kolaps by znamenal nejvýraznější ztrátu orientace.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: zaměňování dřív oddělovaných termínů, chudnoucí slovník, kvantifikační záměny ve vlastní argumentaci a znehodnocování jemnosti.
 
-### Krok 2 — Postupné **rozostřování** hraničních případů
-
-Místo přímého útoku na distinkci jsou systematicky předkládány **hraniční případy**, kde rozdíl mezi A a B není jasný. Subjekt je opakovaně vyzýván k posuzování takových případů; postupně si zvyká, že „rozdíl mezi A a B je často těžko stanovitelný“. Klíčové: hraniční případy jsou **vybrané strategicky**, nikoli reprezentativně.
-
-### Krok 3 — Generalizace nejasnosti na **celou distinkci**
-
-Z toho, že **některé** případy jsou hraniční, je odvozena teze, že **celá distinkce** je problematická. „Pokud nelze v některých případech rozlišit A od B, je samotný rozdíl A/B konstrukcí.“ Argumentace operuje **kvantifikační záměnou** — z existenčního „některé“ vyvozuje univerzální „všechny“.
-
-### Krok 4 — **Performativní zplošťování** v běžném diskurzu
-
-Operátor systematicky používá zploštěný slovník: tam, kde dříve subjekt rozlišoval, hovoří operátor souhrnně. „Argumenty, apely, narativy — to vše jsou prostě promluvy.“ Subjekt si na tento jazyk zvyká a postupně přejímá jeho strukturu. Klíčové: změna nastává v **lingvistické rovině** dříve než v rovině reflexe.
-
-### Krok 5 — Konsolidace skrze **delegitimizaci jemnosti**
-
-V terminálním stadiu je samotná snaha o jemné rozlišování delegitimizována jako **pedanterie**, **scholastika**, **akademická hra**. „Skutečný život se neptá po jemných rozdílech.“ Subjekt, který se k jemnosti pokusí vrátit, je sociálně označen jako neefektivní, odtržený, mimo. Tlak je nejen kognitivní, ale i **statusový**.
+*Interpretace knihy*: sjednocování kategorií samo znakem vzorce není. Rozhoduje, kam vede: teoretická integrace dělí nakonec jemněji, zatímco tento vzorec dělit přestává. Právě tímto kritériem se obojí odliší, jak k rozlišovacím kritériím vede [jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 ## Fenomenologické znaky
 
@@ -197,9 +183,9 @@ V postgraduálním programu byl studentům prezentován výklad, podle něhož �
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -210,8 +196,10 @@ V postgraduálním programu byl studentům prezentován výklad, podle něhož �
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -40,27 +40,15 @@ Aporie (řecky *ἀπορία*, „bezvýchodnost“) je v antické filozofické
 
 Strukturní rys: aporie není u jednotlivých pojmů (klasické *ti esti?* otázky o spravedlnosti, vědění, zbožnosti), ale **napříč pojmovostí**. Subjekt nedokáže formulovat **žádný** pojem bez aporetického kolapsu. Tento stav je strukturálně blízký terminálním fázím [EA-5.2.7 kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md), ale operuje specifičně na rovině **pojmu**, ne kategorie. Pojem je užší — kategorie je transcendentální struktura, pojem je konkrétní obsahová operace.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Zviditelnění pojmovosti
+Pozorovatel pozná vzorec podle nepoměru mezi objemem a výtěžkem: postižený produkuje dlouhé texty o nemožnosti pojmu a žádný pojem neformuluje. Rozbor se nikdy neuzavře; každé vymezení se v průběhu formulace rozpadne a rozpad se podává jako strukturní vlastnost pojmovosti, ne jako místní obtíž. Nápadný je performativní rozpor: v praktickém jednání týž pojem bez obtíží používá. Hyperreflexi, při níž výkon zůstává a mizí jeho samozřejmost, rozpracoval (Sass, 1992).
 
-Manipulátor směřuje subjekta k **explicitní reflexi pojmu**: *„Co přesně myslíš slovem 'X'?“*. Tato fáze je **legitimní filozofickou prací** — sokratovská metoda, analytická koncepční analýza.
+Postižení popisují vyčerpání z práce, která nikdy nedospěje k závěru; ostrý odpor vůči běžnému, „naivnímu“ užívání slov; a vzájemné potvrzování s ostatními, kteří jsou na tom stejně. Opakované zpracování bez uzávěru jako udržovací faktor úzkosti a deprese popisuje (Wells, 2009), ruminaci ve stejném smyslu (Nolen-Hoeksema, 1991). Hyperreflexi, která schopnosti neodnímá, ale znemožňuje jejich samozřejmé použití, rozpracoval (Sass, 1992) a v klinickém kontextu (Sass & Parnas, 2003).
 
-### Krok 2 — Indukce aporetického přesouvání
+Zpětně se znaky skládají takto: nejprve soustředěné zkoumání jednoho pojmu, pak přenesení téhož vzoru na další pojmy, pak jeho zautomatizování na širokou třídu a nakonec výklad výsledné paralýzy jako filozofické hloubky, který okruh potvrzuje. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Zatížený jazyk, v němž několik obratů nese výklad i obranu proti námitce, popsal (Lifton, 1961).
 
-Subjekt je veden k **postupnému zužování** pojmu, dokud nenarazí na **rozpor** nebo **regresivní strukturu**. Manipulátor zdůrazňuje, že rozpor **není jen lokální problém**, ale **strukturní vlastnost** pojmu.
-
-### Krok 3 — Generalizace aporie
-
-Manipulátor přenáší aporetický vzor z jednoho pojmu na další: *„Stejně jako 'X' produkuje aporii, podívej se na 'Y'…“*. Postupně subjekt **trénuje aporetickou citlivost**.
-
-### Krok 4 — Saturace
-
-Subjekt je veden k aporetické analýze **široké třídy pojmů** — etických, epistemických, ontologických, modálních, časových. Postupně se **aporetická citlivost** stává **automatickou**: každý pokus o pojem aktivuje aporetický vzor.
-
-### Krok 5 — Konsolidace stavu
-
-Stav globální aporie je **legitimizován** jako *„filozofická hloubka“*, *„viděním omezenosti pojmovosti“*, *„transcendentální skromností“*. Subjekt **odmítá vrátit se** k běžnému pojmovému fungování, protože návrat by byl **regrese do naivity**.
+*Interpretace knihy*: sókratovské aporie jsou produktivní, protože vedou k vymezení toho, co se neví; zde k ničemu nevedou. Že význam drží užití ve sdílené praxi (Wittgenstein, 1953) a že i základní rozdíly jsou předmětem argumentu (Quine, 1951), jsou teze o tom, čím pojmy drží, nikoli o tom, že nedrží.
 
 ## Fenomenologie
 
@@ -80,7 +68,7 @@ V pokročilých stadiích kombinace s [EA-5.2.6 transcendentální rekurzivitou]
 | Subjekt **nedokáže dokončit** pojmovou analýzu situace | Funkční konceptuální aporie |
 | **Pseudoproduktivita** — texty o nemožnosti pojmu, bez pojmu | Strukturální absence pojmového výstupu |
 | **Specifická intelektuální únava** | Vyčerpání pojmové práce bez uzávěru |
-| **Komunitní legitimizace** stavu jako filozofické hloubky | Krok 5 konsolidace |
+| **Komunitní legitimizace** stavu jako filozofické hloubky | Fáze — konsolidace |
 | **Averze k běžnému pojmovému fungování** — pejorativně označovanému jako naivita | Strukturální averze |
 | Subjekt **používá pojem** prakticky, ale **odmítá ho použít** v reflexi | Performativní rozpor jako diagnostika |
 
@@ -177,6 +165,19 @@ Intervence: editoriální intervence, povinný **stylistický** rámec, redukce 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** vyžaduje **konkrétní formulaci** rozhodovaných pojmů; aporetická paralyzace by zablokovala vstup.
 - **OSINT framework** strukturálně vyžaduje **operacionalizované** pojmy (entity, atribut, relace), které musí být **funkčně použitelné**.
 
+## Literatura
+
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Jaspers, K. (1913). *Allgemeine Psychopathologie*. Berlin: Springer.
+- Kruglanski, A. W. & Webster, D. M. (1996). Motivated closing of the mind. *Psychological Review*, 103(2), 263–283.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Nolen-Hoeksema, S. (1991). Responses to depression and their effects on the duration of depressive episodes. *Journal of Abnormal Psychology*, 100(4), 569–582.
+- Quine, W. V. O. (1951). Two dogmas of empiricism. *The Philosophical Review*, 60(1), 20–43.
+- Sass, L. A. & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.
+- Sass, L. A. (1992). *Madness and Modernism*. Cambridge, MA: Harvard University Press.
+- Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. New York: Guilford Press.
+- Wittgenstein, L. (1953). *Philosophische Untersuchungen*. Oxford: Blackwell.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
@@ -190,21 +191,15 @@ Intervence: editoriální intervence, povinný **stylistický** rámec, redukce 
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L3 — omezený doktrinální rámec).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

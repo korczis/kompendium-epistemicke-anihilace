@@ -55,7 +55,7 @@
       },
       {
         "code": "EA-1.3.2",
-        "in": 81,
+        "in": 82,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
         "tier": 6,
@@ -75,7 +75,7 @@
       },
       {
         "code": "EA-1.3.3",
-        "in": 54,
+        "in": 55,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
         "tier": 6,
@@ -85,12 +85,22 @@
       },
       {
         "code": "EA-2.1.1",
-        "in": 52,
+        "in": 53,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-2-1-1-expertni-disinflation.md",
         "tier": 6,
         "title": "EA-2.1.1 Expertní disinflace",
         "url": "/kompendium/techniques/ea-2-1-1-expertni-disinflation/",
+        "why": "description"
+      },
+      {
+        "code": "EA-1.4.1",
+        "in": 46,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+        "tier": 6,
+        "title": "EA-1.4.1 Prosodická dominance",
+        "url": "/kompendium/techniques/ea-1-4-1-prosodicka-dominance/",
         "why": "description"
       },
       {
@@ -101,16 +111,6 @@
         "tier": 6,
         "title": "Narrative identity (narativní identita – filosofické pojetí)",
         "url": "/glossary/narrative-identity/",
-        "why": "description"
-      },
-      {
-        "code": "EA-1.4.1",
-        "in": 45,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
-        "tier": 6,
-        "title": "EA-1.4.1 Prosodická dominance",
-        "url": "/kompendium/techniques/ea-1-4-1-prosodicka-dominance/",
         "why": "description"
       },
       {

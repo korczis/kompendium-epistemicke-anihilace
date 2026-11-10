@@ -40,6 +40,39 @@
   </div>
 </section>
 
+{#- Upozornění: proč kniha není pro každého. Flowbite alert hned pod úvodem, před vším ostatním. -#}
+<div class="px-4 pt-6">
+  <div class="flex flex-col gap-4 rounded-lg border border-yellow-300 bg-yellow-50 p-4 text-yellow-900 sm:p-6 lg:flex-row dark:border-yellow-700 dark:bg-gray-800 dark:text-yellow-200" role="note" aria-labelledby="upozorneni-title">
+    <svg class="h-6 w-6 shrink-0 text-yellow-600 dark:text-yellow-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
+    <div class="min-w-0 flex-1">
+      <h2 id="upozorneni-title" class="text-lg font-semibold">Proč tato kniha není pro každého</h2>
+      <p class="mt-1 text-sm">Kompendium popisuje, jak lze systematicky rozkládat lidské poznávání, aby šlo takové působení rozpoznat, předejít mu a léčit jeho následky. Takové poznání má dvojí užití a čtení může být zatěžující.</p>
+      <div class="mt-4 grid gap-4 text-sm md:grid-cols-3">
+        <div>
+          <p class="font-semibold">Pro koho je</p>
+          <p class="mt-1">Pro odborníky a odborně připravené čtenáře: psychiatry, psychology, terapeuty, vyšetřovatele, filozofy a výzkumníky, kteří s tímto poznáním pracují v obraně a péči.</p>
+        </div>
+        <div>
+          <p class="font-semibold">Kdy ji teď nečíst</p>
+          <p class="mt-1">Pokud procházíte akutní krizí, žijete v manipulativním nebo násilném vztahu nebo ve skupině s vysokou mírou kontroly, nebo vás podobné texty silně rozrušují. Popisy mechanismů nejsou náhradou pomoci a mohou zátěž prohloubit.</p>
+        </div>
+        <div>
+          <p class="font-semibold">K čemu neslouží</p>
+          <p class="mt-1">Není to návod ani operativní manuál. Mechanismy jsou popsány na úrovni struktury, aby šly rozpoznat, ne provádět. Kniha není diagnostický nástroj ani náhrada odborné péče.</p>
+        </div>
+      </div>
+      <div class="mt-4 rounded-lg bg-white/70 p-3 text-sm dark:bg-gray-900/60">
+        <p><span class="font-semibold">Potřebujete pomoc hned?</span> Tísňové volání <a class="font-semibold underline hover:no-underline" href="tel:112">112</a>, záchranná služba <a class="font-semibold underline hover:no-underline" href="tel:155">155</a>, Linka první psychické pomoci <a class="font-semibold underline hover:no-underline" href="tel:116123">116 123</a> (nonstop, zdarma).</p>
+      </div>
+      <div class="mt-4 flex flex-wrap gap-2">
+        <a href="{{ get_url(path='@/kompendium/01-predmluva/eticke-aspekty.md') }}" class="inline-flex items-center rounded-lg bg-yellow-600 px-3 py-2 text-sm font-medium text-white hover:bg-yellow-700 focus:outline-none focus:ring-4 focus:ring-yellow-300 dark:bg-yellow-500 dark:text-gray-900 dark:hover:bg-yellow-400 dark:focus:ring-yellow-800">Etické aspekty</a>
+        <a href="{{ get_url(path='@/kompendium/01-predmluva/pro-koho-je-urceno.md') }}" class="inline-flex items-center rounded-lg border border-yellow-400 bg-white px-3 py-2 text-sm font-medium text-yellow-900 hover:bg-yellow-100 focus:outline-none focus:ring-4 focus:ring-yellow-300 dark:border-yellow-700 dark:bg-gray-800 dark:text-yellow-200 dark:hover:bg-gray-700 dark:focus:ring-yellow-800">Pro koho je kniha určena</a>
+        <a href="{{ get_url(path='@/kompendium/emergency-protocols/_index.md') }}" class="inline-flex items-center rounded-lg border border-yellow-400 bg-white px-3 py-2 text-sm font-medium text-yellow-900 hover:bg-yellow-100 focus:outline-none focus:ring-4 focus:ring-yellow-300 dark:border-yellow-700 dark:bg-gray-800 dark:text-yellow-200 dark:hover:bg-gray-700 dark:focus:ring-yellow-800">Krizové protokoly</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="px-4 pt-6">
   <div class="grid w-full grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
     {%- for stat in [[total, "stránek knihy", "kapitoly a kolekce · stav knihy", stav.permalink], [techniques.pages | length, "technik", "katalog EA-X.Y.Z", techniques.permalink], [cases.pages | length + history.pages | length, "případových studií", "kazuistiky a historické případy", cases.permalink], [glossary.pages | length, "hesel glosáře", "pojmy, na které kniha odkazuje", glossary.permalink]] %}
@@ -79,10 +112,6 @@
       </ol>
     </div>
     <div class="space-y-4">
-      <div class="rounded-lg border border-yellow-300 bg-yellow-50 p-4 text-sm text-yellow-800 sm:p-6 dark:border-yellow-800 dark:bg-gray-800 dark:text-yellow-300" role="note">
-        <h2 class="mb-2 text-base font-semibold">Poznání s dvojím užitím</h2>
-        <p>Kompendium je defenzivní taxonomie: popisuje mechanismy, aby je šlo rozpoznat, předejít jim a léčit jejich následky. Není to operativní manuál ani náhrada odborné péče. Před čtením technických kapitol si přečtěte <a class="rounded font-medium underline hover:no-underline focus:outline-none focus:ring-2 focus:ring-yellow-500" href="{{ get_url(path='@/kompendium/01-predmluva/eticke-aspekty.md') }}">etické aspekty</a>.</p>
-      </div>
       <a href="{{ get_url(path='@/kompendium/01-predmluva/jak-pouzivat.md') }}" class="group block rounded-lg bg-white p-4 shadow hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-800 sm:p-6 dark:bg-gray-800 dark:hover:bg-gray-700">
         <h2 class="mb-2 text-xl font-bold leading-none text-gray-900 dark:text-white">Pro koho</h2>
         <p class="text-sm text-gray-500 dark:text-gray-400">{{ section.extra.audience }}</p>

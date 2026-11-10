@@ -1,81 +1,100 @@
 +++
 title = "Popperianismus"
 weight = 100
-description = "Popperianismus — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
+description = "Kritický racionalismus Karla Poppera: falsifikace, otevřenost kritice a jejich role v rozpoznávání uzavřených, sebepotvrzujících doktrín."
 
 [taxonomies]
-tags = ["glossary", "architecture", "interactive"]
+tags = ["glossary", "kompendium", "philosophy", "epistemologie", "science"]
 
 [extra]
-category = "architecture"
-related_terms = ["acid-transactions", "accreditation", "3nl", "adapter", "adversarial-architecture", "actor-model"]
+category = "philosophy-of-science"
+related_terms = ["falsifikovatelnost", "falsifikace", "falsifikabilita", "pseudoscience", "lakatos-vyzkumny-program", "kuhnova-revoluce"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 ref_count_at_creation = 1
 +++
 
-## Definition
+## Definice
 
-**Popperianismus** is a platform-architecture term used across the Prismatic Platform documentation. This entry is a structural stub created during the 2026-05-03 NLLB content-completion sweep — full treatment is part of the ongoing knowledge-base buildout.
+**Popperianismus** (kritický racionalismus) je epistemologický a politicko-filosofický směr vycházející z díla Karla Raimunda Poppera. Jeho jádrem jsou tři teze:
 
-## See Also
+1. **Poznání postupuje domněnkami a vyvracením.** Teorie nelze definitivně potvrdit, lze je však vystavit testu, který by je mohl vyvrátit.
+2. **Kritérium demarkace.** Vědecká teorie je taková, která zakazuje určité pozorovatelné stavy, a je tedy [falsifikovatelná](@/glossary/falsifikovatelnost.md). Teorie, kterou nelze vyvrátit žádným myslitelným pozorováním, není silná, ale prázdná.
+3. **Otevřenost kritice jako institucionální hodnota.** Racionální není ten, kdo má pravdu, ale ten, kdo vytváří podmínky, aby se jeho omyly mohly ukázat.
 
-- [Glossary index](@/glossary/_index.md)
+Pro Kompendium je popperianismus především **diagnostický nástroj**: pomáhá rozpoznat doktrínu, která se strukturálně uzavřela vůči jakékoli zpětné vazbě.
 
----
+## Původ a kontext pojmu
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Popper formuloval teorii falsifikace v knize *Logik der Forschung* (1934; anglicky rozšířeně jako *The Logic of Scientific Discovery*, 1959) v polemice s verifikacionismem Vídeňského kruhu. Ve sbírce *Conjectures and Refutations* (1963) popsal, jak ho k demarkaci přivedlo srovnání Einsteinovy teorie, která riskantně předpověděla pozorovatelný jev, s teoriemi, které dokázaly „vysvětlit“ jakékoli chování, a proto nic nevylučovaly. V díle *The Open Society and Its Enemies* (1945) přenesl stejný princip do politiky: otevřená společnost je ta, která umí opravovat své chyby bez násilí, uzavřená ta, která si nárokuje konečnou pravdu.
 
-## Manažerské shrnutí
+Kritika přišla záhy. Imre Lakatos ([výzkumný program](@/glossary/lakatos-vyzkumny-program.md)) ukázal, že vědci jednotlivé vyvrácení často oprávněně absorbují pomocnými hypotézami a že je třeba hodnotit celé programy podle toho, zda jsou progresivní, nebo degenerativní. Thomas Kuhn ([Kuhnova revoluce](@/glossary/kuhnova-revoluce.md)) popsal normální vědu jako práci uvnitř paradigmatu, který se snadno nevzdává. Duhemova–Quinova teze připomíná, že testujeme vždy celý svazek předpokladů (viz [Quine: síť přesvědčení](@/kompendium/07-teoreticke-reflexe/quine-web-of-belief.md)). Popperianismus tak dnes funguje spíš jako regulativní ideál než jako přesný algoritmus.
 
-**Popperianismus** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Jak se projevuje
 
+Popperovský postoj u jednotlivce nebo instituce poznáme podle toho, že:
 
-## Koncepční síť
+- umí předem říct, **co by jeho tvrzení vyvrátilo**;
+- vítá a hledá **nejsilnější protiargument**, ne nejslabší;
+- rozlišuje mezi **přizpůsobením teorie** novým datům a jejím **imunizováním**;
+- uchovává chyby jako zdroj učení (záznamy, revize, oprava veřejně).
 
-Vizualizace propojení **Popperianismus** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+Jeho absence se pozná podle opaku: každý výsledek potvrzuje doktrínu, kritik je sám prohlášen za důkaz její pravdivosti, otázka „co by tě přesvědčilo o opaku?“ vyvolá pohoršení místo odpovědi.
 
-```mermaid
-graph TD
-    C0["Popperianismus"]
-    N1["ACID Transactions"]
-    N2["Accreditation"]
-    N3["3NL"]
-    N4["Adapter"]
-    N5["Adversarial Architecture"]
-    N6["Actor Model"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+## Mechanismus
 
-## Související pojmy
+Popperianismus pomáhá popsat strukturu, kterou Kompendium řadí mezi nejodolnější manipulační rámce: **imunizovanou doktrínu**. Rozpoznatelné prvky jsou:
 
-- [ACID Transactions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/acid-transactions/) — slug `acid-transactions`
-- [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/) — slug `accreditation`
-- [3NL](@/glossary/3nl.md) — slug `3nl`
-- [Adapter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adapter/) — slug `adapter`
-- [Adversarial Architecture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-architecture/) — slug `adversarial-architecture`
-- [Actor Model](https://prismatic-reality-com.github.io/prismatic-promo/glossary/actor-model/) — slug `actor-model`
+- **pomocné hypotézy bez nového obsahu** – každé selhání předpovědi se vysvětlí dodatkem, který nic dalšího nepředpovídá;
+- **reinterpretace námitky jako symptomu** – pochybnost se nevyvrací, ale diagnostikuje („to mluví tvůj odpor“);
+- **samopotvrzující smyčka** – doktrína definuje vlastní pojmy tak, že jejich negace je nemyslitelná.
 
-## Navigace
+V taxonomii jde o [imunizaci proti falsifikaci (EA-1.3.1)](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) a v krajní podobě o [tautologickou implozi (EA-5.1.17)](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md), kde celý systém přesvědčení dokazuje sám sebe. Detekční signatura [nefalsifikovatelná tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md) zachycuje jazykovou stopu.
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## Odlišení
+
+- **Falsifikace jako logický vztah vs. falsifikovatelnost jako vlastnost teorie** – rozlišení rozvádějí hesla [falsifikace](@/glossary/falsifikace.md) a [falsifikabilita](@/glossary/falsifikabilita.md).
+- **Naivní falsifikacionismus.** Představa, že jediný nesouhlasný výsledek automaticky vyvrací teorii; Popper sám i jeho kritici ji odmítali. Zneužívá se k diskreditaci dobře doložených poznatků („jedna studie to vyvrátila“).
+- **Scientismus.** Přesvědčení, že jedinou platnou formou vědění je přírodověda; popperianismus je kritérium demarkace vědy, ne soud o hodnotě jiných forem poznání (viz [pluralismus](@/glossary/pluralismus.md)).
+- **Patologická pochybnost.** Popperovská kritičnost je zacílená a končí dočasným přijetím nejlépe obstálé teorie; [rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md) a [anankastický režim](@/glossary/anankasticky-rezim.md) naopak neumějí skončit.
+
+## Význam pro Kompendium
+
+Popperovské otázky jsou praktickým nástrojem při posuzování skupin s uzavřenou doktrínou, při práci s [pseudovědou](@/glossary/pseudoscience.md) i v interní kontrole samotného rámce EA: kritická perspektiva [kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md) varuje, aby se „odpor ke kategorii EA“ nestal sám důkazem EA. Teoretické zázemí shrnuje [EA-7.2.3 Popper: falsifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md), korekce přináší [EA-7.2.4 Lakatos](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md).
+
+## Obrana a zotavení
+
+- **Otázka po vyvracejícím pozorování.** U každého zásadního tvrzení: co by muselo nastat, abych ho přestal zastávat? Nácvik nabízí [falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) a vzdělávací scénář [design falsifikace](@/kompendium/educational-scenarios/6-falsification-design.md).
+- **Symetrie nároků.** Stejný test aplikovat na doktrínu skupiny i na vlastní kritiku.
+- **Pro profesionála:** u člověka po odchodu z uzavřené skupiny nezačínat konfrontací s doktrínou, ale obnovou schopnosti testovat drobná, bezpečná tvrzení; přímá „falsifikace“ víry bývá prožívána jako útok a posiluje obranu.
+
+Meze: popperovské kritérium nevysvětluje, proč lidé doktríně věří; to je otázka vztahů, potřeb a izolace. Jako izolovaný nástroj může sklouznout k intelektuální nadřazenosti, která sama působí jako delegitimizace.
+
+## Literatura
+
+- Popper, K. R. (1934). *Logik der Forschung*. Angl. *The Logic of Scientific Discovery* (1959).
+- Popper, K. R. (1945). *The Open Society and Its Enemies*.
+- Popper, K. R. (1963). *Conjectures and Refutations*.
+- Lakatos, I., Musgrave, A. (eds.) (1970). *Criticism and the Growth of Knowledge*.
+
+## Související
+
+**Glosář**
+
+- [Falsifikovatelnost](@/glossary/falsifikovatelnost.md) – Popperovo kritérium demarkace.
+- [Pseudověda](@/glossary/pseudoscience.md) – oblast, kde se demarkace nejčastěji uplatňuje.
+- [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) – korekce naivního falsifikacionismu.
+- [Tautologie](@/glossary/tautologie.md) – výrok, který nic nevylučuje.
+
+**Techniky a detekce**
+
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – základní manipulační vzorec, který popperianismus odhaluje.
+- [EA-5.1.17 Tautologická imploze](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md) – celá doktrína jako sebepotvrzující síť.
+- [Detekční signatura: Nefalsifikovatelná tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md) – jazykové markery.
+
+**Obrana a kritika**
+
+- [Sebe-obrana: Falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) – praktický trénink.
+- [Kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md) – popperovská kontrola samotného rámce.

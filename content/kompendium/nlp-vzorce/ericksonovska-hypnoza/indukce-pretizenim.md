@@ -38,7 +38,7 @@ nlp_ancestors = ["ericksonovska-hypnoza"]
 nlp_related = ["trans-pojem", "transderivacni-hledani", "konfuzni-technika", "preruseni-vzorce", "vrstveni-realit", "dvojita-disociativni-vazba", "abecedni-hra"]
 nlp_related_declared = ["konfuzni-technika", "preruseni-vzorce", "transderivacni-hledani", "vrstveni-realit", "trans-pojem"]
 nlp_kompendium = ["kompendium/techniques/ea-1-1-2-informacni-pretizeni.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vrstveni-realit.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md", "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
+nlp_links_prose = ["glossary/informed-consent.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vrstveni-realit.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md", "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md", "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"]
 nlp_prev = "frakcionace"
 nlp_next = "amnezie-sugesci"
 nlp_position = 27
@@ -148,7 +148,7 @@ náborových akcí, kde se nováček ocitá v nepřetržitém proudu programu (H
 
 ## Legitimní a manipulativní užití
 
-Legitimní užití je v klinickém kontextu velmi omezené a vždy vázané na informovaný souhlas.
+Legitimní užití je v klinickém kontextu velmi omezené a vždy vázané na [informovaný souhlas](@/glossary/informed-consent.md).
 Ericksonovská tradice pracovala se zmatením a s přerušením obvyklého uvažování u klientů,
 kteří o to stáli a jejichž obvyklé vzorce je samy trápily (Erickson, Rossi a Rossi 1976). I
 v takovém kontextu je eticky obhajitelné jen to užití, při kterém výsledkem není závazek ani

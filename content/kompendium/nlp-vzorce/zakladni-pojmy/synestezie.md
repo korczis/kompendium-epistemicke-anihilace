@@ -38,7 +38,7 @@ nlp_ancestors = ["reprezentacni-systemy"]
 nlp_related = ["kinesteticky-system", "vedouci-system", "submodality-pojem", "disociace", "kotva-pojem"]
 nlp_related_declared = ["kinesteticky-system", "vedouci-system", "disociace", "submodality-pojem", "kotva-pojem"]
 nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
-nlp_links_prose = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
+nlp_links_prose = ["glossary/propaganda.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md"]
 nlp_prev = "ocni-pristupove-signaly"
 nlp_next = "submodality-pojem"
 nlp_position = 11
@@ -138,7 +138,7 @@ slouží jako doklad, který nic nedokládá. Kompendium tento mechanismus popis
 Ve vlivovém prostředí se pojem někdy objevuje i opačným směrem: mluvčí opakovaně spojuje určité
 obrazy, například logo, symbol nebo tvář vůdce, s navozeným tělesným prožitkem, například
 nadšením nebo dojetím, a vytváří tak automatickou vazbu, kterou pak lze vyvolat. Tento postup
-odpovídá obecnému mechanismu asociativního učení, který reklama a propaganda využívají dávno
+odpovídá obecnému mechanismu asociativního učení, který reklama a [propaganda](@/glossary/propaganda.md) využívají dávno
 před NLP (Cialdini 2009).
 
 ## Legitimní a manipulativní užití

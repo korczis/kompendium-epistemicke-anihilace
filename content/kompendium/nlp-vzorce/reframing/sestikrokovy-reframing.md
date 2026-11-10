@@ -38,7 +38,7 @@ nlp_ancestors = ["reframing"]
 nlp_related = ["pozitivni-zamer-chovani", "ekologicka-kontrola", "ideomotoricka-signalizace", "ramec-ekologie", "integrace-casti", "jadrova-transformace", "vyjednavani-casti", "elicitace-pozitivniho-zameru"]
 nlp_related_declared = ["pozitivni-zamer-chovani", "elicitace-pozitivniho-zameru", "integrace-casti", "ekologicka-kontrola", "jadrova-transformace", "vyjednavani-casti"]
 nlp_kompendium = ["kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md"]
+nlp_links_prose = ["glossary/informed-consent.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md", "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md"]
 nlp_prev = "obsahovy-reframing"
 nlp_next = "ramec-souhlasu"
 nlp_position = 4
@@ -161,7 +161,7 @@ o skupině, strach z partnera nebo nedůvěra k nabídce se v něm vykládají j
 která „chce dobře, ale mýlí se“, a změna se definuje jako to, že pochybnost zmizí. Tak se
 terapeutický slovník mění v nástroj, který zbavuje člověka jeho vnitřního varovného
 systému. K hraničním případům patří komerční semináře, kde se technika provádí hromadně a
-bez návaznosti na odbornou péči, a kde chybí prostor pro informovaný souhlas.
+bez návaznosti na odbornou péči, a kde chybí prostor pro [informovaný souhlas](@/glossary/informed-consent.md).
 
 ## Stav důkazů
 

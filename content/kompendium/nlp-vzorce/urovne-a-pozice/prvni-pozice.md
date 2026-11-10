@@ -38,7 +38,7 @@ nlp_ancestors = ["percepcni-pozice-pojem"]
 nlp_related = ["percepcni-pozice-pojem", "asociace", "kongruence", "druha-pozice", "treti-pozice", "ctvrta-pozice", "troji-popis"]
 nlp_related_declared = ["druha-pozice", "treti-pozice", "troji-popis", "asociace", "kongruence"]
 nlp_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-5-3-10-perspektivni-substituce.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md", "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/asociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-5-3-10-perspektivni-substituce.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
+nlp_links_prose = ["glossary/blame-shifting.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md", "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/asociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-5-3-10-perspektivni-substituce.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
 nlp_prev = "meta-zrcadlo"
 nlp_next = "druha-pozice"
 nlp_position = 9
@@ -101,7 +101,7 @@ objevuje u Carla Rogerse, který zdůrazňoval, že duševní zdraví souvisí s
 opírá hodnocení o vlastní prožívání, nebo o soudy druhých. Rogers mluvil o místě, z něhož
 hodnocení vychází, a jeho návrat do člověka samého pokládal za jeden z výsledků úspěšné
 terapie (Rogers 1951). Gestalt terapie kladla důraz na mluvení v první osobě a na přebírání
-odpovědnosti za vlastní prožitek místo neosobních obratů a přesouvání viny na okolí (Perls
+odpovědnosti za vlastní prožitek místo neosobních obratů a [přesouvání viny](@/glossary/blame-shifting.md) na okolí (Perls
 1969). Tvůrci NLP se v počátcích opírali o pozorování práce Fritze Perlse a Virginie Satirové
 a z jazyka jejich klientů odvozovali, kde je [model světa](@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md) ochuzen (Bandler a Grinder 1975).
 Trojici pozic však systematicky popsali až Grinder a DeLozierová v rámci takzvaného nového

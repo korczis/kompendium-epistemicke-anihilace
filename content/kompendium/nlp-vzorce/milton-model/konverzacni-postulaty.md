@@ -38,7 +38,7 @@ nlp_ancestors = ["milton-model"]
 nlp_related = ["vlozene-otazky", "pripojene-otazky", "negativni-prikazy", "implikovane-direktivum", "otazky-misto-tvrzeni"]
 nlp_related_declared = ["vlozene-otazky", "pripojene-otazky", "implikovane-direktivum", "otazky-misto-tvrzeni"]
 nlp_kompendium = ["kompendium/techniques/ea-7-1-4-habermas-communicative-action.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/milton-model/pripojene-otazky.md", "kompendium/nlp-vzorce/milton-model/vlozene-otazky.md", "kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md", "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md"]
+nlp_links_prose = ["glossary/heuristika.md", "kompendium/nlp-vzorce/milton-model/pripojene-otazky.md", "kompendium/nlp-vzorce/milton-model/vlozene-otazky.md", "kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md", "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md"]
 nlp_prev = "analogove-znaceni"
 nlp_next = "pripojene-otazky"
 nlp_position = 5
@@ -151,7 +151,7 @@ náborových rozhovorech se objevují otázky, zda si posluchač dokáže předs
 svého problému, zda by byl ochoten udělat první krok nebo zda je připraven na změnu, a teprve
 potom přichází nabídka. Výzkum přesvědčování popisuje, že lidé, kteří si představí určitý
 výsledek, jej pak považují za pravděpodobnější a ochotněji jednají v jeho směru; s tím
-souvisí i heuristika dostupnosti, podle které snadno vybavitelné připadá častější (Tversky
+souvisí i [heuristika](@/glossary/heuristika.md) dostupnosti, podle které snadno vybavitelné připadá častější (Tversky
 a Kahneman 1974). Pozorovatel může každou takovou otázku přepsat na výslovnou žádost a
 posoudit, zda by ji v přímé podobě přijal.
 

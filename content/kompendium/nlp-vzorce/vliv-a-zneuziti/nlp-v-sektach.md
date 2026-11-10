@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["ztraceny-performativ", "amnezie-sugesci", "predramcovani", "kotveni-ve-skupine", "mapovani-napric", "uroven-poslani", "ctvrta-pozice", "stepeni-ja-v-manipulaci", "vnitrni-a-vnejsi-reference", "moznosti-a-postupy", "raport-se-skupinou", "slovni-baliky", "konverzacni-hypnoza", "guru-efekt", "velke-seminare"]
 nlp_related_declared = ["guru-efekt", "velke-seminare", "kotveni-ve-skupine", "raport-se-skupinou", "konverzacni-hypnoza"]
 nlp_kompendium = ["kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md", "kompendium/techniques/ea-6-4-2-post-cult-protokol.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md", "kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md", "kompendium/nlp-vzorce/reframing/kontrastni-ramec.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md", "kompendium/techniques/ea-6-4-2-post-cult-protokol.md", "kompendium/techniques/ea-8-1-1-bite-model-detail.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-8-3-9-cult-studies-literature.md"]
+nlp_links_prose = ["glossary/thought-stopping.md", "kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md", "kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md", "kompendium/nlp-vzorce/reframing/kontrastni-ramec.md", "kompendium/nlp-vzorce/reframing/reframing.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md", "kompendium/techniques/ea-6-4-2-post-cult-protokol.md", "kompendium/techniques/ea-8-1-1-bite-model-detail.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-8-3-9-cult-studies-literature.md"]
 nlp_prev = "nlp-v-komunite-svadeni"
 nlp_next = "nlp-ve-vyslechu"
 nlp_position = 7
@@ -105,7 +105,7 @@ nevědomosti o tom, jak je postupně měněn, kontrolu jeho času a prostředí,
 bezmoci a uzavřený systém logiky, který nepřipouští zpětnou vazbu (Singer a Lalich 1995).
 Hassan, sám bývalý člen náboženského hnutí, popsal kontrolu mysli jako soubor čtyř složek,
 kontroly chování, informací, myšlení a emocí, a věnoval pozornost technikám, jako je
-zastavování myšlenek a vštěpování strachu z odchodu (Hassan 1988). NLP se do tohoto
+[zastavování myšlenek](@/glossary/thought-stopping.md) a vštěpování strachu z odchodu (Hassan 1988). NLP se do tohoto
 kontextu dostává jako výcvikový trh, který vznikl v prostředí hnutí za rozvoj lidského
 potenciálu, nemá jednotnou regulaci a nabízí mocný slovník změny (Tosey a Mathison 2009).
 Kompendium kritéria podrobně rozebírá na stránkách [Liftonova kritéria myšlenkové

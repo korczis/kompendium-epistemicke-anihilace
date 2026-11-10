@@ -38,7 +38,7 @@ nlp_ancestors = ["ericksonovska-hypnoza"]
 nlp_related = ["casova-osa-pojem", "vekova-regrese", "ramec-jako-by", "vlozeni-budouciho-cile", "budouci-prehravani", "predstavte-si", "casove-presuny-v-jazyce"]
 nlp_related_declared = ["budouci-prehravani", "vekova-regrese", "vlozeni-budouciho-cile", "ramec-jako-by", "casova-osa-pojem"]
 nlp_kompendium = ["kompendium/techniques/ea-4-4-5-temporal-self-disruption.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md", "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md"]
+nlp_links_prose = ["glossary/epistemicka-anihilace.md", "kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md", "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md", "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md"]
 nlp_prev = "vekova-regrese"
 nlp_next = "muj-pritel-john"
 nlp_position = 13
@@ -160,7 +160,7 @@ prvek ve formulaci otázky mění to, co si člověk o události později vybav�
 ## Vztah k technikám kompendia
 
 Z hlediska kompendia je pseudoorientace v čase zajímavá tím, že pracuje s časovou
-perspektivou, kterou epistemická anihilace často rozkládá. Člověk, jemuž někdo opakovaně
+perspektivou, kterou [epistemická anihilace](@/glossary/epistemicka-anihilace.md) často rozkládá. Člověk, jemuž někdo opakovaně
 popisuje, jak bude vypadat jeho budoucnost, pokud zůstane, a jak bude vypadat, pokud odejde,
 přestává budoucnost vytvářet a začíná ji přijímat. Tento posun lze pozorovat v kontrolujících
 vztazích i ve skupinách, kde se budoucnost člena stává součástí doktríny: úspěch je

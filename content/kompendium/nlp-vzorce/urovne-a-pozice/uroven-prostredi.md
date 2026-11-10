@@ -38,7 +38,7 @@ nlp_ancestors = ["logicke-urovne-pojem"]
 nlp_related = ["kontextovy-reframing", "zarovnani-logickych-urovni", "uroven-chovani", "kontext-cile"]
 nlp_related_declared = ["uroven-chovani", "kontextovy-reframing", "kontext-cile", "zarovnani-logickych-urovni"]
 nlp_kompendium = ["kompendium/techniques/ea-2-2-2-mentee-isolation.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/reframing/kontextovy-reframing.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md", "kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md", "kompendium/techniques/ea-2-2-2-mentee-isolation.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
+nlp_links_prose = ["glossary/heuristika.md", "kompendium/nlp-vzorce/reframing/kontextovy-reframing.md", "kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md", "kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md", "kompendium/techniques/ea-2-2-2-mentee-isolation.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
 nlp_prev = "zarovnani-logickych-urovni"
 nlp_next = "uroven-chovani"
 nlp_position = 2
@@ -178,7 +178,7 @@ popisuje kontrolu prostředí jako jeden z hlavních mechanismů, jimiž se měn
 identita (Lifton 1961; Stark 2007). Z hlediska důkazů je tedy rozumné číst úroveň prostředí
 nikoli jako nejméně významnou vrstvu, ale jako vrstvu, jejíž vliv je doložen lépe než vliv
 vyšších úrovní, které NLP pokládá za rozhodující. Akademické hodnocení NLP připouští, že
-model může sloužit jako heuristika pro kladení otázek, ale nepovažuje ho za doloženou teorii
+model může sloužit jako [heuristika](@/glossary/heuristika.md) pro kladení otázek, ale nepovažuje ho za doloženou teorii
 (Tosey a Mathison 2009).
 
 ## Obrana a zotavení

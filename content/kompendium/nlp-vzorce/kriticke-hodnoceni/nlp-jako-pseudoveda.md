@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["predpoklady-jako-pracovni-hypotezy", "trh-certifikaci-nlp", "neuro-zargon", "stav-dukazu-nlp", "delfska-studie", "databaze-vyzkumu-nlp", "hodnoceni-narodni-rady-pro-vyzkum", "falzifikovatelnost-nlp", "kargokultovni-psychologie"]
 nlp_related_declared = ["falzifikovatelnost-nlp", "kargokultovni-psychologie", "delfska-studie", "databaze-vyzkumu-nlp", "stav-dukazu-nlp"]
 nlp_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md"]
+nlp_links_prose = ["glossary/pseudoscience.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-7-2-3-popper-falsification.md"]
 nlp_prev = "vyzkum-ocnich-signalu"
 nlp_next = "delfska-studie"
 nlp_position = 4
@@ -181,7 +181,7 @@ Rozbor databáze, kterou sestavili sami zastánci NLP, ukázal převahu nepodpů
 Garofalo 2006). [Systematický přehled účinků na zdraví](@/kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md) nenašel dostatek kvalitních důkazů
 (Sturt a kol. 2012).
 
-Je třeba přiznat i meze tohoto hodnocení. Pojem pseudověda je metodologické hodnocení celku, ne
+Je třeba přiznat i meze tohoto hodnocení. Pojem [pseudověda](@/glossary/pseudoscience.md) je metodologické hodnocení celku, ne
 výsledek jednoho experimentu, a o jeho přesných hranicích se ve filozofii vědy vedou spory.
 Mnohé jednotlivé techniky NLP nebyly nikdy kontrolovaně testovány, a o jejich účinku proto nelze
 říci nic jistého ani v kladném, ani v záporném smyslu. Kritický přehled pro koučink konstatuje

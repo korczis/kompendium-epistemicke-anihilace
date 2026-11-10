@@ -38,7 +38,7 @@ nlp_ancestors = ["disociace", "submodality-pojem"]
 nlp_related = ["meta-pozice", "disociace", "dvojita-disociativni-vazba", "filmova-technika", "rychla-lecba-fobie", "rewind"]
 nlp_related_declared = ["rychla-lecba-fobie", "disociace", "meta-pozice", "rewind", "dvojita-disociativni-vazba"]
 nlp_kompendium = ["kompendium/techniques/ea-5-3-4-telesna-disociace.md", "kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md", "kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md", "kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md", "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md", "kompendium/techniques/ea-5-3-4-telesna-disociace.md", "kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md"]
+nlp_links_prose = ["glossary/depersonalizace.md", "glossary/disociace.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md", "kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md", "kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md", "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md", "kompendium/techniques/ea-5-3-4-telesna-disociace.md", "kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md"]
 nlp_prev = "rychla-lecba-fobie"
 nlp_next = "reimprinting"
 nlp_position = 2
@@ -88,7 +88,7 @@ a Grinder 1979; Bandler 1985). Dvojitá disociace je stavebním prvkem
 [rychlé léčby fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) a
 příbuzných postupů, ale objevuje se i samostatně jako způsob, jak o nepříjemném zážitku mluvit
 s menší bolestí. Heslo popisuje, co se pod tímto pojmem v NLP myslí, jak se dvojitý odstup
-pozná v řeči a proč je třeba ho přísně odlišovat od disociace v klinickém smyslu.
+pozná v řeči a proč je třeba ho přísně odlišovat od [disociace](@/glossary/disociace.md) v klinickém smyslu.
 
 ## Původ a souvislosti
 
@@ -111,7 +111,7 @@ narušení obvykle integrovaných funkcí paměti, vědomí, identity, vnímán�
 se často vyvíjí jako ochrana v situaci, z níž nelze uniknout. Herman popisuje, jak se u lidí
 vystavených opakovanému násilí odpojení od pocitů a od těla stává naučenou obranou, která
 pomáhá přežít, ale později brání zpracování zkušenosti a návratu do vztahů (Herman 1992).
-Klinické disociativní stavy, od depersonalizace po disociativní poruchu identity, jsou předmětem
+Klinické disociativní stavy, od [depersonalizace](@/glossary/depersonalizace.md) po disociativní poruchu identity, jsou předmětem
 diagnostiky, ne technikou, kterou by člověk zaujímal na pokyn.
 
 ## Struktura vzorce

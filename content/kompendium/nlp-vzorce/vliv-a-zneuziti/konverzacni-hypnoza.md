@@ -38,7 +38,7 @@ nlp_ancestors = ["ericksonovska-hypnoza"]
 nlp_related = ["komunikace-vedoma-a-nevedoma", "trans-pojem", "milton-model", "vlozene-prikazy", "ericksonovska-hypnoza", "utilizace", "indukce-podanim-ruky", "technika-prolozeni", "krizove-zrcadleni", "sladeni-dechu", "sladeni-hlasu-a-tempa", "nlp-v-sektach", "hypnoticky-jazyk-online", "rozpoznani-nlp-praktiky"]
 nlp_related_declared = ["milton-model", "vlozene-prikazy", "utilizace", "hypnoticky-jazyk-online", "rozpoznani-nlp-praktiky", "trans-pojem"]
 nlp_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/06-obrana/_index.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md"]
+nlp_links_prose = ["glossary/informed-consent.md", "kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md", "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md"]
 nlp_prev = ""
 nlp_next = "nlp-v-prodeji"
 nlp_position = 1
@@ -165,7 +165,7 @@ vliv, nesouhlasil s ním a výsledek slouží mluvčímu. Na skupinové úrovni 
 Lalichová popisují u skupin, které navozují trans či zúžené vědomí opakovanými praktikami,
 vedenými představami nebo dlouhými monotónními sezeními, aniž by členy informovaly o
 povaze těchto postupů (Singer a Lalich 1995). Takové utajení samo o sobě porušuje
-informovaný souhlas bez ohledu na to, zda je technika účinná.
+[informovaný souhlas](@/glossary/informed-consent.md) bez ohledu na to, zda je technika účinná.
 
 ## Stav důkazů
 

@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["zakon-pozadovane-variety", "odpor-jako-nedostatek-raportu", "vlozene-prikazy", "frakcionace", "kotveni-v-kontrolujicich-vztazich", "strategie-lasky", "zrcadleni", "raport-jako-nastroj-vlivu", "pseudoempatie", "falesne-zrcadleni-v-podvodech", "manipulativni-reframing-ve-vztazich"]
 nlp_related_declared = ["raport-jako-nastroj-vlivu", "zrcadleni", "kotveni-v-kontrolujicich-vztazich", "vlozene-prikazy", "manipulativni-reframing-ve-vztazich", "falesne-zrcadleni-v-podvodech"]
 nlp_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
+nlp_links_prose = ["glossary/coercive-control.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md", "kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
 nlp_prev = "budouci-prehravani-v-prodeji"
 nlp_next = "nlp-v-sektach"
 nlp_position = 6
@@ -157,7 +157,7 @@ osoba o nich nemusí nic vědět, protože nejsou namířeny proti ní. Manipula
 pozná podle tří znaků: druhý člověk je chápán jako cíl, nikoli jako partner; jednání je
 utajené a záměrně směřuje k obejití jeho úvahy; a odmítnutí není respektováno jako
 rozhodnutí. Kde k těmto znakům přistoupí opakovaná kontrola, izolace a ponižování v
-pokračujícím vztahu, přechází vzorec do podoby, kterou Stark popisuje jako coercive control,
+pokračujícím vztahu, přechází vzorec do podoby, kterou Stark popisuje jako [coercive control](@/glossary/coercive-control.md),
 tedy soustavné omezování svobody partnera (Stark 2007). Kompendium tento rámec rozvádí na
 stránce o [Starkově pojetí coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md).
 

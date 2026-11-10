@@ -38,7 +38,7 @@ nlp_ancestors = ["limitujici-presvedceni", "presvedceni-jako-mapa", "mapa-neni-u
 nlp_related = ["sleight-of-mouth", "struktura-presvedceni-som", "beznadej-bezmoc-nehodnost", "presvedceni-a-zdravi", "imprint"]
 nlp_related_declared = ["struktura-presvedceni-som", "sleight-of-mouth", "imprint", "presvedceni-a-zdravi", "beznadej-bezmoc-nehodnost"]
 nlp_kompendium = ["kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/07-teoreticke-reflexe/digitalni-vek.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
+nlp_links_prose = ["glossary/thought-stopping.md", "kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
 nlp_prev = "kartezske-otazky"
 nlp_next = "presvedceni-a-zdravi"
 nlp_position = 11
@@ -144,7 +144,7 @@ Zneužití pojmu se pozná podle několika znaků. Za virus se označují přesv
 nepohodlná pro mluvčího nebo pro skupinu, typicky kritické otázky, pochybnosti o vedení,
 vazby na rodinu a přátele mimo skupinu nebo informace z vnějších zdrojů. Místo rozboru obsahu
 se doporučuje přesvědčení „nepouštět do hlavy“, nepřemýšlet o něm nebo se mu vyhýbat.
-Hassan popsal techniky zastavování myšlenek, které se v kultovních skupinách učí jako
+Hassan popsal techniky [zastavování myšlenek](@/glossary/thought-stopping.md), které se v kultovních skupinách učí jako
 způsob, jak potlačit pochybnosti, a virová metafora jim poskytuje zdánlivě odborné
 zdůvodnění (Hassan 1988). Dalším znakem je asymetrie: přesvědčení mluvčího se jako virus nikdy
 neoznačují, i když by splňovala tytéž znaky, tedy sebepotvrzování a odolnost vůči

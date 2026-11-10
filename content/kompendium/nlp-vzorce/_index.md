@@ -29,7 +29,7 @@ dalších dvou desetiletí se z malé skupiny v Kalifornii stal mezinárodní tr
 certifikací a příruček, který nabízí techniky pro terapii, koučink, prodej, vyjednávání,
 vzdělávání i osobní rozvoj (Tosey a Mathison 2009).
 
-Pro kompendium epistemické a kognitivní anihilace je NLP důležité ze tří důvodů. Za prvé
+Pro kompendium epistemické a [kognitivní anihilace](@/glossary/kognitivni-anihilace.md) je NLP důležité ze tří důvodů. Za prvé
 obsahuje propracovaný slovník jazykových a interakčních vzorců, z nichž mnohé lze použít k
 obcházení kritického úsudku: vágní jazyk, který si posluchač doplní vlastním obsahem,
 presupozice, které vnášejí tvrzení bez důkazu, nebo rámce, které předem určují, co se

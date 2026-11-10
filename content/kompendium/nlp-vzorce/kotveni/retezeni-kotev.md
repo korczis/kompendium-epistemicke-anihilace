@@ -38,7 +38,7 @@ nlp_ancestors = ["kotveni"]
 nlp_related = ["stav", "kolaps-kotev", "stohovani-kotev", "prenos-zdroje", "retezeni-presvedceni", "pacing-a-leading"]
 nlp_related_declared = ["stohovani-kotev", "kolaps-kotev", "pacing-a-leading", "stav"]
 nlp_kompendium = ["kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/kotveni/stohovani-kotev.md", "kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md"]
+nlp_links_prose = ["glossary/coercive-control.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/kotveni/stohovani-kotev.md", "kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md"]
 nlp_prev = "samokotveni"
 nlp_next = "kolaps-kotev"
 nlp_position = 3
@@ -142,7 +142,7 @@ Dalším znakem je, že se poslední stav, obvykle naléhavost nebo euforie, spo
 kontrolujících vztazích a skupinách, kde po vřelosti přichází chlad, po chladu úzkost a po
 úzkosti úleva při návratu vřelosti; kompendium podobné přepínání afektů popisuje v hesle
 [afektivní přepólování](@/kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md). Stark
-upozorňuje, že donucující kontrola nespočívá v jednotlivých incidentech, ale v trvalém
+upozorňuje, že [donucující kontrola](@/glossary/coercive-control.md) nespočívá v jednotlivých incidentech, ale v trvalém
 režimu, který proniká do každodennosti oběti (Stark 2007). V takovém režimu se střídání stavů snadno
 stává naučeným vzorcem. U
 člověka, který takovým sledem prošel, je typické, že si průběh pamatuje jako silný zážitek,

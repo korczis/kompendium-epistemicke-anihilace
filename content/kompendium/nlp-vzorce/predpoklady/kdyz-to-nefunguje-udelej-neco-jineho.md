@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["vyznam-komunikace-je-reakce", "neni-selhani-jen-zpetna-vazba", "zakon-pozadovane-variety", "odpovednost-za-komunikaci", "tote-model", "preruseni-vzorce", "paradoxni-intervence", "falzifikovatelnost-nlp"]
 nlp_related_declared = ["zakon-pozadovane-variety", "tote-model", "neni-selhani-jen-zpetna-vazba", "vyznam-komunikace-je-reakce", "odpovednost-za-komunikaci"]
 nlp_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/06-obrana/_index.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md", "kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+nlp_links_prose = ["glossary/heuristika.md", "kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md", "kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
 nlp_prev = "odpor-jako-nedostatek-raportu"
 nlp_next = "modelovatelnost-excelence"
 nlp_position = 12
@@ -182,7 +182,7 @@ rétorické a postojové rámce než jako ověřené poznatky a že jejich hodno
 
 ## Stav důkazů
 
-Samotný princip je praktická heuristika, nikoli empirické tvrzení, a jako takový nebyl
+Samotný princip je praktická [heuristika](@/glossary/heuristika.md), nikoli empirické tvrzení, a jako takový nebyl
 předmětem kontrolovaného výzkumu. Klinické popisy toho, jak se problémy udržují opakováním
 neúspěšných řešení, vycházejí z kazuistik a z teorie systémů, ne z experimentů (Watzlawick,
 Weakland a Fisch 1974). Empiricky dobře podložené jsou naopak mechanismy, které se v

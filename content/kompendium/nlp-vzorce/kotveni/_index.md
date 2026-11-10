@@ -118,7 +118,7 @@ opakovaně vážou na symboly, písně a hesla a s odchodem se spojuje strach (S
 1995). V kontrolujících vztazích se z tónu hlasu nebo pohledu stávají naučené signály hrozby,
 protože je opakovaně následuje trest; tuto strukturu rozebírá heslo
 [kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md).
-Stark ukazuje, že donucující kontrola je trvalý režim, který proniká do každodennosti, a ne
+Stark ukazuje, že [donucující kontrola](@/glossary/coercive-control.md) je trvalý režim, který proniká do každodennosti, a ne
 souhrn jednotlivých incidentů (Stark 2007). Rozpoznat takové vazby znamená sledovat opakování
 a jeho funkci, ne hledat jednorázový trik.
 

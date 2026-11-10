@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["auditivni-system", "auditivne-digitalni-system", "uptime-a-downtime", "auditivni-submodality", "auditivni-swish", "zmena-vnitrniho-hlasu", "zmena-kriticke-sebeprezentace", "abecedni-hra", "stav-nevedeni", "smyckove-strategie"]
 nlp_related_declared = ["auditivne-digitalni-system", "zmena-vnitrniho-hlasu", "zmena-kriticke-sebeprezentace", "uptime-a-downtime"]
 nlp_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md", "kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md", "kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md"]
+nlp_links_prose = ["glossary/thought-stopping.md", "kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md", "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md", "kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md", "kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md"]
 nlp_prev = "modelovani-pojem"
 nlp_next = "uptime-a-downtime"
 nlp_position = 38
@@ -126,7 +126,7 @@ Pro pozorovatele epistemické manipulace je klíčová třetí rovina. Výroky, 
 opakovaně od autority, se mohou stát šablonou jeho vnitřní řeči, a pak působí i v
 nepřítomnosti mluvčího. Lifton popsal, jak uzavřené systémy dodávají členům ustálené fráze,
 které ukončují přemýšlení, a jak tyto fráze zužují nejen řeč, ale i myšlení člena (Lifton
-1961). Hassan popisuje techniky zastavování myšlenek, kdy člen skupiny při objevení
+1961). Hassan popisuje techniky [zastavování myšlenek](@/glossary/thought-stopping.md), kdy člen skupiny při objevení
 pochybnosti v duchu opakuje naučenou formuli, a pochybnost tak nemá prostor se rozvinout
 (Hassan 1988). Vnitřní dialog se tak může stát nástrojem vnější kontroly, který se tváří
 jako vlastní myšlení.

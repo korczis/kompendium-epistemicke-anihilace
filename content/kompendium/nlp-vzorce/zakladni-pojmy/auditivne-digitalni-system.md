@@ -38,7 +38,7 @@ nlp_ancestors = ["reprezentacni-systemy"]
 nlp_related = ["auditivni-system", "preferovany-reprezentacni-system", "vnitrni-dialog", "meta-model", "zmena-vnitrniho-hlasu", "pocitac"]
 nlp_related_declared = ["vnitrni-dialog", "auditivni-system", "zmena-vnitrniho-hlasu", "meta-model", "preferovany-reprezentacni-system"]
 nlp_kompendium = ["kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md"]
+nlp_links_prose = ["glossary/thought-stopping.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md"]
 nlp_prev = "olfaktorni-a-gustatorni-system"
 nlp_next = "vedouci-system"
 nlp_position = 6
@@ -147,7 +147,7 @@ nebo podepsat. Kritické myšlení se popisuje jako fáze, kterou je třeba pře
 ptají, jako ti, kdo „ještě nejsou připraveni“. Lifton popsal v totalistických prostředích jazyk
 plný zkratek, které ukončují myšlení: krátké, zapamatovatelné fráze, jež uzavřou každou
 složitou otázku a znemožní další uvažování (Lifton 1961). Hassan popisuje v kultovních
-skupinách techniky zastavování myšlenek, při kterých se pochybnost přeruší opakovanou frází,
+skupinách techniky [zastavování myšlenek](@/glossary/thought-stopping.md), při kterých se pochybnost přeruší opakovanou frází,
 modlitbou nebo zpěvem (Hassan 1988). Pojmenování kritické vnitřní řeči jako vadného „filtru“ je
 moderní, technicky znějící varianta téhož mechanismu: slovník, který se tváří jako popis mysli,
 slouží k umlčení její nejcennější funkce.

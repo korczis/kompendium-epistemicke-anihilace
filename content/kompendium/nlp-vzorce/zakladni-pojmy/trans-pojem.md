@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["komunikace-vedoma-a-nevedoma", "stav", "disociace", "uptime-a-downtime", "transderivacni-hledani", "ericksonovska-hypnoza", "utilizace", "levitace-ruky", "posthypnoticka-sugesce", "ideomotoricka-signalizace", "frakcionace", "indukce-pretizenim", "stav-nevedeni", "periferni-videni", "sladeni-dechu", "konverzacni-hypnoza"]
 nlp_related_declared = ["ericksonovska-hypnoza", "uptime-a-downtime", "transderivacni-hledani", "konverzacni-hypnoza", "disociace", "utilizace"]
 nlp_kompendium = ["kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/case-studies/51-new-age-recovery.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md", "kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md"]
+nlp_links_prose = ["glossary/disociace.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/milton-model/milton-model.md", "kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md", "kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md"]
 nlp_prev = "uptime-a-downtime"
 nlp_next = "transderivacni-hledani"
 nlp_position = 40
@@ -166,7 +166,7 @@ kdykoli odejít a je rozhodování odděleno od navozeného stavu.
 ## Odlišení od klinických stavů
 
 Stav, který NLP nazývá transem, je nutné odlišit od jevů, které mají klinický význam.
-Disociace jako součást posttraumatické poruchy se projevuje nechtěným odpojením od těla,
+[Disociace](@/glossary/disociace.md) jako součást posttraumatické poruchy se projevuje nechtěným odpojením od těla,
 okolí nebo vlastní identity, které člověk neovládá a které ho ohrožuje, zatímco běžné
 zahloubání je krátké, vratné a neškodné. Psychotické prožitky se od transu liší ztrátou
 rozlišení mezi vnitřní představou a vnější realitou, která přetrvává i mimo situaci, ve které

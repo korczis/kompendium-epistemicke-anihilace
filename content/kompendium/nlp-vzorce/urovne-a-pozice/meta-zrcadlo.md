@@ -38,7 +38,7 @@ nlp_ancestors = ["percepcni-pozice-pojem"]
 nlp_related = ["percepcni-pozice-pojem", "meta-pozice", "druha-pozice", "treti-pozice", "ctvrta-pozice", "troji-popis"]
 nlp_related_declared = ["meta-pozice", "druha-pozice", "treti-pozice", "ctvrta-pozice", "troji-popis"]
 nlp_kompendium = ["kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md", "kompendium/techniques/ea-5-3-10-perspektivni-substituce.md", "kompendium/06-obrana/_index.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md", "kompendium/techniques/ea-5-3-10-perspektivni-substituce.md"]
+nlp_links_prose = ["glossary/coercive-control.md", "kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md", "kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md", "kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md", "kompendium/techniques/ea-5-3-10-perspektivni-substituce.md"]
 nlp_prev = "uroven-poslani"
 nlp_next = "prvni-pozice"
 nlp_position = 8
@@ -148,7 +148,7 @@ Výsledek cvičení se měří tím, zda člověk přestal pociťovat hněv nebo
 bezpečí. Kompendium popisuje krajní důsledky takových posunů u [perspektivistického
 kolapsu](@/kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md) a u [perspektivní
 substituce](@/kompendium/techniques/ea-5-3-10-perspektivni-substituce.md), kde vlastní pohled
-člověka postupně nahrazuje pohled druhého. Stark upozornil, že donucující kontrola se často
+člověka postupně nahrazuje pohled druhého. Stark upozornil, že [donucující kontrola](@/glossary/coercive-control.md) se často
 přehlíží právě proto, že se jednotlivé incidenty vykládají izolovaně a vztah se posuzuje jako
 symetrický konflikt dvou rovnocenných stran (Stark 2007).
 

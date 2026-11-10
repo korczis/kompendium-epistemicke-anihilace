@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["predpoklady-jako-pracovni-hypotezy", "preferovany-reprezentacni-system", "ericksonovska-hypnoza", "kotveni-versus-ukotveni-odhadu", "terapie-casove-osy", "nlp-jako-pseudoveda", "hodnoceni-narodni-rady-pro-vyzkum", "kargokultovni-psychologie", "jak-cist-tvrzeni-nlp"]
 nlp_related_declared = ["nlp-jako-pseudoveda", "hodnoceni-narodni-rady-pro-vyzkum", "jak-cist-tvrzeni-nlp", "predpoklady-jako-pracovni-hypotezy"]
 nlp_kompendium = ["kompendium/techniques/ea-8-3-4-empirical-research-base.md", "kompendium/critical-perspectives/_index.md", "kompendium/02-uvod/metodologicke-poznamky.md"]
-nlp_links_prose = ["kompendium/02-uvod/metodologicke-poznamky.md", "kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/techniques/ea-8-3-4-empirical-research-base.md"]
+nlp_links_prose = ["glossary/pseudoscience.md", "kompendium/02-uvod/metodologicke-poznamky.md", "kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-ocnich-signalu.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/vyzkum-preferovaneho-systemu.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/techniques/ea-8-3-4-empirical-research-base.md"]
 nlp_prev = ""
 nlp_next = "vyzkum-preferovaneho-systemu"
 nlp_position = 1
@@ -152,7 +152,7 @@ vysvětlují tím, že výzkumníci metodě nerozuměli nebo ji neprovedli sprá
 filozoficky rozumného předpokladu na empirické tvrzení: z toho, že „[mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md)“, se vyvodí,
 že konkrétní technika přepisování map spolehlivě léčí. Na stránce [NLP jako
 pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md) jsou tyto znaky
-zasazeny do obecných kritérií, podle nichž se pseudověda rozpoznává.
+zasazeny do obecných kritérií, podle nichž se [pseudověda](@/glossary/pseudoscience.md) rozpoznává.
 
 ## Legitimní a manipulativní užití
 

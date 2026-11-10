@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["disociace", "casova-osa-pojem", "vekova-regrese", "presupozice-ve-vyslechu", "dodatecne-ramcovani", "nechtene-kotvy", "rychla-lecba-fobie", "reimprinting", "zmena-osobni-historie", "rewind", "terapie-casove-osy", "uvolneni-negativnich-emoci", "korenova-pricina", "strategie-reality", "imprint"]
 nlp_related_declared = ["vekova-regrese", "reimprinting", "korenova-pricina", "presupozice-ve-vyslechu", "terapie-casove-osy", "rychla-lecba-fobie"]
 nlp_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/techniques/ea-6-1-7-trauma-history-protokol.md", "kompendium/07-teoreticke-reflexe/epistemicke-trauma.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md", "kompendium/nlp-vzorce/disociace-a-trauma/reimprinting.md", "kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md", "kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md", "kompendium/techniques/ea-6-1-7-trauma-history-protokol.md"]
+nlp_links_prose = ["glossary/disociace.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md", "kompendium/nlp-vzorce/disociace-a-trauma/reimprinting.md", "kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md", "kompendium/nlp-vzorce/presupozice/presupozice-ve-vyslechu.md", "kompendium/techniques/ea-6-1-7-trauma-history-protokol.md"]
 nlp_prev = "sebepojeti"
 nlp_next = "rewind"
 nlp_position = 10
@@ -78,7 +78,7 @@ nlp_catalogue = "data/nlp/disociace-a-trauma.toml"
 
 ## Definice
 
-Heslo pojmenovává problém, který prochází celou rodinou disociace a traumatu i řadou dalších
+Heslo pojmenovává problém, který prochází celou rodinou [disociace](@/glossary/disociace.md) a traumatu i řadou dalších
 technik neurolingvistického programování: práci s minulými zážitky v podmínkách, za kterých
 se paměť snadno přetváří. Nepravou vzpomínkou se zde rozumí vybavení události, které člověk
 prožívá jako vzpomínku, ale které neodpovídá tomu, co se stalo, ať už jde o změněné podrobnosti,

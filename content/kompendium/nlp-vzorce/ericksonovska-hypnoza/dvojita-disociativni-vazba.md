@@ -38,7 +38,7 @@ nlp_ancestors = ["terapeuticka-dvojna-vazba", "ericksonovska-hypnoza"]
 nlp_related = ["disociace", "konfuzni-technika", "terapeuticka-dvojna-vazba", "vedome-nevedoma-dvojna-vazba", "indukce-pretizenim", "amnezie-sugesci", "dvojita-disociace"]
 nlp_related_declared = ["vedome-nevedoma-dvojna-vazba", "konfuzni-technika", "disociace", "indukce-pretizenim", "amnezie-sugesci"]
 nlp_kompendium = ["kompendium/techniques/ea-5-3-4-telesna-disociace.md", "kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/techniques/ea-5-3-4-telesna-disociace.md", "kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md"]
+nlp_links_prose = ["glossary/disociace.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/techniques/ea-5-3-4-telesna-disociace.md", "kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md"]
 nlp_prev = "vedome-nevedoma-dvojna-vazba"
 nlp_next = "apozice-protikladu"
 nlp_position = 19
@@ -159,7 +159,7 @@ prožitku, například při bolesti, kdy může být pro pacienta úlevné vním
 by ho prožíval s plnou intenzitou. Legitimní užití je vázáno na dohodnutý cíl, na souhlas a
 na pečlivé zvážení, zda klient netrpí disociativními obtížemi; u lidí se závažnou
 traumatickou anamnézou může navozování rozpojení zhoršit jejich stav. Hermanová zdůrazňuje,
-že disociace je u traumatizovaných lidí ochranným mechanismem, který se v léčbě nemá
+že [disociace](@/glossary/disociace.md) je u traumatizovaných lidí ochranným mechanismem, který se v léčbě nemá
 posilovat, ale postupně zpřístupňovat a integrovat v bezpečném vztahu (Herman 1992). Mírné
 benigní obdoby vzorce existují i mimo hypnózu, například v relaxačních pokynech, které
 otevřeně dovolují jakoukoli reakci včetně žádné; tam ovšem chybí cíl, k němuž by všechny

@@ -38,7 +38,7 @@ nlp_ancestors = ["ericksonovska-hypnoza"]
 nlp_related = ["presupozice-milton", "vnorene-smycky", "technika-prolozeni", "predramcovani", "terapeuticka-metafora"]
 nlp_related_declared = ["vnorene-smycky", "predramcovani", "terapeuticka-metafora", "presupozice-milton", "technika-prolozeni"]
 nlp_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/techniques/ea-1-1-1-selektivni-expozice.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md"]
-nlp_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md", "kompendium/techniques/ea-1-1-1-selektivni-expozice.md"]
+nlp_links_prose = ["glossary/forensic-interview.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md", "kompendium/techniques/ea-1-1-1-selektivni-expozice.md"]
 nlp_prev = "vnorene-smycky"
 nlp_next = "predepsani-symptomu"
 nlp_position = 8
@@ -133,7 +133,7 @@ Zvláštní případ tvoří zasévání do paměti. Pokud se člověku předem 
 tom, co se mu mohlo stát, například v podobě poznámky, že „lidé s podobnými potížemi často
 zažili“ určitou událost, může tato představa ovlivnit, co si později vybaví a jak to bude
 vykládat. Takový mechanismus je dobře doložen ve výzkumu sugestivního dotazování a je
-důvodem, proč forenzní rozhovor klade velký důraz na otevřené, nenavádějící otázky
+důvodem, proč [forenzní rozhovor](@/glossary/forensic-interview.md) klade velký důraz na otevřené, nenavádějící otázky
 (Loftus a Palmer 1974). Kompendium tento rámec popisuje u
 [forenzního rozhovoru](@/kompendium/forensic-legal/1-forensic-interview-protocol.md).
 

@@ -38,7 +38,7 @@ nlp_ancestors = ["strategie-pojem"]
 nlp_related = ["tote-model", "vnitrni-dialog", "elicitace-strategie", "rozhodovaci-strategie", "presvedcovaci-strategie"]
 nlp_related_declared = ["tote-model", "rozhodovaci-strategie", "presvedcovaci-strategie", "vnitrni-dialog", "elicitace-strategie"]
 nlp_kompendium = ["kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md", "kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_links_prose = ["kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md", "kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md"]
+nlp_links_prose = ["glossary/heuristika.md", "kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md", "kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md"]
 nlp_prev = "generator-noveho-chovani"
 nlp_next = "modelovani-nevedomim"
 nlp_position = 19
@@ -99,7 +99,7 @@ Jako výkladový pojem má smyčková strategie legitimní a užitečné místo.
 
 ## Stav důkazů
 
-Pojem smyčkové strategie je popisný a nebyl předmětem samostatného kontrolovaného výzkumu. Jeho jádro, totiž že postup bez dosažitelného výstupu se nezastaví, je logickým důsledkem kybernetického modelu, z něhož vychází (Miller, Galanter a Pribram 1960). Jevy, které pojem popisuje, jsou však v psychologii dobře známé pod jinými názvy. Opakující se negativní myšlení u deprese a úzkosti popsala kognitivní terapie (Beck 1976) a role absolutních požadavků v udržování úzkosti je ústředním tématem racionálně emoční terapie (Ellis 1962). Specifická tvrzení NLP, například že smyčku lze spolehlivě zjistit z očních pohybů nebo z predikátů a odstranit krátkou intervencí, nejsou podložena. Výzkum reprezentačních systémů a očních přístupových signálů, na nichž popis strategií v NLP stojí, tato tvrzení opakovaně nepotvrdil (Sharpley 1987; Witkowski 2010). Hrozí i opačné riziko: pojem se dá použít ke zpětnému výkladu téměř jakéhokoli váhání, a stává se tak nevyvratitelným, protože každé nerozhodnutí lze dodatečně označit za smyčku (Gilovich 1991). Pojem je proto užitečný jako heuristika pro sebepozorování, nikoli jako diagnóza.
+Pojem smyčkové strategie je popisný a nebyl předmětem samostatného kontrolovaného výzkumu. Jeho jádro, totiž že postup bez dosažitelného výstupu se nezastaví, je logickým důsledkem kybernetického modelu, z něhož vychází (Miller, Galanter a Pribram 1960). Jevy, které pojem popisuje, jsou však v psychologii dobře známé pod jinými názvy. Opakující se negativní myšlení u deprese a úzkosti popsala kognitivní terapie (Beck 1976) a role absolutních požadavků v udržování úzkosti je ústředním tématem racionálně emoční terapie (Ellis 1962). Specifická tvrzení NLP, například že smyčku lze spolehlivě zjistit z očních pohybů nebo z predikátů a odstranit krátkou intervencí, nejsou podložena. Výzkum reprezentačních systémů a očních přístupových signálů, na nichž popis strategií v NLP stojí, tato tvrzení opakovaně nepotvrdil (Sharpley 1987; Witkowski 2010). Hrozí i opačné riziko: pojem se dá použít ke zpětnému výkladu téměř jakéhokoli váhání, a stává se tak nevyvratitelným, protože každé nerozhodnutí lze dodatečně označit za smyčku (Gilovich 1991). Pojem je proto užitečný jako [heuristika](@/glossary/heuristika.md) pro sebepozorování, nikoli jako diagnóza.
 
 ## Obrana a zotavení
 

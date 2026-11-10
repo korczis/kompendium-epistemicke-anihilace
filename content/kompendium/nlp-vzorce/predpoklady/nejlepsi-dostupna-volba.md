@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["mapa-neni-uzemi", "pozitivni-zamer-chovani", "lide-maji-potrebne-zdroje", "volba-je-lepsi-nez-zadna-volba", "iluze-volby"]
 nlp_related_declared = ["volba-je-lepsi-nez-zadna-volba", "pozitivni-zamer-chovani", "iluze-volby", "lide-maji-potrebne-zdroje", "mapa-neni-uzemi"]
 nlp_kompendium = ["kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md"]
+nlp_links_prose = ["glossary/heuristika.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md"]
 nlp_prev = "clovek-neni-sve-chovani"
 nlp_next = "odpor-jako-nedostatek-raportu"
 nlp_position = 10
@@ -175,7 +175,7 @@ rozhodování navíc ukazuje, že lidé se systematicky odchylují od toho, co b
 nejlepší i podle jejich vlastních měřítek, a že jejich volby ovlivňuje rámování, ukotvení a
 další heuristiky (Tversky a Kahneman 1974; Kahneman 2011). Tvrzení, že lidé „vždy“ volí
 nejlépe, je tedy nanejvýš terapeutickým postojem, nikoli popisem rozhodování. Witkowski shrnuje
-[výzkum NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) jako převážně nepodporující jeho klíčová tvrzení (Witkowski 2010); jako heuristika
+[výzkum NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md) jako převážně nepodporující jeho klíčová tvrzení (Witkowski 2010); jako [heuristika](@/glossary/heuristika.md)
 proti moralizování klienta má však předpoklad obhajitelné místo, pokud se drží spolu s otázkou,
 co bylo dostupné.
 

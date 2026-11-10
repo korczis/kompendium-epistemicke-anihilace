@@ -38,7 +38,7 @@ nlp_ancestors = ["nlp-v-prodeji"]
 nlp_related = ["poradove-cislovky", "ramec-jako-by", "kotvy-v-reklame", "vlozeni-budouciho-cile", "budouci-prehravani", "casova-orientace", "otazky-vysledku", "predstavte-si", "nlp-v-prodeji", "predpokladovy-zaver", "velke-seminare", "hypnoticky-jazyk-online"]
 nlp_related_declared = ["budouci-prehravani", "vlozeni-budouciho-cile", "kotvy-v-reklame", "predpokladovy-zaver"]
 nlp_kompendium = ["kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md", "kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/techniques/ea-7-3-2-tversky-heuristics.md"]
+nlp_links_prose = ["glossary/heuristika.md", "kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md", "kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/techniques/ea-7-3-2-tversky-heuristics.md"]
 nlp_prev = "alternativni-zaver"
 nlp_next = "nlp-v-komunite-svadeni"
 nlp_position = 5
@@ -171,7 +171,7 @@ běžné prezentace, neexistují spolehlivé studie a tvrzení se opírají o sv
 výcvikové materiály. Obecné přehledy výzkumu NLP nenacházejí empirickou oporu pro jeho
 specifické techniky a upozorňují na převahu nekontrolovaných zpráv (Witkowski 2010). Také
 národní hodnocení NLP jako techniky ovlivňování nedospělo k pozitivnímu závěru (Druckman a
-Swets 1988). Dobře doložené jsou naopak mechanismy, na které vzorec spoléhá: heuristika
+Swets 1988). Dobře doložené jsou naopak mechanismy, na které vzorec spoléhá: [heuristika](@/glossary/heuristika.md)
 dostupnosti a představitelnosti (Tversky a Kahneman 1974), rámcování zisků a ztrát (Tversky
 a Kahneman 1981) a odlišná stálost postojů vzniklých centrální a okrajovou cestou (Petty a
 Cacioppo 1986). Je tedy pravděpodobné, že představa budoucího vlastnictví může rozhodování

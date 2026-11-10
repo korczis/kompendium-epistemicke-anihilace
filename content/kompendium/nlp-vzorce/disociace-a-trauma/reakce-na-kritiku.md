@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["meta-pozice", "disociace", "zmena-kriticke-sebeprezentace", "vzorec-odpusteni", "sebepojeti"]
 nlp_related_declared = ["disociace", "meta-pozice", "sebepojeti", "vzorec-odpusteni", "zmena-kriticke-sebeprezentace"]
 nlp_kompendium = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md", "kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
+nlp_links_prose = ["glossary/disociace.md", "kompendium/03-zakladni-kategorie/scenar-h.md", "kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md", "kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"]
 nlp_prev = "vzorec-odpusteni"
 nlp_next = "sebepojeti"
 nlp_position = 8
@@ -93,7 +93,7 @@ a formy své kritiky na údajně chybnou reakci adresáta. Heslo popisuje obě p
 
 Vzorec rozpracovali Connirae a Steve Andreasovi a zařadili ho do své knihy o technikách NLP
 jako postup pro lidi, kteří kritiku prožívají jako zdrcující (Andreas a Andreas 1989). Navazuje
-na pojem disociace v NLP smyslu, tedy na pohled na sebe a na situaci zvenčí, který rozebírá
+na pojem [disociace](@/glossary/disociace.md) v NLP smyslu, tedy na pohled na sebe a na situaci zvenčí, který rozebírá
 heslo [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md), a na
 [meta-pozici](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md), z níž lze posuzovat
 vlastní reakce. Příbuzný je vzorec, který pracuje s vnitřním kritickým hlasem, rozebíraný v

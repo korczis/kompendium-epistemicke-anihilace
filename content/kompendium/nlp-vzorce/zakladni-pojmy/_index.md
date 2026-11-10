@@ -43,7 +43,7 @@ pojmy, které z ní vycházejí: vedoucí a preferovaný systém,
 signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) a synestezie.
 Druhou skupinu tvoří pojmy vztahu a pozorování: raport, kalibrace, smyslová ostrost, pacing a
 leading. Třetí skupinu tvoří pojmy vnitřního stavu a jeho organizace: stav, zdrojový stav,
-asociace a disociace, kongruence a inkongruence, uptime a downtime, trans. Čtvrtou skupinu
+asociace a [disociace](@/glossary/disociace.md), kongruence a inkongruence, uptime a downtime, trans. Čtvrtou skupinu
 tvoří pojmy struktury myšlení a jednání: strategie, model TOTE, logické úrovně, percepční
 pozice, metaprogramy, časová osa, chunking a rámec. Pátou skupinu tvoří jazykové pojmy převzaté
 z lingvistiky: hluboká a povrchová struktura a tři univerzální procesy modelování, tedy

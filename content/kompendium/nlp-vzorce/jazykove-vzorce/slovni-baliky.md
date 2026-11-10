@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["predikaty", "nominalizace", "umyslna-vagnost", "komentarova-adverbia", "vztazne-vety-presupozice", "presupozice-v-reklame", "som-redefinice", "auditivni-kotvy", "kriteria", "sladeni-hodnot", "chunking-nahoru", "protoze", "nlp-v-sektach", "nlp-v-politicke-reci"]
 nlp_related_declared = ["nominalizace", "komentarova-adverbia", "presupozice-v-reklame", "nlp-v-politicke-reci", "nlp-v-sektach", "protoze"]
 nlp_kompendium = ["kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md"]
-nlp_links_prose = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/nominalizace.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
+nlp_links_prose = ["glossary/propaganda.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/nominalizace.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
 nlp_prev = "otazky-misto-tvrzeni"
 nlp_next = "casove-presuny-v-jazyce"
 nlp_position = 19
@@ -88,7 +88,7 @@ nominalizace, které z děje dělají abstraktní věc, přes takzvaná slova kr
 jimiž člověk vyjadřuje své hodnoty (Charvet 1997), a přes doporučení populárních vlivových
 příruček používat slova, která mají v posluchači vyvolat žádoucí reakci. Kompendium vzorec řadí k vysoce
 rizikovým, protože nabitý jazyk je jedním z hlavních nástrojů, jimiž uzavřené skupiny,
-propaganda i kontrolující vztahy přetvářejí myšlení: kdo převezme slova, převezme i
+[propaganda](@/glossary/propaganda.md) i kontrolující vztahy přetvářejí myšlení: kdo převezme slova, převezme i
 hodnocení, a s ním hranice toho, co lze myslet (Lifton 1961).
 
 ## Původ a souvislosti

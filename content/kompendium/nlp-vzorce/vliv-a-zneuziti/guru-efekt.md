@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["neni-selhani-jen-zpetna-vazba", "modelovatelnost-excelence", "kongruence", "umyslna-vagnost", "selhani-jako-zpetna-vazba-vzorec", "kruh-excelence", "kotvy-v-prezentaci", "kotveni-ve-skupine", "uroven-poslani", "strategie-geniality", "stav-nevedeni", "modelovani-nevedomim", "muzeum-starych-presvedceni", "vnitrni-a-vnejsi-reference", "raport-se-skupinou", "nlp-v-sektach", "nlp-v-koucinku", "trh-certifikaci-nlp", "velke-seminare", "neuro-zargon", "nlp-v-koucinku-vyzkum"]
 nlp_related_declared = ["velke-seminare", "trh-certifikaci-nlp", "nlp-v-sektach", "umyslna-vagnost", "neuro-zargon", "kotveni-ve-skupine"]
 nlp_kompendium = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/detection-signatures/1-linguistic-jargon-density.md", "kompendium/case-studies/63-investor-cult.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+nlp_links_prose = ["glossary/charisma.md", "kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/velke-seminare.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
 nlp_prev = "trh-certifikaci-nlp"
 nlp_next = "velke-seminare"
 nlp_position = 13
@@ -162,7 +162,7 @@ sám o sobě varovným znakem (Singer a Lalich 1995).
 
 ## Legitimní a manipulativní užití
 
-Charisma a schopnost zaujmout publikum jsou samy o sobě legitimní dovednosti každého
+[Charisma](@/glossary/charisma.md) a schopnost zaujmout publikum jsou samy o sobě legitimní dovednosti každého
 učitele. Legitimní užití se pozná podle toho, že lektor odlišuje osobní zkušenost od
 ověřeného poznatku, sám odkazuje na kritické zdroje, připouští meze své metody a
 neodvozuje hodnotu tvrzení od své osoby. Účastník odchází s nástroji, které může

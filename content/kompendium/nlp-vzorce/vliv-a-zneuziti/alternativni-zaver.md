@@ -38,7 +38,7 @@ nlp_ancestors = ["nlp-v-prodeji"]
 nlp_related = ["volba-je-lepsi-nez-zadna-volba", "ano-sada", "iluze-volby", "presupozice-nebo", "moznosti-a-postupy", "nlp-v-prodeji", "predpokladovy-zaver"]
 nlp_related_declared = ["iluze-volby", "presupozice-nebo", "predpokladovy-zaver", "ano-sada"]
 nlp_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/presupozice/presupozice-nebo.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
+nlp_links_prose = ["glossary/double-bind.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/presupozice/presupozice-nebo.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md"]
 nlp_prev = "predpokladovy-zaver"
 nlp_next = "budouci-prehravani-v-prodeji"
 nlp_position = 4
@@ -104,7 +104,7 @@ odvodili obecný jazykový vzorec, který zařadili do Milton-modelu (Bandler a 
 1975b). Původní pojem dvojné vazby přitom pochází z jiné tradice a má opačný význam.
 Bateson a spolupracovníci jím označili patogenní komunikační situaci, v níž člověk dostává
 protichůdné požadavky, nemůže z ní uniknout a nemůže o rozporu mluvit (Bateson a kol.
-1956). Ericksonovská a prodejní dvojná vazba si z tohoto popisu ponechala strukturu
+1956). Ericksonovská a prodejní [dvojná vazba](@/glossary/double-bind.md) si z tohoto popisu ponechala strukturu
 omezených možností, ale vypustila nesvobodu a zakázaný metakomentář. Právě zde leží
 klíčové rozlišení pro posouzení: dokud může člověk otevřeně říct, že nechce ani jednu
 možnost, nejde o vazbu v Batesonově smyslu, ale o zúžený rámec, z něhož lze vystoupit. Stránka

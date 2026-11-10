@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["kdyz-to-nefunguje-udelej-neco-jineho", "negativni-prikazy", "utilizace", "terapeuticka-dvojna-vazba", "apozice-protikladu", "reframing"]
 nlp_related_declared = ["terapeuticka-dvojna-vazba", "reframing", "kdyz-to-nefunguje-udelej-neco-jineho", "utilizace"]
 nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md", "kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+nlp_links_prose = ["glossary/double-bind.md", "glossary/informed-consent.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md", "kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
 nlp_prev = "predepsani-symptomu"
 nlp_next = "posthypnoticka-sugesce"
 nlp_position = 10
@@ -201,14 +201,14 @@ indikacemi, ne univerzální technika změny.
 Obranou proti manipulativnímu paradoxu je metakomunikace, tedy schopnost mluvit o rámci,
 ve kterém rozhovor probíhá. Pokud každá vaše možná reakce potvrzuje výklad druhé strany,
 je legitimní to nahlas pojmenovat a odmítnout přijmout rámec, ve kterém neexistuje
-svobodná volba. Bateson a spolupracovníci zdůrazňovali, že patologická dvojná vazba
+svobodná volba. Bateson a spolupracovníci zdůrazňovali, že patologická [dvojná vazba](@/glossary/double-bind.md)
 předpokládá nemožnost vystoupit ze situace a komentovat ji (Bateson a kol. 1956); obrana
 proto spočívá právě v obnovení této možnosti. V praxi to znamená opřít rozhodnutí o vnější
 podporu, například přátele, rodinu nebo odborníka mimo vztah, a nečekat na souhlas druhé
 strany. Lidé, kteří delší dobu žili v prostředí paradoxních sdělení, mohou zažívat
 paralýzu rozhodování a pocit, že cokoli udělají, bude špatně. Zotavení zahrnuje rozpoznání
 struktury, obnovu důvěry ve vlastní volby a postupnou zkušenost rozhodnutí, která nejsou
-předem vyložena jako selhání (Herman 1992). V terapii je ochranou informovaný souhlas a
+předem vyložena jako selhání (Herman 1992). V terapii je ochranou [informovaný souhlas](@/glossary/informed-consent.md) a
 možnost zeptat se terapeuta, proč doporučuje neobvyklý postup.
 
 <!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->

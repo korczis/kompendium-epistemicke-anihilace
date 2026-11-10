@@ -38,7 +38,7 @@ nlp_ancestors = ["novy-kod"]
 nlp_related = ["vnitrni-dialog", "uptime-a-downtime", "trans-pojem", "strategie-uceni", "novy-kod", "stav-vysokeho-vykonu", "periferni-videni", "modelovani-nevedomim", "guru-efekt"]
 nlp_related_declared = ["periferni-videni", "uptime-a-downtime", "vnitrni-dialog", "trans-pojem", "guru-efekt"]
 nlp_kompendium = ["kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md", "kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md", "kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md", "kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md"]
+nlp_links_prose = ["glossary/epistemicka-pokora.md", "kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md", "kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md", "kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md"]
 nlp_prev = "abecedni-hra"
 nlp_next = "periferni-videni"
 nlp_position = 14
@@ -103,7 +103,7 @@ Obecná zásada, že předčasné kategorie zkreslují pozorování, má v psych
 
 ## Obrana a zotavení
 
-Nejúčinnější obranou je položit si tři otázky, které odlišují legitimní a manipulativní užití: odkládám svůj úsudek sám a dobrovolně, vím, kdy se k němu vrátím, a platí totéž i pro toho, kdo mě k nevědění vybízí? Pokud je odpověď na kteroukoli z nich záporná, jde spíše o podřízení než o otevřenost. Druhou obranou je zachovat si vnější opory vědění: vztahy, zdroje a zkušenosti mimo skupinu nebo kurz, které mohou poskytnout jiný pohled. Třetí obranou je pojmenovat rozdíl mezi pokorou a sebeznevážením. Epistemická pokora znamená připustit, že se mohu mýlit, a ověřovat; neznamená předpokládat, že se mýlím vždy, když nesouhlasím s autoritou. U lidí, kteří odešli z prostředí, kde se jejich vědění soustavně znevažovalo, se v klinické praxi pracuje s obnovou důvěry ve vlastní vnímání a úsudek. Herman zdůrazňuje, že tato obnova probíhá ve vztazích, které respektují autonomii člověka a jeho právo na vlastní popis událostí (Herman 1992). Prakticky to znamená postupné vracení se k vlastním měřítkům, k dřívějším zájmům a vztahům a k ověřování tvrzení, která skupina předkládala jako nezpochybnitelná.
+Nejúčinnější obranou je položit si tři otázky, které odlišují legitimní a manipulativní užití: odkládám svůj úsudek sám a dobrovolně, vím, kdy se k němu vrátím, a platí totéž i pro toho, kdo mě k nevědění vybízí? Pokud je odpověď na kteroukoli z nich záporná, jde spíše o podřízení než o otevřenost. Druhou obranou je zachovat si vnější opory vědění: vztahy, zdroje a zkušenosti mimo skupinu nebo kurz, které mohou poskytnout jiný pohled. Třetí obranou je pojmenovat rozdíl mezi pokorou a sebeznevážením. [Epistemická pokora](@/glossary/epistemicka-pokora.md) znamená připustit, že se mohu mýlit, a ověřovat; neznamená předpokládat, že se mýlím vždy, když nesouhlasím s autoritou. U lidí, kteří odešli z prostředí, kde se jejich vědění soustavně znevažovalo, se v klinické praxi pracuje s obnovou důvěry ve vlastní vnímání a úsudek. Herman zdůrazňuje, že tato obnova probíhá ve vztazích, které respektují autonomii člověka a jeho právo na vlastní popis událostí (Herman 1992). Prakticky to znamená postupné vracení se k vlastním měřítkům, k dřívějším zájmům a vztahům a k ověřování tvrzení, která skupina předkládala jako nezpochybnitelná.
 
 <!-- kompendium:nlp-vazby:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
 

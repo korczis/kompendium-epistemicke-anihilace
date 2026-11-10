@@ -38,7 +38,7 @@ nlp_ancestors = ["reframing"]
 nlp_related = ["komplexni-ekvivalence", "sleight-of-mouth", "som-zamer", "som-redefinice", "som-analogie", "kontextovy-reframing", "kontrastni-ramec", "dodatecne-ramcovani", "selhani-jako-zpetna-vazba-vzorec", "presvedceni-o-vyznamu", "ale-a-a", "manipulativni-reframing-ve-vztazich"]
 nlp_related_declared = ["kontextovy-reframing", "som-redefinice", "som-zamer", "manipulativni-reframing-ve-vztazich", "selhani-jako-zpetna-vazba-vzorec"]
 nlp_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
-nlp_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/reframing/kontextovy-reframing.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
+nlp_links_prose = ["glossary/coercive-control.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md", "kompendium/nlp-vzorce/reframing/kontextovy-reframing.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
 nlp_prev = "kontextovy-reframing"
 nlp_next = "sestikrokovy-reframing"
 nlp_position = 3
@@ -139,7 +139,7 @@ dlouhodobě vystaveného tomuto vzorci se objevuje rozpolcenost mezi tím, co c�
 si „má myslet“, a sklon nejprve hledat chybu ve vlastní reakci. Detekční signatura
 [gaslightingu](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) v
 kompendiu popisuje související znaky narušené důvěry ve vlastní vnímání. Ve vztazích s
-coercive control slouží přepisování významu k tomu, aby omezování svobody vypadalo jako
+[coercive control](@/glossary/coercive-control.md) slouží přepisování významu k tomu, aby omezování svobody vypadalo jako
 projev starosti, a právě proto zůstává dlouho nepojmenováno (Stark 2007).
 
 ## Legitimní a manipulativní užití

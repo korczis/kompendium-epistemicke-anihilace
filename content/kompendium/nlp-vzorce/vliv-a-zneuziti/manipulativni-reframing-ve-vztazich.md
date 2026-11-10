@@ -38,7 +38,7 @@ nlp_ancestors = ["reframing"]
 nlp_related = ["mapa-neni-uzemi", "pozitivni-zamer-chovani", "som-zamer", "reframing", "kontextovy-reframing", "obsahovy-reframing", "dodatecne-ramcovani", "kotveni-v-kontrolujicich-vztazich", "strategie-lasky", "elicitace-pozitivniho-zameru", "nlp-v-komunite-svadeni"]
 nlp_related_declared = ["obsahovy-reframing", "kotveni-v-kontrolujicich-vztazich", "mapa-neni-uzemi", "pozitivni-zamer-chovani", "dodatecne-ramcovani"]
 nlp_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
-nlp_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/reframing/dodatecne-ramcovani.md", "kompendium/nlp-vzorce/reframing/obsahovy-reframing.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md"]
+nlp_links_prose = ["glossary/coercive-control.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md", "kompendium/nlp-vzorce/reframing/dodatecne-ramcovani.md", "kompendium/nlp-vzorce/reframing/obsahovy-reframing.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md"]
 nlp_prev = "falesne-zrcadleni-v-podvodech"
 nlp_next = "hypnoticky-jazyk-online"
 nlp_position = 16
@@ -90,7 +90,7 @@ jako možnost, kterou lze odmítnout, ale vnucuje se jako jediný přípustný v
 proto nelze posuzovat podle jednotlivých výroků; podstatné je, že se opakuje, že
 směřuje vždy jedním směrem a že postupně odebírá druhé osobě právo na vlastní popis
 toho, co se děje. Kompendium ho chápe jako jazykovou složku širšího vzorce, který
-Stark popsal jako coercive control (Stark 2007).
+Stark popsal jako [coercive control](@/glossary/coercive-control.md) (Stark 2007).
 
 ## Původ a souvislosti
 

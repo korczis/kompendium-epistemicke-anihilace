@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["vizualni-submodality", "kinesteticke-submodality", "prostorove-umisteni-obrazu", "rychla-lecba-fobie", "dvojita-disociace", "rewind"]
 nlp_related_declared = ["rychla-lecba-fobie", "dvojita-disociace", "vizualni-submodality", "prostorove-umisteni-obrazu", "kinesteticke-submodality"]
 nlp_kompendium = ["kompendium/techniques/ea-6-2-2-emdr-protokol.md", "glossary/complex-trauma.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md"]
-nlp_links_prose = ["glossary/complex-trauma.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/submodality/vizualni-submodality.md", "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md", "kompendium/techniques/ea-6-2-2-emdr-protokol.md"]
+nlp_links_prose = ["glossary/complex-trauma.md", "glossary/disociace.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/submodality/vizualni-submodality.md", "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md", "kompendium/techniques/ea-6-2-2-emdr-protokol.md"]
 nlp_prev = "zmena-vnitrniho-hlasu"
 nlp_next = "prostorove-umisteni-obrazu"
 nlp_position = 17
@@ -80,7 +80,7 @@ nlp_catalogue = "data/nlp/submodality.b.toml"
 
 Filmová technika (anglicky movie theatre technique) je v neurolingvistickém programování
 označení pro intervenci, při níž se tíživá vzpomínka nebo obávaná situace prožívá jako film
-promítaný na plátně, nikoli jako zážitek „zevnitř“. Klíčovým pojmem je disociace v
+promítaný na plátně, nikoli jako zážitek „zevnitř“. Klíčovým pojmem je [disociace](@/glossary/disociace.md) v
 NLP smyslu: člověk se nevidí v situaci vlastníma očima, ale sleduje sám sebe z pozice diváka,
 případně z ještě vzdálenější pozice promítací kabiny. Tento odstup má podle NLP oslabit
 tělesnou a emoční reakci, protože pocity jsou spojeny hlavně s prožíváním „zevnitř“

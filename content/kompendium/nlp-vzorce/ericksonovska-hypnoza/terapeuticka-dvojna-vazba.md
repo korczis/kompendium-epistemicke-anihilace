@@ -38,7 +38,7 @@ nlp_ancestors = ["ericksonovska-hypnoza"]
 nlp_related = ["iluze-volby", "levitace-ruky", "predepsani-symptomu", "paradoxni-intervence", "vedome-nevedoma-dvojna-vazba", "dvojita-disociativni-vazba", "apozice-protikladu", "sugesce-pokryvajici-vsechny-moznosti", "presupozice-nebo"]
 nlp_related_declared = ["iluze-volby", "paradoxni-intervence", "predepsani-symptomu", "vedome-nevedoma-dvojna-vazba", "dvojita-disociativni-vazba"]
 nlp_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+nlp_links_prose = ["glossary/double-bind.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
 nlp_prev = "vrstveni-realit"
 nlp_next = "vedome-nevedoma-dvojna-vazba"
 nlp_position = 17
@@ -114,7 +114,7 @@ a [paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxn
 
 ## Struktura vzorce
 
-Strukturálně má každá dvojná vazba tři prvky: rámec, alternativy uvnitř rámce a pravidlo o
+Strukturálně má každá [dvojná vazba](@/glossary/double-bind.md) tři prvky: rámec, alternativy uvnitř rámce a pravidlo o
 tom, zda lze rámec komentovat. Rámec stanoví, o čem se rozhoduje; alternativy nabízejí
 volbu; pravidlo o komentáři určuje, zda je dovoleno říct „tuhle volbu nepřijímám“. Rozdíl
 mezi terapeutickou a patogenní podobou neleží v alternativách, ale ve třetím prvku. V

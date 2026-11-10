@@ -38,7 +38,7 @@ nlp_ancestors = ["kotveni"]
 nlp_related = ["kotva-pojem", "opakovaci-slova", "kotveni", "kolaps-kotev", "auditivni-kotvy", "kinesteticke-kotvy", "nechtene-kotvy", "od-libosti-k-nechuti", "prahovy-vzorec", "strategie-lasky", "preruseni-raportu", "raport-jako-nastroj-vlivu", "nlp-v-komunite-svadeni", "manipulativni-reframing-ve-vztazich"]
 nlp_related_declared = ["nechtene-kotvy", "kotveni", "manipulativni-reframing-ve-vztazich", "kinesteticke-kotvy", "auditivni-kotvy", "raport-jako-nastroj-vlivu"]
 nlp_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md", "kompendium/techniques/ea-8-1-4-coercive-control-scale.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md"]
-nlp_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md", "kompendium/techniques/ea-8-1-4-coercive-control-scale.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
+nlp_links_prose = ["glossary/coercive-control.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md", "kompendium/techniques/ea-8-1-4-coercive-control-scale.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
 nlp_prev = "nechtene-kotvy"
 nlp_next = "kotveni-versus-ukotveni-odhadu"
 nlp_position = 18
@@ -163,7 +163,7 @@ změnit; nevyvolává strach, ale dává oběma možnost zastavit se. Kontroluj�
 jednostranný, vznikl ze zkušenosti hrozby a slouží jedné osobě k řízení druhé. Manipulativní
 užití nemusí být vždy vědomé. Kontrolující osoba si často neuvědomuje, že její tón nebo
 pohled působí jako hrozba, a mnohé vzorce se tvoří spontánně. To však nemění nic na
-odpovědnosti za kontrolu ani na jejích následcích. Stark upozorňuje, že donucující kontrola
+odpovědnosti za kontrolu ani na jejích následcích. Stark upozorňuje, že [donucující kontrola](@/glossary/coercive-control.md)
 je převážně strategická a že její jednotlivé projevy dávají smysl teprve jako součást celku
 (Stark 2007). V kontextu NLP je třeba zmínit i riziko, že znalosti o kotvení, raportu a
 kalibraci získané v kurzech mohou kontrolující osoby využít k zesílení vlivu; obranné

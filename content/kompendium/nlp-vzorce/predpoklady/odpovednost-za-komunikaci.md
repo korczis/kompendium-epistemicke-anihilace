@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["vyznam-komunikace-je-reakce", "odpor-jako-nedostatek-raportu", "kdyz-to-nefunguje-udelej-neco-jineho", "nelze-nekomunikovat", "odpovednost"]
 nlp_related_declared = ["vyznam-komunikace-je-reakce", "odpor-jako-nedostatek-raportu", "nelze-nekomunikovat", "kdyz-to-nefunguje-udelej-neco-jineho", "odpovednost"]
 nlp_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/06-klinicke-aplikace/supervizni-ramce.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/supervizni-ramce.md", "kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md", "kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
+nlp_links_prose = ["glossary/blame-shifting.md", "kompendium/06-klinicke-aplikace/supervizni-ramce.md", "kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md", "kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
 nlp_prev = "predpoklady-jako-pracovni-hypotezy"
 nlp_next = ""
 nlp_position = 21
@@ -172,7 +172,7 @@ rétoricky silné postoje, jejichž užitečnost se v praxi nepodrobuje systemat
 (Tosey a Mathison 2009). Přehled výzkumu NLP v koučinku nenašel dostatek kvalitních studií,
 které by podporovaly účinnost technik odvozených z těchto předpokladů (Passmore a Rowson
 2019). Dobře doložené je naopak to, co se týká obráceného užití: klinická a sociologická
-literatura o násilí v blízkých vztazích popisuje přesouvání viny na oběť a její
+literatura o násilí v blízkých vztazích popisuje [přesouvání viny](@/glossary/blame-shifting.md) na oběť a její
 sebeobviňování jako opakující se rys dlouhodobé kontroly (Herman 1992; Stark 2007). Pro
 čtenáře z toho plyne, že předpoklad je rozumný jako profesní zásada, ale nemá oporu jako
 obecné pravidlo rozdělení odpovědnosti mezi lidi.

@@ -38,7 +38,7 @@ nlp_ancestors = ["nlp-v-reklame"]
 nlp_related = ["olfaktorni-a-gustatorni-system", "submodality-pojem", "vizualni-kotvy", "kotvy-v-reklame", "vizualni-submodality", "auditivni-submodality", "metaprogramy-v-marketingu", "nlp-v-reklame", "hypnoticky-jazyk-online"]
 nlp_related_declared = ["nlp-v-reklame", "kotvy-v-reklame", "vizualni-submodality", "auditivni-submodality", "metaprogramy-v-marketingu", "hypnoticky-jazyk-online"]
 nlp_kompendium = ["kompendium/07-teoreticke-reflexe/digitalni-vek.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/case-studies/74-influencer-cult.md"]
-nlp_links_prose = ["kompendium/07-teoreticke-reflexe/digitalni-vek.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/case-studies/74-influencer-cult.md", "kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
+nlp_links_prose = ["glossary/heuristika.md", "glossary/propaganda.md", "kompendium/07-teoreticke-reflexe/digitalni-vek.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/case-studies/74-influencer-cult.md", "kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
 nlp_prev = "prostorove-umisteni-obrazu"
 nlp_next = "zmena-kriticke-sebeprezentace"
 nlp_position = 19
@@ -96,7 +96,7 @@ dávno známé prostředky vizuální rétoriky.
 
 Práce s formou obrazu a zvuku je v reklamě, filmu a politické propagandě mnohem starší než NLP.
 Kameramani, střihači a grafici od počátku věděli, že detailní záběr vytváří blízkost, podhled
-moc, zpomalení vážnost a hudba náladu. Propaganda totalitních režimů tyto prostředky
+moc, zpomalení vážnost a hudba náladu. [Propaganda](@/glossary/propaganda.md) totalitních režimů tyto prostředky
 systematicky využívala a kompendium jejich roli rozebírá v kapitole o
 [politické a ideologické epistemické anihilaci](@/kompendium/07-teoreticke-reflexe/politicka-ea.md).
 NLP do této oblasti nepřineslo nové prostředky, ale nový výklad: popsalo je jako submodality a
@@ -177,7 +177,7 @@ výsledky (Tosey a Mathison 2009).
 
 Výzkum mimo NLP naproti tomu doložil, že formální vlastnosti sdělení ovlivňují pozornost,
 zapamatování a postoj, zejména tehdy, když divák nemá motivaci nebo kapacitu zpracovávat
-argumenty (Petty a Cacioppo 1986). Heuristika dostupnosti vysvětluje, proč živé a opakované
+argumenty (Petty a Cacioppo 1986). [Heuristika](@/glossary/heuristika.md) dostupnosti vysvětluje, proč živé a opakované
 obrazy zkreslují odhad četnosti a rizika (Tversky a Kahneman 1974). To znamená, že jev, který
 submodalitní výklad popisuje, je reálný, ale jeho síla je obvykle mírná a nejlépe ho vysvětlují
 teorie psychologie přesvědčování, nikoli NLP.

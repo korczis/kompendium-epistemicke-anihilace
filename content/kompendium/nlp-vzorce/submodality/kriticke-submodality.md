@@ -38,7 +38,7 @@ nlp_ancestors = ["submodality-pojem"]
 nlp_related = ["submodality-pojem", "posuvna-kotva", "kontrastni-analyza", "mapovani-napric", "swish", "vyhozeni-kompulze", "vzorec-godiva", "zmena-presvedceni-submodalitami", "prahovy-vzorec", "zmena-vnitrniho-hlasu"]
 nlp_related_declared = ["kontrastni-analyza", "mapovani-napric", "swish", "zmena-presvedceni-submodalitami", "vyhozeni-kompulze"]
 nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/submodality/kontrastni-analyza.md", "kompendium/nlp-vzorce/submodality/mapovani-napric.md", "kompendium/nlp-vzorce/submodality/swish.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+nlp_links_prose = ["glossary/heuristika.md", "kompendium/nlp-vzorce/submodality/kontrastni-analyza.md", "kompendium/nlp-vzorce/submodality/mapovani-napric.md", "kompendium/nlp-vzorce/submodality/swish.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
 nlp_prev = "kinesteticke-submodality"
 nlp_next = "kontrastni-analyza"
 nlp_position = 5
@@ -154,7 +154,7 @@ Lynn 1995). Pozorovatel by proto neměl jevištní ukázku zaměňovat za doklad
 Legitimní užití pojmu je opatrné a hypotetické. Praktik, který ví, že pojem kritických
 submodalit je neověřená pracovní hypotéza, může s klientem zkoumat, které stránky představy
 jsou pro něj citově nejvýraznější, a nechat na něm, zda s tím chce dál pracovat. V takovém
-užití pojem slouží jako heuristika pro rozhovor a ne jako slib. Podobně ověřené přístupy k
+užití pojem slouží jako [heuristika](@/glossary/heuristika.md) pro rozhovor a ne jako slib. Podobně ověřené přístupy k
 dotěrným představám pracují s tím, co je pro klienta na představě nejtíživější, aniž by
 tvrdily, že nalezly jedinou páku (Beck 1976). Užitečným korektivem je i motivační rozhovor,
 který zdůrazňuje, že o směru změny rozhoduje klient a že praktik má podporovat jeho vlastní

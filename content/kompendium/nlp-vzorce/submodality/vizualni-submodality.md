@@ -38,7 +38,7 @@ nlp_ancestors = ["submodality-pojem"]
 nlp_related = ["vizualni-system", "asociace", "disociace", "elicitace-submodalit", "filmova-technika", "prostorove-umisteni-obrazu", "submodality-v-reklame"]
 nlp_related_declared = ["vizualni-system", "asociace", "disociace", "prostorove-umisteni-obrazu", "submodality-v-reklame"]
 nlp_kompendium = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/07-teoreticke-reflexe/digitalni-vek.md"]
-nlp_links_prose = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/nlp-vzorce/zakladni-pojmy/asociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md"]
+nlp_links_prose = ["glossary/disociace.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "kompendium/nlp-vzorce/zakladni-pojmy/asociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md"]
 nlp_prev = "elicitace-submodalit"
 nlp_next = "auditivni-submodality"
 nlp_position = 2
@@ -151,7 +151,7 @@ kompendium popisuje jako uzavřené systémy s regulací prožívání (Lifton 1
 Legitimní užití pojmu je především výkladové a popisné. Klient, který sám říká, že na
 nehodu myslí „jakoby zdálky a bez barev“, podává informaci, se kterou může terapeut pracovat,
 a slovník vizuálních kvalit pomáhá tomuto popisu porozumět. Odborník musí zároveň vědět, že
-oddálený a odbarvený prožitek může být i znakem disociace, která si zaslouží klinické
+oddálený a odbarvený prožitek může být i znakem [disociace](@/glossary/disociace.md), která si zaslouží klinické
 posouzení, a ne další „úpravu obrazu“. Práce s představami má své místo i v ověřených
 terapiích. Systematická desenzibilizace pracuje s postupným vybavováním představ v uvolněném
 stavu (Wolpe 1958) a kognitivní terapie se zabývá obrazovými podobami automatických myšlenek

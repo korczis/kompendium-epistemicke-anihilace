@@ -547,6 +547,11 @@
   },
   {
    "from": "nejlepsi-dostupna-volba",
+   "to": "glossary/heuristika.md",
+   "type": "prose"
+  },
+  {
+   "from": "nejlepsi-dostupna-volba",
    "to": "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md",
    "type": "prose"
   },
@@ -674,6 +679,11 @@
    "from": "kdyz-to-nefunguje-udelej-neco-jineho",
    "to": "kompendium/06-obrana/_index.md",
    "type": "kompendium"
+  },
+  {
+   "from": "kdyz-to-nefunguje-udelej-neco-jineho",
+   "to": "glossary/heuristika.md",
+   "type": "prose"
   },
   {
    "from": "kdyz-to-nefunguje-udelej-neco-jineho",
@@ -874,6 +884,11 @@
    "from": "volba-je-lepsi-nez-zadna-volba",
    "to": "kompendium/quick-reference/qr-ea-1-2-1.md",
    "type": "kompendium"
+  },
+  {
+   "from": "volba-je-lepsi-nez-zadna-volba",
+   "to": "glossary/coercive-control.md",
+   "type": "prose"
   },
   {
    "from": "volba-je-lepsi-nez-zadna-volba",
@@ -1239,6 +1254,11 @@
    "from": "odpovednost-za-komunikaci",
    "to": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
    "type": "kompendium"
+  },
+  {
+   "from": "odpovednost-za-komunikaci",
+   "to": "glossary/blame-shifting.md",
+   "type": "prose"
   },
   {
    "from": "odpovednost-za-komunikaci",
@@ -1642,6 +1662,11 @@
   },
   {
    "from": "auditivne-digitalni-system",
+   "to": "glossary/thought-stopping.md",
+   "type": "prose"
+  },
+  {
+   "from": "auditivne-digitalni-system",
    "to": "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
    "type": "prose"
   },
@@ -1949,6 +1974,11 @@
    "from": "synestezie",
    "to": "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
    "type": "kompendium"
+  },
+  {
+   "from": "synestezie",
+   "to": "glossary/propaganda.md",
+   "type": "prose"
   },
   {
    "from": "synestezie",
@@ -2812,6 +2842,11 @@
   },
   {
    "from": "meta-pozice",
+   "to": "glossary/disociace.md",
+   "type": "prose"
+  },
+  {
+   "from": "meta-pozice",
    "to": "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md",
    "type": "prose"
   },
@@ -2957,6 +2992,11 @@
   },
   {
    "from": "disociace",
+   "to": "glossary/disociace.md",
+   "type": "prose"
+  },
+  {
+   "from": "disociace",
    "to": "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
    "type": "prose"
   },
@@ -3029,6 +3069,11 @@
    "from": "kongruence",
    "to": "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md",
    "type": "kompendium"
+  },
+  {
+   "from": "kongruence",
+   "to": "glossary/charisma.md",
+   "type": "prose"
   },
   {
    "from": "kongruence",
@@ -3179,6 +3224,11 @@
    "from": "ekologicka-kontrola",
    "to": "kompendium/techniques/ea-4-2-6-consent-withdrawal.md",
    "type": "kompendium"
+  },
+  {
+   "from": "ekologicka-kontrola",
+   "to": "glossary/informed-consent.md",
+   "type": "prose"
   },
   {
    "from": "ekologicka-kontrola",
@@ -3997,6 +4047,11 @@
   },
   {
    "from": "vnitrni-dialog",
+   "to": "glossary/thought-stopping.md",
+   "type": "prose"
+  },
+  {
+   "from": "vnitrni-dialog",
    "to": "kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md",
    "type": "prose"
   },
@@ -4124,6 +4179,11 @@
    "from": "trans-pojem",
    "to": "kompendium/case-studies/51-new-age-recovery.md",
    "type": "kompendium"
+  },
+  {
+   "from": "trans-pojem",
+   "to": "glossary/disociace.md",
+   "type": "prose"
   },
   {
    "from": "trans-pojem",
@@ -5932,6 +5992,11 @@
   },
   {
    "from": "konverzacni-postulaty",
+   "to": "glossary/heuristika.md",
+   "type": "prose"
+  },
+  {
+   "from": "konverzacni-postulaty",
    "to": "kompendium/nlp-vzorce/milton-model/pripojene-otazky.md",
    "type": "prose"
   },
@@ -7502,6 +7567,11 @@
   },
   {
    "from": "presupozice-milton",
+   "to": "glossary/forensic-interview.md",
+   "type": "prose"
+  },
+  {
+   "from": "presupozice-milton",
    "to": "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
    "type": "prose"
   },
@@ -8002,6 +8072,11 @@
   },
   {
    "from": "seeding",
+   "to": "glossary/forensic-interview.md",
+   "type": "prose"
+  },
+  {
+   "from": "seeding",
    "to": "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
    "type": "prose"
   },
@@ -8052,6 +8127,11 @@
   },
   {
    "from": "predepsani-symptomu",
+   "to": "glossary/informed-consent.md",
+   "type": "prose"
+  },
+  {
+   "from": "predepsani-symptomu",
    "to": "kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md",
    "type": "prose"
   },
@@ -8099,6 +8179,16 @@
    "from": "paradoxni-intervence",
    "to": "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
    "type": "kompendium"
+  },
+  {
+   "from": "paradoxni-intervence",
+   "to": "glossary/double-bind.md",
+   "type": "prose"
+  },
+  {
+   "from": "paradoxni-intervence",
+   "to": "glossary/informed-consent.md",
+   "type": "prose"
   },
   {
    "from": "paradoxni-intervence",
@@ -8299,6 +8389,11 @@
    "from": "pseudoorientace-v-case",
    "to": "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
    "type": "kompendium"
+  },
+  {
+   "from": "pseudoorientace-v-case",
+   "to": "glossary/epistemicka-anihilace.md",
+   "type": "prose"
   },
   {
    "from": "pseudoorientace-v-case",
@@ -8572,6 +8667,11 @@
   },
   {
    "from": "terapeuticka-dvojna-vazba",
+   "to": "glossary/double-bind.md",
+   "type": "prose"
+  },
+  {
+   "from": "terapeuticka-dvojna-vazba",
    "to": "kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md",
    "type": "prose"
   },
@@ -8704,6 +8804,11 @@
    "from": "dvojita-disociativni-vazba",
    "to": "kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md",
    "type": "kompendium"
+  },
+  {
+   "from": "dvojita-disociativni-vazba",
+   "to": "glossary/disociace.md",
+   "type": "prose"
   },
   {
    "from": "dvojita-disociativni-vazba",
@@ -9237,6 +9342,11 @@
   },
   {
    "from": "indukce-pretizenim",
+   "to": "glossary/informed-consent.md",
+   "type": "prose"
+  },
+  {
+   "from": "indukce-pretizenim",
    "to": "kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md",
    "type": "prose"
   },
@@ -9309,6 +9419,16 @@
    "from": "amnezie-sugesci",
    "to": "kompendium/forensic-legal/1-forensic-interview-protocol.md",
    "type": "kompendium"
+  },
+  {
+   "from": "amnezie-sugesci",
+   "to": "glossary/dissociativni-amnezie.md",
+   "type": "prose"
+  },
+  {
+   "from": "amnezie-sugesci",
+   "to": "glossary/informed-consent.md",
+   "type": "prose"
   },
   {
    "from": "amnezie-sugesci",
@@ -11307,6 +11427,11 @@
   },
   {
    "from": "som-analogie",
+   "to": "glossary/heuristika.md",
+   "type": "prose"
+  },
+  {
+   "from": "som-analogie",
    "to": "kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md",
    "type": "prose"
   },
@@ -11702,6 +11827,11 @@
   },
   {
    "from": "som-zmena-velikosti-ramce",
+   "to": "glossary/coercive-control.md",
+   "type": "prose"
+  },
+  {
+   "from": "som-zmena-velikosti-ramce",
    "to": "kompendium/nlp-vzorce/reframing/kontextovy-reframing.md",
    "type": "prose"
   },
@@ -11917,6 +12047,11 @@
   },
   {
    "from": "obsahovy-reframing",
+   "to": "glossary/coercive-control.md",
+   "type": "prose"
+  },
+  {
+   "from": "obsahovy-reframing",
    "to": "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
    "type": "prose"
   },
@@ -11994,6 +12129,11 @@
    "from": "sestikrokovy-reframing",
    "to": "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
    "type": "kompendium"
+  },
+  {
+   "from": "sestikrokovy-reframing",
+   "to": "glossary/informed-consent.md",
+   "type": "prose"
   },
   {
    "from": "sestikrokovy-reframing",
@@ -13032,6 +13172,11 @@
   },
   {
    "from": "samokotveni",
+   "to": "glossary/thought-stopping.md",
+   "type": "prose"
+  },
+  {
+   "from": "samokotveni",
    "to": "kompendium/06-obrana/_index.md",
    "type": "prose"
   },
@@ -13089,6 +13234,11 @@
    "from": "retezeni-kotev",
    "to": "kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md",
    "type": "kompendium"
+  },
+  {
+   "from": "retezeni-kotev",
+   "to": "glossary/coercive-control.md",
+   "type": "prose"
   },
   {
    "from": "retezeni-kotev",
@@ -13154,6 +13304,11 @@
    "from": "kolaps-kotev",
    "to": "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
    "type": "kompendium"
+  },
+  {
+   "from": "kolaps-kotev",
+   "to": "glossary/coercive-control.md",
+   "type": "prose"
   },
   {
    "from": "kolaps-kotev",
@@ -14157,6 +14312,11 @@
   },
   {
    "from": "kotveni-v-kontrolujicich-vztazich",
+   "to": "glossary/coercive-control.md",
+   "type": "prose"
+  },
+  {
+   "from": "kotveni-v-kontrolujicich-vztazich",
    "to": "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
    "type": "prose"
   },
@@ -14377,6 +14537,11 @@
   },
   {
    "from": "vizualni-submodality",
+   "to": "glossary/disociace.md",
+   "type": "prose"
+  },
+  {
+   "from": "vizualni-submodality",
    "to": "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
    "type": "prose"
   },
@@ -14564,6 +14729,11 @@
    "from": "kriticke-submodality",
    "to": "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
    "type": "kompendium"
+  },
+  {
+   "from": "kriticke-submodality",
+   "to": "glossary/heuristika.md",
+   "type": "prose"
   },
   {
    "from": "kriticke-submodality",
@@ -15402,6 +15572,11 @@
   },
   {
    "from": "filmova-technika",
+   "to": "glossary/disociace.md",
+   "type": "prose"
+  },
+  {
+   "from": "filmova-technika",
    "to": "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
    "type": "prose"
   },
@@ -15564,6 +15739,16 @@
    "from": "submodality-v-reklame",
    "to": "kompendium/case-studies/74-influencer-cult.md",
    "type": "kompendium"
+  },
+  {
+   "from": "submodality-v-reklame",
+   "to": "glossary/heuristika.md",
+   "type": "prose"
+  },
+  {
+   "from": "submodality-v-reklame",
+   "to": "glossary/propaganda.md",
+   "type": "prose"
   },
   {
    "from": "submodality-v-reklame",
@@ -15732,6 +15917,11 @@
   },
   {
    "from": "rychla-lecba-fobie",
+   "to": "glossary/disociace.md",
+   "type": "prose"
+  },
+  {
+   "from": "rychla-lecba-fobie",
    "to": "kompendium/nlp-vzorce/disociace-a-trauma/rewind.md",
    "type": "prose"
   },
@@ -15809,6 +15999,16 @@
    "from": "dvojita-disociace",
    "to": "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
    "type": "kompendium"
+  },
+  {
+   "from": "dvojita-disociace",
+   "to": "glossary/depersonalizace.md",
+   "type": "prose"
+  },
+  {
+   "from": "dvojita-disociace",
+   "to": "glossary/disociace.md",
+   "type": "prose"
   },
   {
    "from": "dvojita-disociace",
@@ -16072,6 +16272,11 @@
   },
   {
    "from": "alergicky-vzorec",
+   "to": "glossary/disociace.md",
+   "type": "prose"
+  },
+  {
+   "from": "alergicky-vzorec",
    "to": "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md",
    "type": "prose"
   },
@@ -16292,6 +16497,11 @@
   },
   {
    "from": "reakce-na-kritiku",
+   "to": "glossary/disociace.md",
+   "type": "prose"
+  },
+  {
+   "from": "reakce-na-kritiku",
    "to": "kompendium/03-zakladni-kategorie/scenar-h.md",
    "type": "prose"
   },
@@ -16464,6 +16674,11 @@
    "from": "trauma-a-falesne-vzpominky",
    "to": "kompendium/07-teoreticke-reflexe/epistemicke-trauma.md",
    "type": "kompendium"
+  },
+  {
+   "from": "trauma-a-falesne-vzpominky",
+   "to": "glossary/disociace.md",
+   "type": "prose"
   },
   {
    "from": "trauma-a-falesne-vzpominky",
@@ -16957,6 +17172,11 @@
   },
   {
    "from": "limitujici-rozhodnuti",
+   "to": "glossary/konfabulace.md",
+   "type": "prose"
+  },
+  {
+   "from": "limitujici-rozhodnuti",
    "to": "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md",
    "type": "prose"
   },
@@ -17412,6 +17632,11 @@
   },
   {
    "from": "casova-perspektiva",
+   "to": "glossary/coercive-control.md",
+   "type": "prose"
+  },
+  {
+   "from": "casova-perspektiva",
    "to": "kompendium/06-klinicke-aplikace/preventivni-strategie.md",
    "type": "prose"
   },
@@ -17639,6 +17864,11 @@
    "from": "uroven-prostredi",
    "to": "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
    "type": "kompendium"
+  },
+  {
+   "from": "uroven-prostredi",
+   "to": "glossary/heuristika.md",
+   "type": "prose"
   },
   {
    "from": "uroven-prostredi",
@@ -18117,6 +18347,11 @@
   },
   {
    "from": "meta-zrcadlo",
+   "to": "glossary/coercive-control.md",
+   "type": "prose"
+  },
+  {
+   "from": "meta-zrcadlo",
    "to": "kompendium/06-obrana/_index.md",
    "type": "prose"
   },
@@ -18194,6 +18429,11 @@
    "from": "prvni-pozice",
    "to": "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md",
    "type": "kompendium"
+  },
+  {
+   "from": "prvni-pozice",
+   "to": "glossary/blame-shifting.md",
+   "type": "prose"
   },
   {
    "from": "prvni-pozice",
@@ -18872,6 +19112,11 @@
   },
   {
    "from": "elicitace-strategie",
+   "to": "glossary/informed-consent.md",
+   "type": "prose"
+  },
+  {
+   "from": "elicitace-strategie",
    "to": "kompendium/forensic-legal/1-forensic-interview-protocol.md",
    "type": "prose"
   },
@@ -19134,6 +19379,11 @@
    "from": "motivacni-strategie",
    "to": "kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md",
    "type": "kompendium"
+  },
+  {
+   "from": "motivacni-strategie",
+   "to": "glossary/heuristika.md",
+   "type": "prose"
   },
   {
    "from": "motivacni-strategie",
@@ -19492,6 +19742,11 @@
   },
   {
    "from": "strategie-lasky",
+   "to": "glossary/coercive-control.md",
+   "type": "prose"
+  },
+  {
+   "from": "strategie-lasky",
    "to": "kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md",
    "type": "prose"
   },
@@ -19574,6 +19829,11 @@
    "from": "strategie-geniality",
    "to": "kompendium/case-studies/62-startup-founder-cult.md",
    "type": "kompendium"
+  },
+  {
+   "from": "strategie-geniality",
+   "to": "glossary/heuristika.md",
+   "type": "prose"
   },
   {
    "from": "strategie-geniality",
@@ -19674,6 +19934,11 @@
    "from": "modelovani-excelence",
    "to": "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
    "type": "kompendium"
+  },
+  {
+   "from": "modelovani-excelence",
+   "to": "glossary/charisma.md",
+   "type": "prose"
   },
   {
    "from": "modelovani-excelence",
@@ -20032,6 +20297,11 @@
   },
   {
    "from": "stav-nevedeni",
+   "to": "glossary/epistemicka-pokora.md",
+   "type": "prose"
+  },
+  {
+   "from": "stav-nevedeni",
    "to": "kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md",
    "type": "prose"
   },
@@ -20084,6 +20354,11 @@
    "from": "periferni-videni",
    "to": "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
    "type": "kompendium"
+  },
+  {
+   "from": "periferni-videni",
+   "to": "glossary/disociace.md",
+   "type": "prose"
   },
   {
    "from": "periferni-videni",
@@ -20389,6 +20664,11 @@
    "from": "smyckove-strategie",
    "to": "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
    "type": "kompendium"
+  },
+  {
+   "from": "smyckove-strategie",
+   "to": "glossary/heuristika.md",
+   "type": "prose"
   },
   {
    "from": "smyckove-strategie",
@@ -21397,6 +21677,11 @@
   },
   {
    "from": "presvedceni-o-pricine",
+   "to": "glossary/coercive-control.md",
+   "type": "prose"
+  },
+  {
+   "from": "presvedceni-o-pricine",
    "to": "kompendium/03-zakladni-kategorie/biasy/_index.md",
    "type": "prose"
   },
@@ -21627,6 +21912,11 @@
   },
   {
    "from": "beznadej-bezmoc-nehodnost",
+   "to": "glossary/coercive-control.md",
+   "type": "prose"
+  },
+  {
+   "from": "beznadej-bezmoc-nehodnost",
    "to": "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md",
    "type": "prose"
   },
@@ -21814,6 +22104,11 @@
    "from": "myslenkovy-virus",
    "to": "kompendium/07-teoreticke-reflexe/digitalni-vek.md",
    "type": "kompendium"
+  },
+  {
+   "from": "myslenkovy-virus",
+   "to": "glossary/thought-stopping.md",
+   "type": "prose"
   },
   {
    "from": "myslenkovy-virus",
@@ -25717,6 +26012,11 @@
   },
   {
    "from": "chunking-dolu",
+   "to": "glossary/forensic-interview.md",
+   "type": "prose"
+  },
+  {
+   "from": "chunking-dolu",
    "to": "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
    "type": "prose"
   },
@@ -26757,6 +27057,11 @@
   },
   {
    "from": "slovni-baliky",
+   "to": "glossary/propaganda.md",
+   "type": "prose"
+  },
+  {
+   "from": "slovni-baliky",
    "to": "kompendium/07-teoreticke-reflexe/politicka-ea.md",
    "type": "prose"
   },
@@ -26889,6 +27194,11 @@
    "from": "konverzacni-hypnoza",
    "to": "kompendium/06-obrana/_index.md",
    "type": "kompendium"
+  },
+  {
+   "from": "konverzacni-hypnoza",
+   "to": "glossary/informed-consent.md",
+   "type": "prose"
   },
   {
    "from": "konverzacni-hypnoza",
@@ -27082,6 +27392,11 @@
   },
   {
    "from": "alternativni-zaver",
+   "to": "glossary/double-bind.md",
+   "type": "prose"
+  },
+  {
+   "from": "alternativni-zaver",
    "to": "kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md",
    "type": "prose"
   },
@@ -27147,6 +27462,11 @@
   },
   {
    "from": "budouci-prehravani-v-prodeji",
+   "to": "glossary/heuristika.md",
+   "type": "prose"
+  },
+  {
+   "from": "budouci-prehravani-v-prodeji",
    "to": "kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md",
    "type": "prose"
   },
@@ -27209,6 +27529,11 @@
    "from": "nlp-v-komunite-svadeni",
    "to": "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
    "type": "kompendium"
+  },
+  {
+   "from": "nlp-v-komunite-svadeni",
+   "to": "glossary/coercive-control.md",
+   "type": "prose"
   },
   {
    "from": "nlp-v-komunite-svadeni",
@@ -27284,6 +27609,11 @@
    "from": "nlp-v-sektach",
    "to": "kompendium/techniques/ea-6-4-2-post-cult-protokol.md",
    "type": "kompendium"
+  },
+  {
+   "from": "nlp-v-sektach",
+   "to": "glossary/thought-stopping.md",
+   "type": "prose"
   },
   {
    "from": "nlp-v-sektach",
@@ -27777,6 +28107,11 @@
   },
   {
    "from": "guru-efekt",
+   "to": "glossary/charisma.md",
+   "type": "prose"
+  },
+  {
+   "from": "guru-efekt",
    "to": "kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md",
    "type": "prose"
   },
@@ -28004,6 +28339,11 @@
    "from": "manipulativni-reframing-ve-vztazich",
    "to": "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
    "type": "kompendium"
+  },
+  {
+   "from": "manipulativni-reframing-ve-vztazich",
+   "to": "glossary/coercive-control.md",
+   "type": "prose"
   },
   {
    "from": "manipulativni-reframing-ve-vztazich",
@@ -28367,6 +28707,11 @@
   },
   {
    "from": "stav-dukazu-nlp",
+   "to": "glossary/pseudoscience.md",
+   "type": "prose"
+  },
+  {
+   "from": "stav-dukazu-nlp",
    "to": "kompendium/02-uvod/metodologicke-poznamky.md",
    "type": "prose"
   },
@@ -28589,6 +28934,11 @@
    "from": "nlp-jako-pseudoveda",
    "to": "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
    "type": "kompendium"
+  },
+  {
+   "from": "nlp-jako-pseudoveda",
+   "to": "glossary/pseudoscience.md",
+   "type": "prose"
   },
   {
    "from": "nlp-jako-pseudoveda",
@@ -30542,6 +30892,7 @@
     "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"
    ],
    "links_prose": [
+    "glossary/heuristika.md",
     "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md",
     "kompendium/nlp-vzorce/milton-model/iluze-volby.md",
     "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md",
@@ -30806,6 +31157,7 @@
     "kompendium/06-obrana/_index.md"
    ],
    "links_prose": [
+    "glossary/heuristika.md",
     "kompendium/06-obrana/_index.md",
     "kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md",
     "kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md",
@@ -31216,6 +31568,7 @@
     "kompendium/quick-reference/qr-ea-1-2-1.md"
    ],
    "links_prose": [
+    "glossary/coercive-control.md",
     "kompendium/nlp-vzorce/milton-model/iluze-volby.md",
     "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md",
     "kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md",
@@ -32017,6 +32370,7 @@
     "kompendium/06-klinicke-aplikace/supervizni-ramce.md"
    ],
    "links_prose": [
+    "glossary/blame-shifting.md",
     "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
     "kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md",
     "kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md",
@@ -32874,6 +33228,7 @@
     "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"
    ],
    "links_prose": [
+    "glossary/thought-stopping.md",
     "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
     "kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md",
     "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
@@ -33565,6 +33920,7 @@
     "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"
    ],
    "links_prose": [
+    "glossary/propaganda.md",
     "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
     "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md",
     "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
@@ -35200,6 +35556,7 @@
     "kompendium/techniques/ea-5-3-4-telesna-disociace.md"
    ],
    "links_prose": [
+    "glossary/disociace.md",
     "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md",
     "kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md",
     "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md",
@@ -35466,6 +35823,7 @@
     "kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md"
    ],
    "links_prose": [
+    "glossary/disociace.md",
     "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
     "kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md",
     "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md",
@@ -35615,6 +35973,7 @@
     "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md"
    ],
    "links_prose": [
+    "glossary/charisma.md",
     "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md",
     "kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md",
     "kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md",
@@ -35888,6 +36247,7 @@
     "kompendium/techniques/ea-4-2-6-consent-withdrawal.md"
    ],
    "links_prose": [
+    "glossary/informed-consent.md",
     "kompendium/08-prilohy/eticky-kodex.md",
     "kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md",
     "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md",
@@ -37429,6 +37789,7 @@
     "kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md"
    ],
    "links_prose": [
+    "glossary/thought-stopping.md",
     "kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md",
     "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md",
     "kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md",
@@ -37690,6 +38051,7 @@
     "kompendium/case-studies/51-new-age-recovery.md"
    ],
    "links_prose": [
+    "glossary/disociace.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md",
     "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md",
     "kompendium/nlp-vzorce/milton-model/milton-model.md",
@@ -41145,6 +41507,7 @@
     "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"
    ],
    "links_prose": [
+    "glossary/heuristika.md",
     "kompendium/nlp-vzorce/milton-model/pripojene-otazky.md",
     "kompendium/nlp-vzorce/milton-model/vlozene-otazky.md",
     "kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md",
@@ -44580,6 +44943,7 @@
     "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md"
    ],
    "links_prose": [
+    "glossary/forensic-interview.md",
     "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
     "kompendium/forensic-legal/1-forensic-interview-protocol.md",
     "kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md",
@@ -45694,6 +46058,7 @@
     "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md"
    ],
    "links_prose": [
+    "glossary/forensic-interview.md",
     "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
     "kompendium/forensic-legal/1-forensic-interview-protocol.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md",
@@ -45822,6 +46187,7 @@
     "kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md"
    ],
    "links_prose": [
+    "glossary/informed-consent.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md",
     "kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md"
@@ -45942,6 +46308,8 @@
     "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"
    ],
    "links_prose": [
+    "glossary/double-bind.md",
+    "glossary/informed-consent.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md",
     "kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md",
     "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
@@ -46348,6 +46716,7 @@
     "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"
    ],
    "links_prose": [
+    "glossary/epistemicka-anihilace.md",
     "kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md",
     "kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md",
@@ -46900,6 +47269,7 @@
     "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"
    ],
    "links_prose": [
+    "glossary/double-bind.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md",
     "kompendium/nlp-vzorce/milton-model/iluze-volby.md",
@@ -47181,6 +47551,7 @@
     "kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md"
    ],
    "links_prose": [
+    "glossary/disociace.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md",
@@ -48230,6 +48601,7 @@
     "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md"
    ],
    "links_prose": [
+    "glossary/informed-consent.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/vrstveni-realit.md",
@@ -48367,6 +48739,8 @@
     "kompendium/forensic-legal/1-forensic-interview-protocol.md"
    ],
    "links_prose": [
+    "glossary/dissociativni-amnezie.md",
+    "glossary/informed-consent.md",
     "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
     "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md",
@@ -52184,6 +52558,7 @@
     "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"
    ],
    "links_prose": [
+    "glossary/heuristika.md",
     "kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md",
     "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md",
     "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"
@@ -53089,6 +53464,7 @@
     "kompendium/techniques/ea-4-4-4-biographical-recontextualization.md"
    ],
    "links_prose": [
+    "glossary/coercive-control.md",
     "kompendium/nlp-vzorce/reframing/kontextovy-reframing.md",
     "kompendium/nlp-vzorce/reframing/reframing.md",
     "kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md",
@@ -53522,6 +53898,7 @@
     "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"
    ],
    "links_prose": [
+    "glossary/coercive-control.md",
     "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
     "kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md",
     "kompendium/nlp-vzorce/meta-model/meta-model.md",
@@ -53676,6 +54053,7 @@
     "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"
    ],
    "links_prose": [
+    "glossary/informed-consent.md",
     "kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md",
     "kompendium/nlp-vzorce/reframing/reframing.md",
     "kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md",
@@ -55758,6 +56136,7 @@
     "kompendium/06-obrana/_index.md"
    ],
    "links_prose": [
+    "glossary/thought-stopping.md",
     "kompendium/06-obrana/_index.md",
     "kompendium/nlp-vzorce/kotveni/kotveni.md",
     "kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md",
@@ -55882,6 +56261,7 @@
     "kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md"
    ],
    "links_prose": [
+    "glossary/coercive-control.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md",
     "kompendium/nlp-vzorce/kotveni/kotveni.md",
     "kompendium/nlp-vzorce/kotveni/stohovani-kotev.md",
@@ -56018,6 +56398,7 @@
     "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"
    ],
    "links_prose": [
+    "glossary/coercive-control.md",
     "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
     "kompendium/nlp-vzorce/kotveni/kotveni.md",
     "kompendium/nlp-vzorce/kotveni/testovani-kotvy.md",
@@ -57910,6 +58291,7 @@
     "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md"
    ],
    "links_prose": [
+    "glossary/coercive-control.md",
     "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
     "kompendium/nlp-vzorce/kotveni/kotveni.md",
     "kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md",
@@ -58312,6 +58694,7 @@
     "kompendium/07-teoreticke-reflexe/digitalni-vek.md"
    ],
    "links_prose": [
+    "glossary/disociace.md",
     "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
     "kompendium/nlp-vzorce/zakladni-pojmy/asociace.md",
     "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md",
@@ -58732,6 +59115,7 @@
     "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"
    ],
    "links_prose": [
+    "glossary/heuristika.md",
     "kompendium/nlp-vzorce/submodality/kontrastni-analyza.md",
     "kompendium/nlp-vzorce/submodality/mapovani-napric.md",
     "kompendium/nlp-vzorce/submodality/swish.md",
@@ -60392,6 +60776,7 @@
    ],
    "links_prose": [
     "glossary/complex-trauma.md",
+    "glossary/disociace.md",
     "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
     "kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md",
     "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md",
@@ -60654,6 +61039,8 @@
     "kompendium/case-studies/74-influencer-cult.md"
    ],
    "links_prose": [
+    "glossary/heuristika.md",
+    "glossary/propaganda.md",
     "kompendium/07-teoreticke-reflexe/digitalni-vek.md",
     "kompendium/07-teoreticke-reflexe/politicka-ea.md",
     "kompendium/case-studies/74-influencer-cult.md",
@@ -60932,6 +61319,7 @@
     "kompendium/techniques/ea-5-3-4-telesna-disociace.md"
    ],
    "links_prose": [
+    "glossary/disociace.md",
     "kompendium/nlp-vzorce/disociace-a-trauma/rewind.md",
     "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md",
     "kompendium/nlp-vzorce/submodality/filmova-technika.md",
@@ -61079,6 +61467,8 @@
     "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md"
    ],
    "links_prose": [
+    "glossary/depersonalizace.md",
+    "glossary/disociace.md",
     "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
     "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md",
@@ -61489,6 +61879,7 @@
     "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md"
    ],
    "links_prose": [
+    "glossary/disociace.md",
     "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md",
     "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md",
     "kompendium/nlp-vzorce/kotveni/prenos-zdroje.md",
@@ -61874,6 +62265,7 @@
     "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"
    ],
    "links_prose": [
+    "glossary/disociace.md",
     "kompendium/03-zakladni-kategorie/scenar-h.md",
     "kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md",
     "kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md",
@@ -62143,6 +62535,7 @@
     "kompendium/07-teoreticke-reflexe/epistemicke-trauma.md"
    ],
    "links_prose": [
+    "glossary/disociace.md",
     "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
     "kompendium/forensic-legal/1-forensic-interview-protocol.md",
     "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md",
@@ -62965,6 +63358,7 @@
     "kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md"
    ],
    "links_prose": [
+    "glossary/konfabulace.md",
     "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md",
     "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md",
     "kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md",
@@ -63770,6 +64164,7 @@
     "kompendium/06-klinicke-aplikace/preventivni-strategie.md"
    ],
    "links_prose": [
+    "glossary/coercive-control.md",
     "kompendium/06-klinicke-aplikace/preventivni-strategie.md",
     "kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md",
     "kompendium/nlp-vzorce/metaprogramy/casova-orientace.md",
@@ -64185,6 +64580,7 @@
     "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"
    ],
    "links_prose": [
+    "glossary/heuristika.md",
     "kompendium/nlp-vzorce/reframing/kontextovy-reframing.md",
     "kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md",
     "kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md",
@@ -65030,6 +65426,7 @@
     "kompendium/06-obrana/_index.md"
    ],
    "links_prose": [
+    "glossary/coercive-control.md",
     "kompendium/06-obrana/_index.md",
     "kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md",
     "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md",
@@ -65166,6 +65563,7 @@
     "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md"
    ],
    "links_prose": [
+    "glossary/blame-shifting.md",
     "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md",
     "kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md",
     "kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md",
@@ -66312,6 +66710,7 @@
     "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md"
    ],
    "links_prose": [
+    "glossary/informed-consent.md",
     "kompendium/forensic-legal/1-forensic-interview-protocol.md",
     "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md",
     "kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md",
@@ -66731,6 +67130,7 @@
     "kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md"
    ],
    "links_prose": [
+    "glossary/heuristika.md",
     "kompendium/case-studies/63-investor-cult.md",
     "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md",
     "kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md",
@@ -67283,6 +67683,7 @@
     "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md"
    ],
    "links_prose": [
+    "glossary/coercive-control.md",
     "kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md",
     "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md",
     "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md",
@@ -67416,6 +67817,7 @@
     "kompendium/case-studies/62-startup-founder-cult.md"
    ],
    "links_prose": [
+    "glossary/heuristika.md",
     "kompendium/case-studies/62-startup-founder-cult.md",
     "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md",
     "kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md",
@@ -67554,6 +67956,7 @@
     "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"
    ],
    "links_prose": [
+    "glossary/charisma.md",
     "kompendium/case-studies/62-startup-founder-cult.md",
     "kompendium/case-studies/66-academic-school-cult.md",
     "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md",
@@ -68138,6 +68541,7 @@
     "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md"
    ],
    "links_prose": [
+    "glossary/epistemicka-pokora.md",
     "kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md",
     "kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md",
     "kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md"
@@ -68276,6 +68680,7 @@
     "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"
    ],
    "links_prose": [
+    "glossary/disociace.md",
     "kompendium/nlp-vzorce/strategie-a-modelovani/novy-kod.md",
     "kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md",
     "kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md",
@@ -68820,6 +69225,7 @@
     "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"
    ],
    "links_prose": [
+    "glossary/heuristika.md",
     "kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md",
     "kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md"
    ],
@@ -70850,6 +71256,7 @@
     "kompendium/03-zakladni-kategorie/biasy/_index.md"
    ],
    "links_prose": [
+    "glossary/coercive-control.md",
     "kompendium/03-zakladni-kategorie/biasy/_index.md",
     "kompendium/nlp-vzorce/meta-model/meta-model.md",
     "kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md",
@@ -71275,6 +71682,7 @@
     "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md"
    ],
    "links_prose": [
+    "glossary/coercive-control.md",
     "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md",
     "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md",
     "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md",
@@ -71673,6 +72081,7 @@
     "kompendium/07-teoreticke-reflexe/digitalni-vek.md"
    ],
    "links_prose": [
+    "glossary/thought-stopping.md",
     "kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md",
     "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md",
     "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
@@ -79159,6 +79568,7 @@
     "kompendium/forensic-legal/1-forensic-interview-protocol.md"
    ],
    "links_prose": [
+    "glossary/forensic-interview.md",
     "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
     "kompendium/forensic-legal/1-forensic-interview-protocol.md",
     "kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md",
@@ -81274,6 +81684,7 @@
     "kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md"
    ],
    "links_prose": [
+    "glossary/propaganda.md",
     "kompendium/07-teoreticke-reflexe/politicka-ea.md",
     "kompendium/nlp-vzorce/meta-model/meta-model.md",
     "kompendium/nlp-vzorce/meta-model/nominalizace.md",
@@ -81544,6 +81955,7 @@
     "kompendium/06-obrana/_index.md"
    ],
    "links_prose": [
+    "glossary/informed-consent.md",
     "kompendium/06-obrana/_index.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md",
     "kompendium/nlp-vzorce/milton-model/milton-model.md",
@@ -81970,6 +82382,7 @@
     "kompendium/03-zakladni-kategorie/biasy/_index.md"
    ],
    "links_prose": [
+    "glossary/double-bind.md",
     "kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md",
     "kompendium/nlp-vzorce/milton-model/iluze-volby.md",
     "kompendium/nlp-vzorce/presupozice/presupozice-nebo.md",
@@ -82106,6 +82519,7 @@
     "kompendium/03-zakladni-kategorie/biasy/_index.md"
    ],
    "links_prose": [
+    "glossary/heuristika.md",
     "kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md",
     "kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md",
     "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md",
@@ -82241,6 +82655,7 @@
     "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md"
    ],
    "links_prose": [
+    "glossary/coercive-control.md",
     "kompendium/nlp-vzorce/milton-model/milton-model.md",
     "kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md",
     "kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md",
@@ -82382,6 +82797,7 @@
     "kompendium/techniques/ea-6-4-2-post-cult-protokol.md"
    ],
    "links_prose": [
+    "glossary/thought-stopping.md",
     "kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md",
     "kompendium/nlp-vzorce/kotveni/kotveni-ve-skupine.md",
     "kompendium/nlp-vzorce/reframing/kontrastni-ramec.md",
@@ -83187,6 +83603,7 @@
     "kompendium/case-studies/63-investor-cult.md"
    ],
    "links_prose": [
+    "glossary/charisma.md",
     "kompendium/nlp-vzorce/milton-model/umyslna-vagnost.md",
     "kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md",
     "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md",
@@ -83607,6 +84024,7 @@
     "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"
    ],
    "links_prose": [
+    "glossary/coercive-control.md",
     "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
     "kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md",
     "kompendium/nlp-vzorce/reframing/dodatecne-ramcovani.md",
@@ -84273,6 +84691,7 @@
     "kompendium/02-uvod/metodologicke-poznamky.md"
    ],
    "links_prose": [
+    "glossary/pseudoscience.md",
     "kompendium/02-uvod/metodologicke-poznamky.md",
     "kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md",
     "kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md",
@@ -84697,6 +85116,7 @@
     "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"
    ],
    "links_prose": [
+    "glossary/pseudoscience.md",
     "kompendium/nlp-vzorce/kriticke-hodnoceni/stav-dukazu-nlp.md",
     "kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md",
     "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",

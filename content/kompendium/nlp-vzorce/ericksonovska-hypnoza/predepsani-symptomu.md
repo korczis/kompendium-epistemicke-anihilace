@@ -38,7 +38,7 @@ nlp_ancestors = ["paradoxni-intervence"]
 nlp_related = ["pozitivni-zamer-chovani", "utilizace", "terapeuticka-dvojna-vazba"]
 nlp_related_declared = ["utilizace", "terapeuticka-dvojna-vazba", "pozitivni-zamer-chovani"]
 nlp_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md", "kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md"]
+nlp_links_prose = ["glossary/informed-consent.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md", "kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md"]
 nlp_prev = "seeding"
 nlp_next = "paradoxni-intervence"
 nlp_position = 9
@@ -192,7 +192,7 @@ radou, abyste v problému pokračovali nebo ho zesílili, je legitimní nepřijm
 odpověď a vrátit se k obsahu stížnosti: co konkrétně se děje, co by pomohlo, kdo za co
 odpovídá. Je užitečné rozpoznat, že ironický „předpis“ je způsob, jak se rozhovoru
 vyhnout, a nikoli informace o tom, že vaše stížnost je nemístná. V terapii je obranou
-informovaný souhlas: klient má právo vědět, proč mu terapeut doporučuje neobvyklý
+[informovaný souhlas](@/glossary/informed-consent.md): klient má právo vědět, proč mu terapeut doporučuje neobvyklý
 postup, a odmítnout ho, pokud mu nedává smysl nebo je mu nepříjemný. Pokud byl paradoxní
 předpis použit v nevhodné situaci, například u člověka v krizi, může vést k pocitu
 odmítnutí a zhoršení stavu; takový zážitek je vhodné probrat s jiným odborníkem. Lidé,

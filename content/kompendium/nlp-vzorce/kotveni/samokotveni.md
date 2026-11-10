@@ -38,7 +38,7 @@ nlp_ancestors = ["kotveni"]
 nlp_related = ["zdrojovy-stav", "kruh-excelence", "kinesteticke-kotvy", "prenos-zdroje"]
 nlp_related_declared = ["zdrojovy-stav", "kruh-excelence", "kinesteticke-kotvy", "prenos-zdroje"]
 nlp_kompendium = ["kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md", "kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md", "kompendium/06-obrana/_index.md"]
-nlp_links_prose = ["kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md", "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md", "kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md"]
+nlp_links_prose = ["glossary/thought-stopping.md", "kompendium/06-obrana/_index.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md", "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md", "kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md"]
 nlp_prev = "kotveni"
 nlp_next = "retezeni-kotev"
 nlp_position = 2
@@ -129,7 +129,7 @@ například heslo, mantru nebo opakovanou modlitbu, a stav, který se s ním má
 klid nebo jistotu, a zároveň určí, kdy se má podnět použít: při pochybnosti, při kritice
 skupiny zvenčí nebo při touze odejít. Takový rituál pak neslouží regulaci, ale potlačení
 myšlenek, které by mohly vést k nezávislému úsudku. Hassan tento jev popisuje jako techniky
-zastavování myšlenek, jimiž se člen skupiny učí pochybnost okamžitě přehlušit (Hassan 1988).
+[zastavování myšlenek](@/glossary/thought-stopping.md), jimiž se člen skupiny učí pochybnost okamžitě přehlušit (Hassan 1988).
 
 ## Detekční znaky
 

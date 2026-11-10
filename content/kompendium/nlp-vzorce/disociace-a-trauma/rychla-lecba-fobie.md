@@ -38,7 +38,7 @@ nlp_ancestors = ["disociace", "submodality-pojem"]
 nlp_related = ["submodality-pojem", "disociace", "kolaps-kotev", "nechtene-kotvy", "filmova-technika", "dvojita-disociace", "alergicky-vzorec", "trauma-a-falesne-vzpominky", "rewind", "uvolneni-negativnich-emoci", "delfska-studie", "systematicky-prehled-zdravi"]
 nlp_related_declared = ["dvojita-disociace", "rewind", "filmova-technika", "disociace", "trauma-a-falesne-vzpominky", "submodality-pojem"]
 nlp_kompendium = ["kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-5-3-4-telesna-disociace.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/disociace-a-trauma/rewind.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/nlp-vzorce/submodality/filmova-technika.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md", "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md"]
+nlp_links_prose = ["glossary/disociace.md", "kompendium/nlp-vzorce/disociace-a-trauma/rewind.md", "kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md", "kompendium/nlp-vzorce/submodality/filmova-technika.md", "kompendium/nlp-vzorce/zakladni-pojmy/disociace.md", "kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md", "kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md", "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md"]
 nlp_prev = ""
 nlp_next = "dvojita-disociace"
 nlp_position = 1
@@ -102,7 +102,7 @@ výkladu submodalit, podle něhož není rozhodující obsah vzpomínky, ale zp�
 vnitřně „uložena“: velikost, vzdálenost, barva a hlavně perspektiva, ze které ji člověk vidí
 (Bandler 1985). Andreasovi zahrnuli rychlou léčbu fobie do své populární knihy o technikách
 NLP a představili ji širokému publiku jako postup pro fobie i pro nepříjemné vzpomínky
-(Andreas a Andreas 1989). Souvislost s pojmem disociace v NLP smyslu, tedy s pohledem na sebe
+(Andreas a Andreas 1989). Souvislost s pojmem [disociace](@/glossary/disociace.md) v NLP smyslu, tedy s pohledem na sebe
 zvenčí, rozebírá heslo [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md).
 Příbuzná je [filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) a
 pozdější varianta, která se mimo NLP rozšířila jako

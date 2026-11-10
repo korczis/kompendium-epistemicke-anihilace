@@ -67,7 +67,7 @@ publiku (Andreas a Andreas 1987; Andreas a Andreas 1989). Robert Dilts přidal p
 na přesvědčení a na jejich domnělý původ v minulých zážitcích (Dilts 1990; Dilts, Hallbom a
 Smith 1990).
 
-Pojem disociace, který dal rodině jméno, převzalo NLP z ericksonovské hypnózy, kde označoval
+Pojem [disociace](@/glossary/disociace.md), který dal rodině jméno, převzalo NLP z ericksonovské hypnózy, kde označoval
 hypnotické oddělení prožívání (Erickson, Rossi a Rossi 1976), a proměnilo ho v popis
 perspektivy, kterou lze v představě zaujmout. Pojem rozebírá heslo
 [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) v rodině základních pojmů.

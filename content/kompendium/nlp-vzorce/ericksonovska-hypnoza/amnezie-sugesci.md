@@ -38,7 +38,7 @@ nlp_ancestors = ["ericksonovska-hypnoza"]
 nlp_related = ["konfuzni-technika", "vnorene-smycky", "posthypnoticka-sugesce", "vekova-regrese", "technika-prolozeni", "vedome-nevedoma-dvojna-vazba", "dvojita-disociativni-vazba", "nlp-v-sektach"]
 nlp_related_declared = ["posthypnoticka-sugesce", "vekova-regrese", "konfuzni-technika", "technika-prolozeni", "nlp-v-sektach"]
 nlp_kompendium = ["kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md"]
+nlp_links_prose = ["glossary/dissociativni-amnezie.md", "glossary/informed-consent.md", "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/posthypnoticka-sugesce.md", "kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md"]
 nlp_prev = "indukce-pretizenim"
 nlp_next = ""
 nlp_position = 28
@@ -140,7 +140,7 @@ objevuje opakované ujišťování, že pochybnosti a nejasné vzpomínky jsou s
 
 ## Legitimní a manipulativní užití
 
-Legitimní užití je v klinickém kontextu omezené a předpokládá informovaný souhlas. V
+Legitimní užití je v klinickém kontextu omezené a předpokládá [informovaný souhlas](@/glossary/informed-consent.md). V
 ericksonovské tradici se amnézie chápala jako ochrana procesu změny před předčasným
 rozborem (Erickson, Rossi a Rossi 1976); i v tom případě má klient právo vědět, že s ní
 terapeut pracuje, a obsah sezení zůstává dostupný v záznamu. Za neškodný kontrast lze
@@ -159,7 +159,7 @@ skupiny (Singer a Lalich 1995). Ohlašované zapomnění tento proces urychluje.
 
 ## Odlišení od disociativních a klinických stavů
 
-Sugerovanou amnézii je třeba pečlivě odlišit od disociativní amnézie a od jiných poruch
+Sugerovanou amnézii je třeba pečlivě odlišit od [disociativní amnézie](@/glossary/dissociativni-amnezie.md) a od jiných poruch
 paměti. Disociativní amnézie souvisí obvykle s traumatickými nebo silně zatěžujícími
 událostmi, není navozena sugescí a bývá součástí širšího klinického obrazu (Herman 1992).
 Rozlišení je důležité ze dvou důvodů. Zaprvé, u lidí s traumatickou anamnézou může práce s

@@ -38,7 +38,7 @@ nlp_ancestors = ["milton-model"]
 nlp_related = ["presupozice-v-meta-modelu", "rozsahova-dvojznacnost", "modalni-operatory-milton", "iluze-volby", "seeding", "implikovane-direktivum", "jazykove-presupozice", "presupozice-casovych-vet", "otazky-s-presupozici", "zkusit", "predpokladovy-zaver", "rozpoznani-nlp-praktiky"]
 nlp_related_declared = ["jazykove-presupozice", "presupozice-v-meta-modelu", "otazky-s-presupozici", "iluze-volby", "modalni-operatory-milton"]
 nlp_kompendium = ["kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md"]
-nlp_links_prose = ["kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/presupozice/faktivni-slovesa.md", "kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md", "kompendium/nlp-vzorce/presupozice/rozstepene-vety.md", "kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
+nlp_links_prose = ["glossary/forensic-interview.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/forensic-legal/1-forensic-interview-protocol.md", "kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/presupozice/faktivni-slovesa.md", "kompendium/nlp-vzorce/presupozice/jazykove-presupozice.md", "kompendium/nlp-vzorce/presupozice/rozstepene-vety.md", "kompendium/nlp-vzorce/presupozice/slovesa-zmeny-casu.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
 nlp_prev = "srovnavaci-delece-milton"
 nlp_next = ""
 nlp_position = 30
@@ -155,7 +155,7 @@ známo, doloženo nebo dohodnuto. Policista, který se svědka ptá, kdy odcház
 z nezávislého záznamu doloženo, že v práci byl, nevnáší do výpovědi sporný obsah. V terapii
 může mít presupozice legitimní funkci vyjádření naděje: věta, která předpokládá, že klientovi
 bude lépe, nevnucuje mu cizí obsah, ale sdílí očekávání, na kterém se terapeut s klientem
-shodl. Forenzní rozhovor naopak klade důraz na to, aby se do otázek nevnášely předpoklady,
+shodl. [Forenzní rozhovor](@/glossary/forensic-interview.md) naopak klade důraz na to, aby se do otázek nevnášely předpoklady,
 které by mohly ovlivnit paměť svědka; zásady takového rozhovoru shrnuje stránka
 [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md), a jejich
 oprávněnost dokládá výzkum vlivu formulace otázek na výpověď (Loftus a Palmer 1974).

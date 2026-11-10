@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["pricina-a-nasledek", "struktura-presvedceni-som", "limitujici-rozhodnuti", "korenova-pricina", "limitujici-presvedceni", "presvedceni-o-vyznamu", "presvedceni-o-identite"]
 nlp_related_declared = ["pricina-a-nasledek", "presvedceni-o-vyznamu", "presvedceni-o-identite", "struktura-presvedceni-som", "limitujici-presvedceni"]
 nlp_kompendium = ["kompendium/techniques/ea-5-1-12-kauzalni-inverze.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
-nlp_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md", "kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md"]
+nlp_links_prose = ["glossary/coercive-control.md", "kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/meta-model/meta-model.md", "kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md", "kompendium/nlp-vzorce/sleight-of-mouth/struktura-presvedceni-som.md", "kompendium/nlp-vzorce/zakladni-pojmy/stav.md", "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md"]
 nlp_prev = "limitujici-presvedceni"
 nlp_next = "presvedceni-o-vyznamu"
 nlp_position = 5
@@ -124,7 +124,7 @@ odvozuje, co to znamená o člověku (Dilts 1999).
 Pro defenzivní čtení je rozhodující směr. Kdo určí, co je příčina, určuje také, kdo nese
 odpovědnost a kde se má změna odehrát. V kontrolujících vztazích se směr pravidelně
 obrací: násilné nebo ponižující jednání se vykládá jako následek chování toho, kdo ho
-snáší. Stark popsal, že donucující kontrola v partnerských vztazích se opírá o soustavu
+snáší. Stark popsal, že [donucující kontrola](@/glossary/coercive-control.md) v partnerských vztazích se opírá o soustavu
 pravidel, jejichž porušení se pak vykládá jako příčina trestu, takže oběť přebírá
 odpovědnost za jednání pachatele (Stark 2007). V uzavřených skupinách se stejným mechanismem
 vysvětlují neúspěchy, nemoci nebo konflikty jako následek nedostatečné víry, oddanosti nebo

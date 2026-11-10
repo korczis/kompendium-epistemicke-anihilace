@@ -15,9 +15,9 @@ The dictionary is derived from the content, never written by hand:
   - every technique page, by its code: "EA-1.1.1" links to the fullest page named
     content/kompendium/techniques/ea-1-1-1*.md (never a short-code stub when a full page exists).
 
-A term links only to a page that is itself detailed (it meets the `detail` threshold of
-zola.toml and is not machine-generated), exactly as the IA requirement `weak-link` demands; a
-glossary entry that is still short is linked by the first run after it has been developed.
+A term links to its page even when that page is still thin: the IA requirement `weak-link`
+charges the thin target, never the linking page (09eaf75f), because a link to a thin page is
+better than no link (term = page = link).
 
 Generated blocks (between <!-- kompendium:…:begin and <!-- kompendium:…:end -->) are skipped:
 their scripts own them.
@@ -40,20 +40,7 @@ import sys
 
 sys.dont_write_bytecode = True
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from ia_model import CONTENT, detail_thresholds, load_pages  # noqa: E402
-
-THRESHOLDS = detail_thresholds()
-
-
-def detailed(page: dict) -> bool:
-    """The page may be a link target under the IA requirement weak-link."""
-    if page["generated"]:
-        return False
-    if page["template"] and not page["is_index"]:
-        return True
-    if page["path"].startswith("kompendium/quick-reference/"):
-        return page["words"] >= THRESHOLDS["qr"]
-    return page["words"] >= THRESHOLDS["index" if page["is_index"] else "page"]
+from ia_model import CONTENT, load_pages  # noqa: E402
 
 MAX_NEW = 10**6  # no cap: each target is linked at most once per page, which bounds it
 STOP = {
@@ -74,7 +61,6 @@ EA = re.compile(r"(?<![\w/-])EA-(\d+)\.(\d+)\.(\d+)(?![\w.]*\d)")
 
 def dictionary(pages: list) -> tuple:
     terms, local = {}, {}
-    pages = [p for p in pages if detailed(p)]
     for page in pages:
         path = page["path"]
         if not path.startswith("glossary/") or page["is_index"] or not page["title"]:

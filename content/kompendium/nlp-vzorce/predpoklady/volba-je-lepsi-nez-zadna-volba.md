@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["zakon-pozadovane-variety", "nejlepsi-dostupna-volba", "iluze-volby", "sugesce-pokryvajici-vsechny-moznosti", "alternativni-zaver"]
 nlp_related_declared = ["iluze-volby", "alternativni-zaver", "nejlepsi-dostupna-volba", "zakon-pozadovane-variety", "sugesce-pokryvajici-vsechny-moznosti"]
 nlp_kompendium = ["kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md", "kompendium/quick-reference/qr-ea-1-2-1.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md"]
+nlp_links_prose = ["glossary/coercive-control.md", "kompendium/nlp-vzorce/milton-model/iluze-volby.md", "kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/alternativni-zaver.md", "kompendium/techniques/ea-1-2-1-falesne-dilema.md", "kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md"]
 nlp_prev = "nelze-nekomunikovat"
 nlp_next = "zkusenost-ma-strukturu"
 nlp_position = 15
@@ -142,7 +142,7 @@ připomíná, že druhý si to zvolil sám, a tím z debaty odstraňuje otázku,
 připravena. Cialdini popisuje, jak se pocit vlastního rozhodnutí stává oporou dalšího
 souhlasu a jak se ho lze dovolávat (Cialdini 2009). V kontrolujících vztazích se objevuje
 ještě jiný znak: druhý má formálně volbu, ale každá varianta kromě jedné je spojena s
-trestem, takže svoboda existuje jen na papíře. Stark popisuje, jak donucující kontrola
+trestem, takže svoboda existuje jen na papíře. Stark popisuje, jak [donucující kontrola](@/glossary/coercive-control.md)
 pracuje s omezením prostoru jednání, které zvenčí nevypadá jako přímý nátlak (Stark 2007).
 
 ## Legitimní a manipulativní užití

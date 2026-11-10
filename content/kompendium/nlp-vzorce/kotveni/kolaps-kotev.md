@@ -38,7 +38,7 @@ nlp_ancestors = ["kotveni"]
 nlp_related = ["retezeni-kotev", "kinesteticke-kotvy", "prenos-zdroje", "testovani-kotvy", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "rychla-lecba-fobie", "zmena-osobni-historie", "vizualni-squash", "integrace-polarit"]
 nlp_related_declared = ["rychla-lecba-fobie", "integrace-polarit", "zmena-osobni-historie", "testovani-kotvy", "kotveni-v-kontrolujicich-vztazich"]
 nlp_kompendium = ["kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/kotveni/testovani-kotvy.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
+nlp_links_prose = ["glossary/coercive-control.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/kotveni/testovani-kotvy.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md"]
 nlp_prev = "retezeni-kotev"
 nlp_next = "stohovani-kotev"
 nlp_position = 4
@@ -142,7 +142,7 @@ nepříjemný pocit je „jen stará kotva“ nebo „naučená reakce“, ktero
 odstranit. Zvlášť varovným znakem je, když se takto zachází s reakcí na konkrétní osobu
 nebo skupinu: se strachem z partnera, s nedůvěrou k vůdci, s nechutí k určitým praktikám
 skupiny. Pak se nepříjemný pocit nevykládá jako informace o tom, co se děje, ale jako
-porucha, kterou je třeba neutralizovat. Stark ukazuje, že donucující kontrola je trvalý
+porucha, kterou je třeba neutralizovat. Stark ukazuje, že [donucující kontrola](@/glossary/coercive-control.md) je trvalý
 režim, v němž je strach oběti z partnera opodstatněnou reakcí, nikoli přehnanou citlivostí
 (Stark 2007). U člověka, u něhož byl ochranný
 strach tímto způsobem utlumen, se může objevit zmatek, pocit, že „by se neměl bát“, a

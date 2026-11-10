@@ -38,7 +38,7 @@ nlp_ancestors = ["limitujici-presvedceni", "presvedceni-jako-mapa", "mapa-neni-u
 nlp_related = ["lide-maji-potrebne-zdroje", "modalni-operator-moznosti", "kontrafaktualni-podminky", "casova-perspektiva", "uroven-presvedceni-a-hodnot", "cyklus-zmeny-presvedceni", "audit-presvedceni", "limitujici-presvedceni", "presvedceni-o-identite", "myslenkovy-virus", "presvedceni-a-zdravi"]
 nlp_related_declared = ["presvedceni-o-identite", "uroven-presvedceni-a-hodnot", "cyklus-zmeny-presvedceni", "myslenkovy-virus", "presvedceni-a-zdravi"]
 nlp_kompendium = ["kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md"]
+nlp_links_prose = ["glossary/coercive-control.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md", "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md"]
 nlp_prev = "presvedceni-o-identite"
 nlp_next = "retezeni-presvedceni"
 nlp_position = 8
@@ -123,7 +123,7 @@ potvrzovala (Beck 1976).
 
 Pro obrannou analýzu je klíčové, že všechna tři přesvědčení lze vytvářet zvenčí. Kontrolující
 osoba nemusí cíl druhého napadat přímo; stačí systematicky zpochybňovat jeho schopnosti
-(bezmoc) nebo jeho hodnotu (bezcennost). Stark popsal coercive control jako vzorec, v němž
+(bezmoc) nebo jeho hodnotu (bezcennost). Stark popsal [coercive control](@/glossary/coercive-control.md) jako vzorec, v němž
 se kontrola nad každodenním životem spojuje s ponižováním a izolací, takže oběť postupně
 ztrácí víru ve vlastní kompetenci i v nárok na samostatný život (Stark 2007). Lifton u
 myšlenkové reformy popsal „požadavek čistoty“ a „kult vyznání“: jednotlivec se má neustále

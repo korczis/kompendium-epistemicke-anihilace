@@ -127,7 +127,7 @@ U percepčních pozic se riziko týká především druhé pozice. Výzva vžít
 běžném konfliktu rozumná, ale člověk, který je v kontrolujícím vztahu, může být opakovaně
 veden k tomu, aby vztah viděl očima toho, kdo ho kontroluje, dokud jeho vlastní pohled
 neustoupí. Třetí pozice může podobně sloužit k nadhledu, nebo k neutralizaci oprávněného
-hněvu a strachu jako nezralých emocí. Stark upozornil, že donucující kontrola se často
+hněvu a strachu jako nezralých emocí. Stark upozornil, že [donucující kontrola](@/glossary/coercive-control.md) se často
 přehlíží, když se vztah posuzuje jako symetrický konflikt dvou rovnocenných stran (Stark
 2007). Při čtení každého hesla rodiny je proto užitečné ptát se: kdo určuje obsah vyšších
 úrovní, komu slouží posun mezi úrovněmi nebo pozicemi a zda by člověk mohl ze cvičení odejít

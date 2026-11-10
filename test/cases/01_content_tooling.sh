@@ -94,20 +94,13 @@ cat > content/kompendium/case-01-links/page.md <<'PAGE'
 title = "Odkazy"
 +++
 
-Komplexní trauma je vzorec. Komplexní trauma se opakuje. Viz také EA-1.6.1 a zase EA-1.6.1.
-Krátkoheslový fixturový pojem se neodkazuje, protože jeho heslo nesplňuje detail.
+Gaslighting je vzorec. Gaslighting se opakuje. Viz také EA-1.6.1 a zase EA-1.6.1.
 
 Odkaz přes konec řádku: [Doktrína o
 gaslighting vlivu](@/kompendium/forensic-legal/gaslighting-test.md) zůstane nedotčen.
 PAGE
-# A short glossary entry is no link target (weak-link): link-terms leaves its term alone.
-printf '+++\ntitle = "Krátkoheslový fixturový pojem"\n+++\n\nKrátké heslo.\n' > content/glossary/case-01-short.md
 python3 scripts/link-terms.py content/kompendium/case-01-links >/dev/null
-grep -c '](@/glossary/complex-trauma.md)' content/kompendium/case-01-links/page.md | grep -x 1 >/dev/null
-if grep -q 'case-01-short.md' content/kompendium/case-01-links/page.md; then
-  echo "link-terms linked a short (weak) glossary entry"; exit 1
-fi
-rm content/glossary/case-01-short.md
+grep -c '](@/glossary/gaslighting.md)' content/kompendium/case-01-links/page.md | grep -x 1 >/dev/null
 grep -x 'gaslighting vlivu](@/kompendium/forensic-legal/gaslighting-test.md) zůstane nedotčen.' \
   content/kompendium/case-01-links/page.md >/dev/null   # a wrapped link is never relinked
 grep -c '](@/kompendium/techniques/ea-1-6-1-' content/kompendium/case-01-links/page.md | grep -x 1 >/dev/null

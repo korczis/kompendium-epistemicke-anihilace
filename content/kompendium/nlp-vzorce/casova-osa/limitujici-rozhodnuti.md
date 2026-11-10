@@ -38,7 +38,7 @@ nlp_ancestors = ["terapie-casove-osy", "casova-osa-pojem"]
 nlp_related = ["prahovy-vzorec", "reimprinting", "terapie-casove-osy", "korenova-pricina", "limitujici-presvedceni", "presvedceni-o-pricine", "imprint"]
 nlp_related_declared = ["limitujici-presvedceni", "imprint", "korenova-pricina", "reimprinting", "presvedceni-o-pricine"]
 nlp_kompendium = ["kompendium/techniques/ea-5-3-7-self-narrative-replacement.md", "kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md"]
-nlp_links_prose = ["kompendium/nlp-vzorce/casova-osa/korenova-pricina.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md", "kompendium/techniques/ea-5-3-7-self-narrative-replacement.md"]
+nlp_links_prose = ["glossary/konfabulace.md", "kompendium/nlp-vzorce/casova-osa/korenova-pricina.md", "kompendium/nlp-vzorce/presvedceni/limitujici-presvedceni.md", "kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md", "kompendium/techniques/ea-5-3-7-self-narrative-replacement.md"]
 nlp_prev = "uvolneni-negativnich-emoci"
 nlp_next = "vlozeni-budouciho-cile"
 nlp_position = 5
@@ -105,7 +105,7 @@ Legitimní užití je blízké kognitivním přístupům. Poradkyně, která se 
 
 ## Stav důkazů
 
-Pro existenci limitujících rozhodnutí jako samostatných a lokalizovatelných událostí v paměti neexistují empirické doklady. Pojem je teoretickou konstrukcí terapie časové osy. Pro účinnost postupu, který je má rušit, chybějí kontrolované studie, a souhrnné přehledy výzkumu NLP konstatují obecný nedostatek podpory pro tvrzení oboru (Witkowski 2010; Passmore a Rowson 2019). Výzkum hlubokých přesvědčení v kognitivní psychologii a terapii je naopak rozsáhlý, ale nepotřebuje předpoklad, že přesvědčení vzniklo v jediném okamžiku rozhodnutí, který lze najít. Hledání takového okamžiku v sugestivním stavu nese riziko konfabulace: člověk může s přesvědčením „najít“ okamžik, který se nestal, nebo se stal jinak (Loftus a Palmer 1974). Kirsch a Lynn ukazují, že prožitky v hypnóze a podobných stavech silně závisejí na očekáváních, která situace vytváří, což platí i pro „objevení“ dávného rozhodnutí (Kirsch a Lynn 1995).
+Pro existenci limitujících rozhodnutí jako samostatných a lokalizovatelných událostí v paměti neexistují empirické doklady. Pojem je teoretickou konstrukcí terapie časové osy. Pro účinnost postupu, který je má rušit, chybějí kontrolované studie, a souhrnné přehledy výzkumu NLP konstatují obecný nedostatek podpory pro tvrzení oboru (Witkowski 2010; Passmore a Rowson 2019). Výzkum hlubokých přesvědčení v kognitivní psychologii a terapii je naopak rozsáhlý, ale nepotřebuje předpoklad, že přesvědčení vzniklo v jediném okamžiku rozhodnutí, který lze najít. Hledání takového okamžiku v sugestivním stavu nese riziko [konfabulace](@/glossary/konfabulace.md): člověk může s přesvědčením „najít“ okamžik, který se nestal, nebo se stal jinak (Loftus a Palmer 1974). Kirsch a Lynn ukazují, že prožitky v hypnóze a podobných stavech silně závisejí na očekáváních, která situace vytváří, což platí i pro „objevení“ dávného rozhodnutí (Kirsch a Lynn 1995).
 
 ## Obrana a zotavení
 

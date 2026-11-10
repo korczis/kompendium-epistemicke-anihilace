@@ -38,7 +38,7 @@ nlp_ancestors = []
 nlp_related = ["mysl-a-telo-jeden-system", "disociace", "rychla-lecba-fobie", "presvedceni-a-zdravi", "systematicky-prehled-zdravi"]
 nlp_related_declared = ["presvedceni-a-zdravi", "rychla-lecba-fobie", "disociace", "mysl-a-telo-jeden-system", "systematicky-prehled-zdravi"]
 nlp_kompendium = ["kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md"]
-nlp_links_prose = ["kompendium/06-klinicke-aplikace/vulnerabilni-populace.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/kotveni/prenos-zdroje.md", "kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md", "kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
+nlp_links_prose = ["glossary/disociace.md", "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md", "kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md", "kompendium/nlp-vzorce/kotveni/prenos-zdroje.md", "kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md", "kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md"]
 nlp_prev = "zmena-osobni-historie"
 nlp_next = "vzorec-zalu"
 nlp_position = 5
@@ -86,7 +86,7 @@ podobně jako fobii „odnaučit“ (Dilts, Hallbom a Smith 1990). Intervence pr
 disociovanou představou sebe sama v kontaktu s alergenem a s přenosem stavu, ve kterém člověk
 s podobnou látkou reaguje bez obtíží. Heslo popisuje, co intervence tvrdí, z jakých
 předpokladů vychází a proč je její užití mimo výzkumný a lékařský rámec zdravotně nebezpečné.
-Kompendium ji zařazuje do rodiny disociace a traumatu, protože sdílí stavbu s
+Kompendium ji zařazuje do rodiny [disociace](@/glossary/disociace.md) a traumatu, protože sdílí stavbu s
 [rychlou léčbou fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md), a do
 širšího tématu tvrzení NLP o zdraví, které rozebírá heslo
 [Přesvědčení a zdraví v NLP](@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md).

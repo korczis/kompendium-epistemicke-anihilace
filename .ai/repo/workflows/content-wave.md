@@ -4,7 +4,8 @@ Kniha má přes 1800 stránek a rozvíjí se po vlnách: v každé vlně několi
 nebo agentů) zpracuje každý svůj adresář `content/` a vlna se sloučí do `main` najednou.
 Pravidla, která vlna plní: `project.content-defensive-frame`,
 `project.content-czech-diacritics`, `project.content-sources-verifiable`,
-`project.content-linked-and-built`. Postup pro jednu stránku je skill
+`project.content-linked-and-built`, `project.content-no-placeholders`,
+`project.content-academic-style`. Postup pro jednu stránku je skill
 `kompendium-page-expansion` (`majordomus://skill/kompendium-page-expansion`).
 
 ## 1. Větev a úkol
@@ -28,6 +29,7 @@ Vyber adresáře, kde je obsah nejslabší. Měří se, nehádá:
 | vnitřní odkazy `](@/` na stránku | pod 3 je slepá ulička |
 | podíl slov s diakritikou | pod 3 % je bez diakritiky, pod 12 % částečná |
 | anglická funkční slova (the, and, of, with, is) vs. česká | víc anglických je anglická stránka |
+| `check-ia.py --list <požadavek>` | stránky s porušením `placeholder` jdou první, pak `thin`, `bullets`, `citations` |
 
 Skript měření je v historii úkolu `t-20261109233230-3768`; seznam cílů odkazů
 (`@/cesta.md<TAB>název`) se vygeneruje před vlnou a předá se každému pracovníkovi.
@@ -44,6 +46,10 @@ pravidla o zdrojích a mechaniku ověření (skill `kompendium-page-expansion`).
 zola build --force -o "$TMPDIR/kea-out"       # Done; nefunkční odkaz @/ je chyba
 python3 scripts/polish-markdown.py            # jednou na konci vlny
 python3 scripts/polish-markdown.py --check    # exit 0
+python3 scripts/check-ia.py --page $(cat <seznam-stránek-vlny>)   # každá stránka "ok"
+python3 scripts/check-ia.py                   # exit 0
+python3 scripts/check-ia.py --update-baseline # zamkne zlepšení základu
+python3 scripts/build-references.py && python3 scripts/build-graph.py
 ```
 
 Recenze: aspoň vzorek každého adresáře proti pravidlům o obranném rámci a zdrojích; každé

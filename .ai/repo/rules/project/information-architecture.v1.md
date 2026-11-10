@@ -36,6 +36,10 @@ odchozí a příchozí odkazy):
 | `not-orphan` | aspoň jedna jiná stránka sem odkazuje |
 | `broken-link` | žádný odkaz `@/` na neexistující stránku |
 
+Stejná brána vynucuje i pravidla `project.content-no-placeholders` (požadavek `placeholder`,
+bez základu) a `project.content-academic-style` (`thin`, `bullets`, `citations`,
+`bibliography`, `citation-unresolved`); jejich význam je v těchto pravidlech.
+
 Odvozená data se negenerují ručně: `scripts/build-graph.py` zapisuje
 `static/data/graph.json` (stránky a jejich odkazy) a `static/data/metrics.json` (čísla pro
 přehledy); šablony a vizualizace čtou jen tato data. `scripts/normalize-front-matter.py`

@@ -12,6 +12,8 @@ Writes two files that templates and scripts read and nobody edits by hand:
                             totals; the glossary page renders its toolbar from it
   static/data/search.json   the site search index: per page title, description, url, EA code,
                             kind (section label) and aliases; static/js/site.js ranks it
+  static/data/viz-deps.json every educational visualisation script in static/js/kompendium/ ->
+                            the libraries it needs (chart, p5, three); base.html loads only those
   static/data/terms.json    every page slug (file stem) -> [url, title, category]: resolves the
                             `related_terms` of a page into links; glossary wins a shared slug
 
@@ -89,7 +91,20 @@ def build() -> dict:
     graph = {"schema": SCHEMA, "nodes": nodes, "edges": edges}
     return {"graph.json": graph, "metrics.json": metrics, "nav.json": navigation(pages),
             "terms.json": terms(pages), "glossary.json": glossary(pages),
-            "search.json": search_index(pages)}
+            "search.json": search_index(pages), "viz-deps.json": viz_deps()}
+
+
+def viz_deps() -> dict:
+    """Which vendored library each visualisation script calls, read from its source."""
+    import re as _re
+    probes = {"chart": _re.compile(r"\bnew Chart\b|\bChart\.|window\.Chart\b"),
+              "p5": _re.compile(r"\bnew p5\b|\bp5\.|window\.p5\b"),
+              "three": _re.compile(r"\bTHREE\.")}
+    deps = {}
+    for f in sorted((ROOT / "static" / "js" / "kompendium").glob("*.js")):
+        text = f.read_text(encoding="utf-8")
+        deps[f.name] = [lib for lib, rx in probes.items() if rx.search(text)]
+    return {"schema": "kompendium-viz-deps/v1", "scripts": deps}
 
 
 KIND = [("glossary/", "Pojem"), ("kompendium/techniques/", "Technika"),

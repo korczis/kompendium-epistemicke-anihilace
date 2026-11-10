@@ -137,3 +137,31 @@
 .dark .format {
   --tw-format-links: var(--color-primary-300);
 }
+
+/* Long-form reading: body text darker than the typography default for comfortable reading,
+   and section headings subordinate to the page title (Publisher H1: text-3xl/4xl). */
+.format {
+  --tw-format-body: var(--color-gray-700);
+  --tw-format-invert-body: var(--color-gray-300);
+}
+
+.dark .format {
+  --tw-format-body: var(--color-gray-300);
+}
+
+.format :where(h2):not(:where(.not-format *)) {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 2.25em;
+  margin-bottom: 0.75em;
+}
+
+.format :where(h3):not(:where(.not-format *)) {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 1.75em;
+}
+
+.format :where(h4):not(:where(.not-format *)) {
+  font-size: 1.0625rem;
+}

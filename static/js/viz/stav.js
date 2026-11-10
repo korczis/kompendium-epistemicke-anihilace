@@ -9,6 +9,7 @@
   function el(id) { return document.getElementById(id); }
 
   function kpis(m) {
+    if (el('stav-kpi').hasAttribute('data-rendered')) return;  // rendered at build time
     var items = [
       ['Stránek', m.pages, 'včetně glosáře a filozofie'],
       ['Slov', m.words, 'celý text knihy'],

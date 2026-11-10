@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.5.6 Platonic cave self"
-description = "Rychla referencni karta pro EA-2.5.6 (delegitimizace)."
+title = "Rychlá karta EA-2.5.6: Obrácená jeskyně"
+description = "Obrácená jeskyně v kostce: jak poznat stav, kdy člověk považuje vlastní vnímání za pouhé stíny a skutečnost přisuzuje jen autoritě nebo skupině."
 weight = 30256
 
 [taxonomies]
@@ -16,33 +16,48 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.5.6 Platonic cave self
+# EA-2.5.6 Obrácená jeskyně – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.5 Sebedelegitimizace · **Plná stránka:** [EA-2.5.6 Obrácená jeskyně](@/kompendium/techniques/ea-2-5-6-platonic-cave-self.md)
 
-## Mechanismus
+## Co to je
 
-Aplikace techniky Platonic cave self ve specifickém kontextu vedoucí k delegitimizaci cíle.
+V Platónově podobenství o jeskyni (*Ústava*, kniha VII) je cesta ze tmy ke světlu obrazem poznání. Obrácená jeskyně je jeho deformované použití na sebe: člověk přijme, že jeho vnímání, zkušenost a úsudek jsou jen „stíny“ a skutečnost zná pouze autorita, skupina nebo doktrína, která „vyšla ven“.
 
-## Indikatory
+## Jak ji poznat
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](@/glossary/epistemicke-trauma.md), [c-ptsd](@/glossary/c-ptsd.md))
+- Vlastní pocity a vjemy odmítá jako „ego“ nebo „program“.
+- Každou událost vykládá slovníkem skupiny.
+- Svět dělí na „probuzené“ a „spící“.
+- Odmítá lékařskou péči s odkazem na „vyšší poznání“.
+- Pochybnost člena se vykládá jako jeho nízká úroveň.
+- Skepse míří jen na vlastní vnímání, nikdy na autoritu.
 
-## Neutralizace
+## První bezpečná reakce
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md))
+**Pro zasaženého:** ptejte se, zda si „vyšší poznání“ můžete někdy ověřit sami a zda doktrína připouští pochybnost o autoritě; udržujte vztahy mimo skupinu a vnímejte vlastní tělo jako zdroj informací ([somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md), [hodnocení mentorů](@/kompendium/self-defense-guides/27-mentor-evaluation.md), [obrana osobní mytologie](@/kompendium/self-defense-guides/50-personal-mythology-defense.md)).
 
-## Cross-linky
+**Pro blízké a odborníka:** udržte vztah bez podmínky odchodu, nezesměšňujte prožitky a zajímejte se; hádka o doktríně obvykle posílí loajalitu ke skupině.
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-5-6-platonic-cave-self/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## Kdy a jak eskalovat
+
+Eskalujte, když přesvědčení vede k odmítání nutné léčby, ohrožení dětí nebo úplné izolaci: [aktivní kult](@/kompendium/emergency-protocols/27-active-cult-emergency.md), u dětí [ochrana dětí](@/kompendium/forensic-legal/47-child-protection-EA.md), po odchodu [protokol kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md); při podezření na psychotické prožívání [EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md).
+
+## S čím ji nezaměnit
+
+- **Filozofická skepse:** obrací se na všechny, včetně autorit.
+- **Autentická spiritualita:** relativizace ega posiluje vnímání, ne závislost na cizím výkladu; srov. [spiritual bypassing](@/glossary/spiritual-bypassing.md).
+- **Psychotické prožívání:** přesvědčení o skryté skutečnosti bez skupinové struktury.
+- **[EA-5.2.2 Transcendentální iluze](@/kompendium/quick-reference/qr-ea-5-2-2.md):** hlubší úroveň – inscenovaný „vhled pod povrch“.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.5.6 Obrácená jeskyně](@/kompendium/techniques/ea-2-5-6-platonic-cave-self.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.5.6](@/kompendium/techniques/ea-2-5-6-platonic-cave-self.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
+- **Glosář:** [BITE model](@/glossary/bite-model.md) – kontrola informací a myšlení; [thought-stopping](@/glossary/thought-stopping.md) – „ego“ jako ukončení úvahy.
+- **Sousední karty:** [EA-5.1.27 Meta-epistemická redukce](@/kompendium/quick-reference/qr-ea-5-1-27.md) – jediné měřítko pravdy; [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/quick-reference/qr-ea-2-5-3.md) – nedůvěra ve vlastní vnímání.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

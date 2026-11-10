@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.2.1 Mentor totalizace"
-description = "Rychla referencni karta pro EA-2.2.1 (delegitimizace)."
+title = "Rychlá karta EA-2.2.1: Sebetotalizace mentora"
+description = "Sebetotalizace mentora v kostce: jak poznat školitele, který se stal jediným legitimním zdrojem poznání a hodnocení, a jak reagovat."
 weight = 30221
 
 [taxonomies]
@@ -16,39 +16,49 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.2.1 Mentor totalizace
+# EA-2.2.1 Sebetotalizace mentora – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.2 Pedagogická koerce · **Plná stránka:** [EA-2.2.1 Sebetotalizace mentora](@/kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md)
 
-## Operační modus (3 kroky)
+## Co to je
 
-1. Mentor se etabluje jako jediný legitimní zdroj odborného posouzení mentee — referenční dopisy, granty, networking jsou pod jeho kontrolou
-2. Externí kontakty mentee jsou aktivně omezovány („nestrácej čas s X“, „ten obor je slepá ulička“); konference jen ty, kde mentor jezdí
-3. Mentee internalizuje mentor jako jediný kompas hodnocení — vlastní názor mizí, je nahrazen „co by říkal školitel“
+Školitel, vedoucí laboratoře nebo supervizor postupně zaujme pozici jediného legitimního zdroje poznání, hodnocení a smyslu pro svého svěřence: platí jen to, co potvrdí. Jde o akademickou podobu vzorce guru a adept, posílenou formální mocí (podpis, hodnocení, financování, doporučení), a proto je nosnou strukturou ostatních technik pedagogické koerce.
 
-## Detekční markery (3 nejvýraznější)
+## Jak ji poznat
 
-- Mentee neumí formulovat nezávislou pozici — každý argument začíná „Profesor X tvrdí…“
-- Profesní síť mentee je téměř identická s mentorovou; chybějící peers v jiných subdoménách
-- Akutní krize, když mentor nesouhlasí — ne intelektuální, ale identitní („nevím, co si o tom mám myslet“)
+- Svěřenec nečte ani necituje autory mimo okruh mentora.
+- Mentor před svěřenci znevažuje jiné odborníky.
+- Mentor se vyjadřuje ke vztahům, volnému času a životním rozhodnutím svěřence.
+- Svěřenci, kteří odešli, jsou popisováni jako selhání.
+- Svěřenec neví, zda je jeho práce dobrá, dokud to mentor neřekne, a mluví jeho slovy.
+- Pochybnost o mentorovi prožívá jako nevděk; nad mentorem není funkční kontrola.
 
-## Neutralizační strategie (3 nejúčinnější)
+## První bezpečná reakce
 
-- Externí ko-mentor — formálně přiřazený druhý odborník mimo přímou linii (z jiné instituce, jiné subdomény)
-- Strukturální peer support — pravidelná setkání s peers mimo lab, externí konference, výzkumné stáže
-- Vědomé psaní bez školitele — držet vlastní reflexivní deník; budovat hlas, který funguje, i když mentor mlčí
+**Pro zasaženého:** udržujte více odborných vztahů (konzultant, kolegové, konference) a oddělte obdiv k mentorovi od jeho práva rozhodovat o vašem životě. Pravidelně si položte otázku: mohu říct „ne“ bez trestu? ([hodnocení mentorů](@/kompendium/self-defense-guides/27-mentor-evaluation.md), [nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md)).
 
-## Příklad
+**Pro odborníka:** sledujte, zda se závislost s časem zmenšuje (zdravý vývoj), nebo prohlubuje (varovný znak). Vinu za pochybnosti přerámujte; nekritizujte mentora příliš brzy – svěřenec by mohl zaujmout obranný postoj.
 
-Doktorand v sedmém roce stále píše dizertaci, kterou školitel nepustí dál. Návrhy posunout obhajobu nejsou možné, protože „není připraven“. Po smrti školitele zjišťuje, že měl plně publikovatelnou práci od roku tři — a žádnou identitu mimo „doktorand profesora X“.
+## Kdy a jak eskalovat
 
-## Cross-linky
+Eskalujte, když jsou ohroženy studium, vízum, financování nebo duševní zdraví: obraťte se na oborovou radu či proděkana, žádejte druhého školitele nebo jeho změnu bez sankce, využijte [ochranu mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md) a [ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md). Klinicky postupujte podle [diagnostických indikátorů](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md); příklad průběhu ukazuje [případ doktorského vedení](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md).
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-2-1-mentor-self-totalizace/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## S čím ji nezaměnit
+
+- **Náročné vedení:** přísný školitel zdůvodňuje hodnocení, snese nesouhlas a podporuje i jiné vztahy.
+- **Raná fáze učení:** převzetí mentorova rámce je na začátku přirozené.
+- **Přenos:** idealizace autority je běžná; rozhoduje, zda ji mentor využívá.
+- **Závislá porucha osobnosti:** celoživotní vzorec napříč vztahy, ne vázaný na jednoho mentora.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.2.1 Sebetotalizace mentora](@/kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.2.1](@/kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
+- **Organizace:** [hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md) – institucionální korektiv.
+- **Glosář:** [nepřípustný vliv](@/glossary/undue-influence.md) – právní a etický rámec zneužité autority.
+- **Sousední karty:** [EA-2.2.2 Izolace svěřence](@/kompendium/quick-reference/qr-ea-2-2-2.md) – obvyklý druhý krok; [EA-2.2.3 Zachycení směru kvalifikační práce](@/kompendium/quick-reference/qr-ea-2-2-3.md) – co totalizace umožní; [EA-2.2.7 Pěstování citového dluhu](@/kompendium/quick-reference/qr-ea-2-2-7.md) – vděk jako pouto.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

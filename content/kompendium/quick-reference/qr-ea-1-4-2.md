@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-1.4.2 Latentní emocionální modulace"
-description = "Rychlá referenční karta — Subtilní indukce emocí modulujících kognici."
+title = "Rychlá karta EA-1.4.2: Latentní emocionální modulace"
+description = "Latentní emocionální modulace v kostce: jak poznat skryté navozování úzkosti, viny či studu, které řídí úsudek, a jak reagovat."
 weight = 142
 
 [taxonomies]
@@ -14,39 +14,49 @@ ea_code = "EA-1.4.2"
 toc = false
 +++
 
-# QR Card — EA-1.4.2 Latentní emocionální modulace
+# EA-1.4.2 Latentní emocionální modulace – karta v kostce
 
-**Definice (1 věta)**: Subtilní indukce emocí modulujících kognici.
+**Oblast:** [3.1 Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md), podskupina 1.4 Paralingvistické techniky · **Plná stránka:** [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
 
-## Operační modus (3 kroky)
+## Co to je
 
-1. Tichá indukce afektivního stavu — mírný strach (vague threat), mírný stud, mírná nejistota — bez explicitního pojmenování emoce
-2. Spojení indukovaného afektu s preferovaným závěrem („rozumní lidé už chápou…“); subjekt afekt interpretuje jako vlastní intuicí
-3. Vyvolání averze k alternativním pozicím skrze sociální nepohodlí (rozpadnutí kontaktu, mírná chladnost) bez explicitního konfliktu
+Nenápadně se navozují určité emoce – úzkost, frustrace, vina, stud, strach, ohrožení identity – a s nimi se mění způsob, jak člověk uvažuje. Pod emočním tlakem ubývá pomalého, kritického myšlení a přibývá rychlých heuristik, takže souhlas přináší úlevu a nesouhlas nepohodu, jejíž zdroj člověk nedokáže určit.
 
-## Detekční markery (3 nejvýraznější)
+## Jak ji poznat
 
-- Subjekt formuluje rozhodnutí přes pocit („nějak mi to nesedí“, „mám z toho zvláštní pocit“) bez explicitního obsahu
-- Afektivní stav se nesoulad s objektivním obsahem konverzace (mírný stres v technicky neutrálním tématu)
-- V přítomnosti druhé osoby se mění tón a interpretace stejných dat — afekt je relační, nikoli vázaný k obsahu
+- Nepohoda je vázaná na určitá tvrzení nebo témata, ne na obecnou zátěž.
+- Asymetrie: souhlas je klidný, nesouhlas úzkostný.
+- Člověk se určitým otázkám vyhýbá a neumí říct proč.
+- Zpochybnění určitých výroků prožívá jako ohrožení vlastní identity.
+- Narůstá emoční závislost na jednom zdroji, který jako jediný přináší úlevu.
+- Emoce jsou nepřiměřené obsahu a objevují se hlavně v přítomnosti jedné osoby.
 
-## Neutralizační strategie (3 nejúčinnější)
+## První bezpečná reakce
 
-- Afektivní debriefing — po interakci pojmenovat, jaký afekt byl indukován a kdy; explicitní vědomí přerušuje vliv
-- Kanálová separace — rozhodnutí formulovat písemně, mimo přítomnost zdroje afektu; čtení textu mimo kontext
-- Test kontrafaktu — „kdybych tato data dostal od kohokoli jiného, hodnotil bych je stejně?“; neguje relační vrstvu
+**Pro zasaženého:** zastavte se a pojmenujte, co cítíte a zda je to úměrné obsahu. Nerozhodujte v rozjitřeném stavu: odložte hodnocení aspoň o den a vraťte se k němu v klidu a jinde ([emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md), [rozpoznávání spouštěčů](@/kompendium/self-defense-guides/12-trigger-recognition.md)).
 
-## Příklad
+**Pro odborníka:** mapujte, která témata a které osoby emoci spouštějí; sledujte signaturu [emocionální modulace](@/kompendium/detection-signatures/16-behavioral-emotional-modulation.md). Pozor na vlastní roli: i klinik může nevědomky tlačit úzkostí k rychlému rozhodnutí.
 
-Manažer subtilně signalizuje nesouhlas s alternativním návrhem skrze skromný úsměv, krátké mlčení, mírný úkrok zpět. Tým, aniž si toho vědomí všimne, návrh přestává obhajovat. Když týž návrh přijde písemně od neznámé osoby, je posouzen jako kvalitní.
+## Kdy a jak eskalovat
 
-## Cross-linky
+Eskalujte, když navozovaná vina či strach slouží k udržení vztahu nebo členství, střídá se s náhlou vřelostí nebo vede k izolaci: to ukazuje na [coercive control](@/glossary/coercive-control.md) či [trauma bonding](@/glossary/trauma-bonding.md). Při panice nebo akutním zhroucení postupujte podle [protokolu panické ataky](@/kompendium/emergency-protocols/6-panic-attack-EA.md), jinak podle [diagnostických indikátorů](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md).
 
-- **Detailní článek**: [/kompendium/techniques/ea-1-4-2-Latentní-emocionální-modulace](@/kompendium/techniques/_index.md)
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
-- **Glossary**: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Platformové refs**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}, [NABLA Infinity](@/glossary/nabla-infinity.md)
+## S čím ji nezaměnit
+
+- **Přirozená emoční reakce na těžké téma:** úměrná obsahu a nevázaná na jednu osobu.
+- **Úzkostná porucha:** emoce se objevují napříč kontexty, ne v souvislosti s jedním zdrojem.
+- **[Love bombing](@/glossary/love-bombing.md):** navozuje pozitivní emoce ve fázi získávání; zde jde o trvalé řízení úsudku.
+- **[EA-1.4.1 Prosodická dominance](@/kompendium/quick-reference/qr-ea-1-4-1.md):** signalizuje autoritu, nemění emoční stav.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – mechanismus, kontexty a neutralizace; [kapitola 3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md) – akademické techniky.
+- **Obrana:** [odolnost vůči studu](@/kompendium/self-defense-guides/18-shame-resilience.md) – stud jako nejčastější páka.
+- **Glosář:** [emocionální terorismus](@/glossary/emocionalni-terorismus.md) – krajní podoba téhož vzorce.
+- **Sousední karty:** [EA-1.4.1 Prosodická dominance](@/kompendium/quick-reference/qr-ea-1-4-1.md) – sourozenecká technika; [EA-1.2.1 Falešné dilema](@/kompendium/quick-reference/qr-ea-1-2-1.md) – emoční tlak k binární volbě; [EA-2.2.7 Pěstování citového dluhu](@/kompendium/quick-reference/qr-ea-2-2-7.md) – vina jako trvalý nástroj.
 
 ---
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

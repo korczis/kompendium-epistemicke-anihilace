@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-5.1.6 Kategoricka transgrese"
-description = "Rychla referencni karta pro ultramarine techniku Kategoricka transgrese (epistemicka singularita)."
+title = "Rychlá karta EA-5.1.6: Kategorická transgrese"
+description = "Kategorická transgrese v kostce: jak poznat rozpad základních rozlišení – reálné a fiktivní, já a druhý, fakt a hodnota – a jak reagovat."
 weight = 10006
 
 [taxonomies]
@@ -16,60 +16,49 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.1.6 Kategorická transgrese
+# EA-5.1.6 Kategorická transgrese – karta v kostce
 
-> WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
+**Oblast:** [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), skupina 5.1 · **Plná stránka:** [EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md)
 
-**Doména**: [Epistemická singularita](@/glossary/epistemicka-singularita.md) — narušení Aristotelových/Kantových kategoriálních hranic, jež subjekt používá k organizaci zkušenosti.
+> Přístupová úroveň L3. Karta slouží k rozpoznání a ochraně; popis je strukturní, ne návod.
 
-## Definice
+## Co to je
 
-**Kategorická transgrese** je technika, při níž manipulátor systematicky **překračuje a destabilizuje hranice kategorií**, na nichž subjekt staví orientaci ve světě (subjekt vs. objekt, příčina vs. následek, věc vs. vlastnost, fakt vs. hodnota, podstata vs. akcident). Útoky operují na **kategoriálním aparátu**, nikoli na konkrétních obsazích — subjektova schopnost rozhodnout, „co je to za druh věci“, se eroduje. V terminálním stadiu subjekt přestává rozlišovat *kategoriální typy* zkušenosti (událost vs. trvalý stav, fyzická vs. psychická skutečnost, [intencionalita](@/glossary/intentionalita.md) vs. kauzalita), což znemožňuje formulovat smysluplnou interpretaci. Strukturálně připomíná ryle-ovskou *category mistake*, ale kultivovanou jako diskurzivní zbraň.
+Kategoriální hranice – živé a neživé, reálné a fiktivní, já a druhý, fakt a hodnota – se soustavně porušují, dokud je člověk přestane umět udržet. Výsledkem je dezorientace v základních rozlišeních, kterou okolí (a někdy i člověk sám) může mylně číst jako duchovní průlom.
 
-## Operační modus (5 kroků)
+## Jak ji poznat
 
-1. **Identifikace kategoriální infrastruktury** — manipulátor mapuje, jaké základní typové distinkce subjekt používá („to je zase něco jiného než…“).
-2. **Smíšené predikace** — výroky atribuující vlastnost jedné kategorie objektům z jiné („tvoje rozhodnutí je vlhké“, „tvůj úmysl je nezralý jako fyzický předmět“).
-3. **Kategoriální slipping** — opakovaný přechod mezi úrovněmi (deskriptivní výrok přechází bez upozornění do morálního, pak do estetického).
-4. **Hyperabstrakce / hyperkonkretizace** — abstraktní pojmy reifikované jako objekty, konkrétní situace prezentované jako abstraktní principy.
-5. **Kategoriální vakuum** — subjekt přestává mít k dispozici typové rozlišení, prožívá svět jako „směs všeho se vším“.
+- Vlastní zkušenost a převzatý příběh se netriviálně zaměňují.
+- Fiktivní nebo symbolické entity slouží jako příčinné vysvětlení skutečných událostí.
+- Antropomorfizace neživého nebo „odživení“ živého bez vědomí, že jde o obrazné vyjádření.
+- Normativní soudy se prožívají jako empirické nutnosti („je to, jak to musí být“).
+- Člověk neví, zda vzpomínka je jeho zážitek, cizí vyprávění, nebo představa.
+- Eufórický pocit, že „vše je jedno“, střídá ontologická úzkost.
 
-## Fenomenologické znaky
+## První bezpečná reakce
 
-| Znak | Popis |
-|------|-------|
-| **Typová dezorientace** | "Nevím, jestli je to o tom, co dělám, nebo kdo jsem" |
-| **Synestetická konfuze** | Mísení smyslových modalit ve formulacích zkušenosti |
-| **Hodnotová imploze** | Faktické a normativní výroky se v zážitku slévají |
-| **Strukturální chaos** | Neschopnost identifikovat, co je předmětem debaty |
+**Pro zasaženého:** klaďte si jednoduché kontrolní otázky: je to vzpomínka, představa, nebo vjem? Metafora, nebo doslovný popis? Můj zážitek, nebo slyšený příběh? Udržujte pravidelný kontakt s prostředím, které rozlišení vynucuje – práce s konkrétním cílem, tělesná činnost, lidé mimo skupinu ([uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md), [vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md)).
 
-## Detekční markery
+**Pro odborníka:** testování reality vést citlivě, bez zesměšnění; ptejte se na kontext (skupina, retreaty, psychedelika bez integrace).
 
-| Marker | Indikuje |
-|--------|----------|
-| Manipulátor systematicky používá **adjektiva napříč kategoriemi** | Aktivní transgresi |
-| Subjekt nedokáže odpovědět na otázku "o čem mluvíme — o faktu, hodnotě, nebo zkušenosti?" | Erozi typového aparátu |
-| Smíšené výroky ("tvoje láska je málo argumentovaná") | Kategoriální chaos |
-| Subjekt přestává **klasifikovat** problémy do typů | Strukturální poškození |
+## Kdy a jak eskalovat
 
-## Neutralizace
+Eskalujte vždy, když se objevují bludy, halucinace nebo ztráta schopnosti postarat se o sebe: psychiatrické vyšetření má přednost ([EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md), [psychotický zlom](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)). Při akutní depersonalizaci postupujte podle [protokolu akutní disociace](@/kompendium/emergency-protocols/4-acute-dissociation-EA.md).
 
-- **Explicitní typové značení** — před každým výrokem identifikovat: „toto je deskriptivní/normativní/estetický výrok“.
-- **Aristotelská retabulace** — návrat k základnímu rozlišení: substance, kvalita, kvantita, vztah, místo, čas, poloha, držení, akce, trpění.
-- **Externí kategoriální audit** — kolega s filosofickou erudicí mapuje, kde se v debatě transgrese odehrávají.
+## S čím ji nezaměnit
 
-## Klinický kontext
+- **Metaforické a umělecké myšlení:** obrazná řeč vědomá si sama sebe.
+- **[Mystický prožitek](@/glossary/mysticky-prozitek.md):** může být integrovaný a nepoškozující; rozhoduje návrat k rozlišením.
+- **Psychotická porucha:** ztráta testování reality bez vnějšího zdroje.
+- **[EA-5.1.4 Sémantická imploze](@/kompendium/quick-reference/qr-ea-5-1-4.md):** rozpad významů slov, ne kategorií zkušenosti.
 
-Kategorická transgrese se vyskytuje v sektách s gnostickým holismem („vše je spojeno“), v některých formách psychoterapie, jež reifikují metafory („tvoje úzkost je toxická látka“), v intelektuálním diskurzu, který směšuje deskriptivní a normativní úrovně, a ve veřejné komunikaci, kde fakta a hodnoty splývají do morální paniky. Diferenciálně se odlišuje od **legitimní mezikategoriální analogie** (která je explicitně označena jako analogie a má heuristickou funkci) — transgrese predikuje **doslovně** napříč kategoriemi.
+**Zdroj:** karta shrnuje plnou stránku [EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
 
-## Cross-linky
+## Související
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
-- **Detailní článek**: [EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md)
-- **Sourozenecké techniky**: [EA-5.1.5 Logická diskontinuita](@/kompendium/quick-reference/qr-ea-5-1-5.md), [EA-5.1.11 Modální dezorientace](@/kompendium/quick-reference/qr-ea-5-1-11.md), [EA-5.1.12 Kauzální inverze](@/kompendium/quick-reference/qr-ea-5-1-12.md)
-- **Glossary**: [Category mistake](@/glossary/category-mistake.md), [Aristotelovy kategorie](@/glossary/aristotelovy-kategorie.md), [Konceptuální anihilace](@/glossary/konceptualni-anihilace.md), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Kategoriální rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Platforma**: [NABLA Infinity typové vrstvy](@/glossary/nabla-infinity.md), {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine kategoriální schémata" /> }}
+- **Technika a kapitola:** [plná stránka EA-5.1.6](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md) – mechanismus, případy a neutralizace; [kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) – [epistemická singularita](@/glossary/epistemicka-singularita.md).
+- **Glosář:** [kategoriální omyl](@/glossary/category-mistake.md) – filozofický pojem, který transgrese zneužívá; [reality testing](@/glossary/reality-testing.md) – co je třeba obnovit.
+- **Sousední karty:** [EA-5.1.19 Kvazi-mystická anihilace](@/kompendium/quick-reference/qr-ea-5-1-19.md) – „jednota“ jako past; [EA-5.1.18 Solipsistická dekompozice](@/kompendium/quick-reference/qr-ea-5-1-18.md) – rozpad hranice já a svět.
 
 ---
 

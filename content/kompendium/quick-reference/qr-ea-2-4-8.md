@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.4.8 Journal capture"
-description = "Rychla referencni karta pro EA-2.4.8 (delegitimizace)."
+title = "Rychlá karta EA-2.4.8: Zachycení časopisu"
+description = "Zachycení časopisu v kostce: jak poznat redakci a publikační politiku odborného časopisu, které začaly sloužit jedné skupině, a jak reagovat."
 weight = 30248
 
 [taxonomies]
@@ -16,33 +16,48 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.4.8 Journal capture
+# EA-2.4.8 Zachycení časopisu – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.4 Institucionální zachycení · **Plná stránka:** [EA-2.4.8 Zachycení časopisu](@/kompendium/techniques/ea-2-4-8-journal-capture.md)
 
-## Mechanismus
+## Co to je
 
-Aplikace techniky Journal capture ve specifickém kontextu vedoucí k delegitimizaci cíle.
+Redakční rada, šéfredaktor a publikační politika odborného časopisu začnou sloužit jedné škole, frakci, sponzorovi či obchodnímu zájmu vydavatele místo nestranného posouzení. Časopis dál vychází, má recenzní řízení i impakt; mění se jen to, co projde a co ne. Je strukturním kořenem publikační blokace a potlačování citací. Zvenčí se účinek špatně dokazuje: jednotlivá zamítnutí i přijetí vypadají jako běžná redakční rozhodnutí, vzorec ukáže až srovnání v čase.
 
-## Indikatory
+## Jak ji poznat
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](@/glossary/epistemicke-trauma.md), [c-ptsd](@/glossary/c-ptsd.md))
+- Rychlá výměna redakční rady po změně šéfredaktora, doplňování kooptací.
+- Rostoucí podíl článků členů redakce a jejich spolupracovníků.
+- Hromadná zvláštní čísla se stejnými hostujícími editory.
+- Recenze požadují citace časopisu.
+- Přepsaný profil, do něhož nepohodlné směry „nespadají“.
+- Nedeklarované financování nebo sponzorované přílohy.
 
-## Neutralizace
+## První bezpečná reakce
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md))
+**Pro autora:** zveřejňujte preprinty, publikujte v kanálech s jinou redakcí, vynucené citace odmítněte a nahlaste. Sledujte deklarace střetu zájmů a složení redakce ([verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md), [kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md)).
 
-## Cross-linky
+**Pro odborníka a čtenáře:** hromadná rezignace redakce může být i projevem obrany proti tlaku vydavatele – posuzujte, kdo a proč odchází.
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-4-8-journal-capture/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## Kdy a jak eskalovat
+
+Eskalujte při vynucených citacích, obcházení recenze ve zvláštních číslech nebo nedeklarovaném sponzorství: obraťte se na vydavatele, vlastníka časopisu (odbornou společnost) a etické orgány; uplatněte [politiku střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md) a [auditní výbor](@/kompendium/organizational-defense/5-audit-committee-EA.md).
+
+## S čím ji nezaměnit
+
+- **Profil časopisu:** veřejně formulované zaměření s nezávislou recenzí.
+- **Predátorské časopisy:** publikují za poplatek bez skutečné recenze; příbuzný, ale jiný jev.
+- **Obranná rezignace redakce:** odchod proti tlaku, ne zachycení.
+- **[EA-2.4.6 Zachycení recenzního řízení](@/kompendium/quick-reference/qr-ea-2-4-6.md):** nástroj zachycení časopisu.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.4.8 Zachycení časopisu](@/kompendium/techniques/ea-2-4-8-journal-capture.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.4.8](@/kompendium/techniques/ea-2-4-8-journal-capture.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
+- **Detekce:** [cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md) – vynucené citace.
+- **Sousední karty:** [EA-2.1.4 Publikační blokace](@/kompendium/quick-reference/qr-ea-2-1-4.md) – dopad na autora; [EA-2.1.5 Potlačování citací](@/kompendium/quick-reference/qr-ea-2-1-5.md) – dopad na paměť oboru.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

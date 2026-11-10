@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-5.1.7 Referencni rekurze"
-description = "Rychla referencni karta pro ultramarine techniku Referencni rekurze (epistemicka singularita)."
+title = "Rychlá karta EA-5.1.7: Referenční rekurze"
+description = "Referenční rekurze v kostce: jak poznat úvahy uzavřené do kruhu, kde odpověď na X vyžaduje Y a Y zase X, a jak z kruhu vystoupit."
 weight = 10007
 
 [taxonomies]
@@ -16,60 +16,49 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.1.7 Referenční rekurze
+# EA-5.1.7 Referenční rekurze – karta v kostce
 
-> WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
+**Oblast:** [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), skupina 5.1 · **Plná stránka:** [EA-5.1.7 Referenční rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md)
 
-**Doména**: [Epistemická singularita](@/glossary/epistemicka-singularita.md) — uvěznění subjektovy referenční kapacity v nekonečné rekurzi, kde každý odkaz vede pouze k dalšímu odkazu.
+> Přístupová úroveň L3. Karta slouží k rozpoznání a ochraně; popis je strukturní, ne návod.
 
-## Definice
+## Co to je
 
-**Referenční rekurze** vytváří strukturu, v níž **každá reference vede k další referenci**, aniž by kdy dosáhla pevného denotátu. Manipulátor systematicky odpovídá na subjektovy otázky odkazy na další zdroje, autority, kontexty nebo „musíš pochopit nejprve…“ tak, že subjekt nikdy nedosáhne přímé odpovědi. Subjekt prožívá *infinitní regress* — každé „vysvětlení“ obsahuje další pojem, který vyžaduje vysvětlení. V terminálním stadiu se subjekt vzdává hledání reference a přijímá strukturu samé referenční sítě jako „to, co se nedá vysvětlit, ale jen prožít“. Strukturálně blízké hermeneutickému kruhu, ale bez návratu — pouze dovnitř.
+Uvažování o určité otázce je strukturováno jako kruh bez konce: odpověď na X vyžaduje předchozí odpověď na Y, a ta zase na X (případně přes delší řetězec). Člověk se ocitá v pasti, ze které introspekcí nevede cesta, protože vnější „ukončovací kotvy“ byly předem zpochybněny.
 
-## Operační modus (5 kroků)
+## Jak ji poznat
 
-1. **Otevření referenčního řetězce** — subjektova konkrétní otázka je zodpovězena odkazem („musíš to chápat v kontextu…“).
-2. **Postupný drift** — každý další krok zahrnuje další odkaz, vzdaluje od původní otázky.
-3. **Expertní rétorická bariéra** — odkazy na specializované zdroje, jež subjekt nemůže rychle ověřit.
-4. **Cirkulární uzavření** — řetězec se eventuálně zacyklí, ale délka cyklu je dostatečná, aby subjekt přestal sledovat.
-5. **Akceptace nedostupnosti** — subjekt přijímá, že pravda „leží někde uvnitř sítě“, a nepokouší se ji extrahovat.
+- Věty s implikační stavbou zůstávají v dané oblasti nedokončené.
+- Klíčové pojmy jsou definovány jen navzájem jeden skrze druhý.
+- Tytéž úvahy se s drobnými obměnami opakují měsíce bez pokroku.
+- Návrh operační definice vyvolá nepřiměřenou afektivní reakci.
+- Pocit hloubky a „zpřesňování“ nepoměrný skutečnému pokroku.
+- Rozhodovací paralýza v oblasti, kde člověk dříve jednal bez potíží.
 
-## Fenomenologické znaky
+## První bezpečná reakce
 
-| Znak | Popis |
-|------|-------|
-| **Referenční vyhoření** | "Než to celé pochopím, vyžaduje to celý život" |
-| **Pocit hloubky bez obsahu** | Manipulátorův výklad působí "hluboce", ale neexistuje extrahovatelná teze |
-| **Citační závislost** | Subjekt přestává argumentovat sám, jen cituje |
-| **Strach z otázky "ale konkrétně co?"** | Pocit hrubosti při žádosti o přímou odpověď |
+**Pro zasaženého:** zeptejte se: jak by problém řešil někdo, kdo pojmy A a B vůbec nezná? Přijměte prozatímní pracovní odpověď na A, aniž byste vyřešili B, a sledujte, zda se tím něco zhroutí, nebo zda můžete pokračovat ([kognitivní flexibilita](@/kompendium/self-defense-guides/8-cognitive-flexibility.md), [časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md)).
 
-## Detekční markery
+**Pro odborníka:** sledujte [cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md) a zjistěte, kdo smyčku udržuje („abys uzdravil X, musíš nejdřív uzdravit Y“). Podporujte malé, ukončené kroky.
 
-| Marker | Indikuje |
-|--------|----------|
-| Konverzace nikdy nedosáhne **konkrétního výstupu** | Aktivní rekurzi |
-| Manipulátorovy odpovědi obsahují vždy **další referenci** | Strukturální regres |
-| Subjekt **nedokáže shrnout** manipulátorovu pozici v jedné větě | Erozi referenční kompetence |
-| Délka řetězce odkazů narůstá v čase | Stupňující se uzavření |
+## Kdy a jak eskalovat
 
-## Neutralizace
+Eskalujte, když smyčku udržuje terapeut, vůdce nebo partner a člověk je na něm závislý, nebo když paralýza ohrožuje zdraví či obživu: [protokol akutní kognitivní paralýzy](@/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md), u pseudoterapie [iatrogenní poškození](@/kompendium/emergency-protocols/37-iatrogenic-emergency.md) a [druhý názor](@/kompendium/emergency-protocols/38-second-opinion-emergency.md).
 
-- **Pravidlo přímé odpovědi** — explicitní žádost o **konkrétní teze v jedné větě**, opakovaná, dokud nedostane.
-- **Vrácení k otázce** — návrat k původní formulaci po každém odkazu: „to chápu, ale otázka byla X“.
-- **Časový limit na odpověď** — pokud konkrétní výstup nedorazí v krátkém čase, je to diagnosticky relevantní.
+## S čím ji nezaměnit
 
-## Klinický kontext
+- **[Cirkulární argumentace](@/glossary/cirkularni-argumentace.md):** logická chyba v jednom argumentu, kterou lze ukázat a opustit.
+- **[Hermeneutický kruh](@/glossary/hermeneuticky-kruh.md):** produktivní pohyb porozumění, který postupuje.
+- **Obsedantní ruminace:** vtíravé myšlenky bez vnějšího udržovatele.
+- **[EA-5.1.3 Reflexivní paradoxie](@/kompendium/quick-reference/qr-ea-5-1-3.md):** zablokovaná sebereflexe, ne kruh v pojmech o světě.
 
-Manifestuje se v ezoterických tradicích s „tajným věděním“, v hyperintelektuálních kruzích, kde čtená literatura je sociálním kapitálem, v psychoterapeutických školách, jež se odmítají vyjadřovat operativně, a ve veřejných intelektuálních debatách, jež nahrazují argumenty citacemi. Diferenciálně se odlišuje od **legitimní hermeneutické kontextualizace** (která má vždy konkrétní výstup po několika krocích) tím, že referenční rekurze **nikdy** k výstupu nedorazí. Léčba: trénink na **operativní artikulaci** — schopnost převést jakoukoli teorii do testovatelného výroku.
+**Zdroj:** karta shrnuje plnou stránku [EA-5.1.7 Referenční rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
 
-## Cross-linky
+## Související
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
-- **Detailní článek**: [EA-5.1.7 Referenční rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md)
-- **Sourozenecké techniky**: [EA-5.1.13 Hyperreflexivita](@/kompendium/quick-reference/qr-ea-5-1-13.md), [EA-5.1.21 Sebereferenční paradox](@/kompendium/quick-reference/qr-ea-5-1-21.md), [EA-5.1.23 Asymptotická dezintegrace](@/kompendium/quick-reference/qr-ea-5-1-23.md)
-- **Glossary**: [Hermeneutický kruh](@/glossary/hermeneuticky-kruh.md), [Infinitní regress](@/glossary/infinitni-regress.md), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Operativní artikulace](@/glossary/operativni-artikulace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Operativní rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Platforma**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine reference graph" /> }}, [Glossary canonical](@/glossary/_index.md)
+- **Technika a kapitola:** [plná stránka EA-5.1.7](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md) – mechanismus, případy a neutralizace; [kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) – [epistemická singularita](@/glossary/epistemicka-singularita.md).
+- **Glosář:** [infinitní regres](@/glossary/infinitni-regress.md) – příbuzná logická struktura.
+- **Sousední karty:** [EA-5.1.8 Konceptuální fragmentace](@/kompendium/quick-reference/qr-ea-5-1-8.md) – izolované pojmy jako materiál smyčky; [EA-5.1.17 Tautologická imploze](@/kompendium/quick-reference/qr-ea-5-1-17.md) – kruh zúžený na tautologii.
 
 ---
 

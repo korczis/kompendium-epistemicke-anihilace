@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-5.2.5 Konstitutivni rozpad"
-description = "Rychla referencni karta pro EA-5.2.5 (metatranscendentalni anihilace)."
+title = "Rychlá karta EA-5.2.5: Konstitutivní rozpad"
+description = "Konstitutivní rozpad v kostce: jak poznat rozpad principů, jimiž se ze zkušenosti utvářejí předměty, a jak bezpečně reagovat."
 weight = 20005
 
 [taxonomies]
@@ -16,60 +16,49 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.2.5 Konstitutivní rozpad
+# EA-5.2.5 Konstitutivní rozpad – karta v kostce
 
-> WARNING: Přístupová úroveň L4. Pouze pro kvalifikované výzkumníky pod IRB.
+**Oblast:** [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md), skupina 5.2 · **Plná stránka:** [EA-5.2.5 Konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md)
 
-**Doména**: Metatranscendentální anihilace — rozpad samotných konstitutivních aktů, jimiž subjekt aktivně tvoří strukturu zkušenosti (Husserlova intencionalita).
+> Karta vyšší přístupové úrovně slouží k rozpoznání a ochraně; popis je strukturní, ne návod.
 
-## Definice
+## Co to je
 
-**Konstitutivní rozpad** systematicky **narušuje pre-reflexivní struktury intencionality** — základní zaměřenost zkušenosti na předmět („vědomí je vždy vědomí něčeho“, *Bewusstsein-von*). Manipulátor (často skrze intenzivní „neutčící“ či „neziskovou“ meditaci, paradoxní rituály nebo dlouhodobou hyperreflexivitu) systematicky rámuje subjektovu **konstitutivní práci** (syntézy retence-prezentace-protence, horizonty, asociace) jako „iluzi ega“. Subjekt postupně ztrácí schopnost udržet **zaměřený předmět zkušenosti** — myšlenky, vnímání, emoce se „rozpadají“ před uchopením. V terminálním stadiu nastává stav, který klinicky často odpovídá **indukované depersonalizaci** s fenomenologickým podkladem. Strukturálně se technika liší od legitimní husserlovské *epoché* — *epoché* je metodologickou pauzou s návratem k *Lebenswelt*; konstitutivní rozpad nikdy nedovolí návrat.
+Rozpouštějí se konstitutivní principy – struktury, jimiž se ze syrového proudu vědomí utvářejí předměty zkušenosti (v Husserlově fenomenologii syntézy konstituce, srov. [konstitutivní akt](@/glossary/konstitutivni-akt.md)). Člověk prožívá jevy bez obvyklé předmětnosti: barvy bez věcí, zvuky bez zdrojů, okamžiky, které se nepojí do toku.
 
-## Operační modus (5 kroků)
+## Jak ji poznat
 
-1. **Indukce intenzivní meditativní praxe** — bez kvalifikovaného integrativního rámce.
-2. **Rámování konstitutivních aktů jako „ego iluze“** — explicitní instrukce nepodléhat intencionalitě.
-3. **Rituální upevnění** — opakování praxe v komunitním rámci.
-4. **Strukturální dezintegrace** — subjekt přestává udržovat zaměřený předmět.
-5. **Konsolidace fenomenologického rozpadu** — pre-reflexivní struktura nedostupná.
+- Popisuje zkušenost bez předmětů („shluk barev a tvarů“).
+- Vyprávění postrádá časovou souvislost.
+- Známé prostředí je cizí – rozpozná ho, ale neprožije jako své.
+- Chybí perspektivní jazyk („odsud“, „z mého pohledu“).
+- Zhoršení po intenzivní meditaci, fenomenologickém cvičení nebo psychedelickém zážitku bez rámce návratu.
+- Úzkost a dezorientace v běžných situacích.
 
-## Fenomenologické znaky
+## První bezpečná reakce
 
-| Znak | Popis |
-|------|-------|
-| **Konstitutivní únava** | "Neudržím jednu myšlenku" |
-| **Strukturální rozpad** | "Věci se mi rozpadají" před uchopením |
-| **Intencionalní deficit** | Selhání v zaměřit pozornost na konkrétní předmět |
-| **Depersonalizační kvalita** | Pocit, že "já-akt" se neděje |
+**Pro zasaženého:** po každém cvičení zařaďte pevný rituál návratu. Věnujte se běžným předmětům s výslovným pojmenováním jejich smyslu („toto je hrnek, z něhož piji kávu“) a vracejte se k rutinám ([uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md), [somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md)).
 
-## Detekční markery
+**Pro odborníka:** přerušte praxi, která rozpad vyvolává; stabilizujte spánek, rutinu a sociální kontakt. Ověřte užívání látek a neurologické příčiny.
 
-| Marker | Indikuje |
-|--------|----------|
-| Subjekt reportuje **"neudrží jednu myšlenku"** s fenomenologickou intenzitou | Aktivní rozpad |
-| **Selhává v základních intencionálních aktech** (zaměřit pozornost, identifikovat pocit) | Strukturální dezintegraci |
-| Husserlovské epoché degradováno do **trvalého "nezaujetí"** | Patologickou redukci |
-| Subjekt **nemůže "zaujmout"** ani v běžné praxi | Konsolidovaný rozpad |
+## Kdy a jak eskalovat
 
-## Neutralizace
+Eskalujte vždy při přetrvávajícím rozpadu vnímání: jde o stav na hranici akutní [depersonalizace](@/glossary/depersonalizace.md), psychózy či neurologické poruchy. [Akutní disociativní stav](@/kompendium/emergency-protocols/4-acute-dissociation-EA.md), [psychotický zlom](@/kompendium/emergency-protocols/3-psychotic-break-EA.md), [medicínská komorbidita](@/kompendium/emergency-protocols/25-medical-comorbidity-EA.md).
 
-- **Fenomenologický restituční protokol** — strukturované cvičení v jednoduchých intencionálních aktech (zaměř pozornost na jablko, popiš barvu, popiš tvar).
-- **Multidisciplinární tým** — psychiatr (diferenciální dg. depersonalizace, derealizace) + fenomenolog (operacionalizace cvičení).
-- **Postupný návrat ke struktuře zkušenosti** — denní deník fenomenologických aktů; subjekt znovuobnovuje pre-reflexivní strukturu skrze explicitní cvičení.
+## S čím ji nezaměnit
 
-## Klinický kontext
+- **Řízená fenomenologická [epoché](@/glossary/epoche.md):** vědomé uzávorkování s návratem.
+- **Meditační zkušenost v tradici:** s učitelem a rámcem integrace.
+- **Depersonalizační-derealizační porucha, psychóza, migréna či epilepsie:** klinické diagnózy.
+- **[EA-5.2.14 Konstitutivní zhroucení](@/kompendium/quick-reference/qr-ea-5-2-14.md):** krajní, náhlá podoba téhož procesu.
 
-Konstitutivní rozpad se vyskytuje typicky po dlouhodobé intenzivní „neutčící“ meditační praxi v komunitách bez kvalifikovaných učitelů, v některých neo-šamanistických tradicích bez kulturního kořene a u některých formách kontemplativní psychoterapie operující bez somatické kotvy. **Klasický případ**: praktikant intenzivní „neutčící“ meditace po roce reportuje „věci se mi rozpadají, nedrží pohromadě“. V běžných úkolech (nákup v obchodě, organizace dne) selhává; aktivně rozpadlou strukturu rámuje jako spirituální cíl. Rodina ho přivede k psychiatrovi; diferenciální dg. zahrnuje depersonalizaci s indukovaným podtypem. Léčba: dlouhodobá fenomenologicky orientovaná psychoterapie, často 24–48 měsíců.
+**Zdroj:** karta shrnuje plnou stránku [EA-5.2.5 Konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
 
-## Cross-linky
+## Související
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)
-- **Detailní článek**: [EA-5.2.5 Konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md)
-- **Sourozenecké techniky**: [EA-5.2.6 Transcendentální rekursivita](@/kompendium/quick-reference/qr-ea-5-2-6.md), [EA-5.2.7 Kategoriální disoluce](@/kompendium/quick-reference/qr-ea-5-2-7.md), [EA-5.1.13 Hyperreflexivita](@/kompendium/quick-reference/qr-ea-5-1-13.md)
-- **Glossary**: [Intencionalita](@/glossary/intentionalita.md), [Konstitutivní akt](@/glossary/konstitutivni-akt.md), [Husserl retence](@/glossary/husserl-retence.md), [Epoché](@/glossary/epoche.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Depersonalizace](@/glossary/depersonalizace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Fenomenologická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md), [Multidisciplinární tým](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-- **Platforma**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine intentional structure" /> }}, [NABLA Infinity konstitutivní vrstvy](@/glossary/nabla-infinity.md)
+- **Technika a kapitola:** [plná stránka EA-5.2.5](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md) – mechanismus, případy a neutralizace; [kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) – metatranscendentální anihilace.
+- **Glosář:** [fenomenologie](@/glossary/fenomenologie.md) – rámec pojmu konstituce; [pasivní syntéza](@/glossary/pasivni-synteza.md) – předreflexivní vrstva.
+- **Sousední karty:** [EA-5.2.4 Apriorní saturace](@/kompendium/quick-reference/qr-ea-5-2-4.md) – příprava rozpadu; [EA-5.2.20 Apperceptivní rozklad](@/kompendium/quick-reference/qr-ea-5-2-20.md) – rozpad jednoty vědomí.
 
 ---
 

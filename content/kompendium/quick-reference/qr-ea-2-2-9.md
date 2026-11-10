@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.2.9 Boundary coercion"
-description = "Rychla referencni karta pro EA-2.2.9 (delegitimizace)."
+title = "Rychlá karta EA-2.2.9: Vynucování oborových hranic"
+description = "Vynucování oborových hranic v kostce: jak poznat mentora, který hranici oboru používá k udržení svěřence, a jak reagovat."
 weight = 30229
 
 [taxonomies]
@@ -16,33 +16,48 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.2.9 Boundary coercion
+# EA-2.2.9 Vynucování oborových hranic – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.2 Pedagogická koerce · **Plná stránka:** [EA-2.2.9 Vynucování oborových hranic](@/kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md)
 
-## Mechanismus
+## Co to je
 
-Aplikace techniky Boundary coercion ve specifickém kontextu vedoucí k delegitimizaci cíle.
+Mentor používá hranici oboru jako nástroj kontroly: zesměšňuje metody a literaturu jiných oborů, brání mezioborové spolupráci a odklon od „naší“ metody vykládá jako zradu. Vymezování hranic vědy, které Thomas F. Gieryn popsal jako *boundary-work*, je legitimní součástí vědy; vzorec popisuje jeho zneužití v jednom vztahu, kde hranice neslouží poznání, ale udržení svěřence.
 
-## Indikatory
+## Jak ji poznat
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](@/glossary/epistemicke-trauma.md), [c-ptsd](@/glossary/c-ptsd.md))
+- Sousední obory jsou veřejně zesměšňovány jako „měkké“, „ideologické“ nebo „naivní“.
+- Jediná metoda mentora je prohlášena za jedinou vědeckou.
+- Svěřenec necituje nic mimo úzký okruh metod.
+- Mezioborové žádosti a stáže svěřence nemají podporu.
+- Konflikt nastal po projevu mezioborového zájmu.
+- Svěřenec prožívá kontakt s jiným oborem jako nevěru a bojí se ztráty identity.
 
-## Neutralizace
+## První bezpečná reakce
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md))
+**Pro zasaženého:** čtěte a mluvte s lidmi ze sousedních oborů, najděte si konzultanta z jiné disciplíny a formulujte vlastní otázku nezávisle na metodě ([pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md), [kognitivní flexibilita](@/kompendium/self-defense-guides/8-cognitive-flexibility.md)).
 
-## Cross-linky
+**Pro odborníka:** rozlište, zda je mezioborový zájem zakázán, nebo jen odložen kvůli dokončení práce. Stud za „měkké“ otázky pojmenujte jako převzaté měřítko.
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## Kdy a jak eskalovat
+
+Eskalujte, když je svěřenci bráněno v přechodu nebo stáži sankcí, horším hodnocením či hrozbou ztráty financování: obraťte se na oborovou radu, žádejte druhého školitele z jiného oboru a využijte [ochranu mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md). Pokud vzorec nese celá oborová instituce, jde o [zachycení odborné společnosti](@/kompendium/quick-reference/qr-ea-2-4-10.md).
+
+## S čím ji nezaměnit
+
+- **Odborná hloubka:** rozumné doporučení soustředit se během disertace na jeden obor.
+- **Legitimní kritika metody:** věcná, založená na znalosti druhého přístupu.
+- **[Kuhnovo paradigma](@/glossary/kuhnova-revoluce.md):** přirozená soudržnost oboru, ne kontrola jednotlivce.
+- **[EA-2.2.2 Izolace svěřence](@/kompendium/quick-reference/qr-ea-2-2-2.md):** odřezává od lidí; vynucování hranic od myšlení jiných oborů.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.2.9 Vynucování oborových hranic](@/kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.2.9](@/kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
+- **Glosář:** [epistemická monokultura](@/glossary/epistemicka-monokultura.md) – výsledek jediné povolené metody; [epistemický monismus](@/glossary/epistemicky-monismus.md) – postoj, který ji ospravedlňuje.
+- **Sousední karty:** [EA-2.2.3 Zachycení směru kvalifikační práce](@/kompendium/quick-reference/qr-ea-2-2-3.md) – omezení tématu; [EA-2.4.9 Zachycení kurikula](@/kompendium/quick-reference/qr-ea-2-4-9.md) – hranice vynucená výukou.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

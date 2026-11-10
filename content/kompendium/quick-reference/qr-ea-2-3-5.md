@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.3.5 Pseudo-kontroverze"
-description = "Rychla referencni karta pro EA-2.3.5 (delegitimizace)."
+title = "Rychlá karta EA-2.3.5: Zesilování pseudokontroverze"
+description = "Zesilování pseudokontroverze v kostce: jak poznat mediálně vyrobený spor tam, kde odborně žádný není, a jak na něj reagovat."
 weight = 30235
 
 [taxonomies]
@@ -16,33 +16,48 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.3.5 Pseudo-kontroverze
+# EA-2.3.5 Zesilování pseudokontroverze – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.3 Mediální [delegitimizace](@/glossary/delegitimizace.md) · **Plná stránka:** [EA-2.3.5 Zesilování pseudokontroverze](@/kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md)
 
-## Mechanismus
+## Co to je
 
-Aplikace techniky Pseudo-kontroverze ve specifickém kontextu vedoucí k delegitimizaci cíle.
+Vytvoří se a mediálně zesílí dojem otevřeného sporu v otázce, kde mezi odborníky spor není nebo je okrajový, a odborník popisující stav poznání se ocitne v roli „jedné strany“. Je to zrcadlo pseudokonsenzu; doloženou podobou je „výroba pochybnosti“ tabákového průmyslu – interní dokument Brown & Williamson z roku 1969 formuloval, že „pochybnost je naším produktem“.
 
-## Indikatory
+## Jak ji poznat
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](@/glossary/epistemicke-trauma.md), [c-ptsd](@/glossary/c-ptsd.md))
+- Debata „pro a proti“ v otázce, kde přehledy literatury nesouhlas neuvádějí.
+- Opakovaně se objevují tytéž okrajové hlasy.
+- Nesouhlasné hlasy jsou financovány z nedeklarovaných zdrojů.
+- Titulky mluví o „sporu vědců“ bez uvedení poměru názorů.
+- Asymetrie zesílení na sítích.
+- Odborník řeší dilema účasti: neúčast vypadá jako útěk, účast legitimizuje rámec.
 
-## Neutralizace
+## První bezpečná reakce
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md))
+**Pro zasaženého:** komunikujte poměr – kolik studií, kolik institucí, jak jistý je závěr; odmítněte formát „jeden proti jednomu“ a navrhněte formát „stav poznání a otevřené otázky“. Vysvětlujte předem, jak se pochybnost vyrábí ([hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md), [triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)).
 
-## Cross-linky
+**Pro odborníka:** pochybnost o vlastní komunikaci („nevysvětluji to špatně?“) přerámujte: nejde o selhání výkladu, ale o rámec. Sledujte [asymetrii amplifikace](@/kompendium/detection-signatures/19-network-amplification-asymmetry.md).
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## Kdy a jak eskalovat
+
+Eskalujte, když pseudokontroverze ovlivňuje rozhodnutí o veřejném zdraví či bezpečí nebo když skrývá nedeklarované financování: obraťte se na odborné společnosti s žádostí o veřejné stanovisko, na redakci s žádostí o uvedení poměru názorů a financování mluvčích; v instituci uplatněte [politiku střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md).
+
+## S čím ji nezaměnit
+
+- **Skutečná odborná kontroverze:** spor existuje v recenzované literatuře.
+- **Menšinový názor s oporou:** prochází odbornou kontrolou, ne jen mediálním prostorem.
+- **[EA-1.2.2 Falešná ekvivalence](@/kompendium/quick-reference/qr-ea-1-2-2.md):** argumentační jádro, které pseudokontroverze mediálně zesiluje.
+- **[EA-2.5.5 Internalizace falešné vyváženosti](@/kompendium/quick-reference/qr-ea-2-5-5.md):** vnitřní důsledek u jednotlivce.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.3.5 Zesilování pseudokontroverze](@/kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.3.5](@/kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře delegitimizace.
+- **Glosář:** [pseudověda](@/glossary/pseudoscience.md) – typický zdroj okrajových hlasů; [propaganda](@/glossary/propaganda.md) – širší rámec.
+- **Sousední karty:** [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/quick-reference/qr-ea-2-1-9.md) – opačný pohyb; [EA-1.2.3 Iluzorní komplexita](@/kompendium/quick-reference/qr-ea-1-2-3.md) – nafouknutá nejistota.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

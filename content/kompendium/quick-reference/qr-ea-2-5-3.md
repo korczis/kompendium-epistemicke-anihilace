@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.5.3 Self-doubt cultivation"
-description = "Rychla referencni karta pro EA-2.5.3 (delegitimizace)."
+title = "Rychlá karta EA-2.5.3: Pěstování sebepochybnosti"
+description = "Pěstování sebepochybnosti v kostce: jak poznat drobné opakované zpochybňování vnímání, paměti a úsudku, které vede k nedůvěře v sebe."
 weight = 30253
 
 [taxonomies]
@@ -16,33 +16,48 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.5.3 Self-doubt cultivation
+# EA-2.5.3 Pěstování sebepochybnosti – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.5 Sebedelegitimizace · **Plná stránka:** [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md)
 
-## Mechanismus
+## Co to je
 
-Aplikace techniky Self-doubt cultivation ve specifickém kontextu vedoucí k delegitimizaci cíle.
+Opakované, jednotlivě drobné zásahy do vnímání, paměti a úsudku – opravy, ironie, protichůdné pokyny, popírání toho, co se stalo – vedou k soustavné nedůvěře v sebe. Člověk přestane spoléhat na to, co viděl a co si pamatuje, a řídí se vnějšími hlasy; vzorec je blízký [gaslightingu](@/glossary/gaslighting.md).
 
-## Indikatory
+## Jak ji poznat
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](@/glossary/epistemicke-trauma.md), [c-ptsd](@/glossary/c-ptsd.md))
+- Kompetentní člověk se ve všem ujišťuje u jedné osoby.
+- Časté „asi jsem to špatně pochopil“.
+- Rozpor mezi dokumentovanými fakty a tím, jak je člověk líčí.
+- Okolí ho popisuje jako „labilního“ bez konkrétních událostí.
+- Prudký nárůst pochybnosti v novém vztahu nebo na novém pracovišti.
+- Strach rozhodnout bez vnějšího potvrzení.
 
-## Neutralizace
+## První bezpečná reakce
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md))
+**Pro zasaženého:** zapisujte si události a dohody hned, udržujte vztahy s lidmi mimo prostředí, kteří mohou vnímání potvrdit, a rozlišujte otázky „mýlím se?“ a „říká mi někdo soustavně, že se mýlím?“ ([paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md), [vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md)).
 
-## Cross-linky
+**Pro odborníka a blízké:** validujte vnímání, ne jen pocity („to, co popisujete, se opravdu stalo“), a nepřebírejte roli dalšího hlasu, který rozhoduje za člověka. Sledujte [gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md).
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-5-3-self-doubt-cultivation/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## Kdy a jak eskalovat
+
+Eskalujte, když sebepochybnost vzniká v partnerském či rodinném vztahu s kontrolou, izolací nebo násilím: bezpečnostní plán, právní rámec [coercive control](@/kompendium/forensic-legal/12-coercive-control-law.md), dokumentace incidentů; klinicky [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a [rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md).
+
+## S čím ji nezaměnit
+
+- **Zdravá pochybnost:** vede k ověření a rozhodnutí, ne k paralýze.
+- **Obsedantně-kompulzivní porucha:** pochybnosti a ověřování bez vnějšího zdroje zpochybnění.
+- **Generalizovaná úzkost:** obavy napříč oblastmi bez konkrétního vztahu.
+- **Kognitivní porucha:** skutečné potíže s pamětí vyžadují vyšetření.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.5.3](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
+- **Glosář:** [coercive control](@/glossary/coercive-control.md) – vztahový rámec.
+- **Sousední karty:** [EA-2.5.8 Rekurzivní spirála pochybnosti](@/kompendium/quick-reference/qr-ea-2-5-8.md) – další stupeň; [EA-5.1.12 Kauzální inverze](@/kompendium/quick-reference/qr-ea-5-1-12.md) – převrácená vina.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-5.1.5 Logicka diskontinuita"
-description = "Rychla referencni karta pro ultramarine techniku Logicka diskontinuita (epistemicka singularita)."
+title = "Rychlá karta EA-5.1.5: Logická diskontinuita"
+description = "Logická diskontinuita v kostce: jak poznat neschopnost udržet logický řetězec přes víc kroků, kdy každý krok zvlášť působí platně."
 weight = 10005
 
 [taxonomies]
@@ -16,60 +16,49 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.1.5 Logická diskontinuita
+# EA-5.1.5 Logická diskontinuita – karta v kostce
 
-> WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
+**Oblast:** [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), skupina 5.1 · **Plná stránka:** [EA-5.1.5 Logická diskontinuita](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md)
 
-**Doména**: [Epistemická singularita](@/glossary/epistemicka-singularita.md) — destrukce subjektovy schopnosti udržet logickou koherenci napříč diskurzem.
+> Přístupová úroveň L3. Karta slouží k rozpoznání a ochraně; popis je strukturní, ne návod.
 
-## Definice
+## Co to je
 
-**Logická diskontinuita** je technika opakovaného **přerušování logických řetězců** subjektu nesouvislými, nesouměřitelnými nebo retroaktivně přerámovanými výroky, dokud subjekt přestane prožívat logickou koherenci jako přístupný cíl. Manipulátor systematicky vkládá *non sequitur*, retroaktivně mění premisy, vyměňuje úrovně diskurzu (deskriptivní → normativní → estetický) bez signalizace a používá *informal moves* jako „ale to je úplně jiné“, aniž by ozřejmil rozdíl. Subjekt v terminálním stadiu přestává argumentovat — logika přestala být použitelným nástrojem orientace v jeho doméně. Strukturálně blízké *gish gallop* a Frankfurtově *bullshit*, ale specificky cílené na logický aparát.
+Člověk ztrácí schopnost udržet logický řetězec přes více kroků: každý dílčí krok přijme jako platný, ale z A → B → C → D nedojde k závěru A → D ani k jeho negaci. Nejde o iracionalitu – v každém okamžiku logicky uvažuje –, selhává kompoziční krok, který dílčí úsudky spojuje v celek.
 
-## Operační modus (5 kroků)
+## Jak ji poznat
 
-1. **Akceptace premisy** — manipulátor v debatě převzata subjektovu premisu jako sdílenou.
-2. **Skok napříč úrovněmi** — odpověď je formulována na úrovni, která **není navazující** (deskriptivní otázka → normativní odpověď, faktická otázka → emocionální výtka).
-3. **Retroaktivní revize premis** — když subjekt poukáže na nesouvislost, manipulátor „ale jsem nemyslel/a, že…“ mění premisu zpětně.
-4. **Multiplikace os debaty** — místo jedné koherentní disputace pět paralelních témat, každá s vlastní (ne)logikou.
-5. **Vyhasnutí logické iniciativy** — subjekt přestává argumentovat, přijímá závěr „není to o logice“.
+- Přijme A → B i B → C, ale bez vedení nedojde k A → C.
+- V krátkém čase přijme A i non-A, aniž by rozpor vnímal.
+- Na konfrontaci s rozporem reaguje únikem („logika to neuchopí“), ne revizí.
+- Dává přednost krátkým emočně silným výrokům před delšími argumenty.
+- Umí zopakovat dlouhý argument autority, ale ne ho rozvinout.
+- Popisuje „vhled bez retence“ a lokální jistotu při celkovém pocitu, že je něco špatně.
 
-## Fenomenologické znaky
+## První bezpečná reakce
 
-| Znak | Popis |
-|------|-------|
-| **Argumentační vyhoření** | "Už mě nebaví o tom mluvit, vždycky to skončí stejně" |
-| **Pocit ztracenosti v debatě** | Neschopnost rekonstruovat, kde se debata odchýlila |
-| **Retroaktivní zmatek** | Vzpomínka na vlastní výrok není v souladu s manipulátorovou rekonstrukcí |
-| **Logická abstinence** | Subjekt přestává v dané doméně formulovat argumenty |
+**Pro zasaženého:** dlouhé argumenty pište, ne držte v hlavě; zápis odstraní zátěž pracovní paměti a umožní zkontrolovat spojovací krok. Pravidelně se vracejte k formálním úlohám (výpočet, sylogismus, programování) a po každém tvrzení se ptejte, co z něj o dva kroky dál plyne ([hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)).
 
-## Detekční markery
+**Pro odborníka:** ověřte spánek, výživu a látky – deprivace a intoxikace dávají podobný obraz. Pracujte s krátkými, písemně zachycenými řetězci.
 
-| Marker | Indikuje |
-|--------|----------|
-| V transkriptu debaty se **úroveň diskurzu** mění bez signalizace | Aktivní logickou diskontinuitu |
-| Manipulátor **revaluje premisy** retroaktivně | Logickou inverzi |
-| Subjekt přechází z argumentu na **emocionální stížnost** | Vyhasnutí logické iniciativy |
-| **Délka koherentní debaty** klesá v čase | Strukturální poškození argumentační kapacity |
+## Kdy a jak eskalovat
 
-## Neutralizace
+Eskalujte při podezření na neurologickou příčinu, delirium nebo psychózu (náhlý začátek, kolísání vědomí, halucinace): lékařské vyšetření má přednost ([medicínská komorbidita](@/kompendium/emergency-protocols/25-medical-comorbidity-EA.md), [EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)). V kontextu extrémních pobytů a skupin postupujte podle [diagnostických indikátorů](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md).
 
-- **Záznam a strukturální analýza** — debata zaznamenána a *post hoc* mapována jako graf, kde uzly jsou výroky a hrany logické vztahy; diskontinuity se okamžitě odhalí.
-- **Pravidla angažmá** — explicitní dohoda o úrovni diskurzu před každou diskuzí; změna úrovně musí být explicitně signalizovaná.
-- **Externí logický rozhodčí** — třetí strana s autoritou vyhodnocovat logickou koherenci výroků.
+## S čím ji nezaměnit
 
-## Klinický kontext
+- **Únava a spánková deprivace:** přechodné, po odpočinku odezní.
+- **Kognitivní porucha (demence, poranění mozku):** progredující nebo náhlé, s dalšími neurologickými znaky.
+- **Nevzdělanost ve formální logice:** člověk umí řetězec složit, jen nezná terminologii.
+- **[EA-1.3.3 Tematická diverze](@/kompendium/quick-reference/qr-ea-1-3-3.md):** přerušení řetězce zvenčí, ne ztráta schopnosti ho skládat.
 
-Manifestuje se nejvýrazněji v rodinných systémech s **gaslightingem**, ve vysoce konfliktních pracovních prostředích (toxic workplace), v intelektuálních debatách s narcistickou strukturou a ve veřejné komunikaci politické manipulace. Diferenciálně se odlišuje od *legitimní změny perspektivy* (která je explicitně signalizovaná a argumentačně motivovaná) a od *kreativního rozšíření tématu* (které logiku původní debaty respektuje). Léčba: explicitní trénink **strukturální argumentace** (Toulmin model, formální logika).
+**Zdroj:** karta shrnuje plnou stránku [EA-5.1.5 Logická diskontinuita](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
 
-## Cross-linky
+## Související
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
-- **Detailní článek**: [EA-5.1.5 Logická diskontinuita](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md)
-- **Sourozenecké techniky**: [EA-5.1.4 Sémantická imploze](@/kompendium/quick-reference/qr-ea-5-1-4.md), [EA-5.1.16 Inferenční paralýza](@/kompendium/quick-reference/qr-ea-5-1-16.md), [EA-5.1.17 Tautologická imploze](@/kompendium/quick-reference/qr-ea-5-1-17.md)
-- **Glossary**: [Gaslighting](@/glossary/gaslighting.md), [Gish gallop](@/glossary/gish-gallop.md), [Logická koherence](@/glossary/logicka-koherence.md), [Toulmin model](@/glossary/toulmin-model.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Argumentační rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Platforma**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine reasoning trace" /> }}, [NABLA Infinity logické vrstvy](@/glossary/nabla-infinity.md)
+- **Technika a kapitola:** [plná stránka EA-5.1.5](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md) – mechanismus, případy a neutralizace; [kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) – [epistemická singularita](@/glossary/epistemicka-singularita.md).
+- **Glosář:** [logická koherence](@/glossary/logicka-koherence.md) – co diskontinuita rozkládá; [inference](@/glossary/inference.md) – základní operace.
+- **Sousední karty:** [EA-5.1.4 Sémantická imploze](@/kompendium/quick-reference/qr-ea-5-1-4.md) – rozpad jazyka; [EA-5.1.16 Inferenční paralýza](@/kompendium/quick-reference/qr-ea-5-1-16.md) – zablokované usuzování.
 
 ---
 

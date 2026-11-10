@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-1.2.1 Falešné dilema"
-description = "Rychlá referenční karta — Artificiální polarizace problému na binární volbu."
+title = "Rychlá karta EA-1.2.1: Falešné dilema"
+description = "Falešné dilema v kostce: jak poznat složitý problém zúžený na volbu mezi dvěma extrémy, první reakce, eskalace a záměny."
 weight = 121
 
 [taxonomies]
@@ -14,39 +14,49 @@ ea_code = "EA-1.2.1"
 toc = false
 +++
 
-# QR Card — EA-1.2.1 Falešné dilema
+# EA-1.2.1 Falešné dilema – karta v kostce
 
-**Definice (1 věta)**: Artificiální polarizace problému na binární volbu.
+**Oblast:** [3.1 Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md), podskupina 1.2 Narušení evaluace a integrace · **Plná stránka:** [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)
 
-## Operační modus (3 kroky)
+## Co to je
 
-1. Redukce kontinuálního/multidimenzionálního problému na „buď A, nebo B“ s vynechanými alternativami
-2. Asymetrické rámování — varianta A prezentována jako rozumná, varianta B jako absurdní; třetí možnosti jsou cenzurovány jako „nereálné“
-3. Vynucení rychlé volby + sociální tlak na „rozhodnout se“, který blokuje refrakci dilematu
+Složitý problém se spojitou škálou možných pozic je předložen jako volba mezi dvěma extrémy a mezilehlé či zcela jiné pozice jsou rétoricky vyřazeny jako „nemyšlení“. Člověk cítí napětí, že musí zvolit A, nebo B, a nevidí, že C, D a další možnosti byly z prostoru úvahy vyřazeny dřív, než o nich mohl uvažovat.
 
-## Detekční markery (3 nejvýraznější)
+## Jak ji poznat
 
-- Konverzace obsahuje formulace „buď… nebo…“, „jediná alternativa je…“, „nezbývá než…“
-- Vyloučené varianty jsou systematicky odmítány bez argumentu („to není realistické“, „to nepřichází v úvahu“)
-- Subjekt v retrospektivě formuluje „musel jsem volit mezi dvěma zly“ — typický signál falešného dilematu
+- Problém je od začátku podán binárně a nikdo nevysvětlí proč.
+- Alternativy mimo A a B se nevyjmenují; na dotaz po nich přijde zesměšnění, ne odpověď.
+- Mezilehlé pozice se aktivně zpochybňují („kdo není s námi, je proti nám“).
+- Binární volba přichází spolu s časovým tlakem.
+- Zasažený nedokáže rekonstruovat jinou než polární pozici a volí „asi B, i když mám výhrady“.
+- Přetrvává pocit, že něco chybí, bez schopnosti říct co.
 
-## Neutralizační strategie (3 nejúčinnější)
+## První bezpečná reakce
 
-- Brainstorming „alespoň pět možností“ před volbou; pouze pak zúžení na rozhodnutí
-- Test trojúhelníku — pro každé „A vs. B“ hledat C, které není ani jedno (kompromis, odložení, redefinice problému)
-- Strukturální audit volby — kdo definoval set možností, jaký má z výsledku zájem, kdo by definoval jiný set
+**Pro zasaženého:** pojmenujte rámec: „To je binární volba. Jaké další pozice existují?“ Vědomě sestavte aspoň tři alternativy (zmírněné A, zmírněné B, pozici mimo osu A–B) a rozhodnutí odložte, dokud je neposoudíte ([kognitivní flexibilita](@/kompendium/self-defense-guides/8-cognitive-flexibility.md)).
 
-## Příklad
+**Pro odborníka:** sledujte [posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md) a [vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md). Klientovu nerozhodnost nečtěte jako slabost: odmítnutí obou extrémů je často správná intuice.
 
-Manažer postaví tým: „Buď přijmeme tuto restrukturalizaci, nebo zkrachujeme do tří měsíců.“ Tým hlasuje pro restrukturalizaci. Reálně existovaly tři další varianty (refinancování, prodej divize, snížení nákladů bez propouštění), které manažer odmítl projednat.
+## Kdy a jak eskalovat
 
-## Cross-linky
+Eskalujte, když se dilema opakuje jako nástroj kontroly ve vztahu nebo skupině („buď skupina, nebo rodina“) a vede k izolaci; pak jde spíš o [coercive control](@/glossary/coercive-control.md) a vzorec [double bind](@/glossary/double-bind.md) a postupuje se podle [diagnostických indikátorů](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md). Ve sporu instituce pomáhá nezávislý facilitátor a [struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md) s povinným zvážením variant.
 
-- **Detailní článek**: [/kompendium/techniques/ea-1-2-1-Falešné-dilema](@/kompendium/techniques/_index.md)
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
-- **Glossary**: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Platformové refs**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}, [NABLA Infinity](@/glossary/nabla-infinity.md)
+## S čím ji nezaměnit
+
+- **Skutečné dilema:** někdy existují opravdu jen dvě možnosti; pak je lze zdůvodnit a alternativy prokazatelně nefungují.
+- **Zjednodušení ve výuce:** dvojice pozic jako didaktický začátek, který se pak rozšíří.
+- **[Double bind](@/glossary/double-bind.md):** obě možnosti jsou trestané; ve falešném dilematu je jedna z nich vnucovaná jako správná.
+- **[EA-1.2.2 Falešná ekvivalence](@/kompendium/quick-reference/qr-ea-1-2-2.md):** dvě pozice nejsou vnuceny jako jediné, ale jako stejně silné.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – mechanismus, kontexty a neutralizace; [kapitola 3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md) – akademické techniky.
+- **Obrana:** [pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md) – návyk vidět víc než dvě pozice.
+- **Glosář:** [kognitivní bias](@/glossary/kognitivni-bias.md) – proč binární rámec funguje.
+- **Sousední karty:** [EA-1.2.2 Falešná ekvivalence](@/kompendium/quick-reference/qr-ea-1-2-2.md) – častá kombinace; [EA-1.1.2 Informační přetížení](@/kompendium/quick-reference/qr-ea-1-1-2.md) – přetížený člověk sáhne po binární volbě; [EA-1.4.2 Latentní emocionální modulace](@/kompendium/quick-reference/qr-ea-1-4-2.md) – emoční tlak k rychlé volbě.
 
 ---
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

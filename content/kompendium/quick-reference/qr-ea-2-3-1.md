@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.3.1 Clip takeout"
-description = "Rychla referencni karta pro EA-2.3.1 (delegitimizace)."
+title = "Rychlá karta EA-2.3.1: Vytržený klip"
+description = "Vytržený klip v kostce: jak poznat krátký výřez záznamu, který šířený bez celku připisuje mluvčímu nevyslovený smysl, a jak reagovat."
 weight = 30231
 
 [taxonomies]
@@ -16,39 +16,48 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.3.1 Clip takeout
+# EA-2.3.1 Vytržený klip – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.3 Mediální [delegitimizace](@/glossary/delegitimizace.md) · **Plná stránka:** [EA-2.3.1 Vytržený klip](@/kompendium/techniques/ea-2-3-1-clip-takeout.md)
 
-## Operační modus (3 kroky)
+## Co to je
 
-1. Vyříznutí krátkého úseku z delšího projevu / interview / přednášky tak, aby vedlejší klauzule, hypotéza nebo karikatura působily jako finální pozice
-2. Distribuce klipu odděleně od kontextu — sociální média, zprávy, citace; originál se ztrácí
-3. Postupné nahrazení reálné pozice subjektu její karikaturou — i sympatizéři začínají hájit pozici, kterou subjekt nikdy nezastával
+Krátký výřez z přednášky, rozhovoru nebo jednání se šíří odděleně od celku a v novém prostředí nese smysl, který mluvčí nevyslovil. Slova i obraz jsou pravé; mění se rámec – co předcházelo, co následovalo, komu byla slova určena. Proto je klip tak přesvědčivý a bývá vstupem do širších kampaní.
 
-## Detekční markery (3 nejvýraznější)
+## Jak ji poznat
 
-- Citovaná věta zní „absurdně“ — to je často signál, že byla vybrána právě proto
-- Před a po citované větě v originálu jsou jiné formulace, které ji rušily nebo modifikovaly
-- Subjekt veřejně opakuje „to není to, co jsem řekl“; klip běží dál, jeho korekce nedostává trakci
+- Klip trvá několik sekund a začíná nebo končí uprostřed myšlenky.
+- Chybí odkaz na původní záznam.
+- Popisek interpretuje víc, než klip ukazuje.
+- Klip se šíří hlavně v kanálech nepřátelských k mluvčímu.
+- Výrok odporuje tomu, co mluvčí dlouhodobě veřejně zastává (často jde o citaci oponenta, ironii nebo hypotézu).
+- Postižený popisuje: „Řekl jsem to, ale neřekl jsem tohle.“
 
-## Neutralizační strategie (3 nejúčinnější)
+## První bezpečná reakce
 
-- Mandátní link na originál (timestamp, full transcript) u každé citace; bez kontextu = nepublikovat
-- Veřejná publikace plné verze + extrahovaného klipu vedle sebe; přeruší dynamiku decontextualizace
-- Strukturální zákaz „krátkých soundbitů“ v interních diskusích — pravidlo „celá věta nebo nic“
+**Pro zasaženého:** rychle zveřejněte celý záznam s časovým odkazem na sporné místo a odpovězte jednou, na jednom místě; neodpovídejte na každou reakci. Uchovávejte úplné záznamy svých vystoupení ([správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md), [protokoly nahrávání](@/kompendium/forensic-legal/36-recording-protocols.md)).
 
-## Příklad
+**Pro odborníka:** u diváka i instituce trvejte na zhlédnutí celého záznamu dřív, než padne soud. Zasaženému pomůže omezit čtení reakcí; stud je běžný i tehdy, když ví, že klip lže.
 
-Vědec v hodinové debatě v rámci úvahy nadhodí: „Hypoteticky by se dalo argumentovat, že X — i když to samozřejmě odmítám, protože Y.“ Z debaty se na sociálních sítích šíří 4-sekundový klip „by se dalo argumentovat, že X“. Po týdnu je veřejně známo, že „vědec tvrdí X“. Originální debata má 200 zhlédnutí, klip 2 milióny.
+## Kdy a jak eskalovat
 
-## Cross-linky
+Eskalujte, když klip vede k výhrůžkám, ztrátě místa nebo kaskádě odstraňování z platforem: zajistěte důkazy ([elektronické důkazy](@/kompendium/forensic-legal/35-electronic-evidence-EA.md)), instituce má postupovat podle [reakce na incident](@/kompendium/organizational-defense/31-incident-response-EA.md) a [PR obrany narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md) a nerozhodovat o sankci před zhlédnutím celku. Nepravdivé tvrzení v popisku může být pomluvou ([pomluva v kontextu EA](@/kompendium/forensic-legal/14-defamation-EA.md)).
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-3-1-clip-takeout/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## S čím ji nezaměnit
+
+- **Legitimní výňatek:** věrně odráží smysl celku a odkazuje na zdroj.
+- **Úprava záznamu (cheapfake):** zpomalení, sestřih nebo změna pořadí slov už je manipulace záznamu.
+- **[EA-2.3.7 Personální deepfake](@/kompendium/quick-reference/qr-ea-2-3-7.md):** syntetický záznam slov, která nebyla řečena.
+- **[EA-2.3.3 Těžba citátů](@/kompendium/quick-reference/qr-ea-2-3-3.md):** textová obdoba.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.3.1 Vytržený klip](@/kompendium/techniques/ea-2-3-1-clip-takeout.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.3.1](@/kompendium/techniques/ea-2-3-1-clip-takeout.md) – mechanismus, ověření a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře delegitimizace.
+- **Detekce:** [posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md) – popisek mění výklad.
+- **Sousední karty:** [EA-2.3.2 Kolaps kontextu](@/kompendium/quick-reference/qr-ea-2-3-2.md) – mění publikum, ne výřez; [EA-2.3.4 Koordinace davu](@/kompendium/quick-reference/qr-ea-2-3-4.md) – co na klip obvykle naváže; [EA-2.3.10 Virální zkreslení výroku](@/kompendium/quick-reference/qr-ea-2-3-10.md) – šíření zkreslené verze.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

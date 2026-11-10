@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.4.6 Peer review capture"
-description = "Rychla referencni karta pro EA-2.4.6 (delegitimizace)."
+title = "Rychlá karta EA-2.4.6: Zachycení recenzního řízení"
+description = "Zachycení recenzního řízení v kostce: jak poznat recenze ovládnuté okruhem loajálních posuzovatelů, které přestaly být nezávislou kontrolou."
 weight = 30246
 
 [taxonomies]
@@ -16,33 +16,48 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.4.6 Peer review capture
+# EA-2.4.6 Zachycení recenzního řízení – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.4 Institucionální zachycení · **Plná stránka:** [EA-2.4.6 Zachycení recenzního řízení](@/kompendium/techniques/ea-2-4-6-peer-review-capture.md)
 
-## Mechanismus
+## Co to je
 
-Aplikace techniky Peer review capture ve specifickém kontextu vedoucí k delegitimizaci cíle.
+Legitimita recenzního řízení (*peer review*) stojí na tom, že recenzenti jsou kompetentní, nezávislí a různí. Při zachycení se okruh recenzentů zúží na loajální síť a výběr se podřídí zájmu editora či frakce: pro „své“ se řízení stane formalitou, pro ostatní překážkou.
 
-## Indikatory
+## Jak ji poznat
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](@/glossary/epistemicke-trauma.md), [c-ptsd](@/glossary/c-ptsd.md))
+- U jedné skupiny autorů se opakuje malý okruh recenzentů.
+- Vysoký podíl recenzentů navržených samotnými autory.
+- Velké rozdíly v délce a přísnosti řízení podle autorů.
+- Vzájemné recenzování a citování v uzavřené skupině ([cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md)).
+- Odvolání vyřizuje tentýž editor.
+- Pozdější hromadná stažení článků pro porušení recenzního procesu.
 
-## Neutralizace
+## První bezpečná reakce
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md))
+**Pro autora:** zveřejňujte preprinty, žádejte vyloučení recenzentů se střetem zájmů, archivujte posudky a publikujte i v kanálech s jinou recenzní komunitou ([paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md), [forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md)).
 
-## Cross-linky
+**Pro odborníka a editora:** nekonzistence recenzí je známá vlastnost systému (Peters a Ceci 1982 ukázali, že již publikované články byly po opětovném podání pod jinými jmény z velké části zamítnuty); zachycení poznáte až podle soustavné asymetrie a vazeb.
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-4-6-peer-review-capture/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## Kdy a jak eskalovat
+
+Eskalujte při doložitelném vzorci, fiktivních recenzentech nebo zneužití důvěrnosti rukopisu: obraťte se na vydavatele a etický orgán časopisu či agentury, žádejte nezávislé odvolání a audit metadat recenzí; v instituci [politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md) a [sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md).
+
+## S čím ji nezaměnit
+
+- **Běžná nedokonalost recenzí:** systémová slabina bez úmyslu.
+- **Malý obor:** recenzenti se opakují přirozeně; rozhodují pojistky proti střetu zájmů.
+- **Konzervativismus recenzentů:** odpor k novým myšlenkám bez cílené kontroly.
+- **[EA-2.1.4 Publikační blokace](@/kompendium/quick-reference/qr-ea-2-1-4.md):** dopad na jednotlivého autora.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.4.6 Zachycení recenzního řízení](@/kompendium/techniques/ea-2-4-6-peer-review-capture.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.4.6](@/kompendium/techniques/ea-2-4-6-peer-review-capture.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
+- **Glosář:** [replikační krize](@/glossary/replication-crisis.md) – co se stane, když kontrola selže.
+- **Sousední karty:** [EA-2.4.8 Zachycení časopisu](@/kompendium/quick-reference/qr-ea-2-4-8.md) – institucionální rámec; [EA-2.1.5 Potlačování citací](@/kompendium/quick-reference/qr-ea-2-1-5.md) – citační kruh.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

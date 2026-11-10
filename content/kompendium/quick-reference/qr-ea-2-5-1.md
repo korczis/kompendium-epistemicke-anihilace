@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.5.1 Pseudo-pokora"
-description = "Rychla referencni karta pro EA-2.5.1 (delegitimizace)."
+title = "Rychlá karta EA-2.5.1: Internalizace pseudopokory"
+description = "Internalizace pseudopokory v kostce: jak poznat převzatý narativ o vlastní nedostatečnosti vydávaný za pokoru, a jak ho rozplést."
 weight = 30251
 
 [taxonomies]
@@ -16,39 +16,48 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.5.1 Pseudo-pokora
+# EA-2.5.1 Internalizace pseudopokory – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.5 Sebedelegitimizace · **Plná stránka:** [EA-2.5.1 Internalizace pseudopokory](@/kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md)
 
-## Operační modus (3 kroky)
+## Co to je
 
-1. Subjekt po dlouhodobé delegitimizaci internalizuje narativ o vlastní nedostatečnosti — „skutečně, asi nemám právo to říkat“
-2. Pseudo-pokora vystupuje jako morální ctnost („nejsem tak chytrý jako oni“), ale strukturálně je to autosabotáž
-3. Komunita pokoru oceňuje, čímž ji posiluje; subjekt si „kupuje“ sociální legitimitu cenou ztráty epistemické agentury
+Podskupina 2.5 popisuje stavy, v nichž [delegitimizace](@/glossary/delegitimizace.md) přechází dovnitř: člověk začne vůči sobě uplatňovat logiku vnějších technik. Při internalizaci pseudopokory převezme narativ o vlastní nedostatečnosti („nejsem dost kvalifikovaný“, „kdo jsem, abych odporoval“), vydává ho za pokoru a předává ho dál.
 
-## Detekční markery (3 nejvýraznější)
+## Jak ji poznat
 
-- Subjekt opakovaně předem znevažuje vlastní příspěvky („toto je možná hloupá otázka…“, „asi to víte líp…“)
-- Po jasném vlastním uspěchu připisuje zásluhy ostatním („měla jsem štěstí“, „kolegové mě nesli“)
-- Akutní úzkost při situaci, kdy musí prezentovat sebe jako autoritu (přednáška, oponentura) — i při plné kompetenci
+- Člověk s doloženou odborností se odmítá vyjádřit „z neznalosti“.
+- „Nejsem dost…“ zaznívá i v oblastech jeho kompetence.
+- Nesouhlas vyjádří až v soukromí a omluvně.
+- Mladším a podřízeným opakuje „neměli bychom do toho mluvit“.
+- Pochybnost narostla po pobytu v hierarchickém prostředí.
+- Plošnost: postoj se nemění podle důkazů.
 
-## Neutralizační strategie (3 nejúčinnější)
+## První bezpečná reakce
 
-- Strukturovaný self-assessment založený na datech (publikace, citace, výsledky) místo dojmů; konfrontace s realitou
-- Mentor / coach mimo původní hierarchii, který explicitně rozlišuje „skutečnou skromnost“ a „internalized delegitimization“
-- Cvičení „neshrnujte se“ — tréninková situace, ve které je zakázáno snižovat vlastní příspěvek po dobu definovaného období
+**Pro zasaženého:** rozlišujte otázky „vím to?“ a „smím to říct?“; zapisujte si situace, kdy byl váš úsudek správný, a trénujte vyslovení nesouhlasu v bezpečném prostředí ([metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md), [asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md), [sebesoucit](@/kompendium/self-defense-guides/16-self-compassion.md)).
 
-## Příklad
+**Pro odborníka:** zkoumejte původ narativu – kdo ho kdysi vyslovil – a odlište ho od skutečné pokory. Organizace má aktivně žádat názor těch, kdo mlčí ([anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md)).
 
-Postdoktorandka po pěti letech v laboratoři, kde její nápady byly pravidelně přejímány bez kreditu, na konferenci uvádí svou prezentaci slovy „tohle je opravdu malá observace, asi to už dávno víte“. Publikum to bere doslovně. Reálně jde o originální nález, který za rok publikuje jiná skupina jako svůj.
+## Kdy a jak eskalovat
 
-## Cross-linky
+Eskalujte, když se k narativu přidává deprese (anhedonie, únava, poruchy spánku) nebo když pseudopokora brání upozornit na bezpečnostní či etický problém: klinicky podle [diagnostických indikátorů](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), v organizaci přes [psychologickou bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md) a [mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md).
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## S čím ji nezaměnit
+
+- **[Epistemická pokora](@/glossary/epistemicka-pokora.md):** přiměřená důkazům, selektivní a otevřená změně podle argumentů.
+- **Sociální úzkost:** strach z hodnocení bez nutného přesvědčení, že vlastní úsudek nemá hodnotu.
+- **Deprese:** globální negativní sebehodnocení s dalšími příznaky.
+- **[EA-2.5.2 Zesilování syndromu podvodníka](@/kompendium/quick-reference/qr-ea-2-5-2.md):** pochybnost o vlastní kompetenci, nikoli o právu mluvit.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.5.1 Internalizace pseudopokory](@/kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.5.1](@/kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře delegitimizace.
+- **Glosář:** [internalizovaný pachatel](@/glossary/internalizovany-pachatel.md) – převzatý vnější hlas.
+- **Sousední karty:** [EA-2.1.3 Útok na kvalifikaci](@/kompendium/quick-reference/qr-ea-2-1-3.md) – vnější zdroj; [EA-2.5.7 Preventivní sebecenzura](@/kompendium/quick-reference/qr-ea-2-5-7.md) – další stupeň.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

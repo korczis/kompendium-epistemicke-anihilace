@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.4.7 Conference capture"
-description = "Rychla referencni karta pro EA-2.4.7 (delegitimizace)."
+title = "Rychlá karta EA-2.4.7: Zachycení konference"
+description = "Zachycení konference v kostce: jak poznat programové výbory a výběr řečníků ovládnuté jednou skupinou, která určuje, co obor slyší."
 weight = 30247
 
 [taxonomies]
@@ -16,33 +16,48 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.4.7 Conference capture
+# EA-2.4.7 Zachycení konference – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.4 Institucionální zachycení · **Plná stránka:** [EA-2.4.7 Zachycení konference](@/kompendium/techniques/ea-2-4-7-conference-capture.md)
 
-## Mechanismus
+## Co to je
 
-Aplikace techniky Conference capture ve specifickém kontextu vedoucí k delegitimizaci cíle.
+Jedna skupina ovládne programový výbor, výběr hlavních řečníků, složení panelů, ceny a formát hlavních konferencí oboru a jejich prostřednictvím určuje, co obor slyší a koho vidí. Konference rozhoduje o spolupracích, „horkých“ tématech i pracovních nabídkách, a proto zachycení formuje [epistemickou komunitu](@/glossary/epistemicka-komunita.md) oboru.
 
-## Indikatory
+## Jak ji poznat
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](@/glossary/epistemicke-trauma.md), [c-ptsd](@/glossary/c-ptsd.md))
+- Titíž lidé v programových výborech řadu ročníků.
+- Plenární řečníci z jedné sítě nebo instituce.
+- Panely bez skutečného protinázoru, nesouhlasný hlas v roli „protistrany“.
+- Určité směry opakovaně v okrajových sekcích.
+- Ceny převážně pro spolupracovníky organizátorů.
+- Nesouhlasné skupiny zakládají paralelní konference.
 
-## Neutralizace
+## První bezpečná reakce
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md))
+**Pro výzkumníka:** budujte sítě i mimo hlavní konferenci, navrhujte vlastní sekce a panely a účastněte se voleb v odborné společnosti ([zapojení do komunity](@/kompendium/self-defense-guides/28-community-engagement.md), [diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md)).
 
-## Cross-linky
+**Pro odborníka a pořadatele:** uznávaní lidé jsou zváni častěji i bez úmyslu (Mertonův Matoušův efekt); vzorec vzniká, když se tento efekt cíleně udržuje a nesouhlas vylučuje.
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-4-7-conference-capture/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## Kdy a jak eskalovat
+
+Eskalujte, když vyloučení z konferencí zasahuje kariéru mladých výzkumníků nebo když sponzor ovlivňuje program: obraťte se na výbor odborné společnosti, žádejte rotaci výborů, zveřejněná kritéria a otevřené výzvy, a podle [politiky střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md) a [zapojení stakeholderů](@/kompendium/organizational-defense/10-stakeholder-engagement.md).
+
+## S čím ji nezaměnit
+
+- **Kurátorský profil:** konference smí mít zaměření, pokud se netváří jako reprezentativní pro celý obor.
+- **Kvalitativní výběr:** odmítnutí slabých příspěvků podle známých kritérií.
+- **Síťový efekt:** přirozené zvýhodnění uznávaných bez vylučování nesouhlasu.
+- **[EA-2.4.6 Zachycení recenzního řízení](@/kompendium/quick-reference/qr-ea-2-4-6.md):** obdoba v publikacích.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.4.7 Zachycení konference](@/kompendium/techniques/ea-2-4-7-conference-capture.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.4.7](@/kompendium/techniques/ea-2-4-7-conference-capture.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
+- **Organizace:** [struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md) – formáty se zastoupením různých hlasů.
+- **Sousední karty:** [EA-2.4.10 Zachycení odborné společnosti](@/kompendium/quick-reference/qr-ea-2-4-10.md) – kdo konferenci pořádá; [EA-1.1.1 Selektivní expozice](@/kompendium/quick-reference/qr-ea-1-1-1.md) – co obor uvidí.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

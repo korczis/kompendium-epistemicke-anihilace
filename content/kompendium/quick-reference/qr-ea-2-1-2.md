@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.1.2 Pseudo-peer mob"
-description = "Rychla referencni karta pro EA-2.1.2 (delegitimizace)."
+title = "Rychlá karta EA-2.1.2: Pseudo-peer mob"
+description = "Pseudo-peer mob v kostce: jak poznat koordinovaný útok skupiny inscenovaný jako spontánní reakce kolegů, a jak na něj reagovat."
 weight = 30212
 
 [taxonomies]
@@ -16,39 +16,49 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.1.2 Pseudo-peer mob
+# EA-2.1.2 Pseudo-peer mob – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.1 Expertní diskvalifikace · **Plná stránka:** [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md)
 
-## Operační modus (3 kroky)
+## Co to je
 
-1. Vytvoření iluze „spontánního“ peer konsenzu proti subjektu — koordinovaná, nikoli organická vlna kritiky (sdílená wording, časová synchronizace)
-2. Eskalace skrze sociální média / interní listservy — text útoku migruje s drobnými modifikacemi, kořen je ale jeden
-3. [Sociální izolace](@/glossary/socialni-izolace.md) cíle — peers, kteří by ho hájili, mlčí, protože vidí cenu obhajoby; mob roste z toho mlčení
+Koordinovaný útok skupiny je inscenován jako spontánní, nezávislá reakce kolegů cílového odborníka. Zneužívá rozumnou heuristiku přihlížejících („když kritizuje deset nezávislých odborníků, asi na tom něco je“) – jenže nezávislost je iluze, a [heuristika](@/glossary/heuristika.md) proto klame.
 
-## Detekční markery (3 nejvýraznější)
+## Jak ji poznat
 
-- Lexikální analýza odhalí, že kritiky používají identické fráze v různých kanálech — koordinace je viditelná v textu
-- Časový vzorec — vlna začíná synchronizovaně po jednom konkrétním „spouštěči“, nikoli organickou difúzí
-- Účastníci mobu nebyli předtím v obsahovém kontaktu se subjektem — útok je univerzální, nespecifický
+- Výstupy přicházejí v úzkém časovém okně, řádově v hodinách.
+- Opakují se stejné formulace, jako by vycházely ze společného podkladu.
+- Účastníci k tématu dříve nikdy nepublikovali.
+- Mezi účastníky je hustá síť vazeb (sledování, citace, společné pracoviště).
+- Ostrost formulací postupně narůstá.
+- Na věcné protiargumenty nikdo nereaguje; cílem není diskuse.
 
-## Neutralizační strategie (3 nejúčinnější)
+## První bezpečná reakce
 
-- Lexikální audit — extrahovat opakované fráze, datumy, kanály; vizualizace koordinace odhaluje pseudo-peer charakter
-- Cílené oslovení tichých peers — přerušit isolaci skrze 1:1 kontakt, vyzvat k explicitní pozici (anonymně dostupné nástroje)
-- Veřejná dokumentace — preserved correspondence, časová osa, originální tvrzení; brání přepisování historie útoku
+**Pro zasaženého:** neodpovídejte každému zvlášť. Archivujte příspěvky s časem a odkazem, odpovězte věcně na nejsilnější argument a nechte promluvit spojence, kteří vás znají z práce ([mobilizace podpory](@/kompendium/self-defense-guides/30-support-mobilization.md), [diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md)). Agregovaná odpověď „je to koordinované“ bez dat působí paranoidně; data ji podloží.
 
-## Příklad
+**Pro odborníka:** pomozte rozlišit skutečný konsenzus od koordinace srovnáním načasování, formulací a vazeb ([platformní koordinace](@/kompendium/detection-signatures/21-network-platform-coordination.md)). Pocit obklíčení je přiměřenou reakcí na skutečný jev.
 
-Akademička publikuje studii, jejíž závěry se nelíbí jednomu vlivnému kruhu. Během 48 hodin dostane 20 e-mailů a tweetů s identickou frází „tato práce porušuje základní metodologické standardy“. Žádný z autorů studii neviděl podrobně. Po šesti měsících se to v komunitě stalo „obecně známou pravdou“.
+## Kdy a jak eskalovat
 
-## Cross-linky
+Eskalujte, když vlna obsahuje nepravdivá tvrzení, výzvy k propuštění nebo vyhrožování: zajistěte důkazy ([elektronické důkazy](@/kompendium/forensic-legal/35-electronic-evidence-EA.md)), zvažte posouzení pomluvy ([pomluva v kontextu EA](@/kompendium/forensic-legal/14-defamation-EA.md)) a požádejte instituci o postup podle [reakce na incident](@/kompendium/organizational-defense/31-incident-response-EA.md). Při výhrůžkách bezpečí jde přednost bezpečnostní plán a policie.
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## S čím ji nezaměnit
+
+- **Skutečně spontánní kritika:** různé argumenty, různé časy, různé sítě.
+- **Otevřený dopis se signatáři:** legitimní, pokud se hlásí ke koordinaci a věcně argumentuje.
+- **[EA-2.3.4 Koordinace davu](@/kompendium/quick-reference/qr-ea-2-3-4.md):** mediální obdoba bez nároku na status kolegů.
+- **[EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/quick-reference/qr-ea-2-1-9.md):** vyrábí shodu, ne útok.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.1.2](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) – mechanismus, kontexty a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře delegitimizace.
+- **Detekce:** [asymetrie amplifikace](@/kompendium/detection-signatures/19-network-amplification-asymmetry.md) – nepoměr dosahu a podstaty.
+- **Glosář:** [delegitimizace](@/glossary/delegitimizace.md) – rámec; [deplatforming](@/glossary/deplatforming.md) – častý cíl vlny.
+- **Sousední karty:** [EA-2.1.1 Expertní disinflace](@/kompendium/quick-reference/qr-ea-2-1-1.md) – obsah, který mob šíří; [EA-2.4.4 Zachycení vedení](@/kompendium/quick-reference/qr-ea-2-4-4.md) – když mob získá institucionální moc.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

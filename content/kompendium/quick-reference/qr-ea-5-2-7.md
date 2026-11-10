@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-5.2.7 Kategorialni disoluce"
-description = "Rychla referencni karta pro EA-5.2.7 (metatranscendentalni anihilace)."
+title = "Rychlá karta EA-5.2.7: Kategoriální disoluce"
+description = "Kategoriální disoluce v kostce: jak poznat stav, kdy se zkušenost přestává organizovat do věcí, počtů, vztahů a událostí, a jak reagovat."
 weight = 20007
 
 [taxonomies]
@@ -16,40 +16,50 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.2.7 Kategoriální disoluce
+# EA-5.2.7 Kategoriální disoluce – karta v kostce
 
-> WARNING: Přístupová úroveň L4. Pouze pro kvalifikované výzkumníky pod IRB.
+**Oblast:** [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md), skupina 5.2 · **Plná stránka:** [EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)
 
-**Doména**: Metatranscendentální anihilace — postupné rozpouštění Kantových transcendentálních kategorií (substance, kauzalita, jednota, mnohost) v subjektově poznávacím aparátu.
+> Karta vyšší přístupové úrovně slouží k rozpoznání a ochraně; popis je strukturní, ne návod.
 
-## Operační modus (3 kroky)
+## Co to je
 
-1. Vnesení doktrín, které relativizují konkrétní transcendentální kategorii („kauzalita je iluze“, „substance neexistuje“, „jednota je sociální konstrukt“)
-2. Praktická rituální praxe (meditace, kontemplace, drogová expozice), která posiluje afektivní zkušenost rozpouštění kategorie
-3. Konsolidace ve stavu, kde subjekt operuje bez kategorialního rámce — což formálně možno není, takže ho nahrazuje prázdným prožitím „rozpuštění“
+Terminální stav metatranscendentální anihilace: kategoriální struktury zkušenosti se rozpouštějí a jevy se jim přestávají podřizovat. Člověk dál vidí, slyší a cítí, ale prožitek se neorganizuje do počtu, kvality, vztahu a modality – „vše se ukazuje, ale nic není něčím“.
 
-## Detekční markery (3 nejvýraznější)
+## Jak ji poznat
 
-- Subjekt formuluje „ne nic neexistuje, ale také nic není“ jako legitimní pozici, nikoli jako rozpor
-- Praktická rozhodování trpí strukturální nejistotou — chybí kategoriální opora pro identifikaci predmětu rozhodnutí
-- Při klinickém rozhovoru subjekt užívá kategorie „substance / kauzalita / jednota“ lingvisticky, ale jejich kognitivní funkce kolabuje
+- Nedokáže odpovědět na kategoriální otázky (kolik, jaké, proč, je-li to možné či skutečné).
+- Sled okamžiků se neskládá do událostí.
+- Kvantitativní neurčitost: „je tam tak nějak několik, nebo všechno“.
+- Bez rozlišení možného, nutného a skutečného.
+- Vztahy mezi věcmi se rozpadají; kvality fluktuují jako intenzity bez určení.
+- Předchozí intenzivní praxe bez rámce návratu, psychedelický zážitek bez integrace.
 
-## Neutralizační strategie (3 nejúčinnější)
+## První bezpečná reakce
 
-- Kantův transcendentální argument — bez kategorií není možné poznání ani jeho popření; cvičení v explicitní apliciaci kategorií
-- Strukturní psychiatrická diferenciální dg. — odlišení indukované kategoriální disoluce od [depersonalizace](@/glossary/depersonalizace.md) či dissociativní poruchy
-- Praktická obnova — návrat k běžné praxi, kde kategorie jsou nezbytné (matematika, vaření, řízení auta); subjekt znovuobnovuje funkci
+**Pro zasaženého:** jde o stav vyžadující odbornou péči; do té doby držte jednoduchou strukturu dne, pravidelný spánek, jídlo a blízkost důvěryhodné osoby a zastavte praxi, která stav vyvolala ([akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md)).
 
-## Příklad
+**Pro odborníka:** obnova kategoriální funkce je pomalá a vyžaduje kliniky s fenomenologicko-psychopatologickou průpravou; pracuje se s konkrétními cvičeními a s jazykem, který kategorie nese (explicitní popis „co, kolik, kde, kdy“).
 
-Účastník dvou intenzivních ayahuasca retreatů reportuje „viděl jsem, že kauzalita neexistuje, vše se děje samo“. Při návratu řídí auto a ohrožuje sebe i jiné, protože „kauzalita brzdy“ se mu rozpustila. Lékař, který ho ošetřuje po havárii, stojí před technicky složitým případem indukované kategoriální disoluce.
+## Kdy a jak eskalovat
 
-## Cross-linky
+Eskalujte vždy a hned: obraz se překrývá s akutní psychózou, deliriem, intoxikací a neurologickými stavy. [Akutní dekompenzace](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md), [psychotický zlom](@/kompendium/emergency-protocols/3-psychotic-break-EA.md), [medicínská komorbidita](@/kompendium/emergency-protocols/25-medical-comorbidity-EA.md), případně [hospitalizace](@/kompendium/emergency-protocols/12-inpatient-admission-EA.md).
 
-- **Rodic**: [Kapitola 7 — Metatranscendentalni anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)
-- **Glossary**: [epoche](@/glossary/epoche.md), [intentionalita](@/glossary/intentionalita.md), [fenomenologie](@/glossary/fenomenologie.md), [lebenswelt](@/glossary/lebenswelt.md)
-- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+## S čím ji nezaměnit
+
+- **Delirium a intoxikace:** kolísání vědomí, somatické příčiny – lékařská péče.
+- **Hluboká meditační zkušenost:** dočasná, s návratem a v rámci tradice.
+- **Katatonie či těžká [disociace](@/glossary/disociace.md):** klinické stavy s vlastní léčbou.
+- **[EA-5.2.25 Kategoriální mlha](@/kompendium/quick-reference/qr-ea-5-2-25.md):** mírnější, difuzní zamlžení kategorií.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-5.2.7](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md) – mechanismus, případy a neutralizace; [kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) – metatranscendentální anihilace.
+- **Glosář:** [Kantovy kategorie](@/glossary/kantovy-kategorie.md) – co se rozpouští; [Aristotelovy kategorie](@/glossary/aristotelovy-kategorie.md) – starší rámec.
+- **Sousední karty:** [EA-5.2.6 Transcendentální rekurzivita](@/kompendium/quick-reference/qr-ea-5-2-6.md) – cesta k disoluci; [EA-5.2.11 Kategoriální anihilace](@/kompendium/quick-reference/qr-ea-5-2-11.md) – příbuzný terminální stav.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

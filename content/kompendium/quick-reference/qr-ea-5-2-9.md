@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-5.2.9 Konceptualni aporie"
-description = "Rychla referencni karta pro EA-5.2.9 (metatranscendentalni anihilace)."
+title = "Rychlá karta EA-5.2.9: Konceptuální aporie"
+description = "Konceptuální aporie v kostce: jak poznat stav, kdy každý pokus utvořit pojem končí neřešitelným paradoxem, a jak obnovit pojmovou práci."
 weight = 20009
 
 [taxonomies]
@@ -16,34 +16,50 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.2.9 Konceptualni aporie
+# EA-5.2.9 Konceptuální aporie – karta v kostce
 
-> WARNING: Pristupova uroven L4. Pouze pro kvalifikovane vyzkumniky pod IRB.
+**Oblast:** [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md), skupina 5.2 · **Plná stránka:** [EA-5.2.9 Konceptuální aporie](@/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md)
 
-**Domena**: Metatranscendentalni anihilace — utok na transcendentalni podminky poznani (Kantovske kategorie, Husserlovska intencionalita).
+> Karta vyšší přístupové úrovně slouží k rozpoznání a ochraně; popis je strukturní, ne návod.
 
-## Operacni cíl
+## Co to je
 
-Destabilizace Konceptualni aporie skrze sistematicke narusovani konstitutivnich struktur poznavajici subjektivity.
+Každý pokus o utvoření pojmu je veden k neřešitelnému paradoxu, takže pojmovost sama působí jako vadná – pojem se rozpouští už při formulaci. V pokročilé fázi kolabuje pojmová schopnost jako taková; člověk dokáže psát dlouhé texty o nemožnosti pojmu, ale pojem formulovat neumí. Ve skupině, která aporii oceňuje jako hloubku, se stav upevňuje a člověk ztrácí motivaci z něj vystoupit.
 
-## Indikatory pokrocile EA
+## Jak ji poznat
 
-- Disrupce v Kantovskych kategoriich (cas, prostor, kauzalita, identita)
-- Husserlovsky redukcni krach
-- Eroze pre-reflexivnich struktur intencionality
+- Pojmovou analýzu situace nedokáže dokončit.
+- Pseudoproduktivita: texty o nemožnosti pojmu bez pojmového výstupu.
+- Specifická intelektuální únava z práce, která nikdy nekončí.
+- Komunita stav oceňuje jako filozofickou hloubku.
+- Odpor k jasným definicím jako k „naivitě“.
+- Ztráta schopnosti řešit praktické problémy, které pojmy vyžadují.
 
-## Klinicka odpoved
+## První bezpečná reakce
 
-1. Identifikace urovne ataku (transcendentalni vs. operacni)
-2. Fenomenologicky restitucni protokol
-3. Multidisciplinarni team — psychiatrie + filosofie
+**Pro zasaženého:** pracujte s pojmy v praktických úlohách – řemeslo, technický problém, sport –, kde pojem stabilizuje jeho použitelnost. Pomoci může Wittgensteinův pozdní postřeh, že slova mají význam v používání ([kognitivní flexibilita](@/kompendium/self-defense-guides/8-cognitive-flexibility.md), [obnovení kompetencí](@/kompendium/recovery-protocols/midterm-skill-rebuilding.md)).
 
-## Cross-linky
+**Pro odborníka:** nepřidávejte další aporie; posilujte úspěšné uzavřené úkoly a zjistěte, kdo stav legitimizuje.
 
-- **Rodic**: [Kapitola 7 — Metatranscendentalni anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)
-- **Glossary**: [epoche](@/glossary/epoche.md), [intentionalita](@/glossary/intentionalita.md), [fenomenologie](@/glossary/fenomenologie.md), [lebenswelt](@/glossary/lebenswelt.md)
-- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+## Kdy a jak eskalovat
+
+Eskalujte, když stav ochromuje studium či práci, provází ho deprese, izolace nebo podivné prožívání: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md), [vzdělávací reintegrace](@/kompendium/recovery-protocols/midterm-educational-reintegration.md).
+
+## S čím ji nezaměnit
+
+- **Sokratovská aporie:** výchozí bod hledání, ne konečný stav.
+- **Dekonstrukce:** kritická práce s pojmy, která sama pojmy používá.
+- **[Paradox lháře](@/glossary/liaruv-paradox.md) a podobné:** lokální problémy s technickými řešeními.
+- **[EA-5.1.4 Sémantická imploze](@/kompendium/quick-reference/qr-ea-5-1-4.md):** rozpad na úrovni významu slov.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-5.2.9 Konceptuální aporie](@/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-5.2.9](@/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md) – mechanismus, případy a neutralizace; [kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) – metatranscendentální anihilace.
+- **Glosář:** [konceptuální anihilace](@/glossary/konceptualni-anihilace.md) – krajní stav; [privátní jazyk](@/glossary/privatni-jazyk.md) – Wittgensteinův kontext.
+- **Sousední karty:** [EA-5.2.10 Meta-kognitivní singularita](@/kompendium/quick-reference/qr-ea-5-2-10.md) – přenos na metakognici; [EA-5.2.24 Analytická anihilace](@/kompendium/quick-reference/qr-ea-5-2-24.md) – rozpad analýzy.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

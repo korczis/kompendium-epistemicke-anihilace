@@ -5,11 +5,15 @@
 //
 // Použití: BASE_URL=http://127.0.0.1:18790/ [ONLY=<regexp cesty>] node test/e2e/surfaces.cjs
 // (web sestavený s --base-url na tutéž adresu). Playwright: PLAYWRIGHT=<cesta k playwright-core>.
+//
+// Jako modul (bez prohlížeče): require('./test/e2e/surfaces.cjs') vrací { FIXED, derived,
+// fromDir }. derived(load) vrací odvozené scénáře, které by běh použil; load(cesta) vrací text
+// souboru webu, výchozí čte z BASE_URL, fromDir('public') ze sestaveného adresáře.
 'use strict';
 
-const { chromium } = require(process.env.PLAYWRIGHT || 'playwright-core');
+const fs = require('fs');
+const path = require('path');
 const { execFileSync } = require('node:child_process');
-const path = require('node:path');
 
 const BASE = (process.env.BASE_URL || 'http://127.0.0.1:18790/').replace(/\/?$/, '/');
 
@@ -45,13 +49,20 @@ const zolaPath = (url) => url.split('/').filter(Boolean)
   .map((s) => s.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''))
   .map((s) => s + '/').join('');
 
-async function derived() {
-  const g = await (await fetch(BASE + 'data/graph.json')).json();
+const fromBase = (p) => fetch(BASE + p).then((r) => {
+  if (!r.ok) throw new Error(`${p}: HTTP ${r.status}`);
+  return r.text();
+});
+const fromDir = (dir) => (p) => fs.promises.readFile(
+  path.join(dir, p === '' || p.endsWith('/') ? p + 'index.html' : p), 'utf8');
+
+async function derived(load = fromBase) {
+  const g = JSON.parse(await load('data/graph.json'));
   const page = (n) => zolaPath(n.url);
   const out = [];
   const tech = top(g, 'kompendium/techniques');
   // Kód EA techniky z odvozeného rejstříku hledání (static/data/search.json), ne z obsahu.
-  const idx = await (await fetch(BASE + 'data/search.json')).json();
+  const idx = JSON.parse(await load('data/search.json'));
   const F = Object.fromEntries(idx.fields.map((f, i) => [f, i]));
   const techEntry = tech && idx.entries.find((e) => e[F.url] === '/' + zolaPath(tech.url));
   // Kód může nést víc stránek (graph.json code_shared_with): na prvním místě musí být jedna z nich.
@@ -65,7 +76,7 @@ async function derived() {
   // První stránka knihy, jejíž HTML obsahuje diagram Mermaid (hledá se v sestaveném webu).
   for (const n of g.nodes) {
     if (!n.path.startsWith('kompendium/')) continue;
-    const html = await (await fetch(BASE + page(n))).text().catch(() => '');
+    const html = await load(page(n)).catch(() => '');
     if (html.includes('data-lang="mermaid"')) { out.push({ path: page(n), painted: 0, mermaid: 1, note: 'stránka s diagramem Mermaid' }); break; }
   }
   return out;
@@ -350,7 +361,8 @@ async function check(browser, s, viewport, scheme) {
   return failures;
 }
 
-(async () => {
+async function main() {
+  const { chromium } = require(process.env.PLAYWRIGHT || 'playwright-core');
   SURFACES = FIXED.concat(await derived());
   // ONLY=<regexp cesty>: jen vybrané plochy (ladění; gate běží bez něj).
   if (process.env.ONLY) SURFACES = SURFACES.filter((s) => new RegExp(process.env.ONLY).test('/' + s.path));
@@ -367,4 +379,7 @@ async function check(browser, s, viewport, scheme) {
   await browser.close();
   console.log(`surfaces: ${SURFACES.length * 2 - failed}/${SURFACES.length * 2} v pořádku`);
   process.exit(failed ? 1 : 0);
-})();
+}
+
+module.exports = { FIXED, derived, fromDir };
+if (require.main === module) main();

@@ -11,8 +11,24 @@
   var cache = {};
 
   // Kategorická paleta (dostatečný kontrast na bílé i na gray-900), pořadí je stabilní.
-  var PALETTE = ['#4f46e5', '#0ea5e9', '#10b981', '#f59e0b', '#ef4444', '#a855f7', '#14b8a6',
-    '#f97316', '#ec4899', '#84cc16', '#6366f1', '#06b6d4', '#eab308', '#8b5cf6', '#22c55e', '#64748b'];
+  // Kategorické barvy podle tématu: na světlém povrchu (white) odstíny Tailwind 600 (žlutá 700),
+  // na tmavém (gray-800) odstíny 400, každá s kontrastem aspoň 3:1 vůči povrchu (WCAG 2.2,
+  // 1.4.11). PALETTE je jedno pole, které se při přepnutí tématu (událost dark-mode) přepíše na
+  // místě dřív, než se grafy znovu sestaví, takže každý graf, který barvy čte při sestavení,
+  // dostane ty správné. Pořadí odstínů je v obou tématech stejné.
+  var PALETTE_LIGHT = ['#4f46e5', '#0284c7', '#059669', '#d97706', '#dc2626', '#9333ea', '#0d9488',
+    '#ea580c', '#db2777', '#65a30d', '#c026d3', '#0891b2', '#a16207', '#7c3aed', '#16a34a', '#475569'];
+  var PALETTE_DARK = ['#818cf8', '#38bdf8', '#34d399', '#fbbf24', '#f87171', '#c084fc', '#2dd4bf',
+    '#fb923c', '#f472b6', '#a3e635', '#e879f9', '#22d3ee', '#facc15', '#a78bfa', '#4ade80', '#94a3b8'];
+  var PALETTE = [];
+  function syncPalette() {
+    var src = isDark() ? PALETTE_DARK : PALETTE_LIGHT;
+    PALETTE.length = 0;
+    Array.prototype.push.apply(PALETTE, src);
+  }
+  syncPalette();
+  // Registrováno při načtení jádra, tedy před posluchači grafů: ty se přestaví už s novými barvami.
+  document.addEventListener('dark-mode', syncPalette);
 
   function isDark() {
     return document.documentElement.classList.contains('dark');
@@ -27,8 +43,8 @@
       grid: dark ? '#374151' : '#e5e7eb',
       surface: dark ? '#1f2937' : '#ffffff',
       edge: dark ? '#4b5563' : '#cbd5e1',
-      primary: '#4f46e5',
-      accent: '#ef4444',
+      primary: dark ? '#818cf8' : '#4f46e5',
+      accent: dark ? '#f87171' : '#dc2626',
     };
   }
 

@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-disociace-a-trauma", "nlp-vzorec", "nlp-uziti-terapie"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-disociace-a-trauma"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["andreas-andreas-1989", "andreas-andreas-1987", "herman-1992", "l
 nlp_sources_primary = ["andreas-andreas-1989", "andreas-andreas-1987"]
 nlp_sources_roots = []
 nlp_sources_critical = ["herman-1992", "lifton-1961", "lilienfeld-2015", "rogers-1951", "sturt-2012", "witkowski-2010"]
-nlp_citations = 14
-nlp_words = 1180
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

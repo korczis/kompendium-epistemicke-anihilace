@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-raport-a-kalibrace", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-raport-a-kalibrace"
 toc = true
 risk_level = "high"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1979", "ekman-2003", "erickson-rossi-rossi-1976"
 nlp_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
 nlp_sources_roots = ["erickson-rossi-rossi-1976"]
 nlp_sources_critical = ["ekman-2003", "herman-1992", "kahneman-2011", "lifton-1961", "rogers-1951", "stark-2007", "vrij-2008", "wiseman-2012", "witkowski-2010"]
-nlp_citations = 16
-nlp_words = 1215
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

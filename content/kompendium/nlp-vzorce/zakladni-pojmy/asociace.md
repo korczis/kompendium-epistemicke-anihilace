@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-zakladni-pojmy", "nlp-pojem", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-zakladni-pojmy"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["andreas-andreas-1987", "bandler-1985", "herman-1992", "kahneman-
 nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "oconnor-seymour-1990"]
 nlp_sources_roots = []
 nlp_sources_critical = ["herman-1992", "kahneman-2011", "petty-cacioppo-1986", "sturt-2012", "witkowski-2010"]
-nlp_citations = 15
-nlp_words = 1235
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1
@@ -129,7 +125,7 @@ Základní obranou je oddělit prožitek od rozhodnutí. Pokud se při jednání
 
 - [Stav](@/kompendium/nlp-vzorce/zakladni-pojmy/stav.md) – příbuzný vzorec (Základní pojmy NLP, State)
 - [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – příbuzný vzorec (Základní pojmy NLP, Meta-position)
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation)
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
 - [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Anchor (concept))
 - [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – příbuzný vzorec (Submodality, Visual submodalities)
 - [Vzorec zpracování zármutku](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md) – příbuzný vzorec (Disociace, fobie a trauma, Resolving grief pattern)
@@ -149,7 +145,7 @@ Základní obranou je oddělit prožitek od rozhodnutí. Pokud se při jednání
 **V katalogu**
 
 - [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – předchozí vzorec rodiny
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – další vzorec rodiny
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – další vzorec rodiny
 - [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
 
 <!-- kompendium:nlp-vazby:end -->

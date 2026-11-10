@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-reframing", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-reframing"
 toc = true
 risk_level = "high"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1982", "beck-1976", "erickson-rossi-rossi-1976",
 nlp_sources_primary = ["bandler-grinder-1982"]
 nlp_sources_roots = ["erickson-rossi-rossi-1976", "watzlawick-1967", "watzlawick-1974"]
 nlp_sources_critical = ["beck-1976", "festinger-1957", "herman-1992", "kahneman-2011", "loftus-palmer-1974", "stark-2007", "sturt-2012", "witkowski-2010"]
-nlp_citations = 18
-nlp_words = 1278
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

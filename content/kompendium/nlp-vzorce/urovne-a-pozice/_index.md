@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-urovne-a-pozice"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Logické úrovně a percepční pozice", "Logical levels and perceptual positions", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Logical levels and perceptual positions"
 nlp_size = 16
 nlp_members = ["zarovnani-logickych-urovni", "uroven-prostredi", "uroven-chovani", "uroven-schopnosti", "uroven-presvedceni-a-hodnot", "uroven-identity", "uroven-poslani", "meta-zrcadlo", "prvni-pozice", "druha-pozice", "treti-pozice", "ctvrta-pozice", "troji-popis", "model-score", "disneyova-strategie", "zamena-logickych-urovni"]
 nlp_types = ["concept", "pattern"]
-nlp_words = 1392
 nlp_sources = ["bateson-1972", "bateson-1956", "beck-1976", "dilts-1990", "dilts-delozier-2000", "dilts-hallbom-smith-1990", "festinger-1957", "freedman-fraser-1966", "grinder-delozier-1987", "herman-1992", "lifton-1961", "passmore-rowson-2019", "perls-1969", "rogers-1951", "sharpley-1987", "stark-2007", "sturt-2012", "tosey-mathison-2009", "watzlawick-1967", "watzlawick-1974", "witkowski-2010"]
 +++
 

@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-jazykove-vzorce"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Jazykové vzorce", "Language patterns", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Language patterns"
 nlp_size = 20
 nlp_members = ["hierarchie-idei", "chunking-nahoru", "chunking-dolu", "lateralni-chunking", "kategorie-satirove", "smirovatel", "obvinovatel", "pocitac", "rozptylovac", "vyrovnany", "terapeuticka-metafora", "izomorfni-metafora", "ale-a-a", "protoze", "zatim", "zkusit", "predstavte-si", "otazky-misto-tvrzeni", "slovni-baliky", "casove-presuny-v-jazyce"]
 nlp_types = ["concept", "pattern"]
-nlp_words = 1209
 nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bateson-1972", "dilts-1999", "gordon-1978", "grice-1975", "haley-1973", "korzybski-1933", "langer-1978", "loftus-palmer-1974", "mcguire-1964", "miller-1956", "oconnor-seymour-1990", "passmore-rowson-2019", "satir-1972", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
 +++
 

@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-milton-model", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-milton-model"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chomsky-1965", 
 nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "grinder-bandler-1981", "oconnor-seymour-1990"]
 nlp_sources_roots = ["chomsky-1965", "erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
 nlp_sources_critical = ["druckman-swets-1988", "herman-1992", "kahneman-2011", "mcguire-1964", "passmore-rowson-2019", "sharpley-1987", "stark-2007"]
-nlp_citations = 17
-nlp_words = 1261
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-vliv-a-zneuziti", "nlp-vzorec", "nlp-uziti-zadne"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-vliv-a-zneuziti"
 toc = true
 risk_level = "low"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975", "cialdini-2009", "hassan-1988", "herman-1
 nlp_sources_primary = ["bandler-grinder-1975"]
 nlp_sources_roots = []
 nlp_sources_critical = ["cialdini-2009", "hassan-1988", "herman-1992", "kahneman-2011", "lifton-1961", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
-nlp_citations = 22
-nlp_words = 1288
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

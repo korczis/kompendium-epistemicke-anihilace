@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-zakladni-pojmy", "nlp-pojem", "nlp-uziti-terapie"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-zakladni-pojmy"
 toc = true
 risk_level = "low"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-1980", "heap-1988
 nlp_sources_primary = ["bandler-grinder-1979", "dilts-1980"]
 nlp_sources_roots = ["pavlov-1927"]
 nlp_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "norcross-2006", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_citations = 18
-nlp_words = 1171
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1
@@ -219,7 +215,7 @@ kapitole o [kognitivních vědách](@/kompendium/07-teoreticke-reflexe/kognitivn
 - [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – příbuzný vzorec (Základní pojmy NLP, Kinaesthetic representational system)
 - [Vedoucí systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vedouci-system.md) – příbuzný vzorec (Základní pojmy NLP, Lead system)
 - [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Submodalities (concept))
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation)
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
 - [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Anchor (concept))
 
 **V kompendiu**

@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-casova-osa", "nlp-pojem", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-casova-osa"
 toc = true
 risk_level = "low"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["andreas-andreas-1987", "beck-1976", "gilovich-1991", "james-wood
 nlp_sources_primary = ["andreas-andreas-1987", "james-woodsmall-1988"]
 nlp_sources_roots = []
 nlp_sources_critical = ["beck-1976", "gilovich-1991", "lakoff-johnson-1980", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
-nlp_citations = 13
-nlp_words = 1178
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Rozlišení jako pracovní metafora", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1
@@ -134,7 +130,7 @@ Základní obranou je chápat rozlišení jako metaforu, ne jako diagnózu. Poku
 **Příbuzné vzorce**
 
 - [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzný vzorec (Základní pojmy NLP, Association)
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation)
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
 - [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Timeline (concept))
 - [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Meta-programs (concept))
 - [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – příbuzný vzorec (Časová osa, Eliciting the timeline)

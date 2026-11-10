@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-casova-osa", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-casova-osa"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1979", "bandler-grinder-1982", "cialdini-2009", 
 nlp_sources_primary = ["bandler-grinder-1979", "bandler-grinder-1982"]
 nlp_sources_roots = []
 nlp_sources_critical = ["cialdini-2009", "freedman-fraser-1966", "petty-cacioppo-1986", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010", "wolpe-1958"]
-nlp_citations = 17
-nlp_words = 1239
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Vztah k technikám kompendia", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

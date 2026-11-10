@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-zakladni-pojmy", "nlp-pojem", "nlp-uziti-vliv"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-zakladni-pojmy"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["charvet-1997", "cialdini-2009", "gilovich-1991", "hall-bodenhame
 nlp_sources_primary = ["charvet-1997", "hall-bodenhamer-1997", "james-woodsmall-1988"]
 nlp_sources_roots = []
 nlp_sources_critical = ["cialdini-2009", "gilovich-1991", "passmore-rowson-2019", "petty-cacioppo-1986", "witkowski-2010"]
-nlp_citations = 14
-nlp_words = 1262
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

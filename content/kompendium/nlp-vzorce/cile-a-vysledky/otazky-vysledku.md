@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-cile-a-vysledky", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-cile-a-vysledky"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975", "cialdini-2009", "freedman-fraser-1966", 
 nlp_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
 nlp_sources_roots = ["haley-1973", "watzlawick-1974"]
 nlp_sources_critical = ["cialdini-2009", "freedman-fraser-1966", "herman-1992", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "witkowski-2010"]
-nlp_citations = 17
-nlp_words = 1159
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

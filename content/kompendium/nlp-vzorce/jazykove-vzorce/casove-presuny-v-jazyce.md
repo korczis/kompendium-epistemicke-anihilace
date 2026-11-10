@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-jazykove-vzorce", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-jazykove-vzorce"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975b", "herman-1992", "james-woodsmall-1988", "
 nlp_sources_primary = ["bandler-grinder-1975b", "james-woodsmall-1988"]
 nlp_sources_roots = ["levinson-1983"]
 nlp_sources_critical = ["herman-1992", "lakoff-johnson-1980", "stark-2007", "sturt-2012", "witkowski-2010"]
-nlp_citations = 16
-nlp_words = 1261
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-casova-osa"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Časová osa", "Timeline patterns", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Timeline patterns"
 nlp_size = 12
 nlp_members = ["elicitace-casove-osy", "v-case-a-mimo-cas", "terapie-casove-osy", "uvolneni-negativnich-emoci", "limitujici-rozhodnuti", "vlozeni-budouciho-cile", "korenova-pricina", "zmena-tvaru-casove-osy", "casove-kodovani", "budouci-prehravani", "casova-perspektiva", "pruchod-casovou-osou"]
 nlp_types = ["concept", "pattern"]
-nlp_words = 1231
 nlp_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "cialdini-2009", "dilts-1990", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lakoff-johnson-1980", "lifton-1961", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
 +++
 

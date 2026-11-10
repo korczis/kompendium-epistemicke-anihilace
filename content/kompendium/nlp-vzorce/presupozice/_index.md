@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-presupozice"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Jazykové presupozice", "Linguistic presuppositions", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Linguistic presuppositions"
 nlp_size = 19
 nlp_members = ["jazykove-presupozice", "existencni-presupozice", "presupozice-casovych-vet", "poradove-cislovky", "presupozice-nebo", "predikaty-uvedomeni", "komentarova-adverbia", "slovesa-zmeny-casu", "opakovaci-slova", "kvalifikatory-jen-i", "srovnavaci-presupozice", "otazky-s-presupozici", "vztazne-vety-presupozice", "kontrafaktualni-podminky", "faktivni-slovesa", "implikativni-slovesa", "rozstepene-vety", "presupozice-v-reklame", "presupozice-ve-vyslechu"]
 nlp_types = ["pattern"]
-nlp_words = 1243
 nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "chomsky-1965", "druckman-swets-1988", "erickson-rossi-rossi-1976", "grice-1975", "herman-1992", "kahneman-2011", "levinson-1983", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010"]
 +++
 

@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-vliv-a-zneuziti", "nlp-pojem", "nlp-uziti-vliv"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-vliv-a-zneuziti"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "festinger-1957", "norcr
 nlp_sources_primary = ["bandler-grinder-1979"]
 nlp_sources_roots = []
 nlp_sources_critical = ["cialdini-2009", "festinger-1957", "norcross-2006", "passmore-rowson-2019", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010"]
-nlp_citations = 15
-nlp_words = 1274
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-disociace-a-trauma", "nlp-vzorec", "nlp-uziti-terapie"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-disociace-a-trauma"
 toc = true
 risk_level = "high"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["beck-1976", "dilts-hallbom-smith-1990", "herman-1992", "norcross
 nlp_sources_primary = ["dilts-hallbom-smith-1990"]
 nlp_sources_roots = ["pavlov-1927"]
 nlp_sources_critical = ["beck-1976", "herman-1992", "norcross-2006", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_citations = 12
-nlp_words = 1208
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1
@@ -225,7 +221,7 @@ Odborník by měl klientovi vysvětlit, že kolísání alergických příznaků
 **Příbuzné vzorce**
 
 - [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – příbuzný vzorec (Předpoklady NLP, Mind and body are one system)
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation)
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
 - [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzný vzorec (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
 - [Přesvědčení a zdraví v NLP](@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md) – příbuzný vzorec (Přesvědčení, Beliefs and health in NLP)
 - [Systematický přehled účinků na zdraví](@/kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md) – příbuzný vzorec (Kritické hodnocení NLP, Systematic review of health outcomes)

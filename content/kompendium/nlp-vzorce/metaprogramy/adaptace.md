@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-metaprogramy", "nlp-pojem", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-metaprogramy"
 toc = true
 risk_level = "low"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["cialdini-2009", "gilovich-1991", "hall-bodenhamer-1997", "james-
 nlp_sources_primary = ["hall-bodenhamer-1997", "james-woodsmall-1988"]
 nlp_sources_roots = ["satir-1972"]
 nlp_sources_critical = ["cialdini-2009", "gilovich-1991", "kahneman-2011", "lilienfeld-2015", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
-nlp_citations = 13
-nlp_words = 1267
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

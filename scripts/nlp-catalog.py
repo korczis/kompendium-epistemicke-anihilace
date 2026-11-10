@@ -342,10 +342,10 @@ def entry_page(ctx: dict, e: dict, prose: str, description: str) -> str:
         [("title", e["cs"]), ("description", description), ("weight", int(e["id"][-2:])),
          ("insert_anchor_links", "right")],
         [("taxonomies", [("tags", tags), ("categories", ["academic"])]),
-         ("extra", [("parent", f"kompendium-nlp-vzorce-{e['family']}"), ("toc", True),
+         ("extra", [("toc", True),
                     ("risk_level", RISK_LEVEL[e["risk"]]), ("lang", "cs"),
                     ("keywords", meta["keywords"]), ("schema_type", "DefinedTerm")]
-          + [(f"nlp_{k}", v) for k, v in meta["fields"]])])
+          + [(f"nlp_{k}", v) for k, v in meta["fields"] if k not in EXPORT_ONLY])])
     broader = by_slug.get(e["broader"])
     rows = [
         ("Identifikátor", f"`{e['id']}`"),
@@ -403,6 +403,9 @@ def entry_page(ctx: dict, e: dict, prose: str, description: str) -> str:
 
 
 RISK_LEVEL = {"nizke": "low", "stredni": "moderate", "vysoke": "high"}
+# Counts that change with every edit of the prose live in the export only: the front-matter
+# schema of the book refuses word counts and reading times in pages (content-gates).
+EXPORT_ONLY = {"citations", "words", "reading_minutes"}
 SCHEMA = 1
 
 
@@ -468,14 +471,14 @@ def family_page(ctx: dict, fam: dict, prose: str, description: str) -> str:
          ("template", "kompendium/section.html"), ("page_template", "kompendium/page.html"),
          ("insert_anchor_links", "right")],
         [("extra", [("tags", ["nlp", f"nlp-{fam['slug']}"]), ("categories", ["academic"]),
-                    ("parent", "kompendium-nlp-vzorce"), ("toc", True), ("lang", "cs"),
+                    ("toc", True), ("lang", "cs"),
                     ("keywords", [fam["title"], fam["en"], "NLP"]),
                     ("schema_type", "DefinedTermSet"), ("nlp_schema", SCHEMA),
                     ("nlp_family", fam["slug"]), ("nlp_code", fam["code"]),
                     ("nlp_en", fam["en"]), ("nlp_size", len(fam["entries"])),
                     ("nlp_members", [x["slug"] for x in fam["entries"]]),
                     ("nlp_types", sorted({x["type"] for x in fam["entries"]})),
-                    ("nlp_words", words(prose)), ("nlp_sources", keys)])])
+                    ("nlp_sources", keys)])])
     lines = [BEGIN, "", "## Vzorce rodiny", "",
              "| Kód | Vzorec | Anglicky | Druh | Užití | Riziko |",
              "|-----|--------|----------|------|-------|--------|"]
@@ -506,7 +509,7 @@ def section_page(ctx: dict, prose: str, description: str, title: str) -> str:
          ("sort_by", "weight"), ("template", "kompendium/section.html"),
          ("page_template", "kompendium/page.html"), ("insert_anchor_links", "right")],
         [("extra", [("tags", ["nlp", "kompendium"]), ("categories", ["academic", "reference"]),
-                    ("parent", "kompendium"), ("section_icon", "🗣️"), ("toc", True),
+                    ("section_icon", "🗣️"), ("toc", True),
                     ("nlp_sources", keys)])])
     entries = ctx["entries"]
     by_type = collections.Counter(TYPES[e["type"]] for e in entries)
@@ -534,7 +537,7 @@ def trainer_page(ctx: dict, prose: str, description: str, title: str) -> str:
         [("title", title), ("description", description), ("weight", 999),
          ("template", "kompendium/nlp-trener.html")],
         [("taxonomies", [("tags", ["nlp", "nlp-trener"]), ("categories", ["academic"])]),
-         ("extra", [("parent", "kompendium-nlp-vzorce"), ("toc", False)])])
+         ("extra", [("toc", False)])])
     lines = [BEGIN, "", "## Související", "",
              f"- [NLP vzorce]({link(SECTION + '/_index.md')}) – katalog, z něhož trenér "
              "bere vzorce i příklady"]

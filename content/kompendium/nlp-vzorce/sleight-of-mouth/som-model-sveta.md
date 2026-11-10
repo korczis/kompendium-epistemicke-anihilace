@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-sleight-of-mouth", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-sleight-of-mouth"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975", "beck-1976", "cialdini-2009", "dilts-1999
 nlp_sources_primary = ["bandler-grinder-1975", "dilts-1999"]
 nlp_sources_roots = ["korzybski-1933", "satir-1972"]
 nlp_sources_critical = ["beck-1976", "cialdini-2009", "herman-1992", "sharpley-1987", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
-nlp_citations = 19
-nlp_words = 1284
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

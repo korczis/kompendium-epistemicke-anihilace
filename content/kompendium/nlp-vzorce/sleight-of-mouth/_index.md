@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-sleight-of-mouth"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Sleight of Mouth", "Sleight of Mouth", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Sleight of Mouth"
 nlp_size = 16
 nlp_members = ["sleight-of-mouth", "struktura-presvedceni-som", "som-zamer", "som-redefinice", "som-dusledek", "som-rozlozeni", "som-zobecneni", "som-protipriklad", "som-analogie", "som-jiny-vysledek", "som-model-sveta", "som-strategie-reality", "som-hierarchie-kriterii", "som-aplikace-na-sebe", "som-meta-ramec", "som-zmena-velikosti-ramce"]
 nlp_types = ["concept", "pattern"]
-nlp_words = 1201
 nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1982", "beck-1976", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990", "herman-1992", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "stark-2007", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1974", "tversky-kahneman-1981", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
 +++
 

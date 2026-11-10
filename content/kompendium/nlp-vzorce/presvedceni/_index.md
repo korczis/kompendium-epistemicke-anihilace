@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-presvedceni"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Přesvědčení", "Belief patterns", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Belief patterns"
 nlp_size = 14
 nlp_members = ["cyklus-zmeny-presvedceni", "muzeum-starych-presvedceni", "audit-presvedceni", "limitujici-presvedceni", "presvedceni-o-pricine", "presvedceni-o-vyznamu", "presvedceni-o-identite", "beznadej-bezmoc-nehodnost", "retezeni-presvedceni", "kartezske-otazky", "myslenkovy-virus", "presvedceni-a-zdravi", "presvedceni-jako-mapa", "imprint"]
 nlp_types = ["concept", "pattern", "principle"]
-nlp_words = 1244
 nlp_sources = ["bandler-1985", "bandler-grinder-1975", "bateson-1972", "beck-1976", "dilts-1990", "dilts-1999", "dilts-hallbom-smith-1990", "ellis-1962", "festinger-1957", "hassan-1988", "herman-1992", "lifton-1961", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "van-der-linden-2023"]
 +++
 

@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-urovne-a-pozice", "nlp-pojem", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-urovne-a-pozice"
 toc = true
 risk_level = "high"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bateson-1972", "dilts-delozier-2000", "grinder-delozier-1987", "
 nlp_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987"]
 nlp_sources_roots = ["bateson-1972", "satir-1972"]
 nlp_sources_critical = ["hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_citations = 18
-nlp_words = 1269
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 3
 nlp_trainer_benign = 1

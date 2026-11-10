@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-ericksonovska-hypnoza", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-ericksonovska-hypnoza"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "erickson-rossi-
 nlp_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979"]
 nlp_sources_roots = ["erickson-rossi-1979", "erickson-rossi-rossi-1976", "watzlawick-1974"]
 nlp_sources_critical = ["festinger-1957", "hassan-1988", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lifton-1961", "mcguire-1964", "sharpley-1987", "witkowski-2010"]
-nlp_citations = 16
-nlp_words = 1159
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1
@@ -224,7 +220,7 @@ dlouhodobé kontrole (Herman 1992).
 **Příbuzné vzorce**
 
 - [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – příbuzný vzorec (Předpoklady NLP, Communication is both conscious and unconscious)
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation)
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
 - [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – příbuzný vzorec (Milton-model, Illusion of choice)
 - [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Therapeutic double bind)
 - [Dvojitá disociativní vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Double dissociation double bind)

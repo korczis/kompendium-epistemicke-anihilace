@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-casova-osa", "nlp-vzorec", "nlp-uziti-terapie"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-casova-osa"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-1985", "beck-1976", "herman-1992", "james-woodsmall-1988
 nlp_sources_primary = ["bandler-1985", "james-woodsmall-1988"]
 nlp_sources_roots = []
 nlp_sources_critical = ["beck-1976", "herman-1992", "kirsch-lynn-1995", "shapiro-1989", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_citations = 14
-nlp_words = 1171
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1
@@ -131,7 +127,7 @@ Základní obranou je realistické očekávání. Emoce, které člověka prová
 
 **Příbuzné vzorce**
 
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation)
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
 - [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzný vzorec (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
 - [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – příbuzný vzorec (Disociace, fobie a trauma, Forgiveness pattern)
 - [Práce s traumatem a riziko nepravých vzpomínek](@/kompendium/nlp-vzorce/disociace-a-trauma/trauma-a-falesne-vzpominky.md) – příbuzný vzorec (Disociace, fobie a trauma, Trauma work and the risk of false memories)

@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-zakladni-pojmy", "nlp-pojem", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-zakladni-pojmy"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["beck-1976", "dilts-delozier-2000", "grinder-delozier-1987", "her
 nlp_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987"]
 nlp_sources_roots = []
 nlp_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "lifton-1961", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
-nlp_citations = 15
-nlp_words = 1254
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1
@@ -132,7 +128,7 @@ Základní obranou je rozlišovat mezi odstupem a popřením. Je legitimní na c
 **Příbuzné vzorce**
 
 - [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzný vzorec (Základní pojmy NLP, Association)
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation)
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
 - [Meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md) – příbuzný vzorec (Sleight of Mouth, Meta frame)
 - [Dvojitá disociace](@/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md) – příbuzný vzorec (Disociace, fobie a trauma, Double dissociation)
 - [Reakce na kritiku](@/kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md) – příbuzný vzorec (Disociace, fobie a trauma, Responding to criticism)

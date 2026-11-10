@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-ericksonovska-hypnoza", "nlp-vzorec", "nlp-uziti-terapie"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-ericksonovska-hypnoza"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "herman-1992", "james-wo
 nlp_sources_primary = ["bandler-grinder-1979", "james-woodsmall-1988"]
 nlp_sources_roots = []
 nlp_sources_critical = ["cialdini-2009", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_citations = 17
-nlp_words = 1251
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-strategie-a-modelovani", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-strategie-a-modelovani"
 toc = true
 risk_level = "high"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["beck-1976", "dilts-1980", "druckman-swets-1988", "festinger-1957
 nlp_sources_primary = ["dilts-1980"]
 nlp_sources_roots = ["miller-galanter-pribram-1960"]
 nlp_sources_critical = ["beck-1976", "druckman-swets-1988", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "heap-1988", "herman-1992", "mcguire-1964", "sharpley-1987", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
-nlp_citations = 17
-nlp_words = 1266
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

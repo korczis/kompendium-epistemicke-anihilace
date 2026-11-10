@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-cile-a-vysledky", "nlp-pojem", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-cile-a-vysledky"
 toc = true
 risk_level = "high"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975", "beck-1976", "herman-1992", "miller-galan
 nlp_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
 nlp_sources_roots = ["miller-galanter-pribram-1960", "satir-1972", "watzlawick-1974"]
 nlp_sources_critical = ["beck-1976", "herman-1992", "miller-rollnick-2013", "norcross-2006", "passmore-rowson-2019", "stark-2007", "sturt-2012"]
-nlp_citations = 15
-nlp_words = 1227
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

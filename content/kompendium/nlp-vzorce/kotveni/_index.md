@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-kotveni"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Kotvení", "Anchoring", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Anchoring"
 nlp_size = 19
 nlp_members = ["kotveni", "samokotveni", "retezeni-kotev", "kolaps-kotev", "stohovani-kotev", "prostorove-kotveni", "kruh-excelence", "posuvna-kotva", "auditivni-kotvy", "vizualni-kotvy", "kinesteticke-kotvy", "kotvy-v-prezentaci", "prenos-zdroje", "testovani-kotvy", "kotveni-ve-skupine", "kotvy-v-reklame", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "kotveni-versus-ukotveni-odhadu"]
 nlp_types = ["concept", "pattern"]
-nlp_words = 1334
 nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-1980", "druckman-swets-1988", "herman-1992", "lankton-1980", "oconnor-seymour-1990", "passmore-rowson-2019", "pavlov-1927", "singer-lalich-1995", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "wolpe-1958"]
 +++
 

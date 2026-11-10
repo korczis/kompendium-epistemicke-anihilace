@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-milton-model", "nlp-vzorec", "nlp-uziti-vliv"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-milton-model"
 toc = true
 risk_level = "high"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975b", "druckman-swets-1988", "erickson-rossi-1
 nlp_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981", "grinder-delozier-bandler-1977"]
 nlp_sources_roots = ["erickson-rossi-1979", "grice-1975"]
 nlp_sources_critical = ["druckman-swets-1988", "hassan-1988", "kahneman-2011", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010"]
-nlp_citations = 16
-nlp_words = 1173
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-integrace-casti", "nlp-vzorec", "nlp-uziti-terapie"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-integrace-casti"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-delozier-2000", "
 nlp_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "grinder-bandler-1976"]
 nlp_sources_roots = ["perls-1969"]
 nlp_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "kirsch-lynn-1995", "miller-rollnick-2013", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_citations = 14
-nlp_words = 1255
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

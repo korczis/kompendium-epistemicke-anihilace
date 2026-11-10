@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-disociace-a-trauma", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-disociace-a-trauma"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["andreas-andreas-1989", "bandler-grinder-1975", "beck-1976", "ell
 nlp_sources_primary = ["andreas-andreas-1989", "bandler-grinder-1975"]
 nlp_sources_roots = ["satir-1972"]
 nlp_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "passmore-rowson-2019", "rogers-1951", "witkowski-2010"]
-nlp_citations = 16
-nlp_words = 1186
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1
@@ -217,7 +213,7 @@ a souvislost se sebeobrazem rozebírá heslo
 **Příbuzné vzorce**
 
 - [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – příbuzný vzorec (Základní pojmy NLP, Meta-position)
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation)
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
 - [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – příbuzný vzorec (Submodality, Inner critic pattern)
 - [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – příbuzný vzorec (Disociace, fobie a trauma, Forgiveness pattern)
 - [Vzorec sebepojetí](@/kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md) – příbuzný vzorec (Disociace, fobie a trauma, Self-concept pattern)

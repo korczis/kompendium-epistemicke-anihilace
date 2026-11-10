@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-integrace-casti", "nlp-pojem", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-integrace-casti"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1982", "festinger-1957", "grinder-bandler-1976",
 nlp_sources_primary = ["bandler-grinder-1982", "grinder-bandler-1976"]
 nlp_sources_roots = []
 nlp_sources_critical = ["festinger-1957", "herman-1992", "kahneman-2011", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "sharpley-1987", "stark-2007", "witkowski-2010"]
-nlp_citations = 15
-nlp_words = 1269
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

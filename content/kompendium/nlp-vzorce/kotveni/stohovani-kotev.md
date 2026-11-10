@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-kotveni", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-kotveni"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["cialdini-2009", "dilts-delozier-2000", "lifton-1961", "oconnor-s
 nlp_sources_primary = ["dilts-delozier-2000", "oconnor-seymour-1990"]
 nlp_sources_roots = ["pavlov-1927"]
 nlp_sources_critical = ["cialdini-2009", "lifton-1961", "passmore-rowson-2019", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009"]
-nlp_citations = 16
-nlp_words = 1189
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

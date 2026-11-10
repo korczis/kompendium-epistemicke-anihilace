@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-kriticke-hodnoceni", "nlp-pojem", "nlp-uziti-zadne"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-kriticke-hodnoceni"
 toc = true
 risk_level = "low"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bateson-1972", 
 nlp_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "grinder-delozier-bandler-1977"]
 nlp_sources_roots = ["bateson-1972", "bateson-1956", "chomsky-1965", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "haley-1973", "korzybski-1933", "miller-galanter-pribram-1960", "perls-1969", "rosen-1982", "satir-1972", "watzlawick-1967", "watzlawick-1974"]
 nlp_sources_critical = ["herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "roderique-davies-2009", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
-nlp_citations = 31
-nlp_words = 1225
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Teoretické výpůjčky", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

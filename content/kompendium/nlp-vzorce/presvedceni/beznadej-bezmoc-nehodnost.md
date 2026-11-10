@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-presvedceni", "nlp-pojem", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-presvedceni"
 toc = true
 risk_level = "high"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["beck-1976", "dilts-1990", "dilts-hallbom-smith-1990", "herman-19
 nlp_sources_primary = ["dilts-1990", "dilts-hallbom-smith-1990"]
 nlp_sources_roots = []
 nlp_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_citations = 19
-nlp_words = 1225
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

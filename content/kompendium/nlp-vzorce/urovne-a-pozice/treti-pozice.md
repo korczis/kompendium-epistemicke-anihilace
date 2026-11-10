@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-urovne-a-pozice", "nlp-pojem", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-urovne-a-pozice"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bateson-1972", "beck-1976", "dilts-delozier-2000", "grinder-delo
 nlp_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987"]
 nlp_sources_roots = ["bateson-1972", "watzlawick-1967"]
 nlp_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
-nlp_citations = 18
-nlp_words = 1313
-nlp_reading_minutes = 7
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 3
 nlp_trainer_benign = 1
@@ -227,7 +223,7 @@ příběhu je součástí zotavení po traumatu (Herman 1992). Odstup pak může
 
 - [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Perceptual positions (concept))
 - [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – příbuzný vzorec (Základní pojmy NLP, Meta-position)
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation)
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
 - [Meta-zrcadlo](@/kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Meta-mirror)
 - [První pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/prvni-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, First position)
 - [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – příbuzný vzorec (Logické úrovně a percepční pozice, Second position)

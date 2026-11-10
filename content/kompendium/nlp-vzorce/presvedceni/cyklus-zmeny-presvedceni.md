@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-presvedceni", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-presvedceni"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975", "beck-1976", "dilts-1990", "dilts-1999", 
 nlp_sources_primary = ["bandler-grinder-1975", "dilts-1990", "dilts-1999", "dilts-delozier-2000"]
 nlp_sources_roots = []
 nlp_sources_critical = ["beck-1976", "festinger-1957", "hassan-1988", "lifton-1961", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_citations = 22
-nlp_words = 1383
-nlp_reading_minutes = 7
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

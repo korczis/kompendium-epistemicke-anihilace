@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-strategie-a-modelovani", "nlp-pojem", "nlp-uziti-zadne"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-strategie-a-modelovani"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["beck-1976", "charvet-1997", "dilts-1980", "ellis-1962", "gilovic
 nlp_sources_primary = ["charvet-1997", "dilts-1980"]
 nlp_sources_roots = ["miller-galanter-pribram-1960"]
 nlp_sources_critical = ["beck-1976", "ellis-1962", "gilovich-1991", "hassan-1988", "herman-1992", "lifton-1961", "sharpley-1987", "witkowski-2010"]
-nlp_citations = 19
-nlp_words = 1264
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

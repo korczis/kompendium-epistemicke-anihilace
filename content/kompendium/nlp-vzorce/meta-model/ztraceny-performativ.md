@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-meta-model", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-meta-model"
 toc = true
 risk_level = "high"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975", "cialdini-2009", "ellis-1962", "hassan-19
 nlp_sources_primary = ["bandler-grinder-1975"]
 nlp_sources_roots = ["levinson-1983", "perls-1969", "watzlawick-1967"]
 nlp_sources_critical = ["cialdini-2009", "ellis-1962", "hassan-1988", "heap-1988", "lifton-1961", "norcross-2006", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
-nlp_citations = 17
-nlp_words = 1238
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

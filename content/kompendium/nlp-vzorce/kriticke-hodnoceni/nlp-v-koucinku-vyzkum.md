@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-kriticke-hodnoceni", "nlp-pojem", "nlp-uziti-zadne"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-kriticke-hodnoceni"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1979", "hassan-1988", "lilienfeld-2015", "miller
 nlp_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
 nlp_sources_roots = []
 nlp_sources_critical = ["hassan-1988", "lilienfeld-2015", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_citations = 18
-nlp_words = 1244
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Proč koučink vyžaduje zvláštní opatrnost", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

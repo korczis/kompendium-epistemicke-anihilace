@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-zakladni-pojmy"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Základní pojmy NLP", "Core NLP concepts", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Core NLP concepts"
 nlp_size = 42
 nlp_members = ["reprezentacni-systemy", "vizualni-system", "auditivni-system", "kinesteticky-system", "olfaktorni-a-gustatorni-system", "auditivne-digitalni-system", "vedouci-system", "preferovany-reprezentacni-system", "predikaty", "ocni-pristupove-signaly", "synestezie", "submodality-pojem", "kalibrace", "smyslova-ostrost", "raport", "stav", "zdrojovy-stav", "strategie-pojem", "tote-model", "logicke-urovne-pojem", "percepcni-pozice-pojem", "meta-pozice", "asociace", "disociace", "kongruence", "inkongruence", "ekologicka-kontrola", "ramec-pojem", "chunking", "casova-osa-pojem", "metaprogramy-pojem", "kotva-pojem", "vypousteni", "zkreslovani", "zobecnovani", "hluboka-a-povrchova-struktura", "modelovani-pojem", "vnitrni-dialog", "uptime-a-downtime", "trans-pojem", "transderivacni-hledani", "pacing-a-leading-pojem"]
 nlp_types = ["concept"]
-nlp_words = 1252
 nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bandler-grinder-1979", "bateson-1972", "chartrand-bargh-1999", "chomsky-1965", "cialdini-2009", "dilts-1980", "druckman-swets-1988", "grinder-bandler-1976", "heap-1988", "loftus-palmer-1974", "miller-galanter-pribram-1960", "norcross-2006", "perls-1969", "roderique-davies-2009", "satir-1972", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1974", "wiseman-2012", "witkowski-2010"]
 +++
 
@@ -178,7 +176,7 @@ kapitole o [kognitivních vědách](@/kompendium/07-teoreticke-reflexe/kognitivn
 | `NLP-02.21` | [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) | Perceptual positions (concept) | pojem | terapeutické i vlivové | střední |
 | `NLP-02.22` | [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) | Meta-position | pojem | terapeutické i vlivové | střední |
 | `NLP-02.23` | [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) | Association | pojem | terapeutické i vlivové | střední |
-| `NLP-02.24` | [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) | Dissociation | pojem | terapeutické i vlivové | vysoké |
+| `NLP-02.24` | [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) | Dissociation (NLP sense) | pojem | terapeutické i vlivové | vysoké |
 | `NLP-02.25` | [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) | Congruence | pojem | terapeutické i vlivové | střední |
 | `NLP-02.26` | [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) | Incongruence | pojem | terapeutické i vlivové | vysoké |
 | `NLP-02.27` | [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) | Ecology check | pojem | terapeutické i vlivové | střední |

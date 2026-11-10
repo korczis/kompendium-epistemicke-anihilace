@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "intersubjective_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-047-absolutni-intersubjektivni-anihilace",
+  "metadata": {
+    "index": 47,
+    "source": "index",
+    "anchor": "absolutni-intersubjektivni-anihilace",
+    "extracted_category_cs": "INTERSUBJEKTIVNÍ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "INTERSUBJEKTIVNÍ ANIHILACE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Absolutní intersubjektivní anihilace",
+    "en": "Absolute Intersubjective Annihilation"
+  },
+  "page_number": 78,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "intersubjective_annihilation",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

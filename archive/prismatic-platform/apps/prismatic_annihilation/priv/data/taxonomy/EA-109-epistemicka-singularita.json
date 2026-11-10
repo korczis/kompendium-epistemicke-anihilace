@@ -1,0 +1,54 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "terminalni_epistemicka_katastrofa",
+  "cross_references": [
+    "singularita-transfinalni-epistemicka",
+    "epistemicka-cerna-dira",
+    "ontologicka-anihilace"
+  ],
+  "defense_strategies": [
+    "Pouze preventivní"
+  ],
+  "description": {
+    "cs": "Bod absolutní epistemické destrukce, za nímž kolabují veškeré poznávací struktury a kategorie, včetně kategorií umožňujících konceptualizaci tohoto kolapsu.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Totální kognitivní kolaps",
+    "epistemická katatonie",
+    "zánik subjektivity"
+  ],
+  "domain": "celkova_kognitivni_architektura",
+  "example": {
+    "cs": "Filozof specializující se na fundamentální metafyzické a epistemologické otázky se během intenzivního výzkumu dostává do bodu, kdy jeho analýza odhaluje absolutní neudržitelnost jakýchkoliv metafyzických či epistemologických kategorií. Toto zjištění spouští kaskádovitý efekt, kdy postupně kolabují všechny základní koncepty, kterými strukturuje svou zkušenost a myšlení – čas, prostor, kauzalita, identita, reference, význam, a nakonec i samotné kategorie \"myšlení\" nebo \"zkušenost\". V určitém momentu dosahuje bodu, za kterým leží absolutní epistemická singularita – stav, který nelze ani konceptualizovat ani prožít v rámci jakýchkoliv dostupných kategorií. Kolegové nacházejí filozofa v stavu podobném katatonii – je fyzicky přítomen, ale zdá se být zcela neschopen jakékoliv kognitivní aktivity, dokonce i nejzákladnějších forem konceptualizace či kategorizace. Jeho vědomí jako by se nacházelo za \"epistemickým horizontem událostí\", odkud není možný návrat k jakékoliv formě běžného lidského poznání či zkušenosti."
+  },
+  "id": "EA-109-epistemicka-singularita",
+  "metadata": {
+    "index": 109,
+    "source": "primary",
+    "anchor": "epistemicka-singularita",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Terminální epistemická katastrofa"
+  },
+  "name": {
+    "cs": "Epistemická singularita",
+    "en": "Epistemic Singularity"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "practically_irreversible",
+    "score": 0.05
+  },
+  "severity": {
+    "level": "extreme",
+    "score": 1.0
+  },
+  "subcategory": null,
+  "temporal_profile": "nahly",
+  "typical_manifestations": [
+    "Totální kognitivní kolaps",
+    "epistemická katatonie",
+    "zánik subjektivity"
+  ]
+}

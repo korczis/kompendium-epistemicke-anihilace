@@ -1,0 +1,51 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "komplexni_metakognitivni_porucha",
+  "cross_references": [],
+  "defense_strategies": [
+    "Multimodální rekonstrukce",
+    "terapeutická integrace epistemických pólů"
+  ],
+  "description": {
+    "cs": "---\n\n## Definice\n\nEpistemická transverzální paralýza je stav, při němž subjekt ztrácí schopnost propojit poznatky, myšlenky a zkušenosti napříč různými doménami poznání. Na rozdíl od klasické kognitivní paralýzy, která blokuje myšlení uvnitř jedné domény, transverzální paralýza izoluje jednotlivé kognitivní oblasti od sebe.\n\nSubjekt je tak schopen v jednotlivých doménách do jisté míry fungovat (např. zvládá formální logiku, ale není schopen ji aplikovat na morální rozhodování), avšak není schopen vytvořit syntézu, integrovat poznatky do vyšších struktur porozumění, nebo extrapolovat znalosti mezi oblastmi.\n\nVýsledkem je pocit **epistemického \"vězení\"** v jednotlivých segmentech myšlení, neschopnost vidět širší souvislosti a hluboký existenční pocit fragmentace poznávacího světa.\n\n---\n\n## Mechanismus vzniku\n\nTypickými spouštěči mohou být:\n- **Systematická destrukce metakognitivních můstků** (např. opakované zpochybňování hodnoty aplikace poznatků mezi disciplínami)\n- **Hyperanalytické školení v izolovaných systémech** bez podpory interdoménové extrapolace\n- **Vystavení paradoxním situacím** kladoucím neslučitelné epistemické požadavky bez možnosti jejich integrace\n- **Chronická epistemická hyperinflace**, kdy narůstající požadavky na validitu poznání v jednotlivých doménách znemožňují jejich propojení\n\n---\n\n## Typické symptomy\n\n- **Izolované ostrůvky kognitivního výkonu** bez schopnosti jejich propojení\n- **Paralyzující pocit roztržení poznávací identity** (\"Jsem někdo jiný, když přemýšlím o matematice, někdo jiný, když hodnotím etické otázky.\")\n- **Neschopnost extrapolace a analogie** mezi disciplínami\n- **Přecitlivělost na pokusy o syntézu** (\"Tohle nelze propojit!\", \"Takové spojení je nesmyslné!\")\n- **Vysoká míra frustrace** při pokusu o komplexní pochopení světa jako celku\n- **Sklon k fixaci na jednotlivé epistemické režimy** (čistá logika vs. čistá zkušenost atd.)\n\n---\n\n## Příklad\n\n*Mladá výzkumnice je vystavena environmentu, kde je každý pokus o propojení znalostí z různých vědeckých disciplín (např. biologie a filozofie) zesměšňován jako \"neodborný\" nebo \"neseriózní\". Postupem času se učí pracovat v izolovaných epistemických režimech, ale při jakémkoliv pokusu o transverzální propojení zažívá paniku, pocit absurdity a dezorientaci. Po několika letech akademického působení zjišťuje, že je schopna analyzovat izolované problémy s brilancí, ale není schopna formulovat ani jednoduchou mezioborovou hypotézu nebo syntetizovat komplexní vizi světa. Její mysl je roztříštěna do nespojitého shluku ostrůvků odbornosti, mezi nimiž není žádný most.*\n\n---\n\n## Viz také\n- [Kognitivní fraktální dezintegrace](#kognitivni-fraktalni-dezintegrace)\n- [Absolutní epistemická anti-integrovatelnost](#absolutni-epistemicka-anti-integrovatelnost)\n- [Diskurzivní anihilace](#diskurzivni-anihilace)",
+    "en": null
+  },
+  "detection_patterns": [
+    "Ztráta schopnosti propojovat různé epistemické domény",
+    "mentální fragmentace",
+    "kognitivní uzamčení v izolovaných modelech"
+  ],
+  "domain": "transverzalni_kognitivni_integrace",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-112-epistemicka-transverzalni-paralyza",
+  "metadata": {
+    "index": 112,
+    "source": "archive",
+    "anchor": "epistemicka-transverzalni-paralyza",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Komplexní metakognitivní porucha"
+  },
+  "name": {
+    "cs": "Epistemická transverzální paralýza",
+    "en": "Epistemic Transverzalni Paralysis"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "extreme",
+    "score": 1.0
+  },
+  "subcategory": null,
+  "temporal_profile": "akutni_s_potencialem_chronifikace",
+  "typical_manifestations": [
+    "Ztráta schopnosti propojovat různé epistemické domény",
+    "mentální fragmentace",
+    "kognitivní uzamčení v izolovaných modelech"
+  ]
+}

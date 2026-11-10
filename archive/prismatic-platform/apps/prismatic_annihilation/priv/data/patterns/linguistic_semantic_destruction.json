@@ -1,0 +1,157 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.5,
+  "aggregate_severity": 0.6000000000000001,
+  "category": "linguistic_semantic_destruction",
+  "patterns": [
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní epistemická anti-analogičnost",
+      "name_en": "Absolute Epistemic Anti-analogicality",
+      "severity_score": 0.5,
+      "technique_id": "EA-006-absolutni-epistemicka-anti-analogicnost"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní epistemická anti-propozicionalita",
+      "name_en": "Absolute Epistemic Anti-propositionality",
+      "severity_score": 0.5,
+      "technique_id": "EA-019-absolutni-epistemicka-anti-propozicionalita"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Hyper-aposiopéza",
+      "name_en": "Hyper-aposiopesis",
+      "severity_score": 0.5,
+      "technique_id": "EA-120-hyper-aposiopeza"
+    },
+    {
+      "defense_strategies": [
+        "Syntaktická stabilizace",
+        "gramatická ritualizace",
+        "strukturální simplifikace",
+        "formálně-logická inokulace"
+      ],
+      "detection_patterns": [
+        "Gramatický kolaps",
+        "syntaktická fragmentace",
+        "agramatismus",
+        "kombinatorická dezintegrace",
+        "strukturální chaos"
+      ],
+      "manifestations": [
+        "Gramatický kolaps",
+        "syntaktická fragmentace",
+        "agramatismus",
+        "kombinatorická dezintegrace",
+        "strukturální chaos"
+      ],
+      "name_cs": "Hypersyntaktická anihilace",
+      "name_en": "Hypersyntactic Annihilation",
+      "severity_score": 0.95,
+      "technique_id": "EA-122-hypersyntakticka-anihilace"
+    },
+    {
+      "defense_strategies": [
+        "Meta-sémantická stabilizace",
+        "ostenzivní regrounding",
+        "sémantická segmentace",
+        "asignifikační imunizace"
+      ],
+      "detection_patterns": [
+        "Meta-významový kolaps",
+        "signifikační anihilace",
+        "sémantická neprostupnost",
+        "referenční vakuum",
+        "znakový chaos"
+      ],
+      "manifestations": [
+        "Meta-významový kolaps",
+        "signifikační anihilace",
+        "sémantická neprostupnost",
+        "referenční vakuum",
+        "znakový chaos"
+      ],
+      "name_cs": "Hypersémantická anihilace",
+      "name_en": "Hypersemantic Annihilation",
+      "severity_score": 0.95,
+      "technique_id": "EA-123-hypersemanticka-anihilace"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Lingvistická dezintegrace",
+      "name_en": "Linguistic Disintegration",
+      "severity_score": 0.5,
+      "technique_id": "EA-153-lingvisticka-dezintegrace"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Metadiskurzivní anihilace",
+      "name_en": "Metadiskurzivni Annihilation",
+      "severity_score": 0.5,
+      "technique_id": "EA-156-metadiskurzivni-anihilace"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Sémantická apokalypsa",
+      "name_en": "Semantic Apocalypse",
+      "severity_score": 0.5,
+      "technique_id": "EA-169-semanticka-apokalypsa"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Sémantická destabilizace",
+      "name_en": "Semantic Destabilization",
+      "severity_score": 0.5,
+      "technique_id": "EA-170-semanticka-destabilizace"
+    },
+    {
+      "defense_strategies": [
+        "Sémiotická karanténa",
+        "hermeneutická stabilizace",
+        "metajazyková imunizace",
+        "diskurzivní rekonstrukce"
+      ],
+      "detection_patterns": [
+        "Sémantická nestabilita",
+        "znakový parazitismus",
+        "virální šíření významů",
+        "signifikační entropie"
+      ],
+      "manifestations": [
+        "Sémantická nestabilita",
+        "znakový parazitismus",
+        "virální šíření významů",
+        "signifikační entropie"
+      ],
+      "name_cs": "Sémioinfekční kontaminace",
+      "name_en": "Semio-infectious Contamination",
+      "severity_score": 0.7,
+      "technique_id": "EA-171-semioinfekcni-kontaminace"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Transnarativní anihilace",
+      "name_en": "Trans-narrative Annihilation",
+      "severity_score": 0.5,
+      "technique_id": "EA-177-transnarativni-anihilace"
+    }
+  ],
+  "technique_count": 11
+}

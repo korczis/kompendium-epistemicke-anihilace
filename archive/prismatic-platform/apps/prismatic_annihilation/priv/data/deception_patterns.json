@@ -1,0 +1,350 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "source": "Ekman, DePaulo, Bond + Forensic Psychology Literature",
+    "last_updated": "2025-01-28",
+    "categories": 6,
+    "total_patterns": 36
+  },
+  "patterns": [
+    {
+      "id": "fabrication",
+      "name": "Fabrication",
+      "name_cs": "Fabrikace",
+      "category": "commission",
+      "description": "Creating completely false information presented as true",
+      "detection_difficulty": 0.5,
+      "linguistic_markers": {
+        "vague_sourcing": [
+          "sources say",
+          "reportedly",
+          "according to insiders",
+          "many believe",
+          "experts claim"
+        ],
+        "hedging_removal": [
+          "definitely",
+          "absolutely",
+          "without doubt",
+          "clearly",
+          "obviously"
+        ],
+        "detail_manipulation": [
+          "Excessive irrelevant details (to appear truthful)",
+          "Lack of sensory details (fabricated memories)",
+          "Inconsistent timeline details"
+        ]
+      },
+      "behavioral_markers": [
+        "Prepared narrative that doesn't adapt to questions",
+        "Chronological rather than spontaneous recall",
+        "Lack of self-corrections"
+      ],
+      "detection_strategies": [
+        "Ask unexpected questions",
+        "Request reverse-order recall",
+        "Probe for sensory details",
+        "Cross-reference with independent sources"
+      ]
+    },
+    {
+      "id": "paltering",
+      "name": "Paltering",
+      "name_cs": "Paltering (klamání pravdou)",
+      "category": "commission",
+      "description": "Using truthful statements to create false impressions",
+      "detection_difficulty": 0.8,
+      "linguistic_markers": {
+        "technically_true": [
+          "Statements that are accurate but misleading",
+          "Selected statistics that support false narrative",
+          "Quotes taken out of context"
+        ],
+        "implicature_exploitation": [
+          "Leading questions with truthful but misleading answers",
+          "Conversational implicature violations",
+          "Relevance maxim exploitation"
+        ]
+      },
+      "behavioral_markers": [
+        "Careful word choice",
+        "Avoidance of direct lies",
+        "Satisfaction when technically not lying"
+      ],
+      "detection_strategies": [
+        "Ask direct yes/no questions",
+        "Request complete context",
+        "Probe for omitted information",
+        "Verify underlying implications"
+      ]
+    },
+    {
+      "id": "omission",
+      "name": "Omission",
+      "name_cs": "Opomenutí",
+      "category": "omission",
+      "description": "Deceiving by withholding relevant information",
+      "detection_difficulty": 0.85,
+      "linguistic_markers": {
+        "completeness_signals": [
+          "that's all",
+          "nothing else",
+          "the whole story",
+          "everything you need to know"
+        ],
+        "topic_avoidance": [
+          "Subject changes when approaching sensitive topics",
+          "Vague responses to specific questions",
+          "Deflection to related but different topics"
+        ]
+      },
+      "behavioral_markers": [
+        "Tension when approaching omitted topics",
+        "Relief when conversation moves away",
+        "Overly brief responses to key questions"
+      ],
+      "detection_strategies": [
+        "Ask open-ended questions",
+        "Probe for what's NOT mentioned",
+        "Request timeline completeness",
+        "Ask 'what else' questions"
+      ]
+    },
+    {
+      "id": "equivocation",
+      "name": "Equivocation",
+      "name_cs": "Ekvivokace",
+      "category": "commission",
+      "description": "Using ambiguous language to mislead without lying",
+      "detection_difficulty": 0.75,
+      "linguistic_markers": {
+        "ambiguity_markers": [
+          "in a sense",
+          "sort of",
+          "kind of",
+          "in a way",
+          "it depends"
+        ],
+        "qualifier_stacking": [
+          "Multiple hedges in single statement",
+          "Escape clause language",
+          "Plausible deniability structures"
+        ]
+      },
+      "behavioral_markers": [
+        "Resistance to clarification requests",
+        "Circular definitions",
+        "Frustration when pinned down"
+      ],
+      "detection_strategies": [
+        "Request specific definitions",
+        "Ask for concrete examples",
+        "Pin down exact meaning",
+        "Paraphrase back for confirmation"
+      ]
+    },
+    {
+      "id": "exaggeration",
+      "name": "Exaggeration",
+      "name_cs": "Přehánění",
+      "category": "distortion",
+      "description": "Inflating or overstating facts",
+      "detection_difficulty": 0.4,
+      "linguistic_markers": {
+        "magnitude_amplifiers": [
+          "massive",
+          "enormous",
+          "unprecedented",
+          "countless",
+          "infinite"
+        ],
+        "frequency_distortion": [
+          "always",
+          "never",
+          "everyone",
+          "no one",
+          "constantly"
+        ],
+        "superlative_abuse": [
+          "best",
+          "worst",
+          "most",
+          "least",
+          "only"
+        ]
+      },
+      "behavioral_markers": [
+        "Difficulty providing specific numbers",
+        "Backtracking when challenged",
+        "Defensive when asked for evidence"
+      ],
+      "detection_strategies": [
+        "Request specific quantities",
+        "Ask for documentation",
+        "Compare to baseline data",
+        "Probe for edge cases"
+      ]
+    },
+    {
+      "id": "minimization",
+      "name": "Minimization",
+      "name_cs": "Minimalizace",
+      "category": "distortion",
+      "description": "Downplaying significance or impact",
+      "detection_difficulty": 0.5,
+      "linguistic_markers": {
+        "diminishing_language": [
+          "just",
+          "only",
+          "merely",
+          "a little",
+          "not that"
+        ],
+        "normalization": [
+          "everyone does it",
+          "it's normal",
+          "no big deal",
+          "happens all the time"
+        ]
+      },
+      "behavioral_markers": [
+        "Quick dismissal of concerns",
+        "Comparison to worse cases",
+        "Irritation at detailed probing"
+      ],
+      "detection_strategies": [
+        "Ask about specific impacts",
+        "Request affected parties' perspectives",
+        "Probe for what was at stake",
+        "Compare to similar incidents"
+      ]
+    },
+    {
+      "id": "misdirection",
+      "name": "Misdirection",
+      "name_cs": "Odvedení pozornosti",
+      "category": "diversion",
+      "description": "Directing attention away from relevant information",
+      "detection_difficulty": 0.6,
+      "linguistic_markers": {
+        "attention_redirects": [
+          "but more importantly",
+          "the real issue is",
+          "what really matters",
+          "look over here"
+        ],
+        "red_herrings": [
+          "Irrelevant but emotionally charged topics",
+          "Personal attacks",
+          "Appeals to other concerns"
+        ]
+      },
+      "behavioral_markers": [
+        "Frequent topic changes",
+        "Introduction of new concerns",
+        "Avoidance of return to original topic"
+      ],
+      "detection_strategies": [
+        "Note topic changes",
+        "Return to original questions",
+        "Ask why new topic is relevant",
+        "Maintain conversation focus"
+      ]
+    },
+    {
+      "id": "projection",
+      "name": "Projection",
+      "name_cs": "Projekce",
+      "category": "psychological",
+      "description": "Attributing one's own actions or intentions to others",
+      "detection_difficulty": 0.65,
+      "linguistic_markers": {
+        "accusation_patterns": [
+          "Accusing others of own behaviors",
+          "Preemptive accusations",
+          "Detailed knowledge of 'other's' methods"
+        ],
+        "displacement_language": [
+          "they're the ones who",
+          "not me, they",
+          "I would never, but they"
+        ]
+      },
+      "behavioral_markers": [
+        "Excessive focus on others' potential wrongdoing",
+        "Detailed description of attributed behavior",
+        "Defensive when parallels noted"
+      ],
+      "detection_strategies": [
+        "Note specificity of accusations",
+        "Compare to accuser's history",
+        "Probe for evidence of claims",
+        "Observe reaction to reversed questions"
+      ]
+    }
+  ],
+  "detection_framework": {
+    "verbal_cues": {
+      "content": [
+        "Lack of detail",
+        "Inconsistencies",
+        "Unusual word choices",
+        "Negative statements",
+        "Lack of self-reference"
+      ],
+      "structure": [
+        "Disorganized narratives",
+        "Lack of spontaneous corrections",
+        "Rehearsed-sounding responses",
+        "Chronological-only recall"
+      ]
+    },
+    "nonverbal_cues": {
+      "reliability": "Low - most nonverbal cues are unreliable",
+      "notable_patterns": [
+        "Cognitive load indicators (slower speech, longer pauses)",
+        "Inconsistency between verbal and nonverbal",
+        "Unusual baseline deviations"
+      ]
+    },
+    "best_practices": [
+      "Use open-ended questions",
+      "Ask for reverse-order recall",
+      "Probe for unexpected details",
+      "Compare multiple accounts",
+      "Note behavioral baselines first"
+    ]
+  },
+  "categories": {
+    "commission": {
+      "name": "Acts of Commission",
+      "description": "Active creation of false impressions",
+      "patterns": ["fabrication", "paltering", "equivocation"]
+    },
+    "omission": {
+      "name": "Acts of Omission",
+      "description": "Deception through withholding",
+      "patterns": ["omission", "concealment", "selective_disclosure"]
+    },
+    "distortion": {
+      "name": "Distortion",
+      "description": "Manipulation of factual magnitude",
+      "patterns": ["exaggeration", "minimization", "spin"]
+    },
+    "diversion": {
+      "name": "Diversion",
+      "description": "Redirecting attention and focus",
+      "patterns": ["misdirection", "red_herring", "whataboutism"]
+    },
+    "psychological": {
+      "name": "Psychological",
+      "description": "Defense mechanism-based deception",
+      "patterns": ["projection", "denial", "rationalization"]
+    },
+    "social": {
+      "name": "Social Deception",
+      "description": "Socially-oriented deceptive behavior",
+      "patterns": ["impression_management", "strategic_self_presentation"]
+    }
+  }
+}

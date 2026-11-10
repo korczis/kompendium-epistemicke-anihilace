@@ -1,0 +1,55 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "negacni_rekurzivni_epistemicka_technika",
+  "cross_references": [
+    "cirkularita-destruktivni",
+    "implozivni-rekurze",
+    "hyperparadox"
+  ],
+  "defense_strategies": [
+    "Hierarchická typizace",
+    "přerušení rekurzivního cyklu"
+  ],
+  "description": {
+    "cs": "Proces, při němž každý pokus o poznání aktivuje mechanismus, který toto poznání neguje, přičemž i tato negace je následně negována, vytvářející nekonečnou regresivní smyčku.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Nekonečná negativní rekurze",
+    "nemožnost pozitivní artikulace",
+    "epistemická oscilace"
+  ],
+  "domain": "iterativni_kognitivni_procesy",
+  "example": {
+    "cs": "Filozof pracující na epistemologické teorii formuluje tezi o povaze poznání. Při reflexi této teze dochází k závěru, že jeho teze sama podléhá limitům, které identifikuje v povaze poznání, a proto musí být negována. Když však reflektuje tuto negaci, zjišťuje, že i ona sama podléhá stejným limitům, a proto musí být také negována. Tato druhá negace však při další reflexi opět vykazuje stejné limity, a tak musí být negována... Tento proces pokračuje do potenciálního nekonečna, s každou iterací alternující mezi afirmací a negací, přičemž žádná úroveň nemůže být stabilizována jako finální. Po měsících marných pokusů o nalezení stabilního bodu nebo ukončení této rekurzivní smyčky filozof zjišťuje, že je neschopen formulovat jakoukoliv stabilní epistemickou pozici – jeho myšlení osciluje v nekonečné rekurzivní smyčce negací, kde každý moment afirmace okamžitě aktivuje negaci, která sama aktivuje negaci negace, ad infinitum."
+  },
+  "id": "EA-108-epistemicka-rekurzivni-negace",
+  "metadata": {
+    "index": 108,
+    "source": "primary",
+    "anchor": "epistemicka-rekurzivni-negace",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Negační rekurzivní epistemická technika"
+  },
+  "name": {
+    "cs": "Epistemická rekurzivní negace",
+    "en": "Epistemic Recursive Negation"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "difficult",
+    "score": 0.25
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": null,
+  "temporal_profile": "rekurzivni",
+  "typical_manifestations": [
+    "Nekonečná negativní rekurze",
+    "nemožnost pozitivní artikulace",
+    "epistemická oscilace"
+  ]
+}

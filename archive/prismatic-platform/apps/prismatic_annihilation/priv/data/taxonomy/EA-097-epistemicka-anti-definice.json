@@ -1,0 +1,62 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "semanticka_dezintegrace",
+  "cross_references": [
+    "semanticka-destabilizace",
+    "absolutni-epistemicka-anti-definice",
+    "konceptualni-anihilace"
+  ],
+  "defense_strategies": [
+    "Sémantická stabilizace",
+    "stipulativní fixace",
+    "pragmatická regulace",
+    "kontextuální omezení",
+    "ostenzivní kotevention"
+  ],
+  "description": {
+    "cs": "Epistemická anti-definice představuje fenomén systematického rozpadu možnosti jasně a stabilně definovat pojmy, který vede k fundamentální neurčitosti významů a znemožňuje vytvářet pevné konceptuální sítě jako základ poznání. Tento proces narušuje základní sémantické mechanismy, které za normálních okolností umožňují fixaci významu, jednoznačné vymezení rozsahu pojmů a vytváření koherentních taxonomických systémů. Výsledkem je stav radikální konceptuální fluidity, v němž pojmy ztrácejí svou operativní funkci jako stabilní nástroje poznání.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Definitorická nestabilita",
+    "významová neurčitost",
+    "konceptuální fluidita",
+    "referenční rozostření",
+    "sémantický drift"
+  ],
+  "domain": "konceptualni_struktury_a_semanticka_stabilita",
+  "example": {
+    "cs": "Mezioborový výzkumný tým se snaží vytvořit jednotnou taxonomii a definitorický rámec pro studium \"vědomí\" napříč různými disciplínami včetně neurověd, kognitivní psychologie, filozofie mysli a umělé inteligence. Zpočátku optimisticky předpokládají, že i přes různost přístupů bude možné dospět k určitému konsenzu ohledně základní definice tohoto klíčového pojmu. Brzy však narážejí na fundamentální obtíže. Každý pokus o definici vědomí buď vede k cirkularitě (definování vědomí prostřednictvím pojmů, které samy předpokládají pojem vědomí), nebo k nekonečnému regresu dalších definic. Navíc zjišťují, že čím preciznější definici formulují, tím více sporných případů a hraničních fenoménů se objevuje, které definici problematizují. Po několika letech intenzivního úsilí producují nikoliv jednotnou definici, ale ohromující taxonomii stovek různých pojetí vědomí, z nichž každé zdůrazňuje jiné aspekty a operuje s odlišnými kritérii. Paradoxně, jejich snaha o definitorickou clarifikaci vedla k exponenciálnímu nárůstu sémantické komplexity a neurčitosti. V pozdější fázi projektu některé výzkumníky napadá, zda samotná idea \"definice vědomí\" není fundamentálně problematická, a zda by nebylo produktivnější přijmout pluralistický přístup, který akceptuje určitou míru významové neurčitosti jako nevyhnutelnou součást studia komplexních fenoménů."
+  },
+  "id": "EA-097-epistemicka-anti-definice",
+  "metadata": {
+    "index": 97,
+    "source": "archive",
+    "anchor": "epistemicka-anti-definice",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Sémantická dezintegrace"
+  },
+  "name": {
+    "cs": "Epistemická anti-definice",
+    "en": "Epistemic Anti-definition"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "difficult",
+    "score": 0.25
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": null,
+  "temporal_profile": "gradualni_s_kaskadovitymi_efekty",
+  "typical_manifestations": [
+    "Definitorická nestabilita",
+    "významová neurčitost",
+    "konceptuální fluidita",
+    "referenční rozostření",
+    "sémantický drift"
+  ]
+}

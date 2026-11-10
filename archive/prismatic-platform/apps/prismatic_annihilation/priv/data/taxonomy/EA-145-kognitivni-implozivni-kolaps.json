@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "cognitive_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-145-kognitivni-implozivni-kolaps",
+  "metadata": {
+    "index": 145,
+    "source": "index",
+    "anchor": "kognitivni-implozivni-kolaps",
+    "extracted_category_cs": "KOGNITIVNÍ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "KOGNITIVNÍ STRUKTURÁLNÍ DESTRUKCE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Kognitivní implozivní kolaps",
+    "en": "Cognitive Implozivni Collapse"
+  },
+  "page_number": 68,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "cognitive_structural_destruction",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

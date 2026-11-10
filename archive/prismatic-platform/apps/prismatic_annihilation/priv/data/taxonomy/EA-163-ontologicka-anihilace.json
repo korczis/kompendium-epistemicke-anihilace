@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "ontological_destruction",
+  "cross_references": [
+    "ontologicka-nebytnost",
+    "ontologicka-anti-determinace",
+    "ontologicka-desubjektifikace"
+  ],
+  "defense_strategies": [
+    "Ontologické ukotvení",
+    "metafyzická rekonstrukce",
+    "fenomenologická redukce",
+    "existenciální reafirmace"
+  ],
+  "description": {
+    "cs": "Ontologická anihilace představuje radikální proces zpochybnění a destrukce fundamentálních ontologických kategorií, při němž dochází k systematickému rozkladu konceptů jsoucna, bytí a existence. Jedná se o fenomén, který přesahuje pouhou filozofickou skepsi a manifestuje se jako aktivní dekonstrukce ontologických základů, na nichž stojí naše porozumění realitě jako takové.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Bytostná nejistota",
+    "existenciální prázdnota",
+    "ontologická dezorientace",
+    "strukturální kolaps reality"
+  ],
+  "domain": "fundamentalni_ontologicke_struktury",
+  "example": {
+    "cs": "Filozof zabývající se fundamentální ontologií postupně prochází procesem ontologické anihilace ve svém myšlení. Zpočátku se jedná o subtilní posun v jeho filozofických pozicích, kdy začíná zpochybňovat tradiční metafyzické kategorie a experimentovat s radikálními formami ontologického relativismu. Postupem času však tento proces nabývá na intenzitě. Filozof zjišťuje, že jakýkoli pokus o artikulaci pozitivní ontologické teorie nevyhnutelně kolabuje do sebe-zpochybňujících paradoxů. Každý ontologický koncept, který se pokusí formulovat, se při důsledné analýze ukazuje jako vnitřně rozporný nebo prázdný. Jeho akademické publikace se postupně transformují ze systematických ontologických pojednání na fragmentární texty plné přerušených myšlenkových linií, aporetických struktur a metajazykových smyček, které neustále podkopávají vlastní ontologické předpoklady. V pokročilém stadiu procesu filozof ztrácí schopnost jasně distingovat mezi \"skutečným\" a \"neskutečným\", mezi \"existujícím\" a \"neexistujícím\". Realita se mu jeví jako neuchopitelný flux bez stabilní struktury či kategoriálního řádu. Nakonec dospívá do stavu, kdy každá ontologická výpověď – včetně výpovědi o \"bytí\", \"existenci\" či \"realitě\" – je okamžitě následována jejím zpochybněním a dekonstrukcí, což vede k fundamentální nemožnosti formulovat jakýkoli koherentní ontologický diskurz."
+  },
+  "id": "EA-163-ontologicka-anihilace",
+  "metadata": {
+    "index": 163,
+    "source": "archive",
+    "anchor": "ontologicka-anihilace",
+    "extracted_category_cs": "ONTOLOGICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "ONTOLOGICKÁ ANIHILACE",
+    "raw_kategorie": "Ontologická destrukce"
+  },
+  "name": {
+    "cs": "Ontologická anihilace",
+    "en": "Ontological Annihilation"
+  },
+  "page_number": 60,
+  "reversibility": {
+    "level": "very_difficult",
+    "score": 0.15
+  },
+  "severity": {
+    "level": "critical",
+    "score": 0.95
+  },
+  "subcategory": "ontological_annihilation",
+  "temporal_profile": "kaskadovity_proces_s_nevratnymi_prahovymi_body",
+  "typical_manifestations": [
+    "Bytostná nejistota",
+    "existenciální prázdnota",
+    "ontologická dezorientace",
+    "strukturální kolaps reality"
+  ]
+}

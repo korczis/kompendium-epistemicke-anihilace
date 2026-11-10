@@ -1,0 +1,56 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "komunikacni_destruktivni_technika",
+  "cross_references": [
+    "lingvisticka-dezintegrace",
+    "metadiskurzivni-anihilace",
+    "propozicionalita-anti-epistemicka"
+  ],
+  "defense_strategies": [
+    "Minimalistická komunikace",
+    "externalizace komunikačních struktur"
+  ],
+  "description": {
+    "cs": "Systematická destrukce podmínek možnosti jakéhokoliv smysluplného diskurzu, vedoucí k nemožnosti artikulace, komunikace a sdílení myšlenek.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Neschopnost smysluplné artikulace",
+    "komunikační paralýza",
+    "sémantická izolace",
+    "nemožnosti artikulace, komunikace a sdílení myšlenek"
+  ],
+  "domain": "diskurzivni_kognitivni_struktury",
+  "example": {
+    "cs": "Lingvistka specializující se na diskurzivní analýzu je během workshopu vystavena sérii argumentů a cvičení, které systematicky podkopávají podmínky možnosti jakéhokoliv diskurzu. Nejprve jsou dekonstruovány základní předpoklady komunikace jako sdílený význam, referenční vztah k realitě nebo možnost přenosu intence. Následně jsou zpochybněny i meta-diskurzivní koncepty používané k reflexi těchto problémů. Jakýkoliv pokus o artikulaci stanoviska je okamžitě podroben dekonstrukci, která odhaluje jeho nevyhnutelnou sebepodkopávající povahu. Po několika dnech takového workshopu lingvistka zjišťuje, že ztratila schopnost formulovat jakékoliv koherentní myšlenky nebo stanoviska, která by považovala za komunikovatelná – každý pokus o artikulaci se zdá být předem odsouzen k nekoherenci, nepochopení nebo naprosté nesmyslnosti, což vede k fundamentální komunikační paralýze."
+  },
+  "id": "EA-090-diskurzivni-anihilace",
+  "metadata": {
+    "index": 90,
+    "source": "primary",
+    "anchor": "diskurzivni-anihilace",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Komunikační destruktivní technika"
+  },
+  "name": {
+    "cs": "Diskurzivní anihilace",
+    "en": "Diskurzivni Annihilation"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "difficult",
+    "score": 0.25
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": null,
+  "temporal_profile": "postupny",
+  "typical_manifestations": [
+    "Neschopnost smysluplné artikulace",
+    "komunikační paralýza",
+    "sémantická izolace"
+  ]
+}

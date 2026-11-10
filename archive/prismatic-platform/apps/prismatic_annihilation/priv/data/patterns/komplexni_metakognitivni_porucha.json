@@ -1,0 +1,29 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.5,
+  "aggregate_severity": 1.0,
+  "category": "komplexni_metakognitivni_porucha",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Multimodální rekonstrukce",
+        "terapeutická integrace epistemických pólů"
+      ],
+      "detection_patterns": [
+        "Ztráta schopnosti propojovat různé epistemické domény",
+        "mentální fragmentace",
+        "kognitivní uzamčení v izolovaných modelech"
+      ],
+      "manifestations": [
+        "Ztráta schopnosti propojovat různé epistemické domény",
+        "mentální fragmentace",
+        "kognitivní uzamčení v izolovaných modelech"
+      ],
+      "name_cs": "Epistemická transverzální paralýza",
+      "name_en": "Epistemic Transverzalni Paralysis",
+      "severity_score": 1.0,
+      "technique_id": "EA-112-epistemicka-transverzalni-paralyza"
+    }
+  ],
+  "technique_count": 1
+}

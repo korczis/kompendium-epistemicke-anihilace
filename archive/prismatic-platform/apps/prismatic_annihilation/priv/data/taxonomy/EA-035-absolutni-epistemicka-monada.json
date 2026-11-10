@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "epistemic_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-035-absolutni-epistemicka-monada",
+  "metadata": {
+    "index": 35,
+    "source": "index",
+    "anchor": "absolutni-epistemicka-monada",
+    "extracted_category_cs": "EPISTEMICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "ZÁKLADNÍ EPISTEMICKÁ ANIHILACE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Absolutní epistemická monáda",
+    "en": "Absolute Epistemic Monad"
+  },
+  "page_number": 69,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "basic_epistemic_annihilation",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

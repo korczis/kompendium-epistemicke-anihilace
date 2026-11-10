@@ -1,0 +1,54 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.5,
+  "aggregate_severity": 0.5,
+  "category": "intersubjective_destruction",
+  "patterns": [
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní intersubjektivní anihilace",
+      "name_en": "Absolute Intersubjective Annihilation",
+      "severity_score": 0.5,
+      "technique_id": "EA-047-absolutni-intersubjektivni-anihilace"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní kognitivní anti-rekuperace",
+      "name_en": "Absolute Cognitive Anti-recuperation",
+      "severity_score": 0.5,
+      "technique_id": "EA-056-absolutni-kognitivni-anti-rekuperace"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Epistemická virulence",
+      "name_en": "Epistemic Virulence",
+      "severity_score": 0.5,
+      "technique_id": "EA-113-epistemicka-virulence"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Kognitivní hypervirulenční infekce",
+      "name_en": "Cognitive Hypervirulent Infection",
+      "severity_score": 0.5,
+      "technique_id": "EA-144-kognitivni-hypervirulencni-infekce"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Koordinovaná multipersonální gaslighting strategie",
+      "name_en": "Coordinated Multipersonal Gaslighting Strategy",
+      "severity_score": 0.5,
+      "technique_id": "EA-152-koordinovana-multipersonalni-gaslighting-strategie"
+    }
+  ],
+  "technique_count": 5
+}

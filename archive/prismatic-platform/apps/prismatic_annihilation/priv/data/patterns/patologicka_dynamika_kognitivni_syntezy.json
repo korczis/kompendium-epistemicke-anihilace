@@ -1,0 +1,26 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.5,
+  "aggregate_severity": 1.0,
+  "category": "patologicka_dynamika_kognitivni_syntezy",
+  "patterns": [
+    {
+      "defense_strategies": [],
+      "detection_patterns": [
+        "Explozivní epistemické přetížení",
+        "kognitivní zkratky",
+        "imploze myšlenkových struktur"
+      ],
+      "manifestations": [
+        "Explozivní epistemické přetížení",
+        "kognitivní zkratky",
+        "imploze myšlenkových struktur"
+      ],
+      "name_cs": "Syndrom epistemické přetlakové komory",
+      "name_en": "Syndrom Epistemicke Pretlakove Komory",
+      "severity_score": 1.0,
+      "technique_id": "EA-168-syndrom-epistemicke-pretlakove-komory"
+    }
+  ],
+  "technique_count": 1
+}

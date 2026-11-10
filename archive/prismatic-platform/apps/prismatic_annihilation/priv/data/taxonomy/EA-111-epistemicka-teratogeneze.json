@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "conceptual_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-111-epistemicka-teratogeneze",
+  "metadata": {
+    "index": 111,
+    "source": "index",
+    "anchor": "epistemicka-teratogeneze",
+    "extracted_category_cs": "KONCEPTUÁLNÍ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "KONCEPTUÁLNÍ ANIHILACE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Epistemická teratogeneze",
+    "en": "Epistemic Teratogenesis"
+  },
+  "page_number": 93,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "conceptual_annihilation",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

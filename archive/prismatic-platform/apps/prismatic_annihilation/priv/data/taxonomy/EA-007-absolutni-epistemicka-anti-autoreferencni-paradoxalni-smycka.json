@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "epistemic_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-007-absolutni-epistemicka-anti-autoreferencni-paradoxalni-smycka",
+  "metadata": {
+    "index": 7,
+    "source": "index",
+    "anchor": "absolutni-epistemicka-anti-autoreferencni-paradoxalni-smycka",
+    "extracted_category_cs": "EPISTEMICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "EPISTEMICKÁ PARADOXALITA",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Absolutní epistemická anti-autoreferenční paradoxální smyčka",
+    "en": "Absolute Epistemic Anti-self-referential Paradoxical Loop"
+  },
+  "page_number": 123,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "epistemic_paradoxicality",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

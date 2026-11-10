@@ -1,0 +1,57 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "ontological_destruction",
+  "cross_references": [],
+  "defense_strategies": [
+    "Metafyzický realismus",
+    "ontologická reafirmace",
+    "transcendentální ukotvení",
+    "existenciální stabilizace"
+  ],
+  "description": {
+    "cs": "Metafyzický nihilismus představuje radikální filozofickou pozici, která systematicky popírá existenci jakýchkoli metafyzických entit, struktur či fundamentů reality. Tento přístup transcenduje běžný filozofický skepticismus či metodologický antirealismus a manifestuje se jako totální negace existence čehokoli, co by mohlo být považováno za ontologicky fundamentální. Namísto pouhé kritiky určitých metafyzických koncepcí či postulátů, metafyzický nihilismus směřuje k úplnému vyprázdnění ontologických kategorií a fundamentálnímu zpochybnění bytí jako takového, což vede k radikální konceptualizaci reality jako fundamentální prázdnoty či absence.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Ontologické vyprázdnění",
+    "bytostná absence",
+    "metafyzická deflace",
+    "fundamentální iluze",
+    "radikální kontingenčnost"
+  ],
+  "domain": "metafyzicke_struktury_a_ontologicke_kategorie",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-158-metafyzicky-nihilismus",
+  "metadata": {
+    "index": 158,
+    "source": "archive",
+    "anchor": "metafyzicky-nihilismus",
+    "extracted_category_cs": "ONTOLOGICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "ONTOLOGICKÁ ANIHILACE",
+    "raw_kategorie": "Ontologická negace"
+  },
+  "name": {
+    "cs": "Metafyzický nihilismus",
+    "en": "Metaphysical Nihilism"
+  },
+  "page_number": 103,
+  "reversibility": {
+    "level": "difficult",
+    "score": 0.25
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "ontological_annihilation",
+  "temporal_profile": "gradualni_s_potencialem_k_nahlym_diskontinuitam_a_kaskadovitym_kolapsum",
+  "typical_manifestations": [
+    "Ontologické vyprázdnění",
+    "bytostná absence",
+    "metafyzická deflace",
+    "fundamentální iluze",
+    "radikální kontingenčnost"
+  ]
+}

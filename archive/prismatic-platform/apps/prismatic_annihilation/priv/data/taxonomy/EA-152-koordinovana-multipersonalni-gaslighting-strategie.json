@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "intersubjective_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-152-koordinovana-multipersonalni-gaslighting-strategie",
+  "metadata": {
+    "index": 152,
+    "source": "index",
+    "anchor": "koordinovana-multipersonalni-gaslighting-strategie",
+    "extracted_category_cs": "INTERSUBJEKTIVNÍ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "INTERSUBJEKTIVNÍ ANIHILACE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Koordinovaná multipersonální gaslighting strategie",
+    "en": "Coordinated Multipersonal Gaslighting Strategy"
+  },
+  "page_number": 51,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "intersubjective_annihilation",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

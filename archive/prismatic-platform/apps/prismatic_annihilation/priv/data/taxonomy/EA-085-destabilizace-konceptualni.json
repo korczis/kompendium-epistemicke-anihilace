@@ -1,0 +1,55 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "pojmova_destruktivni_technika",
+  "cross_references": [
+    "semanticka-destabilizace",
+    "semioinfekcni-kontaminace",
+    "koncepcni-nuklearni-zima"
+  ],
+  "defense_strategies": [
+    "Operacionální definice",
+    "kontextuální precizace"
+  ],
+  "description": {
+    "cs": "Proces systematického narušování stability konceptů a pojmů, který vede k jejich neustálému významovému posunu, rozostření a nemožnosti jejich fixace pro účely koherentního myšlení.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Sémantická nejistota",
+    "neschopnost fixace významu",
+    "vágnost myšlení"
+  ],
+  "domain": "konceptualni_kognitivni_struktury",
+  "example": {
+    "cs": "Začínající filozof se účastní semináře o klíčovém konceptu \"spravedlnost\". Během diskuse je každá navržená definice spravedlnosti systematicky destabilizována. Když navrhne distribuční pojetí spravedlnosti, je konfrontován s případy, kdy toto pojetí selhává, a je nucen definici modifikovat. Každá modifikace však otevírá prostor pro nové protipříklady a nutnost dalších modifikací. Navíc, samotné komponenty definice (jako \"rovnost\" nebo \"zásluha\") jsou samy podrobeny podobnému procesu destabilizace. Po několika týdnech semináře se původně jasný koncept \"spravedlnost\" rozostřil do té míry, že student není schopen použít tento termín v jakémkoliv precizním smyslu. Při pokusu o jakoukoliv argumentaci zahrnující tento koncept se ocitá v situaci, kdy význam klíčových termínů neustále uniká, posouvá se a transformuje, což znemožňuje formulaci jakéhokoliv koherentního stanoviska."
+  },
+  "id": "EA-085-destabilizace-konceptualni",
+  "metadata": {
+    "index": 85,
+    "source": "primary",
+    "anchor": "destabilizace-konceptualni",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Pojmová destruktivní technika"
+  },
+  "name": {
+    "cs": "Destabilizace konceptuální",
+    "en": "Destabilization Conceptual"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "partially_reversible",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "medium_high",
+    "score": 0.7
+  },
+  "subcategory": null,
+  "temporal_profile": "postupny",
+  "typical_manifestations": [
+    "Sémantická nejistota",
+    "neschopnost fixace významu",
+    "vágnost myšlení"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.25,
+  "aggregate_severity": 0.8,
+  "category": "semanticka_dezintegrace",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Sémantická stabilizace",
+        "stipulativní fixace",
+        "pragmatická regulace",
+        "kontextuální omezení",
+        "ostenzivní kotevention"
+      ],
+      "detection_patterns": [
+        "Definitorická nestabilita",
+        "významová neurčitost",
+        "konceptuální fluidita",
+        "referenční rozostření",
+        "sémantický drift"
+      ],
+      "manifestations": [
+        "Definitorická nestabilita",
+        "významová neurčitost",
+        "konceptuální fluidita",
+        "referenční rozostření",
+        "sémantický drift"
+      ],
+      "name_cs": "Epistemická anti-definice",
+      "name_en": "Epistemic Anti-definition",
+      "severity_score": 0.8,
+      "technique_id": "EA-097-epistemicka-anti-definice"
+    }
+  ],
+  "technique_count": 1
+}

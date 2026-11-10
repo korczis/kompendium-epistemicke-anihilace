@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "ontological_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-053-absolutni-kognitivni-anti-mediace",
+  "metadata": {
+    "index": 53,
+    "source": "index",
+    "anchor": "absolutni-kognitivni-anti-mediace",
+    "extracted_category_cs": "ONTOLOGICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "ONTOLOGICKÉ RELAČNÍ DESTRUKCE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Absolutní kognitivní anti-mediace",
+    "en": "Absolute Cognitive Anti-mediation"
+  },
+  "page_number": 148,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "ontological_relational_destruction",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

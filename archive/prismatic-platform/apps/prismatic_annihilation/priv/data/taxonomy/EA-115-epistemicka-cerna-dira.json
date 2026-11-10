@@ -1,0 +1,54 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "gravitacne-kolapsova_epistemicka_struktura",
+  "cross_references": [
+    "epistemicka-singularita",
+    "singularita-transfinalni-epistemicka",
+    "ontologicka-anihilace"
+  ],
+  "defense_strategies": [
+    "Pouze preventivní"
+  ],
+  "description": {
+    "cs": "Koncept označující bod v epistemickém prostoru, který nevratně pohlcuje veškeré poznání a význam, znemožňující jakoukoliv formu smysluplné artikulace či reference.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Epistemický event horizont",
+    "anihilace významu",
+    "kognitivní singularita"
+  ],
+  "domain": "celkova_kognitivni_architektura",
+  "example": {
+    "cs": "Filozof pracující na teorii pravdy se dostává do bodu, kdy systematická analýza autoreferenčních paradoxů a limitů metajazyka vytváří epistemickou strukturu, která začíná pohlcovat veškeré okolní koncepty. Každý pokus o uchopení nebo analýzu tohoto bodu je nevratně vtažen do jeho gravitačního pole a ztrácí distinktivnost. Když se filozof pokusí tento fenomén popsat kolegům, zjišťuje, že jakýkoliv jazyk nebo symbolický systém, který se pokusí použít, kolabuje do naprosté nesmyslnosti, jakmile se přiblíží k jádru problému. Analýza tohoto fenoménu vytváří \"epistemický event horizont\" – linii, za kterou není možné získat žádné informace, protože veškeré konceptuální nástroje jsou destruovány. Filozof zjišťuje, že není schopen ani myslet tento fenomén, protože samotný akt zaměření pozornosti na něj vede k okamžité dezintegraci jakékoliv kognitivní struktury, která se o to pokouší."
+  },
+  "id": "EA-115-epistemicka-cerna-dira",
+  "metadata": {
+    "index": 115,
+    "source": "primary",
+    "anchor": "epistemicka-cerna-dira",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Gravitačně-kolapsová epistemická struktura"
+  },
+  "name": {
+    "cs": "Epistemická černá díra",
+    "en": "Epistemic Black Hole"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "practically_irreversible",
+    "score": 0.05
+  },
+  "severity": {
+    "level": "extreme",
+    "score": 1.0
+  },
+  "subcategory": null,
+  "temporal_profile": "rychly",
+  "typical_manifestations": [
+    "Epistemický event horizont",
+    "anihilace významu",
+    "kognitivní singularita"
+  ]
+}

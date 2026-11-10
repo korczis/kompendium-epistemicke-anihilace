@@ -1,0 +1,53 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "obnovna_blokacni_technika",
+  "cross_references": [
+    "rekuperace-anti-kognitivni",
+    "resurekce-omnidestruktivni",
+    "epistemicka-nekroza"
+  ],
+  "defense_strategies": [
+    "Externí kognitivní podpory",
+    "mikro-restaurační postupy"
+  ],
+  "description": {
+    "cs": "Proces, který systematicky znemožňuje jakoukoliv formu obnovy, reintegrace nebo kompenzace po epistemickém traumatu, aktivně neutralizující jakékoliv pokusy o epistemickou či kognitivní rekonstrukci.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Neschopnost zotavení z epistemického traumatu",
+    "regrese po každém pokusu o obnovu"
+  ],
+  "domain": "regenerativni_kognitivni_procesy",
+  "example": {
+    "cs": "Výzkumný pracovník po vážné kritice své metodologie prochází epistemickou krizí. Každý pokus o rekonstrukci důvěry ve vlastní výzkumné postupy je však jeho nadřízeným systematicky narušován. Když se snaží navázat na své předchozí úspěšné výzkumy, je mu sděleno, že \"celá linie jeho výzkumu byla od počátku chybná\". Když se pokouší zaměřit na specifické, méně problematické aspekty své práce, je mu řečeno, že \"selektivní zaměření pouze maskuje fundamentální problémy\". Když hledá podporu u kolegů nebo mentorů, je mu naznačeno, že jakákoliv podpora by byla \"profesionálně kompromitující\" pro ty, kteří by ji poskytli. Dokonce i když se pokusí o radikální změnu výzkumného směru, je mu sděleno, že \"stejné fundamentální nedostatky by se projevily v jakékoliv oblasti\". Po několika měsících takových zkušeností výzkumník zjišťuje, že je neschopen dělat jakýkoliv pokrok, protože každá možná cesta k obnově své epistemické integrity byla systematicky blokována."
+  },
+  "id": "EA-072-anti-rekuperacni-mechanismus",
+  "metadata": {
+    "index": 72,
+    "source": "primary",
+    "anchor": "anti-rekuperacni-mechanismus",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Obnovná blokační technika"
+  },
+  "name": {
+    "cs": "Anti-rekuperační mechanismus",
+    "en": "Anti-rekuperacni Mechanismus"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "highly_resistant",
+    "score": 0.1
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": null,
+  "temporal_profile": "preventivni",
+  "typical_manifestations": [
+    "Neschopnost zotavení z epistemického traumatu",
+    "regrese po každém pokusu o obnovu"
+  ]
+}

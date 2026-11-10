@@ -1,0 +1,30 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.25,
+  "aggregate_severity": 0.8,
+  "category": "strukturalni_fragmentacni_technika",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Hierarchizace kritérií",
+        "pragmatický selektivismus"
+      ],
+      "detection_patterns": [
+        "Kognitivní fragmentace",
+        "multiplikace neslučitelných alternativ",
+        "rozhodovací paralýza",
+        "exponenciální fragmentaci poznávacího pole"
+      ],
+      "manifestations": [
+        "Kognitivní fragmentace",
+        "multiplikace neslučitelných alternativ",
+        "rozhodovací paralýza"
+      ],
+      "name_cs": "Bifurkace epistemická",
+      "name_en": "Bifurcation Epistemic",
+      "severity_score": 0.8,
+      "technique_id": "EA-077-bifurkace-epistemicka"
+    }
+  ],
+  "technique_count": 1
+}

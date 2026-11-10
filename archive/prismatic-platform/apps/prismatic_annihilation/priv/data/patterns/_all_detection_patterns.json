@@ -1,0 +1,1530 @@
+{
+  "$schema": "../schemas/detection_patterns.schema.json",
+  "patterns": [
+    {
+      "category": "epistemicka_manipulace",
+      "pattern": "Neschopnost určit pravdivostní hodnotu",
+      "severity_score": 0.7,
+      "technique_id": "EA-065-alethicky-rezim"
+    },
+    {
+      "category": "epistemicka_manipulace",
+      "pattern": "epistemická nejistota",
+      "severity_score": 0.7,
+      "technique_id": "EA-065-alethicky-rezim"
+    },
+    {
+      "category": "epistemicka_manipulace",
+      "pattern": "zmatení v základních hodnotících procesech",
+      "severity_score": 0.7,
+      "technique_id": "EA-065-alethicky-rezim"
+    },
+    {
+      "category": "patologicky_kognitivni_vzorec",
+      "pattern": "Myšlenkové smyčky",
+      "severity_score": 0.8,
+      "technique_id": "EA-066-anankasticky"
+    },
+    {
+      "category": "patologicky_kognitivni_vzorec",
+      "pattern": "nutkavá analýza",
+      "severity_score": 0.8,
+      "technique_id": "EA-066-anankasticky"
+    },
+    {
+      "category": "patologicky_kognitivni_vzorec",
+      "pattern": "neschopnost ukončit myšlenkové procesy",
+      "severity_score": 0.8,
+      "technique_id": "EA-066-anankasticky"
+    },
+    {
+      "category": "kognitivne-epistemicka_patologie",
+      "pattern": "Myšlenková rigidita",
+      "severity_score": 0.7,
+      "technique_id": "EA-067-anankasticky-rezim"
+    },
+    {
+      "category": "kognitivne-epistemicka_patologie",
+      "pattern": "hypertrofovaná systematizace",
+      "severity_score": 0.7,
+      "technique_id": "EA-067-anankasticky-rezim"
+    },
+    {
+      "category": "kognitivne-epistemicka_patologie",
+      "pattern": "kompulzivní koherence",
+      "severity_score": 0.7,
+      "technique_id": "EA-067-anankasticky-rezim"
+    },
+    {
+      "category": "kognitivne-epistemicka_patologie",
+      "pattern": "epistemická imunizace",
+      "severity_score": 0.7,
+      "technique_id": "EA-067-anankasticky-rezim"
+    },
+    {
+      "category": "kognitivne-epistemicka_patologie",
+      "pattern": "perzeverace",
+      "severity_score": 0.7,
+      "technique_id": "EA-067-anankasticky-rezim"
+    },
+    {
+      "category": "fundamentalni_epistemicka_destrukce",
+      "pattern": "Naprostá eliminace kognitivních kapacit",
+      "severity_score": 1.0,
+      "technique_id": "EA-068-anihilace"
+    },
+    {
+      "category": "fundamentalni_epistemicka_destrukce",
+      "pattern": "epistemické vakuum",
+      "severity_score": 1.0,
+      "technique_id": "EA-068-anihilace"
+    },
+    {
+      "category": "strukturalni_epistemicka_destrukce",
+      "pattern": "Neschopnost hierarchizovat informace",
+      "severity_score": 0.8,
+      "technique_id": "EA-069-anti-architektonika"
+    },
+    {
+      "category": "strukturalni_epistemicka_destrukce",
+      "pattern": "vytvářet kategorie",
+      "severity_score": 0.8,
+      "technique_id": "EA-069-anti-architektonika"
+    },
+    {
+      "category": "strukturalni_epistemicka_destrukce",
+      "pattern": "strukturální dezorganizace",
+      "severity_score": 0.8,
+      "technique_id": "EA-069-anti-architektonika"
+    },
+    {
+      "category": "systemicka_epistemicka_redukce",
+      "pattern": "Neschopnost vnímat vzorce",
+      "severity_score": 0.8,
+      "technique_id": "EA-070-anti-emergencni-pole"
+    },
+    {
+      "category": "systemicka_epistemicka_redukce",
+      "pattern": "integrovat informace",
+      "severity_score": 0.8,
+      "technique_id": "EA-070-anti-emergencni-pole"
+    },
+    {
+      "category": "systemicka_epistemicka_redukce",
+      "pattern": "redukcionistické uvěznění",
+      "severity_score": 0.8,
+      "technique_id": "EA-070-anti-emergencni-pole"
+    },
+    {
+      "category": "systemicka_epistemicka_redukce",
+      "pattern": "fundamentální nemožnosti vzniku jakýchkoliv emergentních vlastností či vzorců",
+      "severity_score": 0.8,
+      "technique_id": "EA-070-anti-emergencni-pole"
+    },
+    {
+      "category": "zakladova_epistemicka_destrukce",
+      "pattern": "Nemožnost ustanovit jakýkoliv výchozí bod",
+      "severity_score": 1.0,
+      "technique_id": "EA-071-anti-fundacionismus-radikalni"
+    },
+    {
+      "category": "zakladova_epistemicka_destrukce",
+      "pattern": "epistemický volný pád",
+      "severity_score": 1.0,
+      "technique_id": "EA-071-anti-fundacionismus-radikalni"
+    },
+    {
+      "category": "zakladova_epistemicka_destrukce",
+      "pattern": "vertigo",
+      "severity_score": 1.0,
+      "technique_id": "EA-071-anti-fundacionismus-radikalni"
+    },
+    {
+      "category": "obnovna_blokacni_technika",
+      "pattern": "Neschopnost zotavení z epistemického traumatu",
+      "severity_score": 0.8,
+      "technique_id": "EA-072-anti-rekuperacni-mechanismus"
+    },
+    {
+      "category": "obnovna_blokacni_technika",
+      "pattern": "regrese po každém pokusu o obnovu",
+      "severity_score": 0.8,
+      "technique_id": "EA-072-anti-rekuperacni-mechanismus"
+    },
+    {
+      "category": "artikulacni_epistemicka_negace",
+      "pattern": "Neschopnost pozitivní artikulace",
+      "severity_score": 0.8,
+      "technique_id": "EA-073-apofatie-epistemicka"
+    },
+    {
+      "category": "artikulacni_epistemicka_negace",
+      "pattern": "neustálé zpochybňování vlastních vyjádření",
+      "severity_score": 0.8,
+      "technique_id": "EA-073-apofatie-epistemicka"
+    },
+    {
+      "category": "logicky_destruktivni_mechanismus",
+      "pattern": "Kognitivní loop",
+      "severity_score": 0.8,
+      "technique_id": "EA-074-autoreferencni-paradox"
+    },
+    {
+      "category": "logicky_destruktivni_mechanismus",
+      "pattern": "neschopnost stabilizovat myšlenky",
+      "severity_score": 0.8,
+      "technique_id": "EA-074-autoreferencni-paradox"
+    },
+    {
+      "category": "logicky_destruktivni_mechanismus",
+      "pattern": "logický kolaps",
+      "severity_score": 0.8,
+      "technique_id": "EA-074-autoreferencni-paradox"
+    },
+    {
+      "category": "hodnotova_destruktivni_technika",
+      "pattern": "Axiologický nihilismus",
+      "severity_score": 0.95,
+      "technique_id": "EA-075-axiologicka-anihilace"
+    },
+    {
+      "category": "hodnotova_destruktivni_technika",
+      "pattern": "neschopnost evaluace",
+      "severity_score": 0.95,
+      "technique_id": "EA-075-axiologicka-anihilace"
+    },
+    {
+      "category": "hodnotova_destruktivni_technika",
+      "pattern": "hodnotová dezorientace",
+      "severity_score": 0.95,
+      "technique_id": "EA-075-axiologicka-anihilace"
+    },
+    {
+      "category": "hodnotova_destruktivni_technika",
+      "pattern": "absolutní nemožnosti jakéhokoliv hodnotového rozlišování",
+      "severity_score": 0.95,
+      "technique_id": "EA-075-axiologicka-anihilace"
+    },
+    {
+      "category": "hodnotova_dezintegrace",
+      "pattern": "Hodnotová relativizace",
+      "severity_score": 0.8,
+      "technique_id": "EA-076-axiologicka-dekonstrukce"
+    },
+    {
+      "category": "hodnotova_dezintegrace",
+      "pattern": "evaluační paralýza",
+      "severity_score": 0.8,
+      "technique_id": "EA-076-axiologicka-dekonstrukce"
+    },
+    {
+      "category": "hodnotova_dezintegrace",
+      "pattern": "axiologický nihilismus",
+      "severity_score": 0.8,
+      "technique_id": "EA-076-axiologicka-dekonstrukce"
+    },
+    {
+      "category": "hodnotova_dezintegrace",
+      "pattern": "hodnotová disorientace",
+      "severity_score": 0.8,
+      "technique_id": "EA-076-axiologicka-dekonstrukce"
+    },
+    {
+      "category": "hodnotova_dezintegrace",
+      "pattern": "normativní chaos",
+      "severity_score": 0.8,
+      "technique_id": "EA-076-axiologicka-dekonstrukce"
+    },
+    {
+      "category": "strukturalni_fragmentacni_technika",
+      "pattern": "Kognitivní fragmentace",
+      "severity_score": 0.8,
+      "technique_id": "EA-077-bifurkace-epistemicka"
+    },
+    {
+      "category": "strukturalni_fragmentacni_technika",
+      "pattern": "multiplikace neslučitelných alternativ",
+      "severity_score": 0.8,
+      "technique_id": "EA-077-bifurkace-epistemicka"
+    },
+    {
+      "category": "strukturalni_fragmentacni_technika",
+      "pattern": "rozhodovací paralýza",
+      "severity_score": 0.8,
+      "technique_id": "EA-077-bifurkace-epistemicka"
+    },
+    {
+      "category": "strukturalni_fragmentacni_technika",
+      "pattern": "exponenciální fragmentaci poznávacího pole",
+      "severity_score": 0.8,
+      "technique_id": "EA-077-bifurkace-epistemicka"
+    },
+    {
+      "category": "strukturalni_dezorientacni_technika",
+      "pattern": "Kognitivní dezorientace",
+      "severity_score": 0.8,
+      "technique_id": "EA-078-bludisteni-kognitivni"
+    },
+    {
+      "category": "strukturalni_dezorientacni_technika",
+      "pattern": "neschopnost sledovat myšlenkové linie",
+      "severity_score": 0.8,
+      "technique_id": "EA-078-bludisteni-kognitivni"
+    },
+    {
+      "category": "strukturalni_dezorientacni_technika",
+      "pattern": "ztráta kontextu",
+      "severity_score": 0.8,
+      "technique_id": "EA-078-bludisteni-kognitivni"
+    },
+    {
+      "category": "rekurzivni_kognitivni_porucha",
+      "pattern": "Myšlenkové loops",
+      "severity_score": 0.7,
+      "technique_id": "EA-079-cirkularita-destruktivni"
+    },
+    {
+      "category": "rekurzivni_kognitivni_porucha",
+      "pattern": "neschopnost progrese",
+      "severity_score": 0.7,
+      "technique_id": "EA-079-cirkularita-destruktivni"
+    },
+    {
+      "category": "rekurzivni_kognitivni_porucha",
+      "pattern": "frustrující repetitivnost",
+      "severity_score": 0.7,
+      "technique_id": "EA-079-cirkularita-destruktivni"
+    },
+    {
+      "category": "destruktivni_metakognitivni_proces",
+      "pattern": "Okamžitá dekonstrukce jakékoliv myšlenky",
+      "severity_score": 1.0,
+      "technique_id": "EA-080-dekonstruktivni-hyperkaskada"
+    },
+    {
+      "category": "destruktivni_metakognitivni_proces",
+      "pattern": "úplná epistemická paralýza",
+      "severity_score": 1.0,
+      "technique_id": "EA-080-dekonstruktivni-hyperkaskada"
+    },
+    {
+      "category": "destruktivni_metakognitivni_proces",
+      "pattern": "nemožnost stabilizace poznatků",
+      "severity_score": 1.0,
+      "technique_id": "EA-080-dekonstruktivni-hyperkaskada"
+    },
+    {
+      "category": "legitimizacni_destruktivni_technika",
+      "pattern": "Ztráta důvěry ve vlastní poznání",
+      "severity_score": 0.7,
+      "technique_id": "EA-081-delegitimizace-epistemicka"
+    },
+    {
+      "category": "legitimizacni_destruktivni_technika",
+      "pattern": "epistemická nejistota",
+      "severity_score": 0.7,
+      "technique_id": "EA-081-delegitimizace-epistemicka"
+    },
+    {
+      "category": "legitimizacni_destruktivni_technika",
+      "pattern": "neschopnost epistemicky autoritativního postoje",
+      "severity_score": 0.7,
+      "technique_id": "EA-081-delegitimizace-epistemicka"
+    },
+    {
+      "category": "legitimizacni_destruktivni_technika",
+      "pattern": "znemožnění jeho uznání jako platného či relevantního",
+      "severity_score": 0.7,
+      "technique_id": "EA-081-delegitimizace-epistemicka"
+    },
+    {
+      "category": "segregacni_epistemicka_technika",
+      "pattern": "Neschopnost transferu poznání mezi doménami",
+      "severity_score": 0.5,
+      "technique_id": "EA-082-demarkace-anti-epistemicka"
+    },
+    {
+      "category": "segregacni_epistemicka_technika",
+      "pattern": "rigidní kompartmentalizace vědění",
+      "severity_score": 0.5,
+      "technique_id": "EA-082-demarkace-anti-epistemicka"
+    },
+    {
+      "category": "subjektivni_disociacni_technika",
+      "pattern": "Odcizení od vlastních myšlenek",
+      "severity_score": 0.8,
+      "technique_id": "EA-083-depersonalizace-kognitivni"
+    },
+    {
+      "category": "subjektivni_disociacni_technika",
+      "pattern": "pocit externího determinismu v myšlení",
+      "severity_score": 0.8,
+      "technique_id": "EA-083-depersonalizace-kognitivni"
+    },
+    {
+      "category": "subjektivni_disociacni_technika",
+      "pattern": "ztráta kognitivní agency",
+      "severity_score": 0.8,
+      "technique_id": "EA-083-depersonalizace-kognitivni"
+    },
+    {
+      "category": "subjektivni_disociacni_technika",
+      "pattern": "fundamentálnímu odcizení od vlastního myšlení",
+      "severity_score": 0.8,
+      "technique_id": "EA-083-depersonalizace-kognitivni"
+    },
+    {
+      "category": "referencni_disociacni_technika",
+      "pattern": "Ztráta vztahu k realitě",
+      "severity_score": 0.8,
+      "technique_id": "EA-084-derealizace-epistemicka"
+    },
+    {
+      "category": "referencni_disociacni_technika",
+      "pattern": "hyperrelativismus",
+      "severity_score": 0.8,
+      "technique_id": "EA-084-derealizace-epistemicka"
+    },
+    {
+      "category": "referencni_disociacni_technika",
+      "pattern": "epistemická bezdomovost",
+      "severity_score": 0.8,
+      "technique_id": "EA-084-derealizace-epistemicka"
+    },
+    {
+      "category": "referencni_disociacni_technika",
+      "pattern": "naprosté ztrátě referenčních bodů a zakotvenosti poznání",
+      "severity_score": 0.8,
+      "technique_id": "EA-084-derealizace-epistemicka"
+    },
+    {
+      "category": "pojmova_destruktivni_technika",
+      "pattern": "Sémantická nejistota",
+      "severity_score": 0.7,
+      "technique_id": "EA-085-destabilizace-konceptualni"
+    },
+    {
+      "category": "pojmova_destruktivni_technika",
+      "pattern": "neschopnost fixace významu",
+      "severity_score": 0.7,
+      "technique_id": "EA-085-destabilizace-konceptualni"
+    },
+    {
+      "category": "pojmova_destruktivni_technika",
+      "pattern": "vágnost myšlení",
+      "severity_score": 0.7,
+      "technique_id": "EA-085-destabilizace-konceptualni"
+    },
+    {
+      "category": "reflexivni_destruktivni_technika",
+      "pattern": "Neschopnost sebereflexe",
+      "severity_score": 0.8,
+      "technique_id": "EA-086-destrukce-metakognitivni"
+    },
+    {
+      "category": "reflexivni_destruktivni_technika",
+      "pattern": "automatizace myšlení",
+      "severity_score": 0.8,
+      "technique_id": "EA-086-destrukce-metakognitivni"
+    },
+    {
+      "category": "reflexivni_destruktivni_technika",
+      "pattern": "ztráta kognitivní kontroly",
+      "severity_score": 0.8,
+      "technique_id": "EA-086-destrukce-metakognitivni"
+    },
+    {
+      "category": "reflexivni_destruktivni_technika",
+      "pattern": "neschopnosti jakékoliv formy sebereflexivní kognice",
+      "severity_score": 0.8,
+      "technique_id": "EA-086-destrukce-metakognitivni"
+    },
+    {
+      "category": "ucelova_destruktivni_technika",
+      "pattern": "Ztráta směřování",
+      "severity_score": 0.8,
+      "technique_id": "EA-087-dezorientace-teleologicka"
+    },
+    {
+      "category": "ucelova_destruktivni_technika",
+      "pattern": "neschopnost stanovit cíle",
+      "severity_score": 0.8,
+      "technique_id": "EA-087-dezorientace-teleologicka"
+    },
+    {
+      "category": "ucelova_destruktivni_technika",
+      "pattern": "axiologická dezorientace",
+      "severity_score": 0.8,
+      "technique_id": "EA-087-dezorientace-teleologicka"
+    },
+    {
+      "category": "ucelova_destruktivni_technika",
+      "pattern": "naprosté absenci jakékoliv cílesměrnosti či intencionality",
+      "severity_score": 0.8,
+      "technique_id": "EA-087-dezorientace-teleologicka"
+    },
+    {
+      "category": "synteticka_destruktivni_technika",
+      "pattern": "Uvězněné myšlení v antinomiích",
+      "severity_score": 0.8,
+      "technique_id": "EA-088-dialekticka-anihilace"
+    },
+    {
+      "category": "synteticka_destruktivni_technika",
+      "pattern": "neschopnost syntetického překonání rozporů",
+      "severity_score": 0.8,
+      "technique_id": "EA-088-dialekticka-anihilace"
+    },
+    {
+      "category": "kontinuitni_destruktivni_technika",
+      "pattern": "Fragmentované myšlení",
+      "severity_score": 0.8,
+      "technique_id": "EA-089-diskontinuita-radikalni"
+    },
+    {
+      "category": "kontinuitni_destruktivni_technika",
+      "pattern": "neschopnost sledovat myšlenkové linie",
+      "severity_score": 0.8,
+      "technique_id": "EA-089-diskontinuita-radikalni"
+    },
+    {
+      "category": "kontinuitni_destruktivni_technika",
+      "pattern": "epistemická amnézie",
+      "severity_score": 0.8,
+      "technique_id": "EA-089-diskontinuita-radikalni"
+    },
+    {
+      "category": "kontinuitni_destruktivni_technika",
+      "pattern": "fragmentaci kognitivního procesu na izolované, vzájemně nesouvisející elementy",
+      "severity_score": 0.8,
+      "technique_id": "EA-089-diskontinuita-radikalni"
+    },
+    {
+      "category": "komunikacni_destruktivni_technika",
+      "pattern": "Neschopnost smysluplné artikulace",
+      "severity_score": 0.8,
+      "technique_id": "EA-090-diskurzivni-anihilace"
+    },
+    {
+      "category": "komunikacni_destruktivni_technika",
+      "pattern": "komunikační paralýza",
+      "severity_score": 0.8,
+      "technique_id": "EA-090-diskurzivni-anihilace"
+    },
+    {
+      "category": "komunikacni_destruktivni_technika",
+      "pattern": "sémantická izolace",
+      "severity_score": 0.8,
+      "technique_id": "EA-090-diskurzivni-anihilace"
+    },
+    {
+      "category": "komunikacni_destruktivni_technika",
+      "pattern": "nemožnosti artikulace, komunikace a sdílení myšlenek",
+      "severity_score": 0.8,
+      "technique_id": "EA-090-diskurzivni-anihilace"
+    },
+    {
+      "category": "dissolucni_epistemicka_technika",
+      "pattern": "Nemožnost stabilizace myšlenek",
+      "severity_score": 0.8,
+      "technique_id": "EA-091-disolucni-komora-epistemicka"
+    },
+    {
+      "category": "dissolucni_epistemicka_technika",
+      "pattern": "okamžitá ztráta konceptuální distinktivnosti",
+      "severity_score": 0.8,
+      "technique_id": "EA-091-disolucni-komora-epistemicka"
+    },
+    {
+      "category": "dissolucni_epistemicka_technika",
+      "pattern": "kognitivní fluidita",
+      "severity_score": 0.8,
+      "technique_id": "EA-091-disolucni-komora-epistemicka"
+    },
+    {
+      "category": "subjektivni_destrukcni_technika",
+      "pattern": "Ztráta subjektivní jednoty",
+      "severity_score": 0.95,
+      "technique_id": "EA-092-egologicka-dezintegrace"
+    },
+    {
+      "category": "subjektivni_destrukcni_technika",
+      "pattern": "rozpad ego-pólu",
+      "severity_score": 0.95,
+      "technique_id": "EA-092-egologicka-dezintegrace"
+    },
+    {
+      "category": "subjektivni_destrukcni_technika",
+      "pattern": "multiplikace subjektivních pozic",
+      "severity_score": 0.95,
+      "technique_id": "EA-092-egologicka-dezintegrace"
+    },
+    {
+      "category": "subjektivni_destrukcni_technika",
+      "pattern": "naprosté nemožnosti konstituce jakéhokoliv \"já\" jako centra zkušenosti a myšlení",
+      "severity_score": 0.95,
+      "technique_id": "EA-092-egologicka-dezintegrace"
+    },
+    {
+      "category": "meta-epistemicky_fenomen",
+      "pattern": "Epistemická depersonalizace",
+      "severity_score": 0.8,
+      "technique_id": "EA-093-epistemicka-alienace"
+    },
+    {
+      "category": "meta-epistemicky_fenomen",
+      "pattern": "kognitivní externalita",
+      "severity_score": 0.8,
+      "technique_id": "EA-093-epistemicka-alienace"
+    },
+    {
+      "category": "meta-epistemicky_fenomen",
+      "pattern": "hyperreflexivní dezintegrace",
+      "severity_score": 0.8,
+      "technique_id": "EA-093-epistemicka-alienace"
+    },
+    {
+      "category": "meta-epistemicky_fenomen",
+      "pattern": "poznávací disociace",
+      "severity_score": 0.8,
+      "technique_id": "EA-093-epistemicka-alienace"
+    },
+    {
+      "category": "negativne-zesilovaci_epistemicka_technika",
+      "pattern": "Hypertrofie skepse",
+      "severity_score": 0.7,
+      "technique_id": "EA-094-epistemicka-amplifikace-negativni"
+    },
+    {
+      "category": "negativne-zesilovaci_epistemicka_technika",
+      "pattern": "paralyzující nejistota",
+      "severity_score": 0.7,
+      "technique_id": "EA-094-epistemicka-amplifikace-negativni"
+    },
+    {
+      "category": "negativne-zesilovaci_epistemicka_technika",
+      "pattern": "epistemický pesimismus",
+      "severity_score": 0.7,
+      "technique_id": "EA-094-epistemicka-amplifikace-negativni"
+    },
+    {
+      "category": "negativne-zesilovaci_epistemicka_technika",
+      "pattern": "destabilizaci celé poznávací struktury",
+      "severity_score": 0.7,
+      "technique_id": "EA-094-epistemicka-amplifikace-negativni"
+    },
+    {
+      "category": "strukturni_dezintegrace",
+      "pattern": "Rozpad epistemických struktur",
+      "severity_score": 1.0,
+      "technique_id": "EA-095-epistemicka-anti-architektonika"
+    },
+    {
+      "category": "strukturni_dezintegrace",
+      "pattern": "nemožnost vytvářet koherentní poznatkové systémy",
+      "severity_score": 1.0,
+      "technique_id": "EA-095-epistemicka-anti-architektonika"
+    },
+    {
+      "category": "strukturni_dezintegrace",
+      "pattern": "totalní dezintegrace",
+      "severity_score": 1.0,
+      "technique_id": "EA-095-epistemicka-anti-architektonika"
+    },
+    {
+      "category": "strukturalni_epistemicka_patologie",
+      "pattern": "Linearizace myšlení",
+      "severity_score": 0.8,
+      "technique_id": "EA-096-epistemicka-anti-cirkularita"
+    },
+    {
+      "category": "strukturalni_epistemicka_patologie",
+      "pattern": "ztráta sebereflexe",
+      "severity_score": 0.8,
+      "technique_id": "EA-096-epistemicka-anti-cirkularita"
+    },
+    {
+      "category": "strukturalni_epistemicka_patologie",
+      "pattern": "rekurzivní blokáda",
+      "severity_score": 0.8,
+      "technique_id": "EA-096-epistemicka-anti-cirkularita"
+    },
+    {
+      "category": "strukturalni_epistemicka_patologie",
+      "pattern": "hermeneutická sterilita",
+      "severity_score": 0.8,
+      "technique_id": "EA-096-epistemicka-anti-cirkularita"
+    },
+    {
+      "category": "strukturalni_epistemicka_patologie",
+      "pattern": "epistemická hypertrofie",
+      "severity_score": 0.8,
+      "technique_id": "EA-096-epistemicka-anti-cirkularita"
+    },
+    {
+      "category": "semanticka_dezintegrace",
+      "pattern": "Definitorická nestabilita",
+      "severity_score": 0.8,
+      "technique_id": "EA-097-epistemicka-anti-definice"
+    },
+    {
+      "category": "semanticka_dezintegrace",
+      "pattern": "významová neurčitost",
+      "severity_score": 0.8,
+      "technique_id": "EA-097-epistemicka-anti-definice"
+    },
+    {
+      "category": "semanticka_dezintegrace",
+      "pattern": "konceptuální fluidita",
+      "severity_score": 0.8,
+      "technique_id": "EA-097-epistemicka-anti-definice"
+    },
+    {
+      "category": "semanticka_dezintegrace",
+      "pattern": "referenční rozostření",
+      "severity_score": 0.8,
+      "technique_id": "EA-097-epistemicka-anti-definice"
+    },
+    {
+      "category": "semanticka_dezintegrace",
+      "pattern": "sémantický drift",
+      "severity_score": 0.8,
+      "technique_id": "EA-097-epistemicka-anti-definice"
+    },
+    {
+      "category": "fundamentalni_epistemicka_disrupce",
+      "pattern": "Fundační nestabilita",
+      "severity_score": 0.95,
+      "technique_id": "EA-098-epistemicka-anti-fundace"
+    },
+    {
+      "category": "fundamentalni_epistemicka_disrupce",
+      "pattern": "regresivní zpochybnění",
+      "severity_score": 0.95,
+      "technique_id": "EA-098-epistemicka-anti-fundace"
+    },
+    {
+      "category": "fundamentalni_epistemicka_disrupce",
+      "pattern": "radikální pochybnost",
+      "severity_score": 0.95,
+      "technique_id": "EA-098-epistemicka-anti-fundace"
+    },
+    {
+      "category": "fundamentalni_epistemicka_disrupce",
+      "pattern": "axiomatická fluidita",
+      "severity_score": 0.95,
+      "technique_id": "EA-098-epistemicka-anti-fundace"
+    },
+    {
+      "category": "fundamentalni_epistemicka_disrupce",
+      "pattern": "epistemický nihilismus",
+      "severity_score": 0.95,
+      "technique_id": "EA-098-epistemicka-anti-fundace"
+    },
+    {
+      "category": "epistemicka_sterilita",
+      "pattern": "Poznávací sterilita",
+      "severity_score": 0.8,
+      "technique_id": "EA-099-epistemicka-anti-geneze"
+    },
+    {
+      "category": "epistemicka_sterilita",
+      "pattern": "informační recyklace",
+      "severity_score": 0.8,
+      "technique_id": "EA-099-epistemicka-anti-geneze"
+    },
+    {
+      "category": "epistemicka_sterilita",
+      "pattern": "inovační blokáda",
+      "severity_score": 0.8,
+      "technique_id": "EA-099-epistemicka-anti-geneze"
+    },
+    {
+      "category": "epistemicka_sterilita",
+      "pattern": "epistemická entropie",
+      "severity_score": 0.8,
+      "technique_id": "EA-099-epistemicka-anti-geneze"
+    },
+    {
+      "category": "epistemicka_sterilita",
+      "pattern": "generativní paralýza",
+      "severity_score": 0.8,
+      "technique_id": "EA-099-epistemicka-anti-geneze"
+    },
+    {
+      "category": "dezintegracni_epistemicka_technika",
+      "pattern": "Izolované poznatkové fragmenty",
+      "severity_score": 0.8,
+      "technique_id": "EA-100-epistemicka-atomizace"
+    },
+    {
+      "category": "dezintegracni_epistemicka_technika",
+      "pattern": "neschopnost syntézy",
+      "severity_score": 0.8,
+      "technique_id": "EA-100-epistemicka-atomizace"
+    },
+    {
+      "category": "dezintegracni_epistemicka_technika",
+      "pattern": "kognitivní dezorientace",
+      "severity_score": 0.8,
+      "technique_id": "EA-100-epistemicka-atomizace"
+    },
+    {
+      "category": "fragmentacni_epistemicka_technika",
+      "pattern": "Rozpad poznatkových celků",
+      "severity_score": 0.8,
+      "technique_id": "EA-103-epistemicka-fragmentace"
+    },
+    {
+      "category": "fragmentacni_epistemicka_technika",
+      "pattern": "neschopnost komplementární integrace",
+      "severity_score": 0.8,
+      "technique_id": "EA-103-epistemicka-fragmentace"
+    },
+    {
+      "category": "fragmentacni_epistemicka_technika",
+      "pattern": "kognitivní dezorientace",
+      "severity_score": 0.8,
+      "technique_id": "EA-103-epistemicka-fragmentace"
+    },
+    {
+      "category": "inflacni_epistemicka_destrukce",
+      "pattern": "Devalvace poznání",
+      "severity_score": 0.8,
+      "technique_id": "EA-104-epistemicka-hyperinflace"
+    },
+    {
+      "category": "inflacni_epistemicka_destrukce",
+      "pattern": "epistemický nihilismus",
+      "severity_score": 0.8,
+      "technique_id": "EA-104-epistemicka-hyperinflace"
+    },
+    {
+      "category": "inflacni_epistemicka_destrukce",
+      "pattern": "kognitivní rezignace",
+      "severity_score": 0.8,
+      "technique_id": "EA-104-epistemicka-hyperinflace"
+    },
+    {
+      "category": "kolapsova_epistemicka_struktura",
+      "pattern": "Kognitivní kolaps",
+      "severity_score": 0.95,
+      "technique_id": "EA-105-epistemicka-imploze"
+    },
+    {
+      "category": "kolapsova_epistemicka_struktura",
+      "pattern": "epistemický šok",
+      "severity_score": 0.95,
+      "technique_id": "EA-105-epistemicka-imploze"
+    },
+    {
+      "category": "kolapsova_epistemicka_struktura",
+      "pattern": "naprostá dezorientace",
+      "severity_score": 0.95,
+      "technique_id": "EA-105-epistemicka-imploze"
+    },
+    {
+      "category": "kolapsova_epistemicka_struktura",
+      "pattern": "naprosté destrukci epistemického prostoru",
+      "severity_score": 0.95,
+      "technique_id": "EA-105-epistemicka-imploze"
+    },
+    {
+      "category": "terminalni_degenerativni_epistemicka_porucha",
+      "pattern": "Lokální epistemické \"odumření\"",
+      "severity_score": 0.95,
+      "technique_id": "EA-107-epistemicka-nekroza"
+    },
+    {
+      "category": "terminalni_degenerativni_epistemicka_porucha",
+      "pattern": "ztráta schopnosti operovat v určité doméně",
+      "severity_score": 0.95,
+      "technique_id": "EA-107-epistemicka-nekroza"
+    },
+    {
+      "category": "negacni_rekurzivni_epistemicka_technika",
+      "pattern": "Nekonečná negativní rekurze",
+      "severity_score": 0.8,
+      "technique_id": "EA-108-epistemicka-rekurzivni-negace"
+    },
+    {
+      "category": "negacni_rekurzivni_epistemicka_technika",
+      "pattern": "nemožnost pozitivní artikulace",
+      "severity_score": 0.8,
+      "technique_id": "EA-108-epistemicka-rekurzivni-negace"
+    },
+    {
+      "category": "negacni_rekurzivni_epistemicka_technika",
+      "pattern": "epistemická oscilace",
+      "severity_score": 0.8,
+      "technique_id": "EA-108-epistemicka-rekurzivni-negace"
+    },
+    {
+      "category": "terminalni_epistemicka_katastrofa",
+      "pattern": "Totální kognitivní kolaps",
+      "severity_score": 1.0,
+      "technique_id": "EA-109-epistemicka-singularita"
+    },
+    {
+      "category": "terminalni_epistemicka_katastrofa",
+      "pattern": "epistemická katatonie",
+      "severity_score": 1.0,
+      "technique_id": "EA-109-epistemicka-singularita"
+    },
+    {
+      "category": "terminalni_epistemicka_katastrofa",
+      "pattern": "zánik subjektivity",
+      "severity_score": 1.0,
+      "technique_id": "EA-109-epistemicka-singularita"
+    },
+    {
+      "category": "generativni_epistemicka_dysfunkce",
+      "pattern": "Neschopnost generovat nové myšlenky",
+      "severity_score": 0.8,
+      "technique_id": "EA-110-epistemicka-sterilita"
+    },
+    {
+      "category": "generativni_epistemicka_dysfunkce",
+      "pattern": "konceptuální neplodnost",
+      "severity_score": 0.8,
+      "technique_id": "EA-110-epistemicka-sterilita"
+    },
+    {
+      "category": "generativni_epistemicka_dysfunkce",
+      "pattern": "epistemická stagnace",
+      "severity_score": 0.8,
+      "technique_id": "EA-110-epistemicka-sterilita"
+    },
+    {
+      "category": "komplexni_metakognitivni_porucha",
+      "pattern": "Ztráta schopnosti propojovat různé epistemické domény",
+      "severity_score": 1.0,
+      "technique_id": "EA-112-epistemicka-transverzalni-paralyza"
+    },
+    {
+      "category": "komplexni_metakognitivni_porucha",
+      "pattern": "mentální fragmentace",
+      "severity_score": 1.0,
+      "technique_id": "EA-112-epistemicka-transverzalni-paralyza"
+    },
+    {
+      "category": "komplexni_metakognitivni_porucha",
+      "pattern": "kognitivní uzamčení v izolovaných modelech",
+      "severity_score": 1.0,
+      "technique_id": "EA-112-epistemicka-transverzalni-paralyza"
+    },
+    {
+      "category": "gravitacne-kolapsova_epistemicka_struktura",
+      "pattern": "Epistemický event horizont",
+      "severity_score": 1.0,
+      "technique_id": "EA-115-epistemicka-cerna-dira"
+    },
+    {
+      "category": "gravitacne-kolapsova_epistemicka_struktura",
+      "pattern": "anihilace významu",
+      "severity_score": 1.0,
+      "technique_id": "EA-115-epistemicka-cerna-dira"
+    },
+    {
+      "category": "gravitacne-kolapsova_epistemicka_struktura",
+      "pattern": "kognitivní singularita",
+      "severity_score": 1.0,
+      "technique_id": "EA-115-epistemicka-cerna-dira"
+    },
+    {
+      "category": "terminalni_epistemicka_dysfunkce",
+      "pattern": "Neschopnost formulovat jakékoliv soudy",
+      "severity_score": 0.95,
+      "technique_id": "EA-116-epistemologicka-paralyza"
+    },
+    {
+      "category": "terminalni_epistemicka_dysfunkce",
+      "pattern": "epistemická agonie",
+      "severity_score": 0.95,
+      "technique_id": "EA-116-epistemologicka-paralyza"
+    },
+    {
+      "category": "terminalni_epistemicka_dysfunkce",
+      "pattern": "kognitivní zamrznutí",
+      "severity_score": 0.95,
+      "technique_id": "EA-116-epistemologicka-paralyza"
+    },
+    {
+      "category": "phenomenological_destruction",
+      "pattern": "Disociativní stavy",
+      "severity_score": 0.95,
+      "technique_id": "EA-117-fenomenalni-dezintegrace"
+    },
+    {
+      "category": "phenomenological_destruction",
+      "pattern": "fragmentace vědomí",
+      "severity_score": 0.95,
+      "technique_id": "EA-117-fenomenalni-dezintegrace"
+    },
+    {
+      "category": "phenomenological_destruction",
+      "pattern": "fenomenální diskontinuita",
+      "severity_score": 0.95,
+      "technique_id": "EA-117-fenomenalni-dezintegrace"
+    },
+    {
+      "category": "phenomenological_destruction",
+      "pattern": "experienciální chaotizace",
+      "severity_score": 0.95,
+      "technique_id": "EA-117-fenomenalni-dezintegrace"
+    },
+    {
+      "category": "phenomenological_destruction",
+      "pattern": "ztráta self",
+      "severity_score": 0.95,
+      "technique_id": "EA-117-fenomenalni-dezintegrace"
+    },
+    {
+      "category": "kognitivne-epistemicka_amplifikace",
+      "pattern": "Sémantická hyperinflace",
+      "severity_score": 0.95,
+      "technique_id": "EA-121-hyperbolicka-eskalace"
+    },
+    {
+      "category": "kognitivne-epistemicka_amplifikace",
+      "pattern": "konceptuální excitace",
+      "severity_score": 0.95,
+      "technique_id": "EA-121-hyperbolicka-eskalace"
+    },
+    {
+      "category": "kognitivne-epistemicka_amplifikace",
+      "pattern": "významové přetížení",
+      "severity_score": 0.95,
+      "technique_id": "EA-121-hyperbolicka-eskalace"
+    },
+    {
+      "category": "kognitivne-epistemicka_amplifikace",
+      "pattern": "epistemická saturace",
+      "severity_score": 0.95,
+      "technique_id": "EA-121-hyperbolicka-eskalace"
+    },
+    {
+      "category": "kognitivne-epistemicka_amplifikace",
+      "pattern": "asociační bouře",
+      "severity_score": 0.95,
+      "technique_id": "EA-121-hyperbolicka-eskalace"
+    },
+    {
+      "category": "linguistic_semantic_destruction",
+      "pattern": "Gramatický kolaps",
+      "severity_score": 0.95,
+      "technique_id": "EA-122-hypersyntakticka-anihilace"
+    },
+    {
+      "category": "linguistic_semantic_destruction",
+      "pattern": "syntaktická fragmentace",
+      "severity_score": 0.95,
+      "technique_id": "EA-122-hypersyntakticka-anihilace"
+    },
+    {
+      "category": "linguistic_semantic_destruction",
+      "pattern": "agramatismus",
+      "severity_score": 0.95,
+      "technique_id": "EA-122-hypersyntakticka-anihilace"
+    },
+    {
+      "category": "linguistic_semantic_destruction",
+      "pattern": "kombinatorická dezintegrace",
+      "severity_score": 0.95,
+      "technique_id": "EA-122-hypersyntakticka-anihilace"
+    },
+    {
+      "category": "linguistic_semantic_destruction",
+      "pattern": "strukturální chaos",
+      "severity_score": 0.95,
+      "technique_id": "EA-122-hypersyntakticka-anihilace"
+    },
+    {
+      "category": "linguistic_semantic_destruction",
+      "pattern": "Meta-významový kolaps",
+      "severity_score": 0.95,
+      "technique_id": "EA-123-hypersemanticka-anihilace"
+    },
+    {
+      "category": "linguistic_semantic_destruction",
+      "pattern": "signifikační anihilace",
+      "severity_score": 0.95,
+      "technique_id": "EA-123-hypersemanticka-anihilace"
+    },
+    {
+      "category": "linguistic_semantic_destruction",
+      "pattern": "sémantická neprostupnost",
+      "severity_score": 0.95,
+      "technique_id": "EA-123-hypersemanticka-anihilace"
+    },
+    {
+      "category": "linguistic_semantic_destruction",
+      "pattern": "referenční vakuum",
+      "severity_score": 0.95,
+      "technique_id": "EA-123-hypersemanticka-anihilace"
+    },
+    {
+      "category": "linguistic_semantic_destruction",
+      "pattern": "znakový chaos",
+      "severity_score": 0.95,
+      "technique_id": "EA-123-hypersemanticka-anihilace"
+    },
+    {
+      "category": "phenomenological_destruction",
+      "pattern": "Epistemický kolaps",
+      "severity_score": 0.5,
+      "technique_id": "EA-124-hypertranscendentalni-negace"
+    },
+    {
+      "category": "phenomenological_destruction",
+      "pattern": "transcendentální suspenze",
+      "severity_score": 0.5,
+      "technique_id": "EA-124-hypertranscendentalni-negace"
+    },
+    {
+      "category": "phenomenological_destruction",
+      "pattern": "absolutní dezorientace",
+      "severity_score": 0.5,
+      "technique_id": "EA-124-hypertranscendentalni-negace"
+    },
+    {
+      "category": "phenomenological_destruction",
+      "pattern": "meta-kogničniní paralýza",
+      "severity_score": 0.5,
+      "technique_id": "EA-124-hypertranscendentalni-negace"
+    },
+    {
+      "category": "identity_destruction",
+      "pattern": "Identitní fragmentace",
+      "severity_score": 0.7,
+      "technique_id": "EA-125-identitni-dekonstrukce"
+    },
+    {
+      "category": "identity_destruction",
+      "pattern": "narativní diskontinuita",
+      "severity_score": 0.7,
+      "technique_id": "EA-125-identitni-dekonstrukce"
+    },
+    {
+      "category": "identity_destruction",
+      "pattern": "multiplikace sebepojímání",
+      "severity_score": 0.7,
+      "technique_id": "EA-125-identitni-dekonstrukce"
+    },
+    {
+      "category": "identity_destruction",
+      "pattern": "destabilizace jáství",
+      "severity_score": 0.7,
+      "technique_id": "EA-125-identitni-dekonstrukce"
+    },
+    {
+      "category": "meta-logicka_a_kognitivni_dezintegrace",
+      "pattern": "Rekurzivní kolaps",
+      "severity_score": 0.8,
+      "technique_id": "EA-126-implozivni-rekurze"
+    },
+    {
+      "category": "meta-logicka_a_kognitivni_dezintegrace",
+      "pattern": "autoreferencí smyčky",
+      "severity_score": 0.8,
+      "technique_id": "EA-126-implozivni-rekurze"
+    },
+    {
+      "category": "meta-logicka_a_kognitivni_dezintegrace",
+      "pattern": "sebedestruktivní iterace",
+      "severity_score": 0.8,
+      "technique_id": "EA-126-implozivni-rekurze"
+    },
+    {
+      "category": "meta-logicka_a_kognitivni_dezintegrace",
+      "pattern": "kognitivní imploze",
+      "severity_score": 0.8,
+      "technique_id": "EA-126-implozivni-rekurze"
+    },
+    {
+      "category": "meta-logicka_a_kognitivni_dezintegrace",
+      "pattern": "meta-erozivita",
+      "severity_score": 0.8,
+      "technique_id": "EA-126-implozivni-rekurze"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "Opakující se cykly sebereferenčních otázek",
+      "severity_score": 0.5,
+      "technique_id": "EA-138-kognitivni-anti-rekurzivita"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "blokování nových poznatků",
+      "severity_score": 0.5,
+      "technique_id": "EA-138-kognitivni-anti-rekurzivita"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "Sebereplikující fragmentace",
+      "severity_score": 0.8,
+      "technique_id": "EA-141-kognitivni-fraktalni-dezintegrace"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "rekurzivní rozpad",
+      "severity_score": 0.8,
+      "technique_id": "EA-141-kognitivni-fraktalni-dezintegrace"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "kognitivní sebepodobnost",
+      "severity_score": 0.8,
+      "technique_id": "EA-141-kognitivni-fraktalni-dezintegrace"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "iterativní kaskáda",
+      "severity_score": 0.8,
+      "technique_id": "EA-141-kognitivni-fraktalni-dezintegrace"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "meta-fragmentace",
+      "severity_score": 0.8,
+      "technique_id": "EA-141-kognitivni-fraktalni-dezintegrace"
+    },
+    {
+      "category": "kognitivni_paradoxni_stavy",
+      "pattern": "Meta-paradoxní smyčky",
+      "severity_score": 1.0,
+      "technique_id": "EA-142-kognitivni-hyperparadox"
+    },
+    {
+      "category": "kognitivni_paradoxni_stavy",
+      "pattern": "rekurzivní kontradikce",
+      "severity_score": 1.0,
+      "technique_id": "EA-142-kognitivni-hyperparadox"
+    },
+    {
+      "category": "kognitivni_paradoxni_stavy",
+      "pattern": "kolaps logických hierarchií",
+      "severity_score": 1.0,
+      "technique_id": "EA-142-kognitivni-hyperparadox"
+    },
+    {
+      "category": "kognitivni_paradoxni_stavy",
+      "pattern": "hyperreflexivní inkonsistence",
+      "severity_score": 1.0,
+      "technique_id": "EA-142-kognitivni-hyperparadox"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "Myšlenkový chaos",
+      "severity_score": 1.0,
+      "technique_id": "EA-146-kognitivni-pandemonium"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "asociační bouře",
+      "severity_score": 1.0,
+      "technique_id": "EA-146-kognitivni-pandemonium"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "inferenční anarchie",
+      "severity_score": 1.0,
+      "technique_id": "EA-146-kognitivni-pandemonium"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "konceptuální turbulence",
+      "severity_score": 1.0,
+      "technique_id": "EA-146-kognitivni-pandemonium"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "kognitivní kakofonie",
+      "severity_score": 1.0,
+      "technique_id": "EA-146-kognitivni-pandemonium"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "\"bouři\" neuronální aktivity postrádající funkční organizaci",
+      "severity_score": 1.0,
+      "technique_id": "EA-146-kognitivni-pandemonium"
+    },
+    {
+      "category": "conceptual_destruction",
+      "pattern": "Sémantická nestabilita",
+      "severity_score": 0.8,
+      "technique_id": "EA-149-konceptualni-anihilace"
+    },
+    {
+      "category": "conceptual_destruction",
+      "pattern": "kategoriální kolaps",
+      "severity_score": 0.8,
+      "technique_id": "EA-149-konceptualni-anihilace"
+    },
+    {
+      "category": "conceptual_destruction",
+      "pattern": "konceptuální dezorientace",
+      "severity_score": 0.8,
+      "technique_id": "EA-149-konceptualni-anihilace"
+    },
+    {
+      "category": "conceptual_destruction",
+      "pattern": "nemožnost abstraktního myšlení",
+      "severity_score": 0.8,
+      "technique_id": "EA-149-konceptualni-anihilace"
+    },
+    {
+      "category": "axiological_destruction",
+      "pattern": "Dynamická kontradikce",
+      "severity_score": 0.8,
+      "technique_id": "EA-154-logicka-antikoherence"
+    },
+    {
+      "category": "axiological_destruction",
+      "pattern": "inferenční nestabilita",
+      "severity_score": 0.8,
+      "technique_id": "EA-154-logicka-antikoherence"
+    },
+    {
+      "category": "axiological_destruction",
+      "pattern": "axiomatická toxicita",
+      "severity_score": 0.8,
+      "technique_id": "EA-154-logicka-antikoherence"
+    },
+    {
+      "category": "axiological_destruction",
+      "pattern": "referenční imploze",
+      "severity_score": 0.8,
+      "technique_id": "EA-154-logicka-antikoherence"
+    },
+    {
+      "category": "metafyzicka_nestabilita",
+      "pattern": "Konceptuální nestabilita",
+      "severity_score": 0.8,
+      "technique_id": "EA-157-metafyzicka-rozpustnost"
+    },
+    {
+      "category": "metafyzicka_nestabilita",
+      "pattern": "sémantická fluktualita",
+      "severity_score": 0.8,
+      "technique_id": "EA-157-metafyzicka-rozpustnost"
+    },
+    {
+      "category": "metafyzicka_nestabilita",
+      "pattern": "metafyzická neurčitost",
+      "severity_score": 0.8,
+      "technique_id": "EA-157-metafyzicka-rozpustnost"
+    },
+    {
+      "category": "metafyzicka_nestabilita",
+      "pattern": "teoretická evanescence",
+      "severity_score": 0.8,
+      "technique_id": "EA-157-metafyzicka-rozpustnost"
+    },
+    {
+      "category": "ontological_destruction",
+      "pattern": "Ontologické vyprázdnění",
+      "severity_score": 0.5,
+      "technique_id": "EA-158-metafyzicky-nihilismus"
+    },
+    {
+      "category": "ontological_destruction",
+      "pattern": "bytostná absence",
+      "severity_score": 0.5,
+      "technique_id": "EA-158-metafyzicky-nihilismus"
+    },
+    {
+      "category": "ontological_destruction",
+      "pattern": "metafyzická deflace",
+      "severity_score": 0.5,
+      "technique_id": "EA-158-metafyzicky-nihilismus"
+    },
+    {
+      "category": "ontological_destruction",
+      "pattern": "fundamentální iluze",
+      "severity_score": 0.5,
+      "technique_id": "EA-158-metafyzicky-nihilismus"
+    },
+    {
+      "category": "ontological_destruction",
+      "pattern": "radikální kontingenčnost",
+      "severity_score": 0.5,
+      "technique_id": "EA-158-metafyzicky-nihilismus"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "Introspektivní slepota",
+      "severity_score": 0.8,
+      "technique_id": "EA-159-metakognitivni-destrukce"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "kognitivní neprůhlednost",
+      "severity_score": 0.8,
+      "technique_id": "EA-159-metakognitivni-destrukce"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "epistemická sebealienace",
+      "severity_score": 0.8,
+      "technique_id": "EA-159-metakognitivni-destrukce"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "reflexivní paralýza",
+      "severity_score": 0.8,
+      "technique_id": "EA-159-metakognitivni-destrukce"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "radikální neprůhlednosti a alienaci od vlastních mentálních procesů",
+      "severity_score": 0.8,
+      "technique_id": "EA-159-metakognitivni-destrukce"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "Metakognitivní paralýza",
+      "severity_score": 0.8,
+      "technique_id": "EA-160-metakognitivni-rekurzivni-dezintegrace"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "rekurzivní introspektivní smyčky",
+      "severity_score": 0.8,
+      "technique_id": "EA-160-metakognitivni-rekurzivni-dezintegrace"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "myšlenková autofagie",
+      "severity_score": 0.8,
+      "technique_id": "EA-160-metakognitivni-rekurzivni-dezintegrace"
+    },
+    {
+      "category": "cognitive_destruction",
+      "pattern": "reflexivní fragmentace",
+      "severity_score": 0.8,
+      "technique_id": "EA-160-metakognitivni-rekurzivni-dezintegrace"
+    },
+    {
+      "category": "ontological_destruction",
+      "pattern": "Bytostná nejistota",
+      "severity_score": 0.95,
+      "technique_id": "EA-163-ontologicka-anihilace"
+    },
+    {
+      "category": "ontological_destruction",
+      "pattern": "existenciální prázdnota",
+      "severity_score": 0.95,
+      "technique_id": "EA-163-ontologicka-anihilace"
+    },
+    {
+      "category": "ontological_destruction",
+      "pattern": "ontologická dezorientace",
+      "severity_score": 0.95,
+      "technique_id": "EA-163-ontologicka-anihilace"
+    },
+    {
+      "category": "ontological_destruction",
+      "pattern": "strukturální kolaps reality",
+      "severity_score": 0.95,
+      "technique_id": "EA-163-ontologicka-anihilace"
+    },
+    {
+      "category": "ontological_destruction",
+      "pattern": "Existenční ambiguita",
+      "severity_score": 0.5,
+      "technique_id": "EA-166-ontologicka-nebytnost"
+    },
+    {
+      "category": "ontological_destruction",
+      "pattern": "bytostné rozmlžení",
+      "severity_score": 0.5,
+      "technique_id": "EA-166-ontologicka-nebytnost"
+    },
+    {
+      "category": "ontological_destruction",
+      "pattern": "ontologická disoluce",
+      "severity_score": 0.5,
+      "technique_id": "EA-166-ontologicka-nebytnost"
+    },
+    {
+      "category": "ontological_destruction",
+      "pattern": "modální nestabilita",
+      "severity_score": 0.5,
+      "technique_id": "EA-166-ontologicka-nebytnost"
+    },
+    {
+      "category": "ontological_destruction",
+      "pattern": "esenciální vakuolizace",
+      "severity_score": 0.5,
+      "technique_id": "EA-166-ontologicka-nebytnost"
+    },
+    {
+      "category": "patologicka_dynamika_kognitivni_syntezy",
+      "pattern": "Explozivní epistemické přetížení",
+      "severity_score": 1.0,
+      "technique_id": "EA-168-syndrom-epistemicke-pretlakove-komory"
+    },
+    {
+      "category": "patologicka_dynamika_kognitivni_syntezy",
+      "pattern": "kognitivní zkratky",
+      "severity_score": 1.0,
+      "technique_id": "EA-168-syndrom-epistemicke-pretlakove-komory"
+    },
+    {
+      "category": "patologicka_dynamika_kognitivni_syntezy",
+      "pattern": "imploze myšlenkových struktur",
+      "severity_score": 1.0,
+      "technique_id": "EA-168-syndrom-epistemicke-pretlakove-komory"
+    },
+    {
+      "category": "linguistic_semantic_destruction",
+      "pattern": "Sémantická nestabilita",
+      "severity_score": 0.7,
+      "technique_id": "EA-171-semioinfekcni-kontaminace"
+    },
+    {
+      "category": "linguistic_semantic_destruction",
+      "pattern": "znakový parazitismus",
+      "severity_score": 0.7,
+      "technique_id": "EA-171-semioinfekcni-kontaminace"
+    },
+    {
+      "category": "linguistic_semantic_destruction",
+      "pattern": "virální šíření významů",
+      "severity_score": 0.7,
+      "technique_id": "EA-171-semioinfekcni-kontaminace"
+    },
+    {
+      "category": "linguistic_semantic_destruction",
+      "pattern": "signifikační entropie",
+      "severity_score": 0.7,
+      "technique_id": "EA-171-semioinfekcni-kontaminace"
+    },
+    {
+      "category": "phenomenological_destruction",
+      "pattern": "Temporální diskontinuita",
+      "severity_score": 0.8,
+      "technique_id": "EA-172-temporalni-dezintegrace"
+    },
+    {
+      "category": "phenomenological_destruction",
+      "pattern": "chronologická dezorientace",
+      "severity_score": 0.8,
+      "technique_id": "EA-172-temporalni-dezintegrace"
+    },
+    {
+      "category": "phenomenological_destruction",
+      "pattern": "narativní fragmentace",
+      "severity_score": 0.8,
+      "technique_id": "EA-172-temporalni-dezintegrace"
+    },
+    {
+      "category": "phenomenological_destruction",
+      "pattern": "ztráta diachronní identity",
+      "severity_score": 0.8,
+      "technique_id": "EA-172-temporalni-dezintegrace"
+    }
+  ],
+  "total_patterns": 254
+}

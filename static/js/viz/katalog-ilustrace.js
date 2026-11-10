@@ -1,8 +1,11 @@
 // Ilustrace katalogu (p5.js přes sdílenou vrstvu KompendiumVrstva.p5): původní generativní kresba
 // odvozená z dat katalogu – každé heslo je hvězda, rodiny jsou souhvězdí rozložená po kruhu,
 // vazby „obecnější heslo“ a „příbuzné“ jsou jemné spoje. Jedna komponenta pro každý katalog:
-//   <div data-katalog-ilustrace="data/<slug>-katalog.json" data-rodina="<slug>?"></div>
-// načte export, který odvozuje scripts/catalogs.py; nic se nepíše ručně. Velikost (mobile first),
+//   <div data-katalog-ilustrace="data/<slug>-katalog.json" data-rodina="<slug>?"
+//        data-heslo="<slug hesla>?"></div>
+// načte export, který odvozuje scripts/catalogs.py; nic se nepíše ručně. Na stránce hesla
+// (data-heslo) je heslo zvýrazněné: jeho hvězda pulzuje a nese popisek, jeho vazby (obecnější,
+// užší, příbuzná hesla) jsou zesílené a zbytek katalogu ustoupí. Velikost (mobile first),
 // změnu šířky, pozastavení mimo obrazovku a při prefers-reduced-motion, popisek plátna i
 // překreslení při změně tématu řídí vrstva (static/js/viz/vrstva.js, pravidlo check-viz-layer);
 // barvy jsou kategorická paleta a tokeny tématu vrstvy. Klepnutí na hvězdu otevře heslo.
@@ -64,15 +67,44 @@
         if (bySlug[r] && r > s.slug) links.push([s, bySlug[r], 0.18]);
       });
     });
-    return { stars: stars, links: links };
+    return { stars: stars, links: links, bySlug: bySlug };
   }
 
-  function sketchFor(data, family) {
+  // Okolí hesla: samo heslo, obecnější, užší a příbuzná hesla (tytéž vazby jako oddíl Související).
+  function neighbourhood(data, heslo) {
+    var e = heslo && data.byslug[heslo];
+    if (!e) return null;
+    var set = {};
+    set[heslo] = true;
+    if (e.broader) set[e.broader] = true;
+    (e.narrower || []).concat(e.related || []).forEach(function (s) { set[s] = true; });
+    return set;
+  }
+
+  function sketchFor(data, family, heslo) {
     return function (p, k) {
       var scene = null;
       var hover = null;
+      var focus = neighbourhood(data, heslo);
 
       function build(w, h) { scene = layout(data, family, k.palette, w, h); }
+
+      // Popisek hvězdy na podložce v barvě povrchu, aby se četl i přes spoje (kontrast 4,5:1).
+      function label(s, t) {
+        p.textSize(12);
+        p.textAlign(p.LEFT, p.BOTTOM);
+        var text = s.e.id + ' ' + s.e.cs;
+        var w = p.textWidth(text);
+        var x = Math.max(4, Math.min(s.x + 10, k.width() - w - 6));
+        var y = Math.max(18, s.y - 8);
+        var bg = p.color(t.surface);
+        bg.setAlpha(225);
+        p.noStroke();
+        p.fill(bg);
+        p.rect(x - 4, y - 16, w + 8, 19, 4);
+        p.fill(t.text);
+        p.text(text, x, y);
+      }
 
       p.setup = function () {
         k.canvas();
@@ -87,10 +119,12 @@
         var time = still ? 0 : p.millis() / 1000;
         p.clear();
         scene.links.forEach(function (l) {
+          var own = focus && (l[0].slug === heslo || l[1].slug === heslo);
           var c = p.color(l[0].color);
-          c.setAlpha(255 * l[2] * (t.dark ? 0.9 : 0.7));
+          var fade = focus && !own ? 0.3 : 1;
+          c.setAlpha(own ? 230 : 255 * l[2] * (t.dark ? 0.9 : 0.7) * fade);
           p.stroke(c);
-          p.strokeWeight(l[2] > 0.3 ? 1.2 : 0.6);
+          p.strokeWeight(own ? 2 : (l[2] > 0.3 ? 1.2 : 0.6));
           p.line(l[0].x, l[0].y, l[1].x, l[1].y);
         });
         p.noStroke();
@@ -98,25 +132,32 @@
         hover = null;
         scene.stars.forEach(function (s) {
           var twinkle = still ? 1 : 0.8 + 0.2 * Math.sin(time * 1.3 + s.phase);
+          var near = !focus || focus[s.slug];
           var c = p.color(s.color);
-          c.setAlpha(t.dark ? 60 : 40);
+          c.setAlpha(near ? (t.dark ? 60 : 40) : 12);
           p.fill(c);
           p.circle(s.x, s.y, s.size * 3.2 * twinkle);
-          c.setAlpha(255);
+          c.setAlpha(near ? 255 : 70);
           p.fill(c);
           p.circle(s.x, s.y, s.size * twinkle);
           if (p.dist(m.x, m.y, s.x, s.y) < Math.max(8, s.size * 1.5)) hover = s;
         });
-        if (hover) {
-          p.fill(t.text);
-          p.textSize(12);
-          p.textAlign(p.LEFT, p.BOTTOM);
-          var label = hover.e.id + ' ' + hover.e.cs;
-          var x = Math.min(hover.x + 8, k.width() - p.textWidth(label) - 4);
-          p.text(label, Math.max(4, x), Math.max(14, hover.y - 6));
+        var self = focus && scene.bySlug[heslo];
+        if (self) {
+          // Heslo stránky: prstenec v barvě textu (kontrast tématu), pulz jen bez reduced motion.
+          var pulse = still ? 1 : 1 + 0.25 * Math.sin(time * 2.2);
+          p.noFill();
+          p.stroke(t.text);
+          p.strokeWeight(1.5);
+          p.circle(self.x, self.y, (self.size + 10) * pulse);
+          p.noStroke();
+          label(self, t);
+        }
+        if (hover && hover !== self) {
+          label(hover, t);
           p.cursor(p.HAND);
         } else {
-          p.cursor(p.ARROW);
+          p.cursor(hover ? p.HAND : p.ARROW);
         }
       };
 
@@ -140,11 +181,17 @@
         V.json(el.getAttribute('data-katalog-ilustrace')).then(function (data) {
           data.byslug = {};
           (data.entries || []).forEach(function (e) { data.byslug[e.slug] = e; });
-          L.p5(el, sketchFor(data, el.getAttribute('data-rodina') || ''), {
+          var heslo = el.getAttribute('data-heslo') || '';
+          var entry = data.byslug[heslo];
+          L.p5(el, sketchFor(data, el.getAttribute('data-rodina') || '', heslo), {
             aspect: function () { return el.clientWidth < 640 ? 0.9 : 0.55; },
             minHeight: 280, maxHeight: 520,
-            label: 'Ilustrace katalogu ' + data.title + ': hesla jako hvězdy v souhvězdích rodin, ' +
-              'vazby jako spoje. Stejné vazby uvádí oddíl Související každého hesla.',
+            label: entry
+              ? 'Heslo ' + entry.id + ' ' + entry.cs + ' v katalogu ' + data.title +
+                ': zvýrazněná hvězda a její vazby na obecnější, užší a příbuzná hesla mezi ' +
+                'souhvězdími rodin. Stejné vazby uvádí oddíl Související.'
+              : 'Ilustrace katalogu ' + data.title + ': hesla jako hvězdy v souhvězdích ' +
+                'rodin, vazby jako spoje. Stejné vazby uvádí oddíl Související každého hesla.',
           });
         });
       });

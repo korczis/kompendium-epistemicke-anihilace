@@ -34,6 +34,7 @@ rozšiřitelné, bez duplicit a bez ruční údržby, s jedním centrálním eng
 | obranný rámec | žádné kroky postupu, žádné pokyny namířené na cílovou osobu (lexikon `HOWTO` v `scripts/ia_model.py`); totéž pro příklady trenéru, každý s detekčním znakem a obrannou odpovědí |
 | trenér | jeden trenér nad všemi katalogy (`kompendium/trener.md`, šablona `kompendium/katalog-trener.html`) čte index `static/data/katalogy.json`; každé heslo má aspoň dva příklady, aspoň jeden manipulativní nebo chybný a jeden neškodný kontrast; trenér cvičí rozpoznání a obranu, nikdy tvorbu výroků |
 | průzkumník | jedna šablona `partials/explorer-katalog.html` a skript `static/js/viz/katalog.js` pro každou sekci a rodinu katalogu; data čte z odvozeného `extra.catalog_export` |
+| ilustrace | jedna p5 komponenta `static/js/viz/katalog-ilustrace.js` přes vrstvu (project.viz-component-layer): v průzkumníku celý katalog nebo rodina, na stránce každého hesla (`partials/katalog-heslo.html` v `page.html`, podmínka `extra.catalog`) totéž souhvězdí se zvýrazněným heslem a jeho obecnějšími, užšími a příbuznými hesly; export čte z `extra.catalog_export` rodiny, heslo z `extra.catalog_slug` |
 | odkazy | `scripts/link-terms.py` odkazuje hesla katalogů podle jejich názvů a aliasů (v celé knize jen výrazné názvy, uvnitř sekcí katalogů i víceslovné) |
 | recenze | `review = "agent"` je text agenta čekající na odbornou recenzi; na `owner` ho mění jen autor |
 

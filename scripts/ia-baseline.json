@@ -377,12 +377,6 @@
  "content/glossary/hodnotova-destrukce.md": [
   "czech"
  ],
- "content/glossary/holismus.md": [
-  "czech"
- ],
- "content/glossary/hranicni-koncept.md": [
-  "czech"
- ],
  "content/glossary/hyperreality.md": [
   "czech",
   "related"
@@ -409,9 +403,6 @@
   "related",
   "links-out"
  ],
- "content/glossary/infinitni-regress.md": [
-  "czech"
- ],
  "content/glossary/info-ops.md": [
   "description",
   "czech",
@@ -426,9 +417,6 @@
   "czech",
   "related"
  ],
- "content/glossary/integrative-collapse.md": [
-  "czech"
- ],
  "content/glossary/intelligence-fusion.md": [
   "czech",
   "related"
@@ -438,25 +426,10 @@
   "czech",
   "related"
  ],
- "content/glossary/internalizovany-pachatel.md": [
-  "czech"
- ],
- "content/glossary/introjekce.md": [
-  "czech"
- ],
- "content/glossary/ipseita.md": [
-  "czech"
- ],
  "content/glossary/irb-review.md": [
   "description",
   "czech",
   "related"
- ],
- "content/glossary/kantovy-kategorie.md": [
-  "czech"
- ],
- "content/glossary/kataphasis.md": [
-  "czech"
  ],
  "content/glossary/kognitivni-anihilace.md": [
   "czech",
@@ -470,12 +443,6 @@
   "czech",
   "related"
  ],
- "content/glossary/kognitivni-stagnace.md": [
-  "czech"
- ],
- "content/glossary/kognitivni-zplosteni.md": [
-  "czech"
- ],
  "content/glossary/kompendium-ea.md": [
   "czech",
   "related"
@@ -483,18 +450,6 @@
  "content/glossary/konfirmacni-bias.md": [
   "czech",
   "related"
- ],
- "content/glossary/konsenzualni-realita.md": [
-  "czech"
- ],
- "content/glossary/konstitutivni-akt.md": [
-  "czech"
- ],
- "content/glossary/kuhnova-revoluce.md": [
-  "czech"
- ],
- "content/glossary/kult-osobnosti.md": [
-  "czech"
  ],
  "content/glossary/lakatos-vyzkumny-program.md": [
   "czech",
@@ -504,28 +459,13 @@
   "czech",
   "related"
  ],
- "content/glossary/liaruv-paradox.md": [
-  "czech"
- ],
- "content/glossary/logic-prolog.md": [
-  "czech"
- ],
- "content/glossary/logicka-koherence.md": [
-  "czech"
- ],
  "content/glossary/mereologicka-rekonstrukce.md": [
   "czech",
   "related"
  ],
- "content/glossary/meta-epistemologie.md": [
-  "czech"
- ],
  "content/glossary/metakognice.md": [
   "czech",
   "related"
- ],
- "content/glossary/metakognitivni-deficit.md": [
-  "czech"
  ],
  "content/glossary/metakognitivni-destrukce.md": [
   "czech",
@@ -566,9 +506,6 @@
   "czech",
   "related"
  ],
- "content/glossary/newspeak.md": [
-  "czech"
- ],
  "content/glossary/nm-nd.md": [
   "czech",
   "related"
@@ -577,15 +514,9 @@
   "czech",
   "related"
  ],
- "content/glossary/noumenum.md": [
-  "czech"
- ],
  "content/glossary/ontologicka-anihilace.md": [
   "czech",
   "related"
- ],
- "content/glossary/operativni-artikulace.md": [
-  "czech"
  ],
  "content/glossary/osint.md": [
   "czech",
@@ -602,17 +533,11 @@
   "related",
   "links-out"
  ],
- "content/glossary/paradigmaticka-bezdomovina.md": [
-  "czech"
- ],
  "content/glossary/paralysis-by-analysis.md": [
   "description",
   "czech",
   "related",
   "links-out"
- ],
- "content/glossary/parental-alienation.md": [
-  "czech"
  ],
  "content/glossary/pattern-evidence.md": [
   "description",
@@ -2070,9 +1995,6 @@
   "diacritics",
   "not-orphan"
  ],
- "content/kompendium/quick-reference/qr-ea-5-2-5.md": [
-  "not-orphan"
- ],
  "content/kompendium/quick-reference/qr-ea-5-2-8.md": [
   "not-orphan"
  ],
@@ -2509,9 +2431,6 @@
  "content/kompendium/techniques/ea-4-4-7-moral-self-suspension.md": [
   "not-orphan"
  ],
- "content/kompendium/techniques/ea-4-4-8-coherence-restoration.md": [
-  "not-orphan"
- ],
  "content/kompendium/techniques/ea-4-4-9-narrative-reconstruction.md": [
   "not-orphan"
  ],
@@ -2612,8 +2531,7 @@
   "description"
  ],
  "content/kompendium/techniques/ea-5-2-12-noumenalni-paralyza.md": [
-  "description",
-  "not-orphan"
+  "description"
  ],
  "content/kompendium/techniques/ea-5-2-14-konstitutivni-zhrouceni.md": [
   "description"
@@ -2684,16 +2602,10 @@
  "content/kompendium/techniques/ea-5-3-17-existencialni-rekonfigurace.md": [
   "not-orphan"
  ],
- "content/kompendium/techniques/ea-5-3-24-proto-self-rozklad.md": [
-  "not-orphan"
- ],
  "content/kompendium/techniques/ea-5-3-26-core-self-fraktura.md": [
   "not-orphan"
  ],
  "content/kompendium/techniques/ea-5-3-27-ego-skeletalni-redukce.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-5-3-28-pseudo-self-implantace.md": [
   "not-orphan"
  ],
  "content/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md": [

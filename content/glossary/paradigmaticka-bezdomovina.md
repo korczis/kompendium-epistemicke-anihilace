@@ -1,81 +1,137 @@
 +++
-title = "Paradigmaticka Bezdomovina"
+title = "Paradigmatická bezdomovina"
 weight = 100
-description = "Paradigmaticka Bezdomovina — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
+description = "Paradigmatická bezdomovina: stav po rychlém střídání neslučitelných výkladových rámců, kdy člověk nemá žádný, v němž by se orientoval, a snadno přijme jakýkoli."
 
 [taxonomies]
-tags = ["glossary", "architecture", "interactive"]
+tags = ["glossary", "kompendium", "epistemic", "epistemicka-singularita"]
 
 [extra]
-category = "architecture"
-related_terms = ["academy", "adversarial-architecture", "accreditation", "acid-transactions", "adapter", "access-control"]
+category = "epistemic"
+related_terms = ["epistemicka-bezdomovost", "kuhnova-revoluce", "epistemicky-monismus", "sektarska-konverze", "pluralismus", "paradigm-shift"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 ref_count_at_creation = 1
 +++
 
-## Definition
+## Definice
 
-**Paradigmaticka Bezdomovina** is a platform-architecture term used across the Prismatic Platform documentation. This entry is a structural stub created during the 2026-05-03 NLLB content-completion sweep — full treatment is part of the ongoing knowledge-base buildout.
+**Paradigmatická bezdomovina** je pracovní pojem Kompendia pro stav, v němž člověk **ztratil
+důvěru ve všechny výkladové rámce**, které znal, a nemá žádný, ve kterém by se cítil doma.
+Nejde o zdravou otevřenost vůči více pohledům, ale o vyčerpání z jejich střídání: každý rámec
+byl během krátké doby přijat, zpochybněn a nahrazen jiným, až zůstal pocit, že „nic neplatí“.
 
-## See Also
+Podstatné je, že tento stav je **nestabilní a zranitelný**. Člověk bez rámce trpí dezorientací,
+úzkostí a ztrátou smyslu; jakákoli nabídka stability je pro něj silně přitažlivá. Proto ho
+Kompendium popisuje jako přechodový stav, který předchází přijetí jediného, uzavřeného
+výkladu světa.
 
-- [Glossary index](@/glossary/_index.md)
+## Původ a kontext pojmu
 
----
+Pojem je konstrukcí této knihy a navazuje na několik zdrojů:
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+- **Kuhnův pojem paradigmatu.** Paradigma je soubor sdílených předpokladů, metod a vzorových
+  řešení, v němž se poznání odehrává (viz [Kuhnova revoluce](@/glossary/kuhnova-revoluce.md)).
+  Bezdomovina je individuální obdobou krize paradigmatu, ovšem bez nového paradigmatu, které
+  by krizi vyřešilo.
+- **Sociologie modernity.** Peter L. Berger, Brigitte Bergerová a Hansfried Kellner v knize
+  *The Homeless Mind* (1973) popsali „bezdomovectví“ moderního vědomí – ztrátu samozřejmého
+  domova ve světě, kterou přináší pluralita institucí a světonázorů.
+- **Psychologie identity.** Robert J. Lifton (*The Protean Self*, 1993) popsal schopnost
+  moderního člověka měnit a kombinovat identity jako možný zdroj odolnosti. Kontrast je
+  poučný: proteovské já přechází mezi rámci *z vlastní vůle a s kontinuitou*; bezdomovina je
+  výsledek ztráty kontinuity.
 
-## Manažerské shrnutí
+Pojem souvisí s heslem [epistemická bezdomovost](@/glossary/epistemicka-bezdomovost.md), které
+popisuje obecnější ztrátu epistemického zázemí; paradigmatická bezdomovina se týká specificky
+výkladových rámců.
 
-**Paradigmaticka Bezdomovina** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Jak se projevuje
 
+- **Únava z rámců** – „už jsem věřil všemu možnému, nic z toho nefungovalo“.
+- **Cynismus a relativismus** jako obrana – „všechno je jen výklad“.
+- **Dezorientace v hodnotách** – člověk neví, podle čeho rozhodovat, a rozhodování odkládá.
+- **Zvýšená sugestibilita** vůči nabídkám, které slibují konečnou jistotu, „pravdu za všemi
+  paradigmaty“.
+- **Ztráta jazyka** – pojmy jednoho rámce byly zdiskreditovány, pojmy dalšího nejsou osvojeny.
+- **Osamění** – s každým rámcem se často ztratila i komunita, která ho sdílela.
 
-## Koncepční síť
+## Mechanismus
 
-Vizualizace propojení **Paradigmaticka Bezdomovina** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+Technika [EA-5.1.26 Trans-paradigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md)
+popisuje strukturu: člověk je v krátké době veden skrze mnoho vzájemně neslučitelných
+výkladových paradigmat. Každé je nejprve předloženo jako přesvědčivé, pak zpochybněno. Rychlost
+nedovolí žádnému rámci zakořenit. Výsledkem není pluralita, ale **vyprázdnění**.
 
-```mermaid
-graph TD
-    C0["Paradigmaticka Bezdomovina"]
-    N1["Academy"]
-    N2["Adversarial Architecture"]
-    N3["Accreditation"]
-    N4["ACID Transactions"]
-    N5["Adapter"]
-    N6["Access Control"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+V okamžiku maximální dezorientace bývá nabídnut stabilizující meta-rámec – prezentovaný jako
+„nad-paradigmatický“, „za všemi konstrukty“. Přijímá se s minimálním odporem, protože
+jakákoli stabilita je úlevou. Na tomto místě navazuje [EA-5.1.27 Meta-epistemická redukce](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md)
+a výsledným stavem bývá [epistemický monismus](@/glossary/epistemicky-monismus.md). Příbuzný
+vzorec na úrovni pojmů popisuje [EA-4.3.7 Paradigmatic fluidization](@/kompendium/techniques/ea-4-3-7-paradigmatic-fluidization.md).
 
-## Související pojmy
+Bezdomovina však nevzniká jen záměrnou manipulací. Může být důsledkem životní krize, rychlé
+změny prostředí, odchodu ze skupiny nebo zahlcení protichůdnými informacemi. V takovém stavu
+je člověk zranitelný i vůči náhodným nabídkám, které záměr nemají – a vůči těm, které ho mají.
 
-- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/) — slug `academy`
-- [Adversarial Architecture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-architecture/) — slug `adversarial-architecture`
-- [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/) — slug `accreditation`
-- [ACID Transactions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/acid-transactions/) — slug `acid-transactions`
-- [Adapter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adapter/) — slug `adapter`
-- [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/) — slug `access-control`
+## Odlišení
 
-## Navigace
+- **Vs. zdravý pluralismus.** [Pluralismus](@/glossary/pluralismus.md) znamená znát více rámců
+  a umět mezi nimi volit, aniž by člověk ztratil vlastní kritéria. Bezdomovina je ztráta kritérií.
+- **Vs. intelektuální krize a hledání.** Období hledání patří k dospívání i ke studiu; liší se
+  tím, že člověk si zachovává kontinuitu identity a vztahů a směřuje k nové integraci.
+- **Vs. deprese.** Ztráta smyslu a orientace se překrývá s depresivními příznaky; pokud
+  přetrvává smutek, ztráta energie a zájmu nebo se objevují myšlenky na sebepoškození, je
+  nutné klinické posouzení.
+- **Vs. [sektářská konverze](@/glossary/sektarska-konverze.md).** Konverze je přijetí nového
+  rámce; bezdomovina je stav, který jí často předchází a činí ji pravděpodobnější.
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## Význam pro Kompendium
+
+Pojem vysvětluje, proč jsou lidé v přechodných obdobích – po rozchodu, ztrátě práce, emigraci,
+odchodu ze skupiny – zvlášť zranitelní vůči náboru (srov. [Konspirační rekrutace](@/kompendium/case-studies/21-konspiracni-rekrutace.md)
+a vzdělávací scénář [Náborové techniky kultu](@/kompendium/educational-scenarios/18-cult-recruitment.md)).
+Upozorňuje také na riziko v terapii a rehabilitaci: rychlé „přeprogramování“ člověka po odchodu
+ze skupiny může vytvořit novou bezdomovinu a s ní novou závislost.
+
+## Obrana a zotavení
+
+- **Zpomalit.** Nepřijímat nový celkový výklad světa v krizi; dát si čas.
+- **Hledat kontinuitu.** Připomenout si hodnoty, vztahy a činnosti, které přetrvaly všechny
+  rámce – ty tvoří „domov“ nezávislý na paradigmatech (viz
+  [Ochrana existenciálního smyslu](@/kompendium/self-defense-guides/48-existential-meaning-protection.md)).
+- **Pluralita s kotvou.** Znát více pohledů je užitečné, pokud si člověk uchová vlastní
+  kritéria hodnocení (viz [Pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md)).
+- **Podezřívat konečnou jistotu.** Nabídka „pravdy za všemi paradigmaty“ je varovným znakem,
+  ne řešením.
+- **Pro profesionály:** po odchodu ze skupiny podporovat postupnou rekonstrukci smyslu (viz
+  [Subakutní rekonstrukce smyslu](@/kompendium/recovery-protocols/subacute-meaning-reconstruction.md))
+  a nepředkládat hotový alternativní světonázor.
+
+## Literatura
+
+- Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*.
+- Berger, P. L., Berger, B., & Kellner, H. (1973). *The Homeless Mind: Modernization and
+  Consciousness*.
+- Lifton, R. J. (1993). *The Protean Self: Human Resilience in an Age of Fragmentation*.
+
+## Související
+
+**Pojmy glosáře**
+
+- [Epistemická bezdomovost](@/glossary/epistemicka-bezdomovost.md) – obecnější ztráta epistemického zázemí.
+- [Kuhnova revoluce](@/glossary/kuhnova-revoluce.md) – zdroj pojmu paradigmatu.
+- [Epistemický monismus](@/glossary/epistemicky-monismus.md) – stav, do kterého bezdomovina často ústí.
+- [Pluralismus](@/glossary/pluralismus.md) – zdravá alternativa.
+
+**Techniky**
+
+- [EA-5.1.26 Trans-paradigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md) – technika, která bezdomovinu vyvolává.
+- [EA-5.1.27 Meta-epistemická redukce](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md) – navazující zúžení na jediný rámec.
+
+**Případy a zotavení**
+
+- [Případ 21: Konspirační rekrutace](@/kompendium/case-studies/21-konspiracni-rekrutace.md) – nábor v přechodném období.
+- [Subakutní rekonstrukce smyslu](@/kompendium/recovery-protocols/subacute-meaning-reconstruction.md) – postupná obnova orientace.
+- [Sebe-obrana: Pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md) – pluralita s kotvou.

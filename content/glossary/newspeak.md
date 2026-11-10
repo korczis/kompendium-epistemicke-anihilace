@@ -1,81 +1,140 @@
 +++
 title = "Newspeak"
 weight = 100
-description = "Newspeak — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
+description = "Newspeak: Orwellův pojem pro jazyk, který zužuje myšlení a znemožňuje kritiku. Znaky ideologického jazyka v režimech, skupinách a organizacích a obrana proti němu."
 
 [taxonomies]
-tags = ["glossary", "architecture", "interactive"]
+tags = ["glossary", "kompendium", "manipulace", "rhetoric"]
 
 [extra]
-category = "architecture"
-related_terms = ["3nl", "adaptive-testing", "adapter-pattern", "adversarial-architecture", "academy", "access-control"]
+category = "rhetoric"
+related_terms = ["propaganda", "thought-stopping", "semanticka-afazie", "kult-osobnosti", "kognitivni-zplosteni", "high-control-group"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 ref_count_at_creation = 1
 +++
 
-## Definition
+## Definice
 
-**Newspeak** is a platform-architecture term used across the Prismatic Platform documentation. This entry is a structural stub created during the 2026-05-03 NLLB content-completion sweep — full treatment is part of the ongoing knowledge-base buildout.
+**Newspeak** (česky někdy „novořeč“) je pojem z románu George Orwella *Nineteen Eighty-Four*
+(1949) pro uměle vytvářený jazyk vládnoucí strany, jehož cílem není rozšiřovat, ale **zužovat
+rozsah myšlení**. Slova se ruší, významy se zjednodušují a slučují, až se některé myšlenky
+– především kritika režimu – stanou nevyslovitelnými, a tedy podle Orwellova záměru
+i nemyslitelnými.
 
-## See Also
+Mimo román se pojem používá obecně pro **ideologický jazyk**, ve kterém slova ztratila běžný
+význam, hodnocení je zabudováno do slovníku a ustálené formulace nahrazují myšlení. V tomto
+širším smyslu jej používá i Kompendium: newspeak je místo, kde se manipulace odehrává přímo
+v jazyce.
 
-- [Glossary index](@/glossary/_index.md)
+## Původ a kontext pojmu
 
----
+Orwell zásady newspeaku popsal v dodatku románu *The Principles of Newspeak*. Popisuje tři
+vrstvy slovníku, rušení slov („proč mít slovo *špatný*, když existuje *nedobrý*“) a slova
+s vestavěným hodnocením. Úzce s ním souvisí pojem **doublethink** – schopnost současně
+přijímat dvě protichůdná přesvědčení a nevidět rozpor. Orwell se jazykem politiky zabýval
+i v eseji *Politics and the English Language* (1946).
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Orwellův obraz měl skutečné předlohy. Victor Klemperer v knize *LTI – Lingua Tertii Imperii*
+(1947) dokumentoval jazyk nacistického Německa a jeho pronikání do každodenní řeči. Robert J.
+Lifton (*Thought Reform and the Psychology of Totalism*, 1961) popsal mezi znaky totalismu
+„nabití jazyka“ (*loading the language*) a myšlenku ukončující klišé (*thought-terminating
+cliché*). V českém prostředí rozebral jazyk komunistického režimu Petr Fidelius (*Řeč
+komunistické moci*, 1998).
 
-## Manažerské shrnutí
+## Jak se projevuje
 
-**Newspeak** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+- **Slova s vestavěným hodnocením** – nálepky, které místo popisu rovnou soudí („nepřítel“,
+  „živel“, „negativista“, v sektách „světský“, „nepoučený“, v organizacích „toxický“ pro každého
+  kritika).
+- **Ritualizované formulace** – opakované fráze, které se používají bez ohledu na situaci.
+- **Eufemismy** – jazyk, který zakrývá násilí nebo nepříjemná fakta („opatření“, „pomoc“,
+  „převýchova“).
+- **Hustota žargonu** – vlastní slovník skupiny, kterému outsider nerozumí (viz detekční signatura
+  [Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md)).
+- **Myšlenku ukončující klišé** – fráze, která ukončí úvahu („to je jen tvoje ego“, „důvěřuj
+  procesu“) (srov. [thought stopping](@/glossary/thought-stopping.md)).
+- **Posun významu běžných slov** – „svoboda“, „láska“, „pravda“ mění obsah podle potřeb
+  autority (viz [Sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md)).
 
+## Mechanismus
 
-## Koncepční síť
+Strukturálně působí newspeak třemi cestami:
 
-Vizualizace propojení **Newspeak** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+1. **Zúžení slovníku.** Chybí-li slovo pro rozdíl, je těžší ho myslet a sdělit. To je kolektivní
+   obdoba [kognitivního zploštění](@/glossary/kognitivni-zplosteni.md).
+2. **Vestavěné hodnocení.** Když slovo samo obsahuje soud, je obtížné popsat věc neutrálně;
+   kdo použije slovník skupiny, přijal i její hodnocení.
+3. **Ritualizace.** Opakované formulace vytvářejí pocit, že bylo něco řečeno, aniž by byla
+   vyslovena jakákoli kontrolovatelná myšlenka. Ritualizovaný jazyk zároveň signalizuje
+   loajalitu: kdo mluví „správně“, patří k nám.
 
-```mermaid
-graph TD
-    C0["Newspeak"]
-    N1["3NL"]
-    N2["Adaptive Testing"]
-    N3["Adapter Pattern"]
-    N4["Adversarial Architecture"]
-    N5["Academy"]
-    N6["Access Control"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+Jazyk se přitom mění dřív než myšlení. Člověk, který si slovník osvojí – často proto, aby
+zapadl –, postupně přebírá i strukturu pojmů. Techniky, které na tomto principu stavějí,
+popisují [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
+a [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md).
 
-## Související pojmy
+## Odlišení
 
-- [3NL](@/glossary/3nl.md) — slug `3nl`
-- [Adaptive Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adaptive-testing/) — slug `adaptive-testing`
-- [Adapter Pattern](@/glossary/adapter-pattern.md) — slug `adapter-pattern`
-- [Adversarial Architecture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-architecture/) — slug `adversarial-architecture`
-- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/) — slug `academy`
-- [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/) — slug `access-control`
+- **Vs. odborná terminologie.** Každý obor má vlastní slovník; ten však slouží k přesnosti,
+  dá se přeložit do běžné řeči a lze ho kritizovat. Newspeak se překladu brání a kritiku
+  vylučuje.
+- **Vs. skupinový slang.** Slang posiluje příslušnost, ale obvykle neruší možnost mluvit
+  o věcech jinak. Varovným znakem je, když se mimo slovník skupiny nedá o skupině vůbec mluvit.
+- **Vs. politická korektnost a jazyková citlivost.** Snaha o šetrný jazyk může být legitimní
+  i sporná; posuzuje se podle toho, zda zachovává možnost věcné diskuse a nesouhlasu.
+- **Vs. [propaganda](@/glossary/propaganda.md).** Propaganda je širší systém ovlivňování;
+  newspeak je jeho jazyková vrstva.
 
-## Navigace
+## Význam pro Kompendium
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+Newspeak propojuje historické případy s každodenními prostředími. Popisují ho
+[Stalinské monstrprocesy](@/kompendium/historical-cases/1-stalinist-show-trials.md)
+a [Československá normalizace](@/kompendium/historical-cases/6-czechoslovak-normalizace.md),
+ale stejné jazykové znaky se objevují v uzavřených skupinách, korporátní kultuře nebo online
+komunitách (viz [Corporate cult](@/kompendium/case-studies/11-corporate-cult.md)). Jazyk je
+přitom jedním z nejlépe pozorovatelných znaků: lze ho zaznamenat, porovnat v čase a doložit,
+což má význam pro klinickou i forenzní práci.
+
+## Obrana a zotavení
+
+- **Překládat do běžné řeči.** U každého výrazu se ptát: co přesně to znamená, jak bych to řekl
+  člověku zvenčí? Co nejde přeložit, často nic neříká.
+- **Rozlišit popis a hodnocení.** Nahradit nálepky popisem jednání („nesouhlasil na poradě“
+  místo „negativista“).
+- **Vracet slovům význam.** Po odchodu ze skupiny pomáhá vědomě znovu definovat klíčová slova
+  – co pro mě znamená láska, svoboda, služba.
+- **Číst mimo bublinu.** Bohatý, různorodý jazyk literatury a jiných komunit vrací rozlišení
+  (viz [Hluboké čtení](@/kompendium/self-defense-guides/35-deep-reading-practice.md)).
+- **Pro profesionály:** nepřebírat v terapii slovník skupiny, ani když ho klient používá;
+  ptát se na význam.
+
+## Literatura
+
+- Orwell, G. (1946). Politics and the English Language.
+- Orwell, G. (1949). *Nineteen Eighty-Four*.
+- Klemperer, V. (1947). *LTI – Notizbuch eines Philologen*.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*.
+- Fidelius, P. (1998). *Řeč komunistické moci*.
+
+## Související
+
+**Pojmy glosáře**
+
+- [Thought stopping](@/glossary/thought-stopping.md) – myšlenku ukončující klišé.
+- [Propaganda](@/glossary/propaganda.md) – širší systém, jehož je newspeak součástí.
+- [Sémantická afázie](@/glossary/semanticka-afazie.md) – ztráta vazby slov a významů.
+- [Kult osobnosti](@/glossary/kult-osobnosti.md) – jazyk úcty a ritualizované formulace.
+
+**Historické případy**
+
+- [Československá normalizace](@/kompendium/historical-cases/6-czechoslovak-normalizace.md) – ideologický jazyk v každodennosti.
+- [Stalinské monstrprocesy](@/kompendium/historical-cases/1-stalinist-show-trials.md) – jazyk obvinění a sebeobvinění.
+
+**Techniky a detekce**
+
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – slovník jako bariéra.
+- [Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) – měřitelný jazykový znak.
+- [Sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md) – posun významu slov.

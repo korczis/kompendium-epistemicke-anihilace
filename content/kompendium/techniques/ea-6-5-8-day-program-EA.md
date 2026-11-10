@@ -36,7 +36,7 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 ## Definice
 
-**Day program EA** je Intensive Outpatient Program (IOP) — 3 hodiny/den 3-5 dní/týden — jako střední úroveň péče mezi PHP a standardním ambulantním programem; specificky designovaný pro EA-trauma populace.
+**Day program EA** je Intensive Outpatient Program (IOP) — několik hodin denně po několik dní v týdnu — jako střední úroveň péče mezi PHP a standardním ambulantním programem; specificky designovaný pro EA-trauma populace.
 
 Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
 
@@ -60,13 +60,13 @@ Identifikace kontraindikací je integrální součástí každého iniciálního
 
 Standardní implementace techniky probíhá v následujících strukturovaných krocích:
 
-(1) IOP assessment. (2) 3-hour daily structure — group + individual. (3) Trauma-specific modules. (4) Skill-training. (5) Pharmacotherapy. (6) Peer support. (7) Discharge planning.
+(1) IOP assessment. (2) Denní struktura — skupinová a individuální část. (3) Trauma-specific modules. (4) Skill-training. (5) Pharmacotherapy. (6) Peer support. (7) Discharge planning.
 
 Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
 
 ## Trvání a frekvence
 
-**Typická délka:** 8-16 týdnů.
+**Typická délka:** ohraničená; délku určuje klinický obraz a supervize, nikoli norma stanovená touto knihou.
 
 Frekvence sezení a celková délka intervence jsou závislé na komplexitě klinického obrazu, komorbiditách a individuální responsivitě. V populacích s komplexním C-PTSD je třeba počítat s prolongovaným průběhem, zatímco u single-incident traumat lze očekávat rychlejší progression.
 
@@ -76,7 +76,7 @@ Klinická efektivita techniky je posuzována podle následujících outcome metr
 
 Symptom redukce, functional gains, transition do standard outpatient.
 
-Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence. Klinicky významná změna je definována jako Cohenovo d ≥ 0.5 nebo redukce primárního skóru o ≥ 30%.
+Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence.
 
 ## Adaptace pro specifické EA kategorie
 
@@ -100,8 +100,6 @@ Technika **EA-6.5.8** se historicky vyvinula z konvergence několika klinických
 
 **Klinické zacílení**: akutní a vysokointenzivní klinické setting (ER, akutní krize, inpatient, partial hospitalization, day program, residential) pro pacienty s aktivní EA-symptomatologií vyžadující stabilizaci. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**DSM-5-TR / ICD-11 mapování**: technika je primárně indikována pro diagnózy odpovídající F43.0 Acute stress reaction (ICD-11 6B42), F43.1 PTSD, F23 Acute psychotic disorders (ICD-11 6A23), F44 Dissociative disorders, F32.3 Severe depressive episode with psychotic symptoms. V rámci ICD-11 6B41 Complex PTSD (CPTSD) představuje technika klíčovou intervenční komponentu pro tři jádrové domény CPTSD: dysregulace afektu, negativní sebepojetí a relační poruchy. Diferenciální diagnostika musí explicitně vyloučit primární psychotické spektra (F20-F29 / 6A2X), bipolární poruchy (F31 / 6A6X) a organické afektivní poruchy (F06.3X / 6E62).
-
 **Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
 
 **Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
@@ -110,47 +108,41 @@ Technika **EA-6.5.8** se historicky vyvinula z konvergence několika klinických
 
 Aplikace techniky **EA-6.5.8** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), zkrácená sezení (30-45 min vs. 60-90 min standard), vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), kratší sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
 **Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci (atypická antipsychotika), úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci vedenou psychiatrem, úzkou spolupráci s ním, redukci konfrontačních elementů a posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise (≥ 90 dní), poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training 12-24 týdnů) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence do 6 měsíců post-partum.
+**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence.
 
-## Outcome měření
+## Kdy je rámec legitimní
 
-Validace efektivity techniky vyžaduje multidimenzionální outcome battery aplikovanou v klinicky validovaných intervalech:
+Program, který má jít dohromady se školou nebo prací, je legitimní tam, kde tomu skutečně ustupuje. Jeho smyslem je udržet člověka v jeho vlastním životě, ne vytvořit paralelní; o úrovni péče rozhoduje klinická péče a supervize (NICE, 2018). Čtení napříč stránkami popisuje [jak kompendium používat](@/kompendium/01-predmluva/jak-pouzivat.md).
 
-**Primární outcome instrumenty** (administrace baseline / mid-treatment / termination / 3-month FU / 12-month FU):
+Druhým znakem je obsah, který odpovídá doporučeným postupům a dává se ověřit. Doporučení pro posttraumatickou stresovou poruchu popisují, které psychologické intervence mají oporu; program, jenž se jim bez vysvětlení vyhýbá, nemá oporu v ničem než ve vlastním popisu (NICE, 2018).
 
-| Instrument | Doména | Klinicky významná změna |
-|------------|--------|--------------------------|
-| **PCL-5** | PTSD symptomy (DSM-5) | ≥ 10-bodová redukce, sub-threshold < 33 |
-| **ITQ** | ICD-11 PTSD/CPTSD | DSO klinicky pod prahem, redukce ≥ 30% |
-| **CAPS-5** | Klinicián-administrovaná PTSD | ≥ 30% redukce celkového skóru |
-| **DERS** | Emoční regulace | g ≥ 0.5 pre-post |
-| **WHODAS 2.0** | Funkční disabilita | ≥ 5-bodová redukce |
+Třetím znakem je dobrovolnost účasti na skupině. Dovednostní výcvik předpokládá spolupráci a ztrácí smysl tam, kde je vynucen; cílem je vlastní kapacita člověka, ne poslušnost vůči programu (Linehan, 1993).
 
-**Sekundární outcome**:
+## Odlišení
 
-- **PHQ-9** (depresivní symptomatologie, target < 10)
-- **GAD-7** (úzkostná symptomatologie, target < 10)
-- **DES-II** (disociativní symptomatologie, target < 30)
-- **WAI-SR** (terapeutická aliance, target ≥ 25. percentil)
-- **CGI-S** (klinické globální zhodnocení)
-- **PSQI** (kvalita spánku)
+Od svépomocné skupiny se program odlišuje odpovědností a dohledatelností, ne tématem. Svépomoc, sdílení a vzájemná podpora samy o sobě intervencí nejsou a nepotřebují být; považovat je za léčbu zatěžuje obojí (Herman, 1992).
 
-**Benchmarks pro úspěch intervence**:
+Od sousední techniky — [EA-6.5.7 partialní hospitalizace](@/kompendium/techniques/ea-6-5-7-partialni-hospitalizace.md) — se tento rámec liší tím, kolik dne zbývá na zbytek života, a [EA-6.5.10 outpatient EA protokol](@/kompendium/techniques/ea-6-5-10-outpatient-EA-protokol.md) je úrovní, kde je program už jen jedním z bodů týdne (Herman, 1992).
 
-- **Reliable Change Index (RCI)** > 1.96 na PCL-5 (Jacobson & Truax, 1991)
-- **Clinical Significance**: post-treatment skór v rámci 1 SD nontraumatizované normy
-- **Functional Recovery**: WHODAS 2.0 skór ≤ percentil 75 srovnatelné populace
-- **Sustained Remission**: udržení nad RCI prahem v 12měsíčním FU
+Rozlišujícím znakem zneužití je, co program dělá s nesouhlasem. Tam, kde je pochybnost o programu vykládána jako příznak nebo jako odpor, přestává jít o péči a začíná vzorec, který kniha popisuje (Herman, 1992).
+
+## Rizikové kontexty
+
+Nejčastěji je rámec zneužit tam, kde se účast stane podmínkou něčeho jiného — setrvání ve škole, v práci, v rodině nebo v programu samotném. Péče podmíněná přestává být nabídkou (Herman, 1992).
+
+Druhým kontextem je prostředí, které obsadí celý den a celý okruh vztahů. I program, jenž končí odpoledne, se tím přibližuje uspořádání, v němž jedna autorita určuje práci, volný čas i to, s kým člověk mluví (Goffman, 1961).
+
+Třetím kontextem je skupina jako nástroj. Dovednostní skupiny pracují s tlakem vrstevníků; bez vedení a bez supervize se tentýž tlak snadno obrátí na vynucení jediné přijatelné verze vlastního příběhu (Linehan, 1993).
 
 ## Vztah k jiným technikám
 
@@ -158,6 +150,7 @@ Step-down z [EA-6.5.7 partial hospitalizace](@/kompendium/techniques/ea-6-5-7-pa
 
 ## Literatura
 
+- Goffman, E. (1961). *Asylums: Essays on the Social Situation of Mental Patients and Other Inmates*. Anchor Books.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Linehan, M. M. (1993). *Cognitive-Behavioral Treatment of Borderline Personality Disorder*. Guilford Press.
 - National Institute for Health and Care Excellence (2018). *Post-traumatic stress disorder* (NICE guideline NG116).

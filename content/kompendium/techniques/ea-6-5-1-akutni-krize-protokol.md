@@ -60,13 +60,13 @@ Identifikace kontraindikací je integrální součástí každého iniciálního
 
 Standardní implementace techniky probíhá v následujících strukturovaných krocích:
 
-(1) Rapid safety assessment (60 min). (2) Triáž — outpatient vs. inpatient. (3) Akutní stabilizace — DBT distress tolerance, grounding. (4) Bezpečnostní plánování. (5) Rapid psychoedukace. (6) Bridge k dlouhodobé péči. (7) Follow-up do 48-72 hodin.
+(1) Rapid safety assessment. (2) Triáž — outpatient vs. inpatient. (3) Akutní stabilizace — DBT distress tolerance, grounding. (4) Bezpečnostní plánování. (5) Rapid psychoedukace. (6) Bridge k dlouhodobé péči. (7) Follow-up v krátkém odstupu.
 
 Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
 
 ## Trvání a frekvence
 
-**Typická délka:** 1-4 sezení v prvních 7-14 dnech.
+**Typická délka:** krátká a ohraničená; počet sezení i jejich rozestup jsou klinickým rozhodnutím pod supervizí, nikoli normou stanovenou touto knihou.
 
 Frekvence sezení a celková délka intervence jsou závislé na komplexitě klinického obrazu, komorbiditách a individuální responsivitě. V populacích s komplexním C-PTSD je třeba počítat s prolongovaným průběhem, zatímco u single-incident traumat lze očekávat rychlejší progression.
 
@@ -76,7 +76,7 @@ Klinická efektivita techniky je posuzována podle následujících outcome metr
 
 Snížená akutní symptomatologie, safety, engagement v dlouhodobé péči.
 
-Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence. Klinicky významná změna je definována jako Cohenovo d ≥ 0.5 nebo redukce primárního skóru o ≥ 30%.
+Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence.
 
 ## Adaptace pro specifické EA kategorie
 
@@ -100,8 +100,6 @@ Technika **EA-6.5.1** se historicky vyvinula z konvergence několika klinických
 
 **Klinické zacílení**: akutní a vysokointenzivní klinické setting (ER, akutní krize, inpatient, partial hospitalization, day program, residential) pro pacienty s aktivní EA-symptomatologií vyžadující stabilizaci. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**DSM-5-TR / ICD-11 mapování**: technika je primárně indikována pro diagnózy odpovídající F43.0 Acute stress reaction (ICD-11 6B42), F43.1 PTSD, F23 Acute psychotic disorders (ICD-11 6A23), F44 Dissociative disorders, F32.3 Severe depressive episode with psychotic symptoms. V rámci ICD-11 6B41 Complex PTSD (CPTSD) představuje technika klíčovou intervenční komponentu pro tři jádrové domény CPTSD: dysregulace afektu, negativní sebepojetí a relační poruchy. Diferenciální diagnostika musí explicitně vyloučit primární psychotické spektra (F20-F29 / 6A2X), bipolární poruchy (F31 / 6A6X) a organické afektivní poruchy (F06.3X / 6E62).
-
 **Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
 
 **Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
@@ -110,47 +108,41 @@ Technika **EA-6.5.1** se historicky vyvinula z konvergence několika klinických
 
 Aplikace techniky **EA-6.5.1** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), zkrácená sezení (30-45 min vs. 60-90 min standard), vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), kratší sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
 **Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci (atypická antipsychotika), úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci vedenou psychiatrem, úzkou spolupráci s ním, redukci konfrontačních elementů a posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise (≥ 90 dní), poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training 12-24 týdnů) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence do 6 měsíců post-partum.
+**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence.
 
-## Outcome měření
+## Kdy je rámec legitimní
 
-Validace efektivity techniky vyžaduje multidimenzionální outcome battery aplikovanou v klinicky validovaných intervalech:
+Krizová intervence je péčí tam, kde je její účel ohraničen: obnovit člověku bezpečí a vlastní rozhodovací kapacitu, ne získat nad ním vliv. Prvky, které takový rámec drží, jsou popsány jako minimum bezprostřední pomoci po traumatické události — pocit bezpečí, zklidnění, obnovení vlastní i společné působnosti, sociální propojení a naděje (Hobfoll a kol., 2007).
 
-**Primární outcome instrumenty** (administrace baseline / mid-treatment / termination / 3-month FU / 12-month FU):
+Posouzení rizika, rozhodnutí o úrovni péče a jakákoli kvantifikace patří akutní klinické péči a její supervizi; nejde o nic, co by čtenář nebo tato stránka mohli provést (Roberts, 2005). Rámec čtení stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
-| Instrument | Doména | Klinicky významná změna |
-|------------|--------|--------------------------|
-| **PCL-5** | PTSD symptomy (DSM-5) | ≥ 10-bodová redukce, sub-threshold < 33 |
-| **ITQ** | ICD-11 PTSD/CPTSD | DSO klinicky pod prahem, redukce ≥ 30% |
-| **CAPS-5** | Klinicián-administrovaná PTSD | ≥ 30% redukce celkového skóru |
-| **DERS** | Emoční regulace | g ≥ 0.5 pre-post |
-| **WHODAS 2.0** | Funkční disabilita | ≥ 5-bodová redukce |
+Souhlas je v krizi nejzranitelnější a právě proto rozhodující. Legitimní rámec nabízí volbu, kterou lze odvolat, zaznamenává, co bylo navrženo a proč, a nechává člověku přístup k vlastnímu záznamu; bezpečnostní plán je v tomto smyslu dokument vytvořený s člověkem, ne předepsaný jemu (Stanley a Brown, 2012).
 
-**Sekundární outcome**:
+## Odlišení
 
-- **PHQ-9** (depresivní symptomatologie, target < 10)
-- **GAD-7** (úzkostná symptomatologie, target < 10)
-- **DES-II** (disociativní symptomatologie, target < 30)
-- **WAI-SR** (terapeutická aliance, target ≥ 25. percentil)
-- **CGI-S** (klinické globální zhodnocení)
-- **PSQI** (kvalita spánku)
+Od běžné lidské podpory v těžké situaci se krizový rámec neodlišuje intenzitou, nýbrž tím, že má vymezený cíl, časové ohraničení a předání dál. Útěcha od blízkého člověka ani jednorázová pomoc nejsou krizovou intervencí a nepotřebují být; patologizovat je by samo bylo chybou (Roberts, 2005).
 
-**Benchmarks pro úspěch intervence**:
+Od sousední techniky — [EA-6.5.5 ER screening](@/kompendium/techniques/ea-6-5-5-er-screening-EA.md) — se tento rámec liší úlohou: screening rozpoznává, že za somatickou prezentací nebo opakovanou návštěvou může stát vzorec, zatímco krizový rámec pracuje s již rozpoznanou akutní situací. [EA-6.5.2 suicidální protokol](@/kompendium/techniques/ea-6-5-2-suicidalni-EA-protokol.md) je proti tomu vázán na jedno konkrétní riziko (Roberts, 2005).
 
-- **Reliable Change Index (RCI)** > 1.96 na PCL-5 (Jacobson & Truax, 1991)
-- **Clinical Significance**: post-treatment skór v rámci 1 SD nontraumatizované normy
-- **Functional Recovery**: WHODAS 2.0 skór ≤ percentil 75 srovnatelné populace
-- **Sustained Remission**: udržení nad RCI prahem v 12měsíčním FU
+Rozlišujícím znakem zneužití je, co po odeznění krize zůstane. Tam, kde se z přechodné pomoci stane trvalá závislost na jediném zdroji výkladu toho, co se člověku stalo, nejde o zotavení, ale o přesun kontroly (Herman, 1992).
+
+## Rizikové kontexty
+
+Nejčastěji je slovník krize zneužit tam, kde krizi vyvolává nebo udržuje totéž prostředí, které nabízí pomoc. Uzavřená skupina, pracoviště nebo vztah, který člověka nejprve destabilizuje a pak se prohlásí za jediné bezpečné místo, používá stabilizaci jako nástroj vazby (Lifton, 1961).
+
+Druhým kontextem je pomoc podmíněná. Kde je bezpečí nabídnuto výměnou za mlčení, za setrvání ve vztahu nebo za přijetí cizího popisu vlastní minulosti, přestává jít o péči; v situacích donucující kontroly je přitom právě období odchodu dobou nejvyššího rizika (Stark, 2007).
+
+Třetím kontextem je zařízení bez supervize a bez dokumentace, kterou by člověk mohl vidět. Bez vnějšího pohledu se krizová péče snadno stane rutinou, v níž nikdo nenese odpovědnost za to, co se komu řeklo (Roberts, 2005).
 
 ## Vztah k jiným technikám
 
@@ -158,9 +150,12 @@ Předchází [EA-6.3.1 stabilizační fázi](@/kompendium/techniques/ea-6-3-1-st
 
 ## Literatura
 
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Hobfoll, S. E. et al. (2007). Five essential elements of immediate and mid-term mass trauma intervention: Empirical evidence. *Psychiatry*.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. Norton.
 - Roberts, A. R. (Ed.) (2005). *Crisis Intervention Handbook* (3. vyd.). Oxford University Press.
 - Stanley, B., & Brown, G. K. (2012). Safety planning intervention: A brief intervention to mitigate suicide risk. *Cognitive and Behavioral Practice*.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 

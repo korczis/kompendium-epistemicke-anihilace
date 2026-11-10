@@ -220,7 +220,16 @@ def serialise(data: dict) -> str:
 
 
 def main() -> int:
-    check = "--check" in sys.argv[1:]
+    args = sys.argv[1:]
+    if any(a in ("-h", "--help") for a in args):
+        print(__doc__.strip())
+        return 0
+    unknown = [a for a in args if a != "--check"]
+    if unknown:
+        # An unknown option must never fall through to write mode.
+        print(f"build-ui-data: unknown argument {unknown[0]}; see --help", file=sys.stderr)
+        return 2
+    check = "--check" in args
     stale = []
     for name, data in build().items():
         target, text = OUT / name, serialise(data)

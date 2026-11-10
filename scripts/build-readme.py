@@ -133,7 +133,16 @@ def render():
 
 
 def main():
-    check = "--check" in sys.argv[1:]
+    args = sys.argv[1:]
+    if any(a in ("-h", "--help") for a in args):
+        print(__doc__.strip())
+        return 0
+    unknown = [a for a in args if a != "--check"]
+    if unknown:
+        # An unknown option must never fall through to write mode.
+        print(f"build-readme: unknown argument {unknown[0]}; see --help", file=sys.stderr)
+        return 2
+    check = "--check" in args
     text = README.read_text(encoding="utf-8")
     if BEGIN not in text or END not in text:
         sys.exit(f"build-readme: README.md has no {BEGIN} … {END} block")
@@ -142,12 +151,13 @@ def main():
     new = head + render() + tail
     if new == text:
         print("build-readme: up to date")
-        return
+        return 0
     if check:
         sys.exit("build-readme: README.md is stale; run scripts/build-readme.py")
     README.write_text(new, encoding="utf-8")
     print("build-readme: README.md rewritten")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

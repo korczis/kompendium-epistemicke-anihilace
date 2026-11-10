@@ -27,7 +27,7 @@
       <div class="flex flex-wrap gap-2" role="group" aria-label="Kategorie">
         <button type="button" data-glossary-cat="" aria-pressed="true" class="rounded-lg border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-900 hover:bg-gray-100 aria-pressed:border-primary-600 aria-pressed:bg-primary-50 aria-pressed:text-primary-700 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:aria-pressed:bg-gray-700 dark:aria-pressed:text-white">Vše</button>
         {%- for cn in g.categories %}{% set c = cn[0] %}
-        <button type="button" data-glossary-cat="{{ c }}" aria-pressed="false" class="rounded-lg border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-900 hover:bg-gray-100 aria-pressed:border-primary-600 aria-pressed:bg-primary-50 aria-pressed:text-primary-700 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:aria-pressed:bg-gray-700 dark:aria-pressed:text-white">{{ c }} <span class="ml-1 text-gray-400">{{ cn[1] }}</span></button>
+        <button type="button" data-glossary-cat="{{ c }}" aria-pressed="false" class="rounded-lg border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-900 hover:bg-gray-100 aria-pressed:border-primary-600 aria-pressed:bg-primary-50 aria-pressed:text-primary-700 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:aria-pressed:bg-gray-700 dark:aria-pressed:text-white">{{ c }} <span class="ml-1 text-gray-500 dark:text-gray-400">{{ cn[1] }}</span></button>
         {%- endfor %}
       </div>
       <span class="text-sm text-gray-500 lg:ml-auto dark:text-gray-400" data-glossary-count aria-live="polite">{{ section.pages | length }} pojmů</span>

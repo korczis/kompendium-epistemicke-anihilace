@@ -14,7 +14,7 @@
         {%- set a = get_section(path=anc, metadata_only=true) %}
         <li>
           <div class="flex items-center">
-            <svg class="h-6 w-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
+            <svg class="h-6 w-6 text-gray-500" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
             <a href="{{ a.permalink }}" class="ml-1 max-w-[16rem] truncate text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-300 dark:hover:text-white">{{ a.title }}</a>
           </div>
         </li>
@@ -22,8 +22,8 @@
         {%- endfor %}
         <li>
           <div class="flex items-center">
-            <svg class="h-6 w-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
-            <span class="ml-1 max-w-[16rem] truncate text-sm font-medium text-gray-400 md:ml-2 dark:text-gray-500" aria-current="page">{{ doc.title }}</span>
+            <svg class="h-6 w-6 text-gray-500" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
+            <span class="ml-1 max-w-[16rem] truncate text-sm font-medium text-gray-500 md:ml-2 dark:text-gray-400" aria-current="page">{{ doc.title }}</span>
           </div>
         </li>
       </ol>

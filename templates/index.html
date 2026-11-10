@@ -30,10 +30,10 @@
       </div>
     </div>
     <figure class="lg:col-span-5 lg:mt-0">
-      <div class="overflow-hidden rounded-lg border border-gray-200 shadow-lg dark:border-gray-700" data-p5="rozpad" data-ratio="1.05" data-intensity="0.8" data-label="Síť pojmů, která se v ohnisku rozpadá a mimo něj znovu obnovuje.">
+      <div class="aspect-[100/105] overflow-hidden rounded-lg border border-gray-200 shadow-lg dark:border-gray-700" data-p5="rozpad" data-ratio="1.05" data-intensity="0.8" data-label="Síť pojmů, která se v ohnisku rozpadá a mimo něj znovu obnovuje.">
         <noscript><img src="{{ get_url(path='img/cover.svg') }}" alt="Obálka: pravidelná síť pojmů, která se směrem ke středu rozpadá do fragmentů." class="w-full" width="600" height="800"></noscript>
       </div>
-      <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Síť pojmů v rozkladu a obnově. Pohybem myši posunete ohnisko. <a href="{{ get_url(path='@/galerie.md') }}" class="font-medium text-primary-700 hover:underline dark:text-primary-500">Galerie</a></figcaption>
+      <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Síť pojmů v rozkladu a obnově. Pohybem myši posunete ohnisko. <a href="{{ get_url(path='@/galerie.md') }}" class="font-medium text-primary-700 hover:underline dark:text-primary-400">Galerie</a></figcaption>
     </figure>
   </div>
 </section>
@@ -53,7 +53,7 @@
     <div class="rounded-lg bg-white p-4 shadow sm:p-6 xl:col-span-2 xl:p-8 dark:bg-gray-800">
       <div class="mb-4 flex items-center justify-between">
         <h2 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Kapitoly</h2>
-        <a href="{{ root.permalink }}" class="inline-flex items-center rounded-lg p-2 text-sm font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700">Celý obsah</a>
+        <a href="{{ root.permalink }}" class="inline-flex items-center rounded-lg p-2 text-sm font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-400 dark:hover:bg-gray-700">Celý obsah</a>
       </div>
       <ol class="grid gap-3 md:grid-cols-2">
         {%- for path in root.subsections | sort %}
@@ -81,7 +81,7 @@
       <div class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800">
         <h2 class="mb-2 text-xl font-bold leading-none text-gray-900 dark:text-white">Pro koho</h2>
         <p class="text-sm text-gray-500 dark:text-gray-400">{{ section.extra.audience }}</p>
-        <a href="{{ get_url(path='@/kompendium/01-predmluva/jak-pouzivat.md') }}" class="mt-4 inline-flex items-center rounded-lg p-2 text-sm font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700">Jak kompendium používat &rarr;</a>
+        <a href="{{ get_url(path='@/kompendium/01-predmluva/jak-pouzivat.md') }}" class="mt-4 inline-flex items-center rounded-lg p-2 text-sm font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-400 dark:hover:bg-gray-700">Jak kompendium používat &rarr;</a>
       </div>
       <div class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800">
         <h2 class="mb-4 text-xl font-bold leading-none text-gray-900 dark:text-white">Kolekce</h2>
@@ -99,8 +99,8 @@
         <h2 class="mb-2 text-xl font-bold leading-none text-gray-900 dark:text-white">Rozsah</h2>
         <p class="text-sm text-gray-500 dark:text-gray-400">Přibližně {{ (words / 1000) | round }} tisíc slov v kapitolách a kolekcích, {{ refs.extra.entries }} citovaných pramenů. Čísla se počítají při každém sestavení webu.</p>
         <div class="mt-4 flex flex-wrap gap-1">
-          <a href="{{ get_url(path='@/stav.md') }}" class="inline-flex items-center rounded-lg p-2 text-sm font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700">Stav knihy &rarr;</a>
-          <a href="{{ get_url(path='@/references.md') }}" class="inline-flex items-center rounded-lg p-2 text-sm font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700">Reference &rarr;</a>
+          <a href="{{ get_url(path='@/stav.md') }}" class="inline-flex items-center rounded-lg p-2 text-sm font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-400 dark:hover:bg-gray-700">Stav knihy &rarr;</a>
+          <a href="{{ get_url(path='@/references.md') }}" class="inline-flex items-center rounded-lg p-2 text-sm font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-400 dark:hover:bg-gray-700">Reference &rarr;</a>
         </div>
       </div>
     </div>

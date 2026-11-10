@@ -23,11 +23,11 @@
 {%- set t = nav.sections[tabs_key] %}
 <nav class="border-b border-gray-200 bg-white px-4 dark:border-gray-700 dark:bg-gray-800" aria-label="Navigace podstromu">
   <ul class="-mb-px flex flex-wrap text-center text-sm font-medium text-gray-500 dark:text-gray-400">
-    <li class="me-2"><a href="{{ config.base_url }}{{ t.url }}" class="inline-block rounded-t-lg border-b-2 p-4 {% if current_path == t.url %}border-primary-600 text-primary-600 dark:border-primary-500 dark:text-primary-500{% else %}border-transparent hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300{% endif %}"{% if current_path == t.url %} aria-current="page"{% endif %}>Přehled</a></li>
+    <li class="me-2"><a href="{{ config.base_url }}{{ t.url }}" class="inline-block rounded-t-lg border-b-2 p-4 {% if current_path == t.url %}border-primary-600 text-primary-600 dark:border-primary-500 dark:text-primary-400{% else %}border-transparent hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300{% endif %}"{% if current_path == t.url %} aria-current="page"{% endif %}>Přehled</a></li>
     {%- for k in t.subsections %}
     {%- set s = nav.sections[k] %}
     {%- set on = s.url in current_path %}
-    <li class="me-2"><a href="{{ config.base_url }}{{ s.url }}" class="inline-block max-w-[16rem] truncate rounded-t-lg border-b-2 p-4 {% if on %}border-primary-600 text-primary-600 dark:border-primary-500 dark:text-primary-500{% else %}border-transparent hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300{% endif %}" title="{{ s.title }}"{% if on %} aria-current="page"{% endif %}>{{ s.title }} <span class="ms-1 rounded-full bg-gray-100 px-1.5 py-0.5 text-xs text-gray-600 dark:bg-gray-700 dark:text-gray-300">{{ s.total }}</span></a></li>
+    <li class="me-2"><a href="{{ config.base_url }}{{ s.url }}" class="inline-block max-w-[16rem] truncate rounded-t-lg border-b-2 p-4 {% if on %}border-primary-600 text-primary-600 dark:border-primary-500 dark:text-primary-400{% else %}border-transparent hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300{% endif %}" title="{{ s.title }}"{% if on %} aria-current="page"{% endif %}>{{ s.title }} <span class="ms-1 rounded-full bg-gray-100 px-1.5 py-0.5 text-xs text-gray-600 dark:bg-gray-700 dark:text-gray-300">{{ s.total }}</span></a></li>
     {%- endfor %}
   </ul>
 </nav>

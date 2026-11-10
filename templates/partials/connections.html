@@ -29,7 +29,7 @@
   <h2 id="terms-title" class="mb-3 text-sm font-semibold uppercase tracking-wide text-gray-900 dark:text-white">Související pojmy</h2>
   <div class="flex flex-wrap gap-2">
     {%- for slug in doc.extra.related_terms %}{% if slug in terms_all.terms %}{% set t = terms_all.terms[slug] %}{% if config.base_url ~ t[0] != doc.permalink %}
-    <a href="{{ config.base_url }}{{ t[0] }}" class="inline-flex items-center gap-1.5 rounded-lg border border-gray-200 bg-white px-3 py-1.5 text-sm font-medium text-gray-900 hover:border-primary-300 hover:bg-primary-50 hover:text-primary-700 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white">{{ t[1] }}{% if t[2] %}<span class="rounded bg-gray-100 px-1.5 text-xs font-normal text-gray-500 dark:bg-gray-700 dark:text-gray-400">{{ t[2] }}</span>{% endif %}</a>
+    <a href="{{ config.base_url }}{{ t[0] }}" class="inline-flex items-center gap-1.5 rounded-lg border border-gray-200 bg-white px-3 py-1.5 text-sm font-medium text-gray-900 hover:border-primary-300 hover:bg-primary-50 hover:text-primary-700 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white">{{ t[1] }}{% if t[2] %}<span class="rounded bg-gray-100 px-1.5 text-xs font-normal text-gray-600 dark:bg-gray-700 dark:text-gray-300">{{ t[2] }}</span>{% endif %}</a>
     {%- endif %}{% endif %}{% endfor %}
   </div>
 </section>

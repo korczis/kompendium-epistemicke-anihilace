@@ -10,6 +10,8 @@ Writes two files that templates and scripts read and nobody edits by hand:
                             the section sub-navigation and the page windows read it
   static/data/glossary.json the glossary's facets: categories and initial letters with counts,
                             totals; the glossary page renders its toolbar from it
+  static/data/search.json   the site search index: per page title, description, url, EA code,
+                            kind (section label) and aliases; static/js/site.js ranks it
   static/data/terms.json    every page slug (file stem) -> [url, title, category]: resolves the
                             `related_terms` of a page into links; glossary wins a shared slug
 
@@ -86,7 +88,35 @@ def build() -> dict:
     }
     graph = {"schema": SCHEMA, "nodes": nodes, "edges": edges}
     return {"graph.json": graph, "metrics.json": metrics, "nav.json": navigation(pages),
-            "terms.json": terms(pages), "glossary.json": glossary(pages)}
+            "terms.json": terms(pages), "glossary.json": glossary(pages),
+            "search.json": search_index(pages)}
+
+
+KIND = [("glossary/", "Pojem"), ("kompendium/techniques/", "Technika"),
+        ("kompendium/case-studies/", "Kazuistika"), ("kompendium/historical-cases/", "Historický případ"),
+        ("kompendium/recovery-protocols/", "Zotavení"), ("kompendium/emergency-protocols/", "Krizový protokol"),
+        ("kompendium/self-defense-guides/", "Sebeobrana"), ("kompendium/detection-signatures/", "Detekce"),
+        ("kompendium/glossary-bridges/", "Most"), ("philosophy/", "Filozofie"), ("kompendium/", "Kapitola")]
+
+
+def search_index(pages: list) -> dict:
+    """One entry per page: [title, description, url, ea code, kind, aliases]."""
+    import re as _re
+    entries = []
+    for p in pages:
+        if p["path"] in ("references.md",):
+            continue
+        kind = next((label for prefix, label in KIND if p["path"].startswith(prefix)), "Stránka")
+        code = p["ea_code"]
+        if not code:
+            m = _re.match(r"^ea-(\d+)-(\d+)-(\d+)", p["path"].rsplit("/", 1)[-1])
+            code = "EA-" + ".".join(m.groups()) if m else ""
+        aliases = []
+        m = _re.match(r"^(.*?)\s*\((.*?)\)\s*$", p["title"])
+        if m:
+            aliases += [m.group(1).strip(), m.group(2).strip()]
+        entries.append([p["title"], p["description"][:200], p["url"], code, kind, aliases])
+    return {"schema": "kompendium-search/v1", "entries": entries}
 
 
 def glossary(pages: list) -> dict:

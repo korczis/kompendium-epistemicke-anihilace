@@ -76,18 +76,33 @@ const pages = [
     if (name === 'technique') {
       const btn = p.locator('#sidebar button[data-collapse-toggle^="sub-"][aria-expanded="false"]').first();
       if (await btn.count()) {
-        const target = await btn.getAttribute('data-collapse-toggle');
+        const target = await btn.getAttribute('aria-controls');
         await btn.click();
         await p.waitForTimeout(300);
         const hidden = await p.locator('#' + target).evaluate((el) => el.classList.contains('hidden'));
         if (hidden) fail('sidebar subtree does not expand');
         else console.log('sidebar expand ok', target);
       }
-      await p.fill('#topbar-search', 'gaslighting');
+      // Search: Ctrl+K focuses, typing lists options, arrows select, Enter opens; an EA code
+      // ranks its technique first.
+      await p.locator('body').click({ position: { x: 900, y: 600 } });
+      await p.keyboard.press('Control+k');
+      const focused = await p.evaluate(() => document.activeElement && document.activeElement.id);
+      if (focused !== 'topbar-search') fail('Ctrl+K does not focus search (' + focused + ')');
+      await p.keyboard.type('gaslighting');
       await p.waitForTimeout(1200);
-      const hits = await p.locator('[data-search-results] a').count();
+      const hits = await p.locator('#topbar-search-results [role="option"]').count();
       if (!hits) fail('search returns nothing for gaslighting');
-      console.log('search hits', hits);
+      await p.keyboard.press('ArrowDown');
+      const sel = await p.getAttribute('#topbar-search', 'aria-activedescendant');
+      if (!sel) fail('ArrowDown does not select a result');
+      await p.fill('#topbar-search', 'EA-1.6.2');
+      await p.waitForTimeout(800);
+      const first = await p.locator('#topbar-search-results [role="option"]').first().getAttribute('data-href');
+      if (!/ea-1-6-2/.test(first || '')) fail('EA code does not rank its technique first: ' + first);
+      await p.keyboard.press('Enter');
+      await p.waitForURL(/ea-1-6-2/, { timeout: 5000 }).catch(() => fail('Enter does not open the selected result'));
+      console.log('search hits', hits, 'first for EA-1.6.2:', first);
     }
     await ctx.close();
   }
@@ -98,6 +113,14 @@ const pages = [
   await m.waitForTimeout(500);
   const open = await m.locator('#sidebar').evaluate((el) => !el.classList.contains('-translate-x-full'));
   if (!open) fail('mobile drawer does not open');
+  const inDrawer = await m.evaluate(() => document.getElementById('sidebar').contains(document.activeElement));
+  if (!inDrawer) fail('opening the drawer does not move focus into it');
+  await m.keyboard.press('Escape');
+  await m.waitForTimeout(500);
+  const back = await m.evaluate(() => document.activeElement && document.activeElement.id);
+  const inert = await m.evaluate(() => document.getElementById('sidebar').hasAttribute('inert'));
+  if (back !== 'toggleSidebarMobile') fail('closing the drawer does not return focus to its toggle (' + back + ')');
+  if (!inert) fail('a closed drawer is not inert');
   await m.screenshot({ path: `${shots}/mobile-drawer.png` });
   await b.close();
   console.log(failures ? `smoke: ${failures} failure(s)` : 'smoke: all ok');

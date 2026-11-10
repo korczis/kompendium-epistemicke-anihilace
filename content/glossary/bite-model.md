@@ -175,7 +175,7 @@ závěrů](@/kompendium/critical-perspectives/5-false-positive-risk.md).
 - Hassan, S., & Shah, M. J. (2019). *The anatomy of undue influence used by terrorist cults and traffickers to induce helplessness and trauma, so creating false identities*. Ethics, Medicine and Public Health.
 - Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
-- Richardson, J. T. (1993). *A social psychological critique of "brainwashing" claims about recruitment to new religions*. Religion and the Social Order.
+- Richardson, J. T. (1993). *A social psychological critique of „brainwashing“ claims about recruitment to new religions*. Religion and the Social Order.
 - Schein, E. H. (1961). *Coercive Persuasion*. W. W. Norton.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. Jossey-Bass.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.

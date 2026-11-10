@@ -61,7 +61,7 @@ falzifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md) a v kapit
 
 Ztrátu falzifikační dispozice lze pozorovat v řeči. Prvním znakem je přerámování protidůkazu
 na další potvrzení („tají to, protože je to pravda“); druhým je proměna chybějícího důkazu
-v důkaz („samozřejmě že nic nenajdeš, tak mocní jsou“); třetím je předběžná delegitimizace
+v důkaz („samozřejmě že nic nenajdeš, tak mocní jsou“); třetím je předběžná [delegitimizace](@/glossary/delegitimizace.md)
 každého vyvracejícího zdroje. Všechny tři odpovídají tomu, co Popper označil za postupy, jimiž
 se teorie zachraňuje za cenu ztráty obsahu (Popper, 1963).
 
@@ -173,7 +173,7 @@ podmínkou obsažnosti tvrzení (Popper, 1934), nikoli souhlasu s jeho popření
 - Mayo, D. G. (1996). *Error and the Growth of Experimental Knowledge*. University of Chicago Press.
 - Popper, K. R. (1934). *Logik der Forschung*. Springer. (Angl. *The Logic of Scientific Discovery*, 1959.)
 - Popper, K. R. (1963). *Conjectures and Refutations*. Routledge.
-- Putnam, H. (1974). *The "corroboration" of theories*. In: The Philosophy of Karl Popper. Open Court.
+- Putnam, H. (1974). *The „corroboration“ of theories*. In: The Philosophy of Karl Popper. Open Court.
 - Quine, W. V. O. (1951). *Two dogmas of empiricism*. The Philosophical Review.
 
 ## Související

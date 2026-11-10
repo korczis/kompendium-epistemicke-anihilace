@@ -185,12 +185,12 @@ výzkumu](@/kompendium/critical-perspectives/19-research-exploitation.md).
 - Fiske, S. T., & Hauser, R. M. (2014). *Protecting human research participants in the age of big data*. Proceedings of the National Academy of Sciences.
 - Jones, J. H. (1981). *Bad Blood: The Tuskegee Syphilis Experiment*. Free Press.
 - Klitzman, R. (2015). *The Ethics Police? The Struggle to Make Human Research Safe*. Oxford University Press.
-- Levine, C., Faden, R., Grady, C., et al. (2004). *The limitations of "vulnerability" as a protection for human research participants*. American Journal of Bioethics.
+- Levine, C., Faden, R., Grady, C., et al. (2004). *The limitations of „vulnerability“ as a protection for human research participants*. American Journal of Bioethics.
 - Metcalf, J., & Crawford, K. (2016). *Where are human subjects in Big Data research? The emerging ethics divide*. Big Data & Society.
 - Newman, E., & Kaloupek, D. G. (2004). *The risks and benefits of participating in trauma-focused research studies*. Journal of Traumatic Stress.
 - Schrag, Z. M. (2010). *Ethical Imperialism: Institutional Review Boards and the Social Sciences, 1965–2009*. Johns Hopkins University Press.
 - World Medical Association (2024). *Declaration of Helsinki: Ethical Principles for Medical Research Involving Human Participants*.
-- Zimmer, M. (2010). *"But the data is already public": On the ethics of research in Facebook*. Ethics and Information Technology.
+- Zimmer, M. (2010). *„But the data is already public“: On the ethics of research in Facebook*. Ethics and Information Technology.
 
 ## Související
 

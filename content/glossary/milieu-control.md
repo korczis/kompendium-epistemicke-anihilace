@@ -171,7 +171,7 @@ záměrnou kontrolu od algoritmické filtrace a od vlastní volby (Nguyen, 2020)
 - Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Nguyen, C. T. (2020). *Echo chambers and epistemic bubbles*. Episteme.
-- Richardson, J. T. (1993). *A social psychological critique of "brainwashing" claims about recruitment to new religions*. Religion and the Social Order.
+- Richardson, J. T. (1993). *A social psychological critique of „brainwashing“ claims about recruitment to new religions*. Religion and the Social Order.
 - Schein, E. H. (1961). *Coercive Persuasion*. W. W. Norton.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Sunstein, C. R. (2017). *#Republic: Divided Democracy in the Age of Social Media*. Princeton University Press.

@@ -82,7 +82,7 @@ nikoli jako chybu v obsahu myšlení (Sass a Parnas, 2003); knihou používaný 
 [ipseita](@/glossary/ipseita.md).
 
 Znakem, který opravňuje k úvaze o vnějším tlaku, je prostředí, v němž je dotyčnému soustavně
-popíráno, co vnímal a co si pamatuje. Abramson ukázala, že gaslighting směřuje právě
+popíráno, co vnímal a co si pamatuje. Abramson ukázala, že [gaslighting](@/glossary/gaslighting.md) směřuje právě
 k podkopání postavení člověka jako toho, kdo smí o skutečnosti vypovídat (Abramson, 2014),
 a Stark popsal, jak nátlaková kontrola odnímá oběti přístup k nezávislému srovnání (Stark,
 2007).

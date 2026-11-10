@@ -46,7 +46,7 @@ verzí (Pomerantsev a Weiss, 2014). Model se opírá i o starší tradici studia
 operací, které cílily na politickou soudržnost protivníka, ne na jeho přesvědčení o jediné
 věci (Paul a Matthews, 2016).
 
-Pojmově navazuje model na starší postřeh, že propaganda totalitního typu nemíří na to, aby jí
+Pojmově navazuje model na starší postřeh, že [propaganda](@/glossary/propaganda.md) totalitního typu nemíří na to, aby jí
 lidé věřili, ale na to, aby přestali rozlišovat mezi pravdivým a nepravdivým vůbec (Arendt,
 1951). Terminologické zařazení mezi příbuzné jevy – dezinformaci, misinformaci a malinformaci
 – uvádí přehledová typologie Rady Evropy (Wardle a Derakhshan, 2017); knižní rozbor je

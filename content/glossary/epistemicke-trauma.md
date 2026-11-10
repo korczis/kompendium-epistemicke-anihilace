@@ -38,7 +38,7 @@ prostředky [fenomenologie](@/glossary/fenomenologie.md) a který ve zdravotnict
 Carel a Kidd jako znevěrohodnění vlastního prožitku pacienta (Carel a Kidd, 2014).
 
 Druhým znakem je metakognitivní dekalibrace: hodnocení vlastní jistoty se rozchází se
-skutečnou přesností, a to oběma směry. Metakognice je přitom měřitelná vlastnost — rozdíl mezi
+skutečnou přesností, a to oběma směry. [Metakognice](@/glossary/metakognice.md) je přitom měřitelná vlastnost — rozdíl mezi
 jistotou a výkonem lze zjišťovat psychofyzikálně (Fleming a Lau, 2014) a Nelson ji vymezil
 jako sledování a řízení vlastního poznávání (Nelson, 1996). Častější je celkově podceněná
 jistota, u části lidí naopak rigidní nadjistota jako obrana.
@@ -55,11 +55,11 @@ aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)).
 
 Pojem stojí na třech zavedených liniích. Herman popsala, že dlouhodobé zajetí v mezilidském
 vztahu nebo instituci mění sebepojetí a vztahy způsobem, který diagnóza PTSD nezachycuje, a na
-tomto základě navrhla komplexní trauma jako samostatnou kategorii (Herman, 1992). Freyd
+tomto základě navrhla [komplexní trauma](@/glossary/complex-trauma.md) jako samostatnou kategorii (Herman, 1992). Freyd
 ukázala, že závislost na osobě, která ubližuje, systematicky deformuje vnímání a paměť, protože
 plné uvědomění zrady by ohrozilo vazbu, na niž je člověk odkázán (Freyd, 1996).
 
-Třetí linií je epistemologie. Fricker popsala testimoniální nespravedlnost jako křivdu, při
+Třetí linií je epistemologie. Fricker popsala [testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) jako křivdu, při
 níž je člověku kvůli předsudku odepřena důvěryhodnost, a upozornila, že tato křivda zasahuje
 samu jeho roli vědoucího (Fricker, 2007). Kniha z toho přejímá tvrzení, že újma na postavení
 vědoucího je skutečná újma, nikoli metafora, a rozvíjí je v kapitole [Epistemické

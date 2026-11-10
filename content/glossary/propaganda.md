@@ -189,7 +189,7 @@ rámcem, který říká, kam se dívat.
 - Lippmann, W. (1922). *Public Opinion*. Harcourt, Brace.
 - Nguyen, C. T. (2020). *Echo chambers and epistemic bubbles*. Episteme.
 - Orwell, G. (1949). *Nineteen Eighty-Four*. Secker & Warburg.
-- Paul, C., & Matthews, M. (2016). *The Russian "Firehose of Falsehood" Propaganda Model*. RAND Corporation.
+- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ Propaganda Model*. RAND Corporation.
 - Stanley, J. (2015). *How Propaganda Works*. Princeton University Press.
 - Sunstein, C. R., & Vermeule, A. (2009). *Conspiracy theories: Causes and cures*. Journal of Political Philosophy.
 - Wardle, C., & Derakhshan, H. (2017). *Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making*. Council of Europe.

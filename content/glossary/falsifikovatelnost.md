@@ -136,7 +136,7 @@ Klinické posuzování manipulativních vzorců jako [gaslighting](@/glossary/ga
 každém možném chování, nebyly by to nálezy, ale nálepky (Meehl, 1978). Z téhož důvodu se
 k oběma heslům vždy uvádí odlišení od neškodných a od klinických případů.
 
-Nejzávažnějším důsledkem je požadavek vůči knize samé. Kdyby se epistemická anihilace dala
+Nejzávažnějším důsledkem je požadavek vůči knize samé. Kdyby se [epistemická anihilace](@/glossary/epistemicka-anihilace.md) dala
 najít v jakémkoli vztahu, rámec by se stal nástrojem moci, proti kterému varuje; proto kniha
 trvá na podmínkách vyvrácení u vlastních tvrzení a eticky je to totéž jako požadavek
 doložitelnosti (Popper, 1963). Rozebírá to kapitola [riziko kruhového

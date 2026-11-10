@@ -138,7 +138,7 @@ tvrdá (Grossman, 2023).
 
 Klinicky slouží rámec ke třem věcem: k rozpoznání stavu, v němž člověk nemůže zpracovávat
 informace, k plánování pořadí intervencí a k uvědomění role profesionála jako regulující
-přítomnosti. Fázová doporučení pro komplexní trauma kladou stabilizaci před zpracování ze
+přítomnosti. Fázová doporučení pro [komplexní trauma](@/glossary/complex-trauma.md) kladou stabilizaci před zpracování ze
 stejného důvodu (Cloitre a kol., 2012).
 
 Eticky je podstatné nevydávat slovník za mechanismus. Sdělit klientovi, že jeho stav má jméno,

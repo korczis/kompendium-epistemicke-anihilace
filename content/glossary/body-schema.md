@@ -173,7 +173,7 @@ orientované přístupy ([somatic
 experiencing](@/kompendium/techniques/ea-6-2-8-somatic-experiencing-protokol.md), [tělesně
 orientovaná terapie](@/kompendium/techniques/ea-6-2-9-body-oriented-therapy-protokol.md))
 mají být vedeny s vědomím, že tělo bylo místem kontroly (Herman, 1992). Dotek vyžaduje
-výslovný souhlas; obecnou povinnost poskytovatele získat informovaný souhlas zakládá zákon
+výslovný souhlas; obecnou povinnost poskytovatele získat [informovaný souhlas](@/glossary/informed-consent.md) zakládá zákon
 č. 372/2011 Sb., o zdravotních službách.
 
 ## Meze pojmu a kritika

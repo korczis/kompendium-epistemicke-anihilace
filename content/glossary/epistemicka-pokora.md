@@ -171,7 +171,7 @@ problém upozorňují (Krumrei-Mancuso a Rouse, 2016).
 
 Druhou mezí je rozsah vlastního pojmu knihy. Zneužitá pokora není popsaná klinická ani
 psychologická jednotka, nýbrž pracovní pojmenování vzorce, a jeho platnost je omezena na
-rozpoznání; naučená bezmocnost a gaslighting jsou nejbližší doložené konstrukty, ne jeho důkaz
+rozpoznání; naučená bezmocnost a [gaslighting](@/glossary/gaslighting.md) jsou nejbližší doložené konstrukty, ne jeho důkaz
 (Maier a Seligman, 1976; Abramson, 2014). Širší rizika tohoto druhu rozebírá kritická
 perspektiva [Přesah rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
 

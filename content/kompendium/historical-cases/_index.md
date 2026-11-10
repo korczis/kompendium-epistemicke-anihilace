@@ -1,6 +1,6 @@
 +++
 title = "Historické případy"
-description = "Čtyřicet doložených historických případů epistemických útoků – totalitní režimy, kulty, dezinformační kampaně a selhání vědy a medicíny – s mechanismy, dopady a poučením."
+description = "Doložené historické případy epistemických útoků – totalitní režimy, kulty, dezinformační kampaně a selhání vědy a medicíny – s mechanismy, dopady a poučením."
 weight = 60
 draft = false
 

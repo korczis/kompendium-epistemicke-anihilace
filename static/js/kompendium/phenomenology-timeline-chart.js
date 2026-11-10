@@ -1,170 +1,98 @@
-// Phenomenology Timeline — Chart.js scatter, click point → safe DOM detail
-(function() {
+// Detekční signatury knihy po skupinách (Chart.js scatter, jedna stopa = jedna skupina).
+// Skupiny (lingvistické, behaviorální, síťové, fenomenologické, průřezové…) a jejich stránky
+// přebírá z rejstříku oddílu detekčních signatur (nadpisy a odkazy pod nimi); X = pořadí
+// v rejstříku, Y = počet stránek knihy, které na signaturu odkazují (graf: in). Kniha neuvádí
+// průběh intenzity příznaků v čase, proto graf žádné takové hodnoty neukazuje.
+// Klik na bod → signatura, její skupina a odkaz na stránku.
+(function () {
   'use strict';
+  var SRC = document.currentScript && document.currentScript.src;
+  // Zdroj dat: rejstřík oddílu detekčních signatur (cesta v grafu knihy).
+  var SOURCE = 'kompendium/detection-signatures/_index.md';
 
-  // Five symptom tracks across 0-60 months (intensity 0-100)
-  const TIMEPOINTS = [0, 1, 3, 6, 9, 12, 18, 24, 30, 36, 48, 60];
-  const TRACKS = {
-    anxiety: {
-      label: 'Úzkost',
-      color: '#f59e0b',
-      values: [10, 35, 62, 78, 82, 75, 65, 55, 48, 42, 35, 28]
-    },
-    depersonalization: {
-      label: 'Depersonalizace',
-      color: '#8b5cf6',
-      values: [5, 22, 48, 70, 80, 78, 68, 58, 50, 42, 32, 25]
-    },
-    epistemicUncertainty: {
-      label: 'Epistemická nejistota',
-      color: '#ef4444',
-      values: [15, 50, 75, 88, 92, 85, 72, 60, 50, 42, 35, 30]
-    },
-    somatic: {
-      label: 'Somatická tíseň',
-      color: '#10b981',
-      values: [8, 28, 55, 68, 72, 65, 55, 45, 38, 32, 25, 20]
-    },
-    identityConfusion: {
-      label: 'Konfuze identity',
-      color: '#3b82f6',
-      values: [12, 30, 58, 75, 85, 82, 70, 60, 52, 45, 38, 30]
+  function kniha() {
+    if (!window.__kniha) {
+      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
+        var s = document.createElement('script');
+        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
+        s.onload = ok;
+        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
+        document.head.appendChild(s);
+      })).then(function () { return window.KompendiumKniha.ready(); });
     }
-  };
-
-  const NOTES = {
-    anxiety: {
-      0: 'Pre-expoziční baseline. Žádná systémová úzkost.',
-      1: 'První manipulační kontakty — vegetativní reakce.',
-      6: 'Vrchol akutní fáze. Anticipační úzkost před každou interakcí.',
-      24: 'Stabilizace s podporou. Úzkost přechází do reziduální formy.',
-      60: 'Dlouhodobá rezilience. Stopová úzkost při triggerech.'
-    },
-    depersonalization: {
-      3: 'Nástup pocitu odcizení vlastním myšlenkám.',
-      9: 'Plné disociativní epizody. „Já nejsem já."',
-      36: 'Postupná reintegrace self přes hermeneutickou práci.'
-    },
-    epistemicUncertainty: {
-      1: 'První pochybnost o vlastních smyslech.',
-      9: 'Maximum — pacient odmítá důvěřovat jakémukoli vjemu.',
-      24: 'Obnovení epistemické autonomie přes externí kotvy.'
-    },
-    somatic: {
-      6: 'Tenze, GI symptomy, poruchy spánku, palpitace.',
-      36: 'Somatické symptomy ustupují s návratem regulace.'
-    },
-    identityConfusion: {
-      9: 'Kolaps narativu „kdo jsem". Polární self-koncepce.',
-      24: 'Rekonstrukce identity nezávislé na manipulátorovi.',
-      48: 'Stabilní nový epistemický a osobnostní profil.'
-    }
-  };
-
-  function findClosestNote(trackKey, month) {
-    const trackNotes = NOTES[trackKey] || {};
-    const months = Object.keys(trackNotes).map(Number).sort((a, b) => a - b);
-    if (months.length === 0) return null;
-    let closest = months[0];
-    let minDiff = Math.abs(month - closest);
-    for (const m of months) {
-      const diff = Math.abs(month - m);
-      if (diff < minDiff) {
-        minDiff = diff;
-        closest = m;
-      }
-    }
-    return trackNotes[closest];
+    return window.__kniha;
   }
 
-  function setDetail(container, track, month, intensity) {
-    while (container.firstChild) container.removeChild(container.firstChild);
-    const h = document.createElement('h3');
-    h.className = 'text-lg font-bold text-slate-100';
-    h.textContent = track.label + ' — měsíc ' + month;
-    container.appendChild(h);
-    const meta = document.createElement('p');
-    meta.className = 'text-slate-400 text-sm';
-    meta.textContent = 'Intenzita: ' + intensity + '/100';
-    container.appendChild(meta);
-    const note = findClosestNote(track.key, month);
-    if (note) {
-      const p = document.createElement('p');
-      p.className = 'text-slate-300 mt-2';
-      p.textContent = note;
-      container.appendChild(p);
-    }
-  }
-
-  function buildDataset(key) {
-    const t = TRACKS[key];
-    return {
-      label: t.label,
-      data: TIMEPOINTS.map((m, i) => ({ x: m, y: t.values[i], _track: key })),
-      borderColor: t.color,
-      backgroundColor: t.color + '40',
-      pointBackgroundColor: t.color,
-      pointRadius: 5,
-      pointHoverRadius: 8,
-      tension: 0.4,
-      showLine: true
-    };
+  function failed(el, e) {
+    if (window.console) console.warn('vizualizace knihy:', e);
+    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
   }
 
   function init() {
-    const canvas = document.getElementById('phenomenology-timeline');
+    var canvas = document.getElementById('phenomenology-timeline');
     if (!canvas || typeof Chart === 'undefined') return;
-    const detail = document.getElementById('phenomenology-detail');
+    var detail = document.getElementById('phenomenology-detail');
+    kniha().then(function (K) {
+      var idx = K.g.byPath[SOURCE];
+      if (!idx) throw new Error(SOURCE + ' není v grafu');
+      return K.groups(idx).then(function (groups) {
+        var order = 0;
+        var tracks = groups.map(function (gr, gi) {
+          return {
+            group: gr, color: K.V.PALETTE[gi % K.V.PALETTE.length],
+            points: gr.nodes.map(function (n) { order += 1; return { x: order, y: n.in, n: n, gi: gi }; }),
+          };
+        });
+        var maxIn = Math.max.apply(null, K.g.nodes.filter(function (n) { return n.section === idx.section; })
+          .map(function (n) { return n.in; }).concat([1]));
 
-    const datasets = Object.keys(TRACKS).map(buildDataset);
-
-    new Chart(canvas, {
-      type: 'scatter',
-      data: { datasets: datasets },
-      options: {
-        responsive: true,
-        plugins: {
-          title: {
-            display: true,
-            text: 'Fenomenologická timeline symptomů během EA expozice',
-            color: '#f1f5f9'
-          },
-          legend: { labels: { color: '#cbd5e1' } },
-          tooltip: {
-            callbacks: {
-              title: (items) => 'Měsíc ' + items[0].parsed.x,
-              label: (ctx) => {
-                const trackKey = ctx.raw._track;
-                const t = TRACKS[trackKey];
-                return t.label + ': ' + ctx.parsed.y + '/100';
-              }
-            }
-          }
-        },
-        scales: {
-          x: {
-            ticks: { color: '#cbd5e1' },
-            title: { display: true, text: 'Čas od začátku expozice (měsíce)', color: '#e2e8f0' },
-            min: 0,
-            max: 60
-          },
-          y: {
-            ticks: { color: '#cbd5e1' },
-            title: { display: true, text: 'Intenzita symptomů (0-100)', color: '#e2e8f0' },
-            min: 0,
-            max: 100
-          }
-        },
-        onClick: (e, els) => {
-          if (!els.length || !detail) return;
-          const el = els[0];
-          const point = datasets[el.datasetIndex].data[el.index];
-          const trackKey = point._track;
-          const track = Object.assign({ key: trackKey }, TRACKS[trackKey]);
-          setDetail(detail, track, point.x, point.y);
+        function show(pt) {
+          if (!detail) return;
+          var gr = tracks[pt.gi].group;
+          K.clear(detail);
+          detail.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', pt.n.title));
+          detail.appendChild(K.h('p', 'text-slate-400 text-sm', gr.title + ' • odkazuje sem ' + pt.n.in + ' stránek knihy'));
+          if (gr.text) detail.appendChild(K.h('p', 'text-slate-300 mt-2', gr.text));
+          var p = K.h('p', 'mt-2 text-sm');
+          p.appendChild(K.link(pt.n, '→ stránka signatury'));
+          detail.appendChild(p);
         }
-      }
-    });
+
+        K.chart(canvas, function (c) {
+          return {
+            type: 'scatter',
+            data: { datasets: tracks.map(function (tr) {
+              return {
+                label: tr.group.title + ' (' + tr.points.length + ')', data: tr.points,
+                borderColor: tr.color, backgroundColor: tr.color + '40', pointBackgroundColor: tr.color,
+                pointRadius: 6, pointHoverRadius: 9, showLine: false,
+              };
+            }) },
+            options: {
+              responsive: true,
+              plugins: {
+                title: { display: true, color: c.text,
+                  text: 'Detekční signatury knihy po skupinách: jak často na ně kniha odkazuje' },
+                legend: { labels: { color: c.text } },
+                tooltip: { callbacks: {
+                  title: function (items) { return items[0].raw.n.title; },
+                  label: function (ctx) { return ctx.raw.n.in + ' odkazů z knihy'; },
+                } },
+              },
+              scales: {
+                x: { min: 0, max: order + 1, ticks: { color: c.muted, stepSize: 1 }, grid: { color: c.grid },
+                  title: { display: true, text: 'Pořadí v rejstříku signatur', color: c.text } },
+                y: { min: 0, suggestedMax: maxIn + 1, ticks: { color: c.muted }, grid: { color: c.grid },
+                  title: { display: true, text: 'Stránky knihy, které na signaturu odkazují', color: c.text } },
+              },
+              onClick: function (e, els, chart) {
+                if (els.length) show(chart.data.datasets[els[0].datasetIndex].data[els[0].index]);
+              },
+            },
+          };
+        });
+      });
+    }).catch(function (e) { failed(detail, e); });
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();

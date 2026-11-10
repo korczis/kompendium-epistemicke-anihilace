@@ -14,7 +14,7 @@ const BASE = (process.env.BASE_URL || 'http://127.0.0.1:18790/').replace(/\/?$/,
 // Pevné plochy aplikace. Stránky obsahu se vybírají až za běhu z odvozeného grafu
 // (static/data/graph.json), aby test nezastaral, když se obsah přepíše nebo přejmenuje.
 const FIXED = [
-  { path: '', painted: 1, note: 'úvod: p5 síť pojmů' },
+  { path: '', painted: 1, counts: [['a[href^="tel:"]', 3], ['#upozorneni-title', 1]], note: 'úvod: p5 síť pojmů, upozornění s kontakty pomoci' },
   { path: 'kompendium/02-uvod/v-kostce/', painted: 0, interact: 'kostka', note: 'vrstvy a model eskalace' },
   { path: 'mapa/', painted: 1, text: '[x-text="stats"]', note: 'Mapa knihy (cytoscape)' },
   { path: 'stav/', painted: 5, count: ['#stav-kpi > *', 8], note: 'Stav knihy (ECharts)' },
@@ -23,6 +23,7 @@ const FIXED = [
   { path: 'kompendium/techniques/', painted: 1, note: 'průzkumník technik' },
   { path: 'kompendium/historical-cases/', painted: 1, note: 'časová osa historických případů' },
   { path: 'glossary/', painted: 1, note: 'průzkumník glosáře' },
+  { path: 'kompendium/08-prilohy/index-pojmu/', painted: 1, count: ['[data-rj-item]', 2], interact: 'rejstrik', note: 'interaktivní rejstřík pojmů (ECharts)' },
   { path: 'tags/', painted: 1, note: 'štítky (treemap)' },
   { path: 'kompendium/case-studies/', painted: 1, note: 'přehled oddílu' },
   { path: 'kompendium/visualizations/', painted: 8, note: 'vizualizace knihy (Chart.js, p5)' },
@@ -135,6 +136,37 @@ async function check(browser, s, viewport, scheme) {
     const hits = await page.locator('[role="dialog"] [role="option"]').count();
     if (hits < 1) failures.push('paleta nenašla „gaslight“');
     await page.keyboard.press('Escape');
+  }
+  if (s.interact === 'rejstrik') {
+    // Filtr textem: první slovo prvního hesla zúží seznam a stav to oznámí.
+    const shown = () => page.locator('[data-rj-item]:visible').count();
+    const all = await page.locator('[data-rj-item]').count();
+    const word = ((await page.locator('[data-rj-title]').first().textContent()) || '').trim().split(/\s+/)[0];
+    await page.fill('#rj-q', word);
+    const hit = await shown();
+    const status = (await page.locator('[data-rj-status]').textContent()) || '';
+    if (!(hit >= 1 && hit < all)) failures.push(`filtr „${word}“ ukazuje ${hit} z ${all}`);
+    if (!status.includes(String(hit))) failures.push(`stav neoznamuje počet (${status.trim()})`);
+    await page.fill('#rj-q', '');
+    // Kategorie z Flowbite dropdownu: zůstanou jen hesla zaškrtnuté kategorie.
+    await page.click('#rj-cat-button');
+    const box = page.locator('[data-rj-cat]').first();
+    await box.check();
+    const cat = await box.inputValue();
+    const cats = await page.locator('[data-rj-item]:visible').evaluateAll((els) => els.map((e) => e.dataset.category));
+    if (!cats.length || cats.some((c) => c !== cat) || cats.length === all) failures.push(`kategorie „${cat}“ nefiltruje (${cats.length} z ${all})`);
+    await page.keyboard.press('Escape');
+    await page.locator('[data-rj-reset="toolbar"]').click();
+    // Uzel grafu z klávesnice: šipka vybere heslo, Enter ho otevře.
+    await page.focus('[data-rj-chart]');
+    await page.keyboard.press('ArrowRight');
+    const url = await page.locator('[data-rj-chart]').getAttribute('data-rj-current-url');
+    if (!url) failures.push('graf: šipka nevybrala heslo');
+    else {
+      await Promise.all([page.waitForURL(url, { timeout: 10000 }).catch(() => {}), page.keyboard.press('Enter')]);
+      if (page.url() !== url) failures.push(`graf: Enter neotevřel heslo (${page.url()})`);
+      await page.goBack({ waitUntil: 'networkidle' });
+    }
   }
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
   if (overflow > 0) failures.push(`vodorovné přetečení ${overflow} px`);

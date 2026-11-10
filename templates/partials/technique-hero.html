@@ -134,6 +134,27 @@
     <p class="min-w-0"><span class="font-medium">Toto heslo se teprve rozpracovává.</span> Zatím má {{ hx_words }} {{ hx_words_label }} a plný popis znaků, detekce a neutralizace teprve vzniká. Mezitím pomohou <a href="{{ hx_catalog }}" class="font-medium underline hover:no-underline focus:outline-none focus:ring-2 focus:ring-yellow-400 rounded-sm">další techniky rodiny {{ hx_family }}</a> nebo <a href="{{ get_url(path='@/stav.md') }}?pravidlo=detail#redakce" class="font-medium underline hover:no-underline focus:outline-none focus:ring-2 focus:ring-yellow-400 rounded-sm">pracovní seznam ve Stavu knihy</a>.</p>
   </div>
   {%- endif %}
+  {#- Sdílený kód: graph.json (build-graph.py) uvádí u techniky „code_shared_with“, pokud stejný
+      kód nese jiná stránka. Kanonické číslování je redakční rozhodnutí; karta jen upozorní. -#}
+  {%- set_global hx_node = "" %}
+  {%- for n in hx_graph.nodes %}{% if n.path == page.relative_path %}{% set_global hx_node = n %}{% break %}{% endif %}{% endfor %}
+  {%- if hx_node and hx_node.code_shared_with is defined and hx_node.code_shared_with %}
+  <div class="mb-4 flex items-start gap-3 rounded-lg border border-blue-300 bg-blue-50 p-4 text-sm text-blue-900 dark:border-blue-800 dark:bg-gray-800 dark:text-blue-300" role="note" aria-label="Sdílený kód techniky" data-hx-clash>
+    <svg class="mt-0.5 h-4 w-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z"/></svg>
+    <div class="min-w-0">
+      <p><span class="font-medium">Kód {{ hx_node.ea_code | default(value=hx_code) }} nese i jiná stránka.</span> Číslování technik sjednotí redakce; do té doby jde o různé techniky se stejným kódem:</p>
+      <ul class="mt-2 flex flex-wrap gap-2">
+        {%- for oid in hx_node.code_shared_with %}
+        {%- set_global other = "" %}
+        {%- for n in hx_graph.nodes %}{% if n.id == oid %}{% set_global other = n %}{% break %}{% endif %}{% endfor %}
+        {%- if other %}
+        <li><a href="{{ get_url(path='@/' ~ other.path) }}" class="inline-flex rounded-md border border-blue-300 bg-white px-2 py-1 text-xs font-medium text-blue-900 hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-400 dark:border-blue-700 dark:bg-gray-900 dark:text-blue-200 dark:hover:bg-gray-700">{{ other.title }}</a></li>
+        {%- endif %}
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+  {%- endif %}
 
   <div class="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
     <div class="min-w-0">

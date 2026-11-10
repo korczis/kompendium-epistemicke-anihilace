@@ -40,37 +40,67 @@
   </div>
 </section>
 
-{#- Upozornění: proč kniha není pro každého. Flowbite alert hned pod úvodem, před vším ostatním. -#}
+{#- Upozornění: proč kniha není pro každého. Výrazný Flowbite alert hned pod úvodem. Bloky vedou
+    na podstránky 01-predmluva/neni-pro-kazdeho/, jakmile existují (allow_missing): žádná cesta
+    není napevno, chybějící stránka se zobrazí jako text a sestavení ji ověří přes get_url. -#}
+{%- set npk = "kompendium/01-predmluva/neni-pro-kazdeho/" -%}
+{%- set npk_section = get_section(path=npk ~ "_index.md", allow_missing=true, metadata_only=true) -%}
+{%- set npk_blocks = [
+  {"slug": "pro-koho-je", "title": "Pro koho je", "text": "Pro odborníky a odborně připravené čtenáře: psychiatry, psychology, terapeuty, vyšetřovatele, filozofy a výzkumníky, kteří s tímto poznáním pracují v obraně a péči."},
+  {"slug": "kdy-ji-necist", "title": "Kdy ji teď nečíst", "text": "Pokud procházíte akutní krizí, žijete v manipulativním nebo násilném vztahu nebo ve skupině s vysokou mírou kontroly, nebo vás podobné texty silně rozrušují. Popisy mechanismů nejsou náhradou pomoci a mohou zátěž prohloubit."},
+  {"slug": "k-cemu-neslouzi", "title": "K čemu neslouží", "text": "Není to návod ani operativní manuál. Mechanismy jsou popsány na úrovni struktury, aby šly rozpoznat, ne provádět. Kniha není diagnostický nástroj ani náhrada odborné péče."}
+] -%}
+{%- set npk_help = get_page(path=npk ~ "pomoc-hned.md", allow_missing=true) -%}
 <div class="px-4 pt-6">
-  <div class="flex flex-col gap-4 rounded-lg border border-yellow-300 bg-yellow-50 p-4 text-yellow-900 sm:p-6 lg:flex-row dark:border-yellow-700 dark:bg-gray-800 dark:text-yellow-200" role="note" aria-labelledby="upozorneni-title">
-    <svg class="h-6 w-6 shrink-0 text-yellow-600 dark:text-yellow-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
-    <div class="min-w-0 flex-1">
-      <h2 id="upozorneni-title" class="text-lg font-semibold">Proč tato kniha není pro každého</h2>
-      <p class="mt-1 text-sm">Kompendium popisuje, jak lze systematicky rozkládat lidské poznávání, aby šlo takové působení rozpoznat, předejít mu a léčit jeho následky. Takové poznání má dvojí užití a čtení může být zatěžující.</p>
-      <div class="mt-4 grid gap-4 text-sm md:grid-cols-3">
-        <div>
-          <p class="font-semibold">Pro koho je</p>
-          <p class="mt-1">Pro odborníky a odborně připravené čtenáře: psychiatry, psychology, terapeuty, vyšetřovatele, filozofy a výzkumníky, kteří s tímto poznáním pracují v obraně a péči.</p>
-        </div>
-        <div>
-          <p class="font-semibold">Kdy ji teď nečíst</p>
-          <p class="mt-1">Pokud procházíte akutní krizí, žijete v manipulativním nebo násilném vztahu nebo ve skupině s vysokou mírou kontroly, nebo vás podobné texty silně rozrušují. Popisy mechanismů nejsou náhradou pomoci a mohou zátěž prohloubit.</p>
-        </div>
-        <div>
-          <p class="font-semibold">K čemu neslouží</p>
-          <p class="mt-1">Není to návod ani operativní manuál. Mechanismy jsou popsány na úrovni struktury, aby šly rozpoznat, ne provádět. Kniha není diagnostický nástroj ani náhrada odborné péče.</p>
-        </div>
-      </div>
-      <div class="mt-4 rounded-lg bg-white/70 p-3 text-sm dark:bg-gray-900/60">
-        <p><span class="font-semibold">Potřebujete pomoc hned?</span> Tísňové volání <a class="font-semibold underline hover:no-underline" href="tel:112">112</a>, záchranná služba <a class="font-semibold underline hover:no-underline" href="tel:155">155</a>, Linka první psychické pomoci <a class="font-semibold underline hover:no-underline" href="tel:116123">116 123</a> (nonstop, zdarma).</p>
-      </div>
-      <div class="mt-4 flex flex-wrap gap-2">
-        <a href="{{ get_url(path='@/kompendium/01-predmluva/eticke-aspekty.md') }}" class="inline-flex items-center rounded-lg bg-yellow-600 px-3 py-2 text-sm font-medium text-white hover:bg-yellow-700 focus:outline-none focus:ring-4 focus:ring-yellow-300 dark:bg-yellow-500 dark:text-gray-900 dark:hover:bg-yellow-400 dark:focus:ring-yellow-800">Etické aspekty</a>
-        <a href="{{ get_url(path='@/kompendium/01-predmluva/pro-koho-je-urceno.md') }}" class="inline-flex items-center rounded-lg border border-yellow-400 bg-white px-3 py-2 text-sm font-medium text-yellow-900 hover:bg-yellow-100 focus:outline-none focus:ring-4 focus:ring-yellow-300 dark:border-yellow-700 dark:bg-gray-800 dark:text-yellow-200 dark:hover:bg-gray-700 dark:focus:ring-yellow-800">Pro koho je kniha určena</a>
-        <a href="{{ get_url(path='@/kompendium/emergency-protocols/_index.md') }}" class="inline-flex items-center rounded-lg border border-yellow-400 bg-white px-3 py-2 text-sm font-medium text-yellow-900 hover:bg-yellow-100 focus:outline-none focus:ring-4 focus:ring-yellow-300 dark:border-yellow-700 dark:bg-gray-800 dark:text-yellow-200 dark:hover:bg-gray-700 dark:focus:ring-yellow-800">Krizové protokoly</a>
+  <section class="rounded-lg border-2 border-l-8 border-yellow-400 bg-yellow-50 p-4 text-yellow-900 shadow sm:p-6 dark:border-yellow-500 dark:bg-gray-800 dark:text-yellow-100" role="note" aria-labelledby="upozorneni-title">
+    <div class="flex items-start gap-3">
+      <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-yellow-200 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300">
+        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
+      </span>
+      <div class="min-w-0 flex-1">
+        <h2 id="upozorneni-title" class="text-xl font-bold leading-tight sm:text-2xl">
+          {%- if npk_section %}<a href="{{ npk_section.permalink }}" class="rounded hover:underline focus:outline-none focus:ring-4 focus:ring-yellow-300 dark:focus:ring-yellow-800">Proč tato kniha není pro každého</a>{% else %}Proč tato kniha není pro každého{% endif -%}
+        </h2>
+        <p class="mt-1 text-sm sm:text-base">Kompendium popisuje, jak lze systematicky rozkládat lidské poznávání, aby šlo takové působení rozpoznat, předejít mu a léčit jeho následky. Takové poznání má dvojí užití a čtení může být zatěžující.</p>
+        {%- if npk_section %}
+        <a href="{{ npk_section.permalink }}" class="mt-2 inline-flex items-center text-sm font-semibold underline hover:no-underline focus:outline-none focus:ring-4 focus:ring-yellow-300 dark:focus:ring-yellow-800">Celé vysvětlení &rarr;</a>
+        {%- endif %}
       </div>
     </div>
-  </div>
+    <div class="mt-4 grid gap-3 text-sm md:grid-cols-3">
+      {%- for b in npk_blocks %}
+      {%- set bp = get_page(path=npk ~ b.slug ~ ".md", allow_missing=true) %}
+      {%- if bp %}
+      <a href="{{ bp.permalink }}" class="group block rounded-lg border border-yellow-300 bg-white/80 p-4 hover:border-yellow-500 hover:bg-white focus:outline-none focus:ring-4 focus:ring-yellow-300 dark:border-yellow-800 dark:bg-gray-900/60 dark:hover:border-yellow-500 dark:hover:bg-gray-900 dark:focus:ring-yellow-800">
+        <p class="font-semibold">{{ b.title }}</p>
+        <p class="mt-1">{{ b.text }}</p>
+        <p class="mt-2 font-semibold underline group-hover:no-underline">Celé vysvětlení &rarr;</p>
+      </a>
+      {%- else %}
+      <div class="rounded-lg border border-yellow-300 bg-white/80 p-4 dark:border-yellow-800 dark:bg-gray-900/60">
+        <p class="font-semibold">{{ b.title }}</p>
+        <p class="mt-1">{{ b.text }}</p>
+      </div>
+      {%- endif %}
+      {%- endfor %}
+    </div>
+    <div class="mt-4 rounded-lg border border-red-300 bg-white p-4 text-sm text-gray-900 dark:border-red-800 dark:bg-gray-900 dark:text-gray-100">
+      <p class="text-base font-bold text-red-700 dark:text-red-400">
+        {%- if npk_help %}<a href="{{ npk_help.permalink }}" class="rounded hover:underline focus:outline-none focus:ring-4 focus:ring-red-300 dark:focus:ring-red-800">Potřebujete pomoc hned?</a>{% else %}Potřebujete pomoc hned?{% endif -%}
+      </p>
+      <ul class="mt-2 flex flex-wrap gap-2">
+        <li><a class="inline-flex items-center gap-2 rounded-lg bg-red-700 px-3 py-2 font-semibold text-white hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900" href="tel:112">112 · tísňové volání</a></li>
+        <li><a class="inline-flex items-center gap-2 rounded-lg bg-red-700 px-3 py-2 font-semibold text-white hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900" href="tel:155">155 · záchranná služba</a></li>
+        <li><a class="inline-flex items-center gap-2 rounded-lg bg-red-700 px-3 py-2 font-semibold text-white hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900" href="tel:116123">116 123 · Linka první psychické pomoci (nonstop, zdarma)</a></li>
+      </ul>
+      {%- if npk_help %}<a href="{{ npk_help.permalink }}" class="mt-2 inline-flex text-sm font-semibold text-red-700 underline hover:no-underline dark:text-red-400">Další kontakty a co dělat hned &rarr;</a>{% endif %}
+    </div>
+    <div class="mt-4 flex flex-wrap gap-2">
+      <a href="{{ get_url(path='@/kompendium/01-predmluva/eticke-aspekty.md') }}" class="inline-flex items-center rounded-lg bg-yellow-600 px-3 py-2 text-sm font-medium text-white hover:bg-yellow-700 focus:outline-none focus:ring-4 focus:ring-yellow-300 dark:bg-yellow-500 dark:text-gray-900 dark:hover:bg-yellow-400 dark:focus:ring-yellow-800">Etické aspekty</a>
+      <a href="{{ get_url(path='@/kompendium/01-predmluva/pro-koho-je-urceno.md') }}" class="inline-flex items-center rounded-lg border border-yellow-400 bg-white px-3 py-2 text-sm font-medium text-yellow-900 hover:bg-yellow-100 focus:outline-none focus:ring-4 focus:ring-yellow-300 dark:border-yellow-700 dark:bg-gray-800 dark:text-yellow-200 dark:hover:bg-gray-700 dark:focus:ring-yellow-800">Pro koho je kniha určena</a>
+      <a href="{{ get_url(path='@/kompendium/emergency-protocols/_index.md') }}" class="inline-flex items-center rounded-lg border border-yellow-400 bg-white px-3 py-2 text-sm font-medium text-yellow-900 hover:bg-yellow-100 focus:outline-none focus:ring-4 focus:ring-yellow-300 dark:border-yellow-700 dark:bg-gray-800 dark:text-yellow-200 dark:hover:bg-gray-700 dark:focus:ring-yellow-800">Krizové protokoly</a>
+    </div>
+  </section>
 </div>
 
 <div class="px-4 pt-6">

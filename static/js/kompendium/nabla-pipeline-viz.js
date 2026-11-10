@@ -1,48 +1,66 @@
-// NABLA Infinity 16-level pipeline — Three.js stacked rings + animated particle flow
+// Epistemická pipeline NABLA (Three.js, prstence nad sebou + animovaný tok částic). Úrovně,
+// jejich počet, názvy a popisy přebírá ze stránky knihy o epistemické pipeline: oddíl h2
+// s nejvíce podnadpisy h3, každý h3 („L0: příjem surových signálů“) je jedna úroveň a první
+// odstavec pod ním její popis. Klik na prstenec → úroveň a odkaz na její místo ve stránce.
 (function() {
   'use strict';
-
-  const LEVELS = [
-    { id: 'L0',  name: 'Sensory Input',           desc: 'Surová senzorická data — text, image, audio, telemetry.' },
-    { id: 'L1',  name: 'Perception',              desc: 'Tokenizace, entity detection, low-level feature extraction.' },
-    { id: 'L2',  name: 'Pattern Recognition',     desc: 'Syntaktické a strukturální vzory — n-grams, embeddings.' },
-    { id: 'L3',  name: 'Semantic Understanding',  desc: 'Sémantická interpretace — relace mezi koncepty.' },
-    { id: 'L4',  name: 'Contextual Integration',  desc: 'Integrace kontextu — historie, situace, intent.' },
-    { id: 'L5',  name: 'Inferential Reasoning',   desc: 'Deduktivní/induktivní/abduktivní inference.' },
-    { id: 'L6',  name: 'Causal Modeling',         desc: 'Kauzální grafy, counterfactual reasoning.' },
-    { id: 'L7',  name: 'Hypothesis Generation',   desc: 'Generování hypotéz s confidence scoring.' },
-    { id: 'L8',  name: 'Evidence Evaluation',     desc: 'Vážení důkazů — Bayesian update, likelihood ratio.' },
-    { id: 'L9',  name: 'Uncertainty Quantification', desc: 'Epistemická vs aleatorická nejistota, bootstrap CI.' },
-    { id: 'L10', name: 'Meta-Reasoning',          desc: 'Reflexe nad reasoning procesem — bias detection.' },
-    { id: 'L11', name: 'Calibration Loop',        desc: 'Brier score, ECE, drift detection, weight adaptation.' },
-    { id: 'L12', name: 'Ethical Constraints',     desc: 'Aplikace etických filtrů — harm prevention, fairness.' },
-    { id: 'L13', name: 'Decision Synthesis',      desc: 'Syntéza rozhodnutí přes scoring engine + intelligence strategies.' },
-    { id: 'L14', name: 'Explanation Generation',  desc: 'Traceable reasoning trace — auditovatelný výklad.' },
-    { id: 'L15', name: 'Action / Output',         desc: 'Finální akce — recommendation, alert, autonomous step.' }
-  ];
-
+  var SRC = document.currentScript && document.currentScript.src;
+  // Zdroj dat: stránka glosáře o epistemické pipeline (cesta v grafu knihy).
+  var SOURCE = 'glossary/epistemic-pipeline.md';
+  let LEVELS = [];
+  let SOURCE_NODE = null;
+  let K = null;
   let highlightedIndex = -1;
 
+  function kniha() {
+    if (!window.__kniha) {
+      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
+        var s = document.createElement('script');
+        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
+        s.onload = ok;
+        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
+        document.head.appendChild(s);
+      })).then(function () { return window.KompendiumKniha.ready(); });
+    }
+    return window.__kniha;
+  }
+
+  function failed(el, e) {
+    if (window.console) console.warn('vizualizace knihy:', e);
+    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
+  }
+
+  // Úrovně = h3 pod tím h2, který jich má nejvíc.
+  function levelsFrom(heads) {
+    let best = null;
+    let bestN = 0;
+    heads.forEach((h) => {
+      if (h.level !== 2) return;
+      const n = heads.filter((x) => x.parent === h).length;
+      if (n > bestN) { best = h; bestN = n; }
+    });
+    return heads.filter((x) => best && x.parent === best).map((x) => {
+      const m = /^([^:]+):\s*(.*)$/.exec(x.title);
+      return { id: m ? m[1].trim() : x.title, name: m ? m[2].trim() : '', desc: x.text, anchor: x.id, group: best.title };
+    });
+  }
+
   function setDetail(container, idx) {
-    while (container.firstChild) container.removeChild(container.firstChild);
+    K.clear(container);
     const lvl = LEVELS[idx];
-    const h = document.createElement('h3');
-    h.className = 'text-lg font-bold text-slate-100';
-    h.textContent = lvl.id + ' — ' + lvl.name;
-    container.appendChild(h);
-    const p = document.createElement('p');
-    p.className = 'text-slate-300 mt-1';
-    p.textContent = lvl.desc;
+    container.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', lvl.id + (lvl.name ? ' — ' + lvl.name : '')));
+    if (lvl.desc) container.appendChild(K.h('p', 'text-slate-300 mt-1', lvl.desc));
+    container.appendChild(K.h('p', 'text-slate-400 text-xs mt-2', 'Úroveň ' + (idx + 1) + ' z ' + LEVELS.length + ' (' + lvl.group + ')'));
+    const a = K.link(SOURCE_NODE, '→ úroveň ve stránce „' + SOURCE_NODE.title + '“');
+    if (a.href && lvl.anchor) a.href += '#' + lvl.anchor;
+    const p = K.h('p', 'mt-2 text-sm');
+    p.appendChild(a);
     container.appendChild(p);
-    const meta = document.createElement('p');
-    meta.className = 'text-slate-400 text-xs mt-2';
-    meta.textContent = 'Úroveň ' + (idx + 1) + ' z 16 v NABLA Infinity pipeline';
-    container.appendChild(meta);
   }
 
   function levelColor(idx) {
-    // Gradient: deep blue (L0) → cyan → green → yellow → red (L15)
-    const t = idx / 15;
+    // Gradient: modrá (první úroveň) → tyrkysová → zelená → žlutá → červená (poslední)
+    const t = idx / Math.max(1, LEVELS.length - 1);
     if (t < 0.33) {
       const k = t / 0.33;
       return new THREE.Color(0.1 + k * 0.0, 0.2 + k * 0.6, 0.6 + k * 0.4);
@@ -59,9 +77,27 @@
     const container = document.getElementById('nabla-pipeline-viz');
     if (!container || typeof THREE === 'undefined') return;
     const detail = document.getElementById('nabla-pipeline-detail');
+    kniha().then(function (k) {
+      K = k;
+      SOURCE_NODE = K.g.byPath[SOURCE];
+      if (!SOURCE_NODE) throw new Error(SOURCE + ' není v grafu');
+      return K.outline(SOURCE_NODE).then(function (heads) {
+        LEVELS = levelsFrom(heads);
+        if (!LEVELS.length) throw new Error('stránka pipeline nemá úrovně');
+        if (detail) {
+          K.clear(detail);
+          detail.appendChild(K.h('p', 'text-slate-300 text-sm', LEVELS.length + ' úrovní podle oddílu „' + LEVELS[0].group +
+            '“. Klikněte na prstenec.'));
+        }
+        draw(container, detail);
+      });
+    }).catch(function (e) { failed(detail, e); });
+  }
+
+  function draw(container, detail) {
 
     const W = container.clientWidth || 800;
-    const H = 600;
+    const H = container.clientHeight || 600;
 
     const scene = new THREE.Scene();
     scene.background = new THREE.Color(0x0f172a);
@@ -79,7 +115,7 @@
     dirLight.position.set(10, 20, 10);
     scene.add(dirLight);
 
-    // Build 16 stacked rings
+    // Prstence úrovní nad sebou
     const rings = [];
     const RING_SPACING = 0.9;
     const RING_RADIUS = 5;
@@ -116,7 +152,7 @@
       ctx.fillStyle = '#f1f5f9';
       ctx.font = 'bold 22px sans-serif';
       ctx.textAlign = 'left';
-      ctx.fillText(lvl.id + '  ' + lvl.name, 12, 40);
+      ctx.fillText(lvl.id + '  ' + lvl.name, 12, 40, 236);
       const tex = new THREE.CanvasTexture(canvas2d);
       tex.needsUpdate = true;
       const spriteMat = new THREE.SpriteMaterial({ map: tex, transparent: true });

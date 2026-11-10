@@ -1,5 +1,50 @@
-// Recursive Thought Spiral — p5.js. Spiral fragments simulate hyperreflexive paralysis.
-// EA-5.1.13 hyperreflexivita / EA-5.1.7 referenční rekurze.
+// Rekurzivní spirála myšlení — p5.js (model, ne data). Pásma hloubky rekurze nesou jména
+// technik, které jmenuje text nad simulací (kódy EA / odkazy, v pořadí zmínky), s názvy
+// z grafu knihy; pod plátno se přidají odkazy na jejich stránky.
+(function () {
+  'use strict';
+  var SRC = document.currentScript && document.currentScript.src;
+
+  function kniha() {
+    if (!window.__kniha) {
+      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
+        var s = document.createElement('script');
+        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
+        s.onload = ok;
+        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
+        document.head.appendChild(s);
+      })).then(function () { return window.KompendiumKniha.ready(); });
+    }
+    return window.__kniha;
+  }
+
+  // Techniky, na které odkazuje text nad simulací (odkazy a kódy EA-x.y.z); pod plátno
+  // přidá odkazy na jejich stránky. Vrací je v pořadí zmínky.
+  function techniquesNear(host) {
+    return kniha().then(function (K) {
+      var ts = K.contextNodes(host).map(K.technique).filter(Boolean);
+      if (ts.length) {
+        var p = K.h('p', 'mt-1 text-sm text-slate-400', 'Simulace ilustruje: ');
+        ts.forEach(function (t, i) {
+          if (i) p.appendChild(document.createTextNode(', '));
+          p.appendChild(K.link(t.node, K.techniqueText(t)));
+        });
+        host.insertAdjacentElement('afterend', p);
+      }
+      return ts;
+    }).catch(function (e) {
+      if (window.console) console.warn('vizualizace knihy:', e);
+      return [];
+    });
+  }
+
+  var host = document.getElementById('recursive-thought-spiral');
+  // pásma 5–6 a 7–9 patří první a druhé technice z textu; dokud data nejsou, zůstávají popisná
+  var named = ['Hyperreflexní pásmo', 'Rekurzivní pásmo'];
+  if (host) techniquesNear(host).then(function (ts) {
+    ts.slice(0, 2).forEach(function (t, i) { named[i] = t.code + ' ' + t.label; });
+  });
+
 new p5((p) => {
   let depth = 5;            // recursion depth (1-12), set by mouse Y
   let phase = 0;            // animation phase
@@ -10,13 +55,13 @@ new p5((p) => {
   function depthLabel(d) {
     if (d <= 2) return 'Funkční reflexe';
     if (d <= 4) return 'Sebe-monitoring';
-    if (d <= 6) return 'Hyperreflexivita';
-    if (d <= 9) return 'Referenční rekurze';
+    if (d <= 6) return named[0];
+    if (d <= 9) return named[1];
     return 'Metakognitivní paralýza';
   }
 
   p.setup = function() {
-    const c = p.createCanvas(800, 500);
+    const c = p.createCanvas(host ? Math.min(800, host.clientWidth || 800) : 800, 500);
     const target = document.getElementById('recursive-thought-spiral');
     if (target) c.parent('recursive-thought-spiral');
     p.angleMode(p.RADIANS);
@@ -128,3 +173,4 @@ new p5((p) => {
     }
   };
 }, 'recursive-thought-spiral');
+})();

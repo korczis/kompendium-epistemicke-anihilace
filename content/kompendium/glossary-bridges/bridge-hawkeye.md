@@ -1,6 +1,6 @@
 +++
-title = "Bridge: hawkeye"
-description = "Glossary bridge — propojeni kompendia s glossary entry hawkeye."
+title = "Bridge: HAWKEYE"
+description = "Most mezi heslem HAWKEYE a knihou: rozpoznávání podle více signálů s odstupňovanou reakcí a dvojí užití sledování, které může chránit i ovládat."
 weight = 1
 
 [taxonomies]
@@ -8,60 +8,163 @@ tags = ["kompendium", "glossary-bridge", "hawkeye", "cross-link"]
 categories = ["academic", "reference"]
 
 [extra]
-related_terms = ["bridge-gray-team", "bridge-greynoise", "bridge-hermeneutika", "bridge-hyperreality"]
+category = "kompendium-bridge"
+related_terms = ["hawkeye", "signal-plurality", "panopticism", "dual-use-poznani", "bridge-panopticism", "bridge-risk-score"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "hawkeye"
 toc = false
 +++
 
-# Bridge — hawkeye
+# Bridge: HAWKEYE
 
-**Z kompendia → do glossary**: tento bridge článek navigačně propojuje kompendium s odpovídajícím glossary heslem a poskytuje rozšířený interpretační kontext propojení.
+> **Most** vede od hesla glosáře k místům knihy, kde se pojem používá, a od nich k praxi:
+> rozpoznání, obraně a zotavení. Přehled všech mostů je v rejstříku
+> [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 
-## Definice z glossary
+## Pojem
 
-[hawkeye](@/glossary/hawkeye.md) — Hawkeye je vizualizační a monitorovací modul Prismatic platformy poskytující real-time přehled o návštěvnících, geolokační metadata a behaviorální heatmapy. Slouží jako observační vrstva pro detekci anomálních vzorců přístupu a forenzní analýzu provozu napříč subdoménami platformy.
+[HAWKEYE](@/glossary/hawkeye.md) je na platformě Prismatic, z níž kniha vzešla, systém zpravodajství
+o návštěvnících webu (*visitor intelligence*). V reálném čase analyzuje chování návštěvníků, kombinuje
+technické otisky, vzorce navigace, časování požadavků a známé ukazatele hrozeb a koreluje je
+s kanály zpravodajství o hrozbách. Heslo glosáře zdůrazňuje, že smysluplný bezpečnostní poznatek
+nevzniká z izolovaného údaje, ale ze **spojení více signálů**: jeden požadavek o záměru mnoho
+neprozradí, korelace mnoha signálů vytvoří ucelený obraz. Na rozdíl od statických pravidel webového
+firewallu pracuje HAWKEYE s adaptivními modely a s odstupňovanou reakcí.
 
-Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
+Pro knihu je pojem příkladem dvou věcí, které heslo glosáře výslovně uvádí. Za prvé ukazuje princip,
+který kniha uplatňuje i na lidskou detekci manipulace: **žádné zařazení podle jediného signálu**,
+odstupňovaná reakce místo binárního verdiktu, průběžná kalibrace a záznam důvodů. Za druhé připomíná,
+že nástroje sledování mají **dvojí použití**: stejná technika, která chrání web, může v jiných rukou
+sloužit dohledu nad lidmi.
 
-## Pozice v kompendiu
+## Pojem v jeho vlastním oboru
 
-Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
+Spojování více slabých signálů do jednoho posouzení je základem detekce v mnoha oborech. Teorie
+detekce signálu ukazuje, že každé rozhodnutí o přítomnosti signálu v šumu je kompromisem mezi
+zachycením skutečných případů a falešnými poplachy a že tento kompromis určuje zvolený práh (Green
+a Swets 1966). Korelace nezávislých signálů zlepšuje rozlišení, protože náhodný šum se v různých
+kanálech neopakuje, kdežto skutečný vzorec ano. Na platformě tento princip vyjadřuje pojem
+[Signal Plurality](@/glossary/signal-plurality.md).
 
-- **Sekce 04 — Observační vrstvy**: kontext detekce odchylek od baseline chování návštěvníků
-- **Sekce 06 — Forenzní analýza**: post-mortem rekonstrukce přístupových sekvencí
-- **Per-technique: Visitor Profiling**: operativní pipeline od zachycení po profilaci
-- **Sekce 08 — Privacy compliance**: GDPR-compliant zpracování metadat bez PII
+Behaviorální profilování návštěvníků je zároveň technikou, kterou studie dohledu popisují jako jádro
+současné datové ekonomiky. Zuboffová (2019) analyzovala, jak se údaje o chování stávají surovinou
+pro předpovídání a ovlivňování jednání; Lyon (2007) shrnul studium dohledu jako pole, které zkoumá,
+jak sběr údajů o lidech mění vztahy moci. Technika je tatáž, liší se účel a kontrola.
 
-Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.
+## Analogie, kterou kniha činí
 
-## Konceptuální mapa
+Kniha přebírá z HAWKEYE metodickou zásadu pro lidské posuzování. Žádný jednotlivý znak – ostrá věta,
+žárlivá otázka, odmítnutí návštěvy – manipulaci nedokazuje. Teprve vzorec více znaků v čase, z více
+zdrojů a ve shodném směru dává podklad k závěru. Proto kniha v kapitole
+[6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+pracuje s kombinacemi znaků a ve sbírce [Detekční signatury EA technik](@/kompendium/detection-signatures/_index.md)
+popisuje signatury jako svazky pozorování, nikoli jako jednotlivé spouštěče. Odstupňovaná reakce
+odpovídá klinické praxi: od pozornosti přes podrobnější vyšetření až po akutní zásah, jak to rozvádí
+[Bridge: Práh (threshold)](@/kompendium/glossary-bridges/bridge-threshold.md).
 
-| Subjekt | Vztah | Objekt |
-|---------|-------|--------|
-| **Hawkeye** | monitoruje | Subjekty (návštěvníci, IP, devices) |
-| **Hawkeye** | produkuje | Behaviorální signály a heatmapy |
-| **Hawkeye** | napájí | Investigation Pipeline a Threat Intelligence |
+Druhá polovina analogie je varováním. Nástroje sledování jsou v manipulativních vztazích častým
+prostředkem kontroly: lokalizace telefonu, čtení zpráv, sledovací aplikace. Výzkum zneužívání
+technologií v partnerském násilí ukazuje, že pachatelé často využívají běžné nástroje a sdílené
+účty, nikoli sofistikovaný software (Freed a kol. 2018; Woodlock 2017). Kniha tento vzorec řadí do
+rámce [coercive control](@/kompendium/glossary-bridges/bridge-coercive-control.md) a připomíná
+Foucaultovu (1975) analýzu, podle níž vědomí možného pozorování samo mění chování – viz
+[Bridge: Panopticism](@/kompendium/glossary-bridges/bridge-panopticism.md).
 
-## Platformové implikace
+## Kde se pojem v knize vyskytuje
 
-Z bezpečnostního hlediska Hawkeye představuje dual-use technologii — totéž instrumentárium, které chrání perimetr, může být zneužito k surveillance bez souhlasu. Etická konfigurace vyžaduje ostré oddělení provozních metadat od osobních identifikátorů, retention policy s krátkými TTL a auditní stopu pro každý dotaz nad citlivými agregacemi. Disciplinovaná telemetrie chrání návštěvníky i operátora.
+Platformní souvislosti popisují stránky [HAWKEYE a zpravodajství o návštěvnících](@/kompendium/aiad-integration/hawkeye-ea-visitor-intelligence.md)
+a [Perimeter a útočná plocha](@/kompendium/aiad-integration/perimeter-ea-attack-surface.md). Právní a
+etické meze sběru údajů rozebírá [EA × Compliance: GDPR a ochrana osobního narativu](@/kompendium/cross-domain/27-ea-compliance-gdpr-narrative-protection.md).
+Preventivní stránku digitálního bezpečí popisuje [Digitální hygiena](@/kompendium/prevention-resilience/7-digital-hygiene-prevention.md)
+a forenzní práci s elektronickými stopami [Elektronické důkazy](@/kompendium/forensic-legal/35-electronic-evidence-EA.md).
 
-## Cross-linky
+## Od pojmu k praxi
 
-- **Hub kompendia**: [/kompendium/](@/kompendium/_index.md)
-- **Glossary entry**: [/glossary/hawkeye/](@/glossary/hawkeye.md)
-- **Quick reference**: [/kompendium/quick-reference/](@/kompendium/quick-reference/_index.md)
-- **Visualizations**: [/kompendium/visualizations/](@/kompendium/visualizations/_index.md)
-- **Per-technique články**: [/kompendium/techniques/](@/kompendium/techniques/_index.md)
-- **Sekce 02 — Úvod**: [/kompendium/02-uvod/](@/kompendium/02-uvod/_index.md)
-- **Sekce 06 — Klinické aplikace**: [/kompendium/06-klinicke/](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Sekce 07 — Teoretické reflexe**: [/kompendium/07-teoreticke/](@/kompendium/07-teoreticke-reflexe/_index.md)
-- **Sekce 08 — Etika a doktrína**: [/kompendium/08-etika/](@/kompendium/08-prilohy/_index.md)
-- **Glossary hub**: [/glossary/](@/glossary/_index.md)
+### Rozpoznání: zneužité sledování
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+Znakem toho, že sledování ve vztahu přestalo být péčí a stalo se kontrolou, je **asymetrie a
+nedobrovolnost**: jedna strana ví, kde druhá je a s kým píše, ale opačně to neplatí; souhlas byl
+vynucen nebo nebyl dán vůbec; a odmítnutí sledování se vykládá jako důkaz, že „máš co skrývat“.
+Typické je také to, že kontrolující osoba ví věci, které jí zasažený neřekl. Kniha tyto znaky
+spojuje s detekční signaturou [Asymetrické odhalování](@/kompendium/detection-signatures/15-behavioral-asymmetric-disclosure.md).
+
+### Odlišení
+
+Ne každé sdílení polohy je kontrolou. Rodiče malých dětí, partneři, kteří se na sdílení dohodli
+oboustranně, nebo lidé se zdravotním rizikem mohou mít dobré důvody. Rozhodující je dobrovolnost,
+symetrie, možnost sdílení kdykoli ukončit a to, zda se informace používá k ochraně, nebo k omezování.
+U posuzování manipulace pak platí metodický princip HAWKEYE: jednotlivý znak není důkazem, vzorec ano.
+
+### Obrana
+
+Obrana proti zneužitému sledování začíná bezpečností zařízení a účtů – změnou hesel, kontrolou
+sdílení polohy a přístupů –, ale kniha upozorňuje, že náhlé odstřižení kontrolující osoby může
+zvýšit riziko; u nebezpečných vztahů proto patří technické kroky do bezpečnostního plánu
+sestaveného s odborníky. Obecné postupy nabízí [Digitální hygiena](@/kompendium/prevention-resilience/7-digital-hygiene-prevention.md).
+Pro instituce plyne z HAWKEYE zásada minimalizace dat a účelového omezení: sbírat jen to, co je
+k ochraně nezbytné, a vědět, kdo k údajům má přístup.
+
+### Rámec pro profesionály
+
+Pro vyšetřovatele a znalce znamená princip více signálů povinnost opírat závěr o soubor nezávislých
+pozorování a výslovně uvádět, na čem stojí. Kniha k tomu odkazuje na [Pattern důkaz](@/kompendium/forensic-legal/38-pattern-evidence.md)
+a na [Potvrzení třetí osobou](@/kompendium/forensic-legal/37-third-party-corroboration.md). Kliniky
+vede k tomu, aby se nespokojili s jedním výrazným znakem a aby si u každého závěru zaznamenali
+důvody, které ho podporují i zpochybňují.
+
+## Časté omyly
+
+Prvním omylem je myslet si, že více údajů znamená vždy lepší poznání. Bez kalibrace a bez znalosti
+základní četnosti jevu vede korelace mnoha signálů k přesvědčivým, ale chybným profilům. Druhým
+omylem je přenášet logiku sledování návštěvníků na lidi kolem sebe; co je u webu legitimní obranou,
+je u partnera nebo zaměstnance zásahem do soukromí. Třetím omylem je považovat zasaženého za
+„paranoidního“, když popisuje, že je sledován: zneužití technologií je doložený a běžný jev a jeho
+popis zaslouží věcné ověření.
+
+## Příklad (anonymizovaný kompozit)
+
+Žena popisuje poradkyni, že partner vždy ví, kde byla, a cituje věty z jejích rozhovorů s kamarádkou.
+Poradkyně její obavy nebagatelizuje, ale ani hned neuzavírá. Společně projdou, které účty jsou sdílené
+a jaká zařízení partner nastavoval. Ukáže se, že telefon má aktivní sdílení polohy a že partner zná
+heslo k jejímu cloudovému účtu. Poradkyně s ní sestaví bezpečnostní plán, v němž se technické kroky
+provedou až ve chvíli, kdy bude mít zajištěnou podporu. Případ ilustruje princip více signálů i
+dvojí užití běžných nástrojů.
+
+## Meze a otevřené otázky
+
+Analogie mezi technickou detekcí a lidským posuzováním má meze: lidské chování je kontextové a jeho
+„signály“ nejsou nezávislé tak jako technické údaje. Otevřenou otázkou je, jak chránit lidi před
+zneužitým sledováním, aniž by se ochrana sama stala novým dohledem, a jak v době všudypřítomných
+dat vymezit, co je ještě péče a co už kontrola.
+
+## Literatura
+
+- Foucault, M. (1975). *Surveiller et punir: Naissance de la prison*. Gallimard.
+- Freed, D., Palmer, J., Minchala, D., Levy, K., Ristenpart, T., & Dell, N. (2018). „A stalker's paradise“: How intimate partner abusers exploit technology. In *Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems*. ACM.
+- Green, D. M., & Swets, J. A. (1966). *Signal Detection Theory and Psychophysics*. Wiley.
+- Lyon, D. (2007). *Surveillance Studies: An Overview*. Polity.
+- Woodlock, D. (2017). The abuse of technology in domestic violence and stalking. *Violence Against Women*, 23(5), 584–602.
+- Zuboff, S. (2019). *The Age of Surveillance Capitalism*. PublicAffairs.
+
+## Související
+
+**Glosář**
+
+- [HAWKEYE](@/glossary/hawkeye.md) – heslo, které tento most propojuje s knihou.
+- [Signal Plurality](@/glossary/signal-plurality.md) – princip více nezávislých signálů.
+
+**Kniha**
+
+- [HAWKEYE a zpravodajství o návštěvnících](@/kompendium/aiad-integration/hawkeye-ea-visitor-intelligence.md) – použití v kontextu EA.
+- [EA × Compliance: GDPR](@/kompendium/cross-domain/27-ea-compliance-gdpr-narrative-protection.md) – meze sběru údajů.
+- [Detekční signatury EA technik](@/kompendium/detection-signatures/_index.md) – signatury jako svazky pozorování.
+- [Digitální hygiena](@/kompendium/prevention-resilience/7-digital-hygiene-prevention.md) – ochrana zařízení a účtů.
+
+**Sesterské mosty**
+
+- [Bridge: Panopticism](@/kompendium/glossary-bridges/bridge-panopticism.md) – moc pozorování.
+- [Bridge: Práh (threshold)](@/kompendium/glossary-bridges/bridge-threshold.md) – odstupňovaná reakce.
+- [Bridge: Dual-use poznání](@/kompendium/glossary-bridges/bridge-dual-use-poznani.md) – dvojí užití nástrojů.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

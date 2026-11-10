@@ -1,76 +1,83 @@
 +++
-title = "Teoretický imperialismus — EA jako totalizující rámec"
-description = "Kritická perspektiva — teoretický imperialismus — ea jako totalizující rámec."
+title = "Teoretický imperialismus – EA jako totalizující rámec"
+description = "Kritika rámce, který si nárokuje vysvětlit každou manipulaci a vytlačuje vývojová, systémová, traumatická i sociální vysvětlení. Pluralismus jako pojistka."
 weight = 8
 
 [taxonomies]
-tags = ["kompendium", "critical-perspectives", "methodological"]
+tags = ["kompendium", "critical-perspectives", "methodological", "epistemologie", "philosophy"]
 categories = ["academic", "critical-theory"]
 
 [extra]
-related_terms = ["6-political-instrumentalization", "7-replication-EA-research", "9-essentialism-critique", "5-false-positive-risk"]
+related_terms = ["3-framework-overreach", "21-systems-theory-alternative", "22-trauma-framework-alternative", "27-decolonial-epistemology"]
 parent = "kompendium-critical-perspectives"
 toc = true
 +++
 
-# Teoretický imperialismus — EA jako totalizující rámec
+# Teoretický imperialismus – EA jako totalizující rámec
 
-> **Bucket**: methodological · **Unique angle**: epistemologický [pluralismus](@/glossary/pluralismus.md) — EA jako jeden z rámců, ne jediný
+> **Okruh**: metodologická kritika · **Jádro námitky**: rámec, který se stane jediným jazykem pro popis poškozeného poznání, vytvoří monokulturu, před níž sám varuje
 
-## Kritika nebo alternativa
+Kniha je ambiciózní. Nabízí taxonomii stovek technik od tónu hlasu po ovládnutí institucí, má vlastní notaci, vlastní protokoly diagnostiky, obrany i zotavení a propojuje se s filozofií, právem, organizační praxí a populačním zdravím. Taková šíře je přínosem: dává společný slovník oborům, které spolu dosud nemluvily. Kritika teoretického imperialismu upozorňuje na stinnou stránku téže šíře – rámec, který má jméno pro všechno, snadno přestane slyšet jiná vysvětlení.
 
-EA framework může vytlačit konkurenční teorie (kognitivní behaviorální, psychodynamickou, humanistickou) místo aby s nimi koexistoval — riskuje teoretický imperialismus.
+## Námitka v nejsilnější podobě
 
-Tato kritika není okrajová — sahá k samotnému jádru toho, jak EA framework operuje. Pokud ji chceme brát vážně (a měli bychom), musíme být ochotní revidovat strukturu, jazyk i aplikaci frameworku, ne jen kosmetické detaily.
+Paul Feyerabend tvrdil, že pokrok poznání závisí na množství soupeřících teorií a že každá metodologie, která si nárokuje výlučnost, ochuzuje vědu o alternativy, s nimiž by mohla být porovnána (Feyerabend 1975). Thomas Kuhn ukázal, že dominantní paradigma určuje, které otázky se vůbec kladou a které anomálie se přehlédnou (Kuhn 1962). V psychoterapii existuje dlouhá linie úvah o tom, že různé terapeutické školy dosahují srovnatelných výsledků a že velkou část účinku nesou společné faktory jako terapeutický vztah – Saul Rosenzweig na to upozornil už v roce 1936 a Bruce Wampold to rozpracoval v rozsáhlé syntéze (Wampold 2001). Je-li to tak, žádný jednotlivý rámec si nemůže nárokovat monopol na porozumění lidskému trápení.
 
-## Argumentace
+Aplikováno na knihu: když se poškození důvěry ve vlastní úsudek automaticky popíše jako výsledek technik EA, zmizí z obrazu vývojová historie člověka, rodinný systém, traumata nesouvisející s manipulací, sociální a ekonomické podmínky, tělesná onemocnění. Rámec, který je vždy po ruce, je vždy použit.
 
-Žádný framework nevysvětluje vše. Když EA tvrdí, že 'všechna manipulace má strukturu X', vytlačuje legitimní alternativní vysvětlení (kontextuální, vztahová, vývojová). Theoretical imperialism vede k epistemologické monokultuře a snižuje robustnost diagnostiky.
+## Kde zasahuje tuto knihu
 
-Argumentace má tři vrstvy: epistemologickou (co můžeme vědět), metodologickou (jak to zjišťujeme), etickou (co s tím vědomím děláme). Každá vrstva produkuje vlastní limity. EA framework, aby byl dospělý, musí všechny tři přiznat.
+Riziko se nejvíc projevuje ve třech rysech. Zaprvé v nárocích na úplnost: hub kompendia mluví o „prvním uceleném taxonomickém systému“ a taxonomie se rozrůstá do stále jemnějších podkategorií. Zadruhé ve slovníku: kniha vytváří vlastní termíny pro jevy, které jiné obory už popsaly jinak, a čtenář nemusí poznat, že jde o tentýž jev. Zatřetí v tom, že alternativní rámce se v knize objevují hlavně jako doplněk, nikoli jako možná lepší vysvětlení.
 
-Klíčový bod: kritika neničí framework, ale zostřuje jeho aplikační hranice. Jasně vyznačené limity jsou *funkcí* zralého frameworku, ne jeho slabinou. Bez nich se framework stává ideologií.
+Kniha přitom sama popisuje [epistemickou monokulturu](@/glossary/epistemicka-monokultura.md) a [epistemický monismus](@/glossary/epistemicky-monismus.md) jako poškozující stavy a mezi kompetence supervizora řadí [multiparadigmatickou fluenci](@/kompendium/techniques/ea-3-2-2-multi-paradigm-fluency.md). Kritika tedy kniku měří jejími vlastními měřítky.
 
-## Empirická opora
+## Ilustrační případ
 
-Feyerabend (1975) *Against Method* — pluralismus; Kuhn (1962) paradigm incommensurability; Westen et al. (2004) on theoretical eclecticism in clinical practice.
+Obecný kompozit: šestnáctiletý chlapec se během roku stáhne od rodiny a tráví noci v online komunitě s radikálními názory. Rodiče přinesou výtisky z knihy a ptají se, kterou technikou je jejich syn „anihilován“. Popis v pojmech EA může být částečně přesný – komunita opravdu izoluje, zesměšňuje pochybnosti a nabízí jednoduchý výklad světa. Ale úplný obraz potřebuje víc: dospívání a hledání identity, šikanu ve škole, která mu předcházela, rozvod rodičů, depresivní příznaky, které nikdo neléčil. Intervence vedená jen rámcem EA by se soustředila na „odhalení technik“; intervence vedená více rámci by se zabývala i tím, proč komunita nabídla něco, co chlapec jinde nenacházel.
 
-Tato literatura není okrajová — pochází z hlavního proudu odborné diskuse. EA framework, který by ji ignoroval, by se diskvalifikoval z akademické konverzace.
+## Co námitka neprokazuje
 
-## Implikace pro EA framework
+Neprokazuje, že rámec EA je zbytečný nebo že všechny teorie jsou stejně dobré. Pluralismus neznamená relativismus: některá vysvětlení jsou lépe doložená než jiná a některé jevy – soustavné cílené podkopávání cizího úsudku – jiné rámce zachycují špatně. Právě proto kniha vznikla. Námitka žádá, aby rámec EA věděl, kde končí.
 
-EA framework musí být **eklektický a pluralistický**: poskytovat vlastní rámec, ale otevřeně přiznávat hranice a doporučovat doplňující frameworky (CBT, schema therapy, attachment theory). Glossary entries musí odkazovat na alternativy.
+## Pojistky pro praxi
 
-Konkrétní implementační kroky:
+- **Povinná alternativa.** U každého případu formulovat aspoň dvě vysvětlení z jiných rámců (vývojového, systémového, traumatického, sociálního, somatického) a výslovně uvést, proč rámec EA přidává něco, co ony nezachytí.
+- **Překladový slovník.** U termínů knihy uvádět ustálený ekvivalent z psychologie, psychiatrie nebo sociologie, pokud existuje (srov. [Česko-anglická terminologie EA](@/kompendium/international/31-cs-en-terminology/index.md)).
+- **Kdy rámec nepoužít.** Pokud jiný rámec vysvětluje situaci úplně a EA nepřidává žádnou rozhodovací informaci, nepoužívat ho.
+- **Mezioborový tým.** Složité případy posuzovat s odborníky, kteří vycházejí z jiných škol (viz [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)).
+- **Alternativy jako rovnocenní partneři.** Číst oddíl alternativních rámců této sekce jako možná lepší vysvětlení, ne jako přílohu.
+- **Zápis o tom, co rámec nepřidal.** Pokud posudek dospěje k závěru, že rozhodující vysvětlení pochází z jiného rámce, zapsat to výslovně; i takový výsledek je cenná informace o mezích taxonomie.
 
-1. **Revize glossary entries** — explicitní zmínka této kritiky u relevantních pojmů
-2. **Detection signatures** — integrace varovných sekcí ('kdy NEAPLIKOVAT')
-3. **Educational scenarios** — případy, kde EA framework selhává
-4. **Cross-domain bridges** — odkazy na alternativní rámce
-5. **Audit checklist** — pravidelná revize, zda kritika je adekvátně reflektována
+## Co zůstává otevřené
 
-## Odpovědi z kompendia
+Je otázka, jak má rozsáhlá taxonomie zůstat otevřená, aniž by se rozpadla. Kuhn by řekl, že bez sdíleného paradigmatu nevznikne kumulativní práce; Feyerabend by odpověděl, že sdílené paradigma je cena, kterou platíme slepotou. Kniha zatím nerozhodla, zda chce být paradigmatem, nebo nástrojem mezi jinými nástroji – a tato volba určuje, jak má psát o svých hranicích.
 
-Kompendium 07-teoreticke-reflexe a section-bridges integrují CBT, attachment, narrative medicine. Žádná technika není prezentována jako jediná pravda.
+## Literatura
 
-EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivně ji integruje do struktury. To je rozdíl mezi obrannou a dospělou epistemologií.
+- Feyerabend, P. (1975). *Against Method*. New Left Books.
+- Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
+- Rosenzweig, S. (1936). Some implicit common factors in diverse methods of psychotherapy. *American Journal of Orthopsychiatry*, 6(3).
+- Wampold, B. E. (2001). *The Great Psychotherapy Debate*. Lawrence Erlbaum.
 
-## Cross-linky
+## Související
 
-- [Esencialistický klam v EA kategoriích](@/kompendium/critical-perspectives/9-essentialism-critique.md)
-- [Kulturní zaujatost EA kategorií](@/kompendium/critical-perspectives/10-cultural-bias-critique.md)
-- [Iatrogenní účinky EA intervencí](@/kompendium/critical-perspectives/11-iatrogenic-overreach.md)
-- [Reprodukční krize a EA výzkum](@/kompendium/critical-perspectives/7-replication-EA-research.md)
-- [Politická instrumentalizace EA](@/kompendium/critical-perspectives/6-political-instrumentalization.md)
-- [Důvěrnost v EA detekci](@/kompendium/critical-perspectives/17-confidentiality-EA.md)
-- [Dekoloniální epistemologie](@/kompendium/critical-perspectives/27-decolonial-epistemology.md)
-- [EA jako mocenský nástroj](@/kompendium/critical-perspectives/18-EA-as-power-tool.md)
-- [Feministická epistemologie](@/kompendium/critical-perspectives/28-feminist-epistemology-alt.md)
-- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
-- [Hub kompendia](@/kompendium/_index.md)
-- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Research methodology](@/kompendium/research-methodology/_index.md)
-- [Glossary platformy](@/glossary/_index.md)
+**Kritické perspektivy**
+
+- [Přesah rámce – když EA vysvětluje všechno](@/kompendium/critical-perspectives/3-framework-overreach.md) – logická stránka téhož rizika.
+- [Systémová teorie jako alternativa](@/kompendium/critical-perspectives/21-systems-theory-alternative.md) – nejdůležitější konkurenční výklad.
+- [Trauma-informovaný rámec](@/kompendium/critical-perspectives/22-trauma-framework-alternative.md) – jiný výklad týchž projevů.
+- [Dekoloniální epistemologie](@/kompendium/critical-perspectives/27-decolonial-epistemology.md) – imperialismus v doslovném, historickém smyslu.
+
+**Kapitoly a techniky**
+
+- [Feyerabend: Anti-Method](@/kompendium/07-teoreticke-reflexe/feyerabend-anti-method.md) – filozofické východisko námitky.
+- [Kuhn: Paradigmatické revoluce](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md) – paradigma a přehlížené anomálie.
+- [EA-3.2.2 Multiparadigmatická fluence](@/kompendium/techniques/ea-3-2-2-multi-paradigm-fluency.md) – kompetence, která riziko vyvažuje.
+
+**Pojmy**
+
+- [Pluralismus](@/glossary/pluralismus.md) – princip, o který se pojistky opírají.
+- [Epistemická monokultura](@/glossary/epistemicka-monokultura.md) – stav, kterému se má kniha sama vyhnout.
 
 ## Connect & Contribute
 

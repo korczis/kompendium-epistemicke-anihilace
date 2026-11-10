@@ -1,76 +1,88 @@
 +++
 title = "Riziko falešně pozitivních detekcí"
-description = "Kritická perspektiva — riziko falešně pozitivních detekcí."
+description = "Problém základní míry: i citlivý a specifický screening EA označí v populaci s nízkou prevalencí víc nevinných než skutečných případů. Důsledky a pojistky."
 weight = 5
 
 [taxonomies]
-tags = ["kompendium", "critical-perspectives", "methodological"]
+tags = ["kompendium", "critical-perspectives", "methodological", "diagnostika", "evidence"]
 categories = ["academic", "critical-theory"]
 
 [extra]
-related_terms = ["30-buddhist-psychology-alt", "4-circular-reasoning-risk", "6-political-instrumentalization", "7-replication-EA-research"]
+related_terms = ["4-circular-reasoning-risk", "2-pathologization-critique", "12-EA-stigma-risk", "7-replication-EA-research"]
 parent = "kompendium-critical-perspectives"
 toc = true
 +++
 
 # Riziko falešně pozitivních detekcí
 
-> **Bucket**: methodological · **Unique angle**: Bayesův base-rate problém — proč i 95% specificita produkuje 50% chyb
+> **Okruh**: metodologická kritika · **Jádro námitky**: u vzácného jevu je většina pozitivních nálezů chybná, i když je nástroj dobrý
 
-## Kritika nebo alternativa
+Každá detekce dělá dva druhy chyb: přehlédne skutečný případ (falešná negativita), nebo označí nevinného (falešná pozitivita). Kniha se – pochopitelně – soustředí na první chybu, protože chce, aby poškození nezůstalo nepoznané. Tato kritika upozorňuje, že druhá chyba je u jevů typu [epistemické anihilace](@/glossary/epistemicka-anihilace.md) nejen častá, ale ze zákonitostí pravděpodobnosti často převažující.
 
-Vysoká citlivost EA detekce produkuje falešně pozitivní výsledky — neškodné chování označené jako manipulace.
+## Námitka v nejsilnější podobě
 
-Tato kritika není okrajová — sahá k samotnému jádru toho, jak EA framework operuje. Pokud ji chceme brát vážně (a měli bychom), musíme být ochotní revidovat strukturu, jazyk i aplikaci frameworku, ne jen kosmetické detaily.
+Paul Meehl a Albert Rosen ukázali už v padesátých letech, že užitečnost psychometrického znaku nezávisí jen na jeho citlivosti a specificitě, ale i na základní míře (*base rate*) jevu v populaci, na kterou se použije (Meehl a Rosen 1955). Kahneman a Tversky pak doložili, že lidé – včetně odborníků – základní míru při úsudku systematicky přehlížejí (Kahneman a Tversky 1973). Gerd Gigerenzer ukázal, že chybu výrazně zmenší, když se pravděpodobnosti převedou na přirozené četnosti (Gigerenzer 2002).
 
-## Argumentace
+Ilustrační výpočet s hypotetickými, nikoli naměřenými čísly: představme si nástroj, který zachytí 90 % skutečných případů a správně vyloučí 95 % lidí, kteří EA nezažili. Použijeme ho v populaci 10 000 lidí, v níž je jev přítomen u 2 %.
 
-V populačně rozšířených kategorií (např. mírné narcistické rysy) je base rate nízký a počet falešných pozitiv vysoký i při dobré specifičnosti testu (Bayesův teorém). To má reálné důsledky: vztahy, kariéra, soudní rozhodnutí. Statistická chyba se mění v sociální stigma.
+| | Skutečně EA | Bez EA | Celkem |
+|---|---|---|---|
+| Nástroj pozitivní | 180 | 490 | 670 |
+| Nástroj negativní | 20 | 9 310 | 9 330 |
+| Celkem | 200 | 9 800 | 10 000 |
 
-Argumentace má tři vrstvy: epistemologickou (co můžeme vědět), metodologickou (jak to zjišťujeme), etickou (co s tím vědomím děláme). Každá vrstva produkuje vlastní limity. EA framework, aby byl dospělý, musí všechny tři přiznat.
+Z 670 pozitivních výsledků je správných jen 180, tedy zhruba 27 %. Téměř tři ze čtyř označených lidí EA nezažili. Nástroj přitom není špatný; problém je v tom, kde a k čemu se použije. V klinice, kam přicházejí lidé s obtížemi a s anamnézou, která podezření zakládá, je základní míra mnohem vyšší a podíl chyb klesá. V plošném screeningu zaměstnanců, studentů nebo uživatelů platformy roste.
 
-Klíčový bod: kritika neničí framework, ale zostřuje jeho aplikační hranice. Jasně vyznačené limity jsou *funkcí* zralého frameworku, ne jeho slabinou. Bez nich se framework stává ideologií.
+## Kde zasahuje tuto knihu
 
-## Empirická opora
+Kniha obsahuje katalog [screeningových instrumentů](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md), kapitoly o [populačním screeningu](@/kompendium/population-health/11-population-screening-EA.md) a [pracovněprávním screeningu](@/kompendium/population-health/14-employer-screening.md) a [detekční signatury](@/kompendium/detection-signatures/_index.md) určené k automatizaci. Všechny tyto nástroje se mohou dostat do prostředí s nízkou prevalencí. Kniha mezi limity diagnostiky riziko falešné pozitivity zmiňuje, ale validované údaje o citlivosti a specificitě svých nástrojů zatím nepředkládá; bez nich nelze pozitivní prediktivní hodnotu odhadnout ani řádově.
 
-Meehl & Rosen (1955) on base rates; Wood et al. (2002) Rorschach false positives; Lilienfeld & Andrews (1996) on PCL-R specificity.
+Dopady falešné pozitivity nejsou symetrické s dopady přehlédnutí. Nepravdivé označení za „manipulátora“ může rozbít vztah, ovlivnit rozhodnutí o péči o dítě, ukončit pracovní poměr. Nepravdivé označení za „oběť EA“ může vést k terapii, která přepisuje vlastní příběh člověka do cizího rámce (viz [Iatrogenní účinky](@/kompendium/critical-perspectives/11-iatrogenic-overreach.md)).
 
-Tato literatura není okrajová — pochází z hlavního proudu odborné diskuse. EA framework, který by ji ignoroval, by se diskvalifikoval z akademické konverzace.
+## Ilustrační případ
 
-## Implikace pro EA framework
+Obecný kompozit: firma po interní krizi zavede anonymní dotazník „rizika manipulativního vedení“ pro všechny vedoucí. U několika z nich vyjde vysoké skóre. Vedení nemá informaci, jak častý je skutečně manipulativní styl řízení ve firmě, ani jak nástroj funguje v tomto prostředí. Pokud výsledky použije k personálním rozhodnutím, s vysokou pravděpodobností potrestá i lidi, kteří jen vedou nepopulární tým nebo prosazují nepopulární změny. Odpovědné použití stejného dotazníku je jiné: výsledek je podnětem k nezávislému a podrobnějšímu šetření, ne jeho závěrem (srov. [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)).
 
-EA framework musí kvantifikovat **sensitivity, specificity a positive predictive value** pro každou diagnostickou heuristiku. Bez toho jsou klasifikace nepoužitelné v právním nebo HR kontextu.
+## Co námitka neprokazuje
 
-Konkrétní implementační kroky:
+Neprokazuje, že screening je zbytečný. Prokazuje, že screening a rozhodování jsou dvě různé činnosti. Neplatí ani, že falešně negativní výsledek je vždy menší zlo: u člověka v akutním ohrožení může mít přehlédnutí vážnější následky než chybné podezření. Proto se práh nastavuje podle účelu – citlivěji tam, kde pozitivní výsledek vede jen k nabídce pomoci, přísněji tam, kde vede k důsledkům pro druhého.
 
-1. **Revize glossary entries** — explicitní zmínka této kritiky u relevantních pojmů
-2. **Detection signatures** — integrace varovných sekcí ('kdy NEAPLIKOVAT')
-3. **Educational scenarios** — případy, kde EA framework selhává
-4. **Cross-domain bridges** — odkazy na alternativní rámce
-5. **Audit checklist** — pravidelná revize, zda kritika je adekvátně reflektována
+## Pojistky pro praxi
 
-## Odpovědi z kompendia
+- **Účel před nástrojem.** Screeningem nabízet pomoc, nikdy nerozhodovat o právech, pracovním poměru nebo péči o děti.
+- **Dvoustupňový postup.** Pozitivní screening vždy následuje podrobné posouzení jiným postupem a pokud možno jiným hodnotitelem.
+- **Znát základní míru.** Před použitím nástroje odhadnout prevalenci v cílové skupině a výsledky vykládat přirozenými četnostmi („z 10 pozitivních budou správné asi 3“).
+- **Validace v cílovém prostředí.** Nástroj, jehož vlastnosti nejsou ověřeny v dané populaci, používat jen jako orientační (viz [Self-report instrumenty](@/kompendium/06-klinicke-aplikace/self-report-instrumenty.md)).
+- **Plošný screening jen s doprovodem.** Bez nabídky podpory, ochrany dat a možnosti výsledek rozporovat se plošný screening neprovádí.
 
-Kompendium 06-klinicke-aplikace obsahuje sekci o base-rate problému. Detection signatures vyžadují calibration data před deploymentem.
+## Co zůstává otevřené
 
-EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivně ji integruje do struktury. To je rozdíl mezi obrannou a dospělou epistemologií.
+Kniha zatím nemá data, z nichž by šlo odhadnout prevalenci EA v jednotlivých prostředích; kapitola o [odhadech prevalence](@/kompendium/population-health/01-EA-prevalence-estimates.md) je proto nutně metodologická. Otevřená je i otázka, jakou cenu přisoudit jednotlivým chybám: kolik falešných poplachů je přijatelných za jeden zachycený případ. To není statistická, ale etická otázka a měla by se rozhodovat výslovně, ne mlčky nastavením prahu.
 
-## Cross-linky
+## Literatura
 
-- [Politická instrumentalizace EA](@/kompendium/critical-perspectives/6-political-instrumentalization.md)
-- [Reprodukční krize a EA výzkum](@/kompendium/critical-perspectives/7-replication-EA-research.md)
-- [Teoretický imperialismus — EA jako totalizující rámec](@/kompendium/critical-perspectives/8-theoretical-imperialism.md)
-- [Kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md)
-- [Framework overreach — když EA vysvětluje vše](@/kompendium/critical-perspectives/3-framework-overreach.md)
-- [Mocenská asymetrie v EA aplikaci](@/kompendium/critical-perspectives/14-power-asymmetry-EA.md)
-- [Narativní medicína](@/kompendium/critical-perspectives/24-narrative-medicine-alternative.md)
-- [Otázka validity souhlasu v EA výzkumu](@/kompendium/critical-perspectives/15-consent-validity-question.md)
-- [Kritická psychiatrie](@/kompendium/critical-perspectives/25-critical-psychiatry-alternative.md)
-- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
-- [Hub kompendia](@/kompendium/_index.md)
-- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Research methodology](@/kompendium/research-methodology/_index.md)
-- [Glossary platformy](@/glossary/_index.md)
+- Meehl, P. E., & Rosen, A. (1955). Antecedent probability and the efficiency of psychometric signs, patterns, or cutting scores. *Psychological Bulletin*, 52(3).
+- Kahneman, D., & Tversky, A. (1973). On the psychology of prediction. *Psychological Review*, 80(4).
+- Gigerenzer, G. (2002). *Calculated Risks: How to Know When Numbers Deceive You*. Simon & Schuster.
+
+## Související
+
+**Kritické perspektivy**
+
+- [Kruhové uvažování v detekci EA](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md) – zkreslení, které podíl chyb dál zvyšuje.
+- [Stigmatizace skrze kategorie EA](@/kompendium/critical-perspectives/12-EA-stigma-risk.md) – co falešně pozitivní nález udělá s člověkem.
+- [Replikační krize a výzkum EA](@/kompendium/critical-perspectives/7-replication-EA-research.md) – odkud by měla přijít validační data.
+
+**Kapitoly a nástroje**
+
+- [Screeningové instrumenty pro EA](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md) – nástroje, jichž se výpočet týká.
+- [Populační screening EA](@/kompendium/population-health/11-population-screening-EA.md) – prostředí s nízkou základní mírou.
+- [Pracovněprávní screening EA](@/kompendium/population-health/14-employer-screening.md) – kontext s vysokou cenou chyby.
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md) – automatizovaná detekce, kde se chyby násobí.
+
+**Pojmy**
+
+- [Kognitivní bias](@/glossary/kognitivni-bias.md) – přehlížení základní míry jako jedno ze zkreslení.
 
 ## Connect & Contribute
 

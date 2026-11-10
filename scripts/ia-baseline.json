@@ -790,9 +790,6 @@
  "content/glossary/toulmin-model.md": [
   "weak-link"
  ],
- "content/glossary/transformative-experience.md": [
-  "weak-link"
- ],
  "content/glossary/trauma-bonding.md": [
   "weak-link"
  ],
@@ -1520,136 +1517,67 @@
  "content/kompendium/case-studies/_index.md": [
   "weak-link"
  ],
- "content/kompendium/critical-perspectives/1-medicalization-critique.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/critical-perspectives/10-cultural-bias-critique.md": [
-  "detail",
-  "weak-link"
- ],
  "content/kompendium/critical-perspectives/11-iatrogenic-overreach.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/12-EA-stigma-risk.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/critical-perspectives/13-victim-blaming-risk.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/14-power-asymmetry-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/15-consent-validity-question.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/16-treatment-coercion-risk.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/17-confidentiality-EA.md": [
-  "description",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/critical-perspectives/18-EA-as-power-tool.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/19-research-exploitation.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/critical-perspectives/2-pathologization-critique.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/20-publication-ethics-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/21-systems-theory-alternative.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/22-trauma-framework-alternative.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/23-political-economy-alternative.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/24-narrative-medicine-alternative.md": [
-  "description",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/critical-perspectives/25-critical-psychiatry-alternative.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/26-mad-studies-perspective.md": [
-  "description",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/critical-perspectives/27-decolonial-epistemology.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/critical-perspectives/28-feminist-epistemology-alt.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/29-process-philosophy-alt.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/3-framework-overreach.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/30-buddhist-psychology-alt.md": [
-  "description",
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/critical-perspectives/4-circular-reasoning-risk.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/5-false-positive-risk.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/6-political-instrumentalization.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/7-replication-EA-research.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/critical-perspectives/8-theoretical-imperialism.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/9-essentialism-critique.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/critical-perspectives/_index.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/1-ea-osint-source-credibility.md": [
@@ -2203,9 +2131,6 @@
  "content/kompendium/forensic-legal/15-witness-tampering.md": [
   "weak-link"
  ],
- "content/kompendium/forensic-legal/16-civil-conspiracy-EA.md": [
-  "weak-link"
- ],
  "content/kompendium/forensic-legal/17-fraud-EA-element.md": [
   "weak-link"
  ],
@@ -2215,19 +2140,10 @@
  "content/kompendium/forensic-legal/19-professional-misconduct-EA.md": [
   "weak-link"
  ],
- "content/kompendium/forensic-legal/2-credibility-assessment.md": [
-  "weak-link"
- ],
  "content/kompendium/forensic-legal/20-criminal-conspiracy-EA.md": [
   "weak-link"
  ],
- "content/kompendium/forensic-legal/21-expert-witness-EA.md": [
-  "weak-link"
- ],
  "content/kompendium/forensic-legal/22-fact-witness-protection.md": [
-  "weak-link"
- ],
- "content/kompendium/forensic-legal/23-cross-examination-defense.md": [
   "weak-link"
  ],
  "content/kompendium/forensic-legal/24-deposition-EA.md": [
@@ -2245,25 +2161,13 @@
  "content/kompendium/forensic-legal/28-courtroom-decompensation.md": [
   "weak-link"
  ],
- "content/kompendium/forensic-legal/29-judicial-education.md": [
-  "weak-link"
- ],
  "content/kompendium/forensic-legal/3-dissociation-forensic.md": [
-  "weak-link"
- ],
- "content/kompendium/forensic-legal/30-jury-instruction-EA.md": [
-  "weak-link"
- ],
- "content/kompendium/forensic-legal/31-clinical-documentation-EA.md": [
   "weak-link"
  ],
  "content/kompendium/forensic-legal/32-evidence-preservation.md": [
   "weak-link"
  ],
  "content/kompendium/forensic-legal/33-timeline-reconstruction.md": [
-  "weak-link"
- ],
- "content/kompendium/forensic-legal/34-chain-evidence-narrative.md": [
   "weak-link"
  ],
  "content/kompendium/forensic-legal/35-electronic-evidence-EA.md": [
@@ -2279,9 +2183,6 @@
   "weak-link"
  ],
  "content/kompendium/forensic-legal/39-incident-reporting.md": [
-  "weak-link"
- ],
- "content/kompendium/forensic-legal/4-malingering-detection.md": [
   "weak-link"
  ],
  "content/kompendium/forensic-legal/40-mandatory-reporting-state.md": [
@@ -2306,9 +2207,6 @@
   "weak-link"
  ],
  "content/kompendium/forensic-legal/47-child-protection-EA.md": [
-  "weak-link"
- ],
- "content/kompendium/forensic-legal/48-religious-exemption-EA.md": [
   "weak-link"
  ],
  "content/kompendium/forensic-legal/49-trafficking-law-EA.md": [
@@ -2836,9 +2734,6 @@
  "content/kompendium/historical-cases/23-cambridge-analytica.md": [
   "weak-link"
  ],
- "content/kompendium/historical-cases/24-anti-vaxx-aids.md": [
-  "weak-link"
- ],
  "content/kompendium/historical-cases/25-tobacco-doubt.md": [
   "weak-link"
  ],
@@ -2876,9 +2771,6 @@
   "weak-link"
  ],
  "content/kompendium/historical-cases/36-cold-fusion.md": [
-  "weak-link"
- ],
- "content/kompendium/historical-cases/37-recovered-memory.md": [
   "weak-link"
  ],
  "content/kompendium/historical-cases/38-satanic-panic.md": [
@@ -2953,9 +2845,6 @@
  "content/kompendium/international/21-EU-law-EA/index.md": [
   "weak-link"
  ],
- "content/kompendium/international/22-czech-law-EA/index.md": [
-  "weak-link"
- ],
  "content/kompendium/international/23-german-law-EA/index.md": [
   "weak-link"
  ],
@@ -2968,19 +2857,10 @@
  "content/kompendium/international/26-canadian-law-EA/index.md": [
   "weak-link"
  ],
- "content/kompendium/international/27-australian-law-EA/index.md": [
-  "weak-link"
- ],
  "content/kompendium/international/28-international-criminal-EA/index.md": [
   "weak-link"
  ],
- "content/kompendium/international/29-human-rights-EA/index.md": [
-  "weak-link"
- ],
  "content/kompendium/international/3-hungary-EA/index.md": [
-  "weak-link"
- ],
- "content/kompendium/international/30-genocide-prevention-EA/index.md": [
   "weak-link"
  ],
  "content/kompendium/international/31-cs-en-terminology/index.md": [
@@ -2992,16 +2872,7 @@
  "content/kompendium/international/33-en-translation-issues/index.md": [
   "weak-link"
  ],
- "content/kompendium/international/34-cultural-translation-EA/index.md": [
-  "weak-link"
- ],
- "content/kompendium/international/35-legal-terminology-international/index.md": [
-  "weak-link"
- ],
  "content/kompendium/international/36-clinical-terminology-WHO/index.md": [
-  "weak-link"
- ],
- "content/kompendium/international/37-research-terminology-PubMed/index.md": [
   "weak-link"
  ],
  "content/kompendium/international/38-popular-terminology-public/index.md": [
@@ -3029,9 +2900,6 @@
   "weak-link"
  ],
  "content/kompendium/international/9-french-EA/index.md": [
-  "weak-link"
- ],
- "content/kompendium/international/_index.md": [
   "weak-link"
  ],
  "content/kompendium/konceptualni-mapa/_index.md": [

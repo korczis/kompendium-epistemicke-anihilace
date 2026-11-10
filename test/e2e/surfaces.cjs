@@ -11,25 +11,52 @@ const { chromium } = require(process.env.PLAYWRIGHT || 'playwright-core');
 
 const BASE = (process.env.BASE_URL || 'http://127.0.0.1:18790/').replace(/\/?$/, '/');
 
-// Kolik 2D pláten musí mít vykreslený obsah, a co na stránce musí reagovat.
-const SURFACES = [
+// Pevné plochy aplikace. Stránky obsahu se vybírají až za běhu z odvozeného grafu
+// (static/data/graph.json), aby test nezastaral, když se obsah přepíše nebo přejmenuje.
+const FIXED = [
   { path: '', painted: 1, note: 'úvod: p5 síť pojmů' },
   { path: 'kompendium/02-uvod/v-kostce/', painted: 0, interact: 'kostka', note: 'vrstvy a model eskalace' },
   { path: 'mapa/', painted: 1, text: '[x-text="stats"]', note: 'Mapa knihy (cytoscape)' },
   { path: 'stav/', painted: 5, count: ['#stav-kpi > *', 8], note: 'Stav knihy (ECharts)' },
+  { path: 'matice/', painted: 1, note: 'matice případů a technik (ECharts)' },
   { path: 'galerie/', painted: 3, note: 'Galerie (p5)' },
   { path: 'kompendium/techniques/', painted: 1, note: 'průzkumník technik' },
+  { path: 'kompendium/historical-cases/', painted: 1, note: 'časová osa historických případů' },
   { path: 'glossary/', painted: 1, note: 'průzkumník glosáře' },
   { path: 'tags/', painted: 1, note: 'štítky (treemap)' },
   { path: 'kompendium/case-studies/', painted: 1, note: 'přehled oddílu' },
   { path: 'kompendium/visualizations/', painted: 8, note: 'vizualizace knihy (Chart.js, p5)' },
-  { path: 'kompendium/techniques/ea-1-2-2-memorni-rekonstrukce/', painted: 1, note: 'stránka techniky: okolí' },
-  { path: 'kompendium/03-zakladni-kategorie/somaticke-vektory/', painted: 1, mermaid: 1, note: 'kapitola: diagram Mermaid' },
-  { path: 'matice/', painted: 1, note: 'matice případů a technik (ECharts)' },
-  { path: 'kompendium/historical-cases/', painted: 1, note: 'časová osa historických případů' },
-  { path: 'kompendium/case-studies/01-akademicka-supervize-totalizace/', painted: 1, count: ['[data-kontext] a[href]', 3], note: 'kazuistika: kontext stránky' },
-  { path: 'glossary/gaslighting/', painted: 1, count: ['[data-kontext] a[href]', 3], interact: 'paleta', note: 'heslo: kontext a příkazová paleta' },
 ];
+
+// Nejodkazovanější stránka oddílu: stabilní reprezentant, který se mění jen s obsahem.
+function top(g, section) {
+  const inDeg = {};
+  g.edges.forEach((e) => { inDeg[e[1]] = (inDeg[e[1]] || 0) + 1; });
+  const pages = g.nodes.filter((n) => n.section === section && !/_index\.md$/.test(n.path));
+  pages.sort((a, b) => (inDeg[b.id] || 0) - (inDeg[a.id] || 0));
+  return pages[0];
+}
+
+async function derived() {
+  const g = await (await fetch(BASE + 'data/graph.json')).json();
+  const page = (n) => n.url.replace(/^\//, '');
+  const out = [];
+  const tech = top(g, 'kompendium/techniques');
+  if (tech) out.push({ path: page(tech), painted: 1, count: ['[data-kontext] a[href]', 1], note: 'nejodkazovanější technika: okolí a kontext' });
+  const kase = top(g, 'kompendium/case-studies');
+  if (kase) out.push({ path: page(kase), painted: 1, count: ['[data-kontext] a[href]', 1], note: 'nejodkazovanější kazuistika: kontext' });
+  const term = top(g, 'glossary');
+  if (term) out.push({ path: page(term), painted: 1, count: ['[data-kontext] a[href]', 3], interact: 'paleta', note: 'nejodkazovanější heslo: kontext a paleta' });
+  // První stránka knihy, jejíž HTML obsahuje diagram Mermaid (hledá se v sestaveném webu).
+  for (const n of g.nodes) {
+    if (!n.path.startsWith('kompendium/')) continue;
+    const html = await (await fetch(BASE + page(n))).text().catch(() => '');
+    if (html.includes('data-lang="mermaid"')) { out.push({ path: page(n), painted: 0, mermaid: 1, note: 'stránka s diagramem Mermaid' }); break; }
+  }
+  return out;
+}
+
+let SURFACES = FIXED;
 
 async function paintedCanvases(page) {
   return page.evaluate(() => {
@@ -113,6 +140,7 @@ async function check(browser, s, viewport, scheme) {
 }
 
 (async () => {
+  SURFACES = FIXED.concat(await derived());
   const browser = await chromium.launch();
   let failed = 0;
   for (const s of SURFACES) {

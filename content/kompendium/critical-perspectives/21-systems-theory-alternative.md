@@ -1,76 +1,81 @@
 +++
 title = "Systémová teorie jako alternativa"
-description = "Kritická perspektiva — systémová teorie jako alternativa."
+description = "Systémový pohled se neptá, kdo manipuluje, ale jaký systém vzorec plodí a udržuje. Co rámci EA ukazuje, co by od něj kniha měla převzít a kde systémový výklad selhává."
 weight = 21
 
 [taxonomies]
-tags = ["kompendium", "critical-perspectives", "alternative"]
+tags = ["kompendium", "critical-perspectives", "alternative", "psychology", "organizational-defense"]
 categories = ["academic", "critical-theory"]
 
 [extra]
-related_terms = ["2-pathologization-critique", "20-publication-ethics-EA", "22-trauma-framework-alternative", "23-political-economy-alternative"]
+related_terms = ["8-theoretical-imperialism", "23-political-economy-alternative", "14-power-asymmetry-EA", "22-trauma-framework-alternative"]
 parent = "kompendium-critical-perspectives"
 toc = true
 +++
 
 # Systémová teorie jako alternativa
 
-> **Bucket**: alternative · **Unique angle**: systemic vs. individual — manipulace jako produkt systému
+> **Okruh**: alternativní rámec · **Jádro námitky**: manipulativní vzorec je vlastností vztahů a institucí, ne jen jednotlivce – kdo odstraní „pachatele“ a systém nechá, dočká se dalšího
 
-## Kritika nebo alternativa
+Rámec [epistemické anihilace](@/glossary/epistemicka-anihilace.md) je postaven kolem dvojice: působící a postižený. Systémová teorie navrhuje jinou jednotku analýzy. Rodina, tým, katedra nebo komunita jsou systémy se zpětnými vazbami, pravidly a rovnováhou, které určují, jak se v nich lidé chovají. Otázka „kdo manipuluje?“ se v tomto pohledu mění na otázku „jaký systém vytváří a udržuje vzorec, v němž se poznání jednoho člověka podřizuje druhému?“
 
-Systémová teorie (Bertalanffy, Bateson, Bowen) nabízí alternativu k individuálně-zaměřenému EA framework — manipulace jako systémový jev, ne osobnostní rys.
+## Námitka v nejsilnější podobě
 
-Tato kritika není okrajová — sahá k samotnému jádru toho, jak EA framework operuje. Pokud ji chceme brát vážně (a měli bychom), musíme být ochotní revidovat strukturu, jazyk i aplikaci frameworku, ne jen kosmetické detaily.
+Ludwig von Bertalanffy formuloval obecnou teorii systémů jako studium celků, jejichž vlastnosti nelze odvodit z vlastností částí (Bertalanffy 1968; srov. [holismus](@/glossary/holismus.md)). Gregory Bateson a jeho spolupracovníci popsali [dvojnou vazbu](@/glossary/double-bind.md): komunikaci, v níž člověk dostává protichůdné požadavky na různých úrovních, nemůže situaci opustit ani ji komentovat (Bateson et al. 1956) – tedy strukturu, která poškozuje schopnost rozumět realitě a přitom nemusí mít jediného autora. Paul Watzlawick, Janet Beavinová a Don Jackson ukázali, že komunikace je kruhová: každé chování je zároveň reakcí i podnětem, a otázka „kdo začal“ je často neřešitelná (Watzlawick et al. 1967). Murray Bowen popsal, jak rodinné systémy rozdělují úzkost přes trojúhelníky a jak nízká [diferenciace](@/glossary/diferenciace.md) členů vede k tomu, že jeden přebírá úsudek druhého (Bowen 1978).
 
-## Argumentace
+Z toho plyne silná výtka: rámec EA zachycuje vzorec, ale přisuzuje ho jednotlivci. Tím přehlíží, že stejný vzorec mohou v daném systému vytvářet i lidé, kteří by jinde nikoho neovládali, a že systém si po odchodu jednoho aktéra najde jiného, který jeho roli převezme. Intervence zaměřená na jednotlivce pak systém nechá beze změny.
 
-Místo otázky 'kdo manipuluje?' systémová teorie ptá 'jaký systém produkuje manipulativní vzorec?'. Rodinné systémy, organizační systémy, společenské systémy mají vlastní logiku, která může vyvolávat manipulativní chování i u jinak 'zdravých' jedinců. To je hluboká alternativa, ne pouhý doplněk.
+## Kde zasahuje tuto knihu
 
-Argumentace má tři vrstvy: epistemologickou (co můžeme vědět), metodologickou (jak to zjišťujeme), etickou (co s tím vědomím děláme). Každá vrstva produkuje vlastní limity. EA framework, aby byl dospělý, musí všechny tři přiznat.
+Kniha systémovou rovinu zná: má sekce [organizační obrany](@/kompendium/organizational-defense/_index.md), [kolektivní a institucionální intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md) a kapitolu o [institucionální anihilaci](@/kompendium/04-terminalni-protokoly/institucionalni-anihilace.md). Většina technik je ale popsána jako jednání aktéra vůči cíli a klinické části pracují s jednotlivcem. Kauzalita je v knize převážně lineární: někdo dělá, někdo je zasažen. Systémová teorie by se ptala, co v prostředí umožňuje, odměňuje a skrývá to, co aktér dělá – a co by se stalo, kdyby aktér odešel.
 
-Klíčový bod: kritika neničí framework, ale zostřuje jeho aplikační hranice. Jasně vyznačené limity jsou *funkcí* zralého frameworku, ne jeho slabinou. Bez nich se framework stává ideologií.
+## Ilustrační případ
 
-## Empirická opora
+Obecný kompozit: na jedné katedře si během deseti let tři doktorandi postupně stěžují na různé školitele – na izolaci od jiných pracovišť, přivlastňování výsledků, tlak na loajalitu. Každá stížnost se řeší jako individuální případ a jeden školitel odejde. Systémová analýza ukáže společné rysy prostředí: financování doktorandů je zcela závislé na grantu školitele, katedra nemá nezávislého ombudsmana, publikační tlak odměňuje kontrolu nad prací studentů a kultura považuje „věrnost týmu“ za ctnost. V takovém systému se vzorec bude opakovat bez ohledu na osoby. Účinná intervence proto mění strukturu: oddělí financování od jediného školitele, zavede druhého konzultanta a nezávislý kanál pro stížnosti (srov. [Akademický dohled](@/kompendium/prevention-resilience/17-academic-supervision-prevention.md)).
 
-Bertalanffy (1968) *General Systems Theory*; Bateson (1972) *Steps to an Ecology of Mind*; Bowen (1978) *Family Therapy in Clinical Practice*.
+## Co alternativa nevidí
 
-Tato literatura není okrajová — pochází z hlavního proudu odborné diskuse. EA framework, který by ji ignoroval, by se diskvalifikoval z akademické konverzace.
+Systémový pohled má známou slabinu. Feministické terapeutky v osmdesátých letech namítly, že pojem kruhové kauzality u domácího násilí rozmělňuje odpovědnost: jestliže „oba přispívají ke vzorci“, ztrácí se, kdo bije a kdo se bojí. Totéž platí pro EA. Systém může vzorec umožňovat, ale konkrétní člověk se rozhoduje, zda ho využije. A mocenská asymetrie není jen vlastnost systému; v rodině nebo v sektě ji často vytvořil a udržuje jeden člověk. Systémový výklad, který tohle přehlédne, se stává alibi.
 
-## Implikace pro EA framework
+## Co si z alternativy vzít
 
-EA framework musí integrovat **systémové analytické vrstvy**: jednotlivec, rodina, organizace, společnost. Bez systémového kontextu je individuální klasifikace neúplná.
+- **Vrstvená analýza.** U každého případu popsat čtyři roviny: jednotlivce, vztah, organizaci nebo komunitu a širší společenské podmínky. Kniha k tomu má nástroje v různých sekcích; jde o to je spojit.
+- **Otázka po umožňujících podmínkách.** Co v systému dovolilo, aby vzorec vznikl, trval a zůstal skrytý? Kdo o něm věděl a proč nejednal?
+- **Intervence i na systém.** Vedle ochrany postiženého a odpovědnosti působícího měnit pravidla, která vzorec umožnila (viz [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)).
+- **Odpovědnost zůstává.** Systémová analýza nikdy nenahrazuje přičtení odpovědnosti konkrétnímu jednání; obojí se zapisuje vedle sebe.
+- **Kruhovost jen tam, kde je symetrie.** Kruhový výklad komunikace používat u sporů rovnocenných stran, ne tam, kde jedna strana má moc a druhá strach.
 
-Konkrétní implementační kroky:
+## Co zůstává otevřené
 
-1. **Revize glossary entries** — explicitní zmínka této kritiky u relevantních pojmů
-2. **Detection signatures** — integrace varovných sekcí ('kdy NEAPLIKOVAT')
-3. **Educational scenarios** — případy, kde EA framework selhává
-4. **Cross-domain bridges** — odkazy na alternativní rámce
-5. **Audit checklist** — pravidelná revize, zda kritika je adekvátně reflektována
+Jak spojit lineární jazyk odpovědnosti s kruhovým jazykem systémů, aniž by jeden zrušil druhý? Kdo nese odpovědnost za systém, který manipulaci plodí – vedení, zakladatelé, všichni členové? A jak měřit, zda systémová změna skutečně snížila výskyt vzorce, když jednotlivé případy jsou vzácné a různorodé?
 
-## Odpovědi z kompendia
+## Literatura
 
-Kompendium cross-domain a section-bridges integrují systémové perspektivy. Organizational-defense aplikuje systémovou analýzu. Population-health rozšiřuje na společenskou úroveň.
+- Bertalanffy, L. von (1968). *General System Theory*. George Braziller.
+- Bateson, G., Jackson, D. D., Haley, J., & Weakland, J. (1956). Toward a theory of schizophrenia. *Behavioral Science*, 1(4).
+- Bateson, G. (1972). *Steps to an Ecology of Mind*. Chandler.
+- Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. W. W. Norton.
+- Bowen, M. (1978). *Family Therapy in Clinical Practice*. Jason Aronson.
 
-EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivně ji integruje do struktury. To je rozdíl mezi obrannou a dospělou epistemologií.
+## Související
 
-## Cross-linky
+**Kritické perspektivy**
 
-- [Trauma-informovaný framework](@/kompendium/critical-perspectives/22-trauma-framework-alternative.md)
-- [Political economy alternativa](@/kompendium/critical-perspectives/23-political-economy-alternative.md)
-- [Narativní medicína](@/kompendium/critical-perspectives/24-narrative-medicine-alternative.md)
-- [Publikační etika v EA literatuře](@/kompendium/critical-perspectives/20-publication-ethics-EA.md)
-- [Výzkumná exploatace v EA studiích](@/kompendium/critical-perspectives/19-research-exploitation.md)
-- [Buddhistická psychologie](@/kompendium/critical-perspectives/30-buddhist-psychology-alt.md)
-- [Iatrogenní účinky EA intervencí](@/kompendium/critical-perspectives/11-iatrogenic-overreach.md)
-- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
-- [Patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md)
-- [Framework overreach — když EA vysvětluje vše](@/kompendium/critical-perspectives/3-framework-overreach.md)
-- [Hub kompendia](@/kompendium/_index.md)
-- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Research methodology](@/kompendium/research-methodology/_index.md)
-- [Glossary platformy](@/glossary/_index.md)
+- [Teoretický imperialismus](@/kompendium/critical-perspectives/8-theoretical-imperialism.md) – proč potřebujeme konkurenční výklady.
+- [Politická ekonomie jako alternativa](@/kompendium/critical-perspectives/23-political-economy-alternative.md) – systém na úrovni společnosti a trhu.
+- [Mocenská asymetrie v aplikaci EA](@/kompendium/critical-perspectives/14-power-asymmetry-EA.md) – moc, kterou systémový výklad nesmí přehlédnout.
+
+**Kapitoly**
+
+- [6.10 Kolektivní a institucionální intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md) – kde kniha pracuje se systémy.
+- [Institucionální anihilace](@/kompendium/04-terminalni-protokoly/institucionalni-anihilace.md) – destrukce kolektivních epistemických struktur.
+- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – strukturální pojistky v organizacích.
+- [Hutchins: Distribuovaná kognice](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md) – poznání jako vlastnost systému.
+
+**Pojmy**
+
+- [Double bind](@/glossary/double-bind.md) – poškozující komunikační struktura bez jediného autora.
+- [Holismus](@/glossary/holismus.md) – celek víc než součet částí.
 
 ## Connect & Contribute
 

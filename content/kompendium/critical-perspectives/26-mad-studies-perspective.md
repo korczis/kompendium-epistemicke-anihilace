@@ -1,76 +1,83 @@
 +++
-title = "Mad Studies perspektiva"
-description = "Kritická perspektiva — mad studies perspektiva."
+title = "Perspektiva Mad Studies"
+description = "Mad Studies a hnutí přeživších psychiatrie připomínají, že klasifikovaní mají o své zkušenosti vědění, které odborníci nemají. Co to znamená pro knihu psanou pro odborníky."
 weight = 26
 
 [taxonomies]
-tags = ["kompendium", "critical-perspectives", "alternative"]
+tags = ["kompendium", "critical-perspectives", "alternative", "epistemologie", "ethics"]
 categories = ["academic", "critical-theory"]
 
 [extra]
-related_terms = ["24-narrative-medicine-alternative", "25-critical-psychiatry-alternative", "27-decolonial-epistemology", "28-feminist-epistemology-alt"]
+related_terms = ["25-critical-psychiatry-alternative", "28-feminist-epistemology-alt", "19-research-exploitation", "24-narrative-medicine-alternative"]
 parent = "kompendium-critical-perspectives"
 toc = true
 +++
 
-# Mad Studies perspektiva
+# Perspektiva Mad Studies
 
-> **Bucket**: alternative · **Unique angle**: epistemická spravedlnost — survivors jako spoluautoři
+> **Okruh**: alternativní rámec · **Jádro námitky**: kniha o tom, jak lidé ztrácejí poznávací autoritu, je psána tak, že těm, o kterých píše, poznávací autoritu nedává
 
-## Kritika nebo alternativa
+Mad Studies je interdisciplinární obor, který vznikl z hnutí lidí s vlastní zkušeností psychiatrické péče – takzvaných přeživších psychiatrie – a z jejich spolupráce s akademiky. Na rozdíl od [kritické psychiatrie](@/kompendium/critical-perspectives/25-critical-psychiatry-alternative.md), kterou formulovali hlavně odborníci, vychází Mad Studies z perspektivy těch, kdo byli klasifikováni, léčeni a často nuceni. Jejím ústředním nárokem je epistemický: lidé s touto zkušeností vědí o duševním trápení, o péči i o moci něco, co odborníci zvenčí vědět nemohou.
 
-Mad Studies (Beresford, LeFrançois, Reaume) je akademické hnutí, které dává hlas 'survivors' psychiatrické péče — EA framework musí slyšet ty, koho klasifikuje.
+## Námitka v nejsilnější podobě
 
-Tato kritika není okrajová — sahá k samotnému jádru toho, jak EA framework operuje. Pokud ji chceme brát vážně (a měli bychom), musíme být ochotní revidovat strukturu, jazyk i aplikaci frameworku, ne jen kosmetické detaily.
+Sborník *Mad Matters*, který sestavili Brenda LeFrançoisová, Robert Menzies a Geoffrey Reaume, představil Mad Studies jako obor, který zkoumá šílenství, psychiatrii a jejich dějiny z pozice přeživších a odmítá automaticky přijímat biomedicínský výklad (LeFrançois et al. 2013). Hnutí slyšení hlasů, vycházející od konce osmdesátých let z práce Mariuse Rommeho a Sandry Escherové, ukázalo, že lidé, kteří slyší hlasy, se mohou naučit s nimi žít a že jejich vlastní výklad zkušenosti je pro zotavení cenný. Hnutí za práva lidí s postižením zformulovalo heslo „nic o nás bez nás“ (Charlton 1998).
 
-## Argumentace
+Miranda Frickerová dala tomuto nároku filozofický jazyk. Popsala svědeckou nespravedlnost, kdy je výpovědi člověka přisouzena nižší věrohodnost kvůli předsudku vůči skupině, k níž patří, a hermeneutickou nespravedlnost, kdy člověku chybějí sdílené pojmy, jimiž by mohl svou zkušenost srozumitelně vyjádřit (Fricker 2007; viz [epistemická injustice](@/glossary/epistemicka-injustice.md)).
 
-Mad Studies tvrdí: ti, kdo byli klasifikováni psychiatrickými rámci, mají epistemickou autoritu o vlastní zkušenosti, kterou kliničtí experti nemají. EA framework, vytvořený experty pro experty, riskuje epistemickou injustici (Fricker, 2007). 'Nothing about us without us.'
+Aplikováno na knihu: Kompendium je podle svého úvodu určeno výhradně kvalifikovaným odborníkům. Lidé, kteří EA zažili, se v něm objevují jako kazuistiky, ne jako autoři, recenzenti ani čtenáři. Diagnostické limity, podle nichž postižený „nemusí markery rozeznat u sebe sama“ ([diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)), mohou snadno sloužit jako důvod, proč jeho výklad brát méně vážně. To je strukturálně svědecká nespravedlnost – v knize, která se o Frickerovou v kapitole o sociální epistemologii sama opírá.
 
-Argumentace má tři vrstvy: epistemologickou (co můžeme vědět), metodologickou (jak to zjišťujeme), etickou (co s tím vědomím děláme). Každá vrstva produkuje vlastní limity. EA framework, aby byl dospělý, musí všechny tři přiznat.
+## Kde zasahuje tuto knihu
 
-Klíčový bod: kritika neničí framework, ale zostřuje jeho aplikační hranice. Jasně vyznačené limity jsou *funkcí* zralého frameworku, ne jeho slabinou. Bez nich se framework stává ideologií.
+Kniha má k tématu dobré nástroje: [sociální epistemologii](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) s Frickerovou, [návody sebeobrany](@/kompendium/self-defense-guides/_index.md) psané pro lidi, kteří čelí manipulaci, [rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md) a metodologii [fenomenologického rozhovoru](@/kompendium/research-methodology/phenomenological-interview-EA.md). Přesto je hlas přeživších zprostředkovaný: je slyšet skrze odborníka. Kniha nemá výslovný mechanismus, jímž by lidé s vlastní zkušeností spoluurčovali, které pojmy se použijí, jak se popisují následky a co se považuje za zotavení.
 
-## Empirická opora
+Má to i druhou stranu. Pojmy jako [gaslighting](@/glossary/gaslighting.md) nebo koercivní kontrola daly mnoha lidem jazyk, který jim chyběl – zmírnily hermeneutickou nespravedlnost. Kniha tedy může přeživším hlas dávat i brát, podle toho, jak se s ní zachází.
 
-Beresford (2016) *All Our Welfare*; LeFrançois et al. (2013) *Mad Matters*; Fricker (2007) *Epistemic Injustice*.
+## Ilustrační případ
 
-Tato literatura není okrajová — pochází z hlavního proudu odborné diskuse. EA framework, který by ji ignoroval, by se diskvalifikoval z akademické konverzace.
+Obecný kompozit: skupina lidí, kteří prošli uzavřenými skupinami, si přečte několik kapitol knihy a sepíše připomínky. Oceňují přesnost popisu technik. Výhrady mají k jazyku: slovo „anihilace“ jim zní, jako by z nich nic nezbylo, ačkoli většina z nich žije plnohodnotně; nesouhlasí s tím, že zotavení se v textu měří podle toho, jak moc přijali odborný výklad; a upozorňují, že kazuistiky popisují jejich zkušenost bez ambivalence, kterou znají – bez přátelství, smyslu a vlastních voleb, které ve skupině také byly. Nic z toho nevyžaduje zrušit taxonomii. Všechno to vyžaduje, aby přeživší měli při jejím psaní místo.
 
-## Implikace pro EA framework
+## Co alternativa nevidí
 
-EA framework musí integrovat **lived experience expertise**: ti, kdo byli klasifikováni, jsou spoluautoři frameworku. Glossary entries musí citovat first-person accounts.
+Mad Studies se soustředí na moc psychiatrického systému a méně na moc jednotlivců, kteří manipulují mimo instituce. Lidé, kteří prošli koercivním vztahem, často o klinický rámec stojí, protože jim dává uznání a přístup k péči. A hlasy aktivistů nejsou jediným hlasem přeživších; mnozí s jejich postoji nesouhlasí. Lived experience není jedna perspektiva, ale mnoho perspektiv, které si mohou odporovat.
 
-Konkrétní implementační kroky:
+## Co si z alternativy vzít
 
-1. **Revize glossary entries** — explicitní zmínka této kritiky u relevantních pojmů
-2. **Detection signatures** — integrace varovných sekcí ('kdy NEAPLIKOVAT')
-3. **Educational scenarios** — případy, kde EA framework selhává
-4. **Cross-domain bridges** — odkazy na alternativní rámce
-5. **Audit checklist** — pravidelná revize, zda kritika je adekvátně reflektována
+- **Spoluautorství.** Zapojit lidi s vlastní zkušeností do psaní a revize kapitol o následcích, zotavení a jazyce – ne jen jako zdroj příběhů.
+- **Recenze přeživšími.** Před publikací nechat klíčové kapitoly přečíst lidem, o kterých jsou, a jejich připomínky zveřejnit.
+- **Věrohodnost jako výchozí bod.** Výpověď postiženého brát vážně; diagnostické limity sebehodnocení nikdy neslouží jako argument proti ní.
+- **Pluralita zotavení.** Nedefinovat zotavení jako přijetí odborného výkladu; ponechat prostor pro výklady, které si člověk vytvoří sám.
+- **Dostupnost.** Promyslet, které části knihy mají být psány i pro lidi, kteří EA zažili, a ne jen pro ty, kdo je léčí.
 
-## Odpovědi z kompendia
+## Co zůstává otevřené
 
-Kompendium recovery-protocols obsahují first-person účty. Self-defense-guides jsou psány z perspektivy 'targets'. Educational scenarios reflektují survivor voices.
+Jak spojit bezpečnostní omezení přístupu ke knize s nárokem „nic o nás bez nás“? Kdo může mluvit za přeživší, když se navzájem neshodnou? A je slovo „anihilace“ – silné, ale pro mnoho postižených zraňující – správným jménem pro jev, z něhož se lidé zotavují?
 
-EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivně ji integruje do struktury. To je rozdíl mezi obrannou a dospělou epistemologií.
+## Literatura
 
-## Cross-linky
+- LeFrançois, B. A., Menzies, R., & Reaume, G. (Eds.). (2013). *Mad Matters: A Critical Reader in Canadian Mad Studies*. Canadian Scholars' Press.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Charlton, J. I. (1998). *Nothing About Us Without Us: Disability Oppression and Empowerment*. University of California Press.
 
-- [Dekoloniální epistemologie](@/kompendium/critical-perspectives/27-decolonial-epistemology.md)
-- [Feministická epistemologie](@/kompendium/critical-perspectives/28-feminist-epistemology-alt.md)
-- [Procesuální filosofie](@/kompendium/critical-perspectives/29-process-philosophy-alt.md)
-- [Kritická psychiatrie](@/kompendium/critical-perspectives/25-critical-psychiatry-alternative.md)
-- [Narativní medicína](@/kompendium/critical-perspectives/24-narrative-medicine-alternative.md)
-- [Coerce léčba a EA framework](@/kompendium/critical-perspectives/16-treatment-coercion-risk.md)
-- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
-- [Patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md)
-- [Framework overreach — když EA vysvětluje vše](@/kompendium/critical-perspectives/3-framework-overreach.md)
-- [Kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md)
-- [Hub kompendia](@/kompendium/_index.md)
-- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Research methodology](@/kompendium/research-methodology/_index.md)
-- [Glossary platformy](@/glossary/_index.md)
+## Související
+
+**Kritické perspektivy**
+
+- [Kritická psychiatrie](@/kompendium/critical-perspectives/25-critical-psychiatry-alternative.md) – kritika zevnitř profese.
+- [Feministická epistemologie](@/kompendium/critical-perspectives/28-feminist-epistemology-alt.md) – situované vědění a pozice poznávajícího.
+- [Výzkumná exploatace ve studiích EA](@/kompendium/critical-perspectives/19-research-exploitation.md) – přeživší jako účastníci výzkumu.
+- [Narativní medicína](@/kompendium/critical-perspectives/24-narrative-medicine-alternative.md) – vlastní příběh před kategorií.
+
+**Kapitoly**
+
+- [7.3 Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) – Frickerová a epistemická nespravedlnost.
+- [1.2 Pro koho je určeno](@/kompendium/01-predmluva/pro-koho-je-urceno.md) – vymezení publika, o kterém je námitka.
+- [Fenomenologický interview v EA](@/kompendium/research-methodology/phenomenological-interview-EA.md) – metoda, která zkušenost bere vážně.
+
+**Pojmy**
+
+- [Epistemická injustice](@/glossary/epistemicka-injustice.md) – svědecká a hermeneutická nespravedlnost.
+- [Epistemická agentnost](@/glossary/epistemicka-agentnost.md) – schopnost být poznávajícím, ne jen poznávaným.
 
 ## Connect & Contribute
 

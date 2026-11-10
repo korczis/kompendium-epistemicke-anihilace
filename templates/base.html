@@ -64,9 +64,26 @@
   } catch (e) {}
   document.documentElement.classList.remove('no-js');
 </script>
-{%- if "/js/kompendium/" in body_html %}
+{#- Visualisation libraries: only those the page's scripts call, by the derived manifest
+    static/data/viz-deps.json (scripts/build-ui-data.py reads each script's source). -#}
+{%- set_global need_chart = false -%}{%- set_global need_p5 = false -%}{%- set_global need_three = false -%}
+{%- if "/js/kompendium/" in body_html -%}
+{%- set viz = load_data(path="static/data/viz-deps.json") -%}
+{%- for name, libs in viz.scripts -%}
+{%- if "/js/kompendium/" ~ name in body_html -%}
+{%- if "chart" in libs %}{% set_global need_chart = true %}{% endif -%}
+{%- if "p5" in libs %}{% set_global need_p5 = true %}{% endif -%}
+{%- if "three" in libs %}{% set_global need_three = true %}{% endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endif %}
+{%- if need_chart %}
 <script src="{{ get_url(path='js/vendor/chart.umd.min.js') }}"></script>
+{%- endif %}
+{%- if need_p5 %}
 <script src="{{ get_url(path='js/vendor/p5-1.7.0.min.js') }}"></script>
+{%- endif %}
+{%- if need_three %}
 <script src="{{ get_url(path='js/vendor/three-0.160.min.js') }}"></script>
 {%- endif %}
 {% block head_extra %}{% endblock head_extra %}
@@ -92,7 +109,7 @@
 <script src="{{ get_url(path='js/viz/kostka.js', cachebust=true) }}" defer></script>
 {%- endif %}
 {%- if "data-p5=" in body_html or (section is defined and section.path == "/") %}
-{%- if "/js/kompendium/" not in body_html %}
+{%- if not need_p5 %}
 <script src="{{ get_url(path='js/vendor/p5-1.7.0.min.js') }}" defer></script>
 {%- endif %}
 <script src="{{ get_url(path='js/p5/grafika.js', cachebust=true) }}" defer></script>

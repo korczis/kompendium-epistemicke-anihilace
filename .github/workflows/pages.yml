@@ -84,7 +84,7 @@ jobs:
       - name: Smoke test
         run: |
           set -e
-          for path in "" kompendium/ kompendium/01-predmluva/ kompendium/techniques/ glossary/ references/ about/ tags/ galerie/ mapa/ stav/ search_index.cs.json data/graph.json data/metrics.json css/app.css js/site.js js/viz/kompendium-viz.js js/vendor/flowbite.min.js js/vendor/cytoscape.min.js js/vendor/echarts.min.js js/vendor/alpine.min.js img/og.png; do
+          for path in "" kompendium/ kompendium/01-predmluva/ kompendium/techniques/ glossary/ references/ about/ tags/ galerie/ mapa/ stav/ search_index.cs.json data/graph.json data/metrics.json data/search.json data/nav.json data/terms.json data/viz-deps.json css/app.css js/site.js js/viz/kompendium-viz.js js/vendor/flowbite.min.js js/vendor/cytoscape.min.js js/vendor/echarts.min.js js/vendor/alpine.min.js img/og.png; do
             code="$(curl -s -o /dev/null -w '%{http_code}' "${BASE_URL}${path}")"
             echo "$code ${BASE_URL}${path}"
             test "$code" = 200

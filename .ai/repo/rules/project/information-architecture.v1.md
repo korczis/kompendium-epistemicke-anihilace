@@ -38,7 +38,11 @@ odchozí a příchozí odkazy):
 
 Stejná brána vynucuje i pravidla `project.content-no-placeholders` (požadavek `placeholder`,
 bez základu) a `project.content-academic-style` (`thin`, `bullets`, `citations`,
-`bibliography`, `citation-unresolved`); jejich význam je v těchto pravidlech.
+`bibliography`, `citation-unresolved`); jejich význam je v těchto pravidlech. Každý pojem má
+vlastní stránku: slug v `extra.related_terms` musí odpovídat existující stránce (požadavek
+`related-terms`; pojem bez stránky se napíše jako heslo glosáře, nebo se slug opraví na
+existující stránku) a první zmínka pojmu s heslem je odkaz (`term-links`,
+`scripts/link-terms.py`).
 
 Odvozená data se negenerují ručně: `scripts/build-graph.py` zapisuje
 `static/data/graph.json` (stránky a jejich odkazy) a `static/data/metrics.json` (čísla pro

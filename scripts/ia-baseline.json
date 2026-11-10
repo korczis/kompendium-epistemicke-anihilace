@@ -23,7 +23,8 @@
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/adapter-pattern.md": [
   "bibliography",
@@ -31,7 +32,8 @@
   "citations",
   "czech",
   "links-out",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/addiction-recovery.md": [
   "bibliography",
@@ -39,28 +41,32 @@
   "citations",
   "czech",
   "description",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/agent-registry.md": [
   "bibliography",
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/agent-tier.md": [
   "bibliography",
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/agent.md": [
   "bibliography",
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/anankasticky-rezim.md": [
   "bibliography",
@@ -91,14 +97,16 @@
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/autoheal.md": [
   "bibliography",
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/betrayal-trauma.md": [
   "bibliography",
@@ -124,21 +132,24 @@
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/blue-team.md": [
   "bibliography",
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/bounded-context.md": [
   "bibliography",
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/c-ptsd.md": [
   "bibliography",
@@ -154,7 +165,8 @@
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/chain-of-custody.md": [
   "bibliography",
@@ -162,6 +174,7 @@
   "citations",
   "czech",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/clean-run.md": [
@@ -169,7 +182,8 @@
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/coercive-control.md": [
   "bibliography",
@@ -185,7 +199,8 @@
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/communicative-rationality.md": [
   "bibliography",
@@ -203,7 +218,8 @@
   "citations",
   "czech",
   "description",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/compliance-framework.md": [
   "bibliography",
@@ -211,7 +227,8 @@
   "citations",
   "czech",
   "links-out",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/darvo.md": [
   "bibliography",
@@ -230,6 +247,7 @@
   "czech",
   "links-out",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/deepfake.md": [
@@ -248,6 +266,7 @@
   "czech",
   "links-out",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/delegitimizace.md": [
@@ -311,14 +330,16 @@
   "citations",
   "czech",
   "description",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/easm.md": [
   "bibliography",
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/ego-death.md": [
   "bibliography",
@@ -343,7 +364,8 @@
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/epistemic-bubble.md": [
   "bibliography",
@@ -359,7 +381,8 @@
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/epistemic-security.md": [
   "bibliography",
@@ -401,6 +424,7 @@
   "citations",
   "czech",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/epistemicke-trauma.md": [
@@ -428,6 +452,7 @@
   "czech",
   "description",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/falsifikace.md": [
@@ -444,6 +469,7 @@
   "citations",
   "czech",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/fenomenologie.md": [
@@ -470,6 +496,7 @@
   "czech",
   "description",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/four-noble-truths.md": [
@@ -512,7 +539,8 @@
   "citations",
   "czech",
   "description",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/gray-team.md": [
   "bibliography",
@@ -526,14 +554,16 @@
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/hawkeye.md": [
   "bibliography",
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/hermeneutika.md": [
   "bibliography",
@@ -576,6 +606,7 @@
   "czech",
   "description",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/inference.md": [
@@ -584,7 +615,8 @@
   "citations",
   "czech",
   "links-out",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/info-ops.md": [
   "bibliography",
@@ -602,6 +634,7 @@
   "czech",
   "description",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/instrumental-reason.md": [
@@ -617,7 +650,8 @@
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/intentionalita.md": [
   "bibliography",
@@ -636,6 +670,7 @@
   "czech",
   "description",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/kognitivni-anihilace.md": [
@@ -752,14 +787,16 @@
   "citations",
   "czech",
   "description",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/nabla-infinity.md": [
   "bibliography",
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/narativni-identita.md": [
   "bibliography",
@@ -801,7 +838,8 @@
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/panopticism.md": [
   "bibliography",
@@ -818,7 +856,8 @@
   "citations",
   "czech",
   "description",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/paralysis-by-analysis.md": [
   "bibliography",
@@ -829,6 +868,7 @@
   "description",
   "links-out",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/pattern-evidence.md": [
@@ -838,6 +878,7 @@
   "czech",
   "description",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/power-knowledge.md": [
@@ -888,7 +929,8 @@
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/quality-debt.md": [
   "bibliography",
@@ -896,7 +938,8 @@
   "citations",
   "czech",
   "links-out",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/red-team.md": [
   "bibliography",
@@ -910,7 +953,8 @@
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/replication-crisis.md": [
   "bibliography",
@@ -920,6 +964,7 @@
   "czech",
   "description",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/risk-score.md": [
@@ -927,14 +972,16 @@
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/sanctions-screening.md": [
   "bibliography",
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/sealioning.md": [
   "bibliography",
@@ -953,6 +1000,7 @@
   "czech",
   "description",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/session-discipline.md": [
@@ -960,14 +1008,16 @@
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/shodan.md": [
   "bibliography",
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/signal-plurality.md": [
   "bibliography",
@@ -975,7 +1025,8 @@
   "citation-unresolved",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/simulacra.md": [
   "bibliography",
@@ -1013,6 +1064,7 @@
   "citations",
   "czech",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/theory-of-mind.md": [
@@ -1033,6 +1085,7 @@
   "czech",
   "description",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/trauma-bonding.md": [
@@ -1042,6 +1095,7 @@
   "czech",
   "description",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/traumatic-bonding.md": [
@@ -1054,7 +1108,8 @@
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/glossary/undue-influence.md": [
   "bibliography",
@@ -1063,6 +1118,7 @@
   "czech",
   "description",
   "related",
+  "related-terms",
   "thin"
  ],
  "content/glossary/weaponized-incompetence.md": [
@@ -1087,7 +1143,8 @@
   "bullets",
   "citations",
   "czech",
-  "related"
+  "related",
+  "related-terms"
  ],
  "content/kompendium/01-predmluva/_index.md": [
   "bibliography",

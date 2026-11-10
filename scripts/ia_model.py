@@ -366,6 +366,10 @@ def load_pages() -> list:
             with_page.add(".".join(code.groups()))
     for page in pages:
         page["missing_techniques"] = [c for c in page["ea_mentions"] if c not in with_page]
+    # Every term a page names in extra.related_terms has a page of its own (by file stem).
+    stems = {p["path"].rsplit("/", 1)[-1][:-3] for p in pages if not p["is_index"]}
+    for page in pages:
+        page["missing_terms"] = [t for t in page["related_terms"] if t not in stems]
     terms = glossary_terms(pages)
     for page in pages:
         page["unlinked_terms"] = [f[:2] for f in unlinked_terms(

@@ -28,6 +28,8 @@ Requirements (id: what is checked):
   category         a glossary entry's extra.category is one of GLOSSARY_CATEGORIES
   term-links       the first mention of every glossary term in the prose is a link to its
                    entry (scripts/link-terms.py inserts them)
+  related-terms    every slug in extra.related_terms has a page of its own (a term without
+                   a page is written, or the slug corrected to the existing page)
   technique-page   every technique code EA-X.Y.Z the page names has its own page (by file
                    name or ea_code); never accepted into the baseline, like a broken link
 
@@ -95,6 +97,8 @@ def violations(page: dict) -> list:
         found.append("term-links")
     if page["missing_techniques"]:
         found.append("technique-page")
+    if page["missing_terms"]:
+        found.append("related-terms")
     if page["path"].startswith("glossary/") and not page["is_index"] \
             and page["category"] not in GLOSSARY_CATEGORIES:
         found.append("category")
@@ -112,6 +116,7 @@ def explain(page: dict, rules: list) -> str:
         "broken-link": ", ".join(page["broken_links"]),
         "term-links": ", ".join(f"„{t[0]}“" for t in page["unlinked_terms"][:8])
         + (" …" if len(page["unlinked_terms"]) > 8 else ""),
+        "related-terms": ", ".join(page["missing_terms"][:8]),
         "technique-page": ", ".join("EA-" + c for c in page["missing_techniques"]),
         "category": f"'{page['category']}' is not in GLOSSARY_CATEGORIES",
     }

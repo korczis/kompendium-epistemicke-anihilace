@@ -1,90 +1,160 @@
 +++
-title = "Rodinne pravo"
-description = "Forenzni a pravni rozmer EA — rodinne pravo."
+title = "Rodinné právo"
+description = "Jak se epistemické zneužívání projevuje v rozvodových a opatrovnických řízeních, jak pokračuje po rozchodu a jak ho odlišit od běžného konfliktu rodičů."
 weight = 41
+
 [taxonomies]
 tags = ["kompendium", "forensic-legal", "specialized-law"]
 categories = ["academic", "legal", "clinical"]
+
 [extra]
-related_terms = ["4-malingering-detection", "40-mandatory-reporting-state", "42-immigration-EA", "43-asylum-EA"]
+related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
 parent = "kompendium-forensic-legal"
 toc = true
 +++
 
-# Rodinne pravo
+# Rodinné právo
 
-## Pravni / forenzni kontext
+Kapitola otevírá [část o specializovaných oblastech práva](@/kompendium/forensic-legal/_index.md).
+Zabývá se řízeními o rozvodu, o úpravě péče o děti a styku s nimi a o výživném – tedy
+prostředím, kde se epistemické zneužívání po rozchodu často nezastaví, ale přenese do soudní
+síně. Je určena opatrovnickým soudcům, pracovníkům OSPOD, advokátům v rodinných věcech,
+znalcům a mediátorům.
 
-Rodinne soudy s EA dynamikou (custody, post-separation abuse) vyzaduji specializovane DV-informed slyseni a expertni svedectvi. V kontextu epistemic abuse (EA) tato oblast propojuje klinickou
-psychologii s pravnimi standardy dokazovani, kde pattern coercive control
-musi byt prelozen do soudni-akceptovatelne formy. Standardni adversarialni
-proces neni navrzen pro dynamiku post-separation abuse ani pro postupne
-disclosure trauma — coz vyzaduje specializovany pristup. Forenzni odbornik
-zde slouzi jako most mezi klinickou realitou obeti a evidentiary standardy
-soudu, pricemz musi obhajit metodologii proti adversarial challenge.
+## Právní a forenzní kontext
 
-## Klicove principy
+Rodinné vztahy upravuje občanský zákoník (zákon č. 89/2012 Sb.); řízení ve věcech péče
+o nezletilé a předběžná opatření, včetně opatření při domácím násilí, upravuje zákon
+č. 292/2013 Sb., o zvláštních řízeních soudních. Hlavním hlediskem je **nejlepší zájem
+dítěte**; dítě má právo být slyšeno a jeho názor musí být zohledněn podle věku a rozumové
+vyspělosti (Úmluva o právech dítěte, čl. 12). Orgán sociálně-právní ochrany dětí (zákon
+č. 359/1999 Sb.) bývá v řízení kolizním opatrovníkem. Pokud jeden z rodičů vůči druhému
+páchal domácí násilí, je to okolnost, kterou soud při rozhodování o péči musí zvážit;
+Istanbulská úmluva Rady Evropy výslovně požaduje zohlednit násilí při rozhodování o péči
+a styku.
 
-- **Neutralita** — postup bez sugestivity, bez koucovani vypovedi
-- **Trauma-informed** — respektovani C-PTSD a disociativnich projevu
-- **Reproducibility** — metodologie verifikovatelna nezavislym znalcem
-- **Documentation** — kazdy krok forensne dokumentovany
-- **Boundaries** — jasna hranice klinik / forenzni / pravni role
+## Specifika epistemického zneužívání
+
+Rodinné řízení nabízí pachateli [coercive control](@/glossary/coercive-control.md) prostor
+pokračovat v kontrole jinými prostředky:
+
+- **Řízení jako nástroj.** Opakované návrhy, odvolání, stížnosti, podněty na OSPOD –
+  formálně legitimní kroky, které oběť vyčerpávají finančně i psychicky.
+- **Děti jako kanál.** Předávání dětí jako příležitost ke kontaktu, výslechu, zastrašování;
+  komunikace přes děti.
+- **Obrácení rolí.** Oběť, která omezuje kontakt kvůli bezpečí, je vylíčena jako rodič,
+  který „brání dětem ve vztahu s druhým rodičem“ (viz [DARVO](@/glossary/darvo.md)).
+- **Klidný a soudržný projev** pachatele proti rozrušené, unavené oběti.
+- **Diskreditace duševního zdraví** oběti – terapie, léky, diagnóza použité jako argument
+  proti její rodičovské způsobilosti.
+
+Zvláštní pozornost vyžaduje pojem **„syndromu zavrženého rodiče“** nebo [rodičovského
+odcizení](@/glossary/parental-alienation.md). Jde o koncept, jehož vědecká validita a
+diagnostický status jsou sporné. Je využíván v obou směrech: k popisu skutečné manipulace
+dítěte proti druhému rodiči i k odmítnutí oprávněných obav dítěte nebo rodiče, který
+upozorňuje na násilí. Forenzní odborník by s ním měl pracovat jen popisně, s uvedením
+jeho spornosti.
+
+## Klíčové principy
+
+- **Bezpečí před kontaktem.** Zájem dítěte na vztahu s oběma rodiči nepřeváží jeho bezpečí.
+- **Asymetrie moci se zkoumá.** Rozlišit vzájemný konflikt od jednostranné kontroly.
+- **Mediace není vhodná vždy.** V situaci kontroly může prohlubovat nerovnováhu.
+- **Dítě je subjekt.** Jeho hlas se slyší přiměřeně věku, bez zatížení odpovědností za
+  rozhodnutí (viz [Ochrana dětí](@/kompendium/forensic-legal/47-child-protection-EA.md)).
+- **Znalecká nestrannost.** Posudek popisuje chování a jeho dopad, nepřebírá nálepky stran.
 
 ## Procedurální postup
 
-DV-informed custody evaluator, no-contact provisions, supervised visitation, GAL with EA training. Predprocesni faze: review veskere dostupne dokumentace, identifikace
-gaps, planovani assessment sekvence. Hlavni faze: aplikace standardizovanych
-nastroju s contemporaneous documentation, kazdy krok casove razitkovany.
-Validizacni faze: cross-check napric zdroji, identifikace nesrovnalosti,
-diferencialni diagnostika. Reporting faze: synteza nalezu do struktury
-splnujici Daubert/Frye standardy, vcetne disclosure of methodology a error
-rates. Post-process: chain of custody dokumentace, secure storage, retention
-policy v souladu s jurisdikcnimi pozadavky.
+1. **Screening násilí a kontroly** u obou rodičů na začátku řízení – OSPOD, soud, advokáti.
+2. **Ochranná opatření** – předběžné opatření, úprava předávání dětí na neutrálním místě
+   nebo za asistence, oddělená jednání.
+3. **Dokumentace vzorce** – časová osa, komunikace, zprávy škol a lékařů (viz [Vzorcový
+   důkaz](@/kompendium/forensic-legal/38-pattern-evidence.md)).
+4. **Znalecké posouzení** – vyšetření obou rodičů stejnou metodou, vztah dítěte k nim,
+   posouzení dopadu kontroly na dítě; u odmítání kontaktu dítětem posouzení jeho důvodů
+   bez předpokladu, že jde o manipulaci jedním nebo druhým rodičem.
+5. **Slyšení dítěte** – vhodnou formou a osobou, se záznamem.
+6. **Rozhodnutí** s odůvodněním, které se vyjádří k tvrzením o kontrole a násilí.
+7. **Monitoring** dodržování rozhodnutí a jeho dopadu na dítě.
+
+## Markery a diferenciální úvahy
+
+Na pokračování kontroly přes řízení ukazuje:
+
+- velký počet podání bez nových skutečností;
+- komunikace s druhým rodičem, která místo dítěte řeší jeho chování;
+- využívání předávání dětí ke konfrontaci;
+- podněty na OSPOD a další instituce bez opory ve skutečnostech;
+- finanční tlak – neplacení výživného, spory o každou položku.
+
+Diferenciálně je třeba odlišit **vysoce konfliktní rozchod** s oboustrannou eskalací;
+**odmítání kontaktu dítětem** z vlastních důvodů (strach, loajalita, věk); **přiměřenou
+ochranu** dítěte rodičem, který má reálné obavy; a **skutečnou manipulaci dítěte** jedním
+z rodičů. Každá možnost vyžaduje doložení, ne předpoklad.
 
 ## Riziková místa
 
-- **Re-traumatizace** — proces sam muze zhorsit klinicky stav
-- **Kontaminace vypovedi** — nespravne provedeny rozhovor invalidizuje dukaz
-- **Boundary violations** — splynuti klinicky/forenzni role
-- **Discovery exposure** — klinicke poznamky se mohou stat soudnim dukazem
-- **Adversarial attack** — perpetrator strategie diskreditace znalce
-- **Jurisdiction issues** — nespravne pochopeni evidentiary standards
-- **Statute of limitations** — promlčeni klicovych naroku
+- **Nucená mediace** v situaci kontroly.
+- **Sdílená péče jako výchozí řešení** bez posouzení rizika.
+- **Nálepka odcizení** použitá k umlčení oprávněných obav.
+- **Diagnóza oběti jako argument** proti její rodičovské způsobilosti.
+- **Opakované výslechy dítěte** různými institucemi.
+- **Dlouhá řízení**, během nichž se kontrola prohlubuje.
+
+## Modelová situace (anonymizovaná)
+
+Otec navrhuje střídavou péči a tvrdí, že matka dítě „navádí“ proti němu. Matka uvádí, že
+otec během manželství kontroloval její komunikaci a finance a že dítě se po návratech od
+něj bojí. Soudem ustanovená znalkyně vyšetří oba rodiče stejnou metodou, dítě v neutrálním
+prostředí a vyžádá si zprávy školy. Zjistí, že dítě popisuje konkrétní situace, kdy otec
+při styku vyptával, s kým matka mluví, a že škola zaznamenala úzkost po víkendech. Znalkyně
+nepoužívá nálepku „odcizení“ ani „manipulace“, ale popisuje chování a jeho dopad. Soud
+upraví styk na asistovaný a předávání v neutrálním prostředí.
 
 ## Doporučení pro praxi
 
-1. Oddelit klinickou a forensni roli — jeden pripad, jeden hat
-2. Pred-procesni konzultace s pravnim zastupcem o discovery rizicich
-3. Standardizovane nastroje s peer-reviewed validity
-4. Multidisciplinary team pro complex pripady
-5. Continuous CE v forensic methodology a jurisdiction-specific law
-6. Supervize pro emocni regulation u dlouhodobych pripadu
-7. Disclosure agreement na vzajemne ocekavani s klientem/pravnikem
+### Pro dotčenou osobu
 
-## Cross-linky
+- Dokumentujte komunikaci a předávání dětí věcně; komunikujte písemně.
+- Pokud se bojíte, řekněte to soudu a OSPOD konkrétně – co se stalo, kdy.
+- Nezapojujte děti do sporu; chraňte je před informacemi o řízení.
 
-- [Coercive Control](@/glossary/coercive-control.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Trauma Bonding](@/glossary/trauma-bonding.md)
-- [Undue Influence](@/glossary/undue-influence.md)
-- [DARVO](@/glossary/darvo.md)
-- [Forensic Interview](@/glossary/forensic-interview.md)
-- [Expert Witness](@/glossary/expert-witness.md)
-- [Chain of Custody](@/glossary/chain-of-custody.md)
-- [Pattern Evidence](@/glossary/pattern-evidence.md)
-- [Kompendium - hlavni](@/kompendium/_index.md)
-- [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
-- [Emergency Protocols](@/kompendium/emergency-protocols/_index.md)
+### Pro soudce a OSPOD
 
+- Screenujte násilí a kontrolu na začátku řízení.
+- Zvažte, zda je mediace vhodná; nenuťte do ní oběť kontroly.
+- Hodnoťte opakovaná podání a podněty i jako možný vzorec.
 
-## Connect
+### Pro znalce a advokáty
 
-- [Prismatic Platform](@/_index.md) — komplexni EA detection & response
-- [Glossary](@/glossary/_index.md) — terminologicky slovnik
-- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — vzdelavaci modul
-- {{ <cross_link path="/investigate/" text="Investigation Hub" /> }} — vysetrovaci nastroje
+- Pracujte se spornými konstrukty popisně a s uvedením jejich omezení.
+- Vyšetřujte oba rodiče stejně a dítě s ohledem na jeho věk.
 
+## Limity a otevřené otázky
+
+Rodinná řízení stojí na předpokladu, že oba rodiče jsou rovnocennými partnery; v situaci
+kontroly tento předpoklad neplatí, ale procesní nástroje na to reagují pomalu. Spor o pojem
+rodičovského odcizení není uzavřen a v odborné i veřejné debatě je silně polarizován.
+Otevřenou otázkou je, jak omezit využívání řízení jako nástroje kontroly, aniž by se omezil
+přístup k soudu.
+
+## Související
+
+**V této sekci**
+
+- [Ochrana dětí](@/kompendium/forensic-legal/47-child-protection-EA.md) – sociálně-právní ochrana a slyšení dítěte.
+- [Právní úprava coercive control](@/kompendium/forensic-legal/12-coercive-control-law.md) – kontrola v partnerském vztahu.
+- [Znalec v kauzách EA](@/kompendium/forensic-legal/21-expert-witness-EA.md) – znalecké posouzení v opatrovnickém řízení.
+
+**Glosář**
+
+- [Parental alienation](@/glossary/parental-alienation.md) – sporný koncept a jeho použití.
+- [DARVO](@/glossary/darvo.md) – obrácení rolí v řízení.
+- [Coercive control](@/glossary/coercive-control.md) – vzorec kontroly.
+
+**Protokoly a případy**
+
+- [Domácí násilí (DV) protokol](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) – klinický postup.
+- [Rekonstrukční protokol pro děti](@/kompendium/recovery-protocols/recovery-children-protocol.md) – péče o dítě po rozchodu.
+- [Gaslighting partnerský](@/kompendium/case-studies/08-gaslighting-partnersky.md) – anonymizovaný případ.

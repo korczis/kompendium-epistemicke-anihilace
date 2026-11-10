@@ -1,90 +1,166 @@
 +++
-title = "Znalec EA"
-description = "Forenzni a pravni rozmer EA — znalec ea."
+title = "Znalec v kauzách EA"
+description = "Role, metodika a hranice znalce, který posuzuje epistemické zneužívání: jak formulovat odborně obhajitelné závěry a čelit oponentuře i tlaku stran."
 weight = 21
+
 [taxonomies]
 tags = ["kompendium", "forensic-legal", "court-testimony"]
 categories = ["academic", "legal", "clinical"]
+
 [extra]
-related_terms = ["2-credibility-assessment", "20-criminal-conspiracy-EA", "22-fact-witness-protection", "23-cross-examination-defense"]
+related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
 parent = "kompendium-forensic-legal"
 toc = true
 +++
 
-# Znalec EA
+# Znalec v kauzách EA
 
-## Pravni / forenzni kontext
+Kapitola otevírá [část o soudním svědectví](@/kompendium/forensic-legal/_index.md). Popisuje,
+jak má znalec – psycholog, psychiatr, případně odborník z jiného oboru – přistupovat ke
+kauzám epistemického zneužívání, které jsou metodicky obtížné a emočně vyhrocené. Je
+určena znalcům, soudcům, státním zástupcům a advokátům, kteří znalce přibírají nebo jejich
+posudky hodnotí.
 
-Znalec na EA musi splnit Daubert/Frye kriteria a obhajit metodologii proti motion in limine challenge. V kontextu epistemic abuse (EA) tato oblast propojuje klinickou
-psychologii s pravnimi standardy dokazovani, kde pattern coercive control
-musi byt prelozen do soudni-akceptovatelne formy. Standardni adversarialni
-proces neni navrzen pro dynamiku post-separation abuse ani pro postupne
-disclosure trauma — coz vyzaduje specializovany pristup. Forenzni odbornik
-zde slouzi jako most mezi klinickou realitou obeti a evidentiary standardy
-soudu, pricemz musi obhajit metodologii proti adversarial challenge.
+## Právní a forenzní kontext
 
-## Klicove principy
+V českém právu upravuje činnost znalců zákon č. 254/2019 Sb., o znalcích, znaleckých
+kancelářích a znaleckých ústavech. Znalecký posudek musí obsahovat zadání, seznam podkladů,
+popis použitých metod, nález, odůvodnění a závěr, a končí znaleckou doložkou, v níž znalec
+potvrzuje vědomí následků nepravdivého posudku. Podání nepravdivého znaleckého posudku je
+trestným činem (trestní zákoník, § 346). Posudek může zadat orgán veřejné moci nebo, za
+podmínek procesních předpisů, předložit strana. Soud posudek hodnotí jako každý jiný důkaz.
 
-- **Neutralita** — postup bez sugestivity, bez koucovani vypovedi
-- **Trauma-informed** — respektovani C-PTSD a disociativnich projevu
-- **Reproducibility** — metodologie verifikovatelna nezavislym znalcem
-- **Documentation** — kazdy krok forensne dokumentovany
-- **Boundaries** — jasna hranice klinik / forenzni / pravni role
+[Znalec](@/glossary/expert-witness.md) odpovídá na odborné otázky; o skutkovém stavu a
+o vině rozhoduje soud. V zemích common law se přípustnost znaleckého důkazu posuzuje podle
+testů spolehlivosti – v USA standard Frye (1923) a později Daubert (1993), rozšířený
+rozhodnutím Kumho Tire (1999), a pravidlo 702 federálních pravidel dokazování. Daubert se
+ptá mimo jiné na testovatelnost metody, recenzované publikace, známou míru chyb a obecné
+přijetí v oboru. Česká praxe tyto testy formálně nepřebírá, ale jejich otázky jsou dobrou
+kontrolou kvality.
+
+## Specifika epistemického zneužívání
+
+Kauzy EA kladou na znalce zvláštní nároky:
+
+- **Pojem není diagnózou.** „Epistemické zneužívání“, [coercive
+  control](@/glossary/coercive-control.md) nebo [gaslighting](@/glossary/gaslighting.md)
+  nejsou diagnózami v MKN ani DSM. Znalec musí oddělit popis vzorce jednání od diagnózy
+  následků.
+- **Dvě protichůdné verze reality.** Obě strany mohou tvrdit, že jsou oběťmi manipulace
+  druhé strany.
+- **Tlak stran.** Znalec bývá vnímán jako ten, kdo „rozhodne, kdo má pravdu“; strany se
+  ho snaží získat nebo zdiskreditovat.
+- **Riziko přenosu.** Práce s obětmi dlouhodobého zneužívání vyvolává u znalce silné
+  emoce; ochranářský postoj ohrožuje nestrannost.
+- **Riziko být sám zmanipulován.** Pachatel, který léta přesvědčoval okolí, může
+  přesvědčivě vystupovat i před znalcem.
+
+## Klíčové principy
+
+- **Nestrannost.** Znalec slouží soudu, ne straně, která ho přibrala nebo platí.
+- **Hranice odbornosti.** Odpovídat jen na otázky, které spadají do oboru; otázku „kdo
+  mluví pravdu“ přeformulovat nebo odmítnout.
+- **Transparentnost metody.** Popsat, co bylo použito, proč, s jakými omezeními.
+- **Alternativní hypotézy.** U každého závěru uvést, jaké jiné vysvětlení bylo zváženo.
+- **Oddělení rolí.** Ošetřující terapeut by neměl být znalcem ve věci svého klienta.
 
 ## Procedurální postup
 
-Metodologie peer-reviewed, error rate stated, general acceptance, Daubert hearing prep. Predprocesni faze: review veskere dostupne dokumentace, identifikace
-gaps, planovani assessment sekvence. Hlavni faze: aplikace standardizovanych
-nastroju s contemporaneous documentation, kazdy krok casove razitkovany.
-Validizacni faze: cross-check napric zdroji, identifikace nesrovnalosti,
-diferencialni diagnostika. Reporting faze: synteza nalezu do struktury
-splnujici Daubert/Frye standardy, vcetne disclosure of methodology a error
-rates. Post-process: chain of custody dokumentace, secure storage, retention
-policy v souladu s jurisdikcnimi pozadavky.
+1. **Přijetí zadání.** Posoudit, zda otázky spadají do odbornosti, zda nehrozí podjatost,
+   a případně požádat o jejich upřesnění.
+2. **Studium spisu.** Seznam všech podkladů; vědomá kontrola, aby si znalec předem
+   nevytvořil hotový závěr.
+3. **Vyšetření.** U obou stran, je-li to možné a relevantní; stejnou metodou, stejným
+   rozsahem. Rozhovory nahrávat (viz [Protokoly nahrávání](@/kompendium/forensic-legal/36-recording-protocols.md)).
+4. **Kolaterální informace.** Dokumentace, výpovědi třetích osob, listiny – s uvedením
+   jejich původu.
+5. **Analýza.** Integrace nálezů; testování alternativních hypotéz; posouzení validity
+   symptomů (viz [Detekce simulace](@/kompendium/forensic-legal/4-malingering-detection.md)).
+6. **Posudek.** Strukturovaný podle zákona, závěry odpovídající otázkám, meze výslovně
+   uvedené.
+7. **Výslech u soudu.** Příprava na oponenturu; schopnost vysvětlit metodu laicky.
+
+## Markery a diferenciální úvahy
+
+Znaky kvalitního posudku v kauze EA:
+
+- odděluje popis jednání, psychologický nález a diagnózu;
+- uvádí, které informace pocházejí od které strany;
+- pracuje s pojmy jako coercive control popisně a s odkazem na literaturu, ne jako
+  s diagnózou;
+- uvádí protichůdné nálezy a jejich zvážení.
+
+Varovné znaky:
+
+- závěr o vině nebo o pravdivosti výpovědi;
+- převzetí terminologie jedné strany do nálezu;
+- vyšetření jen jedné strany bez vysvětlení;
+- závěry, které jdou za hranice použitých metod.
 
 ## Riziková místa
 
-- **Re-traumatizace** — proces sam muze zhorsit klinicky stav
-- **Kontaminace vypovedi** — nespravne provedeny rozhovor invalidizuje dukaz
-- **Boundary violations** — splynuti klinicky/forenzni role
-- **Discovery exposure** — klinicke poznamky se mohou stat soudnim dukazem
-- **Adversarial attack** — perpetrator strategie diskreditace znalce
-- **Jurisdiction issues** — nespravne pochopeni evidentiary standards
-- **Statute of limitations** — promlčeni klicovych naroku
+- **Advokátní znalec.** Posudek objednaný stranou, který slouží jako argument, ne jako
+  odborné posouzení.
+- **Ultimátní otázka.** Odpověď na otázku, kterou má rozhodnout soud.
+- **Přenesení klinického rámce.** Klinická empatie a podpora jsou ve forenzní roli
+  nevhodné.
+- **Útoky na osobu znalce** – zpochybnění kvalifikace, podjatosti, soukromých názorů
+  (viz [Křížový výslech](@/kompendium/forensic-legal/23-cross-examination-defense.md)).
+- **Vyhoření a sekundární traumatizace** u znalců, kteří posuzují mnoho kauz EA.
+
+## Modelová situace (anonymizovaná)
+
+Soud v opatrovnickém sporu ustanoví znalkyni s otázkou, „který z rodičů manipuluje
+dítětem“. Znalkyně požádá o přeformulování: posoudí výchovné kompetence obou rodičů, vztah
+dítěte k nim a to, zda se v komunikaci některého z rodičů vyskytují vzorce, které mohou
+ohrožovat zdravý vývoj dítěte. Vyšetří oba rodiče stejnou metodou, dítě odděleně a
+s ohledem na věk, a vyžádá si zprávy školy. V posudku popisuje konkrétní pozorované
+interakce a výroky, uvádí dvě alternativní vysvětlení a meze svého závěru. Pojmy jako
+„odcizení“ používá s výhradou, že jde o sporné konstrukty.
 
 ## Doporučení pro praxi
 
-1. Oddelit klinickou a forensni roli — jeden pripad, jeden hat
-2. Pred-procesni konzultace s pravnim zastupcem o discovery rizicich
-3. Standardizovane nastroje s peer-reviewed validity
-4. Multidisciplinary team pro complex pripady
-5. Continuous CE v forensic methodology a jurisdiction-specific law
-6. Supervize pro emocni regulation u dlouhodobych pripadu
-7. Disclosure agreement na vzajemne ocekavani s klientem/pravnikem
+### Pro dotčenou osobu
 
-## Cross-linky
+- Znalec není váš terapeut ani advokát. Je nestranný a jeho úkolem je posoudit, ne pomoci.
+- Máte právo vědět, k čemu vyšetření slouží a kdo dostane posudek.
 
-- [Coercive Control](@/glossary/coercive-control.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Trauma Bonding](@/glossary/trauma-bonding.md)
-- [Undue Influence](@/glossary/undue-influence.md)
-- [DARVO](@/glossary/darvo.md)
-- [Forensic Interview](@/glossary/forensic-interview.md)
-- [Expert Witness](@/glossary/expert-witness.md)
-- [Chain of Custody](@/glossary/chain-of-custody.md)
-- [Pattern Evidence](@/glossary/pattern-evidence.md)
-- [Kompendium - hlavni](@/kompendium/_index.md)
-- [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
-- [Emergency Protocols](@/kompendium/emergency-protocols/_index.md)
+### Pro znalce
 
+- Před přijetím zadání posuďte vlastní odbornost a nestrannost.
+- Používejte metody, jejichž spolehlivost dokážete obhájit, a uveďte jejich omezení.
+- Pečujte o vlastní psychohygienu a supervizi.
 
-## Connect
+### Pro soudy a advokáty
 
-- [Prismatic Platform](@/_index.md) — komplexni EA detection & response
-- [Glossary](@/glossary/_index.md) — terminologicky slovnik
-- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — vzdelavaci modul
-- {{ <cross_link path="/investigate/" text="Investigation Hub" /> }} — vysetrovaci nastroje
+- Formulujte otázky odborně zodpověditelně; neptejte se znalce na vinu.
+- Hodnoťte posudek podle metody, ne podle toho, zda podporuje vaši stranu.
 
+## Limity a otevřené otázky
+
+Pro epistemické zneužívání neexistuje validovaná diagnostická kategorie ani standardizovaný
+forenzní nástroj; znalci se opírají o kombinaci obecných metod a literatury. To činí posudky
+zranitelnými vůči námitce, že posuzují „módní pojem“. Otevřenou otázkou je, zda a jak by měl
+obor vytvořit konsenzuální standard pro posuzování vzorců kontroly, aniž by vznikla nová
+diagnostická nálepka s rizikem nadužívání (viz [framework
+overreach](@/kompendium/critical-perspectives/3-framework-overreach.md)).
+
+## Související
+
+**V této sekci**
+
+- [Forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md) – podklad, na němž posudek stojí.
+- [Posuzování věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md) – nejcitlivější znalecká otázka.
+- [Křížový výslech](@/kompendium/forensic-legal/23-cross-examination-defense.md) – oponentura znalce u soudu.
+- [Vzdělávání soudců](@/kompendium/forensic-legal/29-judicial-education.md) – jak soud znalecký důkaz hodnotí.
+
+**Glosář**
+
+- [Znalec](@/glossary/expert-witness.md) – role a povinnosti.
+- [Evidence-based](@/glossary/evidence-based.md) – nároky na doložitelnost metody.
+
+**Jurisdikce a kritika**
+
+- [USA – EA právní rámec](@/kompendium/international/25-us-law-EA/index.md) – standardy Frye a Daubert.
+- [Framework overreach](@/kompendium/critical-perspectives/3-framework-overreach.md) – když EA vysvětluje všechno.
+- [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md) – cena chybného závěru.

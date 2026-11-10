@@ -1,90 +1,157 @@
 +++
-title = "Uchovani dukazu"
-description = "Forenzni a pravni rozmer EA — uchovani dukazu."
+title = "Uchování důkazů"
+description = "Jak bezpečně zajistit a uchovat stopy epistemického zneužívání – zprávy, záznamy, finanční doklady, deníky – dřív, než zmizí, a bez rizika pro dotčenou osobu."
 weight = 32
+
 [taxonomies]
 tags = ["kompendium", "forensic-legal", "documentation-standards"]
 categories = ["academic", "legal", "clinical"]
+
 [extra]
-related_terms = ["30-jury-instruction-EA", "31-clinical-documentation-EA", "33-timeline-reconstruction", "34-chain-evidence-narrative"]
+related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
 parent = "kompendium-forensic-legal"
 toc = true
 +++
 
-# Uchovani dukazu
+# Uchování důkazů
 
-## Pravni / forenzni kontext
+Kapitola z [části o standardech dokumentace](@/kompendium/forensic-legal/_index.md)
+se zabývá praktickým zajištěním a dlouhodobým uchováním materiálů, které mohou doložit
+epistemické zneužívání. Je určena především obětem a jejich podpůrcům, ale také advokátům,
+sociálním pracovníkům a policii. Navazuje na kapitolu [Chain of
+custody](@/kompendium/forensic-legal/7-evidence-chain-of-custody.md), která řeší integritu
+důkazu po zajištění.
 
-Digitalni dukazy EA (zpravy, nahravky, social media) maji volatile nature a vyzaduji okamzitou forensic preservation. V kontextu epistemic abuse (EA) tato oblast propojuje klinickou
-psychologii s pravnimi standardy dokazovani, kde pattern coercive control
-musi byt prelozen do soudni-akceptovatelne formy. Standardni adversarialni
-proces neni navrzen pro dynamiku post-separation abuse ani pro postupne
-disclosure trauma — coz vyzaduje specializovany pristup. Forenzni odbornik
-zde slouzi jako most mezi klinickou realitou obeti a evidentiary standardy
-soudu, pricemz musi obhajit metodologii proti adversarial challenge.
+## Právní a forenzní kontext
 
-## Klicove principy
+V trestním řízení zajišťují důkazy orgány činné v trestním řízení; v civilním a rodinném
+řízení je důkazní břemeno převážně na stranách, které musí své tvrzení doložit. V praxi tak
+oběť často sama shromažďuje zprávy, e-maily, fotografie, bankovní výpisy, zdravotní
+záznamy a deníky. Soud hodnotí důkazy volně, ale jejich váha závisí na tom, zda je zřejmý
+jejich původ a neporušenost. Získávání důkazů musí být zákonné: neoprávněný přístup do
+cizího účtu nebo zařízení může být trestný a důkaz znehodnotit. Ochranu osobních údajů
+třetích osob, které se v materiálech vyskytují, upravuje nařízení (EU) 2016/679.
 
-- **Neutralita** — postup bez sugestivity, bez koucovani vypovedi
-- **Trauma-informed** — respektovani C-PTSD a disociativnich projevu
-- **Reproducibility** — metodologie verifikovatelna nezavislym znalcem
-- **Documentation** — kazdy krok forensne dokumentovany
-- **Boundaries** — jasna hranice klinik / forenzni / pravni role
+## Specifika epistemického zneužívání
+
+Stopy EA jsou rozptýlené a křehké:
+
+- **Jsou v každodenní komunikaci** – tisíce zpráv, v nichž jednotlivě nic nevypadá
+  závažně, ale dohromady ukazují vzorec.
+- **Mizí** – automatické mazání, smazání pachatelem, výměna telefonu, zrušení účtu,
+  vypršení záloh.
+- **Jsou pod kontrolou pachatele** – sdílené účty, rodinné cloudy, znalost hesel.
+- **Oběť je sama zpochybňuje.** Po letech [gaslightingu](@/glossary/gaslighting.md) oběť
+  může mít sklon důkazy mazat, protože je „stejně nikdo nevezme vážně“, nebo protože ji
+  bolí.
+- **Hodnota deníků.** Vlastní záznamy oběti z doby událostí jsou pro její paměť i pro
+  řízení cenné – a zároveň zranitelné, pokud je najde pachatel.
+
+## Klíčové principy
+
+- **Bezpečnost před sběrem.** Pokud by sběr důkazů zvýšil riziko násilí, má přednost
+  bezpečnostní plán.
+- **Zákonnost.** Zajišťuje se jen to, k čemu má osoba oprávněný přístup.
+- **Úplnost a kontext.** Celé konverzace, ne jen vybrané zprávy; s daty a identitou
+  odesílatele.
+- **Více kopií na více místech**, z nichž aspoň jedno je mimo dosah pachatele.
+- **Minimum úprav.** Originál beze změn, práce na kopii.
 
 ## Procedurální postup
 
-Forensic image, hash verification, metadata preservation, witness chain, redundant offsite backup. Predprocesni faze: review veskere dostupne dokumentace, identifikace
-gaps, planovani assessment sekvence. Hlavni faze: aplikace standardizovanych
-nastroju s contemporaneous documentation, kazdy krok casove razitkovany.
-Validizacni faze: cross-check napric zdroji, identifikace nesrovnalosti,
-diferencialni diagnostika. Reporting faze: synteza nalezu do struktury
-splnujici Daubert/Frye standardy, vcetne disclosure of methodology a error
-rates. Post-process: chain of custody dokumentace, secure storage, retention
-policy v souladu s jurisdikcnimi pozadavky.
+1. **Inventura.** Sepsat, jaké materiály existují: zprávy (které aplikace), e-maily, hlasové
+   zprávy, fotografie, dokumenty, bankovní výpisy, záznamy z lékařských a jiných návštěv,
+   svědci, deníky.
+2. **Priorita podle rizika zániku.** Nejdřív to, co může zmizet: automaticky mazané
+   konverzace, materiály na sdílených zařízeních, záznamy u třetích stran s omezenou dobou
+   uchování (například kamerové záznamy).
+3. **Export s metadaty.** U zpráv a e-mailů použít funkce exportu, které zachovávají data,
+   časy a účastníky; snímky obrazovky jako doplněk, ne jako jediný zdroj.
+4. **Bezpečné úložiště.** Šifrované úložiště nebo zařízení, k nimž pachatel nemá přístup;
+   kopie u důvěryhodné osoby nebo u advokáta.
+5. **Záznam o zajištění.** Jednoduchý seznam: co, kdy, odkud, kam bylo uloženo.
+6. **Deník.** Pokračovat v záznamech o událostech s datem, stručně a věcně; uchovávat mimo
+   dosah pachatele (viz [osobní archiv paměti](@/kompendium/self-defense-guides/43-memory-archive.md)).
+7. **Předání.** Při předání advokátovi nebo policii sepsat předávací záznam.
+
+## Markery a diferenciální úvahy
+
+Při hodnocení zajištěných materiálů je užitečné rozlišovat:
+
+- **Primární materiály** – původní zprávy, e-maily, dokumenty – s nejvyšší váhou.
+- **Sekundární materiály** – snímky obrazovky, přepisy, výtahy – s nižší váhou, pokud
+  chybí originál.
+- **Vlastní záznamy oběti** – deníky, poznámky – jejichž hodnota závisí na tom, zda vznikaly
+  průběžně.
+- **Svědectví třetích osob** – jejichž hodnota závisí na nezávislosti (viz [Potvrzení
+  třetími osobami](@/kompendium/forensic-legal/37-third-party-corroboration.md)).
+
+Je třeba odlišit materiály, které dokládají vzorec, od materiálů, které jen vyjadřují
+emoce oběti. Obojí má místo, ale v řízení má větší váhu první skupina.
 
 ## Riziková místa
 
-- **Re-traumatizace** — proces sam muze zhorsit klinicky stav
-- **Kontaminace vypovedi** — nespravne provedeny rozhovor invalidizuje dukaz
-- **Boundary violations** — splynuti klinicky/forenzni role
-- **Discovery exposure** — klinicke poznamky se mohou stat soudnim dukazem
-- **Adversarial attack** — perpetrator strategie diskreditace znalce
-- **Jurisdiction issues** — nespravne pochopeni evidentiary standards
-- **Statute of limitations** — promlčeni klicovych naroku
+- **Odhalení sběru pachatelem**, které vede k eskalaci.
+- **Sdílené cloudy a synchronizace** – smazání na jednom zařízení maže všude; přístup
+  pachatele k zálohám.
+- **Neoprávněné získání** – vstup do cizího účtu, instalace sledovacích aplikací. Je
+  protiprávní a důkaz znehodnotí.
+- **Úpravy originálu** – zvýraznění, oříznutí, přeposílání.
+- **Ztráta při stěhování nebo odchodu** – oběť odchází narychlo a zařízení zůstane u pachatele.
+
+## Modelová situace (anonymizovaná)
+
+Žena plánuje odchod od partnera, který kontroluje její telefon i e-mail. S pracovnicí
+podpůrné organizace nejprve připraví bezpečnostní plán. Teprve poté si na počítači
+v knihovně založí nový e-mailový účet, o kterém partner neví, a postupně do něj exportuje
+konverzace, v nichž partner popírá dříve dohodnuté věci. Deník, který si vedla v sešitě,
+předá sestře. Po odchodu s advokátkou sepíše seznam materiálů a změní hesla ke všem účtům.
+Když partner v řízení tvrdí, že zprávy jsou vytržené z kontextu, advokátka předloží
+úplné exporty s metadaty.
 
 ## Doporučení pro praxi
 
-1. Oddelit klinickou a forensni roli — jeden pripad, jeden hat
-2. Pred-procesni konzultace s pravnim zastupcem o discovery rizicich
-3. Standardizovane nastroje s peer-reviewed validity
-4. Multidisciplinary team pro complex pripady
-5. Continuous CE v forensic methodology a jurisdiction-specific law
-6. Supervize pro emocni regulation u dlouhodobych pripadu
-7. Disclosure agreement na vzajemne ocekavani s klientem/pravnikem
+### Pro dotčenou osobu
 
-## Cross-linky
+- Bezpečnost je na prvním místě. Pokud byste sběrem riskovali, poraďte se nejprve s
+  podpůrnou organizací.
+- Nemazejte nic, i když vás to bolí. Archivujte to tam, kam se nemusíte dívat.
+- Zálohujte na místo, ke kterému druhá osoba nemá přístup.
+- Nevstupujte do cizích účtů a zařízení.
 
-- [Coercive Control](@/glossary/coercive-control.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Trauma Bonding](@/glossary/trauma-bonding.md)
-- [Undue Influence](@/glossary/undue-influence.md)
-- [DARVO](@/glossary/darvo.md)
-- [Forensic Interview](@/glossary/forensic-interview.md)
-- [Expert Witness](@/glossary/expert-witness.md)
-- [Chain of Custody](@/glossary/chain-of-custody.md)
-- [Pattern Evidence](@/glossary/pattern-evidence.md)
-- [Kompendium - hlavni](@/kompendium/_index.md)
-- [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
-- [Emergency Protocols](@/kompendium/emergency-protocols/_index.md)
+### Pro podpůrné organizace a advokáty
 
+- Pomáhejte s bezpečným postupem a se seznamem materiálů.
+- Zajistěte rychlou fixaci materiálů, které mohou zaniknout, včetně žádostí třetím stranám.
 
-## Connect
+### Pro policii
 
-- [Prismatic Platform](@/_index.md) — komplexni EA detection & response
-- [Glossary](@/glossary/_index.md) — terminologicky slovnik
-- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — vzdelavaci modul
-- {{ <cross_link path="/investigate/" text="Investigation Hub" /> }} — vysetrovaci nastroje
+- Při oznámení EA se ptejte na digitální stopy a zajistěte je včas.
 
+## Limity a otevřené otázky
+
+I dokonale uchované důkazy zachycují jen část vzorce – co bylo řečeno ústně, se většinou
+nedochová. Otevřenou otázkou je hodnota vlastních nahrávek oběti, jejichž přípustnost se
+posuzuje podle okolností (viz [Protokoly nahrávání](@/kompendium/forensic-legal/36-recording-protocols.md)).
+Rostoucí objem dat zároveň ztěžuje jejich analýzu; vznikají nástroje pro automatizované
+třídění, jejichž spolehlivost a nestrannost je teprve třeba ověřit.
+
+## Související
+
+**V této sekci**
+
+- [Chain of custody](@/kompendium/forensic-legal/7-evidence-chain-of-custody.md) – integrita po zajištění.
+- [Elektronické důkazy](@/kompendium/forensic-legal/35-electronic-evidence-EA.md) – technické aspekty digitálních stop.
+- [Rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md) – co s uchovanými materiály dál.
+
+**Sebeobrana a protokoly**
+
+- [Osobní archiv paměti](@/kompendium/self-defense-guides/43-memory-archive.md) – deník a záznamy jako opora paměti.
+- [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md) – bezpečnost před sběrem.
+- [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) – jak posoudit vlastní materiály.
+
+**Glosář a organizace**
+
+- [Chain of custody](@/glossary/chain-of-custody.md) – pojem řetězu úschovy.
+- [Gaslighting](@/glossary/gaslighting.md) – proč oběti důkazy mažou.
+- [Standardy dokumentace](@/kompendium/organizational-defense/24-documentation-standards.md) – uchování v organizacích.

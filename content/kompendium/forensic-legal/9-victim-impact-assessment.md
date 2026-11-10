@@ -1,90 +1,159 @@
 +++
-title = "Posouzeni dopadu"
-description = "Forenzni a pravni rozmer EA — posouzeni dopadu."
+title = "Posouzení dopadu"
+description = "Jak znalecky zhodnotit psychickou a epistemickou újmu způsobenou dlouhodobým zneužíváním, aby byla srozumitelná soudu a zároveň metodicky obhajitelná."
 weight = 9
+
 [taxonomies]
 tags = ["kompendium", "forensic-legal", "forensic-assessment"]
 categories = ["academic", "legal", "clinical"]
+
 [extra]
-related_terms = ["7-evidence-chain-of-custody", "8-witness-prep-EA", "6-trauma-disclosure"]
+related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
 parent = "kompendium-forensic-legal"
 toc = true
 +++
 
-# Posouzeni dopadu
+# Posouzení dopadu
 
-## Pravni / forenzni kontext
+Kapitola z [části o forenzním posouzení](@/kompendium/forensic-legal/_index.md) popisuje
+znalecké hodnocení následků epistemického zneužívání na život poškozené osoby. Slouží
+k určení závažnosti činu, k výši náhrady nemajetkové újmy, k plánování léčby i k rozhodnutí
+o ochranných opatřeních. Je určena znalcům, zmocněncům poškozených a soudům.
 
-Komplexni assessment dopadu EA hodnoti C-PTSD, kognitivni deficity, vztahove naruseni, pracovni a financni skody. V kontextu epistemic abuse (EA) tato oblast propojuje klinickou
-psychologii s pravnimi standardy dokazovani, kde pattern coercive control
-musi byt prelozen do soudni-akceptovatelne formy. Standardni adversarialni
-proces neni navrzen pro dynamiku post-separation abuse ani pro postupne
-disclosure trauma — coz vyzaduje specializovany pristup. Forenzni odbornik
-zde slouzi jako most mezi klinickou realitou obeti a evidentiary standardy
-soudu, pricemz musi obhajit metodologii proti adversarial challenge.
+## Právní a forenzní kontext
 
-## Klicove principy
+Posouzení dopadu odpovídá na otázku, jaká újma vznikla, jak je závažná a zda je v příčinné
+souvislosti s posuzovaným jednáním. V trestním řízení ovlivňuje právní kvalifikaci (například
+zda vznikla těžká újma na zdraví ve formě duševní poruchy) i rozhodnutí o nároku poškozeného.
+V civilním řízení je podkladem pro náhradu nemajetkové újmy podle občanského zákoníku
+(zákon č. 89/2012 Sb.), kde se odčiňují i zásahy do duševní integrity. Je třeba odlišit
+**znalecké posouzení dopadu** od **prohlášení oběti o dopadu**, které je jejím vlastním
+hlasem (viz [Prohlášení o dopadu](@/kompendium/forensic-legal/26-impact-statement.md)).
 
-- **Neutralita** — postup bez sugestivity, bez koucovani vypovedi
-- **Trauma-informed** — respektovani C-PTSD a disociativnich projevu
-- **Reproducibility** — metodologie verifikovatelna nezavislym znalcem
-- **Documentation** — kazdy krok forensne dokumentovany
-- **Boundaries** — jasna hranice klinik / forenzni / pravni role
+## Specifika epistemického zneužívání
+
+Běžné posouzení újmy se soustředí na diagnózy (posttraumatická stresová porucha, deprese,
+úzkostné poruchy) a na funkční omezení (práce, vztahy). U epistemického zneužívání je část
+újmy jinde a stávajícími kategoriemi se zachycuje špatně:
+
+- **Ztráta důvěry ve vlastní úsudek.** Osoba se bojí rozhodovat, opakovaně si ověřuje
+  běžná fakta, potřebuje potvrzení od druhých.
+- **Narušení [narativní identity](@/glossary/narativni-identita.md).** Neschopnost
+  vyprávět vlastní život jako souvislý příběh; roky vztahu nebo členství ve skupině
+  působí jako „cizí“.
+- **Ztráta sociální sítě.** Izolace, která byla součástí kontroly, přetrvává i po jejím
+  skončení (viz [sociální izolace](@/glossary/socialni-izolace.md)).
+- **Epistemická závislost.** Přenesení autority na nového „vůdce“ – partnera, terapeuta,
+  skupinu.
+- **Ztráta příležitostí.** Přerušené vzdělání, kariéra, finanční nezávislost.
+
+Komplexní posttraumatická stresová porucha podle MKN-11 (viz [ICD-11 Complex
+Trauma](@/kompendium/techniques/ea-8-2-6-icd-11-complex-trauma.md)) část těchto jevů
+pokrývá – zejména poruchy sebepojetí a vztahů –, epistemickou rovinu ale nepojmenovává.
+
+## Klíčové principy
+
+- **Výchozí stav.** Újmu lze posoudit jen ve srovnání s tím, jak osoba fungovala před
+  zneužíváním; je třeba ho doložit, nikoli předpokládat.
+- **Příčinná souvislost.** Zvážit jiné zdroje zátěže (dřívější trauma, nemoc, ztráty)
+  a jejich podíl.
+- **Popis i diagnóza.** Diagnóza bez funkčního popisu soudu nic neřekne; popis bez
+  diagnózy je zranitelný v oponentuře.
+- **Prognóza s nejistotou.** Odhad průběhu se opírá o léčbu, podporu a bezpečí – a mění se.
+- **Respekt k osobě.** Posouzení samo je zátěží; rozsah vyšetření má odpovídat otázce.
 
 ## Procedurální postup
 
-PCL-5 + ITQ + WHODAS 2.0 + financni audit + pracovni dokumentace + relacni mapping. Predprocesni faze: review veskere dostupne dokumentace, identifikace
-gaps, planovani assessment sekvence. Hlavni faze: aplikace standardizovanych
-nastroju s contemporaneous documentation, kazdy krok casove razitkovany.
-Validizacni faze: cross-check napric zdroji, identifikace nesrovnalosti,
-diferencialni diagnostika. Reporting faze: synteza nalezu do struktury
-splnujici Daubert/Frye standardy, vcetne disclosure of methodology a error
-rates. Post-process: chain of custody dokumentace, secure storage, retention
-policy v souladu s jurisdikcnimi pozadavky.
+1. **Zadání.** Ujasnit, jakou újmu má posudek hodnotit (zdravotní, funkční, sociální) a
+   k jakému právnímu účelu.
+2. **Anamnéza a výchozí stav.** Školní, pracovní a zdravotní záznamy z doby před
+   zneužíváním; výpovědi blízkých (viz [Collateral interview
+   protokol](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md)).
+3. **Klinické vyšetření.** Strukturovaný rozhovor, standardizované škály pro traumatické
+   symptomy, disociaci, depresi; specifické nástroje pro coercive control a epistemickou
+   důvěru (viz [Epistemic Trust Scale](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md)).
+4. **Funkční hodnocení.** Práce, péče o sebe a druhé, rozhodování, sociální vztahy, finance.
+5. **Validita.** Zhodnocení validity symptomů s ohledem na rizika popsaná v kapitole
+   [Detekce simulace](@/kompendium/forensic-legal/4-malingering-detection.md).
+6. **Kauzalita a prognóza.** Vyjádření k podílu posuzovaného jednání na újmě a k
+   pravděpodobnému vývoji, včetně potřebné léčby.
+
+## Markery a diferenciální úvahy
+
+Pro epistemickou újmu svědčí:
+
+- výrazný rozdíl v rozhodovací samostatnosti před a po vztahu nebo členství;
+- přetrvávající nejistota v běžných úsudcích bez kognitivního deficitu v testech;
+- vyhýbání se situacím, kde by osoba musela hájit svůj názor;
+- obtíže s vytvořením souvislé autobiografické časové osy.
+
+Diferenciálně je třeba zvážit dřívější traumatizaci (a její podíl), poruchy osobnosti,
+neurokognitivní poruchy, depresi s kognitivními projevy a vliv současného stresu
+z řízení samotného. Řízení může symptomy dočasně zhoršovat – posudek by to měl pojmenovat.
 
 ## Riziková místa
 
-- **Re-traumatizace** — proces sam muze zhorsit klinicky stav
-- **Kontaminace vypovedi** — nespravne provedeny rozhovor invalidizuje dukaz
-- **Boundary violations** — splynuti klinicky/forenzni role
-- **Discovery exposure** — klinicke poznamky se mohou stat soudnim dukazem
-- **Adversarial attack** — perpetrator strategie diskreditace znalce
-- **Jurisdiction issues** — nespravne pochopeni evidentiary standards
-- **Statute of limitations** — promlčeni klicovych naroku
+- **Redukce na diagnózu.** „Splňuje kritéria PTSD“ nevypovídá o tom, co osoba ztratila.
+- **Přecenění.** Přisouzení veškerých obtíží posuzovanému jednání bez zvážení jiných
+  příčin – oponentura to snadno odhalí.
+- **Podcenění u disimulujících obětí.** Osoba, která své obtíže zlehčuje, může
+  v posouzení „vyjít“ jako málo poškozená.
+- **Retraumatizace** opakovaným vyšetřováním různými znalci.
+- **Patologizace odporu.** Nedůvěra k institucím po zneužívání není paranoia.
+
+## Modelová situace (anonymizovaná)
+
+Muž po patnácti letech v uzavřené skupině, kde vedoucí rozhodoval o jeho práci, financích
+a vztazích, žádá náhradu újmy. Testy kognitivních funkcí jsou v normě, depresivní
+symptomatika je mírná. Znalkyně se tím nespokojí: z rozhovoru s bratrem a ze školních
+záznamů doloží, že před vstupem byl samostatný student s řadou zájmů. Současný stav popíše
+funkčně – neschopnost zvolit si obor rekvalifikace bez opakovaného ujišťování, ztrátu
+všech kontaktů mimo skupinu, obtíže s plánováním peněz. Diagnosticky uvede komplexní
+posttraumatickou stresovou poruchu a výslovně pojmenuje epistemickou složku újmy, kterou
+diagnóza plně nezachycuje.
 
 ## Doporučení pro praxi
 
-1. Oddelit klinickou a forensni roli — jeden pripad, jeden hat
-2. Pred-procesni konzultace s pravnim zastupcem o discovery rizicich
-3. Standardizovane nastroje s peer-reviewed validity
-4. Multidisciplinary team pro complex pripady
-5. Continuous CE v forensic methodology a jurisdiction-specific law
-6. Supervize pro emocni regulation u dlouhodobych pripadu
-7. Disclosure agreement na vzajemne ocekavani s klientem/pravnikem
+### Pro dotčenou osobu
 
-## Cross-linky
+- Doklady o tom, jak jste žili dřív – vysvědčení, pracovní hodnocení, fotografie, kontakty –
+  mohou být pro posouzení cenné.
+- Vyšetření je náročné; máte právo vědět, k čemu slouží a co bude obsahovat.
 
-- [Coercive Control](@/glossary/coercive-control.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Trauma Bonding](@/glossary/trauma-bonding.md)
-- [Undue Influence](@/glossary/undue-influence.md)
-- [DARVO](@/glossary/darvo.md)
-- [Forensic Interview](@/glossary/forensic-interview.md)
-- [Expert Witness](@/glossary/expert-witness.md)
-- [Chain of Custody](@/glossary/chain-of-custody.md)
-- [Pattern Evidence](@/glossary/pattern-evidence.md)
-- [Kompendium - hlavni](@/kompendium/_index.md)
-- [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
-- [Emergency Protocols](@/kompendium/emergency-protocols/_index.md)
+### Pro znalce
 
+- Popisujte újmu funkčně a konkrétně, nejen diagnosticky.
+- Pojmenujte epistemickou rovinu újmy a uveďte, o jaké nástroje a pozorování se opíráte.
+- Uveďte nejistoty kauzality a prognózy.
 
-## Connect
+### Pro právníka
 
-- [Prismatic Platform](@/_index.md) — komplexni EA detection & response
-- [Glossary](@/glossary/_index.md) — terminologicky slovnik
-- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — vzdelavaci modul
-- {{ <cross_link path="/investigate/" text="Investigation Hub" /> }} — vysetrovaci nastroje
+- Shromažďujte dokumentaci výchozího stavu včas.
+- Koordinujte znalecká zkoumání tak, aby se nemusela opakovat.
 
+## Limity a otevřené otázky
+
+Pro epistemickou újmu neexistují validované měřicí nástroje s normami; znalci se opírají
+o kombinaci příbuzných škál a klinického úsudku. Otevřená je i otázka, jak vyčíslit
+„ztracená léta“ – období, kdy osoba žila podle cizí interpretace reality. Právo k tomu
+nemá zavedený pojem a soudy se řídí obecnými kritérii nemajetkové újmy.
+
+## Související
+
+**V této sekci**
+
+- [Prohlášení o dopadu](@/kompendium/forensic-legal/26-impact-statement.md) – hlas oběti vedle znaleckého posudku.
+- [Detekce simulace](@/kompendium/forensic-legal/4-malingering-detection.md) – validita symptomů.
+- [Forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md) – jak nálezy zaznamenat.
+
+**Glosář**
+
+- [C-PTSD](@/glossary/c-ptsd.md) – diagnostický rámec nejbližší újmě z EA.
+- [Epistemické trauma](@/glossary/epistemicke-trauma.md) – pojem pro epistemickou rovinu újmy.
+- [Narativní identita](@/glossary/narativni-identita.md) – co dlouhodobé zneužívání rozkládá.
+
+**Klinika a zotavení**
+
+- [Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) – klinický podklad posouzení.
+- [Středně-dobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md) – na co prognóza navazuje.
+- [Herman Recovery Stages](@/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md) – rámec pro odhad průběhu zotavení.

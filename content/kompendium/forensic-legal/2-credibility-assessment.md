@@ -1,90 +1,176 @@
 +++
-title = "Posuzovani veryhodnosti"
-description = "Forenzni a pravni rozmer EA — posuzovani veryhodnosti."
+title = "Posuzování věrohodnosti"
+description = "Co může forenzní odborník říci o věrohodnosti výpovědi oběti EA, jaké metody k tomu slouží a kde končí jejich spolehlivost."
 weight = 2
+
 [taxonomies]
 tags = ["kompendium", "forensic-legal", "forensic-assessment"]
 categories = ["academic", "legal", "clinical"]
+
 [extra]
-related_terms = ["18-medical-malpractice-EA", "19-professional-misconduct-EA", "20-criminal-conspiracy-EA", "21-expert-witness-EA"]
+related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
 parent = "kompendium-forensic-legal"
 toc = true
 +++
 
-# Posuzovani veryhodnosti
+# Posuzování věrohodnosti
 
-## Pravni / forenzni kontext
+Kapitola patří do [části o forenzním posouzení](@/kompendium/forensic-legal/_index.md).
+Vysvětluje, jak se v řízení hodnotí věrohodnost výpovědi osoby, která tvrdí, že byla
+vystavena epistemickému zneužívání, a proč je to v těchto kauzách zvlášť náchylné k omylu.
+Je určena znalcům z oboru psychologie, státním zástupcům, soudcům a advokátům obou stran.
 
-Posuzovani veryhodnosti svedectvi o EA pouziva CBCA, SVA a Reality Monitoring kriteria adaptovana na trauma kontext. V kontextu epistemic abuse (EA) tato oblast propojuje klinickou
-psychologii s pravnimi standardy dokazovani, kde pattern coercive control
-musi byt prelozen do soudni-akceptovatelne formy. Standardni adversarialni
-proces neni navrzen pro dynamiku post-separation abuse ani pro postupne
-disclosure trauma — coz vyzaduje specializovany pristup. Forenzni odbornik
-zde slouzi jako most mezi klinickou realitou obeti a evidentiary standardy
-soudu, pricemz musi obhajit metodologii proti adversarial challenge.
+## Právní a forenzní kontext
 
-## Klicove principy
+Je třeba rozlišit dvě věci, které se v praxi často zaměňují. **Věrohodnost osoby** (obecná
+důvěryhodnost svědka) je otázkou hodnocení důkazů a patří soudu. **Věrohodnost výpovědi**
+(zda konkrétní výpověď vykazuje znaky prožitého, nebo spíše vykonstruovaného obsahu) může být
+předmětem znaleckého zkoumání, ale znalec nerozhoduje o tom, co se skutečně stalo. Znalecký
+posudek podle zákona č. 254/2019 Sb., o znalcích, má odpovídat na odborné otázky, nikoli na
+otázku viny. V zahraniční literatuře je nejznámější metodou *Statement Validity Assessment*
+(SVA) s jádrem v kriteriální analýze obsahu (CBCA; Steller a Köhnken 1989). Přehled možností
+a mezí detekce klamu podává Vrij (2008).
 
-- **Neutralita** — postup bez sugestivity, bez koucovani vypovedi
-- **Trauma-informed** — respektovani C-PTSD a disociativnich projevu
-- **Reproducibility** — metodologie verifikovatelna nezavislym znalcem
-- **Documentation** — kazdy krok forensne dokumentovany
-- **Boundaries** — jasna hranice klinik / forenzni / pravni role
+## Specifika epistemického zneužívání
+
+Hodnocení věrohodnosti vychází z předpokladu, že pravdivá výpověď o prožité události má
+určité vlastnosti: je bohatá na detaily, logicky soudržná, obsahuje nečekané komplikace,
+spontánní opravy a zmínky o vlastních duševních stavech. U obětí EA jsou tyto vlastnosti
+systematicky oslabeny:
+
+- **Snížená sebedůvěra ve výpověď.** Osoba po [gaslightingu](@/glossary/gaslighting.md) se
+  často opravuje, zpochybňuje a dodává „možná to tak nebylo“. Laik i nezkušený odborník to
+  čte jako nejistotu lháře.
+- **Chudoba na periferní detaily.** Opakované, splývající epizody produkují schematickou
+  paměť („vždycky to bylo tak, že…“), nikoli bohatý popis jedné události.
+- **Klidný, nebo naopak chaotický afekt.** Ploché vyprávění může být důsledkem otupění;
+  chaotické důsledkem aktivace traumatu. Ani jedno není spolehlivým ukazatelem.
+- **Pachatelova sebeprezentace.** Osoby vykonávající [coercive
+  control](@/glossary/coercive-control.md) bývají v institucionálním prostředí klidné,
+  souvislé a sympatické. Kontrast s rozrušenou obětí vytváří iluzi asymetrie věrohodnosti.
+- **Obrácení rolí.** Vzorec [DARVO](@/glossary/darvo.md) přenáší pochybnost na oběť ještě
+  před tím, než je vyslechnuta.
+
+Výsledkem je riziko [epistemické nespravedlnosti](@/glossary/epistemicka-injustice.md)
+ve Frickerově smyslu (2007): svědectví je oslabeno kvůli předsudku vůči mluvčímu, nikoli kvůli
+obsahu.
+
+## Klíčové principy
+
+- **Hodnotí se výpověď, ne osobnost.** Diagnóza, temperament ani „dojem“ nejsou kritériem
+  pravdivosti.
+- **Alternativní hypotézy.** Každý závěr musí vyloučit nebo zvážit alternativy: sugesce,
+  nedorozumění, záměrné zkreslení, vliv třetích osob.
+- **Kontext vzniku výpovědi.** Kdo s osobou mluvil před výslechem, co četla, jaké otázky
+  slyšela.
+- **Proporcionalita závěru.** Formulace „výpověď vykazuje znaky…“ místo „výpověď je pravdivá“.
+- **Transparentnost metody.** Popis použité metodiky, jejích známých chyb a mezí.
 
 ## Procedurální postup
 
-Aplikuj 19 CBCA kriterii, kontextualizuj na C-PTSD, vyhodnot konzistenci napric vypovedi v case. Predprocesni faze: review veskere dostupne dokumentace, identifikace
-gaps, planovani assessment sekvence. Hlavni faze: aplikace standardizovanych
-nastroju s contemporaneous documentation, kazdy krok casove razitkovany.
-Validizacni faze: cross-check napric zdroji, identifikace nesrovnalosti,
-diferencialni diagnostika. Reporting faze: synteza nalezu do struktury
-splnujici Daubert/Frye standardy, vcetne disclosure of methodology a error
-rates. Post-process: chain of custody dokumentace, secure storage, retention
-policy v souladu s jurisdikcnimi pozadavky.
+1. **Analýza zadání.** Ujasnit, na co se soud nebo orgán ptá. Otázky typu „mluví pravdu?“
+   je třeba přeformulovat na odborně zodpověditelné.
+2. **Sběr kontextu.** Okolnosti prvního sdělení ([disclosure
+   traumatu](@/kompendium/forensic-legal/6-trauma-disclosure.md)), předchozí výpovědi,
+   kontakty s médii, terapií, svépomocnými skupinami.
+3. **Hodnocení kvality záznamu.** Byl rozhovor veden nesugestivně (viz [Forenzní
+   rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md))? Existuje doslovný
+   záznam?
+4. **Obsahová analýza.** Kriteriální hodnocení obsahu s vědomím, že kritéria byla
+   vyvinuta převážně pro jednorázové události a pro děti.
+5. **Posouzení výpovědní způsobilosti.** Kognitivní kapacita, paměť, [sugestibilita](@/kompendium/forensic-legal/5-suggestibility-assessment.md),
+   disociativní symptomatika.
+6. **Konfrontace s nezávislými zdroji.** Listiny, zprávy, výpovědi třetích osob – zda
+   podporují vzorec, ne jen jednotlivé detaily.
+7. **Formulace závěru** s výslovným uvedením mezí.
+
+## Markery a diferenciální úvahy
+
+Co výpověď podporuje:
+
+- konzistentní popis **vzorce chování** napříč časem i přes nejisté datování;
+- zmínky o vlastních pochybnostech a o tom, jak je pachatel vyvolával;
+- detaily, které nejsou pro vyslýchaného výhodné (vlastní podíl, ambivalence, období
+  usmíření);
+- shoda s nezávislými stopami (zprávy, finanční výpisy, výpovědi blízkých).
+
+Co vyžaduje opatrnost:
+
+- výpověď formulovaná odbornými pojmy, které osoba převzala z literatury nebo od terapeuta;
+- náhlé rozšiřování obsahu po kontaktu s jinými údajnými oběťmi;
+- výpověď, která se v klíčových bodech mění podle toho, kdo se ptá.
+
+Žádný z těchto markerů nerozhoduje sám. Nekonzistence je třeba posoudit ve světle
+[disociace](@/kompendium/forensic-legal/3-dissociation-forensic.md) a traumatické paměti,
+nikoli automaticky jako lež.
 
 ## Riziková místa
 
-- **Re-traumatizace** — proces sam muze zhorsit klinicky stav
-- **Kontaminace vypovedi** — nespravne provedeny rozhovor invalidizuje dukaz
-- **Boundary violations** — splynuti klinicky/forenzni role
-- **Discovery exposure** — klinicke poznamky se mohou stat soudnim dukazem
-- **Adversarial attack** — perpetrator strategie diskreditace znalce
-- **Jurisdiction issues** — nespravne pochopeni evidentiary standards
-- **Statute of limitations** — promlčeni klicovych naroku
+- **Mýtus „pravá oběť“.** Očekávání, že skutečná oběť pláče, je souvislá a nikdy pachatele
+  nebránila. Oběti EA tomuto obrazu zřídka odpovídají.
+- **Přecenění neverbálních signálů.** Výzkum dlouhodobě ukazuje, že lidé včetně profesionálů
+  rozpoznávají klam z chování jen málo nad úrovní náhody.
+- **Přenesení klinického závěru.** Diagnóza posttraumatické poruchy nedokazuje, že se událost
+  stala, a její absence nedokazuje opak.
+- **Halo efekt pachatele.** Profesní status, klid a výřečnost nejsou důkazem pravdivosti.
+- **Zpětné ovlivnění.** Znalec, který zná výsledek jiného důkazu, ho nevědomky promítá do
+  hodnocení výpovědi ([konfirmační zkreslení](@/glossary/konfirmacni-bias.md)).
+
+## Modelová situace (anonymizovaná)
+
+V opatrovnickém sporu muž tvrdí, že mu bývalá partnerka léta zpochybňovala vnímání a
+izolovala ho od rodiny. Jeho výpověď je nesouvislá, plná oprav a vrací se k drobnostem.
+Partnerka vystupuje klidně a předkládá přehlednou časovou osu. Znalkyně se nespokojí
+s dojmem: analyzuje záznamy rozhovorů, všímá si, že muž opakovaně popisuje stejný vzorec
+(„ona vždycky věděla líp, co jsem řekl“), a dohledá zprávy, v nichž partnerka přepisuje
+dříve dohodnutá fakta. V posudku neuvádí, kdo mluví pravdu, ale že výpověď muže vykazuje
+znaky výpovědi o opakovaně prožívaném vzorci a že styl podání sám o sobě nesnižuje její
+hodnotu.
 
 ## Doporučení pro praxi
 
-1. Oddelit klinickou a forensni roli — jeden pripad, jeden hat
-2. Pred-procesni konzultace s pravnim zastupcem o discovery rizicich
-3. Standardizovane nastroje s peer-reviewed validity
-4. Multidisciplinary team pro complex pripady
-5. Continuous CE v forensic methodology a jurisdiction-specific law
-6. Supervize pro emocni regulation u dlouhodobych pripadu
-7. Disclosure agreement na vzajemne ocekavani s klientem/pravnikem
+### Pro dotčenou osobu
 
-## Cross-linky
+- Nejistota není slabina. Je lepší říct „nevím přesně kdy“ než si datum domýšlet.
+- Uchovávejte původní zprávy a záznamy; jejich hodnota je v tom, že vznikly v čase událostí.
 
-- [Coercive Control](@/glossary/coercive-control.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Trauma Bonding](@/glossary/trauma-bonding.md)
-- [Undue Influence](@/glossary/undue-influence.md)
-- [DARVO](@/glossary/darvo.md)
-- [Forensic Interview](@/glossary/forensic-interview.md)
-- [Expert Witness](@/glossary/expert-witness.md)
-- [Chain of Custody](@/glossary/chain-of-custody.md)
-- [Pattern Evidence](@/glossary/pattern-evidence.md)
-- [Kompendium - hlavni](@/kompendium/_index.md)
-- [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
-- [Emergency Protocols](@/kompendium/emergency-protocols/_index.md)
+### Pro znalce
 
+- Odpovídejte jen na odborně zodpověditelné otázky a hranice výslovně pojmenujte.
+- Uveďte, jak byla zvážena hypotéza sugesce i hypotéza záměrného zkreslení.
+- Nepoužívejte nástroje validované pro jinou populaci bez poučení o tomto omezení.
 
-## Connect
+### Pro právníka a soud
 
-- [Prismatic Platform](@/_index.md) — komplexni EA detection & response
-- [Glossary](@/glossary/_index.md) — terminologicky slovnik
-- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — vzdelavaci modul
-- {{ <cross_link path="/investigate/" text="Investigation Hub" /> }} — vysetrovaci nastroje
+- Vyžadujte doslovný záznam výslechů; parafráze v protokolu znehodnocuje obsahovou analýzu.
+- Při hodnocení svědka oddělujte styl projevu od obsahu.
 
+## Limity a otevřené otázky
+
+Kriteriální analýza obsahu vznikla pro výpovědi dětí o sexuálním zneužívání a její
+přenositelnost na dospělé oběti dlouhodobého psychického zneužívání není dostatečně
+ověřena. Chybějí také metody, které by zohlednily, že EA přímo útočí na vlastnosti, podle
+nichž se věrohodnost měří. Otevřená zůstává otázka, zda by znalec měl soud výslovně poučovat
+o typických rysech výpovědí obětí EA – to může zvýšit férovost hodnocení, ale i posunout
+znalce do role obhájce jedné strany.
+
+## Související
+
+**V této sekci**
+
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – kvalita rozhovoru určuje, co lze z výpovědi vyčíst.
+- [Detekce simulace](@/kompendium/forensic-legal/4-malingering-detection.md) – opačná strana téhož problému.
+- [Znalec v kauzách EA](@/kompendium/forensic-legal/21-expert-witness-EA.md) – hranice znaleckých závěrů.
+- [Křížový výslech](@/kompendium/forensic-legal/23-cross-examination-defense.md) – kde se věrohodnost zpochybňuje nejostřeji.
+
+**Glosář**
+
+- [Epistemická nespravedlnost](@/glossary/epistemicka-injustice.md) – předsudek vůči mluvčímu jako zdroj chyby.
+- [DARVO](@/glossary/darvo.md) – obrácení role oběti a pachatele.
+- [Konfirmační zkreslení](@/glossary/konfirmacni-bias.md) – riziko na straně hodnotitele.
+
+**Klinika a kritika**
+
+- [Diferenciální diagnostika EA](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) – klinické rozlišení, které posudek nenahrazuje.
+- [Riziko obětování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md) – jak se hodnocení věrohodnosti mění v obviňování.
+- [Kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md) – když se z rysů výpovědi vyvozuje vzorec, který se tím teprve dokazuje.

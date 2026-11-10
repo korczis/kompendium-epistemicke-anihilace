@@ -1,6 +1,6 @@
 // Příkazová paleta: ⌘K / Ctrl K, „/“ mimo pole formuláře a tlačítko v horní liště.
-// Hledá ve stránkách (rejstřík Zoly search_index.cs.json), v grafu knihy (static/data/graph.json
-// přes KompendiumViz, kvůli oddílům a počtu příchozích odkazů), v kódech technik a v akcích.
+// Hledá ve stránkách, v kódech technik a v akcích nad jediným rejstříkem webu
+// static/data/search.json (oddíly, příchozí odkazy, štítky; scripts/build-ui-data.py).
 // Nic těžkého se nenačte, dokud se paleta poprvé neotevře. Markup a třídy jsou
 // v templates/partials/paleta.html; tady se jen klonují šablony.
 (function () {
@@ -99,40 +99,28 @@
   }
 
   // --- Data ---------------------------------------------------------------------------------
+  // Jediný rejstřík webu: static/data/search.json (scripts/build-ui-data.py), týž, který čte
+  // vyhledávání v horní liště. Nese kód EA, oddíl, počet příchozích odkazů i štítky, takže
+  // paleta nepotřebuje rejstřík Zoly ani graf knihy.
   var dataPromise = null;
   var docs = null;
 
-  function loadViz() {
-    if (window.KompendiumViz) return Promise.resolve(window.KompendiumViz);
-    return new Promise(function (resolve, reject) {
-      var s = document.createElement('script');
-      s.src = cfg.viz;
-      s.onload = function () { window.KompendiumViz ? resolve(window.KompendiumViz) : reject(new Error('KompendiumViz chybí')); };
-      s.onerror = function () { reject(new Error('Nepodařilo se načíst vizualizační modul')); };
-      document.head.appendChild(s);
-    });
+  // Zdrojová cesta stránky z adresy a druhu souboru (0 stránka.md, 1 _index.md, 2 index.md).
+  function sourcePath(url, file) {
+    var p = key(url).replace(/^\/|\/$/g, '');
+    if (file === 1) return p ? p + '/_index.md' : '_index.md';
+    return file === 2 ? p + '/index.md' : p + '.md';
   }
 
-  // Oddíly, jejichž název v obsahu zůstal anglicky.
-  var SECTION_CS = {
-    'kompendium/techniques': 'Techniky',
-    'kompendium/quick-reference': 'Rychlé karty',
-    'kompendium/glossary-bridges': 'Mosty glosáře',
-  };
+  // Oddíl stránky stejně jako scripts/ia_model.py (section_of).
+  function sectionOf(path) {
+    var parts = path.split('/');
+    if (parts[0] === 'kompendium' && parts.length > 2) return 'kompendium/' + parts[1];
+    return parts.length > 1 ? parts[0] : 'root';
+  }
 
-  function sectionNames(G, V) {
-    var names = {};
-    G.nodes.forEach(function (n) {
-      var m = /^(.*)\/_index\.md$/.exec(n.path);
-      if (m) names[m[1]] = n.title.split(/\s+[—–]\s+|\s+\/\s+|:\s/)[0].replace(/^\d+\.\s*/, '');
-    });
-    return function (section) {
-      if (section === 'root' || !section) return 'Úvod';
-      if (section === 'glossary') return 'Glosář';
-      if (section === 'philosophy') return 'Filozofie';
-      if (SECTION_CS[section]) return SECTION_CS[section];
-      return names[section] || V.sectionLabel(section);
-    };
+  function fallbackLabel(section) {
+    return section.split('/').pop().replace(/^\d+-/, '').replace(/-/g, ' ');
   }
 
   function makeDoc(o) {
@@ -148,46 +136,38 @@
 
   function loadData() {
     if (dataPromise) return dataPromise;
-    var index = fetch(body.getAttribute('data-search-index')).then(function (r) {
+    dataPromise = fetch(body.getAttribute('data-search-index')).then(function (r) {
       if (!r.ok) throw new Error('Rejstřík hledání: HTTP ' + r.status);
       return r.json();
-    });
-    var graph = loadViz().then(function (V) { return V.graph().then(function (G) { return { V: V, G: G }; }); })
-      .catch(function () { return null; });
-    dataPromise = Promise.all([index, graph]).then(function (res) {
-      var entries = res[0];
-      var vg = res[1];
-      var byKey = {};
-      var label = vg ? sectionNames(vg.G, vg.V) : function () { return ''; };
+    }).then(function (data) {
+      var f = {};
+      data.fields.forEach(function (name, i) { f[name] = i; });
+      var labels = data.sections || {};
       var appKeys = {};
       (cfg.apps || []).forEach(function (a) { appKeys[key(a.url)] = true; });
-      if (vg) {
-        vg.G.nodes.forEach(function (n) { byKey[key(n.url)] = n; });
-      }
+      var byKey = {};
       var seen = {};
       var list = [];
-      function add(path, title, description, n) {
-        var k = key(path);
+      data.entries.forEach(function (e) {
+        var k = key(e[f.url]);
+        var title = e[f.title];
+        var path = sourcePath(e[f.url], e[f.file]);
+        byKey[k] = { path: path };
         if (seen[k] || appKeys[k] || !title) return;
         seen[k] = true;
-        var section = n ? n.section : '';
-        var code = codeOf(title, k);
+        var section = sectionOf(path);
+        var code = codeOf(title, k) || String(e[f.code] || '').replace(/^ea-?/i, '');
         var kind = 'page';
-        if (n && /(^|\/)_index\.md$/.test(n.path)) kind = 'section';
+        if (e[f.file] === 1) kind = 'section';
         else if (code || section === 'kompendium/techniques') kind = 'technique';
         else if (section === 'glossary') kind = 'glossary';
         list.push(makeDoc({
-          kind: kind, title: title, description: description || '', url: href(k), k: k,
-          badge: n ? label(section) : '', code: code, inLinks: n ? n['in'] || 0 : 0,
-          keywords: n ? (n.tags || []).join(' ') : '', path: n ? n.path : '',
+          kind: kind, title: title, description: e[f.description] || '', url: href(k), k: k,
+          badge: labels[section] || fallbackLabel(section), code: code, inLinks: e[f['in']] || 0,
+          keywords: (e[f.tags] || []).join(' '), path: path,
         }));
-      }
-      entries.forEach(function (d) {
-        var k = key(d.path || d.url);
-        add(k, d.title, d.description, byKey[k]);
       });
-      if (vg) vg.G.nodes.forEach(function (n) { add(n.url, n.title, '', n); });
-      docs = { list: list, byKey: byKey, graph: vg };
+      docs = { list: list, byKey: byKey };
       return docs;
     });
     dataPromise.catch(function () { dataPromise = null; });

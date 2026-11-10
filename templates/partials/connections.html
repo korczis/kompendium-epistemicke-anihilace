@@ -21,6 +21,19 @@
   {%- set_global related_tag = "" -%}
   {%- set_global related_section = parent -%}
 {%- endif -%}
+{#- Related terms named in the front matter (`extra.related_terms`), resolved to pages through
+    static/data/terms.json; a slug without a page is simply not shown. -#}
+{%- if doc.extra.related_terms is defined and doc.extra.related_terms -%}
+{%- set terms_all = load_data(path="static/data/terms.json") -%}
+<section class="mt-8 border-t border-gray-200 pt-6 dark:border-gray-700" aria-labelledby="terms-title">
+  <h2 id="terms-title" class="mb-3 text-sm font-semibold uppercase tracking-wide text-gray-900 dark:text-white">Související pojmy</h2>
+  <div class="flex flex-wrap gap-2">
+    {%- for slug in doc.extra.related_terms %}{% if slug in terms_all.terms %}{% set t = terms_all.terms[slug] %}{% if config.base_url ~ t[0] != doc.permalink %}
+    <a href="{{ config.base_url }}{{ t[0] }}" class="inline-flex items-center gap-1.5 rounded-lg border border-gray-200 bg-white px-3 py-1.5 text-sm font-medium text-gray-900 hover:border-primary-300 hover:bg-primary-50 hover:text-primary-700 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white">{{ t[1] }}{% if t[2] %}<span class="rounded bg-gray-100 px-1.5 text-xs font-normal text-gray-600 dark:bg-gray-700 dark:text-gray-300">{{ t[2] }}</span>{% endif %}</a>
+    {%- endif %}{% endif %}{% endfor %}
+  </div>
+</section>
+{%- endif %}
 {%- if backlinks or related | length > 1 %}
 <div class="mt-8 grid gap-4 border-t border-gray-200 pt-6 md:grid-cols-2 dark:border-gray-700">
   {%- if backlinks %}

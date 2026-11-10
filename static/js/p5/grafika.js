@@ -23,6 +23,14 @@
     return Math.max(280, el.clientWidth || 600) !== dims.w;
   }
 
+  // Poměr stran: data-ratio, pod lg (1024 px) případně nižší data-ratio-narrow, aby obrázek
+  // na telefonu nezabral celou obrazovku. CSS rezervuje stejný poměr (bez posunu, CLS).
+  function ratioOf(el, fallback) {
+    var narrow = el.getAttribute('data-ratio-narrow');
+    if (narrow && window.innerWidth < 1024) return parseFloat(narrow);
+    return parseFloat(el.getAttribute('data-ratio') || fallback);
+  }
+
   function size(el, ratio) {
     var w = Math.max(280, el.clientWidth || 600);
     return { w: w, h: Math.round(w * ratio) };
@@ -85,7 +93,7 @@
       }
 
       p.setup = function () {
-        dims = size(el, parseFloat(el.getAttribute('data-ratio') || '0.62'));
+        dims = size(el, ratioOf(el, '0.62'));
         var cnv = p.createCanvas(dims.w, dims.h);
         cnv.elt.setAttribute('role', 'img');
         cnv.elt.setAttribute('aria-label', el.getAttribute('data-label') || 'Síť pojmů, která se rozpadá a znovu obnovuje.');
@@ -102,7 +110,7 @@
 
       p.windowResized = function () {
         if (!widthChanged(el, dims)) return;
-        dims = size(el, parseFloat(el.getAttribute('data-ratio') || '0.62'));
+        dims = size(el, ratioOf(el, '0.62'));
         p.resizeCanvas(dims.w, dims.h);
         build();
       };
@@ -184,7 +192,7 @@
       }
 
       p.setup = function () {
-        dims = size(el, parseFloat(el.getAttribute('data-ratio') || '0.5'));
+        dims = size(el, ratioOf(el, '0.5'));
         var cnv = p.createCanvas(dims.w, dims.h);
         cnv.elt.setAttribute('role', 'img');
         cnv.elt.setAttribute('aria-label', 'Slova jako pravda, paměť a důvěra, jejichž písmena se postupně rozpadají a obnovují.');
@@ -196,7 +204,7 @@
 
       p.windowResized = function () {
         if (!widthChanged(el, dims)) return;
-        dims = size(el, parseFloat(el.getAttribute('data-ratio') || '0.5'));
+        dims = size(el, ratioOf(el, '0.5'));
         p.resizeCanvas(dims.w, dims.h);
         build();
       };
@@ -268,7 +276,7 @@
       }
 
       p.setup = function () {
-        dims = size(el, parseFloat(el.getAttribute('data-ratio') || '0.6'));
+        dims = size(el, ratioOf(el, '0.6'));
         var cnv = p.createCanvas(dims.w, dims.h);
         cnv.elt.setAttribute('role', 'img');
         cnv.elt.setAttribute('aria-label', 'Rozptýlené body se pomalu skládají zpět do soustředných kruhů propojených vztahy.');
@@ -279,7 +287,7 @@
 
       p.windowResized = function () {
         if (!widthChanged(el, dims)) return;
-        dims = size(el, parseFloat(el.getAttribute('data-ratio') || '0.6'));
+        dims = size(el, ratioOf(el, '0.6'));
         p.resizeCanvas(dims.w, dims.h);
         build();
       };

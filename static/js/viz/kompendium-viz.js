@@ -54,6 +54,18 @@
     return cache[path];
   }
 
+  // Adresa, na které Zola stránku skutečně servíruje (slugify.paths = "on"): bez diakritiky,
+  // malými písmeny, ostatní znaky jako pomlčka. Odvozená data nesou cestu podle názvu souboru
+  // („…/12-EA-stigma-risk/“), kterou by GitHub Pages (rozlišuje velikost písmen) neobsloužil.
+  // Stejné pravidlo má scripts/build-ui-data.py (slug).
+  function pageUrl(url) {
+    var parts = String(url || '').split('/').filter(Boolean).map(function (seg) {
+      return seg.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    });
+    return '/' + parts.join('/') + (parts.length ? '/' : '');
+  }
+
   // Graf s indexy: podle id, podle cesty, sousedé dovnitř i ven, barva oddílu.
   function graph() {
     if (cache.graphIndex) return cache.graphIndex;
@@ -65,6 +77,7 @@
       var sections = [];
       var sectionIndex = {};
       g.nodes.forEach(function (n) {
+        n.url = pageUrl(n.url);
         byId[n.id] = n;
         byPath[n.path] = n;
         out[n.id] = [];
@@ -100,7 +113,7 @@
 
   function empty(el, title, text) {
     el.innerHTML = '<div class="flex h-full min-h-48 flex-col items-center justify-center p-6 text-center">' +
-      '<svg class="mb-3 h-10 w-10 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z"/></svg>' +
+      '<svg class="mb-3 h-10 w-10 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z"/></svg>' +
       '<p class="text-base font-semibold text-gray-900 dark:text-white">' + title + '</p>' +
       '<p class="mt-1 text-sm text-gray-500 dark:text-gray-400">' + text + '</p></div>';
   }
@@ -172,6 +185,6 @@
   window.KompendiumViz = {
     PALETTE: PALETTE, theme: theme, isDark: isDark, json: json, graph: graph, empty: empty,
     loadScript: loadScript, cytoscape: cytoscapeIn, echarts: echartsIn, axis: axis, tooltip: tooltip,
-    sectionLabel: sectionLabel, basePath: basePath,
+    sectionLabel: sectionLabel, basePath: basePath, pageUrl: pageUrl,
   };
 })();

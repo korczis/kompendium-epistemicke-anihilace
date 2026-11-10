@@ -1,0 +1,34 @@
+{#- Sub-navigation of the subtree the document belongs to (Pro underline tabs), derived from
+    static/data/nav.json: a section's own subsections, or the sibling sections of the section
+    that holds the page. Shown when the subtree has 2-14 entries; the whole kompendium is the
+    sidebar's job. Also the position of a page within its section. -#}
+{%- set_global nav = load_data(path="static/data/nav.json") -%}
+{%- if page is defined -%}{%- set key = page.ancestors | last -%}{%- elif section is defined -%}{%- set key = section.relative_path -%}{%- else -%}{%- set key = "" -%}{%- endif -%}
+{%- set_global tabs_key = "" -%}
+{%- if key in nav.sections -%}
+  {%- set own = nav.sections[key].subsections -%}
+  {%- if own and own | length <= 14 -%}
+    {%- set_global tabs_key = key -%}
+  {%- else -%}
+    {%- set parts = key | replace(from="/_index.md", to="") | split(pat="/") -%}
+    {%- if parts | length > 1 -%}
+      {%- set parent = key | replace(from="/" ~ parts | last ~ "/_index.md", to="/_index.md") -%}
+      {%- if parent != "kompendium/_index.md" and parent in nav.sections and nav.sections[parent].subsections | length <= 14 -%}
+        {%- set_global tabs_key = parent -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%}
+{%- if tabs_key %}
+{%- set t = nav.sections[tabs_key] %}
+<nav class="border-b border-gray-200 bg-white px-4 dark:border-gray-700 dark:bg-gray-800" aria-label="Navigace podstromu">
+  <ul class="-mb-px flex flex-wrap text-center text-sm font-medium text-gray-500 dark:text-gray-400">
+    <li class="me-2"><a href="{{ config.base_url }}{{ t.url }}" class="inline-block rounded-t-lg border-b-2 p-4 {% if current_path == t.url %}border-primary-600 text-primary-600 dark:border-primary-500 dark:text-primary-400{% else %}border-transparent hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300{% endif %}"{% if current_path == t.url %} aria-current="page"{% endif %}>Přehled</a></li>
+    {%- for k in t.subsections %}
+    {%- set s = nav.sections[k] %}
+    {%- set on = s.url in current_path %}
+    <li class="me-2"><a href="{{ config.base_url }}{{ s.url }}" class="inline-block max-w-[16rem] truncate rounded-t-lg border-b-2 p-4 {% if on %}border-primary-600 text-primary-600 dark:border-primary-500 dark:text-primary-400{% else %}border-transparent hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300{% endif %}" title="{{ s.title }}"{% if on %} aria-current="page"{% endif %}>{{ s.title }} <span class="ms-1 rounded-full bg-gray-100 px-1.5 py-0.5 text-xs text-gray-600 dark:bg-gray-700 dark:text-gray-300">{{ s.total }}</span></a></li>
+    {%- endfor %}
+  </ul>
+</nav>
+{%- endif %}

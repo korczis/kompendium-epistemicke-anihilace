@@ -105,7 +105,7 @@
         <template x-if="q.trim()">
           <span class="inline-flex max-w-full items-center gap-1 truncate rounded-md bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300" x-text="'„' + q.trim() + '“'"></span>
         </template>
-        <button type="button" @click="reset()" class="inline-flex items-center rounded-lg px-2 py-1 text-xs font-medium text-primary-700 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:text-primary-500 dark:hover:bg-gray-700 dark:focus:ring-primary-800">Zrušit filtry</button>
+        <button type="button" @click="reset()" class="inline-flex items-center rounded-lg px-2 py-1 text-xs font-medium text-primary-700 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:text-primary-400 dark:hover:bg-gray-700 dark:focus:ring-primary-800">Zrušit filtry</button>
       </div>
     </div>
 
@@ -113,7 +113,7 @@
     <div class="hidden overflow-x-auto md:block" x-show="filtered.length">
       <table class="w-full table-fixed text-left text-sm text-gray-500 dark:text-gray-400">
         <caption class="sr-only">Techniky katalogu odpovídající filtru; každý řádek odkazuje na stránku techniky.</caption>
-        <thead class="bg-gray-50 text-xs uppercase text-gray-700 dark:bg-gray-700 dark:text-gray-400">
+        <thead class="bg-gray-50 text-xs uppercase text-gray-700 dark:bg-gray-700 dark:text-gray-300">
           <tr>
             <th scope="col" class="w-28 px-4 py-3" :aria-sort="sort === 'kod' ? 'ascending' : 'none'">Kód</th>
             <th scope="col" class="px-4 py-3" :aria-sort="sort === 'nazev' ? 'ascending' : 'none'">Technika</th>
@@ -131,7 +131,7 @@
               <td class="min-w-0 px-4 py-3 align-top">
                 <a :href="t.permalink" class="block font-medium text-gray-900 after:absolute after:inset-0 hover:text-primary-700 focus:outline-none focus-visible:underline dark:text-white dark:hover:text-primary-400" x-text="t.title"></a>
                 <span class="mt-1 line-clamp-2 block text-sm text-gray-500 dark:text-gray-400" x-show="t.description" x-text="t.description"></span>
-                <span class="mt-1 block truncate text-xs text-gray-400 dark:text-gray-500" x-show="t.subcategory" x-text="t.subcategory"></span>
+                <span class="mt-1 block truncate text-xs text-gray-500 dark:text-gray-400" x-show="t.subcategory" x-text="t.subcategory"></span>
               </td>
               <td class="hidden px-4 py-3 align-top xl:table-cell" x-show="risks.length">
                 <span x-show="t.risk" class="whitespace-nowrap rounded-md px-2.5 py-0.5 text-xs font-medium" :class="riskClass(t.risk)" x-text="riskLabel(t.risk)"></span>
@@ -166,7 +166,7 @@
 
     {#- Prázdný stav (Pro empty state) -#}
     <div x-show="!filtered.length" class="flex flex-col items-center justify-center p-6 text-center sm:p-10" role="status">
-      <svg class="mb-3 h-10 w-10 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg>
+      <svg class="mb-3 h-10 w-10 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg>
       <p class="text-base font-semibold text-gray-900 dark:text-white">Žádná technika neodpovídá filtru</p>
       <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Zkuste kratší výraz, jinou rodinu nebo úroveň rizika.</p>
       <button type="button" @click="reset()" class="mt-4 rounded-lg bg-primary-700 px-4 py-2 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Zrušit filtry</button>
@@ -177,7 +177,7 @@
       <span class="text-sm text-gray-500 dark:text-gray-400">Zobrazeno <span class="font-semibold text-gray-900 dark:text-white" x-text="fmt(visible.length)"></span> z <span class="font-semibold text-gray-900 dark:text-white" x-text="fmt(filtered.length)"></span></span>
       <div class="flex flex-wrap gap-2" x-show="visible.length < filtered.length">
         <button type="button" @click="more()" class="inline-flex items-center rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700" x-text="'Zobrazit další ' + Math.min(step, filtered.length - visible.length)"></button>
-        <button type="button" @click="all()" class="inline-flex items-center rounded-lg px-3 py-2 text-sm font-medium text-primary-700 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:text-primary-500 dark:hover:bg-gray-700 dark:focus:ring-primary-800">Zobrazit vše</button>
+        <button type="button" @click="all()" class="inline-flex items-center rounded-lg px-3 py-2 text-sm font-medium text-primary-700 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:text-primary-400 dark:hover:bg-gray-700 dark:focus:ring-primary-800">Zobrazit vše</button>
       </div>
     </nav>
   </section>

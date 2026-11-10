@@ -52,6 +52,7 @@ new p5((p) => {
     const target = document.getElementById('attention-disruption');
     if (target) c.parent('attention-disruption');
     const slider = document.getElementById('attention-rate');
+    if (slider && !slider.labels.length && !slider.hasAttribute('aria-label')) slider.setAttribute('aria-label', 'Rychlost narušování pozornosti');
     if (slider) slider.addEventListener('input', (e) => { rate = parseFloat(e.target.value); });
   };
   p.draw = function() {

@@ -30,9 +30,9 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url || steps.deployment_retry2.outputs.page_url }}
     outputs:
-      page_url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
+      page_url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url || steps.deployment_retry2.outputs.page_url }}
     steps:
       - uses: actions/checkout@v7
       - name: Configure Pages
@@ -55,23 +55,32 @@ jobs:
         uses: actions/upload-pages-artifact@v5
         with:
           path: site
-      # Pages při synchronizaci souborů kolísá: úspěšná nasazení 23–45 s, jedno 514 s. Běh
-      # 42750395044 (43c40809) skončil na limitu 600 s, běh pro 23e0a591 po 10 chybách dotazu na
-      # stav (error_count). Limit = nejhorší naměřený úspěch se třínásobnou rezervou; při selhání
-      # jeden opakovaný pokus nad týmž artefaktem.
+      # Pages při synchronizaci souborů kolísá: úspěšná nasazení 23–45 s, jedno 514 s; neúspěšná
+      # visí ve stavu finished_file_sync (běhy 42750395044, 42756308971). actions/deploy-pages
+      # strop `timeout` neposouvá: MAX_TIMEOUT = 600000 v src/internal/deployment.js, vyšší
+      # hodnota se tiše ořízne. Proto limit 600 s, error_count 30 a dva další pokusy nad týmž
+      # artefaktem; 42756308971 selhal v obou ze dvou pokusů.
       - name: Deploy
         id: deployment
         continue-on-error: true
         uses: actions/deploy-pages@v5
         with:
-          timeout: 1800000
+          timeout: 600000
           error_count: 30
-      - name: Deploy (opakovaný pokus)
+      - name: Deploy (druhý pokus)
         id: deployment_retry
         if: steps.deployment.outcome == 'failure'
+        continue-on-error: true
         uses: actions/deploy-pages@v5
         with:
-          timeout: 1800000
+          timeout: 600000
+          error_count: 30
+      - name: Deploy (třetí pokus)
+        id: deployment_retry2
+        if: steps.deployment.outcome == 'failure' && steps.deployment_retry.outcome == 'failure'
+        uses: actions/deploy-pages@v5
+        with:
+          timeout: 600000
           error_count: 30
 
   verify:
@@ -94,7 +103,7 @@ jobs:
       - name: Smoke test
         run: |
           set -e
-          for path in "" kompendium/ kompendium/01-predmluva/ kompendium/techniques/ glossary/ references/ about/ tags/ galerie/ mapa/ stav/ search_index.cs.json data/graph.json data/metrics.json css/app.css js/site.js js/viz/kompendium-viz.js js/vendor/flowbite.min.js js/vendor/cytoscape.min.js js/vendor/echarts.min.js js/vendor/alpine.min.js img/og.png; do
+          for path in "" kompendium/ kompendium/01-predmluva/ kompendium/techniques/ glossary/ references/ about/ tags/ galerie/ mapa/ stav/ search_index.cs.json data/graph.json data/metrics.json data/search.json data/nav.json data/terms.json data/viz-deps.json css/app.css js/site.js js/viz/kompendium-viz.js js/vendor/flowbite.min.js js/vendor/cytoscape.min.js js/vendor/echarts.min.js js/vendor/alpine.min.js img/og.png; do
             code="$(curl -s -o /dev/null -w '%{http_code}' "${BASE_URL}${path}")"
             echo "$code ${BASE_URL}${path}"
             test "$code" = 200

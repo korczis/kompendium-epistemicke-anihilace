@@ -4,15 +4,21 @@
 {% include "partials/header.html" %}
 <div class="grid grid-cols-1 gap-4 px-4 pt-6 xl:grid-cols-4">
   <div class="min-w-0 space-y-4 xl:col-span-3">
-    {%- set explorer = section.path in ["/kompendium/techniques/", "/glossary/", "/kompendium/historical-cases/"] or "/kompendium/nlp-vzorce/" in section.path %}
+    {%- set explorer = section.path in ["/kompendium/techniques/", "/glossary/", "/kompendium/historical-cases/"] or section.extra.catalog is defined %}
+    {#- Průzkumník se ukáže, až naběhne Alpine; jeho místo (kea-explorer-slot, app.css) je od
+        začátku aspoň na výšku okna, takže text pod ním neposkočí (CLS). -#}
+    {%- if explorer %}
+    <div class="kea-explorer-slot">
     {%- if section.path == "/kompendium/techniques/" %}
     {% include "partials/explorer-techniques.html" %}
     {%- elif section.path == "/glossary/" %}
     {% include "partials/explorer-glossary.html" %}
     {%- elif section.path == "/kompendium/historical-cases/" %}
     {% include "partials/explorer-historical.html" %}
-    {%- elif "/kompendium/nlp-vzorce/" in section.path %}
+    {%- elif section.extra.catalog is defined %}
     {% include "partials/explorer-nlp.html" %}
+    {%- endif %}
+    </div>
     {%- endif %}
     {%- if section.content | trim %}
     <article class="rounded-lg bg-white p-4 shadow sm:p-6 xl:p-8 dark:bg-gray-800">

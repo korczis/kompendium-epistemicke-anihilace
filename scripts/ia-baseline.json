@@ -52,24 +52,9 @@
   "czech",
   "related"
  ],
- "content/glossary/apofaticky-modus.md": [
-  "czech"
- ],
- "content/glossary/apofatika.md": [
-  "czech"
- ],
- "content/glossary/apriori.md": [
-  "czech"
- ],
  "content/glossary/archer-supreme.md": [
   "czech",
   "related"
- ],
- "content/glossary/aristotelovy-kategorie.md": [
-  "czech"
- ],
- "content/glossary/asymptoticky-kolaps.md": [
-  "czech"
  ],
  "content/glossary/autoevolve.md": [
   "czech",
@@ -92,9 +77,6 @@
   "czech",
   "related"
  ],
- "content/glossary/blame-shifting.md": [
-  "czech"
- ],
  "content/glossary/blue-team.md": [
   "czech",
   "related"
@@ -108,9 +90,6 @@
   "czech",
   "related"
  ],
- "content/glossary/category-mistake.md": [
-  "czech"
- ],
  "content/glossary/censys.md": [
   "czech",
   "related"
@@ -118,15 +97,6 @@
  "content/glossary/chain-of-custody.md": [
   "czech",
   "related"
- ],
- "content/glossary/charisma.md": [
-  "czech"
- ],
- "content/glossary/child-grooming.md": [
-  "czech"
- ],
- "content/glossary/cirkularni-argumentace.md": [
-  "czech"
  ],
  "content/glossary/clean-run.md": [
   "czech",
@@ -182,16 +152,10 @@
   "czech",
   "related"
  ],
- "content/glossary/depersonalizace.md": [
-  "czech"
- ],
  "content/glossary/deplatforming.md": [
   "description",
   "czech",
   "related"
- ],
- "content/glossary/diferenciace.md": [
-  "czech"
  ],
  "content/glossary/differance.md": [
   "description",
@@ -203,16 +167,10 @@
   "czech",
   "related"
  ],
- "content/glossary/dissociativni-amnezie.md": [
-  "czech"
- ],
  "content/glossary/double-bind.md": [
   "description",
   "czech",
   "related"
- ],
- "content/glossary/doxing.md": [
-  "czech"
  ],
  "content/glossary/dual-use-poznani.md": [
   "czech",
@@ -232,15 +190,9 @@
   "czech",
   "related"
  ],
- "content/glossary/elder-abuse.md": [
-  "czech"
- ],
  "content/glossary/embodied-cognition.md": [
   "czech",
   "related"
- ],
- "content/glossary/emocionalni-terorismus.md": [
-  "czech"
  ],
  "content/glossary/entity-resolution.md": [
   "czech",
@@ -280,24 +232,15 @@
   "czech",
   "related"
  ],
- "content/glossary/epistemicky-monismus.md": [
-  "czech"
- ],
  "content/glossary/epoche.md": [
   "description",
   "czech",
   "related"
  ],
- "content/glossary/evidence-based.md": [
-  "czech"
- ],
  "content/glossary/expert-witness.md": [
   "description",
   "czech",
   "related"
- ],
- "content/glossary/falsifikabilita.md": [
-  "czech"
  ],
  "content/glossary/falsifikace.md": [
   "czech",
@@ -306,9 +249,6 @@
  "content/glossary/falsifikovatelnost.md": [
   "czech",
   "related"
- ],
- "content/glossary/fenomen.md": [
-  "czech"
  ],
  "content/glossary/fenomenologie.md": [
   "czech",
@@ -340,9 +280,6 @@
   "czech",
   "related"
  ],
- "content/glossary/godeluv-teorem.md": [
-  "czech"
- ],
  "content/glossary/graph-theory.md": [
   "description",
   "czech",
@@ -361,21 +298,9 @@
   "czech",
   "related"
  ],
- "content/glossary/heat-death.md": [
-  "czech"
- ],
- "content/glossary/hermeneuticky-kruh.md": [
-  "czech"
- ],
  "content/glossary/hermeneutika.md": [
   "czech",
   "related"
- ],
- "content/glossary/high-control-group.md": [
-  "czech"
- ],
- "content/glossary/hodnotova-destrukce.md": [
-  "czech"
  ],
  "content/glossary/hyperreality.md": [
   "czech",
@@ -2373,15 +2298,6 @@
   "not-orphan"
  ],
  "content/kompendium/techniques/ea-4-2-8-long-term-followup.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-4-3-10-conceptual-rebuild-protocol.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-4-3-8-hermeneutic-recursion.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-4-3-9-axiological-suspension.md": [
   "not-orphan"
  ],
  "content/kompendium/techniques/ea-4-4-10-identity-stabilization.md": [

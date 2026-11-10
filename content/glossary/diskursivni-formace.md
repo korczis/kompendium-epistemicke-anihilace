@@ -49,7 +49,7 @@ Pro epistemickou anihilaci je klíčové, že uzavřené skupiny a instituce moh
 
 ## Význam pro Kompendium
 
-Pojem dovoluje popsat EA na úrovni instituce a kultury: proč oběť manipulace „nemá slova“, proč je její výpověď odbyta a proč se změna nepodaří jedním faktem. Je rámcem pro [epistemickou injustici](@/glossary/epistemicka-injustice.md), pro [panoptismus](@/glossary/panopticism.md) a pro kritickou reflexi samotné knihy – i taxonomie EA je diskursivní formace a může vylučovat (viz [EA jako mocenský nástroj](@/kompendium/critical-perspectives/18-EA-as-power-tool.md)).
+Pojem dovoluje popsat EA na úrovni instituce a kultury: proč oběť manipulace „nemá slova“, proč je její výpověď odbyta a proč se změna nepodaří jedním faktem. Je rámcem pro [epistemickou injustici](@/glossary/epistemicka-injustice.md), pro [panoptismus](@/glossary/panopticism.md) a pro kritickou reflexi samotné knihy – i [taxonomie EA](@/glossary/taxonomie-ea.md) je diskursivní formace a může vylučovat (viz [EA jako mocenský nástroj](@/kompendium/critical-perspectives/18-EA-as-power-tool.md)).
 
 ## Obrana a zotavení
 

@@ -32,7 +32,7 @@ Kompendium kritéria zpracovává v referenční kartě [EA-8.2.2 Lifton Thought
 4. **Kult zpovědi** (*cult of confession*) – vynucované přiznávání „hříchů“ a myšlenek, které ruší hranici soukromí a vytváří závislost na odpuštění skupiny.
 5. **Posvátná věda** (*sacred science*) – doktrína je pokládána za konečnou, morálně i vědecky nezpochybnitelnou pravdu.
 6. **[Loading the language](@/glossary/loading-the-language.md)** – jazyk zhuštěný do klišé, která ukončují myšlení.
-7. **Doktrína nad člověkem** (*doctrine over person*) – vlastní zkušenost člověka musí ustoupit doktríně; kde se s ní rozchází, je chybná zkušenost, ne doktrína.
+7. **Doktrína nad člověkem** (*[doctrine](@/glossary/doctrine.md) over person*) – vlastní zkušenost člověka musí ustoupit doktríně; kde se s ní rozchází, je chybná zkušenost, ne doktrína.
 8. **Rozhodování o existenci** (*dispensing of existence*) – skupina si přisvojuje právo rozhodnout, kdo má právo na existenci a kdo je „ztracený“; nečlenové a odpadlíci jsou méněcenní.
 
 ## Jak se projevuje

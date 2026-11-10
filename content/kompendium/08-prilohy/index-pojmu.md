@@ -38,7 +38,7 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 
 | CS termín | EN ekvivalent | Lokace | Glosa |
 |-----------|---------------|--------|-------|
-| **[Akademická technika](@/glossary/akademicka-technika.md)** | Academic technique [=] | [Sekce 03](@/kompendium/03-zakladni-kategorie/_index.md) | Manipulační postup využívající legitimní akademické nástroje (citace, falsifikace, dialog). |
+| **[Akademická technika](@/glossary/akademicka-technika.md)** | Academic technique [=] | [Sekce 03](@/kompendium/03-zakladni-kategorie/_index.md) | Manipulační postup využívající legitimní akademické nástroje (citace, [falsifikace](@/glossary/falsifikace.md), dialog). |
 | **[Akutní narušení](@/glossary/akutni-naruseni.md)** | Acute disruption [=] | [Klasifikace §III](@/kompendium/08-prilohy/klasifikace.md) | Krátkodobá, intenzivní destrukce epistemické struktury. |
 | **Anankastický režim** | Anankastic regime [≈] | [Glossary](@/glossary/anankasticky-rezim.md) | Kompulzivní rétorický mód s rituálním opakováním a iluzí nutnosti. |
 | **Apoteoza prázdna** | Apotheosis of the void [≈] | [`EA-5.1.30`](@/kompendium/08-prilohy/rejstrik-technik.md) | Konečná deifikace ztráty jako epistemického cíle. |
@@ -50,7 +50,7 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 |-----------|---------------|--------|-------|
 | **[Banalita zla](@/glossary/banalita-zla.md)** | Banality of evil [=] | [Bibliografie §IV](@/kompendium/08-prilohy/bibliografie.md) | Arendtin pojem: zlo vznikající z absence reflexe v byrokratickém aparátu. |
 | **Bias** | Bias [=] | [Glossary](@/glossary/_index.md) | Systematická odchylka úsudku od racionálního normativu. |
-| **BITE Model** | BITE Model [=] | [Diagnostika](@/kompendium/08-prilohy/diagnosticke-nastroje.md) | Hassanův model: Behavior, Information, Thought, Emotional control. |
+| **[BITE Model](@/glossary/bite-model.md)** | BITE Model [=] | [Diagnostika](@/kompendium/08-prilohy/diagnosticke-nastroje.md) | Hassanův model: Behavior, Information, Thought, Emotional control. |
 | **[Bounded choice](@/glossary/bounded-choice.md)** | Bounded choice [=] | [Bibliografie §VIII](@/kompendium/08-prilohy/bibliografie.md) | Lalichův pojem: omezená volba uvnitř charismatického systému. |
 
 ## C
@@ -64,12 +64,12 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 
 | CS termín | EN ekvivalent | Lokace | Glosa |
 |-----------|---------------|--------|-------|
-| **Decision Engine** | Decision Engine [=] | {{ <cross_link path="/hub/dd/decisions/" text="Hub DD" /> }} | Platformový subsystém pro strukturované epistemicky kalibrované rozhodování. |
-| **Delegitimizace** | Delegitimization [=] | [Sekce 03](@/kompendium/03-zakladni-kategorie/_index.md) | Sytematický útok na epistemickou důvěryhodnost zdroje. |
+| **[Decision Engine](@/glossary/decision-engine.md)** | Decision Engine [=] | {{ <cross_link path="/hub/dd/decisions/" text="Hub DD" /> }} | Platformový subsystém pro strukturované epistemicky kalibrované rozhodování. |
+| **[Delegitimizace](@/glossary/delegitimizace.md)** | Delegitimization [=] | [Sekce 03](@/kompendium/03-zakladni-kategorie/_index.md) | Sytematický útok na epistemickou důvěryhodnost zdroje. |
 | **[Demarkační problém](@/glossary/demarkacni-problem.md)** | Demarcation problem [=] | [Bibliografie §I](@/kompendium/08-prilohy/bibliografie.md) | Popperovský problém rozlišení vědy od pseudovědy. |
 | **[DES-II](@/glossary/des-ii.md)** | Dissociative Experiences Scale [=] | [Diagnostika](@/kompendium/08-prilohy/diagnosticke-nastroje.md) | Carlson-Putnamův dotazník disociativních zkušeností. |
 | **Diferenciální nihilace** | Differential nihilation [≈] | [`EA-5.1.22`](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md) | Eliminace schopnosti rozlišovat — vše splývá. |
-| **Disociace** | Dissociation [=] | [Bibliografie §IX](@/kompendium/08-prilohy/bibliografie.md) | Klinický termín: rozštěpení vědomí, paměti, identity. |
+| **[Disociace](@/glossary/disociace.md)** | Dissociation [=] | [Bibliografie §IX](@/kompendium/08-prilohy/bibliografie.md) | Klinický termín: rozštěpení vědomí, paměti, identity. |
 | **[Diskursivní formace](@/glossary/diskursivni-formace.md)** | Discursive formation [=] | [Bibliografie §III](@/kompendium/08-prilohy/bibliografie.md) | Foucaultův pojem: pravidly řízený systém produkce výpovědí. |
 | **[Doctrine](@/glossary/doctrine.md)** | Doctrine [=] | [CLAUDE.md](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/CLAUDE.md) | 18-pillar enforcement systém platformy. |
 | **Dominantní tělesné hieroglyfy** | Dominant bodily hieroglyphs [≈] | [`EA-1.5.2`](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) | Posturální dominance jako neverbální argument. |
@@ -81,7 +81,7 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 |-----------|---------------|--------|-------|
 | **[ECRI](@/glossary/ecri.md)** | ECRI Cult Recovery Instrument [=] | [Diagnostika](@/kompendium/08-prilohy/diagnosticke-nastroje.md) | Standardizovaný instrument pro post-cult recovery. |
 | **[Edukativní implementace](@/glossary/edukativni-implementace.md)** | Educational implementation [=] | [Sekce 03](@/kompendium/03-zakladni-kategorie/_index.md) | Kategorie technik, kde subjekt manipuluje sám sebe. |
-| **Epistemic security** | Epistemic security [=] | [Glossary](@/glossary/_index.md) | Ochrana kapacit poznávání před systémovými útoky. |
+| **[Epistemic security](@/glossary/epistemic-security.md)** | Epistemic security [=] | [Glossary](@/glossary/_index.md) | Ochrana kapacit poznávání před systémovými útoky. |
 | **Epistemická alienace** | Epistemic alienation [=] | [Glossary](@/glossary/epistemicka-alienace.md) | Odcizení od vlastních poznávacích procesů. |
 | **Epistemická anihilace (EA)** | Epistemic annihilation [=] | [Glossary](@/glossary/epistemicka-anihilace.md) | Systematická destrukce schopnosti poznávat. |
 | **Epistemická integrita** | Epistemic integrity [=] | [Philosophy](@/philosophy/epistemic-integrity.md) | Koherence a autonomie poznávacích procesů. |
@@ -96,7 +96,7 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 |-----------|---------------|--------|-------|
 | **Falešná ekvivalence** | False equivalence [=] | [`EA-1.2.2`](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) | Postavení nesouměřitelných pozic do zdánlivé symetrie. |
 | **Falešné dilema** | False dilemma [=] | [`EA-1.2.1`](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) | Redukce komplexního problému na binární volbu. |
-| **Falsifikovatelnost** | Falsifiability [=] | [Bibliografie §I](@/kompendium/08-prilohy/bibliografie.md) | Popperovo demarkační kritérium. |
+| **[Falsifikovatelnost](@/glossary/falsifikovatelnost.md)** | Falsifiability [=] | [Bibliografie §I](@/kompendium/08-prilohy/bibliografie.md) | Popperovo demarkační kritérium. |
 | **Fenomenologie** | Phenomenology [=] | [Bibliografie §II](@/kompendium/08-prilohy/bibliografie.md) | Husserlova metoda zkoumání struktur vědomí. |
 | **[FLLM](@/glossary/fllm.md)** | FLLM (Flowbite LLM) [=] | [Zkratky](@/kompendium/08-prilohy/zkratky.md) | Platformová doctrine: CSS hygiena, Tailwind utility. |
 | **[Fúze horizontů](@/glossary/fuze-horizontu.md)** | Fusion of horizons [=] | [Bibliografie §II](@/kompendium/08-prilohy/bibliografie.md) | Gadamerův pojem: hermeneutické setkání. |
@@ -113,7 +113,7 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 |-----------|---------------|--------|-------|
 | **[Habitus](@/glossary/habitus.md)** | Habitus [=] | [Bibliografie §III](@/kompendium/08-prilohy/bibliografie.md) | Bourdieuův pojem: trvalé dispozice z internalizovaných struktur. |
 | **[Hermeneutická marginalizace](@/glossary/hermeneuticka-marginalizace.md)** | Hermeneutical marginalization [=] | [Bibliografie §VI](@/kompendium/08-prilohy/bibliografie.md) | Frickerová: chybějící konceptuální zdroje pro artikulaci zkušenosti. |
-| **Hermeneutický kruh** | Hermeneutic circle [=] | [Bibliografie §II](@/kompendium/08-prilohy/bibliografie.md) | Gadamerův princip cirkularity porozumění. |
+| **[Hermeneutický kruh](@/glossary/hermeneuticky-kruh.md)** | Hermeneutic circle [=] | [Bibliografie §II](@/kompendium/08-prilohy/bibliografie.md) | Gadamerův princip cirkularity porozumění. |
 | **[Heuristika](@/glossary/heuristika.md)** | Heuristic [=] | [Bibliografie §V](@/kompendium/08-prilohy/bibliografie.md) | Kahneman-Tversky: efektivní zkratka úsudku za cenu systematické chyby. |
 | **Hyperreflexivita** | Hyperreflexivity [=] | [`EA-5.1.13`](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) | Patologická reflexe znemožňující jakoukoliv akci. |
 
@@ -126,7 +126,7 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 | **Imunizace proti falsifikaci** | Immunization against falsification [=] | [`EA-1.3.1`](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) | Konstrukce tvrzení nepřístupných empirickému přezkumu. |
 | **Inferenční paralýza** | Inferential paralysis [=] | [`EA-5.1.16`](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) | Neschopnost vyvodit závěr z jasných premis. |
 | **Informační přetížení** | Information overload [=] | [`EA-1.1.2`](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) | Záměrné zahlcení daty znemožňující kritické vyhodnocení. |
-| **Intencionalita** | Intentionality [=] | [Bibliografie §II](@/kompendium/08-prilohy/bibliografie.md) | Husserl: vědomí je vždy vědomí o něčem. |
+| **[Intencionalita](@/glossary/intentionalita.md)** | Intentionality [=] | [Bibliografie §II](@/kompendium/08-prilohy/bibliografie.md) | Husserl: vědomí je vždy vědomí o něčem. |
 
 ## J–K
 
@@ -161,8 +161,8 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 | CS termín | EN ekvivalent | Lokace | Glosa |
 |-----------|---------------|--------|-------|
 | **NABLA Infinity (∇∞)** | NABLA Infinity [=] | [Glossary](@/glossary/nabla-infinity.md) | Epistemický rámec L0–L13 platformy Prismatic. |
-| **[NCLB](@/glossary/nclb.md)** | NCLB (No Claim Left Behind) [=] | [Zkratky](@/kompendium/08-prilohy/zkratky.md) | Doctrine: evidence-based platform integrity. |
-| **[NMND](@/glossary/nm-nd.md)** | NMND (No Mercy, No Doubts) [=] | [Zkratky](@/kompendium/08-prilohy/zkratky.md) · [Glossary](@/glossary/nm-nd.md) | Doctrine: zero tolerance + decisive execution. |
+| **[NCLB](@/glossary/nclb.md)** | NCLB (No Claim Left Behind) [=] | [Zkratky](@/kompendium/08-prilohy/zkratky.md) | Doctrine: [evidence-based](@/glossary/evidence-based.md) platform integrity. |
+| **[NMND](@/glossary/nm-nd.md)** | NMND ([No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md)) [=] | [Zkratky](@/kompendium/08-prilohy/zkratky.md) · [Glossary](@/glossary/nm-nd.md) | Doctrine: zero tolerance + decisive execution. |
 | **[Normální věda](@/glossary/normalni-veda.md)** | Normal science [=] | [Bibliografie §I](@/kompendium/08-prilohy/bibliografie.md) | Kuhn: paradigmatická problem-solving fáze. |
 | **[NWB](@/glossary/nwb.md)** | NWB (No Way Back) [=] | [Zkratky](@/kompendium/08-prilohy/zkratky.md) | Doctrine: permanentní řešení. |
 
@@ -171,8 +171,8 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 | CS termín | EN ekvivalent | Lokace | Glosa |
 |-----------|---------------|--------|-------|
 | **Ontologická anihilace** | Ontological annihilation [=] | [Glossary](@/glossary/ontologicka-anihilace.md) | Útok na základní kategorie bytí (já, čas, prostor, kauzalita). |
-| **Panoptismus** | Panopticism [=] | [Bibliografie §III](@/kompendium/08-prilohy/bibliografie.md) | Foucault: model disciplinární moci. |
-| **Paradigmatický posun** | Paradigm shift [=] | [Bibliografie §I](@/kompendium/08-prilohy/bibliografie.md) | Kuhn: revoluční změna vědeckého rámce. |
+| **[Panoptismus](@/glossary/panopticism.md)** | Panopticism [=] | [Bibliografie §III](@/kompendium/08-prilohy/bibliografie.md) | Foucault: model disciplinární moci. |
+| **Paradigmatický posun** | [Paradigm shift](@/glossary/paradigm-shift.md) [=] | [Bibliografie §I](@/kompendium/08-prilohy/bibliografie.md) | Kuhn: revoluční změna vědeckého rámce. |
 | **[Performativní akt](@/glossary/performativni-akt.md)** | Performative act / utterance [=] | [Bibliografie §X](@/kompendium/08-prilohy/bibliografie.md) | Austin: výpověď, která současně jedná. |
 | **Prosodická dominance** | Prosodic dominance [=] | [`EA-1.4.1`](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) | Použití hlasového rejstříku k vytvoření iluze autority. |
 | **Pseudokritické myšlení** | Pseudo-critical thinking [=] | `EA-3.1.1` | Trénink "kritičnosti" zaměřený výhradně na vnější autority. |
@@ -182,7 +182,7 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 
 | CS termín | EN ekvivalent | Lokace | Glosa |
 |-----------|---------------|--------|-------|
-| **Red Team** | Red Team [=] | [Glossary](@/glossary/color-teams.md) | Adversariální tým simulující epistemické útoky. |
+| **[Red Team](@/glossary/red-team.md)** | Red Team [=] | [Glossary](@/glossary/color-teams.md) | Adversariální tým simulující epistemické útoky. |
 | **Referenční rekurze** | Referential recursion [=] | [`EA-5.1.7`](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md) | Nekonečná smyčka odkazů bez dosažení referentu. |
 | **Reflexivní inverze** | Reflexive inversion [=] | `EA-5.1.2` | Obrácení reflexe proti reflexi samotné. |
 

@@ -49,7 +49,7 @@ Podle provozní dokumentace platformy se pilíře liší silou vynucení:
 - **poradní** – kontrola jen upozorní (mj. M5M, KNOW);
 - **bez vynucovacího modulu** – 3NL slouží jako architektonická zásada.
 
-Zastřešující zásadou je [Doktrína NM/ND](@/glossary/nm-nd.md) („No Mercy, No Doubts“): žádná nedokončená práce, žádné obcházení kontrol, rozhodování opřené o důkazy. Vynucení a obcházení řeší i platformní pojmy [Violation Protocol](@/glossary/violation-protocol.md), [Clean Run](@/glossary/clean-run.md) a [Trinity Gate](@/glossary/trinity-gate.md).
+Zastřešující zásadou je [Doktrína NM/ND](@/glossary/nm-nd.md) („[No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md)“): žádná nedokončená práce, žádné obcházení kontrol, rozhodování opřené o důkazy. Vynucení a obcházení řeší i platformní pojmy [Violation Protocol](@/glossary/violation-protocol.md), [Clean Run](@/glossary/clean-run.md) a [Trinity Gate](@/glossary/trinity-gate.md).
 
 ## Vztah ke Kompendiu
 

@@ -47,7 +47,7 @@ Strukturně veřejná sféra funguje jako **kolektivní epistemická instituce**
 
 ## Význam pro Kompendium
 
-Pojem dává jazyk pro kolektivní rozměr EA – pro informační operace, mediální smečky a algoritmickou fragmentaci. Navazují na něj kapitoly [7.7 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md), [7.8 Politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) a [7.54 Chomsky: Manufacturing Consent](@/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent.md), heslo [cynický rozum](@/glossary/cynicky-rozum.md) a kolektivní intervence v klinické části.
+Pojem dává jazyk pro kolektivní rozměr EA – pro [informační operace](@/glossary/info-ops.md), mediální smečky a algoritmickou fragmentaci. Navazují na něj kapitoly [7.7 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md), [7.8 Politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) a [7.54 Chomsky: Manufacturing Consent](@/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent.md), heslo [cynický rozum](@/glossary/cynicky-rozum.md) a kolektivní intervence v klinické části.
 
 ## Obrana a obnova
 

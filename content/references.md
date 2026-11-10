@@ -15,7 +15,6 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 
 **494 položek**, seřazených podle autora.
 
-
 ## A
 
 - Abbey, R. (2000). *Charles Taylor*. Acumen.  

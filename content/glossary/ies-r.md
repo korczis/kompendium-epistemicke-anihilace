@@ -42,7 +42,7 @@ Weiss a Marmar původně nestanovili diagnostické hraniční hodnoty. Pozdějš
 
 - **Vázanost na jednu událost.** IES-R předpokládá identifikovatelnou událost. U dlouhodobé, opakované zátěže – v násilném vztahu nebo ve skupině s vysokou mírou kontroly – je obtížné „událost“ určit a dotazník může obraz zkreslit.
 - **Neodpovídá plně DSM-5.** Nástroj vznikl před DSM-5 a nepokrývá skupinu negativních změn kognice a nálady; pro hodnocení podle DSM-5 se používá například PCL-5.
-- **Nezachycuje komplexní trauma.** Narušení sebepojetí, regulace emocí a vztahů typické pro [C-PTSD](@/glossary/c-ptsd.md) dotazník neměří.
+- **Nezachycuje [komplexní trauma](@/glossary/complex-trauma.md).** Narušení sebepojetí, regulace emocí a vztahů typické pro [C-PTSD](@/glossary/c-ptsd.md) dotazník neměří.
 - **Sebeposouzení** závisí na ochotě a schopnosti vypovídat; vyhýbání se může projevit i podhodnocením odpovědí (viz [self-report](@/glossary/self-report.md)).
 - **Časové okno sedmi dní** zachycuje aktuální stav; jednorázové měření neříká nic o průběhu.
 - **Nejde o důkaz.** Skóre nedokazuje, že se událost stala ani že ji způsobila konkrétní osoba.
@@ -71,7 +71,7 @@ Anonymizovaný kompozit: Muž přichází k psychologovi několik týdnů poté,
 
 - [Diagnostické dotazníky a nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) – IES-R v diagnostické baterii.
 - [EA-8.1.8 Traumatic Stress Screen](@/kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md) – kombinace s PCL-5.
-- [DES-II](@/glossary/des-ii.md) – screening disociace.
+- [DES-II](@/glossary/des-ii.md) – screening [disociace](@/glossary/disociace.md).
 - [6.1.3 Self-report instrumenty](@/kompendium/06-klinicke-aplikace/self-report-instrumenty.md) – kalibrace sebeposouzení.
 
 **Glosář**

@@ -122,7 +122,7 @@ Aplikace techniky **EA-6.4.4** vyžaduje specifickou modifikaci v následující
 
 ## Kdy je rámec legitimní
 
-Rámec je legitimní jen tam, kde cílem není změna orientace ani identity. Koercivní „konverzní“ postupy nejsou péčí; poskytování zdravotních služeb a informovaný souhlas s nimi upravuje zákon č. 372/2011 Sb., o zdravotních službách, a nic z toho, co kniha popisuje, nad tento rámec vlastní oprávnění nestaví.
+Rámec je legitimní jen tam, kde cílem není změna orientace ani identity. Koercivní „konverzní“ postupy nejsou péčí; poskytování zdravotních služeb a [informovaný souhlas](@/glossary/informed-consent.md) s nimi upravuje zákon č. 372/2011 Sb., o zdravotních službách, a nic z toho, co kniha popisuje, nad tento rámec vlastní oprávnění nestaví.
 
 Druhou podmínkou je souhlas, který lze odvolat, aniž je odvolání vykládáno jako vyhýbání se. U této populace je to podstatné proto, že chronický tlak menšinového postavení sám vytváří očekávání odmítnutí a odchod z péče bývá čten jako potvrzení diagnózy (Meyer, 2003).
 

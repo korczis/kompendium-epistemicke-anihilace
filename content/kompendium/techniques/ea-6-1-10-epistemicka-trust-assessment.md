@@ -148,7 +148,7 @@ Měřítko popisují [metodologické poznámky](@/kompendium/02-uvod/metodologic
 
 ## Rizikové kontexty
 
-Nejčastějším rizikovým kontextem je vyšetření, v němž je nedůvěra čtena jako paranoidita. Označení člověka za nespolehlivého zdroje o vlastním životě je testimoniální nespravedlnost a samostatné poškození (Fricker, 2007).
+Nejčastějším rizikovým kontextem je vyšetření, v němž je nedůvěra čtena jako paranoidita. Označení člověka za nespolehlivého zdroje o vlastním životě je [testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) a samostatné poškození (Fricker, 2007).
 
 Druhým rizikovým kontextem je institucionální nedůvěra u skupin, které mají s institucemi doloženou negativní zkušenost. Kde se taková nedůvěra vykládá jako individuální patologie, nese posuzování předsudek posuzovatele (Fricker, 2007).
 

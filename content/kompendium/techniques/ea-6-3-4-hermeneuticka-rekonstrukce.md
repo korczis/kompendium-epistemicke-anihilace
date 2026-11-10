@@ -118,7 +118,6 @@ Aplikace techniky **EA-6.3.4** vyžaduje specifickou modifikaci v následující
 
 **Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence v perinatálním období.
 
-
 ## Kdy je rámec legitimní
 
 Hermeneutická práce je péčí tehdy, když dotčenému člověku rozšiřuje zásobu pojmů, jimiž může své zkušenosti rozumět, a nepředepisuje mu výklad. Fricker (2007) popisuje hermeneutickou nespravedlnost právě jako stav, v němž člověku chybí pojmy pro to, co se mu děje; náprava spočívá v jejich dostupnosti, ne v dodání hotového závěru.

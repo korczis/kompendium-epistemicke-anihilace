@@ -118,7 +118,6 @@ Aplikace techniky **EA-6.3.8** vyžaduje specifickou modifikaci v následující
 
 **Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence v perinatálním období.
 
-
 ## Kdy je rámec legitimní
 
 Relační práce je péčí tehdy, když obnovuje schopnost člověka vztahy volit a také ukončovat. Herman (1992) popisuje zotavení jako obnovení vztahů, ale podmiňuje je bezpečím; vztah, který nelze opustit, proto nemůže být jeho nástrojem.

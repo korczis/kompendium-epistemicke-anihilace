@@ -118,7 +118,6 @@ Aplikace techniky **EA-6.3.7** vyžaduje specifickou modifikaci v následující
 
 **Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence v perinatálním období.
 
-
 ## Kdy je rámec legitimní
 
 Práce s identitou je péčí tehdy, když určení toho, kdo člověk je, zůstává u něj. Herman (1992) popisuje zotavení jako obnovení schopnosti disponovat vlastním životem; rámec, který tuto otázku rozhoduje za člověka, je tedy jeho opakem, jakkoli odborným jazykem mluví.

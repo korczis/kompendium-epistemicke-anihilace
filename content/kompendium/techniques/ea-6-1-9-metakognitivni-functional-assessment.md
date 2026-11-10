@@ -138,7 +138,7 @@ Krizová varianta posiluje stabilizační složku na úkor expoziční. Návrat 
 
 ## Kdy je rámec legitimní
 
-Vyšetření metakognice je péčí tehdy, když jeho cílem je vrátit člověku schopnost posoudit vlastní úsudek. Sledování a řízení vlastního myšlení je popsaná funkce, nikoli vlastnost, kterou by vyšetření teprve přisuzovalo, a nálezem je její narušení, ne její chybění (Flavell, 1979).
+Vyšetření [metakognice](@/glossary/metakognice.md) je péčí tehdy, když jeho cílem je vrátit člověku schopnost posoudit vlastní úsudek. Sledování a řízení vlastního myšlení je popsaná funkce, nikoli vlastnost, kterou by vyšetření teprve přisuzovalo, a nálezem je její narušení, ne její chybění (Flavell, 1979).
 
 Druhým znakem je souhlas, který lze kdykoli odvolat, a výsledek, který se vrací vyšetřovanému. Souhlas je proces, nikoli podpis, a v závislém postavení ho nelze číst jako svobodný (Faden a Beauchamp, 1986).
 

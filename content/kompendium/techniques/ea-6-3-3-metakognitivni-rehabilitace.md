@@ -119,7 +119,6 @@ Aplikace techniky **EA-6.3.3** vyžaduje specifickou modifikaci v následující
 
 **Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence v perinatálním období.
 
-
 ## Kdy je rámec legitimní
 
 Práce s metakognicí je péčí tehdy, když se dotýká vztahu člověka k vlastnímu myšlení, a nikoli obsahu toho, co si myslí. Metakognitivní tradice je v tomto ohledu výslovná: předmětem je způsob, jakým se člověk ke svým myšlenkám staví, ne jejich obsahová správnost (Wells, 2009).

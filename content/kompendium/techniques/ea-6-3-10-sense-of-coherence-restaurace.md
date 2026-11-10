@@ -102,9 +102,6 @@ Technika **EA-6.3.10** se historicky vyvinula z konvergence několika klinickýc
 
 **Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
 
-
-
-
 ## Vulnerabilní podpopulace
 
 Aplikace techniky **EA-6.3.10** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
@@ -133,6 +130,7 @@ Kompendium uvádí následující adaptace jako varianty rámce, ne jako dolože
 V českém kontextu k nim patří mezigenerační zkušenost s institucionálním násilím a nedůvěra k pečujícím institucím.
 
 **Varianta pro dekompenzaci**: tam, kde je člověk aktuálně nestabilní, zůstává práce u posílených stabilizačních složek.
+
 ## Kdy je rámec legitimní
 
 Práce se soudržností je péčí tehdy, když zůstává u dotčeného člověka, co jeho životu dává smysl. Antonovsky (1987) popisuje soudržnost jako obecnou životní orientaci utvářenou zkušeností, tedy jako něco, co se opírá o skutečné zdroje, a ne o přesvědčení dodané zvenčí.

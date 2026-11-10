@@ -118,7 +118,6 @@ Aplikace techniky **EA-6.3.2** vyžaduje specifickou modifikaci v následující
 
 **Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence v perinatálním období.
 
-
 ## Kdy je rámec legitimní
 
 Externalizace je péčí tehdy, když autorství zůstává u dotčeného člověka: on sám pojmenovává, co k němu nepatří, a klinik mu nedodává hotový popis jeho minulosti. Tak je externalizující práce původně formulována — problém se odděluje od osoby, ale pojmenování vychází z jejího vlastního jazyka (White a Epston, 1990).

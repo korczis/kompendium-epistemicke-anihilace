@@ -118,7 +118,6 @@ Aplikace techniky **EA-6.3.5** vyžaduje specifickou modifikaci v následující
 
 **Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence v perinatálním období.
 
-
 ## Kdy je rámec legitimní
 
 Konsolidace je péčí tehdy, když o jejím konci rozhoduje dotčený člověk spolu s klinikem, a ne kapacita zařízení nebo plátce. Herman (1992) popisuje závěrečnou fázi zotavení jako obnovení vztahu k druhým a k vlastnímu životu, tedy jako přechod, který nelze vyhlásit zvenčí.

@@ -156,7 +156,7 @@ Od běžné rodinné konsultace se postup odlišuje tím, že jeho předmětem n
 
 Od nadřazeného svědectví se odlišuje tím, že i výpověď informanta je rekonstrukce. Vzpomínka blízkého člověka podléhá stejným vlivům jako vzpomínka vyšetřovaného, včetně vlivu otázky, která obsah nabídne (Loftus, 1993).
 
-Od převzetí kredibility se odlišuje tím, že se pohled informanta nepostaví na místo výpovědi vyšetřovaného. Kde se tak stane, jde o testimoniální nespravedlnost, protože člověk přestává být zdrojem poznání o vlastním životě (Fricker, 2007).
+Od převzetí kredibility se odlišuje tím, že se pohled informanta nepostaví na místo výpovědi vyšetřovaného. Kde se tak stane, jde o [testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md), protože člověk přestává být zdrojem poznání o vlastním životě (Fricker, 2007).
 
 Od sousedních technik se odlišuje zdrojem dat. [EA-6.1.2 self-report instrument](@/kompendium/techniques/ea-6-1-2-self-report-instrument.md) zachycuje vrstvu, k níž má člověk sám přístup, [EA-6.1.4 observational assessment](@/kompendium/techniques/ea-6-1-4-observational-assessment.md) to, co je přímo vidět; rozhovor s blízkými přidává časovou osu, kterou ani jeden z nich nemá (Herman, 1992).
 

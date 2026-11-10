@@ -118,7 +118,6 @@ Aplikace techniky **EA-6.3.6** vyžaduje specifickou modifikaci v následující
 
 **Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence v perinatálním období.
 
-
 ## Kdy je rámec legitimní
 
 Narativní práce je péčí tehdy, když autorem příběhu zůstává dotčený člověk. V původní formulaci je úkolem klinika vytvořit podmínky pro přepsání příběhu, nikoli dodat jeho znění; hodnota výsledku je v tom, že je vlastní (White a Epston, 1990).

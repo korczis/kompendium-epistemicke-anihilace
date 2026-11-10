@@ -170,7 +170,7 @@ Druhým rizikovým kontextem je vyšetření u člověka, který ve vztahu dosud
 
 Třetím rizikovým kontextem je screeningový skór čtený jako rozsudek. Jediné kritérium významné změny, k němuž má kniha publikovaný zdroj, je reliable change index nad hodnotou 1,96 a skór v rozmezí 1 SD normy netraumatizované populace (Jacobson a Truax, 1991).
 
-Čtvrtým rizikovým kontextem je výklad mezer jako nedůvěryhodnosti. Amnézie na část expozice bývá čtena jako doklad, že se nic nestalo, což je testimoniální nespravedlnost a samostatné poškození (Fricker, 2007).
+Čtvrtým rizikovým kontextem je výklad mezer jako nedůvěryhodnosti. Amnézie na část expozice bývá čtena jako doklad, že se nic nestalo, což je [testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) a samostatné poškození (Fricker, 2007).
 
 ## Vztah k jiným technikám
 

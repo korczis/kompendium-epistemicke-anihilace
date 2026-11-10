@@ -118,7 +118,6 @@ Aplikace techniky **EA-6.3.9** vyžaduje specifickou modifikaci v následující
 
 **Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence v perinatálním období.
 
-
 ## Kdy je rámec legitimní
 
 Práce s hodnotami je péčí tehdy, když obsah hodnot zůstává věcí dotčeného člověka a předmětem práce je jeho schopnost podle nich rozhodovat. Herman (1992) popisuje zotavení jako obnovení dispozice nad vlastním životem; rámec, který předepíše, čemu má člověk přikládat cenu, stojí proti němu.

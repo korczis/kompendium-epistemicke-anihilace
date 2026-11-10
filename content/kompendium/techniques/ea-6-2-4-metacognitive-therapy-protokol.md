@@ -192,7 +192,7 @@ Třetím je uzavřené prostředí, kde se pochybnost o výkladu nabízeném aut
 
 Pátým je očekávání, že pozornostní práce zastoupí vztahovou regulaci; u akutně dysregulovaného člověka je zdrojem stabilizace především přítomnost druhého (Porges, 2011).
 
-Dalším rizikovým kontextem je prostředí, kde se slovník metakognice používá k hodnocení lidí — v personálních procesech, ve vzdělávání, v programech pro odolnost. Z klinického pojmu se tam stává nástroj posouzení osoby a svědectví o újmě se převádí na vlastnost toho, kdo je podává (Fricker, 2007).
+Dalším rizikovým kontextem je prostředí, kde se slovník [metakognice](@/glossary/metakognice.md) používá k hodnocení lidí — v personálních procesech, ve vzdělávání, v programech pro odolnost. Z klinického pojmu se tam stává nástroj posouzení osoby a svědectví o újmě se převádí na vlastnost toho, kdo je podává (Fricker, 2007).
 
 Rizikem je i souběh pozornostní práce s nestabilizovaným traumatickým obrazem, kde postup bez stabilizace předbíhá to, co dotčený člověk unese (Herman, 1992).
 

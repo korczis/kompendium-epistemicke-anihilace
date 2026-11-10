@@ -118,7 +118,6 @@ Aplikace techniky **EA-6.3.1** vyžaduje specifickou modifikaci v následující
 
 **Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence v perinatálním období.
 
-
 ## Kdy je rámec legitimní
 
 Stabilizační práce je péčí tehdy, když jejím cílem je vlastní kapacita člověka, a ne jeho vstřícnost vůči programu. Herman (1992) klade obnovení bezpečí a opory na začátek zotavení právě proto, že teprve v bezpečí lze rozlišit souhlas od přizpůsobení; dokud člověk nemá kam odejít, nelze jeho spolupráci číst jako volbu.

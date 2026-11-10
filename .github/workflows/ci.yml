@@ -71,6 +71,8 @@ jobs:
         run: python3 scripts/build-graph.py --check
       - name: Shell data (navigation, terms, search, viz libraries) is current
         run: python3 scripts/build-ui-data.py --check
+      - name: Section graphics (SVG, OG images) are current
+        run: python3 scripts/render-section-graphics.py --check
       - name: Front matter is normalised
         run: python3 scripts/normalize-front-matter.py --check
       - name: Markdown is polished

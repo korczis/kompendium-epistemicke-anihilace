@@ -1,0 +1,447 @@
+{
+ "files": {
+  "family-ea-1.svg": {
+   "sha256": "1758e230e378f104b33bc977aa05dcf3086d795e56d28390e00f50277e5c8777"
+  },
+  "family-ea-2.svg": {
+   "sha256": "94697be52aa8cf5cb44c41b93cd24545bb39475e7552f0e95dcd5187bb306710"
+  },
+  "family-ea-3.svg": {
+   "sha256": "1c0f818635fe868cb5427019dfd235ce186766666c127702b390439afd036ff4"
+  },
+  "family-ea-4.svg": {
+   "sha256": "02c10be33f5c835139cd15291668f283a5a16000163072ac4f7502f5824e732d"
+  },
+  "family-ea-5.svg": {
+   "sha256": "4e0c18d68e98d9c0fad42a3ad6f1f238bc5c88f5addf44b11ed1cc5b50f07b70"
+  },
+  "family-ea-6.svg": {
+   "sha256": "b4b554d6ce676e2d84f790a6675f7bc05992d216b0670bb75cf792449cba8696"
+  },
+  "family-ea-7.svg": {
+   "sha256": "2c9751e085dad5fe693128525a948b8718c8399a3fedbebbe09ecc4048ff9ef3"
+  },
+  "family-ea-8.svg": {
+   "sha256": "5a571eeae9adecba98e4bb34efb1dc1cd30c2e9cad7c62331b978804949fa323"
+  },
+  "family-ea-9.svg": {
+   "sha256": "83a2359021368623c9f06e4cbee60970f708b9b13cf40b881f5c02721e480119"
+  },
+  "og-glossary.png": {
+   "height": 630,
+   "sha256": "36e527d65dc4f41ef71be93764d0e91d326f66b84a0e233b694f198318e390da",
+   "source_sha256": "f7e422710f868d6c2b00b9a059f54c899116694625dfddf5b08101d5d9c42379",
+   "width": 1200
+  },
+  "og-kompendium-01-predmluva.png": {
+   "height": 630,
+   "sha256": "ece1b0f24ebdcbad2d7ff57a0ccf0c20d7c8446511be2b495da4280fe96386ed",
+   "source_sha256": "ecdee93bf84eb21aca9fafef1a761c405980aff71b266e5765db334eaed090c7",
+   "width": 1200
+  },
+  "og-kompendium-01-zaklady-manipulace.png": {
+   "height": 630,
+   "sha256": "4ceb1e4df659b7f5170811b566a3adeb0effa1a673c79734b025c91abe5b21ba",
+   "source_sha256": "c086f47fc11d279d3cfe1ed69790f494914121fc8bf5aa3539842544992535f2",
+   "width": 1200
+  },
+  "og-kompendium-02-doktrinalni-ramec.png": {
+   "height": 630,
+   "sha256": "d50b9b9b5bff9b5d1a963925b16c033ff39a8c9632a9a627a1a2c23a7f87ab5e",
+   "source_sha256": "bc02ad47168f82215e247099de8ead5d824bc64eed23e3eceadee72e93041b1a",
+   "width": 1200
+  },
+  "og-kompendium-02-uvod.png": {
+   "height": 630,
+   "sha256": "c208da7459eda6d360f9016229c06a5dc16e4682e63ecfd1e48e9890a6e42881",
+   "source_sha256": "8f71c7c272ace9168eea4a667f04912c4d4318bef6b4c6e88c3994d889ad7804",
+   "width": 1200
+  },
+  "og-kompendium-03-manipulacni-vzorce.png": {
+   "height": 630,
+   "sha256": "de3f7da75d58250b424ee6e6a19459f7c55aa5e2b69b247cde1eec45c877e3ca",
+   "source_sha256": "0ca1cdbe22371f3c04f7a32ac9f527171f642e4b555808fadfdd8c6d9a2e5b8b",
+   "width": 1200
+  },
+  "og-kompendium-03-zakladni-kategorie.png": {
+   "height": 630,
+   "sha256": "4a8d0dd7a6e412e2ba3561e5c19d627af0ef08c4f306dba83ba80b6c7aecc81a",
+   "source_sha256": "c2767623fca7734b8b56e47be26f67569c1773b2eca3c611c99885cfd1680a2d",
+   "width": 1200
+  },
+  "og-kompendium-04-klinika.png": {
+   "height": 630,
+   "sha256": "168fe7be438e1929c635c8e4bf3692cb0dc9657b8e93a8fca9a40f6dd634b610",
+   "source_sha256": "05609e34d0c31e0a2b751e805383422940e0334ae4b7301079af2f3a1dfcae3c",
+   "width": 1200
+  },
+  "og-kompendium-04-operacni-principy.png": {
+   "height": 630,
+   "sha256": "4b78f6fc231348f898d26ace0404a618a9eba911d5a3ca7f313eadc4229c081f",
+   "source_sha256": "5dcc5484ede4cd7382435fa27e88a4c620276f3d898f655bcf5722971fa7f4ac",
+   "width": 1200
+  },
+  "og-kompendium-04-pokrocile-fenomeny.png": {
+   "height": 630,
+   "sha256": "0908c4e4ae272665315e25cd733473026d52471e08b9ff023f855f2e135508d6",
+   "source_sha256": "40b542b4a8a0f10e3fdc0c2f7d2359ea8ea0533a3dd4c03bfef0a016d9135989",
+   "width": 1200
+  },
+  "og-kompendium-04-terminalni-protokoly.png": {
+   "height": 630,
+   "sha256": "8f1ed08b2ba3a017e7118258dd6705cef2812236e6226a1f7fdb0e804088efa3",
+   "source_sha256": "72302be3019f1535294feb2705535039459a9b165f97d0ef619633f2d238251c",
+   "width": 1200
+  },
+  "og-kompendium-05-diagnostika.png": {
+   "height": 630,
+   "sha256": "d89cdd07a7bc968d7de26961b0ac5aee19365c1d0ac81a248bd3a04b1a15edf2",
+   "source_sha256": "72260bed1843e12a0e9ed80b8da86c09fe0379ed2a0329fc4f3595e6336c9dfe",
+   "width": 1200
+  },
+  "og-kompendium-05-kolektivni-rozmer.png": {
+   "height": 630,
+   "sha256": "cb7d475bf33d4b2c508cb7b06cf3c71fabb1114f26788b8fdd6ef5d01941e2d7",
+   "source_sha256": "f0a37784407d302d8609b17f64b4e2cddce0e45471e3ceb188b9bf33b8966ce3",
+   "width": 1200
+  },
+  "og-kompendium-05-pre-konceptualni-rozklad.png": {
+   "height": 630,
+   "sha256": "66acf7dedd6179f3aaddb781dea77624c41800de8722eb7d31a068a027bb5ca1",
+   "source_sha256": "e369788ee65e92c0ab75f4aaa2b7751fcb77257c45575b547650f63b330de7e2",
+   "width": 1200
+  },
+  "og-kompendium-05-ultramari-techniky.png": {
+   "height": 630,
+   "sha256": "48ae4dec0801b9aed64c2d88bf27e6aa3f22fa03cf60a37a9809b1acfacde9e8",
+   "source_sha256": "4e6880e0fcc6e00d6628178ca5a37f4b9d75d60003237c75d7fccf8cd9ec2259",
+   "width": 1200
+  },
+  "og-kompendium-06-epistemicka-singularita.png": {
+   "height": 630,
+   "sha256": "957d37046594c4d2883a8366bd0cde62c6ee7d49a00704bb148b80ed0c4be9f9",
+   "source_sha256": "72b87fe56f6a1e41cd779fbec8ab116d8e33864d59ed3484bd42c401cce32cb2",
+   "width": 1200
+  },
+  "og-kompendium-06-intervence-a-obrana.png": {
+   "height": 630,
+   "sha256": "3f5b518153f4b80ce18e13489817a2526754cda8f1f6e10a02f8933aa76cd7b8",
+   "source_sha256": "36ea093ac8e69f6f6ad210036289dac5b7e229adee94b032cc0ff05b4556930e",
+   "width": 1200
+  },
+  "og-kompendium-06-klinicke-aplikace.png": {
+   "height": 630,
+   "sha256": "25ecce907f8760cb74003c11c3ae792ac53194b9b1fd0ccc233dd69678b720de",
+   "source_sha256": "5599641799793691d30c0840c2b0f5b32b1a88b572bd81ff70fedc75f6886c56",
+   "width": 1200
+  },
+  "og-kompendium-06-obrana.png": {
+   "height": 630,
+   "sha256": "a7bf757ec8bd1238181377cb0547070afb994ea6e707d5fcdc6748973564af5d",
+   "source_sha256": "f89d9a85814836407e84339c4dd85d92139fb6579d21a6cb6601346eedd0a7a7",
+   "width": 1200
+  },
+  "og-kompendium-07-populacni.png": {
+   "height": 630,
+   "sha256": "f011a57b1ce060a656101e2145478743c50127699073171b0e803a55481ef164",
+   "source_sha256": "690b82f839b90713feb95432576cabea015ba1a585efe3b7bb1fbc574bbf528c",
+   "width": 1200
+  },
+  "og-kompendium-07-teoreticke-reflexe.png": {
+   "height": 630,
+   "sha256": "5444e3eef5ddc2bc7e3428bdb996cc688897b51ce9eb733546d5583426f9dd67",
+   "source_sha256": "6389bb10e3afc9cfeb6be5994fe468babc38c28cfab6fa22eac66b97fd558cc1",
+   "width": 1200
+  },
+  "og-kompendium-08-prilohy.png": {
+   "height": 630,
+   "sha256": "7217f3308e35e7594bc8813659b0c8ef43b62e2cdd2c6ce1d5519a44e0e53c4c",
+   "source_sha256": "9974b95b8796c1ae89387d5ec66e1a72b28d70534a073109caac1ed6f78ea52d",
+   "width": 1200
+  },
+  "og-kompendium-aiad-integration.png": {
+   "height": 630,
+   "sha256": "32f532563f424d39d103b3716bde2c35be6628029f48c219cbbaca2cde1cbb46",
+   "source_sha256": "e50a0465b0136c29a6bb6514def8f33a3d5a9fe679e29be6fb58545b5e0518f3",
+   "width": 1200
+  },
+  "og-kompendium-case-studies.png": {
+   "height": 630,
+   "sha256": "523dbb9c460c45ec14476cb32c86cce50061f3c317f21e0518567070c382e84e",
+   "source_sha256": "417c9395f3852b51080a4c3f8dba1dd41afeddb5d40c9a112f26cd78e56d8b7a",
+   "width": 1200
+  },
+  "og-kompendium-critical-perspectives.png": {
+   "height": 630,
+   "sha256": "3d0ee8f3258ce133bfead910644eda9e4ce30ba0e8a9362173eeb5372028b840",
+   "source_sha256": "f6e292c8657c71b4354fdb1cd33ebe3c9961a49afbb991198980f1659f02e193",
+   "width": 1200
+  },
+  "og-kompendium-cross-domain.png": {
+   "height": 630,
+   "sha256": "e49b2720d49d004c692d5e59a9bb10faf9cbde596741d834cdf560037a27a65d",
+   "source_sha256": "dc2760ea6ea137e6d528858bbc54e635779d62ca6bebfcc01b6eb01357a5d040",
+   "width": 1200
+  },
+  "og-kompendium-detection-signatures.png": {
+   "height": 630,
+   "sha256": "85a16b5598c591e9ff506d655e9a33bad23a13aae72f7ad96353abb267a2cdbd",
+   "source_sha256": "547a39687e05ad41f14764c1fbeccc58ba36df6d293cca1e01590a1de7d69a52",
+   "width": 1200
+  },
+  "og-kompendium-educational-scenarios.png": {
+   "height": 630,
+   "sha256": "ce9e6585598311dd294380099cc14d89885154a75f07400a63b40310f754d30a",
+   "source_sha256": "0ced33e9197370c3fab5511a88fce59889555f944736b9d97b133344165ce965",
+   "width": 1200
+  },
+  "og-kompendium-emergency-protocols.png": {
+   "height": 630,
+   "sha256": "1eaeeec639472c6c533ac80099ff8ce30328dc1ed32f5d126ef78fd10ec59ed4",
+   "source_sha256": "bedc2b16b933b0fb0bb5116910cb576c4ab24c41119a0da1d57694a03db50201",
+   "width": 1200
+  },
+  "og-kompendium-forensic-legal.png": {
+   "height": 630,
+   "sha256": "ccf2a6fdb7056fe67d3b6e97f8355558b1e1419e7ac774bd910ce8b4da70e489",
+   "source_sha256": "74bd7eb2fa27c586e740a01cb7e865a724f049e763f9767234e6cef230ff353a",
+   "width": 1200
+  },
+  "og-kompendium-glossary-bridges.png": {
+   "height": 630,
+   "sha256": "b02b910a173eba17a135156d28c2159d952d6960cfda9b89688e71e10e88d70f",
+   "source_sha256": "90595cde13fb340a1d2853c909991b8350cce86eba322a4e9abd53721ee3164f",
+   "width": 1200
+  },
+  "og-kompendium-historical-cases.png": {
+   "height": 630,
+   "sha256": "1e62fce27a0ee9d2f984cd1fa89cf5a6aadaa8a32f2ef628665737d18807fec1",
+   "source_sha256": "315d1f18808d77c6e7280ce88aa634f846112d8d95b74ee39dea96a6614c3796",
+   "width": 1200
+  },
+  "og-kompendium-international.png": {
+   "height": 630,
+   "sha256": "aa5a7366af440eb60d06898ade9ef177fa3c183f3b8bfd6befffe5a721fcd26d",
+   "source_sha256": "3ffe45e9408b665742fbcf1ca3b3fe532d229dd8b6c3a05d59134a6ed9abd4f0",
+   "width": 1200
+  },
+  "og-kompendium-konceptualni-mapa.png": {
+   "height": 630,
+   "sha256": "650e50fe1cf10dbaf814590aa0b508d9b2209a4d46180585f9e242cf4afe8315",
+   "source_sha256": "b624bceeb1a769a8f1bdf3b92e21fc5c8d2b963436de7ee65a3b619648db7c7e",
+   "width": 1200
+  },
+  "og-kompendium-organizational-defense.png": {
+   "height": 630,
+   "sha256": "f108f8e3c42484dacf9f94e35b9fe9e0568541a21f075912c27d115385cee7d4",
+   "source_sha256": "bc97f21ab124d8613cc6185eb960e20a0b92d241bf72a2795ed7090550220b81",
+   "width": 1200
+  },
+  "og-kompendium-population-health.png": {
+   "height": 630,
+   "sha256": "418c122ce3c13b47dd2845d6b85238c4a6241084e238ee3446702c26aaca1c16",
+   "source_sha256": "969e395f794ec5be4f54b0ad2afab08998421b8e0935921b34e3770d621f24c9",
+   "width": 1200
+  },
+  "og-kompendium-prevention-resilience.png": {
+   "height": 630,
+   "sha256": "b1e8b36ec2d75c5e1a7eafae43f562e91457b560ada971d749cd87ea4a7ce603",
+   "source_sha256": "115ebbfc89d893f0c6bd04416d1e1dd2005f7a983c680d714fd118f97d99d399",
+   "width": 1200
+  },
+  "og-kompendium-quick-reference.png": {
+   "height": 630,
+   "sha256": "6b2330cf7a365ad37832c992d2c8e308ac5b71132ad288cabb681312bd4d7e14",
+   "source_sha256": "d957c9c37a42fc1ecd8d3dd02413e6889032055c60d0210c75bf77de377ea7a1",
+   "width": 1200
+  },
+  "og-kompendium-recovery-protocols.png": {
+   "height": 630,
+   "sha256": "98485e4a6b428d1d068d853d2e7c5849f9429dd3cab34c077de43a1a8a74b52e",
+   "source_sha256": "52177913ffefec1c5c386b66c7b41d8e64ef1e45cbafaa15b05fa3355903fe1c",
+   "width": 1200
+  },
+  "og-kompendium-research-methodology.png": {
+   "height": 630,
+   "sha256": "b0e4c4b247c124fced7c0bbe638df5e5f5c5d3fd87a7e20c75fe1762cea0dc11",
+   "source_sha256": "2c21a7d3f7056ca64b217aeae9227c404cccbda5902dc101bc3738bb35ed2714",
+   "width": 1200
+  },
+  "og-kompendium-section-bridges.png": {
+   "height": 630,
+   "sha256": "ed3bb35bc75116db71ab283353749f39ada67bf3044779f20d3f0baf28b97a3f",
+   "source_sha256": "4f71dbc1039a338c95dd3e2482fad838f93c001abe462891d2b651970eb4e682",
+   "width": 1200
+  },
+  "og-kompendium-self-defense-guides.png": {
+   "height": 630,
+   "sha256": "7272b0657f35cb730d889c4357ecb2e064f2a315eeef1c962b628a3bf04b8e4a",
+   "source_sha256": "61e902ab1977aed07e7d305ba2fb3a46fb56ee3cbab35438b36bbc745acc9b9e",
+   "width": 1200
+  },
+  "og-kompendium-techniques.png": {
+   "height": 630,
+   "sha256": "91f7541eee69bdabb44c695a6e3fd52ce8a482fdbe4dd4b2d991a29b1e6cc9f7",
+   "source_sha256": "e8e9e31684d15571b0f887ac6bdc89b1daa06baec0074b2106e001efa5e85577",
+   "width": 1200
+  },
+  "og-kompendium-visualizations.png": {
+   "height": 630,
+   "sha256": "defcd46032c3bfe7f352e48f950bab21dae603702b6976c8aafe59ba54b771fe",
+   "source_sha256": "530bbe5a2d8e6a6bffbfef1ce58ad8daa634bdaf214c95e25a029f36072a4d7b",
+   "width": 1200
+  },
+  "og-kompendium.png": {
+   "height": 630,
+   "sha256": "6d10600c41fd13e38e41d4327be39a919c47765e4c823ad043a8c3d83eb28f14",
+   "source_sha256": "c486304e0be26c6004a94e196ec6698cd52617243fcec6a8cd70673b342cfb4a",
+   "width": 1200
+  },
+  "og-philosophy.png": {
+   "height": 630,
+   "sha256": "894bc51316c377a47d24d9ddeb16dae50f036a8585d60c75d77c2f45cc9935de",
+   "source_sha256": "167c5e272874261f15de6f80ccc7bcef1f87728030fbf2c114e098c8f65a5a52",
+   "width": 1200
+  },
+  "section-glossary.svg": {
+   "sha256": "1f447e168ddb90945d3f84591f19665b0de3e30dd8094be52dc1e4c012f90400"
+  },
+  "section-kompendium-01-predmluva.svg": {
+   "sha256": "d21995e8c121099c39fef0c36f1910d87343d718c585db28169b1f1986a772a4"
+  },
+  "section-kompendium-01-zaklady-manipulace.svg": {
+   "sha256": "0de2e583a6a0c7cd7d358cf1ec051bf7e7777d7181703b61d42fdbf6a2302085"
+  },
+  "section-kompendium-02-doktrinalni-ramec.svg": {
+   "sha256": "3c3cd5ac8bd953183b7bafcd3db1e4b79ce47bea99fc09377aeb602a99a5a5c8"
+  },
+  "section-kompendium-02-uvod.svg": {
+   "sha256": "2c4ed75055cf174e0922560b5174cfd03eabc3a7eac216366b6849217591b54e"
+  },
+  "section-kompendium-03-manipulacni-vzorce.svg": {
+   "sha256": "d53221395c54510f460e8b38b1467f831c789bb01f32c7365d00fd40a68c2bab"
+  },
+  "section-kompendium-03-zakladni-kategorie.svg": {
+   "sha256": "87af95868fdda00f07d565f37f68efba50e9f8641a869a7017989e7b26715213"
+  },
+  "section-kompendium-04-klinika.svg": {
+   "sha256": "605dc34f0e4bfc6effcd0797f1462150ad8ca85c20263cc4c1efaacb6bfc1ec1"
+  },
+  "section-kompendium-04-operacni-principy.svg": {
+   "sha256": "b68240754f7924f94d22c9ae5bf5fc68622b99780d6d1f9fd7947828a9f29eaf"
+  },
+  "section-kompendium-04-pokrocile-fenomeny.svg": {
+   "sha256": "beb40166f430c2dd1a69cb336024ae615c5c08d9f029afe3eebb1711c41f17a7"
+  },
+  "section-kompendium-04-terminalni-protokoly.svg": {
+   "sha256": "a0a985f25810b11d2cfe6270ab6df9e320814bf5bce6aa94c32b83a1ab7284bb"
+  },
+  "section-kompendium-05-diagnostika.svg": {
+   "sha256": "8680001bcc9bb99ac5206753927486fba6a7ada0203bdee3eecc24f651e8ece0"
+  },
+  "section-kompendium-05-kolektivni-rozmer.svg": {
+   "sha256": "3c0e0d93941bfe402aaa416e7639be4ff61af9e5a5b8d81233893e11d206848b"
+  },
+  "section-kompendium-05-pre-konceptualni-rozklad.svg": {
+   "sha256": "ed6cbb84689d6b0c1e9bbd26a5b155694aa5e9b66647ad8c53571f6996b00430"
+  },
+  "section-kompendium-05-ultramari-techniky.svg": {
+   "sha256": "76c75fe9dbd3c02aca34da470491ad63d57680493ad662693daf5a49167ff5e1"
+  },
+  "section-kompendium-06-epistemicka-singularita.svg": {
+   "sha256": "176ec5a333fa1fbd9eb1d093a769f4b7145bb36e83b8d4ae4c16cd93a7c0ecc5"
+  },
+  "section-kompendium-06-intervence-a-obrana.svg": {
+   "sha256": "f7996877eb94b8ae5b9131814d2b96a001396f1907a5e20e21c5692a7c633062"
+  },
+  "section-kompendium-06-klinicke-aplikace.svg": {
+   "sha256": "3a573174e8a8eda3655dfc28a6c27abcb23e07b794873b8afd8ef27e3c5effd3"
+  },
+  "section-kompendium-06-obrana.svg": {
+   "sha256": "cdf56c1f02cfb12f4a5b9eefb76e9c6cdeb4019958daf15cf3368b07bd35a2cf"
+  },
+  "section-kompendium-07-populacni.svg": {
+   "sha256": "16cb1e6050442b5bfe77818dcdf8494199dcdd84a6f4edcbe7b05d47d31960db"
+  },
+  "section-kompendium-07-teoreticke-reflexe.svg": {
+   "sha256": "df1beb1fd351a4b6559ce889306a96a0def21ca2cc94c8bf339b215740916e64"
+  },
+  "section-kompendium-08-prilohy.svg": {
+   "sha256": "f78f2d72b91e90cef62788dfdc951476245ebc1640f8c001b514d596b390d281"
+  },
+  "section-kompendium-aiad-integration.svg": {
+   "sha256": "89e90ee3280938cedfde2d54e7360a0af31f6001007dca9b2767c76965423045"
+  },
+  "section-kompendium-case-studies.svg": {
+   "sha256": "62c09121cf2c1260161e72dab91857170d77b87306f94758d6b3b557ea40def1"
+  },
+  "section-kompendium-critical-perspectives.svg": {
+   "sha256": "4a05388fb082eedffe99fe7a483c3b5d9361bfaef226f6efcd2ae0fc5037d475"
+  },
+  "section-kompendium-cross-domain.svg": {
+   "sha256": "a5840b2b7ae6e95598980d8a822a81e63376705d725abda35d88124fdb20d2d9"
+  },
+  "section-kompendium-detection-signatures.svg": {
+   "sha256": "53d39dce37f05d088cd889a9dbdc1552f464bf18146b8e6b7aa8450d0dccc9d9"
+  },
+  "section-kompendium-educational-scenarios.svg": {
+   "sha256": "e0f9a2a63b04892f2adeeb5064ff7c739ed9951ad94f5a397d555f62ea28ab87"
+  },
+  "section-kompendium-emergency-protocols.svg": {
+   "sha256": "c35532ac516d35eada00f92f3d36ade6483367d64b4beab9ff9b2b1e2cf7befd"
+  },
+  "section-kompendium-forensic-legal.svg": {
+   "sha256": "e15197790fece1851c467f0675cb72e1b8db8ea2c54fc61a37f2c9fe43191087"
+  },
+  "section-kompendium-glossary-bridges.svg": {
+   "sha256": "862c4f33f3554825aa3d8e63fb66bbf05cb3b3c5bb090a12d8610422f86af9ac"
+  },
+  "section-kompendium-historical-cases.svg": {
+   "sha256": "8214b1ba64ef5801e35c8ebebff0c2a775b2d2662d0ebe71bf1f15f23cd45b79"
+  },
+  "section-kompendium-international.svg": {
+   "sha256": "8922e1c1d2396c3bbf790019f85fedb8048d30ec01be840fc7c9cb7471799293"
+  },
+  "section-kompendium-konceptualni-mapa.svg": {
+   "sha256": "ef4af9346f3ccf9fea37595ea145ef6feb07d125762062956e5dae3e51213101"
+  },
+  "section-kompendium-organizational-defense.svg": {
+   "sha256": "d35a437b636e1187dd05b14eb243c20b1e0518bcbac26b91212682b3391340f8"
+  },
+  "section-kompendium-population-health.svg": {
+   "sha256": "44935d3fbff9e6fa0abeeb4ae4d8c8459dd12c197daa95d25d5b50357febfc5e"
+  },
+  "section-kompendium-prevention-resilience.svg": {
+   "sha256": "269b8016dc71ede271e4f739e697b289e94919f8ce8cc3ebf9eaaad27868b8af"
+  },
+  "section-kompendium-quick-reference.svg": {
+   "sha256": "81ba35877db4f50d7f4f3c81e06eb81b1f69b6aadd574129b9ffc28e0e0466d6"
+  },
+  "section-kompendium-recovery-protocols.svg": {
+   "sha256": "a9528c6d8a4941677cf4efa641df517f5bbd90008644b1451b6ce98124c259c5"
+  },
+  "section-kompendium-research-methodology.svg": {
+   "sha256": "157d5782822c30ec0e2865f03aa2c374b0cef9bfa238f2c37e415593ec657a85"
+  },
+  "section-kompendium-section-bridges.svg": {
+   "sha256": "05a67d0ccdb9cf37a788db5d0a1cc8794a1d1549c8e693c0e309f131c9f18b01"
+  },
+  "section-kompendium-self-defense-guides.svg": {
+   "sha256": "39a5f0782f5dfe6cc9cd859de9e24bd0119a7d873173a27ef397f753a1ae33e3"
+  },
+  "section-kompendium-techniques.svg": {
+   "sha256": "38ff16507aa8da5d87af494249b279411772d12f2983772cea7c27dcd0495650"
+  },
+  "section-kompendium-visualizations.svg": {
+   "sha256": "7cd757b434f79d93ff190d7cbfa0ca8674801010963f0c75a96d06a0b0bf249a"
+  },
+  "section-kompendium.svg": {
+   "sha256": "48bef9f05736a249185812b6f468328bb1b63e3a85bb78132bb7985c8b851faa"
+  },
+  "section-philosophy.svg": {
+   "sha256": "dc474292cf3cbb149c0b0f003661040c977973cac75f46dde6b5159b9cbfddae"
+  }
+ },
+ "generator": "scripts/render-section-graphics.py",
+ "schema": "kompendium-section-graphics/v1"
+}

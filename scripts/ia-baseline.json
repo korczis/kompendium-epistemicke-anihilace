@@ -1,24 +1,304 @@
 {
+ "content/_index.md": [
+  "detail"
+ ],
  "content/about.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/galerie.md": [
-  "related"
+  "related",
+  "detail"
+ ],
+ "content/glossary/body-schema.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/core-consciousness.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/decision-core.md": [
+  "detail"
+ ],
+ "content/glossary/decision-engine.md": [
+  "detail"
+ ],
+ "content/glossary/ding-an-sich.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/discard.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/doctrine.md": [
+  "detail"
+ ],
+ "content/glossary/epistemicka-agentnost.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/epistemicka-bezdomovost.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/epistemicka-komunita.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/epistemicka-monokultura.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/epistemicka-regrese.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/epistemicka-reintegrace.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/epistemicka-singularita.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/epistemicka-slepota.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/epistemicka-staze.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/epistemicke-zakladny.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/fllm.md": [
+  "detail"
+ ],
+ "content/glossary/gitl.md": [
+  "detail"
+ ],
+ "content/glossary/hermeneuticka-eroze.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/hermeneuticky-outsourcing.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/husserl-retence.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/intencionalita.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/interocepce.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/know.md": [
+  "detail"
+ ],
+ "content/glossary/konceptualni-anihilace.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/lakatos.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/love-bombing.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/m5m.md": [
+  "detail"
+ ],
+ "content/glossary/modalni-logika.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/narativni-terapie.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/narativni-topologie.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/nclb.md": [
+  "detail"
+ ],
+ "content/glossary/nwb.md": [
+  "detail"
+ ],
+ "content/glossary/pasivni-synteza.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/polyvagalni-teorie.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/pseudoempaticka-vazba.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/reality-testing.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/retraumatizace.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/seal.md": [
+  "detail"
+ ],
+ "content/glossary/secure-attachment.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/strukturalni-trauma.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/tach.md": [
+  "detail"
+ ],
+ "content/glossary/three-nested-loops.md": [
+  "detail",
+  "generated"
+ ],
+ "content/glossary/zero.md": [
+  "detail"
+ ],
+ "content/kompendium/01-predmluva/_index.md": [
+  "detail"
  ],
  "content/kompendium/02-identitarni-manipulace.md": [
-  "links-out"
+  "links-out",
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/02-uvod/_index.md": [
+  "detail"
+ ],
+ "content/kompendium/03-zakladni-kategorie/_index.md": [
+  "detail"
+ ],
+ "content/kompendium/03-zakladni-kategorie/biasy/_index.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/03-zakladni-kategorie/delegitimizace.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/03-zakladni-kategorie/falsifikovatelnost.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/03-zakladni-kategorie/fenomenologie.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/03-zakladni-kategorie/hermeneutika.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/03-zakladni-kategorie/intencionalita.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/03-zakladni-kategorie/lakatos.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/03-zakladni-kategorie/lebenswelt.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/03-zakladni-kategorie/metakognice.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/03-zakladni-kategorie/somaticke-vektory.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/03-zakladni-kategorie/tom-exploitation.md": [
+  "detail",
+  "generated"
  ],
  "content/kompendium/03-zakladni-kategorie/visualizations.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/04-terminalni-protokoly/visualizations.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/05-ultramari-techniky/motte-bailey.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/05-ultramari-techniky/narrativni-trauma.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/05-ultramari-techniky/sealioning.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/05-ultramari-techniky/weaponized-incompetence.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/06-klinicke-aplikace/observational-assessment.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/06-klinicke-aplikace/visualizations.md": [
+  "detail"
+ ],
+ "content/kompendium/07-populacni/_index.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/07-populacni/propaganda.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/07-teoreticke-reflexe/visualizations.md": [
+  "detail"
  ],
  "content/kompendium/08-prilohy/bibliografie.md": [
   "czech"
  ],
  "content/kompendium/08-prilohy/diagnosticke-nastroje.md": [
   "related"
+ ],
+ "content/kompendium/08-prilohy/dual-use.md": [
+  "detail",
+  "generated"
  ],
  "content/kompendium/08-prilohy/eticky-kodex.md": [
   "related"
@@ -32,1297 +312,2395 @@
  "content/kompendium/08-prilohy/zkratky.md": [
   "related"
  ],
+ "content/kompendium/aiad-integration/_index.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/archer-supreme-ea-orchestration.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/autoevolve-ea-pattern-evolution.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/autoheal-ea-regression-repair.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/black-team-ea-modeling.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/blue-team-ea-defense.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/compliance-ea-regulatory-screening.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/czech-ares-ea-screening.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/dd-engine-ea-source-weighting.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/decision-engine-ea-calibration.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/epistemic-pipeline-ea-detection.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/gray-team-ea-edge-cases.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/hawkeye-ea-visitor-intelligence.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/nabla-infinity-ea-pipeline.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/operational-execution-ea-deployment.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/osint-ea-source-validation.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/perimeter-ea-attack-surface.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/purple-team-ea-synthesis.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/qeve-ea-quality-validation.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/quality-monitor-ea-tracking.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/red-team-ea-detection.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/strategic-command-ea-coordination.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/supreme-commander-ea-strategy.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/tactical-execution-ea-operations.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/trinity-gate-ea-verification.md": [
+  "detail"
+ ],
+ "content/kompendium/aiad-integration/white-team-ea-verification.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/1-medicalization-critique.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/10-cultural-bias-critique.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/11-iatrogenic-overreach.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/12-EA-stigma-risk.md": [
+  "detail"
+ ],
  "content/kompendium/critical-perspectives/13-victim-blaming-risk.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/14-power-asymmetry-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/15-consent-validity-question.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/16-treatment-coercion-risk.md": [
+  "detail"
  ],
  "content/kompendium/critical-perspectives/17-confidentiality-EA.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/critical-perspectives/18-EA-as-power-tool.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/19-research-exploitation.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/2-pathologization-critique.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/20-publication-ethics-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/21-systems-theory-alternative.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/22-trauma-framework-alternative.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/23-political-economy-alternative.md": [
+  "detail"
  ],
  "content/kompendium/critical-perspectives/24-narrative-medicine-alternative.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/critical-perspectives/25-critical-psychiatry-alternative.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/critical-perspectives/26-mad-studies-perspective.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/27-decolonial-epistemology.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/28-feminist-epistemology-alt.md": [
+  "detail"
  ],
  "content/kompendium/critical-perspectives/29-process-philosophy-alt.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/3-framework-overreach.md": [
+  "detail"
  ],
  "content/kompendium/critical-perspectives/30-buddhist-psychology-alt.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/4-circular-reasoning-risk.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/5-false-positive-risk.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/6-political-instrumentalization.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/7-replication-EA-research.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/8-theoretical-imperialism.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/9-essentialism-critique.md": [
+  "detail"
+ ],
+ "content/kompendium/critical-perspectives/_index.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/1-ea-osint-source-credibility.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/10-ea-dd-source-weighting.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/11-ea-dd-decision-engine-calibration.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/12-ea-dd-counterparty-manipulation.md": [
+  "detail"
  ],
  "content/kompendium/cross-domain/13-ea-dd-beneficial-ownership-disinformation.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/cross-domain/14-ea-dd-narrative-warfare.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/cross-domain/15-ea-dd-evidence-quality-assessment.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/17-ea-security-social-engineering.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/18-ea-security-spear-phishing.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/19-ea-security-disinformation-defense.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/2-ea-osint-czech-ares-validation.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/20-ea-security-insider-threat.md": [
+  "detail"
  ],
  "content/kompendium/cross-domain/21-ea-security-supply-chain-narrative.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/cross-domain/22-ea-security-incident-response-narrative.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/cross-domain/23-ea-security-attribution-bias.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/24-ea-security-threat-intelligence-validation.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/25-ea-compliance-nis2-integrity.md": [
+  "detail"
  ],
  "content/kompendium/cross-domain/26-ea-compliance-zkb-epistemic-integrity.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/cross-domain/27-ea-compliance-gdpr-narrative-protection.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/28-ea-compliance-aml-pattern-recognition.md": [
+  "detail"
  ],
  "content/kompendium/cross-domain/29-ea-compliance-kyc-narrative-validation.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/cross-domain/3-ea-osint-justice-cz-screening.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/cross-domain/30-ea-compliance-regulatory-capture-detection.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/4-ea-osint-sanctions-list-bias.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/5-ea-osint-social-media-manipulation.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/6-ea-osint-bot-detection.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/7-ea-osint-narrative-injection.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/9-ea-dd-investigation-bias.md": [
+  "detail"
+ ],
+ "content/kompendium/cross-domain/_index.md": [
+  "detail"
  ],
  "content/kompendium/emergency-protocols/1-acute-decompensation-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/10-acute-self-harm-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/11-er-EA-handoff.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/12-inpatient-admission-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/13-crisis-team-deployment.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/14-family-emergency-debrief.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/15-mobile-crisis-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/16-911-EA-recognition.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/17-crisis-hotline-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/18-emergency-pharmacotherapy.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/19-restraint-avoidance-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/2-suicide-risk-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/20-deescalation-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/21-children-emergency-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/22-adolescent-emergency-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/23-elder-emergency-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/24-pregnant-emergency-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/25-medical-comorbidity-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/26-substance-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/27-active-cult-emergency.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/28-ex-cult-emergency.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/29-political-prisoner-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/3-psychotic-break-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/30-refugee-EA-emergency.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/31-post-discharge-bridge.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/32-step-down-program.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/33-relapse-recognition.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/34-relapse-emergency.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/35-treatment-noncompliance.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/36-medication-emergency.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/37-iatrogenic-emergency.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/38-second-opinion-emergency.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/39-legal-emergency.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/4-acute-dissociation-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/40-witness-protection.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/5-flashback-cascade-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/6-panic-attack-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/8-emergency-extraction-cult.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/emergency-protocols/9-mandatory-reporting-EA.md": [
-  "related"
+  "related",
+  "detail"
+ ],
+ "content/kompendium/emergency-protocols/_index.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/_index.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-3nl.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-adapter-pattern.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-agent-registry.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-agent-tier.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-agent.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-aiad.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-anankasticky-rezim.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-archer-supreme.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-autoevolve.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-autoheal.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-betrayal-trauma.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-bite-model.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-black-team.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-blue-team.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-bounded-context.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-c-ptsd.md": [
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-censys.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-clean-run.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-coercive-control.md": [
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-color-teams.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-communicative-rationality.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-companion.md": [
-  "czech"
+  "czech",
+  "detail",
+  "generated"
  ],
  "content/kompendium/glossary-bridges/bridge-darvo.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-decision-engine.md": [
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-deepfake.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-delegitimizace.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-deplatforming.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-differance.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-disociace.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-dual-use-poznani.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-easm.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-embodied-cognition.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-entity-resolution.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemic-bubble.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemic-pipeline.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemic-security.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicka-alienace.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicka-anihilace.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicka-injustice.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicka-pokora.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicke-trauma.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epoche.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-eticky-ramec.md": [
+  "detail",
+  "generated"
  ],
  "content/kompendium/glossary-bridges/bridge-exit.md": [
-  "czech"
+  "czech",
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/glossary-bridges/bridge-falsifikace.md": [
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-fenomenologie.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-firehose-of-falsehood.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-four-noble-truths.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-gaslighting.md": [
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-gestalt-shift.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-gish-gallop.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-gray-team.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-greynoise.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-hawkeye.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-hermeneutika.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-hyperreality.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-iatrogenic-harm.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-ideal-speech-situation.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-info-ops.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-instrumental-reason.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-intelligence-fusion.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-intentionalita.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-kognitivni-anihilace.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-kognitivni-anti-rekurzivita.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-kompendium-ea.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-kontraindikace.md": [
-  "czech"
+  "czech",
+  "detail",
+  "generated"
  ],
  "content/kompendium/glossary-bridges/bridge-lakatos-vyzkumny-program.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-lebenswelt.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-mereologicka-rekonstrukce.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-metakognice.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-metakognitivni-destrukce.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-metanarrative-collapse.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-motte-and-bailey.md": [
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-nabla-infinity.md": [
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-narrative-identity.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-narrative-trauma.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-nm-nd.md": [
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-ontologicka-anihilace.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-osint.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-panopticism.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-power-knowledge.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-predictive-processing.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-propaganda.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-purple-team.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-qdp.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-qeve.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-quality-debt.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-readiness.md": [
-  "czech"
+  "czech",
+  "detail",
+  "generated"
  ],
  "content/kompendium/glossary-bridges/bridge-red-team.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/bridge-regression-test.md": [
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-replication-crisis.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-risk-score.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-sanctions-screening.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-sealioning.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-session-discipline.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-shodan.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-simulacra.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-strategic-command.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-supreme-commander.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-tactical-execution.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-taxonomie-ea.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-theory-of-mind.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-threshold.md": [
-  "czech"
+  "czech",
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/glossary-bridges/bridge-trinity-gate.md": [
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-violation-protocol.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-weaponized-incompetence.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-white-team.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-zero-warning-policy.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/glossary-bridges/delegitimizace.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/glossary-bridges/epistemicke-trauma.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/glossary-bridges/falsifikace.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/glossary-bridges/gaslighting.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/glossary-bridges/taxonomie-ea.md": [
+  "detail",
+  "generated"
  ],
  "content/kompendium/organizational-defense/1-board-resilience.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/10-stakeholder-engagement.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/11-onboarding-EA-awareness.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/12-training-resilience.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/13-exit-interview-EA.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/14-anonymous-feedback.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/15-culture-survey-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/16-psychological-safety.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/17-team-rotation-policy.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/18-supervisor-evaluation.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/19-mentorship-protection.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/2-charter-protection.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/20-succession-planning-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/21-decision-traceability.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/22-meeting-structure.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/23-communication-policy.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/24-documentation-standards.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/25-vendor-management-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/26-contractor-vetting.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/27-information-classification.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/28-access-control-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/29-segregation-duties.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/3-conflict-of-interest-policy.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/30-rotation-of-roles.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/31-incident-response-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/32-internal-investigation.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/33-legal-counsel-engagement.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/34-PR-narrative-defense.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/35-employee-assistance-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/36-trauma-aware-management.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/37-business-continuity-EA.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/38-leadership-replacement.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/39-cultural-rebuild.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/4-whistleblower-mechanism.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/40-post-incident-learning.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/5-audit-committee-EA.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/6-ombudsman-role.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/7-ethics-officer-mandate.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/8-policy-review-cycles.md": [
   "description",
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/organizational-defense/9-shareholder-protection.md": [
   "description",
-  "related"
+  "related",
+  "detail"
+ ],
+ "content/kompendium/prevention-resilience/1-childhood-resilience-foundation.md": [
+  "detail"
+ ],
+ "content/kompendium/prevention-resilience/10-public-discourse-quality.md": [
+  "detail"
  ],
  "content/kompendium/prevention-resilience/11-early-screening-EA.md": [
   "description",
-  "czech"
+  "czech",
+  "detail"
+ ],
+ "content/kompendium/prevention-resilience/12-warning-sign-recognition.md": [
+  "detail"
  ],
  "content/kompendium/prevention-resilience/13-rapid-response-protocol.md": [
   "description",
-  "czech"
+  "czech",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/14-de-escalation-prevention.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/15-relationship-monitoring.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/16-employer-vigilance.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/17-academic-supervision-prevention.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/18-clinical-vigilance-prevention.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/19-pastoral-vigilance-prevention.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/2-school-based-prevention.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/20-peer-vigilance-prevention.md": [
   "description",
-  "czech"
+  "czech",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/21-relapse-prevention-EA.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/22-post-EA-network-rebuilding.md": [
   "description",
-  "czech"
+  "czech",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/23-skills-rebuilding-program.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/24-meaning-restoration-prevention.md": [
   "description",
-  "czech"
+  "czech",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/25-vocational-rehabilitation-prevention.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/26-family-reintegration-prevention.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/27-community-reintegration-prevention.md": [
   "description",
-  "czech"
+  "czech",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/28-spiritual-restoration-prevention.md": [
   "description",
-  "czech"
+  "czech",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/29-cultural-restoration-prevention.md": [
   "description",
-  "czech"
+  "czech",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/3-family-resilience-EA.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/prevention-resilience/30-trauma-informed-citizenship.md": [
+  "detail"
  ],
  "content/kompendium/prevention-resilience/4-community-resilience-EA.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/5-workplace-prevention-EA.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/6-media-literacy-prevention.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/prevention-resilience/7-digital-hygiene-prevention.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/prevention-resilience/8-critical-thinking-curriculum.md": [
+  "detail"
  ],
  "content/kompendium/prevention-resilience/9-civic-education-prevention.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/prevention-resilience/_index.md": [
+  "detail"
+ ],
+ "content/kompendium/quick-reference/_index.md": [
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-1-1-1.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-1-1-2.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-1-1-3.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-1-2-1.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-1-2-2.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-1-2-3.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-1-3-1.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-1-3-2.md": [
   "not-orphan"
  ],
  "content/kompendium/quick-reference/qr-ea-1-3-3.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-1-4-1.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-1-4-2.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-1-5-1.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-1-5-2.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-1.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-10.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-2.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-3.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-4.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-5.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-6.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-7.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-8.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-1-9.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-1.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-10.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-2.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-3.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-4.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-5.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-6.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-7.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-8.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-2-9.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-1.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-10.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-2.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-3.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-4.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-5.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-6.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-7.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-8.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-9.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-1.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-10.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-2.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-3.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-4.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-5.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-6.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-7.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-8.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-9.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-1.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-10.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-2.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-3.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-4.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-5.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-6.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-7.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-8.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-5-9.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/quick-reference/qr-ea-5-2-1.md": [
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-10.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-11.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-12.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-13.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-14.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-15.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-16.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-17.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-18.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-19.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-20.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-21.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-22.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-23.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-24.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-25.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-26.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-27.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-28.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-29.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-30.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/quick-reference/qr-ea-5-2-7.md": [
+  "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-8.md": [
   "not-orphan"
  ],
  "content/kompendium/quick-reference/qr-ea-5-2-9.md": [
   "diacritics",
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/recovery-protocols/_index.md": [
+  "detail"
  ],
  "content/kompendium/recovery-protocols/acute-cognitive-anchoring.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/acute-information-curation.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/acute-safety-establishment.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/acute-social-reconnection.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/acute-somatic-regulation.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/acute-stabilization-protocol.md": [
-  "related"
+  "related",
+  "detail"
+ ],
+ "content/kompendium/recovery-protocols/duvera.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/recovery-protocols/incompetence.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/recovery-protocols/lifeworld.md": [
+  "detail",
+  "generated"
  ],
  "content/kompendium/recovery-protocols/longterm-altruistic-channeling.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/longterm-community-rebuilding.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/longterm-meaning-deepening.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/longterm-post-traumatic-growth.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/longterm-relapse-prevention.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/longterm-resilience-cultivation.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/midterm-educational-reintegration.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/midterm-hermeneutic-reset.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/midterm-identity-reconstruction.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/midterm-metacognitive-rehab.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/midterm-skill-rebuilding.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/midterm-vocational-integration.md": [
-  "related"
+  "related",
+  "detail"
+ ],
+ "content/kompendium/recovery-protocols/narativ.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/recovery-protocols/paradigm.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/recovery-protocols/pokora.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/recovery-protocols/ramce.md": [
+  "detail",
+  "generated"
  ],
  "content/kompendium/recovery-protocols/recovery-adolescent-protocol.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/recovery-children-protocol.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/recovery-elder-protocol.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/recovery-political-prisoner-protocol.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/recovery-trafficking-survivor-protocol.md": [
-  "related"
+  "related",
+  "detail"
+ ],
+ "content/kompendium/recovery-protocols/sealioning.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/recovery-protocols/sekvence.md": [
+  "detail",
+  "generated"
  ],
  "content/kompendium/recovery-protocols/subacute-axiological-restoration.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/subacute-detection-training.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/subacute-meaning-reconstruction.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/subacute-narrative-externalization.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/subacute-relational-restructuring.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/recovery-protocols/subacute-trust-rebuilding.md": [
-  "related"
+  "related",
+  "detail"
+ ],
+ "content/kompendium/recovery-protocols/trauma.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/research-methodology/IPA-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/IRB-protocol-design-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/RCT-EA-considerations.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/_index.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/anonymization-EA-research.md": [
+  "detail"
  ],
  "content/kompendium/research-methodology/case-study-design-EA.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/research-methodology/causal-inference-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/conflict-of-interest-research.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/conversation-analysis-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/data-security-EA-research.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/debriefing-protocol-research.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/discourse-analysis-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/document-analysis-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/effect-size-EA.md": [
+  "detail"
  ],
  "content/kompendium/research-methodology/ethnography-EA.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/research-methodology/grounded-theory-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/informed-consent-EA-research.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/longitudinal-study-EA.md": [
+  "detail"
  ],
  "content/kompendium/research-methodology/meta-analysis-EA.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/research-methodology/mixed-methods-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/narrative-analysis-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/network-analysis-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/phenomenological-interview-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/power-analysis-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/pre-registration-EA-research.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/publication-ethics-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/replication-EA-research.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/survey-design-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/thematic-analysis-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/time-series-EA.md": [
+  "detail"
+ ],
+ "content/kompendium/research-methodology/vulnerable-population-research.md": [
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-01-to-04-eticky-ramec-protokoly.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-01-to-05-eticky-ramec-ultramari.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-02-to-03-uvod-zakladni-kategorie.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-02-to-07-uvod-teoreticke.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-03-to-04-zakladni-terminalni.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-03-to-05-zakladni-ultramari.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-03-to-06-techniky-klinika.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-03-to-07-techniky-teorie.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-04-to-05-terminalni-ultramari.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-04-to-06-terminalni-klinika.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-04-to-07-terminalni-teorie.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-05-to-06-ultramari-klinika.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-05-to-07-ultramari-teorie.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-05-to-08-ultramari-prilohy.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-06-to-07-klinika-teorie.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-06-to-08-klinika-prilohy.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-07-to-08-teorie-prilohy.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-case-studies-to-clinical.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-case-studies-to-glossary-bridges.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-glossary-bridges-to-philosophy.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-platform-decision-engine-to-kompendium.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-platform-nabla-to-kompendium.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-quick-reference-to-glossary.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-techniques-to-case-studies.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-techniques-to-glossary.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-techniques-to-quick-reference.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-techniques-to-visualizations.md": [
-  "related"
+  "related",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-visualizations-to-clinical.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/section-bridges/bridge-visualizations-to-techniques.md": [
   "related",
-  "not-orphan"
+  "not-orphan",
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/1-metacognitive-monitoring.md": [
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/10-cognitive-load-management.md": [
+  "detail"
  ],
  "content/kompendium/self-defense-guides/11-emotional-regulation.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/12-trigger-recognition.md": [
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/13-somatic-awareness.md": [
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/14-grounding-techniques.md": [
+  "detail"
  ],
  "content/kompendium/self-defense-guides/15-emotional-distancing.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/16-self-compassion.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/17-anger-management.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/18-shame-resilience.md": [
+  "detail"
  ],
  "content/kompendium/self-defense-guides/19-fear-processing.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/2-evidence-evaluation.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/20-emotional-debt-recognition.md": [
+  "detail"
  ],
  "content/kompendium/self-defense-guides/21-boundary-setting.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/22-relationship-audit.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/23-trust-calibration.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/24-communication-assertiveness.md": [
+  "detail"
  ],
  "content/kompendium/self-defense-guides/25-network-diversification.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/26-isolation-prevention.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/27-mentor-evaluation.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/28-community-engagement.md": [
+  "detail"
  ],
  "content/kompendium/self-defense-guides/29-conflict-resolution.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/3-source-triangulation.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/30-support-mobilization.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/31-source-curation.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/32-feed-detoxification.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/33-information-diet.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/34-attention-budget.md": [
+  "detail"
  ],
  "content/kompendium/self-defense-guides/35-deep-reading-practice.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/36-cross-source-routine.md": [
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/37-time-locked-evaluation.md": [
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/38-bias-audit-personal.md": [
+  "detail"
  ],
  "content/kompendium/self-defense-guides/39-information-fasting.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/4-claim-verification.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/40-ai-content-detection.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/41-narrative-stewardship.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/42-relational-anchors.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/43-memory-archive.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/self-defense-guides/44-axiology-clarification.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/45-life-story-integration.md": [
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/46-multiple-self-management.md": [
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/47-identity-resilience-training.md": [
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/48-existential-meaning-protection.md": [
+  "detail"
  ],
  "content/kompendium/self-defense-guides/49-temporal-self-stitching.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/5-falsification-thinking.md": [
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/50-personal-mythology-defense.md": [
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/6-paradigm-pluralism.md": [
+  "detail"
  ],
  "content/kompendium/self-defense-guides/7-belief-revision.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/self-defense-guides/8-cognitive-flexibility.md": [
+  "detail"
  ],
  "content/kompendium/self-defense-guides/9-attention-management.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-1-1-1.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-1-1-2.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-1-3-1-immunization-against-falsification.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-1-3-2-sokratovska-past.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-1-3-2-strategic-reinterpretation.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-1-3-2.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-1-4-1-latentni-podbarveni.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-1-5-1-emocni-podbarveni.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-1-5-terminologicka-mystifikace.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-1-6-1-vzorec-guru-adept.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-1-6-5.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-1-6-falesny-paradigmaticky-narok.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-1-7-iluzorni-komplexita.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-2-1-10-credentials-rekonfigurace.md": [
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-1-3-credentialing-attack.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-1-4-publikacni-blokace.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-1-5-citation-suppression.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-1-6-funding-attack.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-1-8-reputation-laundering-inverze.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md": [
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-2-2-mentee-isolation.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-2-3-thesis-direction-capture.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-2-4-collaboration-monopolizace.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-2-5-recommendation-coercion.md": [
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-2-6-time-control-academic.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-2-8-intellectual-paternity-claim.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md": [
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-3-1-clip-takeout.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-3-10-viralni-misrepresentation.md": [
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-3-2-context-collapse.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-3-3-quote-mining.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-3-4-mob-coordination.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-3-6-platform-coordinated-attack.md": [
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-3-7-deepfake-personalni.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-3-8-doxxing-epistemicky.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-3-9-sealioning-medialni.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-4-1-board-capture.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-4-10-disciplinary-society-capture.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md": [
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-4-3-funding-redirect.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-4-4-leadership-capture.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md": [
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-4-6-peer-review-capture.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-4-7-conference-capture.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-4-8-journal-capture.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-4-9-curriculum-capture.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-4-falesny-konsensus.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md": [
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-5-6-platonic-cave-self.md": [
-  "description"
+  "description",
+  "detail"
  ],
  "content/kompendium/techniques/ea-2-5-7-self-cancelation.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md": [
+  "detail"
  ],
  "content/kompendium/techniques/ea-3-2-6-cohort-monitoring.md": [
   "not-orphan"
@@ -1339,6 +2717,10 @@
  "content/kompendium/techniques/ea-4-1-9-cohort-monitoring.md": [
   "not-orphan"
  ],
+ "content/kompendium/techniques/ea-4-1-gaslighting.md": [
+  "detail",
+  "generated"
+ ],
  "content/kompendium/techniques/ea-4-2-10-emergency-extraction.md": [
   "not-orphan"
  ],
@@ -1353,6 +2735,34 @@
  ],
  "content/kompendium/techniques/ea-4-4-9-narrative-reconstruction.md": [
   "not-orphan"
+ ],
+ "content/kompendium/techniques/ea-5-1-26.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-5-3-32-rekonstituce-skrze-rituall.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-5-3-34-konvergentni-identitarni-tlak.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-5-3-36-identitarni-singularita.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-5-3-39-anti-individuacni-pust.md": [
+  "detail",
+  "generated"
+ ],
+ "content/kompendium/techniques/ea-5-3-41-trans-individualizace.md": [
+  "detail",
+  "generated"
  ],
  "content/kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md": [
   "description"
@@ -1392,6 +2802,10 @@
  ],
  "content/kompendium/techniques/ea-6-3-2-externalizacni-faze.md": [
   "description"
+ ],
+ "content/kompendium/techniques/ea-6-3-3-metacognitivni-rehabilitace.md": [
+  "detail",
+  "generated"
  ],
  "content/kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md": [
   "description"
@@ -1465,20 +2879,190 @@
  "content/kompendium/techniques/ea-6-5-9-residential-program-EA.md": [
   "description"
  ],
+ "content/kompendium/techniques/ea-7-1-1-foucault-power-knowledge.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-1-2-foucault-discipline.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-1-3-adorno-instrumental-reason.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-1-5-arendt-banality-evil.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-1-6-sloterdijk-spheres.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-1-7-deleuze-rhizome.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-1-8-derrida-deconstruction.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-1-9-heidegger-dasein.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-2-10-nagel-view-from-nowhere.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-2-2-goldman-veritism.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-2-3-popper-falsification.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-2-4-lakatos-research-program.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-2-5-kuhn-paradigm-shift.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-2-6-feyerabend-anti-method.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-2-7-quine-web-belief.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-2-8-davidson-charity.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-2-9-williams-truthfulness.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-3-1-kahneman-system12.md": [
+  "detail"
+ ],
  "content/kompendium/techniques/ea-7-3-10-tononi-iit.md": [
-  "description"
+  "description",
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-3-2-tversky-heuristics.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-3-3-friston-active-inference.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-3-4-clark-extended-mind.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-3-5-metzinger-ego-tunnel.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-3-6-thompson-mind-life.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-3-7-dennett-intentional-stance.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-3-8-chalmers-hard-problem.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-7-3-9-dehaene-consciousness.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-1-1-bite-model-detail.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-1-2-cult-leaving-questionnaire.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-1-3-stalking-behavior-checklist.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-1-4-coercive-control-scale.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-1-6-betrayal-trauma-inventory.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-1-9-metakognitivni-questionnaire.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-2-1-bite-framework.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-2-3-singer-six-conditions.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-2-5-stark-coercive-control.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-2-6-icd-11-complex-trauma.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-2-7-dsm-5-tr-trauma.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-2-8-aprw-attachment-trauma.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-3-1-foundational-readings.md": [
+  "detail"
  ],
  "content/kompendium/techniques/ea-8-3-10-information-warfare-literature.md": [
-  "czech"
+  "czech",
+  "detail"
  ],
  "content/kompendium/techniques/ea-8-3-2-clinical-handbook.md": [
-  "not-orphan"
+  "not-orphan",
+  "detail"
  ],
  "content/kompendium/techniques/ea-8-3-3-philosophical-canon.md": [
-  "czech"
+  "czech",
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-3-4-empirical-research-base.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-3-5-historical-cases.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-3-6-contemporary-cases.md": [
+  "detail"
  ],
  "content/kompendium/techniques/ea-8-3-7-interdisciplinary-anthology.md": [
-  "czech"
+  "czech",
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md": [
+  "detail"
+ ],
+ "content/kompendium/techniques/ea-8-3-9-cult-studies-literature.md": [
+  "detail"
  ],
  "content/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md": [
   "related"

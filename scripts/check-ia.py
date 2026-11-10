@@ -17,6 +17,11 @@ Requirements (id: what is checked):
   links-out        at least 3 internal @/ links to existing pages (index pages exempt)
   not-orphan       at least one other page links here (index pages exempt)
   broken-link      no @/ link points at a page that does not exist
+  detail           a page carries real substance: at least 600 words (a quick-reference card
+                   250, a section index 300); a page with its own template is an
+                   application surface and exempt
+  generated        no machine-generated text: no NLLB auto block, structural stub, placeholder
+                   note or "pojem v sekci … znalostní báze Prismatic Platform" boilerplate
   term-page        every term of the index of terms (08-prilohy/index-pojmu.md) has a page
                    of its own: a glossary entry or a technique page (keyed as term:<slug>)
 
@@ -64,7 +69,19 @@ def violations(page: dict) -> list:
             found.append("not-orphan")
     if page["broken_links"]:
         found.append("broken-link")
+    # A page with its own template (mapa, stav) is an application surface, not a text.
+    surface = bool(page["template"]) and not page["is_index"]
+    if not surface and page["words"] < min_words(page):
+        found.append("detail")
+    if page["generated"]:
+        found.append("generated")
     return found
+
+
+def min_words(page: dict) -> int:
+    if page["path"].startswith("kompendium/quick-reference/"):
+        return 250
+    return 300 if page["is_index"] else 600
 
 
 def current() -> dict:

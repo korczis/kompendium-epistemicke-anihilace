@@ -35,7 +35,14 @@ odchozí a příchozí odkazy):
 | `links-out` | aspoň 3 vnitřní odkazy `@/` na existující stránky |
 | `not-orphan` | aspoň jedna jiná stránka sem odkazuje |
 | `broken-link` | žádný odkaz `@/` na neexistující stránku |
+| `detail` | stránka má skutečný obsah: aspoň 600 slov (karta `quick-reference` 250, rozcestník sekce `_index.md` 300); žádná stránka „na oko“ |
+| `generated` | žádný strojově přidaný text platformy: blok NLLB, „structural stub“, poznámka o zástupné stránce, šablona „pojem v sekci … znalostní báze Prismatic Platform“ (viz `knowledge/curated/platform-artifacts-in-content.md`) |
 | `term-page` | každý pojem z rejstříku `08-prilohy/index-pojmu.md` má vlastní stránku: heslo glosáře (podle názvu nebo anglického ekvivalentu), esej ve `philosophy/` nebo stránku techniky (podle kódu EA) |
+
+Strukturní vazby, které plynou z cest (karta `qr-ea-X-Y-Z` ↔ technika `ea-X-Y-Z`, most
+`bridge-<pojem>` ↔ heslo `glossary/<pojem>`, most mezi sekcemi ↔ obě sekce), zapisuje na obě
+strany `scripts/derive-links.py` do generovaného oddílu „Strukturní vazby“ mezi značkami
+`kompendium:odvozene-vazby`; ručně se neupravuje a `--check` v CI hlídá, že je aktuální.
 
 Odvozená data se negenerují ručně: `scripts/build-graph.py` zapisuje
 `static/data/graph.json` (stránky a jejich odkazy) a `static/data/metrics.json` (čísla pro

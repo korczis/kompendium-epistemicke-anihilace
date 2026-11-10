@@ -247,7 +247,7 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 
 ## Vztah k jiným technikám
 
-Komplementární k [EA-6.2.1 TF-CBT](@/kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md), připravuje [EA-6.3.3 metakognitivní rehabilitaci](@/kompendium/techniques/ea-6-3-3-metacognitivni-rehabilitace.md), validizuje [EA-6.1.9 metakognitivní assessment](@/kompendium/techniques/ea-6-1-9-metakognitivni-functional-assessment.md).
+Komplementární k [EA-6.2.1 TF-CBT](@/kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md), připravuje [EA-6.3.3 metakognitivní rehabilitaci](@/kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md), validizuje [EA-6.1.9 metakognitivní assessment](@/kompendium/techniques/ea-6-1-9-metakognitivni-functional-assessment.md).
 
 ## Vztah k Prismatic platformě
 

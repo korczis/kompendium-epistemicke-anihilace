@@ -74,7 +74,7 @@ Konkrétně [EA-1.1.1 Selektivní
 expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) a [EA-1.1.2 Informační
 přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) působí tak, že již
 existující bublinu *prohlubují*, dokud se epistemické pole člověka nezhroutí na jediný
-zdroj (souhrnné heslo: [EA-1-1-1](@/kompendium/techniques/ea-1-1-1.md)). Bublina, do níž
+zdroj (souhrnné heslo: [EA-1-1-1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)). Bublina, do níž
 někdo začne aktivně vkládat diskreditaci vnějších hlasů, se mění v komoru; z komory, která
 pohltí i sociální vztahy, se může stát [High Control Group](@/glossary/high-control-group.md).
 

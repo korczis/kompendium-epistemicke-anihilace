@@ -46,7 +46,7 @@ Ztrátu falzifikační dispozice lze pozorovat v řeči i v jednání:
 
 ## Mechanismus
 
-Technika Kompendia, která na tuto obranu útočí nejpříměji, je **EA-1.3.1 imunizace proti falzifikaci**, popsaná v [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) (anglická verze: [Immunization against falsification](@/kompendium/techniques/ea-1-3-1-immunization-against-falsification.md)). EA-1.3.1 vštěpuje myšlenkové kroky, které činí soustavu přesvědčení v praxi nefalzifikovatelnou – právě tři vzorce uvedené výše.
+Technika Kompendia, která na tuto obranu útočí nejpříměji, je **EA-1.3.1 imunizace proti falzifikaci**, popsaná v [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) (anglická verze: [Immunization against falsification](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)). EA-1.3.1 vštěpuje myšlenkové kroky, které činí soustavu přesvědčení v praxi nefalzifikovatelnou – právě tři vzorce uvedené výše.
 
 Diagnostickým principem je **zachování identity tváří v tvář protidůkazu**: soustava přesvědčení, která se bez ohledu na vstup vrací do stejné struktury, nefunguje epistemicky. To platí nezávisle na tom, zda jsou výchozí tvrzení pravdivá – i pravdivá tvrzení, zastávaná v nefalzifikovatelné podobě, ukazují na narušený [epistemický proces](@/glossary/epistemic-pipeline.md).
 

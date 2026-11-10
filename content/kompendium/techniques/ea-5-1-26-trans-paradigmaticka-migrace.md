@@ -3,6 +3,7 @@ title = "EA-5.1.26 Trans-paradigmatická migrace"
 description = "Detailní per-technique článek: technika trans-paradigmatické migrace — vynucený rychlý přechod skrz vzájemně neslučitelná paradigmata vedoucí ke ztrátě jakéhokoli stabilního interpretačního rámce."
 weight = 526
 insert_anchor_links = "right"
+aliases = ["/kompendium/techniques/ea-5-1-26/"]
 
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-5-1-26", "trans-paradigmaticka-migrace", "epistemicka-singularita", "paradigmaticky-rozklad", "interpretacni-destabilizace"]

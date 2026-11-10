@@ -3,6 +3,7 @@ title = "EA-1.1.1 Selektivní expozice"
 description = "Detailní per-technique článek: technika selektivní expozice — strategická filtrace dostupných informací prezentovaná jako objektivní výběr."
 weight = 111
 insert_anchor_links = "right"
+aliases = ["/kompendium/techniques/ea-1-1-1/"]
 
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-1-1-1", "selektivni-expozice", "filter-bubble", "akvizice", "informacni-manipulace"]

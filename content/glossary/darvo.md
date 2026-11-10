@@ -93,7 +93,7 @@ společenství** – svědky, kolegy, instituci. Proto je to jedna z provozně
 nejvýznamnějších technik, které Kompendium popisuje. Řadí je k imunizačním technikám
 skupiny EA-1.3 (obrana tvrzení útokem na toho, kdo je zpochybňuje), v blízkosti [EA-1.3.2
 Strategické reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md);
-souhrnný popis je i v [EA-1-3-2](@/kompendium/techniques/ea-1-3-2.md). Obrácení příčiny
+souhrnný popis je i v [EA-1-3-2](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md). Obrácení příčiny
 a následku obecněji popisuje [EA-5.1.12 Kauzální
 inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md).
 

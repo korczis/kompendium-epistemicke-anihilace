@@ -15,7 +15,8 @@
 #
 # Gates: migrate-content, normalize-front-matter (and its schema table), polish-markdown,
 # link-terms, check-ia, build-references, build-graph, build-ui-data, build-readme (when present),
-# zola build, graph urls resolve, test/run.sh. The export is deleted afterwards.
+# zola build, build-surfaces, graph urls resolve, test/ staged, test/run.sh. The export is
+# deleted afterwards.
 set -euo pipefail
 
 case "${1:-}" in
@@ -74,6 +75,11 @@ if [ -f scripts/build-readme.py ]; then
   step "build-readme --check"     python3 scripts/build-readme.py --check
 fi
 step "zola build"                 zola build --force -o "$work/.out"
+# The catalogue of interactive surfaces reads the built site (dev-31's and 2e's gate in CI).
+if [ "$fix" = --fix ]; then
+  step "build-surfaces"           python3 scripts/build-surfaces.py --site "$work/.out"
+fi
+step "build-surfaces --check"     python3 scripts/build-surfaces.py --check --site "$work/.out"
 # Every URL the derived data hands to the site's surfaces must be a page Zola built.
 step "graph urls resolve"         python3 -c '
 import json, pathlib, sys
@@ -81,7 +87,10 @@ nodes = json.load(open("static/data/graph.json"))["nodes"]
 missing = [n["url"] for n in nodes if not (pathlib.Path(sys.argv[1]) / n["url"].strip("/") / "index.html").exists()]
 print(f"{len(missing)} of {len(nodes)} graph urls have no built page", *missing[:10], sep="\n")
 sys.exit(1 if missing else 0)' "$work/.out"
-# The cases export the index themselves and need the repository, so they run from its root.
+# The cases export the index themselves and need the repository, so they run from its root;
+# the case scripts are read from the work tree, so an unstaged change there would run instead
+# of the committed one (2026-11-10: an unstaged case ran against a tree without its code).
+step "test/ is staged"            git -C "$root" diff --quiet -- test/
 step "test/run.sh"                bash "$root/test/run.sh"
 
 if [ "$fix" = --fix ]; then

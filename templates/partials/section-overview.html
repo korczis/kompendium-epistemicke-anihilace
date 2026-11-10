@@ -70,7 +70,21 @@
       </template>
     </div>
   </div>
+
+  {#- Rozsah a stav stránek: treemap ze static/data/ia.json (static/js/viz/oddil-prehled.js). -#}
+  <div data-js data-pohled="oddil-prehled" class="mt-6 border-t border-gray-200 pt-6 dark:border-gray-700">
+    <h3 class="mb-1 text-base font-semibold text-gray-900 dark:text-white">Rozsah a stav stránek</h3>
+    <p id="oddil-prehled-d" class="mb-2 text-sm text-gray-500 dark:text-gray-400">Dlaždice je stránka oddílu, plocha odpovídá počtu slov a barva stavu podle pravidel informační architektury knihy: rozpracovaná stránka je pod hranicí rozsahu (u běžné stránky {{ config.extra.ia_detail_words }} slov). Klepnutím ji otevřete; z klávesnice graf vyberte tabulátorem, šipkami procházejte stránky od nejrozsáhlejší a klávesou Enter je otevřete.</p>
+    <ul class="mb-3 flex flex-wrap gap-x-4 gap-y-1" aria-label="Legenda: barvy stavu stránek">
+      {%- for s in [["rozvinuta", "rozvinutá"], ["rozpracovana", "rozpracovaná"], ["generovana", "s generovaným textem"]] %}
+      <li class="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300"><span data-pohled-stav-barva="{{ s[0] }}" class="h-3 w-3 shrink-0 rounded-sm bg-gray-300 dark:bg-gray-600" aria-hidden="true"></span>{{ s[1] }} <span data-pohled-pocet="{{ s[0] }}" class="rounded-full bg-gray-100 px-1.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300">…</span></li>
+      {%- endfor %}
+    </ul>
+    {%- set pg = {"label": "Treemap stránek oddílu podle počtu slov a stavu", "desc": "oddil-prehled-d", "cls": "h-80 sm:h-96", "placeholder": "Graf se načte, až se k němu doposouváte."} %}
+    {% include "partials/pohled-graf.html" %}
+  </div>
 </section>
 <script src="{{ get_url(path='js/viz/kompendium-viz.js', cachebust=true) }}" defer></script>
 <script src="{{ get_url(path='js/viz/oddil.js', cachebust=true) }}" defer></script>
+<script src="{{ get_url(path='js/viz/oddil-prehled.js', cachebust=true) }}" defer></script>
 {%- endif %}

@@ -50,6 +50,17 @@
     </div>
   </section>
 
+  {#- Rizikový profil rodin: bublinový rozptyl z týchž inline dat (static/js/viz/techniky-rozptyl.js) -#}
+  <section data-pohled="techniky-rozptyl" class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800" aria-labelledby="tk-h-profil">
+    <div class="mb-4 flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+      <h2 id="tk-h-profil" class="text-xl font-bold leading-none text-gray-900 dark:text-white">Rizikový profil rodin</h2>
+      <p class="text-sm text-gray-500 dark:text-gray-400">Plocha bubliny odpovídá počtu technik.</p>
+    </div>
+    <p id="tk-profil-d" class="mb-4 text-sm text-gray-500 dark:text-gray-400">Vodorovně rodina EA, svisle úroveň rizika z hlavičky stránky techniky. Klepnutím na bublinu nebo klávesou Enter vyfiltrujete katalog pod grafem; z klávesnice graf vyberte tabulátorem a šipkami se pohybujte mezi rodinami a úrovněmi rizika.</p>
+    {%- set pg = {"label": "Bublinový graf počtu technik podle rodiny a úrovně rizika", "desc": "tk-profil-d", "cls": "h-80 sm:h-96"} %}
+    {% include "partials/pohled-graf.html" %}
+  </section>
+
   {#- Karta 2: Pro advanced table s nástrojovou lištou -#}
   <section class="relative rounded-lg bg-white shadow dark:bg-gray-800" aria-labelledby="tk-h-katalog">
     <div class="border-b border-gray-200 p-4 sm:p-6 dark:border-gray-700">
@@ -184,4 +195,5 @@
 </div>
 <script src="{{ get_url(path='js/viz/kompendium-viz.js', cachebust=true) }}" defer></script>
 <script src="{{ get_url(path='js/viz/techniky.js', cachebust=true) }}" defer></script>
+<script src="{{ get_url(path='js/viz/techniky-rozptyl.js', cachebust=true) }}" defer></script>
 <script src="{{ get_url(path='js/vendor/alpine.min.js') }}" defer></script>

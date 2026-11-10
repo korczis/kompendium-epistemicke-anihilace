@@ -4,7 +4,9 @@
 Writes three files that templates and scripts read and nobody edits by hand:
 
   static/data/graph.json    nodes (one per page) and edges (resolved @/ links, as index pairs);
-                            schema kompendium-graph/v2: v1 plus top-level families (EA-N -> name)
+                            schema kompendium-graph/v2: v1 plus top-level families (EA-N -> name),
+                            on technique nodes ea_code and code_shared_with (ids of
+                            other technique pages carrying the same code)
                             and, on historical cases,
                             period_start, period_end (years; none when ongoing),
                             ongoing, category and place
@@ -101,6 +103,18 @@ def build() -> dict:
         **case_fields(p["path"]),
     } for i, p in enumerate(pages)]
     edges = [[index[p["path"]], index[t]] for p in pages for t in p["links"]]
+    # Technique pages that carry the same EA code (derived from the file name ea-X-Y[-Z]-…):
+    # the hero card shows the clash instead of a hand-written note.
+    by_code = collections.defaultdict(list)
+    for i, p in enumerate(pages):
+        m = re.match(r"kompendium/techniques/ea-(\d+)-(\d+)(?:-(\d+))?(?:-|\.md$)", p["path"])
+        if m and not p["is_index"]:
+            by_code["EA-" + ".".join(g for g in m.groups() if g)].append(i)
+    for code, ids in by_code.items():
+        for i in ids:
+            nodes[i]["ea_code"] = code
+            if len(ids) > 1:
+                nodes[i]["code_shared_with"] = [j for j in ids if j != i]
 
     by_section = collections.defaultdict(list)
     for p in pages:

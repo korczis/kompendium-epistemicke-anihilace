@@ -38,6 +38,10 @@ Odpověď autora (session `30dc7a0e-8a7f-48e6-8922-1b1b2dc08588`, 2026-11-10T00:
   z lexikonu, blogový článek s oznámením)
   A: „ano, převezmi i soukromé soubory z prismatic-platform“
 
+Sloučení do veřejného `main` potvrdil autor v session vlastníka nasazení (AskUserQuestion,
+session `5d49a595-d035-4bbe-b04a-d12695922860`, 2026-11-10T00:12Z), doslovně:
+„Ano, sloučit do veřejného repa“.
+
 Soubory jsou převzaty i s historií jako linie `archive/prismatic-platform/`
 (`scripts/import-lineage.sh`, 50 commitů dotýkajících se složky, 2025-09-30 až 2026-06-07);
 aplikace v posledním stavu před smazáním, předchozí stavy v historii.
@@ -49,5 +53,5 @@ aplikace v posledním stavu před smazáním, předchozí stavy v historii.
   (pravidlo `project.public-copy-scrubbed`). V metadatech commitů zůstává, stejně jako ve všech
   ostatních převzatých liniích.
 - Linie leží na vlastní větvi `feature/archive-prismatic-platform`, aby šly vlny obsahu slučovat
-  nezávisle na ní; před sloučením do veřejného `main` ji vlastník nasazení potvrdí s autorem.
+  nezávisle na ní; autor sloučení do veřejného `main` potvrdil (viz výše).
 - `archive/README.md` uvádí linii v tabulce a v oddílu „Soukromé soubory z Prismatic Platform“.

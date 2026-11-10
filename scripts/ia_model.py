@@ -27,6 +27,16 @@ GENERATED_MARKERS = re.compile(
 # to pages are @/ links and scripts are {{ <viz_script name="…" /> }}.
 HARDCODED = re.compile(r"""(?:src|href)=["']/kompendium-epistemicke-anihilace/"""
                        r"|https?://korczis\.github\.io/kompendium-epistemicke-anihilace/")
+# Phrasing of an operational script (rule project.content-defensive-frame): imperatives that
+# steer a target person. A heuristic floor under the reviewer, not a substitute; ordinary
+# self-help advice ("řekněte jim, za co se stydíte") stays out of it on purpose.
+# scripts/nlp-catalog.py applies the same lexicon to the NLP pages and the trainer data.
+HOWTO = re.compile(
+    r"\b(?:[Nn]avoďte|[Pp]řimějte|[Uu]kotvěte|[Vv]nuťte|[Zz]manipulujte|[Oo]vládněte)"
+    r"\s+(?:mu|jí|jim|ho|ji|je)\b"
+    r"|\b(?:[Řř]ekněte|[Vv]ložte|[Nn]avoďte|[Pp]řimějte|[Uu]kotvěte|[Vv]nuťte|[Zz]manipulujte)"
+    r"\s+(?:cíli|oběti|cílové\s+osobě|klientovi|klientce|cílovou\s+osobu|oběť|cíl)\b",
+)
 RELATED_HEADING = re.compile(r"^##\s+(Související|Cross-linky|Související stránky)\b", re.M | re.I)
 
 
@@ -114,7 +124,11 @@ def load_pages() -> list:
             "template": str(front.get("template", "")),
             "has_definition": bool(re.search(r"^##\s+Definice\b", body, re.M)),
             "hardcoded": bool(HARDCODED.search(body)),
+            "howto": bool(HOWTO.search(prose)),
             "ea_category": str(extra.get("ea_category", "")) if isinstance(extra, dict) else "",
+            "en": str(extra.get("nlp_en", "")) if isinstance(extra, dict) else "",
+            "aliases": [str(x) for x in extra.get("nlp_aliases", [])]
+            if isinstance(extra, dict) and isinstance(extra.get("nlp_aliases"), list) else [],
             "links": [m.group(1) for m in AT_LINK.finditer(body)],
         })
     known = {p["path"] for p in pages}

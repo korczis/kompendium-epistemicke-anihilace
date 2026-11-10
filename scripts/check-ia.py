@@ -26,6 +26,9 @@ Requirements (id: what is checked):
                    @/ links, scripts are {{ <viz_script name="…" /> }}
   generated        no machine-generated text: no NLLB auto block, structural stub, placeholder
                    note or "pojem v sekci … znalostní báze Prismatic Platform" boilerplate
+  howto            no phrasing of an operational script: imperatives that steer a target
+                   person (lexicon HOWTO in ia_model.py), the floor of rule
+                   project.content-defensive-frame
   weak-link        every internal link leads to a page that meets `detail` and `generated`
                    (the violation is on the linking page and clears itself when the target
                    is developed)
@@ -89,6 +92,8 @@ def violations(page: dict) -> list:
         found.append("generated")
     if page["hardcoded"]:
         found.append("hardcoded-path")
+    if page["howto"]:
+        found.append("howto")
     return found
 
 

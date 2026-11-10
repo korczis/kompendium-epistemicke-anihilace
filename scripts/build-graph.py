@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 """Derive the book's link graph and its metrics for the site's visualisations.
 
-Writes two files that templates and scripts read and nobody edits by hand:
+Writes three files that templates and scripts read and nobody edits by hand:
 
-  static/data/graph.json    nodes (one per page) and edges (resolved @/ links, as index pairs)
+  static/data/graph.json    nodes (one per page) and edges (resolved @/ links, as index pairs);
+                            schema kompendium-graph/v2: v1 plus, on historical cases,
+                            period_start, period_end (years; none when ongoing),
+                            ongoing, category and place
   static/data/metrics.json  per-section and whole-book figures for the dashboards
+  static/data/ia.json       per page: open IA violations by rule (scripts/check-ia.py), words,
+                            language, in and out degree, for the editorial view
 
 Deterministic: the same content gives the same bytes, so `--check` can fail CI when a
 commit changes content without regenerating them.
@@ -14,8 +19,10 @@ Usage:
   scripts/build-graph.py --check   exit 1 when either file is stale
 """
 import collections
+import importlib.util
 import json
 import pathlib
+import re
 import statistics
 import sys
 
@@ -24,7 +31,56 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from ia_model import ROOT, load_pages, load_terms  # noqa: E402
 
 OUT = ROOT / "static" / "data"
-SCHEMA = "kompendium-graph/v1"
+SCHEMA = "kompendium-graph/v2"
+# "> **Kategorie**: Totalitní režimy · **Období**: 1969–1989 · **Místo**: ČSSR" (may wrap)
+CASE_LINE = re.compile(r"\*\*Kategorie\*\*:\s*(?P<cat>[^·]+?)\s*·\s*\*\*Období\*\*:"
+                       r"\s*(?P<period>[^·]+?)\s*·\s*\*\*Místo\*\*:\s*(?P<place>.+?)\s*$")
+YEAR = re.compile(r"(?<!\d)(1[0-9]{3}|20[0-9]{2})(?!\d)")
+# A century on its own ("od 19. století") is a year; one that only qualifies decades
+# ("80. let 20. století") is not.
+CENTURY = re.compile(r"(?<!let )(?<!léta )(?<!\d)(\d{1,2})\.\s*stolet")
+DECADES = re.compile(r"(?<!\d)(\d)0\.\s*(?:–\s*(\d)0\.\s*)?(?:let|léta)")
+
+
+def case_fields(path: str) -> dict:
+    """Timeline fields of a historical case, from its category line (empty if absent).
+
+    Years are read as written; decades ("50.–80. léta 20. století") become their first and last
+    year; an open period ("od roku 1968", "do současnosti") has no period_end and ongoing = true.
+    """
+    if not path.startswith("kompendium/historical-cases/") or path.endswith("_index.md"):
+        return {}
+    lines = (ROOT / "content" / path).read_text(encoding="utf-8").split("\n")
+    for i, line in enumerate(lines):
+        if line.startswith(">") and "**Kategorie**" in line:
+            block = [line]
+            for nxt in lines[i + 1:]:
+                if not nxt.strip() or nxt.startswith("#"):
+                    break
+                block.append(nxt)
+            joined = " ".join(l.lstrip(">").strip() for l in block)
+            break
+    else:
+        return {}
+    m = CASE_LINE.search(joined)
+    if not m:
+        return {}
+    period = m.group("period")
+    century = 1800 if "19. stol" in period and "20. stol" not in period else 1900
+    years = [int(y) for y in YEAR.findall(period)]
+    years += [(int(c) - 1) * 100 for c in CENTURY.findall(period)]
+    for a, b in DECADES.findall(period):
+        years.append(century + int(a) * 10)
+        years.append(century + int(b or a) * 10 + 9)
+    fields = {"category": m.group("cat").strip(), "place": m.group("place").strip()}
+    ongoing = period.lstrip().startswith("od ") or "současnost" in period
+    if years:
+        fields["period_start"] = min(years)
+        if not ongoing:
+            fields["period_end"] = max(years)
+    if ongoing:
+        fields["ongoing"] = True
+    return fields
 
 
 def build() -> dict:
@@ -41,6 +97,7 @@ def build() -> dict:
         "lang": p["language"],
         "out": len(p["links"]),
         "in": p["links_in"],
+        **case_fields(p["path"]),
     } for i, p in enumerate(pages)]
     edges = [[index[p["path"]], index[t]] for p in pages for t in p["links"]]
 
@@ -82,7 +139,31 @@ def build() -> dict:
         "sections": sections,
     }
     graph = {"schema": SCHEMA, "nodes": nodes, "edges": edges}
-    return {"graph.json": graph, "metrics.json": metrics}
+    return {"graph.json": graph, "metrics.json": metrics, "ia.json": ia_report(pages)}
+
+
+def ia_report(pages: list) -> dict:
+    spec = importlib.util.spec_from_file_location("check_ia", ROOT / "scripts" / "check-ia.py")
+    check_ia = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(check_ia)
+    open_now = check_ia.current()
+    rows = []
+    for p in pages:
+        rows.append({
+            "path": p["path"],
+            "url": p["url"],
+            "title": p["title"],
+            "section": p["section"],
+            "violations": open_now.get(f"content/{p['path']}", []),
+            "words": p["words"],
+            "lang": p["language"],
+            "in": p["links_in"],
+            "out": len(p["links"]),
+        })
+    terms = sorted(k[len("term:"):] for k in open_now if k.startswith("term:"))
+    counts = collections.Counter(r for rules in open_now.values() for r in rules)
+    return {"schema": "kompendium-ia/v1", "rules": dict(sorted(counts.items())),
+            "terms_without_page": terms, "pages": rows}
 
 
 def serialise(data: dict) -> str:

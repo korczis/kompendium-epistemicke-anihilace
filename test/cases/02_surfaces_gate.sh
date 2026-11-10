@@ -4,7 +4,9 @@
 #  - --check passes on the real tree, built with zola;
 #  - removing a class from KNOWN_GAPS fails while that class still lacks a covered view;
 #  - an entry of KNOWN_GAPS that is covered fails (the list only shrinks);
-#  - a new page class (a fixture section) with no scenario fails.
+#  - a new page class (a fixture section) with no scenario fails while the graph does not know
+#    it; once the graph is regenerated, a derived per-class scenario covers it when one of its
+#    pages renders a view, and a class without any view stays a gap.
 set -euo pipefail
 
 root=$(cd "$(dirname "$0")/../.." && pwd)
@@ -66,3 +68,25 @@ printf '+++\ntitle = "Stránka"\n+++\n\n```mermaid\ngraph LR\n  A --> B\n```\n' 
 build
 expect_fail "fixture class" \
   "kompendium/case-02-fixture: new class without a view covered by a scenario (its views mermaid"
+
+# With the link graph regenerated, derived() sees the fixture class: its most linked page that
+# renders a view gets a per-class scenario, so the class is covered without a hand-written one.
+python3 scripts/build-graph.py >/dev/null
+build
+python3 scripts/build-surfaces.py --site "$site" >"$out" 2>&1 \
+  || { echo "build-surfaces fails with the fixture class in the graph"; cat "$out"; exit 1; }
+python3 - <<'PY'
+import json
+c = json.load(open("static/data/surfaces.json"))["classes"]["kompendium/case-02-fixture"]
+assert c["status"] == "covered", f"fixture class is {c['status']}, not covered"
+assert any(s["origin"] == "derived" and s["covers"] for s in c["scenarios"]), c["scenarios"]
+PY
+
+# A class whose pages render no view gets no scenario and stays a gap.
+bare=content/kompendium/case-02-bez-pohledu
+mkdir -p "$bare"
+printf '+++\ntitle = "Bez pohledu"\n+++\n\nOddíl bez pohledu.\n' > "$bare/_index.md"
+python3 scripts/build-graph.py >/dev/null
+build
+expect_fail "class without a view" \
+  "kompendium/case-02-bez-pohledu: new class without a view covered by a scenario (its pages render no class view"

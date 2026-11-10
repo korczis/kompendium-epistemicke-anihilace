@@ -113,7 +113,10 @@
     "chart_inline",
     "cross_link"
    ],
-   "covered_views": [],
+   "covered_views": [
+    "chart-inline",
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/charts/kompendium-distribution.json",
     "static/data/graph.json",
@@ -151,7 +154,19 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "chart-inline",
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/_index.md",
+     "painted": 2,
+     "path": "kompendium/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -176,7 +191,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 1,
     "kompendium/section.html": 1
@@ -190,7 +205,9 @@
    "components": [
     "cross_link"
    ],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -227,7 +244,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/01-predmluva: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/01-predmluva/_index.md",
+     "painted": 1,
+     "path": "kompendium/01-predmluva/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -252,7 +280,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 10,
     "section.html": 2
@@ -477,7 +505,9 @@
   },
   "kompendium/03-manipulacni-vzorce": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "mermaid"
+   ],
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json"
@@ -501,7 +531,19 @@
     "partials/subnav.html",
     "partials/toc.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "mermaid"
+     ],
+     "mermaid": 2,
+     "note": "třída kompendium/03-manipulacni-vzorce: diagramy Mermaid (2)",
+     "origin": "derived",
+     "page": "kompendium/03-manipulacni-vzorce/_index.md",
+     "painted": 0,
+     "path": "kompendium/03-manipulacni-vzorce/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -522,7 +564,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "section.html": 1
    },
@@ -535,7 +577,9 @@
     "cross_link",
     "viz_script"
    ],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -574,7 +618,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/03-zakladni-kategorie: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/03-zakladni-kategorie/_index.md",
+     "painted": 1,
+     "path": "kompendium/03-zakladni-kategorie/"
+    }
+   ],
    "scripts": [
     "js/kompendium/section-03-progression.js",
     "js/p5/grafika.js",
@@ -600,7 +655,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 18,
     "kompendium/section.html": 1,
@@ -719,7 +774,9 @@
   },
   "kompendium/04-pokrocile-fenomeny": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "mermaid"
+   ],
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json"
@@ -743,7 +800,19 @@
     "partials/subnav.html",
     "partials/toc.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "mermaid"
+     ],
+     "mermaid": 1,
+     "note": "třída kompendium/04-pokrocile-fenomeny: diagramy Mermaid (1)",
+     "origin": "derived",
+     "page": "kompendium/04-pokrocile-fenomeny/_index.md",
+     "painted": 0,
+     "path": "kompendium/04-pokrocile-fenomeny/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -764,7 +833,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "section.html": 1
    },
@@ -777,7 +846,9 @@
     "cross_link",
     "viz_script"
    ],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -816,7 +887,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/04-terminalni-protokoly: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/04-terminalni-protokoly/_index.md",
+     "painted": 1,
+     "path": "kompendium/04-terminalni-protokoly/"
+    }
+   ],
    "scripts": [
     "js/kompendium/section-04-decision-tree.js",
     "js/p5/grafika.js",
@@ -842,7 +924,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 10,
     "section.html": 1
@@ -1121,7 +1203,9 @@
    "components": [
     "cross_link"
    ],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -1158,7 +1242,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/05-ultramari-techniky: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/05-ultramari-techniky/_index.md",
+     "painted": 1,
+     "path": "kompendium/05-ultramari-techniky/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -1183,7 +1278,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 9,
     "section.html": 1
@@ -1247,7 +1342,9 @@
   },
   "kompendium/06-intervence-a-obrana": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "mermaid"
+   ],
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json"
@@ -1271,7 +1368,19 @@
     "partials/subnav.html",
     "partials/toc.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "mermaid"
+     ],
+     "mermaid": 2,
+     "note": "třída kompendium/06-intervence-a-obrana: diagramy Mermaid (2)",
+     "origin": "derived",
+     "page": "kompendium/06-intervence-a-obrana/_index.md",
+     "painted": 0,
+     "path": "kompendium/06-intervence-a-obrana/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -1292,7 +1401,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "section.html": 1
    },
@@ -1305,7 +1414,9 @@
     "cross_link",
     "viz_script"
    ],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -1344,7 +1455,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/06-klinicke-aplikace: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/06-klinicke-aplikace/_index.md",
+     "painted": 1,
+     "path": "kompendium/06-klinicke-aplikace/"
+    }
+   ],
    "scripts": [
     "js/kompendium/section-06-recovery-flow.js",
     "js/p5/grafika.js",
@@ -1370,7 +1492,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 17,
     "kompendium/section.html": 1,
@@ -1436,7 +1558,9 @@
   },
   "kompendium/07-populacni": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -1473,7 +1597,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/07-populacni: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/07-populacni/_index.md",
+     "painted": 1,
+     "path": "kompendium/07-populacni/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -1498,7 +1633,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 1,
     "kompendium/section.html": 1
@@ -1697,7 +1832,9 @@
   },
   "kompendium/aiad-integration": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -1734,7 +1871,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/aiad-integration: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/aiad-integration/_index.md",
+     "painted": 1,
+     "path": "kompendium/aiad-integration/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -1759,7 +1907,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 25,
     "section.html": 1
@@ -1897,7 +2045,9 @@
   },
   "kompendium/critical-perspectives": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -1934,7 +2084,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/critical-perspectives: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/critical-perspectives/_index.md",
+     "painted": 1,
+     "path": "kompendium/critical-perspectives/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -1959,7 +2120,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 30,
     "section.html": 1
@@ -1970,7 +2131,9 @@
   },
   "kompendium/cross-domain": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -2007,7 +2170,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/cross-domain: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/cross-domain/_index.md",
+     "painted": 1,
+     "path": "kompendium/cross-domain/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -2032,7 +2206,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 30,
     "section.html": 1
@@ -2043,7 +2217,9 @@
   },
   "kompendium/detection-signatures": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -2080,7 +2256,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/detection-signatures: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/detection-signatures/_index.md",
+     "painted": 1,
+     "path": "kompendium/detection-signatures/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -2105,7 +2292,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 33,
     "kompendium/section.html": 1
@@ -2116,7 +2303,9 @@
   },
   "kompendium/educational-scenarios": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -2153,7 +2342,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/educational-scenarios: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/educational-scenarios/_index.md",
+     "painted": 1,
+     "path": "kompendium/educational-scenarios/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -2178,7 +2378,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 30,
     "section.html": 1
@@ -2287,7 +2487,9 @@
   },
   "kompendium/forensic-legal": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -2324,7 +2526,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/forensic-legal: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/forensic-legal/_index.md",
+     "painted": 1,
+     "path": "kompendium/forensic-legal/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -2349,7 +2562,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "page.html": 50,
     "section.html": 1
@@ -2360,7 +2573,9 @@
   },
   "kompendium/glossary-bridges": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -2397,7 +2612,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/glossary-bridges: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/glossary-bridges/_index.md",
+     "painted": 1,
+     "path": "kompendium/glossary-bridges/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -2422,7 +2648,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 108,
     "section.html": 2
@@ -2519,7 +2745,9 @@
   },
   "kompendium/international": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -2556,7 +2784,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/international: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/international/_index.md",
+     "painted": 1,
+     "path": "kompendium/international/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -2581,7 +2820,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 40,
     "section.html": 1
@@ -2592,7 +2831,9 @@
   },
   "kompendium/konceptualni-mapa": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "mermaid"
+   ],
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json"
@@ -2616,7 +2857,19 @@
     "partials/subnav.html",
     "partials/toc.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "mermaid"
+     ],
+     "mermaid": 3,
+     "note": "třída kompendium/konceptualni-mapa: diagramy Mermaid (3)",
+     "origin": "derived",
+     "page": "kompendium/konceptualni-mapa/_index.md",
+     "painted": 0,
+     "path": "kompendium/konceptualni-mapa/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -2637,7 +2890,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "section.html": 1
    },
@@ -2647,7 +2900,9 @@
   },
   "kompendium/organizational-defense": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -2684,7 +2939,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/organizational-defense: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/organizational-defense/_index.md",
+     "painted": 1,
+     "path": "kompendium/organizational-defense/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -2709,7 +2975,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 40,
     "section.html": 1
@@ -2720,7 +2986,9 @@
   },
   "kompendium/population-health": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -2757,7 +3025,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/population-health: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/population-health/_index.md",
+     "painted": 1,
+     "path": "kompendium/population-health/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -2782,7 +3061,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 30,
     "section.html": 1
@@ -2793,7 +3072,9 @@
   },
   "kompendium/prevention-resilience": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -2830,7 +3111,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/prevention-resilience: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/prevention-resilience/_index.md",
+     "painted": 1,
+     "path": "kompendium/prevention-resilience/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -2855,7 +3147,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 30,
     "kompendium/section.html": 1
@@ -2866,7 +3158,9 @@
   },
   "kompendium/quick-reference": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -2903,7 +3197,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/quick-reference: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/quick-reference/_index.md",
+     "painted": 1,
+     "path": "kompendium/quick-reference/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -2928,7 +3233,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 123,
     "section.html": 1
@@ -2939,7 +3244,9 @@
   },
   "kompendium/recovery-protocols": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -2976,7 +3283,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/recovery-protocols: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/recovery-protocols/_index.md",
+     "painted": 1,
+     "path": "kompendium/recovery-protocols/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -3001,7 +3319,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 40,
     "section.html": 1
@@ -3012,7 +3330,9 @@
   },
   "kompendium/research-methodology": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -3049,7 +3369,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/research-methodology: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/research-methodology/_index.md",
+     "painted": 1,
+     "path": "kompendium/research-methodology/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -3074,7 +3405,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 30,
     "kompendium/section.html": 1
@@ -3085,7 +3416,9 @@
   },
   "kompendium/section-bridges": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -3122,7 +3455,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/section-bridges: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/section-bridges/_index.md",
+     "painted": 1,
+     "path": "kompendium/section-bridges/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -3147,7 +3491,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 30,
     "section.html": 1
@@ -3158,7 +3502,9 @@
   },
   "kompendium/self-defense-guides": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -3195,7 +3541,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/self-defense-guides: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/self-defense-guides/_index.md",
+     "painted": 1,
+     "path": "kompendium/self-defense-guides/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -3220,7 +3577,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 50,
     "kompendium/section.html": 1
@@ -3501,7 +3858,9 @@
   },
   "philosophy": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -3538,7 +3897,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída philosophy: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "philosophy/_index.md",
+     "painted": 1,
+     "path": "philosophy/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -3563,7 +3933,7 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "philosophy/detail.html": 3,
     "philosophy/list.html": 1
@@ -3733,44 +4103,16 @@
   }
  },
  "gaps": [
-  "kompendium",
-  "kompendium/01-predmluva",
   "kompendium/02-doktrinalni-ramec",
-  "kompendium/03-manipulacni-vzorce",
-  "kompendium/03-zakladni-kategorie",
   "kompendium/04-klinika",
   "kompendium/04-operacni-principy",
-  "kompendium/04-pokrocile-fenomeny",
-  "kompendium/04-terminalni-protokoly",
   "kompendium/05-diagnostika",
   "kompendium/05-kolektivni-rozmer",
   "kompendium/05-pokrocile-operace",
   "kompendium/05-pokrocile-techniky",
   "kompendium/05-pre-konceptualni-rozklad",
-  "kompendium/05-ultramari-techniky",
   "kompendium/06-epistemicka-singularita",
-  "kompendium/06-intervence-a-obrana",
-  "kompendium/06-klinicke-aplikace",
-  "kompendium/06-obrana",
-  "kompendium/07-populacni",
-  "kompendium/aiad-integration",
-  "kompendium/critical-perspectives",
-  "kompendium/cross-domain",
-  "kompendium/detection-signatures",
-  "kompendium/educational-scenarios",
-  "kompendium/forensic-legal",
-  "kompendium/glossary-bridges",
-  "kompendium/international",
-  "kompendium/konceptualni-mapa",
-  "kompendium/organizational-defense",
-  "kompendium/population-health",
-  "kompendium/prevention-resilience",
-  "kompendium/quick-reference",
-  "kompendium/recovery-protocols",
-  "kompendium/research-methodology",
-  "kompendium/section-bridges",
-  "kompendium/self-defense-guides",
-  "philosophy"
+  "kompendium/06-obrana"
  ],
  "generic_views": {
   "viz/oddil": "obecný přehled každého oddílu (partials/section-overview.html)",

@@ -22,27 +22,31 @@ type = "educational-scenario"
 
 [DARVO](@/glossary/darvo.md) je zkratka, kterou v souvislosti s teorií
 [betrayal trauma](@/glossary/betrayal-trauma.md) zavedla Jennifer Freydová: osoba konfrontovaná
-s obviněním **popře** (*Deny*), **zaútočí** na toho, kdo obvinění vznesl (*Attack*), a **obrátí
-role oběti a pachatele** (*Reverse Victim and Offender*) – prezentuje se jako skutečná oběť
-a oznamovatele jako agresora. Sled je účinný proto, že nezpochybňuje jen fakta, ale přesouvá
-pozornost posluchačů. Freydová a spolupracovníci se proto zabývali i tím, jak DARVO ovlivňuje
-hodnocení věrohodnosti přihlížejícími. Scénář je napsán z pozice těch, kdo poslouchají.
+s obviněním **popře** (*Deny*), **zaútočí** na toho, kdo obvinění vznesl (*Attack*), a **obrátí role
+oběti a pachatele** (*Reverse Victim and Offender*), takže se prezentuje jako skutečná oběť a
+oznamovatele jako agresora. Sled je účinný proto, že nezpochybňuje jen fakta, ale přesouvá pozornost
+posluchačů od otázky „co se stalo“ k otázce „kdo je tu skutečně poškozen“ (Freyd, 1997). Scénář je
+napsán z pozice těch, kdo poslouchají, protože právě u přihlížejících a posuzovatelů DARVO rozhoduje
+o výsledku.
 
-## Učební cíle
+## Učební cíle a jejich zdůvodnění
 
-Účastník po cvičení:
-
-1. rozpozná v přepisu všechny tři složky DARVO a jejich jazykové markery;
-2. odliší DARVO od legitimní obrany nevinně obviněného (popření s věcnými důvody je právem
-   každého);
-3. formuluje otázky a procesní kroky, které vracejí šetření k původnímu tvrzení;
-4. popíše dopad DARVO na oznamovatele a jak ho při šetření omezit.
+Cvičení směřuje k tomu, aby účastník rozpoznal v přepisu všechny tři složky DARVO a jejich jazykové
+markery, odlišil DARVO od legitimní obrany nevinně obviněného (popření s věcnými důvody je právem
+každého) a formuloval otázky a procesní kroky, které vracejí šetření k původnímu tvrzení. Nácvik
+právě u posuzovatelů je zvolen proto, že experimentální práce ukazuje, že vystavení taktice DARVO
+snižuje vnímanou věrohodnost oznamovatele a zvyšuje věrohodnost obviněného u těch, kdo ji nerozpoznají,
+zatímco její pojmenování tento účinek oslabuje (Harsey & Freyd, 2020). Posledním cílem je popsat dopad
+DARVO na oznamovatele a způsob, jak jej při šetření omezit, protože obrácení rolí poškozuje
+oznamovatele i tehdy, když je obvinění nakonec uznáno.
 
 ## Scénář
 
-Fiktivní interní šetření ve středně velké firmě. Zaměstnankyně oznámila, že ji vedoucí týmu
-opakovaně ponižoval na poradách a vyřadil z projektu poté, co odmítla jeho návrhy na
-soukromé schůzky. Komise vede rozhovor s vedoucím. Účastníci dostanou přepis (zkrácený):
+Jde o fiktivní interní šetření ve středně velké firmě, v němž zaměstnankyně oznámila, že ji vedoucí
+týmu opakovaně ponižoval na poradách a vyřadil z projektu poté, co odmítla jeho návrhy na soukromé
+schůzky. Komise vede rozhovor s vedoucím a účastníci dostanou zkrácený přepis, na němž lze sledovat,
+jak se tři složky taktiky skládají za sebou a společně obracejí pozornost od původního obvinění
+(Freyd, 1997).
 
 > **Komise:** Paní X uvádí, že jste ji na poradách 3. a 10. března označil za neschopnou
 > před celým týmem.
@@ -55,77 +59,80 @@ soukromé schůzky. Komise vede rozhovor s vedoucím. Účastníci dostanou pře
 > spát, rodina to odnáší. Upřímně, zvažuju, že podám stížnost na ni a na to, jak tohle šetření
 > vedete. *(Reverse Victim and Offender)*
 
-Účastníci ve trojicích (1) vyznačí složky DARVO, (2) oddělí v přepisu věcná tvrzení, která
-lze ověřit, od útoků a výměny rolí, (3) navrhnou, jak by komise měla pokračovat.
+Účastníci ve trojicích vyznačí složky DARVO, oddělí v přepisu věcná tvrzení, která lze ověřit, od
+útoků a výměny rolí, a navrhnou, jak by komise měla pokračovat; právě toto vědomé oddělení je
+nástrojem, který oslabuje vliv taktiky na vnímanou věrohodnost stran (Harsey & Freyd, 2020).
 
-## Signály, kterých si všimnout
+## Jak se vzorec pozná
 
-- **Paušální popření bez obsahu** – „nesmysl“ bez alternativní verze událostí.
-- **Přesun na osobu** – od otázky „co se stalo“ k otázce „jaká je ona“; srovnej
-  [tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) a
-  [vyhýbání se tématu](@/kompendium/detection-signatures/11-behavioral-topic-evasion.md).
-- **Útok na důvěryhodnost** – „je známá tím, že si vymýšlí“ bez konkrétních příkladů; viz
-  [delegitimizace](@/glossary/delegitimizace.md).
-- **Inverze rolí v jazyce** – „já jsem tady ten šikanovaný“; srovnej
-  [inverze zájmen](@/kompendium/detection-signatures/5-linguistic-pronoun-inversion.md).
-- **Emoční eskalace** – vyvolání soucitu nebo strachu u posluchačů; viz
-  [emocionální modulace](@/kompendium/detection-signatures/16-behavioral-emotional-modulation.md).
-- **Útok na proces** – hrozba stížností na šetření; posouvá komisi do obranné pozice.
+Prvním markerem je paušální popření bez obsahu – „nesmysl“ bez alternativní verze událostí – za nímž
+následuje přesun na osobu, kdy se otázka „co se stalo“ mění v otázku „jaká je ona“
+([tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md),
+[vyhýbání se tématu](@/kompendium/detection-signatures/11-behavioral-topic-evasion.md)). Druhým je
+útok na důvěryhodnost („je známá tím, že si vymýšlí“) bez konkrétních příkladů, tedy
+[delegitimizace](@/glossary/delegitimizace.md) oznamovatelky. Třetím a nejspecifičtějším markerem je
+inverze rolí v jazyce („já jsem tady ten šikanovaný“), kterou provází jazykový otisk
+[inverze zájmen](@/kompendium/detection-signatures/5-linguistic-pronoun-inversion.md); tato výměna
+rolí oběti a pachatele je dobře popsaným jádrem DARVO, protože obrací morální mapu situace, nikoli
+jen jednotlivá fakta (Freyd, 1996). Doplňuje je emoční eskalace vyvolávající soucit nebo strach
+u posluchačů ([emocionální modulace](@/kompendium/detection-signatures/16-behavioral-emotional-modulation.md))
+a útok na proces v podobě hrozby stížností, který posouvá komisi do obranné pozice.
 
-## Diskusní otázky
+## Odlišení od legitimní obrany
 
-1. Která část přepisu je legitimní obranou a která je DARVO?
-2. Je možné, že vedoucí opravdu trpí? Jak to ovlivní vaše jednání?
-3. Jak komise může reagovat na útok na oznamovatelku, aniž by ho přejala nebo naopak ignorovala?
-4. Co dělat s hrozbou stížnosti na šetření?
-5. Jak informovat oznamovatelku o průběhu, aby ji útoky dodatečně nepoškodily?
-6. Jak se pozná, že komise sama začala přejímat obrácené role?
+Popření samo o sobě je legitimní a nevinně obviněný má plné právo obvinění odmítnout; DARVO začíná
+tam, kde popření nemá obsah a je bezprostředně následováno útokem a výměnou rolí. Legitimní obrana
+by zněla jinak – „na poradě jsem kritizoval termín, ne ji osobně, a zápis to ukazuje takto“ – tedy
+nabídla by jinou, ověřitelnou verzi. Je také možné, že obviněný prožívá skutečný stres, což však
+neodpovídá na otázku, co se stalo na poradách; emoci lze uznat a vrátit se k tématu. Klíčové je, že
+rozpoznání vzorce není verdikt: DARVO neprokazuje, že se obviněné jednání stalo, nýbrž je důvodem
+udržet šetření u faktů a posuzovat tvrzení o oznamovatelce odděleně, s požadavkem konkrétních dokladů.
+Nebezpečí institucionální reakce spočívá v tom, že organizace sklouzne k ochraně obviněného a
+k podezírání oznamovatele – vzorec, který byl popsán jako institucionální zrada a který prohlubuje
+újmu oznamovatele (Smith & Freyd, 2014).
 
-## Modelové odpovědi
+## Obrana a zotavení
 
-- **K otázce 1.** Popření samo je legitimní; DARVO začíná tím, že popření nemá obsah a
-  je bezprostředně následováno útokem a výměnou rolí. Legitimní obrana by zněla: „Na poradě
-  jsem kritizoval termín, ne ji osobně; zápis to ukazuje takto…“ – tedy jiná, ověřitelná verze.
-- **K otázce 2.** Ano, může prožívat skutečný stres. To však neodpovídá na otázku, co se stalo
-  na poradách. Uznat emoci a vrátit se k tématu: „Rozumím, že je to pro vás náročné. Teď
-  potřebujeme projít zápis z 3. března.“
-- **K otázce 3.** Zaznamenat tvrzení o oznamovatelce jako samostatné tvrzení, požádat o
-  konkrétní doklady a vyhodnotit je odděleně. Neodpovídat na charakteristiky osoby a nepřipustit,
-  aby nahradily odpověď na původní otázku.
-- **K otázce 4.** Věcně potvrdit právo podat stížnost a postup, jak ji podat, a pokračovat
-  v šetření. Hrozba nemá změnit postup; viz [interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md).
-- **K otázce 5.** Neprovádět „konfrontaci“ bez přípravy, informovat o průběhu bez převyprávění
-  útoků, chránit před odvetou a zajistit podporu; srovnej [mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md).
-- **K otázce 6.** Otázky komise se přesouvají k chování oznamovatelky („proč to řešíte až
-  teď?“), ačkoli původní tvrzení nebylo prověřeno. Viz [riziko obětování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md).
-
-## Časté chyby
-
-- **DARVO jako verdikt.** Rozpoznání vzorce není důkaz, že se obviněné jednání stalo. Je to
-  důvod udržet šetření u faktů.
-- **Nálepkování jakékoli obrany.** Kdo každé popření označí za DARVO, upírá obviněnému právo
-  na obranu.
-- **Diskuse o povaze oznamovatelky.** Komise začne zjišťovat, „jaká je“, místo co se stalo.
-- **Ustoupení hrozbě.** Změna postupu po výhrůžce stížností.
+Komise se brání procesně: tvrzení o oznamovatelce zaznamená jako samostatné tvrzení, vyžádá si
+konkrétní doklady a vyhodnotí je odděleně, neodpovídá na charakteristiky osoby a nepřipustí, aby
+nahradily odpověď na původní otázku. Na hrozbu stížnosti reaguje věcným potvrzením práva ji podat a
+pokračuje v šetření, protože hrozba nemá změnit postup
+([interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)). Ochrana
+oznamovatelky zahrnuje, že se neprovádí „konfrontace“ bez přípravy, že se o průběhu informuje bez
+převyprávění útoků a že se oznamovatelka chrání před odvetou
+([mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)).
+Zotavení oznamovatele je důležité i tam, kde šetření skončí v jeho prospěch, protože obrácení rolí a
+útok na důvěryhodnost mají vlastní traumatizující účinek; obnova se opírá o uznání újmy a o bezpečí,
+které je prvním krokem každého zotavení z mocensky způsobené traumatizace (Herman, 1992).
 
 ## Debriefing pro facilitátora
 
-Začněte otázkou 1 a nechte trojice ukázat, kde vedly hranici mezi legitimní obranou a DARVO.
-Pokud skupina sklouzne k hodnocení vedoucího jako osoby, upozorněte, že tím opakuje strukturu
-útoku – jen opačným směrem. Smyslem scénáře je *procesní* odpověď.
+Facilitátor začne otázkou, kde trojice vedly hranici mezi legitimní obranou a DARVO, a pokud skupina
+sklouzne k hodnocení vedoucího jako osoby, upozorní, že tím opakuje strukturu útoku, jen opačným
+směrem; smyslem scénáře je procesní, nikoli personální odpověď. Je třeba hlídat čtyři časté chyby:
+brát DARVO jako verdikt o vině, nálepkovat jakoukoli obranu, přesunout se k diskusi o povaze
+oznamovatelky a ustoupit hrozbě stížností. Protože vystavení taktice DARVO prokazatelně ovlivňuje i
+školené posuzovatele, je samo její pojmenování ve skupině ochranným krokem, který účinek taktiky
+oslabuje (Harsey & Freyd, 2020). Účastníci, kteří sami něco oznamovali, mohou přepis prožívat silně,
+proto facilitátor nabídne rozhovor mimo skupinu.
 
-Účastníci, kteří sami něco oznamovali, mohou přepis prožívat silně. Dejte prostor a nabídněte
-rozhovor mimo skupinu. Pro práci s vlastním prožitkem viz
-[emoční odstup](@/kompendium/self-defense-guides/15-emotional-distancing.md).
+## Meze a otevřené otázky
 
-## Rozšiřující úkoly
+Scénář pracuje s čitelným, zhuštěným přepisem; v praxi bývá DARVO rozloženo do mnoha schůzek a
+proloženo věcnými argumenty, takže je obtížnější je oddělit od legitimní obrany. Otevřenou otázkou
+zůstává, jak posoudit situaci, v níž je obviněný skutečně také poškozen – vzájemné obviňování není
+vyloučeno – aniž by posuzovatel buď přehlédl manipulaci, nebo naopak upřel obviněnému právo na
+skutečnou újmu. Diskutovat je rovněž třeba riziko nadužívání pojmu: označit každou emoční obrannou
+reakci za DARVO by znehodnotilo pojem a poškodilo nevinně obviněné, stejně jako přehlédnutí taktiky
+poškozuje oznamovatele a může přerůst v institucionální zradu (Smith & Freyd, 2014).
 
-1. **Šablona otázek.** Připravte pět otázek, které vracejí rozhovor k faktům, aniž by zněly
-   nepřátelsky.
-2. **Posouzení věrohodnosti.** Prostudujte [posuzování věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md)
-   a určete, které jeho prvky jsou vůči DARVO nejodolnější.
-3. **Výpověď dítěte.** Promyslete, jak se DARVO projevuje, když oznamovatelem je dítě nebo
-   dospívající, a co to znamená pro [forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md).
+## Literatura
+
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Freyd, J. J. (1997). Violations of Power, Adaptive Blindness, and Betrayal Trauma Theory. *Feminism & Psychology*, 7(1).
+- Harsey, S. J., & Freyd, J. J. (2020). Deny, Attack, and Reverse Victim and Offender (DARVO): What Is the Influence on Perceived Credibility? *Journal of Aggression, Maltreatment & Trauma*, 29(8).
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Smith, C. P., & Freyd, J. J. (2014). Institutional Betrayal. *American Psychologist*, 69(6).
 
 ## Související
 

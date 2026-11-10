@@ -20,21 +20,25 @@ toc = true
 
 ## Vymezení a cíl
 
-**Outreach** (terénní, vyhledávací práce) je aktivní nabídka informací a podpory lidem, kteří
-se ke službám sami nedostanou. V kontextu EA má dva cíle: snížit pravděpodobnost expozice
-u lidí v rizikové situaci a zkrátit dobu od expozice k pomoci u těch, kdo už zasaženi jsou.
-
-Klíčovým principem je, že zranitelnost je **situační a proměnlivá**. Rizikovou situaci zažije
-během života téměř každý – ovdovění, nemoc, migrace, ztráta práce, odchod z ústavní péče.
-Outreach proto nemá označovat skupiny lidí za „náchylné k manipulaci“; má rozpoznat situace,
-v nichž chybějí ochranné struktury ([práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)).
+Outreach, tedy terénní a vyhledávací práce, je aktivní nabídka informací a podpory lidem,
+kteří se ke službám sami nedostanou. V kontextu epistemických útoků má dva cíle: snížit
+pravděpodobnost expozice u lidí v rizikové situaci a zkrátit dobu od expozice k pomoci u těch,
+kdo už zasaženi jsou. Klíčovým principem je, že zranitelnost je situační a proměnlivá;
+rizikovou situaci – ovdovění, nemoc, migraci, ztrátu práce, odchod z ústavní péče – zažije
+během života téměř každý. Právě přerušení sociálních vazeb a ztráta vnějších korektiv činí
+člověka přístupným kontrole, protože izolace je jádrem donucovacího vzorce, nikoli jeho
+náhodným doprovodem (Stark, 2007). Outreach proto nemá označovat skupiny lidí za „náchylné
+k manipulaci“; má rozpoznat situace, v nichž chybějí ochranné struktury
+([práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)).
 
 ## Úroveň prevence a cílová populace
 
-Jde o **selektivní prevenci** (skupiny se zvýšeným rizikem) s prvky **indikované prevence**
-(jednotlivci s počínajícími známkami expozice). Inspirací je princip *proporcionálního
-univerzalismu* ze zprávy Michaela Marmota *Fair Society, Healthy Lives* (2010): univerzální
-nabídka, jejíž intenzita roste s mírou znevýhodnění.
+Jde o selektivní prevenci (skupiny se zvýšeným rizikem) s prvky indikované prevence
+(jednotlivci s počínajícími známkami expozice). Teoretickým vodítkem je princip
+proporcionálního univerzalismu z přehledu nerovností ve zdraví, podle nějž má mít opatření
+univerzální dosah, ale intenzitu rostoucí s mírou znevýhodnění, protože jinak nejvíce prospěje
+těm, kdo pomoc potřebují nejméně (Marmot, 2010). Následující tabulka shrnuje typické situace,
+jejich rizika a vhodné prostředníky.
 
 | Situace | Typická rizika | Vhodní prostředníci |
 |---|---|---|
@@ -48,52 +52,63 @@ nabídka, jejíž intenzita roste s mírou znevýhodnění.
 
 ## Logika intervence
 
-Outreach zkracuje vzdálenost mezi člověkem a pomocí ve třech rovinách: **fyzické** (pomoc
-přichází na místo), **jazykové a kulturní** (srozumitelná forma, důvěryhodný mluvčí)
-a **vztahové** (prostředník, kterému člověk už důvěřuje). Epistemický útok obvykle
-přerušuje kontakt s okolím; outreach se snaží kontakt obnovit, aniž by byl vnímán jako hrozba.
+Outreach zkracuje vzdálenost mezi člověkem a pomocí ve třech rovinách: fyzické (pomoc přichází
+na místo), jazykové a kulturní (srozumitelná forma, důvěryhodný mluvčí) a vztahové
+(prostředník, kterému člověk už důvěřuje). Epistemický útok obvykle přerušuje kontakt
+s okolím, a protože obnova důvěry ve vlastní úsudek vyžaduje bezpečné spojení s druhými,
+směřuje první krok zotavení právě k opětovnému napojení, nikoli ke konfrontaci přesvědčení
+(Herman, 1992). Outreach se proto snaží kontakt obnovit, aniž by byl sám vnímán jako hrozba.
+
+Důležité je odlišit outreach od dohledu. Aktivní vyhledávání se pohybuje na tenké hranici:
+nabídka pomoci se může snadno proměnit v kontrolu, jestliže prostředník začne za člověka
+rozhodovat nebo jeho situaci monitorovat bez jeho vědomí. Rozdíl je v tom, kdo drží iniciativu
+– legitimní outreach rozšiřuje pole možností, nikoli je zužuje, a respektuje, že schopnost
+poznávat a rozhodovat je sama o sobě hodnotou, kterou má program posilovat, ne nahrazovat
+(Fricker, 2007). V praxi to znamená nabízet, nikoli vnucovat, a každý kontakt stavět na
+souhlasu a srozumitelné informaci o tom, co služba dělá a co nedělá.
 
 ## Komponenty programu
 
-- **Mapování situací a míst**, kde se lidé v riziku pohybují (čekárny, úřady, nádraží, online
-  komunity, bohoslužby).
-- **Školení prostředníků** – pečovatelky, bankovní úředníci, tlumočníci, trenéři – v rozpoznání
-  signálů ([rozpoznání varovných signálů](@/kompendium/prevention-resilience/12-warning-sign-recognition.md))
-  a v tom, jak nabídnout kontakt bez nátlaku.
-- **Peer pracovníci** – lidé s vlastní zkušeností s odchodem ze skupiny nebo vztahu, se
-  supervizí a jasnými hranicemi role.
-- **Kulturně a jazykově přizpůsobené materiály**, vytvořené společně s komunitou, ne jen
-  přeložené ([kulturní překlad EA pojmů](@/kompendium/international/34-cultural-translation-EA/index.md)).
-- **Nízkoprahové služby** – anonymní, bez objednání, bez podmínky „uznat problém“.
-- **Navazující péče** – jasná cesta od prvního kontaktu ke specializované pomoci
-  ([protokol pro seniory](@/kompendium/recovery-protocols/recovery-elder-protocol.md),
-  [protokol pro adolescenty](@/kompendium/recovery-protocols/recovery-adolescent-protocol.md),
-  [uprchlík/migrant protokol](@/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md)).
+Základem je mapování situací a míst, kde se lidé v riziku pohybují – čekáren, úřadů, nádraží,
+online komunit, bohoslužeb. Na ně navazuje školení prostředníků, tedy pečovatelek, bankovních
+úředníků, tlumočníků či trenérů, v rozpoznání signálů
+([rozpoznání varovných signálů](@/kompendium/prevention-resilience/12-warning-sign-recognition.md))
+a v tom, jak nabídnout kontakt bez nátlaku. Zvláštní hodnotu mají peer pracovníci – lidé
+s vlastní zkušeností s odchodem ze skupiny nebo vztahu –, protože sdílená zkušenost dodává
+kontaktu důvěryhodnost, kterou formální autorita nemá; jejich práce ovšem vyžaduje supervizi
+a jasné hranice role, aby se nereprodukoval nový závislý vztah (Hassan, 2015). Materiály mají
+být kulturně a jazykově přizpůsobené a vytvořené společně s komunitou, ne jen přeložené
+([kulturní překlad EA pojmů](@/kompendium/international/34-cultural-translation-EA/index.md)).
+Služby mají být nízkoprahové – anonymní, bez objednání, bez podmínky „uznat problém“ – a každý
+první kontakt potřebuje jasnou cestu k navazující specializované pomoci
+([protokol pro seniory](@/kompendium/recovery-protocols/recovery-elder-protocol.md),
+[protokol pro adolescenty](@/kompendium/recovery-protocols/recovery-adolescent-protocol.md),
+[uprchlík/migrant protokol](@/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md)).
 
 ## Rizika a nežádoucí účinky
 
-- **Stigmatizace.** Kampaň „senioři jsou snadnou obětí“ snižuje sebedůvěru seniorů a může
-  zvýšit jejich závislost na druhých – tedy riziko, kterému má bránit
-  ([stigmatizace skrze EA kategorie](@/kompendium/critical-perspectives/12-EA-stigma-risk.md)).
-- **Paternalismus.** Dospělý člověk má právo na rozhodnutí, která okolí považuje za špatná
-  (například vstup do náboženského společenství). Outreach nabízí informace a možnosti,
-  nerozhoduje za druhé; hranice je [undue influence](@/glossary/undue-influence.md)
-  a zákonné důvody k zásahu.
-- **Mocenská asymetrie.** Pracovník instituce může být vnímán jako kontrola – zvláště
-  u migrantů nebo lidí s negativní zkušeností s úřady
-  ([mocenská asymetrie](@/kompendium/critical-perspectives/14-power-asymmetry-EA.md)).
-- **Selhání navazující péče.** Oslovit člověka a nemít kam ho poslat je horší než neoslovit.
+Prvním rizikem je stigmatizace: kampaň „senioři jsou snadnou obětí“ snižuje sebedůvěru
+seniorů a může zvýšit jejich závislost na druhých, tedy přesně to riziko, kterému má bránit
+([stigmatizace skrze EA kategorie](@/kompendium/critical-perspectives/12-EA-stigma-risk.md)).
+Druhým je paternalismus. Dospělý člověk má právo na rozhodnutí, která okolí považuje za
+špatná, včetně vstupu do náboženského společenství; hranicí, za níž je zásah legitimní, je
+teprve zneužití závislosti, které právo zachycuje doktrínou nepřípustného vlivu
+([undue influence](@/glossary/undue-influence.md)), nikoli prostá nesouhlasná volba (Fricker,
+2007). Třetím rizikem je mocenská asymetrie: pracovník instituce může být vnímán jako
+kontrola, zvláště u migrantů nebo lidí s negativní zkušeností s úřady
+([mocenská asymetrie](@/kompendium/critical-perspectives/14-power-asymmetry-EA.md)). Čtvrtým
+je selhání navazující péče – oslovit člověka a nemít kam ho poslat je horší než neoslovit,
+protože nenaplněná nabídka potvrzuje přesvědčení, že pomoc neexistuje.
 
 ## Evaluace
 
-- **Dosah**: kolik lidí z cílové situace program oslovil a jak se liší od těch, kdo osloveni
-  nebyli.
-- **Cesta k pomoci**: podíl oslovených, kteří navázali kontakt se službou; doba od prvního
-  kontaktu.
-- **Výsledky**: sociální síť, pocit bezpečí, zvládání (opakovaná měření u ochotných klientů).
-- **Přijatelnost**: rozhovory s cílovou skupinou o tom, jak program vnímá.
-- Metodologická a etická specifika výzkumu s těmito skupinami popisuje článek
-  [výzkum zranitelných populací](@/kompendium/research-methodology/vulnerable-population-research.md).
+Evaluace sleduje dosah (kolik lidí z cílové situace program oslovil a jak se liší od těch,
+kdo osloveni nebyli), cestu k pomoci (podíl oslovených, kteří navázali kontakt se službou,
+a dobu od prvního kontaktu) a výsledky (sociální síť, pocit bezpečí, zvládání měřené opakovaně
+u ochotných klientů). Nezbytná je i přijatelnost zjišťovaná rozhovory s cílovou skupinou.
+Metodologická a etická specifika výzkumu s těmito skupinami – zejména otázku, jak nezkoumat
+zranitelné jen proto, že jsou dostupné – rozebírá článek
+[výzkum zranitelných populací](@/kompendium/research-methodology/vulnerable-population-research.md).
 
 ## Modelová situace
 
@@ -113,10 +128,18 @@ nabídne odklad převodu. Klientka si nakonec sama ověří, že „přítel“ 
 
 ## Limitace a otevřené otázky
 
-- Outreach je personálně náročný a závislý na krátkodobém financování.
-- Nejvíce izolovaní lidé jsou nedosažitelní i pro outreach – dosažitelní jsou jen přes ty,
-  kdo je kontrolují.
-- Otevřená otázka: kde je hranice mezi aktivní nabídkou pomoci a zásahem do autonomie dospělého?
+Outreach je personálně náročný a závislý na krátkodobém financování, a nejvíce izolovaní lidé
+jsou nedosažitelní i pro něj – dosažitelní jsou jen přes ty, kdo je kontrolují, což je právě
+překážkou, kterou má program překonávat (Stark, 2007). Otevřenou otázkou zůstává, kde přesně
+leží hranice mezi aktivní nabídkou pomoci a zásahem do autonomie dospělého člověka.
+
+## Literatura
+
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Hassan, S. (2015). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Marmot, M. (2010). *Fair Society, Healthy Lives: The Marmot Review*. Institute of Health Equity.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 

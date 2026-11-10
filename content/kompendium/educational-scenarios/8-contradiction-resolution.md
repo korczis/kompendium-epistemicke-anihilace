@@ -20,113 +20,46 @@ type = "educational-scenario"
 > **Doporučená délka**: 90–120 minut
 > **Pro koho**: právníci, soudní a poradenští psychologové, sociální pracovníci, analytici
 
-Rozpor mezi dvěma odborníky vyvolává dvě pohodlné reakce: přiklonit se k tomu, kdo zní
-přesvědčivěji, nebo rezignovat („odborníci se neshodnou, nikdo nic neví“). Obě jsou
-zranitelné. První podléhá rétorice, druhá je přesně ten stav, k němuž směřují techniky jako
-[falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) nebo
-[internalizovaný „bothsidesismus“](@/kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md).
-Scénář nabízí třetí cestu: **rozpor rozložit** a zjistit, kde přesně leží.
+Rozpor mezi dvěma odborníky vyvolává dvě pohodlné reakce: přiklonit se k tomu, kdo zní přesvědčivěji, nebo rezignovat se slovy „odborníci se neshodnou, nikdo nic neví“. Obě jsou zranitelné – první podléhá rétorice, druhá je přesně stav, k němuž směřují techniky jako [falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) nebo [internalizovaný „bothsidesismus“](@/kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md), tedy chybné přiřazení stejné váhy nestejně podloženým stanoviskům (Walton, 2008). Scénář nabízí třetí cestu: rozpor rozložit a zjistit, kde přesně leží, přičemž metodicky navazuje na Davidsonův (1984) princip vstřícnosti, podle něhož je protistranu třeba nejprve vyložit v její nejsilnější srozumitelné verzi, než ji posoudíme.
 
 ## Učební cíle
 
-Účastník po cvičení:
-
-1. rozdělí rozpor na úroveň dat (co kdo viděl), metody (jak to zjišťoval) a interpretace
-   (co z toho vyvodil);
-2. identifikuje zájmy a vazby obou stran a odliší je od kvality argumentace;
-3. navrhne, jaká další informace by rozpor rozhodla, a odliší rozhodnutelné rozpory od
-   nerozhodnutelných;
-4. formuluje závěr s explicitně uvedenou mírou nejistoty.
+Po cvičení účastník rozdělí rozpor na úroveň dat (co kdo viděl), metody (jak to zjišťoval) a interpretace (co z toho vyvodil), protože rozpory na různých úrovních se řeší různě a jejich směšování vede k nerozhodnutelnosti (Walton, 2008). Identifikuje zájmy a vazby obou stran a odliší je od kvality argumentace, neboť zájem je důvodem ke zvýšené kontrole, nikoli k odmítnutí závěru. Navrhne, jaká další informace by rozpor rozhodla, a odliší rozhodnutelné rozpory od nerozhodnutelných, čímž uplatní zásadu, že zúžit nejistotu je cennější než ji zakrýt jistotou (Meehl, 1973). Nakonec formuluje závěr s explicitně uvedenou mírou nejistoty, protože vstřícná interpretace obou stran je podmínkou spravedlivého posouzení (Davidson, 1984).
 
 ## Scénář
 
-Fiktivní opatrovnický spor. Dítě (11 let) odmítá kontakt s jedním z rodičů. Soud má dva
-[znalecké posudky](@/glossary/expert-witness.md):
-
-- **Posudek A** dospívá k závěru, že odmítání je výsledkem soustavného ovlivňování druhým
-  rodičem, a doporučuje postupné obnovení kontaktu. Opírá se o tři rozhovory s dítětem, z nichž
-  jeden proběhl v přítomnosti pečujícího rodiče, o pozorování interakce a o test, jehož
-  validita pro tento věk je sporná.
-- **Posudek B** dospívá k závěru, že odmítání je reakcí dítěte na skutečné zážitky v kontaktu
-  s odmítaným rodičem, a doporučuje kontakt nevynucovat. Opírá se o dva rozhovory s dítětem
-  bez přítomnosti rodičů, o zprávu školy a o záznam z dětské ambulance.
-
-Účastníci pracují ve trojicích. Nemají za úkol rozhodnout spor, ale připravit pro soudce
-analytickou poznámku: kde se posudky rozcházejí, proč a co by rozpor rozhodlo.
-
-**Krok 1 – rozklad (30 min).** Trojice sestaví tabulku: data, na nichž se posudky shodují;
-data, která má jen jeden z nich; metodické rozdíly; rozdílné interpretace týchž dat.
-
-**Krok 2 – zájmy (15 min).** Kdo posudky zadal, zda mají znalci předchozí vazby na strany,
-zda je některý z nich znám prosazováním jednoho teoretického rámce.
-
-**Krok 3 – rozhodující informace (20 min).** Co by bylo nutné zjistit, aby se rozpor zúžil?
+Jde o fiktivní opatrovnický spor, v němž jedenáctileté dítě odmítá kontakt s jedním z rodičů a soud má dva [znalecké posudky](@/glossary/expert-witness.md) s opačným závěrem. Posudek A dospívá k závěru, že odmítání je výsledkem soustavného ovlivňování druhým rodičem, a doporučuje postupné obnovení kontaktu; opírá se o tři rozhovory s dítětem, z nichž jeden proběhl v přítomnosti pečujícího rodiče, o pozorování interakce a o test, jehož validita pro tento věk je sporná. Posudek B dospívá k závěru, že odmítání je reakcí dítěte na skutečné zážitky v kontaktu s odmítaným rodičem, a doporučuje kontakt nevynucovat; opírá se o dva rozhovory bez přítomnosti rodičů, o zprávu školy a o záznam z dětské ambulance. Účastníci pracují ve trojicích a nemají za úkol spor rozhodnout, ale připravit pro soudce analytickou poznámku o tom, kde se posudky rozcházejí, proč a co by rozpor rozhodlo – tedy právě postup, který odpovídá zásadě nejprve porozumět oběma pozicím (Davidson, 1984). Nejprve sestaví tabulku dat, na nichž se posudky shodují, dat, která má jen jeden z nich, metodických rozdílů a rozdílných interpretací týchž dat; poté posoudí, kdo posudky zadal, zda mají znalci předchozí vazby na strany a zda je některý znám prosazováním jednoho teoretického rámce, protože předem zvolený rámec snižuje informativnost závěru (Walton, 2008). Nakonec určí, co by bylo nutné zjistit, aby se rozpor zúžil.
 
 ## Signály, kterých si všimnout
 
-- **Rozdíl v datech maskovaný jako rozdíl v názoru.** Posudek B pracuje se zprávou školy
-  a ambulance, které posudek A nezná. Rozpor je zčásti informační.
-- **Metodická zranitelnost.** Rozhovor s dítětem v přítomnosti pečujícího rodiče je zatížen
-  rizikem ovlivnění v obou směrech; viz [sugestibilita](@/kompendium/forensic-legal/5-suggestibility-assessment.md).
-- **Teoretický rámec předem.** Pokud znalec vychází z rámce, který vysvětluje každé odmítání
-  jedním mechanismem, je jeho závěr méně informativní. Pojem [parental alienation](@/glossary/parental-alienation.md)
-  je v odborné literatuře sporný právě v tom, jak se odlišuje od oprávněného odcizení.
-- **Rétorická jistota.** Kategorické formulace bez uvedení omezení.
-- **Falešná symetrie.** Pokušení dát oběma posudkům stejnou váhu jen proto, že jsou dva.
+Prvním signálem je rozdíl v datech maskovaný jako rozdíl v názoru: posudek B pracuje se zprávou školy a ambulance, které posudek A nezná, takže rozpor je zčásti informační a jako takový snadno řešitelný (Meehl, 1973). Druhým je metodická zranitelnost, neboť rozhovor s dítětem v přítomnosti pečujícího rodiče je zatížen rizikem ovlivnění v obou směrech; sugestibilita dětských výpovědí je doložené riziko forenzního posuzování (Ceci a Bruck, 1995), viz [sugestibilita](@/kompendium/forensic-legal/5-suggestibility-assessment.md). Třetím je teoretický rámec zvolený předem: pokud znalec vychází z rámce, který vysvětluje každé odmítání jediným mechanismem, je jeho závěr méně informativní, a právě proto je pojem [parental alienation](@/glossary/parental-alienation.md) v odborné literatuře sporný v tom, jak jej odlišit od oprávněného odcizení. Čtvrtým je rétorická jistota, tedy kategorické formulace bez uvedení omezení, kterou Walton (2008) řadí mezi varovné znaky slabé argumentace. Pátým je falešná symetrie, tedy pokušení dát oběma posudkům stejnou váhu jen proto, že jsou dva.
 
 ## Diskusní otázky
 
-1. Na jaké úrovni (data, metoda, interpretace) leží hlavní rozpor?
-2. Které zjištění by nejvíce změnilo váhu posudků?
-3. Jakou roli hrají zájmy a vazby znalců a kdy je legitimní k nim přihlížet?
-4. Proč je „pravda je někde uprostřed“ v tomto případě nebezpečná odpověď?
-5. Co se stane s dítětem, pokud soud zvolí špatně v jednom, nebo druhém směru?
-6. Jak formulovat závěr, který přizná nejistotu, a přesto umožní rozhodnout?
+Diskuse se zaměří na to, na jaké úrovni – data, metoda, interpretace – leží hlavní rozpor, které zjištění by nejvíce změnilo váhu posudků a jakou roli hrají zájmy a vazby znalců a kdy je legitimní k nim přihlížet. Dále se zvažuje, proč je odpověď „pravda je někde uprostřed“ v tomto případě nebezpečná, co se stane s dítětem, pokud soud zvolí špatně v jednom nebo druhém směru, a jak formulovat závěr, který přizná nejistotu, a přesto umožní rozhodnout; mechanický kompromis mezi nestejně podloženými stanovisky je sám chybou úsudku (Walton, 2008).
 
 ## Modelové odpovědi
 
-- **K otázce 1.** Zčásti v datech (B má informace, které A nemá), zčásti v metodě (podmínky
-  rozhovorů) a teprve potom v interpretaci. Rozpory v datech jsou nejsnáze řešitelné:
-  stačí, aby oba znalci pracovali se stejným souborem.
-- **K otázce 2.** Obsah záznamu z ambulance a zprávy školy; rozhovor s dítětem v neutrálních
-  podmínkách; [rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md),
-  kdy odmítání začalo ve vztahu k událostem.
-- **K otázce 3.** Zájmy jsou důvodem ke zvýšené kontrole metody, ne k odmítnutí závěru.
-  Hodnotíme argument; zájmy vysvětlují, kde hledat jeho slabá místa.
-- **K otázce 4.** Protože obě hypotézy vedou k protichůdným opatřením; kompromis („trochu
-  kontaktu“) může být pro dítě nejhorší variantou, pokud platí jedna z krajních hypotéz.
-- **K otázce 5.** Vynucený kontakt s rodičem, z jehož strany dítě zažilo škodu, je
-  retraumatizující; přerušení kontaktu na základě cizího ovlivnění je ztrátou vztahu. Obě chyby
-  jsou vážné; proto je klíčové zúžit nejistotu, ne ji přehlížet.
-- **K otázce 6.** Uvést, co je doloženo, co je sporné, které informace chybějí a jaké
-  prozatímní opatření je nejméně škodlivé, dokud nebudou doplněny.
+Hlavní rozpor leží zčásti v datech (posudek B má informace, které A nemá), zčásti v metodě (podmínky rozhovorů) a teprve potom v interpretaci, přičemž rozpory v datech jsou nejsnáze řešitelné, stačí, aby oba znalci pracovali se stejným souborem (Meehl, 1973). Nejvíce by váhu změnil obsah záznamu z ambulance a zprávy školy, rozhovor s dítětem v neutrálních podmínkách a [rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md) toho, kdy odmítání začalo ve vztahu k událostem, protože časová souslednost je klíčová pro odlišení příčin (Ceci a Bruck, 1995). Zájmy jsou důvodem ke zvýšené kontrole metody, nikoli k odmítnutí závěru: hodnotíme argument, zatímco zájmy jen ukazují, kde hledat jeho slabá místa (Walton, 2008). Odpověď „pravda je někde uprostřed“ je nebezpečná proto, že obě hypotézy vedou k protichůdným opatřením a kompromis typu „trochu kontaktu“ může být pro dítě nejhorší variantou, platí-li jedna z krajních hypotéz. Vynucený kontakt s rodičem, z jehož strany dítě zažilo škodu, je retraumatizující, zatímco přerušení kontaktu na základě cizího ovlivnění je ztrátou vztahu, takže obě chyby jsou vážné a klíčové je nejistotu zúžit, nikoli přehlížet (Meehl, 1973). Závěr proto uvede, co je doloženo, co je sporné, které informace chybějí a jaké prozatímní opatření je nejméně škodlivé, dokud nebudou doplněny.
 
 ## Časté chyby
 
-- **Hlasování podle prestiže.** Volba znalce s delším seznamem publikací.
-- **Rozštěpení rozdílu.** Mechanický kompromis bez analýzy důsledků.
-- **Přehlédnutí asymetrie dat.** Srovnávání dvou závěrů, které vycházejí z různých informací,
-  jako by byly rovnocenné.
-- **Moralizace.** Hledání „špatného znalce“ místo hledání zdroje rozporu.
+Nejčastější chybou je hlasování podle prestiže, tedy volba znalce s delším seznamem publikací místo posouzení jeho argumentu (Walton, 2008). Druhou je rozštěpení rozdílu, mechanický kompromis bez analýzy důsledků, který v opatrovnickém kontextu může dítěti uškodit nejvíc. Třetí je přehlédnutí asymetrie dat, kdy se dva závěry vycházející z různých informací srovnávají, jako by byly rovnocenné (Meehl, 1973). Čtvrtou je moralizace, tedy hledání „špatného znalce“ místo hledání zdroje rozporu, které odvádí od vstřícné a věcné analýzy (Davidson, 1984).
 
 ## Debriefing pro facilitátora
 
-Ocenitelný výsledek není „správný verdikt“, ale kvalitní analytická poznámka. Nechte trojice
-porovnat své tabulky a zjistit, kolik rozporu se ukázalo jako informační. Zdůrazněte, že stejný
-postup funguje i mimo soudní síň – v klinických konziliích, redakcích i komisích.
-
-Opatrovnické spory jsou pro mnoho lidí osobním tématem. Upozorněte na začátku, že případ je
-smyšlený, a dejte možnost nepodílet se na diskusi o důsledcích. Pro souvislosti viz
-[rodinné právo v kontextu EA](@/kompendium/forensic-legal/41-family-court-EA.md).
+Ocenitelným výsledkem není „správný verdikt“, ale kvalitní analytická poznámka, a proto facilitátor nechá trojice porovnat jejich tabulky a zjistit, kolik rozporu se ukázalo jako informační, tedy řešitelné doplněním dat (Meehl, 1973). Je vhodné zdůraznit, že stejný postup funguje i mimo soudní síň, v klinických konziliích, redakcích i komisích, protože rozklad rozporu je obecná dovednost úsudku (Walton, 2008). Opatrovnické spory jsou pro mnoho lidí osobním tématem, a proto facilitátor na začátku upozorní, že případ je smyšlený, a dá možnost nepodílet se na diskusi o důsledcích; pro souvislosti viz [rodinné právo v kontextu EA](@/kompendium/forensic-legal/41-family-court-EA.md).
 
 ## Rozšiřující úkoly
 
-1. **Tři úrovně.** Vyberte veřejný odborný spor z vašeho oboru a rozdělte ho na data, metodu
-   a interpretaci.
-2. **Analytická poznámka.** Napište jednostránkovou poznámku k rozporu dvou zdrojů, s nímž
-   se setkáváte v práci, včetně odstavce „co by rozpor rozhodlo“.
-3. **Pluralita rámců.** Projděte [pluralitu paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md)
-   a zvažte, který z rozporů je skutečně paradigmatický.
+Jako přenos lze vybrat veřejný odborný spor z vlastního oboru a rozdělit jej na data, metodu a interpretaci, čímž se dovednost přenese z opatrovnického kontextu do obecné praxe (Walton, 2008). Dalším úkolem je napsat jednostránkovou poznámku k rozporu dvou zdrojů z vlastní práce, včetně odstavce „co by rozpor rozhodlo“, který převádí nejistotu do zkoumatelné otázky (Meehl, 1973). Posledním je projít [pluralitu paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md) a zvážit, který z rozporů je skutečně paradigmatický, tedy neřešitelný na úrovni dat, protože pramení z neslučitelných rámců (Davidson, 1984).
+
+## Literatura
+
+- Ceci, S. J., & Bruck, M. (1995). *Jeopardy in the Courtroom: A Scientific Analysis of Children's Testimony*. Washington, DC: American Psychological Association.
+- Davidson, D. (1984). *Inquiries into Truth and Interpretation*. Oxford: Clarendon Press.
+- Meehl, P. E. (1973). Why I Do Not Attend Case Conferences. In *Psychodiagnosis: Selected Papers*. Minneapolis: University of Minnesota Press.
+- Walton, D. (2008). *Informal Logic: A Pragmatic Approach* (2nd ed.). Cambridge: Cambridge University Press.
 
 ## Související
 

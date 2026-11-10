@@ -64,7 +64,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 | Marker | Indikuje |
 |--------|----------|
 | Subjekt opakovaně odkazuje na **"za fenomény"** s pseudo-mystickou intonací | Pseudo-kantovská indoktrinace |
-| Volní paralýza s **pseudo-filozofickou racionalizací** | Krok 4 generace paralýzy |
+| Volní paralýza s **pseudo-filozofickou racionalizací** | generace paralýzy |
 | **Ztráta praktického projektu** kombinovaná s introspektivní fixací | Devalvace fenomenálního |
 | **Derealizační epizody** s mystickou narativizací | Strukturální dopad |
 | Subjekt používá **slovník Wesensschau** mimo legitimní fenomenologický kontext | Maskování paralýzy mystikou |

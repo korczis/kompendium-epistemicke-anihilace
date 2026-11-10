@@ -25,110 +25,136 @@ date_modified = "2026-11-10"
 Kniha užívá pojem epistemické trauma pro poškození schopností, jimiž člověk poznává: získávat
 informace, hodnotit doklady, tvořit a revidovat přesvědčení, testovat realitu a důvěřovat vlastnímu
 vnímání. Na rozdíl od traumatu v užším klinickém smyslu (posttraumatická stresová porucha podle
-MKN-11 a DSM-5-TR) nejde primárně o reakci na ohrožující událost, ale o **dlouhodobé narušení
-poznávací kapacity** – typicky po [gaslightingu](@/glossary/gaslighting.md),
+MKN-11) nejde primárně o reakci na ohrožující událost, ale o dlouhodobé narušení poznávací
+kapacity – typicky po [gaslightingu](@/glossary/gaslighting.md),
 [hermeneutickém outsourcingu](@/glossary/hermeneuticky-outsourcing.md) nebo institucionální
-[delegitimizaci](@/glossary/delegitimizace.md). Teoretický rozbor je v kapitole
+[delegitimizaci](@/glossary/delegitimizace.md). Takové narušení lze chápat jako zvláštní případ
+epistemické nespravedlnosti, při níž je člověku soustavně upírána role důvěryhodného poznávajícího
+(Fricker, 2007). Teoretický rozbor je v kapitole
 [Vztah k epistemickému traumatu](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md).
 
 Obě podoby se často kombinují: u člověka po letech v [coercive control](@/glossary/coercive-control.md)
-lze najít jak příznaky [komplexní PTSD](@/glossary/c-ptsd.md), tak specificky epistemické obtíže.
-Protokol pracuje s epistemickou složkou a předpokládá, že klinická traumatická symptomatika je
-léčena souběžně ověřenými postupy.
+lze najít jak příznaky [komplexní PTSD](@/glossary/c-ptsd.md), diagnostické kategorie, kterou pro
+MKN-11 vymezili Maercker a kolegové (2013), tak specificky epistemické obtíže. Protokol pracuje
+s epistemickou složkou a předpokládá, že klinická traumatická symptomatika je léčena souběžně
+ověřenými postupy; řazení těchto postupů respektuje zásadu, že zpracování traumatu bez předchozí
+stabilizace škodí (Herman, 1992).
 
 ## 2. Klinický obraz
 
-- **Kognitivní mlha**: obtíže soustředit se, přemýšlet souvisle, rozhodnout se; viz
-  [Kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md).
-- **Nejistota o realitě**: „nevím, co je skutečné“; viz
-  [Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md).
-- **Hypervigilance vůči informacím**: každý zdroj je podezřelý, nebo naopak žádný.
-- **Delegace úsudku**: potřeba, aby někdo řekl, co si myslet.
-- **Rekurzivní pochybnost**: pochybnost o pochybnosti, z níž nevede cesta ven; srov.
-  [Recursive doubt spiral](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md).
-- **Vyhýbání se poznávacím situacím**: čtení zpráv, odborné práci, diskusím.
+Epistemické trauma se projevuje souborem obtíží, které spolu drží a navzájem se posilují.
+Nejnápadnější bývá kognitivní mlha – obtíže soustředit se, přemýšlet souvisle a rozhodnout se,
+kterou kniha popisuje jako samostatnou signaturu
+[Kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md); podobné
+narušení exekutivních funkcí je dobře doloženo u chronického stresu a traumatu (van der Kolk, 2014).
+K ní se druží nejistota o realitě („nevím, co je skutečné“), zachycená signaturou
+[Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md),
+a hypervigilance vůči informacím, kdy je každý zdroj podezřelý, nebo naopak žádný.
+
+Dalším jádrovým rysem je delegace úsudku – potřeba, aby někdo řekl, co si myslet – a rekurzivní
+pochybnost, tedy pochybnost o pochybnosti, z níž nevede cesta ven; její mechanismus rozebírá
+technika [Recursive doubt spiral](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md). Tyto
+jevy navazují na rozpad bazálních předpokladů o smysluplnosti a předvídatelnosti světa, který po
+traumatu popsala Janoff-Bulman (1992). Časté je i vyhýbání se poznávacím situacím – čtení zpráv,
+odborné práci, diskusím –, které krátkodobě tiší úzkost, ale dlouhodobě obtíže udržuje.
 
 ## 3. Odlišení
 
-- **Psychotická porucha**: u epistemického traumatu je zachováno [testování reality](@/glossary/reality-testing.md) v běžných
-  situacích a obtíže mají souvislost s expozicí; podrobně
-  [Diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md).
-- **Deprese** s kognitivními příznaky: podobný obraz, ale bez specifické vazby na důvěru ve
-  vlastní vnímání; může se kombinovat.
-- **Disociativní poruchy**: derealizace a amnézie vyžadují vlastní diagnostiku.
-- **Neurokognitivní porucha**: u starších klientů a po úrazech hlavy je nutné neurologické vyšetření.
+Epistemické trauma je nutné odlišit od stavů, které se mu podobají. Od psychotické poruchy se liší
+tím, že [testování reality](@/glossary/reality-testing.md) zůstává v běžných situacích zachováno
+a obtíže mají zřetelnou souvislost s expozicí; podrobné vodítko nabízí oddíl
+[Diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md),
+přičemž výpovědní hodnotu zachovaného testování reality pro odlišení od psychózy zdůrazňuje už
+klasická deskriptivní psychopatologie (Jaspers, 1913). Deprese s kognitivními příznaky dává podobný
+obraz, ale postrádá specifickou vazbu na důvěru ve vlastní vnímání, byť se s ním může kombinovat.
+Disociativní poruchy s derealizací a amnézií vyžadují vlastní diagnostiku a u starších klientů či po
+úrazech hlavy je nezbytné neurologické vyšetření, aby se vyloučila neurokognitivní porucha.
 
-## 4. Cíle protokolu
+## 4. Cíle a postup
 
-1. Obnovit **kapacitu** pozornosti a uvažování (regulace, odpočinek, snížení zátěže).
-2. Obnovit **důvěru ve vlastní vnímání** pomocí externích kotev.
-3. Obnovit **dovednosti hodnocení dokladů** v bezpečném, neosobním materiálu.
-4. Teprve potom pracovat s **obsahem** přesvědčení spojených s expozicí.
-5. Obnovit **epistemickou komunitu** – lidi, s nimiž lze poznávat společně.
+Protokol má pět cílů, které určují i pořadí práce: obnovit kapacitu pozornosti a uvažování, obnovit
+důvěru ve vlastní vnímání pomocí externích kotev, obnovit dovednosti hodnocení dokladů v bezpečném,
+neosobním materiálu, teprve potom pracovat s obsahem přesvědčení spojených s expozicí a nakonec
+obnovit epistemickou komunitu lidí, s nimiž lze poznávat společně. Toto řazení kopíruje
+třístupňovou logiku bezpečí – zpracování – znovupropojení (Herman, 1992) a fázový model léčby
+komplexního traumatu (Cloitre a kol., 2011).
 
-## 5. Postup
-
-### Fáze 1 – kapacita
-
-Spánek, pravidelnost, omezení informačního zahlcení; viz
+První fáze obnovuje kapacitu: spánek, pravidelnost a omezení informačního zahlcení podle
 [Akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md) a
-[Informační dieta](@/kompendium/self-defense-guides/33-information-diet.md). Kognitivní mlha se v
-této fázi často sama zmírní.
+[Informační dieta](@/kompendium/self-defense-guides/33-information-diet.md), přičemž kognitivní mlha
+se v této fázi často sama zmírní, jak odpovídá úloze fyziologické regulace v zotavení z traumatu
+(van der Kolk, 2014). Druhá fáze buduje externí kotvy – datované záznamy, fotografie a svědectví
+blízkých, z nichž klient zjišťuje, že jeho vnímání je spolehlivé; postup je podrobně popsán
+v protokolu [Důvěra](@/kompendium/recovery-protocols/duvera.md) a opírá se o poznatek, že faktická
+paměť bývá i po manipulaci zachována (Freyd, 1996).
 
-### Fáze 2 – externí kotvy
+Třetí fáze nacvičuje hodnocení dokladů na tématech, která s expozicí nesouvisejí (zpráva o počasí,
+recenze výrobku, populárně-vědecký článek); klient trénuje otázky, kdo to tvrdí, podle čeho a co by
+to vyvrátilo, s oporou příruček [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)
+a [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md). Neutrální materiál
+umožní obnovit dovednost bez aktivace traumatu, což je v souladu s principem odstupňované expozice
+(Foa a Kozak, 1986). Čtvrtá fáze přenáší dovednosti na přesvědčení spojená s expozicí, po malých
+krocích a bez verdiktů terapeuta, a navazuje na protokol
+[Paradigma](@/kompendium/recovery-protocols/paradigm.md). Pátá fáze buduje
+[epistemickou komunitu](@/glossary/epistemicka-komunita.md) – odborný tým, studijní skupinu,
+přátele, s nimiž lze mluvit o zprávách –, viz
+[Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md); sdílené
+poznávání patří k ochranným faktorům resilience (Southwick a Charney, 2012).
 
-Datované záznamy, fotografie, svědectví blízkých. Klient zjišťuje, že jeho vnímání je spolehlivé.
-Postup je podrobně popsán v protokolu [Důvěra](@/kompendium/recovery-protocols/duvera.md).
+## 5. Hodnocení průběhu
 
-### Fáze 3 – neutrální trénink
+Pokrok se pozná podle toho, že klient zvládá číst a hodnotit informace bez výrazné úzkosti,
+rozhoduje se v běžných věcech sám a s přiměřenou jistotou a dokáže odlišit spolehlivé a nespolehlivé
+zdroje a svůj úsudek zdůvodnit. Klinické příznaky traumatu sledované standardními nástroji (například
+PCL-5 pro PTSD nebo ITQ pro komplexní PTSD podle MKN-11) se přitom zmírňují; psychometrické zázemí
+ITQ popsali Cloitre a kolegové (2018). Doplňkově slouží oddíl
+[Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md).
 
-Hodnocení dokladů se nacvičuje na tématech, která s expozicí nesouvisejí (zpráva o počasí, recenze
-výrobku, populárně-vědecký článek). Klient trénuje otázky: kdo to tvrdí, podle čeho, co by to
-vyvrátilo. Opora: [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) a
-[Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md). Neutrální materiál
-umožní obnovit dovednost bez aktivace traumatu.
+## 6. Kontraindikace a rizika
 
-### Fáze 4 – obsah
+Před stabilizací a obnovou bezpečí se protokol nezahajuje, jak zdůvodňuje protokol
+[Sekvence](@/kompendium/recovery-protocols/sekvence.md); předčasná práce s obsahem vede
+k [retraumatizaci](@/glossary/retraumatizace.md), tedy k opětovnému zaplavení, které zotavení
+zpomaluje (Herman, 1992). Aktivní psychotické příznaky, těžká [disociace](@/glossary/disociace.md)
+nebo suicidalita mají přednost a vyžadují vlastní péči. Zásadní je, aby terapeut nenahradil klientův
+úsudek vlastním – to by byla nová podoba hermeneutického outsourcingu a opakování původní struktury
+závislosti, před níž varuje i literatura o možných negativních účincích psychoterapie (Lilienfeld,
+2007).
 
-Dovednosti se přenášejí na přesvědčení spojená s expozicí, po malých krocích a podle tempa klienta.
-Terapeut neposkytuje verdikty, ale pomáhá vážit doklady. Navazuje protokol
-[Paradigma](@/kompendium/recovery-protocols/paradigm.md).
-
-### Fáze 5 – epistemická komunita
-
-Klient buduje okruh lidí, s nimiž sdílí poznávání: odborný tým, studijní skupina, přátelé, s nimiž
-lze mluvit o zprávách. Viz [Epistemická komunita](@/glossary/epistemicka-komunita.md) a
-[Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md).
-
-## 6. Hodnocení průběhu
-
-- Klient zvládá číst a hodnotit informace bez výrazné úzkosti.
-- Rozhoduje se v běžných věcech sám a s přiměřenou jistotou.
-- Dokáže odlišit spolehlivé a nespolehlivé zdroje a zdůvodnit to.
-- Klinické příznaky traumatu sledované standardními nástroji (např. PCL-5, ITQ) se zmírňují; viz
-  [Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md).
-
-## 7. Kontraindikace a rizika
-
-- Před stabilizací a obnovou bezpečí protokol nezahajovat; viz [Sekvence](@/kompendium/recovery-protocols/sekvence.md).
-- Předčasná práce s obsahem vede k [retraumatizaci](@/glossary/retraumatizace.md).
-- Aktivní psychotické příznaky, těžká [disociace](@/glossary/disociace.md) nebo suicidalita mají přednost.
-- Terapeut nesmí nahradit klientův úsudek vlastním; to by byla nová podoba hermeneutického outsourcingu.
-
-## 8. Kazuistika (anonymizovaný kompozit)
+## 7. Kazuistika (anonymizovaný kompozit)
 
 Programátor po třech letech ve firmě se silně kontrolující kulturou, kde mu vedoucí soustavně
 zpochybňoval každé hodnocení („tvoje data jsou špatně, tvůj dojem je mylný“), přestává číst zprávy
 a nedokáže se rozhodnout ani o nákupu. Po stabilizaci si vede záznamy, které ukazují, že jeho
-technické odhady byly převážně správné. Ve fázi neutrálního tréninku hodnotí recenze a články;
-dovednost se rychle vrací. Teprve potom s terapeutem prochází hodnocení, která dostával. Po roce
-pracuje v novém týmu a popisuje: „Zase vím, jak se dívat. A když nevím, umím se zeptat.“
+technické odhady byly převážně správné; tím se obnovuje narušená epistemická důvěra ve vlastní
+kompetenci (Fricker, 2007). Ve fázi neutrálního tréninku hodnotí recenze a články a dovednost se
+rychle vrací. Teprve potom s terapeutem prochází hodnocení, která dostával. Po roce pracuje v novém
+týmu a popisuje: „Zase vím, jak se dívat. A když nevím, umím se zeptat.“
 
-## 9. Meze a otevřené otázky
+## 8. Meze a otevřené otázky
 
 Epistemické trauma není samostatnou diagnózou v MKN ani v DSM; je to analytický pojem knihy, který
-pomáhá popsat specifickou složku obtíží. Jeho vymezení vůči komplexní PTSD a vůči depresi zůstává
-předmětem výzkumu; viz [Otevřené výzkumné otázky](@/kompendium/07-teoreticke-reflexe/otevrene-otazky.md).
+pomáhá popsat specifickou složku obtíží, a jeho vymezení vůči komplexní PTSD (Maercker a kol., 2013)
+i vůči depresi zůstává předmětem výzkumu, viz
+[Otevřené výzkumné otázky](@/kompendium/07-teoreticke-reflexe/otevrene-otazky.md). Otevřená je také
+otázka, nakolik jsou obecné postupy léčby traumatu přenositelné na jeho epistemickou složku, protože
+cílené studie zatím chybějí a protokol stojí na klinickém úsudku a na analogii s ověřenými metodami
+(van der Kolk, 2014).
+
+## Literatura
+
+- Cloitre, M., a kol. (2011). Treatment of Complex PTSD: Results of the ISTSS Expert Clinician Survey. *Journal of Traumatic Stress*, 24(6), 615–627.
+- Cloitre, M., a kol. (2018). The International Trauma Questionnaire: Development of a Self-Report Measure of ICD-11 PTSD and Complex PTSD. *Acta Psychiatrica Scandinavica*, 138(6), 536–546.
+- Foa, E. B., a Kozak, M. J. (1986). Emotional Processing of Fear: Exposure to Corrective Information. *Psychological Bulletin*, 99(1), 20–35.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Cambridge, MA: Harvard University Press.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford: Oxford University Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Janoff-Bulman, R. (1992). *Shattered Assumptions: Towards a New Psychology of Trauma*. New York: Free Press.
+- Jaspers, K. (1913). *Allgemeine Psychopathologie*. Berlin: Springer.
+- Lilienfeld, S. O. (2007). Psychological Treatments That Cause Harm. *Perspectives on Psychological Science*, 2(1), 53–70.
+- Maercker, A., a kol. (2013). Diagnosis and Classification of Disorders Specifically Associated with Stress. *World Psychiatry*, 12(3), 198–206.
+- Southwick, S. M., a Charney, D. S. (2012). *Resilience: The Science of Mastering Life's Greatest Challenges*. Cambridge: Cambridge University Press.
+- van der Kolk, B. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma*. New York: Viking.
 
 ## Související
 

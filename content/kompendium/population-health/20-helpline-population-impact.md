@@ -20,62 +20,70 @@ toc = true
 
 ## Vymezení a cíl
 
-**Linky pomoci** (telefonické, chatové, e-mailové) poskytují okamžitý, anonymní a nízkoprahový
-kontakt. Pro oblast EA jsou relevantní tři typy:
+Linky pomoci (telefonické, chatové, e-mailové) poskytují okamžitý, anonymní a nízkoprahový
+kontakt. Pro oblast epistemických útoků jsou relevantní tři typy. Prvním jsou obecné krizové
+linky pro kohokoli v akutní psychické nouzi; v Česku například Linka první psychické pomoci
+(116 123) a pro děti a dospívající Linka bezpečí (116 111), při bezprostředním ohrožení života
+pak tísňové číslo 112 nebo 155. Druhým jsou specializované linky pro oběti domácího násilí,
+obchodování s lidmi, podvodů nebo pro seniory. Třetím jsou poradenské linky pro otázky
+uzavřených skupin, určené současným i bývalým členům a jejich rodinám, které v mnoha zemích
+provozují nezávislé informační organizace.
 
-- **obecné krizové linky** – pro kohokoli v akutní psychické nouzi; v Česku například Linka
-  první psychické pomoci (116 123) a pro děti a dospívající Linka bezpečí (116 111); při
-  bezprostředním ohrožení života tísňové číslo 112 nebo 155;
-- **specializované linky** – pro oběti domácího násilí, obchodování s lidmi, podvodů,
-  pro seniory;
-- **poradenské linky pro otázky uzavřených skupin** – pro současné a bývalé členy a jejich
-  rodiny; v mnoha zemích je provozují nezávislé informační organizace.
-
-Funkce linky jsou: **krizová intervence** (zvládnutí akutního stavu), **validace a ukotvení**
-(„to, co popisujete, má jméno a není to vaše chyba“), **informace**, **odkaz** na navazující
-služby a u některých linek **opakovaný kontakt**. Pro EA je zvlášť důležitá druhá funkce:
-nezávislý hlas, s nímž lze porovnat vlastní vnímání
-([akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md)).
+Linka plní krizovou intervenci, validaci a ukotvení, předání informací, odkaz na navazující
+služby a u některých linek opakovaný kontakt. Pro epistemické útoky je zvlášť důležitá funkce
+validace: nezávislý hlas, s nímž lze porovnat vlastní vnímání, obnovuje schopnost odlišit, co
+se skutečně stalo, kterou útok podkopal, a tato obnova je součástí prvního kroku zotavení
+(Herman, 1992; [akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md)).
 
 ## Úroveň prevence a cílová populace
 
 Linky pokrývají sekundární a terciární prevenci: lidi v probíhající expozici, v krizi po ní
 a jejich blízké. Volající z okolí (rodiče, partneři, přátelé) tvoří u témat uzavřených skupin
-významnou část kontaktů; linka je tak i nástrojem [svědecké intervence](@/kompendium/population-health/19-bystander-intervention-training.md).
+významnou část kontaktů, takže linka je zároveň nástrojem
+[svědecké intervence](@/kompendium/population-health/19-bystander-intervention-training.md).
 
 ## Specifika práce s EA na lince
 
-- **Volající pochybuje o vlastním vnímání.** Typická úvodní věta: „Možná si to jen
-  vymýšlím…“ Operátor nevynáší soudy o třetích osobách, ale bere vážně popis zkušenosti
-  a pomáhá ho strukturovat ([kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md),
-  [skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md)).
-- **Bezpečnost hovoru.** Kontrolující osoba může sledovat telefon nebo historii prohlížeče;
-  operátor se ptá, zda je bezpečné mluvit, a web linky má tlačítko rychlého odchodu.
-- **Rozpoznání akutního rizika** – suicidální myšlenky, násilí, ohrožení dětí – a jasný postup
-  ([krizová linka v EA-emergency](@/kompendium/emergency-protocols/17-crisis-hotline-EA.md),
-  [akutní suicidální riziko](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)).
-- **Neutralita vůči přesvědčení.** Operátor nehodnotí víru ani politický názor; zaměřuje se na
-  kontrolu, strach, izolaci a bezpečí.
-- **Odkaz bez ztráty.** Nejrizikovějším místem je předání – volající, který jednou sebral
-  odvahu, nemusí podruhé zavolat jinam. Pomáhá „teplé předání“ nebo domluvený zpětný kontakt.
+Volající typicky pochybuje o vlastním vnímání; úvodní věta zní „možná si to jen vymýšlím…“.
+Operátor nevynáší soudy o třetích osobách, ale bere vážně popis zkušenosti a pomáhá ho
+strukturovat – zdrženlivost vůči zpochybnění je zde zásadní, protože opakované znevěrohodnění
+mluvčího je samo formou epistemické nespravedlnosti, kterou linka nesmí reprodukovat (Fricker,
+2007; [kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md),
+[skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md)).
+Důležitá je bezpečnost hovoru: kontrolující osoba může sledovat telefon nebo historii
+prohlížeče, protože dohled nad komunikací patří k jádru donucovací kontroly, a proto se operátor
+ptá, zda je bezpečné mluvit, a web linky má tlačítko rychlého odchodu (Stark, 2007). Operátor
+také potřebuje rámec pro práci s pochybností volajícího, aniž by za něj závěr učinil: místo
+ujišťování „on vás určitě týrá“ pomáhá popsat konkrétní jednání a jeho účinek a ponechat
+hodnocení na volajícím, protože cílem je obnovit jeho vlastní schopnost posoudit situaci, ne ji
+nahradit autoritou linky (Herman, 1992). Operátor
+musí rozpoznat akutní riziko – suicidální myšlenky, násilí, ohrožení dětí – a mít jasný postup
+([krizová linka v EA-emergency](@/kompendium/emergency-protocols/17-crisis-hotline-EA.md),
+[akutní suicidální riziko](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)). Zachovává
+neutralitu vůči přesvědčení: nehodnotí víru ani politický názor, zaměřuje se na kontrolu,
+strach, izolaci a bezpečí. Nejrizikovějším místem je odkaz bez ztráty – volající, který jednou
+sebral odvahu, nemusí podruhé zavolat jinam –, a proto pomáhá „teplé předání“ nebo domluvený
+zpětný kontakt.
 
 ## Rizika a nežádoucí účinky
 
-- **Nedostupnost.** Nepřijatý hovor může potvrdit přesvědčení, že „pomoc neexistuje“ – tedy
-  přesně to, co tvrdí kontrolující osoba nebo skupina.
-- **Necitlivá odpověď.** Operátor, který nezná vzorce EA, může volajícího nevědomky
-  zpochybnit („Jste si jistý, že to tak bylo?“) a zopakovat [gaslighting](@/glossary/gaslighting.md).
-- **Linky s vlastní agendou.** Linka provozovaná organizací s ideologickým nebo komerčním
-  zájmem (včetně skupin, které samy nabízejí „pomoc“ odcházejícím) může volajícího vést
-  k další závislosti; nezávislost provozovatele je proto kritériem kvality.
-- **Únik dat.** Záznamy hovorů a metadata jsou citlivé
-  ([anonymizace dat](@/kompendium/research-methodology/anonymization-EA-research.md)).
-- **Zátěž operátorů.** Opakované hovory s lidmi v dlouhodobé expozici jsou emočně náročné;
-  supervize je nutnost ([supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)).
+Nedostupnost linky škodí dvojnásob: nepřijatý hovor může potvrdit přesvědčení, že „pomoc
+neexistuje“, tedy přesně to, co tvrdí kontrolující osoba nebo skupina. Necitlivá odpověď je
+podobně nebezpečná – operátor, který nezná vzorce epistemických útoků, může volajícího
+nevědomky zpochybnit („Jste si jistý, že to tak bylo?“) a zopakovat tím
+[gaslighting](@/glossary/gaslighting.md), který volajícího přivedl (Herman, 1992). Zvláštní
+pozornost vyžadují linky s vlastní agendou: linka provozovaná organizací s ideologickým nebo
+komerčním zájmem – včetně skupin, které samy nabízejí „pomoc“ odcházejícím – může volajícího
+vést k další závislosti, takže nezávislost provozovatele je kritériem kvality. Citlivý je rovněž
+únik dat, protože záznamy hovorů a metadata jsou snadno zneužitelné
+([anonymizace dat](@/kompendium/research-methodology/anonymization-EA-research.md)), a konečně
+zátěž operátorů, neboť opakované hovory s lidmi v dlouhodobé expozici jsou emočně náročné
+a supervize je nutností
+([supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)).
 
 ## Jak měřit dopad
 
-Linky jsou anonymní, a proto se jejich účinek měří obtížně. Používané úrovně:
+Linky jsou anonymní, a proto se jejich účinek měří obtížně. Používané úrovně shrnuje tabulka.
 
 | Úroveň | Ukazatel | Omezení |
 |---|---|---|
@@ -86,24 +94,26 @@ Linky jsou anonymní, a proto se jejich účinek měří obtížně. Používan�
 | Kvalita | Hodnocení záznamů podle standardů, tichý monitoring se souhlasem | Etické a organizační nároky |
 | Populační účinek | Ekologické srovnání regionů nebo období | Mnoho dalších vlivů, slabá kauzalita |
 
-U obecných krizových linek existují studie, které ukazují pokles tísně během hovoru a po něm;
-důkazy o vlivu na populační míru sebevražd jsou nejednoznačné. U specializovaných linek pro EA
-systematická evaluace téměř chybí. Smysl linky proto nelze odvozovat z „populačního dopadu“
-v úzkém smyslu – je součástí sítě služeb a její hodnota spočívá i v tom, že existuje.
-
-Kontakty na linky slouží také jako **surveillance signál**: nové téma nebo skupina se často
-objeví nejdřív v hovorech. Interpretace však musí zohlednit vliv kampaní a mediální
-pozornosti ([kampaně veřejné informovanosti](@/kompendium/population-health/18-public-awareness-campaign.md),
+U obecných krizových linek existují studie, které ukazují pokles tísně během hovoru a po něm,
+avšak důkazy o vlivu na populační míru sebevražd jsou nejednoznačné; u specializovaných linek
+pro epistemické útoky systematická evaluace téměř chybí. Smysl linky proto nelze odvozovat
+z „populačního dopadu“ v úzkém smyslu – je součástí sítě služeb a její hodnota spočívá i v tom,
+že existuje a je dostupná v okamžiku, kdy člověk může jednat (Rose, 1992). Kontakty na linky
+zároveň slouží jako surveillance signál, protože nové téma nebo skupina se často objeví nejdřív
+v hovorech; interpretace však musí zohlednit vliv kampaní a mediální pozornosti
+([kampaně veřejné informovanosti](@/kompendium/population-health/18-public-awareness-campaign.md),
 [časové řady](@/kompendium/research-methodology/time-series-EA.md)).
 
 ## Modelová situace
 
 Operátorka chatové linky mluví s dívkou, která píše, že „asi dělá z komára velblouda“: přítel
 jí čte zprávy, rozhoduje, s kým se může vídat, a když se ohradí, tvrdí, že je hysterická.
-Operátorka nejprve ověří, zda je dívka v bezpečí a zda přítel nevidí její obrazovku. Pak
-shrne, co dívka popsala, a pojmenuje, že kontrola zpráv a omezování kontaktů nejsou běžnou
-součástí vztahu. Nabídne kontakt na specializovanou poradnu a domluví se, že pokud dívka
-bude chtít, může se na chat vrátit a operátorka si případ (bez osobních údajů) poznamená.
+Operátorka nejprve ověří, zda je dívka v bezpečí a zda přítel nevidí její obrazovku. Pak shrne,
+co dívka popsala, a pojmenuje, že kontrola zpráv a omezování kontaktů nejsou běžnou součástí
+vztahu. Nabídne kontakt na specializovanou poradnu a domluví se, že pokud dívka bude chtít, může
+se na chat vrátit a operátorka si případ (bez osobních údajů) poznamená. Nikam dívku nenutí
+a žádný závěr za ni nevyslovuje; ponechává jí čas i možnost se ozvat znovu, protože rozhodnutí
+musí být její a vztah s linkou má zůstat jedním z mála míst, kde není pod tlakem.
 
 ## Kontrolní otázky pro praxi
 
@@ -115,10 +125,18 @@ bude chtít, může se na chat vrátit a operátorka si případ (bez osobních 
 
 ## Limitace a otevřené otázky
 
-- Anonymita, která je silou linek, znemožňuje dlouhodobé sledování výsledků.
-- Financování je často krátkodobé a projektové; přerušení provozu poškozuje důvěru.
-- Otevřená otázka: jak školit operátory obecných linek v rozpoznání EA, aniž by se každý
-  vztahový konflikt začal interpretovat jako manipulace?
+Anonymita, která je silou linek, zároveň znemožňuje dlouhodobé sledování výsledků, a
+financování je často krátkodobé a projektové, přičemž přerušení provozu poškozuje důvěru
+a snižuje pravděpodobnost, že se odrazený volající ozve podruhé (Rose, 1992). Otevřenou otázkou
+zůstává, jak školit operátory obecných linek v rozpoznání epistemických útoků, aniž by se každý
+vztahový konflikt začal vykládat jako manipulace.
+
+## Literatura
+
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Rose, G. (1992). *The Strategy of Preventive Medicine*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 

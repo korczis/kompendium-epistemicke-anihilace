@@ -17,125 +17,171 @@ type = "historical-case"
 
 > **Kategorie**: Totalitní režimy · **Období**: od roku 1948 · **Místo**: Korejská lidově demokratická republika
 
-Severní Korea je nejdéle fungujícím případem, v němž stát kontroluje nejen projev, ale **přístup
-k samotné možnosti srovnání**: obyvatel nemá vnější referenční bod, podle něhož by mohl oficiální
-obraz světa ověřit. Pro Kompendium je to modelový příklad
+Severní Korea je nejdéle fungujícím případem, v němž stát kontroluje nejen projev, ale přístup
+k samotné možnosti srovnání: obyvatel nemá vnější referenční bod, podle něhož by mohl oficiální obraz
+světa ověřit (Lankov, 2013). Pro Kompendium je to modelový příklad
 [epistemické bubliny](@/glossary/epistemic-bubble.md) řízené státem a udržované po tři generace
-vládců.
+vládců. Vyšetřovací komise OSN v roce 2014 shrnula, že systém spojuje téměř úplnou kontrolu
+informací s represí, která dosahuje úrovně zločinů proti lidskosti (Komise OSN pro lidská práva
+v KLDR, 2014).
 
 ## Kontext
 
-KLDR byla vyhlášena 9. září 1948 na sovětem okupovaném severu Korejského poloostrova, v čele
-s Kim Ir-senem. Korejská válka (1950–1953) skončila příměřím, nikoli mírem, a stav trvalého
-ohrožení se stal základem legitimity režimu. Ideologie čučche („soběstačnost“) se od padesátých
+KLDR byla vyhlášena 9. září 1948 na sovětem okupovaném severu Korejského poloostrova, v čele s Kim
+Ir-senem. Korejská válka skončila v roce 1953 příměřím, nikoli mírem, a stav trvalého ohrožení se
+stal základem legitimity režimu (Lankov, 2013). Ideologie čučche („soběstačnost“) se od padesátých
 let postupně vyčlenila z marxismu-leninismu a v ústavě z roku 1972 se stala oficiální státní
-doktrínou. Moc přešla dynasticky na Kim Čong-ila (1994) a Kim Čong-una (2011).
+doktrínou; Myers (2010) však upozorňuje, že skutečným jádrem oficiálního světonázoru není filozofie
+čučche, ale etnonacionalistický mýtus o čistotě a zranitelnosti korejského národa, který potřebuje
+ochranu vůdce.
+
+Moc přešla dynasticky na Kim Čong-ila v roce 1994 a na Kim Čong-una v roce 2011 (Martin, 2004;
+Lankov, 2013). Dynastické nástupnictví v nominálně socialistickém státě je samo dokladem toho, jak
+hluboko je legitimita režimu spojena s osobou vůdce a s jeho rodem: interpretací, nikoli zjištěním
+pramenů, je, že právě tato vazba činí z každé kritiky útok na posvátný řád, nikoli na politiku.
 
 ## Co se stalo
 
-- **Padesátá a šedesátá léta** – čistky ve straně, vznik systému **songbun**, který obyvatele
-  dělí podle rodinného původu a politické spolehlivosti předků; od kategorie se odvíjí bydliště,
-  vzdělání, práce i příděly.
-- **Od šedesátých let** – budování kultu vůdce: portréty Kim Ir-sena (později i Kim Čong-ila)
-  v každé domácnosti a instituci, odznaky, povinné projevy úcty, pomníky.
-- **Trvale** – sousedské skupiny **inminban** zajišťují vzájemný dohled, týdenní schůze
-  „hodnocení života“ s povinnou sebekritikou a kritikou druhých, rozhlasové přijímače pevně
-  naladěné na státní vysílání.
-- **Polovina devadesátých let** – hladomor, oficiálně nazývaný „Pochod útrap“; odhady obětí se
-  výrazně liší, od stovek tisíc po více než milion. Hladomor oslabil státní přídělový systém
-  a otevřel prostor neformálním trhům a pašování z Číny – včetně médií.
-- **2014** – Vyšetřovací komise OSN pro lidská práva v KLDR (předseda Michael Kirby) zveřejnila
-  zprávu, podle níž zde dochází k zločinům proti lidskosti, včetně systému politických táborů
-  a trestání příbuzných za „provinění“ jednotlivce.
-- **2020** – nový zákon výrazně zpřísnil tresty za držení a šíření zahraničních, zejména
-  jihokorejských médií.
+V padesátých a šedesátých letech proběhly čistky ve straně a vznikl systém songbun, který obyvatele
+dělí podle rodinného původu a politické spolehlivosti předků; od kategorie se odvíjí bydliště,
+vzdělání, práce i příděly (Collins, 2012). Od šedesátých let se budoval kult vůdce: portréty Kim
+Ir-sena, později i Kim Čong-ila, v každé domácnosti a instituci, odznaky, povinné projevy úcty
+a pomníky (Martin, 2004). Trvale působí sousedské skupiny inminban, které zajišťují vzájemný dohled,
+týdenní schůze „hodnocení života“ s povinnou sebekritikou a kritikou druhých a rozhlasové přijímače
+pevně naladěné na státní vysílání (Hassig a Oh, 2009).
+
+V polovině devadesátých let zasáhl zemi hladomor, oficiálně nazývaný „Pochod útrap“; odhady obětí se
+výrazně liší, od stovek tisíc po více než milion (Demick, 2009). Hladomor oslabil státní přídělový
+systém a otevřel prostor neformálním trhům a pašování z Číny, včetně médií, což Lankov (2013)
+pokládá za jednu z nejvýznamnějších společenských změn v dějinách KLDR.
+
+V roce 2014 zveřejnila Vyšetřovací komise OSN pro lidská práva v KLDR, jíž předsedal Michael Kirby,
+zprávu, podle níž zde dochází k zločinům proti lidskosti, včetně systému politických táborů
+a trestání příbuzných za „provinění“ jednotlivce (Komise OSN pro lidská práva v KLDR, 2014). V roce
+2020 nový zákon výrazně zpřísnil tresty za držení a šíření zahraničních, zejména jihokorejských
+médií. Interpretací je, že zpřísnění reagovalo na trhliny v informační blokádě, jejichž vznik
+po hladomoru popsal Lankov (2013).
 
 ## Epistemické mechanismy
 
 ### Monopol na srovnání
 
-Klíčem není samotná [propaganda](@/glossary/propaganda.md), ale odstranění alternativ: žádný nezávislý tisk, žádný přístup
-k internetu pro běžné obyvatele, zakázané cestování, kriminalizované zahraniční vysílání. Bez
-druhého zdroje nelze rozlišit pravdu od tvrzení – srov.
+Klíčem není samotná [propaganda](@/glossary/propaganda.md), ale odstranění alternativ: žádný nezávislý
+tisk, žádný přístup k internetu pro běžné obyvatele, zakázané cestování a kriminalizované zahraniční
+vysílání (Hassig a Oh, 2009). Bez druhého zdroje nelze rozlišit pravdu od tvrzení. Jde o
 [selektivní expozici](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) dovedenou na úroveň
-celé země a [epistemickou monokulturu](@/glossary/epistemicka-monokultura.md).
+celé země a o [epistemickou monokulturu](@/glossary/epistemicka-monokultura.md), v níž chybí samotná
+zkušenost s tím, že o téže věci mohou existovat dvě nezávislé zprávy.
 
 ### Kolektivní a dědičná vina
 
-Trest postihuje i rodinu provinilce, často napříč generacemi, a songbun dědí děti. Tím se dohled
-přesouvá **do rodiny**: rodiče učí děti mlčet, protože jedno nevhodné slovo může zničit všechny.
-Vzniká vnitřní cenzura, která je účinnější než jakákoli policie – a odpovídá definici
-[panoptismu](@/glossary/panopticism.md), kdy dozorovaný hlídá sám sebe.
+Trest postihuje i rodinu provinilce, často napříč generacemi, a songbun dědí děti (Collins, 2012).
+Tím se dohled přesouvá do rodiny: rodiče učí děti mlčet, protože jedno nevhodné slovo může zničit
+všechny. Vzniká vnitřní cenzura, která je účinnější než jakákoli policie a která odpovídá popisu
+[panoptismu](@/glossary/panopticism.md), kdy dozorovaný hlídá sám sebe. Svědectví, která shromáždila
+Demick (2009), ukazují, že tato opatrnost přetrvávala i v nejbližších vztazích, včetně milostných.
 
 ### Vůdce jako zdroj smyslu
 
 Kult zahrnuje mytizovanou biografii, posvátná místa, kalendář odvozený od narození Kim Ir-sena
-a veřejné rituály truchlení a radosti. [Kult osobnosti](@/glossary/kult-osobnosti.md) zde
-neslouží jen k obdivu, ale jako rámec, jímž se vykládá všechno ostatní: úspěch je zásluhou
-vůdce, neúspěch dílem nepřátel. Takový rámec je
-[imunní vůči falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md).
+a veřejné rituály truchlení a radosti (Martin, 2004). [Kult osobnosti](@/glossary/kult-osobnosti.md)
+zde neslouží jen k obdivu, ale jako rámec, jímž se vykládá všechno ostatní: úspěch je zásluhou vůdce,
+neúspěch dílem nepřátel. Takový rámec je
+[imunní vůči falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md):
+Myers (2010) ukazuje, že oficiální výklad připisuje vnějším nepřátelům i potíže, za něž nese
+odpovědnost sám stát.
 
 ### Ritualizovaná sebekritika
 
-Pravidelná „hodnocení života“ učí od dětství vyslovovat předepsané věty a sledovat druhé.
-Opakovaný rituál veřejného přiznání vlastních chyb a hodnocení chyb sousedů je stejnou
-strukturou, jakou Lifton popsal jako „kult přiznání“; viz
+Pravidelná „hodnocení života“ učí od dětství vyslovovat předepsané věty a sledovat druhé (Hassig
+a Oh, 2009). Opakovaný rituál veřejného přiznání vlastních chyb a hodnocení chyb sousedů má stejnou
+strukturu, jakou Lifton (1961) popsal jako „kult přiznání“ (*cult of confession*) v čínské myšlenkové
+reformě; srovnání rozvádí stránka
 [Liftonova kritéria](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md).
+Interpretací je, že rituál neslouží primárně ke zjištění provinění, ale k nácviku role.
 
 ### Vnější hrozba jako stálý stav
 
-Trvalé válečné ohrožení ospravedlňuje izolaci, nedostatek i represe. Kdo pochybuje, oslabuje
-obranu – pochybnost se tak morálně překódovává na zradu.
+Trvalé válečné ohrožení ospravedlňuje izolaci, nedostatek i represe. Kdo pochybuje, oslabuje obranu,
+a pochybnost se tak morálně překódovává na zradu (Myers, 2010). Lankov (2013) připomíná, že tento
+rámec není čistě vymyšlený, protože válka formálně neskončila; právě kombinace skutečného
+historického traumatu s jeho trvalou politickou mobilizací činí rámec tak odolným.
 
 ## Dopady na jednotlivce a společnost
 
 Uprchlíci, kterých v Jižní Koreji žijí desítky tisíc, popisují dvojí řeč jako základní dovednost,
-hlubokou nedůvěru k sousedům i úřadům a pozdní, často bolestné zjištění, jak se oficiální obraz
-světa liší od skutečnosti. Typický je **epistemický šok** po útěku: nejen nové informace, ale
-zjištění, že celý dosavadní rámec byl postaven na nepravdě, včetně vlastní minulé víry. K tomu
-přistupuje trauma z hladu, táborů, obchodu s lidmi při útěku přes Čínu a vina vůči rodině, která
-zůstala. Integrace v jihokorejské společnosti bývá obtížná i přes společný jazyk.
+hlubokou nedůvěru k sousedům i úřadům a pozdní, často bolestné zjištění, jak se oficiální obraz světa
+liší od skutečnosti (Demick, 2009). Typický je epistemický šok po útěku: nejde jen o nové informace,
+ale o zjištění, že celý dosavadní rámec byl postaven na nepravdě, včetně vlastní minulé víry. Paměti,
+které sepsala Lee (2015), tento proces popisují jako postupné a opakované přehodnocování, nikoli jako
+jednorázový obrat.
+
+K tomu přistupuje trauma z hladu, táborů a obchodu s lidmi při útěku přes Čínu a vina vůči rodině,
+která zůstala a která může být za útěk potrestána (Komise OSN pro lidská práva v KLDR, 2014).
+Integrace v jihokorejské společnosti bývá obtížná i přes společný jazyk, protože se liší slovní
+zásoba, vzdělání i základní předpoklady o fungování institucí (Lankov, 2013).
 
 ## Odhalení, dokumentace a vyrovnání
 
-Dokumentace stojí převážně na výpovědích uprchlíků, satelitních snímcích táborů a práci
-nevládních organizací. Zpráva komise OSN z roku 2014 je dosud nejucelenějším oficiálním
+Dokumentace stojí převážně na výpovědích uprchlíků, satelitních snímcích táborů a práci nevládních
+organizací (Collins, 2012). Zpráva komise OSN z roku 2014 je dosud nejucelenějším oficiálním
 zhodnocením. Vyrovnání v pravém smyslu zatím neproběhlo, protože režim trvá; svědectví jsou
-uchovávána pro možný budoucí proces spravedlnosti. Neformální proud médií z Číny (USB disky, karty
-SD) je zároveň nejvýraznější trhlinou v informační blokádě.
+uchovávána pro možný budoucí proces spravedlnosti (Komise OSN pro lidská práva v KLDR, 2014).
+Neformální proud médií z Číny na discích USB a kartách SD je zároveň nejvýraznější trhlinou
+v informační blokádě (Lankov, 2013).
 
 ## Poučení pro detekci a obranu dnes
 
-- **Signal plurality jako obrana**: pluralita nezávislých zdrojů je nejzákladnější epistemická
-  pojistka – viz [signal plurality](@/glossary/signal-plurality.md) a detekční signaturu
-  [monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md).
-- **Markery v menším měřítku**: zákaz kontaktu s „vnějškem“, trest pro celou rodinu za čin
-  jednoho, povinné hodnoticí schůze a posvátná biografie vůdce se objevují i v sektách a v
-  rodinách s [coercive control](@/glossary/coercive-control.md).
-- **Klinicky**: u lidí z uzavřených systémů (uprchlíci, odchod ze skupin s vysokou mírou kontroly)
-  je třeba počítat s fází, kdy je **každý zdroj podezřelý** – i ten pravdivý. Nová informace se
-  nemá „nalévat“, ale stavět postupně spolu s kritérii jejího ověřování; viz
-  [středně dobou vzdělávací reintegraci](@/kompendium/recovery-protocols/midterm-educational-reintegration.md)
-  a [protokol pro uprchlíky](@/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md).
-- **Lidskoprávní rámec**: dokumentace podle standardů OSN zachovává možnost pozdější
-  odpovědnosti – viz [lidská práva – EA standardy](@/kompendium/international/29-human-rights-EA/index.md).
+Pluralita nezávislých zdrojů (*signal plurality*) je nejzákladnější epistemickou pojistkou; severokorejský
+případ ukazuje, co se stane, když chybí úplně (Hassig a Oh, 2009). Pojem rozvádí heslo
+[signal plurality](@/glossary/signal-plurality.md) a detekční signatura
+[monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md), která
+popisuje tentýž vzorec v menším měřítku, například v uzavřené skupině nebo v informačním prostředí
+jednotlivce.
+
+Markery, které lze rozpoznat i v menším měřítku, jsou zákaz kontaktu s „vnějškem“, trest pro celou
+rodinu za čin jednoho, povinné hodnoticí schůze a posvátná biografie vůdce. Objevují se i v sektách
+a v rodinách s [coercive control](@/glossary/coercive-control.md), jak ukazuje srovnání s kritérii,
+která formuloval Lifton (1961). Jejich přítomnost sama neznamená totalitní kontrolu, ale opravňuje
+k bližšímu zkoumání.
+
+Klinicky je u lidí z uzavřených systémů, ať jde o uprchlíky, nebo o odchod ze skupin s vysokou mírou
+kontroly, třeba počítat s fází, kdy je každý zdroj podezřelý, i ten pravdivý (Lee, 2015). Nová
+informace se nemá „nalévat“, ale stavět postupně spolu s kritérii jejího ověřování; postup rozvádějí
+stránky [střednědobá vzdělávací reintegrace](@/kompendium/recovery-protocols/midterm-educational-reintegration.md)
+a [protokol pro uprchlíky](@/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md). Lidskoprávní
+rámec připomíná, že dokumentace podle standardů OSN zachovává možnost pozdější odpovědnosti (Komise
+OSN pro lidská práva v KLDR, 2014); viz [lidská práva – EA standardy](@/kompendium/international/29-human-rights-EA/index.md).
 
 ## Hranice výkladu
 
 Pohled zvenčí je omezen: přímé pozorování je téměř nemožné a výpovědi uprchlíků pocházejí od lidí,
-kteří odešli, často z příhraničních oblastí. Některá známá svědectví byla později autory
-upravena (např. Šin Tong-hjok v roce 2015 opravil části svého příběhu zveřejněného v knize
-Blaina Hardena), což neruší celkový obraz, ale připomíná, že traumatická výpověď a mediální
-příběh jsou dvě různé věci. Nelze také předpokládat, že obyvatelé „všemu věří“ – výzkum
-naznačuje rozšířený pragmatismus a skrytou skepsi.
+kteří odešli, často z příhraničních oblastí (Lankov, 2013). Některá známá svědectví byla později
+autory upravena; Šin Tong-hjok v roce 2015 opravil části svého příběhu zveřejněného v knize, kterou
+napsal Harden (2012). To neruší celkový obraz, ale připomíná, že traumatická výpověď a mediální
+příběh jsou dvě různé věci. Nelze také předpokládat, že obyvatelé „všemu věří“: výzkum naznačuje
+rozšířený pragmatismus a skrytou skepsi, kterou dokládají i rozhovory, jež vedla Demick (2009).
 
 ## Literatura
 
-- Bradley K. Martin (2004): *Under the Loving Care of the Fatherly Leader*.
-- Barbara Demick (2009): *Nothing to Envy: Ordinary Lives in North Korea*.
-- B. R. Myers (2010): *The Cleanest Race*.
-- Andrei Lankov (2013): *The Real North Korea*.
-- Hyeonseo Lee (2015): *The Girl with Seven Names* – paměti.
+- Collins, R. (2012). *Marked for Life: Songbun, North Korea's Social Classification System*.
+  Committee for Human Rights in North Korea.
+- Demick, B. (2009). *Nothing to Envy: Ordinary Lives in North Korea*. Spiegel & Grau.
+- Harden, B. (2012). *Escape from Camp 14: One Man's Remarkable Odyssey from North Korea to
+  Freedom in the West*. Viking.
+- Hassig, R., Oh, K. (2009). *The Hidden People of North Korea: Everyday Life in the Hermit
+  Kingdom*. Rowman & Littlefield.
+- Komise OSN pro lidská práva v KLDR (2014). *Report of the Commission of Inquiry on Human Rights
+  in the Democratic People's Republic of Korea*. Rada OSN pro lidská práva.
+- Lankov, A. (2013). *The Real North Korea: Life and Politics in the Failed Stalinist Utopia*.
+  Oxford University Press.
+- Lee, H. (2015). *The Girl with Seven Names: A North Korean Defector's Story*. William Collins.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism: A Study of „Brainwashing“
+  in China*. W. W. Norton.
+- Martin, B. K. (2004). *Under the Loving Care of the Fatherly Leader: North Korea and the Kim
+  Dynasty*. Thomas Dunne Books.
+- Myers, B. R. (2010). *The Cleanest Race: How North Koreans See Themselves and Why It Matters*.
+  Melville House.
 
 ## Související
 

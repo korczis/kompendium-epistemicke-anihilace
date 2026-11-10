@@ -1,10 +1,10 @@
 +++
-title = "Identity Destruction"
+title = "Identity destruction (destrukce identity)"
 weight = 50
-description = "Systematic dismantling of selfhood via coercive influence techniques."
+description = "Soustavné rozkládání sebepojetí člověka nátlakovým vlivem, typicky v cyklu love bombingu, přepisu identity a odvržení. Znaky, mechanismus, odlišení a zotavení."
 
 [taxonomies]
-tags = ["glossary", "psychology", "interactive"]
+tags = ["glossary", "psychology", "identity", "kompendium", "manipulace"]
 
 [extra]
 category = "psychology"
@@ -16,74 +16,90 @@ related_terms = [
 ]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 +++
 
-## Definition
+## Definice
 
-Identity destruction is the systematic dismantling of an individual's sense of self via coercive techniques: [love-bombing](@/glossary/love-bombing.md) → identity overwriting → [discard](@/glossary/discard.md) cycle. Documented in cult dynamics, coercive control, abusive relationships. The Prismatic Kompendium catalogs these patterns under the EA (Epistemická Anihilace) taxonomy with detection signatures and recovery protocols.
+**Identity destruction** (*destrukce identity*) je soustavné rozkládání sebepojetí člověka pomocí nátlakových technik vlivu. Typický průběh má podobu cyklu [love bombing](@/glossary/love-bombing.md) → přepis identity → [odvržení](@/glossary/discard.md) (*discard*). Vzorec je doložen v dynamice sekt a [skupin s vysokou kontrolou](@/glossary/high-control-group.md), ve vztazích s [coercive control](@/glossary/coercive-control.md) a v násilných partnerských vztazích. Kompendium tyto vzorce katalogizuje v taxonomii EA (epistemická anihilace) spolu s detekčními signaturami a protokoly zotavení.
 
-## See Also
+Nejde o změnu identity jako takovou – lidé se mění neustále, a některé změny jsou hluboké a dobré. Destrukce identity je změna, která je **řízena zvenčí, slouží druhé straně a ničí schopnost člověka vlastní identitu utvářet**: hodnoty, vzpomínky, vztahy a vyprávění o sobě jsou nahrazeny verzí, kterou dodala skupina nebo partner, a po odvržení člověk nemá k čemu se vrátit.
 
-- [Glossary index](@/glossary/_index.md)
-- [Love Bombing](@/glossary/love-bombing.md)
-- [Discard](@/glossary/discard.md)
-- [Trauma Bonding](@/glossary/trauma-bonding.md)
-- [Secure Attachment](@/glossary/secure-attachment.md)
+## Původ a kontext pojmu
 
----
+Termín je popisný, ne diagnostický. Opírá se o výzkum reformy myšlení (Lifton 1961), zejména o Liftonova kritéria „sacred science“, „loading the language“ a „dispensing of existence“, o model [BITE](@/glossary/bite-model.md) Stevena Hassana (1988, 2015), který popisuje kontrolu chování, informací, myšlení a emocí, a o klinickou literaturu o komplexním traumatu (Herman 1992). Fáze love bombing a discard převzala literatura o narcistním zneužívání v blízkých vztazích. V Kompendiu pojem navazuje na [narativní identitu](@/glossary/narativni-identita.md) a na terminální protokol [identitní dekonstrukce](@/kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md).
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+## Jak se projevuje
 
-## Manažerské shrnutí
+**Fáze love bombingu:** zahrnutí pozorností, souhlasem a láskou; rychlé sbližování; pocit, že konečně někdo „opravdu vidí, kdo jsem“.
 
-**Identity Destruction** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+**Fáze přepisu:**
 
+- přejímání nového jazyka, jména, stylu oblékání, denního režimu;
+- přepis biografie: dřívější život je „ztracený čas“, rodina „toxická“, přátelé „na nižší úrovni“;
+- vzdávání se dřívějších zájmů a vztahů ([urychlená izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md));
+- hodnoty a rozhodnutí se odvozují od jedné osoby nebo skupiny;
+- vlastní pocity se posuzují podle toho, zda jsou „správné“.
 
-## Koncepční síť
+**Fáze odvržení:** náhlé stažení přízně, veřejné ponížení nebo vyloučení; člověk zůstává s identitou, která byla postavena pro skupinu a mimo ni nefunguje.
 
-Vizualizace propojení **Identity Destruction** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+**Následky:** [fragmentace identity](@/kompendium/detection-signatures/30-phenomenological-identity-fragmentation.md), neschopnost odpovědět na otázku „co chci já?“, ztráta vlastní historie, prázdnota, stud, vysoké riziko návratu do skupiny nebo vstupu do podobné.
 
-```mermaid
-graph TD
-    C0["Identity Destruction"]
-    N1["Adversarial Architecture"]
-    N2["Adapter"]
-    N3["Accreditation"]
-    N4["Accuracy"]
-    N5["3NL"]
-    N6["Actor Model"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+### Obecný příklad
 
-## Související pojmy
+*Anonymizovaná, obecná ilustrace; nejde o konkrétní případ.*
 
-- [Adversarial Architecture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-architecture/) — slug `adversarial-architecture`
-- [Adapter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adapter/) — slug `adapter`
-- [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/) — slug `accreditation`
-- [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/) — slug `accuracy`
-- [3NL](@/glossary/3nl.md) — slug `3nl`
-- [Actor Model](https://prismatic-reality-com.github.io/prismatic-promo/glossary/actor-model/) — slug `actor-model`
+Žena kolem třiceti let vstoupí do komunity osobního rozvoje po rozvodu. První měsíce zažívá přijetí, jaké dosud nepoznala. Postupně přebírá nový slovník, vzdává se dřívějších přátel („brzdí tvůj růst“), mění zaměstnání podle rady vedoucího a přepisuje si vzpomínky na dětství jako „program, ze kterého se léčí“. Po sporu o peníze je veřejně označena za „nepřipravenou“ a vyloučena. Do terapie přichází se slovy, že neví, kdo je, co má ráda a komu může zavolat. První měsíce terapie se nezabývají skupinou, ale obnovou vlastní historie: fotografie, staré deníky, setkání s kamarádkou ze školy.
 
-## Navigace
+## Mechanismus
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+Strukturálně jde o **náhradu zdrojů identity**. Identita se opírá o vzpomínky, vztahy, hodnoty, tělo a vyprávění, které je spojuje. Destrukce identity zasahuje všechny tyto zdroje současně: vzpomínky přepíše ([EA-5.3.2 Autobiografická dekonstrukce](@/kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md)), vztahy vymění za vztahy ve skupině, hodnoty převrátí ([EA-5.3.11 Axiologická inverze](@/kompendium/techniques/ea-5-3-11-axiologicka-inverze.md)) a vyprávění nahradí novým ([EA-5.3.7 Náhrada vyprávění o sobě](@/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md)). Love bombing zde nefunguje jako dárek, ale jako **zástava**: náklonnost je podmíněna přijetím nové identity a odvržení je trestem za zbytky staré. Cyklus vytváří [traumatickou vazbu](@/glossary/trauma-bonding.md), která drží člověka i po odvržení.
+
+## Odlišení
+
+- **Od osobního růstu a konverze:** autentická proměna (i náboženská) navazuje na dřívější život, nevyžaduje přerušení všech vztahů a nechává prostor pro pochybnost.
+- **Od krize identity v dospívání:** vývojová krize je vnitřně motivovaná a otevřená; destrukce identity má vnějšího autora a uzavřený cíl.
+- **Od disociativní poruchy identity:** ta je klinickou diagnózou s vlastním vývojem, většinou v souvislosti s raným traumatem; destrukce identity popisuje vnější proces. Mohou se setkat, ale nejsou totéž ([diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)).
+- **Od deprese a vyhoření:** ztráta smyslu a energie může vypadat podobně; rozhodující je anamnéza vztahu nebo skupiny.
+
+## Význam pro Kompendium
+
+Destrukce identity je společným jmenovatelem mnoha kazuistik – od [sektářského vycházení](@/kompendium/case-studies/10-sektarske-vychazeni.md) přes [dvanáct let zotavení po sektě](@/kompendium/case-studies/06-cult-recovery-12-let.md) po [narcistickou rodinu](@/kompendium/case-studies/07-narcisticka-rodina.md). Pro forenzní posouzení je podstatné, že člověk v fázi přepisu může souhlasit s věcmi, s nimiž by dříve nesouhlasil; otázka platnosti souhlasu se pak řeší v rámci [undue influence](@/glossary/undue-influence.md). Výukový scénář [Fragmentace identity](@/kompendium/educational-scenarios/25-identity-fragmentation.md) pomáhá vzorec rozpoznat.
+
+## Obrana a zotavení
+
+**Pro dotčeného a blízké:**
+
+- neodsuzovat a neútočit na novou identitu – posiluje to vazbu na skupinu; udržovat kontakt a vzpomínky na sdílenou minulost;
+- po odchodu znovu sbírat vlastní historii: fotografie, deníky, lidé, kteří si pamatují dřívější já ([paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md), [integrace životního příběhu](@/kompendium/self-defense-guides/45-life-story-integration.md));
+- pojmenovat vlastní hodnoty znovu, pomalu a bez spěchu ([vyjasnění hodnot](@/kompendium/self-defense-guides/44-axiology-clarification.md)).
+
+**Pro profesionála:**
+
+- nenabízet hotovou novou identitu – to by byl jen další přepis;
+- postupovat podle [rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md) a [protokolu po odchodu ze sekty](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md);
+- počítat s obdobím prázdnoty a s rizikem vstupu do podobné skupiny ([prevence relapsu](@/kompendium/recovery-protocols/longterm-relapse-prevention.md)).
+
+## Literatura
+
+- Robert Jay Lifton: *Thought Reform and the Psychology of Totalism* (1961).
+- Steven Hassan: *Combating Cult Mind Control* (1988; nové vyd. 2015).
+- Judith Lewis Herman: *Trauma and Recovery* (1992).
+
+## Související
+
+**Pojmy**
+
+- [Love Bombing](@/glossary/love-bombing.md) – úvodní fáze cyklu.
+- [Discard](@/glossary/discard.md) – fáze odvržení.
+- [Trauma Bonding](@/glossary/trauma-bonding.md) – vazba, kterou cyklus vytváří.
+- [Secure Attachment](@/glossary/secure-attachment.md) – zdravá protiváha, k níž zotavení směřuje.
+- [BITE Model](@/glossary/bite-model.md) – rámec kontroly chování, informací, myšlení a emocí.
+- [Narativní identita](@/glossary/narativni-identita.md) – co destrukce zasahuje.
+
+**Kniha**
+
+- [Identitní dekonstrukce](@/kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md) – terminální protokol.
+- [Rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md) – střednědobý protokol zotavení.
+- [Glosář](@/glossary/_index.md) – přehled všech hesel.

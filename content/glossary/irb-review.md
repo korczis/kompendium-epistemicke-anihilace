@@ -1,16 +1,16 @@
 +++
-title = "IRB Review"
+title = "IRB review (posouzení etickou komisí)"
 weight = 5
-description = "Independent ethics committee evaluation of research involving human participants, designed to protect subjects from undue risk, ensure informed consent, verify scientific merit, and maintain compliance with national and international research-ethics frameworks"
+description = "Nezávislé posouzení výzkumu s lidskými účastníky etickou komisí: ochrana před nepřiměřeným rizikem, kontrola informovaného souhlasu, vědecké hodnoty a souladu s etickými rámci."
 
 [taxonomies]
-tags = ["ethics", "research", "compliance", "regulatory"]
+tags = ["glossary", "ethics", "research", "compliance", "irb"]
 
 [extra]
 category = "ethics"
 status = "active"
 author = "Tomas Korcak (korczis)"
-reading_time = "7 min"
+reading_time = "4 min"
 difficulty = "intermediate"
 quality_score = 91
 abbreviation = "IRB"
@@ -25,39 +25,87 @@ image = "/images/sections/glossary.png"
 image_alt = "IRB Review - Prismatic Platform"
 +++
 
-## Definition
+## Definice
 
-An Institutional Review Board (IRB) — known as a Research Ethics Committee (REC) in the UK, an Ethikkommission in German-speaking jurisdictions, and an etická komise in Czech practice — is an independent body charged with reviewing, approving, and monitoring research involving human participants. The board examines the proposed protocol, the consent documents, the recruitment plan, the data-management strategy, and the risk-benefit calculus. Approval is required before research begins; substantive amendments require re-approval; adverse events must be reported.
+**Institutional Review Board** (IRB) – ve Spojeném království *Research Ethics Committee* (REC), v německy mluvících zemích *Ethikkommission*, v české praxi **etická komise** – je nezávislý orgán pověřený posuzováním, schvalováním a sledováním výzkumu zahrnujícího lidské účastníky. Komise zkoumá navržený protokol, dokumenty [informovaného souhlasu](@/glossary/informed-consent.md), plán náboru, strategii nakládání s daty a poměr rizika a přínosu. Schválení je nutné před zahájením výzkumu; podstatné změny vyžadují nové schválení; nežádoucí události se musí hlásit.
 
-## Manažerské shrnutí
+Posouzení etickou komisí je nutnou podmínkou většiny výzkumu s lidskými účastníky. Nejde o jednorázovou bránu, ale o trvalý vztah: průběžná revize (obvykle roční) a hlášení nežádoucích událostí jsou trvalými povinnostmi.
 
-IRB review (v ČR etická komise) je nezávislý orgán, jehož schválení je nutnou podmínkou pro většinu výzkumu zahrnujícího lidské účastníky. Posuzuje protokol, dokumenty informovaného souhlasu, plán náboru, strategii nakládání s daty, a poměr rizika a přínosu. V Prismatic Platform je IRB-rámec relevantní nejen pro klinický a behaviorální výzkum, ale stále více také pro AI/ML studie zahrnující lidská data, pro UX výzkumy, pro studie sociálních sítí (OSINT na živých osobách), a pro některé DD operace, kde dochází k systematickému sběru osobních údajů. České prostředí kombinuje zákon č. 372/2011 Sb. o zdravotních službách, EU 536/2014 (klinická hodnocení), a GDPR pro datovou složku.
+## Původ a kontext pojmu
 
-## Forensic/Legal Context
+Moderní rámec vychází z poválečného *Norimberského kodexu* (1947), z *Helsinské deklarace* Světové lékařské asociace (1964, opakovaně revidována, naposledy 2024), z americké *Belmontské zprávy* (1979), která formulovala tři základní principy – **respekt k osobám**, **beneficenci** a **spravedlnost** –, a z americké *Common Rule* (45 CFR 46, revize 2018). Klinický výzkum v EU upravuje nařízení (EU) č. 536/2014 a ochranu dat GDPR (2016/679); české zvláštní předpisy obsahuje zákon č. 378/2007 Sb., o léčivech, a zákon č. 372/2011 Sb., o zdravotních službách. Dějiny, z nichž rámec vzešel, připomíná [Tuskegee](@/kompendium/historical-cases/32-tuskegee.md).
 
-The modern framework derives from the post-WWII *Nuremberg Code* (1947), the World Medical Association's *Declaration of Helsinki* (1964, repeatedly amended), the U.S. *Belmont Report* (1979) — which articulated the three foundational principles of *respect for persons*, *beneficence*, and *justice* — and the U.S. Common Rule (45 CFR 46, revised 2018). EU clinical research is governed by Regulation 536/2014 and GDPR (2016/679); Czech-specific provisions appear in zákon 378/2007 Sb. (léčiva) and zákon 372/2011 Sb. (zdravotní služby). Special protections apply to *vulnerable populations*: children, pregnant women, prisoners, persons with cognitive impairments, employees of the sponsoring institution, and economically or socially disadvantaged groups whose voluntary consent may be compromised.
+Zvláštní ochrana platí pro **zranitelné populace**: děti, těhotné ženy, vězně, osoby s kognitivním postižením, zaměstnance sponzorující instituce a ekonomicky nebo sociálně znevýhodněné skupiny, jejichž dobrovolný souhlas může být ohrožen.
 
-## Practical Application
+## Jak se projevuje
 
-Researchers prepare an IRB submission well in advance of intended start, including: protocol synopsis, consent form (typically with both formal and lay-language sections), recruitment materials, data-management plan, conflict-of-interest declarations, investigator CVs, sponsor agreements, and any prior approvals. Review categories include *exempt* (minimal-risk archival or educational research), *expedited* (minimal-risk active research), and *full board* (above minimal risk or involving vulnerable populations). For OSINT-driven research on identifiable individuals, even when data is technically public, ethics review is increasingly required by host institutions and by journal publication standards. Continuing review (typically annual) and adverse-event reporting are ongoing obligations, not one-time gates.
+Výzkumníci připravují podání pro etickou komisi s dostatečným předstihem před plánovaným zahájením. Obsahuje:
 
-## Related Concepts
+- shrnutí protokolu;
+- formulář souhlasu (obvykle s formální částí a částí v laickém jazyce);
+- náborové materiály;
+- plán nakládání s daty;
+- prohlášení o střetu zájmů;
+- životopisy výzkumníků, smlouvy se sponzorem a případná předchozí schválení.
 
-- [Informed Consent](@/glossary/informed-consent.md) - Central document IRB reviews
-- [Individual Risk Map](@/glossary/individual-risk-map.md) - Risk-assessment tool feeding IRB review
-- [Transformative Experience](@/glossary/transformative-experience.md) - Category requiring heightened IRB scrutiny
-- [Consent](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consent/) - Underlying ethical principle
-- [Data Protection](https://prismatic-reality-com.github.io/prismatic-promo/glossary/data-protection/) - Required IRB consideration
-- [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/) - EU data-protection framework intersecting IRB
-- [Due Diligence](@/glossary/due-diligence.md) - Process where IRB-style review can be adapted
+Kategorie posouzení:
 
-## References
+| kategorie | kdy | příklad |
+|---|---|---|
+| **vyňatý výzkum** (*exempt*) | minimální riziko, archivní nebo vzdělávací výzkum | analýza anonymizovaných veřejných dokumentů |
+| **zrychlené posouzení** (*expedited*) | aktivní výzkum s minimálním rizikem | anonymní dotazník bez citlivých témat |
+| **plné posouzení** (*full board*) | riziko nad minimální úrovní nebo zranitelné populace | rozhovory s přeživšími sekt o traumatu |
 
-- *The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research* (National Commission, 1979)
-- World Medical Association. *Declaration of Helsinki — Ethical Principles for Medical Research Involving Human Subjects* (latest revision 2024)
-- 45 CFR 46 — *Federal Policy for the Protection of Human Subjects (Common Rule)* (United States, 2018 revision)
-- Zákon č. 378/2007 Sb., o léčivech (Czech clinical-research statute); Regulation (EU) 536/2014
+U výzkumu založeného na OSINT o identifikovatelných osobách vyžadují etické posouzení stále častěji hostitelské instituce i publikační standardy časopisů, a to i tehdy, když jsou data technicky veřejná.
 
----
+## Mechanismus
 
-*Built with precision. Optimized for AI consumption.*
+Etická komise chrání účastníky tím, že **odděluje rozhodnutí o riziku od toho, kdo má na výzkumu zájem**. Výzkumník přirozeně přeceňuje přínos a podceňuje riziko vlastního projektu; komise přináší nezávislý pohled. Zároveň je komise sama zranitelná: formální kontrola dokumentů může přehlédnout skutečné riziko, a komise složená z kolegů může podlehnout skupinovému myšlení. Kompendium proto popisuje i [ovládnutí etické a odborné kontroly](@/kompendium/techniques/ea-2-4-6-peer-review-capture.md) jako možnou podobu institucionální EA.
+
+## Odlišení
+
+- **Od vědecké oponentury:** recenzní řízení posuzuje kvalitu vědy, etická komise ochranu účastníků (i když vědecká hodnota je součástí etického posouzení – špatný výzkum nemůže ospravedlnit žádné riziko).
+- **Od compliance a ochrany dat:** pověřenec pro ochranu osobních údajů posuzuje zákonnost zpracování; etická komise širší otázku újmy.
+- **Od interní kontroly v due diligence:** postupy podobné etickému posouzení lze v due diligence přizpůsobit, ale nemají stejný právní status.
+
+## Význam pro Kompendium
+
+Na platformě Prismatic, z níž kniha vzešla, je rámec etického posouzení relevantní nejen pro klinický a behaviorální výzkum, ale stále více i pro studie AI a strojového učení s lidskými daty, pro výzkum uživatelské zkušenosti, pro studie sociálních sítí ([OSINT](@/glossary/osint.md) o žijících osobách) a pro některé operace [due diligence](@/glossary/due-diligence.md), při nichž dochází k soustavnému sběru osobních údajů. České prostředí kombinuje zákon o zdravotních službách, nařízení EU o klinických hodnoceních a GDPR pro datovou složku.
+
+Výzkum EA je téměř vždy výzkumem se zranitelnými účastníky: lidé po odchodu z kontrolujících skupin mohou mít oslabenou schopnost odmítnout autoritu, mohou být retraumatizováni otázkami a mohou se cítit povinni „pomoci věci“. Kompendium proto věnuje etickému posouzení samostatné stránky: [návrh protokolu pro etickou komisi](@/kompendium/research-methodology/IRB-protocol-design-EA.md), [víceúrovňové posouzení](@/kompendium/techniques/ea-4-2-4-irb-review-multi-tier.md), [návrh protokolu IRB v technikách výuky](@/kompendium/techniques/ea-3-3-2-irb-protocol-design.md) a [institucionální etickou komisi](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md). Kritická perspektiva [vykořisťování ve výzkumu](@/kompendium/critical-perspectives/19-research-exploitation.md) připomíná, že i dobře míněný výzkum může z lidí udělat prostředek.
+
+## Obrana a zotavení
+
+**Pro účastníky:** mají právo znát, kdo výzkum schválil, kontakt na etickou komisi a možnost kdykoli odstoupit bez důsledků.
+
+**Pro výzkumníky:** podat žádost včas, popsat rizika poctivě (včetně psychologických a sociálních), připravit [debriefing](@/kompendium/research-methodology/debriefing-protocol-research.md) a postup pro případ zhoršení stavu účastníka, zajistit [anonymizaci](@/kompendium/research-methodology/anonymization-EA-research.md) a [bezpečnost dat](@/kompendium/research-methodology/data-security-EA-research.md).
+
+**Pro instituce:** zajistit nezávislost komise na vedení výzkumu, rotaci členů a zahrnutí laických členů a zástupců dotčených skupin.
+
+## Literatura
+
+- *The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research* (National Commission, 1979).
+- World Medical Association: *Declaration of Helsinki – Ethical Principles for Medical Research Involving Human Participants* (poslední revize 2024).
+- 45 CFR 46 – *Federal Policy for the Protection of Human Subjects (Common Rule)* (USA, revize 2018).
+- Zákon č. 378/2007 Sb., o léčivech; nařízení (EU) č. 536/2014.
+
+## Související
+
+**Pojmy**
+
+- [Informed Consent](@/glossary/informed-consent.md) – ústřední dokument, který komise posuzuje.
+- [Individual Risk Map](@/glossary/individual-risk-map.md) – nástroj hodnocení rizika pro etické posouzení.
+- [Transformative Experience](@/glossary/transformative-experience.md) – kategorie vyžadující zvýšenou pozornost komise.
+- [Due Diligence](@/glossary/due-diligence.md) – proces, do něhož lze postupy etického posouzení přenést.
+
+**Kniha**
+
+- [Návrh protokolu pro etickou komisi](@/kompendium/research-methodology/IRB-protocol-design-EA.md) – metodika pro výzkum EA.
+- [Výzkum se zranitelnými populacemi](@/kompendium/research-methodology/vulnerable-population-research.md) – zvláštní ochrana.
+- [Vykořisťování ve výzkumu](@/kompendium/critical-perspectives/19-research-exploitation.md) – kritická perspektiva.
+
+**Mimo knihu**
+
+- [Consent](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consent/) – základní etický princip.
+- [Data Protection](https://prismatic-reality-com.github.io/prismatic-promo/glossary/data-protection/) – povinná součást posouzení.
+- [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/) – rámec EU pro ochranu údajů.

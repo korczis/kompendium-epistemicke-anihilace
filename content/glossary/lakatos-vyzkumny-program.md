@@ -2,70 +2,102 @@
 title = "Lakatosův výzkumný program"
 weight = 60
 
-description = "Lakatosova metodologie vědeckých výzkumných programů — rozlišení mezi progresivními a degenerativními posuny pomocné hypotézy; přesný nástroj k odlišení legitimní revize teorie od EA-1.3.1 imunizace."
+description = "Lakatosova metodologie výzkumných programů: rozlišení progresivních a degenerativních posunů pomocných hypotéz; nástroj k odlišení legitimní revize od imunizace EA-1.3.1."
 
 [taxonomies]
-tags = ["glossary", "epistemic", "philosophy", "science"]
+tags = ["glossary", "epistemic", "philosophy", "science", "falsifikace"]
 
 [extra]
 category = "epistemic"
 related_terms = ["falsifikace", "epistemicka-anihilace", "taxonomie-ea", "konfirmacni-bias", "hermeneutika", "kompendium-ea"]
 author = "Tomáš Korcak (korczis)"
-reading_time = "4 min"
-word_count = 680
+reading_time = "5 min"
+word_count = 954
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
+date_modified = "2026-11-10"
 keywords = ["Lakatos", "výzkumný program", "research programme", "progresivní posun", "degenerativní posun", "kompendium"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"
-image_alt = "Lakatosův výzkumný program - glossary"
+image_alt = "Lakatosův výzkumný program – glosář"
 +++
 
-## Definition
+## Definice
 
-**Lakatosův výzkumný program** (*Lakatosian research programme*, MSRP) is the methodology of science developed by Imre Lakatos in *The Methodology of Scientific Research Programmes* (1978) as a refinement of [Popperian falsifikace](@/glossary/falsifikace.md). Lakatos accepted the Quine-Duhem point that single hypotheses are not tested in isolation, but rejected the relativist conclusion. Instead he reconstructed scientific practice as the development of **research programmes** with three structural elements:
+**Lakatosův výzkumný program** (*Lakatosian research programme*, metodologie vědeckých výzkumných programů, MSRP) je metodologie vědy, kterou rozvinul Imre Lakatos jako zpřesnění Popperovy [falsifikace](@/glossary/falsifikace.md); souborně vyšla v *The Methodology of Scientific Research Programmes* (1978). Lakatos přijal Quineův-Duhemův postřeh, že jednotlivé hypotézy se netestují izolovaně, ale odmítl relativistický závěr. Místo toho rekonstruoval vědeckou praxi jako vývoj **výzkumných programů** se třemi strukturními prvky:
 
-1. **Hard core** — a small set of fundamental claims treated as not directly subject to refutation; the identity of the programme.
-2. **Protective belt** — auxiliary hypotheses that absorb empirical conflict and can be revised without abandoning the programme.
-3. **Heuristic** — positive (paths of theory development) and negative (which moves are forbidden) rules that constrain belt revision.
+1. **tvrdé jádro** – malá sada základních tvrzení, která nejsou přímo vystavena vyvrácení; identita programu;
+2. **ochranný pás** – pomocné hypotézy, které pohlcují empirické konflikty a mohou být revidovány, aniž by se program opustil;
+3. **heuristika** – pozitivní (cesty rozvoje teorie) a negativní (které kroky jsou zakázány) pravidla omezující revize pásu.
 
-The decisive innovation is the **progressive vs. degenerative distinction**:
+Rozhodující inovací je rozlišení **progresivního a degenerativního posunu**:
 
-- A **progressive problem-shift** introduces auxiliary hypotheses that *predict novel facts* not previously known — empirical content *increases* with the rescue.
-- A **degenerative problem-shift** introduces auxiliary hypotheses solely to neutralize counter-evidence, with no novel predictions — empirical content *decreases* (or stays constant) with the rescue.
+- **progresivní posun problému** zavádí pomocné hypotézy, které *předpovídají nová fakta*, dříve neznámá – empirický obsah se záchranou *zvyšuje*;
+- **degenerativní posun problému** zavádí pomocné hypotézy jen k neutralizaci protidokladů, bez nových předpovědí – empirický obsah se záchranou *snižuje* (nebo zůstává stejný).
 
-The same protective move ("we add the assumption that X") can be either, depending on whether it is content-increasing or content-decreasing. Lakatos's criterion is therefore **diachronic** (judged over time, by track record) rather than synchronic (judged at the moment).
+Týž ochranný krok („přidáme předpoklad, že X“) může být jedním i druhým, podle toho, zda obsah zvyšuje, nebo snižuje. Lakatosovo kritérium je proto **diachronní** (posuzuje se v čase, podle výsledků), ne synchronní (posuzované v okamžiku).
 
-Within the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md), MSRP is the **canonical tool for distinguishing legitimate epistemic conservation from EA-1.3.1 immunization**. EA-1.3.1 patterns are exactly degenerative shifts: every counter-evidence triggers a content-empty belt-revision that preserves the hard core but generates no new predictions. Legitimate science also revises auxiliaries — but the revisions are progressive: they specify *new* observable consequences that were not implied before.
+## Původ a kontext pojmu
 
-## Context
+Lakatos (1922–1974), maďarský filozof působící v Londýně, formuloval program v polemice s Popperem a Kuhnem; klíčová stať „Falsification and the Methodology of Scientific Research Programmes“ vyšla ve sborníku *Criticism and the Growth of Knowledge* (1970). Proti Popperovi namítal, že žádná teorie není vyvrácena jediným pokusem; proti Kuhnovi, že změnu paradigmatu nelze ponechat psychologii davu ([Kuhnova revoluce](@/glossary/kuhnova-revoluce.md)). Kompendium jej vykládá v kapitole [Lakatos](@/kompendium/03-zakladni-kategorie/lakatos.md) a v [EA-7.2.4 Lakatos: výzkumný program](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md); stručnější heslo je [Lakatos Research Programme](@/glossary/lakatos.md).
 
-Within the Prismatic Platform, Lakatos's distinction is operationalized as a **content-delta metric** on belief revisions:
+## Jak se projevuje
 
-- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} tracks every revision to a belief's auxiliary structure and computes the **content delta** — does the revision generate new testable predictions, or only neutralize the prior counter-evidence? Revisions with negative or zero content-delta are flagged as candidate degenerative shifts and weight the belief's calibration score downward.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) maintains **per-belief auxiliary-hypothesis ledgers** with timestamps and prediction registrations, so the progressive/degenerative judgment can be made post-hoc against the actual record rather than against narrative reconstruction.
-- The [Color Teams](@/glossary/color-teams.md) Red Team explicitly seeds platform reasoning with degenerative-shift patterns to verify that the content-delta gating intercepts them before they harden into [kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md).
-- The complement is the **honest hard-core declaration**: the platform requires explicit identification of which beliefs are core (not subject to single-evidence revision) versus belt (revisable). Concealed hard cores — beliefs that *behave* as hard core while being *presented* as evidence-driven — are a documented EA pattern.
+Rozdíl lze pozorovat na tom, co se děje po nepříjemném zjištění:
 
-The MSRP framework also clarifies why naïve falsificationism fails as a defense: any practitioner can rescue a theory by belt-revision, and the question is not *whether* a rescue is permitted but *what kind* of rescue. The Decision Engine therefore does not flag rescue per se — it flags rescues whose track record is degenerative. Czech-language treatment: [/kompendium/04-mechanismy/lakatos/](@/kompendium/03-zakladni-kategorie/lakatos.md).
+| situace | progresivní reakce | degenerativní reakce |
+|---|---|---|
+| předpověď nevyšla | „naše předpoklady o X byly špatně; z opravy plyne, že by se mělo stát Y – ověřme to“ | „to byla zkouška víry / nepřítel to zmařil / ještě nenastal čas“ |
+| vyvracející doklad | nová pomocná hypotéza s novou testovatelnou předpovědí | nová výjimka bez dalších důsledků |
+| po čase | program předpovídá víc než dřív | program předpovídá stejně nebo méně, jen vysvětluje zpětně |
 
-## See Also
+Ve skupinách s vysokou kontrolou je typické, že nesplněná proroctví vedou k degenerativním posunům – a k ještě silnějšímu závazku členů.
 
-- [Falsifikace](@/glossary/falsifikace.md) — Predecessor framework refined by Lakatos
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Threat model whose EA-1.3.1 is precisely degenerative shift
-- [Konfirmační bias](@/glossary/konfirmacni-bias.md) — Underlying vulnerability
-- [Taxonomie EA](@/glossary/taxonomie-ea.md) — Maps degenerative patterns to specific codes
-- [Hermeneutika](@/glossary/hermeneutika.md) — Distinct legitimate framework for non-empirical revision
-- [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) — Hardened endpoint of degenerative pattern
-- [Kompendium EA](@/glossary/kompendium-ea.md) — Full taxonomy
-- [Kompendium](@/kompendium/_index.md) — Czech-language reference
+## Mechanismus
 
----
+V [Kompendiu epistemické a kognitivní anihilace](@/kompendium/_index.md) je MSRP **kanonickým nástrojem k odlišení legitimního epistemického konzervatismu od imunizace EA-1.3.1** ([EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)). Vzorce EA-1.3.1 jsou přesně degenerativními posuny: každý protidoklad spustí obsahově prázdnou revizi pásu, která zachová tvrdé jádro, ale nevytvoří žádné nové předpovědi. Legitimní věda také reviduje pomocné hypotézy – její revize jsou však progresivní: určují *nové* pozorovatelné důsledky, které z teorie dříve neplynuly.
 
-## Connect & Contribute
+Rámec také objasňuje, proč naivní falsifikacionismus jako obrana selhává: každý může teorii zachránit revizí pásu, a otázkou není, *zda* je záchrana dovolena, ale *jaká* záchrana to je. Nepoctivou variantou je **skryté tvrdé jádro** – přesvědčení, která se *chovají* jako tvrdé jádro, ale *prezentují* se jako řízená doklady.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+## Odlišení
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- **Od Popperovy falsifikace:** Popper hodnotí teorii podle toho, zda je vyvratitelná a nevyvrácená; Lakatos hodnotí program podle vývoje v čase.
+- **Od [hermeneutiky](@/glossary/hermeneutika.md):** odlišný legitimní rámec pro revize mimo empirickou vědu; analogii progresivní a degenerativní revize lze ale použít i na výklad.
+- **Od víry:** náboženské přesvědčení nemusí být výzkumným programem a nemusí se tak hodnotit; problém nastává, když se nefalzifikovatelné jádro prezentuje jako empirické zjištění.
+
+## Význam pro Kompendium
+
+Na platformě Prismatic, z níž kniha vzešla, je Lakatosovo rozlišení převedeno do **metriky změny obsahu** u revizí přesvědčení:
+
+- [Decision Engine](@/glossary/decision-engine.md) sleduje každou revizi pomocné struktury přesvědčení a počítá **změnu obsahu** – vytváří revize nové testovatelné předpovědi, nebo jen neutralizuje předchozí protidoklad? Revize se zápornou nebo nulovou změnou obsahu se označí jako kandidáti degenerativního posunu a snižují kalibrační skóre přesvědčení. Decision Engine proto neoznačuje záchranu jako takovou – označuje záchrany, jejichž výsledky jsou degenerativní.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) vede **knihy pomocných hypotéz pro každé přesvědčení** s časy a registracemi předpovědí, takže úsudek o progresivnosti lze učinit zpětně podle skutečného záznamu, ne podle narativní rekonstrukce.
+- [Red Team](@/glossary/red-team.md) v rámci [Color Teams](@/glossary/color-teams.md) výslovně vkládá do usuzování platformy vzorce degenerativních posunů, aby ověřil, že je hradlo změny obsahu zachytí dřív, než zatvrdnou v [kognitivní anti-rekurzivitu](@/glossary/kognitivni-anti-rekurzivita.md).
+- Doplňkem je **poctivé prohlášení tvrdého jádra**: platforma vyžaduje výslovné určení, která přesvědčení jsou jádrem (nepodléhají revizi kvůli jednomu dokladu) a která pásem (revidovatelná). Skrytá tvrdá jádra jsou zdokumentovaným vzorcem EA.
+
+## Obrana a zotavení
+
+**Pro jednotlivce:** u vlastních i cizích přesvědčení se ptát, co by z nich mělo plynout v budoucnu, a zapisovat si to; po čase zkontrolovat, zda se program „zlepšuje“, nebo jen vysvětluje. Pojmenovat vlastní tvrdé jádro otevřeně je poctivější než předstírat, že žádné nemám.
+
+**Pro terapii po odchodu ze skupiny:** zpětný pohled na řadu degenerativních posunů (nesplněné předpovědi a jejich vysvětlení) bývá silnějším argumentem než vyvracení jednotlivých tvrzení – ale jen tehdy, když jej člověk udělá sám a ve vlastním tempu; viz [falzifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) a [revize přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md).
+
+## Literatura
+
+- Imre Lakatos: „Falsification and the Methodology of Scientific Research Programmes“, in: I. Lakatos, A. Musgrave (eds.): *Criticism and the Growth of Knowledge* (1970).
+- Imre Lakatos: *The Methodology of Scientific Research Programmes. Philosophical Papers, Vol. 1* (1978).
+
+## Související
+
+**Pojmy**
+
+- [Falsifikace](@/glossary/falsifikace.md) – předchozí rámec, který Lakatos zpřesnil.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – model hrozby, jehož EA-1.3.1 je přesně degenerativním posunem.
+- [Konfirmační bias](@/glossary/konfirmacni-bias.md) – základní zranitelnost.
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) – přiřazuje degenerativní vzorce konkrétním kódům.
+- [Hermeneutika](@/glossary/hermeneutika.md) – odlišný legitimní rámec pro neempirické revize.
+- [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) – zatvrdlý koncový stav degenerativního vzorce.
+
+**Kniha**
+
+- [Lakatos](@/kompendium/03-zakladni-kategorie/lakatos.md) – kapitola základních kategorií.
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – technika, kterou rámec odhaluje.
+- [Kompendium EA](@/glossary/kompendium-ea.md) – úplná taxonomie.

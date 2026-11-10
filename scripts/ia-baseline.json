@@ -206,205 +206,6 @@
   "czech",
   "related"
  ],
- "content/glossary/epistemicka-alienace.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/epistemicka-anihilace.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/epistemicka-injustice.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/epistemicka-pokora.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/epistemicke-trauma.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/epoche.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/expert-witness.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/falsifikace.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/falsifikovatelnost.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/fenomenologie.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/firehose-of-falsehood.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/forensic-interview.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/four-noble-truths.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/gaslighting.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/gestalt-shift.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/gish-gallop.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/graph-theory.md": [
-  "description",
-  "czech",
-  "related",
-  "links-out"
- ],
- "content/glossary/gray-team.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/greynoise.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/hawkeye.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/hermeneutika.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/hyperreality.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/iatrogenic-harm.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/ideal-speech-situation.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/identity-destruction.md": [
-  "czech"
- ],
- "content/glossary/individual-risk-map.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/inference.md": [
-  "czech",
-  "related",
-  "links-out"
- ],
- "content/glossary/info-ops.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/informed-consent.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/instrumental-reason.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/intelligence-fusion.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/intentionalita.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/irb-review.md": [
-  "description",
-  "czech",
-  "related"
- ],
- "content/glossary/kognitivni-anihilace.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/kognitivni-anti-rekurzivita.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/kognitivni-bias.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/kompendium-ea.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/konfirmacni-bias.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/lakatos-vyzkumny-program.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/lebenswelt.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/mereologicka-rekonstrukce.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/metakognice.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/metakognitivni-destrukce.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/metanarrative-collapse.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/motte-and-bailey.md": [
-  "czech",
-  "related"
- ],
- "content/glossary/mysticky-prozitek.md": [
-  "description",
-  "czech",
-  "related"
- ],
  "content/glossary/nabla-axioms.md": [
   "description",
   "czech",
@@ -678,9 +479,6 @@
  "content/kompendium/cross-domain/22-ea-security-incident-response-narrative.md": [
   "not-orphan"
  ],
- "content/kompendium/cross-domain/24-ea-security-threat-intelligence-validation.md": [
-  "not-orphan"
- ],
  "content/kompendium/cross-domain/26-ea-compliance-zkb-epistemic-integrity.md": [
   "not-orphan"
  ],
@@ -691,9 +489,6 @@
   "not-orphan"
  ],
  "content/kompendium/cross-domain/4-ea-osint-sanctions-list-bias.md": [
-  "not-orphan"
- ],
- "content/kompendium/cross-domain/9-ea-dd-investigation-bias.md": [
   "not-orphan"
  ],
  "content/kompendium/emergency-protocols/1-acute-decompensation-EA.md": [
@@ -2165,8 +1960,7 @@
   "related"
  ],
  "content/kompendium/techniques/ea-9-1-6-llm-source-attribution-bypass.md": [
-  "related",
-  "not-orphan"
+  "related"
  ],
  "content/kompendium/techniques/ea-9-1-7-synthetic-expertise-claim.md": [
   "related"

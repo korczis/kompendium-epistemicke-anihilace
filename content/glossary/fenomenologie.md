@@ -2,64 +2,101 @@
 title = "Fenomenologie"
 weight = 60
 
-description = "Husserlovská disciplína studia struktur prožívání z první osoby; základní metodologie detekce epistemické anihilace, protože data o EA jsou strukturálně subjektivní."
+description = "Husserlovská disciplína zkoumající struktury prožitku z první osoby; výchozí metoda detekce epistemické anihilace, protože data o EA jsou ze své povahy subjektivní."
 
 [taxonomies]
-tags = ["glossary", "epistemic", "philosophy", "first-person"]
+tags = ["glossary", "epistemic", "philosophy", "first-person", "kompendium"]
 
 [extra]
 category = "epistemic"
 related_terms = ["hermeneutika", "epistemicka-anihilace", "metakognice", "epistemicke-trauma", "epistemicka-alienace", "kompendium-ea"]
 author = "Tomáš Korcak (korczis)"
-reading_time = "4 min"
-word_count = 660
+reading_time = "5 min"
+word_count = 936
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
+date_modified = "2026-11-10"
 keywords = ["fenomenologie", "phenomenology", "Husserl", "první osoba", "intencionalita", "kompendium"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"
-image_alt = "Fenomenologie - glossary"
+image_alt = "Fenomenologie – glosář"
 +++
 
-## Definition
+## Definice
 
-**Fenomenologie** (*phenomenology*) is the philosophical discipline founded by **Edmund Husserl** that studies the structures of experience strictly **from the first-person perspective** — how phenomena are given to consciousness, prior to and independent of metaphysical claims about their objective status. Husserl's *epoché* (suspension of the natural attitude) and *eidetic reduction* (variation to disclose invariant structure) are technical procedures for accessing experience as experience, not as a proxy for behavior, neurology, or report.
+**Fenomenologie** (*phenomenology*) je filozofická disciplína, kterou založil **Edmund Husserl** a která zkoumá struktury prožitku přísně **z perspektivy první osoby** – to, jak jsou jevy dány vědomí, dříve a nezávisle na metafyzických tvrzeních o jejich objektivním statusu. Husserlova [epoché](@/glossary/epoche.md) (pozastavení přirozeného postoje) a **eidetická redukce** (obměňování příkladů, které odhaluje neměnnou strukturu) jsou odborné postupy, jak přistoupit k prožitku jako k prožitku, ne jako k zástupnému ukazateli chování, neurologie nebo výpovědi.
 
-Three Husserlian concepts matter directly for the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md):
+Pro [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md) jsou přímo podstatné tři husserlovské pojmy:
 
-1. **Intencionalita** (*intentionality*) — every act of consciousness is consciousness *of* something. The structure of experience is the relation between the **noetic** (act-of-experiencing) and **noematic** (what-is-experienced-as) poles. EA targets this structure: it does not change reality, it changes the noematic correlation — what one's evidence presents itself *as*.
-2. **Lebenswelt** (life-world) — the pre-theoretical world of lived practical engagement, against which all scientific theorization is a derived abstraction. Many EA effects are first registered as life-world disruptions ("things feel wrong") long before they can be propositionally articulated.
-3. **Eviden(t)nost** (evidential givenness) — the phenomenological structure by which something presents itself *as* itself. Distortions of evidential givenness are the proximal phenomenological signature of EA, regardless of which technique is operating at the structural level.
+1. **[Intencionalita](@/glossary/intentionalita.md)** – každý akt vědomí je vědomím *něčeho*. Struktura prožitku je vztahem mezi **noetickým** pólem (akt prožívání) a **noematickým** pólem (to, *jako co* je prožíváno). EA na tuto strukturu útočí: nemění skutečnost, mění noematickou korelaci – to, *jako co* se člověku jeho doklady podávají.
+2. **[Lebenswelt](@/glossary/lebenswelt.md)** (žitý svět) – předteoretický svět žitého praktického zapojení, vůči němuž je každá vědecká teorie odvozenou abstrakcí. Mnoho účinků EA se nejprve zaregistruje jako narušení žitého světa („něco je špatně“) dlouho předtím, než je lze vyslovit ve větách.
+3. **Evidence** (*evidenční danost*) – fenomenologická struktura, jíž se něco podává *jako ono samo*. Zkreslení evidenční danosti je bezprostřední fenomenologickou signaturou EA bez ohledu na to, která technika na strukturní úrovni působí.
 
-Phenomenology is the kompendium's **default subject-side methodology** because the data of EA are structurally first-personal: the felt sense of "I can no longer trust my own perception", "this conversation feels rigged", "I cannot recover my confidence in obvious things" cannot be reduced to behavioral observables without losing exactly what makes them diagnostic.
+Fenomenologie je **výchozí metodou Kompendia na straně subjektu**, protože data o EA jsou strukturálně záležitostí první osoby: prožitek „už nemohu věřit vlastnímu vnímání“, „tenhle rozhovor je zmanipulovaný“, „nedokážu se vrátit k jistotě v samozřejmých věcech“ nelze převést na behaviorální ukazatele, aniž by se ztratilo právě to, co je na nich diagnostické.
 
-## Context
+## Původ a kontext pojmu
 
-Within the Prismatic Platform, phenomenological method is operationalized in three places:
+Husserl fenomenologii programově vyložil v *Logických zkoumáních* (1900–1901) a v *Ideách I* (1913); v pozdní *Krizi evropských věd* (1936) zavedl pojem žitého světa. Na něj navázali Heidegger (existenciální analýza pobytu), Merleau-Ponty (tělesné vnímání), Sartre a v Čechách Jan Patočka. Současná fenomenologická psychopatologie a neurofenomenologie (Varela) přenášejí metodu do klinické praxe a kognitivní vědy. Kompendium vykládá fenomenologii v kapitole [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md) a v teoretických reflexích, například [Merleau-Ponty: vtělené vnímání](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md) a [Varela: enaktivismus](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md).
 
-- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats subject self-report as an **independent evidence stream**, not as a noisy proxy for objective measurement. Self-reports of disorientation, eroded confidence in routine perception, or pervasive ambiguity are tracked even when no third-person indicator confirms them — these are the phenomenological prodromes the kompendium maps.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) implements **structured first-person observation logs** with phenomenological vocabulary (givenness, salience, certainty-tone, temporal flow) so that subjects can record disturbances at the level where they actually appear. The vocabulary itself is a defense — it gives subjects categories they would otherwise lack. See also [metakognice](@/glossary/metakognice.md).
-- The [Color Teams](@/glossary/color-teams.md) Blue Team explicitly trains operators to attend to phenomenological signals (the felt-sense indicators of EA-1.4.x emotional modulation, EA-1.3.2 strategic reinterpretation) before structural confirmation. The kompendium documents this as a recurring pattern: subjects feel the EA before they can name it.
-- [Epistemická alienace](@/glossary/epistemicka-alienace.md) and [epistemické trauma](@/glossary/epistemicke-trauma.md) are described in the kompendium primarily in phenomenological terms — they are *modes of givenness* (the world appearing as opaque, the self appearing as untrustworthy) rather than belief-state descriptions.
+## Jak se projevuje
 
-Phenomenology complements but does not replace third-person methods. The platform's epistemic architecture is **multi-perspectival**: phenomenological self-report, behavioral indicators, source-graph analysis, and calibration scoring are all tracked, and divergence between them is itself a signal. Czech-language treatment: [/kompendium/04-mechanismy/fenomenologie/](@/kompendium/03-zakladni-kategorie/fenomenologie.md).
+Fenomenologická citlivost se v praxi projevuje jako schopnost zachytit **změny způsobu danosti**, ne jen změny obsahu:
 
-## See Also
+- svět působí „plochý“, „vzdálený“ nebo „jako kulisa“, i když je vše na svém místě;
+- samozřejmé věci ztrácejí samozřejmost – člověk ví, že dveře zamkl, ale vědění „nesedí“;
+- čas se rozpadá nebo zhušťuje ([časová dezorientace](@/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md));
+- myšlení se zahaluje [kognitivní mlhou](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md);
+- vztahy se vyprazdňují ([emoční otupělost](@/kompendium/detection-signatures/27-phenomenological-emotional-numbing.md)).
 
-- [Hermeneutika](@/glossary/hermeneutika.md) — Cross-subject interpretation complement
-- [Metakognice](@/glossary/metakognice.md) — Reflective self-awareness layer
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Parent threat model
-- [Epistemické trauma](@/glossary/epistemicke-trauma.md) — Phenomenologically-described aftermath
-- [Epistemická alienace](@/glossary/epistemicka-alienace.md) — Phenomenological endpoint
-- [Kompendium EA](@/glossary/kompendium-ea.md) — Full taxonomy
-- [Kompendium](@/kompendium/_index.md) — Czech-language reference
+Celá skupina fenomenologických signatur v [detekčních signaturách](@/kompendium/detection-signatures/_index.md) vychází z tohoto přístupu.
 
----
+## Mechanismus
 
-## Connect & Contribute
+Proč je fenomenologie pro EA klíčová: manipulace nepůsobí jen na to, *čemu* člověk věří, ale na to, *jak* se mu svět a vlastní poznání ukazují. Útok na evidenční danost je efektivní právě proto, že nevyžaduje žádné konkrétní nepravdivé tvrzení – stačí, aby se pravdivé věci přestaly podávat jako jisté. Fenomenologický popis takový posun zachytí dřív než měření přesvědčení, protože registruje změnu tónu jistoty, ne změnu obsahu.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+## Odlišení
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- **Od introspekce:** introspekce hlásí obsahy („cítím smutek“); fenomenologie zkoumá struktury, v nichž se obsahy ukazují („smutek zabarvuje celý svět“).
+- **Od [hermeneutiky](@/glossary/hermeneutika.md):** hermeneutika se zabývá výkladem a porozuměním mezi subjekty; fenomenologie popisem danosti. Doplňují se.
+- **Od subjektivismu:** fenomenologie netvrdí, že je pravdivé jen to, co prožívám; tvrdí, že prožitek má strukturu, kterou lze přesně popsat.
+- **Od psychopatologické diagnostiky:** popis prožitku diagnózu nenahrazuje, ale zpřesňuje; viz [diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
+
+## Význam pro Kompendium
+
+Na platformě Prismatic, z níž kniha vzešla, je fenomenologická metoda převedena do praxe na třech místech:
+
+- [Decision Engine](@/glossary/decision-engine.md) považuje sebevýpověď subjektu za **nezávislý proud důkazů**, ne za zašuměný zástupný ukazatel objektivního měření. Výpovědi o dezorientaci, oslabené důvěře v běžné vnímání nebo všudypřítomné nejednoznačnosti se sledují i tehdy, když je žádný ukazatel z pohledu třetí osoby nepotvrzuje – jsou to fenomenologická prodromální stadia, která Kompendium mapuje.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) zavádí **strukturované záznamy pozorování z první osoby** s fenomenologickým slovníkem (danost, nápadnost, tón jistoty, časový tok), aby lidé mohli zaznamenat narušení na úrovni, na které se skutečně objevuje. Už samotný slovník je obranou – dává lidem kategorie, které by jinak neměli. Viz též [metakognice](@/glossary/metakognice.md).
+- [Blue Team](@/glossary/blue-team.md) v rámci [Color Teams](@/glossary/color-teams.md) výslovně školí operátory, aby si všímali fenomenologických signálů (pociťovaných ukazatelů emoční modulace EA-1.4.x a [EA-1.3.2 strategické reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)) dřív, než přijde strukturní potvrzení. Kompendium to dokládá jako opakovaný vzorec: lidé EA cítí dřív, než ji dokážou pojmenovat.
+
+[Epistemická alienace](@/glossary/epistemicka-alienace.md) a [epistemické trauma](@/glossary/epistemicke-trauma.md) jsou v Kompendiu popsány především fenomenologicky – jako *modi danosti* (svět se ukazuje jako neprůhledný, já jako nedůvěryhodné), ne jako popisy stavů přesvědčení.
+
+Fenomenologie metody třetí osoby doplňuje, ale nenahrazuje. Epistemická architektura platformy je **víceperspektivní**: sleduje se fenomenologická sebevýpověď, behaviorální ukazatele, analýza grafu zdrojů i kalibrační hodnocení, a rozdíl mezi nimi je sám signálem.
+
+## Obrana a zotavení
+
+Fenomenologický slovník je pro dotčené praktickým nástrojem: kdo umí popsat, *jak* se mu svět změnil, může tu změnu sdílet, porovnat a sledovat její ústup. V terapii se uplatňuje fenomenologický rozhovor ([fenomenologický rozhovor ve výzkumu](@/kompendium/research-methodology/phenomenological-interview-EA.md), [interpretativní fenomenologická analýza](@/kompendium/research-methodology/IPA-EA.md)) a cvičení popisu bez hodnocení. Pro profesionála platí: brát výpověď o změně danosti vážně i bez objektivního korelátu a zapisovat ji slovy klienta.
+
+## Literatura
+
+- Edmund Husserl: *Logische Untersuchungen* (1900–1901).
+- Edmund Husserl: *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie I* (1913).
+- Edmund Husserl: *Die Krisis der europäischen Wissenschaften und die transzendentale Phänomenologie* (1936).
+- Maurice Merleau-Ponty: *Phénoménologie de la perception* (1945).
+
+## Související
+
+**Pojmy**
+
+- [Hermeneutika](@/glossary/hermeneutika.md) – doplněk zaměřený na výklad mezi subjekty.
+- [Epoché](@/glossary/epoche.md) – základní metodický krok fenomenologie.
+- [Metakognice](@/glossary/metakognice.md) – vrstva reflexivního sebeuvědomění.
+- [Epistemické trauma](@/glossary/epistemicke-trauma.md) – fenomenologicky popsaný následek.
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) – fenomenologický koncový stav.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – nadřazený model hrozby.
+
+**Kniha**
+
+- [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md) – kapitola základních kategorií.
+- [Detekční signatury](@/kompendium/detection-signatures/_index.md) – fenomenologické signatury EA.
+- [Kompendium EA](@/glossary/kompendium-ea.md) – úplná taxonomie.

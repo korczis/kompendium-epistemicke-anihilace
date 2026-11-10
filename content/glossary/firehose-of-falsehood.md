@@ -1,68 +1,106 @@
 +++
-title = "Firehose of Falsehood"
+title = "Firehose of Falsehood (palba lží)"
 weight = 60
 
-description = "Russian propaganda technique characterized by high-volume, multi-channel, rapid, contradictory, and unconcerned-with-consistency messaging; weaponizes cognitive load against truth-seeking."
+description = "Model propagandy založený na velkém objemu, rychlosti, mnoha kanálech a lhostejnosti k pravdě i konzistenci; obrací kognitivní zátěž proti hledání pravdy."
 
 [taxonomies]
-tags = ["glossary", "security", "epistemic", "kompendium"]
+tags = ["glossary", "security", "epistemic", "kompendium", "propaganda"]
 
 [extra]
 category = "security"
 related_terms = ["info-ops", "epistemic-security", "deepfake", "gish-gallop", "epistemicka-anihilace", "deplatforming"]
 author = "Tomáš Korcak (korczis)"
-reading_time = "4 min"
-word_count = 560
+reading_time = "5 min"
+word_count = 908
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
+date_modified = "2026-11-10"
 keywords = ["firehose of falsehood", "RAND", "Russian propaganda", "disinformation", "Paul Matthews", "information warfare"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"
-image_alt = "Firehose of Falsehood - glossary"
+image_alt = "Firehose of Falsehood – glosář"
 +++
 
-## Definition
+## Definice
 
-The **Firehose of Falsehood** is a propaganda model characterized by Christopher Paul and Miriam Matthews in a 2016 RAND Corporation paper analyzing post-Crimea Russian information operations. The model identifies four distinguishing features that depart from classical propaganda doctrine:
+**Firehose of Falsehood** (doslova „hasičská hadice lží“, česky též *palba lží*) je model propagandy, který popsali Christopher Paul a Miriam Matthewsová v roce 2016 ve studii RAND Corporation o ruských informačních operacích po anexi Krymu. Model vymezuje čtyři rysy, jimiž se odchyluje od klasické doktríny [propagandy](@/glossary/propaganda.md):
 
-1. **High-volume, multichannel** — saturation across television, radio, online news, social media, troll factories, automated bots, and proxy outlets, producing a wall of content too large for any single audience member to evaluate.
-2. **Rapid, continuous, repetitive** — narratives propagate within minutes of triggering events, are repeated thousands of times within hours, and are continuously refreshed before fact-checks can land.
-3. **Lacks commitment to objective reality** — claims need not be true, internally consistent, or empirically defensible; they need only to be seeded into the discourse.
-4. **Lacks commitment to consistency** — the same source can advance mutually contradictory claims about the same event without internal embarrassment, because the goal is not persuasion-of-position but **erosion of any stable position**.
+1. **Velký objem a mnoho kanálů** – zahlcení televize, rozhlasu, zpravodajských webů, sociálních sítí, trollích farem, automatizovaných botů a zprostředkujících médií; vzniká stěna obsahu, kterou žádný jednotlivý adresát nedokáže vyhodnotit.
+2. **Rychlost, nepřetržitost, opakování** – narativy se šíří během minut po spouštěcí události, během hodin se opakují tisíckrát a obnovují se dřív, než může dopadnout ověření faktů.
+3. **Bez závazku k objektivní skutečnosti** – tvrzení nemusí být pravdivá, vnitřně soudržná ani empiricky obhajitelná; stačí, když jsou zaseta do veřejné debaty.
+4. **Bez závazku ke konzistenci** – týž zdroj může o téže události předkládat navzájem protichůdná tvrzení bez vnitřních rozpaků, protože cílem není přesvědčit o určité pozici, ale **rozložit jakoukoli stabilní pozici**.
 
-The technique exploits known cognitive biases: the **illusory truth effect** (repetition increases belief), **availability heuristic** (volume creates sense of importance), **fluency bias** (familiar claims feel true), and the **asymmetric cost of correction** (refutation requires more cognitive effort than assertion). Paul and Matthews's central diagnostic claim is that classical counter-propaganda — emphasizing source-credibility, factual accuracy, and consistent messaging — is **structurally unable to keep pace** with firehose dynamics.
+Technika využívá známá kognitivní zkreslení: **efekt iluzorní pravdy** (opakování zvyšuje víru), **heuristiku dostupnosti** (objem vytváří dojem důležitosti), **zkreslení plynulostí** (známá tvrzení působí pravdivě) a **asymetrickou cenu opravy** (vyvrácení vyžaduje víc kognitivního úsilí než tvrzení). Ústřední diagnostické tvrzení Paula a Matthewsové zní, že klasická kontrapropaganda – důraz na důvěryhodnost zdroje, faktickou přesnost a konzistentní sdělení – **strukturně nedokáže udržet krok** s dynamikou palby lží.
 
-The model has subsequently been observed beyond Russian state actors: in domestic political contexts (the 2016+ US information environment), in commercial influence operations, and in coordinated harassment campaigns. It is best understood not as a specific actor's signature but as an **affordance of contemporary information infrastructure** that any sufficiently resourced actor can exploit.
+## Původ a kontext pojmu
 
-## Context
+Termín pochází ze zmíněné studie RAND (*The Russian „Firehose of Falsehood“ Propaganda Model*, 2016). Navazuje na starší tradici studia sovětských [aktivních opatření](@/kompendium/historical-cases/21-soviet-active-measures.md) a na výzkum dezinformací (Wardle; viz [Wardle: typologie dezinformací](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)). Model byl následně pozorován i mimo ruské státní aktéry: v domácí politice (informační prostředí USA od roku 2016), v komerčních vlivových operacích a v koordinovaných kampaních obtěžování. Nejlépe se chápe ne jako podpis konkrétního aktéra, ale jako **možnost, kterou nabízí současná informační infrastruktura** a kterou může využít každý dostatečně vybavený aktér. Příbuzný případ rozebírá [Internet Research Agency](@/kompendium/historical-cases/22-russian-ira.md).
 
-Within the Prismatic Platform Kompendium, the firehose of falsehood is catalogued under **EA-1.2 (epistemic falsification)** combined with **EA-3 (collective cognitive overload)** — see [/kompendium/techniques/](@/kompendium/techniques/_index.md). It exemplifies the kompendium's **autoamplification** definitional feature: victims, overwhelmed by volume, frequently begin asserting "everything is propaganda anyway" — a position that completes the attacker's goal of disabling truth-seeking.
+## Jak se projevuje
 
-- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} implements firehose-resistance through **provenance-weighted aggregation** rather than count-based aggregation: 10,000 claims from one network of coordinated actors carry the weight of one source, not 10,000.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) source-diversity invariants explicitly prevent volume-attack: high evidence weight requires *independent* sources, not merely *many* sources.
-- [Color Teams](@/glossary/color-teams.md) Red Team scenarios include firehose simulations to test platform resilience against volume attacks.
-- The [Gish Gallop](@/glossary/gish-gallop.md) is a rhetorical relative of the firehose at the individual-debate scale; both exploit asymmetric correction costs.
-- [Info-Ops](@/glossary/info-ops.md) and [Epistemic Security](@/glossary/epistemic-security.md) provide broader framings.
-- [Deplatforming](@/glossary/deplatforming.md) is one (controversial, partial) defense against firehose-class attacks.
+Pozorovatelné znaky na úrovni prostředí:
 
-The firehose model is the canonical contemporary illustration of **why truthful response is insufficient**: the asymmetry between attack and defense favors the attacker, and architectural rather than rhetorical defenses are required.
+- po události se během minut objeví více protichůdných verzí, často ze zdrojů, které spolu zjevně souvisejí;
+- verze se střídají, aniž by kterákoli byla odvolána;
+- [koordinované chování botů](@/kompendium/detection-signatures/20-network-bot-coordination.md) a [asymetrie zesílení](@/kompendium/detection-signatures/19-network-amplification-asymmetry.md);
+- ověřování faktů přichází, ale nikoho nezajímá, protože téma už je jinde.
 
-## See Also
+Znaky na úrovni člověka:
 
-- [Info-Ops](@/glossary/info-ops.md) — Broader category
-- [Gish Gallop](@/glossary/gish-gallop.md) — Individual-scale relative
-- [Epistemic Security](@/glossary/epistemic-security.md) — Field-level framing
-- [Deepfake](@/glossary/deepfake.md) — Adjacent threat surface
-- [Deplatforming](@/glossary/deplatforming.md) — Partial defense
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Central kompendium concept
-- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
+- únava, otupělost a pocit, že „nic se nedá zjistit“;
+- věta „všechno je stejně propaganda“ jako konečný závěr;
+- ústup od zpráv úplně, nebo naopak uzavření se do jediného „důvěryhodného“ kanálu.
 
----
+## Mechanismus
 
-## Connect & Contribute
+V [Kompendiu](@/kompendium/techniques/_index.md) je palba lží zařazena jako kombinace **epistemické falzifikace EA-1.2** s **kolektivním kognitivním přetížením** (srov. [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)). Je příkladem definičního znaku **autoamplifikace**: oběti zahlcené objemem často začnou tvrdit „všechno je stejně propaganda“ – a tím samy dokončí cíl útočníka, vyřazení hledání pravdy.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+Strukturálně jde o **útok na ekonomiku pozornosti a ověřování**. Pravda je v prostředí palby lží stále dostupná, ale cena jejího nalezení převýší ochotu ji platit. Model je kanonickou současnou ilustrací toho, **proč pravdivá odpověď nestačí**: asymetrie mezi útokem a obranou zvýhodňuje útočníka a obrana musí být architektonická, ne rétorická.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+## Odlišení
+
+- **Od klasické propagandy:** ta usiluje o přesvědčení o určité pozici a dbá na konzistenci; palba lží usiluje o rozklad pozic.
+- **Od [Gish Gallop](@/glossary/gish-gallop.md):** rétorický příbuzný v měřítku jednotlivé debaty; oba využívají asymetrické ceny opravy.
+- **Od běžné informační záplavy:** množství zpráv v digitálním prostředí samo o sobě není útok; rozhodující je koordinace, lhostejnost k pravdě a rozpory bez odvolání.
+- **Od [hyperreality](@/glossary/hyperreality.md):** Baudrillardův pojem popisuje kulturní stav, v němž se ztrácí rozdíl mezi znakem a skutečností; palba lží je cílená strategie, která takový stav využívá.
+
+## Význam pro Kompendium
+
+Na platformě Prismatic, z níž kniha vzešla:
+
+- [Decision Engine](@/glossary/decision-engine.md) zavádí odolnost proti palbě lží **agregací váženou původem**, ne počtem: 10 000 tvrzení z jedné sítě koordinovaných aktérů má váhu jednoho zdroje, ne 10 000.
+- Invarianty rozmanitosti zdrojů v [NABLA Infinity](@/glossary/nabla-infinity.md) výslovně brání útoku objemem: vysoká váha důkazu vyžaduje *nezávislé* zdroje, ne pouze *mnoho* zdrojů.
+- Scénáře [Red Team](@/glossary/red-team.md) v rámci [Color Teams](@/glossary/color-teams.md) zahrnují simulace palby lží, které testují odolnost platformy vůči útokům objemem.
+- Širší rámec dávají [Info-Ops](@/glossary/info-ops.md) a [Epistemic Security](@/glossary/epistemic-security.md).
+- [Deplatforming](@/glossary/deplatforming.md) je jednou (spornou a dílčí) obranou proti útokům tohoto typu.
+
+Pro knihu je pojem mostem mezi individuální a společenskou rovinou EA: popisuje, jak se na úrovni populace vytváří stav, který u jednotlivce odpovídá [epistemické alienaci](@/glossary/epistemicka-alienace.md) – ztrátu víry, že poznání je vůbec možné. Dopady na populaci shrnuje [dopad dezinformací na populaci](@/kompendium/population-health/04-disinformation-population-impact.md).
+
+## Obrana a zotavení
+
+**Pro jednotlivce:** neposuzovat pravdivost podle četnosti; ptát se po nezávislosti zdrojů ([triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)); omezit příjem zpráv na časová okna a odložit hodnocení u čerstvých událostí ([vyhodnocení s časovým odstupem](@/kompendium/self-defense-guides/37-time-locked-evaluation.md), [informační dieta](@/kompendium/self-defense-guides/33-information-diet.md)); bránit se závěru „nic nelze vědět“ – je to výsledek, o který útok usiluje.
+
+**Pro instituce a média:** budovat důvěru předem, ne až v krizi; vysvětlovat metody ověřování, ne jen výsledky; preferovat „předběžné vyvracení“ (*prebunking*) vzorců před vyvracením jednotlivých tvrzení; viz [obrana proti dezinformacím](@/kompendium/cross-domain/19-ea-security-disinformation-defense.md) a [mediální gramotnost](@/kompendium/prevention-resilience/6-media-literacy-prevention.md).
+
+## Literatura
+
+- Christopher Paul, Miriam Matthews: *The Russian „Firehose of Falsehood“ Propaganda Model: Why It Might Work and Options to Counter It* (RAND Corporation, 2016).
+
+## Související
+
+**Pojmy**
+
+- [Info-Ops](@/glossary/info-ops.md) – širší kategorie.
+- [Gish Gallop](@/glossary/gish-gallop.md) – příbuzný jev v měřítku jednotlivce.
+- [Epistemic Security](@/glossary/epistemic-security.md) – rámec na úrovni oboru.
+- [Deepfake](@/glossary/deepfake.md) – sousední plocha hrozby.
+- [Deplatforming](@/glossary/deplatforming.md) – dílčí obrana.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – ústřední pojem Kompendia.
+
+**Kniha**
+
+- [Sovětská aktivní opatření](@/kompendium/historical-cases/21-soviet-active-measures.md) – historický předchůdce.
+- [Ruská IRA](@/kompendium/historical-cases/22-russian-ira.md) – doložený případ trollí farmy.
+- [Obrana proti dezinformacím](@/kompendium/cross-domain/19-ea-security-disinformation-defense.md) – architektonická obrana.
+- [Kompendium](@/kompendium/_index.md) – úplná taxonomie.

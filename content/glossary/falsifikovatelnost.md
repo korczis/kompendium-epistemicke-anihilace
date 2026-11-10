@@ -1,16 +1,16 @@
 +++
-title = "Falsifikovatelnost (Falsifiability)"
+title = "Falsifikovatelnost (falsifiability)"
 weight = 6
-description = "Karl Popper's demarcation criterion distinguishing scientific from non-scientific claims — a proposition is scientific only if it can in principle be refuted by empirical observation"
+description = "Popperovo kritérium demarkace: tvrzení je vědecké, jen když je lze v principu vyvrátit pozorováním. Praxe v analýze, OSINT a klinickém posuzování manipulace."
 
 [taxonomies]
-tags = ["epistemology", "philosophy", "science", "methodology"]
+tags = ["glossary", "epistemology", "philosophy", "science", "methodology"]
 
 [extra]
 category = "philosophy-of-science"
 status = "active"
 author = "Tomas Korcak (korczis)"
-reading_time = "6 min"
+reading_time = "4 min"
 difficulty = "intermediate"
 quality_score = 92
 abbreviation = "Falsif."
@@ -25,42 +25,83 @@ image = "/images/sections/glossary.png"
 image_alt = "Falsifikovatelnost - Prismatic Platform"
 +++
 
-## Definition
+## Definice
 
-Falsifikovatelnost (anglicky *falsifiability* or *refutability*) is Karl Popper's demarcation criterion: a statement, hypothesis, or theory is scientific only if it makes predictions that could in principle be contradicted by some observable state of affairs. The capacity to be falsified is a logical property of the claim itself — independent of whether anyone has actually attempted the test. Claims that exclude no possible observation (e.g., "everything happens for a reason") are unfalsifiable and therefore lie outside science.
+**Falsifikovatelnost** (anglicky *falsifiability* nebo *refutability*) je Popperovo demarkační kritérium: výrok, hypotéza nebo teorie je vědecká jen tehdy, když činí předpovědi, které by v principu mohl vyvrátit nějaký pozorovatelný stav věcí. Schopnost být vyvrácen je **logickou vlastností tvrzení samého** – nezávisí na tom, zda se někdo o test skutečně pokusil. Tvrzení, která nevylučují žádné možné pozorování (například „všechno se děje z nějakého důvodu“), jsou nefalzifikovatelná, a proto leží mimo vědu.
 
-## Manažerské shrnutí
+Falsifikovatelnost je vlastnost tvrzení; [falsifikace](@/glossary/falsifikace.md) je akt, jímž se tvrzení skutečně vyvrátí protipříkladem. Teorie může být falzifikovatelná a dosud nevyvrácená – to je normální stav dobré vědecké teorie.
 
-Falsifikovatelnost je v praxi platformy Prismatic operativní kritérium pro rozlišení **vědecky obhajitelného tvrzení** od **interpretačního narativu**. Při due-diligence analýze, OSINT vyšetřování i klinickém posouzení manipulativních vzorců je první otázka vždy stejná: *jaký důkaz by toto tvrzení vyvrátil?* Pokud na ni nelze odpovědět, jde o víru, nikoli o zjištění. Tento princip stojí v jádru pilíře NCLB (No Claim Left Behind) — žádné tvrzení v reportu nesmí být formulováno tak, aby bylo imunní vůči refutaci. Manažerské použití: vyžadovat od analytiků explicitní *falsification conditions* u každého závěru.
+## Původ a kontext pojmu
 
-## Domain Context
+Popper formuloval kritérium v *Logik der Forschung* (1934) jako odpověď logickým pozitivistům Vídeňského kroužku, kteří hledali kritérium *verifikace*. Popper ukázal, že verifikace je u univerzálních zákonů logicky nemožná (žádný konečný počet pozorování nedokazuje, že „všechny labutě jsou bílé“), zatímco jediné odporující pozorování (jedna černá labuť) hypotézu vyvrací. Vědecký pokrok se tím stává řadou *domněnek a vyvrácení* (*conjectures and refutations*).
 
-Popper formuloval kritérium v *Logik der Forschung* (1934) jako odpověď na logické pozitivisty Vienna Circle, kteří hledali kritérium *verifikace*. Popper ukázal, že verifikace je logicky nemožná u univerzálních zákonů (žádný konečný počet pozorování nedokazuje "všechny labutě jsou bílé"), zatímco jediné kontradiktorické pozorování (jedna černá labuť) hypotézu vyvrací. Tím se vědecký pokrok stává sérií *předpokladů a vyvrácení* (conjectures and refutations). Imre Lakatos později kritérium zjemnil: izolovanou hypotézu lze vždy zachránit *ad hoc* dodatkem, takže falsifikovatelnost se aplikuje na celé výzkumné programy, ne na jednotlivé výroky.
+Imre Lakatos kritérium později zjemnil: izolovanou hypotézu lze vždy zachránit dodatkem *ad hoc*, takže falsifikovatelnost se uplatňuje na celé výzkumné programy, ne na jednotlivé výroky; viz [Lakatos](@/glossary/lakatos.md) a [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md). Širší filozofický kontext podává [popperianismus](@/glossary/popperianismus.md), v knize kapitola [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md).
 
-## Practical Application
+## Jak se projevuje
 
-V investigativní praxi Prismatic Platform se kritérium uplatňuje třemi způsoby:
+Falsifikovatelné a nefalzifikovatelné tvrzení lze v praxi rozeznat podle jednoduchého testu: **jaký důkaz by toto tvrzení vyvrátil?**
 
-1. **Hypotézy v DD case** (např. "subjekt X je beneficiárním vlastníkem entity Y") musí být formulovány s explicitní podmínkou vyvrácení — *jaký dokument, registr, nebo svědectví by hypotézu odmítlo?*
-2. **OSINT zjištění** podléhají *red-team challenge* — analytik z opozičního týmu musí najít alternativní vysvětlení nálezu; pokud žádné neexistuje a původní hypotéza zakazuje konkrétní pozorování, nález je robustní.
-3. **Klinické vzorce manipulace** (gaslighting, double-bind) se diagnostikují na základě behaviorálních prediktorů, které musí být v zásadě měřitelné — bez tohoto kritéria se diagnóza stává neodvolatelnou nálepkou.
+| tvrzení | falzifikovatelné? | proč |
+|---|---|---|
+| „Subjekt X je skutečným majitelem společnosti Y.“ | ano | vyvrátí je registr, smlouva nebo doložený jiný majitel |
+| „Partner mě v úterý zamkl v bytě.“ | ano | vyvrátí je doložená nepřítomnost obou osob |
+| „Vůdce vidí, co my nevidíme.“ | ne | žádné pozorování není s tvrzením v rozporu |
+| „Kdo odchází, nebyl připraven.“ | ne | odchod je vždy vyložen jako důkaz nepřipravenosti |
 
-## Related Concepts
+V manipulativních systémech se nefalzifikovatelná tvrzení hromadí v jádru doktríny; viz signaturu [nevyvratitelných tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md) a techniku [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md).
 
-- [Falsifikace](@/glossary/falsifikace.md) - The act of refuting a theory by counterexample
-- [Lakatos](@/glossary/lakatos.md) - Methodology of scientific research programmes refining Popper
-- [Hypothesis Generation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/hypothesis-generation/) - Producing testable claims for evaluation
-- [Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence/) - The observational currency of falsification
-- [Bayesian Reasoning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/bayesian-reasoning/) - Complementary probabilistic update framework
-- [Epistemic Trauma](@/glossary/epistemicke-trauma.md) - Pathology arising when falsification is socially blocked
+## Mechanismus
 
-## References
+Falsifikovatelnost chrání poznání tím, že **zavazuje tvrzení vůči světu**. Tvrzení, které by mohlo selhat, nese informaci: vylučuje některé stavy věcí. Tvrzení, které selhat nemůže, nevylučuje nic, a proto nic neříká. Manipulace využívá toho, že nefalzifikovatelná tvrzení působí silně – nikdy nejsou „přistižena“ při omylu. Strukturálně tím přesouvají autoritu z pozorování na mluvčího.
 
-- Popper, K. R. *Logik der Forschung* (1934) / *The Logic of Scientific Discovery* (Hutchinson, 1959)
-- Popper, K. R. *Conjectures and Refutations: The Growth of Scientific Knowledge* (Routledge, 1963)
-- Lakatos, I. *Falsification and the Methodology of Scientific Research Programmes* in Lakatos & Musgrave eds. *Criticism and the Growth of Knowledge* (Cambridge UP, 1970)
-- Chalmers, A. F. *What Is This Thing Called Science?* (4th ed., Hackett, 2013)
+## Odlišení
 
----
+- **Od pravdivosti:** nefalzifikovatelné tvrzení může být pravdivé (metafyzika, víra); jen nepatří do vědy a nemůže sloužit jako zjištění v analýze.
+- **Od verifikovatelnosti:** verifikace hledá potvrzení, falsifikovatelnost hledá možné vyvrácení.
+- **Od [falsifikabilita](@/glossary/falsifikabilita.md):** synonymum užívané v jiném hesle glosáře.
+- **Od hodnotových soudů:** „násilí je špatné“ není empirická hypotéza; falzifikační kritérium se na něj nevztahuje a neoslabuje jej.
 
-*Built with precision. Optimized for AI consumption.*
+## Význam pro Kompendium
+
+V praxi platformy Prismatic, z níž kniha vzešla, je falsifikovatelnost operativním kritériem pro rozlišení **vědecky obhajitelného tvrzení** od **interpretačního narativu**. Při analýze due diligence, při vyšetřování [OSINT](@/glossary/osint.md) i při klinickém posouzení manipulativních vzorců je první otázka vždy stejná: *jaký důkaz by toto tvrzení vyvrátil?* Pokud na ni nelze odpovědět, jde o víru, nikoli o zjištění. Princip stojí v jádru pilíře NCLB (*No Claim Left Behind*) – žádné tvrzení ve zprávě nesmí být formulováno tak, aby bylo imunní vůči vyvrácení. Manažerské použití: vyžadovat od analytiků u každého závěru výslovné *podmínky falzifikace*.
+
+V investigativní praxi platformy se kritérium uplatňuje třemi způsoby:
+
+1. **Hypotézy v případu due diligence** (např. „subjekt X je skutečným majitelem entity Y“) musí být formulovány s výslovnou podmínkou vyvrácení – *jaký dokument, registr nebo svědectví by hypotézu vyvrátilo?*
+2. **Zjištění OSINT** podléhají *výzvě red teamu* – analytik z opozičního týmu musí najít alternativní vysvětlení nálezu; pokud žádné neexistuje a původní hypotéza zakazuje konkrétní pozorování, je nález robustní. Viz [Red Team](@/glossary/red-team.md).
+3. **Klinické vzorce manipulace** ([gaslighting](@/glossary/gaslighting.md), [double bind](@/glossary/double-bind.md)) se diagnostikují na základě behaviorálních prediktorů, které musí být v zásadě měřitelné – bez tohoto kritéria se diagnóza stává neodvolatelnou nálepkou.
+
+Třetí bod je pro knihu zásadní: Kompendium samo musí být falzifikovatelné. Kdyby se „EA“ dalo najít v jakémkoli vztahu, rámec by se stal stejným nástrojem moci, proti kterému varuje; viz [riziko kruhového uvažování](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md).
+
+## Obrana a zotavení
+
+- U vlastních přesvědčení si zapisovat podmínky, za kterých by neplatila ([falzifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md)).
+- U cizích tvrzení se ptát, co by je vyvrátilo, a všímat si, zda otázka vyvolá vysvětlení, nebo útok.
+- V terapii a výuce cvičit formulaci falzifikovatelných hypotéz o vlastní situaci ([návrh falzifikace](@/kompendium/educational-scenarios/6-falsification-design.md)).
+
+## Literatura
+
+- Karl R. Popper: *Logik der Forschung* (1934); *The Logic of Scientific Discovery* (Hutchinson, 1959).
+- Karl R. Popper: *Conjectures and Refutations: The Growth of Scientific Knowledge* (Routledge, 1963).
+- Imre Lakatos: „Falsification and the Methodology of Scientific Research Programmes“, in: I. Lakatos, A. Musgrave (eds.): *Criticism and the Growth of Knowledge* (Cambridge UP, 1970).
+- A. F. Chalmers: *What Is This Thing Called Science?* (4. vyd., Hackett, 2013).
+
+## Související
+
+**Pojmy**
+
+- [Falsifikace](@/glossary/falsifikace.md) – akt vyvrácení teorie protipříkladem.
+- [Lakatos](@/glossary/lakatos.md) – metodologie výzkumných programů, která Poppera zjemňuje.
+- [Epistemické trauma](@/glossary/epistemicke-trauma.md) – patologie, která vzniká, když je falsifikace sociálně zablokována.
+- [Popperianismus](@/glossary/popperianismus.md) – širší filozofická pozice.
+
+**Kniha**
+
+- [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) – kapitola základních kategorií.
+- [EA-7.2.3 Popper: falzifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md) – teoretická reflexe.
+
+**Mimo knihu**
+
+- [Hypothesis Generation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/hypothesis-generation/) – tvorba testovatelných tvrzení.
+- [Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence/) – pozorovací „měna“ falsifikace.
+- [Bayesian Reasoning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/bayesian-reasoning/) – doplňkový pravděpodobnostní rámec aktualizace.

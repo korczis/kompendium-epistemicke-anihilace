@@ -1,16 +1,16 @@
 +++
-title = "Graph Theory"
+title = "Teorie grafů (graph theory)"
 weight = 50
-description = "Graph theory is the branch of mathematics studying structures formed by vertices and edges, providing the formal foundation for the Prismatic Platform's dependency resolution, belief graph verification, agent orchestration, knowledge graphs, and Trinity Gate structural consistency checks."
+description = "Matematika vrcholů a hran: formální základ řešení závislostí, ověřování grafu přesvědčení a kontrol Trinity Gate na platformě Prismatic; v knize nástroj analýzy sítí."
 
 [taxonomies]
-tags = ["glossary", "mathematics", "graph", "algorithms", "data-structures", "formal-methods", "trinity-gate", "verification"]
+tags = ["glossary", "mathematics", "graph", "algorithms", "formal-methods", "verification"]
 
 [extra]
 category = "mathematics"
 status = "active"
 author = "Tomas Korcak (korczis)"
-reading_time = "22 min"
+reading_time = "10 min"
 difficulty = "advanced"
 quality_score = 95
 date_created = "2026-02-22"
@@ -20,57 +20,59 @@ related_terms = ["graph-database", "knowledge-graph", "trinity-gate", "structura
 platforms = ["prismatic-platform"]
 audience = ["engineers", "architects", "mathematicians", "formal-methods-practitioners"]
 prerequisite_knowledge = ["mathematics", "data-structures", "algorithms"]
-word_count = 1758
-date_modified = "2026-02-23"
+word_count = 1952
+date_modified = "2026-11-10"
 keywords = ["Graph", "Theory", "Prismatic", "Platforms", "Trinity", "Gate", "glossary", "mathematics", "Prismatic Platform", "Trinity Gate"]
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "Graph Theory - Prismatic Platform"
+image_alt = "Teorie grafů – platforma Prismatic"
 +++
 
-## Definition
+## Definice
 
-Graph theory is the branch of discrete mathematics that studies graphs -- mathematical structures consisting of vertices (nodes) connected by edges (links) -- and the properties, algorithms, and theorems that govern them. A graph `G = (V, E)` is defined by a set of vertices `V` and a set of edges `E`, where each edge connects two vertices. Graph theory provides the formal foundation for problems involving connectivity, paths, cycles, flows, coloring, matching, and planarity. In the Prismatic Platform, graph theory is not an academic abstraction but a practical tool applied daily: supervision trees are graphs, agent dependency chains are directed acyclic graphs (DAGs), the NABLA belief network must form a valid DAG for Trinity Gate passage, entity resolution operates on property graphs, and the platform's attack surface maps are traversable graph structures.
+**Teorie grafů** (*graph theory*) je odvětví diskrétní matematiky, které studuje grafy – matematické struktury tvořené vrcholy (uzly) spojenými hranami (vazbami) – a vlastnosti, algoritmy a věty, jimiž se řídí. Graf `G = (V, E)` je určen množinou vrcholů `V` a množinou hran `E`, kde každá hrana spojuje dva vrcholy. Teorie grafů dává formální základ úlohám o souvislosti, cestách, cyklech, tocích, barvení, párování a rovinnosti.
 
-## Overview
+Na platformě Prismatic, z níž kniha vzešla, není teorie grafů akademickou abstrakcí, ale praktickým nástrojem používaným denně: stromy supervize jsou grafy, řetězce závislostí agentů jsou orientované acyklické grafy (DAG), síť přesvědčení NABLA musí tvořit platný DAG, aby prošla [Trinity Gate](@/glossary/trinity-gate.md), [entity resolution](@/glossary/entity-resolution.md) pracuje nad grafy s vlastnostmi a mapy útočné plochy platformy jsou procházitelné grafové struktury. Heslo patří do technického kontextu platformy; s knihou jej spojuje to, že **kruhové zdůvodnění je v řeči grafů cyklus** a že síťová analýza zdrojů je jedním z nástrojů detekce EA.
 
-Graph theory was born in 1736 when Leonhard Euler solved the Seven Bridges of Konigsberg problem by proving that no walk through the city could cross each of its seven bridges exactly once. Euler's key insight was to abstract the problem from its physical geography into a mathematical structure: landmasses became vertices, bridges became edges, and the question became one about the existence of an Eulerian path in the resulting graph. This act of abstraction -- reducing a real-world problem to its graph-theoretic essence -- remains the central methodology of graph theory nearly three centuries later.
+## Původ a kontext pojmu
 
-The field has grown enormously since Euler's time. Key milestones include:
+Teorie grafů vznikla v roce 1736, kdy Leonhard Euler vyřešil úlohu sedmi mostů města Královce (Königsberg): dokázal, že žádná procházka městem nemůže přejít každý ze sedmi mostů právě jednou. Eulerův klíčový vhled spočíval v abstrakci úlohy od fyzické geografie k matematické struktuře – pevnina se stala vrcholy, mosty hranami a otázka se proměnila v otázku existence eulerovského tahu ve výsledném grafu. Tento akt abstrakce – převedení skutečné úlohy na její grafovou podstatu – zůstává ústřední metodou teorie grafů i po téměř třech stoletích.
 
-- **1847**: Kirchhoff's tree theorem for electrical circuits
-- **1852**: The Four Color Problem (proven by computer in 1976)
-- **1936**: Konig's publication of the first graph theory textbook
-- **1956**: Dijkstra's shortest-path algorithm
-- **1962**: Edmonds' maximum matching algorithm
-- **1970s**: NP-completeness of many graph problems (Hamilton cycle, graph coloring, etc.)
-- **2000s**: PageRank (Google) as a graph-theoretic algorithm on the web graph
-- **2010s**: Graph neural networks bridging graph theory and machine learning
-- **2020s**: Property graph databases bringing graph theory to practical data management
+Obor od Eulerovy doby nesmírně vyrostl. Mezi milníky patří:
 
-In software engineering, graph theory surfaces everywhere: dependency resolution, build systems, network routing, state machines, workflow engines, compiler optimization (control flow graphs), garbage collection (reachability graphs), and version control (commit DAGs). The Prismatic Platform leverages graph theory across nearly every subsystem.
+- **1847:** Kirchhoffova věta o kostrách pro elektrické obvody;
+- **1852:** problém čtyř barev (dokázán s pomocí počítače v roce 1976);
+- **1936:** Kőnigova první učebnice teorie grafů;
+- **1956:** Dijkstrův algoritmus nejkratší cesty;
+- **1962:** Edmondsův algoritmus maximálního párování;
+- **70. léta:** NP-úplnost mnoha grafových úloh (hamiltonovská kružnice, barvení grafu aj.);
+- **2000. léta:** PageRank (Google) jako grafový algoritmus nad grafem webu;
+- **2010. léta:** grafové neuronové sítě propojující teorii grafů a strojové učení;
+- **2020. léta:** grafové databáze s vlastnostmi, které přinášejí teorii grafů do praktické správy dat.
 
-## Technical Details
+V softwarovém inženýrství se teorie grafů objevuje všude: řešení závislostí, sestavovací systémy, směrování v sítích, stavové automaty, workflow, optimalizace překladačů (grafy toku řízení), správa paměti (grafy dosažitelnosti) a správa verzí (DAG commitů). Platforma Prismatic ji využívá téměř ve všech subsystémech.
 
-### Fundamental Graph Types
+## Technické podrobnosti
 
-Understanding the Prismatic Platform's graph usage requires familiarity with several graph types:
+### Základní typy grafů
 
-**Undirected Graph**: Edges have no direction. If `(u, v)` is an edge, you can traverse from `u` to `v` and from `v` to `u`. Used for modeling symmetric relationships like "knows" or "similar to."
+Porozumění tomu, jak platforma Prismatic grafy používá, vyžaduje znalost několika typů grafů:
 
-**Directed Graph (Digraph)**: Each edge has a direction, denoted `(u, v)` meaning from `u` to `v`. Used for modeling asymmetric relationships like "depends on," "supervises," or "implies."
+**Neorientovaný graf:** hrany nemají směr. Je-li `(u, v)` hrana, lze přejít z `u` do `v` i z `v` do `u`. Slouží k modelování symetrických vztahů jako „zná“ nebo „je podobný“.
 
-**Directed Acyclic Graph (DAG)**: A directed graph with no cycles. Critical for dependency resolution, build ordering, and the Prismatic Platform's belief graph (a cycle in a belief graph would mean a belief supports itself, which is epistemically invalid).
+**Orientovaný graf (digraf):** každá hrana má směr; `(u, v)` znamená z `u` do `v`. Slouží k modelování asymetrických vztahů jako „závisí na“, „dohlíží na“ nebo „implikuje“.
 
-**Weighted Graph**: Edges carry numeric weights representing cost, distance, capacity, or confidence. Used for shortest-path algorithms, flow optimization, and confidence-weighted entity resolution.
+**Orientovaný acyklický graf (DAG):** orientovaný graf bez cyklů. Je klíčový pro řešení závislostí, pořadí sestavení a pro graf přesvědčení platformy – cyklus v grafu přesvědčení by znamenal, že přesvědčení podporuje samo sebe, což je epistemicky neplatné.
 
-**Property Graph**: Nodes and edges carry key-value properties. The data model used by KuzuDB and most modern graph databases. The Prismatic Platform's entity graphs are property graphs.
+**Ohodnocený graf:** hrany nesou číselné váhy představující cenu, vzdálenost, kapacitu nebo jistotu. Používá se v algoritmech nejkratší cesty, při optimalizaci toků a v entity resolution vážené jistotou.
 
-**Tree**: A connected acyclic undirected graph. Equivalently, a connected graph with `n-1` edges for `n` vertices. Supervision trees in OTP are tree-structured (rooted trees where the root is the top-level supervisor).
+**Graf s vlastnostmi (*property graph*):** uzly a hrany nesou vlastnosti typu klíč–hodnota. Je to datový model KuzuDB a většiny moderních grafových databází; grafy entit na platformě jsou grafy s vlastnostmi.
 
-### Core Algorithms in the Platform
+**Strom:** souvislý acyklický neorientovaný graf; ekvivalentně souvislý graf s `n-1` hranami pro `n` vrcholů. Stromy supervize v OTP mají stromovou strukturu (kořenové stromy, jejichž kořenem je nejvyšší supervizor).
 
-The following graph algorithms are directly used in the Prismatic Platform:
+### Klíčové algoritmy na platformě
+
+Na platformě Prismatic se přímo používají tyto grafové algoritmy (topologické řazení, detekce cyklů, nejkratší cesta podle Dijkstry a silně souvislé komponenty podle Tarjana):
 
 ```elixir
 defmodule Prismatic.Graph.Algorithms do
@@ -298,9 +300,9 @@ defmodule Prismatic.Graph.Algorithms do
 end
 ```
 
-### Graph Theory in the Trinity Gate
+### Teorie grafů v Trinity Gate
 
-The Trinity Gate's first verification channel -- Structural Consistency -- is a pure graph-theory check. It verifies that the platform's belief network forms a valid DAG:
+První ověřovací kanál Trinity Gate – strukturní konzistence – je čistě grafovou kontrolou. Ověřuje, že síť přesvědčení platformy tvoří platný DAG:
 
 ```elixir
 defmodule Prismatic.Trinity.StructuralConsistency do
@@ -436,9 +438,9 @@ defmodule Prismatic.Trinity.StructuralConsistency do
 end
 ```
 
-### Supervision Trees as Graph Structures
+### Stromy supervize jako grafové struktury
 
-OTP supervision trees are rooted trees (a special case of DAGs) where supervisors are internal nodes and workers are leaf nodes:
+Stromy supervize v OTP jsou kořenové stromy (zvláštní případ DAG), v nichž jsou supervizoři vnitřními uzly a pracovní procesy listy:
 
 ```
                     Application
@@ -450,18 +452,18 @@ OTP supervision trees are rooted trees (a special case of DAGs) where supervisor
       WorkerA  WorkerB  WorkerC  WorkerD
 ```
 
-The PrismaticSupervisor module uses graph theory for dependency-aware startup ordering:
+Modul PrismaticSupervisor používá teorii grafů pro spouštění v pořadí podle závislostí:
 
-1. Build a dependency graph from application specifications
-2. Perform topological sort to determine startup order
-3. Detect cycles (circular dependencies) and report them as errors
-4. Group independent applications for parallel startup
+1. sestaví graf závislostí ze specifikací aplikací;
+2. topologickým řazením určí pořadí spuštění;
+3. odhalí cykly (kruhové závislosti) a ohlásí je jako chyby;
+4. seskupí nezávislé aplikace pro paralelní spuštění.
 
-## Implementation
+## Implementace
 
-### Dependency Resolution
+### Řešení závislostí
 
-The platform's dependency resolver uses topological sort to determine the correct startup order for 115 umbrella applications:
+Resolver závislostí platformy určuje topologickým řazením správné pořadí spuštění aplikací umbrella projektu (v době zápisu jich bylo 115):
 
 ```bash
 # Show dependency graph and detect cycles
@@ -471,138 +473,148 @@ mix supervisor deps --cycles
 mix supervisor discover
 ```
 
-### Graph-Based Agent Orchestration
+### Orchestrace agentů pomocí grafů
 
-The 530+ AIAD agents have task dependencies that form a DAG. When orchestrating a complex operation (like `/orchestrate`), the system:
+Agenti [AIAD](@/glossary/aiad.md) (v době zápisu přes 530) mají závislosti úloh, které tvoří DAG. Při orchestraci složité operace (např. `/orchestrate`) systém:
 
-1. Builds a task dependency graph
-2. Topologically sorts to find execution order
-3. Identifies independent tasks that can run in parallel
-4. Executes tasks in waves, where each wave contains independent tasks
+1. sestaví graf závislostí úloh;
+2. topologickým řazením najde pořadí provedení;
+3. určí nezávislé úlohy, které mohou běžet paralelně;
+4. provádí úlohy ve vlnách, kde každá vlna obsahuje navzájem nezávislé úlohy.
 
-### Belief Network Validation
+### Ověřování sítě přesvědčení
 
-Every claim processed by the NABLA framework is added to a belief graph. Before any claim is accepted (Trinity Gate passage), the graph is checked for:
+Každé tvrzení zpracované rámcem NABLA se přidá do grafu přesvědčení. Než je jakékoli tvrzení přijato (průchod Trinity Gate), graf se zkontroluje na:
 
-- Acyclicity (no circular reasoning)
-- Weak connectivity (no orphaned beliefs)
-- Root existence (axioms as foundation)
-- Provenance chains (every belief traceable to evidence)
+- acykličnost (žádné kruhové zdůvodnění);
+- slabou souvislost (žádná osiřelá přesvědčení);
+- existenci kořene (axiomy jako základ);
+- řetězce původu (každé přesvědčení lze dohledat k důkazu).
 
-## Comparison
+## Srovnání
 
-### Graph Theory vs. Set Theory
+### Teorie grafů a teorie množin
 
-Set theory deals with collections of elements without inherent structure. Graph theory adds pairwise relationships between elements. While you can represent a graph as a set of ordered pairs, graph-specific algorithms (shortest path, cycle detection, flow) have no natural set-theoretic equivalents.
+Teorie množin se zabývá souhrny prvků bez vnitřní struktury. Teorie grafů přidává párové vztahy mezi prvky. Graf lze sice reprezentovat jako množinu uspořádaných dvojic, ale grafově specifické algoritmy (nejkratší cesta, detekce cyklů, toky) nemají přirozené množinové ekvivalenty.
 
-### Graph Theory vs. Category Theory
+### Teorie grafů a teorie kategorií
 
-Category theory generalizes graph theory by adding composition of arrows (morphisms). Every graph can be viewed as a free category, but categories have additional structure (identity morphisms, associative composition) that graphs lack. The Prismatic Platform uses category-theoretic concepts in its adapter pattern (functors between storage categories).
+Teorie kategorií teorii grafů zobecňuje tím, že přidává skládání šipek (morfismů). Každý graf lze chápat jako volnou kategorii, ale kategorie mají další strukturu (identické morfismy, asociativní skládání), kterou grafy nemají. Platforma používá pojmy teorie kategorií ve svém [vzoru adaptéru](@/glossary/adapter-pattern.md) (funktory mezi kategoriemi úložišť).
 
-### Directed vs. Undirected Applications
+### Orientované a neorientované použití
 
-| Use Case | Graph Type | Reason |
-|----------|-----------|--------|
-| Dependency resolution | Directed (DAG) | Dependencies are asymmetric |
-| Social network analysis | Undirected | "Knows" is symmetric |
-| Attack surface mapping | Directed | "Resolves to" has direction |
-| Similarity clustering | Undirected weighted | Similarity is symmetric |
-| Belief networks | Directed (DAG) | "Supports" is directional, acyclic |
-| Supervision trees | Directed (tree) | "Supervises" is hierarchical |
+| použití | typ grafu | důvod |
+|---|---|---|
+| řešení závislostí | orientovaný (DAG) | závislosti jsou asymetrické |
+| analýza sociálních sítí | neorientovaný | „zná“ je symetrické |
+| mapování útočné plochy | orientovaný | „překládá se na“ má směr |
+| shlukování podle podobnosti | neorientovaný ohodnocený | podobnost je symetrická |
+| sítě přesvědčení | orientovaný (DAG) | „podporuje“ má směr a je acyklické |
+| stromy supervize | orientovaný (strom) | „dohlíží na“ je hierarchické |
 
-## Best Practices
+## Osvědčené postupy
 
-### 1. Choose the Right Graph Representation
+### 1. Zvolit správnou reprezentaci grafu
 
-Adjacency lists are efficient for sparse graphs (most real-world graphs). Adjacency matrices are efficient for dense graphs and operations like matrix multiplication. The platform uses adjacency list representation (edge lists) for most graph operations.
+Seznamy sousedů jsou efektivní pro řídké grafy (většinu grafů ze skutečného světa). Matice sousednosti jsou efektivní pro husté grafy a pro operace jako násobení matic. Platforma pro většinu grafových operací používá reprezentaci seznamem hran.
 
-### 2. Validate Graph Properties Early
+### 2. Ověřit vlastnosti grafu včas
 
-Before running algorithms on a graph, validate that it has the expected properties (acyclicity for DAGs, connectivity for paths, non-negativity for Dijkstra). The cost of validation is negligible compared to debugging incorrect algorithm results on malformed graphs.
+Před spuštěním algoritmu ověřte, že graf má očekávané vlastnosti (acykličnost u DAG, souvislost u cest, nezáporné váhy u Dijkstry). Cena ověření je zanedbatelná ve srovnání s laděním chybných výsledků algoritmu na poškozeném grafu.
 
-### 3. Use Topological Sort for Dependency Resolution
+### 3. Řešit závislosti topologickým řazením
 
-Any time you have a "must happen before" relationship, model it as a DAG and topologically sort. This applies to build systems, migration ordering, agent orchestration, and supervisor startup sequences.
+Kdykoli existuje vztah „musí proběhnout před“, modelujte jej jako DAG a seřaďte topologicky. Platí to pro sestavovací systémy, pořadí migrací, orchestraci agentů i pořadí spouštění supervizorů.
 
-### 4. Detect and Report Cycles
+### 4. Odhalovat a hlásit cykly
 
-Cycles in dependency graphs are always bugs. Detect them proactively (Tarjan's algorithm for strongly connected components) and report them with the full cycle path so developers can fix the root cause.
+Cykly v grafech závislostí jsou vždy chybou. Odhalujte je proaktivně (Tarjanův algoritmus silně souvislých komponent) a hlaste je s úplnou cestou cyklu, aby vývojáři mohli opravit skutečnou příčinu.
 
-### 5. Bound Traversal Depth
+### 5. Omezit hloubku průchodu
 
-In production graph operations, always bound the maximum depth. Unbounded BFS/DFS on large graphs can consume excessive memory and time. Most practical queries need at most 3-5 hops of traversal.
+V provozních grafových operacích vždy omezte maximální hloubku. Neomezené BFS/DFS na velkých grafech může spotřebovat nadměrnou paměť a čas. Většina praktických dotazů potřebuje nejvýše 3–5 kroků průchodu.
 
-### 6. Consider Graph Algorithms' Complexity
+### 6. Znát složitost algoritmů
 
-Know the time complexity of the algorithms you use: BFS/DFS is O(V+E), Dijkstra is O((V+E) log V) with a heap, topological sort is O(V+E), and SCC is O(V+E). For large graphs, constant factors matter.
+Znejte časovou složitost používaných algoritmů: BFS/DFS je O(V+E), Dijkstra s haldou O((V+E) log V), topologické řazení O(V+E) a SCC O(V+E). U velkých grafů záleží i na konstantách.
 
-## Common Pitfalls
+## Časté chyby
 
-### Confusing Directed and Undirected Operations
+### Záměna orientovaných a neorientovaných operací
 
-Running an undirected connectivity check on a directed graph can give misleading results. A directed graph may be weakly connected (connected when ignoring edge direction) but not strongly connected. Use the appropriate algorithm for the graph type.
+Kontrola souvislosti pro neorientovaný graf spuštěná na orientovaném grafu může dát zavádějící výsledky. Orientovaný graf může být slabě souvislý (souvislý při ignorování směru hran), ale ne silně souvislý. Používejte algoritmus odpovídající typu grafu.
 
-### Ignoring Graph Mutations
+### Přehlížení změn grafu
 
-Many graph algorithms assume the graph is static during execution. Modifying the graph (adding/removing vertices or edges) during traversal can cause subtle bugs: missed vertices, infinite loops, or incorrect results. Snapshot the graph before algorithmic operations.
+Mnoho grafových algoritmů předpokládá, že se graf během výpočtu nemění. Úprava grafu (přidání či odebrání vrcholů nebo hran) během průchodu může způsobit nenápadné chyby: vynechané vrcholy, nekonečné smyčky nebo nesprávné výsledky. Před algoritmickou operací pořiďte snímek grafu.
 
-### Exponential Path Enumeration
+### Exponenciální výčet cest
 
-Counting or enumerating all paths between two vertices in a general graph can be exponential. If you need to find all paths, add constraints (maximum length, excluded vertices) to keep the computation tractable.
+Počítání nebo výčet všech cest mezi dvěma vrcholy v obecném grafu může mít exponenciální složitost. Potřebujete-li najít všechny cesty, přidejte omezení (maximální délka, vyloučené vrcholy), aby výpočet zůstal zvládnutelný.
 
-### Memory Overhead for Large Graphs
+### Paměťová náročnost velkých grafů
 
-Storing explicit edge objects with properties can consume significant memory for large graphs. Consider compressed representations (CSR/CSC format) for read-heavy workloads, and streaming approaches for graphs that do not fit in memory.
+Ukládání explicitních objektů hran s vlastnostmi může u velkých grafů spotřebovat značnou paměť. Pro úlohy s převahou čtení zvažte komprimované reprezentace (formát CSR/CSC), pro grafy, které se nevejdou do paměti, proudové zpracování.
 
-### Neglecting Graph Theory for "Simple" Problems
+### Opomíjení teorie grafů u „jednoduchých“ úloh
 
-Many problems that seem non-graph-related are actually graph problems in disguise. State machines are graphs, type hierarchies are trees, network routing is shortest-path, and scheduling is graph coloring. Recognizing the graph structure enables use of well-studied algorithms.
+Mnoho úloh, které zdánlivě s grafy nesouvisejí, jsou ve skutečnosti grafové úlohy v přestrojení. Stavové automaty jsou grafy, hierarchie typů jsou stromy, směrování v síti je úloha nejkratší cesty a rozvrhování je barvení grafu. Rozpoznání grafové struktury umožní použít dobře prozkoumané algoritmy.
 
-## Use Cases
+## Případy užití
 
-### OTP Supervision Tree Design
+### Návrh stromů supervize v OTP
 
-Every OTP application is a tree of supervisors and workers. Graph theory formalizes questions about this tree: "What happens if this node fails?" (subtree analysis), "What is the restart strategy?" (tree traversal), "Are there single points of failure?" (cut vertex detection).
+Každá aplikace OTP je stromem supervizorů a pracovních procesů. Teorie grafů formalizuje otázky o tomto stromu: „Co se stane, když tento uzel selže?“ (analýza podstromu), „Jaká je strategie restartu?“ (průchod stromem), „Existují jediné body selhání?“ (hledání artikulací).
 
-### Prismatic Perimeter Blast Radius Analysis
+### Analýza dosahu v modulu Perimeter
 
-When a vulnerability is discovered in an asset, the EASM module calculates its "blast radius" by traversing the asset graph from the vulnerable node. All reachable nodes within a configurable depth represent potentially affected assets.
+Když je v aktivu objevena zranitelnost, modul [EASM](@/glossary/easm.md) vypočítá její „dosah“ (*blast radius*) průchodem grafu aktiv od zranitelného uzlu. Všechny uzly dosažitelné v nastavitelné hloubce představují potenciálně zasažená aktiva.
 
-### NABLA Belief Network Verification
+### Ověřování sítě přesvědčení NABLA
 
-The Trinity Gate's structural consistency check uses cycle detection to prevent circular reasoning, connectivity analysis to ensure no orphaned beliefs, and topological sort to verify that every belief has a valid provenance chain back to axioms or evidence.
+Kontrola strukturní konzistence v Trinity Gate používá detekci cyklů k zabránění kruhovému zdůvodnění, analýzu souvislosti k vyloučení osiřelých přesvědčení a topologické řazení k ověření, že každé přesvědčení má platný řetězec původu zpět k axiomům nebo důkazům. Viz [NABLA Infinity](@/glossary/nabla-infinity.md).
 
-### Agent Task Scheduling
+### Rozvrhování úloh agentů
 
-The AIAD orchestrator builds a task dependency graph, identifies independent tasks (vertices with no unresolved dependencies), and schedules them for parallel execution. As tasks complete, their dependent tasks become eligible for execution -- a classic topological-sort-driven scheduling pattern.
+Orchestrátor AIAD sestaví graf závislostí úloh, určí nezávislé úlohy (vrcholy bez nevyřešených závislostí) a naplánuje je k paralelnímu provedení. Jak se úlohy dokončují, stávají se způsobilými úlohy na nich závislé – klasický vzor rozvrhování řízeného topologickým řazením.
 
-### Quality Gate Dependency Resolution
+### Řešení závislostí brán kvality
 
-Quality gates have dependencies: Dialyzer depends on compilation, tests depend on compilation, Credo depends on source files. The quality pipeline resolves these dependencies via topological sort to determine the correct execution order and maximize parallelism.
+Brány kvality mají závislosti: Dialyzer závisí na překladu, testy závisí na překladu, Credo závisí na zdrojových souborech. Pipeline kvality tyto závislosti řeší topologickým řazením, aby určila správné pořadí provedení a maximalizovala paralelismus.
 
-## Related Concepts
+## Význam pro Kompendium
 
-Graph theory connects to numerous aspects of the Prismatic Platform:
+Pro čtenáře knihy je teorie grafů užitečná ve třech ohledech. Za prvé, **[kruhová argumentace](@/glossary/cirkularni-argumentace.md) je cyklus**: tvrzení, které se po několika krocích opírá samo o sebe, lze v grafu zdůvodnění přímo ukázat. Za druhé, **citační a zdrojové sítě** odhalují koordinaci a uzavřenost – signatury [citační kruhovosti](@/kompendium/detection-signatures/18-network-citation-circularity.md) a [monokultury zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) jsou grafové vlastnosti. Za třetí, výzkum EA pracuje se [síťovou analýzou](@/kompendium/research-methodology/network-analysis-EA.md) vztahů ve skupinách, kde se izolace projevuje jako rozpad hran k vnějšímu světu. Teorie grafů tu nic nediagnostikuje; dává jen přesný jazyk pro strukturu, kterou pak musí vyložit kliník nebo analytik.
 
-- [Graph Database](https://prismatic-reality-com.github.io/prismatic-promo/glossary/graph-database/) provides the persistent storage layer for graph-structured data, powered by KuzuDB
-- [Knowledge Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/knowledge-graph/) is the primary application of graph theory in the platform's intelligence domain
-- [Trinity Gate](@/glossary/trinity-gate.md) uses graph theory for its structural consistency verification channel
-- [Structural Consistency](https://prismatic-reality-com.github.io/prismatic-promo/glossary/structural-consistency/) is the specific Trinity Gate check that validates belief graph DAG properties
-- [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) is the directed acyclic graph structure that represents the platform's epistemic state
-- [Supervision Tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/) is the OTP construct that models process hierarchies as rooted trees
-- [Entity Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/entity-graph/) applies graph theory to model relationships between OSINT-discovered entities
-- [Formal Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) uses graph-theoretic proofs for algorithmic correctness claims
-- [Circular Dependency](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circular-dependency/) is the graph-theoretic concept of a cycle in a dependency graph
-- [Dependency Injection](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dependency-injection/) decouples graph vertices to prevent unwanted edge formation
+## Související
 
-## See Also
+**Platforma**
 
-- [DAG (Directed Acyclic Graph)](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ast/) -- the specific graph structure used for dependency resolution and belief networks
-- [Formal Proof](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-proof/) -- mathematical proofs that often rely on graph-theoretic arguments
-- [Modal Logic](https://prismatic-reality-com.github.io/prismatic-promo/glossary/modal-logic/) -- logical framework whose Kripke semantics are graph-based (possible worlds as vertices)
-- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) -- the theorem prover used for formal graph-theoretic proofs in the Trinity Gate
-- [Theorem Proving](https://prismatic-reality-com.github.io/prismatic-promo/glossary/theorem-proving/) -- automated verification that leverages graph-theoretic structures
+- [Trinity Gate](@/glossary/trinity-gate.md) – používá teorii grafů v kanálu strukturní konzistence.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – rámec, jehož síť přesvědčení musí být DAG.
+- [Entity Resolution](@/glossary/entity-resolution.md) – sloučení záznamů nad grafem entit.
+- [AIAD](@/glossary/aiad.md) – agenti orchestrovaní podle grafu závislostí.
+- [EASM](@/glossary/easm.md) – analýza útočné plochy jako průchod grafem.
 
----
+**Kniha**
 
-**Connect & Contribute**: Built by [Tomas Korcak (korczis)](https://github.com/korczis) as part of the [Prismatic Platform](https://github.com/korczis/kompendium-epistemicke-anihilace). Licensed under [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md). Contributions welcome via [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) and [Pull Requests](https://github.com/korczis/kompendium-epistemicke-anihilace/pulls).
+- [Cirkulární argumentace](@/glossary/cirkularni-argumentace.md) – kruhové zdůvodnění jako cyklus.
+- [Citační kruhovost](@/kompendium/detection-signatures/18-network-citation-circularity.md) – síťová signatura EA.
+- [Síťová analýza ve výzkumu EA](@/kompendium/research-methodology/network-analysis-EA.md) – metodika.
+
+**Mimo knihu (web platformy)**
+
+- [Graph Database](https://prismatic-reality-com.github.io/prismatic-promo/glossary/graph-database/) – trvalé úložiště grafových dat (KuzuDB).
+- [Knowledge Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/knowledge-graph/) – hlavní použití teorie grafů ve zpravodajské doméně platformy.
+- [Structural Consistency](https://prismatic-reality-com.github.io/prismatic-promo/glossary/structural-consistency/) – kontrola Trinity Gate ověřující vlastnosti DAG grafu přesvědčení.
+- [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) – orientovaný acyklický graf epistemického stavu platformy.
+- [Supervision Tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/) – konstrukce OTP modelující hierarchie procesů jako kořenové stromy.
+- [Entity Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/entity-graph/) – modelování vztahů mezi entitami objevenými v OSINT.
+- [Formal Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) – grafové důkazy správnosti algoritmů.
+- [Circular Dependency](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circular-dependency/) – cyklus v grafu závislostí.
+- [Dependency Injection](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dependency-injection/) – oddělení vrcholů grafu, které brání nechtěným hranám.
+- [DAG (Directed Acyclic Graph)](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ast/) – struktura pro řešení závislostí a sítě přesvědčení.
+- [Formal Proof](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-proof/) – matematické důkazy opřené o grafové argumenty.
+- [Modal Logic](https://prismatic-reality-com.github.io/prismatic-promo/glossary/modal-logic/) – logika, jejíž Kripkeho sémantika je grafová (možné světy jako vrcholy).
+- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) – dokazovač vět pro formální grafové důkazy v Trinity Gate.
+- [Theorem Proving](https://prismatic-reality-com.github.io/prismatic-promo/glossary/theorem-proving/) – automatické ověřování opřené o grafové struktury.

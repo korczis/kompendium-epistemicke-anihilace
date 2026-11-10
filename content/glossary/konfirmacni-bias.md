@@ -2,7 +2,7 @@
 title = "Konfirmační bias"
 weight = 60
 
-description = "Systematická tendence vyhledávat, interpretovat a pamatovat si informace způsobem, který potvrzuje již existující přesvědčení; nejintenzivněji zneužívaná zranitelnost ze všech kognitivních zkreslení."
+description = "Sklon vyhledávat, vykládat a pamatovat si informace tak, aby potvrzovaly to, čemu už věříme; nejvíce zneužívaná zranitelnost ze všech kognitivních zkreslení."
 
 [taxonomies]
 tags = ["glossary", "epistemic", "cognitive", "kompendium"]
@@ -12,56 +12,95 @@ category = "epistemic"
 related_terms = ["kognitivni-bias", "epistemicka-anihilace", "taxonomie-ea", "metakognice", "falsifikace", "kognitivni-anti-rekurzivita"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
-word_count = 640
+word_count = 889
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
+date_modified = "2026-11-10"
 keywords = ["konfirmační bias", "confirmation bias", "selektivní expozice", "echo chamber", "kompendium", "epistemic security"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"
-image_alt = "Konfirmační bias - glossary"
+image_alt = "Konfirmační bias – glosář"
 +++
 
-## Definition
+## Definice
 
-**Konfirmační bias** (*confirmation bias*) is the systematic human tendency to seek, interpret, weight, and remember information in ways that confirm already-held beliefs, and to symmetrically discount, ignore, or misremember information that disconfirms them. The bias operates across all three stages of belief processing — **acquisition** (which sources are consulted), **interpretation** (how ambiguous evidence is read), and **retention** (which findings are remembered). All three stages reinforce each other: yesterday's biased acquisition becomes today's biased prior.
+**Konfirmační bias** (*confirmation bias*) je systematický lidský sklon vyhledávat, vykládat, vážit a pamatovat si informace tak, aby potvrzovaly již zastávaná přesvědčení, a souměrně podceňovat, přehlížet nebo špatně si pamatovat informace, které je vyvracejí. Bias působí ve všech třech fázích zpracování přesvědčení:
 
-Within the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md), confirmation bias is the **most heavily exploited single vulnerability** in the entire taxonomy. It is the structural prerequisite for the EA-1.1 family (information-environment manipulation):
+1. **získávání** – které zdroje člověk vyhledá;
+2. **výklad** – jak čte nejednoznačné doklady;
+3. **uchování** – která zjištění si zapamatuje.
 
-- **EA-1.1.1 (Selective exposure)** — directly exploits acquisition-stage confirmation bias: the target self-administers a curated information diet because disconfirming sources feel cognitively aversive.
-- **EA-1.1.2 (Saturation tactics)** — exploits availability + confirmation: vivid confirming exemplars are easily retrieved, disconfirming statistics are not.
-- **EA-1.1.3 (Echo chamber engineering)** — engineers the social environment so that even casual cross-checking returns confirming results, removing the natural correction that diverse social networks normally provide.
-- **EA-1.3.1 (Immunization against falsification)** — installs cognitive moves ("they would say that, wouldn't they") that route disconfirming evidence as further confirmation.
+Všechny tři fáze se navzájem posilují: včerejší zkreslené získávání se stává dnešním zkresleným výchozím přesvědčením.
 
-The kompendium's diagnostic principle: confirmation bias is **universal** and **incurable at the individual level**. Defense requires structural rather than psychological measures — pre-committed exposure to disconfirmation, calibration scoring, and external review.
+V [Kompendiu epistemické a kognitivní anihilace](@/kompendium/_index.md) je konfirmační bias **nejvíce zneužívanou jednotlivou zranitelností** v celé taxonomii. Je strukturním předpokladem rodiny EA-1.1 (manipulace informačního prostředí).
 
-## Context
+## Původ a kontext pojmu
 
-Within the Prismatic Platform, confirmation bias is treated as a **first-class structural problem**, not a personal weakness:
+Termín se ustálil po experimentech Petera Wasona v 60. letech (úloha „2-4-6“ a výběrová úloha), které ukázaly, že lidé testují hypotézy hledáním potvrzení, ne vyvrácení. Raymond Nickerson (1998) shrnul rozsáhlou literaturu a ukázal, že bias se projevuje v laboratoři, v medicíně, v soudnictví i ve vědě. Jde o jeden z nejlépe doložených jevů výzkumu [kognitivních biasů](@/glossary/kognitivni-bias.md). V knize jej podrobně rozebírá stránka [Konfirmační bias](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md).
 
-- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} explicitly tracks **source diversity** in its information graph: a decision based on a low-diversity source set receives a confidence penalty regardless of internal coherence. High coherence + low diversity is a confirmation-bias signature, not a strength.
-- The platform's {{ <cross_link path="/hub/dd/decisions/calibration" text="calibration loop" /> }} compares predicted vs. realized outcomes specifically to detect the systematic over-confidence that confirmation bias produces. A subject whose confirming predictions outperform their disconfirming predictions is showing signature bias even without content-level analysis.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) implements **mandatory disconfirmation queries**: any high-confidence belief must be paired with an explicit list of sources that would disconfirm it; absence of such sources is itself an alarm.
-- The [Color Teams](@/glossary/color-teams.md) Red Team builds adversarial information environments to validate that platform-level diversity checks survive deliberate gaming. Czech-language treatment of confirmation bias in EA context: [/kompendium/04-mechanismy/biasy/konfirmacni/](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md).
+## Jak se projevuje
 
-The principled defense, drawn from [falsifikace](@/glossary/falsifikace.md) (Popper) and [Lakatosian research programmes](@/glossary/lakatos-vyzkumny-program.md), is to **prefer falsification attempts over confirmation searches**. A finding that a belief survives a serious attempt to refute it is epistemically heavier than ten confirming examples. The platform UX exposes this asymmetry: disconfirmation entries weigh more in the Decision Engine's scoring than confirmation entries of equal source quality, mirroring the underlying probability theory (P(E|H) is weak; P(¬E|¬H) is strong when E was a genuine prediction).
+- člověk sleduje jen zdroje, které „mají pravdu“, a ostatní nečte, protože jsou „zaujaté“;
+- nejednoznačná událost je okamžitě vyložena ve prospěch vlastního názoru;
+- vzpomínky na „zásahy“ jsou živé, na „minely“ chybějí;
+- vysoká vnitřní soudržnost přesvědčení provázená nízkou rozmanitostí zdrojů;
+- ve skupině: [monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) a [epistemická bublina](@/glossary/epistemic-bubble.md).
 
-## See Also
+## Mechanismus
 
-- [Kognitivní bias](@/glossary/kognitivni-bias.md) — Parent concept
-- [Falsifikace](@/glossary/falsifikace.md) — Principled corrective from Popper
-- [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) — Distinguishes legitimate vs. degenerative protection of beliefs
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Threat model exploiting this bias
-- [Taxonomie EA](@/glossary/taxonomie-ea.md) — Specifically the EA-1.1.x family
-- [Metakognice](@/glossary/metakognice.md) — Reflective layer that catches active bias
-- [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) — Hardened endpoint
-- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
+Techniky EA využívají konfirmační bias v několika vrstvách:
 
----
+- **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** – přímo využívá bias ve fázi získávání: člověk si sám podává vybranou informační stravu, protože vyvracející zdroje působí kognitivně nepříjemně.
+- **[EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)** – využívá dostupnost spolu s konfirmací: živé potvrzující příklady se snadno vybaví, vyvracející statistiky ne.
+- **budování ozvěnové komory** – sociální prostředí se upraví tak, aby i letmé křížové ověření vracelo potvrzující výsledky; tím mizí přirozená oprava, kterou rozmanité sociální sítě běžně poskytují (viz [izolace](@/glossary/socialni-izolace.md) a [urychlená izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md)).
+- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** – vštěpuje myšlenkové kroky („to by přece řekli, ne?“), které vyvracející doklady přesměrují jako další potvrzení.
 
-## Connect & Contribute
+Diagnostický princip Kompendia zní: konfirmační bias je **univerzální** a **na úrovni jednotlivce nevyléčitelný**. Obrana vyžaduje strukturní, ne psychologická opatření – předem sjednané vystavení vyvracejícím informacím, kalibrační hodnocení a vnější revizi.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+## Odlišení
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- **Od rozumné stability přesvědčení:** nevzdat se dobře podloženého názoru kvůli jedné anomálii není bias; bias je nevidět anomálie vůbec.
+- **Od [motivovaného usuzování](@/glossary/kognitivni-bias.md):** příbuzný jev, v němž výsledek usuzování určuje přání; konfirmační bias působí i bez zvláštního přání.
+- **Od [imunizace](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md):** konfirmační bias je přirozený sklon; imunizace je jeho vštípené zesílení, které z něj dělá uzavřený systém.
+- **Od klinických stavů:** bludné přesvědčení je také selektivní vůči dokladům, ale jeho vznik a odolnost mají jiný charakter.
+
+## Význam pro Kompendium
+
+Na platformě Prismatic, z níž kniha vzešla, je konfirmační bias **strukturním problémem prvního řádu**, ne osobní slabostí:
+
+- [Decision Engine](@/glossary/decision-engine.md) výslovně sleduje **rozmanitost zdrojů** ve svém informačním grafu: rozhodnutí založené na málo rozmanité sadě zdrojů dostane snížení jistoty bez ohledu na vnitřní soudržnost. Vysoká soudržnost spolu s nízkou rozmanitostí je signaturou konfirmačního biasu, ne silou.
+- Kalibrační smyčka platformy porovnává předpovězené a skutečné výsledky právě proto, aby odhalila soustavnou přehnanou sebejistotu, kterou bias vytváří. Subjekt, jehož potvrzující předpovědi „vycházejí“ lépe než vyvracející, vykazuje signaturu biasu i bez analýzy obsahu.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) zavádí **povinné vyvracející dotazy**: každé přesvědčení s vysokou jistotou musí být spárováno s výslovným seznamem zdrojů, které by je vyvrátily; jejich absence je sama poplachem.
+- [Red Team](@/glossary/red-team.md) v rámci [Color Teams](@/glossary/color-teams.md) staví nepřátelská informační prostředí, aby ověřil, že kontroly rozmanitosti na úrovni platformy obstojí i při záměrném obcházení.
+
+Principiální obrana, odvozená z [falsifikace](@/glossary/falsifikace.md) (Popper) a [Lakatosových výzkumných programů](@/glossary/lakatos-vyzkumny-program.md), zní: **dávat přednost pokusům o vyvrácení před hledáním potvrzení**. Zjištění, že přesvědčení přežilo vážný pokus o vyvrácení, váží epistemicky víc než deset potvrzujících příkladů. Rozhraní platformy tuto asymetrii zviditelňuje: vyvracející záznamy váží v hodnocení Decision Engine víc než potvrzující záznamy stejné kvality zdroje. Odpovídá to teorii pravděpodobnosti: potvrzení má váhu jen tehdy, když by se doklad při neplatnosti hypotézy pravděpodobně neobjevil, tedy když je poměr P(E|H) ku P(E|¬H) vysoký; běžná „potvrzení“, která by se objevila tak jako tak, nevypovídají téměř nic.
+
+## Obrana a zotavení
+
+- **Pro jednotlivce:** sledovat záměrně alespoň jeden kvalitní zdroj s opačným pohledem; u důležitých přesvědčení si zapsat, co by je vyvrátilo; [triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md), [kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md), [osobní audit biasů](@/kompendium/self-defense-guides/38-bias-audit-personal.md).
+- **Pro analytiky a organizace:** „ďáblův advokát“ s mandátem, analýza konkurenčních hypotéz, oddělení sběru od hodnocení; viz [prevence konfirmačního biasu v due diligence](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md) a [bias ve vyšetřování](@/kompendium/cross-domain/9-ea-dd-investigation-bias.md).
+- **Pro kliniky:** pamatovat, že bias se týká i diagnostiky EA samotné – kdo hledá manipulaci, najde ji ([riziko kruhového uvažování](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md)).
+
+## Literatura
+
+- Peter C. Wason: „On the Failure to Eliminate Hypotheses in a Conceptual Task“, *Quarterly Journal of Experimental Psychology* 12 (1960).
+- Raymond S. Nickerson: „Confirmation Bias: A Ubiquitous Phenomenon in Many Guises“, *Review of General Psychology* 2 (1998).
+- Karl R. Popper: *Conjectures and Refutations* (1963).
+
+## Související
+
+**Pojmy**
+
+- [Kognitivní bias](@/glossary/kognitivni-bias.md) – nadřazený pojem.
+- [Falsifikace](@/glossary/falsifikace.md) – principiální oprava podle Poppera.
+- [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) – rozlišuje legitimní a degenerativní ochranu přesvědčení.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – model hrozby, který bias zneužívá.
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) – zejména rodina EA-1.1.x.
+- [Metakognice](@/glossary/metakognice.md) – reflexivní vrstva, která aktivní bias zachytí.
+- [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) – zatvrdlý koncový stav.
+
+**Kniha**
+
+- [Konfirmační bias](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md) – podrobný výklad v základních kategoriích.
+- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) – nejpřímější zneužití.
+- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – obrana jednotlivce.

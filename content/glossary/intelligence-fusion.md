@@ -1,83 +1,73 @@
 +++
-title = "Intelligence Fusion"
+title = "Intelligence fusion (fúze zpravodajství)"
 weight = 28
-description = "Multi-source correlation and confidence scoring for intelligence products"
+description = "Analytická disciplína, která koreluje informace z více nezávislých zdrojů, přiděluje jim míru jistoty a zachovává rozpory; na platformě Prismatic řízená axiomy NABLA."
 
 [taxonomies]
-tags = ["glossary", "osint", "intelligence-fusion", "prismatic"]
+tags = ["glossary", "osint", "intelligence-fusion", "prismatic", "intelligence"]
 
 [extra]
 category = "osint"
 related_terms = ["osint", "signal-plurality", "nabla-infinity", "threat-intelligence", "entity-resolution", "sanctions-screening", "confidence-threshold"]
 author = "Tomas Korcak (korczis)"
-reading_time = "6 min"
-word_count = 1210
+reading_time = "7 min"
+word_count = 1419
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["Intelligence", "Fusion", "Multi-source", "glossary", "osint", "Prismatic Platform", "Source", "Level", "NABLA"]
 quality_score = 77
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "Intelligence Fusion - Prismatic Platform"
+image_alt = "Intelligence Fusion – platforma Prismatic"
 +++
 
-## Definition
+## Definice
 
-Intelligence Fusion is the analytical discipline of correlating information from multiple independent sources, assigning confidence scores based on source reliability and corroboration strength, resolving contradictions through structured methodology, and producing unified intelligence products that represent the best available understanding of a subject. Unlike simple data aggregation (combining all available information into a single view), fusion applies structured analytical techniques that weigh evidence quality, assess source independence, track information provenance, and explicitly handle conflicting signals -- producing intelligence products where the whole is demonstrably greater than the sum of its parts.
+**Fúze zpravodajství** (*intelligence fusion*) je analytická disciplína, která koreluje informace z více nezávislých zdrojů, přiděluje skóre jistoty podle spolehlivosti zdroje a síly potvrzení, řeší rozpory strukturovanou metodikou a vytváří jednotné zpravodajské produkty představující nejlepší dostupné porozumění předmětu. Na rozdíl od prosté agregace dat (spojení všech dostupných informací do jednoho pohledu) používá fúze strukturované analytické techniky, které váží kvalitu dokladů, posuzují nezávislost zdrojů, sledují původ informací a výslovně zacházejí s protichůdnými signály. Výsledkem jsou produkty, v nichž je celek prokazatelně víc než součet částí.
 
-The fusion process operates on a fundamental premise: no single source provides a complete or perfectly reliable picture of any subject. Every data source has inherent biases, coverage gaps, temporal limitations, and error rates. Intelligence fusion compensates for these individual weaknesses through source diversity, requiring that conclusions be supported by converging evidence from independent collection methods. A domain's association with a suspicious IP address observed by Shodan carries moderate confidence; when corroborated by anomalous certificate patterns from Censys and behavioral indicators from GreyNoise, the confidence in malicious association increases substantially.
+Fúze vychází ze základního předpokladu: **žádný jednotlivý zdroj nedává úplný ani dokonale spolehlivý obraz.** Každý zdroj má vlastní zkreslení, mezery v pokrytí, časová omezení a chybovost. Fúze tyto slabiny vyvažuje rozmanitostí zdrojů a vyžaduje, aby závěry podpíraly sbíhající se doklady z nezávislých metod sběru. Spojení domény s podezřelou IP adresou, které zaznamenal [Shodan](@/glossary/shodan.md), má střední jistotu; potvrdí-li je neobvyklé vzorce certifikátů z [Censys](@/glossary/censys.md) a behaviorální ukazatele z [GreyNoise](@/glossary/greynoise.md), jistota škodlivého spojení podstatně vzroste.
 
-The discipline has deep roots in military and national intelligence analysis, where the fusion of signals intelligence (SIGINT), human intelligence (HUMINT), imagery intelligence (IMINT), and open source intelligence (OSINT) has been practiced for decades. In the cybersecurity domain, intelligence fusion applies similar principles to correlate network telemetry, threat feeds, vulnerability data, asset inventories, and behavioral analytics into actionable security intelligence. The structured analytical techniques used -- Analysis of Competing Hypotheses, Structured Analytic Techniques, Bayesian updating -- ensure that fusion outputs are rigorous, transparent, and auditable.
+## Původ a kontext pojmu
 
-## Overview
+Disciplína má hluboké kořeny ve vojenské a státní zpravodajské analýze, kde se po desetiletí spojuje zpravodajství z elektronického průzkumu (SIGINT), z lidských zdrojů (HUMINT), ze snímkování (IMINT) a z otevřených zdrojů ([OSINT](@/glossary/osint.md)). V kybernetické bezpečnosti uplatňuje fúze obdobné principy při korelaci síťové telemetrie, kanálů hrozeb, dat o zranitelnostech, soupisů aktiv a behaviorální analytiky. Strukturované analytické techniky – analýza konkurenčních hypotéz (Heuer), strukturované analytické techniky obecně a bayesovská aktualizace – mají zajistit, že výstupy fúze jsou důsledné, průhledné a auditovatelné. Úrovně fúze uvedené níže odpovídají modelu, který se v oboru datové fúze ustálil (tzv. model JDL).
 
-The intelligence fusion lifecycle consists of five interconnected stages that transform raw data into actionable intelligence:
+## Jak se projevuje
 
-### Collection Planning
+Životní cyklus fúze má pět navazujících fází, které mění surová data v použitelné zpravodajství:
 
-Effective fusion begins with identifying what intelligence gaps exist and which sources can address them. Collection planning maps intelligence requirements to available sources, ensuring diverse coverage and identifying single-source dependencies that create blind spots.
+**Plánování sběru.** Účinná fúze začíná určením mezer ve zpravodajství a zdrojů, které je mohou pokrýt. Plánování přiřazuje zpravodajské požadavky dostupným zdrojům, zajišťuje rozmanité pokrytí a odhaluje závislosti na jediném zdroji, které vytvářejí slepá místa.
 
-### Source Integration
+**Integrace zdrojů.** Surová data z různorodých zdrojů je nutné před korelací převést do společného formátu. Integrace řeší rozdíly formátů, sémantické mapování, časové sladění a odstranění duplicit a přitom zachovává metadata o původu.
 
-Raw data from heterogeneous sources must be normalized into a common format before correlation is possible. Source integration handles format differences, semantic mapping, temporal alignment, and deduplication while preserving source attribution metadata.
+**Korelace a analýza.** Jádrem fúze je hledání vztahů mezi normalizovanými prvky napříč zdroji – od prostého porovnání atributů (stejná IP adresa ve více kanálech) po složité rozpoznávání behaviorálních vzorců (podobná metodika útoků v různých kampaních).
 
-### Correlation and Analysis
+**Hodnocení jistoty.** Každý fúzovaný produkt dostane skóre jistoty, které odráží sílu podpůrných dokladů, spolehlivost zdrojů, čerstvost a hloubku potvrzení. Skóre umožňuje příjemcům reagovat úměrně jistotě zpravodajství.
 
-The core of the fusion process involves identifying relationships between normalized data elements across sources. Correlation techniques range from simple attribute matching (same IP address in multiple feeds) to complex behavioral pattern recognition (similar attack methodologies across different campaigns).
+**Šíření produktu.** Produkty se formátují a doručují podle rolí a potřeb příjemců. Taktičtí příjemci potřebují upozornění v reálném čase s minimem kontextu, strategičtí úplná hodnocení s analytickými podrobnostmi.
 
-### Confidence Assessment
+## Mechanismus
 
-Every fused intelligence product receives a confidence score reflecting the strength of supporting evidence, source reliability, temporal freshness, and corroboration depth. Confidence scores enable downstream consumers to calibrate their responses proportionally to the certainty of the intelligence.
+### Úrovně fúze
 
-### Product Dissemination
-
-Fused intelligence products are formatted and delivered to consumers based on their roles and requirements. Tactical consumers need real-time alerts with minimal context; strategic consumers need comprehensive assessments with full analytical detail.
-
-## Technical Details
-
-### Fusion Levels
-
-Intelligence fusion operates at multiple levels of analytical sophistication:
-
-| Level | Description | Input | Output | Example |
+| úroveň | popis | vstup | výstup | příklad |
 |-------|-------------|-------|--------|---------|
-| **Level 0: Sub-Source** | Single-source data refinement | Raw sensor data | Cleaned, normalized data | DNS record parsing |
-| **Level 1: Object** | Multi-source entity resolution | Normalized data streams | Unified entity profiles | Merging Shodan + Censys host data |
-| **Level 2: Situation** | Relationship and pattern analysis | Entity profiles | Situational assessments | Attack surface topology |
-| **Level 3: Impact** | Risk and consequence analysis | Situational assessments | Impact predictions | Security rating computation |
-| **Level 4: Process** | Meta-analysis of fusion effectiveness | Fusion outputs + ground truth | Process improvements | Collection gap identification |
+| **0: pod úrovní zdroje** | zpřesnění dat z jednoho zdroje | surová data senzorů | vyčištěná, normalizovaná data | parsování záznamů DNS |
+| **1: objekt** | vícezdrojová [entity resolution](@/glossary/entity-resolution.md) | normalizované proudy dat | jednotné profily entit | sloučení dat o hostiteli ze Shodanu a Censys |
+| **2: situace** | analýza vztahů a vzorců | profily entit | hodnocení situace | topologie útočné plochy |
+| **3: dopad** | analýza rizika a důsledků | hodnocení situace | předpovědi dopadu | výpočet bezpečnostního hodnocení |
+| **4: proces** | metaanalýza účinnosti fúze | výstupy fúze + ověřená pravda | zlepšení procesu | nalezení mezer ve sběru |
 
-### Confidence Scoring Framework
+### Rámec hodnocení jistoty
 
-| Factor | Weight | Description | Example |
+| faktor | váha | popis | příklad |
 |--------|--------|-------------|---------|
-| **Source reliability** | 30% | Historical accuracy of the data source | Censys: 0.95, unknown source: 0.50 |
-| **Corroboration** | 25% | Number of independent sources confirming | 3 sources: 0.90, 1 source: 0.60 |
-| **Temporal freshness** | 20% | Recency of the observation | < 24h: 1.0, > 30d: 0.50 |
-| **Internal consistency** | 15% | Absence of self-contradictions | Consistent: 1.0, contradictory: 0.30 |
-| **Collection method** | 10% | Reliability of the collection technique | Active scan: 0.95, passive: 0.80 |
+| **spolehlivost zdroje** | 30 % | historická přesnost zdroje | Censys: 0,95, neznámý zdroj: 0,50 |
+| **potvrzení** | 25 % | počet nezávislých potvrzujících zdrojů | 3 zdroje: 0,90, 1 zdroj: 0,60 |
+| **čerstvost** | 20 % | stáří pozorování | < 24 h: 1,0, > 30 dní: 0,50 |
+| **vnitřní soudržnost** | 15 % | absence vnitřních rozporů | soudržné: 1,0, rozporné: 0,30 |
+| **metoda sběru** | 10 % | spolehlivost techniky sběru | aktivní sken: 0,95, pasivní: 0,80 |
 
-### Contradiction Handling
+### Zacházení s rozpory
 
 ```
 Source A: "Domain X resolves to IP 1.2.3.4" (confidence: 0.90, observed: 2h ago)
@@ -91,9 +81,9 @@ Fusion Output:
   - Both records retained with temporal context
 ```
 
-## Implementation in Prismatic Platform
+## Implementace na platformě Prismatic
 
-Within the Prismatic Platform, Intelligence Fusion is governed by NABLA Infinity's axioms and implemented through a structured fusion pipeline:
+Na platformě Prismatic, z níž kniha vzešla, se fúze zpravodajství řídí axiomy [NABLA Infinity](@/glossary/nabla-infinity.md) a je implementována strukturovanou pipeline:
 
 ```elixir
 defmodule PrismaticIntelligence.FusionEngine do
@@ -166,7 +156,7 @@ defmodule PrismaticIntelligence.FusionEngine do
 end
 ```
 
-### Source Integration Pipeline
+### Pipeline integrace zdrojů
 
 ```elixir
 defmodule PrismaticIntelligence.SourceIntegrator do
@@ -217,65 +207,62 @@ defmodule PrismaticIntelligence.SourceIntegrator do
 end
 ```
 
-## Comparison with Alternatives
+## Odlišení
 
-| Approach | NABLA-Governed Fusion | Traditional SIEM Correlation | Threat Intel Platform | Manual Analysis |
+| přístup | fúze řízená NABLA | tradiční korelace SIEM | platforma zpravodajství o hrozbách | ruční analýza |
 |----------|----------------------|-----------------------------|-----------------------|-----------------|
-| **Contradiction handling** | Preserved per axiom | Resolved (highest confidence wins) | Vendor-dependent | Analyst judgment |
-| **Confidence scoring** | Multi-factor, NABLA-compliant | Rule-based | Proprietary scoring | Subjective |
-| **Source plurality** | Enforced (minimum 2 sources) | Optional | Varies | Best practice |
-| **Provenance tracking** | Mandatory per axiom | Log-based | Source attribution | Documentation |
-| **Time decay** | Automatic, configurable | Manual threshold | Varies | Manual assessment |
-| **Epistemic rigor** | Trinity Gate verification | Not applicable | Not applicable | Analyst-dependent |
+| **zacházení s rozpory** | zachovány podle axiomu | vyřešeny (vyhrává nejvyšší jistota) | podle dodavatele | úsudek analytika |
+| **hodnocení jistoty** | vícefaktorové, v souladu s NABLA | podle pravidel | proprietární | subjektivní |
+| **pluralita zdrojů** | vynucena (nejméně 2 zdroje) | volitelná | různá | dobrá praxe |
+| **sledování původu** | povinné podle axiomu | z logů | přiřazení zdroje | dokumentace |
+| **časový úbytek** | automatický, nastavitelný | ruční práh | různý | ruční posouzení |
+| **epistemická důslednost** | ověření [Trinity Gate](@/glossary/trinity-gate.md) | neuplatňuje se | neuplatňuje se | podle analytika |
 
-## Best Practices
+Fúzi je třeba odlišit i od **agregace**: kdo sečte deset zpráv, které všechny opisují tutéž agenturní zprávu, nemá deset zdrojů, ale jeden.
 
-1. **Enforce Source Plurality**: Never form intelligence assessments from a single source. The NABLA Signal Plurality axiom exists because single-source conclusions are inherently fragile -- subject to source errors, biases, and blind spots. Require minimum two independent sources for any actionable intelligence product.
+## Osvědčené postupy
 
-2. **Preserve Contradictions**: When sources disagree, preserve both positions with their respective confidence scores and temporal context. Silently discarding contradictory evidence (the "cherry picking" anti-pattern) produces intelligence products that appear more certain than the evidence warrants, leading to overconfident decisions.
+1. **Vynucovat pluralitu zdrojů:** nikdy nevytvářet zpravodajské hodnocení z jediného zdroje. Axiom [Signal Plurality](@/glossary/signal-plurality.md) existuje, protože závěry z jednoho zdroje jsou ze své podstaty křehké – podléhají jeho chybám, zkreslením a slepým místům. Pro každý použitelný produkt vyžadovat nejméně dva nezávislé zdroje.
+2. **Zachovávat rozpory:** když se zdroje neshodnou, zachovat obě pozice s jejich skóre jistoty a časovým kontextem. Tiché zahazování protichůdných dokladů (antivzor „vybírání třešniček“) vytváří produkty, které působí jistěji, než doklady opravňují, a vedou k přehnaně sebejistým rozhodnutím.
+3. **Sledovat původ od začátku do konce:** každé tvrzení ve fúzovaném produktu musí být dohledatelné k výchozímu zdroji, metodě sběru a času pozorování. Umožňuje to příjemcům posoudit kvalitu a analytikům vyšetřit chybné produkty.
+4. **Uplatňovat časový úbytek:** zpravodajství stárne. Infrastruktura se mění, hrozby se vyvíjejí, vztahy mezi organizacemi se posouvají. Jistota pozorování, která nebyla znovu potvrzena, se má s časem snižovat.
+5. **Kalibrovat prahy jistoty:** přizpůsobit požadavky na jistotu závažnosti rozhodnutí. Kritická rozhodnutí (bezpečnostní hodnocení, posouzení souladu) vyžadují jistotu 0,95 s ověřením Trinity Gate; průzkumná analýza může pokračovat při 0,60. Nesprávné prahy vedou buď k [ochromení analýzou](@/glossary/paralysis-by-analysis.md), nebo k předčasnému jednání.
+6. **Diverzifikovat metody sběru:** nezávislost zdrojů vyžaduje nezávislost metod. Dva zdroje, které v konečném důsledku čerpají ze stejné sběrné infrastruktury, neposkytují skutečné potvrzení. Mapovat závislosti zdrojů a hledat skryté jediné body selhání.
 
-3. **Track Provenance End-to-End**: Every claim in a fused intelligence product must be traceable to its originating source(s), collection method, and observation time. Provenance tracking enables consumers to assess intelligence quality and enables analysts to investigate when fused products prove incorrect.
+## Případy užití
 
-4. **Apply Time Decay**: Intelligence degrades over time. Infrastructure changes, threats evolve, and organizational relationships shift. Apply configurable time decay to source observations, reducing confidence as observations age without reconfirmation.
+- **Objevování aktiv v EASM:** fúze koreluje záznamy DNS, logy transparentnosti certifikátů, skeny Shodanu a údaje WHOIS do úplných map útočné plochy; existenci a vlastnosti každého aktiva potvrzuje více nezávislých pozorování.
+- **Výpočet bezpečnostního hodnocení:** hodnocení Prismatic Perimeter (A–F) vzniká fúzí několika kategorií bezpečnostních signálů; každý přispívající faktor je vážen jistotou a má sledovaný původ podle požadavků NABLA.
+- **Prověrka sankcí:** jména entit z obchodních záznamů se fúzují se sankčními seznamy, negativními zprávami v médiích a databázemi politicky exponovaných osob. Neostré porovnávání entit napříč jazyky a přepisy vyžaduje fúzi k vyřešení nejednoznačné identity; viz [Sanctions Screening](@/glossary/sanctions-screening.md).
+- **Přiřazení aktérů hrozeb:** behaviorální vzorce, ukazatele infrastruktury a taktické signatury z více míst sledování se fúzují, aby bylo možné škodlivou činnost přiřadit skupinám nebo kampaním.
+- **Hodnocení rizika dodavatelského řetězce:** vztahy organizací, sdílení certifikátů, závislosti hostingu a data o vystavení zranitelnostem se fúzují do hodnocení rizika dodavatelského řetězce sledovaných entit.
 
-5. **Calibrate Confidence Thresholds**: Match confidence requirements to decision criticality. Critical decisions (security ratings, compliance assessments) require 0.95 confidence with Trinity Gate verification. Exploratory analysis can proceed with 0.60 confidence. Mismatched thresholds cause either analysis paralysis or premature action.
+## Význam pro Kompendium
 
-6. **Diversify Collection Methods**: Source independence requires method independence. Two sources that ultimately derive their data from the same collection infrastructure do not provide genuine corroboration. Map source dependencies to identify hidden single points of failure in the collection architecture.
+Principy fúze jsou v knize obecnými pravidly epistemické hygieny, nejen technikou platformy. **Nezávislost zdrojů**, **zachování rozporů**, **sledování původu** a **časový úbytek** jsou přesně to, co manipulace podkopává: [monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) a [citační kruhovost](@/kompendium/detection-signatures/18-network-citation-circularity.md) vytvářejí zdání mnoha zdrojů tam, kde je jen jeden; potlačení rozporů je jádrem [konfirmačního biasu](@/glossary/konfirmacni-bias.md). Pro jednotlivce tytéž principy převádí do běžného života [triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md), pro analytiky [křížová triangulace zdrojů v OSINT](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md) a [validace zpravodajství o hrozbách](@/kompendium/cross-domain/24-ea-security-threat-intelligence-validation.md).
 
-## Use Cases
+## Související
 
-- **EASM Asset Discovery**: Intelligence fusion correlates DNS records, certificate transparency logs, Shodan scans, and WHOIS data to build comprehensive attack surface maps. Each asset's existence and properties are confirmed by multiple independent observations.
+**Platforma**
 
-- **Security Rating Computation**: Prismatic Perimeter security ratings (A-F) are computed through fusion of multiple security signal categories, with each contributing factor confidence-weighted and provenance-tracked per NABLA requirements.
+- [Signal Plurality](@/glossary/signal-plurality.md) – axiom NABLA vyžadující více nezávislých zdrojů pro jakékoli přesvědčení.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – řídící epistemický rámec, který určuje pravidla a axiomy fúze.
+- [OSINT](@/glossary/osint.md) – hlavní metodika poskytující surové zpravodajství.
+- [Entity Resolution](@/glossary/entity-resolution.md) – rozlišení identity ve fúzovaném zpravodajství.
+- [GreyNoise](@/glossary/greynoise.md) – zdroj kontextu hrozeb ve fúzi.
 
-- **Sanctions Screening**: Entity names from business records are fused with sanctions lists, adverse media, and politically exposed person (PEP) databases. Fuzzy entity matching across languages and transliterations requires fusion to resolve identity ambiguity.
+**Kniha**
 
-- **Threat Actor Attribution**: Behavioral patterns, infrastructure indicators, and tactical signatures from multiple monitoring points are fused to attribute malicious activity to threat groups or campaigns.
+- [Křížová triangulace zdrojů v OSINT](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md) – princip fúze v kontextu EA.
+- [Monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) – signatura, kterou fúze odhaluje.
+- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – tytéž principy pro jednotlivce.
 
-- **Supply Chain Risk Assessment**: Organization relationships, certificate sharing patterns, hosting dependencies, and vulnerability exposure data are fused to assess supply chain risk for monitored entities.
+**Mimo knihu (web platformy)**
 
-## Related Concepts
-
-- [Signal Plurality](@/glossary/signal-plurality.md) - NABLA axiom requiring multiple independent sources for any belief
-- [NABLA Infinity](@/glossary/nabla-infinity.md) - Governing epistemic framework defining fusion rules and axioms
-- [OSINT](@/glossary/osint.md) - Primary source methodology providing raw intelligence for fusion
-- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) - Tau scoring system for fused intelligence products
-- [Entity Resolution](@/glossary/entity-resolution.md) - Identity disambiguation within fused intelligence
-- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) - Security intelligence domain leveraging fusion methodology
-- [Knowledge Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/knowledge-graph/) - Graph representation storing fused intelligence relationships
-- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) - NABLA axiom governing conflicting evidence handling
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - Intelligence fusion architecture and data flow
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) - Fusion processing technology stack
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) - Intelligence and analysis capabilities
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) – systém skóre tau pro fúzované produkty.
+- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) – oblast bezpečnostního zpravodajství využívající fúzi.
+- [Knowledge Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/knowledge-graph/) – grafová reprezentace fúzovaných vztahů.
+- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) – axiom NABLA o zacházení s protichůdnými doklady.
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) – architektura a datové toky fúze.
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) – technologie zpracování fúze.
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) – zpravodajské a analytické schopnosti.

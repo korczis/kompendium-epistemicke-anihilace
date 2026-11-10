@@ -1,16 +1,16 @@
 +++
-title = "Mystický prožitek (Mystical Experience)"
+title = "Mystický prožitek (mystical experience)"
 weight = 6
-description = "Phenomenological category for transient altered states characterized by noetic quality, ineffability, transient duration, passivity, and a sense of unity — operationalized in contemporary psychology through the Mystical Experience Questionnaire and related instruments"
+description = "Fenomenologická kategorie přechodných změněných stavů s noetickou kvalitou, nevyslovitelností, pasivitou a pocitem jednoty; v psychologii měřená dotazníkem MEQ30."
 
 [taxonomies]
-tags = ["phenomenology", "mystical-experience", "consciousness", "psychology-of-religion"]
+tags = ["glossary", "phenomenology", "mystical-experience", "consciousness", "psychology-of-religion"]
 
 [extra]
 category = "phenomenology"
 status = "active"
 author = "Tomas Korcak (korczis)"
-reading_time = "6 min"
+reading_time = "5 min"
 difficulty = "advanced"
 quality_score = 92
 date_created = "2026-05-03"
@@ -24,40 +24,95 @@ image = "/images/sections/glossary.png"
 image_alt = "Mysticky prozitek - Prismatic Platform"
 +++
 
-## Definition
+## Definice
 
-Mystický prožitek (mystical experience) is a transient altered state of consciousness whose phenomenological signature, following William James (*The Varieties of Religious Experience*, 1902), comprises four core marks: (1) **ineffability** — resistance to adequate verbal description; (2) **noetic quality** — perceived as a state of knowledge, not mere feeling; (3) **transiency** — typically lasting minutes to hours; (4) **passivity** — the subject feels acted upon rather than acting. Modern operationalization (Walter Pahnke 1969, Ralph Hood 1975, Roland Griffiths 2006-present) added two further marks: **sense of unity** with the surroundings and **deeply felt positive mood**. The current standard instrument is MEQ30 (Mystical Experience Questionnaire, 30-item).
+**Mystický prožitek** (*mystical experience*) je přechodný změněný stav vědomí, jehož fenomenologickou signaturu podle Williama Jamese (*The Varieties of Religious Experience*, 1902) tvoří čtyři základní znaky:
 
-## Manažerské shrnutí
+1. **nevyslovitelnost** – vzdoruje přiměřenému slovnímu popisu;
+2. **noetická kvalita** – je prožíván jako stav poznání, ne jako pouhý pocit;
+3. **přechodnost** – obvykle trvá minuty až hodiny;
+4. **pasivita** – člověk má pocit, že se mu něco děje, ne že jedná.
 
-V kontextu Prismatic Platform je mystický prožitek **operativně definovaná psychologická kategorie** (skrze MEQ30), ne metafyzické tvrzení. Pro DD vyšetřování zaměřená na náboženské, terapeutické, nebo coaching organizace platí: tvrzení o "spirituálních zážitcích" klientů jsou validovatelná pouze s odkazem na standardizované instrumenty a externí kontrolu. Manažersky kritické: organizace, která *prodává mystické prožitky* (psychedelic retreat, intensive meditation center, charismatic religious community), musí prokázat (a) screening protokol, (b) kvalifikované integration support, (c) absenci coerce při indukci, (d) post-experience follow-up. Absence kteréhokoli z těchto čtyř pilířů zvyšuje riziko iatrogenického trauma a zařazuje organizaci do kategorie *high-risk* dle interní rubriky.
+Moderní operacionalizace (Walter Pahnke 1969, Ralph Hood 1975, Roland Griffiths od roku 2006) přidala dva další znaky: **pocit jednoty** s okolím a **hluboce pociťovanou pozitivní náladu**. Současným standardním nástrojem je MEQ30 (*Mystical Experience Questionnaire*, 30 položek).
 
-## Domain Context
+V kontextu platformy Prismatic i knihy je mystický prožitek **provozně definovanou psychologickou kategorií** (prostřednictvím MEQ30), ne metafyzickým tvrzením. Kniha se nevyjadřuje k tomu, zda prožitek odkazuje k transcendentní skutečnosti; zabývá se tím, jak se s ním zachází.
 
-James definoval kategorii v r. 1902 z analýzy autobiografických textů napříč náboženskými tradicemi. W. T. Stace (1960) doplnil rozlišení *introvertivní* (vnitřní jednota beze obsahu) vs. *extrovertivní* (vnímaná jednota přírody). R. C. Zaehner přidal *teistickou* variantu (setkání s personálním Bohem). Empirický výzkum nastartovala *Good Friday Experiment* (Pahnke 1962) s psilocybinem v Bostonské kapli — replikováno Doblin (1991) s 25-letým follow-up. Současná renesance přichází z Johns Hopkins (Griffiths 2006-2024), kde MEQ30 skóry nad 60% positively korelují s lasting wellbeing improvements u terminálně nemocných pacientů. Kritická perspektiva (Steven Katz 1978): mystický prožitek nikdy *není* "čistý" — je vždy strukturovaný kulturní a jazykovou maticí očekávání, takže *constructivism vs. perennialism* zůstává otevřenou debatou.
+## Původ a kontext pojmu
 
-## Practical Application
+James definoval kategorii v roce 1902 na základě rozboru autobiografických textů napříč náboženskými tradicemi. W. T. Stace (1960) doplnil rozlišení na *introvertní* mystiku (vnitřní jednota bez obsahu) a *extrovertní* mystiku (vnímaná jednota přírody). R. C. Zaehner přidal *teistickou* variantu (setkání s osobním Bohem).
 
-1. **Hodnocení psychedelic-assisted therapy poskytovatele**: kvalifikovaná klinika měří MEQ30 standardně a integration outcomes se sledují měsíce po session. Absence kvantitativní evidence je red flag.
-2. **DD report pro M&A target — wellness/spiritual sektor**: rozlišit organizace nabízející evidence-based contemplative interventions (MBSR, MBCT) od organizací stavějících na charismatu zakladatele.
-3. **OSINT analýza náboženské komunity**: opakované veřejné nárokování mystických prožitků leaderem bez triangulace ze strany ostatních členů koreluje s autoritářskými tendencemi.
+Empirický výzkum zahájil „Velkopáteční experiment“ (Pahnke 1962) s psilocybinem v bostonské kapli; Rick Doblin (1991) provedl s účastníky navazující šetření po zhruba pětadvaceti letech. Současná renesance vychází z Johns Hopkins University (Griffiths a spolupracovníci od roku 2006), kde u pacientů s život ohrožujícím onemocněním souvisí takzvaný „úplný“ mystický prožitek (skóre alespoň 60 % v subškálách MEQ30) s trvalejším zlepšením deprese, úzkosti a pohody.
 
-## Related Concepts
+Kritická perspektiva (Steven Katz 1978) namítá, že mystický prožitek nikdy *není* „čistý“ – je vždy strukturován kulturní a jazykovou maticí očekávání. Spor mezi *konstruktivismem* a *perenialismem* zůstává otevřený. Příbuznou apofatickou tradici popisují hesla [apofatický modus](@/glossary/apofaticky-modus.md) a [via negativa](@/glossary/via-negativa.md).
 
-- [Ego Death](@/glossary/ego-death.md) - Specific phenomenological subset of broader mystical category
-- [Anihilační fenomény](@/glossary/anihilacni-fenomeny.md) - Overlapping experiential cluster
-- [Epistemic Trauma](@/glossary/epistemicke-trauma.md) - Adverse outcome when mystical experience destabilizes
-- [Narativní identita](@/glossary/narativni-identita.md) - Self-coherence layer that integration must restore
-- [Reality Testing](@/glossary/reality-testing.md) - Cognitive function that integration support must safeguard
+## Jak se projevuje
 
-## References
+Bezprostředně: rozplynutí hranic já, intenzivní pocit smysluplnosti, změněné vnímání času, emoce od blaženosti po úzkost. Následně: potřeba prožitek začlenit do vlastního života – **integrace**. Právě zde se rozhoduje, zda prožitek posílí, nebo destabilizuje.
 
-- James, W. *The Varieties of Religious Experience* (Longmans, Green, 1902)
-- Stace, W. T. *Mysticism and Philosophy* (Macmillan, 1960)
-- Pahnke, W. N. *Drugs and Mysticism* (PhD thesis, Harvard, 1963)
-- Griffiths, R. R. et al. *Psilocybin produces substantial and sustained decreases in depression and anxiety in patients with life-threatening cancer* (J. Psychopharmacology, 2016)
-- Barrett, F. S. et al. *Validation of the revised Mystical Experience Questionnaire* (J. Psychopharmacology, 2015)
+Rizikové znaky v následném období:
 
----
+- výklad prožitku přebírá jediná autorita (vůdce, facilitátor), která z něj odvozuje nárok na poslušnost;
+- prožitek je prezentován jako důkaz, že dosavadní život, vztahy a úsudek byly „iluzí“;
+- člověk se snaží prožitek opakovat za každou cenu;
+- objevují se příznaky destabilizace – nespavost, úzkost, derealizace, ztráta [reality testing](@/glossary/reality-testing.md).
 
-*Built with precision. Optimized for AI consumption.*
+## Mechanismus
+
+Mystický prožitek je epistemicky silný, protože má **noetickou kvalitu**: prožívá se jako poznání. Kdo ovládá jeho výklad, získává mimořádnou autoritu. Kompendium popisuje zneužití tohoto mechanismu jako [EA-5.1.19 Kvazimystickou anihilaci](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md) a [EA-5.1.14 Iluzorní transcendenci](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md): navozený nebo nárokovaný prožitek slouží k rozpuštění dosavadní identity a k převzetí výkladové moci. Tytéž znaky – rozpuštění ega, pocit jednoty – mohou být v jiném kontextu léčivé. Rozhoduje kontext, svoboda, příprava a integrace, ne prožitek sám.
+
+## Odlišení
+
+- **Od [ego death](@/glossary/ego-death.md):** specifická fenomenologická podmnožina širší kategorie mystického prožitku.
+- **Od psychotické epizody:** psychóza může obsahovat podobné prvky, ale bývá dlouhodobá, provázená dalšími příznaky a ztrátou náhledu; nutná je [diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
+- **Od [transformativní zkušenosti](@/glossary/transformative-experience.md):** mystický prožitek může být transformativní, ale ne každá transformativní zkušenost je mystická.
+- **Od [spiritual bypassing](@/glossary/spiritual-bypassing.md):** použití duchovních prožitků k vyhnutí se psychickým a vztahovým problémům.
+- **Od [anihilačních fenoménů](@/glossary/anihilacni-fenomeny.md):** překrývající se shluk prožitků, nahlížený z pohledu poškození.
+
+## Význam pro Kompendium
+
+Pro vyšetřování due diligence zaměřená na náboženské, terapeutické nebo koučovací organizace platí na platformě Prismatic, z níž kniha vzešla: tvrzení o „spirituálních zážitcích“ klientů lze ověřovat jen s odkazem na standardizované nástroje a vnější kontrolu. Manažersky kritické je, že organizace, která *prodává mystické prožitky* (psychedelické pobyty, intenzivní meditační centra, charismatické náboženské komunity), musí doložit:
+
+1. screeningový protokol;
+2. kvalifikovanou podporu integrace;
+3. absenci nátlaku při navozování prožitku;
+4. následnou péči po prožitku.
+
+Absence kteréhokoli z těchto čtyř pilířů zvyšuje riziko [iatrogenního](@/glossary/iatrogenic-harm.md) traumatu a podle interní rubriky platformy řadí organizaci do kategorie *vysokého rizika*.
+
+Praktická uplatnění:
+
+1. **Hodnocení poskytovatele terapie s pomocí psychedelik:** kvalifikovaná klinika měří MEQ30 standardně a výsledky integrace sleduje měsíce po sezení. Absence kvantitativních dokladů je varovným signálem.
+2. **Zpráva due diligence o cílové firmě v sektoru wellness a spirituality:** odlišit organizace nabízející kontemplativní intervence založené na důkazech (MBSR, MBCT) od organizací stavějících na charismatu zakladatele ([charisma](@/glossary/charisma.md)).
+3. **Analýza OSINT náboženské komunity:** opakované veřejné nárokování mystických prožitků vůdcem bez potvrzení ostatními členy souvisí s autoritářskými sklony.
+
+V kazuistikách knihy se tematika objevuje v [zotavení ze spirituálního kultu](@/kompendium/case-studies/50-spiritual-cult-recovery.md) a v [zotavení z New Age](@/kompendium/case-studies/51-new-age-recovery.md).
+
+## Obrana a zotavení
+
+- **Před prožitkem:** informovat se, kdo prožitek vede, jaký je screening a jaká je následná péče; nikdy nevstupovat do situace, z níž nelze odejít ([informed consent](@/glossary/informed-consent.md)).
+- **Po prožitku:** dát si čas; neprovádět velká životní rozhodnutí bezprostředně; hledat výklad u více lidí, ne u jednoho; začleňovat prožitek do dosavadního příběhu, ne místo něj ([narativní identita](@/glossary/narativni-identita.md)).
+- **Pro profesionála:** brát prožitek vážně, nepatologizovat jej automaticky a zároveň sledovat známky destabilizace; při zneužití pracovat podle [obnovy duchovního rozměru](@/kompendium/prevention-resilience/28-spiritual-restoration-prevention.md) a [prohlubování smyslu](@/kompendium/recovery-protocols/longterm-meaning-deepening.md).
+
+## Literatura
+
+- William James: *The Varieties of Religious Experience* (Longmans, Green, 1902).
+- W. T. Stace: *Mysticism and Philosophy* (Macmillan, 1960).
+- W. N. Pahnke: *Drugs and Mysticism* (disertace, Harvard, 1963).
+- R. R. Griffiths a kol.: „Psilocybin produces substantial and sustained decreases in depression and anxiety in patients with life-threatening cancer“, *Journal of Psychopharmacology* (2016).
+- F. S. Barrett a kol.: „Validation of the revised Mystical Experience Questionnaire“, *Journal of Psychopharmacology* (2015).
+
+## Související
+
+**Pojmy**
+
+- [Ego Death](@/glossary/ego-death.md) – specifická podmnožina mystického prožitku.
+- [Anihilační fenomény](@/glossary/anihilacni-fenomeny.md) – překrývající se shluk prožitků.
+- [Epistemické trauma](@/glossary/epistemicke-trauma.md) – nepříznivý následek destabilizujícího prožitku.
+- [Narativní identita](@/glossary/narativni-identita.md) – vrstva soudržnosti já, kterou má integrace obnovit.
+- [Reality Testing](@/glossary/reality-testing.md) – funkce, kterou má podpora integrace chránit.
+- [Spiritual Bypassing](@/glossary/spiritual-bypassing.md) – zneužití duchovního prožitku.
+
+**Kniha**
+
+- [EA-5.1.19 Kvazimystická anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md) – zneužitá podoba.
+- [Zotavení ze spirituálního kultu](@/kompendium/case-studies/50-spiritual-cult-recovery.md) – kazuistika.

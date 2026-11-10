@@ -1,1 +1,118 @@
-{#- Kontext stránky podle typu (technika, případ, heslo glosáře). Vlastní: agent „kontext“. Zatím prázdné. -#}
+{#- Kontext stránky podle typu, odvozený z grafu odkazů (static/data/graph.json) bez autorství
+    po stránkách. Vlastní: agent „kontext“. Technika: výskyt v případech a sousedé v rodině;
+    případ (případová studie, historický případ): použité techniky po rodinách a podobné případy;
+    heslo glosáře: kde se pojem používá. Ostatní stránky nevykreslí nic. Panel je skrytý, dokud
+    jej neodkryje static/js/viz/kontext.js; data se načtou, až se panel objeví v okně. Všechny
+    třídy jsou zde (řádky se klonují z <template>), aby je Tailwind našel ve zdrojích šablon. -#}
+{%- set kx_parts = page.components | default(value=[]) -%}
+{%- set_global kx_type = "" -%}
+{%- if kx_parts | length > 2 and kx_parts[0] == "kompendium" -%}
+  {%- if kx_parts[1] == "techniques" -%}
+    {%- set_global kx_type = "technique" -%}
+  {%- elif kx_parts[1] == "case-studies" or kx_parts[1] == "historical-cases" -%}
+    {%- set_global kx_type = "case" -%}
+  {%- endif -%}
+{%- elif kx_parts | length > 1 and kx_parts[0] == "glossary" -%}
+  {%- set_global kx_type = "glossary" -%}
+{%- endif -%}
+{%- if kx_type %}
+{%- if page.extra.ea_code is defined %}{% set kx_code = page.extra.ea_code %}{% else %}{% set kx_code = "" %}{% endif %}
+{%- if page.extra.ea_category is defined %}{% set kx_family = page.extra.ea_category %}{% else %}{% set kx_family = "" %}{% endif %}
+{%- if kx_type == "technique" %}{% set kx_title = "Kontext techniky" %}
+{%- elif kx_type == "case" %}{% set kx_title = "Kontext případu" %}
+{%- else %}{% set kx_title = "Kontext pojmu" %}{% endif %}
+<section data-kontext="{{ page.relative_path }}" data-kontext-type="{{ kx_type }}" data-kontext-code="{{ kx_code }}" data-kontext-family="{{ kx_family }}" data-kontext-catalog="{{ get_url(path='@/kompendium/techniques/_index.md') }}" hidden class="mt-8 border-t border-gray-200 pt-6 dark:border-gray-700" aria-labelledby="kontext-title">
+  <div class="mb-3 flex flex-wrap items-baseline justify-between gap-2">
+    <h2 id="kontext-title" class="text-sm font-semibold uppercase tracking-wide text-gray-900 dark:text-white">{{ kx_title }}</h2>
+    <p data-kx-meta class="text-sm text-gray-500 dark:text-gray-400"></p>
+  </div>
+  <div data-kx-body aria-busy="true" aria-live="polite" class="grid grid-cols-1 items-start gap-4 md:grid-cols-2">
+    {%- for i in [1, 2] %}
+    <div class="animate-pulse rounded-lg border border-gray-200 p-4 dark:border-gray-700" aria-hidden="true">
+      <div class="mb-4 h-2.5 w-32 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+      <div class="mb-2.5 h-2 w-full rounded-full bg-gray-200 dark:bg-gray-700"></div>
+      <div class="mb-2.5 h-2 w-5/6 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+      <div class="h-2 w-2/3 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+    </div>
+    {%- endfor %}
+    <span class="sr-only">Načítám kontext stránky…</span>
+  </div>
+
+  {#- Panel (Pro card): nadpis s počtem, tělo se seznamem. -#}
+  <template data-kx-tpl="panel"><div class="min-w-0 rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-800">
+    <h3 class="mb-3 flex items-center gap-2 text-base font-semibold text-gray-900 dark:text-white"><span data-f="title"></span><span data-f="count" class="rounded-full bg-primary-100 px-2 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"></span></h3>
+    <div data-f="body" class="space-y-2"></div>
+  </div></template>
+  <template data-kx-tpl="empty"><div class="flex items-center gap-3 rounded-lg border border-dashed border-gray-300 p-4 text-sm text-gray-500 dark:border-gray-600 dark:text-gray-400">
+    <svg class="h-5 w-5 shrink-0 text-gray-400 dark:text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"/></svg>
+    <span data-f="text"></span>
+  </div></template>
+  <template data-kx-tpl="more"><button type="button" class="inline-flex items-center gap-1 rounded-lg px-2 py-1 text-sm font-medium text-primary-700 hover:bg-gray-100 hover:underline focus:outline-none focus:ring-4 focus:ring-primary-300 dark:text-primary-500 dark:hover:bg-gray-700 dark:focus:ring-primary-800"></button></template>
+  <template data-kx-tpl="subhead"><p class="pt-1 text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400"></p></template>
+
+  {#- Odznaky typu případu (Pro badges). -#}
+  <template data-kx-tpl="badge-study"><span class="inline-flex shrink-0 items-center rounded-sm bg-primary-100 px-2 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300">Případová studie</span></template>
+  <template data-kx-tpl="badge-hist"><span class="inline-flex shrink-0 items-center rounded-sm bg-yellow-100 px-2 py-0.5 text-xs font-medium text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300">Historický případ</span></template>
+
+  {#- Technika: karta případu, pozice v rodině, předchozí/další, čip techniky. -#}
+  <template data-kx-tpl="case"><a class="block rounded-lg border border-gray-200 bg-white p-3 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-primary-800">
+    <span class="mb-1 flex flex-wrap items-center gap-2"><span data-f="badge"></span><span data-f="meta" class="text-xs text-gray-500 dark:text-gray-400"></span></span>
+    <span data-f="title" class="block text-sm font-medium text-gray-900 dark:text-white"></span>
+  </a></template>
+  <template data-kx-tpl="position"><div class="rounded-lg bg-gray-50 p-3 dark:bg-gray-700">
+    <p class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-gray-700 dark:text-gray-300">
+      <span data-f="dot" class="h-2.5 w-2.5 shrink-0 rounded-full" aria-hidden="true"></span>
+      <span data-f="code" class="font-mono font-semibold text-gray-900 dark:text-white"></span>
+      <span aria-hidden="true">·</span>
+      <span>rodina <a data-f="family" class="font-mono font-medium text-primary-700 hover:underline dark:text-primary-500"></a></span>
+      <span data-f="name" class="text-gray-500 dark:text-gray-400"></span>
+      <span aria-hidden="true">·</span>
+      <span data-f="count"></span>
+    </p>
+    <div class="mt-2 h-1.5 w-full rounded-full bg-gray-200 dark:bg-gray-600" role="presentation"><div data-f="bar" class="h-1.5 rounded-full"></div></div>
+    <p data-f="pos" class="mt-1 text-xs text-gray-500 dark:text-gray-400"></p>
+  </div></template>
+  <template data-kx-tpl="neighbours"><div class="grid grid-cols-2 gap-2"></div></template>
+  <template data-kx-tpl="neighbour"><a class="flex min-w-0 flex-col gap-0.5 rounded-lg border border-gray-200 bg-white p-3 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-primary-800">
+    <span data-f="dir" class="text-xs text-gray-500 dark:text-gray-400"></span>
+    <span data-f="code" class="font-mono text-xs font-semibold text-gray-900 dark:text-white"></span>
+    <span data-f="title" class="truncate text-sm font-medium text-gray-700 dark:text-gray-300"></span>
+  </a></template>
+  <template data-kx-tpl="edge"><div class="flex min-w-0 flex-col justify-center rounded-lg border border-dashed border-gray-300 p-3 text-xs text-gray-500 dark:border-gray-600 dark:text-gray-400"></div></template>
+  <template data-kx-tpl="chips"><div class="flex flex-wrap gap-1.5"></div></template>
+  <template data-kx-tpl="chip"><a class="inline-flex max-w-full items-center gap-1.5 rounded-md border border-gray-200 bg-white px-2 py-1 text-xs font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700 dark:focus:ring-primary-800">
+    <span data-f="dot" class="h-2 w-2 shrink-0 rounded-full" aria-hidden="true"></span>
+    <span data-f="code" class="shrink-0 font-mono"></span>
+    <span data-f="title" class="truncate font-normal text-gray-600 dark:text-gray-400"></span>
+  </a></template>
+
+  {#- Případ: skupina technik jedné rodiny, řádek podobného případu. -#}
+  <template data-kx-tpl="group"><div class="pt-2 first:pt-0">
+    <p class="mb-1.5 flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
+      <span data-f="dot" class="h-2.5 w-2.5 shrink-0 rounded-full" aria-hidden="true"></span>
+      <a data-f="family" class="font-mono hover:underline"></a>
+      <span data-f="count" class="rounded-full bg-gray-100 px-1.5 font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300"></span>
+    </p>
+    <div data-f="chips" class="flex flex-wrap gap-1.5"></div>
+  </div></template>
+  <template data-kx-tpl="similar"><a class="flex items-center justify-between gap-3 rounded-lg px-2 py-1.5 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:hover:bg-gray-700 dark:focus:ring-primary-800">
+    <span class="min-w-0"><span data-f="badge"></span><span data-f="title" class="mt-0.5 block truncate text-sm font-medium text-gray-900 dark:text-white"></span></span>
+    <span data-f="count" class="shrink-0 rounded-full bg-primary-100 px-2 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"></span>
+  </a></template>
+
+  {#- Glosář: řádek oddílu s pruhem, řádek stránky. -#}
+  <template data-kx-tpl="section"><a class="block rounded-lg px-2 py-1.5 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:hover:bg-gray-700 dark:focus:ring-primary-800">
+    <span class="flex items-center gap-2">
+      <span data-f="dot" class="h-2.5 w-2.5 shrink-0 rounded-full" aria-hidden="true"></span>
+      <span data-f="title" class="min-w-0 flex-1 truncate text-sm text-gray-700 dark:text-gray-300"></span>
+      <span data-f="count" class="shrink-0 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300"></span>
+    </span>
+    <span class="mt-1 block h-1 w-full rounded-full bg-gray-100 dark:bg-gray-700" role="presentation"><span data-f="bar" class="block h-1 rounded-full"></span></span>
+  </a></template>
+  <template data-kx-tpl="page"><a class="flex items-center justify-between gap-3 rounded-lg px-2 py-1.5 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:hover:bg-gray-700 dark:focus:ring-primary-800">
+    <span class="min-w-0"><span data-f="title" class="block truncate text-sm font-medium text-gray-900 dark:text-white"></span><span data-f="section" class="block truncate text-xs text-gray-500 dark:text-gray-400"></span></span>
+    <span data-f="count" class="shrink-0 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300"></span>
+  </a></template>
+</section>
+<script src="{{ get_url(path='js/viz/kontext.js', cachebust=true) }}" defer></script>
+{%- endif %}

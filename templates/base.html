@@ -17,8 +17,21 @@
 <meta name="author" content="{{ config.extra.author }}">
 <meta name="color-scheme" content="light dark">
 {#- SEO, all derived from the page or section; nothing is typed per page. og_image is the one
-    place the sharing image is chosen (a per-section image can replace it here later). -#}
+    place the sharing image is chosen: the image of the page's top-level section
+    (kompendium/<section>, glossary, philosophy, kompendium itself), rendered by
+    scripts/render-section-graphics.py into img/generated/og-<slug>.png; img/og.png when the
+    page has no such section (the home page, root pages) or its image does not exist. -#}
 {%- set_global og_image = get_url(path="img/og.png") -%}
+{%- if ctx.relative_path is defined -%}
+{%- set og_parts = ctx.relative_path | split(pat="/") -%}
+{%- set_global og_key = "" -%}
+{%- if og_parts | length > 2 and og_parts[0] == "kompendium" -%}{%- set_global og_key = "kompendium-" ~ og_parts[1] -%}
+{%- elif og_parts | length > 1 -%}{%- set_global og_key = og_parts[0] -%}{%- endif -%}
+{%- if og_key -%}
+{%- set og_meta = get_image_metadata(path="img/generated/og-" ~ og_key | slugify ~ ".png", allow_missing=true) -%}
+{%- if og_meta -%}{%- set_global og_image = get_url(path="img/generated/og-" ~ og_key | slugify ~ ".png") -%}{%- endif -%}
+{%- endif -%}
+{%- endif -%}
 {%- set_global seo_title = ctx.title | default(value=config.title) -%}
 {%- set_global seo_description = ctx.description | default(value=config.description) -%}
 {%- set_global is_home = section is defined and section.path == "/" -%}

@@ -13,11 +13,11 @@ author = "Tomas Korcak (korczis)"
 difficulty = "intermediate"
 abbreviation = "TB"
 date_created = "2026-05-03"
-date_updated = "2026-05-03"
+date_updated = "2026-11-10"
 importance = "critical"
 related_terms = ["trauma-bond", "trauma-spectrum", "betrayal-trauma", "complex-trauma", "coercive-control", "gaslighting", "undue-influence"]
-keywords = ["trauma bonding", "Stockholm syndrome", "intermittent reinforcement", "coercive control", "domestic abuse", "cult dynamics", "victim psychology", "captor-bonding"]
-key_takeaway = "Trauma bonding is a measurable psychological mechanism — not weakness — by which intermittent reinforcement and survival dependency forge attachment to the source of harm. Recognizing it is essential when interviewing victims, evaluating witness credibility, and assessing capacity in vetting workflows."
+keywords = ["trauma bonding", "traumatické pouto", "přerušované posilování", "coercive control", "stockholmský syndrom", "forenzní rozhovor"]
+key_takeaway = "Traumatické pouto je popsaný psychologický mechanismus, ne slabost: přerušované posilování a závislost na přežití utvářejí vazbu na zdroj újmy. Jeho rozpoznání je podmínkou správného vedení rozhovoru s obětí i posouzení svobodné vůle."
 see_also = ["forensic-interview", "undue-influence", "expert-witness"]
 image = "/images/sections/glossary.png"
 image_alt = "Trauma bonding (traumatické pouto) – glosář"
@@ -26,128 +26,188 @@ image_alt = "Trauma bonding (traumatické pouto) – glosář"
 ## Definice
 
 **Traumatické pouto** (*trauma bonding*) označuje silnou citovou vazbu, která vzniká, když se
-týraný člověk psychicky připoutá k pachateli opakujícím se cyklem hrozby, ublížení a usmíření,
-prokládaným obdobími vřelosti, uznání nebo úlevy. Pouto stojí na výzkumu operantního podmiňování
-o **přerušovaném posilování**, které vytváří nejodolnější naučené reakce. Traumatická pouta
-vysvětlují, proč oběti domácího násilí, únosců, obchodníků s lidmi, kultů a zaměstnavatelů
-s vysokou mírou kontroly často pachatele hájí, vracejí se k němu nebo mu zůstávají loajální.
+týraný člověk psychicky připoutá k pachateli opakujícím se sledem hrozby, ublížení a usmíření
+prokládaným obdobími vřelosti nebo úlevy. Dutton a Painterová pojem zavedli pro vztahy
+s přerušovaným týráním a odvodili jej ze dvou podmínek: výrazné nerovnováhy moci a střídání
+ublížení s laskavostí (Dutton a Painter, 1981).
 
-Traumatické pouto není slabost ani špatný úsudek oběti – je to mechanismus přežití, v němž
-střídání hrozby a úlevy zapojuje podobné systémy odměny jako závislostní chování. Blízké
-heslo [Traumatic Bonding](@/glossary/traumatic-bonding.md) se věnuje témuž jevu z jiného úhlu.
+Pouto není slabostí ani špatným úsudkem oběti. Walkerová popsala cyklus násilí s fází
+narůstajícího napětí, incidentu a následného usmíření a ukázala, že právě fáze usmíření
+vysvětluje setrvání ve vztahu lépe než jakákoli vlastnost oběti (Walker, 1979). Blízké heslo
+[traumatic bonding](@/glossary/traumatic-bonding.md) se věnuje témuž jevu z jiného úhlu.
+
+Pojem je nutné držet oddělený od [coercive control](@/glossary/coercive-control.md): nátlaková
+kontrola je vzorec jednání pachatele, kdežto traumatické pouto je následek na straně oběti
+(Stark, 2007).
 
 ## Původ a kontext pojmu
 
-Pojem *traumatic bonding* zavedli Donald Dutton a Susan Painterová v práci o citových vazbách
-týraných žen (*Victimology*, 1981). Širší veřejnosti ho přiblížil psycholog Patrick Carnes v knize
-*The Betrayal Bond* (1997, přepracováno 2019). Navazuje na výzkum přerušovaného posilování
-v behaviorální psychologii, na teorii citové vazby a na klinickou literaturu o komplexním traumatu
-(Judith Herman, *Trauma and Recovery*, 1992; Bessel van der Kolk, *The Body Keeps the Score*,
-2014). V knize se k němu vztahuje i [love bombing](@/glossary/love-bombing.md) a fáze
-odvržení ([discard](@/glossary/discard.md)).
+Dutton a Painterová postavili svůj popis na behaviorálním výzkumu režimů posilování. Ferster
+a Skinner doložili, že reakce vybudované na nepravidelném, občasném posílení jsou vůči vymizení
+nejodolnější (Ferster a Skinner, 1957); právě tato nepředvídatelnost je u traumatického pouta
+rozhodující (Dutton a Painter, 1981).
+
+Druhou větev tradice tvoří literatura o vazbě zajatce na únosce. Grahamová ji rozpracovala jako
+obecnou odpověď na ohrožení života v situaci, z níž není úniku, a vztáhla ji na dlouhodobé
+násilí v blízkých vztazích (Graham, 1994). Širší veřejnosti pojem přiblížil Carnes pod názvem
+„vazba zrady“ (Carnes, 1997).
+
+Klinický rámec dodává literatura o komplexním traumatu. Hermanová popsala, že dlouhodobé
+zajetí v nerovném vztahu mění vztah k sobě i k druhým a že setrvání u pachatele je součástí
+obrazu, nikoli jeho vyvrácením (Herman, 1992); van der Kolk doplnil tělesnou vrstvu, tedy
+přetrvávající poplachovou reakci, která se neuklidní ani po odchodu (van der Kolk, 2014).
+V knize na pojem navazují [love bombing](@/glossary/love-bombing.md) a fáze odvržení
+([discard](@/glossary/discard.md)).
 
 ## Jak se projevuje
 
-- oběť pachatele hájí, omlouvá nebo idealizuje, i když popisuje závažné ubližování;
-- opakované odchody a návraty; úleva a „štěstí“ po usmíření;
-- přebírání viny („kdybych byl/a lepší, nechoval by se tak“);
-- izolace od lidí, kteří vztah kritizují;
-- silné tělesné reakce (úzkost, abstinenční příznaky) při odloučení;
-- v rozhovoru popírání zjevných faktů a racionalizace;
-- u svědků zpožděné oznámení nebo odvolání výpovědi.
+Nejnápadnějším znakem je rozpor mezi obsahem a hodnocením: oběť popisuje závažné ubližování
+a současně pachatele hájí, omlouvá nebo idealizuje. Hermanová upozorňuje, že tato obhajoba je
+obranou, která udržuje snesitelnost vztahu, a nikoli věcným stanoviskem k tomu, co se stalo
+(Herman, 1992).
 
-## Mechanismus
+Druhým znakem je sled odchodů a návratů s výraznou úlevou po usmíření. Walkerová ukázala, že
+fáze usmíření bývá prožívána jako důkaz, že vztah lze zachránit, a že počet návratů před
+trvalým odchodem je pravidlem, ne výjimkou (Walker, 1979).
 
-Strukturálně stojí pouto na třech prvcích: **nerovnováze moci**, **nepředvídatelném střídání
-ublížení a laskavosti** a **izolaci**, která zúží zdroje citové podpory na samotného pachatele.
-Úleva po ustání hrozby je prožívána jako blízkost; čím méně předvídatelná je laskavost, tím
-silnější je vazba. K tomu přistupuje [gaslighting](@/glossary/gaslighting.md), který oslabuje
-důvěru oběti ve vlastní vnímání, a [coercive control](@/glossary/coercive-control.md) jako
-celkový vzorec ovládání. Popis slouží k rozpoznání a vysvětlení chování oběti, ne jako postup.
+Třetím znakem je přebírání viny a izolace: oběť vysvětluje násilí vlastním selháním a omezuje
+kontakt s lidmi, kteří vztah kritizují. Stark popsal odnímání sociálních a hmotných zdrojů jako
+jádro nátlakové kontroly, nikoli jako její okrajový důsledek (Stark, 2007).
+
+Čtvrtým znakem jsou tělesné reakce při odloučení – úzkost, nespavost, neklid –, které oběť
+sama popisuje jako „abstinenční“. Van der Kolk vysvětluje tuto podobu stavu přetrvávající
+aktivací poplachových systémů, které se vážou na přítomnost známé osoby (van der Kolk, 2014).
+
+V řízení se pouto ohlašuje zpožděným oznámením, odvoláním výpovědi nebo popíráním zjevných
+skutečností. Grahamová upozorňuje, že z pohledu oběti jde o racionální chování v situaci, v níž
+je pachatel zároveň zdrojem hrozby i bezpečí (Graham, 1994).
+
+## Mechanismus, jak jej zdroje nesou
+
+Strukturně stojí popis na třech prvcích, které Dutton a Painterová uvádějí jako podmínky svého
+pozorování: nerovnováze moci, nepředvídatelném střídání ublížení a laskavosti a izolaci, jež
+zúží zdroje citové podpory na samotného pachatele (Dutton a Painter, 1981). Úleva po ustání
+hrozby je prožívána jako blízkost.
+
+Behaviorální složkou mechanismu je režim posilování: nepravidelné posílení vytváří nejodolnější
+naučené reakce, a proto je vazba tím pevnější, čím méně předvídatelná je laskavost (Ferster
+a Skinner, 1957). Srovnání se závislostí je v literatuře běžné, ale zůstává analogií; že jde
+o tytéž nervové dráhy, prameny uvedené na této stránce nedokládají.
+
+K tomu přistupuje oslabení důvěry ve vlastní vnímání, které kniha popisuje jako
+[gaslighting](@/glossary/gaslighting.md), a celkový vzorec ovládání každodenního života
+(Stark, 2007). Popis slouží k rozpoznání a k vysvětlení chování oběti; pořadí uvedených prvků
+není postup.
 
 ## Odlišení
 
-Odborná literatura odlišuje traumatické pouto od:
+Od zdravé citové vazby se traumatické pouto liší tím, že nestojí na střídání strachu a úlevy
+a snese kritiku vztahu; měřítkem je [secure attachment](@/glossary/secure-attachment.md),
+u něhož blízkost neslouží k utišení hrozby vyvolané týmž člověkem (Dutton a Painter, 1981).
 
-- **zdravé citové vazby** – ta nestojí na střídání strachu a úlevy a snese kritiku vztahu
-  (srov. [secure attachment](@/glossary/secure-attachment.md));
-- **závislé poruchy osobnosti** – trvalý vzorec napříč vztahy, ne odpověď na konkrétní
-  týrání;
-- **stockholmského syndromu** – užšího jevu specifického pro vztah zajatce a únosce;
-- **[pseudoempatické vazby](@/glossary/pseudoempaticka-vazba.md)** – vazby postavené na zdání
-  porozumění, bez nutného cyklu ublížení;
-- **souhlasu** – setrvání ve vztahu není důkazem svobodného souhlasu.
+Od závislé poruchy osobnosti se liší rozsahem a zdrojem: porucha osobnosti je trvalý vzorec
+napříč vztahy a situacemi, kdežto traumatické pouto je odpovědí na konkrétní vztah
+s konkrétním jednáním (American Psychiatric Association, 2022).
 
-## Význam pro Kompendium
+Od stockholmského syndromu je třeba se odlišit obezřetně, protože ten sám není uznanou
+diagnózou: Namnyak se spolupracovníky zjistili, že pojem je v literatuře užíván bez
+konsenzuální definice a bez doložených diagnostických kritérií (Namnyak a kol., 2008).
+Traumatické pouto je proti tomu vymezeno pozorovatelnými podmínkami vztahu (Dutton a Painter,
+1981).
 
-V trestním řízení se traumatické pouto pravidelně uvádí k vysvětlení zpožděného oznámení,
-odvolání výpovědi oběti a „nespolupracujících“ svědků v případech domácího násilí a obchodu
-s lidmi. Soudy v řadě jurisdikcí připustily znalecká svědectví o traumatickém poutu, aby vyvrátily
-závěr, že pokračující kontakt oběti s pachatelem znamená souhlas nebo smyšlenku. V civilních
-kontextech – napadení závětí pro [nepřípustný vliv](@/glossary/undue-influence.md), smlouvy
-podepsané pod nátlakem, ukončení pracovního poměru členů kultů – podporují doklady o traumatickém
-poutu tvrzení, že zdánlivě dobrovolné úkony nebyly výsledkem svobodné vůle (viz [Právo o coercive
-control](@/kompendium/forensic-legal/12-coercive-control-law.md)).
+Od [pseudoempatické vazby](@/glossary/pseudoempaticka-vazba.md) se liší tím, že nevyžaduje sled
+ublížení a usmíření, a od svobodného souhlasu tím, že setrvání ve vztahu není jeho důkazem;
+Stark právě proto navrhl posuzovat kontrolu jako vzorec jednání, ne jako jednotlivé incidenty
+(Stark, 2007).
 
-V investigativní praxi a v [due diligence](@/glossary/due-diligence.md) je rozpoznání pouta klíčové pro správné vedení rozhovorů
-(svědek může chránit pachatele) i pro posouzení rozhodovací kapacity protistran v transakcích, kde
-je podezření na nepřípustný vliv. Mylný výklad projevů pouta jako „souhlasu“ nebo „spolupráce“
-je častou chybou méně zkušených vyšetřovatelů. Při prověrkách bohatých osob nebo politicky
-exponovaných osob mohou traumatická pouta v domácnosti ukazovat na skrytý nátlak, který ovlivňuje
-určení skutečného majitele a riziko praní peněz.
+## Klinický, právní a forenzní rámec
+
+V trestním řízení se traumatické pouto uvádí k vysvětlení zpožděného oznámení, odvolání výpovědi
+a zdánlivě nespolupracujícího svědka v případech domácího násilí a obchodu s lidmi; opora pro
+takový výklad je v literatuře o dlouhodobém zajetí (Herman, 1992). Právní úpravy, které postihují
+vzorec jednání namísto jednotlivého útoku, vznikly právě z poznání, že újma je kumulativní – v
+Anglii a Walesu to je Serious Crime Act 2015, v českém právu trestný čin týrání osoby žijící ve
+společném obydlí podle trestního zákoníku, zákon č. 40/2009 Sb. Souvislosti rozvádí [Právo
+o coercive control](@/kompendium/forensic-legal/12-coercive-control-law.md).
+
+V civilních kontextech – napadení závěti pro [nepřípustný vliv](@/glossary/undue-influence.md),
+smlouvy podepsané pod nátlakem, ukončení členství ve skupině s vysokou mírou kontroly –
+podporují doklady o poutu tvrzení, že zdánlivě dobrovolný úkon nebyl výsledkem svobodné vůle
+(Stark, 2007).
+
+Ve vyšetřování a v [due diligence](@/glossary/due-diligence.md) je rozpoznání pouta podmínkou
+správného vedení rozhovoru, protože svědek může pachatele chránit; výklad idealizace jako
+„souhlasu“ nebo „spolupráce“ je výkladovou chybou, na niž upozorňuje už nejstarší popis jevu
+(Dutton a Painter, 1981).
 
 ## Obrana a zotavení
 
-**Pro vyšetřovatele**: forenzní rozhovory s lidmi v traumatickém poutu vedou podle protokolů
-zohledňujících trauma – bez sugestivních otázek, které naznačují vinu oběti, s možností
-nelineárního vybavování a s vědomím, že idealizace pachatele je obranný mechanismus, ne
-vyviňující výpověď (viz [forenzní rozhovor](@/glossary/forensic-interview.md)).
+Pro vyšetřovatele platí, že rozhovor vedený s ohledem na trauma nepoužívá sugestivní otázky
+naznačující vinu oběti a připouští nelineární vybavování; fragmentární výpověď je u traumatu
+pravidlem, nikoli známkou nepravdivosti (Herman, 1992). Navazující postup popisuje [forenzní
+rozhovor](@/glossary/forensic-interview.md).
 
-**Pro terapeuta**: mezi modality s empirickou oporou u traumatu patří traumaticky zaměřená KBT
-a EMDR; používá se i přístup Internal Family Systems, jehož empirická opora je zatím menší.
-Zotavení obvykle vyžaduje fyzické oddělení a strukturovanou psychoedukaci o samotném mechanismu
-pouta – pojmenování cyklu často zmenší stud.
+Pro terapeuta je východiskem pořadí stabilizace, vzpomínání a znovuspojení a psychoedukace
+o samotném mechanismu pouta, protože pojmenování sledu událostí zmenšuje stud (Herman, 1992).
+Tělesnou vrstvu – poplachovou reakci, která přetrvává po odchodu – je třeba léčit zvlášť a ne
+jako nedostatek odhodlání (van der Kolk, 2014). Navazují [akutní zajištění
+bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md) a [subakutní
+relační restrukturalizace](@/kompendium/recovery-protocols/subacute-relational-restructuring.md).
 
-**Pro postiženého a blízké**:
-
-- odchod bývá proces, ne jednorázový krok; návraty nejsou selháním;
-- blízcí mají udržet kontakt bez ultimát a bez kritiky oběti;
-- bezpečnostní plán a kontakt na specializovanou pomoc obětem násilí;
-- zaznamenávat události, aby šlo cyklus vidět v čase.
-
-Postupy rozvádějí [Akutní zajištění
-bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md) a [Subakutní
-relační restrukturalizace](@/kompendium/recovery-protocols/subacute-relational-restructuring.md);
-souvislosti ukazuje kazuistika [Gaslighting
+Pro postiženého a jeho blízké je nejdůležitější informace, že odchod je proces a že návraty
+nejsou selháním; Walkerová doložila, že opakované návraty patří k obvyklému průběhu (Walker,
+1979). Blízcí pomáhají nejvíc tím, že udrží kontakt bez ultimát a bez kritiky oběti, protože
+izolace je tím, co pouto drží (Stark, 2007). Souvislosti ukazuje kazuistika [Gaslighting
 partnerský](@/kompendium/case-studies/08-gaslighting-partnersky.md).
+
+## Meze a kritika
+
+Hlavní mezí pojmu je slabá empirická základna jeho původní formulace: Dutton a Painterová
+pracovali s malým vzorkem a s retrospektivními výpověďmi, takže jejich práce doložila
+souvislost, ne příčinu (Dutton a Painter, 1981). Pojem je proto užitečný jako rámec pro výklad
+chování, ne jako měřitelná veličina.
+
+Druhou výhradou je riziko záměny s nálepkou. Protože se pojem rozšířil v poradenské literatuře
+(Carnes, 1997), užívá se dnes i pro vztahy, v nichž chybí nerovnováha moci nebo cyklus
+ublížení; takové užití ztrácí vypovídací hodnotu. Varovným příkladem je pojmová neukotvenost
+stockholmského syndromu (Namnyak a kol., 2008).
+
+Otevřenou otázkou zůstává, nakolik je srovnání se závislostí více než metaforou a které
+složky pouta jsou nejlépe ovlivnitelné léčbou; dostupné doklady pokrývají stabilizaci
+a psychoedukaci lépe než práci s vazbou samou (Herman, 1992).
 
 ## Literatura
 
-- Donald G. Dutton, Susan Painter: „Traumatic bonding: The development of emotional attachments
-  in battered women and other relationships of intermittent abuse“, *Victimology* 6 (1981).
-- Patrick Carnes: *The Betrayal Bond: Breaking Free of Exploitive Relationships* (Health
-  Communications, 1997; přepr. 2019).
-- Judith L. Herman: *Trauma and Recovery* (Basic Books, 1992; aktualizováno 2015).
-- Bessel van der Kolk: *The Body Keeps the Score* (2014).
+- American Psychiatric Association (2022). *Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR)*. American Psychiatric Publishing.
+- Carnes, P. (1997). *The Betrayal Bond: Breaking Free of Exploitive Relationships*. Health Communications.
+- Dutton, D. G., & Painter, S. L. (1981). *Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse*. Victimology.
+- Ferster, C. B., & Skinner, B. F. (1957). *Schedules of Reinforcement*. Appleton-Century-Crofts.
+- Graham, D. L. R. (1994). *Loving to Survive: Sexual Terror, Men's Violence, and Women's Lives*. New York University Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Namnyak, M., Tufton, N., Szekely, R., Toal, M., Worboys, S., & Sampson, E. L. (2008). *„Stockholm syndrome“: psychiatric diagnosis or urban myth?* Acta Psychiatrica Scandinavica.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
+- van der Kolk, B. (2014). *The Body Keeps the Score*. Viking.
+- Walker, L. E. (1979). *The Battered Woman*. Harper & Row.
 
 ## Související
 
 **Pojmy**
 
-- [Traumatic Bonding](@/glossary/traumatic-bonding.md) – souběžné heslo o témže jevu.
-- [Betrayal Trauma](@/glossary/betrayal-trauma.md) – typ traumatu, který vazbě často předchází.
-- [Coercive Control](@/glossary/coercive-control.md) – vzorec chování, z něhož pouta vznikají.
-- [Gaslighting](@/glossary/gaslighting.md) – manipulace, která pouto posiluje.
-- [Complex Trauma](@/glossary/complex-trauma.md) – často souběžná diagnóza.
-- [Love Bombing](@/glossary/love-bombing.md) – idealizační fáze cyklu.
+- [Traumatic bonding](@/glossary/traumatic-bonding.md) – souběžné heslo o témže jevu.
+- [Betrayal trauma](@/glossary/betrayal-trauma.md) – typ traumatu, který vazbě často předchází.
+- [Coercive control](@/glossary/coercive-control.md) – vzorec jednání na straně pachatele.
+- [Gaslighting](@/glossary/gaslighting.md) – zpochybňování vnímání, které pouto doprovází.
+- [Complex trauma](@/glossary/complex-trauma.md) – klinický rámec dlouhodobého zajetí.
+- [Love bombing](@/glossary/love-bombing.md) – idealizační fáze na začátku sledu.
 
-**Hesla platformy mimo tuto knihu**
+**Právo a forenzní praxe**
 
-- [Trauma Bond](https://prismatic-reality-com.github.io/prismatic-promo/glossary/trauma-bond/),
-  [Trauma Spectrum](https://prismatic-reality-com.github.io/prismatic-promo/glossary/trauma-spectrum/) –
-  výsledná vazba a škála závažnosti traumatu.
+- [Právo o coercive control](@/kompendium/forensic-legal/12-coercive-control-law.md) – právní rámec.
+- [Forensic interview](@/glossary/forensic-interview.md) – vedení rozhovoru s obětí.
+- [Undue influence](@/glossary/undue-influence.md) – civilní posouzení svobodné vůle.
 
-**Kniha**
+**Zotavení**
 
-- [Právo o coercive control](@/kompendium/forensic-legal/12-coercive-control-law.md) – forenzní
-  a právní rámec.
+- [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md) – první fáze.
+- [Subakutní relační restrukturalizace](@/kompendium/recovery-protocols/subacute-relational-restructuring.md) – práce se vztahy.
+- [Gaslighting partnerský](@/kompendium/case-studies/08-gaslighting-partnersky.md) – kazuistika.

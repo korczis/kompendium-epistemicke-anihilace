@@ -2,7 +2,7 @@
 title = "Epistemická alienace"
 weight = 60
 
-description = "Odcizení člověka od vlastního poznávacího aparátu: vlastní myšlenky a úsudky prožívá jako cizí a nedůvěryhodné. Znaky, mechanismus, odlišení a zotavení."
+description = "Vlastní pojem knihy z její původní taxonomie (2025) pro ztrátu důvěry ve vlastní úsudek; skutečné konstrukty za ním, znaky, odlišení, obrana a doložené zotavení."
 
 [taxonomies]
 tags = ["glossary", "epistemic", "kompendium", "anihilacni-fenomeny"]
@@ -13,7 +13,7 @@ related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "metakognitivn
 author = "Tomáš Korcak (korczis)"
 date_created = "2026-04-25"
 date_modified = "2026-11-10"
-keywords = ["epistemická alienace", "epistemic alienation", "cognitive alienation"]
+keywords = ["epistemická alienace", "epistemic alienation", "epistemická nespravedlnost", "sebedůvěra v poznání", "původní taxonomie"]
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"
 image_alt = "Epistemická alienace – glosář"
@@ -21,113 +21,213 @@ image_alt = "Epistemická alienace – glosář"
 
 ## Definice
 
-**Epistemická alienace** (*epistemic alienation*) je odcizení subjektu od vlastního poznávacího aparátu: stav, v němž člověk prožívá vlastní myšlenkové procesy a jejich výsledky jako cizí, nedůvěryhodné nebo neautentické. Zatímco běžná pochybnost o sobě je místní a funkční – týká se jednoho úsudku a vede k jeho ověření –, epistemická alienace je **celková a nefunkční**: člověk ztrácí základní pracovní předpoklad, že jeho uvažování je rozpoznatelně jeho vlastní a v hrubých rysech spolehlivé.
+**Epistemická alienace** je vlastní název této knihy z její původní taxonomie (2025), kde je
+uvedena jako „meta-epistemický fenomén“ odcizení subjektu od vlastních poznávacích procesů.
+Nejde o ustálený termín filozofie ani kliniky; pod tímto názvem žádná samostatná odborná
+literatura neexistuje. Kniha jím označuje stav, v němž člověk prožívá vlastní myšlenkové
+procesy a jejich výsledky jako cizí, nedůvěryhodné nebo neautentické – tedy ztrátu výchozího
+předpokladu, že jeho uvažování je jeho vlastní a v hrubých rysech spolehlivé. Nejblíž tomu
+v odborné literatuře stojí pojem epistemické sebedůvěry: Lehrer ukázal, že každé poznání
+předpokládá přijetí vlastních úsudků za hodnověrné, protože bez tohoto přijetí nelze přijmout
+ani výsledky vlastního zkoumání (Lehrer, 1997).
 
-Fenomenologicky lidé v tomto stavu popisují:
+Druhým doloženým konstruktem za názvem knihy je [epistemická
+nespravedlnost](@/glossary/epistemicka-injustice.md): Fricker popsala, že trvalé upírání
+věrohodnosti může u dotčeného vést ke ztrátě sebedůvěry ve vlastní poznávací schopnosti,
+a nazvala tento druh škody poškozením epistemické osobnosti (Fricker, 2007).
 
-- **odtažité pozorování** vlastních myšlenek, jako by šlo o vnější jevy;
-- **zhroucení autenticity** – nejistotu, které myšlenky jsou „opravdu moje“ a které byly vštípeny, podmíněny nebo zmanipulovány;
-- **[kognitivní depersonalizaci](@/glossary/kognitivni-depersonalizace.md)** – oslabený pocit, že jsem původcem a vlastníkem svého uvažování;
-- **závislost na potvrzení** – nutkavé hledání vnější autority, která by vlastní závěry „ověřila“;
-- **reflexivní podezíravost vůči sobě**, která rozkládá spontánní úsudek.
-
-Strukturálně jde o **rozpad epistemického vztahu k sobě**: implicitního vztahu, který má zdravý člověk ke svému poznávacímu aparátu a v němž jej bere jako primární nástroj kontaktu se skutečností.
+Filozofickou tradici pojmu odcizení, z níž je název odvozen, rozpracovala Jaeggi jako „vztah
+nevztahu“ – poměr k vlastní činnosti, který člověk nedokáže přijmout jako svůj (Jaeggi, 2014).
+Kniha z této tradice přejímá slovo, nikoli tvrzení: Jaeggi o poznávacím aparátu v tomto smyslu
+nepíše (*interpretace knihy*).
 
 ## Původ a kontext pojmu
 
-Termín je pracovním pojmem [Kompendia](@/kompendium/_index.md). Navazuje na filozofickou tradici pojmu odcizení a na novější sociální epistemologii, která zkoumá, jak se člověk může stát nespolehlivým svědkem sám sobě – zvláště na práci Mirandy Frickerové o [epistemické nespravedlnosti](@/glossary/epistemicka-injustice.md), podle níž trvalé zpochybňování něčí výpovědi může vést k tomu, že dotyčný ztrácí důvěru ve vlastní poznávací schopnosti. Klinicky se pojem dotýká jevů popisovaných u [depersonalizace](@/glossary/depersonalizace.md), u komplexního traumatu a ve vztazích s [coercive control](@/glossary/coercive-control.md).
+Původní taxonomie (2025) uvádí u jevu chronický průběh s fluktuacemi intenzity a hodnocení
+závažnosti a vratnosti; to nemá empirickou oporu a kniha je nepřebírá. Stránka z ní přejímá
+myšlenku a typické projevy – epistemickou depersonalizaci, poznávací disociaci a hyperreflexi –,
+nikoli tvrzení, že je stav obtížně vratný. Tam, kde literatura o vratnosti vypovídá, je
+zotavení naopak běžné: Wells popsal léčbu, která mění právě vztah člověka k vlastnímu myšlení,
+a doložil ji u úzkostných a depresivních poruch (Wells, 2009).
 
-Epistemická alienace je funkčně závažná proto, že vyřazuje **základ**, na kterém stojí většina poznávací praxe. I nejpečlivější kritické myšlení předpokládá výchozí důvěru ve vlastní uvažování. Bez ní se každý závěr stává podezřelým až k ochromení, nebo k patologické poddajnosti vůči cizí autoritě.
+Odborné pozadí pojmu je trojí. Sociální epistemologie popisuje, jak se člověk může stát
+nespolehlivým svědkem sám sobě (Fricker, 2007). Psychologie myšlení popisuje sledování
+a hodnocení vlastních poznávacích procesů jako [metakognici](@/glossary/metakognice.md), tedy
+jako výkon, který se učí a může být narušen (Flavell, 1979). Klinická literatura o nátlakové
+kontrole popisuje prostředí, v němž je úsudek jednoho člověka soustavně zpochybňován
+a nahrazován úsudkem druhého (Stark, 2007).
 
 ## Jak se projevuje
 
-**V řeči a sebepopisu:**
+V sebepopisu se stav ohlašuje větami, které nemíří na obsah úsudku, ale na jeho původ: „nevím,
+jestli si to myslím já, nebo jestli mi to někdo nasadil do hlavy“. Výpověď začíná omluvou za
+vlastní úsudek místo popisem toho, co se stalo, a Fricker upozorňuje, že právě tato
+předběžná omluva je zvnitřněnou podobou upřené věrohodnosti (Fricker, 2007).
 
-- „Nevím, jestli si to myslím já, nebo jestli mi to někdo nasadil do hlavy.“
-- „Musím se nejdřív zeptat, jestli to vidím správně.“ – i u triviálních rozhodnutí.
-- Výpověď začíná omluvou za vlastní úsudek, ne popisem toho, co se stalo.
+V chování se objevuje odkládání rozhodnutí, dokud je neschválí určitá osoba, opakované
+přepisování vlastních poznámek, ústup od činností vyžadujících samostatný úsudek a neschopnost
+dokončit argument bez ujištění. Stark popsal tento přenos rozhodování na druhého jako jádro
+nátlakové kontroly, nikoli jako povahovou vlastnost (Stark, 2007).
 
-**V chování:**
+Pro pozorovatele je nejspolehlivějším znakem rozdíl, ne hladina: dříve samostatný člověk
+působí, jako by neměl vlastní názor, a jeho úsudek se nápadně liší v přítomnosti určité osoby
+a mimo ni. Abramson ukázala, že gaslighting směřuje k tomu, aby dotyčný přestal být
+z vlastního pohledu oprávněným mluvčím o skutečnosti (Abramson, 2014); v knize tomu odpovídá
+[skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md).
 
-- odkládání rozhodnutí, dokud je neschválí konkrétní osoba (partner, mentor, vedoucí skupiny);
-- opakované přepisování vlastních poznámek nebo deníku, protože „to asi bylo špatně“;
-- ústup od činností, které dříve vyžadovaly samostatný úsudek (odborná práce, studium);
-- neschopnost dokončit argument bez ujištění od druhého.
+Dalším znakem je oslabený pocit původcovství vlastních úsudků, který kniha označuje jako
+[kognitivní depersonalizaci](@/glossary/kognitivni-depersonalizace.md) a odlišuje jej od
+klinické [depersonalizace](@/glossary/depersonalizace.md), u níž je odcizení tělesné
+a vjemové (American Psychiatric Association, 2022).
 
-**U blízkých a profesionálů jako pozorovatelů:**
+## Mechanismus, jak jej zdroje nesou
 
-- dříve samostatný člověk působí, jako by „neměl vlastní názor“;
-- výrazný rozdíl mezi úsudkem v přítomnosti určité osoby a mimo ni;
-- [skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md) po kontaktu s konkrétním prostředím.
+Strukturním jmenovatelem je přenos autority nad vlastní myslí ven. Každé jednotlivé zpochybnění
+může vypadat jako drobnost; rozhoduje opakování a asymetrie – pochybuje se vždy o jednom
+člověku a nikdy o druhém –, což Stark popsal jako typickou podobu kontroly v blízkém vztahu
+(Stark, 2007).
 
-## Mechanismus
+Pro samoudržování stavu existuje nejlepší opora v literatuře o naučené bezmoci: Maier
+a Seligman doložili, že opakovaná zkušenost nekontrolovatelnosti snižuje snahu jednat i tam,
+kde jednání účinné je (Maier a Seligman, 1976). Čím méně si člověk věří, tím více hledá
+potvrzení zvenčí, a tím méně příležitostí má zažít, že jeho úsudek obstál; že tento kruh je
+týž mechanismus jako u naučené bezmoci, je *interpretace knihy*.
 
-Několik technik popsaných v Kompendiu je doloženými spouštěči epistemické alienace. Na úrovni struktury jde o tyto vzorce:
+Druhou, lépe podloženou částí mechanismu je metakognitivní přesvědčení o vlastním myšlení.
+Wells ukázal, že právě přesvědčení typu „svým úsudkům nelze věřit“ udržují úzkostné a ruminativní
+zacyklení bez ohledu na obsah myšlenek, a že je lze terapeuticky změnit (Wells, 2009). Popis
+zůstává na úrovni rozpoznatelné struktury; uvedené znaky nejsou postup.
 
-- dlouhodobá [EA-1.4.2 Latentní emoční modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) zaměřená právě na důvěru ve vlastní myšlení;
-- [vzorec „guru a adept“](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md), v němž mentor soustavně vykládá spontánní úsudky adepta jako „iluze ega“;
-- trvalé vystavení [EA-1.3.2 Strategické reinterpretaci](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) vlastních dřívějších výroků;
-- varianty [gaslightingu](@/glossary/gaslighting.md), které soustavně zpochybňují vnímání, paměť a usuzování dotyčného.
-
-Společným jmenovatelem je **přenos autority nad vlastní myslí ven**. Každé jednotlivé zpochybnění může vypadat jako drobnost; opakování a asymetrie (pochybuje se vždy o jednom člověku, nikdy o druhém) postupně mění výchozí nastavení. Člověk přestane brát první dojem, vzpomínku nebo úsudek jako výchozí bod, který lze případně opravit, a začne je brát jako podezřelý materiál, který musí schválit někdo jiný. Stav se pak může **sám stabilizovat**: čím méně si člověk věří, tím víc hledá potvrzení zvenčí, a tím méně má příležitostí zažít, že jeho úsudek obstál.
+Kniha dále popisuje prostředí, která se s tímto obrazem opakovaně pojí: vztah mentora a adepta,
+v němž jsou spontánní úsudky vykládány jako iluze, a dlouhodobé zpochybňování vnímání a paměti
+označované jako [gaslighting](@/glossary/gaslighting.md). Doloženo je, že takové prostředí
+odnímá člověku přístup k nezávislému ověření (Stark, 2007); že jeho výsledkem je právě
+„epistemická alienace“, je pojmenování knihy, ne nález literatury.
 
 ## Odlišení
 
-- **Od zdravé sebekritiky a [epistemické pokory](@/glossary/epistemicka-pokora.md):** pokora je ochota revidovat konkrétní přesvědčení na základě důvodů; alienace je ztráta vztahu k vlastnímu uvažování jako celku.
-- **Od depersonalizačně-derealizační poruchy:** povrchní fenomenologické rysy jsou podobné, ale liší se etiologie i průběh. Epistemická alienace se **specificky týká vztahu k poznávání**, nikoli celkového pocitu sebe nebo skutečnosti, a obvykle sleduje vzorec dlouhodobého **vnějšího navození**, nikoli vnitřní neurologii.
-- **Od [anankastického režimu](@/glossary/anankasticky-rezim.md):** nutkavé ověřování může být kompenzační reakcí na alienaci, ale samo je jiným stavem s vlastní dynamikou.
-- **Od psychotického prožitku vkládání myšlenek:** u psychózy je přesvědčení o cizím původu myšlenek bludné a doprovázejí je další příznaky; v alienaci člověk ví, že myšlenky jsou jeho, jen jim nevěří. Rozlišení patří klinikovi – viz [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
-- **Od [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md):** příbuzný mechanismus s jiným ohniskem – tam je poškozena schopnost myšlení sledovat a řídit, zde důvěra v ně.
+Od [epistemické pokory](@/glossary/epistemicka-pokora.md) a zdravé sebekritiky se stav liší
+rozsahem: pokora je ochota revidovat konkrétní přesvědčení na základě důvodů, kdežto zde je
+podezřelé uvažování jako celek. Lehrer upozorňuje, že úplné odepření důvěry vlastním úsudkům je
+sebevyvracející, protože i ono je vlastním úsudkem (Lehrer, 1997).
 
-## Význam pro Kompendium
+Od klinické depersonalizace a derealizace se liší předmětem odcizení: tam se odcizuje tělo,
+vnímání a pocit sebe, zde důvěra v úsudek, a diagnostická kritéria poruchy se na tento stav
+nevztahují (American Psychiatric Association, 2022).
 
-V obranných aplikacích platformy Prismatic, z níž kniha vzešla, se epistemická alienace objevuje jako **chráněný cíl**: řada operací [epistemické bezpečnosti](@/glossary/epistemic-security.md) je navržena tak, aby u sledovaných osob – sociálních pracovníků, novinářů, oznamovatelů – zachytila časné známky alienace a ochranný zásah mohl začít dřív, než se stav sám stabilizuje.
+Od psychotického prožitku vkládání myšlenek se liší tím, co člověk o svých myšlenkách tvrdí:
+v psychóze je přesvědčení o cizím původu myšlenek bludné a provázejí je další příznaky, zde
+dotyčný ví, že myšlenky jsou jeho, jen jim nevěří (American Psychiatric Association, 2022).
+Rozlišení patří klinikovi; vede k němu [diferenciální
+diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
 
-Pro klinika je pojem užitečný jako most mezi technikou a následkem: vysvětluje, proč člověk po odchodu z kontrolujícího vztahu nebo skupiny „nemá názor“, ačkoli jeho kognitivní schopnosti jsou neporušené. Epistemickou důvěru pomáhá zachytit [škála epistemické důvěry](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md).
+Od [anankastického režimu](@/glossary/anankasticky-rezim.md) se odlišuje směrem vztahu: nutkavé
+ověřování může být kompenzační odpovědí na nedůvěru ve vlastní úsudek, ale má vlastní dynamiku
+a vlastní léčbu (Wells, 2009). Od [metakognitivní
+destrukce](@/glossary/metakognitivni-destrukce.md) se liší ohniskem – tam je zasažena schopnost
+myšlení sledovat a řídit, zde důvěra v ně (Flavell, 1979).
+
+## Klinický a etický rámec
+
+Klinicky se epistemická alienace nediagnostikuje a nemá kód. Pro klinika je užitečná jako most
+mezi prostředím a následkem: vysvětluje, proč člověk po odchodu z kontrolujícího vztahu nebo
+skupiny „nemá názor“, ačkoli jeho poznávací schopnosti jsou neporušené (Stark, 2007). Míru
+důvěry pomáhá zachytit [škála epistemické
+důvěry](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md).
+
+Eticky je podstatné, že kniha nepřebírá hodnocení „vysoké závažnosti“ a obtížné vratnosti
+z původní taxonomie. Takové tvrzení by člověka mohlo odradit od hledání pomoci, přičemž
+doklady o účinné léčbě přesvědčení o vlastním myšlení existují (Wells, 2009); zásady rozvádějí
+[etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
+
+Z Frickerovy analýzy plyne ještě jeden etický důsledek: upírání věrohodnosti je nespravedlnost,
+nejen chyba v odhadu, a náprava proto patří i do roviny institucí, které výpovědi přijímají
+(Fricker, 2007). V knize se tomu věnuje heslo [testimoniální
+nespravedlnost](@/glossary/testimonialni-nespravedlnost.md).
 
 ## Obrana a zotavení
 
-Zotavení obvykle vyžaduje **obnovu vztahu k sobě**, ne opravu jednotlivých přesvědčení. Terapeutické strategie kladou důraz na:
+Zotavení se opírá o obnovu vztahu k sobě, ne o opravu jednotlivých přesvědčení, a je u
+odpovídajících stavů doložené. Wells popsal postup, který pracuje se vztahem k myšlenkám místo
+s jejich obsahem, a prokázal jeho účinnost u úzkostných a depresivních poruch (Wells, 2009);
+v knize na něj navazuje [metakognitivní
+rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md).
 
-- **úsudky s nízkou sázkou, které obstojí** – drobná rozhodnutí, jejichž výsledek lze rychle ověřit a zapsat;
-- **postupné vystavení úspěšnému uvažování ověřenému vrstevníky** – skupina nebo terapeut potvrzuje, že úsudek byl rozumný, ne že je „správný z pověření“;
-- **strukturovanou integraci poznávací historie před alienací** – co člověk dříve uměl posoudit, jaké problémy řešil, kde jeho úsudek fungoval.
+Pro dotčeného je nejpřístupnější oporou záznam vlastních odhadů a jejich výsledků, oddělení
+otázky „co si myslím“ od otázky „co by na to řekl X“ a omezení kontaktu s osobou, která úsudek
+soustavně zpochybňuje; právě ztráta nezávislého srovnání je v nátlakové kontrole rozhodující
+(Stark, 2007). Praktickou podobu mají [metakognitivní
+monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) a [kalibrace
+důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md).
 
-**Pro dotčeného:** vést si záznam vlastních odhadů a jejich výsledků, oddělit „co si myslím“ od „co by na to řekl X“, omezit kontakt s osobou, která úsudek soustavně zpochybňuje. Opora: [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md), [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md).
+Pro profesionála platí, že ztracenou autoritu nelze nahradit vlastní autoritou: terapeut, který
+klientovi říká, co si má myslet, alienaci pouze přesouvá. Fricker proto zdůrazňuje, že nápravou
+testimoniální nespravedlnosti není přisuzovat více věrohodnosti ze soucitu, ale přisuzovat ji
+přiměřeně (Fricker, 2007); návazný postup popisuje [obnova
+důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md).
 
-**Pro profesionála:** nenahrazovat ztracenou autoritu vlastní autoritou – terapeut, který klientovi říká, co si má myslet, alienaci jen přesouvá. Postup popisují [obnova důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) a [metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md).
+Pro blízké je užitečné vědět, že nejvíc pomáhá trpělivé potvrzování toho, že úsudek byl
+rozumný, a obnova obyčejného řádu dne; Hermanová ukazuje, že znovuspojení s lidmi je součástí
+každého zotavení, nejen zotavení z traumatu (Herman, 1992).
+
+## Meze a kritika pojmu
+
+Nejsilnější výhradou je nadbytečnost pojmu. Vše, co stránka popisuje, se dá popsat ztrátou
+epistemické sebedůvěry (Lehrer, 1997), poškozením epistemické osobnosti testimoniální
+nespravedlností (Fricker, 2007) a metakognitivními přesvědčeními o vlastním myšlení (Wells,
+2009) – tedy pojmy, které mají vlastní literaturu, metody měření i léčbu. Název knihy nepřidává
+mechanismus, jen pojmenovává místo v její taxonomii.
+
+Druhou výhradou je riziko, že se pojem bude používat jako diagnóza. Oslabená důvěra ve vlastní
+úsudek je u řady stavů nespecifickým příznakem a sama o sobě nedokládá vnější působení; bez
+mapování prostředí je takový závěr nepodložený (Stark, 2007). Riziko nadužití rámce rozebírá
+kapitola [Přesah rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
+
+Otevřenou otázkou zůstává, zda je souvislost mezi upíranou věrohodností a ztrátou sebedůvěry
+kauzální a jak dlouho trvá. Fricker ji odvozuje pojmově, ne měřením (Fricker, 2007), a doklady
+o účinné léčbě přesvědčení o vlastním myšlení pocházejí z jiné populace než od lidí
+opouštějících kontrolující prostředí (Wells, 2009).
 
 ## Literatura
 
-- Miranda Fricker: *Epistemic Injustice: Power and the Ethics of Knowing* (2007).
-- Judith Lewis Herman: *Trauma and Recovery* (1992).
-- Evan Stark: *Coercive Control* (2007).
+- Abramson, K. (2014). *Turning up the lights on gaslighting*. Philosophical Perspectives.
+- American Psychiatric Association (2022). *Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR)*. American Psychiatric Publishing.
+- Flavell, J. H. (1979). *Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry*. American Psychologist.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Jaeggi, R. (2014). *Alienation*. Columbia University Press.
+- Lehrer, K. (1997). *Self-Trust: A Study of Reason, Knowledge and Autonomy*. Oxford University Press.
+- Maier, S. F., & Seligman, M. E. P. (1976). *Learned helplessness: Theory and evidence*. Journal of Experimental Psychology: General.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
+- Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. Guilford Press.
 
 ## Související
 
 **Pojmy**
 
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – nadřazený pojem.
-- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – často navozena současně.
-- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – příbuzný mechanismus s jiným ohniskem.
-- [Anankastický režim](@/glossary/anankasticky-rezim.md) – někdy kompenzační reakce na alienaci.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – nadřazený pojem knihy.
+- [Epistemická nespravedlnost](@/glossary/epistemicka-injustice.md) – doložený konstrukt za tímto názvem.
+- [Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) – upíraná věrohodnost výpovědi.
+- [Metakognice](@/glossary/metakognice.md) – sledování vlastního myšlení.
 - [Epistemická agentnost](@/glossary/epistemicka-agentnost.md) – to, co alienace oslabuje.
+- [Kognitivní depersonalizace](@/glossary/kognitivni-depersonalizace.md) – oslabené původcovství úsudku.
 
-**Techniky a detekce**
+**Odlišení**
 
-- [EA-1.4.2 Latentní emoční modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – jeden z doložených spouštěčů.
-- [Skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md) – fenomenologická signatura.
+- [Epistemická pokora](@/glossary/epistemicka-pokora.md) – zdravá revidovatelnost přesvědčení.
+- [Anankastický režim](@/glossary/anankasticky-rezim.md) – nutkavé ověřování jako kompenzace.
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – příbuzný pojem s jiným ohniskem.
 
 **Zotavení**
 
 - [Obnova důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) – subakutní fáze.
+- [Metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md) – práce se vztahem k myšlenkám.
 - [Epistemická reintegrace](@/glossary/epistemicka-reintegrace.md) – cíl zotavení.
-- [Kompendium](@/kompendium/_index.md) – úplná taxonomie.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 
 ## Strukturní vazby
 
-- [Bridge: epistemicka-alienace](@/kompendium/glossary-bridges/bridge-epistemicka-alienace.md) – most: jak se tento pojem projevuje v kapitolách knihy
+- [Bridge: Epistemická alienace](@/kompendium/glossary-bridges/bridge-epistemicka-alienace.md) – most: jak se tento pojem projevuje v kapitolách knihy
 
 <!-- kompendium:odvozene-vazby:end -->

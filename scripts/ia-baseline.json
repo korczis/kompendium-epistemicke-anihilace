@@ -73,10 +73,6 @@
   "detail",
   "weak-link"
  ],
- "content/glossary/bounded-choice.md": [
-  "detail",
-  "weak-link"
- ],
  "content/glossary/c-ptsd.md": [
   "detail",
   "weak-link"
@@ -98,10 +94,6 @@
   "weak-link"
  ],
  "content/glossary/cirkularni-argumentace.md": [
-  "detail",
-  "weak-link"
- ],
- "content/glossary/coercive-control.md": [
   "detail",
   "weak-link"
  ],
@@ -190,10 +182,6 @@
   "weak-link"
  ],
  "content/glossary/doxing.md": [
-  "detail",
-  "weak-link"
- ],
- "content/glossary/dual-use-poznani.md": [
   "detail",
   "weak-link"
  ],
@@ -393,10 +381,6 @@
   "detail",
   "weak-link"
  ],
- "content/glossary/high-control-group.md": [
-  "detail",
-  "weak-link"
- ],
  "content/glossary/hodnotova-destrukce.md": [
   "detail",
   "weak-link"
@@ -442,10 +426,6 @@
   "weak-link"
  ],
  "content/glossary/info-ops.md": [
-  "detail",
-  "weak-link"
- ],
- "content/glossary/informed-consent.md": [
   "detail",
   "weak-link"
  ],
@@ -773,10 +753,6 @@
   "detail",
   "weak-link"
  ],
- "content/glossary/retraumatizace.md": [
-  "detail",
-  "weak-link"
- ],
  "content/glossary/russell-paradox.md": [
   "detail",
   "weak-link"
@@ -853,15 +829,7 @@
   "detail",
   "weak-link"
  ],
- "content/glossary/testimonialni-nespravedlnost.md": [
-  "detail",
-  "weak-link"
- ],
  "content/glossary/theory-of-mind.md": [
-  "detail",
-  "weak-link"
- ],
- "content/glossary/thought-reform.md": [
   "detail",
   "weak-link"
  ],
@@ -910,10 +878,6 @@
   "weak-link"
  ],
  "content/glossary/zenon-paradox.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/01-predmluva/ucel-kompendia.md": [
   "detail",
   "weak-link"
  ],
@@ -1481,10 +1445,6 @@
   "detail",
   "weak-link"
  ],
- "content/kompendium/emergency-protocols/1-acute-decompensation-EA.md": [
-  "detail",
-  "weak-link"
- ],
  "content/kompendium/emergency-protocols/10-acute-self-harm-EA.md": [
   "detail",
   "weak-link"
@@ -1513,19 +1473,11 @@
   "detail",
   "weak-link"
  ],
- "content/kompendium/emergency-protocols/17-crisis-hotline-EA.md": [
-  "detail",
-  "weak-link"
- ],
  "content/kompendium/emergency-protocols/18-emergency-pharmacotherapy.md": [
   "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/19-restraint-avoidance-EA.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/emergency-protocols/2-suicide-risk-EA.md": [
   "detail",
   "weak-link"
  ],
@@ -1554,10 +1506,6 @@
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/26-substance-EA.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/emergency-protocols/27-active-cult-emergency.md": [
   "detail",
   "weak-link"
  ],
@@ -1630,10 +1578,6 @@
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/emergency-protocols/8-emergency-extraction-cult.md": [
   "detail",
   "weak-link"
  ],

@@ -95,7 +95,7 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 <!-- front-matter-schema:begin (scripts/normalize-front-matter.py --doc; neupravovat ručně) -->
 | oddíl | klíč | třídy stránek | povaha | typ | povolené hodnoty |
 |---|---|---|---|---|---|
-| top | `aliases` | page, technique | odvozený (`scripts/merge-duplicate.py`) | list |  |
+| top | `aliases` | page, glossary, technique | odvozený (`scripts/merge-duplicate.py`) | list |  |
 | top | `date` | page, glossary | autorský | date |  |
 | top | `description` | všechny | autorský | str |  |
 | top | `draft` | page, section | autorský | bool |  |

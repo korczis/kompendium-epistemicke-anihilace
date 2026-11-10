@@ -32,7 +32,7 @@ keys = [
   { where = "top", key = "date", type = "date", classes = "page glossary" },
   { where = "top", key = "sort_by", type = "str", classes = "page section", values = "sort_by" },
   { where = "top", key = "template", type = "str", classes = "page section" },
-  { where = "top", key = "aliases", type = "list", classes = "page technique", derived = "scripts/merge-duplicate.py" },
+  { where = "top", key = "aliases", type = "list", classes = "page glossary technique", derived = "scripts/merge-duplicate.py" },
   { where = "top", key = "page_template", type = "str", classes = "section" },
   { where = "top", key = "generate_feeds", type = "bool", classes = "section" },
   { where = "taxonomies", key = "tags", type = "list", classes = "page glossary technique quick-reference", inferred = "scripts/normalize-front-matter.py" },

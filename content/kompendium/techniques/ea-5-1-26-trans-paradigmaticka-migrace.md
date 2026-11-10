@@ -68,7 +68,7 @@ Co prožívá subjekt **uvnitř** trans-paradigmatické migrace:
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt prošel **3+ paradigmaty** za méně než 18 měsíců | Vynucená migrace, ne organický vývoj |
+| Subjekt prošel **několika paradigmaty** v krátkém sledu | Vynucená migrace, ne organický vývoj |
 | Každé paradigma je popsáno jako *"další úroveň"* předchozího | Sekvenční supersesní rétorika |
 | Subjekt **nedokáže artikulovat**, co bylo legitimní v předchozích paradigmatech | Likvidace, ne integrace |
 | Aktuální rámec je popsán jako *"nad-paradigmatický"* | Imunizační rétorika |
@@ -83,7 +83,7 @@ Trans-paradigmatická migrace je odlišitelná od **legitimního intelektuální
 - **Legitimní vývoj** udržuje **paměť** předchozích paradigmat jako **integrované** zkušenosti — člověk si pamatuje, co bylo cenné, a co odmítá.
 - **Vynucená migrace** likviduje předchozí paradigmata — subjekt je popisuje jako *„slepé uličky“*, nikoli jako kroky, ze kterých si něco odnesl.
 
-Časová kalibrace: legitimní zásadní paradigmatický posun trvá roky až desetiletí. Migrace skrz 4+ paradigmata za 12 měsíců je **silným indikátorem** vynucené dynamiky.
+Časová kalibrace: legitimní zásadní paradigmatický posun trvá roky až desetiletí. Rychlý sled paradigmat je podnětem k rozlišení, nikoli dokladem vynucené dynamiky.
 
 ## Rizikové kontexty
 

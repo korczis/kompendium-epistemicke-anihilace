@@ -83,7 +83,7 @@ Konvergentní singularitu je nutné odlišit od:
 - **Hluboké odbornosti** — odborník má rovněž pevné jádro, ale **dokáže explicitně artikulovat alternativy** a popsat, *proč* je odmítl. Subjekt v singularitě alternativy *neumí* artikulovat.
 - **Náboženské víry** — autentická víra připouští paradox a tajemství; singularita vyžaduje *uzavřenost*.
 - **EA-1.2.1 Falešné dilema** — falešné dilema vynucuje volbu mezi **dvěma** body; konvergentní singularita redukuje na **jeden**.
-- **EA-5.1.29 Ontologická exfoliace](@/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md)** — exfoliace **odstraňuje** ontologické závazky; singularita je *koncentruje* do jednoho.
+- **[EA-5.1.29 Ontologická exfoliace](@/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md)** — exfoliace **odstraňuje** ontologické závazky; singularita je *koncentruje* do jednoho.
 
 ## Rizikové kontexty
 

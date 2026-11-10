@@ -2,6 +2,7 @@
 title = "Bridge: Gaslighting"
 description = "Most mezi heslem gaslighting a knihou: kde se vzorec rozebírá, které techniky EA ho popisují, jak ho rozpoznat, bránit se mu a zotavit se z něj."
 weight = 1
+aliases = ["/kompendium/glossary-bridges/gaslighting/"]
 
 [taxonomies]
 tags = ["glossary-bridge", "kompendium", "cross-link", "gaslighting"]

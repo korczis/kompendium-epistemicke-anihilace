@@ -150,7 +150,3 @@ udělal hlavní krok scénáře.
 
 - [Replikační krize](@/glossary/replication-crisis.md) – proč recenze nestačí.
 - [Delegitimizace](@/glossary/delegitimizace.md) – širší rámec útoků na důvěryhodnost.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

@@ -141,13 +141,3 @@ a obě zprávy dostane muž písemně.
   rozvaha mezi diagnózami.
 - [Znalec EA](@/kompendium/forensic-legal/21-expert-witness-EA.md) – role znalce.
 - [Signal plurality](@/glossary/signal-plurality.md) – proč je víc nezávislých hlasů bezpečnější.
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-
----
-
-*Kompendium epistemické anihilace · Akutní protokol č. 38 · v18.4.0*

@@ -146,13 +146,3 @@ edukaci, sociální pracovnici a psychologa a s mužovým souhlasem informuje pr
   zpochybnění pacienta péčí.
 - [Interocepce](@/glossary/interocepce.md) – vnímání vlastního těla.
 - [Iatrogenic harm](@/glossary/iatrogenic-harm.md) – škoda způsobená péčí.
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-
----
-
-*Kompendium epistemické anihilace · Akutní protokol č. 25 · v18.4.0*

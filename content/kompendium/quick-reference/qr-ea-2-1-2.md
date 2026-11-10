@@ -58,7 +58,3 @@ Eskalujte, když vlna obsahuje nepravdivá tvrzení, výzvy k propuštění nebo
 - **Detekce:** [asymetrie amplifikace](@/kompendium/detection-signatures/19-network-amplification-asymmetry.md) – nepoměr dosahu a podstaty.
 - **Glosář:** [delegitimizace](@/glossary/delegitimizace.md) – rámec; [deplatforming](@/glossary/deplatforming.md) – častý cíl vlny.
 - **Sousední karty:** [EA-2.1.1 Expertní disinflace](@/kompendium/quick-reference/qr-ea-2-1-1.md) – obsah, který mob šíří; [EA-2.4.4 Zachycení vedení](@/kompendium/quick-reference/qr-ea-2-4-4.md) – když mob získá institucionální moc.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

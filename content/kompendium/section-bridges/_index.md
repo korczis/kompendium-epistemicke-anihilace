@@ -128,12 +128,3 @@ Obě vrstvy jsou **komplementární** — glossary bridges drží přesnost na �
 ## Údržba section bridges
 
 Section bridges jsou **NCLB-validovány** — každý bridge má evidence-link na obě propojené sekce. Pokud se změní sekce, příslušný bridge se reviduje. Viz [Doctrine NCLB](../glossary-bridges/bridge-nclb/).
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)

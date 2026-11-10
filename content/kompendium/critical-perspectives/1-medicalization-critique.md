@@ -84,10 +84,3 @@ Není jasné, zda by kniha neměla epistemickou anihilaci důsledně popisovat j
 
 - [Kategoriální omyl](@/glossary/category-mistake.md) – logická podoba silné verze námitky.
 - [Coercive control](@/glossary/coercive-control.md) – příklad pojmu, který je právní, ne klinický.
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

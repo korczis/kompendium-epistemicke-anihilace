@@ -58,7 +58,3 @@ Eskalujte, když pseudokonsenzus slouží jako podklad pro sankci (odvolání, v
 - **Scénář:** [kolektivní epistemická delegitimizace](@/kompendium/03-zakladni-kategorie/scenar-f.md) – pseudokonsenzus jako nástroj kampaně.
 - **Glosář:** [konsenzuální realita](@/glossary/konsenzualni-realita.md) – co pseudokonsenzus napodobuje.
 - **Sousední karty:** [EA-2.1.2 Pseudo-peer mob](@/kompendium/quick-reference/qr-ea-2-1-2.md) – útočná obdoba; [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/quick-reference/qr-ea-2-5-3.md) – vnitřní důsledek.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

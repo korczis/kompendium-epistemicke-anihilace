@@ -59,7 +59,3 @@ Eskalujte při akutní disociaci, sebepoškozování nebo suicidálních myšlen
 - **Technika a kapitola:** [plná stránka EA-5.1.9](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) – mechanismus, případy a neutralizace; [kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) – [epistemická singularita](@/glossary/epistemicka-singularita.md).
 - **Glosář:** [identity destruction](@/glossary/identity-destruction.md) – krajní podoba.
 - **Sousední karty:** [EA-5.1.10 Temporální dekoherence](@/kompendium/quick-reference/qr-ea-5-1-10.md) – rozpad prožívaného času; [EA-5.1.8 Konceptuální fragmentace](@/kompendium/quick-reference/qr-ea-5-1-8.md) – fragmentace pojmů já a paměť.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

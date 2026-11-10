@@ -57,7 +57,3 @@ Eskalujte při úplném přerušení kontaktů, předání majetku, ohrožení d
 - **Technika a kapitola:** [plná stránka EA-2.5.9](@/kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Glosář:** [narativní identita](@/glossary/narativni-identita.md) – co se oslabuje; [skupina s vysokou mírou kontroly](@/glossary/high-control-group.md) – typický kontext.
 - **Sousední karty:** [EA-5.1.25 Singulární narativní kolaps](@/kompendium/quick-reference/qr-ea-5-1-25.md) – jediný vnucený příběh; [EA-2.5.6 Obrácená jeskyně](@/kompendium/quick-reference/qr-ea-2-5-6.md) – vlastní vnímání jako stín.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

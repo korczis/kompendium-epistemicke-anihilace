@@ -58,7 +58,3 @@ Eskalujte při výhrůžkách, zveřejnění osobních údajů nebo zahlcení za
 - **Detekce:** [deplatformingová kaskáda](@/kompendium/detection-signatures/24-network-deplatforming-cascade.md) – zneužití nahlašování.
 - **Glosář:** [deplatforming](@/glossary/deplatforming.md) – cíl hromadného hlášení.
 - **Sousední karty:** [EA-2.3.1 Vytržený klip](@/kompendium/quick-reference/qr-ea-2-3-1.md) – typický „důkaz“; [EA-2.1.2 Pseudo-peer mob](@/kompendium/quick-reference/qr-ea-2-1-2.md) – akademická vrstva kampaně.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

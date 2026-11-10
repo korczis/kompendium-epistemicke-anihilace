@@ -58,7 +58,3 @@ Eskalujte, když sponzor zasahuje do obsahových nebo personálních rozhodnutí
 - **Organizace:** [cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md) – průhledná pravidla financování.
 - **Glosář:** [delegitimizace](@/glossary/delegitimizace.md) – nadřazený rámec.
 - **Sousední karty:** [EA-2.1.4 Publikační blokace](@/kompendium/quick-reference/qr-ea-2-1-4.md) – stejné úzké hrdlo v publikacích; [EA-2.1.7 Institucionální vyloučení](@/kompendium/quick-reference/qr-ea-2-1-7.md) – ztráta hlasu v instituci; [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/quick-reference/qr-ea-2-2-10.md) – závislost na budoucích zdrojích.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

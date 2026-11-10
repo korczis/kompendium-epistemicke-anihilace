@@ -77,10 +77,3 @@ Jak vytvořit taxonomii, která je dost stálá, aby se v ní dalo orientovat, a
 
 - [Vnitřní časovost](@/glossary/vnitrni-casovost.md) – prožívaný čas jako struktura vědomí.
 - [Redukcionismus](@/glossary/redukcionismus.md) – rozklad dění na stavy.
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

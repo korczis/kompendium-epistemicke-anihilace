@@ -57,7 +57,3 @@ Eskalujte při vynucených citacích, obcházení recenze ve zvláštních čís
 - **Technika a kapitola:** [plná stránka EA-2.4.8](@/kompendium/techniques/ea-2-4-8-journal-capture.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Detekce:** [cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md) – vynucené citace.
 - **Sousední karty:** [EA-2.1.4 Publikační blokace](@/kompendium/quick-reference/qr-ea-2-1-4.md) – dopad na autora; [EA-2.1.5 Potlačování citací](@/kompendium/quick-reference/qr-ea-2-1-5.md) – dopad na paměť oboru.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

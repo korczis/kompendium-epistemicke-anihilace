@@ -158,7 +158,3 @@ odkažte na rámec [coercive control](@/glossary/coercive-control.md) a na odbor
 
 - [Sociální izolace](@/glossary/socialni-izolace.md) – mechanismus a důsledky.
 - [Coach coercion](@/kompendium/case-studies/17-coach-coercion.md) – anonymizovaný případ s podobnou dynamikou.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

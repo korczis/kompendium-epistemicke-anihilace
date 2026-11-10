@@ -158,7 +158,3 @@ skupiny fungují, a odborná podpora; viz [post-cult protokol](@/kompendium/tech
 - [BITE model](@/glossary/bite-model.md) – čtyři oblasti kontroly.
 - [Love bombing](@/glossary/love-bombing.md) – úvodní fáze náboru.
 - [Trauma bonding](@/glossary/trauma-bonding.md) – proč je odchod tak obtížný.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

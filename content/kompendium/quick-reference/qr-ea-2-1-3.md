@@ -57,7 +57,3 @@ Eskalujte, když útok směřuje k odebrání licence, místa nebo jmenování b
 - **Technika a kapitola:** [plná stránka EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Glosář:** [epistemická nespravedlnost](@/glossary/epistemicka-injustice.md) – snížená důvěryhodnost podle toho, kdo mluví.
 - **Sousední karty:** [EA-2.1.10 Rekonfigurace kvalifikačních standardů](@/kompendium/quick-reference/qr-ea-2-1-10.md) – posouvání měřítka na úrovni instituce; [EA-2.5.2 Zesilování syndromu podvodníka](@/kompendium/quick-reference/qr-ea-2-5-2.md) – internalizovaná podoba; [EA-2.1.2 Pseudo-peer mob](@/kompendium/quick-reference/qr-ea-2-1-2.md) – koordinované šíření.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

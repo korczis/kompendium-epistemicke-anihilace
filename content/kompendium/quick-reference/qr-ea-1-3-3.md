@@ -56,7 +56,3 @@ Eskalujte, když diverze brání vyřešení stížnosti, vyšetření pochyben�
 - **Detekce:** [vyhýbání se tématu](@/kompendium/detection-signatures/11-behavioral-topic-evasion.md) – pozorovatelný otisk.
 - **Glosář:** [motte-and-bailey](@/glossary/motte-and-bailey.md) – příbuzný únik na bezpečnější pozici.
 - **Sousední karty:** [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/quick-reference/qr-ea-1-3-1.md) – diverze jako únik od vyvrácení; [EA-1.2.3 Iluzorní komplexita](@/kompendium/quick-reference/qr-ea-1-2-3.md) – nekonečná zásoba odboček; [EA-1.1.2 Informační přetížení](@/kompendium/quick-reference/qr-ea-1-1-2.md) – přetížený člověk otázku neudrží.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

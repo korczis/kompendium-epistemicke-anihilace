@@ -57,7 +57,3 @@ Eskalujte, když se k narativu přidává deprese (anhedonie, únava, poruchy sp
 - **Technika a kapitola:** [plná stránka EA-2.5.1](@/kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře delegitimizace.
 - **Glosář:** [internalizovaný pachatel](@/glossary/internalizovany-pachatel.md) – převzatý vnější hlas.
 - **Sousední karty:** [EA-2.1.3 Útok na kvalifikaci](@/kompendium/quick-reference/qr-ea-2-1-3.md) – vnější zdroj; [EA-2.5.7 Preventivní sebecenzura](@/kompendium/quick-reference/qr-ea-2-5-7.md) – další stupeň.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

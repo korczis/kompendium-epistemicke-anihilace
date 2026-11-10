@@ -147,13 +147,3 @@ léčbu a zapíše interakci do dokumentace jako kontraindikaci.
 - [Informed consent](@/glossary/informed-consent.md) – informace o rizicích léčby.
 - [Historický případ: FDA a opioidy](@/kompendium/historical-cases/40-fda-opioid.md) – systémové
   selhání lékové bezpečnosti.
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-
----
-
-*Kompendium epistemické anihilace · Akutní protokol č. 36 · v18.4.0*

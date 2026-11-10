@@ -158,7 +158,3 @@ cvičení nemá zpochybnit konkrétní lidi, ale postup. Pro hlubší práci odk
 
 - [Konfirmační bias](@/glossary/konfirmacni-bias.md) – zkreslení, které halo efekt často doprovází.
 - [Epistemická pokora](@/glossary/epistemicka-pokora.md) – postoj, který korekci umožňuje.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

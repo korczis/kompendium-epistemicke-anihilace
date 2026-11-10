@@ -48,10 +48,6 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Quick reference**: [/kompendium/quick-reference/](@/kompendium/quick-reference/_index.md)
 - **Visualizations**: [/kompendium/visualizations/](@/kompendium/visualizations/_index.md)
 
----
-
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 
 ## Strukturní vazby

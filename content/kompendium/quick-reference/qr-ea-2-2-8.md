@@ -57,7 +57,3 @@ Eskalujte, když přivlastnění vstupuje do publikací, grantů nebo patentů: 
 - **Technika a kapitola:** [plná stránka EA-2.2.8](@/kompendium/techniques/ea-2-2-8-intellectual-paternity-claim.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Glosář:** [epistemická agentnost](@/glossary/epistemicka-agentnost.md) – důvěra ve vlastní myšlení, kterou nárok oslabuje.
 - **Sousední karty:** [EA-2.2.4 Monopolizace spolupráce](@/kompendium/quick-reference/qr-ea-2-2-4.md) – nárok přes autorské pozice; [EA-2.2.3 Zachycení směru kvalifikační práce](@/kompendium/quick-reference/qr-ea-2-2-3.md) – výsledky určené předem; [EA-2.5.2 Zesilování syndromu podvodníka](@/kompendium/quick-reference/qr-ea-2-5-2.md) – dlouhodobý vnitřní důsledek.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

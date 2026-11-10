@@ -57,7 +57,3 @@ Eskalujte, když je autorství přisvojováno bez podílu, když odvetné reakce
 - **Technika a kapitola:** [plná stránka EA-2.2.4](@/kompendium/techniques/ea-2-2-4-collaboration-monopolizace.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Organizace:** [hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md) – hodnotit vedoucí i podle samostatnosti absolventů.
 - **Sousední karty:** [EA-2.2.5 Nátlak doporučením](@/kompendium/quick-reference/qr-ea-2-2-5.md) – monopol reference jako důsledek; [EA-2.2.1 Sebetotalizace mentora](@/kompendium/quick-reference/qr-ea-2-2-1.md) – nosná struktura; [EA-5.1.1 Epistemická kanibalizace](@/kompendium/quick-reference/qr-ea-5-1-1.md) – krajní ztráta autorství.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

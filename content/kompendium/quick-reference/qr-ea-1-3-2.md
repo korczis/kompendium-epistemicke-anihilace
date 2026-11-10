@@ -56,7 +56,3 @@ Eskalujte, když reinterpretace přepisuje vlastní zkušenost člověka nebo z�
 - **Obrana:** [falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) – kritéria stanovená předem.
 - **Glosář:** [hermeneutická eroze](@/glossary/hermeneuticka-eroze.md) – co opakované přepisování výkladu dělá s porozuměním.
 - **Sousední karty:** [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/quick-reference/qr-ea-1-3-1.md) – sourozenecký mechanismus; [EA-1.1.3 Terminologická mystifikace](@/kompendium/quick-reference/qr-ea-1-1-3.md) – posouvání definic.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

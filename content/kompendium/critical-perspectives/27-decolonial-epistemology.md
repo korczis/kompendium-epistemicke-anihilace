@@ -79,10 +79,3 @@ Je možné mít univerzální jádro pojmu epistemické anihilace, aniž by se s
 
 - [Epistemická injustice](@/glossary/epistemicka-injustice.md) – nespravedlnost vůči poznávajícím.
 - [Epistemická monokultura](@/glossary/epistemicka-monokultura.md) – výsledek vytlačení jiných vědění.
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

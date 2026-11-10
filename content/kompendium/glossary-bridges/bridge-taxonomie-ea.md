@@ -2,6 +2,7 @@
 title = "Bridge: taxonomie-ea"
 description = "Glossary bridge — propojeni kompendia s glossary entry taxonomie-ea."
 weight = 1
+aliases = ["/kompendium/glossary-bridges/taxonomie-ea/"]
 
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "taxonomie-ea", "cross-link"]
@@ -59,10 +60,6 @@ Hodnota taxonomie závisí na disciplíně údržby — bez periodické revize a
 - **Sekce 07 — Teoretické reflexe**: [/kompendium/07-teoreticke/](@/kompendium/07-teoreticke-reflexe/_index.md)
 - **Sekce 08 — Etika a doktrína**: [/kompendium/08-etika/](@/kompendium/08-prilohy/_index.md)
 - **Glossary hub**: [/glossary/](@/glossary/_index.md)
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
 - [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

@@ -57,7 +57,3 @@ Eskalujte, když přesměrování souvisí s kritikou vedení, s vlivem sponzora
 - **Technika a kapitola:** [plná stránka EA-2.4.3](@/kompendium/techniques/ea-2-4-3-funding-redirect.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Organizace:** [ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md) – kontrola toků ve firmách.
 - **Sousední karty:** [EA-2.4.1 Zachycení správních orgánů](@/kompendium/quick-reference/qr-ea-2-4-1.md) – neprůhledná rozhodnutí; [EA-2.4.5 Přepis hodnoticích kritérií](@/kompendium/quick-reference/qr-ea-2-4-5.md) – kritéria, podle nichž se rozděluje.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

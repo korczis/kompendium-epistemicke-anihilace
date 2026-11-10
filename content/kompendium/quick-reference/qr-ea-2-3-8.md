@@ -57,7 +57,3 @@ Eskalujte okamžitě při zveřejnění adresy, výhrůžkách nebo sledování:
 - **Technika a kapitola:** [plná stránka EA-2.3.8](@/kompendium/techniques/ea-2-3-8-doxxing-epistemicky.md) – mechanismus, právní rámec a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře delegitimizace.
 - **Nouze:** [ochrana svědků v EA kontextu](@/kompendium/emergency-protocols/40-witness-protection.md) – když jde o život.
 - **Sousední karty:** [EA-2.3.4 Koordinace davu](@/kompendium/quick-reference/qr-ea-2-3-4.md) – doxxing jako eskalace vlny; [EA-2.3.6 Koordinovaný útok napříč platformami](@/kompendium/quick-reference/qr-ea-2-3-6.md) – víceprostorová kampaň; [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/quick-reference/qr-ea-2-2-10.md) – hrozba zveřejněním.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

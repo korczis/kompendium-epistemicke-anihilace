@@ -59,7 +59,3 @@ Eskalujte, když stav ochromuje studium či práci, provází ho deprese, izolac
 - **Technika a kapitola:** [plná stránka EA-5.2.9](@/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md) – mechanismus, případy a neutralizace; [kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) – metatranscendentální anihilace.
 - **Glosář:** [konceptuální anihilace](@/glossary/konceptualni-anihilace.md) – krajní stav; [privátní jazyk](@/glossary/privatni-jazyk.md) – Wittgensteinův kontext.
 - **Sousední karty:** [EA-5.2.10 Meta-kognitivní singularita](@/kompendium/quick-reference/qr-ea-5-2-10.md) – přenos na metakognici; [EA-5.2.24 Analytická anihilace](@/kompendium/quick-reference/qr-ea-5-2-24.md) – rozpad analýzy.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

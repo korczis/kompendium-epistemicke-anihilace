@@ -56,7 +56,3 @@ Eskalujte, když přetížení vede k podpisu, souhlasu nebo vzdání se práv b
 - **Obrana:** [řízení kognitivní zátěže](@/kompendium/self-defense-guides/10-cognitive-load-management.md) – jak záplavu rozložit; [rozpočet pozornosti](@/kompendium/self-defense-guides/34-attention-budget.md) – prevence vyčerpání.
 - **Glosář:** [paralysis by analysis](@/glossary/paralysis-by-analysis.md) – stav, do kterého přetížení vyúsťuje.
 - **Sousední karty:** [EA-1.1.1 Selektivní expozice](@/kompendium/quick-reference/qr-ea-1-1-1.md) – inverzní vzorec; [EA-1.1.3 Terminologická mystifikace](@/kompendium/quick-reference/qr-ea-1-1-3.md) – násobí zátěž; [EA-1.4.1 Prosodická dominance](@/kompendium/quick-reference/qr-ea-1-4-1.md) – rychlé tempo a autoritativní hlas.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

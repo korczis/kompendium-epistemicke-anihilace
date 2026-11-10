@@ -57,7 +57,3 @@ Eskalujte, když relativismus vede k odmítání nutné léčby či ochrany nebo
 - **Technika a kapitola:** [plná stránka EA-2.5.4](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Glosář:** [firehose of falsehood](@/glossary/firehose-of-falsehood.md) – prostředí, které relativismus vyvolává.
 - **Sousední karty:** [EA-5.2.3 Noumenální redukce](@/kompendium/quick-reference/qr-ea-5-2-3.md) – cynická podoba na hlubší úrovni; [EA-1.1.2 Informační přetížení](@/kompendium/quick-reference/qr-ea-1-1-2.md) – zahlcení jako zdroj.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

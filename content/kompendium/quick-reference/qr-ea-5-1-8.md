@@ -59,7 +59,3 @@ Eskalujte, když fragmentace ohrožuje profesní výkon nebo samostatnost a člo
 - **Technika a kapitola:** [plná stránka EA-5.1.8](@/kompendium/techniques/ea-5-1-8-konceptualni-fragmentace.md) – mechanismus, případy a neutralizace; [kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) – [epistemická singularita](@/glossary/epistemicka-singularita.md).
 - **Glosář:** [integrativní kolaps](@/glossary/integrative-collapse.md) – terminální stav ztráty integrace.
 - **Sousední karty:** [EA-5.1.7 Referenční rekurze](@/kompendium/quick-reference/qr-ea-5-1-7.md) – smyčka postavená na fragmentech; [EA-5.1.9 Identitní dezintegrace](@/kompendium/quick-reference/qr-ea-5-1-9.md) – fragmentace sebepojetí.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

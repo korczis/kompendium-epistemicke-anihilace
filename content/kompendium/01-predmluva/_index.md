@@ -42,6 +42,7 @@ Třetím pojmem je **epistemická spravedlnost**. Kniha píše o lidech, jejich�
 | 1.4 | [Jak používat toto kompendium](@/kompendium/01-predmluva/jak-pouzivat.md) | Čtenářské strategie, postupná expozice |
 | 1.5 | [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md) | Úrovně L1–L4, supervize, eskalace |
 | 1.6 | [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) | Odkud kniha vzešla a co z platformy převzala |
+| 1.7 | [Proč tato kniha není pro každého](@/kompendium/01-predmluva/neni-pro-kazdeho/_index.md) | Pro koho je, kdy ji teď nečíst, k čemu neslouží, kde hledat pomoc hned |
 
 Kapitola **1.1** vymezuje, čím kniha je a čím není: není diagnostickým manuálem, nenahrazuje DSM ani MKN, ale doplňuje je o popis vnějších vlivů na poznávání. Kapitola **1.2** popisuje, komu je text určen a proč předpokládá odborné zázemí. Kapitola **1.3** je jádrem sekce – stanoví závazné směrnice a postup při etickém dilematu. Kapitola **1.4** nabízí cesty knihou pro klinika, výzkumníka a pedagoga a vysvětluje, proč číst postupně. Kapitola **1.5** převádí etický rámec do úrovní přístupu a kapitola **1.6** vysvětluje souvislost s platformou, z níž pocházejí některé technické pojmy glosáře (např. [doktrína](@/glossary/doctrine.md) nebo [Decision Engine](@/glossary/decision-engine.md)).
 
@@ -49,7 +50,7 @@ Na předmluvu přirozeně navazuje [02. Úvod do epistemické anihilace](@/kompe
 
 ## Kritický krok
 
-**Předtím, než pokročíte do dalších sekcí**, ověřte si etický kontext: ujasněte si svůj supervizní rámec (akademický, klinický nebo forenzní), přečtěte [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a zvažte, **kdy materiál nečíst** – při vyčerpání, v akutní krizi nebo bez možnosti probrat četbu s někým dalším.
+**Předtím, než pokročíte do dalších sekcí**, ověřte si etický kontext: ujasněte si svůj supervizní rámec (akademický, klinický nebo forenzní), přečtěte [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a zvažte, [kdy materiál nečíst](@/kompendium/01-predmluva/neni-pro-kazdeho/kdy-ji-necist.md) – při vyčerpání, v akutní krizi nebo bez možnosti probrat četbu s někým dalším. Kdo potřebuje pomoc hned, najde kontakty na stránce [Potřebujete pomoc hned?](@/kompendium/01-predmluva/neni-pro-kazdeho/pomoc-hned.md)
 
 > Vraťte se na tuto stránku, až tyto tři body projdete. Bez nich kompendium působí mimo svůj zamýšlený etický rámec.
 
@@ -65,6 +66,7 @@ Na předmluvu přirozeně navazuje [02. Úvod do epistemické anihilace](@/kompe
 
 - [Hub kompendia](@/kompendium/_index.md) – návrat na úvodní stranu.
 - [02. Úvod do epistemické anihilace](@/kompendium/02-uvod/_index.md) – následující sekce s definicemi.
+- [Proč tato kniha není pro každého](@/kompendium/01-predmluva/neni-pro-kazdeho/_index.md) – komu je kniha určena, kdy ji nečíst a kde hledat pomoc.
 - [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md) – závazná pravidla v příloze.
 - [Dual use](@/kompendium/08-prilohy/dual-use.md) – riziko zneužití a jeho řízení.
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md) – filozofické zázemí integrity poznání.

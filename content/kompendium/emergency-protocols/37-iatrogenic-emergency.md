@@ -144,13 +144,3 @@ organizaci. Žena se rozhodne nejprve stabilizovat a stížnost podat později.
 - [Profesní pochybení](@/kompendium/forensic-legal/19-professional-misconduct-EA.md) – stížnosti
   a řízení.
 - [Iatrogenic harm](@/glossary/iatrogenic-harm.md) – vymezení.
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-
----
-
-*Kompendium epistemické anihilace · Akutní protokol č. 37 · v18.4.0*

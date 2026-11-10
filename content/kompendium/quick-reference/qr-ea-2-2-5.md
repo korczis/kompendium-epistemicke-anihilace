@@ -57,7 +57,3 @@ Eskalujte, když je hrozba vyslovena nebo když je doložitelná odveta po stí�
 - **Technika a kapitola:** [plná stránka EA-2.2.5](@/kompendium/techniques/ea-2-2-5-recommendation-coercion.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Organizace:** [anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md) – jak vzorec zachytit bez rizika pro svěřence.
 - **Sousední karty:** [EA-2.2.4 Monopolizace spolupráce](@/kompendium/quick-reference/qr-ea-2-2-4.md) – odkud pochází monopol reference; [EA-2.2.7 Pěstování citového dluhu](@/kompendium/quick-reference/qr-ea-2-2-7.md) – vděk, který stížnost brzdí; [EA-2.2.1 Sebetotalizace mentora](@/kompendium/quick-reference/qr-ea-2-2-1.md) – nosná struktura.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

@@ -56,7 +56,3 @@ Eskalujte okamžitě, když jde o fyzické zablokování odchodu, nevyžádaný 
 - **Obrana:** [uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md) – návrat do těla při tlaku.
 - **Glosář:** [ztělesněná kognice](@/glossary/embodied-cognition.md) – proč prostor ovlivňuje úsudek; [polyvagální teorie](@/glossary/polyvagalni-teorie.md) – jeden z výkladů tělesných reakcí na blízkost.
 - **Sousední karty:** [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/quick-reference/qr-ea-1-5-2.md) – sourozenecká technika; [EA-1.4.2 Latentní emocionální modulace](@/kompendium/quick-reference/qr-ea-1-4-2.md) – prostor jako médium emoce.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

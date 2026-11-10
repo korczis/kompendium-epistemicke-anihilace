@@ -149,13 +149,3 @@ Matka dostane kontakt na skupinu pro rodiče.
 - [Případ: Narcistická rodina](@/kompendium/case-studies/07-narcisticka-rodina.md) – když je
   rodina zdrojem EA.
 - [Parental alienation](@/glossary/parental-alienation.md) – rodinná forma manipulace.
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-
----
-
-*Kompendium epistemické anihilace · Akutní protokol č. 14 · v18.4.0*

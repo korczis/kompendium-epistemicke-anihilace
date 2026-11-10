@@ -164,7 +164,3 @@ mnohosti. Pro další práci viz [správa mnohočetného já](@/kompendium/self-
 
 - [Narativní identita](@/glossary/narativni-identita.md) – co drží identitu pohromadě.
 - [Identity destruction](@/glossary/identity-destruction.md) – krajní podoba procesu.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

@@ -142,7 +142,3 @@ kde je monitorovací funkce narušena.
 
 - [Metakognitivní deficit](@/glossary/metakognitivni-deficit.md) – klinická podoba narušení.
 - [Epistemická pokora](@/glossary/epistemicka-pokora.md) – postoj, který kalibraci umožňuje.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

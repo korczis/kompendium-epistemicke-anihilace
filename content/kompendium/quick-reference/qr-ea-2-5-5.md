@@ -57,7 +57,3 @@ Eskalujte, když falešná vyváženost brání rozhodnutí o zdraví nebo bezpe
 - **Technika a kapitola:** [plná stránka EA-2.5.5](@/kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Glosář:** [paralysis by analysis](@/glossary/paralysis-by-analysis.md) – rozhodovací důsledek.
 - **Sousední karty:** [EA-2.3.5 Zesilování pseudokontroverze](@/kompendium/quick-reference/qr-ea-2-3-5.md) – mediální zdroj; [EA-1.2.3 Iluzorní komplexita](@/kompendium/quick-reference/qr-ea-1-2-3.md) – nafouknutá nejistota.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

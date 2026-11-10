@@ -57,7 +57,3 @@ Eskalujte při opakovaném zdržení, které ohrožuje lhůty studia, vízum neb
 - **Technika a kapitola:** [plná stránka EA-2.2.6](@/kompendium/techniques/ea-2-2-6-time-control-academic.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Detekce:** [vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md) – asymetrie lhůt.
 - **Sousední karty:** [EA-2.2.2 Izolace svěřence](@/kompendium/quick-reference/qr-ea-2-2-2.md) – zahlcení jako izolace; [EA-2.2.3 Zachycení směru kvalifikační práce](@/kompendium/quick-reference/qr-ea-2-2-3.md) – posouvání cíle podle závěrů; [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/quick-reference/qr-ea-2-2-10.md) – závislost do budoucna.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

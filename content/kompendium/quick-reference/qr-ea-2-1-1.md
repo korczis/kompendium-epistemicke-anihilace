@@ -58,7 +58,3 @@ Eskalujte, když kampaň přechází v nepravdivá tvrzení poškozující pově
 - **Detekce:** [injekce narativu](@/kompendium/detection-signatures/22-network-narrative-injection.md) – stejné formulace v různých kanálech.
 - **Glosář:** [delegitimizace](@/glossary/delegitimizace.md) – nadřazený pojem; [epistemická nespravedlnost](@/glossary/epistemicka-injustice.md) – Frickerovo pojmenování snížené důvěryhodnosti.
 - **Sousední karty:** [EA-2.1.2 Pseudo-peer mob](@/kompendium/quick-reference/qr-ea-2-1-2.md) – kolektivní eskalace; [EA-2.3.3 Těžba citátů](@/kompendium/quick-reference/qr-ea-2-3-3.md) – munice pro disinflaci; [EA-2.1.7 Institucionální vyloučení](@/kompendium/quick-reference/qr-ea-2-1-7.md) – kam disinflace vede.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

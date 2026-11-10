@@ -57,7 +57,3 @@ Eskalujte, když necitování přechází v přisvojení výsledků nebo když r
 - **Technika a kapitola:** [plná stránka EA-2.1.5](@/kompendium/techniques/ea-2-1-5-citation-suppression.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Glosář:** [epistemická nespravedlnost](@/glossary/epistemicka-injustice.md) – rámec přehlížení.
 - **Sousední karty:** [EA-2.1.4 Publikační blokace](@/kompendium/quick-reference/qr-ea-2-1-4.md) – předpublikační obdoba; [EA-5.1.1 Epistemická kanibalizace](@/kompendium/quick-reference/qr-ea-5-1-1.md) – krajní podoba ztráty autorství; [EA-1.1.1 Selektivní expozice](@/kompendium/quick-reference/qr-ea-1-1-1.md) – jak opomenutí formuje obraz oboru.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

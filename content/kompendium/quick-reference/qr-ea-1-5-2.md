@@ -55,7 +55,3 @@ Eskalujte, když neverbální dominance přechází v zastrašování (výhružn
 - **Technika a kapitola:** [plná stránka EA-1.5.2](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) – mechanismus, kontexty a neutralizace; [kapitola 3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md) – akademické techniky.
 - **Glosář:** [charisma](@/glossary/charisma.md) – osobní autorita, kterou hieroglyfy předstírají; [tělové schéma](@/glossary/body-schema.md) – tělesný základ vnímání.
 - **Sousední karty:** [EA-1.5.1 Strategická proxemika](@/kompendium/quick-reference/qr-ea-1-5-1.md) – sourozenecká technika; [EA-1.4.1 Prosodická dominance](@/kompendium/quick-reference/qr-ea-1-4-1.md) – hlasová obdoba; [EA-1.1.3 Terminologická mystifikace](@/kompendium/quick-reference/qr-ea-1-1-3.md) – žargon, který dominanci doplňuje.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

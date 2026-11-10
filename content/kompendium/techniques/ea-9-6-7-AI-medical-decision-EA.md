@@ -1,14 +1,14 @@
 +++
 title = "EA-9.6.7 AI Medical Decision EA"
-description = "Současná digitální EA — ai medical decision ea."
+description = "Vzorec AI v klinickém rozhodování – diagnostika, triáž, doporučení léčby –, kde zaujatá data snižují přesnost pro určité skupiny a klinik výstupu přesto důvěřuje."
 weight = 967
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-6-5-AI-credit-scoring-bias", "ea-9-6-6-AI-hiring-narrative", "ea-9-6-8-AI-legal-decision-EA", "ea-9-6-9-AI-immigration-decision"]
+related_terms = ["ea-9-6-1-algorithmic-decision-bias", "ea-9-6-10-AI-welfare-decision-EA", "ea-9-6-2-AI-judgment-laundering"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.6.7"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,111 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-AI v klinickém rozhodování — diagnostické modely, triage systémy, treatment recommenders — s embedded biases vůči specifickým skupinám.
+*AI medical decision EA* označuje rizika automatizovaných systémů v klinickém rozhodování – diagnostických modelů, triážních systémů, doporučovačů léčby –, které jsou trénovány na datech nerovnoměrně zastupujících pacienty. Pro skupiny, o nichž je v datech méně informací (ženy, menšiny, starší, lidé se vzácnými onemocněními), mají systémy nižší přesnost, a klinik, který výstupu důvěřuje, může chybu převzít.
 
-V kontextu Prismatic doktríny je AI Medical Decision EA klasifikováno jako **L1-L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.6.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Trénovací data jsou historicky biased (méně dat o ženách, minoritách); model vykazuje sníženou senzitivitu/specificitu pro tyto skupiny; klinik důvěřuje AI doporučení.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Medicína historicky zkoumala některé skupiny méně a data to odrážejí. Model, který se z nich učí, je méně přesný tam, kde data chybějí; souhrnná čísla o přesnosti přitom tento rozdíl skryjí. Další zdroj zaujatosti vzniká volbou cíle: doložený příklad popsali Obermeyer a kol. (2019, *Science*) u algoritmu, který k určení potřeby péče používal minulé náklady na péči, a tím systematicky podceňoval potřeby pacientů, kteří k péči měli horší přístup. Epistemickým jádrem je [automatizační zkreslení](@/glossary/kognitivni-bias.md): klinik pod časovým tlakem přebírá výstup systému a vlastní pochybnost potlačí.
 
 ## 4. Detekční markery
 
-Subgroup-performance audits, medical equity metrics, FDA-clearance review, clinician-override patterns.
+- Výsledky systému se liší mezi skupinami pacientů s podobným klinickým obrazem.
+- Klinici přestávají ověřovat výstupy a dokumentace odkazuje na „doporučení systému“.
+- Pacienti z určitých skupin si stěžují, že jejich příznaky nebyly brány vážně.
+- Validace systému proběhla na populaci, která neodpovídá místním pacientům.
+- Provozovatel nezná ani nezveřejňuje přesnost podle podskupin.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Klinická chyba bez AI*: lidské selhání, které nesouvisí se systémem. *Dobře validovaný nástroj*: ověřený na relevantní populaci, s přiznanými mezemi, používaný jako podpora. *[EA-9.6.1 Algorithmic Decision Bias](@/kompendium/techniques/ea-9-6-1-algorithmic-decision-bias.md)*: obecný vzorec; v medicíně má přímý dopad na zdraví a život.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Zaujaté klinické systémy mohou vést k pozdní diagnóze, nedostatečné léčbě a zhoršení zdravotních nerovností. Rámcem jsou pravidla pro zdravotnické prostředky (software jako zdravotnický prostředek), akt o umělé inteligenci, profesní odpovědnost lékaře a práva pacienta na informace. Odpovědnost za rozhodnutí zůstává na klinikovi ([Zdravotnická pochybení a EA](@/kompendium/forensic-legal/18-medical-malpractice-EA.md)).
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Pacient*: ptát se, zda bylo rozhodnutí podpořeno systémem, a požádat o vysvětlení; u přetrvávajících příznaků trvat na dalším vyšetření nebo [druhém názoru](@/kompendium/emergency-protocols/38-second-opinion-emergency.md). *Klinik*: používat systém jako podporu, ne náhradu úsudku; dokumentovat vlastní posouzení. *Nemocnice*: validovat systémy na vlastní populaci, sledovat přesnost podle skupin. *Regulátoři*: vyžadovat zveřejnění přesnosti podle podskupin.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Triážní systém na urgentním příjmu zařadí ženu s bolestí na hrudi do nízké priority; příznaky neodpovídají „typickému“ obrazu, na němž byl systém trénován. Zkušená sestra má pochybnosti a požádá lékaře o vyšetření; ukáže se infarkt. Nemocnice poté zjistí, že systém byl validován převážně na mužích, a zavede pravidlo, že sestra může prioritu vždy zvýšit.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+AI systémy mohou přesnost v medicíně i zvyšovat; otázkou je jejich validace a způsob použití. Otevřenou otázkou je, jak zajistit reprezentativní data bez ohrožení soukromí a jak udržet klinický úsudek v prostředí, kde systém „obvykle má pravdu“.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+## 10. Pohled zevnitř a práce s postiženým
 
-**Layer 4 — Accountability:**
+Pacient, jehož příznaky byly podceněny, prožívá nedůvěru ke zdravotnictví a pocit, že mu nikdo nevěří – zkušenost blízká [epistemické nespravedlnosti](@/glossary/epistemicka-injustice.md). U pacientů s předchozími zkušenostmi s diskriminací se tato nedůvěra prohlubuje. Pomáhá uznání chyby, vysvětlení a obnovení vztahu s ošetřujícím týmem.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+## 11. Vztah k ostatním kategoriím EA
 
-## 6. Vztah k jiným EA
+Vzorec se dotýká kapitoly 6: diagnostika EA sama musí čelit riziku zkreslení nástrojů ([6.1.1 Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md)) a [iatrogenního poškození](@/glossary/iatrogenic-harm.md). V kritických perspektivách knihy souvisí s [medikalizací](@/kompendium/critical-perspectives/1-medicalization-critique.md).
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 12. Otázky pro rozhovor a šetření
 
-- **EA-1.* (Vědomá kontrola informací)** — AI Medical Decision EA představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+- Podílel se na rozhodnutí o vaší péči automatizovaný systém?
+- Bylo vaše vlastní hodnocení příznaků vzato v úvahu?
+- Na jaké populaci byl systém ověřen?
+- Měl klinik možnost systém přehlasovat a využil ji?
+- Jak je dokumentováno vlastní posouzení klinika?
 
-## 7. Vztah k Prismatic platformě
+## 13. Postup pro profesionály
 
-Prismatic Platform implementuje detekci a neutralizaci AI Medical Decision EA přes následující komponenty:
+1. **Klinik:** dokumentovat vlastní úsudek vedle výstupu systému; při nesouladu jednat podle klinického obrazu.
+2. **Vedení nemocnice:** zavést lokální validaci a monitorování přesnosti podle skupin.
+3. **Etická komise:** posoudit nasazení systému a informování pacientů.
+4. **Právník pacienta:** posoudit, zda byl dodržen standard péče.
+5. **Výzkumník:** publikovat analýzy přesnosti podle podskupin.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 14. Prevence a odolnost
 
-**Doctrine compliance:**
+Prevence stojí na reprezentativních datech, lokální validaci, vzdělávání kliniků o automatizačním zkreslení a na kultuře, v níž je pochybnost o výstupu systému žádoucí. Pacientům pomáhá znalost práva na informace a na druhý názor.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 15. Typický průběh
 
-## 8. Cross-linky
+Systém se zavede s doloženou průměrnou přesností. V provozu ho klinici začnou používat jako rychlou orientaci, pak jako rozhodnutí. Chyby u méně zastoupených skupin se objevují sporadicky a jsou vysvětlovány individuálně. Vzorec se ukáže až při analýze výsledků podle skupin nebo po závažné události. Náprava vyžaduje úpravu systému i postupů.
 
-**Související EA techniky:**
+## 16. Dokumentace a důkazy
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.6.1 Algorithmic Decision Bias](@/kompendium/techniques/ea-9-6-1-algorithmic-decision-bias.md)
-- [EA-9.6.2 AI Judgment Laundering](@/kompendium/techniques/ea-9-6-2-AI-judgment-laundering.md)
-- [EA-9.6.3 Automated Content Takedown](@/kompendium/techniques/ea-9-6-3-automated-content-takedown.md)
-- [EA-9.6.4 AI Deplatforming Cascade](@/kompendium/techniques/ea-9-6-4-AI-deplatforming-cascade.md)
+Klíčová je zdravotnická dokumentace s vlastním posouzením klinika, záznamy výstupů systému, validační dokumentace a statistiky přesnosti podle skupin. Pacient má právo na nahlédnutí do své dokumentace.
 
-**Doktrinální a infrastructure odkazy:**
+## Odborný kontext
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+Obermeyer et al. (2019) analyzovali algoritmus široce používaný v americkém zdravotnictví k výběru pacientů pro programy intenzivnější péče a zjistili, že při stejném skóre byli černí pacienti nemocnější než bílí; příčinou bylo, že algoritmus předpovídal náklady na péči, nikoli potřebu péče, a náklady odrážely nerovný přístup ke zdravotnictví. Studie je cenná tím, že ukazuje zaujatost vzniklou z volby cílové proměnné, nikoli ze zlého úmyslu, a tím, že autoři navrhli a ověřili opravu.
 
----
+Druhým zdrojem rizika je lidská strana. Parasuraman a Manzey (2010) shrnují výzkum, podle něhož lidé pod zátěží méně kontrolují výstupy automatizace a mají sklon jim dávat přednost před vlastním pozorováním; v medicíně se tento jev projevuje jako přebírání doporučení systému i tam, kde klinický obraz neodpovídá. Fricker (2007) pojmenovává dopad na pacienty: pokud jejich výpověď o příznacích nemá stejnou váhu jako výstup systému, dochází k epistemické nespravedlnosti, která prohlubuje existující nerovnosti v péči.
 
-## Connect & Contribute
+## Souvislosti pro praxi
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+Pro nemocnice je praktickým krokem zavést u každého klinického systému „pravidlo přehlasování“: sestra nebo lékař mohou výstup systému vždy změnit a změna se eviduje bez nutnosti zdůvodňovat ji nadřízeným. Evidence přehlasování je zároveň cenným zdrojem dat o tom, kde systém selhává. Pro výuku zdravotníků je užitečné zařadit případy, kdy systém chyboval u netypických pacientů, a trénovat rozpoznávání automatizačního zkreslení. Pacientským organizacím se vyplácí sledovat, zda jejich skupina byla zastoupena v datech, na nichž byl systém ověřen.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+Pro etické komise je vhodné posuzovat nasazení klinických systémů podobně jako jiné zásahy do péče: s ohledem na informování pacientů, na rozdělení rizik mezi skupiny a na možnost sledovat dopady po zavedení.
 
----
+## Literatura
 
-*EA-9.6.7 | Subkategorie 9.6 Algoritmická governance | Prismatic Compendium | Version 18.4.0*
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Obermeyer, Z., Powers, B., Vogeli, C., & Mullainathan, S. (2019). Dissecting racial bias in an algorithm used to manage the health of populations. *Science*.
+- Parasuraman, R., & Manzey, D. H. (2010). Complacency and bias in human use of automation: An attentional integration. *Human Factors*.
+
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.6.1 Algorithmic Decision Bias](@/kompendium/techniques/ea-9-6-1-algorithmic-decision-bias.md) – obecný vzorec.
+- [EA-9.6.10 AI Welfare Decision EA](@/kompendium/techniques/ea-9-6-10-AI-welfare-decision-EA.md) – automatizace v sociálním systému.
+- [EA-9.6.2 AI Judgment Laundering](@/kompendium/techniques/ea-9-6-2-AI-judgment-laundering.md) – odpovědnost skrytá za systémem.
+
+**Klinika a právo**
+
+- [Zdravotnická pochybení a EA](@/kompendium/forensic-legal/18-medical-malpractice-EA.md) – odpovědnost klinika.
+- [Emergency: Akutní second opinion](@/kompendium/emergency-protocols/38-second-opinion-emergency.md) – druhý názor.
+- [6.1.1 Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md) – meze nástrojů.
+
+**Pojmy a kritika**
+
+- [Iatrogenní poškození](@/glossary/iatrogenic-harm.md) – škoda způsobená péčí.
+- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md) – kritický rámec.

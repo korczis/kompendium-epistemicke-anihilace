@@ -1,108 +1,193 @@
 +++
-title = "EA-7.1.6 Sloterdijk: Sféry"
-description = "Teoretická reflexe — Sloterdijk: Sféry a vztah k EA."
+title = "EA-7.1.6 Sloterdijk: sféry"
+description = "Teoretická reflexe Sloterdijkovy sférologie: člověk žije ve sdílených „bublinách“ smyslu a imunity; jejich uzavření je předpokladem epistemické izolace. Význam pro EA."
 weight = 716
+insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
+tags = ["kompendium", "techniques", "ea-7-1", "teoreticke", "philosophy", "kriticka-teorie"]
 categories = ["academic", "theory"]
 
 [extra]
-related_terms = ["ea-7-1-4-habermas-communicative-action", "ea-7-1-5-arendt-banality-evil", "ea-7-1-7-deleuze-rhizome", "ea-7-1-8-derrida-deconstruction"]
+related_terms = ["ea-7-1-9-heidegger-dasein", "ea-2-2-2-mentee-isolation", "ea-2-3-6-platform-coordinated-attack", "epistemic-bubble", "cynicky-rozum", "socialni-izolace"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.1.6"
 ea_category = "7. Teoretické reflexe"
-ea_subcategory = "7.1 Continental filozofie"
+ea_subcategory = "7.1 Kontinentální filozofie"
 section_icon = "🪐"
 toc = true
 access_level = "L1"
 parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 +++
 
-# EA-7.1.6 Sloterdijk: Sféry
-
-> *Teoretická reflexe v rámci 7.1 Continental filozofie.*
-
-## Identifikace
+# EA-7.1.6 Sloterdijk: sféry
 
 | Pole | Hodnota |
-|---|---|
-| **Kód EA** | EA-7.1.6 |
-| **Tradice** | Continental filozofie |
-| **Autor / škola** | Sloterdijk |
-| **Hlavní teze** | Lidský život se neodehrává v abstraktním prostoru, nýbrž ve sférách — imunologických bublínách, které spoluvytváříme a které nás chrání i izolují. |
-| **Status v EA** | Teoretická reflexe — interpretační rámec, ne přímá technika |
-| **Cross-reference** | viz sekce *Mapování na EA techniky* |
+|------|---------|
+| **Kód EA** | `EA-7.1.6` |
+| **Tradice** | Kontinentální filozofie, filozofická antropologie |
+| **Autor** | Peter Sloterdijk (nar. 1947) |
+| **Hlavní teze** | Lidé nežijí jako izolovaní jednotlivci ve „světě“, ale ve sdílených prostorech blízkosti a smyslu – sférách –, které je chrání a zároveň vymezují, co mohou vnímat. |
+| **Status v EA** | Teoretická reflexe – rámec pro epistemickou izolaci a uzavřené komunity |
+| **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |
 
-## Kontext autora
+## Vymezení
 
-Sloterdijk patří do tradice **Continental filozofie**. Jeho/její pozice je relevantní pro EA tím, že nabízí pojmový aparát, jímž lze popsat manipulaci, asymetrii, framing a epistemickou dynamiku — tedy přesně to, co EA mapuje jako útočné a obranné techniky.
+Trilogie *Sféry* (*Sphären*: I. *Bubliny*, 1998; II. *Glóby*, 1999; III. *Pěny*, 2004)
+rozvíjí obraz člověka jako bytosti, která vždy žije **uvnitř** – v prostoru vytvořeném
+s druhými. Sloterdijk tento prostor nazývá sférou. Nejmenší sférou je „bublina“ intimního
+vztahu, prvním modelem je dvojice matky a dítěte; největšími sférami jsou „glóby“
+metafyzických a imperiálních světových obrazů, které chtěly obsáhnout celý svět;
+současnost podle Sloterdijka žije v „pěnách“ – v mnoha malých, vedle sebe stojících
+a navzájem oddělených buňkách, které se dotýkají, ale nesdílejí společný střed.
 
-Místo, aby EA tato pozice technicky obohacovala (jako kapitoly 1–5), slouží jako **interpretační vrstva**: pomáhá odpovědět na otázku *proč* daná technika funguje, *kdo* jí těží a *za jakých podmínek* jí lze odolat.
+Sféry mají pro Sloterdijka **imunitní** funkci: chrání před tím, co je venku, a vytvářejí
+klima, v němž je možný život a smysl. Tím se jeho rámec stává užitečným pro Kompendium:
+popisuje, proč lidé potřebují sdílené prostory smyslu a proč je jejich manipulace,
+uzavření nebo zničení epistemicky tak účinné.
 
-## Klíčové koncepty
+## Původ a kontext
 
-1. **Sféry (mikro-, makro-, pěna)**
-2. **Imunologie kultury**
-3. **Antropotechnika (sebeformování člověka)**
+Sloterdijk na sebe upozornil knihou *Kritika cynického rozumu* (1983), v níž popsal
+moderní [cynický rozum](@/glossary/cynicky-rozum.md) jako „osvícené falešné vědomí“:
+lidé vědí, že ideologie lže, a přesto se podle ní chovají. Tento pojem je pro Kompendium
+důležitý sám o sobě, protože vysvětluje, proč odhalení manipulace nemusí vést ke změně
+jednání. Sférologie navazuje na Heideggerovu analýzu bytí-ve-světě (viz
+[EA-7.1.9](@/kompendium/techniques/ea-7-1-9-heidegger-dasein.md)), ale přesouvá důraz
+od jednotlivého pobytu ke sdílenému prostoru. V pozdějším díle *Musíš změnit svůj život*
+(2009) Sloterdijk rozvíjí pojem antropotechnik – praxí cvičení, jimiž lidé formují sami
+sebe.
 
-Tyto pojmy nejsou v EA použity přímo jako názvy technik, ale tvoří **rastr**, jímž lze techniky kapitol 1–6 lépe číst — a v některých případech i odhalit, že to, co vypadá jako jediná technika, je ve skutečnosti složený dispozitiv.
+## Co rámec zviditelňuje
 
-## Vztah k EA
+Pro Kompendium přináší sférologie tři postřehy. Za prvé, **izolace není jen ztrátou
+kontaktů, ale ztrátou sféry**. Techniky jako [izolace svěřence](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md)
+nebo [kontrola prostředí](@/glossary/milieu-control.md) nepůsobí jen tím, že omezí
+informace, ale tím, že nahradí sdílený prostor smyslu jiným, jehož klima určuje
+manipulátor. Člověk, který ztratil svou původní bublinu (rodinu, přátele, obor),
+hledá novou – a je vděčný tomu, kdo ji nabídne.
 
-Pozice **Sloterdijk** vnáší do EA tři operativní příspěvky:
+Za druhé, **pěny jako struktura současnosti** vysvětlují, proč dnes snadno vznikají
+uzavřená epistemická prostředí. Každá buňka pěny má vlastní klima a vlastní pravdy;
+sousední buňky se dotýkají, ale nepronikají se. Tento obraz odpovídá tomu, co výzkum
+digitálních médií popisuje jako [epistemické bubliny](@/glossary/epistemic-bubble.md)
+a ozvěnové komory; Nguyen (2020) rozlišil bubliny (kde chybí informace) od ozvěnových
+komor (kde je nedůvěra k vnějším zdrojům aktivně pěstována). Koordinované kampaně
+([EA-2.3.6](@/kompendium/techniques/ea-2-3-6-platform-coordinated-attack.md)) využívají
+právě to, že se šíří v jednotlivých buňkách, kde narazí na malý odpor.
 
-- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *„něco se tu děje, ale nevíme co“*.
-- **Hloubka rámce**: ukazuje, že manipulace často není individuální akt, nýbrž **strukturální efekt** vyšší vrstvy (diskurzní, institucionální, biologické).
-- **Etická pojistka**: brání tomu, aby EA degenerovala v techniku oboustranné aplikace bez reflexe — tj. aby se z obranného nástroje stala nová manipulační šablona.
+Za třetí, **imunitní logika** sfér vysvětluje, proč uzavřené skupiny reagují na kritiku
+zvenčí jako na infekci. Sféra se brání tomu, co by mohlo narušit její klima; kritik
+je „cizí těleso“. Tím lze vysvětlit, proč argumenty zvenčí obvykle nepomáhají a proč je
+obrana účinnější, když vychází zevnitř sféry nebo z jiné sféry, s níž má člověk vztah.
 
-## Mapování na EA techniky
+## Cynický rozum jako bariéra obrany
 
-Pozice **Sloterdijk** se relevantně dotýká těchto oblastí EA:
+Vedle sférologie má pro Kompendium samostatný význam Sloterdijkova analýza cynického
+rozumu (1983). Klasická kritika ideologie předpokládala, že stačí odhalit lež a člověk
+přestane jednat podle ní. Cynický subjekt však lež zná – „vím, že to tak není, ale
+dělám to“ – a jedná podle ní dál, protože mu to zajišťuje bezpečí ve sféře, k níž patří.
+Tento postřeh vysvětluje, proč osvěta často selhává: člověk v uzavřeném prostředí může
+manipulaci rozpoznávat a přesto ji podporovat, protože ztráta sféry by byla horší než
+život s vědomou nepravdou. Havel (1978) popsal tentýž jev na zelináři, který vystavuje
+heslo, jemuž nevěří. Obrana proto nemůže stát jen na informacích; musí nabídnout
+alternativní prostor, v němž je možné žít bez cynismu.
 
-- budování informačních bublin, kulturní imunita, izolace názorů
-- vztah ke **kapitole 6 (obrana a kalibrace)**: pomáhá rozlišit obranu strukturální od obrany pouze taktické.
-- vztah ke **kapitole 3 (manipulační vzorce)**: dodává jazyk, jímž lze pojmenovat skryté předpoklady techniky.
+## Pohled zevnitř
 
-Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [techniques index](@/kompendium/techniques/_index.md).
+Člověk ve své sféře obvykle nevidí její hranice; prostor smyslu je pro něj prostě
+„světem“. Teprve ztráta sféry – vyloučení, emigrace, rozpad rodiny, odchod ze skupiny –
+ukáže, jak moc byl na ní závislý. Typickým prožitkem je pak „vystavenost“: pocit, že
+člověk stojí bez ochrany v prostoru, který nemá klima ani smysl. V kazuistikách se tento
+stav popisuje jako [epistemická bezdomovost](@/glossary/epistemicka-bezdomovost.md).
 
-## Limitace
+## Detekční markery z hlediska rámce
 
-- **Není přímo testovatelná**: na rozdíl od EA-1 až EA-5 nelze tuto pozici jednoduše operacionalizovat ve scoring engine — slouží jako interpretační rámec, ne jako prediktor.
-- **Riziko nadužití**: aplikovaná všude, ztrácí ostří; pozice je nosná tam, kde **standardní psychologický nebo logický rozbor selává**.
-- **Spor o překlad**: některé pojmy (např. *[différance](@/glossary/differance.md)*, *Dasein*, *phi*) odporují čistému přepisu do operativního jazyka platformy a musí být užity s vědomím vlastní hranice.
-- **Žádná pozice není totální**: tato reflexe je jednou z mnoha — viz sister 7.1.* a sousední podkapitoly 7.1, 7.2, 7.3.
+Pozorovatel se může ptát, zda člověk patří k více sférám (rodina, práce, přátelé, zájmy)
+nebo jen k jedné; zda jeho sféra připouští kontakt s jinými sférami; zda sféra reaguje
+na kritiku zvenčí jako na útok; a zda odchod ze sféry znamená ztrátu všech ostatních
+vztahů. Člověk s jedinou, uzavřenou sférou je zranitelný bez ohledu na obsah, který
+sféra sdílí.
 
-## Cross-linky
+## Rizikové kontexty
 
-### Sesterské reflexe (7.1.*)
-- [EA-7.1.1 Foucault: Power/Knowledge](@/kompendium/techniques/ea-7-1-1-foucault-power-knowledge.md)
-- [EA-7.1.2 Foucault: Discipline & Punish](@/kompendium/techniques/ea-7-1-2-foucault-discipline.md)
-- [EA-7.1.3 Adorno: Instrumentální rozum](@/kompendium/techniques/ea-7-1-3-adorno-instrumental-reason.md)
-- [EA-7.1.4 Habermas: Komunikativní jednání](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md)
-- [EA-7.1.5 Arendtová: Banalita zla](@/kompendium/techniques/ea-7-1-5-arendt-banality-evil.md)
-- [EA-7.1.7 Deleuze & Guattari: Rhizome](@/kompendium/techniques/ea-7-1-7-deleuze-rhizome.md)
+Uzavřené skupiny a komunity, online komunity s vlastní identitou (fóra, servery,
+subreddity), rodiny s izolačními pravidly, emigrace a ztráta kulturního zázemí, období
+po rozpadu blízkých vztahů. Zvláště zranitelní jsou lidé, kteří ztratili svou původní
+sféru a hledají novou.
 
-### Související
-- [Kapitola 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Kapitola 06: Obrana a kalibrace](@/kompendium/06-obrana/_index.md)
-- [Kapitola 03: Manipulační vzorce](@/kompendium/03-manipulacni-vzorce/_index.md)
-- [Glosář: Falsifikace](@/kompendium/glossary-bridges/falsifikace.md)
-- [Glosář: Predictive processing](@/glossary/predictive-processing.md)
-- [Glosář: Power-knowledge](@/glossary/power-knowledge.md)
-- [Glosář: Lakatos research program](@/glossary/lakatos.md)
-- {{ <cross_link path="/decisions/" text="Platforma: Decision Engine" /> }}
-- {{ <cross_link path="/investigate/" text="Platforma: Investigate" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="Platforma: OSINT Toolbox" /> }}
+## Odlišení a meze užití
 
----
+Sféry nejsou samy o sobě patologické; jsou podmínkou lidského života. Rámec neslouží
+k odsouzení každé komunity se silnou identitou, ale k rozlišení sfér, které jsou
+propustné a dovolují odchod, od sfér, které se uzavírají a trestají kontakt s vnějškem.
+Sloterdijkův styl je esejistický a metaforický a jeho teze nejsou empiricky testovatelné
+v přísném smyslu; Kompendium ho používá jako heuristiku, kterou doplňuje empirickým
+výzkumem sociální izolace a digitálních komunit. Rozlišení mezi epistemickou bublinou
+a ozvěnovou komorou (Nguyen 2020) je přitom přesnějším nástrojem pro diagnostiku.
 
-## Connect
+## Klinický a právní rámec
 
-Chcete tuto reflexi aplikovat na konkrétní případ?
+Klinicky je rámec užitečný při práci s lidmi po odchodu ze skupin a po migraci: ztráta
+sféry se projevuje úzkostí, depresí a dezorientací, které nelze léčit jen jako
+individuální symptomy. Zotavení vyžaduje novou sféru – vztahy, komunitu, smysl.
+Právně rámec nic přímo nezakládá; je však relevantní pro pochopení, proč oběti
+uzavřených skupin obtížně svědčí a proč potřebují ochranu nejen před pachateli, ale
+i před ztrátou celé sociální sítě; srov. [ochrana svědků](@/kompendium/forensic-legal/22-fact-witness-protection.md).
 
-- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — [Decision Engine](@/glossary/decision-engine.md) s podporou epistemické kalibrace.
-- [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
-- [Glosář pojmů](@/glossary/_index.md) — definice klíčových termínů napříč EA.
+## Obrana a zotavení
 
-*Část kompendia [Epistemic Arsenal](@/kompendium/_index.md) — kapitola 7. Teoretické reflexe, podkapitola 7.1 Continental filozofie.*
+Obranou je **mnohost sfér**: udržovat vztahy v různých prostředích, aby ztráta jedné
+nebyla ztrátou všech. Pomáhá [diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md),
+[prevence izolace](@/kompendium/self-defense-guides/26-isolation-prevention.md) a
+[komunitní zapojení](@/kompendium/self-defense-guides/28-community-engagement.md).
+Zotavení po ztrátě sféry vede přes [sociální znovupropojení](@/kompendium/recovery-protocols/acute-social-reconnection.md)
+a [budování komunity](@/kompendium/recovery-protocols/longterm-community-rebuilding.md):
+nejde jen o nové kontakty, ale o nový sdílený prostor smyslu.
+
+## Případy, které rámec osvětluje
+
+Anonymizované kompozity: [kult fóra](@/kompendium/case-studies/78-forum-cult.md),
+[kult discordového serveru](@/kompendium/case-studies/79-discord-server-cult.md) a
+[kult subredditu](@/kompendium/case-studies/80-subreddit-cult.md) ukazují uzavřené buňky
+digitální pěny; [online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md)
+přechod z jedné sféry do druhé. Historicky [Jonestown](@/kompendium/historical-cases/11-jonestown.md)
+jako extrémní uzavření sféry, fyzicky i epistemicky (interpretace knihy).
+
+## Poznámka ke kódu
+
+Kód `EA-7.1.6` patří do řady teoretických reflexí v katalogu technik a není totožný
+s číslováním oddílů kapitoly 7; Sloterdijka pojednává oddíl
+[7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md).
+
+## Literatura
+
+- Sloterdijk, P. (1983). *Kritik der zynischen Vernunft*.
+- Sloterdijk, P. (1998). *Sphären I: Blasen*.
+- Sloterdijk, P. (1999). *Sphären II: Globen*.
+- Sloterdijk, P. (2004). *Sphären III: Schäume*.
+- Sloterdijk, P. (2009). *Du mußt dein Leben ändern*.
+- Havel, V. (1978). *Moc bezmocných*.
+- Nguyen, C. T. (2020). Echo Chambers and Epistemic Bubbles. *Episteme*.
+
+## Související
+
+**Sesterské reflexe a kapitoly**
+
+- [EA-7.1.9 Heidegger: pobyt](@/kompendium/techniques/ea-7-1-9-heidegger-dasein.md) –
+  bytí-ve-světě jako výchozí bod.
+- [EA-7.1.7 Deleuze a Guattari: rhizom](@/kompendium/techniques/ea-7-1-7-deleuze-rhizome.md)
+  – síť místo sféry.
+- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md) –
+  souhrnné pojednání.
+
+**Pojmy**
+
+- [Glosář: epistemická bublina](@/glossary/epistemic-bubble.md) – digitální obdoba.
+- [Glosář: cynický rozum](@/glossary/cynicky-rozum.md) – vědět a přesto jednat.
+- [Glosář: sociální izolace](@/glossary/socialni-izolace.md) – ztráta sféry.
+
+**Techniky, které rámec vysvětluje**
+
+- [EA-2.2.2 Izolace svěřence](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md) –
+  nahrazení sféry.

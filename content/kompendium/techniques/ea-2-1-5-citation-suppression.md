@@ -1,14 +1,15 @@
 +++
-title = "EA-2.1.5 Citation Suppression"
-description = "Delegitimizační technika — Citation Suppression."
+title = "EA-2.1.5 Potlačování citací (citation suppression)"
+description = "Vzorec soustavného necitování práce autora v navazující literatuře, který snižuje jeho viditelnost a mění dějiny oboru. Znaky, odlišení, obrana."
 weight = 2105
+insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-2-1-5", "delegitimizace"]
+tags = ["kompendium", "techniques", "ea-2-1-5", "delegitimizace", "expertni-diskvalifikace"]
 categories = ["academic"]
 
 [extra]
-related_terms = ["ea-2-1-3-credentialing-attack", "ea-2-1-4-publikacni-blokace", "ea-2-1-6-funding-attack", "ea-2-1-7-institucionalni-vyloucenni"]
+related_terms = ["ea-2-1-4-publikacni-blokace", "ea-2-2-8-intellectual-paternity-claim", "ea-2-1-9-pseudo-konsenzus-vytvoreni", "ea-2-4-8-journal-capture", "epistemicka-injustice", "hermeneuticka-marginalizace"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.1.5"
 ea_category = "2. Scénáře delegitimizace"
@@ -20,90 +21,200 @@ risk_level = "high"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 +++
 
-# EA-2.1.5 Citation Suppression
+# EA-2.1.5 Potlačování citací (citation suppression)
 
-## Identifikace
-
-| Atribut | Hodnota |
-|---------|---------|
-| **EA kód** | EA-2.1.5 |
-| **Název** | Citation Suppression |
+| Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-2.1.5` |
 | **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
 | **Subkategorie** | 2.1 Expertní diskvalifikace |
-| **Risk level** | High |
-| **Access level** | L2 |
-| **Parent chapter** | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
+| **Přístupová úroveň** | L2 (odborná analýza) |
+| **Riziková úroveň** | Vysoká – tichá a dlouhodobá; mění paměť oboru |
+| **Reverzibilita** | Nízká až střední; přepsaná historie oboru se opravuje pomalu |
+| **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
+| **Rychlá karta** | [QR: EA-2.1.5](@/kompendium/quick-reference/qr-ea-2-1-5.md) |
 
 ## Definice
 
-Strategické vynechávání či potlačování citací expertových prací v navazující odborné literatuře s cílem snížit jeho akademickou viditelnost a vliv.
+Potlačování citací je vzorec, v němž se práce určitého autora v navazující literatuře
+**soustavně necituje**, ačkoli s ní texty věcně pracují nebo by s ní pracovat měly. Výsledek
+je dvojí: autor ztrácí viditelnost (v systémech, které hodnotí podle citací, i kariérně)
+a obor ztrácí paměť – myšlenka se objevuje jako „obecně známá“ nebo jako objev někoho
+jiného.
 
-Tato technika představuje konkrétní operacionalizaci širšího vzorce **Expertní diskvalifikace** v rámci taxonomie **EA — Epistemic Attack**. Cílem není pouze útok na jednotlivý výrok či pozici, ale **systematická eroze legitimity** cíle, jeho hlasu a jeho institucionální váhy.
+Jde o nejtišší techniku podkategorie 2.1: nevyžaduje žádné veřejné tvrzení, žádný útok,
+jen opomenutí. Proto se obtížně dokazuje a proto je dlouhodobě účinná.
 
-## Operační modus
+## Mechanismus (strukturní popis)
 
-Technika **EA-2.1.5** typicky probíhá ve třech fázích:
+1. **Strukturální opomenutí.** Přehledové články, učebnice a úvody grantů vynechávají práci
+   cíle; čtenáři, kteří obor poznávají z přehledů, se o ní nedozví.
+2. **Citace přes prostředníka.** Myšlenka se cituje podle pozdějšího textu, který ji převzal,
+   nikoli podle původu.
+3. **Rámování jako „obecného místa“.** Původní příspěvek se popisuje jako samozřejmost, která
+   citaci nepotřebuje.
+4. **Kumulativní výhoda.** Robert K. Merton popsal *Matoušův efekt*: kdo je citován,
+   je citován ještě víc. Potlačení na začátku proto zesiluje samo sebe.
+5. **Citační kruhy.** Skupina cituje převážně sama sebe a tím vytváří zdání, že relevantní
+   literatura končí na jejích hranicích; srov. [citační cirkularitu](@/kompendium/detection-signatures/18-network-citation-circularity.md).
 
-### Fáze 1 — Příprava terénu
+Vzorec souvisí s [EA-2.2.8 Nárokem na intelektuální otcovství](@/kompendium/techniques/ea-2-2-8-intellectual-paternity-claim.md):
+tam se cizí myšlenka přisvojuje, zde se původ zamlčí.
 
-Útočník identifikuje cíl, mapuje jeho **epistemickou síť** (kolegy, instituce, publikační kanály, mediální zázemí) a vyhledává **zranitelná místa**: závislosti na grantech, slabé spojence, kontroverzní výroky v minulosti, izolovatelné subkomunity.
+## Teoretický rámec: kumulativní výhoda a paměť oboru
 
-### Fáze 2 — Aktivace techniky
+Merton (1968) ukázal, že uznání ve vědě se rozděluje nerovně a sebeposilujícím
+způsobem: známější autoři získávají za srovnatelný přínos větší uznání a citace přitahují
+další citace. Rossiterová (1993) doplnila, že tento mechanismus má i opačnou stranu,
+při níž přínos méně viditelných autorů – historicky zejména žen – mizí z paměti oboru.
+Potlačování citací je záměrnou, nebo alespoň soustavnou aktivací této opačné strany:
+stačí na počátku necitovat, a kumulativní mechanismus odvede zbytek.
 
-Aktivace probíhá synchronně přes více vektorů. **Citation Suppression** se nezavede jednorázovou akcí, ale **kaskádou koordinovaných drobných pohybů**, které jednotlivě působí marginálně, ale v součtu produkují **systémový posun**.
+Epistemicky jde o formu toho, co Fricker (2007) nazývá epistemickou nespravedlností:
+autorovi se upírá uznání jako zdroje vědění. Pro obor má potlačování citací i věcný
+dopad: zkresluje dějiny myšlenek, znesnadňuje sledovat původ argumentů a vede k jejich
+opakovanému „objevování“. Systémy hodnocení výzkumu založené na citačních metrikách tento
+dopad převádějí do kariérních důsledků.
 
-### Fáze 3 — Stabilizace nového stavu
+## Postup pro posuzovatele
 
-Po dosažení primárního efektu útočník stabilizuje nový stav skrze **institucionální fakty**, **dokumentaci** a **revizionistický narativ**, který činí návrat k předchozímu stavu nákladným nebo nemožným.
+Editor nebo komise pro integritu může vzorec rozpoznat porovnáním citační praxe
+určité skupiny s praxí jiných autorů pracujících na stejném tématu, analýzou
+přehledových textů a vyhledáním prací, které řeší stejný problém podobnou metodou bez
+odkazu na dřívější práci. U sporů o prioritu jsou rozhodující datované doklady.
 
-## Detekce
+## Fenomenologické znaky (pohled zevnitř)
 
-| Indikátor | Popis | Závažnost | Reakce |
-|-----------|-------|-----------|--------|
-| **Koordinovaná synchronicita** | Více aktérů provádí podobné kroky v krátkém časovém okně | Vysoká | Síťová analýza, mapování koordinace |
-| **Asymetrie kritiky** | Kritika cíle je tvrdší než stejná kritika srovnatelných případů | Střední | Dokumentace asymetrie, externí audit |
-| **Eroze procedurálních standardů** | Standardy se náhle mění specificky pro daný případ | Vysoká | Procedurální archeologie, právní revize |
-| **Narativní konvergence** | Různé zdroje začnou používat identické formulace | Střední | Lingvistická forenzika, šíření narativu |
+| Znak | Jak ho autor popisuje |
+|---|---|
+| Neviditelnost | „Píšou o tom, co jsem udělal, jako by to vymysleli sami.“ |
+| Pochybnost o vlastním vjemu | Neví, zda nepřeceňuje význam své práce. |
+| Trapnost nároku | Upozornit na necitování připadá malicherné; mlčí. |
+| Hořkost a cynismus | Postupně ztrácí důvěru v férovost oboru. |
+| Ztráta motivace | „Proč publikovat, když to stejně nikdo nepřizná.“ |
 
-## Neutralizace
+## Detekční markery (pohled pozorovatele)
 
-### Individuální obrana
+| Marker | Co může naznačovat |
+|---|---|
+| Přehledové texty určité skupiny práci vynechávají, jiné ji uvádějí | Strukturální opomenutí |
+| Myšlenka se cituje podle pozdějšího zdroje, který původ uvádí | Citace přes prostředníka |
+| Text popisuje stejný výsledek s podobnou metodou bez odkazu | Možné přisvojení; vyžaduje srovnání dat |
+| Skupina cituje převážně sebe | Citační kruh |
+| Recenzenti žádají odstranění citací cíle | Aktivní potlačení v řízení |
 
-1. **Dokumentace v reálném čase** — Vést **veřejnou kroniku** všech kroků útoku s časovými razítky, jmény aktérů a citacemi.
-2. **Diverzifikace závislostí** — Snížit **single points of failure** v kariéře (více grantů, více platforem, více institucí).
-3. **Spojenecká síť** — Aktivně kultivovat **epistemickou koalici** přesahující jednu instituci nebo jeden okruh kolegů.
+Nevědomé opomenutí je časté – literatura je obrovská. Vzorec vzniká až soustavností
+a nesouměrností: necituje se právě tento autor, právě touto skupinou, opakovaně.
 
-### Institucionální obrana
+## Rizikové kontexty
 
-1. **Procedurální transparence** — Pevné, **veřejně dostupné procedury** pro recenze, evaluace, jmenování, granty.
-2. **Externí audit** — Pravidelné **nezávislé audity** klíčových rozhodovacích procesů institucí.
+Obory s několika soupeřícími školami; autoři z periferních zemí, píšící v jiném jazyce
+nebo publikující v méně prestižních kanálech; ženy ve vědě (Margaret Rossiter nazvala
+historické přehlížení jejich příspěvků Matyldiným efektem); bývalí členové skupiny, kteří
+z ní odešli ve sporu; whistlebloweři. Riziko zvyšuje hodnocení výzkumu podle citačních
+metrik, které z opomenutí dělá kariérní sankci.
 
-## Vztah k jiným technikám
+## Odlišení
 
-Technika **EA-2.1.5** se v praxi téměř nikdy nevyskytuje izolovaně. Typicky se kombinuje s technikami **EA-1.X.Y** (přímé útoky na jednotlivé výroky) jako **operační vrstvou** a s ostatními technikami **EA-2.X.Y** (institucionální delegitimizace) jako **strategickou vrstvou**. Identifikace primární techniky pomáhá rozeznat **strukturu kampaně** jako celku.
+- **Neznalost a přehlédnutí.** Bez vzorce a bez nesouměrnosti jde o běžnou nedokonalost
+  vědecké komunikace.
+- **Oprávněné nezahrnutí.** Práce, která je metodologicky překonaná nebo k tématu
+  nepatří, se citovat nemusí.
+- **Hermeneutická marginalizace.** Pokud obor nemá pojmy, jimiž by příspěvek vůbec uchopil,
+  jde spíš o [hermeneutickou marginalizaci](@/glossary/hermeneuticka-marginalizace.md) než
+  o cílené potlačení; obojí se ale překrývá.
+- **[EA-2.1.4 Publikační blokace](@/kompendium/techniques/ea-2-1-4-publikacni-blokace.md).**
+  Působí před publikací; potlačování citací po ní.
 
-## Vztah k platformě
+## Klinický a právní rámec
 
-Prismatic Platform poskytuje pro detekci a analýzu této techniky následující komponenty:
+Klinicky je technika zřídka příčinou vyhledání pomoci sama; objevuje se v anamnéze
+profesního vyhoření a deziluze, často spolu s pocitem křivdy, který okolí bagatelizuje.
+Terapeut by měl brát vážně, že jde o zásah do profesní identity, i když vnějšímu
+pozorovateli připadá malý.
 
-- **[Decision Engine](@/glossary/decision-engine.md)** — vícezdrojová evidence + uncertainty estimator pro vyhodnocení důvěryhodnosti narativů kolem cíle
-- **OSINT Toolbox** — 128+ adapterů pro mapování koordinace napříč platformami a institucemi
-- **Nabla (∇∞)** — epistemický engine pro modelování útoků na epistemické autority a důvěru
-- **Hawkeye** — síťová analýza pro detekci koordinovaných kampaní a zachycených struktur
+Právně může být relevantní plagiát a porušení autorského práva (zákon č. 121/2000 Sb.),
+pravidla vědecké integrity instituce a etické zásady vydavatelů. Samotné necitování
+obvykle žalovatelné není; viz [profesionální pochybení](@/kompendium/forensic-legal/19-professional-misconduct-EA.md).
+
+## Obrana a neutralizace
+
+**Pro autora.** Udržovat veřejně dostupný a datovaný záznam vlastní práce (repozitář,
+preprinty, identifikátor autora); věcně a bez útočnosti upozornit autora textu, který
+příspěvek opomněl; psát vlastní přehledové texty. Pomáhá [archiv paměti](@/kompendium/self-defense-guides/43-memory-archive.md)
+a [kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) ve vlastní
+hodnocení vlivu.
+
+**Pro editory a recenzenty.** Kontrolovat úplnost citací u přehledů, nežádat odstranění
+citací bez věcného důvodu, sledovat autocitace a citační kruhy.
+
+**Pro instituce.** Nehodnotit výzkum jen citačními metrikami.
+
+## Průběh
+
+Vzorec se obvykle rozvíjí v letech, ne v týdnech. Na počátku stojí konflikt – spor
+o prioritu, odchod ze skupiny, kritika vlivného kolegy. Následuje období, kdy nové práce
+autora nejsou citovány v textech jedné skupiny, zatímco jinde citovány jsou. Pokud
+skupina ovládá přehledové texty, učebnice nebo hesla v encyklopediích oboru, opomenutí se
+přenese do další generace, která už původ myšlenky nezná. V konečné fázi se autorova
+práce objevuje jen jako „starší pokus“, který „správné“ řešení předjímal. Zpětně se tento
+průběh dá doložit srovnáním citačních údajů s datem konfliktu.
+
+## Zotavení
+
+Zotavení spočívá v obnově vztahu k vlastní práci, který nezávisí na uznání úzkého okruhu:
+v jiných komunitách, ve výuce, v praktickém dopadu. U dlouhodobých případů pomáhá
+[práce s axiologickou obnovou](@/kompendium/recovery-protocols/subacute-axiological-restoration.md) –
+co je na mé práci cenné nezávisle na citacích.
+
+## Ilustrativní příklad (anonymizovaný kompozit)
+
+Výzkumník odejde ve sporu z vlivné skupiny a založí vlastní laboratoř. V následujících
+letech vychází ze skupiny řada přehledových článků k tématu, které spoluzaložil; jeho
+práce v nich chybí, zatímco práce jeho bývalých kolegů jsou citovány podrobně. Mladší
+autoři přebírají literaturu z přehledů a jeho původní články přestanou citovat úplně.
+Po deseti letech ho recenzent jeho nového grantu upozorní, že „opomíjí základní
+literaturu oboru“ – tedy práce, které vycházejí z jeho vlastních.
+
+## Meze a otevřené otázky
+
+Literatura je rozsáhlá a žádný autor nemůže citovat vše; necitování je většinou
+nezáměrné. Otevřenou otázkou je, jak odlišit soustavné potlačení od běžné selektivity
+a jakou roli mohou hrát nástroje pro mapování citací.
+
+## Případy, které techniku ukazují
+
+Anonymizované kompozity: [vědecká disinflace](@/kompendium/case-studies/05-vedecka-disinflation.md),
+[kult akademické školy](@/kompendium/case-studies/66-academic-school-cult.md) (citovat
+smí jen „naši“) a [kult výzkumné disciplíny](@/kompendium/case-studies/67-research-discipline-cult.md),
+kde se celé konkurenční směry z literatury vytratí.
+
+## Literatura
+
+- Merton, R. K. (1968). The Matthew Effect in Science. *Science*.
+- Rossiter, M. W. (1993). The Matthew Matilda Effect in Science. *Social Studies of Science*.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*.
 
 ## Související
 
-- [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) (parent)
-- [Taxonomie EA](@/kompendium/glossary-bridges/taxonomie-ea.md) (klasifikační rámec)
-- [Delegitimizace](@/kompendium/glossary-bridges/delegitimizace.md) (konceptuální základ)
-- [EA-2.1.4](@/kompendium/techniques/ea-2-1-4-publikacni-blokace.md) (sister)
-- [EA-2.1.6](@/kompendium/techniques/ea-2-1-6-funding-attack.md) (sister)
-- [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) (sister)
-- [Gaslighting](@/kompendium/glossary-bridges/gaslighting.md) (související psychologický mechanismus)
-- [Epistemické trauma](@/kompendium/glossary-bridges/epistemicke-trauma.md) (důsledek pro cíl)
+**Sourozenecké techniky**
 
-## Connect
+- [EA-2.1.4 Publikační blokace](@/kompendium/techniques/ea-2-1-4-publikacni-blokace.md) –
+  zábrana před publikací.
+- [EA-2.2.8 Nárok na intelektuální otcovství](@/kompendium/techniques/ea-2-2-8-intellectual-paternity-claim.md)
+  – přisvojení místo zamlčení.
+- [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md)
+  – literatura, z níž zmizely nesouhlasné hlasy.
+- [EA-2.4.8 Zachycení časopisu](@/kompendium/techniques/ea-2-4-8-journal-capture.md) –
+  kanál, který citační praxi řídí.
 
-- **Kompendium**: [Hlavní rozcestník](@/kompendium/_index.md) | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | [Glossary](@/glossary/_index.md)
-- **Platforma**: {{ <cross_link path="/decisions/" text="Decision Engine" /> }} | [OSINT Toolbox](https://prismatic-reality-com.github.io/prismatic-promo/osint/) | {{ <cross_link path="/nabla/" text="Nabla" /> }}
-- **Zpětná vazba**: Pro hlášení nových případů této techniky kontaktujte [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+**Pojmy a signatury**
+
+- [Glosář: epistemická nespravedlnost](@/glossary/epistemicka-injustice.md) – širší rámec.
+- [Citační cirkularita](@/kompendium/detection-signatures/18-network-citation-circularity.md)
+  – síťový znak citačních kruhů.
+
+**Pomoc**
+
+- [Archiv paměti](@/kompendium/self-defense-guides/43-memory-archive.md) – doložitelnost
+  vlastní práce.

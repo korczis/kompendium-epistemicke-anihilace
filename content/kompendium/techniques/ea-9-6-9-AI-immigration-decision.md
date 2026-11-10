@@ -1,14 +1,14 @@
 +++
 title = "EA-9.6.9 AI Immigration Decision"
-description = "Současná digitální EA — ai immigration decision."
+description = "Vzorec automatizovaného hodnocení rizika ve vízovém, azylovém a migračním řízení, kde neprůhledné systémy ovlivňují zásadní životní rozhodnutí bez účinné obrany."
 weight = 969
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-6-7-AI-medical-decision-EA", "ea-9-6-8-AI-legal-decision-EA", "ea-9-6-6-AI-hiring-narrative"]
+related_terms = ["ea-9-6-8-AI-legal-decision-EA", "ea-9-6-10-AI-welfare-decision-EA", "ea-9-6-1-algorithmic-decision-bias", "ea-6-4-3-uprchlik-protokol"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.6.9"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,114 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-AI v rozhodnutích o vízech, azylu, vyhoštění — high-stakes life decisions delegated to opaque systems.
+*AI immigration decision* označuje použití automatizovaných systémů v rozhodování o vízech, azylu, pobytu a vyhoštění: hodnocení rizika žadatelů, třídění žádostí, ověřování identity, analýzy jazyka nebo dokumentů. Rozhodnutí jsou formálně „asistovaná“, ale fakticky může výstup systému určovat výsledek. Žadatelé, často ve velmi zranitelném postavení, nemají přístup k logice systému ani účinnou možnost odvolání.
 
-V kontextu Prismatic doktríny je AI Immigration Decision klasifikováno jako **L1** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.6.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Government deploys AI risk-scoring pro applicants; rozhodnutí jsou 'asistovaná', ale fakticky řízená; applicants nemají transparency ani meaningful appeal; biases v tréninkových datech reprodukovány.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Migrační řízení kombinuje vysoký počet žádostí, tlak na rychlost a politickou citlivost – ideální podmínky pro automatizaci i pro její zneužití. Systémy pracují s údaji, které nesou kulturní a jazykové zkreslení (jména, cestovní trasy, zemi původu, dialekt), a mohou je převádět na „riziko“. Žadatel je navíc v epistemicky nerovném postavení: neovládá jazyk ani právní systém, často nemá dokumenty a jeho výpověď o traumatu může být nekonzistentní z důvodů, které systém nechápe. Automatizace tak může prohloubit [epistemickou nespravedlnost](@/glossary/epistemicka-injustice.md), které žadatelé už čelí.
 
 ## 4. Detekční markery
 
-Algorithmic accountability acts compliance, FOIA-driven audits, immigration outcome statistics, refugee/asylum disparate-impact.
+- Zamítnutí se odvolávají na „rizikový profil“ bez konkrétních důvodů.
+- Žadatelé z určitých zemí nebo s určitými jmény jsou systematicky odmítáni nebo podrobováni zvýšeným kontrolám.
+- Systém hodnotí věrohodnost podle jazykových nebo behaviorálních znaků.
+- Žadatel nemá přístup ke svému „skóre“ ani k údajům, z nichž vychází.
+- Odvolání nezahrnuje přezkum výstupu systému.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Kontrola bezpečnostních databází*: ověření v seznamech s právním základem a možností přezkumu. *Pomocné nástroje*: (překlady, správa spisů) – nepodílejí se na posouzení věci. *[EA-9.6.8 AI Legal Decision EA](@/kompendium/techniques/ea-9-6-8-AI-legal-decision-EA.md)*: justice; v migraci je postavení žadatele ještě slabší.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Chybné rozhodnutí může znamenat návrat do ohrožení, rozdělení rodiny nebo dlouhodobé zdržení. Mezinárodní právo (zásada nenavracení) a právo EU vyžadují individuální posouzení; akt o umělé inteligenci řadí systémy pro migraci, azyl a ochranu hranic mezi vysoce rizikové. Pro posuzování výpovědí o traumatu viz [Azyl a EA](@/kompendium/forensic-legal/43-asylum-EA.md).
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Žadatel a jeho zástupce*: vyžadovat individuální posouzení a odůvodnění, napadat zamítnutí odvolávající se na neurčitý profil. *Neziskové organizace*: poskytovat právní pomoc, dokumentovat vzorce, informovat veřejnost. *Úřady*: zajistit lidské posouzení, transparentnost a přístup žadatele k údajům. *Klinici*: dokládat dopad traumatu na výpověď ([EA-6.4.3 Uprchlík/migrant protokol](@/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md)).
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Žadatelka o azyl je zařazena do zrychleného řízení, protože systém vyhodnotí její zemi původu a cestovní trasu jako „nízké riziko perzekuce“. Její výpověď o násilí je při pohovoru fragmentovaná. Právnička neziskové organizace zajistí psychologický posudek, který vysvětlí, jak trauma ovlivňuje výpověď, a napadne zařazení do zrychleného řízení. Případ je posouzen individuálně a žadatelka získá ochranu.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Automatizace může pomoci se správou velkého počtu žádostí; problémem je její vliv na samotné posouzení. Otevřenou otázkou je, jak zajistit transparentnost a účinnou obranu v systému, kde žadatelé nemají prostředky a čas.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+## 10. Pohled zevnitř a práce s postiženým
 
-**Layer 4 — Accountability:**
+Žadatelé prožívají řízení jako nepředvídatelné a nespravedlivé; automatizované rozhodnutí zvyšuje pocit, že je „posuzuje stroj, ne člověk“. U lidí s traumatem to může vést k retraumatizaci. Pomáhá srozumitelná komunikace, právní doprovod a psychologická podpora během řízení.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+## 11. Vztah k ostatním kategoriím EA
 
-## 6. Vztah k jiným EA
+Vzorec se úzce dotýká [EA-6.4.3 Uprchlík/migrant protokol](@/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md) a forenzní kapitoly [Imigrace a EA](@/kompendium/forensic-legal/42-immigration-EA.md); v kritických perspektivách souvisí s [dekoloniální epistemologií](@/kompendium/critical-perspectives/27-decolonial-epistemology.md).
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 12. Otázky pro rozhovor a šetření
 
-- **EA-1.* (Vědomá kontrola informací)** — AI Immigration Decision představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+- Bylo vaše řízení nějak automaticky tříděno nebo hodnoceno?
+- Jaké důvody zamítnutí jste dostali?
+- Měli jste možnost vysvětlit nesrovnalosti ve výpovědi?
+- Byl brán v úvahu dopad traumatu?
+- Máte přístup ke svým údajům ve spisu?
 
-## 7. Vztah k Prismatic platformě
+## 13. Postup pro profesionály
 
-Prismatic Platform implementuje detekci a neutralizaci AI Immigration Decision přes následující komponenty:
+1. **Právní zástupce:** vyžádat si spis včetně podkladů automatizovaného hodnocení, napadnout neurčité odůvodnění.
+2. **Klinický psycholog:** posoudit dopad traumatu na výpověď a dodat posudek.
+3. **Tlumočník:** upozornit na jazykové nesrovnalosti, které systém mohl zkreslit.
+4. **Úřad:** zajistit individuální posouzení a dokumentovat roli systému.
+5. **Neziskové organizace:** shromažďovat případy a informovat dohledové orgány.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 14. Prevence a odolnost
 
-**Doctrine compliance:**
+Prevence stojí na zákazu automatického rozhodování o podstatě věci, na transparentnosti, na právu na tlumočníka a právní pomoc a na školení úředníků o traumatu a kulturních rozdílech.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 15. Typický průběh
 
-## 8. Cross-linky
+Systém se zavede pro „efektivní třídění“. Postupně začne určovat, které žádosti dostanou zrychlené řízení a které podrobné posouzení. Rozdíly mezi skupinami se objeví v datech o výsledcích. Neziskové organizace upozorňují na jednotlivé případy; teprve soudní rozhodnutí nebo zpráva dohledového orgánu vede k úpravám.
 
-**Související EA techniky:**
+## 16. Dokumentace a důkazy
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.6.1 Algorithmic Decision Bias](@/kompendium/techniques/ea-9-6-1-algorithmic-decision-bias.md)
-- [EA-9.6.2 AI Judgment Laundering](@/kompendium/techniques/ea-9-6-2-AI-judgment-laundering.md)
-- [EA-9.6.3 Automated Content Takedown](@/kompendium/techniques/ea-9-6-3-automated-content-takedown.md)
-- [EA-9.6.4 AI Deplatforming Cascade](@/kompendium/techniques/ea-9-6-4-AI-deplatforming-cascade.md)
+Klíčový je kompletní spis, záznamy pohovorů, posudky o traumatu a zdůvodnění rozhodnutí. Pro systémové doložení jsou třeba statistiky výsledků podle země původu a typu řízení.
 
-**Doktrinální a infrastructure odkazy:**
+## Odborný kontext
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+Migrační řízení spojuje rysy, které literatura o algoritmickém rozhodování považuje za nejrizikovější: neprůhlednost, velký rozsah a slabé postavení dotčených lidí (O'Neil 2016). Eubanks (2018) ukázala na sociálním systému, že automatizace dopadá nejtvrději na ty, kdo mají nejméně prostředků se bránit; žadatelé o azyl jsou v tomto ohledu ještě zranitelnější, protože často neovládají jazyk, nemají dokumenty a nemohou se bez obav obrátit na veřejnost.
 
----
+Fricker (2007) rozlišuje svědeckou nespravedlnost, kdy výpověď ztrácí váhu kvůli předsudku vůči mluvčímu, a hermeneutickou nespravedlnost, kdy mluvčímu chybějí sdílené pojmy, jimiž by svou zkušenost srozumitelně popsal. Obě se v azylovém řízení objevují i bez automatizace – výpověď traumatizovaného člověka bývá fragmentovaná a kulturně vzdálená posuzovateli. Systém, který věrohodnost odvozuje z jazykových nebo behaviorálních znaků, může tyto nespravedlnosti mechanicky zesílit. Pro klinickou praxi je proto podstatná role posudků, které vysvětlují, jak trauma ovlivňuje paměť a výpověď (Herman 1992).
 
-## Connect & Contribute
+## Souvislosti pro praxi
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+Neziskové organizace poskytující právní pomoc migrantům mohou systematicky evidovat případy, v nichž rozhodnutí odkazuje na rizikový profil nebo automatické třídění, a předávat je dohledovým orgánům a ombudsmanovi. Pro klinické psychology a psychiatry je důležité umět v posudku srozumitelně vysvětlit, jak trauma ovlivňuje paměť, souvislost výpovědi a chování při pohovoru, aby rozhodující úředník nebo soud mohl nesrovnalosti správně vyložit. Tlumočníci by měli mít možnost upozornit na jazykové a kulturní nedorozumění bez obavy, že tím překračují svou roli. Pro úřady je dobrou praxí dokumentovat, jakou roli hrál automatizovaný systém v každém jednotlivém rozhodnutí, aby ji bylo možné při přezkumu posoudit.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+Pro výzkumníky je obtížné získat data o migračních rozhodnutích, a proto mají zvláštní cenu zprávy dohledových orgánů a soudní rozhodnutí, která roli automatizovaných nástrojů popisují. Kniha je doporučuje jako primární zdroj informací tam, kde jiná data chybějí.
 
----
+Pro samotné žadatele je nejdůležitější vědět, že mají právo na individuální posouzení a na vysvětlení, a že pomoc neziskových organizací je bezplatná.
 
-*EA-9.6.9 | Subkategorie 9.6 Algoritmická governance | Prismatic Compendium | Version 18.4.0*
+## Literatura
+
+- Eubanks, V. (2018). *Automating Inequality*. St. Martin's Press.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- O'Neil, C. (2016). *Weapons of Math Destruction*. Crown.
+
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.6.8 AI Legal Decision EA](@/kompendium/techniques/ea-9-6-8-AI-legal-decision-EA.md) – automatizace v justici.
+- [EA-9.6.10 AI Welfare Decision EA](@/kompendium/techniques/ea-9-6-10-AI-welfare-decision-EA.md) – automatizace ve veřejné správě.
+- [EA-9.6.1 Algorithmic Decision Bias](@/kompendium/techniques/ea-9-6-1-algorithmic-decision-bias.md) – obecný vzorec.
+
+**Klinika a právo**
+
+- [EA-6.4.3 Uprchlík/migrant protokol](@/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md) – klinická péče.
+- [Azyl a EA](@/kompendium/forensic-legal/43-asylum-EA.md) – azylové řízení.
+- [Imigrace a EA](@/kompendium/forensic-legal/42-immigration-EA.md) – migrační řízení.
+
+**Pojmy a kritika**
+
+- [Epistemická nespravedlnost](@/glossary/epistemicka-injustice.md) – nerovné postavení výpovědi.
+- [Dekoloniální epistemologie](@/kompendium/critical-perspectives/27-decolonial-epistemology.md) – meze kategorií.

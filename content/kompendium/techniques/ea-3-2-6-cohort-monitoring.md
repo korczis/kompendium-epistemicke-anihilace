@@ -1,6 +1,6 @@
 +++
 title = "EA-3.2.6 Kohortní monitoring"
-description = "Edukativní implementační technika — Kohortní monitoring: Kohortní monitoring je supervizorská technika systematického sledování kolektivní trajektorie kohorty trainees —..."
+description = "Supervizorská technika sledování celé skupiny frekventantů vzdělávacího programu, protože skupinová destabilizace a konformita jsou vidět až na úrovni kohorty."
 weight = 326
 insert_anchor_links = "right"
 
@@ -9,7 +9,7 @@ tags = ["kompendium", "techniques", "ea-3-2", "edukativni", "cohort-monitoring"]
 categories = ["academic", "education"]
 
 [extra]
-related_terms = ["ea-3-2-4-metacommunication-skill", "ea-3-2-5-ethical-sophistication", "ea-3-2-7-individual-supervision", "ea-3-2-8-peer-consultation"]
+related_terms = ["ea-3-2-7-individual-supervision", "ea-3-2-8-peer-consultation", "ea-3-2-9-iatrogenic-risk-assessment", "ea-4-1-9-cohort-monitoring", "ea-3-3-4-evaluation-metrics"]
 parent = "kompendium-techniques"
 ea_code = "EA-3.2.6"
 ea_category = "3. Edukativní implementace"
@@ -68,7 +68,7 @@ Konkrétní implementace vyžaduje:
 1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
 2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
+4. **Quality assurance** — peer review nebo external observation u předem stanoveného vzorku setkání.
 5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
 Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
@@ -77,10 +77,10 @@ Implementace je **iterativní** — každý cyklus generuje data informující �
 
 | Kritérium | Měřítko |
 |-----------|---------|
-| Trend detection | Identifikace kolektivních posunů do 2 týdnů |
+| Trend detection | Včasná identifikace kolektivních posunů (v řádu týdnů, ne měsíců) |
 | Intervention timing | Skupinové intervence aplikovány před individuální dekompenzací |
 | Cohort cohesion | Soft-data cohesion ratings stabilní nebo rostoucí |
-| Drop-out rate | <10 % dropoutů s pattern analysis u každého
+| Drop-out rate | Nízká míra odchodů a rozbor důvodů u každého z nich |
 
 Evaluace integruje **kvantitativní** (validované instrumenty) i **kvalitativní** (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
 
@@ -118,39 +118,70 @@ Technika je integrální součástí subkategorie 3.2 a je navržena pro synergi
 
 Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
 
-- **[EA-1 Techniky epistemické anihilace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)** — obsahový materiál pro výuku.
+- **[EA-1 Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)** — obsahový materiál pro výuku.
 - **[EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — komplexní real-world cases pro analýzu.
-- **[EA-5 Kognitivní anihilace](@/kompendium/04-terminalni-protokoly/kapitola-5.md)** — pokročilé materiály pro L2/L3 úrovně.
+- **[EA-4 Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)** — pokročilé materiály pro úrovně L2/L3; [EA-4.1.9](@/kompendium/techniques/ea-4-1-9-cohort-monitoring.md) přenáší kohortní monitoring do supervidovaných terminálních protokolů.
 
-## Vztah k Prismatic platformě
+## Znaky kolektivní destabilizace
 
-Tato edukativní technika je integrovatelná s několika komponentami Prismatic platformy:
+Kohortní monitoring má smysl jen tehdy, když supervizor ví, co hledá. Na úrovni skupiny se typicky objevují tyto vzorce:
 
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — evaluační metriky a kompetenční assessmenty mohou využívat [decision engine](@/glossary/decision-engine.md) pro tracking longitudinálního vývoje studentů s confidence calibration.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemický framework poskytuje teoretický základ pro metakognitivní moduly.
-- **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
-- **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink ([EA-3.1.6](@/kompendium/techniques/ea-3-1-6-recognition-training.md)) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
+- **Synchronní pokles** – více účastníků současně hlásí únavu, nespavost nebo pocit zmatku, často po stejném modulu programu.
+- **Konformita a umlčení** – diskuse se zužuje, kritické otázky mizí, účastníci přebírají jazyk lektora nebo dominantního člena skupiny ([skupinové myšlení](@/glossary/epistemicka-monokultura.md)).
+- **Štěpení** – skupina se rozdělí na „vyvolené“ a „odpadlíky“, kolují pomluvy, vzniká tlak na loajalitu.
+- **Idealizace programu nebo lektora** – nadšení, které nesnese pochybnost; kritika je vnímána jako zrada.
+- **Tiché odchody** – účastníci přestávají chodit bez vysvětlení, zatímco průměrné ukazatele zůstávají v normě.
+
+Tyto znaky nejsou samy o sobě patologické: skupiny procházejí přirozenými fázemi napětí. Rozhoduje trvání, šíře a to, zda skupina dokáže o vzorci mluvit.
+
+## Postup při zjištění kolektivního posunu
+
+1. **Ověřit vzorec** – porovnat agregovaná data s rozhovory a s pohledem dalšího supervizora; vyloučit artefakt (změna rozvrhu, vnější událost).
+2. **Pojmenovat ho skupině** – bez obviňování jednotlivců; nabídnout prostor pro reflexi.
+3. **Upravit program** – zpomalit, přidat stabilizační prvky, změnit formát náročných modulů.
+4. **Chránit jednotlivce** – nabídnout individuální rozhovor těm, kdo se z dat „ztrácejí“, a cestu k odborné pomoci.
+5. **Zdokumentovat a vyhodnotit** – co se stalo, co pomohlo, co změnit v dalším běhu.
+
+## Etika, data a moc
+
+Data o kohortě jsou citlivá: i anonymizovaný přehled může v malé skupině odhalit konkrétního člověka. Proto platí zásady minimalizace dat, předem známého účelu a omezeného přístupu ([anonymizace ve výzkumu](@/kompendium/research-methodology/anonymization-EA-research.md)). Monitoring nesmí sloužit k hodnocení „loajality“ nebo k výběru účastníků pro postih – v takovém případě by se sám stal nástrojem kontroly, před kterou má chránit. Účastníci mají vědět, co se sleduje a proč, a mít možnost se vyjádřit.
+
+## Příklad (anonymizovaný kompozit)
+
+V ročním výcviku pro pomáhající profese si supervizorka všimne, že po modulu o práci s vlastní historií klesla v anonymním týdenním dotazníku spokojenost u většiny skupiny a dvě účastnice přestaly chodit. Individuální rozhovory nic zvláštního neukázaly. Na společném setkání skupina popíše, že lektor modulu tlačil na sdílení osobních zážitků a odmítnutí komentoval jako „odpor“. Program zařadí stabilizační setkání, lektor dostane supervizi a modul je přepracován; obě účastnice se po osobním rozhovoru vrátí.
+
+## Meze a otevřené otázky
+
+Kohortní data zachytí jen to, na co se ptáme, a průměry mohou skrýt jednotlivce v krizi. Malé skupiny neumožňují spolehlivou statistiku a příliš časté dotazníky samy zatěžují. Otevřenou otázkou je, jak vyvážit citlivost monitoringu a soukromí účastníků a jak odlišit přirozenou skupinovou dynamiku od škodlivého posunu.
+
+## Role supervizora a jeho slepá místa
+
+Supervizor, který kohortu sám vede, je součástí její dynamiky a nemusí posun vidět – zvlášť pokud je jeho zdrojem on sám nebo lektor, s nímž je spojen loajalitou. Proto kniha doporučuje kombinovat kohortní monitoring s [kolegiální konzultací](@/kompendium/techniques/ea-3-2-8-peer-consultation.md) a s nezávislým pohledem zvenčí, například s rotací supervizorů, kterou v terminálním kontextu popisuje [EA-4.1.8](@/kompendium/techniques/ea-4-1-8-supervisor-rotation.md). Užitečnou otázkou pro každé vyhodnocení je: co by o této skupině řekl někdo, kdo s ní nemá žádný vztah?
+
+## Literatura
+
+- Edmondson, A. (1999). Psychological safety and learning behavior in work teams. *Administrative Science Quarterly*.
+- Hawkins, P., & Shohet, R. (2012). *Supervision in the Helping Professions* (4. vyd.). Open University Press.
+- Janis, I. L. (1972). *Victims of Groupthink*. Houghton Mifflin.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
-- **Sourozenecké techniky** (subkategorie 3.2):
-  - [EA-3.2.1 Supervizorská certifikace](@/kompendium/techniques/ea-3-2-1-supervisor-certification.md)
-  - [EA-3.2.2 Multiparadigmatická fluence](@/kompendium/techniques/ea-3-2-2-multi-paradigm-fluency.md)
-  - [EA-3.2.3 Mistrovství emoční regulace](@/kompendium/techniques/ea-3-2-3-emotional-regulation-mastery.md)
-  - [EA-3.2.4 Metakomunikační dovednost](@/kompendium/techniques/ea-3-2-4-metacommunication-skill.md)
-- **Glossary**:
-  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
-  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-  - [Metakognice](@/glossary/metakognice.md)
-  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
-  - [Kompendium EA](@/glossary/kompendium-ea.md)
-- **Klinické aplikace**: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-- **Filozofie**:
-  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+**Sourozenecké techniky (3.2)**
+
+- [EA-3.2.7 Individuální supervize](@/kompendium/techniques/ea-3-2-7-individual-supervision.md) – protějšek na úrovni jednotlivce.
+- [EA-3.2.8 Peer consultation](@/kompendium/techniques/ea-3-2-8-peer-consultation.md) – kolegiální korektiv supervizora.
+- [EA-3.2.9 Iatrogenic risk assessment](@/kompendium/techniques/ea-3-2-9-iatrogenic-risk-assessment.md) – posouzení, zda program neškodí.
+
+**Příbuzné techniky**
+
+- [EA-4.1.9 Cohort monitoring](@/kompendium/techniques/ea-4-1-9-cohort-monitoring.md) – tentýž princip v terminálních protokolech.
+- [EA-3.3.4 Evaluační metriky](@/kompendium/techniques/ea-3-3-4-evaluation-metrics.md) – měření, z něhož monitoring vychází.
+
+**Rámec a pojmy**
+
+- [Kapitola 3 – Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) – rodičovská kapitola.
+- [6.6 Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) – supervize v klinické praxi.
+- [Anonymizace ve výzkumu EA](@/kompendium/research-methodology/anonymization-EA-research.md) – ochrana dat kohorty.
 
 ## ⚡ Kritický krok
 
@@ -163,12 +194,3 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - Pokud implementuješ instituci, máš schválení [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
 
 > **Mandatorní akce**: bez ověření institucionální governance, supervizní infrastruktury a evaluačního rámce nepoužívej tuto techniku jako samostatnou intervenci — pouze jako součást komplexního programu.
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -1,14 +1,14 @@
 +++
 title = "EA-9.1.10 LLM Recursion Loop"
-description = "Současná digitální EA — llm recursion loop."
+description = "Vzorec, v němž se generovaný obsah vrací do dat, z nichž se učí další modely, a chyby se tak fixují jako fakta („model collapse“). Znaky, odlišení, obrana."
 weight = 920
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-8-3-9-cult-studies-literature", "ea-9-1-1-llm-hallucination-laundering", "ea-9-1-2-prompt-injection-EA", "ea-9-1-3-jailbreak-cascade"]
+related_terms = ["ea-9-1-1-llm-hallucination-laundering", "ea-9-1-8-llm-confabulation-amplification", "ea-9-2-3-synthetic-text-narrative"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.1.10"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,94 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Uzavřená smyčka, kde LLM generuje obsah, který je následně použit jako trénovací nebo retrieval data pro další LLM, čímž se halucinace fixují jako 'fakta'.
+*LLM recursion loop* je uzavřená smyčka, v níž obsah vytvořený jazykovými modely končí na webu a v databázích, odkud se stává tréninkovým nebo vyhledávacím materiálem pro další modely. Chyby, halucinace a zkreslení se tak nevytrácejí, ale fixují; v odborné literatuře se pro degradaci modelů učených na vlastních výstupech používá výraz *model collapse*.
 
-V kontextu Prismatic doktríny je LLM Recursion Loop klasifikováno jako **L1-L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.1.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Synthetic content publishovaný na webu se dostává do scrape-based tréninkových sad; budoucí modely ho integrují jako ground truth; vznika model collapse a epistemická degradace.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Na rozdíl od ostatních technik subkategorie nevyžaduje smyčka žádného aktéra s úmyslem: stačí, že generovaný obsah není označen a mísí se s lidským. Epistemicky jde o ztrátu vazby na svět – informace přestávají pocházet z pozorování a stávají se odvozeninou odvozenin. Vzniká prostředí, v němž je stále těžší najít primární pramen, a dominantní formulace vytlačují méně častou, ale přesnější. Úmyslné zneužití smyčky (zaplavení webu obsahem, aby ho modely převzaly) navazuje na [EA-9.1.1 Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md) a na hromadnou produkci textu v [EA-9.2.3](@/kompendium/techniques/ea-9-2-3-synthetic-text-narrative.md).
 
 ## 4. Detekční markery
 
-Synthetic-content watermarking, training data provenance audit, model collapse benchmarks.
+- Ve vyhledávání převažují texty se shodnou strukturou a formulacemi bez autora a data.
+- Tvrzení je „všude“, ale žádný výskyt nevede k primárnímu prameni.
+- Odpovědi modelů opakují chybu, která vznikla v nedávných generovaných textech.
+- Méně častá, ale doložená fakta z odpovědí mizí ve prospěch „průměrné“ verze.
+- Tematické weby a encyklopedie bez redakce rychle rostou bez odpovídající lidské práce.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Šíření dezinformace lidmi*: má autory a šiřitele; smyčka může běžet i bez nich. *Zastarání znalostí*: model nezná nové údaje; zde zná staré údaje, ale zkreslené. *[EA-9.1.8 Confabulation Amplification](@/kompendium/techniques/ea-9-1-8-llm-confabulation-amplification.md)*: krátkodobé sdílení shody; smyčka je dlouhodobý proces v datech.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Jde o riziko pro společnou informační infrastrukturu: encyklopedie, vyhledávače, odborné databáze. Dopad je rozptýlený a pomalý, a proto snadno přehlédnutelný. Rámcem obrany je správa dat – označování generovaného obsahu, evidence původu, archivy lidských pramenů – a regulace platforem ([Regulace platforem](@/kompendium/population-health/25-platform-regulation-EA.md)).
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Jednotlivec*: dávat přednost zdrojům s autorem, datem a redakcí; u důležitých témat hledat primární pramen ([Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md)). *Knihovny, archivy, redakce*: uchovávat a zpřístupňovat lidské prameny s doloženým původem. *Vývojáři modelů*: evidovat původ trénovacích dat a odlišovat generovaný obsah. *Vzdělávání*: učit rozdíl mezi „často opakovaným“ a „doloženým“.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Lokální historický spolek hledá údaje o budově z 19. století. Vyhledávač nabízí desítky stránek s téměř shodným textem, který uvádí chybné datum stavby a smyšleného architekta. Žádná stránka neuvádí autora ani pramen; všechny vznikly v posledních měsících. Chatbot na dotaz odpovídá stejnými údaji. Teprve archiv obce a stavební dokumentace potvrdí skutečné datum. Spolek opravu zveřejní, ale vyhledávač dál řadí generované stránky výš.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Rozsah, v jakém generovaný obsah už dnes ovlivňuje trénovací data, není spolehlivě změřen, a odhady se liší. Otevřené zůstává, zda půjde o pozvolnou degradaci, nebo o problém, který zvládnou filtry a označování. Pro knihu je podstatné, že smyčka mění podmínky ověřování: primární pramen je stále cennější a stále hůř dohledatelný. Pro jednotlivce z toho plyne praktický závěr – uchovávat si vlastní ověřené zdroje a nespoléhat na to, že pravdivá verze bude vždy nejvýše ve vyhledávání.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+## 10. Pohled zevnitř a práce s postiženým
 
-**Layer 4 — Accountability:**
+Smyčka nemá jednu oběť; zasahuje každého, kdo hledá informace. Typickým prožitkem je únava a rezignace („nedá se nic zjistit“), která vede buď k nekritickému přijímání první odpovědi, nebo k paušálnímu cynismu. Pedagogové, knihovníci a novináři mohou této únavě čelit tím, že nabídnou dostupné ověřené zdroje a ukážou, že dohledání primárního pramene je možné a zvládnutelné. Pro odborné komunity z toho plyne úkol: udržovat veřejně přístupné, redigované přehledy, které budou sloužit jako pevný bod i ve světě zaplaveném generovaným textem.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+## 11. Postup při ověřování „všudypřítomného“ tvrzení
 
-## 6. Vztah k jiným EA
+1. **Najít nejstarší výskyt** tvrzení a zjistit, zda má autora a datum.
+2. **Hledat primární pramen** – archiv, úřední záznam, recenzovanou publikaci, přímého svědka.
+3. **Porovnat formulace** výskytů; shodné věty bez autora naznačují generovaný původ.
+4. **Ověřit u odborné instituce** nebo knihovny, pokud jde o důležité téma.
+5. **Zaznamenat výsledek** a sdílet ho s odkazem na pramen, aby se ověřená verze dala najít.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 12. Prevence a odolnost
 
-- **EA-1.* (Vědomá kontrola informací)** — LLM Recursion Loop představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Prevence na úrovni jednotlivce stojí na udržování vlastní sbírky spolehlivých zdrojů a na zvyku dohledávat primární prameny u témat, na nichž záleží. Na úrovni společnosti jde o podporu institucí, které primární prameny uchovávají a zpřístupňují – archivů, knihoven, redakcí s ověřovacími standardy –, a o pravidla, která vyžadují evidenci původu trénovacích dat a označování generovaného obsahu.
 
-## 7. Vztah k Prismatic platformě
+## Odborný kontext
 
-Prismatic Platform implementuje detekci a neutralizaci LLM Recursion Loop přes následující komponenty:
+Degradaci modelů učených na výstupech jiných modelů popsali Shumailov et al. (2024): při opakovaném tréninku na generovaných datech se ze sdělení postupně vytrácejí méně časté jevy a rozdělení dat se zužuje k „průměru“, až model ztrácí schopnost reprezentovat původní rozmanitost. Autoři tento proces nazvali *model collapse* a zdůraznili hodnotu dat, o nichž je doloženo, že pocházejí od lidí. Kniha z této práce přebírá obecný závěr; skutečný rozsah jevu na otevřeném webu zatím spolehlivě změřen není.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+Epistemicky jde o ztrátu vazby informace na pozorování. Floridi (2014) popisuje informační prostředí jako infosféru, v níž lidé stále více žijí a rozhodují; její kvalita je proto otázkou veřejného zájmu podobně jako kvalita životního prostředí. Smyčka generovaného obsahu je v tomto pohledu formou znečištění, které se neprojeví náhle, ale postupnou ztrátou rozmanitosti a přesnosti.
 
-**Doctrine compliance:**
+Výzkum šíření informací dodává, že opakování zvyšuje přesvědčivost tvrzení bez ohledu na jeho pravdivost (Fazio et al. 2015). Ve světě, kde se tytéž formulace množí bez lidské práce, se tak „často opakované“ snadno zamění za „doložené“. Obranou jsou instituce, které udržují primární prameny – archivy, knihovny, redakce –, a čtenáři, kteří je umějí najít.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## Souvislosti pro praxi
 
-## 8. Cross-linky
+Pro knihovny, školy a redakce plyne ze smyčky konkrétní úkol: udržovat a zpřístupňovat pečlivě vybrané sbírky zdrojů s doloženým původem a učit, jak se k primárním pramenům dostat. Pro vývojáře a provozovatele modelů je to otázka evidence původu dat a odlišení lidského a generovaného obsahu. Pro jednotlivce je nejpraktičtější rada nespoléhat na pořadí ve vyhledávání a u témat, na nichž záleží, si zapamatovat několik spolehlivých zdrojů, ke kterým se lze vracet.
 
-**Související EA techniky:**
+## Literatura
 
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.1.3 Jailbreak Cascade](@/kompendium/techniques/ea-9-1-3-jailbreak-cascade.md)
-- [EA-9.1.4 RAG Context Poisoning](@/kompendium/techniques/ea-9-1-4-rag-context-poisoning.md)
+- Fazio, L. K., Brashier, N. M., Payne, B. K., & Marsh, E. J. (2015). Knowledge does not protect against illusory truth. *Journal of Experimental Psychology: General*.
+- Floridi, L. (2014). *The Fourth Revolution: How the Infosphere is Reshaping Human Reality*. Oxford University Press.
+- Shumailov, I., Shumaylov, Z., Zhao, Y., Papernot, N., Anderson, R., & Gal, Y. (2024). AI models collapse when trained on recursively generated data. *Nature*.
 
-**Doktrinální a infrastructure odkazy:**
+## Související
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+**Sourozenecké techniky**
 
----
+- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md) – jednotlivá halucinace na cestě ke „faktu“.
+- [EA-9.1.8 LLM Confabulation Amplification](@/kompendium/techniques/ea-9-1-8-llm-confabulation-amplification.md) – shoda modelů jako zdánlivý důkaz.
+- [EA-9.2.3 Synthetic Text Narrative](@/kompendium/techniques/ea-9-2-3-synthetic-text-narrative.md) – hromadná produkce textu.
 
-## Connect & Contribute
+**Detekce**
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+- [Detekční signatura: Monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) – jeden původ za mnoha kanály.
+- [Detekční signatura: Cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md) – odkazy vedoucí samy na sebe.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+**Obrana a politika**
 
----
+- [Sebe-obrana: Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) – výběr zdrojů s doloženým původem.
+- [Regulace platforem](@/kompendium/population-health/25-platform-regulation-EA.md) – systémová odpověď.
 
-*EA-9.1.10 | Subkategorie 9.1 LLM-mediated EA | Prismatic Compendium | Version 18.4.0*
+**Teorie**
+
+- [Floridi: Čtvrtá revoluce a infosféra](@/kompendium/07-teoreticke-reflexe/floridi-fourth-revolution.md) – informační prostředí jako životní prostor.

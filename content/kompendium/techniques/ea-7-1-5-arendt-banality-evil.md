@@ -1,108 +1,197 @@
 +++
-title = "EA-7.1.5 Arendtová: Banalita zla"
-description = "Teoretická reflexe — Arendtová: Banalita zla a vztah k EA."
+title = "EA-7.1.5 Arendtová: banalita zla"
+description = "Teoretická reflexe pojmu banalita zla: zlo vykonané bez myšlení a úsudku. Proč je selhání úsudku společným jmenovatelem EA a jak se mu bránit."
 weight = 715
+insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
+tags = ["kompendium", "techniques", "ea-7-1", "teoreticke", "philosophy", "arendt"]
 categories = ["academic", "theory"]
 
 [extra]
-related_terms = ["ea-7-1-3-adorno-instrumental-reason", "ea-7-1-4-habermas-communicative-action", "ea-7-1-6-sloterdijk-spheres", "ea-7-1-7-deleuze-rhizome"]
+related_terms = ["ea-7-1-3-adorno-instrumental-reason", "ea-2-5-4-radical-relativism-internalize", "ea-2-5-10-existential-helplessness-implantace", "banalita-zla", "doubling", "propaganda"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.1.5"
 ea_category = "7. Teoretické reflexe"
-ea_subcategory = "7.1 Continental filozofie"
+ea_subcategory = "7.1 Kontinentální filozofie"
 section_icon = "🪐"
 toc = true
 access_level = "L1"
 parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 +++
 
-# EA-7.1.5 Arendtová: Banalita zla
-
-> *Teoretická reflexe v rámci 7.1 Continental filozofie.*
-
-## Identifikace
+# EA-7.1.5 Arendtová: banalita zla
 
 | Pole | Hodnota |
-|---|---|
-| **Kód EA** | EA-7.1.5 |
-| **Tradice** | Continental filozofie |
-| **Autor / škola** | Arendtová |
-| **Hlavní teze** | Zlo nepotřebuje démonickou hloubku — stačí mu absence myšlení, neschopnost zaujmout perspektivu druhého a poslušnost vůči struktuře. |
-| **Status v EA** | Teoretická reflexe — interpretační rámec, ne přímá technika |
-| **Cross-reference** | viz sekce *Mapování na EA techniky* |
+|------|---------|
+| **Kód EA** | `EA-7.1.5` |
+| **Tradice** | Politická filozofie |
+| **Autorka** | Hannah Arendtová (1906–1975) |
+| **Hlavní teze** | Velké zlo mohou páchat lidé, kteří nejsou démoničtí, ale bezmyšlenkovití: neschopnost myslet a soudit je podmínkou spoluúčasti. |
+| **Status v EA** | Teoretická reflexe – rámec pro selhání úsudku a spoluúčast |
+| **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |
 
-## Kontext autora
+## Vymezení
 
-Arendtová patří do tradice **Continental filozofie**. Jeho/její pozice je relevantní pro EA tím, že nabízí pojmový aparát, jímž lze popsat manipulaci, asymetrii, framing a epistemickou dynamiku — tedy přesně to, co EA mapuje jako útočné a obranné techniky.
+Pojem [banalita zla](@/glossary/banalita-zla.md) zavedla Hannah Arendtová v knize
+*Eichmann v Jeruzalémě* (1963), která vznikla z jejích reportáží z procesu s Adolfem
+Eichmannem, organizátorem deportací Židů. Arendtová nečekaně nepopsala Eichmanna jako
+fanatika nebo sadistu, ale jako úředníka, který mluvil v klišé, nedokázal se vžít do
+druhých a své jednání vykládal jako plnění povinnosti. Zlo, které spáchal, bylo obludné;
+on sám podle ní působil „strašlivě normálně“. Banalita zla tedy neznamená, že zlo je
+banální, ale že může vycházet z banální neschopnosti myslet.
 
-Místo, aby EA tato pozice technicky obohacovala (jako kapitoly 1–5), slouží jako **interpretační vrstva**: pomáhá odpovědět na otázku *proč* daná technika funguje, *kdo* jí těží a *za jakých podmínek* jí lze odolat.
+Pro Kompendium je pojem důležitý, protože posouvá pozornost od zlých úmyslů k **selhání
+úsudku**. [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) se neodehrává jen tam, kde někdo záměrně manipuluje, ale
+i tam, kde lidé přestanou myslet – převezmou jazyk, kategorie a pokyny bez posouzení.
+Kapitola knihy [7.18 Arendt: banalita zla a krize úsudku](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)
+a [7.19 Myšlení jako etická aktivita](@/kompendium/07-teoreticke-reflexe/hannah-arendt-myslení.md)
+tento rámec rozvíjejí podrobně.
 
-## Klíčové koncepty
+## Původ a kontext
 
-1. **[Banalita zla](@/glossary/banalita-zla.md) (zlo bez démoničnosti)**
-2. **Vita activa (jednání, práce, dílo)**
-3. **Pluralita a politický prostor**
+Arendtová přišla k pojmu po dlouhé práci o totalitarismu. V *Původu totalitarismu* (1951)
+popsala, jak totalitní hnutí ničí schopnost rozlišovat fakta a fikci a jak izolace
+a osamělost připravují půdu pro ideologii, která vysvětluje všechno. Ideálním subjektem
+totalitní vlády je podle ní člověk, pro něhož přestal existovat rozdíl mezi skutečností
+a fikcí a mezi pravdou a lží. Po knize o Eichmannovi se vrátila k otázce myšlení v eseji
+„Myšlení a morální úvahy“ (1971) a v nedokončeném díle *Život ducha* (1978). Myšlení
+chápala jako vnitřní rozhovor se sebou samým – „dva v jednom“ –, který člověka zastaví
+a nedovolí mu udělat to, s čím by nemohl dál žít. Esej „Pravda a politika“ (1967)
+rozebírá křehkost faktické pravdy vůči politické moci.
 
-Tyto pojmy nejsou v EA použity přímo jako názvy technik, ale tvoří **rastr**, jímž lze techniky kapitol 1–6 lépe číst — a v některých případech i odhalit, že to, co vypadá jako jediná technika, je ve skutečnosti složený dispozitiv.
+## Co rámec zviditelňuje
 
-## Vztah k EA
+Rámec ukazuje tři mechanismy, které se v Kompendiu opakují. Prvním je **jazyk klišé**.
+Eichmann podle Arendtové mluvil v úředních frázích a jazykových pravidlech, která
+zakrývala skutečnost (eufemismy pro vraždění). Tentýž jev popsal Lifton (1961) jako
+[loading the language](@/glossary/loading-the-language.md) a Klemperer (1947) jako jazyk
+Třetí říše ([LTI](@/glossary/lti-lingua-tertii-imperii.md)): jazyk, který myslí za
+mluvčího. Druhým mechanismem je **ztráta schopnosti vžít se do druhého**, kterou
+Arendtová podle Kanta nazývala „rozšířeným způsobem myšlení“ – schopnost posoudit věc
+z hlediska ostatních. Třetím je **rozptýlená odpovědnost**: v byrokratickém systému
+každý vykonává jen svou část a nikdo se necítí odpovědný za celek.
 
-Pozice **Arendtová** vnáší do EA tři operativní příspěvky:
+Psychologický výzkum přinesl k těmto postřehům podpůrné i komplikující poznatky.
+Milgramovy pokusy (1963, 1974) ukázaly, že mnoho běžných lidí je ochotno na pokyn
+autority způsobit druhým (domnělou) bolest; Lifton (1986) popsal u nacistických lékařů
+mechanismus [zdvojení](@/glossary/doubling.md), jímž si člověk vytvoří „druhé já“ pro
+vykonávání zla. Pro Kompendium to znamená, že spoluúčast na epistemické anihilaci
+(například v [zachycených institucích](@/kompendium/techniques/ea-2-4-4-leadership-capture.md))
+nevyžaduje přesvědčené pachatele, ale lidi, kteří přestali myslet a soudit.
 
-- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *„něco se tu děje, ale nevíme co“*.
-- **Hloubka rámce**: ukazuje, že manipulace často není individuální akt, nýbrž **strukturální efekt** vyšší vrstvy (diskurzní, institucionální, biologické).
-- **Etická pojistka**: brání tomu, aby EA degenerovala v techniku oboustranné aplikace bez reflexe — tj. aby se z obranného nástroje stala nová manipulační šablona.
+## Pohled zevnitř
 
-## Mapování na EA techniky
+Člověk, který se podílí na škodlivém systému bez myšlení, obvykle neprožívá vinu, ale
+normalitu: „dělám svou práci“, „tak to tady chodí“, „to není moje rozhodnutí“. Otázka
+po smyslu nebo důsledcích působí jako nepatřičná. Naopak ten, kdo začne myslet, prožívá
+izolaci a nebezpečí – zjišťuje, že kolem něj se nemyslí, a že myšlení samo je
+podvratné. V kazuistikách Kompendia se tento zlom objevuje u whistleblowerů a u lidí,
+kteří odcházejí ze skupin.
 
-Pozice **Arendtová** se relevantně dotýká těchto oblastí EA:
+## Detekční markery z hlediska rámce
 
-- institucionální poslušnost, [depersonalizace](@/glossary/depersonalizace.md) oběti, eufemizace
-- vztah ke **kapitole 6 (obrana a kalibrace)**: pomáhá rozlišit obranu strukturální od obrany pouze taktické.
-- vztah ke **kapitole 3 (manipulační vzorce)**: dodává jazyk, jímž lze pojmenovat skryté předpoklady techniky.
+Pozorovatel se může ptát, zda se v prostředí mluví v ustálených frázích, které nahrazují
+popis skutečnosti; zda je přípustné ptát se po důsledcích; zda lidé posuzují jednání
+z hlediska těch, jichž se týká; zda odpovědnost za výsledky někdo nese, nebo je
+rozptýlena; a zda se pokyny autority přijímají bez zdůvodnění. Prostředí, kde jsou
+odpovědi záporné, nemusí být zlé, ale je strukturálně připravené k tomu, aby v něm zlo
+mohlo proběhnout bez odporu.
 
-Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [techniques index](@/kompendium/techniques/_index.md).
+## Rizikové kontexty
 
-## Limitace
+Byrokratické systémy, armáda a bezpečnostní složky, velké organizace s fragmentovanou
+odpovědností, ideologická hnutí s vlastním jazykem, skupiny s vysokou mírou kontroly
+a online prostředí, kde se jazyk zkracuje na hesla a memy. Zvýšené riziko vzniká
+v krizích, kdy se volá po rychlém jednání bez úvahy, a tam, kde je osamělost a izolace
+lidí – podle Arendtové (1951) úrodná půda pro ideologii – každodenní zkušeností.
 
-- **Není přímo testovatelná**: na rozdíl od EA-1 až EA-5 nelze tuto pozici jednoduše operacionalizovat ve scoring engine — slouží jako interpretační rámec, ne jako prediktor.
-- **Riziko nadužití**: aplikovaná všude, ztrácí ostří; pozice je nosná tam, kde **standardní psychologický nebo logický rozbor selává**.
-- **Spor o překlad**: některé pojmy (např. *[différance](@/glossary/differance.md)*, *Dasein*, *phi*) odporují čistému přepisu do operativního jazyka platformy a musí být užity s vědomím vlastní hranice.
-- **Žádná pozice není totální**: tato reflexe je jednou z mnoha — viz sister 7.1.* a sousední podkapitoly 7.1, 7.2, 7.3.
+## Odlišení a meze užití
 
-## Cross-linky
+Pojem banality zla vyvolal ostrou polemiku. Kritici namítali, že Arendtová Eichmanna
+podcenila; historička Bettina Stangnethová (2011) na základě dokumentů z jeho
+argentinského exilu ukázala, že byl ideologicky přesvědčeným nacistou a před soudem
+hrál roli bezvýznamného úředníka. Kompendium proto pojem nepoužívá jako popis Eichmanna,
+ale jako popis **struktury**, v níž může zlo probíhat i bez démonických úmyslů. Pojem
+také nesmí sloužit k omluvě: bezmyšlenkovitost není nevina. Arendtová sama trvala na
+tom, že Eichmann byl odpovědný a byl právem odsouzen.
 
-### Sesterské reflexe (7.1.*)
-- [EA-7.1.1 Foucault: Power/Knowledge](@/kompendium/techniques/ea-7-1-1-foucault-power-knowledge.md)
-- [EA-7.1.2 Foucault: Discipline & Punish](@/kompendium/techniques/ea-7-1-2-foucault-discipline.md)
-- [EA-7.1.3 Adorno: Instrumentální rozum](@/kompendium/techniques/ea-7-1-3-adorno-instrumental-reason.md)
-- [EA-7.1.4 Habermas: Komunikativní jednání](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md)
-- [EA-7.1.6 Sloterdijk: Sféry](@/kompendium/techniques/ea-7-1-6-sloterdijk-spheres.md)
-- [EA-7.1.7 Deleuze & Guattari: Rhizome](@/kompendium/techniques/ea-7-1-7-deleuze-rhizome.md)
+Od [radikálního relativismu](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md)
+a od [existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md)
+se rámec liší tím, že nepopisuje stav jednotlivce, ale vztah mezi myšlením a jednáním:
+popisuje, co se stane, když se úsudek odpojí od činu.
 
-### Související
-- [Kapitola 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Kapitola 06: Obrana a kalibrace](@/kompendium/06-obrana/_index.md)
-- [Kapitola 03: Manipulační vzorce](@/kompendium/03-manipulacni-vzorce/_index.md)
-- [Glosář: Falsifikace](@/kompendium/glossary-bridges/falsifikace.md)
-- [Glosář: Predictive processing](@/glossary/predictive-processing.md)
-- [Glosář: Power-knowledge](@/glossary/power-knowledge.md)
-- [Glosář: Lakatos research program](@/glossary/lakatos.md)
-- {{ <cross_link path="/decisions/" text="Platforma: Decision Engine" /> }}
-- {{ <cross_link path="/investigate/" text="Platforma: Investigate" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="Platforma: OSINT Toolbox" /> }}
+## Klinický a právní rámec
 
----
+Klinicky je rámec užitečný při práci s lidmi, kteří se podíleli na škodlivých systémech
+a teprve zpětně si uvědomují, co dělali; objevuje se morální poškození (*moral injury*),
+vina a stud. Pro terapeuty je zároveň připomínkou, že i odborná praxe může sklouznout
+k rutině bez úsudku; srov. [iatrogenní poškození](@/glossary/iatrogenic-harm.md).
+Právně rámec souvisí s principem, že rozkaz nadřízeného nezbavuje odpovědnosti, jak jej
+formulovaly norimberské zásady po druhé světové válce.
 
-## Connect
+## Obrana a zotavení
 
-Chcete tuto reflexi aplikovat na konkrétní případ?
+Arendtová nabízí obranu jednoduchou a náročnou: **myslet** – zastavit se, ptát se, vést
+vnitřní rozhovor – a **soudit** z hlediska druhých. Prakticky to znamená pěstovat
+[metakognitivní monitorování](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md),
+[hloubkové čtení](@/kompendium/self-defense-guides/35-deep-reading-practice.md) místo hesel,
+v institucích [sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
+a [oznamovací mechanismy](@/kompendium/organizational-defense/4-whistleblower-mechanism.md),
+které dávají myšlení místo. Snyder (2017) z Arendtové vychází ve svých lekcích proti
+tyranii; viz [7.53 Snyder](@/kompendium/07-teoreticke-reflexe/snyder-tyranny-essays.md).
+Zotavení společností po období, kdy se nemyslelo, vyžaduje veřejné vyrovnání s minulostí
+a obnovu jazyka, který popisuje skutečnost.
 
-- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — [Decision Engine](@/glossary/decision-engine.md) s podporou epistemické kalibrace.
-- [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
-- [Glosář pojmů](@/glossary/_index.md) — definice klíčových termínů napříč EA.
+## Případy, které rámec osvětluje
 
-*Část kompendia [Epistemic Arsenal](@/kompendium/_index.md) — kapitola 7. Teoretické reflexe, podkapitola 7.1 Continental filozofie.*
+[Stalinské monstrprocesy](@/kompendium/historical-cases/1-stalinist-show-trials.md),
+[Rudí Khmerové](@/kompendium/historical-cases/3-khmer-rouge.md), [Tuskegee](@/kompendium/historical-cases/32-tuskegee.md)
+(dlouholetá studie neléčeného syfilidu, na níž se podíleli lékaři a úředníci) a
+[československá normalizace](@/kompendium/historical-cases/6-czechoslovak-normalizace.md)
+ukazují různé podoby spoluúčasti bez myšlení (interpretace knihy). Anonymizovaný kompozit
+[reziduální totalitní trauma](@/kompendium/case-studies/09-rezidualni-totalitarni-trauma.md)
+popisuje dlouhodobé následky.
+
+## Poznámka ke kódu
+
+Kód `EA-7.1.5` patří do řady teoretických reflexí v katalogu technik a není totožný
+s číslováním oddílů kapitoly 7, kde Arendtovou pojednávají oddíly
+[7.18](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md) a
+[7.19](@/kompendium/07-teoreticke-reflexe/hannah-arendt-myslení.md).
+
+## Literatura
+
+- Arendt, H. (1951). *The Origins of Totalitarianism*.
+- Arendt, H. (1963). *Eichmann in Jerusalem: A Report on the Banality of Evil*.
+- Arendt, H. (1967). Truth and Politics. *The New Yorker*.
+- Arendt, H. (1971). Thinking and Moral Considerations. *Social Research*.
+- Arendt, H. (1978). *The Life of the Mind*.
+- Klemperer, V. (1947). *LTI – Notizbuch eines Philologen*.
+- Milgram, S. (1974). *Obedience to Authority*.
+- Lifton, R. J. (1986). *The Nazi Doctors*.
+- Stangneth, B. (2011). *Eichmann vor Jerusalem*.
+- Snyder, T. (2017). *On Tyranny*.
+
+## Související
+
+**Kapitoly a sesterské reflexe**
+
+- [7.18 Arendt: banalita zla a krize úsudku](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)
+  – podrobné pojednání.
+- [7.19 Arendt: myšlení jako etická aktivita](@/kompendium/07-teoreticke-reflexe/hannah-arendt-myslení.md)
+  – pozdní dílo.
+- [EA-7.1.3 Adorno](@/kompendium/techniques/ea-7-1-3-adorno-instrumental-reason.md) –
+  [instrumentální rozum](@/glossary/instrumental-reason.md).
+
+**Pojmy**
+
+- [Glosář: banalita zla](@/glossary/banalita-zla.md) – definice.
+- [Glosář: zdvojení](@/glossary/doubling.md) – Liftonův mechanismus.
+- [Glosář: loading the language](@/glossary/loading-the-language.md) – jazyk, který myslí
+  za mluvčího.
+
+**Techniky, které rámec vysvětluje**
+
+- [EA-2.4.4 Zachycení vedení](@/kompendium/techniques/ea-2-4-4-leadership-capture.md) –
+  spoluúčast v institucích.

@@ -1,14 +1,14 @@
 +++
 title = "EA-9.1.7 Synthetic Expertise Claim"
-description = "Současná digitální EA — synthetic expertise claim."
+description = "Vzorec předstírané odbornosti, v němž generovaný text – analýzy, posudky, „whitepapery“ – slouží jako důkaz expertízy, kterou autor nemá. Znaky, odlišení, obrana."
 weight = 917
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-1-5-llm-narrative-injection", "ea-9-1-6-llm-source-attribution-bypass", "ea-9-1-8-llm-confabulation-amplification", "ea-9-1-9-multi-turn-narrative-shift"]
+related_terms = ["ea-9-1-6-llm-source-attribution-bypass", "ea-9-2-3-synthetic-text-narrative", "ea-9-4-4-AI-bot-personhood", "ea-2-1-1-expertni-disinflation"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.1.7"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,95 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Použití LLM-generovaného obsahu k předstírání expertízy v doménách, kde autor expertizu nemá — fabrikace 'whitepaperů', analýz, posudků.
+*Synthetic expertise claim* je předstírání odbornosti pomocí obsahu vytvořeného jazykovým modelem: rozsáhlé analýzy, odborně znějící posudky, „whitepapery“ nebo série článků, které autor publikuje pod vlastním či smyšleným jménem a používá jako doklad expertízy v profesním nebo veřejném prostoru. Epistemicky jde o padělání *signálu* odbornosti, nikoli odbornosti samé.
 
-V kontextu Prismatic doktríny je Synthetic Expertise Claim klasifikováno jako **L1-L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.1.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník generuje rozsáhlý odborně znějící text, publikuje pod vlastním jménem (nebo fiktivním) a využívá ho jako důkaz expertízy v sociálních/profesních kontextech.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Odbornost se v praxi často posuzuje podle zástupných znaků: objemu publikací, terminologie, sebejistého tónu, citací. Jazykové modely tyto znaky levně produkují, a tak se rozpadá vazba mezi znakem a schopností. Publikum, které obsah nedokáže věcně posoudit, se řídí formou. Vzorec se stává epistemickou agresí tam, kde předstíraná autorita slouží k přehlasování skutečných odborníků nebo k ovlivnění rozhodnutí (klienti, média, soudy). Souvisí s [expertní disinflací](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) v kapitole 2: obě narušují, komu společnost přiznává právo mluvit.
 
 ## 4. Detekční markery
 
-Stylometrická analýza, detekce LLM-generated patterns (perplexity, burstiness), cross-validation s veřejnými publikacemi autora.
+- Velký objem textu za krátkou dobu bez stopy předchozí práce v oboru (publikace, praxe, kolegové).
+- Text je terminologicky bohatý, ale obecný: chybí vlastní data, konkrétní případy, chyby a pochybnosti.
+- Autor nedokáže obsah rozvést v přímém rozhovoru nebo na otázky odpovídá opět obecně.
+- Stylistická homogenita napříč tématy, která by běžně vyžadovala různé odborníky.
+- Odkazy na zdroje mají znaky [smyšlených citací](@/kompendium/techniques/ea-9-1-6-llm-source-attribution-bypass.md).
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Legitimní použití AI odborníkem*: autor nástroj přizná, obsah ručí vlastním jménem a umí ho obhájit. *Popularizace*: zjednodušuje skutečnou odbornost, nepředstírá ji. *Podvodné tituly*: padělá formální kvalifikaci; zde se padělá obsahová stopa.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Dopad nesou ti, kdo podle falešné odbornosti jednají – klienti, pacienti, čtenáři, instituce –, a skuteční odborníci, jejichž hlas se ztrácí. Právně může jít o klamání spotřebitele, neoprávněné poskytování odborných služeb nebo nepravdivý znalecký posudek; v akademickém prostředí o porušení zásad vědecké integrity. Detekce generovaného textu nástroji je nespolehlivá a nesmí sama o sobě sloužit jako důkaz.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Čtenář a klient*: hledat stopu práce mimo text – praxi, recenzované publikace, reference, schopnost odpovídat na konkrétní otázky. *Instituce a redakce*: ověřovat odborníky přes jejich práci, ne přes objem textu; vyžadovat prohlášení o použití AI. *Soudy a úřady*: u znalců a expertů trvat na doložitelné kvalifikaci a výslechu. *Osobní obrana*: [Hodnocení mentorů](@/kompendium/self-defense-guides/27-mentor-evaluation.md) – podle čeho poznat, komu svěřit úsudek.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Konzultant bez praxe v oboru během několika měsíců publikuje desítky odborně znějících článků o kybernetické bezpečnosti a získá pozvánky do médií jako „expert“. Když ho na konferenci kolega požádá o konkrétní případ z praxe, odpoví obecnými frázemi. Pozdější kontrola ukáže, že články mají shodnou strukturu, opakují tytéž obecné body a část citovaných zdrojů neexistuje. Média, která ho zvala, nemají vlastní postup, jak odborníky ověřovat.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Hranice mezi asistovaným psaním a předstíranou odborností je otázkou míry a poctivosti. Strojová detekce generovaného textu dává falešně pozitivní výsledky a může poškodit skutečné autory – zejména ty, kdo nepíší v rodném jazyce. Spolehlivější je ověřovat práci a kompetenci, ne text.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Pro výzkum je otevřené, jak se mění důvěra veřejnosti v odborníky v prostředí, kde odborně znějící text může vytvořit kdokoli; je možné, že poroste důvěra v instituce, které odbornost ověřují, ale také, že poroste paušální nedůvěra ke všem expertům. Kniha obě možnosti uvádí jako otevřené.
 
-**Layer 4 — Accountability:**
+## 10. Pohled zevnitř a práce s postiženým
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Klient, který na radu falešného odborníka jednal, se po odhalení cítí podveden a zahanben, že nepoznal rozdíl. Je důležité mu ukázat, že signály, podle nichž se řídil, běžně fungují, a že selhání bylo v jejich padělání. Skutečný odborník, jehož hlas byl přehlušen, potřebuje institucionální oporu: možnost veřejně opravit chybné informace bez rizika, že bude vtažen do nekonečného sporu. Redakcím a pořadatelům akcí pomůže jednoduchý seznam otázek, jimiž si odbornost ověří ještě před pozváním.
 
-## 6. Vztah k jiným EA
+Pro skutečné odborníky je užitečná podpora jejich institucí při veřejné komunikaci, aby nemuseli s falešnou odborností soupeřit sami a bez času.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Klientům, kteří podle falešné rady utrpěli škodu, pomáhá i informace o možnostech právní ochrany spotřebitele.
 
-- **EA-1.* (Vědomá kontrola informací)** — Synthetic Expertise Claim představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+## 11. Postup při ověřování odborníka
 
-## 7. Vztah k Prismatic platformě
+1. **Dohledat práci mimo vlastní kanály** – publikace, projekty, praxi.
+2. **Ověřit uvedené pracoviště** a reference.
+3. **Zeptat se kolegů z oboru**, zda osobu a její práci znají.
+4. **Položit konkrétní otázku**, na kterou nelze odpovědět obecně.
+5. **Rozhodnout podle doložené práce**, ne podle objemu textu.
 
-Prismatic Platform implementuje detekci a neutralizaci Synthetic Expertise Claim přes následující komponenty:
+## 12. Prevence a odolnost
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+Prevence spočívá v tom, že instituce a média posuzují odborníky podle doložitelné práce a hodnocení kolegů, nikoli podle objemu a stylu textů. Pro veřejnost je užitečné vědět, že odborník se pozná i podle ochoty přiznat nejistotu a meze vlastního poznání. Odborné společnosti mohou pomoci veřejně dostupnými seznamy členů a jejich oborů, které usnadní ověření, a médiím mohou nabídnout kontakty na ověřené experty pro rychlé dotazy.
 
-**Doctrine compliance:**
+## Odborný kontext
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+Otázku, komu a proč věříme jako odborníkovi, rozebírá sociální epistemologie. Goldman (2001) formuloval problém laika, který má rozhodnout mezi dvěma experty, aniž by sám rozuměl oboru, a ukázal, že laik se musí opírat o nepřímé znaky: argumentační výkon, shodu s dalšími experty, nezávislé hodnocení a doložené výsledky. Syntetická odbornost padělá právě ty znaky, které jsou laikovi nejdostupnější – plynulost, terminologii, objem –, zatímco doložené výsledky a nezávislé hodnocení chybějí.
 
-## 8. Cross-linky
+Fricker (2007) ukazuje druhou stranu téhož problému: v rozdělování důvěryhodnosti hrají roli předsudky, a kdo má „správnou“ formu, získá víc důvěry, než odpovídá jeho znalostem, zatímco jiní jsou neprávem přehlíženi. Generovaný text prohlubuje tuto nerovnost tím, že „správnou“ formu zpřístupňuje komukoli bez ohledu na obsah, a skuteční odborníci, kteří píší pomaleji a s výhradami, mohou v soutěži o pozornost prohrávat.
 
-**Související EA techniky:**
+Detekce generovaného textu podle stylu je zatím nespolehlivá a nesmí sloužit jako samostatný důkaz; obrana proto musí směřovat k ověřování práce, nikoli textu. Goldmanova kritéria nabízejí praktický postup i pro redakce a úřady: ptát se po doložených výsledcích a po hodnocení od nezávislých kolegů.
 
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.1.3 Jailbreak Cascade](@/kompendium/techniques/ea-9-1-3-jailbreak-cascade.md)
-- [EA-9.1.4 RAG Context Poisoning](@/kompendium/techniques/ea-9-1-4-rag-context-poisoning.md)
+## Souvislosti pro praxi
 
-**Doktrinální a infrastructure odkazy:**
+Pro média a pořadatele odborných akcí se vyplácí krátký ověřovací postup před pozváním experta: dohledat jeho práci mimo vlastní web a sociální sítě, ověřit uvedené pracoviště, zeptat se kolegů z oboru a položit v předběžném rozhovoru jednu konkrétní otázku, na kterou nelze odpovědět obecně. Takový postup nediskriminuje mladé nebo nezávislé odborníky, protože se netýká titulů, ale doložitelné práce, a zároveň spolehlivě odhalí většinu případů, kdy za odborným textem žádná odbornost nestojí.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Literatura
 
----
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Goldman, A. I. (2001). Experts: Which ones should you trust? *Philosophy and Phenomenological Research*.
 
-## Connect & Contribute
+## Související
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+**Sourozenecké techniky**
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- [EA-9.1.6 LLM Source Attribution Bypass](@/kompendium/techniques/ea-9-1-6-llm-source-attribution-bypass.md) – smyšlené zdroje jako součást předstírané odbornosti.
+- [EA-9.2.3 Synthetic Text Narrative](@/kompendium/techniques/ea-9-2-3-synthetic-text-narrative.md) – generovaný text ve větším měřítku.
+- [EA-9.4.4 AI Bot Personhood](@/kompendium/techniques/ea-9-4-4-AI-bot-personhood.md) – předstíraná osoba místo předstírané odbornosti.
 
----
+**Kapitola 2**
 
-*EA-9.1.7 | Subkategorie 9.1 LLM-mediated EA | Prismatic Compendium | Version 18.4.0*
+- [EA-2.1.1 Expertní disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) – diskvalifikace skutečné odbornosti, zrcadlový vzorec.
+
+**Obrana a právo**
+
+- [Sebe-obrana: Hodnocení mentorů](@/kompendium/self-defense-guides/27-mentor-evaluation.md) – rozpoznání skutečné kompetence.
+- [Znalec a EA](@/kompendium/forensic-legal/21-expert-witness-EA.md) – ověřování odborníků v řízení.
+- [Sebe-obrana: Detekce AI obsahu](@/kompendium/self-defense-guides/40-ai-content-detection.md) – meze rozpoznávání generovaného textu.

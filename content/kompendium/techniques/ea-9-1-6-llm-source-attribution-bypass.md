@@ -1,14 +1,14 @@
 +++
 title = "EA-9.1.6 LLM Source Attribution Bypass"
-description = "Současná digitální EA — llm source attribution bypass."
+description = "Vzorec, v němž jazykový model k tvrzení „doplní“ věrohodně vypadající, ale smyšlené nebo zkreslené zdroje, které pak slouží jako krytí. Znaky, odlišení, obrana."
 weight = 916
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-1-4-rag-context-poisoning", "ea-9-1-5-llm-narrative-injection", "ea-9-1-7-synthetic-expertise-claim", "ea-9-1-8-llm-confabulation-amplification"]
+related_terms = ["ea-9-1-1-llm-hallucination-laundering", "ea-9-1-7-synthetic-expertise-claim", "ea-9-2-9-AI-document-forgery"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.1.6"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,98 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Manipulace LLM tak, aby uvedl falešné nebo zkreslené atribuce zdrojů, čímž poskytuje epistemické krytí fabrikovaným tvrzením.
+*Source attribution bypass* je vzorec, v němž jazykový model připojí k tvrzení citace, které neexistují, nebo přisoudí skutečnému autorovi dílo či výrok, který nikdy nevznikl. Výsledný text vypadá jako doložený a citace slouží jako krytí pro tezi, jež by bez nich neobstála. Typicky vzniká při zadání „doplň zdroje“ k předem dané tezi.
 
-V kontextu Prismatic doktríny je LLM Source Attribution Bypass klasifikováno jako **L1** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.1.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník konstruuje prompty, které model nutí 'doplnit citace' k tezím — model halucinuje plausibilní zdroje, které následně oběť přijme jako důkaz.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Model generuje citace stejně jako ostatní text: podle toho, jak citace v daném oboru obvykle vypadají. Proto bývají smyšlené odkazy formálně bezchybné – reálné jméno autora, věrohodný časopis, rok, rozsah stran. Čtenář, který nemá čas zdroje ověřovat, bere počet a formu citací jako známku kvality. Vzorec tím obrací funkci citace: místo cesty k ověření se z ní stává ornament autority, což je jádro [reputation laundering](@/kompendium/detection-signatures/23-network-reputation-laundering.md).
 
 ## 4. Detekční markery
 
-DOI/URL validation, citation cross-check, detekce anomálií v citačních vzorcích, AI-source-watermarking.
+- DOI nevedou nikam nebo vedou na jiný článek; URL vrací chybu nebo nesouvisející stránku.
+- Autor existuje, ale v jeho bibliografii dílo chybí; časopis v daném roce takové číslo nevydal.
+- Citace jsou příliš „přesné“ k tezi – každá potvrzuje přesně to, co text tvrdí.
+- Text s mnoha citacemi neobsahuje jediný přímý citát ani konkrétní údaj ze zdroje.
+- Po upozornění autor místo opravy nabídne jinou, opět neověřitelnou citaci.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Citační chyba*: překlep v roce či stránce u existujícího díla; zdroj lze dohledat. *[EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)*: vymyšlená je teze; zde je teze vložena a vymyšlena je její opora. *Predátorské časopisy*: zdroj existuje, ale má nízkou kvalitu; jde o jiný problém hodnocení zdroje.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Vzorec poškozuje především odborné prostředí: posudky, žádosti, studentské práce, právní podání a novinářské texty s neexistujícími zdroji. Kromě ztráty důvěryhodnosti může mít disciplinární a právní následky (plagiát, vědecký podvod, nepravdivé tvrzení v podání). Pro čtenáře zasaženého opakovaně vede k paušální nedůvěře k citacím jako takovým.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Čtenář a recenzent*: ověřovat vzorek citací – existenci díla, autora a to, zda zdroj opravdu říká, co se mu připisuje. *Instituce*: vyžadovat u odborných textů prohlášení o použití AI a namátkovou kontrolu zdrojů. *Autor*: do textu přebírat jen citace, které sám otevřel a přečetl. *Vzdělávání*: učit [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) jako práci se zdrojem, ne s jeho formou.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Do připomínkového řízení dorazí obsáhlé stanovisko s dvaceti odkazy na odborné studie. Úředník ověří pět z nich: dvě neexistují, jedna existuje, ale tvrdí opak, dvě jsou v pořádku. Stanovisko bylo zjevně sestaveno s pomocí modelu, kterému autor zadal tezi a požádal o „podložení literaturou“. Úřad stanovisko nevyřadí, ale vyzve autora k doložení zdrojů; ten část tvrzení stáhne.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Smyšlené citace nevznikají jen s AI – lidé je vytvářeli i dříve. Novinkou je jejich množství a formální dokonalost. Otevřenou otázkou je, jak sladit ověřování citací s kapacitou recenzentů a úřadů.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Pro výzkum zůstává otevřené, jak často se smyšlené citace dostávají do recenzovaných publikací a do právních podání; dostupné jsou zatím jednotlivé zdokumentované případy, nikoli systematická data. Kniha proto neuvádí odhady a doporučuje ověřovat citace jako běžnou součást posuzování.
 
-**Layer 4 — Accountability:**
+## 10. Pohled zevnitř a práce s postiženým
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Student nebo odborník, kterému byly smyšlené citace prokázány, prožívá často silný stud a strach z následků; někdy si původ citací ani neuvědomoval. Vedoucí práce a instituce by měli odlišit úmyslný podvod od nedbalosti a nabídnout cestu k nápravě – přepracování, doložení, školení. Čtenáři, který na smyšlený zdroj spoléhal, pomůže vědět, že chyba nebyla v jeho důvěře k vědě, ale v padělku, který se za vědu vydával.
 
-## 6. Vztah k jiným EA
+Pro studenty je užitečné vědět, že přiznání chyby a oprava citací jsou běžnou součástí akademické práce a že instituce rozlišují mezi nedbalostí a podvodem.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 11. Postup při ověřování citací
 
-- **EA-1.* (Vědomá kontrola informací)** — LLM Source Attribution Bypass představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+1. **Vybrat vzorek** citací, včetně těch nejdůležitějších pro argument.
+2. **Ověřit existenci** díla v katalogu, databázi nebo u vydavatele.
+3. **Otevřít zdroj** a zkontrolovat, zda říká, co se mu připisuje.
+4. **Vyzvat autora** k doložení sporných citací.
+5. **Rozhodnout o důsledcích** podle povahy chyby – oprava, přepracování, řízení.
 
-## 7. Vztah k Prismatic platformě
+## 12. Prevence a odolnost
 
-Prismatic Platform implementuje detekci a neutralizaci LLM Source Attribution Bypass přes následující komponenty:
+Prevence stojí na jasných pravidlech odpovědnosti za citace, na vzdělávání v práci se zdroji a na časové kapacitě recenzentů a vedoucích prací, kteří citace ověřují. Pro autory je nejjednodušší ochranou zásada citovat jen to, co sami otevřeli a přečetli. Knihovny a univerzity mohou pomoci dostupnými nástroji pro ověřování existence publikací a jasnými postupy pro případ, že se smyšlené citace objeví v již odevzdané nebo publikované práci.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## Odborný kontext
 
-**Doctrine compliance:**
+Smyšlené citace jsou dobře doloženou podobou halucinace jazykových modelů: přehledová literatura je řadí mezi chyby, kdy model generuje údaje, které ve vstupu ani ve světě nemají oporu, a upozorňuje, že u citací je chyba zvlášť zrádná, protože formální úprava působí věrohodně (Ji et al. 2023). Bender et al. (2021) obecněji varují, že plynulost textu svádí čtenáře k přisouzení znalosti a záměru, které model nemá.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+Citace je ve vědecké a právní praxi především slibem ověřitelnosti. Kde se z ní stane ornament, ztrácí čtenář hlavní nástroj, jak posoudit tvrzení, a přechází na hodnocení formy. Wineburg a McGrew (2019) ukázali, že i vzdělaní čtenáři – studenti a akademici – posuzují zdroje podle vzhledu a interních znaků, zatímco profesionální ověřovatelé okamžitě zjišťují, co o zdroji vědí jiní. Tento rozdíl vysvětluje, proč smyšlené citace obstojí u běžného čtenáře a neobstojí u zkušeného recenzenta.
 
-## 8. Cross-linky
+Pro instituce z toho plyne praktický závěr: ověřování citací je třeba chápat jako běžnou součást posuzování textu, nikoli jako výjimečné podezření. Namátková kontrola existence a obsahu několika zdrojů je levná a odhalí většinu případů.
 
-**Související EA techniky:**
+## Souvislosti pro praxi
 
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.1.3 Jailbreak Cascade](@/kompendium/techniques/ea-9-1-3-jailbreak-cascade.md)
-- [EA-9.1.4 RAG Context Poisoning](@/kompendium/techniques/ea-9-1-4-rag-context-poisoning.md)
+Univerzity, redakce a úřady by měly mít jasné pravidlo, kdo za citace odpovídá: autor textu, bez ohledu na to, jaký nástroj použil. Pravidlo by mělo rozlišovat nedbalost (neověřené citace z nástroje) od úmyslného podvodu a nabízet přiměřené důsledky – přepracování, opravu, v závažných případech disciplinární řízení. Recenzenti a vedoucí prací potřebují čas a podporu na ověřování; bez nich zůstane požadavek kontroly jen formální a smyšlené zdroje budou dál procházet.
 
-**Doktrinální a infrastructure odkazy:**
+## Literatura
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+- Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? *Proceedings of FAccT 2021*.
+- Ji, Z. et al. (2023). Survey of hallucination in natural language generation. *ACM Computing Surveys*.
+- Wineburg, S., & McGrew, S. (2019). Lateral reading and the nature of expertise. *Teachers College Record*.
 
----
+## Související
 
-## Connect & Contribute
+**Sourozenecké techniky**
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md) – vymyšlená teze místo vymyšlené opory.
+- [EA-9.1.7 Synthetic Expertise Claim](@/kompendium/techniques/ea-9-1-7-synthetic-expertise-claim.md) – citace jako součást předstírané odbornosti.
+- [EA-9.2.9 AI Document Forgery](@/kompendium/techniques/ea-9-2-9-AI-document-forgery.md) – padělaný dokument místo padělané citace.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+**Detekce**
 
----
+- [Detekční signatura: Reputation laundering](@/kompendium/detection-signatures/23-network-reputation-laundering.md) – autorita propůjčená zdrojem.
+- [Detekční signatura: Cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md) – citace, které vedou samy na sebe.
 
-*EA-9.1.6 | Subkategorie 9.1 LLM-mediated EA | Prismatic Compendium | Version 18.4.0*
+**Obrana**
+
+- [Sebe-obrana: Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) – co zdroj skutečně říká.
+- [Sebe-obrana: Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) – postup ověření jednotlivého údaje.
+
+**Pojmy**
+
+- [Evidence-based](@/glossary/evidence-based.md) – co znamená opřít tvrzení o důkaz.

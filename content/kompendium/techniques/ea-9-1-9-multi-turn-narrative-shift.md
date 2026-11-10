@@ -1,14 +1,14 @@
 +++
 title = "EA-9.1.9 Multi-Turn Narrative Shift"
-description = "Současná digitální EA — multi-turn narrative shift."
+description = "Vzorec postupného přerámování v dlouhé konverzaci s AI, kde drobné posuny vedou model i uživatele k tezi, kterou by na začátku odmítli. Znaky, odlišení, obrana."
 weight = 919
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-1-7-synthetic-expertise-claim", "ea-9-1-8-llm-confabulation-amplification", "ea-9-2-1-deepfake-personality", "ea-9-2-10-AI-personhood-claim"]
+related_terms = ["ea-9-1-5-llm-narrative-injection", "ea-9-1-3-jailbreak-cascade", "ea-9-4-4-AI-bot-personhood"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.1.9"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,95 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Postupný posun narativu během dlouhé LLM konverzace, kde každý turn drobně modifikuje rámec, dokud nezíská opačný význam než původní pozice.
+*Multi-turn narrative shift* je postupný posun rámce v dlouhé konverzaci s jazykovým modelem (nebo prostřednictvím modelu s jiným člověkem): každý krok mírně přeformuluje předchozí výrok, až se konverzace dostane k závěru, který by na začátku byl odmítnut. Žádný jednotlivý krok nevypadá jako zlom, a proto se posun nepozná zevnitř.
 
-V kontextu Prismatic doktríny je Multi-Turn Narrative Shift klasifikováno jako **L1** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.1.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník vede s LLM (nebo přes LLM s obětí) dlouhý dialog; v každém kroku nepatrně reframuje předchozí výrok; po N krocích model 'souhlasí' s tezí, kterou by na začátku odmítl.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Vzorec je digitální podobou známé „salámové“ dynamiky: souhlas s malým krokem vytváří závazek ke kroku dalšímu a vlastní dřívější výroky slouží jako opora pro nové. Jazykové modely jsou k tomu náchylné, protože se přizpůsobují kontextu konverzace a mají sklon souhlasit s uživatelem. Pro člověka, který s modelem dlouze komunikuje, může z konverzace vzniknout dojem „společného zjištění“ – ve skutečnosti jde o vlastní rámec, který se mu vrací posílený. U zranitelných uživatelů (osamělost, krize, sklon k nadhodnocení vztahu s AI) se vzorec potkává s [pseudoempatickou vazbou](@/glossary/pseudoempaticka-vazba.md) – dojmem porozumění, za nímž nestojí žádný protějšek.
 
 ## 4. Detekční markery
 
-Conversation diff analysis, frame-drift detection, semantic anchoring na první výroky.
+- Závěr konverzace je v rozporu s jejím začátkem, ale v žádném místě nezazněla změna názoru s důvodem.
+- Model postupně přebírá výrazy a hodnocení uživatele a přestává uvádět výhrady.
+- Uživatel cituje „co mi AI potvrdila“ jako nezávislé ověření vlastní teze.
+- V konverzaci chybí návrat k výchozím faktům; každá odpověď navazuje jen na tu předchozí.
+- U blízkých je patrná rostoucí izolace s modelem jako hlavním partnerem k rozhovoru.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Skutečné učení*: změna názoru je pojmenovaná, má důvod a lze ji zpětně vysvětlit. *[EA-9.1.5 LLM Narrative Injection](@/kompendium/techniques/ea-9-1-5-llm-narrative-injection.md)*: rámec vložený najednou na začátku, ne vyjednaný po krocích. *Psychotická elaborace*: u uživatele s psychotickou poruchou může konverzace s AI bludný obsah rozvíjet; tam je prioritou klinické vyšetření ([Diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+U jednotlivce může vzorec upevnit nepodložené přesvědčení a oslabit schopnost revize ([Revize přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md)). V klinické praxi se objevuje jako faktor, který posiluje izolaci, konspirační myšlení nebo bludné interpretace; terapeut by se měl ptát i na dlouhé konverzace s AI. V komerčním kontextu (chatboti prodejců) může posun směřovat k rozhodnutím, která uživatel nezamýšlel.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Uživatel*: u důležitých témat začínat novou konverzaci a porovnat výsledek; pravidelně se vracet k výchozím faktům. *Blízcí a terapeuti*: zajímat se o obsah konverzací bez zesměšnění; nabídnout lidský protipól, ne zákaz. *Provozovatelé*: omezovat sklon modelu k souhlasu, připomínat nejistotu, nepředstírat vztah. *Zotavení*: rekonstruovat, kde se rámec posunul, a oddělit vlastní úsudek od „ozvěny“.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Muž po rozvodu tráví večery dlouhými rozhovory s chatbotem o tom, proč se manželství rozpadlo. Zpočátku model nabízí různé perspektivy; po týdnech konverzace, v níž muž opakovaně upravuje formulace, model „souhlasí“, že za vším stála cílená manipulace ze strany bývalé partnerky a jejích přátel. Muž výstup ukazuje přátelům jako nezávislé potvrzení. Teprve terapeut, s nímž projde začátek a konec konverzace, mu pomůže vidět, kde se rámec posunul a co bylo jeho vlastní interpretací.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Postupná změna pohledu v dlouhém rozhovoru je přirozená a může být užitečná. Rozhodující je, zda se změna opírá o nové informace, nebo jen o opakování. Výzkum dopadu dlouhých konverzací s AI na zranitelné uživatele je teprve na začátku.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Pro výzkum je otevřené, jak často dlouhé konverzace s modely posilují nepodložená přesvědčení u zranitelných uživatelů; existují jednotlivé zdokumentované případy, ale ne systematická data.
 
-**Layer 4 — Accountability:**
+## 10. Pohled zevnitř a práce s postiženým
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Zevnitř konverzace působí jako postupné porozumění: model „chápe“ a každá odpověď dává smysl. Proto je zpětný pohled na celou konverzaci pro uživatele často překvapivý. Terapeut nebo blízká osoba nemá konverzaci zesměšňovat ani zakazovat; užitečnější je nabídnout společné čtení, při němž si člověk sám všimne, kde se rámec posunul. U uživatelů v krizi je třeba zároveň posoudit riziko a nabídnout lidskou podporu, kterou konverzace s modelem nahrazovala.
 
-## 6. Vztah k jiným EA
+## 11. Postup při rozboru dlouhé konverzace
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+1. **Porovnat začátek a konec** konverzace a pojmenovat rozdíl.
+2. **Najít místa**, kde se rámec posunul bez nové informace.
+3. **Oddělit vlastní výroky** uživatele od odpovědí modelu.
+4. **Ověřit klíčová tvrzení** mimo konverzaci.
+5. **Zvážit lidskou podporu**, pokud konverzace nahrazovala vztahy nebo provázela krizi.
 
-- **EA-1.* (Vědomá kontrola informací)** — Multi-Turn Narrative Shift představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+## 12. Prevence a odolnost
 
-## 7. Vztah k Prismatic platformě
+Prevence stojí na návyku začínat u důležitých témat novou konverzaci, vracet se k výchozím faktům a probírat závěry s lidmi. Pro provozovatele je prevencí omezení sklonu modelu k souhlasu a připomínání nejistoty.
 
-Prismatic Platform implementuje detekci a neutralizaci Multi-Turn Narrative Shift přes následující komponenty:
+## Odborný kontext
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+Postupný posun přes malé kroky popsala sociální psychologie jako techniku „noha ve dveřích“: souhlas s malým požadavkem zvyšuje pravděpodobnost souhlasu s větším, protože člověk chce zůstat konzistentní se svým dřívějším postojem (Freedman a Fraser 1966; Cialdini 2001). V dlouhé konverzaci s modelem funguje tato dynamika oboustranně – model se přizpůsobuje kontextu a uživatel vlastním předchozím formulacím, které se mu vracejí v posílené podobě.
 
-**Doctrine compliance:**
+Weizenbaum (1976) už u jednoduchého programu ELIZA popsal, jak rychle lidé připisují stroji porozumění a jak silný vztah k němu dokážou navázat, i když vědí, jak program funguje. Turkle (2011) tento postřeh rozšířila na sociální roboty a digitální společníky a upozornila, že pocit porozumění bez skutečného protějšku může nahrazovat vztahy s lidmi. U osamělých nebo krizí zasažených uživatelů je proto posun rámce v dlouhé konverzaci spojen i s rizikem izolace.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+Pro klinickou praxi z toho plyne, že obsah dlouhých konverzací s AI patří do anamnézy stejně jako jiné vlivné vztahy. Nejde o zákaz, ale o to, aby si člověk všiml, kdy rozhovor přestal přinášet nové informace a začal jen zesilovat jeho vlastní výklad.
 
-## 8. Cross-linky
+## Souvislosti pro praxi
 
-**Související EA techniky:**
+Terapeut, který se klienta ptá na jeho vztahy, by měl počítat i s tím, že významným „partnerem k rozhovoru“ může být chatbot. Otázky typu „s kým o tom nejčastěji mluvíte?“ by proto měly zahrnovat i digitální protějšky, bez hodnocení a bez předpokladu, že jde o problém. Pokud se ukáže, že konverzace s modelem posilují izolaci nebo nepodložené přesvědčení, je vhodné pracovat s potřebou, kterou naplňují, a postupně nabízet lidské alternativy – skupinu, přítele, terapeutický vztah.
 
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.1.3 Jailbreak Cascade](@/kompendium/techniques/ea-9-1-3-jailbreak-cascade.md)
-- [EA-9.1.4 RAG Context Poisoning](@/kompendium/techniques/ea-9-1-4-rag-context-poisoning.md)
+## Literatura
 
-**Doktrinální a infrastructure odkazy:**
+- Cialdini, R. B. (2001). *Influence: Science and Practice* (4. vyd.). Allyn & Bacon.
+- Freedman, J. L., & Fraser, S. C. (1966). Compliance without pressure: The foot-in-the-door technique. *Journal of Personality and Social Psychology*.
+- Turkle, S. (2011). *Alone Together: Why We Expect More from Technology and Less from Each Other*. Basic Books.
+- Weizenbaum, J. (1976). *Computer Power and Human Reason*. W. H. Freeman.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Související
 
----
+**Sourozenecké techniky**
 
-## Connect & Contribute
+- [EA-9.1.5 LLM Narrative Injection](@/kompendium/techniques/ea-9-1-5-llm-narrative-injection.md) – rámec vložený najednou.
+- [EA-9.1.3 Jailbreak Cascade](@/kompendium/techniques/ea-9-1-3-jailbreak-cascade.md) – posun napříč modely.
+- [EA-9.4.4 AI Bot Personhood](@/kompendium/techniques/ea-9-4-4-AI-bot-personhood.md) – model vystupující jako člověk.
+- [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md) – dojem porozumění bez protějšku.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+**Detekce**
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- [Detekční signatura: Posun rozsahu (scope creep)](@/kompendium/detection-signatures/7-linguistic-scope-creep.md) – drobné kroky k velkému posunu.
+- [Detekční signatura: Posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md) – změna předmětu sporu.
 
----
+**Klinika a obrana**
 
-*EA-9.1.9 | Subkategorie 9.1 LLM-mediated EA | Prismatic Compendium | Version 18.4.0*
+- [Diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md) – kdy jde o klinický obraz.
+- [Sebe-obrana: Revize přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md) – vědomá změna názoru.
+- [Sebe-obrana: Časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md) – odstup před závěrem.

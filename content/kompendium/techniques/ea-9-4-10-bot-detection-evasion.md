@@ -1,14 +1,14 @@
 +++
 title = "EA-9.4.10 Bot Detection Evasion"
-description = "Současná digitální EA — bot detection evasion."
+description = "Vzorec soupeření mezi detekcí botů a jejich napodobováním lidského chování, v němž automatizované účty unikají klasifikátorům a umělá shoda vypadá lidsky."
 weight = 950
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-3-9-tag-hijacking-EA", "ea-9-4-1-bot-amplification-coordinated", "ea-9-4-2-coordinated-inauthentic-behavior", "ea-9-4-3-sock-puppet-network"]
+related_terms = ["ea-9-4-4-AI-bot-personhood", "ea-9-4-1-bot-amplification-coordinated", "ea-9-4-8-real-time-bot-response"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.4.10"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,110 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Sofistikovaná taktika obcházející bot-detekční classifiers — variabilita posting patterns, human-like errors, randomized timings.
+*Bot detection evasion* je soubor vzorců, jimiž automatizované účty unikají detekci: napodobují lidské rytmy aktivity, rozmanitost obsahu a nedokonalosti, takže klasifikátory platforem i výzkumníků je přestávají rozpoznávat. Kniha tento vzorec popisuje z pohledu obrany – jako pohyblivý cíl, který mění, na co se lze při rozpoznávání neautentického chování spolehnout.
 
-V kontextu Prismatic doktríny je Bot Detection Evasion klasifikováno jako **L1-L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.4.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Operátor používá ML-driven evasion (typing-jitter, sleep cycles, occasional typos, varied content sources) k mimikry lidského chování; classifiers selhávají.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Detekce botů a jejich napodobování tvoří závod: každý zveřejněný znak, podle něhož lze boty poznat, se stává vodítkem pro jejich vylepšení. Výsledkem je, že znaky jednotlivého účtu (rytmus, styl, chyby) ztrácejí spolehlivost a detekce se musí přesouvat k vlastnostem, které se napodobují hůř – ke koordinaci více účtů, ke sdílené infrastruktuře, k neschopnosti doložit identitu mimo platformu. Epistemický účinek je dvojí: neodhalení boti zkreslují obraz veřejného mínění a současně roste podezíravost vůči skutečným lidem („to je určitě bot“), což se samo stává nástrojem diskreditace.
 
 ## 4. Detekční markery
 
-Adversarial bot-detection (continual learning), behavioral entropy analysis, multi-modal fingerprinting (mouse, typing, network).
+- Jednotlivé účty vypadají lidsky, ale skupina účtů se chová koordinovaně (časování, témata, cíle).
+- Profily mají věrohodnou, ale mělkou historii – mnoho obecného obsahu, žádné ověřitelné osobní vazby.
+- Účty selhávají v situacích, které vyžadují místní znalost nebo skutečnou zkušenost.
+- Sdílená technická infrastruktura odhalená platformami nebo výzkumníky.
+- Náhlá, synchronní změna chování skupiny po zveřejnění detekční metody.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Lidé s neobvyklým chováním*: pravidelní uživatelé, lidé s postižením, nerodilí mluvčí mohou spouštět falešné poplachy klasifikátorů. *[EA-9.4.4 AI Bot Personhood](@/kompendium/techniques/ea-9-4-4-AI-bot-personhood.md)*: bot s personou; únik detekci je jedna z jeho vlastností. *Obecná nedůvěra*: nálepka „bot“ pro nepohodlný názor bez doložených znaků.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Zdokonalování botů snižuje spolehlivost dat ze sociálních sítí pro výzkum, novinářství i veřejnou správu. Zvyšuje tlak na ověřování identity, které má vlastní rizika pro soukromí a anonymitu zranitelných lidí. Rámcem je spolupráce platforem s výzkumníky (přístup k datům podle DSA) a transparentní metodika detekce. Pro knihu je podstatné, že obrana nemůže stát jen na technice – musí zahrnovat i kritické čtení a vztahy mimo platformy.
 
-## 5. Neutralizační strategie
+Pro instituce, které se rozhodují podle „nálady na sítích“, má vzorec zásadní dopad: pokud nelze spolehlivě odlišit lidi od botů, nelze z online reakcí spolehlivě usuzovat na veřejné mínění. Rozhodování, která se o online reakce opírají, by proto měla vždy kombinovat více zdrojů – průzkumy, přímý kontakt s lidmi, institucionální kanály.
 
-**Layer 1 — Detection:**
+## 7. Obrana a zotavení
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+*Výzkumníci a analytici*: opírat se o síťové a infrastrukturní znaky, uvádět míru nejistoty, neoznačovat jednotlivce bez důkazů. *Platformy*: kombinovat více signálů, spolupracovat s výzkumem, zveřejňovat souhrnné výsledky. *Uživatel*: nespoléhat na to, že bota pozná; hodnotit obsah a zdroj, ne počet hlasů ([Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)). *Novináři*: neobviňovat konkrétní lidi z toho, že jsou boti, bez ověření.
 
-**Layer 2 — Containment:**
+## 8. Příklad (anonymizovaný kompozit)
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+Výzkumný tým publikuje studii o podílu botů v diskusi o energetice a používá při tom veřejně dostupný klasifikátor. Jiný tým ukáže, že klasifikátor označil za boty i řadu skutečných seniorů s pravidelným rytmem příspěvků, zatímco přehlédl síť účtů, které se chovaly „nepravidelně“, ale byly napojené na stejnou infrastrukturu. První tým studii opraví a doplní síťovou analýzu.
 
-**Layer 3 — Resilience:**
+## 9. Meze a otevřené otázky
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Jakákoli detailní metodika detekce se stává návodem k jejímu obejití; zveřejňování výsledků proto vyžaduje uvážení. Kniha záměrně nepopisuje konkrétní techniky napodobování. Otevřenou otázkou je, zda je dlouhodobě udržitelné rozlišovat lidi a boty podle chování, nebo bude nutné ověřování identity, a za jakou cenu.
 
-**Layer 4 — Accountability:**
+Otevřená zůstává i otázka, jak hodnotit výzkum, který boty detekuje veřejně dostupnými nástroji, jejichž chybovost je známá jen přibližně.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Kniha to považuje za zásadní.
 
-## 6. Vztah k jiným EA
+## 10. Pohled zevnitř a práce s postiženým
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Uživatelé, kteří byli neprávem označeni za boty, prožívají ponížení a ztrátu hlasu – je to forma [epistemické nespravedlnosti](@/glossary/epistemicka-injustice.md). Naopak lidé, kteří zjistí, že dlouho diskutovali s boty, mohou ztratit důvěru v online komunikaci obecně. V obou případech pomáhá věcné vysvětlení a obnovení vztahů, které nestojí jen na platformě.
 
-- **EA-1.* (Vědomá kontrola informací)** — Bot Detection Evasion představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Pro výzkumníky a novináře, kteří pracují s detekcí, je zátěží i vědomí, že jejich závěry mohou být zneužity k diskreditaci skutečných lidí; pomáhá kolegiální přezkum analýz a jasné vymezení, co analýza dokazuje a co ne.
 
-## 7. Vztah k Prismatic platformě
+## 11. Vztah k ostatním kategoriím EA
 
-Prismatic Platform implementuje detekci a neutralizaci Bot Detection Evasion přes následující komponenty:
+Závod mezi detekcí a napodobováním má obdobu v [kritických perspektivách](@/kompendium/critical-perspectives/5-false-positive-risk.md) knihy: každá detekce nese riziko falešně pozitivních nálezů. Pro praxi OSINT ho rozebírá [Detekce botů v OSINT](@/kompendium/cross-domain/6-ea-osint-bot-detection.md).
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 12. Postup při hodnocení podezření na boty
 
-**Doctrine compliance:**
+1. **Nepoužívat jediný znak** – kombinovat chování, síť a infrastrukturu.
+2. **Uvádět míru nejistoty** u každého závěru.
+3. **Ověřit jednotlivce** dřív, než je veřejně označíte za bota.
+4. **Zveřejnit metodu** analýzy, aby ji bylo možné přezkoumat.
+5. **Opravit závěry**, pokud se ukáže chyba.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 13. Prevence a odolnost
 
-## 8. Cross-linky
+Prevence stojí na tom, že veřejná debata nespoléhá na počet hlasů, na transparentnosti metod detekce a na spolupráci platforem s výzkumem. Pro jednotlivce je ochranou hodnotit obsah a zdroj, ne předpoklad, že pozná bota.
 
-**Související EA techniky:**
+Pro školy a veřejnost je užitečné chápat, že rozpoznat bota „na první pohled“ obvykle nelze, a že spolehlivější je ptát se po zdroji a nezávislosti tvrzení.
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.4.3 Sock Puppet Network](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md)
-- [EA-9.4.4 AI Bot Personhood](@/kompendium/techniques/ea-9-4-4-AI-bot-personhood.md)
+## 14. Otázky pro rozhovor a šetření
 
-**Doktrinální a infrastructure odkazy:**
+- Podle jakých znaků je účet označen za bota?
+- Chová se koordinovaně s dalšími účty?
+- Mohl by znak vysvětlit i neobvyklý, ale skutečný uživatel?
+- Jaká je míra nejistoty závěru?
+- Kdo z označení těží?
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Odborný kontext
 
----
+Ferrara et al. (2016) popsali vývoj sociálních botů jako závod mezi tvůrci a detekcí: každá nová metoda odhalování vede k napodobování znaků, na nichž stojí. Detekce proto nemůže stát na jednotlivých vlastnostech účtů a musí se přesouvat k síťovým vzorcům koordinace. Woolley a Howard (2018) doložili, že sofistikované operace kombinují automatizaci s lidskou prací, což rozdíl mezi botem a člověkem dál stírá.
 
-## Connect & Contribute
+Druhou stranou problému jsou falešně pozitivní nálezy. Fricker (2007) popsala svědeckou nespravedlnost – ztrátu důvěryhodnosti kvůli předsudku vůči mluvčímu; nálepka „bot“ může mít tentýž účinek na skutečné lidi s neobvyklým chováním, nerodilé mluvčí nebo seniory. Kniha proto zdůrazňuje transparentnost metod a opatrnost při označování jednotlivců a záměrně nepopisuje techniky napodobování.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+## Souvislosti pro praxi
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+Pro novináře je dobrou praxí neoznačovat konkrétní účty za boty bez ověření a vždy uvádět, jakou metodou byly identifikovány. Pro výzkumníky je cenné publikovat validační studie detekčních nástrojů, včetně míry chyb. Pro platformy je důležité, aby odvolání proti označení za automatizovaný účet bylo dostupné a rychlé.
 
----
+## Literatura
 
-*EA-9.4.10 | Subkategorie 9.4 Bot networks | Prismatic Compendium | Version 18.4.0*
+- Ferrara, E., Varol, O., Davis, C., Menczer, F., & Flammini, A. (2016). The rise of social bots. *Communications of the ACM*.
+- Fricker, M. (2007). *Epistemic Injustice*. Oxford University Press.
+- Woolley, S. C., & Howard, P. N. (Eds.) (2018). *Computational [Propaganda](@/glossary/propaganda.md)*. Oxford University Press.
+
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.4.4 AI Bot Personhood](@/kompendium/techniques/ea-9-4-4-AI-bot-personhood.md) – boti řízení jazykovými modely.
+- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md) – zesílení sítí botů.
+- [EA-9.4.8 Real-Time Bot Response](@/kompendium/techniques/ea-9-4-8-real-time-bot-response.md) – okamžité reakce botů.
+
+**Detekce a metody**
+
+- [Detekce botů v OSINT](@/kompendium/cross-domain/6-ea-osint-bot-detection.md) – metody a jejich meze.
+- [Detekční signatura: Bot coordination](@/kompendium/detection-signatures/20-network-bot-coordination.md) – síťové znaky.
+
+**Kritika a pojmy**
+
+- [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md) – cena chybného označení.
+- [Epistemická nespravedlnost](@/glossary/epistemicka-injustice.md) – neprávem odebraný hlas.

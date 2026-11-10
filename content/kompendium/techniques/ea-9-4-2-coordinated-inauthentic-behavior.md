@@ -1,14 +1,14 @@
 +++
 title = "EA-9.4.2 Coordinated Inauthentic Behavior"
-description = "Současná digitální EA — coordinated inauthentic behavior."
+description = "Vzorec sítě účtů – lidských i automatizovaných –, které vystupují jako nezávislí uživatelé, ale jednají jako jeden skrytý aktér se společnou infrastrukturou a cílem."
 weight = 942
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-4-1-bot-amplification-coordinated", "ea-9-4-10-bot-detection-evasion", "ea-9-4-3-sock-puppet-network", "ea-9-4-4-AI-bot-personhood"]
+related_terms = ["ea-9-4-1-bot-amplification-coordinated", "ea-9-4-3-sock-puppet-network", "ea-9-4-5-troll-farm-EA", "ea-9-3-7-platform-coordinated-attack"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.4.2"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,112 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Síť účtů (lidských i botových) operujících jako jeden aktér — sdílená infrastruktura, stejné narativy, koordinované akce — bez disclosure.
+*Coordinated inauthentic behavior* (CIB, koordinované neautentické chování) je pojem, který platformy používají pro sítě účtů vystupujících jako nezávislí uživatelé, které však jednají jako jeden skrytý aktér: sdílejí infrastrukturu, narativy a načasování a zastírají, kdo za nimi stojí. Rozhodující není obsah, ale klam o identitě a koordinaci.
 
-V kontextu Prismatic doktríny je Coordinated Inauthentic Behavior klasifikováno jako **L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.4.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Operátor řídí desítky účtů přes shared infrastructure; každý účet vypadá nezávisle, ale CIB analýza odhaluje sdílené devices, IP, posting times, content templates.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Veřejná debata předpokládá, že hlasy v ní patří různým lidem, kteří mluví sami za sebe. CIB tento předpoklad porušuje: jeden aktér mluví mnoha ústy a vytváří zdání šíře, rozmanitosti a nezávislosti. Síť může kombinovat automatizované účty, ručně řízené persony a skutečné lidi, kteří netuší, že šíří obsah z jednoho centra. Protože každý účet jednotlivě vypadá věrohodně, je koordinace viditelná až v síťové analýze – sdílená zařízení, adresy, časy, šablony obsahu. Proto platformy CIB posuzují podle chování, nikoli podle názorů.
 
 ## 4. Detekční markery
 
-CIB-detection (Meta/Twitter framework), infrastructure overlap, behavioral fingerprinting, account-cluster analysis.
+- Účty se shodnými vzorci založení, profilovými údaji a sledujícími.
+- Synchronní publikování nebo reakce, často se stejnými chybami a formulacemi.
+- Skrývání původu: stránky vydávající se za místní média nebo občanské iniciativy bez transparentního provozovatele.
+- Síť se rychle přeorientuje na nové téma, když se změní zadání.
+- Při odhalení jedné části zmizí naráz celé skupiny účtů.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Organizovaná, ale transparentní kampaň*: strana, firma nebo nezisková organizace koordinuje sdílení pod vlastním jménem. *Skupina podobně smýšlejících lidí*: sdílejí názor, ale nejednají podle společného zadání a neskrývají identitu. *[EA-9.4.3 Sock Puppet Network](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md)*: užší případ: falešné identity jednoho operátora.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+CIB zkresluje veřejnou debatu, volby a vnímání podpory pro politiky či produkty. Platformy pravidelně zveřejňují zprávy o odstraněných sítích; v EU ukládá DSA velkým platformám posuzovat rizika manipulace. V politickém kontextu souvisí s pravidly financování kampaní a se zahraničním vlivem. Pro výzkum je CIB metodickým rizikem při práci s daty ze sítí.
 
-## 5. Neutralizační strategie
+Pro volební orgány a regulátory je CIB součástí posuzování rizik voleb a zahraničního vlivu; spolupráce s platformami a výzkumníky před volbami umožňuje sítě odhalit dřív, než ovlivní debatu. Pro média je důležité neinformovat o síti jako o „spontánním hnutí“, pokud o jejím původu existují doložené poznatky.
 
-**Layer 1 — Detection:**
+## 7. Obrana a zotavení
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+*Uživatel*: při setkání s „mnoha hlasy“ se ptát po jejich nezávislosti; ověřovat stránky bez provozovatele ([Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)). *Novináři a analytici*: síťová analýza, sledování zpráv platforem o odstraněných sítích. *Organizace*: neobjednávat ani netolerovat skryté kampaně ve svůj prospěch. *Platformy*: posuzovat chování, ne obsah; zveřejňovat zprávy o odstraněných sítích.
 
-**Layer 2 — Containment:**
+## 8. Příklad (anonymizovaný kompozit)
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+Ve městě vznikne několik „občanských“ stránek, které kritizují plánovanou větrnou elektrárnu. Stránky mají různé názvy, ale stejné grafické šablony a publikují ve stejných časech. Novinář zjistí, že je spravují tytéž účty a že obsah připravuje agentura pro konkurenční investiční projekt. Po zveřejnění platforma stránky odstraní za neautentické chování; skuteční místní odpůrci elektrárny se od kampaně distancují.
 
-**Layer 3 — Resilience:**
+## 9. Meze a otevřené otázky
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Hranice mezi koordinovanou advokacií a neautentickým chováním není vždy ostrá – rozhoduje míra zastírání identity. Pojem vytvořily platformy a jeho uplatňování je jejich rozhodnutím, které není vždy transparentní. Kniha ho používá jako popis vzorce, ne jako právní kategorii.
 
-**Layer 4 — Accountability:**
+Zprávy platforem o odstraněných sítích jsou důležitým zdrojem, ale nelze je nezávisle ověřit; kniha je proto uvádí jako zdroj s omezeními.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Otevřenou otázkou zůstává i to, jak sítě rozpoznat včas.
 
-## 6. Vztah k jiným EA
+## 10. Pohled zevnitř a práce s postiženým
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Skuteční lidé, kteří se ke kampani přidali v dobré víře, se po odhalení cítí zneužití a zahanbení; jejich názor přitom může být legitimní. Při práci s nimi je třeba oddělit názor od manipulace, která ho využila. Cíle kampaní potřebují důkazy o koordinaci, aby mohly veřejně ukázat, že čelí jednomu aktérovi, ne „všem“.
 
-- **EA-1.* (Vědomá kontrola informací)** — Coordinated Inauthentic Behavior představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Pro novináře, kteří sítě odhalují, je důležitá podpora redakce, protože odhalení často vyvolá útoky na jejich osobu; právní a bezpečnostní příprava je proto součástí práce.
 
-## 7. Vztah k Prismatic platformě
+## 11. Vztah k ostatním kategoriím EA
 
-Prismatic Platform implementuje detekci a neutralizaci Coordinated Inauthentic Behavior přes následující komponenty:
+CIB je zastřešujícím rámcem pro [EA-9.4.1](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md), [EA-9.4.3](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md) a [EA-9.4.5](@/kompendium/techniques/ea-9-4-5-troll-farm-EA.md). V kapitole 2 odpovídá výrobě zdánlivé shody v [EA-2.1.9 Pseudo-konsenzus vytvoření](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md).
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 12. Postup při podezření na koordinované neautentické chování
 
-**Doctrine compliance:**
+1. **Zmapovat síť** účtů a stránek, které šíří tentýž obsah.
+2. **Hledat sdílené znaky** – infrastrukturu, šablony, časování, správce.
+3. **Ověřit provozovatele** stránek, které se vydávají za místní média či iniciativy.
+4. **Zdokumentovat** síť s metodou a nejistotou.
+5. **Předat poznatky** platformám a zveřejnit je s ohledem na skutečné lidi v síti.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 13. Prevence a odolnost
 
-## 8. Cross-linky
+Prevence stojí na transparentnosti – kdo stojí za stránkami a kampaněmi –, na pravidlech platforem posuzujících chování a nikoli názory a na veřejnosti, která se ptá po nezávislosti hlasů. Organizace mohou přispět tím, že skryté kampaně ve svůj prospěch odmítnou.
 
-**Související EA techniky:**
+Pro veřejnost je užitečné znát jednoduché otázky – kdo za stránkou stojí, odkud pochází obsah –, které pomohou neautentickou kampaň rozpoznat i bez technické analýzy.
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.3 Sock Puppet Network](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md)
-- [EA-9.4.4 AI Bot Personhood](@/kompendium/techniques/ea-9-4-4-AI-bot-personhood.md)
-- [EA-9.4.5 Troll Farm EA](@/kompendium/techniques/ea-9-4-5-troll-farm-EA.md)
+## 14. Otázky pro rozhovor a šetření
 
-**Doktrinální a infrastructure odkazy:**
+- Kdo provozuje stránky, které šíří obsah?
+- Sdílejí účty infrastrukturu, šablony nebo správce?
+- Jednají synchronně a mění témata naráz?
+- Vědí skuteční lidé v síti, odkud obsah pochází?
+- Komu kampaň slouží?
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Odborný kontext
 
----
+Pojem koordinovaného neautentického chování zavedly platformy, aby posuzovaly sítě podle klamu o identitě a koordinaci, nikoli podle obsahu. Wardle a Derakhshan (2017) doporučují při analýze informační poruchy oddělovat aktéra, sdělení a interpreta; CIB je především klamem o aktérovi. Starbird, Arif a Wilson (2019) ukázali, že strategické operace se prolínají s činností skutečných uživatelů, kteří obsah v dobré víře dál šíří, a že hranice mezi „neautentickým“ a „organickým“ proto není ostrá.
 
-## Connect & Contribute
+Benkler, Faris a Roberts (2018) doložili, že koordinované sítě často navazují na existující mediální ekosystémy a využívají je k zesílení. Woolley a Howard (2018) popsali, že tyto sítě kombinují automatizaci s lidskou prací. Kniha z toho vyvozuje dvojí opatrnost: odhalovat koordinaci podle chování a zároveň chránit skutečné lidi, kteří se do sítě zapojili, před obviněním z neautenticity jejich vlastních názorů.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+## Souvislosti pro praxi
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+Pro novináře je klíčové zveřejňovat analýzy sítí s popsanou metodou a mírou nejistoty, aby je bylo možné ověřit. Pro politické strany a firmy platí, že najímání agentur na skryté kampaně je reputačním a často i právním rizikem. Pro výzkum je důležitý přístup k datům platforem, který evropská regulace velkým platformám ukládá.
 
----
+## Literatura
 
-*EA-9.4.2 | Subkategorie 9.4 Bot networks | Prismatic Compendium | Version 18.4.0*
+- Benkler, Y., Faris, R., & Roberts, H. (2018). *Network Propaganda*. Oxford University Press.
+- Starbird, K., Arif, A., & Wilson, T. (2019). Disinformation as collaborative work. *Proceedings of the ACM on Human-Computer Interaction (CSCW)*.
+- Wardle, C., & Derakhshan, H. (2017). *Information Disorder*. Council of Europe.
+- Woolley, S. C., & Howard, P. N. (Eds.) (2018). *Computational Propaganda*. Oxford University Press.
+
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md) – automatizované zesílení.
+- [EA-9.4.3 Sock Puppet Network](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md) – falešné identity jednoho operátora.
+- [EA-9.4.5 Troll Farm EA](@/kompendium/techniques/ea-9-4-5-troll-farm-EA.md) – profesionalizovaná podoba.
+- [EA-9.3.7 Platform Coordinated Attack](@/kompendium/techniques/ea-9-3-7-platform-coordinated-attack.md) – koordinace napříč platformami.
+
+**Detekce a metody**
+
+- [Detekční signatura: Platformní koordinace](@/kompendium/detection-signatures/21-network-platform-coordination.md) – stopy koordinace.
+- [Síťová analýza v EA výzkumu](@/kompendium/research-methodology/network-analysis-EA.md) – metodický rámec.
+
+**Obrana a teorie**
+
+- [Sebe-obrana: Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – ověřování nezávislosti.
+- [Propaganda](@/glossary/propaganda.md) – širší pojem.

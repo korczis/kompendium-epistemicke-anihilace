@@ -1,108 +1,187 @@
 +++
-title = "EA-7.1.8 Derrida: Dekonstrukce"
-description = "Teoretická reflexe — Derrida: Dekonstrukce a vztah k EA."
+title = "EA-7.1.8 Derrida: dekonstrukce"
+description = "Teoretická reflexe Derridovy dekonstrukce: rozbor nestability významu a hranice mezi kritickým čtením a rozkladem smyslu. Kdy rámec pomáhá a kdy ho lze zneužít."
 weight = 718
+insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
+tags = ["kompendium", "techniques", "ea-7-1", "teoreticke", "philosophy", "postmodernismus"]
 categories = ["academic", "theory"]
 
 [extra]
-related_terms = ["ea-7-1-6-sloterdijk-spheres", "ea-7-1-7-deleuze-rhizome", "ea-7-1-9-heidegger-dasein", "ea-7-2-1-fricker-epistemic-injustice"]
+related_terms = ["ea-2-3-2-context-collapse", "ea-2-3-3-quote-mining", "ea-2-5-4-radical-relativism-internalize", "differance", "hermeneutika", "semanticka-afazie"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.1.8"
 ea_category = "7. Teoretické reflexe"
-ea_subcategory = "7.1 Continental filozofie"
+ea_subcategory = "7.1 Kontinentální filozofie"
 section_icon = "🪐"
 toc = true
 access_level = "L1"
 parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 +++
 
-# EA-7.1.8 Derrida: Dekonstrukce
-
-> *Teoretická reflexe v rámci 7.1 Continental filozofie.*
-
-## Identifikace
+# EA-7.1.8 Derrida: dekonstrukce
 
 | Pole | Hodnota |
-|---|---|
-| **Kód EA** | EA-7.1.8 |
-| **Tradice** | Continental filozofie |
-| **Autor / škola** | Derrida |
-| **Hlavní teze** | Každý text nese stopy toho, co vylučuje — význam vzniká odkládáním a nikdy není plně přítomen. |
-| **Status v EA** | Teoretická reflexe — interpretační rámec, ne přímá technika |
-| **Cross-reference** | viz sekce *Mapování na EA techniky* |
+|------|---------|
+| **Kód EA** | `EA-7.1.8` |
+| **Tradice** | Kontinentální filozofie, poststrukturalismus |
+| **Autor** | Jacques Derrida (1930–2004) |
+| **Hlavní teze** | Význam textu není nikdy zcela přítomný a uzavřený; vzniká z rozdílů a odkladů a texty obsahují napětí, která jejich vlastní hierarchie podrývají. |
+| **Status v EA** | Teoretická reflexe – nástroj kritického čtení s rizikem zneužití k rozkladu smyslu |
+| **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |
 
-## Kontext autora
+## Vymezení
 
-Derrida patří do tradice **Continental filozofie**. Jeho/její pozice je relevantní pro EA tím, že nabízí pojmový aparát, jímž lze popsat manipulaci, asymetrii, framing a epistemickou dynamiku — tedy přesně to, co EA mapuje jako útočné a obranné techniky.
+**Dekonstrukce** je způsob čtení, který Jacques Derrida rozvinul od konce šedesátých let
+v knihách *O gramatologii*, *Psaní a diference* a *Hlas a fenomén* (vše 1967). Nejde
+o metodu v přísném smyslu, ale o pozorné čtení, které ukazuje, jak text spočívá na
+protikladech (řeč–písmo, přítomnost–nepřítomnost, vnitřní–vnější), z nichž jeden člen
+je zvýhodněn, a jak se toto zvýhodnění v samotném textu rozpadá. Ústředním pojmem je
+[*différance*](@/glossary/differance.md) – neologismus spojující „lišit se“ a „odkládat“:
+význam vzniká z rozdílů mezi znaky a jeho naplnění je vždy odloženo.
 
-Místo, aby EA tato pozice technicky obohacovala (jako kapitoly 1–5), slouží jako **interpretační vrstva**: pomáhá odpovědět na otázku *proč* daná technika funguje, *kdo* jí těží a *za jakých podmínek* jí lze odolat.
+Pro Kompendium je dekonstrukce dvojznačná. Na jedné straně je to **nástroj citlivosti
+k jazyku**: učí vidět, jak texty, instituce a doktríny vytvářejí hierarchie, které se
+tváří jako přirozené. Na druhé straně lze její zjednodušenou podobu („text může znamenat
+cokoli“) **zneužít k rozkladu smyslu**, který odstraňuje možnost říct, že výklad je
+chybný – a tím i možnost bránit se manipulaci.
 
-## Klíčové koncepty
+## Původ a kontext
 
-1. **[Différance](@/glossary/differance.md) (rozdíl/odklad)**
-2. **Logocentrismus**
-3. **Stopa (trace) a doplněk (supplement)**
+Derrida navazoval na Husserlovu fenomenologii, Heideggerovu kritiku metafyziky
+a Saussurovu lingvistiku, podle níž znaky získávají význam z rozdílů v systému. Ve
+slavném sporu se Johnem Searlem o teorii řečových aktů (eseje „Signatura, událost,
+kontext“, 1972; soubor *Limited Inc*, 1988) Derrida tvrdil, že každý znak je
+**iterabilní** – lze ho opakovat v jiném kontextu – a proto kontext nikdy nemůže být
+plně určen. V *Síle zákona* (1990, knižně 1994) prohlásil, že dekonstrukce je
+spravedlnost: neustálé zpochybňování práva ve jménu toho, co právo nemůže plně obsáhnout.
+V tomto textu i v *Limited Inc* odmítal, že by dekonstrukce znamenala libovůli výkladu;
+trval na tom, že pozorné čtení má svá pravidla a odpovědnost.
 
-Tyto pojmy nejsou v EA použity přímo jako názvy technik, ale tvoří **rastr**, jímž lze techniky kapitol 1–6 lépe číst — a v některých případech i odhalit, že to, co vypadá jako jediná technika, je ve skutečnosti složený dispozitiv.
+## Co rámec zviditelňuje
 
-## Vztah k EA
+Dekonstruktivní citlivost pomáhá rozpoznat několik jevů, které Kompendium popisuje.
+Prvním je **iterabilita jako zranitelnost**: protože výrok lze opakovat v jiném
+kontextu, lze ho i vytrhnout. Techniky [kolapsu kontextu](@/kompendium/techniques/ea-2-3-2-context-collapse.md),
+[těžby citátů](@/kompendium/techniques/ea-2-3-3-quote-mining.md) a
+[vytrženého klipu](@/kompendium/techniques/ea-2-3-1-clip-takeout.md) využívají přesně tuto
+vlastnost znaků, kterou Derrida popsal filozoficky. Rámec tak vysvětluje, proč žádný
+výrok není proti vytržení zcela imunní – a proč je obranou dokumentace kontextu, ne
+„lepší formulace“.
 
-Pozice **Derrida** vnáší do EA tři operativní příspěvky:
+Druhým jevem jsou **skryté hierarchie v doktrínách**. Uzavřené skupiny často stojí na
+protikladech (probuzení–spící, čistí–nečistí, my–oni), v nichž je jeden člen absolutně
+nadřazen. Dekonstruktivní čtení ukazuje, že tyto protiklady nejsou přirozené
+a že doktrína je sama nekonzistentní; v terapii po odchodu ze skupiny může být takové
+čtení osvobozující. Souvisí to s Liftonovým (1961) popisem jazyka, který myslí za mluvčího.
 
-- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *„něco se tu děje, ale nevíme co“*.
-- **Hloubka rámce**: ukazuje, že manipulace často není individuální akt, nýbrž **strukturální efekt** vyšší vrstvy (diskurzní, institucionální, biologické).
-- **Etická pojistka**: brání tomu, aby EA degenerovala v techniku oboustranné aplikace bez reflexe — tj. aby se z obranného nástroje stala nová manipulační šablona.
+Třetím jevem je **riziko zneužití**. Zjednodušená teze, že význam je neurčitý, se stává
+argumentem, jímž lze zpochybnit jakékoli doložené tvrzení („to je jen jedna
+interpretace“). V takové podobě přispívá k [internalizaci radikálního relativismu](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md)
+a k [hermeneutické erozi](@/glossary/hermeneuticka-eroze.md).
 
-## Mapování na EA techniky
+## Pohled zevnitř
 
-Pozice **Derrida** se relevantně dotýká těchto oblastí EA:
+Pro čtenáře, který se s dekonstrukcí setká poprvé, bývá zkušenost osvobozující: texty,
+které se zdály neotřesitelné, se ukážou jako konstruované. Pro člověka, který byl
+vystaven soustavnému zpochybňování významu (například v prostředí, kde se každé jeho
+slovo vykládá proti němu), je tatáž zkušenost ohrožující: ztrácí důvěru, že slova vůbec
+mohou něco znamenat. V kazuistikách se tento stav popisuje jako [sémantická afázie](@/glossary/semanticka-afazie.md)
+– neschopnost spolehnout se na význam vlastních i cizích slov.
 
-- skrytá binární opozice, marginalizovaný hlas, dekonstrukce rámce
-- vztah ke **kapitole 6 (obrana a kalibrace)**: pomáhá rozlišit obranu strukturální od obrany pouze taktické.
-- vztah ke **kapitole 3 (manipulační vzorce)**: dodává jazyk, jímž lze pojmenovat skryté předpoklady techniky.
+## Detekční markery z hlediska rámce
 
-Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [techniques index](@/kompendium/techniques/_index.md).
+Pozorovatel může rozlišovat legitimní dekonstruktivní čtení od jeho zneužití podle toho,
+zda čtení pracuje s textem pozorně a doložitelně, nebo ho jen prohlásí za neurčitý;
+zda se uplatňuje symetricky (i na vlastní texty a doktríny), nebo jen na texty protivníka;
+a zda vede k přesnějšímu porozumění, nebo k rezignaci na porozumění. Asymetrické užití
+„všechno je interpretace“ pouze vůči nepohodlným tvrzením je typickým znakem zneužití. Druhým znakem je, že
+„dekonstrukce“ končí tam, kde začíná vlastní tvrzení mluvčího: neurčitými se stávají jen
+slova druhých, nikdy slova toho, kdo zpochybňuje. Takové užití nemá s Derridovou
+praxí pozorného čtení mnoho společného a odpovídá spíš technice [motte-and-bailey](@/glossary/motte-and-bailey.md).
 
-## Limitace
+## Rizikové kontexty
 
-- **Není přímo testovatelná**: na rozdíl od EA-1 až EA-5 nelze tuto pozici jednoduše operacionalizovat ve scoring engine — slouží jako interpretační rámec, ne jako prediktor.
-- **Riziko nadužití**: aplikovaná všude, ztrácí ostří; pozice je nosná tam, kde **standardní psychologický nebo logický rozbor selává**.
-- **Spor o překlad**: některé pojmy (např. *différance*, *Dasein*, *phi*) odporují čistému přepisu do operativního jazyka platformy a musí být užity s vědomím vlastní hranice.
-- **Žádná pozice není totální**: tato reflexe je jednou z mnoha — viz sister 7.1.* a sousední podkapitoly 7.1, 7.2, 7.3.
+Polemiky o odborných a politických tématech, kde se „neurčitost významu“ používá proti
+doloženým faktům; prostředí s gaslightingem, kde se vlastní slova oběti vykládají
+proti ní; akademické prostředí, kde se dekonstrukce zúží na rétorický trik; právní spory,
+kde se zpochybňuje význam smluv nebo výpovědí.
 
-## Cross-linky
+## Odlišení a meze užití
 
-### Sesterské reflexe (7.1.*)
-- [EA-7.1.1 Foucault: Power/Knowledge](@/kompendium/techniques/ea-7-1-1-foucault-power-knowledge.md)
-- [EA-7.1.2 Foucault: Discipline & Punish](@/kompendium/techniques/ea-7-1-2-foucault-discipline.md)
-- [EA-7.1.3 Adorno: Instrumentální rozum](@/kompendium/techniques/ea-7-1-3-adorno-instrumental-reason.md)
-- [EA-7.1.4 Habermas: Komunikativní jednání](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md)
-- [EA-7.1.5 Arendtová: Banalita zla](@/kompendium/techniques/ea-7-1-5-arendt-banality-evil.md)
-- [EA-7.1.6 Sloterdijk: Sféry](@/kompendium/techniques/ea-7-1-6-sloterdijk-spheres.md)
+Dekonstrukce není relativismus ani nihilismus, i když je tak často vykládána. Derrida
+(1988) výslovně odmítl, že by text mohl znamenat cokoli, a požadoval pečlivé čtení.
+Kritici z analytické filozofie (Searle 1977) mu vytýkali nejasnost a zaměňování
+filozofických problémů; Sokalova aféra (1996), v níž fyzik Alan Sokal publikoval parodický
+článek v časopise *Social Text*, se stala symbolem sporu o standardy v humanitních
+vědách, i když Derridu přímo netýkala. Kompendium z toho vyvozuje opatrnost: rámec
+používá jako nástroj kritického čtení, nikoli jako argument, že pravdu nelze rozlišit.
+Rozdíl mezi dekonstrukcí a [hermeneutikou](@/glossary/hermeneutika.md) spočívá v tom, že
+hermeneutika (Gadamer 1960) směřuje k porozumění a „splynutí horizontů“, dekonstrukce
+k ukázání toho, co porozumění uniká; obojí se v Kompendiu doplňuje.
 
-### Související
-- [Kapitola 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Kapitola 06: Obrana a kalibrace](@/kompendium/06-obrana/_index.md)
-- [Kapitola 03: Manipulační vzorce](@/kompendium/03-manipulacni-vzorce/_index.md)
-- [Glosář: Falsifikace](@/kompendium/glossary-bridges/falsifikace.md)
-- [Glosář: Predictive processing](@/glossary/predictive-processing.md)
-- [Glosář: Power-knowledge](@/glossary/power-knowledge.md)
-- [Glosář: Lakatos research program](@/glossary/lakatos.md)
-- {{ <cross_link path="/decisions/" text="Platforma: Decision Engine" /> }}
-- {{ <cross_link path="/investigate/" text="Platforma: Investigate" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="Platforma: OSINT Toolbox" /> }}
+## Klinický a právní rámec
 
----
+Klinicky má dekonstruktivní citlivost uplatnění v [narativní terapii](@/glossary/narativni-terapie.md)
+(White a Epston 1990), která pomáhá klientům vidět, že dominantní příběh o nich je jen
+jedním z možných, a „dekonstruovat“ ho. Zároveň je třeba chránit klienta před rozkladem
+významu, který ho zbaví opory: dekonstrukce cizího příběhu má smysl, jen pokud vede
+k vlastnímu, unesitelnému příběhu. Právně připomíná spor Derridy a Searla otázku, nakolik
+lze z textu určit úmysl mluvčího – což je praktická otázka výkladu smluv, výpovědí
+a údajně pomlouvačných výroků; srov. [pomluva a EA](@/kompendium/forensic-legal/14-defamation-EA.md).
 
-## Connect
+## Obrana a zotavení
 
-Chcete tuto reflexi aplikovat na konkrétní případ?
+Obranou proti zneužití dekonstrukce je **symetrie a odpovědnost čtení**: kdo tvrdí, že
+výrok je neurčitý, by měl ukázat, kde a proč, a uplatnit stejnou míru i na sebe.
+Obranou proti vytržení je dokumentace kontextu ([ochrana záznamů](@/kompendium/forensic-legal/36-recording-protocols.md))
+a [správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md).
+Zotavení po zkušenosti rozkladu významu obnovuje důvěru ve slova:
+[hermeneutický reset](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md)
+a [protokol narativu](@/kompendium/recovery-protocols/narativ.md).
 
-- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — [Decision Engine](@/glossary/decision-engine.md) s podporou epistemické kalibrace.
-- [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
-- [Glosář pojmů](@/glossary/_index.md) — definice klíčových termínů napříč EA.
+## Případy, které rámec osvětluje
 
-*Část kompendia [Epistemic Arsenal](@/kompendium/_index.md) — kapitola 7. Teoretické reflexe, podkapitola 7.1 Continental filozofie.*
+Anonymizované kompozity: [mediální mob útok](@/kompendium/case-studies/04-medialni-mob-attack.md)
+(iterabilita výroku zneužitá k vytržení), [kult akademické filozofie](@/kompendium/case-studies/28-academic-philosophy-cult.md)
+(dekonstrukce jako rétorika moci) a [pedagogický gaslighting](@/kompendium/case-studies/03-pedagogicke-gaslighting.md).
+
+## Poznámka ke kódu
+
+Kód `EA-7.1.8` patří do řady teoretických reflexí v katalogu technik a není totožný
+s číslováním oddílů kapitoly 7; Derridu v souvislosti s postmodernismem pojednává oddíl
+[7.4 EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md).
+
+## Literatura
+
+- Derrida, J. (1967). *De la grammatologie*.
+- Derrida, J. (1967). *L'écriture et la différence*.
+- Derrida, J. (1972). Signature Événement Contexte. In *Marges de la philosophie*.
+- Searle, J. R. (1977). Reiterating the Differences: A Reply to Derrida. *Glyph*.
+- Derrida, J. (1988). *Limited Inc*.
+- Derrida, J. (1994). *Force de loi*.
+- Gadamer, H.-G. (1960). *Wahrheit und Methode*.
+- White, M., & Epston, D. (1990). *Narrative Means to Therapeutic Ends*.
+
+## Související
+
+**Kapitoly a sesterské reflexe**
+
+- [7.4 EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md) –
+  Lyotard, Baudrillard, Derrida.
+- [EA-7.1.9 Heidegger](@/kompendium/techniques/ea-7-1-9-heidegger-dasein.md) – kritika
+  metafyziky jako výchozí bod.
+
+**Pojmy**
+
+- [Glosář: différance](@/glossary/differance.md) – definice.
+- [Glosář: hermeneutika](@/glossary/hermeneutika.md) – porozumění jako protějšek.
+- [Glosář: sémantická afázie](@/glossary/semanticka-afazie.md) – rozklad významu.
+
+**Techniky, které rámec vysvětluje**
+
+- [EA-2.3.2 Kolaps kontextu](@/kompendium/techniques/ea-2-3-2-context-collapse.md) –
+  iterabilita jako zranitelnost.
+- [EA-2.3.3 Těžba citátů](@/kompendium/techniques/ea-2-3-3-quote-mining.md) – vytržení
+  z celku.

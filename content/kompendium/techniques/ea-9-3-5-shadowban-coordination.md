@@ -1,14 +1,14 @@
 +++
 title = "EA-9.3.5 Shadowban Coordination"
-description = "Současná digitální EA — shadowban coordination."
+description = "Vzorec, v němž koordinované nahlašování vyvolá u cílového účtu tiché omezení dosahu („shadowban“), takže autor ztrácí publikum, aniž ví proč. Znaky a obrana."
 weight = 935
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-3-3-feed-personalization-bias", "ea-9-3-4-recommendation-radicalization", "ea-9-3-6-content-moderation-bias", "ea-9-3-7-platform-coordinated-attack"]
+related_terms = ["ea-9-3-8-mass-reporting-coordination", "ea-9-3-6-content-moderation-bias", "ea-9-6-3-automated-content-takedown"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.3.5"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,111 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Koordinované využívání platformních shadowban mechanismů k umlčení specifických aktérů — falešné reporty, koordinované flagování.
+*Shadowban coordination* je zneužití mechanismů, jimiž platformy tiše omezují viditelnost obsahu („shadowban“, snížení dosahu bez oznámení), ke ztlumení konkrétního aktéra. Koordinovaná skupina hromadně nahlašuje nebo negativně hodnotí jeho obsah, automatické systémy reagují omezením dosahu a autor ztrácí publikum, aniž by dostal vysvětlení nebo mohl reagovat.
 
-V kontextu Prismatic doktríny je Shadowban Coordination klasifikováno jako **L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.3.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočníci masově hlásí cílový účet pro porušení pravidel; algoritmus reaguje shadowbanem (snížený dosah bez notifikace); cíl ztrácí publikum, aniž by věděl proč.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Moderace ve velkém měřítku stojí na automatických signálech: nahlášení, negativní reakce, „skrýt“ nebo „nezajímá mě“. Tyto signály jsou navrženy pro spontánní chování uživatelů a nerozlišují dobře mezi skutečným problémem a organizovanou akcí. Tiché omezení dosahu je pro platformu pohodlné – nevyvolává spory –, ale pro postiženého je neviditelné a nenapadnutelné. Vzorec tak spojuje koordinovaný útok s neprůhledností systému a z obou stran izoluje cíl: publikum ho přestane vidět a on neví proč. Na úrovni veřejné debaty ubývá hlasů, které jsou nepohodlné určité skupině.
 
 ## 4. Detekční markery
 
-Reach analytics, account visibility audit, report-pattern forensics, platform transparency reports.
+- Náhlý a výrazný pokles dosahu bez změny obsahu nebo frekvence publikování.
+- Příspěvky se nezobrazují ve vyhledávání ani sledujícím, kteří je dříve viděli.
+- Předcházela kampaň proti autorovi (výzvy k nahlašování v jiných skupinách, vlna negativních reakcí).
+- Platforma neposkytla žádné oznámení ani zdůvodnění.
+- Podobný pokles postihl více autorů stejného zaměření ve stejném období.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Změna algoritmu*: ovlivní mnoho autorů napříč tématy, ne cíleně jednu skupinu. *Legitimní moderace*: obsah skutečně porušuje pravidla; platforma by měla omezení oznámit a zdůvodnit. *[EA-9.3.8 Mass Reporting Coordination](@/kompendium/techniques/ea-9-3-8-mass-reporting-coordination.md)*: vede k viditelnému zablokování nebo smazání; zde k tichému ztlumení.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Pro novináře, aktivisty, menšinové hlasy a drobné podnikatele znamená ztráta dosahu ztrátu vlivu i obživy. Neviditelnost omezení vede k nejistotě a autocenzuře („co jsem udělal špatně?“). V EU ukládá nařízení o digitálních službách (DSA) platformám povinnost zdůvodnit omezení viditelnosti obsahu a nabídnout vnitřní systém vyřizování stížností; v praxi je vymáhání nerovnoměrné.
 
-## 5. Neutralizační strategie
+Pro drobné podnikatele a tvůrce, jejichž příjmy závisejí na dosahu, má tiché omezení přímý ekonomický dopad a může ohrozit jejich živobytí. Pro novináře a aktivisty jde o ztrátu schopnosti informovat v klíčových chvílích. Obojí zvyšuje význam práva na zdůvodnění a stížnost, které evropská regulace zavádí, i když jeho praktické uplatnění zatím pokulhává. Pro veřejnou debatu je podstatné, že ztlumené hlasy chybějí, aniž by to kdokoli zaznamenal; jejich nepřítomnost se neprojeví jako událost, ale jako tiché zúžení toho, o čem se mluví.
 
-**Layer 1 — Detection:**
+## 7. Obrana a zotavení
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+*Postižený autor*: dokumentovat dosah v čase, uchovat důkazy o kampani, využít stížnostní mechanismus a uplatnit právo na zdůvodnění. *Komunita*: sdílet zkušenosti, aby se ukázal vzorec; nespoléhat jen na jeden kanál ([Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md)). *Platformy*: oznamovat omezení, odlišovat koordinované nahlašování, umožnit odvolání. *Výzkum a regulátoři*: sledovat nerovnosti v moderaci podle témat a skupin.
 
-**Layer 2 — Containment:**
+## 8. Příklad (anonymizovaný kompozit)
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+Novinářka píšící o místní korupci zaznamená během týdne pokles dosahu o většinu. Čtenáři jí píší, že její příspěvky nevidí. Současně se v uzavřené skupině objeví výzva k hromadnému nahlašování jejích příspěvků jako „spamu“. Novinářka podá stížnost s doloženým poklesem a snímkem výzvy; po několika týdnech se dosah obnoví. Mezitím ale přesune část komunikace do newsletteru, aby nebyla na jedné platformě závislá.
 
-**Layer 3 — Resilience:**
+## 9. Meze a otevřené otázky
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Pokles dosahu má mnoho možných příčin a postižení autoři mohou přeceňovat cílenost. Bez přístupu k datům platformy zůstává důkaz nepřímý. Otevřenou otázkou je, jak zajistit transparentnost tichých opatření bez toho, aby se zneužila k obcházení moderace.
 
-**Layer 4 — Accountability:**
+Další otevřenou otázkou je, jak mají výzkumníci ověřovat tichá opatření bez přístupu k datům platforem; nepřímé metody (srovnání viditelnosti z různých účtů, sledování dosahu) dávají jen orientační výsledky.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Kniha neuvádí čísla o rozsahu tichých opatření, protože platformy je zveřejňují jen souhrnně a nezávislé ověření je omezené. Otevřené zůstává i to, zda by plná transparentnost opatření nepomohla těm, kdo pravidla obcházejí; kniha se přesto kloní k názoru, že postižený má právo vědět, že zásah proběhl.
 
-## 6. Vztah k jiným EA
+Pro výzkumníky je vzorec výzvou i metodicky, protože vyžaduje sledování dosahu v čase u mnoha účtů současně.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 10. Pohled zevnitř a práce s postiženým
 
-- **EA-1.* (Vědomá kontrola informací)** — Shadowban Coordination představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Autor, jehož hlas tiše zmizí, prožívá zmatek, nejistotu a pochybnost o vlastní hodnotě – zkušenost blízkou [sociální izolaci](@/glossary/socialni-izolace.md). Někdy se objevuje paranoidní interpretace všeho dění; pomáhá oddělit doložené (pokles, kampaň) od domnělého. Podpora kolegů a alternativní kanály vracejí pocit kontroly.
 
-## 7. Vztah k Prismatic platformě
+Pro kolegy a komunitu je užitečné aktivně sdílet obsah postiženého a dát mu najevo, že jeho hlas není zapomenut.
 
-Prismatic Platform implementuje detekci a neutralizaci Shadowban Coordination přes následující komponenty:
+## 11. Vztah k ostatním kategoriím EA
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+Ztlumení hlasu je digitální podobou [EA-2.1.5 Citation Suppression](@/kompendium/techniques/ea-2-1-5-citation-suppression.md) v akademickém prostředí: dílo existuje, ale nikdo ho nevidí. Navazuje na [EA-9.3.8](@/kompendium/techniques/ea-9-3-8-mass-reporting-coordination.md) a [EA-9.6.3 Automated Content Takedown](@/kompendium/techniques/ea-9-6-3-automated-content-takedown.md).
 
-**Doctrine compliance:**
+## 12. Postup při podezření na tiché omezení dosahu
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+1. **Doložit pokles dosahu** daty v čase.
+2. **Ověřit viditelnost** z jiného účtu a ve vyhledávání.
+3. **Shromáždit doklady o kampani** – výzvy k nahlašování, vlny reakcí.
+4. **Podat stížnost** a uplatnit právo na zdůvodnění.
+5. **Zajistit alternativní kanály** pro komunikaci s publikem.
 
-## 8. Cross-linky
+## 13. Prevence a odolnost
 
-**Související EA techniky:**
+Prevence stojí na nezávislosti na jedné platformě, na dokumentaci vlastního dosahu a na podpoře komunity. Systémově pomáhá povinnost platforem oznamovat a zdůvodňovat omezení viditelnosti a odhalovat koordinované nahlašování.
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md)
-- [EA-9.3.4 Recommendation Radicalization](@/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md)
+## 14. Otázky pro rozhovor a šetření
 
-**Doktrinální a infrastructure odkazy:**
+- Kdy dosah klesl a o kolik?
+- Změnil se obsah nebo frekvence příspěvků?
+- Předcházela poklesu kampaň?
+- Dostali jste od platformy oznámení?
+- Mají podobnou zkušenost jiní autoři?
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Odborný kontext
 
----
+Gillespie (2018) popsal, že moderace platforem zahrnuje nejen odstraňování, ale i méně viditelné zásahy do viditelnosti a řazení, a že právě tyto zásahy jsou pro veřejnost nejméně průhledné. Gorwa, Binns a Katzenbach (2020) upozornili, že automatizace moderace zvyšuje rozsah zásahů a snižuje jejich vysvětlitelnost. Tiché omezení dosahu je extrémním případem: postižený o zásahu neví a nemůže se bránit.
 
-## Connect & Contribute
+Suzor (2019) argumentuje, že rozhodování platforem o projevu by mělo splňovat zásady právního státu – předvídatelnost, oznámení, zdůvodnění a přezkum. Nařízení o digitálních službách tyto zásady v EU zčásti zakotvuje, včetně povinnosti zdůvodnit omezení viditelnosti. Pro knihu je podstatné, že neprůhlednost sama je epistemickou škodou: postižený nemůže odlišit vlastní chybu od zásahu, a nejistota vede k autocenzuře.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+## Souvislosti pro praxi
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+Pro novináře a aktivisty je užitečné průběžně sledovat dosah a mít přehled o běžných výkyvech, aby mohli doložit neobvyklý pokles. Pro organizace hájící svobodu projevu je cenné shromažďovat případy a předávat je platformám a regulátorům jako vzorec, nikoli jednotlivě.
 
----
+## Literatura
 
-*EA-9.3.5 | Subkategorie 9.3 Sociální platformy | Prismatic Compendium | Version 18.4.0*
+- Gillespie, T. (2018). *Custodians of the Internet*. Yale University Press.
+- Gorwa, R., Binns, R., & Katzenbach, C. (2020). Algorithmic content moderation. *Big Data & Society*.
+- Suzor, N. P. (2019). *Lawless*. Cambridge University Press.
+- Nařízení Evropského parlamentu a Rady (EU) 2022/2065 o jednotném trhu digitálních služeb (akt o digitálních službách).
+
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.3.8 Mass Reporting Coordination](@/kompendium/techniques/ea-9-3-8-mass-reporting-coordination.md) – hromadné nahlašování s viditelným následkem.
+- [EA-9.3.6 Content Moderation Bias](@/kompendium/techniques/ea-9-3-6-content-moderation-bias.md) – nerovnosti v moderaci.
+- [EA-9.6.3 Automated Content Takedown](@/kompendium/techniques/ea-9-6-3-automated-content-takedown.md) – automatické odstranění.
+
+**Detekce a pojmy**
+
+- [Detekční signatura: Deplatformingová kaskáda](@/kompendium/detection-signatures/24-network-deplatforming-cascade.md) – postupné vytlačení z platforem.
+- [Deplatforming](@/glossary/deplatforming.md) – obecný pojem.
+
+**Obrana**
+
+- [Sebe-obrana: Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md) – nezávislost na jednom kanálu.
+- [Sebe-obrana: Mobilizace podpory](@/kompendium/self-defense-guides/30-support-mobilization.md) – opora komunity.

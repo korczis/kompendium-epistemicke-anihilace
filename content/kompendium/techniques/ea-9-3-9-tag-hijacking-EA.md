@@ -1,14 +1,14 @@
 +++
 title = "EA-9.3.9 Tag Hijacking EA"
-description = "Současná digitální EA — tag hijacking ea."
+description = "Vzorec únosu populárního hashtagu nebo klíčového slova, kdy se pod ně vkládá nesouvisející – často propagandistický – obsah, aby zasáhl lidi hledající jiné téma."
 weight = 939
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-3-7-platform-coordinated-attack", "ea-9-3-8-mass-reporting-coordination", "ea-9-4-1-bot-amplification-coordinated", "ea-9-4-10-bot-detection-evasion"]
+related_terms = ["ea-9-3-10-trend-manipulation-EA", "ea-9-5-2-symbolic-hijacking", "ea-9-3-1-algorithmic-amplification", "ea-1-3-3-tematicka-diverze"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.3.9"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,114 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Únos populárních hashtagů/keywordů — zneužití trendingových tagů k injekci nesouvisejícího (často kontroverzního) obsahu pro maximalizaci dosahu.
+*Tag hijacking* je zneužití populárního hashtagu, klíčového slova nebo trendujícího tématu k šíření obsahu, který s ním nesouvisí – nejčastěji [propagandy](@/glossary/propaganda.md), podvodných nabídek nebo provokací. Obsah se tak dostane k lidem, kteří hledali něco jiného (zprávy o katastrofě, sportovní událost, kampaň za konkrétní věc), a zároveň zředí nebo překryje původní téma.
 
-V kontextu Prismatic doktríny je Tag Hijacking EA klasifikováno jako **L1** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.3.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník přidá trendující tag (#breakingnews) k vlastnímu obsahu (politická [propaganda](@/glossary/propaganda.md)); algoritmus distribuuje obsah lidem hledajícím tag.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Hashtagy a klíčová slova jsou společné adresy: kdo hledá téma, důvěřuje, že pod jeho jménem najde relevantní obsah. Vzorec tuto důvěru zneužívá dvojím způsobem. Za prvé přenáší obsah k publiku, které by ho jinak nevidělo. Za druhé může původní téma zahltit – například v krizi, kdy lidé pod hashtagem hledají praktické informace, nebo u občanské kampaně, kterou chce protistrana zesměšnit. Původní význam značky se postupně mění; tím vzorec přechází v [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md).
 
 ## 4. Detekční markery
 
-Tag-content semantic mismatch detection, tag-spam clustering, abuse pattern recognition, trending topic forenzika.
+- Pod tématem se objevuje obsah bez věcné souvislosti, často opakovaně od stejných účtů.
+- Náhlý nárůst příspěvků s tagem, které neobsahují nic o tématu, jen tag a vlastní sdělení.
+- V krizi pod tagem ubývají praktické informace a přibývá politických nebo podvodných sdělení.
+- Kampaň proti původnímu tématu používá jeho vlastní značku k zesměšnění.
+- Obsah je kombinován s více trendujícími tagy současně bez souvislosti.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Legitimní připojení k tématu*: vlastní komentář nebo názor, který se tématu týká, i když s ním nesouhlasí. *Spam*: komerční zahlcení bez narativu; účinek na téma ale může být podobný. *[EA-9.3.10 Trend Manipulation EA](@/kompendium/techniques/ea-9-3-10-trend-manipulation-EA.md)*: výroba trendu; zde zneužití trendu existujícího.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+V krizových situacích může únos tagů ztížit přístup k důležitým informacím (evakuace, pomoc, kontakty). U občanských kampaní oslabuje jejich viditelnost a mění vnímání jejich obsahu. Pro platformy jde o porušení pravidel o spamu a manipulaci; pro krizové řízení o důvod mít vlastní ověřené kanály.
 
-## 5. Neutralizační strategie
+Dlouhodobě vzorec mění i to, jak lidé vnímají samotné téma: kdo pod tagem opakovaně vidí provokace, začne je s tématem spojovat, i když s ním nemají nic společného. Občanská kampaň se tak může stát synonymem pro obsah, s nímž její autoři nesouhlasí, a její podporovatelé se jí začnou vyhýbat.
 
-**Layer 1 — Detection:**
+Pro organizátory občanských kampaní je únos značky i strategickým problémem: musí se rozhodnout, zda značku bránit, nebo ji opustit a začít jinde. Rozhodnutí by mělo vycházet z toho, jak značku vnímají jejich podporovatelé, ne z intenzity útoků. Pro média je důležité nepřebírat unesenou značku jako popis kampaně, protože tím únos dokončují. Pro výzkumníky je únos tagů vhodným případem ke zkoumání, jak se mění význam online symbolů v čase a kdo o něm rozhoduje.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 7. Obrana a zotavení
 
-**Layer 2 — Containment:**
+*Uživatel*: sledovat ověřené účty a oficiální kanály, nespoléhat na obsah pod tagem. *Krizové štáby a organizace*: komunikovat přes vlastní ověřené kanály a jasně je označit. *Občanské kampaně*: mít vlastní komunikační kanály, nejen hashtag; reagovat na únos věcně. *Platformy*: filtrovat obsah, který s tématem nesouvisí, zvlášť u krizových tagů.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 3 — Resilience:**
+Během povodní lidé pod regionálním hashtagem sdílejí informace o uzavírkách a sběrných místech. Druhý den se pod tagem objeví stovky příspěvků s politickými hesly a odkazy na „sbírky“ bez ověřitelného příjemce. Hasičský záchranný sbor a obec začnou zveřejňovat informace jen na svých ověřených účtech a upozorní na podvodné sbírky; místní média sestaví seznam ověřených kanálů.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+## 9. Meze a otevřené otázky
 
-**Layer 4 — Accountability:**
+Hranice mezi únosem a legitimním vstupem do debaty je někdy sporná, zvlášť u politických témat, kde se strany o značku přou. Otevřenou otázkou je, kdo má právo rozhodnout, co pod tag „patří“.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Výzkum únosů tagů je převážně případový; srovnávací data o tom, jak často k nim dochází v krizích, chybějí.
 
-## 6. Vztah k jiným EA
+Kniha neuvádí čísla o četnosti únosů tagů; spolehlivá srovnávací data chybějí a dostupné poznatky pocházejí z případových analýz jednotlivých krizí a kampaní. Otevřené zůstává i to, jak by platformy mohly chránit krizové tagy bez omezení legitimního sdílení.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Pro krizové štáby je užitečné po každé krizi vyhodnotit, jak se pod jejich tagy šířily nesouvisející a podvodné obsahy.
 
-- **EA-1.* (Vědomá kontrola informací)** — Tag Hijacking EA představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Takové vyhodnocení zlepší přípravu na příští krizi.
 
-## 7. Vztah k Prismatic platformě
+## 10. Pohled zevnitř a práce s postiženým
 
-Prismatic Platform implementuje detekci a neutralizaci Tag Hijacking EA přes následující komponenty:
+Pro lidi v krizi je zahlcení informačního kanálu stresující a může vést k chybným rozhodnutím. Pro aktivisty, jejichž kampaň byla unesena, je to zkušenost ztráty kontroly nad vlastním hlasem. Pomáhá jasná komunikace a podpora komunity, která původní téma udrží.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+Pro organizátory kampaní je důležité chránit i dobrovolníky, kteří značku používají, před obtěžováním, jež únos často provází.
 
-**Doctrine compliance:**
+## 11. Vztah k ostatním kategoriím EA
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+Únos tématu je digitální podobou [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md): pozornost se odvádí jinam, aniž by se vedl věcný spor. Dlouhodobá změna významu značky vede k [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md).
 
-## 8. Cross-linky
+## 12. Postup při únosu tématu
 
-**Související EA techniky:**
+1. **Zřídit nebo připomenout ověřený kanál** pro informace k tématu.
+2. **Upozornit veřejnost**, že obsah pod tagem není ověřený.
+3. **Nahlásit hromadné zneužití** platformě jako vzorec.
+4. **Varovat před podvody** spojenými s tématem (falešné sbírky).
+5. **Udržet původní téma** srozumitelnou a pravidelnou komunikací.
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md)
-- [EA-9.3.4 Recommendation Radicalization](@/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md)
+## 13. Prevence a odolnost
 
-**Doktrinální a infrastructure odkazy:**
+Prevence stojí na vlastních ověřených kanálech institucí a kampaní, na zvyku uživatelů sledovat ověřené zdroje místo tagů a na filtrech platforem pro krizová témata.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## 14. Otázky pro rozhovor a šetření
 
----
+- Jaký obsah pod tématem převažoval původně a jaký teď?
+- Které účty přinesly nesouvisející obsah?
+- Objevily se podvodné sbírky nebo odkazy?
+- Kde lze najít ověřené informace k tématu?
+- Mění se vnímání tématu u veřejnosti?
 
-## Connect & Contribute
+## Odborný kontext
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+Výzkum krizové komunikace na sociálních sítích ukazuje, že hashtagy se v krizích stávají společnou infrastrukturou, přes niž lidé sdílejí praktické informace, a že do této infrastruktury vstupují pověsti a strategické operace (Starbird, Arif a Wilson 2019). Únos tagu tuto infrastrukturu zahlcuje a mění. Marwick a Lewis (2017) popsali, jak skupiny s politickými cíli využívají trendující témata k získání pozornosti, kterou by jejich obsah sám nezískal.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+Dlouhodobé zneužívání značky mění i její význam; Shifman (2014) ukazuje, že online symboly a formáty jsou otevřené přepisu a že jejich význam určuje kolektivní používání. Proto může krátkodobý únos tagu přejít v trvalý posun významu, jak ho popisuje [EA-9.5.2](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md).
 
----
+## Souvislosti pro praxi
 
-*EA-9.3.9 | Subkategorie 9.3 Sociální platformy | Prismatic Compendium | Version 18.4.0*
+Pro krizové štáby a obce je užitečné mít předem připravené ověřené kanály a zveřejňovat je, aby lidé věděli, kde hledat informace mimo tagy. Pro občanské kampaně je prevencí mít vlastní web nebo newsletter, které nelze unést.
+
+## Literatura
+
+- Marwick, A., & Lewis, R. (2017). *Media Manipulation and Disinformation Online*. Data & Society.
+- Shifman, L. (2014). *Memes in Digital Culture*. MIT Press.
+- Starbird, K., Arif, A., & Wilson, T. (2019). Disinformation as collaborative work. *Proceedings of the ACM on Human-Computer Interaction (CSCW)*.
+
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.3.10 Trend Manipulation EA](@/kompendium/techniques/ea-9-3-10-trend-manipulation-EA.md) – výroba trendu.
+- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md) – trvalý posun významu značky.
+- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md) – infrastruktura dosahu.
+
+**Kapitola 1 a pojmy**
+
+- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – odvedení pozornosti.
+- [Propaganda](@/glossary/propaganda.md) – nejčastější obsah únosu.
+
+**Obrana**
+
+- [Sebe-obrana: Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) – ověřené kanály místo tagů.
+- [Detekční signatura: Vyhýbání se tématu](@/kompendium/detection-signatures/11-behavioral-topic-evasion.md) – odvádění pozornosti.

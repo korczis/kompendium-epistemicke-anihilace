@@ -1,14 +1,14 @@
 +++
 title = "EA-9.5.5 Counter-Meme Suppression"
-description = "Současná digitální EA — counter-meme suppression."
+description = "Vzorec aktivního potlačování konkurenčních memů – hromadným nahlašováním, parodováním do absurdity nebo zaplavením variantami, které rozmělní jejich význam."
 weight = 955
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-5-3-emotional-meme-engineering", "ea-9-5-4-meme-network-amplification", "ea-9-5-6-frame-war-coordination", "ea-9-5-7-narrative-meme-fusion"]
+related_terms = ["ea-9-5-6-frame-war-coordination", "ea-9-5-8-meme-context-collapse", "ea-9-3-8-mass-reporting-coordination", "ea-2-3-8-doxxing-epistemicky"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.5.5"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,110 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Aktivní potlačování konkurenčních memů — koordinované reportování, parodování k diskreditaci, drowning out.
+*Counter-meme suppression* je aktivní potlačování memů, které zpochybňují určitý narativ. Když se objeví mem, který skupině škodí (odhaluje, zesměšňuje, vyvrací), skupina na něj reaguje koordinovaně: hromadně ho nahlašuje, paroduje do absurdity, zaplavuje variantami, které jeho význam rozmělní, nebo útočí na jeho autory. Cílem není vyvrátit sdělení, ale znemožnit jeho šíření a srozumitelnost.
 
-V kontextu Prismatic doktríny je Counter-Meme Suppression klasifikováno jako **L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.5.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Když se objeví counter-narrative meme, síť ho masivně reportuje, parodicky modifikuje k absurditě, nebo zaplavuje variantami k difuzi původního významu.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Memy fungují v prostředí, kde o přežití rozhoduje pozornost a jednoznačnost. Potlačení využívá obou: nahlašování může mem odstranit, a zaplavení variantami ho připraví o jednoznačnost – po stovce parodií už nikdo neví, co původní mem tvrdil. Parodie navíc mění vnímání autora: z kritika se stává terč posměchu. Strategie je asymetrická: vytvořit chaos je snazší než udržet jasné sdělení. Je to memetická podoba [firehose of falsehood](@/glossary/firehose-of-falsehood.md) – nevyvracet, ale zahltit.
 
 ## 4. Detekční markery
 
-Counter-narrative tracking, suppression-pattern detection, parodic-shift analysis, takedown forensics.
+- Krátce po rozšíření kritického memu se objeví vlna jeho parodií a variant od úzkého okruhu účtů.
+- Původní mem je hromadně nahlašován a mizí z platforem.
+- Autoři kritického memu čelí osobním útokům nebo [doxingu](@/glossary/doxing.md).
+- Diskuse o původním sdělení se přesune k parodiím a sporu o humor.
+- Stejný vzorec reakce se opakuje u různých kritických memů.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Spontánní remix*: kultura memů přirozeně paroduje vše; potlačení je koordinované a cílí na konkrétní obsah. *Legitimní protiargument*: odpověď, která se věcně vypořádá se sdělením. *[EA-9.3.8 Mass Reporting Coordination](@/kompendium/techniques/ea-9-3-8-mass-reporting-coordination.md)*: jeden z nástrojů potlačení zaměřený na moderaci.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Potlačení umlčuje kritiku a satiru a odrazuje tvůrce od dalších pokusů. Ochuzuje veřejnou debatu o hlasy, které by mohly vyvažovat dominantní narativ. Pokud zahrnuje doxing nebo výhrůžky, může jít o protiprávní jednání; nahlašovací kampaně spadají pod pravidla platforem a pod povinnosti podle DSA.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Tvůrci*: archivovat původní verzi, dokumentovat kampaň, chránit svou identitu a osobní údaje. *Komunity*: udržet původní sdělení v oběhu s jasným vysvětlením; podpořit autory. *Platformy*: rozpoznávat koordinované nahlašování a chránit satirický obsah. *Novináři*: při zpravodajství o „memové válce“ vysvětlovat, co původní mem tvrdil.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Studentka vytvoří mem, který zesměšňuje nepravdivé tvrzení vlivného influencera; mem se rychle šíří. Během dne se objeví stovky parodií, v nichž je studentka zobrazena jako „hysterka“, a její původní příspěvek je hromadně nahlášen a odstraněn. Influencerovi fanoušci zveřejní její školu. Škola jí poskytne podporu, platforma po odvolání obnoví příspěvek a novinářka napíše o kampani; studentka si zamkne profily.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Parodie a výsměch jsou součástí svobody projevu; nelze je zakázat jen proto, že někomu škodí. Rozhodují koordinace, cílení na osobu a doprovodné obtěžování. Otevřenou otázkou je, jak chránit kritické tvůrce, aniž by se omezila memová kultura jako celek.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Výzkum má k dispozici převážně případové studie jednotlivých kampaní; srovnávací data o tom, jak často jsou kritické memy potlačovány a s jakým výsledkem, chybějí. Otevřené zůstává i to, jak dlouhodobě působí zkušenost potlačení na ochotu tvůrců veřejně vystupovat.
 
-**Layer 4 — Accountability:**
+## 10. Pohled zevnitř a práce s postiženým
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Tvůrce, jehož mem byl potlačen a on sám zesměšněn, prožívá ponížení a strach, často i pocit, že mluvit nemá smysl. U mladých lidí může jít o první zkušenost s organizovaným obtěžováním. Pomáhá rychlá podpora blízkých a instituce, praktická ochrana (soukromí, nahlášení) a rozhovor o tom, že útok svědčí o síle jeho sdělení, ne o jeho chybě.
 
-## 6. Vztah k jiným EA
+Užitečné je i ocenit odvahu tvůrce a připomenout, že jeho původní sdělení mělo dopad – jinak by nevyvolalo tak silnou reakci. U opakovaných kampaní je vhodné zvážit dlouhodobou psychologickou podporu, protože vyčerpání a strach se kumulují a mohou vést k úzkostným potížím.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Pro komunity, které tvůrce podporují, je nejúčinnější udržet původní sdělení v oběhu s vysvětlením, proč bylo potlačováno.
 
-- **EA-1.* (Vědomá kontrola informací)** — Counter-Meme Suppression představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+## 11. Vztah k ostatním kategoriím EA
 
-## 7. Vztah k Prismatic platformě
+Potlačení protisdělení navazuje na [EA-2.3.4 Mob Coordination](@/kompendium/techniques/ea-2-3-4-mob-coordination.md) a [EA-2.3.8 Doxxing Epistemický](@/kompendium/techniques/ea-2-3-8-doxxing-epistemicky.md); v akademickém prostředí mu odpovídá [EA-2.1.5 Citation Suppression](@/kompendium/techniques/ea-2-1-5-citation-suppression.md).
 
-Prismatic Platform implementuje detekci a neutralizaci Counter-Meme Suppression přes následující komponenty:
+## 12. Otázky pro rozhovor a šetření
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+- Co původní mem tvrdil a proč mohl někomu vadit?
+- Kdy a odkud přišla vlna parodií?
+- Byly s kampaní spojeny útoky na osobu autora?
+- Dá se původní verze stále najít?
+- Kdo z potlačení těží?
 
-**Doctrine compliance:**
+## 13. Postup pro profesionály
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+1. **Moderátor:** posoudit, zda vlna parodií a nahlášení nese znaky koordinace, a chránit původní obsah.
+2. **Analytik:** zdokumentovat časovou osu kampaně a účty, které ji nesou.
+3. **Škola, zaměstnavatel, redakce:** podpořit tvůrce, zajistit jeho bezpečí a nepřenášet na něj vinu.
+4. **Právník:** posoudit doxing a výhrůžky jako možné protiprávní jednání.
+5. **Novinář:** obnovit kontext – co bylo původním sdělením a proč bylo potlačeno.
 
-## 8. Cross-linky
+## 14. Prevence a odolnost
 
-**Související EA techniky:**
+Tvůrcům pomáhá ochrana osobních údajů a připravenost na kampaň (archiv, kontakty na podporu). Komunitám pomáhá znalost vzorce, aby zaplavení parodiemi nepovažovaly za spontánní reakci. Platformy mohou chránit satirický obsah před automatickými zásahy po hromadném nahlášení.
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.5.3 Emotional Meme Engineering](@/kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md)
-- [EA-9.5.4 Meme Network Amplification](@/kompendium/techniques/ea-9-5-4-meme-network-amplification.md)
+## Odborný kontext
 
-**Doktrinální a infrastructure odkazy:**
+Paul a Matthews (2016) popsali propagandistický model, který nespoléhá na přesvědčivost jednotlivého sdělení, ale na množství, rychlost, opakování a lhostejnost k pravdě; cílem není přesvědčit, ale zahltit a zmást. Potlačení protimemů tuto logiku přenáší do memetické kultury: místo vyvrácení přichází záplava parodií, která původní sdělení rozmělní. Wardle a Derakhshan (2017) v rámci „informační poruchy“ rozlišují dezinformaci, misinformaci a *malinformaci* – pravdivé informace použité ke škodě, například zveřejnění osobních údajů; potlačování protimemů často kombinuje všechny tři.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+Phillips (2015) ukázala, že výsměch a parodie jsou v trollí kultuře hlavními nástroji kontroly – kdo se ohradí, stává se terčem. Marwick a Lewis (2017) doložili, že koordinované obtěžování kritiků je vědomě používanou strategií skupin, které chtějí ovládnout online prostor. Pro obranu z toho plyne, že ochrana tvůrců a archivace původního obsahu jsou stejně důležité jako jeho věcné hájení.
 
----
+## Souvislosti pro praxi
 
-## Connect & Contribute
+Školy, univerzity a redakce, jejichž členové se stanou terčem potlačovací kampaně, by měly mít připravený postup: rychlou podporu dotčené osoby, ochranu jejích osobních údajů, jednotnou komunikaci instituce a kontakt na platformy. Pro samotné tvůrce je užitečné vědět, že vlna parodií je často dílem malé skupiny a nevypovídá o reakci většiny, a že nejhorší fáze kampaně obvykle trvá dny, ne měsíce.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+Pro platformy je důležité, aby satirický a kritický obsah nemizel automaticky po hromadném nahlášení a aby odvolání bylo rychlé u obsahu s veřejným zájmem.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+## Literatura
 
----
+- Marwick, A., & Lewis, R. (2017). *Media Manipulation and Disinformation Online*. Data & Society.
+- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ [Propaganda](@/glossary/propaganda.md) Model*. RAND Corporation.
+- Phillips, W. (2015). *This Is Why We Can't Have Nice Things*. MIT Press.
+- Wardle, C., & Derakhshan, H. (2017). *Information Disorder: Toward an Interdisciplinary Framework for Research and Policymaking*. Council of Europe.
 
-*EA-9.5.5 | Subkategorie 9.5 Memetická válka | Prismatic Compendium | Version 18.4.0*
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.5.6 Frame War Coordination](@/kompendium/techniques/ea-9-5-6-frame-war-coordination.md) – boj o rámec, jehož součástí je potlačení.
+- [EA-9.5.8 Meme Context Collapse](@/kompendium/techniques/ea-9-5-8-meme-context-collapse.md) – ztráta kontextu jako způsob rozmělnění.
+- [EA-9.3.8 Mass Reporting Coordination](@/kompendium/techniques/ea-9-3-8-mass-reporting-coordination.md) – nahlašování jako nástroj.
+
+**Kapitola 2 a pojmy**
+
+- [EA-2.3.8 Doxxing Epistemický](@/kompendium/techniques/ea-2-3-8-doxxing-epistemicky.md) – útok na autora.
+- [Firehose of falsehood](@/glossary/firehose-of-falsehood.md) – zahlcení místo vyvrácení.
+- [Doxing](@/glossary/doxing.md) – zveřejnění osobních údajů.
+
+**Obrana**
+
+- [Sebe-obrana: Mobilizace podpory](@/kompendium/self-defense-guides/30-support-mobilization.md) – podpora při kampani.
+- [Sebe-obrana: Odolnost vůči studu](@/kompendium/self-defense-guides/18-shame-resilience.md) – zvládnutí ponížení.

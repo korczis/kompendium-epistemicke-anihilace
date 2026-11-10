@@ -1,14 +1,14 @@
 +++
 title = "EA-9.1.1 LLM Hallucination Laundering"
-description = "Současná digitální EA — llm hallucination laundering."
+description = "Vzorec, v němž se smyšlené tvrzení jazykového modelu („halucinace“) šíří přes snímky obrazovky a citace, až působí jako doložený fakt. Znaky, odlišení, obrana."
 weight = 911
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-8-3-8-trauma-recovery-literature", "ea-8-3-9-cult-studies-literature", "ea-9-1-10-llm-recursion-loop", "ea-9-1-2-prompt-injection-EA"]
+related_terms = ["ea-9-1-8-llm-confabulation-amplification", "ea-9-1-10-llm-recursion-loop", "ea-9-1-6-llm-source-attribution-bypass"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.1.1"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,84 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Strategická exploatace LLM halucinací pro tvorbu zdánlivě věrohodných, avšak fabrikovaných tvrzení, která jsou následně 'prána' přes citace, screenshoty a sekundární zdroje.
+*Hallucination laundering* („praní halucinací“) je vzorec, v němž tvrzení vygenerované velkým jazykovým modelem (LLM) bez opory ve zdrojích projde řetězem přenosů – snímek obrazovky, citace v článku, odkaz v diskusi, další dotaz na model – a na jeho konci vystupuje jako ověřený fakt. Klíčové je, že původ v halucinaci se při každém přenosu ztrácí a přibývá zdánlivé autority.
 
-V kontextu Prismatic doktríny je LLM Hallucination Laundering klasifikováno jako **L1-L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.1.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník opakovaně dotazuje LLM na okrajová témata, dokud model nevyrobí přesvědčivou halucinaci. Tu pak zachytí (screenshot/copy-paste), publikuje jako 'zjištění AI' a další LLM ji při dalších dotazech zpětně cituje — vzniká rekurzivní laundering smyčka.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Vzorec spojuje dvě slabiny. První je vlastnost modelu: LLM generuje plynulý a sebejistý text i tam, kde nemá data, a vymyšlená jména, čísla nebo citace nevypadají jinak než pravdivé. Druhá je sociální: lidé přebírají výstup modelu jako „zjištění AI“ a přestávají se ptát po primárním zdroji. Jakmile tvrzení vyjde na veřejnosti, může se vrátit do korpusů, z nichž další modely čerpají (viz [EA-9.1.10 LLM Recursion Loop](@/kompendium/techniques/ea-9-1-10-llm-recursion-loop.md)), a z původní chyby se stane kruhově potvrzovaný „konsenzus“. Strukturálně jde o variantu [cirkulárního argumentu](@/glossary/cirkularni-argumentace.md), v níž je kruh skrytý za řetězem prostředníků.
 
 ## 4. Detekční markery
 
-Hallucination fingerprinting (specifické patterns vymyšlených citací), zpětné dohledávání primárních zdrojů, detekce nemožných URL/DOI, cross-reference s validovanými databázemi.
+- Tvrzení se odvolává na „AI“, „ChatGPT říká“ nebo snímek konverzace, ne na primární pramen.
+- Citace, DOI nebo URL neexistují, vedou jinam, nebo autor existuje, ale dílo s daným názvem ne.
+- Řetězec odkazů se při zpětném dohledávání uzavírá do kruhu a končí opět u výstupu modelu.
+- Podrobnosti jsou nečekaně konkrétní (přesná čísla, data, jména), ale v oboru o nich nikdo neví.
+- Zpochybnění se odbývá poukazem na technologii („model to přece ví“), ne na důkaz.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Poctivý omyl při použití AI*: uživatel chybu po upozornění uzná a opraví; u laundering vzorce se chyba dál šíří i po vyvrácení. *Klasická dezinformace*: lidský autor tvrzení vymyslí záměrně; zde vzniká bez autora a „autoritu“ mu propůjčuje technologie. *[EA-9.1.6 Source Attribution Bypass](@/kompendium/techniques/ea-9-1-6-llm-source-attribution-bypass.md)*: tam jde o vymyšlenou citaci k jinak existující tezi, zde o vymyšlenou tezi samotnou.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+U jednotlivce vzorec oslabuje [kalibraci důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md): když se ukáže, že „ověřený fakt“ byl výmysl, často nenásleduje opatrnost, ale paušální nedůvěra ke všem zdrojům. V odborném prostředí (posudky, výzkum, žurnalistika) vede k nepoužitelným podkladům a k reputační škodě. Právně se vzorec obvykle posuzuje až podle následku – jako šíření nepravdivého údaje, poškození pověsti nebo vadné odborné dílo; samotné použití modelu protiprávní není.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Jednotlivec*: každé tvrzení z modelu považovat za hypotézu, dokud nenajde primární zdroj; ověřit existenci citace dřív než její obsah ([Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md)). *Redakce, výzkum, soudní znalci*: zákaz citovat výstup modelu jako pramen, povinnost uvést, kde byl model použit, a evidence ověření každého údaje. *Platformy a provozovatelé modelů*: označování generovaného obsahu, viditelné upozornění na nejistotu a zpětná vazba na opakovaně šířené smyšlenky. *Po zjištění*: opravu publikovat tam, kde se tvrzení šířilo, a pojmenovat mechanismus, aby se z chyby nestala obecná nedůvěra.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+V diskusní skupině rodičů se objeví snímek konverzace s chatbotem, podle něhož „studie univerzity z roku 2019“ prokázala škodlivost běžné látky v potravinách. Snímek převezme regionální web, článek pak cituje blog s odkazem na web a po několika týdnech odpovídá na dotaz jiný model s odkazem na blog. Dohledání ukáže, že studie s uvedeným názvem neexistuje a citovaný autor se tématem nikdy nezabýval. Oprava se ale dostane k malé části čtenářů; zbytek si pamatuje „prokázaný fakt“.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Ne každé chybné tvrzení s původem v AI je laundering: rozhodující je, zda se šíří dál i po vyvrácení a zda se jeho původ zakrývá. Otevřenou otázkou je, jak rychle se smyšlenky dostávají do trénovacích dat dalších modelů a jak účinné je označování generovaného obsahu – spolehlivá data o tom zatím chybějí.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+## 10. Pohled zevnitř a práce s postiženým
 
-**Layer 4 — Accountability:**
+Člověk, který smyšlený údaj převzal a šířil, se po odhalení často cítí zahanbeně a vysmátý. Typickou reakcí je obrana („všichni to psali“) nebo naopak přepad do nedůvěry ke všemu. Profesionál – učitel, terapeut, redaktor – pomůže nejvíc, když oddělí chybu od osoby, pojmenuje mechanismus a nabídne jednoduchý návyk ověřování místo poučování.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+## Odborný kontext
 
-## 6. Vztah k jiným EA
+Výzkum zpracování přirozeného jazyka označuje plynulý, ale věcně nepodložený výstup modelu jako halucinaci a rozlišuje halucinace, které odporují vstupu, od těch, které si vymýšlejí informace mimo něj (Ji et al. 2023). Pro tuto techniku je podstatná druhá skupina: model generuje jména, čísla a citace podle toho, jak „obvykle vypadají“, a forma tak přestává být vodítkem k pravdivosti. Bender et al. (2021) upozorňují, že jazykové modely reprodukují statistické vzorce textu bez vazby na význam a svět, a varují právě před tím, že lidé jejich výstupu přisuzují záměr a znalost, které model nemá.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Sociální část vzorce dobře popisuje výzkum šíření dezinformací. Vosoughi, Roy a Aral (2018) na rozsáhlém vzorku ukázali, že nepravdivé zprávy se na sociální síti šíří rychleji a dál než pravdivé, převážně díky lidem, nikoli botům; novost a emoční náboj sdělení hrají větší roli než jeho původ. Opakované setkání s tvrzením navíc zvyšuje jeho přesvědčivost i u lidí, kteří by správnou odpověď znali – tzv. efekt iluzorní pravdy (Fazio et al. 2015). Praní halucinace tedy nepotřebuje přesvědčit nikoho naráz; stačí, že se tvrzení opakuje v různých podobách.
 
-- **EA-1.* (Vědomá kontrola informací)** — LLM Hallucination Laundering představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Pro obranu z toho plyne, že vyvracet jednotlivé smyšlenky je méně účinné než budovat návyk ověřování u zdroje. Wineburg a McGrew (2019) ukázali na profesionálních ověřovatelích faktů, že ti nečtou podezřelý zdroj do hloubky, ale okamžitě opouštějí stránku a hledají, co o zdroji říkají jiní („laterální čtení“). Tento postup je přímo použitelný i na výstupy jazykových modelů.
 
-## 7. Vztah k Prismatic platformě
+## Souvislosti pro praxi
 
-Prismatic Platform implementuje detekci a neutralizaci LLM Hallucination Laundering přes následující komponenty:
+Pro redakce, výzkumné týmy a soudní znalce je užitečné rozlišovat dvě otázky, které se v praxi slévají: zda tvrzení pochází z výstupu modelu, a zda je pravdivé. První otázka se týká procesu a lze ji řešit pravidly (evidence použití nástrojů, zákaz citovat model jako pramen), druhá se týká obsahu a vyžaduje ověření u primárního zdroje. Kde se tyto otázky smíchají, vzniká buď nekritické přejímání („AI to našla“), nebo paušální odmítání všeho, s čím model pracoval – obojí je chybou.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## Literatura
 
-**Doctrine compliance:**
+- Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? *Proceedings of FAccT 2021*.
+- Fazio, L. K., Brashier, N. M., Payne, B. K., & Marsh, E. J. (2015). Knowledge does not protect against illusory truth. *Journal of Experimental Psychology: General*.
+- Ji, Z. et al. (2023). Survey of hallucination in natural language generation. *ACM Computing Surveys*.
+- Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science*.
+- Wineburg, S., & McGrew, S. (2019). Lateral reading and the nature of expertise. *Teachers College Record*.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## Související
 
-## 8. Cross-linky
+**Sourozenecké techniky**
 
-**Související EA techniky:**
+- [EA-9.1.8 LLM Confabulation Amplification](@/kompendium/techniques/ea-9-1-8-llm-confabulation-amplification.md) – shoda více modelů vydávaná za konsenzus.
+- [EA-9.1.10 LLM Recursion Loop](@/kompendium/techniques/ea-9-1-10-llm-recursion-loop.md) – návrat halucinací do trénovacích dat.
+- [EA-9.1.6 LLM Source Attribution Bypass](@/kompendium/techniques/ea-9-1-6-llm-source-attribution-bypass.md) – vymyšlené zdroje k tezi.
 
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.1.3 Jailbreak Cascade](@/kompendium/techniques/ea-9-1-3-jailbreak-cascade.md)
-- [EA-9.1.4 RAG Context Poisoning](@/kompendium/techniques/ea-9-1-4-rag-context-poisoning.md)
-- [EA-9.1.5 LLM Narrative Injection](@/kompendium/techniques/ea-9-1-5-llm-narrative-injection.md)
+**Detekce**
 
-**Doktrinální a infrastructure odkazy:**
+- [Detekční signatura: Cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md) – jak poznat kruh odkazů.
+- [Detekční signatura: Reputation laundering](@/kompendium/detection-signatures/23-network-reputation-laundering.md) – přenos autority přes prostředníky.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+**Obrana**
 
----
+- [Sebe-obrana: Detekce AI obsahu](@/kompendium/self-defense-guides/40-ai-content-detection.md) – praktické znaky generovaného textu.
+- [Sebe-obrana: Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – ověření nezávislými prameny.
 
-## Connect & Contribute
+**Kontext**
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
-
----
-
-*EA-9.1.1 | Subkategorie 9.1 LLM-mediated EA | Prismatic Compendium | Version 18.4.0*
+- [EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) – kapitola, do níž kategorie 9 patří.

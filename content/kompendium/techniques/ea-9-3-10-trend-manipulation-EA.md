@@ -1,14 +1,14 @@
 +++
 title = "EA-9.3.10 Trend Manipulation EA"
-description = "Současná digitální EA — trend manipulation ea."
+description = "Vzorec uměle vyrobeného trendu, kdy koordinované účty (lidé i boti) v krátkém okně zesílí téma tak, že ho algoritmus označí za „trendující“. Znaky, odlišení, obrana."
 weight = 940
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-2-9-AI-document-forgery", "ea-9-3-1-algorithmic-amplification", "ea-9-3-2-engagement-optimization-EA", "ea-9-3-3-feed-personalization-bias"]
+related_terms = ["ea-9-3-1-algorithmic-amplification", "ea-9-3-9-tag-hijacking-EA", "ea-9-3-7-platform-coordinated-attack", "ea-9-4-1-bot-amplification-coordinated"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.3.10"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,110 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Umělé vyvolávání trendů přes koordinované posting + bot-amplifikaci — vznik 'organického' trendu, který je ve skutečnosti řízený.
+*Trend manipulation* je umělé vyvolání trendu: koordinovaná skupina účtů – skutečných i automatizovaných – publikuje a zesiluje obsah k jednomu tématu v krátkém časovém okně tak, aby ho systém platformy označil za „trendující“. Jakmile se téma objeví v přehledech trendů, přidají se skuteční uživatelé a média, a z vyrobeného trendu se stane skutečná pozornost.
 
-V kontextu Prismatic doktríny je Trend Manipulation EA klasifikováno jako **L1-L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.3.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník připraví content kit, koordinuje N účtů (real + bot) k posting v krátkém okně; trend-detection algoritmus označí jako 'trending'; vzniká skutečný organický pickup.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Přehledy trendů slouží uživatelům jako mapa toho, „o čem se právě mluví“, a médiím jako zdroj témat. Algoritmus trendů reaguje na rychlost nárůstu, ne na počet nezávislých lidí ani na hodnotu tématu. Koordinace tento rozdíl využívá: dostatečně rychlý start stačí. Po zařazení do trendů získá téma organický dosah a původní koordinace se v něm ztratí. Epistemický účinek je dvojí – téma získá zdání významnosti a jiná témata jsou vytlačena. Vzorec stojí na [algoritmické amplifikaci](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md) a často využívá [bot amplification](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md).
 
 ## 4. Detekční markery
 
-Trend velocity forensics, account-network analysis, bot-vs-human ratio, geographic origin clustering.
+- Téma vystoupá do trendů bez odpovídající události nebo zprávy.
+- V prvních minutách přispívá úzký okruh účtů s podobnými vzorci aktivity.
+- Příspěvky používají shodné formulace, obrázky a hashtagy.
+- Neobvyklé geografické rozložení – trend v zemi, kde téma nemá kontext.
+- Média o trendu informují dřív, než se k němu přidají skuteční uživatelé ve větším počtu.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Organický trend*: roste z různých komunit, často po události, s rozmanitými příspěvky. *Přiznaná kampaň*: organizace vyzve k sdílení pod vlastním jménem. *[EA-9.3.9 Tag Hijacking EA](@/kompendium/techniques/ea-9-3-9-tag-hijacking-EA.md)*: zneužití existujícího trendu, ne výroba nového.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Vyrobené trendy ovlivňují agendu médií a veřejné debaty, mohou vytlačit důležitá témata a vytvořit dojem masové podpory. V politice slouží k demonstraci síly, v obchodě k marketingu bez označení. Rámcem jsou pravidla platforem proti manipulaci a neautentickému chování a pravidla pro skrytou reklamu; u velkých platforem i povinnosti posuzovat rizika podle DSA.
 
-## 5. Neutralizační strategie
+Pro firmy a instituce může být vyrobený trend krizí, na niž je třeba reagovat, i když za ní stojí jen malá skupina účtů. Připravený postup, který nejdřív ověří původ trendu a teprve potom volí reakci, chrání před přehnanými kroky, jako je odvolání akce nebo omluva za neexistující pochybení. Pro politiky a veřejné činitele platí totéž: trend proti nim neznamená, že se proti nim obrátila veřejnost, a jeho analýza je prvním krokem před jakoukoli reakcí. Pro média je vyrobený trend testem redakčních standardů – kdo o něm informuje bez ověření, stává se součástí kampaně.
 
-**Layer 1 — Detection:**
+## 7. Obrana a zotavení
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+*Uživatel*: trend není důkaz významnosti; ptát se, kdo a proč o tématu mluví. *Novináři*: neinformovat o trendech bez analýzy jejich původu; „trenduje na sítích“ není zpráva. *Platformy*: brát v úvahu nezávislost přispěvatelů, ne jen rychlost; zveřejňovat zásahy proti manipulaci. *Výzkum*: sledovat a zveřejňovat vyrobené trendy, aby veřejnost poznala vzorec.
 
-**Layer 2 — Containment:**
+## 8. Příklad (anonymizovaný kompozit)
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+Pozdě večer se do přehledu trendů dostane heslo vyzývající k odstoupení ministryně. Během hodiny o „masové vlně nespokojenosti“ informuje zpravodajský web. Analytik, který si data prohlédne, zjistí, že většina příspěvků v první půlhodině pochází od několika stovek účtů vytvořených v posledních týdnech, které sdílejí stejný obrázek. Druhý den o trendu informují média znovu – tentokrát jako o případu manipulace.
 
-**Layer 3 — Resilience:**
+## 9. Meze a otevřené otázky
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Rychlá, koordinovaná reakce skutečných lidí (např. fanouškovských komunit) může vypadat podobně jako manipulace; rozhodují znaky neautenticity účtů. Otevřenou otázkou je, zda by přehledy trendů neměly zohledňovat nezávislost zdrojů, a jak to udělat transparentně.
 
-**Layer 4 — Accountability:**
+Otevřenou otázkou je i to, jak by měly platformy informovat o trendech, u nichž zjistily manipulaci: tiché odstranění z přehledu chrání před dalším zesílením, ale neučí veřejnost vzorec rozpoznat. Kniha se kloní k transparentnosti, ale připouští, že každé zveřejnění manipulace jí může dodat další pozornost.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Otevřenou otázkou zůstává i to, jak vysvětlovat vyrobené trendy veřejnosti bez dalšího zesílení.
 
-## 6. Vztah k jiným EA
+## 10. Pohled zevnitř a práce s postiženým
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Osoba, proti níž trend směřuje, zažívá podobně jako u jiných koordinovaných kampaní pocit masového odmítnutí. Pomáhá věcně ukázat strukturu trendu a jeho původ. Pro uživatele, kteří se k trendu připojili, může být zjištění manipulace nepříjemné; užitečnější než výsměch je vysvětlení, jak trendy vznikají.
 
-- **EA-1.* (Vědomá kontrola informací)** — Trend Manipulation EA představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Pro lidi, kteří se ke kampani přidali v dobré víře, je důležité vědět, že jejich názor může být legitimní, i když trend, k němuž se připojili, byl vyroben; oddělit vlastní postoj od manipulace, která ho využila, jim pomůže zůstat v debatě bez pocitu, že byli „jen loutkami“.
 
-## 7. Vztah k Prismatic platformě
+## 11. Vztah k ostatním kategoriím EA
 
-Prismatic Platform implementuje detekci a neutralizaci Trend Manipulation EA přes následující komponenty:
+Vyrobený trend je platformní podobou [EA-2.1.9 Pseudo-konsenzus vytvoření](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) a palivem pro [EA-2.3.5 Pseudo-kontroverze Amplifikace](@/kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md). Synchronizaci napříč platformami popisuje [EA-9.3.7](@/kompendium/techniques/ea-9-3-7-platform-coordinated-attack.md).
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 12. Postup při posuzování trendu
 
-**Doctrine compliance:**
+1. **Zjistit spouštěč** – událost, zprávu, výrok.
+2. **Prověřit první přispěvatele** – stáří účtů, aktivitu, propojení.
+3. **Porovnat obsah** příspěvků v první fázi.
+4. **Posoudit geografii** a časování.
+5. **Informovat o trendu** jen s analýzou jeho původu.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 13. Prevence a odolnost
 
-## 8. Cross-linky
+Prevence stojí na publiku, které ví, že trend není důkaz významnosti, na médiích, která trendy nepřebírají bez analýzy, a na platformách, které při určování trendů zohledňují nezávislost přispěvatelů.
 
-**Související EA techniky:**
+## 14. Otázky pro rozhovor a šetření
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md)
-- [EA-9.3.4 Recommendation Radicalization](@/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md)
+- Co trend spustilo a kdy?
+- Kdo přispíval v první půlhodině?
+- Liší se příspěvky obsahem, nebo opakují šablonu?
+- Proč o trendu informují média?
+- Kdo z trendu těží?
 
-**Doktrinální a infrastructure odkazy:**
+## Odborný kontext
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+Woolley a Howard (2018) doložili, že politické kampaně a státní aktéři v řadě zemí používají automatizované účty a koordinované skupiny k ovlivňování toho, co se na sociálních sítích jeví jako populární. Ferrara et al. (2016) popsali, jak sociální boti dokážou ovlivnit vnímání popularity a jak obtížné je je odlišit od lidí. Výroba trendu je nejviditelnějším výsledkem této činnosti, protože přehledy trendů slouží uživatelům i médiím jako ukazatel toho, „o čem se mluví“.
 
----
+Cialdini (2001) vysvětluje sílu sociálního důkazu: v nejistotě se řídíme tím, co dělají druzí. Trend je sociálním důkazem v nejčistší podobě – číslo a pořadí bez obsahu. Benkler, Faris a Roberts (2018) ukázali, že zpravodajská média přebírají témata ze sociálních sítí a tím jim dodávají legitimitu, kterou samy nemají.
 
-## Connect & Contribute
+## Souvislosti pro praxi
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+Pro redakce je dobrou praxí neinformovat o tom, že něco „trenduje“, bez ověření, kdo trend vyvolal. Pro výzkumníky je užitečné zveřejňovat analýzy vyrobených trendů, aby veřejnost poznala vzorec.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+## Literatura
 
----
+- Benkler, Y., Faris, R., & Roberts, H. (2018). *Network [Propaganda](@/glossary/propaganda.md)*. Oxford University Press.
+- Cialdini, R. B. (2001). *Influence: Science and Practice* (4. vyd.). Allyn & Bacon.
+- Ferrara, E., Varol, O., Davis, C., Menczer, F., & Flammini, A. (2016). The rise of social bots. *Communications of the ACM*.
+- Woolley, S. C., & Howard, P. N. (Eds.) (2018). *Computational Propaganda*. Oxford University Press.
 
-*EA-9.3.10 | Subkategorie 9.3 Sociální platformy | Prismatic Compendium | Version 18.4.0*
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md) – infrastruktura zesílení.
+- [EA-9.3.9 Tag Hijacking EA](@/kompendium/techniques/ea-9-3-9-tag-hijacking-EA.md) – zneužití existujícího trendu.
+- [EA-9.3.7 Platform Coordinated Attack](@/kompendium/techniques/ea-9-3-7-platform-coordinated-attack.md) – synchronizace napříč platformami.
+- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md) – boti jako startovací motor trendu.
+
+**Detekce**
+
+- [Detekční signatura: Bot coordination](@/kompendium/detection-signatures/20-network-bot-coordination.md) – znaky koordinace účtů.
+- [Detekční signatura: Asymetrie amplifikace](@/kompendium/detection-signatures/19-network-amplification-asymmetry.md) – dosah bez opory.
+
+**Obrana**
+
+- [Sebe-obrana: Rozpočet pozornosti](@/kompendium/self-defense-guides/34-attention-budget.md) – trend nemusí dostat mou pozornost.
+- [Programy mediální gramotnosti](@/kompendium/population-health/15-media-literacy-program.md) – vysvětlování, jak trendy vznikají.

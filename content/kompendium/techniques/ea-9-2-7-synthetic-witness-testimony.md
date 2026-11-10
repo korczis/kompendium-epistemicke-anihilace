@@ -1,14 +1,14 @@
 +++
 title = "EA-9.2.7 Synthetic Witness Testimony"
-description = "Současná digitální EA — synthetic witness testimony."
+description = "Vzorec, v němž generovaný text, hlas nebo video vystupuje jako výpověď očitého svědka a slouží jako „důkaz“ v mediálním či právním sporu. Znaky, odlišení, obrana."
 weight = 927
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-2-5-video-manipulation-EA", "ea-9-2-6-AI-news-cascade", "ea-9-2-8-AI-eyewitness-fabrication", "ea-9-2-9-AI-document-forgery"]
+related_terms = ["ea-9-2-8-AI-eyewitness-fabrication", "ea-9-2-2-voice-cloning-EA", "ea-9-2-10-AI-personhood-claim"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.2.7"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,101 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Fabrikace svědeckých výpovědí pomocí AI — text, audio, video — prezentovaných jako autentický záznam očitého svědka události.
+*Synthetic witness testimony* je fabrikovaná svědecká výpověď – psaný příspěvek, hlasová zpráva nebo video „očitého svědka“ – vytvořená generativními nástroji a prezentovaná jako autentické svědectví o události. Výpověď bývá bohatá na detaily konzistentní s určitým narativem a cílí na publikum, které svědectví přisuzuje zvláštní váhu.
 
-V kontextu Prismatic doktríny je Synthetic Witness Testimony klasifikováno jako **L1-L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.2.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník generuje syntetické 'svědectví' s detaily konzistentními s narativem; publikuje na platformách jako TikTok/X; v právních/PR krizích slouží jako rétorický důkaz.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Svědectví má v lidském úsudku výsadní postavení: konkrétní člověk, který „byl u toho“, přesvědčuje víc než statistika nebo oficiální prohlášení. Syntetická výpověď tento účinek přebírá bez existence svědka. Často se objevuje v krizích (nehoda, zásah policie, konflikt), kdy je poptávka po informacích vysoká a ověření pomalé. Je-li výpověď později vyvrácena, může poškodit i skutečné svědky, jejichž výpovědi se pak paušálně zpochybňují. Souvisí s [EA-9.2.8 AI Eyewitness Fabrication](@/kompendium/techniques/ea-9-2-8-AI-eyewitness-fabrication.md), kde se fabrikuje sama událost.
 
 ## 4. Detekční markery
 
-Witness verification protocols, biometric authentication, forensic content analysis, chain-of-custody dokumentace.
+- „Svědek“ nemá ověřitelnou identitu, historii účtu ani vazbu k místu.
+- Výpověď obsahuje detaily, které odpovídají narativu, ale ne fyzickým okolnostem (počasí, místo, čas).
+- Shodné formulace u více „svědků“; výpovědi se objevují současně na různých platformách.
+- Svědek se nedá kontaktovat, odmítá rozhovor nebo zmizí po rozšíření výpovědi.
+- Hlas nebo obraz vykazuje znaky syntézy; záznam nemá původní soubor.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Nepřesná vzpomínka skutečného svědka*: svědek existuje, výpověď se liší v detailech, ale je ochoten ji upřesnit. *Anonymní svědek z obavy*: legitimní; novináři identitu ověřují důvěrně, i když ji nezveřejní. *[EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)*: napodobený hlas skutečné osoby; zde jde o smyšlenou osobu.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Syntetické svědectví může zkreslit veřejné hodnocení události, vyvolat nenávist proti konkrétním lidem a ovlivnit vyšetřování. V řízení před soudem platí pravidla dokazování a výslech svědka, ale mediální proces běží rychleji. Pro vyšetřovatele a soudy vzorec znamená zvýšené nároky na [forenzní rozhovor](@/glossary/forensic-interview.md) a ověření identity svědků.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Čtenář*: ptát se, kdo svědek je a zda ho někdo nezávisle ověřil; počkat na ověřené informace. *Redakce*: svědky ověřovat osobně nebo přes důvěryhodné prostředníky; uvádět míru ověření. *Vyšetřovatelé*: dokumentovat původ každé digitální výpovědi a pracovat s originály. *Skuteční svědci*: podporovat je a chránit, aby je vyvrácené podvrhy neodradily od výpovědi ([Ochrana svědků faktu](@/kompendium/forensic-legal/22-fact-witness-protection.md)).
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Po nehodě autobusu se na sociálních sítích objeví hlasová zpráva „spolujezdce“, který popisuje, že řidič byl opilý. Zpráva se šíří rychleji než první policejní informace. Novinářka zjistí, že účet, který zprávu zveřejnil, vznikl ten den a jméno „spolujezdce“ není na seznamu cestujících. Výsledky vyšetřování ukážou technickou závadu. Řidič a jeho rodina mezitím čelí výhrůžkám.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Ne každý anonymní svědek je smyšlený; přílišná podezíravost může umlčet skutečné svědky, zvlášť ze zranitelných skupin. Rovnováha mezi ověřováním a ochranou svědků je otevřenou otázkou mediální etiky.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Výzkum spolehlivosti digitálních svědectví je teprve v začátcích a nabízí spíše případové studie než srovnávací data. Kniha proto neuvádí, jak často jsou svědectví v krizích smyšlená, a zdůrazňuje postup ověření, který je užitečný bez ohledu na četnost. Otevřené zůstává i to, jak zacházet se svědectvími z oblastí, kde je ověření nemožné, například z uzavřených zemí nebo válečných zón.
 
-**Layer 4 — Accountability:**
+Další otázkou je, jak mají redakce pracovat se svědectvími, která nelze ověřit, ale jejichž nezveřejnění by mohlo umlčet skutečné oběti; kniha doporučuje zveřejňovat jen s jasným označením míry ověření a s ochranou identity.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+## 10. Pohled zevnitř a práce s postiženým
 
-## 6. Vztah k jiným EA
+Osoby obviněné syntetickým svědectvím zažívají veřejné odsouzení bez možnosti konfrontace; je to blízké zkušenosti s [mediálním lynčem](@/kompendium/case-studies/04-medialni-mob-attack.md). Kromě právní pomoci potřebují podporu při zvládání izolace. Skuteční svědci, jejichž výpovědi byly zpochybněny kvůli podvrhům, mohou ztratit ochotu svědčit – i jim patří pozornost.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Rodiny obviněných potřebují podporu i ochranu soukromí, protože nenávist se často přenáší i na ně; pomáhá, když místní autority veřejně odmítnou neověřená obvinění.
 
-- **EA-1.* (Vědomá kontrola informací)** — Synthetic Witness Testimony představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Pro komunitu, v níž se událost stala, je důležitý prostor pro vlastní svědectví lidí, kteří u ní skutečně byli.
 
-## 7. Vztah k Prismatic platformě
+## 11. Vztah k ostatním kategoriím EA
 
-Prismatic Platform implementuje detekci a neutralizaci Synthetic Witness Testimony přes následující komponenty:
+V mediální delegitimizaci kapitoly 2 působí syntetické svědectví jako palivo pro [EA-2.3.4 Mob Coordination](@/kompendium/techniques/ea-2-3-4-mob-coordination.md): dodává „důkaz“, kolem něhož se organizuje veřejné odsouzení. Z hlediska forenzní praxe navazuje na kapitolu o [hodnocení věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md), která rozebírá, jak posuzovat výpověď bez zkratek.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 12. Postup při ověřování svědectví
 
-**Doctrine compliance:**
+1. **Kontaktovat svědka** přímo, nejlépe hlasem nebo osobně.
+2. **Ověřit vazbu k místu** a času – kde byl, co viděl, kdo ho zná.
+3. **Porovnat detaily** s fyzickými okolnostmi a s jinými výpověďmi.
+4. **Uvést míru ověření** při zveřejnění.
+5. **Chránit skutečné svědky** a jejich identitu, pokud si to přejí.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 13. Prevence a odolnost
 
-## 8. Cross-linky
+Prevence spočívá v trpělivosti publika – počkat na ověřené informace – a v profesionálních standardech redakcí, které svědectví ověřují a uvádějí míru ověření. Pro instituce je důležité rychle a pravdivě informovat, aby prázdný prostor nezaplnila smyšlená svědectví. Pro soudy a vyšetřovatele je prevencí důsledná dokumentace původu digitálních výpovědí. A pro společnost jako celek je důležité chránit skutečné svědky, aby obava z podvrhů nevedla k tomu, že jim nikdo neuvěří, a aby se nebáli vypovídat.
 
-**Související EA techniky:**
+## Odborný kontext
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.2.3 Synthetic Text Narrative](@/kompendium/techniques/ea-9-2-3-synthetic-text-narrative.md)
-- [EA-9.2.4 Image Manipulation EA](@/kompendium/techniques/ea-9-2-4-image-manipulation-EA.md)
+Psychologie svědecké výpovědi ukazuje, že lidé přisuzují svědectví velkou váhu, a to i tehdy, když je nespolehlivé; Wells a Olson (2003) ve shrnutí výzkumu popsali, že sebejistota svědka silně ovlivňuje, jak mu věří ostatní, ačkoli s přesností výpovědi souvisí jen omezeně. Syntetické svědectví tuto sílu přebírá bez existence svědka: má konkrétní hlas, detaily a emoční náboj, a proto přesvědčuje víc než statistika nebo úřední prohlášení.
 
-**Doktrinální a infrastructure odkazy:**
+Starbird, Arif a Wilson (2019) doložili, že v krizových situacích vznikají dezinformace jako kolektivní práce, do níž se zapojují i lidé v dobré víře; syntetické svědectví se v takovém prostředí rychle stává „ověřeným“, protože ho sdílejí a doplňují skuteční uživatelé. Fricker (2007) upozorňuje na druhou stranu problému: když se podvrhy rozšíří, roste nedůvěra ke skutečným svědkům, a ta nedopadá rovnoměrně – nejvíce postihuje ty, jejichž slovo už tak má menší váhu.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Souvislosti pro praxi
 
----
+Pro redakce je dobrou praxí uvádět míru ověření svědectví (ověřeno osobně, ověřeno přes prostředníka, neověřeno) a nepřebírat svědectví ze sítí bez kontaktu se svědkem. Pro policii a soudy je důležité dokumentovat původ každé digitální výpovědi a pracovat s originály. Pro organizace pomáhající obětem je užitečné připravit skutečné svědky na to, že jejich výpověď může být zpochybňována kvůli podvrhům, a podpořit je.
 
-## Connect & Contribute
+## Literatura
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Starbird, K., Arif, A., & Wilson, T. (2019). Disinformation as collaborative work. *Proceedings of the ACM on Human-Computer Interaction (CSCW)*.
+- Wells, G. L., & Olson, E. A. (2003). Eyewitness testimony. *Annual Review of Psychology*.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+## Související
 
----
+**Sourozenecké techniky**
 
-*EA-9.2.7 | Subkategorie 9.2 Generativní média | Prismatic Compendium | Version 18.4.0*
+- [EA-9.2.8 AI Eyewitness Fabrication](@/kompendium/techniques/ea-9-2-8-AI-eyewitness-fabrication.md) – smyšlená událost.
+- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md) – syntetický hlas.
+- [EA-9.2.10 AI Personhood Claim](@/kompendium/techniques/ea-9-2-10-AI-personhood-claim.md) – smyšlená osoba s celou identitou.
+
+**Právo a forenzika**
+
+- [Forenzní rozhovor](@/glossary/forensic-interview.md) – ověřování výpovědí.
+- [Ochrana svědků faktu](@/kompendium/forensic-legal/22-fact-witness-protection.md) – ochrana skutečných svědků.
+- [Potvrzení třetí stranou](@/kompendium/forensic-legal/37-third-party-corroboration.md) – nezávislé ověření výpovědi.
+
+**Případ a obrana**
+
+- [Mediální mob attack](@/kompendium/case-studies/04-medialni-mob-attack.md) – dopad veřejného odsouzení.
+- [Sebe-obrana: Časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md) – počkat na ověření.

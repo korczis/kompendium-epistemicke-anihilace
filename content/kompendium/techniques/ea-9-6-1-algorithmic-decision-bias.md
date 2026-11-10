@@ -1,14 +1,14 @@
 +++
 title = "EA-9.6.1 Algorithmic Decision Bias"
-description = "Současná digitální EA — algorithmic decision bias."
+description = "Vzorec systematické zaujatosti automatizovaných rozhodovacích systémů – skórování, kategorizace, filtrování –, která nerovnoměrně poškozuje určité skupiny lidí."
 weight = 961
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-5-8-meme-context-collapse", "ea-9-5-9-meme-radicalization-pipeline", "ea-9-6-10-AI-welfare-decision-EA", "ea-9-6-2-AI-judgment-laundering"]
+related_terms = ["ea-9-6-2-AI-judgment-laundering", "ea-9-6-5-AI-credit-scoring-bias", "ea-9-6-10-AI-welfare-decision-EA", "ea-9-6-8-AI-legal-decision-EA"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.6.1"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,106 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Systematické zaujatosti AI-rozhodovacích systémů (skoring, kategorizace, filtrování), které disproporčně poškozují specifické skupiny.
+*Algorithmic decision bias* je systematická zaujatost automatizovaných rozhodovacích systémů – skórovacích modelů, klasifikátorů, filtrů –, jejímž výsledkem je, že rozhodnutí o úvěru, nájmu, zaměstnání, péči nebo dávkách nerovnoměrně poškozují určité skupiny. Zaujatost nevyžaduje úmysl: vzniká z dat, z volby proměnných a z cíle, na který je systém optimalizován. Epistemicky jde o to, že nerovnost dostane podobu „objektivního“ výpočtu.
 
-V kontextu Prismatic doktríny je Algorithmic Decision Bias klasifikováno jako **L1-L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.6.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Trénovací data nesou historický bias; model ho replikuje a amplifikuje; rozhodnutí (úvěr, nájem, zaměstnání) vykazují systematické disparity podle chráněných charakteristik.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Modely se učí z historických dat, a tedy i z historických nerovností: kde byla určitá skupina dříve odmítána, model se naučí ji odmítat. I když chráněné vlastnosti (pohlaví, etnicita) v datech nejsou, mohou je zastoupit zástupné proměnné – bydliště, jméno, typ školy, vzorce chování. Cíl optimalizace (minimalizovat náklady, předpovědět „úspěch“) může sám nést hodnotová rozhodnutí. Výsledek se pak prezentuje jako číslo, které působí neutrálně a je obtížně napadnutelné. Kniha tento vzorec chápe jako epistemický: zaujatost se schovává za autoritu výpočtu a člověk, kterého se týká, nemá pojmy ani přístup, jak ji zpochybnit ([epistemická nespravedlnost](@/glossary/epistemicka-injustice.md)).
 
 ## 4. Detekční markery
 
-Disparate-impact testing, fairness metrics (demographic parity, equal opportunity), audit pipelines, ground-truth validation.
+- Výsledky systému se systematicky liší mezi skupinami, které by se v relevantních vlastnostech lišit neměly.
+- Systém používá proměnné, které úzce korelují s chráněnými vlastnostmi.
+- Postižený nedostane srozumitelné zdůvodnění rozhodnutí, jen skóre nebo kategorii.
+- Odvolání vyžaduje znalosti, které běžný člověk nemá, nebo neexistuje vůbec.
+- Provozovatel odmítá audit s odkazem na obchodní tajemství nebo na „objektivitu“ systému.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Legitimní rozlišování*: rozdíly ve výsledcích vyplývají z relevantních a ověřitelných důvodů a jsou vysvětlitelné. *Náhodná chyba*: jednotlivé chybné rozhodnutí bez systematického vzorce. *[EA-9.6.2 AI Judgment Laundering](@/kompendium/techniques/ea-9-6-2-AI-judgment-laundering.md)*: vědomé použití systému k zakrytí lidského rozhodnutí; zaujatost může být i neúmyslná.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Zaujaté systémy mohou ve velkém měřítku reprodukovat diskriminaci a zároveň ji činit méně viditelnou. V EU se uplatní obecné nařízení o ochraně osobních údajů (GDPR, zejména čl. 22 o automatizovaném individuálním rozhodování), antidiskriminační právo a akt o umělé inteligenci (nařízení (EU) 2024/1689), který řadí systémy pro úvěrové hodnocení, zaměstnání, migraci, justici a přístup k veřejným službám mezi vysoce rizikové s povinnostmi řízení rizik, dokumentace a lidského dohledu.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Postižený*: vyžádat si vysvětlení rozhodnutí a lidský přezkum; uplatnit práva podle GDPR; obrátit se na ombudsmana nebo poradnu. *Provozovatelé*: testovat systémy na rozdíly mezi skupinami před nasazením i za provozu; dokumentovat data a volby. *Regulátoři a auditoři*: vyžadovat přístup k datům a modelům pro nezávislé audity. *Novináři a výzkumníci*: zkoumat výsledky systémů a zveřejňovat vzorce.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Městská bytová správa nasadí systém, který třídí žadatele o obecní byt podle „rizika neplacení“. Po roce si sociální pracovnice všimnou, že žadatelé z jedné čtvrti dostávají téměř vždy nízké pořadí. Audit ukáže, že model používá adresu a historii stěhování, které v praxi odrážejí chudobu a etnické složení čtvrti. Systém je pozastaven a pořadí přezkoumáno lidmi.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Neexistuje jediná definice „spravedlivého“ algoritmu; různá matematická kritéria spravedlnosti si mohou odporovat. Volba mezi nimi je hodnotové rozhodnutí, které nemá dělat systém sám. Otevřenou otázkou je, jak zapojit dotčené skupiny do rozhodování o tom, jaká kritéria použít.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+## 10. Pohled zevnitř a práce s postiženým
 
-**Layer 4 — Accountability:**
+Člověk odmítnutý systémem často neví, proč, a hledá chybu v sobě. Pocit, že „stroj rozhodl“, vede k rezignaci. Poradce nebo sociální pracovník pomáhá, když vysvětlí, že rozhodnutí lze napadnout, a doprovodí člověka procesem. U opakovaně odmítaných lidí se zkušenost sčítá s dalšími zkušenostmi diskriminace.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+## 11. Vztah k ostatním kategoriím EA
 
-## 6. Vztah k jiným EA
+Vzorec je základem celé subkategorie 9.6: [EA-9.6.5](@/kompendium/techniques/ea-9-6-5-AI-credit-scoring-bias.md) (úvěry), [EA-9.6.6](@/kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md) (nábor), [EA-9.6.7](@/kompendium/techniques/ea-9-6-7-AI-medical-decision-EA.md) (medicína), [EA-9.6.8](@/kompendium/techniques/ea-9-6-8-AI-legal-decision-EA.md) (justice), [EA-9.6.9](@/kompendium/techniques/ea-9-6-9-AI-immigration-decision.md) (migrace) a [EA-9.6.10](@/kompendium/techniques/ea-9-6-10-AI-welfare-decision-EA.md) (dávky). Teoreticky navazuje na [Foucaultovo pojetí moci a vědění](@/glossary/power-knowledge.md).
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 12. Otázky pro rozhovor a šetření
 
-- **EA-1.* (Vědomá kontrola informací)** — Algorithmic Decision Bias představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+- Jaké rozhodnutí bylo učiněno a dostal jste zdůvodnění?
+- Víte, zda o vás rozhodoval automatizovaný systém?
+- Měl jste možnost požádat o lidský přezkum?
+- Mají podobné výsledky i lidé ve vašem okolí?
+- Jaké údaje o vás systém mohl použít?
 
-## 7. Vztah k Prismatic platformě
+## 13. Postup pro profesionály
 
-Prismatic Platform implementuje detekci a neutralizaci Algorithmic Decision Bias přes následující komponenty:
+1. **Sociální pracovník nebo poradce:** pomoci klientovi vyžádat si zdůvodnění a přezkum; dokumentovat podobné případy.
+2. **Právník:** posoudit, zda rozhodnutí nenaplňuje znaky diskriminace nebo porušení pravidel automatizovaného rozhodování.
+3. **Auditor:** srovnat výsledky systému mezi skupinami a analyzovat použité proměnné.
+4. **Provozovatel:** zajistit lidský dohled, dokumentaci a funkční odvolací cestu.
+5. **Novinář:** získat data o výsledcích systému a ověřit vzorec na jednotlivých případech.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 14. Prevence a odolnost
 
-**Doctrine compliance:**
+Prevence stojí na posouzení dopadů před nasazením, na zapojení dotčených skupin, na transparentnosti a na tom, že u rozhodnutí s vážnými důsledky zůstává skutečná lidská odpovědnost. Pro jednotlivce je důležitá znalost práv a dostupnost bezplatného poradenství.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 15. Typický průběh
 
-## 8. Cross-linky
+Zaujatost se obvykle neprojeví hned. Systém je nasazen s příslibem efektivity a „objektivity“; první měsíce přinášejí úspory a rychlost. Postižení si stěžují jednotlivě a jejich stížnosti se vyřizují jako ojedinělé chyby. Vzorec se stane viditelným, až když někdo – sociální pracovník, novinář, výzkumník – sečte jednotlivé případy. Následuje fáze popírání („systém je neutrální“), pak audit a nakonec korekce nebo pozastavení. Škoda vzniklá do té doby se napravuje obtížně, protože postižení často už rezignovali.
 
-**Související EA techniky:**
+## 16. Dokumentace a důkazy
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.6.2 AI Judgment Laundering](@/kompendium/techniques/ea-9-6-2-AI-judgment-laundering.md)
-- [EA-9.6.3 Automated Content Takedown](@/kompendium/techniques/ea-9-6-3-automated-content-takedown.md)
-- [EA-9.6.4 AI Deplatforming Cascade](@/kompendium/techniques/ea-9-6-4-AI-deplatforming-cascade.md)
-- [EA-9.6.5 AI Credit Scoring Bias](@/kompendium/techniques/ea-9-6-5-AI-credit-scoring-bias.md)
+Pro postižené i jejich zástupce je užitečné uchovávat písemná rozhodnutí, data podání, komunikaci s institucí a zdůvodnění, pokud bylo poskytnuto. Pro systémový důkaz je třeba sbírat podobné případy a jejich charakteristiky. Žádost o informace o logice automatizovaného rozhodnutí (podle GDPR) je sama o sobě důležitým krokem: odmítnutí nebo nesrozumitelná odpověď jsou také informací.
 
-**Doktrinální a infrastructure odkazy:**
+## Odborný kontext
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+Kritická literatura o algoritmickém rozhodování popsala tento vzorec z několika stran. O'Neil (2016) označila za nejškodlivější ty modely, které jsou neprůhledné, působí ve velkém měřítku a poškozují lidi, aniž by se mohli bránit, a ukázala, že takové modely mohou vytvářet zpětnou smyčku, v níž vlastní předpovědi potvrzují. Eubanks (2018) na případech z amerického sociálního systému doložila, že automatizace dopadá nejtvrději na chudé, kteří jsou nejvíce sledováni a mají nejméně prostředků se bránit. Barocas a Selbst (2016) z právního hlediska vysvětlili, proč zaujatost může vzniknout bez úmyslu – z výběru cílové proměnné, z historických dat a ze zástupných proměnných – a proč ji tradiční antidiskriminační právo zachycuje obtížně.
 
----
+Z technické strany ukázali Kleinberg, Mullainathan a Raghavan (2017), že několik intuitivních kritérií spravedlnosti skórovacích systémů nelze až na výjimečné případy splnit současně. Volba kritéria je proto hodnotové rozhodnutí, které nelze přenechat vývojářům a které má být učiněno veřejně a s účastí dotčených skupin. Kniha tento závěr čte epistemicky: kdo určuje, co znamená „spravedlivý výsledek“, určuje i to, čí zkušenost se počítá jako relevantní.
 
-## Connect & Contribute
+## Literatura
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+- Barocas, S., & Selbst, A. D. (2016). Big data's disparate impact. *California Law Review*.
+- Eubanks, V. (2018). *Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor*. St. Martin's Press.
+- Kleinberg, J., Mullainathan, S., & Raghavan, M. (2017). Inherent trade-offs in the fair determination of risk scores. *Proceedings of ITCS 2017*.
+- O'Neil, C. (2016). *Weapons of Math Destruction*. Crown.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+## Související
 
----
+**Sourozenecké techniky**
 
-*EA-9.6.1 | Subkategorie 9.6 Algoritmická governance | Prismatic Compendium | Version 18.4.0*
+- [EA-9.6.2 AI Judgment Laundering](@/kompendium/techniques/ea-9-6-2-AI-judgment-laundering.md) – lidské rozhodnutí skryté za systémem.
+- [EA-9.6.5 AI Credit Scoring Bias](@/kompendium/techniques/ea-9-6-5-AI-credit-scoring-bias.md) – zaujatost v úvěrech.
+- [EA-9.6.10 AI Welfare Decision EA](@/kompendium/techniques/ea-9-6-10-AI-welfare-decision-EA.md) – zaujatost v dávkách.
+- [EA-9.6.8 AI Legal Decision EA](@/kompendium/techniques/ea-9-6-8-AI-legal-decision-EA.md) – zaujatost v justici.
+
+**Pojmy a teorie**
+
+- [Epistemická nespravedlnost](@/glossary/epistemicka-injustice.md) – když postižený nemá pojmy ani hlas.
+- [Moc a vědění](@/glossary/power-knowledge.md) – výpočet jako forma moci.
+
+**Obrana a politika**
+
+- [Regulační přístup k EA](@/kompendium/population-health/22-regulatory-approach-EA.md) – systémová odpověď.
+- [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md) – organizační obrana.

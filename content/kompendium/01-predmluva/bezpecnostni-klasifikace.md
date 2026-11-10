@@ -293,7 +293,7 @@ Detailní sankční rámec odpovídá kategorizaci v [Etických aspektech](@/kom
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj
 souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi

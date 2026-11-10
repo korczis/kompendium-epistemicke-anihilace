@@ -159,7 +159,7 @@ Veškerá analýza technik EA-5.2.* podléhá [Etickým aspektům](@/kompendium/
   - [Fenomenologie](@/glossary/fenomenologie.md)
   - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Ultramární techniky jsou L3 (omezený přístup)**: nejsou určeny k
 obecnému studiu. Před četbou potvrď, že:

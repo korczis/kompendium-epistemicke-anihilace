@@ -181,7 +181,7 @@ Sofistikovaný manipulační útok operuje **napříč všemi třemi úrovněmi 
 - [Glosář: Color Teams](@/glossary/color-teams.md)
 - [Glosář: Decision Core](@/glossary/decision-core.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Teoretické reflexe ne jsou závěry — jsou pozvánkami k myšlení.** Po četbě:
 

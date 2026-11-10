@@ -213,7 +213,7 @@ Diagnóza EA má specifické etické důsledky:
 - [Glossary: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - [Glossary: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Klinická intervence vyžaduje licencovanou klinickou supervizi.** Tento
 materiál není terapeutickou příručkou ani diagnostickou metodikou pro

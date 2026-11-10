@@ -268,7 +268,7 @@ Tato pozice **není** pre-postmoderní (nelze se vrátit do bezproblémové afir
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Teoretické reflexe ne jsou závěry — jsou pozvánkami k myšlení.** Po četbě:
 

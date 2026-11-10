@@ -124,7 +124,7 @@ Teoretické rámce této sekce **strukturálně rezonují** s architekturou plat
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Teoretické reflexe ne jsou závěry — jsou pozvánkami k myšlení.** Po četbě:
 

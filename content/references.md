@@ -8,12 +8,12 @@ tags = ["kompendium"]
 
 [extra]
 toc = false
-entries = 3192
+entries = 3199
 +++
 
 Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotlivých stránkách kompendia a glosáře; ručně se needituje.
 
-**3192 položek**, seřazených podle autora.
+**3199 položek**, seřazených podle autora.
 
 ## A
 
@@ -520,6 +520,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Případ 75: Kult podcastu](@/kompendium/case-studies/75-podcast-cult.md)</small>
 - Bertalanffy, L. von (1968). *General System Theory*. George Braziller.  
   <small>Citováno: [Systémová teorie jako alternativa](@/kompendium/critical-perspectives/21-systems-theory-alternative.md)</small>
+- Bertin, J. (1967). *Sémiologie graphique: Les diagrammes, les réseaux, les cartes*. Paris: Gauthier-Villars.  
+  <small>Citováno: [Vizualizace pro sekci 03 – techniky EA-1 podle podrodiny a rizika](@/kompendium/03-zakladni-kategorie/visualizations.md), [Vizualizace pro sekci 04 – strom odkazů terminálních protokolů](@/kompendium/04-terminalni-protokoly/visualizations.md), [Vizualizace pro sekci 07 – mapa teoretických rámců](@/kompendium/07-teoreticke-reflexe/visualizations.md) a 1 dalších</small>
 - Betsch, C., Renkewitz, F., Betsch, T., & Ulshöfer, C. (2010). The influence of vaccine-critical websites on perceiving vaccination risks. *Journal of Health Psychology*.  
   <small>Citováno: [Případ 53: Zotavení z anti-vaxx sítě](@/kompendium/case-studies/53-anti-vaxx-recovery.md)</small>
 - Bettinson, V., a Bishop, C. (2015). Is the creation of a discrete offence of coercive control necessary to combat domestic violence? *Northern Ireland Legal Quarterly*.  
@@ -848,7 +850,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Cain, D. M., Loewenstein, G., Moore, D. A. (2005). The dirt on coming clean: Perverse effects of disclosing conflicts of interest.  
   <small>Citováno: [Střet zájmů ve výzkumu manipulace](@/kompendium/research-methodology/conflict-of-interest-research.md)</small>
 - Cairo, A. (2016). *The Truthful Art: Data, Charts, and Maps for Communication*. New Riders.  
-  <small>Citováno: [Vizualizace pro sekci 03 – postup technik EA-1 fázemi](@/kompendium/03-zakladni-kategorie/visualizations.md)</small>
+  <small>Citováno: [Vizualizace pro sekci 03 – techniky EA-1 podle podrodiny a rizika](@/kompendium/03-zakladni-kategorie/visualizations.md), [Vizualizace pro sekci 06 – klinická cesta zotavení](@/kompendium/06-klinicke-aplikace/visualizations.md), [Interaktivní vizualizace](@/kompendium/visualizations/_index.md)</small>
 - Calef, V., & Weinshel, E. M. (1981). Some clinical consequences of introjection: Gaslighting. *The Psychoanalytic Quarterly*, 50(1), 44–66.  
   <small>Citováno: [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md)</small>
 - Callaghan, J. E. M., Alexander, J. H., Sixsmith, J., & Fellin, L. C. (2018). Beyond „witnessing“: Children's experiences of coercive control in domestic violence and abuse. *Journal of Interpersonal Violence*, 33(10).  
@@ -961,8 +963,6 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [7.37 Chalmers: Hard Problem of Consciousness](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md)</small>
 - Chalmers, D. J. (1995). Facing Up to the Problem of Consciousness. *Journal of  
   <small>Citováno: [EA-7.3.8 Chalmers: Těžký problém vědomí](@/kompendium/techniques/ea-7-3-8-chalmers-hard-problem.md)</small>
-- Chalmers, D. J. (1995). Facing up to the problem of consciousness. *Journal of Consciousness Studies*, 2(3).  
-  <small>Citováno: [Vizualizace pro sekci 07 – mapa teoretických rámců](@/kompendium/07-teoreticke-reflexe/visualizations.md)</small>
 - Chalmers, D. J. (1996). *The Conscious Mind*. Oxford University Press.  
   <small>Citováno: [EA-7.3.8 Chalmers: Těžký problém vědomí](@/kompendium/techniques/ea-7-3-8-chalmers-hard-problem.md)</small>
 - Chalmers, D. J. (2018). The Meta-Problem of Consciousness. *Journal of Consciousness  
@@ -1112,7 +1112,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Clayton, S. (2020). Climate anxiety: Psychological responses to climate change. *Journal of Anxiety Disorders*.  
   <small>Citováno: [Případ 65: Kult v klimatickém hnutí](@/kompendium/case-studies/65-activism-cult.md)</small>
 - Cleveland, W. S., & McGill, R. (1984). Graphical perception: Theory, experimentation, and application to the development of graphical methods. *Journal of the American Statistical Association*, 79(387), 531–554.  
-  <small>Citováno: [Most: Techniky → Vizualizace](@/kompendium/section-bridges/bridge-techniques-to-visualizations.md), [Most: Vizualizace → Techniky](@/kompendium/section-bridges/bridge-visualizations-to-techniques.md)</small>
+  <small>Citováno: [Vizualizace pro sekci 04 – strom odkazů terminálních protokolů](@/kompendium/04-terminalni-protokoly/visualizations.md), [Most: Techniky → Vizualizace](@/kompendium/section-bridges/bridge-techniques-to-visualizations.md), [Most: Vizualizace → Techniky](@/kompendium/section-bridges/bridge-visualizations-to-techniques.md)</small>
 - Cloitre, M. a kol. (2018). The International Trauma Questionnaire.  
   <small>Citováno: [Dotazníkový výzkum epistemické manipulace](@/kompendium/research-methodology/survey-design-EA.md)</small>
 - Cloitre, M., Cohen, L. R., & Koenen, K. C. (2006). *Treating Survivors of Childhood Abuse:  
@@ -2082,6 +2082,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Perfekcionismus](@/glossary/perfekcionismus.md)</small>
 - Frost, R. O., Marten, P., Lahart, C., & Rosenblate, R. (1990). The dimensions of perfectionism. *Cognitive Therapy and Research*, 14(5), 449–468.  
   <small>Citováno: [Detekční signatura: Posun rozsahu (scope creep)](@/kompendium/detection-signatures/7-linguistic-scope-creep.md)</small>
+- Fruchterman, T. M. J., & Reingold, E. M. (1991). Graph drawing by force-directed placement. *Software: Practice and Experience*, 21(11), 1129–1164.  
+  <small>Citováno: [Vizualizace pro sekci 07 – mapa teoretických rámců](@/kompendium/07-teoreticke-reflexe/visualizations.md), [Interaktivní vizualizace](@/kompendium/visualizations/_index.md)</small>
 - Fuchs, T. (2018). *Ecology of the Brain*.  
   <small>Citováno: [EA-7.1.10 Merleau-Ponty: vtělenost](@/kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md)</small>
 - Fulbrook, M. (1995). *Anatomy of a Dictatorship: Inside the GDR, 1949–1989*. Oxford University Press.  
@@ -2153,6 +2155,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Parental alienation (rodičovské odcizení)](@/glossary/parental-alienation.md)</small>
 - Gardner, R. A. (1992). *The Parental Alienation Syndrome*. Creative Therapeutics.  
   <small>Citováno: [Rodinné právo](@/kompendium/forensic-legal/41-family-court-EA.md)</small>
+- Garfield, E. (1955). Citation indexes for science: A new dimension in documentation through association of ideas. *Science*, 122(3159), 108–111.  
+  <small>Citováno: [Vizualizace pro sekci 07 – mapa teoretických rámců](@/kompendium/07-teoreticke-reflexe/visualizations.md)</small>
 - Garfinkel, H. (1956). Conditions of successful degradation ceremonies. *American Journal of Sociology*, 61(5).  
   <small>Citováno: [Případ 04: Mediální mob attack](@/kompendium/case-studies/04-medialni-mob-attack.md)</small>
 - Garwood, C. (2007). *Flat Earth: The History of an Infamous Idea*. Macmillan.  
@@ -2479,7 +2483,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Hanegraaff, W. J. (1996). *New Age Religion and Western Culture: Esotericism in the Mirror of Secular Thought*. Brill.  
   <small>Citováno: [Případ 51: Zotavení z New Age sítě](@/kompendium/case-studies/51-new-age-recovery.md)</small>
 - Haney, C., Banks, W. C., & Zimbardo, P. G. (1973). Interpersonal dynamics in a simulated prison. *International Journal of Criminology and Penology*, 1.  
-  <small>Citováno: [Vizualizace pro sekci 04 – rozhodovací strom terminálních protokolů](@/kompendium/04-terminalni-protokoly/visualizations.md)</small>
+  <small>Citováno: [Vizualizace pro sekci 04 – strom odkazů terminálních protokolů](@/kompendium/04-terminalni-protokoly/visualizations.md)</small>
 - Hanson, N. R. (1958). *Patterns of Discovery*. Cambridge University Press.  
   <small>Citováno: [Bridge: Gestalt shift (gestaltový přesmyk)](@/kompendium/glossary-bridges/bridge-gestalt-shift.md)</small>
 - Harari, Y. N. (2011/2014). *Sapiens: Stručná historie lidstva*. Leda.  
@@ -2561,7 +2565,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Hassan, S. (2015). *Combating Cult Mind Control*. Freedom of Mind Press.  
   <small>Citováno: [Právní aspekty deprogramování](@/kompendium/forensic-legal/13-cult-deprogramming-legal.md)</small>
 - Hassan, S. (2015). *Combating Cult Mind Control* (rev. vyd.). Freedom of Mind Press.  
-  <small>Citováno: [SEAL](@/glossary/seal.md), [Vizualizace pro sekci 04 – rozhodovací strom terminálních protokolů](@/kompendium/04-terminalni-protokoly/visualizations.md), [Vizualizace pro sekci 06 – klinická cesta zotavení](@/kompendium/06-klinicke-aplikace/visualizations.md)</small>
+  <small>Citováno: [SEAL](@/glossary/seal.md), [Vizualizace pro sekci 04 – strom odkazů terminálních protokolů](@/kompendium/04-terminalni-protokoly/visualizations.md), [Vizualizace pro sekci 06 – klinická cesta zotavení](@/kompendium/06-klinicke-aplikace/visualizations.md)</small>
 - Hassan, S. (2015). *Combating Cult Mind Control* (rozšířené vydání; původně 1988). Freedom of Mind Press.  
   <small>Citováno: [Historický případ: NXIVM](@/kompendium/historical-cases/18-nxivm.md)</small>
 - **Hassan, S.** (2018). *Combating Cult Mind Control* — [BITE model](@/glossary/bite-model.md) (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.  
@@ -2653,7 +2657,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.  
   <small>Citováno: [Epistemická reintegrace](@/glossary/epistemicka-reintegrace.md), [Internalizovaný pachatel](@/glossary/internalizovany-pachatel.md), [Sociální izolace](@/glossary/socialni-izolace.md) a 35 dalších</small>
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.  
-  <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md), [Coercive control (donucující kontrola)](@/glossary/coercive-control.md), [NWB](@/glossary/nwb.md) a 221 dalších</small>
+  <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md), [Coercive control (donucující kontrola)](@/glossary/coercive-control.md), [NWB](@/glossary/nwb.md) a 220 dalších</small>
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books – stadia zotavení, stabilizace jako první fáze.  
   <small>Citováno: [M5M](@/glossary/m5m.md)</small>
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.  
@@ -2730,6 +2734,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Kdy knihu teď nečíst](@/kompendium/01-predmluva/neni-pro-kazdeho/kdy-ji-necist.md), [Potřebujete pomoc hned?](@/kompendium/01-predmluva/neni-pro-kazdeho/pomoc-hned.md)</small>
 - Hobfoll, S. E., Watson, P., Bell, C. C., et al. (2007). Five essential elements of immediate and  
   <small>Citováno: [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md), [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md), [Akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) a 1 dalších</small>
+- Hobfoll, S. E., Watson, P., Bell, C. C., et al. (2007). Five essential elements of immediate and mid-term mass trauma intervention: Empirical evidence. *Psychiatry*, 70(4).  
+  <small>Citováno: [Vizualizace pro sekci 06 – klinická cesta zotavení](@/kompendium/06-klinicke-aplikace/visualizations.md)</small>
 - Hochschild, A. R. (1983). *The Managed Heart: Commercialization of Human Feeling*. University of California Press.  
   <small>Citováno: [Případ 11: Firemní kult](@/kompendium/case-studies/11-corporate-cult.md), [Případ 44: Umělecká totalizace v divadelním souboru](@/kompendium/case-studies/44-arts-totalizace.md), [Případ 47: Diplomatická totalizace na zastupitelském úřadu](@/kompendium/case-studies/47-diplomatic-totalizace.md) a 1 dalších</small>
 - Hochschild, A. R. (1989). *The Second Shift: Working Parents and the Revolution at Home*. Viking.  
@@ -3237,6 +3243,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Red Team a detekce technik EA](@/kompendium/aiad-integration/red-team-ea-detection.md), [Strategic Command a koordinace obrany proti EA](@/kompendium/aiad-integration/strategic-command-ea-coordination.md), [Sebe-obrana: Osobní audit zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md)</small>
 - Klein, R. A. a kol. (2014). Investigating variation in replicability: A „Many Labs“ replication project.  
   <small>Citováno: [Replikace a ověřování nálezů](@/kompendium/research-methodology/replication-EA-research.md)</small>
+- Kleinberg, J. M. (1999). Authoritative sources in a hyperlinked environment. *Journal of the ACM*, 46(5), 604–632.  
+  <small>Citováno: [Interaktivní vizualizace](@/kompendium/visualizations/_index.md)</small>
 - Kleinberg, J., Mullainathan, S., & Raghavan, M. (2017). Inherent trade-offs in the fair determination of risk scores. *Proceedings of ITCS 2017*.  
   <small>Citováno: [EA-9.6.1 Algorithmic Decision Bias](@/kompendium/techniques/ea-9-6-1-algorithmic-decision-bias.md), [EA-9.6.8 AI Legal Decision EA](@/kompendium/techniques/ea-9-6-8-AI-legal-decision-EA.md)</small>
 - Kleinman, A. (1980). *Patients and Healers in the Context of Culture*. University of California Press.  
@@ -4204,7 +4212,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Milgram, S. (1974). *Obedience to Authority*.  
   <small>Citováno: [EA-7.1.5 Arendtová: banalita zla](@/kompendium/techniques/ea-7-1-5-arendt-banality-evil.md)</small>
 - Milgram, S. (1974). *Obedience to Authority: An Experimental View*. Harper & Row.  
-  <small>Citováno: [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md), [Vizualizace pro sekci 04 – rozhodovací strom terminálních protokolů](@/kompendium/04-terminalni-protokoly/visualizations.md), [Případ 12: Kult vůdcovství](@/kompendium/case-studies/12-leadership-cult.md) a 3 dalších</small>
+  <small>Citováno: [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md), [Vizualizace pro sekci 04 – strom odkazů terminálních protokolů](@/kompendium/04-terminalni-protokoly/visualizations.md), [Případ 12: Kult vůdcovství](@/kompendium/case-studies/12-leadership-cult.md) a 3 dalších</small>
 - Milgram, S. (1974). *Obedience to Authority: An Experimental View*. New York: Harper & Row.  
   <small>Citováno: [Archer Supreme a orchestrace obrany proti EA](@/kompendium/aiad-integration/archer-supreme-ea-orchestration.md), [Operational Execution a nasazení obrany proti EA](@/kompendium/aiad-integration/operational-execution-ea-deployment.md)</small>
 - Milgram, S. (1974). *Obedience to Authority*. Harper & Row.  
@@ -4309,6 +4317,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [7.12 Feyerabend: Anti-Method a epistemický anarchismus](@/kompendium/07-teoreticke-reflexe/feyerabend-anti-method.md)</small>
 - Munro, R. (2002). *Dangerous Minds: Political Psychiatry in China Today and Its Origins in the Mao Era*. Human Rights Watch & Geneva Initiative on Psychiatry.  
   <small>Citováno: [Východní Asie — vzorce EA](@/kompendium/international/11-east-asian-EA/index.md)</small>
+- Munzner, T. (2014). *Visualization Analysis and Design*. CRC Press.  
+  <small>Citováno: [Vizualizace pro sekci 03 – techniky EA-1 podle podrodiny a rizika](@/kompendium/03-zakladni-kategorie/visualizations.md), [Vizualizace pro sekci 04 – strom odkazů terminálních protokolů](@/kompendium/04-terminalni-protokoly/visualizations.md), [Vizualizace pro sekci 07 – mapa teoretických rámců](@/kompendium/07-teoreticke-reflexe/visualizations.md) a 1 dalších</small>
 - Murakami, H. (2000). *Underground: The Tokyo Gas Attack and the Japanese Psyche*. Japonský originál ve dvou svazcích 1997 a 1998.  
   <small>Citováno: [Historický případ: Óm šinrikjó](@/kompendium/historical-cases/13-aum-shinrikyo.md)</small>
 - Murch, S. H. a kol. (2004). Retraction of an interpretation. *The Lancet*.  
@@ -4382,6 +4392,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Bridge: Metakognice](@/kompendium/glossary-bridges/bridge-metakognice.md), [Bridge: Metakognitivní destrukce](@/kompendium/glossary-bridges/bridge-metakognitivni-destrukce.md), [Sebe-obrana: Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md)</small>
 - Neumann, I. B. (2012). *At Home with the Diplomats: Inside a European Foreign Ministry*. Cornell University Press.  
   <small>Citováno: [Případ 47: Diplomatická totalizace na zastupitelském úřadu](@/kompendium/case-studies/47-diplomatic-totalizace.md)</small>
+- Newman, M. E. J. (2010). *Networks: An Introduction*. Oxford University Press.  
+  <small>Citováno: [Interaktivní vizualizace](@/kompendium/visualizations/_index.md)</small>
 - Nguyen, C. T. (2020). Echo Chambers and Epistemic Bubbles. *Episteme*.  
   <small>Citováno: [Epistemická komunita](@/glossary/epistemicka-komunita.md), [Případ 37: Totalizace v technologické monokultuře](@/kompendium/case-studies/37-tech-bro-totalizace.md), [Případ 54: Zotavení z flat-earth komunity](@/kompendium/case-studies/54-flat-earth-recovery.md) a 14 dalších</small>
 - Nguyen, C. T. (2020). Echo chambers and epistemic bubbles. *Episteme*, 17(2).  
@@ -4858,6 +4870,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [7.12 Feyerabend: Anti-Method a epistemický anarchismus](@/kompendium/07-teoreticke-reflexe/feyerabend-anti-method.md)</small>
 - Preston, J. & Bishop, M. (eds.) (2002). *Views into the Chinese Room*. Oxford UP.  
   <small>Citováno: [7.36 Searle: Čínský pokoj a kritika silné AI](@/kompendium/07-teoreticke-reflexe/searle-chinese-room.md)</small>
+- Price, D. J. de Solla (1965). Networks of scientific papers. *Science*, 149(3683), 510–515.  
+  <small>Citováno: [Vizualizace pro sekci 07 – mapa teoretických rámců](@/kompendium/07-teoreticke-reflexe/visualizations.md)</small>
 - Price, J., Cole, V., & Goodwin, G. M. (2009). Emotional side-effects of selective serotonin reuptake inhibitors: Qualitative study. *British Journal of Psychiatry*, 195(3), 211–217.  
   <small>Citováno: [Detekční signatura: Emocionální otupení](@/kompendium/detection-signatures/27-phenomenological-emotional-numbing.md)</small>
 - Price, P. C., & Stone, E. R. (2004). Intuitive evaluation of likelihood judgment producers: Evidence for a confidence heuristic. *Journal of Behavioral Decision Making*, 17(1), 39–57.  
@@ -5396,7 +5410,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Shiller, R. J. (2000). *Irrational Exuberance*. Princeton University Press.  
   <small>Citováno: [Případ 20: Finanční kult](@/kompendium/case-studies/20-finance-cult.md), [Případ 63: Investorský kult kolem obchodního „guru“](@/kompendium/case-studies/63-investor-cult.md)</small>
 - Shneiderman, B. (1996). The eyes have it: A task by data type taxonomy for information visualizations. In *Proceedings of the IEEE Symposium on Visual Languages* (pp. 336–343). Los Alamitos, CA: IEEE Computer Society.  
-  <small>Citováno: [Most: Vizualizace → Techniky](@/kompendium/section-bridges/bridge-visualizations-to-techniques.md)</small>
+  <small>Citováno: [Vizualizace pro sekci 03 – techniky EA-1 podle podrodiny a rizika](@/kompendium/03-zakladni-kategorie/visualizations.md), [Most: Vizualizace → Techniky](@/kompendium/section-bridges/bridge-visualizations-to-techniques.md), [Interaktivní vizualizace](@/kompendium/visualizations/_index.md)</small>
 - Short, P. (2004). *Pol Pot: Anatomy of a Nightmare*. Henry Holt.  
   <small>Citováno: [Historický případ: Rudí Khmerové](@/kompendium/historical-cases/3-khmer-rouge.md)</small>
 - Shortliffe, E. H. (1976). *Computer-Based Medical Consultations: MYCIN*. Elsevier.  
@@ -5648,7 +5662,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. New York: Oxford  
   <small>Citováno: [Vigilance zaměstnavatele](@/kompendium/prevention-resilience/16-employer-vigilance.md), [Akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md), [Subakutní relační restrukturalizace](@/kompendium/recovery-protocols/subacute-relational-restructuring.md)</small>
 - Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.  
-  <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md), [Vizualizace pro sekci 03 – postup technik EA-1 fázemi](@/kompendium/03-zakladni-kategorie/visualizations.md), [Případ 02: Doktorát jako trojský kůň](@/kompendium/case-studies/02-doktorat-trojan-horse.md) a 24 dalších</small>
+  <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md), [Vizualizace pro sekci 03 – techniky EA-1 podle podrodiny a rizika](@/kompendium/03-zakladni-kategorie/visualizations.md), [Případ 02: Doktorát jako trojský kůň](@/kompendium/case-studies/02-doktorat-trojan-horse.md) a 24 dalších</small>
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*.  
   <small>Citováno: [Love bombing](@/glossary/love-bombing.md), [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md), [Sociální izolace](@/glossary/socialni-izolace.md) a 2 dalších</small>
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford  
@@ -5977,7 +5991,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Tufte, E. R. (1983). *The Visual Display of Quantitative Information*. Cheshire, CT: Graphics Press.  
   <small>Citováno: [Most: Techniky → Vizualizace](@/kompendium/section-bridges/bridge-techniques-to-visualizations.md), [Most: Vizualizace → Techniky](@/kompendium/section-bridges/bridge-visualizations-to-techniques.md)</small>
 - Tufte, E. R. (1983). *The Visual Display of Quantitative Information*. Graphics Press.  
-  <small>Citováno: [Vizualizace pro sekci 03 – postup technik EA-1 fázemi](@/kompendium/03-zakladni-kategorie/visualizations.md), [Vizualizace pro sekci 04 – rozhodovací strom terminálních protokolů](@/kompendium/04-terminalni-protokoly/visualizations.md), [Vizualizace pro sekci 06 – klinická cesta zotavení](@/kompendium/06-klinicke-aplikace/visualizations.md)</small>
+  <small>Citováno: [Vizualizace pro sekci 03 – techniky EA-1 podle podrodiny a rizika](@/kompendium/03-zakladni-kategorie/visualizations.md), [Vizualizace pro sekci 04 – strom odkazů terminálních protokolů](@/kompendium/04-terminalni-protokoly/visualizations.md), [Vizualizace pro sekci 06 – klinická cesta zotavení](@/kompendium/06-klinicke-aplikace/visualizations.md) a 2 dalších</small>
 - Turecki, G., a Brent, D. A. (2016). Suicide and suicidal behaviour. *The Lancet*.  
   <small>Citováno: [Případ 80: Kult subredditu](@/kompendium/case-studies/80-subreddit-cult.md)</small>
 - Turkle, S. (2011). *Alone Together*. Basic Books.  

@@ -81,7 +81,7 @@
                 <a href="{{ g.permalink }}" class="{{ sub }}{% if on %}{{ sub_on }}{% else %}{{ sub_idle }}{% endif %}" title="{{ g.title }}"{% if on %} aria-current="{% if cur == g.path %}page{% else %}location{% endif %}"{% endif %}>
                   {%- if group[0] == "true" %}<span class="mt-0.5 shrink-0 rounded bg-gray-100 px-1 font-mono text-[11px] leading-4 text-gray-600 dark:bg-gray-700 dark:text-gray-300">{{ num }}</span>{% endif %}
                   <span class="line-clamp-2 min-w-0 flex-1">{{ label }}</span>
-                  {%- if g.pages %}<span class="shrink-0 text-xs text-gray-500 dark:text-gray-400">{{ g.pages | length }}</span>{% endif %}
+                  {%- if g.pages %}<span class="shrink-0 text-xs {% if on %}text-primary-800 dark:text-gray-200{% else %}text-gray-500 dark:text-gray-400{% endif %}">{{ g.pages | length }}</span>{% endif %}
                 </a>
                 {%- if on and g.relative_path in nav.sections %}{% set k1 = g.relative_path %}{% include "partials/sidebar_subtree.html" %}{% endif %}
               </li>
@@ -104,7 +104,7 @@
               {%- for path in nlp_full.subsections | sort %}
               {%- set f = get_section(path=path) %}
               {%- set on = f.path in cur %}
-              <li><a href="{{ f.permalink }}" class="{{ sub }}{% if on %}{{ sub_on }}{% else %}{{ sub_idle }}{% endif %}" title="{{ f.title }}"{% if on %} aria-current="location"{% endif %}><span class="line-clamp-2 min-w-0 flex-1">{{ f.title }}</span><span class="shrink-0 text-xs text-gray-500 dark:text-gray-400">{{ f.pages | length }}</span></a></li>
+              <li><a href="{{ f.permalink }}" class="{{ sub }}{% if on %}{{ sub_on }}{% else %}{{ sub_idle }}{% endif %}" title="{{ f.title }}"{% if on %} aria-current="location"{% endif %}><span class="line-clamp-2 min-w-0 flex-1">{{ f.title }}</span><span class="shrink-0 text-xs {% if on %}text-primary-800 dark:text-gray-200{% else %}text-gray-500 dark:text-gray-400{% endif %}">{{ f.pages | length }}</span></a></li>
               {%- endfor %}
               {%- for p in nlp_full.pages %}{% if p.slug == "trener" %}
               <li><a href="{{ p.permalink }}" class="{{ sub }}{% if p.path in cur %}{{ sub_on }}{% else %}{{ sub_idle }}{% endif %}"><span class="line-clamp-2 min-w-0 flex-1">{{ p.title }}</span></a></li>

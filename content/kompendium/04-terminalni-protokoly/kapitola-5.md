@@ -439,7 +439,7 @@ Návaznost: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/
 - [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — evidence-based hodnocení rozhodnutí
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
 terminálního protokolu (i v rámci sebe-monitoringu) ověř:

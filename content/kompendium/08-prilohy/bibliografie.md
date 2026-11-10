@@ -158,7 +158,7 @@ Digitální zdroje s aktivními odkazy (přístup ověřen 2026-04-25). Slouží
 - [APA PsycNet](https://psycnet.apa.org/) — primární databáze klinické psychologie.
 - [Czech Philosophical Journal](https://filosofickycasopis.flu.cas.cz/) — domácí recenzovaný časopis.
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Tato příloha je referenční nástroj** – není k četbě od začátku do konce.
 Místo lineární četby:

@@ -188,7 +188,7 @@ Souběžně tato izomorfie odhaluje **gradient kategorií** v taxonomii: nejniž
 - [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
 - [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Teoretické reflexe ne jsou závěry — jsou pozvánkami k myšlení.** Po četbě:
 

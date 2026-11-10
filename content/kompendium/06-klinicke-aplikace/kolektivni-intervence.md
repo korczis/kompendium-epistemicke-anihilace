@@ -240,7 +240,7 @@ Kolektivní intervence je **mocný nástroj** — proto musí být sama struktur
 - Platforma: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}, [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md), [Boundary Ethics](@/philosophy/boundary-ethics.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Klinická intervence vyžaduje licencovanou klinickou supervizi.** Tento
 materiál není terapeutickou příručkou ani diagnostickou metodikou pro

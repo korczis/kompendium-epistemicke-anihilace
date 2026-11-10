@@ -284,7 +284,7 @@ Práce s vulnerabilní populací zůstává **oblastí aktivního vývoje**:
 - [Glossary: Dual-use poznání](@/glossary/dual-use-poznani.md)
 - [Glossary: Anankastický režim](@/glossary/anankasticky-rezim.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Klinická intervence vyžaduje licencovanou klinickou supervizi.** Tento
 materiál není terapeutickou příručkou ani diagnostickou metodikou pro

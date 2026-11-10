@@ -344,7 +344,7 @@ Cca 30–40 % případů dosahuje **plné funkční rekonstrukce**. Zbylých 60�
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Vyber si jednu konkrétní techniku z této kategorie**, kterou jsi za
 posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v

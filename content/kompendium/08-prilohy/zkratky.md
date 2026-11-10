@@ -236,7 +236,7 @@ Od listopadu 2026 platí pro odborné stránky knihy přísnější podoba této
 - [Color Teams](@/glossary/color-teams.md) — Red/Blue/Purple/Green týmy.
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — operativní použití DD zkratky.
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Tato příloha je referenční nástroj** — není k četbě od začátku do konce.
 Místo lineární četby:

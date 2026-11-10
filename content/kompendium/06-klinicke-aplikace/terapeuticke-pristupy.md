@@ -224,7 +224,7 @@ Empirická evidence pro EA-specifické intervence je **omezená** (mladá discip
 - [Glossary: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - [Glossary: Gaslighting](@/glossary/gaslighting.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Klinická intervence vyžaduje licencovanou klinickou supervizi.** Tento
 materiál není terapeutickou příručkou ani diagnostickou metodikou pro

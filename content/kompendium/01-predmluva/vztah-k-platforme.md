@@ -264,7 +264,7 @@ Tyto limitace jsou explicitně reportovány v každém Taxonomy Health Report.
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj
 souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi

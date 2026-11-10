@@ -23,7 +23,12 @@ const SURFACES = [
   { path: 'tags/', painted: 1, note: 'štítky (treemap)' },
   { path: 'kompendium/case-studies/', painted: 1, note: 'přehled oddílu' },
   { path: 'kompendium/visualizations/', painted: 8, note: 'vizualizace knihy (Chart.js, p5)' },
-  { path: 'kompendium/techniques/ea-1-2-2-memorni-rekonstrukce/', painted: 1, mermaid: 1, note: 'stránka techniky: okolí, Mermaid' },
+  { path: 'kompendium/techniques/ea-1-2-2-memorni-rekonstrukce/', painted: 1, note: 'stránka techniky: okolí' },
+  { path: 'kompendium/03-zakladni-kategorie/somaticke-vektory/', painted: 1, mermaid: 1, note: 'kapitola: diagram Mermaid' },
+  { path: 'matice/', painted: 1, note: 'matice případů a technik (ECharts)' },
+  { path: 'kompendium/historical-cases/', painted: 1, note: 'časová osa historických případů' },
+  { path: 'kompendium/case-studies/01-akademicka-supervize-totalizace/', painted: 1, count: ['[data-kontext] a[href]', 3], note: 'kazuistika: kontext stránky' },
+  { path: 'glossary/gaslighting/', painted: 1, count: ['[data-kontext] a[href]', 3], interact: 'paleta', note: 'heslo: kontext a příkazová paleta' },
 ];
 
 async function paintedCanvases(page) {
@@ -90,6 +95,16 @@ async function check(browser, s, viewport, scheme) {
     const after = await visible();
     if (after.layer !== 'ontologicka') failures.push(`vrstvy nereagují (vybráno „${after.layer}“, dříve „${before.layer}“)`);
     if (after.step !== 'krize') failures.push(`model eskalace nereaguje (vybráno „${after.step}“)`);
+  }
+  if (s.interact === 'paleta') {
+    await page.keyboard.press('Control+k');
+    const dialog = page.locator('[role="dialog"]').first();
+    await dialog.waitFor({ state: 'visible', timeout: 5000 }).catch(() => failures.push('paleta se neotevřela (Ctrl+K)'));
+    await page.keyboard.type('gaslight');
+    await page.waitForTimeout(1500);
+    const hits = await page.locator('[role="dialog"] [role="option"]').count();
+    if (hits < 1) failures.push('paleta nenašla „gaslight“');
+    await page.keyboard.press('Escape');
   }
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
   if (overflow > 0) failures.push(`vodorovné přetečení ${overflow} px`);

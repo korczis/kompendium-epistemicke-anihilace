@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["motte-and-bailey", "differance", "sealioning", "gish-gallop", "falsifikace", "bridge-differance"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "motte-and-bailey"
 toc = false
 +++

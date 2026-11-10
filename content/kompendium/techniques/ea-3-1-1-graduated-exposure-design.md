@@ -10,7 +10,6 @@ categories = ["academic", "education"]
 
 [extra]
 related_terms = ["ea-2-5-8-recursive-doubt-spiral", "ea-2-5-9-identity-uncertainty-cult", "ea-3-1-10-reflective-journaling", "ea-3-1-2-experiential-scaffolding"]
-parent = "kompendium-techniques"
 ea_code = "EA-3.1.1"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.1 Kurikulární techniky"

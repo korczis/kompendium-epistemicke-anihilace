@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-3-1-stabilizacni-faze-protokol", "ea-6-3-6-narrativni-rekonstrukce", "ea-6-3-7-identitni-rekonstituce", "ea-6-2-5-narrative-therapy-protokol"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.3.2"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.3 Rekonstrukční protokoly"

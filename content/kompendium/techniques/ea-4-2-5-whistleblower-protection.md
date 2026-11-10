@@ -10,7 +10,6 @@ categories = ["academic", "research"]
 
 [extra]
 related_terms = ["ea-4-2-3-post-engagement-reintegration", "ea-4-2-4-irb-review-multi-tier", "ea-4-2-6-consent-withdrawal", "ea-4-2-7-documentation-chain-custody"]
-parent = "kompendium-techniques"
 ea_code = "EA-4.2.5"
 ea_category = "4. Terminální protokoly"
 ea_subcategory = "4.2 Bezpečnostní protokoly"

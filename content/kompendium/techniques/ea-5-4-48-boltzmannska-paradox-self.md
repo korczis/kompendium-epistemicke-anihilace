@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-46-evil-demon-paradox", "ea-5-4-47-matrix-paradox-implantace", "ea-5-4-49-mary-paradox-knowledge", "ea-5-4-5-wittgenstein-pravidlo-rozklad"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.48"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"

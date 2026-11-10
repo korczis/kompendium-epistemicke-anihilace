@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["osint-ea-source-validation", "dd-engine-ea-source-weighting", "compliance-ea-regulatory-screening", "epistemic-pipeline-ea-detection", "decision-engine-ea-calibration"]
-parent = "kompendium-aiad-integration"
 toc = true
 +++
 

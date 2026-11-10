@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["36-startup-cult-exit", "37-tech-bro-totalizace", "39-finance-totalizace", "40-law-firm-totalizace"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -209,7 +208,7 @@ obecně o flexibilní práci.
   Metropolitan Books.
 - Khantzian, E. J. (1997). The self-medication hypothesis of substance use disorders: A
   reconsideration and recent applications. *Harvard Review of Psychiatry*.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Maslach, C., Schaufeli, W. B., a Leiter, M. P. (2001). Job burnout. *Annual Review of
   Psychology*.
 - Perlow, L. A. (2012). *Sleeping with Your Smartphone: How to Break the 24/7 Habit and Change

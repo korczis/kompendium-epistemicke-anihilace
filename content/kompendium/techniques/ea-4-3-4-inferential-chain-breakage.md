@@ -10,7 +10,6 @@ categories = ["academic", "research"]
 
 [extra]
 related_terms = ["ea-4-3-2-categorical-boundary-erosion", "ea-4-3-3-semantic-stability-disruption", "ea-4-3-5-evidential-criteria-modification", "ea-4-3-6-meta-conceptual-reset"]
-parent = "kompendium-techniques"
 ea_code = "EA-4.3.4"
 ea_category = "4. Terminální protokoly"
 ea_subcategory = "4.3 Konceptuální dekonstrukce"

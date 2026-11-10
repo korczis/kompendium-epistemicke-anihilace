@@ -11,7 +11,6 @@ category = "intelligence"
 status = "active"
 author = "Tomas Korcak (korczis)"
 difficulty = "intermediate"
-quality_score = 95
 technical_level = "intermediate-advanced"
 domain_category = "compliance-intelligence"
 related_concepts = ["kyc", "aml", "sanctions-screening", "beneficial-ownership", "entity-resolution"]

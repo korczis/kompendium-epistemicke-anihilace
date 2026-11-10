@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-2-1-mentor-self-totalizace", "ea-2-2-5-recommendation-coercion", "ea-2-2-10-future-blackmail-implantace", "trauma-bonding", "pseudoempaticka-vazba", "emocionalni-terorismus"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.2.7"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.2 Pedagogická koerce"

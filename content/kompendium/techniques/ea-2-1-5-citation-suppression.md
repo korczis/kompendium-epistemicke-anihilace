@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-1-4-publikacni-blokace", "ea-2-2-8-intellectual-paternity-claim", "ea-2-1-9-pseudo-konsenzus-vytvoreni", "ea-2-4-8-journal-capture", "epistemicka-injustice", "hermeneuticka-marginalizace"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.1.5"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.1 Expertní diskvalifikace"

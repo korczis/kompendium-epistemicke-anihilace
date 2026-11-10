@@ -9,7 +9,6 @@ categories = ["academic", "legal", "clinical"]
 
 [extra]
 related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
-parent = "kompendium-forensic-legal"
 toc = true
 +++
 
@@ -177,13 +176,13 @@ nejlepší ochranou zůstává kvalitní první záznam.
 ## Literatura
 
 - Bonomi, A. E., Gangamma, R., Locke, C. R., Katafiasz, H., a Martin, D. (2011). „Meet me at the hill where we used to park“: Interpersonal processes associated with victim recantation. *Social Science & Medicine*.
-- Dutton, D. G., a Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md): The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*.
+- Dutton, D. G., a Painter, S. L. (1981). Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*.
 - Dutton, M. A., a Goodman, L. A. (2005). Coercion in intimate partner violence: Toward a new conceptualization. *Sex Roles*.
 - Ellison, L. (2002). *The Adversarial Process and the Vulnerable Witness*. Oxford University Press.
 - Gudjonsson, G. H. (2003). *The Psychology of Interrogations and Confessions: A Handbook*. Wiley.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Loftus, E. F. (2005). Planting misinformation in the human mind: A 30-year investigation of the malleability of memory. *Learning & Memory*.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 

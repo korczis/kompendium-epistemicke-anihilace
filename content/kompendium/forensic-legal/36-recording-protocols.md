@@ -9,7 +9,6 @@ categories = ["academic", "legal", "clinical"]
 
 [extra]
 related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
-parent = "kompendium-forensic-legal"
 toc = true
 +++
 
@@ -180,7 +179,7 @@ výslovně (Casey, 2011).
 - Lamb, M. E., Orbach, Y., Sternberg, K. J., Hershkowitz, I., & Horowitz, D. (2000). Accuracy of investigators' verbatim notes of their forensic interviews with alleged child abuse victims. *Law and Human Behavior*.
 - Milne, R., & Bull, R. (1999). *Investigative Interviewing: Psychology and Practice*. Wiley.
 - Ministry of Justice (2011). *Achieving Best Evidence in Criminal Proceedings: Guidance on Interviewing Victims and Witnesses, and Guidance on Using Special Measures*. Ministry of Justice.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Sweet, P. L. (2019). The sociology of gaslighting. *American Sociological Review*.
 - Woodlock, D. (2017). The abuse of technology in domestic violence and stalking. *Violence Against Women*.
 

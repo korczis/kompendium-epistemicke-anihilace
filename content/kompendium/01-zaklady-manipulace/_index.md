@@ -13,7 +13,6 @@ tags = ["kompendium", "zaklady-manipulace", "uvod", "propedeutika", "etika", "de
 categories = ["academic"]
 section_icon = "🧭"
 toc = true
-parent = "kompendium"
 access_level = "L1"
 status = "publikovano"
 +++
@@ -28,7 +27,7 @@ Tato sekce funguje jako **propedeutický uzel** kompendia. Slučuje materiál ze
 
 Sekce odpovídá na čtyři otázky, které předcházejí každé hlubší taxonomické práci:
 
-1. **Co manipulace je a co není?** — Demarkační kritéria mezi legitimním přesvědčováním, edukací, persuazí a manipulací. Klíčový pojem zde je [intencionální asymetrie](@/glossary/intencionalita.md) v přístupu k informaci a v cíli komunikace.
+1. **Co manipulace je a co není?** — Demarkační kritéria mezi legitimním přesvědčováním, edukací, persuazí a manipulací. Klíčový pojem zde je [intencionální asymetrie](@/glossary/intentionalita.md) v přístupu k informaci a v cíli komunikace.
 2. **Proč ji studovat akademicky?** — Vědecká taxonomie je defenzivní nástroj, ne ofenzivní manuál. [Princip strategické neúplnosti](@/kompendium/01-predmluva/_index.md) řídí, co se publikuje a co zůstává v segmentovaných výzkumných materiálech.
 3. **Jaké rámce jsou předpokládány?** — Čtenář má základní znalost kognitivní psychologie, sociální psychologie přesvědčování, epistemologie, etiky výzkumu zranitelných populací.
 4. **Jak se v kompendiu pohybovat?** — Kapitolová mapa, doporučené čtenářské cesty pro klinika/výzkumníka/security-analytika, eskalační úrovně přístupu L0–L3.

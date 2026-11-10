@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["theory-of-mind", "intentionalita", "pseudoempaticka-vazba", "love-bombing", "secure-attachment", "bridge-intentionalita"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "theory-of-mind"
 toc = false
 +++

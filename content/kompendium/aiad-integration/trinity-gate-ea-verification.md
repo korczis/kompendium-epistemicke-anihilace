@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["qeve-ea-quality-validation", "decision-engine-ea-calibration", "nabla-infinity-ea-pipeline", "white-team-ea-verification", "epistemic-pipeline-ea-detection"]
-parent = "kompendium-aiad-integration"
 toc = true
 +++
 
@@ -21,7 +20,7 @@ toc = true
 
 Glosář vysvětluje, proč brána existuje: řeší mezeru mezi tím, „co si model myslí“, a tím, „jak to skutečně je“. Statistická důvěra sama pro rozhodnutí s vysokou sázkou nestačí; systém si může být velmi jistý závěrem, který je strukturně nesoudržný, logicky rozporný nebo formálně nenutný. Trinity Gate proto vyžaduje nezávislé ověření ve třech navzájem kolmých dimenzích. V architektuře platformy stojí na přechodu mezi zkoumáním v [NABLA Infinity](@/kompendium/aiad-integration/nabla-infinity-ea-pipeline.md) a provedením.
 
-Brána 1 – **strukturní konzistence** – ověřuje, že síť přesvědčení tvoří orientovaný acyklický graf: žádné přesvědčení nesmí podpírat samo sebe přes řetěz dalších, každý závěr musí být dohledatelný k důkazům a protichůdné důkazy musí být v grafu výslovně zastoupeny. Brána 2 – **logická konzistence** – vyhodnocuje závěr podle pravidel a hledá rozpory. Brána 3 – **formální nutnost** – ověřuje pomocí modální logiky a formálních důkazů, zda závěr z premis nutně plyne, nebo je jen možný. Metavrstva kontroluje integritu samotného ověřování.
+Brána 1 – strukturní konzistence – ověřuje, že síť přesvědčení tvoří orientovaný acyklický graf: žádné přesvědčení nesmí podpírat samo sebe přes řetěz dalších, každý závěr musí být dohledatelný k důkazům a protichůdné důkazy musí být v grafu výslovně zastoupeny. Brána 2 – **logická konzistence** – vyhodnocuje závěr podle pravidel a hledá rozpory. Brána 3 – **formální nutnost** – ověřuje pomocí modální logiky a formálních důkazů, zda závěr z premis nutně plyne, nebo je jen možný. Metavrstva kontroluje integritu samotného ověřování.
 
 Původní verze této stránky popisovala bránu jinak – jako shodu tří vrstev různé povahy, z nichž každá vydá vlastní verdikt. Tato stránka se řídí podrobnějším popisem v glosáři; zachovává z původní verze poznatek, že brána se v plné hloubce používá pro rozhodnutí s vysokou sázkou a že nejednoznačný výsledek vyžaduje lidské posouzení.
 

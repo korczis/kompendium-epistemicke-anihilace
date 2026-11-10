@@ -1,0 +1,262 @@
+# Categories of the book: page types (typ), domains (oblast) and the EA families and
+# subfamilies (rodina, podrodina), all derived — never written on a page.
+#
+# The single source for scripts/build-graph.py, which gives every node of static/data/graph.json
+# its `typ`, `oblasti` and (for EA-coded pages) `rodina` and `podrodina`, and writes the
+# `categories` index (label, description, members) the site's category hubs and page chips read.
+# `build-graph.py --check` fails when a section of content/ has no `typ` row, so a new section
+# is introduced by adding a row here (extensible, enforced). Subfamily names come from the
+# technique registry (08-prilohy/rejstrik-technik.md: "### N.M Name" headings and the
+# "| `EA-N.M` | Name |" rows of its group tables); a subfamily without a name keeps its code.
+#
+# Row fields:
+#   typ.sections   section paths (relative to content/, as graph.json `section`); the longest
+#                  match wins; "root" is a page directly under content/
+#   oblast.sections / oblast.families   a node belongs to the domain when its section matches
+#                  or its EA family (EA-N) is listed; a node can belong to several domains
+
+schema = "kompendium-categories/v1"
+
+[[typ]]
+slug = "technika"
+label = "Technika"
+description = "Stránka jedné techniky katalogu EA s kódem, znaky, odlišením, obranou a zotavením."
+sections = ["kompendium/techniques"]
+
+[[typ]]
+slug = "karta-v-kostce"
+label = "Karta v kostce"
+description = "Krátká referenční karta k technice pro rychlé rozpoznání a první kroky obrany."
+sections = ["kompendium/quick-reference"]
+
+[[typ]]
+slug = "pojem"
+label = "Pojem"
+description = "Heslo glosáře: krátké shrnutí, definice a detailní výklad pojmu."
+sections = ["glossary"]
+
+[[typ]]
+slug = "most-pojmu"
+label = "Most pojmu"
+description = "Stránka, která spojuje pojem glosáře s kapitolami, technikami a praxí knihy."
+sections = ["kompendium/glossary-bridges"]
+
+[[typ]]
+slug = "most-sekci"
+label = "Most mezi sekcemi"
+description = "Stránka, která propojuje dvě části knihy nebo knihu s platformou."
+sections = ["kompendium/section-bridges"]
+
+[[typ]]
+slug = "mezioborovy-most"
+label = "Mezioborový most"
+description = "Stránka, která čte jev epistemické anihilace optikou jiného oboru."
+sections = ["kompendium/cross-domain"]
+
+[[typ]]
+slug = "kazuistika"
+label = "Kazuistika"
+description = "Anonymizovaná kompozitní kazuistika s průběhem, rozpoznáním a péčí."
+sections = ["kompendium/case-studies"]
+
+[[typ]]
+slug = "historicky-pripad"
+label = "Historický případ"
+description = "Doložený historický případ epistemického útoku s mechanismy, dopady a poučením."
+sections = ["kompendium/historical-cases"]
+
+[[typ]]
+slug = "mezinarodni-perspektiva"
+label = "Mezinárodní perspektiva"
+description = "Pohled jedné země, kultury nebo právního řádu na jevy, které kniha popisuje."
+sections = ["kompendium/international"]
+
+[[typ]]
+slug = "forenzni-pruvodce"
+label = "Forenzní a právní průvodce"
+description = "Stránka o dokazování, posudcích a právním rámci epistemických útoků."
+sections = ["kompendium/forensic-legal"]
+
+[[typ]]
+slug = "navod-sebeobrany"
+label = "Návod sebeobrany"
+description = "Návod k ochraně vlastního úsudku, vztahů, informační hygieny a identity."
+sections = ["kompendium/self-defense-guides"]
+
+[[typ]]
+slug = "krizovy-protokol"
+label = "Krizový protokol"
+description = "Akutní intervenční protokol pro krizi, s bezpečností a předáním odborné péči."
+sections = ["kompendium/emergency-protocols"]
+
+[[typ]]
+slug = "protokol-zotaveni"
+label = "Protokol zotavení"
+description = "Protokol dlouhodobého zotavení ve fázích od stabilizace po růst."
+sections = ["kompendium/recovery-protocols"]
+
+[[typ]]
+slug = "detekcni-signatura"
+label = "Detekční signatura"
+description = "Soubor pozorovatelných znaků, podle nichž lze techniku nebo kampaň rozpoznat."
+sections = ["kompendium/detection-signatures"]
+
+[[typ]]
+slug = "kriticka-perspektiva"
+label = "Kritická perspektiva"
+description = "Námitka proti knize nebo jejímu použití v nejsilnější podobě, s odpovědí a mezemi."
+sections = ["kompendium/critical-perspectives"]
+
+[[typ]]
+slug = "vzdelavaci-scenar"
+label = "Vzdělávací scénář"
+description = "Scénář pro výuku rozpoznání a obrany ve škole, na univerzitě nebo v profesním výcviku."
+sections = ["kompendium/educational-scenarios"]
+
+[[typ]]
+slug = "verejne-zdravi"
+label = "Studie veřejného zdraví"
+description = "Populační pohled: rizikové faktory, dopady a prevence na úrovni společnosti."
+sections = ["kompendium/population-health"]
+
+[[typ]]
+slug = "prevence"
+label = "Prevence a odolnost"
+description = "Stránka o budování odolnosti jednotlivců, skupin a institucí."
+sections = ["kompendium/prevention-resilience"]
+
+[[typ]]
+slug = "metodologie"
+label = "Výzkumná metodologie"
+description = "Stránka o tom, jak jevy knihy zkoumat, měřit a eticky studovat."
+sections = ["kompendium/research-methodology"]
+
+[[typ]]
+slug = "organizacni-obrana"
+label = "Organizační obrana"
+description = "Obrana institucí, týmů a organizací proti epistemickým útokům."
+sections = ["kompendium/organizational-defense"]
+
+[[typ]]
+slug = "aiad"
+label = "Integrace AIAD"
+description = "Stránka o propojení knihy s agentními systémy a jejich ověřováním."
+sections = ["kompendium/aiad-integration"]
+
+[[typ]]
+slug = "vizualizace"
+label = "Vizualizace"
+description = "Interaktivní pohled na strukturu knihy odvozený z odkazů a katalogu."
+sections = ["kompendium/visualizations"]
+
+[[typ]]
+slug = "filozofie"
+label = "Filozofický text"
+description = "Esej o filozofických základech knihy: suverenita úsudku, hranice a integrita poznání."
+sections = ["philosophy"]
+
+[[typ]]
+slug = "kapitola"
+label = "Kapitola knihy"
+description = "Kapitola hlavního textu knihy, od předmluvy po přílohy."
+sections = ["kompendium", "kompendium/01-predmluva", "kompendium/02-uvod",
+            "kompendium/03-zakladni-kategorie", "kompendium/04-terminalni-protokoly",
+            "kompendium/05-ultramari-techniky", "kompendium/06-klinicke-aplikace",
+            "kompendium/07-teoreticke-reflexe", "kompendium/08-prilohy"]
+
+[[typ]]
+slug = "stranka"
+label = "Stránka webu"
+description = "Obecná stránka webu knihy: o knize, licence, navigace."
+sections = ["root"]
+
+[[oblast]]
+slug = "klinicka-praxe"
+label = "Klinická praxe"
+description = "Rozpoznání, diagnostika, krizová intervence a zotavení v péči o člověka."
+sections = ["kompendium/06-klinicke-aplikace", "kompendium/emergency-protocols",
+            "kompendium/recovery-protocols", "kompendium/case-studies",
+            "kompendium/detection-signatures", "kompendium/04-klinika",
+            "kompendium/05-diagnostika"]
+families = ["EA-6", "EA-8"]
+
+[[oblast]]
+slug = "pravo-a-forenzni-praxe"
+label = "Právo a forenzní praxe"
+description = "Dokazování, posudky, odpovědnost a právní rámec epistemických útoků."
+sections = ["kompendium/forensic-legal"]
+
+[[oblast]]
+slug = "filozofie-a-teorie"
+label = "Filozofie a teorie"
+description = "Epistemologie, filozofie mysli, etika a teorie, které jevy knihy vysvětlují."
+sections = ["kompendium/07-teoreticke-reflexe", "philosophy", "kompendium/02-uvod",
+            "kompendium/cross-domain"]
+families = ["EA-7"]
+
+[[oblast]]
+slug = "etika-a-kritika"
+label = "Etika a kritika"
+description = "Etické meze knihy, námitky proti ní a podmínky odpovědného použití."
+sections = ["kompendium/critical-perspectives", "kompendium/01-predmluva"]
+
+[[oblast]]
+slug = "dejiny-a-pripady"
+label = "Dějiny a případy"
+description = "Historické a mezinárodní případy, na nichž lze mechanismy doložit."
+sections = ["kompendium/historical-cases", "kompendium/international",
+            "kompendium/case-studies"]
+
+[[oblast]]
+slug = "digitalni-prostredi"
+label = "Digitální prostředí"
+description = "Jazykové modely, syntetická média, algoritmy a platformy jako prostředí útoků."
+sections = ["kompendium/aiad-integration"]
+families = ["EA-9"]
+
+[[oblast]]
+slug = "obrana-a-prevence"
+label = "Obrana a prevence"
+description = "Sebeobrana, odolnost, prevence a obrana skupin a institucí."
+sections = ["kompendium/self-defense-guides", "kompendium/prevention-resilience",
+            "kompendium/organizational-defense", "kompendium/detection-signatures",
+            "kompendium/06-intervence-a-obrana", "kompendium/06-obrana"]
+
+[[oblast]]
+slug = "organizace-a-instituce"
+label = "Organizace a instituce"
+description = "Jak epistemické útoky zasahují instituce a jak se instituce brání."
+sections = ["kompendium/organizational-defense"]
+
+[[oblast]]
+slug = "vzdelavani"
+label = "Vzdělávání"
+description = "Výuka rozpoznání a obrany ve školách, na univerzitách a v profesním výcviku."
+sections = ["kompendium/educational-scenarios"]
+
+[[oblast]]
+slug = "verejne-zdravi"
+label = "Veřejné zdraví"
+description = "Populační dopady, rizikové faktory a prevence na úrovni společnosti."
+sections = ["kompendium/population-health", "kompendium/07-populacni",
+            "kompendium/05-kolektivni-rozmer"]
+
+[[oblast]]
+slug = "vyzkum-a-metodologie"
+label = "Výzkum a metodologie"
+description = "Jak jevy knihy zkoumat, měřit, ověřovat a eticky studovat."
+sections = ["kompendium/research-methodology"]
+
+[[oblast]]
+slug = "taxonomie-technik"
+label = "Taxonomie technik"
+description = "Katalog technik EA, jejich rodiny, podrodiny a karty v kostce."
+sections = ["kompendium/techniques", "kompendium/quick-reference",
+            "kompendium/03-zakladni-kategorie", "kompendium/04-terminalni-protokoly",
+            "kompendium/05-ultramari-techniky", "kompendium/08-prilohy"]
+
+[[oblast]]
+slug = "pojmy-a-propojeni"
+label = "Pojmy a propojení"
+description = "Glosář a mosty, které pojmy spojují s kapitolami, technikami a praxí."
+sections = ["glossary", "kompendium/glossary-bridges", "kompendium/section-bridges"]

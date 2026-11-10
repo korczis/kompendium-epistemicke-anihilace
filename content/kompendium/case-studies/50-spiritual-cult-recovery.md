@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["48-intelligence-totalizace", "49-religious-leadership", "51-new-age-recovery", "52-pseudoscience-recovery"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -235,7 +234,7 @@ rodič odchází sám; Langone (1993) tuto otázku klade, ale systematická data
 - Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
 - Lalich, J., & Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
 - Langone, M. D. (Ed.). (1993). *Recovery from Cults: Help for Victims of Psychological and Spiritual Abuse*. W. W. Norton.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Shear, M. K. (2015). Complicated grief. *New England Journal of Medicine*.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. Jossey-Bass.
 - WHO (World Health Organization). (2019). *International Classification of Diseases, 11th Revision (ICD-11)*. World Health Organization.

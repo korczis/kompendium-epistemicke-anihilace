@@ -11,12 +11,9 @@ tags = ["glossary", "epistemic", "kompendium", "anihilacni-fenomeny"]
 category = "epistemic"
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "metakognitivni-destrukce", "anankasticky-rezim"]
 author = "Tomáš Korcak (korczis)"
-reading_time = "5 min"
-word_count = 1054
 date_created = "2026-04-25"
 date_modified = "2026-11-10"
 keywords = ["epistemická alienace", "epistemic alienation", "cognitive alienation"]
-quality_score = 82
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"
 image_alt = "Epistemická alienace – glosář"
@@ -30,7 +27,7 @@ Fenomenologicky lidé v tomto stavu popisují:
 
 - **odtažité pozorování** vlastních myšlenek, jako by šlo o vnější jevy;
 - **zhroucení autenticity** – nejistotu, které myšlenky jsou „opravdu moje“ a které byly vštípeny, podmíněny nebo zmanipulovány;
-- **kognitivní depersonalizaci** – oslabený pocit, že jsem původcem a vlastníkem svého uvažování;
+- **[kognitivní depersonalizaci](@/glossary/kognitivni-depersonalizace.md)** – oslabený pocit, že jsem původcem a vlastníkem svého uvažování;
 - **závislost na potvrzení** – nutkavé hledání vnější autority, která by vlastní závěry „ověřila“;
 - **reflexivní podezíravost vůči sobě**, která rozkládá spontánní úsudek.
 

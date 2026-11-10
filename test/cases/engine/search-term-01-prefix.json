@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 563,
+        "in": 603,
         "kind": "Pojem",
         "path": "glossary/epistemicka-anihilace.md",
         "tier": 4,
@@ -15,7 +15,7 @@
       },
       {
         "code": null,
-        "in": 174,
+        "in": 177,
         "kind": "Pojem",
         "path": "glossary/epistemicke-trauma.md",
         "tier": 4,
@@ -25,17 +25,7 @@
       },
       {
         "code": null,
-        "in": 141,
-        "kind": "Filozofie",
-        "path": "philosophy/epistemic-integrity.md",
-        "tier": 4,
-        "title": "Epistemická integrita a uchování významu",
-        "url": "/philosophy/epistemic-integrity/",
-        "why": "title_prefix"
-      },
-      {
-        "code": null,
-        "in": 134,
+        "in": 138,
         "kind": "Pojem",
         "path": "glossary/epistemicka-singularita.md",
         "tier": 4,
@@ -45,12 +35,22 @@
       },
       {
         "code": null,
-        "in": 124,
+        "in": 130,
         "kind": "Pojem",
         "path": "glossary/epistemicka-injustice.md",
         "tier": 4,
         "title": "Epistemická injustice",
         "url": "/glossary/epistemicka-injustice/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 128,
+        "kind": "Filozofie",
+        "path": "philosophy/epistemic-integrity.md",
+        "tier": 4,
+        "title": "Epistemická integrita a uchování významu",
+        "url": "/philosophy/epistemic-integrity/",
         "why": "title_prefix"
       },
       {
@@ -65,7 +65,7 @@
       },
       {
         "code": null,
-        "in": 67,
+        "in": 76,
         "kind": "Pojem",
         "path": "glossary/epistemic-bubble.md",
         "tier": 4,
@@ -75,7 +75,7 @@
       },
       {
         "code": null,
-        "in": 60,
+        "in": 64,
         "kind": "Pojem",
         "path": "glossary/epistemicka-pokora.md",
         "tier": 4,
@@ -85,7 +85,7 @@
       },
       {
         "code": null,
-        "in": 55,
+        "in": 57,
         "kind": "Pojem",
         "path": "glossary/epistemicka-monokultura.md",
         "tier": 4,
@@ -95,7 +95,7 @@
       },
       {
         "code": null,
-        "in": 46,
+        "in": 44,
         "kind": "Pojem",
         "path": "glossary/epistemic-pipeline.md",
         "tier": 4,
@@ -105,7 +105,7 @@
       },
       {
         "code": null,
-        "in": 30,
+        "in": 36,
         "kind": "Pojem",
         "path": "glossary/epistemic-security.md",
         "tier": 4,
@@ -115,12 +115,12 @@
       },
       {
         "code": null,
-        "in": 30,
+        "in": 33,
         "kind": "Pojem",
-        "path": "glossary/epistemicka-bezdomovost.md",
+        "path": "glossary/epistemicka-agentnost.md",
         "tier": 4,
-        "title": "Epistemická bezdomovost",
-        "url": "/glossary/epistemicka-bezdomovost/",
+        "title": "Epistemická agentnost",
+        "url": "/glossary/epistemicka-agentnost/",
         "why": "title_prefix"
       }
     ],
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "Epi",
     "schema": "kompendium-engine/v1",
-    "total": 396
+    "total": 407
   },
   "input": {
     "op": "search",

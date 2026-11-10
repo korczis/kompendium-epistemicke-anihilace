@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["screening-instrumenty-detail", "self-report-instrumenty", "supervizni-ramce", "terapeuticke-pristupy"]
-parent = "kompendium-06-klinicke-aplikace"
 section_icon = "🏥"
 toc = true
 +++

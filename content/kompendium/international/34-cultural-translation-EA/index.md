@@ -8,7 +8,6 @@ tags = ["kompendium", "international", "terminology"]
 categories = ["academic", "international"]
 
 [extra]
-parent = "kompendium-international"
 toc = true
 +++
 
@@ -169,7 +168,7 @@ nebo o ochranu dítěte. Fricker (2007) by tu připomněla, že rozhodující je
 ## Literatura
 
 - American Psychiatric Association. (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). American Psychiatric Publishing.
-- Beaton, D. E., Bombardier, C., Guillemin, F., & Ferraz, M. B. (2000). Guidelines for the process of cross-cultural adaptation of [self-report](@/glossary/self-report.md) measures. *Spine*.
+- Beaton, D. E., Bombardier, C., Guillemin, F., & Ferraz, M. B. (2000). Guidelines for the process of cross-cultural adaptation of self-report measures. *Spine*.
 - Brislin, R. W. (1970). Back-translation for cross-cultural research. *Journal of Cross-Cultural Psychology*.
 - Doi, T. (1973). *The Anatomy of Dependence*. Kodansha International.
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.

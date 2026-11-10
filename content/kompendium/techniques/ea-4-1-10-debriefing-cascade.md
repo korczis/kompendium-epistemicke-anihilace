@@ -10,7 +10,6 @@ categories = ["academic", "research"]
 
 [extra]
 related_terms = ["ea-4-1-9-cohort-monitoring", "ea-4-1-5-reintegration-stage", "ea-4-1-7-termination-criteria", "ea-4-2-3-post-engagement-reintegration", "ea-4-2-9-decompensation-response"]
-parent = "kompendium-techniques"
 ea_code = "EA-4.1.10"
 ea_category = "4. Terminální protokoly"
 ea_subcategory = "4.1 Extrémní výcviková sekvence"

@@ -10,7 +10,6 @@ categories = ["academic", "research"]
 
 [extra]
 related_terms = ["ea-4-2-4-irb-review-multi-tier", "ea-4-2-5-whistleblower-protection", "ea-4-2-7-documentation-chain-custody", "ea-4-2-8-long-term-followup"]
-parent = "kompendium-techniques"
 ea_code = "EA-4.2.6"
 ea_category = "4. Terminální protokoly"
 ea_subcategory = "4.2 Bezpečnostní protokoly"

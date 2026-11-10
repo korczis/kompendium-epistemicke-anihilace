@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-1-1-2-informacni-pretizeni", "ea-7-3-1-kahneman-system12", "ea-7-3-10-tononi-iit", "ea-7-3-3-friston-active-inference", "ea-2-2-6-time-control-academic", "ea-5-1-10-temporalni-dekoherence"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.3.9"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.3 Kognitivní věda"

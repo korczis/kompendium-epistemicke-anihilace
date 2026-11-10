@@ -11,7 +11,6 @@ category = "epistemic"
 status = "active"
 author = "Tomas Korcak (korczis)"
 difficulty = "advanced"
-quality_score = 95
 technical_level = "advanced"
 domain_category = "epistemic-hygiene"
 related_concepts = ["nabla-infinity", "contradiction-preservation", "cherry-picking", "signal-plurality", "evidence-handling"]

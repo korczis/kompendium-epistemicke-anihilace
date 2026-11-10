@@ -9,7 +9,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["bridge-02-to-03-uvod-zakladni-kategorie", "bridge-03-to-05-zakladni-ultramari", "bridge-04-to-05-terminalni-ultramari", "bridge-01-to-04-eticky-ramec-protokoly"]
-parent = "kompendium-section-bridges"
 toc = false
 +++
 
@@ -99,7 +98,7 @@ Rozlišení mezi součtem technik a vzorcem má v literatuře přímou oporu. St
 ## Literatura
 
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 
 ## Související

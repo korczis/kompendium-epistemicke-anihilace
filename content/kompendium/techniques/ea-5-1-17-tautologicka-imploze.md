@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-5-1-15-apofaticke-zacykleni", "ea-5-1-16-inferencni-paralyza", "ea-5-1-18-solipsisticka-dekompozice", "ea-5-1-19-kvazi-mysticka-anihilace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.17"
 ea_category = "5. Ultramarinní techniky"
 ea_subcategory = "5.1 Epistemická singularita"

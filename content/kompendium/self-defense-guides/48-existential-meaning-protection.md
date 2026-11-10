@@ -9,7 +9,6 @@ categories = ["academic", "practical"]
 
 [extra]
 related_terms = ["44-axiology-clarification", "46-multiple-self-management", "47-identity-resilience-training", "28-community-engagement"]
-parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
@@ -96,7 +95,7 @@ Smysl není trvalý stav; i zdravý život prochází obdobími prázdnoty. Poku
 ## Literatura
 
 - Frankl, V. E. (1946/1959). *Man's Search for Meaning*. Beacon Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Park, C. L. (2010). Making sense of the meaning literature: An integrative review of meaning making and its effects on adjustment to stressful life events. *Psychological Bulletin*, 136(2), 257–301.
 - Schnell, T. (2009). The Sources of Meaning and Meaning in Life Questionnaire (SoMe): Relations to demographics and well-being. *The Journal of Positive Psychology*, 4(6), 483–499.
 - Steger, M. F., Frazier, P., Oishi, S., & Kaler, M. (2006). The Meaning in Life Questionnaire: Assessing the presence of and search for meaning in life. *Journal of Counseling Psychology*, 53(1), 80–93.

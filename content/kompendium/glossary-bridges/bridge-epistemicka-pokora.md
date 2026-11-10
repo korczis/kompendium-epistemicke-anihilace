@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["epistemicka-pokora", "epistemicka-alienace", "metakognice", "skepticismus", "pyrrhonismus", "bridge-metakognice"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "epistemicka-pokora"
 toc = false
 +++

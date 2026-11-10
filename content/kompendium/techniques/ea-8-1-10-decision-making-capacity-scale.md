@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["ea-8-1-1-bite-model-detail", "ea-8-1-5-epistemic-trust-scale", "ea-8-2-5-stark-coercive-control", "ea-7-3-1-kahneman-system12", "ea-8-1-9-metakognitivni-questionnaire", "ea-8-2-3-singer-six-conditions"]
-parent = "kompendium-techniques"
 ea_code = "EA-8.1.10"
 ea_category = "8. Přílohy"
 ea_subcategory = "8.1 Diagnostické nástroje"

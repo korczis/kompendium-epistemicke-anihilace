@@ -10,7 +10,6 @@ categories = ["academic", "research"]
 
 [extra]
 related_terms = ["ea-4-3-6-meta-conceptual-reset", "ea-4-3-7-paradigmatic-fluidization", "ea-4-3-9-axiological-suspension", "ea-4-4-1-narrative-disassembly"]
-parent = "kompendium-techniques"
 ea_code = "EA-4.3.8"
 ea_category = "4. Terminální protokoly"
 ea_subcategory = "4.3 Konceptuální dekonstrukce"

@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["metakognice", "metakognitivni-destrukce", "kognitivni-anti-rekurzivita", "epistemicka-pokora", "kognitivni-bias", "system-1-system-2"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "metakognice"
 toc = false
 +++

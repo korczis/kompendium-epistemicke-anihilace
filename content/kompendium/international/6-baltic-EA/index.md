@@ -8,7 +8,6 @@ tags = ["kompendium", "international", "regional"]
 categories = ["academic", "international"]
 
 [extra]
-parent = "kompendium-international"
 toc = true
 +++
 
@@ -185,7 +184,7 @@ k opatřením, která neodpovídají skutečnému riziku.
 - Kasekamp, A. (2010). *A History of the Baltic States*. Palgrave Macmillan.
 - Lieven, A. (1993). *The Baltic Revolution: Estonia, Latvia, Lithuania and the Path to Independence*. Yale University Press.
 - Misiunas, R. J., & Taagepera, R. (1993). *The Baltic States: Years of Dependence, 1940–1990* (rozšířené vydání). University of California Press.
-- Paul, C., & Matthews, M. (2016). *The Russian „[Firehose of Falsehood](@/glossary/firehose-of-falsehood.md)“ Propaganda Model*. RAND Corporation.
+- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ Propaganda Model*. RAND Corporation.
 - Rada Evropy. (2011). *Úmluva Rady Evropy o prevenci a potírání násilí vůči ženám a domácího násilí* (CETS č. 210). Rada Evropy.
 - Rid, T. (2013). *Cyber War Will Not Take Place*. Hurst.
 - Roozenbeek, J., & van der Linden, S. (2019). Fake news game confers psychological resistance against online misinformation. *Palgrave Communications*.

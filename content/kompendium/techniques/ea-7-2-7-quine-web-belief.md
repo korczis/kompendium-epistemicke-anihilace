@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-4-3-4-inferential-chain-breakage", "ea-4-3-6-meta-conceptual-reset", "ea-4-4-4-biographical-recontextualization", "ea-4-1-gaslighting", "ea-7-2-4-lakatos-research-program", "ea-7-2-8-davidson-charity"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.2.7"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.2 Analytická filozofie"

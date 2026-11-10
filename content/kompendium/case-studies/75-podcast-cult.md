@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["73-platform-cult", "74-influencer-cult", "76-youtuber-cult", "77-twitch-streamer-cult"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -232,7 +231,7 @@ nabízí rámec pro práci s odpovědností bez sebeodsouzení (Litz et al., 200
 - Berry, R. (2006). Will the iPod kill the radio star? Profiling podcasting as radio. *Convergence*.
 - Cohen, J. (2004). Parasocial break-up from favorite television characters. *Journal of Social and Personal Relationships*.
 - Coser, L. A. (1974). *Greedy Institutions: Patterns of Undivided Commitment*. Free Press.
-- Dutton, D. G., a Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md). *Victimology*.
+- Dutton, D. G., a Painter, S. L. (1981). Traumatic bonding. *Victimology*.
 - Ebaugh, H. R. F. (1988). *Becoming an Ex: The Process of Role Exit*. University of Chicago Press.
 - Edmondson, A. (1999). Psychological safety and learning behavior in work teams. *Administrative Science Quarterly*.
 - Festinger, L., Riecken, H. W., a Schachter, S. (1956). *When Prophecy Fails*. University of Minnesota Press.
@@ -245,7 +244,7 @@ nabízí rámec pro práci s odpovědností bez sebeodsouzení (Litz et al., 200
 - Kelman, H. C. (1958). Compliance, identification, and internalization. *Journal of Conflict Resolution*.
 - Lalich, J., a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
 - Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., a Cook, J. (2012). Misinformation and its correction. *Psychological Science in the Public Interest*.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Litz, B. T., et al. (2009). Moral injury and moral repair in war veterans. *Clinical Psychology Review*.
 - Marwick, A. E., a boyd, d. (2011). I tweet honestly, I tweet passionately. *New Media & Society*.
 - Maslach, C., a Leiter, M. P. (2016). Understanding the burnout experience. *World Psychiatry*.

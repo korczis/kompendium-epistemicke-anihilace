@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["58-tradwife-recovery", "59-political-cult-recovery", "61-corporate-leadership-cult", "62-startup-founder-cult"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -226,7 +225,7 @@ uzavřené výklady (Lewandowsky et al., 2012).
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
 - Le Bon, G. (1895). *Psychologie des foules*. Félix Alcan.
 - Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., a Cook, J. (2012). Misinformation and its correction: Continued influence and successful debiasing. *Psychological Science in the Public Interest*.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Litz, B. T., Stein, N., Delaney, E., Lebowitz, L., Nash, W. P., Silva, C., a Maguen, S. (2009). Moral injury and moral repair in war veterans: A preliminary model and intervention strategy. *Clinical Psychology Review*.
 - Miller, W. R., a Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). Guilford Press.
 - Nguyen, C. T. (2020). Echo chambers and epistemic bubbles. *Episteme*.

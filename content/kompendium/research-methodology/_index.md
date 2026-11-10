@@ -10,7 +10,6 @@ tags = ["kompendium", "research-methodology", "vyzkum", "metodologie"]
 categories = ["academic", "methodology", "research"]
 section_icon = "🔬"
 toc = true
-parent = "kompendium"
 +++
 
 # Výzkumná metodologie

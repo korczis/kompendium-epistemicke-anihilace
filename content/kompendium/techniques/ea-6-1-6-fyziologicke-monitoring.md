@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-1-4-observational-assessment", "ea-6-1-7-trauma-history-protokol", "ea-6-2-8-somatic-experiencing-protokol"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.1.6"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.1 Diagnostické techniky"

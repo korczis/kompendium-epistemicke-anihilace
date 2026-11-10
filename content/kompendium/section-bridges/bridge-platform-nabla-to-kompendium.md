@@ -9,7 +9,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["bridge-platform-decision-engine-to-kompendium", "bridge-02-to-07-uvod-teoreticke", "bridge-07-to-08-teorie-prilohy", "bridge-techniques-to-glossary"]
-parent = "kompendium-section-bridges"
 toc = false
 +++
 
@@ -22,7 +21,7 @@ NABLA Infinity (∇∞) je epistemický rámec Prismatic Platform, z níž kniha
 
 ## Co pokrývá platformová strana
 
-Sedm axiomů NABLA, jak je uvádí heslo [Axiomy NABLA](@/glossary/nabla-axioms.md), zní: **[pluralita signálů](@/glossary/signal-plurality.md)** (žádné přesvědčení bez nejméně dvou nezávislých signálů), **zachování rozporu** (protichůdné důkazy se nezahazují, ale reprezentují), **informativní absence** (chybějící údaj je také informace), **časový rozpad** (důkazy stárnou), **platnost neznáma** („nevím“ je přípustný výsledek), **nezávislost zdrojů** (zdroje se společným původem se počítají jako jeden) a **povinná provenience** (každé tvrzení musí být dohledatelné ke zdroji). Kapitola [2.6](@/kompendium/02-uvod/vztah-k-nabla.md) popisuje šestnáctiúrovňový proces od příjmu surových signálů po integrované vědění a páruje axiomy s technikami taxonomie, proti nimž chrání. Glosář nabízí také [most: NABLA Infinity](@/kompendium/glossary-bridges/bridge-nabla-infinity.md) a oddíl 07 stránku [computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md), která rámec zasazuje do formální epistemologie.
+Sedm axiomů NABLA, jak je uvádí heslo [Axiomy NABLA](@/glossary/nabla-axioms.md), zní: **[pluralita signálů](@/glossary/signal-plurality.md)** (žádné přesvědčení bez nejméně dvou nezávislých signálů), **zachování rozporu** (protichůdné důkazy se nezahazují, ale reprezentují), **[informativní absence](@/glossary/nabla-axioms.md)** (chybějící údaj je také informace), **[časový rozpad](@/glossary/nabla-axioms.md)** (důkazy stárnou), **[platnost neznáma](@/glossary/nabla-axioms.md)** („nevím“ je přípustný výsledek), **nezávislost zdrojů** (zdroje se společným původem se počítají jako jeden) a **[povinná provenience](@/glossary/nabla-axioms.md)** (každé tvrzení musí být dohledatelné ke zdroji). Kapitola [2.6](@/kompendium/02-uvod/vztah-k-nabla.md) popisuje šestnáctiúrovňový proces od příjmu surových signálů po integrované vědění a páruje axiomy s technikami taxonomie, proti nimž chrání. Glosář nabízí také [most: NABLA Infinity](@/kompendium/glossary-bridges/bridge-nabla-infinity.md) a oddíl 07 stránku [computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md), která rámec zasazuje do formální epistemologie.
 
 ## Co pokrývá Kompendium
 
@@ -72,7 +71,7 @@ Most se opírá o popis rámce v glosáři a v kapitole 2.6; údaje o provozu pl
 
 ## Literatura
 
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Cambridge, MA: Harvard University Press.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Cambridge, MA: Harvard University Press.
 - Heuer, R. J., Jr. (1999). *Psychology of Intelligence Analysis*. Washington, DC: Center for the Study of Intelligence, Central Intelligence Agency.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 

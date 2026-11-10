@@ -9,7 +9,6 @@ categories = ["academic", "tools"]
 
 [extra]
 related_terms = ["somaticke-vektory", "tom-exploitation", "scenar-h"]
-parent = "kompendium-03-zakladni-kategorie"
 section_icon = "📊"
 toc = false
 +++
@@ -19,14 +18,14 @@ toc = false
 Tato vizualizace patří k [sekci 03](@/kompendium/03-zakladni-kategorie/_index.md) a zobrazuje stránky technik rodiny EA-1, tedy [akademických technik](@/kompendium/03-zakladni-kategorie/kapitola-1.md), které kniha popisuje jako narušení běžných procesů poznávání – toho, jak člověk získává informace, jak je hodnotí, jak reviduje vlastní přesvědčení a jak ho ovlivňuje hlas, postoj a prostor. Graf není mapou toho, jak manipulace „postupuje“. Je to přehled vztahů mezi stránkami knihy, který má pozorovateli usnadnit, aby od jedné rozpoznané techniky došel k dalším, o nichž kniha píše v souvislosti s ní, a k jejich obraně. Vše, co graf ukazuje, je odvozeno z odkazů a katalogu knihy.
 
 <canvas id="section-03-progression" width="800" height="500"></canvas>
-<div id="progression-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="progression-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="section-03-progression" /> }}
 
 ## Co graf zobrazuje
 
 Každý **bod** je jedna stránka techniky z [katalogu technik](@/kompendium/techniques/_index.md), jejíž kód patří do rodiny EA-1. Rodinu určuje kód uvedený v textu nad grafem; kódy a názvy technik se čtou z cest a nadpisů stránek v grafu odkazů knihy, nikoli z ručně psaného seznamu. Když kniha přidá novou stránku techniky nebo nějakou přejmenuje, graf se při příštím sestavení webu změní sám. Kódová soustava, z níž rodiny a podrodiny vycházejí, je popsána v hesle [Taxonomie EA](@/glossary/taxonomie-ea.md) a v [rejstříku technik](@/kompendium/08-prilohy/rejstrik-technik.md).
 
-**Vodorovná osa** řadí body podle podrodiny, tedy podle druhého čísla kódu (EA-1.1, EA-1.2 …). Název podrodiny, který se zobrazí v legendě a v okně detailu, přebírá graf z katalogu technik: použije ten název, který u stránek dané podrodiny převažuje. **Svislá osa** nese úroveň rizika, kterou stránce přiřazuje katalog technik, v pořadí jeho legendy od nižších úrovní k vyšším; stránka bez uvedené úrovně se zařadí jako „neuvedeno“. **Barva** bodu kóduje podrodinu a nic jiného. Jacques Bertin ukázal, že poloha v rovině je nejsilnější vizuální proměnnou a barevný tón se hodí pro rozlišení kategorií, nikoli pro vyjádření pořadí (Bertin 1967); graf se tím řídí – pořadí rizika nese poloha, rozdíl mezi podrodinami tón.
+**Vodorovná osa** řadí body podle podrodiny, tedy podle druhého čísla kódu (EA-1.1, EA-1.2 …). Název podrodiny, který se zobrazí v legendě a v okně detailu, přebírá graf z katalogu technik: použije ten název, který u stránek dané podrodiny převažuje. **Svislá osa** nese úroveň rizika, kterou stránce přiřazuje katalog technik, v pořadí jeho legendy od nižších úrovní k vyšším; stránka bez uvedené úrovně se zařadí jako „neuvedeno“. Barva bodu kóduje podrodinu a nic jiného. Jacques Bertin ukázal, že poloha v rovině je nejsilnější vizuální proměnnou a barevný tón se hodí pro rozlišení kategorií, nikoli pro vyjádření pořadí (Bertin 1967); graf se tím řídí – pořadí rizika nese poloha, rozdíl mezi podrodinami tón.
 
 **Šedé čáry** spojují dvě techniky, mezi jejichž stránkami vede v knize odkaz, ať jedním, nebo oběma směry. Čára tedy neříká, že se techniky v praxi vyskytují společně, ani že jedna vede k druhé; říká jen, že autor při popisu jedné z nich považoval za potřebné odkázat na druhou. Takový odkaz obvykle znamená pojmovou příbuznost, společný výskyt popsaný v textu nebo podobnou obranu, ale může vyjadřovat i pouhý redakční zvyk. Název grafu vypisuje počet stránek a vazeb tak, jak je spočte skript z aktuálních dat.
 
@@ -64,11 +63,11 @@ Otevřenou otázkou zůstává, zda by šlo vazby mezi technikami ověřit nezá
 
 - Bertin, J. (1967). *Sémiologie graphique: Les diagrammes, les réseaux, les cartes*. Paris: Gauthier-Villars.
 - Cairo, A. (2016). *The Truthful Art: Data, Charts, and Maps for Communication*. New Riders.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Munzner, T. (2014). *Visualization Analysis and Design*. CRC Press.
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. Hutchinson.
 - Shneiderman, B. (1996). The eyes have it: A task by data type taxonomy for information visualizations. In *Proceedings of the IEEE Symposium on Visual Languages*, 336–343.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Tufte, E. R. (1983). *The Visual Display of Quantitative Information*. Graphics Press.
 
 ## Související

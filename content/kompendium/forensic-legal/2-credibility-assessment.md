@@ -9,7 +9,6 @@ categories = ["academic", "legal", "clinical"]
 
 [extra]
 related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
-parent = "kompendium-forensic-legal"
 toc = true
 +++
 
@@ -203,7 +202,7 @@ nestrannost.
 
 - Bond, C. F., a DePaulo, B. M. (2006). Accuracy of deception judgments. *Personality and Social Psychology Review*.
 - Ceci, S. J., a Bruck, M. (1995). *Jeopardy in the Courtroom: A Scientific Analysis of Children's Testimony*. American Psychological Association.
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
 - Freyd, J. J. (1997). Violations of power, adaptive blindness, and betrayal trauma theory. *Feminism & Psychology*.
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
 - Gudjonsson, G. H. (2003). *The Psychology of Interrogations and Confessions: A Handbook*. Wiley.

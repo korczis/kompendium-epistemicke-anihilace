@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-6-transcendentalni-rekursivita", "ea-5-2-7-kategorialni-disoluce", "ea-5-2-9-konceptualni-aporie", "ea-5-3-1-identitarni-substituce"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.8"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
@@ -41,7 +40,7 @@ Perspektiva v transcendentálním smyslu (Husserl, Merleau-Ponty) není pouze **
 
 EA-5.2.8 je odlišná od **změny perspektivy** (přijetí jiného pohledu) a od **multi-perspektivismu** (uznání mnoha pohledů). V obou těchto případech **schopnost** zaujímat perspektivu zůstává intaktní. EA-5.2.8 destruuje samotnou schopnost.
 
-V kontrastu s [EA-5.2.16 aperspektivistickou saturací](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-16-aperspektivisticka-saturace), kde subjekt **přijímá všechny perspektivy současně**, perspektivistický kolaps neoperuje skrze přesycení, ale skrze **vyčerpání** perspektivní funkce. Subjekt nemá žádnou perspektivu, ne mnoho.
+Perspektivistický kolaps neoperuje skrze přesycení – stav, v němž by subjekt přijímal všechny perspektivy současně –, ale skrze **vyčerpání** perspektivní funkce. Subjekt nemá žádnou perspektivu, ne mnoho. Pro přesycení perspektivami katalog technik samostatnou položku nevede; sousední techniky podtřídy shrnuje [kompaktní taxonomie kapitoly 7](@/kompendium/05-ultramari-techniky/kapitola-7.md#kompaktni-taxonomie-ea-5-2-11-az-5-2-30).
 
 ## Operační modus
 
@@ -161,14 +160,12 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
 
 ### Často se kombinuje s
 
-- **[EA-5.2.16 Aperspektivistická saturace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-16-aperspektivisticka-saturace)** — kompenzační reakce na kolaps.
-- **[EA-5.2.21 Transcendentální solipsismus](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-21-transcendentalni-solipsismus)** — opačný extrém: vše je *moje*, ale Já samo je vyprázdněné.
 - **[EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)** — strukturní podobnost na úrovni hyperreflexivního přesouvání.
 
 ### Eskaluje do
 
-- **[EA-5.2.30 Metatranscendentální terminace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-metatranscendentalni-terminace)** — terminální stav.
-- **[EA-5.2.12 Apercepční roztržka](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-12-apercepcni-roztrzka)** — rozpad transcendentální jednoty apercepce.
+- **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-konvergentni-meta-singularita)** — terminální stav podtřídy 5.2, v němž se sbíhají dílčí poškození [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) až [EA-5.2.29](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md).
+- **[EA-5.2.20 Apperceptivní rozklad](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-20-apperceptivni-rozklad)** — rozpad transcendentální jednoty apercepce.
 
 ## Vztah k Prismatic platformě
 
@@ -182,8 +179,6 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
 - **Sourozenecké techniky**:
   - [EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)
   - [EA-5.2.9 Konceptuální aporie](@/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md)
-  - [EA-5.2.16 Aperspektivistická saturace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-16-aperspektivisticka-saturace)
-  - [EA-5.2.21 Transcendentální solipsismus](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-21-transcendentalni-solipsismus)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)

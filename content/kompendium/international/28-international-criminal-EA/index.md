@@ -8,7 +8,6 @@ tags = ["kompendium", "international", "legal"]
 categories = ["academic", "international"]
 
 [extra]
-parent = "kompendium-international"
 toc = true
 +++
 
@@ -207,7 +206,7 @@ univerzální jurisdikci, je často nejrealističtější cestou k řízení (Sc
 - Des Forges, A. (1999). *Leave None to Tell the Story: Genocide in Rwanda*. Human Rights Watch.
 - Gordon, G. S. (2017). *Atrocity Speech Law: Foundation, Fragmentation, Fruition*. Oxford University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Melzer, N. (2020). *Report of the Special Rapporteur on torture and other cruel, inhuman or degrading treatment or punishment: Psychological torture*. United Nations Human Rights Council.
 - OHCHR (2022). *Istanbul Protocol: Manual on the Effective Investigation and Documentation of Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment* (revidované vydání). United Nations.
 - Schabas, W. A. (2016). *The International Criminal Court: A Commentary on the Rome Statute* (2. vyd.). Oxford University Press.

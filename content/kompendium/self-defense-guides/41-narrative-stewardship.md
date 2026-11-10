@@ -9,7 +9,6 @@ categories = ["academic", "practical"]
 
 [extra]
 related_terms = ["42-relational-anchors", "43-memory-archive", "45-life-story-integration", "49-temporal-self-stitching"]
-parent = "kompendium-self-defense-guides"
 toc = true
 +++
 

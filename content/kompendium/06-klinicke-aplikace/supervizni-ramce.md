@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["self-report-instrumenty", "semi-structured-interview-protokol", "terapeuticke-pristupy", "visualizations"]
-parent = "kompendium-06-klinicke-aplikace"
 section_icon = "🏥"
 toc = true
 access_level = "L2"

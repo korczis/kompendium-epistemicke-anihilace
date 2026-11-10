@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["censys", "shodan", "greynoise", "easm", "osint", "signal-plurality"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "censys"
 toc = false
 +++

@@ -9,7 +9,6 @@ categories = ["academic", "legal", "clinical"]
 
 [extra]
 related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
-parent = "kompendium-forensic-legal"
 toc = true
 +++
 
@@ -183,12 +182,12 @@ ale shoda na tom, jakou odpovědnost mají nést platformy, zatím nepanuje.
 
 - Barendt, E. (2005). *Freedom of Speech*. Oxford University Press.
 - Citron, D. K. (2014). *Hate Crimes in Cyberspace*. Harvard University Press.
-- Freyd, J. J. (1997). Violations of power, adaptive blindness, and [betrayal trauma](@/glossary/betrayal-trauma.md) theory. *Feminism & Psychology*.
+- Freyd, J. J. (1997). Violations of power, adaptive blindness, and betrayal trauma theory. *Feminism & Psychology*.
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Pring, G. W., a Canan, P. (1996). *SLAPPs: Getting Sued for Speaking Out*. Temple University Press.
 - Solove, D. J. (2007). *The Future of Reputation: Gossip, Rumor, and Privacy on the Internet*. Yale University Press.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 

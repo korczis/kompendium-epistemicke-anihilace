@@ -13,9 +13,11 @@
 #                                        there, as an index-only blob when someone is editing it
 #   scripts/verify-content.sh --help     this text
 #
-# Gates: migrate-content, normalize-front-matter, polish-markdown, link-terms, check-ia,
-# build-references, build-graph, build-ui-data, build-readme (when present), zola build,
-# graph urls resolve, test/run.sh. The export is deleted afterwards.
+# Gates: migrate-content, normalize-front-matter (and its schema table), polish-markdown,
+# link-terms, check-ia, build-references, build-graph, build-ui-data, build-readme (when present),
+# zola build, build-surfaces, build-engine-fixtures, graph urls resolve, test/ staged,
+# test/run.sh. The export is
+# deleted afterwards.
 set -euo pipefail
 
 case "${1:-}" in
@@ -56,12 +58,16 @@ if [ "$fix" = --fix ]; then
 fi
 step "migrate-content --check"    python3 scripts/migrate-content.py --check
 step "normalize-front-matter"     python3 scripts/normalize-front-matter.py --check
+step "front-matter schema doc"   python3 scripts/normalize-front-matter.py --doc --check
 step "polish-markdown"            python3 scripts/polish-markdown.py --check
 step "link-terms"                 python3 scripts/link-terms.py --check
 if [ "$fix" = --fix ]; then
   step "build-references"         python3 scripts/build-references.py
   step "build-graph"              python3 scripts/build-graph.py
   step "build-ui-data"            python3 scripts/build-ui-data.py
+  if [ -f scripts/build-engine-fixtures.py ]; then
+    step "build-engine-fixtures"  python3 scripts/build-engine-fixtures.py
+  fi
   # README's derived section table (dev-31's generator); it reads graph.json and metrics.json.
   if [ -f scripts/build-readme.py ]; then step "build-readme" python3 scripts/build-readme.py; fi
 fi
@@ -69,10 +75,18 @@ step "check-ia"                   python3 scripts/check-ia.py
 step "build-references --check"   python3 scripts/build-references.py --check
 step "build-graph --check"        python3 scripts/build-graph.py --check
 step "build-ui-data --check"      python3 scripts/build-ui-data.py --check
+if [ -f scripts/build-engine-fixtures.py ]; then
+  step "build-engine-fixtures --check" python3 scripts/build-engine-fixtures.py --check
+fi
 if [ -f scripts/build-readme.py ]; then
   step "build-readme --check"     python3 scripts/build-readme.py --check
 fi
 step "zola build"                 zola build --force -o "$work/.out"
+# The catalogue of interactive surfaces reads the built site (dev-31's and 2e's gate in CI).
+if [ "$fix" = --fix ]; then
+  step "build-surfaces"           python3 scripts/build-surfaces.py --site "$work/.out"
+fi
+step "build-surfaces --check"     python3 scripts/build-surfaces.py --check --site "$work/.out"
 # Every URL the derived data hands to the site's surfaces must be a page Zola built.
 step "graph urls resolve"         python3 -c '
 import json, pathlib, sys
@@ -80,17 +94,26 @@ nodes = json.load(open("static/data/graph.json"))["nodes"]
 missing = [n["url"] for n in nodes if not (pathlib.Path(sys.argv[1]) / n["url"].strip("/") / "index.html").exists()]
 print(f"{len(missing)} of {len(nodes)} graph urls have no built page", *missing[:10], sep="\n")
 sys.exit(1 if missing else 0)' "$work/.out"
-# The cases export the index themselves and need the repository, so they run from its root.
-step "test/run.sh"                bash "$root/test/run.sh"
-
 if [ "$fix" = --fix ]; then
   python3 scripts/check-ia.py --update-baseline >/dev/null
   cp scripts/ia-baseline.json "$root/scripts/ia-baseline.json"
   cp static/data/*.json "$root/static/data/"
   cp content/references.md "$root/content/references.md"
   derived="scripts/ia-baseline.json static/data content/references.md"
+  if [ -f scripts/build-engine-fixtures.py ]; then
+    rm -rf "$root/test/cases/engine" && cp -R test/cases/engine "$root/test/cases/engine"
+    derived="$derived test/cases/engine"
+  fi
   if [ -f scripts/build-readme.py ]; then cp README.md "$root/README.md"; derived="$derived README.md"; fi
   (cd "$root" && git add $derived)
   echo "verify-content: derived files regenerated from the staged tree and staged"
 fi
+# test/run.sh's cases export the repository index (not $work), so with --fix the derived files
+# are staged HERE, before it, or case 02 (build-surfaces --check) reads a stale surfaces.json.
+# The cases export the index themselves and need the repository, so they run from its root;
+# the case scripts are read from the work tree, so an unstaged change there would run instead
+# of the committed one (2026-11-10: an unstaged case ran against a tree without its code).
+step "test/ is staged"            git -C "$root" diff --quiet -- test/
+step "test/run.sh"                bash "$root/test/run.sh"
+
 echo "verify-content: the staged tree passes every content gate"

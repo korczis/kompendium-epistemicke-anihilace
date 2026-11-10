@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-1-1-screening-strukturalni-rozhovor", "ea-6-1-3-collateral-interview", "ea-6-1-10-epistemicka-trust-assessment", "ea-8-1-8-traumatic-stress-screen"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.1.2"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.1 Diagnostické techniky"

@@ -12,7 +12,6 @@ related_terms = ["epistemicke-trauma", "c-ptsd", "betrayal-trauma", "retraumatiz
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
-quality_score = 80
 +++
 
 # Trauma – protokol zotavení z epistemického traumatu

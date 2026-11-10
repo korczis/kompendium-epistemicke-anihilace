@@ -65,6 +65,12 @@ odkazem.
   `detail` (prahy ze `zola.toml`), `generated`, `weak-link`, `summary`, `term-page`,
   `hardcoded-path`; požadavky na odstavce a citace (`bullets`, `citations`, `bibliography`,
   `citation-unresolved`, `technique-page`) přidává session 2e do téže brány přes `--introduce`.
+- Odstavec, který pouze vyslovuje vlastní rámec knihy (ne tvrzení o světě), smí místo citace
+  odkázat na stránku s metodou nebo etikou knihy, a jen na ni: `01-predmluva/eticke-aspekty`,
+  `01-predmluva/jak-pouzivat`, `08-prilohy/eticky-kodex` nebo `02-uvod/metodologicke-poznamky`.
+  Výjimka má strop (nejvýš tři takové odstavce na stránku), aby nenahrazovala doložení; vynucuje
+  ji `citations` ve `scripts/check-ia.py` (profil `own_frame`, test 18). Vznikla proto, že jinak
+  pisatelé lepili citaci (typicky „Lifton, 1961“) i na věty o samotném rámci knihy.
 - Reference musí odkazovat na skutečně existující díla (pravidlo
   `project.content-sources-verifiable`); kde jistota chybí, myšlenka zůstane bez citace a do
   hlášení se zapíše, co bylo vynecháno. Vymyšlená reference je horší než žádná.

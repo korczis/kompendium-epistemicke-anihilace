@@ -10,7 +10,6 @@ tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
 categories = ["academic", "clinical", "emergency"]
 section_icon = "🚨"
 toc = true
-parent = "kompendium"
 access_level = "L1"
 status = "in-progress"
 +++

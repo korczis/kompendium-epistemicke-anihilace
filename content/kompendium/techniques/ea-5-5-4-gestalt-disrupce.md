@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-5-3-atmosfericka-modulace", "ea-5-5-30-konvergentni-singularita-transkonceptualni", "ea-5-5-5-pre-temporalni-rozpojeni", "ea-5-5-6-konvergentni-pre-konceptualni"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.5.4"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.5 Transkonceptuální mechanismy"

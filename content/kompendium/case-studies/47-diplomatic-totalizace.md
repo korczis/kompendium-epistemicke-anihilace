@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["45-celebrity-totalizace", "46-political-totalizace", "48-intelligence-totalizace", "49-religious-leadership"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -219,13 +218,13 @@ jeho legitimní hodnotou, zároveň brání tomu, aby se problém dostal na povr
 - Goffman, E. (1961). *Asylums: Essays on the Social Situation of Mental Patients and Other Inmates*. Anchor Books.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Hochschild, A. R. (1983). *The Managed Heart: Commercialization of Human Feeling*. University of California Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Neumann, I. B. (2012). *At Home with the Diplomats: Inside a European Foreign Ministry*. Cornell University Press.
 - Oberg, K. (1960). Cultural shock: Adjustment to new cultural environments. *Practical Anthropology*.
 - Seligman, M. E. P. (1975). *Helplessness: On Depression, Development, and Death*. W. H. Freeman.
 - Sierra, M. (2009). *Depersonalization: A New Look at a Neglected Syndrome*. Cambridge University Press.
 - Simmel, G. (1906). The sociology of secrecy and of secret societies. *American Journal of Sociology*.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - WHO (World Health Organization). (2019). *International Classification of Diseases, 11th Revision (ICD-11)*. World Health Organization.
 
 ## Související

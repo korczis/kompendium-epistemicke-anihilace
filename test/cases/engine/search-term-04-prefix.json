@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 325,
+        "in": 317,
         "kind": "Pojem",
         "path": "glossary/color-teams.md",
         "tier": 4,
@@ -55,6 +55,16 @@
       },
       {
         "code": null,
+        "in": 9,
+        "kind": "Pojem",
+        "path": "glossary/integrative-collapse.md",
+        "tier": 5,
+        "title": "Integrative collapse (integrativní kolaps)",
+        "url": "/glossary/integrative-collapse/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
         "in": 6,
         "kind": "Most",
         "path": "kompendium/glossary-bridges/bridge-color-teams.md",
@@ -75,16 +85,6 @@
       },
       {
         "code": null,
-        "in": 5,
-        "kind": "Pojem",
-        "path": "glossary/integrative-collapse.md",
-        "tier": 5,
-        "title": "Integrative collapse (integrativní kolaps)",
-        "url": "/glossary/integrative-collapse/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
         "in": 2,
         "kind": "Most",
         "path": "kompendium/glossary-bridges/bridge-metanarrative-collapse.md",
@@ -95,7 +95,7 @@
       },
       {
         "code": null,
-        "in": 84,
+        "in": 83,
         "kind": "Pojem",
         "path": "glossary/blue-team.md",
         "tier": 6,
@@ -116,11 +116,11 @@
       {
         "code": null,
         "in": 35,
-        "kind": "Kapitola",
-        "path": "kompendium/01-predmluva/vztah-k-platforme.md",
+        "kind": "Pojem",
+        "path": "glossary/replication-crisis.md",
         "tier": 6,
-        "title": "1.6 Vztah ke Prismatic Platformě",
-        "url": "/kompendium/01-predmluva/vztah-k-platforme/",
+        "title": "Replikační krize (replication crisis)",
+        "url": "/glossary/replication-crisis/",
         "why": "description"
       }
     ],

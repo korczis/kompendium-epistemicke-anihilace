@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["narativ", "subacute-trust-rebuilding", "midterm-identity-reconstruction", "narativni-terapie", "narrative-trauma", "internalizovany-pachatel"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "subacute"
 +++

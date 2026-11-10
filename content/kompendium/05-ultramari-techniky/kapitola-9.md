@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["kapitola-7", "kapitola-8", "motte-bailey", "narrativni-trauma"]
-parent = "kompendium-05-ultramari-techniky"
 section_icon = "🚨"
 toc = true
 access_level = "L3-L4"

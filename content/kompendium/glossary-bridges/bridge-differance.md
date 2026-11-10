@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["differance", "communicative-rationality", "ideal-speech-situation", "motte-and-bailey", "metanarrative-collapse", "hermeneutika"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "differance"
 toc = false
 +++

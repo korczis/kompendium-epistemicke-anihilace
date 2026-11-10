@@ -11,7 +11,6 @@ category = "forensic"
 status = "active"
 author = "Tomas Korcak (korczis)"
 difficulty = "intermediate"
-quality_score = 92
 abbreviation = "CoC"
 date_created = "2026-05-03"
 date_updated = "2026-11-10"

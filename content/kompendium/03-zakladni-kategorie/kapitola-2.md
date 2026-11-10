@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["intencionalita", "kapitola-1", "kapitola-3", "lakatos"]
-parent = "kompendium-03-zakladni-kategorie"
 section_icon = "🎯"
 toc = true
 +++
@@ -208,7 +207,7 @@ Scénář kolektivní epistemické delegitimizace reprezentuje systematický pro
 
 **Fáze 2 — Narušení hranic a legitimizace externích agentů**: Systematické oslabování mechanismů udržování hranic a etablování externích agentů jako „legitimních participantů“. Klíčové techniky: exploitace inkluzivní rétoriky komunity, apel na „svobodnou diskusi“, strategická adopce povrchních markerů norem, „noha ve dveřích“. Komunita zažívá mírně zvýšené napětí; vznikají iniciální linie zlomu.
 
-**Fáze 3 — Epistemická fragmentace a polarizace**: Systematická introdukce rozdělujících otázek polarizujících komunitu. Klíčové techniky: strategicky formulované „hraniční problémy“, amplifikace drobných neshod, „klínové problémy“, falešná ekvivalence mezi centrálními a periferními standardy. Diskuse se stávají emočně nabitými, formují se podskupiny.
+**Fáze 3 — [Epistemická fragmentace](@/glossary/epistemicka-fragmentace.md) a polarizace**: Systematická introdukce rozdělujících otázek polarizujících komunitu. Klíčové techniky: strategicky formulované „hraniční problémy“, amplifikace drobných neshod, „klínové problémy“, falešná ekvivalence mezi centrálními a periferními standardy. Diskuse se stávají emočně nabitými, formují se podskupiny.
 
 **Fáze 4 — Delegitimizace centrálních autorit**: Systematické podkopávání kredibility klíčových postav prostřednictvím koordinovaných kampaní. Klíčové techniky: strategie „jen se ptám“, selektivní extrakce historických výroků, exploitace úsudkových pochybení, koordinované útoky z více stran simultánně. Klíčoví členové zažívají defenzivnost a úzkost; komunita prožívá dezorientaci.
 

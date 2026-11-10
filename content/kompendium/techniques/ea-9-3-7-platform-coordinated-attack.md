@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-2-3-6-platform-coordinated-attack", "ea-9-4-7-cross-platform-bot-cascade", "ea-9-4-2-coordinated-inauthentic-behavior", "ea-9-3-10-trend-manipulation-EA"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.3.7"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.3 Sociální platformy"

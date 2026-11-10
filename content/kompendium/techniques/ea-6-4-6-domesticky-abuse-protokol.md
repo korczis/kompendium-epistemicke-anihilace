@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-3-2-externalizacni-faze", "ea-6-3-8-relacni-restaurace", "ea-8-2-5-stark-coercive-control"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.4.6"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.4 Vulnerabilní populace"

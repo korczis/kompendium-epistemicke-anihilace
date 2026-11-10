@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-2-4-image-manipulation-EA", "ea-9-2-10-AI-personhood-claim", "ea-9-1-6-llm-source-attribution-bypass"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.2.9"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.2 Generativní média"

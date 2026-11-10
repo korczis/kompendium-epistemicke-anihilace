@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["hyperreality", "simulacra", "deepfake", "ontologicka-anihilace", "konsenzualni-realita", "bridge-simulacra"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "hyperreality"
 toc = false
 +++

@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-27-autobiografi-self-fragmentace", "ea-5-3-27-ego-skeletalni-redukce", "ea-5-3-29-simulakralni-self-substituce", "ea-5-3-3-rolova-fragmentace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.28"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"

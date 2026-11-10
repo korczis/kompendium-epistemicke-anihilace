@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-2-2-mentee-isolation", "ea-2-2-3-thesis-direction-capture", "ea-2-4-10-disciplinary-society-capture", "ea-2-4-9-curriculum-capture", "demarkacni-problem", "epistemicka-monokultura"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.2.9"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.2 Pedagogická koerce"

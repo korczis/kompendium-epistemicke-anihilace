@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["12-leadership-cult", "13-mlm-recovery", "15-zdravotnicky-iatrogen", "16-psychoterapeut-totalizace"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -191,7 +190,7 @@ a tato mezera trvá.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Illouz, E. (2008). *Saving the Modern Soul: Therapy, Emotions, and the Culture of Self-Help*. University of California Press.
 - Lieberman, M. A., Yalom, I. D., a Miles, M. B. (1973). *Encounter Groups: First Facts*. Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Masters, R. A. (2010). *Spiritual Bypassing: When Spirituality Disconnects Us from What Really Matters*. North Atlantic Books.
 - Pilcher, J. J., a Huffcutt, A. I. (1996). Effects of sleep deprivation on performance: A meta-analysis. *Sleep*, 19(4).
 - Salerno, S. (2005). *Sham: How the Self-Help Movement Made America Helpless*. Crown.

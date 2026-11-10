@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["ea-8-3-6-contemporary-cases", "ea-8-3-5-historical-cases", "ea-8-3-1-foundational-readings", "ea-8-3-3-philosophical-canon", "ea-7-3-2-tversky-heuristics", "ea-7-2-9-williams-truthfulness"]
-parent = "kompendium-techniques"
 ea_code = "EA-8.3.10"
 ea_category = "8. Přílohy"
 ea_subcategory = "8.3 Bibliografie"

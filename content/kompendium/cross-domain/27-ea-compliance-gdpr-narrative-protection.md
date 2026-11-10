@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["3-ea-osint-justice-cz-screening", "11-ea-dd-decision-engine-calibration", "4-ea-osint-sanctions-list-bias", "29-ea-compliance-kyc-narrative-validation"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 

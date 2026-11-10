@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["05-vedecka-disinflation", "06-cult-recovery-12-let", "08-gaslighting-partnersky", "09-rezidualni-totalitarni-trauma"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -204,9 +203,9 @@ prozkoumaná.
 - American Psychological Association (2017). *Ethical Principles of Psychologists and Code of Conduct*. APA.
 - Bateson, G., Jackson, D. D., Haley, J., a Weakland, J. (1956). Toward a theory of schizophrenia. *Behavioral Science*, 1(4).
 - Bowen, M. (1978). *Family Therapy in Clinical Practice*. Jason Aronson.
-- Courtois, C. A., a Ford, J. D. (Eds.) (2009). *Treating Complex Traumatic Stress Disorders: An [Evidence-Based](@/glossary/evidence-based.md) Guide*. Guilford Press.
-- Dutton, D. G., a Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md): The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6.
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Courtois, C. A., a Ford, J. D. (Eds.) (2009). *Treating Complex Traumatic Stress Disorders: An Evidence-Based Guide*. Guilford Press.
+- Dutton, D. G., a Painter, S. L. (1981). Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
 - Freyd, J. J. (1997). Violations of power, adaptive blindness and betrayal trauma theory. *Feminism & Psychology*, 7(1).
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Johnson, M. K., Hashtroudi, S., a Lindsay, D. S. (1993). Source monitoring. *Psychological Bulletin*, 114(1).

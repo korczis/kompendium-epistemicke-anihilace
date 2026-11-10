@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["entity-resolution", "due-diligence", "doxing", "osint", "sanctions-screening", "intelligence-fusion"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "entity-resolution"
 toc = false
 +++

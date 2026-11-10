@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-3-2-externalizacni-faze", "ea-6-3-7-identitni-rekonstituce", "ea-8-2-2-lifton-thought-reform-criteria", "ea-8-2-4-hassan-cult-criteria"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.4.2"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.4 Vulnerabilní populace"

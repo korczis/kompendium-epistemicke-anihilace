@@ -10,7 +10,6 @@ categories = ["academic", "research"]
 
 [extra]
 related_terms = ["ea-4-1-10-debriefing-cascade", "ea-4-1-2-exposure-stage", "ea-4-1-4-mastery-stage", "ea-4-1-5-reintegration-stage"]
-parent = "kompendium-techniques"
 ea_code = "EA-4.1.3"
 ea_category = "4. Terminální protokoly"
 ea_subcategory = "4.1 Extrémní výcviková sekvence"

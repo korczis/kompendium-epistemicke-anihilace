@@ -196,8 +196,8 @@ interpretací, nikoli soudním hodnocením jednotlivých případů.
 - Edmondson, S. (2019). *Scarred: The True Story of How I Escaped NXIVM, the Cult That Bound My Life*.
 - Hassan, S. (2015). *Combating Cult Mind Control* (rozšířené vydání; původně 1988). Freedom of Mind Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Oxenberg, C. (2018). *Captive: A Mother's Fight to Save Her Daughter from the NXIVM Cult*. Gallery Books.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. Jossey-Bass.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.

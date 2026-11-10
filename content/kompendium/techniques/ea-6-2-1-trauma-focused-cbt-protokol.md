@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-2-4-metacognitive-therapy-protokol", "ea-6-2-2-emdr-protokol", "ea-6-2-6-dbt-distress-tolerance", "ea-6-3-1-stabilizacni-faze-protokol", "ea-8-2-10-herman-recovery-stages"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.2.1"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.2 Terapeutické intervence"

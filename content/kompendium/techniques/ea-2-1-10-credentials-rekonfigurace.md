@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-1-3-credentialing-attack", "ea-2-4-5-evaluation-criteria-rewrite", "ea-2-4-2-policy-rewriting-skryta", "ea-2-1-7-institucionalni-vyloucenni", "delegitimizace", "testimonialni-nespravedlnost"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.1.10"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.1 Expertní diskvalifikace"

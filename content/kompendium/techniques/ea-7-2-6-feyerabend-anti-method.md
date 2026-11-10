@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-2-5-4-radical-relativism-internalize", "ea-2-5-5-bothsidesizm-internalizace", "ea-1-2-2-falesna-ekvivalence", "ea-7-2-5-kuhn-paradigm-shift", "ea-7-2-3-popper-falsification", "ea-7-2-2-goldman-veritism"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.2.6"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.2 Analytická filozofie"

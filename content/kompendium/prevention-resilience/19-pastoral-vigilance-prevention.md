@@ -9,7 +9,6 @@ categories = ["academic", "prevention"]
 
 [extra]
 related_terms = ["18-clinical-vigilance-prevention", "28-spiritual-restoration-prevention", "4-community-resilience-EA", "spiritual-bypassing", "high-control-group"]
-parent = "kompendium-prevention-resilience"
 toc = true
 +++
 
@@ -180,7 +179,7 @@ nových náboženských hnutí.
 - Anandarajah, G., & Hight, E. (2001). Spirituality and medical practice: Using the HOPE
   questions as a practical tool for spiritual assessment. *American Family Physician*, 63(1).
 - Hassan, S. (1988). *Combating Cult Mind Control*. Rochester: Park Street Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: Norton.
 - Pargament, K. I. (1997). *The Psychology of Religion and Coping: Theory, Research, Practice*.
   New York: Guilford Press.
 - Puchalski, C., & Romer, A. L. (2000). Taking a spiritual history allows clinicians to

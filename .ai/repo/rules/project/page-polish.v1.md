@@ -7,7 +7,7 @@ description: Vzhled a chování stránek vychází z jedné obecné šablony a o
 statement: Vylaďuj stránky obecně – šablonou, komponentami a odvozenými daty pro všechny stránky najednou, nikdy ručně na jedné stránce – a nic nesluč, dokud neprojde test/e2e/surfaces.cjs a verify.mjs Flowbite Pro.
 status: active
 class: blocking
-depends_on: [project.site-derived-surfaces@2, project.ui-uses-flowbite-pro@1, project.information-architecture@1]
+depends_on: [project.site-derived-surfaces@3, project.ui-uses-flowbite-pro@1, project.information-architecture@1]
 tags: [ui, ux, quality, interactivity]
 ---
 

@@ -11,7 +11,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["delegitimizace", "epistemicka-injustice", "testimonialni-nespravedlnost", "deplatforming", "darvo", "bridge-deplatforming"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "delegitimizace"
 toc = false
 +++

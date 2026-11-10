@@ -9,7 +9,6 @@ categories = ["academic", "tools"]
 
 [extra]
 related_terms = ["tononi-iit", "varela-enactivism", "wardle-disinformation-typology", "williams-truth-and-truthfulness"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🧠"
 toc = false
 +++
@@ -18,15 +17,15 @@ toc = false
 
 Tato vizualizace patří k [sekci 7](@/kompendium/07-teoreticke-reflexe/_index.md) a zobrazuje její kapitoly – tematické úvahy i kapitoly věnované jednotlivým myslitelům, jejichž práce pomáhají porozumět [epistemické anihilaci](@/glossary/epistemicka-anihilace.md) – jako silově uspořádaný graf. Neslouží jako dějiny filozofie ani jako mapa vlivů mezi mysliteli. Je to orientační mapa knihy: ukazuje, z jakých tradic sekce čerpá, mezi kterými kapitolami kniha sama odkazuje a kde najít podrobný výklad. Uzly, barvy i vazby jsou odvozeny z odkazů a katalogu knihy.
 
-<div id="section-07-framework-map" class="rounded bg-slate-900"></div>
-<div id="framework-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="section-07-framework-map" class="rounded-lg"></div>
+<div id="framework-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="section-07-framework-map" /> }}
 
 ## Co mapa zobrazuje
 
 Každý **uzel** je jedna stránka sekce 7, tak jak ji skript najde v grafu odkazů knihy; tato stránka a rejstříkové stránky v mapě nejsou. Popisek uzlu tvoří první část názvu kapitoly – u kapitol o myslitelích jméno autora, u tematických kapitol jejich téma –, okno detailu k němu přidá číslo kapitoly a zbytek názvu, tedy pojem, pro který je kapitola v knize důležitá. Když sekce získá novou kapitolu, objeví se v mapě při příštím sestavení webu sama; proto zde není uveden ani počet uzlů, ani jejich seznam.
 
-**Barva** uzlu označuje filozofickou tradici, a to podle přehledové stránky [Filozofické tradice](@/kompendium/07-teoreticke-reflexe/filozoficke-tradice/_index.md). Skript přečte její nadpisy a odkazy pod nimi a každou kapitolu přiřadí k tomu nadpisu, pod nímž je odkazována spolu s nejvíce dalšími kapitolami sekce. Pořadí barev odpovídá pořadí nadpisů v přehledu. Kapitola, kterou přehled k žádné tradici nezařazuje, je šedá. Barvu tedy neurčuje skript ani tato stránka, ale text přehledu – a kdo chce zařazení změnit, mění přehled, ne graf.
+Barva uzlu označuje filozofickou tradici, a to podle přehledové stránky [Filozofické tradice](@/kompendium/07-teoreticke-reflexe/filozoficke-tradice/_index.md). Skript přečte její nadpisy a odkazy pod nimi a každou kapitolu přiřadí k tomu nadpisu, pod nímž je odkazována spolu s nejvíce dalšími kapitolami sekce. Pořadí barev odpovídá pořadí nadpisů v přehledu. Kapitola, kterou přehled k žádné tradici nezařazuje, je šedá. Barvu tedy neurčuje skript ani tato stránka, ale text přehledu – a kdo chce zařazení změnit, mění přehled, ne graf.
 
 **Hrany** spojují dvě kapitoly, mezi nimiž v knize vede odkaz. Vede-li odkaz oběma směry, je hrana silnější a sytější a uzly se k sobě přitahují víc. Úvodní text v okně detailu vypíše počet kapitol, počet vazeb a počet kapitol v každé tradici tak, jak je skript spočte z aktuálních dat, a nabídne odkaz na přehled tradic.
 

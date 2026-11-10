@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["5-ea-osint-social-media-manipulation", "22-ea-security-incident-response-narrative", "7-ea-osint-narrative-injection", "14-ea-dd-narrative-warfare"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 
@@ -140,7 +139,7 @@ dlouhodobě klesá.
 ## Literatura
 
 - Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., Cook, J. (2012). Misinformation and its correction.
-- Paul, C., Matthews, M. (2016). *The Russian „Firehose of Falsehood“ [Propaganda](@/glossary/propaganda.md) Model.*
+- Paul, C., Matthews, M. (2016). *The Russian „Firehose of Falsehood“ Propaganda Model.*
 - Roozenbeek, J., van der Linden, S. (2019). Fake news game confers psychological resistance against online misinformation.
 - Wardle, C., Derakhshan, H. (2017). *Information Disorder.*
 - Nařízení (EU) 2022/2065 (DSA).

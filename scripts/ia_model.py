@@ -3,6 +3,7 @@
 Shared by scripts/build-graph.py (the derived graph and metrics the site renders) and
 scripts/check-ia.py (the gate that enforces the architecture). Nothing here writes files.
 """
+import functools
 import pathlib
 import re
 import tomllib
@@ -66,6 +67,25 @@ def url_of(rel: pathlib.PurePosixPath) -> str:
     return "/" + "/".join(parts) + ("/" if parts else "")
 
 
+# Page classes, inferred from the path only (first match wins). The front-matter schema of
+# scripts/normalize-front-matter.py says which keys each class carries.
+PAGE_CLASSES = [
+    ("nlp-index", re.compile(r"^kompendium/nlp-vzorce/(?:.+/)?_index\.md$")),
+    ("nlp-trainer", re.compile(r"^kompendium/nlp-vzorce/trener\.md$")),
+    ("nlp", re.compile(r"^kompendium/nlp-vzorce/.+\.md$")),
+    ("section", re.compile(r"(?:^|/)_index\.md$")),
+    ("glossary", re.compile(r"^glossary/")),
+    ("technique", re.compile(r"^kompendium/techniques/")),
+    ("quick-reference", re.compile(r"^kompendium/quick-reference/")),
+    ("page", re.compile(r"")),
+]
+
+
+def page_class(rel: str) -> str:
+    """The class of a page by its path under content/ (see PAGE_CLASSES)."""
+    return next(name for name, pattern in PAGE_CLASSES if pattern.search(rel))
+
+
 def section_of(rel: pathlib.PurePosixPath) -> str:
     parts = rel.parts
     if parts[0] == "kompendium" and len(parts) > 2:
@@ -80,7 +100,9 @@ def language_of(words: list) -> str:
     return "en" if en > cz else "cs"
 
 
-def load_pages() -> list:
+def load_pages(with_body: bool = False) -> list:
+    """Every page of content/ as a dict; `with_body` keeps the body (front matter removed)
+    and the front matter's [extra] for the text analyses of scripts/check-ia.py."""
     pages = []
     for path in sorted(CONTENT.rglob("*.md")):
         rel = pathlib.PurePosixPath(path.relative_to(CONTENT).as_posix())
@@ -126,6 +148,9 @@ def load_pages() -> list:
             "ea_category": str(extra.get("ea_category", "")) if isinstance(extra, dict) else "",
             "links": [m.group(1) for m in AT_LINK.finditer(body)],
         })
+        if with_body:
+            pages[-1]["body"] = body
+            pages[-1]["extra"] = extra if isinstance(extra, dict) else {}
     known = {p["path"] for p in pages}
     for page in pages:
         page["broken_links"] = sorted({t for t in page["links"] if t not in known})
@@ -207,3 +232,387 @@ def load_terms(pages: list) -> list:
                 page = techniques[m.group(0)]
         terms.append({"term": cs, "en": en, "slug": slugify(cs), "page": page})
     return terms
+
+
+# ---------------------------------------------------------------------------------------------
+# The academic standard of a page (requirements placeholder, bullets, citations, bibliography,
+# citation-unresolved, technique-page, bold-term, bold-candidate of scripts/check-ia.py).
+# Every page reads as one academic work: points are paragraphs, each paragraph carries an
+# author-year citation resolved in the page's Literatura, every technique and term has a page.
+
+# What only ever appears on a page that is not finished. The platform's own generated text
+# (NLLB block, structural stub, placeholder note, "pojem v sekci … znalostní báze Prismatic
+# Platform", stub = true) is requirement `generated`; these are the rest of the filler.
+# Matched against the lower-cased prose (re.I is slow on Czech text); filler-block is
+# case-sensitive and matched against the prose itself.
+PLACEHOLDER = [
+    ("placeholder-note", re.compile(r"\b(?:je|jako|tento|tato|toto)\s+placeholder")),
+    ("placeholder-heading", re.compile(r"^#{1,6}\s.*\bplaceholder\b", re.M)),
+    ("placeholder-field", re.compile(r"^\s*\w*placeholder\w*\s*=", re.M)),
+    ("reconstruction", re.compile(r"\b(?:materiál|obsah)\w*\s+(?:je\s+)?v\s+rekonstrukci\b")),
+    ("stub-entry", re.compile(r"\bstub\s+(?:created|zápis\w*|entry|page)\b|structural stub")),
+    ("buildout", re.compile(r"knowledge-base buildout|bude doplněn[oa]?\b"
+                            r"|součástí probíhající\s+(?:výstavby|tvorby|přípravy|rozšiřování)"
+                            r"|obsah se připravuje|coming soon|under construction|lorem ipsum")),
+    ("reserved", re.compile(r"\|\s*(?:příprava|plánováno|rezervováno|tbd)\s*\|"
+                            r"|^#{1,6}\s.*\(rezervovan[éáý]\)", re.M)),
+    ("generic-description", re.compile(r"pojem v sekci \S+ znalostní báze")),
+]
+FILLER = re.compile(r"NLLB-AUTO-BLOCK|ENHANCED:[A-Z]|zero-stub-tolerance")
+# A literal every match of the pattern contains: a cheap test before the regex runs.
+PLACEHOLDER_KEYS = {
+    "placeholder-note": ("placeholder",), "placeholder-heading": ("placeholder",),
+    "placeholder-field": ("placeholder",), "reconstruction": ("rekonstrukci",),
+    "stub-entry": ("stub",), "generic-description": ("znalostní báze",),
+    "buildout": ("buildout", "doplněn", "probíhající", "připravuje", "coming soon",
+                 "under construction", "lorem ipsum"),
+    "reserved": ("příprava", "plánováno", "rezervov", "tbd"),
+}
+
+UPPER = "A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽÄÖÜ"
+HEADING_LINE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
+LIT_HEADING = re.compile(r"^(?:\d+\.\s*)?Literatura$", re.I)          # the bibliography itself
+# Sections that are a bibliography by nature ("Primární literatura", "Reference", "Prameny"):
+# lists there are allowed and citations resolve against them.
+LIT_LIKE = re.compile(r"^(?:\d+\.\s*)?(?:(?:\w+\s+)?literatura|reference|prameny|bibliografie"
+                      r"|zdroje)$", re.I)
+REL_HEADING = re.compile(r"^(?:\d+\.\s*)?(?:Související|Cross-linky)\b", re.I)
+GEN_BEGIN = re.compile(r"<!--\s*\S*?(?::begin\b|\s+BEGIN\b)")
+GEN_END = re.compile(r"<!--\s*\S*?(?::end\b|\s+END\b)")
+TABLE_SEP = re.compile(r"^\s*\|?\s*:?-{3,}:?\s*(?:\|\s*:?-{3,}:?\s*)*\|?\s*$")
+LIST_ITEM = re.compile(r"^(\s*)(?:[-*+]|(\d{1,9})[.)])(?:\s+\S|\s*$)")
+RULE_LINE = re.compile(r"^\s*(?:-\s*){3,}$|^\s*(?:\*\s*){3,}$|^\s*(?:_\s*){3,}$")
+INLINE_CODE = re.compile(r"`+[^`\n]*`+")
+LINK_TEXT = re.compile(r"!?\[([^\]\n]*)\]\([^)\n]*\)")
+ASCII_WORD = re.compile(r"[a-z]+")
+LIST_START = set("-*+0123456789")
+FOUR_DIGITS = re.compile(r"\d{4}")
+MIN_PARAGRAPH_WORDS = 20
+# A paragraph that only states the book's own frame (what it describes and why, what it leaves
+# out) cites no outside work: it refers to the book's method and ethics pages instead. Only these
+# four pages count, and only MAX_OWN_FRAME such paragraphs per page, so the exemption cannot
+# stand in for evidence (ADR 0004).
+OWN_FRAME = re.compile(r"\]\(@/kompendium/(?:01-predmluva/eticke-aspekty|01-predmluva/jak-pouzivat"
+                       r"|08-prilohy/eticky-kodex|02-uvod/metodologicke-poznamky)\.md(?:#[\w-]+)?\)")
+MAX_OWN_FRAME = 3
+
+# An author-year citation. § numbers are not years: "§ 1724" is removed before matching.
+YEAR = r"(?<![\d/§.])(?:1[5-9]\d\d|20[0-4]\d)[a-z]?(?![\d/])"
+NAME = r"(?:(?:van|von|de|der|den|du|da|di|le|la|ten|ter)\s+)*[" + UPPER + r"][\w'’\-]*\w"
+# Further authors may be lower case (danah boyd: "Marwick a boyd (2011)"); "a kol.", "a kolegové",
+# "et al." close the list.
+AUTHORS = (NAME + r"(?:(?:\s*,\s*|\s*&\s*|\s+(?:a|and|und)\s+)(?:" + NAME + r"|[a-zà-ž][\w'’\-]*\w))*"
+           r"(?:,?\s+(?:a\s+kol\.|a\s+kolegové|a\s+spolupracovníci|et\s+al\.))?")
+PAREN = re.compile(r"\(([^()]*)\)")
+PAREN_CITE = re.compile(r"(?:^|(?<=[\s;(]))(" + AUTHORS + r"),?\s+" + YEAR)
+# Autor (rok): the parenthesis holds the year and no name ("DSM-5 (APA, 2013)" is the
+# parenthetical citation of APA, not a narrative one of DSM-5).
+NARRATIVE_CITE = re.compile(r"(?<![\w.])(" + AUTHORS + r")\s+\([^()A-Za-zÀ-ž]*" + YEAR + r"[^()]*\)")
+LAW_CITE = re.compile(
+    r"\bč\.\s*\d+/\d{4}\s*Sb\."                                    # zákon č. 40/2009 Sb.
+    r"|\b\d{2,4}/\d{1,4}/(?:EU|ES|EHS|EC|EEC|SZBP|SVV)\b"          # směrnice 2011/36/EU
+    r"|\((?:EU|ES|EHS|EC|EEC|Euratom)\)\s*(?:č\.\s*)?\d{2,4}/\d{1,4}"  # nařízení (EU) 2016/679
+    r"|\b(?:Act|Gesetz|Code)\s+(?:of\s+)?\d{4}\b")              # Serious Crime Act 2015
+PARAGRAPH_SIGN = re.compile(r"§+\s*\d+(?:\s*(?:[–-]|,|a|až)\s*\d+)*")
+NAME_RE = re.compile(NAME)
+NOT_AUTHOR = {"Srov", "Viz", "Např", "Cit", "In", "Též", "Dále", "Podle", "Pozn"}
+# Czech case endings of a surname: Lifton, Liftona, Liftonovi, Liftonem, Liftonův, Liftonové…
+CASE_ENDINGS = ("ovych", "ovymi", "ovym", "ovou", "ovi", "ove", "ova", "ovy", "ovu", "ovo",
+                "eho", "iho", "ymi", "ho", "ym", "im",
+                "uv", "em", "ou", "a", "e", "u", "y", "i", "o")
+# Starts with the literal so that the regex engine can skip to it; the character before is
+# checked by hand (not part of a word, a path or a longer code).
+EA_MENTION = re.compile(r"EA[-\u2011](\d{1,2})\.(\d{1,2})\.(\d{1,3})(?![\d])")
+
+
+def fold(text: str) -> str:
+    import unicodedata
+    return unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode().lower()
+
+
+def stem(word: str) -> str:
+    """A folded surname without its Czech case ending (and mobile e: Havel/Havla)."""
+    for ending in CASE_ENDINGS:
+        if word.endswith(ending) and len(word) - len(ending) >= 3:
+            word = word[:-len(ending)]
+            break
+    if len(word) >= 4 and word[-2] == "e" and word[-1] in "lkcr":
+        word = word[:-2] + word[-1]
+    return word
+
+
+def forms(word: str) -> set:
+    """A folded surname and its stems, so that Lifton, Liftona, Liftonovi and Arendt,
+    Arendtová, Arendtové meet in one form."""
+    once = stem(word)
+    return {word, once, stem(once)}
+
+
+def resolved(name: str, literature: set) -> bool:
+    """Whether every part of a cited name (van der Kolk, Merleau-Ponty, O'Neil) is in the
+    folded forms of the page's Literatura; particles and initials do not count."""
+    parts = [fold(p) for p in re.split(r"[\s\-'’]+", name) if p]
+    parts = [p for p in parts if len(p) >= 3 and p not in ("van", "von", "der", "den", "ten", "ter")]
+    return all(forms(p) & literature for p in parts) if parts else True
+
+
+def body_lines(body: str):
+    """Yield (offset, line, kind, section) for each line of a page body.
+
+    kind: fence, generated, heading, blank, table-header, table-sep, table, html, quote, rule,
+    text; section is the title of the current `##` heading. Generated blocks run between
+    `<!-- …:begin -->` / `<!-- … BEGIN -->` and the matching end comment."""
+    lines = body.split("\n")
+    offset, fenced, generated, section = 0, False, False, ""
+    for i, line in enumerate(lines):
+        start, offset = offset, offset + len(line) + 1
+        stripped = line.strip()
+        if stripped.startswith("```") or stripped.startswith("~~~"):
+            fenced = not fenced
+            yield start, line, "fence", section
+            continue
+        if fenced:
+            yield start, line, "fence", section
+            continue
+        if generated or ("<!--" in line and GEN_BEGIN.search(line)):
+            generated = not GEN_END.search(line)
+            yield start, line, "generated", section
+            continue
+        m = HEADING_LINE.match(line)
+        if m:
+            if len(m.group(1)) <= 2:
+                section = re.sub(r"\*+", "", m.group(2)).strip()
+            yield start, line, "heading", section
+            continue
+        if not stripped:
+            kind = "blank"
+        elif stripped.startswith("|"):
+            if TABLE_SEP.match(stripped):
+                kind = "table-sep"
+            elif i + 1 < len(lines) and TABLE_SEP.match(lines[i + 1].strip()):
+                kind = "table-header"
+            else:
+                kind = "table"
+        elif stripped.startswith(">"):
+            kind = "quote"
+        elif stripped.startswith(("<", "{{", "{%")):
+            kind = "html"
+        elif RULE_LINE.match(line):
+            kind = "rule"
+        else:
+            kind = "text"
+        yield start, line, kind, section
+
+
+@functools.lru_cache(maxsize=None)
+def listed_section(section: str) -> bool:
+    """Související and Literatura are lists by nature."""
+    return bool(REL_HEADING.match(section) or LIT_LIKE.match(section))
+
+
+@functools.lru_cache(maxsize=None)
+def bibliography_section(section: str) -> bool:
+    return bool(LIT_LIKE.match(section))
+
+
+def plain(text: str) -> str:
+    """Prose without inline code, link targets and § numbers."""
+    if "`" in text:
+        text = INLINE_CODE.sub(" ", text)
+    if "](" in text:
+        text = LINK_TEXT.sub(r"\1", text)
+    return PARAGRAPH_SIGN.sub(" ", text) if "§" in text else text
+
+
+def cited_names(text: str) -> tuple:
+    """(author citations found, the surnames they name, whether a statute is cited)."""
+    found, names = 0, []
+    if not FOUR_DIGITS.search(text):
+        return 0, [], False  # every accepted form names a year
+    for m in PAREN.finditer(text):
+        for part in m.group(1).split(";"):
+            if LAW_CITE.search(part):
+                continue  # a statute, not an author
+            for c in PAREN_CITE.finditer(part):
+                found += 1
+                names.extend(n for n in NAME_RE.findall(c.group(1)) if n not in NOT_AUTHOR)
+    for c in NARRATIVE_CITE.finditer(text):
+        if LAW_CITE.search(c.group(0)):
+            continue
+        found += 1
+        names.extend(n for n in NAME_RE.findall(c.group(1)) if n not in NOT_AUTHOR)
+    return found, names, bool(LAW_CITE.search(text))
+
+
+def academic_profile(body: str, lines: list = None) -> dict:
+    """List items, paragraphs, citations and the bibliography of a page body.
+
+    A line is a list item when it starts with -, *, + or a number and a . or ), as CommonMark
+    renders it: an ordered item interrupts an open paragraph only when its number is 1, so
+    "2011) …" or "44. …" continuing a wrapped sentence is prose, not a list."""
+    bullets, uncited, citations, names, statutes = [], 0, 0, [], 0
+    own_frame = 0
+    lit_words, headings = set(), []
+    paragraph, state, indent = [], "none", 0  # state: none, paragraph, list
+
+    def flush():
+        nonlocal uncited, citations, statutes, own_frame
+        if paragraph:
+            raw = " ".join(paragraph)
+            text = plain(raw)
+            found, cited, law = cited_names(text)
+            citations += found
+            statutes += law
+            names.extend(cited)
+            if not found and not law and len(WORD.findall(text)) >= MIN_PARAGRAPH_WORDS:
+                if OWN_FRAME.search(raw) and own_frame < MAX_OWN_FRAME:
+                    own_frame += 1  # the book's own frame, referred to its method pages
+                else:
+                    uncited += 1
+            paragraph.clear()
+
+    for _, line, kind, section in lines if lines is not None else body_lines(body):
+        if kind == "heading" and len(HEADING_LINE.match(line).group(1)) == 2:
+            headings.append(section)
+        if bibliography_section(section) and kind not in ("fence", "generated", "heading"):
+            lit_words.update(ASCII_WORD.findall(fold(plain(line))))
+        if kind == "blank":
+            flush()
+            state = "list-gap" if state in ("list", "list-gap") else "none"
+            continue
+        if kind != "text" or listed_section(section):
+            flush()
+            if kind == "quote" and not listed_section(section):
+                quoted = re.sub(r"^\s*(?:>\s?)+", "", line)
+                if LIST_ITEM.match(quoted) and LIST_ITEM.match(quoted).group(2) in (None, "1"):
+                    bullets.append(line.strip()[:60])
+            state = "none"
+            continue
+        m = LIST_ITEM.match(line) if line.lstrip()[:1] in LIST_START else None
+        if m and (state != "paragraph" or m.group(2) in (None, "1")):
+            flush()
+            bullets.append(line.strip()[:60])
+            state, indent = "list", len(m.group(1))
+            continue
+        if state == "list" or (state == "list-gap" and len(line) - len(line.lstrip()) > indent):
+            state = "list"  # a continuation of the list item, not a paragraph
+            continue
+        state = "paragraph"
+        paragraph.append(line.strip())
+    flush()
+    lit = [i for i, h in enumerate(headings) if LIT_HEADING.match(h)]
+    rel = [i for i, h in enumerate(headings) if REL_HEADING.match(h)]
+    unresolved = []
+    if names:
+        prefixes = {fold(n)[:3] for n in names}
+        prefixes |= {fold(part)[:3] for n in names for part in re.split(r"[\s\-'’]+", n)}
+        literature = set().union(set(), *(forms(w) for w in lit_words if w[:3] in prefixes))
+        unresolved = sorted({n for n in names if not resolved(n, literature)})
+    return {
+        "bullets": bullets,
+        "uncited": uncited,
+        "own_frame": own_frame,
+        "citations": citations,
+        "bibliography_ok": bool(lit) and (not rel or lit[0] < rel[0]),
+        "unresolved": unresolved,
+    }
+
+
+NLLB_BLOCK = re.compile(r"<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->.*?"
+                        r"(?:<!-- ENHANCED:NLLB-AUTO-BLOCK END -->|\Z)", re.S)
+
+
+def placeholder_markers(body: str, extra: dict) -> list:
+    # Code samples may quote the markers they forbid; the NLLB block is requirement `generated`.
+    prose = NLLB_BLOCK.sub("", FENCE.sub("", body))
+    lower = prose.lower()
+    found = [name for name, pattern in PLACEHOLDER
+             if any(k in lower for k in PLACEHOLDER_KEYS[name]) and pattern.search(lower)]
+    if ("NLLB" in prose or "ENHANCED:" in prose or "zero-stub" in prose) and FILLER.search(prose):
+        found.append("filler-block")
+    if extra.get("stub") or extra.get("placeholder"):
+        found.append("stub-flag")
+    return sorted(set(found))
+
+
+def ea_mentions(body: str) -> list:
+    prose = FENCE.sub("", body)
+    return sorted({".".join(m.groups()) for m in EA_MENTION.finditer(prose)
+                   if m.start() == 0 or not (prose[m.start() - 1].isalnum()
+                                             or prose[m.start() - 1] in "_/-")})
+
+
+def technique_codes(pages: list) -> set:
+    """Codes X.Y.Z that have a technique page (file name ea-X-Y-Z… or extra.ea_code)."""
+    codes = set()
+    for page in pages:
+        m = re.match(r"kompendium/techniques/ea-(\d+)-(\d+)-(\d+)", page["path"])
+        if m:
+            codes.add(".".join(m.groups()))
+        extra = page.get("extra") or {}
+        for code in [extra.get("ea_code", "")] + list(extra.get("ea_codes") or []):
+            m = EA_MENTION.search(str(code))
+            if m:
+                codes.add(".".join(m.groups()))
+    return codes
+
+
+# Bold text. A **bold** span is either interactive (a link to the term's page) or a label;
+# bold that names a term and leads nowhere is a dead end for the reader.
+BOLD = re.compile(r"(?<![*\\])\*\*(?=\S)(.+?)(?<=\S)\*\*(?!\*)")
+MAX_BOLD_WORDS = 6  # a longer bold span is a key sentence, not a term
+RUN_IN = re.compile(r"^\s*(?:>\s*)*(?:(?:[-*+]|\d{1,9}[.)])\s+)?$")
+EA_ONLY = re.compile(r"^ea-\d+-\d+(?:-\d+)?(?:-|$)")
+
+
+def bold_spans(body: str, lines: list = None):
+    """Yield (start, end, text, linked) for every bold span of a page body that is not a label.
+
+    Structurally exempt (never a term use, so never yielded): headings, code, generated blocks,
+    the Související and Literatura sections, a table's header row and the first cell of each
+    row, a label (bold followed by ":" or ending in ":") and a key sentence (more than
+    MAX_BOLD_WORDS words). `linked` is true for **[X](…)**, [**X**](…) and bold that holds a
+    link; `text` is the span's text without link markup."""
+    for offset, line, kind, section in lines if lines is not None else body_lines(body):
+        if "**" not in line or kind not in ("text", "quote", "table") or listed_section(section):
+            continue
+        shield = [(m.start(), m.end()) for m in INLINE_CODE.finditer(line)]
+        first_cell_end = line.find("|", line.find("|") + 1) if kind == "table" else -1
+        for m in BOLD.finditer(line):
+            if any(a <= m.start() < b for a, b in shield):
+                continue
+            if kind == "table" and m.start() < first_cell_end:
+                continue
+            inner = m.group(1).strip("*").strip()
+            text = LINK_TEXT.sub(r"\1", inner).strip()
+            if not text or text.endswith(":") or line[m.end():].lstrip().startswith(":"):
+                continue  # a label
+            if text.endswith(".") and RUN_IN.match(line[:m.start()]):
+                continue  # a run-in heading: "**Pro instituce.** Text …"
+            if len(text.split()) > MAX_BOLD_WORDS:
+                continue
+            linked = "](" in inner or (line[:m.start()].endswith("[")
+                                       and line[m.end():].startswith("]("))
+            yield offset + m.start(), offset + m.end(), text, linked
+
+
+def bold_term_index(pages: list) -> dict:
+    """slug -> glossary page for every name a glossary entry answers to: its title, the title
+    without the parenthesised part, the parenthesised part (the alias: "Pseudověda
+    (pseudoscience)"), extra.aliases and the file slug. A slug two entries claim is dropped."""
+    claims = {}
+    for page in pages:
+        path = page["path"]
+        if not path.startswith("glossary/") or page["is_index"]:
+            continue
+        title = page["title"].strip()
+        names = {title, re.sub(r"\s*\([^)]*\)", "", title), pathlib.PurePosixPath(path).stem}
+        names.update(re.findall(r"\(([^)]*)\)", title))
+        aliases = (page.get("extra") or {}).get("aliases")
+        if isinstance(aliases, list):
+            names.update(str(a) for a in aliases)
+        for name in names:
+            key = slugify(name)
+            if len(key) >= 2:
+                claims.setdefault(key, set()).add(path)
+    return {key: next(iter(paths)) for key, paths in claims.items() if len(paths) == 1}

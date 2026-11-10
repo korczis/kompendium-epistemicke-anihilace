@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-5-6-platonic-cave-self", "ea-1-6-1-vzorec-guru-a-adept", "ea-4-4-2-role-fragmentation", "identity-destruction", "narativni-identita", "sektarska-konverze"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.5.9"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.5 Sebeindukovaná delegitimizace"

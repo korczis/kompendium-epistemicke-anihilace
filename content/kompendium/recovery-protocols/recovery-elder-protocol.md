@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["recovery-children-protocol", "recovery-cult-extraction-protocol", "elder-abuse", "undue-influence", "gaslighting"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "special"
 +++

@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-6-4-AI-deplatforming-cascade", "ea-9-6-1-algorithmic-decision-bias", "ea-9-3-6-content-moderation-bias", "ea-9-3-5-shadowban-coordination", "ea-2-1-4-publikacni-blokace"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.6.3"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.6 Algoritmická governance"

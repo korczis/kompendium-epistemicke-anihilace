@@ -12,9 +12,7 @@ related_terms = []
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-quality_score = 88
 status = "enriched"
-ref_count_at_creation = 1
 interactive = "chart"
 +++
 

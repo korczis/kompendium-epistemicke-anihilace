@@ -10,7 +10,6 @@ categories = ["academic", "research"]
 
 [extra]
 related_terms = ["identitni-dekonstrukce", "institucionalni-anihilace", "kapitola-4", "kapitola-5"]
-parent = "kompendium-04-terminalni-protokoly"
 section_icon = "⚠️"
 toc = true
 access_level = "L2"

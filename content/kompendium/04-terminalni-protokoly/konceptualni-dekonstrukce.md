@@ -10,7 +10,6 @@ categories = ["academic", "research"]
 
 [extra]
 related_terms = ["kapitola-4", "kapitola-5", "kontrolovana-rekonstituce", "pred-simulacni-screening"]
-parent = "kompendium-04-terminalni-protokoly"
 section_icon = "⚠️"
 toc = true
 access_level = "L2"

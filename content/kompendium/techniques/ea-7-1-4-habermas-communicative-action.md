@@ -10,7 +10,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-7-1-3-adorno-instrumental-reason", "ea-7-1-1-foucault-power-knowledge", "ea-2-3-9-sealioning-medialni", "communicative-rationality", "ideal-speech-situation", "verejna-sfera"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.1.4"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.1 Kontinentální filozofie"

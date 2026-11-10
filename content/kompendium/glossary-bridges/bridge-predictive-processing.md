@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["predictive-processing", "embodied-cognition", "gaslighting", "epistemic-pipeline", "bridge-embodied-cognition", "bridge-gaslighting"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "predictive-processing"
 toc = false
 +++
@@ -25,7 +24,7 @@ toc = false
 
 [Prediktivní zpracování](@/glossary/predictive-processing.md) (*predictive processing*, PP) je
 sjednocující rámec současné kognitivní vědy. Tvrdí, že mozek není pasivní příjemce podnětů, ale
-**hierarchický generativní model**, který neustále předpovídá své smyslové vstupy a upravuje se podle
+**[hierarchický generativní model](@/glossary/predictive-processing.md)**, který neustále předpovídá své smyslové vstupy a upravuje se podle
 *predikční chyby* – rozdílu mezi tím, co očekával, a tím, co přišlo. Klíčovou roli hraje *přesnost*:
 mozek přikládá chybám váhu podle toho, jak spolehlivý zdroj považuje za spolehlivý. Silné očekávání se
 změní jen silnou a přesnou chybou; slabé očekávání se podřídí i drobnému signálu.

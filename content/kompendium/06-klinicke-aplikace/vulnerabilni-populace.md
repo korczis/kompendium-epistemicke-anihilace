@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["terapeuticke-pristupy", "visualizations", "supervizni-ramce"]
-parent = "kompendium-06-klinicke-aplikace"
 section_icon = "🛟"
 toc = true
 +++

@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-1-3-1-imunizace-proti-falsifikaci", "ea-1-3-2-strategicka-reinterpretace", "ea-7-2-4-lakatos-research-program", "ea-7-2-5-kuhn-paradigm-shift", "ea-7-2-6-feyerabend-anti-method", "ea-5-1-17-tautologicka-imploze"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.2.3"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.2 Analytická filozofie"

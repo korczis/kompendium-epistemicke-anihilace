@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["ea-8-1-4-coercive-control-scale", "ea-8-1-3-stalking-behavior-checklist", "ea-8-2-1-bite-framework", "ea-4-1-gaslighting", "ea-2-2-7-emotional-debt-cultivation", "ea-8-2-6-icd-11-complex-trauma"]
-parent = "kompendium-techniques"
 ea_code = "EA-8.2.5"
 ea_category = "8. Přílohy"
 ea_subcategory = "8.2 Referenční rámce"

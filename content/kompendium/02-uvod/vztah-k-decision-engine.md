@@ -10,7 +10,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["metodologicke-poznamky", "teoreticke-zaklady", "vztah-k-nabla", "historicky-kontext"]
-parent = "kompendium-02-uvod"
 section_icon = "⚖️"
 toc = true
 +++

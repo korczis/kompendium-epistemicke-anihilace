@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["black-team", "color-teams", "red-team", "dual-use-poznani", "bridge-dual-use-poznani", "bridge-red-team"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "black-team"
 toc = false
 +++

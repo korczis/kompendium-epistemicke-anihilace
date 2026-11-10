@@ -3,6 +3,7 @@ title = "Intencionalita"
 weight = 60
 
 description = "Brentanovská a husserlovská intencionalita – zaměřenost vědomí na předmět, „vztaženost k“, která odlišuje duševní stavy od fyzických. Strukturní rys, na nějž EA útočí."
+aliases = ["/glossary/intencionalita/"]
 
 [taxonomies]
 tags = ["glossary", "epistemic", "philosophy", "phenomenology", "fenomenologie"]
@@ -11,12 +12,9 @@ tags = ["glossary", "epistemic", "philosophy", "phenomenology", "fenomenologie"]
 category = "epistemic"
 related_terms = ["epistemicka-anihilace", "lebenswelt", "embodied-cognition", "metakognice", "kognitivni-anihilace", "epistemic-pipeline"]
 author = "Tomáš Korcak (korczis)"
-reading_time = "5 min"
-word_count = 908
 date_created = "2026-04-25"
 date_modified = "2026-11-10"
 keywords = ["intentionality", "Brentano", "Husserl", "phenomenology", "aboutness", "noesis", "noema"]
-quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"
 image_alt = "Intencionalita – glosář"
@@ -38,7 +36,7 @@ Intencionální struktura je to, **co manipulaci umožňuje**. Manipulovat pozn�
 
 ## Původ a kontext pojmu
 
-Brentano čerpal ze scholastické tradice (*intentio*), Husserl, jeho žák, z pojmu vytvořil základ fenomenologické metody v *Logických zkoumáních* (1900–1901) a *Ideách I* (1913). V analytické filozofii mysli se intencionalita stala jedním z ústředních problémů (Searle, Dennett – viz [Dennett: intencionální postoj](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md)); enaktivismus ji spojil s tělesným jednáním ([embodied cognition](@/glossary/embodied-cognition.md)). Kniha pojem vykládá v kapitole [Intencionalita](@/kompendium/03-zakladni-kategorie/intencionalita.md), která prochází hlavní rodiny EA podle toho, kterou intencionální složku primárně zasahují. Obecnější heslo glosáře je [Intentionality / Intencionalita](@/glossary/intencionalita.md).
+Brentano čerpal ze scholastické tradice (*intentio*), Husserl, jeho žák, z pojmu vytvořil základ fenomenologické metody v *Logických zkoumáních* (1900–1901) a *Ideách I* (1913). V analytické filozofii mysli se intencionalita stala jedním z ústředních problémů (Searle, Dennett – viz [Dennett: intencionální postoj](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md)); enaktivismus ji spojil s tělesným jednáním ([embodied cognition](@/glossary/embodied-cognition.md)). Kniha pojem vykládá v kapitole [Intencionalita](@/kompendium/03-zakladni-kategorie/intencionalita.md), která prochází hlavní rodiny EA podle toho, kterou intencionální složku primárně zasahují. Obecnější heslo glosáře je [Intentionality / Intencionalita](@/glossary/intentionalita.md).
 
 ## Jak se projevuje
 

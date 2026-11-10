@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["weaponized-incompetence", "coercive-control", "darvo", "blame-shifting", "gaslighting", "bridge-coercive-control"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "weaponized-incompetence"
 toc = false
 +++

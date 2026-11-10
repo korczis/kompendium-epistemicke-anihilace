@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["autoheal-ea-regression-repair", "autoevolve-ea-pattern-evolution", "qeve-ea-quality-validation", "tactical-execution-ea-operations", "supreme-commander-ea-strategy"]
-parent = "kompendium-aiad-integration"
 toc = true
 +++
 

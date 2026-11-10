@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["kognitivni-anihilace", "epistemicka-anihilace", "ontologicka-anihilace", "metakognitivni-destrukce", "kognitivni-zplosteni", "paralysis-by-analysis"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "kognitivni-anihilace"
 toc = false
 +++

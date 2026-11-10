@@ -10,7 +10,6 @@ tags = ["kompendium", "vizualizace", "interaktivni", "chartjs", "threejs", "p5js
 categories = ["academic", "tools"]
 section_icon = "📊"
 toc = true
-parent = "kompendium"
 +++
 
 # Interaktivní vizualizace taxonomie EA
@@ -21,7 +20,7 @@ Tři položky (5, 6 a 9) nejsou grafy dat, ale didaktické simulace: modelují j
 
 ## Jak vizualizace číst
 
-Všechny grafy používají stejný slovník. **Uzel** nebo bod je stránka knihy a klepnutí na něj vede k detailu s odkazem na tuto stránku; žádný uzel není ozdobou bez cíle. **Hrana** mezi dvěma uzly znamená, že mezi jejich stránkami vede v knize odkaz – jedním, nebo oběma směry. **Barva** kóduje kategorii (rodinu EA, podrodinu, oddíl knihy, fázi podle rejstříku), nikdy pořadí nebo míru. Jacques Bertin ukázal, že barevný tón je vhodný k rozlišení skupin, kdežto pořadí a množství se lépe čtou z polohy a velikosti (Bertin 1967); grafy se toho drží. Kde velikost nese počet, roste plocha bubliny úměrně počtu, ne její poloměr, aby graf nepřeháněl rozdíly – Edward Tufte takové zkreslení nazývá „faktorem lži“ (Tufte 1983).
+Všechny grafy používají stejný slovník. **Uzel** nebo bod je stránka knihy a klepnutí na něj vede k detailu s odkazem na tuto stránku; žádný uzel není ozdobou bez cíle. **Hrana** mezi dvěma uzly znamená, že mezi jejich stránkami vede v knize odkaz – jedním, nebo oběma směry. Barva kóduje kategorii (rodinu EA, podrodinu, oddíl knihy, fázi podle rejstříku), nikdy pořadí nebo míru. Jacques Bertin ukázal, že barevný tón je vhodný k rozlišení skupin, kdežto pořadí a množství se lépe čtou z polohy a velikosti (Bertin 1967); grafy se toho drží. Kde velikost nese počet, roste plocha bubliny úměrně počtu, ne její poloměr, aby graf nepřeháněl rozdíly – Edward Tufte takové zkreslení nazývá „faktorem lži“ (Tufte 1983).
 
 Interakce sleduje Shneidermanovu zásadu „nejdřív přehled, potom přiblížení a filtr, podrobnosti na vyžádání“ (Shneiderman 1996): graf ukáže celek, klepnutí vybere část a okno pod grafem vypíše stránky s odkazy. Grafy, které vybírají „nejodkazovanější“ stránky, řadí podle počtu stránek knihy, které na danou stránku odkazují. Počet příchozích odkazů je v teorii sítí obvyklým, ale hrubým ukazatelem významu (Kleinberg 1999; Newman 2010): říká, jak často se k pojmu text vrací, ne jak je pojem důležitý pro konkrétního člověka.
 
@@ -32,7 +31,7 @@ Tamara Munznerová doporučuje u každé vizualizace oddělit tři otázky – j
 Prstencový graf rozděluje stránky technik podle rodin EA. Rodinou se rozumí první číslo kódu, který skript čte z cesty stránky; název rodiny pochází z grafu knihy a velikost výseče je počet stránek technik v rodině. Klepnutí na výseč vypíše techniky rodiny po podrodinách, každou jako odkaz. Graf ukazuje, jak podrobně kniha jednotlivé rodiny zpracovává, ne jak časté jsou techniky ve skutečnosti; kódový systém vysvětluje heslo [Taxonomie EA](@/glossary/taxonomie-ea.md).
 
 <canvas id="taxonomy-distribution" width="800" height="500"></canvas>
-<div id="taxonomy-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="taxonomy-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="taxonomy-distribution-chart" /> }}
 
 ## 2. Rodiny EA × úroveň rizika (Chart.js)
@@ -40,15 +39,15 @@ Prstencový graf rozděluje stránky technik podle rodin EA. Rodinou se rozumí 
 Bublinový graf kříží rodiny EA s úrovněmi rizika, které stránkám technik přiřazuje katalog technik, v pořadí legendy katalogu. Plocha bubliny odpovídá počtu stránek v buňce a barva rodině. Klepnutí na bublinu vypíše techniky, které v buňce leží. Úroveň rizika je katalogová klasifikace typického dopadu techniky, ne měřená závažnost: v konkrétním případě může technika nižší úrovně zasáhnout člověka v krizi velmi vážně. Jak katalog s úrovněmi zachází, popisuje [klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md).
 
 <canvas id="severity-matrix" width="800" height="500"></canvas>
-<div id="severity-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="severity-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="severity-matrix-chart" /> }}
 
 ## 3. 3D graf vztahů technik (Three.js)
 
 Prostorový graf rozmisťuje všechny stránky technik po povrchu koule v pořadí jejich kódů, takže sousední kódy leží blízko sebe. Barva uzlu je rodina EA a čáry jsou odkazy mezi stránkami technik v knize. Klepnutí na uzel ukáže kód, název, rodinu, počet vazeb a odkaz na stránku techniky. Poloha na kouli tedy nese pořadí v taxonomii, ne podobnost; podobnost naznačují jen čáry, a to jen tam, kde ji text knihy výslovně propojil. Úplný výčet kódů je v [rejstříku technik](@/kompendium/08-prilohy/rejstrik-technik.md).
 
-<div id="technique-graph-3d" style="width:100%; height:500px; background:#0f172a; border-radius:8px;"></div>
-<div id="graph-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="technique-graph-3d"></div>
+<div id="graph-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="technique-graph-3d" /> }}
 
 ## 4. Fáze zotavení v čase (Chart.js)
@@ -56,7 +55,7 @@ Prostorový graf rozmisťuje všechny stránky technik po povrchu koule v pořad
 Graf plovoucích pruhů ukazuje fáze zotavení na logaritmické ose času. Fáze, jejich orientační rozpětí a protokoly přebírá z rejstříku [longitudinálních rekonstruktivních protokolů](@/kompendium/recovery-protocols/_index.md): rozpětí čte z nadpisu fáze (například „týdny“, „měsíce“, „roky“ s čísly), protokoly z odkazů pod ním. Skupiny bez časového rozpětí vypíše pod grafem a neuvádí-li rejstřík rozpětí u žádné fáze, graf se nevykreslí a oznámí, že data chybí. Pruh neukazuje průběh příznaků ani „zbytkový deficit“ – takové hodnoty kniha neuvádí; ukazuje jen, v jakém časovém rámci kniha fázi popisuje. Rejstřík sám zdůrazňuje, že rámce jsou orientační a fáze se prolínají a vracejí.
 
 <canvas id="recovery-trajectory" width="800" height="400"></canvas>
-<div id="recovery-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="recovery-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="recovery-trajectory-chart" /> }}
 
 ## 5. Simulace epistemické dezintegrace (p5.js)
@@ -65,7 +64,7 @@ Animace je model, ne graf dat knihy: částice představují přesvědčení, kt
 
 <div id="epistemic-disintegration"></div>
 <input id="disintegration-intensity" type="range" min="0" max="1" step="0.01" value="0.3" class="w-full mt-2">
-<p class="text-slate-400 text-sm mt-1">Intenzita manipulačního tlaku (0 = stabilita, 1 = totální fragmentace)</p>
+<p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Intenzita manipulačního tlaku (0 = stabilita, 1 = totální fragmentace)</p>
 {{ <viz_script name="epistemic-disintegration-sim" /> }}
 
 ## 6. Simulace narušení pozornosti (p5.js)
@@ -74,7 +73,7 @@ Simulace je model jevu, který kniha popisuje jako [EA-1.1.2 informační přet�
 
 <div id="attention-disruption"></div>
 <input id="attention-rate" type="range" min="0.1" max="5" step="0.1" value="1" class="w-full mt-2">
-<p class="text-slate-400 text-sm mt-1">Tempo informačního streamu (0.1 = pomalé, 5 = přetížení)</p>
+<p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Tempo informačního streamu (0.1 = pomalé, 5 = přetížení)</p>
 {{ <viz_script name="attention-disruption-sim" /> }}
 
 ## 7. Detekční signatury po skupinách (Chart.js)
@@ -82,7 +81,7 @@ Simulace je model jevu, který kniha popisuje jako [EA-1.1.2 informační přet�
 Bodový graf ukazuje stránky [detekčních signatur](@/kompendium/detection-signatures/_index.md) seskupené tak, jak je řadí rejstřík sekce (podle jeho nadpisů, například jazykové, behaviorální či síťové signatury); jedna barevná stopa je jedna skupina. Vodorovná osa je pořadí signatury v rejstříku, svislá počet stránek knihy, které na signaturu odkazují. Klepnutí na bod vypíše signaturu, její skupinu a odkaz na stránku. Starší verze grafu slibovala průběh intenzity příznaků v čase; kniha takové hodnoty neuvádí, a graf je proto neukazuje. Signatury jsou znaky k rozpoznání, ne diagnostická kritéria.
 
 <canvas id="phenomenology-timeline" width="800" height="500"></canvas>
-<div id="phenomenology-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="phenomenology-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="phenomenology-timeline-chart" /> }}
 
 ## 8. 2D síť EA technik (Chart.js)
@@ -90,7 +89,7 @@ Bodový graf ukazuje stránky [detekčních signatur](@/kompendium/detection-sig
 Rovinná síť ukazuje nejodkazovanější stránky technik – ty, na které v knize odkazuje nejvíc jiných stránek; kolik jich graf ukáže, je zobrazovací mez skriptu, ne vlastnost dat. Body jsou seskupeny podle rodin EA a obarveny jejich barvou, čáry jsou odkazy mezi vybranými stránkami. Klepnutí na bod zvýrazní sousedy a vypíše je s odkazy. Síť je dobrým vstupem pro čtenáře, který neví, kde začít: ukazuje techniky, ke kterým se kniha nejčastěji vrací. Nejodkazovanější však neznamená nejčastější ani nejnebezpečnější.
 
 <canvas id="ea-network-2d" width="800" height="600"></canvas>
-<div id="ea-network-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="ea-network-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="ea-network-2d" /> }}
 
 ## 9. Rekurzivní spirála myšlení (p5.js)
@@ -98,15 +97,15 @@ Rovinná síť ukazuje nejodkazovanější stránky technik – ty, na které v 
 Simulace je model sebereflexe, která se zacyklí. Ilustruje jevy, které kniha popisuje jako [hyperreflexivitu (EA-5.1.13)](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) a [referenční rekurzi (EA-5.1.7)](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md): svislá poloha myši řídí hloubku rekurze a spirálové dráhy se s rostoucí hloubkou trhají. Pásma hloubky nesou názvy obou technik v pořadí, v jakém je jmenuje tento odstavec, a pod plátnem se objeví odkazy na jejich stránky. Hranice pásem patří modelu, ne klinice; simulace má jen ukázat, že přemýšlení o vlastním myšlení je od určité hloubky ochromující, a připomenout, že obrana spočívá v návratu k vnějším kotvám a činnosti, ne v další analýze.
 
 <div id="recursive-thought-spiral"></div>
-<p class="text-slate-400 text-sm mt-1">Pohni myší: vertikální poloha řídí hloubku rekurze (1–12). Nad 9 = metakognitivní paralýza.</p>
+<p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Pohni myší: vertikální poloha řídí hloubku rekurze (1–12). Nad 9 = metakognitivní paralýza.</p>
 {{ <viz_script name="recursive-thought-spiral" /> }}
 
 ## 10. Epistemická pipeline NABLA (Three.js)
 
 Prostorový graf skládá nad sebe prstence, z nichž každý je jedna úroveň [epistemické pipeline](@/glossary/epistemic-pipeline.md); animované částice naznačují tok mezi úrovněmi. Úrovně, jejich počet, názvy a popisy přebírá ze stránky glosáře: použije oddíl s nejvíce podnadpisy, každý podnadpis je jedna úroveň a první odstavec pod ním její popis. Klepnutí na prstenec ukáže úroveň a odkaz na její místo ve stránce. Pipeline i rámec [NABLA Infinity](@/glossary/nabla-infinity.md) patří ke kontextu softwarové platformy, z níž kniha vzešla; kniha je používá jako model postupného ověřování poznatků, s nímž lze srovnat, které kroky poznání manipulace narušuje.
 
-<div id="nabla-pipeline-viz" style="width:100%; height:600px; background:#0f172a; border-radius:8px;"></div>
-<div id="nabla-pipeline-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="nabla-pipeline-viz"></div>
+<div id="nabla-pipeline-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="nabla-pipeline-viz" /> }}
 
 ## 11. Historické případy na časové ose (Chart.js)
@@ -114,15 +113,15 @@ Prostorový graf skládá nad sebe prstence, z nichž každý je jedna úroveň 
 Bodový graf ukazuje stránky [historických případů](@/kompendium/historical-cases/_index.md) na časové ose. Kategorie, místo a období jsou pole záhlaví každé stránky: vodorovná poloha je začátek období, čára jeho trvání a u případů, které trvají dodnes, vede čára do současnosti; svislá osa a barva nesou kategorii případu. Klepnutí na bod vypíše případ a odkaz na jeho stránku. Graf nepřiřazuje případům žádnou „závažnost“ – srovnávat utrpení obětí totalitních režimů, kultů a dezinformačních kampaní na jedné stupnici by bylo metodicky i eticky pochybné. Výklad každého případu, jeho mechanismů a dokladů patří na jeho stránku.
 
 <canvas id="historical-cases-timeline" width="800" height="500"></canvas>
-<div id="historical-cases-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="historical-cases-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="historical-cases-timeline" /> }}
 
 ## 12. Strom akutních protokolů (Three.js 3D)
 
 Trojrozměrný strom má za kořen rejstřík [akutních intervenčních protokolů](@/kompendium/emergency-protocols/_index.md), za větve jeho skupiny (nadpisy rejstříku) a za listy protokoly, na které rejstřík pod každým nadpisem odkazuje. Klepnutí na uzel zvýrazní cestu od kořene a ukáže detail s odkazem. Strom zobrazuje uspořádání sekce, ne rozhodovací algoritmus: o tom, který protokol je v dané situaci namístě, rozhoduje kvalifikovaný posuzovatel podle textu protokolu. V akutním ohrožení mají přednost krizové služby.
 
-<div id="protocol-decision-tree" class="w-full h-[500px] bg-slate-900 rounded-lg"></div>
-<div id="protocol-tree-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="protocol-decision-tree" class="w-full rounded-lg"></div>
+<div id="protocol-tree-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="protocol-decision-tree" /> }}
 
 ## 13. Síť nejodkazovanějších pojmů glosáře (p5.js)
@@ -130,7 +129,7 @@ Trojrozměrný strom má za kořen rejstřík [akutních intervenčních protoko
 Silově uspořádaná síť ukazuje pojmy [glosáře](@/glossary/_index.md), na které kniha odkazuje nejčastěji; kolik jich síť zahrne, je opět zobrazovací mez. Hrany jsou odkazy mezi stránkami pojmů. Rozvržení vzniká silovým algoritmem, který propojené uzly přitahuje a ostatní odpuzuje (Fruchterman a Reingold 1991), takže blízkost vyjadřuje hustotu odkazů, ne příbuznost významu. Klepnutí na uzel zvýrazní sousedy a vypíše počet stránek, které na pojem odkazují, a odkazy na sousední pojmy.
 
 <div id="glossary-network"></div>
-<div id="glossary-network-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="glossary-network-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="glossary-network-2d" /> }}
 
 ## 14. Průběh zotavení po fázích (Chart.js)
@@ -138,15 +137,15 @@ Silově uspořádaná síť ukazuje pojmy [glosáře](@/glossary/_index.md), na 
 Tokový graf ve stylu Sankeyova diagramu přebírá fáze a jejich protokoly z rejstříku protokolů zotavení. Výška sloupce je počet protokolů fáze a šířka pásu mezi sousedními fázemi počet odkazů z protokolů jedné fáze na protokoly další podle grafu knihy. Klepnutí na sloupec vypíše popis fáze z rejstříku a její protokoly. Pás tedy nevyjadřuje podíl pacientů, kteří do další fáze postoupí – kniha žádné takové podíly neuvádí –, ale to, jak hustě kniha fáze provazuje. Klinickou cestu z pohledu sekce 06 ukazuje [vizualizace klinické cesty](@/kompendium/06-klinicke-aplikace/visualizations.md).
 
 <canvas id="recovery-sankey" width="800" height="450"></canvas>
-<div id="recovery-sankey-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="recovery-sankey-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="recovery-progression-sankey" /> }}
 
 ## 15. Digitální útočná plocha EA-9 (Three.js)
 
 Koule představuje epistemickou plochu člověka a vektory, které na ni zvenčí míří, jsou stránky technik rodiny, kterou jmenuje nadpis tohoto oddílu – současné digitální EA, od manipulací s jazykovými modely po syntetická média. Kódy a názvy přebírá graf z grafu knihy, barvu vektoru určuje podrodina s názvem z katalogu technik. Klepnutí na hrot vektoru ukáže techniku, podrodinu a odkaz na stránku; úvodní text pod grafem vypíše podrodiny a počty stránek z aktuálních dat. Obraz útočné plochy je metafora pro rozpoznání: každá stránka popisuje znaky techniky a obranu, nikoli postup.
 
-<div id="ea9-attack-surface" style="width:100%; height:500px; background:#0a0a0a; border-radius:8px;"></div>
-<div id="ea9-attack-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="ea9-attack-surface"></div>
+<div id="ea9-attack-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="ea9-digital-attack-surface" /> }}
 
 ## 16. Mezinárodní perspektivy × rodiny EA (Chart.js)
@@ -154,7 +153,7 @@ Koule představuje epistemickou plochu člověka a vektory, které na ni zvenč�
 Tepelná mapa má v řádcích stránky sekce [mezinárodních perspektiv](@/kompendium/international/_index.md), seskupené podle nadpisů jejího rejstříku, a ve sloupcích rodiny EA. Hodnota buňky je počet odkazů ze stránky regionu nebo tématu na stránky technik dané rodiny. Klepnutí na buňku vypíše region, rodinu a odkazované techniky. Mapa neukazuje prevalenci technik v kultuře ani regionu – kniha žádnou prevalenci neuvádí a graf ji neodhaduje; ukazuje jen, o kterých technikách stránky o daném regionu píší.
 
 <canvas id="cross-cultural-heatmap" width="800" height="500"></canvas>
-<div id="cross-cultural-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="cross-cultural-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="cross-cultural-heatmap" /> }}
 
 ## 17. Forenzní tok důkazů (p5.js)
@@ -162,15 +161,15 @@ Tepelná mapa má v řádcích stránky sekce [mezinárodních perspektiv](@/kom
 Animace přebírá stádia a jejich kapitoly z rejstříku [forenzního a právního rozměru](@/kompendium/forensic-legal/_index.md): každá jeho část (forenzní posouzení, právní rámce, svědectví, dokumentace, specializované oblasti) je jedno stádium. Velikost kruhu odpovídá počtu kapitol stádia a hustota částic mezi sousedními stádii počtu odkazů z kapitol jednoho stádia na kapitoly dalšího. Klepnutí na stádium vypíše jeho kapitoly s odkazy. Tok nepopisuje průběh konkrétního řízení; procesní pravidla se liší podle jurisdikce a patří do jednotlivých kapitol.
 
 <div id="forensic-evidence-flow"></div>
-<div id="forensic-evidence-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="forensic-evidence-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="forensic-evidence-flow" /> }}
 
 ## 18. 3D síť protokolů zotavení (Three.js)
 
 Prostorová síť zobrazuje stránky sekce protokolů zotavení. Vrstvy a barvy odpovídají fázím tak, jak je řadí rejstřík sekce (nadpis a odkazy pod ním); stránky, které rejstřík k žádné fázi neřadí, například průřezové protokoly, tvoří poslední vrstvu. Hrany jsou odkazy mezi protokoly v knize. Klepnutí na uzel ukáže protokol, jeho fázi, vazby a odkaz na stránku. Hrana není předepsané pořadí kroků; logiku pořadí rozebírá průřezový text [Sekvence](@/kompendium/recovery-protocols/sekvence.md).
 
-<div id="recovery-network-3d" style="width:100%; height:550px; background:#0f172a; border-radius:8px;"></div>
-<div id="recovery-network-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="recovery-network-3d"></div>
+<div id="recovery-network-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="recovery-network-3d" /> }}
 
 ## Co vizualizace ukázat nemohou
@@ -181,12 +180,16 @@ Alberto Cairo připomíná, že poctivá vizualizace má sdělit i nejistotu sv�
 
 ## Vizualizace jednotlivých sekcí
 
-Vedle tohoto přehledu mají čtyři sekce knihy vlastní vizualizaci, která čte data z kontextu své sekce:
-
-- [Sekce 03 – techniky EA-1 podle podrodiny a rizika](@/kompendium/03-zakladni-kategorie/visualizations.md) – stránky technik jedné rodiny, jejich úrovně rizika a vazby.
-- [Sekce 04 – strom odkazů terminálních protokolů](@/kompendium/04-terminalni-protokoly/visualizations.md) – kam kapitoly o terminálních protokolech čtenáře posílají.
-- [Sekce 06 – klinická cesta zotavení](@/kompendium/06-klinicke-aplikace/visualizations.md) – fáze péče, jejich stránky a odkazy mezi nimi.
-- [Sekce 07 – mapa teoretických rámců](@/kompendium/07-teoreticke-reflexe/visualizations.md) – kapitoly teoretické sekce podle tradic a odkazů.
+Vedle tohoto přehledu mají čtyři sekce knihy vlastní vizualizaci, která čte data z kontextu
+své sekce. [Vizualizace sekce 03](@/kompendium/03-zakladni-kategorie/visualizations.md) ukazuje
+techniky EA-1 podle podrodiny a úrovně rizika, tedy stránky jedné rodiny a jejich vazby;
+[vizualizace sekce 04](@/kompendium/04-terminalni-protokoly/visualizations.md) kreslí strom
+odkazů terminálních protokolů, z něhož je vidět, kam kapitoly čtenáře posílají;
+[vizualizace sekce 06](@/kompendium/06-klinicke-aplikace/visualizations.md) sleduje klinickou
+cestu zotavení po fázích péče, jejich stránkách a odkazech mezi nimi; a
+[vizualizace sekce 07](@/kompendium/07-teoreticke-reflexe/visualizations.md) mapuje kapitoly
+teoretické sekce podle tradic a vzájemných odkazů. Všechny čtyři sdílejí zásadu celé stránky:
+zobrazují strukturu odkazů knihy, ne empirická data (Munzner, 2014).
 
 ## Literatura
 

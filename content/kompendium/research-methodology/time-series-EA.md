@@ -9,7 +9,6 @@ categories = ["academic", "methodology", "research"]
 
 [extra]
 related_terms = ["longitudinal-study-EA", "network-analysis-EA", "causal-inference-EA", "data-security-EA-research"]
-parent = "kompendium-research-methodology"
 toc = true
 +++
 

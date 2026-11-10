@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-15-mentalizacni-disrupce", "ea-5-3-16-fenomenologicka-rekonstituce", "ea-5-3-18-esencialisticka-redukce", "ea-5-3-19-autobiograficka-amnestizace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.17"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"

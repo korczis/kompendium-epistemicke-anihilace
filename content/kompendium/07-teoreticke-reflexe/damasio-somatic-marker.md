@@ -1,6 +1,6 @@
 +++
 title = "7.45 Damasio: Somatic Marker a vtělené emoce"
-description = "Antonio Damasio a hypotéza somatického markeru, role emocí v rozhodování, somatický fundament racionality — rámec pro pochopení EA technik operujících skrze tělesnou dezregulaci."
+description = "Antonio Damasio: hypotéza somatického markeru, Iowa Gambling Task a vrstvy já podle primárních děl, hlavní kritiky a interpretace pro obnovu důvěry v tělesné signály."
 weight = 45
 insert_anchor_links = "right"
 
@@ -10,137 +10,107 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["clark-extended-mind", "computational-epistemology", "davidson-radical-interpretation", "dawkins-meme"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++
 
 # 7.45 Damasio: Somatic Marker a vtělené emoce
 
-Antonio Damasio — portugalsko-americký neurolog — v knihách *Descartes' Error* (1994), *The Feeling of What Happens* (1999) a *Self Comes to Mind* (2010) rozvíjí **hypotézu somatického markeru** (*somatic marker hypothesis*) — strukturální analýzu role **vtělených emocí** v racionálním rozhodování.
+Antonio Damasio, portugalsko-americký neurolog a neurovědec působící na University of Southern California, se proslavil tezí, že emoce nejsou protivníkem rozumu, ale jeho podmínkou. V knize *Descartes' Error* formuloval hypotézu somatického markeru (*somatic marker hypothesis*), podle níž tělesné signály spojené s emocemi navádějí rozhodování a bez nich se praktická racionalita rozpadá (Damasio, 1994). V dalších knihách rozvinul teorii vědomí a já zakotvenou v regulaci těla (Damasio, 1999; Damasio, 2010). Stránka vykládá jeho teorii z primárních prací, shrnuje hlavní kritiky, které hypotéza vyvolala, a v samostatném, výslovně označeném oddílu ukazuje, proč je důležitá pro rozpoznání manipulace, která člověka odcizuje od vlastních tělesných signálů.
 
-Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Damasiova teorie nástroj pro pochopení **EA technik operujících skrze tělesnou dezregulaci** — nikoli pouze skrze kognitivní manipulaci.
+## Klinická východiska: Gage a Elliot
 
-## 1. Descartes' Error
+Damasio vychází z neurologických případů. Nejznámějším je železničář Phineas Gage, kterému v roce 1848 prošla hlavou železná tyč; přežil, ale podle zprávy jeho lékaře se změnila jeho osobnost a schopnost plánovat (Harlow, 1868). Hanna Damasio a kolegové rekonstruovali na základě lebky pravděpodobný průběh poranění a dospěli k závěru, že postihl především ventromediální oblast prefrontální kůry obou hemisfér (Damasio a kol., 1994).
 
-Damasiova centrální diagnostická teze: **Descartesova chyba** byla strukturální **separace** mysli a těla. Klasická tradice **upřednostňuje** „čistý rozum“ před „kalícími emocemi“ — Damasio **odhaluje**, že tato separace je **neuro-anatomicky neudržitelná**.
+Druhým pilířem je moderní pacient, kterého Damasio nazývá Elliot. Po operaci nádoru, při níž byla poškozena tatáž oblast, si zachoval inteligenci, paměť i jazykové schopnosti a v laboratorních testech podával normální výkony. V běžném životě však nedokázal činit rozumná rozhodnutí: dlouze zvažoval nepodstatné alternativy, přijímal špatné obchodní nabídky a jeho život se rozpadl. Damasio si všiml, že Elliot líčí vlastní neštěstí bez citové účasti, a usoudil, že právě oslabení emocí stojí za selháním rozhodování (Damasio, 1994).
 
-Klinická evidence: pacienti s lézemi **ventromediálního prefrontálního kortexu** (VMPC) — oblasti integrující emocí — vykazují **paradoxní** symptom:
+## Hypotéza somatického markeru
 
-- **Inteligence intaktní**: IQ, paměť, jazyk fungují normálně
-- **Rozhodování katastrofálně narušeno**: pacienti **nemohou** činit adekvátní volby v každodenním životě
+Damasio navazuje na Jamesovu teorii emocí, podle níž emoce je vnímáním tělesných změn, které vyvolá podnět (James, 1884). Somatický marker je podle něj tělesný stav, který byl zkušeností spojen s určitým typem výsledku a který se znovu vybaví, když člověk zvažuje podobnou možnost. Negativní marker působí jako poplašný signál, pozitivní jako pobídka; obojí zužuje prostor možností dřív, než začne podrobná úvaha, a umožňuje tak rozhodovat v čase a za nejistoty (Damasio, 1994).
 
-Strukturální závěr: **emoce jsou strukturálně konstitutivní** racionálního rozhodování. **Bez emocí** racionalita strukturálně **kolabuje**.
+Damasio rozlišuje dvě cesty. Tělesná smyčka (*body loop*) zahrnuje skutečné změny v těle, například srdeční frekvence nebo vodivosti kůže, které mozek následně vnímá. Smyčka „jako by“ (*as-if body loop*) tělesný stav jen simuluje v mozkových mapách těla, bez skutečné tělesné změny, a je rychlejší (Damasio, 1996). Klíčovou úlohu v obou připisuje ventromediální prefrontální kůře, která podle něj spojuje představy o možnostech s odpovídajícími tělesnými stavy. Somatický marker tak funguje jako rychlá [heuristika](@/glossary/heuristika.md), nikoli jako náhrada úvahy.
 
-Pro EA z toho plyne:
+## Iowa Gambling Task
 
-- **Pseudo-racionalismus jako EA**: techniky, jež **vyžadují** „čistě racionální“ rozhodování bez emocí, jsou strukturálně **iatrogeenní**.
-- **Manipulace skrze tělesnou dezregulaci**: techniky, jež **rozpojují** subjekta od tělesných signálů, strukturálně podkopávají rozhodovací kapacitu.
+Pro experimentální ověření vyvinul Damasiův tým úlohu, která se stala jednou z nejpoužívanějších v neurovědě rozhodování. Účastníci vybírají karty ze čtyř balíčků; dva přinášejí vysoké okamžité zisky, ale ještě vyšší občasné ztráty, dva nízké zisky a malé ztráty a z dlouhodobého hlediska se vyplatí. Zdraví účastníci se postupně naučí preferovat výhodné balíčky, pacienti s poškozením ventromediální prefrontální kůry nikoli (Bechara a kol., 1994).
 
-## 2. Somatic marker hypothesis
+Následná studie měřila vodivost kůže. Zdraví účastníci začali vykazovat anticipační reakce před výběrem z nevýhodných balíčků dříve, než dokázali slovy vysvětlit, které balíčky jsou špatné, a začali je volit méně ještě předtím, než strategii vědomě formulovali; pacienti tyto reakce neměli a někteří pokračovali v nevýhodné volbě i poté, co strategii znali (Bechara a kol., 1997). Damasio to interpretuje jako doklad, že tělesné signály vedou rozhodování předtím, než se dostaví vědomé poznání.
 
-Damasiova centrální hypotéza: **somatic marker** — tělesný signál, jenž **označuje** alternativy v rozhodovacím prostoru jako **pozitivní/negativní**.
+## Vrstvy já a homeostáza
 
-Mechanismus:
+V knize *The Feeling of What Happens* Damasio rozlišuje protojá (*proto-self*), soubor nevědomých map stavu organismu, jádrové vědomí, které vzniká, když mozek zaznamená, jak předmět mění stav organismu, a rozšířené vědomí, které zahrnuje autobiografickou paměť a identitu v čase (Damasio, 1999). Heslo [jádrové vědomí](@/glossary/core-consciousness.md) tento pojem vykládá podrobněji. V knize *Self Comes to Mind* tento model upravuje do posloupnosti protojá, jádrového já a autobiografického já (Damasio, 2010).
 
-- Subjekt má v paměti **emocionálně tagované** zkušenosti
-- Při rozhodování mozek **rekonstruuje** tělesné aspekty těchto zkušeností
-- **Somatický marker** funguje jako **rychlá [heuristika](@/glossary/heuristika.md)** — narušuje vyhodnocovací prostor
+Nejnovější práce staví do středu homeostázu, regulaci životních procesů, a city chápe jako mentální zážitky stavu této regulace. Kulturu Damasio vykládá jako rozšíření homeostatických snah do společenské roviny (Damasio, 2018). Damasiův důraz na vnímání vnitřního stavu těla souvisí s pojmem [interocepce](@/glossary/interocepce.md), který neuroanatomicky rozpracoval Craig (2002).
 
-Pro EA má somatic marker **strukturální význam**:
+## Hlavní kritiky a meze
 
-- **Manipulace markerů**: techniky, jež **falsifikují** subjektovy emocionální zkušenosti ([gaslighting](@/glossary/gaslighting.md)), strukturálně manipulují **somatické markery**.
-- **Indukce nesprávných markerů**: techniky, jež **pojí** politické nebo ideologické pozice s **emocionálními** zkušenostmi ([propaganda](@/glossary/propaganda.md)), strukturálně manipulují rozhodování.
+Hypotéza vyvolala rozsáhlou kritickou literaturu. Maia a McClelland (2004) zopakovali úlohu s podrobnějším dotazováním a zjistili, že účastníci měli o výhodnosti balíčků vědomé poznatky dříve, než ukázaly původní studie, takže anticipační reakce nemusejí předcházet vědomému poznání. Dunn, Dalgleish a Lawrence (2006) v přehledové studii dospěli k závěru, že hypotéza je inspirativní, ale že řada jejích předpovědí nemá jednoznačnou oporu a že výsledky úlohy lze vysvětlit i jinými mechanismy.
 
-## 3. Tři vrstvy self
+Jednou z alternativ je výklad pomocí učení se změnám odměn. Fellows a Farah (2005) ukázali, že pacienti s ventromediálním poškozením zvládli upravenou verzi úlohy, v níž nebylo nutné přehodnocovat počáteční dojem z balíčků, což naznačuje, že jejich potíž může spočívat spíš v přeučení než v chybějících somatických signálech. Macmillan (2000) zase doložil, že historické zprávy o Gageově proměně jsou nespolehlivé a že se příběh postupně zveličoval.
 
-V *Self Comes to Mind* (2010) Damasio rozlišuje **tři vrstvy** self:
+Konečně Barrett (2017) zpochybňuje obecnější předpoklad, že emoce jsou relativně stálé tělesné programy, a navrhuje konstrukční teorii, podle níž mozek emoce aktivně vytváří z tělesných signálů a naučených pojmů. Pro knihu z toho plyne opatrnost: somatický marker je užitečný rámec, nikoli prokázaný mechanismus, a tělesný signál není automaticky spolehlivějším zdrojem než úvaha (Dunn a kol., 2006).
 
-1. **Protoself** — strukturální mapování tělesných stavů (homeostase)
-2. **Core self** — okamžité vědomí „já-zde-teď“
-3. **Autobiografické self** — strukturální narativ identity v čase
+## Interpretace pro epistemickou anihilaci
 
-Tato vrstvená struktura strukturálně rezonuje s Ricoeurovou narativní identitou ([viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)) a s Metzingerovým PSM ([viz 7.42](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md)).
+Následující oddíl je interpretací této knihy, nikoli Damasiovým tvrzením. Kniha z jeho práce přebírá hlavně tezi, že rozhodování se opírá o tělesné signály a že jejich znehodnocení oslabuje schopnost jednat. Vzorec, kdy je člověku soustavně sdělováno, že jeho pocity nepohodlí nebo strachu jsou přehnané, iracionální nebo „jen v hlavě“, a kdy se učí je potlačovat, kniha spojuje s jevem [gaslighting](@/glossary/gaslighting.md); znakem je, že člověk přestává věřit vlastnímu varovnému signálu (Damasio, 1994; Sweet, 2019).
 
-Pro EA z toho plyne:
+Druhá interpretace se týká podmiňování. Pokud se somatické markery utvářejí zkušeností, mohou se utvářet i opakovaným spojováním určitých témat, lidí nebo skupin se strachem či znechucením. Kniha v tom vidí jeden z mechanismů, jimiž [propaganda](@/glossary/propaganda.md) působí mimo argumenty, a stejný mechanismus popisuje v uzavřených skupinách, které spojují myšlenku na odchod s úzkostí (Damasio, 1994; Lifton, 1961). Z toho plyne i opak rady „věř svému instinktu“: tělesný signál může být naučený a vyžaduje reflexi.
 
-- **Diferenciální mapping EA**: které vrstvy self jsou cíleny?
-  - Protoself: somatické trauma
-  - Core self: dissociace
-  - Autobiografické self: gaslighting, narrative manipulation
+Třetí interpretace se týká traumatu. Chronické ohrožení podle klinické literatury mění vztah k vlastnímu tělu, včetně oslabení vnímání vnitřních signálů nebo jejich zahlcení, jak je známo u [PTSD](@/glossary/ptsd.md) a [disociace](@/glossary/disociace.md). Damasiův rámec pomáhá vysvětlit, proč se po takové zkušenosti mohou narušit i rozhodovací schopnosti, aniž by byla dotčena inteligence (Damasio, 1999; Craig, 2002).
 
-## 4. Strange Order of Things
+## Rozpoznání, obrana a klinický rámec
 
-V *The Strange Order of Things* (2018) Damasio rozšiřuje teorii: **homeostase** jako **prvotní** princip, jenž **strukturálně** organizuje veškerý život — od buněk po civilizace.
+Rozpoznávacími znaky odcizení od tělesných signálů jsou neschopnost rozpoznat vlastní nepohodlí, rozhodování, které se opírá jen o pokyny druhých, a bezvýhradné zpochybňování vlastních pocitů jako iracionálních. Je třeba je odlišit od běžné sebekontroly a od kulturních norem projevování emocí, od neurologických poruch, které vyžadují vyšetření, a od alexithymie, tedy obtíží s rozpoznáváním a pojmenováním emocí, které mají vlastní klinický význam (Damasio, 1994; Craig, 2002).
 
-Strukturální argument:
+V klinické praxi se Damasiovy myšlenky často uvádějí v souvislosti s terapiemi zaměřenými na tělo, jako je somatic experiencing (Levine, 1997) nebo senzomotorická psychoterapie (Ogden a kol., 2006). Tyto přístupy sdílejí důraz na tělo, ale stojí na vlastních teoretických základech, a jejich empirická opora je menší než u postupů, které pro léčbu posttraumatické stresové poruchy doporučují klinické směrnice, například traumaticky zaměřená kognitivně behaviorální terapie a EMDR (National Institute for Health and Care Excellence, 2018). Kniha je proto uvádí jako doplněk odborné péče, nikoli jako její náhradu; podrobnosti uvádí sekce [6. Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md).
 
-- **Cit** (*feeling*) je **subjektivní** report o homeostatickém stavu
-- **Emoce** jsou **strukturálně** programy regulace
-- **Civilizace**: kulturní formy jsou strukturálně **rozšířenými** homeostatickými mechanismy
+Cílem zotavení je z této perspektivy obnova důvěry v tělesné signály spojená s jejich reflexí: klient se učí signál zaznamenat, pojmenovat a zvážit, nikoli ho potlačit ani mu slepě podlehnout. Damasiův obraz rozumu, který potřebuje emoce, a emocí, které potřebují rozum, je pro tento cíl užitečnou orientací (Damasio, 1994; Damasio, 2018).
 
-Pro EA z toho plyne:
+## Otevřené otázky
 
-- **Homeostase jako fundamentální cíl**: EA techniky strukturálně **narušují** homeostase — biologickou, emocionální, sociální.
-- **Klinický korelát**: chronický stres je strukturálně **homeostatickou dysregulací**.
+Otevřené zůstává, jakou roli hrají tělesné signály v rozhodování ve skutečnosti, když se úloha, na které hypotéza stojí, ukázala jako méně jednoznačná, než se původně zdálo. Stejně otevřená je otázka, zda konstrukční teorie emocí a Damasiův homeostatický rámec lze sjednotit, a co by z takového sjednocení plynulo pro terapii lidí, jejichž emoční reakce byly dlouhodobě formovány cizí kontrolou (Barrett, 2017; Damasio, 2018).
 
-## 5. Iowa Gambling Task
+## Literatura
 
-Damasiova klasická experimentální paradigma: **Iowa Gambling Task** (Bechara, Damasio et al., 1994) — pokus, kde subjekty **musí** identifikovat ziskové a ztrátové hromady karet.
-
-Strukturální nález:
-
-- Zdravé subjekty **somaticky reagují** (kožní vodivost, srdeční tep) na ztrátové hromady **dříve**, než si uvědomí strukturu hry
-- Pacienti s VMPC lézemi tuto reakci **nemají** — vědomě „vědí“, co dělat, ale **nedrží se** toho
-
-Pro EA z toho plyne:
-
-- **Tichá znalost těla**: tělo „ví“ dříve, než subjekt vědomě formuluje. Strukturální paralela s Polanyiho **tacit knowledge** ([viz 7.13](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)).
-- **Útok na tichou znalost těla**: techniky, jež **dezavují** tělesné signály („nedůvěřuj svému instinktu“), strukturálně podkopávají rozhodování.
-
-## 6. Mapping na EA techniky
-
-| Damasio | EA technika | Mechanismus |
-|---------|-------------|-------------|
-| Manipulace somatic markerů | Gaslighting, [falsifikace](@/glossary/falsifikace.md) zkušenosti | EA-4.1 |
-| Pseudo-racionalismus | "Be rational, don't be emotional" | EA-1.5 |
-| Útok na protoself | Somatické trauma | Klinický |
-| Útok na core self | Dissociace | Klinický |
-| Útok na autobiografické self | Narrative manipulation | EA-3.x |
-
-## 7. Klinický význam
-
-Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
-
-- **Somatic experiencing** (Levine), **sensorimotor psychotherapy** (Ogden) — strukturálně damasiovsky podložené terapie.
-- **Restituce somatic markerů**: pacient se učí **důvěřovat** tělesným signálům.
-- **Anti-pseudo-racionalismus**: terapeut **nedevaluuje** emoce.
-
-## 8. Filozofická spojení
-
-Damasiova teorie je strukturálně **kompatibilní** s:
-
-- **Merleau-Ponty** ([viz 7.16](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)): vtělený subjekt
-- **Heidegger** ([viz 7.14](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md)): *Befindlichkeit* (afektivní situovanost)
-- **[Embodied cognition](@/glossary/embodied-cognition.md)** (Varela, Thompson): kontinuita biologie/mysli
-
-## 9. Primární literatura
-
-- Damasio, A. (1994). *Descartes' Error*. Putnam.
-- Damasio, A. (1999). *The Feeling of What Happens*. Harcourt.
-- Damasio, A. (2010). *Self Comes to Mind*. Pantheon.
-- Damasio, A. (2018). *The Strange Order of Things*. Pantheon.
-- Bechara, A., Damasio, H., Tranel, D. & Damasio, A. (1997). „Deciding Advantageously Before Knowing the Advantageous Strategy“. *Science* 275.
+- Barrett, L. F. (2017). *How Emotions Are Made: The Secret Life of the Brain*. Houghton Mifflin Harcourt.
+- Bechara, A., Damasio, A. R., Damasio, H., a Anderson, S. W. (1994). Insensitivity to future consequences following damage to human prefrontal cortex. *Cognition*, 50(1–3).
+- Bechara, A., Damasio, H., Tranel, D., a Damasio, A. R. (1997). Deciding advantageously before knowing the advantageous strategy. *Science*, 275(5304).
+- Craig, A. D. (2002). How do you feel? Interoception: The sense of the physiological condition of the body. *Nature Reviews Neuroscience*, 3(8).
+- Damasio, A. R. (1994). *Descartes' Error: Emotion, Reason, and the Human Brain*. G. P. Putnam's Sons.
+- Damasio, A. R. (1996). The somatic marker hypothesis and the possible functions of the prefrontal cortex. *Philosophical Transactions of the Royal Society B*, 351(1346).
+- Damasio, A. R. (1999). *The Feeling of What Happens: Body and Emotion in the Making of Consciousness*. Harcourt Brace.
+- Damasio, A. R. (2010). *Self Comes to Mind: Constructing the Conscious Brain*. Pantheon.
+- Damasio, A. R. (2018). *The Strange Order of Things: Life, Feeling, and the Making of Cultures*. Pantheon.
+- Damasio, H., Grabowski, T., Frank, R., Galaburda, A. M., a Damasio, A. R. (1994). The return of Phineas Gage: Clues about the brain from the skull of a famous patient. *Science*, 264(5162).
+- Dunn, B. D., Dalgleish, T., a Lawrence, A. D. (2006). The somatic marker hypothesis: A critical evaluation. *Neuroscience & Biobehavioral Reviews*, 30(2).
+- Fellows, L. K., a Farah, M. J. (2005). Different underlying impairments in decision-making following ventromedial and dorsolateral frontal lobe damage in humans. *Cerebral Cortex*, 15(1).
+- Harlow, J. M. (1868). Recovery from the passage of an iron bar through the head. *Publications of the Massachusetts Medical Society*, 2.
+- James, W. (1884). What is an emotion? *Mind*, 9(34).
+- Levine, P. A. (1997). *Waking the Tiger: Healing Trauma*. North Atlantic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Macmillan, M. (2000). *An Odd Kind of Fame: Stories of Phineas Gage*. MIT Press.
+- Maia, T. V., a McClelland, J. L. (2004). A reexamination of the evidence for the somatic marker hypothesis: What participants really know in the Iowa gambling task. *Proceedings of the National Academy of Sciences*, 101(45).
+- National Institute for Health and Care Excellence (2018). *Post-traumatic stress disorder* (NICE guideline NG116). NICE.
+- Ogden, P., Minton, K., a Pain, C. (2006). *Trauma and the Body: A Sensorimotor Approach to Psychotherapy*. W. W. Norton.
+- Sweet, P. L. (2019). The sociology of gaslighting. *American Sociological Review*, 84(5).
 
 ## Související
 
-- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [7.6 Kognitivní vědy](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
-- [7.13 Polanyi: Tichá znalost](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)
-- [7.14 Heidegger: Být-ve-světě](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md)
-- [7.16 Merleau-Ponty: Vtělená percepce](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)
-- [7.42 Metzinger: Ego Tunnel](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md)
-- [7.43 Thompson: Mind in Life](@/kompendium/07-teoreticke-reflexe/thompson-mind-in-life.md)
-- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
-- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+**Teoretické reflexe**
+
+- [7.16 Merleau-Ponty: Vtělená percepce a tělesný subjekt](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md) – fenomenologie vtěleného subjektu.
+- [7.43 Thompson: Mind in Life a kontinuita biologie/mysli](@/kompendium/07-teoreticke-reflexe/thompson-mind-in-life.md) – život a mysl jako kontinuum.
+- [7.42 Metzinger: Ego Tunnel a fenomenální self-model](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md) – konkurenční teorie já.
+- [7.13 Polanyi: Tichá znalost a osobní poznání](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md) – znalost, kterou nelze plně vyslovit.
+- [7.5 Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – duální systém a predikční zpracování.
+
+**Glosář**
+
+- [Interocepce](@/glossary/interocepce.md) – vnímání vnitřního stavu těla.
+- [Jádrové vědomí](@/glossary/core-consciousness.md) – Damasiova úroveň vědomí.
+- [Embodied cognition](@/glossary/embodied-cognition.md) – vtělená kognice.
+- [System 1 / System 2](@/glossary/system-1-system-2.md) – rychlé a pomalé usuzování.
+
+**Praxe**
+
+- [6. Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) – obnova důvěry v tělesné signály.

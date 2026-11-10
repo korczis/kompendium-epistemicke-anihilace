@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["3nl", "three-nested-loops", "bounded-context", "nabla-infinity", "bridge-bounded-context", "bridge-mereologicka-rekonstrukce"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "3nl"
 toc = false
 +++

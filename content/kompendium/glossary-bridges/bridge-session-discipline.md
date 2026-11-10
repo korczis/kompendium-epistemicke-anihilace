@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["session-discipline", "clean-run", "zero-warning-policy", "regression-test", "bridge-clean-run", "bridge-gaslighting"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "session-discipline"
 toc = false
 +++

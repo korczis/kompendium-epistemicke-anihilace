@@ -8,7 +8,6 @@ tags = ["kompendium", "predmluva", "etika", "bezpecnost-ctenare", "retraumatizac
 
 [extra]
 author = "Tomas Korcak (korczis)"
-parent = "kompendium-01-predmluva"
 toc = true
 +++
 
@@ -177,8 +176,8 @@ Mental Health Services Administration 2014).
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Hobfoll, S. E., Watson, P., Bell, C. C., Bryant, R. A., Brymer, M. J., Friedman, M. J. a kol. (2007). *Five Essential Elements of Immediate and Mid-Term Mass Trauma Intervention: Empirical Evidence*. Psychiatry, 70(4), 283–315.
 - Jones, P. J., Bellet, B. W., McNally, R. J. (2020). *Helping or Harming? The Effect of Trigger Warnings on Individuals With Trauma Histories*. Clinical Psychological Science, 8(5), 905–917.
-- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - McCann, I. L., Pearlman, L. A. (1990). *Vicarious Traumatization: A Framework for Understanding the Psychological Effects of Working with Victims*. Journal of Traumatic Stress, 3(1), 131–149.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Substance Abuse and Mental Health Services Administration (2014). *SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach*. HHS Publication No. (SMA) 14-4884.

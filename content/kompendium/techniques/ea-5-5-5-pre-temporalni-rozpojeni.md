@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-5-30-konvergentni-singularita-transkonceptualni", "ea-5-5-4-gestalt-disrupce", "ea-5-5-6-konvergentni-pre-konceptualni", "ea-5-5-7-afektivni-tonalni-redukce"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.5.5"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.5 Transkonceptuální mechanismy"

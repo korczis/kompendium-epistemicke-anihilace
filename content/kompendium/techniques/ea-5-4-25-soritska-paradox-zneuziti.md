@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-23-modalni-paradox-aplikace", "ea-5-4-24-epistemic-vagueness-trap", "ea-5-4-26-heap-paradox-eskalace", "ea-5-4-27-ship-of-theseus-aplikace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.25"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"

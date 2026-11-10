@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["30-phenomenological-identity-fragmentation", "4-linguistic-framing-shift", "6-linguistic-narrative-fragmentation", "7-linguistic-scope-creep"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "linguistic"
 +++
@@ -109,7 +108,7 @@ Zájmena jsou slabý signál, který bez kontextu nevypovídá; jejich síla je 
 
 - Bandura, A. (1999). Moral disengagement in the perpetration of inhumanities. *Personality and Social Psychology Review*, 3(3), 193–209.
 - Brown, R., & Gilman, A. (1960). The pronouns of power and solidarity. In T. A. Sebeok (Ed.), *Style in Language* (s. 253–276). MIT Press.
-- Freyd, J. J. (1997). Violations of power, adaptive blindness and [betrayal trauma](@/glossary/betrayal-trauma.md) theory. *Feminism & Psychology*, 7(1), 22–32.
+- Freyd, J. J. (1997). Violations of power, adaptive blindness and betrayal trauma theory. *Feminism & Psychology*, 7(1), 22–32.
 - Harsey, S. J., Zurbriggen, E. L., & Freyd, J. J. (2017). Perpetrator responses to victim confrontation: DARVO and victim self-blame. *Journal of Aggression, Maltreatment & Trauma*, 26(6), 644–663.
 - Pennebaker, J. W. (2011). *The Secret Life of Pronouns: What Our Words Say About Us*. Bloomsbury Press.
 - Rude, S. S., Gortner, E.-M., & Pennebaker, J. W. (2004). Language use of depressed and depression-vulnerable college students. *Cognition and Emotion*, 18(8), 1121–1133.

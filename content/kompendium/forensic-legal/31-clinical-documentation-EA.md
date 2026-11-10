@@ -9,7 +9,6 @@ categories = ["academic", "legal", "clinical"]
 
 [extra]
 related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
-parent = "kompendium-forensic-legal"
 toc = true
 +++
 
@@ -155,8 +154,8 @@ na spravedlivý proces a ochranou soukromí se tu hledá případ od případu.
 - Greenberg, S. A., & Shuman, D. W. (1997). *Irreconcilable conflict between therapeutic and forensic roles*. Professional Psychology: Research and Practice.
 - Heilbrun, K. (2001). *Principles of Forensic Mental Health Assessment*. Kluwer Academic/Plenum.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
-- Strasburger, L. H., Gutheil, T. G., & Brodsky, A. (1997). *On wearing two hats: Role conflict in serving as both psychotherapist and [expert witness](@/glossary/expert-witness.md)*. American Journal of Psychiatry.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
+- Strasburger, L. H., Gutheil, T. G., & Brodsky, A. (1997). *On wearing two hats: Role conflict in serving as both psychotherapist and expert witness*. American Journal of Psychiatry.
 - Woodlock, D. (2017). *The abuse of technology in domestic violence and stalking*. Violence Against Women.
 - World Health Organization. (2013). *Responding to Intimate Partner Violence and Sexual Violence Against Women: WHO Clinical and Policy Guidelines*. World Health Organization.
 - Zákon č. 372/2011 Sb., o zdravotních službách a podmínkách jejich poskytování (2011).

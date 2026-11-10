@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["perimeter-ea-attack-surface", "osint-ea-source-validation", "operational-execution-ea-deployment", "blue-team-ea-defense", "compliance-ea-regulatory-screening"]
-parent = "kompendium-aiad-integration"
 toc = true
 +++
 

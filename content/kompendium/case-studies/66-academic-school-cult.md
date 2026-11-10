@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["64-ngo-cult", "65-activism-cult", "67-research-discipline-cult", "68-think-tank-cult"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -243,7 +242,7 @@ ukazuje, že každý obor je do jisté míry myšlenkovým kolektivem, a hranice
 - Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
 - Lakatos, I. (1978). *The Methodology of Scientific Research Programmes*. Cambridge University Press.
 - Leymann, H. (1996). The content and development of mobbing at work. *European Journal of Work and Organizational Psychology*.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Mahoney, M. J. (1977). Publication prejudices: An experimental study of confirmatory bias in the peer review system. *Cognitive Therapy and Research*.
 - Merton, R. K. (1968). The Matthew effect in science. *Science*.
 - Merton, R. K. (1973). *The Sociology of Science: Theoretical and Empirical Investigations*. University of Chicago Press.

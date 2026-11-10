@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-5-5-bothsidesizm-internalizace", "ea-2-1-9-pseudo-konsenzus-vytvoreni", "ea-2-4-falesny-konsensus", "ea-2-3-4-mob-coordination", "firehose-of-falsehood", "propaganda"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.3.5"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.3 Mediální delegitimizace"

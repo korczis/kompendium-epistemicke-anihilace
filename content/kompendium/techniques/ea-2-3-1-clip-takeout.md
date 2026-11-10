@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-3-3-quote-mining", "ea-2-3-2-context-collapse", "ea-2-3-10-viralni-misrepresentation", "ea-9-2-5-video-manipulation-EA", "deepfake", "firehose-of-falsehood"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.3.1"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.3 Mediální delegitimizace"

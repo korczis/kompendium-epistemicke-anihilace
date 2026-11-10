@@ -9,7 +9,6 @@ categories = ["academic", "practical"]
 
 [extra]
 related_terms = ["31-source-curation", "32-feed-detoxification", "34-attention-budget", "35-deep-reading-practice"]
-parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
@@ -98,7 +97,7 @@ Příliš přísná dieta se snadno zlomí; plánujte i volnější dny, aby byl
 - Eppler, M. J., & Mengis, J. (2004). The concept of information overload: A review of literature from organization science, accounting, marketing, MIS, and related disciplines. *The Information Society*, 20(5), 325–344.
 - Holman, E. A., Garfin, D. R., & Silver, R. C. (2014). Media's role in broadcasting acute stress following the Boston Marathon bombings. *Proceedings of the National Academy of Sciences*, 111(1), 93–98.
 - Johnson, C. A. (2012). *The Information Diet: A Case for Conscious Consumption*. O'Reilly Media.
-- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ [Propaganda](@/glossary/propaganda.md) Model: Why It Might Work and Options to Counter It*. RAND Corporation.
+- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ Propaganda Model: Why It Might Work and Options to Counter It*. RAND Corporation.
 - Simon, H. A. (1971). Designing organizations for an information-rich world. In M. Greenberger (Ed.), *Computers, Communications, and the Public Interest* (pp. 37–72). Johns Hopkins Press.
 
 ## Související

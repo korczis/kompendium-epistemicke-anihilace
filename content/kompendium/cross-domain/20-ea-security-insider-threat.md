@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["17-ea-security-social-engineering", "23-ea-security-attribution-bias", "22-ea-security-incident-response-narrative", "9-ea-dd-investigation-bias"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 
@@ -138,7 +137,7 @@ a důvěru a jak měřit, zda program prevence spíše chrání, nebo spíše vy
 
 - Cappelli, D. M., Moore, A. P., Trzeciak, R. F. (2012). *The CERT Guide to Insider Threats.*
 - Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse.*
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism.*
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism.*
 - Rozsudek ESLP (velký senát) ze dne 5. 9. 2017, Bărbulescu proti Rumunsku, stížnost č. 61496/08.
 - Zákon č. 262/2006 Sb., zákoník práce.
 

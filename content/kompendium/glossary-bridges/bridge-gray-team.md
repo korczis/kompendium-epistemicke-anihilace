@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["gray-team", "color-teams", "white-team", "purple-team", "bridge-black-team", "bridge-red-team"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "gray-team"
 toc = false
 +++
@@ -145,7 +144,7 @@ kterou nelze rozhodnout, aniž by ji předčasně uzavřel.
 - Gibson, J. J. (1979). *The Ecological Approach to Visual Perception*. Houghton Mifflin.
 - Norman, D. A. (1988). *The Psychology of Everyday Things*. Basic Books.
 - Pauly, D. (1995). Anecdotes and the shifting baseline syndrome of fisheries. *Trends in Ecology & Evolution*, 10(10), 430.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Vaughan, D. (1996). *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. University of Chicago Press.
 
 ## Související

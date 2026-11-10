@@ -28,7 +28,6 @@ agent_count = 530
 tier_levels = ["L1", "L2", "L3", "L4", "L5"]
 domains_covered = 16
 author = "Tomas Korcak (korczis)"
-quality_score = 90
 date_modified = "2026-11-10"
 +++
 

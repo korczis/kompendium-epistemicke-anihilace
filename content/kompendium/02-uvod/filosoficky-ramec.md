@@ -10,7 +10,6 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["definice", "historicky-kontext", "metodologicke-poznamky", "teoreticke-zaklady"]
-parent = "kompendium-02-uvod"
 section_icon = "🧭"
 toc = true
 +++

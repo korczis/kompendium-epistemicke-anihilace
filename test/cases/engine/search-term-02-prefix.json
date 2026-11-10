@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 397,
+        "in": 390,
         "kind": "Pojem",
         "path": "glossary/nabla-infinity.md",
         "tier": 4,
@@ -35,23 +35,13 @@
       },
       {
         "code": null,
-        "in": 13,
+        "in": 14,
         "kind": "Kapitola",
         "path": "kompendium/international/17-religious-minority-EA/index.md",
         "tier": 4,
         "title": "Náboženské menšiny — EA",
         "url": "/kompendium/international/17-religious-minority-ea/",
         "why": "title_prefix"
-      },
-      {
-        "code": null,
-        "in": 37,
-        "kind": "Kapitola",
-        "path": "kompendium/07-teoreticke-reflexe/computational-epistemology.md",
-        "tier": 5,
-        "title": "7.6 Computational epistemology a NABLA",
-        "url": "/kompendium/07-teoreticke-reflexe/computational-epistemology/",
-        "why": "title_word"
       },
       {
         "code": null,
@@ -71,6 +61,16 @@
         "tier": 5,
         "title": "2.6 Vztah ke Prismatic NABLA Infinity (∇∞)",
         "url": "/kompendium/02-uvod/vztah-k-nabla/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 22,
+        "kind": "Kapitola",
+        "path": "kompendium/07-teoreticke-reflexe/computational-epistemology.md",
+        "tier": 5,
+        "title": "7.6 Computational epistemology a NABLA",
+        "url": "/kompendium/07-teoreticke-reflexe/computational-epistemology/",
         "why": "title_word"
       },
       {
@@ -115,7 +115,7 @@
       },
       {
         "code": null,
-        "in": 4,
+        "in": 3,
         "kind": "Kapitola",
         "path": "kompendium/section-bridges/bridge-platform-nabla-to-kompendium.md",
         "tier": 5,
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "NAB",
     "schema": "kompendium-engine/v1",
-    "total": 41
+    "total": 40
   },
   "input": {
     "op": "search",

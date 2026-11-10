@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["21-relapse-prevention-EA", "longterm-resilience-cultivation", "longterm-meaning-deepening", "trauma-bonding", "internalizovany-pachatel"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "longterm"
 +++
@@ -129,7 +128,7 @@ zvýšené riziko a zda lze identifikovat ochranné faktory specifické pro EA.
 
 - Classen, C. C., Palesh, O. G., & Aggarwal, R. (2005). Sexual revictimization: A review of the
   empirical literature. *Trauma, Violence, & Abuse*, 6(2).
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Cambridge, MA:
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Cambridge, MA:
   Harvard University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Lalich, J., & Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive

@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-30-konvergentni-meta-singularita", "ea-5-2-4-apriorni-saturace", "ea-5-2-6-transcendentalni-rekursivita", "ea-5-2-7-kategorialni-disoluce"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.5"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
@@ -72,7 +71,7 @@ Stav rozpadu je **legitimizován** jako *„přímý kontakt s realitou“*, *�
 - **Specifická forma odcizení**, která se liší od [depersonalizace](@/glossary/depersonalizace.md) tím, že **chybí Já**, vůči kterému by zkušenost byla cizí.
 - **Vyhasnutí motivace** — bez konstitucí předmětů chybí to, na co by motivace mířila.
 
-V terminálních stadiích kombinace s [EA-5.2.12 apercepční roztržkou](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-12-apercepcni-roztrzka) vede ke stavu, který literatura označuje jako *strukturální dezintegrace zkušenosti*.
+Při souběhu s [EA-5.2.20 Apperceptivní rozklad](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-20-apperceptivni-rozklad) chybí vedle konstitutivních aktů i jednota vědomí, která by zbylé zkušenosti sjednocovala jako zkušenosti jednoho subjektu; rozpad pak zasahuje nejen předměty zkušenosti, ale i to, komu zkušenost patří.
 
 ## Detekční markery
 
@@ -168,8 +167,8 @@ Intervence: integrační terapie zaměřená na rekonstrukci konstitutivních sy
 
 ### Eskaluje do
 
-- **[EA-5.2.12 Apercepční roztržka](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-12-apercepcni-roztrzka)** — narušení transcendentální jednoty apercepce.
-- **[EA-5.2.30 Metatranscendentální terminace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-metatranscendentalni-terminace)** — terminální stav.
+- **[EA-5.2.20 Apperceptivní rozklad](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-20-apperceptivni-rozklad)** — narušení transcendentální jednoty apercepce.
+- **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-konvergentni-meta-singularita)** — terminální stav podtřídy 5.2, v němž se sbíhají dílčí poškození [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) až [EA-5.2.29](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md).
 
 ## Vztah k Prismatic platformě
 

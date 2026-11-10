@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["25-ea-compliance-nis2-integrity", "21-ea-security-supply-chain-narrative", "22-ea-security-incident-response-narrative", "27-ea-compliance-gdpr-narrative-protection"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 

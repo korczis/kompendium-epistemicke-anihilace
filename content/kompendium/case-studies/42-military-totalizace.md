@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["40-law-firm-totalizace", "41-medical-residency", "43-elite-sports-totalizace", "44-arts-totalizace"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -250,7 +249,7 @@ a jejím zakotvením ve společnosti.
 - Junger, S. (2016). *Tribe: On Homecoming and Belonging*. Twelve.
 - Khantzian, E. J. (1997). The self-medication hypothesis of substance use disorders: A
   reconsideration and recent applications. *Harvard Review of Psychiatry*.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Litz, B. T., Stein, N., Delaney, E., Lebowitz, L., Nash, W. P., Silva, C., a Maguen, S. (2009).
   Moral injury and moral repair in war veterans: A preliminary model and intervention strategy.
   *Clinical Psychology Review*.

@@ -9,7 +9,6 @@ categories = ["academic", "public-health"]
 
 [extra]
 related_terms = ["02-cohort-studies-EA", "03-incidence-cult-exposure", "04-disinformation-population-impact"]
-parent = "kompendium-population-health"
 toc = true
 +++
 
@@ -59,7 +58,7 @@ došli do péče). Seriózní zpráva uvádí všechny tři úrovně vedle sebe.
 ## Zdroje dat a metody měření
 
 - **Průřezová populační šetření** s pravděpodobnostním výběrem. Umožňují bodovou prevalenci,
-  ale závisejí na [self-reportu](@/glossary/self-report.md). Lidé uprostřed manipulativního
+  ale závisejí na self-reportu. Lidé uprostřed manipulativního
   vztahu svou situaci často nerozpoznají – samo poškození úsudku snižuje citlivost dotazu.
 - **Klinická a administrativní data** (ambulance, krizová centra, linky pomoci). Zachycují jen
   vrchol ledovce a jsou zkreslená dostupností služeb; viz
@@ -83,7 +82,7 @@ pořadí otázek a terminologie („manipulace“, „sekta“) mění odpovědi
 Faktory jsou rizikové pro *expozici* nebo pro *přechod od expozice k poškození*. Nejde
 o vlastnosti „slabých“ lidí; většina z nich je situační.
 
-**Rizikové faktory**
+Rizikové faktory
 
 - životní přechody a krize: ztráta práce, rozvod, migrace, úmrtí blízkého, nástup na studia;
 - [sociální izolace](@/glossary/socialni-izolace.md) a ztráta nezávislých zdrojů informací;

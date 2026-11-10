@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-2-3-synthetic-text-narrative", "ea-9-2-8-AI-eyewitness-fabrication", "ea-9-4-7-cross-platform-bot-cascade"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.2.6"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.2 Generativní média"

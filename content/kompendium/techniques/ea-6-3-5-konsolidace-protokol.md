@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-3-1-stabilizacni-faze-protokol", "ea-6-3-2-externalizacni-faze", "ea-6-3-10-sense-of-coherence-restaurace"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.3.5"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.3 Rekonstrukční protokoly"

@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-1-3-1-imunizace-proti-falsifikaci", "ea-1-3-2-strategicka-reinterpretace", "ea-7-2-3-popper-falsification", "ea-7-2-5-kuhn-paradigm-shift", "ea-7-2-7-quine-web-belief", "ea-2-4-6-peer-review-capture"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.2.4"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.2 Analytická filozofie"
@@ -35,7 +34,7 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 
 > **Poznámka ke kódu.** Řada `EA-7.2` se nekryje s tematickou kapitolou 7.2 ani s monografiemi
 > 7.10–7.59. Glosář vede pojem dvakrát: [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md)
-> je úplné heslo, [Lakatos Research Programme](@/glossary/lakatos.md) jeho starší krátká verze.
+> je úplné heslo, [Lakatos Research Programme](@/glossary/lakatos-vyzkumny-program.md) jeho starší krátká verze.
 
 ## Definice
 

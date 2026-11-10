@@ -179,7 +179,7 @@ podobnosti, nikoli tvrzením o totožnosti obou systémů.
 - Foucault, M. (1975). *Surveiller et punir: Naissance de la prison*. Gallimard.
 - Human Rights Watch (2018). *„Eradicating Ideological Viruses“: China's Campaign of Repression Against Xinjiang's Muslims*. Human Rights Watch.
 - Human Rights Watch (2019). *China's Algorithms of Repression: Reverse Engineering a Xinjiang Police Mass Surveillance App*. Human Rights Watch.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism: A Study of „Brainwashing“ in China*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. W. W. Norton.
 - OHCHR (2022). *OHCHR Assessment of Human Rights Concerns in the Xinjiang Uyghur Autonomous Region, People's Republic of China*. Office of the United Nations High Commissioner for Human Rights.
 - Roberts, S. R. (2020). *The War on the Uyghurs: China's Internal Campaign against a Muslim Minority*. Princeton University Press.
 - Zenz, A. (2019). „Thoroughly reforming them towards a healthy heart attitude“: China's political re-education campaign in Xinjiang. *Central Asian Survey*.

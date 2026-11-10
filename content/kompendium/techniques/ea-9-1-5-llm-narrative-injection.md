@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-1-9-multi-turn-narrative-shift", "ea-9-1-2-prompt-injection-EA", "ea-9-4-9-bot-narrative-injection"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.1.5"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.1 LLM-mediated EA"

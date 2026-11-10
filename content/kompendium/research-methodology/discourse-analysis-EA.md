@@ -9,7 +9,6 @@ categories = ["academic", "methodology", "research"]
 
 [extra]
 related_terms = ["conversation-analysis-EA", "document-analysis-EA", "narrative-analysis-EA", "publication-ethics-EA"]
-parent = "kompendium-research-methodology"
 toc = true
 +++
 
@@ -168,7 +167,7 @@ a jak kriticky analyzovat diskurz manipulace, aniž by se z něj stal další to
 - Potter, J., Wetherell, M. (1987). *Discourse and Social Psychology.*
 - Fairclough, N. (1995). *Critical Discourse Analysis.*
 - Foucault, M. (1969). *L'archéologie du savoir.*
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism.*
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism.*
 
 ## Související
 

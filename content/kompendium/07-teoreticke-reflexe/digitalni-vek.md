@@ -10,7 +10,6 @@ categories = ["academic", "theory", "digital-epistemology"]
 
 [extra]
 related_terms = ["dennett-from-bacteria-to-bach", "dennett-intentional-stance", "epistemicke-trauma", "feyerabend-anti-method"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++
@@ -187,7 +186,7 @@ Realistická pozice tedy vyžaduje **akceptaci permanentní zranitelnosti** komb
 - [Glosář: Kognitivní bias](@/glossary/kognitivni-bias.md)
 - [Glosář: Konfirmační bias](@/glossary/konfirmacni-bias.md)
 - [Glosář: Falsifikace](@/glossary/falsifikace.md)
-- [Glosář: Lakatos](@/glossary/lakatos.md)
+- [Glosář: Lakatos](@/glossary/lakatos-vyzkumny-program.md)
 - [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
 - [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
 - [Glosář: Metakognice](@/glossary/metakognice.md)

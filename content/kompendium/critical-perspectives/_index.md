@@ -10,7 +10,6 @@ tags = ["kompendium", "critical-perspectives", "kritika", "alternativy", "episte
 categories = ["academic", "critical-theory"]
 section_icon = "🔬"
 toc = true
-parent = "kompendium"
 +++
 
 # Kritické perspektivy

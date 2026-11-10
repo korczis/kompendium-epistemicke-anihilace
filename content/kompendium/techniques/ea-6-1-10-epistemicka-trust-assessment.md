@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-1-2-self-report-instrument", "ea-6-1-9-metakognitivni-functional-assessment", "ea-8-1-5-epistemic-trust-scale", "ea-6-3-8-relacni-restaurace"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.1.10"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.1 Diagnostické techniky"

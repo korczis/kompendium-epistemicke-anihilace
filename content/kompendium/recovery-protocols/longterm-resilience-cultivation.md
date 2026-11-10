@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["longterm-relapse-prevention", "longterm-post-traumatic-growth", "midterm-hermeneutic-reset", "midterm-educational-reintegration", "epistemicka-agentnost"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "longterm"
 +++

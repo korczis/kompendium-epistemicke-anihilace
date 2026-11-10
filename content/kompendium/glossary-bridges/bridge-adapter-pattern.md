@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["adapter-pattern", "3nl", "bounded-context", "hermeneuticky-outsourcing", "milieu-control", "signal-plurality"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "adapter-pattern"
 toc = false
 +++
@@ -156,7 +155,7 @@ Kniha tyto otázky rozvádí v kapitole [EA v digitálním věku](@/kompendium/0
 - Goldman, A. I. (1999). *Knowledge in a Social World*. Oxford University Press.
 - Heuer, R. J. (1999). *Psychology of Intelligence Analysis*. Center for the Study of Intelligence, CIA.
 - Hutchins, E. (1995). *Cognition in the Wild*. MIT Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Parnas, D. L. (1972). On the criteria to be used in decomposing systems into modules. *Communications of the ACM*, 15(12), 1053–1058.
 
 ## Související

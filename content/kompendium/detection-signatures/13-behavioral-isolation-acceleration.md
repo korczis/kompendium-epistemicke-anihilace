@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["11-behavioral-topic-evasion", "12-behavioral-gaslighting-pattern", "14-behavioral-time-pressure-creation", "15-behavioral-asymmetric-disclosure"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "behavioral"
 +++
@@ -22,7 +21,7 @@ Izolace je jedním z nejlépe doložených prvků nátlakových prostředí. Bid
 
 ## Co signatura indikuje
 
-Sociální síť plní epistemickou funkci: lidé kolem nás nám poskytují srovnání („tohle není normální“), alternativní výklady a praktickou pomoc. Izolace odstraňuje tyto korektivy a zdroj se stává jediným, kdo určuje, co je normální. Proto je izolace často **předpokladem** dalších signatur – [gaslighting](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) bez svědků funguje snáz, [monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) se vytváří zúžením přístupu.
+Sociální síť plní epistemickou funkci: lidé kolem nás nám poskytují srovnání („tohle není normální“), alternativní výklady a praktickou pomoc. Izolace odstraňuje tyto korektivy a zdroj se stává jediným, kdo určuje, co je normální. Proto je izolace často předpokladem dalších signatur – [gaslighting](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) bez svědků funguje snáz, [monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) se vytváří zúžením přístupu.
 
 Zrychlení je důležitým varovným znakem: v pozdějších fázích zbývá méně lidí, kteří by změnu zaznamenali, a tedy i méně lidí, kteří by mohli pomoci. Ztráta sítě zároveň zvyšuje cenu odchodu – osoba by odcházela do prázdna.
 
@@ -115,8 +114,8 @@ Online kontakty komplikují měření: osoba může mít mnoho kontaktů, které
 - Festinger, L. (1954). A theory of social comparison processes. *Human Relations*, 7(2), 117–140.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Holt-Lunstad, J., Smith, T. B., & Layton, J. B. (2010). Social relationships and mortality risk: A meta-analytic review. *PLoS Medicine*, 7(7), e1000316.
-- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Steinberg, L., & Monahan, K. C. (2007). Age differences in resistance to peer influence. *Developmental Psychology*, 43(6), 1531–1543.
 

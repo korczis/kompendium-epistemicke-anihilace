@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 296,
+        "in": 298,
         "kind": "Pojem",
         "path": "glossary/coercive-control.md",
         "tier": 4,
@@ -54,6 +54,16 @@
         "why": "title_word"
       },
       {
+        "code": "EA-8.3.1",
+        "in": 7,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-8-3-1-foundational-readings.md",
+        "tier": 6,
+        "title": "EA-8.3.1 Základní literatura",
+        "url": "/kompendium/techniques/ea-8-3-1-foundational-readings/",
+        "why": "description"
+      },
+      {
         "code": null,
         "in": 6,
         "kind": "Kapitola",
@@ -61,16 +71,6 @@
         "tier": 6,
         "title": "Austrálie — EA právní rámec",
         "url": "/kompendium/international/27-australian-law-ea/",
-        "why": "description"
-      },
-      {
-        "code": "EA-8.3.1",
-        "in": 6,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-8-3-1-foundational-readings.md",
-        "tier": 6,
-        "title": "EA-8.3.1 Základní literatura",
-        "url": "/kompendium/techniques/ea-8-3-1-foundational-readings/",
         "why": "description"
       }
     ],

@@ -9,7 +9,6 @@ categories = ["academic", "legal", "clinical"]
 
 [extra]
 related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
-parent = "kompendium-forensic-legal"
 toc = true
 +++
 
@@ -165,13 +164,13 @@ a jeho vyvážení s právem obhajoby klást otázky.
 - Fisher, R. P., & Geiselman, R. E. (1992). *Memory-Enhancing Techniques for Investigative Interviewing: The Cognitive Interview*. Charles C Thomas.
 - Gudjonsson, G. H. (2003). *The Psychology of Interrogations and Confessions: A Handbook*. Wiley.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Lamb, M. E., Orbach, Y., Hershkowitz, I., Esplin, P. W., & Horowitz, D. (2007). *A structured [forensic interview](@/glossary/forensic-interview.md) protocol improves the quality and informativeness of investigative interviews with children: A review of research using the NICHD Investigative Interview Protocol*. Child Abuse & Neglect.
+- Lamb, M. E., Orbach, Y., Hershkowitz, I., Esplin, P. W., & Horowitz, D. (2007). *A structured forensic interview protocol improves the quality and informativeness of investigative interviews with children: A review of research using the NICHD Investigative Interview Protocol*. Child Abuse & Neglect.
 - Loftus, E. F. (2005). *Planting misinformation in the human mind: A 30-year investigation of the malleability of memory*. Learning & Memory.
 - Milne, R., & Bull, R. (1999). *Investigative Interviewing: Psychology and Practice*. Wiley.
 - Ministry of Justice. (2011). *Achieving Best Evidence in Criminal Proceedings: Guidance on Interviewing Victims and Witnesses, and Guidance on Using Special Measures*. Ministry of Justice.
 - Neisser, U. (1981). *John Dean's memory: A case study*. Cognition.
 - Orth, U. (2002). *Secondary victimization of crime victims by criminal proceedings*. Social Justice Research.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Tuerkheimer, D. (2004). *Recognizing and remedying the harm of battering: A call to criminalize domestic violence*. Journal of Criminal Law and Criminology.
 - Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Wiley.
 

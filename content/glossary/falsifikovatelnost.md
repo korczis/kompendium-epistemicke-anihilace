@@ -10,9 +10,7 @@ tags = ["glossary", "epistemology", "philosophy", "science", "methodology"]
 category = "philosophy-of-science"
 status = "active"
 author = "Tomas Korcak (korczis)"
-reading_time = "4 min"
 difficulty = "intermediate"
-quality_score = 92
 abbreviation = "Falsif."
 date_created = "2026-05-03"
 date_updated = "2026-05-03"
@@ -35,7 +33,7 @@ Falsifikovatelnost je vlastnost tvrzení; [falsifikace](@/glossary/falsifikace.m
 
 Popper formuloval kritérium v *Logik der Forschung* (1934) jako odpověď logickým pozitivistům Vídeňského kroužku, kteří hledali kritérium *verifikace*. Popper ukázal, že verifikace je u univerzálních zákonů logicky nemožná (žádný konečný počet pozorování nedokazuje, že „všechny labutě jsou bílé“), zatímco jediné odporující pozorování (jedna černá labuť) hypotézu vyvrací. Vědecký pokrok se tím stává řadou *domněnek a vyvrácení* (*conjectures and refutations*).
 
-Imre Lakatos kritérium později zjemnil: izolovanou hypotézu lze vždy zachránit dodatkem *ad hoc*, takže falsifikovatelnost se uplatňuje na celé výzkumné programy, ne na jednotlivé výroky; viz [Lakatos](@/glossary/lakatos.md) a [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md). Širší filozofický kontext podává [popperianismus](@/glossary/popperianismus.md), v knize kapitola [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md).
+Imre Lakatos kritérium později zjemnil: izolovanou hypotézu lze vždy zachránit dodatkem *ad hoc*, takže falsifikovatelnost se uplatňuje na celé výzkumné programy, ne na jednotlivé výroky; viz [Lakatos](@/glossary/lakatos-vyzkumny-program.md) a [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md). Širší filozofický kontext podává [popperianismus](@/glossary/popperianismus.md), v knize kapitola [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md).
 
 ## Jak se projevuje
 
@@ -91,7 +89,7 @@ Třetí bod je pro knihu zásadní: Kompendium samo musí být falzifikovatelné
 **Pojmy**
 
 - [Falsifikace](@/glossary/falsifikace.md) – akt vyvrácení teorie protipříkladem.
-- [Lakatos](@/glossary/lakatos.md) – metodologie výzkumných programů, která Poppera zjemňuje.
+- [Lakatos](@/glossary/lakatos-vyzkumny-program.md) – metodologie výzkumných programů, která Poppera zjemňuje.
 - [Epistemické trauma](@/glossary/epistemicke-trauma.md) – patologie, která vzniká, když je falsifikace sociálně zablokována.
 - [Popperianismus](@/glossary/popperianismus.md) – širší filozofická pozice.
 

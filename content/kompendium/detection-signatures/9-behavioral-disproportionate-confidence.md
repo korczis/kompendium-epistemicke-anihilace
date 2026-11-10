@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["7-linguistic-scope-creep", "8-linguistic-semantic-erosion", "epistemicka-kalibrace", "motte-bailey"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "behavioral"
 +++

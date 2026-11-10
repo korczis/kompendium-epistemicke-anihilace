@@ -176,7 +176,7 @@ rozšířený pragmatismus a skrytou skepsi, kterou dokládají i rozhovory, je�
 - Lankov, A. (2013). *The Real North Korea: Life and Politics in the Failed Stalinist Utopia*.
   Oxford University Press.
 - Lee, H. (2015). *The Girl with Seven Names: A North Korean Defector's Story*. William Collins.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism: A Study of „Brainwashing“
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“
   in China*. W. W. Norton.
 - Martin, B. K. (2004). *Under the Loving Care of the Fatherly Leader: North Korea and the Kim
   Dynasty*. Thomas Dunne Books.

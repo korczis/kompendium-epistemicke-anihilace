@@ -27,12 +27,9 @@ related_apps = ["prismatic_perimeter", "prismatic_osint_core", "prismatic_perime
 compliance_relevance = ["nis2", "zkb"]
 see_also = ["censys", "greynoise", "easm", "attack-surface", "risk-score", "signal-plurality"]
 author = "Tomas Korcak (korczis)"
-reading_time = "9 min"
-word_count = 1772
 date_created = "2026-02-23"
 date_modified = "2026-11-10"
 keywords = ["Shodan", "Internet-wide", "glossary", "security", "Prismatic Platform", "Filter", "String"]
-quality_score = 90
 image = "/images/sections/glossary.png"
 image_alt = "Shodan – glosář"
 +++

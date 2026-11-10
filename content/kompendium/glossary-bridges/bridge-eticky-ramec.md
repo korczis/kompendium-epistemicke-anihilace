@@ -12,7 +12,6 @@ related_terms = ["eticky-kodex", "dual-use-poznani", "informed-consent", "irb-re
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
-quality_score = 75
 +++
 
 # Bridge: Etický rámec
@@ -32,7 +31,7 @@ k autonomii, nepoškozování, prospěšnost a spravedlnost –, Belmontská zpr
 stanovila pro výzkum na lidech zásady respektu k osobám, prospěšnosti a spravedlnosti a Helsinská
 deklarace Světové lékařské asociace (1964, s pozdějšími revizemi) upravuje lékařský výzkum.
 
-Z této tradice kniha odvozuje pět vlastních zásad. Jsou to **obranný účel** (jevy se popisují, aby šly
+Ze čtyř principů, jak je formulovali Beauchamp a Childress (2019), kniha odvozuje pět vlastních zásad. Jsou to **obranný účel** (jevy se popisují, aby šly
 rozpoznat, předejít jim a léčit je), **strukturální úroveň popisu** (mechanismus jako vzorec, nikdy jako
 návod), **nepoškozování** (každá intervence se posuzuje i z hlediska možné škody), **autonomie a souhlas**
 (zasažený rozhoduje o tom, co se s ním děje) a **přiměřený přístup** (nejcitlivější části jsou určeny
@@ -47,9 +46,7 @@ natolik vážné, že vyžadují zvláštní posouzení. Kniha tuto logiku přen
 v kapitole [Dual Use](@/kompendium/08-prilohy/dual-use.md) a v hesle
 [Dual-use poznání](@/glossary/dual-use-poznani.md). Praktickým důsledkem je, že každá stránka o technice
 popisuje strukturu jevu, pozorovatelné znaky, odlišení, obranu a zotavení, ale nikdy postup, jak techniku
-provést, zesílit nebo skrýt.
-
-Obranný účel není jen omezením, ale i metodou. Popis, který by se zastavil u mechanismu, by čtenáře
+provést, zesílit nebo skrýt. Obranný účel není jen omezením, ale i metodou. Popis, který by se zastavil u mechanismu, by čtenáře
 nechal bez opory; proto je v knize obrana a zotavení stejně povinnou částí stránky jako mechanismus.
 Etika tak není přílohou textu, ale součástí toho, co znamená stránku dokončit.
 
@@ -62,7 +59,10 @@ intervence mohou škodit, a vyzval k tomu, aby se riziko škody posuzovalo stejn
 byl vhodný – viz [Bridge: Kontraindikace](@/kompendium/glossary-bridges/bridge-kontraindikace.md) a
 [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 
-Zásada autonomie má podobu [informovaného souhlasu](@/glossary/informed-consent.md). U lidí, kteří prošli
+Zásada autonomie má podobu [informovaného souhlasu](@/glossary/informed-consent.md). Faden a
+Beauchamp (1986) rozlišili mezi souhlasem jako formálním úkonem a souhlasem jako autonomním
+zplnomocněním, které vyžaduje porozumění a dobrovolnost; manipulace podle nich dobrovolnost
+oslabuje i tam, kde formální náležitosti zůstávají splněny. U lidí, kteří prošli
 manipulací, má souhlas zvláštní význam: manipulace jim brala právě možnost rozhodovat na základě
 pravdivých informací, a pomoc, která by jejich souhlas obcházela, by tento vzorec opakovala. Kritická
 kapitola [Otázka validity souhlasu v EA výzkumu](@/kompendium/critical-perspectives/15-consent-validity-question.md)
@@ -77,11 +77,14 @@ odlišení, obrana a zotavení. V **terminálních a ultramarinních částech**
 jevů, ho zpřesňují přechodové kapitoly [Bridge: Etický rámec → Terminální protokoly](@/kompendium/section-bridges/bridge-01-to-04-eticky-ramec-protokoly.md)
 a [Bridge: Etický rámec → Ultramarinní techniky](@/kompendium/section-bridges/bridge-01-to-05-eticky-ramec-ultramari.md)
 a kapitola [Kontrolovaná rekonstituce](@/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce.md).
+Odstupňování odpovídá logice, s níž zpráva National Research Council (2004) vyčlenila nejrizikovější
+třídy výzkumu pro zvláštní posouzení: čím závažnější je možné zneužití, tím přísnější jsou pravidla
+popisu a přístupu.
 
 Ve **výzkumu** se rámec uplatňuje etickým posouzením projektů a ochranou účastníků; viz heslo
 [IRB Review](@/glossary/irb-review.md), kapitoly [IRB protokol pro EA výzkum](@/kompendium/research-methodology/IRB-protocol-design-EA.md)
 a [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md).
-Kodex Americké psychologické asociace (APA 2017) k tomu přidává požadavek rozboru po skončení studie,
+Kodex Americké psychologické asociace (American Psychological Association, 2017) k tomu přidává požadavek rozboru po skončení studie,
 pokud výzkum pracoval s klamem nebo zátěží. V **kazuistikách** se rámec projevuje anonymizací: všechny
 příklady jsou kompozity bez identifikačních detailů – viz [Anonymizace v EA výzkumu](@/kompendium/research-methodology/anonymization-EA-research.md).
 
@@ -104,8 +107,11 @@ a [Stigmatizace skrze EA kategorie](@/kompendium/critical-perspectives/12-EA-sti
 
 Prvním omylem je představa, že etický rámec je seznamem zákazů, který lze splnit vynecháním citlivých
 témat. Rámec naopak vyžaduje, aby se o závažných jevech psalo, ale tak, aby text chránil. Druhým omylem
-je domněnka, že dobrý úmysl obránce stačí; i dobře míněná pomoc může škodit. Třetím omylem je považovat
-souhlas za jednorázový akt; v klinice i ve výzkumu je souhlas proces, který lze kdykoli odvolat.
+je domněnka, že dobrý úmysl obránce stačí; i dobře míněná pomoc může škodit, jak doložil Lilienfeld
+(2007) na intervencích, jejichž autoři o jejich prospěšnosti nepochybovali. Třetím omylem je považovat
+souhlas za jednorázový akt; v klinice i ve výzkumu je souhlas proces, který lze kdykoli odvolat, a
+etický kodex psychologů výslovně zaručuje účastníkům výzkumu právo z něj kdykoli odstoupit (American
+Psychological Association, 2017).
 
 ## Příklad (anonymizovaný kompozit)
 
@@ -113,31 +119,42 @@ Výzkumnice připravuje studii o zkušenostech lidí, kteří odešli z uzavřen
 schválí protokol, ale výzkumnice si při pilotním rozhovoru všimne, že účastník odpovídá tak, aby jí
 vyhověl, a omlouvá se, když něco neví. Protokol proto upraví: na začátku rozhovoru výslovně řekne, že
 „nevím“ je cenná odpověď, že lze kdykoli přestat bez vysvětlení a že přepis rozhovoru si účastník může
-před použitím přečíst. Do výzkumné zprávy uvede, proč úpravu provedla.
+před použitím přečíst. Do výzkumné zprávy uvede, proč úpravu provedla. Výzkumnice reagovala na jev, který Orne (1962)
+nazval charakteristikami požadavku: účastník výzkumu vyvozuje ze situace, co se od něj očekává, a
+snaží se tomu vyhovět, což u lidí zvyklých podřizovat se autoritě platí zvlášť.
 
 ## Meze a otevřené otázky
 
 Otevřená zůstává otázka, jak vymezit hranici mezi strukturálním popisem a návodem u jevů, kde i popis
 struktury může být užitečný tomu, kdo chce škodit. Kniha ji řeší kombinací úrovně popisu a omezení
-přístupu, ale žádné z obou opatření není dokonalé. Druhou otázkou je, jak sladit ochranu soukromí v
-kazuistikách s požadavkem, aby byly dost konkrétní na to, aby z nich šlo něco poznat.
+přístupu, ale žádné z obou opatření není dokonalé; ani zpráva National Research Council (2004) nenabídla
+pravidlo, které by hranici stanovilo jednou provždy, a svěřila ji průběžnému posuzování. Druhou otázkou je, jak sladit ochranu soukromí v
+kazuistikách s požadavkem, aby byly dost konkrétní na to, aby z nich šlo něco poznat. Kaiser (2009) popisuje toto
+dilema v kvalitativním výzkumu jako riziko deduktivního odhalení: i bez jména může souhrn detailů
+umožnit blízkým účastníka poznat.
 
 ## Vztah k platformě
 
 Na platformě Prismatic, z níž kniha vzešla, odpovídá etickému rámci soubor doktrinálních pravidel
 popsaný v kapitole [Doktrinální rámec](@/kompendium/02-doktrinalni-ramec/_index.md). Kniha z nich
 přebírá zásadu, že nástroje analýzy slouží ochraně, a doplňuje ji o klinickou a výzkumnou etiku; jazyk
-„nulové tolerance“ vůči lidem z platformy nepřebírá.
+„nulové tolerance“ vůči lidem z platformy nepřebírá, protože doklady o politikách nulové tolerance
+v lidských institucích jsou nepříznivé (American Psychological Association Zero Tolerance Task Force,
+2008).
 
 ## Literatura
 
-- American Psychological Association (2017). *Ethical Principles of Psychologists and Code of Conduct* (2002, ve znění změn z let 2010 a 2016).
+- American Psychological Association (2017). *Ethical Principles of Psychologists and Code of Conduct* (2002, ve znění změn z let 2010 a 2016, účinných od 1. ledna 2017).
+- American Psychological Association Zero Tolerance Task Force (2008). Are zero tolerance policies effective in the schools? An evidentiary review and recommendations. *American Psychologist*, 63(9), 852–862.
 - Beauchamp, T. L., & Childress, J. F. (2019). *Principles of Biomedical Ethics* (8. vyd.). Oxford University Press.
+- Faden, R. R., & Beauchamp, T. L. (1986). *A History and Theory of Informed Consent*. Oxford University Press.
 - Hacking, I. (1995). The looping effects of human kinds. In D. Sperber, D. Premack, & A. J. Premack (Eds.), *Causal Cognition: A Multidisciplinary Debate*. Clarendon Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Kaiser, K. (2009). Protecting respondent confidentiality in qualitative research. *Qualitative Health Research*, 19(11), 1632–1641.
 - Lilienfeld, S. O. (2007). Psychological treatments that cause harm. *Perspectives on Psychological Science*, 2(1), 53–70.
 - National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research (1979). *The Belmont Report*. U.S. Department of Health, Education, and Welfare.
 - National Research Council (2004). *Biotechnology Research in an Age of Terrorism*. National Academies Press.
+- Orne, M. T. (1962). On the social psychology of the psychological experiment: With particular reference to demand characteristics and their implications. *American Psychologist*, 17(11), 776–783.
 - World Medical Association (1964). *Declaration of Helsinki: Ethical Principles for Medical Research Involving Human Subjects* (s pozdějšími revizemi).
 
 ## Související

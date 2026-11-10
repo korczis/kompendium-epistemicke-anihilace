@@ -9,7 +9,6 @@ categories = ["academic", "reference", "ultramari"]
 
 [extra]
 related_terms = ["qr-ea-5-2-3", "qr-ea-5-2-30", "qr-ea-5-2-5", "qr-ea-5-2-6"]
-parent = "kompendium-quick-reference"
 ea_code = "EA-5.2.4"
 access_level = "L4"
 risk_level = "extreme"

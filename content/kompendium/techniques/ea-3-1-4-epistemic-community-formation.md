@@ -10,7 +10,6 @@ categories = ["academic", "education"]
 
 [extra]
 related_terms = ["ea-3-1-2-experiential-scaffolding", "ea-3-1-3-metacognitive-cultivation", "ea-3-1-5-stabilization-anchoring", "ea-3-1-6-recognition-training"]
-parent = "kompendium-techniques"
 ea_code = "EA-3.1.4"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.1 Kurikulární techniky"

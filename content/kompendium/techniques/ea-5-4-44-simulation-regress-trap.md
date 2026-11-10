@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-42-grandfather-paradox-aplikace", "ea-5-4-43-predestiny-paradox", "ea-5-4-45-cogito-paradox-zhrouceni", "ea-5-4-46-evil-demon-paradox"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.44"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"

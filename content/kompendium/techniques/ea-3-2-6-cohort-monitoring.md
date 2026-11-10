@@ -10,7 +10,6 @@ categories = ["academic", "education"]
 
 [extra]
 related_terms = ["ea-3-2-7-individual-supervision", "ea-3-2-8-peer-consultation", "ea-3-2-9-iatrogenic-risk-assessment", "ea-4-1-9-cohort-monitoring", "ea-3-3-4-evaluation-metrics"]
-parent = "kompendium-techniques"
 ea_code = "EA-3.2.6"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.2 Supervizorské techniky"

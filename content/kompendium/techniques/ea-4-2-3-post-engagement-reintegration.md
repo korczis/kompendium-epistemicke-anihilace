@@ -10,7 +10,6 @@ categories = ["academic", "research"]
 
 [extra]
 related_terms = ["ea-4-2-10-emergency-extraction", "ea-4-2-2-real-time-monitoring", "ea-4-2-4-irb-review-multi-tier", "ea-4-2-5-whistleblower-protection"]
-parent = "kompendium-techniques"
 ea_code = "EA-4.2.3"
 ea_category = "4. Terminální protokoly"
 ea_subcategory = "4.2 Bezpečnostní protokoly"

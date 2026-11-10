@@ -27,7 +27,6 @@ prismatic_module = "PrismaticPerimeter.Sources.Censys"
 query_language = "Censys Search Language"
 refresh_rate = "Regular full-internet scans"
 author = "Tomas Korcak (korczis)"
-quality_score = 90
 date_modified = "2026-11-10"
 +++
 

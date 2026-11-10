@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["acute-safety-establishment", "acute-somatic-regulation", "acute-cognitive-anchoring", "acute-social-reconnection", "acute-information-curation", "sekvence"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "acute"
 +++
@@ -67,7 +66,7 @@ rozpracovávají dílčí protokoly; tento rámcový protokol určuje jejich po�
    a rizika násilí, mapa aktuálních hrozeb (kontakt pachatele, sledování, právní a finanční
    tlak). Pro posouzení rizika partnerského násilí lze použít ověřené nástroje, například
    Danger Assessment (Campbell, Webster a Glass 2009).
-2. **Bezpečí** – podle protokolu [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md):
+2. Bezpečí – podle protokolu [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md):
    bezpečnostní plán, bydlení, doklady, peníze, digitální zabezpečení.
 3. **Zklidnění a tělo** – podle protokolu [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md):
    jednoduché regulační dovednosti, spánek, jídlo, pohyb.

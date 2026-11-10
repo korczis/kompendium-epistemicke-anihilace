@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["74-influencer-cult", "75-podcast-cult", "77-twitch-streamer-cult", "78-forum-cult"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -230,7 +229,7 @@ laterálního čtení naznačuje, že rozhodující je dovednost ověřovat, nik
 - American Psychiatric Association. (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). American Psychiatric Publishing.
 - Barkun, M. (2003). *A Culture of Conspiracy: Apocalyptic Visions in Contemporary America*. University of California Press.
 - Erikson, E. H. (1968). *Identity: Youth and Crisis*. W. W. Norton.
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
 - Gabbard, G. O. (2000). Disguise or consent. *International Journal of Psychoanalysis*.
 - Gillespie, T. (2018). *Custodians of the Internet*. Yale University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
@@ -238,7 +237,7 @@ laterálního čtení naznačuje, že rozhodující je dovednost ověřovat, nik
 - Killgore, W. D. S. (2010). Effects of sleep deprivation on cognition. *Progress in Brain Research*.
 - Lalich, J., a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
 - Lewis, R. (2018). *Alternative Influence: Broadcasting the Reactionary Right on YouTube*. Data & Society Research Institute.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Litz, B. T., et al. (2009). Moral injury and moral repair in war veterans. *Clinical Psychology Review*.
 - Marwick, A. E., a boyd, d. (2011). I tweet honestly, I tweet passionately. *New Media & Society*.
 - Nguyen, C. T. (2020). Echo chambers and epistemic bubbles. *Episteme*.

@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "emergency"]
 
 [extra]
 related_terms = ["1-acute-decompensation-EA", "10-acute-self-harm-EA", "11-er-EA-handoff", "12-inpatient-admission-EA"]
-parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true
 +++
@@ -98,7 +97,7 @@ dalším kontaktem s pachatelem i s jeho okolím, ne jen před přímým násil�
 sociálně-právní ochrany dětí](@/kompendium/forensic-legal/47-child-protection-EA.md) podle zákona č. 359/1999 Sb., o sociálně-právní ochraně dětí;
 postup popisuje [protokol č. 9](@/kompendium/emergency-protocols/9-mandatory-reporting-EA.md) o oznamovací povinnosti.
 
-**Psychický stav** zahrnuje dekompenzaci, [disociativní stavy](@/glossary/disociace.md), psychotické příznaky, užívání
+Psychický stav zahrnuje dekompenzaci, [disociativní stavy](@/glossary/disociace.md), psychotické příznaky, užívání
 látek a „floating“, náhlé návraty myšlení a pocitů skupiny, které Singer a Lalich (1995) popisují
 jako běžný jev po odchodu. Floating není relaps ani psychóza; člověk potřebuje vědět, že ho
 mohou zažít i lidé, kteří se rozhodli pevně.

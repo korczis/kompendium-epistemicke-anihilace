@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-5-8-recursive-doubt-spiral", "ea-2-5-2-imposter-syndrome-amplifikace", "ea-1-3-4-indukovana-pochybnost", "ea-4-1-gaslighting", "gaslighting", "reality-testing"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.5.3"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.5 Sebeindukovaná delegitimizace"

@@ -189,7 +189,7 @@ s výhradami sdílí.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
 - Lalich, J., & Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. Jossey-Bass.
 - Wessinger, C. (2000). *How the Millennium Comes Violently: From Jonestown to Heaven's Gate*. Seven Bridges Press.
 - Zeller, B. E. (2014). *Heaven's Gate: America's UFO Religion*. New York University Press.

@@ -12,7 +12,6 @@ related_terms = ["15-behavioral-asymmetric-disclosure", "18-network-citation-cir
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
-quality_score = 80
 +++
 
 ## Definice signatury
@@ -108,7 +107,7 @@ Pojem se v online diskusích sám rozmělňuje a užívá se jako nálepka pro j
 - Aikin, S. F., & Casey, J. (2011). Straw men, weak men, and hollow men. *Argumentation*, 25(1), 87–105.
 - Beck, A. T., Rush, A. J., Shaw, B. F., & Emery, G. (1979). *Cognitive Therapy of Depression*. Guilford Press.
 - Hamblin, C. L. (1970). *Fallacies*. Methuen.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Shackel, N. (2005). The vacuity of postmodernist methodology. *Metaphilosophy*, 36(3), 295–320.
 - van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge University Press.
 - Walton, D. N. (1996). *Fallacies Arising from Ambiguity*. Kluwer Academic.

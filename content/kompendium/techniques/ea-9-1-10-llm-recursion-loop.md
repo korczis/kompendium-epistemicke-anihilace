@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-1-1-llm-hallucination-laundering", "ea-9-1-8-llm-confabulation-amplification", "ea-9-2-3-synthetic-text-narrative"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.1.10"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.1 LLM-mediated EA"

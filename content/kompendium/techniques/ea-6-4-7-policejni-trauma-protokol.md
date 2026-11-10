@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-4-5-vetersko-protokol", "ea-6-4-8-zdravotnici-burnout-protokol", "ea-6-4-9-novinari-protokol"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.4.7"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.4 Vulnerabilní populace"

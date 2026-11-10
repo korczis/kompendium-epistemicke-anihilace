@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-4-telesna-disociace", "ea-5-3-41-trans-individualizace", "ea-5-3-5-temporalne-vyvojova-inverze", "ea-5-3-6-rekurzivni-hypertransformace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.42"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"

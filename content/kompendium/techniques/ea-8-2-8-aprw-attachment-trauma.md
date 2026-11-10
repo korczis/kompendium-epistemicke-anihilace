@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["ea-8-1-5-epistemic-trust-scale", "ea-8-1-6-betrayal-trauma-inventory", "ea-8-2-6-icd-11-complex-trauma", "ea-8-2-9-van-der-kolk-trauma", "ea-1-6-1-vzorec-guru-a-adept", "ea-2-2-7-emotional-debt-cultivation"]
-parent = "kompendium-techniques"
 ea_code = "EA-8.2.8"
 ea_category = "8. Přílohy"
 ea_subcategory = "8.2 Referenční rámce"

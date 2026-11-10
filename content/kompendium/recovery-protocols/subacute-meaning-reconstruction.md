@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["subacute-axiological-restoration", "longterm-meaning-deepening", "subacute-narrative-externalization", "hodnotova-destrukce", "metanarrative-collapse"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "subacute"
 +++

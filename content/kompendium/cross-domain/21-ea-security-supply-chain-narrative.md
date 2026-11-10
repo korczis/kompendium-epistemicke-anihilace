@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["24-ea-security-threat-intelligence-validation", "23-ea-security-attribution-bias", "25-ea-compliance-nis2-integrity", "12-ea-dd-counterparty-manipulation"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 

@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["54-flat-earth-recovery", "55-qanon-recovery", "57-mra-recovery", "58-tradwife-recovery"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++

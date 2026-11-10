@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-5-13-exteroceptivni-deformace", "ea-5-5-14-pretemporalni-rytm-disrupce", "ea-5-5-16-dech-rytm-rozklad", "ea-5-5-17-srdcni-rytm-disonance"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.5.15"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.5 Transkonceptuální mechanismy"

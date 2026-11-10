@@ -10,7 +10,6 @@ categories = ["academic", "methodology"]
 
 [extra]
 related_terms = ["filosoficky-ramec", "historicky-kontext", "teoreticke-zaklady", "vztah-k-decision-engine"]
-parent = "kompendium-02-uvod"
 section_icon = "🧬"
 toc = true
 +++

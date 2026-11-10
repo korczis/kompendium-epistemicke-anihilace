@@ -9,7 +9,6 @@ categories = ["academic", "legal", "clinical"]
 
 [extra]
 related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
-parent = "kompendium-forensic-legal"
 toc = true
 +++
 
@@ -161,7 +160,7 @@ také najít vzorce tam, kde nejsou, a vyžaduje proto stejný test alternativ j
 
 - Bishop, C., & Bettinson, V. (2018). Evidencing domestic violence, including behaviour that falls under the new offence of 'controlling or coercive behaviour'. *The International Journal of Evidence & Proof*.
 - Dutton, M. A., & Goodman, L. A. (2005). Coercion in intimate partner violence: Toward a new conceptualization. *Sex Roles*.
-- Freyd, J. J. (1997). Violations of power, adaptive blindness, and [betrayal trauma](@/glossary/betrayal-trauma.md) theory. *Feminism & Psychology*.
+- Freyd, J. J. (1997). Violations of power, adaptive blindness, and betrayal trauma theory. *Feminism & Psychology*.
 - Heuer, R. J. (1999). *Psychology of Intelligence Analysis*. Center for the Study of Intelligence.
 - Johnson, M. P. (2008). *A Typology of Domestic Violence: Intimate Terrorism, Violent Resistance, and Situational Couple Violence*. Northeastern University Press.
 - Kelly, J. B., & Johnson, M. P. (2008). Differentiation among types of intimate partner violence: Research update and implications for interventions. *Family Court Review*.

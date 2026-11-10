@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["59-political-cult-recovery", "60-mass-formation-psychosis", "62-startup-founder-cult", "63-investor-cult"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -219,8 +218,8 @@ bez vnějších protiváh toxické vedení přetrvává.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Kivimäki, M., Jokela, M., Nyberg, S. T., et al. (2015). Long working hours and risk of coronary heart disease and stroke. *The Lancet*.
 - Kunda, G. (1992). *Engineering Culture: Control and Commitment in a High-Tech Corporation*. Temple University Press.
-- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Lipman-Blumen, J. (2005). *The Allure of Toxic Leaders*. Oxford University Press.
 - Maslach, C., a Leiter, M. P. (2016). Understanding the burnout experience: Recent research and its implications for psychiatry. *World Psychiatry*.
 - Padilla, A., Hogan, R., a Kaiser, R. B. (2007). The toxic triangle: Destructive leaders, susceptible followers, and conducive environments. *The Leadership Quarterly*.

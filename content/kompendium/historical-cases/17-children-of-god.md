@@ -199,7 +199,7 @@ vinu všech bývalých členů (Williams, 1998; Jones, Jones a Buhring, 2007).
 - Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
 - Lalich, J., & Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
 - Lewis, J. R., & Melton, J. G. (Eds.). (1994). *Sex, Slander, and Salvation: Investigating The Family/Children of God*.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Williams, M. (1998). *Heaven's Harlots: My Fifteen Years as a Sacred Prostitute in the Children of God Cult*.
 
 ## Související

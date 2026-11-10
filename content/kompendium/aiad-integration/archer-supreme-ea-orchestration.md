@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["supreme-commander-ea-strategy", "strategic-command-ea-coordination", "tactical-execution-ea-operations", "operational-execution-ea-deployment", "red-team-ea-detection"]
-parent = "kompendium-aiad-integration"
 toc = true
 +++
 

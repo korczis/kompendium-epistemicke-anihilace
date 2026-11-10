@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["2-ea-osint-czech-ares-validation", "4-ea-osint-sanctions-list-bias", "27-ea-compliance-gdpr-narrative-protection", "15-ea-dd-evidence-quality-assessment"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 

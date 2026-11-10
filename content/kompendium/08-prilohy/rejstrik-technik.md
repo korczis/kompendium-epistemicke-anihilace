@@ -14,7 +14,6 @@ prilohy = ["rejstrik", "master-index", "techniky"]
 section_icon = "📋"
 toc = true
 insert_anchor_links = "right"
-parent = "kompendium-08-prilohy"
 access_level = "L1-L4"
 status = "complete"
 +++
@@ -268,24 +267,55 @@ Třicet hesel ve třech skupinách. Každé popisuje myšlenku autora, to, co z 
 
 ---
 
-## Kapitoly 8–10 (rezervované)
+## Kapitola 8 — Přílohy
 
-| Kapitola | Téma | Stav |
-|----------|------|------|
-| `EA-8.x.x` | Epistemická obrana a rezilience | Plánováno |
-| `EA-9.x.x` | Institucionální a politické dimenze | Plánováno |
-| `EA-10.x.x` | Meta-úroveň: taxonomie taxonomie | Plánováno |
+> **Nástroje posouzení, klinické a teoretické rámce a literatura**, o něž se opírají kapitoly
+> 1–7. Kódy `EA-8.*` neoznačují manipulativní techniky, ale odborné opory pro jejich
+> rozpoznání a posouzení; podrobně je rozvádějí [Diagnostické
+> nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) a
+> [Bibliografie](@/kompendium/08-prilohy/bibliografie.md).
 
----
+| Skupina | Obsah | Vstupní stránka |
+|---------|-------|-----------------|
+| `EA-8.1` | Nástroje posouzení: rozhodovací kapacita, disociace, traumatický stres, [metakognice](@/glossary/metakognice.md), [coercive control](@/glossary/coercive-control.md) | [EA-8.1.1 Model BITE v praxi](@/kompendium/techniques/ea-8-1-1-bite-model-detail.md) |
+| `EA-8.2` | Klinické a teoretické rámce: Lifton, Singerová, Hassan, Stark, Hermanová, MKN-11 a DSM-5-TR | [EA-8.2.2 Liftonova kritéria](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) |
+| `EA-8.3` | Literatura podle oblastí: klinická, filozofická, empirická, historická, cult studies | [EA-8.3.1 Základní literatura](@/kompendium/techniques/ea-8-3-1-foundational-readings.md) |
+
+Skupina 8.1 sdružuje nástroje, jejichž psychometrické vlastnosti jsou publikované, například
+posouzení schopnosti rozhodovat podle Appelbauma a Grissa (1988) nebo škálu disociativních
+zážitků DES-II (Carlson a Putnam, 1993); kniha je uvádí jako odkaz na odbornou literaturu, ne
+jako návod k samostatnému použití bez klinického výcviku. Skupina 8.2 shrnuje rámce, z nichž
+taxonomie vychází: Liftonova kritéria myšlenkové reformy (Lifton, 1961), podmínky popsané
+Singerovou (Singer a Lalich, 1995), Starkův koncept coercive control (Stark, 2007) a fázový
+model zotavení Hermanové (Herman, 1992).
+
+## Kapitola 9 — Současná digitální EA
+
+> **Epistemické útoky v prostředí jazykových modelů, syntetických médií a platforem.** Kódy
+> `EA-9.*` popisují, jak se mechanismy z kapitol 1–5 přenášejí do digitálních systémů; každá
+> stránka uvádí znaky, obranu a meze poznání, nikdy postup útoku.
+
+| Skupina | Oblast | Vstupní stránka |
+|---------|--------|-----------------|
+| `EA-9.1` | Jazykové modely: halucinace, injekce promptu, rekurzivní smyčky | [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md) |
+| `EA-9.2` | Syntetická média: [deepfake](@/glossary/deepfake.md) osobnosti, klonování hlasu, syntetický text | [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md) |
+| `EA-9.3` | Algoritmická amplifikace a personalizace obsahu | [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md) |
+| `EA-9.4` | Koordinované neautentické chování, botí a loutkové sítě | [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md) |
+| `EA-9.5` | Memy, symbolika a emoční inženýrství obsahu | [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md) |
+| `EA-9.6` | Automatizované rozhodování a „praní“ úsudku přes AI | [EA-9.6.1 Algorithmic Decision Bias](@/kompendium/techniques/ea-9-6-1-algorithmic-decision-bias.md) |
+
+Kapitola navazuje na typologii informační poruchy Wardleové a Derakhshana (2017), na výzkum
+výpočetní propagandy (Woolley a Howard, 2018) a na právní a společenskou analýzu deepfakes
+(Chesney a Citron, 2019); u jazykových modelů vychází z popisu nepřímé injekce promptu jako
+bezpečnostní třídy problému (Greshake a kol., 2023). Rozsah kapitoly a počty stránek ve
+skupinách ukazuje odvozený [stav knihy](@/stav.md), ne tento rejstřík.
 
 ## Souhrnná statistika
 
-| Metrika | Hodnota |
-|---------|---------|
-| Kanonizované techniky | 13 (Kap. 1) + 30 (Kap. 5) + 6 (Kap. 2) + 5 (Kap. 3) + 3 (Kap. 4) + 3 (Kap. 6) = **60+** |
-| Plně publikované per-technique články | **23** (viz [techniques index](@/kompendium/techniques/_index.md)) |
-| Plánovaná finální velikost | **150 technik** napříč 10 kapitolami |
-| Aktuální stav | **~15%** publikovaných v plné formě |
+Počty kódů, stránek technik a jejich rozvinutí se zde nepíšou ručně, protože by zastaraly
+s každou vlnou obsahu. Odvozuje je skript knihy z katalogu technik a z odkazů mezi stránkami
+a zobrazuje [stav knihy](@/stav.md); rozložení rodin a podrodin ukazuje [přehled
+vizualizací](@/kompendium/visualizations/_index.md) a síť technik [mapa knihy](@/mapa.md).
 
 ## Vazby na další přílohy
 
@@ -303,20 +333,29 @@ Master rejstřík je propojen s běžícími systémy:
 - [Glosář](@/glossary/_index.md) — každý kanonizovaný název má glosářové heslo.
 - [Color Teams](@/glossary/color-teams.md) — [Red Team](@/glossary/red-team.md) scénáře čerpají z této taxonomie.
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — kalibrace důvěry využívá EA kódy jako negativní signály.
-- [3NL architektura](@/glossary/three-nested-loops.md) — L1 (logika) ↔ L2 (neurální) ↔ L3 (lingvistika) mapuje kapitoly 1–5 podle dominantní vrstvy.
+- [3NL architektura](@/glossary/three-nested-loops.md) — tři vnořené úrovně řízení platformy (strategická, taktická, operační); s kapitolami knihy ji spojuje jen analogie, ne mapování technik.
 
-## Kritický krok
+## Jak rejstřík používat
 
-**Tato příloha je referenční nástroj** — není k četbě od začátku do konce.
-Místo lineární četby:
+Rejstřík je referenční nástroj, ne text k lineární četbě: vyplatí se do něj vstupovat s
+konkrétní otázkou, tedy s kódem, názvem techniky nebo tématem, a odtud přejít na stránku
+techniky, heslo [glosáře](@/glossary/_index.md) nebo do [knihovny
+technik](@/kompendium/techniques/_index.md). Kódy jsou stabilní identifikátory; význam kódu
+vykládá [klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) a jeho formát [zkratky a
+notace](@/kompendium/08-prilohy/zkratky.md).
 
-1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
-2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
-3. Pokud nenajdeš, zkontroluj [glosář](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
+## Literatura
 
-> **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
-> formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
-> otevři přílohu.
+- Appelbaum, P. S., & Grisso, T. (1988). Assessing patients' capacities to consent to treatment. *New England Journal of Medicine*, 319(25), 1635–1638.
+- Carlson, E. B., & Putnam, F. W. (1993). An update on the Dissociative Experiences Scale. *Dissociation*, 6(1), 16–27.
+- Chesney, R., & Citron, D. K. (2019). Deep fakes: A looming challenge for privacy, democracy, and national security. *California Law Review*, 107(6), 1753–1820.
+- Greshake, K., Abdelnabi, S., Mishra, S., Endres, C., Holz, T., & Fritz, M. (2023). Not what you've signed up for: Compromising real-world LLM-integrated applications with indirect prompt injection. In *Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security*, 79–90.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford: Oxford University Press.
+- Wardle, C., & Derakhshan, H. (2017). *Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making*. Strasbourg: Council of Europe.
+- Woolley, S. C., & Howard, P. N. (Eds.). (2018). *Computational Propaganda: Political Parties, Politicians, and Political Manipulation on Social Media*. Oxford: Oxford University Press.
 
 ## Související
 
@@ -338,12 +377,3 @@ Místo lineární četby:
 **Glosář**
 
 - [Taxonomie EA](@/glossary/taxonomie-ea.md) – heslo o systému kódů.
-
----
-
-## Kontakt a příspěvky
-
-**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Techniky](@/kompendium/techniques/_index.md) | [Glosář](@/glossary/_index.md) | [Filozofie](@/philosophy/_index.md) | [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

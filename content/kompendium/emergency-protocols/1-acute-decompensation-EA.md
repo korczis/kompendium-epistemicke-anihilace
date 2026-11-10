@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "emergency"]
 
 [extra]
 related_terms = ["10-acute-self-harm-EA", "11-er-EA-handoff", "12-inpatient-admission-EA"]
-parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true
 +++
@@ -103,13 +102,13 @@ zadržování dokladů). NICE (2022) zároveň varuje, že škály a nástroje n
 budoucího sebevražedného jednání ani k rozhodnutí, komu péči odepřít; nástroj strukturuje
 rozhovor, úsudek o riziku je klinický.
 
-**Kontext EA** zahrnuje délku expozice, kdo v ní měl moc, zda kontakt pokračuje a zda pacient
+Kontext EA zahrnuje délku expozice, kdo v ní měl moc, zda kontakt pokračuje a zda pacient
 smí sám rozhodovat o penězích, telefonu a bydlení. Lifton (1961) popsal u prostředí totální
 kontroly kontrolu komunikace ([milieu control](@/glossary/milieu-control.md)) a „posvátnou vědu“ (sacred science), které
 oslabují schopnost člověka ověřovat si realitu vlastním úsudkem; Stark (2007) ukazuje obdobné
 omezování svobody v partnerském vztahu.
 
-**Kapacita** k rozhodnutí se posuzuje ke konkrétnímu rozhodnutí, ne obecně: zda pacient rozumí
+Kapacita k rozhodnutí se posuzuje ke konkrétnímu rozhodnutí, ne obecně: zda pacient rozumí
 informacím, chápe jejich význam pro svou situaci, dokáže o možnostech uvažovat a vyjádřit volbu.
 Těchto čtyř schopností se drží klinický standard posuzování způsobilosti k souhlasu
 (Appelbaum, 2007). Rozrušení a nejistota po EA samy o sobě kapacitu nevylučují.
@@ -231,7 +230,7 @@ bezpečí, zklidnění a propojení s blízkými, které doporučují Hobfoll a 
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Hobfoll, S. E., Watson, P., Bell, C. C. a kol. (2007). Five essential elements of immediate and mid-term mass trauma intervention: Empirical evidence. *Psychiatry*, 70(4), 283–315.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - National Institute for Health and Care Excellence (NICE). (2022). *Self-harm: assessment, management and preventing recurrence* (NG225). NICE.
 - Posner, K., Brown, G. K., Stanley, B. a kol. (2011). The Columbia–Suicide Severity Rating Scale: Initial validity and internal consistency findings from three multisite studies with adolescents and adults. *American Journal of Psychiatry*, 168(12), 1266–1277.
 - Richmond, J. S., Berlin, J. S., Fishkind, A. B. a kol. (2012). Verbal de-escalation of the agitated patient: Consensus statement of the American Association for Emergency Psychiatry Project BETA De-escalation Workgroup. *Western Journal of Emergency Medicine*, 13(1), 17–25.

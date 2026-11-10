@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-1-7-referencni-rekurze", "ea-5-1-8-konceptualni-fragmentace", "ea-5-2-1-meta-epistemicka-inverze", "ea-5-2-10-meta-kognitivni-singularita"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.9"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"

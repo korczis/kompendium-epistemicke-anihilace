@@ -134,7 +134,7 @@ def home(stats):
 
 **Defenzivní taxonomie jevů, které systematicky rozkládají schopnost člověka poznávat.**
 
-**[📖 Číst knihu]({SITE}/)** · **[🎨 Galerie]({SITE}/galerie/)** · **[📚 Reference]({SITE}/references/)** · **[💻 Repozitář]({REPO})**
+**[📖 Číst knihu]({SITE}/)** · **[🕸️ Mapa]({SITE}/mapa/)** · **[📈 Stav]({SITE}/stav/)** · **[🎨 Galerie]({SITE}/galerie/)** · **[📚 Reference]({SITE}/references/)** · **[💻 Repozitář]({REPO})**
 
 </div>
 
@@ -147,6 +147,13 @@ def home(stats):
 | **{stats['pages']}** | **{stats['techniques']}** | **{stats['cases']}** | **{stats['glossary']}** | **{stats['refs']}** |
 
 <sub>Změřeno z repozitáře při generování wiki (`scripts/build-wiki.py`), revize `{stats['rev']}`.</sub>
+
+## Mapa a stav knihy
+
+| [Mapa knihy]({SITE}/mapa/) | [Stav knihy]({SITE}/stav/) |
+|:-:|:-:|
+| <a href="{SITE}/mapa/"><img src="{RAW}/static/img/mapa-knihy.png" alt="Mapa knihy" width="100%"></a> | <a href="{SITE}/stav/"><img src="{RAW}/static/img/stav-knihy.png" alt="Stav knihy" width="100%"></a> |
+| síť odkazů mezi oddíly, štítky a okolí každé stránky | rozsah, provázanost a co ještě čeká |
 
 ## O čem kniha je
 
@@ -285,6 +292,8 @@ SIDEBAR = f"""<img src="{RAW}/static/img/mark.svg" width="40" alt="">
 - [[Sestavení]]
 - [[Licence]]
 
+[🕸️ Mapa knihy]({SITE}/mapa/)
+[📈 Stav knihy]({SITE}/stav/)
 [🎨 Galerie]({SITE}/galerie/)
 [📚 Reference]({SITE}/references/)
 [💻 Repozitář]({REPO})

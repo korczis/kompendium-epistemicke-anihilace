@@ -49,11 +49,29 @@ zotavení**.
 | 🗂️ | [**Případy**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/historical-cases/) | anonymizované kazuistiky a historické případy: monstrprocesy, Zersetzung, normalizace, sekty, dezinformační kampaně, vědecké podvody |
 | 🛡️ | [**Obrana**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/self-defense-guides/) | sebeobrana, obrana organizací, prevence a odolnost, protokoly zotavení a krizové protokoly |
 | 📊 | [**Vizualizace**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/visualizations/) | interaktivní modely v Chart.js, p5.js a three.js, pojmové mapy v Mermaid |
+| 🕸️ | [**Mapa knihy**](https://korczis.github.io/kompendium-epistemicke-anihilace/mapa/) | interaktivní graf všech stránek a odkazů: oddíly, štítky, okolí každé stránky |
+| 📈 | [**Stav knihy**](https://korczis.github.io/kompendium-epistemicke-anihilace/stav/) | rozsah, provázanost a co ještě čeká, odvozené při každém sestavení |
 | 🎨 | [**Galerie**](https://korczis.github.io/kompendium-epistemicke-anihilace/galerie/) | generativní grafika v p5.js: rozpad sítě pojmů, eroze paměti, rekonstituce |
 | 📚 | [**Reference**](https://korczis.github.io/kompendium-epistemicke-anihilace/references/) | všechna citovaná literatura, bez duplicit, s odkazy na citující stránky |
 
 Rozsah knihy (stránky, techniky, případy, hesla glosáře, citované prameny) počítá úvodní
 stránka webu při každém sestavení.
+
+## Mapa a stav knihy
+
+<table>
+<tr>
+<td width="50%"><a href="https://korczis.github.io/kompendium-epistemicke-anihilace/mapa/"><img src="static/img/mapa-knihy.png" alt="Mapa knihy: oddíly kompendia jako uzly, síla čar odpovídá počtu odkazů mezi nimi."></a></td>
+<td width="50%"><a href="https://korczis.github.io/kompendium-epistemicke-anihilace/stav/"><img src="static/img/stav-knihy.png" alt="Stav knihy: počty stránek, slov a odkazů, sirotci a grafy podle oddílů."></a></td>
+</tr>
+<tr>
+<td><b>Mapa knihy</b>: síť odkazů mezi oddíly; na webu lze rozkliknout oddíl, štítek i okolí každé stránky.</td>
+<td><b>Stav knihy</b>: rozsah a provázanost v číslech; kontrola informační architektury dovolí čísla nedokončené práce jen snižovat.</td>
+</tr>
+</table>
+
+Každá stránka webu navíc ukazuje, **co na ni odkazuje**, **související stránky** a **graf
+svého okolí**; uzly v diagramech Mermaid vedou na stránky pojmů.
 
 ## Jak číst
 
@@ -90,14 +108,15 @@ npm run graphics   # obálka, social card, banner (SVG → PNG)
 ```
 
 Potřeba: Node.js 22+, [Zola](https://www.getzola.org/) ve verzi z `.zola-version`, Python 3.
-Animaci pro README a wiki renderuje z p5.js skici `scripts/render-p5-gif.cjs` (Playwright,
-ImageMagick).
+Animaci pro README a wiki renderuje z p5.js skici `scripts/render-p5-gif.cjs` a obrázky Mapy
+a Stavu knihy `scripts/render-readme-graphics.cjs` (Playwright, ImageMagick).
 
 | Vrstva | Kde |
 |---|---|
 | Generátor webu | Zola, `zola.toml` |
 | Vzhled | Flowbite Pro admin shell v `templates/`, Tailwind CSS 4, `styles/app.css` |
-| Chování | `static/js/site.js`: téma, hledání, Mermaid, grafy |
+| Chování | `static/js/site.js`: téma, hledání, klikací Mermaid, grafy |
+| Mapa a stav knihy | `static/js/viz/` (cytoscape.js, Apache ECharts, Alpine.js) nad `static/data/graph.json` a `metrics.json` |
 | Generativní grafika | `static/js/p5/grafika.js` (p5.js), `scripts/render-graphics.py` (SVG) |
 | Nasazení | `.github/workflows/pages.yml` na GitHub Pages, bez CDN |
 | Dohled | [Majordomus](https://majordomus.dev): `.ai/`, `AGENTS.md`, hooky v `.githooks/` |

@@ -43,6 +43,11 @@ Tamtéž, přibližně 01:40Z–03:45Z:
 - „vse cesky ci bilungua“
 - „kazdy jeden termin musi mit vlastni page - byt enforced linked from now on“
 - „vse do budoucna enforce via .ai“
+- „ujisti se, ze kazdy jeden link vede na detailni derived/infered/generic/dynamic page“
+  (předala session 2e) – důvod požadavku `weak-link` a jeho základu, který se smí jen zmenšovat;
+  odkazy vykreslené šablonou (postranní panel, štítky, drobečky, vyhledávání, paleta) ověřuje
+  krok kontroly odkazů v auditu `npm run verify` (každý vnitřní `href` vrací 200 pod produkční
+  cestou).
 
 Session `30dc7a0e-8a7f-48e6-8922-1b1b2dc08588` (tato), 2026-11-10: „kazdy tucny link musi byt
 genericky, vest na detailni page splnujici veskere parametry“, „from now on forever“; přes

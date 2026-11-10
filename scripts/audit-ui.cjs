@@ -14,7 +14,7 @@ const { chromium } = require(process.env.PLAYWRIGHT || 'playwright-core');
 
 const base = process.argv[2];
 const out = process.argv[3] || 'ui-audit';
-const axeSource = process.env.AXE ? fs.readFileSync(process.env.AXE, 'utf8') : null;
+const axeSource = fs.readFileSync(process.env.AXE || require.resolve('axe-core/axe.min.js'), 'utf8');
 
 const PAGES = [
   ['home', '/'],
@@ -106,8 +106,15 @@ async function measure(browser, name, url, width, scheme) {
     for (const v of r.axe || []) row.axe[`${v.id}(${v.impact})`] = Math.max(row.axe[`${v.id}(${v.impact})`] || 0, v.nodes);
     if (r.width === 1440 && r.scheme === 'light') { row.kb = Math.round(r.bytes / 1024); row.lcp = r.lcp; row.cls = r.cls; row.nodes = r.domNodes; row.prose = r.proseWidth; }
   }
+  // Gate: any WCAG violation, console/network error, horizontal overflow or CLS above 0.1 fails.
+  let failures = 0;
+  for (const r of results) {
+    if ((r.axe || []).length || r.errors.length || r.overflowX > 0 || r.cls > 0.1) failures += 1;
+  }
+  process.exitCode = failures ? 1 : 0;
   for (const [name, row] of Object.entries(rows)) {
     console.log(`${name.padEnd(13)} kB=${String(row.kb).padStart(5)} lcp=${row.lcp}ms cls=${row.cls} dom=${row.nodes} prose=${row.prose}px errors=${row.errors}`
       + ` overflow=[${row.overflow.join(' ')}] axe=${JSON.stringify(row.axe)}`);
   }
+  console.log(failures ? `audit: FAIL — ${failures} measurement(s) with findings` : 'audit: all clean');
 })();

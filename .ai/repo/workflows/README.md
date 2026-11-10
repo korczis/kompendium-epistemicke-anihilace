@@ -24,3 +24,4 @@ and the workflows show when to apply them.
 | [`plan.md`](plan.md) | the repository has a plan under `../project/` and work is taken from it |
 | [`continuity.md`](continuity.md) | resuming after a session ended, or leaving work for one that has not begun |
 | [`content-wave.md`](content-wave.md) | vlna obsahu: rozvinout, přeložit a provázat stránky `content/` |
+| [`ui-development.md`](ui-development.md) | změna šablon, stylů nebo skriptů webu: Flowbite Pro, odvozená navigace, brána kvality |

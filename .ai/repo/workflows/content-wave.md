@@ -13,7 +13,8 @@ Pravidla, která vlna plní: `project.content-defensive-frame`,
 ```sh
 majordomus worktree create feature/content-<vlna>     # nikdy přímo na main
 cd "$(majordomus worktree path feature/content-<vlna>)"
-majordomus start "Vlna <n>: <adresáře>" --scope content --scope scripts
+majordomus start "Vlna <n>: <adresáře>" --scope content,scripts,static/data
+# static/data: CI vyžaduje přegenerovaný graf a odvozená data (build-graph.py --check)
 ```
 
 `static/css/app.css` je generovaný a ignorovaný: v novém worktree ho vytvoří `npm run css`

@@ -11,7 +11,6 @@ const BUNDLES = {
   'flowbite.min.js': 'node_modules/flowbite/dist/flowbite.min.js',
   'cytoscape.min.js': 'node_modules/cytoscape/dist/cytoscape.min.js',
   'echarts.min.js': 'node_modules/echarts/dist/echarts.min.js',
-  'alpine.min.js': 'node_modules/alpinejs/dist/cdn.min.js',
 };
 
 mkdirSync(TARGET, { recursive: true });

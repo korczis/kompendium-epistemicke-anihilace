@@ -83,3 +83,21 @@ jobs:
           name: site
           path: public
           retention-days: 7
+
+  ui:
+    name: Browser gate (interactivity, WCAG 2.2 AA, layout)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/setup
+      - name: Chromium for Playwright
+        run: npx playwright-core install --with-deps chromium
+      - name: scripts/ui-test.sh (smoke + audit)
+        run: AUDIT_OUT="$RUNNER_TEMP/ui-audit" bash scripts/ui-test.sh
+      - name: Upload the audit (screenshots and measurements)
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: ui-audit
+          path: ${{ runner.temp }}/ui-audit
+          retention-days: 7

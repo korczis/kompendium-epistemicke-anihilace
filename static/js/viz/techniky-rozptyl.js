@@ -59,12 +59,6 @@
     });
   }
 
-  function reduced() {
-    var L = window.KompendiumVrstva;
-    if (L && L.reducedMotion) return L.reducedMotion();
-    return !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
-  }
-
   function model() {
     var raw = readJson('techniky-data', []);
     var RISKS = readJson('techniky-rizika', {});
@@ -190,7 +184,7 @@
     return V.echarts(el, function (t) {
       var narrow = (el.clientWidth || 320) < 640;
       return {
-        animation: !reduced(),
+        animation: !window.KompendiumVrstva.reducedMotion(),
         grid: { left: 12, right: 12, top: 12, bottom: 4, containLabel: true },
         tooltip: Object.assign({ trigger: 'item', confine: true, formatter: function (p) {
           var c = m.cells[p.dataIndex];

@@ -59,12 +59,6 @@
     });
   }
 
-  function reduced() {
-    var L = window.KompendiumVrstva;
-    if (L && L.reducedMotion) return L.reducedMotion();
-    return !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
-  }
-
   function color(key) {
     return V.PALETTE[STAV[key].pal % V.PALETTE.length];
   }
@@ -143,7 +137,7 @@
       el.innerHTML = '';
       return V.echarts(el, function (t) {
         return {
-          animation: !reduced(),
+          animation: !window.KompendiumVrstva.reducedMotion(),
           tooltip: Object.assign({ trigger: 'item', confine: true, formatter: function (p) {
             var d = p.data;
             return '<b>' + esc(d.name) + '</b><br>' + nf.format(d.value) + ' ' +

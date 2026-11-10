@@ -81,12 +81,6 @@
     });
   }
 
-  function reduced() {
-    var L = window.KompendiumVrstva;
-    if (L && L.reducedMotion) return L.reducedMotion();
-    return !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
-  }
-
   function renderList(root, tracks) {
     var list = root.querySelector('[data-pohled-seznam]');
     var tpl = root.querySelector('template[data-pohled-polozka]');
@@ -128,7 +122,7 @@
       var top = 44;
       var bottom = 18;
       return {
-        animation: !reduced(),
+        animation: !window.KompendiumVrstva.reducedMotion(),
         tooltip: Object.assign({ trigger: 'item', confine: true, formatter: function (p) {
           var f = flat[p.dataIndex];
           return '<b>' + esc(f.it.name) + '</b>' + (f.it.full ? '<br>' + esc(f.it.full) : '') +

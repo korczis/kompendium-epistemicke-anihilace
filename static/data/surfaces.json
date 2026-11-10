@@ -1,0 +1,3787 @@
+{
+ "classes": {
+  "glossary": {
+   "components": [
+    "chart_inline"
+   ],
+   "covered_views": [
+    "viz/glosar",
+    "viz/kontext"
+   ],
+   "data": [
+    "static/data/charts/trauma-bonding-cycle.json",
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/okoli": 283
+   },
+   "libraries": [],
+   "pages": 284,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/glosar"
+     ],
+     "interact": "faseta",
+     "note": "průzkumník glosáře: kategorie",
+     "origin": "fixed",
+     "page": "glossary/_index.md",
+     "painted": 1,
+     "path": "glossary/"
+    },
+    {
+     "count": [
+      "[data-kontext] a[href]",
+      3
+     ],
+     "covers": [
+      "viz/kontext"
+     ],
+     "interact": "paleta",
+     "note": "nejodkazovanější heslo: kontext, paleta a mobilní drawer",
+     "origin": "derived",
+     "page": "glossary/epistemicka-anihilace.md",
+     "painted": 1,
+     "path": "glossary/epistemicka-anihilace/"
+    }
+   ],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "covered",
+   "templates": {
+    "glossary/detail.html": 283,
+    "glossary/list.html": 1
+   },
+   "views": {
+    "chart-inline": 1,
+    "mermaid": 3,
+    "viz/glosar": 1,
+    "viz/kontext": 283
+   }
+  },
+  "kompendium": {
+   "components": [
+    "chart_inline",
+    "cross_link"
+   ],
+   "covered_views": [],
+   "data": [
+    "static/data/charts/kompendium-distribution.json",
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 1
+   },
+   "libraries": [],
+   "pages": 2,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 1,
+    "kompendium/section.html": 1
+   },
+   "views": {
+    "chart-inline": 1,
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/01-predmluva": {
+   "components": [
+    "cross_link"
+   ],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 2,
+    "viz/okoli": 10
+   },
+   "libraries": [],
+   "pages": 12,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 10,
+    "section.html": 2
+   },
+   "views": {
+    "viz/oddil-prehled": 2
+   }
+  },
+  "kompendium/01-zaklady-manipulace": {
+   "components": [],
+   "covered_views": [
+    "mermaid"
+   ],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [],
+   "pages": 1,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [
+    {
+     "covers": [
+      "mermaid"
+     ],
+     "mermaid": 1,
+     "note": "stránka s diagramem Mermaid",
+     "origin": "derived",
+     "page": "kompendium/01-zaklady-manipulace/_index.md",
+     "painted": 0,
+     "path": "kompendium/01-zaklady-manipulace/"
+    }
+   ],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "covered",
+   "templates": {
+    "section.html": 1
+   },
+   "views": {
+    "mermaid": 1
+   }
+  },
+  "kompendium/02-doktrinalni-ramec": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [],
+   "pages": 1,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "no-view",
+   "templates": {
+    "section.html": 1
+   },
+   "views": {}
+  },
+  "kompendium/02-uvod": {
+   "components": [
+    "cross_link",
+    "model_eskalace",
+    "vrstvy_anihilace"
+   ],
+   "covered_views": [
+    "viz/kostka"
+   ],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 8
+   },
+   "libraries": [],
+   "pages": 9,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/kostka"
+     ],
+     "interact": "kostka",
+     "note": "vrstvy a model eskalace",
+     "origin": "fixed",
+     "page": "kompendium/02-uvod/v-kostce.md",
+     "painted": 0,
+     "path": "kompendium/02-uvod/v-kostce/"
+    }
+   ],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "covered",
+   "templates": {
+    "kompendium/page.html": 8,
+    "section.html": 1
+   },
+   "views": {
+    "viz/kostka": 1,
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/03-manipulacni-vzorce": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [],
+   "pages": 1,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "section.html": 1
+   },
+   "views": {
+    "mermaid": 1
+   }
+  },
+  "kompendium/03-zakladni-kategorie": {
+   "components": [
+    "cross_link",
+    "viz_script"
+   ],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 2,
+    "viz/okoli": 18
+   },
+   "libraries": [
+    "chart"
+   ],
+   "pages": 22,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/kompendium/section-03-progression.js",
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 18,
+    "kompendium/section.html": 1,
+    "section.html": 3
+   },
+   "views": {
+    "kompendium/section-03-progression": 1,
+    "viz/oddil-prehled": 2
+   }
+  },
+  "kompendium/04-klinika": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [],
+   "pages": 1,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "no-view",
+   "templates": {
+    "section.html": 1
+   },
+   "views": {}
+  },
+  "kompendium/04-operacni-principy": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [],
+   "pages": 1,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "no-view",
+   "templates": {
+    "section.html": 1
+   },
+   "views": {}
+  },
+  "kompendium/04-pokrocile-fenomeny": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [],
+   "pages": 1,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "section.html": 1
+   },
+   "views": {
+    "mermaid": 1
+   }
+  },
+  "kompendium/04-terminalni-protokoly": {
+   "components": [
+    "cross_link",
+    "viz_script"
+   ],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 10
+   },
+   "libraries": [
+    "p5"
+   ],
+   "pages": 11,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/kompendium/section-04-decision-tree.js",
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 10,
+    "section.html": 1
+   },
+   "views": {
+    "kompendium/section-04-decision-tree": 1,
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/05-diagnostika": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [],
+   "pages": 1,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "no-view",
+   "templates": {
+    "section.html": 1
+   },
+   "views": {}
+  },
+  "kompendium/05-kolektivni-rozmer": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [],
+   "pages": 1,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "no-view",
+   "templates": {
+    "section.html": 1
+   },
+   "views": {}
+  },
+  "kompendium/05-pokrocile-operace": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [],
+   "pages": 1,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "no-view",
+   "templates": {
+    "section.html": 1
+   },
+   "views": {}
+  },
+  "kompendium/05-pokrocile-techniky": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [],
+   "pages": 1,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "no-view",
+   "templates": {
+    "section.html": 1
+   },
+   "views": {}
+  },
+  "kompendium/05-pre-konceptualni-rozklad": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [],
+   "pages": 2,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "no-view",
+   "templates": {
+    "section.html": 2
+   },
+   "views": {}
+  },
+  "kompendium/05-ultramari-techniky": {
+   "components": [
+    "cross_link"
+   ],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 9
+   },
+   "libraries": [],
+   "pages": 10,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 9,
+    "section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/06-epistemicka-singularita": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [],
+   "pages": 1,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "no-view",
+   "templates": {
+    "section.html": 1
+   },
+   "views": {}
+  },
+  "kompendium/06-intervence-a-obrana": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [],
+   "pages": 1,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "section.html": 1
+   },
+   "views": {
+    "mermaid": 1
+   }
+  },
+  "kompendium/06-klinicke-aplikace": {
+   "components": [
+    "cross_link",
+    "viz_script"
+   ],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 17
+   },
+   "libraries": [
+    "chart"
+   ],
+   "pages": 19,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/kompendium/section-06-recovery-flow.js",
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 17,
+    "kompendium/section.html": 1,
+    "section.html": 1
+   },
+   "views": {
+    "kompendium/section-06-recovery-flow": 1,
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/06-obrana": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [],
+   "pages": 1,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "no-view",
+   "templates": {
+    "section.html": 1
+   },
+   "views": {}
+  },
+  "kompendium/07-populacni": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 1
+   },
+   "libraries": [],
+   "pages": 2,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 1,
+    "kompendium/section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/07-teoreticke-reflexe": {
+   "components": [
+    "viz_script"
+   ],
+   "covered_views": [
+    "viz/teorie-pojmy"
+   ],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 60
+   },
+   "libraries": [
+    "p5"
+   ],
+   "pages": 62,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/teorie-pojmy"
+     ],
+     "note": "pohled teorie-pojmy: graf pojmů nejodkazovanější teoretické reflexe",
+     "origin": "derived",
+     "page": "kompendium/07-teoreticke-reflexe/filosoficky-ramec.md",
+     "painted": 1,
+     "path": "kompendium/07-teoreticke-reflexe/filosoficky-ramec/"
+    }
+   ],
+   "scripts": [
+    "js/kompendium/section-07-framework-map.js",
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "covered",
+   "templates": {
+    "kompendium/page.html": 60,
+    "section.html": 2
+   },
+   "views": {
+    "kompendium/section-07-framework-map": 1,
+    "viz/oddil-prehled": 1,
+    "viz/teorie-pojmy": 60
+   }
+  },
+  "kompendium/08-prilohy": {
+   "components": [
+    "cross_link"
+   ],
+   "covered_views": [
+    "viz/rejstrik"
+   ],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 8
+   },
+   "libraries": [],
+   "pages": 9,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [
+    {
+     "count": [
+      "[data-rj-item]",
+      2
+     ],
+     "covers": [
+      "viz/rejstrik"
+     ],
+     "interact": "rejstrik",
+     "note": "interaktivní rejstřík pojmů (ECharts)",
+     "origin": "fixed",
+     "page": "kompendium/08-prilohy/index-pojmu.md",
+     "painted": 1,
+     "path": "kompendium/08-prilohy/index-pojmu/"
+    }
+   ],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "covered",
+   "templates": {
+    "kompendium/page.html": 8,
+    "section.html": 1
+   },
+   "views": {
+    "mermaid": 1,
+    "viz/oddil-prehled": 1,
+    "viz/rejstrik": 1
+   }
+  },
+  "kompendium/aiad-integration": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 25
+   },
+   "libraries": [],
+   "pages": 26,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 25,
+    "section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/case-studies": {
+   "components": [],
+   "covered_views": [
+    "viz/kontext",
+    "viz/oddil-prehled",
+    "viz/pripad-faze"
+   ],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 80
+   },
+   "libraries": [],
+   "pages": 81,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "přehled oddílu",
+     "origin": "fixed",
+     "page": "kompendium/case-studies/_index.md",
+     "painted": 1,
+     "path": "kompendium/case-studies/"
+    },
+    {
+     "count": [
+      "[data-kontext] a[href]",
+      1
+     ],
+     "covers": [
+      "viz/kontext",
+      "viz/pripad-faze"
+     ],
+     "note": "nejodkazovanější kazuistika: kontext",
+     "origin": "derived",
+     "page": "kompendium/case-studies/08-gaslighting-partnersky.md",
+     "painted": 1,
+     "path": "kompendium/case-studies/08-gaslighting-partnersky/"
+    },
+    {
+     "covers": [
+      "viz/kontext",
+      "viz/pripad-faze"
+     ],
+     "note": "pohled pripad-faze: stupně intervence S1–S5 kazuistiky",
+     "origin": "derived",
+     "page": "kompendium/case-studies/08-gaslighting-partnersky.md",
+     "painted": 1,
+     "path": "kompendium/case-studies/08-gaslighting-partnersky/"
+    },
+    {
+     "covers": [
+      "viz/kontext",
+      "viz/pripad-faze"
+     ],
+     "note": "pohled pripad-faze: fáze kazuistiky z tabulky časové osy",
+     "origin": "derived",
+     "page": "kompendium/case-studies/50-spiritual-cult-recovery.md",
+     "painted": 1,
+     "path": "kompendium/case-studies/50-spiritual-cult-recovery/"
+    }
+   ],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "covered",
+   "templates": {
+    "kompendium/page.html": 80,
+    "kompendium/section.html": 1
+   },
+   "views": {
+    "viz/kontext": 80,
+    "viz/oddil-prehled": 1,
+    "viz/pripad-faze": 52
+   }
+  },
+  "kompendium/critical-perspectives": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 30
+   },
+   "libraries": [],
+   "pages": 31,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 30,
+    "section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/cross-domain": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 30
+   },
+   "libraries": [],
+   "pages": 31,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 30,
+    "section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/detection-signatures": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 33
+   },
+   "libraries": [],
+   "pages": 34,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 33,
+    "kompendium/section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/educational-scenarios": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 30
+   },
+   "libraries": [],
+   "pages": 31,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 30,
+    "section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/emergency-protocols": {
+   "components": [],
+   "covered_views": [
+    "viz/oddil-prehled",
+    "viz/protokol-tok"
+   ],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 40
+   },
+   "libraries": [],
+   "pages": 41,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "pohled oddil-prehled: treemap rozsahu a stavu stránek oddílu",
+     "origin": "derived",
+     "page": "kompendium/emergency-protocols/_index.md",
+     "painted": 1,
+     "path": "kompendium/emergency-protocols/"
+    },
+    {
+     "covers": [
+      "viz/protokol-tok"
+     ],
+     "note": "pohled protokol-tok: tok rozhodovacích bodů nejodkazovanějšího protokolu",
+     "origin": "derived",
+     "page": "kompendium/emergency-protocols/2-suicide-risk-EA.md",
+     "painted": 1,
+     "path": "kompendium/emergency-protocols/2-suicide-risk-ea/"
+    }
+   ],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "covered",
+   "templates": {
+    "kompendium/page.html": 40,
+    "section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1,
+    "viz/protokol-tok": 40
+   }
+  },
+  "kompendium/forensic-legal": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 50
+   },
+   "libraries": [],
+   "pages": 51,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "page.html": 50,
+    "section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/glossary-bridges": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 108
+   },
+   "libraries": [],
+   "pages": 110,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 108,
+    "section.html": 2
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/historical-cases": {
+   "components": [],
+   "covered_views": [
+    "viz/casova-osa"
+   ],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/okoli": 40
+   },
+   "libraries": [],
+   "pages": 41,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/casova-osa"
+     ],
+     "note": "časová osa historických případů",
+     "origin": "fixed",
+     "page": "kompendium/historical-cases/_index.md",
+     "painted": 1,
+     "path": "kompendium/historical-cases/"
+    }
+   ],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "covered",
+   "templates": {
+    "kompendium/page.html": 40,
+    "section.html": 1
+   },
+   "views": {
+    "viz/casova-osa": 1,
+    "viz/kontext": 40
+   }
+  },
+  "kompendium/international": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 40
+   },
+   "libraries": [],
+   "pages": 41,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 40,
+    "section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/konceptualni-mapa": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [],
+   "pages": 1,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "section.html": 1
+   },
+   "views": {
+    "mermaid": 1
+   }
+  },
+  "kompendium/organizational-defense": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 40
+   },
+   "libraries": [],
+   "pages": 41,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 40,
+    "section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/population-health": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 30
+   },
+   "libraries": [],
+   "pages": 31,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 30,
+    "section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/prevention-resilience": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 30
+   },
+   "libraries": [],
+   "pages": 31,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 30,
+    "kompendium/section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/quick-reference": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 123
+   },
+   "libraries": [],
+   "pages": 124,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 123,
+    "section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/recovery-protocols": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 40
+   },
+   "libraries": [],
+   "pages": 41,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 40,
+    "section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/research-methodology": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 30
+   },
+   "libraries": [],
+   "pages": 31,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 30,
+    "kompendium/section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/section-bridges": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 30
+   },
+   "libraries": [],
+   "pages": 31,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 30,
+    "section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/self-defense-guides": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 50
+   },
+   "libraries": [],
+   "pages": 51,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "kompendium/page.html": 50,
+    "kompendium/section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/techniques": {
+   "components": [
+    "cross_link"
+   ],
+   "covered_views": [
+    "viz/kontext",
+    "viz/technika",
+    "viz/techniky",
+    "viz/techniky-rozptyl"
+   ],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/okoli": 502
+   },
+   "libraries": [],
+   "pages": 503,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/techniky",
+      "viz/techniky-rozptyl"
+     ],
+     "note": "pohled techniky-rozptyl: rizikový profil rodin technik",
+     "origin": "derived",
+     "page": "kompendium/techniques/_index.md",
+     "painted": 1,
+     "path": "kompendium/techniques/"
+    },
+    {
+     "covers": [
+      "viz/techniky",
+      "viz/techniky-rozptyl"
+     ],
+     "note": "průzkumník technik",
+     "origin": "fixed",
+     "page": "kompendium/techniques/_index.md",
+     "painted": 1,
+     "path": "kompendium/techniques/"
+    },
+    {
+     "counts": [
+      [
+       "[data-kontext] a[href]",
+       1
+      ],
+      [
+       "[data-hx-family]",
+       1
+      ]
+     ],
+     "covers": [
+      "viz/kontext",
+      "viz/technika"
+     ],
+     "interact": "hledani",
+     "note": "nejodkazovanější technika: karta, okolí, kontext, hledání a podstrom sidebaru",
+     "origin": "derived",
+     "page": "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+     "painted": 1,
+     "path": "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/"
+    }
+   ],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "covered",
+   "templates": {
+    "kompendium/page.html": 502,
+    "section.html": 1
+   },
+   "views": {
+    "viz/kontext": 502,
+    "viz/technika": 502,
+    "viz/techniky": 1,
+    "viz/techniky-rozptyl": 1
+   }
+  },
+  "kompendium/visualizations": {
+   "components": [
+    "viz_script"
+   ],
+   "covered_views": [
+    "kompendium/attention-disruption-sim",
+    "kompendium/cross-cultural-heatmap",
+    "kompendium/ea-network-2d",
+    "kompendium/ea9-digital-attack-surface",
+    "kompendium/epistemic-disintegration-sim",
+    "kompendium/forensic-evidence-flow",
+    "kompendium/glossary-network-2d",
+    "kompendium/historical-cases-timeline",
+    "kompendium/nabla-pipeline-viz",
+    "kompendium/phenomenology-timeline-chart",
+    "kompendium/protocol-decision-tree",
+    "kompendium/recovery-network-3d",
+    "kompendium/recovery-progression-sankey",
+    "kompendium/recovery-trajectory-chart",
+    "kompendium/recursive-thought-spiral",
+    "kompendium/severity-matrix-chart",
+    "kompendium/taxonomy-distribution-chart",
+    "kompendium/technique-graph-3d"
+   ],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [
+    "chart",
+    "p5",
+    "three"
+   ],
+   "pages": 1,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [
+    {
+     "covers": [
+      "kompendium/attention-disruption-sim",
+      "kompendium/cross-cultural-heatmap",
+      "kompendium/ea-network-2d",
+      "kompendium/ea9-digital-attack-surface",
+      "kompendium/epistemic-disintegration-sim",
+      "kompendium/forensic-evidence-flow",
+      "kompendium/glossary-network-2d",
+      "kompendium/historical-cases-timeline",
+      "kompendium/nabla-pipeline-viz",
+      "kompendium/phenomenology-timeline-chart",
+      "kompendium/protocol-decision-tree",
+      "kompendium/recovery-network-3d",
+      "kompendium/recovery-progression-sankey",
+      "kompendium/recovery-trajectory-chart",
+      "kompendium/recursive-thought-spiral",
+      "kompendium/severity-matrix-chart",
+      "kompendium/taxonomy-distribution-chart",
+      "kompendium/technique-graph-3d"
+     ],
+     "note": "vizualizace knihy (Chart.js, p5)",
+     "origin": "fixed",
+     "page": "kompendium/visualizations/_index.md",
+     "painted": 8,
+     "path": "kompendium/visualizations/"
+    }
+   ],
+   "scripts": [
+    "js/kompendium/attention-disruption-sim.js",
+    "js/kompendium/cross-cultural-heatmap.js",
+    "js/kompendium/ea-network-2d.js",
+    "js/kompendium/ea9-digital-attack-surface.js",
+    "js/kompendium/epistemic-disintegration-sim.js",
+    "js/kompendium/forensic-evidence-flow.js",
+    "js/kompendium/glossary-network-2d.js",
+    "js/kompendium/historical-cases-timeline.js",
+    "js/kompendium/nabla-pipeline-viz.js",
+    "js/kompendium/phenomenology-timeline-chart.js",
+    "js/kompendium/protocol-decision-tree.js",
+    "js/kompendium/recovery-network-3d.js",
+    "js/kompendium/recovery-progression-sankey.js",
+    "js/kompendium/recovery-trajectory-chart.js",
+    "js/kompendium/recursive-thought-spiral.js",
+    "js/kompendium/severity-matrix-chart.js",
+    "js/kompendium/taxonomy-distribution-chart.js",
+    "js/kompendium/technique-graph-3d.js",
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "covered",
+   "templates": {
+    "kompendium/section.html": 1
+   },
+   "views": {
+    "kompendium/attention-disruption-sim": 1,
+    "kompendium/cross-cultural-heatmap": 1,
+    "kompendium/ea-network-2d": 1,
+    "kompendium/ea9-digital-attack-surface": 1,
+    "kompendium/epistemic-disintegration-sim": 1,
+    "kompendium/forensic-evidence-flow": 1,
+    "kompendium/glossary-network-2d": 1,
+    "kompendium/historical-cases-timeline": 1,
+    "kompendium/nabla-pipeline-viz": 1,
+    "kompendium/phenomenology-timeline-chart": 1,
+    "kompendium/protocol-decision-tree": 1,
+    "kompendium/recovery-network-3d": 1,
+    "kompendium/recovery-progression-sankey": 1,
+    "kompendium/recovery-trajectory-chart": 1,
+    "kompendium/recursive-thought-spiral": 1,
+    "kompendium/severity-matrix-chart": 1,
+    "kompendium/taxonomy-distribution-chart": 1,
+    "kompendium/technique-graph-3d": 1
+   }
+  },
+  "philosophy": {
+   "components": [],
+   "covered_views": [],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 3
+   },
+   "libraries": [],
+   "pages": 4,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "uncovered",
+   "templates": {
+    "philosophy/detail.html": 3,
+    "philosophy/list.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "root": {
+   "components": [],
+   "covered_views": [
+    "p5/grafika",
+    "viz/mapa",
+    "viz/matice",
+    "viz/prehled",
+    "viz/redakce",
+    "viz/stav"
+   ],
+   "data": [
+    "static/data/graph.json",
+    "static/data/ia.json",
+    "static/data/metrics.json",
+    "static/data/nav.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/okoli": 3
+   },
+   "libraries": [],
+   "pages": 7,
+   "partials": [
+    "partials/connections.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/landing-carousel.html",
+    "partials/landing-intro.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [
+    {
+     "counts": [
+      [
+       "a[href^=\"tel:\"]",
+       3
+      ],
+      [
+       "#upozorneni-title",
+       1
+      ],
+      [
+       "[data-landing-block]",
+       4
+      ]
+     ],
+     "covers": [
+      "p5/grafika",
+      "viz/prehled"
+     ],
+     "interact": "landing",
+     "note": "úvod: p5 síť pojmů, upozornění, rizika, karusel, přehled knihy (ECharts)",
+     "origin": "fixed",
+     "page": "_index.md",
+     "painted": 2,
+     "path": ""
+    },
+    {
+     "covers": [
+      "p5/grafika"
+     ],
+     "note": "Galerie (p5)",
+     "origin": "fixed",
+     "page": "galerie.md",
+     "painted": 3,
+     "path": "galerie/"
+    },
+    {
+     "covers": [
+      "viz/mapa"
+     ],
+     "note": "Mapa knihy (cytoscape)",
+     "origin": "fixed",
+     "page": "mapa.md",
+     "painted": 1,
+     "path": "mapa/",
+     "text": "[x-text=\"stats\"]"
+    },
+    {
+     "covers": [
+      "viz/matice"
+     ],
+     "note": "matice případů a technik (ECharts)",
+     "origin": "fixed",
+     "page": "matice.md",
+     "painted": 1,
+     "path": "matice/"
+    },
+    {
+     "count": [
+      "#stav-kpi > *",
+      8
+     ],
+     "covers": [
+      "viz/redakce",
+      "viz/stav"
+     ],
+     "note": "Stav knihy (ECharts)",
+     "origin": "fixed",
+     "page": "stav.md",
+     "painted": 5,
+     "path": "stav/"
+    }
+   ],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/mapa.js",
+    "js/viz/matice.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/prehled.js",
+    "js/viz/redakce.js",
+    "js/viz/rejstrik.js",
+    "js/viz/stav.js",
+    "js/viz/technika.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "covered",
+   "templates": {
+    "index.html": 1,
+    "mapa.html": 1,
+    "matice.html": 1,
+    "page.html": 3,
+    "stav.html": 1
+   },
+   "views": {
+    "p5/grafika": 2,
+    "viz/mapa": 1,
+    "viz/matice": 1,
+    "viz/prehled": 1,
+    "viz/redakce": 1,
+    "viz/stav": 1
+   }
+  }
+ },
+ "gaps": [
+  "kompendium",
+  "kompendium/01-predmluva",
+  "kompendium/02-doktrinalni-ramec",
+  "kompendium/03-manipulacni-vzorce",
+  "kompendium/03-zakladni-kategorie",
+  "kompendium/04-klinika",
+  "kompendium/04-operacni-principy",
+  "kompendium/04-pokrocile-fenomeny",
+  "kompendium/04-terminalni-protokoly",
+  "kompendium/05-diagnostika",
+  "kompendium/05-kolektivni-rozmer",
+  "kompendium/05-pokrocile-operace",
+  "kompendium/05-pokrocile-techniky",
+  "kompendium/05-pre-konceptualni-rozklad",
+  "kompendium/05-ultramari-techniky",
+  "kompendium/06-epistemicka-singularita",
+  "kompendium/06-intervence-a-obrana",
+  "kompendium/06-klinicke-aplikace",
+  "kompendium/06-obrana",
+  "kompendium/07-populacni",
+  "kompendium/aiad-integration",
+  "kompendium/critical-perspectives",
+  "kompendium/cross-domain",
+  "kompendium/detection-signatures",
+  "kompendium/educational-scenarios",
+  "kompendium/forensic-legal",
+  "kompendium/glossary-bridges",
+  "kompendium/international",
+  "kompendium/konceptualni-mapa",
+  "kompendium/organizational-defense",
+  "kompendium/population-health",
+  "kompendium/prevention-resilience",
+  "kompendium/quick-reference",
+  "kompendium/recovery-protocols",
+  "kompendium/research-methodology",
+  "kompendium/section-bridges",
+  "kompendium/self-defense-guides",
+  "philosophy"
+ ],
+ "generic_views": {
+  "viz/oddil": "obecný přehled každého oddílu (partials/section-overview.html)",
+  "viz/okoli": "graf okolí pod každou stránkou (page.html)"
+ },
+ "schema": "kompendium-surfaces/v1",
+ "unmapped_scenarios": [
+  {
+   "note": "štítky (treemap)",
+   "origin": "fixed",
+   "painted": 1,
+   "path": "tags/"
+  }
+ ]
+}

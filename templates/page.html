@@ -9,6 +9,31 @@
     <div class="format format-sm sm:format-base lg:format-lg format-blue mx-auto w-full max-w-none dark:format-invert">
       {{ page.content | safe }}
     </div>
+    {#- Odvozený pohled stránky (static/js/viz/<pohled>.js), jen kde ho obsah spolehlivě nese:
+        tabulka rozhodovacích bodů protokolu, pojmy teoretické reflexe, fáze kazuistiky. -#}
+    {%- set_global pv = "" %}
+    {%- if page.relative_path is starting_with(pat="kompendium/emergency-protocols/") and '<h2 id="rozhodovaci-body' in page.content %}
+    {%- set_global pv = "protokol-tok" %}{% set_global pv_h = "Rozhodovací body jako tok" %}
+    {%- set_global pv_d = "Každý řádek tabulky rozhodovacích bodů je jedna dvojice: situace vlevo, postup vpravo a stránky, na které postup odkazuje. Řádky jsou souběžné možnosti, ne pořadí kroků. Klepnutím nebo klávesou Enter přejdete na řádek tabulky nebo otevřete navazující stránku; z klávesnice graf vyberte tabulátorem a procházejte šipkami." %}
+    {%- set_global pv_c = "h-[30rem] sm:h-96" %}
+    {%- elif page.relative_path is starting_with(pat="kompendium/07-teoreticke-reflexe/") %}
+    {%- set_global pv = "teorie-pojmy" %}{% set_global pv_h = "Pojmy a vazby této reflexe" %}
+    {%- set_global pv_d = "Uprostřed je tato stránka, v prvním kruhu související pojmy z její hlavičky, ve druhém stránky, na které odkazuje v textu. Čáry mezi nimi jsou odkazy z grafu knihy. Klepnutím nebo klávesou Enter stránku otevřete; z klávesnice graf vyberte tabulátorem a procházejte šipkami." %}
+    {%- set_global pv_c = "h-96 sm:h-[28rem]" %}
+    {%- elif page.relative_path is starting_with(pat="kompendium/case-studies/") and ("<th>Fáze</th>" in page.content or "<strong>S1 " in page.content) %}
+    {%- set_global pv = "pripad-faze" %}{% set_global pv_h = "Fáze případu" %}
+    {%- set_global pv_d = "Fáze tak, jak je kazuistika uvádí: fáze expozice z tabulky časové osy, nebo stupně intervence S1–S5. Osa je pořadí, ne kalendář; trvání je převzaté z textu. Klepnutím nebo klávesou Enter přejdete na místo v textu; z klávesnice graf vyberte tabulátorem a procházejte šipkami." %}
+    {%- set_global pv_c = "h-80" %}
+    {%- endif %}
+    {%- if pv %}
+    <section data-js data-pohled="{{ pv }}" data-pohled-stranka="{{ page.relative_path }}" data-pohled-pojmy="{{ page.extra.related_terms | default(value=[]) | join(sep=' ') }}" class="mt-8 border-t border-gray-200 pt-6 dark:border-gray-700" aria-labelledby="pohled-h">
+      <h2 id="pohled-h" class="mb-1 text-sm font-semibold uppercase tracking-wide text-gray-900 dark:text-white">{{ pv_h }}</h2>
+      <p id="pohled-d" class="mb-3 text-sm text-gray-500 dark:text-gray-400">{{ pv_d }}</p>
+      {%- set pg = {"label": pv_h, "desc": "pohled-d", "cls": pv_c ~ " border border-gray-200 bg-gray-50 dark:border-gray-700 dark:bg-gray-900"} %}
+      {% include "partials/pohled-graf.html" %}
+    </section>
+    <script src="{{ get_url(path='js/viz/' ~ pv ~ '.js', cachebust=true) }}" defer></script>
+    {%- endif %}
     {%- if page.taxonomies.tags is defined and page.taxonomies.tags %}
     <div class="mt-8 flex flex-wrap gap-2 border-t border-gray-200 pt-6 dark:border-gray-700">
       {%- for tag in page.taxonomies.tags %}
@@ -27,6 +52,7 @@
       <div data-okoli="{{ page.relative_path }}" class="h-72 w-full rounded-lg border border-gray-200 bg-gray-50 dark:border-gray-700 dark:bg-gray-900" role="img" aria-label="Graf stránky a jejích nejbližších sousedů"></div>
       <p data-okoli-note class="mt-2 text-xs text-gray-500 dark:text-gray-400"></p>
     </section>
+    {% include "partials/pokracovat.html" %}
     {% include "partials/pager.html" %}
   </article>
   <aside class="hidden xl:block" aria-label="Na této stránce">

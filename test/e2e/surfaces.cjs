@@ -77,6 +77,33 @@ async function derived(load = fromBase) {
   if (kase) out.push({ path: page(kase), painted: 1, count: ['[data-kontext] a[href]', 1], note: 'nejodkazovanější kazuistika: kontext' });
   const term = top(g, 'glossary');
   if (term) out.push({ path: page(term), painted: 1, count: ['[data-kontext] a[href]', 3], interact: 'paleta', note: 'nejodkazovanější heslo: kontext, paleta a mobilní drawer' });
+  // Odvozené pohledy (static/js/viz/oddil-prehled.js, protokol-tok.js, techniky-rozptyl.js,
+  // teorie-pojmy.js, pripad-faze.js): stránka z grafu, pohled se ověří v jejím sestaveném HTML.
+  const inDeg = {};
+  g.edges.forEach((e) => { inDeg[e[1]] = (inDeg[e[1]] || 0) + 1; });
+  const ranked = (section) => g.nodes.filter((n) => n.section === section && !/_index\.md$/.test(n.path))
+    .sort((a, b) => (inDeg[b.id] || 0) - (inDeg[a.id] || 0));
+  const index = (section) => g.nodes.filter((n) => n.path === section + '/_index.md');
+  const firstWith = async (nodes, ...markers) => {
+    for (const n of nodes) {
+      const html = await load(page(n)).catch(() => '');
+      if (markers.every((m) => html.includes(m))) return n;
+    }
+    return null;
+  };
+  const views = [
+    ['oddil-prehled', index('kompendium/emergency-protocols'), [], 'treemap rozsahu a stavu stránek oddílu'],
+    ['protokol-tok', ranked('kompendium/emergency-protocols'), [], 'tok rozhodovacích bodů nejodkazovanějšího protokolu'],
+    ['techniky-rozptyl', index('kompendium/techniques'), [], 'rizikový profil rodin technik'],
+    ['teorie-pojmy', ranked('kompendium/07-teoreticke-reflexe'), [], 'graf pojmů nejodkazovanější teoretické reflexe'],
+    ['pripad-faze', ranked('kompendium/case-studies'), ['<th>Fáze</th>'], 'fáze kazuistiky z tabulky časové osy'],
+    ['pripad-faze', ranked('kompendium/case-studies'), ['<strong>S1 '], 'stupně intervence S1–S5 kazuistiky'],
+  ];
+  for (const [pohled, nodes, markers, note] of views) {
+    const n = await firstWith(nodes, `data-pohled="${pohled}"`, ...markers);
+    if (n) out.push({ path: page(n), painted: 1, pohled, note: 'pohled ' + pohled + ': ' + note });
+    else out.push({ path: nodes[0] ? page(nodes[0]) : '', painted: 0, pohled, missing: true, note: 'pohled ' + pohled + ': ' + note });
+  }
   // První stránka knihy, jejíž HTML obsahuje diagram Mermaid (hledá se v sestaveném webu).
   for (const n of g.nodes) {
     if (!n.path.startsWith('kompendium/')) continue;
@@ -244,6 +271,29 @@ async function facet(page, failures) {
   if (await cards.count() !== total) failures.push('zrušení kategorie nevrátí všechna hesla');
 }
 
+// Odvozený pohled: vykreslí se, má textovou podobu s odkazy, šipka vybere položku a Enter
+// přejde tam, kam ukazuje (stránka, řádek tabulky nebo filtr katalogu).
+async function view(page, s, failures) {
+  if (s.missing) { failures.push(`žádná stránka nenese pohled ${s.pohled}`); return; }
+  const root = page.locator(`[data-pohled="${s.pohled}"]`).first();
+  await root.scrollIntoViewIfNeeded().catch(() => {});
+  const stav = await page.waitForFunction((p) => {
+    const r = document.querySelector(`[data-pohled="${p}"]`);
+    return r && r.getAttribute('data-pohled-stav');
+  }, s.pohled, { timeout: 15000 }).then((h) => h.jsonValue(), () => null);
+  if (stav !== 'hotovo') { failures.push(`pohled ${s.pohled}: stav „${stav}“, ne „hotovo“`); return; }
+  const links = await root.locator('[data-pohled-seznam] li a[href]').count();
+  if (links < 1) failures.push(`pohled ${s.pohled}: textová podoba nemá odkazy`);
+  const graf = root.locator('[data-pohled-graf]');
+  await graf.focus();
+  await page.keyboard.press('ArrowRight');
+  const cil = await graf.getAttribute('data-pohled-cil');
+  if (!cil) { failures.push(`pohled ${s.pohled}: šipka nevybrala položku`); return; }
+  const want = new URL(cil, page.url()).href;
+  await Promise.all([page.waitForURL(want, { timeout: 10000 }).catch(() => {}), page.keyboard.press('Enter')]);
+  if (page.url() !== want) failures.push(`pohled ${s.pohled}: Enter nepřešel na ${want} (${page.url()})`);
+}
+
 async function paintedCanvases(page) {
   return page.evaluate(() => {
     let n = 0;
@@ -361,6 +411,7 @@ async function check(browser, s, viewport, scheme) {
   if (s.interact === 'landing') await landing(page, browser, viewport, failures);
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
   if (overflow > 0) failures.push(`vodorovné přetečení ${overflow} px`);
+  if (s.pohled) await view(page, s, failures);
   await page.close();
   return failures;
 }

@@ -50,3 +50,11 @@ origin_site = "https://prismatic-reality-com.github.io/prismatic-promo"
 author = "Tomas Korcak"
 licence = "GHL v1.0"
 licence_url = "https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE"
+
+# Texty bloku „Pokračovat“ na konci stránky (templates/partials/pokracovat.html).
+[extra.pokracovat]
+title = "Pokračovat"
+next = "Další v pořadí čtení"
+related = "Nejbližší související"
+term = "Pojem v glosáři"
+protocol = "Krizový protokol"

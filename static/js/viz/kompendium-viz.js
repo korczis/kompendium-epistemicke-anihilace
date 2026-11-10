@@ -129,7 +129,7 @@
       el.innerHTML = '';
       var cy = window.cytoscape({
         container: el, elements: elements, style: cyStyle(), layout: layout,
-        wheelSensitivity: 0.25, minZoom: 0.1, maxZoom: 3, boxSelectionEnabled: false,
+        minZoom: 0.1, maxZoom: 3, boxSelectionEnabled: false,
       });
       document.addEventListener('dark-mode', function () { cy.style(cyStyle()); });
       return cy;

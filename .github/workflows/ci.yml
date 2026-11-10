@@ -91,6 +91,10 @@ jobs:
         run: bash test/run.sh
       - name: Build (internal links are errors)
         run: npm run build
+      # Belongs with build-ui-data, but reads the built site (views of the pages, derived()
+      # scenarios), so it runs after the build.
+      - name: Surfaces catalogue is current; every page class has a covered view (ratchet)
+        run: python3 scripts/build-surfaces.py --check
       - name: Stamp the revision
         run: printf '%s\n' "$GITHUB_SHA" > public/revision.txt
       - name: Interactive surfaces render (charts, components, no console errors, phone width)

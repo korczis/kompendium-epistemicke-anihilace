@@ -30,6 +30,9 @@ run "Informační architektura se nezhoršuje" python3 scripts/check-ia.py
 run "Katalogy knihy souhlasí se stránkami" python3 scripts/catalogs.py --check
 run "Testy nástrojů obsahu" bash test/run.sh
 run "Sestavení (interní odkazy jsou chyba)" npm run --silent build
+# Patří k build-ui-data, ale čte sestavený web (pohledy stránek, scénáře derived()),
+# proto běží až po sestavení.
+run "Katalog ploch a pokrytí tříd stránek" python3 scripts/build-surfaces.py --check
 run "Flowbite Pro" node "$HOME/.claude/skills/flowbite-pro/verify.mjs" .
 
 if [ "$fast" = 1 ]; then

@@ -102,7 +102,7 @@ zadržování dokladů). NICE (2022) zároveň varuje, že škály a nástroje n
 budoucího sebevražedného jednání ani k rozhodnutí, komu péči odepřít; nástroj strukturuje
 rozhovor, úsudek o riziku je klinický.
 
-**Kontext EA** zahrnuje délku expozice, kdo v ní měl moc, zda kontakt pokračuje a zda pacient
+Kontext EA zahrnuje délku expozice, kdo v ní měl moc, zda kontakt pokračuje a zda pacient
 smí sám rozhodovat o penězích, telefonu a bydlení. Lifton (1961) popsal u prostředí totální
 kontroly kontrolu komunikace ([milieu control](@/glossary/milieu-control.md)) a „posvátnou vědu“ (sacred science), které
 oslabují schopnost člověka ověřovat si realitu vlastním úsudkem; Stark (2007) ukazuje obdobné

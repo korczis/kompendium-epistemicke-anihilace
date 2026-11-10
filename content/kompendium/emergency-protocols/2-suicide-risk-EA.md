@@ -93,7 +93,7 @@ o trestu pro odpadlíky, finanční a bytová závislost a ztráta celé sociál
 po jeho rozpadu zůstává člověk bez lidí, na které by se obrátil.
 
 **Ochranné faktory** jsou blízké osoby mimo manipulativní prostředí, děti a zvířata v péči, víra
-nespojená se skupinou a dosavadní zkušenost s pomocí. **Kapacita** k rozhodnutí o péči a
+nespojená se skupinou a dosavadní zkušenost s pomocí. **[Kapacita](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md)** k rozhodnutí o péči a
 schopnost spolupracovat na plánu bezpečí se posuzují ke konkrétnímu rozhodnutí (Appelbaum, 2007).
 Odolnost vůči studu, který po odchodu ze skupiny často provází sebeobviňování, rozvádí
 [odolnost vůči studu](@/kompendium/self-defense-guides/18-shame-resilience.md).

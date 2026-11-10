@@ -13,8 +13,10 @@ code, inline code, HTML tags, Tera expressions, link targets or table rows.
     English “…” on pages whose prose is mostly English.
 
 Usage:
-  scripts/polish-markdown.py            rewrite content/ in place, print a summary
-  scripts/polish-markdown.py --check    exit 1 when a page would change (CI)
+  scripts/polish-markdown.py [path ...]          rewrite content/ (or the given files and
+                                                directories) in place, print a summary
+  scripts/polish-markdown.py --check [path ...]  exit 1 when a page would change (CI)
+  scripts/polish-markdown.py --help             this text; any other option is refused
 """
 import pathlib
 import re
@@ -119,9 +121,23 @@ def prev_in_code(out: list) -> bool:
 
 
 def main() -> int:
-    check = "--check" in sys.argv[1:]
+    args = sys.argv[1:]
+    if any(a in ("-h", "--help") for a in args):
+        print(__doc__.strip())
+        return 0
+    unknown = [a for a in args if a != "--check" and a.startswith("-")]
+    if unknown:
+        # An unknown option must never fall through to rewrite mode (it once polished 836
+        # pages under agents that were still editing them).
+        print(f"polish-markdown: unknown option {unknown[0]}; see --help", file=sys.stderr)
+        return 2
+    check = "--check" in args
+    targets = [pathlib.Path(a) for a in args if not a.startswith("-")]
+    paths = []
+    for target in targets:
+        paths.extend(sorted(target.rglob("*.md")) if target.is_dir() else [target])
     changed = []
-    for path in sorted(ROOT.rglob("*.md")):
+    for path in paths or sorted(ROOT.rglob("*.md")):
         original = path.read_text(encoding="utf-8")
         polished = polish(original)
         if polished == original:
@@ -133,7 +149,7 @@ def main() -> int:
     print(f"polish-markdown: {verb} {len(changed)} page(s)")
     if check:
         for path in changed[:50]:
-            print(f"  {path.relative_to(ROOT.parent)}")
+            print(f"  {path}")
     return 1 if check and changed else 0
 
 

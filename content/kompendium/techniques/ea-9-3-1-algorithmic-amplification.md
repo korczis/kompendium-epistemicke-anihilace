@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-3-2-engagement-optimization-EA", "ea-9-3-10-trend-manipulation-EA", "ea-9-3-4-recommendation-radicalization"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.3.1"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.3 Sociální platformy"

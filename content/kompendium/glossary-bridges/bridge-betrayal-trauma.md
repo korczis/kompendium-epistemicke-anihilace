@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["betrayal-trauma", "darvo", "disociace", "epistemicka-alienace", "trauma-bonding", "bridge-darvo"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "betrayal-trauma"
 toc = false
 +++

@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["14-behavioral-time-pressure-creation", "15-behavioral-asymmetric-disclosure", "17-network-source-monoculture", "18-network-citation-circularity"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "behavioral"
 +++

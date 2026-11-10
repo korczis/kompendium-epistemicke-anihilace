@@ -8,7 +8,6 @@ tags = ["kompendium", "international", "regional"]
 categories = ["academic", "international"]
 
 [extra]
-parent = "kompendium-international"
 toc = true
 +++
 

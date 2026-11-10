@@ -9,7 +9,6 @@ page_template = "kompendium/page.html"
 [extra]
 tags = ["kompendium", "detection-signature", "diagnostika", "ea-techniques"]
 categories = ["academic", "clinical", "security"]
-parent = "kompendium"
 toc = true
 section_id = "kompendium-detection-signatures"
 +++

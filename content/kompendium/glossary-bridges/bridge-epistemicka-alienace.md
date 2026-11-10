@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["epistemicka-alienace", "epistemicka-anihilace", "metakognitivni-destrukce", "gaslighting", "epistemicka-agentnost", "epistemic-security"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "epistemicka-alienace"
 toc = false
 +++

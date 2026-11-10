@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["23-incel-recovery", "24-extremni-pravice-exit", "26-religiozni-fanatismus-exit", "27-secular-cult-exit"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++

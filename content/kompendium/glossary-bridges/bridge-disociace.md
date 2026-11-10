@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["disociace", "dissociativni-amnezie", "depersonalizace", "c-ptsd", "betrayal-trauma", "mereologicka-rekonstrukce"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "disociace"
 toc = false
 +++

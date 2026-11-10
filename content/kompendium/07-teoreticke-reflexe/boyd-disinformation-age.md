@@ -10,7 +10,6 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["arendt-banalita-zla", "block-phenomenal-vs-access", "brandom-inferential-semantics", "butler-performative"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

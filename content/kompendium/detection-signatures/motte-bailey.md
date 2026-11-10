@@ -12,7 +12,6 @@ related_terms = ["15-behavioral-asymmetric-disclosure", "18-network-citation-cir
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
-quality_score = 80
 +++
 
 ## Definice signatury

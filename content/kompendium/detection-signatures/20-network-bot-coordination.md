@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["19-network-amplification-asymmetry", "2-linguistic-circular-definitions", "21-network-platform-coordination", "22-network-narrative-injection"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "network"
 +++

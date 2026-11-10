@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["recovery-adolescent-protocol", "ramce", "1-childhood-resilience-foundation", "child-grooming", "parental-alienation", "secure-attachment"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "special"
 +++

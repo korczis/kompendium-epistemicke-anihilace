@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["longterm-meaning-deepening", "longterm-resilience-cultivation", "longterm-altruistic-channeling", "transformative-experience", "epistemicka-reintegrace"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "longterm"
 +++

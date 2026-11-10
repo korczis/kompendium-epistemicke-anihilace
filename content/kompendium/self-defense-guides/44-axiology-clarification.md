@@ -9,7 +9,6 @@ categories = ["academic", "practical"]
 
 [extra]
 related_terms = ["34-attention-budget", "43-memory-archive", "45-life-story-integration", "48-existential-meaning-protection"]
-parent = "kompendium-self-defense-guides"
 toc = true
 +++
 

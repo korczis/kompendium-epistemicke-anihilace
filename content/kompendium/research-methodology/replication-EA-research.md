@@ -9,7 +9,6 @@ categories = ["academic", "methodology", "research"]
 
 [extra]
 related_terms = ["pre-registration-EA-research", "meta-analysis-EA", "effect-size-EA", "publication-ethics-EA"]
-parent = "kompendium-research-methodology"
 toc = true
 +++
 

@@ -9,7 +9,6 @@ categories = ["academic", "organizational", "governance"]
 
 [extra]
 related_terms = ["1-board-resilience", "18-supervisor-evaluation", "38-leadership-replacement", "37-business-continuity-EA"]
-parent = "kompendium-organizational-defense"
 toc = true
 +++
 

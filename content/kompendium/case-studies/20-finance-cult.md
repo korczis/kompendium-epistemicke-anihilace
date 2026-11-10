@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["18-fitness-cult", "19-dieta-cult", "21-konspiracni-rekrutace", "22-online-radikalizace"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++

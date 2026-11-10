@@ -9,7 +9,6 @@ categories = ["academic", "tools"]
 
 [extra]
 related_terms = ["tononi-iit", "varela-enactivism", "wardle-disinformation-typology", "williams-truth-and-truthfulness"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🧠"
 toc = false
 +++

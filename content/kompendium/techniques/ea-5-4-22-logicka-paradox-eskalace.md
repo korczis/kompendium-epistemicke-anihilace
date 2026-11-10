@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-20-performative-contradiction-induction", "ea-5-4-21-semanticka-vzpoury", "ea-5-4-23-modalni-paradox-aplikace", "ea-5-4-24-epistemic-vagueness-trap"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.22"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"

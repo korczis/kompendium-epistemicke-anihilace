@@ -10,7 +10,6 @@ categories = ["academic", "theory", "digital-epistemology"]
 
 [extra]
 related_terms = ["dennett-from-bacteria-to-bach", "dennett-intentional-stance", "epistemicke-trauma", "feyerabend-anti-method"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

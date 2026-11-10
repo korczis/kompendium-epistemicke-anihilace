@@ -9,7 +9,6 @@ categories = ["academic", "practical"]
 
 [extra]
 related_terms = ["3-source-triangulation", "38-bias-audit-personal", "40-ai-content-detection", "37-time-locked-evaluation"]
-parent = "kompendium-self-defense-guides"
 toc = true
 +++
 

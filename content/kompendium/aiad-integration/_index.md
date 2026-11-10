@@ -7,7 +7,6 @@ sort_by = "weight"
 [extra]
 tags = ["kompendium", "aiad-integration", "platform", "agents"]
 categories = ["academic", "platform-integration"]
-parent = "kompendium"
 toc = true
 +++
 

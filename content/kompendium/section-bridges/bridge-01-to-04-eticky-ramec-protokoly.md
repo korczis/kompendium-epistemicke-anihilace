@@ -9,7 +9,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["bridge-01-to-02-predmluva-uvod", "bridge-01-to-05-eticky-ramec-ultramari", "bridge-03-to-04-zakladni-terminalni", "bridge-04-to-06-terminalni-klinika"]
-parent = "kompendium-section-bridges"
 toc = false
 +++
 

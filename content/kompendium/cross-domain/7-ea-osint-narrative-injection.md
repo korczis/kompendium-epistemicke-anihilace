@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["1-ea-osint-source-credibility", "8-ea-osint-cross-source-triangulation", "14-ea-dd-narrative-warfare", "5-ea-osint-social-media-manipulation"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 

@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["acute-stabilization-protocol", "acute-cognitive-anchoring", "acute-safety-establishment", "bite-model", "firehose-of-falsehood"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "acute"
 +++

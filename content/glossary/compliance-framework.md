@@ -10,7 +10,6 @@ tags = ["glossary", "security", "compliance", "prismatic", "legal"]
 category = "security"
 related_terms = ["gdpr", "nis2", "zkb", "iso-27001", "security-rating"]
 author = "Tomas Korcak (korczis)"
-quality_score = 72
 date_modified = "2026-11-10"
 +++
 

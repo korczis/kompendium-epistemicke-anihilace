@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-5-2-29-meta-fenomenalni-redukce", "ea-5-1-14-iluzorni-transcendence", "ea-5-2-3-noumenalni-redukce", "ea-7-2-10-nagel-view-from-nowhere", "ea-7-3-7-dennett-intentional-stance", "ea-7-3-10-tononi-iit"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.3.8"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.3 Kognitivní věda"

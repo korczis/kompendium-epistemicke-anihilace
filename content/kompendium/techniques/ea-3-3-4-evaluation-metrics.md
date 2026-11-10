@@ -10,7 +10,6 @@ categories = ["academic", "education"]
 
 [extra]
 related_terms = ["ea-3-3-2-irb-protocol-design", "ea-3-3-3-curriculum-architecture", "ea-3-3-5-certification-pipeline", "ea-3-3-6-relapse-prevention-program"]
-parent = "kompendium-techniques"
 ea_code = "EA-3.3.4"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.3 Institucionální techniky"

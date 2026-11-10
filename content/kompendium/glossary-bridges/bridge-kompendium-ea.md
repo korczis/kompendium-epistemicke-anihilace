@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["kompendium-ea", "epistemicka-anihilace", "kognitivni-anihilace", "taxonomie-ea", "bridge-epistemicka-anihilace", "bridge-dual-use-poznani"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "kompendium-ea"
 toc = false
 +++

@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["hermeneutika", "hermeneuticky-kruh", "hermeneuticka-eroze", "hermeneuticky-outsourcing", "fuze-horizontu", "narrative-identity"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "hermeneutika"
 toc = false
 +++

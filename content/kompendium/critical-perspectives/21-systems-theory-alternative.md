@@ -9,7 +9,6 @@ categories = ["academic", "critical-theory"]
 
 [extra]
 related_terms = ["8-theoretical-imperialism", "23-political-economy-alternative", "14-power-asymmetry-EA", "22-trauma-framework-alternative"]
-parent = "kompendium-critical-perspectives"
 toc = true
 +++
 

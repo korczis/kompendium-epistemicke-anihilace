@@ -9,7 +9,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["qr-ea-2-4-1", "qr-ea-2-4-10", "qr-ea-2-4-3", "qr-ea-2-4-4"]
-parent = "kompendium-quick-reference"
 ea_code = "EA-2.4.2"
 access_level = "L2"
 risk_level = "high"

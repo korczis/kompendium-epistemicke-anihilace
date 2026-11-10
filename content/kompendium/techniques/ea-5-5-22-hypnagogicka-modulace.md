@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-5-20-pre-spaclni-restrukturalizace", "ea-5-5-21-dream-state-implantace", "ea-5-5-23-liminalni-prostor-rozklad", "ea-5-5-24-atmospheric-pressure-modulace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.5.22"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.5 Transkonceptuální mechanismy"

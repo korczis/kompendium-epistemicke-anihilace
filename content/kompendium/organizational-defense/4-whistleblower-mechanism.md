@@ -9,7 +9,6 @@ categories = ["academic", "organizational", "governance"]
 
 [extra]
 related_terms = ["6-ombudsman-role", "14-anonymous-feedback", "32-internal-investigation", "7-ethics-officer-mandate"]
-parent = "kompendium-organizational-defense"
 toc = true
 +++
 

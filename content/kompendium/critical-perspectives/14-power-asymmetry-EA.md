@@ -9,7 +9,6 @@ categories = ["academic", "critical-theory"]
 
 [extra]
 related_terms = ["18-EA-as-power-tool", "6-political-instrumentalization", "13-victim-blaming-risk", "23-political-economy-alternative"]
-parent = "kompendium-critical-perspectives"
 toc = true
 +++
 

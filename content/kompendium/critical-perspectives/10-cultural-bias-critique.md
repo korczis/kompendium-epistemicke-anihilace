@@ -9,7 +9,6 @@ categories = ["academic", "critical-theory"]
 
 [extra]
 related_terms = ["27-decolonial-epistemology", "2-pathologization-critique", "8-theoretical-imperialism", "28-feminist-epistemology-alt"]
-parent = "kompendium-critical-perspectives"
 toc = true
 +++
 

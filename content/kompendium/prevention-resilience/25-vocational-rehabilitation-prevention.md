@@ -9,7 +9,6 @@ categories = ["academic", "prevention"]
 
 [extra]
 related_terms = ["23-skills-rebuilding-program", "16-employer-vigilance", "5-workplace-prevention-EA", "midterm-vocational-integration", "21-relapse-prevention-EA"]
-parent = "kompendium-prevention-resilience"
 toc = true
 +++
 

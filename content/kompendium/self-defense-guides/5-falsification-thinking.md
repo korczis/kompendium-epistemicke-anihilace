@@ -9,7 +9,6 @@ categories = ["academic", "practical"]
 
 [extra]
 related_terms = ["2-evidence-evaluation", "6-paradigm-pluralism", "7-belief-revision", "50-personal-mythology-defense"]
-parent = "kompendium-self-defense-guides"
 toc = true
 +++
 

@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["quality-debt", "qdp", "clean-run", "zero-warning-policy", "bridge-qdp", "bridge-clean-run"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "quality-debt"
 toc = false
 +++

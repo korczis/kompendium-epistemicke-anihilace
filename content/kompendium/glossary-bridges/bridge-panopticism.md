@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["panopticism", "power-knowledge", "coercive-control", "milieu-control", "doxing", "bridge-power-knowledge"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "panopticism"
 toc = false
 +++

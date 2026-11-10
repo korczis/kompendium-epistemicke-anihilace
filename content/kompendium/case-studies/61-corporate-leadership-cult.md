@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["59-political-cult-recovery", "60-mass-formation-psychosis", "62-startup-founder-cult", "63-investor-cult"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++

@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-5-7-afektivni-tonalni-redukce", "ea-5-5-8-korporealni-schema-rozklad", "ea-6-1-1-screening-strukturalni-rozhovor", "ea-6-1-10-epistemicka-trust-assessment"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.5.9"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.5 Transkonceptuální mechanismy"

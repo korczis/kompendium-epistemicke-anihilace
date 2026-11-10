@@ -14,7 +14,6 @@ prilohy = ["index-pojmu", "bilingual", "terminologie"]
 section_icon = "🔤"
 toc = true
 insert_anchor_links = "right"
-parent = "kompendium-08-prilohy"
 access_level = "L1-L4"
 status = "complete"
 +++

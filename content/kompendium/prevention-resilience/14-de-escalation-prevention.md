@@ -9,7 +9,6 @@ categories = ["academic", "prevention"]
 
 [extra]
 related_terms = ["13-rapid-response-protocol", "12-warning-sign-recognition", "18-clinical-vigilance-prevention", "retraumatizace", "iatrogenic-harm"]
-parent = "kompendium-prevention-resilience"
 toc = true
 +++
 

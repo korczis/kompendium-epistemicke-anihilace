@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-48-boltzmannska-paradox-self", "ea-5-4-49-mary-paradox-knowledge", "ea-5-4-50-zombie-paradox-self", "ea-5-4-51-inverted-spectrum-paradox"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.5"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"

@@ -9,7 +9,6 @@ categories = ["academic", "organizational", "governance"]
 
 [extra]
 related_terms = ["28-access-control-EA", "30-rotation-of-roles", "25-vendor-management-EA", "32-internal-investigation"]
-parent = "kompendium-organizational-defense"
 toc = true
 +++
 

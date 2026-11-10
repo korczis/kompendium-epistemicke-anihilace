@@ -10,7 +10,6 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["levinas-jiny", "macintyre-after-virtue", "merleau-ponty-vtelena-percepce", "metzinger-ego-tunnel"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

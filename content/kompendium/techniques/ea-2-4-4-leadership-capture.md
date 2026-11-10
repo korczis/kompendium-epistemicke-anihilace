@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-4-1-board-capture", "ea-2-4-2-policy-rewriting-skryta", "ea-2-4-3-funding-redirect", "ea-1-6-1-vzorec-guru-a-adept", "kult-osobnosti", "charisma"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.4.4"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.4 Institucionální zachycení"

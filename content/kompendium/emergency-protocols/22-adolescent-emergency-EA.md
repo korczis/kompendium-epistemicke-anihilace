@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "emergency"]
 
 [extra]
 related_terms = ["20-deescalation-EA", "21-children-emergency-EA", "23-elder-emergency-EA", "24-pregnant-emergency-EA"]
-parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true
 +++

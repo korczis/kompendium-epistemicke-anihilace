@@ -9,7 +9,6 @@ categories = ["academic", "organizational", "governance"]
 
 [extra]
 related_terms = ["2-charter-protection", "7-ethics-officer-mandate", "24-documentation-standards", "40-post-incident-learning"]
-parent = "kompendium-organizational-defense"
 toc = true
 +++
 

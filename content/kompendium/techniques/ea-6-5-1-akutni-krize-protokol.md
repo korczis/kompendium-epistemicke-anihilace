@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-5-2-suicidalni-EA-protokol", "ea-6-5-4-disociativni-akutni-protokol", "ea-6-5-5-er-screening-EA", "ea-6-2-6-dbt-distress-tolerance"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.5.1"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.5 Krizové intervence"

@@ -9,7 +9,6 @@ categories = ["academic", "critical-theory"]
 
 [extra]
 related_terms = ["4-circular-reasoning-risk", "2-pathologization-critique", "12-EA-stigma-risk", "7-replication-EA-research"]
-parent = "kompendium-critical-perspectives"
 toc = true
 +++
 

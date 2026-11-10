@@ -10,7 +10,6 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["postmodernismus", "putnam-internal-realism", "ricoeur-troji-mimese", "rorty-contingency"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

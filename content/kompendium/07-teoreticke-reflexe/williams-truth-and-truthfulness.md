@@ -10,7 +10,6 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["visualizations", "wardle-disinformation-typology", "wittgenstein-jezykove-hry", "zuboff-surveillance-capitalism"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

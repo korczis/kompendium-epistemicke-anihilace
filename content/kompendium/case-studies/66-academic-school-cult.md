@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["64-ngo-cult", "65-activism-cult", "67-research-discipline-cult", "68-think-tank-cult"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++

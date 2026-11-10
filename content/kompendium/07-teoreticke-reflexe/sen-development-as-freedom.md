@@ -10,7 +10,6 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["sartre-existencialismus", "searle-chinese-room", "snyder-tyranny-essays", "socialni-epistemologie"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

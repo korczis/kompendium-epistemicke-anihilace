@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["metanarrative-collapse", "simulacra", "hyperreality", "differance", "epistemicka-bezdomovost", "paradigmaticka-bezdomovina"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "metanarrative-collapse"
 toc = false
 +++

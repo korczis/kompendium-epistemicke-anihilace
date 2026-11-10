@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-39-tachyon-anti-causality", "ea-5-4-4-godel-reflexivita", "ea-5-4-41-bootstrap-paradox-implantace", "ea-5-4-42-grandfather-paradox-aplikace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.40"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"

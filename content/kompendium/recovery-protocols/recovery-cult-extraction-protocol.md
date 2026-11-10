@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["recovery-adolescent-protocol", "recovery-elder-protocol", "recovery-political-prisoner-protocol", "high-control-group", "bite-model", "sektarska-konverze"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "special"
 +++

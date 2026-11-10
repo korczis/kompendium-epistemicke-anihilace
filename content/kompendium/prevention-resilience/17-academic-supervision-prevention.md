@@ -9,7 +9,6 @@ categories = ["academic", "prevention"]
 
 [extra]
 related_terms = ["2-school-based-prevention", "16-employer-vigilance", "20-peer-vigilance-prevention", "01-akademicka-supervize-totalizace", "02-doktorat-trojan-horse"]
-parent = "kompendium-prevention-resilience"
 toc = true
 +++
 

@@ -8,7 +8,6 @@ template = "section.html"
 [extra]
 tags = ["kompendium", "international"]
 categories = ["academic", "international"]
-parent = "kompendium"
 toc = true
 +++
 

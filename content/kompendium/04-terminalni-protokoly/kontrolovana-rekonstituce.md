@@ -10,7 +10,6 @@ categories = ["academic", "research"]
 
 [extra]
 related_terms = ["kapitola-5", "konceptualni-dekonstrukce", "pred-simulacni-screening", "ultimatni-scenar"]
-parent = "kompendium-04-terminalni-protokoly"
 section_icon = "⚠️"
 toc = true
 access_level = "L2"

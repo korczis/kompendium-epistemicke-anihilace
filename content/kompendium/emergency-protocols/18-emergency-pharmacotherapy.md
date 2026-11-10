@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "emergency"]
 
 [extra]
 related_terms = ["16-911-EA-recognition", "17-crisis-hotline-EA", "19-restraint-avoidance-EA", "2-suicide-risk-EA"]
-parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true
 +++

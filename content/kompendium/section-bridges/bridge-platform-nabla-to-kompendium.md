@@ -9,7 +9,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["bridge-platform-decision-engine-to-kompendium", "bridge-02-to-07-uvod-teoreticke", "bridge-07-to-08-teorie-prilohy", "bridge-techniques-to-glossary"]
-parent = "kompendium-section-bridges"
 toc = false
 +++
 

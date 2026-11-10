@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["narrative-trauma", "narrative-identity", "disociace", "c-ptsd", "epistemicke-trauma", "bridge-narrative-identity"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "narrative-trauma"
 toc = false
 +++

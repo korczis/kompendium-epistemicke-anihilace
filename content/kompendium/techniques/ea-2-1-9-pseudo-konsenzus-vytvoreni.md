@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-4-falesny-konsensus", "ea-2-1-2-pseudo-peer-mob", "ea-2-3-4-mob-coordination", "ea-2-4-6-peer-review-capture", "konsenzualni-realita", "propaganda"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.1.9"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.1 Expertní diskvalifikace"

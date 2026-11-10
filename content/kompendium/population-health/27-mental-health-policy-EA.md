@@ -9,7 +9,6 @@ categories = ["academic", "public-health"]
 
 [extra]
 related_terms = ["25-platform-regulation-EA", "26-educational-policy-EA", "28-international-cooperation-EA", "29-research-funding-EA"]
-parent = "kompendium-population-health"
 toc = true
 +++
 

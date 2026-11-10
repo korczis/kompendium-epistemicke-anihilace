@@ -9,7 +9,6 @@ categories = ["academic", "organizational", "governance"]
 
 [extra]
 related_terms = ["15-culture-survey-EA", "22-meeting-structure", "40-post-incident-learning", "18-supervisor-evaluation"]
-parent = "kompendium-organizational-defense"
 toc = true
 +++
 

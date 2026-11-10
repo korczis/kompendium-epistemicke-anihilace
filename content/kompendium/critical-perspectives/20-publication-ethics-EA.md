@@ -9,7 +9,6 @@ categories = ["academic", "critical-theory"]
 
 [extra]
 related_terms = ["7-replication-EA-research", "19-research-exploitation", "18-EA-as-power-tool", "17-confidentiality-EA"]
-parent = "kompendium-critical-perspectives"
 toc = true
 +++
 

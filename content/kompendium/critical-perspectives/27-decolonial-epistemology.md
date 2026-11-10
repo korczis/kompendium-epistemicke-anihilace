@@ -9,7 +9,6 @@ categories = ["academic", "critical-theory"]
 
 [extra]
 related_terms = ["10-cultural-bias-critique", "8-theoretical-imperialism", "28-feminist-epistemology-alt", "19-research-exploitation"]
-parent = "kompendium-critical-perspectives"
 toc = true
 +++
 

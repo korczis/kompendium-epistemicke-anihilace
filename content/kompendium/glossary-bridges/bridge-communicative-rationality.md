@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["communicative-rationality", "ideal-speech-situation", "instrumental-reason", "differance", "verejna-sfera", "lebenswelt"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "communicative-rationality"
 toc = false
 +++

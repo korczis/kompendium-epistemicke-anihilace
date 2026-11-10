@@ -9,7 +9,6 @@ categories = ["academic", "prevention"]
 
 [extra]
 related_terms = ["5-workplace-prevention-EA", "25-vocational-rehabilitation-prevention", "12-warning-sign-recognition", "coercive-control", "socialni-izolace"]
-parent = "kompendium-prevention-resilience"
 toc = true
 +++
 

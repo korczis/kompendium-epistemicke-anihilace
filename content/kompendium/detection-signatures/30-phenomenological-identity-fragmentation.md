@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["29-phenomenological-temporal-disorientation", "3-linguistic-unfalsifiable-claims", "4-linguistic-framing-shift", "5-linguistic-pronoun-inversion"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "phenomenological"
 +++

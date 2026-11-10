@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["subacute-trust-rebuilding", "acute-social-reconnection", "longterm-community-rebuilding", "trauma", "secure-attachment", "trauma-bonding"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "subacute"
 +++

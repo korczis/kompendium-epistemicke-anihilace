@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-3-5-pseudo-kontroverze-amplifikace", "ea-2-5-4-radical-relativism-internalize", "ea-1-2-2-falesna-ekvivalence", "ea-2-4-falesny-konsensus", "paralysis-by-analysis", "kognitivni-bias"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.5.5"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.5 Sebeindukovaná delegitimizace"

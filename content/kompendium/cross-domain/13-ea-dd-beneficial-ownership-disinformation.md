@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["2-ea-osint-czech-ares-validation", "28-ea-compliance-aml-pattern-recognition", "29-ea-compliance-kyc-narrative-validation", "12-ea-dd-counterparty-manipulation"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 

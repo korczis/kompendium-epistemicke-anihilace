@@ -10,7 +10,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-7-1-9-heidegger-dasein", "ea-5-3-4-telesna-disociace", "ea-5-3-42-self-objektifikace-totalni", "embodied-cognition", "body-schema", "interocepce"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.1.10"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.1 Kontinentální filozofie"

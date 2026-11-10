@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["1-linguistic-jargon-density", "11-behavioral-topic-evasion", "12-behavioral-gaslighting-pattern", "13-behavioral-isolation-acceleration"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "behavioral"
 +++

@@ -9,7 +9,6 @@ categories = ["academic", "public-health"]
 
 [extra]
 related_terms = ["19-bystander-intervention-training", "20-helpline-population-impact", "22-regulatory-approach-EA", "23-EU-policy-EA"]
-parent = "kompendium-population-health"
 toc = true
 +++
 

@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["epistemic-bubble", "epistemic-security", "epistemic-pipeline", "signal-plurality", "bridge-anankasticky-rezim", "bridge-epistemic-security"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "epistemic-bubble"
 toc = false
 +++

@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["bite-model", "undue-influence", "milieu-control", "thought-stopping", "high-control-group", "taxonomie-ea"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "bite-model"
 toc = false
 +++

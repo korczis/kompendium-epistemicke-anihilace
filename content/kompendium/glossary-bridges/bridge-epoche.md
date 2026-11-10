@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["epoche", "fenomenologie", "metakognice", "metakognitivni-destrukce", "pyrrhonismus", "lebenswelt"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "epoche"
 toc = false
 +++

@@ -9,7 +9,6 @@ categories = ["academic", "organizational", "governance"]
 
 [extra]
 related_terms = ["31-incident-response-EA", "33-legal-counsel-engagement", "4-whistleblower-mechanism", "40-post-incident-learning"]
-parent = "kompendium-organizational-defense"
 toc = true
 +++
 

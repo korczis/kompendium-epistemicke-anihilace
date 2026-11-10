@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["kognitivni-anti-rekurzivita", "metakognice", "metakognitivni-destrukce", "rekurzivni-paralyza", "self-reference", "thought-stopping"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "kognitivni-anti-rekurzivita"
 toc = false
 +++

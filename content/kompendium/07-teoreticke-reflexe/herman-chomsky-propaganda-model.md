@@ -10,7 +10,6 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["harari-sapiens-narativ", "heidegger-byt-ve-svete", "honneth-rozpoznani", "hutchins-distributed-cognition"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

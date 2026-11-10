@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-27-apriorni-deformace", "ea-5-2-28-transcendentalni-vakuace", "ea-5-2-3-noumenalni-redukce", "ea-5-2-30-konvergentni-meta-singularita"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.29"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"

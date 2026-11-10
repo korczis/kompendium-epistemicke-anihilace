@@ -11,7 +11,6 @@ tags = ["kompendium", "ultramari-techniky", "extremni-riziko", "fundamentalni-de
 categories = ["academic", "research", "ultramari"]
 section_icon = "🚨"
 toc = true
-parent = "kompendium"
 access_level = "L3-L4"
 status = "preparation"
 +++

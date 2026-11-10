@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "emergency"]
 
 [extra]
 related_terms = ["1-acute-decompensation-EA", "10-acute-self-harm-EA", "11-er-EA-handoff", "12-inpatient-admission-EA"]
-parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true
 +++

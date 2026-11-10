@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-6-1-algorithmic-decision-bias", "ea-9-6-6-AI-hiring-narrative", "ea-9-6-8-AI-legal-decision-EA", "ea-2-4-5-evaluation-criteria-rewrite"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.6.2"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.6 Algoritmická governance"

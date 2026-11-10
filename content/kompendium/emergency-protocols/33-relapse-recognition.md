@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "emergency"]
 
 [extra]
 related_terms = ["31-post-discharge-bridge", "32-step-down-program", "34-relapse-emergency", "35-treatment-noncompliance"]
-parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true
 +++

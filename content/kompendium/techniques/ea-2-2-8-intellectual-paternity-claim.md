@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-2-4-collaboration-monopolizace", "ea-2-1-5-citation-suppression", "ea-2-2-3-thesis-direction-capture", "ea-2-2-1-mentor-self-totalizace", "epistemicka-agentnost", "testimonialni-nespravedlnost"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.2.8"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.2 Pedagogická koerce"

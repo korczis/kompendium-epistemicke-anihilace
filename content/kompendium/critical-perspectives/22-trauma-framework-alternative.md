@@ -9,7 +9,6 @@ categories = ["academic", "critical-theory"]
 
 [extra]
 related_terms = ["11-iatrogenic-overreach", "13-victim-blaming-risk", "1-medicalization-critique", "21-systems-theory-alternative"]
-parent = "kompendium-critical-perspectives"
 toc = true
 +++
 

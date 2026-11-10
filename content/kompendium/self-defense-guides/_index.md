@@ -10,7 +10,6 @@ tags = ["kompendium", "self-defense-guide", "praktiky", "sebe-obrana"]
 categories = ["academic", "practical"]
 section_icon = "🛡️"
 toc = true
-parent = "kompendium"
 access_level = "L1"
 status = "complete"
 +++

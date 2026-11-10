@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["05-vedecka-disinflation", "06-cult-recovery-12-let", "08-gaslighting-partnersky", "09-rezidualni-totalitarni-trauma"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++

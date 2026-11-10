@@ -9,7 +9,6 @@ categories = ["academic", "critical-theory"]
 
 [extra]
 related_terms = ["9-essentialism-critique", "11-iatrogenic-overreach", "26-mad-studies-perspective", "29-process-philosophy-alt"]
-parent = "kompendium-critical-perspectives"
 toc = true
 +++
 

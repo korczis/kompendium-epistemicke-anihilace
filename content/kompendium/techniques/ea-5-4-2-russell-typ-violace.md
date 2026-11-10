@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-18-circular-justification-trap", "ea-5-4-19-self-undermining-claim", "ea-5-4-20-performative-contradiction-induction", "ea-5-4-21-semanticka-vzpoury"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.2"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"

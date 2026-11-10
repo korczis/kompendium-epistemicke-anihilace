@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-5-1-27-meta-epistemicka-redukce", "ea-5-1-28-konvergentni-singularita", "ea-5-1-3-reflexivni-paradoxie", "ea-5-1-30-konceptualni-entropie"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.29"
 ea_category = "5. Ultramari techniky"
 ea_subcategory = "5.1 Epistemická singularita"

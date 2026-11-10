@@ -10,7 +10,6 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["floridi-fourth-revolution", "friston-active-inference", "harari-sapiens-narativ", "heidegger-byt-ve-svete"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

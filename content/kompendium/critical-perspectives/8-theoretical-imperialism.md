@@ -9,7 +9,6 @@ categories = ["academic", "critical-theory"]
 
 [extra]
 related_terms = ["3-framework-overreach", "21-systems-theory-alternative", "22-trauma-framework-alternative", "27-decolonial-epistemology"]
-parent = "kompendium-critical-perspectives"
 toc = true
 +++
 

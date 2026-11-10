@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-1-2-self-report-instrument", "ea-6-1-3-collateral-interview", "ea-6-1-6-fyziologicke-monitoring", "ea-1-4-1-prosodicka-dominance", "ea-1-5-2-dominantni-telesne-hieroglyfy"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.1.4"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.1 Diagnostické techniky"

@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-6-3-automated-content-takedown", "ea-9-3-8-mass-reporting-coordination", "ea-9-6-10-AI-welfare-decision-EA"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.6.4"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.6 Algoritmická governance"

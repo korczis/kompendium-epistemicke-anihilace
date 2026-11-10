@@ -9,7 +9,6 @@ categories = ["academic", "prevention"]
 
 [extra]
 related_terms = ["18-clinical-vigilance-prevention", "28-spiritual-restoration-prevention", "4-community-resilience-EA", "spiritual-bypassing", "high-control-group"]
-parent = "kompendium-prevention-resilience"
 toc = true
 +++
 

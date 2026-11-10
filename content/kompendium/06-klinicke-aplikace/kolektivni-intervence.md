@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["diferencialni-diagnostika", "epistemicka-rekonstrukce", "observational-assessment", "preventivni-strategie"]
-parent = "kompendium-06-klinicke-aplikace"
 section_icon = "🏥"
 toc = true
 access_level = "L2"

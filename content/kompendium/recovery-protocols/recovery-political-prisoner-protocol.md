@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["recovery-cult-extraction-protocol", "recovery-trafficking-survivor-protocol", "sealioning", "6-czechoslovak-normalizace", "1-stalinist-show-trials"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "special"
 +++

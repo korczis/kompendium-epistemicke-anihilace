@@ -9,7 +9,6 @@ categories = ["academic", "organizational", "governance"]
 
 [extra]
 related_terms = ["4-whistleblower-mechanism", "6-ombudsman-role", "13-exit-interview-EA", "15-culture-survey-EA"]
-parent = "kompendium-organizational-defense"
 toc = true
 +++
 

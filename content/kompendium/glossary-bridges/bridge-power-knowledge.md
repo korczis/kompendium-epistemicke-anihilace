@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["power-knowledge", "panopticism", "diskursivni-formace", "epistemicka-injustice", "ideal-speech-situation", "bridge-panopticism"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "power-knowledge"
 toc = false
 +++

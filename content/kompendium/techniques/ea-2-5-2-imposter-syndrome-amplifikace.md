@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-5-1-pseudo-pokora-internalizace", "ea-2-5-3-self-doubt-cultivation", "ea-2-1-3-credentialing-attack", "ea-2-2-8-intellectual-paternity-claim", "perfekcionismus", "gaslighting"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.5.2"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.5 Sebeindukovaná delegitimizace"

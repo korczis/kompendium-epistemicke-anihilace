@@ -10,7 +10,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-2-3-2-context-collapse", "ea-2-3-3-quote-mining", "ea-2-5-4-radical-relativism-internalize", "differance", "hermeneutika", "semanticka-afazie"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.1.8"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.1 Kontinentální filozofie"

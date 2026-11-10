@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-5-3-42-self-objektifikace-totalni", "ea-5-3-25-minimal-self-deformace", "ea-2-5-6-platonic-cave-self", "ea-7-2-9-williams-truthfulness", "ea-7-3-8-chalmers-hard-problem", "ea-7-1-3-adorno-instrumental-reason"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.2.10"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.2 Analytická filozofie"

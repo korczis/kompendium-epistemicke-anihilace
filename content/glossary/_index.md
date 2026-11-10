@@ -7,7 +7,6 @@ page_template = "glossary/detail.html"
 
 [extra]
 author = "Tomas Korcak (korczis)"
-reading_time = "16 min"
 difficulty = "beginner"
 image = "/images/sections/glossary.png"
 image_alt = "Glosář Kompendia a terminologie Prismatic Platform"
@@ -16,7 +15,6 @@ twitter_card = "summary_large_image"
 academic_tier = "documentation"
 content_version = "3.1.0"
 last_enhanced = "2026-11-10"
-quality_score = 98
 related_articles = ["3nl", "aiad", "nabla"]
 glossary_terms = ["glossary", "terminology", "cross-reference"]
 keywords = ["glosář", "terminologie", "epistemická anihilace", "OSINT", "Elixir OTP", "kybernetická bezpečnost", "epistemický rámec", "agenti AI"]

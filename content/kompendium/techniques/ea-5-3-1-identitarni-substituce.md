@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-8-perspektivisticky-kolaps", "ea-5-2-9-konceptualni-aporie", "ea-5-3-10-perspektivni-substituce", "ea-5-3-11-axiologicka-inverze"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.1"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"

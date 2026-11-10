@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["lifeworld", "longterm-altruistic-channeling", "acute-social-reconnection", "epistemicka-komunita", "socialni-izolace"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "longterm"
 +++

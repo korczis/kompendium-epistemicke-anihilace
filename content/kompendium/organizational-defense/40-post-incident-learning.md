@@ -9,7 +9,6 @@ categories = ["academic", "organizational", "governance"]
 
 [extra]
 related_terms = ["31-incident-response-EA", "39-cultural-rebuild", "21-decision-traceability", "8-policy-review-cycles"]
-parent = "kompendium-organizational-defense"
 toc = true
 +++
 

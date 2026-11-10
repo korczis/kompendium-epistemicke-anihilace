@@ -9,7 +9,6 @@ categories = ["academic", "critical-theory"]
 
 [extra]
 related_terms = ["12-EA-stigma-risk", "11-iatrogenic-overreach", "14-power-asymmetry-EA", "22-trauma-framework-alternative"]
-parent = "kompendium-critical-perspectives"
 toc = true
 +++
 

@@ -9,7 +9,6 @@ categories = ["academic", "practical"]
 
 [extra]
 related_terms = ["2-evidence-evaluation", "4-claim-verification", "31-source-curation", "36-cross-source-routine"]
-parent = "kompendium-self-defense-guides"
 toc = true
 +++
 

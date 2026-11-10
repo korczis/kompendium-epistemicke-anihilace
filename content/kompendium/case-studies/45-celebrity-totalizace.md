@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["43-elite-sports-totalizace", "44-arts-totalizace", "46-political-totalizace", "47-diplomatic-totalizace"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++

@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["adapter-pattern", "3nl", "bounded-context", "hermeneuticky-outsourcing", "milieu-control", "signal-plurality"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "adapter-pattern"
 toc = false
 +++

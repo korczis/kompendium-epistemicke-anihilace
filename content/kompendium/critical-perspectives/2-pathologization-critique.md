@@ -9,7 +9,6 @@ categories = ["academic", "critical-theory"]
 
 [extra]
 related_terms = ["1-medicalization-critique", "5-false-positive-risk", "9-essentialism-critique", "10-cultural-bias-critique"]
-parent = "kompendium-critical-perspectives"
 toc = true
 +++
 

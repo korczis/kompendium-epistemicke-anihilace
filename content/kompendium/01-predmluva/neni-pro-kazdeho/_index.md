@@ -8,7 +8,6 @@ insert_anchor_links = "right"
 
 [extra]
 author = "Tomas Korcak (korczis)"
-parent = "kompendium-01-predmluva"
 section_icon = "🧭"
 toc = true
 +++

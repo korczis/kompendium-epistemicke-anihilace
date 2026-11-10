@@ -9,7 +9,6 @@ categories = ["academic", "critical-theory"]
 
 [extra]
 related_terms = ["1-medicalization-critique", "16-treatment-coercion-risk", "26-mad-studies-perspective", "6-political-instrumentalization"]
-parent = "kompendium-critical-perspectives"
 toc = true
 +++
 

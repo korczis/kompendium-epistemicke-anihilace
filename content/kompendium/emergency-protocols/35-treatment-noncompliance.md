@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "emergency"]
 
 [extra]
 related_terms = ["33-relapse-recognition", "34-relapse-emergency", "36-medication-emergency", "37-iatrogenic-emergency"]
-parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true
 +++

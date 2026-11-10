@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-57-branch-paradox-self", "ea-5-4-58-trans-temporal-self-paradox", "ea-5-4-6-konvergentni-paradox", "ea-5-4-60-konvergentni-meta-paradox"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.59"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"

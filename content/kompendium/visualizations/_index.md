@@ -10,7 +10,6 @@ tags = ["kompendium", "vizualizace", "interaktivni", "chartjs", "threejs", "p5js
 categories = ["academic", "tools"]
 section_icon = "📊"
 toc = true
-parent = "kompendium"
 +++
 
 # Interaktivní vizualizace taxonomie EA

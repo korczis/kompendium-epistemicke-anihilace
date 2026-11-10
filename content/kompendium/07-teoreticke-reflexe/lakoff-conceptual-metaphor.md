@@ -10,7 +10,6 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["kognitivni-vedy", "kuhn-paradigmaticke-revoluce", "levinas-jiny", "macintyre-after-virtue"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

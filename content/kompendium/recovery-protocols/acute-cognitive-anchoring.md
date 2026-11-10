@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["acute-stabilization-protocol", "acute-information-curation", "reality-testing", "gaslighting", "hermeneuticka-eroze", "duvera"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "acute"
 +++

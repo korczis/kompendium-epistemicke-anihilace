@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["21-relapse-prevention-EA", "longterm-resilience-cultivation", "longterm-meaning-deepening", "trauma-bonding", "internalizovany-pachatel"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "longterm"
 +++

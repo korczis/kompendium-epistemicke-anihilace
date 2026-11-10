@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "emergency"]
 
 [extra]
 related_terms = ["11-er-EA-handoff", "12-inpatient-admission-EA", "14-family-emergency-debrief", "15-mobile-crisis-EA"]
-parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true
 +++

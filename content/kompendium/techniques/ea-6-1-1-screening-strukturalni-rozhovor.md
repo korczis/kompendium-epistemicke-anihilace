@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-5-5-8-korporealni-schema-rozklad", "ea-5-5-9-kinesteticka-deformace", "ea-6-1-10-epistemicka-trust-assessment", "ea-6-1-2-self-report-instrument"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.1.1"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.1 Diagnostické techniky"

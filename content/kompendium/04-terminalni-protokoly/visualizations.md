@@ -9,7 +9,6 @@ categories = ["academic", "tools"]
 
 [extra]
 related_terms = ["pred-simulacni-screening", "ultimatni-scenar", "kontrolovana-rekonstituce"]
-parent = "kompendium-04-terminalni-protokoly"
 section_icon = "🌳"
 toc = false
 +++

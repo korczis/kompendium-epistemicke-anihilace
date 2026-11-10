@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-15-transcendentalni-implosion", "ea-5-2-16-kantovska-paradoxie", "ea-5-2-18-heideggerovska-rozklady", "ea-5-2-19-merleau-pontyovska-deformace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.17"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"

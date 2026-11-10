@@ -30,7 +30,6 @@ design_principles = ["model-isolation", "context-autonomy", "explicit-boundaries
 communication_patterns = ["published-interface", "anti-corruption-layer", "context-map"]
 evolution_support = "high"
 author = "Tomas Korcak (korczis)"
-quality_score = 80
 date_modified = "2026-11-10"
 +++
 

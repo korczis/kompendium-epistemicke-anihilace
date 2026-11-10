@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "tools"]
 
 [extra]
 related_terms = ["supervizni-ramce", "terapeuticke-pristupy", "vulnerabilni-populace", "semi-structured-interview-protokol"]
-parent = "kompendium-06-klinicke-aplikace"
 section_icon = "🏥"
 toc = false
 +++

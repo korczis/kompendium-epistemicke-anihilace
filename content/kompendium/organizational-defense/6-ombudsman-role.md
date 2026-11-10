@@ -9,7 +9,6 @@ categories = ["academic", "organizational", "governance"]
 
 [extra]
 related_terms = ["4-whistleblower-mechanism", "7-ethics-officer-mandate", "14-anonymous-feedback", "16-psychological-safety"]
-parent = "kompendium-organizational-defense"
 toc = true
 +++
 

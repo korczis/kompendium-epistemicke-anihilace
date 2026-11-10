@@ -10,7 +10,6 @@ categories = ["academic", "research"]
 
 [extra]
 related_terms = ["ea-4-4-7-moral-self-suspension", "ea-4-4-8-coherence-restoration", "ea-4-4-9-narrative-reconstruction", "ea-6-3-7-identitni-rekonstituce"]
-parent = "kompendium-techniques"
 ea_code = "EA-4.4.10"
 ea_category = "4. Terminální protokoly"
 ea_subcategory = "4.4 Identitní dekonstrukce"

@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-5-wittgenstein-pravidlo-rozklad", "ea-5-4-50-zombie-paradox-self", "ea-5-4-52-ship-of-self-paradox", "ea-5-4-53-teleporter-paradox"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.51"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"

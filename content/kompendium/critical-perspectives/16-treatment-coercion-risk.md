@@ -9,7 +9,6 @@ categories = ["academic", "critical-theory"]
 
 [extra]
 related_terms = ["15-consent-validity-question", "11-iatrogenic-overreach", "25-critical-psychiatry-alternative", "14-power-asymmetry-EA"]
-parent = "kompendium-critical-perspectives"
 toc = true
 +++
 

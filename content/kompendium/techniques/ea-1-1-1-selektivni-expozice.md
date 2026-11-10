@@ -11,7 +11,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-1-1-1", "ea-1-1-2", "ea-1-1-2-informacni-pretizeni", "ea-1-1-3-terminologicka-mystifikace"]
-parent = "kompendium-techniques"
 ea_code = "EA-1.1.1"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.1 Narušení procesů akvizice poznání"

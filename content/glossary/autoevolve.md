@@ -26,7 +26,6 @@ current_fitness = 0.9995
 total_improvements = 2847
 scanning_modes = ["quick", "status", "mega-evolution"]
 author = "Tomas Korcak (korczis)"
-quality_score = 80
 date_modified = "2026-11-10"
 +++
 

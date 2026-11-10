@@ -8,7 +8,6 @@ tags = ["kompendium", "predmluva", "etika", "bezpecnost-ctenare", "dual-use"]
 
 [extra]
 author = "Tomas Korcak (korczis)"
-parent = "kompendium-01-predmluva"
 toc = true
 +++
 

@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-5-1-14-iluzorni-transcendence", "ea-5-1-20-holograficka-redukce", "ea-7-3-8-chalmers-hard-problem", "ea-7-3-9-dehaene-consciousness", "ea-7-2-3-popper-falsification", "ea-7-3-3-friston-active-inference"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.3.10"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.3 Kognitivní věda"

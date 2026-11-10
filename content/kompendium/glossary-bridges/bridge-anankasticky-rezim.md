@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["anankasticky-rezim", "epistemic-bubble", "thought-reform", "bridge-epistemic-bubble", "bridge-bite-model", "bridge-epistemicka-pokora"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "anankasticky-rezim"
 toc = false
 +++

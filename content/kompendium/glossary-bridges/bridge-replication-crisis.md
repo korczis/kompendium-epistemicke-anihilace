@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["replication-crisis", "falsifikace", "evidence-based", "pseudoscience", "konfirmacni-bias", "lakatos-vyzkumny-program"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "replication-crisis"
 toc = false
 +++

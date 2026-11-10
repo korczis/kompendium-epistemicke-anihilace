@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-1-1-3-terminologicka-mystifikace", "ea-1-2-3-iluzorni-komplexita", "ea-1-6-1-vzorec-guru-a-adept", "ea-7-2-7-quine-web-belief", "ea-7-2-1-fricker-epistemic-injustice", "ea-7-3-7-dennett-intentional-stance"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.2.8"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.2 Analytická filozofie"

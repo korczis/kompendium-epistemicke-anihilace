@@ -10,7 +10,6 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["butler-performative", "chalmers-hard-problem", "clark-andy-natural-born-cyborgs", "clark-extended-mind"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

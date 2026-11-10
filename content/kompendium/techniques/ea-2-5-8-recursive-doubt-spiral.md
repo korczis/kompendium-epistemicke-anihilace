@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-5-3-self-doubt-cultivation", "ea-5-1-13-hyperreflexivita", "ea-2-5-4-radical-relativism-internalize", "rekurzivni-paralyza", "infinitni-regress", "metakognice"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.5.8"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.5 Sebeindukovaná delegitimizace"

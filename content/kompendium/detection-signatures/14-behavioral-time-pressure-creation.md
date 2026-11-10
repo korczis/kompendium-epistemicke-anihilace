@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["12-behavioral-gaslighting-pattern", "13-behavioral-isolation-acceleration", "15-behavioral-asymmetric-disclosure", "16-behavioral-emotional-modulation"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "behavioral"
 +++

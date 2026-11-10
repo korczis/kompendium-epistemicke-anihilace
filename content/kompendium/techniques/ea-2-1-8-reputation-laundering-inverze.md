@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-1-3-credentialing-attack", "ea-2-1-1-expertni-disinflation", "ea-2-3-5-pseudo-kontroverze-amplifikace", "ea-2-3-2-context-collapse", "delegitimizace", "motte-and-bailey"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.1.8"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.1 Expertní diskvalifikace"

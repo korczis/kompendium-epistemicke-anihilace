@@ -10,7 +10,6 @@ categories = ["academic", "education"]
 
 [extra]
 related_terms = ["ea-3-2-8-peer-consultation", "ea-3-2-9-iatrogenic-risk-assessment", "ea-3-3-10-funding-model-ethics", "ea-3-3-2-irb-protocol-design"]
-parent = "kompendium-techniques"
 ea_code = "EA-3.3.1"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.3 Institucionální techniky"

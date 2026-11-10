@@ -9,7 +9,6 @@ categories = ["academic", "organizational", "governance"]
 
 [extra]
 related_terms = ["11-onboarding-EA-awareness", "16-psychological-safety", "18-supervisor-evaluation", "36-trauma-aware-management"]
-parent = "kompendium-organizational-defense"
 toc = true
 +++
 

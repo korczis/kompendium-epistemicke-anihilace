@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["intencionalita", "kapitola-1", "kapitola-3", "lakatos"]
-parent = "kompendium-03-zakladni-kategorie"
 section_icon = "🎯"
 toc = true
 +++

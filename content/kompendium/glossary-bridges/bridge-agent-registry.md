@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["agent-registry", "agent", "agent-tier", "aiad", "bridge-agent", "bridge-hawkeye"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "agent-registry"
 toc = false
 +++

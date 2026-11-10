@@ -9,7 +9,6 @@ categories = ["academic", "organizational", "governance"]
 
 [extra]
 related_terms = ["38-leadership-replacement", "30-rotation-of-roles", "20-succession-planning-EA", "31-incident-response-EA"]
-parent = "kompendium-organizational-defense"
 toc = true
 +++
 

@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["ea-8-1-5-epistemic-trust-scale", "ea-5-1-13-hyperreflexivita", "ea-2-5-8-recursive-doubt-spiral", "ea-4-1-gaslighting", "ea-3-1-3-metacognitive-cultivation", "ea-8-1-10-decision-making-capacity-scale"]
-parent = "kompendium-techniques"
 ea_code = "EA-8.1.9"
 ea_category = "8. Přílohy"
 ea_subcategory = "8.1 Diagnostické nástroje"

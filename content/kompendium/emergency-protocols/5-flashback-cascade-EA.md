@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "emergency"]
 
 [extra]
 related_terms = ["2-suicide-risk-EA", "3-psychotic-break-EA", "4-acute-dissociation-EA", "6-panic-attack-EA"]
-parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true
 +++

@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "emergency"]
 
 [extra]
 related_terms = ["36-medication-emergency", "37-iatrogenic-emergency", "39-legal-emergency", "4-acute-dissociation-EA"]
-parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true
 +++

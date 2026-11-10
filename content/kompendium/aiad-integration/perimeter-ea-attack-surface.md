@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["hawkeye-ea-visitor-intelligence", "osint-ea-source-validation", "strategic-command-ea-coordination", "blue-team-ea-defense", "compliance-ea-regulatory-screening"]
-parent = "kompendium-aiad-integration"
 toc = true
 +++
 

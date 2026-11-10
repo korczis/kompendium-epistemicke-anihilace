@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-2-1-mentor-self-totalizace", "ea-2-2-4-collaboration-monopolizace", "ea-2-2-9-disciplinary-boundary-coercion", "socialni-izolace", "milieu-control", "epistemic-bubble"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.2.2"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.2 Pedagogická koerce"

@@ -10,7 +10,6 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["filosoficky-ramec", "floridi-fourth-revolution", "hannah-arendt-myslení", "harari-sapiens-narativ"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

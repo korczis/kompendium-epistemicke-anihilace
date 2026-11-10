@@ -14,7 +14,6 @@ stability = "mature"
 beam_related = true
 related_terms = ["color-teams", "gray-team", "red-team", "blue-team", "purple-team", "white-team", "nabla-infinity", "trinity-gate", "epistemic-pipeline", "formal-verification", "lean4", "agent-tier", "agent-registry", "consciousness-traits", "threat-intelligence", "penetration-testing"]
 author = "Tomas Korcak (korczis)"
-quality_score = 95
 date_modified = "2026-11-10"
 +++
 

@@ -10,7 +10,6 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["searle-chinese-room", "sen-development-as-freedom", "socialni-epistemologie", "taylor-sources-of-self"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

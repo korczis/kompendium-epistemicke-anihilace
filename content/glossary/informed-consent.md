@@ -10,7 +10,6 @@ tags = ["glossary", "ethics", "legal", "research", "compliance", "data-protectio
 category = "ethics"
 status = "active"
 author = "Tomas Korcak (korczis)"
-reading_time = "10 min"
 difficulty = "intermediate"
 abbreviation = "IC"
 date_created = "2026-05-03"

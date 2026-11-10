@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["10-ea-dd-source-weighting", "4-ea-osint-sanctions-list-bias", "6-ea-osint-bot-detection", "15-ea-dd-evidence-quality-assessment"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 

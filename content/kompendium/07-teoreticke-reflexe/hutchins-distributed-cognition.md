@@ -10,7 +10,6 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["herman-chomsky-propaganda-model", "honneth-rozpoznani", "johnson-body-in-mind", "kognitivni-vedy"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

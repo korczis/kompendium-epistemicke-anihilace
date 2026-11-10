@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["ea-8-2-1-bite-framework", "ea-8-1-1-bite-model-detail", "ea-8-2-2-lifton-thought-reform-criteria", "ea-8-2-3-singer-six-conditions", "ea-1-6-1-vzorec-guru-a-adept", "ea-2-4-4-leadership-capture"]
-parent = "kompendium-techniques"
 ea_code = "EA-8.2.4"
 ea_category = "8. Přílohy"
 ea_subcategory = "8.2 Referenční rámce"

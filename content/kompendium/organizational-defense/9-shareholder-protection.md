@@ -9,7 +9,6 @@ categories = ["academic", "organizational", "governance"]
 
 [extra]
 related_terms = ["1-board-resilience", "2-charter-protection", "3-conflict-of-interest-policy", "10-stakeholder-engagement"]
-parent = "kompendium-organizational-defense"
 toc = true
 +++
 

@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["midterm-skill-rebuilding", "midterm-educational-reintegration", "25-vocational-rehabilitation-prevention", "narativ", "paradigm"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "midterm"
 +++

@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["17-network-source-monoculture", "18-network-citation-circularity", "2-linguistic-circular-definitions", "20-network-bot-coordination"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "network"
 +++

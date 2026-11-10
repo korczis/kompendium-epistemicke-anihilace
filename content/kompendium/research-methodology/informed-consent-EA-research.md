@@ -9,7 +9,6 @@ categories = ["academic", "methodology", "research"]
 
 [extra]
 related_terms = ["IRB-protocol-design-EA", "vulnerable-population-research", "debriefing-protocol-research", "anonymization-EA-research"]
-parent = "kompendium-research-methodology"
 toc = true
 +++
 

@@ -10,7 +10,6 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["honneth-rozpoznani", "hutchins-distributed-cognition", "kognitivni-vedy", "kuhn-paradigmaticke-revoluce"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

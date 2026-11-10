@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-5-1-22-diferencialni-nihilace", "ea-5-1-23-asymptoticka-dezintegrace", "ea-5-1-25-singularni-narativni-kolaps", "ea-5-1-26"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.24"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"

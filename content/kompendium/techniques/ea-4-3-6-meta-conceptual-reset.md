@@ -10,7 +10,6 @@ categories = ["academic", "research"]
 
 [extra]
 related_terms = ["ea-4-3-4-inferential-chain-breakage", "ea-4-3-5-evidential-criteria-modification", "ea-4-3-7-paradigmatic-fluidization", "ea-4-3-8-hermeneutic-recursion"]
-parent = "kompendium-techniques"
 ea_code = "EA-4.3.6"
 ea_category = "4. Terminální protokoly"
 ea_subcategory = "4.3 Konceptuální dekonstrukce"

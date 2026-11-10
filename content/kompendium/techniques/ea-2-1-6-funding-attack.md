@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-4-3-funding-redirect", "ea-2-1-7-institucionalni-vyloucenni", "ea-2-1-4-publikacni-blokace", "ea-2-4-5-evaluation-criteria-rewrite", "delegitimizace", "undue-influence"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.1.6"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.1 Expertní diskvalifikace"

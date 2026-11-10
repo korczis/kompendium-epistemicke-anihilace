@@ -13,7 +13,6 @@ tags = ["kompendium", "pokrocile-fenomeny", "fenomenologie", "emergence", "ultra
 categories = ["academic", "research"]
 section_icon = "🌌"
 toc = true
-parent = "kompendium"
 access_level = "L2"
 status = "publikovano"
 +++

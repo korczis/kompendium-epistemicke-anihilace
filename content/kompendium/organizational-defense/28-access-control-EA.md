@@ -9,7 +9,6 @@ categories = ["academic", "organizational", "governance"]
 
 [extra]
 related_terms = ["27-information-classification", "29-segregation-duties", "26-contractor-vetting", "24-documentation-standards"]
-parent = "kompendium-organizational-defense"
 toc = true
 +++
 

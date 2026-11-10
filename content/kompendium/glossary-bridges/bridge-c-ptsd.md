@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["c-ptsd", "ptsd", "complex-trauma", "coercive-control", "disociace", "epistemicke-trauma"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "c-ptsd"
 toc = false
 +++

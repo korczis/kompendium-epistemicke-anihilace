@@ -10,7 +10,6 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["macintyre-after-virtue", "mcDowell-mind-and-world", "metzinger-ego-tunnel", "nagel-view-from-nowhere"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

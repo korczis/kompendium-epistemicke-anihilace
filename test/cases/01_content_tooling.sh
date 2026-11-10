@@ -3,6 +3,10 @@
 # majordomus-skill: kompendium-page-expansion
 #
 #  - polish-markdown.py and normalize-front-matter.py are idempotent (second run: no change);
+#  - normalize-front-matter.py refuses derived [extra] keys (word_count, reading_time,
+#    quality_score, ref_count_at_creation, parent) under --check and removes them under --fix,
+#    refuses a wrong controlled value, lists (without failing) a key outside its schema, and
+#    --doc --check refuses a stale schema table in the rule;
 #  - check-ia.py passes on the tree with its baseline and fails on a seeded violation;
 #  - build-graph.py --check passes on a regenerated tree and fails after a content change.
 set -euo pipefail
@@ -26,6 +30,89 @@ python3 scripts/polish-markdown.py --check
 
 python3 scripts/normalize-front-matter.py >/dev/null
 python3 scripts/normalize-front-matter.py --check >/dev/null
+
+# Derived or unread [extra] keys are refused by --check and removed by --fix; nothing else moves,
+# an [extra] they leave empty goes, and a second run is a no-op.
+mkdir -p content/kompendium/case-01-fm
+cat > content/kompendium/case-01-fm/derived.md <<'PAGE'
++++
+title = "Odvozená metadata"
+description = "Fixtura: klíče, které jen opakují odvozená data nebo které nic nečte."
+
+[taxonomies]
+tags = ["kompendium"]
+
+[extra]
+category = "metodologie"
+word_count = 1234
+reading_time = 6
+quality_score = 75
+ref_count_at_creation = 3
++++
+
+Text.
+PAGE
+cat > content/kompendium/case-01-fm/parent.md <<'PAGE'
++++
+title = "Rodič"
+description = "Fixtura: extra.parent nečte žádná šablona, hierarchii dává strom adresářů."
+
+[taxonomies]
+tags = ["kompendium"]
+
+[extra]
+parent = "kompendium/_index.md"
++++
+
+Text.
+PAGE
+for f in derived parent; do
+  if python3 scripts/normalize-front-matter.py --check content/kompendium/case-01-fm/$f.md >/dev/null; then
+    echo "normalize-front-matter --check accepted derived keys in $f.md"; exit 1; fi
+done
+python3 scripts/normalize-front-matter.py --fix content/kompendium/case-01-fm >/dev/null
+if grep -E '^(word_count|reading_time|quality_score|ref_count_at_creation|parent) *=' \
+    content/kompendium/case-01-fm/*.md; then echo "a derived key survived --fix"; exit 1; fi
+grep -x 'category = "metodologie"' content/kompendium/case-01-fm/derived.md >/dev/null
+if grep -qx '\[extra\]' content/kompendium/case-01-fm/parent.md; then echo "empty [extra] left behind"; exit 1; fi
+cp content/kompendium/case-01-fm/derived.md "$work/derived.once"
+python3 scripts/normalize-front-matter.py --check content/kompendium/case-01-fm >/dev/null
+python3 scripts/normalize-front-matter.py content/kompendium/case-01-fm >/dev/null
+cmp -s content/kompendium/case-01-fm/derived.md "$work/derived.once"
+
+# The schema (data/front-matter.toml): a wrong controlled value is refused in
+# either mode; a key with no schema row is listed, not refused; the rule's table is generated.
+sed 's/^category = "metodologie"$/category = "metodologie"\nrisk_level = "obrovské"/' \
+  content/kompendium/case-01-fm/derived.md > content/kompendium/case-01-fm/value.md
+if python3 scripts/normalize-front-matter.py --check content/kompendium/case-01-fm/value.md >/dev/null; then
+  echo "normalize-front-matter --check accepted risk_level = obrovské"; exit 1; fi
+if python3 scripts/normalize-front-matter.py --fix content/kompendium/case-01-fm/value.md >/dev/null; then
+  echo "normalize-front-matter --fix passed over a wrong controlled value"; exit 1; fi
+sed 's/risk_level = "obrovské"/risk_level = "high"/' content/kompendium/case-01-fm/value.md \
+  > "$work/value.md" && mv "$work/value.md" content/kompendium/case-01-fm/value.md
+python3 scripts/normalize-front-matter.py --check content/kompendium/case-01-fm/value.md >/dev/null
+sed 's/^category = "metodologie"$/category = "metodologie"\nfixture_key = 1/' \
+  content/kompendium/case-01-fm/derived.md > content/kompendium/case-01-fm/unknown.md
+python3 scripts/normalize-front-matter.py --check content/kompendium/case-01-fm/unknown.md >/dev/null
+python3 scripts/normalize-front-matter.py --list unknown-keys content/kompendium/case-01-fm > "$work/unknown"
+grep -qx "content/kompendium/case-01-fm/unknown.md	extra.fixture_key	page" "$work/unknown"
+[ "$(wc -l < "$work/unknown")" -eq 1 ] || { echo "unexpected unknown keys"; cat "$work/unknown"; exit 1; }
+# Data driven: a row added to data/front-matter.toml makes the key known.
+cp data/front-matter.toml "$work/schema.orig"
+sed -i.bak 's/^keys = \[$/keys = [\n  { where = "extra", key = "fixture_key", type = "int", classes = "page" },/' \
+  data/front-matter.toml && rm -f data/front-matter.toml.bak
+python3 scripts/normalize-front-matter.py --list unknown-keys content/kompendium/case-01-fm > "$work/unknown"
+[ ! -s "$work/unknown" ] || { echo "a schema row did not make the key known"; cat "$work/unknown"; exit 1; }
+cp "$work/schema.orig" data/front-matter.toml
+rm -r content/kompendium/case-01-fm
+python3 scripts/normalize-front-matter.py --doc --check >/dev/null
+rule=.ai/repo/rules/project/information-architecture.v1.md
+cp "$rule" "$work/rule.orig"
+sed -i.bak 's/^| top | `title` | všechny |.*$/| top | `title` | ručně upraveno |/' "$rule" && rm -f "$rule.bak"
+if python3 scripts/normalize-front-matter.py --doc --check >/dev/null; then
+  echo "--doc --check accepted a hand-edited schema table"; exit 1; fi
+python3 scripts/normalize-front-matter.py --doc --fix >/dev/null
+cmp -s "$rule" "$work/rule.orig" || { echo "--doc --fix did not restore the table"; exit 1; }
 
 if [ -f scripts/ia-baseline.json ]; then
   python3 scripts/check-ia.py >/dev/null   # the committed tree meets its own baseline

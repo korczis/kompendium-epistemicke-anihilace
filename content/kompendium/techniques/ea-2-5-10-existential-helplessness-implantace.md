@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-5-7-self-cancelation", "ea-2-5-4-radical-relativism-internalize", "ea-2-4-1-board-capture", "epistemicka-agentnost", "hodnotova-destrukce", "epistemicka-staze"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.5.10"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.5 Sebeindukovaná delegitimizace"

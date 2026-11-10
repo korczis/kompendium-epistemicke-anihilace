@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["lakatos-vyzkumny-program", "lakatos", "falsifikace", "kuhnova-revoluce", "paradigm-shift", "bridge-falsifikace"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "lakatos-vyzkumny-program"
 toc = false
 +++

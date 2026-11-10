@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["bounded-context", "3nl", "motte-and-bailey", "adapter-pattern", "bridge-motte-and-bailey", "bridge-3nl"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "bounded-context"
 toc = false
 +++

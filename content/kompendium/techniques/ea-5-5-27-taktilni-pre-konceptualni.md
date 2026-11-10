@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-5-25-svetelna-frekvence-modulace", "ea-5-5-26-zvukova-pre-konceptualni", "ea-5-5-28-olfacticka-modulace", "ea-5-5-29-multimodalni-konvergence"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.5.27"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.5 Transkonceptuální mechanismy"

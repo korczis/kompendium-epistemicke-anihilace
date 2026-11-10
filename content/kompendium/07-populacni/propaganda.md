@@ -12,7 +12,6 @@ related_terms = ["propaganda", "firehose-of-falsehood", "info-ops", "newspeak", 
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
-quality_score = 80
 +++
 
 # Propaganda – epistemická anihilace v populačním měřítku

@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["51-new-age-recovery", "52-pseudoscience-recovery", "54-flat-earth-recovery", "55-qanon-recovery"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++

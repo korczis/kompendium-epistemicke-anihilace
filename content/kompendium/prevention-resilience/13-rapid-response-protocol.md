@@ -9,7 +9,6 @@ categories = ["academic", "prevention"]
 
 [extra]
 related_terms = ["11-early-screening-EA", "14-de-escalation-prevention", "12-warning-sign-recognition", "21-relapse-prevention-EA"]
-parent = "kompendium-prevention-resilience"
 toc = true
 +++
 

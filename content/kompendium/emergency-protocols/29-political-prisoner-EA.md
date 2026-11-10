@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "emergency"]
 
 [extra]
 related_terms = ["27-active-cult-emergency", "28-ex-cult-emergency", "3-psychotic-break-EA", "30-refugee-EA-emergency"]
-parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true
 +++

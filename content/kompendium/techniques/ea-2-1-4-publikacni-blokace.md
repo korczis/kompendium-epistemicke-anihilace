@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-4-6-peer-review-capture", "ea-2-4-8-journal-capture", "ea-2-1-5-citation-suppression", "ea-2-1-3-credentialing-attack", "replication-crisis", "epistemicka-monokultura"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.1.4"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.1 Expertní diskvalifikace"

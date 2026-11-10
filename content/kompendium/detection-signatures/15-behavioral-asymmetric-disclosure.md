@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["13-behavioral-isolation-acceleration", "14-behavioral-time-pressure-creation", "16-behavioral-emotional-modulation", "17-network-source-monoculture"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "behavioral"
 +++

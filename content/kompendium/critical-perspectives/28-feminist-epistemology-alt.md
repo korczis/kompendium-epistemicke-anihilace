@@ -9,7 +9,6 @@ categories = ["academic", "critical-theory"]
 
 [extra]
 related_terms = ["26-mad-studies-perspective", "13-victim-blaming-risk", "27-decolonial-epistemology", "10-cultural-bias-critique"]
-parent = "kompendium-critical-perspectives"
 toc = true
 +++
 

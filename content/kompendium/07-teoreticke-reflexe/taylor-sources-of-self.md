@@ -10,7 +10,6 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["snyder-tyranny-essays", "socialni-epistemologie", "thompson-mind-in-life", "tononi-iit"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "emergency"]
 
 [extra]
 related_terms = ["29-political-prisoner-EA", "30-refugee-EA-emergency", "31-post-discharge-bridge", "32-step-down-program"]
-parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true
 +++

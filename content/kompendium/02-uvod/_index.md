@@ -11,7 +11,6 @@ categories = ["academic"]
 section_icon = "🧭"
 toc = true
 insert_anchor_links = "right"
-parent = "kompendium"
 +++
 
 # 02. Úvod do epistemické anihilace

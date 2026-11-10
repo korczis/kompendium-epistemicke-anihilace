@@ -9,7 +9,6 @@ categories = ["academic", "critical-theory"]
 
 [extra]
 related_terms = ["25-critical-psychiatry-alternative", "28-feminist-epistemology-alt", "19-research-exploitation", "24-narrative-medicine-alternative"]
-parent = "kompendium-critical-perspectives"
 toc = true
 +++
 

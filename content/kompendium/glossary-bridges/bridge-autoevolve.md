@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["autoevolve", "autoheal", "regression-test", "clean-run", "bridge-metakognice", "bridge-quality-debt"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "autoevolve"
 toc = false
 +++

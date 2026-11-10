@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-4-4-9-narrative-reconstruction", "ea-5-1-1-epistemicka-kanibalizace", "ea-5-1-11-modalni-dezorientace", "ea-5-1-12-kauzalni-inverze"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.10"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"

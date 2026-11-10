@@ -9,7 +9,6 @@ categories = ["academic", "critical-theory"]
 
 [extra]
 related_terms = ["18-EA-as-power-tool", "14-power-asymmetry-EA", "3-framework-overreach", "25-critical-psychiatry-alternative"]
-parent = "kompendium-critical-perspectives"
 toc = true
 +++
 

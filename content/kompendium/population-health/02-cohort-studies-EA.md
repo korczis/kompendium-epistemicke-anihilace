@@ -9,7 +9,6 @@ categories = ["academic", "public-health"]
 
 [extra]
 related_terms = ["01-EA-prevalence-estimates", "03-incidence-cult-exposure", "04-disinformation-population-impact", "05-academic-EA-prevalence"]
-parent = "kompendium-population-health"
 toc = true
 +++
 

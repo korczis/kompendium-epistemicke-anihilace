@@ -9,7 +9,6 @@ categories = ["academic", "critical-theory"]
 
 [extra]
 related_terms = ["9-essentialism-critique", "24-narrative-medicine-alternative", "30-buddhist-psychology-alt", "21-systems-theory-alternative"]
-parent = "kompendium-critical-perspectives"
 toc = true
 +++
 

@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "emergency"]
 
 [extra]
 related_terms = ["5-flashback-cascade-EA", "6-panic-attack-EA", "7-acute-cognitive-paralysis", "8-emergency-extraction-cult"]
-parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true
 +++

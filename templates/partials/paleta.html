@@ -1,0 +1,89 @@
+{#- Příkazová paleta (⌘K / Ctrl K / „/“): Flowbite Pro modal se search vstupem a výsledky ve
+    skupinách. Řádky, záhlaví skupin a prázdné stavy klonuje static/js/viz/paleta.js ze šablon
+    níže, aby Tailwind viděl všechny třídy. Data (rejstřík hledání a graf knihy) se načtou až
+    při prvním otevření. -#}
+{%- set paleta_apps = [
+  {"title": "Mapa knihy", "url": get_url(path="@/mapa.md"), "hint": "Síť odkazů mezi stránkami", "keywords": "graf sit odkazy vizualizace map"},
+  {"title": "Stav knihy", "url": get_url(path="@/stav.md"), "hint": "Rozsah, metriky a zdraví knihy", "keywords": "statistiky metriky prehled status"},
+  {"title": "Galerie", "url": get_url(path="@/galerie.md"), "hint": "Grafika a vizualizace", "keywords": "obrazky grafika ilustrace gallery"},
+  {"title": "Reference", "url": get_url(path="@/references.md"), "hint": "Zdroje a literatura", "keywords": "zdroje literatura bibliografie citace references"},
+  {"title": "O projektu", "url": get_url(path="@/about.md"), "hint": "Autor, edice a licence", "keywords": "autor licence about edice"},
+  {"title": "Obsah", "url": get_url(path="@/kompendium/_index.md"), "hint": "Kapitoly kompendia", "keywords": "kapitoly osnova kompendium"},
+  {"title": "Glosář", "url": get_url(path="@/glossary/_index.md"), "hint": "Rejstřík pojmů", "keywords": "pojmy hesla slovnik glossary"},
+  {"title": "Štítky", "url": config.base_url ~ "/tags/", "hint": "Všechny štítky", "keywords": "tagy stitky tags"}
+] -%}
+{%- set paleta_record = false -%}
+{%- if current_path is defined and current_path != "/404.html" -%}{%- set paleta_record = true -%}{%- endif -%}
+<script type="application/json" data-paleta-config>{{ {"apps": paleta_apps, "mapa": get_url(path="@/mapa.md"), "viz": get_url(path="js/viz/kompendium-viz.js", cachebust=true), "record": paleta_record} | json_encode | safe }}</script>
+<div id="paleta" data-paleta class="fixed inset-0 z-50 hidden" aria-hidden="true">
+  <div data-paleta-backdrop class="fixed inset-0 bg-gray-900/50 dark:bg-gray-900/80"></div>
+  <div class="relative flex h-full w-full justify-center sm:px-4 sm:pt-[10vh]">
+    <div role="dialog" aria-modal="true" aria-labelledby="paleta-title" data-paleta-dialog class="relative flex h-full w-full max-w-2xl flex-col overflow-hidden bg-white shadow-lg sm:h-auto sm:max-h-[75vh] sm:rounded-lg dark:bg-gray-800">
+      <h2 id="paleta-title" class="sr-only">Příkazová paleta</h2>
+      <div class="flex items-center gap-2 border-b border-gray-200 p-3 dark:border-gray-700">
+        <label for="paleta-input" class="sr-only">Hledat stránku, techniku, pojem nebo akci</label>
+        <div class="relative min-w-0 flex-1">
+          <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+            <svg class="h-5 w-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/></svg>
+          </div>
+          <input type="text" id="paleta-input" data-paleta-input role="combobox" aria-expanded="true" aria-controls="paleta-results" aria-autocomplete="list" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="go" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 pl-10 text-base text-gray-900 focus:border-primary-500 focus:ring-primary-500 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500" placeholder="Hledat stránku, techniku (EA-1.2.2), pojem, akci…">
+        </div>
+        <button type="button" data-paleta-close class="inline-flex shrink-0 items-center rounded-lg bg-transparent p-1.5 text-sm text-gray-400 hover:bg-gray-200 hover:text-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700">
+          <kbd class="hidden rounded-lg border border-gray-200 bg-gray-100 px-2 py-1 text-xs font-semibold text-gray-800 sm:inline dark:border-gray-500 dark:bg-gray-600 dark:text-gray-100">Esc</kbd>
+          <svg class="h-5 w-5 sm:hidden" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+          <span class="sr-only">Zavřít paletu</span>
+        </button>
+      </div>
+      <div id="paleta-results" data-paleta-results role="listbox" aria-label="Výsledky" class="min-h-0 flex-1 overflow-y-auto overflow-x-hidden overscroll-contain py-2"></div>
+      <p data-paleta-status class="sr-only" role="status" aria-live="polite"></p>
+      <div class="hidden items-center gap-4 border-t border-gray-200 bg-gray-50 px-4 py-2 text-xs text-gray-500 sm:flex dark:border-gray-700 dark:bg-gray-700 dark:text-gray-400">
+        <span class="inline-flex items-center gap-1"><kbd class="rounded-lg border border-gray-200 bg-white px-1.5 py-0.5 font-semibold text-gray-800 dark:border-gray-500 dark:bg-gray-600 dark:text-gray-100">↑</kbd><kbd class="rounded-lg border border-gray-200 bg-white px-1.5 py-0.5 font-semibold text-gray-800 dark:border-gray-500 dark:bg-gray-600 dark:text-gray-100">↓</kbd> pohyb</span>
+        <span class="inline-flex items-center gap-1"><kbd class="rounded-lg border border-gray-200 bg-white px-1.5 py-0.5 font-semibold text-gray-800 dark:border-gray-500 dark:bg-gray-600 dark:text-gray-100">Enter</kbd> otevřít</span>
+        <span class="inline-flex items-center gap-1"><kbd data-paleta-mod class="rounded-lg border border-gray-200 bg-white px-1.5 py-0.5 font-semibold text-gray-800 dark:border-gray-500 dark:bg-gray-600 dark:text-gray-100">Ctrl</kbd><kbd class="rounded-lg border border-gray-200 bg-white px-1.5 py-0.5 font-semibold text-gray-800 dark:border-gray-500 dark:bg-gray-600 dark:text-gray-100">Enter</kbd> v nové kartě</span>
+        <span class="ml-auto inline-flex items-center gap-1"><kbd class="rounded-lg border border-gray-200 bg-white px-1.5 py-0.5 font-semibold text-gray-800 dark:border-gray-500 dark:bg-gray-600 dark:text-gray-100">Esc</kbd> zavřít</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<template data-paleta-tpl="group">
+  <div role="group" class="pb-1">
+    <p data-paleta-group-label class="px-4 pb-1 pt-2 text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400"></p>
+  </div>
+</template>
+
+<template data-paleta-tpl="row">
+  <a role="option" aria-selected="false" tabindex="-1" class="group mx-2 flex min-w-0 cursor-pointer items-center gap-3 rounded-lg px-2 py-2 text-sm text-gray-900 hover:bg-gray-100 aria-selected:bg-primary-50 aria-selected:text-primary-800 dark:text-white dark:hover:bg-gray-700 dark:aria-selected:bg-gray-700 dark:aria-selected:text-white">
+    <span data-paleta-icon class="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-gray-100 text-gray-500 group-aria-selected:bg-primary-100 group-aria-selected:text-primary-700 dark:bg-gray-700 dark:text-gray-400 dark:group-aria-selected:bg-gray-600 dark:group-aria-selected:text-white"></span>
+    <span class="min-w-0 flex-1">
+      <span data-paleta-title class="block truncate font-medium"></span>
+      <span data-paleta-sub class="block truncate text-xs text-gray-500 dark:text-gray-400"></span>
+    </span>
+    <span data-paleta-badge class="hidden max-w-[6.5rem] shrink-0 truncate rounded-md bg-primary-100 px-2 py-0.5 text-xs font-medium text-primary-800 sm:max-w-[11rem] dark:bg-primary-900 dark:text-primary-300"></span>
+    <svg class="hidden h-4 w-4 shrink-0 text-gray-400 group-aria-selected:block" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
+  </a>
+</template>
+
+<template data-paleta-tpl="empty">
+  <div class="flex flex-col items-center justify-center px-6 py-10 text-center">
+    <svg class="mb-3 h-10 w-10 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607ZM13.5 10.5h-6"/></svg>
+    <p data-paleta-empty-title class="text-base font-semibold text-gray-900 dark:text-white"></p>
+    <p data-paleta-empty-text class="mt-1 text-sm text-gray-500 dark:text-gray-400"></p>
+  </div>
+</template>
+
+<template data-paleta-tpl="loading">
+  <div class="flex items-center justify-center gap-3 px-6 py-10 text-sm text-gray-500 dark:text-gray-400">
+    <svg class="h-5 w-5 animate-spin text-primary-600" fill="none" viewBox="0 0 24 24" aria-hidden="true"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"/></svg>
+    <span>Načítám rejstřík knihy…</span>
+  </div>
+</template>
+
+{#- Ikony podle druhu výsledku (Heroicons mini, stejné jako v postranním panelu). -#}
+<template data-paleta-icon="action"><svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"/></svg></template>
+<template data-paleta-icon="app"><svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/></svg></template>
+<template data-paleta-icon="section"><svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"/></svg></template>
+<template data-paleta-icon="technique"><svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></template>
+<template data-paleta-icon="glossary"><svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"/></svg></template>
+<template data-paleta-icon="page"><svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"/></svg></template>
+<template data-paleta-icon="recent"><svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/></svg></template>

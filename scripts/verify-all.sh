@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 # Lokálně spustí stejné gaty jako CI (.github/workflows/ci.yml), v tomtéž pořadí, a skončí
-# u první chyby. Gate interaktivních ploch staví web pod produkční cestou do dočasné složky
-# a servíruje ho na volném portu (porty jiných sessions nepoužívá ani neukončuje).
+# u první chyby. Gate interaktivních ploch a audit přístupnosti stavějí web pod produkční
+# cestou do dočasné složky a servírují ho na volném portu (porty jiných sessions nepoužívají
+# ani neukončují).
 #
 # Použití: npm run verify            (vše)
-#          npm run verify -- --fast  (bez gate interaktivních ploch)
+#          npm run verify -- --fast  (bez gate interaktivních ploch a auditu)
 # Playwright: proměnná PLAYWRIGHT, jinak balíček playwright-core z node_modules.
 set -euo pipefail
 cd "$(dirname "$0")/.."
@@ -28,7 +29,7 @@ run "Sestavení (interní odkazy jsou chyba)" npm run --silent build
 run "Flowbite Pro" node "$HOME/.claude/skills/flowbite-pro/verify.mjs" .
 
 if [ "$fast" = 1 ]; then
-  printf '\nverify: všechny gaty kromě interaktivních ploch prošly (--fast)\n'
+  printf '\nverify: všechny gaty kromě interaktivních ploch a auditu prošly (--fast)\n'
   exit 0
 fi
 
@@ -44,5 +45,8 @@ zola build --base-url "http://127.0.0.1:$port/kompendium-epistemicke-anihilace" 
 server=$!
 for _ in $(seq 1 50); do curl -fs -o /dev/null "http://127.0.0.1:$port/kompendium-epistemicke-anihilace/" && break; sleep 0.2; done
 BASE_URL="http://127.0.0.1:$port/kompendium-epistemicke-anihilace/" node test/e2e/surfaces.cjs
+
+step "Přístupnost, rozvržení a odkazy (axe-core WCAG 2.2 AA, CLS, přetečení, interní odkazy)"
+BASE_URL="http://127.0.0.1:$port/kompendium-epistemicke-anihilace/" node scripts/audit-ui.cjs
 
 printf '\nverify: všechny gaty prošly\n'

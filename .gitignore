@@ -8,3 +8,4 @@
 /static/js/vendor/echarts.min.js
 /static/js/vendor/alpine.min.js
 .DS_Store
+__pycache__/

@@ -64,6 +64,9 @@ def render(entries):
         'description = "Literatura citovaná v kompendiu: každá položka jednou, s odkazy na stránky, které ji citují."',
         "weight = 900",
         "",
+        "[taxonomies]",
+        'tags = ["kompendium"]',
+        "",
         "[extra]",
         "toc = false",
         f"entries = {len(entries)}",
@@ -80,7 +83,9 @@ def render(entries):
         first = key(item["entry"])[:1].upper()
         if first != letter:
             letter = first
-            lines += ["", f"## {letter}", ""]
+            if lines[-1] != "":
+                lines.append("")
+            lines += [f"## {letter}", ""]
         pages = item["pages"]
         cited = ", ".join(f"[{title_of(p)}]({page_ref(p)})" for p in pages[:3])
         more = f" a {len(pages) - 3} dalších" if len(pages) > 3 else ""

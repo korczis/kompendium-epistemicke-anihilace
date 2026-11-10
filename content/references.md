@@ -3,6 +3,9 @@ title = "Reference"
 description = "Literatura citovaná v kompendiu: každá položka jednou, s odkazy na stránky, které ji citují."
 weight = 900
 
+[taxonomies]
+tags = ["kompendium"]
+
 [extra]
 toc = false
 entries = 577
@@ -11,7 +14,6 @@ entries = 577
 Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotlivých stránkách kompendia a glosáře; ručně se needituje.
 
 **577 položek**, seřazených podle autora.
-
 
 ## A
 

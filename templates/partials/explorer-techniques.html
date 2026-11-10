@@ -1,0 +1,187 @@
+{#- Průzkumník katalogu technik: hledání, filtr rodiny a rizika, řazení, graf rodin (ECharts).
+    Vlastní: agent „techniky“. Data jsou odvozená ze `section.pages` při sestavení; počty odkazů
+    sem čte static/js/viz/techniky.js z data/graph.json. Bez JavaScriptu zůstává skrytý a čtenář
+    použije serverově vykreslený seznam stránek pod ním (section.html). -#}
+<style>[x-cloak]{display:none !important}</style>
+{#- JSON se skládá po položkách (Tera 2 nemá filtr concat); každou hodnotu kóduje json_encode. -#}
+<script type="application/json" id="techniky-data">[
+{%- for p in section.pages %}
+{%- if p.extra.ea_code is defined %}{% set code = p.extra.ea_code %}{% else %}{% set code = "" %}{% endif %}
+{%- if p.extra.ea_category is defined %}{% set cat = p.extra.ea_category %}{% else %}{% set cat = "" %}{% endif %}
+{%- if p.extra.ea_subcategory is defined %}{% set sub = p.extra.ea_subcategory %}{% else %}{% set sub = "" %}{% endif %}
+{%- if p.extra.risk_level is defined %}{% set risk = p.extra.risk_level %}{% else %}{% set risk = "" %}{% endif %}
+{%- if p.description %}{% set desc = p.description %}{% else %}{% set desc = "" %}{% endif %}
+{%- set item = {"title": p.title, "permalink": p.permalink, "description": desc, "words": p.word_count, "code": code, "category": cat, "subcategory": sub, "risk": risk, "path": p.relative_path} %}
+{{ item | json_encode | safe }}{% if not loop.last %},{% endif %}
+{%- endfor %}
+]</script>
+{#- Úrovně rizika: pořadí, český název a třídy odznaku (Pro status badges). Třídy jsou zde,
+    aby je Tailwind při sestavení CSS našel ve zdrojích šablon. -#}
+<script type="application/json" id="techniky-rizika">{
+  "low-moderate": {"order": 1, "label": "nízké až střední", "cls": "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300"},
+  "moderate": {"order": 2, "label": "střední", "cls": "bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300"},
+  "moderate-high": {"order": 3, "label": "středně vysoké", "cls": "bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300"},
+  "high": {"order": 4, "label": "vysoké", "cls": "bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-300"},
+  "critical": {"order": 5, "label": "kritické", "cls": "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300"},
+  "extreme": {"order": 6, "label": "extrémní", "cls": "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300"},
+  "ultramarine": {"order": 7, "label": "ultramarínové", "cls": "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300"},
+  "": {"order": 99, "label": "neuvedeno", "cls": "bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300"}
+}</script>
+<div id="techniky" x-data="kompendiumTechniky()" x-cloak class="min-w-0 space-y-4">
+  {#- Karta 1: rodiny technik (treemap) + přístupné přepínače rodin -#}
+  <section class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800" aria-labelledby="tk-h-rodiny">
+    <div class="mb-4 flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+      <h2 id="tk-h-rodiny" class="text-xl font-bold leading-none text-gray-900 dark:text-white">Rodiny technik</h2>
+      <p class="text-sm text-gray-500 dark:text-gray-400">Plocha odpovídá počtu stránek rodiny.</p>
+    </div>
+    <p class="mb-4 text-sm text-gray-500 dark:text-gray-400">Katalog je defenzivní taxonomie: každá stránka popisuje, jak techniku rozpoznat, jaké má znaky a jak ji neutralizovat. Klepnutím na rodinu v grafu nebo na tlačítko pod ním filtrujete tabulku, dalším klepnutím filtr zrušíte.</p>
+    <div x-ref="chart" class="h-64 w-full sm:h-80" role="img" :aria-label="chartLabel"></div>
+    <div class="mt-4 flex flex-wrap gap-2" role="group" aria-label="Filtr podle rodiny">
+      <template x-for="f in families" :key="f.id">
+        <button type="button" @click="toggleFamily(f.id)" :aria-pressed="family === f.id ? 'true' : 'false'"
+          :class="family === f.id ? 'border-primary-700 bg-primary-700 text-white hover:bg-primary-800 dark:border-primary-600 dark:bg-primary-600 dark:hover:bg-primary-700' : 'border-gray-200 bg-white text-gray-900 hover:bg-gray-100 hover:text-primary-700 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white'"
+          class="inline-flex max-w-full items-center gap-2 rounded-lg border px-3 py-1.5 text-xs font-medium focus:outline-none focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-800">
+          <span class="h-2.5 w-2.5 shrink-0 rounded-full" :style="'background:' + f.color" aria-hidden="true"></span>
+          <span class="font-mono" x-text="f.id"></span>
+          <span class="hidden truncate sm:inline" x-text="f.name"></span>
+          <span class="rounded-full bg-gray-100 px-1.5 text-gray-800 dark:bg-gray-700 dark:text-gray-300" x-text="f.count"></span>
+        </button>
+      </template>
+    </div>
+  </section>
+
+  {#- Karta 2: Pro advanced table s nástrojovou lištou -#}
+  <section class="relative rounded-lg bg-white shadow dark:bg-gray-800" aria-labelledby="tk-h-katalog">
+    <div class="border-b border-gray-200 p-4 sm:p-6 dark:border-gray-700">
+      <div class="mb-4 flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+        <h2 id="tk-h-katalog" class="text-xl font-bold leading-none text-gray-900 dark:text-white">Průzkumník katalogu</h2>
+        <p class="text-sm text-gray-500 dark:text-gray-400" aria-live="polite" x-text="summary"></p>
+      </div>
+      <form class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4" role="search" aria-label="Filtr katalogu technik" @submit.prevent>
+        <div class="sm:col-span-2 lg:col-span-1">
+          <label for="tk-q" class="mb-1 block text-sm font-medium text-gray-900 dark:text-white">Hledat</label>
+          <div class="relative">
+            <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+              <svg class="h-4 w-4 text-gray-500 dark:text-gray-400" fill="none" viewBox="0 0 20 20" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/></svg>
+            </div>
+            <input id="tk-q" type="search" x-model.debounce.150ms="q" autocomplete="off" placeholder="Kód, název, popis…"
+              aria-describedby="tk-q-help"
+              class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 pl-9 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500">
+          </div>
+          <p id="tk-q-help" class="sr-only">Hledání nerozlišuje diakritiku ani velikost písmen; kód lze psát jako EA-1.2.2 i ea-1-2-2.</p>
+        </div>
+        <div>
+          <label for="tk-rodina" class="mb-1 block text-sm font-medium text-gray-900 dark:text-white">Rodina</label>
+          <select id="tk-rodina" x-model="family" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-primary-500 dark:focus:ring-primary-500">
+            <option value="">Všechny rodiny</option>
+            <template x-for="f in families" :key="f.id"><option :value="f.id" :selected="family === f.id" x-text="f.id + ' · ' + f.name + ' (' + f.count + ')'"></option></template>
+          </select>
+        </div>
+        <div x-show="risks.length">
+          <label for="tk-riziko" class="mb-1 block text-sm font-medium text-gray-900 dark:text-white">Úroveň rizika</label>
+          <select id="tk-riziko" x-model="risk" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-primary-500 dark:focus:ring-primary-500">
+            <option value="">Všechny úrovně</option>
+            <template x-for="r in risks" :key="r.id"><option :value="r.id" :selected="risk === r.id" x-text="r.label + ' (' + r.count + ')'"></option></template>
+          </select>
+        </div>
+        <div>
+          <label for="tk-razeni" class="mb-1 block text-sm font-medium text-gray-900 dark:text-white">Řadit podle</label>
+          <select id="tk-razeni" x-model="sort" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-primary-500 dark:focus:ring-primary-500">
+            <option value="kod">kódu</option>
+            <option value="nazev">názvu</option>
+            <option value="rozsah">rozsahu (nejdelší první)</option>
+            <option value="odkazy">odkazů sem (nejvíc první)</option>
+          </select>
+        </div>
+      </form>
+      <div class="mt-3 flex flex-wrap items-center gap-2" x-show="active">
+        <span class="text-sm text-gray-500 dark:text-gray-400">Aktivní filtr:</span>
+        <template x-if="family">
+          <span class="inline-flex items-center gap-1 rounded-md bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300" x-text="'rodina ' + family"></span>
+        </template>
+        <template x-if="risk">
+          <span class="inline-flex items-center gap-1 rounded-md bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300" x-text="'riziko: ' + riskLabel(risk)"></span>
+        </template>
+        <template x-if="q.trim()">
+          <span class="inline-flex max-w-full items-center gap-1 truncate rounded-md bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300" x-text="'„' + q.trim() + '“'"></span>
+        </template>
+        <button type="button" @click="reset()" class="inline-flex items-center rounded-lg px-2 py-1 text-xs font-medium text-primary-700 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:text-primary-500 dark:hover:bg-gray-700 dark:focus:ring-primary-800">Zrušit filtry</button>
+      </div>
+    </div>
+
+    {#- Tabulka (od md výše) -#}
+    <div class="hidden overflow-x-auto md:block" x-show="filtered.length">
+      <table class="w-full table-fixed text-left text-sm text-gray-500 dark:text-gray-400">
+        <caption class="sr-only">Techniky katalogu odpovídající filtru; každý řádek odkazuje na stránku techniky.</caption>
+        <thead class="bg-gray-50 text-xs uppercase text-gray-700 dark:bg-gray-700 dark:text-gray-400">
+          <tr>
+            <th scope="col" class="w-28 px-4 py-3" :aria-sort="sort === 'kod' ? 'ascending' : 'none'">Kód</th>
+            <th scope="col" class="px-4 py-3" :aria-sort="sort === 'nazev' ? 'ascending' : 'none'">Technika</th>
+            <th scope="col" class="hidden w-36 px-4 py-3 xl:table-cell" x-show="risks.length">Riziko</th>
+            <th scope="col" class="w-20 px-4 py-3 text-right" :aria-sort="sort === 'rozsah' ? 'descending' : 'none'">Slov</th>
+            <th scope="col" class="w-24 px-4 py-3 text-right" :aria-sort="sort === 'odkazy' ? 'descending' : 'none'">Odkazů sem</th>
+          </tr>
+        </thead>
+        <tbody>
+          <template x-for="t in visible" :key="t.path">
+            <tr class="relative border-b border-gray-200 hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-700">
+              <td class="whitespace-nowrap px-4 py-3 align-top">
+                <span class="rounded-md bg-primary-100 px-2.5 py-0.5 font-mono text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300" x-text="t.code || '—'"></span>
+              </td>
+              <td class="min-w-0 px-4 py-3 align-top">
+                <a :href="t.permalink" class="block font-medium text-gray-900 after:absolute after:inset-0 hover:text-primary-700 focus:outline-none focus-visible:underline dark:text-white dark:hover:text-primary-400" x-text="t.title"></a>
+                <span class="mt-1 line-clamp-2 block text-sm text-gray-500 dark:text-gray-400" x-show="t.description" x-text="t.description"></span>
+                <span class="mt-1 block truncate text-xs text-gray-400 dark:text-gray-500" x-show="t.subcategory" x-text="t.subcategory"></span>
+              </td>
+              <td class="hidden px-4 py-3 align-top xl:table-cell" x-show="risks.length">
+                <span x-show="t.risk" class="whitespace-nowrap rounded-md px-2.5 py-0.5 text-xs font-medium" :class="riskClass(t.risk)" x-text="riskLabel(t.risk)"></span>
+              </td>
+              <td class="whitespace-nowrap px-4 py-3 text-right align-top tabular-nums" x-text="fmt(t.words)"></td>
+              <td class="whitespace-nowrap px-4 py-3 text-right align-top font-medium tabular-nums text-gray-900 dark:text-white" x-text="t.inLinks === null ? '…' : fmt(t.inLinks)"></td>
+            </tr>
+          </template>
+        </tbody>
+      </table>
+    </div>
+
+    {#- Seznam karet (mobil) -#}
+    <ul class="divide-y divide-gray-200 md:hidden dark:divide-gray-700" x-show="filtered.length" aria-label="Techniky katalogu">
+      <template x-for="t in visible" :key="t.path">
+        <li>
+          <a :href="t.permalink" class="block px-4 py-3 hover:bg-gray-100 focus:outline-none focus-visible:bg-gray-100 dark:hover:bg-gray-700 dark:focus-visible:bg-gray-700">
+            <span class="flex flex-wrap items-center gap-2">
+              <span class="rounded-md bg-primary-100 px-2.5 py-0.5 font-mono text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300" x-text="t.code || '—'"></span>
+              <span x-show="t.risk" class="rounded-md px-2.5 py-0.5 text-xs font-medium" :class="riskClass(t.risk)" x-text="riskLabel(t.risk)"></span>
+            </span>
+            <span class="mt-2 block break-words text-sm font-medium text-gray-900 dark:text-white" x-text="t.title"></span>
+            <span class="mt-1 line-clamp-2 block break-words text-sm text-gray-500 dark:text-gray-400" x-show="t.description" x-text="t.description"></span>
+            <span class="mt-2 flex gap-4 text-xs text-gray-500 dark:text-gray-400">
+              <span><span class="font-medium text-gray-900 dark:text-white" x-text="fmt(t.words)"></span> slov</span>
+              <span><span class="font-medium text-gray-900 dark:text-white" x-text="t.inLinks === null ? '…' : fmt(t.inLinks)"></span> odkazů sem</span>
+            </span>
+          </a>
+        </li>
+      </template>
+    </ul>
+
+    {#- Prázdný stav (Pro empty state) -#}
+    <div x-show="!filtered.length" class="flex flex-col items-center justify-center p-6 text-center sm:p-10" role="status">
+      <svg class="mb-3 h-10 w-10 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg>
+      <p class="text-base font-semibold text-gray-900 dark:text-white">Žádná technika neodpovídá filtru</p>
+      <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Zkuste kratší výraz, jinou rodinu nebo úroveň rizika.</p>
+      <button type="button" @click="reset()" class="mt-4 rounded-lg bg-primary-700 px-4 py-2 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Zrušit filtry</button>
+    </div>
+
+    {#- Patička: počet a „zobrazit další“ -#}
+    <nav class="flex flex-col items-start justify-between gap-3 border-t border-gray-200 p-4 sm:flex-row sm:items-center dark:border-gray-700" x-show="filtered.length" aria-label="Stránkování katalogu">
+      <span class="text-sm text-gray-500 dark:text-gray-400">Zobrazeno <span class="font-semibold text-gray-900 dark:text-white" x-text="fmt(visible.length)"></span> z <span class="font-semibold text-gray-900 dark:text-white" x-text="fmt(filtered.length)"></span></span>
+      <div class="flex flex-wrap gap-2" x-show="visible.length < filtered.length">
+        <button type="button" @click="more()" class="inline-flex items-center rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700" x-text="'Zobrazit další ' + Math.min(step, filtered.length - visible.length)"></button>
+        <button type="button" @click="all()" class="inline-flex items-center rounded-lg px-3 py-2 text-sm font-medium text-primary-700 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:text-primary-500 dark:hover:bg-gray-700 dark:focus:ring-primary-800">Zobrazit vše</button>
+      </div>
+    </nav>
+  </section>
+</div>
+<script src="{{ get_url(path='js/viz/kompendium-viz.js', cachebust=true) }}" defer></script>
+<script src="{{ get_url(path='js/viz/techniky.js', cachebust=true) }}" defer></script>
+<script src="{{ get_url(path='js/vendor/alpine.min.js') }}" defer></script>

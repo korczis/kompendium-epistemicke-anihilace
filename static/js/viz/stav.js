@@ -8,25 +8,53 @@
 
   function el(id) { return document.getElementById(id); }
 
+  // Mapa knihy s předvybraným oddílem; odkaz na stránku v rámci webu podle base path.
+  function mapUrl(section) {
+    return V.basePath + '/mapa/' + (section ? '?oddil=' + encodeURIComponent(section) : '');
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+    });
+  }
+
+  // Každá karta vede tam, kde se s číslem dá něco dělat (mapa, obsah, příslušný graf níže).
   function kpis(m) {
     var items = [
-      ['Stránek', m.pages, 'včetně glosáře a filozofie'],
-      ['Slov', m.words, 'celý text knihy'],
-      ['Odkazů', m.links, 'interní @/ odkazy mezi stránkami'],
-      ['Nefunkčních odkazů', m.broken_links, 'sestavení je jako chybu odmítne'],
-      ['Sirotků', m.orphans, 'stránky, na které nic neodkazuje'],
-      ['Se „Související“', m.pages_with_related, 'stránky se sekcí souvisejících pojmů'],
-      ['Tenkých stránek', m.thin_pages, 'pod hranicí rozsahu, čekají na rozvinutí'],
-      ['Stránek v angličtině', m.english_pages, 'čekají na převod do češtiny'],
+      ['Stránek', m.pages, 'včetně glosáře a filozofie', V.basePath + '/kompendium/', 'Otevřít obsah kompendia'],
+      ['Slov', m.words, 'celý text knihy', '#h-slova', 'Přejít na graf rozsahu textu'],
+      ['Odkazů', m.links, 'interní @/ odkazy mezi stránkami', mapUrl(), 'Otevřít Mapu knihy'],
+      ['Nefunkčních odkazů', m.broken_links, 'sestavení je jako chybu odmítne', '#h-kvalita', 'Přejít na přehled nedokončené práce'],
+      ['Sirotků', m.orphans, 'stránky, na které nic neodkazuje', mapUrl(), 'Otevřít Mapu knihy'],
+      ['Se „Související“', m.pages_with_related, 'stránky se sekcí souvisejících pojmů', '#h-sekce', 'Přejít na graf stránek podle oddílů'],
+      ['Tenkých stránek', m.thin_pages, 'pod hranicí rozsahu, čekají na rozvinutí', '#h-rozptyl', 'Přejít na graf rozsahu a provázanosti stránek'],
+      ['Stránek v angličtině', m.english_pages, 'čekají na převod do češtiny', V.basePath + '/glossary/', 'Otevřít glosář, kde je většina nepřeložených stránek'],
     ];
     el('stav-kpi').innerHTML = items.map(function (x) {
       var pct = typeof x[1] === 'number' && x[0] !== 'Stránek' && x[0] !== 'Slov' && x[0] !== 'Odkazů'
         ? '<span class="ml-2 text-sm font-medium text-gray-500 dark:text-gray-400">' + Math.round(100 * x[1] / m.pages) + ' %</span>' : '';
-      return '<div class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800">' +
-        '<span class="text-2xl font-bold leading-none text-gray-900 sm:text-3xl dark:text-white">' + nf.format(x[1]) + '</span>' + pct +
+      return '<a href="' + escapeHtml(x[3]) + '" aria-label="' + escapeHtml(x[0] + ': ' + nf.format(x[1]) + '. ' + x[4]) + '" ' +
+        'class="group block rounded-lg bg-white p-4 shadow hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-800 sm:p-6 dark:bg-gray-800 dark:hover:bg-gray-700">' +
+        '<span class="flex items-start justify-between gap-2"><span>' +
+        '<span class="text-2xl font-bold leading-none text-gray-900 sm:text-3xl dark:text-white">' + nf.format(x[1]) + '</span>' + pct + '</span>' +
+        '<svg class="h-5 w-5 shrink-0 text-gray-400 group-hover:text-primary-700 dark:group-hover:text-primary-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg></span>' +
         '<h3 class="text-base font-normal text-gray-500 dark:text-gray-400">' + x[0] + '</h3>' +
-        '<p class="mt-3 border-t border-gray-200 pt-3 text-xs text-gray-500 dark:border-gray-700 dark:text-gray-400">' + x[2] + '</p></div>';
+        '<p class="mt-3 border-t border-gray-200 pt-3 text-xs text-gray-500 dark:border-gray-700 dark:text-gray-400">' + x[2] + '</p></a>';
     }).join('');
+  }
+
+  // Klepnutí na sloupec nebo popisek osy otevře oddíl v Mapě knihy.
+  function openSectionOnClick(chart, rows, axisKey) {
+    var byLabel = {};
+    rows.forEach(function (r) { byLabel[V.sectionLabel(r.section)] = r.section; });
+    chart.on('click', function (p) {
+      var section = null;
+      if (p.componentType === 'series' && rows[p.dataIndex]) section = rows[p.dataIndex].section;
+      else if (p.componentType === axisKey && byLabel[p.value]) section = byLabel[p.value];
+      if (section) window.location.href = mapUrl(section);
+    });
+    return chart;
   }
 
   function sectionsChart(m) {
@@ -38,13 +66,13 @@
         grid: { left: 8, right: 16, top: 36, bottom: 8, containLabel: true },
         xAxis: V.axis(t, { type: 'value' }),
         yAxis: V.axis(t, { type: 'category', data: rows.map(function (r) { return V.sectionLabel(r.section); }),
-          axisLabel: { color: t.muted, fontSize: 11, width: 170, overflow: 'truncate' } }),
+          triggerEvent: true, axisLabel: { color: t.muted, fontSize: 11, width: 170, overflow: 'truncate' } }),
         series: [
           { name: 'stránky celkem', type: 'bar', data: rows.map(function (r) { return r.pages; }), itemStyle: { color: '#4f46e5', borderRadius: [0, 3, 3, 0] } },
           { name: 'se „Související“', type: 'bar', data: rows.map(function (r) { return r.with_related; }), itemStyle: { color: '#10b981', borderRadius: [0, 3, 3, 0] } },
         ],
       };
-    });
+    }).then(function (chart) { return openSectionOnClick(chart, rows, 'yAxis'); });
   }
 
   function wordsChart(m) {
@@ -55,8 +83,11 @@
         series: [{ type: 'treemap', roam: false, nodeClick: false, breadcrumb: { show: false },
           label: { color: '#fff', fontSize: 11, formatter: function (p) { return p.name + '\n' + nf.format(p.value); } },
           itemStyle: { borderColor: t.surface, borderWidth: 2, gapWidth: 2 },
-          data: rows.map(function (r, i) { return { name: V.sectionLabel(r.section), value: r.words, itemStyle: { color: V.PALETTE[i % V.PALETTE.length] } }; }) }],
+          data: rows.map(function (r, i) { return { name: V.sectionLabel(r.section), value: r.words, section: r.section, itemStyle: { color: V.PALETTE[i % V.PALETTE.length] } }; }) }],
       };
+    }).then(function (chart) {
+      chart.on('click', function (p) { if (p.data && p.data.section) window.location.href = mapUrl(p.data.section); });
+      return chart;
     });
   }
 
@@ -73,11 +104,11 @@
         legend: { textStyle: { color: t.muted }, top: 0 },
         grid: { left: 8, right: 16, top: 36, bottom: 8, containLabel: true },
         xAxis: V.axis(t, { type: 'category', data: rows.map(function (r) { return V.sectionLabel(r.section); }),
-          axisLabel: { color: t.muted, rotate: 40, fontSize: 10, width: 110, overflow: 'truncate' } }),
+          triggerEvent: true, axisLabel: { color: t.muted, rotate: 40, fontSize: 10, width: 110, overflow: 'truncate' } }),
         yAxis: V.axis(t, { type: 'value' }),
         series: [s('sirotci', 'orphans', '#ef4444'), s('v angličtině', 'english', '#f59e0b'), s('bez diakritiky', 'without_diacritics', '#a855f7')],
       };
-    });
+    }).then(function (chart) { return openSectionOnClick(chart, rows, 'xAxis'); });
   }
 
   function linkedChart(g) {

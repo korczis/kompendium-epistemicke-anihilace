@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "kolapsova_epistemicka_struktura",
+  "cross_references": [
+    "epistemicka-singularita",
+    "kognitivni-implosivita",
+    "kognitivni-autokanibalizace",
+    "epistemicka-cerna-dira",
+    "kognitivni-singularita",
+    "informacni-gravitacni-kolaps"
+  ],
+  "defense_strategies": [
+    "Externí epistemická podpora",
+    "postupná rekonstrukce"
+  ],
+  "description": {
+    "cs": "Proces, při němž kognitivní struktura kolabuje sama do sebe pod tíhou vlastních kontradikcí, vedoucí k naprosté destrukci epistemického prostoru.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Kognitivní kolaps",
+    "epistemický šok",
+    "naprostá dezorientace",
+    "naprosté destrukci epistemického prostoru"
+  ],
+  "domain": "celkova_kognitivni_architektura",
+  "example": {
+    "cs": "Logik specializující se na formální systémy a jejich základy systematicky pracuje na důkazu konzistence určitého logického systému. Po měsících intenzivní práce nachází fundamentální kontradikci, která odhaluje nevyhnutelnou nekonzistenci nejen zkoumaného systému, ale i jakéhokoliv myslitelného formálního systému schopného sebereference. Toto zjištění vytváří kaskádový efekt, kdy postupně kolabují všechny jeho dosavadní jistoty ohledně logiky, matematiky a nakonec i samotného rozumu. Během několika hodin po objevu logik zažívá kompletní epistemickou implozi – jeho mysl jako by kolabovala do sebe pod tíhou této fundamentální kontradikce. Nachází se ve stavu naprosté kognitivní paralýzy, kdy není schopen formulovat jakoukoliv koherentní myšlenku nebo úsudek, protože jakýkoliv pokus o myšlení okamžitě aktivuje vědomí nevyhnutelné kontradiktornosti, což vede k okamžitému kolapsu dané myšlenkové struktury."
+  },
+  "id": "EA-105-epistemicka-imploze",
+  "metadata": {
+    "index": 105,
+    "source": "primary",
+    "anchor": "epistemicka-imploze",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Kolapsová epistemická struktura"
+  },
+  "name": {
+    "cs": "Epistemická imploze",
+    "en": "Epistemic Implosion"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "very_difficult",
+    "score": 0.15
+  },
+  "severity": {
+    "level": "critical",
+    "score": 0.95
+  },
+  "subcategory": null,
+  "temporal_profile": "nahly",
+  "typical_manifestations": [
+    "Kognitivní kolaps",
+    "epistemický šok",
+    "naprostá dezorientace"
+  ]
+}

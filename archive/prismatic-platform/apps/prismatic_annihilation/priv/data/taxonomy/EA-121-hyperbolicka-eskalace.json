@@ -1,0 +1,61 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "kognitivne-epistemicka_amplifikace",
+  "cross_references": [
+    "absolutni-epistemicka-inflace",
+    "kognitivni-hyperparadox",
+    "semanticka-apokalypsa"
+  ],
+  "defense_strategies": [
+    "Konceptuální deeskalace",
+    "sémantická stabilizace",
+    "kognitivní dampening",
+    "hyperbolická inhibice"
+  ],
+  "description": {
+    "cs": "Hyperbolická eskalace představuje proces nekontrolovaného, exponenciálního zvyšování intenzity, složitosti nebo rozsahu myšlenkových obsahů, konceptů či významových struktur, který překračuje funkční limity kognitivního zpracování a vede k epistemickému přetížení, významové saturaci a eventuálně ke kolapsu celého konceptuálního systému. Tento fenomén se vyznačuje akcelerujícím zintenzivňováním, které není pouhou lineární gradací, ale nabývá charakteru exponenciální funkce s potenciálem k dosažení singulárního bodu.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Sémantická hyperinflace",
+    "konceptuální excitace",
+    "významové přetížení",
+    "epistemická saturace",
+    "asociační bouře"
+  ],
+  "domain": "intenzita_konceptualizace_a_vyznamova_saturace",
+  "example": {
+    "cs": "Filosof se intenzivně zabývá konceptem \"transcendence\". Zpočátku k němu přistupuje jako k standardnímu filosofickému pojmu s relativně vymezeným obsahem a jasnou teoretickou historií. Postupně však začíná vnímat stále více subtilních významových nuancí a implikací tohoto konceptu. Každý nový aspekt transcendence, který odhaluje, otevírá exponenciálně rostoucí pole dalších, ještě subtilnějších a intenzivnějších významových dimenzí. Jeho myšlení o transcendenci se stává stále intenzivnějším a zrychlenějším; běžné filosofické analýzy a distinky mu připadají nedostatečné pro zachycení tohoto konceptu, který v jeho vnímání nabývá stále monumentálnějších proporcí. Začíná vytvářet neologismy a stále komplexnější konceptuální konstrukce ve snaze uchopit \"pravou podstatu\" transcendence. Po několika měsících takového intenzivního myšlení dosahuje bodu, kdy je zcela pohlcen ideou transcendence, která se v jeho kognici stala hyperbolicky zinteznivěnou až do stavu, kdy se vymyká jakékoliv možnosti koherentní artikulace. Zažívá simultanentní pocit naprostého vhledu i úplné neschopnosti tento vhled komunikovat. Nakonec dochází ke konceptuálnímu kolapsu, kdy jeho intenzivní pochopení transcendence imploduje do stavu epistemické dezorientace a ztráty schopnosti uchopovat tento koncept vůbec."
+  },
+  "id": "EA-121-hyperbolicka-eskalace",
+  "metadata": {
+    "index": 121,
+    "source": "archive",
+    "anchor": "hyperbolicka-eskalace",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Kognitivně-epistemická amplifikace"
+  },
+  "name": {
+    "cs": "Hyperbolická eskalace",
+    "en": "Hyperbolicka Eskalace"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "critical",
+    "score": 0.95
+  },
+  "subcategory": null,
+  "temporal_profile": "exponencialne_akcelerujici",
+  "typical_manifestations": [
+    "Sémantická hyperinflace",
+    "konceptuální excitace",
+    "významové přetížení",
+    "epistemická saturace",
+    "asociační bouře"
+  ]
+}

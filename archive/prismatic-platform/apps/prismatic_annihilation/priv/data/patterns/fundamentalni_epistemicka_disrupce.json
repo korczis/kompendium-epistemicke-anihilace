@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.15,
+  "aggregate_severity": 0.95,
+  "category": "fundamentalni_epistemicka_disrupce",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Koherentistická restrukturalizace",
+        "pragmatická refundace",
+        "epistemická lokalita",
+        "axiomatická pluralita"
+      ],
+      "detection_patterns": [
+        "Fundační nestabilita",
+        "regresivní zpochybnění",
+        "radikální pochybnost",
+        "axiomatická fluidita",
+        "epistemický nihilismus"
+      ],
+      "manifestations": [
+        "Fundační nestabilita",
+        "regresivní zpochybnění",
+        "radikální pochybnost",
+        "axiomatická fluidita",
+        "epistemický nihilismus"
+      ],
+      "name_cs": "Epistemická anti-fundace",
+      "name_en": "Epistemic Anti-foundation",
+      "severity_score": 0.95,
+      "technique_id": "EA-098-epistemicka-anti-fundace"
+    }
+  ],
+  "technique_count": 1
+}

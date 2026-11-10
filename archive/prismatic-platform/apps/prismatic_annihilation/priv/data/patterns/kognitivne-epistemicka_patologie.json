@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.25,
+  "aggregate_severity": 0.7,
+  "category": "kognitivne-epistemicka_patologie",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Kognitivní flexibilizace",
+        "kontraintuitivní expozice",
+        "epistemická obnova",
+        "axiomatická diverzifikace"
+      ],
+      "detection_patterns": [
+        "Myšlenková rigidita",
+        "hypertrofovaná systematizace",
+        "kompulzivní koherence",
+        "epistemická imunizace",
+        "perzeverace"
+      ],
+      "manifestations": [
+        "Myšlenková rigidita",
+        "hypertrofovaná systematizace",
+        "kompulzivní koherence",
+        "epistemická imunizace",
+        "perzeverace"
+      ],
+      "name_cs": "Anankastický režim",
+      "name_en": "Anankastic Regime",
+      "severity_score": 0.7,
+      "technique_id": "EA-067-anankasticky-rezim"
+    }
+  ],
+  "technique_count": 1
+}

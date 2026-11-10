@@ -1,0 +1,29 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.5,
+  "aggregate_severity": 0.8,
+  "category": "fragmentacni_epistemicka_technika",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Strategická kognitivní selekce",
+        "externalizace integračních procesů"
+      ],
+      "detection_patterns": [
+        "Rozpad poznatkových celků",
+        "neschopnost komplementární integrace",
+        "kognitivní dezorientace"
+      ],
+      "manifestations": [
+        "Rozpad poznatkových celků",
+        "neschopnost komplementární integrace",
+        "kognitivní dezorientace"
+      ],
+      "name_cs": "Epistemická fragmentace",
+      "name_en": "Epistemic Fragmentation",
+      "severity_score": 0.8,
+      "technique_id": "EA-103-epistemicka-fragmentace"
+    }
+  ],
+  "technique_count": 1
+}

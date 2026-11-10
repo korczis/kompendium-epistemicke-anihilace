@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.1,
+  "aggregate_severity": 0.8,
+  "category": "obnovna_blokacni_technika",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Externí kognitivní podpory",
+        "mikro-restaurační postupy"
+      ],
+      "detection_patterns": [
+        "Neschopnost zotavení z epistemického traumatu",
+        "regrese po každém pokusu o obnovu"
+      ],
+      "manifestations": [
+        "Neschopnost zotavení z epistemického traumatu",
+        "regrese po každém pokusu o obnovu"
+      ],
+      "name_cs": "Anti-rekuperační mechanismus",
+      "name_en": "Anti-rekuperacni Mechanismus",
+      "severity_score": 0.8,
+      "technique_id": "EA-072-anti-rekuperacni-mechanismus"
+    }
+  ],
+  "technique_count": 1
+}

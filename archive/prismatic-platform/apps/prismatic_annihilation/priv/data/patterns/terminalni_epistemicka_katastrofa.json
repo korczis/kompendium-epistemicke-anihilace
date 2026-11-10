@@ -1,0 +1,28 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.05,
+  "aggregate_severity": 1.0,
+  "category": "terminalni_epistemicka_katastrofa",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Pouze preventivní"
+      ],
+      "detection_patterns": [
+        "Totální kognitivní kolaps",
+        "epistemická katatonie",
+        "zánik subjektivity"
+      ],
+      "manifestations": [
+        "Totální kognitivní kolaps",
+        "epistemická katatonie",
+        "zánik subjektivity"
+      ],
+      "name_cs": "Epistemická singularita",
+      "name_en": "Epistemic Singularity",
+      "severity_score": 1.0,
+      "technique_id": "EA-109-epistemicka-singularita"
+    }
+  ],
+  "technique_count": 1
+}

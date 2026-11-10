@@ -1,0 +1,82 @@
+{
+  "$id": "relationship_graph.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Graph structure representing relationships between techniques",
+  "properties": {
+    "edge_count": {
+      "type": "integer"
+    },
+    "edges": {
+      "items": {
+        "properties": {
+          "source": {
+            "type": "string"
+          },
+          "target": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "source",
+          "target",
+          "type"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "graph_type": {
+      "enum": [
+        "cross_reference",
+        "category_hierarchy",
+        "severity_tiers"
+      ],
+      "type": "string"
+    },
+    "node_count": {
+      "type": "integer"
+    },
+    "nodes": {
+      "items": {
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "name_cs": {
+            "type": "string"
+          },
+          "name_en": {
+            "type": "string"
+          },
+          "severity_score": {
+            "type": "number"
+          },
+          "type": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "graph_type",
+    "nodes",
+    "edges"
+  ],
+  "title": "Technique Relationship Graph",
+  "type": "object"
+}

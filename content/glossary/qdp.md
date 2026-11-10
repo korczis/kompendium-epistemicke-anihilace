@@ -17,14 +17,14 @@ date_modified = "2026-11-10"
 
 ## Vymezení
 
-QDP (Quality Debt Points, „body dluhu kvality“) je metrika, kterou Prismatic Platform,
-vývojové prostředí, z něhož kompendium vzešlo, vyjadřovala nahromaděný dluh kvality kódu jedním
-číslem. Každé zjištěné porušení pravidel kvality, například chybějící typová specifikace
-veřejné funkce, varování překladače nebo neošetřený přístup k datům, se započítává určitým
-počtem bodů podle své váhy a součet tvoří celkový dluh (Korčák, 2025d). Toto heslo se
-zabývá metrikou jako nástrojem měření: jak je sestavena, co z ní lze vyčíst a kde jsou její
-meze. Pojmu dluhu kvality samotnému a jeho vztahu k technickému dluhu se věnuje heslo
-[Quality Debt](@/glossary/quality-debt.md).
+QDP (Quality Debt Points, „body dluhu kvality“) je metrika, kterou Prismatic Platform, vývojové
+prostředí, z něhož kompendium vzešlo, vyjadřovala nahromaděný dluh kvality kódu jedním číslem.
+Každé zjištěné porušení pravidel kvality, například chybějící typová specifikace veřejné
+funkce, varování překladače nebo neošetřený přístup k datům, se započítává určitým počtem bodů
+podle své váhy a součet tvoří celkový dluh; metrika tak dává číselnou podobu metafoře
+technického dluhu (Cunningham, 1992). Toto heslo se zabývá metrikou jako nástrojem měření: jak
+je sestavena, co z ní lze vyčíst a kde jsou její meze. Pojmu dluhu kvality samotnému a jeho
+vztahu k technickému dluhu se věnuje heslo [Quality Debt](@/glossary/quality-debt.md).
 
 Kompendium metriku uvádí proto, že ilustruje obecnou epistemickou otázku: co se stane s
 poznáním, když se kvalita převede na číslo. Číslo umožňuje srovnání a kontrolu, ale zároveň
@@ -47,47 +47,47 @@ Druhým zdrojem je tradice statické analýzy a „pachů kódu“, tedy povrcho
 naznačují hlubší problém v návrhu. Martin Fowler a Kent Beck popsali tyto znaky jako podnět k
 refaktorování, nikoli jako jednoznačné vady (Fowler, 1999). Platforma je převzala, rozdělila do
 druhů porušení a přiřadila jim váhy, čímž z kvalitativního úsudku vytvořila sčítatelnou
-veličinu (Korčák, 2025d). V doktríně [NM/ND](@/glossary/nm-nd.md) pak metrika sloužila jako
-kvantitativní podoba požadavku nulové tolerance: každý nenulový stav byl porušením, které se
-mělo odstranit bez odkladu (Korčák, 2025a).
+veličinu. V doktríně [NM/ND](@/glossary/nm-nd.md) pak metrika sloužila jako kvantitativní
+podoba požadavku nulové tolerance: každý nenulový stav byl porušením, které se mělo odstranit
+bez odkladu.
 
 ## Stavba metriky
 
-Výchozí rámec metriky, datovaný do listopadu 2025, definuje celkový dluh jako součet počtů
-porušení vynásobených jejich vahami. Váhy jsou přiřazeny jednotlivým druhům porušení a
-pohybují se mezi jedním a dvěma body: dva body nese například neošetřený přístup k datům,
-blokující čekání v kódu, varování překladače nebo poznámka k dopracování bez odkazu na úkol,
-jeden a půl bodu značka provizorního řešení nebo použití zastaralého rozhraní a jeden bod
-poznámka s odkazem na úkol či drobná stylová nekonzistence (Korčák, 2025d). Pozdější
-platformní verze tohoto hesla popisovala jinou, čtyřstupňovou škálu s vahami od jednoho do pěti
-bodů a třináct domén kvality, od typové kontroly po bezpečný přístup k datům; v samotném rámci
-metriky tato škála není, a kniha ji proto uvádí jen jako pozdější popis.
+Výchozí rámec metriky definoval celkový dluh jako součet počtů porušení vynásobených jejich
+vahami. Váhy byly přiřazeny jednotlivým druhům porušení podle závažnosti: vyšší váhu nesl
+například neošetřený přístup k datům, blokující čekání v kódu, varování překladače nebo
+poznámka k dopracování bez odkazu na úkol, nižší značka provizorního řešení, použití
+zastaralého rozhraní, poznámka s odkazem na úkol či drobná stylová nekonzistence. Pozdější
+platformní verze tohoto hesla popisovala jinou, podrobnější škálu i rozdělení do domén kvality.
+Kniha se drží výchozího rámce, ale konkrétní hodnoty vah neuvádí, protože dokumenty platformy,
+v nichž byly stanoveny, nejsou veřejně přístupné. Samotný princip váženého součtu předpokládá,
+že váhy různých druhů porušení lze sčítat, což je otázka, k níž se vrací oddíl o mezích metriky
+(Stevens, 1946).
 
 Rámec spojil metriku s pravidlem adaptivního splácení. Podle celkové výše dluhu se určila fáze
-a s ní kvóta, kterou musí každé pracovní sezení odstranit: při dluhu nad pět set bodů třicet
-bodů na sezení, v pásmu tři až pět set dvacet bodů a tak dále, až pod sedmdesáti pěti body
-nastupuje odstranění všeho zbývajícího (Korčák, 2025d). Postup sezení měl pevné kroky:
-inventura porušení, výpočet dluhu, určení kvóty, výběr cílů s přednostním zaměřením na
-porušení s vyšší vahou, oprava s kontrolou překladu po každé změně a záznam výsledku. Stejná
-pravidla převzal úvodní dokument standardu [AIAD](@/glossary/aiad.md) jako povinnost každého
-agenta (Korčák, 2026b).
+a s ní kvóta, kterou musí každé pracovní sezení odstranit: čím vyšší dluh, tím vyšší kvóta, a
+pod nejnižší hranicí nastupovalo odstranění všeho zbývajícího. Postup sezení měl pevné kroky:
+inventura porušení, výpočet dluhu, určení kvóty, výběr cílů s přednostním zaměřením na porušení
+s vyšší vahou, oprava s kontrolou překladu po každé změně a záznam výsledku. Stejná pravidla
+převzal úvodní dokument standardu [AIAD](@/glossary/aiad.md) jako povinnost každého agenta.
+Požadavek ověřit stav po každé jednotlivé opravě odpovídá zásadě refaktorování, podle níž se
+kód mění po malých krocích a po každém z nich se znovu spustí testy (Fowler, 1999).
 
-Doktrína NM/ND uvádí mezi svými výsledky pokles dluhu z více než 905 bodů na nulu, rámec metriky
-na jiném místě hlásí jedno sezení, v němž se odstranilo 1 524 bodů (Korčák, 2025a; Korčák,
-2025d). Zajímavější než tato čísla je detail, který zaznamenala metodika postupného odstraňování
-vad: část porušení, která přetrvávala i po opravách, se ukázala jako zdánlivá, způsobená
-zastaralými mezivýsledky překladu, a po úplném vyčištění sestavovacího prostředí zmizela
-(Korčák, 2025e). Měřicí přístroj tedy chvíli měřil sám sebe, a ne kód. Teorie měření tento jev
-popisuje jako ohrožení validity, kdy skóre zachycuje rozptyl, který s měřeným konstruktem
-nesouvisí (Messick, 1989).
+Interní dokumentace platformy uváděla i souhrnná čísla o odstraněném dluhu; kniha je nepřebírá,
+protože různé dokumenty uváděly různé souhrny a nezávisle je ověřit nelze. Poučnější než tato
+čísla je zkušenost, kterou platforma popsala při postupném odstraňování vad: část porušení,
+která přetrvávala i po opravách, se ukázala jako zdánlivá, způsobená zastaralými mezivýsledky
+překladu, a po úplném vyčištění sestavovacího prostředí zmizela. Měřicí přístroj tedy chvíli
+měřil sám sebe, a ne kód. Teorie měření tento jev popisuje jako ohrožení validity, kdy skóre
+zachycuje rozptyl, který s měřeným konstruktem nesouvisí (Messick, 1989).
 
 ## Odlišení od příbuzných jevů
 
 QDP je třeba odlišit od obecných měr kvality v nástrojích statické analýzy. Ty většinou třídí
 nálezy podle závažnosti a umožňují nastavit prahy, ale ponechávají na týmu, zda nález zablokuje
 změnu; QDP byla v platformě spojena s povinnou kvótou splácení a s doktrínou, podle níž se dluh
-nemá odkládat (Korčák, 2025d). Rozdíl tedy neleží v počítání, ale v tom, jakou institucionální
-váhu číslo dostane. Fowler připomíná, že pach kódu je pozvánkou k úvaze, a ne rozsudkem (Fowler, 1999);
+nemá odkládat. Rozdíl tedy neleží v počítání, ale v tom, jakou institucionální váhu číslo
+dostane. Fowler připomíná, že pach kódu je pozvánkou k úvaze, a ne rozsudkem (Fowler, 1999);
 metrika, která každý nález trestá stejně neúprosně, tuto úvahu přeskakuje.
 
 Odlišit je třeba i užití metafory dluhu v lidských vztazích. V manipulativním vztahu se dluh
@@ -139,9 +139,9 @@ užitečná; jako srovnání mezi projekty nebo týmy by byla zavádějící (Mu
 Otevřenou otázkou zůstává vztah mezi tím, co metrika zachytí, a tím, na čem skutečně záleží.
 Nulový dluh v automaticky zjistitelných kategoriích neříká nic o tom, zda software řeší správný
 problém nebo zda je jeho architektura udržitelná (Kruchten, Nord a Ozkaya, 2012). Údaje o
-odstraněném dluhu jsou navíc uvedeny jen v dokumentaci platformy, různé dokumenty uvádějí různé
-souhrny a nezávisle je ověřit nelze; kniha je proto cituje jako sebepopis platformy, nikoli jako
-doložený výsledek (Korčák, 2025a; Korčák, 2025d).
+odstraněném dluhu navíc existovaly jen v interní dokumentaci platformy, která není veřejně
+přístupná, a kniha je proto neuvádí; nulový stav metriky lze v tomto světle chápat jen jako
+sebepopis platformy, nikoli jako doložený výsledek.
 
 ## Literatura
 
@@ -155,14 +155,6 @@ doložený výsledek (Korčák, 2025a; Korčák, 2025d).
   *Papers in monetary economics* (Vol. 1). Reserve Bank of Australia.
 - Heuer, R. J. (1999). *Psychology of intelligence analysis*. Center for the Study of
   Intelligence, Central Intelligence Agency.
-- Korčák, T. (2025a). *NO MERCY, NO DOUBTS – AIAD execution doctrine* (verze 2.0.0). Prismatic
-  Platform, interní dokument `.aiad/doctrine/no-mercy-no-doubts.doctrine.md`.
-- Korčák, T. (2025d). *QDP-based quality enforcement framework* (verze 1.0.0). Prismatic
-  Platform, interní dokument `.aiad/quality/qpd-enforcement.md`.
-- Korčák, T. (2025e). *CASCADE quality evolution framework* (verze 1.0.0). Prismatic Platform,
-  interní dokument `.aiad/patterns/knowledge-base/cascade-methodology.pattern.md`.
-- Korčák, T. (2026b). *.aiad/ – AI-Assisted Development Standard* (verze 7.2.0). Prismatic
-  Platform, interní dokument `.aiad/README.md`.
 - Kruchten, P., Nord, R. L., & Ozkaya, I. (2012). Technical debt: From metaphor to theory and
   practice. *IEEE Software, 29*(6), 18–21.
 - Messick, S. (1989). Validity. In R. L. Linn (Ed.), *Educational measurement* (3rd ed.).

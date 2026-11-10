@@ -17,79 +17,83 @@ date_modified = "2026-11-10"
 
 ## Vymezení
 
-„No Mercy, No Doubts“ („žádná milost, žádné pochyby“) je heslo, pod nímž autor kompendia
-v prostředí Prismatic Platform shrnul doktrínu práce bez odkládaných chyb a bez váhání po
-zjištění faktů (Korčák, 2025a). Stavbou doktríny, bodem přechodu od zkoumání k jednání a
-jejím vynucením se zabývá hlavní heslo [Doktrína NM/ND](@/glossary/nm-nd.md). Toto heslo
-přistupuje k témuž předmětu z jiného úhlu: sleduje myšlenkové zdroje hesla, jeho etické
-sebevymezení a otázku, kdy se z doktríny epistemické integrity může stát rétorika, která
-schopnost poznávat oslabuje místo toho, aby ji chránila.
+„No Mercy, No Doubts“ („žádná milost, žádné pochyby“) je heslo, pod nímž autor kompendia v
+prostředí Prismatic Platform shrnul doktrínu práce bez odkládaných chyb a bez váhání po
+zjištění faktů. Archiv knihy ho dokládá jako normu, které měla odpovídat každá činnost
+aplikace, z níž vzešla taxonomie kompendia (Korčák, 2026a). Stavbou doktríny, bodem přechodu od
+zkoumání k jednání a jejím vynucením se zabývá hlavní heslo [Doktrína
+NM/ND](@/glossary/nm-nd.md). Toto heslo přistupuje k témuž předmětu z jiného úhlu: sleduje
+myšlenkové zdroje hesla, jeho etické sebevymezení a otázku, kdy se z doktríny epistemické
+integrity může stát rétorika, která schopnost poznávat oslabuje místo toho, aby ji chránila.
 
 Taková otázka do knihy o epistemické anihilaci patří, protože slovo „pochybnost“ zde má dvojí
 osud. V poctivé práci s poznáním je pochybnost nástrojem, jímž se vyřazují chybné domněnky
 (Popper, 1959). V totalistickém prostředí je naopak pochybnost prvním, co se trestá, a výrazy
 uzavírající myšlení slouží k tomu, aby otázka vůbec nevznikla (Lifton, 1961). Heslo, které
 pochybnosti výslovně odmítá, proto musí přesně říct, které pochybnosti má na mysli; kompendium
-ho čte tak, jak ho vymezuje původní text, tedy jako odmítnutí váhání po vyhodnocení dokladů,
-nikoli jako zákaz otázek (Korčák, 2025a).
+ho čte tak, jak ho vymezil jeho autor, tedy jako odmítnutí váhání po vyhodnocení dokladů,
+nikoli jako zákaz otázek.
 
 ## Myšlenkové zdroje
 
-Text doktríny začíná českou větou, která vystihuje její motivaci: „Člověk dlouho věří, že svět
-funguje na základě dobrých úmyslů. Pak začne stavět systémy. A zjistí, že realita má jednu
-nepříjemnou vlastnost: nereaguje na omluvy“ (Korčák, 2025a). Myšlenka, že kvalita se nedá
-dodatečně vykontrolovat, ale musí být do procesu zabudována, má v teorii řízení jakosti
-předchůdce. W. Edwards Deming vyzýval organizace, aby přestaly spoléhat na výstupní kontrolu
-a odstraňovaly příčiny vad v samotném procesu (Deming, 1986), a Taiči Óno popsal princip
-jidoka, podle něhož se výroba při zjištění vady zastaví, aby vadný kus nepokračoval dál (Ohno,
-1988). Rameno No Mercy přenáší tuto logiku z výroby na znalostní dílo.
+Motivaci doktríny vystihuje zkušenost, kterou autor klade na její začátek: člověk dlouho věří,
+že svět funguje na základě dobrých úmyslů, a teprve když začne stavět systémy, zjistí, že
+realita na omluvy nereaguje. Myšlenka, že kvalita se nedá dodatečně vykontrolovat, ale musí být
+do procesu zabudována, má v teorii řízení jakosti předchůdce. W. Edwards Deming vyzýval
+organizace, aby přestaly spoléhat na výstupní kontrolu a odstraňovaly příčiny vad v samotném
+procesu (Deming, 1986), a Taiči Óno popsal princip jidoka, podle něhož se výroba při zjištění
+vady zastaví, aby vadný kus nepokračoval dál (Ohno, 1988). Rameno No Mercy přenáší tuto logiku
+z výroby na znalostní dílo.
 
-Rameno No Doubts navazuje na spor o etiku přesvědčení. William Clifford tvrdil, že věřit
-na základě nedostatečných důkazů je vždy a všude nesprávné, protože přesvědčení není soukromá
-věc, ale ovlivňuje jednání a důvěru druhých (Clifford, 1877). William James mu odpověděl, že
+Rameno No Doubts navazuje na spor o etiku přesvědčení. William Clifford tvrdil, že věřit na
+základě nedostatečných důkazů je vždy a všude nesprávné, protože přesvědčení není soukromá věc,
+ale ovlivňuje jednání a důvěru druhých (Clifford, 1877). William James mu odpověděl, že
 existují volby, které nelze odložit, a v nichž je třeba se rozhodnout dříve, než jsou důkazy
 úplné (James, 1896). Doktrína stojí mezi oběma: s Cliffordem žádá doklad před tvrzením, s
-Jamesem uznává, že nekonečné odkládání je také rozhodnutím, a to často horším (Korčák, 2025a).
+Jamesem uznává, že nekonečné odkládání je také rozhodnutím, a to často horším.
 
 Třetím zdrojem je étos vědy. Robert Merton řadil mezi normy vědecké komunity organizovaný
 skepticismus, tedy povinnost podrobit každé tvrzení kontrole bez ohledu na postavení toho, kdo
 ho vyslovil (Merton, 1973). Požadavek doktríny, aby jistotu zakládaly testy, měření a
-dokumentace, a ne autorita, je technickou podobou téže normy (Korčák, 2025a). Starší platformní
-verze hesla se navíc dovolávala stoické etiky a vojenského pojmu záměru velitele; tyto odkazy
-kniha nepřebírá, protože v textu doktríny nemají oporu a pro epistemický výklad nic nepřidávají.
+dokumentace, a ne autorita, je technickou podobou téže normy. Starší platformní verze hesla se
+navíc dovolávala stoické etiky a vojenského pojmu záměru velitele; tyto odkazy kniha nepřebírá,
+protože pro epistemický výklad nic nepřidávají.
 
 ## Etické sebevymezení hesla
 
-Nejdůležitější věta doktríny se týká adresáta tvrdosti. No Mercy podle ní není krutost vůči
+Nejdůležitější zásada doktríny se týká adresáta tvrdosti. No Mercy podle ní není krutost vůči
 lidem, ale tvrdost vůči chybám, které se vracejí, protože je někdo pokaždé omluví; No Doubts
-není arogance, ale vypnutí vnitřního šumu tehdy, když už data jsou k dispozici (Korčák, 2025a).
-Doktrína tím odděluje dvě roviny, které se v praxi snadno slévají: hodnocení výstupu a
-hodnocení osoby. Literatura o lidské chybě ukazuje, že právě toto oddělení rozhoduje o tom,
-zda se organizace z chyb učí; přístup zaměřený na osobu hledá viníka, kdežto přístup zaměřený
-na systém hledá podmínky, které chybu umožnily (Reason, 2000).
+není arogance, ale vypnutí vnitřního šumu tehdy, když už data jsou k dispozici. Doktrína tím
+odděluje dvě roviny, které se v praxi snadno slévají: hodnocení výstupu a hodnocení osoby.
+Literatura o lidské chybě ukazuje, že právě toto oddělení rozhoduje o tom, zda se organizace z
+chyb učí; přístup zaměřený na osobu hledá viníka, kdežto přístup zaměřený na systém hledá
+podmínky, které chybu umožnily (Reason, 2000).
 
-Text dále tvrdí, že empatie patří lidem, kdežto systémy chtějí pravdu (Korčák, 2025a). Věta
-je přesná jako popis technických systémů, které na omluvu skutečně nereagují. Jako obecná
-zásada však vyžaduje doplnění, protože poznání je vždy také sociální: lidé zjišťují pravdu
-spolu s druhými a o výpovědi druhých se opírají (Merton, 1973). Kompendium proto čte větu
-úzce: empatie nesmí vést k tomu, že se nedoložené tvrzení prohlásí za hotové, ale nesmí ani
-zmizet z jednání s člověkem, který chybu udělal.
+Doktrína dále stanoví, že empatie patří lidem, kdežto systémy chtějí pravdu. Zásada je přesná
+jako popis technických systémů, které na omluvu skutečně nereagují. Jako obecná zásada však
+vyžaduje doplnění, protože poznání je vždy také sociální: lidé zjišťují pravdu spolu s druhými
+a o výpovědi druhých se opírají (Merton, 1973). Kompendium proto čte zásadu úzce: empatie nesmí
+vést k tomu, že se nedoložené tvrzení prohlásí za hotové, ale nesmí ani zmizet z jednání s
+člověkem, který chybu udělal.
 
-Doktrína také uvádí, že váhání je „strach převlečený za rozvahu“ (Korčák, 2025a). Pro
-rozhodování za plné informace to může platit. Výzkum prognóz však ukazuje, že nejlepší
-odhadci nepracují s jednorázovou jistotou, ale s průběžnou, drobnou revizí podle nových dat
-(Tetlock a Gardner, 2015). Rozhodnost a ochota změnit názor tedy nejsou protiklady; rozhodný je
-ten, kdo jedná podle nejlepšího dokladu, a otevřený ten, kdo připouští, že doklad se změní.
+Doktrína také pokládá váhání za strach, který se vydává za rozvahu. Pro rozhodování za plné
+informace to může platit. Výzkum prognóz však ukazuje, že nejlepší odhadci nepracují s
+jednorázovou jistotou, ale s průběžnou, drobnou revizí podle nových dat (Tetlock a Gardner,
+2015). Rozhodnost a ochota změnit názor tedy nejsou protiklady; rozhodný je ten, kdo jedná
+podle nejlepšího dokladu, a otevřený ten, kdo připouští, že doklad se změní.
 
 ## Odlišení od příbuzných jevů
 
 Heslo je třeba odlišit od dogmatismu. Milton Rokeach popsal uzavřenou mysl jako systém
 přesvědčení, který odmítá informace podle toho, odkud pocházejí, a ne podle jejich obsahu
 (Rokeach, 1960). Doktrína NM/ND naopak váže uzavření úvahy na obsah dokladů a výslovně
-ponechává rámci [NABLA Infinity](@/glossary/nabla-infinity.md) úkol uchovávat souběžné
-hypotézy a rozpory, dokud nejsou vyhodnoceny (Korčák, 2026a). Rozdíl je pozorovatelný: v
-dogmatickém prostředí nový doklad nic nezmění, v prostředí řízeném doktrínou znovu otevírá
-rozhodnutí.
+ponechává rámci [NABLA Infinity](@/glossary/nabla-infinity.md) úkol uchovávat souběžné hypotézy
+a rozpory, dokud nejsou vyhodnoceny. Archivovaná znalostní báze epistemické vrstvy platformy to
+ukazuje na stavovém automatu tvrzení: rozporný doklad tvrzení nevyřadí, ale převede je do
+zvláštního stavu sporného tvrzení, vedle stavů neznámého, pracovní hypotézy, podpořeného
+tvrzení, tvrzení s pochybnou kvalitou dokladů a tvrzení vyvráceného (Korčák, 2025). Rozdíl je
+pozorovatelný: v dogmatickém prostředí nový doklad nic nezmění, v prostředí řízeném doktrínou
+znovu otevírá rozhodnutí.
 
 Ještě ostřeji je třeba heslo oddělit od jazyka skupin s vysokou mírou kontroly. Steven Hassan
 popsal, jak tyto skupiny učí členy techniky [zastavování myšlenek](@/glossary/thought-stopping.md),
@@ -102,12 +106,11 @@ lidí, a že pochybnost podložená novým dokladem je vždy legitimní.
 ## Organizační rámec
 
 V týmové praxi se heslo uplatňuje především prostřednictvím nástrojů: kontroly před uložením
-změny a brány kvality vynucují standard bez ohledu na náladu a čas, takže nikdo nemusí
-standard hájit osobně (Korčák, 2025a). Literatura o spravedlivé kultuře upozorňuje, že
-organizace potřebuje rozlišovat mezi lidskou chybou, rizikovým jednáním a bezohledností;
-trestat lze jen poslední, jinak lidé chyby přestanou hlásit (Dekker, 2007). Amy Edmondsonová
-ukázala, že týmy učící se z chyb jsou ty, v nichž je psychologicky bezpečné chybu přiznat
-(Edmondson, 1999).
+změny a brány kvality vynucují standard bez ohledu na náladu a čas, takže nikdo nemusí standard
+hájit osobně. Literatura o spravedlivé kultuře upozorňuje, že organizace potřebuje rozlišovat
+mezi lidskou chybou, rizikovým jednáním a bezohledností; trestat lze jen poslední, jinak lidé
+chyby přestanou hlásit (Dekker, 2007). Amy Edmondsonová ukázala, že týmy učící se z chyb jsou
+ty, v nichž je psychologicky bezpečné chybu přiznat (Edmondson, 1999).
 
 Pro organizaci, která chce heslo převzít, z toho plyne jednoduchý test. Pokud „no mercy“
 znamená, že se vadný výstup nevydá a chyba se opraví u příčiny, jde o doktrínu kvality; pokud
@@ -122,8 +125,8 @@ inženýrství dlouhodobě dokládá, že vada odhalená později v životním c
 než vada zachycená při vzniku (McConnell, 2004). Druhá námitka zní, že doktrína je příliš
 strnulá pro experiment. Odpověď spočívá v rozdělení fází: experimentování, souběžné hypotézy a
 nejistota patří do fáze zkoumání, zatímco nároky na úplnost platí teprve pro výstup, který se
-vydává za hotový (Korčák, 2025a). V poznávací práci to odpovídá rozdílu mezi pracovní
-hypotézou, kterou lze volně zkoušet, a tvrzením, za nímž autor stojí jménem.
+vydává za hotový. V poznávací práci to odpovídá rozdílu mezi pracovní hypotézou, kterou lze
+volně zkoušet, a tvrzením, za nímž autor stojí jménem.
 
 ## Význam pro epistemickou obranu
 
@@ -151,10 +154,9 @@ smysl uvádí vždy spolu s etickým sebevymezením.
 
 Otevřenou otázkou zůstává, jak dlouho lze držet tvrdý standard bez vedlejších účinků.
 Literatura o organizačních nehodách ukazuje, že i pečlivě vynucovaná pravidla se pod tlakem
-postupně ohýbají, a to často bez vědomého rozhodnutí kohokoli (Vaughan, 1996). Text doktríny
-spoléhá na nástroje, které ohnutí nedovolí; zda to stačí také v práci, kterou nástroje
-nekontrolují, například v interpretaci a úsudku, je otázka, kterou kniha nechává otevřenou
-(Korčák, 2025a).
+postupně ohýbají, a to často bez vědomého rozhodnutí kohokoli (Vaughan, 1996). Doktrína spoléhá
+na nástroje, které ohnutí nedovolí; zda to stačí také v práci, kterou nástroje nekontrolují,
+například v interpretaci a úsudku, je otázka, kterou kniha nechává otevřenou.
 
 ## Literatura
 
@@ -165,10 +167,12 @@ nekontrolují, například v interpretaci a úsudku, je otázka, kterou kniha ne
   *Administrative Science Quarterly, 44*(2), 350–383.
 - Hassan, S. (1988). *Combatting cult mind control*. Park Street Press.
 - James, W. (1896). The will to believe. *The New World, 5*, 327–347.
-- Korčák, T. (2025a). *NO MERCY, NO DOUBTS – AIAD execution doctrine* (verze 2.0.0). Prismatic
-  Platform, interní dokument `.aiad/doctrine/no-mercy-no-doubts.doctrine.md`.
-- Korčák, T. (2026a). *Addiction Preservation Doctrine* (verze 1.0.0). Prismatic Platform,
-  interní dokument `.aiad/doctrine/addiction-preservation.doctrine.md`.
+- Korčák, T. (2025). *Epistemic Annihilation Knowledge Base* (AIAD Knowledge Base). Archiv
+  kompendia, `archive/prismatic-platform/.aiad/knowledge/epistemic-annihilation.kb.md`
+  (dostupné v repozitáři knihy).
+- Korčák, T. (2026a). *CLAUDE.md – Prismatic Annihilation* (verze 1.0.0). Archiv kompendia,
+  `archive/prismatic-platform/apps/prismatic_annihilation/CLAUDE.md` (dostupné v repozitáři
+  knihy).
 - Lalich, J. (2004). *Bounded choice: True believers and charismatic cults*. University of
   California Press.
 - Lifton, R. J. (1961). *Thought reform and the psychology of totalism: A study of

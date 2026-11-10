@@ -19,12 +19,14 @@ date_modified = "2026-11-10"
 
 Protokol porušení (*violation protocol*) je soubor pravidel, jímž doktrína
 [NM/ND](@/glossary/nm-nd.md) v prostředí Prismatic Platform třídí porušení svých požadavků a
-přiřazuje jim odpověď. Platná politika vynucení rozlišuje čtyři stupně: drobnou odchylku, na
-kterou se odpovídá upozorněním a okamžitou opravou; porušení kvality, které práci zablokuje,
-dokud není opraveno; neúplné dodání, které vede k odmítnutí a novému začátku; a jednání
-„kompromitované pochybností“, tedy obejití nebo zfalšování kontroly, které vede k odmítnutí a
-úplnému přezkoumání (Korčák, 2025c). Smyslem protokolu je, aby každé porušení dostalo
-odpověď přiměřenou své povaze, aby tato odpověď byla předem známá a aby po ní zůstal záznam.
+přiřazuje jim odpověď. Politika vynucení rozlišuje čtyři stupně: drobnou odchylku, na kterou se
+odpovídá upozorněním a okamžitou opravou; porušení kvality, které práci zablokuje, dokud není
+opraveno; neúplné dodání, které vede k odmítnutí a novému začátku; a jednání „kompromitované
+pochybností“, tedy obejití nebo zfalšování kontroly, které vede k odmítnutí a úplnému
+přezkoumání. Smyslem protokolu je, aby každé porušení dostalo odpověď přiměřenou své povaze,
+aby tato odpověď byla předem známá a aby po ní zůstal záznam. Obdobné odstupňování dochovává
+archiv knihy v kontrole Trinity Gate, která obsah podle závažnosti nálezu propustí s
+upozorněním, zadrží k přezkumu, nebo zablokuje (Korčák, 2026b).
 
 Kompendium protokol popisuje ze dvou důvodů. Za prvé je to dobře čitelný příklad toho, jak lze
 odpovědnost za kvalitu poznání uspořádat jako stupňovitou, předvídatelnou soustavu, a ne jako
@@ -34,53 +36,57 @@ nástrojem kontroly, pokud se obrátí proti osobě a jejímu vnitřnímu světu
 
 ## Pojmová historie
 
-Protokol prošel vývojem, který je v pramenech dobře doložen. Kanonické znění doktríny ve verzi
-2.0.0 z prosince 2025 obsahuje jen tři stupně: upozornění při první drobné odchylce, blokaci
-při opakované odchylce nebo porušení kvality s postoupením k přezkumu a odmítnutí s úplným
-novým začátkem, kam patří jak neúplné dodání, tak provedení zatížené pochybností (Korčák,
-2025a). Politika vynucení z téhož měsíce poslední kategorii oddělila do samostatného čtvrtého
+Protokol prošel vývojem. Kanonické znění doktríny obsahovalo jen tři stupně: upozornění při
+první drobné odchylce, blokaci při opakované odchylce nebo porušení kvality s postoupením k
+přezkumu a odmítnutí s úplným novým začátkem, kam patřilo jak neúplné dodání, tak provedení
+zatížené pochybností. Politika vynucení poslední kategorii oddělila do samostatného čtvrtého
 stupně a ke každému stupni určila, kdo porušení řeší, kdy musí být vyřešeno a jaký záznam po
 něm zůstane: u prvního stupně automatický nástroj a prostý záznam, u druhého nástroj s
 přezkumem a založený úkol, u třetího posuzovatel a zpráva o incidentu, u čtvrtého nejvyšší
-úroveň řízení a přezkum architektury (Korčák, 2025c).
+úroveň řízení a přezkum architektury. Oba dokumenty jsou interní a veřejně přístupné nejsou.
+Stupňování, v němž s každým vyšším stupněm roste zásah do práce i nárok na záznam, je však
+jednoduchou podobou regulační pyramidy, kterou rozebírá oddíl o odlišení od příbuzných jevů
+(Ayres a Braithwaite, 1992).
 
-Pozdější doktrína epistemických axiomů převzala stejnou čtyřstupňovou logiku pro porušení
-pravidel poznání: měkké porušení jednoho axiomu vede k upozornění, tvrdé porušení k blokaci,
-selhání kontroly [Trinity Gate](@/glossary/trinity-gate.md) k zastavení a přezkumu a souběžné
-porušení více axiomů k vyšetření a auditu (Korčák, 2026a). Protokol se tím rozšířil z kvality
-kódu na kvalitu úsudku, což je pro knihu jeho nejzajímavější podoba. Starší platformní verze
-tohoto hesla navíc uváděla, že se opakovaná drobná odchylka v témže souboru automaticky
-povyšuje na vyšší stupeň; v politice vynucení toto pravidlo výslovně uvedeno není.
+Stejná stupňovitá logika se přenesla z kvality kódu na kvalitu úsudku. Archivovaný modul, který
+rozšiřuje kontrolu [Trinity Gate](@/glossary/trinity-gate.md) o vrstvu detekce technik
+epistemické anihilace, třídí nálezy podle závažnosti: obsah bez nálezu projde, při nálezech
+nižší závažnosti projde s upozorněním a s mírou důvěry sníženou podle počtu nálezů, při vysoké
+závažnosti se zadrží k dalšímu přezkumu a při kritické nebo terminální závažnosti se zablokuje
+(Korčák, 2026b). Průchod kontrolou přitom míru důvěry nezvyšuje, kdežto zablokování ji snižuje,
+a to tím více, čím je zásah tvrdší (Korčák, 2026b). Pozdější doktrína epistemických axiomů
+vztáhla tutéž čtyřstupňovou logiku na porušení pravidel poznání, od upozornění při měkkém
+porušení jednoho axiomu až po vyšetření při souběžném porušení více axiomů. Protokol se tím
+rozšířil z kvality kódu na kvalitu úsudku, což je pro knihu jeho nejzajímavější podoba.
 
 ## Struktura stupňů
 
 První stupeň, drobná odchylka, zahrnuje porušení, která neohrožují správnost, například
-stylovou nejednotnost nebo mezeru v dokumentaci pomocné funkce. Odpovědí je upozornění a
-oprava v rámci téže práce; porušení se zaznamená, aby bylo možné rozpoznat opakující se vzorec
-(Korčák, 2025c). Takové zacházení odpovídá zásadě literatury o spolehlivých organizacích, že
-drobné odchylky jsou cennými signály a mají se zaznamenávat dříve, než přerostou ve vážné
-selhání (Weick a Sutcliffe, 2007).
+stylovou nejednotnost nebo mezeru v dokumentaci pomocné funkce. Odpovědí je upozornění a oprava
+v rámci téže práce; porušení se zaznamená, aby bylo možné rozpoznat opakující se vzorec. Takové
+zacházení odpovídá zásadě literatury o spolehlivých organizacích, že drobné odchylky jsou
+cennými signály a mají se zaznamenávat dříve, než přerostou ve vážné selhání (Weick a
+Sutcliffe, 2007).
 
-Druhý stupeň, porušení kvality, zahrnuje selhání, která zachytí automatické nástroje:
-varování překladače, nesplněnou kontrolu stylu nebo typů, neúspěšný test či pokles pokrytí
-testy. Odpovědí je blokace: změna se nepřijme, dokud není opravena a znovu neprojde všemi
-kontrolami (Korčák, 2025c). Literatura o průběžném dodávání softwaru popisuje stejný princip
-jako zastavení linky, kdy se při selhání kontroly přeruší práce, dokud se příčina neodstraní,
-protože přidávání další práce na vadný základ vadu jen rozšiřuje (Kim, Humble, Debois a
-Willis, 2016).
+Druhý stupeň, porušení kvality, zahrnuje selhání, která zachytí automatické nástroje: varování
+překladače, nesplněnou kontrolu stylu nebo typů, neúspěšný test či pokles pokrytí testy.
+Odpovědí je blokace: změna se nepřijme, dokud není opravena a znovu neprojde všemi kontrolami.
+Literatura o průběžném dodávání softwaru popisuje stejný princip jako zastavení linky, kdy se
+při selhání kontroly přeruší práce, dokud se příčina neodstraní, protože přidávání další práce
+na vadný základ vadu jen rozšiřuje (Kim, Humble, Debois a Willis, 2016).
 
 Třetí stupeň, neúplné dodání, se týká díla, které se vydává za hotové, ačkoli hotové není:
 obsahuje pahýl kódu, zástupnou implementaci vracející pevnou hodnotu, nevyřízenou poznámku k
-dopracování nebo opravu chyby bez [regresního testu](@/glossary/regression-test.md) (Korčák,
-2025a). Odpovědí není oprava, ale odmítnutí a nový začátek. Zdůvodnění, které uváděla starší
-verze hesla, je architektonické: doplňování neúplného díla po kouscích vede k roztříštěnému
-návrhu, kdežto nový začátek vynucuje celistvé řešení. Fowler podobně upozorňuje, že kód, jehož
-návrh se rozpadl, se často vyplatí přepsat, a ne dál záplatovat (Fowler, 1999).
+dopracování nebo opravu chyby bez [regresního testu](@/glossary/regression-test.md). Odpovědí
+není oprava, ale odmítnutí a nový začátek. Zdůvodnění, které uváděla starší verze hesla, je
+architektonické: doplňování neúplného díla po kouscích vede k roztříštěnému návrhu, kdežto nový
+začátek vynucuje celistvé řešení. Fowler podobně upozorňuje, že kód, jehož návrh se rozpadl, se
+často vyplatí přepsat, a ne dál záplatovat (Fowler, 1999).
 
 Čtvrtý stupeň je kvalitativně odlišný. Netýká se vady díla, ale porušení důvěryhodnosti samotné
 kontroly: obejití kontrol před uložením změny, vypnutí brány kvality nebo zfalšování výsledku
-testu (Korčák, 2025c). Taková porušení ohrožují všechna ostatní pravidla, protože bez spolehlivé
-kontroly ztrácí smysl každá další úroveň. Diane Vaughanová ukázala na rozhodování před havárií
+testu. Taková porušení ohrožují všechna ostatní pravidla, protože bez spolehlivé kontroly
+ztrácí smysl každá další úroveň. Diane Vaughanová ukázala na rozhodování před havárií
 raketoplánu Challenger, jak se odchylka od bezpečnostních pravidel postupně stane přijatelnou
 normou, když se opakovaně toleruje bez následků (Vaughan, 1996). Čtvrtý stupeň je pojistkou
 právě proti takové normalizaci.
@@ -94,13 +100,13 @@ odpovědí, přesvědčováním a upozorněním, a k tvrdším sankcím přistup
 selžou; podmínkou účinnosti je, aby všichni věděli, že vyšší stupně existují a budou použity
 (Ayres a Braithwaite, 1992). Protokol porušení je jednoduchou podobou takové pyramidy.
 
-Odlišit je třeba i stupně protokolu od kázeňských sankcí. Žádný stupeň v pramenech nesměřuje
-k osobě: odpovědí je vždy osud díla, tedy jeho upozornění, zablokování, odmítnutí nebo
-přezkoumání, a u nejvyššího stupně přezkum architektury, která porušení umožnila (Korčák,
-2025c). Sidney Dekker v konceptu spravedlivé kultury rozlišuje lidskou chybu, rizikové jednání a
-bezohlednost a upozorňuje, že trestání chyb vede k jejich zamlčování (Dekker, 2007). Čtvrtý
-stupeň protokolu je jediný, který se týká vědomého jednání, a i ten vyžaduje nejprve zjistit,
-zda šlo o omyl, nebo o úmyslné obejití.
+Odlišit je třeba i stupně protokolu od kázeňských sankcí. Žádný stupeň protokolu nesměřuje k
+osobě: odpovědí je vždy osud díla, tedy jeho upozornění, zablokování, odmítnutí nebo
+přezkoumání, a u nejvyššího stupně přezkum architektury, která porušení umožnila. Sidney Dekker
+v konceptu spravedlivé kultury rozlišuje lidskou chybu, rizikové jednání a bezohlednost a
+upozorňuje, že trestání chyb vede k jejich zamlčování (Dekker, 2007). Čtvrtý stupeň protokolu
+je jediný, který se týká vědomého jednání, a i ten vyžaduje nejprve zjistit, zda šlo o omyl,
+nebo o úmyslné obejití.
 
 ## Organizační a právní rámec
 
@@ -143,16 +149,18 @@ chybu, kterou lze opravit, od viny, kterou mu skupina připisovala; tuto práci 
 
 Mezí protokolu je, že přiměřenost odpovědi stojí na správném zařazení porušení, a zařazení
 závisí na nástrojích, které porušení odhalí. Co nástroje nezachytí, například chybný úsudek v
-návrhu, protokol nevidí, a jeho přísnost tak může vytvářet falešný dojem úplné kontroly
-(Power, 1997). Druhou mezí je pevnost odpovědí: nový začátek u neúplného dodání je rozumný u
-malých změn, u rozsáhlé práce však může být neúměrně nákladný, a prameny neuvádějí, jak se
-taková situace řeší.
+návrhu, protokol nevidí, a jeho přísnost tak může vytvářet falešný dojem úplné kontroly (Power,
+1997). Druhou mezí je pevnost odpovědí: nový začátek u neúplného dodání je rozumný u malých
+změn, u rozsáhlé práce však může být neúměrně nákladný, a protokol neurčuje, jak se taková
+situace řeší.
 
 Otevřenou otázkou zůstává, jak protokol přenést z kódu, kde nástroje rozhodují mechanicky, do
 práce s poznáním, kde o porušení musí rozhodnout člověk. Doktrína epistemických axiomů tento
-přenos naznačuje, ale ponechává rozhodnutí o vyšších stupních na nejvyšší úrovni řízení
-(Korčák, 2026a), a tím se vrací k otázce, kterou teorie regulace považuje za klíčovou: kdo
-kontroluje kontrolora a jak se lze proti jeho rozhodnutí bránit (Ayres a Braithwaite, 1992).
+přenos naznačuje, ale ponechává rozhodnutí o vyšších stupních na nejvyšší úrovni řízení; v
+archivované aplikaci připadaly kritické epistemické útoky agentovi s nejvyšší autoritou
+(Korčák, 2026c). Tím se protokol vrací k otázce, kterou teorie regulace považuje za klíčovou:
+kdo kontroluje kontrolora a jak se lze proti jeho rozhodnutí bránit (Ayres a Braithwaite,
+1992).
 
 ## Literatura
 
@@ -168,12 +176,12 @@ kontroluje kontrolora a jak se lze proti jeho rozhodnutí bránit (Ayres a Brait
 - Kim, G., Humble, J., Debois, P., & Willis, J. (2016). *The DevOps handbook: How to create
   world-class agility, reliability, and security in technology organizations*. IT Revolution
   Press.
-- Korčák, T. (2025a). *NO MERCY, NO DOUBTS – AIAD execution doctrine* (verze 2.0.0). Prismatic
-  Platform, interní dokument `.aiad/doctrine/no-mercy-no-doubts.doctrine.md`.
-- Korčák, T. (2025c). *NMND – Žádná milost, žádné pochyby (Enforcement Policy)*. Prismatic
-  Platform, interní dokument `.aiad/policies/no-mercy-no-doubts-enforcement.policy.md`.
-- Korčák, T. (2026a). *Addiction Preservation Doctrine* (verze 1.0.0). Prismatic Platform,
-  interní dokument `.aiad/doctrine/addiction-preservation.doctrine.md`.
+- Korčák, T. (2026b). *PrismaticAnnihilation.TrinityBridge* (modul). Archiv kompendia,
+  `archive/prismatic-platform/apps/prismatic_annihilation/lib/prismatic_annihilation/trinity_bridge.ex`
+  (dostupné v repozitáři knihy).
+- Korčák, T. (2026c). *Prismatic Annihilation – Agent Deployment Guide*. Archiv kompendia,
+  `archive/prismatic-platform/apps/prismatic_annihilation/AGENTS.md` (dostupné v repozitáři
+  knihy).
 - Lifton, R. J. (1961). *Thought reform and the psychology of totalism: A study of
   „brainwashing“ in China*. W. W. Norton.
 - Power, M. (1997). *The audit society: Rituals of verification*. Oxford University Press.

@@ -19,11 +19,13 @@ date_modified = "2026-11-10"
 
 AIAD (AI-Assisted Development, „vývoj s asistencí umělé inteligence“) je standard, v němž
 Prismatic Platform, vývojové prostředí, z něhož kompendium vzešlo, popisovala agenty umělé
-inteligence, jejich příkazy, pracovní postupy, adaptéry a politiky. Technická specifikace ho
-charakterizuje jako na dodavateli nezávislý standard pro definici chování agentů, příkazů a
-postupů napříč asistenty pro psaní kódu (Korčák, 2025b). Starší verze tohoto hesla rozváděla
-zkratku jako „AI-Agent Interface Definition“; specifikace i úvodní dokument standardu však
-užívají výhradně rozvedení „AI-Assisted Development“, a kniha se proto drží jich.
+inteligence, jejich příkazy, pracovní postupy, adaptéry a politiky. Standard byl zamýšlen jako
+na dodavateli nezávislý popis chování agentů, příkazů a postupů napříč asistenty pro psaní kódu
+a jeho dokumenty se ukládaly do adresáře `.aiad/`. Z této vrstvy dochoval archiv knihy
+znalostní bázi o epistemické anihilaci, která v hlavičce nese klasifikaci „AIAD Knowledge Base“
+(Korčák, 2025). Starší verze tohoto hesla rozváděla zkratku jako „AI-Agent Interface
+Definition“; platforma ji však rozváděla jako „AI-Assisted Development“, a kniha se drží tohoto
+rozvedení.
 
 Pro kompendium není AIAD zajímavý jako softwarový produkt, ale jako pokus odpovědět na
 epistemickou otázku, kterou otevírá delegování práce na stroj: jak vědět, co agent smí, co
@@ -36,21 +38,24 @@ agenty platformy ve vztahu k taxonomii knihy.
 
 ## Pojmová historie
 
-Standard vznikl v roce 2025 jako reakce na rostoucí počet agentů a příkazů, které se v
-platformě používaly souběžně v několika asistentech. Bez jednotného formátu by se jejich
-rozsah, oprávnění a vzájemné vazby rozcházely podle toho, kdo je psal (Korčák, 2025b). Každá
-součást je v AIAD souborem ve formátu Markdown s hlavičkou YAML; hlavička nese strojově čitelné
-údaje (identifikátor, verzi, doménu, úroveň oprávnění, schopnosti, vstupy a výstupy, závislosti),
-tělo souboru lidsky čitelný popis. Tento přístup navazuje na myšlenku Davida Parnase, že
-modul má být definován rozhraním, které skrývá jeho vnitřek a zveřejňuje jen to, na co se
-okolí smí spolehnout (Parnas, 1972).
+Standard vznikl jako reakce na rostoucí počet agentů a příkazů, které se v platformě používaly
+souběžně v několika asistentech. Bez jednotného formátu by se jejich rozsah, oprávnění a
+vzájemné vazby rozcházely podle toho, kdo je psal. Archivovaná znalostní báze jeho vrstvy je
+datována do prosince 2025 (Korčák, 2025). Každá součást je v AIAD souborem ve formátu Markdown
+s hlavičkou YAML; hlavička nese strojově čitelné údaje (identifikátor, verzi, doménu, úroveň
+oprávnění, schopnosti, vstupy a výstupy, závislosti), tělo souboru lidsky čitelný popis. Tento
+přístup navazuje na myšlenku Davida Parnase, že modul má být definován rozhraním, které skrývá
+jeho vnitřek a zveřejňuje jen to, na co se okolí smí spolehnout (Parnas, 1972).
 
-Druhá verze specifikace přidala do standardu dvě věci. První je povinný blok vynucení, jímž
-každá součást deklaruje podřízenost [doktríně NM/ND](@/glossary/nm-nd.md); součást bez něj
-nemá být zaregistrována (Korčák, 2025a). Druhou je ambice, kterou specifikace nazývá „živým
-standardem“: agenti a příkazy se mají sami vylepšovat podle vzorců z předchozích pracovních
-sezení (Korčák, 2025b). Kniha tuto ambici uvádí jako deklarovaný cíl specifikace, nikoli jako
-doloženou vlastnost; zda a v jakém rozsahu se naplnila, z dokumentace ověřit nelze.
+Pozdější podoba standardu přidala dvě věci. První je povinný blok vynucení, jímž každá součást
+deklaruje podřízenost [doktríně NM/ND](@/glossary/nm-nd.md); součást bez něj neměla být
+zaregistrována. Jak taková podřízenost vypadala v dokumentaci jedné aplikace, ukazuje archiv
+knihy: průvodce vývojem aplikace `prismatic_annihilation` ji uvádí v oddílu o etickém rámci
+(Korčák, 2026a). Druhou je ambice „živého standardu“: agenti a příkazy se mají sami vylepšovat
+podle vzorců z předchozích pracovních sezení. Archivovaná znalostní báze uvádí jako svého
+správce „AIAD Evolution System“, což této ambici odpovídá (Korčák, 2025). Kniha ji přesto uvádí
+jako deklarovaný cíl standardu, nikoli jako doloženou vlastnost; zda a v jakém rozsahu se
+naplnila, z dochované dokumentace ověřit nelze.
 
 ## Mechanismus a pozorovatelné znaky
 
@@ -58,42 +63,43 @@ Jádrem standardu je smlouva. Bertrand Meyer navrhl chápat každou softwarovou 
 stranu smlouvy, která stanoví, co součást od volajícího vyžaduje, co mu zaručuje a co platí po
 celou dobu jejího běhu (Meyer, 1992). Specifikace AIAD přenáší tuto myšlenku na agenta:
 deklarované vstupy jsou předpoklady, deklarované výstupy záruky a blok doktríny invariant,
-který platí pro každou operaci (Korčák, 2025b). Pozorovatelným znakem dobře popsaného agenta
-je tedy to, že z jeho specifikace lze předem říct, co od něj čekat, aniž by bylo nutné číst
-jeho implementaci.
+který platí pro každou operaci. Pozorovatelným znakem dobře popsaného agenta je tedy to, že z
+jeho specifikace lze předem říct, co od něj čekat, aniž by bylo nutné číst jeho implementaci.
 
 Standard rozlišuje pět druhů součástí. Agent je samostatně jednající jednotka s vymezenou
 doménou, příkaz operace, kterou vyvolává člověk, pracovní postup (pipeline) řetězec kroků,
-politika pravidlo, které se uplatňuje napříč součástmi, a adaptér most k vnějšímu nástroji
-nebo modelu (Korčák, 2025b). Každá součást nese číslo verze a starší verze hesla doporučovala
-řídit se sémantickým verzováním, podle něhož změna, která porušuje dosavadní smlouvu, vyžaduje
-zvýšení hlavního čísla verze. Takové rozlišení je praktickou podobou Meyerova požadavku, aby
-změna záruk byla viditelná pro každého, kdo se na součást spoléhá (Meyer, 1992). Agenti
-platformy byli dále řazeni do domén, jako jsou kvalita, bezpečnost, zpravodajská analýza a
-infrastruktura; počty agentů uváděné v různých verzích dokumentace se liší, a kniha je proto
-neuvádí.
+politika pravidlo, které se uplatňuje napříč součástmi, a adaptér most k vnějšímu nástroji nebo
+modelu. Každá součást nese číslo verze a starší verze hesla doporučovala řídit se sémantickým
+verzováním, podle něhož změna, která porušuje dosavadní smlouvu, vyžaduje zvýšení hlavního
+čísla verze. Takové rozlišení je praktickou podobou Meyerova požadavku, aby změna záruk byla
+viditelná pro každého, kdo se na součást spoléhá (Meyer, 1992). Agenti platformy byli dále
+řazeni do domén, jako jsou kvalita, bezpečnost, zpravodajská analýza a infrastruktura; počty
+agentů uváděné v různých verzích dokumentace se liší, a kniha je proto neuvádí.
 
-Druhou složkou je odstupňované oprávnění. Specifikace rozlišuje taktickou, strategickou a
-nejvyšší úroveň autority a platformní glosář ji rozepisuje do pěti stupňů
-[Agent Tier](@/glossary/agent-tier.md), od agentů, kteří smějí jen číst v jedné doméně, až po
-agenty s oprávněním koordinovat a přepisovat ostatní (Korčák, 2025b). Princip odpovídá zásadě
-nejmenšího oprávnění, kterou Saltzer a Schroeder formulovali jako jeden ze základů ochrany
-informací: každá součást má mít jen ta oprávnění, která ke své práci nezbytně potřebuje
-(Saltzer a Schroeder, 1975). Starší verze hesla z toho vyvozovala i praktické pravidlo, že
-nový agent má začínat na nejnižší úrovni a být povýšen, teprve když je vyšší oprávnění
-prokazatelně potřeba.
+Druhou složkou je odstupňované oprávnění. Specifikace rozlišovala několik úrovní autority a
+platformní glosář je rozepisuje do pěti stupňů [Agent Tier](@/glossary/agent-tier.md), od
+agentů, kteří smějí jen číst v jedné doméně, až po agenty s oprávněním koordinovat a přepisovat
+ostatní. Jak takové přiřazení vypadalo v praxi, ukazuje archivovaný průvodce nasazením agentů
+aplikace `prismatic_annihilation`: taktickou autoritu v něm mají agenti pro simulaci útoků a
+pro souhrn signálů, doménovou koordinátor obrany a nejvyšší autoritu agent ARCHER SUPREME,
+určený pro kritické epistemické útoky (Korčák, 2026c). Princip odpovídá zásadě nejmenšího
+oprávnění, kterou Saltzer a Schroeder formulovali jako jeden ze základů ochrany informací:
+každá součást má mít jen ta oprávnění, která ke své práci nezbytně potřebuje (Saltzer a
+Schroeder, 1975). Starší verze hesla z toho vyvozovala i praktické pravidlo, že nový agent má
+začínat na nejnižší úrovni a být povýšen, teprve když je vyšší oprávnění prokazatelně potřeba.
 
-Třetí složkou je registr. Nástroj standardu prochází adresář specifikací, ověřuje, zda
-hlavičky odpovídají schématu, a sestavuje z nich katalog, podle něhož se agenti za běhu
-vyhledávají podle identifikátoru, schopnosti nebo úrovně oprávnění, jak popisuje heslo
-[Agent Registry](@/glossary/agent-registry.md) (Korčák, 2025b). Starší verze hesla uváděla
-jako typická selhání zvýšení oprávnění nad deklarovanou úroveň, kruhové závislosti mezi agenty,
-zastaralý katalog po změně specifikace a překrývající se schopnosti bez určené priority. Všechna
-čtyři selhání jsou v teorii víceagentních systémů známými zdroji nepředvídatelného chování,
-protože narušují předpoklad, že každý agent má jasně vymezenou roli (Wooldridge, 2009).
+Třetí složkou je registr. Nástroj standardu prochází adresář specifikací, ověřuje, zda hlavičky
+odpovídají schématu, a sestavuje z nich katalog, podle něhož se agenti za běhu vyhledávají
+podle identifikátoru, schopnosti nebo úrovně oprávnění, jak popisuje heslo [Agent
+Registry](@/glossary/agent-registry.md). Starší verze hesla uváděla jako typická selhání
+zvýšení oprávnění nad deklarovanou úroveň, kruhové závislosti mezi agenty, zastaralý katalog po
+změně specifikace a překrývající se schopnosti bez určené priority. Všechna čtyři selhání jsou
+v teorii víceagentních systémů známými zdroji nepředvídatelného chování, protože narušují
+předpoklad, že každý agent má jasně vymezenou roli (Wooldridge, 2009).
 
-Povinný blok doktríny vypadá ve specifikaci takto; ukázka slouží jen k tomu, aby bylo vidět,
-že jde o deklaraci, a ne o kód, který by sám něco prováděl (Korčák, 2025a):
+Podobu povinného bloku doktríny ilustruje následující ukázka; jde o deklaraci, kterou čtou
+nástroje, a ne o kód, který by sám něco prováděl, tedy o invariant ve smyslu návrhu podle
+smlouvy (Meyer, 1992):
 
 ```yaml
 enforcement:
@@ -105,10 +111,10 @@ enforcement:
 ## Odlišení od příbuzných jevů
 
 AIAD se liší od popisů rozhraní, jako je OpenAPI pro webové služby, tím, že vedle formátu dat
-popisuje i oprávnění a normy, jimž agent podléhá. Neurčuje jen, co si dvě součásti vymění,
-ale také, kdo za výsledek odpovídá a podle jakých pravidel se posuzuje (Korčák, 2025b). Blíží
-se tak spíše organizačnímu řádu než technickému rozhraní; Parnas upozorňoval, že rozdělení
-systému na moduly je vždy zároveň rozdělením práce a odpovědnosti mezi lidi (Parnas, 1972).
+popisuje i oprávnění a normy, jimž agent podléhá. Neurčuje jen, co si dvě součásti vymění, ale
+také, kdo za výsledek odpovídá a podle jakých pravidel se posuzuje. Blíží se tak spíše
+organizačnímu řádu než technickému rozhraní; Parnas upozorňoval, že rozdělení systému na moduly
+je vždy zároveň rozdělením práce a odpovědnosti mezi lidi (Parnas, 1972).
 
 Od obecných rámců pro řízení rizik umělé inteligence se AIAD liší úrovní. Rámec amerického
 institutu NIST formuluje funkce řízení, mapování, měření a ovládání rizika na úrovni
@@ -152,10 +158,15 @@ lidským přezkumem a zůstala dohledatelná; rámec NIST tento požadavek formu
 ## Literatura
 
 - Hardwig, J. (1985). Epistemic dependence. *Journal of Philosophy, 82*(7), 335–349.
-- Korčák, T. (2025a). *NO MERCY, NO DOUBTS – AIAD execution doctrine* (verze 2.0.0). Prismatic
-  Platform, interní dokument `.aiad/doctrine/no-mercy-no-doubts.doctrine.md`.
-- Korčák, T. (2025b). *AIAD technical specification* (verze 2.1.0). Prismatic Platform, interní
-  dokument `.aiad/SPEC.md`.
+- Korčák, T. (2025). *Epistemic Annihilation Knowledge Base* (AIAD Knowledge Base). Archiv
+  kompendia, `archive/prismatic-platform/.aiad/knowledge/epistemic-annihilation.kb.md`
+  (dostupné v repozitáři knihy).
+- Korčák, T. (2026a). *CLAUDE.md – Prismatic Annihilation* (verze 1.0.0). Archiv kompendia,
+  `archive/prismatic-platform/apps/prismatic_annihilation/CLAUDE.md` (dostupné v repozitáři
+  knihy).
+- Korčák, T. (2026c). *Prismatic Annihilation – Agent Deployment Guide*. Archiv kompendia,
+  `archive/prismatic-platform/apps/prismatic_annihilation/AGENTS.md` (dostupné v repozitáři
+  knihy).
 - Meyer, B. (1992). Applying „design by contract“. *Computer, 25*(10), 40–51.
 - National Institute of Standards and Technology. (2023). *Artificial intelligence risk
   management framework (AI RMF 1.0)* (NIST AI 100-1). U.S. Department of Commerce.

@@ -5,12 +5,12 @@ weight = 900
 
 [extra]
 toc = false
-entries = 1398
+entries = 1395
 +++
 
 Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotlivých stránkách kompendia a glosáře; ručně se needituje.
 
-**1398 položek**, seřazených podle autora.
+**1395 položek**, seřazených podle autora.
 
 ## A
 
@@ -1368,22 +1368,16 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)</small>
 - Kolk, B. A. van der, & Hart, O. van der. (1991). The intrusive past: The flexibility of  
   <small>Citováno: [Narativní trauma](@/kompendium/05-ultramari-techniky/narrativni-trauma.md)</small>
+- Korčák, T. (2025). *Epistemic Annihilation Knowledge Base* (AIAD Knowledge Base). Archiv  
+  <small>Citováno: [AIAD](@/glossary/aiad.md), [No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md)</small>
 - Korcak, T. (2025). *General Honest License (GHL) v1.0* [licenční text].  
   <small>Citováno: [Filozofická východiska a licenční filozofie](@/philosophy/_index.md), [Etika hranic a filozofie ochrany](@/philosophy/boundary-ethics.md), [Epistemická integrita a zachování významu](@/philosophy/epistemic-integrity.md) a 1 dalších</small>
-- Korčák, T. (2025a). *NO MERCY, NO DOUBTS – AIAD execution doctrine* (verze 2.0.0). Prismatic  
-  <small>Citováno: [AIAD](@/glossary/aiad.md), [Doktrína NM/ND](@/glossary/nm-nd.md), [No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md) a 2 dalších</small>
-- Korčák, T. (2025b). *AIAD technical specification* (verze 2.1.0). Prismatic Platform, interní  
-  <small>Citováno: [AIAD](@/glossary/aiad.md)</small>
-- Korčák, T. (2025c). *NMND – Žádná milost, žádné pochyby (Enforcement Policy)*. Prismatic  
+- Korčák, T. (2026a). *CLAUDE.md – Prismatic Annihilation* (verze 1.0.0). Archiv kompendia,  
+  <small>Citováno: [AIAD](@/glossary/aiad.md), [Doktrína NM/ND](@/glossary/nm-nd.md), [No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md)</small>
+- Korčák, T. (2026b). *PrismaticAnnihilation.TrinityBridge* (modul). Archiv kompendia,  
   <small>Citováno: [Doktrína NM/ND](@/glossary/nm-nd.md), [Protokol porušení (Violation Protocol)](@/glossary/violation-protocol.md)</small>
-- Korčák, T. (2025d). *QDP-based quality enforcement framework* (verze 1.0.0). Prismatic  
-  <small>Citováno: [QDP (body dluhu kvality)](@/glossary/qdp.md)</small>
-- Korčák, T. (2025e). *CASCADE quality evolution framework* (verze 1.0.0). Prismatic Platform,  
-  <small>Citováno: [QDP (body dluhu kvality)](@/glossary/qdp.md)</small>
-- Korčák, T. (2026a). *Addiction Preservation Doctrine* (verze 1.0.0). Prismatic Platform,  
-  <small>Citováno: [Doktrína NM/ND](@/glossary/nm-nd.md), [No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md), [Protokol porušení (Violation Protocol)](@/glossary/violation-protocol.md)</small>
-- Korčák, T. (2026b). *.aiad/ – AI-Assisted Development Standard* (verze 7.2.0). Prismatic  
-  <small>Citováno: [QDP (body dluhu kvality)](@/glossary/qdp.md)</small>
+- Korčák, T. (2026c). *Prismatic Annihilation – Agent Deployment Guide*. Archiv kompendia,  
+  <small>Citováno: [AIAD](@/glossary/aiad.md), [Protokol porušení (Violation Protocol)](@/glossary/violation-protocol.md)</small>
 - Kosinski, M., Stillwell, D., & Graepel, T. (2013). Private traits and attributes are  
   <small>Citováno: [Historický případ: Cambridge Analytica](@/kompendium/historical-cases/23-cambridge-analytica.md)</small>
 - Kowalski, R. (1974). Predicate logic as programming language. In *Information Processing 74:  

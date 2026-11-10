@@ -188,7 +188,7 @@ Souběžně tato izomorfie odhaluje **gradient kategorií** v taxonomii: nejniž
 - [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
 - [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Teoretické reflexe ne jsou závěry — jsou pozvánkami k myšlení.** Po četbě:
 
@@ -200,11 +200,3 @@ Souběžně tato izomorfie odhaluje **gradient kategorií** v taxonomii: nejniž
 > **Mandatorní akce**: pasivní souhlas s teoretickou reflexí je sám o sobě
 > formou epistemické pasivity. Aktivní oponentura je nepostradatelná
 > součást doktríny.
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

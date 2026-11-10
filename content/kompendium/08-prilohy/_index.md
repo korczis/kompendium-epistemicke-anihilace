@@ -111,7 +111,7 @@ Příloh y sledují **verzi celého kompendia**. Změny v hlavním textu (nové 
 - **Per-technique** → [Techniques index](@/kompendium/techniques/_index.md)
 - **Platformový kontext** → [Hub kompendia](@/kompendium/_index.md) → [Glossary](@/glossary/_index.md) → [Philosophy](@/philosophy/_index.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Tato příloha je referenční nástroj** — není k četbě od začátku do konce.
 Místo lineární četby:
@@ -123,12 +123,3 @@ Místo lineární četby:
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
 > otevři přílohu.
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Hub kompendia](@/kompendium/_index.md) | [Techniques](@/kompendium/techniques/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

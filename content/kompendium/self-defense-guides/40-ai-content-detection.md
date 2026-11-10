@@ -19,9 +19,7 @@ Generativní modely umějí vytvářet texty, obrázky, videa a hlasy, které je
 
 ## Pro koho je návod
 
-- Pro každého, kdo dostává hlasové zprávy, videa a obrázky od lidí, kterým důvěřuje.
-- Pro seniory a jejich rodiny, na něž míří podvody s napodobeným hlasem.
-- Pro lidi, proti nimž někdo může vytvořit falešný obsah (veřejně činné osoby, oběti obtěžování, účastníci sporů).
+Návod je pro každého, kdo dostává hlasové zprávy, videa a obrázky od lidí, kterým důvěřuje, a zvlášť pro seniory a jejich rodiny, na něž míří podvody s napodobeným hlasem. Pomůže i lidem, proti nimž někdo může vytvořit falešný obsah – veřejně činným osobám, obětem obtěžování, účastníkům sporů –, a kteří se potřebují připravit dřív, než se to stane.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá u telefonátů nebo hlasových zpráv, v nichž „vnuk“, „dcera“
 
 ## Varovné signály
 
-- Naléhavost, utajení a žádost o peníze v jedné zprávě.
-- Hlas nebo obraz blízkého, který jedná nezvykle a odmítá ověření.
-- Obsah bez dohledatelného původu – nikdo neví, kdo ho první zveřejnil.
-- Text plynulý, ale bez konkrétních, ověřitelných detailů, nebo s vymyšlenými citacemi.
-- Obraz s nepřirozenými detaily (ruce, písmo, odrazy, okraje), i když jejich absence nic nezaručuje.
+U podvodů se syntetickým obsahem bývá nejspolehlivějším znakem situace, ne technické detaily: naléhavost, utajení a žádost o peníze v jedné zprávě, a hlas nebo obraz blízkého, který jedná nezvykle a odmítá ověření. Další signál se týká původu – obsah nemá dohledatelný zdroj a nikdo neví, kdo ho první zveřejnil. U textů je varovná plynulost bez konkrétních, ověřitelných detailů nebo s vymyšlenými citacemi.
+
+Vizuální znaky – nepřirozené ruce, písmo, odrazy, okraje – stále mohou pomoci, ale jejich absence nic nezaručuje. Nightingale a Farid (2022) zjistili, že účastníci jejich studie nedokázali obličeje vytvořené generativním modelem spolehlivě odlišit od skutečných fotografií a že syntetické obličeje dokonce hodnotili jako o něco důvěryhodnější. Jakesch, Hancock a Naaman (2023) podobně ukázali, že intuitivní vodítka, podle nichž lidé poznávají text psaný umělou inteligencí, jsou často mylná. Spoléhat na „oko“ proto nestačí.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Matce zavolal hlas, který zněl přesně jako její syn: měl nehodu a potřebu
 ## Cíl dovednosti
 
 Naučit se zacházet s texty, obrázky, videi a hlasy tak, aby vás syntetický obsah nepřiměl k jednání, které vám ublíží – především ověřováním původu, předem domluvenými pravidly a opatrností k neověřeným „důkazům“.
+
+## Odborné východisko
+
+Chesney a Citronová (2019) v právní analýze deepfakes upozornili na dvojí riziko. Prvním je zřejmé zneužití – podvržené nahrávky, které poškodí pověst, vylákají peníze nebo ovlivní veřejné dění. Druhým je to, co nazvali „dividendou lháře“: když lidé vědí, že nahrávky lze padělat, může kdokoli zpochybnit i pravou nahrávku jako podvrh. Pro sebe-obranu z toho plyne, že ověřování původu chrání oběma směry – před uvěřením podvrhu i před odmítnutím pravdy.
+
+Výzkum dopadů syntetického obsahu na veřejnost naznačuje, že deepfakes nemusí lidi vždy oklamat, ale zvyšují nejistotu a snižují důvěru ve zpravodajství obecně (Vaccari a Chadwick 2020). Tento účinek je pro knihu podstatný, protože odpovídá jádru epistemické manipulace: nejde jen o to vnutit nepravdu, ale o to, aby člověk přestal věřit, že pravdu lze zjistit.
+
+Technické detektory tuto mezeru nezaplní. Liang et al. (2023) zjistili, že běžné detektory textu generovaného umělou inteligencí chybně označovaly texty lidí, pro něž angličtina není rodným jazykem, jako strojově vytvořené výrazně častěji než texty rodilých mluvčích. Výsledek detektoru je proto nanejvýš jedním dokladem, nikdy důkazem. Trvanlivější jsou postupy, které na vzhledu obsahu nezávisejí: zpětné zavolání na známé číslo, domluvené rodinné heslo, dohledání původního zdroje a ověření v jiném kanálu.
 
 ## Pět praktických cvičení
 
@@ -81,13 +85,21 @@ U každého důležitého obsahu pár minut na ověření, jednou měsíčně kr
 
 ## Čeho se vyvarovat
 
-- Nesdílejte podezřelý obsah „pro varování“ – šíříte ho tím dál.
-- Neobviňujte nikoho na základě výsledku detektoru.
-- Nezveřejňujte zbytečně nahrávky svého hlasu a videa, pokud jste v situaci, kdy vás někdo může chtít napodobit.
+Nesdílejte podezřelý obsah „pro varování“ – šíříte ho tím dál; pokud je třeba varovat, popište ho slovy a obsah nahlaste platformě. Neobviňujte nikoho na základě výsledku detektoru, který se může mýlit oběma směry (Liang et al. 2023).
+
+Nezveřejňujte zbytečně nahrávky svého hlasu a videa, pokud jste v situaci, kdy vás někdo může chtít napodobit. A pokud se stanete obětí syntetického obsahu, nejprve ho zdokumentujte a obraťte se na policii nebo advokáta, než začnete jednat veřejně.
 
 ## Meze svépomoci
 
 Detekce AI obsahu je závod ve zbrojení: co funguje dnes, nemusí fungovat zítra, a znaky, které dnes prozrazují syntetický obraz, mohou brzy zmizet. Proto jsou trvanlivější postupy ověřování původu a domluvená pravidla než vizuální odhad. U sofistikovaných padělků je potřeba odborné forenzní posouzení.
+
+## Literatura
+
+- Chesney, R., & Citron, D. (2019). Deep fakes: A looming challenge for privacy, democracy, and national security. *California Law Review*, 107(6), 1753–1820.
+- Jakesch, M., Hancock, J. T., & Naaman, M. (2023). Human heuristics for AI-generated language are flawed. *Proceedings of the National Academy of Sciences*, 120(11), e2208839120.
+- Liang, W., Yuksekgonul, M., Mao, Y., Wu, E., & Zou, J. (2023). GPT detectors are biased against non-native English writers. *Patterns*, 4(7), 100779.
+- Nightingale, S. J., & Farid, H. (2022). AI-synthesized faces are indistinguishable from real faces and more trustworthy. *Proceedings of the National Academy of Sciences*, 119(8), e2120481119.
+- Vaccari, C., & Chadwick, A. (2020). Deepfakes and disinformation: Exploring the impact of synthetic political video on deception, uncertainty, and trust in news. *Social Media + Society*, 6(1).
 
 ## Související
 

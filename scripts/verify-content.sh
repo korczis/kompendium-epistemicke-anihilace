@@ -15,7 +15,7 @@
 #
 # Gates: migrate-content, normalize-front-matter, polish-markdown, link-terms, check-ia,
 # nlp-catalog,
-# build-references, build-graph, zola build, test/run.sh. The export is deleted afterwards.
+# build-references, build-graph, zola build, graph urls resolve, test/run.sh. The export is deleted afterwards.
 set -euo pipefail
 
 case "${1:-}" in
@@ -68,6 +68,13 @@ step "nlp-catalog --check"        python3 scripts/nlp-catalog.py --check
 step "build-references --check"   python3 scripts/build-references.py --check
 step "build-graph --check"        python3 scripts/build-graph.py --check
 step "zola build"                 zola build --force -o "$work/.out"
+# Every URL the derived data hands to the site's surfaces must be a page Zola built.
+step "graph urls resolve"         python3 -c '
+import json, pathlib, sys
+nodes = json.load(open("static/data/graph.json"))["nodes"]
+missing = [n["url"] for n in nodes if not (pathlib.Path(sys.argv[1]) / n["url"].strip("/") / "index.html").exists()]
+print(f"{len(missing)} of {len(nodes)} graph urls have no built page", *missing[:10], sep="\n")
+sys.exit(1 if missing else 0)' "$work/.out"
 # The cases export the index themselves and need the repository, so they run from its root.
 step "test/run.sh"                bash "$root/test/run.sh"
 

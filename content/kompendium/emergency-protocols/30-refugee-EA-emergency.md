@@ -144,13 +144,3 @@ sociální pracovnice kontaktuje policii a program pro oběti obchodování s li
   obětí.
 - [Právo cizinců](@/kompendium/forensic-legal/42-immigration-EA.md) – pobytový rámec.
 - [Complex trauma](@/glossary/complex-trauma.md) – vrstvené trauma.
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-
----
-
-*Kompendium epistemické anihilace · Akutní protokol č. 30 · v18.4.0*

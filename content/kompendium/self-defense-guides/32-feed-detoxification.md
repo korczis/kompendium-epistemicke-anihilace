@@ -19,9 +19,7 @@ Feed – průběžně se doplňující proud příspěvků na sociálních sít�
 
 ## Pro koho je návod
 
-- Pro člověka, který po scrollování odchází podrážděný, vystrašený nebo s pocitem méněcennosti.
-- Pro ty, jejichž feed se postupně zaplnil konspiracemi, nenávistí nebo „zázračnými řešeními“.
-- Pro lidi, kterým někdo prostřednictvím sociálních sítí vyhrožuje, posmívá se jim nebo je sleduje.
+Návod je pro člověka, který po scrollování odchází podrážděný, vystrašený nebo s pocitem méněcennosti, a pro ty, jejichž feed se postupně zaplnil konspiracemi, nenávistí nebo „zázračnými řešeními“. Pomůže i lidem, kterým někdo prostřednictvím sociálních sítí vyhrožuje, posmívá se jim nebo je sleduje – pro ně je detoxikace i otázkou bezpečí.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá, když vás feed táhne k extrémnímu obsahu; když se po zhlédnutí 
 
 ## Varovné signály
 
-- Po používání sítí se cítíte hůř, ale nedokážete přestat.
-- Feed je plný obsahu, který vás rozčiluje, a vy na něj reagujete komentáři.
-- Doporučení se stále víc zužují na jedno téma.
-- Objevují se účty, které reagují na vaše příspěvky podezřele rychle a stejně.
-- Někdo vás přes sítě sleduje, komentuje vaše pohyby nebo vás obtěžuje.
+Prvním signálem je rozpor mezi zážitkem a chováním: po používání sítí se cítíte hůř, ale nedokážete přestat. Druhým je reaktivita – feed je plný obsahu, který vás rozčiluje, a vy na něj reagujete komentáři. Brady et al. (2017) zjistili, že příspěvky s morálně-emočními slovy se šířily výrazně více; obsah, který pobuřuje, je tak zvýhodněn už svou povahou, a každá reakce mu přidává dosah.
+
+Třetí signál ukazuje na zúžení: doporučení se stále víc zužují na jedno téma. Čtvrtý na možnou koordinaci – objevují se účty, které reagují na vaše příspěvky podezřele rychle a stejně. Pátý je otázkou bezpečí: někdo vás přes sítě sleduje, komentuje vaše pohyby nebo vás obtěžuje. V takovém případě nejde o hygienu pozornosti, ale o obtěžování, které je třeba dokumentovat a řešit s platformou, případně s policií.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Dospívající dívka sledovala několik účtů o hubnutí. Během pár týdnů
 ## Cíl dovednosti
 
 Systematicky odstranit ze své digitální stravy obsah, který škodí, manipuluje nebo odčerpává pozornost, nahradit ho hodnotnějším a udržet feed v dobrém stavu dlouhodobě.
+
+## Odborné východisko
+
+Ekonomika sociálních platforem stojí na pozornosti uživatelů. Wu (2016) popisuje historii „obchodníků s pozorností“ od tisku přes rozhlas a televizi až po internet a ukazuje, že model založený na prodeji pozornosti inzerentům tlačí obsah k tomu, co pozornost udrží nejdéle. Zuboffová (2019) přidává, že současné platformy navíc sbírají data o chování uživatelů a využívají je k předpovídání a ovlivňování jejich jednání. Feed tedy není neutrální okno do světa, ale prostředí navržené s určitým cílem.
+
+Analýza šíření zpráv na Twitteru ukázala, že nepravdivé zprávy se šířily rychleji a dál než pravdivé, a autoři to spojovali s jejich novostí a emočním nábojem (Vosoughi, Roy a Aral 2018). Výzkum morálně-emočního obsahu ukázal podobnou výhodu pro pobuřující sdělení (Brady et al. 2017). Feed, který se řídí zapojením, tak bez jakéhokoli zlého úmyslu zvýhodňuje přesně ten obsah, který se nejsnáze zneužívá k manipulaci.
+
+Experimentální výzkum zároveň naznačuje, že změna je možná. V rozsáhlém pokusu, v němž účastníci na čtyři týdny deaktivovali svůj účet na Facebooku, se v průměru mírně zlepšila jejich subjektivní pohoda a snížila politická polarizace, přičemž klesla i jejich znalost aktuálních zpráv (Allcott et al. 2020). Výsledek ukazuje obě strany: odpojení pomáhá, ale má cenu, a proto návod nedoporučuje úplný odchod, nýbrž vědomou úpravu toho, co do feedu pouštíte.
 
 ## Pět praktických cvičení
 
@@ -81,13 +85,21 @@ Jednou měsíčně zhruba dvě hodiny na důkladnější detox, týdenní zkouš
 
 ## Čeho se vyvarovat
 
-- Nereagujte na provokativní obsah komentáři; zesilujete jeho dosah.
-- Neblokujte obtěžovatele dřív, než si uložíte důkazy.
-- Neočekávejte, že jednorázová akce stačí.
+Nereagujte na provokativní obsah komentáři; zesilujete jeho dosah a algoritmus vám ho začne nabízet víc. Neblokujte obtěžovatele dřív, než si uložíte důkazy – snímky obrazovky s datem, odkazy na profily a příspěvky; postupy uchování popisuje [forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md).
+
+Neočekávejte, že jednorázová akce stačí. Feed se mění s každou vaší reakcí a detoxikace je proto návykem, ne jednorázovým úklidem.
 
 ## Meze svépomoci
 
 Algoritmy se přizpůsobují pomalu a platformy mohou svá pravidla měnit; detox je trvalá údržba, ne jednorázová akce. Některé problémy (koordinované kampaně, obtěžování) nelze vyřešit úpravou vlastního feedu a vyžadují zásah platformy, policie nebo právníka.
+
+## Literatura
+
+- Allcott, H., Braghieri, L., Eichmeyer, S., & Gentzkow, M. (2020). The welfare effects of social media. *American Economic Review*, 110(3), 629–676.
+- Brady, W. J., Wills, J. A., Jost, J. T., Tucker, J. A., & Van Bavel, J. J. (2017). Emotion shapes the diffusion of moralized content in social networks. *Proceedings of the National Academy of Sciences*, 114(28), 7313–7318.
+- Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science*, 359(6380), 1146–1151.
+- Wu, T. (2016). *The Attention Merchants: The Epic Scramble to Get Inside Our Heads*. Alfred A. Knopf.
+- Zuboff, S. (2019). *The Age of Surveillance Capitalism*. PublicAffairs.
 
 ## Související
 

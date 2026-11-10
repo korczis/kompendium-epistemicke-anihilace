@@ -56,7 +56,3 @@ Eskalujte, když odklad rozhodnutí poškozuje zdraví, bezpečí nebo práva (o
 - **Obrana:** [časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md) – rozhodnout v pevném termínu.
 - **Glosář:** [epistemická stáze](@/glossary/epistemicka-staze.md) – stav, do kterého vede trvalý odklad úsudku.
 - **Sousední karty:** [EA-1.2.2 Falešná ekvivalence](@/kompendium/quick-reference/qr-ea-1-2-2.md) – inverzní vzorec; [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/quick-reference/qr-ea-1-3-1.md) – komplexita jako zásoba výjimek; [EA-1.1.3 Terminologická mystifikace](@/kompendium/quick-reference/qr-ea-1-1-3.md) – jazyková fasáda složitosti.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

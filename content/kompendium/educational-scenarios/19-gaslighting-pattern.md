@@ -161,7 +161,3 @@ se o vlastní vnímání: deník událostí, vnější kotvy, obnovené vztahy. 
 - [Gaslighting](@/glossary/gaslighting.md) – definice a historie pojmu.
 - [Coercive control](@/glossary/coercive-control.md) – širší rámec kontroly ve vztahu.
 - [Epistemické trauma](@/glossary/epistemicke-trauma.md) – dlouhodobé následky.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

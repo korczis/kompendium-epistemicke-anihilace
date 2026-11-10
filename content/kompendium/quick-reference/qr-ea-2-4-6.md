@@ -57,7 +57,3 @@ Eskalujte při doložitelném vzorci, fiktivních recenzentech nebo zneužití d
 - **Technika a kapitola:** [plná stránka EA-2.4.6](@/kompendium/techniques/ea-2-4-6-peer-review-capture.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Glosář:** [replikační krize](@/glossary/replication-crisis.md) – co se stane, když kontrola selže.
 - **Sousední karty:** [EA-2.4.8 Zachycení časopisu](@/kompendium/quick-reference/qr-ea-2-4-8.md) – institucionální rámec; [EA-2.1.5 Potlačování citací](@/kompendium/quick-reference/qr-ea-2-1-5.md) – citační kruh.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

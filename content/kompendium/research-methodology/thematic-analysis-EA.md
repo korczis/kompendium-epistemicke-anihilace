@@ -1,6 +1,6 @@
 +++
-title = "Tematická Analýza EA Dat"
-description = "Výzkumná metodologie EA — tematická analýza ea dat."
+title = "Tematická analýza"
+description = "Reflexivní tematická analýza podle Braunové a Clarkové: šest fází, rozdíl mezi tématem a shrnutím, reflexivita a typické chyby při analýze výpovědí o manipulaci."
 weight = 26
 
 [taxonomies]
@@ -8,106 +8,182 @@ tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
 
 [extra]
-related_terms = ["replication-EA-research", "survey-design-EA", "time-series-EA", "vulnerable-population-research"]
+related_terms = ["grounded-theory-EA", "IPA-EA", "phenomenological-interview-EA", "mixed-methods-EA"]
 parent = "kompendium-research-methodology"
 toc = true
 +++
 
-## Metodologický kontext
+Tematická analýza je pravděpodobně nejčastěji používaná kvalitativní metoda v psychologii
+a zdravotnických oborech. Je flexibilní, srozumitelná a nevyžaduje přijetí jedné konkrétní
+filozofické tradice. Právě tato flexibilita je ale zdrojem nejčastějších chyb: mnoho
+publikovaných „tematických analýz“ je jen tříděním citátů do kategorií podle otázek
+rozhovoru. Ve výzkumu [epistemické anihilace](@/glossary/epistemicka-anihilace.md), kde se
+pracuje s citlivými a často rozporuplnými výpověďmi, je kázeň metody zvlášť důležitá.
 
-Tento článek pokrývá **Tematická Analýza EA Dat** v rámci kvalitativního výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
+## Vymezení
 
-**Specifický metodologický háček EA výzkumu:** Braun-Clarke 6-fázový postup: familiarization → coding → searching themes → reviewing → defining → writing. Reflexive TA odmítá inter-rater reliability jako positivistický artefakt.
+Virginia Braunová a Victoria Clarkeová (2006) popsaly tematickou analýzu jako metodu
+identifikace, analýzy a interpretace vzorců významu („témat“) v kvalitativních datech.
+Později zdůraznily její **reflexivní** podobu (*reflexive thematic analysis*), v níž jsou
+témata výsledkem aktivní interpretační práce výzkumníka, nikoli něčím, co se „vynoří“
+samo. Odlišují ji od:
 
-EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani naopak utopit data v interpretativní mlze. Cílem je **triangulační konvergence** mezi behaviorálními markery, subjektivním prožitkem a strukturálními invarianty deformace ega.
+- **kódovací spolehlivostní** tematické analýzy, která pracuje s předem daným kódovníkem
+  a měří shodu kódovačů;
+- **kódovníkových** přístupů (např. rámcová analýza), které stojí mezi oběma.
 
-## Klíčové principy
+Klíčové rozlišení: **téma** je vzorec sdíleného významu sjednocený ústřední myšlenkou;
+**shrnutí oblasti** („co účastníci řekli o rodině“) téma není.
 
-1. **Konstruktová validita má přednost** — EA fenomény jsou neostře definované, špatně operacionalizované measure devalvují celou studii.
-2. **Pre-registrace povinná** — bez OSF/AsPredicted protokolu otevíráte dveře HARKing a p-hackingu.
-3. **Dvojitá triangulace** — minimálně 3 zdroje dat ([self-report](@/glossary/self-report.md), behavioral, physiological/observational).
-4. **Reflexivita explicitní** — výzkumník není neutrální nástroj, jeho pozice formuje data.
-5. **Etický gating na prvním místě** — žádná data nejsou dost cenná, aby ospravedlnila neetický design.
-6. **Replikovatelnost build-in** — kód, data (anonymizovaná), materiály do veřejného repozitáře.
+## Kdy metodu použít
 
-## Procedurální postup
+- Pro popis **sdílených zkušeností** napříč účastníky: jak lidé popisují období po odchodu
+  z kontrolujícího vztahu, co jim pomohlo, co zhoršilo jejich stav.
+- Pro analýzu **otevřených odpovědí** v dotaznících a pro kvalitativní složku
+  [kombinovaných designů](@/kompendium/research-methodology/mixed-methods-EA.md).
+- Pro **aplikovaný výzkum**, kde je třeba výsledky srozumitelně předat praxi (poradnám,
+  organizacím, tvůrcům politik).
+- Když tým nechce budovat teorii procesu (pak [zakotvená teorie](@/kompendium/research-methodology/grounded-theory-EA.md))
+  ani zkoumat jednotlivce do hloubky (pak [IPA](@/kompendium/research-methodology/IPA-EA.md)).
 
-**Fáze 1 — Příprava (4-12 týdnů)**
+## Postup
 
-- Literature review s PRISMA flow chart
-- Pre-registrace na OSF (hypotézy, design, analýza uzamčeny)
-- IRB submission + amendments
-- Pilot study (n=10-30) pro feasibility a item refinement
+Šest fází podle Braunové a Clarkové, které se v praxi prolínají a opakují:
 
-**Fáze 2 — Sběr dat (variabilní)**
+1. **Seznámení s daty** – opakované čtení přepisů, poslech nahrávek, první poznámky.
+2. **Kódování** – systematické označení všech relevantních úseků; kódy mohou být
+   sémantické (blízké tomu, co bylo řečeno) i latentní (výklad skrytých předpokladů).
+3. **Tvorba předběžných témat** – seskupení kódů kolem ústředních myšlenek.
+4. **Revize témat** – proti kódovaným úsekům a proti celému souboru dat; slučování,
+   rozdělování, vyřazování.
+5. **Definice a pojmenování témat** – co přesně každé téma říká a co ne; výstižný název.
+6. **Psaní zprávy** – analytický příběh, v němž citace slouží argumentu.
 
-- Strict protocol adherence — deviations log povinný
-- Real-time data quality checks (missingness, výpadky)
-- Periodic safety review (DSMB pro intervenční studie)
+## Specifika výzkumu epistemické manipulace
 
-**Fáze 3 — Analýza (4-8 týdnů)**
+**Témata podle otázek rozhovoru.** Pokud průvodce rozhovorem obsahuje otázky na „vstup“,
+„život ve skupině“ a „odchod“, a výsledná témata se jmenují stejně, analýza pravděpodobně
+jen zopakovala strukturu otázek. Skutečné téma prochází napříč otázkami – například
+„ztráta oprávnění vědět“ se může projevit ve všech fázích.
 
-- Pre-registered analysis first, exploratory analyses jasně označené
-- Sensitivity analyses (alternative model specifications)
-- Multiple comparison correction (Bonferroni/FDR/Holm)
+**Latentní kódování a moc výkladu.** U výpovědí lidí po manipulaci láká latentní kódování:
+„účastnice to sice nazývá péčí, ale jde o kontrolu“. Takový výklad může být oprávněný, ale
+musí být doložený a označený jako výklad výzkumníka. Jinak výzkum opakuje vzorec, v němž
+někdo jiný ví lépe, co člověk prožil ([epistemická injustice](@/glossary/epistemicka-injustice.md)).
 
-**Fáze 4 — Reporting (4-12 týdnů)**
+**Rozporuplné výpovědi.** Mnoho účastníků popisuje skupinu nebo vztah ambivalentně: bylo to
+ničivé *a* bylo to místo, kde poprvé zažili blízkost. Téma, které ambivalenci rozřízne na
+„dobré“ a „špatné“, ztrácí to nejdůležitější. Reflexivní tematická analýza umožňuje téma
+postavit právě na napětí.
 
-- CONSORT/STROBE/COREQ checklist dle designu
-- Open materials/data/code (FAIR principles)
-- Limitations sekce explicitní, ne defenzivní
+**Očekávání oboru.** Výzkumník, který zná taxonomii knihy, může mít sklon pojmenovávat
+témata kódy technik. Témata mají být pojmenována z dat; vztah k taxonomii patří do diskuse.
 
-## Riziková místa
+**Co je „absence tématu“.** Pokud účastníci o něčem nemluví, nemusí to znamenat, že to
+nezažili. U zkušenosti s manipulací bývají některé oblasti zatížené studem (sexualita,
+peníze, vlastní podíl na škodě druhým) a objeví se jen tehdy, když rozhovor poskytne bezpečí.
+Zpráva by měla uvést, o čem se v rozhovorech mluvilo málo, a zvážit proč – místo aby
+z mlčení vyvozovala, že daná zkušenost je vzácná.
 
-- **Selection bias** — kdo se hlásí na EA výzkum není reprezentativní vzorek populace.
-- **Demand characteristics** — participanti tuší, co výzkumník chce, a chovají se podle toho.
-- **Researcher allegiance effect** — přesvědčení výzkumníka o efektu inflatuje pozorovaný účinek.
-- **Attrition selectivní** — kdo odejde ze studie není random podmnožina, vytváří survivorship bias.
-- **Construct drift** — operacionalizace EA pojmu se mezi studiemi liší, brání meta-analýze.
-- **Ethical creep** — postupné rozšiřování invazivnosti bez re-konzultace s IRB.
+**Kvantifikace.** Uvádět „většina účastníků“ je v malém vzorku zavádějící, ale úplně
+zamlčet, jak rozšířené téma bylo, také není poctivé. Rozumné je popsat rozložení slovy
+a uvést, kde téma chybělo.
 
-## Best practices
+## Kritéria kvality
 
-1. **Multi-method assessment** — žádný jednotlivý nástroj nezachytí EA fenomén kompletně.
-2. **Standardizované administrace** — videozáznam pro inter-rater reliability check.
-3. **Blinding kdekoliv to jde** — účastník vůči podmínce, hodnotitel vůči hypotéze.
-4. **Manipulation checks** — ověřte, že intervence skutečně manipulovala, co jste zamýšleli.
-5. **Effect size + CI** — p-hodnoty samotné nestačí, hlaste velikost účinku s 95% CI.
-6. **Data audit trail** — každá transformace dat dokumentovaná, reprodukovatelná skript.
-7. **Independent replication budget** — alokujte prostředky na nezávislou replikaci klíčových nálezů.
+Braunová a Clarkeová publikovaly kontrolní seznam patnácti bodů pro dobrou tematickou
+analýzu; jeho jádro shrnuje tabulka.
 
-## Validační kritéria
+| Oblast | Co doložit |
+|---|---|
+| Varianta | reflexivní, kódovníková, nebo spolehlivostní – a proč |
+| Teoretické předpoklady | realistický, nebo konstrukcionistický přístup |
+| Kódování | systematičnost, sémantická a latentní rovina |
+| Témata | ústřední myšlenka každého tématu, ne shrnutí oblasti |
+| Doklady | citace jako součást argumentu, z různých účastníků |
+| Reflexivita | role výzkumníka, jeho pozice a vliv |
 
-| Kritérium | Minimální standard |
-|-----------|-------------------|
-| Pre-registrace | OSF/AsPredicted před sběrem dat |
-| IRB approval | Aktivní, s amendments dokumentovanými |
-| Sample size | [A priori](@/glossary/apriori.md) power analysis, n ≥ vypočtené |
-| Reliability | α ≥ 0.70, ICC ≥ 0.75 pro kontinuální measures |
-| Validity | Konvergentní + diskriminantní evidence |
-| Transparency | Materials, data (anonym.), code veřejně |
-| Ethical compliance | Helsinki + Belmont + lokální regulace |
-| Reporting | CONSORT/STROBE/COREQ checklist |
+V reflexivní variantě se **neměří shoda kódovačů** – ne z lenosti, ale proto, že témata nejsou
+chápána jako objektivně existující a shoda by nic nedokazovala. Spolupráce v týmu slouží
+k obohacení a zpochybnění výkladu.
 
-## Cross-linky
+## Etika a ochrana účastníků
 
-- [Etický rámec EA výzkumu](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [IRB protokol design](@/kompendium/research-methodology/IRB-protocol-design-EA.md)
-- [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md)
-- [Anonymizace dat](@/kompendium/research-methodology/anonymization-EA-research.md)
-- [Pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md)
-- [Power analysis](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/research-methodology/power-analysis-EA-research/)
-- [Effect size](@/kompendium/research-methodology/effect-size-EA.md)
-- [Mixed methods design](@/kompendium/research-methodology/mixed-methods-EA.md)
-- [Replikační výzkum](@/kompendium/research-methodology/replication-EA-research.md)
-- [Glossary — výzkumné termíny](@/glossary/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+Citace jsou nejcitlivějším místem zprávy. I krátká citace s neobvyklým obratem může vést
+k identifikaci v malé komunitě bývalých členů. Je třeba upravit identifikační detaily,
+nepoužívat citace, které by účastníka mohly ohrozit, a pokud je to možné, nabídnout
+účastníkům kontrolu citací před publikací. Viz [anonymizace](@/kompendium/research-methodology/anonymization-EA-research.md).
 
----
+## Časté chyby
 
-## Connect
+- témata shodná s otázkami rozhovoru;
+- „témata“ jako seznam oblastí bez ústřední myšlenky;
+- příliš mnoho témat a podtémat bez analytické hloubky;
+- citace bez výkladu, nebo výklad bez citací;
+- tvrzení, že témata „se vynořila“, bez reflexe vlastní role;
+- míchání předpokladů různých variant (reflexivní analýza s měřením shody kódovačů).
 
-**Sekce**: [Research Methodology Index](@/kompendium/research-methodology/_index.md) | **Bucket**: kvalitativní metody | **Kompendium**: [Index](@/kompendium/_index.md)
+## Ilustrativní příklad
 
-**Související domény**: Klinická psychologie · Fenomenologie · Výzkumná etika · Statistická metodologie · Bezpečnostní governance
+*Hypotetická studie.* Tým analyzuje patnáct rozhovorů s lidmi, kteří v dospělosti opustili
+náboženskou komunitu s vysokou mírou kontroly. Předběžná témata kopírují otázky („vstup“,
+„pochybnosti“, „odchod“). Při revizi tým zjistí, že napříč fázemi se opakuje motiv
+„povolení vědět“: účastníci popisují, že nejtěžší nebylo uvěřit něčemu jinému, ale připustit,
+že smějí sami něco posoudit. Výsledné téma „Kdo smí vědět“ obsahuje tři aspekty: předání
+oprávnění autoritě, první soukromé pochybnosti a obnovu oprávnění po odchodu. Druhé téma
+„Dvojí paměť“ zachycuje ambivalenci: účastníci vzpomínají na skupinu zároveň jako na místo
+poškození a místo blízkosti.
+
+Výsledky se propojí s pojmy [epistemická agentnost](@/glossary/epistemicka-agentnost.md)
+a [epistemická bezdomovost](@/glossary/epistemicka-bezdomovost.md) až v diskusi, kde tým
+zvažuje, nakolik tyto pojmy zkušenost účastníků vystihují a kde ji naopak zjednodušují.
+
+## Využití v praxi
+
+Tematická analýza dává praxi srozumitelné výsledky: témata se dají převést do psychoedukačních
+materiálů, do průvodců pro rodiny, do školení pro poradce. Téma „Kdo smí vědět“ by například
+mohlo vést k doporučení, aby terapeutická práce v raném období nepřidávala nové autority,
+ale podporovala malé, vlastní úsudky klienta. Organizacím pomáhá tematická analýza otevřených
+odpovědí v [kulturních průzkumech](@/kompendium/organizational-defense/15-culture-survey-EA.md)
+nebo z [anonymní zpětné vazby](@/kompendium/organizational-defense/14-anonymous-feedback.md)
+najít vzorce, které číselné ukazatele nezachytí. Při převodu do praxe je třeba dbát, aby
+se z tématu nestal stereotyp („všichni bývalí členové mají…“).
+
+## Jak číst studii tohoto typu
+
+- **Jsou témata víc než nadpisy oblastí?** Téma má ústřední myšlenku, kterou lze vyslovit
+  jednou větou.
+- **Kterou variantu autoři použili a odpovídá jí postup?**
+- **Jsou citace z různých účastníků?** Téma doložené citacemi jednoho člověka je spíš případ.
+- **Jak autoři zacházejí s rozpory a ambivalencí?**
+
+## Meze a otevřené otázky
+
+Tematická analýza popisuje sdílené vzorce, ale nezachytí jedinečnost jednotlivých cest ani
+dynamiku procesu. Otevřenou otázkou je, jak se v tematických studiích vyhnout tomu, aby
+pojmy oboru (včetně této knihy) předem určovaly, co výzkumník v datech uvidí.
+
+## Literatura
+
+- Braun, V., Clarke, V. (2006). Using thematic analysis in psychology.
+- Braun, V., Clarke, V. (2019). Reflecting on reflexive thematic analysis.
+- Braun, V., Clarke, V. (2022). *Thematic Analysis: A Practical Guide.*
+
+## Související
+
+**Metody v této sekci**
+
+- [Zakotvená teorie](@/kompendium/research-methodology/grounded-theory-EA.md) – když je cílem teorie procesu.
+- [IPA](@/kompendium/research-methodology/IPA-EA.md) – hloubka u jednotlivců.
+- [Fenomenologický rozhovor](@/kompendium/research-methodology/phenomenological-interview-EA.md) – sběr dat.
+- [Kombinované designy](@/kompendium/research-methodology/mixed-methods-EA.md) – tematická složka v kombinaci.
+
+**Organizace**
+
+- [Anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md) – zdroj otevřených odpovědí.
+
+**Pojmy**
+
+- [Epistemická agentnost](@/glossary/epistemicka-agentnost.md) – oprávnění vědět.
+- [Epistemická injustice](@/glossary/epistemicka-injustice.md) – riziko výkladu „lépe než účastník“.
+- [Epistemická bezdomovost](@/glossary/epistemicka-bezdomovost.md) – prožitek po odchodu.

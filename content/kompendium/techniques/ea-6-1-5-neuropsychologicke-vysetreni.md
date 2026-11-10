@@ -155,7 +155,7 @@ Validace efektivity techniky vyžaduje multidimenzionální outcome battery apli
 
 ## Vztah k jiným technikám
 
-Připravuje [EA-6.2.4 metacognitive therapy](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md), informuje [EA-6.3.3 metakognitivní rehabilitaci](@/kompendium/techniques/ea-6-3-3-metacognitivni-rehabilitace.md), kalibruje [EA-6.1.9 metakognitivní functional assessment](@/kompendium/techniques/ea-6-1-9-metakognitivni-functional-assessment.md).
+Připravuje [EA-6.2.4 metacognitive therapy](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md), informuje [EA-6.3.3 metakognitivní rehabilitaci](@/kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md), kalibruje [EA-6.1.9 metakognitivní functional assessment](@/kompendium/techniques/ea-6-1-9-metakognitivni-functional-assessment.md).
 
 ## Literatura
 

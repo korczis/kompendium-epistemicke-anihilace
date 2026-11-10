@@ -141,13 +141,3 @@ bezpečí, terapeutka pojmenuje dopis jako známý vzorec a domluví na čtyři 
 
 - [Love bombing](@/glossary/love-bombing.md) – typický pokus o obnovení vztahu.
 - [Trauma bonding](@/glossary/trauma-bonding.md) – síla vazby k pachateli.
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-
----
-
-*Kompendium epistemické anihilace · Akutní protokol č. 34 · v18.4.0*

@@ -19,9 +19,7 @@ toc = true
 
 ## Pro koho je návod
 
-- Pro lidi, kteří mají pocit, že si „už nevěří“, že si pamatují věci jinak než blízká osoba, nadřízený nebo skupina, a nevědí, komu dát za pravdu.
-- Pro ty, kdo odcházejí z prostředí s vysokou mírou kontroly a znovu se učí rozhodovat sami.
-- Pro kohokoli, kdo chce trénovat kalibraci – soulad mezi tím, jak moc si je jistý, a tím, jak často má pravdu.
+Návod je určen lidem, kteří mají pocit, že si „už nevěří“, že si pamatují věci jinak než blízká osoba, nadřízený nebo skupina, a nevědí, komu dát za pravdu. Stejně slouží těm, kdo odcházejí z prostředí s vysokou mírou kontroly a znovu se učí rozhodovat sami, a konečně každému, kdo chce trénovat kalibraci – soulad mezi tím, jak moc si je jistý, a tím, jak často má skutečně pravdu. Pojem kalibrace pochází z výzkumu úsudku za nejistoty a dobře vystihuje, oč jde: cílem není být si jistý víc nebo méně, ale přiměřeně (Tetlock a Gardner 2015).
 
 Návod nenahrazuje léčbu. Pokud myšlení provází výrazná úzkost, bezesné noci nebo myšlenky na sebepoškození, čtěte nejprve oddíl Kdy a koho požádat o pomoc.
 
@@ -31,11 +29,9 @@ Typicky jde o vztah, v němž druhá strana opakovaně popírá, co se stalo (�
 
 ## Varovné signály
 
-- Před rozhovorem s konkrétní osobou si v duchu „připravujete“ vlastní vzpomínky, protože čekáte, že budou zpochybněny.
-- Častěji se omlouváte za věci, o kterých nevíte, zda jste je udělali.
-- Rozhodnutí odkládáte, dokud je „neschválí“ někdo jiný.
-- Máte pocit mlhy a nesoustředěnosti právě po kontaktu s určitým člověkem nebo skupinou ([kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md)).
-- Přestáváte věřit záznamům, které jste si sami pořídili.
+Na vzorec znejistění obvykle neupozorní jediná událost, ale souběh drobných posunů. Člověk si před rozhovorem s konkrétní osobou v duchu „připravuje“ vlastní vzpomínky, protože čeká, že budou zpochybněny; častěji se omlouvá za věci, o kterých neví, zda je udělal; a rozhodnutí odkládá, dokud je „neschválí“ někdo jiný. Typický je i pocit mlhy a nesoustředěnosti právě po kontaktu s určitým člověkem nebo skupinou ([kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md)) a postupná ztráta důvěry v záznamy, které si sám pořídil.
+
+Sociologická analýza gaslightingu ukazuje, že tyto projevy nejsou osobní slabostí, ale předvídatelným důsledkem vztahu, v němž jedna strana využívá mocenské nerovnosti k tomu, aby druhé upírala důvěryhodnost (Sweet 2019). Filozofický rozbor téhož jevu doplňuje, že cílem není přesvědčit o jednom faktu, ale podkopat samotnou schopnost oběti posuzovat a odporovat (Abramson 2014). Varovným signálem je proto spíše trend než jednotlivá pochybnost: rostoucí podíl situací, v nichž se člověk vzdává vlastního úsudku dřív, než ho vůbec vysloví.
 
 ## Modelová situace
 
@@ -44,6 +40,14 @@ Typicky jde o vztah, v němž druhá strana opakovaně popírá, co se stalo (�
 ## Cíl dovednosti
 
 Vybudovat schopnost pozorovat vlastní myšlenkové procesy v reálném čase, rozlišit vlastní úsudek od převzatého a včas zachytit chvíli, kdy myšlení selhává nebo se odchyluje od toho, co lze ověřit.
+
+## Odborné východisko
+
+Pojem metakognice zavedl do vývojové psychologie John Flavell, který rozlišil metakognitivní znalosti (co o svém myšlení vím) a metakognitivní prožitky (jak se mi právě myslí) a upozornil, že právě jejich sledování umožňuje opravovat vlastní chyby (Flavell 1979). Nelson a Narens (1990) později popsali dvě úrovně: objektovou, na níž probíhá samotné vybavování a usuzování, a metaúroveň, která ji *monitoruje* (například pocit „to vím“) a *řídí* (rozhodnutí hledat dál, nebo přestat). Pro sebe-obranu je toto rozlišení podstatné. Manipulace typu gaslighting často nezasahuje objektovou úroveň – fakta si člověk pamatuje –, ale metaúroveň, tedy důvěru v to, co si pamatuje. Cvičení v tomto návodu proto nepracují s obsahem vzpomínek, nýbrž se signály jistoty, které je doprovázejí.
+
+Druhým zdrojem je výzkum kalibrace úsudku. Studie předpovědí ukazují, že lidé, kteří si zapisují své odhady a porovnávají je s výsledkem, postupně zpřesňují nejen úsudek, ale i míru jistoty, s níž ho drží (Tetlock a Gardner 2015). Kahneman (2011) připomíná, že pocit jistoty je produktem rychlého, intuitivního zpracování a sám o sobě o správnosti nic neříká; proto „Mapa jistot“ a deník úsudků přesouvají hodnocení z okamžitého dojmu do zpětně ověřitelného záznamu. U člověka dlouhodobě znejišťovaného bývá jistota podhodnocená, u člověka ve skupině s jedinou pravdou nadhodnocená – obojí je chyba kalibrace, ne charakteru.
+
+Třetím zdrojem je klinická zkušenost. Metakognitivní terapie upozorňuje, že sebepozorování se snadno zvrhne v neplodné přemítání a že léčivé není myšlení o myšlení samo, ale vědomé omezení jeho času a změna vztahu k vlastním myšlenkám (Wells 2009). Odtud pevné časové rámce cvičení a důraz na to, aby monitoring měl začátek i konec.
 
 ## Pět praktických cvičení
 
@@ -84,13 +88,24 @@ Denně deset až patnáct minut, ráno krátká pauza před rozhodnutím, večer
 
 ## Čeho se vyvarovat
 
-- Nepoužívejte deník jako zbraň: neukazujte ho osobě, která vás znejišťuje, a nevyzývejte ji k „dokázání pravdy“. Konfrontace s někým, kdo s vámi manipuluje, situaci zpravidla zhorší a může vás ohrozit.
-- Nesklouzněte k nekonečné introspekci. Monitoring má mít pevný čas a konec; ruminace je jeho karikatura ([paralýza analýzou](@/glossary/paralysis-by-analysis.md)).
-- Nehodnoťte se příkře za omyly. Cílem je kalibrace, ne sebeobviňování.
+Deník není zbraň. Neukazujte ho osobě, která vás znejišťuje, a nevyzývejte ji k „dokázání pravdy“: konfrontace s někým, kdo s vámi manipuluje, situaci zpravidla zhorší a může vás ohrozit. Smyslem záznamu je vrátit vám vnitřní měřítko, ne vyhrát spor.
+
+Stejně důležité je nesklouznout k nekonečné introspekci. Monitoring má mít pevný čas a konec; ruminace je jeho karikatura ([paralýza analýzou](@/glossary/paralysis-by-analysis.md)) a klinicky patří k mechanismům, které úzkost a depresi udržují (Wells 2009). Nehodnoťte se konečně příkře za omyly: cílem je kalibrace, ne sebeobviňování, a laskavý vztah k vlastním chybám usnadňuje jejich přiznání i opravu (Neff 2003).
 
 ## Meze svépomoci
 
 Metakognice nenahrazuje epistemickou robustnost: člověk si může své myšlení uvědomovat a přesto se mýlit. Při silném stresu je pracovní paměť přetížená a sebepozorování selhává – proto je nezbytné opírat se i o vnější body: záznamy, důvěryhodné lidi a odborníka. Pokud jste dlouhodobě vystaveni manipulaci, úplná obnova důvěry ve vlastní úsudek obvykle vyžaduje vedenou práci, jak ji popisuje [středně-dobá metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md).
+
+## Literatura
+
+- Abramson, K. (2014). Turning up the lights on gaslighting. *Philosophical Perspectives*, 28(1), 1–30.
+- Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive–developmental inquiry. *American Psychologist*, 34(10), 906–911.
+- Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
+- Neff, K. D. (2003). Self-compassion: An alternative conceptualization of a healthy attitude toward oneself. *Self and Identity*, 2(2), 85–101.
+- Nelson, T. O., & Narens, L. (1990). Metamemory: A theoretical framework and new findings. *Psychology of Learning and Motivation*, 26, 125–173.
+- Sweet, P. L. (2019). The sociology of gaslighting. *American Sociological Review*, 84(5), 851–875.
+- Tetlock, P. E., & Gardner, D. (2015). *Superforecasting: The Art and Science of Prediction*. Crown.
+- Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. Guilford Press.
 
 ## Související
 

@@ -58,7 +58,3 @@ Eskalujte, když přerámování obsahuje nepravdivá tvrzení o korupci nebo ve
 - **Detekce:** [reputation laundering](@/kompendium/detection-signatures/23-network-reputation-laundering.md) – signatura opačného pohybu.
 - **Glosář:** [DARVO](@/glossary/darvo.md) – příbuzné obrácení rolí oběti a útočníka.
 - **Sousední karty:** [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/quick-reference/qr-ea-2-1-9.md) – zdání shody proti cíli; [EA-2.3.10 Virální zkreslení výroku](@/kompendium/quick-reference/qr-ea-2-3-10.md) – šíření přerámování.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

@@ -59,7 +59,3 @@ Eskalujte při izolaci od blízkých, finančním vykořisťování nebo psychot
 - **Technika a kapitola:** [plná stránka EA-5.2.2](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md) – mechanismus, případy a neutralizace; [kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) – metatranscendentální anihilace.
 - **Glosář:** [charisma](@/glossary/charisma.md) – autorita, která zážitek rámuje.
 - **Sousední karty:** [EA-5.2.1 Meta-epistemická inverze](@/kompendium/quick-reference/qr-ea-5-2-1.md) – převrácená měřítka; [EA-5.1.14 Iluzorní transcendence](@/kompendium/quick-reference/qr-ea-5-1-14.md) – individuální obdoba.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

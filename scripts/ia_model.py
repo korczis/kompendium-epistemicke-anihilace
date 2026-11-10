@@ -58,12 +58,21 @@ def parse_yaml_subset(text: str) -> dict:
     return data
 
 
+def zola_slug(component: str) -> str:
+    """A path component as Zola writes it with the default `slugify.paths = "on"`: ASCII,
+    lower case, every run of other characters one hyphen, no hyphen at either end."""
+    import unicodedata
+    text = unicodedata.normalize("NFKD", component).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", text).strip("-")
+
+
 def url_of(rel: pathlib.PurePosixPath) -> str:
     parts = list(rel.parts)
     if parts[-1] in ("_index.md", "index.md"):
         parts = parts[:-1]
     else:
         parts[-1] = parts[-1][:-3]
+    parts = [zola_slug(p) for p in parts]  # GitHub Pages is case-sensitive: match Zola exactly
     return "/" + "/".join(parts) + ("/" if parts else "")
 
 

@@ -1,6 +1,6 @@
 +++
 title = "Dlouhodobá prevence relapsu"
-description = "Longitudinální rekonstruktivní protokol — prevence epistemického relapsu."
+description = "Dlouhodobý klinický protokol prevence návratu a opakované viktimizace po epistemické anihilaci: rizikové situace v letech po odchodu, výročí, nové formy kontroly a plán."
 weight = 20
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "recovery-protocol", "klinicke", "longterm"]
 categories = ["academic", "clinical"]
 
 [extra]
-related_terms = ["longterm-meaning-deepening", "longterm-post-traumatic-growth", "longterm-resilience-cultivation", "midterm-educational-reintegration"]
+related_terms = ["21-relapse-prevention-EA", "longterm-resilience-cultivation", "longterm-meaning-deepening", "trauma-bonding", "internalizovany-pachatel"]
 parent = "kompendium-recovery-protocols"
 toc = true
 phase = "longterm"
@@ -16,97 +16,142 @@ phase = "longterm"
 
 # Dlouhodobá prevence relapsu
 
-> **Status**: Klinicky strukturovaný longitudinální protokol — integrace [evidence-based](@/glossary/evidence-based.md) modalit s diagnostickou optikou kompendia.
-> **Fáze**: `longterm`
-> **Cílový rámec**: Roky 1–3.
+> **Status**: fázový protokol dlouhodobé fáze; preventivní a programovou úroveň popisuje
+> stránka [Prevence relapsu](@/kompendium/prevention-resilience/21-relapse-prevention-EA.md).
+> **Fáze**: `longterm` – roky po odchodu, kdy se zdá, že „je hotovo“.
+> **Cíl**: zabránit návratu do prostředí EA i jeho opakování v nové podobě – a zvládnout
+> uklouznutí, pokud nastane.
 
-## 1. Cílová populace
+## 1. Účel a cílová populace
 
-Klienti v dlouhodobé fázi (rok 1–3), kdy akutní krizová motivace odeznívá a vynořují se **rebound effects** — nostalgie po pachateli, idealizace minulosti, [trauma bonding](@/glossary/trauma-bonding.md) re-aktivace. Statistická data ukazují vysoké riziko návratu k abusivnímu partnerovi v intervalu 6–18 měsíců.
+Protokol je určen klientům v dlouhodobé fázi zotavení z [epistemické anihilace](@/glossary/epistemicka-anihilace.md)
+(EA), kteří jsou stabilizovaní a samostatní, ale nesou zvýšené riziko dvou druhů relapsu:
+**návratu** k původnímu pachateli nebo skupině (často po letech, v době krize) a **opakované
+viktimizace** – vstupu do nového vztahu, skupiny nebo pracoviště se stejnou strukturou
+kontroly. Na rozdíl od programové prevence se zde pracuje klinicky s individuálními riziky,
+s historií klienta a s tím, co pro něj relaps znamená.
 
-## 2. Časový rámec
+## 2. Klinický obraz
 
-Roky 1–3. Intenzita: měsíčně po prvním roce, kvartálně po druhém. **Booster sessions** dle potřeby. Doplňkové: peer support, podpůrné skupiny, somatic praxe.
+Marlatt a Donovan (2005) ve druhém vydání modelu prevence relapsu zdůrazňují, že relaps je
+dynamický proces, v němž se střídají rizikové situace, zvládání a reakce na uklouznutí, a že
+riziko může vzrůst i po dlouhém období stability – typicky při náhlých životních změnách.
+U EA se tento proces váže na specifické spouštěče: výročí odchodu nebo událostí, smrt blízkého,
+rozvod, ztrátu práce, nemoc, osamělost a období, kdy se člověk cítí „bez směru“. Pachatel
+nebo skupina se mohou ozvat po letech, často s nabídkou smíření nebo s prosbou o pomoc.
+
+Výzkum opakované viktimizace ukazuje, že lidé, kteří zažili sexuální násilí, mají zvýšené
+riziko, že je zažijí znovu (Classen, Palesh a Aggarwal 2005). Příčiny jsou složité a nejde
+o „vinu“ oběti: patří k nim oslabené rozpoznání nebezpečí, potřeba blízkosti, nízké sebehodnocení
+a to, že pachatelé zranitelnost vyhledávají. U EA se popisuje podobný jev: lidé po odchodu ze
+skupiny někdy vstoupí do jiné skupiny s podobnou strukturou (Lalich a Tobias 2006), lidé po
+kontrolujícím vztahu do dalšího kontrolujícího vztahu. Herman (1992) upozorňuje, že přeživší
+dlouhodobého traumatu mohou mít oslabenou schopnost sebeochrany, protože signály nebezpečí
+jsou pro ně „známé“ a tedy nenápadné.
+
+Epistemicky se relaps ohlašuje změnou výkladu: idealizací minulosti, oživením slovníku
+prostředí, návratem [internalizovaného pachatele](@/glossary/internalizovany-pachatel.md)
+a zúžením zdrojů. Freydová (1996) popsala slepotu ke zradě jako mechanismus, který chrání vztah
+závislosti tím, že přehlíží zradu; v dlouhodobé fázi se může znovu aktivovat ve chvíli, kdy
+klient potřebuje oporu a jediná dostupná je stará.
+
+Zvláštní riziko dlouhodobé fáze představuje to, co by se dalo nazvat **přechodem na podobné**.
+Člověk, který odešel z náboženské skupiny, se nevrací do ní, ale vstoupí do politického hnutí
+se stejnou strukturou: jeden vykladač pravdy, nepřítel venku, odměna za oddanost, trest za
+pochybnost. Obsah se změnil, struktura zůstala. Proto se dlouhodobá prevence relapsu zaměřuje
+na strukturní znaky, ne na obsah – klient se neučí, které skupiny jsou „špatné“, ale jak
+vypadá prostředí, které mu bere úsudek, ať se tváří jakkoli.
 
 ## 3. Cíle protokolu
 
-1. Kultivace **epistemické robustnosti** převyšující pre-traumatický baseline.
-2. Systematická prevence relapsu (návratu k pachateli/kultu/ideologii).
-3. Transformace traumatu skrze posttraumatický růst do generativní podoby.
-4. Vybudování stabilní organické komunity jako dlouhodobá ochrana.
-5. Volitelná integrace zkušenosti do strukturované služby druhým survivorům.
+Cílem je vytvořit individuální mapu dlouhodobých rizik včetně výročí a životních změn;
+rozpoznat osobní epistemické signály relapsu; mít plán pro kontakt pachatele nebo skupiny
+i po letech; rozpoznat strukturu kontroly v nových vztazích a prostředích; zvládnout uklouznutí
+bez studu; a udržet možnost rychlého návratu k odborné pomoci.
 
-## 4. Implementační kroky
+## 4. Postup
 
-1. **Roční follow-up (rok 1)**: Komprehenzivní reassessment — kvantitativní (baseline instrumenty) + kvalitativní (narativní interview). Identifikace dlouhodobých vzorců.
-2. **Resilience kultivace (rok 1–2)**: Strukturované budování **post-traumatické robustnosti** — meditační praxe, somatic literacy, kognitivní flexibilita, emoční granularita.
-3. **Relapse prevention (rok 1–3)**: Identifikace high-risk situací, budování krizového plánu, **emergency contact list**, periodické „check-in“ sezení (kvartálně po prvním roce).
-4. **Komunitní integrace (rok 1–3)**: Postupný přechod od formální podpory k organické komunitě. Identifikace 3–5 dlouhodobých vztahů jako „epistemic peer review“.
-5. **Smyslová prohloubení (rok 2–3)**: Existenciální/spirituální práce — logoterapie, ACT, kontemplativní praxe. Budování generativního smyslu.
-6. **Volitelné altruistické kanalizování (rok 2+)**: Pro klienty s vůlí a kapacitou — peer support, advokační aktivity, edukace. **Pouze** po důkladné kontraindikační analýze (riziko sekundární [retraumatizace](@/glossary/retraumatizace.md)).
+1. **Dlouhodobá mapa rizik** – kalendář výročí, očekávaných životních změn (odchod dětí,
+   důchod, nemoc rodičů) a období, kdy byl klient v minulosti nejzranitelnější.
+2. **Osobní signály** – klient vlastními slovy popíše, jak se u něj ohlašuje návrat starého
+   výkladu (idealizace, stažení, tajnůstkářství, „ono to nebylo tak zlé“).
+3. **Plán kontaktu** – co klient udělá, když se po letech ozve pachatel nebo skupina:
+   neodpovídat hned, poradit se s určenou osobou, přečíst si vlastní záznamy z doby EA.
+4. **Strukturní kontrola nových vztahů** – pravidelná reflexe podle znaků kontroly (rychlá
+   intenzita, izolace, tajnost, zpochybňování vnímání); navazuje [Monitorování vztahů](@/kompendium/prevention-resilience/15-relationship-monitoring.md).
+5. **Archiv zkušenosti** – zachované záznamy z doby EA a z odchodu, ke kterým se lze vrátit,
+   když paměť začne minulost přikrášlovat.
+6. **Reakce na uklouznutí** – předem domluvené kroky a výslovná dohoda, že kontakt nebo
+   pochybnost nejsou selháním.
+7. **Přístup k péči** – kontakt na terapeuta nebo službu, kam se klient může vrátit bez
+   čekání; „posilovací“ sezení v rizikových obdobích.
+8. **Krizová návaznost** – při akutním relapsu postup podle [Rozpoznání relapsu](@/kompendium/emergency-protocols/33-relapse-recognition.md)
+   a [Relapsové krize](@/kompendium/emergency-protocols/34-relapse-emergency.md).
 
-## 5. Hodnotící kritéria
+**Rozhodovací bod A – návrat k pachateli.** Pokud se klient vrátí, protokol pokračuje: udržuje
+se kontakt, aktualizuje bezpečnostní plán a nikdo klienta neodsuzuje. **Rozhodovací bod B –
+nová skupina se stejnou strukturou.** Pracuje se s detekčními dovednostmi a se strukturními
+znaky, ne s obsahem nauky. **Rozhodovací bod C – velká životní krize.** Při ztrátě nebo nemoci
+se zvyšuje frekvence kontaktu, i když klient působí stabilně.
 
-- **Resilience metrics** — Connor-Davidson Resilience Scale (CD-RISC), score nad 75. percentilem.
-- **Bez relapsu** — žádný návrat k pachateli/kultu/ideologii v sledovaném období.
-- **Posttraumatic Growth Inventory (PTGI)** — pozitivní skóre v ≥ 3 z 5 domén.
-- **Komunitní integrace** — alespoň 3 stabilní dlouhodobé vztahy + komunitní zapojení.
-- **Generativní markery** — kvalitativně dokumentované — kreativita, mentorství, smysluplná práce.
+## 5. Hodnocení průběhu
 
-## 6. Adaptace pro EA typ
+Hodnotí se, zda má klient aktuální mapu rizik a plán kontaktu, zda rozpozná vlastní signály
+a v posledním období je použil, zda se v nových vztazích neobjevuje struktura kontroly, jak
+zvládl rizikové období (výročí, krizi) a zda ví, kam se obrátit. Validované normy pro EA
+neexistují; údaje o relapsu z léčby závislostí nelze přenášet jako cílové hodnoty.
 
-Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vystaven:
+## 6. Kontraindikace a rizika
 
-- **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
-- **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **[Coercive control](@/glossary/coercive-control.md) / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
-- **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
-- **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
+Protokol nemá kontraindikace, ale nese rizika. **[Přesouvání viny](@/glossary/blame-shifting.md)**: pojem opakované viktimizace
+nesmí znít jako tvrzení, že si oběť nebezpečí „přitahuje“; odpovědnost nese pachatel. **Trvalá
+ostražitost**: přehnaný důraz na riziko může klientovi bránit v nových vztazích. **Kontrola
+z okolí**: blízcí, kteří „hlídají“ klienta, mohou nechtěně vytvořit novou kontrolu.
 
-## 7. Kontraindikace
+## 7. Kazuistika (anonymizovaný kompozit)
 
-**Absolutní a relativní kontraindikace pro tento protokol**: Klient nedosáhl středně-dobých milestones; reaktivace symptomatologie vyžadující kratší fáze; nestabilní psychiatrická medikace; aktivní právní/finanční krize bránící dlouhodobé práci.
+Žena po šedesátce odešla před pěti lety z manželství s mužem, který kontroloval každé její
+rozhodnutí. Žije samostatně a terapii ukončila. Když se dozví, že bývalý manžel je vážně nemocný
+a žádá ji, aby se o něj starala, ozve se znovu terapeutce. Popíše, že se jí „vrací soucit
+a vina“ a že začala vzpomínat hlavně na hezké chvíle. Terapeutka s ní projde její archiv
+záznamů a plán kontaktu, který kdysi sepsala. Žena se rozhodne pomoci zprostředkovat
+pečovatelskou službu, ale nenastěhuje se k němu. Po dvou posilovacích sezeních říká, že
+poprvé dokázala „být laskavá, aniž bych se vrátila“.
 
-V přítomnosti kontraindikací je nutné nejprve zajistit jejich řešení (psychiatrická konzultace, krizová hospitalizace, paralelní léčba komorbidit) a teprve poté zahájit rekonstrukční práci.
+## 8. Meze a otevřené otázky
 
-## 8. Cross-linky
+Model prevence relapsu (Marlatt a Donovan 2005) byl vyvinut pro závislosti a jeho přenos na EA je
+strukturální analogií, ne důkazem stejného mechanismu. Výzkum opakované viktimizace se týká
+převážně sexuálního a partnerského násilí. Otevřená je otázka, jak dlouho po odchodu přetrvává
+zvýšené riziko a zda lze identifikovat ochranné faktory specifické pro EA.
 
-### Sesterské protokoly
-- [Dlouhodobá rekonstrukce komunity](@/kompendium/recovery-protocols/longterm-community-rebuilding.md)
-- [Dlouhodobé prohlubování smyslu](@/kompendium/recovery-protocols/longterm-meaning-deepening.md)
-- [Dlouhodobá kultivace resilience](@/kompendium/recovery-protocols/longterm-resilience-cultivation.md)
+## Literatura
 
-### Klinické články (sekce 06)
-- [Klinické aplikace — index](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-- [Epistemická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- [Kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
-- [Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md)
+- Classen, C. C., Palesh, O. G., & Aggarwal, R. (2005). Sexual revictimization: A review of the
+  empirical literature. *Trauma, Violence, & Abuse*, 6(2).
+- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Cambridge, MA:
+  Harvard University Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Lalich, J., & Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive
+  Relationships*. Berkeley: Bay Tree Publishing.
+- Marlatt, G. A., & Donovan, D. M. (Eds.) (2005). *Relapse Prevention: Maintenance Strategies in
+  the Treatment of Addictive Behaviors* (2nd ed.). New York: Guilford Press.
 
-### EA techniky a fenomény
-- [Gaslighting (technika)](@/glossary/gaslighting.md)
-- [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md)
-- [Hermeneutic outsourcing](@/glossary/hermeneuticky-outsourcing.md)
-- [Identity destruction](@/glossary/identity-destruction.md)
+## Související
 
-### Glosář
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Trauma bonding](@/glossary/trauma-bonding.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+**Sesterské protokoly**
 
-### Platformové reference
-- [Kompendium — hlavní index](@/kompendium/_index.md)
-- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Hlavní glosář](@/glossary/_index.md)
+- [Dlouhodobá kultivace resilience](@/kompendium/recovery-protocols/longterm-resilience-cultivation.md) – ochranné faktory.
+- [Dlouhodobé prohlubování smyslu](@/kompendium/recovery-protocols/longterm-meaning-deepening.md) – smysl jako ochrana před návratem.
+- [Subakutní detekční trénink](@/kompendium/recovery-protocols/subacute-detection-training.md) – rozpoznání struktury kontroly.
 
----
+**Prevence a krize**
 
-## Connect & Contribute
+- [Prevence relapsu](@/kompendium/prevention-resilience/21-relapse-prevention-EA.md) – programová úroveň.
+- [Rozpoznání relapsu](@/kompendium/emergency-protocols/33-relapse-recognition.md) – akutní rozpoznání.
+- [Relapsová krize](@/kompendium/emergency-protocols/34-relapse-emergency.md) – krizový postup.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Pojmy**
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Trauma bonding](@/glossary/trauma-bonding.md) – pouto, které táhne zpět i po letech.
+- [Internalizovaný pachatel](@/glossary/internalizovany-pachatel.md) – hlas, který se vrací.

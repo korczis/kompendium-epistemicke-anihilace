@@ -155,7 +155,3 @@ pracují dlouhodobě.
 
 - [Elder abuse](@/glossary/elder-abuse.md) – zneužívání seniorů.
 - [Intelligence fusion](@/glossary/intelligence-fusion.md) – spojování nezávislých zdrojů.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

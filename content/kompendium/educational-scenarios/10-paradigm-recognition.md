@@ -148,7 +148,3 @@ Domluvte předem, že mohou zvolit roli pozorovatele.
 - [Kuhnova revoluce](@/glossary/kuhnova-revoluce.md) – pojem a jeho meze.
 - [Hermeneutický kruh](@/glossary/hermeneuticky-kruh.md) – porozumění vždy z předporozumění.
 - [Pluralismus](@/glossary/pluralismus.md) – legitimní mnohost perspektiv.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

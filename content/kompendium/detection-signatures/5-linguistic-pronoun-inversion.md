@@ -26,6 +26,8 @@ Signatura plní dvě funkce. **Rozmělnění odpovědnosti**: „my jsme se rozh
 
 U zasažené osoby se dlouhodobá expozice projevuje změnou vlastního zájmenného vzorce: mluví o sobě v množném čísle skupiny („my jsme se rozhodli, že se s rodiči nevídám“), nebo naopak přebírá odpovědnost za chování druhého („musím se víc snažit, aby se nezlobil“). Taková změna je jedním z jazykových korelátů [internalizovaného pachatele](@/glossary/internalizovany-pachatel.md).
 
+Obě funkce mají oporu v sociálněpsychologickém výzkumu. Bandura (1999) popsal rozptýlení a přesunutí odpovědnosti jako mechanismy morálního vyvázání, jimiž lidé uvolňují vlastní sebekontrolu: kde „rozhodla skupina“ nebo „tak to chtěli oni“, necítí se nikdo jednotlivě odpovědný. Zájmenný vzorec je jazykovou stopou právě tohoto přesunu. Tajfel a Turner (1979) zase ukázali, jak silně sociální identita spočívá na rozlišení „my“ a „oni“; inkluzivní „my“ proto není neutrální gramatikou, ale aktem přiřazení ke skupině. Pennebaker (2011) a Tausczik s Pennebakerem (2010) pak doložili, že frekvence zájmen první osoby jednotného a množného čísla se systematicky mění s postavením mluvčího ve vztahu, s jeho emočním stavem i s tím, zda mluví pravdivě. Harsey, Zurbriggen a Freyd (2017) empiricky spojili reakce typu DARVO se sebeobviňováním oběti, což vysvětluje, proč se u zasažené osoby objevuje převzetí odpovědnosti v první osobě.
+
 ## Pozorovatelné markery
 
 ### Lingvistické
@@ -57,26 +59,25 @@ Signatura je pozitivní při splnění bodů 1 a 2; bod 3 ukazuje na kontrolu sk
 
 ## Odlišení od benigních podob
 
-- **Týmová kultura**: „my“ ve sdíleném úspěchu je běžné a zdravé, pokud je odpovědnost za chyby stejně jasně přiznávána.
-- **Institucionální mluva** používá kolektivní subjekt z formálních důvodů; rozhodnutí lze přesto dohledat v zápisech.
-- **Pedagogické a lékařské „my“** („jak se dnes máme?“) je konvence bez funkce přesunu odpovědnosti, i když může působit povýšeně.
-- **Jazykové a kulturní rozdíly**: některé kultury preferují kolektivní subjekt a nepřímé vyjadřování; hodnotit je nutné vůči normě dané komunity.
+Kolektivní subjekt je v mnoha prostředích zdravou normou. V **týmové kultuře** je „my“ ve sdíleném úspěchu běžné a posiluje soudržnost, pokud je odpovědnost za chyby přiznávána stejně jasně jako zásluhy. Signaturu nezakládá „my“ samo, ale jeho asymetrické rozložení: „my“ u úspěchů a „oni“ či „ty“ u chyb.
+
+**Institucionální mluva** používá kolektivní subjekt z formálních důvodů – rozhoduje orgán, ne jednotlivec – a rozhodnutí lze přesto dohledat v zápisech a podpisech. **Pedagogické a lékařské „my“** („jak se dnes máme?“) je zavedená konvence bez funkce přesunu odpovědnosti, i když může působit povýšeně. Brown a Gilman (1960) ukázali, že volba zájmen vyjadřuje vztah moci a blízkosti; v češtině to dobře ilustruje rozlišení tykání a vykání, jehož změna nese vztahovou informaci, ale sama manipulací není.
+
+Konečně je třeba počítat s **jazykovými a kulturními rozdíly**. Některé kultury preferují kolektivní subjekt a nepřímé vyjadřování a hodnotit je nutné vůči normě dané komunity, ne vůči normě hodnotitele.
 
 ## Klinická diferenciální diagnostika
 
-Změna zájmen u zasažené osoby se může podobat:
+Změna zájmen u zasažené osoby se může podobat **depersonalizaci**, při níž osoba mluví o sobě jako o „tom člověku“ nebo ve třetí osobě kvůli pocitu odcizení vlastnímu prožívání. Sierra (2009) popisuje depersonalizaci jako syndrom s typickými prožitky nereality sebe sama, které nejsou vázány na konkrétní vztah (srov. [depersonalizace](@/glossary/depersonalizace.md)). Převzatý zájmenný vzorec je naopak vázán na řeč o určité osobě nebo skupině.
 
-- **depersonalizaci**, při níž osoba mluví o sobě jako o „tom člověku“ nebo ve třetí osobě kvůli pocitu odcizení (srov. [depersonalizace](@/glossary/depersonalizace.md));
-- **disociativním stavům**, kde se „my“ může vztahovat k vnitřním částem osobnosti – zde je nutné specializované vyšetření ([disociativní spektrum](@/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md));
-- **depresivní sebeobviňování**, kde „ty“ i „já“ míří vždy proti sobě bez vztahu k určitému zdroji.
+U **disociativních stavů** se „my“ může vztahovat k vnitřním částem osobnosti; zde je nutné specializované vyšetření, protože záměna s převzatým skupinovým „my“ by vedla k chybné intervenci ([disociativní spektrum](@/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md)). U **depresivního sebeobviňování** míří „ty“ i „já“ vždy proti sobě bez vztahu k určitému zdroji; Rude, Gortner a Pennebaker (2004) zjistili u depresivních a k depresi náchylných osob vyšší podíl zájmen první osoby jednotného čísla, a to napříč tématy.
 
-Rozlišovacím znakem je vztahová vazba: převzatý vzorec se objevuje hlavně v řeči o konkrétní osobě nebo skupině a mizí v neutrálních tématech.
+Rozlišovacím znakem je tedy vztahová vazba: převzatý vzorec se objevuje hlavně v řeči o konkrétní osobě nebo skupině a mizí v neutrálních tématech. Diagnostické posouzení [disociace](@/glossary/disociace.md) i deprese přísluší kvalifikovanému klinikovi.
 
 ## Riziko falešné pozitivity
 
-- Krátký vzorek řeči nedovoluje posoudit systematičnost; jednotlivé „oni rozhodli“ nic neznamená.
-- Manažerský nebo politický styl může být neosobní bez manipulativní funkce.
-- Hodnotitel snadno připíše záměr tam, kde jde o naučený jazykový zvyk. Dokumentovat je třeba vzorec a jeho dopad, ne předpokládanou motivaci.
+Krátký vzorek řeči nedovoluje posoudit systematičnost; jednotlivé „oni rozhodli“ nic neznamená a v běžné řeči se objevuje denně. Signatura vyžaduje opakovaný vzorec doložený ve více situacích, nejlépe v písemných zdrojích, kde lze zájmena spočítat a porovnat podle tématu.
+
+Manažerský nebo politický styl může být neosobní bez manipulativní funkce; někteří lidé se vyhýbají první osobě z ostychu nebo ze stylistické konvence oboru. Hodnotitel také snadno připíše záměr tam, kde jde o naučený jazykový zvyk. Jak upozorňuje Pennebaker (2011), zájmena jsou málo vědomá, a jejich vzorec proto vypovídá spíše o postoji a situaci mluvčího než o jeho plánu. Dokumentovat je třeba vzorec a jeho dopad na rozložení odpovědnosti, ne předpokládanou motivaci.
 
 ## Validační test
 
@@ -100,9 +101,21 @@ Zapisovat doslovné citace se zájmeny, nikoli jejich parafráze („řekl, že 
 
 ## Limity a otevřené otázky
 
-- Čeština vyjadřuje osobu slovesným tvarem a zájmeno často vynechává; metody převzaté z angličtiny je nutné upravit.
-- Zájmena jsou slabý signál, který bez kontextu nevypovídá; jejich síla je v kombinaci s dalšími signaturami.
-- Není jasné, nakolik je změna zájmenného vzorce u zasažené osoby příčinou a nakolik důsledkem ztráty autonomie.
+Čeština vyjadřuje osobu slovesným tvarem a zájmeno často vynechává („rozhodli jsme“ místo „my jsme rozhodli“). Metody počítání zájmen převzaté z angličtiny, včetně slovníku LIWC (Tausczik & Pennebaker, 2010), je proto nutné upravit tak, aby zachytily i slovesnou osobu; bez této úpravy dávají v češtině zkreslené výsledky.
+
+Zájmena jsou slabý signál, který bez kontextu nevypovídá; jejich síla je v kombinaci s dalšími signaturami, zejména s [posunem rámce](@/kompendium/detection-signatures/4-linguistic-framing-shift.md). Otevřenou otázkou zůstává, nakolik je změna zájmenného vzorce u zasažené osoby příčinou a nakolik důsledkem ztráty autonomie, a zda návrat k vlastní první osobě může sloužit jako měřítko zotavení.
+
+## Literatura
+
+- Bandura, A. (1999). Moral disengagement in the perpetration of inhumanities. *Personality and Social Psychology Review*, 3(3), 193–209.
+- Brown, R., & Gilman, A. (1960). The pronouns of power and solidarity. In T. A. Sebeok (Ed.), *Style in Language* (s. 253–276). MIT Press.
+- Freyd, J. J. (1997). Violations of power, adaptive blindness and [betrayal trauma](@/glossary/betrayal-trauma.md) theory. *Feminism & Psychology*, 7(1), 22–32.
+- Harsey, S. J., Zurbriggen, E. L., & Freyd, J. J. (2017). Perpetrator responses to victim confrontation: DARVO and victim self-blame. *Journal of Aggression, Maltreatment & Trauma*, 26(6), 644–663.
+- Pennebaker, J. W. (2011). *The Secret Life of Pronouns: What Our Words Say About Us*. Bloomsbury Press.
+- Rude, S. S., Gortner, E.-M., & Pennebaker, J. W. (2004). Language use of depressed and depression-vulnerable college students. *Cognition and Emotion*, 18(8), 1121–1133.
+- Sierra, M. (2009). *Depersonalization: A New Look at a Neglected Syndrome*. Cambridge University Press.
+- Tajfel, H., & Turner, J. C. (1979). An integrative theory of intergroup conflict. In W. G. Austin & S. Worchel (Eds.), *The Social Psychology of Intergroup Relations* (s. 33–47). Brooks/Cole.
+- Tausczik, Y. R., & Pennebaker, J. W. (2010). The psychological meaning of words: LIWC and computerized text analysis methods. *Journal of Language and Social Psychology*, 29(1), 24–54.
 
 ## Související
 

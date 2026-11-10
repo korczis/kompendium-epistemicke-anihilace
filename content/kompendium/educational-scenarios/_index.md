@@ -108,7 +108,3 @@ jednotlivě, ale pokročilé předpokládají znalost základních.
 - [Kurikulum kritického myšlení](@/kompendium/prevention-resilience/8-critical-thinking-curriculum.md) – zařazení do širšího vzdělávání.
 - [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md) – proč scénáře trénují i opatrnost.
 - [Case Studies](@/kompendium/case-studies/_index.md) – anonymizované případy pro rozšiřující úkoly.
-
-## Connect
-
-Otázky, zpětná vazba: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

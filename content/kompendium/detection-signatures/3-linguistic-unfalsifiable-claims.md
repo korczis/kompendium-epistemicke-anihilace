@@ -31,6 +31,8 @@ Na úrovni struktury jde o **epistemický uzávěr**: tvrzení je chráněno pom
 
 Pro zasaženou osobu je důsledkem, že její vlastní zkušenost přestává mít váhu: každá zkušenost, která tvrzení odporuje, je předem vyložena jako omyl, odpor nebo nedostatek „úrovně“. To je přímá cesta k [indukované pochybnosti](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md) o vlastním úsudku.
 
+Klasickou empirickou ilustraci tohoto mechanismu podali Festinger, Riecken a Schachter (1956), kteří sledovali malou skupinu očekávající konec světa k určitému datu. Když předpověď nenastala, část členů přesvědčení neopustila, ale přijala nový výklad, podle něhož katastrofa byla odvrácena právě díky víře skupiny – a začala ho aktivněji šířit. Nesplněná předpověď se tak proměnila v potvrzení. Popper (1963) obdobné záchranné manévry nazýval konvencionalistickými úskoky a Albert (1968) pro ně zavedl označení imunizační strategie. Lakatos (1970) pak ukázal, že ani ve vědě nejsou pomocné hypotézy samy o sobě nelegitimní; rozhodující je, zda vedou k novým, testovatelným předpovědím, nebo zda jen dodatečně vysvětlují každé selhání. Signatura se týká druhého případu: pomocné předpoklady zde neslouží poznání, ale ochraně nároku na autoritu.
+
 ## Pozorovatelné markery
 
 ### Lingvistické
@@ -62,22 +64,23 @@ Pozitivní je kombinace bodů 1–3. Body 1 a 2 bez bodu 3 popisují spíše ná
 
 ## Odlišení od benigních podob
 
-- **Světonázorová a náboženská přesvědčení** jsou často nefalsifikovatelná a jsou legitimní součástí lidského života. Signaturou se stávají, až když jsou vydávána za empirická fakta a slouží ke kontrole jednání druhých.
-- **Hraniční vědecké teorie** mohou být zatím obtížně testovatelné; jejich zastánci to ale otevřeně přiznávají a hledají podmínky testu.
-- **Hodnotové soudy** („je správné pomáhat“) nejsou empirická tvrzení a falsifikovatelnost se na ně nevztahuje.
-- **Klinická opatrnost** („to se ukáže časem“) je legitimní, pokud je doplněna kritérii, podle nichž se to ukáže.
+**Světonázorová a náboženská přesvědčení** jsou často nefalsifikovatelná a jsou legitimní součástí lidského života. Popper (1959) sám nepovažoval nefalsifikovatelné výroky za nesmyslné; kritérium demarkace oddělovalo empirickou vědu od jiných forem myšlení, nikoli smysl od nesmyslu. Signaturou se taková přesvědčení stávají teprve tehdy, když jsou vydávána za empirická fakta a slouží ke kontrole jednání druhých, například k rozhodování o jejich penězích, vztazích nebo léčbě.
+
+Podobně **hraniční vědecké teorie** mohou být zatím obtížně testovatelné; jejich zastánci to ale otevřeně přiznávají a hledají podmínky testu, což odpovídá Lakatosovu (1970) obrazu progresivního programu v rané fázi. **Hodnotové soudy** („je správné pomáhat“) nejsou empirická tvrzení a falsifikovatelnost se na ně vůbec nevztahuje; jejich přítomnost v řeči proto signaturu nezakládá. Konečně **klinická opatrnost** („to se ukáže časem“) je legitimní, pokud je doplněna kritérii, podle nichž se to ukáže, a časovým rámcem, v němž se bude výsledek hodnotit.
 
 ## Klinická diferenciální diagnostika
 
-- **Bludné přesvědčení** je také rezistentní vůči protidůkazům, ale bývá idiosynkratické, nesdílené a vzniká bez zjevného vnějšího zdroje. Převzaté nefalsifikovatelné tvrzení je doložitelné v materiálech skupiny nebo u konkrétního mluvčího (srov. [diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
-- **Nadhodnocené myšlenky** u některých úzkostných a obsedantních stavů se drží s velkou intenzitou, osoba ale obvykle připouští, že by mohla být mylná.
-- **Kognitivní rigidita** po poranění mozku nebo při demenci se týká myšlení obecně, ne jednoho převzatého systému.
+**Bludné přesvědčení** je také rezistentní vůči protidůkazům, ale bývá idiosynkratické, nesdílené a vzniká bez zjevného vnějšího zdroje. Jaspers (1913) popisoval nevývratnost jako jeden z vnějších znaků bludu, zároveň však upozornil, že sama o sobě k rozpoznání bludu nestačí. Převzaté nefalsifikovatelné tvrzení je na rozdíl od bludu doložitelné v materiálech skupiny nebo u konkrétního mluvčího a sdílí je více osob (srov. [diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
+
+**Nadhodnocené myšlenky** u některých úzkostných a obsedantních stavů se drží s velkou intenzitou, osoba ale obvykle připouští, že by mohla být mylná, a často jimi trpí. **Kognitivní rigidita** po poranění mozku nebo při demenci se týká myšlení obecně, ne jednoho převzatého systému, a projeví se při neuropsychologickém vyšetření. U všech těchto stavů je rozlišení věcí kvalifikovaného klinika; signatura pouze upozorňuje, že rezistence vůči protidůkazům může mít i původ v prostředí, nikoli jen v poruše.
 
 ## Riziko falešné pozitivity
 
-- Ne každé nepřesné tvrzení je imunizované; lidé běžně mluví nepřesně. Teprve opakované vyhnutí se podmínce vyvrácení po přímém dotazu je relevantní.
-- Hodnotitel může nefalsifikovatelností označit tvrzení, s nímž nesouhlasí, zatímco vlastní nefalsifikovatelná přesvědčení přehlíží. Pomáhá supervize a [osobní audit zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md).
-- Popperovo kritérium je samo předmětem filozofické kritiky; v detekci slouží jako praktický nástroj, nikoli jako konečný soud o smysluplnosti výroku.
+Ne každé nepřesné tvrzení je imunizované; lidé běžně mluví nepřesně, nadsazují a nechávají podmínky platnosti nevyslovené. Relevantní je teprve opakované vyhnutí se podmínce vyvrácení po přímém a věcném dotazu, nikoli jediná neurčitá věta v běžné konverzaci.
+
+Závažnějším rizikem je asymetrie na straně hodnotitele. Může nefalsifikovatelností označit tvrzení, s nímž nesouhlasí, zatímco vlastní nefalsifikovatelná přesvědčení přehlíží. Nickerson (1998) shrnul doklady, že konfirmační zkreslení se projevuje i u odborníků, a proto je u této signatury zvlášť důležitá supervize a [osobní audit zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md).
+
+Konečně je třeba pamatovat, že Popperovo kritérium je samo předmětem filozofické kritiky. Kuhn (1962) ukázal, že vědci anomálie běžně snášejí, aniž by teorii opustili, a Laudan (1983) zpochybnil, že existuje jediné kritérium demarkace. V detekci proto falsifikovatelnost slouží jako praktický nástroj k položení otázky „co by tě přesvědčilo o opaku?“, nikoli jako konečný soud o smysluplnosti výroku.
 
 ## Validační test
 
@@ -107,9 +110,21 @@ Zaznamenat doslovné znění tvrzení, předpovědi s daty, následný vývoj a 
 
 ## Limity a otevřené otázky
 
-- Mnohá smysluplná lidská přesvědčení jsou nefalsifikovatelná; signatura nesmí sloužit k zesměšňování víry.
-- Hranice mezi „dosud netestovaným“ a „principiálně netestovatelným“ tvrzením se v praxi těžko určuje.
-- Imunizace může být nevědomá – zdroj sám tvrzení věří a chrání ho stejnými mechanismy jako ostatní.
+Mnohá smysluplná lidská přesvědčení jsou nefalsifikovatelná, a signatura proto nesmí sloužit k zesměšňování víry ani k paušálnímu podezírání náboženských společenství. Její předmět je užší: použití nefalsifikovatelného výroku jako empirického nároku, který řídí jednání jiných a jehož zpochybnění je sankcionováno.
+
+V praxi se také těžko určuje hranice mezi „dosud netestovaným“ a „principiálně netestovatelným“ tvrzením. Lakatos (1970) ukázal, že o degenerativnosti programu lze rozhodnout jen zpětně a v delším čase, a totéž platí pro jednotlivé výroky mluvčího. Imunizace navíc může být nevědomá: zdroj sám tvrzení věří a chrání ho stejnými mechanismy jako ostatní, jak ukazuje i pozorování Festingera a spolupracovníků (1956). Otázka úmyslu proto do detekce nepatří; signatura popisuje strukturu výroku, nikoli motivaci toho, kdo jej pronáší.
+
+## Literatura
+
+- Albert, H. (1968). *Traktat über kritische Vernunft*. J. C. B. Mohr (Paul Siebeck).
+- Festinger, L., Riecken, H. W., & Schachter, S. (1956). *When Prophecy Fails*. University of Minnesota Press.
+- Jaspers, K. (1913). *Allgemeine Psychopathologie*. Springer.
+- Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
+- Lakatos, I. (1970). Falsification and the methodology of scientific research programmes. In I. Lakatos & A. Musgrave (Eds.), *Criticism and the Growth of Knowledge* (s. 91–196). Cambridge University Press.
+- Laudan, L. (1983). The demise of the demarcation problem. In R. S. Cohen & L. Laudan (Eds.), *Physics, Philosophy and Psychoanalysis* (s. 111–127). D. Reidel.
+- Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. Hutchinson.
+- Popper, K. R. (1963). *Conjectures and Refutations: The Growth of Scientific Knowledge*. Routledge & Kegan Paul.
 
 ## Související
 

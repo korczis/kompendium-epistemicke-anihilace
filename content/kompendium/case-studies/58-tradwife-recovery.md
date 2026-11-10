@@ -16,153 +16,215 @@ toc = true
 
 # Případová studie 58: Zotavení z tradwife sítě
 
-> **Upozornění:** Anonymizovaný kompozit několika strukturálně podobných případů. Jména, místa,
-> časové údaje a identifikující detaily jsou změněny. Text je určen kvalifikovaným odborníkům
-> a slouží k rozpoznání, prevenci a léčbě, nikoli jako návod. Nehodnotí tradiční ani
-> konzervativní způsob života jako takový; popisuje, jak se za jeho estetikou může skrývat
-> [coercive control](@/glossary/coercive-control.md).
+> **Upozornění:** Anonymizovaný kompozit několika strukturálně podobných případů; jména, místa,
+> časové údaje a identifikující detaily jsou změněny podle zásad, které pro publikaci klinického
+> materiálu formuloval Gabbard (2000). Text je určen kvalifikovaným odborníkům a slouží
+> k rozpoznání, prevenci a léčbě, nikoli jako návod. Nehodnotí tradiční ani konzervativní způsob
+> života jako takový; popisuje, jak se za jeho estetikou může skrývat
+> [koercivní kontrola](@/glossary/coercive-control.md) (coercive control).
 
 ## Výchozí situace subjektu
 
 Žena, 29 let, vystudovaná žurnalistka, redaktorka ve velkém zpravodajském médiu, se stálým
-partnerem a progresivními hodnotami. Po několika letech nočních směn a tlaku na výkon
-vyhořela (v MKN-11 jde o pracovní fenomén QD85, nikoli o nemoc). Vstupní motivací bylo
-hledání klidnější a smysluplnější role a únik z pocitu, že „život je jen deadline“.
+partnerem a progresivními hodnotami. Po několika letech nočních směn a tlaku na výkon vyhořela;
+v MKN-11 je vyhoření vedeno pod kódem QD85 jako fenomén spojený se zaměstnáním, nikoli jako
+nemoc (World Health Organization, 2019). Vstupní motivací bylo hledání klidnější a smysluplnější
+role a únik z pocitu, že „život je jen deadline“. Maslach a Leiter (2016) popisují vyhoření jako
+souběh vyčerpání, cynismu a ztráty pocitu účinnosti, tedy stav, v němž je radikální životní
+obrat obzvlášť lákavý.
 
-Rizikové faktory: vyhoření, idealismus a sklon k celkovým životním obratům, romantizace
+Rizikové faktory tvořilo vyhoření, idealismus a sklon k celkovým životním obratům, romantizace
 „jednoduchého“ života, finanční situace, která na začátku umožňovala zvažovat odchod z práce,
-a esteticky velmi přitažlivý obsah na obrazových sociálních sítích.
+a esteticky velmi přitažlivý obsah na obrazových sociálních sítích. Abidin (2018) ukazuje, že
+internetová slavná osobnost staví autoritu na pečlivě kurátorované intimitě; publikum vnímá
+každodenní život influencerky jako autentický, i když je zároveň jejím výdělkem.
 
 ## Časová osa expozice
 
-| Fáze | Trvání | Klíčové události |
-|------|--------|------------------|
-| Vstup | měsíce 1–3 | Estetika domácnosti, pečení, šatů a „jemné ženskosti“ jako únik ze stresu |
-| Prohlubování | měsíce 4–12 | Obsah o „podřízení“ manželovi, odmítání feminismu jako příčiny ženského neštěstí |
-| Přestavba světonázoru | roky 1–2 | Rozchod s partnerem, sňatek s mužem z komunity, odchod z práce, mateřství |
-| Konsolidace | roky 2–4 | Ekonomická závislost, kontrola financí a kontaktů manželem, izolace |
-| Krize a odchod | rok 4+ | Odhalení manželovy nevěry a obviňování, že „se nepodřizovala dost“ |
+V prvních třech měsících šlo o estetiku domácnosti, pečení, šatů a „jemné ženskosti“ jako únik
+ze stresu. Vstupní obsah byl vizuálně krásný a emocionálně uklidňující a fungoval jako regulace
+napětí po letech pracovního přetížení. Maslach a Leiter (2016) připomínají, že vyhořelí lidé
+hledají především obnovu kontroly a smyslu; obsah nabízel obojí v podobě, která nevyžadovala
+žádné rozhodnutí.
 
-Vstupní obsah byl vizuálně krásný a emocionálně uklidňující. Prohlubování přineslo
-explicitní ideologii: „žena je nejšťastnější, když se podřídí“, zabalenou do sladké estetiky.
-Komunita jí doporučila „muže, který povede“; brzy se za něj provdala, odešla z práce a
-narodilo se dítě. V konsolidaci manžel postupně převzal kontrolu nad penězi, omezoval její
-kontakty s rodinou a přáteli a odrazoval ji od dalšího vzdělávání. Komunita všechny obtíže
-vykládala jako její selhání v „podřízenosti“.
+Mezi čtvrtým a dvanáctým měsícem přineslo prohlubování explicitní ideologii: obsah o „podřízení“
+manželovi a odmítání feminismu jako příčiny ženského neštěstí, zabalený do sladké estetiky.
+Nguyen (2020) popisuje, jak se z prostředí, v němž jiné hlasy jen chybějí, stává ozvěnová komora
+(echo chamber), v níž jsou vnější hlasy předem označeny za nedůvěryhodné; feminismus zde plnil
+právě roli předem zdiskreditovaného zdroje.
+
+V prvním až druhém roce proběhla přestavba světonázoru. Klientka se rozešla s partnerem;
+komunita jí doporučila „muže, který povede“, brzy se za něj provdala, odešla z práce a narodilo
+se dítě. Mezi druhým a čtvrtým rokem manžel postupně převzal kontrolu nad penězi, omezoval její
+kontakty s rodinou a přáteli a odrazoval ji od dalšího vzdělávání. Stark (2007) popisuje
+koercivní kontrolu jako vzorec mikroregulace každodenního života, izolace a ekonomické závislosti,
+který omezuje svobodu oběti bez nutnosti fyzického násilí. Komunita přitom všechny obtíže
+vykládala jako její selhání v „podřízenosti“. Krize přišla po čtvrtém roce s odhalením manželovy
+nevěry a obviňováním, že „se nepodřizovala dost“.
 
 ## Projevené EA techniky
 
-- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) –
-  influencerky jako vzory, jejichž (často výdělečně placený) život byl prezentován jako
-  normativní ideál.
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
-  – „vedení“, „podřízení“, „biblické ženství“ jako pojmy, které mění kontrolu v ctnost.
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – „buď
-  šťastná tradiční žena, nebo osamělá feministka“.
-- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
-  – strach z „moderní samoty“ a z „promarněné ženskosti“.
-- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) –
-  feed, ve kterém neexistovaly ženy, jimž tento model ublížil.
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
-  – nešťastné ženy v komunitě „to nedělaly správně“.
-- [EA-5.1.9 Identitní dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
-  – ztráta profesní identity, vlastních peněz, vlastních vztahů a nakonec i vlastního názoru.
+Autoritu nesl [vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md):
+influencerky jako vzory, jejichž (často výdělečně placený) život byl prezentován jako normativní
+ideál. K němu se přidala [terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) –
+„vedení“, „podřízení“ a „biblické ženství“ jako pojmy, které mění kontrolu v ctnost. Lifton
+(1961) tento jev nazývá „nabitým jazykem“ ([loading the language](@/glossary/loading-the-language.md)): slova, která uzavírají úvahu
+dřív, než začne.
+
+Volbu zužovalo [falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) „buď šťastná
+tradiční žena, nebo osamělá feministka“ a [latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
+v podobě strachu z „moderní samoty“ a z „promarněné ženskosti“. [Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
+vytvořila feed, ve kterém neexistovaly ženy, jimž tento model ublížil, a [imunizace proti
+falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) zajistila, že
+nešťastné ženy v komunitě „to nedělaly správně“. Lalich (2004) označuje takové uspořádání za
+samouzavírající se systém, v němž každý protipříklad potvrzuje doktrínu.
+
+Výsledkem byla [identitní dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md):
+ztráta profesní identity, vlastních peněz, vlastních vztahů a nakonec i vlastního názoru. Adams
+a kolegové (2008) ukazují, že ekonomické zneužívání – kontrola příjmu, zákaz práce, sabotáž
+vzdělávání – je samostatnou a měřitelnou dimenzí partnerského násilí, která výrazně snižuje
+schopnost oběti odejít.
 
 ## Fenomenologický průběh
 
-„Když jsem zjistila, že manžel má jiné ženy, něco se rozsypalo. Roky jsem věřila, že
-podřízení přinese harmonii. A on mi vyčítal, že kdybych se podřizovala líp, nemusel by to
-dělat. A já jsem se přistihla, že tomu věřím. Pak mi došlo, že je mi přes třicet, nemám práci,
-nemám vlastní peníze, moje znalosti jsou roky staré – a myslím si, že je to moje vina.“
+„Když jsem zjistila, že manžel má jiné ženy, něco se rozsypalo. Roky jsem věřila, že podřízení
+přinese harmonii. A on mi vyčítal, že kdybych se podřizovala líp, nemusel by to dělat. A já jsem
+se přistihla, že tomu věřím. Pak mi došlo, že je mi přes třicet, nemám práci, nemám vlastní
+peníze, moje znalosti jsou roky staré – a myslím si, že je to moje vina.“ Výpověď ukazuje
+[trauma ze zrady](@/glossary/betrayal-trauma.md) (betrayal trauma), které podle Freyd (1996)
+zůstává dlouho nerozpoznané, protože oběť je na pachateli existenčně závislá.
 
-Výpověď ukazuje [betrayal trauma](@/glossary/betrayal-trauma.md) i obrácení viny typické pro
-[DARVO](@/glossary/darvo.md) a [blame shifting](@/glossary/blame-shifting.md). Důležitý je
-okamžik, kdy si klientka všimla vlastní reakce („přistihla jsem se“): začátek obnovy
-[metakognice](@/glossary/metakognice.md). Po odchodu převládaly úzkost, ekonomický strach
-a [skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md):
-„Dokážu vůbec ještě něco sama?“
+Výpověď ukazuje také obrácení viny typické pro [DARVO](@/glossary/darvo.md), tedy vzorec popření,
+útoku a záměny role oběti a pachatele, který popsala Freyd (1997), a [přesouvání viny](@/glossary/blame-shifting.md)
+(blame shifting). Harsey, Zurbriggen a Freyd (2017) doložili, že vystavení DARVO zvyšuje
+sebeobviňování oběti, což odpovídá klientčině větě „myslím si, že je to moje vina“.
+
+Důležitý je okamžik, kdy si klientka všimla vlastní reakce („přistihla jsem se“), protože
+představuje začátek obnovy [metakognice](@/glossary/metakognice.md). Po odchodu převládaly úzkost,
+ekonomický strach a [skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md):
+„Dokážu vůbec ještě něco sama?“ Sweet (2019) upozorňuje, že manipulace realitou v partnerském
+vztahu je nejúčinnější tam, kde oběť nemá vlastní ekonomické a sociální zdroje.
 
 ## Detekční bod
 
-Odhalení nevěry a následná obvinění. Klientka vyhledala praktickou lékařku kvůli nespavosti;
-lékařka se zeptala na bezpečí doma a nabídla kontakt na poradnu pro oběti domácího násilí.
-Terapeutka se zkušeností s koercivní kontrolou situaci pojmenovala jako vzorec kontroly, ne
-jako „tradiční manželství“. Markery: [akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md),
-kontrola financí a pohybu, omezení vzdělávání, obviňování oběti a závislost na jediném
-zdroji výkladu reality.
+Detekčním bodem bylo odhalení nevěry a následná obvinění. Klientka vyhledala praktickou lékařku
+kvůli nespavosti; lékařka se zeptala na bezpečí doma a nabídla kontakt na poradnu pro oběti
+domácího násilí. Terapeutka se zkušeností s koercivní kontrolou pak situaci pojmenovala jako
+vzorec kontroly, ne jako „tradiční manželství“, což odpovídá požadavku posuzovat
+vztah jako celek, nikoli jako sérii jednotlivých incidentů (Stark, 2007).
+
+Markery tvořila [akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md),
+kontrola financí a pohybu, omezení vzdělávání, obviňování oběti a závislost na jediném zdroji
+výkladu reality. Herman (1992) zdůrazňuje, že u dlouhodobé kontroly přichází oběť k lékaři
+často s tělesnými potížemi; dotaz na bezpečí v běžné ambulanci je proto jedním
+z nejúčinnějších detekčních nástrojů.
 
 ## Diferenciální diagnostika
 
-- **Autentický konzervativní životní styl.** Volba být doma s dětmi nebo žít podle
-  náboženských hodnot není patologie. Rozhodující jsou svoboda odejít, přístup k penězům,
-  kontakt s rodinou a přáteli a možnost nesouhlasit bez sankce.
-- **Běžný manželský konflikt.** Odlišuje se symetrií moci; zde šlo o jednostranný vzorec
-  kontroly (viz [Stark: coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md)).
-- **Poporodní deprese a úzkost.** Mohly přispět ke zranitelnosti a je nutné je posoudit
-  samostatně.
-- **Komplexní PTSD (MKN-11 6B41).** Po odchodu byly přítomny rysy (narušený sebeobraz,
-  potíže ve vztazích, emoční dysregulace); diagnóza byla zvažována, ale ponechána k
-  dalšímu sledování.
+**Autentický konzervativní životní styl** není patologie: volba být doma s dětmi nebo žít podle
+náboženských hodnot je legitimní. Rozhodující jsou svoboda odejít, přístup k penězům, kontakt
+s rodinou a přáteli a možnost nesouhlasit bez sankce; tato kritéria odpovídají definici
+koercivní kontroly jako omezení svobody, nikoli jako odchylky od určitých hodnot (Stark, 2007).
+
+**Běžný manželský konflikt** se odlišuje symetrií moci. Zde šlo o jednostranný vzorec kontroly,
+jak ho popisuje [Starkův rámec koercivní kontroly](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md);
+Adams a kolegové (2008) navíc ukazují, že ekonomická kontrola se v běžném konfliktu
+nevyskytuje jako trvalý a cílený vzorec.
+
+**Poporodní deprese a úzkost** mohly přispět ke zranitelnosti a je nutné je posoudit samostatně,
+protože vyžadují vlastní léčbu a samy o sobě nevysvětlují vztahovou strukturu. MKN-11 umožňuje
+zachytit poruchy nálady v souvislosti s porodem odděleně od kontextu vztahu (World Health
+Organization, 2019).
+
+**Komplexní PTSD** (MKN-11, 6B41) byla po odchodu zvažována: byly přítomny narušený sebeobraz,
+potíže ve vztazích a emoční dysregulace. Diagnóza byla ponechána k dalšímu sledování; Herman
+(1992) koncept komplexního traumatu formulovala právě pro dlouhodobou expozici kontrole, z níž
+nebylo snadné uniknout.
 
 ## Intervenční strategie
 
-Léčba proběhla v pěti fázích. Terapeutické jádro tvořil [protokol epistemické
-rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) se stupni S1 validace a
-mapování, S2 externalizace introjektů, S3 rekonstrukce metakognice, S4 hermeneutická obnova, S5
-konsolidace a transfer; fáze níže ukazují, jak byl zasazen do celého plánu:
+Léčba proběhla v pěti fázích a jejím jádrem byl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+se stupni S1 validace a mapování, S2 externalizace introjektů, S3 rekonstrukce metakognice,
+S4 hermeneutická obnova a S5 konsolidace a transfer. Pořadí fází respektovalo Hermanové zásadu,
+že bezpečí předchází zpracování (Herman, 1992).
 
-- **Fáze 1 – Stabilizace:** bezpečnostní plán odchodu, poradna pro oběti domácího násilí,
-  právní pomoc (péče o dítě, výživné, majetek), přechodné bydlení u rodičů
-  ([protokol domácího násilí](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md)).
-  Trestní zákoník (zákon č. 40/2009 Sb.) postihuje i týrání osoby žijící ve společném
-  obydlí; o případných krocích rozhodovala klientka s právničkou.
-- **Fáze 2 – Externí kotva:** skupina pro ženy po koercivních vztazích; obnova kontaktu
-  s rodinou a dvěma bývalými kolegyněmi.
-- **Fáze 3 – Rekonstrukce identity:** návrat k profesní identitě, kurzy aktualizující znalosti,
-  ekonomická samostatnost; práce s vnitřním hlasem, který přebírá výčitky manžela
-  ([rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md)).
-- **Fáze 4 – Vztahy:** postupné budování vztahů s jasnými hranicemi
-  ([nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md)).
-- **Fáze 5 – Integrace:** oddělení toho, co na domácím životě skutečně měla ráda, od ideologie
-  podřízení; dobrovolná práce v poradně pro ženy v podobné situaci.
+Stabilizace zahrnovala bezpečnostní plán odchodu, poradnu pro oběti domácího násilí, právní
+pomoc ve věci péče o dítě, výživného a majetku a přechodné bydlení u rodičů podle [protokolu
+domácího násilí](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md). Trestní zákoník,
+zákon č. 40/2009 Sb., postihuje v § 199 i týrání osoby žijící ve společném obydlí; o případných
+krocích rozhodovala klientka s právničkou, nikoli terapeutka.
+
+Externí kotvou se stala skupina pro ženy po koercivních vztazích a obnovený kontakt s rodinou
+a dvěma bývalými kolegyněmi. Lalich a Tobias (2006) považují skupinu lidí s podobnou zkušeností
+za klíčový prvek zotavení, protože vrací pocit, že vlastní zážitek je sdělitelný a srozumitelný.
+
+[Rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md)
+znamenala návrat k profesní identitě, kurzy aktualizující znalosti, ekonomickou samostatnost
+a práci s vnitřním hlasem, který přebírá výčitky manžela. Následovalo postupné budování vztahů
+s jasnými hranicemi podle zásad [nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md).
+Integrace oddělila to, co na domácím životě skutečně měla ráda, od ideologie podřízení,
+a vyústila v dobrovolnou práci v poradně pro ženy v podobné situaci; Herman (1992) označuje
+takovou „misi přeživší“ za jednu z cest ke znovupropojení.
 
 ## Výsledek
 
-Po 30 měsících funkční stabilizace. Pracuje znovu v médiích, je ekonomicky samostatná, péče
-o dítě je upravena soudně a bezpečně. Reziduálně: ostražitost vůči mužům, kteří zdůrazňují
-„tradiční role“, úzkost při finančních rozhodnutích a stud vůči bývalým kolegům. Kontakty
-se ženami z komunity ustaly; některé ji veřejně odsoudily.
+Po 30 měsících nastala funkční stabilizace. Klientka pracuje znovu v médiích, je ekonomicky
+samostatná a péče o dítě je upravena soudně a bezpečně. Reziduálně přetrvává ostražitost vůči
+mužům, kteří zdůrazňují „tradiční role“, úzkost při finančních rozhodnutích a stud vůči bývalým
+kolegům. Kontakty se ženami z komunity ustaly a některé ji veřejně odsoudily; Lalich a Tobias
+(2006) popisují ztrátu celé sociální sítě jako běžnou cenu odchodu.
 
 ## Klinické poučení
 
-- Estetická a „tradiční“ rétorika může maskovat koercivní kontrolu; rozhodující je
-  struktura moci ve vztahu, ne hodnoty jako takové.
-- Doktrína podřízení v praxi často znamená úplnou ekonomickou a vztahovou závislost;
-  ekonomická samostatnost je klíčovým ochranným faktorem.
-- Dotaz praktického lékaře na bezpečí doma může být prvním bodem detekce.
-- Otevřená otázka: jak odlišit dobrovolnou volbu tradiční role od postupně budované
-  závislosti v čase, kdy je žena ještě uvnitř a vztah sama hájí.
+Estetická a „tradiční“ rétorika může maskovat koercivní kontrolu; rozhodující je struktura moci
+ve vztahu, ne hodnoty jako takové (Stark, 2007). Doktrína podřízení v praxi často znamená úplnou
+ekonomickou a vztahovou závislost, a ekonomická samostatnost je proto klíčovým ochranným
+faktorem, jak naznačuje výzkum ekonomického zneužívání (Adams et al., 2008).
+
+Dotaz praktického lékaře na bezpečí doma může být prvním bodem detekce a nemá být vyhrazen
+pacientkám s viditelnými zraněními (Herman, 1992). Otevřenou otázkou zůstává, jak odlišit
+dobrovolnou volbu tradiční role od postupně budované závislosti v čase, kdy je žena ještě uvnitř
+a vztah sama hájí; Freyd (1996) vysvětluje, proč vnitřní obhajoba vztahu není dokladem jeho
+bezpečnosti.
+
+## Literatura
+
+- Abidin, C. (2018). *Internet Celebrity: Understanding Fame Online*. Emerald Publishing.
+- Adams, A. E., Sullivan, C. M., Bybee, D., a Greeson, M. R. (2008). Development of the Scale of Economic Abuse. *Violence Against Women*.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Freyd, J. J. (1997). Violations of power, adaptive blindness, and betrayal trauma theory. *Feminism & Psychology*.
+- Gabbard, G. O. (2000). Disguise or consent: Problems and recommendations concerning the publication and presentation of clinical material. *International Journal of Psychoanalysis*.
+- Harsey, S. J., Zurbriggen, E. L., a Freyd, J. J. (2017). Perpetrator responses to victim confrontation: DARVO and victim self-blame. *Journal of Aggression, Maltreatment & Trauma*.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
+- Lalich, J., a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Maslach, C., a Leiter, M. P. (2016). Understanding the burnout experience: Recent research and its implications for psychiatry. *World Psychiatry*.
+- Nguyen, C. T. (2020). Echo chambers and epistemic bubbles. *Episteme*.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
+- Sweet, P. L. (2019). The sociology of [gaslighting](@/glossary/gaslighting.md). *American Sociological Review*.
+- World Health Organization. (2019). *International Classification of Diseases, 11th Revision (ICD-11)*. WHO.
 
 ## Související
 
-### Techniky
-- [EA-8.2.5 Stark Coercive Control Framework](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) — rámec pro vzorec kontroly
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — tradiční žena, nebo osamělá feministka
+**Techniky**
 
-### Glosář
-- [Coercive control](@/glossary/coercive-control.md) — jádro případu
-- [DARVO](@/glossary/darvo.md) — obrácení viny
-- [Trauma bonding](@/glossary/trauma-bonding.md) — vazba, která ztěžuje odchod
+- [EA-8.2.5 Stark Coercive Control Framework](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) – rámec pro vzorec kontroly.
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – tradiční žena, nebo osamělá feministka.
 
-### Protokoly a obrana
-- [EA-6.4.6 Domácí násilí (DV) protokol](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) — klinický postup
-- [Právo o coercive control](@/kompendium/forensic-legal/12-coercive-control-law.md) — právní rámec
-- [Pracovní rehabilitace](@/kompendium/prevention-resilience/25-vocational-rehabilitation-prevention.md) — návrat do profese
+**Pojmy**
 
-### Sousední případy
-- [Případ 08: Partnerský gaslighting](@/kompendium/case-studies/08-gaslighting-partnersky.md) — kontrola v partnerském vztahu
-- [Případ 57: Zotavení z MRA sítě](@/kompendium/case-studies/57-mra-recovery.md) — zrcadlový genderový narativ
+- [Coercive control](@/glossary/coercive-control.md) – jádro případu.
+- [DARVO](@/glossary/darvo.md) – obrácení viny.
+- [Trauma bonding](@/glossary/trauma-bonding.md) – vazba, která ztěžuje odchod.
 
----
+**Protokoly a obrana**
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+- [EA-6.4.6 Domácí násilí (DV) protokol](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) – klinický postup.
+- [Právo o coercive control](@/kompendium/forensic-legal/12-coercive-control-law.md) – právní rámec.
+- [Pracovní rehabilitace](@/kompendium/prevention-resilience/25-vocational-rehabilitation-prevention.md) – návrat do profese.
+
+**Sousední případy**
+
+- [Případ 08: Partnerský gaslighting](@/kompendium/case-studies/08-gaslighting-partnersky.md) – kontrola v partnerském vztahu.
+- [Případ 57: Zotavení z MRA sítě](@/kompendium/case-studies/57-mra-recovery.md) – zrcadlový genderový narativ.

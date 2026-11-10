@@ -78,10 +78,3 @@ Filozofie dodnes nemá shodu, co přesně odlišuje manipulaci od legitimního p
 
 - [Konfirmační bias](@/glossary/konfirmacni-bias.md) – proč hodnotitel, který hledá techniky, je najde.
 - [Heuristika](@/glossary/heuristika.md) – status, který kategorie EA mají mít.
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

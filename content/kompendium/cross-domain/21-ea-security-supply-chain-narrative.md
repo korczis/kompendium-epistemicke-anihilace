@@ -1,6 +1,6 @@
 +++
-title = "EA × Security: Supply Chain Narrative Attacks"
-description = "Supply chain attacks zahrnují narrative manipulation — ne just code injection"
+title = "Bezpečnost: dodavatelský řetězec a narativy o dodavatelích"
+description = "Kompromitace dodavatelského řetězce a příběhy o důvěryhodnosti dodavatelů: jak odlišit doložené riziko od reputační kampaně a jak rozhodovat při neúplných informacích."
 weight = 210
 
 [taxonomies]
@@ -8,84 +8,160 @@ tags = ["kompendium", "cross-domain", "security"]
 categories = ["academic", "platform-integration"]
 
 [extra]
-related_terms = ["2-ea-osint-czech-ares-validation", "20-ea-security-insider-threat", "22-ea-security-incident-response-narrative", "23-ea-security-attribution-bias"]
+related_terms = ["24-ea-security-threat-intelligence-validation", "23-ea-security-attribution-bias", "25-ea-compliance-nis2-integrity", "12-ea-dd-counterparty-manipulation"]
 parent = "kompendium-cross-domain"
 toc = true
 +++
 
-# EA × Security: Supply Chain Narrative Attacks
+Organizace nejsou bezpečné jen samy o sobě; jsou tak bezpečné jako software, služby
+a zařízení, které od dodavatelů přebírají. Kompromitace dodavatelského řetězce – kdy útočník
+napadne dodavatele a přes jeho legitimní produkt se dostane k zákazníkům – patří k nejzávažnějším
+typům útoků. Zároveň se kolem dodavatelů vedou spory, v nichž se mísí doložená bezpečnostní
+rizika, geopolitika, obchodní konkurence a reputační kampaně. Pro organizaci je obtížné
+rozhodnout, čemu věřit. Tato stránka spojuje obě roviny: technickou důvěru v dodavatele
+a epistemickou důvěru v příběhy o nich.
 
-> **Cross-domain bridge** mezi Epistemic Attacks (EA) frameworkem a doménou **Security**.
+## Doména a problém
 
-## Doména
+Dva dobře doložené incidenty ilustrují technickou rovinu. V roce 2017 se škodlivý kód
+NotPetya rozšířil přes aktualizaci ukrajinského účetního softwaru M.E.Doc a způsobil
+rozsáhlé škody firmám po celém světě. V prosinci 2020 vyšlo najevo, že útočníci
+kompromitovali sestavovací proces platformy Orion firmy SolarWinds a do legitimních
+aktualizací vložili zadní vrátka, která se dostala k tisícům zákazníků včetně vládních
+institucí. V obou případech zákazníci dělali přesně to, co se doporučuje – instalovali
+aktualizace od důvěryhodného dodavatele.
 
-**Security** v kontextu Prismatic Platform pokrývá: investigativní operace, due-diligence pipeline, security operations, regulatory compliance. Tato doména se v posledních letech transformovala — z procedurální kontroly na **adversarial intelligence operation**, kde každý zdroj informace je potenciálně manipulovaný a každé rozhodnutí je výsledkem narrative warfare.
+Druhou rovinou jsou **varování a narativy** o dodavatelích. Národní úřad pro kybernetickou
+a informační bezpečnost vydal v prosinci 2018 varování před používáním technických
+a programových prostředků společností Huawei a ZTE v kritické infrastruktuře; německý
+úřad BSI v březnu 2022 varoval před používáním antivirového softwaru Kaspersky. Taková
+varování vycházejí z posouzení rizik, které zahrnuje právní prostředí země dodavatele
+a možnost státního vlivu, a nikoli nutně z prokázané kompromitace konkrétního produktu.
+Kolem nich se pak vedou veřejné spory, v nichž jedna strana mluví o bezpečnosti a druhá
+o protekcionismu nebo politice.
 
-Klasické nástroje této domény (rule-based monitoring, document verification, technical IOCs) byly designovány pro epistemic-stable prostředí. Současná realita — AI-generovaný obsah, koordinované disinformační kampaně, sophisticated obfuscation — vyžaduje **EA-augmented** přístup.
+Organizace, která rozhoduje o dodavateli, tak musí současně hodnotit technické důkazy,
+oficiální varování, mediální příběhy a vlastní závislost na dodavateli – často bez přístupu
+k utajeným podkladům, z nichž varování vychází.
 
-## EA Relevance
+## Průnik s epistemickou anihilací
 
-SolarWinds, Log4j, xz-utils — supply chain attacks combine technical exploitation s narrative engineering (legitimate maintainer trust, urgency framing). EA-Security audits supplier narratives.
+Kniha popisuje, jak manipulace mění to, komu člověk věří, a jak lze důvěru zneužít právě
+tam, kde je nejpevnější. Kompromitace dodavatelského řetězce je technickou podobou tohoto
+mechanismu: útok prochází kanálem, který byl ověřen jako důvěryhodný. Epistemicky je
+podobný [reputation laundering](@/kompendium/detection-signatures/23-network-reputation-laundering.md)
+– škodlivý obsah získává důvěryhodnost tím, že prochází důvěryhodným prostředníkem.
 
-EA framework přináší do security domény tři kritické dimenze:
+Na rovině narativů se uplatňuje [falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)
+(„všichni dodavatelé jsou stejně rizikoví“) i opačný extrém – [pseudo-kontroverze](@/kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md),
+v níž se doložené riziko prezentuje jako pouhý názor. Dodavatelé i jejich konkurenti mají
+zájem příběh ovlivnit, a organizace, která hodnotí jen veřejně dostupné informace, může
+snadno převzít rámec té strany, která komunikuje hlasitěji.
 
-1. **Narrative integrity** — informace není jen fact, ale součást příběhu. Manipulátor pracuje s celým narrativem, ne s izolovanými fakty.
-2. **Source provenance** — proveniencia každé informace musí být sledovatelná až k root-source, ne jen k poslednímu publisher.
-3. **Adversarial assumption** — předpokládáme, že někdo se aktivně snaží manipulovat naše rozhodování. Bez této assumption padáme do confirmation bias a source-laundering pastí.
+Třetím průnikem je závislost. Organizace, která je na dodavateli kriticky závislá, má
+silnou motivaci věřit příběhům, které ho očišťují, a odbývat varování – podobně jako
+člověk v závislém vztahu racionalizuje signály, které by vyžadovaly bolestnou změnu.
 
-Bez EA-augmentace produkuje security pipeline **plausible-but-wrong** závěry s vysokou confidence — což je horší než žádný závěr, protože vede k akcím založeným na falešné jistotě.
+## Rozpoznávací znaky
 
-## Detekční metody
+Na technické úrovni ukazují na riziko dodavatelského řetězce **neobvyklé chování po
+aktualizaci**, **neočekávaná síťová komunikace** produktu, **změny v podpisu či původu
+balíčků** a **incidenty u dodavatele**, které nebyly transparentně komunikovány. Na úrovni
+narativu je třeba rozlišovat **varování opřené o metodiku a odpovědnou instituci** od
+**anonymních tvrzení**, **technickou analýzu s doložením** od **obecných obav**, a sledovat,
+**kdo má z příběhu prospěch** a zda je to zveřejněno. Varovným znakem je i **absence
+jakéhokoli příběhu** o dodavateli, na němž organizace kriticky závisí – znamená, že riziko
+nikdo nehodnotil.
 
-- Maintainer-history forensics (kdo přidal kritický commit, kdy, jaký pattern)
-- Trust-graph analysis (supplier's suppliers — depth ≥3)
-- Narrative-consistency check (supplier's public statements vs. actions)
-- Anomaly-in-trust-velocity (sudden privilege escalation in repo)
+## Rámec: právo, standardy a odpovědnost
 
-Tyto metody jsou implementovány v Prismatic Platform jako kombinace deterministických engine (PrismaticDd, PrismaticOsintCore) a EA-validation layeru (PrismaticDecision).
+NIS2 (směrnice (EU) 2022/2555) výslovně zahrnuje do opatření řízení rizik bezpečnost
+dodavatelského řetězce, včetně bezpečnostních aspektů vztahů s přímými dodavateli (čl. 21
+odst. 2 písm. d)), a umožňuje koordinovaná posouzení rizik kritických dodavatelských řetězců
+na úrovni Unie (čl. 22). V USA výkonné nařízení 14028 (2021) zavedlo požadavky na bezpečnost
+softwarového dodavatelského řetězce včetně soupisu softwarových komponent (SBOM).
+Na úrovni EU stanoví nařízení o kybernetické odolnosti požadavky na produkty s digitálními
+prvky.
 
-## Obranné mechanismy
+## Ochranná opatření
 
-- SBOM (Software Bill of Materials) mandatory pro all critical dependencies
-- Supplier-[risk score](@/glossary/risk-score.md) with narrative dimension (technical + behavioral + reputational)
-- Quarterly supplier-trust review
-- Air-gapped staging environment pro critical-dependency updates (72h soak)
+Technicky pomáhá **inventář dodavatelů a komponent** včetně soupisu softwaru, **segmentace**
+a **princip nejmenších oprávnění** i pro produkty dodavatelů, **monitorování chování** po
+aktualizacích, **smluvní požadavky** na hlášení incidentů a bezpečnostní postupy dodavatele
+a **plán pro výpadek** klíčového dodavatele (viz [Řízení dodavatelů s EA fokusem](@/kompendium/organizational-defense/25-vendor-management-EA.md)
+a [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)).
 
-Obranné mechanismy nejsou jen reaktivní — proaktivně **změny architekturu rozhodování** tak, aby manipulace byla detekovatelná **před** tím, než ovlivní akci. Cílem není blokovat všechny manipulace (nemožné), ale **redukovat blast radius** úspěšné manipulace pod akceptovatelný práh.
+Epistemicky pomáhá **oddělit typy informací** – technické důkazy, oficiální varování,
+mediální tvrzení, tvrzení dodavatele – a hodnotit je zvlášť (srov. [Hodnocení kvality důkazů](@/kompendium/cross-domain/15-ea-dd-evidence-quality-assessment.md)).
+Dále **zapisovat důvody rozhodnutí** a jejich předpoklady, aby bylo možné rozhodnutí přehodnotit,
+když se předpoklady změní, a **konzultovat s odpovědnou institucí** (u nás NÚKIB, vládní
+CERT) namísto rozhodování podle mediálního obrazu. Užitečný je i **[red team](@/glossary/red-team.md) pohled**: jak
+by vypadal útok přes tohoto dodavatele a co bychom viděli.
 
-## Případové scénáře
+## Lidský rozměr a zotavení
 
-### Scénář 1
+Incidenty dodavatelského řetězce zasahují lidi, kteří nic neudělali špatně – administrátory,
+kteří instalovali aktualizace podle doporučení. Pocit, že „ani správný postup nechrání“,
+může vést k rezignaci nebo k přehnané nedůvěře, která brzdí běžný provoz. Pomáhá otevřené
+vyhodnocení, které odliší, co šlo a co nešlo předvídat (viz [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)).
+Pracovníci dodavatele, jehož produkt byl zneužit, čelí veřejnému obviňování; i oni jsou
+často obětí útoku.
 
-xz-utils backdoor: maintainer 'Jia Tan' built trust over 2 years — narrative-velocity analysis would have flagged sudden 10× commit volume v posledních 6 měsících
+## Přesah do dalších oborů
 
-### Scénář 2
+Problém důvěry v dodavatelský řetězec a příběhy o něm má obdoby jinde. Ve zdravotnictví jde
+o léky a zdravotnické prostředky, jejichž kvalitu pacient ani lékař nemohou sami ověřit
+a spoléhají na regulátora (srov. [FDA a opioidy](@/kompendium/historical-cases/40-fda-opioid.md)).
+Ve vědě o data a software, které výzkumníci přebírají od jiných a jejichž chyby se šíří
+dál. V potravinářství o falšování potravin. V informačním prostředí o zdroje, z nichž
+média přebírají zprávy (agentury, tiskové zprávy). Všude platí, že důvěra v kanál nesmí
+nahradit ověřování obsahu, a že rozhodnutí o důvěře má být doložené a přezkoumatelné.
 
-Supply chain audit: 4 of 12 critical libraries had maintainers with anomalous commit patterns (timezone shifts, weekend bursts) → escalated for review
+## Ilustrativní scénář
 
-Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
+*Hypotetický, anonymizovaný scénář.* Krajská nemocnice zvažuje výměnu systému pro správu
+zdravotnické techniky. Nabídka dodavatele ze třetí země je nejlevnější. V médiích se
+objevují články o bezpečnostních rizicích tohoto dodavatele, z nichž některé citují
+oficiální varování a jiné anonymní „odborníky“. Nemocnice rozdělí informace: existuje
+varování odpovědné instituce týkající se právního prostředí dodavatele; technická analýza
+konkrétního produktu není veřejně dostupná; anonymní tvrzení nelze ověřit. Konzultuje
+s NÚKIB a krajským bezpečnostním týmem, posoudí, k jakým datům by systém měl přístup,
+a rozhodne se pro jiného dodavatele s odůvodněním, které se opírá o varování a o citlivost
+dat – nikoli o mediální obraz.
 
-## Cross-linky
+Nemocnice své rozhodnutí zdokumentuje včetně předpokladů a stanoví, že ho přehodnotí,
+pokud se změní varování nebo pokud bude k dispozici nezávislá technická analýza produktu.
+Dodavatel, který nebyl vybrán, dostane věcné vysvětlení důvodů – nikoli odkaz na mediální
+zprávy, které nemocnice sama nepovažovala za ověřené.
 
-- [Kompendium — Úvod](@/kompendium/02-uvod/_index.md)
-- [Základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Detection signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery protocols](@/kompendium/recovery-protocols/_index.md)
-- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
-- [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
-- [Case studies](@/kompendium/case-studies/_index.md)
-- [Quick reference](@/kompendium/quick-reference/_index.md)
+## Meze a otevřené otázky
 
-## Connect
+Varování opřená o utajené podklady nelze zvenčí ověřit; organizace musí rozhodnout,
+jak velkou důvěru vložit do instituce, která je vydala. Otevřenou otázkou je, jak budovat
+transparentnost těchto rozhodnutí, aby nebyla vnímána jako politická, a jak hodnotit
+rizika dodavatelů, kteří jsou zároveň jedinými dostupnými.
 
-- **Komentáře a otázky**: [GitHub Discussions](https://github.com/korczis/kompendium-epistemicke-anihilace/discussions)
-- **Bug reporty**: [GitLab Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **Email**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **LinkedIn**: [korczis](https://linkedin.com/in/korczis)
+## Literatura
 
----
+- Executive Order 14028 (2021). *Improving the Nation's Cybersecurity.*
+- NÚKIB (2018). Varování před hrozbou spočívající v užívání technických a programových prostředků společností Huawei a ZTE.
+- Směrnice (EU) 2022/2555 (NIS2), čl. 21 a 22.
 
-*Built with precision. Optimized for adversarial intelligence operations.*
-*Část série: Cross-Domain Bridges | EA × Security*
+## Související
+
+**Mezioborové mosty**
+
+- [Validace threat intelligence](@/kompendium/cross-domain/24-ea-security-threat-intelligence-validation.md) – hodnocení zpráv o hrozbách.
+- [Zkreslení při atribuci](@/kompendium/cross-domain/23-ea-security-attribution-bias.md) – kdo za útokem stojí.
+- [NIS2 a integrita rozhodování](@/kompendium/cross-domain/25-ea-compliance-nis2-integrity.md) – regulatorní rámec.
+
+**Organizace**
+
+- [Řízení dodavatelů s EA fokusem](@/kompendium/organizational-defense/25-vendor-management-EA.md) – správa vztahů.
+- [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md) – prověrka dodavatelů.
+
+**Signatury, techniky a pojmy**
+
+- [Reputation laundering](@/kompendium/detection-signatures/23-network-reputation-laundering.md) – důvěryhodný kanál jako nosič.
+- [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) – nestejná rizika jako stejná.
+- [EASM](@/glossary/easm.md) – správa vnějšího útočného povrchu.

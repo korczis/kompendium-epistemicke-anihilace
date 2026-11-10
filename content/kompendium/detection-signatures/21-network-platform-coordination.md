@@ -26,6 +26,8 @@ Lidé, kteří se setkají se stejným sdělením na různých místech, ho pova
 
 Signatura bývá spojována s informačními operacemi státních i nestátních aktérů (viz [info-ops](@/glossary/info-ops.md)), ale stejnou strukturu mají i korporátní PR útoky, organizované kampaně proti jednotlivcům a mobilizace uzavřených skupin. Bez dalších důkazů nelze z koordinace samotné určit, kdo za ní stojí.
 
+Epistemologicky jde o zneužití téhož předpokladu nezávislosti, který Goldman (2001) formuloval pro hodnocení svědectví: shoda více zdrojů zvyšuje oprávnění jen tehdy, když zdroje nejsou ozvěnou jednoho původce. Rozdílnost platforem tento předpoklad zakrývá, protože vytváří vnější znaky nezávislosti – jiný formát, jiného mluvčího, jiné publikum. Starbird, Arif a Wilson (2019) ukázali, že dezinformační kampaně jsou často **kolaborativní práce**, v níž se k řízenému jádru připojují skuteční lidé, kteří obsah dále přetvářejí a šíří z vlastního přesvědčení; právě proto je hranice mezi koordinací a organickým šířením neostrá. Benkler, Faris a Roberts (2018) popsali, jak se v propojeném mediálním ekosystému tvrzení přesouvají mezi okrajovými weby, sociálními sítěmi a velkými médii, a Marwick a Lewis (2017) zmapovali, jak online subkultury cíleně „hackují“ pozornost tradičních médií. Návrat smazaného obsahu jako „cenzurovaného“ odpovídá jevu, který Jansen a Martin (2015) popsali jako zpětný účinek cenzury.
+
 ## Pozorovatelné markery
 
 ### Obsahové a lingvistické
@@ -57,22 +59,21 @@ Pozitivní při splnění bodů 1–3; bod 4 zvyšuje jistotu. Atribuci (kdo koo
 
 ## Odlišení od benigních podob
 
-- **Přiznané kampaně**: veřejné osvětové, politické nebo marketingové kampaně používají jednotné materiály otevřeně a s označením zadavatele.
-- **Mediální cyklus**: velká událost vyvolá pokrytí na všech platformách, s rozdílnými formulacemi a pohledy.
-- **Meme kultura**: úspěšné meme se šíří napříč platformami organicky a mění se, kdežto koordinované sdělení zůstává jednotné.
-- **Tiskové zprávy**: média přebírají tiskové zprávy institucí; původ je znám.
+**Přiznané kampaně** – veřejné osvětové, politické nebo marketingové – používají jednotné materiály napříč platformami otevřeně a s označením zadavatele. Jednotnost obsahu zde není podezřelá, protože původ je znám a publikum může váhu sdělení správně odhadnout.
+
+**Mediální cyklus** vyvolá při velké události pokrytí na všech platformách, ale s rozdílnými formulacemi, pohledy a zdroji. Rozmanitost zpracování je zde znakem nezávislosti, zatímco shodná hesla a vizuály v krátkém okně ukazují spíše na společné zadání. Podobně **meme kultura** šíří úspěšné obsahy napříč platformami organicky; Shifman (2014) však zdůrazňuje, že internetové meme se při šíření proměňuje a vytváří varianty, kdežto koordinované sdělení zůstává jednotné. Konečně **tiskové zprávy** institucí přebírají média běžně a jejich původ je znám; shoda textu zde vyplývá z otevřeně uvedeného společného zdroje.
 
 ## Dopad na jednotlivce a klinický rozměr
 
-Jednotlivec, kterého koordinovaný narativ obklopuje ze všech stran, může ztrácet schopnost posoudit jeho pravdivost – všude, kam se podívá, najde potvrzení. Pokud je narativ namířen proti němu, prožívá útok jako všudypřítomný, bez místa, kam by se mohl stáhnout. To zvyšuje riziko úzkostných a depresivních reakcí a vyčerpání.
+Jednotlivec, kterého koordinovaný narativ obklopuje ze všech stran, může ztrácet schopnost posoudit jeho pravdivost, protože všude, kam se podívá, najde potvrzení. Opakované setkání s týmž sdělením navíc samo zvyšuje jeho hodnocenou pravdivost, jak ukazuje výzkum efektu iluzorní pravdy. Pokud je narativ namířen proti němu, prožívá útok jako všudypřítomný, bez místa, kam by se mohl stáhnout. To zvyšuje riziko úzkostných a depresivních reakcí a vyčerpání a může vést ke stažení z veřejného i profesního života.
 
-Klinicky je třeba odlišit doložitelnou kampaň od přesvědčení o všudypřítomném pronásledování, u něhož osoba vidí skryté zprávy i v nesouvisejícím obsahu (reklamy, pořady, náhodné poznámky). Pro rozlišení pomáhá společný přehled konkrétních výskytů s odkazy: u kampaně jsou výskyty doložitelné a obsahově shodné, u perzekučního přesvědčení jde o interpretace bez společného obsahu.
+Klinicky je třeba odlišit doložitelnou kampaň od přesvědčení o všudypřítomném pronásledování, u něhož osoba vidí skryté zprávy i v nesouvisejícím obsahu, jako jsou reklamy, pořady nebo náhodné poznámky. Pro rozlišení pomáhá společný přehled konkrétních výskytů s odkazy: u kampaně jsou výskyty doložitelné a obsahově shodné, u perzekučního přesvědčení jde o interpretace bez společného obsahu. Obě situace se mohou kombinovat, a klinické posouzení přísluší kvalifikovanému odborníkovi poté, co byla fakta ověřena.
 
 ## Riziko falešné pozitivity
 
-- Obvinění z „koordinované kampaně“ se snadno použije k diskreditaci legitimní kritiky, která se objevila na více místech proto, že je oprávněná.
-- Shoda může vzniknout, protože různí autoři čerpají ze stejného veřejného zdroje.
-- Algoritmy platforem doporučují podobný obsah zároveň, bez vnějšího koordinátora.
+Obvinění z „koordinované kampaně“ se snadno použije k diskreditaci legitimní kritiky, která se objevila na více místech proto, že je oprávněná. Mnoho lidí může nezávisle dojít ke stejnému závěru, když je podnět dostatečně zřejmý, a hodnotitel, který v souběžnosti vidí automaticky koordinaci, se stává nástrojem toho, kdo se chce kritice vyhnout.
+
+Shoda formulací může vzniknout i tím, že různí autoři čerpají ze stejného veřejného zdroje, například z tiskové konference nebo z jednoho virálního příspěvku. Algoritmy platforem navíc doporučují podobný obsah zároveň a mohou vytvářet souběžnost bez vnějšího koordinátora. Signatura proto vyžaduje, aby byla vyloučena tato vysvětlení, a pracuje s kombinací časové, obsahové a vizuální shody, nikoli s jedním z těchto znaků.
 
 ## Validační test
 
@@ -98,9 +99,19 @@ Ukládat výskyty se všemi metadaty (platforma, autor, čas, URL, archivní kop
 
 ## Limity a otevřené otázky
 
-- Koordinaci lze často doložit jen pravděpodobnostně; přímé důkazy o zadání bývají nedostupné.
-- Uzavřené komunikátory a soukromé skupiny unikají pozorování.
-- Rozlišit placenou spolupráci influencerů od jejich nezávislého názoru je bez přístupu ke smlouvám obtížné.
+Koordinaci lze často doložit jen pravděpodobnostně, protože přímé důkazy o zadání – smlouvy, interní komunikace, platby – bývají nedostupné. Rid (2020) v historii aktivních opatření ukazuje, že i u dobře zdokumentovaných operací se jejich rozsah a původ často odhalí až s velkým zpožděním a díky archivům nebo únikům.
+
+Uzavřené komunikátory a soukromé skupiny unikají pozorování, a značná část koordinace tak zůstává neviditelná. Rozlišit placenou spolupráci influencerů od jejich nezávislého názoru je bez přístupu ke smlouvám obtížné, i když některé právní řády ukládají povinnost označovat reklamní obsah. Otevřenou otázkou zůstává, jak detekovat koordinaci, jejíž účastníci jsou skuteční lidé s upřímným přesvědčením a jejichž „zadání“ má podobu sdílené ideologie, nikoli objednávky.
+
+## Literatura
+
+- Benkler, Y., Faris, R., & Roberts, H. (2018). *Network Propaganda: Manipulation, Disinformation, and Radicalization in American Politics*. Oxford University Press.
+- Goldman, A. I. (2001). Experts: Which ones should you trust? *Philosophy and Phenomenological Research*, 63(1), 85–110.
+- Jansen, S. C., & Martin, B. (2015). The Streisand effect and censorship backfire. *International Journal of Communication*, 9, 656–671.
+- Marwick, A., & Lewis, R. (2017). *Media Manipulation and Disinformation Online*. Data & Society Research Institute.
+- Rid, T. (2020). *Active Measures: The Secret History of Disinformation and Political Warfare*. Farrar, Straus and Giroux.
+- Shifman, L. (2014). *Memes in Digital Culture*. MIT Press.
+- Starbird, K., Arif, A., & Wilson, T. (2019). Disinformation as collaborative work: Surfacing the participatory nature of strategic information operations. *Proceedings of the ACM on Human-Computer Interaction*, 3(CSCW), 127.
 
 ## Související
 

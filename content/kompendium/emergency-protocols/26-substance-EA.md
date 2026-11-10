@@ -148,13 +148,3 @@ o podávání léků a nabídne kontakt na poradnu pro oběti.
 - [Populační komorbidity EA](@/kompendium/population-health/09-comorbidity-population.md) –
   souběh závislosti a EA.
 - [Trauma bonding](@/glossary/trauma-bonding.md) – závislost na vztahu i na látce.
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-
----
-
-*Kompendium epistemické anihilace · Akutní protokol č. 26 · v18.4.0*

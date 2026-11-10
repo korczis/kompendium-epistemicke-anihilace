@@ -3,6 +3,7 @@ title = "EA-6.3.3 Metakognitivní rehabilitace"
 description = "Obnova metakognitivních schopností – sebemonitorování, kalibrace jistoty, rozpoznání vlastních zkreslení a mentální flexibility – po dlouhodobé manipulativní expozici."
 weight = 633
 insert_anchor_links = "right"
+aliases = ["/kompendium/techniques/ea-6-3-3-metacognitivni-rehabilitace/"]
 
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-6-3", "klinicke", "metakognitivni-rehabilitace"]

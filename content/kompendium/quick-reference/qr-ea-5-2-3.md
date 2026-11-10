@@ -59,7 +59,3 @@ Eskalujte, když naivní podoba přechází v bludné přesvědčení nebo cynic
 - **Technika a kapitola:** [plná stránka EA-5.2.3](@/kompendium/techniques/ea-5-2-3-noumenalni-redukce.md) – mechanismus, případy a neutralizace; [kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) – metatranscendentální anihilace.
 - **Glosář:** [Ding an sich](@/glossary/ding-an-sich.md) – věc o sobě; [fenomén](@/glossary/fenomen.md) – jev.
 - **Sousední karty:** [EA-5.2.12 Noumenální paralýza](@/kompendium/quick-reference/qr-ea-5-2-12.md) – opačný extrém; [EA-5.2.7 Kategoriální disoluce](@/kompendium/quick-reference/qr-ea-5-2-7.md) – rozpouštění nosné struktury.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

@@ -19,9 +19,7 @@ Tělo často zaregistruje nebezpečí, nesouhlas nebo vyčerpání dřív, než 
 
 ## Pro koho je návod
 
-- Pro člověka, který „neví, co cítí“, a o vlastním stavu se dozvídá až z bolesti hlavy, nespavosti nebo nemoci.
-- Pro ty, kterým bylo v rodině, vztahu nebo skupině opakovaně vysvětlováno, že jejich tělesné signály neplatí.
-- Pro lidi po dlouhodobém stresu, kteří chtějí rozpoznat přetížení včas.
+Návod je určen člověku, který „neví, co cítí“, a o vlastním stavu se dozvídá až z bolesti hlavy, nespavosti nebo nemoci. Pomůže i těm, kterým bylo v rodině, vztahu nebo skupině opakovaně vysvětlováno, že jejich tělesné signály neplatí, a lidem po dlouhodobém stresu, kteří chtějí rozpoznat přetížení včas, a ne až ve chvíli, kdy tělo vypoví službu.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,10 +27,9 @@ Pomáhá ve vztazích, kde se člověk naučil potlačovat nepohodlí, aby nevyv
 
 ## Varovné signály
 
-- Tělesné signály hladu, únavy nebo bolesti zaznamenáte až pozdě, když už jsou silné.
-- V přítomnosti určité osoby se vám mění dech, napínají svaly nebo se cítíte „mimo tělo“.
-- Někdo vám opakovaně říká, že vaše tělesné reakce jsou přehnané nebo vymyšlené.
-- Spánek, jídlo a pohyb se podřizují požadavkům druhých.
+Prvním signálem je zpoždění: tělesné signály hladu, únavy nebo bolesti zaznamenáte až pozdě, když už jsou silné. Druhým je vazba na konkrétní osobu – v její přítomnosti se vám mění dech, napínají svaly nebo se cítíte „mimo tělo“. Takové reakce nejsou důkazem viny druhého, ale údajem, který stojí za to zaznamenat a porovnat s dalšími.
+
+Třetí skupina signálů se týká vnějšího zásahu do tělesného prožívání. Někdo vám opakovaně říká, že vaše tělesné reakce jsou přehnané nebo vymyšlené, a spánek, jídlo a pohyb se podřizují požadavkům druhých. Lifton (1961) i pozdější autoři popisující prostředí s vysokou kontrolou upozorňují, že regulace spánku, stravy a fyzické únavy patří k prostředkům, jimiž se oslabuje schopnost samostatného úsudku; Stark (2007) popisuje podobnou mikroregulaci každodenního života v kontrolujících vztazích.
 
 ## Modelová situace
 
@@ -41,6 +38,14 @@ Mladá žena v intenzivní meditační skupině spala šest hodin denně a vedou
 ## Cíl dovednosti
 
 Obnovit přímý kontakt s tělem jako se zdrojem informací o emocích, ohrožení a potřebách – a naučit se tyto informace brát vážně, aniž by vás zaplavily.
+
+## Odborné východisko
+
+Interocepce označuje vnímání fyziologického stavu vlastního těla – srdeční činnosti, dechu, napětí, hladu, teploty. Craig (2002) shrnul neuroanatomické poznatky, podle nichž se tyto signály sbíhají v oblastech mozku spojených s prožíváním pocitů, a interocepci proto popsal jako základ toho, „jak se cítíte“. Pro sebe-obranu z toho plyne, že kdo ztratí kontakt s tělem, ztrácí i jeden z nejrychlejších zdrojů informace o tom, co se ve vztahu děje.
+
+Výzkum zároveň ukazuje, že interocepce není jediná dovednost. Vícerozměrný dotazník interoceptivního uvědomění odlišuje například všímání si tělesných pocitů, schopnost nenechat se jimi vyděsit, důvěru v tělo a schopnost využít je k regulaci (Mehling et al. 2012). Toto rozlišení je důležité: úzkostné hlídání každého úderu srdce je něco jiného než klidné, zvídavé vnímání. Cílem cvičení je druhá podoba.
+
+Klinické přístupy k traumatu se shodují v tom, že práce s tělem musí být postupná. Senzomotorická psychoterapie zdůrazňuje práci v pásmu snesitelného vzrušení a střídání pozornosti mezi nepříjemným a bezpečným tělesným prožitkem (Ogden, Minton a Pain 2006); Levine (1997) popisuje podobný princip jako dávkování zátěže po malých částech. Van der Kolk (2014) shrnuje klinickou zkušenost, že lidé po dlouhodobém traumatu často tělo vnímají jako nebezpečné místo a že návrat do něj vyžaduje čas a bezpečný vztah.
 
 ## Pět praktických cvičení
 
@@ -80,13 +85,23 @@ Denně patnáct minut formálních cvičení a krátké kontroly během dne, zhr
 
 ## Čeho se vyvarovat
 
-- Neprohlubujte tělesnou pozornost rychle a násilím, zvláště po tělesném nebo sexuálním traumatu.
-- Nepodřizujte se režimům (půsty, nedostatek spánku), které tělesné signály záměrně umlčují.
-- Nevykládejte tělesný signál jako neomylnou pravdu; je to informace, kterou je třeba zvážit spolu s ostatními.
+Neprohlubujte tělesnou pozornost rychle a násilím, zvláště po tělesném nebo sexuálním traumatu; začínejte krátkými úseky a místy těla, která jsou neutrální (Ogden, Minton a Pain 2006). Nepodřizujte se ani režimům – půstům, nedostatku spánku –, které tělesné signály záměrně umlčují.
+
+Nevykládejte konečně tělesný signál jako neomylnou pravdu. Sevřený žaludek může znamenat nebezpečí, ale také hlad, nemoc nebo starou vzpomínku; je to informace, kterou je třeba zvážit spolu s ostatními, ne verdikt.
 
 ## Meze svépomoci
 
 U lidí s historií tělesného traumatu může příliš rychlé prohlubování somatické pozornosti vyvolat dysregulaci – zaplavení, paniku nebo odpojení. Postupujte pomalu a ideálně s podporou terapeuta, který s tělem pracuje. Tělesné signály také mohou mít zdravotní příčinu, kterou žádné cvičení neodhalí.
+
+## Literatura
+
+- Craig, A. D. (2002). How do you feel? Interoception: The sense of the physiological condition of the body. *Nature Reviews Neuroscience*, 3(8), 655–666.
+- Levine, P. A. (1997). *Waking the Tiger: Healing Trauma*. North Atlantic Books.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Mehling, W. E., Price, C., Daubenmier, J. J., Acree, M., Bartmess, E., & Stewart, A. (2012). The Multidimensional Assessment of Interoceptive Awareness (MAIA). *PLoS ONE*, 7(11), e48230.
+- Ogden, P., Minton, K., & Pain, C. (2006). *Trauma and the Body: A Sensorimotor Approach to Psychotherapy*. W. W. Norton.
+- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- van der Kolk, B. A. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma*. Viking.
 
 ## Související
 

@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
-"""Remove the platform's machine-generated "NLLB auto blocks" from content pages.
+"""Remove machine-generated and hand-copied boilerplate blocks from content pages.
+
+Two kinds are removed:
+
+  - the platform's "NLLB auto block" (below);
+  - the hand-copied page footer: a `## Connect…` section ("Connect & Contribute") with the
+    author line, licence link and repository/wiki/LinkedIn/contact links, or a lone
+    "**Created by [Tomáš Korcak (korczis)](…)** | … [GHL](…)" line. The site footer
+    (templates) already carries author and licence; a copy on every page goes stale.
 
 The platform appended a block between `<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->` and
 `<!-- ENHANCED:NLLB-AUTO-BLOCK END -->` to many pages: a boilerplate summary and a
@@ -24,8 +32,16 @@ BLOCK = re.compile(
 )
 
 
+# "## Connect & Contribute" (or "## Connect") up to the derived-links block or the end of file.
+CONNECT = re.compile(r"\n+(?:---\n+)?##\s+Connect\b[^\n]*\n.*?(?=\n<!-- kompendium:odvozene-vazby:begin|\Z)", re.S)
+# A lone author/licence line, optionally after a horizontal rule.
+CREATED = re.compile(r"\n+(?:---\n+)?\*\*Created by \[[^\n]*\n?")
+
+
 def strip(text: str) -> str:
     new = BLOCK.sub("\n\n", text)
+    new = CONNECT.sub("\n", new)
+    new = CREATED.sub("\n", new)
     return new.rstrip("\n") + "\n" if new != text else text
 
 

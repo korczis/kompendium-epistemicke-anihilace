@@ -206,7 +206,7 @@ Realistická pozice tedy vyžaduje **akceptaci permanentní zranitelnosti** komb
 - [Glosář: Color Teams](@/glossary/color-teams.md)
 - [Glosář: Decision Core](@/glossary/decision-core.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Teoretické reflexe ne jsou závěry — jsou pozvánkami k myšlení.** Po četbě:
 
@@ -218,11 +218,3 @@ Realistická pozice tedy vyžaduje **akceptaci permanentní zranitelnosti** komb
 > **Mandatorní akce**: pasivní souhlas s teoretickou reflexí je sám o sobě
 > formou epistemické pasivity. Aktivní oponentura je nepostradatelná
 > součást doktríny.
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -21,9 +21,7 @@ Pozor na záměnu: tento návod se týká běžných sociálních rolí, ne diso
 
 ## Pro koho je návod
 
-- Pro člověka, jehož práce, vztah nebo skupina zabírá celou identitu.
-- Pro ty, kdo se v různých rolích cítí roztříštění a „nikde celí“.
-- Pro lidi po odchodu ze skupiny, kteří znovu objevují role, jež museli opustit.
+Návod je pro člověka, jehož práce, vztah nebo skupina zabírá celou identitu, pro ty, kdo se v různých rolích cítí roztříštění a „nikde celí“, a pro lidi po odchodu ze skupiny, kteří znovu objevují role, jež museli opustit.
 
 ## Situace, ve kterých pomáhá
 
@@ -31,10 +29,9 @@ Pomáhá v náročných profesích, které vyžadují totální nasazení ([př�
 
 ## Varovné signály
 
-- Na otázku „kdo jsi?“ odpovídáte jen jednou rolí.
-- Role, které jste měli rádi (koníčky, přátelství, rodina), jsou označovány za slabost nebo zradu.
-- Nemáte žádný čas, kdy nejste „ve funkci“.
-- Mezi rolemi je tak velký rozpor, že máte pocit, že v jedné z nich lžete.
+Na pohlcení jedinou rolí ukazuje nejprve odpověď na jednoduchou otázku: na „kdo jsi?“ odpovídáte jen jednou rolí. Druhým signálem je, že role, které jste měli rádi – koníčky, přátelství, rodina –, jsou označovány za slabost nebo zradu, a třetím, že nemáte žádný čas, kdy nejste „ve funkci“. Lifton (1961) popsal v prostředí myšlenkové reformy nadřazení doktríny nad osobu: vše, co se do předepsaného obrazu nevejde, je prohlášeno za nepravé nebo nečisté.
+
+Opačný signál ukazuje na roztříštění: mezi rolemi je tak velký rozpor, že máte pocit, že v jedné z nich lžete. Rozdílné chování v různých prostředích je přirozené, ale rozpor v hodnotách – kdy v jedné roli musíte popírat, co v jiné považujete za správné – je zátěží a často i stopou vnějšího tlaku.
 
 ## Modelová situace
 
@@ -43,6 +40,14 @@ Mladá konzultantka pracovala osmdesát hodin týdně a firma jí opakovala, že
 ## Cíl dovednosti
 
 Uvědomit si své role a podoby já, vědomě je vyvažovat, aby žádná nepohltila ostatní, a rozpoznat, kdy vám prostředí jednu roli vnucuje jako jedinou.
+
+## Odborné východisko
+
+Už William James (1890) psal, že člověk má tolik „sociálních já“, kolik je skupin lidí, na jejichž mínění mu záleží, a že se jim ukazuje v různých podobách. Pozdější psychologie tuto myšlenku rozvinula různými směry. Markusová a Nuriusová (1986) popsaly „možná já“ – představy o tom, kým bych se mohl stát, kým bych chtěl být a kým se bojím být –, které motivují jednání a dávají smysl přítomnosti. Hermans a Kempen (1993) navrhli pojetí dialogického já, v němž jednotlivé pozice já spolu vedou vnitřní rozhovor, místo aby jedna umlčela ostatní.
+
+Linvilleová (1987) přišla s hypotézou, že lidé s větší „složitostí já“ – s více odlišnými rolemi a aspekty – jsou odolnější vůči stresu, protože neúspěch v jedné oblasti nezasáhne celé sebepojetí. Pozdější přehled výzkumu však ukázal, že důkazy jsou smíšené a že záleží na tom, jak se složitost měří (Rafaeli-Mor a Steinberg 2002). Bezpečnějším závěrem je, že odolnost nepodporuje počet rolí sám o sobě, ale to, že žádná z nich nemá monopol a že je pod nimi společné jádro hodnot a paměti.
+
+Pro sebe-obranu je důležité odlišit běžnou mnohost rolí od klinických stavů. Disociativní porucha identity je závažný stav, spojený zpravidla s těžkým traumatem v dětství, a vyžaduje specializovanou léčbu (Putnam 1989). Tento návod se jí netýká; pokud máte zkušenost výpadků paměti, ztráty času nebo pocitu, že ve vás jednají odlišné osoby, obraťte se na odborníka.
 
 ## Pět praktických cvičení
 
@@ -82,13 +87,23 @@ Týdně čtvrt hodiny bilance, denně přechodové rituály, měsíčně hodina 
 
 ## Čeho se vyvarovat
 
-- Nevracejte se ke „zakázaným“ rolím nápadně, pokud vám za to hrozí postih nebo násilí; nejprve si zajistěte bezpečí.
-- Nepovažujte rozdíly mezi rolemi za neupřímnost; přizpůsobení kontextu je normální.
-- Neoddělujte role tak přísně, že ztratíte pocit jednoho já.
+Nevracejte se ke „zakázaným“ rolím nápadně, pokud vám za to hrozí postih nebo násilí; nejprve si zajistěte bezpečí. Nepovažujte rozdíly mezi rolemi za neupřímnost; přizpůsobení kontextu je normální a zdravé.
+
+Neoddělujte ale role tak přísně, že ztratíte pocit jednoho já. Cílem je, aby role spolu mluvily – aby to, co vás drží v jedné, mohlo posílit druhou – ne aby se z nich staly oddělené světy.
 
 ## Meze svépomoci
 
 Představa mnoha já může vést k iluzi, že neexistuje žádné „pravé já“; pod rolemi je ale vždy něco, co je drží pohromadě – hodnoty, paměť, tělo, příběh. Pokud je pocit roztříštění hluboký a trvalý, nejde o běžné vyvažování rolí, ale o stav, který vyžaduje odborné posouzení.
+
+## Literatura
+
+- Hermans, H. J. M., & Kempen, H. J. G. (1993). *The Dialogical Self: Meaning as Movement*. Academic Press.
+- James, W. (1890). *The Principles of Psychology*. Henry Holt.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Linville, P. W. (1987). Self-complexity as a cognitive buffer against stress-related illness and depression. *Journal of Personality and Social Psychology*, 52(4), 663–676.
+- Markus, H., & Nurius, P. (1986). Possible selves. *American Psychologist*, 41(9), 954–969.
+- Putnam, F. W. (1989). *Diagnosis and Treatment of Multiple Personality Disorder*. Guilford Press.
+- Rafaeli-Mor, E., & Steinberg, J. (2002). Self-complexity and well-being: A review and research synthesis. *Personality and Social Psychology Review*, 6(1), 31–58.
 
 ## Související
 

@@ -26,6 +26,8 @@ Spolehlivost poznání stojí na [pluralitě signálů](@/glossary/signal-plural
 
 Pro manipulaci je monokultura **infrastrukturou**: umožňuje [injekci narativu](@/kompendium/detection-signatures/22-network-narrative-injection.md), protože není nikdo, kdo by ji zachytil, a činí [cirkularitu citací](@/kompendium/detection-signatures/18-network-citation-circularity.md) neviditelnou.
 
+Epistemologie svědectví dává této úvaze přesnou podobu. Goldman (2001) ukázal, že souhlas mnoha svědků zvyšuje oprávnění k přesvědčení jen tehdy, když jejich výpovědi jsou alespoň částečně nezávislé; deset hlasů, které všechny opakují tentýž zdroj, má epistemickou váhu jednoho. Coady (1992) obhajoval svědectví jako legitimní zdroj poznání, ale zároveň zdůrazňoval roli vzájemné kontroly svědectví v širší komunitě. Monokultura zdrojů je tedy stav, v němž formální pluralita kanálů zakrývá chybějící nezávislost. Nguyen (2020) navíc ukázal, že epistemickou bublinu lze rozpustit pouhým vystavením jiným zdrojům, kdežto ozvěnová komora je vůči takové expozici odolná, protože vnější zdroje jsou předem zdiskreditovány. Lifton (1961) popsal obdobnou strukturu v uzavřeném prostředí jako kontrolu milieu, tedy řízení veškeré komunikace, kterou člověk přijímá i vysílá; síťová monokultura je její rozptýlenější, často nezáměrná varianta.
+
 ## Pozorovatelné markery
 
 ### Obsahové a lingvistické
@@ -56,25 +58,25 @@ Míru koncentrace lze kvantifikovat (např. podílem hlavních zdrojů nebo entr
 
 ## Odlišení od benigních podob
 
-- **Specializace**: odborník v úzkém oboru čte nemnoho specializovaných zdrojů; ty však bývají vzájemně kritické a otevřené vnějšímu přezkumu.
-- **Omezené možnosti**: lidé v odlehlých oblastech, s jazykovou bariérou nebo bez přístupu k internetu mají méně zdrojů ne vlastní volbou ani manipulací.
-- **Přirozená preference**: každý má oblíbené zdroje; monokultura nastává, až když zdroje nejsou nezávislé a jiné jsou vytlačeny.
-- **Důvěra v instituci**: spoléhání na jediný oficiální zdroj (např. zdravotní autoritu) v krizi může být racionální, pokud je tento zdroj otevřený přezkumu a opravám.
+**Specializace** je nejčastějším zdrojem zdánlivé monokultury. Odborník v úzkém oboru čte nemnoho specializovaných zdrojů, ty však bývají vzájemně kritické, otevřené vnějšímu přezkumu a navázané na data, která lze ověřit. Malý počet zdrojů zde neznamená jejich závislost.
+
+**Omezené možnosti** vytvářejí úzký okruh zdrojů bez vlastní volby i bez manipulace: lidé v odlehlých oblastech, s jazykovou bariérou nebo bez přístupu k internetu mají méně zdrojů, a hodnotitel by neměl zaměňovat strukturální nedostatek za signaturu. Rovněž **přirozená preference** je běžná – každý má oblíbené zdroje. Empirické studie ukazují, že skutečná míra ideologické izolace online konzumace zpráv je u většiny lidí menší, než předpokládá populární představa o „bublinách“ (Flaxman, Goel & Rao, 2016); monokultura nastává, až když zdroje nejsou nezávislé a jiné jsou vytlačeny.
+
+Konečně **důvěra v instituci** může být racionální. Spoléhání na jediný oficiální zdroj, například zdravotní autoritu v krizi, je oprávněné, pokud je tento zdroj otevřený přezkumu, publikuje podklady a opravuje chyby; právě schopnost opravy odlišuje důvěryhodnou autoritu od monokultury.
 
 ## Dopad na jednotlivce a klinický rozměr
 
-Monokultura sama není klinickým stavem. U jednotlivce se projevuje zúžením myšlení na jeden výkladový rámec, obtíží porozumět lidem mimo shluk a rostoucím odcizením od blízkých, kteří zdroje nesdílejí. Pokud k tomu přistoupí strach, podezíravost a přesvědčení o pronásledování, je třeba odlišit:
+Monokultura sama není klinickým stavem. U jednotlivce se projevuje zúžením myšlení na jeden výkladový rámec, obtíží porozumět lidem mimo shluk a rostoucím odcizením od blízkých, kteří zdroje nesdílejí. Lord, Ross a Lepper (1979) ukázali, že lidé hodnotí nové důkazy podle toho, zda odpovídají jejich přesvědčení, a že vystavení smíšeným důkazům může názory ještě vyhrotit; v monokultuře se tento mechanismus uplatňuje bez jakékoli protiváhy.
 
-- **sdílené skupinové přesvědčení**, které je doložitelné v materiálech zdroje a které osoba sdílí s ostatními členy komunity;
-- **paranoidní nebo bludné myšlení**, které je idiosynkratické a obvykle zasahuje i mimo témata zdroje (srov. [diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
+Pokud k tomu přistoupí strach, podezíravost a přesvědčení o pronásledování, je třeba odlišit **sdílené skupinové přesvědčení** od **paranoidního nebo bludného myšlení**. Sdílené přesvědčení je doložitelné v materiálech zdroje, osoba je sdílí s ostatními členy komunity a jeho obsah se mění spolu s obsahem zdroje. Paranoidní nebo bludné myšlení je naopak idiosynkratické a obvykle zasahuje i mimo témata zdroje (srov. [diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
 
-Obě možnosti se mohou překrývat: zranitelný člověk se může do monokultury dostat snáze a monokultura může existující potíže zhoršit.
+Obě možnosti se mohou překrývat: zranitelný člověk se může do monokultury dostat snáze a monokultura může existující potíže zhoršit. Klinické posouzení proto nepovažuje sdílený obsah za vylučující kritérium psychické poruchy ani za její doklad a ponechává závěr kvalifikovanému odborníkovi.
 
 ## Riziko falešné pozitivity
 
-- Hodnotitel sám žije v nějaké informační bublině a za monokulturu může označit jen zdroje, s nimiž nesouhlasí.
-- Data o konzumaci bývají neúplná (offline zdroje, osobní rozhovory).
-- Koncentrace na několik zdrojů je u většiny lidí běžná; signatura vyžaduje navíc nezávislost a vytlačení alternativ.
+Hodnotitel sám žije v nějaké informační bublině a za monokulturu může snadno označit jen zdroje, s nimiž nesouhlasí, zatímco stejně úzký okruh vlastních zdrojů považuje za samozřejmost. Signatura proto vyžaduje stejné měřítko na obě strany: posuzuje se nezávislost zdrojů a přítomnost alternativ, nikoli obsah, který zdroje šíří.
+
+Data o konzumaci informací bývají neúplná. Offline zdroje, osobní rozhovory a pracovní kontakty se do digitální stopy nepromítají, a monokultura zjištěná z jedné platformy tak může být artefaktem měření. Bakshy, Messing a Adamic (2015) navíc ukázali, že o tom, s čím se člověk na sociální síti setká, rozhodují jeho vlastní volby i algoritmus; obojí je nutné rozlišit. Konečně koncentrace na několik zdrojů je u většiny lidí běžná a signatura vyžaduje navíc jejich závislost a vytlačení alternativ.
 
 ## Validační test
 
@@ -98,9 +100,21 @@ Pro výzkumné a OSINT účely zaznamenat seznam zdrojů s datem, vazby mezi nim
 
 ## Limity a otevřené otázky
 
-- Nezávislost zdrojů je obtížné ověřit; vazby bývají skryté.
-- Algoritmicky řízené prostředí vytváří monokulturu i bez úmyslu konkrétního aktéra (viz [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md)).
-- Rozšíření zdrojů nemusí vést ke změně názoru; cílem je obnovit schopnost srovnání, ne vnutit závěr.
+Nezávislost zdrojů je obtížné ověřit, protože vlastnické, personální a citační vazby bývají skryté a mění se v čase. Signatura proto často zůstává na úrovni podezření, které je třeba podložit analýzou vazeb.
+
+Algoritmicky řízené prostředí vytváří monokulturu i bez úmyslu konkrétního aktéra (viz [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md)). Pariser (2011) tento jev popularizoval jako „filtrovou bublinu“ a Sunstein (2017) upozornil na jeho důsledky pro demokratickou diskusi; empirická síla efektu je však předmětem sporu a liší se mezi platformami. Rozšíření zdrojů navíc nemusí vést ke změně názoru, jak ukazuje výzkum zaujatého zpracování informací (Lord, Ross & Lepper, 1979). Cílem je proto obnovit schopnost srovnání, ne vnutit závěr; otevřenou otázkou zůstává, jak tento cíl měřit.
+
+## Literatura
+
+- Bakshy, E., Messing, S., & Adamic, L. A. (2015). Exposure to ideologically diverse news and opinion on Facebook. *Science*, 348(6239), 1130–1132.
+- Coady, C. A. J. (1992). *Testimony: A Philosophical Study*. Clarendon Press.
+- Flaxman, S., Goel, S., & Rao, J. M. (2016). Filter bubbles, echo chambers, and online news consumption. *Public Opinion Quarterly*, 80(S1), 298–320.
+- Goldman, A. I. (2001). Experts: Which ones should you trust? *Philosophy and Phenomenological Research*, 63(1), 85–110.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lord, C. G., Ross, L., & Lepper, M. R. (1979). Biased assimilation and attitude polarization: The effects of prior theories on subsequently considered evidence. *Journal of Personality and Social Psychology*, 37(11), 2098–2109.
+- Nguyen, C. T. (2020). Echo chambers and epistemic bubbles. *Episteme*, 17(2), 141–161.
+- Pariser, E. (2011). *The Filter Bubble: What the Internet Is Hiding from You*. Penguin Press.
+- Sunstein, C. R. (2017). *#Republic: Divided Democracy in the Age of Social Media*. Princeton University Press.
 
 ## Související
 

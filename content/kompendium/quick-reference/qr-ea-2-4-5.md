@@ -57,7 +57,3 @@ Eskalujte, když kritéria působí zpětně, vedou k propouštění nebo rušen
 - **Technika a kapitola:** [plná stránka EA-2.4.5](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Glosář:** [epistemická monokultura](@/glossary/epistemicka-monokultura.md) – důsledek jediného kritéria kvality.
 - **Sousední karty:** [EA-2.4.3 Přesměrování financí](@/kompendium/quick-reference/qr-ea-2-4-3.md) – peníze podle nových kritérií; [EA-2.4.9 Zachycení kurikula](@/kompendium/quick-reference/qr-ea-2-4-9.md) – kritéria ve výuce.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

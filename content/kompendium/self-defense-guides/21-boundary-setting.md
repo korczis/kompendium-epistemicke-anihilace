@@ -19,9 +19,7 @@ Hranice určují, co je pro mě přijatelné: jak se mnou kdo mluví, kolik čas
 
 ## Pro koho je návod
 
-- Pro člověka, který často souhlasí s něčím, co nechce, a pak se cítí vyčerpaný nebo zahanbený.
-- Pro ty, jejichž soukromí, čas nebo peníze postupně přešly pod kontrolu někoho jiného.
-- Pro lidi po odchodu z prostředí, kde hranice nebyly dovoleny, a kteří se je učí znovu.
+Návod je určen člověku, který často souhlasí s něčím, co nechce, a pak se cítí vyčerpaný nebo zahanbený. Pomůže i těm, jejichž soukromí, čas nebo peníze postupně přešly pod kontrolu někoho jiného, a lidem po odchodu z prostředí, kde hranice nebyly dovoleny a kde se je teď učí znovu.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá ve vztahu, kde partner vyžaduje hesla, polohu a vysvětlení každého
 
 ## Varovné signály
 
-- Za odmítnutí přichází trest: mlčení, výčitky, odebrání náklonnosti nebo peněz.
-- Vaše „ne“ je pokaždé vyjednáváno, dokud se nezmění v „ano“.
-- Musíte vysvětlovat a obhajovat každé své rozhodnutí.
-- Někdo kontroluje vaše zprávy, výdaje nebo kontakty.
-- Máte pocit, že vlastní hranice jsou sobectví.
+Nejjasnějším signálem je cena odmítnutí: za „ne“ přichází trest – mlčení, výčitky, odebrání náklonnosti nebo peněz. Dutton a Goodmanová (2005) popsali nátlak v partnerských vztazích jako spojení požadavku, věrohodné hrozby následků při jeho nesplnění a dohledu nad tím, zda je požadavek plněn. Kde se toto spojení opakuje, nejde o neshodu, ale o kontrolu.
+
+Hranice se postupně rozmělňují i bez otevřených hrozeb. Vaše „ne“ je pokaždé vyjednáváno, dokud se nezmění v „ano“; musíte vysvětlovat a obhajovat každé své rozhodnutí; někdo kontroluje vaše zprávy, výdaje nebo kontakty. Stark (2007) ukazuje, že právě taková regulace každodenního života – drobná, opakovaná, často nenápadná – je jádrem [coercive control](@/glossary/coercive-control.md). Vnitřním signálem je pak pocit, že vlastní hranice jsou sobectví: pokud ho máte, stojí za to zjistit, kdo vás to naučil.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Pomáhá ve vztahu, kde partner vyžaduje hesla, polohu a vysvětlení každého
 ## Cíl dovednosti
 
 Naučit se identifikovat, vyjádřit a udržovat své osobní hranice – bez agrese, ale i bez ustupování – a rozpoznat situace, kdy je otevřené vyslovení hranice nebezpečné a je třeba jiný postup.
+
+## Odborné východisko
+
+Asertivita, jak ji popsali Alberti a Emmons (1970), je schopnost vyjádřit vlastní potřeby a postoje přímo a s respektem k sobě i k druhému – na rozdíl od pasivity, která vlastní potřeby obětuje, a od agrese, která přehlíží potřeby druhých. Hranice jsou praktickým vyjádřením asertivity: neříkají, co má udělat druhý, ale co udělám já, když se určitá věc stane.
+
+Dialekticko-behaviorální terapie zpracovala nastavování hranic jako dovednost interpersonální efektivity se třemi cíli, které je dobré rozlišovat: dosáhnout toho, co potřebuji, zachovat vztah a zachovat si sebeúctu (Linehan 2015). V každé situaci mohou mít tyto cíle jinou váhu a je legitimní se rozhodnout, že v určitém vztahu má přednost sebeúcta před jeho zachováním. Strukturovaný postup – popsat situaci, vyjádřit, co cítím, jasně požádat nebo odmítnout a říct, proč je to pro druhého výhodné – pomáhá udržet hranici bez nekonečného vysvětlování.
+
+Tyto postupy však předpokládají vztah, ve kterém druhá strana sice může nesouhlasit, ale nereaguje násilím. Herman (1992) i Stark (2007) zdůrazňují, že v prostředí kontroly a násilí není hlavním problémem nedostatek asertivity oběti, ale chování pachatele; obnova hranic tam vyžaduje bezpečnostní plán a vnější pomoc, ne jen komunikační dovednost.
 
 ## Pět praktických cvičení
 
@@ -85,13 +89,21 @@ Denně pět minut drobného tréninku, týdně půlhodinové ohlédnutí; hranic
 
 ## Čeho se vyvarovat
 
-- Nekonfrontujte násilnou osobu s novými hranicemi o samotě a bez plánu.
-- Nevysvětlujte hranici donekonečna; nekonečná obhajoba je pozvánkou k vyjednávání.
-- Nezaměňujte hranici za trest druhému – hranice říká, co uděláte vy, ne co musí udělat on.
+Nekonfrontujte násilnou osobu s novými hranicemi o samotě a bez plánu; o tom, zda a jak hranici vyslovit, rozhodujte s intervenčním centrem. Nevysvětlujte hranici donekonečna; nekonečná obhajoba je pozvánkou k vyjednávání.
+
+Nezaměňujte ani hranici za trest druhému – hranice říká, co uděláte vy, ne co musí udělat on. Hranice „když na mě budeš křičet, odejdu z místnosti“ je ve vaší moci; „musíš přestat křičet“ není.
 
 ## Meze svépomoci
 
 Hranice vás mohou stát vztahy; lidé, kteří těžili z jejich absence, změnu neradi přijímají. Svépomoc nestačí tam, kde je hranice porušována násilím, kontrolou peněz nebo pronásledováním – tam jde o situaci pro specializovanou pomoc a případně pro právo.
+
+## Literatura
+
+- Alberti, R. E., & Emmons, M. L. (1970). *Your Perfect Right: A Guide to Assertive Behavior*. Impact.
+- Dutton, M. A., & Goodman, L. A. (2005). Coercion in intimate partner violence: Toward a new conceptualization. *Sex Roles*, 52(11–12), 743–756.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Linehan, M. M. (2015). *DBT Skills Training Manual* (2nd ed.). Guilford Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 

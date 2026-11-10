@@ -19,9 +19,7 @@ Kurátorství zdrojů odpovídá na otázku *odkud*, informační dieta na otáz
 
 ## Pro koho je návod
 
-- Pro člověka, který sleduje zprávy „celý den“ a cítí se z nich vyčerpaný a úzkostný.
-- Pro ty, kdo nemohou usnout, protože do noci čtou příspěvky.
-- Pro lidi v krizi (nemoc, spor, válka v blízkosti), u nichž potřeba „vědět všechno“ zesiluje úzkost.
+Návod je určen člověku, který sleduje zprávy „celý den“ a cítí se z nich vyčerpaný a úzkostný, a těm, kdo nemohou usnout, protože do noci čtou příspěvky. Zvlášť užitečný je pro lidi v krizi – při nemoci, sporu nebo válce v blízkosti –, u nichž potřeba „vědět všechno“ zesiluje úzkost, místo aby ji tlumila.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá v obdobích velkých událostí, kdy se zprávy aktualizují každou mi
 
 ## Varovné signály
 
-- Kontrolujete zprávy, i když víte, že se nic nového nestalo.
-- Informace vás neuklidňují, ale zvyšují neklid.
-- Ráno začínáte telefonem a večer jím končíte.
-- Máte pocit, že „když přestanu sledovat, něco mi uteče“.
-- Nedokážete vysvětlit, co jste se z hodin čtení vlastně dozvěděli.
+Nadměrná informační spotřeba se pozná podle toho, že ztrácí funkci. Kontrolujete zprávy, i když víte, že se nic nového nestalo; informace vás neuklidňují, ale zvyšují neklid; a nedokážete vysvětlit, co jste se z hodin čtení vlastně dozvěděli. Holman, Garfin a Silver (2014) zjistili, že lidé, kteří po teroristickém útoku sledovali mediální zpravodajství mnoho hodin denně, uváděli vyšší akutní stres než někteří lidé, kteří byli události přímo vystaveni. Množství zpráv tedy samo o sobě působí na duševní stav.
+
+Další signály se týkají rytmu dne a pocitu povinnosti. Ráno začínáte telefonem a večer jím končíte, a máte pocit, že „když přestanu sledovat, něco mi uteče“. Takový pocit bývá silnější než skutečný přínos: většina zpráv, které uniknou, by vaše rozhodnutí nezměnila, a ty, které by je změnily, se k vám obvykle dostanou i bez nepřetržitého sledování.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Pomáhá v obdobích velkých událostí, kdy se zprávy aktualizují každou mi
 ## Cíl dovednosti
 
 Stanovit množství, skladbu a časové rozvržení informací, které denně přijímáte, podobně jako se plánuje strava, a udržet prostor pro odpočinek, vztahy a vlastní myšlení.
+
+## Odborné východisko
+
+Herbert Simon (1971) jako jeden z prvních upozornil, že v prostředí s nadbytkem informací se vzácným zdrojem stává pozornost a že „bohatství informací vytváří chudobu pozornosti“. Pozdější přehled výzkumu informačního přetížení popsal, že od určitého bodu další informace kvalitu rozhodování nezlepšují, ale zhoršují: lidé hůř rozlišují podstatné od nepodstatného, rozhodují zbrkleji nebo rozhodování odkládají (Eppler a Mengis 2004). Informační dieta vychází z tohoto zlomu – nejde o to vědět co nejvíc, ale vědět to, co potřebuji, v množství, které dokážu zpracovat.
+
+Pro sebe-obranu je důležité, že přetížení není jen vedlejším produktem moderních médií, ale také nástrojem. Analýza propagandistického modelu označovaného jako „záplava nepravd“ popsala strategii založenou na vysokém objemu, rychlosti a opakování sdělení bez ohledu na jejich vzájemnou konzistenci (Paul a Matthews 2016). Taková strategie nepotřebuje přesvědčit; stačí, když zahltí a vyčerpá schopnost ověřovat. Omezení příjmu je proto obranou nejen pozornosti, ale i úsudku.
+
+Johnson (2012) přirovnal informační spotřebu k výživě: podobně jako u jídla nejde jen o množství, ale i o složení a o to, zda strava obsahuje víc „zpracovaného“ obsahu, který chutná, ale nesytí. Metafora má své meze, ale vystihuje praktický závěr: plánovat, kdy a z čeho se informuji, je stejně rozumné jako plánovat jídlo.
 
 ## Pět praktických cvičení
 
@@ -81,13 +85,21 @@ Denní strop a okna průběžně, ráno si naplánujte strukturu, večer krátk�
 
 ## Čeho se vyvarovat
 
-- Neodpojte se od informací úplně v době, kdy potřebujete vědět o bezpečnostních opatřeních (například při mimořádné události) – omezte se na oficiální zdroje.
-- Netrestejte se za překročení limitů; sledujte vzorce.
-- Nenahrazujte jednu závislost jinou.
+Neodpojte se od informací úplně v době, kdy potřebujete vědět o bezpečnostních opatřeních (například při mimořádné události) – omezte se na oficiální zdroje a pevné časy, kdy je zkontrolujete.
+
+Netrestejte se za překročení limitů; sledujte vzorce a upravte plán, pokud je nereálný. A nenahrazujte jednu závislost jinou: když přestanete sledovat zprávy, ale stejný čas strávíte jiným nekonečným proudem obsahu, problém se jen přesunul.
 
 ## Meze svépomoci
 
 Příliš přísná dieta se snadno zlomí; plánujte i volnější dny, aby byla udržitelná. Kompulzivní sledování informací může být projevem úzkostné poruchy, kterou je potřeba léčit, ne jen „ukáznit“. Profesní nároky někdy dietu omezují – pak hledejte nejmenší dosažitelnou změnu.
+
+## Literatura
+
+- Eppler, M. J., & Mengis, J. (2004). The concept of information overload: A review of literature from organization science, accounting, marketing, MIS, and related disciplines. *The Information Society*, 20(5), 325–344.
+- Holman, E. A., Garfin, D. R., & Silver, R. C. (2014). Media's role in broadcasting acute stress following the Boston Marathon bombings. *Proceedings of the National Academy of Sciences*, 111(1), 93–98.
+- Johnson, C. A. (2012). *The Information Diet: A Case for Conscious Consumption*. O'Reilly Media.
+- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ [Propaganda](@/glossary/propaganda.md) Model: Why It Might Work and Options to Counter It*. RAND Corporation.
+- Simon, H. A. (1971). Designing organizations for an information-rich world. In M. Greenberger (Ed.), *Computers, Communications, and the Public Interest* (pp. 37–72). Johns Hopkins Press.
 
 ## Související
 

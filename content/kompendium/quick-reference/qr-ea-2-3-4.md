@@ -58,7 +58,3 @@ Eskalujte při výhrůžkách násilím, zveřejnění adresy nebo útoku na rod
 - **Detekce:** [deplatformingová kaskáda](@/kompendium/detection-signatures/24-network-deplatforming-cascade.md) – častý důsledek.
 - **Glosář:** [deplatforming](@/glossary/deplatforming.md) – cíl mnoha vln.
 - **Sousední karty:** [EA-2.3.1 Vytržený klip](@/kompendium/quick-reference/qr-ea-2-3-1.md) – typický spouštěč; [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/quick-reference/qr-ea-2-1-9.md) – zdání shody.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

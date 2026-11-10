@@ -187,7 +187,7 @@ Pro Kapitoly 7, 8, 9, 10 jsou **kompaktní taxonomické popisy** integrovány p�
 - Platforma: [NABLA Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md), {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Ultramární techniky jsou L3 (omezený přístup)**: nejsou určeny k
 obecnému studiu. Před četbou potvrď, že:
@@ -201,11 +201,3 @@ obecnému studiu. Před četbou potvrď, že:
 > **Mandatorní akce**: bez kvalifikovaného důvodu a supervize nečti — riziko
 > je strukturální poškození epistemické identity, často s dlouhodobou
 > reverzibilitou v řádu měsíců až let.
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

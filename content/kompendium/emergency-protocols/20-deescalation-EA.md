@@ -145,13 +145,3 @@ zklidní a souhlasí s vyšetřením.
 
 - [Gaslighting](@/glossary/gaslighting.md) – proč na slovech záleží.
 - [Polyvagální teorie](@/glossary/polyvagalni-teorie.md) – jeden z modelů reakce na ohrožení.
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-
----
-
-*Kompendium epistemické anihilace · Akutní protokol č. 20 · v18.4.0*

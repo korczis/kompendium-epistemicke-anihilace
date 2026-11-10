@@ -146,13 +146,3 @@ muž souhlasí s návštěvou psychologa.
   dlouhodobé následky.
 - [Mezinárodní právo](@/kompendium/forensic-legal/50-international-law-EA.md) – rámec ochrany.
 - [Panopticism](@/glossary/panopticism.md) – zvnitřněné sledování.
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-
----
-
-*Kompendium epistemické anihilace · Akutní protokol č. 29 · v18.4.0*

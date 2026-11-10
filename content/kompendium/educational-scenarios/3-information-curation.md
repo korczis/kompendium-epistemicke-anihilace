@@ -150,7 +150,3 @@ zatěžující; zvažte variantu s kratším sběrem a odkažte na
 - [Signal plurality](@/glossary/signal-plurality.md) – princip vícenásobných nezávislých signálů.
 - [Mediální gramotnost](@/kompendium/prevention-resilience/6-media-literacy-prevention.md) – preventivní rámec.
 - [Digitální hygiena](@/kompendium/prevention-resilience/7-digital-hygiene-prevention.md) – návyky v digitálním prostředí.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

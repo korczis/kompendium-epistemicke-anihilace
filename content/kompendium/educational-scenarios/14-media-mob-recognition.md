@@ -152,7 +152,3 @@ opravná vrstva.
 
 - [Delegitimizace](@/glossary/delegitimizace.md) – cíl útoku na důvěryhodnost.
 - [Propaganda model](@/kompendium/07-teoreticke-reflexe/herman-chomsky-propaganda-model.md) – strukturální výklad mediální homogenity.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

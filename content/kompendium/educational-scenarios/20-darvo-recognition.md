@@ -153,7 +153,3 @@ rozhovor mimo skupinu. Pro práci s vlastním prožitkem viz
 
 - [DARVO](@/glossary/darvo.md) – definice a souvislosti.
 - [Blame shifting](@/glossary/blame-shifting.md) – příbuzný mechanismus přesunu viny.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

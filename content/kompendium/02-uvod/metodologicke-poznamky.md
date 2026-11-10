@@ -507,7 +507,7 @@ Taxonomie **není** dokončený artefakt — je **živý systém**. Klíčové o
 - [Glosář: Epistemic Pipeline](@/glossary/epistemic-pipeline.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Než přejdeš ke konkrétním kategoriím**, formuluj si vlastní pracovní
 [definici epistemické anihilace](@/glossary/epistemicka-anihilace.md) a zapiš si ji
@@ -517,11 +517,3 @@ referenční bod pro detekci vlastního posunu pochopení.
 
 > **Mandatorní akce**: bez vlastní výchozí definice četba dalších sekcí
 > riskuje, že se ti vlastní pochopení rozplyne v autorské formulaci.
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -58,7 +58,3 @@ Eskalujte, když orgán přestane plnit zákonnou kontrolní funkci nebo schvalu
 - **Organizace:** [odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md) – institucionální prevence.
 - **Terminální protokol:** [institucionální anihilace](@/kompendium/04-terminalni-protokoly/institucionalni-anihilace.md) – kam zachycení instituce vede.
 - **Sousední karty:** [EA-2.4.2 Skrytý přepis pravidel](@/kompendium/quick-reference/qr-ea-2-4-2.md) – co zachycený orgán schvaluje; [EA-2.1.7 Institucionální vyloučení](@/kompendium/quick-reference/qr-ea-2-1-7.md) – dopad na jednotlivce.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

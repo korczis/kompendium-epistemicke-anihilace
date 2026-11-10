@@ -57,7 +57,3 @@ Eskalujte, když klip vede k výhrůžkám, ztrátě místa nebo kaskádě odstr
 - **Technika a kapitola:** [plná stránka EA-2.3.1](@/kompendium/techniques/ea-2-3-1-clip-takeout.md) – mechanismus, ověření a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře delegitimizace.
 - **Detekce:** [posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md) – popisek mění výklad.
 - **Sousední karty:** [EA-2.3.2 Kolaps kontextu](@/kompendium/quick-reference/qr-ea-2-3-2.md) – mění publikum, ne výřez; [EA-2.3.4 Koordinace davu](@/kompendium/quick-reference/qr-ea-2-3-4.md) – co na klip obvykle naváže; [EA-2.3.10 Virální zkreslení výroku](@/kompendium/quick-reference/qr-ea-2-3-10.md) – šíření zkreslené verze.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

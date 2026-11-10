@@ -47,7 +47,7 @@ identita teprve tvoří. Společné rysy:
 - **přepsaný životopis** – minulost se vykládá jako doba nevědomosti nebo slabosti, která
   vedla k „probuzení“; srov. [EA-5.3.2 Autobiografická dekonstrukce](@/kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md);
 - **uzavřený výklad** – každý protidůkaz potvrzuje teorii, každá kritika je útok
-  nepřátel; srov. [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-immunization-against-falsification.md);
+  nepřátel; srov. [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md);
 - **nepřátelský vnější svět** – rodina, instituce a odborníci nejsou jen v omylu, ale
   součástí problému; kontakt s nimi se omezuje nebo přerušuje;
 - **úplný slovník** – vlastní jazyk skupiny pokryje i city, vztahy a tělo; v pozdní fázi

@@ -19,9 +19,7 @@ Vztek je zdravá emoce: hlásí, že byla překročena hranice, porušena sprave
 
 ## Pro koho je návod
 
-- Pro člověka, kterému bylo řečeno, že jeho vztek je problém, zatímco to, co ho vyvolalo, se neřeší.
-- Pro ty, kdo vybuchují a pak se stydí, a mají pocit, že je někdo „vytáčí“ záměrně.
-- Pro lidi, kteří vztek dlouhodobě dusí a cítí ho jako napětí, únavu nebo bolest.
+Návod je pro člověka, kterému bylo řečeno, že jeho vztek je problém, zatímco to, co ho vyvolalo, se neřeší. Pomůže i těm, kdo vybuchují a pak se stydí a mají pocit, že je někdo „vytáčí“ záměrně, a lidem, kteří vztek dlouhodobě dusí a cítí ho jako napětí, únavu nebo bolest.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,10 +27,9 @@ Pomáhá ve vztazích, kde se hádky vždy končí tím, že omlouváte vlastní
 
 ## Varovné signály
 
-- Vztek vás zaplavuje rychle a jste pak terčem kritiky místo toho, kdo vás vyprovokoval.
-- Druhá strana mluví klidně, ale volí slova tak, aby vás ranila, a čeká na výbuch.
-- Vztek necítíte vůbec, ale máte bolesti hlavy, zatnuté čelisti a trvalou únavu.
-- Vztek se obrací proti vám samým nebo proti lidem, kteří za nic nemohou.
+První skupina signálů ukazuje na provokaci. Vztek vás zaplavuje rychle a jste pak terčem kritiky místo toho, kdo vás vyprovokoval; druhá strana mluví klidně, ale volí slova tak, aby vás ranila, a čeká na výbuch. Vzorec je zřetelný v čase: výbuch se stává hlavním tématem a původní křivda mizí ([DARVO](@/glossary/darvo.md)).
+
+Druhá skupina ukazuje na potlačení nebo přesměrování. Vztek necítíte vůbec, ale máte bolesti hlavy, zatnuté čelisti a trvalou únavu; nebo se vztek obrací proti vám samým či proti lidem, kteří za nic nemohou. Averill (1982) ve své studii každodenního hněvu ukázal, že lidé nejčastěji popisují hněv jako reakci na vnímanou křivdu nebo nespravedlnost od blízkého člověka. Kdo vztek necítí tam, kde se mu děje křivda, ztrácí signál, který by ho upozornil.
 
 ## Modelová situace
 
@@ -41,6 +38,14 @@ Pomáhá ve vztazích, kde se hádky vždy končí tím, že omlouváte vlastní
 ## Cíl dovednosti
 
 Vnímat vztek jako signál porušené hranice nebo nenaplněné potřeby, vyjádřit ho bezpečně a v pravou chvíli a nenechat se jím vtáhnout do reakce, která poslouží druhé straně.
+
+## Odborné východisko
+
+Kognitivně-behaviorální přístup k hněvu, který rozpracoval Novaco (1975), chápe vztek jako výsledek souhry vnějšího podnětu, jeho výkladu a tělesného vzrušení. Zvládání proto stojí na třech krocích: rozpoznat časné tělesné a myšlenkové signály, přezkoumat výklad situace a nacvičit jiné odpovědi než výbuch nebo potlačení. Tento model je užitečný i v manipulativním vztahu – zvlášť krok přezkoumání výkladu: je vztek reakcí na skutečnou křivdu, nebo na provokaci, jejímž cílem je právě výbuch?
+
+Populární představa, že vztek je třeba „vybít“ – mlácením do polštáře nebo křikem –, výzkumem neobstála. Bushman (2002) zjistil, že lidé, kteří si vztek „vybíjeli“ údery do boxovacího pytle a mysleli přitom na toho, kdo je rozzlobil, byli poté agresivnější než lidé, kteří chvíli nedělali nic. Vybíjení tedy vztek spíše udržuje; účinnější je zklidnění těla a odložení reakce.
+
+Dialekticko-behaviorální terapie nabízí dovednost „opačného jednání“: když emoce neodpovídá faktům nebo jednání podle ní neslouží cíli, člověk záměrně jedná opačně, než velí impulz – například se místo útoku vzdálí nebo ztiší hlas (Linehan 2015). Když vztek faktům odpovídá, je namístě jednat podle něj, ale účinně: pojmenovat křivdu, nastavit hranici, hledat nápravu.
 
 ## Pět praktických cvičení
 
@@ -80,13 +85,20 @@ Pravidlo odkladu průběžně, tělesné vybití v reálném čase, inventura je
 
 ## Čeho se vyvarovat
 
-- Nekonfrontujte ve vzteku osobu, která byla násilná nebo vám vyhrožovala. Vaše bezpečí je přednější než vyslovení pravdy.
-- Nevybíjejte vztek na lidech, kteří vám nic neudělali, ani na sobě.
-- Nepotlačujte vztek dlouhodobě; tělo si ho vybírá jinak.
+Nekonfrontujte ve vzteku osobu, která byla násilná nebo vám vyhrožovala. Vaše bezpečí je přednější než vyslovení pravdy; to, co je třeba říct, lze říct později, písemně nebo prostřednictvím třetí strany.
+
+Nevybíjejte vztek na lidech, kteří vám nic neudělali, ani na sobě, a nevěřte, že „vybití“ pomáhá (Bushman 2002). Nepotlačujte ho však ani dlouhodobě; tělo si ho vybírá jinak a potlačený vztek se snadno obrátí do deprese nebo náhlého výbuchu.
 
 ## Meze svépomoci
 
 Cílem není vztek odstranit, ale moudře ho nasměrovat; potlačovaný vztek bývá škodlivější než vyjádřený. Pokud vztek souvisí s traumatem, s depresí nebo s užíváním návykových látek, svépomoc nestačí. Vztek oprávněný – na křivdu, která se stala – si někdy žádá i spravedlnost, kterou pomůže hledat právník nebo poradna pro oběti.
+
+## Literatura
+
+- Averill, J. R. (1982). *Anger and Aggression: An Essay on Emotion*. Springer-Verlag.
+- Bushman, B. J. (2002). Does venting anger feed or extinguish the flame? Catharsis, rumination, distraction, anger, and aggressive responding. *Personality and Social Psychology Bulletin*, 28(6), 724–731.
+- Linehan, M. M. (2015). *DBT Skills Training Manual* (2nd ed.). Guilford Press.
+- Novaco, R. W. (1975). *Anger Control: The Development and Evaluation of an Experimental Treatment*. Lexington Books.
 
 ## Související
 

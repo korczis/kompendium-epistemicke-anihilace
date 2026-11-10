@@ -78,10 +78,3 @@ Jak vůbec empiricky testovat jev, který se z etických důvodů nesmí experim
 
 - [Replication Crisis](@/glossary/replication-crisis.md) – heslo glosáře.
 - [Evidence-based](@/glossary/evidence-based.md) – co znamená opírat praxi o doklady.
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

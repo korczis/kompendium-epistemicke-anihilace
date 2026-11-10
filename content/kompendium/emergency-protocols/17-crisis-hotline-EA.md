@@ -145,13 +145,3 @@ kdo slíbil. Domluví, že ráno zavolá do krizového centra a že bratr bude v
   role linek ve veřejném zdraví.
 - [Gaslighting](@/glossary/gaslighting.md) – proč volající pochybuje o sobě.
 - [Reality testing](@/glossary/reality-testing.md) – co se při ukotvení obnovuje.
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-
----
-
-*Kompendium epistemické anihilace · Akutní protokol č. 17 · v18.4.0*

@@ -55,7 +55,3 @@ Eskalujte, když imunizovaný rámec slouží k vysvětlení každé kritiky jak
 - **Technika a kapitola:** [plná stránka EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – mechanismus, kontexty a neutralizace; [kapitola 3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md) – akademické techniky.
 - **Glosář:** [falsifikovatelnost](@/glossary/falsifikovatelnost.md) – kritérium, které imunizace obchází; [pseudověda](@/glossary/pseudoscience.md) – typické prostředí.
 - **Sousední karty:** [EA-1.3.2 Strategická reinterpretace](@/kompendium/quick-reference/qr-ea-1-3-2.md) – sourozenecký mechanismus; [EA-1.3.3 Tematická diverze](@/kompendium/quick-reference/qr-ea-1-3-3.md) – únik od konfrontace; [EA-1.2.3 Iluzorní komplexita](@/kompendium/quick-reference/qr-ea-1-2-3.md) – zásoba výjimek.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

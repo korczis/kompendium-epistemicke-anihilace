@@ -3,6 +3,7 @@ title = "EA-1.1.3 Terminologická mystifikace"
 description = "Detailní per-technique článek: terminologická mystifikace — používání zbytečně komplexní, obskurní nebo idiosynkratické terminologie prezentované jako nezbytné technické výrazivo."
 weight = 113
 insert_anchor_links = "right"
+aliases = ["/kompendium/techniques/ea-1-5-terminologicka-mystifikace/"]
 
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-1-1-3", "terminologicka-mystifikace", "akvizice", "jazyk", "expertni-fasada"]

@@ -59,7 +59,3 @@ Eskalujte vždy při přetrvávajícím rozpadu vnímání: jde o stav na hranic
 - **Technika a kapitola:** [plná stránka EA-5.2.5](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md) – mechanismus, případy a neutralizace; [kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) – metatranscendentální anihilace.
 - **Glosář:** [fenomenologie](@/glossary/fenomenologie.md) – rámec pojmu konstituce; [pasivní syntéza](@/glossary/pasivni-synteza.md) – předreflexivní vrstva.
 - **Sousední karty:** [EA-5.2.4 Apriorní saturace](@/kompendium/quick-reference/qr-ea-5-2-4.md) – příprava rozpadu; [EA-5.2.20 Apperceptivní rozklad](@/kompendium/quick-reference/qr-ea-5-2-20.md) – rozpad jednoty vědomí.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

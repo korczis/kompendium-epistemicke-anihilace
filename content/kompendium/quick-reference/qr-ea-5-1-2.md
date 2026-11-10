@@ -59,7 +59,3 @@ Eskalujte při neschopnosti zajistit základní rozhodnutí (jídlo, práce, lé
 - **Technika a kapitola:** [plná stránka EA-5.1.2](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md) – mechanismus, případy a neutralizace; [kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) – [epistemická singularita](@/glossary/epistemicka-singularita.md).
 - **Glosář:** [konceptuální anihilace](@/glossary/konceptualni-anihilace.md) – krajní stav; [anankastický režim](@/glossary/anankasticky-rezim.md) – možné vyústění v závislost na rámci.
 - **Sousední karty:** [EA-5.1.3 Reflexivní paradoxie](@/kompendium/quick-reference/qr-ea-5-1-3.md) – paradoxy z vyprázdněných pojmů; [EA-5.1.30 Konceptuální entropie](@/kompendium/quick-reference/qr-ea-5-1-30.md) – postupný rozpad celého pojmového systému.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

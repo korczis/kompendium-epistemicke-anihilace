@@ -56,7 +56,3 @@ Eskalujte, když navozovaná vina či strach slouží k udržení vztahu nebo č
 - **Obrana:** [odolnost vůči studu](@/kompendium/self-defense-guides/18-shame-resilience.md) – stud jako nejčastější páka.
 - **Glosář:** [emocionální terorismus](@/glossary/emocionalni-terorismus.md) – krajní podoba téhož vzorce.
 - **Sousední karty:** [EA-1.4.1 Prosodická dominance](@/kompendium/quick-reference/qr-ea-1-4-1.md) – sourozenecká technika; [EA-1.2.1 Falešné dilema](@/kompendium/quick-reference/qr-ea-1-2-1.md) – emoční tlak k binární volbě; [EA-2.2.7 Pěstování citového dluhu](@/kompendium/quick-reference/qr-ea-2-2-7.md) – vina jako trvalý nástroj.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

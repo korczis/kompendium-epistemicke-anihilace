@@ -158,7 +158,3 @@ oběti, a zvyšuje váhu závěru, který obstojí. K souvislostem viz
 - [Falsifikace](@/glossary/falsifikace.md) – základní pojem.
 - [Nepřípustný vliv](@/glossary/undue-influence.md) – právní a klinický rámec modelového případu.
 - [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md) – proč na falsifikaci záleží.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

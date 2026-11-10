@@ -50,10 +50,17 @@ python3 scripts/check-ia.py --list detail | grep -x 'content/kompendium/case-01-
 printf '\n<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->\nx\n<!-- ENHANCED:NLLB-AUTO-BLOCK END -->\n' \
   >> content/kompendium/case-01-fixture/seeded.md
 python3 scripts/check-ia.py --list generated | grep -x 'content/kompendium/case-01-fixture/seeded.md' >/dev/null
-# A page that links the thin seeded page carries weak-link; a glossary entry without Definice, summary.
+# A thin page that another page links carries weak-link (the debt is on the target, never on the
+# linking page, so a link is never removed to pass the gate); --debt ranks it by inbound links.
+# A glossary entry without Definice carries summary.
 printf '+++\ntitle = "Odkazující"\n+++\n\nViz [seeded](@/kompendium/case-01-fixture/seeded.md).\n' \
   > content/kompendium/case-01-fixture/linking.md
-python3 scripts/check-ia.py --list weak-link | grep -x 'content/kompendium/case-01-fixture/linking.md' >/dev/null
+python3 scripts/check-ia.py --list weak-link | grep -x 'content/kompendium/case-01-fixture/seeded.md' >/dev/null
+if python3 scripts/check-ia.py --list weak-link \
+    | grep -x 'content/kompendium/case-01-fixture/linking.md' >/dev/null; then
+  echo "weak-link must not be charged to the linking page"; exit 1
+fi
+python3 scripts/check-ia.py --debt | grep -x '1	content/kompendium/case-01-fixture/seeded.md' >/dev/null
 printf '+++\ntitle = "Fixturové heslo"\n+++\n\nBez oddílu definice.\n' > content/glossary/case-01-fixture.md
 python3 scripts/check-ia.py --list summary | grep -x 'content/glossary/case-01-fixture.md' >/dev/null
 rm content/glossary/case-01-fixture.md

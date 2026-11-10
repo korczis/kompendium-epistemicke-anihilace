@@ -1,6 +1,6 @@
 +++
 title = "Protokol kultovní extrakce"
-description = "Longitudinální rekonstruktivní protokol — ex-členové kultů a high-control skupin."
+description = "Protokol podpory odchodu z vysoce kontrolující skupiny a zotavení po něm: dobrovolnost, poradenství při odchodu místo nátlaku, první měsíce venku a zotavení z myšlenkové reformy."
 weight = 28
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "recovery-protocol", "klinicke", "special"]
 categories = ["academic", "clinical"]
 
 [extra]
-related_terms = ["recovery-adolescent-protocol", "recovery-children-protocol", "recovery-elder-protocol", "recovery-political-prisoner-protocol"]
+related_terms = ["recovery-adolescent-protocol", "recovery-elder-protocol", "recovery-political-prisoner-protocol", "high-control-group", "bite-model", "sektarska-konverze"]
 parent = "kompendium-recovery-protocols"
 toc = true
 phase = "special"
@@ -16,97 +16,151 @@ phase = "special"
 
 # Protokol kultovní extrakce
 
-> **Status**: Klinicky strukturovaný longitudinální protokol — integrace [evidence-based](@/glossary/evidence-based.md) modalit s diagnostickou optikou kompendia.
-> **Fáze**: `special`
-> **Cílový rámec**: Variabilní podle populace — od bezprostřední krizové intervence po multi-letý rekonstruktivní rámec.
+> **Status**: protokol pro zvláštní populaci; pokrývá období před odchodem, samotný odchod
+> a první fáze zotavení. Pojmem „extrakce“ se zde rozumí **dobrovolný odchod s podporou**,
+> nikdy nucené vytržení ze skupiny.
+> **Fáze**: `special`.
+> **Cíl**: podpořit člověka, který uvažuje o odchodu z vysoce kontrolující skupiny nebo z ní
+> odešel, a jeho blízké – bez nátlaku, s respektem k jeho rozhodnutí.
 
-## 1. Cílová populace
+## 1. Účel a cílová populace
 
-Ex-členové [high-control skupin](@/glossary/high-control-group.md) — náboženské kulty, politické sekty, MLM organizace, terapeutické kulty, akademické sekty. Specifika: totalistické světonázory, fobie indukované [thought-stopping](@/glossary/thought-stopping.md), ostrakizace ex-členů, ekonomická závislost na skupině, ztracená dekáda(y) života.
+[Vysoce kontrolující skupiny](@/glossary/high-control-group.md) – náboženské, politické,
+terapeutické, seberozvojové, obchodní – jsou jedním z nejsoustavnějších prostředí
+[epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA). Ovlivňují chování, informace,
+myšlení i emoce svých členů a odchod z nich bývá spojen se ztrátou vztahů, bydlení, práce,
+smyslu a identity najednou. Protokol je určen třem skupinám: **členům**, kteří o odchodu
+uvažují; **bývalým členům** v prvních měsících po odchodu; a **rodinám**, které mají někoho
+ve skupině. U lidí narozených nebo vychovaných ve skupině je třeba počítat s tím, že nemají
+„předchozí život“, ke kterému by se vraceli.
 
-## 2. Časový rámec
+## 2. Klinický obraz
 
-Variabilní podle populace — od bezprostřední krizové intervence po multi-letý rekonstruktivní rámec. Zpravidla delší než standardní protokoly o 50–100 %.
+Lifton (1961) popsal na základě rozhovorů s lidmi, kteří prošli čínskou myšlenkovou reformou,
+osm znaků totalistického prostředí: kontrolu prostředí, mystickou manipulaci, požadavek čistoty,
+kult vyznání, posvátnou vědu, nabitý jazyk, doktrínu nad člověkem a rozhodování o existenci.
+Singerová (1995) a Hassan (1988; 2015) přenesli tyto poznatky na současné skupiny; Hassanův
+model [BITE](@/glossary/bite-model.md) popisuje kontrolu chování, informací, myšlení a emocí.
+Kniha popisuje proces vstupu jako [sektářskou konverzi](@/glossary/sektarska-konverze.md).
+
+Člen, který o odchodu uvažuje, bývá rozpolcený: má pochybnosti, ale skupina ho naučila vnímat
+je jako slabost nebo útok zla, a odchod znamená ztratit všechny vztahy. Bývalí členové
+v prvních měsících popisují (Lalich a Tobias 2006; Langone 1993) strach z trestu za odchod,
+vtíravé návraty skupinového jazyka a myšlení, zmatek v každodenních rozhodnutích, osamělost,
+stud, hněv, depresi, disociativní stavy („plavání“ mezi starým a novým výkladem) a praktické
+obtíže – bez peněz, práce, dokladů nebo vzdělání. Rodiny prožívají bezmoc a často volí
+konfrontaci, která člena ve skupině utvrdí.
+
+Herman (1992) řadí dlouhodobý pobyt v totalistických skupinách mezi situace „zajetí“, v nichž
+člověk nemůže snadno odejít a je soustavně podřízen kontrole druhého; výsledné obtíže popisuje
+jako komplexní posttraumatický obraz se změnami ve vztahu k sobě, k druhým a ke smyslu.
+Pro EA je klíčové, že skupina nepůsobí jen na city a chování, ale na samotné měřítko pravdy:
+co skupina řekne, platí, a co člověk vidí, musí být přizpůsobeno. Po odchodu proto bývalý člen
+nemá jen vzpomínky, které bolí, ale i přerušený vztah k vlastnímu úsudku – neví, zda smí věřit
+tomu, co vidí, a zda každá jeho pochybnost není znovu „hříchem“. Zotavení se tedy netýká jen
+traumatu, ale i obnovy schopnosti poznávat, kterou kniha popisuje jako [epistemickou
+reintegraci](@/glossary/epistemicka-reintegrace.md).
 
 ## 3. Cíle protokolu
 
-1. Adaptace standardních rekonstruktivních protokolů na vývojové, kulturní a kontextuální specifika cílové populace.
-2. Multidisciplinární koordinace specializovaných služeb (právní, sociální, medicínské, edukační).
-3. Práce s populace-specifickými rizikovými faktory a chráněnými proměnnými.
-4. Zapojení rodinného a komunitního systému jako součásti rekonstrukce.
-5. Dlouhodobé sledování s ohledem na vývojové a populační mezníky.
+Cílem je podpořit člověka uvnitř skupiny v udržení vztahů s vnějším světem a v samostatném
+posouzení vlastní situace; podpořit rodinu v udržení kontaktu bez ultimát; zajistit bezpečný
+a prakticky připravený odchod, pokud se člověk k němu rozhodne; v prvních měsících po odchodu
+stabilizovat, zajistit základní životní podmínky a obnovit orientaci; a postupně zpracovat
+zkušenost myšlenkové reformy.
 
-## 4. Implementační kroky
+## 4. Postup
 
-1. **Specializované hodnocení**: Adaptace klinických instrumentů pro cílovou populaci — vývojově sensitivní, kulturně sensitivní, jazykově dostupné.
-2. **Multidisciplinární tým**: Specializovaný terapeut + sociální pracovník + právník + případně lékař/psychiatr + populace-specifický expert (kult specialist, child psychiatrist, gerontology consultant).
-3. **Stabilizace populace-specifická**: Akutní intervence přizpůsobené specifickým rizikům — child protection, adolescent peer support, elder financial protection, cult exit support, refugee status, anti-trafficking advocacy.
-4. **Adaptované terapeutické modality**: Modifikace protokolů — play therapy + somatic experience pro děti, peer-based pro adolescenty, pomalé tempo + kognitivní rezerva pro seniory, milieu therapy pro ex-cult, culturally-adapted pro political prisoners, trauma-informed advocacy pro trafficking.
-5. **Rodinná/komunitní intervence**: Práce s celým systémem — rodinná terapie, komunitní reintegrace, právní zastupování, vzdělávací reintegrace.
-6. **Dlouhodobé sledování**: Specifické timeliny — vývojové mezníky pro děti, identitní krize pro adolescenty, kognitivní decline pro seniory, **second-generation** efekty pro ex-cult děti, complex resettlement pro political/trafficking.
+**Před odchodem – práce s rodinou a s členem**
 
-## 5. Hodnotící kritéria
+1. **Rodinné poradenství** – rodina se učí udržovat klidný, nepodmíněný kontakt, neponižovat
+   skupinu ani člena a ptát se místo tvrzení; viz [Rozpoznání varovných signálů](@/kompendium/prevention-resilience/12-warning-sign-recognition.md).
+2. **Poradenství při odchodu** (*exit counseling*) – dobrovolné setkání člena s poradcem,
+   případně s bývalými členy, kde člověk dostane informace o skupině a o technikách vlivu
+   a sám je posoudí (Langone 1993; Hassan 2015). Setkání je transparentní a člověk ho
+   může kdykoli ukončit.
+3. **Nucené „deprogramování“** – zadržení člověka proti jeho vůli – je eticky i právně
+   nepřijatelné a protokol ho odmítá; viz [Právní rámec deprogramování](@/kompendium/forensic-legal/13-cult-deprogramming-legal.md).
 
-- **Populace-specifické instrumenty** — Child Behavior Checklist (CBCL), Adolescent Identity Stages, Mini-Mental State Examination (MMSE), Group Psychological Abuse Scale (GPA), Harvard Trauma Questionnaire (HTQ).
-- **Vývojové mezníky** — věkově odpovídající funkční status.
-- **Sociálně-právní status** — vyřešený právní status, stabilní bydlení, ekonomická bezpečnost.
-- **Reintegrace** — školní/profesní/komunitní reintegrace dle populace.
-- **Dlouhodobé sledování** — minimálně 5letý follow-up s ohledem na zpožděné efekty.
+**Odchod a první měsíce**
 
-## 6. Adaptace pro EA typ
+4. **Praktický plán** – bydlení, doklady, peníze, telefon, zdravotní péče; u dětí jejich
+   bezpečí a škola.
+5. **Stabilizace** – podle [Akutního stabilizačního protokolu](@/kompendium/recovery-protocols/acute-stabilization-protocol.md).
+6. **Psychoedukace o myšlenkové reformě** – vysvětlení Liftonových znaků a modelu BITE jako
+   mapy, na které člověk může vlastní zkušenost umístit; navazuje [Subakutní detekční trénink](@/kompendium/recovery-protocols/subacute-detection-training.md).
+7. **Práce s nabitým jazykem** – postupné „překládání“ skupinových výrazů do běžného jazyka;
+   pojmenování spouštěčů.
+8. **Bývalí členové** – podpůrné skupiny jako zdroj porozumění, s vědomím rizika nové
+   uzavřené komunity.
 
-Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vystaven:
+**Rozhodovací bod A – člen se rozhodne zůstat.** Rodina a poradce respektují rozhodnutí,
+udržují kontakt a nechávají dveře otevřené. **Rozhodovací bod B – akutní ohrožení** (násilí,
+zdravotní ohrožení dětí, výhrůžky po odchodu): postup podle [Krize v aktivním kultu](@/kompendium/emergency-protocols/27-active-cult-emergency.md)
+nebo [Krize po odchodu z kultu](@/kompendium/emergency-protocols/28-ex-cult-emergency.md).
+**Rozhodovací bod C – narození ve skupině.** Zotavení zahrnuje budování identity a dovedností
+od základu, ne návrat.
 
-- **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
-- **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **[Coercive control](@/glossary/coercive-control.md) / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
-- **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
-- **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
+## 5. Hodnocení průběhu
 
-## 7. Kontraindikace
+Hodnotí se, zda má bývalý člen zajištěné základní životní podmínky, zda klesá frekvence
+vtíravých návratů skupinového myšlení a strachu z trestu, zda dokáže pojmenovat techniky,
+které na něj působily, zda má vztahy mimo skupinu a zda nevstupuje do jiné skupiny se stejnou
+strukturou. U rodin se hodnotí, zda udržují kontakt bez konfrontace. Validované normy pro EA
+neexistují.
 
-**Absolutní a relativní kontraindikace pro tento protokol**: Populace-specifické — dle subjektu (např. nedokončená vývojová stabilizace u dětí, aktivní zdravotní krize u seniorů, nestabilní právní status u political prisoners/trafficking, aktivní kultovní kontakt u cult survivors).
+## 6. Kontraindikace a rizika
 
-V přítomnosti kontraindikací je nutné nejprve zajistit jejich řešení (psychiatrická konzultace, krizová hospitalizace, paralelní léčba komorbidit) a teprve poté zahájit rekonstrukční práci.
+Kontraindikováno je jakékoli donucení. Rizikem je **konfrontace**, která člena ve skupině
+utvrdí; **náhrada skupiny** jinou skupinou se stejnou strukturou; **předčasné rozebírání
+nauky** v akutní fázi; a **nálepka „sekta“** použitá na skupinu, která je jen neobvyklá.
+Rozhodujícím kritériem je kontrola a izolace, ne obsah víry.
 
-## 8. Cross-linky
+## 7. Kazuistika (anonymizovaný kompozit)
 
-### Sesterské protokoly
-- [Protokol pro politické vězně](@/kompendium/recovery-protocols/recovery-political-prisoner-protocol.md)
-- [Protokol pro survivors obchodování s lidmi](@/kompendium/recovery-protocols/recovery-trafficking-survivor-protocol.md)
-- [Rekonstrukční protokol pro seniory](@/kompendium/recovery-protocols/recovery-elder-protocol.md)
+Matka se dozví, že její třicetiletá dcera přerušila studium a žije v komunitě, která omezuje
+kontakty s rodinou. První reakcí je výzva, aby „okamžitě odešla ze sekty“. Dcera přestane
+odpovídat. V rodinné poradně se matka učí posílat krátké, laskavé zprávy bez výčitek. Po roce
+dcera napíše, že má pochybnosti, ale „nemá kam jít“. Matka nabídne pokoj a dodá, že nemusí nic
+vysvětlovat. Dcera přijede „na víkend“ a zůstane. Na terapii přichází s tím, že se bojí, že ji
+„zlo dostane“. Terapeutka s ní pracuje se stabilizací, později s Liftonovými znaky. Dcera po
+čase řekne, že „poprvé vidí ten systém zvenku“, a vrátí se ke studiu.
 
-### Klinické články (sekce 06)
-- [Klinické aplikace — index](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-- [Epistemická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- [Kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
-- [Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md)
+## 8. Meze a otevřené otázky
 
-### EA techniky a fenomény
-- [Gaslighting (technika)](@/glossary/gaslighting.md)
-- [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md)
-- [Hermeneutic outsourcing](@/glossary/hermeneuticky-outsourcing.md)
-- [Identity destruction](@/glossary/identity-destruction.md)
+Literatura o vysoce kontrolujících skupinách (Lifton 1961; Singer 1995; Hassan 2015) je převážně
+klinická a kvalitativní; rozsáhlé kontrolované studie zotavení chybí a pojem „kult“ je
+odborně i společensky sporný. Otevřená je otázka, jak měřit účinnost poradenství při odchodu
+a jak chránit práva lidí, kteří se rozhodnou ve skupině zůstat.
 
-### Glosář
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Trauma bonding](@/glossary/trauma-bonding.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+## Literatura
 
-### Platformové reference
-- [Kompendium — hlavní index](@/kompendium/_index.md)
-- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Hlavní glosář](@/glossary/_index.md)
+- Hassan, S. (1988). *Combating Cult Mind Control*. Rochester: Park Street Press.
+- Hassan, S. (2015). *Combating Cult Mind Control* (25th anniversary ed.). Newton, MA: Freedom of
+  Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Lalich, J., & Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive
+  Relationships*. Berkeley: Bay Tree Publishing.
+- Langone, M. D. (Ed.) (1993). *Recovery from Cults: Help for Victims of Psychological and
+  Spiritual Abuse*. New York: W. W. Norton.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: Norton.
+- Singer, M. T. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 
----
+## Související
 
-## Connect & Contribute
+**Sesterské protokoly**
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+- [Protokol pro politické vězně](@/kompendium/recovery-protocols/recovery-political-prisoner-protocol.md) – myšlenková reforma v podmínkách věznění.
+- [Rekonstrukční protokol pro adolescenty](@/kompendium/recovery-protocols/recovery-adolescent-protocol.md) – mladí lidé ve skupinách.
+- [Akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) – první týdny po odchodu.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+**Krize a právo**
+
+- [Krize po odchodu z kultu](@/kompendium/emergency-protocols/28-ex-cult-emergency.md) – akutní postup.
+- [Právní rámec deprogramování](@/kompendium/forensic-legal/13-cult-deprogramming-legal.md) – proč je nátlak nepřípustný.
+
+**Případy a pojmy**
+
+- [Zotavení po 12 letech v kultu](@/kompendium/case-studies/06-cult-recovery-12-let.md) – kazuistika.
+- [BITE model](@/glossary/bite-model.md) – rámec kontroly.
+- [High-control group](@/glossary/high-control-group.md) – vysoce kontrolující skupina.

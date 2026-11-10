@@ -1,75 +1,102 @@
 +++
-title = "Bridge: Techniques → Glossary"
-description = "Bridge článek propojující Techniques s Glossary (kompendium + platform)."
+title = "Most: Techniky → Glosář"
+description = "Jak se technika s kódem EA vztahuje k pojmu glosáře: technika jako pozorovatelný vzorec, pojem jako vysvětlení a měřítko; příklady dvojic, postup čtení a meze vazeb."
 weight = 30
 
 [taxonomies]
-tags = ["kompendium", "section-bridge", "navigace"]
+tags = ["kompendium", "section-bridge", "navigace", "techniques", "glossary"]
 categories = ["academic", "reference"]
 
 [extra]
-related_terms = ["bridge-quick-reference-to-glossary", "bridge-techniques-to-case-studies", "bridge-techniques-to-quick-reference", "bridge-techniques-to-visualizations"]
+related_terms = ["bridge-quick-reference-to-glossary", "bridge-techniques-to-quick-reference", "bridge-glossary-bridges-to-philosophy", "bridge-techniques-to-case-studies"]
 parent = "kompendium-section-bridges"
 toc = false
 +++
 
-# Bridge: Techniques → Glossary
+# Most: Techniky → Glosář
 
-> **Z:** Techniques → **Do:** Glossary (kompendium + platform)
-> **Typ:** Inter-section bridge (sekce-na-sekci)
-> **Reciprocita:** Bidirektionální navigace mezi sekcemi.
+> **Z:** [Techniky – podrobné stránky](@/kompendium/techniques/_index.md) → **Do:** [Glosář](@/glossary/_index.md)
+> **Druh mostu:** mezi dvěma referenčními vrstvami – od vzorce jednání k pojmu, který jej vysvětluje.
 
-## 1. Účel bridge
+Kniha má dvě rozsáhlé referenční vrstvy, které se snadno zaměňují. Stránky technik popisují **vzorce jednání** s kódy EA-X.Y.Z: co působící dělá, jak to prožívá zasažený, podle čeho to pozná pozorovatel a jak se bránit. Glosář popisuje **pojmy**: definice, původ v odborné tradici, mechanismus, odlišení od příbuzných jevů a význam pro knihu. Technika je to, co lze pozorovat; pojem je to, čím pozorované chápeme. Jedna technika obvykle souvisí s několika pojmy a jeden pojem vysvětluje celou skupinu technik. Tento most ukazuje, jak mezi vrstvami přecházet a proč je to pro správné použití taxonomie nutné.
 
-Každá technika je ukotvena v **terminologii**. Glossary (jak v kompendiu, tak na platformě) drží kanonické definice. Bridge garantuje, že technika a definice se nerozcházejí — terminologická hygiena je prerekvizita pro klinickou bezpečnost.
+## Co pokrývají stránky technik
 
-## 2. Klíčová témata propojení
+Každá [stránka techniky](@/kompendium/techniques/_index.md) má jednotnou stavbu: definici, operační modus popsaný na úrovni struktury, fenomenologické znaky, detekční markery, rizikové kontexty, neutralizační strategie a vztah k jiným technikám. Například stránka [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) popisuje, jak se tvrzení formuluje tak, aby je nebylo možné vyvrátit; stránka [EA-2.3.9 Mediální sealioning](@/kompendium/techniques/ea-2-3-9-sealioning-medialni.md) popisuje zdvořilé, ale neúnavné požadavky na důkazy; stránka [EA-1.6.1 Vzorec guru a adepta](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) vztah, v němž jeden člověk získává výlučnou interpretační autoritu.
 
-- **Technika → glossary anchor** — každá technika má kotvu v glosáři.
-- **Variace techniky → variantní glossary entry.**
-- **Indikace → indikační glossary.**
-- **Kontraindikace → kontraindikační glossary.**
-- **Riziko → rizikový glossary.**
-- **[Doctrine](@/glossary/doctrine.md) NCLB → glossary jako evidenční vrstva.**
-- **Glossary platform vs. kompendium glossary** — synchronizace.
+## Co pokrývá glosář
 
-## 3. Doporučená čtenářská trajektorie
+[Glosář](@/glossary/_index.md) obsahuje hesla s jednotným schématem: definice, původ a kontext pojmu, projevy, mechanismus, odlišení, význam pro knihu, obrana a zotavení, literatura. Pro techniky jsou nejdůležitější hesla vzorců ([gaslighting](@/glossary/gaslighting.md), [sealioning](@/glossary/sealioning.md), [motte and bailey](@/glossary/motte-and-bailey.md), [DARVO](@/glossary/darvo.md)), hesla epistemologická ([falsifikace](@/glossary/falsifikace.md), [epistemická nespravedlnost](@/glossary/epistemicka-injustice.md), [epistemická bublina](@/glossary/epistemic-bubble.md)), psychologická ([teorie mysli](@/glossary/theory-of-mind.md), [traumatická vazba](@/glossary/trauma-bonding.md)) a sociální ([charisma](@/glossary/charisma.md), [kult osobnosti](@/glossary/kult-osobnosti.md)).
 
-Při prvním kontaktu s technikou si vždy přečtěte glossary entry pro klíčové termíny. Při praktické práci se vracejte ke glossary v případě nejistoty. Glossary platform má hlubší vrstvu (definice + evidence + cross-link).
+## Proč přecházet od techniky ke glosáři
 
-## 4. Společné cross-linky
+Prvním důvodem je **vysvětlení**. Stránka techniky říká, jak vzorec vypadá a jak mu čelit, ale ne vždy vysvětluje, proč funguje. Heslo glosáře doplňuje teoretické zázemí. Imunizace proti falsifikaci se dá pochopit teprve na pozadí Popperova požadavku, aby vědecké tvrzení stanovilo podmínky svého vyvrácení (Popper 1959), a Lakatosova rozlišení mezi oprávněnou ochranou jádra teorie a degenerující obranou, která jen vysvětluje selhání předpovědí (Lakatos 1970). Bez tohoto zázemí by čtenář mohl za imunizaci považovat každou obranu vlastního názoru, což by bylo nespravedlivé i nepřesné.
 
-| Z Techniques | Do Glossary (kompendium + platform) |
-|---|---|
-| Technique X.1 | Glossary anchor X.1 |
-| Technique X.5 indikace | Glossary indikace |
-| Technique X.7 kontraindikace | Glossary kontraindikace |
-| Technique X.9 riziko | Glossary riziko |
+Druhým důvodem je **odlišení**. Hesla glosáře mají samostatnou část o odlišení od podobných jevů. To je u technik zásadní, protože většina z nich má neškodné protějšky. Sealioning se podobá legitimní skepsi, vzorec guru a adepta se podobá náročnému mistrovskému vztahu v umění nebo řemesle, zpochybňování odbornosti se podobá oprávněné kritice. Teorie neformální logiky zdůrazňuje, že tentýž argumentační tah může být v jednom kontextu přijatelný a v jiném klamný (Walton 2008); glosář dává kritéria, podle kterých kontext posoudit.
 
-## 5. Specifické techniky / koncepty
+Třetím důvodem je **zobecnění**. Pojmy glosáře spojují techniky, které v taxonomii leží daleko od sebe. Pojem [epistemické nespravedlnosti](@/glossary/epistemicka-injustice.md) (Fricker 2007) vysvětluje techniky [delegitimizace](@/glossary/delegitimizace.md) z rodiny EA-2.1 i jevy v klinické péči a v soudním řízení. Kdo zná pojem, pozná příbuznost technik, které by podle kódu nespojil. Psychologie pojmů ukazuje, že právě taková organizace znalostí kolem vysvětlujících principů umožňuje přenos do nových situací (Murphy 2002).
 
-Klíčové koncepty: **glossary anchor**, **kompendium glossary vs. platform glossary**, **glossary jako evidenční vrstva**, **terminologická hygiena**, **synchronizace glosářů**.
+Čtvrtým důvodem je **komunikace mimo knihu**. Kódy technik jsou srozumitelné jen v rámci taxonomie. Pojmy glosáře mají často ustálený význam v odborné literatuře – gaslighting v psychologii vztahů, [coercive control](@/glossary/coercive-control.md) v právu, epistemická nespravedlnost ve filosofii. Klinická zpráva, posudek nebo článek by proto měly používat pojmy a kódy technik uvádět jen jako doplněk.
 
-## 6. Související
+## Konkrétní cesty: technika → pojem
 
-- [Techniques](@/kompendium/techniques/_index.md)
-- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
-- [Glossary platform](@/glossary/_index.md)
-- [Doctrine NCLB](@/kompendium/glossary-bridges/bridge-nclb/_index.md)
-- [Case Studies](@/kompendium/case-studies/_index.md)
-- [Quick Reference](@/kompendium/quick-reference/_index.md)
-- [Klinika](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Visualizations: Term index](@/kompendium/visualizations/_index.md)
+| Technika | Heslo glosáře | Co přechod přidává |
+|---|---|---|
+| [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) | [Falsifikace](@/glossary/falsifikace.md) | Popperovské kritérium a jeho meze. |
+| [EA-2.3.9 Mediální sealioning](@/kompendium/techniques/ea-2-3-9-sealioning-medialni.md) | [Sealioning](@/glossary/sealioning.md) | Odlišení od skepse; původ pojmu. |
+| [EA-4.1 Gaslighting](@/kompendium/techniques/ea-4-1-gaslighting.md) | [Gaslighting](@/glossary/gaslighting.md) | Psychologie popírání reality a vztahový kontext. |
+| [EA-1.6.1 Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) | [Charisma](@/glossary/charisma.md), [kult osobnosti](@/glossary/kult-osobnosti.md) | Weberovské pojetí charismatické autority (Weber 1922) a jeho deformace. |
+| [EA-2.1.1 Expertní disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) | [Epistemická nespravedlnost](@/glossary/epistemicka-injustice.md) | Proč snížení důvěryhodnosti zasahuje i sebepojetí. |
+| [EA-2.2.7 Emoční dluh](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) | [Traumatická vazba](@/glossary/trauma-bonding.md) | Proč je odchod tak obtížný. |
+| [Motte and bailey](@/kompendium/05-ultramari-techniky/motte-bailey.md) | [Motte and bailey](@/glossary/motte-and-bailey.md) | Původ pojmu ve filosofické kritice argumentace. |
 
-## 7. Meta-poznámka: glossary jako single source of truth
+Mezi oběma vrstvami stojí [mosty glosáře](@/kompendium/glossary-bridges/_index.md), například [most: sealioning](@/kompendium/glossary-bridges/bridge-sealioning.md), [most: falsifikace](@/kompendium/glossary-bridges/bridge-falsifikace.md) nebo [most: teorie mysli](@/kompendium/glossary-bridges/bridge-theory-of-mind.md); ukazují všechna místa, kde se pojem v knize používá, a tedy i všechny techniky, které vysvětluje.
 
-Pokud Quick Reference, technika a glossary nesouhlasí — **vždy platí glossary**. QR a technika se opraví. Glossary funguje jako **single source of truth** napříč kompendiem i platformou. Bridge varuje před **glossary drift** — situací, kdy se kompendium vyvíjí rychleji než glosář, a vznikají rozpory. Pre-commit hook NCLB tyto rozpory detekuje, ale finální arbitrem je člověk-editor. Praktické pravidlo: **při každém přidání techniky ověřit glossary kotvy**, při každém přidání glossary entry ověřit, že je odkazována z relevantních technik.
+## Příklad průchodu mostem
 
----
+Advokátka připravuje žalobu v pracovněprávním sporu. Klientka popisuje vedoucího, který o ní opakovaně tvrdil, že „si věci pamatuje špatně“, a postupně ji přesvědčil, že její stížnosti jsou výsledkem přecitlivělosti. Advokátka v knize našla stránku [pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) a zvažuje, jak tento popis použít.
 
-## Connect & Contribute
+Ví, že kód techniky soud nic neřekne. Přejde proto do glosáře na heslo [gaslighting](@/glossary/gaslighting.md), kde najde vymezení pojmu, jeho původ a hlavně odlišení: gaslighting není každé nesouhlasné hodnocení, ale soustavné popírání zkušenosti druhého, které vede k jeho nejistotě o vlastním vnímání. Z hesla [epistemická nespravedlnost](@/glossary/epistemicka-injustice.md) převezme argument, proč je zpochybňování věrohodnosti zaměstnankyně závažné i tehdy, když nedošlo k žádnému „hmatatelnému“ činu. V žalobě pak popisuje doložené jednání v čase a používá pojmy, které lze opřít o odbornou literaturu; stránku techniky využije jen jako vnitřní pomůcku pro strukturování výslechu. Pro právní stránku navazuje stránkou [pracovní právo v kontextu EA](@/kompendium/forensic-legal/44-employment-law-EA.md).
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+## Časté omyly
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)
+Prvním omylem je **zaměňovat techniku za pojem**. Technika je vzorec jednání v určitém kontextu; pojem je obecnější a může zahrnovat i jevy, které nejsou úmyslnou manipulací.
+
+Druhým omylem je **předpokládat vazbu jedna k jedné**. Většina technik souvisí s více pojmy a většina pojmů s více technikami; hledat „to jedno správné heslo“ vede k zúžení pohledu.
+
+Třetím omylem je **brát heslo glosáře jako důkaz, že technika byla použita**. Pojem vysvětluje, co by se mohlo dít; o tom, co se stalo, rozhodují doklady.
+
+Čtvrtým omylem je **přehlížet platformová hesla**. Některá hesla glosáře popisují software, z jehož prostředí kniha vzešla. Pro techniky jsou relevantní jen nepřímo – například principy ověřování zdrojů –, a nemají se zaměňovat za pojmy o lidském jednání.
+
+## Meze a otevřené otázky
+
+Vazby mezi technikami a hesly nejsou úplné a jejich hustota se liší. Některé techniky nemají v glosáři odpovídající pojem, protože popisují jev, pro který odborná literatura ustálený termín nemá; to je místo, kde kniha sama přichází s pojmenováním a kde je třeba zvláštní opatrnosti. Otevřenou otázkou je, zda by takové nové pojmy měly mít samostatná hesla, nebo by je kniha měla popisovat výhradně jako techniky, dokud se neprosadí v odborné debatě.
+
+## Literatura
+
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford: Oxford University Press.
+- Lakatos, I. (1970). Falsification and the methodology of scientific research programmes. In I. Lakatos & A. Musgrave (Eds.), *Criticism and the Growth of Knowledge* (pp. 91–196). Cambridge: Cambridge University Press.
+- Murphy, G. L. (2002). *The Big Book of Concepts*. Cambridge, MA: MIT Press.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson.
+- Walton, D. (2008). *Informal Logic: A Pragmatic Approach* (2nd ed.). Cambridge: Cambridge University Press.
+- Weber, M. (1922). *Wirtschaft und Gesellschaft*. Tübingen: J. C. B. Mohr (Paul Siebeck).
+
+## Související
+
+**Vrstvy**
+
+- [Techniky](@/kompendium/techniques/_index.md) – výchozí vrstva.
+- [Glosář](@/glossary/_index.md) – cílová vrstva.
+- [Glossary Bridges](@/kompendium/glossary-bridges/_index.md) – všechna místa užití pojmů.
+
+**Příklady**
+
+- [Gaslighting](@/glossary/gaslighting.md) – pojem k technice z příkladu.
+- [Falsifikace](@/glossary/falsifikace.md) – epistemologické zázemí imunizace.
+- [Rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) – přehled všech kódů.
+
+**Sousední mosty**
+
+- [Most: Rychlé karty → Glosář](@/kompendium/section-bridges/bridge-quick-reference-to-glossary.md) – od karty k pojmu.
+- [Most: Techniky → Rychlé karty](@/kompendium/section-bridges/bridge-techniques-to-quick-reference.md) – zkrácená podoba techniky.
+- [Most: Glossary Bridges → Filosofie](@/kompendium/section-bridges/bridge-glossary-bridges-to-philosophy.md) – pojmenování jako problém.

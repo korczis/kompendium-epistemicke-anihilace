@@ -57,7 +57,3 @@ Eskalujte, když se změněné pravidlo uplatní zpětně ve váš neprospěch n
 - **Technika a kapitola:** [plná stránka EA-2.4.2](@/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Organizace:** [ochrana zakládací listiny](@/kompendium/organizational-defense/2-charter-protection.md) – ochrana stanov.
 - **Sousední karty:** [EA-2.4.1 Zachycení správních orgánů](@/kompendium/quick-reference/qr-ea-2-4-1.md) – kdo změny schvaluje; [EA-2.4.10 Zachycení odborné společnosti](@/kompendium/quick-reference/qr-ea-2-4-10.md) – změny etických kodexů oboru.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

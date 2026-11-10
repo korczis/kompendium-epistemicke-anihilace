@@ -150,7 +150,3 @@ institucionální možnosti a na průvodce [hodnocením mentorů](@/kompendium/s
 - [Hodnocení mentorů](@/kompendium/self-defense-guides/27-mentor-evaluation.md) – návod pro doktorandy.
 - [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) – jak žádat konkrétnost.
 - [Akademický dohled](@/kompendium/prevention-resilience/17-academic-supervision-prevention.md) – institucionální prevence.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

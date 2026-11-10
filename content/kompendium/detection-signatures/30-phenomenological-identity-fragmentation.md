@@ -22,9 +22,11 @@ Signaturou epistemického působení se stává, když se ztráta rozvinula v pr
 
 ## Co signatura indikuje
 
-Identita je mimo jiné **epistemický nástroj**: z ní vychází perspektiva, z níž člověk hodnotí, co je pro něj dobré, pravdivé a důležité. Kdo ji ztratí, ztrácí i stanoviště, odkud by mohl posoudit, co se s ním děje. [Narativní identita](@/glossary/narativni-identita.md) – příběh, který o sobě vyprávíme – je přitom zranitelná: lze ji přepsat, když jsou vzpomínky přeinterpretovány a vlastní hlas umlčen.
+Identita je mimo jiné **epistemický nástroj**: z ní vychází perspektiva, z níž člověk hodnotí, co je pro něj dobré, pravdivé a důležité. Kdo ji ztratí, ztrácí i stanoviště, odkud by mohl posoudit, co se s ním děje. [Narativní identita](@/glossary/narativni-identita.md) – příběh, který o sobě vyprávíme – je přitom zranitelná: lze ji přepsat, když jsou vzpomínky přeinterpretovány a vlastní hlas umlčen. McAdams (1993) chápe životní příběh jako psychosociální konstrukci, kterou člověk průběžně vytváří, aby dal svému životu jednotu a smysl, a Ricoeur (1990) v pojmu narativní identity ukázal, jak příběh zprostředkuje mezi stálostí charakteru a proměnlivostí života. Obě pojetí vysvětlují, proč je přepsání příběhu zvenčí tak účinné: nezasahuje jednotlivé vzpomínky, ale princip, který je spojuje.
 
-V uzavřených skupinách popsal Lifton (1961) vznik „pseudoidentity“ nebo skupinového já, které překryje předchozí identitu; Hassan (1988) tento jev rozpracoval v souvislosti s odchodem ze sekt. Po odchodu se dřívější já nevrací automaticky – člověk se nachází mezi dvěma identitami, z nichž žádná není plně jeho. Krajní podobou je [identity destruction](@/glossary/identity-destruction.md).
+V uzavřených skupinách popsal Lifton (1961) jako jeden ze znaků totalistického prostředí nadřazenost doktríny nad člověkem (*[doctrine](@/glossary/doctrine.md) over person*), kdy se vlastní zkušenost musí podřídit výkladu skupiny, a proces myšlenkové reformy jako symbolickou smrt a znovuzrození já. West a Martin (1994) později pro identitu, která v takovém prostředí překryje předchozí, užili pojem pseudoidentita, a Hassan (1988) popsal z pohledu bývalých členů „sektářskou identitu“ vedle potlačené původní. Po odchodu se dřívější já nevrací automaticky – člověk se nachází mezi dvěma identitami, z nichž žádná není plně jeho. Krajní podobou je [identity destruction](@/glossary/identity-destruction.md).
+
+Erikson (1968) chápal identitu jako pocit vnitřní stejnosti a kontinuity, který je potvrzován uznáním druhých. Tato definice ukazuje i zranitelné místo: prostředí, které uznání podmiňuje přijetím nové identity a zároveň znehodnocuje lidi, kteří by potvrzovali tu dřívější, odebírá identitě obě opory současně.
 
 ## Pozorovatelné markery
 
@@ -58,25 +60,25 @@ Pozitivní při splnění všech bodů. Bod 2 odlišuje signaturu od svobodné p
 
 ## Odlišení od běžných stavů
 
-- **Adolescence a mladá dospělost**: hledání identity je vývojový úkol; zkoušení rolí a hodnot je normální.
-- **Životní přechody**: rozvod, odchod do důchodu, emigrace, nemoc vedou k přechodné nejistotě o sobě.
-- **Svobodná konverze** (náboženská, životní): člověk se může hluboce změnit, ale změnu prožívá jako vlastní a dokáže ji vyprávět.
-- **Transformativní zkušenost** (srov. [transformative experience](@/glossary/transformative-experience.md)) mění perspektivu, aniž by bylo vymazáno dřívější já.
+**Adolescence a mladá dospělost** jsou obdobím, v němž je hledání identity vývojovým úkolem; Erikson (1968) popsal krizi identity jako normální součást dospívání a zkoušení rolí a hodnot jako její zdravý projev. Signatura se od něj liší tím, že nejistota vzniká v určitém prostředí, je provázena znehodnocením předchozího já a vede k závislosti na vnější definici, nikoli k postupnému nalézání vlastní.
+
+**Životní přechody**, jako je rozvod, odchod do důchodu, emigrace nebo vážná nemoc, vedou k přechodné nejistotě o sobě, kterou člověk vysvětlí okolnostmi a postupně překoná. **Svobodná konverze**, ať náboženská, nebo životní, může přinést hlubokou změnu; člověk ji však prožívá jako vlastní, dokáže ji vyprávět včetně toho, čím byl předtím, a nemusí kvůli ní přerušit vztahy s lidmi, kteří ji nesdílejí.
+
+Konečně **transformativní zkušenost** mění perspektivu, z níž člověk hodnotí svůj život. Paul (2014) ukázala, že některé zkušenosti – rodičovství, vážná nemoc, změna povolání – mění samotné preference, podle nichž bychom je mohli předem posoudit (srov. [transformative experience](@/glossary/transformative-experience.md)). Ani taková změna však nevymazává dřívější já; integruje ho do nového příběhu.
 
 ## Klinická diferenciální diagnostika
 
-- **Hraniční porucha osobnosti**: narušení identity a nestabilní sebeobraz jsou jedním z charakteristických rysů; bývají dlouhodobé a nevázané na jedno prostředí. Současně mohou zvyšovat zranitelnost vůči působení.
-- **Disociativní porucha identity a jiné disociativní poruchy**: přítomnost odlišných stavů identity, amnézie; vyžaduje specializované vyšetření ([disociativní spektrum](@/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md)). DSM-5 uvádí mezi příklady jiné specifikované disociativní poruchy i narušení identity v důsledku dlouhodobého a intenzivního donucujícího přesvědčování (např. v totalitních skupinách); diagnostiku je třeba přenechat specialistovi.
-- **Komplexní PTSD**: narušený sebeobraz a pocit méněcennosti.
-- **[Depersonalizace](@/glossary/depersonalizace.md)**: odcizení od sebe bez ztráty znalosti, kdo člověk je.
-- **Psychotické poruchy**: bizarní přesvědčení o identitě (např. „jsem někdo jiný“) se ztrátou vhledu.
-- **Neurologické stavy**: změny osobnosti po poranění nebo při frontotemporální degeneraci.
+**Hraniční porucha osobnosti** zahrnuje mezi charakteristické rysy narušení identity a nestabilní sebeobraz (Linehan, 1993); tyto obtíže bývají dlouhodobé, předcházejí současnému prostředí a nejsou na ně vázány. Současně mohou zvyšovat zranitelnost vůči působení, a obě možnosti se proto nevylučují.
+
+**Disociativní porucha identity a jiné disociativní poruchy** se projevují přítomností odlišných stavů identity a amnézií a vyžadují specializované vyšetření ([disociativní spektrum](@/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md)); Van der Hart, Nijenhuis a Steele (2006) je vykládají jako strukturální disociaci osobnosti po traumatu. DSM-5 uvádí mezi příklady jiné specifikované disociativní poruchy i narušení identity v důsledku dlouhodobého a intenzivního donucujícího přesvědčování, například v totalitních skupinách (American Psychiatric Association, 2013); diagnostiku je třeba přenechat specialistovi.
+
+Dále přichází v úvahu **komplexní PTSD** s narušeným sebeobrazem a pocitem méněcennosti, **[depersonalizace](@/glossary/depersonalizace.md)**, při níž jde o odcizení od sebe bez ztráty znalosti, kdo člověk je, **psychotické poruchy** s bizarními přesvědčeními o identitě („jsem někdo jiný“) a ztrátou vhledu a **neurologické stavy**, jako jsou změny osobnosti po poranění mozku nebo při frontotemporální degeneraci. Diagnostický závěr náleží kvalifikovanému klinikovi.
 
 ## Riziko falešné pozitivity
 
-- Patologizace legitimní změny: dospělý člověk má právo změnit hodnoty, víru i životní styl, i když s tím rodina nesouhlasí (srov. [patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md)).
-- Přehlédnutí disociativní poruchy, hraniční poruchy nebo neurologické příčiny.
-- Iatrogenní riziko: terapeut, který klientovi nabídne „pravé já“, může jen nahradit jednu vnější definici druhou.
+Hlavním rizikem je **patologizace legitimní změny**. Dospělý člověk má právo změnit hodnoty, víru i životní styl, i když s tím rodina nesouhlasí, a hodnotitel nesmí signaturu použít k tomu, aby nesouhlas okolí přetavil v klinický nález (srov. [patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md)). Rozlišujícím znakem zůstává, zda osoba změnu prožívá jako vlastní a dokáže o ní souvisle vyprávět.
+
+Opačným rizikem je přehlédnutí disociativní poruchy, hraniční poruchy nebo neurologické příčiny, které vyžadují specifickou léčbu. Konečně **iatrogenní riziko**: terapeut, který klientovi nabídne „pravé já“, může jen nahradit jednu vnější definici druhou. Herman (1992) zdůrazňuje, že zotavení po traumatu stojí na posílení autonomie zasažené osoby, a terapeut proto pomáhá klientovi vytvořit vlastní příběh, nikoli převzít terapeutův.
 
 ## Validační test
 
@@ -100,9 +102,23 @@ Zaznamenat výpovědi o sobě doslovně, včetně skupinové terminologie; popsa
 
 ## Limity a otevřené otázky
 
-- Pojem identity je filozoficky i psychologicky sporný; signatura pracuje s prožívanou souvislostí, nikoli s metafyzickou podstatou já.
-- Neexistuje návrat k „původnímu já“; zotavení vytváří novou identitu, která integruje i zkušenost ze skupiny.
-- Měřit fragmentaci identity spolehlivě je obtížné; dostupné nástroje zachycují spíše disociaci a sebeobraz.
+Pojem identity je filozoficky i psychologicky sporný, a signatura proto pracuje s prožívanou souvislostí, nikoli s metafyzickou podstatou já. Neexistuje také návrat k „původnímu já“: zotavení vytváří novou identitu, která integruje i zkušenost ze skupiny, včetně toho, co v ní osoba ztratila i získala. McAdams (1993) by řekl, že úkolem není najít ztracený příběh, ale napsat pokračování, v němž bude mít místo i tato kapitola.
+
+Měřit fragmentaci identity spolehlivě je obtížné; dostupné nástroje zachycují spíše disociaci a sebeobraz než narativní souvislost. Otevřenou otázkou zůstává, jak odlišit fragmentaci způsobenou prostředím od fragmentace, která byla přítomna už dříve a prostředí ji jen využilo, a zda tento rozdíl ovlivňuje volbu terapeutického postupu.
+
+## Literatura
+
+- American Psychiatric Association. (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). American Psychiatric Publishing.
+- Erikson, E. H. (1968). *Identity: Youth and Crisis*. W. W. Norton.
+- Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Linehan, M. M. (1993). *Cognitive-Behavioral Treatment of Borderline Personality Disorder*. Guilford Press.
+- McAdams, D. P. (1993). *The Stories We Live By: Personal Myths and the Making of the Self*. William Morrow.
+- Paul, L. A. (2014). *Transformative Experience*. Oxford University Press.
+- Ricoeur, P. (1990). *Soi-même comme un autre*. Seuil.
+- Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
+- West, L. J., & Martin, P. R. (1994). Pseudo-identity and the treatment of personality change in victims of captivity and cults. In S. J. Lynn & J. W. Rhue (Eds.), *Dissociation: Clinical and Theoretical Perspectives*. Guilford Press.
 
 ## Související
 

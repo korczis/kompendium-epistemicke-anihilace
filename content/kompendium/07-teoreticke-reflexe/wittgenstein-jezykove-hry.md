@@ -40,7 +40,7 @@ Pojem **jazykové hry** Wittgenstein zavádí pro **kontextuálně vázané soub
 Pro taxonomii EA z toho plyne:
 
 - **Hra falešného konsensu** ([EA-2.4 Falešný konsensus](@/kompendium/techniques/ea-2-4-falesny-konsensus.md)) operuje skrze **importování** pravidel z jedné hry (akademická diskuze, kde konsensus znamená shodu po kritické argumentaci) do hry jiné (politická manipulace, kde „konsensus“ je předem fabrikovaný).
-- **Terminologická mystifikace** ([EA-1.5](@/kompendium/techniques/ea-1-5-terminologicka-mystifikace.md)) je **hrou na expertizu** prováděnou bez pravidel expertizy — řečník užívá expertní termíny mimo expertní hru.
+- **Terminologická mystifikace** ([EA-1.5](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)) je **hrou na expertizu** prováděnou bez pravidel expertizy — řečník užívá expertní termíny mimo expertní hru.
 - **Falešná ekvivalence** je **smíchání her**, jež mají různá kritéria validity (například etická vs. statistická hra).
 
 ## 3. Forma života (*Lebensform*)
@@ -86,10 +86,10 @@ Pro [epistemické trauma](@/glossary/epistemicke-trauma.md) ([viz 7.2](@/kompend
 
 ## 7. Mapping na konkrétní EA techniky
 
-- **[EA-1.5 Terminologická mystifikace](@/kompendium/techniques/ea-1-5-terminologicka-mystifikace.md)** → narušení pravidel jazykové hry expertizy
+- **[EA-1.5 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** → narušení pravidel jazykové hry expertizy
 - **[EA-2.4 Falešný konsensus](@/kompendium/techniques/ea-2-4-falesny-konsensus.md)** → importování pravidel z jiné hry
 - **[EA-4.1 Gaslighting](@/kompendium/techniques/ea-4-1-gaslighting.md)** → systematické vypojování ze sdílené formy života
-- **[EA-1.7 Iluzorní komplexita](@/kompendium/techniques/ea-1-7-iluzorni-komplexita.md)** → simulace expertní hry bez expertních pravidel
+- **[EA-1.7 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)** → simulace expertní hry bez expertních pravidel
 
 ## 8. Primární literatura
 
@@ -111,12 +111,3 @@ Pro [epistemické trauma](@/glossary/epistemicke-trauma.md) ([viz 7.2](@/kompend
 - [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
 - [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

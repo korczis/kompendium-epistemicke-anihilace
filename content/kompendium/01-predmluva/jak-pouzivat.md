@@ -372,7 +372,7 @@ Kompendium není pouhým statickým akademickým textem — je integrováno s {{
 - [Glossary](@/glossary/_index.md)
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj
 souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi
@@ -381,11 +381,3 @@ materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní
 
 > **Mandatorní akce**: vrať se na tuto stránku až poté, co tyto tři body
 > projdeš. Bez nich kompendium operuje mimo svůj zamýšlený etický rámec.
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -1,6 +1,6 @@
 +++
 title = "Subakutní relační restrukturalizace"
-description = "Longitudinální rekonstruktivní protokol — restrukturalizace interpersonálních vzorců."
+description = "Subakutní protokol přestavby vztahových vzorců po epistemické anihilaci: rozpoznání starých vzorců vazby, hranice, nesouhlas a opravy ve vztazích mimo terapii."
 weight = 10
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "recovery-protocol", "klinicke", "subacute"]
 categories = ["academic", "clinical"]
 
 [extra]
-related_terms = ["subacute-meaning-reconstruction", "subacute-narrative-externalization", "subacute-trust-rebuilding", "trauma"]
+related_terms = ["subacute-trust-rebuilding", "acute-social-reconnection", "longterm-community-rebuilding", "trauma", "secure-attachment", "trauma-bonding"]
 parent = "kompendium-recovery-protocols"
 toc = true
 phase = "subacute"
@@ -16,97 +16,143 @@ phase = "subacute"
 
 # Subakutní relační restrukturalizace
 
-> **Status**: Klinicky strukturovaný longitudinální protokol — integrace [evidence-based](@/glossary/evidence-based.md) modalit s diagnostickou optikou kompendia.
-> **Fáze**: `subacute`
-> **Cílový rámec**: Měsíce 1–3 po dosažení akutní stabilizace.
+> **Status**: fázový protokol subakutní fáze; navazuje na [Akutní sociální rekonekci](@/kompendium/recovery-protocols/acute-social-reconnection.md)
+> a [Subakutní rekonstrukci důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md).
+> **Fáze**: `subacute`.
+> **Cíl**: přestavět vzorce, jimiž klient vstupuje do vztahů, tak, aby nové vztahy neopakovaly
+> strukturu kontroly.
 
-## 1. Cílová populace
+## 1. Účel a cílová populace
 
-Pacienti vykazující [traumatické vazebné vzorce](@/glossary/traumatic-bonding.md) — vzorce vztahování přenesené z patologického původního vztahu. Charakterizováno opakovanou volbou podobných partnerů (pachatelů), submisivním copingem, idealizací-devalvací cyklem, fawn response.
+Lidé, kteří prošli [epistemickou anihilací](@/glossary/epistemicka-anihilace.md) (EA) ve
+vztahu nebo ve skupině, si z ní odnášejí nejen zranění, ale i naučené způsoby, jak ve vztazích
+přežít: vyhovět dřív, než druhý požádá; nikdy nesouhlasit nahlas; číst náladu druhého jako
+předpověď počasí; považovat intenzitu za důkaz lásky. Tyto vzorce byly v původním prostředí
+adaptivní. V nových vztazích ale zvyšují riziko, že se člověk znovu ocitne v nesouměrném
+vztahu, nebo naopak že bude každou blízkost odmítat. Protokol je určen klientům v subakutní
+fázi, kteří mají základní síť kontaktů a jsou připraveni zkoumat, jak se v nich chovají.
 
-## 2. Časový rámec
+## 2. Klinický obraz
 
-Měsíce 1–3 po dosažení akutní stabilizace. Intenzita: 1–2 sezení týdně. Délka sezení: 50–60 min standard, 90 min pro EMDR/TF-CBT bloky.
+Teorie vazby (Bowlby 1988) popisuje, jak si člověk ze zkušenosti s blízkými vytváří vnitřní
+pracovní model vztahů: zda je hoden péče a zda jsou druzí dostupní. Bartholomewová
+a Horowitz (1991) rozlišili čtyři vzorce vazby dospělých – jistý, zaujatý, odmítavý
+a bojácný – podle představy o sobě a o druhých. U lidí po EA se často objevuje bojácný vzorec:
+touha po blízkosti a zároveň strach z ní, protože blízkost byla spojena s kontrolou.
+
+Dutton a Painter (1981) ukázali, že vztahy s nepravidelným střídáním krutosti a vřelosti
+vytvářejí silné citové pouto ([traumatické pouto](@/glossary/trauma-bonding.md)). Člověk po
+takovém vztahu může klidné, předvídatelné vztahy prožívat jako „nudné“ nebo „bez chemie“
+a hledat intenzitu, kterou zná. Klinicky se objevuje i neschopnost vyjádřit nesouhlas,
+přehnané omlouvání, potíže s odmítnutím, nebo naopak prudké ukončování vztahů po prvním
+konfliktu. Herman (1992) popisuje u přeživších dlouhodobého zneužití opakovaná selhání
+sebeochrany, kdy člověk přehlíží signály nebezpečí, protože je „zná“.
+
+Pro EA je specifický ještě epistemický rozměr vztahů. Ve vztahu, z něhož klient odchází,
+nebylo možné mít vlastní vnímání a zároveň zůstat ve vztahu: každý nesouhlas byl zpochybněním
+vztahu samotného. Klient si proto často odnáší přesvědčení, že blízkost vyžaduje vzdát se
+vlastního názoru. Restrukturalizace vztahů tak neznamená jen naučit se hranice, ale zažít, že
+lze být blízko a zároveň vidět věci jinak než druhý. Stark (2007) zdůrazňuje, že podstatou
+donucující kontroly je odnětí autonomie v každodenním životě; nové vztahy mají být místem,
+kde se tato autonomie obnovuje v drobnostech – v tom, kdo vybírá film, kdo rozhoduje o
+víkendu, kdo smí říct „ne“.
 
 ## 3. Cíle protokolu
 
-1. Strukturovaná dekonstrukce internalizovaných pachatelských obsahů (narativy, hodnoty, hlasy).
-2. Vývoj **epistemic vigilance** — schopnost detekovat manipulativní vzorce v reálném čase.
-3. Rekonstrukce primárních hodnotových orientací autentickou cestou.
-4. Zpracování klíčových traumatických memorií skrze evidence-based modality (EMDR, TF-CBT).
-5. Příprava na středně-dobou fázi rehabilitace kognitivních a sociálních funkcí.
+Cílem je rozpoznat vlastní vztahové vzorce naučené v prostředí EA; oddělit intenzitu od
+blízkosti a kontrolu od péče; nacvičit vyjádření nesouhlasu, odmítnutí a žádosti v bezpečných
+vztazích; zažít opravu po konfliktu bez trestu a bez popírání; a vytvořit osobní signály, podle
+nichž klient pozná, že se nový vztah začíná podobat starému.
 
-## 4. Implementační kroky
+## 4. Postup
 
-1. **Hloubkové hodnocení (týden 5–6)**: Klinické instrumenty (PCL-5, ITQ, IES-R), kognitivní baseline, narativní mapování. Identifikace primárních manipulačních vzorců.
-2. **Strukturovaná psychoedukace (měsíc 2)**: Vzdělávací moduly o specifických technikách EA, kterým byl klient vystaven. **Kontrolovaná dávka** — psychoedukace musí být tolerována bez [retraumatizace](@/glossary/retraumatizace.md).
-3. **Narativní práce (měsíce 1–3)**: Týdenní sezení zaměřená na konstrukci koherentní traumatické narace. Externalizace pachatelského hlasu (technika „pojmenuj postavu“). Postupné přepisování klíčových scén.
-4. **Trauma-focused intervence (měsíce 2–3)**: Zahájení EMDR nebo TF-CBT, jakmile dostatečná stabilizace. Cíl: zpracování klíčových traumatických memorií, ne celého spektra.
-5. **Detekční trénink (měsíc 3)**: Strukturované cvičení rozpoznávání manipulativních vzorců — hypotetické scénáře, role-play, video case studies. Budování **epistemic vigilance**.
-6. **Hodnotová inventarizace (měsíc 3)**: Strukturovaná práce s hodnotovým systémem — co je autentické, co implantované, co potřeba rekonstruovat.
+1. **Mapa vzorců** – klient popíše, jak se choval ve vztahu s pachatelem nebo ve skupině
+   a co tím chránil; terapeut pomáhá vidět vzorce jako bývalou ochranu, ne jako vadu.
+2. **Vzorce v současnosti** – kde se stejné chování objevuje dnes (v práci, s rodinou,
+   s přáteli, v terapii).
+3. **Nácvik dovedností** – interpersonální účinnost podle modulu dialekticko-behaviorální
+   terapie (Linehan 1993): jak požádat, jak odmítnout, jak udržet vztah a sebeúctu zároveň.
+4. **Hranice** – formulace vlastních hranic a jejich zkoušení v malých situacích; viz
+   [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md).
+5. **Oprava po konfliktu** – zkušenost v terapii i mimo ni, že vztah přežije nesouhlas
+   a že po konfliktu přijde rozhovor, ne trest ani přehnané usmíření.
+6. **Osobní signály** – seznam znaků, podle nichž klient pozná, že se nový vztah stáčí ke
+   kontrole (rychlá intenzita, tajnost, izolace, zpochybňování vnímání); navazuje
+   [Monitorování vztahů](@/kompendium/prevention-resilience/15-relationship-monitoring.md).
+7. **Skupinová práce** – tam, kde je dostupná, skupina umožňuje zkoušet vztahové vzorce
+   s více lidmi najednou.
 
-## 5. Hodnotící kritéria
+**Rozhodovací bod A – nový intenzivní vztah.** Pokud klient v této fázi navazuje rychle se
+rozvíjející partnerský vztah, terapeut ho nezakazuje, ale společně se sledují osobní signály.
+**Rozhodovací bod B – opakované ukončování vztahů.** Pokud klient ruší vztahy po každém
+konfliktu, práce se přesouvá na toleranci nejistoty a na opravu. **Rozhodovací bod C –
+rodina.** Jde-li o návrat do rodiny, navazuje [Rodinná reintegrace](@/kompendium/prevention-resilience/26-family-reintegration-prevention.md).
 
-- **PCL-5 redukce** o ≥ 30 % oproti baseline do měsíce 3.
-- **Narativní koherence** — Linguistic Inquiry and Word Count (LIWC) ukazuje **decreased self-discrepancy markers** + **increased coherence markers**.
-- **Detekční accuracy** — strukturované scénáře, cíl ≥ 75 % správných identifikací manipulativních vzorců.
-- **Interpersonal Reactivity Index (IRI)** — obnovení normativní empatie bez fawn response markers.
-- **Hodnotová koherence** — Schwartz Values Survey, klient identifikuje ≥ 5 autentických hodnot.
+## 5. Hodnocení průběhu
 
-## 6. Adaptace pro EA typ
+Hodnotí se, zda klient dokáže popsat vlastní vztahové vzorce a jejich původ, zda v posledních
+týdnech vyjádřil nesouhlas nebo odmítnutí bez katastrofických následků, zda zažil opravu po
+konfliktu, zda má sepsané osobní signály a zda se jeho síť vztahů rozšiřuje. Ke sledování
+vazby lze použít ověřené dotazníky vztahové vazby dospělých, interpretované v čase u daného
+klienta; validované normy pro EA neexistují.
 
-Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vystaven:
+## 6. Kontraindikace a rizika
 
-- **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
-- **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **[Coercive control](@/glossary/coercive-control.md) / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
-- **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
-- **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
+Protokol není vhodný, pokud klient žije ve vztahu s aktivním násilím nebo kontrolou; tam má
+přednost bezpečí. Riziko představuje **přepsání každého vztahu jako patologického** – klient
+po psychoedukaci vidí ve všech blízkých potenciální pachatele. Dalším rizikem je **nácvik
+asertivity v nebezpečném prostředí**, například vůči pachateli se společnými dětmi, kde by
+odmítnutí mohlo vyvolat eskalaci. Terapeut také musí sledovat, zda se terapeutický vztah
+nestal jediným bezpečným vztahem klienta.
 
-## 7. Kontraindikace
+## 7. Kazuistika (anonymizovaný kompozit)
 
-**Absolutní a relativní kontraindikace pro tento protokol**: Nedokončená akutní stabilizace; aktivní substance use disorder bez paralelní léčby; aktivní psychóza; pokud klient dosud žije v EA prostředí — protokol nelze aplikovat, přechod do akutní fáze.
+Muž po třicítce, který vyrostl v rodině s otcem, jenž určoval, co si ostatní myslí, a poté
+prošel vztahem s podobně kontrolující partnerkou, si všimne, že v novém zaměstnání nedokáže
+odmítnout žádný úkol. Na mapě vzorců pozná, že „vyhovět dřív, než se zeptají“ byla jeho
+ochrana doma. V terapii nacvičuje jednoduchou žádost a odmítnutí. Poprvé odmítne vedoucímu
+víkendovou práci a čeká katastrofu; vedoucí jen přidělí úkol jinému. Při dalším sezení
+mluví o tom, že ho nová známá „nudí“, protože je „moc klidná“. Terapeut se ptá, co mu na
+klidu chybí. Muž odpoví, že neví, kdy se „něco stane“. Uvědomí si, že intenzitu zaměňoval za
+blízkost, a rozhodne se vztahu dát čas.
 
-V přítomnosti kontraindikací je nutné nejprve zajistit jejich řešení (psychiatrická konzultace, krizová hospitalizace, paralelní léčba komorbidit) a teprve poté zahájit rekonstrukční práci.
+## 8. Meze a otevřené otázky
 
-## 8. Cross-linky
+Teorie vazby je dobře rozpracovaná, ale její aplikace na dospělé po EA se opírá hlavně
+o klinickou zkušenost. Otevřené je, jak dlouho trvá změna vztahových vzorců a jak ji měřit
+jinak než výpovědí klienta. Kulturní normy vztahů se liší; to, co v jedné kultuře platí za
+přiměřenou asertivitu, je v jiné neúcta, a protokol musí respektovat prostředí klienta.
 
-### Sesterské protokoly
-- [Subakutní rekonstrukce smyslu](@/kompendium/recovery-protocols/subacute-meaning-reconstruction.md)
-- [Subakutní axiologická restaurace](@/kompendium/recovery-protocols/subacute-axiological-restoration.md)
-- [Subakutní detekční trénink](@/kompendium/recovery-protocols/subacute-detection-training.md)
+## Literatura
 
-### Klinické články (sekce 06)
-- [Klinické aplikace — index](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-- [Epistemická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- [Kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
-- [Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md)
+- Bartholomew, K., & Horowitz, L. M. (1991). Attachment styles among young adults: A test of a
+  four-category model. *Journal of Personality and Social Psychology*, 61(2).
+- Bowlby, J. (1988). *A Secure Base: Parent-Child Attachment and Healthy Human Development*.
+  New York: Basic Books.
+- Dutton, D. G., & Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md): The development of emotional
+  attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Linehan, M. M. (1993). *Skills Training Manual for Treating Borderline Personality Disorder*.
+  New York: Guilford Press.
+- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. New York: Oxford
+  University Press.
 
-### EA techniky a fenomény
-- [Gaslighting (technika)](@/glossary/gaslighting.md)
-- [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md)
-- [Hermeneutic outsourcing](@/glossary/hermeneuticky-outsourcing.md)
-- [Identity destruction](@/glossary/identity-destruction.md)
+## Související
 
-### Glosář
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Trauma bonding](@/glossary/trauma-bonding.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+**Sesterské protokoly**
 
-### Platformové reference
-- [Kompendium — hlavní index](@/kompendium/_index.md)
-- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Hlavní glosář](@/glossary/_index.md)
+- [Subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) – aliance jako cvičný prostor vztahu.
+- [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md) – první bezpečné kontakty.
+- [Dlouhodobá rekonstrukce komunity](@/kompendium/recovery-protocols/longterm-community-rebuilding.md) – vztahy v širší komunitě.
+- [Trauma](@/kompendium/recovery-protocols/trauma.md) – zpracování traumatu, z něhož vzorce pocházejí.
 
----
+**Svépomoc a prevence**
 
-## Connect & Contribute
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) – praktický postup.
+- [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) – vyjádření nesouhlasu.
+- [Rodinná reintegrace](@/kompendium/prevention-resilience/26-family-reintegration-prevention.md) – návrat do rodiny.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Pojmy**
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Secure attachment](@/glossary/secure-attachment.md) – cílový vzorec vazby.
+- [Trauma bonding](@/glossary/trauma-bonding.md) – proč klid působí „nudně“.

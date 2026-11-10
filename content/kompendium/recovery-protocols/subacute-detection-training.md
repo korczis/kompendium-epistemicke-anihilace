@@ -1,6 +1,6 @@
 +++
 title = "Subakutní detekční trénink"
-description = "Longitudinální rekonstruktivní protokol — trénink rozpoznávání EA technik."
+description = "Subakutní protokol nácviku rozpoznávání manipulativních vzorců po epistemické anihilaci: pojmenování technik na vlastní zkušenosti, předočkování a ochrana před hypervigilancí."
 weight = 9
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "recovery-protocol", "klinicke", "subacute"]
 categories = ["academic", "clinical"]
 
 [extra]
-related_terms = ["sekvence", "subacute-axiological-restoration", "subacute-meaning-reconstruction", "subacute-narrative-externalization"]
+related_terms = ["subacute-narrative-externalization", "subacute-axiological-restoration", "sekvence", "darvo", "thought-stopping", "love-bombing"]
 parent = "kompendium-recovery-protocols"
 toc = true
 phase = "subacute"
@@ -16,97 +16,151 @@ phase = "subacute"
 
 # Subakutní detekční trénink
 
-> **Status**: Klinicky strukturovaný longitudinální protokol — integrace [evidence-based](@/glossary/evidence-based.md) modalit s diagnostickou optikou kompendia.
-> **Fáze**: `subacute`
-> **Cílový rámec**: Měsíce 1–3 po dosažení akutní stabilizace.
+> **Status**: fázový protokol subakutní fáze; obsahově navazuje na
+> [Detekční signatury](@/kompendium/detection-signatures/_index.md) a [výukové scénáře](@/kompendium/educational-scenarios/_index.md).
+> **Fáze**: `subacute` – po stabilizaci a po první práci s příběhem.
+> **Cíl**: naučit klienta rozpoznat vzorce, které na něj působily, tak, aby to posílilo jeho
+> úsudek, a ne jeho strach.
 
-## 1. Cílová populace
+## 1. Účel a cílová populace
 
-Klienti připraveni přejít z reaktivní do proaktivní fáze — schopní snést psychoedukaci o manipulativních technikách bez [retraumatizace](@/glossary/retraumatizace.md). Typicky 2.–3. měsíc po extrakci. Cílem je obnovit [epistemickou agentnost](@/glossary/epistemicka-agentnost.md) skrze rozpoznání vzorců, kterými byli zasaženi.
+Lidé po [epistemické anihilaci](@/glossary/epistemicka-anihilace.md) (EA) často popisují, že
+„nevěděli, co se děje“. Neměli slova pro to, co zažívali, a výklad nabízel jen pachatel nebo
+skupina. Detekční trénink jim tato slova dává: učí je rozpoznat na vlastní zkušenosti vzorce
+jako [gaslighting](@/glossary/gaslighting.md), [love bombing](@/glossary/love-bombing.md),
+[DARVO](@/glossary/darvo.md), [thought-stopping](@/glossary/thought-stopping.md) nebo
+vytváření časového tlaku. Protokol je určen klientům v subakutní fázi, kteří jsou
+stabilizovaní, mají terapeutickou alianci a začali pracovat se svým příběhem.
 
-## 2. Časový rámec
+Trénink nemá klienta naučit, jak manipulovat nebo jak „vyhrát“ nad manipulátorem. Učí
+rozpoznat vzorec, pojmenovat ho a zvolit ochranný krok.
 
-Měsíce 1–3 po dosažení akutní stabilizace. Intenzita: 1–2 sezení týdně. Délka sezení: 50–60 min standard, 90 min pro EMDR/TF-CBT bloky.
+## 2. Klinický obraz
+
+Klient v této fázi bývá rozpolcený. Na jedné straně má potřebu porozumět: proč se to stalo,
+jak je možné, že „naletěl“, zda se to může opakovat. Na druhé straně je každý rozhovor
+o technikách manipulace potenciálně bolestný, protože vede k poznání, že vztah, který
+považoval za láskyplný nebo smysluplný, byl z velké části strukturován kontrolou. Freydová
+(1997) popsala vzorec DARVO – popření, útok a obrácení rolí oběti a pachatele – jako typickou
+reakci pachatele na konfrontaci; mnoho klientů v něm poprvé rozpozná, proč každý jejich pokus
+o rozhovor skončil jejich vlastní omluvou.
+
+Lifton (1961) popsal osm znaků totalistického prostředí, od kontroly prostředí a „nabitého
+jazyka“ (*[loading the language](@/glossary/loading-the-language.md)*) po „doktrínu nad člověkem“. Hassan (2015) shrnul
+kontrolu do modelu BITE (chování, informace, myšlení, emoce). Cialdini (2001) popsal obecné
+principy sociálního vlivu – reciprocitu, závazek a konzistenci, sociální důkaz, sympatii,
+autoritu a nedostatek –, které nejsou samy o sobě manipulativní, ale manipulativní prostředí
+je využívá soustavně a skrytě. Tyto rámce dávají klientovi mapu, na níž může vlastní zkušenost
+umístit.
+
+Klinickým rizikem je **hypervigilance**: klient, který se naučí znát techniky, je začne vidět
+všude – v každé laskavosti, v každé prosbě, v každém nesouhlasu. Detekce se tak může změnit
+v novou formu epistemické nejistoty.
+
+Detekční trénink má i rozměr spravedlnosti vůči sobě. Herman (1992) zdůrazňuje, že
+přeživší dlouhodobého zneužití často nesou stud za to, že „to dopustili“. Když klient
+pochopí, že na něj působily soustavné a opakující se postupy, které by zasáhly téměř
+kohokoli ve stejné situaci, stud se může proměnit v přesnější úsudek o vlastní odpovědnosti.
 
 ## 3. Cíle protokolu
 
-1. Strukturovaná dekonstrukce internalizovaných pachatelských obsahů (narativy, hodnoty, hlasy).
-2. Vývoj **epistemic vigilance** — schopnost detekovat manipulativní vzorce v reálném čase.
-3. Rekonstrukce primárních hodnotových orientací autentickou cestou.
-4. Zpracování klíčových traumatických memorií skrze evidence-based modality (EMDR, TF-CBT).
-5. Příprava na středně-dobou fázi rehabilitace kognitivních a sociálních funkcí.
+Cílem je, aby klient rozpoznal na vlastní zkušenosti hlavní vzorce, které na něj působily,
+a dokázal je pojmenovat; aby rozlišil běžný sociální vliv od manipulace podle strukturních
+znaků (skrytost, nesouměrnost, nemožnost odmítnout, eskalace); aby měl pro každý vzorec
+připravený ochranný krok; a aby se detekce nestala zdrojem trvalé podezíravosti.
 
-## 4. Implementační kroky
+## 4. Postup
 
-1. **Hloubkové hodnocení (týden 5–6)**: Klinické instrumenty (PCL-5, ITQ, IES-R), kognitivní baseline, narativní mapování. Identifikace primárních manipulačních vzorců.
-2. **Strukturovaná psychoedukace (měsíc 2)**: Vzdělávací moduly o specifických technikách EA, kterým byl klient vystaven. **Kontrolovaná dávka** — psychoedukace musí být tolerována bez retraumatizace.
-3. **Narativní práce (měsíce 1–3)**: Týdenní sezení zaměřená na konstrukci koherentní traumatické narace. Externalizace pachatelského hlasu (technika „pojmenuj postavu“). Postupné přepisování klíčových scén.
-4. **Trauma-focused intervence (měsíce 2–3)**: Zahájení EMDR nebo TF-CBT, jakmile dostatečná stabilizace. Cíl: zpracování klíčových traumatických memorií, ne celého spektra.
-5. **Detekční trénink (měsíc 3)**: Strukturované cvičení rozpoznávání manipulativních vzorců — hypotetické scénáře, role-play, video case studies. Budování **epistemic vigilance**.
-6. **Hodnotová inventarizace (měsíc 3)**: Strukturovaná práce s hodnotovým systémem — co je autentické, co implantované, co potřeba rekonstruovat.
+1. **Psychoedukace o rámcích** – srozumitelné shrnutí Liftonových znaků, modelu BITE
+   a principů vlivu; klient si vybírá, co mu „sedí“.
+2. **Aplikace na vlastní příběh** – na časové ose z [narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md)
+   klient označí situace, kde rozpozná vzorec; terapeut se ptá, nenavrhuje.
+3. **Strukturní znaky** – rozlišení vlivu a manipulace: Je záměr skrytý? Mohl jsem odmítnout?
+   Co se stalo, když jsem odmítl? Narůstaly nároky? Byl jsem izolován od jiných názorů?
+4. **Výukové scénáře** – práce s obecnými příklady, které nejsou klientovým příběhem, aby
+   se dovednost oddělila od bolesti; například [Rozpoznání DARVO](@/kompendium/educational-scenarios/20-darvo-recognition.md)
+   nebo [Vzorec gaslightingu](@/kompendium/educational-scenarios/19-gaslighting-pattern.md).
+5. **Předočkování** – po vzoru teorie inokulace (McGuire 1964) a jejích současných aplikací
+   (Roozenbeek a van der Linden 2019) klient předem promýšlí, jak by vypadal pokus o návrat
+   nebo nová manipulace a jak by reagoval.
+6. **Ochranné kroky** – pro každý vzorec jeden krok: zapsat si, co bylo řečeno; odložit
+   rozhodnutí; ověřit u třetí osoby; odmítnout bez vysvětlování.
+7. **Kalibrace** – klient přináší situace z běžného života, kde si není jistý, zda jde
+   o manipulaci, a společně se vyhodnocují podle strukturních znaků.
 
-## 5. Hodnotící kritéria
+**Rozhodovací bod A – zahlcení studem.** Pokud poznání vzorců vede k sebeobviňování („jak jsem
+mohl být tak hloupý“), trénink se přeruší a pracuje se se studem; viz příručka
+[Odolnost vůči studu](@/kompendium/self-defense-guides/18-shame-resilience.md).
+**Rozhodovací bod B – hypervigilance.** Pokud klient začne vidět manipulaci ve většině
+vztahů, přesouvá se důraz na kalibraci a na rozpoznání bezpečných vztahů. **Rozhodovací
+bod C – aktivní kontakt.** Pokud pachatel nebo skupina stále kontaktují klienta, trénink se
+zaměří na konkrétní komunikaci a propojí s bezpečnostním plánem.
 
-- **PCL-5 redukce** o ≥ 30 % oproti baseline do měsíce 3.
-- **Narativní koherence** — Linguistic Inquiry and Word Count (LIWC) ukazuje **decreased self-discrepancy markers** + **increased coherence markers**.
-- **Detekční accuracy** — strukturované scénáře, cíl ≥ 75 % správných identifikací manipulativních vzorců.
-- **Interpersonal Reactivity Index (IRI)** — obnovení normativní empatie bez fawn response markers.
-- **Hodnotová koherence** — Schwartz Values Survey, klient identifikuje ≥ 5 autentických hodnot.
+## 5. Hodnocení průběhu
 
-## 6. Adaptace pro EA typ
+Hodnotí se, zda klient dokáže na novém, obecném příkladu rozpoznat a pojmenovat vzorec, zda
+umí odůvodnit, proč jde (nebo nejde) o manipulaci podle strukturních znaků, zda má pro hlavní
+vzorce ochranné kroky a zda je skutečně používá, a zda nedochází k nárůstu podezíravosti
+vůči bezpečným lidem. Validované normy pro EA neexistují; hodnocení je kvalitativní
+a srovnává klienta s ním samým v čase.
 
-Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vystaven:
+## 6. Kontraindikace a rizika
 
-- **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
-- **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **[Coercive control](@/glossary/coercive-control.md) / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
-- **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
-- **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
+Trénink není vhodný v akutní fázi a u klientů, kteří nemají terapeutickou alianci. Vedle
+hypervigilance hrozí **intelektualizace** – klient zná všechny pojmy, ale používá je
+k vyhýbání se emocím. Dalším rizikem je **zbraňové použití** pojmů: klient označí každý
+nesouhlas blízkého za „gaslighting“, a tím ztratí schopnost snést oprávněnou kritiku.
+Terapeut proto stále vrací pozornost ke strukturním znakům a k rozdílu mezi konfliktem
+a kontrolou.
 
-## 7. Kontraindikace
+## 7. Kazuistika (anonymizovaný kompozit)
 
-**Absolutní a relativní kontraindikace pro tento protokol**: Nedokončená akutní stabilizace; aktivní substance use disorder bez paralelní léčby; aktivní psychóza; pokud klient dosud žije v EA prostředí — protokol nelze aplikovat, přechod do akutní fáze.
+Žena po čtyřicítce, která opustila manžela po letech, kdy každá její námitka skončila tím, že
+se omlouvala ona, se na sezení dozví o vzorci DARVO. Dlouho mlčí a pak řekne, že to je „celý
+jejich vztah“. Další dva týdny je ve stavu, kdy podezírá i sestru, že ji manipuluje, když jí
+radí. Terapeutka s ní projde strukturní znaky: sestra radí otevřeně, snese odmítnutí
+a nevyžaduje tajnost. Žena si sama všimne rozdílu. Na konci protokolu má sepsané tři vzorce,
+které zná ze vztahu, a ke každému krok, který udělá, když se objeví. Při soudním jednání,
+kdy manžel začne „obracet role“, si v duchu řekne: „To je ono“, a nechá mluvit advokátku.
 
-V přítomnosti kontraindikací je nutné nejprve zajistit jejich řešení (psychiatrická konzultace, krizová hospitalizace, paralelní léčba komorbidit) a teprve poté zahájit rekonstrukční práci.
+## 8. Meze a otevřené otázky
 
-## 8. Cross-linky
+Rámce, z nichž trénink vychází, mají rozdílnou empirickou oporu: Liftonova analýza je
+kvalitativní, model BITE je klinický nástroj bez rozsáhlé psychometrické validace a výzkum
+inokulace se týká hlavně dezinformací, ne blízkých vztahů. Otevřená je otázka, jak měřit
+rovnováhu mezi detekcí a důvěrou, a jak trénink přizpůsobit lidem s kognitivním omezením nebo
+dětem.
 
-### Sesterské protokoly
-- [Subakutní relační restrukturalizace](@/kompendium/recovery-protocols/subacute-relational-restructuring.md)
-- [Subakutní rekonstrukce smyslu](@/kompendium/recovery-protocols/subacute-meaning-reconstruction.md)
-- [Subakutní narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md)
+## Literatura
 
-### Klinické články (sekce 06)
-- [Klinické aplikace — index](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-- [Epistemická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- [Kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
-- [Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md)
+- Cialdini, R. B. (2001). *Influence: Science and Practice* (4th ed.). Boston: Allyn & Bacon.
+- Freyd, J. J. (1997). Violations of power, adaptive blindness, and [betrayal trauma](@/glossary/betrayal-trauma.md) theory.
+  *Feminism & Psychology*, 7(1).
+- Hassan, S. (2015). *Combating Cult Mind Control* (25th anniversary ed.). Newton, MA: Freedom of
+  Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: Norton.
+- McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches.
+  *Advances in Experimental Social Psychology*, 1.
+- Roozenbeek, J., & van der Linden, S. (2019). Fake news game confers psychological resistance
+  against online misinformation. *Palgrave Communications*, 5.
 
-### EA techniky a fenomény
-- [Gaslighting (technika)](@/glossary/gaslighting.md)
-- [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md)
-- [Hermeneutic outsourcing](@/glossary/hermeneuticky-outsourcing.md)
-- [Identity destruction](@/glossary/identity-destruction.md)
+## Související
 
-### Glosář
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Trauma bonding](@/glossary/trauma-bonding.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+**Sesterské protokoly**
 
-### Platformové reference
-- [Kompendium — hlavní index](@/kompendium/_index.md)
-- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Hlavní glosář](@/glossary/_index.md)
+- [Subakutní narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md) – časová osa, na níž se vzorce rozpoznávají.
+- [Subakutní axiologická restaurace](@/kompendium/recovery-protocols/subacute-axiological-restoration.md) – hodnoty jako měřítko rozhodování.
+- [Sekvence](@/kompendium/recovery-protocols/sekvence.md) – proč detekce nepatří do akutní fáze.
 
----
+**Detekce a výuka**
 
-## Connect & Contribute
+- [Vzorec gaslightingu](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – behaviorální signatura.
+- [Vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md) – signatura nátlaku.
+- [Rozpoznání DARVO](@/kompendium/educational-scenarios/20-darvo-recognition.md) – výukový scénář.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Pojmy**
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [DARVO](@/glossary/darvo.md) – obrácení rolí oběti a pachatele.
+- [Thought-stopping](@/glossary/thought-stopping.md) – zastavení myšlení naučenými frázemi.
+- [BITE model](@/glossary/bite-model.md) – rámec kontroly.

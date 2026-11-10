@@ -95,7 +95,3 @@ Skupina 5.1 ([kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md)) pop
 - **Kapitoly:** [3. Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) – rámec EA-1 a EA-2; [5. Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) – rámec EA-5.
 - **Praxe:** [akutní intervenční protokoly](@/kompendium/emergency-protocols/_index.md) – kam eskalovat; [rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md) – dlouhodobé zotavení; [klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) – diagnostika a terapie.
 - **Glosář:** [glosář](@/glossary/_index.md) – pojmy, na které karty odkazují; [taxonomie EA](@/glossary/taxonomie-ea.md) – klasifikační rámec kódů.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

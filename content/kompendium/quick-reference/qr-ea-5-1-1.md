@@ -59,7 +59,3 @@ Eskalujte, když ztráta autorství provází závislost, izolaci nebo rozpad se
 - **Technika a kapitola:** [plná stránka EA-5.1.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) – mechanismus, případy a neutralizace; [kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) – epistemická singularita.
 - **Glosář:** [epistemická singularita](@/glossary/epistemicka-singularita.md) – stav, k němuž skupina 5.1 směřuje; [epistemická alienace](@/glossary/epistemicka-alienace.md) – odcizení vlastnímu poznání.
 - **Sousední karty:** [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md) – rozpad pojmu autorství; [EA-5.1.9 Identitní dezintegrace](@/kompendium/quick-reference/qr-ea-5-1-9.md) – kam ztráta autorství vede; [EA-2.1.5 Potlačování citací](@/kompendium/quick-reference/qr-ea-2-1-5.md) – veřejná vrstva téhož.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

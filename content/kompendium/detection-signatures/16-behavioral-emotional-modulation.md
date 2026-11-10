@@ -26,6 +26,8 @@ Nepředvídatelná vřelost drží zasaženou osobu v trvalém očekávání. Ch
 
 Ve skupinách a organizacích má stejnou funkci střídání přijetí a vyloučení, veřejné chvály a veřejného zahanbení. Počáteční fáze silné vřelosti je často popisována jako [love bombing](@/glossary/love-bombing.md); fáze odvržení jako [discard](@/glossary/discard.md).
 
+Behaviorální základ popsali Ferster a Skinner (1957) v systematickém výzkumu rozvrhů posilování: chování posilované nepravidelně, podle proměnlivého rozvrhu, je mnohem odolnější vůči vyhasnutí než chování posilované pokaždé. Dutton a Painter (1981) přenesli tuto úvahu do vztahů s násilím a ukázali, že právě kombinace mocenské nerovnováhy a přerušovaného střídání týrání a vřelosti vytváří neobyčejně silné citové pouto. Walker (1979) již dříve popsala opakující se cyklus napětí, výbuchu a smíření v násilných vztazích; její model je dnes kritizován jako příliš schematický, ale zachytil podstatný rys – že fáze vřelosti je součástí vzorce, nikoli jeho přerušením. Williams (2007) v přehledu výzkumu ostrakismu doložila, že i krátké vyloučení nebo „tichá domácnost“ ohrožuje základní potřeby sounáležitosti, sebeúcty a kontroly, a vysvětlila tak, proč chladná fáze působí tak silně. Stark (2007) zařazuje podobné vzorce do širšího rámce nátlakové kontroly, která je popisem jednání, nikoli diagnózou.
+
 ## Pozorovatelné markery
 
 ### Lingvistické
@@ -57,24 +59,23 @@ Pozitivní při splnění bodů 1, 2 a alespoň jednoho z bodů 3–4. Bod 2 je 
 
 ## Odlišení od benigních podob
 
-- **Běžné výkyvy vztahu**: partneři mají horší a lepší období; konflikty se řeší rozhovorem a vřelost není podmínkou poslušnosti.
-- **Potřeba odstupu**: člověk se po hádce může na čas stáhnout; zdravé stažení je ohlášené („potřebuji hodinu, pak si promluvíme“) a nemá trestající funkci.
-- **Výchova**: přiměřená reakce rodiče na chování dítěte je předvídatelná a nevztahuje se na lásku samotnou.
-- **Pracovní zpětná vazba**: chvála a kritika podle výsledků je legitimní, pokud se týká práce, ne osoby, a pokud je konzistentní.
+**Běžné výkyvy vztahu** jsou součástí každého blízkého soužití: partneři mají horší a lepší období a nálady obou kolísají s únavou, prací a zdravím. Konflikty se však řeší rozhovorem a vřelost není podmínkou poslušnosti; po sporu se obě strany vracejí k sobě, aniž by jedna musela „odčinit“ nesouhlas.
+
+**Potřeba odstupu** je legitimní. Člověk se po hádce může na čas stáhnout, aby se uklidnil; Gottman (1994) však ukázal, že dlouhodobé uzavírání se před partnerem (*stonewalling*) patří k chování, které předpovídá rozpad vztahu. Zdravé stažení je ohlášené („potřebuji hodinu, pak si promluvíme“), časově omezené a nemá trestající funkci.
+
+Ve **výchově** je přiměřená reakce rodiče na chování dítěte předvídatelná a nevztahuje se na lásku samotnou: dítě ví, za co je napomenuto, a ví, že vztah trvá. Podobně **pracovní zpětná vazba** – chvála a kritika podle výsledků – je legitimní, pokud se týká práce, ne osoby, a pokud je konzistentní. Signatura začíná tam, kde se emoční klima stává nepředvídatelnou měnou, za niž se kupuje poslušnost.
 
 ## Klinická diferenciální diagnostika
 
-- **Poruchy nálady u zdroje** (bipolární porucha, cyklotymie) vedou ke kolísání, které nesouvisí s chováním druhého; i tehdy však mohou mít na zasaženou osobu podobný dopad a zaslouží si pozornost.
-- **Emoční dysregulace** (např. u hraniční poruchy osobnosti) může vést k prudkým změnám bez strategické funkce; rozlišuje se podle toho, zda změny slouží k vynucení poslušnosti.
-- **Úzkostná vazba u zasažené osoby** (srov. [secure attachment](@/glossary/secure-attachment.md) jako protiklad) může zesilovat vnímání výkyvů; vztahová historie pomáhá rozlišit, co je vzorec vztahu a co dispozice osoby.
+**Poruchy nálady u zdroje**, jako je bipolární porucha nebo cyklotymie, vedou ke kolísání, které nesouvisí s chováním druhého, ale s vnitřním průběhem nemoci. I tehdy však mohou mít na zasaženou osobu podobný dopad a zaslouží si pozornost, zejména pokud se zasažená osoba naučila za výkyvy přebírat odpovědnost. **Emoční dysregulace**, například u hraniční poruchy osobnosti, může vést k prudkým změnám bez strategické funkce; Linehan (1993) ji popisuje jako zvýšenou citlivost na emoční podněty, intenzivní reakci a pomalý návrat k výchozímu stavu. Rozlišuje se podle toho, zda změny časově souvisejí s poslušností zasažené osoby a slouží k jejímu vynucení.
 
-Klinik se vyhýbá diagnostikování zdroje na dálku; popisuje vzorec a jeho dopad.
+Na straně zasažené osoby může **úzkostná vazba** zesilovat vnímání výkyvů. Bowlby (1969) a později Hazan a Shaver (1987) ukázali, že vzorce citové vazby z dětství se promítají do partnerských vztahů dospělých (srov. [secure attachment](@/glossary/secure-attachment.md) jako protiklad). Vztahová historie pomáhá rozlišit, co je vzorec vztahu a co dispozice osoby; obojí může koexistovat. Klinik se vyhýbá diagnostikování zdroje na dálku; popisuje vzorec a jeho dopad a diagnostické závěry ponechává osobnímu vyšetření.
 
 ## Riziko falešné pozitivity
 
-- Konfliktní vztah, kde se obě strany střídají ve stažení, může být vzájemný, nikoli jednostranně kontrolující.
-- Zasažená osoba v depresi může vnímat i běžnou odtažitost jako trest.
-- Popularizace pojmů jako „love bombing“ vede k tomu, že se jimi označuje každá intenzivní zamilovanost.
+Konfliktní vztah, v němž se obě strany střídají ve stažení a výčitkách, může být vzájemný, nikoli jednostranně kontrolující. Signatura předpokládá asymetrii: jedna strana určuje emoční klima a druhá se mu přizpůsobuje. Kde se role střídají, je namístě spíše párová práce než ochranný postup.
+
+Zasažená osoba v depresi může vnímat i běžnou odtažitost jako trest, protože deprese zesiluje vnímání odmítnutí. Hodnotitel proto pracuje s konkrétními událostmi z deníku, nikoli jen s celkovým dojmem. Konečně popularizace pojmů jako „love bombing“ vede k tomu, že se jimi označuje každá intenzivní zamilovanost. Intenzita začátku vztahu sama nic nedokazuje; signatura vyžaduje následný vzorec podmíněné vřelosti a chladu.
 
 ## Validační test
 
@@ -98,9 +99,21 @@ Zaznamenat časovou osu fází, jejich spouštěče a projevy (doslovné výroky
 
 ## Limity a otevřené otázky
 
-- Rozlišit strategickou modulaci od nezvládnutých emocí zdroje často nelze a pro dopad na zasaženou osobu to nemusí být rozhodující.
-- Deník je subjektivní; pro forenzní účely je třeba ho doplnit dalšími doklady.
-- Silné pouto může přetrvávat i po ukončení vztahu a vyžaduje dlouhodobou práci.
+Rozlišit strategickou modulaci od nezvládnutých emocí zdroje často nelze. Pro dopad na zasaženou osobu to navíc nemusí být rozhodující: přerušované posilování působí stejně, ať je záměrné, nebo ne (Ferster & Skinner, 1957). Pro právní posouzení však otázka úmyslu může být podstatná, a signatura na ni odpověď nedává.
+
+Deník emočního klimatu je subjektivní a pro forenzní účely je třeba ho doplnit dalšími doklady, jako jsou zprávy nebo výpovědi svědků. Silné pouto může přetrvávat i po ukončení vztahu, jak vyplývá z práce Duttona a Paintera (1981), a vyžaduje dlouhodobou práci; okolí, které nechápe, proč se osoba ke zdroji vrací, může nevědomky posílit její stud a izolaci. Otevřenou otázkou zůstává, které terapeutické přístupy jsou pro uvolnění takového pouta nejúčinnější.
+
+## Literatura
+
+- Bowlby, J. (1969). *Attachment and Loss, Vol. 1: Attachment*. Hogarth Press.
+- Dutton, D. G., & Painter, S. L. (1981). Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6(1–4), 139–155.
+- Ferster, C. B., & Skinner, B. F. (1957). *Schedules of Reinforcement*. Appleton-Century-Crofts.
+- Gottman, J. M. (1994). *What Predicts Divorce? The Relationship Between Marital Processes and Marital Outcomes*. Lawrence Erlbaum.
+- Hazan, C., & Shaver, P. (1987). Romantic love conceptualized as an attachment process. *Journal of Personality and Social Psychology*, 52(3), 511–524.
+- Linehan, M. M. (1993). *Cognitive-Behavioral Treatment of Borderline Personality Disorder*. Guilford Press.
+- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Walker, L. E. (1979). *The Battered Woman*. Harper & Row.
+- Williams, K. D. (2007). Ostracism. *Annual Review of Psychology*, 58, 425–452.
 
 ## Související
 

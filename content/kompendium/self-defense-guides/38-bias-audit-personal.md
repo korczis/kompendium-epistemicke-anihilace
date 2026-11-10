@@ -19,9 +19,7 @@ toc = true
 
 ## Pro koho je návod
 
-- Pro člověka, který chce lépe rozumět tomu, proč se nechal něčím strhnout.
-- Pro ty, kdo se cítí „imunní“ vůči manipulaci – to je samo o sobě zkreslení.
-- Pro profesionály, jejichž úsudek ovlivňuje druhé (lékaře, učitele, vyšetřovatele, novináře).
+Návod je určen člověku, který chce lépe rozumět tomu, proč se nechal něčím strhnout, a těm, kdo se cítí „imunní“ vůči manipulaci – to je samo o sobě zkreslení. Pomůže i profesionálům, jejichž úsudek ovlivňuje druhé: lékařům, učitelům, vyšetřovatelům, novinářům, u nichž se osobní zkreslení násobí počtem lidí, o nichž rozhodují.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá při zpětném pohledu na rozhodnutí, která se ukázala jako chybná;
 
 ## Varovné signály
 
-- Informace, která potvrzuje váš názor, vám nepřijde potřeba ověřovat.
-- Lidé z „vaší“ skupiny se podle vás mýlí méně než ostatní.
-- O člověku, kterého obdivujete, nedokážete připustit nic negativního.
-- Když něco rozčílí nebo nadchne, nevíte proč.
-- Myslíte si, že vás by „nikdo nenachytal“.
+Zkreslení se nejčastěji projevuje asymetrií. Informace, která potvrzuje váš názor, vám nepřijde potřeba ověřovat; lidé z „vaší“ skupiny se podle vás mýlí méně než ostatní; o člověku, kterého obdivujete, nedokážete připustit nic negativního. Každý z těchto znaků odpovídá dobře popsanému vzorci – konfirmačnímu zkreslení, zvýhodňování vlastní skupiny a efektu „svatozáře“ –, a jejich přítomnost není důkazem omylu, ale místem, kde stojí za to se podívat pozorněji.
+
+Další signály jsou vnitřní. Když vás něco rozčílí nebo nadchne, nevíte proč – emoce předběhla úsudek. A myslíte si, že vás by „nikdo nenachytal“. Pronin, Lin a Ross (2002) popsali „slepou skvrnu zkreslení“: lidé ochotně připouštějí, že zkreslení ovlivňují druhé, ale u sebe je vidí výrazně méně. West, Meserve a Stanovich (2012) navíc zjistili, že vyšší kognitivní schopnosti tuto slepou skvrnu nezmenšují. Pocit imunity je tedy nejspolehlivějším varovným signálem ze všech.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Lékař s dlouholetou praxí si během auditu všiml, že informacím od kolegů
 ## Cíl dovednosti
 
 Pravidelně mapovat vlastní kognitivní a emoční zkreslení, vědět, kde nejčastěji chybujete při čtení reality, a mít proti tomu konkrétní pojistky.
+
+## Odborné východisko
+
+Výzkum heuristik a zkreslení, který zahájili Tversky a Kahneman (1974), ukázal, že lidský úsudek se za nejistoty opírá o zkratky, které obvykle fungují, ale v určitých situacích vedou k soustavným chybám. Kahneman (2011) tento poznatek shrnul do rozlišení rychlého, intuitivního a pomalého, úvahového myšlení a zdůraznil, že rychlé myšlení nelze vypnout; lze jen poznat situace, kdy je třeba zapojit pomalé.
+
+Důležitým zjištěním pro osobní audit je, že pouhé vědomí zkreslení nestačí. Fischhoff (1982) ve svém přehledu pokusů o „odzkreslení“ konstatoval, že prosté varování před zkreslením má malý účinek a že účinnější jsou změny postupu – například výslovné zvážení důvodů, proč by úsudek mohl být chybný. Kahneman, Lovallo a Sibony (2011) z toho vyvodili praktický závěr: protože vlastní zkreslení vidíme špatně, je třeba spoléhat na kontrolní otázky a na pohled druhých, ne na předsevzetí.
+
+Jedním z takových postupů je „premortem“: před důležitým rozhodnutím si představit, že dopadlo špatně, a sepsat, proč (Klein 2007). Postup obchází slepou skvrnu tím, že kritiku přesouvá z otázky „mýlím se?“, na kterou odpovídáme obranně, na otázku „co se pokazilo?“, na kterou odpovídáme tvořivě. Cvičení v tomto návodu stavějí na stejném principu – vnějších pojistkách místo vnitřní vůle.
 
 ## Pět praktických cvičení
 
@@ -80,13 +84,23 @@ Týdně půl hodiny cvičení, měsíčně hlubší reflexe, jednou ročně bila
 
 ## Čeho se vyvarovat
 
-- Nepoužívejte znalost zkreslení k tomu, abyste zpochybňovali druhé („to je jen tvůj bias“) – to je rétorický trik, ne argument.
-- Nepovažujte audit za důkaz vlastní imunity.
-- Neutápějte se v katalogizaci; cílem jsou pojistky, ne seznam.
+Nepoužívejte znalost zkreslení k tomu, abyste zpochybňovali druhé („to je jen tvůj bias“) – to je rétorický trik, ne argument, a navíc přesně ta asymetrie, kterou popisuje slepá skvrna zkreslení (Pronin, Lin a Ross 2002).
+
+Nepovažujte audit za důkaz vlastní imunity; kdo audit dokončil, není odolnější, jen lépe ví, kde je zranitelný. A neutápějte se v katalogizaci: cílem jsou pojistky, ne seznam.
 
 ## Meze svépomoci
 
 Vědomí zkreslení je samo o sobě neodstraňuje; výzkum spíš ukazuje, že lidé vidí zkreslení snáz u druhých než u sebe. Proto jsou účinnější vnější pojistky (pravidla, odklad, otázka druhého člověka) než pouhé předsevzetí „být objektivní“. Někteří lidé znalost biasů zneužívají jako omluvu; cílem je jednání, ne výmluva.
+
+## Literatura
+
+- Fischhoff, B. (1982). Debiasing. In D. Kahneman, P. Slovic, & A. Tversky (Eds.), *Judgment under Uncertainty: Heuristics and Biases* (pp. 422–444). Cambridge University Press.
+- Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
+- Kahneman, D., Lovallo, D., & Sibony, O. (2011). Before you make that big decision… *Harvard Business Review*, 89(6), 50–60.
+- Klein, G. (2007). Performing a project premortem. *Harvard Business Review*, 85(9), 18–19.
+- Pronin, E., Lin, D. Y., & Ross, L. (2002). The bias blind spot: Perceptions of bias in self versus others. *Personality and Social Psychology Bulletin*, 28(3), 369–381.
+- Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
+- West, R. F., Meserve, R. J., & Stanovich, K. E. (2012). Cognitive sophistication does not attenuate the bias blind spot. *Journal of Personality and Social Psychology*, 103(3), 506–519.
 
 ## Související
 

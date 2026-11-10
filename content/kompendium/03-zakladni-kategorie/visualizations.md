@@ -1,6 +1,6 @@
 +++
-title = "Vizualizace pro sekci 03 – postup technik EA-1 fázemi"
-description = "Interaktivní graf sekce 03: třináct technik EA-1 rozmístěných podle fáze manipulačního cyklu a typické závažnosti, s vazbami jejich společného výskytu a body pro zásah."
+title = "Vizualizace pro sekci 03 – techniky EA-1 podle podrodiny a rizika"
+description = "Interaktivní graf sekce 03: stránky technik rodiny EA-1 rozložené podle podrodiny a úrovně rizika z katalogu, spojené vazbami podle odkazů v knize."
 weight = 99
 
 [taxonomies]
@@ -14,9 +14,9 @@ section_icon = "📊"
 toc = false
 +++
 
-# Postup technik EA-1 pěti fázemi
+# Techniky rodiny EA-1 podle podrodiny a úrovně rizika
 
-Tato vizualizace patří k [sekci 03](@/kompendium/03-zakladni-kategorie/_index.md) a ukazuje, jak se [třináct technik akademické manipulace EA-1](@/kompendium/03-zakladni-kategorie/kapitola-1.md) typicky řadí v čase. Neslouží k tomu, aby předvedla, jak manipulace „postupuje“, ale k tomu, aby pozorovatel poznal, v jaké fázi se vzorec nachází a kde je zásah nejúčinnější.
+Tato vizualizace patří k [sekci 03](@/kompendium/03-zakladni-kategorie/_index.md) a zobrazuje stránky technik rodiny EA-1, tedy [akademických technik](@/kompendium/03-zakladni-kategorie/kapitola-1.md), které kniha popisuje jako narušení běžných procesů poznávání – toho, jak člověk získává informace, jak je hodnotí, jak reviduje vlastní přesvědčení a jak ho ovlivňuje hlas, postoj a prostor. Graf není mapou toho, jak manipulace „postupuje“. Je to přehled vztahů mezi stránkami knihy, který má pozorovateli usnadnit, aby od jedné rozpoznané techniky došel k dalším, o nichž kniha píše v souvislosti s ní, a k jejich obraně. Vše, co graf ukazuje, je odvozeno z odkazů a katalogu knihy.
 
 <canvas id="section-03-progression" width="800" height="500"></canvas>
 <div id="progression-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
@@ -24,58 +24,50 @@ Tato vizualizace patří k [sekci 03](@/kompendium/03-zakladni-kategorie/_index.
 
 ## Co graf zobrazuje
 
-Vodorovná osa představuje pět fází typického cyklu, svislá osa typickou závažnost techniky na stupnici 1–5. Fáze **etablování** odpovídá období, kdy se buduje důvěra a autorita a vytváří se rámec, v němž se další sdělení budou vykládat. Ve fázi **exploitace** se techniky uplatňují přímo na úsudek člověka, ve fázi **konsolidace** se získaný vliv upevňuje tak, aby odolal námitkám, a ve fázi **eskalace** přechází vzorec k závažnějším formám, které už mění samotná kritéria poznání. Pátý sloupec, **intervence**, neobsahuje žádnou techniku: označuje místo, kde má podle modelu detekce a neutralizace nejvyšší účinnost, a připomíná, že zasáhnout lze v kterékoli fázi.
+Každý **bod** je jedna stránka techniky z [katalogu technik](@/kompendium/techniques/_index.md), jejíž kód patří do rodiny EA-1. Rodinu určuje kód uvedený v textu nad grafem; kódy a názvy technik se čtou z cest a nadpisů stránek v grafu odkazů knihy, nikoli z ručně psaného seznamu. Když kniha přidá novou stránku techniky nebo nějakou přejmenuje, graf se při příštím sestavení webu změní sám. Kódová soustava, z níž rodiny a podrodiny vycházejí, je popsána v hesle [Taxonomie EA](@/glossary/taxonomie-ea.md) a v [rejstříku technik](@/kompendium/08-prilohy/rejstrik-technik.md).
 
-Pětifázové členění je didaktickým zjednodušením. Opírá se o pozorování, že nátlakové prostředí se zpravidla nevytváří jedním krokem, ale postupným skládáním drobných projevů, které teprve v souhrnu tvoří systém (Stark 2007), a o starší popisy myšlenkové reformy, v nichž po fázi navazování vztahu a otřesu dosavadní identity následuje upevnění nového výkladu světa (Lifton 1961). Model z těchto prací nepřebírá konkrétní stadia; přebírá jen myšlenku, že vzorec má časovou strukturu, a proto se dá zachytit dřív, než se uzavře.
+**Vodorovná osa** řadí body podle podrodiny, tedy podle druhého čísla kódu (EA-1.1, EA-1.2 …). Název podrodiny, který se zobrazí v legendě a v okně detailu, přebírá graf z katalogu technik: použije ten název, který u stránek dané podrodiny převažuje. **Svislá osa** nese úroveň rizika, kterou stránce přiřazuje katalog technik, v pořadí jeho legendy od nižších úrovní k vyšším; stránka bez uvedené úrovně se zařadí jako „neuvedeno“. **Barva** bodu kóduje podrodinu a nic jiného. Jacques Bertin ukázal, že poloha v rovině je nejsilnější vizuální proměnnou a barevný tón se hodí pro rozlišení kategorií, nikoli pro vyjádření pořadí (Bertin 1967); graf se tím řídí – pořadí rizika nese poloha, rozdíl mezi podrodinami tón.
 
-## Techniky v grafu
+**Šedé čáry** spojují dvě techniky, mezi jejichž stránkami vede v knize odkaz, ať jedním, nebo oběma směry. Čára tedy neříká, že se techniky v praxi vyskytují společně, ani že jedna vede k druhé; říká jen, že autor při popisu jedné z nich považoval za potřebné odkázat na druhou. Takový odkaz obvykle znamená pojmovou příbuznost, společný výskyt popsaný v textu nebo podobnou obranu, ale může vyjadřovat i pouhý redakční zvyk. Název grafu vypisuje počet stránek a vazeb tak, jak je spočte skript z aktuálních dat.
 
-| Kód | Technika | Fáze | Závažnost |
-|-----|----------|------|-----------|
-| EA-1.1.1 | [Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) | etablování | 2 |
-| EA-1.1.2 | [Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) | exploitace | 3 |
-| EA-1.1.3 | [Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) | etablování | 2 |
-| EA-1.1.4 | Predikační rozpadání (popis v [kapitole 3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md)) | konsolidace | 3 |
-| EA-1.2.1 | [Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) | exploitace | 3 |
-| EA-1.2.2 | [Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) | exploitace | 2 |
-| EA-1.2.3 | [Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) | konsolidace | 3 |
-| EA-1.3.1 | [Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) | konsolidace | 4 |
-| EA-1.3.2 | [Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) | eskalace | 4 |
-| EA-1.3.3 | [Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) | exploitace | 2 |
-| EA-1.4.1 | [Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) | etablování | 2 |
-| EA-1.4.2 | [Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) | exploitace | 3 |
-| EA-1.5.1 | [Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) | etablování | 1 |
+## Jak graf číst
 
-Rozložení samo o sobě něco vypovídá. Techniky fáze etablování mají nízkou závažnost: jednotlivě vypadají jako běžné rysy komunikace – výběr témat, odborný jazyk, hlas a postoj v místnosti. Právě proto se přehlížejí. Nejvyšší závažnost mají techniky konsolidace a eskalace, které už nepůsobí na jednotlivé úsudky, ale na pravidla, podle nichž se úsudky tvoří: imunizace proti falsifikaci zabezpečí výklad proti námitkám, strategická reinterpretace mění kritéria pravdy. Popperovské rozlišení mezi tvrzením, které lze vyvrátit, a tvrzením, které se vyvrácení vyhýbá (Popper 1959), tu odpovídá přechodu od ovlivňování obsahu k ovlivňování podmínek poznání.
+Klepnutí na bod zobrazí v okně pod grafem kód a název techniky, její podrodinu, úroveň rizika podle katalogu a seznam technik téže rodiny, na které je napojena; každá položka seznamu vede na svou stránku a poslední odkaz otevře stránku vybrané techniky. Vybraný bod se zvětší, jeho sousedé zůstanou výrazní a ostatní body se zmenší. Tento postup odpovídá Shneidermanově zásadě „nejdřív přehled, potom přiblížení a filtr, podrobnosti na vyžádání“ (Shneiderman 1996): celek je vidět najednou, detail se objeví až tehdy, když o něj čtenář požádá.
 
-## Jak číst graf
+Body ve stejné buňce – tedy techniky téže podrodiny se stejnou úrovní rizika – jsou mírně rozestoupeny, aby se nepřekrývaly. Na přesné poloze uvnitř buňky nezáleží; informaci nese jen to, ve které buňce bod leží. Pokud v knize existuje k jednomu kódu víc stránek (například plná stránka a starší krátký záznam), objeví se jako samostatné body se stejným kódem. Kdo chce vědět, která je hlavní, rozhodne podle názvu a obsahu stránky, ne podle grafu.
 
-Klepnutím na bod se zobrazí název techniky, její fáze, typická závažnost a seznam technik, s nimiž se podle modelu často vyskytuje společně. Barva kóduje fázi: modrá etablování, fialová exploitaci, oranžová konsolidaci, červená eskalaci a zelená intervenci. Šedé čáry spojují techniky, které se typicky objevují v téže fázi nebo při přechodu mezi sousedními fázemi – například selektivní expozici s terminologickou mystifikací, informační přetížení s falešným dilematem, nebo imunizaci proti falsifikaci se strategickou reinterpretací.
+Rozložení bodů lze opatrně číst i obsahově. Stránky, které katalog řadí k vyšším úrovním rizika, se v rodině EA-1 typicky týkají technik, jež už nepůsobí na jednotlivý úsudek, ale na pravidla, podle nichž se úsudky tvoří: [imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) zabezpečuje výklad proti námitkám a [strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) mění kritéria, podle nichž se o pravdě rozhoduje. Popperovské rozlišení mezi tvrzením, které se dá vyvrátit, a tvrzením, které se vyvrácení soustavně vyhýbá (Popper 1959), tu odpovídá přechodu od ovlivňování obsahu k ovlivňování podmínek poznání. Naopak techniky jako [selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) nebo [prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) vypadají jednotlivě jako běžné rysy komunikace – výběr témat, hlas, postoj v místnosti – a právě proto se přehlížejí. Úroveň rizika je však vlastností katalogového záznamu, ne naměřenou závažností.
 
-Vazby společného výskytu mají obranný význam. Kdo pozná jednu techniku, má podle grafu vědět, které další hledat. Pozorovatel, který zaznamená zahlcení informacemi, se tak může zeptat, zda se člověku zároveň nenabízejí jen dvě předem zvolené možnosti; kdo pozná imunizaci výkladu proti námitkám, má zpozornět, zda se nemění i kritéria, podle nichž se o pravdě rozhoduje.
+## Odkud graf bere data
 
-## Jak s vizualizací pracovat
+Graf nemá vlastní data. Při sestavení webu vzniká graf odkazů knihy (`static/data/graph.json`), v němž je každá stránka uzlem a každý odkaz mezi stránkami hranou; skript z něj vybere stránky technik rodiny EA-1 a hrany mezi nimi. Podrodiny a úrovně rizika čte z katalogu technik, který šablona vkládá do stránky katalogu ze záhlaví jednotlivých stránek technik. Nic z toho, co graf zobrazí, se nepíše na tuto stránku ručně, a proto zde nejsou uvedeny ani počty technik, ani jejich seznam: ty by zastaraly s první úpravou katalogu. Tamara Munznerová doporučuje u každé vizualizace oddělit otázku, jaká data zobrazuje, od otázky, jak je kóduje (Munzner 2014); tento oddíl odpovídá na první otázku, předchozí oddíly na druhou.
 
-Ve výuce slouží graf jako mapa, na níž si studenti po přečtení [kapitoly 3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md) ověří, zda chápou vztahy mezi technikami; [kapitola 3.3](@/kompendium/03-zakladni-kategorie/kapitola-3.md) popisuje, jak takovou výuku vést, aby posilovala obranu, a ne zvědavost po technice. V supervizi může pomoci při rozboru případu: kde se vzorec u klienta nacházel, kdy byl poprvé rozpoznatelný a co tehdy chybělo k zásahu. Pro čtenáře, který si všímá podobného vzorce ve vlastním okolí, je graf připomínkou, že časné, nenápadné fáze jsou nejvhodnější chvílí k ověření u někoho zvenčí.
+Z toho plyne i důležité omezení: graf je jen tak úplný, jak úplné jsou odkazy v knize. Technika, na kterou zatím žádná jiná stránka rodiny neodkazuje, se v grafu objeví bez čar, i když s ostatními věcně souvisí. Chybějící čára proto neznamená nesouvislost; znamená jen, že ji text zatím nevyslovil.
 
-Obecný příklad (kompozit): supervizní skupina rozebírá případ doktorandky, která po dvou letech pod vedením jednoho školitele přestala věřit vlastním výsledkům. Při zpětném čtení záznamů skupina na grafu postupně umístí, co se dělo. V prvních měsících šlo o výběr literatury, kterou smí číst, a o zvláštní, nevysvětlovaný slovník (etablování). Později přišly porady, na nichž dostávala víc podkladů, než stihla zpracovat, a volbu mezi dvěma nepřijatelnými možnostmi (exploitace). Nakonec každá její námitka byla vykládána jako doklad nezralosti (konsolidace) a měřítka kvality se měnila podle toho, co právě odevzdala (eskalace). Skupina dojde k závěru, že první dobře rozpoznatelný okamžik nastal už ve fázi etablování, kdy si doktorandka stěžovala kolegům na nepochopitelný jazyk vedení – a že tehdy chyběl někdo, kdo by její pozorování vzal vážně. Podobné případy z akademického prostředí rozebírají anonymizované studie [6.7](@/kompendium/06-klinicke-aplikace/pripad-akademie.md) a [6.8](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md).
+## Jak s grafem pracovat
 
-Grafické zpracování se drží zásady, že každý vizuální prvek má nést informaci, ne ozdobu (Tufte 1983). Barvy proto kódují fáze a nic jiného, a velikost bodů je pro všechny techniky stejná, aby nesugerovala rozdíly, které model neobsahuje.
+Ve výuce slouží graf jako mapa, na níž si studenti po přečtení [kapitoly 3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md) ověří, zda chápou, jak se jednotlivé techniky k sobě vztahují a proč je katalog řadí k různým úrovním rizika; [kapitola 3.3](@/kompendium/03-zakladni-kategorie/kapitola-3.md) popisuje, jak takovou výuku vést, aby posilovala rozpoznání a obranu, a ne zvědavost po technice. V supervizi může graf pomoci tím, že od techniky, kterou klinik u klienta rozpoznal, vede k technikám, o nichž kniha v téže souvislosti píše: na jejich stránkách najde detekční znaky, podle nichž se může ptát dál.
 
-## Status modelu a meze
+Obecný příklad (kompozit): supervizní skupina rozebírá případ doktorandky, která po letech pod vedením jednoho školitele přestala věřit vlastním výsledkům. Skupina nejprve rozpozná [informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) – porady, na nichž dostávala víc podkladů, než mohla zpracovat. V grafu klepne na příslušný bod a projde techniky, na něž stránka odkazuje; u každé si přečte detekční znaky a zjišťuje, zda je v záznamech případu najde. Tak dojde k [falešnému dilematu](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – nabídce dvou předem zvolených a stejně nepřijatelných možností – a ke vzorci, v němž byla každá námitka vykládána jako doklad nezralosti. Graf skupině nic nedokazuje; pomáhá jí jen klást otázky, které by jinak nepoložila. Podobné případy z akademického prostředí rozebírají anonymizované studie [6.7](@/kompendium/06-klinicke-aplikace/pripad-akademie.md) a [6.8](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md).
 
-Umístění technik a vazby mezi nimi jsou **ilustrativním modelem** autora, ne výsledkem empirického měření. Stupnice závažnosti vyjadřuje typický dopad techniky v izolaci; v konkrétním případě může drobná technika působit velmi závažně, pokud zasáhne člověka v krizi nebo v závislém postavení. Alberto Cairo připomíná, že vizualizace má nést i míru nejistoty svých dat, jinak působí přesněji, než je (Cairo 2016); tato stránka to činí slovy, protože graf sám nejistotu nezobrazuje.
+Graf nemá sloužit ke „skórování“ člověka ani prostředí. To, že u někoho rozpoznáme několik technik z vyšších pater osy rizika, ještě neznamená, že prožívá závažnější újmu než člověk, u něhož vidíme jedinou techniku nízké úrovně: drobná technika může působit velmi silně na člověka v krizi nebo v závislém postavení. Posouzení dopadu patří do klinického rozhovoru, který popisuje sekce [06. Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md).
 
-Model má i obsahové meze. Neukazuje techniky jiných skupin (EA-2 a dalších), které se s EA-1 v praxi mísí, a neukazuje ochranné faktory, které postup vzorce zpomalují nebo zastavují – vztahy mimo dané prostředí, nezávislé zdroje informací, odbornou pomoc. Zotavení po zásahu popisuje sekce [06. Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) a její [vizualizace klinické cesty](@/kompendium/06-klinicke-aplikace/visualizations.md); ta navazuje na Hermanové popis zotavení jako postupu od bezpečí přes zpracování ke znovunavázání vztahů (Herman 1992).
+## Co graf ukázat nemůže
 
-Otevřenou otázkou zůstává, zda by šlo model ověřit. Vyžadovalo by to soubor dobře zdokumentovaných, nezávisle posouzených případů, v nichž by se dalo zpětně určit pořadí technik. Dokud takový soubor neexistuje, je graf nástrojem k přemýšlení a k rozhovoru, nikoli diagnostickou pomůckou.
+Starší verze této stránky slibovala pět fází manipulačního cyklu a číselnou závažnost každé techniky. Kniha žádná taková data neobsahuje, a proto je graf neukazuje. Časovou strukturu nátlakového prostředí – to, že se zpravidla nevytváří jedním krokem, ale skládáním drobných projevů, které teprve v souhrnu tvoří systém (Stark 2007), a že popisy myšlenkové reformy rozlišují postupné kroky od navázání vztahu po upevnění nového výkladu světa (Lifton 1961) – rozebírá [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) o scénářích [delegitimizace](@/glossary/delegitimizace.md). Graf ji nezobrazuje, protože pořadí technik v čase z odkazů knihy odvodit nelze.
+
+Edward Tufte požaduje, aby každý vizuální prvek nesl informaci, ne ozdobu, a aby grafické zpracování nevyvolávalo dojem přesnosti, kterou data nemají (Tufte 1983). Alberto Cairo k tomu dodává, že poctivá vizualizace má sdělit i míru nejistoty svých dat (Cairo 2016). Tato stránka to činí slovy: graf je ilustrativní orientační pomůcka nad strukturou knihy, nikoli klinická data, empirické měření ani diagnostický nástroj. Neukazuje techniky jiných rodin, které se s EA-1 v praxi mísí (jejich přehled podávají [globální vizualizace](@/kompendium/visualizations/_index.md)), a neukazuje ochranné faktory – vztahy mimo dané prostředí, nezávislé zdroje informací, odbornou pomoc –, které vzorec zpomalují nebo zastavují.
+
+Otevřenou otázkou zůstává, zda by šlo vazby mezi technikami ověřit nezávisle na textu knihy, například na souboru dobře zdokumentovaných a nezávisle posouzených případů. Dokud takový soubor neexistuje, je graf nástrojem k přemýšlení a k rozhovoru.
 
 ## Literatura
 
+- Bertin, J. (1967). *Sémiologie graphique: Les diagrammes, les réseaux, les cartes*. Paris: Gauthier-Villars.
 - Cairo, A. (2016). *The Truthful Art: Data, Charts, and Maps for Communication*. New Riders.
-- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Munzner, T. (2014). *Visualization Analysis and Design*. CRC Press.
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. Hutchinson.
+- Shneiderman, B. (1996). The eyes have it: A task by data type taxonomy for information visualizations. In *Proceedings of the IEEE Symposium on Visual Languages*, 336–343.
 - Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
 - Tufte, E. R. (1983). *The Visual Display of Quantitative Information*. Graphics Press.
 
@@ -83,25 +75,22 @@ Otevřenou otázkou zůstává, zda by šlo model ověřit. Vyžadovalo by to so
 
 **Kapitoly sekce 03**
 
-- [3.1 Akademické techniky (EA-1.1 až EA-1.5)](@/kompendium/03-zakladni-kategorie/kapitola-1.md) – plný popis technik z grafu.
-- [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – techniky v delším časovém průběhu.
+- [3.1 Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) – plný popis technik, jejichž stránky graf zobrazuje.
+- [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – časový průběh, který graf neukazuje.
 - [3.3 Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) – jak s grafem pracovat ve výuce.
+
+**Techniky a katalog**
+
+- [Katalog technik](@/kompendium/techniques/_index.md) – zdroj podrodin a úrovní rizika.
+- [Kompletní rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) – všechny kódy na jednom místě.
 
 **Další vizualizace**
 
-- [Vizualizace sekce 04 – rozhodovací strom](@/kompendium/04-terminalni-protokoly/visualizations.md) – co dělat, když vzorec přejde v terminální protokol.
-- [Vizualizace sekce 06 – klinická cesta zotavení](@/kompendium/06-klinicke-aplikace/visualizations.md) – navazující péče.
-- [Globální vizualizace EA taxonomie](@/kompendium/visualizations/_index.md) – přehled celé taxonomie.
+- [Vizualizace sekce 04](@/kompendium/04-terminalni-protokoly/visualizations.md) – strom odkazů terminálních protokolů.
+- [Vizualizace sekce 06](@/kompendium/06-klinicke-aplikace/visualizations.md) – klinická cesta zotavení.
+- [Globální vizualizace](@/kompendium/visualizations/_index.md) – přehled celé taxonomie.
 
 **Glosář**
 
-- [Taxonomie EA](@/glossary/taxonomie-ea.md) – systém kódů.
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) – systém kódů, z něhož graf čte rodiny a podrodiny.
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – základní pojem knihy.
-
----
-
-## Kontakt a příspěvky
-
-**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glosář](@/glossary/_index.md) | [Filozofie](@/philosophy/_index.md) | [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

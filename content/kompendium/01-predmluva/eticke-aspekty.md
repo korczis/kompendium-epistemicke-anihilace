@@ -200,7 +200,7 @@ Tato distribuovaná odpovědnost je explicitním záměrem — žádná centrali
 - [Glossary: Color Teams](@/glossary/color-teams.md)
 - [Glossary: Epistemická slepota](@/glossary/epistemicka-slepota.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj
 souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi
@@ -209,11 +209,3 @@ materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní
 
 > **Mandatorní akce**: vrať se na tuto stránku až poté, co tyto tři body
 > projdeš. Bez nich kompendium operuje mimo svůj zamýšlený etický rámec.
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

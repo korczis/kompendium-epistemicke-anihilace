@@ -58,7 +58,3 @@ Eskalujte, když izolace doprovází zastrašování, kontrolu soukromí nebo zh
 - **Organizace:** [politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md) – kontakty napříč pracovišti.
 - **Glosář:** [sociální izolace](@/glossary/socialni-izolace.md) – obecný mechanismus a jeho dopady.
 - **Sousední karty:** [EA-2.2.1 Sebetotalizace mentora](@/kompendium/quick-reference/qr-ea-2-2-1.md) – předcházející krok; [EA-2.2.4 Monopolizace spolupráce](@/kompendium/quick-reference/qr-ea-2-2-4.md) – kontakt jen přes mentora; [EA-2.2.6 Akademická kontrola času](@/kompendium/quick-reference/qr-ea-2-2-6.md) – zahlcení jako izolační nástroj.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

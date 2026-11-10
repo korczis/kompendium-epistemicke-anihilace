@@ -156,7 +156,3 @@ a [akutní second opinion](@/kompendium/emergency-protocols/38-second-opinion-em
 - [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) – i vůči pomáhajícím.
 - [Iatrogenic harm](@/glossary/iatrogenic-harm.md) – definice.
 - [Retraumatizace](@/glossary/retraumatizace.md) – nejčastější podoba poškození.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

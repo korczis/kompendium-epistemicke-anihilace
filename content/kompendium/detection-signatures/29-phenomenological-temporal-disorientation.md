@@ -24,7 +24,9 @@ Signaturou epistemického působení se stává tehdy, když se rozvinula v pros
 
 Čas je kostrou, na níž držíme svůj příběh a příčinné souvislosti: co bylo dřív, mohlo způsobit to, co přišlo potom. Kdo ztratí pořadí událostí, ztrácí i schopnost usuzovat na příčiny – a tím i schopnost poznat, že určité jednání druhého vedlo k určitému důsledku. Časová dezorientace proto oslabuje odpor vůči [fragmentaci narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md) a [gaslightingu](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md).
 
-Fenomenologicky jde o narušení toho, co Husserl popisoval jako retenci a protenci – živé „podržení“ právě uplynulého a očekávání příštího (srov. [Husserl: retence](@/glossary/husserl-retence.md), [vnitřní časovost](@/glossary/vnitrni-casovost.md)). Prakticky se projevuje jako život bez opěrných bodů: bez víkendů, svátků, rytmu práce a odpočinku.
+Fenomenologicky jde o narušení toho, co Husserl (1928) v přednáškách o vnitřním časovém vědomí popsal jako retenci a protenci – živé „podržení“ právě uplynulého a očekávání příštího (srov. [Husserl: retence](@/glossary/husserl-retence.md), [vnitřní časovost](@/glossary/vnitrni-casovost.md)). Minkowski (1933) na tuto tradici navázal v psychopatologii a ukázal, že prožívaný čas – rytmus, směřování k budoucnosti, souvislost s minulostí – je u mnoha duševních stavů narušen dříve než orientace v kalendářním čase. Prakticky se signatura projevuje jako život bez opěrných bodů: bez víkendů, svátků, rytmu práce a odpočinku.
+
+Kognitivní psychologie vysvětluje, proč na opěrných bodech tolik záleží. Friedman (1993) v přehledu výzkumu paměti pro čas minulých událostí ukázal, že lidé si datum události obvykle přímo nepamatují, ale rekonstruují ho z kontextu – z ročního období, z toho, co se dělo okolo, z pravidelných událostí. Kde kontext chybí nebo je monotónní, rekonstrukce selhává. Farber, Harlow a West (1957) zařadili narušení denního režimu a spánku do stavu vyčerpání, závislosti a strachu (DDD), který v podmínkách zajetí oslaboval odpor, a Lim a Dinges (2010) doložili, že již krátkodobý nedostatek spánku zhoršuje pozornost a další kognitivní funkce, na nichž ukládání událostí závisí. Herman (1992) popisuje u dlouhodobě traumatizovaných osob ztrátu souvislosti mezi minulostí, přítomností a budoucností jako součást komplexního traumatu.
 
 ## Pozorovatelné markery
 
@@ -58,28 +60,23 @@ Pozitivní při splnění všech bodů. Bod 4 je u časové dezorientace zvláš
 
 ## Odlišení od běžných stavů
 
-- **Monotónní období** (dlouhá nemoc, lockdown, péče o malé dítě) vedou ke splývání dnů bez vnějšího působení.
-- **Cestování a směnný provoz** narušují rytmus přechodně.
-- **Běžné zapomínání pořadí** dávných událostí je normální; signatura se týká nedávného období a výrazné míry.
+**Monotónní období**, jako je dlouhá nemoc, lockdown nebo péče o malé dítě, vedou ke splývání dnů bez jakéhokoli vnějšího působení. Vysvětlení nabízí rekonstrukční povaha časové paměti (Friedman, 1993): kde se dny navzájem neliší, chybějí kontextové stopy, podle nichž bychom je od sebe odlišili. Takové splývání je běžné, osoba ho sama vysvětlí okolnostmi a s návratem pestřejšího režimu ustupuje.
+
+**Cestování a směnný provoz** narušují cirkadiánní rytmus přechodně a jejich vliv je předvídatelný; dezorientace se upravuje s návratem k pravidelnému režimu. Konečně **běžné zapomínání pořadí** dávných událostí je normální a s časem přibývá. Signatura se týká nedávného období, výrazné míry obtíží a jejich soustředění na období spojené s určitým vztahem nebo prostředím.
 
 ## Klinická diferenciální diagnostika
 
-- **Delirium**: akutní porucha pozornosti a orientace s kolísajícím průběhem – vyžaduje urgentní lékařské vyšetření.
-- **Demence a mírná kognitivní porucha**: progresivní zhoršení paměti a orientace, obvykle napříč všemi oblastmi života.
-- **Poranění mozku a otřes mozku**.
-- **Epilepsie** (zejména s poruchami vědomí) a **přechodná globální amnézie**.
-- **Spánková deprivace a poruchy cirkadiánního rytmu**.
-- **Látky**: alkohol (včetně výpadků paměti), sedativa, konopí.
-- **Disociativní amnézie** a disociativní poruchy s „ztraceným časem“ (srov. [disociativní amnézie](@/glossary/dissociativni-amnezie.md)).
-- **Deprese** s poruchami koncentrace a paměti.
+Časová dezorientace je u této signatury zvlášť nespecifická a může být příznakem vážného zdravotního stavu; zdravotní posouzení má proto přednost před jakýmkoli environmentálním výkladem. **Delirium** je akutní porucha pozornosti a orientace s kolísajícím průběhem a vyžaduje urgentní lékařské vyšetření; k jeho rozpoznání slouží například metoda CAM (Inouye et al., 1990). **Demence a mírná kognitivní porucha** se projevují progresivním zhoršením paměti a orientace, obvykle napříč všemi oblastmi života; screeningové nástroje, jako je MMSE (Folstein, Folstein & McHugh, 1975), mohou být prvním krokem, nikoli však závěrem.
 
-Postup: anamnéza, somatické a neurologické vyšetření podle uvážení lékaře, screening [disociace](@/glossary/disociace.md) ([DES-II](@/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md)) a v případě potřeby [neuropsychologické vyšetření](@/kompendium/techniques/ea-6-1-5-neuropsychologicke-vysetreni.md).
+Do úvahy přichází také **poranění mozku a otřes mozku**, **epilepsie** zejména s poruchami vědomí a **přechodná globální amnézie**. Časté jsou **spánková deprivace a poruchy cirkadiánního rytmu** a vliv **látek** – alkoholu včetně výpadků paměti, sedativ nebo konopí. Z psychických stavů je třeba zvážit **disociativní amnézii** a disociativní poruchy se „ztraceným časem“ (srov. [disociativní amnézie](@/glossary/dissociativni-amnezie.md)) a **depresi** s poruchami koncentrace a paměti.
+
+Postup zahrnuje anamnézu, somatické a neurologické vyšetření podle uvážení lékaře, screening [disociace](@/glossary/disociace.md) ([DES-II](@/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md)) a v případě potřeby [neuropsychologické vyšetření](@/kompendium/techniques/ea-6-1-5-neuropsychologicke-vysetreni.md). Indikace i závěry přísluší lékaři a dalším kvalifikovaným odborníkům.
 
 ## Riziko falešné pozitivity
 
-- **Přehlédnutí deliria nebo demence** je závažné – zejména u starších lidí, u nichž může vnější působení a kognitivní pokles probíhat současně.
-- Disociativní „ztracený čas“ vyžaduje specializované posouzení; připsat ho jen vnějšímu působení je zjednodušení.
-- Neúplnost časové osy může být důsledkem traumatu bez probíhajícího působení.
+**Přehlédnutí deliria nebo demence** je závažná chyba, zejména u starších lidí, u nichž může vnější působení a kognitivní pokles probíhat současně. Delirium je urgentní stav a jeho záměna za důsledek prostředí může ohrozit život; demence zase může být důvodem, proč je osoba vůči vnějšímu působení zranitelnější. Obě možnosti se proto nevylučují a musí být posouzeny lékařem.
+
+Disociativní „ztracený čas“ vyžaduje specializované posouzení a připsat ho jen vnějšímu působení je zjednodušení. Neúplnost časové osy může být také důsledkem traumatu bez probíhajícího působení: van der Kolk a Fisler (1995) popsali fragmentární povahu traumatických vzpomínek, včetně narušené chronologie, u osob, jejichž trauma již skončilo. Signatura proto vyžaduje, aby obtíže časově souvisely s probíhajícím nebo nedávným prostředím, nikoli jen s traumatem v minulosti.
 
 ## Validační test
 
@@ -103,9 +100,21 @@ Zaznamenat výpověď, objektivní časovou osu, rozdíly mezi nimi, zdravotní 
 
 ## Limity a otevřené otázky
 
-- Časová dezorientace je vysoce nespecifická; signatura stojí na kontextu a vyloučení jiných příčin.
-- Objektivní časová osa závisí na dostupnosti záznamů, které v uzavřených prostředích chybějí.
-- Vztah mezi narušením rytmu a narušením paměti je složitý a nelze ho u jednotlivce přesně rozdělit.
+Časová dezorientace je vysoce nespecifická a signatura stojí na kontextu a na vyloučení jiných příčin; sama o sobě o vnějším působení nic nedokládá. Objektivní časová osa, která je hlavním validačním nástrojem, závisí na dostupnosti záznamů, a ty v uzavřených prostředích, kde byl omezen přístup k telefonu, kalendáři nebo penězům, často chybějí.
+
+Vztah mezi narušením rytmu a narušením paměti je složitý a u jednotlivce ho nelze přesně rozdělit: nedostatek spánku zhoršuje ukládání vzpomínek (Lim & Dinges, 2010), monotónie oslabuje jejich datování (Friedman, 1993) a stres obojí zesiluje. Otevřenou otázkou zůstává, nakolik se po obnově rytmu vrací i schopnost zpětně uspořádat období, které bylo prožito bez opěrných bodů, a zda je rekonstrukce z vnějších záznamů pro osobu vždy přínosem, nebo může být i zatěžující.
+
+## Literatura
+
+- Farber, I. E., Harlow, H. F., & West, L. J. (1957). Brainwashing, conditioning, and DDD (debility, dependency, and dread). *Sociometry*, 20(4), 271–285.
+- Folstein, M. F., Folstein, S. E., & McHugh, P. R. (1975). „Mini-mental state“: A practical method for grading the cognitive state of patients for the clinician. *Journal of Psychiatric Research*, 12(3), 189–198.
+- Friedman, W. J. (1993). Memory for the time of past events. *Psychological Bulletin*, 113(1), 44–66.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Husserl, E. (1928). Vorlesungen zur Phänomenologie des inneren Zeitbewusstseins (Hrsg. M. Heidegger). *Jahrbuch für Philosophie und phänomenologische Forschung*, 9.
+- Inouye, S. K., van Dyck, C. H., Alessi, C. A., Balkin, S., Siegal, A. P., & Horwitz, R. I. (1990). Clarifying confusion: The confusion assessment method. *Annals of Internal Medicine*, 113(12), 941–948.
+- Lim, J., & Dinges, D. F. (2010). A meta-analysis of the impact of short-term sleep deprivation on cognitive variables. *Psychological Bulletin*, 136(3), 375–389.
+- Minkowski, E. (1933). *Le temps vécu: Études phénoménologiques et psychopathologiques*. D'Artrey.
+- van der Kolk, B. A., & Fisler, R. (1995). Dissociation and the fragmentary nature of traumatic memories: Overview and exploratory study. *Journal of Traumatic Stress*, 8(4), 505–525.
 
 ## Související
 

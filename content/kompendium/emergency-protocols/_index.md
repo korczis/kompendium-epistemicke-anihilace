@@ -158,11 +158,3 @@ Protokoly pro rizikové okamžiky mezi akutní péčí a dlouhodobým zotavením
   [detekční signatury](@/kompendium/detection-signatures/_index.md).
 - **Pro pacienty a blízké:** [praktické návody sebeobrany](@/kompendium/self-defense-guides/_index.md).
 - **Etický rámec:** [etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md).
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
----
-
-*Kompendium epistemické anihilace · Akutní intervenční protokoly · v18.4.0*

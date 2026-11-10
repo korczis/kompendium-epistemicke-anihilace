@@ -59,7 +59,3 @@ Eskalujte při podezření na neurologickou příčinu, delirium nebo psychózu 
 - **Technika a kapitola:** [plná stránka EA-5.1.5](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md) – mechanismus, případy a neutralizace; [kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) – [epistemická singularita](@/glossary/epistemicka-singularita.md).
 - **Glosář:** [logická koherence](@/glossary/logicka-koherence.md) – co diskontinuita rozkládá; [inference](@/glossary/inference.md) – základní operace.
 - **Sousední karty:** [EA-5.1.4 Sémantická imploze](@/kompendium/quick-reference/qr-ea-5-1-4.md) – rozpad jazyka; [EA-5.1.16 Inferenční paralýza](@/kompendium/quick-reference/qr-ea-5-1-16.md) – zablokované usuzování.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

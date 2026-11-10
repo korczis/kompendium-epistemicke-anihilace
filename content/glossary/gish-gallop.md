@@ -46,7 +46,7 @@ Gish Gallop je **závislý na formátu**: funguje v časově omezené ústní de
 
 ## Mechanismus
 
-V [Kompendiu](@/kompendium/_index.md) je Gish Gallop zařazen pod **EA-1.1.2** (delegitimizace zdroje ve spojení se zneužitím kognitivního přetížení) – viz [EA-1.1.2](@/kompendium/techniques/ea-1-1-2.md) a [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md). Je rétorickou obdobou [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md), která působí v měřítku populace.
+V [Kompendiu](@/kompendium/_index.md) je Gish Gallop zařazen pod **EA-1.1.2** (delegitimizace zdroje ve spojení se zneužitím kognitivního přetížení) – viz [EA-1.1.2](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) a [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md). Je rétorickou obdobou [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md), která působí v měřítku populace.
 
 Strukturálně jde o **přesun důkazního břemene**. Kdo tvrdí, má dokládat; v cvalu se povinnost obrací – oponent musí vyvracet a každé nevyvrácené tvrzení se počítá ve prospěch mluvčího. Druhou složkou je **zaměnění objemu za sílu**: publikum odhaduje sílu pozice podle množství argumentů, ne podle jejich kvality. Třetí složkou je **vyčerpání**: kdo se pokusí odpovědět na vše, působí zdlouhavě a defenzivně.
 

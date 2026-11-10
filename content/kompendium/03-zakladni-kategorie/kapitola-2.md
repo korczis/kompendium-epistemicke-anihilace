@@ -639,7 +639,7 @@ Efektivní navigace komplexního epistemického terénu vyžaduje robustní poro
 - Platforma: {{ <cross_link path="/hub/dd/decisions/" text="DD Decisions" /> }}, [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Vyber si jednu konkrétní techniku z této kategorie**, kterou jsi za
 posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
@@ -649,11 +649,3 @@ posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
 > **Mandatorní akce**: bez konkrétního aplikačního kotvení zůstává tato
 > kategorie abstraktním přehledem. Aplikace na vlastní zkušenost je to,
 > co převede materiál z taxonomie na operativní schopnost detekce.
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -1,6 +1,6 @@
 +++
 title = "Dlouhodobá rekonstrukce komunity"
-description = "Longitudinální rekonstruktivní protokol — budování dlouhodobých komunitních vazeb."
+description = "Dlouhodobý protokol budování příslušnosti po epistemické anihilaci: pocit komunity bez totalizace, více společenství, podpůrné skupiny a náhrada ztracené skupinové identity."
 weight = 21
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "recovery-protocol", "klinicke", "longterm"]
 categories = ["academic", "clinical"]
 
 [extra]
-related_terms = ["lifeworld", "longterm-altruistic-channeling", "longterm-meaning-deepening", "longterm-post-traumatic-growth"]
+related_terms = ["lifeworld", "longterm-altruistic-channeling", "acute-social-reconnection", "epistemicka-komunita", "socialni-izolace"]
 parent = "kompendium-recovery-protocols"
 toc = true
 phase = "longterm"
@@ -16,97 +16,149 @@ phase = "longterm"
 
 # Dlouhodobá rekonstrukce komunity
 
-> **Status**: Klinicky strukturovaný longitudinální protokol — integrace [evidence-based](@/glossary/evidence-based.md) modalit s diagnostickou optikou kompendia.
-> **Fáze**: `longterm`
-> **Cílový rámec**: Roky 1–3.
+> **Status**: fázový protokol dlouhodobé fáze; navazuje na [Akutní sociální rekonekci](@/kompendium/recovery-protocols/acute-social-reconnection.md)
+> a [Subakutní relační restrukturalizaci](@/kompendium/recovery-protocols/subacute-relational-restructuring.md);
+> průřezově souvisí s protokolem [Žitý svět](@/kompendium/recovery-protocols/lifeworld.md).
+> **Fáze**: `longterm`.
+> **Cíl**: aby klient patřil k lidem a společenstvím, která mu dávají oporu a smysl, aniž by
+> mu brala úsudek – a aby nebyl závislý na jediném z nich.
 
-## 1. Cílová populace
+## 1. Účel a cílová populace
 
-Klienti, kteří dokončili akutní sociální rekonekci a potřebují přejít z **reaktivních** podpůrných struktur (terapeut, krizová linka, support skupina survivorů) k **proaktivním** komunitním vazbám — koníčky, profesní sítě, sousedské komunity, dlouhodobá přátelství.
+Prostředí [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA), zvlášť vysoce
+kontrolující skupiny, často nabízí intenzivní pocit sounáležitosti: rodinu, poslání, rituály,
+jistotu, že člověk „někam patří“. Po odchodu tato sounáležitost chybí, i když byl její
+podmínkou podřízení. Ani po letech nemusí přátelské vztahy jednotlivců nahradit to, co dávalo
+společenství. Protokol je určen klientům v dlouhodobé fázi, kteří mají jednotlivé vztahy, ale
+postrádají pocit příslušnosti, nebo kteří hledají nové společenství a bojí se, že se z něj
+stane nová skupina, jakou opustili.
 
-## 2. Časový rámec
+## 2. Klinický obraz
 
-Roky 1–3. Intenzita: měsíčně po prvním roce, kvartálně po druhém. **Booster sessions** dle potřeby. Doplňkové: peer support, podpůrné skupiny, somatic praxe.
+McMillan a Chavis (1986) popsali pocit komunity čtyřmi prvky: členstvím (vědomím, kdo patří
+dovnitř), vlivem (vzájemným ovlivňováním mezi členem a skupinou), uspokojením potřeb
+a sdíleným emočním poutem. Vysoce kontrolující skupiny poskytují všechny čtyři prvky
+v extrémní podobě, ale s nesouměrným vlivem: skupina ovlivňuje člena, člen skupinu ne.
+Zdravé společenství se od toho liší právě tím, že vliv je oboustranný a že členství nevylučuje
+jiná členství.
+
+Putnam (2000) rozlišil sociální kapitál spojující (uvnitř skupiny) a přemosťující (mezi
+skupinami). Lidé po EA často mají zkušenost jen se spojujícím kapitálem extrémní intenzity
+a bez přemostění – skupina byla celým světem. Klinicky se v dlouhodobé fázi objevuje
+osamělost navzdory jednotlivým vztahům, stesk po rituálech a společných činnostech, ambivalence
+vůči každému novému společenství („je to taky sekta?“), nebo naopak rychlé a úplné ponoření
+do nové skupiny – podpůrné skupiny bývalých členů, aktivistického hnutí, nového náboženského
+společenství.
+
+Herman (1992) chápe obnovené spojení s druhými jako závěrečnou fázi zotavení a připisuje
+skupinám přeživších zvláštní význam: dávají zkušenost, že člověk není sám a že jeho příběh je
+srozumitelný. Zároveň upozorňuje, že skupina může selhat, pokud v ní převládne jediný výklad
+nebo dominantní vůdce. Kniha k tomu nabízí pojem [epistemické komunity](@/glossary/epistemicka-komunita.md):
+společenství, v němž se poznání sdílí a ověřuje, a které snese nesouhlas.
+
+Epistemický význam komunity je pro EA zásadní. Člověk si úsudek neověřuje sám, ale ve
+společenství: v rozhovorech, ve sdílených zkušenostech, ve sporech. Prostředí EA tuto funkci
+převzalo a zmonopolizovalo – jen skupina nebo pachatel směli říkat, co je pravda. Po odchodu
+klient potřebuje společenství, která tuto funkci plní bez monopolu: kde různí lidé vidí věci
+různě a kde nesouhlas nevede k vyloučení. Holt-Lunstadová, Smith a Layton (2010) ukázali,
+jak silně souvisí sociální vztahy se zdravím; pro EA k tomu přistupuje, že pestrá síť
+společenství je i nejúčinnější ochranou před tím, aby jediný hlas opět ovládl výklad světa.
+Hobfoll a kolegové (2007) řadí mezi prvky zotavení po traumatu i komunitní účinnost – zkušenost,
+že společenství, k němuž člověk patří, dokáže zvládat obtíže. Podílet se na takovém společenství
+znamená zažít opak toho, co klient znal: vliv, který jde oběma směry.
 
 ## 3. Cíle protokolu
 
-1. Kultivace **epistemické robustnosti** převyšující pre-traumatický baseline.
-2. Systematická prevence relapsu (návratu k pachateli/kultu/ideologii).
-3. Transformace traumatu skrze posttraumatický růst do generativní podoby.
-4. Vybudování stabilní organické komunity jako dlouhodobá ochrana.
-5. Volitelná integrace zkušenosti do strukturované služby druhým survivorům.
+Cílem je, aby klient patřil k více společenstvím s různým zaměřením (zájmovým, místním,
+pracovním, duchovním, podpůrným); aby rozpoznal rozdíl mezi zdravou sounáležitostí a totalizací
+podle oboustrannosti vlivu a svobody odejít; aby našel náhradu za rituály a společné činnosti,
+které mu chybějí; aby využil podpůrné skupiny, aniž by se staly jeho jedinou identitou;
+a aby se sám stal členem, který k životu společenství přispívá.
 
-## 4. Implementační kroky
+## 4. Postup
 
-1. **Roční follow-up (rok 1)**: Komprehenzivní reassessment — kvantitativní (baseline instrumenty) + kvalitativní (narativní interview). Identifikace dlouhodobých vzorců.
-2. **Resilience kultivace (rok 1–2)**: Strukturované budování **post-traumatické robustnosti** — meditační praxe, somatic literacy, kognitivní flexibilita, emoční granularita.
-3. **Relapse prevention (rok 1–3)**: Identifikace high-risk situací, budování krizového plánu, **emergency contact list**, periodické „check-in“ sezení (kvartálně po prvním roce).
-4. **Komunitní integrace (rok 1–3)**: Postupný přechod od formální podpory k organické komunitě. Identifikace 3–5 dlouhodobých vztahů jako „epistemic peer review“.
-5. **Smyslová prohloubení (rok 2–3)**: Existenciální/spirituální práce — logoterapie, ACT, kontemplativní praxe. Budování generativního smyslu.
-6. **Volitelné altruistické kanalizování (rok 2+)**: Pro klienty s vůlí a kapacitou — peer support, advokační aktivity, edukace. **Pouze** po důkladné kontraindikační analýze (riziko sekundární [retraumatizace](@/glossary/retraumatizace.md)).
+1. **Mapa příslušnosti** – kde klient patří dnes, kde dříve, co mu ze skupinového života chybí
+   (rituál, společná práce, zpěv, smysl, pravidelnost).
+2. **Hledání náhrad** – pro každou ztracenou potřebu možné společenství: sbor, spolek,
+   dobrovolnictví, sportovní klub, náboženská obec, sousedská skupina.
+3. **Strukturní znaky zdravého společenství** – klient si sestaví vlastní kontrolní otázky:
+   mohu nesouhlasit? Mohu odejít bez trestu? Mohu patřit i jinam? Je vedení kontrolovatelné?
+4. **Postupný vstup** – nejdřív občasná účast, pozorování, pak větší zapojení; klient
+   neposkytuje všechno najednou.
+5. **Podpůrné skupiny** – skupiny lidí s podobnou zkušeností jako zdroj porozumění; vědomě
+   jako jedno z více společenství.
+6. **Přispívání** – klient přebírá malé role (organizace, pomoc), v nichž zažívá vliv
+   a vzájemnost; navazuje [Dlouhodobé altruistické kanalizování](@/kompendium/recovery-protocols/longterm-altruistic-channeling.md).
+7. **Reflexe** – pravidelné vyhodnocení, jak se klient ve společenstvích cítí a zda některé
+   nezačíná zabírat celý život.
 
-## 5. Hodnotící kritéria
+**Rozhodovací bod A – nová skupina se strukturou kontroly.** Pokud klient popisuje znaky
+totalizace, pracuje se se strukturními otázkami a s detekčními dovednostmi.
+**Rozhodovací bod B – úplné stažení.** Pokud se klient všem společenstvím vyhýbá ze strachu,
+začíná se aktivitami s nízkou intenzitou a jasným ohraničením (kurz s daným počtem setkání).
+**Rozhodovací bod C – návrat do původní komunity.** Žije-li klient v místě, kde je původní
+skupina silná (malá obec, náboženská menšina), plánuje se kontakt s ní a hledají se společenství
+mimo její vliv.
 
-- **Resilience metrics** — Connor-Davidson Resilience Scale (CD-RISC), score nad 75. percentilem.
-- **Bez relapsu** — žádný návrat k pachateli/kultu/ideologii v sledovaném období.
-- **Posttraumatic Growth Inventory (PTGI)** — pozitivní skóre v ≥ 3 z 5 domén.
-- **Komunitní integrace** — alespoň 3 stabilní dlouhodobé vztahy + komunitní zapojení.
-- **Generativní markery** — kvalitativně dokumentované — kreativita, mentorství, smysluplná práce.
+## 5. Hodnocení průběhu
 
-## 6. Adaptace pro EA typ
+Hodnotí se počet a rozmanitost společenství, k nimž klient patří, zda v nich zažívá oboustranný
+vliv, zda dokáže nesouhlasit a odejít, zda pociťuje sounáležitost (vlastní popis, případně
+ověřená škála pocitu komunity v čase) a zda některé společenství nezabírá veškerý jeho čas.
+Validované normy pro EA neexistují.
 
-Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vystaven:
+## 6. Kontraindikace a rizika
 
-- **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
-- **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **[Coercive control](@/glossary/coercive-control.md) / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
-- **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
-- **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
+Protokol nemá kontraindikace, ale rizika: **výměna jedné skupiny za druhou** se stejnou
+strukturou; **komunita bývalých členů jako nová uzavřená skupina**, v níž dominuje jeden
+výklad nebo vůdce; **tlak na příslušnost**, který přehlíží introvertní povahu klienta nebo jeho
+přání žít s menším počtem vztahů. Cílem není „být v komunitě“, ale mít volbu.
 
-## 7. Kontraindikace
+## 7. Kazuistika (anonymizovaný kompozit)
 
-**Absolutní a relativní kontraindikace pro tento protokol**: Klient nedosáhl středně-dobých milestones; reaktivace symptomatologie vyžadující kratší fáze; nestabilní psychiatrická medikace; aktivní právní/finanční krize bránící dlouhodobé práci.
+Muž, který dvacet let patřil k náboženské skupině s denními společnými modlitbami a zpěvem,
+po odchodu postrádá hlavně společný zpěv. Má přátele, ale cítí se „jako bez domova“. Při mapě
+příslušnosti si uvědomí, že mu chybí rytmus týdne a hudba. Začne chodit do amatérského pěveckého
+sboru a jednou za měsíc do podpůrné skupiny bývalých členů. Když sbormistr začne vyžadovat
+účast na všech akcích a kritizuje ty, kdo chybí, muž si položí své kontrolní otázky. Zjistí, že
+ostatní členové sboru se proti požadavku ozvou a sbormistr ustoupí. Říká, že poprvé viděl
+skupinu, kde „vedoucí může nemít pravdu a nic se nestane“.
 
-V přítomnosti kontraindikací je nutné nejprve zajistit jejich řešení (psychiatrická konzultace, krizová hospitalizace, paralelní léčba komorbidit) a teprve poté zahájit rekonstrukční práci.
+## 8. Meze a otevřené otázky
 
-## 8. Cross-linky
+Výzkum pocitu komunity a sociálního kapitálu (McMillan a Chavis 1986; Putnam 2000) je rozsáhlý,
+ale specifický výzkum budování komunity po EA chybí. Otevřená je otázka, jak pracovat s lidmi
+narozenými do skupiny, kteří jinou komunitu nikdy nepoznali, a jak podporovat skupiny přeživších,
+aby nevytvářely uzavřený výklad. Rozdíly mezi městem a venkovem a mezi kulturami výrazně
+ovlivňují dostupnost společenství.
 
-### Sesterské protokoly
-- [Dlouhodobé prohlubování smyslu](@/kompendium/recovery-protocols/longterm-meaning-deepening.md)
-- [Dlouhodobý posttraumatický růst](@/kompendium/recovery-protocols/longterm-post-traumatic-growth.md)
-- [Dlouhodobá prevence relapsu](@/kompendium/recovery-protocols/longterm-relapse-prevention.md)
+## Literatura
 
-### Klinické články (sekce 06)
-- [Klinické aplikace — index](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-- [Epistemická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- [Kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
-- [Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md)
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Hobfoll, S. E., Watson, P., Bell, C. C., et al. (2007). Five essential elements of immediate and
+  mid-term mass trauma intervention: Empirical evidence. *Psychiatry*, 70(4).
+- Holt-Lunstad, J., Smith, T. B., & Layton, J. B. (2010). Social relationships and mortality
+  risk: A meta-analytic review. *PLoS Medicine*, 7(7).
+- McMillan, D. W., & Chavis, D. M. (1986). Sense of community: A definition and theory. *Journal of
+  Community Psychology*, 14(1).
+- Putnam, R. D. (2000). *Bowling Alone: The Collapse and Revival of American Community*. New York:
+  Simon & Schuster.
 
-### EA techniky a fenomény
-- [Gaslighting (technika)](@/glossary/gaslighting.md)
-- [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md)
-- [Hermeneutic outsourcing](@/glossary/hermeneuticky-outsourcing.md)
-- [Identity destruction](@/glossary/identity-destruction.md)
+## Související
 
-### Glosář
-- [C-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Trauma bonding](@/glossary/trauma-bonding.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+**Sesterské a průřezové protokoly**
 
-### Platformové reference
-- [Kompendium — hlavní index](@/kompendium/_index.md)
-- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Hlavní glosář](@/glossary/_index.md)
+- [Žitý svět](@/kompendium/recovery-protocols/lifeworld.md) – obnova sdíleného světa každodennosti.
+- [Dlouhodobé altruistické kanalizování](@/kompendium/recovery-protocols/longterm-altruistic-channeling.md) – přispívání jako forma příslušnosti.
+- [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md) – první kontakty.
 
----
+**Prevence**
 
-## Connect & Contribute
+- [Komunitní reintegrace](@/kompendium/prevention-resilience/27-community-reintegration-prevention.md) – terciární prevence.
+- [Komunitní reziliencie](@/kompendium/prevention-resilience/4-community-resilience-EA.md) – komunita jako ochranný faktor.
+- [Zapojení do komunity](@/kompendium/self-defense-guides/28-community-engagement.md) – svépomocná příručka.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Pojmy**
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Epistemická komunita](@/glossary/epistemicka-komunita.md) – společenství sdíleného poznávání.
+- [Sociální izolace](@/glossary/socialni-izolace.md) – výchozí stav, z něhož se komunita buduje.

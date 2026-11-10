@@ -201,7 +201,7 @@ Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–8 + Ph
 
 *Poznámka: Toto kompendium obsahuje specializované odborné informace s potenciálně rizikovým obsahem. Materiál vyžaduje odpovědné zacházení ze strany kvalifikovaných odborníků. Není a nikdy nebude dostupný jako návod či manuál — jeho účel je výhradně **defenzivní**, **diagnostický** a **edukativní**.*
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:
 
@@ -216,12 +216,3 @@ Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–8 + Ph
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
 > tuto techniku jako instrumentum — pouze jako fenomenologický popis.
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

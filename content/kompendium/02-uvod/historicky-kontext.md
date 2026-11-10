@@ -330,7 +330,7 @@ Detailní vztah k Decision Engine je rozpracován v sekci [2.7 Vztah ke Decision
 - [Glosář: 3NL](@/glossary/3nl.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Než přejdeš ke konkrétním kategoriím**, formuluj si vlastní pracovní
 [definici epistemické anihilace](@/glossary/epistemicka-anihilace.md) a zapiš si ji
@@ -340,11 +340,3 @@ referenční bod pro detekci vlastního posunu pochopení.
 
 > **Mandatorní akce**: bez vlastní výchozí definice četba dalších sekcí
 > riskuje, že se ti vlastní pochopení rozplyne v autorské formulaci.
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

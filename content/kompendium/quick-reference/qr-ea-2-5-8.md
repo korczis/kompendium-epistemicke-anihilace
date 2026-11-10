@@ -57,7 +57,3 @@ Eskalujte při překryvu s obsedantně-kompulzivní poruchou, depresí nebo úzk
 - **Technika a kapitola:** [plná stránka EA-2.5.8](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Glosář:** [metakognice](@/glossary/metakognice.md) – funkce, která se zacyklí.
 - **Sousední karty:** [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/quick-reference/qr-ea-2-5-3.md) – předchozí stupeň; [EA-2.3.9 Mediální sealioning](@/kompendium/quick-reference/qr-ea-2-3-9.md) – vnější obdoba nekonečných otázek.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

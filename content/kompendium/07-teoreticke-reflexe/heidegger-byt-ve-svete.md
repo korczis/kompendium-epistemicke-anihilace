@@ -45,7 +45,7 @@ Heidegger rozlišuje dva fundamentálně **odlišné** mody, jak nám věci jsou
 Pro EA má toto rozlišení **trojí relevanci**:
 
 1. **EA často nutí subjekt přejít z příručnosti k předruční reflexi** — paralyzuje to, co subjekt jindy **plynule užívá**. Strukturální analog Polanyiho indwelling-narušení ([viz 7.13](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)).
-2. **Iluzorní komplexita** ([EA-1.7](@/kompendium/techniques/ea-1-7-iluzorni-komplexita.md)) strukturálně **reifikuje** věc, jež dosud byla příručná — předstírá, že „kladivo“ vyžaduje detailní teorii dříve, než s ním může být tlučeno.
+2. **Iluzorní komplexita** ([EA-1.7](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)) strukturálně **reifikuje** věc, jež dosud byla příručná — předstírá, že „kladivo“ vyžaduje detailní teorii dříve, než s ním může být tlučeno.
 3. **Algoritmické rozhraní** často **sklouzne** mezi dva mody nedeterministickým způsobem — uživatel neví, zda **užívá** nástroj nebo je **objektem** datafikace.
 
 ## 3. *Sorge* (Starost)
@@ -122,12 +122,3 @@ Kompendium absorbuje Heideggerovy diagnostické nástroje, ale **odbočuje** od 
 - [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
 - [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

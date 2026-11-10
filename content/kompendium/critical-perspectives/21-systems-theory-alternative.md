@@ -76,10 +76,3 @@ Jak spojit lineární jazyk odpovědnosti s kruhovým jazykem systémů, aniž b
 
 - [Double bind](@/glossary/double-bind.md) – poškozující komunikační struktura bez jediného autora.
 - [Holismus](@/glossary/holismus.md) – celek víc než součet částí.
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

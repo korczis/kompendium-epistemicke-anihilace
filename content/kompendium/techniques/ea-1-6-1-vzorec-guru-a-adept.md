@@ -3,6 +3,7 @@ title = "EA-1.6.1 Vzorec guru a adept"
 description = "Kompoziční vzorec asymetrického vztahu, v němž autorita postupně získá výlučné právo hodnotit poznání, pokrok i hodnotu druhého. Znaky, odlišení a obrana."
 weight = 161
 insert_anchor_links = "right"
+aliases = ["/kompendium/techniques/ea-1-6-1-vzorec-guru-adept/"]
 
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-1-6", "guru-adept", "charisma", "high-control-group"]

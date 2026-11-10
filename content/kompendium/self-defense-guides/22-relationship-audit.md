@@ -19,9 +19,7 @@ Audit vztahů je pravidelné, klidné ohlédnutí za lidmi ve vašem okolí: jak
 
 ## Pro koho je návod
 
-- Pro člověka, který má pocit, že se jeho svět zúžil na jednoho partnera, přítele nebo skupinu.
-- Pro ty, kdo se po setkání s určitými lidmi cítí opakovaně hůř, ale nevědí proč.
-- Pro lidi po životní změně (stěhování, rozvod, nová práce), kteří budují síť znovu.
+Návod je pro člověka, který má pocit, že se jeho svět zúžil na jednoho partnera, přítele nebo skupinu, i pro ty, kdo se po setkání s určitými lidmi cítí opakovaně hůř, ale nevědí proč. Pomůže také lidem po životní změně – stěhování, rozvodu, nové práci –, kteří budují síť vztahů znovu a chtějí ji stavět vědomě.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá, když nový vztah rychle vytlačuje staré přátele; když skupina na
 
 ## Varovné signály
 
-- Po kontaktu s určitým člověkem jste pravidelně unavení, zmatení nebo zahanbení.
-- Jeden vztah vyžaduje, abyste omezili ostatní.
-- O vztahu nemůžete s nikým mluvit, protože by „to nepochopili“ nebo by to druhá strana nesnesla.
-- Ve vztahu se střídá idealizace a znehodnocování.
-- Dáváte výrazně víc, než dostáváte, a nejste si jistí, zda máte právo to říct.
+Na vztah, který stojí za bližší pozornost, ukazuje nejprve stopa, kterou zanechává: po kontaktu s určitým člověkem jste pravidelně unavení, zmatení nebo zahanbení. Druhým signálem je výlučnost – jeden vztah vyžaduje, abyste omezili ostatní, a o vztahu nemůžete s nikým mluvit, protože by „to nepochopili“ nebo by to druhá strana nesnesla. Stark (2007) popisuje izolaci od přátel a rodiny jako jeden z hlavních prostředků, jimiž kontrolující partner rozšiřuje svůj vliv; izolace přitom zřídka začíná zákazem, spíše výčitkou, žárlivostí nebo „starostí“.
+
+Další signály se týkají dynamiky vztahu. Střídá-li se idealizace a znehodnocování, vzniká pouto, které je paradoxně silnější než ve vztahu stabilně laskavém: Dutton a Painterová (1981) popsali „traumatické pouto“, které se vytváří právě v prostředí nerovné moci a přerušovaného střídání týrání a vlídnosti. Posledním signálem je nerovnováha – dáváte výrazně víc, než dostáváte, a nejste si jistí, zda máte právo to říct.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Student vysoké školy během roku přestal vídat spolužáky a rodinu, protož
 ## Cíl dovednosti
 
 Pravidelně a poctivě posoudit kvalitu a vliv lidí ve svém okolí – kdo vás posiluje, kdo vyčerpává a kdo vám škodí – a podle toho rozhodovat o čase, hranicích a pomoci.
+
+## Odborné východisko
+
+Audit vztahů vychází z poznatku, že sociální vztahy nejsou jen soukromou záležitostí, ale jedním z nejsilnějších činitelů zdraví. Metaanalýza prospektivních studií zjistila, že lidé se silnějšími sociálními vztahy měli výrazně vyšší pravděpodobnost přežití za sledované období než lidé s vazbami slabými, a to v míře srovnatelné s jinými známými rizikovými faktory (Holt-Lunstad, Smith a Layton 2010). Pro sebe-obranu z toho plyne, že síť vztahů je ochranným zdrojem, o který stojí za to pečovat – a že její zúžení je rizikem samo o sobě.
+
+Druhým východiskem je rozlišení konfliktu a kontroly. Johnson (2008) na základě rozboru výzkumu partnerského násilí rozlišil mezi situačním násilím, které vyrůstá z eskalovaných konfliktů, a vzorcem, v němž je násilí jedním z nástrojů celkové kontroly nad partnerem; tento druhý typ nazval intimním terorismem. Audit proto nesleduje jen to, zda se ve vztahu objevují hádky, ale především to, zda jedna strana soustavně omezuje svobodu, kontakty a rozhodování druhé.
+
+Konečně je třeba počítat s tím, že posouzení zevnitř je obtížné. Traumatické pouto snižuje schopnost vidět vztah realisticky a ochota bránit partnera bývá nejsilnější právě tam, kde je vztah nejškodlivější (Dutton a Painter 1981). Audit má proto smysl doplnit pohledem důvěryhodného člověka zvenčí.
 
 ## Pět praktických cvičení
 
@@ -81,13 +85,20 @@ Dvakrát ročně hlubší audit zhruba na tři hodiny, jednou měsíčně krátk
 
 ## Čeho se vyvarovat
 
-- Neoznamujte výsledky auditu lidem, o nichž píšete, zvláště ne osobě, která vás kontroluje.
-- Neukončujte vztah s nebezpečným člověkem náhle a bez plánu.
-- Nepoužívejte audit k odepisování lidí po jediném špatném setkání; sledujte vzorce.
+Neoznamujte výsledky auditu lidem, o nichž píšete, zvláště ne osobě, která vás kontroluje, a záznamy uchovávejte tam, kam nemá přístup. Neukončujte vztah s nebezpečným člověkem náhle a bez plánu; o bezpečném postupu se poraďte s intervenčním centrem.
+
+Nepoužívejte audit ani k odepisování lidí po jediném špatném setkání. Sledujte vzorce, ne jednotlivé epizody; každý má špatný den, kontrolující vztah se pozná podle opakování.
 
 ## Meze svépomoci
 
 Lidé se mění; statický audit může přehlédnout růst i zhoršení. Buďte připraveni hodnocení revidovat. Audit také odráží váš momentální stav – v depresi se může zdát, že vás vyčerpává každý. U vztahů s traumatickým poutem ([trauma bonding](@/glossary/trauma-bonding.md)) je vlastní posouzení obtížné a pohled zvenčí je nezbytný.
+
+## Literatura
+
+- Dutton, D. G., & Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md): The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6(1–4), 139–155.
+- Holt-Lunstad, J., Smith, T. B., & Layton, J. B. (2010). Social relationships and mortality risk: A meta-analytic review. *PLoS Medicine*, 7(7), e1000316.
+- Johnson, M. P. (2008). *A Typology of Domestic Violence: Intimate Terrorism, Violent Resistance, and Situational Couple Violence*. Northeastern University Press.
+- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 

@@ -59,7 +59,3 @@ Eskalujte vždy a hned: obraz se překrývá s akutní psychózou, deliriem, int
 - **Technika a kapitola:** [plná stránka EA-5.2.7](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md) – mechanismus, případy a neutralizace; [kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) – metatranscendentální anihilace.
 - **Glosář:** [Kantovy kategorie](@/glossary/kantovy-kategorie.md) – co se rozpouští; [Aristotelovy kategorie](@/glossary/aristotelovy-kategorie.md) – starší rámec.
 - **Sousední karty:** [EA-5.2.6 Transcendentální rekurzivita](@/kompendium/quick-reference/qr-ea-5-2-6.md) – cesta k disoluci; [EA-5.2.11 Kategoriální anihilace](@/kompendium/quick-reference/qr-ea-5-2-11.md) – příbuzný terminální stav.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

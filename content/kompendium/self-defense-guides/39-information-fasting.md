@@ -19,9 +19,7 @@ Informační půst je plánovaná, dobrovolná přestávka od zpráv, sociální
 
 ## Pro koho je návod
 
-- Pro člověka, který se cítí přehlcený a „nemá v hlavě ticho“.
-- Pro ty, kdo se po odchodu z kontrolujícího prostředí chtějí odpojit od jeho kanálů (skupinových chatů, kanálů vedení).
-- Pro každého, komu někdo „doporučuje“ odpojit se od rodiny, přátel a zpráv.
+Návod je pro člověka, který se cítí přehlcený a „nemá v hlavě ticho“, a pro ty, kdo se po odchodu z kontrolujícího prostředí chtějí odpojit od jeho kanálů – skupinových chatů, kanálů vedení. Je ale také pro každého, komu někdo „doporučuje“ odpojit se od rodiny, přátel a zpráv: pro něj je nejdůležitější oddíl o vnuceném půstu.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,10 +27,9 @@ Dobrovolný půst pomáhá po intenzivním období zpráv (volby, mimořádné u
 
 ## Varovné signály vnuceného půstu
 
-- Půst vyžaduje někdo jiný a jeho porušení trestá.
-- Odpojit se máte od rodiny, přátel a nezávislých zpráv, ale ne od kanálů skupiny.
-- Během „půstu“ nemáte možnost nikomu zavolat, ani v nouzi.
-- Po skončení půstu se vám „svět venku“ zdá cizí a nebezpečný.
+Rozdíl mezi zdravým a vnuceným půstem je především v tom, kdo rozhoduje. Vnucený půst vyžaduje někdo jiný a jeho porušení trestá. Druhým znakem je selektivita: odpojit se máte od rodiny, přátel a nezávislých zpráv, ale ne od kanálů skupiny. Lifton (1961) popsal kontrolu prostředí – řízení toho, s kým člověk mluví a co čte – jako základní rys totalistického prostředí, a Hassan (1988) řadí kontrolu informací mezi čtyři hlavní oblasti, v nichž destruktivní skupiny ovládají své členy.
+
+Třetím znakem je odříznutí od pomoci: během „půstu“ nemáte možnost nikomu zavolat, ani v nouzi. Čtvrtý se projeví až po skončení – „svět venku“ se vám zdá cizí a nebezpečný. Zdravý půst vás vrací do světa odpočatější; vnucený vás z něj postupně vyvádí.
 
 ## Modelová situace
 
@@ -41,6 +38,14 @@ Dobrovolný půst pomáhá po intenzivním období zpráv (volby, mimořádné u
 ## Cíl dovednosti
 
 Pravidelně a dobrovolně přerušovat informační proud, aby se vrátila hloubka a vlastní myšlení – a rozpoznat situaci, kdy vám přerušení informací vnucuje někdo jiný.
+
+## Odborné východisko
+
+O dobrovolném omezení sociálních sítí existuje několik experimentálních studií. Hunt et al. (2018) náhodně rozdělili studenty do skupiny, která po tři týdny omezila používání vybraných sociálních sítí přibližně na deset minut denně na každé platformě, a do kontrolní skupiny; v omezené skupině klesla míra osamělosti a depresivních příznaků. Tromholt (2016) zjistil, že účastníci, kteří na týden přestali používat Facebook, uváděli vyšší spokojenost se životem a pozitivnější emoce. Rozsáhlý experiment Allcotta et al. (2020) s čtyřtýdenní deaktivací účtu přinesl mírné zlepšení pohody, ale také menší informovanost o aktuálním dění.
+
+Výsledky je třeba číst opatrně: účinky jsou v průměru mírné a liší se mezi lidmi, a výzkum souvislosti mezi digitálními technologiemi a pohodou celkově ukazuje spíše malé efekty (Orben a Przybylski 2019). Pro sebe-obranu z toho plyne realistický závěr. Půst není zázračný lék, ale nástroj, který dává mysli prostor zpracovat, co už přijala, a ukáže, které vstupy člověk skutečně postrádá a které ne.
+
+Rozhodující rozdíl oproti vnucenému půstu je v tom, co se během půstu zachovává. Dobrovolný půst omezuje informační proud, ale ponechává vztahy, přístup k pomoci a možnost půst kdykoli ukončit. Vnucený půst dělá opak – ruší vztahy a pomoc a ponechává proud, který vychází ze skupiny (Lifton 1961).
 
 ## Pět praktických cvičení
 
@@ -79,13 +84,22 @@ Denně tiché ráno a tichá hodina, týdně den bez sítí, ročně delší pau
 
 ## Čeho se vyvarovat
 
-- Nepostěte se od lidí, kteří vás podporují; půst se týká informačního proudu, ne vztahů.
-- Nevypínejte telefon úplně, pokud jste v situaci, kdy byste mohli potřebovat pomoc.
-- Nepřijímejte podmínku odevzdat telefon a doklady jako cenu za „duchovní zkušenost“.
+Nepostěte se od lidí, kteří vás podporují; půst se týká informačního proudu, ne vztahů. Nevypínejte telefon úplně, pokud jste v situaci, kdy byste mohli potřebovat pomoc – stačí vypnout upozornění a aplikace, číslo pro tísňová volání zůstává dostupné.
+
+A nepřijímejte podmínku odevzdat telefon a doklady jako cenu za „duchovní zkušenost“. Taková podmínka nesouvisí s půstem, ale s kontrolou, a je důvodem se z akce stáhnout.
 
 ## Meze svépomoci
 
 Pracovní a rodinné povinnosti někdy půst nedovolí; hledejte nejmenší dosažitelnou podobu, ne ideál. Pro lidi s úzkostí může být odpojení zpočátku nepříjemné a zvyšovat neklid; začněte krátkými pauzami. Půst nenahradí léčbu vyhoření nebo deprese.
+
+## Literatura
+
+- Allcott, H., Braghieri, L., Eichmeyer, S., & Gentzkow, M. (2020). The welfare effects of social media. *American Economic Review*, 110(3), 629–676.
+- Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
+- Hunt, M. G., Marx, R., Lipson, C., & Young, J. (2018). No more FOMO: Limiting social media decreases loneliness and depression. *Journal of Social and Clinical Psychology*, 37(10), 751–768.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Orben, A., & Przybylski, A. K. (2019). The association between adolescent well-being and digital technology use. *Nature Human Behaviour*, 3(2), 173–182.
+- Tromholt, M. (2016). The Facebook experiment: Quitting Facebook leads to higher levels of well-being. *Cyberpsychology, Behavior, and Social Networking*, 19(11), 661–666.
 
 ## Související
 

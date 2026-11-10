@@ -26,6 +26,8 @@ Běžné fungování stojí na tom, co fenomenologie nazývá samozřejmou víro
 
 Pro působícího je takový stav výhodný: kdo neví, co je skutečné, přijímá výklad toho, kdo jistě tvrdí, že ví. Ztráta [reality testingu](@/glossary/reality-testing.md) v tomto smyslu není poruchou vnímání, ale ztrátou důvěry v něj.
 
+Fenomenologická a sociologická tradice tento mechanismus popsala podrobně. Husserl (1954) zavedl pojem životního světa jako předem daného, samozřejmého horizontu veškeré zkušenosti, který se nedokazuje, ale předpokládá. Blankenburg (1971) na pacientech se schizofrenií popsal „ztrátu přirozené samozřejmosti“ – stav, kdy člověk musí výslovně promýšlet to, co ostatní prostě žijí; u signatury jde o obdobný prožitek, který však nevzniká z poruchy, ale z prostředí. Berger a Luckmann (1966) ukázali, že subjektivní realita je udržována každodenním rozhovorem s ostatními, kteří ji potvrzují, a že její rozpad hrozí tam, kde tento rozhovor chybí nebo ji soustavně popírá. Na kognitivní úrovni popisuje teorie monitorování zdroje (Johnson, Hashtroudi & Lindsay, 1993), jak lidé rozlišují, zda vzpomínka pochází z vnímání, z představy, nebo z cizího vyprávění; opakované popírání a přepisování událostí toto rozlišení oslabuje. Abramson (2014) spojuje gaslighting právě s útokem na tuto úroveň: nejde o přesvědčení o jedné věci, ale o podkopání důvěry v to, že člověk vůbec dokáže rozpoznat, co se stalo.
+
 ## Pozorovatelné markery
 
 ### Subjektivní výpověď
@@ -58,28 +60,25 @@ Bod 3 je podstatný: zachovaný vhled a aktivní hledání ověření odlišují
 
 ## Odlišení od běžných stavů
 
-- **Filozofická reflexe**: úvahy o povaze reality jsou legitimní intelektuální činností bez úzkosti a bez ztráty fungování.
-- **Únava a nedostatek spánku** vedou k přechodným pocitům nereálnosti.
-- **Akutní stres** (např. po nehodě) může krátce vyvolat pocit, že „to není skutečné“.
-- **Psychedelické zážitky** mohou nechat dočasné pocity nereálnosti; zde je důležitá anamnéza užívání.
+**Filozofická reflexe** o povaze reality je legitimní intelektuální činností, která nepřináší úzkost ani ztrátu fungování; filozof, který pochybuje o existenci vnějšího světa, si přesto ráno uvaří kávu. Signatura se naopak týká pochybnosti, která proniká do každodenního jednání a vyvolává tíseň.
+
+**Únava a nedostatek spánku** vedou k přechodným pocitům nereálnosti, které po odpočinku mizí. **Akutní stres**, například po nehodě, může krátce vyvolat pocit, že „to není skutečné“; Sierra (2009) popisuje přechodnou depersonalizaci a derealizaci jako běžnou reakci na ohrožení. Konečně **psychedelické zážitky** mohou zanechat dočasné pocity nereálnosti, a anamnéza užívání látek je proto součástí každého posouzení. Ve všech těchto případech chybí vazba na prostředí, v němž je realita soustavně popírána.
 
 ## Klinická diferenciální diagnostika
 
-- **Psychotické poruchy a jejich prodrom**: změny vnímání, pocit, že svět se mění, bludné výklady; obvykle s oslabeným vhledem. Odlišení je klíčové a vyžaduje psychiatrické vyšetření (viz [diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
-- **Depersonalizačně-derealizační porucha**: trvalé nebo opakované pocity nereálnosti se zachovaným vhledem, i bez zjevného vnějšího působení.
-- **Disociativní poruchy** a PTSD s disociativními příznaky.
-- **Panická porucha**: derealizace během záchvatů.
-- **Neurologické příčiny**: epilepsie temporálního laloku, migréna, poranění mozku.
-- **Látky**: konopí, halucinogeny, stimulancia, odvykací stavy.
-- **OCD**: nutkavé pochybnosti o realitě a kontrolování.
+**Psychotické poruchy a jejich prodrom** jsou nejzávažnější diferenciální možností. Projevují se změnami vnímání, pocitem, že se svět mění nebo má skrytý význam, a bludnými výklady, obvykle s oslabeným vhledem; Sass a Parnas (2003) popsali u schizofrenie narušení základního sebeprožívání a hyperreflexivitu. Odlišení je klíčové a vyžaduje psychiatrické vyšetření (viz [diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
 
-Vyšetření [disociace](@/glossary/disociace.md) lze opřít o [DES-II](@/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md); klinicky administrované škály disociativních stavů (např. CADSS) slouží k posouzení akutního stavu.
+**Depersonalizačně-derealizační porucha** se projevuje trvalými nebo opakovanými pocity nereálnosti se zachovaným vhledem, i bez zjevného vnějšího působení. Do úvahy přicházejí také **disociativní poruchy** a PTSD s disociativními příznaky, **panická porucha** s derealizací během záchvatů, **neurologické příčiny**, jako je epilepsie temporálního laloku, migréna nebo poranění mozku, a **návykové látky** – konopí, halucinogeny, stimulancia a odvykací stavy. Konečně **obsedantně-kompulzivní porucha** může zahrnovat nutkavé pochybnosti o realitě a kontrolování.
+
+Vyšetření [disociace](@/glossary/disociace.md) lze opřít o [DES-II](@/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md) (Carlson & Putnam, 1993); klinicky administrovaná škála disociativních stavů CADSS (Bremner et al., 1998) slouží k posouzení akutního stavu. Výsledek škál je podkladem pro klinika, nikoli diagnózou.
 
 ## Riziko falešné pozitivity
 
-- **Přehlédnutí psychózy** je závažná chyba: připsání počínající psychózy vnějšímu působení oddálí léčbu.
-- Opačně: označení oběti gaslightingu za psychotickou potvrzuje narativ zdroje a hluboce ji poškozuje.
-- Osoba v uzavřené skupině s alternativní realitou může skupinové přesvědčení prezentovat pevně – to ale neznamená bludy, pokud je přesvědčení sdílené a naučené.
+**Přehlédnutí psychózy** je závažná chyba: připsání počínající psychózy vnějšímu působení oddálí léčbu v období, kdy je včasná intervence nejúčinnější. Proto má psychiatrické posouzení u této signatury přednost před environmentálním výkladem, zejména jsou-li přítomny halucinace, bizarní přesvědčení nebo ztráta vhledu.
+
+Opačná chyba je stejně závažná: označení oběti gaslightingu za psychotickou potvrzuje narativ zdroje („i lékař říká, že si to vymýšlíš“) a hluboce ji poškozuje. Klinik by proto měl aktivně hledat doklady o prostředí – zprávy, svědky, časovou osu – dříve, než nejistotu o realitě vyloží jako primární poruchu.
+
+Zvláštní případ představuje osoba v uzavřené skupině s alternativní realitou, která může skupinové přesvědčení prezentovat velmi pevně. To ale neznamená bludy, pokud je přesvědčení sdílené, naučené a doložitelné v materiálech skupiny. Berger a Luckmann (1966) by takové přesvědčení popsali jako realitu udržovanou společenstvím, nikoli jako individuální poruchu.
 
 ## Validační test
 
@@ -103,9 +102,22 @@ Zaznamenat doslovné výpovědi, přítomnost vhledu, výsledky ověřování, p
 
 ## Limity a otevřené otázky
 
-- Hranice mezi naučeným skupinovým přesvědčením a bludem je někdy nejasná a mění se v čase.
-- Ztráta samozřejmé víry ve svět je fenomenologicky popsána lépe než empiricky měřena.
-- Opakované ověřování může samo udržovat úzkost; vnější kotvy je třeba používat s mírou.
+Hranice mezi naučeným skupinovým přesvědčením a bludem je někdy nejasná a mění se v čase; přesvědčení, které vzniklo ve skupině, se po odchodu z ní může osamostatnit a nabýt rysů, které připomínají bludné myšlení. Opakované posouzení v čase je proto spolehlivější než jednorázový závěr.
+
+Ztráta samozřejmé víry ve svět je fenomenologicky popsána lépe než empiricky měřena; existující škály zachycují derealizaci a disociaci, ale ne epistemickou nejistotu jako takovou. Opakované ověřování může navíc samo udržovat úzkost: van den Hout a Kindt (2003) ukázali, že opakované kontrolování snižuje důvěru ve vlastní paměť. Vnější kotvy – deník, záznamy, rozhovory s důvěryhodnými lidmi – je proto třeba používat s mírou a s cílem obnovit samozřejmost, nikoli ji nahradit trvalým dokazováním.
+
+## Literatura
+
+- Abramson, K. (2014). Turning up the lights on gaslighting. *Philosophical Perspectives*, 28(1), 1–30.
+- Berger, P. L., & Luckmann, T. (1966). *The Social Construction of Reality: A Treatise in the Sociology of Knowledge*. Doubleday.
+- Blankenburg, W. (1971). *Der Verlust der natürlichen Selbstverständlichkeit*. Enke.
+- Bremner, J. D., Krystal, J. H., Putnam, F. W., Southwick, S. M., Marmar, C., Charney, D. S., & Mazure, C. M. (1998). Measurement of dissociative states with the Clinician-Administered Dissociative States Scale (CADSS). *Journal of Traumatic Stress*, 11(1), 125–136.
+- Carlson, E. B., & Putnam, F. W. (1993). An update on the Dissociative Experiences Scale. *Dissociation*, 6(1), 16–27.
+- Husserl, E. (1954). *Die Krisis der europäischen Wissenschaften und die transzendentale Phänomenologie*. Martinus Nijhoff.
+- Johnson, M. K., Hashtroudi, S., & Lindsay, D. S. (1993). Source monitoring. *Psychological Bulletin*, 114(1), 3–28.
+- Sass, L. A., & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.
+- Sierra, M. (2009). *Depersonalization: A New Look at a Neglected Syndrome*. Cambridge University Press.
+- van den Hout, M., & Kindt, M. (2003). Repeated checking causes memory distrust. *Behaviour Research and Therapy*, 41(3), 301–316.
 
 ## Související
 

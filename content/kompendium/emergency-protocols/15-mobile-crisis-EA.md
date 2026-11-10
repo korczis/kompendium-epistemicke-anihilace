@@ -147,13 +147,3 @@ intervenční centrum a partnerovi sdělí jen to, že žena odjíždí s nimi.
 
 - [Coercive control](@/glossary/coercive-control.md) – co tým může v domácnosti vidět.
 - [Gaslighting](@/glossary/gaslighting.md) – proč na volbě slov záleží.
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-
----
-
-*Kompendium epistemické anihilace · Akutní protokol č. 15 · v18.4.0*

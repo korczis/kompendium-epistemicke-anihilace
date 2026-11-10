@@ -1,57 +1,110 @@
-// Severity Matrix — Chart.js bubble chart (size = count, color = severity)
-(function() {
+// Matice rodina EA × úroveň rizika (Chart.js bubble, velikost = počet stránek technik).
+// Rodiny z grafu knihy, úrovně rizika a jejich pořadí z katalogu technik (risk_level stránek,
+// legenda katalogu); nic se nepočítá ručně. Klik na bublinu → techniky v buňce.
+(function () {
   'use strict';
-  const CATEGORIES = ['EA-1', 'EA-2', 'EA-4', 'EA-5.1', 'EA-5.2', 'EA-5.3', 'EA-5.4', 'EA-5.5'];
-  const SEVERITIES = ['mírná', 'střední', 'vysoká', 'extrémní'];
-  const MATRIX = [[3,6,4,0],[10,15,20,5],[0,0,6,6],[0,0,0,30],[0,0,0,10],[0,0,5,55],[0,0,5,55],[0,0,0,60]];
+  var SRC = document.currentScript && document.currentScript.src;
 
-  function setDetail(container, title, body) {
-    while (container.firstChild) container.removeChild(container.firstChild);
-    const h = document.createElement('h3');
-    h.className = 'text-lg font-bold text-slate-100';
-    h.textContent = title;
-    container.appendChild(h);
-    const p = document.createElement('p');
-    p.className = 'text-slate-300 mt-2';
-    p.textContent = body;
-    container.appendChild(p);
+  function kniha() {
+    if (!window.__kniha) {
+      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
+        var s = document.createElement('script');
+        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
+        s.onload = ok;
+        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
+        document.head.appendChild(s);
+      })).then(function () { return window.KompendiumKniha.ready(); });
+    }
+    return window.__kniha;
+  }
+
+  function failed(el, e) {
+    if (window.console) console.warn('vizualizace knihy:', e);
+    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
   }
 
   function init() {
-    const canvas = document.getElementById('severity-matrix');
+    var canvas = document.getElementById('severity-matrix');
     if (!canvas || typeof Chart === 'undefined') return;
-    const detail = document.getElementById('severity-detail');
-    const points = [];
-    for (let c = 0; c < CATEGORIES.length; c++) {
-      for (let s = 0; s < SEVERITIES.length; s++) {
-        if (MATRIX[c][s] > 0) {
-          points.push({ x: s, y: c, r: 4 + Math.sqrt(MATRIX[c][s]) * 2.5, count: MATRIX[c][s], cat: CATEGORIES[c], sev: SEVERITIES[s] });
+    var detail = document.getElementById('severity-detail');
+    kniha().then(function (K) {
+      return K.catalogue().then(function (cat) {
+        var levels = [];
+        var levelIdx = {};
+        var cells = {};
+        K.techniques.forEach(function (t) {
+          var r = K.riskOf(cat, t);
+          if (!(r.id in levelIdx)) { levelIdx[r.id] = levels.length; levels.push(r); }
+          var k = t.family + '|' + r.id;
+          (cells[k] = cells[k] || []).push(t);
+        });
+        levels.sort(function (a, b) { return a.order - b.order || a.label.localeCompare(b.label, 'cs'); });
+        levels.forEach(function (l, i) { levelIdx[l.id] = i; });
+        var fams = K.familyIds;
+        var max = 1;
+        Object.keys(cells).forEach(function (k) { max = Math.max(max, cells[k].length); });
+        var points = [];
+        fams.forEach(function (fid, y) {
+          levels.forEach(function (l, x) {
+            var items = cells[fid + '|' + l.id];
+            if (!items) return;
+            points.push({
+              x: x, y: y, r: 4 + Math.sqrt(items.length / max) * 26,
+              count: items.length, fam: fid, level: l, items: items,
+            });
+          });
+        });
+
+        function famLabel(fid) { return fid + (K.familyName(fid) ? ' ' + K.familyName(fid) : ''); }
+
+        function show(p) {
+          if (!detail) return;
+          K.clear(detail);
+          detail.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', famLabel(p.fam) + ' • riziko ' + p.level.label));
+          detail.appendChild(K.h('p', 'text-slate-300 mt-1', p.count + ' stránek technik s touto úrovní rizika.'));
+          detail.appendChild(K.list(p.items.map(function (t) { return t.node; }), function (n) {
+            return K.techniqueText(K.technique(n));
+          }));
         }
-      }
-    }
-    new Chart(canvas, {
-      type: 'bubble',
-      data: { datasets: [{ label: 'EA techniky', data: points, backgroundColor: (ctx) => {
-        const sev = ctx.raw && ctx.raw.x;
-        return ['#10b981', '#f59e0b', '#ef4444', '#7f1d1d'][sev] || '#6366f1';
-      } }] },
-      options: {
-        responsive: true,
-        scales: {
-          x: { type: 'linear', min: -0.5, max: 3.5, ticks: { callback: (v) => SEVERITIES[v] || '', color: '#cbd5e1' }, title: { display: true, text: 'Závažnost', color: '#e2e8f0' } },
-          y: { type: 'linear', min: -0.5, max: 7.5, ticks: { callback: (v) => CATEGORIES[v] || '', color: '#cbd5e1' }, title: { display: true, text: 'EA kategorie', color: '#e2e8f0' } }
-        },
-        plugins: {
-          tooltip: { callbacks: { label: (ctx) => ctx.raw.cat + ' / ' + ctx.raw.sev + ': ' + ctx.raw.count + ' technik' } },
-          title: { display: true, text: 'Severity matrix — EA kategorie × závažnost', color: '#f1f5f9' }
-        },
-        onClick: (e, els) => {
-          if (!els.length || !detail) return;
-          const p = points[els[0].index];
-          setDetail(detail, p.cat + ' • ' + p.sev, p.count + ' technik této závažnosti v této kategorii.');
-        }
-      }
-    });
+
+        K.chart(canvas, function (c) {
+          return {
+            type: 'bubble',
+            data: { datasets: [{
+              label: 'Stránky technik', data: points,
+              backgroundColor: points.map(function (p) { return K.familyColor(p.fam) + 'CC'; }),
+              borderColor: points.map(function (p) { return K.familyColor(p.fam); }),
+            }] },
+            options: {
+              responsive: true,
+              scales: {
+                x: {
+                  type: 'linear', min: -0.5, max: levels.length - 0.5, afterBuildTicks: K.intTicks(levels.length),
+                  ticks: { stepSize: 1, color: c.muted, callback: function (v) { return levels[v] ? levels[v].label : ''; } },
+                  grid: { color: c.grid },
+                  title: { display: true, text: 'Úroveň rizika (risk_level stránky)', color: c.text },
+                },
+                y: {
+                  type: 'linear', min: -0.5, max: fams.length - 0.5, reverse: true, afterBuildTicks: K.intTicks(fams.length),
+                  ticks: { stepSize: 1, color: c.muted, callback: function (v) { return fams[v] || ''; } },
+                  grid: { color: c.grid },
+                  title: { display: true, text: 'Rodina EA', color: c.text },
+                },
+              },
+              plugins: {
+                legend: { display: false },
+                tooltip: { callbacks: { label: function (ctx) {
+                  return famLabel(ctx.raw.fam) + ' / ' + ctx.raw.level.label + ': ' + ctx.raw.count + ' stránek';
+                } } },
+                title: { display: true, text: 'Rodina EA × úroveň rizika (podle katalogu technik)', color: c.text },
+              },
+              onClick: function (e, els) { if (els.length) show(points[els[0].index]); },
+            },
+          };
+        });
+      });
+    }).catch(function (e) { failed(detail, e); });
   }
+
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();

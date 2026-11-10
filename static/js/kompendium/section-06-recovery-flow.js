@@ -1,232 +1,177 @@
-// Section 06 — Clinical recovery pathway flow (Chart.js, sankey-like via bar + scatter, safe DOM)
-(function() {
+// Kapitola 6 — klinická cesta zotavení (Chart.js sloupce + oblouky vazeb). Fáze, jejich popis
+// a stránky přebírá z číslovaného seznamu v textu stránky nad grafem (tučný název fáze, odkazy
+// v položce); čísla kapitol z názvů stránek v grafu knihy; oblouky = počet odkazů mezi
+// stránkami fází podle grafu. Klik na sloupec → fáze, její stránky a vazby.
+(function () {
   'use strict';
+  var SRC = document.currentScript && document.currentScript.src;
 
-  const STAGES = [
-    {
-      id: 1, name: 'Assessment', color: '#3b82f6',
-      desc: 'Iniciální zhodnocení — self-report, semi-structured interview, screening.',
-      techniques: [
-        { code: 'EA-6.1', label: 'Self-report instrumenty', link: '/kompendium/06-klinicke-aplikace/self-report-instrumenty/' },
-        { code: 'EA-6.2', label: 'Semi-structured interview', link: '/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol/' },
-        { code: 'EA-6.3', label: 'Screening instrumenty', link: '/kompendium/06-klinicke-aplikace/screening-instrumenty-detail/' }
-      ]
-    },
-    {
-      id: 2, name: 'Diagnostika', color: '#8b5cf6',
-      desc: 'Stanovení diagnostické hypotézy, diferenciální diagnostika, identifikace primárních a sekundárních deficitů.',
-      techniques: [
-        { code: 'EA-6.4', label: 'Diagnostické indikátory', link: '/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/' },
-        { code: 'EA-6.5', label: 'Diferenciální diagnostika', link: '/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/' }
-      ]
-    },
-    {
-      id: 3, name: 'Intervence', color: '#f59e0b',
-      desc: 'Aktivní terapeutická fáze — epistemická rekonstrukce, kolektivní intervence, psychoterapie.',
-      techniques: [
-        { code: 'EA-6.6', label: 'Terapeutické přístupy', link: '/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/' },
-        { code: 'EA-6.7', label: 'Epistemická rekonstrukce', link: '/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/' },
-        { code: 'EA-6.8', label: 'Kolektivní intervence', link: '/kompendium/06-klinicke-aplikace/kolektivni-intervence/' }
-      ]
-    },
-    {
-      id: 4, name: 'Monitoring', color: '#06b6d4',
-      desc: 'Průběžné sledování, supervizní rámce, prevence relapsu.',
-      techniques: [
-        { code: 'EA-6.9', label: 'Supervizní rámce', link: '/kompendium/06-klinicke-aplikace/supervizni-ramce/' },
-        { code: 'EA-6.10', label: 'Preventivní strategie', link: '/kompendium/06-klinicke-aplikace/preventivni-strategie/' }
-      ]
-    },
-    {
-      id: 5, name: 'Zotavení', color: '#10b981',
-      desc: 'Stabilizace nového epistemického profilu, integrace, dlouhodobá rezilience.',
-      techniques: [
-        { code: 'EA-6.11', label: 'Vulnerabilní populace — followup', link: '/kompendium/06-klinicke-aplikace/vulnerabilni-populace/' },
-        { code: 'EA-6.12', label: 'Případové studie (akademie/doktorát)', link: '/kompendium/06-klinicke-aplikace/pripad-akademie/' }
-      ]
+  function kniha() {
+    if (!window.__kniha) {
+      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
+        var s = document.createElement('script');
+        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
+        s.onload = ok;
+        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
+        document.head.appendChild(s);
+      })).then(function () { return window.KompendiumKniha.ready(); });
     }
-  ];
+    return window.__kniha;
+  }
 
-  // Transition flows (relative weights between stages, 0-100)
-  const FLOWS = [
-    { from: 1, to: 2, weight: 95 },
-    { from: 2, to: 3, weight: 85 },
-    { from: 3, to: 4, weight: 78 },
-    { from: 4, to: 5, weight: 70 },
-    { from: 4, to: 3, weight: 18 }, // relapse → re-intervention
-    { from: 2, to: 1, weight: 10 }  // re-assessment loop
-  ];
+  function failed(el, e) {
+    if (window.console) console.warn('vizualizace knihy:', e);
+    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
+  }
 
-  function setDetail(container, stage) {
-    while (container.firstChild) container.removeChild(container.firstChild);
-    const h = document.createElement('h3');
-    h.className = 'text-lg font-bold text-slate-100';
-    h.textContent = 'Fáze ' + stage.id + ' — ' + stage.name;
-    container.appendChild(h);
-    const p = document.createElement('p');
-    p.className = 'text-slate-300 mt-1';
-    p.textContent = stage.desc;
-    container.appendChild(p);
-    const tH = document.createElement('p');
-    tH.className = 'text-slate-300 mt-3 font-semibold';
-    tH.textContent = 'Typické EA-6.X techniky a aktivity:';
-    container.appendChild(tH);
-    const ul = document.createElement('ul');
-    ul.className = 'text-slate-300 list-disc list-inside text-sm';
-    stage.techniques.forEach((t) => {
-      const li = document.createElement('li');
-      const a = document.createElement('a');
-      a.href = t.link;
-      a.className = 'text-blue-400 underline';
-      a.textContent = t.code + ' — ' + t.label;
-      li.appendChild(a);
-      ul.appendChild(li);
+  // Fáze ze seznamu <ol> nad grafem: „**Assessment** — popis, [odkaz](…), …“.
+  function stagesNear(el, K) {
+    var ol = null;
+    for (var p = K.anchor(el).previousElementSibling; p && !ol; p = p.previousElementSibling) {
+      if (p.tagName === 'OL') ol = p;
+      else if (p.querySelector) ol = p.querySelector('ol');
+    }
+    if (!ol) return [];
+    return Array.prototype.map.call(ol.children, function (li, i) {
+      var strong = li.querySelector('strong, b');
+      var name = strong ? strong.textContent.trim() : li.textContent.split(/\s[—–-]\s/)[0].trim();
+      var desc = li.textContent.replace(name, '').replace(/^\s*[—–-]\s*/, '').trim();
+      var nodes = [];
+      li.querySelectorAll('a[href]').forEach(function (a) {
+        var n = K.nodeOfHref(a.getAttribute('href'));
+        if (n && nodes.indexOf(n) < 0) nodes.push(n);
+      });
+      return { id: i + 1, name: name, desc: desc, nodes: nodes, color: K.V.PALETTE[i % K.V.PALETTE.length] };
     });
-    container.appendChild(ul);
+  }
+
+  function pageLabel(K, n) {
+    var t = K.parseTitle(n.title);
+    return (t.num ? t.num + ' ' : '') + t.full.replace(/^\d+(\.\d+)*\s+/, '');
   }
 
   function init() {
-    const canvas = document.getElementById('section-06-recovery-flow');
+    var canvas = document.getElementById('section-06-recovery-flow');
     if (!canvas || typeof Chart === 'undefined') return;
-    const detail = document.getElementById('recovery-flow-detail');
+    var detail = document.getElementById('recovery-flow-detail');
+    kniha().then(function (K) {
+      var stages = stagesNear(canvas, K);
+      if (!stages.length) throw new Error('nad grafem chybí seznam fází');
+      var flows = [];
+      stages.forEach(function (a) {
+        stages.forEach(function (b) {
+          if (a === b) return;
+          var n = K.linksFrom(a.nodes.map(function (x) { return x.id; }), b.nodes.map(function (x) { return x.id; }));
+          if (n) flows.push({ from: a.id, to: b.id, weight: n });
+        });
+      });
+      var maxW = Math.max.apply(null, flows.map(function (f) { return f.weight; }).concat([1]));
+      var maxN = Math.max.apply(null, stages.map(function (s) { return s.nodes.length; }).concat([1]));
+      var selected = null;
 
-    let highlightedStage = null;
-
-    // Stage bars dataset (one bar per stage at integer x)
-    const stageDataset = {
-      label: 'Fáze',
-      type: 'bar',
-      data: STAGES.map((s) => ({ x: s.id, y: 100, _stage: s })),
-      backgroundColor: STAGES.map((s) => s.color + 'CC'),
-      borderColor: STAGES.map((s) => s.color),
-      borderWidth: 2,
-      barThickness: 70,
-      order: 2
-    };
-
-    // Flow dataset — line segments between bars at varying y heights based on weight
-    const flowDataset = {
-      label: 'Flow',
-      type: 'line',
-      data: [],
-      borderColor: 'rgba(148, 163, 184, 0.6)',
-      backgroundColor: 'rgba(148, 163, 184, 0.6)',
-      pointRadius: 0,
-      borderWidth: 0,
-      showLine: false,
-      order: 1
-    };
-
-    // Render flows as labeled annotations
-    const flowAnnotations = FLOWS.map((f) => {
-      return {
-        from: f.from, to: f.to, weight: f.weight
-      };
-    });
-
-    new Chart(canvas, {
-      type: 'bar',
-      data: { datasets: [stageDataset, flowDataset] },
-      options: {
-        responsive: true,
-        plugins: {
-          title: {
-            display: true,
-            text: 'Klinická cesta zotavení — klik na fázi pro detail',
-            color: '#f1f5f9'
-          },
-          legend: { display: false },
-          tooltip: {
-            filter: (ctx) => ctx.raw && ctx.raw._stage,
-            callbacks: {
-              title: (items) => {
-                const s = items[0].raw._stage;
-                return 'Fáze ' + s.id + ' — ' + s.name;
-              },
-              label: (ctx) => {
-                const s = ctx.raw._stage;
-                return s.techniques.length + ' technik / aktivit';
-              }
-            }
-          }
-        },
-        scales: {
-          x: {
-            type: 'linear',
-            ticks: {
-              color: '#cbd5e1', stepSize: 1,
-              callback: (v) => {
-                const s = STAGES.find((st) => st.id === v);
-                return s ? s.name : '';
-              }
-            },
-            min: 0.5, max: 5.5,
-            grid: { color: 'rgba(148,163,184,0.1)' },
-            title: { display: true, text: 'Klinická cesta', color: '#cbd5e1' }
-          },
-          y: {
-            ticks: { color: '#cbd5e1' },
-            min: 0, max: 110,
-            grid: { color: 'rgba(148,163,184,0.1)' },
-            title: { display: true, text: 'Pacientský flow (relativní)', color: '#cbd5e1' }
-          }
-        },
-        onClick: (e, els, chart) => {
-          if (!els.length || !detail) return;
-          const el = els[0];
-          if (el.datasetIndex !== 0) return;
-          const point = chart.data.datasets[0].data[el.index];
-          if (!point || !point._stage) return;
-          highlightedStage = point._stage.id;
-          setDetail(detail, point._stage);
-
-          // Highlight selected bar
-          chart.data.datasets[0].borderWidth = chart.data.datasets[0].data.map((pt) =>
-            pt._stage && pt._stage.id === highlightedStage ? 5 : 2
-          );
-          chart.update('none');
+      function show(s) {
+        if (!detail) return;
+        K.clear(detail);
+        detail.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', 'Fáze ' + s.id + ' — ' + s.name));
+        if (s.desc) detail.appendChild(K.h('p', 'text-slate-300 mt-1', s.desc));
+        detail.appendChild(K.h('p', 'text-slate-300 mt-3 font-semibold', 'Stránky knihy u této fáze (' + s.nodes.length + '):'));
+        if (s.nodes.length) {
+          detail.appendChild(K.list(s.nodes, function (n) { return pageLabel(K, n); }));
+        } else {
+          detail.appendChild(K.h('p', 'text-slate-400 text-sm', 'Text stránky u této fáze žádnou stránku neodkazuje.'));
         }
-      },
-      plugins: [{
-        id: 'flowOverlay',
-        afterDraw: (chart) => {
-          // Draw arrows between bars showing flow weights
-          const ctx = chart.ctx;
-          const xScale = chart.scales.x;
-          const yScale = chart.scales.y;
-          ctx.save();
-          flowAnnotations.forEach((f) => {
-            const x1 = xScale.getPixelForValue(f.from) + 35;
-            const x2 = xScale.getPixelForValue(f.to) - 35;
-            const yMid = yScale.getPixelForValue(50 + (f.from === f.to ? 20 : 0));
-            const yArc = yScale.getPixelForValue(60 - f.weight * 0.2);
-            ctx.beginPath();
-            ctx.moveTo(x1, yMid);
-            ctx.bezierCurveTo(x1 + 30, yArc, x2 - 30, yArc, x2, yMid);
-            ctx.strokeStyle = 'rgba(148, 163, 184, ' + (0.2 + f.weight / 200) + ')';
-            ctx.lineWidth = Math.max(1, f.weight / 25);
-            ctx.stroke();
-
-            // Arrowhead
-            ctx.beginPath();
-            const ah = f.from > f.to ? -1 : 1;
-            ctx.moveTo(x2, yMid);
-            ctx.lineTo(x2 - 8 * ah, yMid - 5);
-            ctx.lineTo(x2 - 8 * ah, yMid + 5);
-            ctx.closePath();
-            ctx.fillStyle = 'rgba(148, 163, 184, ' + (0.4 + f.weight / 200) + ')';
-            ctx.fill();
-
-            // Weight label
-            ctx.fillStyle = '#cbd5e1';
-            ctx.font = '10px sans-serif';
-            ctx.textAlign = 'center';
-            ctx.fillText(f.weight + '%', (x1 + x2) / 2, yArc - 4);
+        var rel = flows.filter(function (f) { return f.from === s.id || f.to === s.id; });
+        if (rel.length) {
+          detail.appendChild(K.h('p', 'text-slate-300 mt-3 font-semibold', 'Odkazy mezi fázemi podle grafu knihy:'));
+          var ul = K.h('ul', 'text-slate-300 list-disc list-inside text-sm');
+          rel.forEach(function (f) {
+            ul.appendChild(K.h('li', null, stages[f.from - 1].name + ' → ' + stages[f.to - 1].name + ': ' + f.weight));
           });
-          ctx.restore();
+          detail.appendChild(ul);
         }
-      }]
-    });
+      }
+
+      K.chart(canvas, function (c) {
+        return {
+          type: 'bar',
+          data: {
+            labels: stages.map(function (s) { return s.name; }),
+            datasets: [{
+              label: 'Stránky fáze',
+              data: stages.map(function (s) { return s.nodes.length; }),
+              backgroundColor: stages.map(function (s) { return s.color + 'CC'; }),
+              borderColor: stages.map(function (s) { return s.color; }),
+              borderWidth: stages.map(function (s) { return s.id === selected ? 5 : 2; }),
+              maxBarThickness: 70,
+            }],
+          },
+          options: {
+            responsive: true,
+            interaction: { mode: 'index', intersect: false },
+            layout: { padding: { top: 10 } },
+            plugins: {
+              title: { display: true, color: c.text,
+                text: 'Klinická cesta: stránky fází a odkazy mezi nimi podle knihy (klik na fázi)' },
+              legend: { display: false },
+              tooltip: { callbacks: { label: function (ctx) { return ctx.parsed.y + ' stránek knihy'; } } },
+            },
+            scales: {
+              x: { ticks: { color: c.muted }, grid: { color: c.grid },
+                title: { display: true, text: 'Fáze (podle textu stránky)', color: c.text } },
+              y: { min: 0, suggestedMax: maxN * 2 + 1, ticks: { color: c.muted, stepSize: 1 }, grid: { color: c.grid },
+                title: { display: true, text: 'Odkazované stránky', color: c.text } },
+            },
+            onClick: function (e, els, chart) {
+              if (!els.length) return;
+              var s = stages[els[0].index];
+              selected = s.id;
+              show(s);
+              chart.data.datasets[0].borderWidth = stages.map(function (x) { return x.id === selected ? 5 : 2; });
+              chart.update('none');
+            },
+          },
+          plugins: [{
+            id: 'flowOverlay',
+            afterDraw: function (chart) {
+              var ctx = chart.ctx;
+              var meta = chart.getDatasetMeta(0);
+              var yBase = chart.scales.y.getPixelForValue(maxN + 0.5);
+              ctx.save();
+              flows.forEach(function (f) {
+                var a = meta.data[f.from - 1];
+                var b = meta.data[f.to - 1];
+                if (!a || !b) return;
+                var fwd = f.to > f.from;
+                var x1 = a.x;
+                var x2 = b.x;
+                var lift = (Math.abs(f.to - f.from) * 22 + 14) * (fwd ? 1 : -0.6);
+                var y = yBase - (fwd ? 0 : -8);
+                var yArc = y - lift;
+                ctx.beginPath();
+                ctx.moveTo(x1, y);
+                ctx.bezierCurveTo(x1, yArc, x2, yArc, x2, y);
+                var alpha = 0.25 + 0.6 * f.weight / maxW;
+                ctx.strokeStyle = c.dark ? 'rgba(148,163,184,' + alpha + ')' : 'rgba(71,85,105,' + alpha + ')';
+                ctx.lineWidth = 1 + 4 * f.weight / maxW;
+                ctx.stroke();
+                ctx.beginPath();
+                ctx.moveTo(x2, y);
+                ctx.lineTo(x2 - 4, y - (fwd ? 8 : -8));
+                ctx.lineTo(x2 + 4, y - (fwd ? 8 : -8));
+                ctx.closePath();
+                ctx.fillStyle = ctx.strokeStyle;
+                ctx.fill();
+                ctx.fillStyle = c.muted;
+                ctx.font = '10px sans-serif';
+                ctx.textAlign = 'center';
+                ctx.fillText(String(f.weight), (x1 + x2) / 2, y - lift * 0.75 - (fwd ? 2 : -10));
+              });
+              ctx.restore();
+            },
+          }],
+        };
+      });
+    }).catch(function (e) { failed(detail, e); });
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();

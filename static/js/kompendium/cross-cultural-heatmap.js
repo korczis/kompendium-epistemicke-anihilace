@@ -1,142 +1,141 @@
-// Cross-Cultural EA Heatmap — Chart.js scatter heatmap (10 regions × 8 dimensions)
-(function() {
+// Mezinárodní perspektivy × rodiny EA (Chart.js heatmapa ze scatteru). Řádky = stránky oddílu
+// mezinárodních perspektiv seskupené podle jeho rejstříku (nadpisy a odkazy pod nimi), sloupce
+// = rodiny EA z grafu knihy, hodnota = počet odkazů ze stránky regionu na stránky technik
+// dané rodiny. Kniha neuvádí prevalenci, proto graf žádnou nepočítá ani neodhaduje.
+// Klik na buňku → region, rodina a odkazované techniky.
+(function () {
   'use strict';
-  const REGIONS = ['Severní Amerika', 'Západní Evropa', 'Střední/Vých. Evropa', 'Latinská Amerika', 'Sub-saharská Afrika', 'Severní Afrika/ME', 'Jižní Asie', 'Východní Asie', 'Jihovýchodní Asie', 'Oceánie'];
-  const DIMS = ['EA-1 Argument.', 'EA-2 Sociální', 'EA-3 Identita', 'EA-4 Telepres.', 'EA-5 Meta-epist.', 'EA-6 Hermenev.', 'EA-7 Komunita', 'EA-9 Digitální'];
-  // Prevalence 0-1 — illustrative cross-cultural manifestation
-  const PREVALENCE = [
-    [0.85, 0.78, 0.72, 0.55, 0.68, 0.60, 0.50, 0.92], // NA
-    [0.80, 0.75, 0.68, 0.50, 0.72, 0.65, 0.55, 0.88],
-    [0.70, 0.82, 0.78, 0.65, 0.55, 0.50, 0.68, 0.75],
-    [0.65, 0.85, 0.80, 0.70, 0.50, 0.55, 0.78, 0.70],
-    [0.50, 0.88, 0.82, 0.75, 0.40, 0.45, 0.85, 0.55],
-    [0.72, 0.85, 0.78, 0.60, 0.55, 0.70, 0.80, 0.78],
-    [0.68, 0.90, 0.85, 0.72, 0.50, 0.55, 0.88, 0.75],
-    [0.75, 0.80, 0.70, 0.55, 0.65, 0.60, 0.72, 0.85],
-    [0.62, 0.85, 0.78, 0.68, 0.50, 0.55, 0.80, 0.78],
-    [0.78, 0.75, 0.65, 0.50, 0.68, 0.62, 0.55, 0.85]
-  ];
-  const NOTES = {
-    '0,7': 'NA: extrémně vysoká digitální saturace, sociální média jako primární vektor',
-    '4,1': 'Sub-saharská Afrika: silná komunální identita, klanové konflikty zvyšují EA-2',
-    '6,1': 'Jižní Asie: kastovní/náboženské tlaky → vysoká EA-2 prevalence',
-    '5,7': 'Severní Afrika/ME: mobilní-první populace, WhatsApp/Telegram dezinformace',
-    '7,7': 'Východní Asie: digitální platformy + vysoká uniformita → EA-9 dominance'
-  };
+  var SRC = document.currentScript && document.currentScript.src;
+  // Zdroj dat: rejstřík oddílu mezinárodních perspektiv (cesta v grafu knihy).
+  var SOURCE = 'kompendium/international/_index.md';
 
-  function buildDetail(container, region, dim, val) {
-    while (container.firstChild) container.removeChild(container.firstChild);
-    const h = document.createElement('h3');
-    h.className = 'text-lg font-bold text-amber-300';
-    h.textContent = region + ' × ' + dim;
-    const p = document.createElement('p');
-    p.className = 'text-slate-300 mt-1';
-    p.textContent = 'Manifestační prevalence: ' + (val * 100).toFixed(0) + '%';
-    container.appendChild(h);
-    container.appendChild(p);
-    const key = REGIONS.indexOf(region) + ',' + DIMS.indexOf(dim);
-    if (NOTES[key]) {
-      const note = document.createElement('p');
-      note.className = 'text-slate-400 mt-2 text-sm';
-      note.textContent = NOTES[key];
-      container.appendChild(note);
+  function kniha() {
+    if (!window.__kniha) {
+      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
+        var s = document.createElement('script');
+        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
+        s.onload = ok;
+        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
+        document.head.appendChild(s);
+      })).then(function () { return window.KompendiumKniha.ready(); });
     }
-    const a = document.createElement('a');
-    a.href = '/kompendium/techniques/';
-    a.className = 'text-blue-400 underline mt-2 inline-block';
-    a.textContent = '→ techniques v kategorii ' + dim;
-    container.appendChild(a);
+    return window.__kniha;
   }
 
-  function colorFor(v) {
-    // 0=green→0.5=amber→1=red
-    if (v < 0.5) {
-      const r = Math.floor(34 + (245 - 34) * (v / 0.5));
-      const g = Math.floor(197 - (39) * (v / 0.5));
-      return 'rgba(' + r + ',' + g + ',94,0.85)';
-    } else {
-      const r = Math.floor(245 + (239 - 245) * ((v - 0.5) / 0.5));
-      const g = Math.floor(158 - (90) * ((v - 0.5) / 0.5));
-      return 'rgba(' + r + ',' + g + ',68,0.9)';
-    }
+  function failed(el, e) {
+    if (window.console) console.warn('vizualizace knihy:', e);
+    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
   }
 
   function init() {
-    const canvas = document.getElementById('cross-cultural-heatmap');
-    const detail = document.getElementById('cross-cultural-detail');
+    var canvas = document.getElementById('cross-cultural-heatmap');
+    var detail = document.getElementById('cross-cultural-detail');
     if (!canvas || typeof Chart === 'undefined') return;
+    kniha().then(function (K) {
+      var idx = K.g.byPath[SOURCE];
+      if (!idx) throw new Error(SOURCE + ' není v grafu');
+      return K.groups(idx).then(function (groups) { draw(K, idx, groups, canvas, detail); });
+    }).catch(function (e) { failed(detail, e); });
+  }
 
-    const data = [];
-    for (let r = 0; r < REGIONS.length; r++) {
-      for (let d = 0; d < DIMS.length; d++) {
-        data.push({
-          x: d, y: r, v: PREVALENCE[r][d],
-          regionLabel: REGIONS[r], dimLabel: DIMS[d]
+  function draw(K, idx, groups, canvas, detail) {
+    var fams = K.familyIds;
+    var rows = [];
+    groups.forEach(function (gr) {
+      gr.nodes.forEach(function (n) {
+        var cells = {};
+        K.g.out[n.id].forEach(function (b) {
+          var t = K.technique(K.g.byId[b]);
+          if (t) (cells[t.family] = cells[t.family] || []).push(t);
         });
-      }
+        if (Object.keys(cells).length) rows.push({ node: n, group: gr.title, cells: cells });
+      });
+    });
+    var max = 1;
+    var data = [];
+    rows.forEach(function (r, y) {
+      fams.forEach(function (fid, x) {
+        var items = r.cells[fid] || [];
+        max = Math.max(max, items.length);
+        data.push({ x: x, y: y, v: items.length, row: r, fam: fid, items: items });
+      });
+    });
+
+    function rowLabel(r) { return K.parseTitle(r.node.title).head; }
+
+    function show(d) {
+      if (!detail) return;
+      K.clear(detail);
+      var h = K.h('h3', 'text-lg font-bold text-amber-300');
+      h.appendChild(K.link(d.row.node, rowLabel(d.row), 'text-amber-300 underline'));
+      h.appendChild(document.createTextNode(' × ' + d.fam + ' ' + K.familyName(d.fam)));
+      detail.appendChild(h);
+      detail.appendChild(K.h('p', 'text-slate-400 text-sm mt-1', d.row.group));
+      detail.appendChild(K.h('p', 'text-slate-300 mt-1', d.v ? 'Stránka odkazuje na ' + d.v + ' stránek technik této rodiny:'
+        : 'Stránka na techniky této rodiny neodkazuje.'));
+      if (d.v) detail.appendChild(K.list(d.items.map(function (t) { return t.node; }), function (n) {
+        return K.techniqueText(K.technique(n));
+      }));
     }
 
-    new Chart(canvas, {
-      type: 'scatter',
-      data: {
-        datasets: [{
-          label: 'Prevalence',
-          data: data,
-          backgroundColor: function(ctx) {
-            return ctx.raw ? colorFor(ctx.raw.v) : '#475569';
+    function shade(v, dark) {
+      if (!v) return dark ? 'rgba(51,65,85,0.35)' : 'rgba(203,213,225,0.45)';
+      var a = 0.3 + 0.7 * v / max;
+      return 'rgba(245,158,11,' + a.toFixed(2) + ')';
+    }
+
+    K.chart(canvas, function (c) {
+      return {
+        type: 'scatter',
+        data: { datasets: [{
+          label: 'Odkazy na techniky', data: data, pointStyle: 'rect',
+          backgroundColor: function (ctx) { return ctx.raw ? shade(ctx.raw.v, c.dark) : 'transparent'; },
+          borderWidth: 0,
+          pointRadius: function (ctx) {
+            var a = ctx.chart.chartArea;
+            if (!a) return 6;
+            var cw = (a.right - a.left) / fams.length;
+            var ch = (a.bottom - a.top) / rows.length;
+            return Math.max(2, Math.min(cw, ch) * 0.45 * Math.SQRT2);
           },
-          pointRadius: 22,
-          pointHoverRadius: 26,
-          pointStyle: 'rect'
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            callbacks: {
-              label: function(ctx) {
-                const d = ctx.raw;
-                return d.regionLabel + ' × ' + d.dimLabel + ': ' + (d.v * 100).toFixed(0) + '%';
-              }
-            }
-          }
-        },
-        scales: {
-          x: {
-            type: 'linear', min: -0.5, max: DIMS.length - 0.5,
-            ticks: {
-              stepSize: 1,
-              callback: function(v) { return DIMS[v] || ''; },
-              color: '#cbd5e1'
-            },
-            grid: { color: '#334155' }
+          pointHoverRadius: function (ctx) {
+            var a = ctx.chart.chartArea;
+            if (!a) return 7;
+            return Math.max(3, Math.min((a.right - a.left) / fams.length, (a.bottom - a.top) / rows.length) * 0.55 * Math.SQRT2);
           },
-          y: {
-            type: 'linear', min: -0.5, max: REGIONS.length - 0.5,
-            ticks: {
-              stepSize: 1,
-              callback: function(v) { return REGIONS[v] || ''; },
-              color: '#cbd5e1'
+        }] },
+        options: {
+          responsive: true,
+          aspectRatio: Math.max(0.6, 800 / (rows.length * 20 + 140)),
+          plugins: {
+            legend: { display: false },
+            title: { display: true, color: c.text,
+              text: 'Mezinárodní perspektivy × rodiny EA: odkazy ze stránek na techniky (' + rows.length + ' stránek)' },
+            tooltip: { callbacks: { label: function (ctx) {
+              var d = ctx.raw;
+              return rowLabel(d.row) + ' × ' + d.fam + ': ' + d.v + ' odkazů';
+            } } },
+          },
+          scales: {
+            x: {
+              type: 'linear', min: -0.5, max: fams.length - 0.5, position: 'top',
+              afterBuildTicks: K.intTicks(fams.length),
+              ticks: { color: c.muted, callback: function (v) { return fams[v] || ''; } },
+              grid: { display: false },
             },
-            grid: { color: '#334155' }
-          }
+            y: {
+              type: 'linear', min: -0.5, max: rows.length - 0.5, reverse: true,
+              afterBuildTicks: K.intTicks(rows.length),
+              ticks: { color: c.muted, autoSkip: false, font: { size: 10 },
+                callback: function (v) { return rows[v] ? rowLabel(rows[v]) : ''; } },
+              grid: { display: false },
+            },
+          },
+          onClick: function (_e, els) { if (els.length) show(data[els[0].index]); },
         },
-        onClick: function(_e, els) {
-          if (els.length > 0 && detail) {
-            const d = data[els[0].index];
-            buildDetail(detail, d.regionLabel, d.dimLabel, d.v);
-          }
-        }
-      }
+      };
     });
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();

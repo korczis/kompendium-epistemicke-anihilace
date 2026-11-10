@@ -1,4 +1,5 @@
-// p5.js — Epistemic disintegration simulation. Particles = beliefs/concepts.
+// p5.js — simulace epistemické dezintegrace (model, ne data knihy). Částice = přesvědčení.
+// Nic z knihy nezobrazuje (žádné kódy, počty ani odkazy), proto nic neodvozuje.
 new p5((p) => {
   let particles = [];
   let intensity = 0.3;
@@ -6,8 +7,8 @@ new p5((p) => {
   let phaseTimer = 0;
 
   p.setup = function() {
-    const c = p.createCanvas(800, 500);
     const target = document.getElementById('epistemic-disintegration');
+    const c = p.createCanvas(target ? Math.min(800, target.clientWidth || 800) : 800, 500);
     if (target) c.parent('epistemic-disintegration');
     for (let i = 0; i < 80; i++) {
       particles.push({ x: p.random(p.width), y: p.random(p.height), vx: 0, vy: 0, anchor: p.createVector(p.random(p.width), p.random(p.height)) });

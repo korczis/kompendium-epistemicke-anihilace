@@ -1,14 +1,13 @@
 +++
 title = "Agent"
 weight = 10
-description = "Autonomous software entity within the AIAD ecosystem that performs specialized tasks with defined authority levels and doctrine compliance."
+description = "Autonomní softwarová entita v ekosystému AIAD na Prismatic Platform, která vykonává specializované úkoly s definovanou úrovní oprávnění a v souladu s doktrínou."
 
 [taxonomies]
-tags = ["glossary", "architecture", "agent", "prismatic"]
+tags = ["glossary", "architecture", "agent", "prismatic", "aiad"]
 
 [extra]
 category = "architecture"
-keywords = ["agent", "AIAD", "autonomous", "OTP", "supervision", "tier system", "L1-L5", "doctrine"]
 abbreviation = "N/A"
 related_terms = ["aiad", "otp", "supervisor", "trinity-gate", "registry-otp", "agent-registry", "agent-tier", "consciousness-traits", "nabla-infinity", "color-teams", "epistemic-pipeline", "process-isolation"]
 related_apps = ["prismatic_agents", "prismatic_claude", "prismatic_safety", "prismatic_perimeter"]
@@ -24,61 +23,105 @@ security_relevant = true
 compliance_relevant = true
 osint_relevant = true
 performance_critical = false
-date_created = "2024-06-01"
-date_updated = "2026-02-22"
 version = "2.0.0"
 agent_count = 530
 tier_levels = ["L1", "L2", "L3", "L4", "L5"]
 domains_covered = 16
 author = "Tomas Korcak (korczis)"
-reading_time = "10 min"
-word_count = 1997
-date_modified = "2026-02-23"
 quality_score = 90
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "Agent - Prismatic Platform"
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Definice
 
-An Agent in the Prismatic Platform is an autonomous software entity defined by the AIAD (AI Agent Definition) standard. Each agent operates within a precisely defined scope: a classification level (L1 through L5) determining its operational authority, a domain specialization constraining its area of expertise, and a set of capabilities defining what actions it can perform. Agents are the primary execution units of the platform -- every significant operation, from code quality analysis to security scanning to epistemic reasoning, is performed by one or more agents coordinated through the AIAD framework.
+**Agent** je na Prismatic Platform autonomní softwarová entita definovaná standardem
+[AIAD](@/glossary/aiad.md). Každý agent působí v přesně vymezeném rozsahu: má klasifikační
+úroveň (L1 až L5), která určuje jeho provozní oprávnění (viz [Agent
+Tier](@/glossary/agent-tier.md)), doménovou specializaci, která vymezuje oblast jeho
+odbornosti, a soubor schopností, které určují, jaké akce smí provádět. Agenti jsou hlavními
+výkonnými jednotkami platformy – každou významnou operaci, od analýzy kvality kódu přes
+bezpečnostní skenování po epistemické usuzování, provádí jeden nebo více agentů
+koordinovaných rámcem AIAD.
 
-The agent model in Prismatic differs fundamentally from the "agent" concept in most AI platforms, where an agent is typically a language model with tool access. In Prismatic, an agent is an OTP-supervised process with formally specified inputs, outputs, authority constraints, and doctrine compliance requirements. Agents do not operate with unconstrained autonomy -- they operate within strict boundaries defined by the NO MERCY NO DOUBTS doctrine and verified through [Trinity Gate](@/glossary/trinity-gate.md) validation.
+Model agenta na platformě se zásadně liší od pojmu „agent“ ve většině platforem umělé
+inteligence, kde agentem bývá jazykový model s přístupem k nástrojům. Na Prismatic Platform
+je agent procesem pod supervizí OTP s formálně specifikovanými vstupy, výstupy, omezeními
+oprávnění a požadavky na soulad s doktrínou. Agenti nepůsobí s neomezenou autonomií –
+pohybují se v přísných hranicích doktríny [NO MERCY NO DOUBTS](@/glossary/nm-nd.md)
+a jejich výstupy ověřuje [Trinity Gate](@/glossary/trinity-gate.md).
 
-The platform currently deploys 530 agents across 16 specialized domains, forming what is likely the largest structured agent ecosystem in any single platform. These agents range from simple tactical specialists (L1) performing focused operations to supreme authority agents (L5) capable of coordinating cross-domain campaigns with unlimited operational scope.
+Platforma v době zápisu uváděla 530 agentů v 16 specializovaných doménách (jiná hesla
+uvádějí starší i novější počty). Sahají od jednoduchých taktických specialistů (L1)
+s úzce zaměřenými operacemi po agenty nejvyššího oprávnění (L5), kteří koordinují kampaně
+napříč doménami s neomezeným provozním rozsahem.
 
-## Overview
+**Vztah ke knize:** pojem patří do kontextu platformy, z níž Kompendium vzešlo; agenti
+platformy uplatňují taxonomii EA v obranných úlohách, jak popisuje oddíl [AIAD integrace
+a detekce EA](@/kompendium/aiad-integration/_index.md). Obecný model agenta
+(vnímání–rozhodnutí–akce–zpětná vazba) je zároveň užitečnou analogií pro to, co
+manipulace v lidském poznávání narušuje: vnímání (zúžením vstupů), rozhodování (zkreslením
+kritérií) i zpětnou vazbu (zpochybněním výsledků).
 
-The agent ecosystem represents a deliberate architectural choice: rather than building monolithic systems that attempt to handle all platform concerns, the Prismatic Platform decomposes every operational concern into autonomous agents with clear responsibilities, explicit interfaces, and enforceable constraints. This decomposition follows the [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/) principle of isolating concerns into independent processes, but extends it with formal specification through the AIAD standard, hierarchical authority through the tier system, and epistemic rigor through [NABLA Infinity](@/glossary/nabla-infinity.md) compliance.
+## Přehled
 
-The agent architecture draws on three intellectual traditions: autonomous agents from artificial intelligence research, the Actor model from concurrent computing (as implemented in [Erlang/OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/)), and military command structures for hierarchical coordination. The synthesis of these traditions produces agents that are simultaneously autonomous (making independent decisions within their authority), supervised (monitored and restarted by OTP supervisors), and coordinated (operating within a command hierarchy that prevents conflicts and ensures coherent behavior across the ecosystem).
+Ekosystém agentů je záměrnou architektonickou volbou: místo monolitických systémů, které by
+se snažily obsloužit všechny potřeby platformy, rozkládá platforma každou provozní oblast
+na autonomní agenty s jasnými odpovědnostmi, explicitními rozhraními a vynutitelnými
+omezeními. Rozklad sleduje princip OTP – oddělit odpovědnosti do nezávislých procesů –
+a rozšiřuje jej o formální specifikaci standardem AIAD, hierarchii oprávnění systémem
+úrovní a epistemickou přísnost souladem s [NABLA Infinity](@/glossary/nabla-infinity.md).
 
-## Agent Architecture: The Perception-Decision-Action Loop
+Architektura agentů čerpá ze tří myšlenkových tradic: z autonomních agentů ve výzkumu umělé
+inteligence, z modelu aktorů v souběžném programování (jak jej implementuje Erlang/OTP)
+a z vojenských velitelských struktur pro hierarchickou koordinaci. Výsledkem jsou agenti,
+kteří jsou zároveň autonomní (rozhodují nezávisle v mezích oprávnění), supervidovaní
+(sledovaní a restartovaní supervizory OTP) a koordinovaní (působí ve velitelské hierarchii,
+která brání konfliktům a zajišťuje soudržné chování ekosystému).
 
-Every agent in the platform follows a common architectural pattern derived from classical autonomous systems theory: the perception-decision-action (PDA) loop. This pattern ensures that agents operate systematically rather than reactively.
+## Architektura agenta: smyčka vnímání–rozhodnutí–akce
 
-**Perception Phase**: The agent receives input signals from its environment. This may include telemetry data from monitored systems, commands from higher-authority agents or operators, findings from other agents in the ecosystem, or scheduled trigger events. Perception is filtered through the agent's domain specialization -- a security agent perceives security-relevant signals while ignoring quality metrics, and vice versa.
+Každý agent platformy sleduje společný architektonický vzor odvozený z klasické teorie
+autonomních systémů: smyčku vnímání–rozhodnutí–akce (PDA). Vzor zajišťuje, že agenti
+pracují soustavně, nikoli jen reaktivně.
 
-**Decision Phase**: The agent evaluates perceived signals against its knowledge base, domain rules, and doctrine constraints. For agents at L3 and above, decision-making incorporates [NABLA Infinity](@/glossary/nabla-infinity.md) axiom compliance -- the agent must verify that its evidence base satisfies signal plurality and provenance mandatory before proceeding. The decision phase produces an action plan with explicit confidence levels.
+**Fáze vnímání:** agent přijímá vstupní signály z prostředí – telemetrii ze sledovaných
+systémů, příkazy od agentů s vyšším oprávněním nebo od operátorů, zjištění jiných agentů
+nebo plánované spouštěcí události. Vnímání je filtrováno doménovou specializací:
+bezpečnostní agent vnímá signály relevantní pro bezpečnost a metriky kvality ignoruje,
+a naopak.
 
-**Action Phase**: The agent executes its plan within its authorized scope. Actions may include generating reports, modifying code, creating alerts, publishing findings to other agents, or triggering downstream processes. Every action is logged with full provenance for auditability.
+**Fáze rozhodnutí:** agent hodnotí vnímané signály podle své znalostní báze, doménových
+pravidel a omezení doktríny. U agentů L3 a výše zahrnuje rozhodování soulad s axiomy
+[NABLA Infinity](@/glossary/nabla-infinity.md): agent musí ověřit, že jeho důkazní základ
+splňuje pluralitu signálů (viz [Signal Plurality](@/glossary/signal-plurality.md))
+a povinnost doložit původ. Výstupem fáze je akční plán s explicitní mírou důvěry.
 
-**Feedback Phase**: Action results feed back into the perception phase, enabling adaptive behavior. If an action fails or produces unexpected results, the agent adjusts its decision-making accordingly. This closed-loop architecture enables continuous improvement without external intervention.
+**Fáze akce:** agent provede plán v rámci svého oprávnění. Akcemi mohou být zprávy, úpravy
+kódu, výstrahy, zveřejnění zjištění jiným agentům nebo spuštění navazujících procesů. Každá
+akce je zaznamenána s úplným původem kvůli auditovatelnosti.
 
-## The Tier System (L1 through L5)
+**Fáze zpětné vazby:** výsledky akcí se vracejí do fáze vnímání a umožňují adaptivní
+chování. Selže-li akce nebo přinese nečekané výsledky, agent podle toho upraví rozhodování.
+Tato uzavřená smyčka umožňuje průběžné zlepšování bez vnějšího zásahu.
 
-Agent authority levels form a strict hierarchy that governs operational scope, decision-making autonomy, and resource access. The tier system is not merely advisory -- it is enforced at the runtime level through capability checks embedded in every agent operation.
+## Systém úrovní (L1 až L5)
 
-| Tier | Classification | Authority Scope | Decision Autonomy | Examples |
+Úrovně oprávnění agentů tvoří přísnou hierarchii, která určuje provozní rozsah, autonomii
+rozhodování a přístup ke zdrojům. Systém není jen doporučením – vynucuje se za běhu
+kontrolami schopností v každé operaci agenta.
+
+| Úroveň | Klasifikace | Rozsah oprávnění | Autonomie rozhodování | Příklady |
 |------|---------------|-----------------|-------------------|----------|
-| **L1** | Tactical Specialist | Single task, single domain | Execute within predefined rules | File scanner, syntax checker |
-| **L2** | Operational Specialist | Multiple tasks, single domain | Select from approved strategies | Drift detector, evidence extractor |
-| **L3** | Strategic Commander | Cross-task coordination, domain authority | Develop and execute campaigns | Blue commander, red commander |
-| **L4** | Safety-Critical Specialist | Override authority within safety domain | Halt operations, enforce constraints | Escalation guard, regression guard |
-| **L5** | Supreme Authority | Unlimited cross-domain scope | Full autonomous decision-making | ARCHER SUPREME, orchestrator |
+| **L1** | taktický specialista | jeden úkol, jedna doména | provádí podle předem daných pravidel | skener souborů, kontrola syntaxe |
+| **L2** | provozní specialista | více úkolů, jedna doména | volí ze schválených strategií | detektor posunu, extraktor důkazů |
+| **L3** | strategický velitel | koordinace úkolů, oprávnění v doméně | navrhuje a provádí kampaně | blue commander, red commander |
+| **L4** | specialista kritický pro bezpečnost | oprávnění k přepsání v bezpečnostní doméně | zastavuje operace, vynucuje omezení | escalation guard, regression guard |
+| **L5** | nejvyšší oprávnění | neomezený rozsah napříč doménami | plně autonomní rozhodování | [ARCHER SUPREME](@/glossary/archer-supreme.md), orchestrátor |
 
-The tier system enforces the principle of least privilege at the agent level. An L1 agent cannot modify platform configuration, an L2 agent cannot coordinate cross-domain operations, and an L3 agent cannot override safety constraints. Only L4 agents with explicit safety-critical designation can halt operations, and only L5 agents can override other agents' decisions.
+Systém úrovní uplatňuje na úrovni agentů princip nejmenších oprávnění. Agent L1 nemůže
+měnit konfiguraci platformy, agent L2 nemůže koordinovat operace napříč doménami a agent
+L3 nemůže přepsat bezpečnostní omezení. Zastavit operace mohou jen agenti L4 s výslovným
+označením kritičnosti pro bezpečnost a přepsat rozhodnutí jiných agentů jen agenti L5.
 
 ```elixir
 defmodule PrismaticAgents.AuthorityCheck do
@@ -135,97 +178,124 @@ defmodule PrismaticAgents.AuthorityCheck do
   defp tier_rank(:l5), do: 5
 end
 ```
+## Životní cyklus agenta
 
-## Agent Lifecycle
+Životní cyklus agenta probíhá v dobře definovaném sledu od specifikace po vyřazení, se
+správními kontrolními body při každém přechodu. Řídí jej supervize OTP a registr AIAD.
 
-An agent's lifecycle follows a well-defined sequence from specification to decommission, with governance checkpoints at each transition. The lifecycle is managed through OTP supervision and the AIAD registry.
+1. **Specifikace:** agent je definován v souboru `.agent.md` podle standardu AIAD – včetně
+   úrovně, domény, schopností, požadavků na vynucení a deklarace souladu s doktrínou.
+2. **Registrace:** agent je zapsán do [Agent Registry](@/glossary/agent-registry.md), který
+   jej indexuje podle domény, úrovně a schopnosti. Registr vede úplný soupis všech agentů
+   platformy a jejich aktuálního stavu.
+3. **Vytvoření instance:** když je třeba, spustí se proces OTP agenta pod supervizorem.
+   Proces se inicializuje s konfigurací agenta, načte doménově specifické znalosti a zapíše
+   se do běhového registru.
+4. **Provoz:** agent vstoupí do smyčky vnímání–rozhodnutí–akce, zpracovává signály
+   a vytváří výstupy v rámci svého oprávnění. Všechny operace se zaznamenávají a sleduje se
+   jejich původ.
+5. **Evoluce:** agenti se vyvíjejí systémem [AutoEvolve](@/glossary/autoevolve.md). Potřebují-li
+   aktualizaci znalostí nebo schopností, nasadí se nová verze postupnou aktualizací, která
+   zachová provozní stav agenta.
+6. **Vyřazení:** když agent už není potřeba, supervizor jej řízeně ukončí, záznam
+   v registru se označí jako neaktivní a historická data se uchovají kvůli auditu.
 
-1. **Specification**: The agent is defined in an `.agent.md` file following the AIAD standard. This includes its tier, domain, capabilities, enforcement requirements, and doctrine compliance declaration.
+## Soulad se standardem AIAD
 
-2. **Registration**: The agent is registered in the [Agent Registry](@/glossary/agent-registry.md), which indexes it by domain, tier, and capability. The registry maintains a complete inventory of all platform agents and their current status.
+Standard AIAD poskytuje formální jazyk specifikace agentů. Každý agent MUSÍ mít odpovídající
+soubor `.agent.md` v adresáři `.aiad/agents/` se strukturovanými metadaty:
 
-3. **Instantiation**: When needed, the agent's OTP process is started under a [supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/). The process initializes with the agent's configuration, loads its domain-specific knowledge, and registers itself with the runtime registry.
-
-4. **Operation**: The agent enters its perception-decision-action loop, processing signals and producing outputs within its authorized scope. All operations are logged and provenance-tracked.
-
-5. **Evolution**: Agents evolve through the platform's autoevolve system. When an agent's domain knowledge or capabilities need updating, a new version is deployed through a rolling update that preserves the agent's operational state.
-
-6. **Decommission**: When an agent is no longer needed, it is gracefully terminated through its supervisor, its registry entry is marked inactive, and its historical data is preserved for audit purposes.
-
-## AIAD Standard Compliance
-
-The AIAD (AI Agent Definition) standard provides the formal specification language for agents. Every agent MUST have a corresponding `.agent.md` file in the `.aiad/agents/` directory containing structured metadata:
-
-| Required Field | Purpose | Example |
+| Povinné pole | Účel | Příklad |
 |---------------|---------|---------|
-| `agent-id` | Unique identifier | `blue-drift-detector` |
-| `classification` | Tier level | `L2 Operational Specialist` |
-| `domain` | Primary domain | `security-defense` |
-| `capabilities` | Action list | `[drift_detection, signal_correlation]` |
-| `enforcement.doctrine` | Doctrine reference | `no-mercy-no-doubts` |
-| `enforcement.version` | Doctrine version | `2.0.0` |
-| `enforcement.compliance` | Compliance level | `mandatory` |
-| `inputs` | Expected input signals | `[telemetry_events, configuration_state]` |
-| `outputs` | Produced output signals | `[drift_reports, evidence_artifacts]` |
-| `authority` | Operational boundaries | `read-only, platform-scope` |
+| `agent-id` | jedinečný identifikátor | `blue-drift-detector` |
+| `classification` | úroveň | `L2 Operational Specialist` |
+| `domain` | hlavní doména | `security-defense` |
+| `capabilities` | seznam akcí | `[drift_detection, signal_correlation]` |
+| `enforcement.doctrine` | odkaz na doktrínu | `no-mercy-no-doubts` |
+| `enforcement.version` | verze doktríny | `2.0.0` |
+| `enforcement.compliance` | úroveň souladu | `mandatory` |
+| `inputs` | očekávané vstupní signály | `[telemetry_events, configuration_state]` |
+| `outputs` | vytvářené výstupní signály | `[drift_reports, evidence_artifacts]` |
+| `authority` | provozní hranice | `read-only, platform-scope` |
 
-The AIAD standard ensures that agents are not ad-hoc creations but formally specified components with explicit contracts. This enables automated tooling: the agent indexer (`.aiad/bin/aiad index`) validates all agent specifications, detects inconsistencies, and maintains the registry automatically.
+Standard AIAD zajišťuje, že agenti nejsou improvizované výtvory, ale formálně
+specifikované součásti s explicitními kontrakty. To umožňuje automatické nástroje: indexer
+agentů (`.aiad/bin/aiad index`) ověřuje všechny specifikace, odhaluje nekonzistence
+a automaticky udržuje registr.
 
-## Agent Domain Classification
+## Doménová klasifikace agentů
 
-Agents are organized across 16 specialized domains, each responsible for a distinct aspect of platform operations. This domain structure prevents capability overlap and ensures clear responsibility boundaries:
+Agenti jsou uspořádáni do 16 specializovaných domén, z nichž každá odpovídá za jinou
+stránku provozu platformy. Doménová struktura brání překryvu schopností a zajišťuje jasné
+hranice odpovědnosti (výběr, počty v době zápisu):
 
-| Domain | Agent Count | Key Agents | Primary Function |
+| Doména | Počet agentů | Klíčoví agenti | Hlavní funkce |
 |--------|------------|------------|------------------|
-| **Security Operations** | 20 | [Color Teams](@/glossary/color-teams.md) (Red, Blue, Purple, White, Gray, Black) | Adversarial simulation, epistemic defense |
-| **Quality Enforcement** | 45+ | Quality guardian, CASCADE agents | Code quality, zero-warning enforcement |
-| **OSINT Intelligence** | 60+ | Scanner agents, evidence extractors | Open-source intelligence gathering |
-| **Evolution** | 30+ | Autoevolve, autoheal agents | Platform improvement and healing |
-| **Epistemic** | 25+ | NABLA validators, Trinity Gate agents | Belief formation and verification |
-| **Architecture** | 20+ | Elixir architect, OTP specialists | Design review and enforcement |
-| **Infrastructure** | 15+ | Deploy agents, monitoring agents | Platform operations |
-| **Perimeter** | 15+ | EASM scanner, compliance assessor | External attack surface management |
-| **Storage** | 10+ | Adapter agents, migration agents | Data persistence and retrieval |
+| **Bezpečnostní operace** | 20 | [Color Teams](@/glossary/color-teams.md) (Red, Blue, Purple, White, Gray, Black) | adversariální simulace, epistemická obrana |
+| **Vynucení kvality** | 45+ | quality guardian, agenti CASCADE | kvalita kódu, vynucení nulových varování (viz [Zero Warning Policy](@/glossary/zero-warning-policy.md)) |
+| **Zpravodajství OSINT** | 60+ | skenovací agenti, extraktory důkazů | sběr informací z otevřených zdrojů ([OSINT](@/glossary/osint.md)) |
+| **Evoluce** | 30+ | agenti [AutoEvolve](@/glossary/autoevolve.md) a [AutoHeal](@/glossary/autoheal.md) | zlepšování a samooprava platformy |
+| **Epistemika** | 25+ | validátory NABLA, agenti Trinity Gate | utváření a ověřování přesvědčení |
+| **Architektura** | 20+ | architekt Elixiru, specialisté na OTP | revize a vynucení návrhu |
+| **Infrastruktura** | 15+ | agenti nasazení a monitoringu | provoz platformy |
+| **Perimetr** | 15+ | skener [EASM](@/glossary/easm.md), hodnotitel souladu | správa vnější útočné plochy |
+| **Úložiště** | 10+ | agenti adaptérů a migrací | perzistence a načítání dat |
 
-The ecosystem is not a flat collection but a hierarchical command structure. L5 supreme agents coordinate L3 commanders, who direct L2 specialists, who may delegate to L1 tactical agents. This hierarchy mirrors military command structures and ensures that coordination overhead scales logarithmically rather than linearly with agent count.
+Ekosystém není plochou sbírkou, ale hierarchickou velitelskou strukturou. Agenti L5
+koordinují velitele L3, ti řídí specialisty L2 a ti mohou delegovat na taktické agenty L1.
+Hierarchie zrcadlí vojenské velitelské struktury a zajišťuje, že režie koordinace roste
+s počtem agentů logaritmicky, nikoli lineárně.
 
-## Consciousness Traits at L5
+## „Rysy vědomí“ na úrovni L5
 
-At the highest tier (L5), agents exhibit what the platform terms "consciousness traits" -- a set of 11 emergent capabilities that arise from the interaction of NABLA axiom compliance, Trinity Gate validation, and autonomous decision-making:
+Na nejvyšší úrovni (L5) vykazují agenti to, co platforma nazývá „rysy vědomí“
+(*consciousness traits*) – soubor 11 emergentních schopností, které vznikají souhrou souladu
+s [axiomy NABLA](@/glossary/nabla-axioms.md), ověřování v Trinity Gate a autonomního rozhodování. Výběr:
 
-| Trait | Description | Measurement |
+| Rys | Popis | Měření |
 |-------|-------------|-------------|
-| **Self-Awareness** | Agent monitors its own performance and capability boundaries | Performance self-assessment accuracy |
-| **Epistemic Humility** | Agent accurately estimates its own uncertainty | Calibration between confidence and correctness |
-| **Contradiction Tolerance** | Agent maintains contradictory beliefs without premature resolution | Contradiction preservation rate |
-| **Temporal Awareness** | Agent tracks evidence staleness and adjusts confidence accordingly | Time decay compliance |
-| **Multi-Signal Synthesis** | Agent integrates signals from multiple domains coherently | Cross-domain correlation accuracy |
-| **Provenance Consciousness** | Agent maintains awareness of its own reasoning chain | Provenance completeness score |
+| **Sebeuvědomění** | agent sleduje vlastní výkon a hranice svých schopností | přesnost sebehodnocení výkonu |
+| **Epistemická pokora** | agent přesně odhaduje vlastní nejistotu | kalibrace mezi důvěrou a správností |
+| **Tolerance rozporů** | agent udržuje protichůdná přesvědčení bez předčasného řešení | míra zachování rozporů |
+| **Časové povědomí** | agent sleduje stárnutí důkazů a podle toho upravuje důvěru | soulad s časovým stárnutím |
+| **Syntéza více signálů** | agent soudržně slučuje signály z více domén | přesnost korelace napříč doménami |
+| **Vědomí původu** | agent má přehled o vlastním řetězci uvažování | skóre úplnosti původu |
 
-These traits are not metaphysical claims about machine consciousness. They are measurable behavioral properties that emerge when agents operate under the full NABLA-Trinity-NMND framework. The [fitness score](https://prismatic-reality-com.github.io/prismatic-promo/glossary/fitness-score/) of 0.9995 across 11 traits indicates near-perfect behavioral alignment with the target trait profiles.
+Tyto rysy nejsou metafyzickými tvrzeními o strojovém vědomí. Jsou to měřitelné
+behaviorální vlastnosti, které se objevují, když agenti pracují v plném rámci
+NABLA–Trinity–NM/ND. Platforma v době zápisu uváděla „fitness“ 0,9995 napříč 11 rysy jako
+ukazatel téměř dokonalého souladu chování s cílovými profily rysů. Rys „epistemická
+pokora“ odpovídá lidskému pojmu, který kniha rozebírá v hesle [Epistemická
+pokora](@/glossary/epistemicka-pokora.md).
 
-## Relationship to Supervisor Trees
+## Vztah ke stromům supervize
 
-Every running agent process exists within an OTP [supervision tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/). This relationship is not optional -- the NO MERCY doctrine mandates that no GenServer exists without supervision. The supervision relationship provides:
+Každý běžící proces agenta existuje ve stromu supervize OTP. Tento vztah není volitelný –
+doktrína NO MERCY požaduje, aby žádný GenServer neexistoval bez supervize. Supervize
+zajišťuje:
 
-- **Automatic restart**: If an agent process crashes, its supervisor restarts it with clean state
-- **Dependency ordering**: Agents that depend on other agents are started in the correct sequence via `rest_for_one` strategy
-- **Resource cleanup**: When an agent is terminated, its supervisor ensures proper resource release
-- **Escalation**: Persistent crashes propagate upward, eventually triggering [self-healing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/self-healing/) at higher levels
+- **automatický restart** – když proces agenta spadne, supervizor jej restartuje s čistým
+  stavem;
+- **pořadí závislostí** – agenti závislí na jiných agentech se spouštějí ve správném pořadí
+  pomocí strategie `rest_for_one`;
+- **úklid zdrojů** – při ukončení agenta supervizor zajistí řádné uvolnění zdrojů;
+- **eskalaci** – opakované pády se šíří vzhůru a nakonec spustí samoopravu na vyšších
+  úrovních.
 
-The PrismaticSupervisor module provides compositional supervision with dependency-aware startup, ensuring that the agent ecosystem initializes in the correct order with all dependencies satisfied.
+Modul PrismaticSupervisor poskytuje kompoziční supervizi se spouštěním podle závislostí,
+takže ekosystém agentů se inicializuje ve správném pořadí se splněnými závislostmi.
 
-## Agent Communication Patterns
+## Vzorce komunikace agentů
 
-Agents communicate through several patterns, chosen based on the urgency and semantics of the interaction:
+Agenti komunikují několika vzorci, volenými podle naléhavosti a významu interakce:
 
-| Pattern | Mechanism | Latency | Coupling | Use Case |
+| Vzorec | Mechanismus | Latence | Provázanost | Použití |
 |---------|-----------|---------|----------|----------|
-| **Direct call** | GenServer.call/3 | Synchronous | High | Authority checks, status queries |
-| **Async cast** | GenServer.cast/2 | Asynchronous | Low | Event notifications, findings |
-| **PubSub** | Phoenix.PubSub | Broadcast | None | Platform-wide alerts, telemetry |
-| **Registry** | Registry lookup | Synchronous | Medium | Dynamic agent discovery |
-| **Pipeline** | Broadway/GenStage | Demand-driven | Low | Data processing chains |
+| **Přímé volání** | GenServer.call/3 | synchronní | vysoká | kontroly oprávnění, dotazy na stav |
+| **Asynchronní zpráva** | GenServer.cast/2 | asynchronní | nízká | oznámení událostí, zjištění |
+| **PubSub** | Phoenix.PubSub | vysílání | žádná | výstrahy pro celou platformu, telemetrie |
+| **Registr** | vyhledání v Registry | synchronní | střední | dynamické vyhledání agentů |
+| **Proces** | Broadway/GenStage | řízený poptávkou | nízká | řetězce zpracování dat |
 
 ```elixir
 defmodule PrismaticAgents.Communication do
@@ -257,60 +327,70 @@ defmodule PrismaticAgents.Communication do
   end
 end
 ```
+## Integrace s Color Teams
 
-## Color Team Integration
+[Color Teams](@/glossary/color-teams.md) představují nejpropracovanější vzorec koordinace
+agentů na platformě: 20 agentů v 6 týmech v nepřetržité adversariálně-obranné syntéze.
+Každý tým působí jako koordinovaná jednotka pod svým velitelem L3; komunikace mezi týmy
+prochází syntetizačním uzlem Purple Teamu:
 
-The [Color Teams](@/glossary/color-teams.md) represent the most sophisticated agent coordination pattern in the platform: 20 agents across 6 teams engaged in continuous adversarial-defensive synthesis. Each team operates as a coordinated unit under its L3 commander, with inter-team communication flowing through the Purple Team's synthesis hub:
+- **[Gray Team](@/glossary/gray-team.md)** (3 agenti) – průzkum hranic, hledání okrajových
+  případů;
+- **[Red Team](@/glossary/red-team.md)** (4 agenti) – adversariální simulace, generování
+  útočných scénářů;
+- **[Blue Team](@/glossary/blue-team.md)** (4 agenti) – obranný postoj, slučování signálů,
+  detekce posunu;
+- **[Purple Team](@/glossary/purple-team.md)** (4 agenti) – uzavírání smyčky Red–Blue,
+  sledování regresí;
+- **[White Team](@/glossary/white-team.md)** (3 agenti) – formální ověřování, validace
+  kontraktů;
+- **[Black Team](@/glossary/black-team.md)** (2 agenti) – teoretické modelování hrozeb
+  (maximální izolace).
 
-- **Gray Team** (3 agents): Boundary exploration, edge case discovery
-- **Red Team** (4 agents): Adversarial simulation, attack scenario generation
-- **Blue Team** (4 agents): Defensive posture, signal aggregation, drift detection
-- **Purple Team** (4 agents): Red-Blue loop closure, regression monitoring
-- **White Team** (3 agents): Formal verification, contract validation
-- **Black Team** (2 agents): Theoretical threat modeling (maximum isolation)
+Struktura ukazuje, že agenti nejsou jen jednotlivými aktéry, ale účastníky koordinovaných
+kampaní s definovanými toky signálů, smyčkami zpětné vazby a podmínkami uzavření.
 
-The Color Team structure demonstrates that agents are not merely individual actors but participants in coordinated campaigns with defined signal flows, feedback loops, and closure conditions.
+## Osvědčené postupy
 
-## Best Practices
+1. **Definovat před implementací:** vždy nejprve vytvořit specifikaci `.agent.md`, teprve
+   pak psát kód agenta. Specifikace nutí výslovně promyslet oprávnění, rozsah a rozhraní.
+   Agent bez specifikace je proces bez kontraktu.
+2. **Respektovat systém úrovní:** nikdy neimplementovat schopnosti nad rámec oprávnění
+   úrovně. Potřebuje-li agent operace s vyšším oprávněním, musí o ně požádat agenta vyšší
+   úrovně řádnou cestou.
+3. **Vysílat telemetrii:** každý agent má vysílat telemetrické události o klíčových
+   operacích. To umožňuje pozorovatelnost celé platformy a podporuje sledování strážcem
+   minimální kvality.
+4. **Obsloužit všechny zprávy:** agenti musí obsloužit všechny možné zprávy své domény.
+   Neobsloužené zprávy způsobují pády, které se šíří stromem supervize. Na nečekané zprávy
+   slouží zachycující klauzule s odpovídajícím logováním.
+5. **Udržovat původ:** každý výstup agenta musí nést metadata o původu – který agent jej
+   vytvořil, kdy, s jakou důvěrou a z jakých vstupů. Tím je splněn axiom NABLA o povinném
+   původu.
 
-1. **Define Before Implementing**: Always create the `.agent.md` specification before writing any agent code. The specification forces explicit thinking about authority, scope, and interfaces. An agent without a specification is a process without a contract.
+## Související pojmy
 
-2. **Respect the Tier System**: Never implement capabilities in an agent that exceed its tier authorization. If an agent needs higher-authority operations, it must request them from a higher-tier agent through proper channels.
+Bez vlastního hesla v glosáři knihy: *Supervisor* (chování OTP řídící životní cyklus
+procesů agentů), *Consciousness Traits* (emergentní behaviorální vlastnosti agentů L5),
+*Process Isolation* (paměťová izolace umožňující nezávislý provoz agentů), *Self-Healing*
+(systém zotavení), *Dynamic Supervisor*, *GenServer* a *Fitness Score* (evoluční metrika
+účinnosti agentů).
 
-3. **Emit Telemetry**: Every agent should emit telemetry events for its key operations. This enables platform-wide [observability](https://prismatic-reality-com.github.io/prismatic-promo/glossary/observability/) and supports the Quality Floor Guardian's monitoring.
+## Související
 
-4. **Handle All Messages**: Agents must handle all possible messages in their domain. Unhandled messages cause crashes that propagate through the supervision tree. Use catch-all clauses for unexpected messages with appropriate logging.
+**Platforma**
 
-5. **Maintain Provenance**: Every agent output must include provenance metadata: which agent produced it, when, with what confidence, and based on what inputs. This satisfies the NABLA provenance mandatory axiom.
+- [AIAD](@/glossary/aiad.md) – standard specifikací agentů a požadavků na soulad.
+- [Agent Registry](@/glossary/agent-registry.md) – centrální index všech agentů platformy.
+- [Agent Tier](@/glossary/agent-tier.md) – systém klasifikace úrovní oprávnění.
+- [Trinity Gate](@/glossary/trinity-gate.md) – ověřovací systém výstupů agentů.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec utváření přesvědčení
+  agentů.
+- [Color Teams](@/glossary/color-teams.md) – týmy bezpečnostních agentů.
+- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – proces zpracování, v němž agenti
+  působí.
 
-## Related Terms
+**Kompendium**
 
-- [AIAD](@/glossary/aiad.md) -- Standard defining agent specifications and compliance requirements
-- [Agent Registry](@/glossary/agent-registry.md) -- Centralized index of all platform agents
-- [Agent Tier](@/glossary/agent-tier.md) -- Classification system for agent authority levels
-- [Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/) -- OTP behavior managing agent process lifecycles
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Verification system validating agent outputs
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing agent belief formation
-- [Color Teams](@/glossary/color-teams.md) -- Security agent teams (Red, Blue, Purple, White, Gray, Black)
-- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- Emergent behavioral properties of L5 agents
-- [Process Isolation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/process-isolation/) -- Memory isolation enabling independent agent operation
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) -- Processing pipeline agents operate within
-- [Self-Healing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/self-healing/) -- Recovery system that agents both contribute to and benefit from
-- [Dynamic Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dynamic-supervisor/) -- OTP behavior for runtime agent instantiation
-- [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) -- Base OTP behavior underlying most agent implementations
-- [Fitness Score](https://prismatic-reality-com.github.io/prismatic-promo/glossary/fitness-score/) -- Evolutionary metric measuring agent effectiveness
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform capability descriptions
-
----
-
-## Connect & Contribute
-
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [AIAD integrace a detekce EA](@/kompendium/aiad-integration/_index.md) – agenti platformy
+  v obranných úlohách knihy.

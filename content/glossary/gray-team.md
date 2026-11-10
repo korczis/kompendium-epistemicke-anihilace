@@ -371,7 +371,7 @@ Všechny operace šedého týmu vysílají telemetrické události pro pozorovat
 
 **Opomíjení detekce driftu možností.** Analýza mezer ve specifikaci přináší rychlejší uspokojení než detekce driftu, drift je však často nebezpečnější, protože představuje tichou a postupnou degradaci bezpečnostního postoje. Kampaně hodnocení driftu musí probíhat pravidelně.
 
-**Podcenění pravomoci strážce eskalace.** Strážce eskalace má pravomoc přebít velitele. Pokusy jej obejít (rozdělením nálezu, aby se snížilo dílčí rizikové skóre, nebo přerámováním nálezu, aby se vyhnul spouštěcím vzorcům) podkopávají bezpečnostní model a mají se považovat za porušení.
+**Podcenění pravomoci strážce eskalace.** Strážce eskalace má pravomoc přebít velitele. Pokusy jej obejít (rozdělením nálezu, aby se snížilo dílčí [rizikové skóre](@/glossary/risk-score.md), nebo přerámováním nálezu, aby se vyhnul spouštěcím vzorcům) podkopávají bezpečnostní model a mají se považovat za porušení.
 
 **Statický průzkum bez časového kontextu.** Hranice se mění s vývojem kódu. Nálezy mají obsahovat časový kontext: kdy hranice vznikla, zda se nedávno změnila, zda směřuje ke specifikaci, nebo od ní.
 

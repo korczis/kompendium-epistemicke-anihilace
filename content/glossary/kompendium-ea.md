@@ -31,11 +31,11 @@ Kompendium je vymezeno stejně tím, **čím není**, jako tím, čím je:
 - **Není** popularizací. Cílovým publikem jsou kvalifikovaní psychiatři, psychologové, filozofové, výzkumníci epistemické bezpečnosti a vyškolení klinici; materiál na úrovni rozpoznání je publikován otevřeně (stejně jako tento glosář), materiál na úrovni technik se řídí rámcem [dual-use poznání](@/glossary/dual-use-poznani.md). V původním pojetí to znamenalo omezený přístup; ve veřejném vydání knihy jsou techniky popsány jen na úrovni struktury, vždy s detekcí a obranou, nikdy jako postup.
 - **Není** politickým dokumentem. Taxonomie se uplatňuje symetricky napříč obsahovými oblastmi; strukturní vzorce EA lze rozpoznat nezávisle na tom, pro jaký obsah jsou nasazeny. Kompendium se ideologickému rámování výslovně brání.
 - **Není** svépomocným rámcem. Zotavení z expozice EA obvykle vyžaduje kvalifikovanou klinickou podporu; Kompendium informuje kliniky, nenahrazuje je.
-- **Nenahrazuje** zavedenou psychiatrickou a psychologickou diagnostiku (PTSD, komplexní PTSD, disociace, poruchy osobnosti); zachycuje strukturní rozměr, který tyto diagnostiky popisují nedostatečně, a je zamýšleno jako jejich **doplněk**.
+- **Nenahrazuje** zavedenou psychiatrickou a psychologickou diagnostiku (PTSD, komplexní PTSD, [disociace](@/glossary/disociace.md), poruchy osobnosti); zachycuje strukturní rozměr, který tyto diagnostiky popisují nedostatečně, a je zamýšleno jako jejich **doplněk**.
 
 ## Původ a kontext pojmu
 
-Kompendium vzniklo v kontextu platformy Prismatic jako model hrozby a slovník pro její epistemické obrany a postupně se rozrostlo v samostatnou knihu. Účel, adresáty a vztah k platformě popisují kapitoly předmluvy: [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md), [Pro koho je určeno](@/kompendium/01-predmluva/pro-koho-je-urceno.md), [Jak používat](@/kompendium/01-predmluva/jak-pouzivat.md) a [Vztah k platformě](@/kompendium/01-predmluva/vztah-k-platforme.md). Kniha čerpá z výzkumu reformy myšlení (Lifton 1961), kontrolujících skupin (Hassan 1988/2015), traumatu (Herman 1992), coercive control (Stark 2007) a sociální epistemologie (Fricker 2007).
+Kompendium vzniklo v kontextu platformy Prismatic jako model hrozby a slovník pro její epistemické obrany a postupně se rozrostlo v samostatnou knihu. Účel, adresáty a vztah k platformě popisují kapitoly předmluvy: [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md), [Pro koho je určeno](@/kompendium/01-predmluva/pro-koho-je-urceno.md), [Jak používat](@/kompendium/01-predmluva/jak-pouzivat.md) a [Vztah k platformě](@/kompendium/01-predmluva/vztah-k-platforme.md). Kniha čerpá z výzkumu reformy myšlení (Lifton 1961), kontrolujících skupin (Hassan 1988/2015), traumatu (Herman 1992), [coercive control](@/glossary/coercive-control.md) (Stark 2007) a sociální epistemologie (Fricker 2007).
 
 ## Jak se projevuje
 
@@ -78,7 +78,7 @@ Jak knihu používat bezpečně: číst ji jako mapu rozpoznání, ne jako sebed
 
 ## Literatura
 
-- Robert Jay Lifton: *Thought Reform and the Psychology of Totalism* (1961).
+- Robert Jay Lifton: *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* (1961).
 - Judith Lewis Herman: *Trauma and Recovery* (1992).
 - Steven Hassan: *Combating Cult Mind Control* (1988; nové vyd. 2015).
 - Evan Stark: *Coercive Control* (2007).

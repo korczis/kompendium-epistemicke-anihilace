@@ -1,10 +1,10 @@
 +++
-title = "Color Teams"
+title = "Color Teams (barevné týmy)"
 weight = 18
-description = "Six adversarial-defensive security teams providing epistemic security through structured signal flow and adversarial-defensive synthesis"
+description = "Šest útočně-obranných bezpečnostních týmů Prismatic Platform, které strukturovaným tokem signálů a syntézou útoku a obrany chrání epistemickou integritu platformy."
 
 [taxonomies]
-tags = ["glossary", "security", "color-teams", "prismatic"]
+tags = ["glossary", "security", "color-teams", "prismatic", "epistemic"]
 
 [extra]
 category = "security"
@@ -23,109 +23,177 @@ isolation_level = "sandbox"
 ethics_check_interval = "10-15 seconds"
 enforcement_level = "cosmic"
 documentation_quality = "academic"
-last_updated = "2026-02-22"
+last_updated = "2026-11-10"
 version = "2.0.0"
 author = "Tomas Korcak (korczis)"
-reading_time = "11 min"
-word_count = 2254
-date_created = "2026-02-23"
-date_modified = "2026-02-23"
-keywords = ["Color", "Teams", "adversarial-defensive", "security", "providing", "epistemic", "glossary", "Prismatic Platform", "Purple Team", "Blue Team"]
 quality_score = 90
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "Color Teams - Prismatic Platform"
 +++
 
-## Definition and Overview
+## Definice a přehled
 
-Color Teams is the collective designation for six specialized security teams that provide epistemic security through adversarial-defensive synthesis within the Prismatic Platform. The teams -- Gray (boundary exploration), Red (adversarial simulation), Blue (epistemic defense), Purple (synthesis and closure), White (constructive verification), and Black (theoretical threat modeling) -- operate 20 agents across a structured signal flow architecture where findings cascade from exploration through adversarial testing to validated defense. Together they form a closed-loop security ecosystem where every defensive posture is tested against adversarial scenarios, every adversarial finding is mapped to defensive responses, and every claim of security is formally verified through [Trinity Gate](@/glossary/trinity-gate.md).
+**Color Teams** (barevné týmy) je souhrnné označení šesti specializovaných bezpečnostních
+týmů, které na Prismatic Platform zajišťují epistemickou bezpečnost syntézou útoku a obrany.
+Týmy – Gray (průzkum hranic), Red (adversariální simulace), Blue (epistemická obrana),
+Purple (syntéza a uzavírání), White (konstruktivní ověřování) a Black (teoretické modelování
+hrozeb) – provozují 20 agentů ve strukturované architektuře toku signálů, v níž zjištění
+postupují od průzkumu přes adversariální testování k ověřené obraně. Dohromady tvoří
+uzavřený bezpečnostní ekosystém: každý obranný postoj je testován proti adversariálním
+scénářům, každé adversariální zjištění je přiřazeno obranné reakci a každé tvrzení
+o bezpečnosti je formálně ověřeno v [Trinity Gate](@/glossary/trinity-gate.md).
 
-The Color Teams architecture draws from military and intelligence community traditions where distinct operational teams with different perspectives and mandates converge on a shared objective. Traditional cybersecurity organizations have employed Red Teams (offense) and Blue Teams (defense) since the Cold War era, with Purple Teams emerging in the 2010s to bridge the gap between the two. The key innovation in Prismatic's implementation is the epistemic focus: rather than testing network defenses or application vulnerabilities in the traditional sense, Color Teams test the platform's ability to form accurate beliefs, resist manipulation of its knowledge systems, and maintain epistemic integrity under adversarial pressure. This is security applied to the reasoning process itself.
+Architektura čerpá z vojenských a zpravodajských tradic, v nichž se samostatné týmy
+s odlišnými pohledy a mandáty sbíhají ke společnému cíli. Bezpečnostní organizace používají
+red teamy (útok) a blue teamy (obrana) od dob studené války; purple teamy, které obě strany
+propojují, se rozšířily v 10. letech 21. století. Klíčovou novinkou implementace platformy je
+**epistemické zaměření**: Color Teams netestují v tradičním smyslu síťovou obranu nebo
+zranitelnosti aplikací, ale schopnost platformy utvářet přesná přesvědčení, odolávat
+manipulaci svých znalostních systémů a zachovat epistemickou integritu pod adversariálním
+tlakem. Je to bezpečnost uplatněná na samotný proces uvažování (viz [Epistemic
+Security](@/glossary/epistemic-security.md)).
 
-All Color Teams operations are exclusively simulation-based, using synthetic data under CTF (Capture The Flag), defensive research, and authorized penetration testing authorization contexts. No production data, no PII, and no live system state is ever accessed by any Color Team agent. This constraint is enforced through sandbox isolation, network restrictions, and continuous ethics checks running every 10-15 seconds across all teams.
+Veškeré operace Color Teams jsou výhradně simulační – se syntetickými daty v kontextech
+soutěží CTF (*Capture The Flag*), obranného výzkumu a autorizovaných penetračních testů.
+Žádný agent nemá přístup k produkčním datům, osobním údajům ani živému stavu systému. Omezení
+je vynuceno izolací v sandboxu, síťovými restrikcemi a nepřetržitými etickými kontrolami
+každých 10–15 sekund ve všech týmech.
 
-## Historical Context and Theoretical Foundation
+**Vztah ke knize:** Color Teams patří do kontextu platformy, z níž Kompendium vzešlo, a jsou
+jedním z míst, kde se taxonomie knihy uplatňuje obranně: Red Team simuluje epistemické útoky,
+které kniha popisuje, Blue Team proti nim staví důkazní obranu. Jednotlivé týmy v souvislosti
+s technikami EA popisují stránky [Red Team: detekce EA](@/kompendium/aiad-integration/red-team-ea-detection.md),
+[Blue Team: obrana proti EA](@/kompendium/aiad-integration/blue-team-ea-defense.md),
+[Purple Team: syntéza](@/kompendium/aiad-integration/purple-team-ea-synthesis.md),
+[White Team: ověřování](@/kompendium/aiad-integration/white-team-ea-verification.md),
+[Gray Team: okrajové případy](@/kompendium/aiad-integration/gray-team-ea-edge-cases.md)
+a [Black Team: modelování](@/kompendium/aiad-integration/black-team-ea-modeling.md).
 
-The concept of adversarial testing in security predates computing entirely. Military war games, where one team plays the adversary (Red force) while another defends (Blue force), date back to Prussian Kriegsspiel in the 19th century. The United States Department of Defense formalized Red Team operations in the 1960s, tasking dedicated groups with thinking like adversaries to expose vulnerabilities in military plans and systems.
+## Historický kontext a teoretický základ
 
-The cybersecurity industry adopted these color designations beginning in the 1990s. Red Teams conducted penetration testing, Blue Teams operated security operations centers, and the nascent Purple Team concept emerged when organizations recognized that adversarial and defensive operations were most effective when tightly coupled. The SANS Institute and MITRE ATT&CK framework further codified these roles in the 2010s.
+Myšlenka adversariálního testování je starší než počítače. Válečné hry, v nichž jeden tým
+hraje protivníka (rudé síly) a druhý se brání (modré síly), sahají k pruské *Kriegsspiel* 19.
+století. Během studené války se v americkém obranném plánování ustálila praxe vyčleňovat
+skupiny, které myslí jako protivník a hledají slabiny vojenských plánů a systémů.
 
-Prismatic's Color Teams extend this tradition in three novel directions. First, they add Gray Team (boundary exploration) and Black Team (theoretical threat modeling) to address epistemic concerns that traditional security teams overlook. Second, they add White Team (constructive verification) to bring formal methods -- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) proofs, property-based testing, contract validation -- into the security loop. Third, they operate at the epistemic level, testing not just systems but the platform's ability to reason correctly under adversarial conditions. This shift reflects the unique security requirements of AI-native platforms where the reasoning process itself is a critical attack surface.
+Kybernetická bezpečnost tato barevná označení převzala zhruba od 90. let. Red teamy
+prováděly penetrační testy, blue teamy provozovaly bezpečnostní dohledová centra a pojem
+purple team vznikl, když organizace zjistily, že útok a obrana jsou nejúčinnější v těsném
+propojení. V 10. letech poskytl rámec MITRE ATT&CK oběma stranám společný slovník.
 
-## The Six Teams
+Color Teams platformy tuto tradici rozšiřují třemi směry. Za prvé přidávají Gray Team (průzkum
+hranic) a Black Team (teoretické modelování hrozeb), aby pokryly epistemické otázky, které
+tradiční bezpečnostní týmy přehlížejí. Za druhé přidávají White Team (konstruktivní
+ověřování), který do bezpečnostní smyčky vnáší formální metody – důkazy v Lean4, testování
+založené na vlastnostech, validaci kontraktů. Za třetí působí na epistemické úrovni a testují
+nejen systémy, ale schopnost platformy správně uvažovat za adversariálních podmínek. Tento
+posun odráží zvláštní bezpečnostní požadavky platforem postavených na umělé inteligenci, kde
+je sám proces uvažování kritickou útočnou plochou.
 
-### Gray Team -- Boundary Exploration (3 Agents)
+## Šest týmů
 
-Gray Team performs read-only exploration of specification gaps, edge cases, and affordance drift. Its mandate is to surface ambiguity without resolving it -- identifying the boundaries where system behavior becomes undefined or unexpected. Gray Team enforces zero state changes in all operations, ensuring its exploration never alters the systems it examines.
+### Gray Team – průzkum hranic (3 agenti)
 
-| Agent | Authority | Role |
+[Gray Team](@/glossary/gray-team.md) provádí průzkum mezer ve specifikacích, okrajových
+případů a posunu možností jen pro čtení. Jeho mandátem je odhalit nejednoznačnost, nikoli ji
+vyřešit – najít hranice, kde se chování systému stává nedefinovaným nebo nečekaným. Ve všech
+operacích vynucuje nulovou změnu stavu, takže průzkum nikdy nemění zkoumané systémy.
+
+| Agent | Oprávnění | Role |
 |-------|-----------|------|
-| `gray-explorer-commander` | L3 Strategic | Orchestrates Gray campaigns, routes findings to Red/Blue/Purple |
-| `gray-edge-finder` | L4 Specialist | Boundary value analysis, specification gap identification |
-| `gray-escalation-guard` | L4 Safety-Critical | Prevents Gray-to-Black escalation, override authority to halt operations |
+| `gray-explorer-commander` | L3 Strategic | řídí kampaně Gray, směruje zjištění k Red/Blue/Purple |
+| `gray-edge-finder` | L4 Specialist | analýza hraničních hodnot, hledání mezer ve specifikacích |
+| `gray-escalation-guard` | L4 Safety-Critical | brání eskalaci z Gray do Black, oprávnění zastavit operace |
 
-The `gray-escalation-guard` is particularly critical -- it prevents Gray Team's boundary exploration from inadvertently entering [Black Team](@/glossary/black-team.md) territory, maintaining the isolation boundary between exploratory and theoretical threat domains. This guard has override authority to halt any Gray operation that approaches the escalation threshold.
+`gray-escalation-guard` je zvlášť důležitý – brání tomu, aby průzkum hranic nechtěně vstoupil
+na území [Black Teamu](@/glossary/black-team.md), a udržuje tak izolační hranici mezi
+průzkumnou a teoretickou doménou hrozeb. Má oprávnění zastavit každou operaci Gray, která se
+blíží prahu eskalace.
 
-### Red Team -- Adversarial Simulation (4 Agents)
+### Red Team – adversariální simulace (4 agenti)
 
-[Red Team](@/glossary/red-team.md) simulates epistemic attacks using five defined primitives: truth distortion, confidence manipulation, signal poisoning, drift induction, and salience hijacking. All execution is sandboxed with synthetic data only, and every scenario is logged in an immutable audit trail. Red Team's findings flow to [Purple Team](@/glossary/purple-team.md) for synthesis and to [Blue Team](@/glossary/blue-team.md) for defensive response.
+[Red Team](@/glossary/red-team.md) simuluje epistemické útoky pěti definovanými primitivy:
+zkreslení pravdy, manipulace důvěrou, otrávení signálu, vyvolání posunu a únos salience.
+Veškeré provádění probíhá v sandboxu jen se syntetickými daty a každý scénář se zapisuje do
+neměnné auditní stopy. Zjištění Red Teamu putují k [Purple Teamu](@/glossary/purple-team.md)
+k syntéze a k [Blue Teamu](@/glossary/blue-team.md) k obranné reakci.
 
-| Agent | Authority | Role |
+| Agent | Oprávnění | Role |
 |-------|-----------|------|
-| `red-commander` | L3 Strategic | Orchestrates adversarial scenarios, emits findings to Purple/Blue |
-| `red-epistemic-attacker` | L2 Tactical | Truth distortion and source poisoning simulation |
-| `red-drift-inducer` | L2 Tactical | Sub-threshold drift attacks, cascade propagation analysis |
-| `red-scenario-generator` | L2 Tactical | Composes multi-technique scenarios from 329-entry taxonomy |
+| `red-commander` | L3 Strategic | řídí adversariální scénáře, předává zjištění Purple/Blue |
+| `red-epistemic-attacker` | L2 Tactical | simulace zkreslení pravdy a otrávení zdrojů |
+| `red-drift-inducer` | L2 Tactical | útoky podprahovým posunem, analýza kaskádového šíření |
+| `red-scenario-generator` | L2 Tactical | skládá scénáře z více technik podle taxonomie s 329 položkami |
 
-The Red Team scenario taxonomy contains 329 entries organized by attack primitive, target subsystem, and complexity level. Each scenario includes preconditions, execution steps, expected indicators, and detection signatures that feed directly into Blue Team monitoring configurations.
+Taxonomie scénářů Red Teamu obsahuje (v době zápisu) 329 položek uspořádaných podle útočného
+primitiva, cílového subsystému a úrovně složitosti. Každý scénář obsahuje předpoklady,
+očekávané indikátory a detekční signatury, které přímo vstupují do konfigurace sledování
+Blue Teamu. Pět primitiv odpovídá strukturálně vzorcům, které Kompendium popisuje u lidí –
+od [gaslightingu](@/glossary/gaslighting.md) (zkreslení pravdy) po [Firehose of
+Falsehood](@/glossary/firehose-of-falsehood.md) (únos salience).
 
-### Blue Team -- Epistemic Defense (4 Agents)
+### Blue Team – epistemická obrana (4 agenti)
 
-[Blue Team](@/glossary/blue-team.md) maintains the platform's defensive posture through evidence synthesis. Unlike traditional Blue Teams that respond to active threats, Prismatic's Blue Team produces structured evidence assessments grounded in [NABLA Infinity](@/glossary/nabla-infinity.md) axioms. It aggregates signals from multiple domains, detects behavioral and configuration drift, and maintains a continuously updated defensive posture.
+[Blue Team](@/glossary/blue-team.md) udržuje obranný postoj platformy syntézou důkazů. Na
+rozdíl od tradičních blue teamů, které reagují na aktivní hrozby, vytváří strukturovaná
+hodnocení důkazů ukotvená v axiomech [NABLA Infinity](@/glossary/nabla-infinity.md). Slučuje
+signály z více domén, odhaluje behaviorální a konfigurační posun a udržuje průběžně
+aktualizovaný obranný postoj.
 
-| Agent | Authority | Role |
+| Agent | Oprávnění | Role |
 |-------|-----------|------|
-| `blue-commander` | L3 Strategic | Synthesizes evidence from specialists into unified defensive posture |
-| `blue-auth-sentinel` | L2 Operational | Authentication boundary monitoring, privilege escalation detection |
-| `blue-drift-detector` | L2 Operational | Behavioral, configuration, dependency, and performance drift detection |
-| `blue-signal-aggregator` | L2 Operational | Cross-domain signal correlation with NABLA plurality enforcement |
+| `blue-commander` | L3 Strategic | slučuje důkazy specialistů do jednotného obranného postoje |
+| `blue-auth-sentinel` | L2 Operational | sledování hranice autentizace, detekce eskalace oprávnění |
+| `blue-drift-detector` | L2 Operational | detekce behaviorálního, konfiguračního, závislostního a výkonnostního posunu |
+| `blue-signal-aggregator` | L2 Operational | korelace signálů napříč doménami s vynucením plurality NABLA |
 
-### Purple Team -- Synthesis and Closure (4 Agents)
+### Purple Team – syntéza a uzavírání (4 agenti)
 
-[Purple Team](@/glossary/purple-team.md) serves as the central hub for Red-Blue loop closure. It is the sole authority for closure state transitions -- determining when a security finding has been adequately addressed by defensive measures. Purple Team embodies the principle that "Purple is the property of the system when it stops lying to itself."
+[Purple Team](@/glossary/purple-team.md) je ústředním uzlem uzavírání smyčky Red–Blue. Je
+jedinou autoritou pro přechody stavu uzavření – rozhoduje, kdy bylo bezpečnostní zjištění
+obrannými opatřeními dostatečně vyřešeno. Ztělesňuje zásadu, že „purpurová je vlastnost
+systému ve chvíli, kdy přestane lhát sám sobě“.
 
-| Agent | Authority | Role |
+| Agent | Oprávnění | Role |
 |-------|-----------|------|
-| `purple-coordinator` | L3 Strategic | Synthesis hub, closure authority, anti-metric enforcement |
-| `purple-mapper` | L4 Operational | Bidirectional Red finding to Blue defense mapping |
-| `purple-closure-analyst` | L4 Operational | 4-condition closure evaluation, false closure detection |
-| `purple-regression-guard` | L4 Safety-Critical | Regression trap management, deployment gate enforcement |
+| `purple-coordinator` | L3 Strategic | syntetizační uzel, autorita uzavření, vynucení „antimetrik“ |
+| `purple-mapper` | L4 Operational | obousměrné přiřazení zjištění Red k obraně Blue |
+| `purple-closure-analyst` | L4 Operational | vyhodnocení uzavření podle 4 podmínek, detekce falešného uzavření |
+| `purple-regression-guard` | L4 Safety-Critical | správa regresních pastí, vynucení brány nasazení |
 
-Purple Team's `purple-regression-guard` prevents a particularly dangerous failure mode: false closure, where a security finding appears resolved but the underlying vulnerability persists in a different form. The 4-condition closure evaluation requires evidence from Red Team (confirming the attack no longer succeeds), Blue Team (confirming the defense is active), White Team (confirming formal properties hold), and Purple Team itself (confirming no regression indicators).
+`purple-regression-guard` brání zvlášť nebezpečnému selhání – falešnému uzavření, kdy se
+bezpečnostní zjištění zdá vyřešené, ale skrytá zranitelnost přetrvává v jiné podobě.
+Vyhodnocení uzavření podle čtyř podmínek vyžaduje důkazy od Red Teamu (útok už neuspěje), Blue
+Teamu (obrana je aktivní), White Teamu (formální vlastnosti platí) a samotného Purple Teamu
+(žádné známky regrese).
 
-### White Team -- Constructive Verification (3 Agents)
+### White Team – konstruktivní ověřování (3 agenti)
 
-White Team proves that systems hold through progressive methodology spanning levels L0 through L5 of verification rigor. The team produces evidence artifacts using [formal verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) techniques including [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) proofs, property-based testing, and contract validation. All White Team output passes through [Trinity Gate](@/glossary/trinity-gate.md).
+[White Team](@/glossary/white-team.md) dokazuje, že systémy obstojí, postupnou metodikou na
+úrovních přísnosti ověření L0 až L5. Vytváří důkazní artefakty technikami formální verifikace
+včetně důkazů v Lean4, testování založeného na vlastnostech a validace kontraktů. Veškerý
+výstup prochází [Trinity Gate](@/glossary/trinity-gate.md).
 
-| Agent | Authority | Role |
+| Agent | Oprávnění | Role |
 |-------|-----------|------|
-| `white-verifier-commander` | L3 Strategic | Orchestrates verification campaigns, composite proof construction |
-| `white-contract-validator` | L4 Operational | Interface contract testing, behaviour/protocol/API validation |
-| `white-invariant-prover` | L4 Operational | Property-based testing, formal Lean4 proofs, fault injection analysis |
+| `white-verifier-commander` | L3 Strategic | řídí ověřovací kampaně, skládá složené důkazy |
+| `white-contract-validator` | L4 Operational | testování kontraktů rozhraní, validace behaviour/protokolů/API |
+| `white-invariant-prover` | L4 Operational | testování vlastností, formální důkazy v Lean4, analýza vkládání chyb |
 
-### Black Team -- Theoretical Threat Modeling (2 Agents)
+### Black Team – teoretické modelování hrozeb (2 agenti)
 
-[Black Team](@/glossary/black-team.md) operates under MAXIMUM isolation constraints, performing pure epistemic simulation of worst-case adversarial optimization. It produces abstract threat models only -- never executable content. All output is filtered through L1-L4 AbstractionFilter, and the team has zero network connectivity.
+[Black Team](@/glossary/black-team.md) pracuje pod MAXIMÁLNÍMI omezeními izolace a provádí
+čistě epistemickou simulaci adversariální optimalizace v nejhorším případě. Vytváří jen
+abstraktní modely hrozeb – nikdy spustitelný obsah. Veškerý výstup prochází filtrem
+AbstractionFilter L1–L4 a tým nemá žádné síťové připojení.
 
-| Agent | Authority | Role |
+| Agent | Oprávnění | Role |
 |-------|-----------|------|
-| `black-theorist-commander` | L3 Strategic (ISOLATED) | Abstract threat models, malicious optimization analysis |
-| `black-abstraction-enforcer` | L3 Safety-Critical (ISOLATED) | L1-L4 output abstraction enforcement, executable content detection |
+| `black-theorist-commander` | L3 Strategic (ISOLATED) | abstraktní modely hrozeb, analýza škodlivé optimalizace |
+| `black-abstraction-enforcer` | L3 Safety-Critical (ISOLATED) | vynucení abstrakce výstupu L1–L4, detekce spustitelného obsahu |
 
-## Signal Flow Architecture
+## Architektura toku signálů
 
-The signal flow between teams follows a structured cascade pattern where findings propagate from exploration through adversarial testing to validated defense:
+Tok signálů mezi týmy sleduje strukturovaný kaskádový vzor, v němž zjištění postupují od
+průzkumu přes adversariální testování k ověřené obraně:
 
 ```
 Gray (boundary seeds) --> Red (adversarial scenarios) --> Purple (synthesis) --> Blue (defense)
@@ -133,21 +201,26 @@ Gray (boundary seeds) --> Red (adversarial scenarios) --> Purple (synthesis) -->
                                     |                          v       |           v
                                Black (threat models)     White (proofs)    Platform Defense
 ```
+Tok probíhá v cyklech:
 
-The flow operates in cycles:
+1. **Setí:** Gray Team najde hraniční podmínky a mezery ve specifikacích a předá je Red Teamu
+   jako zárodky scénářů.
+2. **Simulace útoku:** Red Team ze zárodků Gray a z abstraktních modelů Black Teamu sestaví
+   adversariální scénáře.
+3. **Syntéza:** Purple Team přiřadí zjištění Red Teamu k obranným schopnostem Blue Teamu
+   a najde mezery.
+4. **Obrana:** Blue Team podle syntézy Purple aktualizuje obranný postoj a vytvoří
+   strukturované důkazy.
+5. **Ověření:** White Team formálně ověří, že obranná opatření splňují deklarované vlastnosti.
+6. **Uzavření:** Purple Team pro každé zjištění vyhodnotí, zda lze smyčku Red–Blue uzavřít,
+   podle čtyř podmínek.
 
-1. **Seeding**: Gray Team identifies boundary conditions and specification gaps, feeding these as seeds to Red Team
-2. **Attack Simulation**: Red Team constructs adversarial scenarios from Gray seeds and Black Team abstract threat models
-3. **Synthesis**: Purple Team maps Red Team findings to Blue Team defensive capabilities, identifying gaps
-4. **Defense**: Blue Team updates its defensive posture based on Purple Team synthesis, producing structured evidence
-5. **Verification**: White Team formally verifies that defensive measures satisfy their stated properties
-6. **Closure**: Purple Team evaluates whether the Red-Blue loop can be closed for each finding, using 4-condition evaluation
+Cyklus běží nepřetržitě; každá iterace může vytvořit nové hraniční podmínky k průzkumu pro
+Gray Team, a vzniká tak sebeposilující smyčka zlepšování bezpečnosti.
 
-This cycle operates continuously, with each iteration potentially generating new boundary conditions for Gray Team to explore, creating a self-reinforcing security improvement loop.
+## Technická implementace
 
-## Technical Implementation
-
-### Color Team Coordination GenServer
+### GenServer koordinace Color Teams
 
 ```elixir
 defmodule PrismaticDark.ColorTeam.Coordinator do
@@ -265,10 +338,9 @@ defmodule PrismaticDark.ColorTeam.Coordinator do
   defp build_status(state), do: %{findings_count: length(state.findings)}
 end
 ```
+## Přehled složení agentů
 
-## Agent Composition Summary
-
-| Team | Agents | L2 | L3 | L4 | Safety-Critical |
+| Tým | Agenti | L2 | L3 | L4 | Kritičtí pro bezpečnost |
 |------|--------|----|----|----|-----------------|
 | Gray | 3 | 0 | 1 | 2 | 1 (escalation-guard) |
 | Red | 4 | 3 | 1 | 0 | 0 |
@@ -276,110 +348,120 @@ end
 | Purple | 4 | 0 | 1 | 3 | 1 (regression-guard) |
 | White | 3 | 0 | 1 | 2 | 0 |
 | Black | 2 | 0 | 2 | 0 | 1 (abstraction-enforcer) |
-| **Total** | **20** | **6** | **7** | **7** | **3** |
+| **Celkem** | **20** | **6** | **7** | **7** | **3** |
 
-All agents are registered in the [Agent Registry](@/glossary/agent-registry.md) with their full capability specifications, [Agent Tier](@/glossary/agent-tier.md) classifications, and domain assignments.
+Všichni agenti jsou zapsáni v [Agent Registry](@/glossary/agent-registry.md) s úplnými
+specifikacemi schopností, klasifikací [Agent Tier](@/glossary/agent-tier.md) a přiřazením
+domén.
 
-## Safety Protocols
+## Bezpečnostní protokoly
 
-Color Teams operations are governed by comprehensive safety protocols that prevent misuse, data leakage, and scope creep:
-
-| Protocol | Enforcement | Scope |
+| Protokol | Vynucení | Rozsah |
 |----------|-------------|-------|
-| **Sandbox Isolation** | All Red/Black operations execute in PrismaticDark.Sandbox only | Red, Black |
-| **Synthetic Data Only** | No real data, no PII, no production state in any simulation | All teams |
-| **No Network Access** | Zero network connectivity for isolated operations | Red, Black |
-| **Ethics Checks** | Automated validation every 10-15 seconds across all teams | All teams |
-| **Escalation Guards** | Gray Escalation Guard and Black Abstraction Enforcer prevent scope creep | Gray, Black |
-| **Audit Logging** | Immutable audit trail for every operation across all teams | All teams |
-| **No Executable Output** | Black domain never produces executable code or exploit instructions | Black |
-| **Abstraction Filtering** | All Black output filtered through L1-L4 AbstractionFilter | Black |
-| **Closure Authority** | Only Purple Team can declare a finding closed; false closure detection active | Purple |
-| **Regression Prevention** | Purple regression-guard blocks deployment on security regression | Purple |
+| **izolace v sandboxu** | všechny operace Red/Black běží jen v PrismaticDark.Sandbox | Red, Black |
+| **jen syntetická data** | žádná skutečná data, osobní údaje ani produkční stav v žádné simulaci | všechny týmy |
+| **bez přístupu k síti** | nulové síťové připojení u izolovaných operací | Red, Black |
+| **etické kontroly** | automatická validace každých 10–15 sekund | všechny týmy |
+| **strážci eskalace** | Gray Escalation Guard a Black Abstraction Enforcer brání rozšiřování rozsahu | Gray, Black |
+| **auditní logování** | neměnná auditní stopa každé operace | všechny týmy |
+| **žádný spustitelný výstup** | doména Black nikdy nevytváří spustitelný kód ani návody ke zneužití | Black |
+| **filtrování abstrakce** | veškerý výstup Black prochází AbstractionFilter L1–L4 | Black |
+| **autorita uzavření** | uzavřít zjištění smí jen Purple Team; aktivní detekce falešného uzavření | Purple |
+| **prevence regresí** | purple regression-guard blokuje nasazení při bezpečnostní regresi | Purple |
 
-## Epistemic Security Model
+## Model epistemické bezpečnosti
 
-The Color Teams architecture implements a novel approach to platform security that operates at the epistemic level rather than the traditional network or application level. The core premise is that a platform capable of autonomous reasoning must secure not just its data and infrastructure but its reasoning process itself.
+Architektura Color Teams uplatňuje nový přístup k bezpečnosti platformy, který působí na
+epistemické úrovni, nikoli na tradiční úrovni sítě nebo aplikace. Výchozí premisou je, že
+platforma schopná autonomního uvažování musí zabezpečit nejen data a infrastrukturu, ale
+i samotný proces uvažování.
 
-[NABLA Infinity](@/glossary/nabla-infinity.md) axioms govern how beliefs are formed. [Trinity Gate](@/glossary/trinity-gate.md) governs how beliefs are accepted. Color Teams govern how those mechanisms are tested under adversarial conditions. This layered approach ensures that:
+[NABLA Infinity](@/glossary/nabla-infinity.md) určuje, jak se přesvědčení utvářejí. [Trinity
+Gate](@/glossary/trinity-gate.md) určuje, jak se přijímají. Color Teams určují, jak se tyto
+mechanismy testují za adversariálních podmínek. Vrstvený přístup zajišťuje, že:
 
-- Signal manipulation attacks are detected by Blue Team's signal aggregator
-- Confidence manipulation is tested by Red Team's epistemic attacker
-- Drift attacks are monitored by Blue Team's drift detector and tested by Red Team's drift inducer
-- Formal properties are proven by White Team's invariant prover
-- Theoretical worst-cases are modeled by Black Team's theorist-commander
-- All findings are synthesized by Purple Team into actionable defensive posture
+- útoky manipulací signálu odhalí slučovač signálů Blue Teamu;
+- manipulaci důvěrou testuje epistemický útočník Red Teamu;
+- útoky posunem sleduje detektor posunu Blue Teamu a testuje vyvolávač posunu Red Teamu;
+- formální vlastnosti dokazuje dokazovatel invariantů White Teamu;
+- teoretické nejhorší případy modeluje theorist-commander Black Teamu;
+- všechna zjištění slučuje Purple Team do použitelného obranného postoje.
 
-## Integration with Platform Systems
+## Integrace se systémy platformy
 
-### Threat Intelligence Integration
+### Integrace zpravodajství o hrozbách
 
-Color Teams consume [threat intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) feeds to inform their operations. Red Team uses threat actor profiles and TTPs to construct realistic adversarial scenarios. Blue Team incorporates IOCs into its monitoring configurations. Purple Team correlates external threat intelligence with internal findings to assess risk.
+Color Teams využívají zdroje zpravodajství o hrozbách (*threat intelligence*). Red Team
+používá profily aktérů a jejich TTP k sestavení realistických scénářů. Blue Team zapracovává
+indikátory kompromitace do konfigurace sledování. Purple Team dává vnější zpravodajství do
+souvislosti s vnitřními zjištěními a hodnotí riziko.
 
-### EASM Coordination
+### Koordinace s EASM
 
-[Prismatic Perimeter](@/glossary/easm.md) and Color Teams coordinate to cover both external and epistemic attack surfaces. While Perimeter monitors the technical attack surface (exposed services, vulnerable configurations), Color Teams monitor the epistemic attack surface (knowledge manipulation, reasoning degradation).
+Prismatic Perimeter (viz [EASM](@/glossary/easm.md)) a Color Teams se koordinují tak, aby
+pokryly vnější i epistemickou útočnou plochu. Perimeter sleduje technickou útočnou plochu
+(vystavené služby, zranitelné konfigurace), Color Teams epistemickou (manipulace věděním,
+zhoršování uvažování).
 
-### Quality Gates Integration
+### Integrace s branami kvality
 
-Color Team findings feed into [quality gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) as security constraints. A finding with severity "critical" that lacks Purple Team closure blocks deployment through the platform's pre-commit quality gate system.
+Zjištění Color Teams vstupují do bran kvality jako bezpečnostní omezení. Kritické zjištění
+bez uzavření Purple Teamem blokuje nasazení systémem bran kvality před commitem.
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Maintain team isolation boundaries**: Each team's mandate is precisely defined. Gray explores boundaries, Red attacks, Blue defends, Purple synthesizes, White verifies, Black models threats. Crossing these boundaries weakens the architecture's adversarial integrity.
+1. **Udržovat hranice mezi týmy:** mandát každého týmu je přesně vymezen – Gray zkoumá
+   hranice, Red útočí, Blue brání, Purple slučuje, White ověřuje, Black modeluje hrozby.
+   Překračování hranic oslabuje adversariální integritu architektury.
+2. **Vynucovat směr toku signálů:** zjištění musí procházet definovanou kaskádou. Obejití
+   syntézy Purple Teamu (přímo z Red do Blue) odstraní mechanismus uzavírání smyčky.
+3. **Vyžadovat uzavření podle 4 podmínek:** nikdy neuzavřít zjištění bez důkazů ze všech čtyř
+   relevantních pohledů.
+4. **Spouštět etické kontroly nepřetržitě:** interval 10–15 sekund není předmětem vyjednávání.
+   Jeho vypnutí nebo prodloužení otevírá prostor pro rozšiřování rozsahu.
+5. **Chránit izolaci Black Teamu:** maximální izolace existuje proto, že teoretické modelování
+   hrozeb může vést k nebezpečným poznatkům. Vynucovač abstrakce musí ověřit každý výstup.
 
-2. **Enforce the signal flow direction**: Findings must flow through the defined cascade. Bypassing Purple Team synthesis to go directly from Red to Blue eliminates the loop closure mechanism.
+## Časté chyby
 
-3. **Require 4-condition closure**: Never close a finding without evidence from all four relevant perspectives (Red confirms attack fails, Blue confirms defense active, White confirms properties hold, Purple confirms no regression).
+- **Přímé spojení Red–Blue:** když zjištění Red jdou přímo k Blue bez syntézy Purple, obranné
+  reakce postrádají strategický kontext a mohou řešit symptomy místo příčin.
+- **Přijetí falešného uzavření:** uzavření na základě neúplných důkazů (chybí jedna nebo více
+  podmínek) vytváří falešný pocit bezpečí.
+- **Eskalace z Gray do Black:** průzkum hranic se může nechtěně přiblížit území modelování
+  hrozeb; strážce eskalace musí být aktivní a mít pravomoc operace zastavit.
+- **Manipulace metrikami:** měření účinnosti Color Teams počtem zjištění motivuje k zjištěním
+  nízké závažnosti. Vynucení „antimetrik“ v Purple Teamu brání kvantifikaci, která deformuje
+  chování.
+- **Zastaralé modely hrozeb:** modely Black Teamu bez aktualizace podle současného
+  zpravodajství vedou ke scénářům teoreticky zajímavým, ale provozně nerelevantním.
 
-4. **Run ethics checks continuously**: The 10-15 second ethics check interval is not negotiable. Disabling or extending this interval creates windows for scope creep.
+## Související pojmy
 
-5. **Preserve Black Team isolation**: Black Team's maximum isolation constraints exist because theoretical threat modeling can produce dangerous insights. The abstraction enforcer must validate every output.
+Bez vlastního hesla v glosáři knihy: *Formal Verification* a *Lean4* (techniky White Teamu),
+*Attack Surface*, *Threat Intelligence* a *Consciousness Traits*.
 
-## Common Pitfalls
+## Související
 
-- **Red-Blue Direct Coupling**: When Red Team findings go directly to Blue Team without Purple Team synthesis, defensive responses lack strategic context and may address symptoms rather than root causes.
+**Týmy**
 
-- **False Closure Acceptance**: Accepting closure based on incomplete evidence (missing one or more of the four conditions) creates a false sense of security. Purple Team's closure-analyst must rigorously evaluate all conditions.
+- [Red Team](@/glossary/red-team.md), [Blue Team](@/glossary/blue-team.md), [Purple
+  Team](@/glossary/purple-team.md) – útok, obrana a syntéza.
+- [Gray Team](@/glossary/gray-team.md), [White Team](@/glossary/white-team.md), [Black
+  Team](@/glossary/black-team.md) – průzkum hranic, ověřování a teoretické modely.
 
-- **Gray-to-Black Escalation**: Gray Team's boundary exploration can inadvertently approach Black Team's threat modeling territory. The escalation guard must be active and empowered to halt operations.
+**Platforma**
 
-- **Metric Gaming**: Measuring Color Team effectiveness by finding count incentivizes low-severity findings. Purple Team's anti-metric enforcement resists quantification that distorts behavior.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec, který týmy testují
+  a hájí.
+- [Trinity Gate](@/glossary/trinity-gate.md) – ověřovací brána.
+- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – šestnáctiúrovňový proces, který
+  týmy chrání.
+- [EASM](@/glossary/easm.md) – správa vnější útočné plochy, která Color Teams doplňuje.
 
-- **Stale Threat Models**: Black Team threat models that are not updated with current [threat intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) produce scenarios that are theoretically interesting but operationally irrelevant.
+**Kompendium**
 
-## Related Terms
-
-- [Red Team](@/glossary/red-team.md) -- Adversarial simulation team with 4 agents and 5 attack primitives
-- [Blue Team](@/glossary/blue-team.md) -- Epistemic defense team producing structured evidence
-- [Purple Team](@/glossary/purple-team.md) -- Synthesis and closure authority mediating Red-Blue loop
-- [Gray Team](@/glossary/gray-team.md) -- Boundary exploration team seeding the signal flow
-- [White Team](@/glossary/white-team.md) -- Constructive verification team using formal proofs
-- [Black Team](@/glossary/black-team.md) -- Maximum isolation theoretical threat modeling team
-- [Agent Tier](@/glossary/agent-tier.md) -- L1-L5 authority classification for all Color Team agents
-- [Agent Registry](@/glossary/agent-registry.md) -- Central catalog tracking all 20 Color Team agents
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework that Color Teams test and defend
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate validated by White Team proofs
-- [Formal Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) -- Techniques used by White Team
-- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) -- Theorem prover used in White Team formal proofs
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) -- 16-level pipeline that Color Teams protect
-- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) -- External surface monitored alongside epistemic surface
-- [EASM](@/glossary/easm.md) -- External attack surface management complementing Color Teams
-- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) -- Intelligence feeds consumed by Color Teams
-- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- Platform traits requiring epistemic security protection
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform capability catalog
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog including all Color Team agents
-
----
-
-## Connect & Contribute
-
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Epistemic Security](@/glossary/epistemic-security.md) – obor, do něhož architektura
+  zapadá.
+- [Red Team: detekce EA](@/kompendium/aiad-integration/red-team-ea-detection.md) – simulace
+  technik EA v praxi.

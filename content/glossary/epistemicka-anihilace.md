@@ -84,7 +84,7 @@ Obrana stojí na obnově toho, co anihilace bere: **rozmanitosti zdrojů**, **v�
 
 ## Literatura
 
-- Robert Jay Lifton: *Thought Reform and the Psychology of Totalism* (1961).
+- Robert Jay Lifton: *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* (1961).
 - Judith Lewis Herman: *Trauma and Recovery* (1992).
 - Evan Stark: *Coercive Control* (2007).
 - Miranda Fricker: *Epistemic Injustice* (2007).

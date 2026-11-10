@@ -302,4 +302,4 @@ GreyNoise patří do technického kontextu platformy. Jeho princip má však v k
 - [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) – úrovně jistoty klasifikace.
 - [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) – architektura pipeline obohacování EASM.
 - [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) – aplikace Prismatic Perimeter.
-- [OSINT](https://prismatic-reality-com.github.io/prismatic-promo/osint/) – metodika sběru zpravodajství z otevřených zdrojů.
+- [OSINT](https://prismatic-reality-com.github.io/prismatic-promo/osint/) – metodika sběru [zpravodajství z otevřených zdrojů](@/glossary/osint.md).

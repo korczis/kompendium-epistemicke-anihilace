@@ -1,51 +1,53 @@
 +++
 title = "Decision Core"
 weight = 30
-description = "Closed-loop decision infrastructure with deterministic hypothesis generation, scoring, and calibration"
+description = "Rozhodovací infrastruktura Prismatic Platform s uzavřenou smyčkou: deterministické generování hypotéz, bodování a kalibrace podle skutečných výsledků."
 
 [taxonomies]
-tags = ["glossary", "decision-core", "architecture", "scoring"]
+tags = ["glossary", "decision-core", "architecture", "scoring", "prismatic"]
 
 [extra]
 category = "architecture"
-related_terms = ["calibration", "hypothesis", "uncertainty", "determinism"]
 author = "Tomas Korcak (korczis)"
-reading_time = "6 min"
-word_count = 980
-date_created = "2026-04-08"
-date_modified = "2026-04-08"
-quality_score = 90
+date_updated = "2026-11-10"
+related_terms = ["calibration", "hypothesis", "uncertainty", "determinism"]
 difficulty = "intermediate"
-image = "/images/sections/glossary.png"
-image_alt = "Decision Core - Prismatic Platform"
-see_also = ["architecture", "developers"]
-keywords = ["decision engine", "hypothesis generation", "calibration loop", "deterministic scoring"]
+keywords = ["decision engine", "generování hypotéz", "kalibrační smyčka", "deterministické bodování"]
 +++
 
-## Definition
+## Definice
 
-The **Decision Core** is Prismatic Platform's closed-loop decision infrastructure that transforms unstructured decision problems into traceable, deterministic outcomes with measurable calibration. Unlike black-box AI systems, every step in the Decision Core pipeline is explicit, inspectable, and reproducible.
+**Decision Core** je rozhodovací infrastruktura Prismatic Platform s uzavřenou smyčkou,
+která převádí nestrukturované rozhodovací problémy na dohledatelné, deterministické
+výsledky s měřitelnou kalibrací. Na rozdíl od systémů umělé inteligence typu „černá
+skříňka“ je každý krok procesu Decision Core explicitní, prohlédnutelný a opakovatelný.
 
-The pipeline follows a strict sequence: **INPUT -> HYPOTHESIS -> EVALUATION -> DECISION -> OUTCOME -> CALIBRATION**.
+Proces probíhá v pevném pořadí: **VSTUP → HYPOTÉZA → HODNOCENÍ → ROZHODNUTÍ → VÝSLEDEK →
+KALIBRACE**.
 
-## Technical Deep Dive
+Pojem patří do kontextu platformy, z níž kniha vzešla. Pro Kompendium je důležitý jako
+technické jádro [Decision Engine](@/glossary/decision-engine.md), na který se hesla knihy
+odvolávají, když popisují, jak má být důvěra ve zdroje kalibrována s ohledem na
+manipulaci (viz kapitola [Vztah k Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)).
 
-### Pipeline Architecture
+## Technický rozbor
 
-The Decision Core operates as a six-stage pipeline:
+### Architektura procesu
 
-| Stage | Module | Purpose |
-|-------|--------|---------|
-| Input | `PrismaticDd.Core.DecisionInput` | Captures problem statement, context, structured data, constraints |
-| Hypothesis | `PrismaticDd.Core.HypothesisGenerator` | Generates 3-5 competing interpretations deterministically |
-| Evaluation | `PrismaticDd.Core.Scorer` | Computes confidence, uncertainty, and risk scores per hypothesis |
-| Decision | `PrismaticDd.Decisions.select_decision/4` | Deterministic selection with explicit tie-breakers |
-| Outcome | `PrismaticDd.Core.Outcome` | Records real-world result after decision execution |
-| Calibration | `PrismaticDd.Core.Calibrator` | Computes prediction-vs-reality delta, adjusts future scoring |
+Decision Core pracuje jako šestistupňový proces:
 
-### Scoring Model
+| Fáze | Modul | Účel |
+|------|-------|------|
+| Vstup | `PrismaticDd.Core.DecisionInput` | zachycuje zadání problému, kontext, strukturovaná data, omezení |
+| Hypotéza | `PrismaticDd.Core.HypothesisGenerator` | deterministicky generuje 3–5 soupeřících výkladů |
+| Hodnocení | `PrismaticDd.Core.Scorer` | počítá pro každou hypotézu skóre důvěry, nejistoty a rizika |
+| Rozhodnutí | `PrismaticDd.Decisions.select_decision/4` | deterministický výběr s explicitními pravidly pro shodu |
+| Výsledek | `PrismaticDd.Core.Outcome` | zaznamená skutečný výsledek po provedení rozhodnutí |
+| Kalibrace | `PrismaticDd.Core.Calibrator` | spočítá rozdíl mezi předpovědí a skutečností a upraví budoucí bodování |
 
-The Decision Core uses an explicit, inspectable scoring formula:
+### Bodovací model
+
+Decision Core používá explicitní, prohlédnutelný bodovací vzorec:
 
 ```elixir
 # Confidence computation
@@ -61,41 +63,51 @@ risk = base_risk + constraint_risk
 decision_score = confidence - (risk * risk_penalty) - (uncertainty * uncertainty_penalty)
 ```
 
-All scoring weights are configurable via **weight profiles** (default, finance, hiring, technical, investment).
+(Komentáře v kódu: výpočet důvěry, výpočet nejistoty, výpočet rizika, konečné skóre
+rozhodnutí.) Všechny váhy lze nastavit pomocí **profilů vah** (default, finance, hiring,
+technical, investment).
 
-### Deterministic Fingerprinting
+### Deterministický otisk
 
-Every decision includes a SHA-256 fingerprint derived from the normalized input, engine version, and scoring profile. Re-running identical inputs with the same calibration state always produces the same decision.
+Každé rozhodnutí nese otisk SHA-256 odvozený z normalizovaného vstupu, verze enginu
+a bodovacího profilu. Opakované spuštění se stejnými vstupy a stejným stavem kalibrace dá
+vždy totéž rozhodnutí.
 
-### Calibration Loop
+### Kalibrační smyčka
 
-The calibration system uses bucket-based correction:
+Kalibrační systém používá korekci po přihrádkách:
 
-- Confidence scores are bucketed into 10 bins [0.0-0.1), [0.1-0.2), ..., [0.9-1.0]
-- Each bucket tracks the average delta between predicted confidence and observed success
-- Future confidence scores are adjusted by their bucket's mean delta
-- Adjustments are bounded to [-0.15, +0.15] to prevent runaway correction
+- skóre důvěry se třídí do 10 přihrádek [0,0–0,1), [0,1–0,2), …, [0,9–1,0];
+- každá přihrádka sleduje průměrný rozdíl mezi předpovězenou důvěrou a pozorovaným
+  úspěchem;
+- budoucí skóre důvěry se upraví o průměrný rozdíl jejich přihrádky;
+- úpravy jsou omezeny na interval [−0,15; +0,15], aby se korekce nevymkla.
 
-### Decision Stability Analysis
+### Analýza stability rozhodnutí
 
-Each decision includes stability metrics computed via Gaussian CDF approximation:
+Každé rozhodnutí obsahuje metriky stability vypočtené aproximací gaussovské distribuční
+funkce:
 
-- **Margin**: Distance from decision threshold
-- **Flip probability**: Likelihood the decision would change under noise
-- **Stability level**: very_stable, stable, marginal, unstable
+- **odstup (margin)** – vzdálenost od rozhodovacího prahu;
+- **pravděpodobnost překlopení (flip probability)** – jak pravděpodobně by se rozhodnutí
+  změnilo při šumu;
+- **úroveň stability** – very_stable, stable, marginal, unstable.
 
-## Implementation in Prismatic Platform
+## Implementace v Prismatic Platform
 
-The Decision Core is implemented in the `prismatic_dd` app under `PrismaticDd.Core.*` namespace:
+Decision Core je implementován v aplikaci `prismatic_dd` ve jmenném prostoru
+`PrismaticDd.Core.*` (stav v době zápisu):
 
-- **6 Ecto schemas** persisting all pipeline artifacts to PostgreSQL
-- **3 pure functional modules** (HypothesisGenerator, Scorer, Calibrator) with zero side effects
-- **1 context module** (`PrismaticDd.Decisions`) orchestrating the full pipeline
-- **REST API** at `/api/v1/decisions` with OpenAPI specification
-- **LiveView UI** at `/hub/decision-core` with 4 views (list, new, trace, calibration)
-- **7 reusable Phoenix components** in `DecisionCoreComponents`
+- **6 schémat Ecto**, která ukládají všechny artefakty procesu do PostgreSQL;
+- **3 čistě funkcionální moduly** (HypothesisGenerator, Scorer, Calibrator) bez vedlejších
+  účinků;
+- **1 kontextový modul** (`PrismaticDd.Decisions`), který řídí celý proces;
+- **REST API** na `/api/v1/decisions` se specifikací OpenAPI;
+- **rozhraní LiveView** na `/hub/decision-core` se 4 pohledy (seznam, nové, trasa,
+  kalibrace);
+- **7 opakovaně použitelných komponent Phoenix** v `DecisionCoreComponents`.
 
-### Usage Example
+### Příklad použití
 
 ```elixir
 # Run full pipeline
@@ -117,25 +129,43 @@ The Decision Core is implemented in the `prismatic_dd` app under `PrismaticDd.Co
 # Calibration event automatically computed and stored
 ```
 
-## Best Practices
+(Komentáře: spuštění celého procesu; později zaznamenání skutečného výsledku; kalibrační
+událost se automaticky spočítá a uloží.)
 
-1. **Always provide structured_data** - More data fields produce more nuanced hypotheses
-2. **Use domain-specific profiles** - Finance decisions need different risk weighting than hiring decisions
-3. **Record outcomes consistently** - The calibration loop only improves with real-world feedback
-4. **Monitor calibration health** - Use `Calibrator.health_check/1` to detect systematic bias
-5. **Trust the stability metrics** - If flip_probability > 0.3, the decision is marginal and needs more data
+## Osvědčené postupy
 
-## Related Terms
+1. **Vždy dodat `structured_data`** – více datových polí dává jemnější hypotézy.
+2. **Používat oborové profily** – finanční rozhodnutí potřebují jiné vážení rizika než
+   personální.
+3. **Soustavně zaznamenávat výsledky** – kalibrační smyčka se zlepšuje jen se zpětnou
+   vazbou ze skutečnosti.
+4. **Sledovat zdraví kalibrace** – `Calibrator.health_check/1` odhalí soustavné zkreslení.
+5. **Brát vážně metriky stability** – je-li pravděpodobnost překlopení vyšší než 0,3, je
+   rozhodnutí hraniční a potřebuje víc dat.
 
-- [Calibration](https://prismatic-reality-com.github.io/prismatic-promo/glossary/calibration/) - Probability calibration techniques
-- [Uncertainty](https://prismatic-reality-com.github.io/prismatic-promo/glossary/uncertainty/) - Epistemic vs aleatoric uncertainty
-- [Determinism](https://prismatic-reality-com.github.io/prismatic-promo/glossary/determinism/) - Reproducible computation
+## Vztah ke Kompendiu
 
----
+Decision Core ukazuje, jak lze principy, které Kompendium formuluje pro lidské poznávání,
+přenést do rozhodovacího systému: soupeřící hypotézy místo jediného výkladu (obrana proti
+[konfirmačnímu biasu](@/glossary/konfirmacni-bias.md)), explicitní nejistota, záznam
+výsledku a kalibrace podle skutečnosti (srov. [Epistemická
+pokora](@/glossary/epistemicka-pokora.md)). Kalibraci s ohledem na techniky EA rozebírá
+stránka [Decision Engine: kalibrace EA](@/kompendium/aiad-integration/decision-engine-ea-calibration.md).
 
-## Connect & Contribute
+## Související
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Platforma**
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Decision Engine](@/glossary/decision-engine.md) – obecnější pojem rozhodovacího enginu.
+- [Trinity Gate](@/glossary/trinity-gate.md) – ověřovací proces, do něhož jsou rozhodovací
+  enginy zapojeny.
+- [Risk Score](@/glossary/risk-score.md) – skóre rizika jako vstup rozhodnutí.
+- [Due Diligence](@/glossary/due-diligence.md) – hlavní oblast použití.
+
+**Kompendium**
+
+- [Vztah k Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md) – jak kniha
+  s rozhodovacím enginem souvisí.
+- [Decision Engine: kalibrace EA](@/kompendium/aiad-integration/decision-engine-ea-calibration.md)
+  – kalibrace důvěry s ohledem na manipulaci.
+- [Epistemická pokora](@/glossary/epistemicka-pokora.md) – lidský protějšek kalibrace.

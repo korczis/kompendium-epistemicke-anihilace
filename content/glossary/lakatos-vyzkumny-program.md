@@ -28,7 +28,7 @@ image_alt = "Lakatosův výzkumný program – glosář"
 
 1. **tvrdé jádro** – malá sada základních tvrzení, která nejsou přímo vystavena vyvrácení; identita programu;
 2. **ochranný pás** – pomocné hypotézy, které pohlcují empirické konflikty a mohou být revidovány, aniž by se program opustil;
-3. **heuristika** – pozitivní (cesty rozvoje teorie) a negativní (které kroky jsou zakázány) pravidla omezující revize pásu.
+3. **[heuristika](@/glossary/heuristika.md)** – pozitivní (cesty rozvoje teorie) a negativní (které kroky jsou zakázány) pravidla omezující revize pásu.
 
 Rozhodující inovací je rozlišení **progresivního a degenerativního posunu**:
 

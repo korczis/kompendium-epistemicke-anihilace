@@ -1,10 +1,10 @@
 +++
-title = "Entity Resolution"
+title = "Entity Resolution (sjednocování entit)"
 weight = 44
-description = "Intelligence process of determining whether multiple data records from different sources refer to the same real-world entity, enabling identity consolidation across disparate datasets."
+description = "Zpravodajský proces, který určuje, zda záznamy z různých zdrojů patří téže skutečné entitě, a umožňuje sjednotit identity napříč nesourodými daty s kalibrovanou důvěrou."
 
 [taxonomies]
-tags = ["glossary", "intelligence", "entity-resolution", "prismatic"]
+tags = ["glossary", "entity-resolution", "osint", "prismatic", "due-diligence"]
 
 [extra]
 category = "intelligence"
@@ -27,34 +27,68 @@ prismatic_module = "PrismaticResolution"
 false_positive_impact = "Incorrectly merged entities"
 false_negative_impact = "Missed entity connections"
 author = "Tomas Korcak (korczis)"
-reading_time = "6 min"
-word_count = 1234
-date_created = "2026-02-23"
-date_modified = "2026-02-23"
-keywords = ["Entity", "Resolution", "Intelligence", "glossary", "Prismatic Platform", "High", "Graph", "Name"]
 quality_score = 80
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "Entity Resolution - Prismatic Platform"
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Definice
 
-Entity resolution (also known as record linkage, deduplication, entity matching, or identity resolution) is the process of determining whether different data records -- potentially from entirely different sources, using different identifiers, formats, spellings, and levels of completeness -- refer to the same real-world entity. In intelligence and cybersecurity contexts, this means linking persons, organizations, domains, IP addresses, email addresses, social media accounts, and digital assets across multiple data sources that share no common identifier. Entity resolution is the critical step that transforms fragmented, duplicated raw data into a coherent, consolidated view of reality.
+**Entity resolution** (česky *sjednocování entit*, též *propojování záznamů*, *deduplikace*,
+*párování entit* nebo *sjednocování identit*) je proces, který určuje, zda různé datové
+záznamy – případně ze zcela odlišných zdrojů, s jinými identifikátory, formáty, pravopisem
+a úplností – patří téže skutečné entitě. Ve zpravodajství a kybernetické bezpečnosti to
+znamená propojovat osoby, organizace, domény, IP adresy, e-mailové adresy, účty na
+sociálních sítích a digitální aktiva napříč zdroji, které nemají společný identifikátor.
+Sjednocování entit je klíčovým krokem, který mění roztříštěná a zdvojená surová data
+v souvislý, sjednocený obraz skutečnosti.
 
-The challenge is fundamentally one of uncertainty. A person named "Jan Novak" appearing in a Czech business registry, "J. Novak" listed as a domain registrant, and "jan.novak@example.com" found in a data breach may or may not be the same individual. Entity resolution combines deterministic matching (exact matches on unique identifiers like email addresses, tax IDs, or domain names), probabilistic matching (fuzzy similarity scoring on names, addresses, and other attributes), and graph-based matching (analyzing relationship patterns -- if two records share three common associates, they are more likely to be the same entity). The output is not a binary yes/no but a confidence-scored assertion: "these records represent the same entity with 87% confidence based on name similarity, shared IP range, and overlapping registration dates."
+Jde v podstatě o práci s nejistotou. Osoba „Jan Novák“ v českém obchodním rejstříku,
+„J. Novak“ jako držitel domény a adresa „jan.novak@example.com“ v uniklé databázi mohou, ale
+nemusí být týž člověk. Sjednocování kombinuje **deterministické** párování (přesné shody
+jedinečných identifikátorů – e-mailu, daňového čísla, domény), **pravděpodobnostní** párování
+(přibližné skóre podobnosti jmen, adres a dalších atributů) a **grafové** párování (analýzu
+vzorců vztahů – sdílejí-li dva záznamy tři společné spolupracovníky, spíše jde o tutéž
+entitu). Výstupem není binární ano/ne, ale tvrzení s mírou důvěry: „tyto záznamy představují
+tutéž entitu s důvěrou 87 % na základě podobnosti jména, sdíleného rozsahu IP a překrývajících
+se dat registrace“.
 
-Entity resolution sits at the intersection of data engineering, information theory, and domain expertise. At scale, it requires efficient blocking strategies (reducing the O(n^2) comparison space to manageable candidate sets), sophisticated similarity metrics (Jaro-Winkler for names, Levenshtein for strings, geospatial proximity for addresses), and principled confidence calibration (ensuring that a "90% confidence" link is actually correct 90% of the time). False positives (incorrectly merging distinct entities) and false negatives (failing to link records for the same entity) both have serious consequences in intelligence operations.
+Sjednocování entit stojí na průsečíku datového inženýrství, teorie informace a oborové
+znalosti. Ve velkém měřítku vyžaduje efektivní strategie *blokování* (zmenšení prostoru
+porovnání O(n²) na zvládnutelné množiny kandidátů), propracované metriky podobnosti
+(Jaro-Winkler pro jména, Levenshtein pro řetězce, geografická blízkost pro adresy)
+a principiální kalibraci důvěry (aby propojení s „důvěrou 90 %“ bylo skutečně v 90 %
+případů správné). Falešně pozitivní výsledky (chybné sloučení různých entit) i falešně
+negativní (nepropojení záznamů téže entity) mají ve zpravodajské práci vážné důsledky.
 
-## Context in Prismatic
+**Vztah ke knize:** pojem patří do kontextu platformy, z níž Kompendium vzešlo (subsystém
+prověrek, viz [Due Diligence](@/glossary/due-diligence.md)). Pro knihu je důležitá jeho
+etická stránka: chybné sloučení dvou lidí do jedné „entity“ může poškodit nevinného člověka
+a sjednocování osobních údajů napříč zdroji je zároveň mechanismem [doxingu](@/glossary/doxing.md)
+(srov. [EA-2.3.8 Doxxing epistemický](@/kompendium/techniques/ea-2-3-8-doxxing-epistemicky.md)).
+Proto platí přísná pravidla důvěry, původu a lidské revize a práce s osobními údaji musí
+respektovat právo na ochranu soukromí (viz [OSINT](@/glossary/osint.md) a [Pomluva
+a EA](@/kompendium/forensic-legal/14-defamation-EA.md)).
 
-The Prismatic Platform performs entity resolution through dedicated L2 resolver agents that consolidate intelligence records across OSINT sources. Social media profiles, corporate registry records, domain registrations, certificate transparency logs, and financial data are linked to master entity records using multi-signal correlation validated against [NABLA Infinity](@/glossary/nabla-infinity.md) axioms. The [Signal Plurality](@/glossary/signal-plurality.md) axiom requires that entity links be supported by at least two independent signals, and the [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) axiom ensures that every link is traceable to its evidence sources.
+## Kontext na Prismatic Platform
 
-Resolution [confidence scores](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) must exceed the standard operations threshold (tau = 0.80) before entity links are established in the [Knowledge Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/knowledge-graph/). Links below the threshold are preserved as candidate associations for analyst review rather than being discarded -- consistent with the [contradiction preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) principle. The [Trinity Gate](@/glossary/trinity-gate.md) validates resolution assertions through structural consistency (the entity graph remains a valid DAG), logical consistency (attribute values do not contradict), and formal verification.
+Platforma provádí sjednocování entit pomocí vyhrazených agentů L2, kteří slučují zpravodajské
+záznamy ze zdrojů OSINT. Profily na sociálních sítích, záznamy obchodních rejstříků,
+registrace domén, logy Certificate Transparency a finanční data se propojují s hlavními
+záznamy entit korelací více signálů ověřenou podle axiomů [NABLA
+Infinity](@/glossary/nabla-infinity.md). Axiom [Signal Plurality](@/glossary/signal-plurality.md)
+vyžaduje, aby každé propojení opíraly alespoň dva nezávislé signály, a axiom *Provenance
+Mandatory* zajišťuje, že každé propojení lze vystopovat k jeho důkazním zdrojům.
 
-## Entity Resolution Pipeline
+Skóre důvěry musí před zapsáním propojení do znalostního grafu překročit standardní provozní
+práh (τ = 0,80). Propojení pod prahem se nezahazují, ale uchovávají jako kandidátní spojení
+k revizi analytikem – v souladu se zásadou zachování rozporů. [Trinity
+Gate](@/glossary/trinity-gate.md) ověřuje tvrzení o sjednocení strukturální konzistencí (graf
+entit zůstává platným DAG), logickou konzistencí (hodnoty atributů si neodporují) a formální
+verifikací.
 
-The resolution process follows a multi-stage pipeline, each stage reducing the candidate space while increasing match precision:
+## Proces sjednocování entit
+
+Proces má několik fází; každá zmenšuje prostor kandidátů a zvyšuje přesnost párování:
 
 ```
 Raw Records (N sources)
@@ -83,8 +117,7 @@ Raw Records (N sources)
       v
   Master Entity Records
 ```
-
-### Pipeline Implementation
+### Implementace procesu
 
 ```elixir
 defmodule PrismaticResolution.Pipeline do
@@ -129,10 +162,9 @@ defmodule PrismaticResolution.Pipeline do
   end
 end
 ```
+## Fáze normalizace
 
-## Normalization Stage
-
-The normalization stage standardizes records from heterogeneous sources into a common format suitable for comparison:
+Normalizace převádí záznamy z nesourodých zdrojů do společného formátu vhodného k porovnání:
 
 ```elixir
 defmodule PrismaticResolution.Normalizer do
@@ -193,26 +225,23 @@ defmodule PrismaticResolution.Normalizer do
   end
 end
 ```
-
-| Normalization | Input | Output | Purpose |
+| Normalizace | Vstup | Výstup | Účel |
 |--------------|-------|--------|---------|
-| **Name** | "Jan Novák" | "jan novak" | Diacritic removal, case folding |
-| **Address** | "Ul. Karla IV 12/3" | "karla iv 12 3" | Street abbreviation expansion |
-| **Phone** | "+420 123 456 789" | "420123456789" | Whitespace and prefix normalization |
-| **Email** | "Jan.Novak+work@gmail.com" | "jan.novak@gmail.com" | Alias stripping, case folding |
-| **Domain** | "www.Example.COM" | "example.com" | Protocol/www stripping, case folding |
+| **jméno** | „Jan Novák“ | „jan novak“ | odstranění diakritiky, sjednocení velikosti písmen |
+| **adresa** | „Ul. Karla IV 12/3“ | „karla iv 12 3“ | rozvinutí zkratek ulic |
+| **telefon** | „+420 123 456 789“ | „420123456789“ | normalizace mezer a předvolby |
+| **e-mail** | „Jan.Novak+work@gmail.com“ | „jan.novak@gmail.com“ | odstranění aliasu, sjednocení velikosti písmen |
+| **doména** | „www.Example.COM“ | „example.com“ | odstranění protokolu a www, sjednocení velikosti písmen |
 
-## Matching Strategies
+## Strategie párování
 
-Entity resolution employs three complementary matching approaches:
-
-| Strategy | Mechanism | Confidence | Speed | Example |
+| Strategie | Mechanismus | Důvěra | Rychlost | Příklad |
 |----------|-----------|-----------|-------|---------|
-| **Deterministic** | Exact match on unique identifiers | Very High (>0.95) | Fast | Same email, same tax ID, same domain |
-| **Probabilistic** | Fuzzy similarity scoring across attributes | Variable (0.5-0.95) | Medium | Similar names + overlapping addresses |
-| **Graph-Based** | Relationship pattern analysis | High (0.7-0.95) | Slow | Shared associates, co-registrations |
+| **deterministická** | přesná shoda jedinečných identifikátorů | velmi vysoká (> 0,95) | rychlá | stejný e-mail, stejné daňové číslo, stejná doména |
+| **pravděpodobnostní** | přibližné skóre podobnosti napříč atributy | proměnlivá (0,5–0,95) | střední | podobná jména + překrývající se adresy |
+| **grafová** | analýza vzorců vztahů | vysoká (0,7–0,95) | pomalá | společní spolupracovníci, společné registrace |
 
-### Deterministic Matching
+### Deterministické párování
 
 ```elixir
 defmodule PrismaticResolution.DeterministicMatcher do
@@ -250,19 +279,18 @@ defmodule PrismaticResolution.DeterministicMatcher do
   end
 end
 ```
+### Pravděpodobnostní párování
 
-### Probabilistic Matching
+Pravděpodobnostní párování počítá vážené skóre podobnosti napříč více atributy:
 
-Probabilistic matching computes weighted similarity scores across multiple attributes:
-
-| Attribute | Similarity Metric | Weight | Threshold |
+| Atribut | Metrika podobnosti | Váha | Práh |
 |-----------|------------------|--------|-----------|
-| **Person Name** | Jaro-Winkler distance | 0.30 | > 0.85 |
-| **Organization** | Token-based Jaccard similarity | 0.25 | > 0.80 |
-| **Address** | Geospatial distance + string similarity | 0.15 | < 500m or > 0.75 |
-| **Phone** | Normalized exact match | 0.10 | Exact after normalization |
-| **Date of Birth** | Exact or partial match | 0.10 | Exact or year+month |
-| **Domain** | Levenshtein + TLD analysis | 0.10 | > 0.90 |
+| **jméno osoby** | vzdálenost Jaro-Winkler | 0,30 | > 0,85 |
+| **organizace** | Jaccardova podobnost tokenů | 0,25 | > 0,80 |
+| **adresa** | geografická vzdálenost + podobnost řetězců | 0,15 | < 500 m nebo > 0,75 |
+| **telefon** | přesná shoda po normalizaci | 0,10 | přesná po normalizaci |
+| **datum narození** | přesná nebo částečná shoda | 0,10 | přesná nebo rok + měsíc |
+| **doména** | Levenshtein + analýza TLD | 0,10 | > 0,90 |
 
 ```elixir
 defmodule PrismaticResolution.ProbabilisticMatcher do
@@ -322,10 +350,10 @@ defmodule PrismaticResolution.ProbabilisticMatcher do
   defp exact_match(a, b), do: if(a == b, do: 1.0, else: 0.0)
 end
 ```
+### Grafové párování
 
-### Graph-Based Matching
-
-Graph-based resolution analyzes relationship patterns in the [Knowledge Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/knowledge-graph/):
+Grafové sjednocování analyzuje vzorce vztahů ve znalostním grafu (srov. [Graph
+Theory](@/glossary/graph-theory.md)):
 
 ```elixir
 defmodule PrismaticResolution.GraphMatcher do
@@ -372,19 +400,19 @@ defmodule PrismaticResolution.GraphMatcher do
   end
 end
 ```
+## Strategie blokování
 
-## Blocking Strategies
+Bez blokování vyžaduje porovnání N záznamů N·(N−1)/2 párových porovnání. Blokování rozdělí
+záznamy do skupin se společným atributem a prostor porovnání dramaticky zmenší:
 
-Without blocking, comparing N records requires N*(N-1)/2 pairwise comparisons. Blocking partitions records into groups that share a common attribute, dramatically reducing the comparison space:
-
-| Blocking Strategy | Mechanism | Reduction | Risk |
+| Strategie | Mechanismus | Zmenšení | Riziko |
 |-------------------|-----------|-----------|------|
-| **Exact Key** | Same first 3 chars of surname | ~100x | Misses misspellings |
-| **Sorted Neighborhood** | Sliding window over sorted keys | ~50x | Window size trade-off |
-| **Canopy** | Cheap distance metric pre-filter | ~200x | Threshold sensitivity |
-| **LSH (Locality-Sensitive Hashing)** | Hash-based approximate matching | ~500x | Probability of missing matches |
-| **Phonetic** | Soundex/Metaphone encoding | ~100x | Language-dependent |
-| **Multi-key** | Union of multiple blocking keys | ~50x | Better recall, more comparisons |
+| **přesný klíč** | stejné první 3 znaky příjmení | ~100× | přehlédne překlepy |
+| **seřazené sousedství** | klouzavé okno nad seřazenými klíči | ~50× | kompromis velikosti okna |
+| **canopy** | předfiltr levnou metrikou vzdálenosti | ~200× | citlivost na práh |
+| **LSH** (*Locality-Sensitive Hashing*) | přibližné párování přes hashe | ~500× | pravděpodobnost přehlédnutí shod |
+| **fonetické** | kódování Soundex/Metaphone | ~100× | závislé na jazyce |
+| **více klíčů** | sjednocení více blokovacích klíčů | ~50× | lepší úplnost, více porovnání |
 
 ```elixir
 defmodule PrismaticResolution.Blocker do
@@ -434,66 +462,67 @@ defmodule PrismaticResolution.Blocker do
   end
 end
 ```
+## Kalibrace důvěry
 
-## Confidence Calibration
+Důvěra musí být kalibrována tak, aby uváděná důvěra odpovídala skutečné přesnosti. Systém,
+který tvrdí důvěru 90 %, má mít pravdu v 90 % případů:
 
-Entity resolution confidence must be calibrated so that stated confidence matches actual accuracy. A system claiming 90% confidence should be correct 90% of the time:
-
-| Confidence Range | Meaning | Action in Prismatic |
+| Rozsah důvěry | Význam | Akce na platformě |
 |-----------------|---------|---------------------|
-| **0.95-1.00** | Near-certain match (deterministic) | Auto-merge into master entity |
-| **0.80-0.95** | High-confidence probabilistic match | Auto-merge with provenance flag |
-| **0.60-0.80** | Candidate match | Queue for analyst review |
-| **0.40-0.60** | Uncertain association | Preserve as candidate, do not merge |
-| **0.00-0.40** | Likely distinct entities | No link created |
+| **0,95–1,00** | téměř jistá shoda (deterministická) | automatické sloučení do hlavní entity |
+| **0,80–0,95** | pravděpodobnostní shoda s vysokou důvěrou | automatické sloučení s příznakem původu |
+| **0,60–0,80** | kandidátní shoda | fronta k revizi analytikem |
+| **0,40–0,60** | nejisté spojení | zachovat jako kandidáta, neslučovat |
+| **0,00–0,40** | pravděpodobně různé entity | propojení se nevytváří |
 
-All confidence scores are subject to [NABLA Infinity](@/glossary/nabla-infinity.md) axiom compliance:
-- **Signal Plurality**: Link must be supported by 2+ independent signals
-- **Provenance Mandatory**: Every contributing match factor must be traceable
-- **Time Decay**: Confidence decreases as source data ages
-- **Contradiction Preservation**: Contradicting evidence is preserved, not discarded
+Všechna skóre důvěry podléhají souladu s axiomy [NABLA Infinity](@/glossary/nabla-infinity.md):
 
-## OSINT Source Integration
+- **Signal Plurality** – propojení musí opírat 2+ nezávislé signály;
+- **Provenance Mandatory** – každý faktor shody musí být dohledatelný;
+- **Time Decay** – důvěra klesá se stárnutím zdrojových dat;
+- **Contradiction Preservation** – protichůdné důkazy se zachovávají, nezahazují.
 
-Entity resolution across OSINT sources presents unique challenges due to source heterogeneity:
+## Integrace zdrojů OSINT
 
-| Source Type | Identifiers Available | Quality | Coverage |
+Sjednocování napříč zdroji OSINT přináší zvláštní obtíže kvůli jejich různorodosti:
+
+| Typ zdroje | Dostupné identifikátory | Kvalita | Pokrytí |
 |------------|----------------------|---------|----------|
-| **Domain WHOIS** | Registrant name, email, org | Declining (GDPR) | Global domains |
-| **Certificate Transparency** | Domain, organization, issuer | High | All public TLS certs |
-| **Business Registry** | Legal name, tax ID, address | High | Jurisdiction-specific |
-| **Social Media** | Username, display name, bio | Variable | Platform-specific |
-| **DNS Records** | Domain, IP, nameservers | High | All public domains |
-| **[Shodan](@/glossary/shodan.md)** | IP, ports, banners, hostnames | High | Internet-facing services |
-| **[Censys](@/glossary/censys.md)** | Certificates, hosts, protocols | High | Internet-wide scanning |
-| **[GreyNoise](@/glossary/greynoise.md)** | IP, classification, tags | High | Internet noise sources |
-| **Czech Registries** | ICO, legal name, officers, address | Very High | Czech Republic |
-| **Sanctions Lists** | Name, aliases, identifiers | High | EU, US, UN coverage |
+| **WHOIS domén** | jméno, e-mail a organizace držitele | klesající (GDPR) | domény po celém světě |
+| **Certificate Transparency** | doména, organizace, vydavatel | vysoká | všechny veřejné certifikáty TLS |
+| **obchodní rejstříky** | právní název, daňové číslo, adresa | vysoká | podle jurisdikce |
+| **sociální sítě** | uživatelské jméno, zobrazované jméno, popis | proměnlivá | podle platformy |
+| **záznamy DNS** | doména, IP, jmenné servery | vysoká | všechny veřejné domény |
+| **[Shodan](@/glossary/shodan.md)** | IP, porty, bannery, jména hostitelů | vysoká | služby dostupné z internetu |
+| **[Censys](@/glossary/censys.md)** | certifikáty, hostitelé, protokoly | vysoká | celointernetové skenování |
+| **[GreyNoise](@/glossary/greynoise.md)** | IP, klasifikace, štítky | vysoká | zdroje internetového šumu |
+| **české rejstříky** | IČO, právní název, statutáři, adresa | velmi vysoká | Česká republika |
+| **sankční seznamy** | jméno, aliasy, identifikátory | vysoká | EU, USA, OSN (viz [Sanctions Screening](@/glossary/sanctions-screening.md)) |
 
-## Cross-Jurisdictional Challenges
+## Obtíže napříč jurisdikcemi
 
-Entity resolution across jurisdictions introduces additional complexity:
-
-| Challenge | Description | Mitigation |
+| Obtíž | Popis | Zmírnění |
 |-----------|-------------|------------|
-| **Name transliteration** | Same name in Latin, Cyrillic, Arabic scripts | Multi-script normalization |
-| **Address formats** | Different postal conventions per country | Country-specific address parsers |
-| **Identifier formats** | Tax IDs, company numbers vary by jurisdiction | Format registry and normalizer |
-| **Privacy regulations** | GDPR, CCPA restrict cross-border data linking | Jurisdiction-aware consent tracking |
-| **Corporate structures** | Subsidiaries, holdings, beneficial ownership | Graph-based corporate tree resolution |
-| **Name conventions** | Patronymics, matronymics, multiple surnames | Culture-aware name parsing |
+| **přepis jmen** | totéž jméno v latince, cyrilici, arabském písmu | normalizace více písem |
+| **formáty adres** | různé poštovní zvyklosti v jednotlivých zemích | parsery adres podle země |
+| **formáty identifikátorů** | daňová čísla a čísla firem se liší podle jurisdikce | registr formátů a normalizátor |
+| **ochrana soukromí** | GDPR, CCPA omezují propojování dat přes hranice | sledování souhlasu podle jurisdikce |
+| **firemní struktury** | dceřiné firmy, holdingy, skuteční majitelé | grafové sjednocení firemního stromu |
+| **zvyklosti pojmenování** | patronyma, matronyma, více příjmení | kulturně citlivé rozebírání jmen |
 
-## Performance Considerations
+## Výkonová hlediska
 
-Entity resolution at scale requires careful performance optimization:
+Sjednocování ve velkém měřítku vyžaduje pečlivou optimalizaci výkonu (orientační hodnoty):
 
-| Scale | Records | Naive Comparisons | With Blocking | Time (approx) |
+| Měřítko | Záznamy | Naivní porovnání | S blokováním | Čas (přibližně) |
 |-------|---------|-------------------|---------------|---------------|
-| Small | 1,000 | 500,000 | 5,000 | < 1 second |
-| Medium | 100,000 | 5 billion | 500,000 | < 1 minute |
-| Large | 10,000,000 | 50 trillion | 50,000,000 | < 1 hour |
+| malé | 1 000 | 500 000 | 5 000 | < 1 sekunda |
+| střední | 100 000 | 5 miliard | 500 000 | < 1 minuta |
+| velké | 10 000 000 | 50 bilionů | 50 000 000 | < 1 hodina |
 
-The Prismatic Platform uses [Broadway](https://prismatic-reality-com.github.io/prismatic-promo/glossary/broadway/) for [stream processing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/stream-processing/) of resolution pipelines, enabling real-time resolution of incoming intelligence as it arrives rather than batch-processing accumulated records.
+Platforma používá pro zpracování procesů sjednocování proudově framework Broadway, takže
+příchozí zpravodajství sjednocuje průběžně v reálném čase místo dávkového zpracování
+nahromaděných záznamů.
 
 ```elixir
 defmodule PrismaticResolution.StreamResolver do
@@ -536,32 +565,27 @@ defmodule PrismaticResolution.StreamResolver do
   end
 end
 ```
+## Související pojmy
 
-## Related Terms
+Bez vlastního hesla v glosáři knihy: *Knowledge Graph* (graf uložených vztahů sjednocených
+entit), *Ontology* (schéma typů entit a kategorií vztahů), *Data Pipeline*, *Confidence
+Scoring*, *Provenance Mandatory*, *Stream Processing* a *Broadway*.
 
-- [Knowledge Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/knowledge-graph/) - Graph structure storing resolved entity relationships
-- [Ontology](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ontology/) - Schema defining entity types and relationship categories
-- [Data Pipeline](https://prismatic-reality-com.github.io/prismatic-promo/glossary/data-pipeline/) - Infrastructure for processing resolution workflows
-- [NABLA Infinity](@/glossary/nabla-infinity.md) - Epistemic framework governing resolution confidence
-- [Trinity Gate](@/glossary/trinity-gate.md) - Verification of resolution assertions
-- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) - Calibrated match confidence assignment
-- [Signal Plurality](@/glossary/signal-plurality.md) - Minimum evidence requirement for entity links
-- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) - Traceability requirement for all resolution evidence
-- [Stream Processing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/stream-processing/) - Real-time resolution pipeline execution
-- [Shodan](@/glossary/shodan.md) - OSINT source providing infrastructure intelligence for resolution
-- [Censys](@/glossary/censys.md) - Certificate and host data for entity correlation
-- [Broadway](https://prismatic-reality-com.github.io/prismatic-promo/glossary/broadway/) - Stream processing framework for resolution pipelines
+## Související
 
-## See Also
+**Platforma**
 
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) - Entity resolution agents in the AIAD ecosystem
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - Intelligence processing architecture
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec důvěry ve sjednocení.
+- [Trinity Gate](@/glossary/trinity-gate.md) – ověření tvrzení o sjednocení.
+- [Signal Plurality](@/glossary/signal-plurality.md) – minimální požadavek na důkazy
+  propojení.
+- [Due Diligence](@/glossary/due-diligence.md) – prověrky, v nichž se sjednocování uplatňuje.
+- [Shodan](@/glossary/shodan.md) a [Censys](@/glossary/censys.md) – zdroje infrastrukturních
+  dat.
 
----
+**Kompendium a etika**
 
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Doxing](@/glossary/doxing.md) – zneužití propojování osobních údajů proti člověku.
+- [OSINT](@/glossary/osint.md) – pravidla práce s otevřenými zdroji.
+- [Pomluva a EA](@/kompendium/forensic-legal/14-defamation-EA.md) – právní rizika chybného
+  přisouzení.

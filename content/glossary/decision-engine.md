@@ -1,89 +1,89 @@
 +++
-title = "Decision Engine"
+title = "Decision Engine (rozhodovací engine)"
 weight = 100
 
-description = "Rule-based or machine learning system producing structured decisions from multi-factor inputs."
+description = "Systém založený na pravidlech nebo strojovém učení, který z vícefaktorových vstupů vytváří strukturovaná rozhodnutí s mírou důvěry; v Kompendiu kalibrace důvěry ve zdroje."
 
 [taxonomies]
-tags = ["glossary", "ai-systems", "interactive"]
+tags = ["glossary", "ai-systems", "prismatic", "decision-core"]
 
 [extra]
 category = "ai-systems"
 related_terms = ["rule-engine", "scoring", "confidence-scoring", "trinity-gate", "inference"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
-quality_score = 35
+date_modified = "2026-11-10"
+quality_score = 70
 +++
 
-## Definition
+## Definice
 
-**Decision engine** is a system component that synthesizes multi-factor inputs (evidence, signals, heuristics) into a structured decision with confidence or priority ranking. Decision engines may be rule-based (deterministic), probabilistic, or neural network-based.
+**Decision engine** (česky *rozhodovací engine*) je součást systému, která slučuje
+vícefaktorové vstupy (důkazy, signály, heuristiky) do strukturovaného rozhodnutí s mírou
+důvěry nebo s pořadím priorit. Rozhodovací enginy mohou být založené na pravidlech
+(deterministické), pravděpodobnostní nebo postavené na neuronových sítích.
 
-The Prismatic Platform embeds decision engines in the [Trinity Gate](@/glossary/trinity-gate.md) verification pipeline and [confidence scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) system. Decision engines balance:
-- Signal quality and provenance
-- Temporal decay of evidence
-- Conflict resolution among contradictory signals
-- User-configurable risk thresholds
+Prismatic Platform, z níž kniha vzešla, zapojuje rozhodovací enginy do ověřovacího procesu
+[Trinity Gate](@/glossary/trinity-gate.md) a do systému skórování důvěry. Rozhodovací
+engine přitom vyvažuje:
 
-See [inference](@/glossary/inference.md) for related reasoning concepts.
+- kvalitu a původ signálu;
+- časové stárnutí důkazů;
+- řešení konfliktů mezi protichůdnými signály;
+- prahy rizika nastavitelné uživatelem.
 
-## See Also
+Jeho technické jádro s uzavřenou kalibrační smyčkou popisuje heslo [Decision
+Core](@/glossary/decision-core.md). Pro související pojmy usuzování viz
+[Inference](@/glossary/inference.md).
 
-- [Glossary index](@/glossary/_index.md)
+## Jak se na engine odvolává Kompendium
 
----
+Mnohá hesla glosáře uvádějí, jak by měl rozhodovací engine zacházet se zdroji, které nesou
+stopy manipulace. Jde o popis zásad platformy, nikoli o tvrzení o lidském úsudku; čtenáři
+mimo platformu poslouží jako příklad toho, jak lze poznatky knihy převést do pravidel
+hodnocení zdrojů:
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+- **Hodnocení zdrojů.** Vstupy z prostředí se zvýšeným skóre podle [BITE
+  modelu](@/glossary/bite-model.md) jsou označeny jako podezřelé co do původu; nepodepsaná
+  audiovizuální média z kanálů s nízkou důvěrou mají nižší váhu (viz
+  [Deepfake](@/glossary/deepfake.md)).
+- **Vzorce odvracení odpovědnosti.** Výpověď se třífázovým podpisem [DARVO](@/glossary/darvo.md)
+  má nižší váhu; původní obvinění se tím nezvyšuje, ale přestává se snižovat.
+- **Výpovědi traumatizovaných osob.** Výpověď přeživších s [C-PTSD](@/glossary/c-ptsd.md)
+  nebo s [disociací](@/glossary/disociace.md) není obsahově méně spolehlivá; její
+  fragmentovaná podoba vyžaduje jiné zpracování, ne nižší důvěru.
+- **Strukturální rizika.** Vztahy s vysokou závislostí (viz [Betrayal
+  trauma](@/glossary/betrayal-trauma.md)) a jednolitá informační strava (viz [Epistemic
+  bubble](@/glossary/epistemic-bubble.md)) snižují důvěru v závěry, aniž by se zkoumal
+  obsah jednotlivých tvrzení.
+- **Delegitimizace.** Náhlé zhroucení reputace dříve důvěryhodných zdrojů se sleduje jako
+  možný znak [delegitimizační kampaně](@/glossary/delegitimizace.md), ne jako běžná revize.
 
-## Manažerské shrnutí
+Podrobně tyto zásady rozvádějí stránky [Decision Engine: kalibrace
+EA](@/kompendium/aiad-integration/decision-engine-ea-calibration.md) a [DD engine: vážení
+zdrojů](@/kompendium/aiad-integration/dd-engine-ea-source-weighting.md); vztah knihy
+k enginu vysvětluje kapitola [Vztah k Decision
+Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md).
 
-**Decision Engine** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Meze
 
+Rozhodovací engine nenahrazuje klinický ani soudní úsudek. Jeho výstupy jsou hypotézy
+s mírou důvěry; u otázek, které se týkají duševního zdraví nebo bezpečí konkrétní osoby,
+mají platit cesty k odborné pomoci, nikoli automatizované závěry.
 
-## Koncepční síť
+## Související
 
-Vizualizace propojení **Decision Engine** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+**Platforma**
 
-```mermaid
-graph TD
-    C0["Decision Engine"]
-    N1["Adversarial Conditions"]
-    N2["ACID Transactions"]
-    N3["Actor Model"]
-    N4["Adversarial Drift"]
-    N5["3NL"]
-    N6["Access Control"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+- [Decision Core](@/glossary/decision-core.md) – kalibrační jádro rozhodovacího procesu.
+- [Trinity Gate](@/glossary/trinity-gate.md) – ověřovací proces s rozhodovacími enginy.
+- [Inference](@/glossary/inference.md) – usuzování z důkazů.
+- [Risk Score](@/glossary/risk-score.md) – skóre rizika jako vstup rozhodnutí.
 
-## Související pojmy
+**Kompendium**
 
-- [Adversarial Conditions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-conditions/) — slug `adversarial-conditions`
-- [ACID Transactions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/acid-transactions/) — slug `acid-transactions`
-- [Actor Model](https://prismatic-reality-com.github.io/prismatic-promo/glossary/actor-model/) — slug `actor-model`
-- [Adversarial Drift](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-drift/) — slug `adversarial-drift`
-- [3NL](@/glossary/3nl.md) — slug `3nl`
-- [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/) — slug `access-control`
-
-## Navigace
-
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+- [Vztah k Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md) – jak kniha
+  s enginem souvisí.
+- [Decision Engine: kalibrace EA](@/kompendium/aiad-integration/decision-engine-ea-calibration.md)
+  – kalibrace důvěry s ohledem na techniky EA.
+- [Glosář](@/glossary/_index.md) – rejstřík hesel.

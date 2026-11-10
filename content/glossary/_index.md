@@ -1,195 +1,376 @@
 +++
-title = "Glossary"
-description = "Comprehensive terminology reference with 225+ defined terms covering architecture, doctrine, agents, intelligence, security, epistemic frameworks, distributed systems, and formal verification"
+title = "Glosář"
+description = "Terminologický rejstřík Kompendia: pojmy epistemické anihilace, kliniky, filozofie a manipulace i pojmy platformy (architektura, agenti, zpravodajství, bezpečnost)."
 sort_by = "title"
 template = "glossary/list.html"
 page_template = "glossary/detail.html"
 
 [extra]
 author = "Tomas Korcak (korczis)"
-reading_time = "15 min"
-word_count = 2500
+reading_time = "16 min"
 difficulty = "beginner"
 image = "/images/sections/glossary.png"
-image_alt = "Prismatic Platform terminology and glossary reference"
+image_alt = "Glosář Kompendia a terminologie Prismatic Platform"
 og_type = "article"
 twitter_card = "summary_large_image"
 academic_tier = "documentation"
-content_version = "3.0.0"
-last_enhanced = "2026-02-12"
+content_version = "3.1.0"
+last_enhanced = "2026-11-10"
 quality_score = 98
 related_articles = ["3nl", "aiad", "nabla"]
 glossary_terms = ["glossary", "terminology", "cross-reference"]
-keywords = ["platform terminology reference", "technical glossary definitions", "OSINT terminology guide", "Elixir OTP glossary", "cybersecurity terms defined", "epistemic framework vocabulary", "distributed systems glossary", "AI agent terminology"]
+keywords = ["glosář", "terminologie", "epistemická anihilace", "OSINT", "Elixir OTP", "kybernetická bezpečnost", "epistemický rámec", "agenti AI"]
 tags = ["glossary", "terminology", "reference", "documentation"]
 see_also = ["architecture", "capabilities", "agents"]
 total_terms = 225
-categories_count = 7
-date_modified = "2026-02-23"
+categories_count = 8
+date_modified = "2026-11-10"
 +++
 
-Comprehensive terminology reference for the Prismatic Platform. 225+ defined terms spanning architecture, doctrine, agents, intelligence, security, epistemic frameworks, and core technologies -- each with formal definitions, contextual usage, and cross-references to related concepts.
+Terminologický rejstřík Kompendia epistemické a kognitivní anihilace. Glosář vznikl jako
+terminologická vrstva Prismatic Platform, z níž kniha vzešla (původně 225+ hesel v sedmi
+kategoriích: architektura, doktrína, agenti, zpravodajství, bezpečnost, epistemika
+a technologie); postupně do něj přibyla hesla samotné knihy – pojmy epistemické anihilace,
+kliniky traumatu, filozofie poznání a manipulačních vzorců. Každé heslo obsahuje definici,
+kontext a odkazy na související pojmy.
 
-## Abstract
+## Abstrakt
 
-The Prismatic Platform operates at the intersection of multiple technical domains: distributed systems engineering, open-source intelligence, epistemic reasoning, autonomous agent orchestration, and external attack surface management. Each domain brings its own vocabulary, and the platform itself introduces novel concepts that have no established definitions elsewhere. This glossary serves as the authoritative terminology reference, providing precise definitions for 225+ terms organized across seven categories. Every term page follows a uniform structure -- Definition, Context, See Also -- ensuring that readers can navigate from any entry point to a coherent understanding of the platform's conceptual landscape.
+Prismatic Platform působí na průsečíku několika technických oborů: inženýrství
+distribuovaných systémů, zpravodajství z otevřených zdrojů, epistemického usuzování,
+orchestrace autonomních agentů a správy vnější útočné plochy. Každý obor přináší vlastní
+slovník a platforma k tomu zavádí nové pojmy, které jinde nemají ustálenou definici.
+Kompendium přidává další vrstvu: psychologii a psychiatrii traumatu, filozofii poznání
+a jazyka, sociologii kontroly a právo. Glosář slouží jako autoritativní terminologický
+rejstřík s přesnými definicemi uspořádanými do kategorií. Hesla sledují jednotnou strukturu,
+takže čtenář se může z kteréhokoli vstupního bodu dopracovat k souvislému porozumění.
 
-The glossary is not a static dictionary. It is a living reference that evolves alongside the platform. New terms are added as capabilities emerge, existing definitions are refined as understanding deepens, and cross-references are maintained to preserve the semantic network that connects individual concepts into a unified whole.
+Glosář není statickým slovníkem. Je to živý rejstřík, který se vyvíjí spolu s knihou
+i platformou: přibývají nová hesla, definice se zpřesňují a křížové odkazy udržují
+sémantickou síť, která spojuje jednotlivé pojmy v celek.
 
-## Introduction
+## Úvod
 
-### Why Terminology Matters
+### Proč na terminologii záleží
 
-Large-scale software platforms accumulate terminology at a rate that outpaces informal documentation. Without a structured glossary, the same concept acquires multiple names across different subsystems, new contributors misinterpret established terms, and architectural discussions devolve into disagreements about definitions rather than substance.
+Rozsáhlé projekty hromadí terminologii rychleji, než ji stačí neformální dokumentace
+zachytit. Bez strukturovaného glosáře získá tentýž pojem v různých částech různá jména, noví
+přispěvatelé si ustálené výrazy vykládají chybně a odborné diskuse se mění ve spory
+o definice místo o podstatu.
 
-The Prismatic Platform is particularly susceptible to terminological drift for three reasons. First, it spans multiple technical domains -- Elixir/OTP, OSINT, cybersecurity, epistemic logic, formal verification -- each with its own established vocabulary. Second, the platform introduces novel concepts (NABLA Infinity, Trinity Gate, 3NL Framework, Color Teams) that have no external definitions to reference. Third, the platform's 404+ autonomous agents, 210+ commands, and 90 OTP applications create a combinatorial explosion of named entities that must be distinguished from one another.
+Platforma byla vůči terminologickému posunu zvlášť zranitelná ze tří důvodů. Za prvé
+zasahuje do více oborů – Elixir/OTP, OSINT, kybernetická bezpečnost, epistemická logika,
+formální verifikace –, z nichž každý má vlastní ustálený slovník. Za druhé zavádí nové pojmy
+([NABLA Infinity](@/glossary/nabla-infinity.md), [Trinity Gate](@/glossary/trinity-gate.md),
+[3NL](@/glossary/3nl.md), [Color Teams](@/glossary/color-teams.md)), které nemají vnější
+definice, na něž by šlo odkázat. Za třetí její autonomní agenti, příkazy a aplikace OTP
+(v době zápisu 404+ agentů, 210+ příkazů a 90 aplikací) vytvářejí kombinatorickou explozi
+pojmenovaných entit, které je třeba od sebe rozlišit.
 
-This glossary addresses these challenges by providing a single, authoritative source of definitions. Each term is assigned to exactly one of seven categories, given a formal definition grounded in its implementation, and linked to related terms through explicit cross-references.
+U knihy platí totéž s jiným obsahem: pojmy jako [gaslighting](@/glossary/gaslighting.md),
+[coercive control](@/glossary/coercive-control.md) nebo [disociace](@/glossary/disociace.md)
+mají v psychologii, psychiatrii, právu i běžné řeči odlišné významy. Glosář je ukotvuje
+v literatuře a odlišuje je od příbuzných pojmů. Přesná terminologie je zde i obranou:
+manipulace často pracuje právě s posouváním významu slov (srov. [Motte and
+Bailey](@/glossary/motte-and-bailey.md)).
 
-### Knowledge Management Architecture
+### Architektura správy znalostí
 
-The glossary operates as the terminological layer of a broader knowledge management system. Terms defined here are referenced throughout all platform documentation -- architecture guides, capability descriptions, agent specifications, and tutorial content. The cross-reference system ensures that a reader encountering an unfamiliar term in any document can trace it back to its canonical definition and from there navigate to related concepts.
+Glosář je terminologickou vrstvou širšího systému správy znalostí. Na hesla odkazují
+kapitoly Kompendia, technické stránky, kazuistiky i protokoly. Systém křížových odkazů
+zajišťuje, že čtenář, který narazí na neznámý pojem v jakémkoli dokumentu, jej může dohledat
+k jeho kanonické definici a odtud přejít k souvisejícím pojmům.
 
-The relationship between the glossary and other documentation sections is bidirectional. Architecture pages reference glossary terms for precise definitions. Glossary term pages reference architecture pages for deeper technical context. This bidirectional linking creates a navigable knowledge graph rather than a linear document hierarchy.
+Vztah mezi glosářem a ostatními oddíly je obousměrný: kapitoly odkazují na hesla kvůli
+přesným definicím, hesla odkazují na kapitoly kvůli hlubšímu kontextu. Vzniká tak
+procházitelný graf znalostí místo lineární hierarchie dokumentů; jeho podobu ukazuje [mapa
+knihy](@/kompendium/konceptualni-mapa/_index.md).
 
-## Term Categories
+## Kategorie hesel
 
-The 225+ glossary terms are organized into seven categories. Each category represents a distinct conceptual domain within the platform, though significant cross-referencing exists between categories.
+Hesla jsou uspořádána do kategorií; každá představuje samostatnou pojmovou oblast, mezi
+kategoriemi však existuje mnoho křížových odkazů. Kategorie 1–7 pocházejí z platformy
+(uvedené počty jsou z doby jejího zápisu), kategorie 8 sdružuje hesla Kompendia.
 
-### 1. Architecture (22 terms)
+### 1. Architektura (22 hesel)
 
-Terms describing the platform's structural design, runtime environment, and deployment topology. This category covers the foundational building blocks -- from the BEAM virtual machine and OTP supervision trees up through the umbrella application structure and storage adapter layer.
+Pojmy popisující strukturální návrh platformy, běhové prostředí a topologii nasazení – od
+virtuálního stroje BEAM a stromů supervize OTP po strukturu aplikací umbrella projektu
+a vrstvu adaptérů úložiště.
 
-**Representative terms**: [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/), [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/), [Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/), [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/), [ETS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ets/), [3NL Framework](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/), [Adapter Pattern](@/glossary/adapter-pattern.md), [Umbrella Application](https://prismatic-reality-com.github.io/prismatic-promo/glossary/umbrella/), [Process Isolation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/process-isolation/), [Message Passing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/message-passing/)
+**Příklady:** BEAM, OTP, Supervisor, GenServer, ETS, [3NL](@/glossary/3nl.md), [Adapter
+Pattern](@/glossary/adapter-pattern.md), [Bounded Context](@/glossary/bounded-context.md),
+Umbrella Application, Process Isolation, Message Passing.
 
-Architecture terms form the vocabulary needed to understand how the platform's 90 OTP applications are organized, supervised, and interconnected. A reader who understands these terms can follow any architectural discussion in the platform documentation.
+Architektonické pojmy tvoří slovník potřebný k porozumění tomu, jak jsou aplikace OTP
+platformy uspořádány, supervidovány a propojeny.
 
-### 2. Doctrine (15 terms)
+### 2. Doktrína (15 hesel)
 
-Terms describing the platform's operational philosophy, quality enforcement, and governance principles. The doctrine category defines the rules under which all development, testing, and deployment occurs -- from the NO MERCY/NO DOUBTS quality mandate to the specific violation protocols that enforce it.
+Pojmy popisující provozní filozofii platformy, vynucování kvality a principy správy – od
+mandátu kvality NO MERCY / NO DOUBTS po protokoly porušení, které jej vynucují.
 
-**Representative terms**: [NM/ND (No Mercy, No Doubts)](@/glossary/nm-nd.md), [Clean Run](@/glossary/clean-run.md), [Zero-Warning Policy](@/glossary/zero-warning-policy.md), [Violation Protocol](@/glossary/violation-protocol.md), [Regression Test](@/glossary/regression-test.md), [Session Discipline](@/glossary/session-discipline.md), [Quality Debt](@/glossary/quality-debt.md), [QDP](@/glossary/qdp.md)
+**Příklady:** [NM/ND](@/glossary/nm-nd.md), [Clean Run](@/glossary/clean-run.md), [Zero
+Warning Policy](@/glossary/zero-warning-policy.md), [Violation
+Protocol](@/glossary/violation-protocol.md), [Regression Test](@/glossary/regression-test.md),
+[Session Discipline](@/glossary/session-discipline.md), [Quality
+Debt](@/glossary/quality-debt.md), [QDP](@/glossary/qdp.md).
 
-Doctrine terms are essential for understanding why certain development practices are enforced. They describe not just what the platform does, but the principles that govern how it is built and maintained.
+Doktrinální pojmy vysvětlují, proč jsou některé vývojářské postupy vynucovány – nejen co
+platforma dělá, ale podle jakých principů se staví a udržuje.
 
-### 3. Agent (18 terms)
+### 3. Agenti (18 hesel)
 
-Terms describing the platform's autonomous agent ecosystem, including agent classification, orchestration patterns, and the AIAD specification standard. The Prismatic Platform operates 404+ agents across 14 domains, each defined by a formal AIAD specification that declares its authority level, capabilities, and operational constraints.
+Pojmy popisující ekosystém autonomních agentů včetně jejich klasifikace, vzorců orchestrace
+a standardu specifikace AIAD.
 
-**Representative terms**: [AIAD](@/glossary/aiad.md), [Agent](@/glossary/agent.md), [Agent Tier](@/glossary/agent-tier.md), [Agent Registry](@/glossary/agent-registry.md), [Archer Supreme](@/glossary/archer-supreme.md), [Supreme Commander](@/glossary/supreme-commander.md), [Strategic Command](@/glossary/strategic-command.md), [Tactical Execution](@/glossary/tactical-execution.md), [Autoevolve](@/glossary/autoevolve.md), [Autoheal](@/glossary/autoheal.md)
+**Příklady:** [AIAD](@/glossary/aiad.md), [Agent](@/glossary/agent.md), [Agent
+Tier](@/glossary/agent-tier.md), [Agent Registry](@/glossary/agent-registry.md), [Archer
+Supreme](@/glossary/archer-supreme.md), [Supreme Commander](@/glossary/supreme-commander.md),
+[Strategic Command](@/glossary/strategic-command.md), [Tactical
+Execution](@/glossary/tactical-execution.md), [AutoEvolve](@/glossary/autoevolve.md),
+[AutoHeal](@/glossary/autoheal.md).
 
-Agent terms describe the platform's most distinctive capability: a hierarchical system of autonomous agents that range from L1 tactical specialists to L5 supreme authority commanders, all governed by a uniform specification standard.
+Hesla popisují nejvýraznější schopnost platformy: hierarchický systém autonomních agentů od
+taktických specialistů L1 po velitele nejvyššího oprávnění L5, řízený jednotným standardem
+specifikace.
 
-### 4. Intelligence (16 terms)
+### 4. Zpravodajství (16 hesel)
 
-Terms from the open-source intelligence (OSINT) and due diligence domains, covering data collection methodologies, source types, analytical techniques, and intelligence fusion patterns. These terms originate from the intelligence community but are adapted for the platform's automated OSINT operations.
+Pojmy z oblasti OSINT a prověrek: metodiky sběru dat, typy zdrojů, analytické techniky
+a vzorce slučování zpravodajství.
 
-**Representative terms**: [OSINT](@/glossary/osint.md), [EASM](@/glossary/easm.md), [HAWKEYE](@/glossary/hawkeye.md), [Intelligence Fusion](@/glossary/intelligence-fusion.md), [Entity Resolution](@/glossary/entity-resolution.md), [Sanctions Screening](@/glossary/sanctions-screening.md), [Risk Score](@/glossary/risk-score.md), [Shodan](@/glossary/shodan.md), [Censys](@/glossary/censys.md), [GreyNoise](@/glossary/greynoise.md)
+**Příklady:** [OSINT](@/glossary/osint.md), [EASM](@/glossary/easm.md),
+[HAWKEYE](@/glossary/hawkeye.md), [Intelligence Fusion](@/glossary/intelligence-fusion.md),
+[Entity Resolution](@/glossary/entity-resolution.md), [Sanctions
+Screening](@/glossary/sanctions-screening.md), [Risk Score](@/glossary/risk-score.md),
+[Due Diligence](@/glossary/due-diligence.md), [Shodan](@/glossary/shodan.md),
+[Censys](@/glossary/censys.md), [GreyNoise](@/glossary/greynoise.md).
 
-Intelligence terms bridge the gap between traditional OSINT methodology and the platform's automated implementation. A reader familiar with intelligence analysis will recognize these terms; a reader from a software engineering background will find them defined in implementable terms.
+Zpravodajské pojmy propojují tradiční metodiku OSINT s automatizovanou implementací
+platformy.
 
-### 5. Security (14 terms)
+### 5. Bezpečnost (14 hesel)
 
-Terms describing the platform's security architecture, including the Color Team adversarial-defensive framework, role-based access control, attack surface analysis, and epistemic security concepts. Security terms in this glossary extend beyond traditional application security to include the epistemic dimension -- protecting the integrity of the platform's knowledge and belief systems.
+Pojmy popisující bezpečnostní architekturu: adversariálně-obranný rámec Color Teams, řízení
+přístupu podle rolí, analýzu útočné plochy a pojmy epistemické bezpečnosti. Bezpečnost zde
+přesahuje tradiční bezpečnost aplikací o epistemický rozměr – ochranu integrity vědění
+a přesvědčení.
 
-**Representative terms**: [Color Teams](@/glossary/color-teams.md), [Red Team](@/glossary/red-team.md), [Blue Team](@/glossary/blue-team.md), [Purple Team](@/glossary/purple-team.md), [Gray Team](@/glossary/gray-team.md), [White Team](@/glossary/white-team.md), [Black Team](@/glossary/black-team.md), [RBAC](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rbac/), [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/)
+**Příklady:** [Color Teams](@/glossary/color-teams.md), [Red Team](@/glossary/red-team.md),
+[Blue Team](@/glossary/blue-team.md), [Purple Team](@/glossary/purple-team.md), [Gray
+Team](@/glossary/gray-team.md), [White Team](@/glossary/white-team.md), [Black
+Team](@/glossary/black-team.md), [Compliance Framework](@/glossary/compliance-framework.md),
+[Epistemic Security](@/glossary/epistemic-security.md).
 
-The Color Team terms deserve particular attention. While Red Team and Blue Team are established security concepts, the platform extends the model to six teams (Gray, Red, Blue, Purple, White, Black) with specific epistemic functions that go beyond traditional penetration testing and defense.
+Zvláštní pozornost si zaslouží barevné týmy. Red Team a Blue Team jsou zavedené bezpečnostní
+pojmy; platforma model rozšiřuje na šest týmů se specifickými epistemickými funkcemi, které
+jdou nad rámec tradičního penetračního testování a obrany.
 
-### 6. Epistemic (18 terms)
+### 6. Epistemika platformy (18 hesel)
 
-Terms from the platform's epistemic framework, covering belief formation, knowledge validation, formal verification, and the NABLA Infinity axiom system. This category contains the most novel terminology in the glossary -- concepts that are specific to the Prismatic Platform's approach to computational epistemology.
+Pojmy epistemického rámce platformy: utváření přesvědčení, ověřování vědění, formální
+verifikace a systém axiomů NABLA Infinity. Tato kategorie obsahuje nejvíce nových pojmů –
+specifických pro přístup platformy k výpočetní epistemologii.
 
-**Representative terms**: [NABLA Infinity](@/glossary/nabla-infinity.md), [Trinity Gate](@/glossary/trinity-gate.md), [Epistemic Pipeline](@/glossary/epistemic-pipeline.md), [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/), [Signal Plurality](@/glossary/signal-plurality.md), [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/), [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/), [QEVE](@/glossary/qeve.md), [Fitness Score](https://prismatic-reality-com.github.io/prismatic-promo/glossary/fitness-score/)
+**Příklady:** [NABLA Infinity](@/glossary/nabla-infinity.md), [NABLA
+Axioms](@/glossary/nabla-axioms.md), [Trinity Gate](@/glossary/trinity-gate.md), [Epistemic
+Pipeline](@/glossary/epistemic-pipeline.md), [Signal Plurality](@/glossary/signal-plurality.md),
+[QEVE](@/glossary/qeve.md), [Addiction Recovery](@/glossary/addiction-recovery.md), [Decision
+Engine](@/glossary/decision-engine.md), [Decision Core](@/glossary/decision-core.md).
 
-Epistemic terms are foundational for understanding how the platform differs from conventional software systems. Traditional platforms process data; the Prismatic Platform forms beliefs about data and subjects those beliefs to formal verification before acting on them.
+Tyto pojmy ukazují, čím se platforma liší od běžných softwarových systémů: nezpracovává jen
+data, ale utváří o datech přesvědčení a ta před jednáním podrobuje formálnímu ověření.
 
-### 7. Technology (24 terms)
+### 7. Technologie (24 hesel)
 
-Terms describing the specific technologies, libraries, tools, and external services that compose the platform's technology stack. This category covers everything from programming languages and frameworks to databases, search engines, and deployment infrastructure.
+Pojmy popisující konkrétní technologie, knihovny, nástroje a vnější služby technologického
+zásobníku platformy – od programovacích jazyků a frameworků po databáze, vyhledávače
+a infrastrukturu nasazení (Elixir, Phoenix, LiveView, Ecto, PostgreSQL, Meilisearch, KuzuDB,
+Redis, Docker, Lean4, Ollama, Hex, Mix, Credo, Dialyzer). Většina z nich nemá v glosáři knihy
+vlastní heslo; zmiňují se v kontextu hesel platformy.
 
-**Representative terms**: [Elixir](https://prismatic-reality-com.github.io/prismatic-promo/glossary/elixir/), [Phoenix](https://prismatic-reality-com.github.io/prismatic-promo/glossary/phoenix/), [LiveView](https://prismatic-reality-com.github.io/prismatic-promo/glossary/liveview/), [Ecto](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ecto/), [PostgreSQL](https://prismatic-reality-com.github.io/prismatic-promo/glossary/postgresql/), [Meilisearch](https://prismatic-reality-com.github.io/prismatic-promo/glossary/meilisearch/), [KuzuDB](https://prismatic-reality-com.github.io/prismatic-promo/glossary/kuzudb/), [Redis](https://prismatic-reality-com.github.io/prismatic-promo/glossary/redis/), [Docker](https://prismatic-reality-com.github.io/prismatic-promo/glossary/docker/), [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/), [Ollama](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ollama/), [Hex](https://prismatic-reality-com.github.io/prismatic-promo/glossary/hex/), [Mix](https://prismatic-reality-com.github.io/prismatic-promo/glossary/mix/), [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/), [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/)
+### 8. Pojmy Kompendia
 
-Technology terms serve as a bridge between the platform's domain-specific vocabulary and the broader software engineering ecosystem. A developer joining the project can start with these familiar terms and navigate outward to the platform-specific concepts they connect to.
+Hesla samotné knihy: fenomény, které narušují schopnost člověka poznávat a udržet si souvislý
+obraz skutečnosti, a pojmy potřebné k jejich rozpoznání, prevenci a léčbě. Píší se podle
+jednotného schématu (definice, původ pojmu, projevy, mechanismus, odlišení, význam pro
+Kompendium, obrana a zotavení, literatura, související).
 
-## Architecture Terms -- Expanded Overview
+**Ústřední pojmy:** [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní
+anihilace](@/glossary/kognitivni-anihilace.md), [Metakognitivní
+destrukce](@/glossary/metakognitivni-destrukce.md), [Taxonomie EA](@/glossary/taxonomie-ea.md),
+[Kompendium EA](@/glossary/kompendium-ea.md), [Anihilační
+fenomény](@/glossary/anihilacni-fenomeny.md), [Anankastický
+režim](@/glossary/anankasticky-rezim.md).
 
-Architecture terms define the structural vocabulary of the platform. The most fundamental term is **BEAM** (Bogdan/Bjorn's Erlang Abstract Machine), the virtual machine on which all Elixir code executes. The BEAM provides preemptive scheduling, per-process garbage collection, and soft real-time guarantees that underpin every other architectural decision.
+**Manipulační vzorce:** [Gaslighting](@/glossary/gaslighting.md), [DARVO](@/glossary/darvo.md),
+[Coercive Control](@/glossary/coercive-control.md), [BITE model](@/glossary/bite-model.md),
+[Double bind](@/glossary/double-bind.md), [Delegitimizace](@/glossary/delegitimizace.md),
+[Love Bombing](@/glossary/love-bombing.md), [Firehose of
+Falsehood](@/glossary/firehose-of-falsehood.md).
 
-Built on the BEAM is **OTP** (Open Telecom Platform), the framework library that provides supervision trees, generic server behaviours, and distributed systems primitives. OTP is not optional infrastructure -- it is the defining architectural pattern. Every stateful component in the platform lives inside a supervised process tree.
+**Klinika a trauma:** [Betrayal trauma](@/glossary/betrayal-trauma.md),
+[C-PTSD](@/glossary/c-ptsd.md), [Komplexní trauma](@/glossary/complex-trauma.md),
+[Disociace](@/glossary/disociace.md), [Ego death](@/glossary/ego-death.md), [Default mode
+network](@/glossary/default-mode-network.md).
 
-The **3NL Framework** (Three Nested Levels) organizes these architectural components into three abstraction tiers: Level 1 (operational compliance), Level 2 (strategic coordination), and Level 3 (systemic emergence). This layering ensures that implementation details do not leak across boundaries and that each level interacts only with appropriate abstractions.
+**Filozofie a epistemologie:** [Komunikativní
+racionalita](@/glossary/communicative-rationality.md), [Différance](@/glossary/differance.md),
+[Embodied cognition](@/glossary/embodied-cognition.md), [Epistemická
+injustice](@/glossary/epistemicka-injustice.md), [Fenomenologie](@/glossary/fenomenologie.md),
+[Hermeneutika](@/glossary/hermeneutika.md).
 
-Key OTP primitives in the glossary include **GenServer** (the generic server behaviour for stateful processes), **Supervisor** (the process that monitors and restarts child processes), **Dynamic Supervisor** (for runtime-spawned children), **ETS** (Erlang Term Storage for in-memory key-value operations), and **Registry** (process name registration and lookup).
+**Informační prostředí:** [Epistemic bubble](@/glossary/epistemic-bubble.md),
+[Deepfake](@/glossary/deepfake.md), [Deplatforming](@/glossary/deplatforming.md), [Epistemic
+security](@/glossary/epistemic-security.md), [Dual-use poznání](@/glossary/dual-use-poznani.md).
 
-## Doctrine Terms -- Expanded Overview
+**Právo a forenzní praxe:** [Chain of custody](@/glossary/chain-of-custody.md), [Forensic
+Interview](@/glossary/forensic-interview.md), [Expert Witness](@/glossary/expert-witness.md),
+[Pattern Evidence](@/glossary/pattern-evidence.md), [Undue
+Influence](@/glossary/undue-influence.md).
 
-The platform's doctrine vocabulary centers on **NO MERCY, NO DOUBTS (NM/ND)**, the quality enforcement philosophy that governs all development. NO MERCY mandates zero tolerance for incomplete implementations, untested code, and quality violations. NO DOUBTS mandates full investigation before action and evidence-based verification of all results.
+## Architektonické pojmy – rozšířený přehled
 
-Supporting NM/ND are operational terms like **Clean Run** (compilation with zero warnings, all tests passing, all quality gates satisfied), **Zero-Warning Policy** (the compile-time enforcement that treats warnings as errors), and **Violation Protocol** (the L1-L4 escalation ladder for doctrine breaches).
+Architektonické pojmy definují strukturní slovník platformy. Nejzákladnějším pojmem je
+**BEAM** (Bogdan/Björn's Erlang Abstract Machine), virtuální stroj, na němž běží veškerý kód
+Elixiru. BEAM poskytuje preemptivní plánování, sběr odpadu pro každý proces zvlášť a záruky
+měkkého reálného času, na nichž stojí každé další architektonické rozhodnutí.
 
-**Quality Debt (QDP)** refers to accumulated quality violations tracked and eliminated through automated scanning. The platform maintains zero QDP through continuous enforcement. **Regression Test** describes the mandatory protocol requiring every bug fix to include a test that would have caught the original bug.
+Na BEAM stojí **OTP** (Open Telecom Platform), knihovna, která poskytuje stromy supervize,
+obecná chování serverů a primitiva distribuovaných systémů. OTP není volitelná
+infrastruktura – je určujícím architektonickým vzorem. Každá stavová součást platformy žije
+v supervidovaném stromu procesů.
 
-## Agent Terms -- Expanded Overview
+Rámec **3NL** (Three Nested Levels) uspořádává tyto součásti do tří úrovní abstrakce:
+úroveň 1 (provozní soulad), úroveň 2 (strategická koordinace) a úroveň 3 (systémová
+emergence) – podrobnosti a jiný výklad úrovní uvádí heslo [3NL](@/glossary/3nl.md). Vrstvení
+zajišťuje, že implementační podrobnosti nepronikají přes hranice a každá úroveň pracuje jen
+s odpovídajícími abstrakcemi.
 
-The **AIAD** (AI-Agent Interface Definition) standard governs all 404+ agents. Each agent is classified into an **Agent Tier** from L1 (tactical specialist) through L5 (supreme authority). The **Agent Registry** serves as the central catalog, ETS-cached for O(1) lookup at runtime.
+Klíčová primitiva OTP v glosáři: **GenServer** (obecné chování pro stavové procesy),
+**Supervisor** (proces, který sleduje a restartuje podřízené procesy), **Dynamic Supervisor**
+(pro procesy vytvářené za běhu), **ETS** (Erlang Term Storage pro operace klíč–hodnota
+v paměti) a **Registry** (registrace a vyhledávání jmen procesů).
 
-At the apex of the agent hierarchy sits **Archer Supreme**, the L5 strategic analysis agent that coordinates multi-domain operations. Below it, **Supreme Commander** agents direct domain-level strategy, while **Strategic Command** and **Tactical Execution** agents handle progressively more focused operations.
+## Doktrinální pojmy – rozšířený přehled
 
-**Autoevolve** and **Autoheal** describe the platform's self-improvement mechanisms. Autoevolve scans for optimization opportunities and applies them autonomously. Autoheal detects quality regressions and repairs them without human intervention.
+Doktrinální slovník platformy se soustředí kolem **[NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md) (NM/ND)**, filozofie
+vynucování kvality, jíž se řídí veškerý vývoj. NO MERCY požaduje nulovou toleranci
+k neúplným implementacím, netestovanému kódu a porušením kvality. NO DOUBTS požaduje úplné
+prošetření před akcí a ověření všech výsledků na základě důkazů.
 
-## Intelligence Terms -- Expanded Overview
+NM/ND doplňují provozní pojmy jako **Clean Run** (kompilace s nulou varování, všechny testy
+úspěšné, všechny brány kvality splněny), **Zero Warning Policy** (vynucení při kompilaci,
+které bere varování jako chyby) a **Violation Protocol** (eskalační žebříček L1–L4 při
+porušení doktríny).
 
-**OSINT** (Open Source Intelligence) is the collection and analysis of publicly available information. The platform automates OSINT through 250+ data source adapters, combining results through **Intelligence Fusion** -- the synthesis of signals from multiple independent sources into unified analytical products.
+**Quality Debt (QDP)** označuje nahromaděná porušení kvality, sledovaná a odstraňovaná
+automatickým prohledáváním; platforma udržuje nulové QDP průběžným vynucováním. **Regression
+Test** popisuje povinný postup, podle něhož musí každá oprava chyby obsahovat test, který by
+původní chybu zachytil.
 
-**EASM** (External Attack Surface Management) is the security discipline implemented by the Prismatic Perimeter application. It discovers, catalogs, and monitors an organization's internet-facing assets, assigning **Risk Scores** based on observed vulnerabilities and configuration weaknesses.
+## Pojmy agentů – rozšířený přehled
 
-**Entity Resolution** addresses the challenge of determining whether records from different sources refer to the same real-world entity. **Sanctions Screening** checks resolved entities against regulatory sanctions lists. Together, these capabilities form the due diligence pipeline.
+Standard **AIAD** řídí všechny agenty platformy. Každý agent je zařazen do úrovně **Agent
+Tier** od L1 (taktický specialista) po L5 (nejvyšší oprávnění). **Agent Registry** slouží
+jako centrální katalog s mezipamětí ETS pro vyhledání v O(1) za běhu.
 
-External intelligence services referenced in the glossary include **Shodan** (internet-connected device search), **Censys** (internet-wide scanning and certificate transparency), and **GreyNoise** (internet background noise analysis).
+Na vrcholu hierarchie stojí **Archer Supreme**, agent L5 pro strategickou analýzu, který
+koordinuje operace napříč doménami. Pod ním řídí agenti **Supreme Commander** strategii na
+úrovni domén, zatímco agenti **Strategic Command** a **Tactical Execution** zvládají stále
+užší operace.
 
-## Security Terms -- Expanded Overview
+**AutoEvolve** a **AutoHeal** popisují mechanismy sebezlepšování platformy. AutoEvolve hledá
+příležitosti k optimalizaci a autonomně je aplikuje; AutoHeal odhaluje regrese kvality
+a opravuje je bez lidského zásahu.
 
-The **Color Teams** framework organizes security operations into six specialized teams, each with distinct responsibilities:
+## Zpravodajské pojmy – rozšířený přehled
 
-| Team | Function | Glossary Entry |
+**OSINT** (zpravodajství z otevřených zdrojů) je sběr a analýza veřejně dostupných
+informací. Platforma jej automatizuje stovkami adaptérů datových zdrojů a výsledky spojuje
+**slučováním zpravodajství** (*Intelligence Fusion*) – syntézou signálů z více nezávislých
+zdrojů do jednotných analytických výstupů.
+
+**EASM** je bezpečnostní disciplína, kterou implementuje aplikace Prismatic Perimeter.
+Objevuje, katalogizuje a sleduje aktiva organizace dostupná z internetu a přiřazuje jim
+**skóre rizika** podle pozorovaných zranitelností a slabin konfigurace.
+
+**Entity Resolution** řeší, zda záznamy z různých zdrojů patří téže skutečné entitě.
+**Sanctions Screening** porovnává sjednocené entity se sankčními seznamy. Dohromady tvoří
+proces prověrky (due diligence).
+
+Z vnějších zpravodajských služeb glosář uvádí **Shodan** (vyhledávání zařízení připojených
+k internetu), **Censys** (celointernetové skenování a transparentnost certifikátů)
+a **GreyNoise** (analýza internetového „šumu na pozadí“).
+
+## Bezpečnostní pojmy – rozšířený přehled
+
+Rámec **Color Teams** uspořádává bezpečnostní operace do šesti specializovaných týmů:
+
+| Tým | Funkce | Heslo |
 |------|----------|----------------|
-| **Gray** | Boundary exploration, edge case discovery | [Gray Team](@/glossary/gray-team.md) |
-| **Red** | Adversarial simulation, epistemic attacks | [Red Team](@/glossary/red-team.md) |
-| **Blue** | Defensive posture, signal aggregation | [Blue Team](@/glossary/blue-team.md) |
-| **Purple** | Red-Blue synthesis, closure analysis | [Purple Team](@/glossary/purple-team.md) |
-| **White** | Constructive verification, formal proofs | [White Team](@/glossary/white-team.md) |
-| **Black** | Theoretical threat modeling (maximum isolation) | [Black Team](@/glossary/black-team.md) |
+| **Gray** | průzkum hranic, hledání okrajových případů | [Gray Team](@/glossary/gray-team.md) |
+| **Red** | adversariální simulace, epistemické útoky | [Red Team](@/glossary/red-team.md) |
+| **Blue** | obranný postoj, slučování signálů | [Blue Team](@/glossary/blue-team.md) |
+| **Purple** | syntéza Red–Blue, analýza uzavření | [Purple Team](@/glossary/purple-team.md) |
+| **White** | konstruktivní ověřování, formální důkazy | [White Team](@/glossary/white-team.md) |
+| **Black** | teoretické modelování hrozeb (maximální izolace) | [Black Team](@/glossary/black-team.md) |
 
-**RBAC** (Role-Based Access Control) governs API and dashboard access. **Attack Surface** refers to the totality of externally reachable endpoints, services, and assets that an adversary could target.
+**RBAC** (řízení přístupu podle rolí) řídí přístup k API a dashboardům. **Attack Surface**
+(útočná plocha) označuje souhrn zvenčí dosažitelných koncových bodů, služeb a aktiv, na něž
+by protivník mohl mířit.
 
-## Technology Terms -- Expanded Overview
+## Technologické pojmy – rozšířený přehled
 
-The technology stack vocabulary spans five layers. At the language level: **Elixir** (the functional programming language), **Erlang** (the underlying runtime language), and **Lean4** (the theorem prover used for formal verification in the QEVE pipeline).
+Technologický slovník pokrývá pět vrstev. Na úrovni jazyků: **Elixir** (funkcionální
+programovací jazyk), **Erlang** (jazyk běhového prostředí) a **Lean4** (dokazovač vět
+používaný k formální verifikaci v procesu QEVE).
 
-At the framework level: **Phoenix** (the web framework), **LiveView** (real-time server-rendered UI), **Ecto** (the database wrapper and query generator), and **Broadway** (the concurrent data processing pipeline library).
+Na úrovni frameworků: **Phoenix** (webový framework), **LiveView** (serverem vykreslované UI
+v reálném čase), **Ecto** (databázová vrstva a generátor dotazů) a **Broadway** (knihovna pro
+souběžné zpracování dat).
 
-At the tooling level: **Mix** (the build tool), **Hex** (the package manager), **Credo** (the static analysis linter), **Dialyzer** (the type-checking tool), and **ExUnit** (the test framework).
+Na úrovni nástrojů: **Mix** (nástroj sestavení), **Hex** (správce balíčků), **Credo**
+(statická analýza), **Dialyzer** (kontrola typů) a **ExUnit** (testovací framework).
 
-At the infrastructure level: **PostgreSQL** (primary relational database), **Redis** (distributed cache), **Meilisearch** (full-text search), **KuzuDB** (embedded graph database), **Docker** (containerization), and **Fly.io** (deployment platform).
+Na úrovni infrastruktury: **PostgreSQL** (hlavní relační databáze), **Redis** (distribuovaná
+mezipaměť), **Meilisearch** (fulltextové vyhledávání), **KuzuDB** (vestavěná grafová
+databáze), **Docker** (kontejnerizace) a **Fly.io** (platforma nasazení).
 
-At the AI level: **Ollama** (local AI inference server) provides sub-3-second response times for code generation and analysis tasks.
+Na úrovni AI: **Ollama** (lokální server inference), který platforma používá ke generování
+a analýze kódu (v době zápisu s udávanou odezvou pod 3 sekundy).
 
-## Cross-Reference System
+## Systém křížových odkazů
 
-Every glossary term page includes a "See Also" section linking to 3-5 related terms. These cross-references form a navigable graph that allows readers to explore conceptual neighborhoods rather than reading terms in isolation.
+Každé heslo končí oddílem se souvisejícími pojmy (v hesle platformy „See Also“, v heslech
+knihy „Související“ se 6–12 vybranými odkazy podle druhu). Křížové odkazy tvoří procházitelný
+graf, který čtenáři umožňuje zkoumat pojmová sousedství místo izolovaných hesel.
 
-The cross-reference topology follows three patterns:
+Topologie odkazů sleduje tři vzorce:
 
-**Hierarchical references** link terms to their parent concepts. For example, [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) references [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/), which references [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/). A reader can follow these links upward to broader concepts or downward to specific implementations.
+**Hierarchické odkazy** vedou k nadřazeným pojmům – například GenServer odkazuje na OTP a OTP
+na BEAM; [C-PTSD](@/glossary/c-ptsd.md) odkazuje na [Komplexní
+trauma](@/glossary/complex-trauma.md). Čtenář po nich může jít vzhůru k širším pojmům nebo
+dolů ke konkrétním projevům.
 
-**Lateral references** link terms at the same abstraction level. For example, [Red Team](@/glossary/red-team.md) references [Blue Team](@/glossary/blue-team.md) and [Purple Team](@/glossary/purple-team.md). These links help readers understand how peer concepts relate to and complement each other.
+**Laterální odkazy** spojují pojmy na stejné úrovni abstrakce – například [Red
+Team](@/glossary/red-team.md) odkazuje na [Blue Team](@/glossary/blue-team.md) a [Purple
+Team](@/glossary/purple-team.md), [DARVO](@/glossary/darvo.md) na
+[Gaslighting](@/glossary/gaslighting.md). Pomáhají pochopit, jak se rovnocenné pojmy
+doplňují.
 
-**Cross-domain references** link terms across category boundaries. For example, [NABLA Infinity](@/glossary/nabla-infinity.md) (epistemic) references [Trinity Gate](@/glossary/trinity-gate.md) (epistemic) but also connects to [Color Teams](@/glossary/color-teams.md) (security) and [3NL Framework](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/) (architecture). These links reveal the integrative nature of the platform's design.
+**Odkazy napříč obory** spojují pojmy přes hranice kategorií – například [NABLA
+Infinity](@/glossary/nabla-infinity.md) (epistemika) odkazuje na [Trinity
+Gate](@/glossary/trinity-gate.md), ale i na [Color Teams](@/glossary/color-teams.md)
+(bezpečnost) a [3NL](@/glossary/3nl.md) (architektura); [Epistemic
+bubble](@/glossary/epistemic-bubble.md) (informační prostředí) odkazuje na [Selektivní
+expozici](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) (technika EA). Tyto odkazy
+ukazují integrativní povahu celku.
 
-### Example Cross-Reference Network
+### Příklad sítě křížových odkazů
 
-Starting from the term **EASM**, a reader can navigate:
+Z hesla **EASM** může čtenář přejít takto:
 
 ```
 EASM (intelligence)
@@ -198,14 +379,16 @@ EASM (intelligence)
   --> NIS2 (security) --> RBAC (security)
   --> HAWKEYE (intelligence) --> OSINT (intelligence)
 ```
+Síť zasahuje tři kategorie (zpravodajství, bezpečnost, architektura) a spojuje jediné
+výchozí heslo s osmi souvisejícími pojmy, z nichž každý má vlastní odkazy, které graf dále
+rozšiřují.
 
-This network spans three categories (intelligence, security, architecture) and connects a single starting term to eight related concepts, each with its own cross-references extending the graph further.
+## Struktura hesla
 
-## Term Page Structure
+### Původní struktura hesel platformy
 
-Every glossary term follows a consistent three-section structure. This uniformity ensures that readers develop predictable expectations about what information each page provides.
-
-### Canonical Structure
+Hesla platformy sledovala jednotnou třídílnou strukturu (definice, kontext, viz též), aby si
+čtenář vytvořil předvídatelná očekávání:
 
 ```markdown
 +++
@@ -236,82 +419,116 @@ Provides the bridge between abstract definition and practical usage.
 - Related Term B - Brief relationship note
 - Related Term C - Brief relationship note
 ```
+Oddíl **Definition** odpovídá na otázku „co to je?“, pokud možno oborově neutrálně. Oddíl
+**Context** odpovídá na otázku „jak to platforma používá?“ s konkrétními odkazy na
+implementaci. Oddíl **See Also** odpovídá na otázku „co číst dál?“.
 
-The **Definition** section answers "what is this?" in domain-neutral terms when possible. The **Context** section answers "how does Prismatic use this?" with specific implementation references. The **See Also** section answers "what should I read next?" with curated navigation paths.
+### Struktura hesel Kompendia
 
-### Metadata Fields
+Hesla knihy jsou psána česky a podle podrobnějšího schématu: **Definice** · **Původ
+a kontext pojmu** (obor, tradice, kdo pojem zavedl – jen tam, kde je to jisté) · **Jak se
+projevuje** (pozorovatelné znaky) · **Mechanismus** (strukturálně, nikdy jako návod) ·
+**Odlišení** (od podobných pojmů a klinických stavů) · **Význam pro Kompendium** (které
+techniky, případy a protokoly pojem vysvětluje) · **Obrana a zotavení** · **Literatura**
+(jen jistě existující díla) · **Související**. Hesla platformy jsou přeložena a doplněna
+o větu, jak pojem souvisí s knihou.
 
-Each term page carries structured metadata in its TOML frontmatter:
+### Pole metadat
 
-| Field | Purpose | Example |
+Každé heslo nese strukturovaná metadata v hlavičce TOML:
+
+| Pole | Účel | Příklad |
 |-------|---------|---------|
-| `title` | Display name | `"NABLA Infinity"` |
-| `weight` | Sort order within the glossary | `31` |
-| `description` | One-sentence summary for listing pages | `"Epistemic framework with 7 axioms"` |
-| `category` | One of the seven category slugs | `"epistemic"` |
-| `abbreviation` | Short form if applicable | `"NABLA"` |
-| `related_terms` | Slugs of cross-referenced terms | `["trinity-gate", "three-nl"]` |
+| `title` | zobrazovaný název | `"NABLA Infinity"` |
+| `weight` | pořadí v glosáři | `31` |
+| `description` | shrnutí pro výpisy a vyhledávače (50–200 znaků, česky) | `"Epistemický rámec se 7 axiomy…"` |
+| `[taxonomies] tags` | štítky pro výpisy a související stránky | `["glossary", "epistemic"]` |
+| `category` | slug kategorie | `"epistemic"` |
+| `abbreviation` | zkratka, je-li | `"NABLA"` |
+| `related_terms` | slugy souvisejících hesel | `["trinity-gate", "three-nl"]` |
 
-## Contributing New Terms
+## Přidávání nových hesel
 
-The glossary grows as the platform evolves. New terms should be added when any of the following conditions are met:
+Glosář roste s knihou i platformou. Nové heslo se přidává, když:
 
-1. **A new concept is introduced** that does not map to an existing term. For example, when the QEVE verification pipeline was added, it required its own glossary entry because no existing term covered the combination of Lean4, NABLA, and Monte Carlo verification.
+1. **vznikne nový pojem**, který neodpovídá žádnému stávajícímu heslu (například když
+   přibyl ověřovací proces QEVE, potřeboval vlastní heslo, protože žádný pojem nepokrýval
+   spojení Lean4, NABLA a ověření Monte Carlo);
+2. **stávající pojem se objevuje ve třech a více dokumentech** bez definice v glosáři; tento
+   práh ukazuje, že pojem je dost používaný na formální definici;
+3. **pojem je víceznačný napříč obory** – když totéž slovo znamená v různých kontextech něco
+   jiného (např. „agent“ v OTP a „agent“ v AIAD, „disociace“ v klinice a v běžné řeči),
+   samostatná hesla oba významy rozliší.
 
-2. **An existing concept is referenced in three or more documents** without a glossary definition. This threshold indicates that the concept has sufficient usage density to warrant formal definition.
+### Postup přidání
 
-3. **A term is ambiguous across domains**. When the same word means different things in different contexts (e.g., "agent" in OTP versus "agent" in AIAD), separate glossary entries disambiguate the usages.
+Nové heslo vznikne jako soubor Markdown `content/glossary/<slug>.md` s hlavičkou TOML podle
+výše uvedených polí a podle schématu hesel Kompendia. Poté:
 
-### Adding a Term
+1. ověřit, že křížové odkazy vedou na existující stránky (sestavení webu nefunkční odkaz
+   ohlásí jako chybu);
+2. doplnit zpětné odkazy z alespoň jedné související stránky;
+3. sestavit web a ověřit vykreslení.
 
-To add a new term, create a Markdown file at `sites/promo/content/glossary/<slug>.md` following the canonical structure described above. Assign it to one of the seven categories, provide 3-5 cross-references, and set a weight value that places it in appropriate alphabetical proximity to related terms.
+### Kritéria kvality hesla
 
-After creating the term page:
+Dobře napsané heslo splňuje tato kritéria:
 
-1. Verify cross-references point to existing term pages
-2. Add reciprocal cross-references in the related term pages
-3. Update the term count in this index page's frontmatter
-4. Rebuild the site to verify template rendering
+- **Přesnost:** definice je dost konkrétní, aby heslo odlišila od všech ostatních.
+- **Ukotvenost:** heslo platformy odkazuje na konkrétní artefakty (moduly, trasy,
+  konfigurace); heslo knihy na doložitelnou literaturu a na kapitoly Kompendia.
+- **Procházitelnost:** křížové odkazy vytvářejí užitečné cesty k souvisejícím pojmům, ne jen
+  k povrchně podobným.
+- **Obranný rámec:** heslo knihy popisuje mechanismus tak, aby jej šlo rozpoznat, a vždy
+  spolu s odlišením, obranou a zotavením (viz [Dual-use
+  poznání](@/glossary/dual-use-poznani.md)).
 
-### Quality Criteria for Terms
+## Závěr
 
-A well-written glossary entry satisfies four criteria:
+Glosář je strukturovaným znalostním artefaktem, který slouží několika skupinám čtenářů
+současně. Nováčkům nabízí vstupní bod do pojmové krajiny – stačí začít u kteréhokoli hesla
+a postupovat po odkazech, dokud příslušná oblast není srozumitelná. Odborníkům (klinikům,
+vyšetřovatelům, právníkům, výzkumníkům) dává sdílený slovník, který odstraňuje
+nejednoznačnost. Přispěvatelům platformy poskytoval společný jazyk pro architektonické
+diskuse, revize kódu a dokumentaci.
 
-- **Precision**: The definition is specific enough to distinguish this term from all other terms in the glossary
-- **Groundedness**: The context section references concrete platform artifacts (modules, routes, configurations)
-- **Navigability**: The cross-references create useful paths to related concepts, not just superficially similar terms
-- **Brevity**: The entire entry fits on a single screen without scrolling. Detailed explanations belong in architecture or capability pages, not in the glossary
+Jak se kniha i platforma vyvíjejí, glosář se vyvíjí s nimi, aby mezera mezi tím, co text
+popisuje, a tím, co čtenář potřebuje vědět, zůstala co nejmenší.
 
-## Conclusion
+## Odkazy
 
-The Prismatic Platform glossary is a structured knowledge artifact that serves three audiences simultaneously. For newcomers, it provides a curated entry point into the platform's conceptual landscape -- start with any term and navigate outward through cross-references until the relevant domain is understood. For active contributors, it provides a shared vocabulary that eliminates ambiguity in architectural discussions, code reviews, and documentation. For the platform itself, it provides the terminological foundation on which all other documentation is built.
+### Související oddíly
 
-The 225+ terms across seven categories represent the current state of the platform's vocabulary. As the platform continues to evolve -- new applications, new agents, new epistemic capabilities -- the glossary evolves in parallel, ensuring that the gap between what the platform does and what its documentation explains remains as close to zero as possible.
+- [Kompendium](@/kompendium/_index.md) – hlavní text knihy, který hesla glosáře používá.
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) – klasifikace technik, na niž hesla odkazují.
+- [Konceptuální mapa](@/kompendium/konceptualni-mapa/_index.md) – grafický přehled vztahů
+  mezi pojmy.
+- [Rejstřík pojmů](@/kompendium/08-prilohy/index-pojmu.md) – abecední rejstřík v přílohách.
 
-## References
+### Vnější odkazy
 
-### Related Sections
+- [Dokumentace Elixiru](https://hexdocs.pm/elixir/) – kanonické definice pojmů Elixir/OTP.
+- [Příručky Phoenix Framework](https://hexdocs.pm/phoenix/) – terminologie LiveView, PubSub,
+  Channel.
+- [OWASP](https://owasp.org/www-community/) – základ bezpečnostní terminologie.
+- [OSINT Framework](https://osintframework.com/) – terminologie sběru zpravodajství.
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Technical deep-dive using architecture terms
-- [Platform Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Doctrine and quality enforcement terms in action
-- [Applications](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- OTP application catalog referencing technology terms
+## Související
 
-### External References
+**Ústřední hesla knihy**
 
-- [Elixir Documentation](https://hexdocs.pm/elixir/) -- Canonical definitions for Elixir/OTP terms
-- [Phoenix Framework Guides](https://hexdocs.pm/phoenix/) -- LiveView, PubSub, Channel terminology
-- [OWASP Glossary](https://owasp.org/www-community/) -- Security terminology baselines
-- [OSINT Framework](https://osintframework.com/) -- Intelligence collection terminology
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – ústřední pojem Kompendia.
+- [Kompendium EA](@/glossary/kompendium-ea.md) – kniha jako celek a její publikum.
+- [Gaslighting](@/glossary/gaslighting.md) – nejčastěji odkazovaný manipulační vzorec.
+- [Betrayal trauma](@/glossary/betrayal-trauma.md) – klíčový klinický rámec.
 
----
+**Ústřední hesla platformy**
 
-*Glossary maintained as of 2026-02-12. Term count: 225. Categories: 7. All cross-references verified against existing term pages.*
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec platformy.
+- [AIAD](@/glossary/aiad.md) – standard agentů.
+- [Color Teams](@/glossary/color-teams.md) – bezpečnostní architektura.
 
----
+**Navigace**
 
-## Connect & Contribute
-
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Kompendium](@/kompendium/_index.md) – vstup do knihy.
+- [Rejstřík pojmů](@/kompendium/08-prilohy/index-pojmu.md) – abecední rejstřík.

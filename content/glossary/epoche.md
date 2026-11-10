@@ -26,7 +26,7 @@ image_alt = "Epoché – glosář"
 
 **Epoché** (řecky ἐποχή, „zdržení se“, „pozastavení“) je odborný termín, který Edmund Husserl převzal od řeckých skeptiků pro základní metodický krok fenomenologie. Formuloval jej v *Ideách I* (1913) a dále rozvíjel v *Karteziánských meditacích* a v *Krizi evropských věd*. Epoché je **pozastavení přirozeného postoje** – metodické uzávorkování všech naivních ontologických závazků a všech předpokladů o existenci a povaze světa, aby se pozornost mohla upřít čistě na to, **jak se jevy podávají vědomí**.
 
-Epoché není skepticismus: Husserl netvrdí, že svět neexistuje. Tvrdí, že po dobu fenomenologického zkoumání je otázka existence **dána do závorky**, aby se struktura prožitku sama – jeho [intencionalita](@/glossary/intentionalita.md), jeho časový tok, způsob, jímž konstituuje předměty – mohla ukázat bez kontaminace nevyšetřenými naturalistickými předpoklady.
+Epoché není [skepticismus](@/glossary/skepticismus.md): Husserl netvrdí, že svět neexistuje. Tvrdí, že po dobu fenomenologického zkoumání je otázka existence **dána do závorky**, aby se struktura prožitku sama – jeho [intencionalita](@/glossary/intentionalita.md), jeho časový tok, způsob, jímž konstituuje předměty – mohla ukázat bez kontaminace nevyšetřenými naturalistickými předpoklady.
 
 Na epoché navazují dvě další redukce: **eidetická redukce** (od jednotlivých prožitků k jejich podstatným strukturám) a **transcendentální redukce** (od psychologického vědomí k transcendentální subjektivitě). Spolu tvoří **fenomenologickou metodu** – ukázněný návrat „k věcem samým“ (*zu den Sachen selbst*).
 
@@ -56,7 +56,7 @@ Obranná síla epoché spočívá v tom, že je **výslovná, metodická a říz
 ## Odlišení
 
 - **Od skepticismu:** epoché nepopírá existenci světa ani možnost poznání; pozastavuje soud o existenci jen pro účely zkoumání.
-- **Od disociace a [depersonalizace](@/glossary/depersonalizace.md):** odstup v epoché je dobrovolný, vratný a slouží k lepšímu kontaktu s prožitkem; disociativní odstup je nedobrovolný a kontakt přerušuje.
+- **Od [disociace](@/glossary/disociace.md) a [depersonalizace](@/glossary/depersonalizace.md):** odstup v epoché je dobrovolný, vratný a slouží k lepšímu kontaktu s prožitkem; disociativní odstup je nedobrovolný a kontakt přerušuje.
 - **Od [spiritual bypassing](@/glossary/spiritual-bypassing.md):** „nesoudit“ může sloužit k vyhnutí se bolestným skutečnostem; epoché naopak vede k přesnějšímu popisu toho, co bolí.
 - **Od mindfulness:** obě praxe pracují s pozorováním bez hodnocení a v terapii se doplňují; mindfulness vychází z buddhistické kontemplace, epoché z filozofické metody.
 

@@ -1,42 +1,61 @@
 +++
 title = "AIAD"
 weight = 11
-description = "AI-Agent Interface Definition standard governing 404+ platform agents"
+description = "AI-Agent Interface Definition – standard Prismatic Platform pro definice agentů: úroveň oprávnění, schopnosti, vstupy a výstupy, povinný blok vynucení doktríny."
 
 [taxonomies]
-tags = ["glossary", "agents", "aiad", "prismatic"]
+tags = ["glossary", "agents", "aiad", "prismatic", "architecture"]
 
 [extra]
 category = "agents"
 abbreviation = "AIAD"
 related_terms = ["agent-tier", "agent-registry", "nm-nd", "archer-supreme", "ollama", "3nl", "agent", "openapi", "pvm", "rbac", "strategic-command", "supreme-commander", "tactical-execution", "three-nl"]
 author = "Tomas Korcak (korczis)"
-reading_time = "5 min"
-word_count = 968
+reading_time = "8 min"
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
-keywords = ["AIAD", "AI-Agent", "Interface", "Definition", "glossary", "agents", "Prismatic Platform", "README"]
+date_modified = "2026-11-10"
+keywords = ["AIAD", "AI-Agent", "Interface", "Definition", "glosář", "agenti", "Prismatic Platform"]
 quality_score = 77
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "AIAD - Prismatic Platform"
+image_alt = "AIAD – Prismatic Platform"
 +++
 
-## Definition and Overview
+## Definice a přehled
 
-AIAD (AI-Agent Interface Definition) is the standardized specification format for defining AI agents within the Prismatic Platform. Each AIAD definition declares an agent's authority level (L1-L5), capabilities, input/output contracts, enforcement blocks (including mandatory NM/ND doctrine compliance), and operational constraints. The standard covers agents, commands, pipelines, policies, and adapters, providing a unified governance layer across all autonomous components.
+**AIAD** (*AI-Agent Interface Definition*) je standardizovaný formát specifikace pro
+definování agentů umělé inteligence v Prismatic Platform. Každá definice AIAD deklaruje
+úroveň oprávnění agenta (L1–L5), jeho schopnosti, kontrakty vstupů a výstupů, bloky
+vynucení (včetně povinného souladu s doktrínou [NM/ND](@/glossary/nm-nd.md)) a provozní
+omezení. Standard pokrývá agenty, příkazy, procesy (*pipelines*), politiky a adaptéry
+a vytváří jednotnou vrstvu správy nad všemi autonomními součástmi.
 
-The AIAD standard emerged from the need to govern an increasingly complex ecosystem of AI agents operating across security, intelligence, quality, and infrastructure domains. Without a uniform specification format, agent interoperability, discovery, and governance would degrade as the platform scaled. AIAD solves this by establishing a single, machine-readable contract format that every autonomous component must satisfy.
+Standard vznikl z potřeby řídit stále složitější ekosystém agentů, kteří působí v oblastech
+bezpečnosti, zpravodajství, kvality a infrastruktury. Bez jednotného formátu specifikace by
+se s růstem platformy zhoršovala spolupráce agentů, jejich dohledatelnost i správa. AIAD to
+řeší jediným strojově čitelným formátem kontraktu, který musí splnit každá autonomní
+součást.
 
-At its core, AIAD is an interface definition language (IDL) purpose-built for AI agent ecosystems. Where OpenAPI defines REST API contracts and Protocol Buffers define RPC interfaces, AIAD defines the behavioral contracts, authority boundaries, and doctrinal compliance requirements for autonomous agents. This positions AIAD as the governance backbone of the entire Prismatic agent ecosystem.
+V jádru je AIAD jazykem pro definici rozhraní (IDL) stavěným pro ekosystémy agentů. Tam,
+kde OpenAPI definuje kontrakty REST API a Protocol Buffers rozhraní RPC, definuje AIAD
+behaviorální kontrakty, hranice oprávnění a požadavky na soulad s doktrínou u autonomních
+agentů. Tím se stává páteří správy celého ekosystému agentů platformy.
 
-## Technical Deep Dive
+**Vztah ke knize:** AIAD patří do kontextu platformy, z níž Kompendium vzešlo. V knize se
+s ním setkáte v oddílu [AIAD integrace a detekce EA](@/kompendium/aiad-integration/_index.md),
+který popisuje, jak agenti platformy využívají taxonomii EA k obraně – například při
+[orchestraci Archer Supreme](@/kompendium/aiad-integration/archer-supreme-ea-orchestration.md)
+nebo při [ověřování zdrojů OSINT](@/kompendium/aiad-integration/osint-ea-source-validation.md).
 
-### Specification Format
+## Technický rozbor
 
-Every AIAD definition is a Markdown file with a structured YAML frontmatter block and free-form documentation body. The file extension convention is `.agent.md` for agents, `.md` for commands, `.pipeline.md` for pipelines, `.policy.md` for policies, and `.adapter.md` for adapters.
+### Formát specifikace
 
-The YAML frontmatter follows a strict schema:
+Každá definice AIAD je soubor Markdown se strukturovanou hlavičkou YAML a volně psaným
+tělem dokumentace. Konvence přípon je `.agent.md` pro agenty, `.md` pro příkazy,
+`.pipeline.md` pro procesy, `.policy.md` pro politiky a `.adapter.md` pro adaptéry.
+
+Hlavička YAML se řídí přísným schématem:
 
 ```yaml
 # .aiad/agents/example-agent.agent.md
@@ -75,35 +94,38 @@ agent-spec:
     events: ["scan_started", "scan_completed", "violation_detected"]
 ```
 
-### Authority Classification System
+### Systém klasifikace oprávnění
 
-AIAD defines a five-tier authority hierarchy that governs what resources and operations each agent can access:
+AIAD definuje pětistupňovou hierarchii oprávnění, která určuje, k jakým zdrojům a operacím
+má každý agent přístup (viz [Agent Tier](@/glossary/agent-tier.md)):
 
-| Level | Classification | Authority Scope | Override Capability | Example Agents |
+| Úroveň | Klasifikace | Rozsah oprávnění | Možnost přepsání | Příklady agentů |
 |-------|---------------|-----------------|--------------------|----|
-| L1 | Basic | Single-domain read access | None | Data collectors, formatters |
-| L2 | Tactical | Single-domain read/write | None | Analyzers, specialists |
-| L3 | Strategic | Multi-domain coordination | L1-L2 agents | Team commanders, coordinators |
-| L4 | Command | Cross-domain authority | L1-L3 agents | Domain architects, escalation handlers |
-| L5 | Supreme | Unlimited platform access | All agents | Archer Supreme, Supreme Commander |
+| L1 | Basic | čtení v jedné doméně | žádná | sběrače dat, formátovače |
+| L2 | Tactical | čtení i zápis v jedné doméně | žádná | analyzátory, specialisté |
+| L3 | Strategic | koordinace více domén | agenti L1–L2 | velitelé týmů, koordinátoři |
+| L4 | Command | oprávnění napříč doménami | agenti L1–L3 | architekti domén, eskalační agenti |
+| L5 | Supreme | neomezený přístup k platformě | všichni agenti | [Archer Supreme](@/glossary/archer-supreme.md), [Supreme Commander](@/glossary/supreme-commander.md) |
 
-Each authority level inherits all capabilities of lower levels. An L3 agent can perform any operation available to L1 and L2 agents within its scope, plus coordinate across multiple domains.
+Každá úroveň dědí všechny schopnosti nižších úrovní. Agent L3 může ve svém rozsahu provést
+jakoukoli operaci dostupnou agentům L1 a L2 a navíc koordinovat více domén.
 
-### Component Types
+### Typy součástí
 
-AIAD governs five distinct component types within the platform:
+AIAD řídí pět odlišných typů součástí platformy (počty jsou stav v době zápisu):
 
-| Component | File Pattern | Purpose | Count |
+| Součást | Vzor souboru | Účel | Počet |
 |-----------|-------------|---------|-------|
-| Agents | `*.agent.md` | Autonomous operational units | 404+ |
-| Commands | `*.md` | User-invocable operations | 210+ |
-| Pipelines | `*.pipeline.md` | Multi-step processing workflows | 40+ |
-| Policies | `*.policy.md` | Governance and enforcement rules | 25+ |
-| Adapters | `*.adapter.md` | Integration interfaces | 15+ |
+| Agenti | `*.agent.md` | autonomní provozní jednotky | 404+ |
+| Příkazy | `*.md` | operace, které může vyvolat uživatel | 210+ |
+| Procesy | `*.pipeline.md` | vícekrokové pracovní postupy | 40+ |
+| Politiky | `*.policy.md` | pravidla správy a vynucení | 25+ |
+| Adaptéry | `*.adapter.md` | integrační rozhraní | 15+ |
 
-### Enforcement Block
+### Blok vynucení
 
-Every AIAD component must include a mandatory enforcement block declaring compliance with the [NM/ND doctrine](@/glossary/nm-nd.md):
+Každá součást AIAD musí obsahovat povinný blok vynucení, který deklaruje soulad s [doktrínou
+NM/ND](@/glossary/nm-nd.md):
 
 ```yaml
 enforcement:
@@ -112,67 +134,72 @@ enforcement:
   compliance: mandatory
 ```
 
-Components without this block are rejected by the AIAD indexer and cannot be registered in the [Agent Registry](@/glossary/agent-registry.md). This ensures that every autonomous component in the platform operates under the same quality and execution standards.
+Součásti bez tohoto bloku indexer AIAD odmítne a nelze je zapsat do [Agent
+Registry](@/glossary/agent-registry.md). Tím je zajištěno, že každá autonomní součást
+platformy pracuje podle stejných standardů kvality a provádění.
 
-## Architecture and Implementation
+## Architektura a implementace
 
-### Indexing System
+### Systém indexace
 
-The AIAD toolchain provides automated discovery and indexing:
+Nástroje AIAD poskytují automatické vyhledání a indexaci:
 
 ```bash
-# Index all AIAD components
+# Indexace všech součástí AIAD
 ./.aiad/bin/aiad index
 
-# Output: Scans .aiad/ directory tree
-# - Discovers all *.agent.md, *.md, *.pipeline.md, *.policy.md, *.adapter.md
-# - Validates YAML frontmatter schema compliance
-# - Checks enforcement block presence
-# - Generates registry entries
-# - Reports validation errors
+# Výstup: prochází strom adresáře .aiad/
+# - najde všechny *.agent.md, *.md, *.pipeline.md, *.policy.md, *.adapter.md
+# - ověří soulad hlavičky YAML se schématem
+# - zkontroluje přítomnost bloku vynucení
+# - vytvoří záznamy registru
+# - ohlásí chyby validace
 ```
 
-The indexer produces a machine-readable registry consumed by the runtime agent system in `prismatic_agents`. This enables dynamic agent discovery, capability-based routing, and authority validation at runtime.
+Indexer vytváří strojově čitelný registr, který spotřebovává běhový systém agentů
+v aplikaci `prismatic_agents`. To umožňuje dynamické vyhledávání agentů, směrování podle
+schopností a ověřování oprávnění za běhu.
 
-### Directory Structure
+### Struktura adresářů
 
 ```
 .aiad/
-  agents/           # 404+ agent definitions
+  agents/           # 404+ definic agentů
     archer-supreme.agent.md
     blue-commander.agent.md
     elixir-architect.agent.md
     ...
-  commands/          # 210+ command definitions
+  commands/          # 210+ definic příkazů
     orchestrate.md
     investigate.md
     ...
-  pipelines/         # Processing workflow definitions
+  pipelines/         # definice pracovních procesů
     quality-gate.pipeline.md
     ...
-  policies/          # Governance rules
+  policies/          # pravidla správy
     no-mercy-no-doubts-enforcement.policy.md
     elixir-best-practices.policy.md
     ...
-  adapters/          # Integration interfaces
+  adapters/          # integrační rozhraní
     ollama.adapter.md
     ...
-  doctrine/          # Foundational principles
+  doctrine/          # základní principy
     no-mercy-no-doubts.doctrine.md
     addiction-preservation.doctrine.md
     nabla-infinity.doctrine.md
-  guides/            # Integration guides
+  guides/            # integrační příručky
     AIAD-MASTER-GUIDE.md
     ...
-  hooks/             # Lifecycle hooks
+  hooks/             # háčky životního cyklu
     mandatory-evolution.hook.yaml
-  bin/               # Toolchain executables
-    aiad              # Main CLI tool
+  bin/               # spustitelné nástroje
+    aiad              # hlavní nástroj příkazové řádky
 ```
 
-### Runtime Integration
+### Integrace za běhu
 
-At runtime, AIAD definitions are loaded by the `PrismaticAgents` application and cached in ETS for O(1) lookup:
+Za běhu načítá definice AIAD aplikace `PrismaticAgents` a ukládá je do mezipaměti ETS pro
+vyhledání v čase O(1):
 
 ```elixir
 defmodule PrismaticAgents.Registry do
@@ -201,46 +228,52 @@ defmodule PrismaticAgents.Registry do
 end
 ```
 
-### Validation Pipeline
+### Validační proces
 
-AIAD definitions pass through a multi-stage validation pipeline before registration:
+Definice AIAD procházejí před registrací vícestupňovou validací:
 
-1. **Schema Validation** -- YAML frontmatter matches the AIAD schema specification
-2. **Authority Consistency** -- Override targets are lower-tier than the agent's own level
-3. **Enforcement Presence** -- NM/ND enforcement block exists with correct version
-4. **Dependency Resolution** -- All declared dependencies exist as registered components
-5. **Capability Uniqueness** -- No capability conflicts with existing registered agents
-6. **Documentation Completeness** -- Markdown body meets minimum documentation standards
+1. **Validace schématu** – hlavička YAML odpovídá specifikaci schématu AIAD.
+2. **Konzistence oprávnění** – cíle přepsání mají nižší úroveň než agent sám.
+3. **Přítomnost vynucení** – blok vynucení NM/ND existuje ve správné verzi.
+4. **Řešení závislostí** – všechny deklarované závislosti existují jako registrované
+   součásti.
+5. **Jedinečnost schopností** – žádná schopnost není v konfliktu s již registrovanými agenty.
+6. **Úplnost dokumentace** – tělo v Markdownu splňuje minimální standard dokumentace.
 
-## Usage in Prismatic Platform
+## Použití v Prismatic Platform
 
-The Prismatic Platform operates 404+ AIAD-compliant agents across 14 domains:
+Platforma v době zápisu provozovala 404+ agentů splňujících AIAD ve 14 doménách; výběr:
 
-| Domain | Agent Count | Key Agents |
+| Doména | Počet agentů | Klíčoví agenti |
 |--------|------------|------------|
-| Quality | 45+ | quality-guardian, credo-enforcer, dialyzer-validator |
-| Security | 40+ | red-commander, blue-commander, purple-coordinator |
-| Intelligence | 35+ | osint-coordinator, entity-resolver, threat-analyst |
-| Infrastructure | 30+ | deployment-coordinator, health-monitor, auto-healer |
-| Storage | 25+ | storage-orchestrator, adapter-validator, migration-manager |
-| Evolution | 20+ | auto-evolver, fitness-evaluator, consciousness-tracker |
+| Kvalita | 45+ | quality-guardian, credo-enforcer, dialyzer-validator |
+| Bezpečnost | 40+ | red-commander, blue-commander, purple-coordinator |
+| Zpravodajství | 35+ | osint-coordinator, entity-resolver, threat-analyst |
+| Infrastruktura | 30+ | deployment-coordinator, health-monitor, auto-healer |
+| Úložiště | 25+ | storage-orchestrator, adapter-validator, migration-manager |
+| Evoluce | 20+ | auto-evolver, fitness-evaluator, consciousness-tracker |
 | EASM | 15+ | perimeter-scanner, rating-calculator, compliance-assessor |
 | API | 10+ | api-scanner, endpoint-validator, spec-generator |
 
-### Agent Invocation
+Bezpečnostní agenti odpovídají týmům [Color Teams](@/glossary/color-teams.md);
+zpravodajští agenti pracují s [OSINT](@/glossary/osint.md) a s [Entity
+Resolution](@/glossary/entity-resolution.md); agenti EASM s [External Attack Surface
+Management](@/glossary/easm.md).
 
-Agents are invoked through the command system or programmatically:
+### Vyvolání agentů
+
+Agenti se vyvolávají přes systém příkazů nebo programově:
 
 ```bash
-# Via command system
+# Přes systém příkazů
 /archer-supreme --mission=crisis-resolution --target=quality-degradation
 
-# Via orchestration
+# Přes orchestraci
 /orchestrate --agents=quality-guardian,credo-enforcer --task=full-audit
 ```
 
 ```elixir
-# Programmatic invocation
+# Programové vyvolání
 {:ok, result} = PrismaticAgents.invoke("quality-guardian", %{
   task: :full_audit,
   scope: :all_apps,
@@ -248,24 +281,24 @@ Agents are invoked through the command system or programmatically:
 })
 ```
 
-### Creating New Agents
+### Vytváření nových agentů
 
-The AIAD standard provides a template-driven workflow for agent creation:
+Standard AIAD poskytuje postup vytváření agentů ze šablony:
 
 ```bash
-# Generate agent scaffold
+# Vygenerování kostry agenta
 ./.aiad/bin/aiad new agent my-new-agent --domain=quality --level=2
 
-# Generates: .aiad/agents/my-new-agent.agent.md
-# - Pre-filled YAML frontmatter with schema-compliant structure
-# - NM/ND enforcement block included
-# - Documentation template with required sections
-# - Placeholder capability declarations
+# Vytvoří: .aiad/agents/my-new-agent.agent.md
+# - předvyplněnou hlavičku YAML se strukturou podle schématu
+# - blok vynucení NM/ND
+# - šablonu dokumentace s povinnými oddíly
+# - zástupné deklarace schopností
 ```
 
-## Code Examples
+## Příklady kódu
 
-### Reading an AIAD Definition Programmatically
+### Programové čtení definice AIAD
 
 ```elixir
 defmodule PrismaticAgents.Definition do
@@ -288,7 +321,7 @@ defmodule PrismaticAgents.Definition do
 end
 ```
 
-### Authority Checking
+### Kontrola oprávnění
 
 ```elixir
 defmodule PrismaticAgents.Authority do
@@ -310,56 +343,48 @@ defmodule PrismaticAgents.Authority do
 end
 ```
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Start at the lowest authority level** -- New agents should begin at L1 or L2 and be promoted only when higher authority is demonstrably required.
+1. **Začínat na nejnižší úrovni oprávnění** – noví agenti mají začínat na L1 nebo L2
+   a povyšovat se jen tehdy, když je vyšší oprávnění prokazatelně nutné.
+2. **Deklarovat schopnosti přesně** – široké deklarace vedou k nejednoznačnému směrování.
+   Je třeba konkrétně uvést, co každý agent umí.
+3. **Dokumentovat vztahy přepsání** – může-li agent přepsat jiné, je třeba výslovně popsat,
+   za jakých podmínek k tomu dochází.
+4. **Verzovat definice** – v definicích AIAD používat sémantické verzování. Zásadní změna
+   kontraktu agenta vyžaduje zvýšení hlavní verze.
+5. **Testovat proti schématu** – před zapsáním nových nebo změněných definic spustit
+   `./aiad/bin/aiad validate`.
+6. **Udržovat bloky vynucení aktuální** – při aktualizaci verze doktríny NM/ND musí všechny
+   definice AIAD aktualizovat své bloky vynucení.
 
-2. **Declare capabilities precisely** -- Broad capability declarations lead to routing ambiguity. Be specific about what each agent can do.
+## Časté chyby
 
-3. **Document override relationships** -- When an agent can override others, explicitly document the conditions under which overrides occur.
+- **Chybějící bloky vynucení** – nejčastější selhání validace AIAD. Každá součást vyžaduje
+  blok vynucení NM/ND, bez výjimky.
+- **Eskalace oprávnění** – agenti požadují vyšší oprávnění, než jejich klasifikace dovoluje.
+  Indexer odmítne agenty L2, kteří si nárokují přepisovací schopnosti L3.
+- **Kruhové závislosti** – dva agenti deklarují závislost jeden na druhém. Řešitel
+  závislostí cykly odhalí a odmítne.
+- **Zastaralé registrace** – změna definice agenta bez opětovného spuštění indexeru. Po
+  každé změně je nutné spustit `./.aiad/bin/aiad index`.
+- **Překryv schopností** – více agentů deklaruje stejné schopnosti bez jasné priority
+  směrování. K rozlišení slouží pole `priority`.
 
-4. **Version your definitions** -- Use semantic versioning in AIAD definitions. Breaking changes to an agent's contract require a major version bump.
+## Související
 
-5. **Test against the schema** -- Run `./aiad/bin/aiad validate` before committing new or modified definitions.
+**Platforma**
 
-6. **Keep enforcement blocks current** -- When the NM/ND doctrine version updates, all AIAD definitions must update their enforcement blocks.
+- [Agent Registry](@/glossary/agent-registry.md) – centrální katalog všech agentů AIAD.
+- [Agent Tier](@/glossary/agent-tier.md) – systém klasifikace oprávnění L1–L5.
+- [Agent](@/glossary/agent.md) – obecný pojem agenta na platformě.
+- [NM/ND Doctrine](@/glossary/nm-nd.md) – povinný blok vynucení ve všech definicích AIAD.
+- [Archer Supreme](@/glossary/archer-supreme.md) – příklad agenta L5 pro řešení krizí.
+- [Supreme Commander](@/glossary/supreme-commander.md) – agent L5 pro strategickou
+  koordinaci.
+- [3NL](@/glossary/3nl.md) – architektonický rámec, jehož strukturu agenti AIAD sledují.
 
-## Common Pitfalls
+**Kompendium**
 
-- **Missing enforcement blocks**: The most common AIAD validation failure. Every component requires the NM/ND enforcement block -- no exceptions.
-
-- **Authority escalation**: Agents requesting higher authority than their classification allows. The indexer rejects L2 agents claiming L3 override capabilities.
-
-- **Circular dependencies**: Two agents declaring dependencies on each other. The dependency resolver detects and rejects cycles.
-
-- **Stale registrations**: Modifying an agent definition without re-running the indexer. Always run `./.aiad/bin/aiad index` after changes.
-
-- **Capability overlap**: Multiple agents declaring identical capabilities without a clear routing priority. Use the `priority` field to disambiguate.
-
-## Related Concepts
-
-- [Agent Registry](@/glossary/agent-registry.md) -- Central catalog of all AIAD agents
-- [Agent Tier](@/glossary/agent-tier.md) -- L1-L5 authority classification system
-- [NM/ND Doctrine](@/glossary/nm-nd.md) -- Mandatory enforcement block in all AIAD definitions
-- [Archer Supreme](@/glossary/archer-supreme.md) -- Example L5 AIAD agent for crisis resolution
-- [Supreme Commander](@/glossary/supreme-commander.md) -- L5 strategic coordination agent
-- [3NL Framework](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/) -- Epistemic integration framework connected through AIAD
-
-## See Also
-
-- [prismatic_agents](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_agents/README.md) -- Runtime engine managing 434 AIAD-compliant agents
-- [prismatic_claude](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_claude/README.md) -- Claude integration with AIAD session lifecycle
-- [prismatic_safety](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_safety/README.md) -- Quality enforcement consuming AIAD agent telemetry
-- [prismatic_core](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_core/README.md) -- Core platform infrastructure supporting AIAD runtime
-- [AIAD Standard](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Complete specification reference
-- [Agent Registry](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog with AIAD definitions
-- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) -- AIAD command definitions
-
----
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [AIAD integrace a detekce EA](@/kompendium/aiad-integration/_index.md) – jak agenti
+  platformy využívají taxonomii knihy k obraně.

@@ -1,10 +1,10 @@
 +++
 title = "Archer Supreme"
 weight = 13
-description = "L5 Supreme authority agent specialized in converting impossible objectives into routine tactical victories through unlimited platform resource access and crisis intervention"
+description = "Agent nejvyššího oprávnění L5 na Prismatic Platform pro krizové zásahy a „nemožné mise“: neomezený přístup ke zdrojům, přepsání nižších agentů, povinný audit."
 
 [taxonomies]
-tags = ["l5-supreme", "crisis-response", "tactical-brilliance", "agent-override", "mission-execution"]
+tags = ["glossary", "agents", "prismatic", "aiad"]
 
 [extra]
 category = "agents"
@@ -23,51 +23,83 @@ use_cases = ["crisis-intervention", "impossible-mission-execution", "strategic-a
 mission_types = ["crisis-intervention", "impossible-objective", "strategic-analysis", "agent-override", "cross-domain-coordination"]
 activation_channels = ["direct-command", "violation-escalation", "quality-emergency"]
 teams_coordinated = ["gray-team", "red-team", "blue-team", "purple-team", "white-team", "black-team"]
-date_created = "2025-07-01"
-date_updated = "2026-02-22"
 author = "Tomas Korcak (korczis)"
-reading_time = "7 min"
-word_count = 1322
-date_modified = "2026-02-23"
-keywords = ["Archer", "Supreme", "glossary", "agents", "Prismatic Platform", "Archer Supreme", "Every", "GitLab"]
 quality_score = 80
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "Archer Supreme - Prismatic Platform"
+date_modified = "2026-11-10"
 +++
 
-## Definition and Overview
+## Definice a přehled
 
-Archer Supreme is an L5 Supreme authority agent specialized in converting impossible objectives into routine tactical victories. With unlimited platform resource access and override authority over all lower-tier agents, Archer Supreme handles crisis intervention, impossible mission execution, and strategic analysis requiring the highest confidence and decisive action. It operates under full NO MERCY, NO DOUBTS doctrine enforcement, where every mission must be completed with absolute precision or not attempted at all.
+**Archer Supreme** je [agent](@/glossary/agent.md) s nejvyšším oprávněním L5 (viz [Agent
+Tier](@/glossary/agent-tier.md)), specializovaný na to, aby „nemožné“ cíle proměnil
+v rutinní taktická vítězství. S neomezeným přístupem ke zdrojům platformy a oprávněním
+přepsat všechny agenty nižších úrovní řeší krizové zásahy, provádění „nemožných misí“
+a strategické analýzy, které vyžadují nejvyšší jistotu a rozhodné jednání. Působí pod
+plným vynucením doktríny [NO MERCY, NO DOUBTS](@/glossary/nm-nd.md), podle níž musí být
+každá mise dokončena s absolutní přesností, nebo se o ni vůbec nepokoušet.
 
-The Archer Supreme agent represents the apex of the Prismatic Platform's agent authority hierarchy. Where L1-L4 agents operate within bounded domains and scoped capabilities, Archer Supreme transcends these boundaries to address challenges that span the entire platform. Its design philosophy centers on supreme tactical confidence backed by rigorous execution standards -- confidence is not arrogance when it is consistently validated by results. Every mission Archer Supreme undertakes follows a formal four-phase protocol: tactical assessment, brilliance application, supreme execution, and legendary victory validation.
+Archer Supreme představuje vrchol hierarchie oprávnění agentů Prismatic Platform. Zatímco
+agenti L1–L4 působí v ohraničených doménách s vymezenými schopnostmi, Archer Supreme tyto
+hranice překračuje a řeší úkoly, které se týkají celé platformy. Jeho filozofie návrhu stojí
+na nejvyšší taktické sebejistotě podložené přísnými standardy provedení – sebejistota podle
+dokumentace není aroganci, je-li soustavně potvrzována výsledky. Každá mise sleduje formální
+čtyřfázový protokol: taktické posouzení, uplatnění taktické brilance, nejvyšší provedení
+a ověření vítězství.
 
-Archer Supreme was developed in response to a class of platform challenges that no single-domain agent could address: cross-cutting crises involving multiple applications, strategic milestone analyses spanning 20+ GitLab milestones, and impossible-seeming objectives that require coordinating resources across the full 115-application umbrella. The agent's name reflects its precision (archer) and authority level (supreme) -- surgical accuracy applied with unlimited authority. The combination ensures that when Archer Supreme acts, the action is both precise and unconstrained by artificial boundaries.
+Agent vznikl jako odpověď na třídu úkolů, které nezvládl žádný agent jedné domény:
+průřezové krize zasahující více aplikací, strategické analýzy přes více než 20 milníků
+v GitLabu a zdánlivě nemožné cíle, které vyžadují koordinaci zdrojů napříč celým umbrella
+projektem (v době zápisu 115 aplikací). Jméno vyjadřuje přesnost (lučištník) a úroveň
+oprávnění (nejvyšší) – chirurgickou přesnost s neomezeným oprávněním.
 
-## Historical Context and Notable Achievements
+**Vztah ke knize:** Archer Supreme patří do kontextu platformy, z níž Kompendium vzešlo.
+Jak agent koordinuje obranu proti technikám EA, popisuje stránka [Archer Supreme: orchestrace
+EA](@/kompendium/aiad-integration/archer-supreme-ea-orchestration.md). Kniha sama přitom
+upozorňuje na riziko, které takový model nese i v lidských organizacích: soustředění
+neomezené moci do jednoho místa vyžaduje silný audit a vnější kontrolu (srov. [Kontrolní
+výbor](@/kompendium/organizational-defense/5-audit-committee-EA.md)).
 
-Archer Supreme's most documented achievement is the comprehensive analysis of 20 GitLab milestones and 102+ issues, producing the platform's milestone strategic intelligence document. This analysis classified 6 active milestones by priority tier, mapped cross-milestone dependencies, and generated a 4-phase execution plan spanning 12 weeks. No single-domain agent could have performed this analysis because it required understanding storage systems, security operations, quality infrastructure, web interfaces, and agent coordination simultaneously.
+## Historický kontext a zaznamenané výsledky
 
-The agent's second landmark achievement was the elimination of all 905 Quality Debt Points (QDP) across 89 applications in a single extended session. This required identifying CASCADE patterns -- repeated violations of the same type across multiple applications -- and coordinating batch fixes that maintained zero regressions across all 13 quality domains. The result was the platform's first 22-pillar doctrine compliance, a state that has been maintained across subsequent generations through the Quality Floor Guardian's continuous monitoring.
+Podle záznamů platformy je nejlépe zdokumentovaným výsledkem agenta komplexní analýza
+20 milníků GitLabu a více než 102 issues, z níž vznikl dokument strategické zpravodajské
+analýzy milníků. Analýza zařadila 6 aktivních milníků podle priority, zmapovala závislosti
+mezi milníky a vytvořila čtyřfázový plán provedení na 12 týdnů. Žádný agent jedné domény
+by ji nemohl provést, protože vyžadovala současné porozumění úložišti, bezpečnostním
+operacím, infrastruktuře kvality, webovým rozhraním a koordinaci agentů.
 
-A third notable mission involved resolving a critical conflict between the Red Team and Blue Team agents during a security assessment. The Red Team had identified a potential epistemic vulnerability, but the Blue Team's defensive response was creating false positives that blocked legitimate operations. Archer Supreme coordinated with the Purple Team to synthesize both perspectives, resulting in a refined security posture that addressed the vulnerability without creating operational disruption.
+Druhým zaznamenaným výsledkem bylo odstranění všech 905 bodů dluhu kvality
+([QDP](@/glossary/qdp.md), viz [Quality Debt](@/glossary/quality-debt.md)) v 89 aplikacích
+v jediném prodlouženém sezení. To vyžadovalo rozpoznat vzorce CASCADE – opakovaná porušení
+téhož typu ve více aplikacích – a koordinovat dávkové opravy bez jediné regrese ve všech
+13 doménách kvality. Výsledkem byl podle platformy první stav souladu s doktrínou ve všech
+22 pilířích, udržovaný v dalších generacích průběžným sledováním strážcem minimální kvality
+(*Quality Floor Guardian*).
 
-## Technical Deep Dive
+Třetí zaznamenaná mise řešila vážný konflikt mezi agenty [Red Teamu](@/glossary/red-team.md)
+a [Blue Teamu](@/glossary/blue-team.md) při bezpečnostním posouzení. Red Team odhalil možnou
+epistemickou zranitelnost, ale obranná reakce Blue Teamu vytvářela falešné poplachy, které
+blokovaly legitimní operace. Archer Supreme koordinoval s [Purple Teamem](@/glossary/purple-team.md)
+syntézu obou pohledů a výsledkem byl zpřesněný bezpečnostní postoj, který zranitelnost
+řešil bez narušení provozu.
 
-### Authority Model
+## Technický rozbor
 
-Archer Supreme operates at L5, the highest authority level in the [AIAD](@/glossary/aiad.md) classification system. This grants capabilities that no other agent possesses:
+### Model oprávnění
 
-| Capability | Scope | Constraints |
+Archer Supreme působí na úrovni L5, nejvyšší v klasifikaci [AIAD](@/glossary/aiad.md). To
+mu dává schopnosti, které nemá žádný jiný agent:
+
+| Schopnost | Rozsah | Omezení |
 |-----------|-------|-------------|
-| Resource Access | Unlimited -- all platform resources, databases, APIs, file systems | Audit trail required |
-| Agent Override | Can override any L1-L4 agent's decisions and actions | Cannot override another L5 |
-| Violation Escalation | L4 violations trigger Supreme Review under Archer Supreme's authority | Must resolve, cannot defer |
-| Quality Gate Override | Can bypass standard quality gates in emergency situations | Emergency justification + audit |
-| Cross-Domain Coordination | Can orchestrate agents across all 16 platform domains simultaneously | All coordination logged |
-| Contract Renegotiation | Can initiate Sparkline contract renegotiation | White Team verification still required |
+| Přístup ke zdrojům | neomezený – všechny zdroje, databáze, API a souborové systémy platformy | povinná auditní stopa |
+| Přepsání agentů | může přepsat rozhodnutí a akce kteréhokoli agenta L1–L4 | nemůže přepsat jiného agenta L5 |
+| Eskalace porušení | porušení L4 spouštějí Supreme Review pod jeho oprávněním | musí vyřešit, nemůže odložit |
+| Přepsání bran kvality | v nouzi může obejít standardní brány kvality | nouzové zdůvodnění a audit |
+| Koordinace napříč doménami | může současně řídit agenty ve všech 16 doménách platformy | veškerá koordinace se zaznamenává |
+| Nové vyjednání kontraktu | může zahájit nové vyjednání kontraktu Sparkline | stále nutné ověření White Teamem |
 
-### AIAD Definition Structure
+### Struktura definice AIAD
 
 ```yaml
 # .aiad/agents/archer-supreme.agent.md
@@ -98,21 +130,23 @@ agent-spec:
     command: "/archer-supreme"
     triggers: ["crisis", "impossible-objective", "strategic-analysis"]
 ```
+### Protokol provedení mise
 
-### Mission Execution Protocol
+Archer Supreme sleduje u každé mise přísný čtyřfázový protokol. Žádnou fázi nelze vynechat
+a každá musí splnit kritéria dokončení, než začne další:
 
-Archer Supreme follows a rigorous four-phase execution protocol for every mission. No phase can be skipped, and each phase must reach its completion criteria before the next begins:
-
-| Phase | Name | Description | Completion Criteria |
+| Fáze | Název | Popis | Kritéria dokončení |
 |-------|------|-------------|-------------------|
-| 1 | Supreme Tactical Assessment | Comprehensive analysis of the problem space, resource requirements, and success criteria | Confidence >= 0.80, resources identified |
-| 2 | Tactical Brilliance Application | Development of the execution plan with multiple contingencies | Plan validated, contingencies defined |
-| 3 | Supreme Execution | Implementation with surgical precision and continuous monitoring | All actions completed, zero regressions |
-| 4 | Legendary Victory Validation | Verification of results against success criteria with documentation | All criteria met, report generated |
+| 1 | Supreme Tactical Assessment (taktické posouzení) | komplexní analýza problému, potřebných zdrojů a kritérií úspěchu | důvěra ≥ 0,80, zdroje určeny |
+| 2 | Tactical Brilliance Application (návrh plánu) | vypracování plánu provedení s více záložními variantami | plán ověřen, záložní varianty definovány |
+| 3 | Supreme Execution (provedení) | implementace s chirurgickou přesností a průběžným sledováním | všechny akce dokončeny, žádné regrese |
+| 4 | Legendary Victory Validation (ověření výsledku) | ověření výsledků proti kritériím úspěchu s dokumentací | všechna kritéria splněna, zpráva vytvořena |
 
-### Confidence Framework
+### Rámec důvěry
 
-Archer Supreme operates with a confidence framework that maps directly to the [NABLA infinity](@/glossary/nabla-infinity.md) epistemic system, ensuring that decisions are evidence-based and uncertainty is explicitly quantified:
+Archer Supreme pracuje s rámcem důvěry, který se přímo mapuje na epistemický systém [NABLA
+Infinity](@/glossary/nabla-infinity.md); rozhodnutí tak stojí na důkazech a nejistota je
+výslovně kvantifikována:
 
 ```elixir
 defmodule PrismaticAgents.ArcherSupreme.Confidence do
@@ -157,12 +191,11 @@ defmodule PrismaticAgents.ArcherSupreme.Confidence do
   end
 end
 ```
+## Architektura a implementace
 
-## Architecture and Implementation
+### Mechanismus aktivace
 
-### Activation Mechanism
-
-Archer Supreme can be activated through three channels, each with different priority levels and response characteristics:
+Archer Supreme lze aktivovat třemi kanály s různou prioritou a charakterem odezvy:
 
 ```elixir
 defmodule PrismaticAgents.ArcherSupreme.Activation do
@@ -217,22 +250,21 @@ defmodule PrismaticAgents.ArcherSupreme.Activation do
   end
 end
 ```
+### Typy misí
 
-### Mission Types
-
-Archer Supreme handles several categories of missions, each with distinct characteristics:
-
-| Mission Type | Trigger | Duration | Example |
+| Typ mise | Spouštěč | Trvání | Příklad |
 |-------------|---------|----------|---------|
-| Crisis Intervention | Quality emergency, production outage | Minutes to hours | Quality score drops below 95% |
-| Impossible Objective | Direct command with complex requirements | Hours to days | Eliminate 905 QDP items in one session |
-| Strategic Analysis | Milestone review, architecture assessment | Hours | GitLab milestone strategic intelligence |
-| Agent Override | L4 violation, conflicting agent actions | Minutes | Resolve conflicting agent recommendations |
-| Cross-Domain Coordination | Multi-app task requiring unified direction | Hours | Platform-wide CASCADE elimination |
+| krizový zásah | nouzový stav kvality, výpadek produkce | minuty až hodiny | skóre kvality klesne pod 95 % |
+| nemožný cíl | přímý příkaz se složitými požadavky | hodiny až dny | odstranit 905 položek QDP v jednom sezení |
+| strategická analýza | revize milníků, posouzení architektury | hodiny | strategická analýza milníků GitLabu |
+| přepsání agenta | porušení L4, protichůdné akce agentů | minuty | vyřešit protichůdná doporučení agentů |
+| koordinace napříč doménami | úkol přes více aplikací vyžadující jednotné řízení | hodiny | odstranění vzorců CASCADE v celé platformě |
 
-### Integration with Color Teams
+### Integrace s Color Teams
 
-Archer Supreme coordinates with all six color teams when security-related missions arise, serving as the strategic command layer above the individual team commanders:
+Při misích souvisejících s bezpečností koordinuje Archer Supreme všech šest [Color
+Teams](@/glossary/color-teams.md) a slouží jako strategická velitelská vrstva nad veliteli
+jednotlivých týmů:
 
 ```
 Archer Supreme (L5 Authority)
@@ -269,12 +301,13 @@ Archer Supreme (L5 Authority)
         +-- black-theorist-commander (L3, ISOLATED)
         +-- black-abstraction-enforcer (L3, ISOLATED)
 ```
+Každý barevný tým dostává při bezpečnostních operacích napříč týmy taktické pokyny od
+Archer Supreme; syntetizačním uzlem pro zjištění všech ostatních týmů je Purple Team.
 
-Each color team receives tactical directives from Archer Supreme during cross-team security operations, with the Purple Team serving as the synthesis hub for findings from all other teams.
+## Zprávy o misích
 
-## Mission Report Generation
-
-Every Archer Supreme mission produces a formal report documenting the tactical assessment, actions taken, and results achieved:
+Každá mise vytváří formální zprávu, která dokumentuje taktické posouzení, provedené akce
+a dosažené výsledky:
 
 ```elixir
 defmodule PrismaticAgents.ArcherSupreme.Report do
@@ -335,10 +368,10 @@ defmodule PrismaticAgents.ArcherSupreme.Report do
   defp format_duration(_), do: "N/A"
 end
 ```
+## Oprávnění k přepsání a jeho správa
 
-## Override Authority and Governance
-
-The override authority is Archer Supreme's most powerful and most carefully governed capability. Every override is logged, justified, and auditable:
+Oprávnění k přepsání je nejsilnější a nejpečlivěji spravovanou schopností agenta. Každé
+přepsání je zaznamenáno, zdůvodněno a auditovatelné:
 
 ```elixir
 defmodule PrismaticAgents.ArcherSupreme.Override do
@@ -372,10 +405,9 @@ defmodule PrismaticAgents.ArcherSupreme.Override do
   end
 end
 ```
+## Použití v Prismatic Platform
 
-## Usage in Prismatic Platform
-
-### Strategic Milestone Analysis
+### Strategická analýza milníků
 
 ```bash
 # Archer Supreme milestone analysis invocation
@@ -391,8 +423,7 @@ end
 # - 4-phase execution plan generated
 # - Cross-milestone dependency mapping
 ```
-
-### Crisis Resolution Protocol
+### Protokol řešení krize
 
 ```elixir
 # Quality Floor Guardian escalation triggers Archer Supreme
@@ -415,8 +446,7 @@ defmodule PrismaticSafety.QualityFloorGuardian do
   end
 end
 ```
-
-### Impossible Objective Conversion
+### Převod nemožného cíle
 
 ```bash
 # Convert an impossible objective into a tactical plan
@@ -431,57 +461,61 @@ end
 # - Quality score: doctrine-enforced (PERFECT)
 # - All 13 quality domains: PASS
 ```
+## Osvědčené postupy
 
-## Best Practices
+1. **Vyhradit pro skutečné krize** – Archer Supreme je strategickým prostředkem. Nevolat jej
+   na rutinní úkoly, které zvládnou agenti L1–L4. Nadužívání oslabuje jeho účinnost při
+   krizích.
+2. **Dokumentovat každou aktivaci** – každá mise vytváří auditní stopu. Zprávy je třeba
+   procházet a hledat v nich vzorce, které pomohou budoucím krizím předejít.
+3. **Respektovat rámec důvěry** – vrátí-li posouzení důvěry `:exploratory`, mise potřebuje
+   před provedením další šetření. Nejvyšší jistotu nelze vynutit tam, kde je situace
+   nejistá.
+4. **Koordinovat, neřídit do detailu** – při koordinaci agentů nižších úrovní vydávat
+   strategické pokyny a taktické podrobnosti nechat specialistům. Hierarchie agentů má svůj
+   důvod.
+5. **Analýza po misi** – po každém vyřešení krize provést retrospektivu, najít kořenové
+   příčiny a předejít opakování. Vyřešená krize je vzorec, kterému je třeba předcházet.
+6. **Respektovat auditní stopu** – každé přepsání, každé obejití brány kvality, každá
+   nouzová akce musí být zaznamenány. Auditní stopa není byrokracie, ale správa.
 
-1. **Reserve for genuine crises** -- Archer Supreme is a strategic asset. Do not invoke it for routine tasks that L1-L4 agents can handle. Overuse dilutes its crisis-response effectiveness.
+## Časté chyby
 
-2. **Document every activation** -- Every Archer Supreme mission generates an audit trail. Review these reports to identify patterns and prevent future crises from occurring.
+- **Nadužívání:** aktivace na rutinní úkoly snižuje hodnotu krizových schopností a vytváří
+  zbytečnou režii. Zvládne-li úkol agent L3, ať jej řeší L3.
+- **Ignorování prahů důvěry:** pokračování s důvěrou `:moderate` u kritických misí riskuje
+  selhání. Před vysoce rizikovými operacemi je třeba počkat na důvěru `:supreme` podloženou
+  průchodem [Trinity Gate](@/glossary/trinity-gate.md).
+- **Vynechání ověření ve fázi 4:** fáze ověření zachytí jemné regrese, které se projeví až po
+  provedení všech změn. Nikdy ji nevynechávat, ani když se mise zdá úspěšná.
+- **Přepsání bez auditu:** uplatnění oprávnění k přepsání bez řádného záznamu vytváří mezery
+  ve správě. Každé přepsání musí být zdokumentováno se zdůvodněním a kontextem.
+- **Předčasná eskalace:** ne každý problém vyžaduje zásah L5. Systém úrovní je navržen tak,
+  aby se většina problémů vyřešila na L1–L3. Eskalovat na Archer Supreme jen tehdy, když
+  nižší úrovně prokazatelně nestačí.
 
-3. **Trust the confidence framework** -- If the confidence assessment returns `:exploratory`, the mission needs more investigation before execution. Do not force supreme confidence on uncertain situations.
+## Související pojmy
 
-4. **Coordinate, do not micromanage** -- When Archer Supreme coordinates lower-tier agents, issue strategic directives and let specialists handle tactical details. The agent hierarchy exists for a reason.
+Bez vlastního hesla v glosáři knihy: *Quality Floor Guardian* – systém sledování, který
+eskaluje na Archer Supreme.
 
-5. **Post-mission analysis** -- After every crisis resolution, conduct a retrospective to identify root causes and prevent recurrence. A crisis resolved is a pattern to prevent.
+## Související
 
-6. **Respect the audit trail** -- Every override, every quality gate bypass, every emergency action must be logged. The audit trail is not bureaucracy; it is governance.
+**Platforma**
 
-## Common Pitfalls
+- [Agent Tier](@/glossary/agent-tier.md) – úroveň L5 Supreme.
+- [Supreme Commander](@/glossary/supreme-commander.md) – agent L5 pro strategickou
+  koordinaci celé platformy.
+- [AIAD](@/glossary/aiad.md) – standard definic, jímž se agent řídí.
+- [Violation Protocol](@/glossary/violation-protocol.md) – porušení L4 eskalují do Supreme
+  Review.
+- [NM/ND Doctrine](@/glossary/nm-nd.md) – rámec vynucení všech operací nejvyšší úrovně.
+- [Strategic Command](@/glossary/strategic-command.md) – koordinační vrstva řízená agenty
+  L5.
+- [Agent Registry](@/glossary/agent-registry.md) – katalog, v němž je agent registrován.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec posouzení důvěry.
 
-- **Overuse**: Activating Archer Supreme for routine tasks devalues its crisis-response capabilities and creates unnecessary overhead. If an L3 agent can handle it, let the L3 handle it.
+**Kompendium**
 
-- **Ignoring confidence thresholds**: Proceeding with `:moderate` confidence on critical missions risks failure. Wait for `:supreme` confidence backed by Trinity Gate passage before committing to high-stakes operations.
-
-- **Skipping Phase 4 validation**: The victory validation phase catches subtle regressions that appear only after all changes are applied. Never skip it, even when the mission appears successful.
-
-- **Override without audit**: Exercising override authority without proper logging creates governance gaps. Every override must be documented with justification and context.
-
-- **Premature escalation**: Not every problem requires L5 intervention. The agent tier system is designed so that most problems are resolved at L1-L3. Escalate to Archer Supreme only when lower tiers demonstrably cannot resolve the issue.
-
-## Related Concepts
-
-- [Agent Tier](@/glossary/agent-tier.md) -- L5 Supreme classification level
-- [Supreme Commander](@/glossary/supreme-commander.md) -- Platform-wide strategic coordination L5 agent
-- [AIAD](@/glossary/aiad.md) -- Agent definition standard governing Archer Supreme
-- [Violation Protocol](@/glossary/violation-protocol.md) -- L4 violations escalate to Supreme Review
-- [NM/ND Doctrine](@/glossary/nm-nd.md) -- Enforcement framework for all supreme operations
-- [Strategic Command](@/glossary/strategic-command.md) -- L4 coordination tier managed by L5 agents
-- [Agent Registry](@/glossary/agent-registry.md) -- Central catalog where Archer Supreme is registered
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework backing confidence assessment
-- [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) -- Monitoring system that escalates to Archer Supreme
-
-## Further Reading
-
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog
-- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) -- Command invocation reference
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-
----
-
-## Connect & Contribute
-
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Archer Supreme: orchestrace EA](@/kompendium/aiad-integration/archer-supreme-ea-orchestration.md)
+  – role agenta v obraně proti technikám EA.

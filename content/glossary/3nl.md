@@ -1,7 +1,7 @@
 +++
 title = "3NL"
 weight = 10
-description = "Three Nested Levels architecture organizing the platform into hierarchical layers of abstraction for agents, knowledge, and system operations."
+description = "Three Nested Levels – architektura Prismatic Platform, která člení systém do tří vnořených úrovní abstrakce: strategické, taktické a operační."
 
 [taxonomies]
 tags = ["glossary", "architecture", "3nl", "prismatic"]
@@ -11,89 +11,138 @@ category = "architecture"
 acronym = "3NL"
 related_terms = ["pvm", "nabla-infinity", "aiad", "three-nl", "bounded-context", "supervisor", "adapter-pattern", "epistemic-pipeline"]
 author = "Tomas Korcak (korczis)"
-reading_time = "7 min"
-word_count = 1407
+reading_time = "8 min"
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
-keywords = ["3NL", "Three", "Nested", "Levels", "glossary", "architecture", "Prismatic Platform", "Level", "Domain"]
+date_modified = "2026-11-10"
+keywords = ["3NL", "Three Nested Levels", "vnořené úrovně", "glosář", "architektura", "Prismatic Platform", "úroveň", "doména"]
 quality_score = 72
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "3NL - Prismatic Platform"
+image_alt = "3NL – Prismatic Platform"
 +++
 
-## Definition
+## Definice
 
-3NL (Three Nested Levels) is the Prismatic Platform's foundational architectural framework that organizes all platform components into three hierarchical levels of abstraction. Derived from systems theory and layered architecture principles, 3NL establishes a strict separation of concerns where each level encapsulates the complexity of the level below while exposing a clean, well-defined interface to the level above. The term "3NL" serves as the canonical shorthand for the full [Three Nested Levels](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/) framework, appearing throughout code, configuration files, agent specifications, and technical documentation. The etymological origin combines the numeral "3" with the abbreviation "NL" (Nested Levels), reflecting the framework's emphasis on exactly three tiers of nesting -- no more, no fewer -- as the structurally optimal decomposition for managing complexity at the scale of 95 umbrella applications, 1,110 agent definitions (~70 runtime), and over ~99,800 lines of code.
+**3NL** (*Three Nested Levels*, tři vnořené úrovně) je základní architektonický rámec
+Prismatic Platform, který člení všechny součásti platformy do tří hierarchických úrovní
+abstrakce. Vychází z teorie systémů a z principů vrstvené architektury a zavádí přísné
+oddělení odpovědností: každá úroveň zapouzdřuje složitost úrovně pod sebou a úrovni nad
+sebou nabízí čisté, dobře definované rozhraní. Zkratka „3NL“ je kanonickým zkráceným
+označením celého rámce Three Nested Levels a objevuje se v kódu, konfiguračních souborech,
+specifikacích agentů i v technické dokumentaci. Spojuje číslici „3“ se zkratkou „NL“
+(*Nested Levels*) a vyjadřuje důraz rámce na přesně tři úrovně vnoření – ne víc a ne méně –
+jako na strukturálně optimální rozklad pro zvládnutí složitosti v měřítku platformy
+(v době zápisu 95 aplikací v umbrella projektu, 1 110 definic agentů, z nichž asi 70 běží,
+a přes 99 800 řádků kódu).
 
-The three levels -- Strategic (L1), Tactical (L2), and Operational (L3) -- correspond to decreasing levels of abstraction and increasing levels of implementation detail. L1 defines what the system does (public APIs, agent commands, dashboard interfaces). L2 defines how components coordinate (inter-app protocols, pipeline orchestration, quality enforcement). L3 defines how things actually work (OTP processes, storage adapters, [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/) primitives). This separation ensures that changes at one level do not cascade unnecessarily to others -- a storage adapter replacement at L3 does not affect the public API at L1.
+Tři úrovně – strategická (L1), taktická (L2) a operační (L3) – odpovídají klesající
+abstrakci a rostoucí míře implementačních podrobností. L1 definuje, *co* systém dělá
+(veřejná API, příkazy agentů, rozhraní dashboardu). L2 definuje, *jak* součásti
+spolupracují (protokoly mezi aplikacemi, orchestrace procesů, vynucování kvality). L3
+definuje, *jak věci skutečně fungují* (procesy OTP, adaptéry úložišť, primitiva BEAM). Toto
+oddělení zajišťuje, že se změny na jedné úrovni zbytečně nepřelévají do ostatních – výměna
+adaptéru úložiště na L3 neovlivní veřejné API na L1.
 
-## Overview
+**Poznámka k názvu:** v glosáři je i heslo [3NL – Three-Nested-Loops](@/glossary/three-nested-loops.md),
+které stejnou zkratku vykládá jako tři vnořené řídicí smyčky (mise, epocha, cyklus). Obě
+hesla popisují architekturu platformy z různých úhlů. Pro Kompendium je 3NL kontextem
+platformy, z níž kniha vzešla; kapitoly [Teoretické
+základy](@/kompendium/02-uvod/teoreticke-zaklady.md) a [Vztah k
+NABLA](@/kompendium/02-uvod/vztah-k-nabla.md) na něj odkazují, když vysvětlují, jak je
+[taxonomie EA](@/glossary/taxonomie-ea.md) zapojena do epistemického procesu platformy.
 
-The conceptual lineage of 3NL draws from several established traditions in software architecture. The OSI seven-layer networking model demonstrated that complex communication protocols could be decomposed into layers with well-defined interfaces. Alistair Cockburn's Hexagonal Architecture (Ports and Adapters) showed that separating application logic from external interfaces enables testability and flexibility. Domain-Driven Design's strategic patterns (Bounded Contexts, Anti-Corruption Layers) established that organizational boundaries should align with software boundaries. 3NL synthesizes these insights into a three-tier framework specifically optimized for the Erlang/OTP ecosystem, where processes, supervision trees, and message passing provide natural enforcement mechanisms for layer boundaries.
+## Přehled
 
-The significance of 3NL within the Prismatic Platform cannot be overstated. It governs the structure of every umbrella application, the design of every agent, the flow of every quality check, and the propagation of every epistemic signal through the [NABLA Infinity](@/glossary/nabla-infinity.md) pipeline. Without 3NL, the platform's 90 applications would devolve into an unmanageable web of cross-cutting dependencies. With 3NL, each application exposes a clean facade at L1, coordinates through well-defined protocols at L2, and implements its internals freely at L3 -- enabling independent evolution without system-wide ripple effects.
+Myšlenkový rodokmen 3NL čerpá z několika zavedených tradic softwarové architektury.
+Sedmivrstvý síťový model OSI ukázal, že složité komunikační protokoly lze rozložit do
+vrstev s dobře definovanými rozhraními. Hexagonální architektura Alistaira Cockburna (porty
+a adaptéry) ukázala, že oddělení aplikační logiky od vnějších rozhraní umožňuje
+testovatelnost a pružnost. Strategické vzory doménově řízeného návrhu (*Bounded Context*,
+*Anti-Corruption Layer*) ukázaly, že organizační hranice mají odpovídat hranicím softwaru
+(viz [Bounded Context](@/glossary/bounded-context.md)). 3NL tyto poznatky syntetizuje do
+tříúrovňového rámce optimalizovaného pro ekosystém Erlang/OTP, kde procesy, stromy
+supervize a předávání zpráv přirozeně vynucují hranice vrstev.
 
-The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic framework operates at 3NL Level 3 integration, meaning it is embedded across all three levels with enforcement mechanisms at each. The [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) (16 levels, L0-L13 + Meta + Consciousness) maps onto 3NL: lower epistemic levels (L0-L4) correspond to 3NL L3, middle levels (L5-L9) to 3NL L2, and upper levels (L10-L13 + Meta) to 3NL L1.
+Pro platformu má 3NL zásadní význam. Řídí strukturu každé aplikace umbrella projektu, návrh
+každého agenta, průběh každé kontroly kvality i šíření každého epistemického signálu
+procesem [NABLA Infinity](@/glossary/nabla-infinity.md). Bez 3NL by se 90 aplikací
+platformy (stav v době zápisu) proměnilo v neovladatelnou síť průřezových závislostí. S 3NL
+každá aplikace nabízí čistou fasádu na L1, koordinuje se dobře definovanými protokoly na L2
+a své vnitřní fungování implementuje volně na L3 – a může se tak vyvíjet nezávisle, bez
+vln dopadů na celý systém.
 
-## Technical Details
+Epistemický rámec [NABLA Infinity](@/glossary/nabla-infinity.md) pracuje na úrovni
+integrace 3NL Level 3, tedy je zabudován do všech tří úrovní s mechanismy vynucení na
+každé z nich. [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) (16 úrovní, L0–L13
 
-### Level 1: Strategic (Public Interface)
++ Meta + Consciousness) se na 3NL mapuje takto: nižší epistemické úrovně (L0–L4) odpovídají
+3NL L3, střední (L5–L9) 3NL L2 a horní (L10–L13 + Meta) 3NL L1.
 
-The outermost level visible to external consumers and high-level orchestration. L1 components define the platform's capabilities without exposing implementation mechanics.
+## Technické podrobnosti
 
-| Component | L1 Manifestation | Example |
+### Úroveň 1: strategická (veřejné rozhraní)
+
+Nejvnější úroveň, viditelná pro vnější uživatele a pro orchestraci na vysoké úrovni.
+Součásti L1 definují schopnosti platformy, aniž by odhalovaly mechaniku implementace.
+
+| Součást | Projev na L1 | Příklad |
 |-----------|-----------------|---------|
-| **API** | [REST](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rest-api/) and [GraphQL](https://prismatic-reality-com.github.io/prismatic-promo/glossary/graphql/) endpoints | `POST /api/v1/perimeter/discover` |
-| **Agents** | Command interfaces | `/archer-supreme`, `/orchestrate` |
-| **Dashboard** | [LiveView](https://prismatic-reality-com.github.io/prismatic-promo/glossary/liveview/) pages | `/perimeter`, `/perimeter/assets` |
-| **Quality** | Score display, grade output | Quality doctrine-enforced, 13/13 domains |
-| **Integration** | External system adapters | [OpenAPI](https://prismatic-reality-com.github.io/prismatic-promo/glossary/openapi/) spec, webhook endpoints |
+| **API** | koncové body REST a GraphQL | `POST /api/v1/perimeter/discover` |
+| **Agenti** | rozhraní příkazů | `/archer-supreme`, `/orchestrate` |
+| **Dashboard** | stránky LiveView | `/perimeter`, `/perimeter/assets` |
+| **Kvalita** | zobrazení skóre, výstup hodnocení | kvalita vynucená doktrínou, 13/13 domén |
+| **Integrace** | adaptéry vnějších systémů | specifikace OpenAPI, koncové body webhooků |
 
-### Level 2: Tactical (Internal Coordination)
+### Úroveň 2: taktická (vnitřní koordinace)
 
-The middle level handling coordination between platform components. L2 defines the protocols and patterns through which L1 capabilities are assembled from L3 primitives.
+Prostřední úroveň, která zajišťuje koordinaci mezi součástmi platformy. L2 definuje
+protokoly a vzory, jimiž se schopnosti L1 skládají z primitiv L3.
 
-| Component | L2 Manifestation | Example |
+| Součást | Projev na L2 | Příklad |
 |-----------|-----------------|---------|
-| **Communication** | Inter-app messaging, [PubSub](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pubsub/) | Agent-to-agent event routing |
-| **Pipelines** | [Data pipeline](https://prismatic-reality-com.github.io/prismatic-promo/glossary/data-pipeline/) orchestration | OSINT source aggregation flow |
-| **Quality** | Gate enforcement, QDP tracking | `mix quality.gates` pipeline |
-| **Coordination** | [Domain-Driven Design](https://prismatic-reality-com.github.io/prismatic-promo/glossary/domain-driven-design/) boundaries | [Bounded Context](@/glossary/bounded-context.md) protocols |
-| **Evolution** | Autoevolve and autoheal cycles | `mix autoevolve.scan` |
+| **Komunikace** | zasílání zpráv mezi aplikacemi, PubSub | směrování událostí mezi agenty |
+| **Procesy** | orchestrace datových procesů | tok agregace zdrojů OSINT |
+| **Kvalita** | vynucení bran, sledování [QDP](@/glossary/qdp.md) | proces `mix quality.gates` |
+| **Koordinace** | hranice doménově řízeného návrhu | protokoly [Bounded Context](@/glossary/bounded-context.md) |
+| **Evoluce** | cykly [AutoEvolve](@/glossary/autoevolve.md) a [AutoHeal](@/glossary/autoheal.md) | `mix autoevolve.scan` |
 
-### Level 3: Operational (Implementation)
+### Úroveň 3: operační (implementace)
 
-The innermost level containing implementation details. L3 is where the actual work happens, using OTP primitives, storage operations, and BEAM capabilities.
+Nejvnitřnější úroveň s implementačními podrobnostmi. Na L3 probíhá skutečná práce –
+s primitivy OTP, operacemi úložiště a schopnostmi BEAM.
 
-| Component | L3 Manifestation | Example |
+| Součást | Projev na L3 | Příklad |
 |-----------|-----------------|---------|
-| **Processes** | GenServers, [Supervisors](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/), Tasks | Agent runtime processes |
-| **Storage** | [Adapter pattern](@/glossary/adapter-pattern.md) implementations | ETS, Ecto, Meilisearch backends |
-| **BEAM** | Process scheduling, message passing | [Message Passing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/message-passing/) |
-| **Memory** | ETS tables, process heaps | O(1) pattern detection caches |
-| **System** | OS interaction, file I/O, networking | Certificate transparency log queries |
+| **Procesy** | GenServery, supervizory, úlohy | běhové procesy agentů |
+| **Úložiště** | implementace [Adapter Pattern](@/glossary/adapter-pattern.md) | backendy ETS, Ecto, Meilisearch |
+| **BEAM** | plánování procesů, předávání zpráv | předávání zpráv |
+| **Paměť** | tabulky ETS, haldy procesů | mezipaměti pro detekci vzorů v O(1) |
+| **Systém** | interakce s OS, souborový vstup a výstup, síť | dotazy do logů Certificate Transparency |
 
-### Integration Matrix
+### Integrační matice
 
-The following matrix shows how major platform subsystems manifest at each 3NL level:
+Následující matice ukazuje, jak se hlavní subsystémy platformy projevují na jednotlivých
+úrovních 3NL:
 
-| Subsystem | L1 (Strategic) | L2 (Tactical) | L3 (Operational) |
+| Subsystém | L1 (strategická) | L2 (taktická) | L3 (operační) |
 |-----------|----------------|----------------|-------------------|
-| **Agents** | Command interface | Agent coordination | GenServer state |
-| **Quality** | Quality score API | Gate pipeline | Credo/Dialyzer checks |
-| **Storage** | Query API | [Adapter](@/glossary/adapter-pattern.md) routing | ETS/Ecto operations |
-| **NABLA** | Confidence output | Axiom evaluation | Signal processing |
-| **Perimeter** | EASM dashboard | Scanner orchestration | DNS/TLS probing |
-| **Security** | Rating display (A-F) | [Color team](@/glossary/color-teams.md) coordination | Individual agent checks |
-| **Evolution** | Status reporting | Evolution pipeline | Mutation/selection ops |
+| **Agenti** | rozhraní příkazů | koordinace agentů | stav GenServeru |
+| **Kvalita** | API skóre kvality | proces bran | kontroly Credo/Dialyzer |
+| **Úložiště** | dotazovací API | směrování [adaptérů](@/glossary/adapter-pattern.md) | operace ETS/Ecto |
+| **NABLA** | výstup důvěry | vyhodnocení axiomů | zpracování signálů |
+| **Perimetr** | dashboard [EASM](@/glossary/easm.md) | orchestrace skenerů | sondy DNS/TLS |
+| **Bezpečnost** | zobrazení hodnocení (A–F) | koordinace [Color Teams](@/glossary/color-teams.md) | kontroly jednotlivých agentů |
+| **Evoluce** | hlášení stavu | evoluční proces | operace mutace a selekce |
 
-## Implementation in Prismatic Platform
+## Implementace v Prismatic Platform
 
-3NL boundaries are enforced through Elixir's module system and architectural conventions. Each umbrella application follows a consistent pattern where the top-level module serves as the L1 facade, internal coordination modules handle L2 orchestration, and implementation modules operate at L3:
+Hranice 3NL se vynucují modulovým systémem Elixiru a architektonickými konvencemi. Každá
+aplikace umbrella projektu sleduje stejný vzor: modul nejvyšší úrovně slouží jako fasáda
+L1, vnitřní koordinační moduly zajišťují orchestraci L2 a implementační moduly pracují na
+L3:
 
 ```elixir
-# L1: Public facade -- the ONLY module external consumers call
+# L1: veřejná fasáda – JEDINÝ modul, který volají vnější uživatelé
 defmodule PrismaticPerimeter do
   @moduledoc "L1 Strategic API for External Attack Surface Management."
 
@@ -104,13 +153,13 @@ defmodule PrismaticPerimeter do
   defdelegate security_rating(domain), to: PrismaticPerimeter.Rating.Calculator
 end
 
-# L2: Internal coordination -- coordinates L3 components
+# L2: vnitřní koordinace – koordinuje součásti L3
 defmodule PrismaticPerimeter.Orchestrator do
   @moduledoc "L2 Tactical orchestration for discovery pipeline."
   use GenServer
 
   def discover(domain) do
-    # Coordinates multiple L3 scanners
+    # Koordinuje více skenerů L3
     with {:ok, dns} <- Scanner.DNS.scan(domain),
          {:ok, tls} <- Scanner.TLS.scan(domain),
          {:ok, ports} <- Scanner.Port.scan(domain) do
@@ -119,13 +168,13 @@ defmodule PrismaticPerimeter.Orchestrator do
   end
 end
 
-# L3: Implementation -- actual scanning logic
+# L3: implementace – vlastní logika skenování
 defmodule PrismaticPerimeter.Scanner.DNS do
   @moduledoc "L3 Operational DNS scanning implementation."
 
   @spec scan(String.t()) :: {:ok, [map()]} | {:error, atom()}
   def scan(domain) do
-    # Direct DNS resolution, zone transfer attempts, etc.
+    # Přímé překlady DNS, pokusy o přenos zóny atd.
     with {:ok, records} <- resolve_records(domain),
          {:ok, subdomains} <- enumerate_subdomains(domain) do
       {:ok, records ++ subdomains}
@@ -134,10 +183,11 @@ defmodule PrismaticPerimeter.Scanner.DNS do
 end
 ```
 
-The AIAD agent standard follows 3NL structure. Every agent specification declares its level and the interfaces it exposes at each level:
+Standard agentů [AIAD](@/glossary/aiad.md) sleduje strukturu 3NL. Každá specifikace agenta
+deklaruje svou úroveň a rozhraní, která na každé úrovni nabízí:
 
 ```elixir
-# Agent following 3NL structure
+# Agent sledující strukturu 3NL
 defmodule PrismaticAgents.PerimeterScanner do
   @moduledoc """
   L1: Command interface via /perimeter-scan
@@ -149,13 +199,13 @@ defmodule PrismaticAgents.PerimeterScanner do
     command: "/perimeter-scan",
     domain: :security
 
-  # L1: Public command handler
+  # L1: veřejný obslužný kód příkazu
   @impl true
   def handle_command("/perimeter-scan", args, state) do
     {:ok, initiate_scan(args, state)}
   end
 
-  # L2: Inter-agent coordination
+  # L2: koordinace mezi agenty
   @impl true
   def handle_info({:agent_event, :vulnerability_found, data}, state) do
     Phoenix.PubSub.broadcast(Prismatic.PubSub, "security:findings", data)
@@ -164,59 +214,86 @@ defmodule PrismaticAgents.PerimeterScanner do
 end
 ```
 
-## Comparison with Alternatives
+## Srovnání s alternativami
 
-| Architecture | Layers | Enforcement | Flexibility | Prismatic Fit |
+| Architektura | Vrstvy | Vynucení | Pružnost | Vhodnost pro platformu |
 |-------------|--------|-------------|-------------|---------------|
-| **3NL** | 3 (Strategic/Tactical/Operational) | Module system + conventions | High within levels | Purpose-built |
-| **Hexagonal** | 2 (Core + Ports/Adapters) | Port interfaces | High | Good for storage layer |
-| **Clean Architecture** | 4 (Entity/Use Case/Interface/Framework) | Dependency rule | Medium | Overly granular for OTP |
-| **Onion Architecture** | 4+ (Core/Domain/Application/Infrastructure) | Inward dependencies | Medium | Similar to Clean |
-| **N-Tier** | N (typically 3: Presentation/Business/Data) | Deployment boundaries | Low | Too infrastructure-focused |
-| **Microservices** | Per service | Service boundaries | Very High | Against OTP philosophy |
+| **3NL** | 3 (strategická/taktická/operační) | modulový systém + konvence | vysoká uvnitř úrovní | navržena pro tento účel |
+| **Hexagonální** | 2 (jádro + porty/adaptéry) | rozhraní portů | vysoká | dobrá pro vrstvu úložiště |
+| **Clean Architecture** | 4 (entita/případ užití/rozhraní/framework) | pravidlo závislostí | střední | pro OTP příliš jemná |
+| **Onion Architecture** | 4+ (jádro/doména/aplikace/infrastruktura) | závislosti dovnitř | střední | podobná Clean |
+| **N-Tier** | N (obvykle 3: prezentace/byznys/data) | hranice nasazení | nízká | příliš zaměřená na infrastrukturu |
+| **Mikroslužby** | podle služby | hranice služeb | velmi vysoká | proti filozofii OTP |
 
-The key advantage of 3NL over alternatives is its alignment with OTP's natural process hierarchy. A GenServer (L3) is supervised by a Supervisor (L2-L3 boundary), which is started by an Application (L1-L2 boundary). 3NL codifies what OTP already encourages rather than imposing an alien structure.
+Hlavní výhodou 3NL oproti alternativám je soulad s přirozenou hierarchií procesů v OTP.
+GenServer (L3) je supervidován supervizorem (hranice L2–L3), kterého spouští aplikace
+(hranice L1–L2). 3NL kodifikuje to, k čemu OTP už samo vede, místo aby vnucovalo cizí
+strukturu.
 
-## Best Practices
+## Osvědčené postupy
 
-**Dependency Direction**: Dependencies must flow inward (L1 depends on L2 depends on L3, never reverse). An L3 module must never import or call an L1 module directly. If L3 needs to notify L1, it emits an event through L2's PubSub coordination layer.
+**Směr závislostí:** závislosti musí směřovat dovnitř (L1 závisí na L2, L2 na L3, nikdy
+naopak). Modul L3 nesmí přímo importovat ani volat modul L1. Potřebuje-li L3 upozornit L1,
+vyšle událost přes koordinační vrstvu PubSub na L2.
 
-**Single Level Crossing**: Components should only communicate with adjacent levels. An L1 facade should delegate to L2 coordinators, not reach directly into L3 implementations. This ensures that L3 can be freely refactored without breaking L1 contracts.
+**Přechod jen o jednu úroveň:** součásti mají komunikovat jen se sousedními úrovněmi.
+Fasáda L1 má delegovat na koordinátory L2, nikoli sahat přímo do implementací L3. Tím se
+zajistí, že L3 lze volně refaktorovat, aniž by se porušily kontrakty L1.
 
-**Interface Stability**: L1 interfaces change rarely and follow semantic versioning. L2 protocols evolve with coordination requirements. L3 implementations can change freely as long as L2 contracts are maintained. This graduated stability enables rapid iteration where it matters (implementation) with stability where it is needed (public interfaces).
+**Stabilita rozhraní:** rozhraní L1 se mění zřídka a řídí se sémantickým verzováním.
+Protokoly L2 se vyvíjejí s požadavky koordinace. Implementace L3 se mohou měnit volně,
+pokud zůstanou zachovány kontrakty L2. Tato odstupňovaná stabilita dovoluje rychlé změny
+tam, kde na nich záleží (implementace), a stabilitu tam, kde je potřeba (veřejná rozhraní).
 
-**Level-Appropriate Abstraction**: Each level uses vocabulary appropriate to its concerns. L1 speaks in domain terms ("discover attack surface", "assess compliance"). L2 speaks in coordination terms ("route to scanner", "aggregate results"). L3 speaks in implementation terms ("resolve DNS record", "parse TLS certificate").
+**Abstrakce přiměřená úrovni:** každá úroveň používá slovník odpovídající jejím úkolům. L1
+mluví doménovými pojmy („odhalit útočnou plochu“, „posoudit soulad“), L2 pojmy koordinace
+(„směrovat ke skeneru“, „sloučit výsledky“), L3 implementačními pojmy („přeložit záznam
+DNS“, „rozebrat certifikát TLS“).
 
-**Encapsulation**: Each level hides complexity from the level above. An L1 consumer does not know whether L3 uses ETS or PostgreSQL for storage. An L2 coordinator does not know the specific DNS resolution algorithm used by L3.
+**Zapouzdření:** každá úroveň skrývá složitost před úrovní nad sebou. Uživatel L1 neví, zda
+L3 ukládá data do ETS, nebo do PostgreSQL. Koordinátor L2 nezná konkrétní algoritmus
+překladu DNS, který L3 používá.
 
-## Use Cases
+## Případy užití
 
-**New Application Design**: When adding a new umbrella application, the developer first defines the L1 public facade (what capabilities does this app expose?), then designs the L2 coordination layer (how does it interact with other apps?), and finally implements L3 (what OTP processes and storage does it need?). This top-down approach ensures the application's external contract is designed before implementation details are considered.
+**Návrh nové aplikace:** při přidání nové aplikace do umbrella projektu vývojář nejprve
+definuje veřejnou fasádu L1 (jaké schopnosti aplikace nabízí?), pak navrhne koordinační
+vrstvu L2 (jak spolupracuje s ostatními aplikacemi?) a nakonec implementuje L3 (jaké
+procesy OTP a jaké úložiště potřebuje?). Tento postup shora dolů zajišťuje, že vnější
+kontrakt aplikace je navržen dřív, než se řeší implementační podrobnosti.
 
-**Quality Enforcement**: The quality infrastructure operates across all three levels. L1 exposes quality scores through the dashboard and API. L2 coordinates quality gate execution across applications. L3 runs individual checks (Credo, Dialyzer, coverage). This separation means that adding a new L3 quality check requires no changes to L1 or L2.
+**Vynucení kvality:** infrastruktura kvality působí na všech třech úrovních. L1 zobrazuje
+skóre kvality v dashboardu a v API. L2 koordinuje spouštění bran kvality napříč
+aplikacemi. L3 spouští jednotlivé kontroly (Credo, Dialyzer, pokrytí testy). Díky tomuto
+oddělení přidání nové kontroly kvality na L3 nevyžaduje žádnou změnu na L1 ani L2.
 
-**Agent Development**: Every AIAD agent follows 3NL. The agent's command interface (L1) is defined in its `.agent.md` specification. Its coordination with other agents (L2) uses PubSub and event protocols. Its internal logic (L3) uses GenServer state and OTP primitives.
+**Vývoj agentů:** každý agent AIAD sleduje 3NL. Rozhraní příkazů agenta (L1) je definováno
+v jeho specifikaci `.agent.md`. Jeho koordinace s jinými agenty (L2) využívá PubSub
+a protokoly událostí. Jeho vnitřní logika (L3) využívá stav GenServeru a primitiva OTP.
 
-**Storage Migration**: When migrating from one storage backend to another (e.g., ETS to Ecto for a specific domain), only L3 adapter code changes. L2 routing configuration points to the new adapter. L1 consumers experience zero changes. This isolation has been exercised repeatedly across the platform's multi-adapter storage architecture.
+**Migrace úložiště:** při přechodu z jednoho backendu úložiště na jiný (například z ETS na
+Ecto pro určitou doménu) se mění jen kód adaptéru na L3. Konfigurace směrování na L2 ukáže
+na nový adaptér. Uživatelé L1 nezaznamenají žádnou změnu. Tato izolace se opakovaně
+osvědčila v architektuře úložiště platformy s více adaptéry.
 
-## Related Concepts
+## Související
 
-- [Three-NL](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/) - Full name of the Three Nested Levels framework
-- [PVM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pvm/) - Platform Virtual Machine organized by 3NL
-- [NABLA Infinity](@/glossary/nabla-infinity.md) - Epistemic framework at 3NL Level 3 integration
-- [Bounded Context](@/glossary/bounded-context.md) - Domain boundaries aligned with 3NL levels
-- [Adapter Pattern](@/glossary/adapter-pattern.md) - L3 pattern for pluggable implementations
-- [Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/) - OTP primitive at L3 providing process management
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) - Knowledge processing organized by 3NL
-- [Domain-Driven Design](https://prismatic-reality-com.github.io/prismatic-promo/glossary/domain-driven-design/) - Design methodology complementing 3NL
-- [AIAD](@/glossary/aiad.md) - Agent standard following 3NL structure
-- [REST API](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rest-api/) - L1 interface pattern for external access
+**Platforma**
 
----
+- [3NL – Three-Nested-Loops](@/glossary/three-nested-loops.md) – výklad téže zkratky jako
+  tří vnořených řídicích smyček.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec integrovaný do všech
+  úrovní 3NL.
+- [Bounded Context](@/glossary/bounded-context.md) – doménové hranice sladěné s úrovněmi
+  3NL.
+- [Adapter Pattern](@/glossary/adapter-pattern.md) – vzor L3 pro zaměnitelné implementace.
+- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – zpracování vědění uspořádané
+  podle 3NL.
+- [AIAD](@/glossary/aiad.md) – standard agentů sledující strukturu 3NL.
 
-## Connect & Contribute
+**Kompendium**
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md) – kde se kniha odvolává na
+  architekturu platformy.
+- [Vztah k NABLA](@/kompendium/02-uvod/vztah-k-nabla.md) – jak je taxonomie EA zapojena do
+  epistemického procesu platformy.

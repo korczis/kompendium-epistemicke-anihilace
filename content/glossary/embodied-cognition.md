@@ -1,56 +1,149 @@
 +++
-title = "Embodied Cognition"
+title = "Embodied cognition (vtělená kognice)"
 weight = 60
 
-description = "Theoretical framework holding that cognition is grounded in bodily interaction with the environment; somatic dimension is constitutive of meaning, not peripheral to it."
+description = "Teoretický rámec, podle něhož je poznávání zakotveno v tělesné interakci s prostředím; tělesná rovina je pro význam konstitutivní, ne okrajová. Význam pro epistemickou bezpečnost."
 
 [taxonomies]
-tags = ["glossary", "epistemic", "philosophy", "cognition"]
+tags = ["glossary", "epistemic", "philosophy", "cognitive", "kompendium"]
 
 [extra]
 category = "epistemic"
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "lebenswelt", "intentionalita", "metakognice", "narrative-trauma"]
 author = "Tomáš Korcak (korczis)"
-reading_time = "4 min"
-word_count = 540
+reading_time = "6 min"
+word_count = 1050
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
-keywords = ["embodied cognition", "enactivism", "Varela", "Thompson", "Rosch", "somatic cognition", "phenomenology"]
-quality_score = 88
-see_also = ["kompendium", "philosophy", "decisions"]
+date_modified = "2026-11-10"
+keywords = ["embodied cognition", "vtělená kognice", "enaktivismus", "Varela", "Thompson", "Rosch", "somatická kognice", "fenomenologie"]
+quality_score = 84
+see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"
-image_alt = "Embodied Cognition - glossary"
+image_alt = "Embodied cognition – glosář"
 +++
 
-## Definition
+## Definice
 
-**Embodied cognition** is the thesis — articulated most rigorously by Francisco Varela, Evan Thompson, and Eleanor Rosch in *The Embodied Mind* (1991) — that cognition is not a disembodied symbol manipulation occurring in an abstract computational substrate, but is constitutively shaped by the body's sensorimotor engagement with its environment. Under the **enactivist** programme, mind, body, and world are not three separable layers but a single coupled system: the cognizing organism *enacts* a world through patterns of sensorimotor coupling, and that world is what cognition is *about*.
+**Embodied cognition** (česky *vtělená kognice*) je teze – nejpřesněji formulovaná
+Franciscem Varelou, Evanem Thompsonem a Eleanor Roschovou v knize *The Embodied Mind*
+(1991) –, že poznávání není netělesná manipulace se symboly probíhající v abstraktním
+výpočetním substrátu, ale je konstitutivně utvářeno senzomotorickým zapojením těla do
+prostředí. V **enaktivistickém** programu nejsou mysl, tělo a svět tři oddělitelné vrstvy,
+ale jediný propojený systém: poznávající organismus *uskutečňuje* (*enacts*) svět vzorci
+senzomotorického propojení a tento svět je tím, *o čem* poznávání je.
 
-Three claims distinguish enactivism from classical cognitivism: (1) **Embodiment** — cognitive structures emerge from recurrent sensorimotor patterns; concepts like *up/down*, *near/far*, *grasping*, *holding* are not metaphors layered onto abstract logic, they are the foundation of logic. (2) **Embeddedness** — cognition is constitutively environmental; the boundary of the cognitive system is not the skull. (3) **Enaction** — meaning is not retrieved from a pre-given world; it is brought forth by the organism's history of structural coupling.
+Enaktivismus odlišují od klasického kognitivismu tři teze:
 
-For epistemic security, the consequence is decisive. Knowledge is not a set of propositional contents that can be safely transmitted independently of the body. Trauma, exhaustion, somatic dysregulation, vagal tone, interoceptive disorder — all of these are not "interferences" with cognition; they are constitutive components of it. An epistemically annihilated person is not merely a person with corrupted beliefs; they are a person whose **somatic ground for cognition** has been disrupted.
+1. **Vtělenost** – kognitivní struktury vznikají z opakujících se senzomotorických vzorců;
+   pojmy jako *nahoře/dole*, *blízko/daleko*, *uchopit*, *držet* nejsou metafory
+   navrstvené na abstraktní logiku, ale její základ.
+2. **Zasazenost** – poznávání je konstitutivně závislé na prostředí; hranicí kognitivního
+   systému není lebka.
+3. **Enakce** – význam se nevybírá z předem daného světa; vynořuje se z historie
+   strukturálního propojení organismu s prostředím.
 
-## Context
+## Původ a kontext pojmu
 
-In the Prismatic Platform's threat model, embodied cognition explains why **somatic dimensions of [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)** are not "side effects" but core damage. Several EA techniques in the [Kompendium](@/kompendium/_index.md) operate primarily through somatic disruption rather than propositional persuasion: chronic threat induction (sympathetic overdrive), shame conditioning (interoceptive collapse), sleep disruption, and forced cognitive load against vagal capacity. These are documented in [Kompendium → Somatické vektory](@/kompendium/03-zakladni-kategorie/somaticke-vektory.md) and link to specific techniques in the EA-1.6.x and EA-3.x families.
+Rámec navazuje na fenomenologii těla Maurice Merleau-Pontyho (viz kapitola
+[Merleau-Ponty: vtělená percepce](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)),
+na Husserlův pojem [Lebenswelt](@/glossary/lebenswelt.md) jako horizontu tělesné
+zkušenosti a na kognitivní lingvistiku Lakoffa a Johnsona (*Metaphors We Live By*, 1980).
+Thompson jej dále rozvinul v knize *Mind in Life* (2007). V Kompendiu se k tradici vztahují
+i kapitoly [Varela: enaktivismus](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)
+a [Thompson: Mind in Life](@/kompendium/07-teoreticke-reflexe/thompson-mind-in-life.md).
 
-The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats reports of somatic dysregulation in subjects as a **negative confidence signal** for any decision based on the subject's stated beliefs — an enactivist correction against the cognitivist fallacy that "what they say they believe" is detachable from "what state their body is in when they say it." Recovery protocols documented at [/kompendium/06-zotaveni/](@/kompendium/recovery-protocols/_index.md) integrate somatic-phenomenological work (Hanna, Levine, Porges) with classical cognitive therapy.
+## Jak se projevuje
 
-## See Also
+Pro epistemickou bezpečnost je důsledek rozhodující. Vědění není soubor propozičních obsahů,
+které lze bezpečně přenášet nezávisle na těle. Trauma, vyčerpání, tělesná dysregulace,
+vagový tonus, porucha [interocepce](@/glossary/interocepce.md) – nic z toho nejsou
+„rušivé vlivy“ na poznávání; jsou to jeho konstitutivní složky. V praxi se to ukazuje:
 
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Damage to epistemic structures including their somatic ground
-- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive process damage parallel to embodied disruption
-- [Lebenswelt](@/glossary/lebenswelt.md) — Husserlian lifeworld as horizon for embodied experience
-- [Intentionalita](@/glossary/intentionalita.md) — Phenomenological "aboutness" rooted in body
-- [Metakognice](@/glossary/metakognice.md) — Reflective monitoring depends on intact interoception
-- [Narrative Trauma](@/glossary/narrative-trauma.md) — Somatic-narrative damage in EA recovery
-- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
+- člověk po dlouhém nedostatku spánku přijímá tvrzení, která by jindy odmítl;
+- chronický strach zužuje pozornost na hrozbu a znemožňuje zvažovat alternativy;
+- stud se prožívá tělesně (sklopený pohled, ztuhnutí) a blokuje řeč i myšlení;
+- po zklidnění těla se „samo“ vrací schopnost uvažovat.
 
----
+## Mechanismus
 
-## Connect & Contribute
+Člověk zasažený [epistemickou anihilací](@/glossary/epistemicka-anihilace.md) není jen
+člověkem s narušenými přesvědčeními; je to člověk, jehož **tělesný základ poznávání** byl
+narušen. Vtělená kognice proto vysvětluje, proč **tělesné rozměry epistemické anihilace**
+nejsou „vedlejší účinky“, ale jádro poškození. Několik technik v
+[Kompendiu](@/kompendium/_index.md) působí především tělesným narušením, nikoli
+propozičním přesvědčováním: chronické navozování ohrožení (přetížení sympatiku),
+podmiňování studem (kolaps interocepce), narušování spánku a vynucená kognitivní zátěž nad
+kapacitu vagové regulace. Tyto vektory jsou popsány v kapitole [Somatické
+vektory](@/kompendium/03-zakladni-kategorie/somaticke-vektory.md) a souvisejí s technikami
+tělesné dominance ve skupině EA-1.5 (např. [EA-1.5.1 Strategická
+proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md)).
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+## Odlišení
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- **Klasický kognitivismus.** Mysl jako zpracování symbolů; tělo jako vstupní a výstupní
+  zařízení. Vtělená kognice tento model odmítá.
+- **[Predictive processing](@/glossary/predictive-processing.md).** Model mozku jako
+  predikčního stroje; slučitelný s vtělenou kognicí, ale ne totožný.
+- **Psychosomatika.** Zabývá se vlivem psychiky na tělo; vtělená kognice tvrdí víc – že tělo
+  je součástí poznávání samého.
+- **[Polyvagální teorie](@/glossary/polyvagalni-teorie.md).** Konkrétní (a diskutovaný)
+  model tělesné regulace bezpečí, který se v klinické praxi s rámcem vtělené kognice často
+  spojuje.
+
+## Význam pro Kompendium
+
+Na platformě, z níž kniha vzešla, [Decision Engine](@/glossary/decision-engine.md) považuje
+údaje o tělesné dysregulaci posuzované osoby za **negativní signál důvěryhodnosti** každého
+rozhodnutí, které stojí na jejích deklarovaných přesvědčeních. Je to enaktivistická oprava
+kognitivistického omylu, že „co říká, že věří“ lze oddělit od „v jakém stavu je její tělo,
+když to říká“.
+
+[Protokoly zotavení](@/kompendium/recovery-protocols/_index.md) spojují
+somaticko-fenomenologickou práci (Hanna, Levine, Porges) s klasickou kognitivní terapií:
+nejprve se obnovuje tělesná regulace, teprve na ní se staví práce s přesvědčeními.
+
+## Obrana a zotavení
+
+- **Tělo jako první linie obrany:** spánek, pohyb, pravidelný rytmus; rozhodnutí
+  nedělat ve stavu vyčerpání nebo akutního strachu (viz [Řízení kognitivní
+  zátěže](@/kompendium/self-defense-guides/10-cognitive-load-management.md)).
+- **Somatické uvědomění:** všímat si tělesných signálů nátlaku (viz [Somatické
+  uvědomění](@/kompendium/self-defense-guides/13-somatic-awareness.md)).
+- **Akutně:** [somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md)
+  před jakoukoli prací s obsahem.
+- **Pro profesionála:** zjišťovat tělesný stav klienta jako součást hodnocení jeho
+  epistemické situace, ne jako okrajový údaj.
+
+## Literatura
+
+- Francisco J. Varela, Evan Thompson, Eleanor Rosch: *The Embodied Mind: Cognitive Science
+  and Human Experience* (1991).
+- Evan Thompson: *Mind in Life* (2007).
+- George Lakoff, Mark Johnson: *Metaphors We Live By* (1980).
+- Maurice Merleau-Ponty: *Phénoménologie de la perception* (1945).
+
+## Související
+
+**Pojmy**
+
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – poškození epistemických
+  struktur včetně jejich tělesného základu.
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – poškození kognitivních procesů
+  souběžné s tělesným narušením.
+- [Lebenswelt](@/glossary/lebenswelt.md) – Husserlův žitý svět jako horizont tělesné
+  zkušenosti.
+- [Intencionalita](@/glossary/intentionalita.md) – fenomenologická „zaměřenost na“ zakořeněná
+  v těle.
+- [Metakognice](@/glossary/metakognice.md) – reflexivní sledování závisí na neporušené
+  interocepci.
+- [Narrative Trauma](@/glossary/narrative-trauma.md) – tělesně-narativní poškození při
+  zotavení z EA.
+
+**Kapitoly a zotavení**
+
+- [Somatické vektory](@/kompendium/03-zakladni-kategorie/somaticke-vektory.md) – tělesné
+  cesty působení.
+- [Somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md) – akutní
+  protokol.
+- [Varela: enaktivismus](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md) –
+  teoretická kapitola.

@@ -33,7 +33,7 @@ Kognitivní anihilaci charakterizuje pět definičních znaků:
 | **víceoblastní narušení** | současně je zasaženo více kognitivních oblastí, ne izolované funkce |
 | **postupné zhoršování** | pozvolný úpadek se sklonem ke zrychlení v pokročilých stadiích |
 | **funkční rozpojení** | narušení integrace a koordinace mezi kognitivními subsystémy |
-| **metakognitivní deficit** | oslabení schopnosti sledovat, hodnotit a regulovat vlastní procesy |
+| **[metakognitivní deficit](@/glossary/metakognitivni-deficit.md)** | oslabení schopnosti sledovat, hodnotit a regulovat vlastní procesy |
 | **strukturní regrese** | návrat k primitivnějším, méně diferencovaným formám kognitivního fungování |
 
 Úplná definice s diagnostickými kritérii je v kapitole [Definice](@/kompendium/02-uvod/definice.md).
@@ -48,7 +48,7 @@ Pojem je pracovním termínem Kompendia, který doplňuje epistemickou anihilaci
 - **paměť:** mezery, nejistota v pořadí událostí, obtížné vybavování i dobře známých věcí;
 - **výkonné funkce:** potíže s plánováním, s rozhodováním mezi možnostmi, s dokončením úkolu;
 - **myšlení:** [kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md), [kognitivní zploštění](@/glossary/kognitivni-zplosteni.md), zjednodušování na černobílé kategorie;
-- **metakognice:** člověk si zhoršení neuvědomuje, nebo je přičítá vlastní „slabosti“;
+- **[metakognice](@/glossary/metakognice.md):** člověk si zhoršení neuvědomuje, nebo je přičítá vlastní „slabosti“;
 - v akutní podobě [akutní kognitivní ochromení](@/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md).
 
 ### Obecný příklad
@@ -91,7 +91,7 @@ Pojem umožňuje oddělit dvě otázky, které se v praxi slévají: *jak dobře
 
 ## Literatura
 
-- Robert Jay Lifton: *Thought Reform and the Psychology of Totalism* (1961).
+- Robert Jay Lifton: *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* (1961).
 - Judith Lewis Herman: *Trauma and Recovery* (1992).
 
 ## Související

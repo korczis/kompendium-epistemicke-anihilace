@@ -208,7 +208,7 @@ end
 | **soulad s ochranou soukromí** | GDPR od návrhu, minimalizace dat | podle dodavatele | podle dodavatele, často neprůhledné | podle SIEM |
 | **hloubka integrace** | nativní OTP, Color Teams, NABLA | plugin/middleware | SDK/JavaScriptový tag | přeposílání logů |
 | **klasifikace v reálném čase** | pod sekundu, vážená jistotou | milisekundy, binární povolit/zakázat | sekundy, podle skóre | minuty až hodiny |
-| **epistemická důslednost** | soulad s axiomy NABLA, sledování původu | žádná | proprietární modely | korelační pravidla |
+| **epistemická důslednost** | soulad s [axiomy NABLA](@/glossary/nabla-axioms.md), sledování původu | žádná | proprietární modely | korelační pravidla |
 
 Hlavní odlišností HAWKEYE je začlenění do epistemické infrastruktury platformy. Na rozdíl od komerčních alternativ, které vydávají neprůhledné rizikové skóre, nesou klasifikace HAWKEYE úplná metadata o původu, úrovně jistoty a přiřazení přispívajících signálů – analytik tak rozumí nejen tomu, co bylo rozhodnuto, ale i proč, což naplňuje axiom NABLA *Provenance Mandatory* (povinný původ).
 

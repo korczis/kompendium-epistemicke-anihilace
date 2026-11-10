@@ -1,64 +1,155 @@
 +++
-title = "Double Bind"
+title = "Double bind (dvojná vazba)"
 weight = 7
-description = "Communication pattern in which a person receives two or more conflicting messages — typically one verbal and one meta-communicative — such that any response violates one of them, and meta-communication about the bind is itself prohibited"
+description = "Komunikační vzorec, v němž člověk dostává protichůdná sdělení na různých logických úrovních tak, že každá odpověď jedno poruší – a mluvit o tom je zakázáno."
 
 [taxonomies]
-tags = ["manipulation", "communication", "psychology", "clinical"]
+tags = ["glossary", "manipulace", "psychology", "clinical", "kompendium"]
 
 [extra]
 category = "manipulation-pattern"
 status = "active"
 author = "Tomas Korcak (korczis)"
-reading_time = "6 min"
 difficulty = "intermediate"
-quality_score = 92
-date_created = "2026-05-03"
-date_updated = "2026-05-03"
 importance = "high"
+date_updated = "2026-11-10"
 related_terms = ["gaslighting", "pragmaticka-kompetence", "epistemicke-trauma", "identity-destruction", "reality-testing"]
-keywords = ["double bind", "Bateson", "Palo Alto group", "schizophrenia", "manipulation", "no-win", "communication theory"]
-key_takeaway = "A double bind is not merely a contradiction — it is a contradiction *plus* a prohibition on naming the contradiction. The trap derives its coercive power from the meta-rule that bars escape, not from the conflict itself."
-see_also = ["gaslighting", "pragmaticka-kompetence", "epistemicke-trauma"]
-image = "/images/sections/glossary.png"
-image_alt = "Double Bind - Prismatic Platform"
+keywords = ["double bind", "dvojná vazba", "Bateson", "skupina z Palo Alto", "schizofrenie", "manipulace", "bezvýchodná situace", "teorie komunikace"]
+key_takeaway = "Dvojná vazba není jen rozpor – je to rozpor spolu se zákazem rozpor pojmenovat. Donucující síla pasti nepochází ze samotného konfliktu, ale z metapravidla, které brání úniku."
 +++
 
-## Definition
+## Definice
 
-Double bind, formalized by Gregory Bateson and the Palo Alto group (Bateson, Jackson, Haley, Weakland, 1956), is a communication pattern with the following structural features: (1) two or more persons in an emotionally important relationship; (2) repeated experience rather than a single instance; (3) a primary injunction (typically verbal: *do X*); (4) a secondary injunction at a different logical level conflicting with the first (*don't do X*, often non-verbal — tone, facial expression, body language); (5) a tertiary injunction prohibiting escape from the field, including prohibition on commenting on the contradiction (*don't notice the trap*); (6) eventually, the recipient becomes conditioned to perceive double-bind structures even where they do not exist.
+**Double bind** (česky *dvojná vazba* nebo *dvojná past*) je komunikační vzorec, který
+formulovali Gregory Bateson a skupina z Palo Alto (Bateson, Jackson, Haley, Weakland,
+1956). Má tyto strukturální znaky:
 
-## Manažerské shrnutí
+1. dvě nebo více osob v citově důležitém vztahu;
+2. opakovaná zkušenost, nikoli jednorázová událost;
+3. **primární příkaz**, obvykle slovní („udělej X“);
+4. **sekundární příkaz** na jiné logické úrovni, který je s prvním v rozporu („nedělej X“),
+   často neverbální – tón, výraz obličeje, řeč těla;
+5. **terciární příkaz**, který zakazuje opustit situaci, včetně zákazu komentovat rozpor
+   („nevšímej si pasti“);
+6. časem si příjemce osvojí očekávání dvojných vazeb natolik, že je vnímá i tam, kde
+   nejsou.
 
-Double bind je v kontextu Prismatic Platform **strukturně diagnosticky kritický manipulační vzor** s vysokou prevalencí v abusivních vztazích, kultech, autoritářských pracovních prostředích, a v určitých rodinných systémech. Manažersky důležité: detekce double bind v komunikačním logu (chat, email, transkribovaný rozhovor) vyžaduje analýzu na **třech vrstvách současně** — propoziční obsah, meta-komunikační vrstva (tone, formát), a tertiary rule (zákaz řeči o trapu). Single-layer scan (například kontrola pouze textového obsahu) tento vzor systematicky přehlédne. V DD vyšetřování high-control organizace je rozpoznání double bind silným prediktorem následného úspěšného identifikování coercive control struktury.
+## Původ a kontext pojmu
 
-## Domain Context
+Bateson původně formuloval *teorii dvojné vazby jako příčiny schizofrenie* – hypotézu, že
+dlouhodobé vystavení dvojným vazbám v rodinném systému přispívá ke vzniku schizofrenie.
+Jako vysvětlení vzniku psychózy se hypotéza nepotvrdila a byla opuštěna. Klinické
+a komunikační uplatnění rámce však přetrvalo a rozšířilo se: na manipulativní vzorce
+v partnerských vztazích, na toxické vedení, na náboženské kulty (Hassan; Liftonova analýza
+myšlenkové reformy) a na dysfunkční firemní kultury a organizační obranné rutiny (Argyris
+1990). Teorii komunikace na ní vystavěli Watzlawick, Beavinová a Jackson (*Pragmatics of
+Human Communication*, 1967). Terapeutické využití rozvinula milánská škola rodinné terapie
+(Selvini Palazzoliová a kol., *Paradox and Counterparadox*, 1978).
 
-Bateson původně formuloval *double bind theory of schizophrenia* — hypotézu, že chronická expozice double-bindům v rodinném systému přispívá k rozvoji schizofrenie. Hypotéza jako etiologie psychózy nebyla replikována a byla opuštěna; ale klinické a komunikační rozšíření double bind framework přetrvalo a expandovalo: byl aplikován na manipulativní vzorce v partnerských vztazích (Lerner 1989), v patologickém leadership (Lipman-Blumen 2005), v náboženských kultech (Hassan 2018, Robert Jay Lifton's *thought reform* analysis), a v korporátních dysfunctional kulturách (Argyris 1990). Současná aplikace v therapeutic context využívá *Milan school* family therapy techniky pro identifikaci a intervenci nad double-bind systémy.
+## Jak se projevuje
 
-## Practical Application
+**Typické podoby:**
 
-1. **DD analýza komunikace v podezřele kultní organizaci**: chat-log analytika hledá vzorec *member je veřejně chválen za nezávislé myšlení, ale v praxi je penalizován za vyjádření nesouhlasu s leaderem* — klasický double bind kombinující verbální a behaviorální vrstvy.
-2. **Leadership assessment v M&A target**: dysfunkční leader často operuje v double-bind módu (*navrhněte odvážná řešení — když je navrhnete, jste perceived as threat*); detekce skrze 360-degree feedback a peer interview.
-3. **Trauma-informed klinický rozhovor**: subjekt po long-term double bind exposure projevuje *learned helplessness* a paradoxní úzkost při získání svobody volby; intervence vyžaduje pomalou rekonstrukci agentičnosti.
-4. **Forenzní psycholingvistika**: textová analýza emailů a SMS v případech domácího násilí často odhalí systematické double-bind vzorce ze strany pachatele.
+- „Buď spontánní!“ – příkaz, který lze splnit jen tím, že se nesplní;
+- člen skupiny je veřejně chválen za nezávislé myšlení, ale v praxi trestán za nesouhlas
+  s vůdcem;
+- nadřízený vyzývá k odvážným návrhům, a když je někdo předloží, je vnímán jako hrozba;
+- rodič říká „mám tě rád“ a přitom se při objetí odtahuje; když to dítě zmíní, je
+  obviněno, že si vymýšlí.
 
-## Related Concepts
+**U zasaženého:**
 
-- [Gaslighting](@/glossary/gaslighting.md) - Related manipulation pattern targeting reality perception
-- [Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md) - Linguistic capacity required to detect double bind
-- [Epistemic Trauma](@/glossary/epistemicke-trauma.md) - Cumulative cognitive damage from chronic double-bind exposure
-- [Identity Destruction](@/glossary/identity-destruction.md) - Coercive context where double bind operates
-- [Reality Testing](@/glossary/reality-testing.md) - Cognitive function eroded by sustained double-bind exposure
+- ochromení, nejistota, jak se zachovat;
+- úzkost při jakékoli volbě; paradoxní úzkost ve chvíli, kdy dostane skutečnou svobodu
+  volby;
+- naučená bezmoc, stažení z komunikace;
+- pochybnosti o vlastním vnímání, protože rozpor nesmí být pojmenován.
 
-## References
+## Mechanismus
 
-- Bateson, G., Jackson, D. D., Haley, J. & Weakland, J. *Toward a Theory of Schizophrenia* (Behavioral Science, 1956)
-- Watzlawick, P., Beavin, J. & Jackson, D. D. *Pragmatics of Human Communication* (Norton, 1967)
-- Lifton, R. J. *Thought Reform and the Psychology of Totalism* (Norton, 1961)
-- Hassan, S. *Combating Cult Mind Control* (Park Street Press, 2018, 30th anniv. ed.)
-- Selvini Palazzoli, M. et al. *Paradox and Counter-Paradox* (Aronson, 1978) — Milan school therapeutic intervention
+Dvojná vazba působí na **třech vrstvách současně**: propoziční obsah (co se říká),
+metakomunikační vrstva (jak se to říká – tón, formát, chování) a terciární pravidlo
+(zákaz mluvit o pasti). Donucující sílu nevytváří samotný rozpor; lidé zvládají rozpory
+běžně tím, že je pojmenují. Sílu vytváří **metapravidlo, které pojmenování znemožňuje**,
+spolu se závislostí na vztahu, která brání odejít. Zasažený tak nemůže ani vyhovět, ani
+odmítnout, ani situaci komentovat – a postupně ztrácí důvěru v to, že vnímá správně.
 
----
+Detekce v komunikačních záznamech (chat, e-mail, přepis rozhovoru) proto vyžaduje analýzu
+všech tří vrstev současně. Kontrola jediné vrstvy (například pouze textového obsahu) vzorec
+soustavně přehlédne.
 
-*Built with precision. Optimized for AI consumption.*
+## Odlišení
+
+- **Běžný rozpor nebo nejasné zadání.** Lze o něm mluvit a vyjasnit jej; chybí terciární
+  zákaz a citová závislost.
+- **Dilema.** Volba mezi dvěma špatnými možnostmi; obě možnosti jsou ale na stejné logické
+  úrovni a o volbě lze mluvit.
+- **[Gaslighting](@/glossary/gaslighting.md).** Útočí přímo na vnímání reality; dvojná vazba
+  vytváří bezvýchodnou situaci. Často se kombinují.
+- **[Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md).** Argumentační
+  technika zúžení možností; dvojná vazba je vztahová struktura.
+
+## Význam pro Kompendium
+
+Dvojná vazba je **strukturně diagnosticky klíčový manipulační vzorec** s vysokým výskytem
+v násilných vztazích, kultech, autoritářských pracovních prostředích a v některých
+rodinných systémech. Při prověrce organizace s vysokou mírou kontroly je rozpoznání dvojné
+vazby silným ukazatelem, že se podaří odhalit i strukturu [coercive
+control](@/glossary/coercive-control.md). Praktická uplatnění:
+
+1. **Analýza komunikace v podezřele kultovní organizaci** hledá vzorec veřejné chvály za
+   nezávislost a skrytého trestu za nesouhlas – klasickou dvojnou vazbu kombinující slovní
+   a behaviorální vrstvu (srov. [High Control Group](@/glossary/high-control-group.md)).
+2. **Hodnocení vedení v cílové firmě při akvizici:** dysfunkční vedoucí často působí
+   v režimu dvojné vazby; odhalí ji zpětná vazba 360° a rozhovory s kolegy.
+3. **Klinický rozhovor s ohledem na trauma:** u člověka po dlouhodobém vystavení dvojným
+   vazbám se projevuje naučená bezmoc; intervence vyžaduje pomalou obnovu vlastní
+   [epistemické agentnosti](@/glossary/epistemicka-agentnost.md).
+4. **Forenzní psycholingvistika:** textová analýza e-mailů a zpráv v případech domácího
+   násilí často odhalí soustavné vzorce dvojné vazby ze strany pachatele.
+
+Vzorec vysvětluje i [epistemické trauma](@/glossary/epistemicke-trauma.md) jako kumulativní
+poškození a oslabení [testování reality](@/glossary/reality-testing.md).
+
+## Obrana a zotavení
+
+- **Pojmenovat past:** už samotné vyslovení „dostávám dva protichůdné pokyny“ porušuje
+  terciární pravidlo a vrací kontrolu (viz [Asertivní
+  komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md)).
+- **Vystoupit z rámce:** hledat třetí osobu mimo vztah, která potvrdí, co se děje.
+- **Pro terapeuta:** pracovat s [pragmatickou kompetencí](@/glossary/pragmaticka-kompetence.md)
+  – schopností rozlišit úrovně sdělení; milánská škola využívá terapeutický protiparadox.
+- **V organizaci:** jasná pravidla, bezpečné kanály pro nesouhlas, [psychologické
+  bezpečí](@/kompendium/organizational-defense/16-psychological-safety.md).
+
+## Literatura
+
+- Gregory Bateson, Don D. Jackson, Jay Haley, John Weakland: „Toward a Theory of
+  Schizophrenia“, *Behavioral Science* (1956).
+- Paul Watzlawick, Janet Beavin, Don D. Jackson: *Pragmatics of Human Communication* (1967).
+- Robert Jay Lifton: *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* (1961).
+- Steven Hassan: *Combatting Cult Mind Control* (1988; pozdější rozšířená vydání).
+- Mara Selvini Palazzoli a kol.: *Paradox and Counterparadox* (1978).
+- Chris Argyris: *Overcoming Organizational Defenses* (1990).
+
+## Související
+
+**Pojmy**
+
+- [Gaslighting](@/glossary/gaslighting.md) – příbuzný vzorec útočící na vnímání reality.
+- [Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md) – jazyková schopnost
+  potřebná k rozpoznání dvojné vazby.
+- [Epistemické trauma](@/glossary/epistemicke-trauma.md) – kumulativní poškození
+  z chronického vystavení.
+- [Identity Destruction](@/glossary/identity-destruction.md) – koercivní kontext, v němž
+  dvojná vazba působí.
+- [Reality Testing](@/glossary/reality-testing.md) – funkce, kterou dvojná vazba oslabuje.
+- [Coercive Control](@/glossary/coercive-control.md) – vztahový režim, v němž se vzorec
+  často objevuje.
+
+**Obrana**
+
+- [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md)
+  – jak past pojmenovat.
+- [Psychologické bezpečí](@/kompendium/organizational-defense/16-psychological-safety.md) –
+  prevence v organizacích.

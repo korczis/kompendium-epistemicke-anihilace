@@ -22,13 +22,13 @@ quality_score = 75
 
 ## Definice
 
-**Identity destruction** (*destrukce identity*) je soustavné rozkládání sebepojetí člověka pomocí nátlakových technik vlivu. Typický průběh má podobu cyklu [love bombing](@/glossary/love-bombing.md) → přepis identity → [odvržení](@/glossary/discard.md) (*discard*). Vzorec je doložen v dynamice sekt a [skupin s vysokou kontrolou](@/glossary/high-control-group.md), ve vztazích s [coercive control](@/glossary/coercive-control.md) a v násilných partnerských vztazích. Kompendium tyto vzorce katalogizuje v taxonomii EA (epistemická anihilace) spolu s detekčními signaturami a protokoly zotavení.
+**Identity destruction** (*destrukce identity*) je soustavné rozkládání sebepojetí člověka pomocí nátlakových technik vlivu. Typický průběh má podobu cyklu [love bombing](@/glossary/love-bombing.md) → přepis identity → [odvržení](@/glossary/discard.md) (*discard*). Vzorec je doložen v dynamice sekt a [skupin s vysokou kontrolou](@/glossary/high-control-group.md), ve vztazích s [coercive control](@/glossary/coercive-control.md) a v násilných partnerských vztazích. Kompendium tyto vzorce katalogizuje v taxonomii EA ([epistemická anihilace](@/glossary/epistemicka-anihilace.md)) spolu s detekčními signaturami a protokoly zotavení.
 
 Nejde o změnu identity jako takovou – lidé se mění neustále, a některé změny jsou hluboké a dobré. Destrukce identity je změna, která je **řízena zvenčí, slouží druhé straně a ničí schopnost člověka vlastní identitu utvářet**: hodnoty, vzpomínky, vztahy a vyprávění o sobě jsou nahrazeny verzí, kterou dodala skupina nebo partner, a po odvržení člověk nemá k čemu se vrátit.
 
 ## Původ a kontext pojmu
 
-Termín je popisný, ne diagnostický. Opírá se o výzkum reformy myšlení (Lifton 1961), zejména o Liftonova kritéria „sacred science“, „loading the language“ a „dispensing of existence“, o model [BITE](@/glossary/bite-model.md) Stevena Hassana (1988, 2015), který popisuje kontrolu chování, informací, myšlení a emocí, a o klinickou literaturu o komplexním traumatu (Herman 1992). Fáze love bombing a discard převzala literatura o narcistním zneužívání v blízkých vztazích. V Kompendiu pojem navazuje na [narativní identitu](@/glossary/narativni-identita.md) a na terminální protokol [identitní dekonstrukce](@/kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md).
+Termín je popisný, ne diagnostický. Opírá se o výzkum reformy myšlení (Lifton 1961), zejména o Liftonova kritéria „sacred science“, „[loading the language](@/glossary/loading-the-language.md)“ a „dispensing of existence“, o model [BITE](@/glossary/bite-model.md) Stevena Hassana (1988, 2015), který popisuje kontrolu chování, informací, myšlení a emocí, a o klinickou literaturu o komplexním traumatu (Herman 1992). Fáze love bombing a discard převzala literatura o narcistním zneužívání v blízkých vztazích. V Kompendiu pojem navazuje na [narativní identitu](@/glossary/narativni-identita.md) a na terminální protokol [identitní dekonstrukce](@/kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md).
 
 ## Jak se projevuje
 
@@ -83,7 +83,7 @@ Destrukce identity je společným jmenovatelem mnoha kazuistik – od [sektářs
 
 ## Literatura
 
-- Robert Jay Lifton: *Thought Reform and the Psychology of Totalism* (1961).
+- Robert Jay Lifton: *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* (1961).
 - Steven Hassan: *Combating Cult Mind Control* (1988; nové vyd. 2015).
 - Judith Lewis Herman: *Trauma and Recovery* (1992).
 

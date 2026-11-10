@@ -1,7 +1,7 @@
 +++
-title = "Bounded Context"
+title = "Bounded Context (ohraničený kontext)"
 weight = 23
-description = "Explicit boundary within which a domain model is defined and consistent, enabling context-specific modeling in complex systems"
+description = "Výslovná hranice, uvnitř níž je doménový model definován a konzistentní; strategický vzor doménově řízeného návrhu, podle něhož jsou členěny aplikace platformy."
 
 [taxonomies]
 tags = ["glossary", "architecture", "bounded-context", "prismatic"]
@@ -9,7 +9,6 @@ tags = ["glossary", "architecture", "bounded-context", "prismatic"]
 [extra]
 category = "architecture"
 subcategory = "domain-modeling"
-keywords = ["domain-driven-design", "bounded-context", "context-mapping", "ubiquitous-language", "anti-corruption-layer", "context-boundaries"]
 related_terms = ["domain-driven-design", "cqrs", "message-passing", "pubsub", "behaviour", "adapter-pattern", "event-sourcing", "process-isolation"]
 complexity = "advanced"
 implementation_guide = "yes"
@@ -31,51 +30,75 @@ design_principles = ["model-isolation", "context-autonomy", "explicit-boundaries
 communication_patterns = ["published-interface", "anti-corruption-layer", "context-map"]
 evolution_support = "high"
 author = "Tomas Korcak (korczis)"
-reading_time = "6 min"
-word_count = 1103
-date_created = "2026-02-23"
-date_modified = "2026-02-23"
 quality_score = 80
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "Bounded Context - Prismatic Platform"
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Definice
 
-A bounded context is a strategic [Domain-Driven Design](https://prismatic-reality-com.github.io/prismatic-promo/glossary/domain-driven-design/) pattern that defines an explicit boundary around a domain model where all terms, rules, and relationships are internally consistent. Within the boundary, every concept has a precise, unambiguous meaning. Across boundaries, the same word may mean entirely different things -- and this is not a defect but a deliberate design choice that allows each context to model its domain with maximum fidelity without being constrained by the modeling decisions of other contexts. The bounded context is DDD's primary tool for managing complexity in large systems: rather than attempting a single unified model of an entire business (which inevitably becomes an inconsistent compromise), the system is decomposed into contexts that each own their piece of the domain.
+**Bounded context** (česky *ohraničený kontext*) je strategický vzor doménově řízeného
+návrhu (*Domain-Driven Design*, DDD, Eric Evans 2003), který vymezuje výslovnou hranici
+kolem doménového modelu; uvnitř ní jsou všechny pojmy, pravidla a vztahy vnitřně
+konzistentní. Každý pojem má uvnitř hranice přesný, jednoznačný význam. Napříč hranicemi
+může totéž slovo znamenat něco úplně jiného – a to není vada, ale záměrná volba návrhu,
+která každému kontextu dovoluje modelovat jeho doménu co nejvěrněji, bez omezení
+rozhodnutími jiných kontextů. Ohraničený kontext je hlavním nástrojem DDD pro zvládání
+složitosti velkých systémů: místo jediného jednotného modelu celé organizace (který se
+nevyhnutelně stane nekonzistentním kompromisem) se systém rozloží na kontexty, z nichž každý
+vlastní svůj díl domény.
 
-The concept addresses a fundamental problem in software design: as systems grow, a single data model becomes a source of coupling and confusion. When the marketing team, the security team, and the infrastructure team all need to refer to a "customer," they mean different things. Marketing's customer has demographics and engagement scores. Security's customer has risk ratings and compliance postures. Infrastructure's customer has resource quotas and billing tiers. A bounded context allows each team (and each subsystem) to model "customer" as they understand it, with communication between contexts happening through well-defined interfaces rather than shared internal models.
+Pojem řeší základní problém návrhu softwaru: s růstem systému se jediný datový model stává
+zdrojem provázanosti a zmatku. Když marketing, bezpečnost a infrastruktura mluví
+o „zákazníkovi“, myslí každý něco jiného. Zákazník marketingu má demografii a skóre
+zapojení. Zákazník bezpečnosti má hodnocení rizika a stav souladu. Zákazník infrastruktury
+má kvóty zdrojů a tarif. Ohraničený kontext dovoluje každému týmu (a každému subsystému)
+modelovat „zákazníka“ po svém, přičemž komunikace mezi kontexty probíhá přes dobře definovaná
+rozhraní, ne přes sdílené vnitřní modely.
 
-In the Prismatic Platform, each umbrella app functions as a bounded context. The `prismatic_perimeter` context defines "asset" as an external attack surface element (a domain, IP address, certificate, or service exposed to the internet), while `prismatic_storage_core` defines it as a storable entity conforming to the `Storable` trait. These are not competing definitions -- they are context-appropriate definitions. Communication between these contexts flows through Elixir [protocols](https://prismatic-reality-com.github.io/prismatic-promo/glossary/plug/) and [behaviours](https://prismatic-reality-com.github.io/prismatic-promo/glossary/behaviour/) defined in `prismatic_storage_core`, which acts as the shared kernel providing traits and contracts without imposing domain-specific semantics.
+Na Prismatic Platform funguje každá aplikace umbrella projektu jako ohraničený kontext.
+Kontext `prismatic_perimeter` definuje „aktivum“ jako prvek vnější útočné plochy (doménu, IP
+adresu, certifikát nebo službu vystavenou internetu – viz [EASM](@/glossary/easm.md)),
+zatímco `prismatic_storage_core` jako uložitelnou entitu splňující rys `Storable`. Nejde
+o soupeřící definice, ale o definice přiměřené kontextu. Komunikace mezi těmito kontexty
+probíhá přes protokoly a behaviours Elixiru definované v `prismatic_storage_core`, který
+slouží jako sdílené jádro s rysy a kontrakty, aniž by vnucoval doménově specifický význam.
 
-## Context Boundaries in the Prismatic Platform
+**Vztah ke knize:** pojem patří do kontextu platformy, z níž Kompendium vzešlo. Pro knihu je
+poučný z opačné strany: co je v softwaru záměrná volba (týž výraz s jiným významem v jiném
+kontextu), je v manipulaci častým nástrojem – nevyslovená změna kontextu, v němž se slovo
+vykládá (srov. [Motte and Bailey](@/glossary/motte-and-bailey.md), [EA-4.3.3 Semantic
+stability disruption](@/kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md)
+a detekční signaturu [Sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md)).
+Obranou je totéž, co DDD požaduje: výslovně vymezit, v jakém kontextu pojem platí.
 
-### Umbrella Apps as Bounded Contexts
+## Hranice kontextů na Prismatic Platform
 
-The Prismatic Platform's 90+ umbrella apps map directly to bounded contexts. Each app has:
+### Aplikace umbrella projektu jako ohraničené kontexty
 
-- **Its own `mix.exs`**: Declaring explicit dependencies on other contexts
-- **Its own namespace**: `PrismaticPerimeter.*`, `PrismaticAgents.*`, `PrismaticSafety.*`
-- **Its own `CLAUDE.md`**: Documenting the context's ubiquitous language and responsibilities
-- **Its own tests**: Verifying context-internal behavior independently
-- **Its own quality DNA**: Tracking quality metrics within the context boundary
+Aplikace umbrella projektu (v době zápisu 90+) odpovídají přímo ohraničeným kontextům. Každá
+aplikace má:
 
-| Context (App) | Domain | Core Entities | Ubiquitous Language |
+- **vlastní `mix.exs`** s výslovnými závislostmi na jiných kontextech;
+- **vlastní jmenný prostor**: `PrismaticPerimeter.*`, `PrismaticAgents.*`, `PrismaticSafety.*`;
+- **vlastní `CLAUDE.md`**, který dokumentuje všudypřítomný jazyk a odpovědnosti kontextu;
+- **vlastní testy**, které ověřují chování uvnitř kontextu nezávisle;
+- **vlastní quality DNA**, která sleduje metriky kvality uvnitř hranice kontextu.
+
+| Kontext (aplikace) | Doména | Klíčové entity | Všudypřítomný jazyk |
 |--------------|--------|---------------|---------------------|
-| `prismatic_perimeter` | EASM | Asset, SecurityRating, ComplianceAssessment | "discover," "assess," "rate" |
-| `prismatic_agents` | Agent Management | Agent, Tier, Mission, Capability | "deploy," "execute," "evolve" |
-| `prismatic_safety` | Quality Enforcement | QualityGate, Violation, HealingCycle | "enforce," "detect," "heal" |
-| `prismatic_storage_core` | Storage Contracts | Trait, Protocol, Behaviour | "store," "retrieve," "adapt" |
-| `prismatic_storage_ets` | ETS Storage | Table, Cache, TTL | "cache," "lookup," "expire" |
-| `prismatic_storage_ecto` | Database Storage | Repo, Migration, Changeset | "persist," "query," "migrate" |
-| `prismatic_claude` | Session Intelligence | StackFrame, SessionLifecycle | "push," "pop," "checkpoint" |
-| `prismatic_web` | User Interface | LiveView, Component, Route | "render," "navigate," "interact" |
-| `prismatic_api` | API Gateway | Endpoint, Dispatch, Schema | "discover," "route," "dispatch" |
+| `prismatic_perimeter` | EASM | Asset, SecurityRating, ComplianceAssessment | „objevit“, „posoudit“, „ohodnotit“ |
+| `prismatic_agents` | správa agentů | Agent, Tier, Mission, Capability | „nasadit“, „provést“, „vyvíjet“ |
+| `prismatic_safety` | vynucení kvality | QualityGate, Violation, HealingCycle | „vynutit“, „odhalit“, „opravit“ |
+| `prismatic_storage_core` | kontrakty úložiště | Trait, Protocol, Behaviour | „uložit“, „načíst“, „přizpůsobit“ |
+| `prismatic_storage_ets` | úložiště ETS | Table, Cache, TTL | „cachovat“, „vyhledat“, „vypršet“ |
+| `prismatic_storage_ecto` | databázové úložiště | Repo, Migration, Changeset | „perzistovat“, „dotazovat“, „migrovat“ |
+| `prismatic_claude` | inteligence sezení | StackFrame, SessionLifecycle | „push“, „pop“, „checkpoint“ |
+| `prismatic_web` | uživatelské rozhraní | LiveView, Component, Route | „vykreslit“, „navigovat“, „interagovat“ |
+| `prismatic_api` | API gateway | Endpoint, Dispatch, Schema | „objevit“, „směrovat“, „odeslat“ |
 
-### Model Isolation in Practice
+### Izolace modelů v praxi
 
-The same concept modeled differently across contexts:
+Tentýž pojem modelovaný v různých kontextech různě:
 
 ```elixir
 # In prismatic_perimeter: Asset is an attack surface element
@@ -97,14 +120,17 @@ end
 # In prismatic_agents: Asset is not a concept at all
 # Agents have Missions, Capabilities, and Tiers -- different domain
 ```
+Izolace zajišťuje, že změny v tom, jak `prismatic_perimeter` modeluje aktiva, nemohou
+nechtěně rozbít `prismatic_storage_core` ani `prismatic_agents`, protože nesdílejí vnitřní
+model.
 
-This isolation ensures that changes to how `prismatic_perimeter` models assets cannot accidentally break `prismatic_storage_core` or `prismatic_agents`, because they do not share an internal model.
+## Vzorce komunikace mezi kontexty
 
-## Context Communication Patterns
+### Publikované rozhraní
 
-### Published Interface
-
-Each bounded context exposes a public API -- its published interface -- through a facade module. Internal implementation details are hidden behind this interface.
+Každý ohraničený kontext vystavuje veřejné API – své publikované rozhraní – prostřednictvím
+modulu fasády. Vnitřní implementační podrobnosti jsou za ním skryty (srov. úroveň L1
+v [3NL](@/glossary/3nl.md)).
 
 ```elixir
 # prismatic_perimeter's public interface
@@ -121,10 +147,10 @@ defmodule PrismaticPerimeter do
   def assess_compliance(domain, frameworks), do: PrismaticPerimeter.Compliance.assess(domain, frameworks)
 end
 ```
+### Komunikace mezi kontexty přes PubSub
 
-### Cross-Context Communication via PubSub
-
-Contexts communicate through [PubSub](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pubsub/) events rather than direct function calls, maintaining loose coupling:
+Kontexty spolu komunikují událostmi PubSub místo přímých volání funkcí, a zachovávají tak
+volnou provázanost:
 
 ```elixir
 # prismatic_perimeter publishes an event when a rating changes
@@ -157,16 +183,17 @@ defmodule PrismaticWeb.PerimeterDashboardLive do
   end
 end
 ```
+### Protikorupční vrstva (*Anti-Corruption Layer*)
 
-### Anti-Corruption Layer
+Při přebírání dat z vnějších systémů (poskytovatelé OSINT, API třetích stran) používá
+platforma protikorupční vrstvy, které převádějí vnější modely na vnitřní model ohraničeného
+kontextu:
 
-When consuming data from external systems (OSINT providers, third-party APIs), the platform uses anti-corruption layers to translate external models into the bounded context's internal model:
-
-| External Source | External Model | Internal Model | Translation |
+| Vnější zdroj | Vnější model | Vnitřní model | Převod |
 |----------------|---------------|----------------|-------------|
-| [Shodan](@/glossary/shodan.md) | Shodan host record | `PrismaticPerimeter.Domain.Asset` | `ShodanAdapter.to_asset/1` |
-| [Censys](@/glossary/censys.md) | Censys certificate | `PrismaticPerimeter.Domain.Certificate` | `CensysAdapter.to_certificate/1` |
-| NIS2 regulation | Compliance framework spec | `PrismaticPerimeter.Domain.ComplianceFramework` | `NIS2Adapter.to_framework/1` |
+| [Shodan](@/glossary/shodan.md) | záznam hostitele Shodan | `PrismaticPerimeter.Domain.Asset` | `ShodanAdapter.to_asset/1` |
+| [Censys](@/glossary/censys.md) | certifikát Censys | `PrismaticPerimeter.Domain.Certificate` | `CensysAdapter.to_certificate/1` |
+| regulace NIS2 | specifikace rámce souladu | `PrismaticPerimeter.Domain.ComplianceFramework` | `NIS2Adapter.to_framework/1` |
 
 ```elixir
 # Anti-corruption layer: translate Shodan response to internal model
@@ -185,14 +212,18 @@ defmodule PrismaticPerimeter.Adapters.ShodanAdapter do
   end
 end
 ```
+Protikorupční vrstva je zvláštním případem vzoru [adaptér](@/glossary/adapter-pattern.md);
+rámce souladu podrobněji popisuje heslo [Compliance
+Framework](@/glossary/compliance-framework.md).
 
-## Context Mapping Patterns
+## Vzorce mapování kontextů
 
-DDD defines several relationship patterns between bounded contexts:
+DDD definuje několik vzorců vztahů mezi ohraničenými kontexty.
 
-### Shared Kernel
+### Sdílené jádro (*Shared Kernel*)
 
-A small, explicitly shared subset of the domain model that multiple contexts depend on. Changes to the shared kernel require agreement from all consuming contexts.
+Malá, výslovně sdílená podmnožina doménového modelu, na níž závisí více kontextů. Změny
+sdíleného jádra vyžadují souhlas všech kontextů, které je používají.
 
 ```
 prismatic_storage_core (Shared Kernel)
@@ -205,10 +236,10 @@ prismatic_storage_core (Shared Kernel)
     |
     +---> prismatic_storage_kuzudb (implements traits)
 ```
+### Zákazník a dodavatel (*Customer-Supplier*)
 
-### Customer-Supplier
-
-One context (supplier) provides data that another (customer) depends on. The supplier prioritizes the customer's needs in its interface design.
+Jeden kontext (dodavatel) poskytuje data, na nichž jiný (zákazník) závisí. Dodavatel při
+návrhu rozhraní upřednostňuje potřeby zákazníka.
 
 ```
 prismatic_perimeter (Supplier)
@@ -217,36 +248,48 @@ prismatic_perimeter (Supplier)
     |
     +---> prismatic_api (Customer: needs rating data for REST API)
 ```
+### Oddělené cesty (*Separate Ways*)
 
-### Separate Ways
+Kontexty bez potřeby integrace pracují nezávisle. Na platformě fungují pomocné aplikace jako
+`prismatic_utils` a `prismatic_telemetry` převážně nezávisle na doménově specifických
+kontextech.
 
-Contexts with no integration needs operate independently. In the Prismatic Platform, utility apps like `prismatic_utils` and `prismatic_telemetry` operate largely independently of domain-specific contexts.
+## Vývoj a refaktoring
 
-## Evolution and Refactoring
+Ohraničené kontexty nejsou dány jednou provždy při návrhu – vyvíjejí se, jak se porozumění
+doméně prohlubuje. Platforma během svých generací vývoje prošla několika rozděleními
+a sloučeními kontextů:
 
-Bounded contexts are not fixed at design time -- they evolve as understanding of the domain deepens. The platform has undergone several context splits and merges through its 18 generations of evolution:
-
-| Generation | Context Change | Motivation |
+| Generace | Změna kontextu | Důvod |
 |------------|---------------|------------|
-| Gen 3 | Split `prismatic` into `prismatic` + `prismatic_web` | Separate API from UI concerns |
-| Gen 7 | Extract `prismatic_storage_core` from `prismatic_storage` | Isolate traits from implementations |
-| Gen 12 | Create `prismatic_perimeter` | New EASM domain required dedicated context |
-| Gen 15 | Create `prismatic_claude` | Session intelligence needed own domain model |
-| Gen 17 | Create `prismatic_api` | Auto-introspecting API warranted dedicated context |
+| Gen 3 | rozdělení `prismatic` na `prismatic` a `prismatic_web` | oddělit API od UI |
+| Gen 7 | vyčlenění `prismatic_storage_core` z `prismatic_storage` | izolovat rysy od implementací |
+| Gen 12 | vznik `prismatic_perimeter` | nová doména EASM potřebovala vlastní kontext |
+| Gen 15 | vznik `prismatic_claude` | inteligence sezení potřebovala vlastní doménový model |
+| Gen 17 | vznik `prismatic_api` | samointrospektivní API si žádalo vlastní kontext |
 
-Each split follows a pattern: when a single context starts containing concepts with divergent lifecycles or different teams of stakeholders, it is a signal that two bounded contexts are masquerading as one.
+Každé rozdělení sleduje vzorec: když jeden kontext začne obsahovat pojmy s rozdílnými
+životními cykly nebo s různými skupinami zainteresovaných, je to signál, že se za jeden
+kontext vydávají dva.
 
-## Process Isolation as Context Enforcement
+## Izolace procesů jako vynucení kontextu
 
-[Process isolation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/process-isolation/) in the [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/) virtual machine provides a runtime enforcement mechanism for bounded context boundaries. Each context's processes run in isolation -- a crash in `prismatic_perimeter` cannot corrupt the state of `prismatic_agents`, because they are separate OTP applications with separate supervision trees.
+Izolace procesů ve virtuálním stroji BEAM poskytuje mechanismus, který hranice ohraničených
+kontextů vynucuje za běhu. Procesy každého kontextu běží izolovaně – pád v
+`prismatic_perimeter` nemůže poškodit stav `prismatic_agents`, protože jde o samostatné
+aplikace OTP se samostatnými stromy supervize.
 
-This is stronger than what most programming environments offer. In a typical microservices architecture, context boundaries are enforced by network calls (which can be bypassed with shared databases). In the BEAM, context boundaries are enforced by the VM itself -- processes cannot access each other's memory, and [message passing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/message-passing/) is the only communication mechanism.
+Je to víc, než nabízí většina programovacích prostředí. V typické architektuře mikroslužeb
+jsou hranice kontextů vynucovány síťovými voláními (které lze obejít sdílenou databází).
+V BEAM je vynucuje sám virtuální stroj – procesy nemají přístup k paměti jiných procesů
+a jediným komunikačním mechanismem je předávání zpráv.
 
-## Advanced Context Design Patterns
+## Pokročilé vzory návrhu kontextů
 
-### Hexagonal Architecture Within Contexts
+### Hexagonální architektura uvnitř kontextů
 
-Each bounded context in the Prismatic Platform follows hexagonal architecture (ports and adapters) to maintain clean boundaries between domain logic and technical concerns:
+Každý ohraničený kontext platformy sleduje hexagonální architekturu (porty a adaptéry), aby
+udržel čisté hranice mezi doménovou logikou a technickými záležitostmi:
 
 ```elixir
 defmodule PrismaticPerimeter.Architecture do
@@ -418,10 +461,10 @@ defmodule PrismaticPerimeter.Architecture do
   end
 end
 ```
+### Event sourcing v kontextu
 
-### Context Event Sourcing
-
-Bounded contexts in the Prismatic Platform use event sourcing to maintain audit trails and enable temporal queries:
+Ohraničené kontexty platformy používají *event sourcing* (ukládání sledu událostí), aby
+udržely auditní stopu a umožnily dotazy na stav v čase:
 
 ```elixir
 defmodule PrismaticPerimeter.EventSourcing do
@@ -634,10 +677,9 @@ defmodule PrismaticPerimeter.EventSourcing do
   end
 end
 ```
+### Integrační vzory kontextů
 
-### Context Integration Patterns
-
-Advanced patterns for integrating bounded contexts while maintaining their autonomy:
+Pokročilé vzory integrace ohraničených kontextů při zachování jejich autonomie:
 
 ```elixir
 defmodule PrismaticPlatform.ContextIntegration do
@@ -883,10 +925,10 @@ defmodule PrismaticPlatform.ContextIntegration do
   end
 end
 ```
+## Strategie testování kontextů
 
-## Context Testing Strategies
-
-Testing bounded contexts requires specific approaches to maintain isolation while ensuring integration works:
+Testování ohraničených kontextů vyžaduje zvláštní přístupy, aby se zachovala izolace a přitom
+fungovala integrace:
 
 ```elixir
 defmodule PrismaticPerimeter.ContextTest do
@@ -959,34 +1001,30 @@ defmodule PrismaticPerimeter.ContextTest do
   end
 end
 ```
+## Související pojmy
 
-## Related Terms
+Bez vlastního hesla v glosáři knihy: *Domain-Driven Design* (strategická metodika, která
+ohraničené kontexty definuje), *CQRS* (oddělení modelů pro čtení a zápis), *Event Sourcing*,
+*Message Passing*, *PubSub*, *Behaviour* (kontrakty zpětných volání definující porty na
+hranicích kontextů), *Process Isolation*, *BEAM*, *Ecto*, *Umbrella Application* (technický
+mechanismus implementace kontextů) a *Saga Pattern* (koordinace postupů napříč kontexty).
 
-- [Domain-Driven Design](https://prismatic-reality-com.github.io/prismatic-promo/glossary/domain-driven-design/) -- Strategic methodology that defines bounded contexts
-- [CQRS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cqrs/) -- Pattern applied within bounded contexts to separate read and write models
-- [Event Sourcing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/event-sourcing/) -- Persistence pattern aligned with domain events crossing context boundaries
-- [Message Passing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/message-passing/) -- Communication mechanism between contexts, enforced by BEAM process model
-- [PubSub](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pubsub/) -- Event distribution system for loose coupling between contexts
-- [Behaviour](https://prismatic-reality-com.github.io/prismatic-promo/glossary/behaviour/) -- Callback-based contracts defining port interfaces at context boundaries
-- [Adapter Pattern](@/glossary/adapter-pattern.md) -- Anti-corruption layer implementation for external system integration
-- [Process Isolation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/process-isolation/) -- BEAM runtime enforcement of context boundaries
-- [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/) -- Virtual machine providing process-level isolation between contexts
-- [Ecto](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ecto/) -- Repository pattern implementation within storage contexts
-- [Agent](@/glossary/agent.md) -- AIAD agents operating within their respective bounded contexts
-- [Umbrella Application](https://prismatic-reality-com.github.io/prismatic-promo/glossary/umbrella-application/) -- Technical mechanism for implementing bounded contexts
-- [Saga Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/saga-pattern/) -- Cross-context workflow coordination pattern
-- [Adapter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adapter/) -- Port/adapter architectural pattern within bounded contexts
+## Související
 
-## See Also
+**Platforma**
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Context boundary design and platform decomposition strategy
-- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- Individual bounded context implementations across the umbrella
+- [Adapter Pattern](@/glossary/adapter-pattern.md) – implementace protikorupční vrstvy pro
+  vnější systémy.
+- [3NL](@/glossary/3nl.md) – architektura vnořených úrovní, s níž jsou kontexty sladěny.
+- [Agent](@/glossary/agent.md) – agenti AIAD působící v příslušných kontextech.
+- [Shodan](@/glossary/shodan.md) a [Censys](@/glossary/censys.md) – vnější zdroje, jejichž
+  modely se převádějí.
+- [Compliance Framework](@/glossary/compliance-framework.md) – rámce souladu jako vnější
+  model.
 
----
+**Kompendium**
 
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Motte and Bailey](@/glossary/motte-and-bailey.md) – zneužití změny kontextu významu
+  v argumentaci.
+- [Sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md) –
+  detekce nevyslovené změny významu.

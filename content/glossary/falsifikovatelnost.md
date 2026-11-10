@@ -63,7 +63,7 @@ Falsifikovatelnost chrání poznání tím, že **zavazuje tvrzení vůči svět
 
 ## Význam pro Kompendium
 
-V praxi platformy Prismatic, z níž kniha vzešla, je falsifikovatelnost operativním kritériem pro rozlišení **vědecky obhajitelného tvrzení** od **interpretačního narativu**. Při analýze due diligence, při vyšetřování [OSINT](@/glossary/osint.md) i při klinickém posouzení manipulativních vzorců je první otázka vždy stejná: *jaký důkaz by toto tvrzení vyvrátil?* Pokud na ni nelze odpovědět, jde o víru, nikoli o zjištění. Princip stojí v jádru pilíře NCLB (*No Claim Left Behind*) – žádné tvrzení ve zprávě nesmí být formulováno tak, aby bylo imunní vůči vyvrácení. Manažerské použití: vyžadovat od analytiků u každého závěru výslovné *podmínky falzifikace*.
+V praxi platformy Prismatic, z níž kniha vzešla, je falsifikovatelnost operativním kritériem pro rozlišení **vědecky obhajitelného tvrzení** od **interpretačního narativu**. Při analýze [due diligence](@/glossary/due-diligence.md), při vyšetřování [OSINT](@/glossary/osint.md) i při klinickém posouzení manipulativních vzorců je první otázka vždy stejná: *jaký důkaz by toto tvrzení vyvrátil?* Pokud na ni nelze odpovědět, jde o víru, nikoli o zjištění. Princip stojí v jádru pilíře NCLB (*No Claim Left Behind*) – žádné tvrzení ve zprávě nesmí být formulováno tak, aby bylo imunní vůči vyvrácení. Manažerské použití: vyžadovat od analytiků u každého závěru výslovné *podmínky falzifikace*.
 
 V investigativní praxi platformy se kritérium uplatňuje třemi způsoby:
 

@@ -27,7 +27,7 @@ image_alt = "Hyperreality – glosář"
 **Hyperrealita** (*hyperreality*) je filozofický pojem, který rozvinul Jean Baudrillard (*Simulacres et simulation*, 1981) pro stav, v němž simulace a znaky už neodkazují k předchozí skutečnosti, ale **obíhají jako skutečnost vlastní** – nakonec původním referentům předcházejí, nahrazují je a činí je bezvýznamnými. Baudrillardovy proslulé „čtyři řády obrazu“ popisují tuto dráhu:
 
 1. obraz **odráží** hlubokou skutečnost (věrné zobrazení);
-2. obraz skutečnost **zakrývá** a deformuje (ideologie, propaganda);
+2. obraz skutečnost **zakrývá** a deformuje (ideologie, [propaganda](@/glossary/propaganda.md));
 3. obraz **zakrývá nepřítomnost** skutečnosti (fetišismus, značka);
 4. obraz **nemá ke skutečnosti vůbec žádný vztah**: je svým vlastním čistým [simulakrem](@/glossary/simulacra.md) (hyperrealita).
 

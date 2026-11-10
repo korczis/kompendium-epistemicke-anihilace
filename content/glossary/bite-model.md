@@ -1,62 +1,162 @@
 +++
-title = "BITE Model"
+title = "BITE model"
 weight = 60
 
-description = "Steven Hassan's diagnostic instrument for cult dynamics organized along four axes of control: Behavior, Information, Thought, and Emotion."
+description = "Diagnostický rámec Stevena Hassana pro dynamiku kultů a skupin s vysokou mírou kontroly ve čtyřech osách: chování, informace, myšlení a emoce."
 
 [taxonomies]
-tags = ["glossary", "clinical", "manipulace", "kompendium"]
+tags = ["glossary", "clinical", "manipulace", "kompendium", "high-control-group"]
 
 [extra]
 category = "clinical"
 related_terms = ["coercive-control", "epistemicka-anihilace", "taxonomie-ea", "kognitivni-anihilace", "darvo", "gaslighting"]
 author = "Tomáš Korcak (korczis)"
-reading_time = "4 min"
-word_count = 540
+reading_time = "6 min"
+word_count = 1100
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
-keywords = ["BITE model", "Steven Hassan", "cult dynamics", "behavior control", "information control", "thought control", "emotion control"]
+date_modified = "2026-11-10"
+keywords = ["BITE model", "Steven Hassan", "kontrola chování", "kontrola informací", "kontrola myšlení", "kontrola emocí", "kult"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"
-image_alt = "BITE Model - glossary"
+image_alt = "BITE model – glosář"
 +++
 
-## Definition
+## Definice
 
-The **BITE Model** is a diagnostic framework developed by Steven Hassan (1988, refined 2018) for the empirical assessment of authoritarian and high-control group dynamics. The acronym names four mutually reinforcing axes of undue influence: **Behavior control** (regulation of physical actions, dress, sleep, finances, residence), **Information control** (gatekeeping of permissible sources, prohibition of outside media, doctrinal segregation of "insider" and "outsider" knowledge), **Thought control** (loaded language, thought-stopping techniques, prohibition of doubt, rejection of critical analysis), and **Emotion control** (induction of guilt, shame, fear, phobias of leaving, manipulation of love and approval).
+**BITE model** je diagnostický rámec, který vypracoval Steven Hassan (poprvé v knize
+*Combatting Cult Mind Control*, 1988, později dále rozvíjený) pro empirické posouzení
+dynamiky autoritářských skupin a skupin s vysokou mírou kontroly. Zkratka pojmenovává čtyři
+navzájem se posilující osy nepřiměřeného vlivu (viz [Undue influence](@/glossary/undue-influence.md)):
 
-Each axis is operationalized through a checklist of approximately 20–30 specific indicators, allowing systematic scoring of an organization, relationship, or movement. The model was originally developed for assessing destructive cults but has been extended to coercive intimate partnerships, extremist political movements, multi-level marketing organizations, and online radicalization environments.
+- **Behavior – kontrola chování:** regulace fyzického jednání, oblékání, spánku, financí,
+  bydliště, času a kontaktů;
+- **Information – kontrola informací:** střežení přípustných zdrojů, zákaz vnějších médií,
+  doktrinální oddělení „vnitřního“ a „vnějšího“ vědění, utajování informací před členy
+  nižších stupňů;
+- **Thought – kontrola myšlení:** „nabitý“ jazyk, techniky zastavení myšlenek (viz
+  [Thought stopping](@/glossary/thought-stopping.md)), zákaz pochybností, odmítání kritické
+  analýzy;
+- **Emotion – kontrola emocí:** vyvolávání viny, studu a strachu, fobie z odchodu,
+  manipulace láskou a uznáním (srov. [Love bombing](@/glossary/love-bombing.md)).
 
-The BITE Model's contribution is **structural**: it does not require demonstrating intent or formal membership, only the presence of the four control vectors. This makes it forensically useful in custody disputes, deprogramming consultations, and academic studies of totalist movements. Critics note that the model is descriptive rather than predictive, that the four axes are not strictly orthogonal, and that high BITE scores can be produced by legitimate organizations (e.g., military training, monastic orders) — interpretation requires clinical judgment.
+Každá osa je operacionalizována seznamem desítek konkrétních ukazatelů, což umožňuje
+systematicky posoudit organizaci, vztah nebo hnutí. Model vznikl pro hodnocení
+destruktivních kultů, ale byl rozšířen i na koercivní partnerské vztahy, extremistická
+politická hnutí, organizace víceúrovňového marketingu a prostředí online radikalizace.
 
-## Context
+## Původ a kontext pojmu
 
-Within the Prismatic Platform, the BITE Model functions as a **screening instrument** complementary to the Kompendium taxonomy. While the [Taxonomie EA](@/glossary/taxonomie-ea.md) classifies individual techniques in `EA-X.Y.Z-α` notation, BITE provides a **macro-level group profile** that aggregates many techniques into four interpretable dimensions.
+Hassan, sám bývalý člen náboženského hnutí, navázal na Liftonův popis osmi kritérií
+myšlenkové reformy (*[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*, 1961) a na sociálně
+psychologický výzkum konformity a vlivu. Přínos modelu je **strukturální**: nevyžaduje
+prokázání úmyslu ani formálního členství, jen přítomnost čtyř vektorů kontroly. Díky tomu
+je forenzně užitečný ve sporech o péči o dítě, při konzultacích s bývalými členy skupin
+a v akademickém studiu totalitních hnutí.
 
-- BITE Information Control axis maps onto Kompendium category EA-1.1 (epistemic isolation): selective exposure (EA-1.1.1), source delegitimization (EA-1.1.2), reality narrowing (EA-1.1.3).
-- BITE Thought Control maps onto EA-1.3 (epistemic immunization) and EA-2 (cognitive anihilace targeting metacognition).
-- BITE Emotion Control maps onto the affective vectors discussed in [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md).
-- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} Source Assessment stage flags inputs originating from environments with elevated BITE scores as **provenance-suspect**, downweighting them in confidence calibration.
-- [Color Teams](@/glossary/color-teams.md) use BITE checklists during Red Team exercises to model adversary group structures.
+Kritici upozorňují, že model je spíše **popisný než prediktivní**, že čtyři osy nejsou
+striktně nezávislé a že vysoké skóre mohou vykázat i legitimní organizace (např. vojenský
+výcvik, mnišské řády). Interpretace proto vyžaduje klinický úsudek.
 
-The BITE Model is referenced in the Kompendium's clinical applications section as a **first-pass triage tool** preceding more granular taxonomic analysis.
+## Jak se projevuje
 
-## See Also
+Typické pozorovatelné znaky podle os:
 
-- [Coercive Control](@/glossary/coercive-control.md) — Stark's framework for systematic relational control
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Central kompendium concept; BITE is a screening instrument
-- [Taxonomie EA](@/glossary/taxonomie-ea.md) — Granular technique classification
-- [DARVO](@/glossary/darvo.md) — Specific manipulation pattern often present in BITE-positive groups
-- [Gaslighting](@/glossary/gaslighting.md) — Reality-distortion technique within BITE Thought Control
-- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process attacks
-- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
+| Osa | Co vidí okolí | Co popisuje dotčený |
+|---|---|---|
+| Chování | náhlá změna denního režimu, financí, bydlení; méně spánku | „Nemám čas na nic jiného.“ |
+| Informace | přerušení kontaktu s médii a starými přáteli; vlastní slovník skupiny | „Venku nikdo nechápe pravdu.“ |
+| Myšlení | opakované fráze, rychlé umlčení otázky | „Pochybnost je slabost.“ |
+| Emoce | střídání nadšení a viny, strach z odchodu | „Kdybych odešel, stane se něco hrozného.“ |
 
----
+Jednotlivý znak nic nedokazuje. Rozhodující je **souběh všech čtyř os** a jejich
+vzájemné posilování.
 
-## Connect & Contribute
+## Mechanismus
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+Osy působí jako uzavřený systém. Kontrola chování vyčerpá čas a energii potřebné ke
+kritickému zvážení; kontrola informací odstraní srovnávací materiál; kontrola myšlení
+znemožní z mála dostupných informací vyvodit nesoulad; kontrola emocí spojí jakoukoli
+pochybnost s vinou a strachem. Výsledkem je prostředí, v němž je odchod nejen prakticky,
+ale i poznávacím a citovým způsobem obtížný – stav, který Kompendium popisuje jako
+[epistemickou anihilaci](@/glossary/epistemicka-anihilace.md) na úrovni skupiny.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+## Odlišení
+
+- **Legitimní náročné společenství.** Řád, výcvik nebo sportovní tým mohou mít přísný režim.
+  Rozdíl je v tom, zda je možné odejít bez sankcí, zda je dovolena kritika a zda členové
+  mají přístup k vnějším informacím.
+- **[Coercive control](@/glossary/coercive-control.md).** Starkův rámec popisuje tytéž
+  vektory ve dvojici; BITE model je jeho skupinovou obdobou.
+- **[High Control Group](@/glossary/high-control-group.md).** Pojem pro samotné prostředí;
+  BITE model je nástroj k jeho posouzení.
+- **[Taxonomie EA](@/glossary/taxonomie-ea.md).** Taxonomie popisuje jednotlivé techniky,
+  BITE model souhrnný profil skupiny.
+
+## Význam pro Kompendium
+
+BITE model slouží jako **screeningový nástroj**, který doplňuje taxonomii Kompendia. Zatímco
+[Taxonomie EA](@/glossary/taxonomie-ea.md) klasifikuje jednotlivé techniky v notaci
+`EA-X.Y.Z-α`, BITE poskytuje **makroskopický profil skupiny**, který mnoho technik shrnuje
+do čtyř srozumitelných dimenzí. Přibližné vztahy:
+
+- osa kontroly informací odpovídá skupině EA-1.1 Kompendia (zúžení informačního pole), např.
+  [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md),
+  [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)
+  a [EA-1.1.3 Terminologická
+  mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md);
+- osa kontroly myšlení odpovídá imunizačním technikám skupiny EA-1.3 (např. [EA-1.3.1
+  Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md))
+  a útokům na metakognici v řadě EA-2;
+- osa kontroly emocí odpovídá afektivním vektorům, jimiž se zabývají [06. Klinické
+  aplikace](@/kompendium/06-klinicke-aplikace/_index.md).
+
+Na platformě, z níž kniha vzešla, fáze hodnocení zdrojů v [Decision
+Engine](@/glossary/decision-engine.md) označuje vstupy z prostředí se zvýšeným BITE skóre
+jako **podezřelé co do původu** a snižuje jejich váhu při kalibraci důvěry. [Color
+Teams](@/glossary/color-teams.md) používají kontrolní seznamy BITE při cvičeních Red Teamu
+k modelování struktur protivníkových skupin.
+
+V klinické části Kompendia je BITE model uváděn jako **nástroj prvotní triáže**, který
+předchází podrobnější taxonomické analýze.
+
+## Obrana a zotavení
+
+- **Pro blízké:** udržet kontakt bez ultimát, nabízet vnější informace a vztahy, neútočit na
+  identitu člověka (viz [Prevence izolace](@/kompendium/self-defense-guides/26-isolation-prevention.md)).
+- **Pro profesionála:** posoudit všechny čtyři osy, dokumentovat konkrétní chování, ne
+  nálepky; počítat s tím, že člověk může skupinu zpočátku hájit.
+- **Po odchodu:** postupná obnova autonomie v každé ose – vlastní režim, vlastní zdroje,
+  vlastní jazyk a vlastní emoce bez viny (viz [Protokol po odchodu z
+  kultu](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md)).
+- **Právně:** popis podle os pomáhá doložit nepřiměřený vliv (viz [Doktrína nepřiměřeného
+  vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md)).
+
+## Literatura
+
+- Steven Hassan: *Combatting Cult Mind Control* (1988; rozšířená vydání později).
+- Steven Hassan: *Freedom of Mind: Helping Loved Ones Leave Controlling People, Cults, and
+  Beliefs* (2012).
+- Robert Jay Lifton: *Thought Reform and the Psychology of Totalism* (1961).
+
+## Související
+
+**Pojmy**
+
+- [Coercive Control](@/glossary/coercive-control.md) – Starkův rámec soustavné kontroly ve
+  vztahu.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – ústřední pojem Kompendia;
+  BITE je k ní screeningový nástroj.
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) – podrobná klasifikace technik.
+- [DARVO](@/glossary/darvo.md) – vzorec manipulace častý ve skupinách s pozitivním BITE
+  profilem.
+- [Gaslighting](@/glossary/gaslighting.md) – zkreslování reality v rámci kontroly myšlení.
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – útoky na kognitivní procesy.
+
+**Obrana a právo**
+
+- [Protokol po odchodu z kultu](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md)
+  – zotavení po opuštění skupiny.
+- [Doktrína nepřiměřeného vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md)
+  – právní využití popisu kontroly.
+- [Kompendium](@/kompendium/_index.md) – celá taxonomie.

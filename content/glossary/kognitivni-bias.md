@@ -42,7 +42,7 @@ Hlavní vazby mezi biasy a technikami, s nimiž Kompendium pracuje:
 | **bias autority** | delegitimizuje původní zdroje a dosazuje náhradní autoritu | rodina EA-2.1.x, např. [EA-2.1.1 Expertní disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) |
 | **efekty rámování** | mění význam tím, jak je informace podána | [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md), emoční modulace EA-1.4.x |
 | **ukotvení** | posouvá referenční body a výchozí předpoklady | rodina EA-1.2.x, např. [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) |
-| **heuristika dostupnosti** | zahlcuje živými příklady | [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) |
+| **[heuristika](@/glossary/heuristika.md) dostupnosti** | zahlcuje živými příklady | [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) |
 | **utopené náklady** | udržuje postup v pokročilých stadiích: člověk dál investuje epistemický kapitál kvůli předchozí investici, ne kvůli současným dokladům | dlouhodobé setrvání ve skupině |
 | **přetrvávání přesvědčení** | jednou vštípené přesvědčení přetrvá i po vyvracejících dokladech | [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) |
 

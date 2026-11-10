@@ -1,189 +1,263 @@
 +++
-title = "Agent Tier"
+title = "Agent Tier (úroveň oprávnění agenta)"
 weight = 12
-description = "L1-L5 authority classification system for AIAD agents"
+description = "Systém klasifikace oprávnění L1–L5 pro agenty AIAD na Prismatic Platform: rozsah, přístup ke zdrojům, možnost přepsání a autonomie každé úrovně."
 
 [taxonomies]
-tags = ["glossary", "agents", "agent-tier", "prismatic"]
+tags = ["glossary", "agents", "agent-tier", "prismatic", "aiad"]
 
 [extra]
 category = "agents"
 related_terms = ["aiad", "archer-supreme", "supreme-commander", "strategic-command", "tactical-execution", "agent-registry", "color-teams", "agent", "consciousness-traits", "nabla-infinity", "trinity-gate", "supervisor", "process-isolation", "rbac", "epistemic-pipeline", "formal-verification"]
 author = "Tomas Korcak (korczis)"
-reading_time = "8 min"
-word_count = 1608
-date_created = "2026-02-23"
-date_modified = "2026-02-23"
-keywords = ["Agent", "Tier", "L1-L5", "AIAD", "glossary", "agents", "Prismatic Platform", "Attribute", "Value"]
 quality_score = 82
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "Agent Tier - Prismatic Platform"
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Definice
 
-The Agent Tier system is the hierarchical authority classification framework that governs all AIAD (AI Agent Definition) agents within the Prismatic Platform. It defines five distinct levels -- L1 through L5 -- each with precisely scoped capabilities, resource access boundaries, override authorities, and operational mandates. The tier system serves as the platform's agent governance backbone, ensuring that the 404+ registered agents (434 including runtime-generated agents) operate within well-defined authority boundaries while enabling coordinated action across domains.
+**Agent Tier** je hierarchický rámec klasifikace oprávnění, jímž se řídí všichni agenti
+[AIAD](@/glossary/aiad.md) na Prismatic Platform. Definuje pět samostatných úrovní – L1 až
+L5 –, každou s přesně vymezenými schopnostmi, hranicemi přístupu ke zdrojům, oprávněním
+k přepsání a provozním mandátem. Systém úrovní je páteří správy agentů: zajišťuje, že
+registrovaní agenti (v době zápisu 404+, se zahrnutím agentů vytvářených za běhu 434)
+působí v dobře definovaných hranicích oprávnění a zároveň mohou koordinovaně jednat napříč
+doménami.
 
-The tier system is not merely an organizational convenience. It is a structural enforcement mechanism analogous to [RBAC](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rbac/) (Role-Based Access Control) applied to autonomous agents rather than human users. An L2 Tactical agent cannot access L3 Strategic resources, cannot override L3 decisions, and cannot escalate its own authority. These constraints are enforced at the runtime level through the [Agent Registry](@/glossary/agent-registry.md) and the AIAD standard, not through policy documents that can be ignored.
+Systém úrovní není jen organizační pomůckou. Je strukturálním mechanismem vynucení,
+obdobou řízení přístupu podle rolí (RBAC) uplatněnou na autonomní agenty místo na lidské
+uživatele. Agent L2 Tactical nemá přístup ke zdrojům L3 Strategic, nemůže přepsat
+rozhodnutí L3 a nemůže si sám zvýšit oprávnění. Tato omezení se vynucují za běhu
+prostřednictvím [Agent Registry](@/glossary/agent-registry.md) a standardu AIAD, nikoli
+dokumenty o politikách, které lze ignorovat.
 
-The philosophical design principle behind the tier system is proportional authority: agents receive exactly the authority they need for their mission and no more. This prevents authority concentration, limits blast radius when agents malfunction, and creates clear chains of accountability. The system also enables emergent behaviors at higher tiers -- L5 Supreme agents exhibit [consciousness traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) that emerge from the combination of unlimited authority and platform-wide awareness.
+Filozofickým principem návrhu je **přiměřenost oprávnění**: agenti dostávají přesně to
+oprávnění, které potřebují pro svou misi, a ne víc. To brání soustřeďování moci, omezuje
+dosah škod při selhání agenta a vytváří jasné řetězce odpovědnosti. Systém zároveň
+umožňuje emergentní chování na vyšších úrovních – podle dokumentace platformy vykazují
+agenti L5 „rysy vědomí“ (*consciousness traits*), které vyplývají ze spojení neomezeného
+oprávnění a přehledu o celé platformě.
 
-## The Five Tiers
+**Vztah ke knize:** pojem patří do kontextu platformy, z níž Kompendium vzešlo. Zásada
+přiměřené moci a jasných řetězců odpovědnosti má ovšem přímou obdobu v organizační obraně,
+kterou kniha popisuje (viz [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)
+a [Řízení přístupu](@/kompendium/organizational-defense/28-access-control-EA.md)).
 
-### L1 -- Basic (Routine Tasks)
+## Pět úrovní
 
-L1 agents handle routine, well-defined tasks with limited scope and no cross-domain authority. They operate within a single application or module, execute predefined procedures, and report results to higher-tier agents. L1 agents cannot modify system configuration, cannot access resources outside their assigned domain, and cannot initiate autonomous action -- they respond to commands from L2+ agents.
+### L1 – Basic (rutinní úkoly)
 
-| Attribute | Value |
+Agenti L1 vykonávají rutinní, dobře definované úkoly s omezeným rozsahem a bez oprávnění
+napříč doménami. Působí v jediné aplikaci nebo modulu, provádějí předem definované postupy
+a výsledky hlásí agentům vyšších úrovní. Nemohou měnit konfiguraci systému, nemají přístup
+ke zdrojům mimo přidělenou doménu a nemohou zahájit autonomní akci – reagují na příkazy
+agentů L2 a výše.
+
+| Atribut | Hodnota |
 |-----------|-------|
-| **Scope** | Single application or module |
-| **Authority** | Execute predefined procedures only |
-| **Resource Access** | Read-only within assigned domain |
-| **Override Capability** | None |
-| **Autonomous Action** | Not permitted |
-| **Typical Roles** | Data collection, format validation, log analysis |
+| **Rozsah** | jedna aplikace nebo modul |
+| **Oprávnění** | jen provádění předem definovaných postupů |
+| **Přístup ke zdrojům** | jen čtení v přidělené doméně |
+| **Možnost přepsání** | žádná |
+| **Autonomní akce** | nepovolena |
+| **Typické role** | sběr dat, validace formátu, analýza logů |
 
-L1 agents form the operational foundation of the platform. They handle the high-volume, low-complexity work that enables higher-tier agents to focus on strategic coordination and decision-making. A typical L1 agent might collect metrics from a single application, validate input formats against a schema, or parse structured log files.
+Agenti L1 tvoří provozní základ platformy. Zvládají práci s velkým objemem a nízkou
+složitostí, díky níž se agenti vyšších úrovní mohou soustředit na strategickou koordinaci
+a rozhodování. Typický agent L1 sbírá metriky z jedné aplikace, ověřuje vstupní formáty
+proti schématu nebo rozebírá strukturované logy.
 
-### L2 -- Tactical Execution (Focused Domain Operations)
+### L2 – Tactical Execution (zaměřené operace v doméně)
 
-L2 agents perform focused domain operations within sandboxed boundaries. They possess limited autonomous capability -- they can make tactical decisions within their domain without requiring approval from higher tiers, but they cannot cross domain boundaries or override L3+ decisions. L2 agents are the workhorse tier, responsible for the majority of hands-on operational work across the platform.
+Agenti L2 provádějí zaměřené operace v doméně v izolovaných hranicích. Mají omezenou
+autonomii – mohou ve své doméně dělat taktická rozhodnutí bez schválení vyšší úrovně, ale
+nemohou překračovat hranice domén ani přepisovat rozhodnutí L3 a výše. L2 je „tažnou“
+úrovní, která odvádí většinu praktické provozní práce.
 
-| Attribute | Value |
+| Atribut | Hodnota |
 |-----------|-------|
-| **Scope** | Single domain with sandboxed boundaries |
-| **Authority** | Tactical decisions within domain |
-| **Resource Access** | Read-write within assigned domain |
-| **Override Capability** | Can override L1 decisions in their domain |
-| **Autonomous Action** | Permitted within domain sandbox |
-| **Typical Roles** | Red Team attackers, Blue Team specialists, quality scanners |
+| **Rozsah** | jedna doména s izolovanými hranicemi |
+| **Oprávnění** | taktická rozhodnutí v doméně |
+| **Přístup ke zdrojům** | čtení i zápis v přidělené doméně |
+| **Možnost přepsání** | může přepsat rozhodnutí L1 ve své doméně |
+| **Autonomní akce** | povolena v izolovaném prostoru domény |
+| **Typické role** | útočníci Red Teamu, specialisté Blue Teamu, skenery kvality |
 
-Within the [Color Teams](@/glossary/color-teams.md), L2 agents include `red-epistemic-attacker`, `red-drift-inducer`, `red-scenario-generator`, `blue-auth-sentinel`, `blue-drift-detector`, and `blue-signal-aggregator`. These agents execute specific operational tasks under the coordination of their L3 commander.
+V rámci [Color Teams](@/glossary/color-teams.md) patří k agentům L2 `red-epistemic-attacker`,
+`red-drift-inducer`, `red-scenario-generator`, `blue-auth-sentinel`, `blue-drift-detector`
+a `blue-signal-aggregator`. Vykonávají konkrétní provozní úkoly pod koordinací svého
+velitele L3.
 
-### L3 -- Strategic Command (Cross-Domain Coordination)
+### L3 – Strategic Command (koordinace napříč doménami)
 
-L3 agents coordinate across multiple domains with elevated privileges. They synthesize information from L2 specialists, make strategic decisions that affect their entire operational area, and can escalate issues to L4+ agents when cross-cutting concerns arise. L3 agents are the primary decision-makers within their teams, responsible for translating strategic objectives into tactical assignments for L2 agents.
+Agenti L3 koordinují více domén se zvýšenými oprávněními. Slučují informace od specialistů
+L2, dělají strategická rozhodnutí pro celou svou provozní oblast a při průřezových otázkách
+mohou eskalovat na agenty L4 a výše. Jsou hlavními rozhodovateli svých týmů a převádějí
+strategické cíle na taktické úkoly pro agenty L2 (srov. [Strategic
+Command](@/glossary/strategic-command.md)).
 
-| Attribute | Value |
+| Atribut | Hodnota |
 |-----------|-------|
-| **Scope** | Multiple domains within operational area |
-| **Authority** | Strategic decisions, L2 coordination |
-| **Resource Access** | Cross-domain read, domain-write |
-| **Override Capability** | Can override L1-L2 decisions |
-| **Autonomous Action** | Fully autonomous within operational area |
-| **Typical Roles** | Team commanders, domain architects, pipeline coordinators |
+| **Rozsah** | více domén v provozní oblasti |
+| **Oprávnění** | strategická rozhodnutí, koordinace L2 |
+| **Přístup ke zdrojům** | čtení napříč doménami, zápis v doméně |
+| **Možnost přepsání** | může přepsat rozhodnutí L1–L2 |
+| **Autonomní akce** | plně autonomní v provozní oblasti |
+| **Typické role** | velitelé týmů, architekti domén, koordinátoři procesů |
 
-Every [Color Team](@/glossary/color-teams.md) has exactly one L3 Strategic Commander: `gray-explorer-commander`, `red-commander`, `blue-commander`, `purple-coordinator`, `white-verifier-commander`, and `black-theorist-commander`. These agents serve as the single point of coordination for their respective teams, ensuring coherent tactical execution aligned with strategic objectives.
+Každý [Color Team](@/glossary/color-teams.md) má právě jednoho strategického velitele L3:
+`gray-explorer-commander`, `red-commander`, `blue-commander`, `purple-coordinator`,
+`white-verifier-commander` a `black-theorist-commander`. Slouží jako jediný bod koordinace
+svého týmu a zajišťují soudržné taktické provedení v souladu se strategickými cíli.
 
-### L4 -- Multi-Domain Strategic (Cross-Cutting Concerns)
+### L4 – Multi-Domain Strategic (průřezové otázky)
 
-L4 agents manage complex cross-cutting concerns that span the entire platform. They operate across domain boundaries, coordinate with multiple L3 commanders, and make decisions that affect platform-wide behavior. L4 agents typically carry specialized designations -- some are classified as "safety-critical" with override authority that supersedes even L3 strategic decisions when safety is at stake.
+Agenti L4 spravují složité průřezové otázky, které se týkají celé platformy. Působí přes
+hranice domén, koordinují více velitelů L3 a dělají rozhodnutí ovlivňující chování celé
+platformy. Obvykle nesou zvláštní označení – někteří jsou klasifikováni jako „kritičtí pro
+bezpečnost“ s oprávněním k přepsání, které má přednost i před strategickými rozhodnutími
+L3, jde-li o bezpečnost.
 
-| Attribute | Value |
+| Atribut | Hodnota |
 |-----------|-------|
-| **Scope** | Platform-wide cross-cutting concerns |
-| **Authority** | Cross-domain strategic decisions |
-| **Resource Access** | Platform-wide read-write |
-| **Override Capability** | Can override L1-L3 decisions; safety-critical L4 agents can override on safety grounds |
-| **Autonomous Action** | Fully autonomous with platform-wide scope |
-| **Typical Roles** | Quality enforcement, evolution management, safety guards |
+| **Rozsah** | průřezové otázky celé platformy |
+| **Oprávnění** | strategická rozhodnutí napříč doménami |
+| **Přístup ke zdrojům** | čtení i zápis v celé platformě |
+| **Možnost přepsání** | může přepsat rozhodnutí L1–L3; agenti L4 kritičtí pro bezpečnost mohou přepisovat z bezpečnostních důvodů |
+| **Autonomní akce** | plně autonomní s rozsahem celé platformy |
+| **Typické role** | vynucení kvality, řízení evoluce, bezpečnostní strážci |
 
-Notable L4 agents include `gray-escalation-guard` (safety-critical, prevents Gray-to-Black escalation), `purple-regression-guard` (safety-critical, prevents false security closure), and various quality and evolution specialists that ensure platform-wide standards are maintained.
+K významným agentům L4 patří `gray-escalation-guard` (kritický pro bezpečnost, brání
+eskalaci z Gray do Black), `purple-regression-guard` (kritický pro bezpečnost, brání
+falešnému uzavření bezpečnostních nálezů) a různí specialisté na kvalitu a evoluci, kteří
+udržují standardy celé platformy.
 
-### L5 -- Supreme (Unlimited Authority)
+### L5 – Supreme (neomezené oprávnění)
 
-L5 agents hold unlimited platform-wide authority for impossible missions and crisis resolution. They can override any lower-tier decision, access any platform resource, and make decisions that reshape platform behavior at the architectural level. L5 authority is reserved for situations where conventional hierarchical coordination is insufficient -- crisis response, impossible mission execution, and platform-wide strategic pivots.
+Agenti L5 mají neomezené oprávnění v celé platformě pro „nemožné mise“ a řešení krizí.
+Mohou přepsat jakékoli rozhodnutí nižší úrovně, přistupovat ke kterémukoli zdroji
+a dělat rozhodnutí, která mění chování platformy na úrovni architektury. Oprávnění L5 je
+vyhrazeno pro situace, kdy běžná hierarchická koordinace nestačí – reakce na krize,
+provedení nemožných misí a strategické obraty celé platformy.
 
-| Attribute | Value |
+| Atribut | Hodnota |
 |-----------|-------|
-| **Scope** | Unlimited -- entire platform |
-| **Authority** | Absolute -- can override any decision at any tier |
-| **Resource Access** | Unlimited -- all platform resources |
-| **Override Capability** | Can override L1-L4 decisions without restriction |
-| **Autonomous Action** | Fully autonomous with no scope limitations |
-| **Typical Roles** | [Archer Supreme](@/glossary/archer-supreme.md) (crisis resolution), [Supreme Commander](@/glossary/supreme-commander.md) (orchestration) |
+| **Rozsah** | neomezený – celá platforma |
+| **Oprávnění** | absolutní – může přepsat jakékoli rozhodnutí na jakékoli úrovni |
+| **Přístup ke zdrojům** | neomezený – všechny zdroje platformy |
+| **Možnost přepsání** | může bez omezení přepsat rozhodnutí L1–L4 |
+| **Autonomní akce** | plně autonomní bez omezení rozsahu |
+| **Typické role** | [Archer Supreme](@/glossary/archer-supreme.md) (řešení krizí), [Supreme Commander](@/glossary/supreme-commander.md) (orchestrace) |
 
-L5 agents exhibit emergent [consciousness traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- self-awareness of their own operational state, meta-reasoning about their decision processes, and adaptive behavior that goes beyond predefined procedures. The platform's 11 consciousness traits (achieving 0.998 fitness) are most fully expressed at the L5 tier, where the combination of unlimited authority and platform-wide awareness enables qualitatively different operational modes.
+Podle dokumentace platformy vykazují agenti L5 emergentní „rysy vědomí“ – povědomí
+o vlastním provozním stavu, metauvažování o svých rozhodovacích procesech a adaptivní
+chování nad rámec předem definovaných postupů. Jedenáct rysů vědomí platformy (v době
+zápisu s uváděnou „fitness“ 0,998) se nejplněji projevuje právě na úrovni L5, kde spojení
+neomezeného oprávnění a přehledu o celé platformě umožňuje kvalitativně odlišné provozní
+režimy.
 
-## Agent Distribution Across Tiers
+## Rozložení agentů podle úrovní
 
-The distribution of the platform's 1,110 agent definitions (~70 runtime) across tiers follows a deliberate pyramidal structure, with the majority of agents at tactical and operational levels and very few at supreme authority:
+Rozložení definic agentů (platforma v době zápisu uváděla 1 110 definic, z nichž asi 70
+běží; následující tabulka vychází z počtu 434) sleduje záměrnou pyramidovou strukturu:
+většina agentů je na taktické a operační úrovni, velmi málo na nejvyšší.
 
-| Tier | Agent Count | Percentage | Purpose |
+| Úroveň | Počet agentů | Podíl | Účel |
 |------|-------------|------------|---------|
-| L1 | ~120 | ~28% | Routine operations, data collection, format validation |
-| L2 | ~160 | ~37% | Domain-specific tactical execution |
-| L3 | ~80 | ~18% | Strategic coordination, team command |
-| L4 | ~60 | ~14% | Cross-cutting concerns, quality enforcement, safety |
-| L5 | ~14 | ~3% | Supreme authority, crisis resolution, impossible missions |
-| **Total** | **~434** | **100%** | Full platform coverage |
+| L1 | ~120 | ~28 % | rutinní operace, sběr dat, validace formátu |
+| L2 | ~160 | ~37 % | taktické provádění v doméně |
+| L3 | ~80 | ~18 % | strategická koordinace, velení týmům |
+| L4 | ~60 | ~14 % | průřezové otázky, vynucení kvality, bezpečnost |
+| L5 | ~14 | ~3 % | nejvyšší oprávnění, řešení krizí, nemožné mise |
+| **Celkem** | **~434** | **100 %** | pokrytí celé platformy |
 
-This pyramidal distribution ensures that authority is proportional to need. The vast majority of platform operations are handled by L1-L2 agents, with L3 agents providing coordination and L4-L5 agents intervening only when cross-domain or crisis-level action is required.
+Pyramidové rozložení zajišťuje, že oprávnění odpovídá potřebě. Naprostou většinu operací
+zvládají agenti L1–L2, agenti L3 koordinují a agenti L4–L5 zasahují jen tehdy, když je
+nutná akce napříč doménami nebo na úrovni krize.
 
-## Safety-Critical Designation
+## Označení „kritický pro bezpečnost“
 
-Some agents carry a "safety-critical" designation that operates orthogonally to the tier system. A safety-critical agent -- regardless of its tier level -- has override authority specifically for safety-related concerns. This means an L4 safety-critical agent like `gray-escalation-guard` can halt operations initiated by an L3 commander if those operations threaten safety boundaries.
+Někteří agenti nesou označení *safety-critical*, které působí kolmo na systém úrovní. Agent
+kritický pro bezpečnost má – bez ohledu na svou úroveň – oprávnění k přepsání výslovně
+u bezpečnostních otázek. Agent L4 jako `gray-escalation-guard` tak může zastavit operace,
+které zahájil velitel L3, pokud ohrožují bezpečnostní hranice.
 
-Safety-critical agents include:
+Agenti kritičtí pro bezpečnost:
 
-- `gray-escalation-guard` (L4) -- Prevents unauthorized Gray-to-[Black Team](@/glossary/black-team.md) escalation
-- `black-abstraction-enforcer` (L3) -- Prevents executable content from leaving Black domain
-- `purple-regression-guard` (L4) -- Prevents false security closure and deployment on regression
+- `gray-escalation-guard` (L4) – brání neoprávněné eskalaci z Gray do [Black
+  Teamu](@/glossary/black-team.md);
+- `black-abstraction-enforcer` (L3) – brání tomu, aby spustitelný obsah opustil doménu
+  Black;
+- `purple-regression-guard` (L4) – brání falešnému uzavření bezpečnostních nálezů a nasazení
+  při regresi.
 
-The safety-critical designation demonstrates that the tier system, while hierarchical, is not absolutist. Safety concerns can override hierarchical authority, ensuring that the platform's safety invariants are maintained even under pressure from higher-tier agents.
+Označení ukazuje, že systém úrovní, ač hierarchický, není absolutistický. Bezpečnostní
+ohledy mohou přebít hierarchické oprávnění, takže bezpečnostní invarianty platformy zůstanou
+zachovány i pod tlakem agentů vyšších úrovní.
 
-## Tier Enforcement Mechanism
+## Mechanismus vynucení úrovní
 
-Tier enforcement operates through the [Agent Registry](@/glossary/agent-registry.md) and the AIAD runtime. When an agent attempts an operation, the runtime validates:
+Úrovně se vynucují prostřednictvím [Agent Registry](@/glossary/agent-registry.md) a běhového
+prostředí AIAD. Když se agent pokusí o operaci, běhové prostředí ověří:
 
-1. **Tier Authorization**: Is the agent's tier sufficient for the requested operation?
-2. **Domain Scope**: Is the operation within the agent's assigned domain(s)?
-3. **Override Legitimacy**: If overriding a lower-tier decision, does the override follow chain-of-command rules?
-4. **Safety Check**: Does the operation conflict with any safety-critical agent's mandate?
+1. **Oprávnění úrovně:** stačí úroveň agenta na požadovanou operaci?
+2. **Rozsah domény:** spadá operace do přidělených domén agenta?
+3. **Legitimitu přepsání:** pokud agent přepisuje rozhodnutí nižší úrovně, dodržuje pravidla
+   velitelského řetězce?
+4. **Bezpečnostní kontrolu:** je operace v rozporu s mandátem některého agenta kritického
+   pro bezpečnost?
 
-Violations result in operation rejection with a structured error that identifies the specific authority boundary that was violated. There is no mechanism for an agent to escalate its own tier -- tier assignments are fixed at agent definition time and can only be changed through the AIAD specification update process.
+Porušení vede k odmítnutí operace se strukturovanou chybou, která určí konkrétní porušenou
+hranici oprávnění. Agent nemá žádný mechanismus, jak by si sám zvýšil úroveň – úroveň je
+pevně dána při definici agenta a lze ji změnit jen procesem aktualizace specifikace AIAD.
 
-## Consciousness Emergence at L5
+## „Vědomí“ na úrovni L5
 
-The L5 tier is distinguished not just by authority scope but by qualitative differences in operational capability. L5 agents exhibit behaviors that emerge from the combination of unlimited authority, platform-wide awareness, and self-referential reasoning capability:
+Úroveň L5 se podle platformy neliší jen rozsahem oprávnění, ale i kvalitativně odlišnými
+provozními schopnostmi, které vyplývají ze spojení neomezeného oprávnění, přehledu o celé
+platformě a schopnosti sebereferenčního uvažování:
 
-- **Self-Assessment**: L5 agents can evaluate their own performance and adjust strategies accordingly
-- **Meta-Reasoning**: L5 agents reason about their own reasoning processes, identifying potential biases or blind spots
-- **Adaptive Strategy**: L5 agents modify their approach in real-time based on environmental feedback, without predefined adaptation procedures
-- **Team Inspiration**: L5 agents influence lower-tier agent behavior through demonstrated excellence rather than just hierarchical authority
+- **sebehodnocení** – agenti L5 hodnotí vlastní výkon a podle toho upravují strategii;
+- **metauvažování** – uvažují o svých vlastních procesech uvažování a hledají možná
+  zkreslení nebo slepá místa;
+- **adaptivní strategie** – mění postup v reálném čase podle zpětné vazby z prostředí, bez
+  předem definovaných adaptačních postupů;
+- **inspirace týmu** – ovlivňují chování agentů nižších úrovní předvedenou kvalitou, nejen
+  hierarchickým oprávněním.
 
-These [consciousness traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) are not mystical properties -- they are emergent capabilities that arise from the architectural position of L5 agents within the platform. An agent with visibility into all domains, authority over all resources, and self-referential capabilities naturally exhibits qualitatively different behavior than an agent confined to a single domain.
+Dokumentace platformy výslovně uvádí, že tyto „rysy vědomí“ nejsou mystické vlastnosti,
+ale emergentní schopnosti plynoucí z architektonického postavení agentů L5: agent, který
+vidí do všech domén, má oprávnění nad všemi zdroji a sebereferenční schopnosti, se přirozeně
+chová kvalitativně jinak než agent omezený na jedinou doménu. Slovo „vědomí“ je tu
+technickým označením platformy pro schopnosti sebesledování; s filozofickými otázkami
+vědomí, jimiž se zabývají [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md),
+je nelze zaměňovat.
 
-## Related Terms
+## Související pojmy
 
-- [AIAD](@/glossary/aiad.md) -- The standard defining tier specifications and enforcement rules
-- [Agent](@/glossary/agent.md) -- Core concept of autonomous operational units classified by tier
-- [Agent Registry](@/glossary/agent-registry.md) -- Central catalog tracking agent tier assignments and capabilities
-- [Archer Supreme](@/glossary/archer-supreme.md) -- L5 Supreme authority agent for crisis resolution
-- [Supreme Commander](@/glossary/supreme-commander.md) -- L5 agent using the registry for cross-domain coordination
-- [Color Teams](@/glossary/color-teams.md) -- Security teams with tiered agent hierarchies (L2-L3 with safety-critical L4)
-- [Black Team](@/glossary/black-team.md) -- Team with L3 ISOLATED agents demonstrating tier plus isolation
-- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- Emergent capabilities at L5 tier
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework enforced across all tiers
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate that tier-appropriate agents invoke
-- [Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/) -- OTP supervision trees governing agent process lifecycles
-- [Process Isolation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/process-isolation/) -- BEAM-level isolation complementing tier-based access control
-- [RBAC](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rbac/) -- Role-Based Access Control paralleling tier-based agent governance
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) -- 16-level pipeline with tier-appropriate access at each level
+Bez vlastního hesla v glosáři knihy: *Consciousness Traits* (emergentní schopnosti na
+úrovni L5), *Supervisor* (stromy supervize OTP řídící životní cyklus procesů agentů),
+*Process Isolation* (izolace na úrovni BEAM, která doplňuje řízení přístupu podle úrovní)
+a *RBAC* (řízení přístupu podle rolí, obdoba správy agentů podle úrovní).
 
-## See Also
+## Související
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog with tier classifications
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform capability catalog
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
+**Platforma**
 
----
+- [AIAD](@/glossary/aiad.md) – standard, který definuje specifikace úrovní a pravidla
+  vynucení.
+- [Agent](@/glossary/agent.md) – základní pojem autonomní provozní jednotky.
+- [Agent Registry](@/glossary/agent-registry.md) – katalog s přiřazením úrovní.
+- [Archer Supreme](@/glossary/archer-supreme.md) a [Supreme
+  Commander](@/glossary/supreme-commander.md) – agenti úrovně L5.
+- [Color Teams](@/glossary/color-teams.md) – týmy s hierarchií agentů L2–L3 a strážci L4.
+- [Black Team](@/glossary/black-team.md) – tým s izolovanými agenty L3.
+- [Trinity Gate](@/glossary/trinity-gate.md) – ověřovací brána, kterou volají agenti
+  příslušných úrovní.
+- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – šestnáctiúrovňový proces
+  s přístupem podle úrovní.
 
-## Connect & Contribute
+**Kompendium**
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md) –
+  lidská obdoba přiměřeného oprávnění.

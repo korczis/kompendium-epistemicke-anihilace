@@ -61,7 +61,7 @@ Souhlas je epistemický i etický akt: předpokládá, že člověk má přístu
 
 ## Význam pro Kompendium
 
-Na platformě Prismatic, z níž kniha vzešla, se princip uplatňuje v klinickém výzkumu, behaviorálních studiích, výzkumu AI a strojového učení na lidských datech, v operacích [OSINT](@/glossary/osint.md) (tam, kde je souhlas subjektu relevantní) a v kontextu due diligence při získávání informací od zaměstnanců cílové firmy a dalších respondentů.
+Na platformě Prismatic, z níž kniha vzešla, se princip uplatňuje v klinickém výzkumu, behaviorálních studiích, výzkumu AI a strojového učení na lidských datech, v operacích [OSINT](@/glossary/osint.md) (tam, kde je souhlas subjektu relevantní) a v kontextu [due diligence](@/glossary/due-diligence.md) při získávání informací od zaměstnanců cílové firmy a dalších respondentů.
 
 Hájitelný formulář souhlasu je dost krátký, aby se dal přečíst, je napsán na úrovni čtenářské gramotnosti účastníka (u běžné populace zhruba na úrovni základní školy) a doplněn ústním rozhovorem, v němž se účastník může ptát. Klíčové součásti: účel, postupy, časová náročnost, rizika (fyzická, psychická, sociální, ekonomická), přínosy (s poctivým přiznáním, když účastníkovi žádné neplynou), alternativy, ochrana důvěrnosti, uchování a použití dat, kontakty a jasné prohlášení o právu odstoupit. U výzkumu s transformativními zásahy, zranitelnými populacemi nebo složitým použitím dat (genomika, trénovací korpusy AI) se stále častěji doporučují stupňovité nebo dynamické modely souhlasu. V operacích due diligence se informovaný souhlas týká rozhovorů s účastníky, hodnocení zaměstnanců a každého zpracování osobních údajů, které nespadá pod jiný právní základ GDPR.
 

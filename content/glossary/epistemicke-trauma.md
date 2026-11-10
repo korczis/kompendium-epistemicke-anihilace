@@ -66,7 +66,7 @@ Průběh zotavení z epistemického traumatu byl zkoumán méně soustavně než
 | **stabilizace** | obnovit základní fungování a bezpečí |
 | **podepřená obnova důvěry** | postupně se vracet k důkazům s nízkou sázkou s výslovnou vnější oporou – písemnými záznamy, důvěryhodnými třetími osobami |
 | **oprava kalibrace** | záměrně trénovat na úlohách s objektivní zpětnou vazbou |
-| **integrace** | začlenit zkušenost EA do soudržného autobiografického vyprávění bez retraumatizace |
+| **integrace** | začlenit zkušenost EA do soudržného autobiografického vyprávění bez [retraumatizace](@/glossary/retraumatizace.md) |
 
 Kompendium výslovně varuje před předčasným **zásahem na úrovni obsahu**: dohadovat se o pravdivosti konkrétních tvrzení s člověkem, jehož schopnost epistemické důvěry je poškozena, často retraumatizuje místo pomoci. Obnova struktury musí předcházet obnově obsahu. Český výklad: [Trauma](@/kompendium/recovery-protocols/trauma.md).
 

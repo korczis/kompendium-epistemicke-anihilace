@@ -70,7 +70,7 @@ Mystický prožitek je epistemicky silný, protože má **noetickou kvalitu**: p
 
 ## Význam pro Kompendium
 
-Pro vyšetřování due diligence zaměřená na náboženské, terapeutické nebo koučovací organizace platí na platformě Prismatic, z níž kniha vzešla: tvrzení o „spirituálních zážitcích“ klientů lze ověřovat jen s odkazem na standardizované nástroje a vnější kontrolu. Manažersky kritické je, že organizace, která *prodává mystické prožitky* (psychedelické pobyty, intenzivní meditační centra, charismatické náboženské komunity), musí doložit:
+Pro vyšetřování [due diligence](@/glossary/due-diligence.md) zaměřená na náboženské, terapeutické nebo koučovací organizace platí na platformě Prismatic, z níž kniha vzešla: tvrzení o „spirituálních zážitcích“ klientů lze ověřovat jen s odkazem na standardizované nástroje a vnější kontrolu. Manažersky kritické je, že organizace, která *prodává mystické prožitky* (psychedelické pobyty, intenzivní meditační centra, charismatické náboženské komunity), musí doložit:
 
 1. screeningový protokol;
 2. kvalifikovanou podporu integrace;

@@ -2,7 +2,7 @@
 title = "Différance"
 weight = 60
 
-description = "Derrida's neologism for the simultaneous deferral and difference at the heart of meaning; meaning's structural instability becomes weaponized in advanced epistemic-attack environments that exploit indeterminacy."
+description = "Derridův novotvar pro současné odlišování a odkládání v jádru významu; strukturní nestabilita významu, kterou lze zneužít v útocích stavějících na neurčitosti."
 
 [taxonomies]
 tags = ["glossary", "epistemic", "kompendium", "philosophy"]
@@ -11,52 +11,142 @@ tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 category = "epistemic"
 related_terms = ["simulacra", "metanarrative-collapse", "epistemicka-anihilace", "kognitivni-anihilace", "metakognitivni-destrukce"]
 author = "Tomáš Korcak (korczis)"
-reading_time = "3 min"
-word_count = 510
+reading_time = "6 min"
+word_count = 1100
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
-keywords = ["différance", "Derrida", "deconstruction", "deferral", "trace", "kompendium"]
+date_modified = "2026-11-10"
+keywords = ["différance", "Derrida", "dekonstrukce", "odklad", "stopa", "kompendium"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"
-image_alt = "Différance - glossary"
+image_alt = "Différance – glosář"
 +++
 
-## Definition
+## Definice
 
-**Différance** is Jacques Derrida's deliberate neologism, introduced in the 1968 lecture "La différance" and elaborated across *Of Grammatology* (1967) and *Writing and Difference* (1967). The spelling — French *différance* with an *a* rather than the standard *différence* with an *e* — is itself part of the argument: the substitution is **inaudible** in spoken French but visible in writing. Différance therefore enacts the priority of writing over the metaphysical privilege traditionally accorded to speech (logocentrism / phonocentrism).
+**Différance** je záměrný novotvar Jacquese Derridy, uvedený v přednášce „La différance“
+(1968) a rozvíjený v dílech *O gramatologii* (*De la grammatologie*, 1967) a *Písmo
+a diference* (*L'écriture et la différence*, 1967). Pravopis – francouzské *différance*
+s *a* místo běžného *différence* s *e* – je sám součástí argumentu: záměna je
+v mluvené francouzštině **neslyšitelná**, v psaném textu však viditelná. Différance tak
+předvádí prvenství písma před metafyzickým privilegiem, které tradice přisuzovala řeči
+(logocentrismus, fonocentrismus).
 
-Différance condenses two senses of the French verb *différer*: (1) **to differ** — to be distinct, non-identical; (2) **to defer** — to postpone, delay. Derrida's claim is that meaning is constituted by the simultaneous operation of both: a sign means what it does **only** through (a) its differential relation to other signs in the system (Saussurean structuralism radicalized) and (b) the perpetual deferral of any final, present, self-identical referent that would close the system. Meaning is never fully present; it is always **trace** — the mark of what is absent that nonetheless structures what appears.
+Différance spojuje dva významy francouzského slovesa *différer*:
 
-This is not a thesis about indeterminacy as defect. Différance is the **condition of possibility** for meaning, not its failure. There is no meaning that escapes the play of difference and deferral; metaphysical fantasies of pure presence (the transcendental signified, the speaker's intention, the thing-in-itself) are precisely the targets of deconstructive analysis.
+1. **lišit se** – být odlišný, neidentický;
+2. **odkládat** – oddalovat, zdržovat.
 
-## Context
+Derrida tvrdí, že význam vzniká souběžným působením obou: znak znamená to, co znamená,
+**jen** díky (a) svému diferenciálnímu vztahu k jiným znakům v systému (radikalizovaný
+saussurovský strukturalismus) a (b) neustálému odkládání jakéhokoli konečného, přítomného,
+sebetotožného referentu, který by systém uzavřel. Význam není nikdy zcela přítomný; je
+vždy **stopou** – znamením toho, co chybí, a přesto strukturuje to, co se jeví.
 
-The Kompendium engages différance with a careful dual posture: as **diagnostic resource** for understanding the structural instability of meaning that EA techniques exploit, **and** as a target of critique when its insights are weaponized into anti-realist relativism that disables the possibility of identifying manipulation as such.
+## Původ a kontext pojmu
 
-Specifically:
+Derrida reagoval na strukturalismus Ferdinanda de Saussura (význam znaku je dán rozdíly
+vůči jiným znakům) a na fenomenologii Edmunda Husserla, jejíž ideál „živé přítomnosti“
+významu podrobil kritice. Pojem stojí u zrodu dekonstrukce, která ovlivnila literární
+teorii, filozofii i právo. Nejde o tezi o neurčitosti jako vadě. Différance je
+**podmínkou možnosti** významu, nikoli jeho selháním. Neexistuje význam, který by unikl hře
+rozdílu a odkladu; metafyzické představy čisté přítomnosti (transcendentální signifikát,
+záměr mluvčího, věc o sobě – srov. [Ding an sich](@/glossary/ding-an-sich.md)) jsou právě
+terčem dekonstruktivní analýzy.
 
-- **Advanced EA-1.3.x immunization techniques** exploit differential meaning: the manipulator strategically deploys vocabulary that defers fixed meaning indefinitely, producing the conversational effect "you cannot pin me down to anything refutable." The victim's truth-claims are met not with counter-claims but with infinite semantic regress.
-- **Strategic ambiguity** in coercive-control contexts is differential meaning weaponized — the manipulator preserves plausible deniability by ensuring no utterance has a determinate-enough referent to be rebutted.
-- The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) takes a deliberate position: deconstructive analysis is **descriptively powerful** but **normatively insufficient**. Différance describes structural conditions of meaning; it does not by itself provide the criteria distinguishing legitimate deferral (the working of meaning) from weaponized deferral (the manipulation of the victim).
-- The kompendium pairs Derridean analysis with Habermasian [communicative rationality](@/glossary/communicative-rationality.md) and the [Ideal Speech Situation](@/glossary/ideal-speech-situation.md) as the normative complement: différance acknowledged at the descriptive level, validity-claims defended at the normative level.
-- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} implements an architectural response to weaponized indeterminacy: structured meaning-pinning protocols (formal definitions, operational variables, agreed-upon evidence types) that refuse to permit infinite deferral within the analytic frame, while acknowledging that meaning outside the frame remains differentially constituted.
+V Kompendiu je Derridovi věnováno heslo [EA-7.1.8 Derrida:
+Dekonstrukce](@/kompendium/techniques/ea-7-1-8-derrida-deconstruction.md) a kapitola [7.4 EA
+a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md).
 
-## See Also
+## Jak se projevuje
 
-- [Simulacra](@/glossary/simulacra.md) — Baudrillardian companion postmodern frame
-- [Metanarrative collapse](@/glossary/metanarrative-collapse.md) — Lyotard's diagnosis
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Phenomenon explained
-- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process counterpart
-- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Reflective-capacity damage
-- [Kompendium](@/kompendium/_index.md) — Full taxonomy
-- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — Theoretical foundations
+Ve filozofii se différance „neprojevuje“ – je to popis struktury. Pro Kompendium jsou
+důležité situace, kdy se tato struktura **zneužívá**. Pozorovatelné znaky:
 
----
+- mluvčí nikdy neřekne nic dost určitého, aby to šlo vyvrátit („tak jsem to nemyslel“,
+  „záleží, jak to chápeš“);
+- na konkrétní otázku přichází nekonečné zpřesňování pojmů místo odpovědi;
+- význam klíčových slov se mění podle toho, co je zrovna potřeba hájit (srov. [Motte and
+  Bailey](@/glossary/motte-and-bailey.md));
+- oběť má pocit, že „nemůže nic dokázat“, protože nic nebylo řečeno jednoznačně.
 
-## Connect & Contribute
+## Mechanismus
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+Kompendium přistupuje k différance s promyšleně dvojím postojem: jako k **diagnostickému
+zdroji** pro porozumění strukturní nestabilitě významu, kterou techniky EA využívají,
+**a zároveň** jako k předmětu kritiky, když se její poznatky obrátí v antirealistický
+relativismus, který znemožní rozpoznat manipulaci jako manipulaci.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- **Pokročilé imunizační techniky skupiny EA-1.3** využívají diferenciální povahu
+  významu: manipulátor strategicky volí slovník, který pevný význam donekonečna odkládá,
+  a vytváří tak konverzační efekt „nemůžeš mě chytit za nic vyvratitelného“. Na pravdivostní
+  tvrzení oběti neodpovídá protitvrzením, ale nekonečným sémantickým regresem (srov.
+  [Infinitní regres](@/glossary/infinitni-regress.md)).
+- **Strategická nejednoznačnost** v kontextu [coercive control](@/glossary/coercive-control.md)
+  je zneužitým diferenciálním významem: manipulátor si zachovává věrohodnou popiratelnost
+  tím, že žádná jeho výpověď nemá dost určitý referent, aby mohla být vyvrácena.
+
+## Odlišení
+
+- **Filozofická dekonstrukce.** Čtení textu, které odhaluje jeho vnitřní napětí; je
+  otevřené, zdůvodněné a nechává se samo zpochybnit. Zneužití différance je naopak
+  uzavřené: neurčitost slouží jen jedné straně.
+- **Běžná víceznačnost.** Každý jazyk je víceznačný; ve férovém rozhovoru se význam na
+  požádání upřesní. Manipulativní odklad upřesnění soustavně odmítá.
+- **[Simulakra](@/glossary/simulacra.md).** Baudrillardův pojem popisuje nahrazení reality
+  znaky; différance popisuje, jak znaky znamenají.
+- **[Metanarrative collapse](@/glossary/metanarrative-collapse.md).** Lyotardova diagnóza
+  ztráty velkých příběhů; souvisí, ale týká se legitimizace vědění, ne struktury znaku.
+
+## Význam pro Kompendium
+
+- [7. Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) zaujímají
+  vědomé stanovisko: dekonstruktivní analýza je **popisně silná**, ale **normativně
+  nedostatečná**. Différance popisuje strukturní podmínky významu; sama o sobě však
+  nedává kritéria, která by odlišila legitimní odklad (fungování významu) od zneužitého
+  odkladu (manipulace obětí).
+- Kompendium proto spojuje derridovskou analýzu s habermasovskou [komunikativní
+  racionalitou](@/glossary/communicative-rationality.md) a s [ideální řečovou
+  situací](@/glossary/ideal-speech-situation.md) jako normativním doplňkem: différance
+  uznána na rovině popisu, nároky na platnost hájeny na rovině normy.
+- Na platformě, z níž kniha vzešla, odpovídá [Decision Engine](@/glossary/decision-engine.md)
+  na zneužitou neurčitost architektonicky: strukturovanými protokoly ukotvení významu
+  (formální definice, operační proměnné, dohodnuté typy důkazů), které v rámci analýzy
+  nedovolí nekonečný odklad, a přitom uznávají, že význam mimo tento rámec zůstává
+  diferenciálně konstituován.
+
+## Obrana a zotavení
+
+- **Ukotvit význam:** požádat o konkrétní příklad, o to, co by tvrzení vyvrátilo, nebo
+  o písemné shrnutí dohody (viz [Myšlení ve falsifikacích](@/kompendium/self-defense-guides/5-falsification-thinking.md)).
+- **Pojmenovat vzorec:** „Na tuto otázku jsem nedostal odpověď, ale další otázku.“
+- **Pro terapeuta:** u klientů z prostředí strategické nejednoznačnosti obnovovat důvěru
+  v jejich vlastní porozumění; pomáhá zapisovat si, co bylo řečeno, a vracet se k tomu.
+
+## Literatura
+
+- Jacques Derrida: *De la grammatologie* (1967).
+- Jacques Derrida: *L'écriture et la différence* (1967).
+- Jacques Derrida: „La différance“ (přednáška 1968; otištěno v *Marges de la philosophie*,
+  1972).
+
+## Související
+
+**Pojmy**
+
+- [Simulacra](@/glossary/simulacra.md) – baudrillardovský postmoderní protějšek.
+- [Metanarrative collapse](@/glossary/metanarrative-collapse.md) – Lyotardova diagnóza.
+- [Communicative Rationality](@/glossary/communicative-rationality.md) – normativní doplněk.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – vysvětlovaný jev.
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – protějšek na úrovni
+  kognitivních procesů.
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – poškození
+  reflexivní kapacity.
+
+**Kapitoly**
+
+- [EA-7.1.8 Derrida: Dekonstrukce](@/kompendium/techniques/ea-7-1-8-derrida-deconstruction.md)
+  – heslo o Derridovi v taxonomii.
+- [7.4 EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md) –
+  Lyotard, Baudrillard, Derrida v souvislosti.
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – teoretické základy.

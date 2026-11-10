@@ -90,7 +90,7 @@ Terapeuticky vyžaduje zotavení z anti-rekurzivity obvykle **podepřené znovuz
 
 ## Literatura
 
-- Robert Jay Lifton: *Thought Reform and the Psychology of Totalism* (1961).
+- Robert Jay Lifton: *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* (1961).
 - Adrian Wells: *Metacognitive Therapy for Anxiety and Depression* (2009).
 
 ## Související

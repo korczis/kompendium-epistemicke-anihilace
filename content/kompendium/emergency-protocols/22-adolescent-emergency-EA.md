@@ -99,7 +99,8 @@ tvrdá kontrola bez vztahu i lhostejnost zvyšují riziko.
 
 **Autonomie** je samostatným bodem posouzení: dospívající má právo na vlastní pohled a „naivita“
 nebo „vzdor“ nejsou diagnózy. Občanský zákoník (zákon č. 89/2012 Sb.) vychází z toho, že
-nezletilý je způsobilý k jednáním přiměřeným své rozumové a volní vyspělosti, a péče by měla
+nezletilý je způsobilý k právním jednáním co do povahy přiměřeným rozumové a volní vyspělosti
+nezletilých jeho věku (§ 31), a péče by měla
 tuto vyspělost respektovat.
 
 ## Rozhodovací body a eskalace
@@ -163,7 +164,7 @@ dospělých.
 ## Etika a souhlas
 
 Dospívající se podílí na rozhodování v míře odpovídající jeho zralosti; souhlas zákonných
-zástupců se vyžaduje podle zákona č. 372/2011 Sb., který zároveň ukládá zjistit názor
+zástupců se zpravidla vyžaduje (§ 35 zákona č. 372/2011 Sb.); zákon zároveň ukládá zjistit názor
 nezletilého pacienta a přihlížet k němu. Důvěrnost je pro vztah zásadní: na začátku se řekne, co
 zůstane mezi pomáhajícím a dospívajícím a co musí být sděleno (ohrožení života, týrání,
 zneužívání).

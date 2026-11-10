@@ -68,8 +68,8 @@ přesvědčení vštípené skupinou bývá z životní historie člověka pocho
 
 Empirický výzkum ukazuje, že samotný obsah neobvyklého přesvědčení k rozlišení nestačí. Peters
 a kol. (1999) srovnávali členy nových náboženských hnutí s pacienty s bludy a nalezli u obou
-skupin srovnatelné množství neobvyklých představ; lišily se však míra tísně, zaujetí a
-přesvědčenosti, s nimiž lidé své představy prožívali. Kliník se proto ptá nejen, čemu pacient
+skupin srovnatelné množství neobvyklých představ; lišily se však míra tísně a zaujetí; v počtu
+představ ani v přesvědčenosti se nelišily. Kliník se proto ptá nejen, čemu pacient
 věří, ale i jak ho to trápí, jak moc ho to pohlcuje a zda je schopen připustit jinou možnost.
 
 Totéž platí pro halucinatorní prožitky. Larøi a kol. (2014) shrnují, že výskyt, obsah i výklad
@@ -195,7 +195,7 @@ Předávající uvede, které obsahy pocházejí ze skupinového učení, jaká 
 co z toho je pro pacienta bezpečné. Pracovní diagnóza se po odeznění akutní fáze přehodnocuje;
 k chybné trvalé nálepce dochází nejčastěji tehdy, když nikdo nezaznamenal kontext. U první
 epizody psychózy doporučuje NICE (2014) předání do specializované služby včasné intervence, a to
-bez ohledu na předpokládanou příčinu.
+bez ohledu na věk a délku neléčené psychózy.
 
 Po stabilizaci navazuje [kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md)
 a později [metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md),
@@ -214,7 +214,7 @@ stabilní; v akutní psychóze tato podmínka splněna není.
 Diagnostické zastínění znamená připsat všechny příznaky „kultu“, nebo naopak „schizofrenii“ bez
 rozvahy. Obojí je chyba: první přehlédne léčitelnou psychózu, druhé přehlédne kontext, který
 pomáhá příznaky pochopit a pacienta ochránit. Peters a kol. (1999) ukazují, že pevné neobvyklé
-přesvědčení samo o sobě ani jedno nedokazuje.
+přesvědčení samo o sobě ani jedno nedokazuje: rozdíl byl v tísni a zaujetí, ne v síle přesvědčení.
 
 Hádka o obsah bludu nebo jeho přitakání ve snaze získat spolupráci zhoršují vztah i stav;
 deeskalace stojí na tom, že kliník obsah ani nepotvrzuje, ani nevyvrací (Richmond a kol., 2012).

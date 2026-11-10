@@ -103,8 +103,8 @@ léčbě oddělit.
 
 ## Rozhodovací body a eskalace
 
-Tabulka shrnuje typické situace. Adiktologické služby a jejich rámec upravuje zákon č. 65/2017 Sb.,
-o ochraně zdraví před škodlivými účinky návykových látek, a zdravotní péči zákon č. 372/2011 Sb.
+Tabulka shrnuje typické situace. Ochranu před škodlivými účinky návykových látek upravuje zákon č. 65/2017 Sb.,
+adiktologické služby zákon č. 372/2011 Sb. a č. 108/2006 Sb.
 
 | Situace | Postup |
 |---|---|

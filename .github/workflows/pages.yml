@@ -58,6 +58,11 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v5
+        with:
+          # Synchronizace souborů na straně Pages kolísá: úspěšná nasazení 23–45 s, jedno 514 s;
+          # běh 42750395044 (43c40809) skončil na výchozím limitu 600 s. Limit = nejhorší
+          # naměřený úspěch se třínásobnou rezervou.
+          timeout: 1800000
 
   verify:
     name: Verify production

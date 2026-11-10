@@ -34,6 +34,7 @@ import pathlib
 import re
 import sys
 import tomllib
+import unicodedata
 
 sys.dont_write_bytecode = True  # no __pycache__ in the checkout
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
@@ -72,6 +73,19 @@ def front_matter(path: str) -> dict:
         return {}
 
 
+def slug(segment: str) -> str:
+    """Zola's path slug (slugify.paths = "on", the slug crate): ASCII, lower case, runs of
+    anything else become one dash. Pages are served at these paths, case-sensitively."""
+    bare = "".join(c for c in unicodedata.normalize("NFKD", segment) if not unicodedata.combining(c))
+    return re.sub(r"[^a-z0-9]+", "-", bare.lower()).strip("-")
+
+
+def zola_url(url: str) -> str:
+    """The URL Zola serves for a content path's URL ("/a/Ä-B/" -> "/a/a-b/")."""
+    parts = [slug(x) for x in url.strip("/").split("/") if x]
+    return "/" + "/".join(parts) + ("/" if parts else "")
+
+
 def load() -> list:
     """The pages of ia_model plus the front-matter fields the shell needs."""
     pages = []
@@ -85,7 +99,7 @@ def load() -> list:
             m = EA_FILE.match(p["path"].rsplit("/", 1)[-1])
             code = "EA-" + ".".join(m.groups()) if m else ""
         category = extra.get("category", "")
-        pages.append({**p, "ea_code": code, "weight": int(front.get("weight", 0) or 0),
+        pages.append({**p, "url": zola_url(p["url"]), "ea_code": code, "weight": int(front.get("weight", 0) or 0),
                       "sort_by": str(front.get("sort_by", "") or ""),
                       "category": category if isinstance(category, str) else ""})
     return pages

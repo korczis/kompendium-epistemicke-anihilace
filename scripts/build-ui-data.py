@@ -20,6 +20,10 @@ Writes, into static/data/ (nobody edits them by hand):
                  entry follow from its url and file (0 page.md, 1 _index.md, 2 index.md)
   viz-deps.json  every educational visualisation in static/js/kompendium/ -> the vendored
                  libraries it calls (chart, p5, three); base.html loads only those
+  pokracovat.json  the "Pokračovat" block of every page (templates/partials/pokracovat.html
+                 renders it): page path -> {next, related, term, protocol}, each [path, title],
+                 derived from static/data/graph.json and static/data/ia.json (so run
+                 scripts/build-graph.py first); see pokracovat() for the rules
 
 Deterministic: the same content gives the same bytes, so `--check` fails CI when a commit
 changes content or a visualisation without regenerating them.
@@ -38,7 +42,8 @@ import unicodedata
 
 sys.dont_write_bytecode = True  # no __pycache__ in the checkout
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from ia_model import CONTENT, ROOT, TOML_FM, load_pages  # noqa: E402
+from ia_model import (CONTENT, ROOT, TOML_FM, YAML_FM, load_pages,  # noqa: E402
+                      parse_yaml_subset, url_of)
 
 OUT = ROOT / "static" / "data"
 VIZ = ROOT / "static" / "js" / "kompendium"
@@ -215,11 +220,178 @@ def viz_deps() -> dict:
     return {"schema": "kompendium-viz-deps/v1", "scripts": deps}
 
 
+def natural_key(title: str) -> tuple:
+    """Zola's sort_by = "title" (lexical_sort::natural_lexical_cmp): transliterated to ASCII,
+    case-insensitive, other characters before digits before letters, digit runs compared as
+    numbers; then the raw title."""
+    bare = "".join(c for c in unicodedata.normalize("NFKD", title) if not unicodedata.combining(c))
+    key = []
+    for run in re.findall(r"\d+|.", bare.lower(), re.S):
+        if run.isdigit():
+            key.append((1, int(run), ""))
+        else:
+            key.append((2 if run.isalpha() else 0, 0, run))
+    return tuple(key), title
+
+
+def zola_sections() -> dict:
+    """Every section (by its _index.md path) as Zola builds it: its pages in Zola's order (only
+    the sortable ones when sorted; a page without the sort key is left out, as Zola does), its
+    parent section, its weight and whether the order is a sort (Zola then sets page.higher)."""
+    files = {}
+    for f in sorted(CONTENT.rglob("*.md")):
+        rel = f.relative_to(CONTENT).as_posix()
+        text = f.read_text(encoding="utf-8")
+        m = TOML_FM.match(text)
+        front = {}
+        if m:
+            try:
+                front = tomllib.loads(m.group(1))
+            except tomllib.TOMLDecodeError:
+                front = {}
+        else:
+            m = YAML_FM.match(text)
+            front = parse_yaml_subset(m.group(1)) if m else {}
+        if front.get("draft") is True:
+            continue
+        files[rel] = front
+    parent_dir = lambda rel: rel.rsplit("/", 1)[0] if "/" in rel else ""  # noqa: E731
+    index_of = lambda folder: f"{folder}/_index.md" if folder else "_index.md"  # noqa: E731
+    sections = {rel: {"front": front, "pages": [], "subsections": [], "parent": None}
+                for rel, front in files.items() if rel.rsplit("/", 1)[-1] == "_index.md"}
+    for rel, sec in sections.items():
+        folder = parent_dir(rel)
+        if folder:
+            up = index_of(parent_dir(folder))
+            if up in sections:
+                sec["parent"] = up
+                sections[up]["subsections"].append(rel)
+    for rel, front in files.items():
+        if rel in sections:
+            continue
+        folder = parent_dir(rel)
+        if rel.rsplit("/", 1)[-1] == "index.md":  # a page bundle belongs to its folder's parent
+            folder = parent_dir(folder)
+        if index_of(folder) in sections:
+            sections[index_of(folder)]["pages"].append(rel)
+    weight = lambda rel: int(sections[rel]["front"].get("weight", 0) or 0)  # noqa: E731
+    for rel, sec in sections.items():
+        sort_by = str(sec["front"].get("sort_by", "") or "none")
+        url = lambda p: url_of(pathlib.PurePosixPath(p))  # noqa: E731
+        if sort_by == "weight":
+            keep = [p for p in sec["pages"] if "weight" in files[p]]
+            sec["pages"] = sorted(keep, key=lambda p: (int(files[p]["weight"]), url(p)))
+        elif sort_by == "title":
+            keep = [p for p in sec["pages"] if "title" in files[p]]
+            sec["pages"] = sorted(keep, key=lambda p: (natural_key(str(files[p]["title"])), url(p)))
+        elif sort_by != "none":
+            raise SystemExit(f"build-ui-data: {rel}: sort_by = {sort_by} is not modelled")
+        sec["sorted"] = sort_by != "none"
+        sec["subsections"].sort(key=lambda s: (weight(s), s))
+    return sections
+
+
+def pokracovat() -> dict:
+    """Where to go next from each page: the rules of the "Pokračovat" block.
+
+    Four targets, each once and only a worked-out page (in static/data/ia.json without the
+    "detail" and "generated" violations):
+      next      the first worked-out page after this one in its section's Zola order (the pager
+                shows the nearest, worked-out or not); at the end of the section the first
+                worked-out page of the next sibling section; dropped when it is the page the
+                pager already offers (page.higher, the next page of a sorted section);
+      related   the strongest related page of static/data/graph.json: a mutual link before a
+                link from this page before a backlink, on a tie the more specific page (fewer
+                in-links), on a full tie the first met (links in graph order, then backlinks in
+                permalink order, as Zola lists page.backlinks);
+      term      the glossary entry this page links to most strongly (not on a glossary page);
+      protocol  the most strongly linked crisis protocol (not on a crisis protocol page).
+    A link target is matched to a page by its URL, a backlink by its source page's URL.
+    """
+    graph = json.loads((OUT / "graph.json").read_text(encoding="utf-8"))
+    ia = {p["path"]: p["violations"]
+          for p in json.loads((OUT / "ia.json").read_text(encoding="utf-8"))["pages"]}
+    nodes, edges = graph["nodes"], graph["edges"]
+    by_path = {n["path"]: n for n in nodes}
+    by_url = {}
+    for n in nodes:
+        by_url.setdefault(n["url"], n)
+    ok = lambda path: path in ia and not {"detail", "generated"} & set(ia[path])  # noqa: E731
+    offset, start = 0, []
+    for n in nodes:
+        start.append(offset)
+        offset += n["out"]
+    linkers = collections.defaultdict(set)
+    for src, dst in edges:
+        linkers[dst].add(src)
+    sections = zola_sections()
+    page_section = {p: rel for rel, sec in sections.items() for p in sec["pages"]}
+    # A page left out of a sorted section is still a page of it (Zola keeps its ancestors).
+    for f in sorted(CONTENT.rglob("*.md")):
+        rel = f.relative_to(CONTENT).as_posix()
+        if rel in sections or rel in page_section:
+            continue
+        folder = rel.rsplit("/", 1)[0] if "/" in rel else ""
+        if rel.endswith("/index.md") or rel == "index.md":
+            folder = folder.rsplit("/", 1)[0] if "/" in folder else ""
+        index = f"{folder}/_index.md" if folder else "_index.md"
+        if index in sections:
+            page_section[rel] = index
+    title = lambda path: by_path[path]["title"] if path in by_path else ""  # noqa: E731
+    out = {}
+    for here, sec_path in sorted(page_section.items()):
+        sec = sections[sec_path]
+        order = sec["pages"]
+        nxt = ""
+        if here in order:
+            nxt = next((p for p in order[order.index(here) + 1:] if ok(p)), "")
+        if not nxt and sec["parent"]:
+            siblings = sections[sec["parent"]]["subsections"]
+            for s in siblings[siblings.index(sec_path) + 1:]:
+                nxt = next((p for p in sections[s]["pages"] if ok(p)), "")
+                if nxt:
+                    break
+        if nxt and sec["sorted"] and here in order and order.index(here) + 1 < len(order) \
+                and order[order.index(here) + 1] == nxt:
+            nxt = ""
+        best = {"related": ("", -1), "term": ("", -1), "protocol": ("", -1)}
+        me = by_path.get(here)
+        if me is not None:
+            mine = edges[start[me["id"]]:start[me["id"]] + me["out"]]
+            out_ids = [e[1] for e in mine if e[0] == me["id"]]
+            back = sorted({nodes[s]["url"] for s in linkers[me["id"]]})
+            back_set = set(back)
+            back_ids = [by_url[u]["id"] for u in back if u in by_url]
+            for direction, ids in ((0, out_ids), (1, back_ids)):
+                for i in ids:
+                    n = nodes[i]
+                    if direction == 1 and [me["id"], i] in mine:
+                        continue
+                    if n["path"] in (here, nxt) or not ok(n["path"]):
+                        continue
+                    tier = 1 if direction else (3 if n["url"] in back_set else 2)
+                    score = tier * 1000000 - n["in"]
+                    if n["section"] == "glossary" and me["section"] != "glossary":
+                        kind = "term"
+                    elif (n["section"] == "kompendium/emergency-protocols"
+                          and me["section"] != "kompendium/emergency-protocols"):
+                        kind = "protocol"
+                    else:
+                        kind = "related"
+                    if score > best[kind][1]:
+                        best[kind] = (n["path"], score)
+        entry = {"next": nxt, **{k: v[0] for k, v in best.items()}}
+        entry = {k: [v, title(v)] for k, v in entry.items() if v}
+        if entry:
+            out[here] = entry
+    return {"schema": "kompendium-pokracovat/v1", "pages": out}
+
+
 def build() -> dict:
     pages = load()
     return {"nav.json": navigation(pages), "terms.json": terms(pages),
             "glossary.json": glossary(pages), "search.json": search_index(pages),
-            "viz-deps.json": viz_deps()}
+            "viz-deps.json": viz_deps(), "pokracovat.json": pokracovat()}
 
 
 def serialise(data: dict) -> str:

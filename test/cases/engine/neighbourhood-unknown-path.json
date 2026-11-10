@@ -1,0 +1,17 @@
+{
+  "category": "unknown_path",
+  "expected": {
+    "error": {
+      "code": "unknown_path",
+      "field": "path",
+      "message": "no page has this path in graph.json"
+    },
+    "ok": false,
+    "op": "neighbourhood",
+    "schema": "kompendium-engine/v1"
+  },
+  "input": {
+    "op": "neighbourhood",
+    "path": "glossary/epistemicka-anihilace-neexistuje.md"
+  }
+}

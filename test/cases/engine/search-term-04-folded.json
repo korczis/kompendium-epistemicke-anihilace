@@ -1,0 +1,39 @@
+{
+  "category": "term",
+  "expected": {
+    "code": null,
+    "hits": [
+      {
+        "code": null,
+        "in": 325,
+        "kind": "Pojem",
+        "path": "glossary/color-teams.md",
+        "tier": 2,
+        "title": "Color Teams (barevné týmy)",
+        "url": "/glossary/color-teams/",
+        "why": "exact_title"
+      },
+      {
+        "code": null,
+        "in": 6,
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-color-teams.md",
+        "tier": 5,
+        "title": "Bridge: Color Teams (barevné týmy)",
+        "url": "/kompendium/glossary-bridges/bridge-color-teams/",
+        "why": "title_word"
+      }
+    ],
+    "limit": 12,
+    "normalised": "color teams (barevne tymy)",
+    "ok": true,
+    "op": "search",
+    "query": "color teams (barevne tymy)",
+    "schema": "kompendium-engine/v1",
+    "total": 2
+  },
+  "input": {
+    "op": "search",
+    "query": "color teams (barevne tymy)"
+  }
+}

@@ -26,62 +26,54 @@
     });
   }
 
-  // --- Search: static/data/search.json (scripts/build-ui-data.py), ARIA combobox -------------
-  // Ranking is deterministic and explainable: exact EA code, exact title, exact alias, title
-  // prefix, every word in the title, every word anywhere. Diacritics and case are ignored.
+  // --- Search: one engine (static/js/viz/jadro.js, contract kompendium-engine/v1) -----------
+  // Ranking, normalisation and EA codes belong to the engine, which the build checks against
+  // the reference scripts/engine.py (test/cases/05_engine_js.sh). Here only the presentation:
+  // the first 12 hits, an honest total, and the description from search.json.
   var indexUrl = body.getAttribute('data-search-index');
+  var graphUrl = body.getAttribute('data-graph');
   var indexPromise = null;
+  var J = window.KompendiumJadro;
+  var SHOWN = 12;
 
-  function fold(s) {
-    return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  function fetchJson(url) {
+    return fetch(url).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    });
   }
 
-  function codeKey(s) {
-    // "EA-1.1.1", "ea 1 1 1", "1.1.1", "ea-1-1-1" -> "1.1.1"
-    var m = fold(s).match(/^(?:ea[\s.\-]*)?(\d{1,2})[\s.\-](\d{1,2})[\s.\-](\d{1,3})$/);
-    return m ? m[1] + '.' + m[2] + '.' + m[3] : '';
-  }
-
+  // {engine, describe(url), docs}; docs (url, title, normalised title) serve the diagram links.
   function loadIndex() {
     if (!indexPromise) {
-      indexPromise = fetch(indexUrl).then(function (r) {
-        if (!r.ok) throw new Error('HTTP ' + r.status);
-        return r.json();
-      }).then(function (data) {
-        // Fields by name (data.fields), so a reordered index is not misread.
+      indexPromise = Promise.all([fetchJson(indexUrl), fetchJson(graphUrl)]).then(function (r) {
+        var data = r[0];
         var f = {};
         data.fields.forEach(function (name, i) { f[name] = i; });
-        return data.entries.map(function (e) {
-          var alias = e[f.aliases] || [];
-          return { title: e[f.title], description: e[f.description], path: e[f.url], code: e[f.code],
-            kind: e[f.kind], t: fold(e[f.title]), aliases: alias.map(fold), ck: codeKey(e[f.code]),
-            hay: fold([e[f.title], e[f.description], e[f.code], e[f.kind]].concat(alias).join(' ')) };
+        var desc = {};
+        var docs = data.entries.map(function (e) {
+          desc[e[f.url]] = e[f.description];
+          return { url: e[f.url], title: e[f.title], t: J.normalise(e[f.title]) };
         });
+        return { engine: J.create(data, r[1]), describe: function (url) { return desc[url] || ''; },
+          docs: docs };
       });
       indexPromise.catch(function () { indexPromise = null; });  // a failed fetch may be retried
     }
     return indexPromise;
   }
 
-  function search(docs, query) {
-    var q = fold(query).trim();
-    var words = q.split(/\s+/).filter(Boolean);
-    if (!words.length) return [];
-    var ck = codeKey(query.trim());
-    var hits = [];
-    for (var i = 0; i < docs.length; i++) {
-      var d = docs[i];
-      var score = 0;
-      if (ck && d.ck === ck) score = 1000;
-      else if (d.t === q) score = 900;
-      else if (d.aliases.indexOf(q) !== -1) score = 800;
-      else if (d.t.indexOf(q) === 0) score = 600;
-      else if (words.every(function (w) { return d.t.indexOf(w) !== -1; })) score = 400;
-      else if (words.every(function (w) { return d.hay.indexOf(w) !== -1; })) score = 100;
-      if (score) hits.push({ d: d, score: score });
-    }
-    hits.sort(function (a, b) { return b.score - a.score || a.d.title.length - b.d.title.length; });
-    return hits.slice(0, 12).map(function (h) { return h.d; });
+  // {hits, total} for a query; an error answer (blank query, too long) is no hits.
+  function search(index, query) {
+    var res = index.engine.run({ op: 'search', query: query, limit: SHOWN });
+    if (!res.ok) return { hits: [], total: 0 };
+    return { hits: res.hits.map(function (h) {
+      return { title: h.title, path: h.url, code: h.code, kind: h.kind, description: index.describe(h.url) };
+    }), total: res.total };
+  }
+
+  function isCode(q) {
+    return !!J.eaCode(J.normalise(q));
   }
 
   function href(path) {
@@ -134,7 +126,8 @@
       opts[active].scrollIntoView({ block: 'nearest' });
     }
 
-    function render(list, query) {
+    function render(found, query) {
+      var list = found.hits;
       if (!query) { results.innerHTML = ''; close(); announce(''); return; }
       if (!list.length) {
         results.innerHTML = '<li class="px-4 py-3 text-gray-600 dark:text-gray-300">Nic nenalezeno. Zkuste jiný tvar slova nebo kód techniky, např. <kbd class="rounded border border-gray-200 px-1 dark:border-gray-500">EA-1.1.1</kbd>.</li>';
@@ -148,7 +141,12 @@
             (d.description ? '<span class="block truncate text-xs text-gray-600 dark:text-gray-300">' + escapeHtml(d.description) + '</span>' : '') +
             '</li>';
         }).join('');
-        announce(list.length + (list.length === 1 ? ' výsledek' : list.length < 5 ? ' výsledky' : ' výsledků') + ', šipkami vyberte, Enter otevře');
+        var n = found.total;
+        var noun = n === 1 ? ' výsledek' : n >= 2 && n <= 4 ? ' výsledky' : ' výsledků';
+        if (n > list.length) {
+          results.insertAdjacentHTML('beforeend', '<li class="px-4 py-2 text-xs text-gray-600 dark:text-gray-300" aria-hidden="true">Zobrazeno ' + list.length + ' z ' + n + noun + '; upřesněte dotaz.</li>');
+        }
+        announce(n + noun + (n > list.length ? ', zobrazeno ' + list.length : '') + ', šipkami vyberte, Enter otevře');
       }
       results.classList.remove('hidden');
       input.setAttribute('aria-expanded', 'true');
@@ -166,9 +164,9 @@
       clearTimeout(timer);
       var q = input.value.trim();
       timer = setTimeout(function () {
-        if (q.length < 2 && !codeKey(q)) { render([], ''); return; }
+        if (q.length < 2 && !isCode(q)) { render({ hits: [], total: 0 }, ''); return; }
         announce('Hledám…');
-        loadIndex().then(function (docs) { render(search(docs, q), q); }, function () {
+        loadIndex().then(function (index) { render(search(index, q), q); }, function () {
           results.innerHTML = '<li class="px-4 py-3 text-red-700 dark:text-red-400">Index vyhledávání se nepodařilo načíst. Zkuste to znovu.</li>';
           results.classList.remove('hidden');
           input.setAttribute('aria-expanded', 'true');
@@ -368,13 +366,13 @@
       if (!g.closest('a')) unlinked.push(g);
     });
     if (!unlinked.length) return;
-    loadIndex().then(function (docs) {
+    loadIndex().then(function (index) {
       var byTitle = {};
-      docs.forEach(function (d) { if (!byTitle[d.t]) byTitle[d.t] = d; });
+      index.docs.forEach(function (d) { if (!byTitle[d.t]) byTitle[d.t] = d; });
       unlinked.forEach(function (g) {
-        var label = fold((g.textContent || '').replace(/\s+/g, ' ').trim());
+        var label = J.normalise(g.textContent || '');
         var d = byTitle[label];
-        if (d && fold(href(d.path)) !== fold(window.location.pathname)) makeClickable(g, href(d.path), d.title);
+        if (d && J.normalise(href(d.url)) !== J.normalise(window.location.pathname)) makeClickable(g, href(d.url), d.title);
       });
     }).catch(function () {});
   }

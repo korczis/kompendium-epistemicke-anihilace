@@ -1,0 +1,22 @@
+{
+  "category": "schema_mismatch",
+  "data": {
+    "graph": {
+      "schema": "kompendium-graph/v3"
+    }
+  },
+  "expected": {
+    "error": {
+      "code": "schema_mismatch",
+      "field": "graph.schema",
+      "message": "graph.json schema must be one of kompendium-graph/v2"
+    },
+    "ok": false,
+    "op": "search",
+    "schema": "kompendium-engine/v1"
+  },
+  "input": {
+    "op": "search",
+    "query": "Epistemická anihilace"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "category": "code",
+  "expected": {
+    "code": "EA-6.4.6",
+    "hits": [
+      {
+        "code": "EA-6.4.6",
+        "in": 36,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md",
+        "tier": 1,
+        "title": "EA-6.4.6 Domácí násilí (DV) protokol",
+        "url": "/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol/",
+        "why": "exact_code"
+      }
+    ],
+    "limit": 12,
+    "normalised": "ea-6.4.6",
+    "ok": true,
+    "op": "search",
+    "query": "EA6.4.6",
+    "schema": "kompendium-engine/v1",
+    "total": 1
+  },
+  "input": {
+    "op": "search",
+    "query": "EA6.4.6"
+  }
+}

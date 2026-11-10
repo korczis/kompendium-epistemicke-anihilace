@@ -54,7 +54,13 @@
   // Graf s indexy: podle id, podle cesty, sousedé dovnitř i ven, barva oddílu.
   function graph() {
     if (cache.graphIndex) return cache.graphIndex;
-    cache.graphIndex = json('data/graph.json').then(function (g) {
+    // Táž adresa jako hledání v záhlaví (body[data-graph], s cachebust), ať se stáhne jednou.
+    var src = document.body && document.body.getAttribute('data-graph');
+    var load = src ? fetch(src).then(function (r) {
+      if (!r.ok) throw new Error('data/graph.json: HTTP ' + r.status);
+      return r.json();
+    }) : json('data/graph.json');
+    cache.graphIndex = load.then(function (g) {
       var byId = {};
       var byPath = {};
       var out = {};

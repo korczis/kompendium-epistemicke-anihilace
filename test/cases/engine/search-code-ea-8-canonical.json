@@ -1,0 +1,29 @@
+{
+  "category": "code",
+  "expected": {
+    "code": "EA-8.2.2",
+    "hits": [
+      {
+        "code": "EA-8.2.2",
+        "in": 41,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+        "tier": 1,
+        "title": "EA-8.2.2 Liftonova kritéria myšlenkové reformy",
+        "url": "/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria/",
+        "why": "exact_code"
+      }
+    ],
+    "limit": 12,
+    "normalised": "ea-8.2.2",
+    "ok": true,
+    "op": "search",
+    "query": "EA-8.2.2",
+    "schema": "kompendium-engine/v1",
+    "total": 1
+  },
+  "input": {
+    "op": "search",
+    "query": "EA-8.2.2"
+  }
+}

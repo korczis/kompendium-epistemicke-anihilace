@@ -17,7 +17,7 @@ klinický ani filozofický termín a nelze ho užít jako diagnózu. Název odka
 vzorec: člověk nedokáže dospět k rozhodnutí ani dokončit úkon, protože každou volbu musí nejprve
 ověřit proti měřítku, které nelze naplnit, a každé ověření otevře další pochybnost. Doloženými
 jevy, k nimž jméno ukazuje, jsou obsedantní pochybnost a nutkavé ověřování, které Rachman a
-Hodgson (1980) popsali jako jádro obsedantně-kompulzivních potíží, a perfekcionismus s
+Hodgson (1980) popsali jako jádro obsedantně-kompulzivních potíží, a [perfekcionismus](@/glossary/perfekcionismus.md) s
 pochybnostmi o vlastním jednání, jejž jako měřitelnou dimenzi vymezili Frost a kol. (1990).
 
 ## Definice
@@ -54,7 +54,7 @@ Souvislost s vnějším tlakem je však věcí výkladu knihy, ne klinické lite
 Prostředí může nesplnitelné měřítko dodávat soustavně. Lifton (1961) popsal mezi znaky
 totalistického prostředí požadavek čistoty, tedy nárok, aby se člověk měřil absolutním
 standardem, jehož nelze dosáhnout, a následný trvalý pocit viny. Stark (2007) dokládá, že
-donucující kontrola v blízkých vztazích pracuje s mikroregulací každodenních úkonů a s pravidly,
+[donucující kontrola](@/glossary/coercive-control.md) v blízkých vztazích pracuje s mikroregulací každodenních úkonů a s pravidly,
 která se mění tak, že je nelze splnit.
 
 ## Jak se projevuje

@@ -45,7 +45,7 @@ ukázal, že druhý z nich rozhoduje o tom, zda se jednání skutečně uskuteč
 tedy popsatelné a měřitelné, a to bez jakéhokoli předpokladu o nevratném poškození.
 
 Vnější podoba takového rozpojení je popsána v literatuře o kontrole. Stark (2007) doložil, že
-donucující kontrola pracuje s mikroregulací každodenních úkonů, tedy s omezováním toho, co člověk
+[donucující kontrola](@/glossary/coercive-control.md) pracuje s mikroregulací každodenních úkonů, tedy s omezováním toho, co člověk
 může udělat, nikoli jen toho, co si smí myslet. Bateson a kol. (1956) popsali [dvojnou
 vazbu](@/glossary/double-bind.md) jako situaci, v níž je každá volba předem chybná a situaci nelze
 opustit ani pojmenovat.

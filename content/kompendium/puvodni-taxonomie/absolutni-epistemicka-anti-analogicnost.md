@@ -56,7 +56,7 @@ mezi ně patří i otázka „není to jako…?“.
 Samostatnou linií je zneužití filozofické teze o neporovnatelnosti. Kuhn (1962) argumentoval, že
 pojmy dvou paradigmat nelze beze zbytku přeložit, a tato teze je legitimní součástí filozofie
 vědy. V [high-control group](@/glossary/high-control-group.md) se však může použít k tomu, že
-jakékoli srovnání zvenčí se předem prohlásí za kategoriální omyl, a kritika se tím vyřadí
+jakékoli srovnání zvenčí se předem prohlásí za [kategoriální omyl](@/glossary/category-mistake.md), a kritika se tím vyřadí
 (Lifton 1961).
 
 ## Jak se projevuje

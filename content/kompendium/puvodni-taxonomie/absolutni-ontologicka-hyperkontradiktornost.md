@@ -105,7 +105,7 @@ je nepřípustné.
 Od [falešného dilematu](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) se liší směrem:
 falešné dilema nabízí dvě možnosti tam, kde je jich více, kdežto zde se obě vzájemně vylučující
 možnosti tvrdí zároveň. Od [tautologické
-imploze](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md) se liší tím, že tautologie
+imploze](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md) se liší tím, že [tautologie](@/glossary/tautologie.md)
 činí každé tvrzení pravdivým z definice, zde se pravdivost a nepravdivost slučují
 (*interpretace knihy*). Literárním, nikoli odborným předobrazem je dvojí myšlení, jež Orwell
 (1949) popsal jako schopnost držet dvě protikladná přesvědčení a obě přijímat.

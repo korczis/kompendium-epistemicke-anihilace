@@ -3210,10 +3210,10 @@
    ],
    "generic_views": {
     "viz/oddil": 1,
-    "viz/okoli": 5
+    "viz/okoli": 28
    },
    "libraries": [],
-   "pages": 6,
+   "pages": 29,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -3276,7 +3276,7 @@
    ],
    "status": "covered",
    "templates": {
-    "kompendium/page.html": 5,
+    "kompendium/page.html": 28,
     "section.html": 1
    },
    "views": {

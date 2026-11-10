@@ -15,12 +15,22 @@
       },
       {
         "code": null,
-        "in": 92,
+        "in": 98,
         "kind": "Kapitola",
         "path": "kompendium/02-uvod/metodologicke-poznamky.md",
         "tier": 5,
         "title": "2.4 Metodologické poznámky k taxonomii",
         "url": "/kompendium/02-uvod/metodologicke-poznamky/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 27,
+        "kind": "Kapitola",
+        "path": "kompendium/puvodni-taxonomie/_index.md",
+        "tier": 5,
+        "title": "Původní taxonomie (2025)",
+        "url": "/kompendium/puvodni-taxonomie/",
         "why": "title_word"
       },
       {
@@ -31,16 +41,6 @@
         "tier": 5,
         "title": "Klasifikační schéma a taxonomie — meta-úroveň",
         "url": "/kompendium/08-prilohy/klasifikace/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 6,
-        "kind": "Kapitola",
-        "path": "kompendium/puvodni-taxonomie/_index.md",
-        "tier": 5,
-        "title": "Původní taxonomie (2025)",
-        "url": "/kompendium/puvodni-taxonomie/",
         "why": "title_word"
       },
       {
@@ -65,7 +65,7 @@
       },
       {
         "code": null,
-        "in": 275,
+        "in": 295,
         "kind": "Kapitola",
         "path": "kompendium/01-predmluva/eticke-aspekty.md",
         "tier": 6,
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "Tax",
     "schema": "kompendium-engine/v1",
-    "total": 58
+    "total": 81
   },
   "input": {
     "op": "search",

@@ -116,7 +116,7 @@ aporie](@/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md) a logická anti
 [EA-5.1.30 Konceptuální entropie](@/kompendium/techniques/ea-5-1-30-konceptualni-entropie.md).
 Jazyková skupina se dotýká také [EA-1.1.3 Terminologická
 mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), kde se význam
-nezničí, ale zahalí. Anankastická paralýza odpovídá [EA-5.1.16 Inferenční
+nezničí, ale zahalí. [Anankastická paralýza](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anankasticka-paralyza.md) odpovídá [EA-5.1.16 Inferenční
 paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) a [EA-2.5.8 Rekurzivní
 spirála pochybnosti](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md). Kde se
 rodina a kódovaná technika kryjí, platí kódovaná stránka, která je zpracována se zdroji,

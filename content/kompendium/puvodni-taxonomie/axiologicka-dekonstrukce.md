@@ -42,7 +42,7 @@ textů, který Derrida (1967) rozvinul jako ukazování napětí uvnitř samotn�
 metodou vyvracení hodnot, ani postupem vůči lidem; užití slova v názvu je obrazem, tedy
 *interpretací knihy*, a z Derridovy práce o pojmu knihy nic nevyplývá (Sokal a Bricmont 1998).
 
-Odborným zázemím pojmu je naopak dvojí tradice. První je podezíravá hermeneutika: Ricoeur
+Odborným zázemím pojmu je naopak dvojí tradice. První je podezíravá [hermeneutika](@/glossary/hermeneutika.md): Ricoeur
 (1965) označil Nietzscheho, Marxe a Freuda za mistry podezření, protože každý z nich vyložil
 vědomý smysl jako projev něčeho jiného, a Nietzsche (1887) sám ukázal, že morální hodnoty mají
 dějiny a lze se po jejich vzniku tázat. Tento způsob tázání je legitimní a plodný; vzorec,

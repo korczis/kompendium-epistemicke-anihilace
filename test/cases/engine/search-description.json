@@ -5,12 +5,22 @@
     "hits": [
       {
         "code": null,
-        "in": 603,
+        "in": 613,
         "kind": "Pojem",
         "path": "glossary/epistemicka-anihilace.md",
         "tier": 6,
         "title": "Epistemická anihilace",
         "url": "/glossary/epistemicka-anihilace/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 178,
+        "kind": "Kapitola",
+        "path": "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
+        "tier": 6,
+        "title": "6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy",
+        "url": "/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/",
         "why": "description"
       },
       {
@@ -41,16 +51,6 @@
         "tier": 6,
         "title": "3.2 Scénáře epistemické delegitimizace",
         "url": "/kompendium/03-zakladni-kategorie/kapitola-2/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 156,
-        "kind": "Kapitola",
-        "path": "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
-        "tier": 6,
-        "title": "6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy",
-        "url": "/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/",
         "why": "description"
       },
       {

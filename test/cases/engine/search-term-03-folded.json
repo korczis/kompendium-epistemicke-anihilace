@@ -55,6 +55,16 @@
       },
       {
         "code": null,
+        "in": 27,
+        "kind": "Kapitola",
+        "path": "kompendium/puvodni-taxonomie/_index.md",
+        "tier": 6,
+        "title": "Původní taxonomie (2025)",
+        "url": "/kompendium/puvodni-taxonomie/",
+        "why": "description"
+      },
+      {
+        "code": null,
         "in": 24,
         "kind": "Kapitola",
         "path": "kompendium/02-uvod/filosoficky-ramec.md",
@@ -81,16 +91,6 @@
         "tier": 6,
         "title": "Interaktivní vizualizace",
         "url": "/kompendium/visualizations/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 6,
-        "kind": "Kapitola",
-        "path": "kompendium/puvodni-taxonomie/_index.md",
-        "tier": 6,
-        "title": "Původní taxonomie (2025)",
-        "url": "/kompendium/puvodni-taxonomie/",
         "why": "description"
       },
       {

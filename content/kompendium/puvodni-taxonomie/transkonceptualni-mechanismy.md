@@ -16,7 +16,7 @@ pojmenování knihy, nikoli o ustálený odborný termín. Kapitola je nejrozsá
 abecední rejstřík uvádí v rozsahu čísel 121–150 padesát šest položek, většinou utvořených
 předponou „anti-“ před filozofickou kategorií, jako je definice, hierarchie, mediace nebo
 revize. Tematický rejstřík k nim přidává šest názvů, které abecední rejstřík nemá ani v
-obměně: absolutní epistemickou anti-analogičnost (141), absolutní epistemickou
+obměně: absolutní epistemickou [anti-analogičnost](@/kompendium/puvodni-taxonomie/absolutni-epistemicka-anti-analogicnost.md) (141), absolutní epistemickou
 anti-reflexivitu (143), absolutní epistemickou anti-autoreferenční paradoxální smyčku (123),
 kognitivní anti-anticipačnost (144), absolutní epistemickou anti-propozicionalitu (149) a
 absolutní multisubjektivní fragmentaci (132); uvádí je jen jménem, bez definice. Kniha tyto pojmy
@@ -45,7 +45,7 @@ přesvědčení o její užitečnosti i nekontrolovatelnosti. Kniha jádro skupi
 [EA-5.1.1 Epistemická kanibalizace](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md).
 
 Druhou skupinu tvoří absolutní epistemická neurčitost, absolutní epistemická neukotvitelnost,
-kognitivní anti-orientace, metafyzická rozpustnost, absolutní epistemická anti-demarkace,
+[kognitivní anti-orientace](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-orientace.md), metafyzická rozpustnost, absolutní epistemická anti-demarkace,
 absolutní epistemická anti-definice, absolutní epistemická anti-verikondicionalita, ontologická
 anti-determinace a absolutní epistemická anti-dostupnost. Spojuje je ztráta pevného bodu: člověk
 neví, co platí, kde jsou hranice pojmů a čemu věřit. Freeston a kol. (1994) popsali
@@ -63,17 +63,17 @@ následkem traumatu (Herman 1992).
 
 Čtvrtou skupinu tvoří absolutní epistemická anti-architektonika, absolutní epistemická
 anti-mereologičnost, kognitivní anti-hierarchičnost, kognitivní anti-granularita, kognitivní
-anti-integrovatelnost, kognitivní anti-komplementarita, absolutní epistemická anti-pluralita,
-kognitivní anti-distribuce, absolutní epistemická anti-variabilita, absolutní epistemická
+anti-integrovatelnost, [kognitivní anti-komplementarita](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-komplementarita.md), absolutní epistemická anti-pluralita,
+[kognitivní anti-distribuce](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-distribuce.md), absolutní epistemická anti-variabilita, absolutní epistemická
 anti-invariance, kognitivní anti-figurace, kognitivní anti-morfogeneze, kognitivní anti-inherence
-a kognitivní anti-mediace. Doloženým jádrem je zúžení myšlení na protiklady bez mezistupňů, které
+a [kognitivní anti-mediace](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-mediace.md). Doloženým jádrem je zúžení myšlení na protiklady bez mezistupňů, které
 Beck (1976) popsal jako dichotomické myšlení, a ztráta schopnosti vidět celek, jejž Wertheimer
 (1923) zkoumal jako tvarové vnímání. Kniha skupinu vykládá hesly [anti-architektonika](@/glossary/anti-architektonika.md),
 [epistemický monismus](@/glossary/epistemicky-monismus.md) a [mereologická
 rekonstrukce](@/glossary/mereologicka-rekonstrukce.md).
 
 Pátou skupinu tvoří kognitivní anti-teleologie, kognitivní anti-operacionalita, kognitivní
-anti-realizovatelnost, kognitivní anti-transformabilita, kognitivní anti-revizibilita,
+[anti-realizovatelnost](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-realizovatelnost.md), kognitivní anti-transformabilita, kognitivní anti-revizibilita,
 kognitivní anti-rekuperace, absolutní epistemická anti-geneze, kognitivní anti-virtualita a
 kognitivní hyperplastická dezintegrace. Jde o ztrátu schopnosti jednat, měnit se a představit
 si jinou možnost. Seligman (1975) popsal naučenou bezmocnost jako přesvědčení, že jednání nic
@@ -83,7 +83,7 @@ stagnace](@/glossary/kognitivni-stagnace.md). Zablokování každého pokusu o o
 dezintegrace, tedy přílišná proměnlivost bez stálého jádra, je podle *interpretace knihy*
 opačným pólem téže ztráty.
 
-Šestou skupinu tvoří fenomenální překročení, kognitivní anti-fenomenalita, kognitivní
+Šestou skupinu tvoří fenomenální překročení, [kognitivní anti-fenomenalita](@/kompendium/puvodni-taxonomie/absolutni-kognitivni-anti-fenomenalita.md), kognitivní
 anti-perceptualita a hypertranscendentální negace. Rukopis zde mluví o ztrátě samotné
 zkušenosti, ale doloženým jevem je derealizace: pocit, že svět je neskutečný, vzdálený nebo
 jako za sklem, přestože vnímání je zachováno. Sierra (2009) popisuje derealizaci spolu s
@@ -92,7 +92,7 @@ depersonalizací jako častou reakci na ohrožení a stres. Kniha ji vykládá h
 mají v rukopisu totožnou definici.
 
 Sedmou skupinu tvoří logická transcendence, kognitivní hyperparadox, ontologická
-hyperkontradiktornost, hypersémantická anihilace, absolutní epistemická hyperinterference,
+[hyperkontradiktornost](@/kompendium/puvodni-taxonomie/absolutni-ontologicka-hyperkontradiktornost.md), hypersémantická anihilace, absolutní epistemická hyperinterference,
 kognitivní kvantová suprainterference, absolutní epistemická hyperbifurkace, absolutní
 epistemická anti-transcendence, absolutní epistemická anti-přeložitelnost a absolutní
 epistemická anti-normativita. Doloženými jevy jsou zde paradoxní komunikace a [dvojná

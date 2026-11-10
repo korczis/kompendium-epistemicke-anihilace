@@ -57,7 +57,3 @@ Eskalujte, když sebecenzura brání upozornit na riziko pro bezpečí a zdraví
 - **Technika a kapitola:** [plná stránka EA-2.5.7](@/kompendium/techniques/ea-2-5-7-self-cancelation.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Glosář:** [deplatforming](@/glossary/deplatforming.md) – hrozba, která sebecenzuru vyvolává.
 - **Sousední karty:** [EA-2.3.8 Epistemický doxxing](@/kompendium/quick-reference/qr-ea-2-3-8.md) – ochlazující účinek; [EA-2.3.4 Koordinace davu](@/kompendium/quick-reference/qr-ea-2-3-4.md) – exemplární útok na kolegu.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

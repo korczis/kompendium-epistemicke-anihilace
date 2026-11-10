@@ -147,7 +147,3 @@ a neutrální; pokud se debata stočí k obsahu sporu, vraťte ji k metodě.
 - [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) – jak chránit vlastní příběh komunity.
 - [Wardle: typologie dezinformací](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md) – rámec pro třídění.
 - [Info-ops](@/glossary/info-ops.md) – širší kontext informačních operací.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

@@ -56,7 +56,3 @@ Eskalujte, když falešná rovnováha ovlivňuje rozhodnutí o zdraví, bezpeč�
 - **Obrana:** [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) – jak posoudit váhu, ne hlasitost.
 - **Glosář:** [pseudověda](@/glossary/pseudoscience.md) – nejčastější příjemce falešné rovnováhy; [replikační krize](@/glossary/replication-crisis.md) – proč je replikace měřítkem.
 - **Sousední karty:** [EA-1.2.3 Iluzorní komplexita](@/kompendium/quick-reference/qr-ea-1-2-3.md) – inverzní vzorec, nafukuje obtížnost; [EA-1.1.1 Selektivní expozice](@/kompendium/quick-reference/qr-ea-1-1-1.md) – výběr zdrojů ke „každé straně“.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

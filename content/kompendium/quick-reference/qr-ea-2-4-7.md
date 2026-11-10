@@ -57,7 +57,3 @@ Eskalujte, když vyloučení z konferencí zasahuje kariéru mladých výzkumní
 - **Technika a kapitola:** [plná stránka EA-2.4.7](@/kompendium/techniques/ea-2-4-7-conference-capture.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Organizace:** [struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md) – formáty se zastoupením různých hlasů.
 - **Sousední karty:** [EA-2.4.10 Zachycení odborné společnosti](@/kompendium/quick-reference/qr-ea-2-4-10.md) – kdo konferenci pořádá; [EA-1.1.1 Selektivní expozice](@/kompendium/quick-reference/qr-ea-1-1-1.md) – co obor uvidí.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

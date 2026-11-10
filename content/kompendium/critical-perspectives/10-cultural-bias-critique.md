@@ -75,10 +75,3 @@ Kde přesně leží univerzální jádro epistemické anihilace a co je jen jeho
 
 - [Epistemická injustice](@/glossary/epistemicka-injustice.md) – nedůvěra k cizímu způsobu poznání jako křivda.
 - [Pluralismus](@/glossary/pluralismus.md) – princip, který kulturní audit vyžaduje.
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

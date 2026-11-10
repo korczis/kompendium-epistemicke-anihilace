@@ -59,7 +59,3 @@ Eskalujte, když rekurzivita ochromuje každodenní fungování nebo se pojí s 
 - **Technika a kapitola:** [plná stránka EA-5.2.6](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md) – mechanismus, případy a neutralizace; [kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) – metatranscendentální anihilace.
 - **Glosář:** [rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md) – výsledný klinický obraz.
 - **Sousední karty:** [EA-5.2.7 Kategoriální disoluce](@/kompendium/quick-reference/qr-ea-5-2-7.md) – terminální stav; [EA-5.2.16 Kantovská paradoxie](@/kompendium/quick-reference/qr-ea-5-2-16.md) – Kantovy antinomie jako nástroj.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

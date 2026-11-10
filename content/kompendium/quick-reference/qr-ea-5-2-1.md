@@ -59,7 +59,3 @@ Eskalujte, když inverze vede k odmítání nutné léčby, ohrožení dětí ne
 - **Technika a kapitola:** [plná stránka EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) – mechanismus, případy a neutralizace; [kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) – metatranscendentální anihilace.
 - **Glosář:** [meta-epistemologie](@/glossary/meta-epistemologie.md) – rovina inverze.
 - **Sousední karty:** [EA-5.2.2 Transcendentální iluze](@/kompendium/quick-reference/qr-ea-5-2-2.md) – legitimizace převrácených měřítek; [EA-5.2.6 Transcendentální rekurzivita](@/kompendium/quick-reference/qr-ea-5-2-6.md) – měřítka obrácená proti sobě; [EA-5.1.27 Meta-epistemická redukce](@/kompendium/quick-reference/qr-ea-5-1-27.md) – sloučení měřítek do jednoho.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

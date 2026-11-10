@@ -58,7 +58,3 @@ Eskalujte okamžitě, když se po studentovi žádá úprava nebo vynechání da
 - **Případ:** [doktorské vedení](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md) – anonymizovaná kazuistika.
 - **Glosář:** [epistemická agentnost](@/glossary/epistemicka-agentnost.md) – schopnost klást vlastní otázky, o kterou student přichází.
 - **Sousední karty:** [EA-2.2.9 Vynucování oborových hranic](@/kompendium/quick-reference/qr-ea-2-2-9.md) – omezování metod a témat; [EA-1.3.2 Strategická reinterpretace](@/kompendium/quick-reference/qr-ea-1-3-2.md) – překládání nepohodlných výsledků.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

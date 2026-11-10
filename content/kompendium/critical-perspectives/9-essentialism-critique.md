@@ -78,10 +78,3 @@ Jak psát o opakovaném, nebezpečném vzorci jednání tak, aby text varoval, a
 
 - [Narativní identita](@/glossary/narativni-identita.md) – co nálepka přepisuje.
 - [Redukcionismus](@/glossary/redukcionismus.md) – obecnější podoba chyby.
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

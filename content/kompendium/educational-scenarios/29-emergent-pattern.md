@@ -160,7 +160,3 @@ osobních údajů a minimalizace dat při práci s reálnými záznamy; viz
 
 - [Pattern evidence](@/glossary/pattern-evidence.md) – vzorec jako důkaz.
 - [Graph theory](@/glossary/graph-theory.md) – nástroje pro shlukování podle vztahů.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

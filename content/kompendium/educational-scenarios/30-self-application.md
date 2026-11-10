@@ -158,7 +158,3 @@ budou chtít svůj výstup ponechat zcela pro sebe.
 - [Kurikulum kritického myšlení](@/kompendium/prevention-resilience/8-critical-thinking-curriculum.md) – širší vzdělávací rámec.
 - [Epistemic security](@/glossary/epistemic-security.md) – pojem, z něhož politika vychází.
 - [Epistemická pokora](@/glossary/epistemicka-pokora.md) – postoj, bez něhož audit nefunguje.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

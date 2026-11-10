@@ -57,7 +57,3 @@ Eskalujte, když je dluh spojen s existenční závislostí (vízum, bydlení, f
 - **Technika a kapitola:** [plná stránka EA-2.2.7](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Obrana:** [odolnost vůči studu](@/kompendium/self-defense-guides/18-shame-resilience.md) – vina a stud jako páky.
 - **Sousední karty:** [EA-2.2.1 Sebetotalizace mentora](@/kompendium/quick-reference/qr-ea-2-2-1.md) – nosná struktura; [EA-1.4.2 Latentní emocionální modulace](@/kompendium/quick-reference/qr-ea-1-4-2.md) – citová modulace; [EA-2.2.5 Nátlak doporučením](@/kompendium/quick-reference/qr-ea-2-2-5.md) – druhá páka, která brzdí odchod.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

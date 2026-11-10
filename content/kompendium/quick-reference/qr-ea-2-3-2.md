@@ -57,7 +57,3 @@ Eskalujte, když přenos vedl ke kampani, výhrůžkám nebo k pracovní sankci:
 - **Technika a kapitola:** [plná stránka EA-2.3.2](@/kompendium/techniques/ea-2-3-2-context-collapse.md) – původ pojmu, mechanismus a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře delegitimizace.
 - **Glosář:** [hermeneutický kruh](@/glossary/hermeneuticky-kruh.md) – proč smysl závisí na kontextu.
 - **Sousední karty:** [EA-2.3.3 Těžba citátů](@/kompendium/quick-reference/qr-ea-2-3-3.md) – výběr vět; [EA-2.3.10 Virální zkreslení výroku](@/kompendium/quick-reference/qr-ea-2-3-10.md) – co se s přeneseným výrokem děje dál.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

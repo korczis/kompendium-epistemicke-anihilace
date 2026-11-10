@@ -148,7 +148,3 @@ materiálu; hodnocení skutečných redakcí vyžaduje jiný formát a jiná dat
 
 - [OSINT](@/glossary/osint.md) – disciplína, z níž laterální čtení vychází.
 - [Cross-source triangulace v OSINT](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md) – profesionální varianta.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

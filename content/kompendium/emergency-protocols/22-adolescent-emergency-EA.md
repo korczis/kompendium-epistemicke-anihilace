@@ -149,13 +149,3 @@ vydírání; policie zajistí důkazy a domluví se denní stacionář pro dosp�
 - [Případ: Discord server cult](@/kompendium/case-studies/79-discord-server-cult.md) – online
   skupina.
 - [Epistemic bubble](@/glossary/epistemic-bubble.md) – uzavřený informační svět.
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-
----
-
-*Kompendium epistemické anihilace · Akutní protokol č. 22 · v18.4.0*

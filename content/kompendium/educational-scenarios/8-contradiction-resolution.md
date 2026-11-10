@@ -150,7 +150,3 @@ smyšlený, a dejte možnost nepodílet se na diskusi o důsledcích. Pro souvis
 
 - [Rutina cross-source](@/kompendium/self-defense-guides/36-cross-source-routine.md) – srovnávání jako zvyk.
 - [Pluralismus](@/glossary/pluralismus.md) – kdy je více rámců oprávněných.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

@@ -59,7 +59,3 @@ Eskalujte při úplné ztrátě schopnosti rozhodovat o sobě, zanedbání péč
 - **Technika a kapitola:** [plná stránka EA-5.2.8](@/kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md) – mechanismus, případy a neutralizace; [kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) – metatranscendentální anihilace.
 - **Glosář:** [ipseita](@/glossary/ipseita.md) – minimální sebezkušenost.
 - **Sousední karty:** [EA-5.2.20 Apperceptivní rozklad](@/kompendium/quick-reference/qr-ea-5-2-20.md) – rozpad jednoty „já myslím“; [EA-5.1.18 Solipsistická dekompozice](@/kompendium/quick-reference/qr-ea-5-1-18.md) – opačný pól.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

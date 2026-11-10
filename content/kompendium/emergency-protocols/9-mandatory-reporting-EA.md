@@ -150,13 +150,3 @@ oznámení provede ještě týž den a další sezení věnují tomu, co mezi ni
   obnova vztahu po oznámení.
 - [Child grooming](@/glossary/child-grooming.md) – vzorec, který se často odhalí až zpětně.
 - [Coercive control](@/glossary/coercive-control.md) – rámec násilí v rodině.
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-
----
-
-*Kompendium epistemické anihilace · Akutní protokol č. 9 · v18.4.0*

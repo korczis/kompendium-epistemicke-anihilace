@@ -158,7 +158,3 @@ uzemňovací techniku na konci sezení; viz [uzemňovací techniky](@/kompendium
 
 - [Rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md) – výsledný stav.
 - [Před-reflexivní vědomí](@/glossary/predreflexivni-vedomi.md) – co hyperreflexivita narušuje.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

@@ -148,7 +148,3 @@ vedením, uznejte je a nabídněte individuální rozhovor; odkažte na
 
 - [Evidence-based](@/glossary/evidence-based.md) – kontext pyramidy důkazů.
 - [Chain of custody](@/glossary/chain-of-custody.md) – integrita podkladů.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

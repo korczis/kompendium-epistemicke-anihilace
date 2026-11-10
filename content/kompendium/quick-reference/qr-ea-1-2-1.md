@@ -56,7 +56,3 @@ Eskalujte, když se dilema opakuje jako nástroj kontroly ve vztahu nebo skupin�
 - **Obrana:** [pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md) – návyk vidět víc než dvě pozice.
 - **Glosář:** [kognitivní bias](@/glossary/kognitivni-bias.md) – proč binární rámec funguje.
 - **Sousední karty:** [EA-1.2.2 Falešná ekvivalence](@/kompendium/quick-reference/qr-ea-1-2-2.md) – častá kombinace; [EA-1.1.2 Informační přetížení](@/kompendium/quick-reference/qr-ea-1-1-2.md) – přetížený člověk sáhne po binární volbě; [EA-1.4.2 Latentní emocionální modulace](@/kompendium/quick-reference/qr-ea-1-4-2.md) – emoční tlak k rychlé volbě.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

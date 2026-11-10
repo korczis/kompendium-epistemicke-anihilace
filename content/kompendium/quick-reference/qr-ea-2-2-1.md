@@ -58,7 +58,3 @@ Eskalujte, když jsou ohroženy studium, vízum, financování nebo duševní zd
 - **Organizace:** [hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md) – institucionální korektiv.
 - **Glosář:** [nepřípustný vliv](@/glossary/undue-influence.md) – právní a etický rámec zneužité autority.
 - **Sousední karty:** [EA-2.2.2 Izolace svěřence](@/kompendium/quick-reference/qr-ea-2-2-2.md) – obvyklý druhý krok; [EA-2.2.3 Zachycení směru kvalifikační práce](@/kompendium/quick-reference/qr-ea-2-2-3.md) – co totalizace umožní; [EA-2.2.7 Pěstování citového dluhu](@/kompendium/quick-reference/qr-ea-2-2-7.md) – vděk jako pouto.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

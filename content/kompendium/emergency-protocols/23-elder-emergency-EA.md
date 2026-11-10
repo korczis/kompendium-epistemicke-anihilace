@@ -144,13 +144,3 @@ bankou a pečovatelskou službu.
   podpisy pod tlakem.
 - [Elder abuse](@/glossary/elder-abuse.md) – vymezení.
 - [Scam compliance](@/glossary/scam-compliance.md) – proč oběti podvodu vyhoví.
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-
----
-
-*Kompendium epistemické anihilace · Akutní protokol č. 23 · v18.4.0*

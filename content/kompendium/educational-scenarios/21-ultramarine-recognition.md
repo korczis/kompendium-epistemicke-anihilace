@@ -164,7 +164,3 @@ krátkou reflexi, jak se cítili při čtení kazuistiky, a připomeňte význam
 
 - [Vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md) – obnova vnější kalibrace.
 - [Epistemická singularita](@/glossary/epistemicka-singularita.md) – pojem konvergence vrstev.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

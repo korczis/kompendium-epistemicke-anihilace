@@ -57,7 +57,3 @@ Eskalujte, když dotazy přerůstají v obtěžování soukromými kanály, koor
 - **Technika a kapitola:** [plná stránka EA-2.3.9](@/kompendium/techniques/ea-2-3-9-sealioning-medialni.md) – původ pojmu, mechanismus a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře delegitimizace.
 - **Glosář:** [double bind](@/glossary/double-bind.md) – past odpovědi i mlčení; [gish gallop](@/glossary/gish-gallop.md) – příbuzné zahlcení tvrzeními.
 - **Sousední karty:** [EA-2.3.5 Zesilování pseudokontroverze](@/kompendium/quick-reference/qr-ea-2-3-5.md) – pochybnost jako zbraň; [EA-1.3.3 Tematická diverze](@/kompendium/quick-reference/qr-ea-1-3-3.md) – opačný únik.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

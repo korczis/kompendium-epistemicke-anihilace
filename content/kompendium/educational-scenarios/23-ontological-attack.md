@@ -160,7 +160,3 @@ Odkažte na [rodinnou reintegraci](@/kompendium/prevention-resilience/26-family-
 
 - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) – pojem a mechanismus.
 - [Spiritual bypassing](@/glossary/spiritual-bypassing.md) – zneužití duchovního jazyka k obcházení reality.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

@@ -59,7 +59,3 @@ Eskalujte, když apriori slouží doktríně skupiny, která řídí zásadní �
 - **Technika a kapitola:** [plná stránka EA-5.2.4](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md) – mechanismus, případy a neutralizace; [kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) – metatranscendentální anihilace.
 - **Glosář:** [Kantovy kategorie](@/glossary/kantovy-kategorie.md) – co skutečně apriorní je podle Kanta.
 - **Sousední karty:** [EA-5.2.5 Konstitutivní rozpad](@/kompendium/quick-reference/qr-ea-5-2-5.md) – navazující stadium; [EA-5.2.27 Apriorní deformace](@/kompendium/quick-reference/qr-ea-5-2-27.md) – zkřivení skutečných apriori.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

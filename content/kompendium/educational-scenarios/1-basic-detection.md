@@ -157,7 +157,3 @@ před skupinou a nabídněte rozhovor po skončení. Debriefing se řídí
 - [Epistemic security](@/glossary/epistemic-security.md) – rámec, do něhož základní detekce patří.
 - [Rozpoznání varovných signálů](@/kompendium/prevention-resilience/12-warning-sign-recognition.md) – preventivní perspektiva.
 - [Sociální inženýrství](@/kompendium/cross-domain/17-ea-security-social-engineering.md) – tentýž vzorec v bezpečnostní praxi.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

@@ -153,7 +153,3 @@ s reálnými daty platí pravidla ochrany osobních údajů a minimalizace.
 
 - [OSINT](@/glossary/osint.md) – rámec otevřených zdrojů.
 - [Časové řady v EA monitoringu](@/kompendium/research-methodology/time-series-EA.md) – metodický základ časové analýzy.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

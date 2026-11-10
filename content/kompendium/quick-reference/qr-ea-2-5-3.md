@@ -57,7 +57,3 @@ Eskalujte, když sebepochybnost vzniká v partnerském či rodinném vztahu s ko
 - **Technika a kapitola:** [plná stránka EA-2.5.3](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Glosář:** [coercive control](@/glossary/coercive-control.md) – vztahový rámec.
 - **Sousední karty:** [EA-2.5.8 Rekurzivní spirála pochybnosti](@/kompendium/quick-reference/qr-ea-2-5-8.md) – další stupeň; [EA-5.1.12 Kauzální inverze](@/kompendium/quick-reference/qr-ea-5-1-12.md) – převrácená vina.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

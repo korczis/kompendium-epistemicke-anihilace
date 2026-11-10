@@ -154,7 +154,3 @@ Vytvořte prostor pro sdílení a připomeňte, že návrat nebývá konečný a
 
 - [Mobilizace podpory](@/kompendium/self-defense-guides/30-support-mobilization.md) – jak si klientka sama staví síť.
 - [Epistemická reintegrace](@/glossary/epistemicka-reintegrace.md) – cílový stav.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

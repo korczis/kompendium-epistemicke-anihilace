@@ -83,7 +83,7 @@ obrátit, protože terapeut nemá předem připravený závěr, k němuž má do
 popisuje jako společné zkoumání, ne jako vedení k cíli (Beck a kol., 1979; Padesky, 1993).
 V jejím zneužití je závěr dán dopředu a odpovědi mu slouží bez ohledu na obsah.
 
-Třetím rozdílem je právo přestat. Terapie se opírá o informovaný souhlas a pacient může
+Třetím rozdílem je právo přestat. Terapie se opírá o [informovaný souhlas](@/glossary/informed-consent.md) a pacient může
 kdykoli odmítnout pokračovat, aniž to zhorší jeho postavení; právo na informace a na odmítnutí
 péče zakládá zákon č. 372/2011 Sb., o zdravotních službách. Linden a Schermuly-Hauptová
 upozorňují, že psychoterapie má i nežádoucí účinky a že jejich rozpoznání patří k odpovědnosti

@@ -106,17 +106,12 @@
       {
         "from": "glossary/gaslighting.md",
         "kind": "link",
-        "to": "glossary/color-teams.md"
-      },
-      {
-        "from": "glossary/gaslighting.md",
-        "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
         "from": "glossary/gaslighting.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
+        "to": "kompendium/01-predmluva/eticke-aspekty.md"
       },
       {
         "from": "glossary/nabla-infinity.md",
@@ -136,22 +131,12 @@
       {
         "from": "glossary/taxonomie-ea.md",
         "kind": "link",
-        "to": "glossary/_index.md"
-      },
-      {
-        "from": "glossary/taxonomie-ea.md",
-        "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
         "from": "glossary/taxonomie-ea.md",
         "kind": "link",
         "to": "kompendium/01-predmluva/eticke-aspekty.md"
-      },
-      {
-        "from": "glossary/taxonomie-ea.md",
-        "kind": "link",
-        "to": "kompendium/06-klinicke-aplikace/_index.md"
       },
       {
         "from": "kompendium/01-predmluva/eticke-aspekty.md",
@@ -254,44 +239,51 @@
       {
         "class": "glossary",
         "distance": 0,
-        "in": 603,
+        "in": 604,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
       },
       {
         "class": "glossary",
         "distance": 1,
-        "in": 390,
+        "in": 384,
         "path": "glossary/nabla-infinity.md",
         "title": "NABLA Infinity (∇∞)"
       },
       {
         "class": "glossary",
         "distance": 1,
-        "in": 381,
+        "in": 377,
         "path": "glossary/taxonomie-ea.md",
         "title": "Taxonomie EA"
       },
       {
+        "class": "glossary",
+        "distance": 1,
+        "in": 329,
+        "path": "glossary/_index.md",
+        "title": "Glosář"
+      },
+      {
         "class": "kompendium/06-klinicke-aplikace",
         "distance": 1,
-        "in": 331,
+        "in": 329,
         "path": "kompendium/06-klinicke-aplikace/_index.md",
         "title": "06. Klinické aplikace a diagnostika"
       },
       {
         "class": "glossary",
         "distance": 1,
-        "in": 330,
-        "path": "glossary/_index.md",
-        "title": "Glosář"
-      },
-      {
-        "class": "glossary",
-        "distance": 1,
-        "in": 317,
+        "in": 311,
         "path": "glossary/color-teams.md",
         "title": "Color Teams (barevné týmy)"
+      },
+      {
+        "class": "kompendium/01-predmluva",
+        "distance": 1,
+        "in": 302,
+        "path": "kompendium/01-predmluva/eticke-aspekty.md",
+        "title": "1.3 Etické aspekty a upozornění"
       },
       {
         "class": "kompendium/06-klinicke-aplikace",
@@ -303,16 +295,16 @@
       {
         "class": "glossary",
         "distance": 1,
-        "in": 282,
+        "in": 288,
         "path": "glossary/coercive-control.md",
         "title": "Coercive control (donucující kontrola)"
       },
       {
-        "class": "kompendium/01-predmluva",
+        "class": "glossary",
         "distance": 1,
-        "in": 275,
-        "path": "kompendium/01-predmluva/eticke-aspekty.md",
-        "title": "1.3 Etické aspekty a upozornění"
+        "in": 274,
+        "path": "glossary/gaslighting.md",
+        "title": "Gaslighting"
       },
       {
         "class": "kompendium/06-klinicke-aplikace",
@@ -320,13 +312,6 @@
         "in": 272,
         "path": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
         "title": "6.6 Supervizní rámce v klinické praxi EA"
-      },
-      {
-        "class": "glossary",
-        "distance": 1,
-        "in": 267,
-        "path": "glossary/gaslighting.md",
-        "title": "Gaslighting"
       }
     ],
     "ok": true,

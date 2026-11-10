@@ -20,7 +20,7 @@ Plán kontinuity činností (*business continuity plan*) má zajistit, že organ
 – a obvykle se myslí na výpadek elektřiny, informačních systémů nebo budovy. Norma pro systémy
 řízení kontinuity činností vymezuje kontinuitu jako schopnost pokračovat v dodávce produktů a
 služeb v přijatelném čase a předem stanovené kapacitě během narušení (ISO, 2019), a nerozlišuje přitom, zda narušení přišlo
-z techniky, nebo z lidí. Epistemická krize způsobuje právě lidské výpadky: odvolání nebo
+z techniky, nebo z lidí. [Epistemická krize](@/glossary/epistemicka-krize.md) způsobuje právě lidské výpadky: odvolání nebo
 odstoupení vedení, hromadné odchody, ztrátu důvěry klientů, pacientů, dárců nebo regulátora a
 paralýzu rozhodování, když nikdo neví, čemu věřit. Organizace, která na tyto scénáře není
 připravena, je v krizi vystavena tlaku udělat cokoli, jen aby fungovala – včetně ponechání

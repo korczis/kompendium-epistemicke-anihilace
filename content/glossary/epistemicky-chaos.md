@@ -105,7 +105,7 @@ nezávislého srovnání tento posun podporuje (Stark, 2007).
 
 | Srovnávaný jev | Co platí jako kritérium | Čím se liší od pojmu knihy |
 |---|---|---|
-| Pluralismus metod | několik kritérií vedle sebe, každé pojmenované | kritéria jsou uvedena a dají se porovnat (Walton, 1995) |
+| [Pluralismus](@/glossary/pluralismus.md) metod | několik kritérií vedle sebe, každé pojmenované | kritéria jsou uvedena a dají se porovnat (Walton, 1995) |
 | Běžná revize názoru | kritérium se změní s uvedeným důvodem | změna je přiznaná a přezkoumatelná (Popper, 1963) |
 | Oprávněná skepse | kritérium platí pro všechny strany stejně | požadavek není asymetrický (Fricker, 2007) |
 | Epistemický chaos | mění se nepředvídatelně a nepřiznaně | změnu nelze předvídat ani doložit (Mineka a Kihlstrom, 1978) |

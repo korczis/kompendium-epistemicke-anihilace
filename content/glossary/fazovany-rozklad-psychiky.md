@@ -74,7 +74,7 @@ reform](@/glossary/thought-reform.md).
 Čtvrtým znakem je ztráta přístupu k vlastnímu úsudku: dotčený odkládá i drobná rozhodnutí,
 dokud je někdo neschválí, a o vlastní paměti mluví jako o nespolehlivé. Tento rys kniha popisuje
 jako [epistemické trauma](@/glossary/epistemicke-trauma.md) a nejbližší doloženou kategorií je
-komplexní posttraumatická stresová porucha (World Health Organization, 2019).
+[komplexní posttraumatická stresová porucha](@/glossary/c-ptsd.md) (World Health Organization, 2019).
 
 Pátým znakem je, že se obraz po odchodu z prostředí mění. Není to jednosměrná dráha: část
 znaků ustoupí už s obnoveným spánkem, bezpečím a kontaktem s lidmi (Herman, 1992). Popsané
@@ -153,7 +153,7 @@ seznam, podle něhož se o někom rozhoduje (Lifton, 1961).
 ## Odlišení
 
 Od fázového léčebného postupu je třeba pojem držet odděleně, i když se slovo „fáze“ opakuje.
-Konsenzuální doporučení pro komplexní trauma pracuje se stabilizací, zpracováním vzpomínek
+Konsenzuální doporučení pro [komplexní trauma](@/glossary/complex-trauma.md) pracuje se stabilizací, zpracováním vzpomínek
 a integrací jako s plánem léčby, na němž se pacient podílí a který může kdykoli zastavit
 (Cloitre a kol., 2012); tady jde o popis újmy, ne o plán.
 
@@ -235,11 +235,11 @@ rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
 - Farber, I. E., Harlow, H. F., & West, L. J. (1957). *Brainwashing, conditioning, and DDD (debility, dependency, and dread)*. Sociometry.
 - Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Hinkle, L. E., & Wolff, H. G. (1956). *Communist interrogation and indoctrination of "enemies of the state"*. AMA Archives of Neurology and Psychiatry.
+- Hinkle, L. E., & Wolff, H. G. (1956). *Communist interrogation and indoctrination of „enemies of the state“*. AMA Archives of Neurology and Psychiatry.
 - Janoff-Bulman, R. (1992). *Shattered Assumptions: Towards a New Psychology of Trauma*. Free Press.
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Maier, S. F., & Seligman, M. E. P. (1976). *Learned helplessness: Theory and evidence*. Journal of Experimental Psychology: General.
-- Marks, J. (1979). *The Search for the "Manchurian Candidate": The CIA and Mind Control*. Times Books.
+- Marks, J. (1979). *The Search for the „Manchurian Candidate“: The CIA and Mind Control*. Times Books.
 - Pingel-Schliemann, S. (2002). *Zersetzen: Strategie einer Diktatur*. Robert-Havemann-Gesellschaft.
 - Schein, E. H. (1961). *Coercive Persuasion*. W. W. Norton.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.

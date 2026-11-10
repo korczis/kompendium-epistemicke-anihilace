@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 381,
+        "in": 377,
         "kind": "Pojem",
         "path": "glossary/taxonomie-ea.md",
         "tier": 4,
@@ -15,7 +15,7 @@
       },
       {
         "code": null,
-        "in": 94,
+        "in": 114,
         "kind": "Kapitola",
         "path": "kompendium/02-uvod/metodologicke-poznamky.md",
         "tier": 5,
@@ -35,7 +35,7 @@
       },
       {
         "code": null,
-        "in": 6,
+        "in": 10,
         "kind": "Kapitola",
         "path": "kompendium/puvodni-taxonomie/_index.md",
         "tier": 5,
@@ -55,7 +55,7 @@
       },
       {
         "code": null,
-        "in": 331,
+        "in": 329,
         "kind": "Kapitola",
         "path": "kompendium/06-klinicke-aplikace/_index.md",
         "tier": 6,
@@ -65,7 +65,7 @@
       },
       {
         "code": null,
-        "in": 275,
+        "in": 302,
         "kind": "Kapitola",
         "path": "kompendium/01-predmluva/eticke-aspekty.md",
         "tier": 6,
@@ -75,7 +75,7 @@
       },
       {
         "code": null,
-        "in": 189,
+        "in": 190,
         "kind": "Pojem",
         "path": "glossary/ontologicka-anihilace.md",
         "tier": 6,
@@ -85,22 +85,32 @@
       },
       {
         "code": null,
-        "in": 112,
-        "kind": "Kapitola",
-        "path": "kompendium/_index.md",
+        "in": 102,
+        "kind": "Pojem",
+        "path": "glossary/epistemicka-alienace.md",
         "tier": 6,
-        "title": "Kompendium epistemické a kognitivní anihilace",
-        "url": "/kompendium/",
+        "title": "Epistemická alienace",
+        "url": "/glossary/epistemicka-alienace/",
         "why": "description"
       },
       {
         "code": null,
-        "in": 99,
+        "in": 97,
         "kind": "Pojem",
         "path": "glossary/kompendium-ea.md",
         "tier": 6,
         "title": "Kompendium EA",
         "url": "/glossary/kompendium-ea/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 95,
+        "kind": "Kapitola",
+        "path": "kompendium/_index.md",
+        "tier": 6,
+        "title": "Kompendium epistemické a kognitivní anihilace",
+        "url": "/kompendium/",
         "why": "description"
       },
       {
@@ -112,16 +122,6 @@
         "title": "03. Základní kategorie epistemických manipulací",
         "url": "/kompendium/03-zakladni-kategorie/",
         "why": "description"
-      },
-      {
-        "code": null,
-        "in": 38,
-        "kind": "Pojem",
-        "path": "glossary/edukativni-implementace.md",
-        "tier": 6,
-        "title": "Edukativní implementace",
-        "url": "/glossary/edukativni-implementace/",
-        "why": "description"
       }
     ],
     "limit": 12,
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "Tax",
     "schema": "kompendium-engine/v1",
-    "total": 58
+    "total": 59
   },
   "input": {
     "op": "search",

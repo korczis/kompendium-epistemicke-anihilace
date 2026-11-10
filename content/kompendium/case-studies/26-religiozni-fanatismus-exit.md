@@ -1,10 +1,12 @@
 +++
-title = "Pripad 26-religiozni-fanatismus-exit: Exit z religioznich fanatickych komunit"
-description = "Anonymizovana pripadova studie — Exit z religioznich fanatickych komunit. Komplexni 12-sekcni analyza: kontext, vstupni modus, fenomenologicky kurz, EA mapovani, intervence a recovery."
+title = "Případ 26: Odchod z vysoce kontrolujícího náboženského společenství"
+description = "Kompozitní studie ženy, která v dospívání s rodinou vstoupila do společenství s úplnou regulací života a po krizi plodnosti odcházela postupným vzdálením. Ostrakizace a obnova."
 weight = 26
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky", "rozsireny"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["24-extremni-pravice-exit", "25-extremni-leve-exit", "27-secular-cult-exit", "28-academic-philosophy-cult"]
 parent = "kompendium-case-studies"
@@ -12,108 +14,140 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 26-religiozni-fanatismus-exit: Exit z religioznich fanatickych komunit
+# Případ 26: Odchod z vysoce kontrolujícího náboženského společenství
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene nebo agregovany napric vice realnymi pripady. Pouzitelne pouze pro edukativni, vyzkumne a klinicke ucely. Zadne identifikujici udaje nesmi byt rekonstruovany.
+> **Upozornění:** Kompozit z více průběhů v různých společenstvích. Denominace, místa a osoby
+> jsou zobecněny. Studie nehodnotí náboženskou víru; popisuje skupinovou kontrolu, která se
+> může objevit v jakémkoli náboženském i nenáboženském prostředí.
 
-## 1. Kontext a populacni vymezeni
+## 1. Kontext a vymezení
 
-Pripad 26-religiozni-fanatismus-exit reprezentuje strukturalne typicky vzorek epistemicke alienace v doméně **vysoce kontrolujíci náboženské spolecenstí (high-control religion, Bible-Based Cult typu Two by Twos / IFB), pevně regulujici životní rozhodnutí**. Studie agreguje kliniky validovane vzorce ze tri az peti realnych pripadu, ktere sdileli klicove strukturalni rysy: zpusob vstupu, dynamiku eskalace, metody totalizace, spousteci udalost detekce a strukturu post-exit fenomenologie.
+Kompozit popisuje **vysoce kontrolující náboženské společenství** (*high-control religion*)
+s biblickým základem, v němž výklad starších reguluje vzdělání, sňatek, bydliště, oblečení i
+přátelství. Víra sama není předmětem posouzení; mnoho věřících žije v náročných, ale svobodných
+společenstvích. Rozlišovacím znakem je, zda lze **odejít bez ztráty všech vztahů** a zda lze
+pochybovat bez sankce. Zde nešlo ani jedno.
 
-Demograficky koridor obsahoval subjekty ve vekovem rozmezí 19-46 let, smiseneho genderoveho slozeni, s mediány vyssi nez populacni prumer v oblasti formálního vzdelávání. Tato skupina nevykazovala pred-existujici psychiatricky narativ, ktery by obvykle predikoval vulnerabilitu — naopak, mnoho z nich melo strukturalne stabilni socialni zazemí pred prvním kontaktem. Tato pozorovaní jsou v souladu s [literaturou o coercive control](@/glossary/coercive-control.md), ktera zduraznuje, ze epistemicka totalizace nezavisí primarne na pred-existujici psychopatologii, ale na strukturalnich vlastnostech ovládajici sítě.
+Žena vstoupila v dospívání spolu s rodiči, prožila ve společenství více než patnáct let a
+odcházela postupně kolem pětatřicítky.
 
-## 2. Vstupni modus
+## 2. Vstupní modus
 
-Vstupni vektor v této kohorte byl: **rodinna konverze v adolescenci, identifikace s pevnym mravnim systemem v období chaosu**. Tento patron je charakteristicky tim, ze pristupna brana neni rozpoznana subjektem jako brana — naopak, je vnímána jako reseni preexistujícího problemu (samota, intelektualní hladovka, kariéarni stagnace, identitarni vakuum, krize duvery v institucích). Proto klasicke 'red flags' (tlaky, nábor, ideologicka konsistentnost) jsou interpretovany jako znakou _vyzvy_, nikoli rizika.
+Vstupem byla **rodinná konverze v adolescenci** v období rodinného chaosu (rozvod prarodičů,
+ztráta práce otce). Pevný mravní systém a vřelé společenství nabídly řád, který doma chyběl.
+Pro dospívající dívku byla příslušnost zároveň podmínkou rodinné soudržnosti: pochybovat o
+společenství znamenalo ohrozit rodinu, která se právě dala dohromady.
 
-Strukturalní podobnost s [Hassanovym BITE modelem](@/glossary/coercive-control.md) je vysoka — kontrola behavioru, informací, mysleni a emocí postupuje paralelne, nikoli linearne, a kazda dimense imunizuje ostatni proti revizi.
+## 3. Časová osa expozice
 
-## 3. Casova osa expozice
-
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodneho kontaktu, budovani zavislosti, prvni pozitivni reinforcement (love-bombing-typ vzorec adaptovany pro kontext) |
-| **Perturbace** | mesice 4-12 | Postupne introdukovani ideovych disonanci, destabilizace alternativnich epistemickych zdroju, prvni 'osvícení' / 'breakthrough' / 'awakening' moment |
-| **Eskalace** | mesice 13-24 | akademická abstinence, manželstvi určené staršími, geograficka relokace blizko shromazdění, prerušení kontaktu s necleny |
-| **Konsolidace** | roky 2-5 | písmo + dohledávka starsich = úplny moralni navod, uniformovane oblékaní, gendrove role bez vyjímky, eschatologicke ocekavani 'konce dnu' |
-| **Detekce / spousteci udalost** | promenna | krize plodnosti pari + skrytí pristup ke kritickej akademickej literatures (Steven Hassan, BITE model) |
-| **Exit / rekonstrukce** | rok 5+ | postupny fade-out s pomoci ex-member podpurnych skupin (Recovering from Religion), trauma-informed terapie |
+| **Počáteční kontakt** | rok 1 | Rodinná konverze, vřelé přijetí, pocit řádu |
+| **Perturbace** | roky 1–3 | Nedůvěra k „světským“ zdrojům, odchod z volnočasových aktivit |
+| **Eskalace** | roky 3–8 | Vzdání se vysoké školy, sňatek doporučený staršími, přestěhování blízko shromáždění, přerušení kontaktu s nečleny |
+| **Konsolidace** | roky 8–15 | Písmo a výklad starších jako úplný morální návod, jednotné oblékání, pevné genderové role, očekávání „konce dnů“ |
+| **Detekce** | proměnlivá | Krize plodnosti páru, výklad starších jako trest; tajné čtení kritické literatury o kultech |
+| **Odchod a rekonstrukce** | rok 15+ | Postupné vzdálení s podporou skupiny bývalých členů, trauma-informovaná terapie |
 
-## 4. EA techniky manifestovane
+## 4. Manifestované EA techniky
 
-V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tuto kohortu):
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+  – výklad Písma předem vylučuje revizi; pochybnost je hřích.
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) –
+  starší mají privilegovaný vhled do Boží vůle.
+- [EA-5.1.14 Iluzorní transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md)
+  – transcendentní rámec se uzavírá proti jakékoli zkušenosti.
+- [EA-5.3.18 Esencialistická redukce](@/kompendium/techniques/ea-5-3-18-esencialisticka-redukce.md)
+  – člověk je redukován na svůj „duchovní stav“.
+- [EA-5.3.32 Rekonstituce skrze rituál](@/kompendium/techniques/ea-5-3-32-rekonstituce-skrze-rituall.md)
+  – týdenní rituály každý týden obnovují totální identitu.
 
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — Bibliclá vyklady predpojate proti revizi
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) — starsi maji privilegovany Boží vhled
-- [EA-5.1.14 Iluzorni transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md) — transcendentni ramec se uzavira proti revizi
-- [EA-5.3.18 Esencialisticka redukce](@/kompendium/techniques/ea-5-3-18-esencialisticka-redukce.md) — subjekt redukovan na 'duchovni stav'
-- [EA-5.3.32 Rekonstituce skrze ritual](@/kompendium/techniques/ea-5-3-32-rekonstituce-skrze-rituall.md) — týdenní rituály reprodukují totalni identitu
+Kontrola odpovídá všem čtyřem dimenzím [modelu BITE](@/glossary/bite-model.md) (Hassan 1988)
+a vzorcům [scénáře F](@/kompendium/03-zakladni-kategorie/scenar-f.md),
+[G](@/kompendium/03-zakladni-kategorie/scenar-g.md) a
+[H](@/kompendium/03-zakladni-kategorie/scenar-h.md).
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md).
+## 5. Fenomenologický průběh
 
-## 5. Fenomenologicky kurz
+Typická byla **neschopnost rozhodovat samostatně, vtíravé útržky kázání a tělesně prožívaná vina
+při „nedovolených“ zážitcích** – kino, tanec, sklenka vína. Žena popisovala, že i po odchodu
+slyší v rozhodujících chvílích hlas staršího. Strach z „pekla“ a z konce světa působil jako
+[emocionální terorismus](@/glossary/emocionalni-terorismus.md) – nikoli kvůli konkrétní hrozbě,
+ale kvůli vnitřní jistotě trestu. V řeči se objevovala
+[hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) a schopnost
+mluvit o pocitech jen náboženským slovníkem.
 
-Subjekty v této kohorte prochazely typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md), v pokrocilejsich fazich pak [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md) a v terminalnich fazich [epistemicke anihilace](@/glossary/epistemicka-anihilace.md).
+## 6. Detekční bod
 
-Specificke pro tento kontext: **nedostatek sposobu jak rozhodovat samostatne, intruzivni fragmenty kazani, somatizovana vina pri 'nedovolenych' zazitcich (kino, taneci, alkohol)**. Tyto specificke fenomenologicke znaky slouzi jako diagnosticke kotvy pri klinické identifikaci kohorte i pri pripadové supervizi.
+Pár se léta neúspěšně snažil o dítě. Starší vyložili neplodnost jako **důsledek nedostatečné
+víry** manželky. Výklad zasáhl oblast, kde žena měla vlastní tělesnou zkušenost a lékařský
+nález, a poprvé se ukázal jako krutý, ne moudrý. Tajně si začala číst kritickou literaturu o
+skupinách s vysokou kontrolou (mimo jiné o modelu BITE) a poznávala v ní vlastní život. Manžel
+zpočátku zůstal ve společenství, což odchod zpomalilo a zkomplikovalo.
 
-Z pohledu fenomenologie tela (Merleau-Ponty, Husserl) byly pozorovany somaticke korelaty epistemicke kontroly: deregulovany dech v exo-kontextovych situacich, hypervigilance specifické pro signaly skupinove autorit, narusena propriocepce v prostorech mimo kontrolovane prostredí. Tyto somaticke znaky jsou casto nejcasnejsi indikatory progresu intervence.
+## 7. Intervenční strategie
 
-## 6. Detekcni bod
+Odchod probíhal jako **postupné vzdálení**, nikoli jednorázový rozchod, aby se omezila
+ostrakizace:
 
-Spousteci udalosti pro detekci totalizovaneho rezimu sdileli strukturalni vlastnost: **prinesly externe verifikovatelnou udalost, ktera nemohla byt re-interpretovana standardními ramci skupiny bez explicitne paradoxalni reinterpretace**.
+- **S1 – Validace a mapování:** bezpečí, psychoedukace o skupinách s vysokou kontrolou; mapa
+  vztahů, které odchod ohrozí.
+- **S2 – Externalizace introjektů:** věty o hříchu, trestu a „světu“ odlišeny od vlastních hodnot.
+- **S3 – Rekonstrukce metakognice:** nácvik malých samostatných rozhodnutí a
+  [revize přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md) bez nutnosti
+  okamžitě nahradit víru jiným systémem.
+- **S4 – Hermeneutická obnova:** vlastní vztah k duchovnu – víra, nevíra nebo otevřená otázka.
+- **S5 – Konsolidace a transfer:** vzdělání, které jí bylo odepřeno, nová komunita.
 
-V této kohorte fungoval detecni bod nasledovne: krize plodnosti pari + skrytí pristup ke kritickej akademickej literatures (Steven Hassan, BITE model). Klicove je, ze samotny detekcni bod _neni_ vystupem — je pouhou prilezitostí pro vystup. Mnoho subjektu prochazi detekcnim bodem opakovane bez vystupu, protoze neni k dispozici exo-kontextova podpora.
+Rámec: [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+a [post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md).
 
-## 7. Intervencni strategie
+## 8. Výsledek a reziduální deficity
 
-Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5), s adaptacemi pro specificky kontext **vysoce kontrolujíci náboženské spolecenstí (high-control religion, Bible-Based Cult typu Two by Twos / IFB), pevně regulujici životní rozhodnutí**:
+Přetrvával **úplný rozpad rodinné sítě v důsledku ostrakizace** (*shunning*), ztráta morální
+mapy a zbytková úzkost z „pekla“, která se vracela v noci a v nemoci. Manžel společenství opustil
+později; vztah prošel krizí. Nejvíce pomohla skupina bývalých členů, kde nebylo nutné vysvětlovat
+základní pojmy.
 
-- **S1 (Stabilizace)**: bezpecne ukotvení mimo skupinove kontaktni site, casto 6-12 tydnu odpojeni, [trauma-focused pristup](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) k akutnim symptomum
-- **S2 (Inventura)**: systemna inventura epistemickeho narativu, mapovani [betrayal-trauma](@/glossary/betrayal-trauma.md) bodů, prvotni kognitivni rekonsolidace
-- **S3 (Rekonstrukce)**: postupna rekonstrukce alternativni epistemicke baze, nájezd na uzly typu "co jsem _skutecne_ pred kontaktem věřil", práce s _epistemickou pokora_
-- **S4 (Reintegrace)**: navrácení do mimo-skupinovych vztahu, casto rodinna terapie pro soused-shun a betrayal dynamics
-- **S5 (Konsolidace)**: dlouhodobe sledovani po 18-36 mesicich s peer-support komponentou
+## 9. Diferenciální diagnostika
 
-V této kohorte bylo specifické: postupny fade-out s pomoci ex-member podpurnych skupin (Recovering from Religion), trauma-informed terapie. Tento prvek by se mel objevit i v intervencnim planu pro analogicke pripady.
+- **Náročná, ale svobodná víra:** přísná pravidla, ale možnost pochybovat a odejít bez ztráty
+  rodiny.
+- **Obsedantně-kompulzivní porucha s náboženskými obsahy (skrupulozita):** úzkostné myšlenky
+  existují i bez skupinové kontroly.
+- **[C-PTSD](@/glossary/c-ptsd.md):** dlouhodobá kontrola od dospívání může vést ke komplexní
+  traumatické symptomatice.
+- **Náboženská krize bez EA:** ztráta víry bez ostrakizace a bez rozpadu schopnosti rozhodovat.
 
-## 8. Vysledek
+## 10. Právní a institucionální rámec
 
-Castecna az plna rekonstrukce po 18-48 mesicich strukturovane terapie kombinujici [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), peer-support a v nekterych pripadech somatickou prácu (somatic experiencing-typ).
+Svoboda vyznání chrání víru i její opuštění. Právně relevantní je nátlak při odchodu, finanční
+závazky vůči společenství, vzdělávání dětí a rodičovská práva při rozdílném postoji rodičů, viz
+[rodinné právo](@/kompendium/forensic-legal/41-family-court-EA.md) a
+[náboženské výjimky](@/kompendium/forensic-legal/48-religious-exemption-EA.md).
 
-**Reziduálni deficity**: kompletní rozpad rodinné síte (shunning), ztrata moralnich hvezdnych mapy, reziduálni úzkost ohledne 'pekla'. Tyto deficity je nutno vnimat ne jako selhání intervence, ale jako strukturalní stopu vystavení — analogicky tomu, jak chronická bolest po zlomenině zustava i po zhojeni kosti.
+## 11. Prevence a poučení pro praxi
 
-Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v prvních 6-12 mesicich, plateau ve 12-24 mesicich, casto re-eskalace pri specifickych spoušteích (rocni vyroci, kontakt s byvalymi cleny, medializace zazitku), a postupna konsolidace po 24-48 mesicich. Viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled typickych krivek pro tento typ pripadu.
+Klinik by měl **respektovat víru a zkoumat strukturu**: lze pochybovat, lze odejít, lze mít
+přátele mimo společenství? Postupné vzdálení bývá bezpečnější než náhlý rozchod, pokud klient
+chce zachovat aspoň část vztahů. Rodinám mimo společenství pomáhá zůstat dostupné bez tlaku.
 
-## 9. Scenare a typologicke zaskolení
+## 12. Limity a otevřené otázky
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+Kompozit popisuje ženu; pro muže, kteří ve společenství drží autoritu, je odchod jiný. Otevřená
+zůstává otázka, jak pracovat s dětmi, které ve společenství vyrůstají a neměly možnost volby.
 
-## 10. Diferencialni diagnostika
+## Související
 
-Kriticke je odliseni od:
-
-- **C-PTSD bez totalizace** ([c-ptsd](@/glossary/c-ptsd.md)): podobny symptomovy profil, ale chybi epistemická dimenze
-- **Standardní [betrayal-trauma](@/glossary/betrayal-trauma.md)**: chybi totalizujici epistemicky aparat
-- **Dissociation NOS**: prekryv v fenomenologii, ale jiny terapeuticky pristup
-
-Diferencialni kotvy jsou: pritomnost alternativni epistemicke baze (vyse uvedene EA kody), strukturalni izolace od mimo-skupinovych zdroju, identitarni rekompozice. Pro detail viz [diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
-
-## 11. Etické a metodologické poznámky
-
-Tato pripadova studie byla pripravena s dodrzovanim principu **anonymizace, agregace napric vice pripadu, neidentifikovatelnosti**. Žadny jednotlivy realny pripad neni rekonstruovatelny z této studie. Studie ma charakter klinické vinetie pro vyukove a vyzkumne ucely a je vystavena na trojím etickem ramci: (1) Belmont report principy, (2) APA Ethics Code, (3) [vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) protokol.
-
-Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v oblasti coercive control / cult recovery, (b) spolu-prace s pravnym zastupcem v pripadech kde je to relevantni, (c) trauma-informed pristup ke vsem fazim vystupu.
-
-## 12. Cross-linky a dalsi cetba
-
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
-- **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [narrative-trauma](@/glossary/narrative-trauma.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), [EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md), [EA-5.1.14](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md), [EA-5.3.18](@/kompendium/techniques/ea-5-3-18-esencialisticka-redukce.md), [EA-5.3.32](@/kompendium/techniques/ea-5-3-32-rekonstituce-skrze-rituall.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+- **Sourozenecké případy:** [Případ 10 – vycházení ze sekty](@/kompendium/case-studies/10-sektarske-vychazeni.md),
+  [Případ 49 – náboženské vedení](@/kompendium/case-studies/49-religious-leadership.md),
+  [Případ 58 – zotavení z tradwife prostředí](@/kompendium/case-studies/58-tradwife-recovery.md)
+  (genderové role jako kontrola).
+- **Glosář:** [sektářská konverze](@/glossary/sektarska-konverze.md);
+  [spiritual bypassing](@/glossary/spiritual-bypassing.md).
+- **Krize:** [Ex-cult member emergency](@/kompendium/emergency-protocols/28-ex-cult-emergency.md).
+- **Obnova:** [Dlouhodobé prohlubování smyslu](@/kompendium/recovery-protocols/longterm-meaning-deepening.md).
+- **Index:** [Přehled případových studií](@/kompendium/case-studies/_index.md)
 
 ---
 

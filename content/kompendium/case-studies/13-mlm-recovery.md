@@ -1,10 +1,12 @@
 +++
-title = "Pripad 13-mlm-recovery: MLM recovery"
-description = "Anonymizovana pripadova studie — MLM recovery. EA techniky, fenomenologicky kurz, intervence, vysledek."
+title = "Případ 13: Zotavení z MLM"
+description = "Kompozitní studie ženy, která v síťovém prodeji přišla o úspory i vztahy a naučila se vykládat každý neúspěch jako vlastní vinu. Markery, právo a obnova."
 weight = 13
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["11-corporate-cult", "12-leadership-cult", "14-self-help-cult", "15-zdravotnicky-iatrogen"]
 parent = "kompendium-case-studies"
@@ -12,56 +14,141 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 13-mlm-recovery: MLM recovery
+# Případ 13: Zotavení z MLM
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
+> **Upozornění:** Kompozit z více příběhů. Produkty, firma, částky a místa jsou zaměněny;
+> studie se nevyjadřuje k žádné konkrétní společnosti síťového prodeje. Slouží k rozpoznání
+> vzorce a k podpoře zotavení.
 
-## Background subjektu
+## 1. Kontext a vymezení
 
-Subjekt (anonymizovany kod 13-mlm-recovery) byl vystaven systematickemu vzorci EA pres rozsahly casovy interval. Demograficke detaily, profesni rola a kontext byly zachovany strukturalni — konkretni identifikatory odstranene.
+Víceúrovňový marketing (MLM) je obchodní model, v němž prodejci vydělávají nejen z prodeje,
+ale i z náboru dalších prodejců. Ne každá MLM struktura je kultovní; kompozit popisuje variantu,
+kde se k ekonomickému modelu přidává **ideologie osobní transformace**: neúspěch není důsledkem
+nastavení systému, ale „omezujícího přesvědčení“ jednotlivce. Tím se ekonomická realita –
+většina účastníků nevydělá ani na vlastní náklady – stává nevyslovitelnou.
 
-## Casova osa expozice
+Kompozit popisuje ženu po rodičovské dovolené, která hledala flexibilní příjem a komunitu. Během
+tří let investovala úspory, zadlužila se na „startovní balíčky“ a přerušila vztahy s přáteli,
+které se pokoušela získat jako zákazníky nebo nováčky.
 
-| Faze | Trvani | Klicove udalosti |
+## 2. Vstupní modus
+
+Vstup přišel **přes blízkou známou** a sociální sítě: příběhy o svobodě, fotografie z akcí,
+nabídka „jen to vyzkoušet“. Pro ženu v sociální izolaci po porodu byla nejsilnějším lákadlem
+komunita – skupinový chat plný povzbuzení, oslavy každého prodeje. Ekonomické podmínky byly
+vysvětleny zběžně a s důrazem na výjimečné úspěchy několika jedinců.
+
+## 3. Časová osa expozice
+
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodne role, budovani zavislosti |
-| **Perturbace** | mesice 4-12 | Introdukce epistemickych disonanci, destabilizace |
-| **Rekonfigurace** | mesice 13-24 | Akceptace alternativniho ramce, "prulom" |
-| **Konsolidace** | roky 2-5 | Internalizace, defenzivni rigidita |
-| **Exit / detekce** | rok 5+ | Externi konfrontace, postupna rekonstrukce |
+| **Přijetí** | měsíce 1–4 | Startovní balíček, skupinový chat, první prodeje rodině |
+| **Investice** | měsíce 4–12 | Nákupy zásob kvůli udržení „statusu“, placené semináře, první dluh |
+| **Ideologizace** | roky 1–2 | Neúspěch vykládán jako nedostatek víry; skeptici označeni za „toxické“ |
+| **Izolace** | roky 2–3 | Ztráta přátel, konflikty s partnerem kvůli financím, skrývání výpisů |
+| **Detekce a odchod** | rok 3 | Sečtení skutečných příjmů a výdajů s pomocí dluhové poradny |
 
-## EA techniky manifestovane
+## 4. Manifestované EA techniky
 
-V tomto pripadu byly identifikovany nasledujici EA kody (ilustrativni — konkretni map se lisi dle kontextu):
+- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) –
+  vidět jsou jen příběhy úspěchu, výsledky většiny chybějí.
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+  – každý neúspěch potvrzuje teorii („ještě jsi to nechtěla dost“).
+- [EA-2.5.3 Kultivace sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md)
+  – pochybnost o systému se mění v pochybnost o sobě.
+- [EA-5.3.12 Relační restrukturalizace](@/kompendium/techniques/ea-5-3-12-relacni-restrukturalizace.md)
+  – přátelé se dělí na potenciální zákazníky a „negativní lidi“.
+- [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md)
+  – „kdo odejde těsně před průlomem, přijde o všechno“.
 
-- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — kontrolovany pristup k informacim
-- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — emocionalni kondicionovani
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — strukturalni obrana proti revizi
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — asymetricky epistemicky vztah
+Vzorec kombinuje [scénář G](@/kompendium/03-zakladni-kategorie/scenar-g.md) s ekonomickou
+závislostí, kterou popisuje [podvod jako element EA](@/kompendium/forensic-legal/17-fraud-EA-element.md).
 
-## Fenomenologicky kurz
+## 5. Fenomenologický průběh
 
-Subjekt prochazel typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md) a v pokrocilych fazich [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md).
+Zpočátku převládalo **nadšení a sounáležitost**, později [nepřiměřená sebejistota](@/kompendium/detection-signatures/9-behavioral-disproportionate-confidence.md)
+v prezentaci produktu a současně tajná úzkost při pohledu na účet. Žena popisovala „dvojí
+účetnictví v hlavě“: veřejně úspěch, soukromě rostoucí dluh, o kterém nesměla mluvit, protože
+mluvit o něm znamenalo „přitahovat neúspěch“. Typická byla
+[emocionální modulace](@/kompendium/detection-signatures/16-behavioral-emotional-modulation.md)
+ve skupině – euforie na akcích, propady doma – a stud, který bránil svěřit se partnerovi.
 
-## Detekcni bod
+## 6. Detekční bod
 
-Externi konfrontace s alternativnimi epistemickymi zdroji (rodina, kvalifikovany profesional mimo kontext) iniciovala pochybnost a postupne otevreni interventnimu procesu.
+Spouštěčem byla **konfrontace s čísly**. Když se dluh stal neudržitelným, partner ji přivedl do
+dluhové poradny. Poradkyně s ní sečetla všechny příjmy a výdaje za tři roky – poprvé v jednom
+přehledu, bez interpretace. Výsledná ztráta nešla vyložit jako „investice do sebe“. Druhým
+zdrojem byla online skupina bývalých účastnic, která jí ukázala, že její zkušenost je typická,
+a ne osobním selháním.
 
-## Intervencni strategie
+## 7. Intervenční strategie
 
-Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5) s adaptacemi pro specificky kontext.
+Intervence spojovala finanční a psychologickou práci:
 
-## Vysledek
+- **S1 – Validace a mapování:** finanční přehled jako první terapeutický dokument; psychoedukace
+  o ekonomice MLM bez moralizování.
+- **S2 – Externalizace introjektů:** věty jako „chudoba je volba“ nebo „úspěch je jen mindset“
+  zapsány a vráceny zdroji, z něhož pocházejí.
+- **S3 – Rekonstrukce metakognice:** nácvik [verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md)
+  – rozlišení mezi příběhem úspěchu a statistikou výsledků.
+- **S4 – Hermeneutická obnova:** nové čtení let v síti; uznání skutečných potřeb (komunita,
+  smysl), které ji tam přivedly.
+- **S5 – Konsolidace a transfer:** plán splácení, návrat do zaměstnání, nová komunita bez
+  ekonomické vazby.
 
-Castecna az plna rekonstrukce po 12-36 mesicich strukturovane terapie s [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md). Reziduálni deficity v oblastech specifickych pro kontext — viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled.
+Postup odpovídá [protokolu epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md);
+paralelně běžela párová konzultace kvůli financím a důvěře.
 
-## Cross-linky
+## 8. Výsledek a reziduální deficity
 
-- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
-- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [gaslighting](@/glossary/gaslighting.md)
-- **Sekce 03**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+Za necelé dva roky splatila většinu dluhu a obnovila část přátelství. Přetrvával **hluboký stud**
+za to, že oslovovala přátele, a nedůvěra k jakékoli nabídce spojující peníze a komunitu. Typickou
+stopou byla i automatická sebeobviňující reakce na běžné neúspěchy – „asi jsem to nechtěla dost“ –
+kterou postupně oslabovala [práce s odolností vůči studu](@/kompendium/self-defense-guides/18-shame-resilience.md).
+
+## 9. Diferenciální diagnostika
+
+- **Běžná podnikatelská ztráta:** neúspěch bez ideologie, která by zakazovala o něm mluvit.
+- **Patologické hráčství:** podobná spirála investic, ale bez skupinové ideologie a náboru.
+- **Depresivní epizoda po porodu:** může předcházet vstupu a zvyšovat zranitelnost; vyžaduje
+  samostatné posouzení a léčbu.
+- **Self-help kult bez ekonomické struktury:** srovnej [případ 14](@/kompendium/case-studies/14-self-help-cult.md).
+
+## 10. Právní a institucionální rámec
+
+Evropské právo o nekalých obchodních praktikách řadí pyramidové systémy, v nichž odměna plyne
+hlavně z náboru, mezi praktiky zakázané za všech okolností; zda konkrétní MLM pod tento zákaz
+spadá, je otázka pro odborné posouzení. Klamání o výdělcích může naplnit znaky podvodu podle
+§ 209 zákona č. 40/2009 Sb., trestního zákoníku. Pro dokumentaci viz
+[elektronické důkazy](@/kompendium/forensic-legal/35-electronic-evidence-EA.md) (chaty,
+nabídkové materiály) a dluhové poradenství.
+
+## 11. Prevence a poučení pro praxi
+
+Prevence stojí na **ekonomické gramotnosti a otázce po datech**: jaký je medián příjmu
+účastníků, ne příběh nejúspěšnější z nich. Kliničtí pracovníci by se u klientů s náhlými
+finančními problémy a ztrátou přátel měli ptát i na podnikání „z domova“. Rodinám pomáhá
+zachovat vztah bez nákupů a bez posměchu – kontakt je pozdější cestou ven.
+
+## 12. Limity a otevřené otázky
+
+Kompozit popisuje ženu, která odešla po třech letech; mnoho účastníků odchází dříve s menší
+ztrátou, jiní zůstávají desítky let. Otevřená je otázka, jak pracovat s klienty, kteří sami
+naverbovali další lidi a nesou vůči nim vinu.
+
+## Související
+
+- **Sourozenecké případy:** [Případ 14 – self-help kult](@/kompendium/case-studies/14-self-help-cult.md)
+  (ideologie bez prodejní struktury), [Případ 20 – finanční kult](@/kompendium/case-studies/20-finance-cult.md)
+  (investiční varianta), [Případ 63 – investorský kult](@/kompendium/case-studies/63-investor-cult.md).
+- **Glosář:** [scam compliance](@/glossary/scam-compliance.md) – proč lidé zůstávají v podvodném
+  systému; [sociální izolace](@/glossary/socialni-izolace.md) – ztráta přátel jako mechanismus.
+- **Sebeobrana:** [Rozpoznání emočního dluhu](@/kompendium/self-defense-guides/20-emotional-debt-recognition.md)
+  – závazky vůči „upline“ a komunitě.
+- **Obnova:** [Akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md)
+  – odpojení od motivačního obsahu po odchodu.
+- **Index:** [Přehled případových studií](@/kompendium/case-studies/_index.md)
 
 ---
 

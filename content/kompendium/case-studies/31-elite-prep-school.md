@@ -1,10 +1,12 @@
 +++
-title = "Pripad 31-elite-prep-school: Totalizace v elitni prepskole"
-description = "Anonymizovana pripadova studie — Totalizace v elitni prepskole. Komplexni 12-sekcni analyza: kontext, vstupni modus, fenomenologicky kurz, EA mapovani, intervence a recovery."
+title = "Případ 31: Totalizace v elitní internátní škole"
+description = "Kompozitní studie dospívajícího v elitní internátní škole s rituály ponižování, vrstevnickým dohledem a identitou podle koleje. Rozpoznání, ochrana dítěte a obnova."
 weight = 31
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky", "rozsireny"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["29-art-school-totalization", "30-music-conservatory-coercion", "32-graduate-program-totalization", "33-postdoc-exploitation"]
 parent = "kompendium-case-studies"
@@ -12,108 +14,152 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 31-elite-prep-school: Totalizace v elitni prepskole
+# Případ 31: Totalizace v elitní internátní škole
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene nebo agregovany napric vice realnymi pripady. Pouzitelne pouze pro edukativni, vyzkumne a klinicke ucely. Zadne identifikujici udaje nesmi byt rekonstruovany.
+> **Upozornění:** Kompozit složený z několika průběhů u nezletilých. Škola, země, tradice ani
+> rituály nejsou popsány tak, aby je bylo možné přiřadit konkrétní instituci; detaily
+> ponižujících praktik jsou záměrně vynechány. Text slouží k ochraně dětí, ne k hodnocení
+> soukromého školství.
 
-## 1. Kontext a populacni vymezeni
+## 1. Kontext a vymezení
 
-Pripad 31-elite-prep-school reprezentuje strukturalne typicky vzorek epistemicke alienace v doméně **elitni privatni internatni skola (UK boarding/US prep type) s pevnym tradicnim systemem hazing-rituals, uniformovaneho vystupovani, vrstevnickeho dohledu**. Studie agreguje kliniky validovane vzorce ze tri az peti realnych pripadu, ktere sdileli klicove strukturalni rysy: zpusob vstupu, dynamiku eskalace, metody totalizace, spousteci udalost detekce a strukturu post-exit fenomenologie.
+Kompozit popisuje **elitní soukromou internátní školu** s dlouhou tradicí, kolejním systémem,
+uniformou a silnou sítí absolventů. Takové školy mohou nabízet výborné vzdělání; problémem je,
+když se tradice vrstevnické hierarchie – starší žáci s pravomocí nad mladšími, kolejní
+„kázeň“, rituály přijetí – vymkne dohledu dospělých. Škola pak získává rysy totální instituce,
+jak ji popsal Erving Goffman (1961): jedno místo, jedna autorita a jeden režim pro spánek,
+práci i volný čas, pod stálým [dohledem](@/glossary/panopticism.md).
 
-Demograficky koridor obsahoval subjekty ve vekovem rozmezí 19-46 let, smiseneho genderoveho slozeni, s mediány vyssi nez populacni prumer v oblasti formálního vzdelávání. Tato skupina nevykazovala pred-existujici psychiatricky narativ, ktery by obvykle predikoval vulnerabilitu — naopak, mnoho z nich melo strukturalne stabilni socialni zazemí pred prvním kontaktem. Tato pozorovaní jsou v souladu s [literaturou o coercive control](@/glossary/coercive-control.md), ktera zduraznuje, ze epistemicka totalizace nezavisí primarne na pred-existujici psychopatologii, ale na strukturalnich vlastnostech ovládajici sítě.
+Pro dítě, které do takového systému vstoupí ve třinácti letech, je škola **celým světem**.
+Neexistuje žádné „venku“, kde by mohlo ověřit, zda je to, co zažívá, normální. To odlišuje
+tento případ od podobných vzorců u dospělých
+([případ 32](@/kompendium/case-studies/32-graduate-program-totalization.md)).
 
-## 2. Vstupni modus
+## 2. Vstupní modus
 
-Vstupni vektor v této kohorte byl: **rodicovska investice do prestizniho pristupu, deti vstupuji ve 13 letech do system se silnou alumni pamet'ovou kontinuitou**. Tento patron je charakteristicky tim, ze pristupna brana neni rozpoznana subjektem jako brana — naopak, je vnímána jako reseni preexistujícího problemu (samota, intelektualní hladovka, kariéarni stagnace, identitarni vakuum, krize duvery v institucích). Proto klasicke 'red flags' (tlaky, nábor, ideologicka konsistentnost) jsou interpretovany jako znakou _vyzvy_, nikoli rizika.
+Vstup byl **rozhodnutím rodičů**: investice do prestižního vzdělání a kontaktů. Dítě vstoupilo s
+pocitem výsady i povinnosti nezklamat. Rodina chápala těžké začátky jako „otužování“, které
+patří k tradici; první stesky po domově proto vyzněly jako slabost. Kontinuita absolventské
+paměti – rodiče, kteří sami podobnou školou prošli – zesilovala normalizaci: „taky jsem to
+přežil“.
 
-Strukturalní podobnost s [Hassanovym BITE modelem](@/glossary/coercive-control.md) je vysoka — kontrola behavioru, informací, mysleni a emocí postupuje paralelne, nikoli linearne, a kazda dimense imunizuje ostatni proti revizi.
+## 3. Časová osa expozice
 
-## 3. Casova osa expozice
-
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodneho kontaktu, budovani zavislosti, prvni pozitivni reinforcement (love-bombing-typ vzorec adaptovany pro kontext) |
-| **Perturbace** | mesice 4-12 | Postupne introdukovani ideovych disonanci, destabilizace alternativnich epistemickych zdroju, prvni 'osvícení' / 'breakthrough' / 'awakening' moment |
-| **Eskalace** | mesice 13-24 | prefect-fag system, ritualizovana ponizovani, dorm-level kazne, sportovni kult, koliznost s rodinou potrestana ostrakizem |
-| **Konsolidace** | roky 2-5 | skola = totalni instituce ve smyslu Goffmana, identita postavena na 'House' (kolejni systemu), vrstevnictví prokladane informátorstvím |
-| **Detekce / spousteci udalost** | promenna | samovražedny pokus spoluzaka v kolejnim doome; rodice subjektu zacasli si všimnout chronicke úzkosti |
-| **Exit / rekonstrukce** | rok 5+ | transfer na neutralni nepripravkovou skolu, terapie zamerena na adolescentni instituconalni trauma |
+| **Přijetí** | měsíce 1–3 | Uniforma, pravidla koleje, přidělení ke staršímu žákovi |
+| **Podřízení** | měsíce 3–12 | Služby pro starší žáky, ritualizované ponižování, tresty na úrovni koleje |
+| **Eskalace** | roky 1–2 | Sportovní kult, ostrakizace za stížnosti doma, vrstevnické udávání |
+| **Konsolidace** | roky 2–4 | Identita postavená na koleji, žák sám přebírá roli staršího vůči mladším |
+| **Detekce** | rok 4 | Sebevražedný pokus spolužáka na koleji; rodiče si všimnou chronické úzkosti |
+| **Odchod a rekonstrukce** | rok 4–5 | Přestup na běžnou školu, terapie zaměřená na institucionální trauma v dospívání |
 
-## 4. EA techniky manifestovane
+## 4. Manifestované EA techniky
 
-V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tuto kohortu):
+- [EA-1.5.1 Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) –
+  nepřetržitý dohled nad prostorem; žádné místo, kde by dítě bylo samo.
+- [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) –
+  vrstevnické systémy trestů a rituálů vynucují konformitu bez zásahu dospělých.
+- [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)
+  – uniforma a předepsané chování jako znaky příslušnosti a podřízenosti.
+- [EA-5.3.3 Rolová fragmentace](@/kompendium/techniques/ea-5-3-3-rolova-fragmentace.md) – dítě
+  žije dvě nesmiřitelné role: doma syn, na koleji podřízený.
+- [EA-5.3.34 Konvergentní identitární tlak](@/kompendium/techniques/ea-5-3-34-konvergentni-identitarni-tlak.md)
+  – tlak na shodu se „správným“ typem absolventa.
 
-- [EA-1.5.1 Strategicka proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) — internat. rezim 24/7 dozor nad prostorem
-- [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) — vrstevnicky systemy pokut a ritualu
-- [EA-1.5.2 Dominantni telesne hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) — uniformovane oblékani jako semioticka totalita
-- [EA-5.3.3 Rolova fragmentace](@/kompendium/techniques/ea-5-3-3-rolova-fragmentace.md) — fragmentace na 'House identity'
-- [EA-5.3.34 Konvergentni identitarni tlak](@/kompendium/techniques/ea-5-3-34-konvergentni-identitarni-tlak.md) — identifikace ke skolnimu typu
+Strukturálně jde o [scénář F](@/kompendium/03-zakladni-kategorie/scenar-f.md),
+[scénář G](@/kompendium/03-zakladni-kategorie/scenar-g.md) a
+[scénář L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md); u dítěte se navíc přidává
+vývojová zranitelnost, protože identita se teprve tvoří.
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md).
+## 5. Fenomenologický průběh
 
-## 5. Fenomenologicky kurz
+Typické byly **dlouhodobé noční můry spojené s kolejí, panické reakce v uniformním prostředí a
+hypervigilance ve vrstevnických skupinách**. Během pobytu žák navenek prospíval a domů psal
+uklidňující zprávy; o tom, co se děje, mluvit nesměl a postupně ani nechtěl, protože by to
+znamenalo přiznat slabost. Charakteristická byla
+[akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md)
+od rodiny a [emocionální otupení](@/kompendium/detection-signatures/27-phenomenological-emotional-numbing.md).
+Nejtěžší složkou byla zkušenost, že v posledním roce sám vykonával vůči mladším totéž, co dřív
+snášel – vznikal tak [internalizovaný pachatel](@/glossary/internalizovany-pachatel.md).
 
-Subjekty v této kohorte prochazely typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md), v pokrocilejsich fazich pak [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md) a v terminalnich fazich [epistemicke anihilace](@/glossary/epistemicka-anihilace.md).
+## 6. Detekční bod
 
-Specificke pro tento kontext: **dlouhodobe spankove desy z dorm scen, panicke reakce na uniformizovane prostredí, hypervigilance ve vrstevnickych skupinach**. Tyto specificke fenomenologicke znaky slouzi jako diagnosticke kotvy pri klinické identifikaci kohorte i pri pripadové supervizi.
+Sebevražedný pokus spolužáka z téže koleje prolomil mlčení: škola musela reagovat, do
+rozhovorů vstoupili externí odborníci a rodiče se poprvé zeptali konkrétně. Teprve tehdy dali
+dohromady chronickou úzkost, poruchy spánku a vyhýbání se tématu školy během prázdnin. Dítě
+mluvilo, až když dostalo jistotu, že se nebude muset vrátit a že rodiče nebudou mluvit o
+„selhání“.
 
-Z pohledu fenomenologie tela (Merleau-Ponty, Husserl) byly pozorovany somaticke korelaty epistemicke kontroly: deregulovany dech v exo-kontextovych situacich, hypervigilance specifické pro signaly skupinove autorit, narusena propriocepce v prostorech mimo kontrolovane prostredí. Tyto somaticke znaky jsou casto nejcasnejsi indikatory progresu intervence.
+## 7. Intervenční strategie
 
-## 6. Detekcni bod
+Postup spojil [rekonstrukční protokol pro adolescenty](@/kompendium/recovery-protocols/recovery-adolescent-protocol.md)
+s [protokolem epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md):
 
-Spousteci udalosti pro detekci totalizovaneho rezimu sdileli strukturalni vlastnost: **prinesly externe verifikovatelnou udalost, ktera nemohla byt re-interpretovana standardními ramci skupiny bez explicitne paradoxalni reinterpretace**.
+- **S1 – Validace a mapování:** bezpečí na prvním místě (přestup, ukončení kontaktu se starším
+  žákem), uznání, že nešlo o „otužování“.
+- **S2 – Externalizace introjektů:** věty „kdo si stěžuje, je slaboch“, „to je tradice“
+  přiřazené systému, který je vytvořil.
+- **S3 – Rekonstrukce metakognice:** obnova práva hodnotit, co je normální; srovnání se
+  zkušenostmi vrstevníků z běžné školy.
+- **S4 – Hermeneutická obnova:** práce s vinou za vlastní roli vůči mladším a s ambivalencí k
+  absolventské identitě.
+- **S5 – Konsolidace a transfer:** nové vrstevnické vztahy, rodinná terapie včetně tématu
+  rodičovského rozhodnutí.
 
-V této kohorte fungoval detecni bod nasledovne: samovražedny pokus spoluzaka v kolejnim doome; rodice subjektu zacasli si všimnout chronicke úzkosti. Klicove je, ze samotny detekcni bod _neni_ vystupem — je pouhou prilezitostí pro vystup. Mnoho subjektu prochazi detekcnim bodem opakovane bez vystupu, protoze neni k dispozici exo-kontextova podpora.
+## 8. Výsledek a reziduální deficity
 
-## 7. Intervencni strategie
+Po dvou letech byl dospívající stabilní a měl nové kamarády. Přetrvávala **potřeba stavět
+vrstevnické vztahy od začátku mimo elitní síť, skepse vůči hierarchiím a konflikt s rodiči**
+kvůli investici a jejímu ztroskotání. Rodiče procházeli vlastním procesem: museli unést, že
+jejich dobře míněné rozhodnutí dítěti ublížilo.
 
-Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5), s adaptacemi pro specificky kontext **elitni privatni internatni skola (UK boarding/US prep type) s pevnym tradicnim systemem hazing-rituals, uniformovaneho vystupovani, vrstevnickeho dohledu**:
+## 9. Diferenciální diagnostika
 
-- **S1 (Stabilizace)**: bezpecne ukotvení mimo skupinove kontaktni site, casto 6-12 tydnu odpojeni, [trauma-focused pristup](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) k akutnim symptomum
-- **S2 (Inventura)**: systemna inventura epistemickeho narativu, mapovani [betrayal-trauma](@/glossary/betrayal-trauma.md) bodů, prvotni kognitivni rekonsolidace
-- **S3 (Rekonstrukce)**: postupna rekonstrukce alternativni epistemicke baze, nájezd na uzly typu "co jsem _skutecne_ pred kontaktem věřil", práce s _epistemickou pokora_
-- **S4 (Reintegrace)**: navrácení do mimo-skupinovych vztahu, casto rodinna terapie pro soused-shun a betrayal dynamics
-- **S5 (Konsolidace)**: dlouhodobe sledovani po 18-36 mesicich s peer-support komponentou
+- **Náročná, ale bezpečná škola:** vysoké nároky, ale dospělí drží dohled a stížnost není
+  trestána.
+- **Stesk po domově a adaptační obtíže:** odeznívají a nejsou spojeny s ponižováním.
+- **Šikana bez institucionální složky:** jednotliví agresoři, které škola po odhalení zastaví;
+  zde systém ponižování sám reprodukoval.
+- **[PTSD a C-PTSD](@/glossary/c-ptsd.md):** traumatické symptomy mohou být přítomny současně;
+  rozdíl je v epistemické složce – dítě přestalo věřit vlastnímu úsudku o tom, co je normální.
 
-V této kohorte bylo specifické: transfer na neutralni nepripravkovou skolu, terapie zamerena na adolescentni instituconalni trauma. Tento prvek by se mel objevit i v intervencnim planu pro analogicke pripady.
+## 10. Právní a institucionální rámec
 
-## 8. Vysledek
+V Česku stanoví povinnosti škol a školských zařízení zákon č. 561/2004 Sb., školský zákon;
+ochranu dětí zajišťuje i systém sociálně-právní ochrany. U zahraničních škol platí místní
+právo, ale rodiče a odborníci by měli znát principy
+[ochrany dětí](@/kompendium/forensic-legal/47-child-protection-EA.md) a
+[povinného oznámení](@/kompendium/emergency-protocols/9-mandatory-reporting-EA.md). Výpověď
+nezletilého vyžaduje citlivý [forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md).
 
-Castecna az plna rekonstrukce po 18-48 mesicich strukturovane terapie kombinujici [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), peer-support a v nekterych pripadech somatickou prácu (somatic experiencing-typ).
+## 11. Prevence a poučení pro praxi
 
-**Reziduálni deficity**: kompletní rekonstrukce vrstevnickych vazeb mimo elitni system, skepse voci hierarchiim, casto rodicovsky konflikt o investici. Tyto deficity je nutno vnimat ne jako selhání intervence, ale jako strukturalní stopu vystavení — analogicky tomu, jak chronická bolest po zlomenině zustava i po zhojeni kosti.
+Školy s kolejním systémem chrání žáky, když **vrstevnická moc nemá kázeňskou pravomoc**, existuje
+nezávislá důvěrná osoba mimo školu ([role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md))
+a funguje [anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md).
+Rodiče by se měli ptát na konkrétní věci – kdo smí trestat, kde dítě spí, s kým mluví, když je
+mu zle – a stesk dítěte brát vážně.
 
-Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v prvních 6-12 mesicich, plateau ve 12-24 mesicich, casto re-eskalace pri specifickych spoušteích (rocni vyroci, kontakt s byvalymi cleny, medializace zazitku), a postupna konsolidace po 24-48 mesicich. Viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled typickych krivek pro tento typ pripadu.
+## 12. Limity a otevřené otázky
 
-## 9. Scenare a typologicke zaskolení
+Kompozit zachycuje jednu trajektorii; mnoho absolventů popisuje stejný typ školy jako dobrou
+zkušenost a o těžkých zážitcích mluví až po letech. Otevřené zůstává, jak oddělit tradici,
+která dává smysl, od tradice, která chrání ponižování.
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+## Související
 
-## 10. Diferencialni diagnostika
-
-Kriticke je odliseni od:
-
-- **C-PTSD bez totalizace** ([c-ptsd](@/glossary/c-ptsd.md)): podobny symptomovy profil, ale chybi epistemická dimenze
-- **Standardní [betrayal-trauma](@/glossary/betrayal-trauma.md)**: chybi totalizujici epistemicky aparat
-- **Dissociation NOS**: prekryv v fenomenologii, ale jiny terapeuticky pristup
-
-Diferencialni kotvy jsou: pritomnost alternativni epistemicke baze (vyse uvedene EA kody), strukturalni izolace od mimo-skupinovych zdroju, identitarni rekompozice. Pro detail viz [diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
-
-## 11. Etické a metodologické poznámky
-
-Tato pripadova studie byla pripravena s dodrzovanim principu **anonymizace, agregace napric vice pripadu, neidentifikovatelnosti**. Žadny jednotlivy realny pripad neni rekonstruovatelny z této studie. Studie ma charakter klinické vinetie pro vyukove a vyzkumne ucely a je vystavena na trojím etickem ramci: (1) Belmont report principy, (2) APA Ethics Code, (3) [vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) protokol.
-
-Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v oblasti coercive control / cult recovery, (b) spolu-prace s pravnym zastupcem v pripadech kde je to relevantni, (c) trauma-informed pristup ke vsem fazim vystupu.
-
-## 12. Cross-linky a dalsi cetba
-
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
-- **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [coercive-control](@/glossary/coercive-control.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-1.5.1](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md), [EA-2.1.2](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md), [EA-1.5.2](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md), [EA-5.3.3](@/kompendium/techniques/ea-5-3-3-rolova-fragmentace.md), [EA-5.3.34](@/kompendium/techniques/ea-5-3-34-konvergentni-identitarni-tlak.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+- **Sourozenecké případy:** [Případ 29 – totalizace v umělecké škole](@/kompendium/case-studies/29-art-school-totalization.md),
+  [Případ 30 – nátlak na konzervatoři](@/kompendium/case-studies/30-music-conservatory-coercion.md)
+  (talentové školy), [Případ 03 – pedagogické gaslighting](@/kompendium/case-studies/03-pedagogicke-gaslighting.md).
+- **Krize:** [Děti v EA-emergency](@/kompendium/emergency-protocols/21-children-emergency-EA.md),
+  [Adolescent v EA-emergency](@/kompendium/emergency-protocols/22-adolescent-emergency-EA.md) –
+  při suicidálním riziku u žáků.
+- **Klinika:** [6.5 Práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+  – nezletilí v institucionální péči.
+- **Glosář:** [high-control group](@/glossary/high-control-group.md) – instituce jako skupina
+  s vysokou kontrolou.
+- **Index:** [Přehled případových studií](@/kompendium/case-studies/_index.md)
 
 ---
 

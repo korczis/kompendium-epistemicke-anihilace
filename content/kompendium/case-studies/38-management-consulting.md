@@ -1,10 +1,12 @@
 +++
-title = "Pripad 38-management-consulting: Management consulting totalizace (MBB)"
-description = "Anonymizovana pripadova studie — Management consulting totalizace (MBB). Komplexni 12-sekcni analyza: kontext, vstupni modus, fenomenologicky kurz, EA mapovani, intervence a recovery."
+title = "Případ 38: Totalizace v manažerském poradenství"
+description = "Kompozitní studie konzultanta v elitní poradenské firmě s kulturou „povýšit, nebo odejít“, životem v hotelech a závislostí na stimulantech. Rozpad, léčba a nová dráha."
 weight = 38
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky", "rozsireny"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["36-startup-cult-exit", "37-tech-bro-totalizace", "39-finance-totalizace", "40-law-firm-totalizace"]
 parent = "kompendium-case-studies"
@@ -12,108 +14,141 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 38-management-consulting: Management consulting totalizace (MBB)
+# Případ 38: Totalizace v manažerském poradenství
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene nebo agregovany napric vice realnymi pripady. Pouzitelne pouze pro edukativni, vyzkumne a klinicke ucely. Zadne identifikujici udaje nesmi byt rekonstruovany.
+> **Upozornění:** Kompozit z několika kariér v poradenství. Firma, klienti, země a osoby jsou
+> zobecněny; žádná konkrétní společnost není popisována. Studie se týká i závislosti na
+> návykových látkách; odkazy na krizové protokoly jsou níže.
 
-## 1. Kontext a populacni vymezeni
+## 1. Kontext a vymezení
 
-Pripad 38-management-consulting reprezentuje strukturalne typicky vzorek epistemicke alienace v doméně **elitni management consulting firma (McKinsey/BCG/Bain) s up-or-out kulturou, 80-90 hod tydne, 4-5 nights v hotelu**. Studie agreguje kliniky validovane vzorce ze tri az peti realnych pripadu, ktere sdileli klicove strukturalni rysy: zpusob vstupu, dynamiku eskalace, metody totalizace, spousteci udalost detekce a strukturu post-exit fenomenologie.
+Kompozit popisuje **elitní firmu manažerského poradenství** s kulturou „povýšit, nebo odejít“
+(*up-or-out*), pracovním týdnem kolem osmdesáti až devadesáti hodin a čtyřmi až pěti nocemi
+týdně v hotelu u klienta. Pro mnoho absolventů je takový začátek kariéry cennou školou. Kultovní
+rysy se objevují, když se **jediným smysluplným cílem stane partnerství**, každý vztah mimo firmu
+se přehodnotí podle „síťové hodnoty“ a pravidelné vyřazování těch, kdo nepostupují, učí ostatní,
+že selhání je osobní, nikoli systémové.
 
-Demograficky koridor obsahoval subjekty ve vekovem rozmezí 19-46 let, smiseneho genderoveho slozeni, s mediány vyssi nez populacni prumer v oblasti formálního vzdelávání. Tato skupina nevykazovala pred-existujici psychiatricky narativ, ktery by obvykle predikoval vulnerabilitu — naopak, mnoho z nich melo strukturalne stabilni socialni zazemí pred prvním kontaktem. Tato pozorovaní jsou v souladu s [literaturou o coercive control](@/glossary/coercive-control.md), ktera zduraznuje, ze epistemicka totalizace nezavisí primarne na pred-existujici psychopatologii, ale na strukturalnich vlastnostech ovládajici sítě.
+Na rozdíl od [technologické monokultury](@/kompendium/case-studies/37-tech-bro-totalizace.md)
+zde nejde o ideologii, ale o **rytmus a srovnávání**: týdenní cyklus odletu a návratu rozbíjí
+domov a neustálé hodnocení vůči vrstevníkům nahrazuje vlastní měřítka.
 
-## 2. Vstupni modus
+## 2. Vstupní modus
 
-Vstupni vektor v této kohorte byl: **MBA z top-school; nabor jako 'best and brightest' s narrativem 'akademia praktická'**. Tento patron je charakteristicky tim, ze pristupna brana neni rozpoznana subjektem jako brana — naopak, je vnímána jako reseni preexistujícího problemu (samota, intelektualní hladovka, kariéarni stagnace, identitarni vakuum, krize duvery v institucích). Proto klasicke 'red flags' (tlaky, nábor, ideologicka konsistentnost) jsou interpretovany jako znakou _vyzvy_, nikoli rizika.
+Vstupem byl **výběr mezi „nejlepšími z nejlepších“**. Absolvent prestižního MBA programu prošel
+náročným výběrem, který sám o sobě potvrzoval výjimečnost. Nábor představoval firmu jako
+„praktickou akademii“ a odrazový můstek, který otevře jakékoli dveře. Přijetí bylo prožíváno jako
+uznání celé dosavadní dráhy, a proto se pochybnosti o ceně objevovaly pozdě.
 
-Strukturalní podobnost s [Hassanovym BITE modelem](@/glossary/coercive-control.md) je vysoka — kontrola behavioru, informací, mysleni a emocí postupuje paralelne, nikoli linearne, a kazda dimense imunizuje ostatni proti revizi.
+## 3. Časová osa expozice
 
-## 3. Casova osa expozice
-
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodneho kontaktu, budovani zavislosti, prvni pozitivni reinforcement (love-bombing-typ vzorec adaptovany pro kontext) |
-| **Perturbace** | mesice 4-12 | Postupne introdukovani ideovych disonanci, destabilizace alternativnich epistemickych zdroju, prvni 'osvícení' / 'breakthrough' / 'awakening' moment |
-| **Eskalace** | mesice 13-24 | neustaly travel, nedostatek lokalnih kontaktu, kultura 'making partner' jako jediny meaningful goal, peer-comparison cultura |
-| **Konsolidace** | roky 2-5 | kariéra=firma=identita; vsechen mimo-firma vztahy redukovany na 'networking value'; up-or-out cyklus eliminuje 'mid-tenure' lidi rocne |
-| **Detekce / spousteci udalost** | promenna | rozvod (manželka stardujici lekarka) + zdravotní krize (drogove zavislosti na adderallu/alkoholu) |
-| **Exit / rekonstrukce** | rok 5+ | rehab + transfer do industry roli (corporate strategy), dlouhodoba terapie pro workaholism a substance abuse |
+| **Nástup** | rok 1 | Intenzivní školení, první projekty, pocit výjimečnosti |
+| **Rytmus** | roky 1–2 | Odlety v neděli, návraty ve čtvrtek, ztráta místních vztahů |
+| **Eskalace** | roky 2–4 | Partnerství jako jediný smysluplný cíl, kultura srovnávání, první užívání stimulantů kvůli výkonu |
+| **Konsolidace** | roky 4–6 | Kariéra = firma = identita; vztahy mimo firmu jako „networking“; každoroční odchody kolegů, kteří nepostoupili |
+| **Detekce** | rok 6 | Rozvod a zdravotní krize spojená se závislostí na stimulantech a alkoholu |
+| **Odchod a rekonstrukce** | roky 6–7 | Odvykací léčba, přechod do strategické role ve firmě mimo poradenství, dlouhodobá terapie |
 
-## 4. EA techniky manifestovane
+## 4. Manifestované EA techniky
 
-V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tuto kohortu):
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
+  – poradenský žargon strukturuje i soukromé uvažování („rozpadni problém, priorizuj“).
+- [EA-1.5.1 Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) –
+  hotely, letiště a kancelář klienta jako prostředí bez vlastního místa.
+- [EA-2.1.3 Útok na kredibilitu](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) –
+  kariéry mimo elitní poradenství jsou zlehčovány.
+- [EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md)
+  – týdenní cyklus odletů rozbíjí domov a rodinný čas.
+- [EA-5.3.42 Totální sebeobjektifikace](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md)
+  – vlastní hodnota měřená vytížením a hodnocením.
 
-- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — MBB jargon ('hypothesis tree', 'MECE', '80/20')
-- [EA-1.5.1 Strategicka proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) — hotel/airline kontrolovane prostredí
-- [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) — ne-MBB konzultanti delegitimizovani
-- [EA-5.1.10 Temporalni dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) — weekly cycle 'fly out Sunday/back Thursday' rozbiji domov
-- [EA-5.3.42 Self-objektifikace totalni](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md) — self mereny v utilization/billing
+Strukturálně jde o [scénář F](@/kompendium/03-zakladni-kategorie/scenar-f.md),
+[scénář G](@/kompendium/03-zakladni-kategorie/scenar-g.md) a
+[scénář K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md).
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md).
+## 5. Fenomenologický průběh
 
-## 5. Fenomenologicky kurz
+Typická byla **neschopnost vydržet doma déle než tři dny, panika v situacích bez jasných termínů a
+přetrvávající pocit pásmového posunu** ještě měsíce po odchodu. Konzultant popisoval, že doma
+se cítil jako host a že rozhovory s manželkou vedl jako jednání. Stimulanty začaly jako
+„nástroj“ na konec projektu a přešly v každodenní potřebu, alkohol sloužil k usnutí. Typickým
+markerem bylo [emocionální otupení](@/kompendium/detection-signatures/27-phenomenological-emotional-numbing.md)
+a [vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md)
+– i v soukromí.
 
-Subjekty v této kohorte prochazely typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md), v pokrocilejsich fazich pak [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md) a v terminalnich fazich [epistemicke anihilace](@/glossary/epistemicka-anihilace.md).
+## 6. Detekční bod
 
-Specificke pro tento kontext: **neschopnost být doma více jak 3 dny, panika pri nepoznanych deadline systems, residualni jet-lag i mesice po exit**. Tyto specificke fenomenologicke znaky slouzi jako diagnosticke kotvy pri klinické identifikaci kohorte i pri pripadové supervizi.
+Dva zlomy přišly téměř současně: manželka, lékařka s vlastní náročnou kariérou, podala žádost o
+rozvod s tím, že „žije s člověkem, který tu není“, a krátce poté skončil po kombinaci
+stimulantů a alkoholu na pohotovosti. Lékař s ním mluvil o závislosti, ne o výkonu – poprvé
+někdo popsal jeho stav jinak než jako „náročné období před povýšením“.
 
-Z pohledu fenomenologie tela (Merleau-Ponty, Husserl) byly pozorovany somaticke korelaty epistemicke kontroly: deregulovany dech v exo-kontextovych situacich, hypervigilance specifické pro signaly skupinove autorit, narusena propriocepce v prostorech mimo kontrolovane prostredí. Tyto somaticke znaky jsou casto nejcasnejsi indikatory progresu intervence.
+## 7. Intervenční strategie
 
-## 6. Detekcni bod
+- **S1 – Validace a mapování:** léčba závislosti jako priorita, viz
+  [substance use v EA-emergency](@/kompendium/emergency-protocols/26-substance-EA.md); mapa
+  rytmu práce a užívání látek.
+- **S2 – Externalizace introjektů:** věty „kdo nepostupuje, selhal“, „spánek je pro slabé“
+  odděleny od vlastních hodnot.
+- **S3 – Rekonstrukce metakognice:** vlastní měřítka úspěchu nezávislá na srovnání s
+  vrstevníky.
+- **S4 – Hermeneutická obnova:** nový výklad kariéry; uznání dovedností bez nutnosti hájit
+  celý systém.
+- **S5 – Konsolidace a transfer:** práce v jednom místě s předvídatelnou dobou, dlouhodobá
+  skupina vzájemné podpory pro závislé.
 
-Spousteci udalosti pro detekci totalizovaneho rezimu sdileli strukturalni vlastnost: **prinesly externe verifikovatelnou udalost, ktera nemohla byt re-interpretovana standardními ramci skupiny bez explicitne paradoxalni reinterpretace**.
+Rámcem byl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+a [dlouhodobá prevence relapsu](@/kompendium/recovery-protocols/longterm-relapse-prevention.md).
 
-V této kohorte fungoval detecni bod nasledovne: rozvod (manželka stardujici lekarka) + zdravotní krize (drogove zavislosti na adderallu/alkoholu). Klicove je, ze samotny detekcni bod _neni_ vystupem — je pouhou prilezitostí pro vystup. Mnoho subjektu prochazi detekcnim bodem opakovane bez vystupu, protoze neni k dispozici exo-kontextova podpora.
+## 8. Výsledek a reziduální deficity
 
-## 7. Intervencni strategie
+Po dvou letech abstinoval a pracoval ve strategické roli s pevným rozvrhem. Přetrvávala
+**finanční ztráta oproti očekávané kariéře, krize vztahů a citlivost na „velké“ projekty**, které
+spouštěly staré vzorce. Účast ve skupině vzájemné podpory se stala trvalou součástí života.
 
-Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5), s adaptacemi pro specificky kontext **elitni management consulting firma (McKinsey/BCG/Bain) s up-or-out kulturou, 80-90 hod tydne, 4-5 nights v hotelu**:
+## 9. Diferenciální diagnostika
 
-- **S1 (Stabilizace)**: bezpecne ukotvení mimo skupinove kontaktni site, casto 6-12 tydnu odpojeni, [trauma-focused pristup](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) k akutnim symptomum
-- **S2 (Inventura)**: systemna inventura epistemickeho narativu, mapovani [betrayal-trauma](@/glossary/betrayal-trauma.md) bodů, prvotni kognitivni rekonsolidace
-- **S3 (Rekonstrukce)**: postupna rekonstrukce alternativni epistemicke baze, nájezd na uzly typu "co jsem _skutecne_ pred kontaktem věřil", práce s _epistemickou pokora_
-- **S4 (Reintegrace)**: navrácení do mimo-skupinovych vztahu, casto rodinna terapie pro soused-shun a betrayal dynamics
-- **S5 (Konsolidace)**: dlouhodobe sledovani po 18-36 mesicich s peer-support komponentou
+- **Náročná, ale ohraničená kariéra:** vysoké nároky po omezenou dobu s vědomou volbou a
+  zachovanými vztahy.
+- **Primární porucha užívání návykových látek:** může předcházet; zde se rozvinula v přímé vazbě
+  na pracovní režim, ale vyžaduje samostatnou léčbu bez ohledu na příčinu.
+- **Syndrom vyhoření:** vyčerpání bez identitního splynutí s firmou.
 
-V této kohorte bylo specifické: rehab + transfer do industry roli (corporate strategy), dlouhodoba terapie pro workaholism a substance abuse. Tento prvek by se mel objevit i v intervencnim planu pro analogicke pripady.
+## 10. Právní a institucionální rámec
 
-## 8. Vysledek
+Pracovní dobu, odpočinek a ochranu zdraví zaměstnanců upravuje zákon č. 262/2006 Sb., zákoník
+práce; vysoké přesčasy a trvalé cestování jsou pracovněprávně citlivé. Rozvod a péče o děti
+spadají do [rodinného práva](@/kompendium/forensic-legal/41-family-court-EA.md), kde může být
+léčba závislosti relevantní. Zaměstnavatel by měl mít
+[asistenci zaměstnancům](@/kompendium/organizational-defense/35-employee-assistance-EA.md) i
+pro závislosti.
 
-Castecna az plna rekonstrukce po 18-48 mesicich strukturovane terapie kombinujici [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), peer-support a v nekterych pripadech somatickou prácu (somatic experiencing-typ).
+## 11. Prevence a poučení pro praxi
 
-**Reziduálni deficity**: financni hit (partnership ztracena), vztah krize, 12-step participation, retraumatizace pri 'big' projektech. Tyto deficity je nutno vnimat ne jako selhání intervence, ale jako strukturalní stopu vystavení — analogicky tomu, jak chronická bolest po zlomenině zustava i po zhojeni kosti.
+Poradenské firmy mohou omezit kultovní rysy **[hodnocením supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md),
+skutečným respektováním volna a [trauma-aware managementem](@/kompendium/organizational-defense/36-trauma-aware-management.md)**,
+který si všímá užívání látek. Odcházejícím kolegům by se nemělo říkat, že „selhali“; to učí
+zůstávající, že odchod je ostuda. Praktičtí lékaři by se u vysoce výkonných klientů měli ptát na
+stimulanty.
 
-Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v prvních 6-12 mesicich, plateau ve 12-24 mesicich, casto re-eskalace pri specifickych spoušteích (rocni vyroci, kontakt s byvalymi cleny, medializace zazitku), a postupna konsolidace po 24-48 mesicich. Viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled typickych krivek pro tento typ pripadu.
+## 12. Limity a otevřené otázky
 
-## 9. Scenare a typologicke zaskolení
+Kompozit popisuje muže, jehož partnerka odešla; pro mnoho konzultantů je rozpad vztahu tichý a
+pozdní. Otevřené zůstává, jak oddělit volbu intenzivní kariéry, kterou člověk činí svobodně, od
+systému, který tuto volbu postupně mění v jedinou možnou.
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+## Související
 
-## 10. Diferencialni diagnostika
-
-Kriticke je odliseni od:
-
-- **C-PTSD bez totalizace** ([c-ptsd](@/glossary/c-ptsd.md)): podobny symptomovy profil, ale chybi epistemická dimenze
-- **Standardní [betrayal-trauma](@/glossary/betrayal-trauma.md)**: chybi totalizujici epistemicky aparat
-- **Dissociation NOS**: prekryv v fenomenologii, ale jiny terapeuticky pristup
-
-Diferencialni kotvy jsou: pritomnost alternativni epistemicke baze (vyse uvedene EA kody), strukturalni izolace od mimo-skupinovych zdroju, identitarni rekompozice. Pro detail viz [diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
-
-## 11. Etické a metodologické poznámky
-
-Tato pripadova studie byla pripravena s dodrzovanim principu **anonymizace, agregace napric vice pripadu, neidentifikovatelnosti**. Žadny jednotlivy realny pripad neni rekonstruovatelny z této studie. Studie ma charakter klinické vinetie pro vyukove a vyzkumne ucely a je vystavena na trojím etickem ramci: (1) Belmont report principy, (2) APA Ethics Code, (3) [vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) protokol.
-
-Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v oblasti coercive control / cult recovery, (b) spolu-prace s pravnym zastupcem v pripadech kde je to relevantni, (c) trauma-informed pristup ke vsem fazim vystupu.
-
-## 12. Cross-linky a dalsi cetba
-
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
-- **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Glossary**: [addiction-recovery](@/glossary/addiction-recovery.md), [c-ptsd](@/glossary/c-ptsd.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-1.5.1](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md), [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-5.1.10](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md), [EA-5.3.42](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+- **Sourozenecké případy:** [Případ 39 – totalizace v investičním bankovnictví](@/kompendium/case-studies/39-finance-totalizace.md),
+  [Případ 40 – totalizace ve velké advokátní kanceláři](@/kompendium/case-studies/40-law-firm-totalizace.md),
+  [Případ 11 – firemní kult](@/kompendium/case-studies/11-corporate-cult.md).
+- **Glosář:** [addiction recovery](@/glossary/addiction-recovery.md) – zotavení ze závislosti;
+  [narativní identita](@/glossary/narativni-identita.md).
+- **Obnova:** [Středně-dobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md).
+- **Sebeobrana:** [Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md).
+- **Index:** [Přehled případových studií](@/kompendium/case-studies/_index.md)
 
 ---
 

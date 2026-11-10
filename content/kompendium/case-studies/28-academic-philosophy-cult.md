@@ -1,10 +1,12 @@
 +++
-title = "Pripad 28-academic-philosophy-cult: Akademicky filosoficky kult (Heidegger/Lacan/Strauss-skola)"
-description = "Anonymizovana pripadova studie — Akademicky filosoficky kult (Heidegger/Lacan/Strauss-skola). Komplexni 12-sekcni analyza: kontext, vstupni modus, fenomenologicky kurz, EA mapovani, intervence a recovery."
+title = "Případ 28: Akademický filozofický kult"
+description = "Kompozitní studie doktoranda v doktorské škole kolem charismatického „mistra“ esoterické filozofické linie, která zakazovala metodologickou pluralitu. Průběh, odchod a obnova."
 weight = 28
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky", "rozsireny"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["26-religiozni-fanatismus-exit", "27-secular-cult-exit", "29-art-school-totalization", "30-music-conservatory-coercion"]
 parent = "kompendium-case-studies"
@@ -12,108 +14,141 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 28-academic-philosophy-cult: Akademicky filosoficky kult (Heidegger/Lacan/Strauss-skola)
+# Případ 28: Akademický filozofický kult
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene nebo agregovany napric vice realnymi pripady. Pouzitelne pouze pro edukativni, vyzkumne a klinicke ucely. Zadne identifikujici udaje nesmi byt rekonstruovany.
+> **Upozornění:** Kompozit z několika průběhů v humanitních oborech. Instituce, osoby a
+> konkrétní filozofická orientace jsou záměrně neurčené; studie nehodnotí žádnou filozofickou
+> tradici. Popisuje sociální strukturu, která se může vytvořit kolem kterékoli z nich.
 
-## 1. Kontext a populacni vymezeni
+## 1. Kontext a vymezení
 
-Pripad 28-academic-philosophy-cult reprezentuje strukturalne typicky vzorek epistemicke alienace v doméně **doktorska skola s dominantním 'mistrem' kolem ezotericke filosoficke linie (post-Heideggerianskeho, Lacanovskeho nebo Straussianskeho typu), zakazujici methodologickou plurálitu**. Studie agreguje kliniky validovane vzorce ze tri az peti realnych pripadu, ktere sdileli klicove strukturalni rysy: zpusob vstupu, dynamiku eskalace, metody totalizace, spousteci udalost detekce a strukturu post-exit fenomenologie.
+Kompozit popisuje **doktorskou školu kolem dominantního „mistra“** esoterické filozofické linie,
+který zakazuje metodologickou pluralitu. Filozofie zde není předmětem sporu – obtížné a
+neobvyklé myšlení k oboru patří. Kultovní je sociální forma: přístup k „pravé“ interpretaci má
+jen mistr, četba mimo školu je zrada a postavení studentů se měří blízkostí k němu. Na rozdíl od
+[totalizace supervize](@/kompendium/case-studies/01-akademicka-supervize-totalizace.md), kde jde o
+jeden vztah, je zde mistr středem celé skupiny žáků s vlastní hierarchií.
 
-Demograficky koridor obsahoval subjekty ve vekovem rozmezí 19-46 let, smiseneho genderoveho slozeni, s mediány vyssi nez populacni prumer v oblasti formálního vzdelávání. Tato skupina nevykazovala pred-existujici psychiatricky narativ, ktery by obvykle predikoval vulnerabilitu — naopak, mnoho z nich melo strukturalne stabilni socialni zazemí pred prvním kontaktem. Tato pozorovaní jsou v souladu s [literaturou o coercive control](@/glossary/coercive-control.md), ktera zduraznuje, ze epistemicka totalizace nezavisí primarne na pred-existujici psychopatologii, ale na strukturalnich vlastnostech ovládajici sítě.
+Doktorand se k mistrovi dostal během magisterského studia a ve škole strávil přibližně šest let.
 
-## 2. Vstupni modus
+## 2. Vstupní modus
 
-Vstupni vektor v této kohorte byl: **intelektualni okouzleni mistrem behem MA programu, 'powiedział do mně, jakoby četl moji duši'**. Tento patron je charakteristicky tim, ze pristupna brana neni rozpoznana subjektem jako brana — naopak, je vnímána jako reseni preexistujícího problemu (samota, intelektualní hladovka, kariéarni stagnace, identitarni vakuum, krize duvery v institucích). Proto klasicke 'red flags' (tlaky, nábor, ideologicka konsistentnost) jsou interpretovany jako znakou _vyzvy_, nikoli rizika.
+Vstupem bylo **intelektuální okouzlení**. Mistrovy přednášky působily jako zjevení a osobní
+rozhovor po semináři doktorand popisoval slovy „mluvil se mnou, jako by četl mou duši“. Pro
+studenta, který v oboru hledal hloubku, nikoli kariéru, to byl silný zážitek uznání. Pozvání do
+užšího kruhu přišlo brzy a bylo prezentováno jako výsada vyhrazená „připraveným“.
 
-Strukturalní podobnost s [Hassanovym BITE modelem](@/glossary/coercive-control.md) je vysoka — kontrola behavioru, informací, mysleni a emocí postupuje paralelne, nikoli linearne, a kazda dimense imunizuje ostatni proti revizi.
+## 3. Časová osa expozice
 
-## 3. Casova osa expozice
-
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodneho kontaktu, budovani zavislosti, prvni pozitivni reinforcement (love-bombing-typ vzorec adaptovany pro kontext) |
-| **Perturbace** | mesice 4-12 | Postupne introdukovani ideovych disonanci, destabilizace alternativnich epistemickych zdroju, prvni 'osvícení' / 'breakthrough' / 'awakening' moment |
-| **Eskalace** | mesice 13-24 | mentor diktoval cetbu, akademicke kontakty, partnerske volby; doktorat se stal pretvárnou loyality testem |
-| **Konsolidace** | roky 2-5 | interna terminologie blokujici venkovni kritiku, eschatologie 'konce metafyziky', sociálni hierarchie blízkosti k mistru |
-| **Detekce / spousteci udalost** | promenna | mistr verejne ponizil subjekt na konferenci pred zahranicnim hostem; kombinace stud+jakekoli zahranicního pristupu k jine literature |
-| **Exit / rekonstrukce** | rok 5+ | transfer na zahraniční univerzitu s explicitne pluralni metodologii, exit-supervizor, dlouhodoba terapie |
+| **Počáteční kontakt** | rok 1 | Okouzlení přednáškami, pozvání do užšího kruhu |
+| **Perturbace** | roky 1–2 | Jiné filozofické směry vykládány jako „mělké“, odstup od dřívějších učitelů |
+| **Eskalace** | roky 2–4 | Mistr určuje četbu, akademické kontakty i partnerské volby; doktorát jako test loajality |
+| **Konsolidace** | roky 4–6 | Vnitřní terminologie blokující kritiku zvenčí, eschatologie „konce metafyziky“, hierarchie blízkosti k mistrovi |
+| **Detekce** | proměnlivá | Veřejné ponížení na konferenci před zahraničním hostem; první kontakt s jinou literaturou |
+| **Odchod a rekonstrukce** | rok 6+ | Přestup na zahraniční univerzitu s pluralitní metodologií, nový školitel, dlouhodobá terapie |
 
-## 4. EA techniky manifestovane
+## 4. Manifestované EA techniky
 
-V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tuto kohortu):
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) –
+  mistr jako jediný přístup k pravdě filozofie.
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
+  – esoterický slovník znemožňuje dialog s okolím.
+- [EA-2.1.3 Útok na kredibilitu](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) –
+  představitelé jiných směrů jsou paušálně zpochybněni.
+- [EA-5.2.2 Transcendentální iluze](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md)
+  – iluze přímého přístupu k „bytí samému“, která nepotřebuje argument.
+- [EA-5.3.27 Autobiografická fragmentace já](@/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace.md)
+  – osobní životopis je přeložen do rámce „autenticity“ a „neautenticity“.
+- [EA-2.2.9 Nátlak na disciplinární hranice](@/kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md)
+  – co smí a nesmí patřit do oboru, určuje mistr.
 
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) — mister-mistr jako jediny pristup k pravdě filosofie
-- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — ezotericky lexikon znemoznuje krizovy dialog
-- [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) — delegitimizace 'analytickych' filosofu jako 'mělkých'
-- [EA-5.2.2 Transcendentalni iluze](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md) — iluze pristupu k bytí samému
-- [EA-5.3.27 Autobiograficka self-fragmentace](@/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace.md) — fragmentace osobni biografie do ramca 'autenticity'
+Odpovídá [scénáři F](@/kompendium/03-zakladni-kategorie/scenar-f.md),
+[G](@/kompendium/03-zakladni-kategorie/scenar-g.md) a
+[H](@/kompendium/03-zakladni-kategorie/scenar-h.md). Strukturálně jde o
+[epistemickou monokulturu](@/glossary/epistemicka-monokultura.md) uvnitř instituce, která má být
+pluralitní.
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md).
+## 5. Fenomenologický průběh
 
-## 5. Fenomenologicky kurz
+Typická byla **neschopnost číst „cizí“ filozofy bez pocitu zrady, tikovité opakování mistrových
+frází a nervozita před konferencemi mimo školu**. Doktorand popisoval, že jeho vlastní texty se
+stávaly napodobeninou mistrova stylu a že ztratil schopnost formulovat myšlenku jednoduše –
+jednoduchost byla podezřelá. [Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md)
+a [cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md)
+byly patrné i školitelům z jiných ústavů. Fenomenologicky šlo o
+[hermeneutický outsourcing](@/glossary/hermeneuticky-outsourcing.md): výklad světa i sebe byl
+svěřen jedinému interpretovi.
 
-Subjekty v této kohorte prochazely typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md), v pokrocilejsich fazich pak [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md) a v terminalnich fazich [epistemicke anihilace](@/glossary/epistemicka-anihilace.md).
+## 6. Detekční bod
 
-Specificke pro tento kontext: **neschopnost cist 'cizi' filosofy bez pocitu zrady, tikove opakovani frází mistra, somatizovana nervozita pred konferencemi mimo skolu**. Tyto specificke fenomenologicke znaky slouzi jako diagnosticke kotvy pri klinické identifikaci kohorte i pri pripadové supervizi.
+Na mezinárodní konferenci mistr **veřejně ponížil doktoranda** za otázku, kterou položil
+zahraničnímu hostovi. Host – uznávaný odborník – se doktoranda po skončení zastal a pozval ho k
+dalšímu rozhovoru. Kontrast mezi mistrovým pohrdáním a věcným zájmem respektované autority
+zvenčí, spolu se studem před plným sálem, otevřel trhlinu. Následná četba literatury, kterou
+mistr zakazoval, ukázala, že jeho „jediná pravá“ interpretace je jednou z mnoha.
 
-Z pohledu fenomenologie tela (Merleau-Ponty, Husserl) byly pozorovany somaticke korelaty epistemicke kontroly: deregulovany dech v exo-kontextovych situacich, hypervigilance specifické pro signaly skupinove autorit, narusena propriocepce v prostorech mimo kontrolovane prostredí. Tyto somaticke znaky jsou casto nejcasnejsi indikatory progresu intervence.
+## 7. Intervenční strategie
 
-## 6. Detekcni bod
+- **S1 – Validace a mapování:** uznání intelektuální hodnoty, kterou ve škole skutečně získal;
+  mapa vztahů a rozhodnutí, která převzal mistr.
+- **S2 – Externalizace introjektů:** mistrovy fráze sepsány a přeloženy do běžné řeči; rozlišení
+  mezi myšlenkou a formou, kterou byla vnucena.
+- **S3 – Rekonstrukce metakognice:** [hluboké čtení](@/kompendium/self-defense-guides/35-deep-reading-practice.md)
+  autorů různých směrů a [pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md).
+- **S4 – Hermeneutická obnova:** návrat k vlastním výzkumným otázkám; nový školitel s explicitně
+  pluralitní metodologií.
+- **S5 – Konsolidace a transfer:** dokončení disertace v novém prostředí, publikování pod vlastním
+  hlasem.
 
-Spousteci udalosti pro detekci totalizovaneho rezimu sdileli strukturalni vlastnost: **prinesly externe verifikovatelnou udalost, ktera nemohla byt re-interpretovana standardními ramci skupiny bez explicitne paradoxalni reinterpretace**.
+Rámec: [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
 
-V této kohorte fungoval detecni bod nasledovne: mistr verejne ponizil subjekt na konferenci pred zahranicnim hostem; kombinace stud+jakekoli zahranicního pristupu k jine literature. Klicove je, ze samotny detekcni bod _neni_ vystupem — je pouhou prilezitostí pro vystup. Mnoho subjektu prochazi detekcnim bodem opakovane bez vystupu, protoze neni k dispozici exo-kontextova podpora.
+## 8. Výsledek a reziduální deficity
 
-## 7. Intervencni strategie
+Přetrvávala **krize akademické identity, nutnost přeučit se metodologické návyky** a často
+zahořklost vůči celému oboru. Doktorand popisoval, že nejdéle se vracela radost z filozofie –
+dlouho ji prožíval jako kontaminovanou. Postupně se naučil číst i mistrovu tradici znovu, s
+odstupem a bez strachu.
 
-Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5), s adaptacemi pro specificky kontext **doktorska skola s dominantním 'mistrem' kolem ezotericke filosoficke linie (post-Heideggerianskeho, Lacanovskeho nebo Straussianskeho typu), zakazujici methodologickou plurálitu**:
+## 9. Diferenciální diagnostika
 
-- **S1 (Stabilizace)**: bezpecne ukotvení mimo skupinove kontaktni site, casto 6-12 tydnu odpojeni, [trauma-focused pristup](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) k akutnim symptomum
-- **S2 (Inventura)**: systemna inventura epistemickeho narativu, mapovani [betrayal-trauma](@/glossary/betrayal-trauma.md) bodů, prvotni kognitivni rekonsolidace
-- **S3 (Rekonstrukce)**: postupna rekonstrukce alternativni epistemicke baze, nájezd na uzly typu "co jsem _skutecne_ pred kontaktem věřil", práce s _epistemickou pokora_
-- **S4 (Reintegrace)**: navrácení do mimo-skupinovych vztahu, casto rodinna terapie pro soused-shun a betrayal dynamics
-- **S5 (Konsolidace)**: dlouhodobe sledovani po 18-36 mesicich s peer-support komponentou
+- **Silná filozofická škola:** výrazná orientace, ale otevřená diskusi a bez sankcí za četbu
+  jiných autorů.
+- **Akademická šikana bez ideologie:** ponižování bez monopolu na pravdu.
+- **Depresivní porucha:** ztráta radosti z oboru může mít i jiné příčiny a vyžaduje posouzení.
+- Srovnej [případ 01](@/kompendium/case-studies/01-akademicka-supervize-totalizace.md) – stejný
+  vzorec v empirickém oboru.
 
-V této kohorte bylo specifické: transfer na zahraniční univerzitu s explicitne pluralni metodologii, exit-supervizor, dlouhodoba terapie. Tento prvek by se mel objevit i v intervencnim planu pro analogicke pripady.
+## 10. Právní a institucionální rámec
 
-## 8. Vysledek
+Změnu školitele a ochranu studentských práv upravují zákon č. 111/1998 Sb., o vysokých školách,
+a vnitřní předpisy fakult. Zasahování do soukromého života studentů a ponižování mohou být
+předmětem etické komise; při zaměstnaneckém poměru i [pracovního práva](@/kompendium/forensic-legal/44-employment-law-EA.md).
 
-Castecna az plna rekonstrukce po 18-48 mesicich strukturovane terapie kombinujici [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), peer-support a v nekterych pripadech somatickou prácu (somatic experiencing-typ).
+## 11. Prevence a poučení pro praxi
 
-**Reziduálni deficity**: krize akademicke identity, nutnost rekvalifikovat metodologicke navyky, casto resentment voci celemu oboru. Tyto deficity je nutno vnimat ne jako selhání intervence, ale jako strukturalní stopu vystavení — analogicky tomu, jak chronická bolest po zlomenině zustava i po zhojeni kosti.
+Instituce by měly **zajistit pluralitu ve vedení i v hodnocení**: oponenty z jiných škol,
+povinné konzultace s druhým odborníkem a [ochranu mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md).
+Studentům pomáhá [hodnocení mentorů](@/kompendium/self-defense-guides/27-mentor-evaluation.md) a
+kontakty mimo vlastní školu.
 
-Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v prvních 6-12 mesicich, plateau ve 12-24 mesicich, casto re-eskalace pri specifickych spoušteích (rocni vyroci, kontakt s byvalymi cleny, medializace zazitku), a postupna konsolidace po 24-48 mesicich. Viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled typickych krivek pro tento typ pripadu.
+## 12. Limity a otevřené otázky
 
-## 9. Scenare a typologicke zaskolení
+Kompozit nehodnotí filozofické obsahy a nelze z něj vyvozovat nic o konkrétních tradicích.
+Otevřená zůstává otázka, jak chránit obtížné a neobvyklé myšlení před nálepkou „kultu“, aniž
+by se přehlížela skutečná kultovní dynamika.
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+## Související
 
-## 10. Diferencialni diagnostika
-
-Kriticke je odliseni od:
-
-- **C-PTSD bez totalizace** ([c-ptsd](@/glossary/c-ptsd.md)): podobny symptomovy profil, ale chybi epistemická dimenze
-- **Standardní [betrayal-trauma](@/glossary/betrayal-trauma.md)**: chybi totalizujici epistemicky aparat
-- **Dissociation NOS**: prekryv v fenomenologii, ale jiny terapeuticky pristup
-
-Diferencialni kotvy jsou: pritomnost alternativni epistemicke baze (vyse uvedene EA kody), strukturalni izolace od mimo-skupinovych zdroju, identitarni rekompozice. Pro detail viz [diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
-
-## 11. Etické a metodologické poznámky
-
-Tato pripadova studie byla pripravena s dodrzovanim principu **anonymizace, agregace napric vice pripadu, neidentifikovatelnosti**. Žadny jednotlivy realny pripad neni rekonstruovatelny z této studie. Studie ma charakter klinické vinetie pro vyukove a vyzkumne ucely a je vystavena na trojím etickem ramci: (1) Belmont report principy, (2) APA Ethics Code, (3) [vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) protokol.
-
-Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v oblasti coercive control / cult recovery, (b) spolu-prace s pravnym zastupcem v pripadech kde je to relevantni, (c) trauma-informed pristup ke vsem fazim vystupu.
-
-## 12. Cross-linky a dalsi cetba
-
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
-- **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Glossary**: [epistemicka-injustice](@/glossary/epistemicka-injustice.md), [metakognitivni-destrukce](@/glossary/metakognitivni-destrukce.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md), [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-5.2.2](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md), [EA-5.3.27](@/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+- **Sourozenecké případy:** [Případ 32 – totalizace doktorského programu](@/kompendium/case-studies/32-graduate-program-totalization.md),
+  [Případ 66 – kult akademické školy](@/kompendium/case-studies/66-academic-school-cult.md),
+  [Případ 67 – kult výzkumné disciplíny](@/kompendium/case-studies/67-research-discipline-cult.md).
+- **Glosář:** [kult osobnosti](@/glossary/kult-osobnosti.md);
+  [epistemická komunita](@/glossary/epistemicka-komunita.md) – zdravá alternativa.
+- **Klinika:** [6.7 Akademický kontext](@/kompendium/06-klinicke-aplikace/pripad-akademie.md).
+- **Obnova:** [Středně-dobá vzdělávací reintegrace](@/kompendium/recovery-protocols/midterm-educational-reintegration.md).
+- **Index:** [Přehled případových studií](@/kompendium/case-studies/_index.md)
 
 ---
 

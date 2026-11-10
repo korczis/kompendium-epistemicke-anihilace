@@ -1,10 +1,12 @@
 +++
-title = "Pripad 21-konspiracni-rekrutace: Konspiracni rekrutace"
-description = "Anonymizovana pripadova studie — Konspiracni rekrutace. Komplexni 12-sekcni analyza: kontext, vstupni modus, fenomenologicky kurz, EA mapovani, intervence a recovery."
+title = "Případ 21: Konspirační rekrutace"
+description = "Kompozitní studie vtažení do uzavřené online konspirační komunity v době krize důvěry v instituce: vstup přes algoritmus, eskalace, spor o očkování dítěte a návrat."
 weight = 21
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky", "rozsireny"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["19-dieta-cult", "20-finance-cult", "22-online-radikalizace", "23-incel-recovery"]
 parent = "kompendium-case-studies"
@@ -12,108 +14,158 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 21-konspiracni-rekrutace: Konspiracni rekrutace
+# Případ 21: Konspirační rekrutace
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene nebo agregovany napric vice realnymi pripady. Pouzitelne pouze pro edukativni, vyzkumne a klinicke ucely. Zadne identifikujici udaje nesmi byt rekonstruovany.
+> **Upozornění:** Kompozit agregovaný ze tří až pěti průběhů se shodnými strukturálními rysy.
+> Jména, místa, platformy a časy jsou změněny nebo zobecněny; žádnou osobu nelze z textu
+> rekonstruovat. Určeno pro výuku, výzkum a klinickou praxi.
 
-## 1. Kontext a populacni vymezeni
+## 1. Kontext a vymezení
 
-Pripad 21-konspiracni-rekrutace reprezentuje strukturalne typicky vzorek epistemicke alienace v doméně **uzavrene online konspiracni komunity (QAnon-typ, antivax, pseudo-geopolitika)**. Studie agreguje kliniky validovane vzorce ze tri az peti realnych pripadu, ktere sdileli klicove strukturalni rysy: zpusob vstupu, dynamiku eskalace, metody totalizace, spousteci udalost detekce a strukturu post-exit fenomenologie.
+Kompozit popisuje vtažení do **uzavřené online konspirační komunity** typu, který spojuje
+odmítání očkování, pseudogeopolitické výklady a víru v tajný plán elit (podobně jako hnutí
+popsané v historickém případu [QAnon](@/kompendium/historical-cases/28-qanon.md)). Zachycené
+osoby byly ve věku od konce dospívání do středního věku, převážně se středním či vyšším
+vzděláním a bez předchozí psychiatrické anamnézy. To odpovídá poznatku literatury o
+[coercive control](@/glossary/coercive-control.md): zranitelnost určuje spíše situace a
+struktura sítě než předem existující psychopatologie.
 
-Demograficky koridor obsahoval subjekty ve vekovem rozmezí 19-46 let, smiseneho genderoveho slozeni, s mediány vyssi nez populacni prumer v oblasti formálního vzdelávání. Tato skupina nevykazovala pred-existujici psychiatricky narativ, ktery by obvykle predikoval vulnerabilitu — naopak, mnoho z nich melo strukturalne stabilni socialni zazemí pred prvním kontaktem. Tato pozorovaní jsou v souladu s [literaturou o coercive control](@/glossary/coercive-control.md), ktera zduraznuje, ze epistemicka totalizace nezavisí primarne na pred-existujici psychopatologii, ale na strukturalnich vlastnostech ovládajici sítě.
+Konspirační přesvědčení samo není diagnóza a nedůvěra k institucím může být oprávněná. O
+epistemickou anihilaci jde tehdy, když komunita převezme **monopol na výklad reality**, každý
+protiargument zahrne do teorie a členství podmíní prokazováním věrnosti.
 
-## 2. Vstupni modus
+## 2. Vstupní modus
 
-Vstupni vektor v této kohorte byl: **algoritmicke doporuceni v krizi duvery v institucionalni epistemii (post-pandemicka faze)**. Tento patron je charakteristicky tim, ze pristupna brana neni rozpoznana subjektem jako brana — naopak, je vnímána jako reseni preexistujícího problemu (samota, intelektualní hladovka, kariéarni stagnace, identitarni vakuum, krize duvery v institucích). Proto klasicke 'red flags' (tlaky, nábor, ideologicka konsistentnost) jsou interpretovany jako znakou _vyzvy_, nikoli rizika.
+Vstupním vektorem bylo **algoritmické doporučení v období krize důvěry** v instituce po
+pandemii. Brána nebyla rozpoznána jako brána: první videa působila jako odpověď na skutečné
+otázky (protichůdná doporučení úřadů, osobní ztráty, samota). Klasické varovné signály – tlak,
+nábor, ideologická uzavřenost – byly vnímány jako znak odvahy „dívat se pod povrch“, nikoli
+jako riziko. Kontrola chování, informací, myšlení a emocí podle [modelu BITE](@/glossary/bite-model.md)
+postupovala souběžně a každá dimenze chránila ostatní před revizí.
 
-Strukturalní podobnost s [Hassanovym BITE modelem](@/glossary/coercive-control.md) je vysoka — kontrola behavioru, informací, mysleni a emocí postupuje paralelne, nikoli linearne, a kazda dimense imunizuje ostatni proti revizi.
+## 3. Časová osa expozice
 
-## 3. Casova osa expozice
-
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodneho kontaktu, budovani zavislosti, prvni pozitivni reinforcement (love-bombing-typ vzorec adaptovany pro kontext) |
-| **Perturbace** | mesice 4-12 | Postupne introdukovani ideovych disonanci, destabilizace alternativnich epistemickych zdroju, prvni 'osvícení' / 'breakthrough' / 'awakening' moment |
-| **Eskalace** | mesice 13-24 | postupna migrace z mainstreamovych platforem do uzavrenych Telegram/Signal kanalu, kde je vstup podminen prokazanim 'probuzeni' |
-| **Konsolidace** | roky 2-5 | binary svet (probuzeni vs ovce), perpetuálne se obnovujici predpovedi, sociálni kapital odvozeny od vykazovani vernosti naratitivu |
-| **Detekce / spousteci udalost** | promenna | konflikt s rodinnym prislusnikem nad zdravotni intervenci (vakcinace ditete) zpusobil exo-kontextové nepohodli, ktere se nedarilo regulovat narrativem |
-| **Exit / rekonstrukce** | rok 5+ | prodlouzena nemocnost mimo komunitu (hospitalizace, 6 tydnu offline), dvojnasobna konfrontace s realitou (lekari + nezavisly priznivec drive opustivsi skupinu) |
+| **Počáteční kontakt** | měsíce 1–3 | Doporučená videa, vlídní komentující, první pocit porozumění (vzorec podobný [love bombingu](@/glossary/love-bombing.md)) |
+| **Perturbace** | měsíce 4–12 | Oslabení důvěry v ostatní zdroje, moment „probuzení“ |
+| **Eskalace** | měsíce 13–24 | Přechod z veřejných platforem do uzavřených kanálů, vstup podmíněn prokázáním „probuzení“ |
+| **Konsolidace** | roky 2–5 | Binární svět (probuzení × „ovce“), stále obnovované předpovědi, status podle věrnosti |
+| **Detekční bod** | proměnlivý | Spor s členem rodiny o očkování dítěte, který nešlo uklidnit výkladem skupiny |
+| **Odchod a rekonstrukce** | rok 5+ | Hospitalizace s šesti týdny offline; setkání s lékaři a s bývalým členem skupiny |
 
-## 4. EA techniky manifestovane
+## 4. Manifestované EA techniky
 
-V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tuto kohortu):
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+  – každý protidůkaz je přeložen jako „součást plánu“.
+- [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) –
+  denní „indicie“ a videa vyžadují nepřetržitou výkladovou práci.
+- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – při
+  konfrontaci se debata přesune k „hlubšímu“ tématu.
+- [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md) – důvěra
+  v instituce je vykládána jako příčina jejich zkaženosti.
+- [EA-5.3.1 Identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md)
+  – „obyčejný člověk“ se přejmenuje na „badatele pravdy“.
 
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — kazda kontrarealna evidence preclenena jako 'soucast plánu'
-- [EA-1.1.2 Informacni pretizeni](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) — denni 'breadcrumbs' a videa vyzaduji nepretrzitou interpretacni praci
-- [EA-1.3.3 Tematicka diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) — pri konfrontaci se debata premista do 'hlubsiho' tematu
-- [EA-5.1.12 Kauzalni inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md) — duvera v instituce reinterpretovana jako pricina jejich zhanobeni
-- [EA-5.3.1 Identitarni substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) — subjekt se preznacil z 'normalniho cloveka' na 'badatele pravdy'
+Charakteristická je rezonance mezi anihilačními technikami (skupina EA-5.1) a technikami
+identity (EA-5.3): první vyprázdní epistemický prostor, druhé ho zaplní. Strukturálně případ
+odpovídá [scénáři F](@/kompendium/03-zakladni-kategorie/scenar-f.md) (kolektivní delegitimizace
+institucí), [scénáři H](@/kompendium/03-zakladni-kategorie/scenar-h.md) a
+[scénáři L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md).
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md).
+## 5. Fenomenologický průběh
 
-## 5. Fenomenologicky kurz
+Průběh vedl od [epistemické alienace](@/glossary/epistemicka-alienace.md) přes
+[metakognitivní destrukci](@/glossary/metakognitivni-destrukce.md) až k rysům
+[epistemické anihilace](@/glossary/epistemicka-anihilace.md). Pro tento kontext byly typické
+**ranní rituál kontroly nových „zpráv“, neschopnost usnout bez procházení vláken a tělesné napětí
+při kontaktu s „ovcemi“** – včetně vlastní rodiny. Tyto znaky slouží jako diagnostické kotvy.
 
-Subjekty v této kohorte prochazely typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md), v pokrocilejsich fazich pak [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md) a v terminalnich fazich [epistemicke anihilace](@/glossary/epistemicka-anihilace.md).
+Pozorovány byly i tělesné koreláty: hypervigilance vůči signálům autorit skupiny, mělký dech
+v situacích mimo komunitu a podrážděnost při výpadku připojení. Jejich ústup bývá jedním z
+nejčasnějších ukazatelů, že intervence funguje. Řečově se objevovala
+[nefalsifikovatelná tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md)
+a [cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md) –
+zdroje odkazovaly jen samy na sebe.
 
-Specificke pro tento kontext: **ranni rituál kontroly novych 'drops', neschopnost ist spat bez sledovani vlaken, somaticke napetí pri kontaktu s 'ovcemi'**. Tyto specificke fenomenologicke znaky slouzi jako diagnosticke kotvy pri klinické identifikaci kohorte i pri pripadové supervizi.
+## 6. Detekční bod
 
-Z pohledu fenomenologie tela (Merleau-Ponty, Husserl) byly pozorovany somaticke korelaty epistemicke kontroly: deregulovany dech v exo-kontextovych situacich, hypervigilance specifické pro signaly skupinove autorit, narusena propriocepce v prostorech mimo kontrolovane prostredí. Tyto somaticke znaky jsou casto nejcasnejsi indikatory progresu intervence.
+Spouštěčem byl **spor o očkování dítěte** s druhým rodičem a prarodiči. Šlo o konkrétní,
+ověřitelnou a emočně zásadní situaci, kterou výklad skupiny neuklidnil: dítě, lékař a rodina
+nebyli abstraktní „systém“. Pochybnost se však neproměnila v odchod hned; několik podobných
+konfliktů skončilo návratem do skupiny, protože mimo ni chyběla podpora. Rozhodla až kombinace
+hospitalizace (odpojení na šest týdnů) a setkání s člověkem, který skupinu dříve opustil a
+mluvil jejím jazykem bez pohrdání.
 
-## 6. Detekcni bod
+## 7. Intervenční strategie
 
-Spousteci udalosti pro detekci totalizovaneho rezimu sdileli strukturalni vlastnost: **prinesly externe verifikovatelnou udalost, ktera nemohla byt re-interpretovana standardními ramci skupiny bez explicitne paradoxalni reinterpretace**.
+Postup sledoval [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md):
 
-V této kohorte fungoval detecni bod nasledovne: konflikt s rodinnym prislusnikem nad zdravotni intervenci (vakcinace ditete) zpusobil exo-kontextové nepohodli, ktere se nedarilo regulovat narrativem. Klicove je, ze samotny detekcni bod _neni_ vystupem — je pouhou prilezitostí pro vystup. Mnoho subjektu prochazi detekcnim bodem opakovane bez vystupu, protoze neni k dispozici exo-kontextova podpora.
+- **S1 – Validace a mapování:** stabilizace a uznání oprávněných otázek, které stály na začátku;
+  mapa [zrady](@/glossary/betrayal-trauma.md) – od institucí i od skupiny.
+- **S2 – Externalizace introjektů:** jazyk skupiny („ovce“, „probuzení“) zapsán a oddělen od
+  vlastního hlasu.
+- **S3 – Rekonstrukce metakognice:** [triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)
+  a [falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md)
+  s důrazem na [epistemickou pokoru](@/glossary/epistemicka-pokora.md) – připustit nejistotu bez
+  potřeby nového dokonalého výkladu.
+- **S4 – Hermeneutická obnova:** návrat do vztahů mimo skupinu, rodinná terapie zaměřená na spor
+  o dítě a na zahanbení.
+- **S5 – Konsolidace a transfer:** sledování po 18–36 měsících s vrstevnickou podporou bývalých
+  členů.
 
-## 7. Intervencni strategie
+Kontakt s bývalým členem a období offline by měly být zvažovány i v obdobných případech.
 
-Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5), s adaptacemi pro specificky kontext **uzavrene online konspiracni komunity (QAnon-typ, antivax, pseudo-geopolitika)**:
+## 8. Výsledek a reziduální deficity
 
-- **S1 (Stabilizace)**: bezpecne ukotvení mimo skupinove kontaktni site, casto 6-12 tydnu odpojeni, [trauma-focused pristup](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) k akutnim symptomum
-- **S2 (Inventura)**: systemna inventura epistemickeho narativu, mapovani [betrayal-trauma](@/glossary/betrayal-trauma.md) bodů, prvotni kognitivni rekonsolidace
-- **S3 (Rekonstrukce)**: postupna rekonstrukce alternativni epistemicke baze, nájezd na uzly typu "co jsem _skutecne_ pred kontaktem věřil", práce s _epistemickou pokora_
-- **S4 (Reintegrace)**: navrácení do mimo-skupinovych vztahu, casto rodinna terapie pro soused-shun a betrayal dynamics
-- **S5 (Konsolidace)**: dlouhodobe sledovani po 18-36 mesicich s peer-support komponentou
+Částečná až plná rekonstrukce trvala 18–48 měsíců terapie s trauma-informovanými přístupy,
+vrstevnickou podporou a u některých osob somatickou prací. Přetrvávala **zbytková podezíravost
+vůči institucím, nedůvěra k médiím a stud a izolace vůči rodině**. Zotavení bylo nelineární:
+zlepšení v prvním roce, plató, zhoršení při výročích, při kontaktu s bývalými členy nebo při
+mediálních kauzách na podobné téma, a pak pozvolná konsolidace.
 
-V této kohorte bylo specifické: prodlouzena nemocnost mimo komunitu (hospitalizace, 6 tydnu offline), dvojnasobna konfrontace s realitou (lekari + nezavisly priznivec drive opustivsi skupinu). Tento prvek by se mel objevit i v intervencnim planu pro analogicke pripady.
+## 9. Diferenciální diagnostika
 
-## 8. Vysledek
+- **Oprávněná nedůvěra k institucím:** přesvědčení reagují na důkazy a nevedou k přerušení
+  vztahů.
+- **Psychotická porucha s bludy:** bludy jsou idiosynkratické a nesdílené; zde jde o sdílený
+  skupinový výklad. Podrobně [EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md).
+- **[C-PTSD](@/glossary/c-ptsd.md) bez totalizace:** podobné symptomy, chybí epistemická
+  struktura skupiny.
+- Obecné kotvy v [diferenciální diagnostice](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
 
-Castecna az plna rekonstrukce po 18-48 mesicich strukturovane terapie kombinujici [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), peer-support a v nekterych pripadech somatickou prácu (somatic experiencing-typ).
+## 10. Právní a institucionální rámec
 
-**Reziduálni deficity**: rezidualni paranoia voci institucim, narusena dovera v medialni epistemii, hanba a sociálni izolace voci rodine. Tyto deficity je nutno vnimat ne jako selhání intervence, ale jako strukturalní stopu vystavení — analogicky tomu, jak chronická bolest po zlomenině zustava i po zhojeni kosti.
+Konspirační přesvědčení jsou chráněna svobodou projevu. Právně relevantní jsou až konkrétní
+důsledky: spory rodičů o zdravotní péči o dítě řeší opatrovnický soud, viz
+[rodinné právo](@/kompendium/forensic-legal/41-family-court-EA.md), a výzvy k násilí či šíření
+nebezpečných poplašných zpráv mohou být trestně postižitelné. Kliničtí pracovníci by měli
+dokumentovat vliv skupiny věcně a bez hodnocení názorů.
 
-Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v prvních 6-12 mesicich, plateau ve 12-24 mesicich, casto re-eskalace pri specifickych spoušteích (rocni vyroci, kontakt s byvalymi cleny, medializace zazitku), a postupna konsolidace po 24-48 mesicich. Viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled typickych krivek pro tento typ pripadu.
+## 11. Prevence a poučení pro praxi
 
-## 9. Scenare a typologicke zaskolení
+Prevence stojí na **udržení vztahu**: rodiny, které nepřerušily kontakt a nezesměšňovaly, byly
+nejčastější cestou ven. Užitečná je [detoxikace feedu](@/kompendium/self-defense-guides/32-feed-detoxification.md)
+a vědomí, jak [algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
+zužuje nabídku obsahu. Instituce posilují odolnost transparentním vysvětlováním nejistoty.
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+## 12. Limity a otevřené otázky
 
-## 10. Diferencialni diagnostika
+Kompozit zachycuje lidi, kteří odešli; o těch, kdo zůstávají, víme méně. Otevřené je, jak
+odlišit kritické myšlení od konspiračního, když obojí začíná stejnou otázkou „proč nám to říkají“.
 
-Kriticke je odliseni od:
+## Související
 
-- **C-PTSD bez totalizace** ([c-ptsd](@/glossary/c-ptsd.md)): podobny symptomovy profil, ale chybi epistemická dimenze
-- **Standardní [betrayal-trauma](@/glossary/betrayal-trauma.md)**: chybi totalizujici epistemicky aparat
-- **Dissociation NOS**: prekryv v fenomenologii, ale jiny terapeuticky pristup
-
-Diferencialni kotvy jsou: pritomnost alternativni epistemicke baze (vyse uvedene EA kody), strukturalni izolace od mimo-skupinovych zdroju, identitarni rekompozice. Pro detail viz [diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
-
-## 11. Etické a metodologické poznámky
-
-Tato pripadova studie byla pripravena s dodrzovanim principu **anonymizace, agregace napric vice pripadu, neidentifikovatelnosti**. Žadny jednotlivy realny pripad neni rekonstruovatelny z této studie. Studie ma charakter klinické vinetie pro vyukove a vyzkumne ucely a je vystavena na trojím etickem ramci: (1) Belmont report principy, (2) APA Ethics Code, (3) [vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) protokol.
-
-Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v oblasti coercive control / cult recovery, (b) spolu-prace s pravnym zastupcem v pripadech kde je to relevantni, (c) trauma-informed pristup ke vsem fazim vystupu.
-
-## 12. Cross-linky a dalsi cetba
-
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
-- **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Glossary**: [epistemicka-alienace](@/glossary/epistemicka-alienace.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [gaslighting](@/glossary/gaslighting.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), [EA-1.1.2](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md), [EA-1.3.3](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md), [EA-5.1.12](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md), [EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+- **Sourozenecké případy:** [Případ 22 – online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md)
+  (algoritmický vstup u adolescentů), [Případ 53 – zotavení z antivax](@/kompendium/case-studies/53-anti-vaxx-recovery.md),
+  [Případ 55 – zotavení z QAnon-typu](@/kompendium/case-studies/55-qanon-recovery.md).
+- **Historie:** [Hesitance vůči vakcínám](@/kompendium/historical-cases/27-vaccine-hesitancy.md),
+  [Deep state narativ](@/kompendium/historical-cases/30-deep-state-narrative.md) – doložené
+  vzory, z nichž kompozit vychází.
+- **Glosář:** [epistemic bubble](@/glossary/epistemic-bubble.md) – uzavřené informační
+  prostředí; [epistemická injustice](@/glossary/epistemicka-injustice.md).
+- **Obnova:** [Protokol kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md).
+- **Index:** [Přehled případových studií](@/kompendium/case-studies/_index.md)
 
 ---
 

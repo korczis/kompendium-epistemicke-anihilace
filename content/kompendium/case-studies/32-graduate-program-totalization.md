@@ -1,10 +1,12 @@
 +++
-title = "Pripad 32-graduate-program-totalization: Totalizace v doktorskem programu"
-description = "Anonymizovana pripadova studie — Totalizace v doktorskem programu. Komplexni 12-sekcni analyza: kontext, vstupni modus, fenomenologicky kurz, EA mapovani, intervence a recovery."
+title = "Případ 32: Totalizace v doktorském programu"
+description = "Kompozitní studie doktoranda v přírodovědné laboratoři, kde vedoucí ovládal autorství, financování, vízum i soukromí. Odcizení práce, odchod a obnova vědecké identity."
 weight = 32
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky", "rozsireny"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["30-music-conservatory-coercion", "31-elite-prep-school", "33-postdoc-exploitation", "34-professorial-totalizace"]
 parent = "kompendium-case-studies"
@@ -12,108 +14,148 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 32-graduate-program-totalization: Totalizace v doktorskem programu
+# Případ 32: Totalizace v doktorském programu
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene nebo agregovany napric vice realnymi pripady. Pouzitelne pouze pro edukativni, vyzkumne a klinicke ucely. Zadne identifikujici udaje nesmi byt rekonstruovany.
+> **Upozornění:** Anonymizovaný kompozit. Obor, země, univerzita a vízový režim jsou zobecněny;
+> časové údaje zaokrouhleny. Studie se nevyjadřuje k žádné konkrétní laboratoři a slouží k
+> rozpoznání vzorce a ochraně doktorandů.
 
-## 1. Kontext a populacni vymezeni
+## 1. Kontext a vymezení
 
-Pripad 32-graduate-program-totalization reprezentuje strukturalne typicky vzorek epistemicke alienace v doméně **STEM doktorska skola s 'mistr-otrok' modelem laboratoře, kde primary investigator (PI) ovládá publikacni autorství, financovaní, viza, kariéarni reference**. Studie agreguje kliniky validovane vzorce ze tri az peti realnych pripadu, ktere sdileli klicove strukturalni rysy: zpusob vstupu, dynamiku eskalace, metody totalizace, spousteci udalost detekce a strukturu post-exit fenomenologie.
+Kompozit popisuje doktorský program v přírodních vědách postavený na modelu, v němž vedoucí
+laboratoře (*principal investigator*, PI) soustřeďuje v jedné osobě **autorství publikací,
+financování, prodloužení víza a kariérní doporučení**. Na rozdíl od
+[případu 01](@/kompendium/case-studies/01-akademicka-supervize-totalizace.md), kde moc plyne
+hlavně z odborné autority, zde přistupuje existenční závislost: doktorand ze zahraničí, jehož
+pobyt v zemi závisí na pokračování ve studiu, nemá kam odejít.
 
-Demograficky koridor obsahoval subjekty ve vekovem rozmezí 19-46 let, smiseneho genderoveho slozeni, s mediány vyssi nez populacni prumer v oblasti formálního vzdelávání. Tato skupina nevykazovala pred-existujici psychiatricky narativ, ktery by obvykle predikoval vulnerabilitu — naopak, mnoho z nich melo strukturalne stabilni socialni zazemí pred prvním kontaktem. Tato pozorovaní jsou v souladu s [literaturou o coercive control](@/glossary/coercive-control.md), ktera zduraznuje, ze epistemicka totalizace nezavisí primarne na pred-existujici psychopatologii, ale na strukturalnich vlastnostech ovládajici sítě.
+Laboratoř se v takové konstelaci stává totální institucí: práce, bydlení, svátky i vztahy se
+odehrávají v jednom okruhu, který řídí jedna osoba. Výkon a hodnota člověka splývají s
+publikačním výstupem.
 
-## 2. Vstupni modus
+## 2. Vstupní modus
 
-Vstupni vektor v této kohorte byl: **talentovany student z chudšich okolností; PI nabidl plne stipendium s 'rodinnym' pristupem laboratoře**. Tento patron je charakteristicky tim, ze pristupna brana neni rozpoznana subjektem jako brana — naopak, je vnímána jako reseni preexistujícího problemu (samota, intelektualní hladovka, kariéarni stagnace, identitarni vakuum, krize duvery v institucích). Proto klasicke 'red flags' (tlaky, nábor, ideologicka konsistentnost) jsou interpretovany jako znakou _vyzvy_, nikoli rizika.
+Vstupem byla **velkorysá nabídka**: talentovaný student z chudších poměrů dostal plné
+stipendium a pozvání do laboratoře, která se prezentovala jako „rodina“. Vedoucí mu pomohl s
+bydlením a úřady, zval ho na rodinné oslavy. Vděčnost a vědomí, že bez této nabídky by
+doktorát nebyl možný, vytvořily
+[emoční dluh](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md), který později
+umlčoval každou námitku.
 
-Strukturalní podobnost s [Hassanovym BITE modelem](@/glossary/coercive-control.md) je vysoka — kontrola behavioru, informací, mysleni a emocí postupuje paralelne, nikoli linearne, a kazda dimense imunizuje ostatni proti revizi.
+## 3. Časová osa expozice
 
-## 3. Casova osa expozice
-
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodneho kontaktu, budovani zavislosti, prvni pozitivni reinforcement (love-bombing-typ vzorec adaptovany pro kontext) |
-| **Perturbace** | mesice 4-12 | Postupne introdukovani ideovych disonanci, destabilizace alternativnich epistemickych zdroju, prvni 'osvícení' / 'breakthrough' / 'awakening' moment |
-| **Eskalace** | mesice 13-24 | 70-80 hod tydne v lab, sviatky s PI rodinou, PI rozhoduje o partnerských vyběrech, viza zavislé na pokraňováni programu |
-| **Konsolidace** | roky 2-5 | lab = totalni instituce, mimo-lab kontakt vykazatelne potrestany, autorsky poradek diktovan, mimoradna prilezitost selhat = financni a vízova katastrofa |
-| **Detekce / spousteci udalost** | promenna | subjekt našel svoji práci publikovanu pod jmenem PI bez svého autorství; rodice doma zemreli, PI odmítl udelit volno |
-| **Exit / rekonstrukce** | rok 5+ | transfer doktoratu, právní zastoupeni v autorskej dispute, dlouhodoba terapie zamerena na akademicke totalizace |
+| **Přijetí** | měsíce 1–6 | Stipendium, pomoc s bydlením, „rodinná“ atmosféra laboratoře |
+| **Nasazení** | měsíce 6–18 | Rostoucí pracovní doba, víkendy v laboratoři, první odložené vlastní projekty |
+| **Eskalace** | roky 2–3 | 70–80 hodin týdně, svátky s rodinou vedoucího, vměšování do partnerských vztahů, vízum závislé na pokračování |
+| **Konsolidace** | roky 3–4 | Kontakty mimo laboratoř trestány, pořadí autorů diktováno, selhání znamená finanční a vízovou katastrofu |
+| **Detekce** | rok 4 | Vlastní výsledky publikované bez jeho autorství; odmítnuté volno po úmrtí v rodině |
+| **Odchod a rekonstrukce** | roky 4–5 | Přestup do jiného programu, právní pomoc ve sporu o autorství, dlouhodobá terapie |
 
-## 4. EA techniky manifestovane
+## 4. Manifestované EA techniky
 
-V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tuto kohortu):
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) –
+  vedoucí jako jediný most ke kariéře.
+- [EA-2.1.3 Útok na kredibilitu](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) –
+  každá konzultace mimo laboratoř je zpochybněna jako neodborná či nelojální.
+- [EA-1.5.1 Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) –
+  laboratoř a ubytování jako jeden kontrolovaný prostor.
+- [EA-2.2.8 Nárok na intelektuální otcovství](@/kompendium/techniques/ea-2-2-8-intellectual-paternity-claim.md)
+  – výsledky doktoranda se stávají „nápady laboratoře“.
+- [EA-5.3.4 Tělesná disociace](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md) – tělo
+  redukované na pracovní nástroj.
+- [EA-5.3.42 Totální sebeobjektifikace](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md)
+  – vlastní hodnota měřená publikačním výstupem.
 
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) — PI jako jediny mostek ke kariere
-- [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) — kazda mimo-lab konzultace delegitimizovana
-- [EA-1.5.1 Strategicka proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) — lab + ubytovani jako kontrolovany prostor
-- [EA-5.3.4 Telesna disociace](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md) — telo redukovane na 'pracovni nastroj'
-- [EA-5.3.42 Self-objektifikace totalni](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md) — self merené v publication output
+Strukturálně jde o [scénář F](@/kompendium/03-zakladni-kategorie/scenar-f.md),
+[scénář G](@/kompendium/03-zakladni-kategorie/scenar-g.md) a
+[scénář H](@/kompendium/03-zakladni-kategorie/scenar-h.md).
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md).
+## 5. Fenomenologický průběh
 
-## 5. Fenomenologicky kurz
+Typická byla **panika při otevření e-mailu od vedoucího, únava, která neustupovala ani po
+odpočinku, a neschopnost formulovat vlastní výzkumnou otázku** po letech diktátu. Doktorand
+popisoval, že přestal vnímat hlad a únavu jako signály a že víkend bez práce v něm vyvolával
+vinu. Rodině doma psal jen o úspěších. V řeči převládala
+[inverze zájmen](@/kompendium/detection-signatures/5-linguistic-pronoun-inversion.md) („naše
+výsledky“ i tam, kde šlo o jeho vlastní práci) a v pozdní fázi
+[kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md).
 
-Subjekty v této kohorte prochazely typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md), v pokrocilejsich fazich pak [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md) a v terminalnich fazich [epistemicke anihilace](@/glossary/epistemicka-anihilace.md).
+## 6. Detekční bod
 
-Specificke pro tento kontext: **panika pri otevreni e-mailu od byvaleho PI, somatizovana únava i po dlouhem oddechu, neschopnost vest vlastní výzkumnu agendu po letech diktatu**. Tyto specificke fenomenologicke znaky slouzi jako diagnosticke kotvy pri klinické identifikaci kohorte i pri pripadové supervizi.
+Dvě události přišly krátce po sobě: doktorand **našel svou práci publikovanou bez svého
+autorství** a vedoucí mu **odmítl volno na pohřeb** v rodině. První zpochybnila vědeckou
+rovinu vztahu, druhá „rodinnou“. Spolu s rozhovorem s bývalou členkou laboratoře, která odešla
+dřív, mu ukázaly, že nejde o jeho selhání, ale o systém. Rozhodující bylo, že studijní oddělení
+mu potvrdilo možnost přestupu bez ztráty pobytového statusu.
 
-Z pohledu fenomenologie tela (Merleau-Ponty, Husserl) byly pozorovany somaticke korelaty epistemicke kontroly: deregulovany dech v exo-kontextovych situacich, hypervigilance specifické pro signaly skupinove autorit, narusena propriocepce v prostorech mimo kontrolovane prostredí. Tyto somaticke znaky jsou casto nejcasnejsi indikatory progresu intervence.
+## 7. Intervenční strategie
 
-## 6. Detekcni bod
+- **S1 – Validace a mapování:** vyřešení existenčních otázek (vízum, financování), rekonstrukce
+  časové osy autorství z laboratorních deníků a verzí rukopisů.
+- **S2 – Externalizace introjektů:** věty „bez něj tu nejsem nic“, „vděčím mu za všechno“
+  odděleny od faktů o vlastní práci.
+- **S3 – Rekonstrukce metakognice:** obnova vlastní výzkumné agendy, nejdřív v malých krocích
+  s novým školitelem.
+- **S4 – Hermeneutická obnova:** nový výklad let v laboratoři, včetně toho, co se skutečně
+  naučil.
+- **S5 – Konsolidace a transfer:** dokončení doktorátu, dohoda o autorství sepsaná předem.
 
-Spousteci udalosti pro detekci totalizovaneho rezimu sdileli strukturalni vlastnost: **prinesly externe verifikovatelnou udalost, ktera nemohla byt re-interpretovana standardními ramci skupiny bez explicitne paradoxalni reinterpretace**.
+Rámcem byl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+spolu s [obnovením kompetencí](@/kompendium/recovery-protocols/midterm-skill-rebuilding.md).
 
-V této kohorte fungoval detecni bod nasledovne: subjekt našel svoji práci publikovanu pod jmenem PI bez svého autorství; rodice doma zemreli, PI odmítl udelit volno. Klicove je, ze samotny detekcni bod _neni_ vystupem — je pouhou prilezitostí pro vystup. Mnoho subjektu prochazi detekcnim bodem opakovane bez vystupu, protoze neni k dispozici exo-kontextova podpora.
+## 8. Výsledek a reziduální deficity
 
-## 7. Intervencni strategie
+Doktorát dokončil v novém programu se ztrátou **dvou až tří let kariérního času**. Přetrvávalo
+vyhoření, nutnost znovu budovat vědeckou identitu a nedůvěra k laboratořím s „rodinnou“
+kulturou. Spor o autorství skončil kompromisem, který mu dal uznání, ale ne pocit spravedlnosti.
 
-Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5), s adaptacemi pro specificky kontext **STEM doktorska skola s 'mistr-otrok' modelem laboratoře, kde primary investigator (PI) ovládá publikacni autorství, financovaní, viza, kariéarni reference**:
+## 9. Diferenciální diagnostika
 
-- **S1 (Stabilizace)**: bezpecne ukotvení mimo skupinove kontaktni site, casto 6-12 tydnu odpojeni, [trauma-focused pristup](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) k akutnim symptomum
-- **S2 (Inventura)**: systemna inventura epistemickeho narativu, mapovani [betrayal-trauma](@/glossary/betrayal-trauma.md) bodů, prvotni kognitivni rekonsolidace
-- **S3 (Rekonstrukce)**: postupna rekonstrukce alternativni epistemicke baze, nájezd na uzly typu "co jsem _skutecne_ pred kontaktem věřil", práce s _epistemickou pokora_
-- **S4 (Reintegrace)**: navrácení do mimo-skupinovych vztahu, casto rodinna terapie pro soused-shun a betrayal dynamics
-- **S5 (Konsolidace)**: dlouhodobe sledovani po 18-36 mesicich s peer-support komponentou
+- **Náročný, ale férový program:** vysoká pracovní zátěž, ale autorství podle jasných pravidel a
+  možnost odejít bez existenčního ohrožení.
+- **Syndrom vyhoření:** vyčerpání bez ztráty důvěry ve vlastní úsudek a bez izolace.
+- **Akulturační stres:** obtíže zahraničních studentů s novým prostředím; mohou zranitelnost
+  zvyšovat, ale kontrolu nevysvětlí.
+- Podrobněji [diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
 
-V této kohorte bylo specifické: transfer doktoratu, právní zastoupeni v autorskej dispute, dlouhodoba terapie zamerena na akademicke totalizace. Tento prvek by se mel objevit i v intervencnim planu pro analogicke pripady.
+## 10. Právní a institucionální rámec
 
-## 8. Vysledek
+Doktorské studium v Česku upravuje zákon č. 111/1998 Sb., o vysokých školách; je-li doktorand
+zároveň zaměstnancem, platí zákon č. 262/2006 Sb., zákoník práce, včetně pracovní doby a
+překážek v práci. Spory o autorství řeší etické komise a autorské právo; pro pobytové otázky
+je relevantní [právo cizinců](@/kompendium/forensic-legal/42-immigration-EA.md). Klíčová je
+[forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md).
 
-Castecna az plna rekonstrukce po 18-48 mesicich strukturovane terapie kombinujici [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), peer-support a v nekterych pripadech somatickou prácu (somatic experiencing-typ).
+## 11. Prevence a poučení pro praxi
 
-**Reziduálni deficity**: ztrata 2-3 let kariéarniho casu, psychologicky vyhořeni, nutnost rekonstruovat vědeckou identitu. Tyto deficity je nutno vnimat ne jako selhání intervence, ale jako strukturalní stopu vystavení — analogicky tomu, jak chronická bolest po zlomenině zustava i po zhojeni kosti.
+Instituce mají **oddělit existenční závislosti od jedné osoby**: vízum a stipendium vázat na
+program, ne na vedoucího; zavést
+[oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md) a
+[ochranu mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md) s druhým
+konzultantem. Pravidla autorství mají být písemná od začátku. Zahraniční doktorandi potřebují
+kontaktní osobu mimo laboratoř.
 
-Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v prvních 6-12 mesicich, plateau ve 12-24 mesicich, casto re-eskalace pri specifickych spoušteích (rocni vyroci, kontakt s byvalymi cleny, medializace zazitku), a postupna konsolidace po 24-48 mesicich. Viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled typickych krivek pro tento typ pripadu.
+## 12. Limity a otevřené otázky
 
-## 9. Scenare a typologicke zaskolení
+Kompozit popisuje doktoranda, který měl kam přestoupit; v malých oborech taková možnost často
+chybí. Otevřené zůstává, jak měřit totalizaci v laboratořích, když běžné průzkumy spokojenosti
+zachycují hlavně ty, kteří zůstali.
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+## Související
 
-## 10. Diferencialni diagnostika
-
-Kriticke je odliseni od:
-
-- **C-PTSD bez totalizace** ([c-ptsd](@/glossary/c-ptsd.md)): podobny symptomovy profil, ale chybi epistemická dimenze
-- **Standardní [betrayal-trauma](@/glossary/betrayal-trauma.md)**: chybi totalizujici epistemicky aparat
-- **Dissociation NOS**: prekryv v fenomenologii, ale jiny terapeuticky pristup
-
-Diferencialni kotvy jsou: pritomnost alternativni epistemicke baze (vyse uvedene EA kody), strukturalni izolace od mimo-skupinovych zdroju, identitarni rekompozice. Pro detail viz [diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
-
-## 11. Etické a metodologické poznámky
-
-Tato pripadova studie byla pripravena s dodrzovanim principu **anonymizace, agregace napric vice pripadu, neidentifikovatelnosti**. Žadny jednotlivy realny pripad neni rekonstruovatelny z této studie. Studie ma charakter klinické vinetie pro vyukove a vyzkumne ucely a je vystavena na trojím etickem ramci: (1) Belmont report principy, (2) APA Ethics Code, (3) [vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) protokol.
-
-Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v oblasti coercive control / cult recovery, (b) spolu-prace s pravnym zastupcem v pripadech kde je to relevantni, (c) trauma-informed pristup ke vsem fazim vystupu.
-
-## 12. Cross-linky a dalsi cetba
-
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
-- **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md), [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-1.5.1](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md), [EA-5.3.4](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md), [EA-5.3.42](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+- **Sourozenecké případy:** [Případ 33 – exploatace postdoka](@/kompendium/case-studies/33-postdoc-exploitation.md)
+  (další kariérní stupeň), [Případ 35 – laboratoř jako kult](@/kompendium/case-studies/35-research-lab-cult.md)
+  (ideologická varianta), [Případ 02 – doktorát jako trojský kůň](@/kompendium/case-studies/02-doktorat-trojan-horse.md).
+- **Klinika:** [6.8 Případová studie: Doktorské vedení](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md)
+  – podrobná kazuistika vedení.
+- **Organizace:** [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md),
+  [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
+  – institucionální pojistky.
+- **Sebeobrana:** [Paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md) –
+  vedení vlastních záznamů o práci.
+- **Index:** [Přehled případových studií](@/kompendium/case-studies/_index.md)
 
 ---
 

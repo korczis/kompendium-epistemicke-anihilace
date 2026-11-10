@@ -1,10 +1,12 @@
 +++
-title = "Pripad 18-fitness-cult: Fitness cult"
-description = "Anonymizovana pripadova studie — Fitness cult. EA techniky, fenomenologicky kurz, intervence, vysledek."
+title = "Případ 18: Fitness kult"
+description = "Kompozitní studie mladého muže v uzavřené tréninkové komunitě, kde výkon, tělo a loajalita k trenérovi splynuly v jediné měřítko hodnoty. Markery a obnova."
 weight = 18
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["16-psychoterapeut-totalizace", "17-coach-coercion", "19-dieta-cult", "20-finance-cult"]
 parent = "kompendium-case-studies"
@@ -12,56 +14,138 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 18-fitness-cult: Fitness cult
+# Případ 18: Fitness kult
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
+> **Upozornění:** Kompozit z několika podobných zkušeností. Sportovní disciplína, místa a
+> časy jsou zaměněny. Studie nehodnotí intenzivní trénink jako takový; popisuje skupinovou
+> dynamiku, která ze sportu dělá systém kontroly.
 
-## Background subjektu
+## 1. Kontext a vymezení
 
-Subjekt (anonymizovany kod 18-fitness-cult) byl vystaven systematickemu vzorci EA pres rozsahly casovy interval. Demograficke detaily, profesni rola a kontext byly zachovany strukturalni — konkretni identifikatory odstranene.
+Komunitní tréninková centra nabízejí výkon, disciplínu a sounáležitost – pro mnoho lidí
+prospěšnou kombinaci. Kompozit popisuje centrum, kde se kolem charismatického hlavního trenéra
+vytvořila **uzavřená komunita s vlastní morálkou**: kdo trénuje méně, je slabý; kdo se zraní,
+nedělal to správně; kdo odejde, „to vzdal“. Tělo se stává veřejným důkazem oddanosti.
 
-## Casova osa expozice
+Mladý muž kolem pětadvaceti přišel po rozchodu a ztrátě práce. Během tří let trénoval dvakrát
+denně, pracoval jako asistent trenéra a postupně omezil všechny vztahy mimo centrum.
 
-| Faze | Trvani | Klicove udalosti |
+## 2. Vstupní modus
+
+Vstupem byl **viditelný pokrok a přijetí**. První měsíce přinesly rychlé výsledky, pochvalu
+před skupinou a pocit, že patří k „výjimečným“. Skupinové výzvy, společné fotky a chat
+vytvářely náhradní rodinu v době, kdy jinou neměl. Trenér ho brzy vybral jako „talent“, což
+zvýšilo očekávání i jeho ochotu je plnit.
+
+## 3. Časová osa expozice
+
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodne role, budovani zavislosti |
-| **Perturbace** | mesice 4-12 | Introdukce epistemickych disonanci, destabilizace |
-| **Rekonfigurace** | mesice 13-24 | Akceptace alternativniho ramce, "prulom" |
-| **Konsolidace** | roky 2-5 | Internalizace, defenzivni rigidita |
-| **Exit / detekce** | rok 5+ | Externi konfrontace, postupna rekonstrukce |
+| **Pokrok** | měsíce 1–6 | Rychlé výsledky, pochvala, nová komunita |
+| **Intenzifikace** | měsíce 6–15 | Dvoufázový trénink, skupinové výzvy, přísný jídelníček |
+| **Morální rámec** | roky 1–2 | Odpočinek jako „slabost“, zranění jako osobní vina |
+| **Uzavření** | roky 2–3 | Práce v centru, přátelé jen z komunity, rodina „nechápe“ |
+| **Detekce a odchod** | rok 3 | Závažné přetížení s hospitalizací; sportovní lékař zpochybní režim |
 
-## EA techniky manifestovane
+## 4. Manifestované EA techniky
 
-V tomto pripadu byly identifikovany nasledujici EA kody (ilustrativni — konkretni map se lisi dle kontextu):
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
+  – veřejná pochvala a veřejné zahanbení jako regulátory chování.
+- [EA-5.3.14 Somatická rekodifikace](@/kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md)
+  – bolest a únava se přejmenují na „růst“, signály těla ztrácejí výpovědní hodnotu.
+- [EA-5.3.1 Identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md)
+  – „jsem atlet tohoto týmu“ vytlačuje ostatní role.
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+  – zranění dokazuje nedostatek disciplíny, ne chybu režimu.
+- [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) – skupina
+  hromadně odsuzuje toho, kdo zpochybní trenéra.
 
-- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — kontrolovany pristup k informacim
-- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — emocionalni kondicionovani
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — strukturalni obrana proti revizi
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — asymetricky epistemicky vztah
+Dimenze chování a emocí [modelu BITE](@/glossary/bite-model.md) jsou zde výrazné; informační
+kontrola je slabší, ale komunita filtruje, které zdroje o tréninku jsou „pravé“.
 
-## Fenomenologicky kurz
+## 5. Fenomenologický průběh
 
-Subjekt prochazel typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md) a v pokrocilych fazich [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md).
+Muž popisoval nejprve **euforii z výkonu** a z toho, že ho někdo vidí. Postupně se objevil strach
+z vynechání tréninku, vina při odpočinku a ztráta schopnosti rozlišit zdravou únavu od bolesti,
+která varuje. Typické bylo
+[interoceptivní rozpojení](@/kompendium/techniques/ea-5-5-12-interoceptivni-rozpojeni.md) a
+[emocionální otupení](@/kompendium/detection-signatures/27-phenomenological-emotional-numbing.md)
+vůči všemu mimo centrum. Sebehodnocení kolísalo podle výkonu a trenérovy reakce; den bez
+pochvaly byl dnem bez hodnoty.
 
-## Detekcni bod
+## 6. Detekční bod
 
-Externi konfrontace s alternativnimi epistemickymi zdroji (rodina, kvalifikovany profesional mimo kontext) iniciovala pochybnost a postupne otevreni interventnimu procesu.
+Po extrémně náročné skupinové výzvě skončil s akutním zdravotním stavem z přetížení v nemocnici.
+**Sportovní lékař** mu věcně vysvětlil, co se v těle stalo, a že nejde o slabost, ale o
+předvídatelný důsledek režimu. Trenér mezitím ve skupinovém chatu napsal, že „někteří neznají
+své limity“. Rozpor mezi lékařským vysvětlením a skupinovým výkladem – a mlčení přátel z centra
+– byl bodem, kdy se poprvé podíval na komunitu zvenčí.
 
-## Intervencni strategie
+## 7. Intervenční strategie
 
-Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5) s adaptacemi pro specificky kontext.
+- **S1 – Validace a mapování:** somatická stabilizace, psychoedukace o přetížení; mapa toho,
+  jak se měnil režim a vztahy.
+- **S2 – Externalizace introjektů:** věty „bolest je slabost opouštějící tělo“, „odpočinek je pro
+  lenochy“ přiřazeny zdroji.
+- **S3 – Rekonstrukce metakognice:** obnova [somatické pozornosti](@/kompendium/self-defense-guides/13-somatic-awareness.md)
+  – učit se znovu číst signály těla.
+- **S4 – Hermeneutická obnova:** nový vztah ke sportu: pohyb pro radost a zdraví, ne jako
+  důkaz hodnoty.
+- **S5 – Konsolidace a transfer:** trénink pod vedením trenéra s jasnými hranicemi, obnova
+  vztahů s rodinou.
 
-## Vysledek
+Rámec poskytl [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+spolu se [somaticky orientovanou terapií](@/kompendium/techniques/ea-6-2-9-body-oriented-therapy-protokol.md).
 
-Castecna az plna rekonstrukce po 12-36 mesicich strukturovane terapie s [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md). Reziduálni deficity v oblastech specifickych pro kontext — viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled.
+## 8. Výsledek a reziduální deficity
 
-## Cross-linky
+Po roce se vrátil k mírnému tréninku a do zaměstnání mimo sport. Přetrvávalo **narušené vnímání
+těla** – obtíže rozpoznat skutečnou únavu – a nutkání kompenzovat vynechaný trénink. Ztráta
+komunity se prožívala jako truchlení: přišel o lidi, s nimiž sdílel tři roky.
 
-- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
-- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [gaslighting](@/glossary/gaslighting.md)
-- **Sekce 03**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+## 9. Diferenciální diagnostika
+
+- **Vrcholový sport s náročným režimem:** vysoká zátěž, ale s lékařským dohledem, odpočinkem a
+  bez morální sankce za zranění; srovnej [případ 43](@/kompendium/case-studies/43-elite-sports-totalizace.md).
+- **Svalová dysmorfie a poruchy příjmu potravy:** mohou se objevit současně a vyžadují
+  samostatnou diagnostiku.
+- **Závislost na cvičení bez skupinové kontroly:** nutkání trénovat existuje i bez komunity.
+- **Zdravá sportovní komunita:** odchod a pauza nejsou trestány.
+
+## 10. Právní a institucionální rámec
+
+Provozovatel tréninkového centra odpovídá za bezpečnost poskytovaných služeb podle obecné úpravy
+odpovědnosti za škodu v zákoně č. 89/2012 Sb., občanském zákoníku. Pokud byl muž v centru
+zaměstnán či pracoval „za trénink“, je relevantní i
+[pracovní právo](@/kompendium/forensic-legal/44-employment-law-EA.md). Pro případný spor je
+užitečné uchovat zprávy a plány tréninku.
+
+## 11. Prevence a poučení pro praxi
+
+Varovné signály jsou **morální výklad zranění, veřejné zahanbování a odrazování od lékaře**.
+Sportovní lékaři a fyzioterapeuti by se měli ptát, jak klient vnímá odpočinek a co by se stalo,
+kdyby měsíc netrénoval. Pro dotčené pomáhá
+[audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) a obnova vztahů mimo
+komunitu.
+
+## 12. Limity a otevřené otázky
+
+Kompozit zachycuje muže v životní krizi; jiní členové stejných komunit odcházejí bez potíží.
+Otevřené zůstává, jak oddělit prospěšnou disciplínu od jejího kultovního přehánění, když obojí
+používá stejný jazyk.
+
+## Související
+
+- **Sourozenecké případy:** [Případ 19 – dietní kult](@/kompendium/case-studies/19-dieta-cult.md)
+  (kontrola jídla), [Případ 43 – totalizace ve vrcholovém sportu](@/kompendium/case-studies/43-elite-sports-totalizace.md),
+  [Případ 17 – nátlak kouče](@/kompendium/case-studies/17-coach-coercion.md).
+- **Glosář:** [body schema](@/glossary/body-schema.md) – narušení tělesného schématu;
+  [embodied cognition](@/glossary/embodied-cognition.md) – proč tělo nese i poznání.
+- **Obnova:** [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md),
+  [Dlouhodobá rekonstrukce komunity](@/kompendium/recovery-protocols/longterm-community-rebuilding.md)
+  – náhrada za ztracenou komunitu.
+- **Sebeobrana:** [Uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md).
+- **Index:** [Přehled případových studií](@/kompendium/case-studies/_index.md)
 
 ---
 

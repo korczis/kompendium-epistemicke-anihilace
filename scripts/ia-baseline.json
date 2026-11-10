@@ -1073,145 +1073,8 @@
  "content/kompendium/aiad-integration/epistemic-pipeline-ea-detection.md": [
   "not-orphan"
  ],
- "content/kompendium/case-studies/01-akademicka-supervize-totalizace.md": [
-  "diacritics"
- ],
- "content/kompendium/case-studies/02-doktorat-trojan-horse.md": [
-  "diacritics",
-  "not-orphan"
- ],
- "content/kompendium/case-studies/03-pedagogicke-gaslighting.md": [
-  "diacritics",
-  "not-orphan"
- ],
- "content/kompendium/case-studies/04-medialni-mob-attack.md": [
-  "diacritics"
- ],
- "content/kompendium/case-studies/05-vedecka-disinflation.md": [
-  "diacritics",
-  "not-orphan"
- ],
- "content/kompendium/case-studies/06-cult-recovery-12-let.md": [
-  "diacritics"
- ],
- "content/kompendium/case-studies/07-narcisticka-rodina.md": [
-  "diacritics"
- ],
- "content/kompendium/case-studies/08-gaslighting-partnersky.md": [
-  "diacritics"
- ],
- "content/kompendium/case-studies/09-rezidualni-totalitarni-trauma.md": [
-  "diacritics"
- ],
- "content/kompendium/case-studies/10-sektarske-vychazeni.md": [
-  "diacritics"
- ],
- "content/kompendium/case-studies/11-corporate-cult.md": [
-  "diacritics"
- ],
- "content/kompendium/case-studies/12-leadership-cult.md": [
-  "diacritics"
- ],
- "content/kompendium/case-studies/13-mlm-recovery.md": [
-  "diacritics"
- ],
- "content/kompendium/case-studies/14-self-help-cult.md": [
-  "diacritics"
- ],
- "content/kompendium/case-studies/15-zdravotnicky-iatrogen.md": [
-  "diacritics"
- ],
- "content/kompendium/case-studies/16-psychoterapeut-totalizace.md": [
-  "diacritics"
- ],
- "content/kompendium/case-studies/17-coach-coercion.md": [
-  "diacritics"
- ],
- "content/kompendium/case-studies/18-fitness-cult.md": [
-  "diacritics"
- ],
- "content/kompendium/case-studies/19-dieta-cult.md": [
-  "diacritics",
-  "not-orphan"
- ],
- "content/kompendium/case-studies/20-finance-cult.md": [
-  "diacritics"
- ],
- "content/kompendium/case-studies/21-konspiracni-rekrutace.md": [
-  "related"
- ],
- "content/kompendium/case-studies/22-online-radikalizace.md": [
-  "related"
- ],
- "content/kompendium/case-studies/23-incel-recovery.md": [
-  "related"
- ],
- "content/kompendium/case-studies/24-extremni-pravice-exit.md": [
-  "related"
- ],
- "content/kompendium/case-studies/25-extremni-leve-exit.md": [
-  "related"
- ],
- "content/kompendium/case-studies/26-religiozni-fanatismus-exit.md": [
-  "related"
- ],
- "content/kompendium/case-studies/27-secular-cult-exit.md": [
-  "description",
-  "related"
- ],
- "content/kompendium/case-studies/28-academic-philosophy-cult.md": [
-  "description",
-  "related"
- ],
- "content/kompendium/case-studies/29-art-school-totalization.md": [
-  "related"
- ],
- "content/kompendium/case-studies/30-music-conservatory-coercion.md": [
-  "related"
- ],
- "content/kompendium/case-studies/31-elite-prep-school.md": [
-  "related",
-  "not-orphan"
- ],
- "content/kompendium/case-studies/32-graduate-program-totalization.md": [
-  "related",
-  "not-orphan"
- ],
- "content/kompendium/case-studies/33-postdoc-exploitation.md": [
-  "related",
-  "not-orphan"
- ],
- "content/kompendium/case-studies/34-professorial-totalizace.md": [
-  "related",
-  "not-orphan"
- ],
- "content/kompendium/case-studies/35-research-lab-cult.md": [
-  "related"
- ],
- "content/kompendium/case-studies/36-startup-cult-exit.md": [
-  "related"
- ],
- "content/kompendium/case-studies/37-tech-bro-totalizace.md": [
-  "related"
- ],
- "content/kompendium/case-studies/38-management-consulting.md": [
-  "related",
-  "not-orphan"
- ],
- "content/kompendium/case-studies/39-finance-totalizace.md": [
-  "related"
- ],
- "content/kompendium/case-studies/40-law-firm-totalizace.md": [
-  "related"
- ],
  "content/kompendium/case-studies/60-mass-formation-psychosis.md": [
   "not-orphan"
- ],
- "content/kompendium/case-studies/63-investor-cult.md": [
-  "not-orphan"
- ],
- "content/kompendium/case-studies/_index.md": [
-  "diacritics"
  ],
  "content/kompendium/critical-perspectives/13-victim-blaming-risk.md": [
   "description"
@@ -3898,9 +3761,6 @@
  "content/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md": [
   "not-orphan"
  ],
- "content/kompendium/techniques/ea-8-1-2-cult-leaving-questionnaire.md": [
-  "not-orphan"
- ],
  "content/kompendium/techniques/ea-8-1-3-stalking-behavior-checklist.md": [
   "not-orphan"
  ],
@@ -3929,8 +3789,7 @@
   "description"
  ],
  "content/kompendium/techniques/ea-8-2-3-singer-six-conditions.md": [
-  "description",
-  "not-orphan"
+  "description"
  ],
  "content/kompendium/techniques/ea-8-2-5-stark-coercive-control.md": [
   "description"
@@ -4205,8 +4064,7 @@
  ],
  "content/kompendium/techniques/ea-9-6-7-AI-medical-decision-EA.md": [
   "description",
-  "related",
-  "not-orphan"
+  "related"
  ],
  "content/kompendium/techniques/ea-9-6-8-AI-legal-decision-EA.md": [
   "description",

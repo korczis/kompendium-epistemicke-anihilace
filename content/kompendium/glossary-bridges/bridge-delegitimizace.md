@@ -2,6 +2,7 @@
 title = "Bridge: Delegitimizace"
 description = "Most mezi heslem delegitimizace a knihou: soustavné vyřazení mluvčího z okruhu těch, jejichž slovo se počítá, jeho techniky v akademii, médiích a vztazích, rozpoznání a obrana."
 weight = 1
+aliases = ["/kompendium/glossary-bridges/delegitimizace/"]
 
 [taxonomies]
 tags = ["glossary-bridge", "kompendium", "cross-link", "delegitimizace"]

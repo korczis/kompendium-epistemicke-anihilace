@@ -2,6 +2,7 @@
 title = "Bridge: taxonomie-ea"
 description = "Glossary bridge — propojeni kompendia s glossary entry taxonomie-ea."
 weight = 1
+aliases = ["/kompendium/glossary-bridges/taxonomie-ea/"]
 
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "taxonomie-ea", "cross-link"]

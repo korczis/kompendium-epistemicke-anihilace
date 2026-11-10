@@ -26,9 +26,11 @@ Requirements (id: what is checked):
                    @/ links, scripts are {{ <viz_script name="…" /> }}
   generated        no machine-generated text: no NLLB auto block, structural stub, placeholder
                    note or "pojem v sekci … znalostní báze Prismatic Platform" boilerplate
-  weak-link        every internal link leads to a page that meets `detail` and `generated`
-                   (the violation is on the linking page and clears itself when the target
-                   is developed)
+  weak-link        every internal link leads to a page that meets `detail` and `generated`;
+                   the debt lives on the TARGET (a thin page that other pages link), never on
+                   the linking page: a link to a thin page is better than no link, and
+                   unlinking a term to pass the gate would break `term = page = link`
+                   (`--debt` ranks the weak targets by how many pages link them)
   summary          a glossary entry carries a short summary (its description) and opens with a
                    `## Definice` section before the detail
   term-page        every term of the index of terms (08-prilohy/index-pojmu.md) has a page
@@ -38,6 +40,8 @@ Usage:
   scripts/check-ia.py                    fail on new violations; print the summary
   scripts/check-ia.py --update-baseline  shrink the baseline to what still fails
   scripts/check-ia.py --list <rule>      list the pages that violate one requirement
+  scripts/check-ia.py --debt             weak link targets ranked by inbound links (what to
+                                         develop first)
   scripts/check-ia.py --introduce <rule> add the current violations of a NEW requirement to the
                                          baseline (once, when the requirement is introduced)
   scripts/check-ia.py --extend <rule>    add the current violations of an EXISTING requirement
@@ -115,7 +119,7 @@ def current() -> dict:
         if key in EXEMPT:
             continue
         found = violations(page)
-        if any(target in weak_pages for target in page["links"]):
+        if page["path"] in weak_pages and page["links_in"]:
             found.append("weak-link")
         if (page["path"].startswith("glossary/") and not page["is_index"]
                 and not page["has_definition"]):
@@ -131,6 +135,13 @@ def current() -> dict:
 def main() -> int:
     args = sys.argv[1:]
     now = current()
+    if "--debt" in args:
+        pages = load_pages()
+        thin = [p for p in pages if weak(p) and p["links_in"]
+                and f"content/{p['path']}" not in EXEMPT]
+        for page in sorted(thin, key=lambda p: (-p["links_in"], p["path"])):
+            print(f"{page['links_in']}\tcontent/{page['path']}")
+        return 0
     if "--list" in args:
         rule = args[args.index("--list") + 1]
         for path, rules in sorted(now.items()):

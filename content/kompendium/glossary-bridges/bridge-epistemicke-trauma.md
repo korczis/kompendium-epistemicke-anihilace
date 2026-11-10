@@ -2,6 +2,7 @@
 title = "Bridge: Epistemické trauma"
 description = "Most mezi heslem epistemické trauma a knihou: trvalé poškození důvěry ve vlastní poznání, jeho znaky, vztah k PTSD a C-PTSD a stupňovitý model zotavení."
 weight = 1
+aliases = ["/kompendium/glossary-bridges/epistemicke-trauma/"]
 
 [taxonomies]
 tags = ["glossary-bridge", "kompendium", "cross-link", "epistemicke-trauma", "trauma"]

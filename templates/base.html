@@ -107,6 +107,9 @@
   } catch (e) {}
   document.documentElement.classList.remove('no-js');
 </script>
+{#- Komponentová vrstva vizualizací (barvy tématu, paleta, data knihy, plátna p5/three):
+    synchronně, aby ji skripty v těle stránky měly hned. -#}
+<script src="{{ get_url(path='js/viz/vrstva.js', cachebust=true) }}"></script>
 {#- Visualisation libraries: only those the page's scripts call, by the derived manifest
     static/data/viz-deps.json (scripts/build-ui-data.py reads each script's source). -#}
 {%- set_global need_chart = false -%}{%- set_global need_p5 = false -%}{%- set_global need_three = false -%}

@@ -3,23 +3,14 @@
 // přehledové stránky kapitoly „Filozofické tradice“ (nadpis a odkazy pod ním; stránky, které
 // přehled nezařazuje, jsou šedé), hrany = odkazy mezi stránkami v knize. Hrana tedy není
 // tvrzení o vlivu, jen „kniha mezi kapitolami odkazuje“ (oběma směry = silnější čára).
-// Klik na uzel → kapitola, tradice, sousedé a odkaz na stránku.
+// Klik na uzel → kapitola, tradice, sousedé a odkaz na stránku. Plátno zakládá komponentová
+// vrstva (vrstva.js): šířka podle hostitele, výška z poměru stran; délky layoutu se škálují
+// kratší stranou plátna, při změně velikosti se uzly přeškálují.
 (function() {
   'use strict';
-  var SRC = document.currentScript && document.currentScript.src;
 
-  function kniha() {
-    if (!window.__kniha) {
-      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
-        var s = document.createElement('script');
-        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
-        s.onload = ok;
-        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
-        document.head.appendChild(s);
-      })).then(function () { return window.KompendiumKniha.ready(); });
-    }
-    return window.__kniha;
-  }
+  // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
+  var kniha = window.KompendiumVrstva.kniha;
 
   function failed(el, e) {
     if (window.console) console.warn('vizualizace knihy:', e);
@@ -48,8 +39,10 @@
       var best = all.sort(function (a, b) { return size(b) - size(a); })[0] || { index: null, groups: [] };
       var groups = best.groups;
       var trad = {};
+      // Plátno má vlastní tmavé pozadí: tmavá paleta v obou tématech (kontrast aspoň 3:1).
+      var onDark = window.KompendiumVrstva.paletteFor(true);
       var traditions = groups.map(function (g, i) {
-        var t = { label: g.title, rgb: hexRgb(K.V.PALETTE[i % K.V.PALETTE.length]), count: g.nodes.length };
+        var t = { label: g.title, rgb: hexRgb(onDark[i % onDark.length]), count: g.nodes.length };
         g.nodes.forEach(function (n) { trad[n.id] = t; });
         return t;
       });
@@ -80,7 +73,7 @@
 
   function init() {
     const host = document.getElementById('section-07-framework-map');
-    if (!host || typeof p5 === 'undefined') return;
+    if (!host || typeof window.p5 === 'undefined') return;
     const detail = document.getElementById('framework-detail');
     kniha().then(function (K) {
       return model(K).then(function (m) { draw(K, m, host, detail); });
@@ -96,25 +89,29 @@
       if (M.source) detail.appendChild(K.link(M.source, '→ přehled filozofických tradic'));
     }
 
-    new p5(function(p) {
-      let w = host.clientWidth || 800, h = 600;
+    window.KompendiumVrstva.p5(host, function(p, k) {
+      let w = 0, h = 0;          // velikost plátna; nastaví ji setup a resized
       const nodes = [];
       const edges = [];
       let hovered = null;
       let selected = null;
       let dragNode = null;
 
-      p.setup = function() {
-        const cnv = p.createCanvas(w, h);
-        cnv.parent(host);
+      // Délky silového layoutu se škálují kratší stranou plátna (600 px = původní návrh).
+      function unit() { return Math.min(w, h) / 600; }
 
-        // Initialize node positions deterministically (no Math.random for reproducibility across reloads)
+      p.setup = function() {
+        k.canvas();
+        w = p.width; h = p.height;
+
+        // Počáteční polohy deterministicky (bez Math.random, stejné po každém načtení)
+        const R = Math.min(w, h) * 0.37;
         PHILOSOPHERS.forEach((ph, i) => {
           const a = (i / PHILOSOPHERS.length) * Math.PI * 2;
           nodes.push({
             data: ph,
-            x: w / 2 + Math.cos(a) * 220,
-            y: h / 2 + Math.sin(a) * 220,
+            x: w / 2 + Math.cos(a) * R,
+            y: h / 2 + Math.sin(a) * R,
             vx: 0, vy: 0,
             pinned: false
           });
@@ -123,6 +120,14 @@
         const idx = {};
         nodes.forEach((n, i) => { idx[n.data.id] = i; });
         M.edges.forEach((e) => { edges.push({ a: idx[e.a], b: idx[e.b], mutual: e.mutual }); });
+        // Bez animace (prefers-reduced-motion) se ukáže rovnou usazený layout.
+        if (window.KompendiumVrstva.reducedMotion()) for (let s = 0; s < 300; s++) step();
+      };
+
+      // Nová velikost plátna (řídí ji vrstva): uzly se přeškálují do nové plochy.
+      p.resized = function(nw, nh) {
+        nodes.forEach((n) => { n.x *= nw / w; n.y *= nh / h; });
+        w = nw; h = nh;
       };
 
       function neighborsOf(nodeIdx) {
@@ -135,13 +140,14 @@
       }
 
       function step() {
+        const u = unit();
         // Repulsion
         for (let i = 0; i < nodes.length; i++) {
           for (let j = i + 1; j < nodes.length; j++) {
             const dx = nodes[j].x - nodes[i].x;
             const dy = nodes[j].y - nodes[i].y;
             const d2 = Math.max(64, dx * dx + dy * dy);
-            const f = 1500 / d2;
+            const f = 1500 * u * u / d2;
             const d = Math.sqrt(d2);
             const fx = (dx / d) * f;
             const fy = (dy / d) * f;
@@ -156,7 +162,7 @@
           const dy = b.y - a.y;
           const d = Math.max(1, Math.sqrt(dx * dx + dy * dy));
           const k = e.mutual ? 0.0018 : 0.0006;
-          const target = 110;
+          const target = 110 * u;
           const f = k * (d - target);
           const fx = (dx / d) * f;
           const fy = (dy / d) * f;
@@ -173,9 +179,9 @@
           if (n.pinned) { n.vx = 0; n.vy = 0; return; }
           n.vx *= 0.85; n.vy *= 0.85;
           n.x += n.vx; n.y += n.vy;
-          // bounds
+          // meze; nahoře místo pro popisek a tlačítko Pozastavit z vrstvy
           n.x = Math.max(20, Math.min(w - 20, n.x));
-          n.y = Math.max(20, Math.min(h - 20, n.y));
+          n.y = Math.max(44, Math.min(h - 20, n.y));
         });
       }
 
@@ -191,7 +197,7 @@
 
       p.draw = function() {
         p.background(15, 23, 42);
-        if (!dragNode) step();
+        if (dragNode === null && p.isLooping()) step();
 
         const selectedNeighbors = selected !== null ? neighborsOf(selected) : null;
 
@@ -237,22 +243,28 @@
           p.strokeWeight(1);
           p.textSize(10);
           const tw = Math.min(w - 20, Math.max(220, p.textWidth(n.data.concept) + 30));
-          const tx = Math.min(p.mouseX + 10, w - tw - 4);
-          p.rect(tx, p.mouseY + 10, tw, 50, 4);
+          const tx = Math.max(4, Math.min(p.mouseX + 10, w - tw - 4));
+          const ty = Math.min(p.mouseY, h - 64);
+          p.rect(tx, ty + 10, tw, 50, 4);
           p.noStroke();
           p.fill(241, 245, 249);
           p.textAlign(p.LEFT, p.TOP);
           p.textSize(11);
-          p.text((n.data.num ? n.data.num + ' ' : '') + n.data.label, tx + 8, p.mouseY + 16);
+          p.text((n.data.num ? n.data.num + ' ' : '') + n.data.label, tx + 8, ty + 16);
           p.fill(148, 163, 184);
           p.textSize(10);
-          p.text(n.data.concept, tx + 8, p.mouseY + 32, tw - 16, 14);
-          p.text('Klik = výběr + odkaz', tx + 8, p.mouseY + 46);
+          p.text(n.data.concept, tx + 8, ty + 32, tw - 16, 14);
+          p.text('Klik = výběr + odkaz', tx + 8, ty + 46);
         }
       };
 
+      // Pozastavená animace: najetí, výběr a tažení se přesto překreslí.
+      function redrawIfPaused() { if (!p.isLooping()) p.redraw(); }
+
       p.mouseMoved = function() {
+        const before = hovered;
         hovered = pick(p.mouseX, p.mouseY);
+        if (hovered !== null || before !== null) redrawIfPaused();
       };
 
       p.mousePressed = function() {
@@ -262,21 +274,29 @@
           dragNode = idx;
           nodes[idx].pinned = true;
           if (detail) setDetail(K, detail, nodes[idx].data, Array.from(neighborsOf(idx)).map((j) => nodes[j].data));
-        } else {
+          redrawIfPaused();
+        } else if (selected !== null) {
           selected = null;
+          redrawIfPaused();
         }
       };
 
       p.mouseDragged = function() {
         if (dragNode !== null) {
-          nodes[dragNode].x = p.mouseX;
-          nodes[dragNode].y = p.mouseY;
+          nodes[dragNode].x = Math.max(20, Math.min(w - 20, p.mouseX));
+          nodes[dragNode].y = Math.max(44, Math.min(h - 20, p.mouseY));
+          redrawIfPaused();
         }
       };
 
       p.mouseReleased = function() {
         dragNode = null;
       };
+    }, {
+      aspect: 0.75, minHeight: 480, maxHeight: 600,
+      label: 'Mapa teoretických rámců: ' + PHILOSOPHERS.length + ' kapitol sekce jako uzly ' +
+        'obarvené podle filozofické tradice, ' + M.edges.length + ' hran jsou odkazy mezi ' +
+        'kapitolami v knize (silnější čára = odkazy oběma směry).',
     });
   }
 

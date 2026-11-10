@@ -2,9 +2,10 @@
 // jejich počet, názvy a popisy přebírá ze stránky knihy o epistemické pipeline: oddíl h2
 // s nejvíce podnadpisy h3, každý h3 („L0: příjem surových signálů“) je jedna úroveň a první
 // odstavec pod ním její popis. Klik na prstenec → úroveň a odkaz na její místo ve stránce.
+// Plátno, jeho velikost (šířka hostitele, výška z poměru stran), smyčku, pauzu a popisek řídí
+// komponentová vrstva (KompendiumVrstva.three); pozadí scény sleduje téma.
 (function() {
   'use strict';
-  var SRC = document.currentScript && document.currentScript.src;
   // Zdroj dat: stránka glosáře o epistemické pipeline (cesta v grafu knihy).
   var SOURCE = 'glossary/epistemic-pipeline.md';
   let LEVELS = [];
@@ -12,18 +13,8 @@
   let K = null;
   let highlightedIndex = -1;
 
-  function kniha() {
-    if (!window.__kniha) {
-      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
-        var s = document.createElement('script');
-        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
-        s.onload = ok;
-        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
-        document.head.appendChild(s);
-      })).then(function () { return window.KompendiumKniha.ready(); });
-    }
-    return window.__kniha;
-  }
+  // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
+  var kniha = window.KompendiumVrstva.kniha;
 
   function failed(el, e) {
     if (window.console) console.warn('vizualizace knihy:', e);
@@ -41,16 +32,19 @@
     });
     return heads.filter((x) => best && x.parent === best).map((x) => {
       const m = /^([^:]+):\s*(.*)$/.exec(x.title);
-      return { id: m ? m[1].trim() : x.title, name: m ? m[2].trim() : '', desc: x.text, anchor: x.id, group: best.title };
+      return { id: m ? m[1].trim() : x.title, name: m ? m[2].trim() : '', desc: x.text,
+        anchor: x.id, group: best.title };
     });
   }
 
   function setDetail(container, idx) {
     K.clear(container);
     const lvl = LEVELS[idx];
-    container.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', lvl.id + (lvl.name ? ' — ' + lvl.name : '')));
+    container.appendChild(K.h('h3', 'text-lg font-bold text-slate-100',
+      lvl.id + (lvl.name ? ' — ' + lvl.name : '')));
     if (lvl.desc) container.appendChild(K.h('p', 'text-slate-300 mt-1', lvl.desc));
-    container.appendChild(K.h('p', 'text-slate-400 text-xs mt-2', 'Úroveň ' + (idx + 1) + ' z ' + LEVELS.length + ' (' + lvl.group + ')'));
+    container.appendChild(K.h('p', 'text-slate-400 text-xs mt-2',
+      'Úroveň ' + (idx + 1) + ' z ' + LEVELS.length + ' (' + lvl.group + ')'));
     const a = K.link(SOURCE_NODE, '→ úroveň ve stránce „' + SOURCE_NODE.title + '“');
     if (a.href && lvl.anchor) a.href += '#' + lvl.anchor;
     const p = K.h('p', 'mt-2 text-sm');
@@ -86,7 +80,8 @@
         if (!LEVELS.length) throw new Error('stránka pipeline nemá úrovně');
         if (detail) {
           K.clear(detail);
-          detail.appendChild(K.h('p', 'text-slate-300 text-sm', LEVELS.length + ' úrovní podle oddílu „' + LEVELS[0].group +
+          detail.appendChild(K.h('p', 'text-slate-300 text-sm',
+            LEVELS.length + ' úrovní podle oddílu „' + LEVELS[0].group +
             '“. Klikněte na prstenec.'));
         }
         draw(container, detail);
@@ -95,20 +90,9 @@
   }
 
   function draw(container, detail) {
-
-    const W = container.clientWidth || 800;
-    const H = container.clientHeight || 600;
-
+    const V = window.KompendiumVrstva;
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x0f172a);
-
-    const camera = new THREE.PerspectiveCamera(50, W / H, 0.1, 1000);
-    camera.position.set(15, 8, 18);
-    camera.lookAt(0, 0, 0);
-
-    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-    renderer.setSize(W, H);
-    container.appendChild(renderer.domElement);
+    const camera = new THREE.PerspectiveCamera(50, 1, 0.1, 1000);
 
     scene.add(new THREE.AmbientLight(0xffffff, 0.6));
     const dirLight = new THREE.DirectionalLight(0xffffff, 0.8);
@@ -142,7 +126,7 @@
       scene.add(ring);
       rings.push(ring);
 
-      // Text label sprite
+      // Popisek úrovně (sprite s vlastním tmavým štítkem, čitelný v obou tématech)
       const canvas2d = document.createElement('canvas');
       canvas2d.width = 256;
       canvas2d.height = 64;
@@ -162,7 +146,7 @@
       scene.add(sprite);
     });
 
-    // Particle pool flowing between adjacent levels
+    // Částice proudící mezi sousedními úrovněmi (rychlost v podílu přechodu za sekundu)
     const PARTICLE_COUNT = 30;
     const particles = [];
     const partGeom = new THREE.SphereGeometry(0.08, 8, 8);
@@ -174,17 +158,17 @@
       part.userData = {
         startLevel: startLevel,
         progress: Math.random(),
-        speed: 0.004 + Math.random() * 0.006,
+        speed: 0.24 + Math.random() * 0.36,
         angle: angle
       };
       scene.add(part);
       particles.push(part);
     }
 
-    function updateParticles() {
+    function updateParticles(dt) {
       particles.forEach((p) => {
         const ud = p.userData;
-        ud.progress += ud.speed;
+        ud.progress += ud.speed * dt;
         if (ud.progress >= 1) {
           ud.progress = 0;
           ud.startLevel = (ud.startLevel + 1) % (LEVELS.length - 1);
@@ -204,15 +188,52 @@
       });
     }
 
-    // Click → highlight ring
+    // Kamera obíhá kolem osy pipeline (úhel v radiánech). Míří pod střed sloupce prstenců:
+    // kamera je nad ním, takže při pohledu na počátek perspektiva ořízne spodní úroveň.
+    let theta = 0;
+    function placeCamera() {
+      camera.position.set(Math.cos(theta) * 22, 8, Math.sin(theta) * 22);
+      camera.lookAt(0, -1.5, 0);
+    }
+    placeCamera();
+    updateParticles(0);
+
+    // Pozadí scény z tématu (povrch); prstence a štítky mají vlastní barvy úrovní.
+    function applyTheme(th) { scene.background = new THREE.Color(th.surface); }
+    applyTheme(V.theme());
+
+    const t = V.three(container, {
+      aspect: 0.75, minHeight: 360, maxHeight: 600,
+      label: 'Epistemická pipeline: ' + LEVELS.length + ' prstenců nad sebou, jeden za každou ' +
+        'úroveň (' + LEVELS.map((l) => l.id).join(', ') + '); částice naznačují tok mezi nimi.',
+      frame: function (dt) {
+        theta += 0.15 * dt;
+        placeCamera();
+        updateParticles(dt);
+      },
+      render: function () { t.renderer.render(scene, camera); },
+      resize: function (w, h) { camera.aspect = w / h; camera.updateProjectionMatrix(); },
+      theme: applyTheme,
+    });
+    if (!t) return;
+    // Výšku určuje plátno (poměr stran), ne pevná výška hostitele ze stránky.
+    container.style.height = 'auto';
+    const canvas = t.renderer.domElement;
+
+    // Souřadnice ukazatele v NDC vůči aktuální velikosti plátna (i po změně velikosti)
     const raycaster = new THREE.Raycaster();
     const mouse = new THREE.Vector2();
-    renderer.domElement.addEventListener('click', (e) => {
-      const rect = renderer.domElement.getBoundingClientRect();
+    function pick(e) {
+      const rect = canvas.getBoundingClientRect();
       mouse.x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
       mouse.y = -((e.clientY - rect.top) / rect.height) * 2 + 1;
       raycaster.setFromCamera(mouse, camera);
-      const hits = raycaster.intersectObjects(rings);
+      return raycaster.intersectObjects(rings);
+    }
+
+    // Klik → zvýraznění prstence
+    canvas.addEventListener('click', (e) => {
+      const hits = pick(e);
       if (hits.length && detail) {
         const idx = hits[0].object.userData.index;
         highlightedIndex = idx;
@@ -226,37 +247,16 @@
             r.material.emissiveIntensity = 0.35;
           }
         });
+        t.render();
       }
     });
 
-    // Hover cursor change
-    renderer.domElement.addEventListener('mousemove', (e) => {
-      const rect = renderer.domElement.getBoundingClientRect();
-      mouse.x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
-      mouse.y = -((e.clientY - rect.top) / rect.height) * 2 + 1;
-      raycaster.setFromCamera(mouse, camera);
-      renderer.domElement.style.cursor = raycaster.intersectObjects(rings).length ? 'pointer' : 'default';
-    });
-
-    let theta = 0;
-    function animate() {
-      requestAnimationFrame(animate);
-      theta += 0.0025;
-      camera.position.x = Math.cos(theta) * 22;
-      camera.position.z = Math.sin(theta) * 22;
-      camera.lookAt(0, 0, 0);
-      updateParticles();
-      renderer.render(scene, camera);
-    }
-    animate();
-
-    window.addEventListener('resize', () => {
-      const w = container.clientWidth || 800;
-      renderer.setSize(w, H);
-      camera.aspect = w / H;
-      camera.updateProjectionMatrix();
+    // Kurzor nad prstencem
+    canvas.addEventListener('mousemove', (e) => {
+      canvas.style.cursor = pick(e).length ? 'pointer' : 'default';
     });
   }
 
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
 })();

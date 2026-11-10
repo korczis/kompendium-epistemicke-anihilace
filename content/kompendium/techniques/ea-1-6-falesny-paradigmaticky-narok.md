@@ -1,84 +1,194 @@
 +++
-title = "EA-1-6-falesny-paradigmaticky-narok"
+title = "EA-1.6 Falešný paradigmatický nárok"
 weight = 100
-description = "EA-1-6-falesny-paradigmaticky-narok — pojem v sekci kompendium/techniques znalostní báze Prismatic Platform, kategorie kompendium-technique."
+description = "Vzorec, v němž osoba nebo hnutí ohlašuje „nové paradigma“ bez jeho znaků a kritiku vykládá jako odpor starého myšlení. Znaky, odlišení od skutečné vědecké revoluce, obrana."
 
 [taxonomies]
-tags = ["kompendium", "technique", "ea-taxonomy", "interactive"]
+tags = ["kompendium", "techniques", "ea-1-6", "paradigma", "charisma"]
 
 [extra]
 category = "kompendium-technique"
-related_terms = ["ea-1-1-1-selektivni-expozice", "ea-1-3-2-strategic-reinterpretation", "ea-1-3-1-immunization-against-falsification", "ea-1-2-1-falesne-dilema", "ea-1-1-2", "ea-1-1-3-terminologicka-mystifikace"]
+related_terms = ["ea-1-6-1-vzorec-guru-a-adept", "ea-1-6-5", "ea-1-3-1-imunizace-proti-falsifikaci", "ea-1-3-2-pseudo-empiricka-validace", "ea-1-1-3-terminologicka-mystifikace", "ea-5-1-26-trans-paradigmaticka-migrace"]
+ea_code = "EA-1.6"
+ea_category = "1. Akademické techniky"
+ea_subcategory = "1.6 Charizmatické vedení"
+parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 ref_count_at_creation = 1
 +++
 
-## Definition
+# EA-1.6 Falešný paradigmatický nárok
 
-**EA 1 6 Falesny Paradigmaticky Narok** je technika klasifikovaná v Prismatic Kompendiu EA ([Epistemická Anihilace](@/glossary/epistemicka-anihilace.md)) taxonomii. Strukturální stub zápis — plná specifikace včetně mechanismu manipulace, detekčních markerů, klinických případových studií, a profylaktických intervencí je součástí probíhající kompendiální výstavby.
+| Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-1.6` (souhrnný vzorec subkategorie charismatického vedení) |
+| **Kategorie** | 1. Akademické techniky |
+| **Subkategorie** | 1.6 Charizmatické vedení |
+| **Riziková úroveň** | Střední; vysoká, je-li spojen s apokalyptickou vizí |
+| **Reverzibilita** | Střední; přijetí „paradigmatu“ mění i měřítka, jimiž se dá hodnotit |
+| **Rodičovská kapitola** | [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
-Pro architekturu EA taxonomie viz [Taxonomie EA](@/kompendium/glossary-bridges/taxonomie-ea.md). Pro kontextové sekce viz odpovídající kapitolu v [05 Ultramari Techniky](@/kompendium/05-ultramari-techniky/_index.md).
+## Definice
 
-## See Also
+**Falešný paradigmatický nárok** je vzorec, v němž osoba, skupina nebo hnutí prohlašuje,
+že přináší **nové paradigma** – zásadně nový rámec poznání, před nímž dosavadní věda,
+víra nebo zdravý rozum „kolabují“ – aniž by měla znaky, podle nichž se skutečné změny
+paradigmatu poznají. Nárok slouží jinému cíli než poznání: vyřadit ze hry dosavadní
+**měřítka hodnocení**, a tím i kritiku. Kdo námitku vznáší, je „uvězněn ve starém
+paradigmatu“.
 
-- [Kompendium index](@/kompendium/_index.md)
-- [05 Ultramari Techniky](@/kompendium/05-ultramari-techniky/_index.md)
-- [Taxonomie EA](@/kompendium/glossary-bridges/taxonomie-ea.md)
+Kód EA-1.6 označuje tento vzorec jako souhrnný pro subkategorii charismatického vedení:
+charismatická autorita se tu neopírá o tradici ani o úřad, ale o tvrzení, že vidí za
+hranici, za kterou ostatní nevidí. Kompendium v [teoretické reflexi Kuhna](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md)
+mluví o „deklaraci, že starý paradigma kolabuje a nový přichází, aniž by k tomu byly
+skutečné důvody“.
 
----
+## Původ a kontext pojmu
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Pojem paradigmatu do filozofie vědy uvedl Thomas Kuhn (1962, *The Structure of
+Scientific Revolutions*): obor pracuje v rámci sdílených příkladů, metod a otázek;
+když se nahromadí anomálie, které rámec nevysvětlí, může nastat revoluce a nový rámec
+staré nahradí ([Kuhnova revoluce](@/glossary/kuhnova-revoluce.md), [paradigm shift](@/glossary/paradigm-shift.md)).
+Kuhn zdůrazňoval i *nesouměřitelnost* rámců – a právě tento pojem bývá zneužíván, jako
+by nový rámec nemusel nic vysvětlovat starými prostředky. Imre Lakatos (1970) nabídl
+měřítko, které tuto mezeru zavírá: výzkumný program je **progresivní**, když předpovídá
+nové a ověřitelné skutečnosti, a **degenerující**, když jen dodatečně vysvětluje,
+co mu odporuje ([Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md)).
 
-## Manažerské shrnutí
+## Mechanismus (strukturní popis)
 
-**EA-1-6-falesny-paradigmaticky-narok** je aktivní uzel taxonomického grafu sekce `kompendium/techniques` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+1. **Vyhlášení krize.** Dosavadní poznání je prohlášeno za vyčerpané, mrtvé, zkorumpované
+   – bez doložení konkrétních anomálií, které by nový rámec řešil.
+2. **Nový slovník.** Rámec přichází s vlastní terminologií, jež činí srovnání se starým
+   obtížným ([terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)).
+3. **Zneužitá nesouměřitelnost.** Námitky vycházející z dosavadních měřítek jsou
+   prohlášeny za irelevantní: „hodnotíš nové starými kritérii“.
+4. **Historická analogie.** Odvolání na Galilea, Semmelweise nebo Einsteina: kdo byl
+   zpochybňován, měl pravdu. Úvaha je převrácená – ne každý zpochybňovaný má pravdu.
+5. **Imunizace.** Kritika se stává potvrzením („odpor starého systému dokazuje, jak jsme
+   nebezpeční“); srov. [imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md).
+6. **Konverze místo přesvědčení.** Přijetí rámce je popisováno jako probuzení či prozření,
+   ne jako přesvědčení důkazy. S konverzí se mění identita i okruh lidí, jimž člověk věří.
 
-## Koncepční síť
+## Fenomenologické znaky (pohled zevnitř)
 
-Vizualizace propojení **EA-1-6-falesny-paradigmaticky-narok** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+| Znak | Jak ho člověk popisuje |
+|---|---|
+| Pocit vyvolenosti | „Vidím to, co ostatní ještě nevidí.“ |
+| Nemožnost vysvětlit | „Musíš to zažít, slovy se to nedá.“ |
+| Pohrdání dřívějšími autoritami | Učitelé, lékaři, rodina „to nechápou“. |
+| Rozpad společného jazyka | S dřívějšími přáteli se nedá mluvit „na stejné úrovni“. |
+| Napětí očekávání | Brzy přijde zlom, který všechno potvrdí. |
 
-```mermaid
-graph TD
-    C0["EA-1-6-falesny-paradigmaticky-narok"]
-    N1["EA-1.1.1 Selektivní expozice"]
-    N2["EA-1-3-2-strategic-reinterpretation"]
-    N3["EA-1-3-1-immunization-against-falsification"]
-    N4["EA-1.2.1 Falešné dilema"]
-    N5["EA-1-1-2"]
-    N6["EA-1.1.3 Terminologická mystifikace"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+## Detekční markery (pohled pozorovatele)
 
-## Související pojmy
+| Marker | Co může naznačovat |
+|---|---|
+| Nový rámec nepředpovídá nic, co by šlo ověřit | Degenerující program vydávaný za revoluci |
+| Chybí konkrétní anomálie, které by měl rámec vysvětlit | Vyhlášení krize bez krize |
+| Každá kritika je „staré paradigma“ | Zneužitá nesouměřitelnost |
+| Časté odkazy na pronásledované géniy | Historická analogie místo důkazu |
+| Přijetí rámce je spojeno s odchodem od dřívějších vztahů | Konverze s izolací |
+| Rámec vysvětluje všechno a nic ho nemůže vyvrátit | Viz [rozpoznání paradigmatu](@/kompendium/educational-scenarios/10-paradigm-recognition.md) |
 
-- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — slug `ea-1-1-1-selektivni-expozice`
-- [EA-1-3-2-strategic-reinterpretation](@/kompendium/techniques/ea-1-3-2-strategic-reinterpretation.md) — slug `ea-1-3-2-strategic-reinterpretation`
-- [EA-1-3-1-immunization-against-falsification](@/kompendium/techniques/ea-1-3-1-immunization-against-falsification.md) — slug `ea-1-3-1-immunization-against-falsification`
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — slug `ea-1-2-1-falesne-dilema`
-- [EA-1-1-2](@/kompendium/techniques/ea-1-1-2.md) — slug `ea-1-1-2`
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — slug `ea-1-1-3-terminologicka-mystifikace`
+## Rizikové kontexty
 
-## Navigace
+Nová náboženská a spirituální hnutí, apokalyptické skupiny, alternativní medicína,
+osobní rozvoj, finanční „revoluce“, ale také akademické školy kolem jedné osobnosti
+a technologická prostředí, kde se každá novinka vydává za epochální změnu. Riziko roste
+s osobní krizí člověka: kdo prožívá zhroucení vlastního světa, je otevřený tvrzení, že se
+hroutí svět celý.
 
-- **Nadřazená sekce**: [kompendium/techniques](@/kompendium/techniques/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
-  - [EA-1-1-1](@/kompendium/techniques/ea-1-1-1.md)
-  - [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)
-  - [EA-1-1-2](@/kompendium/techniques/ea-1-1-2.md)
-  - [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## Odlišení
+
+- **Skutečná vědecká revoluce.** Řeší doložené anomálie, předpovídá nové skutečnosti
+  a nakonec přesvědčí odbornou komunitu důkazy, i když postupně a se sporem.
+- **Legitimní heterodoxie.** Menšinový názor, který přijímá společná měřítka a snaží se
+  jim vyhovět; jeho zastánci uvádějí, co by je vyvrátilo.
+- **Inovace a vize.** Podnikatelská nebo umělecká vize může mluvit o „změně paradigmatu“
+  obrazně; vzorcem se stává, když slouží k umlčení kritiky.
+- **[EA-5.1.26 Trans-paradigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md).**
+  Krajní stav, v němž člověk ztrácí jakýkoli stálý rámec; falešný paradigmatický nárok
+  naopak rámec jeden nabízí a uzavírá.
+- **Psychotická zkušenost.** Prožitek, že „všechno se mění a já to vidím“, může být
+  projevem psychózy; vyžaduje klinické posouzení ([diferenciální diagnostika EA a psychózy](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
+
+## Klinický a právní rámec
+
+Kliník se setká se vzorcem u lidí, kteří odmítají léčbu „starého paradigmatu“, nebo
+u těch, kdo z hnutí odešli a ztratili s rámcem i smysl. Vhodné je nepolemizovat
+o rámci jako celku, ale ptát se na konkrétní předpovědi a zkušenosti: co se mělo stát
+a co se stalo. U lidí po odchodu bývá přítomna [paradigmatická bezdomovina](@/glossary/paradigmaticka-bezdomovina.md).
+
+Právně vzorec sám nic nezakládá; relevantní mohou být jeho důsledky – finanční závazky,
+odmítnutí léčby u dětí, [nepřípustný vliv](@/kompendium/forensic-legal/11-undue-influence-doctrine.md).
+
+## Obrana a neutralizace
+
+**Pro jednotlivce.**
+
+- Ptát se, co nový rámec **předpovídá** a kdy se to dá ověřit.
+- Ptát se, jaké konkrétní problémy dosavadního poznání řeší.
+- Vyžádat si, co by rámec vyvrátilo; pokud nic, nejde o poznání.
+- Udržovat [pluralitu paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md):
+  znát více rámců a umět je srovnávat.
+
+**Pro instituce a vzdělávání.** Učit rozdíl mezi progresivním a degenerujícím programem
+na skutečných dějinách vědy; chránit legitimní heterodoxii, aby nebyl každý nesouhlas
+vytlačen do prostředí, kde jej sbírají falešné paradigmatické nároky.
+
+## Zotavení
+
+Po odchodu z hnutí s falešným paradigmatickým nárokem zůstává prázdno: dosavadní svět byl
+„vyvrácen“ a nový se ukázal prázdný. Zotavení zahrnuje uznání toho, co člověka k rámci
+přitáhlo (často skutečné otázky a skutečná krize), a postupný návrat k rámcům, které
+umožňují pochybnost i jistotu. Pomáhá protokol [obnovy vztahu k paradigmatům](@/kompendium/recovery-protocols/paradigm.md)
+a [subakutní rekonstrukce smyslu](@/kompendium/recovery-protocols/subacute-meaning-reconstruction.md).
+
+## Případy, které vzorec ukazují
+
+Historický případ [Davidiánů](@/kompendium/historical-cases/14-branch-davidians.md)
+(apokalyptický výklad jako nový rámec), [Lysenkismus](@/kompendium/historical-cases/31-lysenko.md)
+(ideologicky prosazená „nová biologie“), [studená fúze](@/kompendium/historical-cases/36-cold-fusion.md)
+(revoluční nárok, který neobstál v ověřování) a kazuistika [akademického filozofického
+kultu](@/kompendium/case-studies/28-academic-philosophy-cult.md).
+
+## Literatura
+
+- Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*.
+- Lakatos, I. (1970). Falsification and the Methodology of Scientific Research
+  Programmes. In I. Lakatos & A. Musgrave (Eds.), *Criticism and the Growth of Knowledge*.
+- Weber, M. (1922). *Wirtschaft und Gesellschaft* (typ charismatického panství).
+
+## Související
+
+**Subkategorie charismatického vedení**
+
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)
+  – vztah, který nárok nese.
+- [EA-1.6.5 Zneužitá pokora](@/kompendium/techniques/ea-1-6-5.md) – adept má být pokorný
+  vůči novému rámci.
+
+**Příbuzné techniky**
+
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+  – kritika jako potvrzení.
+- [EA-1.3.2 Pseudoempirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md)
+  – vědecký vzhled nového rámce.
+
+**Teorie**
+
+- [Kuhn: Paradigmatické revoluce](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md)
+  – co je skutečná změna paradigmatu.
+- [Glosář: Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) – měřítko
+  progresivity.
+
+**Výuka a obrana**
+
+- [Vzdělávací scénář: Rozpoznání paradigmatu](@/kompendium/educational-scenarios/10-paradigm-recognition.md)
+  – nácvik rozpoznání.
+- [Pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md) –
+  srovnávat rámce místo konverze.

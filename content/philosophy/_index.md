@@ -1,6 +1,6 @@
 +++
-title = "Philosophical Foundations & Licensing Philosophy"
-description = "Explore the philosophical underpinnings of the Prismatic Platform, including intellectual sovereignty, epistemic frameworks."
+title = "Filozofické základy a filozofie licencování"
+description = "Filozofické základy platformy Prismatic, z níž kniha vzešla: intelektuální suverenita, epistemická integrita, etika hranic a licence GHL."
 weight = 5
 sort_by = "weight"
 template = "philosophy/list.html"
@@ -19,7 +19,7 @@ difficulty = "advanced"
 
 # SEO & Social
 image = "/images/sections/philosophy.png"
-image_alt = "Prismatic Platform philosophical foundations and intellectual sovereignty"
+image_alt = "Filozofické základy platformy Prismatic a intelektuální suverenita"
 og_type = "article"
 twitter_card = "summary_large_image"
 
@@ -48,134 +48,179 @@ date_updated = "2026-02-23"
 date_modified = "2026-02-23"
 +++
 
-## Abstract
+> **Vztah ke knize.** Tento oddíl patří do kontextu [platformy Prismatic](@/kompendium/01-predmluva/vztah-k-platforme.md),
+> z níž Kompendium vzešlo, a není součástí obranné taxonomie. Pro čtenáře knihy je důležitý
+> proto, že obsah knihy je vydán pod licencí General Honest License (GHL) v1.0: eseje tohoto
+> oddílu vysvětlují myšlenkové východisko licence, pod kterou se kniha šíří.
 
-This section explores the philosophical foundations that guide the Prismatic Platform's development, governance, and community engagement. At the heart of these foundations lies a revolutionary approach to software licensing and intellectual property through the **General Honest License (GHL)**, which represents a [paradigm shift](@/glossary/paradigm-shift.md) from traditional open-source models toward **intellectual sovereignty** and **meaning preservation**.
+## Abstrakt
 
-The philosophical framework encompasses three primary domains: **Intellectual Sovereignty** (authorial independence, creative control, resistance to collaborative dilution), **Epistemic Integrity** (meaning preservation, boundary protection, semantic consistency), and **Ceremonial Computing** (conscious invocation, sworn commitments, ritual compliance). These principles challenge conventional assumptions about software as commons and position code as an extension of the creator's cognitive worldview.
+Tento oddíl zkoumá filozofické základy, jimiž se řídí vývoj platformy Prismatic, její správa
+a vztah ke komunitě. Jejich jádrem je revoluční přístup k licencování softwaru a k duševnímu
+vlastnictví prostřednictvím licence **General Honest License (GHL)**, která představuje
+[změnu paradigmatu](@/glossary/paradigm-shift.md) – odklon od tradičních modelů otevřeného
+softwaru k **intelektuální suverenitě** a **uchování významu**.
 
-## Introduction
+Filozofický rámec zahrnuje tři hlavní oblasti: **intelektuální suverenitu** (autorskou
+nezávislost, tvůrčí kontrolu, odpor vůči rozmělnění společnou prací), **epistemickou
+integritu** (uchování významu, ochranu hranic, sémantickou konzistenci) a **ceremoniální
+práci se softwarem** (*ceremonial computing*: vědomou invokaci, přísežné závazky, rituální
+dodržování pravidel). Tyto principy zpochybňují obvyklé předpoklady o softwaru jako společném
+statku a chápou kód jako prodloužení tvůrcova kognitivního pohledu na svět.
 
-### The Philosophy of Code Ownership
+## Úvod
 
-In an era dominated by permissive licensing and collaborative development models, the Prismatic Platform takes a fundamentally different stance: **software is an epistemic artifact that embodies the intellectual sovereignty of its creator**. This perspective challenges the prevailing wisdom that software should be freely sharable, modifiable, and redistributable without explicit permission.
+### Filozofie vlastnictví kódu
 
-The platform's philosophical foundations rest on the principle that code is not merely functional—it is a **declaration of existence**, a crystallization of the author's cognitive processes, and a manifestation of creative independence that requires protection rather than dilution.
+V době, kdy převládají permisivní licence a modely společného vývoje, zaujímá platforma
+Prismatic zásadně odlišný postoj: **software je epistemický artefakt, který ztělesňuje
+intelektuální suverenitu svého tvůrce**. Tento pohled zpochybňuje rozšířené přesvědčení, že
+software má být volně sdílitelný, upravitelný a dále šiřitelný bez výslovného svolení.
 
-### The Problem with Permissive Commons
+Filozofické základy platformy stojí na principu, že kód není jen funkční – je
+**prohlášením o existenci**, krystalizací autorových kognitivních procesů a projevem tvůrčí
+nezávislosti, který vyžaduje ochranu, nikoli rozmělnění.
 
-Traditional open-source licensing models (MIT, Apache, GPL) operate under the assumption that software benefits from unrestricted modification and redistribution. While this approach has enabled significant collaborative achievements, it also creates fundamental problems:
+### Problém permisivních commons
 
-1. **Semantic Drift**: Original intent becomes corrupted through modifications
-2. **Authorial Dissolution**: Creator's vision is diluted through collaborative changes
-3. **Meaning Degradation**: Core principles are compromised through derivative works
-4. **Accountability Diffusion**: Responsibility becomes distributed and unenforceable
+Tradiční licenční modely otevřeného softwaru (MIT, Apache, GPL) vycházejí z předpokladu, že
+softwaru prospívá neomezená úprava a další šíření. Tento přístup sice umožnil významné
+výsledky společné práce, zároveň však vytváří zásadní problémy:
 
-The GHL addresses these issues through a framework of **explicit permission** rather than implicit commons.
+1. **Sémantický drift:** původní záměr se úpravami zkresluje.
+2. **Rozpouštění autorství:** tvůrcova vize se společnými změnami rozmělňuje.
+3. **Degradace významu:** odvozená díla narušují základní principy.
+4. **Rozptýlení odpovědnosti:** odpovědnost se rozkládá mezi mnoho lidí a nelze ji vymáhat.
 
-### Scope and Philosophical Commitments
+GHL na tyto problémy odpovídá rámcem **výslovného svolení** namísto implicitních commons.
 
-This philosophical framework covers:
+### Rozsah a filozofické závazky
 
-- **[General Honest License (GHL)](https://prismatic-reality-com.github.io/prismatic-promo/philosophy/ghl-framework/)**: Revolutionary licensing model prioritizing authorial control
-- **[Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)**: The author's inalienable right to creative independence
-- **[Ceremonial Computing](https://prismatic-reality-com.github.io/prismatic-promo/philosophy/ceremonial-computing/)**: Software interaction as conscious ritual rather than casual consumption
-- **[Epistemic Integrity](@/philosophy/epistemic-integrity.md)**: Preservation of meaning and intent across time and context
-- **[Boundary Ethics](@/philosophy/boundary-ethics.md)**: The moral imperative of technical and conceptual boundaries
+Tento filozofický rámec zahrnuje:
 
-## Core Philosophical Principles
+- **[General Honest License (GHL)](https://prismatic-reality-com.github.io/prismatic-promo/philosophy/ghl-framework/):**
+  revoluční licenční model, který dává přednost autorské kontrole.
+- **[Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md):** nezcizitelné
+  právo autora na tvůrčí nezávislost.
+- **[Ceremoniální práce se softwarem](https://prismatic-reality-com.github.io/prismatic-promo/philosophy/ceremonial-computing/):**
+  interakce se softwarem jako vědomý rituál, nikoli bezmyšlenkovitá spotřeba.
+- **[Epistemická integrita](@/philosophy/epistemic-integrity.md):** uchování významu
+  a záměru napříč časem a kontextem.
+- **[Etika hranic](@/philosophy/boundary-ethics.md):** morální imperativ technických
+  a pojmových hranic.
 
-### 1. Software as Epistemic Artifact
+## Základní filozofické principy
 
-Code is not merely functional but represents a **crystallization of knowledge, intention, and worldview**. Each function, variable name, and architectural decision embodies the author's cognitive processes and philosophical commitments. This perspective demands that software be treated with the same respect accorded to academic papers, artistic works, or philosophical treatises.
+### 1. Software jako epistemický artefakt
 
-Unlike physical objects that exist independently of their creator's ongoing involvement, software represents an **active extension of the author's intellectual presence**. Modifications to software are therefore modifications to the author's intellectual work, requiring explicit permission and careful consideration.
+Kód není jen funkční, ale představuje **krystalizaci poznání, záměru a pohledu na svět**.
+Každá funkce, každý název proměnné a každé architektonické rozhodnutí ztělesňuje autorovy
+kognitivní procesy a filozofické závazky. Tento pohled vyžaduje, aby se se softwarem
+zacházelo se stejnou úctou, jaká náleží odborným článkům, uměleckým dílům nebo filozofickým
+pojednáním.
 
-### 2. Intellectual Sovereignty as Foundational Right
+Na rozdíl od fyzických předmětů, které existují nezávisle na trvalé účasti svého tvůrce,
+představuje software **aktivní prodloužení autorovy intelektuální přítomnosti**. Úpravy
+softwaru jsou proto úpravami autorova intelektuálního díla a vyžadují výslovné svolení
+a pečlivé zvážení.
 
-**Intellectual sovereignty** refers to the author's absolute right to determine how their intellectual work is used, modified, and distributed. This goes beyond copyright protection to encompass deeper principles of **creative autonomy** and **meaning preservation**.
+### 2. Intelektuální suverenita jako základní právo
 
-Key aspects of intellectual sovereignty include:
+**Intelektuální suverenita** označuje absolutní právo autora určovat, jak se jeho
+intelektuální dílo užívá, upravuje a šíří. Jde nad rámec autorskoprávní ochrany a zahrnuje
+hlubší principy **tvůrčí autonomie** a **uchování významu**.
 
-- **Authorial Independence**: Resistance to collaborative dilution or consensus-based modification
-- **Creative Control**: Maintaining authority over derivative works and adaptations
-- **Interpretive Authority**: The author's final word on the intended meaning and proper use
-- **Posthumous Protection**: Mechanisms ensuring sovereignty survives the author's physical existence
+Klíčové aspekty intelektuální suverenity:
 
-### 3. Ceremonial Computing and Conscious Invocation
+- **Autorská nezávislost:** odpor vůči rozmělnění společnou prací nebo úpravám na základě
+  konsenzu.
+- **Tvůrčí kontrola:** zachování autority nad odvozenými díly a adaptacemi.
+- **Interpretační autorita:** poslední slovo autora o zamýšleném významu a správném užití.
+- **Posmrtná ochrana:** mechanismy, díky nimž suverenita přetrvá autorovu fyzickou
+  existenci.
 
-The GHL introduces the concept of **ceremonial computing**, where software usage becomes a conscious, intentional act rather than casual consumption. This philosophical shift transforms the relationship between user and software from exploitation to **respectful invocation**.
+### 3. Ceremoniální práce se softwarem a vědomá invokace
 
-Core elements include:
+GHL zavádí pojem **ceremoniální práce se softwarem**, v níž se užívání softwaru stává
+vědomým, záměrným činem, nikoli bezmyšlenkovitou spotřebou. Tento filozofický posun mění
+vztah mezi uživatelem a softwarem z vykořisťování na **uctivou invokaci**.
 
-- **Oath of Licensed Invocation**: Sworn commitment to proper usage
-- **Witness Requirements**: Community attestation of ceremonial compliance
-- **Cryptographic Proof**: Technical verification of authorized invocation
-- **Ritual Consciousness**: Awareness that software usage is a crossing of sacred thresholds
+Jádro tvoří:
 
-### 4. Boundary Ethics and Protection Philosophy
+- **Přísaha licencované invokace:** přísežný závazek ke správnému užívání.
+- **Požadavek svědků:** komunitní potvrzení, že byl obřad dodržen.
+- **Kryptografický důkaz:** technické ověření autorizované invokace.
+- **Rituální vědomí:** povědomí, že užívání softwaru je překročením posvátných prahů.
 
-The platform operates under the principle that **boundaries exist to preserve semantic integrity**. Technical, legal, and conceptual boundaries are not obstacles to overcome but essential protections for the software's intended meaning and function.
+### 4. Etika hranic a filozofie ochrany
 
-This includes:
+Platforma vychází z principu, že **hranice existují proto, aby chránily sémantickou
+integritu**. Technické, právní a pojmové hranice nejsou překážky, které je třeba překonat,
+ale nezbytná ochrana zamýšleného významu a funkce softwaru.
 
-- **Technical Boundaries**: Cryptographic restrictions, computational constraints, network limitations
-- **Legal Boundaries**: Licensing restrictions, usage prohibitions, enforcement mechanisms
-- **Conceptual Boundaries**: Semantic integrity protection, meaning preservation protocols
-- **Temporal Boundaries**: Protection against posthumous corruption or misrepresentation
+Patří sem:
 
-## The General Honest License Framework
+- **Technické hranice:** kryptografická omezení, výpočetní omezení, síťová omezení.
+- **Právní hranice:** licenční omezení, zákazy užití, mechanismy vymáhání.
+- **Pojmové hranice:** ochrana sémantické integrity, protokoly uchování významu.
+- **Časové hranice:** ochrana před posmrtným zkreslením nebo nepravdivým výkladem.
 
-### Revolutionary Licensing Philosophy
+## Rámec General Honest License
 
-The **General Honest License (GHL) v1.0** represents a fundamental departure from traditional software licensing models. Where most licenses grant broad permissions with minimal restrictions, the GHL operates on the principle of **explicit permission for specific use cases**.
+### Revoluční licenční filozofie
 
-Key philosophical innovations:
+**General Honest License (GHL) v1.0** představuje zásadní odklon od tradičních modelů
+licencování softwaru. Zatímco většina licencí uděluje široká oprávnění s minimem omezení,
+GHL stojí na principu **výslovného svolení pro konkrétní případy užití**.
 
-1. **Default Prohibition**: All rights reserved unless explicitly granted
-2. **Ceremonial Invocation**: Usage requires sworn oath and ritual compliance
-3. **Author-Centric Authority**: Creator maintains absolute interpretive control
-4. **Boundary Enforcement**: Technical and legal mechanisms prevent unauthorized use
-5. **Semantic Preservation**: Protection against drift, misrepresentation, and corruption
+Klíčové filozofické inovace:
 
-### Theoretical Foundations
+1. **Výchozí zákaz:** všechna práva vyhrazena, pokud nejsou výslovně udělena.
+2. **Ceremoniální invokace:** užití vyžaduje přísahu a dodržení rituálu.
+3. **Autorita soustředěná u autora:** tvůrce si ponechává absolutní interpretační kontrolu.
+4. **Vymáhání hranic:** technické a právní mechanismy brání neoprávněnému užití.
+5. **Uchování sémantiky:** ochrana před driftem, nepravdivým výkladem a zkreslením.
 
-The GHL rests on several philosophical foundations that distinguish it from both proprietary and open-source models:
+### Teoretické základy
 
-#### Explicit vs. Implicit Permission
+GHL stojí na několika filozofických základech, které ji odlišují od proprietárních modelů
+i od modelů otevřeného softwaru.
 
-Traditional licenses operate through **implicit permission** models:
+#### Výslovné a implicitní svolení
 
-- MIT: “You may use this software for any purpose”
-- GPL: “You may use and modify if you share source”
-- Apache: “You may use with attribution requirements”
+Tradiční licence pracují s modely **implicitního svolení**:
 
-The GHL operates through **explicit permission** models:
+- MIT: „Tento software smíte užívat k jakémukoli účelu.“
+- GPL: „Smíte jej užívat a upravovat, pokud sdílíte zdrojový kód.“
+- Apache: „Smíte jej užívat při splnění požadavků na uvedení autorství.“
 
-- “You may not use this software without written grant”
-- “All usage requires sworn oath and ritual compliance”
-- “Modifications require separate authorization”
+GHL pracuje s modely **výslovného svolení**:
 
-#### Authorial Preservation vs. Collaborative Commons
+- „Tento software nesmíte užívat bez písemného udělení.“
+- „Každé užití vyžaduje přísahu a dodržení rituálu.“
+- „Úpravy vyžadují samostatné oprávnění.“
 
-Open-source philosophy prioritizes collaborative improvement over authorial intent. The GHL prioritizes **authorial preservation** over collaborative enhancement:
+#### Uchování autorství a společné commons
 
-- **Commons Model**: Value emerges from collective contribution
-- **Sovereignty Model**: Value emerges from preserved creative intention
+Filozofie otevřeného softwaru dává přednost společnému zlepšování před autorským záměrem.
+GHL dává přednost **uchování autorství** před společným vylepšováním:
 
-#### Conscious vs. Casual Consumption
+- **Model commons:** hodnota vzniká z kolektivního přispění.
+- **Model suverenity:** hodnota vzniká z uchovaného tvůrčího záměru.
 
-The GHL transforms software usage from casual consumption to **conscious invocation**:
+#### Vědomá a bezmyšlenkovitá spotřeba
 
-- **Casual Model**: Download, use, modify without deep consideration
-- **Ceremonial Model**: Request permission, swear oath, maintain ongoing commitment
+GHL mění užívání softwaru z bezmyšlenkovité spotřeby na **vědomou invokaci**:
 
-### Practical Implementation
+- **Model bezmyšlenkovité spotřeby:** stáhnout, používat, upravovat bez hlubšího zvážení.
+- **Ceremoniální model:** požádat o svolení, složit přísahu, udržovat trvalý závazek.
 
-The GHL framework translates philosophical principles into concrete technical and legal mechanisms:
+### Praktické provedení
+
+Rámec GHL převádí filozofické principy do konkrétních technických a právních mechanismů:
 
 ```toml
-# Example GHL configuration
+# Příklad konfigurace GHL
 [ghl_configuration]
 license_version = "1.0.0"
 author = "Tomas Korcak"
@@ -199,146 +244,196 @@ semantic_drift_monitoring = true
 posthumous_protection = true
 ```
 
-## Philosophical Implications
+## Filozofické důsledky
 
-### Challenge to Open Source Orthodoxy
+### Výzva ortodoxii otevřeného softwaru
 
-The GHL philosophy directly challenges several assumptions underlying the open-source movement:
+Filozofie GHL přímo zpochybňuje několik předpokladů, na nichž stojí hnutí otevřeného
+softwaru:
 
-1. **Software Should Be Free**: GHL argues that intellectual work deserves protection
-2. **Collaboration Improves Quality**: GHL prioritizes authorial integrity over collaborative enhancement
-3. **Commons Create Value**: GHL suggests that preserved individuality creates deeper value
-4. **Users Have Rights**: GHL emphasizes author's rights over user conveniences
+1. **Software má být svobodný:** GHL tvrdí, že intelektuální dílo si zaslouží ochranu.
+2. **Spolupráce zvyšuje kvalitu:** GHL dává přednost autorské integritě před společným
+   vylepšováním.
+3. **Commons vytvářejí hodnotu:** GHL naznačuje, že hlubší hodnotu vytváří uchovaná
+   individualita.
+4. **Uživatelé mají práva:** GHL zdůrazňuje práva autora před pohodlím uživatelů.
 
-### New Models of Software Sustainability
+### Nové modely udržitelnosti softwaru
 
-The ceremonial invocation model creates new possibilities for sustainable software development:
+Model ceremoniální invokace otevírá nové možnosti udržitelného vývoje softwaru:
 
-- **Conscious Community**: Users who take oaths form more committed communities
-- **Meaning Preservation**: Original intent remains protected across time
-- **Author Support**: Ceremonial frameworks can include support mechanisms
-- **Quality Maintenance**: Bounded usage prevents quality degradation
+- **Vědomá komunita:** uživatelé, kteří skládají přísahu, tvoří oddanější komunity.
+- **Uchování významu:** původní záměr zůstává chráněn napříč časem.
+- **Podpora autora:** ceremoniální rámce mohou zahrnovat mechanismy podpory.
+- **Udržení kvality:** ohraničené užívání brání úpadku kvality.
 
-### Epistemic Implications
+### Epistemické důsledky
 
-The GHL framework has broader implications for how we understand software in relation to knowledge and meaning:
+Rámec GHL má širší důsledky pro to, jak chápeme software ve vztahu k poznání a významu:
 
-1. **Software as Literature**: Code deserves literary protection and interpretation
-2. **Authorial Intent Matters**: Original meaning cannot be democratized away
-3. **Boundaries Enable Freedom**: Constraints create space for authentic expression
-4. **Rituals Create Relationships**: Ceremonial use builds deeper connections
+1. **Software jako literatura:** kód si zaslouží literární ochranu a interpretaci.
+2. **Na autorském záměru záleží:** původní význam nelze „zdemokratizovat“ pryč.
+3. **Hranice umožňují svobodu:** omezení vytvářejí prostor pro autentické vyjádření.
+4. **Rituály vytvářejí vztahy:** ceremoniální užívání buduje hlubší vazby.
 
-## Integration with Platform Philosophy
+## Začlenění do filozofie platformy
 
-### Alignment with NO MERCY, NO DOUBTS
+### Soulad s NO MERCY, NO DOUBTS
 
-The platform's core [doctrine](@/glossary/doctrine.md) of **[NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md)** aligns perfectly with GHL philosophy:
+Základní [doktrína](@/glossary/doctrine.md) platformy **[NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md)**
+(bez slitování, bez pochybností) je s filozofií GHL v plném souladu:
 
-- **NO MERCY**: Zero tolerance for unauthorized usage or semantic corruption
-- **NO DOUBTS**: Clear boundaries and explicit requirements eliminate ambiguity
+- **NO MERCY:** nulová tolerance k neoprávněnému užití nebo sémantickému zkreslení.
+- **NO DOUBTS:** jasné hranice a výslovné požadavky odstraňují nejednoznačnost.
 
-### Epistemic Framework Compatibility
+### Slučitelnost s epistemickým rámcem
 
-The **[NABLA Infinity](@/glossary/nabla-infinity.md)** epistemic framework supports GHL principles through:
+Epistemický rámec **[NABLA Infinity](@/glossary/nabla-infinity.md)** podporuje principy GHL
+prostřednictvím:
 
-- **[Signal Plurality](@/glossary/signal-plurality.md)**: Multiple sources validate proper invocation
-- **Contradiction Preservation**: Both permission and restriction are maintained
-- **Provenance Mandatory**: All usage must be traceable to authorized grants
-- **Time Decay**: Permissions have explicit temporal boundaries
+- **[Plurality signálů](@/glossary/signal-plurality.md)** (*signal plurality*): správnost
+  invokace potvrzuje více zdrojů.
+- **Uchování rozporů:** zachováno je svolení i omezení.
+- **Povinné provenience:** každé užití musí být dohledatelné k autorizovanému udělení.
+- **Časového úbytku:** oprávnění mají výslovné časové hranice.
 
-### Trinity Gate Validation
+### Validace Trinity Gate
 
-All GHL-related decisions pass through the platform's [Trinity Gate](@/glossary/trinity-gate.md):
+Všechna rozhodnutí týkající se GHL procházejí [Trinity Gate](@/glossary/trinity-gate.md)
+platformy:
 
-1. **Structural Consistency**: License structure forms valid logical framework
-2. **Logical Consistency**: Permissions and restrictions follow logical rules
-3. **Formal Necessity**: Mathematical proofs validate enforcement mechanisms
+1. **Strukturální konzistence:** struktura licence tvoří platný logický rámec.
+2. **Logická konzistence:** oprávnění a omezení se řídí logickými pravidly.
+3. **Formální nutnost:** mechanismy vymáhání potvrzují matematické důkazy.
 
-## Practical Applications
+## Praktické uplatnění
 
-### For Developers
+### Pro vývojáře
 
-The GHL philosophy offers developers:
+Filozofie GHL nabízí vývojářům:
 
-- **Creative Protection**: Your intellectual work remains under your control
-- **Meaning Preservation**: Original intent is protected from drift
-- **Community Quality**: Ceremonial users form more committed communities
-- **Sustainable Models**: New approaches to software sustainability
+- **Tvůrčí ochranu:** vaše intelektuální dílo zůstává pod vaší kontrolou.
+- **Uchování významu:** původní záměr je chráněn před driftem.
+- **Kvalitu komunity:** ceremoniální uživatelé tvoří oddanější komunity.
+- **Udržitelné modely:** nové přístupy k udržitelnosti softwaru.
 
-### For Organizations
+### Pro organizace
 
-Organizations benefit through:
+Organizace získávají:
 
-- **Clear Boundaries**: Explicit permissions eliminate legal ambiguity
-- **Quality Assurance**: Controlled usage prevents degradation
-- **Authentic Relationships**: Ceremonial compliance builds real partnerships
-- **Risk Reduction**: Clear requirements reduce legal and technical risks
+- **Jasné hranice:** výslovná oprávnění odstraňují právní nejednoznačnost.
+- **Zajištění kvality:** řízené užívání brání úpadku.
+- **Autentické vztahy:** ceremoniální dodržování pravidel buduje skutečná partnerství.
+- **Snížení rizik:** jasné požadavky snižují právní i technická rizika.
 
-### For the Ecosystem
+### Pro ekosystém
 
-The broader software ecosystem gains:
+Širší softwarový ekosystém získává:
 
-- **Diversity of Models**: Alternatives to one-size-fits-all licensing
-- **Respect for Authorship**: Recognition of intellectual sovereignty
-- **Sustainable Innovation**: Models that support long-term creativity
-- **Conscious Computing**: More thoughtful software relationships
+- **Rozmanitost modelů:** alternativy k licencování podle jediné šablony.
+- **Úctu k autorství:** uznání intelektuální suverenity.
+- **Udržitelné inovace:** modely, které podporují dlouhodobou tvořivost.
+- **Vědomou práci s technikou:** promyšlenější vztahy k softwaru.
 
-## Future Directions
+## Směry dalšího vývoje
 
-### Expanding the Framework
+### Rozšíření rámce
 
-Planned developments in the philosophical framework include:
+Plánovaný vývoj filozofického rámce zahrnuje:
 
-1. **Multi-Author Sovereignty**: Extending GHL to collaborative teams while preserving individual contributions
-2. **Temporal Sovereignty**: Protecting different versions across time
-3. **Cross-Cultural Adaptation**: Adapting ceremonial elements for different cultural contexts
-4. **Ecosystem Integration**: Building tools and platforms that support GHL workflows
+1. **Suverenitu více autorů:** rozšíření GHL na tvůrčí týmy se zachováním jednotlivých
+   příspěvků.
+2. **Časovou suverenitu:** ochranu jednotlivých verzí v čase.
+3. **Mezikulturní adaptaci:** přizpůsobení ceremoniálních prvků různým kulturním kontextům.
+4. **Začlenění do ekosystému:** nástroje a platformy, které podporují pracovní postupy GHL.
 
-### Research Directions
+### Výzkumné směry
 
-Ongoing philosophical research includes:
+Probíhající filozofický výzkum zahrnuje:
 
-- **Epistemic Software Studies**: Academic research into software as knowledge artifact
-- **Ceremony Design**: Optimal structures for software invocation rituals
-- **Boundary Optimization**: Finding the right balance between protection and utility
-- **Sustainability Models**: Economic and social models supporting intellectual sovereignty
+- **Epistemická studia softwaru:** akademický výzkum softwaru jako artefaktu poznání.
+- **Návrh obřadů:** optimální struktury rituálů invokace softwaru.
+- **Optimalizaci hranic:** hledání správné rovnováhy mezi ochranou a užitečností.
+- **Modely udržitelnosti:** ekonomické a sociální modely, které podporují intelektuální
+  suverenitu.
 
-### Community Building
+### Budování komunity
 
-Building communities around GHL philosophy:
+Budování komunit kolem filozofie GHL:
 
-- **Ceremony Practitioners**: Users who embrace conscious invocation
-- **Sovereignty Advocates**: Developers adopting author-centric models
-- **Philosophical Contributors**: Academics and theorists expanding the framework
-- **Tool Builders**: Technical implementers creating GHL-supporting infrastructure
+- **Praktici obřadu:** uživatelé, kteří přijímají vědomou invokaci.
+- **Zastánci suverenity:** vývojáři, kteří přijímají modely soustředěné na autora.
+- **Filozofičtí přispěvatelé:** akademici a teoretici, kteří rámec rozvíjejí.
+- **Tvůrci nástrojů:** techničtí realizátoři, kteří budují infrastrukturu podporující GHL.
 
-## Conclusion
+## Závěr
 
-### A New Paradigm for Software
+### Nové paradigma softwaru
 
-The philosophical foundations of the Prismatic Platform represent more than technical choices—they constitute a **paradigm shift** in how we understand software's relationship to authorship, community, and meaning. The General Honest License serves as both practical tool and philosophical statement, asserting that intellectual sovereignty deserves protection in an age of collaborative commons.
+Filozofické základy platformy Prismatic jsou víc než technická rozhodnutí – představují
+**změnu paradigmatu** v chápání vztahu softwaru k autorství, komunitě a významu. General
+Honest License je zároveň praktickým nástrojem i filozofickým prohlášením: tvrdí, že
+intelektuální suverenita si v době společných commons zaslouží ochranu.
 
-This framework challenges developers, organizations, and communities to consider deeper questions: What do we owe to software creators? How do we preserve meaning across time and modification? What rituals and ceremonies might create more conscious relationships with the tools we use?
+Tento rámec vyzývá vývojáře, organizace i komunity, aby zvážili hlubší otázky: Co dlužíme
+tvůrcům softwaru? Jak uchovat význam napříč časem a úpravami? Jaké rituály a obřady by mohly
+vytvořit vědomější vztah k nástrojům, které používáme?
 
-### Invitation to Conscious Computing
+### Pozvání k vědomé práci se softwarem
 
-The GHL philosophy invites participants into a more conscious relationship with software—one that recognizes code as an extension of human creativity deserving of respect, protection, and ceremonial acknowledgment. This is not about restricting access but about creating **meaningful relationships** between creators, tools, and communities.
+Filozofie GHL zve účastníky do vědomějšího vztahu k softwaru – takového, který uznává kód
+jako prodloužení lidské tvořivosti, jež si zaslouží úctu, ochranu a ceremoniální uznání.
+Nejde o omezování přístupu, ale o vytváření **smysluplných vztahů** mezi tvůrci, nástroji
+a komunitami.
 
-### The Path Forward
+### Cesta vpřed
 
-As the software industry grapples with questions of sustainability, ownership, and meaning, the Prismatic Platform's philosophical foundations offer one possible path forward. By prioritizing authorial sovereignty, ceremonial consciousness, and boundary ethics, we can create software ecosystems that honor both individual creativity and collective benefit.
+Zatímco softwarový průmysl zápasí s otázkami udržitelnosti, vlastnictví a významu, nabízejí
+filozofické základy platformy Prismatic jednu z možných cest. Tím, že upřednostníme autorskou
+suverenitu, ceremoniální vědomí a etiku hranic, můžeme vytvářet softwarové ekosystémy, které
+ctí individuální tvořivost i společný prospěch.
 
-The future belongs not to those who consume software casually, but to those who approach it with **conscious intention**, **respectful invocation**, and **ceremonial commitment**. This is the philosophy that guides the Prismatic Platform and shapes its relationship with the broader software community.
+Budoucnost nepatří těm, kdo software konzumují bezmyšlenkovitě, ale těm, kdo k němu
+přistupují s **vědomým záměrem**, **uctivou invokací** a **ceremoniálním závazkem**. To je
+filozofie, která vede platformu Prismatic a utváří její vztah k širší softwarové komunitě.
 
 ---
 
-*These philosophical foundations represent the core intellectual framework guiding the Prismatic Platform, maintained according to academic standards and reflecting the revolutionary approach to software licensing embodied in the General Honest License v1.0.*
+*Tyto filozofické základy představují jádro intelektuálního rámce platformy Prismatic; jsou
+udržovány podle akademických standardů a odrážejí revoluční přístup k licencování softwaru,
+který ztělesňuje General Honest License v1.0.*
 
 ---
 
-## Connect & Contribute
+## Kontakt a příspěvky
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+
+## Související
+
+**Eseje tohoto oddílu**
+
+- [Intelektuální suverenita a autorská nezávislost](@/philosophy/intellectual-sovereignty.md)
+  – právo autora na tvůrčí nezávislost, první pilíř rámce.
+- [Epistemická integrita a uchování významu](@/philosophy/epistemic-integrity.md) – jak se
+  význam díla chrání v čase a kontextu.
+- [Etika hranic a filozofie ochrany](@/philosophy/boundary-ethics.md) – proč omezení podle
+  GHL chrání, a ne jen zakazují.
+
+**Kniha a platforma**
+
+- [1.6 Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) – jak
+  je kniha propojena s platformou, z níž tento oddíl pochází.
+- [1.3 Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md) – etický
+  rámec samotné knihy, odlišný od licenční filozofie.
+- [O projektu](@/about.md) – autor, licence a vznik Kompendia.
+
+**Pojmy platformy**
+
+- [Doctrine](@/glossary/doctrine.md) – soustava pilířů, z nichž vychází NO MERCY, NO DOUBTS.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec, s nímž je GHL
+  slučitelná.
+- [Trinity Gate](@/glossary/trinity-gate.md) – validační brána rozhodnutí o licenci.

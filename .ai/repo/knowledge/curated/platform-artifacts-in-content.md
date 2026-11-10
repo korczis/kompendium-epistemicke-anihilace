@@ -51,3 +51,18 @@ ukázalo šest tříd takových artefaktů. Každá se pozná mechanicky a má s
 - Brána IA vypisuje nejvýš 60 stránek: úplný seznam se bere z `check-ia.py --list` nebo
   z modelu, nikdy z výpisu.
 - V zsh se proměnná s více argumenty nerozdělí; seznam cest předávat polem.
+
+## Otevřené otázky na autora a neověřené údaje (2026-11-10)
+
+Položeno autorovi v session `30dc7a0e-8a7f-48e6-8922-1b1b2dc08588`, zatím bez odpovědi:
+
+- Scénáře K a L (`03-zakladni-kategorie/scenar-k`, `scenar-l`): kapitola 3.2 definuje jen A–I;
+  stránky je popisují jako pracovní označení odvozená z kazuistik, které je citují.
+- ECRI v `08-prilohy/diagnosticke-nastroje.md` se nepodařilo ověřit jako validovaný nástroj;
+  heslo `glossary/ecri.md` to uvádí otevřeně.
+
+Ponecháno, jak je, a označeno jako neověřené: rok „Wanless & Berk (2017)“ a tvrzení o NABLA
+L0–L13 v `08-prilohy/bibliografie.md`; „ZKB 264/2025 Sb.“ v heslech compliance-framework a easm
+(označení platformy, ne citace knihy). Chybný záznam „Ofshe & Watters (1994) Therapy's
+Delusions“ (správně Making Monsters 1994, Therapy's Delusions 1999) je v bibliografii doslova
+s viditelnou poznámkou. Odpověď autora se zapíše doslova sem nebo do ADR a otázka se odstraní.

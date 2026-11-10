@@ -1,6 +1,6 @@
 +++
-title = "EA-8.3.10 Information Warfare Literature"
-description = "Referenční zdroj — Information warfare, propaganda studies, computational propaganda, disinformation — současná literatura o state-level a cross-platform manipulation."
+title = "EA-8.3.10 Literatura informační války"
+description = "Referenční zdroj: současná literatura o informační válce, výpočetní propagandě a dezinformacích na úrovni států i napříč platformami."
 weight = 840
 insert_anchor_links = "right"
 
@@ -20,7 +20,7 @@ access_level = "L1"
 parent_chapter = "/kompendium/08-prilohy/"
 +++
 
-# EA-8.3.10 Information Warfare Literature
+# EA-8.3.10 Literatura informační války
 
 ## Identifikace
 
@@ -29,55 +29,113 @@ parent_chapter = "/kompendium/08-prilohy/"
 | **EA kód** | `EA-8.3.10` |
 | **Kategorie** | 8. Přílohy |
 | **Podkategorie** | 8.3 Bibliografie |
-| **Typ zdroje** | Referenční / Bibliografický |
-| **Access Level** | L1 (veřejný) |
+| **Typ zdroje** | Referenční / bibliografický |
+| **Úroveň přístupu** | L1 (veřejná) |
+
+Tato stránka je položkou [bibliografie](@/kompendium/08-prilohy/bibliografie.md) knihy, nikoli
+technikou: kód EA-8.3.x označuje oddíl doporučené literatury v [přílohách](@/kompendium/08-prilohy/_index.md).
 
 ## Charakteristika zdroje
 
-Pomerantsev (2019) This Is Not [Propaganda](@/glossary/propaganda.md). Bradshaw & Howard (2019) Global Disinformation Order. Wanless & Berk (2017) The Audience is the Amplifier. Benkler, Faris & Roberts (2018) Network Propaganda. Singer & Brooking (2018) LikeWar.
+Pět současných děl o manipulaci informačním prostředím ve velkém měřítku:
+
+- **Pomerantsev (2019) This Is Not [Propaganda](@/glossary/propaganda.md).** Reportážní esej
+  o tom, jak informační operace nepřesvědčují o jedné verzi pravdy, ale rozkládají samu
+  možnost se na pravdě shodnout.
+- **Bradshaw & Howard (2019) Global Disinformation Order.** Přehled organizované manipulace na
+  sociálních sítích, kterou vedou vlády a politické strany; zpráva vznikla v rámci
+  Computational Propaganda Research Project na Oxfordské univerzitě.
+- **Wanless & Berk (2017) The Audience is the Amplifier.** Pojem participativní propagandy:
+  publikum není jen příjemcem sdělení, ale samo je sdílí, přetváří a zesiluje.
+- **Benkler, Faris & Roberts (2018) Network Propaganda.** Empirický rozbor amerického mediálního
+  ekosystému kolem prezidentských voleb 2016, který ukazuje, že zranitelnost vůči dezinformacím
+  určuje struktura mediální sítě, a ne jen jednotlivé technologie.
+- **Singer & Brooking (2018) LikeWar.** Popis sociálních sítí jako bojiště, na němž se střetávají
+  státy, militantní skupiny, firmy i jednotlivci.
 
 ## Klíčové komponenty
 
-Pět klíčových contemporary works: Pomerantsev (Russian information warfare), Bradshaw/Howard (computational propaganda audit), Wanless/Berk (audience as amplifier), Benkler et al. (US 2016 election), Singer/Brooking (social media warfare).
+| Dílo | Téma | Co dává rámci EA |
+|------|------|------------------|
+| Pomerantsev | ruská informační válka | vzorec, v němž cílem není přesvědčit, ale vyčerpat (srov. [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md)) |
+| Bradshaw/Howard | audit výpočetní propagandy | srovnatelný přehled aktérů a metod napříč státy |
+| Wanless/Berk | publikum jako zesilovač | vysvětlení, proč se oběť manipulace stává i jejím šiřitelem |
+| Benkler a kol. | volby v USA 2016 | strukturální pohled na mediální ekosystém místo hledání jediného viníka |
+| Singer/Brooking | válka na sociálních sítích | propojení vojenských [informačních operací](@/glossary/info-ops.md) s běžnou online komunikací |
 
-## Aplikace v EA kontextu
+## Aplikace v kontextu EA
 
-Současná literatura informačního boje pro **EA-1.x informační vektor** a **EA-2.x institucionální vektor**. Mapping state-level techniques na EA framework. Online radicalization.
+Současná literatura informačního boje slouží pro **EA-1.x informační vektor** a **EA-2.x
+institucionální vektor**: umožňuje přiřadit techniky státních aktérů ke kategoriím rámce EA
+a popsat je jako rozpoznatelné vzorce. Třetím tématem je online radikalizace, kterou kniha
+sleduje v [kazuistice online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md)
+a v [populačních datech](@/kompendium/population-health/08-online-radicalization-prevalence.md).
+
+Z obranného hlediska je hlavním přínosem posun od otázky „kdo lže“ k otázce „jak je prostředí
+uspořádáno, že se nepravda šíří“: obrana proto vedle individuální odolnosti zahrnuje
+[mediální gramotnost](@/kompendium/prevention-resilience/6-media-literacy-prevention.md)
+a kvalitu veřejného diskurzu.
 
 ## Validační status
 
-Bradshaw/Howard — N=70 zemí auditováno. Benkler et al. — empirical analysis 2 years US media. Singer/Brooking — case studies 50+ conflicts. Computational propaganda research project (Oxford) primary source.
+- Bradshaw/Howard: zpráva zmapovala organizovanou manipulaci na sociálních sítích v 70 zemích.
+- Benkler a kol.: empirická analýza rozsáhlého korpusu amerických online médií a jejich
+  sdílení v období volební kampaně a po ní.
+- Singer/Brooking: založeno na rozboru řady konfliktů a případových studií; přesný počet
+  uváděný původní verzí stránky se nepodařilo doložit.
+- Primárním zdrojem dat pro oblast je Computational Propaganda Research Project (Oxford).
 
 ## Limitace
 
-Rapidly evolving pole — books outdated within years. Methodologically heterogeneous (CS, polisci, journalism). Less clinical/individual focus.
+- Rychle se vyvíjející obor: knihy zastarávají během několika let a konkrétní platformy či
+  kampaně, které popisují, už mohou fungovat jinak.
+- Metodická různorodost: informatika, politologie a žurnalistika pracují s odlišnými
+  standardy důkazu.
+- Menší důraz na klinickou a individuální rovinu: literatura popisuje populace a sítě, ne
+  dopad na konkrétního člověka; ten kniha doplňuje z klinické literatury.
 
 ## Vztah k jiným zdrojům
 
-Synergický s **[EA-8.3.6](@/kompendium/techniques/ea-8-3-6-contemporary-cases.md) Contemporary Cases** a **[EA-8.2.4](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) Hassan Cult Criteria** (state totalism). Aktualizace pro **EA-1.x technologie**.
-
-## Cross-linky
-
-- [/kompendium/08-prilohy/](@/kompendium/08-prilohy/_index.md) — Hlavní kapitola Přílohy
-- [/kompendium/techniques/ea-8-3-1-*](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/techniques/ea-8-3-1-*/) — Sourozenecká příloha
-- [/kompendium/techniques/](@/kompendium/techniques/_index.md) — Index všech technik
-- [/kompendium/03-zakladni-kategorie/](@/kompendium/03-zakladni-kategorie/_index.md) — Základní kategorie EA
-- [/kompendium/04-terminalni-protokoly/](@/kompendium/04-terminalni-protokoly/_index.md) — Terminální protokoly
-- [/kompendium/05-ultramari-techniky/](@/kompendium/05-ultramari-techniky/_index.md) — Ultrabrutální techniky
-- [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) — Klinické aplikace
-- [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) — Teoretické reflexe
-- [/kompendium/glossary/](@/glossary/_index.md) — Glosář pojmů
-- [/kompendium/quick-reference/](@/kompendium/quick-reference/_index.md) — Rychlá reference
-- [/kompendium/cross-domain/](@/kompendium/cross-domain/_index.md) — Cross-domain materiály
-- [/kompendium/case-studies/](@/kompendium/case-studies/_index.md) — Případové studie
+Souzní s **[EA-8.3.6](@/kompendium/techniques/ea-8-3-6-contemporary-cases.md) Současnými
+případy** a s **[EA-8.2.4](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) Hassanovými
+kritérii kultu** (státní totalismus). Slouží jako aktualizace pro **technologie EA-1.x**;
+teoretické pozadí dává [EA-8.3.3 Filozofický kánon](@/kompendium/techniques/ea-8-3-3-philosophical-canon.md).
 
 ---
 
-## Connect & Contribute
+## Kontakt a příspěvky
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Promo Site](https://korczis.github.io/prismatic-promo) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Kompendium](@/kompendium/_index.md)
+- [Propagační web](https://korczis.github.io/prismatic-promo) | [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Kompendium](@/kompendium/_index.md)
 
-*Příloha EA frameworku | EA-8.3.10 | Verze 1.0*
+*Příloha rámce EA | EA-8.3.10 | Verze 1.0*
+
+## Související
+
+**Bibliografie**
+
+- [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md) – úplný
+  seznam literatury knihy.
+- [EA-8.3.1 Foundational Readings](@/kompendium/techniques/ea-8-3-1-foundational-readings.md)
+  – základní četba, k níž tato příloha přidává současný rozměr.
+- [EA-8.3.6 Contemporary Cases](@/kompendium/techniques/ea-8-3-6-contemporary-cases.md) –
+  současné případy, které literatura vysvětluje.
+
+**Teorie a pojmy**
+
+- [7.7 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) – algoritmy,
+  AI a deepfakes v teoretických reflexích knihy.
+- [7.54 Chomsky: Manufacturing Consent](@/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent.md)
+  – starší model propagandy, s nímž současná literatura polemizuje.
+- [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) – technika útoku objemem
+  nepravd.
+- [Info-Ops](@/glossary/info-ops.md) – informační operace vojenského typu.
+
+**Obrana**
+
+- [EA × OSINT: Sociální sítě jako bojiště EA](@/kompendium/cross-domain/5-ea-osint-social-media-manipulation.md)
+  – praktické rozpoznávání manipulace na sítích.
+- [Mediální gramotnost](@/kompendium/prevention-resilience/6-media-literacy-prevention.md) –
+  primární prevence na úrovni populace.

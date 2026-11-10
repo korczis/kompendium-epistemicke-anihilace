@@ -1,6 +1,6 @@
 +++
-title = "Boundary Ethics & Protection Philosophy"
-description = "The moral imperative of technical, legal, and conceptual boundaries in software development - how constraints preserve semantic integrity, protect authorial intent."
+title = "Etika hranic a filozofie ochrany"
+description = "Morální imperativ technických, právních a pojmových hranic ve vývoji softwaru: jak omezení chrání sémantickou integritu a autorský záměr."
 weight = 20
 
 [taxonomies]
@@ -21,7 +21,7 @@ color = "emerald"
 
 # SEO & Social
 image = "/images/philosophy/boundary-ethics.png"
-image_alt = "Boundary ethics and protection philosophy in software"
+image_alt = "Etika hranic a filozofie ochrany softwaru"
 og_type = "article"
 twitter_card = "summary_large_image"
 
@@ -50,38 +50,60 @@ date_updated = "2026-02-23"
 date_modified = "2026-02-23"
 +++
 
-## Abstract
+> **Vztah ke knize.** Esej patří do [filozofických základů](@/philosophy/_index.md) platformy
+> Prismatic, z níž Kompendium vzešlo, a vysvětluje licenční rámec GHL, pod nímž je kniha
+> vydána. S obrannou taxonomií knihy sdílí slovník (hranice, význam, integrita), ale mluví
+> o softwaru a autorském díle, ne o lidské psychice: hranice v klinickém smyslu popisuje
+> například heslo [Coercive Control](@/glossary/coercive-control.md).
 
-Boundary ethics represents the philosophical commitment that **constraints are not obstacles but enablers** of authentic creative expression. In the context of software development, boundaries serve as essential protections for semantic integrity, authorial intent, and meaning preservation. This philosophy challenges the prevailing assumption that openness and unrestricted access are inherently positive, arguing instead that well-defined limits create the conditions necessary for genuine value creation.
+## Abstrakt
 
-The framework encompasses four boundary domains: **Technical Boundaries** (cryptographic restrictions, computational constraints, network limitations), **Legal Boundaries** (licensing restrictions, usage prohibitions, enforcement mechanisms), **Conceptual Boundaries** (semantic integrity protection, meaning preservation protocols), and **Temporal Boundaries** (protection against posthumous corruption or misrepresentation).
+Etika hranic je filozofický závazek, podle něhož **omezení nejsou překážky, ale podmínky**
+autentického tvůrčího vyjádření. Ve vývoji softwaru slouží hranice jako nezbytná ochrana
+sémantické integrity, autorského záměru a uchování významu. Tato filozofie zpochybňuje
+převládající předpoklad, že otevřenost a neomezený přístup jsou samy o sobě dobré, a tvrdí
+naopak, že teprve dobře vymezené meze vytvářejí podmínky pro skutečnou tvorbu hodnoty.
 
-## The Paradox of Boundaries
+Rámec zahrnuje čtyři oblasti hranic: **technické hranice** (kryptografická omezení, výpočetní
+omezení, síťová omezení), **právní hranice** (licenční omezení, zákazy užití, mechanismy
+vymáhání), **pojmové hranice** (ochrana sémantické integrity, protokoly uchování významu)
+a **časové hranice** (ochrana před posmrtným zkreslením nebo nepravdivým výkladem).
 
-### Freedom Through Constraint
+## Paradox hranic
 
-One of the most counterintuitive insights of boundary ethics is that **constraints create freedom**. A painter's canvas has edges. A sonnet has fourteen lines. A musical scale has defined intervals. In each case, the boundary does not restrict expression but *enables* it by providing structure within which creativity can flourish.
+### Svoboda skrze omezení
 
-Software shares this property. Without boundaries, software becomes formless, purposeless, and ultimately meaningless. The boundary is not the enemy of creative expression but its essential precondition.
+Jedním z nejméně intuitivních poznatků etiky hranic je, že **omezení vytvářejí svobodu**.
+Malířské plátno má okraje. Sonet má čtrnáct veršů. Hudební stupnice má dané intervaly.
+Hranice v žádném z těchto případů vyjádření neomezuje, ale *umožňuje* je, protože dává
+strukturu, v níž může tvořivost vzkvétat.
 
-### The Unbounded Fallacy
+Software má tutéž vlastnost. Bez hranic se stává beztvarým, bezúčelným a nakonec
+bezvýznamným. Hranice není nepřítelem tvůrčího vyjádření, ale jeho nezbytnou podmínkou.
 
-Modern software culture operates under what might be called the **unbounded fallacy** - the assumption that removing restrictions always increases value. This manifests as:
+### Klam neohraničenosti
 
-1. **Permissive License Enthusiasm**: The belief that fewer restrictions always means better outcomes
-2. **Fork Culture**: The assumption that anyone should be able to modify and redistribute without constraint
-3. **Access Maximalism**: The conviction that more access always produces more value
-4. **Modification Egalitarianism**: The belief that all proposed changes have equal legitimacy
+Současná softwarová kultura se řídí tím, co bychom mohli nazvat **klamem neohraničenosti** –
+předpokladem, že odstranění omezení vždy zvyšuje hodnotu. Projevuje se jako:
 
-These assumptions, while well-intentioned, lead to **semantic entropy** - the gradual degradation of meaning through unbounded modification and redistribution.
+1. **Nadšení pro permisivní licence:** přesvědčení, že méně omezení vždy znamená lepší
+   výsledky.
+2. **Kultura forků:** předpoklad, že kdokoli má mít možnost dílo upravit a dál šířit bez
+   omezení.
+3. **Přístupový maximalismus:** přesvědčení, že víc přístupu vždy přináší víc hodnoty.
+4. **Rovnostářství úprav:** přesvědčení, že všechny navržené změny jsou stejně legitimní.
 
-## Four Domains of Boundary Ethics
+Tyto předpoklady, jakkoli jsou míněny dobře, vedou k **sémantické entropii** – postupnému
+úpadku významu neomezenými úpravami a dalším šířením.
 
-### 1. Technical Boundaries
+## Čtyři oblasti etiky hranic
 
-Technical boundaries are the most tangible form of protection, implemented through code, cryptography, and system architecture:
+### 1. Technické hranice
 
-#### Cryptographic Restrictions
+Technické hranice jsou nejhmatatelnější formou ochrany; uplatňují se kódem, kryptografií
+a architekturou systému.
+
+#### Kryptografická omezení
 
 ```yaml
 cryptographic_boundaries:
@@ -93,42 +115,44 @@ cryptographic_boundaries:
   philosophy: "Technology serves sovereignty"
 ```
 
-Cryptographic boundaries ensure that software invocation remains within authorized parameters. They transform abstract legal permissions into concrete technical realities.
+Kryptografické hranice zajišťují, že invokace softwaru zůstává v autorizovaných mezích.
+Převádějí abstraktní právní oprávnění do konkrétní technické skutečnosti.
 
-#### Computational Constraints
+#### Výpočetní omezení
 
-Computational boundaries define the acceptable scope of software usage:
+Výpočetní hranice vymezují přijatelný rozsah užívání softwaru:
 
-- **Resource Limits**: Maximum processing power, memory allocation, storage consumption
-- **Execution Scope**: Permitted execution environments and platforms
-- **Integration Limits**: Authorized third-party integrations and extensions
-- **Scaling Boundaries**: Maximum scale of deployment and usage
+- **Limity zdrojů:** nejvyšší výpočetní výkon, přidělení paměti, spotřeba úložiště.
+- **Rozsah běhu:** povolená běhová prostředí a platformy.
+- **Limity integrace:** autorizované integrace a rozšíření třetích stran.
+- **Hranice škálování:** nejvyšší rozsah nasazení a užívání.
 
-#### Network Limitations
+#### Síťová omezení
 
-Network boundaries protect against unauthorized distribution and execution:
+Síťové hranice chrání před neoprávněným šířením a spouštěním:
 
-- **Geographic Restrictions**: Jurisdiction-aware access controls
-- **Distribution Controls**: Authorized channels for software distribution
-- **Communication Limits**: Permitted network interactions and data flows
-- **Isolation Requirements**: Mandatory separation from unauthorized systems
+- **Geografická omezení:** řízení přístupu s ohledem na jurisdikci.
+- **Řízení distribuce:** autorizované kanály šíření softwaru.
+- **Komunikační limity:** povolené síťové interakce a datové toky.
+- **Požadavky na izolaci:** povinné oddělení od neautorizovaných systémů.
 
-### 2. Legal Boundaries
+### 2. Právní hranice
 
-Legal boundaries translate philosophical principles into enforceable rights and obligations:
+Právní hranice převádějí filozofické principy do vymahatelných práv a povinností.
 
-#### The GHL Legal Framework
+#### Právní rámec GHL
 
-The [General Honest License](https://prismatic-reality-com.github.io/prismatic-promo/philosophy/ghl-framework/) establishes legal boundaries through:
+[General Honest License](https://prismatic-reality-com.github.io/prismatic-promo/philosophy/ghl-framework/)
+stanoví právní hranice prostřednictvím:
 
-- **Default Prohibition**: All usage requires explicit authorization
-- **Scope Limitation**: Each grant specifies exact permitted usage
-- **Temporal Bounds**: Permissions have defined start and end dates
-- **Revocation Rights**: Author retains absolute authority to withdraw permission
+- **Výchozího zákazu:** každé užití vyžaduje výslovné oprávnění.
+- **Omezení rozsahu:** každé udělení přesně určuje povolené užití.
+- **Časových mezí:** oprávnění mají stanovený začátek a konec.
+- **Práva odvolání:** autor si ponechává absolutní pravomoc svolení odejmout.
 
-#### Enforcement Mechanisms
+#### Mechanismy vymáhání
 
-Legal boundaries require enforcement to maintain integrity:
+Právní hranice potřebují vymáhání, aby si zachovaly integritu:
 
 ```yaml
 enforcement_framework:
@@ -144,29 +168,36 @@ enforcement_framework:
     - community_reporting: "continuous"
 ```
 
-#### Jurisdictional Considerations
+Odstupňovaná odpověď tedy postupuje od upozornění s žádostí o nápravu přes dočasné
+pozastavení oprávnění a trvalé odvolání až po zápis do rejstříku porušitelů přísahy;
+dohled zahrnuje automatickou detekci sémantického driftu, čtvrtletní kontrolu dodržování
+podmínek a průběžná hlášení z komunity.
 
-Legal boundaries must account for cross-jurisdictional complexity:
+#### Jurisdikční hlediska
 
-- **Primary Jurisdiction**: Czech Republic (author's domicile)
-- **International Recognition**: Framework for cross-border enforcement
-- **Cultural Adaptation**: Ceremonial requirements adapted to local legal traditions
-- **Harmonization**: Alignment with existing intellectual property frameworks
+Právní hranice musejí počítat se složitostí více jurisdikcí:
 
-### 3. Conceptual Boundaries
+- **Primární jurisdikce:** Česká republika (bydliště autora).
+- **Mezinárodní uznání:** rámec pro přeshraniční vymáhání.
+- **Kulturní adaptace:** ceremoniální požadavky přizpůsobené místním právním tradicím.
+- **Harmonizace:** soulad s existujícími rámci duševního vlastnictví.
 
-Conceptual boundaries protect the most vulnerable aspect of software: its **meaning**.
+### 3. Pojmové hranice
 
-#### Semantic Integrity Protection
+Pojmové hranice chrání nejzranitelnější stránku softwaru: jeho **význam**.
 
-Software carries meaning beyond its functional behavior. A function name, an architectural pattern, a comment structure all convey the author's intent. Conceptual boundaries protect this semantic layer:
+#### Ochrana sémantické integrity
 
-- **Interpretation Authority**: The author's final word on intended meaning
-- **Modification Controls**: Restrictions on changes that alter semantic content
-- **Derivative Limits**: Boundaries on works that may misrepresent original intent
-- **Context Preservation**: Requirements for maintaining proper context in citations and references
+Software nese význam přesahující jeho funkční chování. Název funkce, architektonický vzor
+i struktura komentářů – to vše sděluje autorův záměr. Pojmové hranice chrání tuto
+sémantickou vrstvu:
 
-#### Meaning Preservation Protocols
+- **Interpretační autorita:** poslední slovo autora o zamýšleném významu.
+- **Kontrola úprav:** omezení změn, které mění sémantický obsah.
+- **Meze odvozených děl:** hranice pro díla, která by mohla zkreslit původní záměr.
+- **Uchování kontextu:** požadavky na zachování správného kontextu v citacích a odkazech.
+
+#### Protokoly uchování významu
 
 ```yaml
 meaning_preservation:
@@ -182,32 +213,45 @@ meaning_preservation:
     - author_consultation: "dispute resolution"
 ```
 
-#### The Problem of Semantic Drift
+Základní principy protokolu zní: původní záměr musí být dohledatelný, úpravy musejí být
+zřetelně označeny, autorův výklad má přednost před výkladem uživatele a kontext nelze od
+obsahu oddělit. Porušení odhaluje automatické srovnání s originálem, pravidelné komunitní
+ověřování významu a konzultace s autorem při sporu.
 
-Without conceptual boundaries, software suffers from **semantic drift** - the gradual corruption of original meaning through successive modifications:
+#### Problém sémantického driftu
+
+Bez pojmových hranic trpí software **sémantickým driftem** – postupným zkreslováním
+původního významu po sobě jdoucími úpravami:
 
 ```
 Original Meaning (T0) → Community Interpretation (T1) → Fork Modifications (T2) → Semantic Corruption (T3)
 ```
 
-Each step introduces new assumptions, priorities, and interpretations that may conflict with the author's original intent. Conceptual boundaries interrupt this drift cycle by requiring explicit authorization for meaning-bearing changes.
+(Původní význam v čase T0 → výklad komunity v T1 → úpravy ve forku v T2 → sémantické
+zkreslení v T3.)
 
-### 4. Temporal Boundaries
+Každý krok přináší nové předpoklady, priority a výklady, které mohou být v rozporu
+s původním autorovým záměrem. Pojmové hranice tento cyklus driftu přerušují tím, že pro
+změny nesoucí význam vyžadují výslovné oprávnění. Strukturálně příbuzný jev na úrovni
+lidského porozumění popisuje kniha jako
+[hermeneutickou erozi](@/glossary/hermeneuticka-eroze.md).
 
-Temporal boundaries address the unique challenge of protecting meaning across time:
+### 4. Časové hranice
 
-#### Posthumous Protection
+Časové hranice řeší zvláštní úkol: chránit význam napříč časem.
 
-The GHL framework includes provisions for protecting software meaning beyond the author's lifetime:
+#### Posmrtná ochrana
 
-- **Successor Designation**: Named individuals authorized to make sovereignty decisions
-- **Preservation Trusts**: Legal structures for long-term meaning protection
-- **Version Freezing**: Mechanisms for locking specific versions against modification
-- **Legacy Documentation**: Comprehensive records of authorial intent
+Rámec GHL obsahuje ustanovení o ochraně významu softwaru i po autorově smrti:
 
-#### Version Sovereignty
+- **Určení nástupce:** jmenované osoby oprávněné rozhodovat o suverenitě.
+- **Svěřenské struktury pro uchování:** právní struktury pro dlouhodobou ochranu významu.
+- **Zmrazení verzí:** mechanismy, které konkrétní verze uzamknou proti úpravám.
+- **Dokumentace odkazu:** úplné záznamy autorského záměru.
 
-Different versions of software may carry different permissions and protections:
+#### Suverenita verzí
+
+Různé verze softwaru mohou nést různá oprávnění a různou ochranu:
 
 ```yaml
 version_sovereignty:
@@ -227,170 +271,225 @@ version_sovereignty:
     usage: "internal_testing_only"
 ```
 
-#### Temporal Decay of Permissions
+Verze 1.0 je tedy zmrazená, bez možnosti úprav a s užitím omezeným na existující udělení;
+verze 2.0 je aktivní, úpravy vyžadují výslovné udělení a užití se řídí standardním
+ceremoniálním postupem; vývojová verze je nevydaná, upravovat ji smí jen autor a slouží jen
+k internímu testování.
 
-Permissions granted under the GHL have explicit temporal bounds:
+#### Časový úbytek oprávnění
 
-- **Grant Duration**: Specified in the permission document
-- **Renewal Requirements**: Process for extending expired permissions
-- **Automatic Expiration**: Permissions lapse without active renewal
-- **Legacy Provisions**: Special rules for long-standing community members
+Oprávnění udělená podle GHL mají výslovné časové meze:
 
-## Philosophical Foundations
+- **Doba udělení:** stanovená v dokumentu o oprávnění.
+- **Požadavky na obnovení:** postup prodloužení oprávnění, jehož platnost skončila.
+- **Automatický zánik:** bez aktivního obnovení oprávnění zaniká.
+- **Ustanovení pro dlouholeté členy:** zvláštní pravidla pro dlouholeté členy komunity.
 
-### Boundaries as Ethical Imperatives
+## Filozofické základy
 
-Boundary ethics is not merely practical but represents a **moral commitment** to several principles:
+### Hranice jako etické imperativy
 
-#### Respect for Creative Work
+Etika hranic není jen praktická; představuje **morální závazek** k několika principům.
 
-Boundaries express respect for the intellectual investment required to create software. Just as we respect the boundaries of a painting (we don't paint over another artist's work), we should respect the boundaries of software.
+#### Úcta k tvůrčímu dílu
 
-#### Protection of Vulnerable Meaning
+Hranice vyjadřují úctu k intelektuální investici, kterou tvorba softwaru vyžaduje. Stejně
+jako respektujeme hranice obrazu (nepřemalováváme dílo jiného umělce), měli bychom
+respektovat i hranice softwaru.
 
-Meaning, unlike code, cannot be compiled or tested. It exists in the space between author and user, vulnerable to corruption, misrepresentation, and degradation. Boundaries protect this vulnerable meaning.
+#### Ochrana zranitelného významu
 
-#### Authentic Relationship
+Význam na rozdíl od kódu nelze zkompilovat ani otestovat. Existuje v prostoru mezi autorem
+a uživatelem, vydán napospas zkreslení, nepravdivému výkladu a úpadku. Hranice tento
+zranitelný význam chrání.
 
-Boundaries create the conditions for authentic relationships between creators and users. Without boundaries, the relationship devolves into exploitation. With boundaries, it can become genuine partnership.
+#### Autentický vztah
 
-#### Sustainable Creation
+Hranice vytvářejí podmínky pro autentický vztah mezi tvůrci a uživateli. Bez hranic se vztah
+zvrhává ve vykořisťování. S hranicemi se může stát skutečným partnerstvím.
 
-Unbounded exploitation of creative work leads to burnout, abandonment, and degradation. Boundaries create sustainable conditions for ongoing creative investment.
+#### Udržitelná tvorba
 
-### The Ethics of Breaking Boundaries
+Neomezené vytěžování tvůrčího díla vede k vyhoření, opuštění a úpadku. Hranice vytvářejí
+udržitelné podmínky pro trvalou tvůrčí investici.
 
-Boundary ethics also addresses the question of when boundaries may be legitimately challenged:
+### Etika překračování hranic
 
-#### Legitimate Boundary Challenges
+Etika hranic se zabývá i otázkou, kdy lze hranice legitimně zpochybnit.
 
-- **Error Correction**: When boundaries protect factual errors
-- **Safety Issues**: When boundaries prevent necessary safety improvements
-- **Legal Requirements**: When external legal obligations conflict with boundaries
-- **Author Consent**: When the author agrees to boundary modification
+#### Legitimní zpochybnění hranic
 
-#### Illegitimate Boundary Violations
+- **Oprava chyb:** když hranice chrání faktické chyby.
+- **Bezpečnost:** když hranice brání nezbytnému zlepšení bezpečnosti.
+- **Zákonné požadavky:** když jsou vnější právní povinnosti s hranicemi v rozporu.
+- **Souhlas autora:** když autor se změnou hranic souhlasí.
 
-- **Convenience**: Breaking boundaries for user convenience
-- **Commercial Interest**: Violating boundaries for profit
-- **Disagreement**: Ignoring boundaries due to philosophical disagreement
-- **Negligence**: Unintentional boundary violations due to carelessness
+#### Nelegitimní porušení hranic
 
-## Integration with Platform Philosophy
+- **Pohodlí:** porušení hranic kvůli pohodlí uživatele.
+- **Obchodní zájem:** porušení hranic kvůli zisku.
+- **Nesouhlas:** přehlížení hranic kvůli filozofickému nesouhlasu.
+- **Nedbalost:** neúmyslné porušení hranic z nepozornosti.
 
-### Alignment with NO MERCY, NO DOUBTS
+## Začlenění do filozofie platformy
 
-The platform's core [doctrine](@/glossary/doctrine.md) aligns with boundary ethics:
+### Soulad s NO MERCY, NO DOUBTS
 
-- **NO MERCY**: Zero tolerance for boundary violations preserves integrity
-- **NO DOUBTS**: Clear boundaries eliminate ambiguity in decision-making
+Základní [doktrína](@/glossary/doctrine.md) platformy,
+[NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md), je v souladu s etikou hranic:
 
-### NABLA Infinity Compatibility
+- **NO MERCY:** nulová tolerance k porušení hranic chrání integritu.
+- **NO DOUBTS:** jasné hranice odstraňují nejednoznačnost v rozhodování.
 
-The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic framework supports boundary ethics through:
+### Slučitelnost s NABLA Infinity
 
-- **Provenance Mandatory**: All boundary crossings must be traceable
-- **[Signal Plurality](@/glossary/signal-plurality.md)**: Multiple signals validate boundary compliance
-- **Time Decay**: Boundary permissions have explicit temporal bounds
-- **Contradiction Preservation**: Both permission and restriction are maintained simultaneously
+Epistemický rámec [NABLA Infinity](@/glossary/nabla-infinity.md) podporuje etiku hranic
+prostřednictvím:
 
-### Trinity Gate Integration
+- **Povinné provenience:** každé překročení hranice musí být dohledatelné.
+- **[Plurality signálů](@/glossary/signal-plurality.md):** dodržení hranic potvrzuje více
+  signálů.
+- **Časového úbytku:** oprávnění překročit hranici mají výslovné časové meze.
+- **Uchování rozporů:** svolení i omezení se zachovávají současně.
 
-Boundary-related decisions pass through the [Trinity Gate](@/glossary/trinity-gate.md):
+### Začlenění do Trinity Gate
 
-1. **Structural Consistency**: Boundary structure forms valid logical framework
-2. **Logical Consistency**: Permission and restriction follow logical rules
-3. **Formal Necessity**: Mathematical proofs validate boundary enforcement
+Rozhodnutí týkající se hranic procházejí [Trinity Gate](@/glossary/trinity-gate.md):
 
-## Practical Applications
+1. **Strukturální konzistence:** struktura hranic tvoří platný logický rámec.
+2. **Logická konzistence:** svolení a omezení se řídí logickými pravidly.
+3. **Formální nutnost:** vymáhání hranic potvrzují matematické důkazy.
 
-### For Software Creators
+## Praktické uplatnění
 
-Boundary ethics provides creators with:
+### Pro tvůrce softwaru
 
-- **Clear Framework**: Systematic approach to defining boundaries
-- **Enforcement Tools**: Technical and legal mechanisms for boundary protection
-- **Community Model**: Ceremonial compliance creates respectful user communities
-- **Sustainable Practice**: Boundaries enable long-term creative investment
+Etika hranic dává tvůrcům:
 
-### For Organizations
+- **Jasný rámec:** systematický přístup k vymezení hranic.
+- **Nástroje vymáhání:** technické a právní mechanismy ochrany hranic.
+- **Komunitní model:** ceremoniální dodržování pravidel vytváří uctivé komunity uživatelů.
+- **Udržitelnou praxi:** hranice umožňují dlouhodobou tvůrčí investici.
 
-Organizations benefit through:
+### Pro organizace
 
-- **Risk Reduction**: Clear boundaries reduce legal and technical risks
-- **Quality Assurance**: Bounded usage prevents degradation
-- **Partnership Model**: Ceremonial compliance builds authentic relationships
-- **[Compliance Framework](@/glossary/compliance-framework.md)**: Clear requirements simplify governance
+Organizace získávají:
 
-### For the Ecosystem
+- **Snížení rizik:** jasné hranice snižují právní a technická rizika.
+- **Zajištění kvality:** ohraničené užívání brání úpadku.
+- **Model partnerství:** ceremoniální dodržování pravidel buduje autentické vztahy.
+- **[Rámec souladu](@/glossary/compliance-framework.md):** jasné požadavky
+  zjednodušují správu.
 
-The broader ecosystem gains:
+### Pro ekosystém
 
-- **Diversity**: Alternative models to unrestricted access
-- **Sustainability**: Boundary-based models support long-term creation
-- **Respect**: Recognition of creative investment and authorial intent
-- **Quality**: Bounded systems maintain higher quality over time
+Širší ekosystém získává:
 
-## Challenges and Responses
+- **Rozmanitost:** alternativní modely k neomezenému přístupu.
+- **Udržitelnost:** modely založené na hranicích podporují dlouhodobou tvorbu.
+- **Úctu:** uznání tvůrčí investice a autorského záměru.
+- **Kvalitu:** ohraničené systémy si v čase udržují vyšší kvalitu.
 
-### Common Objections
+## Výzvy a odpovědi
 
-#### “Boundaries Restrict Innovation”
+### Časté námitky
 
-**Response**: Boundaries direct innovation rather than restricting it. The most creative work in any domain occurs within constraints, not in their absence.
+#### „Hranice omezují inovace“
 
-#### “Boundaries Create Silos”
+**Odpověď:** Hranice inovace usměrňují, neomezují. Nejtvořivější práce v kterékoli oblasti
+vzniká uvnitř omezení, ne v jejich nepřítomnosti.
 
-**Response**: Boundaries create defined interfaces, not silos. Well-designed boundaries enable interoperability while preserving integrity.
+#### „Hranice vytvářejí sila“
 
-#### “Boundaries Are Elitist”
+**Odpověď:** Hranice vytvářejí definovaná rozhraní, ne sila. Dobře navržené hranice umožňují
+interoperabilitu a zároveň chrání integritu.
 
-**Response**: Boundaries protect the rights of creators regardless of their status. They are egalitarian in principle even if their effects differ by context.
+#### „Hranice jsou elitářské“
 
-### Implementation Challenges
+**Odpověď:** Hranice chrání práva tvůrců bez ohledu na jejich postavení. Jsou v principu
+rovnostářské, i když se jejich účinky podle kontextu liší.
 
-- **Defining Appropriate Boundaries**: Too narrow restricts legitimate usage; too broad provides insufficient protection
-- **Enforcement Costs**: Monitoring and enforcing boundaries requires ongoing investment
-- **Cultural Resistance**: The software community's open-source culture may resist boundary-based models
-- **Legal Complexity**: Cross-jurisdictional enforcement of boundary violations remains challenging
+### Úskalí provedení
 
-## Future Directions
+- **Vymezení přiměřených hranic:** příliš úzké omezují legitimní užití, příliš široké
+  neposkytují dostatečnou ochranu.
+- **Náklady vymáhání:** dohled nad hranicemi a jejich vymáhání vyžaduje trvalou investici.
+- **Kulturní odpor:** kultura otevřeného softwaru se může modelům založeným na hranicích
+  bránit.
+- **Právní složitost:** přeshraniční vymáhání porušení hranic zůstává obtížné.
 
-### Adaptive Boundaries
+## Směry dalšího vývoje
 
-Future development includes boundaries that adapt to context:
+### Adaptivní hranice
 
-- **Context-Aware Permissions**: Boundaries that adjust based on usage context
-- **Community-Calibrated Limits**: Boundaries informed by community feedback
-- **Performance-Based Access**: Permissions that expand based on compliance history
-- **Evolutionary Boundaries**: Limits that develop with the software's maturity
+Další vývoj počítá s hranicemi, které se přizpůsobují kontextu:
 
-### Technical Innovation
+- **Oprávnění citlivá na kontext:** hranice, které se mění podle kontextu užití.
+- **Limity kalibrované komunitou:** hranice utvářené zpětnou vazbou komunity.
+- **Přístup podle výkonu:** oprávnění, která se rozšiřují podle historie dodržování.
+- **Vývojové hranice:** meze, které se vyvíjejí s dospíváním softwaru.
 
-- **Smart Contract Boundaries**: Blockchain-based automatic boundary enforcement
-- **AI-Assisted Monitoring**: Machine learning for semantic drift detection
-- **Distributed Enforcement**: Peer-to-peer boundary verification networks
-- **Formal Verification**: Mathematical proof of boundary completeness
+### Technické inovace
 
-## Conclusion
+- **Hranice v chytrých kontraktech:** automatické vymáhání hranic na blockchainu.
+- **Dohled s pomocí AI:** strojové učení pro detekci sémantického driftu.
+- **Distribuované vymáhání:** sítě ověřování hranic mezi rovnými uzly (*peer-to-peer*).
+- **Formální verifikace:** matematický důkaz úplnosti hranic.
 
-### The Moral Case for Boundaries
+## Závěr
 
-Boundary ethics argues that constraints are not merely practical necessities but **moral imperatives**. In an age of unrestricted access and casual consumption, boundaries preserve the conditions necessary for authentic creative expression, meaningful relationships, and sustainable development.
+### Morální argument pro hranice
 
-The General Honest License embodies this philosophy by establishing clear, enforceable boundaries that protect authorial intent while enabling conscious engagement. These boundaries do not restrict freedom but create the structured space within which genuine freedom can flourish.
+Etika hranic tvrdí, že omezení nejsou jen praktické nezbytnosti, ale **morální imperativy**.
+V době neomezeného přístupu a bezmyšlenkovité spotřeby uchovávají hranice podmínky nezbytné
+pro autentické tvůrčí vyjádření, smysluplné vztahy a udržitelný vývoj.
 
-### An Invitation to Bounded Creativity
+General Honest License tuto filozofii ztělesňuje tím, že stanoví jasné, vymahatelné hranice,
+které chrání autorský záměr a zároveň umožňují vědomé zapojení. Tyto hranice svobodu
+neomezují, ale vytvářejí strukturovaný prostor, v němž může skutečná svoboda vzkvétat.
 
-Boundary ethics invites both creators and users to embrace constraints as enablers rather than obstacles. For creators, boundaries provide protection and sustainability. For users, boundaries create the conditions for authentic engagement and meaningful relationship with creative works.
+### Pozvání k ohraničené tvořivosti
 
-The future of software lies not in the removal of all boundaries but in the thoughtful design of boundaries that protect meaning, enable creativity, and foster authentic community.
+Etika hranic zve tvůrce i uživatele, aby přijali omezení jako podmínky, a ne jako překážky.
+Tvůrcům hranice dávají ochranu a udržitelnost. Uživatelům vytvářejí podmínky pro autentické
+zapojení a smysluplný vztah k tvůrčím dílům.
+
+Budoucnost softwaru nespočívá v odstranění všech hranic, ale v promyšleném návrhu hranic,
+které chrání význam, umožňují tvořivost a pěstují autentickou komunitu.
 
 ---
 
-## Connect & Contribute
+## Kontakt a příspěvky
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+
+## Související
+
+**Eseje tohoto oddílu**
+
+- [Filozofické základy a filozofie licencování](@/philosophy/_index.md) – přehled rámce GHL,
+  do něhož etika hranic patří jako čtvrtý princip.
+- [Intelektuální suverenita a autorská nezávislost](@/philosophy/intellectual-sovereignty.md)
+  – právo, které hranice chrání.
+- [Epistemická integrita a uchování významu](@/philosophy/epistemic-integrity.md) – pojmové
+  a časové hranice z hlediska významu.
+
+**Pojmy platformy**
+
+- [No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md) – doktrinální zásada, s níž je
+  etika hranic v souladu.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – provenience a časový úbytek oprávnění.
+- [Compliance Framework](@/glossary/compliance-framework.md) – jak se hranice promítají do
+  správy organizace.
+
+**Kniha**
+
+- [1.6 Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) – proč
+  kniha nese filozofii platformy.
+- [Hermeneutická eroze](@/glossary/hermeneuticka-eroze.md) – lidská obdoba sémantického
+  driftu, jak ji popisuje taxonomie.
+- [Coercive Control](@/glossary/coercive-control.md) – hranice v klinickém smyslu: jak jejich
+  systematické porušování poškozuje člověka.

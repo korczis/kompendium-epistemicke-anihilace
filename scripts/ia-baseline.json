@@ -290,9 +290,6 @@
  "content/kompendium/07-teoreticke-reflexe/visualizations.md": [
   "detail"
  ],
- "content/kompendium/08-prilohy/bibliografie.md": [
-  "czech"
- ],
  "content/kompendium/08-prilohy/diagnosticke-nastroje.md": [
   "related"
  ],
@@ -1389,17 +1386,7 @@
  "content/kompendium/prevention-resilience/10-public-discourse-quality.md": [
   "detail"
  ],
- "content/kompendium/prevention-resilience/11-early-screening-EA.md": [
-  "description",
-  "czech",
-  "detail"
- ],
  "content/kompendium/prevention-resilience/12-warning-sign-recognition.md": [
-  "detail"
- ],
- "content/kompendium/prevention-resilience/13-rapid-response-protocol.md": [
-  "description",
-  "czech",
   "detail"
  ],
  "content/kompendium/prevention-resilience/14-de-escalation-prevention.md": [
@@ -1430,27 +1417,12 @@
   "description",
   "detail"
  ],
- "content/kompendium/prevention-resilience/20-peer-vigilance-prevention.md": [
-  "description",
-  "czech",
-  "detail"
- ],
  "content/kompendium/prevention-resilience/21-relapse-prevention-EA.md": [
   "description",
   "detail"
  ],
- "content/kompendium/prevention-resilience/22-post-EA-network-rebuilding.md": [
-  "description",
-  "czech",
-  "detail"
- ],
  "content/kompendium/prevention-resilience/23-skills-rebuilding-program.md": [
   "description",
-  "detail"
- ],
- "content/kompendium/prevention-resilience/24-meaning-restoration-prevention.md": [
-  "description",
-  "czech",
   "detail"
  ],
  "content/kompendium/prevention-resilience/25-vocational-rehabilitation-prevention.md": [
@@ -1459,21 +1431,6 @@
  ],
  "content/kompendium/prevention-resilience/26-family-reintegration-prevention.md": [
   "description",
-  "detail"
- ],
- "content/kompendium/prevention-resilience/27-community-reintegration-prevention.md": [
-  "description",
-  "czech",
-  "detail"
- ],
- "content/kompendium/prevention-resilience/28-spiritual-restoration-prevention.md": [
-  "description",
-  "czech",
-  "detail"
- ],
- "content/kompendium/prevention-resilience/29-cultural-restoration-prevention.md": [
-  "description",
-  "czech",
   "detail"
  ],
  "content/kompendium/prevention-resilience/3-family-resilience-EA.md": [
@@ -3034,15 +2991,10 @@
   "detail"
  ],
  "content/kompendium/techniques/ea-8-3-10-information-warfare-literature.md": [
-  "czech",
   "detail"
  ],
  "content/kompendium/techniques/ea-8-3-2-clinical-handbook.md": [
   "not-orphan",
-  "detail"
- ],
- "content/kompendium/techniques/ea-8-3-3-philosophical-canon.md": [
-  "czech",
   "detail"
  ],
  "content/kompendium/techniques/ea-8-3-4-empirical-research-base.md": [
@@ -3052,10 +3004,6 @@
   "detail"
  ],
  "content/kompendium/techniques/ea-8-3-6-contemporary-cases.md": [
-  "detail"
- ],
- "content/kompendium/techniques/ea-8-3-7-interdisciplinary-anthology.md": [
-  "czech",
   "detail"
  ],
  "content/kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md": [
@@ -3293,21 +3241,5 @@
  "content/kompendium/techniques/ea-9-6-9-AI-immigration-decision.md": [
   "description",
   "related"
- ],
- "content/philosophy/_index.md": [
-  "czech"
- ],
- "content/philosophy/boundary-ethics.md": [
-  "czech",
-  "related"
- ],
- "content/philosophy/epistemic-integrity.md": [
-  "czech",
-  "related"
- ],
- "content/philosophy/intellectual-sovereignty.md": [
-  "czech",
-  "related",
-  "links-out"
  ]
 }

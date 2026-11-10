@@ -1,11 +1,11 @@
 +++
 title = "Bibliografie a primární literatura"
-description = "Systematicky uspořádaná primární a sekundární literatura kompendia — Foucault, Habermas, Lifton, Fricker, Kahneman, Popper, Kuhn, Lakatos, Husserl, Gadamer, Arendt, Klemperer."
+description = "Tematicky uspořádaná primární a sekundární literatura Kompendia: epistemologie, fenomenologie, kritická teorie, totalitarismus, kognitivní psychologie a klinika traumatu."
 weight = 1
 sort_by = "weight"
 
 [taxonomies]
-tags = ["kompendium", "08-prilohy"]
+tags = ["kompendium", "08-prilohy", "reference", "bibliografie"]
 
 [extra]
 related_terms = ["diagnosticke-nastroje", "dual-use", "eticky-kodex"]
@@ -25,40 +25,42 @@ status = "complete"
 
 ## Metodická poznámka
 
-Bibliografie není exhaustivní — je **funkční**. Obsahuje pouze prameny, které jsou skutečně využity v hlavním textu kompendia nebo v per-technique článcích. Citace ve formátu **autor–datum**; plné publikační údaje pro nejčastěji citované klasiky uvedeny u prvního výskytu v daném tematickém bloku. Bibliografie sleduje konvenci [APA 7. vydání](https://apastyle.apa.org/) s odchylkami pro filozofickou primární literaturu (preferujeme původní rok prvního vydání).
+Bibliografie není exhaustivní — je **funkční**. Obsahuje pouze prameny, které jsou skutečně využity v hlavním textu kompendia nebo v per-technique článcích. Citace ve formátu **autor–datum**; plné publikační údaje pro nejčastěji citované klasiky jsou uvedeny u prvního výskytu v daném tematickém bloku. Bibliografie sleduje konvenci [APA 7. vydání](https://apastyle.apa.org/) s odchylkami pro filozofickou primární literaturu (preferujeme původní rok prvního vydání; dvojice let jako 1934/1959 značí první vydání a citované vydání).
+
+Každý záznam má dvě části: bibliografický údaj, který se ponechává ve znění originálu (názvy děl se nepřekládají), a za pomlčkou stručnou poznámku, k čemu kniha dílo používá. Poznámka není shrnutím díla; jen ukazuje, který pojem nebo argument se z něj do Kompendia přenáší. Podrobnější anotované výběry pro jednotlivé oblasti jsou v oddílu EA-8.3, například [EA-8.3.3 Filozofický kánon](@/kompendium/techniques/ea-8-3-3-philosophical-canon.md), [EA-8.3.7 Interdisciplinární antologie](@/kompendium/techniques/ea-8-3-7-interdisciplinary-anthology.md) a [EA-8.3.10 Literatura informační války](@/kompendium/techniques/ea-8-3-10-information-warfare-literature.md).
 
 ---
 
 ## I. Epistemologie a filozofie vědy
 
-Tato vrstva poskytuje teoretický rámec pro pojmy **[falsifikovatelnost](@/glossary/falsifikovatelnost.md)**, **paradigma**, **vědecká revoluce** a **[demarkační problém](@/glossary/demarkacni-problem.md)** — kritické pro analýzu technik [imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) a [strategické reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md).
+Tato vrstva poskytuje teoretický rámec pro pojmy **[falsifikovatelnost](@/glossary/falsifikovatelnost.md)**, **paradigma**, **vědecká revoluce** a **[demarkační problém](@/glossary/demarkacni-problem.md)** — kritické pro analýzu technik [imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) a [strategické reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md). Kniha z nich přebírá hlavně měřítko: přesvědčení, které nelze ničím vyvrátit a které každý protiargument jen dál potvrzuje, je varovným znakem, ne známkou síly.
 
-- **Popper, K. R.** (1934/1959). *The Logic of Scientific Discovery* [*Logik der Forschung*]. London: Hutchinson. — [Falsifikace](@/glossary/falsifikace.md), demarkační kritérium, otevřená společnost.
-- **Popper, K. R.** (1945). *The Open Society and Its Enemies*. London: Routledge. — Kritika historicismu, intelektuální poctivost.
-- **Kuhn, T. S.** (1962/1970). *The Structure of Scientific Revolutions* (2nd ed.). Chicago: University of Chicago Press. — Paradigmatický posun, [normální věda](@/glossary/normalni-veda.md), neměřitelnost paradigmat.
+- **Popper, K. R.** (1934/1959). *The Logic of Scientific Discovery* [*Logik der Forschung*]. London: Hutchinson. — [Falsifikace](@/glossary/falsifikace.md), demarkační kritérium.
+- **Popper, K. R.** (1945). *The Open Society and Its Enemies*. London: Routledge. — Otevřená společnost, kritika historicismu, intelektuální poctivost.
+- **Kuhn, T. S.** (1962/1970). *The Structure of Scientific Revolutions* (2nd ed.). Chicago: University of Chicago Press. — Paradigmatický posun, [normální věda](@/glossary/normalni-veda.md), nesouměřitelnost paradigmat.
 - **Lakatos, I.** (1970). *Falsification and the Methodology of Scientific Research Programmes*. In: Lakatos & Musgrave (Eds.), *Criticism and the Growth of Knowledge*. Cambridge University Press. — Tvrdé jádro, ochranný pás, progresivní vs. degenerativní programy.
 - **Feyerabend, P. K.** (1975). *Against Method*. London: New Left Books. — Anarchistická epistemologie, kritika metodologického monopolu.
-- **Quine, W. V. O.** (1951). *Two Dogmas of Empiricism*. *Philosophical Review*, 60(1), 20–43. — Holistická revize, neúčinnost analyticko-syntetické distinkce.
+- **Quine, W. V. O.** (1951). *Two Dogmas of Empiricism*. *Philosophical Review*, 60(1), 20–43. — Holistická revize přesvědčení, odmítnutí ostrého rozlišení analytických a syntetických soudů.
 - **Hacking, I.** (1999). *The Social Construction of What?* Cambridge: Harvard University Press. — Kontingence vědeckých kategorií.
 
 ## II. Fenomenologie a hermeneutika
 
-Pramen pojmů **[intencionalita](@/glossary/intentionalita.md)**, **životní svět**, **horizont**, **[fúze horizontů](@/glossary/fuze-horizontu.md)** — využíváno v analýze [referencí rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md) a [singulárního narativního kolapsu](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md).
+Pramen pojmů **[intencionalita](@/glossary/intentionalita.md)**, **životní svět**, **horizont**, **[fúze horizontů](@/glossary/fuze-horizontu.md)** — využíváno v analýze [referenční rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md) a [singulárního narativního kolapsu](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md). Fenomenologie dává jazyk pro to, co se s člověkem děje „zevnitř“, když se mu rozpadá samozřejmý svět, v němž dosud žil; hermeneutika ukazuje, že porozumění je vždy výklad, a proto je i místem, kde se dá zasáhnout.
 
 - **Husserl, E.** (1913/1976). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie*. Den Haag: Nijhoff. — Intencionalita, fenomenologická redukce, eidetická intuice.
 - **Husserl, E.** (1936). *Die Krisis der europäischen Wissenschaften und die transzendentale Phänomenologie*. — Životní svět (*[Lebenswelt](@/glossary/lebenswelt.md)*), krize evropských věd.
 - **Heidegger, M.** (1927). *Sein und Zeit*. Tübingen: Niemeyer. — Bytí-ve-světě, předporozumění, existenciální analytika.
 - **Gadamer, H.-G.** (1960). *Wahrheit und Methode*. Tübingen: Mohr Siebeck. — [Hermeneutický kruh](@/glossary/hermeneuticky-kruh.md), fúze horizontů, předsudek jako podmínka porozumění.
 - **Ricœur, P.** (1965). *De l'interprétation: Essai sur Freud*. Paris: Seuil. — [Hermeneutika](@/glossary/hermeneutika.md) podezření, dvojí interpretace.
-- **Merleau-Ponty, M.** (1945). *Phénoménologie de la perception*. Paris: Gallimard. — Tělesnost, vnímání, prostorový schémat.
+- **Merleau-Ponty, M.** (1945). *Phénoménologie de la perception*. Paris: Gallimard. — Tělesnost, vnímání, [tělesné schéma](@/glossary/body-schema.md).
 
 ## III. Kritická teorie a teorie společnosti
 
-Rámec pro analýzu **diskursu**, **mocenských vztahů**, **deformované komunikace** a **veřejné sféry** — klíčový pro sekci 03 (Akademické techniky) a [strategickou proxemiku](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md).
+Rámec pro analýzu **diskursu**, **mocenských vztahů**, **deformované komunikace** a **veřejné sféry** — klíčový pro sekci 03 (Akademické techniky) a [strategickou proxemiku](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md). Tyto prameny pomáhají rozpoznat, kdy se rozhovor, který se tváří jako výměna argumentů, ve skutečnosti řídí mocí, a jak se kontrola přesouvá do sebepojetí toho, kdo je jí vystaven.
 
 - **Foucault, M.** (1969). *L'Archéologie du savoir*. Paris: Gallimard. — [Diskursivní formace](@/glossary/diskursivni-formace.md), archeologie vědění.
 - **Foucault, M.** (1975). *Surveiller et punir*. Paris: Gallimard. — Disciplinární moc, [panoptismus](@/glossary/panopticism.md), normalizující sankce.
-- **Foucault, M.** (1976–1984). *Histoire de la sexualité* (sv. 1–3). Paris: Gallimard. — Bio-moc, technologie self.
+- **Foucault, M.** (1976–1984). *Histoire de la sexualité* (sv. 1–3). Paris: Gallimard. — Biomoc, technologie sebe (*technologies of the self*).
 - **Habermas, J.** (1981). *Theorie des kommunikativen Handelns* (sv. 1–2). Frankfurt: Suhrkamp. — [Komunikativní racionalita](@/glossary/communicative-rationality.md), [ideální řečová situace](@/glossary/ideal-speech-situation.md), kolonizace životního světa.
 - **Habermas, J.** (1962/1990). *Strukturwandel der Öffentlichkeit*. Frankfurt: Suhrkamp. — [Veřejná sféra](@/glossary/verejna-sfera.md), deformace.
 - **Adorno, T. W., & Horkheimer, M.** (1944/1969). *Dialektik der Aufklärung*. Frankfurt: Fischer. — Kulturní průmysl, dialektika osvícení.
@@ -67,10 +69,10 @@ Rámec pro analýzu **diskursu**, **mocenských vztahů**, **deformované komuni
 
 ## IV. Totalitarismus a politická psychologie
 
-Empirický rámec pro [terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) a kapitolu o **kolektivní destrukci epistemických struktur**.
+Empirický rámec pro [terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) a kapitolu o **kolektivní destrukci epistemických struktur**. Patří sem i klasická díla o reformě myšlení, z nichž vycházejí detekční rámce knihy, jako je [BITE Framework](@/kompendium/techniques/ea-8-2-1-bite-framework.md).
 
-- **Arendt, H.** (1951/1973). *The Origins of Totalitarianism* (3rd ed.). New York: Harcourt. — Atomizace, ideologická logika, [banalita zla](@/glossary/banalita-zla.md).
-- **Arendt, H.** (1963). *Eichmann in Jerusalem: A Report on the Banality of Evil*. New York: Viking. — Mizení reflexivity v byrokratickém aparátu.
+- **Arendt, H.** (1951/1973). *The Origins of Totalitarianism* (3rd ed.). New York: Harcourt. — Atomizace, ideologická logika, spojení ideologie a teroru.
+- **Arendt, H.** (1963). *Eichmann in Jerusalem: A Report on the Banality of Evil*. New York: Viking. — [Banalita zla](@/glossary/banalita-zla.md), mizení reflexivity v byrokratickém aparátu.
 - **Klemperer, V.** (1947). *LTI — [Lingua Tertii Imperii](@/glossary/lti-lingua-tertii-imperii.md): Notizbuch eines Philologen*. Berlin: Aufbau. — Manipulace jazyka jako základ totalitního režimu, sémantická přestavba.
 - **Lifton, R. J.** (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: Norton. — Osm kritérií totalitní reformy myšlení ([milieu control](@/glossary/milieu-control.md), mystical manipulation, demand for purity, confession, sacred science, [loading the language](@/glossary/loading-the-language.md), [doctrine](@/glossary/doctrine.md) over person, dispensing of existence).
 - **Lifton, R. J.** (1986). *The Nazi Doctors*. New York: Basic Books. — [Doubling](@/glossary/doubling.md), profesionální štěpení.
@@ -80,18 +82,18 @@ Empirický rámec pro [terminální protokoly](@/kompendium/04-terminalni-protok
 
 ## V. Kognitivní psychologie a behaviorální ekonomie
 
-Empirický základ pro analýzu **kognitivních biasů**, **dvojího procesního systému** a **heuristik** — pilíře [klinických aplikací](@/kompendium/06-klinicke-aplikace/_index.md) a detekčních markerů.
+Empirický základ pro analýzu **kognitivních biasů**, **dvojího procesního systému** a **heuristik** — pilíře [klinických aplikací](@/kompendium/06-klinicke-aplikace/_index.md) a detekčních markerů. Jsou důležité i pro odlišení: mnoho chybných úsudků, které na první pohled vypadají jako výsledek manipulace, je běžným projevem heuristik, jimiž se řídí každý.
 
 - **Kahneman, D., & Tversky, A.** (1979). Prospect Theory: An Analysis of Decision under Risk. *Econometrica*, 47(2), 263–291. — Asymetrie zisků a ztrát.
 - **Kahneman, D.** (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus & Giroux. — [System 1 / System 2](@/glossary/system-1-system-2.md), dostupnostní [heuristika](@/glossary/heuristika.md), kotvení.
 - **Tversky, A., & Kahneman, D.** (1974). Judgment under Uncertainty: Heuristics and Biases. *Science*, 185(4157), 1124–1131. — Klasická taxonomie heuristik.
-- **Gigerenzer, G.** (2007). *Gut Feelings: The Intelligence of the Unconscious*. New York: Viking. — Ekologická racionalita, fast-and-frugal heuristics.
-- **Stanovich, K. E.** (2009). *What Intelligence Tests Miss: The Psychology of Rational Thought*. New Haven: Yale University Press. — Disrationalia, mindware gap.
+- **Gigerenzer, G.** (2007). *Gut Feelings: The Intelligence of the Unconscious*. New York: Viking. — Ekologická racionalita, rychlé a úsporné heuristiky (*fast-and-frugal heuristics*).
+- **Stanovich, K. E.** (2009). *What Intelligence Tests Miss: The Psychology of Rational Thought*. New Haven: Yale University Press. — Dysracionalita (*dysrationalia*), mezera v myšlenkové výbavě (*mindware gap*).
 - **Nisbett, R. E., & Wilson, T. D.** (1977). Telling More Than We Can Know: Verbal Reports on Mental Processes. *Psychological Review*, 84(3), 231–259. — [Konfabulace](@/glossary/konfabulace.md) introspektivních zpráv.
 
 ## VI. Epistemická spravedlnost a sociální epistemologie
 
-Rámec pro analýzu **epistemické nespravedlnosti**, **testimoniální křivdy** a **hermeneutické marginalizace** — důležitý pro sekci 07 (Teoretické reflexe).
+Rámec pro analýzu **epistemické nespravedlnosti**, **testimoniální křivdy** a **hermeneutické marginalizace** — důležitý pro sekci 07 ([Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)). Pro praxi je podstatné, že újma na člověku jako zdroji poznání je skutečná újma, i když nezanechává viditelné stopy; viz heslo [epistemická injustice](@/glossary/epistemicka-injustice.md).
 
 - **Fricker, M.** (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford: Oxford University Press. — Testimoniální a hermeneutická nespravedlnost.
 - **Medina, J.** (2013). *The Epistemology of Resistance*. Oxford: Oxford University Press. — Aktivní ignorance, epistemická resistance.
@@ -101,36 +103,36 @@ Rámec pro analýzu **epistemické nespravedlnosti**, **testimoniální křivdy*
 
 ## VII. Teorie manipulace, propagandy a perzuaze
 
-Aplikovaný rámec pro detekci **manipulace v reálném čase**, **propagandistických technik** a **persuazivní rétoriky**.
+Aplikovaný rámec pro detekci **manipulace v reálném čase**, **propagandistických technik** a **persuazivní rétoriky**. Prameny je třeba číst s vědomím, že zčásti popisují vliv z pozice toho, kdo jej vykonává; kniha z nich přebírá jen strukturu, kterou může rozpoznat pozorovatel.
 
 - **Ellul, J.** (1962/1965). *[Propaganda](@/glossary/propaganda.md): The Formation of Men's Attitudes*. New York: Knopf. — Sociologická propaganda, totalita propagandy.
 - **Bernays, E.** (1928). *Propaganda*. New York: Liveright. — Inženýrství souhlasu.
 - **Pratkanis, A., & Aronson, E.** (2001). *Age of Propaganda* (rev. ed.). New York: Henry Holt. — Pre-persuaze, peripherní cesta.
 - **Cialdini, R. B.** (2006). *Influence: The Psychology of Persuasion* (rev. ed.). New York: Harper Business. — Šest principů vlivu (reciprocita, závazek, sociální důkaz, autorita, sympatie, vzácnost).
-- **Stanley, J.** (2015). *How Propaganda Works*. Princeton: Princeton University Press. — Propaganda v demokracii, flagged ideal.
+- **Stanley, J.** (2015). *How Propaganda Works*. Princeton: Princeton University Press. — Propaganda v demokracii, podkopávající propaganda (*undermining propaganda*), která se odvolává na ideál a zároveň jej podkopává.
 
-## VIII. Kult-studia a high-control groups
+## VIII. Studium kultů a skupin s vysokou mírou kontroly
 
-Empirický základ pro [terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) a [ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md).
+Empirický základ pro [terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) a [ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md). Oddíl záměrně zahrnuje i kritiky teze o vymývání mozků, aby čtenář viděl, kde se obor shoduje a kde se vede spor.
 
 - **Singer, M. T.** (1995/2003). *Cults in Our Midst* (rev. ed.). San Francisco: Jossey-Bass. — Šest podmínek vlivového prostředí.
 - **Lalich, J.** (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. Berkeley: University of California Press. — Bounded choice, charismatický autoritarismus.
 - **Langone, M. D.** (Ed.). (1993). *Recovery from Cults*. New York: Norton. — Rekonstrukce po expozici.
-- **Zablocki, B., & Robbins, T.** (Eds.). (2001). *Misunderstanding Cults*. Toronto: University of Toronto Press. — Akademická debata o brainwashing tezi.
+- **Zablocki, B., & Robbins, T.** (Eds.). (2001). *Misunderstanding Cults*. Toronto: University of Toronto Press. — Akademická debata o tezi vymývání mozků (*brainwashing*).
 
 ## IX. Klinická literatura — trauma, disociace, PTSD
 
-Diagnostické a terapeutické rámce pro [klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) a [diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md).
+Diagnostické a terapeutické rámce pro [klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) a [diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md). Na tyto prameny se kniha opírá vždy, když jde o obranu a zotavení, nikoli jen o popis mechanismu.
 
 - **Herman, J. L.** (1992/2015). *Trauma and Recovery* (rev. ed.). New York: Basic Books. — Komplexní PTSD, třífázový model zotavení.
 - **van der Kolk, B.** (2014). *The Body Keeps the Score*. New York: Viking. — Somatické otisky traumatu.
 - **Putnam, F. W.** (1997). *Dissociation in Children and Adolescents*. New York: Guilford. — Vývojová [disociace](@/glossary/disociace.md).
-- **Briere, J., & Scott, C.** (2014). *Principles of Trauma Therapy* (2nd ed.). Thousand Oaks: SAGE. — Trauma-informed assessment.
-- **Weiss, D. S., & Marmar, C. R.** (1997). The Impact of Event Scale—Revised. In: *Assessing Psychological Trauma and PTSD*. New York: Guilford. — IES-R instrument.
+- **Briere, J., & Scott, C.** (2014). *Principles of Trauma Therapy* (2nd ed.). Thousand Oaks: SAGE. — Posouzení citlivé k traumatu (*trauma-informed assessment*).
+- **Weiss, D. S., & Marmar, C. R.** (1997). The Impact of Event Scale—Revised. In: *Assessing Psychological Trauma and PTSD*. New York: Guilford. — Nástroj IES-R.
 
 ## X. Filozofie jazyka a sémantika
 
-Pramen pojmů **[jazyková hra](@/glossary/jazykova-hra.md)**, **[performativní akt](@/glossary/performativni-akt.md)**, **sémantický posun**.
+Pramen pojmů **[jazyková hra](@/glossary/jazykova-hra.md)**, **[performativní akt](@/glossary/performativni-akt.md)**, **sémantický posun**. Na nich stojí analýza technik, které pracují s jazykem: přetěžování slov, změna jejich významu a jazyk, jímž se uzavírá myšlení.
 
 - **Wittgenstein, L.** (1953). *Philosophische Untersuchungen*. Oxford: Blackwell. — Jazykové hry, rodinné podobnosti.
 - **Austin, J. L.** (1962). *How to Do Things with Words*. Oxford: Clarendon Press. — Performativní akty, illokuční síla.
@@ -139,7 +141,7 @@ Pramen pojmů **[jazyková hra](@/glossary/jazykova-hra.md)**, **[performativní
 
 ## XI. Domácí (česká) tradice
 
-České prameny relevantní pro lokální výzkumný kontext.
+České prameny relevantní pro lokální výzkumný kontext. Patočka a Havel jsou pro knihu zvlášť důležití, protože popisují život v systému, který po člověku chce, aby přijal lež jako podmínku normálního života.
 
 - **Patočka, J.** (1975/1990). *Kacířské eseje o filosofii dějin*. Praha: Academia. — Péče o duši, dějinnost.
 - **Havel, V.** (1978). *Moc bezmocných*. — Žít v pravdě, post-totalitní systém.
@@ -148,7 +150,7 @@ Pramen pojmů **[jazyková hra](@/glossary/jazykova-hra.md)**, **[performativní
 
 ## XII. Online a recenzní zdroje
 
-Digitální zdroje s aktivními odkazy (přístup ověřen 2026-04-25).
+Digitální zdroje s aktivními odkazy (přístup ověřen 2026-04-25). Slouží k rychlému ověření pojmu nebo k vyhledání aktuální literatury; samy o sobě nejsou citovaným pramenem.
 
 - [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/) — primární filozofická encyklopedie pro hesla *Epistemology*, *Phenomenology*, *Critical Theory*.
 - [Internet Encyclopedia of Philosophy](https://iep.utm.edu/) — komplementární zdroj.
@@ -156,30 +158,14 @@ Digitální zdroje s aktivními odkazy (přístup ověřen 2026-04-25).
 - [APA PsycNet](https://psycnet.apa.org/) — primární databáze klinické psychologie.
 - [Czech Philosophical Journal](https://filosofickycasopis.flu.cas.cz/) — domácí recenzovaný časopis.
 
-## Související prameny v kompendiu
-
-- [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md) — terminologický most k anglickojazyčným pramenům.
-- [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) — metodologie použitá k uspořádání citací.
-- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — rámec pro citační poctivost.
-- [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) — odkazuje na primární publikace BITE, IES-R, DES-II, BFI-2, ECRI.
-
-## Platformový kontext
-
-Bibliografie je propojena s běžícími systémy:
-
-- [Glossary](@/glossary/_index.md) — každé glosářové heslo cituje primární prameny z této bibliografie.
-- [Philosophy](@/philosophy/_index.md) — filozofická vrstva platformy přímo navazuje na sekce I, II, III, X.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) — epistemický rámec L0–L13 čerpá z Husserla, Habermase, Frickerové.
-- [Color Teams](@/glossary/color-teams.md) — [Red Team](@/glossary/red-team.md) adversariální simulace operacionalizuje Liftonova kritéria.
-
 ## ⚡ Kritický krok
 
-**Tato příloha je referenční nástroj** — není k četbě od začátku do konce.
+**Tato příloha je referenční nástroj** – není k četbě od začátku do konce.
 Místo lineární četby:
 
-1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
-2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
-3. Pokud nenajdeš, zkontroluj [glossary](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
+1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ.
+2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce.
+3. Pokud nenajdeš, zkontroluj [glosář](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md).
 
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
@@ -187,9 +173,32 @@ Místo lineární četby:
 
 ---
 
-## Connect & Contribute
+## Kontakt a příspěvky
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Glosář](@/glossary/_index.md) | [Filozofie](@/philosophy/_index.md) | [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+
+## Související
+
+**Přílohy knihy**
+
+- [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md) – terminologický most k anglickojazyčným pramenům.
+- [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) – metodologie použitá k uspořádání citací.
+- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) – rámec pro citační poctivost.
+- [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) – odkazuje na primární publikace BITE, IES-R, DES-II, BFI-2, ECRI.
+
+**Anotované výběry EA-8.3**
+
+- [EA-8.3.3 Filozofický kánon](@/kompendium/techniques/ea-8-3-3-philosophical-canon.md) – normativní pojmy z Arendtové, Foucaulta, Habermase a Frickerové.
+- [EA-8.3.9 Cult Studies Literature](@/kompendium/techniques/ea-8-3-9-cult-studies-literature.md) – specializovaná literatura k oddílu VIII.
+
+**Platformový kontext**
+
+Bibliografie je propojena s běžícími systémy:
+
+- [Glosář](@/glossary/_index.md) – každé glosářové heslo cituje primární prameny z této bibliografie.
+- [Filozofie](@/philosophy/_index.md) – filozofická vrstva platformy přímo navazuje na sekce I, II, III, X.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec L0–L13 čerpá z Husserla, Habermase, Frickerové.
+- [Color Teams](@/glossary/color-teams.md) – [Red Team](@/glossary/red-team.md) adversariální simulace operacionalizuje Liftonova kritéria.

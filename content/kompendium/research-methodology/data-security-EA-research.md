@@ -1,6 +1,6 @@
 +++
-title = "Datová Bezpečnost EA Výzkumu"
-description = "Výzkumná metodologie EA — datová bezpečnost ea výzkumu."
+title = "Datová bezpečnost výzkumu"
+description = "Ochrana citlivých výzkumných dat o manipulaci a násilí: minimalizace, šifrování, řízení přístupu, bezpečná komunikace s účastníky a plán pro únik dat."
 weight = 35
 
 [taxonomies]
@@ -8,106 +8,180 @@ tags = ["kompendium", "research-methodology", "ethics"]
 categories = ["academic", "methodology", "research"]
 
 [extra]
-related_terms = ["conflict-of-interest-research", "conversation-analysis-EA", "debriefing-protocol-research", "discourse-analysis-EA"]
+related_terms = ["anonymization-EA-research", "informed-consent-EA-research", "IRB-protocol-design-EA", "time-series-EA"]
 parent = "kompendium-research-methodology"
 toc = true
 +++
 
-## Metodologický kontext
+Data z výzkumu [epistemické anihilace](@/glossary/epistemicka-anihilace.md) patří
+k nejcitlivějším datům, s nimiž sociální vědy pracují: výpovědi o násilí, kontrole a studu,
+údaje o zdraví, o náboženském přesvědčení, o třetích osobách, které o výzkumu nevědí.
+Jejich únik může účastníka vystavit odvetě, ztrátě vztahů, právním potížím nebo veřejnému
+zostuzení. Datová bezpečnost proto není technický detail, ale etická povinnost výzkumníka.
 
-Tento článek pokrývá **Datová Bezpečnost EA Výzkumu** v rámci etické a governanceho výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
+## Vymezení
 
-**Specifický metodologický háček EA výzkumu:** AES-256 at rest, TLS 1.3 in transit. Air-gapped storage pro raw data. Role-based access control (RBAC). Audit log všech přístupů. Data breach response plan dokumentovaný.
+Datová bezpečnost zahrnuje opatření, která chrání **důvěrnost** (k datům mají přístup jen
+oprávnění), **integritu** (data nejsou neoprávněně změněna) a **dostupnost** (data jsou
+k dispozici, když je třeba). GDPR vyžaduje u osobních údajů „vhodná technická a organizační
+opatření“ a u zvláštních kategorií údajů (zdraví, náboženské a filozofické přesvědčení,
+sexuální život) zvýšenou ochranu. U rozsáhlého zpracování zvláštních kategorií se obvykle
+provádí posouzení vlivu na ochranu osobních údajů (DPIA). Pro výzkum platí zvláštní režim
+podle čl. 89 GDPR a národních předpisů (v ČR zákon č. 110/2019 Sb., o zpracování osobních
+údajů).
 
-EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani naopak utopit data v interpretativní mlze. Cílem je **triangulační konvergence** mezi behaviorálními markery, subjektivním prožitkem a strukturálními invarianty deformace ega.
+## Kdy je téma klíčové
 
-## Klíčové principy
+Od prvního kontaktu s účastníkem do zničení posledního souboru. Zvlášť u:
 
-1. **Konstruktová validita má přednost** — EA fenomény jsou neostře definované, špatně operacionalizované measure devalvují celou studii.
-2. **Pre-registrace povinná** — bez OSF/AsPredicted protokolu otevíráte dveře HARKing a p-hackingu.
-3. **Dvojitá triangulace** — minimálně 3 zdroje dat ([self-report](@/glossary/self-report.md), behavioral, physiological/observational).
-4. **Reflexivita explicitní** — výzkumník není neutrální nástroj, jeho pozice formuje data.
-5. **Etický gating na prvním místě** — žádná data nejsou dost cenná, aby ospravedlnila neetický design.
-6. **Replikovatelnost build-in** — kód, data (anonymizovaná), materiály do veřejného repozitáře.
+- nahrávek, přepisů a osobních dokumentů;
+- dat sbíraných přes mobilní aplikace a online formuláře;
+- síťových dat a údajů o třetích osobách;
+- dlouhodobých studií s kontaktními údaji
+  ([longitudinální studie](@/kompendium/research-methodology/longitudinal-study-EA.md));
+- spolupráce více pracovišť a předávání dat.
 
-## Procedurální postup
+## Postup
 
-**Fáze 1 — Příprava (4-12 týdnů)**
+1. **Mapa dat** – jaké údaje se sbírají, kde vznikají, kudy putují, kde se ukládají, kdo
+   k nim má přístup, kdy se mažou.
+2. **Minimalizace** – nesbírat nepotřebné, nesbírat identifikátory tam, kde nejsou nutné,
+   oddělit kontaktní údaje od dat ([anonymizace](@/kompendium/research-methodology/anonymization-EA-research.md)).
+3. **Šifrování** – zařízení (notebooky, diktafony, telefony) šifrovat celé; data při
+   přenosu přenášet šifrovaně; zálohy šifrovat.
+4. **Řízení přístupu** – přístup podle role, nejmenší nutná oprávnění, vícefaktorové
+   ověření, záznam přístupů. Viz organizační obdobu [Řízení přístupů](@/kompendium/organizational-defense/28-access-control-EA.md).
+5. **Bezpečná úložiště** – institucionální úložiště schválená pro citlivá data místo
+   osobních cloudových účtů; surová data odděleně od zpracovaných.
+6. **Přepisy a externí služby** – přepisovatelé pod smlouvou o mlčenlivosti; automatické
+   přepisové služby jen pokud data neopouštějí schválené prostředí.
+7. **Plán pro incident** – co dělat při ztrátě zařízení nebo úniku: kdo se informuje
+   (pověřenec, dozorový úřad, účastníci), v jakých lhůtách, jak se zmírní škoda.
+8. **Bezpečné mazání** podle harmonogramu.
 
-- Literature review s PRISMA flow chart
-- Pre-registrace na OSF (hypotézy, design, analýza uzamčeny)
-- IRB submission + amendments
-- Pilot study (n=10-30) pro feasibility a item refinement
+## Specifika výzkumu epistemické manipulace
 
-**Fáze 2 — Sběr dat (variabilní)**
+**Komunikace s účastníkem jako riziko.** E-mail s názvem studie, SMS připomínka, dopis
+s logem výzkumného pracoviště nebo položka v kalendáři mohou prozradit účast osobě, která
+účastníka kontroluje. Komunikační kanál a podobu zpráv si volí účastník; zprávy jsou neutrální
+a neobsahují téma studie. U online dotazníků je vhodné tlačítko rychlého odchodu a žádné
+ukládání historie.
 
-- Strict protocol adherence — deviations log povinný
-- Real-time data quality checks (missingness, výpadky)
-- Periodic safety review (DSMB pro intervenční studie)
+**Zařízení účastníka.** Pokud účastník používá aplikaci (např. v [ESM studii](@/kompendium/research-methodology/time-series-EA.md)),
+je jeho telefon součástí bezpečnostního obvodu studie. Aplikace má mít neutrální vzhled,
+zámek, data na zařízení šifrovaná a pravidelně odesílaná a mazaná.
 
-**Fáze 3 — Analýza (4-8 týdnů)**
+**Technologické sledování v blízkých vztazích.** Výzkum v oblasti počítačové bezpečnosti
+popsal, jak násilní partneři využívají běžné technologie – sdílené účty, aplikace pro
+sledování polohy, fyzický přístup k telefonu – ke kontrole druhé osoby (Freed a kol. 2018).
+Pro výzkumný tým to znamená, že bezpečnostní model nesmí předpokládat, že zařízení
+účastníka je pod jeho výhradní kontrolou. Modelování hrozeb (Shostack 2014) – systematické
+pojmenování, kdo může chtít data získat, jakými cestami a s jakou motivací – je vhodné
+provést zvlášť pro účastníky, kteří jsou stále v kontaktu s osobou, jež je kontrolovala.
 
-- Pre-registered analysis first, exploratory analyses jasně označené
-- Sensitivity analyses (alternative model specifications)
-- Multiple comparison correction (Bonferroni/FDR/Holm)
+**Cílené útoky.** Skupiny s vysokou kontrolou a jednotlivci s motivací zjistit, kdo o nich
+mluví, mohou zkoušet výzkumníky kontaktovat pod záminkou, podat žádost o přístup k údajům,
+nebo se pokusit o přístup k datům. Tým by měl mít pravidla pro ověřování totožnosti a pro
+odpovědi na žádosti třetích stran a měl by vědět, jak rozpoznat [sociální inženýrství](@/kompendium/cross-domain/17-ea-security-social-engineering.md).
 
-**Fáze 4 — Reporting (4-12 týdnů)**
+**Žádosti orgánů a soudů.** Výzkumná data mohou být vyžádána v soudním nebo správním řízení.
+Ochrana výzkumných dat před takovou žádostí není ve všech zemích stejná. Účastníci by měli
+být v souhlasu informováni o hranicích důvěrnosti; tým by měl předem vědět, kdo v instituci
+na takové žádosti odpovídá.
 
-- CONSORT/STROBE/COREQ checklist dle designu
-- Open materials/data/code (FAIR principles)
-- Limitations sekce explicitní, ne defenzivní
+**Výzkumník jako slabé místo.** Nejčastější příčiny úniků bývají lidské: ztracený notebook,
+odeslání souboru špatnému adresátovi, sdílený odkaz. Školení týmu a jednoduchá pravidla jsou
+účinnější než složitá technika, kterou nikdo nepoužívá.
 
-## Riziková místa
+**Integrita dat a manipulace s nimi.** Ve výzkumu, který zkoumá manipulaci, je zvlášť
+důležité, aby data nebylo možné nepozorovaně měnit: verzování, záznam změn a oddělení
+surových dat od zpracovaných umožní zpětně doložit, že výsledky odpovídají sebraným datům
+(srov. [chain of custody](@/glossary/chain-of-custody.md)).
 
-- **Selection bias** — kdo se hlásí na EA výzkum není reprezentativní vzorek populace.
-- **Demand characteristics** — participanti tuší, co výzkumník chce, a chovají se podle toho.
-- **Researcher allegiance effect** — přesvědčení výzkumníka o efektu inflatuje pozorovaný účinek.
-- **Attrition selectivní** — kdo odejde ze studie není random podmnožina, vytváří survivorship bias.
-- **Construct drift** — operacionalizace EA pojmu se mezi studiemi liší, brání meta-analýze.
-- **Ethical creep** — postupné rozšiřování invazivnosti bez re-konzultace s IRB.
+## Kritéria kvality
 
-## Best practices
+| Oblast | Co doložit |
+|---|---|
+| Mapa dat | celý životní cyklus |
+| Minimalizace | co se nesbírá a proč |
+| Technika | šifrování zařízení, přenosu a záloh, řízení přístupu |
+| Komunikace | bezpečné kanály a podoba zpráv |
+| Incident | plán reakce, odpovědné osoby |
+| Školení | proškolení všech členů týmu |
+| Mazání | harmonogram a způsob |
 
-1. **Multi-method assessment** — žádný jednotlivý nástroj nezachytí EA fenomén kompletně.
-2. **Standardizované administrace** — videozáznam pro inter-rater reliability check.
-3. **Blinding kdekoliv to jde** — účastník vůči podmínce, hodnotitel vůči hypotéze.
-4. **Manipulation checks** — ověřte, že intervence skutečně manipulovala, co jste zamýšleli.
-5. **Effect size + CI** — p-hodnoty samotné nestačí, hlaste velikost účinku s 95% CI.
-6. **Data audit trail** — každá transformace dat dokumentovaná, reprodukovatelná skript.
-7. **Independent replication budget** — alokujte prostředky na nezávislou replikaci klíčových nálezů.
+## Vztah k ostatním etickým pojistkám
 
-## Validační kritéria
+Datová bezpečnost je technickou stranou slibu, který výzkumník dává v [informovaném souhlasu](@/kompendium/research-methodology/informed-consent-EA-research.md).
+Posuzuje ji [etická komise](@/kompendium/research-methodology/IRB-protocol-design-EA.md)
+a u větších projektů pověřenec pro ochranu osobních údajů. Anonymizace snižuje škodu
+případného úniku, ale nenahrazuje zabezpečení dat před ní.
 
-| Kritérium | Minimální standard |
-|-----------|-------------------|
-| Pre-registrace | OSF/AsPredicted před sběrem dat |
-| IRB approval | Aktivní, s amendments dokumentovanými |
-| Sample size | [A priori](@/glossary/apriori.md) power analysis, n ≥ vypočtené |
-| Reliability | α ≥ 0.70, ICC ≥ 0.75 pro kontinuální measures |
-| Validity | Konvergentní + diskriminantní evidence |
-| Transparency | Materials, data (anonym.), code veřejně |
-| Ethical compliance | Helsinki + Belmont + lokální regulace |
-| Reporting | CONSORT/STROBE/COREQ checklist |
+## Časté chyby
 
-## Cross-linky
+- nahrávky na nešifrovaném telefonu výzkumníka;
+- data v osobním cloudovém úložišti;
+- sdílení souborů e-mailem;
+- kontaktní údaje ve stejném souboru jako odpovědi;
+- automatická přepisová služba bez posouzení, kam data odcházejí;
+- žádný plán pro ztrátu zařízení;
+- e-mail účastníkovi s názvem studie v předmětu.
 
-- [Etický rámec EA výzkumu](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [IRB protokol design](@/kompendium/research-methodology/IRB-protocol-design-EA.md)
-- [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md)
-- [Anonymizace dat](@/kompendium/research-methodology/anonymization-EA-research.md)
-- [Pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md)
-- [Power analysis](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/research-methodology/power-analysis-EA-research/)
-- [Effect size](@/kompendium/research-methodology/effect-size-EA.md)
-- [Mixed methods design](@/kompendium/research-methodology/mixed-methods-EA.md)
-- [Replikační výzkum](@/kompendium/research-methodology/replication-EA-research.md)
-- [Glossary — výzkumné termíny](@/glossary/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+## Ilustrativní příklad
 
----
+*Hypotetická situace.* Výzkumnici ukradnou v tramvaji batoh s diktafonem, na němž jsou
+nahrávky dvou rozhovorů. Diktafon nebyl šifrovaný. Podle plánu okamžitě informuje vedoucího
+projektu a pověřence; ti posoudí riziko (nahrávky obsahují hlas a jména třetích osob) a
+rozhodnou o oznámení dozorovému úřadu a o informování obou účastníků. Výzkumnice s nimi
+mluví osobně, vysvětlí, co se stalo a jaká je pravděpodobnost zneužití, a nabídne podporu.
+Jeden z účastníků je ve vleklém sporu s bývalým partnerem a obává se; tým mu pomůže
+s kontaktem na právní poradnu. Projekt poté nahradí diktafony šifrovanými zařízeními
+a stanoví, že nahrávky se ze zařízení přenášejí do bezpečného úložiště ještě týž den.
 
-## Connect
+## Využití v praxi
 
-**Sekce**: [Research Methodology Index](@/kompendium/research-methodology/_index.md) | **Bucket**: etické a governance metody | **Kompendium**: [Index](@/kompendium/_index.md)
+Stejné zásady platí pro poradny, krizová centra a organizace, které shromažďují výpovědi
+o manipulaci a násilí: minimalizace, oddělení identifikátorů, šifrování, bezpečná
+komunikace s klienty a plán pro incident. Pro organizace popisuje navazující opatření
+[Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
+a [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md).
 
-**Související domény**: Klinická psychologie · Fenomenologie · Výzkumná etika · Statistická metodologie · Bezpečnostní governance
+## Jak posoudit studii z tohoto hlediska
+
+- **Popisuje studie, jak chránila data**, nebo jen uvádí soulad s předpisy?
+- **Jak komunikovala s účastníky** v rizikových situacích?
+- **Kdo měl přístup k surovým datům?**
+- **Kdy a jak budou data zničena?**
+
+## Meze a otevřené otázky
+
+Absolutní bezpečnost neexistuje; cílem je přiměřená ochrana vzhledem k riziku. Otevřenou
+otázkou je, jak zajistit bezpečnost u studií vedených mimo instituce (podpůrné organizace,
+nezávislí výzkumníci) a jak se vyrovnat s tím, že rostoucí využití cloudových a AI služeb
+při zpracování dat přesouvá citlivá data mimo kontrolu výzkumníka.
+
+## Literatura
+
+- Nařízení Evropského parlamentu a Rady (EU) 2016/679 (GDPR), čl. 5, 9, 32, 35 a 89.
+- Zákon č. 110/2019 Sb., o zpracování osobních údajů.
+- Freed, D., Palmer, J., Minchala, D., Levy, K., Ristenpart, T., Dell, N. (2018). „A Stalker's Paradise“: How intimate partner abusers exploit technology.
+- Shostack, A. (2014). *Threat Modeling: Designing for Security.*
+
+## Související
+
+**Etika v této sekci**
+
+- [Anonymizace](@/kompendium/research-methodology/anonymization-EA-research.md) – snížení škody při úniku.
+- [Informovaný souhlas](@/kompendium/research-methodology/informed-consent-EA-research.md) – slib důvěrnosti.
+- [Časové řady](@/kompendium/research-methodology/time-series-EA.md) – zabezpečení aplikace na zařízení účastníka.
+
+**Organizace a bezpečnost**
+
+- [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md) – přístup podle role.
+- [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md) – postup při úniku.
+- [Sociální inženýrství](@/kompendium/cross-domain/17-ea-security-social-engineering.md) – pokusy získat data podvodem.
+
+**Pojmy**
+
+- [Chain of custody](@/glossary/chain-of-custody.md) – doložitelná integrita dat.
+- [Doxing](@/glossary/doxing.md) – zveřejnění identity jako škoda.

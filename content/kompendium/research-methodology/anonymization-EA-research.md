@@ -1,6 +1,6 @@
 +++
-title = "Anonymizace EA Výzkumných Dat"
-description = "Výzkumná metodologie EA — anonymizace ea výzkumných dat."
+title = "Anonymizace a pseudonymizace výzkumných dat"
+description = "Jak chránit identitu účastníků výzkumu manipulace: přímé a nepřímé identifikátory, malé komunity, kvalitativní citace, k-anonymita a riziko reidentifikace."
 weight = 34
 
 [taxonomies]
@@ -8,106 +8,178 @@ tags = ["kompendium", "research-methodology", "ethics"]
 categories = ["academic", "methodology", "research"]
 
 [extra]
-related_terms = ["IRB-protocol-design-EA", "RCT-EA-considerations", "case-study-design-EA", "causal-inference-EA"]
+related_terms = ["data-security-EA-research", "informed-consent-EA-research", "publication-ethics-EA", "case-study-design-EA"]
 parent = "kompendium-research-methodology"
 toc = true
 +++
 
-## Metodologický kontext
+Pro účastníky výzkumu [epistemické anihilace](@/glossary/epistemicka-anihilace.md) může být
+odhalení identity nebezpečné: bývalý partner, skupina nebo zaměstnavatel se může dozvědět,
+že o nich mluvili. Zároveň platí požadavek otevřené vědy, aby data byla sdílena a výsledky
+ověřitelné. Anonymizace je soubor postupů, které tyto dva požadavky smiřují – a v tomto
+oboru je obtížnější, než se obvykle předpokládá, protože komunity bývalých členů skupin
+jsou malé a příběhy jedinečné.
 
-Tento článek pokrývá **Anonymizace EA Výzkumných Dat** v rámci etické a governanceho výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
+## Vymezení
 
-**Specifický metodologický háček EA výzkumu:** K-anonymity ≥ 5, l-diversity ≥ 3, t-closeness pro citlivé atributy. Removal of direct + quasi-identifiers. Differential privacy pro agregované statistiky. Re-identification risk audit.
+GDPR (nařízení (EU) 2016/679) rozlišuje:
 
-EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani naopak utopit data v interpretativní mlze. Cílem je **triangulační konvergence** mezi behaviorálními markery, subjektivním prožitkem a strukturálními invarianty deformace ega.
+- **pseudonymizaci** – údaje nelze přiřadit konkrétní osobě bez dodatečných informací
+  (klíče), které jsou uchovávány odděleně; pseudonymizovaná data jsou stále osobními údaji;
+- **anonymizaci** – údaje nelze přiřadit osobě žádnými rozumně dostupnými prostředky;
+  anonymní data přestávají být osobními údaji.
 
-## Klíčové principy
+Identifikátory se dělí na **přímé** (jméno, adresa, telefon, fotografie, hlas) a **nepřímé**
+(kvazi-identifikátory: věk, povolání, obec, datum události, název skupiny), které v kombinaci
+mohou osobu jednoznačně určit. Latanya Sweeneyová ukázala, že kombinace několika běžných
+údajů stačí k identifikaci velké části populace, a navrhla koncept **k-anonymity**
+(Sweeney 2002): každá kombinace kvazi-identifikátorů se v datech vyskytuje alespoň u *k*
+osob. Navazující koncepty (l-diverzita, t-blízkost) chrání i citlivé atributy. Pro agregované
+statistiky existuje **diferenciální soukromí** (Dwork 2006), které do výsledků přidává
+kalibrovaný šum.
 
-1. **Konstruktová validita má přednost** — EA fenomény jsou neostře definované, špatně operacionalizované measure devalvují celou studii.
-2. **Pre-registrace povinná** — bez OSF/AsPredicted protokolu otevíráte dveře HARKing a p-hackingu.
-3. **Dvojitá triangulace** — minimálně 3 zdroje dat ([self-report](@/glossary/self-report.md), behavioral, physiological/observational).
-4. **Reflexivita explicitní** — výzkumník není neutrální nástroj, jeho pozice formuje data.
-5. **Etický gating na prvním místě** — žádná data nejsou dost cenná, aby ospravedlnila neetický design.
-6. **Replikovatelnost build-in** — kód, data (anonymizovaná), materiály do veřejného repozitáře.
+## Kdy je téma klíčové
 
-## Procedurální postup
+- Při **sdílení dat** v repozitářích a při jejich předání jiným týmům.
+- Při **publikaci** citací, kazuistik a tabulek s malými počty.
+- Při práci s **nahrávkami, dokumenty a síťovými daty**, které obsahují údaje o třetích osobách.
+- Při **dlouhodobém uchovávání** dat – riziko reidentifikace roste s tím, jak přibývá
+  veřejně dostupných informací.
 
-**Fáze 1 — Příprava (4-12 týdnů)**
+## Postup
 
-- Literature review s PRISMA flow chart
-- Pre-registrace na OSF (hypotézy, design, analýza uzamčeny)
-- IRB submission + amendments
-- Pilot study (n=10-30) pro feasibility a item refinement
+1. **Minimalizace sběru** – nesbírat, co není nutné. Nejlepší ochrana identifikátoru je,
+   že neexistuje.
+2. **Oddělení identifikačních údajů** od výzkumných dat od prvního kontaktu; kódový klíč
+   uložený zvlášť s omezeným přístupem.
+3. **Pseudonymizace během zpracování** – kódy místo jmen v přepisech, souborech a poznámkách.
+4. **Úprava přepisů** – odstranění nebo zobecnění jmen, míst, dat, názvů skupin,
+   neobvyklých událostí a jazykových zvláštností.
+5. **Posouzení rizika reidentifikace** před sdílením nebo publikací – kdo by mohl účastníka
+   poznat (motivovaný útočník, člen skupiny, rodina) a s jakými informacemi.
+6. **Volba úrovně sdílení** – veřejný repozitář, řízený přístup na základě žádosti, nebo
+   nesdílení s odůvodněním.
+7. **Zničení klíče**, jakmile už není potřeba (podle protokolu).
 
-**Fáze 2 — Sběr dat (variabilní)**
+## Specifika výzkumu epistemické manipulace
 
-- Strict protocol adherence — deviations log povinný
-- Real-time data quality checks (missingness, výpadky)
-- Periodic safety review (DSMB pro intervenční studie)
+**Malé komunity, silné detaily.** V komunitě bývalých členů jedné skupiny se lidé znají.
+Údaj „žena, 40 let, ve skupině 12 let, odešla s dětmi“ může stačit k identifikaci, i když
+neobsahuje jméno. Kvalitativní data se proto anonymizují pečlivěji než kvantitativní:
+mění se nebo vynechávají detaily, které nejsou pro analýzu podstatné, a zobecňují se ty,
+které podstatné jsou („dlouholetá členka“ místo přesného počtu let).
 
-**Fáze 3 — Analýza (4-8 týdnů)**
+**Jazyk jako identifikátor.** Specifický slovník skupiny, přezdívky, interní názvy obřadů
+nebo míst prozradí skupinu i bez jejího jména. Výzkumník musí zvážit, zda je identifikace
+skupiny pro výzkum nutná, a pokud ne, zobecnit i jazyk.
 
-- Pre-registered analysis first, exploratory analyses jasně označené
-- Sensitivity analyses (alternative model specifications)
-- Multiple comparison correction (Bonferroni/FDR/Holm)
+**Motivovaný útočník.** Obvyklé posouzení rizika počítá s náhodným čtenářem. Ve výzkumu
+manipulace je reálným útočníkem osoba nebo skupina s motivací zjistit, kdo mluvil – a s
+detailní znalostí kontextu. Anonymizace musí obstát i proti ní.
 
-**Fáze 4 — Reporting (4-12 týdnů)**
+**Třetí osoby.** Výpovědi obsahují údaje o lidech, kteří s výzkumem nesouhlasili – o
+partnerovi, vedení skupiny, dětech. I tyto osoby se anonymizují; zvlášť opatrně u údajů,
+které by mohly být chápány jako obvinění (viz [Pomluva v EA kontextu](@/kompendium/forensic-legal/14-defamation-EA.md)).
 
-- CONSORT/STROBE/COREQ checklist dle designu
-- Open materials/data/code (FAIR principles)
-- Limitations sekce explicitní, ne defenzivní
+**Anonymizace kazuistik.** Kniha pracuje s anonymizovanými kompozity
+(viz [Případové studie](@/kompendium/case-studies/_index.md)) – kombinací prvků z více případů,
+aby žádný nebyl rozpoznatelný. Kompozit je vhodný pro výuku, ne pro výzkumná data, protože
+mění samotná data; ve výzkumné zprávě musí být jasné, zda jde o skutečný případ, nebo kompozit.
 
-## Riziková místa
+**Spojování datových souborů.** Riziko reidentifikace nevzniká jen z jednoho souboru, ale
+ze spojení s jinými, veřejně dostupnými daty. Narayanan a Shmatikov (2008) ukázali na
+údajně anonymizovaných hodnoceních filmů, že několik málo známých údajů o osobě stačí
+k jejímu nalezení v rozsáhlém souboru. Pro výzkum manipulace z toho plyne, že i zdánlivě
+neškodné atributy – data událostí, pořadí změn bydliště, veřejně sdílené příspěvky – mohou
+po spojení s profilem na sociální síti nebo s informacemi skupiny o vlastních členech
+odhalit, kdo se studie účastnil. Posouzení rizika proto musí zahrnout i to, jaké informace
+má k dispozici osoba, před níž je účastník chráněn.
 
-- **Selection bias** — kdo se hlásí na EA výzkum není reprezentativní vzorek populace.
-- **Demand characteristics** — participanti tuší, co výzkumník chce, a chovají se podle toho.
-- **Researcher allegiance effect** — přesvědčení výzkumníka o efektu inflatuje pozorovaný účinek.
-- **Attrition selectivní** — kdo odejde ze studie není random podmnožina, vytváří survivorship bias.
-- **Construct drift** — operacionalizace EA pojmu se mezi studiemi liší, brání meta-analýze.
-- **Ethical creep** — postupné rozšiřování invazivnosti bez re-konzultace s IRB.
+**Hlas a obraz.** Nahrávky hlasu a videa nelze plně anonymizovat bez ztráty informace.
+Sdílejí se zpravidla jen přepisy; pokud je zvuk pro analýzu nutný, zůstává v zabezpečeném
+úložišti týmu (viz [datová bezpečnost](@/kompendium/research-methodology/data-security-EA-research.md)).
 
-## Best practices
+## Kritéria kvality
 
-1. **Multi-method assessment** — žádný jednotlivý nástroj nezachytí EA fenomén kompletně.
-2. **Standardizované administrace** — videozáznam pro inter-rater reliability check.
-3. **Blinding kdekoliv to jde** — účastník vůči podmínce, hodnotitel vůči hypotéze.
-4. **Manipulation checks** — ověřte, že intervence skutečně manipulovala, co jste zamýšleli.
-5. **Effect size + CI** — p-hodnoty samotné nestačí, hlaste velikost účinku s 95% CI.
-6. **Data audit trail** — každá transformace dat dokumentovaná, reprodukovatelná skript.
-7. **Independent replication budget** — alokujte prostředky na nezávislou replikaci klíčových nálezů.
+| Oblast | Co doložit |
+|---|---|
+| Minimalizace | které identifikátory se nesbíraly |
+| Oddělení | kde a jak je uložen klíč, kdo k němu má přístup |
+| Úprava dat | pravidla úpravy přepisů a citací |
+| Riziko | posouzení reidentifikace včetně motivovaného útočníka |
+| Sdílení | úroveň přístupu a její zdůvodnění |
+| Životní cyklus | kdy a jak se klíč a surová data ničí |
 
-## Validační kritéria
+## Vztah k ostatním etickým pojistkám
 
-| Kritérium | Minimální standard |
-|-----------|-------------------|
-| Pre-registrace | OSF/AsPredicted před sběrem dat |
-| IRB approval | Aktivní, s amendments dokumentovanými |
-| Sample size | [A priori](@/glossary/apriori.md) power analysis, n ≥ vypočtené |
-| Reliability | α ≥ 0.70, ICC ≥ 0.75 pro kontinuální measures |
-| Validity | Konvergentní + diskriminantní evidence |
-| Transparency | Materials, data (anonym.), code veřejně |
-| Ethical compliance | Helsinki + Belmont + lokální regulace |
-| Reporting | CONSORT/STROBE/COREQ checklist |
+Anonymizace navazuje na [informovaný souhlas](@/kompendium/research-methodology/informed-consent-EA-research.md)
+(účastník ví, co se s daty stane, a souhlasí se sdílením nebo ne) a na [datovou bezpečnost](@/kompendium/research-methodology/data-security-EA-research.md)
+(ochrana dat před anonymizací). Rozhodnutí o sdílení dat je součástí [publikační etiky](@/kompendium/research-methodology/publication-ethics-EA.md);
+požadavek otevřenosti nemá přednost před bezpečím účastníků.
 
-## Cross-linky
+## Časté chyby
 
-- [Etický rámec EA výzkumu](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [IRB protokol design](@/kompendium/research-methodology/IRB-protocol-design-EA.md)
-- [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md)
-- [Anonymizace dat](@/kompendium/research-methodology/anonymization-EA-research.md)
-- [Pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md)
-- [Power analysis](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/research-methodology/power-analysis-EA-research/)
-- [Effect size](@/kompendium/research-methodology/effect-size-EA.md)
-- [Mixed methods design](@/kompendium/research-methodology/mixed-methods-EA.md)
-- [Replikační výzkum](@/kompendium/research-methodology/replication-EA-research.md)
-- [Glossary — výzkumné termíny](@/glossary/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- odstranění jmen považované za anonymizaci;
+- citace s jedinečnými detaily („jako jediná z kurzu jsem…“);
+- tabulky s buňkami o jednom nebo dvou lidech;
+- klíč uložený ve stejné složce jako data;
+- zapomenutí na metadata souborů (autor dokumentu, souřadnice fotografie);
+- sdílení dat v repozitáři bez posouzení rizika v malé komunitě.
 
----
+## Ilustrativní příklad
 
-## Connect
+*Hypotetický postup.* Tým připravuje sdílení přepisů dvaceti rozhovorů s bývalými členy
+několika skupin. Nejprve nahradí jména kódy a odstraní místa. Pak dva členové týmu nezávisle
+čtou přepisy z pohledu „člověka ze skupiny“ a označují místa, podle nichž by účastníka poznali:
+neobvyklá funkce ve skupině, konkrétní konflikt, který byl ve skupině známý, výrazná fráze.
+Tato místa se zobecní nebo vynechají. Tři přepisy zůstanou i po úpravě rizikové – účastníci
+byli ve skupině příliš viditelní. Tým se s nimi spojí; dva souhlasí jen s řízeným přístupem,
+jeden žádá, aby jeho přepis nebyl sdílen vůbec. Repozitář tak obsahuje sedmnáct přepisů
+s řízeným přístupem a popis toho, proč tři chybí.
 
-**Sekce**: [Research Methodology Index](@/kompendium/research-methodology/_index.md) | **Bucket**: etické a governance metody | **Kompendium**: [Index](@/kompendium/_index.md)
+## Využití v praxi
 
-**Související domény**: Klinická psychologie · Fenomenologie · Výzkumná etika · Statistická metodologie · Bezpečnostní governance
+Stejné principy platí pro poradny, které zveřejňují příběhy klientů, pro novináře, pro
+organizace, které publikují výsledky [interních vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md),
+i pro autory kazuistik v odborných časopisech. Otázka „poznal by ho někdo, kdo ho zná
+a chce ho poznat?“ je užitečnější než kontrolní seznam odstraněných údajů.
+
+## Jak posoudit studii z tohoto hlediska
+
+- **Popisuje studie, jak anonymizovala**, nebo jen tvrdí, že data jsou anonymní?
+- **Obsahují citace jedinečné detaily?**
+- **Jsou data sdílena** a pokud ne, je to zdůvodněno?
+- **Jsou malé buňky v tabulkách potlačeny nebo sloučeny?**
+
+## Meze a otevřené otázky
+
+Úplná anonymizace kvalitativních dat často znamená ztrátu kontextu, který je pro porozumění
+nezbytný. Otevřenou otázkou je, jak sdílet bohatá data o jedinečných zkušenostech, aniž by se
+ohrozili lidé, kteří je poskytli, a jak se postavit k rostoucím možnostem automatické
+reidentifikace z textu.
+
+## Literatura
+
+- Sweeney, L. (2002). k-anonymity: A model for protecting privacy.
+- Dwork, C. (2006). Differential privacy.
+- Narayanan, A., Shmatikov, V. (2008). Robust de-anonymization of large sparse datasets.
+- Nařízení Evropského parlamentu a Rady (EU) 2016/679 (GDPR), zejména čl. 4 a čl. 89.
+
+## Související
+
+**Etika v této sekci**
+
+- [Datová bezpečnost](@/kompendium/research-methodology/data-security-EA-research.md) – ochrana dat před anonymizací.
+- [Informovaný souhlas](@/kompendium/research-methodology/informed-consent-EA-research.md) – souhlas se sdílením.
+- [Publikační etika](@/kompendium/research-methodology/publication-ethics-EA.md) – otevřenost a její meze.
+- [Design případové studie](@/kompendium/research-methodology/case-study-design-EA.md) – jedinečný případ a identifikace.
+
+**Právo a praxe**
+
+- [Pomluva v EA kontextu](@/kompendium/forensic-legal/14-defamation-EA.md) – údaje o třetích osobách.
+- [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md) – organizační obdoba.
+
+**Kritika a pojmy**
+
+- [Důvěrnost v EA detekci](@/kompendium/critical-perspectives/17-confidentiality-EA.md) – důvěrnost v klinice.
+- [Doxing](@/glossary/doxing.md) – co hrozí při odhalení identity.

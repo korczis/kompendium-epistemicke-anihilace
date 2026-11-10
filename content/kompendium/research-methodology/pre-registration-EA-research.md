@@ -1,6 +1,6 @@
 +++
-title = "Pre-Registrace EA Výzkumu"
-description = "Výzkumná metodologie EA — pre-registrace ea výzkumu."
+title = "Pre-registrace a registrované zprávy"
+description = "Zveřejnění hypotéz, designu a analytického plánu před sběrem dat: ochrana proti HARKingu a p-hackingu, Registered Reports a pre-registrace kvalitativního výzkumu."
 weight = 39
 
 [taxonomies]
@@ -8,106 +8,168 @@ tags = ["kompendium", "research-methodology", "ethics"]
 categories = ["academic", "methodology", "research"]
 
 [extra]
-related_terms = ["phenomenological-interview-EA", "power-analysis-EA", "publication-ethics-EA", "replication-EA-research"]
+related_terms = ["replication-EA-research", "publication-ethics-EA", "power-analysis-EA", "conflict-of-interest-research"]
 parent = "kompendium-research-methodology"
 toc = true
 +++
 
-## Metodologický kontext
+Výzkumník, který zkoumá manipulaci, má sám sklon k nejběžnější formě sebeklamu ve vědě:
+vidět v datech to, co čekal. Pre-registrace je jednoduchý nástroj proti tomu – před sběrem
+dat se veřejně a s časovým razítkem zapíše, co se bude zkoumat, jak a jak se budou data
+analyzovat. Pro obor, jehož tématem je narušení schopnosti poznávat, je to vhodná forma
+vlastní epistemické hygieny.
 
-Tento článek pokrývá **Pre-Registrace EA Výzkumu** v rámci etické a governanceho výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
+## Vymezení
 
-**Specifický metodologický háček EA výzkumu:** OSF/AsPredicted pre-registration před sběrem dat. Hypotézy, design, analytický plán uzamčeny. Registered Reports — peer review protokolu před výsledky. Deviation reporting povinný.
+**Pre-registrace** je zveřejnění plánu studie v nezávislém registru před sběrem dat nebo
+před přístupem k nim. Typicky obsahuje výzkumné otázky a hypotézy, design, velikost vzorku
+a její zdůvodnění, měření, kritéria vyřazení a analytický plán. Nosek a kolegové (2018)
+popisují její hlavní funkci jako rozlišení mezi **konfirmačním** výzkumem (testování předem
+stanovených předpovědí) a **exploračním** výzkumem (hledání vzorců v datech) – obojí je
+legitimní, ale jen první umožňuje interpretovat *p*-hodnoty tak, jak se obvykle interpretují.
+Pro klinické studie je registrace v registrech (např. ClinicalTrials.gov) požadována od
+doby, kdy ji ICMJE stanovil jako podmínku publikace (De Angelis a kol. 2004); pro systematické
+přehledy slouží registr PROSPERO.
 
-EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani naopak utopit data v interpretativní mlze. Cílem je **triangulační konvergence** mezi behaviorálními markery, subjektivním prožitkem a strukturálními invarianty deformace ega.
+**Registrované zprávy** (*Registered Reports*) jdou dál: protokol projde recenzí před sběrem
+dat a časopis se zaváže studii publikovat bez ohledu na výsledek, pokud bude provedena podle
+schváleného protokolu (Chambers 2013). Tím se odstraňuje motivace upravovat analýzu podle
+výsledků i publikační zkreslení.
 
-## Klíčové principy
+## Kdy je téma klíčové
 
-1. **Konstruktová validita má přednost** — EA fenomény jsou neostře definované, špatně operacionalizované measure devalvují celou studii.
-2. **Pre-registrace povinná** — bez OSF/AsPredicted protokolu otevíráte dveře HARKing a p-hackingu.
-3. **Dvojitá triangulace** — minimálně 3 zdroje dat ([self-report](@/glossary/self-report.md), behavioral, physiological/observational).
-4. **Reflexivita explicitní** — výzkumník není neutrální nástroj, jeho pozice formuje data.
-5. **Etický gating na prvním místě** — žádná data nejsou dost cenná, aby ospravedlnila neetický design.
-6. **Replikovatelnost build-in** — kód, data (anonymizovaná), materiály do veřejného repozitáře.
+Pre-registrace je zvlášť důležitá u studií, jejichž výsledky mají přejít do praxe – účinnost
+intervencí, souvislosti využívané v posudcích, prevalenční odhady –, u studií s mnoha
+možnými analýzami a měřeními, a u výzkumníků se silným intelektuálním nebo finančním
+zájmem na výsledku (viz [střet zájmů](@/kompendium/research-methodology/conflict-of-interest-research.md)).
+Má smysl i u sekundární analýzy existujících dat, pokud plán vzniká před jejich prohlédnutím.
 
-## Procedurální postup
+## Postup
 
-**Fáze 1 — Příprava (4-12 týdnů)**
+1. **Plán** – otázky, hypotézy, design, měření, vzorek, analýza, kritéria vyřazení,
+   zacházení s chybějícími daty.
+2. **Registrace** v nezávislém registru (OSF, AsPredicted, ClinicalTrials.gov, PROSPERO
+   podle typu studie); případně s embargem do publikace.
+3. **Provedení** podle plánu; každá odchylka se zapíše s datem a důvodem.
+4. **Zpráva** s odkazem na registraci, s výslovným odlišením konfirmačních a exploračních
+   analýz a s tabulkou odchylek.
 
-- Literature review s PRISMA flow chart
-- Pre-registrace na OSF (hypotézy, design, analýza uzamčeny)
-- IRB submission + amendments
-- Pilot study (n=10-30) pro feasibility a item refinement
+## Specifika výzkumu epistemické manipulace
 
-**Fáze 2 — Sběr dat (variabilní)**
+Simmons, Nelson a Simonsohn (2011) ukázali, že kombinace běžných analytických rozhodnutí –
+kdy přestat sbírat data, které proměnné hlásit, zda vyřadit odlehlá pozorování – může
+dramaticky zvýšit pravděpodobnost falešně pozitivního výsledku. Gelman a Loken (2013) tento
+problém označili jako „zahradu rozvětvených cest“: i výzkumník, který vědomě nic nehledá,
+volí analýzu podle dat, která už viděl. Ve výzkumu manipulace, kde se pracuje s novými
+konstrukty, mnoha škálami a malými vzorky, je zahrada cest zvlášť velká.
 
-- Strict protocol adherence — deviations log povinný
-- Real-time data quality checks (missingness, výpadky)
-- Periodic safety review (DSMB pro intervenční studie)
+Pre-registrace chrání i proti intelektuálnímu zájmu na vlastním rámci. Kniha popisuje
+riziko [kruhového uvažování](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md):
+pokud se kategorie EA použijí k interpretaci dat, která pak „potvrzují“ kategorie, vzniká
+uzavřený kruh. Pre-registrovaná hypotéza, která může selhat, je z tohoto kruhu cestou ven –
+odpovídá Popperovu požadavku [falsifikovatelnosti](@/glossary/falsifikovatelnost.md)
+(Popper 1959).
 
-**Fáze 3 — Analýza (4-8 týdnů)**
+Kvalitativní výzkum pre-registraci zčásti odmítá, protože jeho postup se vyvíjí s daty.
+Přesto existují formy, které jsou s ním slučitelné: registrace výzkumné otázky, výchozího
+předporozumění, plánu vzorku a postupu analýzy, s tím, že změny se dokumentují jako součást
+reflexivity. Haven a Van Grootel (2019) argumentují, že taková registrace zvyšuje
+transparentnost, aniž by popírala interpretační povahu kvalitativní práce.
 
-- Pre-registered analysis first, exploratory analyses jasně označené
-- Sensitivity analyses (alternative model specifications)
-- Multiple comparison correction (Bonferroni/FDR/Holm)
+Že na tom záleží, ukazují srovnání publikované literatury. Scheel, Schijen a Lakens (2021)
+porovnali standardní psychologické články s registrovanými zprávami a zjistili, že zatímco
+standardní literatura hlásí podporu první testované hypotézy v naprosté většině případů,
+u registrovaných zpráv je podíl pozitivních výsledků výrazně nižší. Rozdíl nelze vysvětlit
+tím, že by autoři registrovaných zpráv volili horší hypotézy; mnohem pravděpodobněji
+odráží selektivní publikování a analytickou volnost ve standardní literatuře. Pro obor,
+jehož výsledky přecházejí do klinických a soudních rozhodnutí, je to silný argument pro
+registrované zprávy právě u studií, na nichž bude stavět praxe.
 
-**Fáze 4 — Reporting (4-12 týdnů)**
+Specifickým problémem oboru jsou studie v terénu, kde se plán musí měnit z bezpečnostních
+důvodů – například když se ukáže, že určitá forma kontaktu ohrožuje účastníky. Taková změna
+je správná a pre-registrace ji nesmí brzdit; stačí, když je zaznamenána a vysvětlena.
 
-- CONSORT/STROBE/COREQ checklist dle designu
-- Open materials/data/code (FAIR principles)
-- Limitations sekce explicitní, ne defenzivní
+## Kritéria kvality
 
-## Riziková místa
+| Oblast | Co doložit |
+|---|---|
+| Načasování | registrace před sběrem dat nebo před přístupem k nim |
+| Konkrétnost | hypotézy a analýza formulované tak, aby šly ověřit |
+| Velikost vzorku | výpočet nebo zdůvodnění |
+| Odchylky | tabulka změn s daty a důvody |
+| Odlišení | konfirmační a explorační analýzy oddělené ve zprávě |
+| Dostupnost | odkaz na registraci v publikaci |
 
-- **Selection bias** — kdo se hlásí na EA výzkum není reprezentativní vzorek populace.
-- **Demand characteristics** — participanti tuší, co výzkumník chce, a chovají se podle toho.
-- **Researcher allegiance effect** — přesvědčení výzkumníka o efektu inflatuje pozorovaný účinek.
-- **Attrition selectivní** — kdo odejde ze studie není random podmnožina, vytváří survivorship bias.
-- **Construct drift** — operacionalizace EA pojmu se mezi studiemi liší, brání meta-analýze.
-- **Ethical creep** — postupné rozšiřování invazivnosti bez re-konzultace s IRB.
+## Vztah k ostatním etickým pojistkám
 
-## Best practices
+Pre-registrace je most mezi [etickým posouzením](@/kompendium/research-methodology/IRB-protocol-design-EA.md)
+(které schvaluje, *co* se bude dělat s lidmi) a [publikační etikou](@/kompendium/research-methodology/publication-ethics-EA.md)
+(která hodnotí, *co* bylo zveřejněno). Umožňuje čtenářům i recenzentům ověřit, že zpráva
+odpovídá plánu. Je také předpokladem pro důvěryhodné [replikace](@/kompendium/research-methodology/replication-EA-research.md).
 
-1. **Multi-method assessment** — žádný jednotlivý nástroj nezachytí EA fenomén kompletně.
-2. **Standardizované administrace** — videozáznam pro inter-rater reliability check.
-3. **Blinding kdekoliv to jde** — účastník vůči podmínce, hodnotitel vůči hypotéze.
-4. **Manipulation checks** — ověřte, že intervence skutečně manipulovala, co jste zamýšleli.
-5. **Effect size + CI** — p-hodnoty samotné nestačí, hlaste velikost účinku s 95% CI.
-6. **Data audit trail** — každá transformace dat dokumentovaná, reprodukovatelná skript.
-7. **Independent replication budget** — alokujte prostředky na nezávislou replikaci klíčových nálezů.
+## Časté chyby
 
-## Validační kritéria
+Nejčastější chyby jsou tak obecná registrace, že ji splní jakákoli analýza, registrace až
+po sběru dat, nezmíněné odchylky, explorační nálezy prezentované jako potvrzené hypotézy
+a mylná představa, že pre-registrace zakazuje exploraci. Explorace je cenná, jen musí být
+označena.
 
-| Kritérium | Minimální standard |
-|-----------|-------------------|
-| Pre-registrace | OSF/AsPredicted před sběrem dat |
-| IRB approval | Aktivní, s amendments dokumentovanými |
-| Sample size | [A priori](@/glossary/apriori.md) power analysis, n ≥ vypočtené |
-| Reliability | α ≥ 0.70, ICC ≥ 0.75 pro kontinuální measures |
-| Validity | Konvergentní + diskriminantní evidence |
-| Transparency | Materials, data (anonym.), code veřejně |
-| Ethical compliance | Helsinki + Belmont + lokální regulace |
-| Reporting | CONSORT/STROBE/COREQ checklist |
+## Ilustrativní příklad
 
-## Cross-linky
+*Hypotetická situace.* Tým plánuje studii, zda krátká psychoedukace o vzorcích, jako je
+[gaslighting](@/glossary/gaslighting.md) nebo [DARVO](@/glossary/darvo.md), zlepšuje
+schopnost dospělých rozpoznat je v popisech situací. Do registru zapíše primární výsledek
+(správné rozlišení manipulativních a nemanipulativních popisů), sekundární výsledek (míra
+falešných poplachů), velikost vzorku a analýzu. Během studie se ukáže, že jedna sada popisů
+je nesrozumitelná; tým ji vyřadí, zapíše odchylku s datem a ve zprávě uvede výsledky s ní
+i bez ní. Nečekaný nález, že účinek je větší u starších účastníků, je ve zprávě jasně
+označen jako explorační.
 
-- [Etický rámec EA výzkumu](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [IRB protokol design](@/kompendium/research-methodology/IRB-protocol-design-EA.md)
-- [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md)
-- [Anonymizace dat](@/kompendium/research-methodology/anonymization-EA-research.md)
-- [Pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md)
-- [Power analysis](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/research-methodology/power-analysis-EA-research/)
-- [Effect size](@/kompendium/research-methodology/effect-size-EA.md)
-- [Mixed methods design](@/kompendium/research-methodology/mixed-methods-EA.md)
-- [Replikační výzkum](@/kompendium/research-methodology/replication-EA-research.md)
-- [Glossary — výzkumné termíny](@/glossary/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+## Využití v praxi
 
----
+Logiku pre-registrace mohou použít i organizace a kliniky, které hodnotí vlastní programy:
+předem si zapsat, co bude znamenat úspěch, a teprve pak se podívat na data. V organizacích
+podobně funguje [sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
+– zapsat důvody rozhodnutí v okamžiku, kdy padá, ne zpětně.
 
-## Connect
+## Jak posoudit studii z tohoto hlediska
 
-**Sekce**: [Research Methodology Index](@/kompendium/research-methodology/_index.md) | **Bucket**: etické a governance metody | **Kompendium**: [Index](@/kompendium/_index.md)
+Čtenář může ověřit, zda studie odkazuje na registraci a zda byla registrace vytvořena před
+sběrem dat, zda se hlavní výsledky shodují s registrovanými, zda jsou uvedeny odchylky a zda
+je zřejmé, které analýzy byly explorační.
 
-**Související domény**: Klinická psychologie · Fenomenologie · Výzkumná etika · Statistická metodologie · Bezpečnostní governance
+## Meze a otevřené otázky
+
+Pre-registrace nezaručuje kvalitu – lze pre-registrovat i špatný design. Otevřenou otázkou
+je, jak ji přizpůsobit dlouhodobým terénním a kvalitativním studiím a jak zabránit tomu,
+aby se stala jen formálním rituálem.
+
+## Literatura
+
+- Chambers, C. D. (2013). Registered Reports: A new publishing initiative at Cortex.
+- De Angelis, C. a kol. (2004). Clinical trial registration: A statement from the International Committee of Medical Journal Editors.
+- Gelman, A., Loken, E. (2013). The garden of forking paths.
+- Haven, T. L., Van Grootel, L. (2019). Preregistering qualitative research.
+- Nosek, B. A., Ebersole, C. R., DeHaven, A. C., Mellor, D. T. (2018). The preregistration revolution.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery.*
+- Scheel, A. M., Schijen, M. R. M. J., Lakens, D. (2021). An excess of positive results: Comparing the standard psychology literature with Registered Reports.
+- Simmons, J. P., Nelson, L. D., Simonsohn, U. (2011). False-positive psychology.
+
+## Související
+
+**Etika a metody v této sekci**
+
+- [Replikační výzkum](@/kompendium/research-methodology/replication-EA-research.md) – registrované replikace.
+- [Publikační etika](@/kompendium/research-methodology/publication-ethics-EA.md) – srovnání plánu a zprávy.
+- [Analýza síly testu](@/kompendium/research-methodology/power-analysis-EA.md) – součást registrace.
+- [Střet zájmů](@/kompendium/research-methodology/conflict-of-interest-research.md) – registrace jako strukturální ochrana.
+
+**Kritika a organizace**
+
+- [Kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md) – proč testovat, ne ilustrovat.
+- [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md) – organizační obdoba.
+
+**Pojmy**
+
+- [Falsifikovatelnost](@/glossary/falsifikovatelnost.md) – hypotéza, která může selhat.
+- [Konfirmační bias](@/glossary/konfirmacni-bias.md) – co pre-registrace omezuje.

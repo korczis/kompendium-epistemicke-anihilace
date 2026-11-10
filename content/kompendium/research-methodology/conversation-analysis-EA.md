@@ -1,6 +1,6 @@
 +++
-title = "Konverzační Analýza EA Interakcí"
-description = "Výzkumná metodologie EA — konverzační analýza ea interakcí."
+title = "Konverzační analýza interakcí"
+description = "Mikroanalýza skutečných rozhovorů: střídání replik, páry promluv, opravy a přerušení jako stopy dominance a zpochybňování vnímání v interakci."
 weight = 28
 
 [taxonomies]
@@ -8,106 +8,182 @@ tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
 
 [extra]
-related_terms = ["causal-inference-EA", "conflict-of-interest-research", "data-security-EA-research", "debriefing-protocol-research"]
+related_terms = ["discourse-analysis-EA", "document-analysis-EA", "informed-consent-EA-research", "data-security-EA-research"]
 parent = "kompendium-research-methodology"
 toc = true
 +++
 
-## Metodologický kontext
+Řada mechanismů, které kniha popisuje, se odehrává v jednotlivých replikách rozhovoru:
+otázka, která předpokládá odpověď, přerušení ve chvíli, kdy člověk začne popisovat, co viděl,
+oprava, která mění význam právě řečeného, ticho jako trest. Konverzační analýza (*conversation
+analysis*, CA) studuje tyto drobné struktury interakce na nahrávkách skutečných rozhovorů.
+Pro výzkum [epistemické anihilace](@/glossary/epistemicka-anihilace.md) umožňuje přesně
+popsat, *jak* se v rozhovoru přerozděluje právo vědět – a odlišit to od běžných
+konverzačních nedorozumění.
 
-Tento článek pokrývá **Konverzační Analýza EA Interakcí** v rámci kvalitativního výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
+## Vymezení
 
-**Specifický metodologický háček EA výzkumu:** Jefferson transkripční systém (pauzy, overlapy, prozodie). Turn-taking, adjacency pairs, repair sequences. Mikroanalýza dat z reálných EA sessions.
+Konverzační analýza vznikla v 60. a 70. letech z práce Harveyho Sackse, Emanuela Schegloffa
+a Gail Jeffersonové. Jejich článek o systematice střídání replik (Sacks, Schegloff
+a Jefferson 1974) je základním textem. CA zkoumá:
 
-EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani naopak utopit data v interpretativní mlze. Cílem je **triangulační konvergence** mezi behaviorálními markery, subjektivním prožitkem a strukturálními invarianty deformace ega.
+- **střídání replik** (*turn-taking*) – kdo kdy mluví, jak se předává slovo, přerušení
+  a překryvy;
+- **páry promluv** (*adjacency pairs*) – otázka–odpověď, nabídka–přijetí/odmítnutí; co se
+  stane, když očekávaná druhá část chybí;
+- **preferenční organizaci** – některé odpovědi jsou „preferované“ (rychlé, přímé), jiné
+  „nepreferované“ (zdržené, zmírněné);
+- **opravy** (*repair*) – jak účastníci řeší problémy porozumění a kdo opravuje koho;
+- **epistemiku interakce** – jak mluvčí v rozhovoru nárokují, uznávají nebo zpochybňují
+  přístup k vědění (rozvinuto zejména v pracích Johna Heritage).
 
-## Klíčové principy
+Data se přepisují v **Jeffersonově transkripčním systému**, který zaznamenává pauzy
+v desetinách sekundy, překryvy, důrazy, prodloužení hlásek a změny tempa.
 
-1. **Konstruktová validita má přednost** — EA fenomény jsou neostře definované, špatně operacionalizované measure devalvují celou studii.
-2. **Pre-registrace povinná** — bez OSF/AsPredicted protokolu otevíráte dveře HARKing a p-hackingu.
-3. **Dvojitá triangulace** — minimálně 3 zdroje dat ([self-report](@/glossary/self-report.md), behavioral, physiological/observational).
-4. **Reflexivita explicitní** — výzkumník není neutrální nástroj, jeho pozice formuje data.
-5. **Etický gating na prvním místě** — žádná data nejsou dost cenná, aby ospravedlnila neetický design.
-6. **Replikovatelnost build-in** — kód, data (anonymizovaná), materiály do veřejného repozitáře.
+## Kdy metodu použít
 
-## Procedurální postup
+- Analýza **institucionálních rozhovorů**: výslechy, soudní jednání, lékařské a terapeutické
+  rozhovory, supervize, pracovní hodnocení – kde lze nahrávat legálně a s
+  [informovaným souhlasem](@/kompendium/research-methodology/informed-consent-EA-research.md).
+- Studium **epistemických nároků** v interakci: kdo smí říct, co se stalo, a jak se
+  vyjednává autorita (srov. [prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)).
+- **Výcvik profesionálů**: rozbor nahrávek (se souhlasem) pomáhá terapeutům, vyšetřovatelům
+  a lékařům vidět, kdy nevědomky přebírají výklad za klienta.
+- Analýza **veřejně dostupných interakcí** – debat, rozhovorů v médiích, kde lze studovat
+  například [Gish gallop](@/glossary/gish-gallop.md) nebo [sealioning](@/glossary/sealioning.md).
 
-**Fáze 1 — Příprava (4-12 týdnů)**
+## Postup
 
-- Literature review s PRISMA flow chart
-- Pre-registrace na OSF (hypotézy, design, analýza uzamčeny)
-- IRB submission + amendments
-- Pilot study (n=10-30) pro feasibility a item refinement
+1. **Získání nahrávek** přirozeně probíhajících interakcí (ne rozhovorů vedených pro výzkum).
+2. **Detailní přepis** podle Jeffersonova systému.
+3. **Nemotivované prohlížení** – opakované poslouchání bez předem dané hypotézy.
+4. **Identifikace jevu** – opakující se struktura, například způsob, jakým jeden mluvčí
+   reaguje na popis události druhého.
+5. **Sbírka případů** stejného jevu napříč nahrávkami.
+6. **Analýza každého případu** – co dělá daná replika, jak na ni reaguje druhá strana
+   (tzv. průkaz z další repliky: výklad se opírá o to, jak replikám rozuměli sami účastníci).
+7. **Deviantní případy** – kde se jev neobjevil nebo proběhl jinak – a jejich vysvětlení.
 
-**Fáze 2 — Sběr dat (variabilní)**
+## Specifika výzkumu epistemické manipulace
 
-- Strict protocol adherence — deviations log povinný
-- Real-time data quality checks (missingness, výpadky)
-- Periodic safety review (DSMB pro intervenční studie)
+**Kde je hranice mezi běžnou a manipulativní interakcí?** Přerušení, opravy a nesouhlas
+jsou běžnou součástí rozhovoru. CA umožňuje popsat jejich systematické rozložení: kdo
+opravuje koho, zda jsou opravy symetrické, zda se popis jednoho mluvčího pravidelně
+přeformulovává druhým do jiného významu. Jednotlivá replika nic nedokazuje; vzorec v mnoha
+interakcích ano. To odpovídá přístupu knihy k [pattern evidence](@/glossary/pattern-evidence.md).
 
-**Fáze 3 — Analýza (4-8 týdnů)**
+**Nahrávky z rizikových vztahů.** Nahrávky soukromých rozhovorů z kontrolujících vztahů
+existují (lidé si je pořizují jako oporu vlastní paměti), ale jejich výzkumné užití je
+eticky a právně složité: druhá strana nedala souhlas, nahrávky mohou být důkazem v řízení
+a jejich zveřejnění může ohrozit autora. Takové nahrávky se pro výzkum obvykle nepoužívají;
+pokud ano, pak jen se souhlasem etické komise a s přísnou ochranou (viz
+[protokoly nahrávání](@/kompendium/forensic-legal/36-recording-protocols.md)).
 
-- Pre-registered analysis first, exploratory analyses jasně označené
-- Sensitivity analyses (alternative model specifications)
-- Multiple comparison correction (Bonferroni/FDR/Holm)
+**Institucionální interakce jako bezpečnější pole.** Mnohé vzorce zpochybňování vnímání
+lze studovat v institucích – například jak lékař reaguje na pacientův popis symptomů, který
+nezapadá do očekávání, nebo jak vyšetřovatel klade otázky lidem s traumatem. Tyto studie
+mají přímé využití pro prevenci [epistemické injustice](@/glossary/epistemicka-injustice.md)
+v profesích.
 
-**Fáze 4 — Reporting (4-12 týdnů)**
+**Epistemická teritoria.** Heritage ukázal, že mluvčí v rozhovoru neustále vyjednávají, kdo
+má k čemu přístup: o vlastních pocitech a zážitcích má primární právo vědět ten, kdo je
+prožil. Jedním z nejjasnějších interakčních znaků zpochybňování vnímání je, když druhá
+strana tato teritoria systematicky překračuje – sděluje mluvčímu, co cítil, co viděl nebo
+co si pamatuje, a mluvčí to v další replice přijme. Konverzační analýza umožňuje tento jev
+popsat přesně a odlišit ho od běžného nesouhlasu, v němž obě strany svá teritoria
+respektují, i když se v obsahu rozcházejí.
 
-- CONSORT/STROBE/COREQ checklist dle designu
-- Open materials/data/code (FAIR principles)
-- Limitations sekce explicitní, ne defenzivní
+**Nepřenášet z mikro do makro.** CA popisuje, co se děje v rozhovoru. Z jedné interakce nelze
+usuzovat na povahu celého vztahu ani na úmysly mluvčího.
 
-## Riziková místa
+**Hlas a tělo.** Pro analýzu dominance je často důležitá prozodie a u videonahrávek
+i pohled, gesta a postoj. Multimodální rozšíření CA umožňuje tyto prvky zaznamenat; zvyšuje
+ale nároky na anonymizaci, protože hlas i tvář jsou silné identifikátory.
 
-- **Selection bias** — kdo se hlásí na EA výzkum není reprezentativní vzorek populace.
-- **Demand characteristics** — participanti tuší, co výzkumník chce, a chovají se podle toho.
-- **Researcher allegiance effect** — přesvědčení výzkumníka o efektu inflatuje pozorovaný účinek.
-- **Attrition selectivní** — kdo odejde ze studie není random podmnožina, vytváří survivorship bias.
-- **Construct drift** — operacionalizace EA pojmu se mezi studiemi liší, brání meta-analýze.
-- **Ethical creep** — postupné rozšiřování invazivnosti bez re-konzultace s IRB.
+## Kritéria kvality
 
-## Best practices
+| Oblast | Co doložit |
+|---|---|
+| Data | přirozené interakce, způsob pořízení, souhlas |
+| Přepis | konvence přepisu, úryvky v textu |
+| Sbírka | počet případů jevu, napříč kolika interakcemi |
+| Průkaz | výklad opřený o reakce účastníků |
+| Deviantní případy | jejich analýza a vysvětlení |
+| Rozsah závěrů | jasně odlišen popis interakce od tvrzení o vztahu či osobě |
 
-1. **Multi-method assessment** — žádný jednotlivý nástroj nezachytí EA fenomén kompletně.
-2. **Standardizované administrace** — videozáznam pro inter-rater reliability check.
-3. **Blinding kdekoliv to jde** — účastník vůči podmínce, hodnotitel vůči hypotéze.
-4. **Manipulation checks** — ověřte, že intervence skutečně manipulovala, co jste zamýšleli.
-5. **Effect size + CI** — p-hodnoty samotné nestačí, hlaste velikost účinku s 95% CI.
-6. **Data audit trail** — každá transformace dat dokumentovaná, reprodukovatelná skript.
-7. **Independent replication budget** — alokujte prostředky na nezávislou replikaci klíčových nálezů.
+## Etika a ochrana účastníků
 
-## Validační kritéria
+Nahrávky jsou nejcitlivějšími daty: hlas je identifikátor, obsah bývá intimní. Souhlas
+musí pokrývat pořízení, přepis, analýzu i případné předvádění úryvků na konferencích
+a ve výuce – každé zvlášť. Přepisy se anonymizují (jména, místa, detaily) a zvukové záznamy
+se zpřístupňují jen v nezbytné míře. U institucionálních rozhovorů je třeba souhlas všech
+účastníků, včetně profesionála, a jistota, že klient nebyl k souhlasu tlačen svou závislou
+pozicí. Podrobněji viz [datová bezpečnost](@/kompendium/research-methodology/data-security-EA-research.md).
 
-| Kritérium | Minimální standard |
-|-----------|-------------------|
-| Pre-registrace | OSF/AsPredicted před sběrem dat |
-| IRB approval | Aktivní, s amendments dokumentovanými |
-| Sample size | [A priori](@/glossary/apriori.md) power analysis, n ≥ vypočtené |
-| Reliability | α ≥ 0.70, ICC ≥ 0.75 pro kontinuální measures |
-| Validity | Konvergentní + diskriminantní evidence |
-| Transparency | Materials, data (anonym.), code veřejně |
-| Ethical compliance | Helsinki + Belmont + lokální regulace |
-| Reporting | CONSORT/STROBE/COREQ checklist |
+## Časté chyby
 
-## Cross-linky
+- analýza rozhovorů vedených výzkumníkem, jako by šlo o přirozenou interakci;
+- přepis bez pauz a překryvů, který znemožní analýzu;
+- výklad podle toho, co si mluvčí „asi myslel“, místo podle reakce další repliky;
+- jediný dramatický úryvek jako důkaz vzorce;
+- zveřejnění zvukových úryvků bez výslovného souhlasu.
 
-- [Etický rámec EA výzkumu](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [IRB protokol design](@/kompendium/research-methodology/IRB-protocol-design-EA.md)
-- [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md)
-- [Anonymizace dat](@/kompendium/research-methodology/anonymization-EA-research.md)
-- [Pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md)
-- [Power analysis](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/research-methodology/power-analysis-EA-research/)
-- [Effect size](@/kompendium/research-methodology/effect-size-EA.md)
-- [Mixed methods design](@/kompendium/research-methodology/mixed-methods-EA.md)
-- [Replikační výzkum](@/kompendium/research-methodology/replication-EA-research.md)
-- [Glossary — výzkumné termíny](@/glossary/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+## Ilustrativní příklad
 
----
+*Hypotetická studie.* Výzkumný tým analyzuje se souhlasem všech stran nahrávky vstupních
+rozhovorů v poradně. Zaměří se na chvíle, kdy klient popisuje událost a poradce ji
+přeformuluje. Ve sbírce případů tým rozliší přeformulování, které klient přijme a rozvine,
+od přeformulování, které klient opraví („ne, tak jsem to nemyslel“), a od přeformulování,
+po nichž klient zmlkne nebo začne přitakávat. Třetí skupina je zajímavá: v těchto případech
+klient po přeformulování přestává popisovat vlastní vnímání a přejímá poradcův výklad.
+Výsledek se nepoužívá k hodnocení poradců, ale k výcviku: jak přeformulovat tak, aby klient
+zůstal autorem svého popisu (srov. [metakomunikační dovednost](@/kompendium/techniques/ea-3-2-4-metacommunication-skill.md)).
 
-## Connect
+## Využití v praxi
 
-**Sekce**: [Research Methodology Index](@/kompendium/research-methodology/_index.md) | **Bucket**: kvalitativní metody | **Kompendium**: [Index](@/kompendium/_index.md)
+Konverzační analýza má nejpřímější využití ve výcviku profesionálů. Terapeuti, vyšetřovatelé,
+soudci a lékaři mohou na rozborech vidět, jak drobné rysy rozhovoru – přerušení, sugestivní
+otázka, rychlé přeformulování – ovlivňují, co druhý člověk dokáže říct. To je obzvlášť
+důležité u lidí, jejichž vnímání bylo dlouho zpochybňováno a kteří mají sklon přizpůsobit
+výpověď autoritě (srov. [sugestibilita](@/kompendium/forensic-legal/5-suggestibility-assessment.md)
+a [forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md)).
 
-**Související domény**: Klinická psychologie · Fenomenologie · Výzkumná etika · Statistická metodologie · Bezpečnostní governance
+## Jak číst studii tohoto typu
+
+- **Jsou v textu přepisy?** Bez nich nelze výklad ověřit.
+- **Jak velká je sbírka případů?** A obsahuje deviantní případy?
+- **Drží se výklad toho, jak repliku chápali účastníci?**
+- **Netvrdí studie o vztazích nebo osobách víc, než interakce ukazuje?**
+
+## Meze a otevřené otázky
+
+CA vyžaduje přirozené nahrávky, které jsou v soukromých kontrolujících vztazích téměř
+nedostupné a eticky problematické. Otevřenou otázkou je, jak bezpečně studovat interakce
+v prostředích, kde k manipulaci dochází, a jak propojit mikroanalýzu s dlouhodobou dynamikou
+vztahu.
+
+## Literatura
+
+- Sacks, H., Schegloff, E. A., Jefferson, G. (1974). A simplest systematics for the organization of turn-taking for conversation.
+- Schegloff, E. A. (2007). *Sequence Organization in Interaction.*
+- Heritage, J. (2012). Epistemics in action: Action formation and territories of knowledge.
+- Sidnell, J., Stivers, T. (eds.) (2013). *The Handbook of Conversation Analysis.*
+
+## Související
+
+**Metody v této sekci**
+
+- [Diskurzivní analýza](@/kompendium/research-methodology/discourse-analysis-EA.md) – význam a moc v širším kontextu.
+- [Informovaný souhlas](@/kompendium/research-methodology/informed-consent-EA-research.md) – souhlas s nahráváním.
+- [Datová bezpečnost](@/kompendium/research-methodology/data-security-EA-research.md) – ochrana zvukových dat.
+
+**Forenzní rovina**
+
+- [Protokoly nahrávání](@/kompendium/forensic-legal/36-recording-protocols.md) – nahrávky v právním kontextu.
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) – rozhovor bez sugesce.
+
+**Techniky a pojmy**
+
+- [Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – dominance v hlase a tempu.
+- [Pattern evidence](@/glossary/pattern-evidence.md) – vzorec napříč interakcemi.
+- [Gish gallop](@/glossary/gish-gallop.md) – zahlcení v debatě.

@@ -1,6 +1,6 @@
 +++
-title = "EA × Due Diligence: Source Weighting v DD Reportu"
-description = "Vážení zdrojů — proč 'audited financials' nejsou automaticky 100 % důvěryhodné"
+title = "Due diligence: vážení zdrojů a pravděpodobnostní úsudek"
+description = "Jak převést různě spolehlivé zdroje do jednoho úsudku: věrohodnost, nezávislost, aktualizace podle důkazů, slovní vyjádření pravděpodobnosti a obrana proti manipulaci vah."
 weight = 100
 
 [taxonomies]
@@ -8,84 +8,150 @@ tags = ["kompendium", "cross-domain", "due-diligence"]
 categories = ["academic", "platform-integration"]
 
 [extra]
-related_terms = ["1-ea-osint-source-credibility", "11-ea-dd-decision-engine-calibration", "12-ea-dd-counterparty-manipulation", "13-ea-dd-beneficial-ownership-disinformation"]
+related_terms = ["1-ea-osint-source-credibility", "8-ea-osint-cross-source-triangulation", "11-ea-dd-decision-engine-calibration", "15-ea-dd-evidence-quality-assessment"]
 parent = "kompendium-cross-domain"
 toc = true
 +++
 
-# EA × Due Diligence: Source Weighting v DD Reportu
+Prověrka protistrany shromažďuje informace z mnoha zdrojů různé kvality: úřední rejstříky,
+média, výpovědi bývalých partnerů, dokumenty od samotné protistrany, data z placených databází.
+Úsudek, který z nich vznikne, je vždy vážením – některým zdrojům se věří víc, jiným méně.
+Pokud jsou váhy nastaveny neuvědoměle, vzniká prostor pro zkreslení i pro manipulaci: kdo
+zná váhy, ví, kterým kanálem poslat informaci, aby měla největší účinek. Tato stránka popisuje,
+jak vážení zdrojů zprůhlednit a jak ho chránit.
 
-> **Cross-domain bridge** mezi Epistemic Attacks (EA) frameworkem a doménou **[Due Diligence](@/glossary/due-diligence.md)**.
+## Doména a problém
 
-## Doména
+Formálním rámcem pro aktualizaci přesvědčení podle nových informací je Bayesova věta:
+výchozí pravděpodobnost hypotézy se mění podle toho, jak pravděpodobný je nový důkaz,
+pokud hypotéza platí, ve srovnání s tím, jak pravděpodobný je, pokud neplatí. Prakticky to
+znamená, že **síla důkazu** nezávisí na tom, jak dobře „sedí“ k hypotéze, ale na tom, jak
+dobře odlišuje hypotézu od alternativ. Informace, která by se objevila i v případě, že
+hypotéza neplatí, má malou váhu, i když je zdroj spolehlivý. Schum (1994) podrobně rozebral,
+jak se v posuzování důkazů kombinuje věrohodnost zdroje se silou toho, co zdroj tvrdí.
 
-**Due Diligence** v kontextu Prismatic Platform pokrývá: investigativní operace, due-diligence pipeline, security operations, regulatory compliance. Tato doména se v posledních letech transformovala — z procedurální kontroly na **adversarial intelligence operation**, kde každý zdroj informace je potenciálně manipulovaný a každé rozhodnutí je výsledkem narrative warfare.
+Druhým problémem je **vyjadřování nejistoty**. Kent (1964) upozornil, že slova jako
+„pravděpodobně“ nebo „možná“ znamenají pro různé čtenáře velmi různé pravděpodobnosti, a
+navrhl spojit slovní vyjádření s číselnými rozpětími. Zpravodajské služby i některé regulace
+dnes používají standardizované škály. V [due diligence](@/glossary/due-diligence.md) se nejistota často ztrácí: zpráva
+uvádí „žádné negativní nálezy“, aniž by řekla, jak důkladně se hledalo.
 
-Klasické nástroje této domény (rule-based monitoring, document verification, technical IOCs) byly designovány pro epistemic-stable prostředí. Současná realita — AI-generovaný obsah, koordinované disinformační kampaně, sophisticated obfuscation — vyžaduje **EA-augmented** přístup.
+Tetlock (2005) ve dvacetiletém sledování expertních předpovědí ukázal, že úspěšnost
+předpovědí jednotlivých expertů často nebyla lepší než jednoduché statistické modely,
+a že lépe si vedli ti, kdo kombinovali více perspektiv a ochotně revidovali odhady.
+Pro vážení zdrojů z toho plyne, že ani hodnocení „expertního“ zdroje nemá být automaticky
+vysoké – záleží na jeho doložené úspěšnosti v podobných otázkách.
 
-## EA Relevance
+## Průnik s epistemickou anihilací
 
-Audited statements jsou důvěryhodnější než management interview, ale pouze pokud audit-firm má clean record. EA aplikuje multi-dimensional weighting.
+Kniha popisuje řadu technik, které míří přímo na váhy zdrojů. [Expertní disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md)
+snižuje váhu kompetentních hlasů, [credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md)
+zpochybňuje kvalifikaci, [reputation laundering](@/kompendium/detection-signatures/23-network-reputation-laundering.md)
+zvyšuje váhu nespolehlivých zdrojů jejich průchodem přes důvěryhodné prostředníky. Výsledkem
+není jednorázová chyba, ale trvalá deformace systému vah, který analytik používá pro všechna
+další rozhodnutí – obdoba toho, co kniha u jednotlivce popisuje jako [modifikaci evidenčních kritérií](@/kompendium/techniques/ea-4-3-5-evidential-criteria-modification.md).
 
-EA framework přináší do due diligence domény tři kritické dimenze:
+V osobních vztazích se manipulace vah projevuje tím, že člověk přestává věřit vlastním
+smyslům a spoléhá výhradně na výklad druhé osoby. V organizacích tím, že se ustálí jeden
+„spolehlivý“ zdroj – konzultant, databáze, interní expert –, jehož výroky se nepřezkoumávají.
+Obojí je ztráta [signálové plurality](@/glossary/signal-plurality.md).
 
-1. **Narrative integrity** — informace není jen fact, ale součást příběhu. Manipulátor pracuje s celým narrativem, ne s izolovanými fakty.
-2. **Source provenance** — proveniencia každé informace musí být sledovatelná až k root-source, ne jen k poslednímu publisher.
-3. **Adversarial assumption** — předpokládáme, že někdo se aktivně snaží manipulovat naše rozhodování. Bez této assumption padáme do confirmation bias a source-laundering pastí.
+## Rozpoznávací znaky
 
-Bez EA-augmentace produkuje due diligence pipeline **plausible-but-wrong** závěry s vysokou confidence — což je horší než žádný závěr, protože vede k akcím založeným na falešné jistotě.
+Problém s vážením zdrojů naznačuje, když **jeden zdroj rozhoduje** o závěru, aniž by to
+bylo zdůvodněno; když jsou **váhy implicitní** a nikdo je nedokáže vysvětlit; když se **váha
+zdroje mění podle toho, co tvrdí** (zdroj je spolehlivý, když potvrzuje, a nespolehlivý,
+když vyvrací); když **dokumenty od protistrany** mají stejnou váhu jako nezávislé ověření;
+a když **negativní výsledek hledání** („nic jsme nenašli“) není doplněn popisem, kde a jak
+se hledalo. Posledním znakem je **nepřiměřená jistota** závěru vzhledem ke kvalitě zdrojů
+(srov. [nepřiměřená sebejistota](@/kompendium/detection-signatures/9-behavioral-disproportionate-confidence.md)).
 
-## Detekční metody
+## Rámec: standardy a odpovědnost
 
-- Source-class baseline weights (audited > unaudited > management > rumor)
-- Auditor reputation overlay (Big 4 vs. tier 2 vs. unknown)
-- Conflict-of-interest discount (auditor = related party)
-- Recency-decay (data >12 měsíců = weight × 0.7)
+Právní předpisy obvykle nestanoví, jak vážit zdroje, ale stanoví povinnost postupovat
+s odbornou péčí a doložit, na čem rozhodnutí stojí. U povinných osob podle zákona č. 253/2008 Sb.
+se hodnocení rizika klienta opírá o dokumentované zdroje a jeho přiměřenost posuzuje
+dozorový orgán. Pro zpravodajské a analytické prostředí jsou vodítkem standardy hodnocení
+zdrojů (A–F/1–6) a standardizované slovní vyjádření pravděpodobnosti (Kent 1964).
 
-Tyto metody jsou implementovány v Prismatic Platform jako kombinace deterministických engine (PrismaticDd, PrismaticOsintCore) a EA-validation layeru (PrismaticDecision).
+## Ochranná opatření
 
-## Obranné mechanismy
+Prvním opatřením je **explicitní matice zdrojů**: u každého klíčového zdroje uvést jeho typ,
+nezávislost na protistraně, doloženou spolehlivost a co přesně tvrdí. Druhým je **diagnostická
+otázka** u každého důkazu: objevil by se i v případě, že hypotéza neplatí? Třetím je
+**standardizovaná škála nejistoty** v závěrech, se slovy svázanými s rozpětími. Čtvrtým je
+**popis negativního hledání** – kde, jak a s jakými omezeními. Pátým je **pravidelná kalibrace**:
+zpětné srovnání odhadů s tím, jak věci dopadly (viz [kalibrace rozhodovacího systému](@/kompendium/cross-domain/11-ea-dd-decision-engine-calibration.md)).
+Šestým je **ochrana vah před manipulací**: změna váhy zdroje se zdůvodňuje a zapisuje,
+nikoli upravuje podle aktuálního tvrzení.
 
-- Weighted-evidence scoring v DD reportu
-- Source-dependency graph (které findings závisí na kterých zdrojích)
-- Sensitivity analýza (co kdyby top-source byl wrong?)
-- Audit-firm watch list (sankcionovaní auditoři, restated opinions)
+## Lidský rozměr a zotavení
 
-Obranné mechanismy nejsou jen reaktivní — proaktivně **změny architekturu rozhodování** tak, aby manipulace byla detekovatelná **před** tím, než ovlivní akci. Cílem není blokovat všechny manipulace (nemožné), ale **redukovat blast radius** úspěšné manipulace pod akceptovatelný práh.
+Pro osoby, o nichž prověrka rozhoduje, je důležité, aby jejich vlastní vyjádření mělo
+v úsudku místo a aby nebylo automaticky podhodnoceno jen proto, že pochází od nich. Fricker
+(2007) tento jev popisuje jako svědeckou křivdu: mluvčímu je přisuzována nižší důvěryhodnost
+z důvodů, které nesouvisejí s obsahem. Na straně analytika je zdravé vážení zdrojů ochranou
+proti vyhoření i cynismu – kdo ví, proč čemu věří, nepotřebuje ani všemu věřit, ani vše
+odmítat. Kniha tuto dovednost popisuje jako [kalibraci důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md).
 
-## Případové scénáře
+## Přesah do dalších oborů
 
-### Scénář 1
+Vážení zdrojů je jádrem medicíny založené na důkazech, kde hierarchie důkazů a hodnocení
+jistoty (např. přístup GRADE) určují, jakou váhu má studie v doporučení. V soudnictví jde
+o volné hodnocení důkazů, kdy soud váží výpovědi, listiny a posudky. Ve vzdělávání o to,
+jak učit žáky, že ne všechny zdroje mají stejnou váhu, ale že váhu je třeba zdůvodnit.
+V terapii lidí po manipulaci jde o obnovu schopnosti dát váhu vlastnímu vnímání vedle
+názorů druhých (viz [Subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md)).
+Ve všech oborech platí Schumův (1994) postřeh, že síla důkazu se skládá z věrohodnosti
+zdroje a z toho, nakolik tvrzení odlišuje mezi hypotézami.
 
-DD target: 'audited' financials, ale auditor = 4-osobní firma, která auditovala 23 firem stejného UBO — weight downgraded 100→35
+## Ilustrativní scénář
 
-### Scénář 2
+*Hypotetický, anonymizovaný scénář.* Prověrka kandidáta do představenstva obsahuje negativní
+referenci od bývalého kolegy a tři pozitivní reference, které dodal sám kandidát. Původní
+zpráva je hodnotí stejně a závěr zní „smíšené reference“. Při revizi analytik zvažuje
+nezávislost: pozitivní reference vybral kandidát, negativní pochází od osoby, která s ním
+byla v obchodním sporu. Ani jedna skupina není nezávislá. Analytik proto osloví dva bývalé
+kolegy, které kandidát neuvedl a kteří nebyli ve sporu. Jejich výpovědi jsou věcné a
+spíše pozitivní. Závěr zní: „Bez podstatných negativních zjištění; jedna negativní reference
+pochází ze sporu a nebyla nezávisle potvrzena.“
 
-Management projections: weight 20, ale po 3 quarters tracking match real performance → upgraded 20→55
+Zpráva přitom negativní referenci nevyřazuje: uvádí její obsah, okolnosti vzniku a to,
+že ji nezávislé zdroje nepotvrdily. Kdyby se později objevily další nezávislé informace
+stejného směru, váha původní reference se zvýší – a tento postup je ve zprávě popsán
+předem, aby nebylo možné váhy upravovat podle toho, jaký závěr je zrovna žádoucí.
 
-Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
+Kandidát dostane možnost se k negativní referenci vyjádřit; jeho vysvětlení je ve zprávě
+uvedeno vedle ní, nikoli místo ní.
 
-## Cross-linky
+## Meze a otevřené otázky
 
-- [Kompendium — Úvod](@/kompendium/02-uvod/_index.md)
-- [Základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Detection signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery protocols](@/kompendium/recovery-protocols/_index.md)
-- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
-- [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
-- [Case studies](@/kompendium/case-studies/_index.md)
-- [Quick reference](@/kompendium/quick-reference/_index.md)
+Explicitní vážení zdrojů je náročné a v praxi často nahrazováno intuicí. Otevřenou otázkou
+je, jak vést analytiky k tomu, aby váhy zdůvodňovali bez toho, aby z nich vznikla pseudopřesná
+čísla, která jen zakrývají subjektivní úsudek.
 
-## Connect
+## Literatura
 
-- **Komentáře a otázky**: [GitHub Discussions](https://github.com/korczis/kompendium-epistemicke-anihilace/discussions)
-- **Bug reporty**: [GitLab Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **Email**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **LinkedIn**: [korczis](https://linkedin.com/in/korczis)
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing.*
+- Kent, S. (1964). Words of estimative probability.
+- Schum, D. A. (1994). *The Evidential Foundations of Probabilistic Reasoning.*
+- Tetlock, P. E. (2005). *Expert Political Judgment: How Good Is It? How Can We Know?*
 
----
+## Související
 
-*Built with precision. Optimized for adversarial intelligence operations.*
-*Část série: Cross-Domain Bridges | EA × Due Diligence*
+**Mezioborové mosty**
+
+- [Důvěryhodnost zdrojů](@/kompendium/cross-domain/1-ea-osint-source-credibility.md) – hodnocení jednotlivých zdrojů.
+- [Triangulace napříč zdroji](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md) – nezávislost.
+- [Kalibrace rozhodovacího systému](@/kompendium/cross-domain/11-ea-dd-decision-engine-calibration.md) – zpětná kontrola odhadů.
+- [Hodnocení kvality důkazů](@/kompendium/cross-domain/15-ea-dd-evidence-quality-assessment.md) – síla doložení.
+
+**Techniky a kontext platformy**
+
+- [EA-2.1.1 Expertní disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) – snižování váhy expertů.
+- [DD Engine & EA detection](@/kompendium/aiad-integration/dd-engine-ea-source-weighting.md) – vážení zdrojů v platformě.
+
+**Sebeobrana a pojmy**
+
+- [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) – osobní dovednost.
+- [Signal plurality](@/glossary/signal-plurality.md) – různorodost zdrojů.

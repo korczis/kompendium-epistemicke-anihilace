@@ -1,6 +1,6 @@
 +++
-title = "Mixed Methods Design pro EA"
-description = "Výzkumná metodologie EA — mixed methods design pro ea."
+title = "Kombinované designy (mixed methods)"
+description = "Jak spojit dotazníková a kvalitativní data o epistemické manipulaci: sekvenční a souběžné designy, integrace výsledků a práce s rozpory."
 weight = 13
 
 [taxonomies]
@@ -8,106 +8,172 @@ tags = ["kompendium", "research-methodology", "quantitative"]
 categories = ["academic", "methodology", "research"]
 
 [extra]
-related_terms = ["longitudinal-study-EA", "meta-analysis-EA", "narrative-analysis-EA", "network-analysis-EA"]
+related_terms = ["survey-design-EA", "thematic-analysis-EA", "phenomenological-interview-EA", "case-study-design-EA"]
 parent = "kompendium-research-methodology"
 toc = true
 +++
 
-## Metodologický kontext
+[Epistemická anihilace](@/glossary/epistemicka-anihilace.md) má dvě tváře, které jedna metoda
+nezachytí: měřitelné vzorce (jak často, u koho, s jakými následky) a prožitek zevnitř (jak
+se mění vztah člověka k vlastnímu vnímání). Kombinované designy (*mixed methods*) propojují
+kvantitativní a kvalitativní data v jedné studii tak, aby se navzájem vysvětlovaly, ověřovaly
+nebo stavěly jedna na druhé.
 
-Tento článek pokrývá **Mixed Methods Design pro EA** v rámci kvantitativního výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
+## Vymezení
 
-**Specifický metodologický háček EA výzkumu:** Sekvenční explanatory design: kvantitativní fáze (n=200+ survey) → kvalitativní fáze (n=15-20 hloubkové interview vybraných extrémních případů). Triangulace povinná.
+Kombinovaný design není prosté „udělali jsme dotazník a pár rozhovorů“. Podle Creswella
+a Plano Clarkové je definujícím znakem **záměrná integrace**: výzkumník předem určí, v jakém
+pořadí se data sbírají, jakou váhu má každá složka a v kterém bodě se výsledky spojí.
+Základní typy:
 
-EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani naopak utopit data v interpretativní mlze. Cílem je **triangulační konvergence** mezi behaviorálními markery, subjektivním prožitkem a strukturálními invarianty deformace ega.
+- **sekvenční vysvětlující** – nejprve kvantitativní fáze, potom rozhovory, které vysvětlují
+  nečekané nebo krajní výsledky;
+- **sekvenční explorační** – nejprve kvalitativní fáze, z níž vznikne nástroj nebo hypotéza,
+  potom kvantitativní ověření (typické pro vývoj dotazníku, viz
+  [dotazníkový výzkum](@/kompendium/research-methodology/survey-design-EA.md));
+- **souběžný (konvergentní)** – obě složky současně a nezávisle, poté srovnání;
+- **vnořený** – menší složka uvnitř většího designu, např. rozhovory s částí účastníků
+  [randomizované studie](@/kompendium/research-methodology/RCT-EA-considerations.md).
 
-## Klíčové principy
+## Kdy metodu použít
 
-1. **Konstruktová validita má přednost** — EA fenomény jsou neostře definované, špatně operacionalizované measure devalvují celou studii.
-2. **Pre-registrace povinná** — bez OSF/AsPredicted protokolu otevíráte dveře HARKing a p-hackingu.
-3. **Dvojitá triangulace** — minimálně 3 zdroje dat ([self-report](@/glossary/self-report.md), behavioral, physiological/observational).
-4. **Reflexivita explicitní** — výzkumník není neutrální nástroj, jeho pozice formuje data.
-5. **Etický gating na prvním místě** — žádná data nejsou dost cenná, aby ospravedlnila neetický design.
-6. **Replikovatelnost build-in** — kód, data (anonymizovaná), materiály do veřejného repozitáře.
+- Když je fenomén **nově vymezený** a jeho měření teprve vzniká – což platí o většině
+  konstruktů této knihy.
+- Když kvantitativní výsledky **potřebují výklad**: proč program odolnosti pomohl jedné
+  skupině a druhé ne.
+- Když je třeba **ověřit, že dotazník měří prožitek**, který lidé popisují vlastními slovy.
+- Když výzkum slouží **praxi**: kliničtí a organizační čtenáři potřebují čísla i pochopení
+  mechanismu.
 
-## Procedurální postup
+## Postup
 
-**Fáze 1 — Příprava (4-12 týdnů)**
+1. **Zdůvodnění kombinace.** Písemně: co každá složka přinese a proč by jedna nestačila.
+2. **Volba designu** podle otázky, ne podle toho, co tým umí.
+3. **Výběr vzorku pro kvalitativní fázi** z kvantitativních dat – například lidé s vysokým
+   skóre a nízkými obtížemi (kdo je odolný a proč?) nebo lidé, jejichž odpovědi si odporují.
+4. **Body integrace.** Kde se data potkávají: při výběru vzorku, při tvorbě nástroje, při
+   interpretaci. Užitečné jsou společné tabulky (*joint displays*), které staví vedle sebe
+   kvantitativní výsledek a odpovídající téma z rozhovorů.
+5. **Práce s nesouladem.** Rozpor mezi daty je nález, ne chyba. Zpráva popisuje, kde se
+   složky shodují, kde se doplňují a kde si odporují, a nabízí vysvětlení.
+6. **Kvalita každé složky zvlášť** – kombinace neomlouvá slabý dotazník ani povrchní rozhovory.
 
-- Literature review s PRISMA flow chart
-- Pre-registrace na OSF (hypotézy, design, analýza uzamčeny)
-- IRB submission + amendments
-- Pilot study (n=10-30) pro feasibility a item refinement
+## Specifika výzkumu epistemické manipulace
 
-**Fáze 2 — Sběr dat (variabilní)**
+**Rozpor mezi číslem a příběhem.** Je běžné, že člověk v dotazníku hlásí málo kontrolního
+chování, a v rozhovoru popíše situace, které by odborník za kontrolu jednoznačně považoval.
+Důvodem bývá, že dotyčný chování dosud nenazval jako problém, nebo ho stále omlouvá. Takový
+rozpor je pro výzkum EA mimořádně informativní – ukazuje, jak hluboko sahá přijatý výklad
+druhé strany (srov. [internalizovaný pachatel](@/glossary/internalizovany-pachatel.md)).
 
-- Strict protocol adherence — deviations log povinný
-- Real-time data quality checks (missingness, výpadky)
-- Periodic safety review (DSMB pro intervenční studie)
+**Riziko „potvrzující“ kvalitativní fáze.** Když tým vybírá do rozhovorů lidi, kteří
+nejlépe odpovídají hypotéze, kvalitativní fáze jen ilustruje, co už „víme“. Vzorek má
+obsahovat i protipříklady.
 
-**Fáze 3 — Analýza (4-8 týdnů)**
+**Zátěž účastníků.** Kombinovaný design často znamená, že tentýž člověk vyplní dotazník
+a pak absolvuje rozhovor. Souhlas s druhou fází se získává zvlášť a bez tlaku
+([informovaný souhlas](@/kompendium/research-methodology/informed-consent-EA-research.md)).
 
-- Pre-registered analysis first, exploratory analyses jasně označené
-- Sensitivity analyses (alternative model specifications)
-- Multiple comparison correction (Bonferroni/FDR/Holm)
+**Spojení dat a anonymita.** Propojení dotazníku a rozhovoru vyžaduje kód, který obě data
+spojí; tím roste riziko identifikace (viz [anonymizace](@/kompendium/research-methodology/anonymization-EA-research.md)).
 
-**Fáze 4 — Reporting (4-12 týdnů)**
+## Kritéria kvality
 
-- CONSORT/STROBE/COREQ checklist dle designu
-- Open materials/data/code (FAIR principles)
-- Limitations sekce explicitní, ne defenzivní
+| Oblast | Co doložit |
+|---|---|
+| Zdůvodnění | proč kombinace, co přináší každá složka |
+| Design | typ, pořadí, váha složek, diagram |
+| Integrace | kde a jak se data spojila; společná tabulka |
+| Kvalita složek | standardy kvantitativní i kvalitativní (např. COREQ pro rozhovory) |
+| Nesoulad | popsané rozpory a jejich výklad |
+| Reflexivita | role týmu v interpretaci obou složek |
 
-## Riziková místa
+## Etika a ochrana účastníků
 
-- **Selection bias** — kdo se hlásí na EA výzkum není reprezentativní vzorek populace.
-- **Demand characteristics** — participanti tuší, co výzkumník chce, a chovají se podle toho.
-- **Researcher allegiance effect** — přesvědčení výzkumníka o efektu inflatuje pozorovaný účinek.
-- **Attrition selectivní** — kdo odejde ze studie není random podmnožina, vytváří survivorship bias.
-- **Construct drift** — operacionalizace EA pojmu se mezi studiemi liší, brání meta-analýze.
-- **Ethical creep** — postupné rozšiřování invazivnosti bez re-konzultace s IRB.
+Kvalitativní fáze bývá pro účastníka náročnější než dotazník. Je třeba předem stanovit, jak
+se postupuje při akutním distresu během rozhovoru, a mít dostupný kontakt na odbornou pomoc.
+Pokud se kvantitativní data použijí k výběru „extrémních“ případů, účastník nemá být osloven
+způsobem, který by mu sděloval jeho skóre nebo ho označoval („vyšel jste jako silně zasažený“).
 
-## Best practices
+## Časté chyby
 
-1. **Multi-method assessment** — žádný jednotlivý nástroj nezachytí EA fenomén kompletně.
-2. **Standardizované administrace** — videozáznam pro inter-rater reliability check.
-3. **Blinding kdekoliv to jde** — účastník vůči podmínce, hodnotitel vůči hypotéze.
-4. **Manipulation checks** — ověřte, že intervence skutečně manipulovala, co jste zamýšleli.
-5. **Effect size + CI** — p-hodnoty samotné nestačí, hlaste velikost účinku s 95% CI.
-6. **Data audit trail** — každá transformace dat dokumentovaná, reprodukovatelná skript.
-7. **Independent replication budget** — alokujte prostředky na nezávislou replikaci klíčových nálezů.
+- dvě paralelní studie bez integrace, jen sešité do jednoho článku;
+- kvalitativní složka jako „citáty na dokreslení“ bez vlastní analýzy;
+- kvantifikace kvalitativních dat bez reflexe („70 % účastníků zmínilo…“ u vzorku dvanácti lidí);
+- zamlčení rozporů, protože „ruší“ příběh studie.
 
-## Validační kritéria
+## Ilustrativní příklad
 
-| Kritérium | Minimální standard |
-|-----------|-------------------|
-| Pre-registrace | OSF/AsPredicted před sběrem dat |
-| IRB approval | Aktivní, s amendments dokumentovanými |
-| Sample size | [A priori](@/glossary/apriori.md) power analysis, n ≥ vypočtené |
-| Reliability | α ≥ 0.70, ICC ≥ 0.75 pro kontinuální measures |
-| Validity | Konvergentní + diskriminantní evidence |
-| Transparency | Materials, data (anonym.), code veřejně |
-| Ethical compliance | Helsinki + Belmont + lokální regulace |
-| Reporting | CONSORT/STROBE/COREQ checklist |
+*Hypotetický návrh.* Studie na pracovištích nejprve měří vnímanou
+[psychologickou bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
+a výskyt jevů, jako je soustavné přepisování zápisů z porad nebo zpochybňování toho, co
+zaměstnanci slyšeli. Ve druhé fázi tým vede rozhovory v týmech s nejvyšším a nejnižším
+výskytem. Společná tabulka ukáže, že v týmech s vysokým výskytem lidé popisují ztrátu
+důvěry ve vlastní zápisky a začínají si nahrávat porady – chování, které dotazník nezachytil
+a které se stane položkou příští verze nástroje.
 
-## Cross-linky
+Příklad ukazuje i typické riziko: rozhovory v „nejhorších“ týmech mohou zaměstnance
+vystavit odvetě, pokud by se vedení dozvědělo, kdo mluvil. Tým proto vede rozhovory mimo
+pracoviště, výsledky hlásí jen souhrnně za skupinu týmů a předem s organizací dohodne, že
+neobdrží žádná data, z nichž by šlo poznat konkrétní tým nebo osobu. Organizace dostane
+doporučení na úrovni systému – například pravidla pro schvalování zápisů –, ne seznam
+„problémových“ vedoucích.
 
-- [Etický rámec EA výzkumu](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [IRB protokol design](@/kompendium/research-methodology/IRB-protocol-design-EA.md)
-- [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md)
-- [Anonymizace dat](@/kompendium/research-methodology/anonymization-EA-research.md)
-- [Pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md)
-- [Power analysis](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/research-methodology/power-analysis-EA-research/)
-- [Effect size](@/kompendium/research-methodology/effect-size-EA.md)
-- [Mixed methods design](@/kompendium/research-methodology/mixed-methods-EA.md)
-- [Replikační výzkum](@/kompendium/research-methodology/replication-EA-research.md)
-- [Glossary — výzkumné termíny](@/glossary/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+## Jak číst studii tohoto typu
 
----
+Studie, které se označují za kombinované, se kvalitou velmi liší. Pro posouzení pomáhá
+několik otázek:
 
-## Connect
+- **Je integrace vidět?** Ve zprávě má existovat místo – tabulka, oddíl, diagram –, kde se
+  kvantitativní a kvalitativní výsledky skutečně potkávají. Pokud lze jednu polovinu článku
+  odstranit a druhá zůstane beze změny srozumitelná, o integraci nejde.
+- **Jak byl vybrán kvalitativní vzorek?** Zda náhodně, záměrně podle skóre, nebo podle
+  ochoty účastníků. Každý způsob dává jiný typ poznání a autoři by ho měli pojmenovat.
+- **Mají obě složky vlastní metodologickou kvalitu?** Dotazník s neověřenou validitou
+  a „rozhovory“, které byly ve skutečnosti otevřené otázky na konci dotazníku, kombinovaný
+  design netvoří.
+- **Co se stalo s rozpory?** Studie, v níž se obě složky dokonale shodují, je buď výjimečně
+  šťastná, nebo selektivně vykázaná. Poctivá zpráva rozpory přiznává a vykládá.
+- **Kdo interpretoval?** Pokud kvalitativní data analyzoval tentýž člověk, který zná
+  kvantitativní výsledky, je riziko, že rozhovory čte jako potvrzení čísel. Některé týmy
+  proto obě složky nejprve analyzují odděleně a teprve pak je propojí.
 
-**Sekce**: [Research Methodology Index](@/kompendium/research-methodology/_index.md) | **Bucket**: kvantitativní metody | **Kompendium**: [Index](@/kompendium/_index.md)
+Pro praxi bývají kombinované studie nejsrozumitelnější: číslo říká, jak častý jev je, a citát
+ukazuje, jak vypadá. Právě proto je třeba hlídat, aby citát nebyl vybrán jen pro svou sílu.
+Jeden dramatický výrok neříká nic o tom, jak typická je popsaná zkušenost.
 
-**Související domény**: Klinická psychologie · Fenomenologie · Výzkumná etika · Statistická metodologie · Bezpečnostní governance
+## Meze a otevřené otázky
+
+Kombinované designy jsou náročné na čas, rozpočet a dovednosti týmu. Filozofické napětí mezi
+paradigmaty (měření versus porozumění) nezmizí tím, že se metody spojí; pragmatický přístup
+je obhajitelný, pokud je otevřeně přiznaný. Otevřenou otázkou zůstává, jak integrovat data
+u fenoménů, kde samotný jazyk účastníka mohl být manipulací přetvořen (viz
+[sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md)).
+
+## Literatura
+
+- Creswell, J. W., Plano Clark, V. L. *Designing and Conducting Mixed Methods Research* (více vydání, první 2007).
+- Tashakkori, A., Teddlie, C. (eds.) *Handbook of Mixed Methods in Social & Behavioral Research* (více vydání).
+- Tong, A., Sainsbury, P., Craig, J. (2007). Consolidated criteria for reporting qualitative research (COREQ).
+
+## Související
+
+**Metody v této sekci**
+
+- [Dotazníkový výzkum](@/kompendium/research-methodology/survey-design-EA.md) – kvantitativní složka.
+- [Tematická analýza](@/kompendium/research-methodology/thematic-analysis-EA.md) – nejčastější kvalitativní složka.
+- [Fenomenologický rozhovor](@/kompendium/research-methodology/phenomenological-interview-EA.md) – hloubka prožitku.
+- [Případová studie](@/kompendium/research-methodology/case-study-design-EA.md) – kombinace dat v jednom případu.
+
+**Etika**
+
+- [Anonymizace](@/kompendium/research-methodology/anonymization-EA-research.md) – propojená data a riziko identifikace.
+
+**Organizace a klinika**
+
+- [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md) – organizační použití.
+- [Observational assessment](@/kompendium/06-klinicke-aplikace/observational-assessment.md) – klinické pozorování jako další zdroj.
+
+**Pojmy**
+
+- [Internalizovaný pachatel](@/glossary/internalizovany-pachatel.md) – proč se číslo a příběh rozcházejí.

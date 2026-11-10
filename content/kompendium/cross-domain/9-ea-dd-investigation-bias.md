@@ -1,6 +1,6 @@
 +++
-title = "EA × Due Diligence: Confirmation Bias v DD Procesu"
-description = "Investigation bias — jak DD týmy nevědomě hledají potvrzení deal teze"
+title = "Due diligence: kognitivní zkreslení vyšetřovatele"
+description = "Jak heuristiky, motivace a struktura zakázky zkreslují prověrku: kotvení, konfirmace, tlak zadavatele, únava a jak je zachytit dřív, než se z nich stane závěr."
 weight = 90
 
 [taxonomies]
@@ -8,84 +8,150 @@ tags = ["kompendium", "cross-domain", "due-diligence"]
 categories = ["academic", "platform-integration"]
 
 [extra]
-related_terms = ["7-ea-osint-narrative-injection", "8-ea-osint-cross-source-triangulation", "6-ea-osint-bot-detection"]
+related_terms = ["16-ea-dd-confirmation-bias-prevention", "10-ea-dd-source-weighting", "15-ea-dd-evidence-quality-assessment", "12-ea-dd-counterparty-manipulation"]
 parent = "kompendium-cross-domain"
 toc = true
 +++
 
-# EA × Due Diligence: Confirmation Bias v DD Procesu
+[Due diligence](@/glossary/due-diligence.md) – prověrka protistrany před transakcí, investicí,
+spoluprací nebo jmenováním – je v podstatě vyšetřování s omezeným časem a rozpočtem. Jeho
+výsledkem je úsudek o člověku nebo firmě, z něhož plyne rozhodnutí s velkými důsledky.
+Zatímco manipulace protistrany se v due diligence obvykle očekává, méně pozornosti dostávají
+zkreslení na straně samotného vyšetřovatele. Kniha popisuje, jak se u jednotlivce rozkládá
+schopnost revidovat přesvědčení; vyšetřovatel pod tlakem času, zadavatele a vlastních
+očekávání prochází menší, ale strukturně podobnou cestou.
 
-> **Cross-domain bridge** mezi Epistemic Attacks (EA) frameworkem a doménou **[Due Diligence](@/glossary/due-diligence.md)**.
+## Doména a problém
 
-## Doména
+Tversky a Kahneman (1974) popsali tři heuristiky, které ovlivňují úsudek v nejistotě:
+**dostupnost** (co se snadno vybaví, zdá se pravděpodobnější), **reprezentativnost** (co se
+podobá prototypu, zdá se jím být) a **kotvení** (první číslo nebo dojem ovlivňuje všechny
+další odhady). V due diligence se projevují konkrétně: nedávný skandál v odvětví zvyšuje
+vnímané riziko podobných firem, protistrana, která „vypadá“ jako podvodník, je hodnocena
+přísněji, a první informace o subjektu – často z vyhledávače – určuje rámec celé prověrky.
 
-**Due Diligence** v kontextu Prismatic Platform pokrývá: investigativní operace, due-diligence pipeline, security operations, regulatory compliance. Tato doména se v posledních letech transformovala — z procedurální kontroly na **adversarial intelligence operation**, kde každý zdroj informace je potenciálně manipulovaný a každé rozhodnutí je výsledkem narrative warfare.
+Heuer (1999) přenesl tyto poznatky do zpravodajské analýzy a zdůraznil, že zkreslení nejsou
+důsledkem nedbalosti, ale vlastností lidského myšlení, která se projevuje i u zkušených
+analytiků. Zkušenost může zkreslení dokonce posílit, protože zkušený analytik má silnější
+mentální modely a rychleji „ví“, o co jde. Kahneman, Lovallo a Sibony (2011) proto navrhli
+pro velká rozhodnutí kontrolní otázky, které se neptají, zda je závěr správný, ale zda
+proces, který k němu vedl, nebyl zkreslený.
 
-Klasické nástroje této domény (rule-based monitoring, document verification, technical IOCs) byly designovány pro epistemic-stable prostředí. Současná realita — AI-generovaný obsah, koordinované disinformační kampaně, sophisticated obfuscation — vyžaduje **EA-augmented** přístup.
+K individuálním zkreslením přistupují **strukturální tlaky**. Zadavatel často chce určitý
+výsledek: investor, který už je o transakci přesvědčen, očekává potvrzení; kupující, který
+hledá důvod ke snížení ceny, očekává nálezy. Odměna za prověrku bývá vázána na rychlost,
+nikoli na kvalitu nejistých závěrů. A vyšetřovatel, který si s protistranou vybuduje vztah
+během jednání, může ztratit odstup.
 
-## EA Relevance
+## Průnik s epistemickou anihilací
 
-DD je pod tlakem dodat go/no-go rozhodnutí. Confirmation bias způsobuje, že tým hledá důkazy podporující předem rozhodnutý směr. EA framework forces falsification.
+Kniha popisuje [konfirmační bias](@/glossary/konfirmacni-bias.md) jako jeden ze vstupních
+bodů manipulace: kdo něco očekává, přijme snadno to, co očekávání potvrzuje. V due diligence
+toho může využít protistrana, která ví, co prověřovatel hledá – a nabídne mu přesně to,
+co chce vidět (viz [manipulace protistranou](@/kompendium/cross-domain/12-ea-dd-counterparty-manipulation.md)).
+Stejně tak toho může využít třetí strana, která chce transakci zmařit a podsune
+„kompromitující“ informace v době, kdy je vyšetřovatel pod tlakem.
 
-EA framework přináší do due diligence domény tři kritické dimenze:
+Druhým průnikem je to, co kniha nazývá [paralysis by analysis](@/glossary/paralysis-by-analysis.md)
+a [informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md). Velké
+datové místnosti s tisíci dokumenty mohou být připraveny tak, že podstatné informace jsou
+technicky přítomné, ale prakticky ztracené. Vyšetřovatel pod časovým tlakem pak sáhne
+po heuristikách, které jsou nejvíc zranitelné.
 
-1. **Narrative integrity** — informace není jen fact, ale součást příběhu. Manipulátor pracuje s celým narrativem, ne s izolovanými fakty.
-2. **Source provenance** — proveniencia každé informace musí být sledovatelná až k root-source, ne jen k poslednímu publisher.
-3. **Adversarial assumption** — předpokládáme, že někdo se aktivně snaží manipulovat naše rozhodování. Bez této assumption padáme do confirmation bias a source-laundering pastí.
+## Rozpoznávací znaky
 
-Bez EA-augmentace produkuje due diligence pipeline **plausible-but-wrong** závěry s vysokou confidence — což je horší než žádný závěr, protože vede k akcím založeným na falešné jistotě.
+Na zkreslení prověrky ukazuje, když **závěr zní stejně jako první dojem** a v průběhu se
+nic podstatného nezměnilo; když **zpráva neobsahuje informace proti závěru** nebo je odbývá
+jednou větou; když se **míra jistoty nezměnila** navzdory novým informacím; když vyšetřovatel
+**hledal hlavně v jednom typu zdrojů**; když se **zpráva podobá zadání** (zadavatel chtěl
+slyšet, že je vše v pořádku, a slyšel to); a když **závěr předchází důkazům** – formulace
+typu „jak se dalo čekat“. Kniha k tomu nabízí obecný návod [osobního auditu zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md).
 
-## Detekční metody
+## Rámec: standardy a odpovědnost
 
-- Pre-DD hypothesis registration (lock teze BEFORE evidence gathering)
-- Steel-manning protocol (najít nejsilnější argument PROTI deal)
-- Devil's advocate role assignment (one analyst = adversarial)
-- Outcome-tracking calibration (ex-post check: bylo doporučení správné?)
+Due diligence nemá jednotný právní rámec; povinnosti plynou z obchodního práva (péče řádného
+hospodáře u členů orgánů obchodních korporací podle zákona č. 90/2012 Sb., o obchodních
+korporacích), z regulace finančních institucí a z právních předpisů proti praní peněz
+(zákon č. 253/2008 Sb.). Pro organizace, které prověrky provádějí, je klíčová dokumentace
+postupu: odpovědnost za rozhodnutí se v případě sporu posuzuje podle toho, zda byl postup
+řádný, nikoli podle toho, zda výsledek byl správný.
 
-Tyto metody jsou implementovány v Prismatic Platform jako kombinace deterministických engine (PrismaticDd, PrismaticOsintCore) a EA-validation layeru (PrismaticDecision).
+## Ochranná opatření
 
-## Obranné mechanismy
+Prvním opatřením je **zápis výchozích hypotéz** před zahájením prověrky – co si vyšetřovatel
+myslí a proč. Na konci se se zápisem srovná a zpráva uvede, co se změnilo. Druhým je
+**oddělení sběru a hodnocení**: kdo shromažďuje informace, nemusí být tím, kdo o nich
+rozhoduje. Třetím je **red team** – kolega, který má za úkol hledat nejsilnější argumenty
+proti závěru (viz [Red Team](@/glossary/red-team.md)). Čtvrtým je **předběžná pitva**
+(*pre-mortem*): představit si, že rozhodnutí dopadlo špatně, a hledat proč (Klein 2007).
+Pátým je **nezávislost odměny na výsledku** a výslovné ujištění zadavatele, že negativní
+nález je hodnotný výsledek. Podrobné postupy popisuje [prevence konfirmačního zkreslení](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md).
 
-- Pre-mortem workshop (předpokládejme deal selhal — proč?)
-- Falsification-required findings (každá teze musí mít attempted refutation)
-- Bias-checklist na review (12 standard biases — confirmation, anchoring, sunk-cost…)
-- Independent shadow-DD (parallel team without access to primary findings)
+## Lidský rozměr a zotavení
 
-Obranné mechanismy nejsou jen reaktivní — proaktivně **změny architekturu rozhodování** tak, aby manipulace byla detekovatelná **před** tím, než ovlivní akci. Cílem není blokovat všechny manipulace (nemožné), ale **redukovat blast radius** úspěšné manipulace pod akceptovatelný práh.
+Zkreslená prověrka poškozuje dvě strany. Protistrana, která byla nespravedlivě označena
+za rizikovou, ztrácí příležitosti a pověst – a často se nedozví proč. Prověřovatel, jehož
+chyba se později ukáže, prožívá ztrátu profesní důvěry v sebe. Organizace, které z chyb
+dělají osobní selhání, vytvářejí kulturu, v níž se chyby skrývají. Kniha k tomu nabízí
+organizační obdobu [učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md),
+v němž se hledají systémové příčiny místo viníků.
 
-## Případové scénáře
+## Přesah do dalších oborů
 
-### Scénář 1
+Zkreslení vyšetřovatele je dobře známé i v jiných oborech. Ve forenzních vědách ukázal
+Dror a kolegové (2006), že znalci daktyloskopie hodnotí tytéž otisky jinak, pokud dostanou
+kontextové informace, které naznačují vinu nebo nevinu – proto se prosazuje sekvenční
+odkrývání informací. V medicíně se mluví o diagnostickém ukotvení, kdy první diagnóza
+brání vidět jiné možnosti. V sociální práci a ochraně dětí o tunelovém vidění, kdy se
+po prvním podezření sbírají jen potvrzující údaje. Ve vyšetřování skupin s vysokou kontrolou
+o riziku, že vyšetřovatel převezme rámec jedné strany – bývalých členů nebo vedení – jako
+celý obraz (srov. [interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)).
 
-DD target acquired despite 14 red flags — pre-mortem analýza ex-post ukázala, že tým ignoroval všechny non-confirming evidence
+## Ilustrativní scénář
 
-### Scénář 2
+*Hypotetický, anonymizovaný scénář.* Investiční fond prověřuje výrobní firmu před akvizicí.
+Vedoucí prověrky má z prvního jednání dojem, že zakladatel je „poctivý technik“, a prověrka
+se soustředí na technologii. Red team v týmu upozorní, že zpráva neobsahuje žádnou analýzu
+vztahů firmy s jejím největším odběratelem, který tvoří většinu tržeb. Doplněná analýza ukáže,
+že smlouva s odběratelem končí za rok a nebyla prodloužena. Nejde o podvod, ale o podstatné
+riziko, které první dojem zastínil. Zpráva uvádí původní hypotézu, co ji změnilo a proč.
 
-Reverse DD: tým instruován prokázat 'deal je špatný' — found 7 issues missed by original DD
+Fond po této zkušenosti upraví postup: každá prověrka začíná krátkým zápisem výchozího
+dojmu a hlavních hypotéz, red team dostává zprávu bez závěrečného doporučení a vedoucí
+prověrky musí v závěru výslovně uvést tři nejsilnější argumenty proti vlastnímu doporučení.
+Doba prověrky se tím prodlouží o několik dní; fond to přijme jako cenu za menší riziko,
+že velké rozhodnutí bude stát na sympatii z prvního jednání.
 
-Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
+## Meze a otevřené otázky
 
-## Cross-linky
+Zkreslení nelze odstranit, jen omezit; každé opatření stojí čas a peníze, které zadavatel
+nemusí chtít platit. Otevřenou otázkou je, jak měřit kvalitu prověrek, když jejich „správnost“
+se ukáže až po letech, a jak vyvážit nezávislost vyšetřovatele s tím, že ho platí strana,
+která má na výsledku zájem.
 
-- [Kompendium — Úvod](@/kompendium/02-uvod/_index.md)
-- [Základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Detection signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery protocols](@/kompendium/recovery-protocols/_index.md)
-- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
-- [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
-- [Case studies](@/kompendium/case-studies/_index.md)
-- [Quick reference](@/kompendium/quick-reference/_index.md)
+## Literatura
 
-## Connect
+- Dror, I. E., Charlton, D., Péron, A. E. (2006). Contextual information renders experts vulnerable to making erroneous identifications.
+- Heuer, R. J. (1999). *Psychology of Intelligence Analysis.*
+- Kahneman, D., Lovallo, D., Sibony, O. (2011). Before you make that big decision…
+- Klein, G. (2007). Performing a project premortem.
+- Tversky, A., Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases.
 
-- **Komentáře a otázky**: [GitHub Discussions](https://github.com/korczis/kompendium-epistemicke-anihilace/discussions)
-- **Bug reporty**: [GitLab Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **Email**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **LinkedIn**: [korczis](https://linkedin.com/in/korczis)
+## Související
 
----
+**Mezioborové mosty**
 
-*Built with precision. Optimized for adversarial intelligence operations.*
-*Část série: Cross-Domain Bridges | EA × Due Diligence*
+- [Prevence konfirmačního zkreslení](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md) – konkrétní postupy.
+- [Manipulace protistranou](@/kompendium/cross-domain/12-ea-dd-counterparty-manipulation.md) – kdo zkreslení využívá.
+- [Vážení zdrojů](@/kompendium/cross-domain/10-ea-dd-source-weighting.md) – jak zkreslení ovlivňuje váhy.
+
+**Pojmy a kontext platformy**
+
+- [Konfirmační bias](@/glossary/konfirmacni-bias.md) – heslo glosáře.
+- [Kognitivní bias](@/glossary/kognitivni-bias.md) – obecný rámec.
+- [DD Engine & EA detection](@/kompendium/aiad-integration/dd-engine-ea-source-weighting.md) – automatizovaná podpora prověrek.
+
+**Sebeobrana a organizace**
+
+- [Osobní audit zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md) – práce s vlastními zkresleními.
+- [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md) – vyšetřování uvnitř organizace.

@@ -1,6 +1,6 @@
 +++
-title = "EA × Due Diligence: Narrative Warfare v M&A"
-description = "M&A jako bojiště narrativů — competitive intelligence vs. disinformation"
+title = "Due diligence: narativní válka kolem firem a transakcí"
+description = "Reputační kampaně, obrácení viny vůči kritikům a soupeřící příběhy kolem firem: jak je odlišit od oprávněné kritiky a jak se v nich rozhodovat podle doložených faktů."
 weight = 140
 
 [taxonomies]
@@ -8,84 +8,153 @@ tags = ["kompendium", "cross-domain", "due-diligence"]
 categories = ["academic", "platform-integration"]
 
 [extra]
-related_terms = ["12-ea-dd-counterparty-manipulation", "13-ea-dd-beneficial-ownership-disinformation", "15-ea-dd-evidence-quality-assessment", "16-ea-dd-confirmation-bias-prevention"]
+related_terms = ["7-ea-osint-narrative-injection", "12-ea-dd-counterparty-manipulation", "22-ea-security-incident-response-narrative", "16-ea-dd-confirmation-bias-prevention"]
 parent = "kompendium-cross-domain"
 toc = true
 +++
 
-# EA × Due Diligence: Narrative Warfare v M&A
+Kolem firem, transakcí a jejich představitelů se vedou spory nejen u soudů a na trzích,
+ale i v příbězích: kdo je inovátor a kdo podvodník, kdo je oběť útoku a kdo útočník, kdo
+je whistleblower a kdo zahořklý bývalý zaměstnanec. Tyto příběhy ovlivňují investory,
+regulátory, zákazníky i prověřovatele. Pro [due diligence](@/glossary/due-diligence.md) je klíčové, že **v narativní válce
+mohou obě strany lhát, obě mohou mít pravdu v něčem a příběh s větším objemem nemusí být
+ten pravdivý**. Kniha popisuje, jak se u jednotlivce ztrácí schopnost odlišit vlastní vnímání
+od cizího výkladu; v narativní válce hrozí prověřovateli totéž.
 
-> **Cross-domain bridge** mezi Epistemic Attacks (EA) frameworkem a doménou **[Due Diligence](@/glossary/due-diligence.md)**.
+## Doména a problém
 
-## Doména
+Narativní válka zahrnuje koordinované reputační kampaně proti konkurentům, „černé PR“,
+kampaně spekulantů sázejících na pokles akcií, i obranné kampaně firem proti kritice.
+Někdy jde o čistou manipulaci, jindy o oprávněné odhalení šířené agresivně. Zvlášť poučný
+je případ Wirecardu: novinové články Financial Times, které od roku 2015 upozorňovaly
+na nesrovnalosti, byly firmou i částí veřejnosti odbývány jako útok spekulantů; německý
+finanční regulátor BaFin v roce 2019 dočasně zakázal krátké prodeje akcií Wirecardu a
+podal trestní oznámení na novináře. V červnu 2020 firma přiznala, že vykázaná hotovost
+ve výši 1,9 miliardy eur pravděpodobně neexistuje. Kritika se ukázala jako oprávněná
+a narativ „útoku na úspěšnou firmu“ jako obrana podvodu.
 
-**Due Diligence** v kontextu Prismatic Platform pokrývá: investigativní operace, due-diligence pipeline, security operations, regulatory compliance. Tato doména se v posledních letech transformovala — z procedurální kontroly na **adversarial intelligence operation**, kde každý zdroj informace je potenciálně manipulovaný a každé rozhodnutí je výsledkem narrative warfare.
+Opačné případy existují také: koordinované kampaně, které šíří nepravdivá obvinění proti
+firmám kvůli zisku z poklesu jejich akcií, jsou předmětem regulace manipulace s trhem.
+Prověřovatel proto nemůže vyjít z předpokladu, že kritik má vždy pravdu, ani z předpokladu,
+že každá kampaň je útok. Musí hodnotit jednotlivá tvrzení podle doložení.
 
-Klasické nástroje této domény (rule-based monitoring, document verification, technical IOCs) byly designovány pro epistemic-stable prostředí. Současná realita — AI-generovaný obsah, koordinované disinformační kampaně, sophisticated obfuscation — vyžaduje **EA-augmented** přístup.
+Rid (2020) v historii dezinformací upozorňuje, že nejúčinnější operace kombinují pravdivé
+a nepravdivé prvky, protože pravdivé detaily zvyšují věrohodnost celku. To platí i pro
+reputační kampaně: dokument, který je pravý, může být použit v kontextu, který mu dává
+nepravdivý význam.
 
-## EA Relevance
+## Průnik s epistemickou anihilací
 
-M&A deals atrahují competitive disinformation: konkurenti šíří FUD, aktivisté koordinují kampaně, target sám manipuluje příběhem. EA-DD musí classify a counter-narrate.
+Kniha popisuje [DARVO](@/glossary/darvo.md) – popření, útok a obrácení role oběti
+a pachatele – jako vzorec, který se objevuje u osob konfrontovaných s jejich jednáním.
+Na úrovni organizací má stejnou strukturu: firma, která čelí oprávněné kritice, ji
+popře, zaútočí na kritiky a představí se jako oběť kampaně. Vzorec popsala Freydová (1997)
+u jednotlivců; jeho přítomnost u organizace není důkazem viny, ale důvodem zbystřit.
+Kniha jej rozvádí ve [vzdělávacím scénáři rozpoznání DARVO](@/kompendium/educational-scenarios/20-darvo-recognition.md).
 
-EA framework přináší do due diligence domény tři kritické dimenze:
+Druhým průnikem je [pseudo-kontroverze](@/kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md):
+vytvoření dojmu, že o faktech „existují dva názory“, i když jeden je doložen a druhý ne.
+Pro prověřovatele to znamená riziko [falešné ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)
+– dát stejnou váhu doloženému tvrzení a jeho popření jen proto, že obojí zaznívá hlasitě.
 
-1. **Narrative integrity** — informace není jen fact, ale součást příběhu. Manipulátor pracuje s celým narrativem, ne s izolovanými fakty.
-2. **Source provenance** — proveniencia každé informace musí být sledovatelná až k root-source, ne jen k poslednímu publisher.
-3. **Adversarial assumption** — předpokládáme, že někdo se aktivně snaží manipulovat naše rozhodování. Bez této assumption padáme do confirmation bias a source-laundering pastí.
+## Rozpoznávací znaky
 
-Bez EA-augmentace produkuje due diligence pipeline **plausible-but-wrong** závěry s vysokou confidence — což je horší než žádný závěr, protože vede k akcím založeným na falešné jistotě.
+Při hodnocení narativního sporu je užitečné sledovat, **zda strany odpovídají na konkrétní
+tvrzení**, nebo na osoby (útok na motiv kritika místo vyvrácení jeho tvrzení); **zda
+existují nezávislé doklady** pro tvrzení obou stran; **kdo má z příběhu prospěch** a zda
+je to zveřejněno; **jak se příběh vyvíjí** – zda se upřesňuje s novými fakty, nebo mění
+podle potřeby; a **zda se objevují znaky koordinace** (viz [injekce narativu](@/kompendium/cross-domain/7-ea-osint-narrative-injection.md)).
+Varovným znakem je i **institucionální podpora jedné strany** bez vlastního šetření – jak
+ukázal postup regulátora v případě Wirecardu.
 
-## Detekční metody
+## Rámec: právo, standardy a odpovědnost
 
-- Narrative-source mapping (kdo má motiv šířit jaký narrativ)
-- Sentiment-velocity tracking (sudden shifts = potential coordinated attack)
-- Cross-platform narrative coherence (same story across sources?)
-- First-mover analysis (kdo publikoval narativ first, kdo amplified)
+Nařízení (EU) č. 596/2014 o zneužívání trhu zakazuje manipulaci s trhem, včetně šíření
+nepravdivých nebo zavádějících informací, které ovlivňují cenu finančních nástrojů. Ochrana
+dobré pověsti právnických osob a pomluva jsou upraveny občanským a trestním právem (viz
+[Pomluva v EA kontextu](@/kompendium/forensic-legal/14-defamation-EA.md)). Ochranu
+oznamovatelů upravuje směrnice (EU) 2019/1937 a v Česku zákon č. 171/2023 Sb., o ochraně
+oznamovatelů (viz [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)).
 
-Tyto metody jsou implementovány v Prismatic Platform jako kombinace deterministických engine (PrismaticDd, PrismaticOsintCore) a EA-validation layeru (PrismaticDecision).
+## Ochranná opatření
 
-## Obranné mechanismy
+Pro prověřovatele je nejdůležitější **rozložit spor na jednotlivá tvrzení** a každé hodnotit
+podle doložení, nezávisle na tom, kdo ho vyslovil. Dále **oddělit fakta od motivů**: to,
+že kritik má finanční zájem, nevyvrací jeho tvrzení; to, že firma je úspěšná, nevyvrací
+kritiku. Třetím opatřením je **hledat nezávislé ověření** u klíčových tvrzení (banky,
+auditoři, zákazníci, úřední záznamy). Čtvrtým je **sledovat vývoj příběhu v čase** a
+zaznamenávat, které předpovědi kterých stran se naplnily. Pátým je **vnitřní [red team](@/glossary/red-team.md)**,
+který zastává pozici opačnou k převládajícímu dojmu (viz [prevence konfirmačního zkreslení](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md)).
 
-- Pre-deal narrative inventory (baseline před announcement)
-- Counter-narrative library (pre-prepared responses to common attacks)
-- Real-time monitoring dashboard (Twitter, LinkedIn, news, forums)
-- Communications-team coordination (legal-cleared response within 4h)
+Organizace, která je sama terčem kampaně, by měla odpovídat věcně a doložitelně, nikoli
+útokem na kritiky – i proto, že útok na kritiky je jedním ze znaků, podle nichž ji okolí
+bude hodnotit. Organizační postupy popisuje [PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md).
 
-Obranné mechanismy nejsou jen reaktivní — proaktivně **změny architekturu rozhodování** tak, aby manipulace byla detekovatelná **před** tím, než ovlivní akci. Cílem není blokovat všechny manipulace (nemožné), ale **redukovat blast radius** úspěšné manipulace pod akceptovatelný práh.
+## Lidský rozměr a zotavení
 
-## Případové scénáře
+V narativních válkách jsou lidé na obou stranách: novináři a oznamovatelé, kteří čelí
+žalobám a obtěžování, i zaměstnanci a představitelé firem, kteří čelí nepravdivým obviněním.
+Obě skupiny popisují izolaci, ztrátu důvěry okolí a pochybnosti o vlastním úsudku – zvlášť
+když proti nim stojí instituce s autoritou. Kniha tyto zkušenosti rozvádí v kazuistice
+[mediální mob](@/kompendium/case-studies/04-medialni-mob-attack.md); pro oznamovatele je
+klíčová institucionální ochrana a sociální opora.
 
-### Scénář 1
+## Přesah do dalších oborů
 
-M&A announcement: 6h post-news, koordinovaná kampaň 'target's CEO has hidden criminal record' — investigated, false, counter-narrated within 8h
+Narativní válka se odehrává i ve vědě (spory o škodlivost látek, v nichž zájmové skupiny
+financují zpochybňování; Oreskesová a Conway 2010), v politice, ve sportu (dopingové kauzy,
+v nichž se kritici označují za zrádce) a v náboženských a jiných skupinách, kde bývalí
+členové a vedení vedou protichůdné příběhy. Ve všech případech platí stejné pravidlo:
+hodnotit tvrzení, ne hlasitost; ptát se po dokladech, ne po loajalitě.
 
-### Scénář 2
+## Ilustrativní scénář
 
-Deal during regulatory review: competing bidder seeded narrative o antitrust risks — pre-prepared FAQ deployed, regulator unaffected
+*Hypotetický, anonymizovaný scénář.* Fond zvažuje investici do rychle rostoucí firmy.
+Ve stejné době se objeví zpráva skupiny analytiků, kteří sázejí na pokles jejích akcií,
+s tvrzením, že tržby v jedné zemi jsou fiktivní. Firma zprávu označí za útok spekulantů
+a podá žalobu. Fond spor rozloží: tvrzení o fiktivních tržbách lze ověřit u odběratelů
+a z bankovních potvrzení. Firma ověření odmítne „z důvodu žaloby“. Fond investici
+odloží a čeká na nezávislý audit. Ten po několika měsících potvrdí část tvrzení
+analytiků a vyvrátí jinou část.
 
-Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
+Fond tak nevsadil ani na jeden příběh. Rozhodl se podle toho, co šlo ověřit, a tam,
+kde ověření nebylo možné, považoval odmítnutí ověření za informaci samu o sobě.
 
-## Cross-linky
+## Meze a otevřené otázky
 
-- [Kompendium — Úvod](@/kompendium/02-uvod/_index.md)
-- [Základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Detection signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery protocols](@/kompendium/recovery-protocols/_index.md)
-- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
-- [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
-- [Case studies](@/kompendium/case-studies/_index.md)
-- [Quick reference](@/kompendium/quick-reference/_index.md)
+Rozlišit oprávněnou kritiku od kampaně je v reálném čase často nemožné; pravda se ukáže
+až později. Otevřenou otázkou je, jak by měli regulátoři a média postupovat, aby
+neposilovali stranu s větší mocí, a jak chránit kritiky před tím, aby je narativ „útoku“
+umlčel dřív, než se fakta ověří. Případ Wirecardu ukazuje, že instituce, které měly
+nezávisle ověřovat, převzaly příběh silnější strany; prověrky by proto měly výslovně
+počítat s tím, že ani autorita regulátora či auditora není náhradou za vlastní ověření
+klíčových tvrzení.
 
-## Connect
+## Literatura
 
-- **Komentáře a otázky**: [GitHub Discussions](https://github.com/korczis/kompendium-epistemicke-anihilace/discussions)
-- **Bug reporty**: [GitLab Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **Email**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **LinkedIn**: [korczis](https://linkedin.com/in/korczis)
+- Freyd, J. J. (1997). Violations of power, adaptive blindness, and [betrayal trauma](@/glossary/betrayal-trauma.md) theory.
+- Oreskes, N., Conway, E. M. (2010). *Merchants of Doubt.*
+- Rid, T. (2020). *Active Measures: The Secret History of Disinformation and Political Warfare.*
+- Nařízení (EU) č. 596/2014 o zneužívání trhu; směrnice (EU) 2019/1937; zákon č. 171/2023 Sb., o ochraně oznamovatelů.
 
----
+## Související
 
-*Built with precision. Optimized for adversarial intelligence operations.*
-*Část série: Cross-Domain Bridges | EA × Due Diligence*
+**Mezioborové mosty**
+
+- [Injekce narativu](@/kompendium/cross-domain/7-ea-osint-narrative-injection.md) – vkládání příběhů.
+- [Manipulace ze strany protistrany](@/kompendium/cross-domain/12-ea-dd-counterparty-manipulation.md) – obrana podvodu.
+- [Narativ při reakci na incident](@/kompendium/cross-domain/22-ea-security-incident-response-narrative.md) – komunikace pod tlakem.
+
+**Techniky a scénáře**
+
+- [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) – dvě strany, nestejné doložení.
+- [Vzdělávací scénář: rozpoznání DARVO](@/kompendium/educational-scenarios/20-darvo-recognition.md) – nácvik.
+
+**Organizace a právo**
+
+- [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md) – ochrana kritiků uvnitř.
+- [PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md) – věcná obrana organizace.
+
+**Pojmy**
+
+- [DARVO](@/glossary/darvo.md) – obrácení role oběti a pachatele.

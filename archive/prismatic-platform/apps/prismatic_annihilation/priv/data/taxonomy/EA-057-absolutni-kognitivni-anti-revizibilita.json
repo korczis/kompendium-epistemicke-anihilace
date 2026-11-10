@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "cognitive_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-057-absolutni-kognitivni-anti-revizibilita",
+  "metadata": {
+    "index": 57,
+    "source": "index",
+    "anchor": "absolutni-kognitivni-anti-revizibilita",
+    "extracted_category_cs": "KOGNITIVNÍ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "KOGNITIVNÍ PROCESNÍ ANIHILACE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Absolutní kognitivní anti-revizibilita",
+    "en": "Absolute Cognitive Anti-revisibility"
+  },
+  "page_number": 150,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "cognitive_process_annihilation",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

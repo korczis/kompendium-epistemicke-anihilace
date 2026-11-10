@@ -1,0 +1,61 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "epistemicka_sterilita",
+  "cross_references": [
+    "absolutni-epistemicka-sterility",
+    "epistemicka-anti-geneze",
+    "epistemicka-anti-variabilita"
+  ],
+  "defense_strategies": [
+    "Epistemická reanimace",
+    "konceptuální destabilizace",
+    "paradigmatická disrupce",
+    "kognitivní deteritorializace"
+  ],
+  "description": {
+    "cs": "Epistemická anti-geneze představuje fenomén znemožnění vzniku autenticky nového poznání, při němž epistemické struktury vstupují do stavu radikální sterility, která blokuje emergenci originálních poznatků, myšlenek a konceptů. Tento proces vede k situaci, kdy namísto generování skutečně nových informací dochází pouze k perpetuální recyklaci, rekombinaci a reformulaci existujících poznatků, což vytváří iluzi epistemické produktivity při faktické absenci substantivní inovace.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Poznávací sterilita",
+    "informační recyklace",
+    "inovační blokáda",
+    "epistemická entropie",
+    "generativní paralýza"
+  ],
+  "domain": "generativni_epistemicke_procesy",
+  "example": {
+    "cs": "Výzkumné centrum zaměřené na inovativní přístupy v kognitivních vědách se postupem času transformuje do stavu epistemické anti-geneze. Ačkoliv nadále produkuje impozantní množství publikací, grantových aplikací a výzkumných projektů, subtilní analýza odhaluje znepokojivý trend: navzdory rétorické emfázi na \"průlomový výzkum\", \"inovativní metodologie\" a \"transformativní objevy\" centrum ve skutečnosti pouze recykluje, rekombinuje a reformuluje poznatky a koncepty, které byly v oboru přítomny již před dekádou. Komplexita a sofistikovanost prezentace těchto poznatků sice progresivně narůstá, ale jejich substantivní obsah a explanační hodnota stagnuje nebo dokonce klesá. Výzkumníci v centru jsou vysoce produktivní, ale jejich produktivita má charakter elaborace, extenze a aplikace existujících rámců, nikoli tvorby radikálně nových perspektiv. Co je znepokojivější, centrum vyvinulo sofistikovaný systém interní evaluace a validace, který systematicky favorizuje projekty konformní s etablovaným paradigmatem a marginalizuje potenciálně disruptivní přístupy. Po letech fungování v tomto režimu se centrum stává efektivním producentem \"epistemického šumu\" – enormního objemu informací s minimální inovační hodnotou, které vytvářejí iluzi pokroku při faktické absenci substantivního epistemického vývoje."
+  },
+  "id": "EA-099-epistemicka-anti-geneze",
+  "metadata": {
+    "index": 99,
+    "source": "archive",
+    "anchor": "epistemicka-anti-geneze",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Epistemická sterilita"
+  },
+  "name": {
+    "cs": "Epistemická anti-geneze",
+    "en": "Epistemic Anti-genesis"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "partially_reversible",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": null,
+  "temporal_profile": "postupne_prohlubovani_s_moznymi_prahovymi_efekty",
+  "typical_manifestations": [
+    "Poznávací sterilita",
+    "informační recyklace",
+    "inovační blokáda",
+    "epistemická entropie",
+    "generativní paralýza"
+  ]
+}

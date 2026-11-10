@@ -1,0 +1,55 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "dezintegracni_epistemicka_technika",
+  "cross_references": [
+    "anti-architektonika",
+    "epistemicka-fragmentace",
+    "mereologicka-anti-kognice"
+  ],
+  "defense_strategies": [
+    "Externí strukturální scaffolding",
+    "vztahová externalizace"
+  ],
+  "description": {
+    "cs": "Rozklad komplexních poznatkových struktur na izolované, vzájemně nepropojené elementy bez možnosti jejich reintegrace do smysluplného celku.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Izolované poznatkové fragmenty",
+    "neschopnost syntézy",
+    "kognitivní dezorientace"
+  ],
+  "domain": "integrativni_kognitivni_struktury",
+  "example": {
+    "cs": "Výzkumník v oblasti teorie komplexních systémů je vystaven systematickému rozkladu svého poznatkového pole. Během konzultací s kolegy jsou všechny jeho integrativní koncepty a teoretické rámce postupně rozkládány na stále menší a izolovanější elementy. Každý pokus o identifikaci vztahů mezi těmito elementy je zpochybněn jako spekulativní nebo arbitrární. Když se výzkumník snaží využít holistické přístupy, je obviněn z \"nevědecké vágnosti\". Když se pokouší o analytickou preciznost, je kritizován za \"redukcionistickou atomizaci\". Po měsících takového přístupu výzkumník zjišťuje, že jeho knowledge field se rozpadlo na tisíce izolovaných datových bodů a mikrokonceptů bez jakékoliv možnosti jejich smysluplného propojení nebo integrace. Přestože má \"znalost\" každého individuálního elementu, je fundamentálně neschopen vytvořit jakoukoliv koherentní teorii, model nebo dokonce smysluplný popis svého výzkumného předmětu."
+  },
+  "id": "EA-100-epistemicka-atomizace",
+  "metadata": {
+    "index": 100,
+    "source": "primary",
+    "anchor": "epistemicka-atomizace",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Dezintegrační epistemická technika"
+  },
+  "name": {
+    "cs": "Epistemická atomizace",
+    "en": "Epistemic Atomizace"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "difficult",
+    "score": 0.25
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": null,
+  "temporal_profile": "postupny",
+  "typical_manifestations": [
+    "Izolované poznatkové fragmenty",
+    "neschopnost syntézy",
+    "kognitivní dezorientace"
+  ]
+}

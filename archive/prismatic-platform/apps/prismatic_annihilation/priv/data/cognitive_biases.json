@@ -1,0 +1,373 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "source": "Cognitive Bias Codex + Research Literature",
+    "last_updated": "2025-01-28",
+    "categories": 6,
+    "total_biases": 42
+  },
+  "biases": [
+    {
+      "id": "confirmation_bias",
+      "name": "Confirmation Bias",
+      "name_cs": "Konfirmační zkreslení",
+      "category": "belief_perseverance",
+      "description": "Tendency to search for, interpret, favor, and recall information that confirms preexisting beliefs",
+      "psychological_mechanism": "Selective attention and memory encoding favoring belief-consistent information",
+      "exploitation_vectors": [
+        "Present information aligned with target's existing beliefs",
+        "Frame new information to appear consistent with prior views",
+        "Selectively omit contradicting evidence"
+      ],
+      "detection_markers": [
+        "Appeals to what recipient 'already knows'",
+        "Phrases like 'as you've always believed'",
+        "Selective evidence presentation"
+      ],
+      "linguistic_patterns": [
+        "as you already know",
+        "confirms what we've",
+        "you've always",
+        "proves what you",
+        "just like you thought"
+      ],
+      "countermeasures": [
+        "Actively seek disconfirming evidence",
+        "Steel-man opposing arguments",
+        "Pre-register predictions before seeing evidence"
+      ],
+      "severity_weight": 0.85,
+      "detection_difficulty": 0.7,
+      "research_refs": ["Nickerson1998", "Klayman1995", "Wason1960"]
+    },
+    {
+      "id": "anchoring_bias",
+      "name": "Anchoring Bias",
+      "name_cs": "Kotevní efekt",
+      "category": "decision_making",
+      "description": "Over-reliance on the first piece of information encountered when making decisions",
+      "psychological_mechanism": "Insufficient adjustment from initial anchor value in estimation tasks",
+      "exploitation_vectors": [
+        "Present extreme initial values to shift subsequent judgments",
+        "Lead with strategically chosen numbers or facts",
+        "Frame reference points advantageously"
+      ],
+      "detection_markers": [
+        "Prominent initial numbers/values",
+        "Strategic ordering of information",
+        "Emphasis on 'starting points'"
+      ],
+      "linguistic_patterns": [
+        "starting at",
+        "originally was",
+        "first consider",
+        "begin with",
+        "initial estimate"
+      ],
+      "countermeasures": [
+        "Generate own estimates before exposure",
+        "Consider multiple anchor points",
+        "Question why specific anchors were presented"
+      ],
+      "severity_weight": 0.75,
+      "detection_difficulty": 0.5,
+      "research_refs": ["Tversky1974", "Epley2006", "Furnham2011"]
+    },
+    {
+      "id": "availability_heuristic",
+      "name": "Availability Heuristic",
+      "name_cs": "Heuristika dostupnosti",
+      "category": "probability_estimation",
+      "description": "Overweighting easily recalled examples when estimating probability or frequency",
+      "psychological_mechanism": "Memory retrieval ease used as proxy for frequency/probability",
+      "exploitation_vectors": [
+        "Flood with vivid examples to distort frequency perception",
+        "Use emotional/memorable cases to bias estimates",
+        "Suppress counter-examples from attention"
+      ],
+      "detection_markers": [
+        "Vivid, emotionally charged examples",
+        "Recent or dramatic cases emphasized",
+        "Abstract statistics minimized"
+      ],
+      "linguistic_patterns": [
+        "just recently",
+        "imagine if",
+        "picture this",
+        "remember when",
+        "we all saw"
+      ],
+      "countermeasures": [
+        "Request base rate statistics",
+        "Ask for systematic data, not anecdotes",
+        "Consider unrepresented examples"
+      ],
+      "severity_weight": 0.70,
+      "detection_difficulty": 0.6,
+      "research_refs": ["Tversky1973", "Schwarz1991", "Lichtenstein1978"]
+    },
+    {
+      "id": "affect_heuristic",
+      "name": "Affect Heuristic",
+      "name_cs": "Afektivní heuristika",
+      "category": "emotional_reasoning",
+      "description": "Basing judgments on current emotional state rather than objective analysis",
+      "psychological_mechanism": "Emotional reactions serve as shortcuts for complex judgments",
+      "exploitation_vectors": [
+        "Induce emotional states before presenting information",
+        "Associate targets with emotional triggers",
+        "Use mood-congruent framing"
+      ],
+      "detection_markers": [
+        "Emotional language before factual claims",
+        "Appeal to feelings over analysis",
+        "Mood manipulation attempts"
+      ],
+      "linguistic_patterns": [
+        "feels right",
+        "gut feeling",
+        "doesn't feel",
+        "sense that",
+        "instinctively"
+      ],
+      "countermeasures": [
+        "Delay decisions during emotional arousal",
+        "Separate emotional and analytical evaluation",
+        "Use structured decision frameworks"
+      ],
+      "severity_weight": 0.80,
+      "detection_difficulty": 0.55,
+      "research_refs": ["Slovic2007", "Finucane2000", "Kahneman2011"]
+    },
+    {
+      "id": "authority_bias",
+      "name": "Authority Bias",
+      "name_cs": "Autoritativní zkreslení",
+      "category": "social_influence",
+      "description": "Tendency to attribute greater accuracy to opinions of authority figures",
+      "psychological_mechanism": "Heuristic that authorities have relevant expertise",
+      "exploitation_vectors": [
+        "Claim false credentials or expertise",
+        "Associate message with authority figures",
+        "Use authority symbols and language"
+      ],
+      "detection_markers": [
+        "Credential emphasis without verification",
+        "Appeals to unnamed 'experts'",
+        "Authority symbols without substance"
+      ],
+      "linguistic_patterns": [
+        "experts say",
+        "studies show",
+        "scientists agree",
+        "research proves",
+        "according to experts"
+      ],
+      "countermeasures": [
+        "Verify credentials independently",
+        "Check if authority is relevant to topic",
+        "Look for peer disagreement"
+      ],
+      "severity_weight": 0.85,
+      "detection_difficulty": 0.4,
+      "research_refs": ["Milgram1963", "Cialdini2006", "Kelman1958"]
+    },
+    {
+      "id": "bandwagon_effect",
+      "name": "Bandwagon Effect",
+      "name_cs": "Efekt davového chování",
+      "category": "social_influence",
+      "description": "Tendency to adopt beliefs/behaviors because many others have",
+      "psychological_mechanism": "Social proof as information shortcut and conformity pressure",
+      "exploitation_vectors": [
+        "Exaggerate consensus or popularity",
+        "Create appearance of widespread adoption",
+        "Manufacture social proof"
+      ],
+      "detection_markers": [
+        "Popularity claims without evidence",
+        "Urgency based on others' actions",
+        "FOMO (fear of missing out) triggers"
+      ],
+      "linguistic_patterns": [
+        "everyone is",
+        "millions of",
+        "join the",
+        "don't be left",
+        "trending"
+      ],
+      "countermeasures": [
+        "Evaluate independently of popularity",
+        "Question popularity claims",
+        "Consider silent majority"
+      ],
+      "severity_weight": 0.70,
+      "detection_difficulty": 0.35,
+      "research_refs": ["Asch1951", "Cialdini2006", "Sunstein2019"]
+    },
+    {
+      "id": "dunning_kruger",
+      "name": "Dunning-Kruger Effect",
+      "name_cs": "Dunning-Krugerův efekt",
+      "category": "metacognition",
+      "description": "Cognitive bias where low-ability individuals overestimate their competence",
+      "psychological_mechanism": "Metacognitive deficits prevent accurate self-assessment",
+      "exploitation_vectors": [
+        "Reinforce false confidence to prevent learning",
+        "Exploit overconfidence in decision-making",
+        "Prevent seeking expert help"
+      ],
+      "detection_markers": [
+        "Excessive confidence without evidence",
+        "Dismissal of expert opinion",
+        "Resistance to feedback"
+      ],
+      "linguistic_patterns": [
+        "I know better",
+        "experts are wrong",
+        "it's obvious",
+        "anyone can see",
+        "simple solution"
+      ],
+      "countermeasures": [
+        "Seek external calibration",
+        "Practice epistemic humility",
+        "Regularly test knowledge"
+      ],
+      "severity_weight": 0.75,
+      "detection_difficulty": 0.7,
+      "research_refs": ["Kruger1999", "Dunning2011", "Pennycook2017"]
+    },
+    {
+      "id": "framing_effect",
+      "name": "Framing Effect",
+      "name_cs": "Efekt zarámování",
+      "category": "decision_making",
+      "description": "Drawing different conclusions from the same information based on presentation",
+      "psychological_mechanism": "Reference point dependency in evaluation",
+      "exploitation_vectors": [
+        "Present same facts with different frames",
+        "Use gain vs loss framing strategically",
+        "Choose reference points advantageously"
+      ],
+      "detection_markers": [
+        "Emotional frame around neutral facts",
+        "Emphasis on gains or losses",
+        "Strategic comparison points"
+      ],
+      "linguistic_patterns": [
+        "save up to",
+        "could lose",
+        "risk of",
+        "chance to gain",
+        "compared to"
+      ],
+      "countermeasures": [
+        "Reframe in multiple ways",
+        "Identify reference points",
+        "Use expected value calculations"
+      ],
+      "severity_weight": 0.80,
+      "detection_difficulty": 0.6,
+      "research_refs": ["Tversky1981", "Kahneman1979", "Levin1998"]
+    },
+    {
+      "id": "hindsight_bias",
+      "name": "Hindsight Bias",
+      "name_cs": "Zkreslení zpětného pohledu",
+      "category": "memory",
+      "description": "Tendency to perceive past events as more predictable than they were",
+      "psychological_mechanism": "Memory reconstruction incorporating outcome knowledge",
+      "exploitation_vectors": [
+        "Use hindsight to claim false predictive ability",
+        "Create illusion of expertise through post-hoc 'predictions'",
+        "Blame victims by suggesting they 'should have known'"
+      ],
+      "detection_markers": [
+        "Post-hoc explanations presented as predictions",
+        "Claims of foresight after outcomes known",
+        "'I knew it all along' statements"
+      ],
+      "linguistic_patterns": [
+        "I knew it",
+        "obviously was going to",
+        "should have seen",
+        "was predictable",
+        "anyone could have"
+      ],
+      "countermeasures": [
+        "Document predictions before outcomes",
+        "Maintain decision journals",
+        "Practice pre-mortem analysis"
+      ],
+      "severity_weight": 0.60,
+      "detection_difficulty": 0.5,
+      "research_refs": ["Fischhoff1975", "Roese2012", "Nestler2010"]
+    },
+    {
+      "id": "illusory_correlation",
+      "name": "Illusory Correlation",
+      "name_cs": "Iluzorní korelace",
+      "category": "pattern_recognition",
+      "description": "Perceiving relationship between variables when none exists",
+      "psychological_mechanism": "Pattern-seeking applied to coincidences",
+      "exploitation_vectors": [
+        "Suggest false causal relationships",
+        "Link unrelated phenomena to create fear/desire",
+        "Build stereotypes through selective association"
+      ],
+      "detection_markers": [
+        "Causal claims without mechanism",
+        "Anecdotal correlation evidence",
+        "Stereotypical associations"
+      ],
+      "linguistic_patterns": [
+        "every time",
+        "whenever X, Y happens",
+        "clearly connected",
+        "can't be coincidence",
+        "pattern is clear"
+      ],
+      "countermeasures": [
+        "Request statistical evidence",
+        "Consider base rates",
+        "Look for confounding variables"
+      ],
+      "severity_weight": 0.65,
+      "detection_difficulty": 0.6,
+      "research_refs": ["Chapman1967", "Hamilton1976", "Fiedler2000"]
+    }
+  ],
+  "categories": {
+    "belief_perseverance": {
+      "name": "Belief Perseverance",
+      "description": "Biases that maintain existing beliefs despite contrary evidence",
+      "biases": ["confirmation_bias", "belief_bias", "conservatism_bias"]
+    },
+    "decision_making": {
+      "name": "Decision Making",
+      "description": "Biases affecting choice and judgment",
+      "biases": ["anchoring_bias", "framing_effect", "sunk_cost_fallacy"]
+    },
+    "probability_estimation": {
+      "name": "Probability Estimation",
+      "description": "Biases in assessing likelihood and frequency",
+      "biases": ["availability_heuristic", "representativeness", "base_rate_neglect"]
+    },
+    "emotional_reasoning": {
+      "name": "Emotional Reasoning",
+      "description": "Biases involving emotional influence on cognition",
+      "biases": ["affect_heuristic", "optimism_bias", "negativity_bias"]
+    },
+    "social_influence": {
+      "name": "Social Influence",
+      "description": "Biases related to social dynamics and pressure",
+      "biases": ["authority_bias", "bandwagon_effect", "ingroup_bias"]
+    },
+    "metacognition": {
+      "name": "Metacognition",
+      "description": "Biases in self-assessment and self-knowledge",
+      "biases": ["dunning_kruger", "illusion_of_control", "overconfidence"]
+    }
+  }
+}

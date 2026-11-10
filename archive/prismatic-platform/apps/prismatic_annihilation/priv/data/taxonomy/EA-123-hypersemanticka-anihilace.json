@@ -1,0 +1,61 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "linguistic_semantic_destruction",
+  "cross_references": [
+    "semanticka-apokalypsa",
+    "meta-lingvisticka-dezintegrace",
+    "referencni-kolaps"
+  ],
+  "defense_strategies": [
+    "Meta-sémantická stabilizace",
+    "ostenzivní regrounding",
+    "sémantická segmentace",
+    "asignifikační imunizace"
+  ],
+  "description": {
+    "cs": "Hypersémantická anihilace představuje extrémní formu destrukce významu, která se odehrává nikoli pouze na úrovni konkrétních významů či sémantických domén, ale na meta-úrovni samotných procesů signifikace. Zatímco běžná sémantická eroze či destabilizace zasahuje specifické významy při zachování fundamentálních sémantických mechanismů, hypersémantická anihilace systematicky eliminuje samotné procesy, struktury a principy, které umožňují existenci významu jako takového. Výsledkem je totální kolaps sémantických systémů vyššího řádu, rozpad vztahů mezi znaky a jejich referenty a fundamentální nemožnost jakékoli smysluplné signifikace.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Meta-významový kolaps",
+    "signifikační anihilace",
+    "sémantická neprostupnost",
+    "referenční vakuum",
+    "znakový chaos"
+  ],
+  "domain": "semanticke_systemy_a_meta-semanticke_struktury",
+  "example": {
+    "cs": "Výzkumný tým lingvistů, sémiotiků a kognitivních vědců pracuje na ambiciózním projektu vývoje univerzálního meta-jazyka, který by umožnil přesnou analýzu, popis a transformaci sémantických struktur napříč různými přirozenými jazyky a specializovanými diskurzy. Po letech intenzivní práce vytváří sofistikovaný meta-sémantický systém, který dokáže zachytit a formalizovat subtilní nuance významu a komplexní sémiotické vztahy na úrovni, která byla dříve považována za nedosažitelnou.\n\nPři testování tohoto systému na stále komplexnějších sémantických strukturách začínají výzkumníci pozorovat znepokojivé anomálie. Jejich meta-jazyk se při aplikaci na určité typy významově vysoce hustých textů začíná chovat nestandardně – objevují se neočekávané sémantické fluktuace, emergentní meta-referenční smyčky a kaskádovité rozpady významových struktur. Zpočátku interpretují tyto jevy jako technické nedostatky svého meta-jazyka a pokoušejí se je eliminovat jeho zdokonalením.\n\nS každou iterací zdokonalování a testování se však anomálie prohlubují a nabývají systematičtějšího charakteru. Výzkumníci postupně zjišťují, že se nejedná o pouhé technické limity jejich meta-jazyka, ale o fundamentálnější fenomén, který se manifestuje při pokusu o úplnou formalizaci meta-sémantických struktur. Jejich meta-jazyk začíná generovat paradoxní konstrukce, které při aplikaci sám na sebe produkují sémantické singularity – body, v nichž se význam stává současně infinitně hustým a zcela vyprázdněným.\n\nV pokročilé fázi procesu začíná hypersémanická anihilace přesahovat hranice experimentálního prostředí a kontaminovat běžné sémantické domény. Výzkumníci pozorují, jak se v jejich vlastní komunikaci začínají spontánně objevovat oblasti významové neprostupnosti – segmenty diskurzu, které vzdorují jakékoli sémantické analýze či interpretaci. Tyto oblasti se postupně rozšiřují a začínají pohlcovat stále větší části sémantického prostoru.\n\nV terminální fázi procesu dochází ke kaskádovitému kolapsu meta-sémantických struktur v celém výzkumném projektu. Původní meta-jazyk, vytvořený pro precizní analýzu významu, se transformuje v nástroj jeho systematické destrukce. Výzkumný tým se ocitá v paradoxní situaci, kdy disponuje stále sofistikovanějšími nástroji pro analýzu významu, avšak tyto nástroje simultánně eliminují jakýkoli význam, který se pokoušejí analyzovat. Jejich komunikace se postupně rozpadá do fragmentů pseudo-významů, auto-referenčních znaků a sémanticky vyprázdněných struktur, které již nemohou být integrovány do koherentního diskurzu. Projekt je nakonec abandonován, nikoli však kvůli neúspěchu, ale kvůli fundamentální nemožnosti artikulovat, co by vůbec znamenalo jeho „úspěšné\" dokončení v podmínkách totální hypersémantické anihilace."
+  },
+  "id": "EA-123-hypersemanticka-anihilace",
+  "metadata": {
+    "index": 123,
+    "source": "archive",
+    "anchor": "hypersemanticka-anihilace",
+    "extracted_category_cs": "LINGVISTICKÉ A SÉMANTICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "SÉMANTICKÁ ANIHILACE",
+    "raw_kategorie": "Meta-sémantická destrukce"
+  },
+  "name": {
+    "cs": "Hypersémantická anihilace",
+    "en": "Hypersemantic Annihilation"
+  },
+  "page_number": 130,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "critical",
+    "score": 0.95
+  },
+  "subcategory": "semantic_annihilation",
+  "temporal_profile": "gradualni_s_potencialnimi_kvantovymi_skoky",
+  "typical_manifestations": [
+    "Meta-významový kolaps",
+    "signifikační anihilace",
+    "sémantická neprostupnost",
+    "referenční vakuum",
+    "znakový chaos"
+  ]
+}

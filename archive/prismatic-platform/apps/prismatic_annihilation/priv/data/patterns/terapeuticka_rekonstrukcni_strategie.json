@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.5,
+  "aggregate_severity": 0.5,
+  "category": "terapeuticka_rekonstrukcni_strategie",
+  "patterns": [
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Rekonstrukce transverzální kognitivní integrace",
+      "name_en": "Rekonstrukce Transverzalni Cognitive Integrace",
+      "severity_score": 0.5,
+      "technique_id": "EA-167-rekonstrukce-transverzalni-kognitivni-integrace"
+    }
+  ],
+  "technique_count": 1
+}

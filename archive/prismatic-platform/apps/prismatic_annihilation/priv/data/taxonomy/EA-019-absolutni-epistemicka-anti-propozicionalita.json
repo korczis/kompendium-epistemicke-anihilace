@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "linguistic_semantic_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-019-absolutni-epistemicka-anti-propozicionalita",
+  "metadata": {
+    "index": 19,
+    "source": "index",
+    "anchor": "absolutni-epistemicka-anti-propozicionalita",
+    "extracted_category_cs": "LINGVISTICKÉ A SÉMANTICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "LINGVISTICKÁ DESTRUKCE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Absolutní epistemická anti-propozicionalita",
+    "en": "Absolute Epistemic Anti-propositionality"
+  },
+  "page_number": 149,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "linguistic_destruction",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

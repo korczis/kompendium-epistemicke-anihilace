@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "identity_destruction",
+  "cross_references": [
+    "totalni-identitni-substituce",
+    "ontologicka-desubjektifikace",
+    "absolutni-egologicka-dezintegrace"
+  ],
+  "defense_strategies": [
+    "Narativní reintegrace",
+    "dialogická stabilizace",
+    "axiologické ukotvení",
+    "pragmatická rekonstrukce"
+  ],
+  "description": {
+    "cs": "Identitní dekonstrukce představuje proces systematického rozkladu a destabilizace strukturálních prvků, které konstituují identitu subjektu. Tento fenomén odhaluje konstruovanou, narativní a relacionální povahu identity, překračuje představu o esenciálním, unifikovaném jáství a vede k emergenční multiplicitě a fluiditě sebepojímání. Na rozdíl od patologických forem dezintegrace identity může identitní dekonstrukce vést k produktivní rekonfiguraci subjektivity.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Identitní fragmentace",
+    "narativní diskontinuita",
+    "multiplikace sebepojímání",
+    "destabilizace jáství"
+  ],
+  "domain": "identitni_struktury_a_narativni_sebepojimani",
+  "example": {
+    "cs": "Uznávaná spisovatelka ve středním věku prochází hlubokou revizí svého dosavadního životního příběhu a sebepojetí. Proces začíná při psaní memoárů, kdy si uvědomuje, že různé verze téže události z jejího života nelze sjednotit do koherentního příběhu. Pokračuje ve zkoumání této inkonzistence a postupně odhaluje, jak její identita byla formována komplexním spleti sociálních očekávání, kulturních narativů a mocenských dynamik. Její zdánlivě autentické životní volby se ukazují jako hluboce ovlivněné internalizovanými společenskými normami. Následuje období intenzivní identitní destabilizace, kdy zažívá radikální zpochybnění všech aspektů svého sebepojímání – od genderové identity přes profesní sebedefinici až po své nejhlubší hodnoty a přesvědčení. Namísto jednotné, koherentní identity začíná vnímat sebe sama jako fluidní multiplicitu potenciálních sebeprojektů. Po počátečním období úzkosti a dezorientace dokáže tuto multiplicitu akceptovat a inkorporovat do nového, otevřenějšího a flexibilnějšího modelu subjektivity. Tento transformační proces se odráží v její následující tvorbě, která se vyznačuje experimentálním přístupem k narativním formám a radikálním přehodnocením tradičních pojetí postavy, charakteru a subjektivity."
+  },
+  "id": "EA-125-identitni-dekonstrukce",
+  "metadata": {
+    "index": 125,
+    "source": "archive",
+    "anchor": "identitni-dekonstrukce",
+    "extracted_category_cs": "IDENTITNÍ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "IDENTITNÍ ANIHILACE",
+    "raw_kategorie": "Subjektivní dezintegrace"
+  },
+  "name": {
+    "cs": "Identitní dekonstrukce",
+    "en": "Identity Deconstruction"
+  },
+  "page_number": 15,
+  "reversibility": {
+    "level": "partially_reversible",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "medium_high",
+    "score": 0.7
+  },
+  "subcategory": "identity_annihilation",
+  "temporal_profile": "postupny_s_prahovymi_prechody",
+  "typical_manifestations": [
+    "Identitní fragmentace",
+    "narativní diskontinuita",
+    "multiplikace sebepojímání",
+    "destabilizace jáství"
+  ]
+}

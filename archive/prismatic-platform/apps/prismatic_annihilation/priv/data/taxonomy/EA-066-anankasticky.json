@@ -1,0 +1,55 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "patologicky_kognitivni_vzorec",
+  "cross_references": [
+    "cirkularita-destruktivni",
+    "implozivni-rekurze",
+    "hyperbolicka-eskalace"
+  ],
+  "defense_strategies": [
+    "Kognitivní restrukturalizace",
+    "externí interrupce myšlenkových smyček"
+  ],
+  "description": {
+    "cs": "Vztahující se k obsesivně-kompulzivním vzorcům myšlení charakterizovaným nepřerušitelným cyklem neproduktivní analytické činnosti. V kontextu epistemické anihilace označuje indukci systematických myšlenkových smyček vedoucích ke kognitivní paralýze.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Myšlenkové smyčky",
+    "nutkavá analýza",
+    "neschopnost ukončit myšlenkové procesy"
+  ],
+  "domain": "exekutivni_kognitivni_funkce",
+  "example": {
+    "cs": "Doktorand pracující na filozofické disertaci je veden školitelem k neustálému přezkoumávání základních předpokladů svého výzkumu. Zpočátku produktivní kritické myšlení se postupně transformuje v uzavřený cyklus analýzy. Doktorand stráví tři měsíce analyzováním prvního odstavce své práce, rozebírá každý termín do stále hlubších vrstev významů a implikací. Když se pokouší postoupit dál, nutkavě se vrací k začátku s pocitem, že analýza není dostatečně vyčerpávající. Každý pokus o postup vpřed vyvolává úzkost a přesvědčení, že bez dokonalého pochopení předchozího nemůže pokračovat. Po roce takové práce má doktorand 70 stran analýzy jediného odstavce a není schopen tento vzorec přerušit ani přes vědomí jeho neproduktivity."
+  },
+  "id": "EA-066-anankasticky",
+  "metadata": {
+    "index": 66,
+    "source": "primary",
+    "anchor": "anankasticky",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Patologický kognitivní vzorec"
+  },
+  "name": {
+    "cs": "Anankastický",
+    "en": "Anankastic"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "difficult",
+    "score": 0.25
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": null,
+  "temporal_profile": "chronicky",
+  "typical_manifestations": [
+    "Myšlenkové smyčky",
+    "nutkavá analýza",
+    "neschopnost ukončit myšlenkové procesy"
+  ]
+}

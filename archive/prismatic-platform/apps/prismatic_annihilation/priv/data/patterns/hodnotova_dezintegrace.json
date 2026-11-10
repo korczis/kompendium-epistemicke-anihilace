@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.5,
+  "aggregate_severity": 0.8,
+  "category": "hodnotova_dezintegrace",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Axiologické ukotvení",
+        "hodnotový konzervatismus",
+        "normativní stabilizace",
+        "meta-axiologické rámcování"
+      ],
+      "detection_patterns": [
+        "Hodnotová relativizace",
+        "evaluační paralýza",
+        "axiologický nihilismus",
+        "hodnotová disorientace",
+        "normativní chaos"
+      ],
+      "manifestations": [
+        "Hodnotová relativizace",
+        "evaluační paralýza",
+        "axiologický nihilismus",
+        "hodnotová disorientace",
+        "normativní chaos"
+      ],
+      "name_cs": "Axiologická dekonstrukce",
+      "name_en": "Axiological Deconstruction",
+      "severity_score": 0.8,
+      "technique_id": "EA-076-axiologicka-dekonstrukce"
+    }
+  ],
+  "technique_count": 1
+}

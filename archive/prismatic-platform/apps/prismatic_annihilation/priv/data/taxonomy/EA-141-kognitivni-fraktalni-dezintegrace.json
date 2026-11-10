@@ -1,0 +1,61 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "cognitive_destruction",
+  "cross_references": [
+    "kognitivni-autokanibalizace",
+    "metakognitivni-rekurzivni-dezintegrace",
+    "kognitivni-pandemonium"
+  ],
+  "defense_strategies": [
+    "Hierarchická rekonstrukce",
+    "úrovňová sekvestrace",
+    "kognitivní kontejnment",
+    "fraktální stabilizace"
+  ],
+  "description": {
+    "cs": "Kognitivní fraktální dezintegrace představuje specifický typ rozpadu myšlenkových struktur, který vykazuje charakteristiky fraktální geometrie – vzorce dezintegrace se sebereplikují a opakují na různých úrovních kognitivní hierarchie, přičemž každý fragment rozpadajícího se myšlení sám podléhá identickému procesu další fragmentace. Na rozdíl od běžného kognitivního rozpadu, který může být chaotický či amorfní, fraktální dezintegrace vykazuje vysokou míru strukturovanosti a specifický druh \"uspořádaného chaosu\", v němž lze identifikovat sebepodobné vzorce napříč všemi úrovněmi kognitivního rozpadu. Výsledkem je rekurzivní kaskáda fragmentace, která postupuje geometrickou progresí a zasahuje postupně všechny vrstvy mentálních procesů.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Sebereplikující fragmentace",
+    "rekurzivní rozpad",
+    "kognitivní sebepodobnost",
+    "iterativní kaskáda",
+    "meta-fragmentace"
+  ],
+  "domain": "hierarchicke_a_rekurzivni_struktury_mysleni",
+  "example": {
+    "cs": "Nadaný matematik a filozof se po letech intenzivní práce blíží k dokončení ambiciózního projektu – formálního systému, který by umožnil rigorózní analýzu paradoxů sebereference a rekurzivity v matematice, logice a epistemologii. Jeho systém využívá sofistikované kombinace nekonvenčních logik, teorie typů a nekonečně-stupňových hierarchií meta-jazyků k tomu, aby zachytil a formalizoval komplexní struktury sebereferenčních výroků a rekurzivních funkcí.\n\nPři finalizaci svého systému naráží na zvláštní anomálii – specifický druh rekurzivní struktury, která generuje paradoxní vzorce, jež nelze eliminovat ani pomocí jeho sofistikovaného aparátu. Při pokusu o analýzu těchto paradoxů zjišťuje, že jeho formální nástroje se samy zapletají do stále komplexnějších sebereflexivních smyček. Začíná pociťovat, jak se jeho myšlení postupně transformuje pod vlivem objektu svého studia – rekurzivní struktury a sebereference, které analyzuje, začínají ovlivňovat samotnou strukturu jeho kognitivních procesů.\n\nS progresí tohoto fenoménu začíná zaznamenávat zvláštní změny ve svém myšlení. Jeho kognice vykazuje stále výraznější známky fraktální dezintegrace – komplexní myšlenky se systematicky rozpadají na dílčí komponenty, které se dále fragmentují podle identických vzorců. Pozoruje, jak každá myšlenka, každý koncept, každá idea, kterou se pokouší uchopit, se okamžitě rozpadá na menší jednotky, jež samy podléhají stejnému procesu dezintegrace. Tento rozklad sleduje vysoce strukturované, sebepodobné vzorce, připomínající geometrii fraktálů.\n\nV pokročilé fázi se jeho myšlení stává labyrintem nekonečných rekurzivních odboček a sebereflexivních smyček. Každý pokus o formulaci koherentní myšlenky vede k její okamžité fragmentaci, přičemž každý fragment generuje vlastní řetězec další dezintegrace. Jeho rukopisy se proměňují v bizarní matematicko-filozofické konstrukty plné zanořených závorek, rekurzivních definic a sebereferencí, které připomínají spíše fraktální obrazce než konvenční akademické texty. Kolegové pozorují, jak jeho komunikace vykazuje stále výraznější známky strukturované dekompozice – jeho sdělení jsou organizována do hierarchických úrovní, které se rozpadají do dalších podúrovní podle identických vzorců.\n\nV terminální fázi dosahuje kognitivní fraktální dezintegrace bodu, kdy jeho myšlení zcela ztrácí schopnost linearity a jednoduchosti. I ty nejbazálnější myšlenkové operace se okamžitě větví do komplexních stromových struktur s nekonečnou hloubkou zanoření. Jeho vědomí se fragmentuje do hierarchie stále drobnějších \"sebeobdobných\" identit, z nichž každá pozoruje a reflektuje dezintegraci těch ostatních. Paradoxně si zachovává určitý druh meta-stability – jeho dezintegrované myšlení není chaotické, ale vykazuje vysokou míru vnitřní organizace, podobně jako Mandelbrotova množina či jiné fraktální struktury, které kombinují nekonečnou složitost s matematickou elegancí. Jeho stav vzdoruje konvenčním terapeutickým přístupům, jelikož jakýkoli pokus o intervenci je okamžitě absorbován do fraktálního vzorce rozpadajícího se myšlení a sám se stává součástí rekurzivního procesu dezintegrace."
+  },
+  "id": "EA-141-kognitivni-fraktalni-dezintegrace",
+  "metadata": {
+    "index": 141,
+    "source": "archive",
+    "anchor": "kognitivni-fraktalni-dezintegrace",
+    "extracted_category_cs": "KOGNITIVNÍ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "KOGNITIVNÍ STRUKTURÁLNÍ DESTRUKCE",
+    "raw_kategorie": "Rekurzivní kognitivní destrukce"
+  },
+  "name": {
+    "cs": "Kognitivní fraktální dezintegrace",
+    "en": "Cognitive Fractal Disintegration"
+  },
+  "page_number": 64,
+  "reversibility": {
+    "level": "very_low",
+    "score": 0.1
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": "cognitive_structural_destruction",
+  "temporal_profile": "progresivni_s_geometrickou_akceleraci",
+  "typical_manifestations": [
+    "Sebereplikující fragmentace",
+    "rekurzivní rozpad",
+    "kognitivní sebepodobnost",
+    "iterativní kaskáda",
+    "meta-fragmentace"
+  ]
+}

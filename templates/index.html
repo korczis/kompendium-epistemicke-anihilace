@@ -25,6 +25,7 @@
           <svg class="-mr-1 ml-2 h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
         </a>
         <a href="{{ get_url(path='@/kompendium/_index.md') }}" class="inline-flex items-center justify-center rounded-lg border border-gray-300 px-5 py-3 text-center text-base font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-800">Obsah kompendia</a>
+        <a href="{{ get_url(path='@/mapa.md') }}" class="inline-flex items-center justify-center rounded-lg border border-gray-300 px-5 py-3 text-center text-base font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-800">Mapa knihy</a>
         <a href="{{ config.extra.wiki_url }}" class="inline-flex items-center justify-center rounded-lg border border-gray-300 px-5 py-3 text-center text-base font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-800">Wiki</a>
       </div>
     </div>
@@ -97,7 +98,10 @@
       <div class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800">
         <h2 class="mb-2 text-xl font-bold leading-none text-gray-900 dark:text-white">Rozsah</h2>
         <p class="text-sm text-gray-500 dark:text-gray-400">Přibližně {{ (words / 1000) | round }} tisíc slov v kapitolách a kolekcích, {{ refs.extra.entries }} citovaných pramenů. Čísla se počítají při každém sestavení webu.</p>
-        <a href="{{ get_url(path='@/references.md') }}" class="mt-4 inline-flex items-center rounded-lg p-2 text-sm font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700">Reference &rarr;</a>
+        <div class="mt-4 flex flex-wrap gap-1">
+          <a href="{{ get_url(path='@/stav.md') }}" class="inline-flex items-center rounded-lg p-2 text-sm font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700">Stav knihy &rarr;</a>
+          <a href="{{ get_url(path='@/references.md') }}" class="inline-flex items-center rounded-lg p-2 text-sm font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700">Reference &rarr;</a>
+        </div>
       </div>
     </div>
   </div>

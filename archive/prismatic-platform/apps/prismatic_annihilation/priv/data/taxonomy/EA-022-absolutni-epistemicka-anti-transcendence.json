@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "phenomenological_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-022-absolutni-epistemicka-anti-transcendence",
+  "metadata": {
+    "index": 22,
+    "source": "index",
+    "anchor": "absolutni-epistemicka-anti-transcendence",
+    "extracted_category_cs": "FENOMENOLOGICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "FENOMENÁLNÍ ANIHILACE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Absolutní epistemická anti-transcendence",
+    "en": "Absolute Epistemic Anti-transcendence"
+  },
+  "page_number": 145,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "phenomenal_annihilation",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

@@ -134,7 +134,7 @@ def home(stats):
 
 **Defenzivní taxonomie jevů, které systematicky rozkládají schopnost člověka poznávat.**
 
-**[📖 Číst knihu]({SITE}/)** · **[🎨 Galerie]({SITE}/galerie/)** · **[📚 Reference]({SITE}/references/)** · **[💻 Repozitář]({REPO})**
+**[📖 Číst knihu]({SITE}/)** · **[🕸️ Mapa]({SITE}/mapa/)** · **[📈 Stav]({SITE}/stav/)** · **[🎨 Galerie]({SITE}/galerie/)** · **[📚 Reference]({SITE}/references/)** · **[💻 Repozitář]({REPO})**
 
 </div>
 
@@ -147,6 +147,13 @@ def home(stats):
 | **{stats['pages']}** | **{stats['techniques']}** | **{stats['cases']}** | **{stats['glossary']}** | **{stats['refs']}** |
 
 <sub>Změřeno z repozitáře při generování wiki (`scripts/build-wiki.py`), revize `{stats['rev']}`.</sub>
+
+## Mapa a stav knihy
+
+| [Mapa knihy]({SITE}/mapa/) | [Stav knihy]({SITE}/stav/) |
+|:-:|:-:|
+| <a href="{SITE}/mapa/"><img src="{RAW}/static/img/mapa-knihy.png" alt="Mapa knihy" width="100%"></a> | <a href="{SITE}/stav/"><img src="{RAW}/static/img/stav-knihy.png" alt="Stav knihy" width="100%"></a> |
+| síť odkazů mezi oddíly, štítky a okolí každé stránky | rozsah, provázanost a co ještě čeká |
 
 ## O čem kniha je
 
@@ -177,11 +184,11 @@ struktury, detekční markery, klinický rámec a cestu k obraně a zotavení.
 | | Stránka | Obsah |
 |:-:|---|---|
 | 📖 | [[Kapitoly]] | všechny oddíly s počtem stránek |
-| 🧬 | [[Katalog technik\|Katalog-technik]] | hesla EA-X.Y.Z podle rodin |
+| 🧬 | [[Katalog technik\\|Katalog-technik]] | hesla EA-X.Y.Z podle rodin |
 | 🗂️ | [[Případy]] | kazuistiky a historické případy |
 | 🧭 | [[Provenience]] | odkud kniha pochází a jak se vyvíjela |
 | 🛠️ | [[Sestavení]] | jak web sestavit a přispět |
-| ⚖️ | [[Licence]] | CC BY-NC-SA 4.0 pro text, MIT pro kód |
+| ⚖️ | [[Licence]] | General Honest License v1.0 |
 """
 
 
@@ -265,14 +272,12 @@ Flowbite Pro.
 
 LICENCE = f"""# Licence
 
-- **Text, glosář, archiv a grafika: CC BY-NC-SA 4.0**
-  ([LICENSE-CONTENT.md]({REPO}/blob/main/LICENSE-CONTENT.md)). Uveďte autora, nepoužívejte
-  komerčně, odvozená díla šiřte pod stejnou licencí.
-- **Kód (šablony, styly, skripty, workflow): MIT** ([LICENSE]({REPO}/blob/main/LICENSE)).
-- Knihovny třetích stran si ponechávají vlastní licence ([NOTICE.md]({REPO}/blob/main/NOTICE.md)).
+Celý repozitář — text knihy, glosář, archiv, grafika i kód — je od 2026-11-10 pod
+**General Honest License (GHL) v1.0**: [LICENSE]({REPO}/blob/main/LICENSE), autoritativní
+text na [korczis/prismatic/docs/ghl](https://github.com/korczis/prismatic/tree/master/docs/ghl).
 
-Rozhodnutí je zaznamenáno v
-[ADR 0001]({REPO}/blob/main/.ai/repo/adrs/0001-public-release-name-and-licence.md).
+Knihovny třetích stran si ponechávají vlastní licence ([NOTICE.md]({REPO}/blob/main/NOTICE.md)).
+Do 2026-11-10 platila pro text CC BY-NC-SA 4.0 a pro kód MIT; změnu zaznamenává ADR 0003.
 """
 
 SIDEBAR = f"""<img src="{RAW}/static/img/mark.svg" width="40" alt="">
@@ -287,12 +292,14 @@ SIDEBAR = f"""<img src="{RAW}/static/img/mark.svg" width="40" alt="">
 - [[Sestavení]]
 - [[Licence]]
 
+[🕸️ Mapa knihy]({SITE}/mapa/)
+[📈 Stav knihy]({SITE}/stav/)
 [🎨 Galerie]({SITE}/galerie/)
 [📚 Reference]({SITE}/references/)
 [💻 Repozitář]({REPO})
 """
 
-FOOTER = f"""Kompendium epistemické a kognitivní anihilace · Tomas Korcak · text CC BY-NC-SA 4.0, kód MIT · generováno skriptem `scripts/build-wiki.py` · [web]({SITE}/)
+FOOTER = f"""Kompendium epistemické a kognitivní anihilace · Tomas Korcak · licence GHL v1.0 · generováno skriptem `scripts/build-wiki.py` · [web]({SITE}/)
 """
 
 

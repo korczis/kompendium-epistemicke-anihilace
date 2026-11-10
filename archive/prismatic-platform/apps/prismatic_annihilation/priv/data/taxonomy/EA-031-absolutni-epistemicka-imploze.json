@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "epistemic_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-031-absolutni-epistemicka-imploze",
+  "metadata": {
+    "index": 31,
+    "source": "index",
+    "anchor": "absolutni-epistemicka-imploze",
+    "extracted_category_cs": "EPISTEMICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "ZÁKLADNÍ EPISTEMICKÁ ANIHILACE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Absolutní epistemická imploze",
+    "en": "Absolute Epistemic Implosion"
+  },
+  "page_number": 14,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "basic_epistemic_annihilation",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

@@ -2,13 +2,11 @@
  "content/about.md": [
   "tags",
   "related",
-  "links-out",
-  "not-orphan"
+  "links-out"
  ],
  "content/galerie.md": [
   "tags",
-  "related",
-  "not-orphan"
+  "related"
  ],
  "content/glossary/3nl.md": [
   "czech",

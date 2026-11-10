@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Kompendium epistemické a kognitivní anihilace: defenzivní taxonomie epistemické a kognitivní manipulace.",
-  "license": "SEE LICENSE IN LICENSE-CONTENT.md",
+  "license": "SEE LICENSE IN LICENSE",
   "author": "Tomas Korcak",
   "homepage": "https://korczis.github.io/kompendium-epistemicke-anihilace/",
   "repository": {
@@ -25,6 +25,9 @@
   },
   "devDependencies": {
     "@tailwindcss/cli": "4.3.3",
+    "alpinejs": "3.17.5",
+    "cytoscape": "3.34.4",
+    "echarts": "6.1.0",
     "flowbite": "4.0.2",
     "flowbite-typography": "1.0.5",
     "tailwindcss": "4.3.3"

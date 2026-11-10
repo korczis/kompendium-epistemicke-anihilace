@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "identity_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-062-absolutni-multisubjektivni-fragmentace",
+  "metadata": {
+    "index": 62,
+    "source": "index",
+    "anchor": "absolutni-multisubjektivni-fragmentace",
+    "extracted_category_cs": "IDENTITNÍ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "IDENTITNÍ ANIHILACE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Absolutní multisubjektivní fragmentace",
+    "en": "Absolute Multisubjective Fragmentation"
+  },
+  "page_number": 132,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "identity_annihilation",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

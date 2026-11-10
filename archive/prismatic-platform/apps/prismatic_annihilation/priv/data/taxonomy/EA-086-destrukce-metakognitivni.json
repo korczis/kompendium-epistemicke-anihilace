@@ -1,0 +1,56 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "reflexivni_destruktivni_technika",
+  "cross_references": [
+    "metakognitivni-implosivita",
+    "perverze-reflexivity",
+    "metakognitivni-rekurzivni-dezintegrace"
+  ],
+  "defense_strategies": [
+    "Externí metakognitivní scaffolding",
+    "asistovaná reflexe"
+  ],
+  "description": {
+    "cs": "Systematická eliminace schopnosti reflektovat vlastní myšlenkové procesy, monitorovat je a regulovat, vedoucí k neschopnosti jakékoliv formy sebereflexivní kognice.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Neschopnost sebereflexe",
+    "automatizace myšlení",
+    "ztráta kognitivní kontroly",
+    "neschopnosti jakékoliv formy sebereflexivní kognice"
+  ],
+  "domain": "reflexivni_kognitivni_procesy",
+  "example": {
+    "cs": "Psycholog specializující se na výzkum metakognitivních procesů je vystaven výzkumnému protokolu, který systematicky narušuje jeho vlastní metakognitivní schopnosti. Protokol začíná sérií úkolů, které přetěžují pracovní paměť a vyžadují automatické zpracování. Následují cvičení, při nichž je jakýkoliv pokus o metakognitivní reflexi okamžitě přerušen a penalizován. Poté je vystaven systematické zpětné vazbě, která zpochybňuje přesnost jeho metakognitivních soudů. Nakonec je konfrontován s důkazy, že jeho pocit metakognitivní kontroly je pouhou iluzí vytvořenou post-hoc konfabulací. Po několika týdnech tohoto protokolu psycholog zjišťuje, že ztratil schopnost vědomě monitorovat a regulovat své myšlenkové procesy – jeho myšlení probíhá v jakémsi automatickém režimu bez možnosti reflexivní intervence, což vede nejen k narušení jeho výzkumné práce, ale i k fundamentálnímu narušení jeho schopnosti sebeřízení a kognitivní kontroly."
+  },
+  "id": "EA-086-destrukce-metakognitivni",
+  "metadata": {
+    "index": 86,
+    "source": "primary",
+    "anchor": "destrukce-metakognitivni",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Reflexivní destruktivní technika"
+  },
+  "name": {
+    "cs": "Destrukce metakognitivní",
+    "en": "Destruction Metacognitive"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "difficult",
+    "score": 0.25
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": null,
+  "temporal_profile": "postupny",
+  "typical_manifestations": [
+    "Neschopnost sebereflexe",
+    "automatizace myšlení",
+    "ztráta kognitivní kontroly"
+  ]
+}

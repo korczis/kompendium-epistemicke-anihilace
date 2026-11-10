@@ -1,0 +1,29 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.25,
+  "aggregate_severity": 0.95,
+  "category": "terminalni_epistemicka_dysfunkce",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Pragmatický epistemický minimalismus",
+        "externalizace rozhodovacích procesů"
+      ],
+      "detection_patterns": [
+        "Neschopnost formulovat jakékoliv soudy",
+        "epistemická agonie",
+        "kognitivní zamrznutí"
+      ],
+      "manifestations": [
+        "Neschopnost formulovat jakékoliv soudy",
+        "epistemická agonie",
+        "kognitivní zamrznutí"
+      ],
+      "name_cs": "Epistemologická paralýza",
+      "name_en": "Epistemologicka Paralysis",
+      "severity_score": 0.95,
+      "technique_id": "EA-116-epistemologicka-paralyza"
+    }
+  ],
+  "technique_count": 1
+}

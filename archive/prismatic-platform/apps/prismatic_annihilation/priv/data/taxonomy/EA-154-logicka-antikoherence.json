@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "axiological_destruction",
+  "cross_references": [
+    "kognitivni-hyperparadox",
+    "logicka-transcendence",
+    "absolutni-epistemicka-anti-invariance"
+  ],
+  "defense_strategies": [
+    "Logická segmentace",
+    "parakonsistentní rámce",
+    "meta-logická firewall",
+    "axiomatická karanténa"
+  ],
+  "description": {
+    "cs": "Logická antikoherence představuje fenomén aktivního a dynamického rozpadu logických struktur, který kvalitativně překračuje pouhou inkonzistenci či kontradikci. Zatímco běžná logická inkonzistence představuje statickou přítomnost vzájemně neslučitelných tvrzení, antikoherence vytváří dynamické pole vzájemně se anihilujících logických vztahů, které aktivně podkopávají jakýkoliv pokus o ustanovení stabilního racionálního rámce.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Dynamická kontradikce",
+    "inferenční nestabilita",
+    "axiomatická toxicita",
+    "referenční imploze"
+  ],
+  "domain": "logicke_struktury_a_inferencni_procesy",
+  "example": {
+    "cs": "Výzkumný tým logických teoretiků pracuje na formalizaci nového axiomatického systému, který má sloužit jako základ pro konsistentní teorii kvantové gravitace. Během formulace klíčových axiomů si všímají subtilních nestabilit – vztahy mezi axiomy vykazují neočekávané fluktuace a generují bizarní inference. Při pokusu o opravu těchto problémů zjišťují, že každá formální úprava vede k eskalaci nestability namísto její eliminace. Po měsících práce si uvědomují, že se ocitli v situaci, kdy jejich logický systém vykazuje známky \"anti-koherence\" – stavu, který přesahuje běžnou inkonzistenci. Jakýkoli pokus o aplikaci klasických metod pro detekci a eliminaci kontradikcí vede paradoxně k jejich dalšímu šíření a transformaci. Logické struktury systému se začínají dynamicky rozpadat, přičemž tento rozpad má \"nakažlivý\" charakter, kontaminující i meta-logické rámce, které tým používá pro analýzu problému. Nakonec jsou nuceni projekt opustit, jelikož ani nejsofistikovanější logické nástroje nejsou schopny udržet stabilitu v poli eskalující anti-koherence."
+  },
+  "id": "EA-154-logicka-antikoherence",
+  "metadata": {
+    "index": 154,
+    "source": "archive",
+    "anchor": "logicka-antikoherence",
+    "extracted_category_cs": "AXIOLOGICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "METODOLOGICKÁ DESTRUKCE",
+    "raw_kategorie": "Meta-logická patologie"
+  },
+  "name": {
+    "cs": "Logická antikoherence",
+    "en": "Logical Anti-coherence"
+  },
+  "page_number": 104,
+  "reversibility": {
+    "level": "difficult",
+    "score": 0.25
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": "methodological_destruction",
+  "temporal_profile": "eskalujici_s_nelinearni_progresi",
+  "typical_manifestations": [
+    "Dynamická kontradikce",
+    "inferenční nestabilita",
+    "axiomatická toxicita",
+    "referenční imploze"
+  ]
+}

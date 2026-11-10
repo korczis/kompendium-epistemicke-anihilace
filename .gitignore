@@ -4,4 +4,8 @@
 /public/
 /static/css/app.css
 /static/js/vendor/flowbite.min.js
+/static/js/vendor/cytoscape.min.js
+/static/js/vendor/echarts.min.js
+/static/js/vendor/alpine.min.js
 .DS_Store
+__pycache__/

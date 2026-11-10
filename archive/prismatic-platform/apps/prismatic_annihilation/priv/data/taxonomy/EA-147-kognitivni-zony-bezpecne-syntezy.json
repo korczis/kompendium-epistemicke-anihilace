@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "terapeuticka_a_treninkova_technika",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": "---\n\n## Definice\n\nKognitivní zóny bezpečné syntézy (KZBS) jsou **speciálně navržené mentální, dialogické nebo tréninkové prostory**, v nichž může subjekt **experimentovat s propojením různých epistemických domén** bez bezprostředního rizika kognitivního kolapsu.\n\nCílem je poskytnout **přechodový, tréninkový rámec**, kde je možné bezpečně:\n- testovat vazby mezi doménami,\n- objevovat přirozené mosty a analogie,\n- budovat postupnou integrativní kapacitu.\n\n---\n\n## Klíčové charakteristiky KZBS\n\n- **Tematická omezenost** – každá zóna se soustředí na konkrétní syntetický problém nebo fenomén.\n- **Regulovaná komplexita** – komplexita problému je adaptivně upravována dle aktuální kapacity subjektu.\n- **Explicitní metakognitivní rámec** – subjekt si je vědom toho, že se nachází v *experimentálním* prostoru, kde chyby nejsou selháním, ale součástí procesu.\n- **Dialogická facilitace** – v ideálním případě je zóna moderována druhou osobou nebo strukturou, která pomáhá zachovat bezpečné hranice.\n\n---\n\n## Vznik a vývoj bezpečné syntézy\n\n### 1. **Výběr iniciačních domén**\n- Volba dvou domén, které mají alespoň **minimální přirozený překryv** (např. neurověda a psychologie).\n\n### 2. **Definice syntetického jádra**\n- Vytvoření *startovací otázky* nebo *problému*, který organicky vyžaduje propojení obou oblastí.\n- Příklad: \"Jak ovlivňuje molekulární plasticita hippocampu behaviorální adaptaci po traumatu?\"\n\n### 3. **Postupné rozvíjení kontextových mostů**\n- Identifikace analogií, paralel, rozdílů a možných extrapolací.\n- Mapování těchto mostů vizuálně, narativně nebo schematicky.\n\n### 4. **Sledování kognitivní kapacity**\n- Pokud se objeví známky přetížení, zóna se okamžitě **deeskaluje**:\n    - Snížení komplexity\n    - Vrácení k jednodušším modelům\n    - Zavedení externích opor (schémata, modely, příklady)\n\n### 5. **Stabilizace nové integrace**\n- Vědomé zpracování získané syntézy:\n    - Shrnutí\n    - Reflektivní zápis\n    - Externalizace (výstupní mapa, text, přednáška)\n\n---\n\n## Typické chyby a nebezpečí\n\n- **Předčasné propojení nekompatibilních struktur** → pseudointegrační chaos\n- **Nedostatečné ukotvení jednotlivých domén** → syntéza na základě nepochopených základů\n- **Přetížení metakognitivní roviny** → kognitivní paralýza, regres\n\n---\n\n## Příklad\n\n*Skupina pokročilých studentů psychologie a neurovědy je vyzvána, aby vytvořila syntézu mezi konceptem neuroplasticity a terapeutickými intervencemi při PTSD. V rámci bezpečné syntetické zóny se nejprve zkoumá separátně biologická báze (BDNF, neurogeneze) a terapeutické rámce (expozice, EMDR). Následně se hledají překryvy a body spojení. Studenti mapují, jak biologická plasticita umožňuje behaviorální rekondicionování, a vytvářejí model, který integruje molekulární adaptaci a kognitivní reframing. Práce je průběžně moderována facilitátorem, aby se zabránilo předčasným inferencím nebo fragmentaci. Výsledkem je organická, stabilní syntéza, která respektuje limity obou domén.*\n\n---\n\n## Viz také\n- [Absolutní epistemická hyperbifurkace](#absolutni-epistemicka-hyperbifurkace)\n- [Kognitivní fraktální dezintegrace](#kognitivni-fraktalni-dezintegrace)\n- [Rekonstrukce transverzální kognitivní integrace](#rekonstrukce-transverzalni-integrace)",
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-147-kognitivni-zony-bezpecne-syntezy",
+  "metadata": {
+    "index": 147,
+    "source": "archive",
+    "anchor": "kognitivni-zony-bezpecne-syntezy",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Terapeutická a tréninková technika"
+  },
+  "name": {
+    "cs": "Kognitivní zóny bezpečné syntézy",
+    "en": "Cognitive Zony Bezpecne Syntezy"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": null,
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

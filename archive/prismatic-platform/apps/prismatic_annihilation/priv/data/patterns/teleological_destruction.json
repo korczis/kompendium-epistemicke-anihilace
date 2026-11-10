@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.5,
+  "aggregate_severity": 0.5,
+  "category": "teleological_destruction",
+  "patterns": [
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní kognitivní anti-teleologie",
+      "name_en": "Absolute Cognitive Anti-teleology",
+      "severity_score": 0.5,
+      "technique_id": "EA-058-absolutni-kognitivni-anti-teleologie"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Zpochybnění intencionality",
+      "name_en": "Questioning Intentionality",
+      "severity_score": 0.5,
+      "technique_id": "EA-178-zpochybneni-intencionality"
+    }
+  ],
+  "technique_count": 2
+}

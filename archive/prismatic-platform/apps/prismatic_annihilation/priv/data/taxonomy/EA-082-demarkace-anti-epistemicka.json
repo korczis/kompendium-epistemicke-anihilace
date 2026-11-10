@@ -1,0 +1,53 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "segregacni_epistemicka_technika",
+  "cross_references": [
+    "inkomenzurabilita-absolutni",
+    "pluralita-anti-epistemicka",
+    "mediace-anti-kognitivni"
+  ],
+  "defense_strategies": [
+    "Transdisciplinární myšlení",
+    "analogické přemostění"
+  ],
+  "description": {
+    "cs": "Proces vytváření nepřekonatelných hranic mezi různými epistemickými doménami, znemožňující jakýkoliv přenos poznatků či metod mezi těmito doménami.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Neschopnost transferu poznání mezi doménami",
+    "rigidní kompartmentalizace vědění"
+  ],
+  "domain": "integrativni_kognitivni_procesy",
+  "example": {
+    "cs": "Interdisciplinární výzkumný tým je sestaven k řešení komplexního problému na pomezí sociologie, ekonomie a psychologie. Vedoucí projektu však zavádí striktní demarkační princip, podle kterého metody a koncepty z jedné disciplíny nesmí \"kontaminovat\" práci v jiné disciplíně. Když psycholožka v týmu navrhne použití konceptu \"skupinové polarizace\" k vysvětlení určitého ekonomického fenoménu, je okamžitě zastavena s argumentem, že \"psychologické koncepty nemají v ekonomické analýze co dělat\". Když sociolog navrhne kvantitativní metodu inspirovanou ekonometrií, je mu řečeno, že \"redukcionistické metody ekonomie jsou nekompatibilní s holistickým charakterem sociologického poznání\". Po několika měsících takové práce tým zjišťuje, že vzájemné hranice mezi disciplínami se staly neprostupnými, což znemožňuje jakoukoliv skutečnou interdisciplinární syntézu a řešení problému, který z podstaty vyžaduje integrovaný přístup."
+  },
+  "id": "EA-082-demarkace-anti-epistemicka",
+  "metadata": {
+    "index": 82,
+    "source": "primary",
+    "anchor": "demarkace-anti-epistemicka",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Segregační epistemická technika"
+  },
+  "name": {
+    "cs": "Demarkace anti-epistemická",
+    "en": "Demarkace Anti-epistemicka"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "medium",
+    "score": 0.5
+  },
+  "subcategory": null,
+  "temporal_profile": "postupny",
+  "typical_manifestations": [
+    "Neschopnost transferu poznání mezi doménami",
+    "rigidní kompartmentalizace vědění"
+  ]
+}

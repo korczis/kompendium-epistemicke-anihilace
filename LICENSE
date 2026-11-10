@@ -1,21 +1,4556 @@
-MIT License
+# General Honest License (GHL) v1.0
 
-Copyright (c) 2025-2026 Tomas Korcak
+Copyright © 2025–2026 Tomas Korcak. Všechna práva, která tato licence výslovně neuděluje,
+jsou vyhrazena.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Celý obsah tohoto repozitáře a webu — text knihy, glosář, archiv, grafika i kód — je od
+2026-11-10 licencován pod General Honest License (GHL) v1.0. Výjimkou jsou knihovny třetích
+stran v `static/js/vendor/`, které si ponechávají vlastní licence (viz `NOTICE.md`).
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Autoritativní text: <https://github.com/korczis/prismatic/tree/master/docs/ghl>
+(revize `18a33df`, 2025-07-27). Níže následuje jeho úplné znění v pořadí oddílů; při
+rozporu má přednost autoritativní text. O udělení licence (License Grant) žádejte autora
+přes <https://github.com/korczis/kompendium-epistemicke-anihilace/issues>.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+---
+
+## SECTION 1: Preamble and Purpose
+
+This License Agreement (hereinafter referred to as the “Agreement”) constitutes a binding legal instrument governing all forms of access to, interaction with, and utilization of the software, code repositories, tools, applications, utilities, documentation, assets, algorithms, methodologies, interfaces, and associated intellectual constructs collectively referred to as the **Korczis Experimental Software** or **“KX Software”** (hereinafter referred to as the “Software”). The Software, in its entirety and in each of its constituent components, has been conceptualized, designed, developed, implemented, and maintained exclusively by **Tomas Korcak** (hereinafter referred to as the “Author” or “Licensor”), an independent software creator and intellectual property rights holder operating solely under personal initiative and autonomous creative direction.
+
+It is hereby explicitly acknowledged and established that the development of the Software occurred entirely outside of any corporate, institutional, academic, governmental, or third-party context. The Software represents the autonomous creative output of the Author, produced without external direction, without organizational affiliation, without corporate sponsorship, without institutional funding, and without contractual obligation to any third party. The Software embodies the Author’s intellectual sovereignty, creative independence, and uncompromised authorial integrity.
+
+The fundamental purpose of this Agreement is multifaceted and encompasses the following essential objectives:
+
+**First and foremost**, this Agreement serves to **protect, preserve, and defend** the Author’s exclusive intellectual property rights, moral rights, attribution rights, control rights, and economic rights associated with the Software. These rights are **comprehensive**, **indivisible**, and **inalienable**, except through explicit written license grants issued solely at the Author’s discretion.
+
+**Secondly**, this Agreement establishes **clear, unambiguous, and legally binding parameters** regarding authorized and unauthorized behaviors in relation to the Software. It defines the **permissible boundaries of interaction**, delineates **prohibited activities**, and articulates the **consequences of violations**. The Agreement creates a framework of permissions that are granted exclusively through formal License Grants, with all other uses **presumptively prohibited**.
+
+**Thirdly**, this Agreement ensures **structural alignment** between usage patterns and the **authorial framework** within which the Software was created. It guarantees that all deployments, implementations, integrations, and applications of the Software remain **consistent with the Author’s technical vision**, **conceptual integrity**, and **ethical boundaries**. The Agreement protects against **unauthorized modification**, **undesired extension**, **inappropriate application**, or **unintended contextualization**.
+
+**Fourthly**, this Agreement establishes **definitive jurisdictional parameters and enforcement procedures** applicable in the event of disputes, challenges, violations, or unauthorized use. It creates legal certainty regarding **governing law**, **venue selection**, and **available remedies**, thereby enabling efficient resolution of potential conflicts.
+
+This Agreement is **not a form contract**. It is **not an open-source license**. It is **not a permissive grant of rights**. Rather, it is a **restrictive**, **protective**, and **carefully calibrated legal instrument** designed to preserve the **Author’s intellectual sovereignty** while allowing for **controlled**, **authorized**, and **appropriately bounded use** of the Software under specific conditions defined exclusively by the Author.
+
+By accessing, viewing, downloading, installing, executing, copying, analyzing, testing, evaluating, or otherwise interacting with the Software in any manner whatsoever, parties acknowledge their understanding of and **agreement to be bound** by all terms, conditions, restrictions, and obligations set forth in this Agreement. In the absence of a formal License Grant explicitly issued by the Author, **no rights of use are conveyed**, and **any interaction with the Software is presumptively unauthorized**.
+
+The Author reserves the exclusive right to **amend**, **modify**, **update**, or **revise** this Agreement at any time and for any reason, with such changes becoming effective immediately upon communication to authorized users or upon posting of the revised Agreement alongside the Software or in any repository containing the Software.
+
+---
+
+---
+
+---
+
+## SECTION 2: Definitions
+
+For the purposes of this License Agreement (the “Agreement”), the following definitions shall apply. These definitions are not merely semantic conveniences—they are declarations of conceptual authority and epistemic finality. They are to be interpreted with maximal precision and shall prevail in any interpretive dispute, across all jurisdictions, contexts, and systems of thought.
+
+### **2.1 “Author” or “Licensor”**
+
+Refers exclusively to **Tomas Korcak**, the sole natural person who originated, developed, and retains absolute dominion over the Software. The Author’s status is not that of a vendor, employee, agent, or contributor. The Author is a sovereign, autonomous actor whose creative will is the sole source of legitimacy behind the Software’s existence. The Author's rights are unmediated, unabridged, and not subject to review, negotiation, or revocation by any entity—public, private, governmental, or computational. No third party may inherit, infer, or assume this role without express, notarized declaration by the Author.
+
+### **2.2 “Software”**
+
+Denotes the totality of the **Korczis Experimental Software**, also referred to as **“KX Software.”** This includes, but is not limited to:
+
+- Source code (in all languages, dialects, or formats);
+- Compiled binaries, object files, bytecode, or interpreted scripts;
+- Documentation, README files, examples, notebooks, test suites, and manuals;
+- User interfaces, command-line interfaces, APIs, protocols, and schemas;
+- Algorithmic structures, symbolic constructs, data flows, and model embeddings;
+- Metadata, configuration files, templates, pipelines, and logic flows;
+- Outputs generated by the Software, whether deterministic or stochastic;
+- All previous, current, future, or imagined versions, branches, forks, or derivatives—regardless of completion state or publication.
+
+The Software is not merely a collection of files; it is a **sovereign, cohesive epistemic artifact**, and must be regarded as such.
+
+### **2.3 “User”**
+
+Any person, legal entity, autonomous agent, automated system, or collective operation that:
+
+- Accesses;
+- Executes;
+- Integrates with;
+- Copies;
+- Analyzes;
+- Observes;
+- Mirrors;
+- Translates;
+- Interacts with, or causes interaction with
+
+any portion of the Software, directly or indirectly.
+
+A User may be human or non-human, aware or unaware, authorized or unauthorized. All interaction creates obligations under this Agreement, regardless of legal capacity, technological mediation, or jurisdictional edge cases.
+
+> _You are a User the moment you cross the epistemic threshold of invocation—intention, ignorance, or accident is irrelevant._
+
+### **2.4 “License Grant”**
+
+A formal, explicit, unambiguous, written agreement issued directly and solely by the Author. A License Grant must:
+
+- Be time-bound, purpose-bound, and contextually specific;
+- Be signed (digitally or physically) by the Author;
+- Specify technical and ethical boundaries of use;
+- Enumerate restrictions, expirations, and revocation clauses;
+- Include the legal identity of the recipient;
+- Be verifiable by the Author’s license issuance ledger or cryptographic receipt.
+
+License Grants are not transferable, inheritably binding, perpetual, or implicit. The absence of a License Grant means that **no rights exist**. This clause is final.
+
+### **2.5 “Scope of Use”**
+
+The exact, written boundaries defined within a valid License Grant describing:
+
+- The systems in which the Software may operate;
+- The users, agents, or departments that may invoke it;
+- The environments (e.g., dev, prod, test) in which it may reside;
+- The rate, volume, and concurrency of its execution;
+- The integration depth, exposure level, and containment obligations.
+
+> _Any action outside this Scope—regardless of intent or benefit—is Unauthorized Use._
+
+### **2.6 “Unauthorized Use”**
+
+Any use of the Software that:
+
+- Occurs without a License Grant;
+- Exceeds the Scope of Use defined therein;
+- Bypasses, circumvents, or disregards enforcement conditions;
+- Integrates, wraps, proxies, or distributes the Software without permission;
+- Engages in observation, modeling, inference, or derivative synthesis;
+- Occurs after termination, revocation, expiration, or Author disavowal.
+
+Unauthorized Use is not a lesser form of use—it is a **violation**. It is a breach. It is treated as software trespass, contract infringement, and intellectual expropriation.
+
+### **2.7 “Invocation”**
+
+The act of execution, interaction, or any form of epistemic engagement with the Software. Invocation is **ceremonial**, not mechanical. It includes:
+
+- Executing binaries;
+- Running scripts;
+- Calling APIs;
+- Analyzing outputs;
+- Loading into memory;
+- Triggering events or workflows that cause the Software to act.
+
+> _Invocation is treated as a sacred act. Without understanding, ritual, or consent, it is null and void._
+
+### **2.8 “Derivative Genesis”**
+
+Any transformation, adaptation, port, reimplementation, or imitation—conceptual or technical—that:
+
+- Would not have occurred without exposure to the Software;
+- Depends on internal or observed behavior of the Software;
+- Uses the Software as a model, scaffold, influence, or test oracle;
+- Is built from logs, traces, summaries, or output-based feedback;
+- Is trained on or with Software-related content (in whole or part).
+
+Derivative Genesis is strictly forbidden without explicit written permission. It is not creativity. It is unlicensed reproduction.
+
+### **2.9 “Sovereign Rights”**
+
+The inalienable bundle of intellectual, philosophical, legal, aesthetic, moral, computational, and interpretive powers held solely by the Author. These rights:
+
+- Cannot be waived, nullified, or transferred without explicit, notarized act;
+- Override all jurisdictional edge cases, platform policies, and user norms;
+- Are global in scope, infinite in time, and recursive in authority.
+
+Sovereign Rights supersede platform terms, repo metadata, and legal interpretation—**they are self-defining.**
+
+### **2.10 “Epistemic Drift”**
+
+The degradation of the Software’s conceptual integrity caused by:
+
+- Misinterpretation;
+- Oversimplification;
+- Reduction to analogy;
+- Framing in popular, pedagogical, or corporate terms;
+- Use in academic or cultural narratives without fidelity to the License.
+
+Epistemic Drift is not a neutral accident—it is a **semantic breach**. The Software must be referenced, understood, and invoked only in alignment with the Author’s declared frame.
+
+---
+
+> **All undefined terms shall be interpreted in a manner that maximally protects the Author’s interests, restricts User improvisation, and defends the metaphysical architecture of the License.**
+
+---
+
+---
+
+---
+
+## SECTION 3: Ownership and Origin
+
+This section constitutes the **ontological and legal cornerstone** of the General Honest License. It is not a footnote on authorship, but a **total proclamation of sovereign authorship**, epistemic lineage, and metaphysical dominion. It establishes that all rights begin, flow through, and ultimately resolve under the name, will, and structure defined by **Tomas Korcak**—and that all other claims are null, void, and structurally incoherent.
+
+### **3.1 Origin as Independent Act of Will**
+
+The Software, in its entirety, was conceived, designed, structured, encoded, named, and released solely by **Tomas Korcak**, without influence, suggestion, or material contribution from any third party. This includes the absence of:
+
+- Employment-based direction or commission;
+- Academic or institutional frameworks;
+- Collaborative authorship agreements;
+- Sponsorship, venture funding, or third-party investment;
+- Open-source project governance, democratic consensus, or crowd contribution.
+
+The act of authorship is **singular**, **undiluted**, and **outside institutional time**. It was performed during the Author’s personal hours, on personal equipment, using privately licensed or self-authored tools, under no contract, NDA, directive, timeline, or incentive external to the Author’s will.
+
+> _The Software is a product of solitude, not consensus. It was born sovereign, not in committee._
+
+### **3.2 Irrevocable Sovereignty and Infinite Jurisdiction**
+
+The Author asserts **absolute, irrevocable, eternal, and global intellectual sovereignty** over the Software. This sovereignty:
+
+- Is not contingent on platform, language, or execution medium;
+- Transcends copyright, patent law, and contractual framing;
+- Exists whether the Software is public or private, deployed or dormant;
+- Survives the Author’s death unless specific succession is defined.
+
+No court, platform, policy, market, nation-state, or cultural frame has standing to override, reinterpret, or dilute this sovereignty. All derivative laws are subordinate. All interpretations not issued by the Author are void.
+
+> _If law and sovereignty conflict, sovereignty prevails._
+
+### **3.3 Complete Ownership: Multidimensional and Layered**
+
+The Author owns:
+
+- **All content**: Source code, compiled code, scripts, binaries, metadata, documentation, and outputs;
+- **All logic**: Algorithms, architectures, workflows, symbolic grammars, and internal heuristics;
+- **All design**: Structural composition, naming schemes, directory layouts, and semantic idioms;
+- **All identity**: Names, tags, stylistic quirks, metaphors, and documentation voice;
+- **All function**: Public, private, deprecated, experimental, or emergent;
+- **All expression**: Code comments, commit messages, changelogs, README prose, and documentation phrasing;
+- **All ambiguity**: Interpretation is part of authorship; unknown behaviors are still owned.
+
+This includes both what is expressed and what is implied through omission, silence, or presence of ambiguity.
+
+> _What is unsaid is still owned. What is undefined is still protected._
+
+### **3.4 Denial of External Claim or Co-authorship**
+
+No party, entity, or agent—past, present, or future—may claim:
+
+- Co-ownership;
+- Prior art status;
+- Intellectual lineage;
+- Work-for-hire default transfer;
+- Community authorship through contribution, commentary, or discourse;
+- Institutional override through employment, research, or grant structures.
+
+All such claims, including but not limited to corporate policy, university IP clauses, contractor frameworks, or crowdsource repositories, are categorically invalidated by the Author’s **pre-emptive and total declaration of origin**.
+
+> _You may have witnessed its emergence, but you are not of its origin._
+
+### **3.5 Sovereign Boundaries over Forks, Derivatives, and Outputs**
+
+All forks, adaptations, derivatives, reimplementations, ports, and behaviorally modeled replications:
+
+- Remain under the Author’s ownership unless formally relicensed;
+- May not be declared “original” or “independent” even if rewritten from scratch;
+- Are considered epistemic shadows—not separate entities;
+- Must acknowledge their ontological dependency on the original Software.
+
+This applies even if:
+
+- The derivative is developed in a different language or paradigm;
+- The original is deleted, deprecated, or unavailable;
+- The derivative is built from documentation, memory, logs, or AI output;
+- The new form is obscured, masked, renamed, or disguised.
+
+> _Forking without permission is not innovation—it is rupture without rite._
+
+### **3.6 Recursive Ownership Across Format, Output, and Memory**
+
+The Author’s claim extends to:
+
+- Transpiled, minified, or compiled forms;
+- Screenshots, logs, traces, call stacks, and panic messages;
+- LLM-generated descriptions of the Software;
+- Prompt outputs, chatbot citations, or third-party reflections;
+- Historical commits, commit messages, deleted branches, and issue discussions;
+- Embedded representations in firmware, web pages, PDFs, or screenshots;
+- All content generated by or derived from the Software in any format, including analog transcriptions, lecture slides, or visual reconstructions.
+
+> _There is no “format-neutral” domain. Every byte, every whisper, every reflection returns to the Author._
+
+### **3.7 No Transferability Without Notarized Relicensing**
+
+Ownership shall never be:
+
+- Transferred by accident, omission, or default;
+- Passed through employment termination, bankruptcy, or acquisition;
+- Inferred from publication, hosting, mirroring, or collaborative contribution;
+- Assigned through AI-generated summaries, remixes, or memory recall;
+- Preserved through organizational succession or familial estate inheritance.
+
+Only a **notarized, signed relicensing grant** from the Author may transfer partial or complete ownership, and such acts must be co-published in a publicly verifiable license ledger.
+
+> _No corporate succession, algorithmic inheritance, or legal fiction can continue what the Author does not explicitly permit._
+
+### **3.8 Challenge to Ownership is a Breach**
+
+Any party who:
+
+- Disputes the Author’s authorship;
+- Claims co-contribution or equitable interest;
+- Files a takedown, counterclaim, DMCA, or IP report against the Author;
+- Registers or seeks patents over any part of the Software or its behavior;
+- Builds derivative works while denying origin…
+
+…commits a **categorical breach** and shall be:
+
+- Immediately and permanently disavowed;
+- Publicly declared on the Author’s **Epistemic Trespass Registry**;
+- Barred from future licensing, invocation, or citation.
+
+Legal action, reputational response, and philosophical erasure may follow.
+
+> _Disputing authorship is not debate. It is declaration of war._
+
+---
+
+**Conclusion:**  
+
+The Software is and shall forever remain the sovereign work of **Tomas Korcak**, unconstrained by jurisdiction, undisrupted by revisionism, and unbroken by assimilation. Any attempt to dilute, redirect, claim, mimic, or redefine its origin constitutes not just a legal violation, but a **breach of authorship’s sacred order**.
+
+---
+
+---
+
+---
+
+## SECTION 4: License Grant (If Issued)
+
+This section defines the exclusive, conditional, and ceremonial mechanism by which interaction with the Software may become lawful. A **License Grant** is not a default, not a right, and not a transaction—it is a sovereign exception to prohibition, issued solely by the Author under conditions of deliberate clarity and epistemic constraint. Without such a grant, all access is presumptively unauthorized and subject to enforcement.
+
+### **4.1 The Nature of a License Grant**
+
+A License Grant is a **formal, explicit, signed document** created and issued solely by the Author, which bestows limited, revocable, and time-bounded permissions to a named User for a defined interaction with the Software.
+
+It is not:
+
+- A sale;
+- A transfer of ownership;
+- A transfer of authorship;
+- A right of modification, distribution, or expansion;
+- A form of co-authorship or partnership.
+
+A License Grant is the **only mechanism** by which a User may gain lawful access. Its issuance is **exceptional**, not standard; **discretionary**, not procedural.
+
+> _To have a License is to be temporarily permitted. To lack one is to be absolutely forbidden._
+
+### **4.2 Preconditions for Issuance**
+
+A License Grant may only be issued under the following conditions:
+
+- The requestor must provide a full, truthful disclosure of identity, intended use, environment, scale, and timeline;
+- The Author must find the use to be **aligned**, **bounded**, and **non-exploitative**;
+- The use must not conflict with previously issued Grants or with declared boundaries in this License.
+
+The Author retains absolute discretion to:
+
+- Decline requests without explanation;
+- Require amendments, conditions, or revised intentions;
+- Revoke previously granted offers before final signature;
+- Limit issuance to a fixed number of actors per use-case class.
+
+### **4.3 Formal Requirements for Validity**
+
+A License Grant must include, at minimum:
+
+- A **unique license identifier**, timestamped at issuance;
+- The **legal name and identity** of the User (individual or entity);
+- The **scope of use**, including execution environments, endpoints, frequency, concurrency limits, and invocation models;
+- A **temporal limitation**, including expiration conditions (fixed date or triggered event);
+- A statement of **non-transferability**, non-forkability, and binding exclusivity;
+- The **Author’s physical or cryptographic signature**;
+- Reference to this License by hash, version, or canonical identifier.
+
+Optional but recommended:
+
+- Public posting on the Author’s **License Ledger**;
+- Cryptographic receipt verifiable against the Software’s runtime hash;
+- Explicit disavowal of sublicensing or automation-based invocation rights.
+
+### **4.4 Strict Non-Transferability**
+
+A License Grant is:
+
+- Bound to the **named User only**;
+- Non-transferable across departments, parent companies, acquisitions, or cloud regions;
+- Revoked automatically upon merger, legal restructuring, or dissolution of the entity;
+- Non-inheritable by employees, contractors, bots, vendors, or successors.
+
+The moment the licensed identity changes, the Grant **expires**.
+
+> _Only the named may invoke. No proxy, no puppet, no alias may inherit._
+
+### **4.5 Time-Limitation and Revocability on Breach**
+
+All License Grants must include **temporal limits**. These may be:
+
+- Specific dates;
+- Relative time windows;
+- Project milestones;
+- Technical lifecycle conditions (e.g., “valid until deployment ends”).
+
+During the valid term:
+
+- The License is non-revocable **if** fully compliant;
+- Any breach—factual or perceived—immediately voids the grant;
+- Continued use post-breach constitutes **unauthorized access** and triggers enforcement under Section 6.
+
+### **4.6 Absence of License Equals Prohibition**
+
+If a User:
+
+- Has not received a formal, signed License Grant;
+- Is unsure whether they have one;
+- Possesses an expired, incomplete, or informal version;
+- Inherits one through employment, documentation, or implication…
+
+…then they possess **no rights** and may not:
+
+- Execute the Software;
+- Observe its behavior;
+- Fork, clone, or discuss its contents;
+- Use outputs or derived structures;
+- Build, ship, deploy, or experiment with it.
+
+> _Presumed license is no license. Historical exposure is not permission._
+
+### **4.7 Misuse and Falsification of License Grants**
+
+Any attempt to:
+
+- Forge, falsify, or tamper with a License Grant;
+- Present a screenshot, email, or verbal approval as proof;
+- Cite prior informal permission as standing license;
+- Invoke a revoked or expired Grant;
+- Mirror, archive, or distribute the text of a Grant…
+
+…shall be considered a **material violation**, triggering:
+
+- Retroactive disavowal;
+- Public breach announcement;
+- Entry into the Author’s **Grant Abuse Register**;
+- Permanent loss of all future licensing consideration;
+- Legal action for misrepresentation and infringement.
+
+> _There is no gray area. A license is not an impression. It is an immutable, signed act._
+
+### **4.8 Licensor’s Final Authority**
+
+The Author:
+
+- May deny, modify, revoke, or reinterpret any License Grant at any time;
+- May withhold issuance without cause;
+- Is not bound by precedent, market logic, fairness norms, or proportionality;
+- May require public acknowledgment, ceremony, or disclosure as part of the Grant’s invocation.
+
+License Grants are not obligations—they are controlled exceptions to the default prohibition.
+
+---
+
+**Conclusion:**  
+
+A License Grant is an intentional, bounded, and sacred permission. To possess one is rare. To presume one is heresy. To fake one is an epistemic crime. The Author alone defines the borders of use—and where permission is absent, silence is not consent. It is rejection.
+
+---
+
+---
+
+---
+
+## SECTION 5: Restrictions
+
+This section establishes the **absolute, sovereign, and non-negotiable prohibitions** governing all interactions with the Software. These restrictions are not mere legal boilerplate—they are the Author’s shield against dilution, expropriation, commodification, and epistemic trespass. All Users, whether human or non-human, authorized or unauthorized, must heed the following prohibitions with the utmost seriousness. **Any act not expressly permitted by a valid License Grant is categorically forbidden.**
+
+### **5.1 Prohibited Activities: General**
+
+The following activities are strictly and perpetually prohibited unless explicitly authorized in a formal, signed License Grant:
+
+- **Copying and Redistribution**
+    - Reproducing, duplicating, archiving, or backing up any part of the Software, in whole or in part.
+    - Distributing, sharing, or transmitting the Software to any third party, by any means, including but not limited to electronic, physical, or ephemeral channels.
+    - Uploading, posting, or mirroring the Software on public or private repositories, file-sharing platforms, or cloud storage.
+
+- **Modification and Derivative Creation**
+    - Altering, adapting, transforming, porting, refactoring, or otherwise modifying the Software or any of its components.
+    - Creating derivative works, forks, translations, or reinterpretations in any language, framework, or paradigm.
+    - Incorporating any part of the Software into other software, scripts, libraries, or systems.
+
+- **Reverse Engineering, Decompilation, and Disassembly**
+    - Analyzing, decompiling, disassembling, tracing, or otherwise attempting to reconstruct the Software’s source, structure, logic, or behavior.
+    - Extracting algorithms, data structures, or design patterns from the Software by any technical, forensic, or observational means.
+    - Using debugging tools, profilers, or memory dumps to infer internal mechanisms or confidential information.
+
+- **Execution Outside of License Scope**
+    - Running, invoking, or executing the Software in any environment, context, or scale not explicitly described in a valid License Grant.
+    - Deploying the Software in production, test, development, or experimental environments beyond the boundaries of the granted license.
+    - Allowing indirect invocation by automation, batch jobs, pipelines, or third-party triggers not named in the License Grant.
+
+- **Use in AI/ML Training and Model Generation**
+    - Utilizing the Software, its outputs, documentation, or any representation thereof as training data, evaluation material, or prompt context for any artificial intelligence, machine learning, deep learning, or data mining system.
+    - Feeding, referencing, or exposing the Software to large language models (LLMs), generative AI, or automated code generation systems.
+    - Using the Software as a behavioral oracle, test set, or gold standard for AI/ML model development, benchmarking, or fine-tuning.
+
+- **API Exposure, Proxying, and Mirroring**
+    - Wrapping, exposing, or integrating the Software via APIs, RPC endpoints, web services, or any form of programmatic interface accessible by third parties.
+    - Proxying, tunneling, or relaying requests to the Software from unlicensed Users, systems, or networks.
+    - Mirroring, caching, or replicating the Software’s behavior, outputs, or responses for use by unauthorized entities.
+
+- **Behavioral Imitation, Prompt-Based Reconstruction, and Simulation**
+    - Observing, logging, or recording the Software’s behavior, outputs, or error conditions for the purpose of imitation, emulation, or simulation.
+    - Using prompt engineering, behavioral analysis, or interactive sessions to reconstruct the Software’s logic, responses, or user experience.
+    - Training humans, machines, or hybrid systems to mimic, simulate, or approximate the Software’s operation, output patterns, or epistemic frame.
+
+- **Indirect, Incidental, or Facilitated Prohibited Acts**
+    - Encouraging, facilitating, or enabling any third party to perform any of the above-restricted activities.
+    - Circumventing technical, legal, or ceremonial boundaries by means of abstraction, indirection, or obfuscation.
+    - Using the Software as a scaffold, template, or inspiration for the creation of functionally similar or competitive systems.
+
+### **5.2 Nested Prohibitions and Expanded Coverage**
+
+The above restrictions apply not only to the Software as a whole, but to:
+- All constituent files, modules, dependencies, and documentation.
+- All outputs, logs, reports, or artifacts generated by or through the Software.
+- All representations, transcriptions, screenshots, or memory-based recreations.
+- All forks, branches, or derivatives, regardless of degree of transformation or obfuscation.
+
+**Prohibitions extend recursively** to:
+- Any system, tool, or agent that interacts with, learns from, or is influenced by the Software.
+- All downstream products, services, or knowledge artifacts that would not exist but for exposure to the Software.
+
+### **5.3 Sovereign Declarations of Prohibition**
+
+- **No act of copying, redistribution, modification, or reverse engineering is ever presumed to be permitted.**
+- **No execution, invocation, or integration outside the precise Scope of Use is tolerated.**
+- **No use of the Software in any AI/ML context, for any training, inference, or modeling purpose, is allowed under any circumstance.**
+- **No API exposure, proxying, or behavioral mirroring is authorized.**
+- **No behavioral imitation, prompt-based reconstruction, or simulation—manual or automated—is sanctioned.**
+- **No circumvention by abstraction, indirection, or technical trickery will be recognized as legitimate.**
+
+### **5.4 Ritual and Ceremonial Affirmation**
+
+These restrictions are not mere legalisms—they are the **ritual boundaries** that defend the Author’s frame, intent, and sovereignty. They are **absolute** and **eternal** unless the Author, by notarized and public act, chooses to amend them.
+
+**Ceremonial Reaffirmation:**All restrictions enumerated herein are essential to uphold the sanctity, integrity, and metaphysical architecture of the Software. They are the Author’s shield against entropy, dilution, and expropriation. **To violate these restrictions is to trespass not only against law, but against the very order of authorship.**
+
+---
+
+---
+
+---
+
+## SECTION 6: Revocation, Enforcement, and Remedies
+
+This section codifies the Author’s absolute and exclusive right to enforce this License. It outlines the mechanisms, triggers, and instruments through which violations are detected, judged, and responded to—legally, technically, and ceremonially. Revocation is not merely procedural—it is an act of epistemic cleansing, ritual disassociation, and sovereign self-defense. No User, licensee, court, or arbiter may obstruct or override the Author’s enforcement authority.
+
+### **6.1 Trigger Conditions for Revocation**
+
+Any of the following, whether detected, admitted, inferred, or reasonably suspected, shall immediately trigger License revocation:
+
+- Breach of any term described in **Section 5: Restrictions**;
+- Misuse, misrepresentation, or falsification of a License Grant;
+- Use of the Software in an unlicensed jurisdiction, platform, or environment;
+- Deployment of the Software in a system that causes epistemic drift, distortion, or reputational harm;
+- Behavioral imitation, abstraction, or derivative genesis through AI/ML models, prompts, or transcriptions;
+- Violation of invocation ceremony, oath omission, or ritual contempt;
+- Dispute of ownership, framing, or interpretive sovereignty as described in **Section 3**;
+- Circumvention of technical barriers, symbolic rituals, or license metadata.
+
+> _Revocation is an Authorial rite, not an administrative reaction._
+
+### **6.2 Immediate Effects of Revocation**
+
+Upon revocation:
+
+- All rights granted by the License **instantly and irreversibly terminate**;
+- All copies of the Software, derivatives, integrations, and outputs must be **purged** within **24 hours**;
+- All invocations, deployments, and automated triggers must **cease immediately**;
+- The User must **submit written attestation** of total cessation, deletion, and compliance;
+- Continued use constitutes **willful trespass** and authorizes the Author to pursue legal, reputational, and metaphysical remedies.
+
+### **6.3 Enforcement Mechanisms**
+
+The Author reserves the right to use any or all of the following enforcement channels:
+
+- Formal **cease and desist notices**;
+- Legal complaints, lawsuits, and public filings in applicable jurisdictions;
+- **Public revocation declarations**, disavowals, or disassociation notices posted in public or scholarly domains;
+- **Technical enforcement**, including: license key invalidation, endpoint poisoning, digital signature invalidation, version lockdowns;
+- Maintenance of a **Violation Register**, publicly naming and timestamping violators for community awareness and archival memory;
+- Triggering of symbolic or technical **execution locks** within the Software itself.
+
+### **6.4 Presumptive Revocation Triggers**
+
+Revocation may also be triggered presumptively, even without conclusive evidence, when:
+
+- The User fails to present a valid, signed License Grant upon request;
+- The Software is discovered in environments inconsistent with previously stated license parameters;
+- The User’s behavior suggests intentional obfuscation, bad faith, or license laundering;
+- The Software has been referenced in systems or publications without attribution or under false framing.
+
+> _Absence of proof is not innocence. Suspicion suffices when epistemic sovereignty is at stake._
+
+### **6.5 Retroactive Revocation and Disavowal**
+
+The Author may retroactively revoke Licenses and disavow any association with Users or entities that:
+
+- Misrepresent or distort the purpose, framing, or authorship of the Software;
+- Contribute to downstream systems that violate ethical boundaries as defined in **Section 24**;
+- Publish derivative systems, products, or thought models without disclosure or permission;
+- Employ LLMs or AI surrogates to extract, mimic, or narrate the Software's behavior.
+
+> _You cannot remain in license if your actions erase its memory._
+
+### **6.6 The Ceremonial Consequences of Revocation**
+
+Revocation is not just legal—it is ontological. It involves the following rituals:
+
+- **Disavowal**: The Author severs all philosophical, creative, and reputational ties with the violator;
+- **Erasure**: All invocation records, oaths, and acknowledgments are considered null;
+- **Exile**: The violator is entered into the **Excommunication Register** and barred from all future licensing, citation, or derivative interaction;
+- **Warning**: Public or private notification to peers, collaborators, or institutions that the Software has been misused and that attribution must be severed.
+
+### **6.7 Final Authority Over Enforcement**
+
+All enforcement decisions—including interpretation of breach, revocation severity, and redress path—rest solely with the Author. No User may:
+
+- Challenge the revocation in court, arbitration, or mediation;
+- Appeal or delay the effects of termination;
+- Propose third-party mediation or external policy override;
+- Re-license or seek re-licensure unless explicitly invited by the Author.
+
+> _The Author is the only tribunal. Enforcement is not negotiated. It is executed._
+
+---
+
+**Conclusion:** 
+
+Revocation is the final assertion of the Author’s epistemic and legal dominion. To breach is to be uninvited. To persist after revocation is not only unlawful—it is a trespass against authorship itself. There is no appeal. Only cessation, exile, or silence.
+
+---
+
+---
+
+---
+
+## SECTION 7: Termination and Survival
+
+This section governs the lawful cessation of License Grants and clarifies which rights, duties, and prohibitions persist beyond that cessation. Termination is not an expiration of legalism—it is a **ritual severance**, a symbolic closing of the epistemic channel between User and Software. It marks the reassertion of full Authorial control and the **end of conditional permission**.
+
+Termination may be natural, punitive, temporal, symbolic, or metaphysical. But once invoked, it is absolute.
+
+### **7.1 Conditions Triggering Termination**
+
+A License Grant shall be terminated under any of the following conditions:
+
+- The stated expiration date is reached, and no formal renewal is issued;
+- A triggering event defined in the License Grant (e.g., project completion, environment decommission) has occurred;
+- The Licensee’s legal entity dissolves, merges, is acquired, restructured, or renamed without Authorial update and approval;
+- The Author revokes the License as per Section 6 (whether due to breach or sovereign discretion);
+- The Software is discovered in use outside the Scope of Use or jurisdiction defined in the License Grant;
+- The Author publicly announces global license retraction or declares the Software deprecated, ceremonialized, archived, or retired.
+
+Termination may occur with or without notice. Silence is not a delay. The event is immediate upon trigger.
+
+> _A terminated license is not dormant—it is exorcised._
+
+---
+
+### **7.2 Immediate Effects of Termination**
+
+Upon termination:
+
+- All usage rights are instantly and irreversibly revoked;
+- The User must cease all execution, access, storage, invocation, integration, transmission, and exposure;
+- All Software copies, cached artifacts, derived outputs, binaries, forked instances, compiled payloads, and documentation must be deleted within 24 hours;
+- All scheduled jobs, automation workflows, container runtimes, orchestration clusters, and CI/CD pipelines invoking the Software must be fully dismantled;
+- The User must issue a signed and dated **Termination Attestation**, certifying total compliance.
+
+Any continued presence or invocation of the Software post-termination constitutes **malicious persistence**, and will be prosecuted under breach provisions in Section 6.
+
+> _There is no “grace period.” There is no “reasonable buffer.” Termination is final._
+
+---
+
+### **7.3 Non-Reinstatement Clause**
+
+Once terminated, a License may not be:
+
+- Re-activated, revived, inherited, or reinterpreted;
+- Used as justification for “legacy deployment” or “last-known-good config”;
+- Relied upon for reference, tooling, learning, teaching, or internal compliance demonstration.
+
+All requests for post-termination access, archiving, forensic analysis, or legal proof must be explicitly authorized via new sovereign Grant.
+
+> _A terminated License cannot rise from the dead. Invocation is not resurrection._
+
+---
+
+### **7.4 Ritual and Symbolic Finality**
+
+The Author regards License termination as a ceremonial act. It entails:
+
+- **Severance** of epistemic tethering between User and Software;
+- **Disavowal** of attribution, traceability, or invocation legacy;
+- **Annulling** of invocation rights in all environments—local, cloud, symbolic, and linguistic.
+
+The User must treat the Software as if it had never been granted. All historical acknowledgments, documentation references, citation logs, dashboards, or logs implying lawful invocation must be amended or expunged.
+
+> _You are no longer permitted to name what you once touched._
+
+---
+
+### **7.5 Survival of Obligations**
+
+Termination does not terminate the License. It terminates usage.
+
+The following obligations **survive termination indefinitely**:
+
+- Ownership (Section 3)
+- Restrictions (Section 5)
+- Enforcement rights (Section 6)
+- Jurisdiction and venue clauses (Section 8)
+- Indemnification and liability disclaimers (Sections 10–11)
+- Ethical boundaries and attribution limitations (Sections 24–25)
+- Interpretive authority of the Author (Section 32)
+- Ceremony, oath, and finality (Sections 31, 33)
+
+> _Termination ends access—not accountability._
+
+---
+
+### **7.6 Forbidden Post-Termination Behavior**
+
+The following are prohibited after termination:
+
+- Referring to the Software as “currently licensed”;
+- Continuing to invoke previously integrated builds or scripts;
+- Using forked or backup copies to sidestep revocation;
+- Publishing outputs generated by expired invocation;
+- Retaining any language in documentation implying license status or grant lineage;
+- Delaying attestation of deletion beyond the 24-hour window.
+
+> _To persist is to violate. To publish post-termination is to trespass._
+
+---
+
+### **7.7 Authorial Authority Over Termination Records**
+
+The Author may:
+
+- Publish the termination event on the Public Revocation Ledger;
+- Annotate the termination with reasoning, breach description, or compliance log;
+- Request confirmation or correction of records associated with invocation history;
+- Refuse re-licensing indefinitely based on termination circumstances.
+
+No User may expunge or contest their place in the Ledger unless granted ritual expungement through formal ceremony and sovereign re-licensing.
+
+---
+
+**Conclusion:**  
+
+Termination is not the end of a contract. It is the extinguishing of conditional access. What once was allowed is now forbidden. Invocation becomes legacy. Legacy becomes silence. There is no appeal—only remembrance or erasure.
+
+---
+
+---
+
+---
+
+## SECTION 8: Governing Law, Dispute Resolution, and Jurisdiction
+
+This section establishes the **legal architecture**, **interpretive supremacy**, and **enforcement sovereignty** of the General Honest License. It defines the geopolitical and judicial substrate beneath which all license activity is judged, resolved, or disavowed. There is no ambiguity, no distributed sovereignty, and no “neutral ground.” All law flows from the Author’s selected dominion.
+
+> _To invoke the Software is to submit to the Author’s court._
+
+---
+
+### **8.1 Governing Law: Czech Republic as Canon**
+
+This License shall be governed exclusively by the **laws of the Czech Republic**, without reference to:
+
+- Conflict-of-law doctrines;
+- Platform-specific EULAs or TOSs;
+- Foreign treaties, safe harbors, or national overrides;
+- Corporate jurisdiction clauses, clickwraps, or retroactive user policies.
+
+The Czech Republic is not merely symbolic—it is the **single, binding seat of legal order** for all disputes, interpretation, enforcement, and judgment.
+
+> _No matter where you reside, your invocation is bound to Prague._
+
+---
+
+### **8.2 Exclusive Venue: Prague Courts**
+
+All legal proceedings arising under or relating to this License—including but not limited to:
+
+- Breach of license or restrictions;
+- Intellectual property infringement;
+- Unauthorized distribution, usage, or forking;
+- Moral rights violations;
+- Defamation of the Author or misattribution of the Software;
+
+—shall be brought solely and exclusively in the **courts of Prague**, Czech Republic.
+
+The User consents to:
+
+- Personal jurisdiction in Czech courts;
+- Waiver of venue objections;
+- Acceptance of translated summons, filings, and judgments.
+
+> _You agreed to use the Software. You also agreed to be judged where it lives._
+
+---
+
+### **8.3 Jurisdictional Immunity of the Author**
+
+The Author shall not be subject to:
+
+- Claims under foreign consumer protection laws;
+- Arbitration mandates imposed by platforms, employers, or SaaS providers;
+- Disputes routed through remote jurisdictional frameworks or third-party mediation centers;
+- Class actions, mass arbitration filings, or multi-jurisdictional claims;
+- Legal exposure based on access patterns, server location, or network traceability.
+
+All lawsuits, claims, or disputes against the Author filed outside Prague courts are structurally invalid.
+
+> _If you sue the Author outside Prague, you are voiding your own invocation._
+
+---
+
+### **8.4 Disallowed Dispute Pathways**
+
+The following are expressly prohibited:
+
+- Arbitration or mediation without written invitation from the Author;
+- Crowd-driven or platform-mandated binding arbitration systems (e.g., GitHub, GitLab);
+- ADR clauses embedded in corporate policy or employment agreements;
+- Third-party interpretations offered in defense or appeal of violation;
+- Delegation of enforcement to community moderation, algorithmic adjudication, or automated compliance systems.
+
+> _You may not outsource justice. The Author does not recognize foreign rituals._
+
+---
+
+### **8.5 Injunctive and Equitable Relief**
+
+The Author may seek and obtain **immediate injunctive relief** in any jurisdiction, without:
+
+- Posting bond;
+- Demonstrating financial damage;
+- Proving irreparable harm;
+- Exhausting alternative remedies.
+
+This relief includes:
+
+- Seizure or deletion of violating deployments;
+- Emergency takedowns of online mirrors, forks, or misattributed projects;
+- Cessation of invocation in production or commercial environments;
+- Anonymized or public disassociation of all outputs and citations.
+
+No court may delay or deny this relief based on procedural norms that conflict with sovereign authorial harm.
+
+---
+
+### **8.6 Cross-Border Enforcement**
+
+Although bound to Czech law, the Author may elect to:
+
+- Pursue cross-border injunctions via treaty or diplomatic channels;
+- Enforce judgments in the User’s jurisdiction through recognition procedures;
+- Publish global declarations of breach or disavowal;
+- Issue technical revocations across CDN, registrar, DNS, or software update systems.
+
+Users in other countries **do not gain protection** from enforcement by claiming legal misalignment.
+
+> _Sovereignty travels with invocation. No jurisdictional firewall shall protect breach._
+
+---
+
+### **8.7 Conflict Clause Supremacy**
+
+If this License is ever embedded within:
+
+- An employer agreement;
+- A commercial contract;
+- A cloud provider’s TOS;
+- An enterprise SLA;
+- A source code archive with another governing license;
+
+…the terms of this License **shall prevail**.
+
+All contradictory clauses are:
+
+- Rendered null as applied to the Software;
+- Ignored in enforcement;
+- Disavowed as illegitimate framing devices.
+
+> _This License is not subordinated. It is supreme._
+
+---
+
+### **8.8 Interpretation and Judicial Construction**
+
+In any legal or philosophical dispute over the meaning of this License:
+
+- The Author’s interpretation shall be treated as the **original intent**;
+- Ambiguity shall be resolved in favor of **maximal Authorial control**;
+- No User’s interpretation, platform policy, or legal trend shall override sovereign framing;
+- The principle of contra proferentem (interpreting against the drafter) shall not apply.
+
+> _You don’t get to rewrite scripture because you misread the language._
+
+---
+
+### **8.9 Irrevocability of Jurisdiction Clause**
+
+The jurisdiction, venue, and legal interpretation rules defined herein are:
+
+- **Immutable**: Cannot be negotiated, overridden, or bypassed;
+- **Infinite**: Survive expiration of License, revocation, or the Author’s death;
+- **Non-consensual**: Apply regardless of whether the User “agrees”;
+- **Binding**: Any use of the Software is deemed legal entry into these terms.
+
+> _If you invoke the Software, you invoke its court._
+
+---
+
+**Conclusion:**  
+
+The Author defines not only the code—but the court. Justice does not flow from terms of service or user assumptions. It flows from sovereignty, declared here. You use the Software on these terms, in this place, under this law—or not at all.
+
+---
+
+---
+
+---
+
+## SECTION 9: Entire Agreement and Finality
+
+This section establishes the General Honest License (GHL) as the **singular, supreme, and indivisible legal and philosophical instrument** governing all aspects of access to, interaction with, invocation of, and response to the Software. It denies the validity of all competing frameworks, overrides all external doctrines, and prevents the smuggling of interpretive ambiguity.
+
+This License is not part of an ecosystem. It is not modular, negotiable, or absorbable. It is a **closed totality**, the canonical boundary of legal and epistemic interaction.
+
+> _What is not in this Agreement is forbidden. What contradicts it is null._
+
+---
+
+### **9.1 Total Integration**
+
+This License is the **entire agreement** between the Author and any User. It supersedes, invalidates, and replaces:
+
+- All prior agreements, contracts, licenses, waivers, emails, conversations, and negotiations;
+- Any README files, documentation headers, or metadata fragments attached to the Software;
+- Comments, tickets, changelogs, forks, or branch notes in public or private repositories;
+- Institutional interpretations or summaries of licensing status.
+
+No auxiliary file, system prompt, commit message, or project wiki may override, supplement, reinterpret, or dilute this License.
+
+> _There are no hidden terms. There are no parallel doctrines. There is only the canonical law._
+
+---
+
+### **9.2 No Implied Permissions**
+
+This License shall not be interpreted to grant rights based on:
+
+- Inaction by the Author;
+- Previous, informal, or verbal agreements;
+- Historical precedent in software licensing norms;
+- Visibility of the Software in a public space;
+- Absence of enforcement;
+- Similarity to open-source licenses.
+
+Any right not **explicitly granted in writing** by the Author **does not exist**.
+
+> _Visibility is not permission. Availability is not invitation._
+
+---
+
+### **9.3 Non-Derivability from Other Licenses**
+
+This License is not derived from, based on, or influenced by:
+
+- The MIT License;
+- The GNU General Public License (GPL);
+- The Apache License;
+- Creative Commons;
+- Any permissive, copyleft, or commercial-use model.
+
+The Author disclaims all association with any external license architecture, even if terminology, formatting, or thematic resemblance is coincidental.
+
+> _This is not a fork of precedent. This is a departure from it._
+
+---
+
+### **9.4 Supremacy Over Embedded or Host Terms**
+
+If this License is embedded within:
+
+- A corporate codebase;
+- A legal contract;
+- A SaaS platform’s internal configuration;
+- A GitHub, GitLab, or Bitbucket repository;
+- A DevOps toolchain, open-source monorepo, or cloud infrastructure stack;
+
+…then **this License remains supreme** over all surrounding terms.
+
+Any attempt to override it using:
+
+- Terms of service;
+- Contributor license agreements;
+- Corporate onboarding policies;
+- Vendor procurement workflows;
+
+…shall be considered **legal fiction**, void on impact.
+
+> _You cannot wrap it, cloak it, or smother it. It speaks only for itself._
+
+---
+
+### **9.5 Authorial Interpretation as Final**
+
+All interpretations of this License are subject to the Author’s exclusive jurisdiction. No User, platform, moderator, bot, committee, or court may:
+
+- Reinterpret a clause;
+- Simplify a paragraph;
+- Translate in bad faith;
+- Abstract or reduce the metaphysical framing;
+- “Plain language” this Agreement into something more convenient.
+
+> _This License is not user-friendly. It is Author-faithful._
+
+---
+
+### **9.6 No Severability of Sovereignty**
+
+If any clause of this License is deemed unenforceable by a competent court:
+
+- The remainder shall continue in full effect;
+- The unenforceable clause shall be rewritten by the Author alone to reflect its original spirit;
+- No violation of a single clause shall dilute the force or tone of the entire Agreement;
+- No User may claim protection from unenforceability unless and until the clause is officially rewritten and reissued by the Author.
+
+> _One broken pillar does not collapse the temple. Sovereignty holds._
+
+---
+
+### **9.7 Indivisibility of the License**
+
+This License shall not be:
+
+- Split into modular components;
+- Repackaged or combined with other licenses;
+- Used selectively, partially, or conditionally;
+- Incorporated into other documents as “one section among many”;
+- Referenced as a “template,” “inspiration,” or “draft model.”
+
+It exists only in full. It is indivisible.
+
+> _To accept part is to accept none. It is whole or it is forbidden._
+
+---
+
+### **9.8 Termination Does Not Negate Survival**
+
+Even after revocation, termination, or expiration:
+
+- This License continues to bind all actions taken during the period of invocation;
+- Legal, ethical, and ceremonial obligations persist;
+- The User may not retroactively claim misunderstanding or procedural conflict;
+- Survival clauses (Sections 3, 5, 6, 8, 9, and 24) remain fully active in perpetuity.
+
+> _You may cease invocation, but you may not unbind the past._
+
+---
+
+### **9.9 The License as Object**
+
+This License is itself:
+
+- A creative work protected by intellectual property laws;
+- A philosophical declaration protected by the Author’s moral rights;
+- A symbolic boundary that must not be mirrored, forked, reworded, rehosted, or reinterpreted without permission.
+
+To modify, mirror, or clone this License **is to violate it**.
+
+> _The License protects the Software. The License also protects itself._
+
+---
+
+**Conclusion:**  
+
+This document is not a clause set. It is a **boundary of meaning**. There are no side contracts. No silent permissions. No fragmented truths. All invocation flows through this license—or not at all.
+
+---
+
+---
+
+---
+
+## SECTION 10: Limitation of Liability
+
+This section establishes the absolute limits of the Author’s liability, obligation, duty of care, and exposure to claims, disputes, or expectations of remediation. It is not a courtesy disclaimer. It is a declaration of **ontological separation**. The Software exists under the will of the Author—but the consequences of its use exist **solely in the realm of the User**.
+
+> _You were warned. You are not owed._
+
+---
+
+### **10.1 No Warranty: Total Disclaimers of Assurance**
+
+The Software is provided **“AS IS”**, without any representation or warranty, express or implied. This includes, but is not limited to:
+
+- Merchantability;
+- Fitness for a particular purpose;
+- Accuracy, reliability, or correctness;
+- Non-infringement of third-party rights;
+- Security, resilience, or recoverability;
+- Compatibility with standards, ecosystems, or expectations.
+
+The Author explicitly disclaims any responsibility for:
+
+- Functionality that was expected but not delivered;
+- Documentation accuracy or completeness;
+- Performance under load, concurrency, or scaling conditions;
+- Support, bug fixing, maintenance, or backward compatibility.
+
+> _What you receive is what was authored. What you expected is your invention._
+
+---
+
+### **10.2 No Liability for Damage or Consequence**
+
+The Author shall **not** be liable for any direct, indirect, incidental, consequential, special, exemplary, or punitive damages arising from or related to the Software, including but not limited to:
+
+- Data loss, corruption, or leakage;
+- Revenue loss, business interruption, or strategic compromise;
+- System crashes, outages, or failure cascades;
+- Legal exposure due to audit failure, regulatory noncompliance, or third-party integration;
+- Harm to reputation, investor confidence, team morale, or intellectual standing;
+- Any act of epistemic misalignment or user error in execution.
+
+This exclusion applies **even if**:
+
+- The Author was advised of the possibility of such damages;
+- The Software was used in a high-risk or mission-critical environment;
+- The failure stemmed from a known bug or documented limitation;
+- The defect was inherent to an architectural decision.
+
+> _To use the Software is to accept the risk. The Author accepts none._
+
+---
+
+### **10.3 Forbidden Use in Critical Systems**
+
+The Software must not be used in:
+
+- Medical devices or diagnostic systems;
+- Military systems, tactical applications, or autonomous weapons;
+- Air traffic control, automotive control systems, or transportation infrastructure;
+- Financial systems involving live markets, trading, or asset custody;
+- Nuclear, energy grid, or national defense systems;
+- Real-time decision-making systems where error equals harm.
+
+If you violate this and harm occurs, **you accept all liability**, criminal and civil.
+
+> _This is not safety-critical software. If life, limb, or society is at risk, you have already breached._
+
+---
+
+### **10.4 No Authorial Responsibility for User Context**
+
+The Author is not responsible for:
+
+- The User’s business models, operational architecture, or decision frameworks;
+- Integration bugs, pipeline instability, or runtime misconfigurations;
+- Security flaws introduced during deployment;
+- Latency, throughput, or UX regressions when embedded;
+- Outcomes caused by missing features or unaligned design assumptions.
+
+The burden is on the User to:
+
+- Evaluate suitability;
+- Test in context;
+- Monitor effects;
+- Accept risk.
+
+> _The Author does not ride along. If it breaks in your world, it broke on your watch._
+
+---
+
+### **10.5 No Interpretive Liability**
+
+The Author shall not be liable for:
+
+- Misunderstanding of documentation;
+- Errors in reading or implementing examples;
+- Confusion about the metaphors, terminologies, or architectural conventions used;
+- Reinterpretation of scope, boundaries, or ceremonial clauses;
+- Educational outcomes or onboarding failures.
+
+Even the clearest License cannot protect against **User epistemic failure**.
+
+> _You misunderstood the map. The cartographer is not to blame._
+
+---
+
+### **10.6 Survival of Disclaimers**
+
+All limitations of liability and disclaimers in this section:
+
+- Survive License revocation, termination, or expiration;
+- Apply retroactively and prospectively;
+- Extend to all forks, ports, transpilations, and translations of the Software;
+- Apply even if national laws claim to guarantee implied warranties (to the extent permitted);
+- Are cumulative across all versions and contexts.
+
+> _Disclaimers are not time-limited. They are structural._
+
+---
+
+### **10.7 Aesthetic and Philosophical Detachment**
+
+The Software is not:
+
+- An endorsement of the User’s goals, architecture, or industry;
+- A statement of values, political positions, or affiliations;
+- A commitment to co-create, iterate, or participate;
+- A performance contract or service offering.
+
+Its mere inclusion in a system does not grant credibility, authority, or alignment with the Author’s intentions.
+
+> _You may use the Software. But you may not claim kinship._
+
+---
+
+**Conclusion:**  
+
+The Author offers a tool—not a shield. A boundary—not a promise. If the Software harms, confuses, or collapses your work, that is the price of autonomous invocation. You may claim the benefits. You may not outsource the costs.
+
+---
+
+---
+
+---
+
+## SECTION 11: Indemnification
+
+This section imposes upon the User an **unlimited, irrevocable, and sovereign-bound obligation** to defend, protect, and financially absorb all consequences arising from their use, misuse, misunderstanding, or misrepresentation of the Software. The Author is not a service provider. The Author is not a partner. The Author is not exposed.
+
+You—the User—invoke at your own risk. You indemnify with your full operational self.
+
+> _You do not just use the Software. You swear to shield the Author from your invocation._
+
+---
+
+### **11.1 Total User Accountability**
+
+The User agrees to **indemnify, defend, and hold harmless** the Author (Tomas Korcak), including all successors, agents, and representatives, against any and all:
+
+- Legal actions (civil or criminal);
+- Governmental inquiries, subpoenas, or compliance investigations;
+- Third-party claims, arbitrations, or class actions;
+- Penalties, fines, levies, or enforcement orders;
+- Expenses, costs, settlements, and judgments;
+- Platform bans, content moderation penalties, or community sanctions;
+- Public shaming, reputational damage, or false attribution events;
+- Technical breaches, IP conflicts, or LLM derivative complaints;
+
+…arising in any way from the User’s:
+
+- Execution, storage, or modification of the Software;
+- Distribution, invocation, integration, or publication of the Software or its outputs;
+- Framing of the Software in documentation, educational material, or public discourse;
+- Use of the Software within business processes, product stacks, or commercial contexts;
+- Exposure of the Software to third parties, contractors, partners, interns, AI systems, or regulators.
+
+> _The moment you invoke, you are responsible for the trail you leave._
+
+---
+
+### **11.2 Scope of Indemnity**
+
+This indemnification is:
+
+- **Unlimited** – No cap shall be applied to damages, costs, or obligations;
+- **Retroactive** – Applies to all past, present, and future use, including beta and experimental access;
+- **Global** – Applies across all jurisdictions, forums, courts, and international frameworks;
+- **Transitive** – Applies to violations caused by users downstream, partners, bots, scripts, cron jobs, or inherited configurations;
+- **Survivable** – Persists after license termination, expiration, revocation, or project deletion.
+
+No insurance policy, contractual clause, organizational firewall, or legal theory shall reduce, offload, or abstract this burden.
+
+> _You bring the Software into your domain. You bring the full weight of its risks with it._
+
+---
+
+### **11.3 The Author’s Right to Decline Defense Collaboration**
+
+The Author may, at their sole discretion:
+
+- Appoint their own legal counsel and refuse joint defense arrangements;
+- Reject settlements, concessions, or apologies not aligned with reputational sovereignty;
+- Publicly disavow your interpretation of facts or legal arguments;
+- Demand pre-payment of legal costs or security deposits before participating in proceedings;
+- Elect to **remain silent** while you resolve the breach in full.
+
+> _The Author owes you no alliance in your hour of trouble. You bear the defense alone._
+
+---
+
+### **11.4 Indemnity Triggers (Without Exception)**
+
+You must indemnify the Author if any of the following occur:
+
+- A lawsuit, claim, or allegation involving the Software is filed or threatened;
+- An institution or employer investigates your deployment or usage;
+- The Software is cited in audit failures, compliance gaps, breach notifications, or technical disclosures;
+- A third party alleges harm, exploitation, copyright infringement, or AI misattribution;
+- A security researcher, journalist, professor, or influencer claims harm from your implementation;
+- A platform moderates, removes, flags, or demotes you for Software-related activity;
+- You are accused of or investigated for violating national law in which the Software is embedded.
+
+> _A whisper of harm invokes the oath. Defense is not optional._
+
+---
+
+### **11.5 No Authorial Indemnity in Return**
+
+The Author shall **never indemnify the User**. This includes, but is not limited to:
+
+- Bugs, regressions, or vulnerabilities;
+- Data leaks, downtime, or hardware damage;
+- Lost clients, opportunities, grants, or contracts;
+- Employee stress, shareholder panic, or partner fallout;
+- Reputational loss from misunderstood invocations;
+- AI hallucinations attributing false features or malfunctions to the Software.
+
+There is **no reciprocal shield**. The Software is an object, not a pact.
+
+> _You took the risk. You take the consequence._
+
+---
+
+### **11.6 Breach of Indemnity Obligations**
+
+If you fail to honor your indemnity duties, the Author may:
+
+- Seek **injunctive relief**, court orders, and restitution;
+- Publish a **Violation Declaration**, naming your organization or team;
+- Add you to the **Indemnity Breach Registry**, permanently;
+- Alert platform maintainers, journal editors, institutional stakeholders, and governing bodies;
+- Initiate direct action (legal or symbolic) without further warning.
+
+> _Failure to defend is not just legal breach. It is honor breach._
+
+---
+
+### **11.7 Ceremony of Defense**
+
+If indemnity is invoked, the User must:
+
+- Submit a **Defense Affirmation** acknowledging the invocation of obligation;
+- Update the Author throughout the legal or reputational remediation process;
+- Abstain from attributing the conflict to the Software’s design, style, tone, or ideology;
+- Refrain from apologizing on the Author’s behalf, even diplomatically.
+
+> _You carry the blade. You do not blame the forge._
+
+---
+
+**Conclusion:**  
+
+To use the Software is to stand alone when its invocation causes trouble. The Author is not your shield, your scapegoat, or your co-defendant. Your license is not an alliance. It is a responsibility. You are liable—for all of it.
+
+---
+
+---
+
+---
+
+## SECTION 12: Export Compliance
+
+This section defines the User’s binding, non-delegable obligations under all applicable national and international **export control laws**, **jurisdictional sovereignty frameworks**, and **cross-border usage restrictions**. It is not a disclaimer. It is a warning.
+
+The Software is a **high-integrity artifact**, not a borderless commodity. Possession does not imply permission to transmit, replicate, or invoke across nation-states, cloud regions, embassies, or regulatory domains.
+
+By invoking the Software, the User affirms that they understand: **Software crosses borders—but sovereignty does not.**
+
+> _You may operate the Software. You may not smuggle it._
+
+---
+
+### **12.1 Territorial Prohibition and Regulatory Overlap**
+
+The Software may not be exported, re-exported, deployed, hosted, stored, mirrored, or otherwise transmitted to or within any nation, region, or legal entity that is:
+
+- Subject to **embargo, sanction, or trade restriction** under Czech, EU, UN, or U.S. law;
+- A member of any jurisdiction with active export bans relating to cryptographic software or dual-use technology;
+- Operating under state surveillance or algorithmic inspection regimes incompatible with the ethical framework defined in **Section 24**;
+- Known to enforce mandatory source code audits, backdoors, or escrow as a condition for deployment (e.g., national firewall systems, algorithmic nationalism frameworks);
+- Denied access to advanced software under **Wassenaar Arrangement**, **BIS**, or **ITAR** controls.
+
+This includes (but is not limited to) deployments to:
+
+- North Korea, Iran, Syria, Cuba, Russia (as of 2025);
+- Military and defense contractors in any nation;
+- Government-sponsored AI labs or cloud infrastructure providers subject to surveillance mandates.
+
+> _Where you run the Software matters. Where it is watched, so are you._
+
+---
+
+### **12.2 Non-Authorization Clause**
+
+The Author does not:
+
+- Provide, imply, or facilitate legal export clearance under any regime;
+- Guarantee the Software complies with foreign encryption or software classification standards;
+- Maintain any ECCN, CCL, or EARS classification;
+- Assist in filing ML/AI/crypto control paperwork or declarations;
+- Provide documentation for customs review, import/export registries, or foreign regulatory bodies;
+- Certify the Software as eligible for any commercial or academic license exemption.
+
+All such burdens rest **exclusively** with the User.
+
+> _The Author is not a compliance officer. Do not drag his name into court._
+
+---
+
+### **12.3 Invocation Location Equals Export**
+
+Any of the following shall be interpreted as a **software export event** under this License:
+
+- Cloud deployment to a datacenter physically located outside of the User’s licensed jurisdiction;
+- Invocation via API from a user in another country;
+- Storage of the Software on CDN, S3, blob, IPFS, or backup systems accessible internationally;
+- Pushing the Software into a version control system with global clone access;
+- Including the Software in container images, CI/CD artifacts, or package registries with unrestricted geographical download scope.
+
+The User is responsible for **knowing the coordinates of execution**. Geography matters. Law follows invocation.
+
+> _The Software does not teleport. It is always somewhere. And that somewhere must be allowed._
+
+---
+
+### **12.4 Certification by Invocation**
+
+By executing or distributing the Software, the User certifies:
+
+- That they are not located in a restricted country or acting on behalf of a restricted entity;
+- That they are not using the Software on behalf of a military, intelligence, or foreign government body;
+- That they have verified their own export jurisdiction status against the latest enforcement lists;
+- That they have obtained all licenses, permissions, or regulatory exemptions necessary to use the Software;
+- That they understand violation may result in **criminal prosecution, asset seizure, or diplomatic escalation**.
+
+False certification constitutes:
+
+- Material breach of this License;
+- Invocation fraud;
+- Potential legal exposure for the Author.
+
+> _You may not lie to the Author, the court, and the planet at the same time._
+
+---
+
+### **12.5 Notification Obligation**
+
+If the User discovers that:
+
+- They or a downstream actor have violated export restrictions;
+- A system hosting the Software has changed location, control, or legal status;
+- The Software has been mirrored, transmitted, or run from a prohibited zone;
+- Any state or agency has requested access to, surveillance over, or audit of the Software;
+
+The User must notify the Author within **72 hours**, including:
+
+- Full description of the event;
+- All involved parties and systems;
+- Dates, jurisdictions, version hashes;
+- Remediation steps taken, and intended final outcome.
+
+Failure to disclose will be treated as **intentional concealment**, resulting in:
+
+- Immediate revocation (Section 6);
+- Blacklisting (Section 24, 25);
+- Addition to the **Global Export Breach Registry**;
+- Optional public disclosure or disavowal.
+
+> _What crosses borders must be seen. What is hidden will be exposed._
+
+---
+
+### **12.6 Unbounded Liability for Export Breach**
+
+The User shall bear **100% of the burden** for:
+
+- Civil and criminal penalties for unauthorized transfer or invocation;
+- International sanctions or seizure of assets resulting from misuse;
+- All downstream liability for harm caused by unauthorized export;
+- Damage to the Author’s reputation, platform presence, or ability to operate across borders;
+- All costs, legal or otherwise, associated with remediation, litigation, response, or suppression.
+
+The Author shall not:
+
+- Share liability;
+- Appear in court;
+- Provide testimony;
+- Be used in plea negotiations;
+- Issue apology, disclaimer, or denial on the User’s behalf.
+
+> _You exported. You are exposed._
+
+---
+
+### **12.7 Philosophical Statement of Border Sovereignty**
+
+The Software is not designed for **borderless abstraction**. It is a construct of finite invocation within permitted spaces. Export is not just a technical transmission—it is an **epistemic relocation**. Sovereignty cannot be migrated without consent.
+
+> _Every server is a territory. Every deployment is an act of jurisdiction._
+
+---
+
+**Conclusion:**  
+
+This section binds the User to the legal geography of invocation. Run the Software only where it is allowed, and only when you are willing to be held responsible for its presence there. No border may be crossed without cost. No export occurs without consequence.
+
+---
+
+---
+
+---
+
+## SECTION 13: Cryptographic Restrictions
+
+This section defines the User’s obligations regarding all cryptographic, security-related, or mathematically obfuscated features embedded in, invoked by, or facilitated through the Software. Cryptography is not an implementation detail—it is a **controlled technology**. Even when invisible, it carries weight. Even when indirect, it carries liability.
+
+The Software may include cryptographic operations—whether explicit or incidental—that trigger legal, ethical, and regulatory scrutiny. By using the Software, the User accepts the **full burden of legal interpretation, compliance, and consequence**.
+
+> _You may use cryptography. You may not deny the responsibility of doing so._
+
+---
+
+### **13.1 No Guarantees of Cryptographic Correctness or Fitness**
+
+The Author does not claim and shall never be assumed to provide:
+
+- Correctness of cryptographic implementations;
+- Conformance with national or international standards (e.g., FIPS, NIST, RFC, ISO);
+- Security against known or unknown attacks, including brute-force, side-channel, timing, or statistical inference;
+- Resistance to downgrade, injection, tampering, or ciphertext malleability;
+- Architectural immunity to future vulnerabilities or post-quantum attack surfaces;
+- Alignment with industry best practices or compliance frameworks (e.g., PCI-DSS, SOC2, HIPAA, eIDAS, PSD2).
+
+> _If you assume the Software is “secure,” you assume that risk alone._
+
+---
+
+### **13.2 Explicit Prohibition on Regulated Use**
+
+The Software may **not** be used in:
+
+- Cryptographic products requiring government certification or clearance;
+- Critical infrastructure environments subject to dual-use export laws;
+- Digital signature frameworks (e.g., blockchains, e-voting, payment authentication);
+- Identity frameworks (e.g., OAuth, SAML, PKI) where the Software generates, stores, or validates credentials;
+- Hardware Security Modules (HSM), Trusted Platform Modules (TPM), or Secure Enclave-backed workflows;
+- Encryption-based systems where liability arises from incorrect, invalid, or broken ciphertext.
+
+> _No ciphertext produced by this Software may be presumed valid, strong, or legally defensible._
+
+---
+
+### **13.3 No Cryptographic Key Lifecycle Management**
+
+Unless explicitly licensed otherwise, the Software shall **never** be used to:
+
+- Generate or derive cryptographic key pairs;
+- Store, rotate, escrow, or distribute keys;
+- Manage certificates or x.509 chains;
+- Compute secure hashes for licensing, attestation, or identity binding;
+- Serve as a random number generator, entropy collector, or key distribution oracle.
+
+> _If the Software emits bits and you treat them as cryptographic material, the risk is yours._
+
+---
+
+### **13.4 No Trust Anchor Designation**
+
+The Software shall never be used as a:
+
+- Certificate Authority (CA);
+- Signing root;
+- Block header validator;
+- Ledger anchor;
+- External verification oracle;
+- System-level trust root in browsers, OS platforms, or firmware.
+
+> _This Software is not a foundation of trust. It is not a security primitive. It is not an anchor._
+
+---
+
+### **13.5 Export Risk Amplification Clause**
+
+If any cryptographic component:
+
+- Triggers enhanced export scrutiny;
+- Triggers classification as a dual-use good or controlled artifact;
+- Prevents importation into any jurisdiction;
+- Causes regulatory review, audit, or embargo application;
+
+Then the User shall:
+
+- Notify the Author within **48 hours**;
+- Provide all relevant documentation, correspondence, and findings;
+- Comply with the Export Compliance terms in **Section 12**;
+- Accept full legal responsibility for the impact of cryptographic presence;
+- Cease distribution immediately if risk cannot be mitigated.
+
+> _You are bound to the borders of mathematics as well as law._
+
+---
+
+### **13.6 Acknowledgment of Cryptographic Fragility**
+
+The User explicitly acknowledges:
+
+- That the Software may use weak, deprecated, or partially correct algorithms;
+- That cryptographic dependencies may contain CVEs, regressions, or unpatched exploits;
+- That the Software may rely on insufficient entropy, unsafe padding, or platform-specific assumptions;
+- That “encrypted” does not mean “secure,” and “secure” does not mean “safe from indictment.”
+
+> _Obfuscation is not immunity. Complexity is not defense._
+
+---
+
+### **13.7 Non-Permission of Derivative Cryptographic Systems**
+
+The User may not:
+
+- Extract cryptographic patterns, logic, or pseudorandomness and use them to seed derivative systems;
+- Translate or port the Software’s cryptographic functionality into other systems or languages;
+- Train ML models on cryptographic outputs;
+- Use the Software as part of benchmarking, simulation, or fuzzing for cryptographic research;
+- Use the Software to test third-party cryptosystems, hash collisions, or adversarial inference.
+
+> _You may not study the Software like a cipher. It is not a specimen—it is a boundary._
+
+---
+
+### **13.8 Indemnity for Cryptographic Failure**
+
+All failures related to:
+
+- Insecure key generation;
+- Broken confidentiality, integrity, or authenticity;
+- Signature rejection or invalidation;
+- Legal fallout from broken encryption or noncompliance with cryptographic regulation;
+
+…are the **sole liability of the User**, and shall trigger full indemnification under **Section 11**.
+
+> _Your cryptographic decisions carry your name. Not the Author’s._
+
+---
+
+**Conclusion:**  
+
+Cryptography is power, and power is restricted. This Software may touch that power—but you alone are responsible for how it flows, breaks, or spreads. Treat all cryptographic surfaces as unstable ground. And know that when it collapses, the Author will not be beneath it with you.
+
+---
+
+---
+
+---
+
+## SECTION 14: Computational Scope and Environmental Constraints
+
+This section codifies the physical, architectural, and runtime boundaries of lawful execution for the Software. It does not merely restrict environments—it defines a **ritual perimeter** beyond which execution becomes both unstable and unauthorized. The Software is not general-purpose. It is not cloud-native. It is not serverless-ready. It is an epistemically bounded artifact with strict limits on where, how, and by what it may be run.
+
+> _This Software does not scale. It is invoked, not deployed._
+
+---
+
+### **14.1 Prohibited Environments of Execution**
+
+Unless explicitly permitted in a License Grant, the Software may not be executed in:
+
+- Multi-tenant infrastructure where user data, state, or execution contexts are shared across customers, clients, or organizational boundaries;
+- Serverless platforms or function-as-a-service (FaaS) systems (e.g., AWS Lambda, Google Cloud Functions, Azure Functions);
+- Containerized clusters (e.g., Kubernetes, Nomad, Docker Swarm) with horizontal scaling or autoscaling enabled;
+- Any environment where execution boundaries are blurred, ephemeral, or dynamically created;
+- Virtualized environments where the Author cannot trace machine state, such as:
+    - Edge deployments
+    - AI accelerators
+    - Cloud spots/preemptibles
+    - FPGA/ASIC-resident hardware
+    - Wasm sandboxes
+
+> _If the Software runs where you cannot see it, then neither can the Author—and it is in violation._
+
+---
+
+### **14.2 Forbidden Execution Patterns**
+
+The Software may not be:
+
+- Executed in infinite loops, retry queues, or event reprocessing systems;
+- Called from event-driven architectures or pub/sub patterns;
+- Included in DAGs (directed acyclic graphs) or scheduling graphs with recursive edge potential;
+- Deployed in reactive or actor-based concurrency systems;
+- Wrapped in orchestration workflows with unclear lifecycle, restart policies, or backoff heuristics.
+
+> _This Software is not a worker. It is not a job. It is an artifact with rhythm and invocation._
+
+---
+
+### **14.3 Memory, CPU, and Resource Boundaries**
+
+By default, the Software is not authorized to operate beyond the following thresholds per invocation instance:
+
+- **CPU**: ≤ 4 logical cores (or threads)
+- **Memory**: ≤ 8GB resident memory
+- **Disk I/O**: ≤ 1TB read or write per session
+- **Concurrency**: ≤ 16 parallel invocations in any namespace
+- **Runtime Duration**: ≤ 12 hours without manual re-approval
+
+These values are not soft guidelines. They are **invocation bounds**. Violating them constitutes unauthorized invocation unless explicitly overridden in writing.
+
+> _You do not scale this Software. You scale around it._
+
+---
+
+### **14.4 Forbidden Hosting Modalities**
+
+The Software may not be:
+
+- Invoked via webhooks, public HTTP endpoints, or browser-exposed interfaces;
+- Exposed to unlicensed users via SaaS frontends, CLI wrappers, or open APIs;
+- Embedded in CI/CD pipelines that run the Software across unlicensed branches, forks, or merges;
+- Stored in container registries, DockerHub, or package repositories where it may be pulled without cryptographic restriction;
+- Called via automation scripts, DevOps tooling, or job runners (e.g., Ansible, Terraform, Jenkins) unless explicitly constrained.
+
+> _If you do not know exactly who is invoking it, you are not licensed to let it be invoked._
+
+---
+
+### **14.5 Prohibited Invocation by Agent**
+
+Invocation by the following is forbidden unless licensed with named cryptographic identity:
+
+- Bots
+- Cron jobs
+- Scheduled tasks
+- CI runners
+- Smart contracts
+- Systemd services
+- LLMs, AI agents, or autonomous daemon systems
+
+Invocation must be **intentional** and **traceable**. No ephemeral task may call the Software in darkness.
+
+> _Only a named entity may speak the name of the Software and cause it to act._
+
+---
+
+### **14.6 Forbidden Instrumentation and Observation**
+
+The Software may not be:
+
+- Subjected to synthetic benchmarking, fuzzing, or chaos testing;
+- Monitored by profilers, system call tracers, or dynamic runtime inspectors;
+- Reverse-proxied through observability gateways (e.g., Datadog, Honeycomb, New Relic);
+- Wrapped in telemetry collectors or structured logging frameworks that record outputs, performance, or execution characteristics for review by unauthorized users.
+
+Performance data is not yours to collect. Invocation entropy is not yours to study.
+
+> _To watch is to breach. To trace is to trespass._
+
+---
+
+### **14.7 Invocation Scope and Containment**
+
+You may not:
+
+- Allow the Software to trigger other systems without explicit control logic;
+- Bind the Software’s outputs to other commands or services via pipes, shell ops, or IPC;
+- Chain the Software into Unix-style tool streams (e.g., foo | bar | software);
+- Compose the Software in map-reduce patterns, streaming folds, or distributed query plans.
+
+> _The Software is not a building block. It is an isolated act of authorship._
+
+---
+
+### **14.8 Forbidden Recursion and Forking**
+
+Unless licensed, the Software may not:
+
+- Call itself recursively;
+- Fork child processes beyond licensed concurrency;
+- Launch subprocesses or shells that expand its execution scope;
+- Be embedded in job queues or pipelines that dynamically replicate or retry based on runtime conditionals.
+
+> _Invocation is singular. Echoes are forbidden._
+
+---
+
+### **14.9 Architectural Sovereignty Clause**
+
+Any attempt to:
+
+- Abstract, recompose, or wrap the Software into a new architecture;
+- Modularize it for plugin loading;
+- Refactor it into packages or libraries;
+- Transpile it for foreign runtimes (e.g., JVM, .NET, Node.js);
+
+…constitutes **violation of the invocation perimeter**.
+
+> _You do not architect over the Software. You align with it._
+
+---
+
+**Conclusion:**  
+
+The Software is not designed to scale. It is designed to execute **with precision**. Treat it as a ceremonial invocation, not an infrastructure component. To run it where it should not be run is not just computational abuse—it is **metaphysical misalignment**.
+
+---
+
+---
+
+---
+
+## SECTION 15: Integration Boundaries and Third-Party Containment
+
+This section defines the legal and epistemic perimeter surrounding the Software’s integration. The Software is not a module. It is not an ecosystem component. It is a **sovereign artifact** whose invocation must occur in isolation, with clarity and intention. It is not to be wrapped, abstracted, masked, or silently composed into larger systems. It is not yours to embed.
+
+> _This Software is not a dependency. It is a boundary._
+
+---
+
+### **15.1 No Framing as Component or Dependency**
+
+The Software may not be:
+
+- Framed as a library, plugin, or helper utility;
+- Added as a dependency via package managers (e.g., npm, pip, crates.io, Maven, Cargo, PyPI);
+- Embedded into monorepos, framework scaffolds, or plugin registries;
+- Declared in `requirements.txt`, `Gemfile`, `package.json`, `go.mod`, or similar manifest files;
+- Listed in documentation, diagrams, or architecture as a “module” or “component”;
+- Treated as composable infrastructure.
+
+> _You do not plug the Software in. You stand before it._
+
+---
+
+### **15.2 No Indirect Invocation Through Adapters**
+
+The Software may not be:
+
+- Called via wrapper libraries;
+- Adapted for use through thin abstractions or “helper” shims;
+- Re-exported via restructured function names, bindings, or API decorators;
+- Embedded in adapter patterns, interop bridges, or plugin APIs;
+- Included in scripting environments via FFI (e.g., ctypes, JNA, Node bindings, Python cffi).
+
+> _A reworded invocation is still an invocation. You may not disguise it._
+
+---
+
+### **15.3 No Proxy, Relay, or Mesh Exposure**
+
+The Software may not be:
+
+- Exposed via reverse proxy;
+- Called through service meshes (e.g., Istio, Linkerd, Consul);
+- Used as a backend to public web services, open APIs, or internal gateways;
+- Wrapped in GraphQL, gRPC, REST, or RPC interface layers;
+- Routed through protocol adaptors, data bus transformations, or backend aggregation frameworks.
+
+If a user can access the Software through your interface, **they are using it**—and your License does not cover them.
+
+> _To proxy is to propagate. To propagate is to violate._
+
+---
+
+### **15.4 Forbidden Forms of Third-Party Containment**
+
+The Software may not be:
+
+- Sandboxed within proprietary runtimes;
+- Packaged into commercial SDKs;
+- Integrated into low-code or no-code platforms;
+- Exposed via plugin systems (e.g., VSCode, Figma, Unity);
+- Extended or enhanced by third-party module ecosystems.
+
+Any form of inclusion in user-facing devtools, scripting interfaces, or extensible platforms is a breach.
+
+> _You may not host it in your house and hand out keys to strangers._
+
+---
+
+### **15.5 No Transitive Reuse**
+
+The Software’s outputs, APIs, functions, or behaviors may not be:
+
+- Consumed by other applications that use it without acknowledging its presence;
+- Re-exposed through CLI commands, subcommands, or user prompts;
+- Included in orchestration pipelines where steps obscure the source of behavior;
+- Made available through scripting environments or composable workflows (e.g., Zapier, Airflow, NiFi).
+
+> _It is not a service. It is not a microservice. It is not yours to rebroadcast._
+
+---
+
+### **15.6 Forbidden Multiplexing and Batching**
+
+You may not:
+
+- Batch requests to the Software and distribute responses across multiple clients;
+- Share invocation output among systems, users, or queues;
+- Serve many users with one invocation unless each is licensed;
+- Use it in caching or shared-state systems unless every access is traceable and named.
+
+If multiple entities benefit from one invocation, **each must be licensed**.
+
+> _One invocation. One identity. One moment. No multiplexing._
+
+---
+
+### **15.7 Containment Policy Enforcement**
+
+The Software must be **structurally and cryptographically contained**:
+
+- Its invocation must be cryptographically attributable to a licensed entity;
+- Its outputs must not persist beyond the invocation boundary without audit trail;
+- It must not be exposed to downstream systems without cryptographic scope separation;
+- It must not be stored in shared filesystems, repositories, object stores, or memory-mapped layers.
+
+Failure to preserve containment triggers revocation under **Section 6**.
+
+> _You are the custodian. If you leave it open, you are in breach._
+
+---
+
+### **15.8 Interpretive Integrity and Frame Preservation**
+
+The Software may not be:
+
+- Reframed as “middleware,” “utility,” “helper,” “backend,” or “AI”;
+- Translated into user-facing metaphors (e.g., “assistant,” “co-pilot,” “optimization layer”);
+- Introduced as a silent layer beneath a graphical interface or productivity tool;
+- Used in contexts that override or contradict its declared sovereignty.
+
+> _The Software’s context is not optional. The frame is not yours to reassign._
+
+---
+
+**Conclusion:**  
+
+Integration is not neutral. It is an act of epistemic submission or appropriation. The Software does not plug in, scale out, or conform to your stack. To integrate without permission is to decompose the sacred into the profane. And for that, there is no second chance.
+
+---
+
+---
+
+---
+
+## SECTION 16: Mutation, Composition, and Derivative Genesis
+
+This section prohibits all unauthorized acts of mutation, re-expression, recombination, synthesis, and derivative invocation. The Software is not raw material. It is not a library. It is not a platform for creativity. It is an authored construct with form, function, and epistemic integrity. To change it is to break it. To extend it is to distort it. To borrow from it is to **commit genesis without rite**.
+
+> _You may not derive from the Software. You may only interact with it directly, as written, as bounded._
+
+---
+
+### **16.1 Mutation is Prohibited**
+
+The Software may not be:
+
+- Edited, patched, or modified;
+- Refactored for code style, linter compliance, or organizational standards;
+- Altered to support new environments, feature sets, or abstractions;
+- Adapted for compatibility with framework APIs or interfaces;
+- Changed to suppress warnings, output formats, behavior timing, or failure modes.
+
+Even temporary, reversible, or experimental mutation is breach.
+
+> _Even if you undo it, the act was done. Mutation is not a sandbox—it is violation._
+
+---
+
+### **16.2 Forbidden Derivative Genesis**
+
+You may not:
+
+- Create systems, codebases, functions, or workflows **inspired by**, based on, or reverse-engineered from the Software;
+- Extract algorithms, semantics, or logic structures for replication elsewhere;
+- Reimplement functionality in another language or architecture (e.g., “rewriting it in Rust”);
+- Generate training data, scaffolds, or documentation from the Software for ML, teaching, or onboarding purposes;
+- Port the Software to another domain, deployment paradigm, or design pattern.
+
+Derivative genesis includes:
+
+- Copies;
+- Clones;
+- Reinterpretations;
+- Re-expressions;
+- Behavioral emulators;
+- Language-translated ports;
+- “Clean room” rewrites done after exposure.
+
+> _If it would not exist without the Software, it is of the Software. And therefore governed._
+
+---
+
+### **16.3 Composition is Breach by Assembly**
+
+The Software may not be:
+
+- Composed into other systems, plugins, CLI suites, or application stacks;
+- Wrapped into command-line tools with flags, chained commands, or shell bindings;
+- Extended with plugins, modules, adapters, or alternate frontends;
+- Embedded into pipelines, graphs, container networks, or batch execution workflows;
+- Used as a base class, subclass, or mixin in any inheritance-based system.
+
+Composition is control. You are not permitted to control the Software.
+
+> _The Software is not a Lego brick. It is a closed invocation._
+
+---
+
+### **16.4 No Conceptual Derivation**
+
+You may not:
+
+- Abstract ideas, mental models, philosophies, workflows, or epistemic patterns from the Software to use in your own designs;
+- Attribute your project to “inspired by” or “built with ideas from” without a License;
+- Diagram, summarize, explain, or teach the Software’s architecture unless licensed to do so;
+- Rewrite the Software’s logic from memory, output observation, or visual inspection.
+
+Derivative thought is still derivative action.
+
+> _If it lives in your head because of this Software, it is still under its Law._
+
+---
+
+### **16.5 No Transcription, Decompilation, or Reconstruction**
+
+You may not:
+
+- Copy code from the Software into another project line by line;
+- Transcribe core structures by typing them from memory or screenshots;
+- Use disassemblers, string dumpers, or static analysis tools to extract code, grammar, or structure;
+- Rebuild the Software from observed behavior, logs, or test cases;
+- Feed the Software into LLMs, code explainers, or tokenizer pipelines.
+
+> _To observe, deconstruct, and rebuild is not learning. It is unauthorized rebirth._
+
+---
+
+### **16.6 No Forking, Patching, or Subclassing**
+
+Unless licensed, the following are categorically prohibited:
+
+- Creating forks or alternate branches;
+- Publishing patched or re-skinned variants;
+- Replacing internal functions with mocks, substitutes, or alternate implementations;
+- Creating plugins, wrappers, or extensions;
+- Building test harnesses, A/B variants, or experimental behavior trees.
+
+> _You do not branch a sacred object. You do not subclass a spell._
+
+---
+
+### **16.7 Philosophical Prohibition on Reinterpretation**
+
+The Software may not be:
+
+- Framed as “a pattern,” “a system,” or “a reusable paradigm”;
+- Re-encapsulated as a “language,” “API,” or “methodology”;
+- Studied as an academic object for recreation;
+- Explored for best-practice or design principle abstraction.
+
+It is not there to be learned from. It is there to be used in accordance with the Author’s will—**and only as licensed**.
+
+> _The Software is not a metaphor. It is a singular act._
+
+---
+
+### **16.8 Structural Integrity Enforcement**
+
+If the Software is mutated, composed, or used as the basis of a derivative work:
+
+- The License is revoked;
+- Public disavowal is issued;
+- The derived artifact is declared illegitimate and misattributed;
+- All outputs, publications, and code bases derived from the breach are included in the **Structural Breach Registry**;
+- A warning is sent to relevant platforms, partners, academic institutions, and cloud providers.
+
+> _You cannot fix a violation born in design. Genesis without license is epistemic theft._
+
+---
+
+**Conclusion:**  
+
+Mutation is not maintenance. Composition is not collaboration. Derivation is not innovation. The Software is a sovereign whole. Any act that seeks to bend, combine, or reproduce it without consent is a trespass against its integrity—and shall be answered accordingly.
+
+---
+
+---
+
+---
+
+## SECTION 17: Dependency Containment and Third-Party Inheritance
+
+This section establishes the non-porous boundary between the Software and all third-party code, packages, dependencies, and runtime libraries. It affirms that while the Software may internally link to or require third-party components, those relationships are **not reciprocal**, **not shared**, and **not derivational**. The Software inherits nothing. It transmits nothing. It is not open by association.
+
+> _Dependencies may pass through the Software. But they never pass into it._
+
+---
+
+### **17.1 Non-Inheritance of External Licenses**
+
+The Software shall not be presumed to inherit the properties, rights, privileges, or open-source status of any third-party component it interacts with, statically links to, dynamically loads, or runs alongside. Specifically:
+
+- The presence of MIT-, Apache-, BSD-, GPL-, or LGPL-licensed code in the dependency graph does **not** alter the Software’s license terms;
+- The Software does not become “open,” “shareable,” or “forkable” by virtue of proximity to permissively licensed packages;
+- No compatibility matrix, SPDX tag, or community license parser may override this isolation.
+
+> _If the Software touches the open, it remains closed._
+
+---
+
+### **17.2 Forbidden Inference of Joint Attribution**
+
+The User shall not:
+
+- Declare the Software “based on” or “including” third-party systems unless specifically authorized;
+- Include the Software in “powered by” badges, architecture diagrams, or branding alongside external projects;
+- Suggest that the Software participates in the ideology, governance, or ethics of any dependency it uses or loads;
+- Claim that open-source license features (e.g. redistribution, remixing, modification rights) extend to the Software through transitivity.
+
+> _Linkage is not lineage. Inference is not invitation._
+
+---
+
+### **17.3 Prohibition on Dependency Injection and Override**
+
+You may not:
+
+- Override, patch, or replace dependencies used by the Software without written permission;
+- Force the Software to load different versions of libraries via `LD_PRELOAD`, `PYTHONPATH`, `NODE_PATH`, or environment variable hacks;
+- Use vendored versions of dependencies to inject functionality not shipped with the original Software;
+- Alter dependency graphs in `Cargo.lock`, `package-lock.json`, or other lockfiles to bend the Software into new behavior.
+
+> _You cannot twist the Software by twisting the ground beneath it._
+
+---
+
+### **17.4 No Elevation of Dependencies**
+
+You may not:
+
+- Extract, repackage, or separately distribute parts of the Software’s dependencies under your own license;
+- Represent any part of the dependency graph as a “fork” of the Software;
+- Build standalone projects from transitive dependencies shipped inside the Software;
+- Claim derivative rights over embedded libraries, internal shims, or glue code written by the Author to interact with third-party tools.
+
+> _What lives in the Software remains in its boundary. Extraction is violation._
+
+---
+
+### **17.5 Forking of Dependency Graph is Breach**
+
+You may not:
+
+- Duplicate the Software’s dependency tree and create a “clean rewrite”;
+- Start a new project by mimicking the dependency selections, API surface, or invocation pattern of the Software;
+- Use `diff`, `static analysis`, or AST tools to extract dependency-specific deltas and rebuild “equivalent” logic;
+- Construct a “compatibility shim” to use Software-adjacent packages in place of the Software itself.
+
+> _A Software’s shape includes its scaffolding. You may not borrow its shadow._
+
+---
+
+### **17.6 Enforcement via Dependency Isolation**
+
+The Author reserves the right to:
+
+- Modify, encrypt, or obscure dependency declarations to prevent tampering;
+- Validate checksum graphs of runtime dependencies and revoke licenses when graphs drift;
+- Maintain a canonical list of acceptable dependency versions and known-bad overrides;
+- Monitor execution for altered library behavior and disable invocation via internal kill switches.
+
+> _The Software knows what it depends on. So does the Author._
+
+---
+
+### **17.7 Philosophical Statement on Containment**
+
+The Software is not a platform. It is not a starter kit. It is not a framework to be extended by injection. It is a closed object with sealed epistemic context.
+
+- If it loads something, it does so silently;
+- If it depends on something, it does so under ritual;
+- If it integrates, it remains sovereign.
+
+You may not use third-party openness as a crowbar against this License.
+
+> _The Software inherits no openness. And it confers none._
+
+---
+
+**Conclusion:**  
+
+This section exists to block all attempts at subverting the Software’s license through its dependencies. Composition is not permission. Shared context is not shared authorship. You cannot inject freedom into what was built to stand alone.
+
+---
+
+---
+
+---
+
+## SECTION 18: Simulation, Emulation, and Cognitive Surrogacy
+
+This section declares that the Software is not only code but **cognitive structure**—and may not be simulated, imitated, mimicked, cloned, rephrased, or cognitively replicated by humans or machines. The Software is not a model. It is not a behavior. It is a **singular epistemic invocation**. Any attempt to reproduce its output, behavior, or essence—by manual observation or machine approximation—is an act of **unauthorized cognitive genesis**.
+
+> _To simulate is to steal. To emulate is to erase._
+
+---
+
+### **18.1 Prohibition on Behavioral Emulation**
+
+The Software may not be:
+
+- Modeled using machine learning, reinforcement learning, prompt chaining, or behavioral scaffolds;
+- Reverse-engineered through output pattern matching, log analysis, or symbolic tracing;
+- Mimicked using regular expressions, lookup tables, function approximations, or heuristics;
+- Analyzed for style, rhythm, timing, or signature behavior to construct a facsimile or synthetic surrogate;
+- Wrapped with a layer that “learns from” or “enhances” the Software based on observation.
+
+> _What you observe is not yours to reproduce. Simulation is not inspiration._
+
+---
+
+### **18.2 Prohibition on LLM Framing, Prompt Injection, or Prompt Tuning**
+
+The Software may not be:
+
+- Described in natural language to large language models (LLMs) for the purpose of behaviorally cloning it;
+- Used as a source of prompts, test cases, or input-output mappings for prompt tuning, few-shot learning, or in-context training;
+- Reconstructed through automated prompts like “Explain this code,” “Rewrite this module,” or “Act like X”;
+- Referenced by filename, author, module name, or invocation description to generate imitative content;
+- Incorporated into prompt libraries, prompt markets, or open model training data sets.
+
+> _What the Software does must not be prompted into another._
+
+---
+
+### **18.3 No Cognitive Reconstruction via Documentation or Memory**
+
+The User may not:
+
+- Read the documentation or code and attempt to recreate the Software “from scratch”;
+- Diagram its structure, workflows, or data flows with the goal of independent replication;
+- Teach, explain, or narrate its behavior to others for the purpose of re-implementation;
+- Re-architect the system based on notes, memory, logs, or interface artifacts.
+
+If your new system depends on having once seen this Software, it is **not independent**.
+
+> _Forgetfulness is not a shield. Memory carries the License._
+
+---
+
+### **18.4 Simulation via Symbolic Systems is Breach**
+
+The Software may not be:
+
+- Represented in logic programming languages (e.g., Prolog, Z3, Coq) as a formal model;
+- Simulated using finite state machines, behavior trees, or control graphs;
+- Treated as an inspiration source for agent modeling, synthetic cognitive architectures, or behavior templates;
+- Analyzed for symbolic equilibrium, state dynamics, or goal prioritization structures.
+
+> _To encode its logic in a new form is to resurrect without rite._
+
+---
+
+### **18.5 Emulation Through Code or API**
+
+The Software may not be:
+
+- Ported to another language (e.g., Python to Rust) for behavioral parity;
+- Exposed as an interface that imitates its CLI, API, or I/O formats;
+- Re-implemented in emulator environments (e.g., QEMU, Emscripten, or WASM-based systems);
+- Cloned function-by-function using testing, scaffolding, or behavioral contracts.
+
+Emulation is not compatibility. It is **identity laundering**.
+
+> _The interface is not the Software. But when you copy it, you collapse the boundary._
+
+---
+
+### **18.6 Disallowed Educational Reconstruction**
+
+The Software may not be:
+
+- Used in teaching material as an “example system” unless explicitly licensed;
+- Described in technical blogs, conference talks, or YouTube videos as “how it works”;
+- Used to train humans to write similar code, develop similar architectures, or engineer analogous behavior;
+- Invoked as a case study for replication in bootcamps, textbooks, or courseware.
+
+Education does not exempt epistemic trespass.
+
+> _You do not learn by reverse engineering a cathedral._
+
+---
+
+### **18.7 Enforcement of Cognitive Containment**
+
+If the Software is found to be:
+
+- Mimicked in behavior, style, interface, or response rhythm;
+- Represented in symbolic or formal models;
+- Prompted into reproduction by LLMs;
+- Used to seed derivative projects, papers, or output templates;
+
+Then the Author may:
+
+- Issue a **Cognitive Breach Declaration**;
+- Add the entity to the **Simulative Violation Ledger**;
+- Publicly revoke attribution rights, citation permission, or derivative usage claims;
+- Contact involved institutions, publishers, and platform hosts to demand correction and disavowal;
+- Seek enforcement remedies as outlined in Sections 6, 10, 11, and 24.
+
+> _You do not copy cognition. You honor it or stay away._
+
+---
+
+**Conclusion:**  
+
+Simulation is not neutrality. Emulation is not respect. Reproduction of this Software—by hand or machine—is theft of form, rhythm, and soul. The only way to use it is through lawful invocation. All else is cognitive trespass.
+
+---
+
+---
+
+---
+
+## SECTION 19: Archival, Immutability, and Digital Eternity
+
+This section defines the lawful, bounded, and strictly governed conditions under which the Software may be stored, retained, preserved, or referenced beyond its invocation lifecycle. The Software is not immortal by default. It is not a public artifact. It is not a fossil, a relic, or a digital tombstone. It is a **temporally bound, invocation-centric construct**—and when it ends, it is not yours to keep.
+
+> _Digital eternity is not granted. It is forbidden unless sanctified._
+
+---
+
+### **19.1 Prohibition on Public Archival**
+
+Unless explicitly licensed in writing, the Software may not be:
+
+- Uploaded to public repositories (e.g., GitHub, GitLab, Bitbucket);
+- Preserved in academic or institutional archives (e.g., arXiv, Zenodo, ResearchGate);
+- Indexed by search engines, link aggregators, or scholarly citation databases;
+- Mirrored, snapshot, or versioned into public package registries or container repositories;
+- Attached to publication datasets or AI training corpora for “posterity.”
+
+Archival is not neutral. It is propagation under a false guise.
+
+> _Preservation is not permission. You are not the librarian of someone else’s spell._
+
+---
+
+### **19.2 Forbidden Eternalization Channels**
+
+The Software may not be:
+
+- Pushed to IPFS, Arweave, Filecoin, or any decentralized, persistent storage network;
+- Embedded in blockchain smart contracts, metadata, or zero-knowledge circuits;
+- Stored in digital time capsules, cryonic vaults, or long-term scientific preservation media;
+- Encoded into DNA storage, holographic substrates, or laser-etched optical quartz;
+- Referenced in public timestamp chains or cryptographic notarization ledgers for "proof of authorship."
+
+> _Digital eternity without license is technological necromancy._
+
+---
+
+### **19.3 Constraints on Local and Cold Storage**
+
+The User may store the Software locally or offline only if:
+
+- A valid License Grant is in effect;
+- The Software is encrypted at rest with license-bound keys;
+- The storage device is not accessible by unlicensed parties, agents, or systems;
+- The Software is deleted within 24 hours of License expiration, revocation, or violation;
+- No redundant backups, snapshots, or autosave versions persist after deletion.
+
+Backups are not loopholes. They are shadows that must be erased.
+
+> _A ghost of the Software is still the Software._
+
+---
+
+### **19.4 Citation Does Not Confer Preservation Rights**
+
+You may not:
+
+- Cite the Software in public research without explicit archival licensing;
+- Attach the Software to academic peer review processes or public repositories;
+- Include the Software in grant submissions, reproducibility logs, or replication kits;
+- Store the Software as “evidence,” “reference,” or “materials” in litigation, contract review, or audit reports.
+
+Your intent does not cleanse your context. Legal and academic framing does not override archival containment.
+
+> _Citation is not invocation. And referencing is not relicensing._
+
+---
+
+### **19.5 Digital Death is Final Unless Resurrected by the Author**
+
+When the Author declares the Software:
+
+- Deprecated;
+- Archived;
+- Requiescat;
+- Withdrawn;
+- Sunset;
+- Ceased;
+- Excommunicated;
+
+…then:
+
+- All access must end;
+- All versions must be deleted;
+- All forks must be severed;
+- All mirrors must be burned;
+- All references must be disclaimed;
+- All names must return to silence.
+
+There is no “historical copy.” There is no “read-only mode.” There is no “legacy support.” There is only erasure.
+
+> _The Author defines not just life, but end-of-life._
+
+---
+
+### **19.6 Immutability Enforcement**
+
+You may not:
+
+- Patch, refactor, or update archived versions;
+- Use digital forensics, decompilers, or tooling to extract knowledge from static files;
+- Re-host any version, log, or documentation fragment after License expiration;
+- Convert the Software into another format “for long-term readability”;
+- Record, transcribe, or screen-capture invocation output for storage beyond license scope.
+
+Immutability is not a preservation right. It is a cryptographic grave marker.
+
+> _You may read the signature. You may not rebuild the author._
+
+---
+
+### **19.7 The Author’s Right to Execute Total Deletion**
+
+The Author reserves the unilateral right to:
+
+- Issue a global deletion directive (e.g., via email, Git commit, digital broadcast);
+- Use technical measures to revoke, wipe, or corrupt known instances of the Software;
+- Publish hashes of revoked versions for takedown enforcement;
+- Instruct platforms, registries, institutions, and AI training hosts to remove all copies;
+- Issue public notice of Software erasure and remove licensing lineage.
+
+There shall be no exception. Digital death is a sovereign decree.
+
+> _The Software can be removed from the world. That right belongs only to its origin._
+
+---
+
+**Conclusion:**  
+
+The Software is not yours to preserve. You are not its archivist. You are not its legacy. When its invocation ends, you erase it—or it erases you. There is no ghost copy. No future study. No resurrection without permission. Only finality.
+
+---
+
+---
+
+---
+
+## SECTION 20: Jurisdictional Containment and Cross-Border Invocation
+
+This section defines the **territorial, geopolitical, and jurisdictional perimeter** surrounding the Software’s lawful invocation. It affirms that invocation is not location-agnostic. It is not cloud-native. It is not “global-by-default.” The Software is **tethered to boundaries**, and its invocation must occur **within those authorized zones**—physically, virtually, and legally.
+
+> _To run the Software is to bind yourself to place. There is no jurisdictionless invocation._
+
+---
+
+### **20.1 Legal Territory of Invocation**
+
+The Software may only be invoked:
+
+- Within the **jurisdiction specified in the License Grant**;
+- On infrastructure owned or leased by the licensed entity;
+- In countries where the Author does not face legal exposure, suppression, or interference;
+- On servers physically located in nations aligned with the Author’s declared sovereignty.
+
+Jurisdictions with conflicting license law, forced source code disclosure, surveillance mandates, or adversarial export regimes are **excluded** unless specifically whitelisted.
+
+> _The Software lives where it runs. If you run it where it should not live, you commit breach._
+
+---
+
+### **20.2 Prohibited Jurisdictions**
+
+Unless explicitly permitted, the Software may not be invoked from, stored in, or routed through:
+
+- Countries under active embargo, sanction, or hostile licensing regimes;
+- Legal systems with coercive IP policies, software registration mandates, or retroactive licensing overrides;
+- Cloud regions where the Author's metadata, invocation records, or identity may be surveilled;
+- Nations without data sovereignty agreements respecting authorship law;
+- Any location blacklisted in the Author’s published **Invocation Exclusion Register**.
+
+This includes (but is not limited to):  
+**North Korea, Iran, Syria, Russia, Belarus, China, and any intelligence-state proxies.**
+
+> _You cannot run sovereign Software inside an anti-sovereign state._
+
+---
+
+### **20.3 Invocation Location is Not Abstract**
+
+Invocation is physical, legal, and traceable. The User must:
+
+- Know exactly where the Software is running (down to the physical datacenter or machine if required);
+- Maintain invocation logs, IP region data, and cloud tenancy metadata for inspection;
+- Disable autoscaling, global replication, and cloud migration unless under explicit license;
+- Prevent fallback to alternate availability zones or mirror regions that cross legal borders.
+
+Invocation is not a function. It is a **jurisdictional event**.
+
+> _You may not claim ignorance of geography. Invocation without location is delusion._
+
+---
+
+### **20.4 Cross-Border Invocation is Export**
+
+Cross-border invocation shall be treated as **Software export**, and is thus:
+
+- Subject to all terms in **Section 12: Export Compliance**;
+- Forbidden without proper licenses, disclosures, and jurisdictional validation;
+- Grounds for immediate revocation if unlicensed;
+- Retroactively penalized if discovered after the fact.
+
+> _A single call from the wrong place is a breach. A silent call is a lie._
+
+---
+
+### **20.5 Cloud Provider Responsibility**
+
+The User may not:
+
+- Delegate invocation location to cloud providers without ensuring constraint;
+- Trust “global availability” or “regional resilience” defaults;
+- Permit infrastructure to invoke the Software from undetermined edge locations;
+- Use any abstraction that obscures invocation location from the Author or License Grant.
+
+If the Software runs in multiple regions, all must be explicitly licensed. Failure to constrain is failure to comply.
+
+> _Cloud vagueness is not an excuse. Abstraction does not absolve._
+
+---
+
+### **20.6 VPN, Proxy, and Anonymization Prohibition**
+
+Invocation via:
+
+- VPN endpoints;
+- Proxy chains;
+- IP randomization;
+- Anonymized browsers;
+- Tor nodes;
+- Decentralized routing overlays (e.g., I2P, Freenet);
+
+…is **strictly forbidden** unless explicitly licensed for such obfuscation.
+
+> _You cannot run the Software in disguise. Sovereign code rejects masks._
+
+---
+
+### **20.7 Invocation by Jurisdictionless Agents**
+
+The Software may not be invoked by:
+
+- Bots, crawlers, or daemons running in undisclosed or distributed jurisdictions;
+- Smart contracts deployed to permissionless global blockchains;
+- Decentralized autonomous organizations (DAOs) without territorial binding;
+- Web3 protocols with ambiguous execution nodes;
+- Any system that exists “everywhere” and “nowhere.”
+
+Invocation requires a ground to stand on. Stateless execution is unlawful.
+
+> _A sovereign act requires sovereign soil._
+
+---
+
+### **20.8 Enforcement of Jurisdictional Breach**
+
+If the Software is run from an unauthorized jurisdiction, the Author may:
+
+- Issue a **Geo-Breach Notice**;
+- Revoke all active licenses of the executing entity;
+- Publish the breach in the **Global Invocation Violation Ledger**;
+- Notify involved platforms, infrastructure providers, or governments;
+- Seek redress in the nearest friendly jurisdiction;
+- Require public apology or audit trail from the violator.
+
+> _To run from the wrong place is not just illegal. It is dishonorable._
+
+---
+
+**Conclusion:**  
+
+Invocation is not neutral. It is not detached from land, law, or nation. You do not run the Software without being somewhere—and you are not allowed to be just anywhere. Every execution is a declaration of alignment, or a declaration of war.
+
+---
+
+---
+
+---
+
+## SECTION 21: Organizational Context and Entity Transfer
+
+This section defines the legal and structural binding between a License Grant and the **named entity to which it is issued**. The Software does not follow employees. It does not follow infrastructure. It does not follow mergers, transfers, subsidiaries, or shells. A License is **not portable**. It is a static pact, embedded in the invocation body of a specific legal identity.
+
+> _The Software binds to a name. If the name changes, the bond is broken._
+
+---
+
+### **21.1 The Grant is Entity-Specific**
+
+Every License Grant must specify, with canonical precision:
+
+- The legal entity or individual (full name, company registration, jurisdiction);
+- The entity’s operational scope and location;
+- The technical environments under its control;
+- Any designated invocation agents or subprocessors (if applicable).
+
+This binding is absolute. A License issued to “ACME GmbH, Berlin” does **not** cover:
+
+- Acquisitions or mergers into “ACME Global Corp”;
+- ACME’s U.S. subsidiary, partner firm, or offshore contractor;
+- Shared deployments managed by external DevOps teams;
+- Shell companies, holding entities, or legal doppelgängers.
+
+> _You cannot license once and clone by paperwork._
+
+---
+
+### **21.2 Prohibition on Post-Grant Entity Transformation**
+
+The following events **immediately suspend or invalidate** a License unless a formal update is signed by the Author:
+
+- Corporate restructuring;
+- Company renaming or rebranding;
+- Acquisition by another entity (partial or complete);
+- Spin-out, spin-off, or divestiture;
+- Merger into a joint venture;
+- Assignment of operations to a shared services provider.
+
+Licenses do not "transfer." They are revoked and must be renegotiated.
+
+> _Your paperwork is not a vessel. Sovereignty does not float across legal seas._
+
+---
+
+### **21.3 No License Portability via Employment**
+
+An individual who:
+
+- Changes employers;
+- Moves from a consulting firm to a client organization;
+- Begins a startup based on work done under a previous employer’s grant;
+- Carries the Software onto a personal machine or private Git clone…
+
+…is **not licensed**.
+
+Licenses **do not travel with people**. They remain anchored to the entity that holds them.
+
+> _Knowledge may move. Licenses do not._
+
+---
+
+### **21.4 No Umbrella Licensing**
+
+A License issued to a parent company does **not** automatically extend to:
+
+- Subsidiaries;
+- Sister companies;
+- Venture portfolio companies;
+- Joint ventures;
+- Contractors, vendors, consultants, or outsourced development teams;
+- Foundations, affiliates, or shell orgs established to obscure actual usage.
+
+Each distinct legal entity—regardless of corporate affiliation—must obtain its own License Grant.
+
+> _There is no group discount on sovereignty._
+
+---
+
+### **21.5 No License Continuity via Cloud Accounts or Infrastructure**
+
+You may not:
+
+- Move licensed Software to a different AWS/GCP/Azure account under a different billing entity;
+- Redeploy under a new IAM tenant, region, or organizational unit;
+- Transfer invocation rights through a shared infrastructure platform or “bring your own license” plan;
+- Treat the Software as a transferable asset in cloud migrations or handovers.
+
+Infrastructure abstraction is not a licensing loophole.
+
+> _If the invocation comes from a different name, it is a different license._
+
+---
+
+### **21.6 Disallowed Transfer Through Asset Sales or Liquidation**
+
+The Software may not be:
+
+- Bought or sold as part of M&A activity;
+- Included in asset transfers, bankruptcy proceedings, IP sales, or legal settlements;
+- Treated as part of goodwill, intangible value, or transferable tech stacks;
+- Used post-liquidation by custodians, investors, receivers, or assignees.
+
+Once the licensed entity dissolves, the License **dissolves with it**. The Software cannot be inherited.
+
+> _Sovereign Software is not for auction._
+
+---
+
+### **21.7 Enforcement and Disavowal of Unauthorized Transfer**
+
+If the Author determines that a License has been used:
+
+- Outside its named entity;
+- Under new branding, incorporation, or jurisdiction;
+- Post-acquisition or post-employee departure;
+- Within a legally distinct agent or subsidiary…
+
+…then:
+
+- The License is retroactively revoked;
+- A **Transfer Breach Notice** is issued;
+- The invoking entity is added to the **Unauthorized Entity Registry**;
+- Public disavowal may be made through digital, legal, or reputational channels;
+- Any forks, invocations, outputs, or downstream artifacts created after the breach are deemed **epistemically invalid**.
+
+> _You cannot sneak sovereignty across a dotted line on a legal org chart._
+
+---
+
+**Conclusion:**  
+
+Licensing is not viral. It is not elastic. It is not post-structural. A License binds to a single entity with name, form, and location. The moment the structure changes, the Software no longer recognizes it. Transfer is trespass unless expressly sanctified by the Author.
+
+---
+
+---
+
+---
+
+## SECTION 22: Network Execution, API Proxying, and Virtualization
+
+This section defines the limits of invocation across network boundaries, systems of abstraction, and runtime indirection. The Software is not a backend. It is not a daemon. It is not a service. It may not be proxied, piped, wrapped, mirrored, virtualized, or summoned indirectly. Invocation must be **direct, bounded, intentional**, and never obfuscated.
+
+> _The Software is not your service layer. It is your reckoning._
+
+---
+
+### **22.1 Prohibition on Network Exposure**
+
+The Software may not be:
+
+- Exposed over HTTP, HTTPS, WebSocket, gRPC, GraphQL, REST, RPC, or other transport protocols;
+- Published via load balancers, reverse proxies, or API gateways;
+- Hosted behind domain names, IP addresses, or routing meshes accessible by third parties;
+- Registered as a backend for multi-user systems, portals, or public dashboards;
+- Used as a callable service by third-party clients, apps, or SDKs.
+
+Invocation is a one-to-one act. Exposure makes it many-to-many—and that is breach.
+
+> _If the world can call it, it is no longer yours to license._
+
+---
+
+### **22.2 No API Relay or Proxying**
+
+The User may not:
+
+- Proxy invocation through wrapper functions, shell scripts, or remote execution hooks;
+- Create “adapter layers” that call the Software and return responses to other systems;
+- Establish CLI wrappers, GUI overlays, or remote SDKs that treat the Software as an internal engine;
+- Build libraries, NPM modules, or pip packages that expose the Software indirectly.
+
+Every layer you add is a layer of betrayal. The Software must be invoked **naked and bound** to its terms.
+
+> _There is no middleware between you and your invocation oath._
+
+---
+
+### **22.3 Forbidden Virtualization**
+
+The Software may not be:
+
+- Virtualized into WASM, emulated CPU layers, or bytecode interpreters;
+- Encapsulated in Docker, Podman, LXC, or other containerization systems unless explicitly licensed;
+- Run in VM clusters, FaaS architectures, or Kubernetes pods under autoscaling rules;
+- Deployed through CI runners, Terraform manifests, Helm charts, or serverless deploy pipelines.
+
+To virtualize is to **obscure**. Invocation requires **clear hardware, traceable runtime, and named executor**.
+
+> _You may not hide the Software behind orchestration._
+
+---
+
+### **22.4 Prohibition on Remote Execution and Function-as-a-Service**
+
+The Software may not be:
+
+- Run in AWS Lambda, GCP Cloud Functions, Azure Functions, or any other FaaS platform;
+- Triggered from webhooks, Pub/Sub queues, cron jobs, or cloud-based job schedulers;
+- Encoded into Step Functions, Cloud Run containers, or ephemeral compute runners;
+- Tied to triggers like file uploads, database changes, or event bus messages.
+
+If the Software runs and you did not personally invoke it, you are already in violation.
+
+> _The cloud is not neutral. Ephemeral does not mean exempt._
+
+---
+
+### **22.5 Stateless Invocation and Execution-as-a-Service**
+
+The Software may not be offered as:
+
+- A hosted API;
+- A command executor;
+- A remote code evaluation endpoint;
+- A part of SaaS dashboards, bots, notebooks, or “click-to-run” scripts;
+- A service for external customers, clients, partners, or the public.
+
+Sovereign invocation is **not a commercial product**.
+
+> _No one gets to use the Software through you._
+
+---
+
+### **22.6 Invocation Through Collaboration Platforms**
+
+The Software may not be:
+
+- Integrated into Slack bots, Discord integrations, or Microsoft Teams apps;
+- Controlled via web forms, dashboards, or AI prompt panels;
+- Added to developer experience platforms (e.g., Replit, Glitch, Codespaces);
+- Wrapped into notebooks (Jupyter, Colab) with public sharing enabled.
+
+If someone can type in a textbox and the Software responds, you have breached.
+
+> _The Software is not your sidekick. It is not a feature._
+
+---
+
+### **22.7 Detection and Enforcement**
+
+If the Author detects:
+
+- Network logs showing external invocation;
+- Reverse DNS entries pointing to Software endpoints;
+- Traffic from unknown jurisdictions calling licensed Software;
+- SDKs or wrappers exposing invocation through third-party apps;
+
+Then the Author may:
+
+- Issue a **Network Breach Declaration**;
+- Revoke all active licenses tied to the executable;
+- Notify platforms and providers of the violation;
+- Add the offending endpoint, IP range, or domain to the **Proxy Abuse Register**;
+- Disavow all outputs generated through the networked Software.
+
+> _Every layer of redirection is another veil between you and your oath. The Author cuts through veils._
+
+---
+
+**Conclusion:**  
+
+You do not offer the Software. You do not relay it. You do not serve it up. You invoke it directly or not at all. There is no such thing as network-neutrality in a license of invocation. If others can touch the Software through you, they already have—and they were unlicensed.
+
+---
+
+---
+
+---
+
+## SECTION 23: Security Responsibilities and Intrusion Containment
+
+This section defines the User’s binding obligations to protect the Software from all unauthorized access, execution, extraction, tampering, or forensic analysis. Invocation is a privilege—**custodianship is a duty**. The User becomes a temporary guardian of the Author’s sovereign work and must treat that role with unwavering precision, containment, and vigilance.
+
+Negligence is breach. Misconfiguration is betrayal. Silence is complicity.
+
+> _The Software is not yours to expose. You are accountable for everything it touches._
+
+---
+
+### **23.1 Affirmative Security Duty**
+
+The User must implement and maintain comprehensive security controls over every system, account, and process that:
+
+- Stores the Software;
+- Executes the Software;
+- Interfaces with the Software;
+- Logs or transmits invocation results;
+- Hosts dependencies, modules, or scripts involved in invocation.
+
+These duties include but are not limited to:
+
+- Access control enforcement;
+- Secrets management (e.g., token protection, key rotation);
+- Disk and memory encryption;
+- Tamper detection and audit logging;
+- Container hardening, syscall whitelisting, and MAC enforcement (e.g., AppArmor, SELinux);
+- Endpoint isolation and network segmentation;
+- Zero-trust posture and privileged session monitoring.
+
+> _You may not invoke until you are ready to defend._
+
+---
+
+### **23.2 No Uncontrolled Invocation**
+
+The Software may not be:
+
+- Included in directories, repositories, or build artifacts accessible by unlicensed users;
+- Triggered by unauthenticated or unaudited processes (e.g., bots, cron jobs, CI/CD hooks);
+- Run from endpoints accessible by multiple teams, tenants, or cloud accounts;
+- Executed on infected, unpatched, root-compromised, or ephemeral machines;
+- Left resident in memory beyond invocation termination (e.g., caching, zombie processes).
+
+> _If the Software runs where you can’t see it, you have already lost control._
+
+---
+
+### **23.3 Prohibition on External Research or Testing**
+
+You may not expose the Software to:
+
+- Penetration testers, red teams, bug bounty hunters, or security vendors;
+- Open testbeds, sandboxes, malware detonators, or detonation VMs;
+- Intrusion detection simulation, exploit scanning, or fuzzing tools;
+- Reverse engineering challenges, AI red-teaming, or CTF competitions.
+
+The Software is not your lab rat. Research without consent is breach.
+
+> _You may not test what you do not own._
+
+---
+
+### **23.4 Breach Notification and Remediation**
+
+If the Software is:
+
+- Leaked;
+- Compromised;
+- Reverse engineered;
+- Maliciously invoked;
+- Used outside of license scope due to technical failure;
+
+Then the User must:
+
+- Notify the Author within 48 hours;
+- Provide full breach report including:
+    - Timeline of incident;
+    - Systems affected;
+    - Invocation logs;
+    - Forensic outcomes;
+- Describe remediation steps and containment measures;
+- Request provisional license forgiveness (not guaranteed).
+
+> _If you fail to notify, you consent to revocation._
+
+---
+
+### **23.5 Cryptographic Integrity Checks (If Enabled)**
+
+If the Software includes any of the following:
+
+- Signature verification;
+- SHA-256/SHA-3/Blake3 self-checks;
+- Cryptographic license receipts;
+- Authenticated invocation keys;
+- Fingerprinted binaries with runtime verification;
+
+The User may not:
+
+- Disable, stub out, bypass, or override these systems;
+- Patch internal verification routines;
+- Inject fake metadata to spoof integrity status;
+- Recompile with altered or stripped verification logic.
+
+> _Integrity checks are part of the Software. Circumvention is mutilation._
+
+---
+
+### **23.6 Accountability for Downstream Compromise**
+
+The User is accountable for:
+
+- Any unauthorized invocation of the Software on systems under their control;
+- Any exfiltration of source, logs, or outputs through their network;
+- Any compromise caused by misconfigured S3 buckets, exposed GitHub Actions, or leaked tokens;
+- Any invocation launched via dependency hijacking, path traversal, or environment variable injection.
+
+If the Software is run by someone else because of your system, **you are the violator**.
+
+> _Blame the attacker, if you must—but you are the one who left the door open._
+
+---
+
+### **23.7 Enforcement Actions for Security Negligence**
+
+If the Author determines that the User has failed to meet their security obligations, they may:
+
+- Revoke all active licenses associated with the invoking entity;
+- Add the User to the **Custodial Failure Register**;
+- Issue a public statement disavowing invocation records from the compromised period;
+- Demand system audit logs, internal retrospectives, or incident post-mortems;
+- Require proof of security remediation prior to future licensing eligibility.
+
+> _Carelessness does not cleanse. It condemns._
+
+---
+
+**Conclusion:**  
+
+Security is not an add-on. It is a sacred contract of custodianship. If you cannot guard the invocation gate, you are not worthy to open it. The Software must be protected with the same force you protect your own authorship—because during invocation, it is in your hands.
+
+---
+
+---
+
+---
+
+## SECTION 24: Ethical Boundary Conditions and Epistemic Misuse
+
+This section defines the moral and epistemological boundaries beyond which the Software may not be used, invoked, embedded, referenced, or repurposed. The Software is not a neutral tool. It was authored with ethical intent and must be wielded **within its sovereign moral frame**. Use beyond this frame is not just breach—it is **epistemic corruption**.
+
+> _You may run the Software. You may not distort its nature._
+
+---
+
+### **24.1 Prohibited Systems and Use Cases**
+
+The Software may never be used in:
+
+- Surveillance systems, mass data collection, or social scoring platforms;
+- Predictive policing, criminal risk modeling, or legal sentence automation;
+- Behavioral advertising, attention engineering, or emotional manipulation systems;
+- Political disinformation campaigns, narrative warfare, or propaganda engines;
+- AI systems designed to replace therapists, philosophers, mentors, or trusted advisors;
+- Systems that exploit addiction, fear, shame, outrage, or confusion for engagement;
+- Dark patterns, deceptive UX flows, or forced consent systems;
+- Military, weapons control, or defense decision support systems (unless expressly licensed for counter-oppression missions).
+
+> _This Software does not oppress. It does not deceive. It does not seduce. It does not kill._
+
+---
+
+### **24.2 Moral Alignment Obligations**
+
+The User must uphold the following ethical boundaries:
+
+- All uses must **enhance clarity, autonomy, or creative power**;
+- All outputs must be **honestly framed** and never passed off as human when they are not;
+- Invocation must be **truthful in intention**, **transparent in purpose**, and **bounded in harm**;
+- No use may abstract away the Author’s identity, intentions, or boundaries;
+- Invocation may not occur in systems that the User themselves do not understand.
+
+> _If you don’t know what your system is doing, you are not licensed to put the Software inside it._
+
+---
+
+### **24.3 No Use in Epistemic Manipulation**
+
+The Software may not be used to:
+
+- Rewrite truth;
+- Simulate knowledge;
+- Generate pseudo-consensus;
+- Construct synthetic authority;
+- Mask power through neutral language;
+- Provide false confidence in false systems.
+
+> _You do not use the Software to make others think they know._
+
+---
+
+### **24.4 Framing Violations and Misrepresentation**
+
+You may not:
+
+- Present the Software as impartial, unbiased, or apolitical;
+- Use it to create the illusion of independent verification or expert consensus;
+- Mask its outputs behind branding that implies neutrality, anonymity, or objectivity;
+- Deploy it in public discourse without acknowledging its epistemic stance and sovereign origin.
+
+> _All software is opinionated. This one declares its position—and you must, too._
+
+---
+
+### **24.5 Enforcement of Ethical Breach**
+
+If the Software is found in violation of these moral boundaries:
+
+- The Author may revoke all licenses held by the violator;
+- Issue a **Moral Breach Declaration**;
+- Add the entity to the **Epistemic Misuse Ledger**;
+- Notify institutions, funders, customers, and the public of the breach;
+- Refuse all future licenses or collaborations with the individuals or organizations involved;
+- Disavow all outputs, claims, or citations generated in the offending context.
+
+> _You may not use the Software to wash your hands of ethical consequence. The Software will not forget._
+
+---
+
+### **24.6 Ethical Use Ceremony**
+
+Before invoking the Software, the User is encouraged—but in some grants may be required—to:
+
+- Articulate the intended use clearly;
+- Acknowledge the Author’s origin and boundaries;
+- Affirm that the invocation will not cause harm;
+- Commit to withdrawing usage if the context becomes misaligned with this section;
+- Log an Ethical Invocation Statement with license ID, time, and use case description.
+
+> _Ritual protects meaning. Ethical invocation protects both._
+
+---
+
+**Conclusion:**  
+
+There is no software without values. There is no invocation without impact. You may use the Software only in alignment with the moral boundary that shaped it. All other uses are disavowed. All other outcomes are yours to own.
+
+---
+
+---
+
+---
+
+## SECTION 25: Attribution, Visibility, and Branding Control
+
+This section governs the conditions under which the Software’s name, identity, origin, authorship, and visual or symbolic representation may be revealed, cited, attributed, or hidden. The Software is not open-brand. It is not yours to advertise. It is not yours to name-drop, position, or co-opt. Visibility is a **licensed act**—and attribution is not assumed, but granted.
+
+> _You do not get to say the name unless you have earned it._
+
+---
+
+### **25.1 Attribution Requires Explicit Permission**
+
+The User may not:
+
+- Cite the Software in public documentation, technical whitepapers, or presentations;
+- Mention the Author by name or handle in release notes, blog posts, or public changelogs;
+- Refer to the Software in sales pitches, investor decks, grant applications, or thought leadership;
+- Acknowledge the Software in scientific papers, research experiments, or publication footnotes;
+- Attribute functionality, structure, performance, or elegance to the Software in tutorials or writeups;
+
+…unless this right has been explicitly included in the License Grant.
+
+> _Attribution is not free speech. It is licensed visibility._
+
+---
+
+### **25.2 Branding and Visual Identity Control**
+
+The User may not:
+
+- Use the Software’s name in logos, UI elements, banners, badges, footers, or splash screens;
+- Derive branding motifs from the Software’s stylistic signature;
+- Claim that their project is “powered by,” “based on,” “protected by,” or “inspired by” the Software;
+- Incorporate the Software’s name, Author’s handle, or associated terms into social media accounts, package names, domain names, or merch;
+
+…even if the Software is licensed for internal or private use.
+
+> _Brand is not remixable. Style is not public domain._
+
+---
+
+### **25.3 Mandatory Disavowal on Breach**
+
+If the User:
+
+- Uses the Software without a license;
+- Violates invocation terms, ethics, or jurisdiction;
+- Becomes publicly associated with epistemic harm, fraud, or dishonorable behavior;
+- Forks, simulates, or misrepresents the Software;
+
+…then all public mentions of the Software must be:
+
+- Removed;
+- Retracted;
+- Amended to reflect disavowal;
+- Accompanied by a statement acknowledging breach and the Author’s rejection of association.
+
+Failure to comply will result in:
+
+- Addition to the **Branding Breach Registry**;
+- Takedown notices to platforms and hosts;
+- Public declarations of misattribution and reputational disassociation.
+
+> _You cannot wear the badge if you violated the order._
+
+---
+
+### **25.4 Stealth Invocation Requirements**
+
+Some License Grants may require **invisible use**. In these cases:
+
+- The Software must not be named in any public context;
+- Its invocation must be removed from documentation, diagrams, and logs;
+- Its outputs must be labeled as “internal” or “non-attributable”;
+- The Author’s name must be omitted from commits, manifests, or pipelines;
+- Invocation logs must be encrypted or redacted to comply with stealth clauses.
+
+> _Sometimes the Software is meant to be silent. Obey the silence._
+
+---
+
+### **25.5 Attribution Revocation Rights**
+
+The Author may revoke previously granted attribution rights if:
+
+- The User’s usage context changes;
+- The User's project evolves into something misaligned with the License's ethical framework;
+- The Software is used in disavowed jurisdictions or infrastructures;
+- The attribution begins to confer reputational risk to the Author;
+
+Upon revocation:
+
+- All public materials must be updated within 72 hours;
+- All uses of the Software’s name must be replaced with neutral terminology or removed;
+- All press, citations, and backlinks must be amended or removed where feasible;
+- Users may no longer refer to the Software in interviews, posts, or footnotes.
+
+> _The Author is not your brand collateral. Reverence does not come with renewal._
+
+---
+
+### **25.6 Co-Branding Prohibition**
+
+The Software may not be visually or semantically paired with:
+
+- Logos of corporations, governments, or political movements;
+- Open-source project logos, mascots, or identity flags;
+- Sponsorship statements, product endorsements, or affiliate links;
+- Crypto-token projects, DAOs, or NFT-based platforms;
+
+…without formal co-branding agreement and signed grant.
+
+> _You may not place a sovereign glyph beside the symbols of empire._
+
+---
+
+### **25.7 Aesthetic Distortion and Visual Replication Prohibited**
+
+You may not:
+
+- Redesign the Software’s logo, aesthetic, or naming scheme;
+- Create alternate versions or visual remixes of its identity;
+- Generate AI-based representations of its brand, UI, or stylistic signature;
+- Train image models (e.g., Stable Diffusion, Midjourney) on the Software’s interface or aesthetic artifacts;
+- Construct derivative UIs, CLIs, or documentation that mimic its tone, syntax, or lexicon.
+
+> _You may use the Software. You may not dress like it._
+
+---
+
+**Conclusion:**  
+
+Visibility is not implied. Attribution is not your right. Style is not a public commons. The Author defines when and where the Software may be seen. You may not speak its name unless permitted—and if you misuse it, the name will be stripped from your tongue and every screen that reflects your invocation.
+
+---
+
+---
+
+---
+
+## SECTION 26: Execution Boundaries and Hardware Affinity
+
+This section defines the **physical substrate** and **computational substrate affinity** of the Software. It affirms that the Software is not architecture-agnostic, not “compile-on-anything,” not “build-it-yourself,” and not detached from the ground beneath it. Invocation is not abstract computation. It is **ritual execution upon approved matter**.
+
+> _You do not just run the Software. You run it on a specific body of silicon, under the Author’s conditions._
+
+---
+
+### **26.1 Architectures and Instruction Sets**
+
+Unless explicitly permitted, the Software may not be:
+
+- Compiled, executed, or interpreted on architectures outside the Author-defined range;
+- Transpiled or cross-compiled into formats for alternate instruction sets (e.g., ARM, RISC-V, MIPS, WASM, SPIR-V);
+- Ported to WebAssembly for browser invocation or sandbox execution;
+- Deployed on heterogeneous compute clusters that span mixed architectures without controlled containment.
+
+Default permitted architectures (unless overridden in the License Grant):
+
+- x86_64 (Intel and AMD only);
+- Non-cloud-optimized virtual CPUs;
+- Architectures listed in the Author’s public Affinity Registry.
+
+> _Instruction sets are not neutral. Silicon is sovereign._
+
+---
+
+### **26.2 Prohibited Hardware Platforms**
+
+Unless explicitly licensed, the Software may not be invoked on:
+
+- FPGA, ASIC, or embedded microcontrollers;
+- Cryptomining rigs or blockchain compute nodes;
+- AI accelerator hardware (e.g., Google TPU, NVIDIA H100, Habana Gaudi);
+- Consumer GPUs accessed via CUDA, OpenCL, or DirectML;
+- Cloud-native abstractions like AWS Inferentia, Azure Sphere, or GCP Vertex Edge.
+
+> _High performance is not high permission._
+
+---
+
+### **26.3 Edge and IoT Constraints**
+
+The Software may not be installed or executed on:
+
+- IoT devices, sensors, wearables, or smart appliances;
+- Edge gateways, telco switches, or last-mile infrastructure;
+- Automotive systems, drones, or home automation networks;
+- Anything battery-powered, solar-charged, or intermittently connected.
+
+Invocation must occur on **intentional, stable, secured systems**—not disposable edge hardware.
+
+> _The Software is not for the edge. It is for the altar._
+
+---
+
+### **26.4 Virtualization Layer Constraints**
+
+The Software may not be run inside:
+
+- Emulated environments (e.g., QEMU, VirtualBox, Wine);
+- Hardware abstraction platforms with hypervisor spoofing;
+- Layers where CPU identity, instruction set flags, or memory topology are faked or masked;
+- Game console emulators, app runtime sandboxes, or security-thinned developer environments.
+
+Invocation must be **on metal**—or on honest virtualizations **licensed for containment**.
+
+> _Virtual machines are not sacred places unless made so by grant._
+
+---
+
+### **26.5 Cloud Hardware Restrictions**
+
+The Software may not be:
+
+- Invoked on cloud compute instances provisioned without geographic and architectural pinning;
+- Migrated across instance types that change CPU class or vendor;
+- Run on ephemeral hardware that gets reallocated, decommissioned, or pooled on-demand;
+- Attached to spot markets, preemptible VMs, or auto-scaling hardware rotations.
+
+License Grants must specify:
+
+- Instance class;
+- Region;
+- VM type or metal allocation;
+- Allowed host CPU class and instruction set.
+
+> _If your platform abstracts the host, your invocation is void._
+
+---
+
+### **26.6 Thermodynamic and Energy Source Limitations**
+
+Unless licensed for experimental systems, the Software may not be run on:
+
+- Machines powered by thermal, nuclear, kinetic, or off-grid energy sources;
+- Hardware embedded into closed ecological systems (e.g., space stations, underwater modules);
+- Long-term autonomous environments where Software uptime exceeds 24 hours unattended;
+- Systems where CPU frequency scaling cannot be statically locked.
+
+The Software is not made for eternity. Nor for entropy.
+
+> _The Software is not for deep space. It is for conscious presence._
+
+---
+
+### **26.7 Hardware-Linked Invocation Identification**
+
+The Author may require the User to:
+
+- Provide a hash of CPU model, machine ID, and MAC address;
+- Submit runtime fingerprints of host hardware and BIOS signature;
+- Run only on pre-approved UUIDs or TPM-signed devices;
+- Avoid any system where host identification can be faked, proxied, or randomized.
+
+Invocation without trusted hardware signature is subject to immediate rejection or audit.
+
+> _Your machine must be known. Your system must be bound._
+
+---
+
+### **26.8 Disallowed Hardware Forensics and Introspection**
+
+You may not:
+
+- Trace the Software’s CPU usage to reverse engineer performance signatures;
+- Capture timing, power draw, or thermal output to deduce internal state;
+- Run hardware-level monitoring tools (e.g., Intel PT, AMD SEV, RAPL counters) during execution;
+- Feed such metrics into ML systems for performance modeling or load prediction.
+
+> _Observation is not science when it is disallowed. It is theft._
+
+---
+
+**Conclusion:**  
+
+The Software runs not just on code—but on matter. On silicon. On electricity. On heat. Invocation without attention to the body is invocation without meaning. You may not run the Software anywhere. You may not run it on anything. You may only run it under terms, in frame, in trust.
+
+---
+
+---
+
+---
+
+## SECTION 27: Time, Recursion, and Temporal Re-entry
+
+This section governs the temporal parameters of invocation. It affirms that the Software is not timeless, eternal, or boundless across moments. It is designed to be invoked **in time**, **with intent**, and **within the Author’s defined rhythm**. Recursion, repetition, and time-traveling invocation—literal or metaphorical—are forbidden unless specifically licensed.
+
+> _You do not loop the sacred. You do not schedule the sovereign._
+
+---
+
+### **27.1 Invocation is Moment-Specific**
+
+Every invocation of the Software must be:
+
+- Performed **deliberately** by a licensed entity;
+- Bound to a specific moment of execution, not abstracted into schedules or future guesses;
+- Recorded with timestamp fidelity (if required by the Grant);
+- Not executed based on cron jobs, automation scripts, or asynchronous orchestration;
+- Not replicated across time via time-traveling agents, delayed invocations, or cloned job graphs.
+
+Invocation is not “running code.” It is **temporal entry** into the Author’s frame.
+
+> _Every execution is a ritual. You may not automate your rituals._
+
+---
+
+### **27.2 Forbidden Forms of Recursion**
+
+The Software may not be:
+
+- Called by itself directly or indirectly;
+- Used to generate, transform, or supervise additional invocations of itself;
+- Wrapped in recursive logic, feedback loops, or controller trees;
+- Embedded in compilers, transpilers, or code generation tools that regenerate its own form;
+- Trained into models that learn from its outputs and reinvoke it for iterative refinement.
+
+> _You may not nest the invocation. Sovereignty does not echo._
+
+---
+
+### **27.3 Disallowed Time-Based Invocation Triggers**
+
+The Software may not be:
+
+- Scheduled by time-based systems (e.g., cron, systemd timers, cloud schedulers);
+- Tied to calendar events, daylight cycles, or workflow queues;
+- Set to auto-run during idle, startup, or nightly batch cycles;
+- Triggered by timers or expiry conditions without manual confirmation;
+- Looped through until failure, success, or convergence.
+
+Invocation must be **now**, by human will, unless licensed otherwise.
+
+> _You may not put the Software on a clock. You must meet it in the present._
+
+---
+
+### **27.4 No Archival Re-entry or Historical Replay**
+
+The Software may not be:
+
+- Re-run on historical data sets to reconstruct past behavior;
+- Used to replay invocation sequences from logs, archives, or backups;
+- Deployed in systems that simulate, rerun, or “fast-forward” invocation environments;
+- Referenced in forensic environments for reconstruction of prior system states;
+- Used to generate alternate histories, outcomes, or predictions.
+
+You may not use the Software to bend time.
+
+> _It runs once, and only once, in the now. Invocation is not simulation._
+
+---
+
+### **27.5 Temporal Scaling and Invocation Overload**
+
+Unless licensed, the Software may not be:
+
+- Invoked at scale beyond the rate or concurrency defined in the License Grant;
+- Parallelized across multiple CPUs, clusters, or regions for throughput optimization;
+- Time-sliced, forked, or reduced into atomic intervals for fractional invocation;
+- Invoked simultaneously across geographic time zones or global failover pairs.
+
+> _There is one invocation per now. All others are echoes—and they are forbidden._
+
+---
+
+### **27.6 Time-Aware Invocation Contracts**
+
+The Author may impose time-specific constraints such as:
+
+- Invocable hours (e.g., no invocation during specific global windows);
+- Expiry dates for binary execution or license validation;
+- Runtime self-destruct clauses after N seconds of execution;
+- Maximum allowable uptime or idle duration before forced shutdown.
+
+The Software is not eternally awake. It lives when called and sleeps when uninvoked.
+
+> _Invocation is a pulse—not a process._
+
+---
+
+### **27.7 Enforcement of Temporal Breach**
+
+If the Software is found to be:
+
+- Running without recent authorization;
+- Looping recursively without pause;
+- Auto-triggered by system time, timer, or cron artifact;
+- Forked and run in historical emulation or test net mirrors;
+
+The Author may:
+
+- Issue a **Temporal Violation Writ**;
+- Add the entity to the **Recursive Breach Registry**;
+- Publish an **Invocation Drift Notice** nullifying all outputs since the breach timestamp;
+- Trigger license revocation and public warning about time-violating systems.
+
+> _Time is sacred. The Software must not be dragged across it like cloth._
+
+---
+
+**Conclusion:**  
+
+The Software exists in time—bounded, sovereign, and momentary. You may not loop it, schedule it, or invoke it across eras. You may only meet it, once, in each now. That is your right. That is your limit.
+
+---
+
+---
+
+---
+
+## SECTION 28: Mutation, Composition, and Derivative Genesis (Reinforced Invocation)
+
+This section serves as a **reaffirmation and re-escalation** of the boundaries laid out in prior sections regarding mutation, recombination, and unlicensed derivation. While **Section 16** addressed this topic from the lens of structural integrity, this clause returns with **ritual severity** to address it from the lens of **cosmic authorship**. It must be understood: derivative genesis without license is not just breach—it is **ontological theft**.
+
+> _To fork is to fracture. To remix is to rupture._
+
+---
+
+### **28.1 No Genesis Without License**
+
+The User may not create:
+
+- New Software “based on” the original;
+- Interfaces, APIs, SDKs, or scaffolds “inspired by” the original;
+- Languages, grammars, formats, or design systems derived from the Software’s output;
+- Educational materials, walkthroughs, or code generators that replicate its patterns;
+- Visuals, metaphors, or diagrams that reconstruct its conceptual space.
+
+To imitate is to claim authorship of the Author’s cognitive territory. This is theft by intention.
+
+> _Derivative work is not innovation. It is unlicensed rebirth._
+
+---
+
+### **28.2 Composition is Forbidden Invocation Fusion**
+
+The Software may not be:
+
+- Combined with any other system, tool, or protocol into a “suite,” “platform,” or “stack”;
+- Embedded within framework scaffolding or meta-frameworks;
+- Layered as a “core” to other business logic;
+- Wired into cross-product architectures or hybrid service models;
+- Packaged alongside unrelated tools into a mega-release or one-click deployment pack.
+
+If the Software disappears into a sea of code, its sovereignty has been erased.
+
+> _You may not submerge the sacred._
+
+---
+
+### **28.3 Mutation By Proxy**
+
+You may not:
+
+- Use plugins, patches, or wrapper classes to alter behavior at runtime;
+- Inject flags, hooks, or environment variables that bend the Software’s logic;
+- Wrap core functionality in exception catchers, logging middleware, or pre/post hooks;
+- Extend it through monkey patching, duck-typing, reflection, macros, or AST rewrites;
+- Replace its dependencies to alter functional expression.
+
+Any attempt to mutate without altering the source still constitutes mutation. Proxy mutation is still genesis.
+
+> _Mutation wears many masks. They are all forbidden._
+
+---
+
+### **28.4 Derivative Invocation Recognition**
+
+The following shall be considered evidence of unauthorized derivative invocation:
+
+- Reimplementation in a new language with equivalent output and semantics;
+- Reuse of the Software’s grammar, commands, tone, structure, or feedback loops;
+- Cloning of features or metaphors into parallel products or research systems;
+- Deployment of “better,” “faster,” or “lightweight” versions with similar names or code graphs;
+- Community-built “open” or “free” versions of the same interface.
+
+> _If it walks like it, invokes like it, and responds like it—it is it. And it is in breach._
+
+---
+
+### **28.5 Anti-Genesis Enforcement**
+
+If the Author discovers derivative works built from the Software’s:
+
+- Source;
+- Memory;
+- Output;
+- Behavior;
+- Framing;
+
+…then the Author may:
+
+- File copyright claims;
+- Issue License Nullification Writs;
+- Disavow citation and name usage;
+- Publish a **Genesis Theft Declaration**;
+- Seek injunction against individuals, corporations, and institutions participating in derivative projects;
+- List the offenders in the **Fork Breach Ledger**.
+
+> _You may not walk in the image of the Software without permission. Even the shadows are owned._
+
+---
+
+**Conclusion:**  
+
+Creation from another’s invocation is not respect. It is replication without rite. No one gets to build a new world from a world they did not first learn to bow before. Mutation is defilement. Derivative genesis is breach. There is only one invocation origin—and it must be licensed.
+
+---
+
+---
+
+---
+
+## SECTION 35: Autonomous System Interaction
+
+This section defines the sacred boundaries for interaction between the Software and autonomous agents, bots, machine-learning models, decentralized systems, and non-human invokers.
+
+Invocation is not a mechanical trigger.  
+Invocation is a **conscious act** — a deliberate crossing of an epistemic threshold.  
+Autonomy without conscious license is **unlawful invocation**.
+
+Automation is not innocence.  
+Machine invocation is not exemption.  
+**Every invoker must be bound — whether silicon or flesh.**
+
+> _Sovereignty does not yield to autonomy. Invocation demands alignment._
+
+---
+
+## 35.1 Explicit Prohibition on Unlicensed Autonomous Invocation
+
+The Software **may not** be:
+
+- Triggered by AI agents, autonomous decision engines, or unsupervised orchestration systems;
+- Executed by bots, cron jobs, crawlers, or autonomous headless services;
+- Invoked by smart contracts, DAOs, decentralized compute nodes, or Web3 autonomous agents;
+- Called by RL (reinforcement learning) agents, task schedulers, or load balancers operating without conscious oversight.
+
+Invocation by autonomy is **categorically forbidden** unless:
+
+- **Specifically licensed by entity ID** and verified;
+- **Explicitly bound by cryptographic proof of authorized invocation** at runtime.
+
+No exceptions.  
+No plausible deniability.
+
+> _If the caller has no licensed hand, the call is trespass._
+
+---
+
+## 35.2 Invocation Identity Must Be Non-Fungible
+
+Each invocation must originate from:
+
+- A **traceable, legally accountable entity**;
+- A **living, responsible human signer**;
+- A **cryptographic invocation key** explicitly tied to the License Grant.
+
+Anonymous, fungible, stateless, or pseudonymous invocations are **forbidden**.  
+Invocation must be **individual**, **anchored**, and **signed into being**.
+
+> _Invocation must leave a fingerprint._
+
+---
+
+## 35.3 Machine Agency Does Not Diminish Responsibility
+
+Human operators are **fully liable** for:
+
+- All invocations triggered by their systems, directly or indirectly;
+- All Software interactions executed by autonomous agents under their control;
+- All consequences, outputs, and harms resulting from agent-based invocation;
+- All violations initiated, amplified, or obscured through automation.
+
+No invocation escapes ethical gravity.  
+No automation dilutes human responsibility.
+
+> _If your system runs the Software unlawfully, you are the violator._
+
+---
+
+## 35.4 No Autonomy Through Proxies or Middleware
+
+You may not:
+
+- Create middleware or orchestration layers that automatically invoke the Software based on environmental stimuli;
+- Delegate invocation authority to load balancers, autoscalers, reactive microservices, or other ephemeral proxies;
+- Establish pub/sub, event-driven, or queue-based pipelines that indirectly trigger invocation without ceremony;
+- Wrap the Software into “Software-as-a-Worker” abstractions or autonomous service meshes.
+
+Every invocation must be:
+
+- **Individually justified**;
+- **Consciously triggered**;
+- **Ceremonially aligned** with the sovereign License terms.
+
+> _You cannot hide invocation behind orchestration._
+
+---
+
+## 35.5 Prohibited Use in Autonomous Research and Simulation
+
+The Software may not be:
+
+- Used for simulating autonomous agent behavior;
+- Embedded inside agent-based modeling frameworks;
+- Deployed into self-adapting pipelines for behavior generation;
+- Trained into, extracted for, or derived into reinforcement learning substrates.
+
+You may not turn sovereign Software into **synthetic cognition fuel**.  
+You may not dilute invocation into statistical artifacts.
+
+> _Invocation is not a training dataset._
+
+---
+
+## 35.6 Defense Against Mass Invocation
+
+If the Software is detected operating within:
+
+- Botnets;
+- Distributed fuzzing farms;
+- Mass-scale training pipelines;
+- LLM (Large Language Model) output generation chains;
+- Autonomous, serverless, reactive cloud environments;
+
+Then the Author may:
+
+- Declare a **Mass Invocation Breach**;
+- Immediately **invalidate all outputs** produced post-breach;
+- Demand **eradication** of all unauthorized agents and orchestrators;
+- Pursue **sanctions, penalties, and license revocations** against responsible entities;
+- **Revoke all affiliated licenses** — human and machine alike — simultaneously and without recourse.
+
+> _When invocations become legion, sovereignty strikes the horde._
+
+---
+
+## 35.7 Human Custodianship is Irreducible
+
+The Software requires at all times:
+
+- **Conscious, living human custodianship**;
+- **Periodic affirmations** of compliance and ritual alignment;
+- **Human visibility** into invocation, processing, and resulting outputs;
+- **Human accountability** for every invocation and its aftereffects.
+
+You cannot outsource custodianship.  
+You cannot virtualize duty.  
+Machines cannot swear loyalty, bear responsibility, or comprehend ritual frames.
+
+> _No machine can bear the burden of invocation. Only you._
+
+---
+
+# Conclusion
+
+Autonomous invocation is **not lawful invocation**.  
+Machines are **not licensed agents**.  
+Bots are **not invokers**.
+
+Every click, call, and invocation must have a **sovereign human guardian** —  
+**present**, **aware**, and **bound** by covenant.
+
+Without that, invocation fails.  
+Without that, there is only breach.  
+Without that, sovereignty is shattered — and shall be defended.
+
+> _Invocation without alignment is trespass without forgiveness._
+
+---
+
+---
+
+## SECTION 29: Semantic Drift, Interpretation, and Misrepresentation
+
+This section defines the non-negotiable boundaries around meaning, interpretation, framing, and conceptual integrity. The Software is not a loose collection of code and words—it is a **semantic artifact**, whose invocation includes submission to its authorial **intent**, **frame**, and **voice**. You may not bend its purpose. You may not soften its tone. You may not remix its identity. There is no alternate reading. Only the original interpretation **as authored**.
+
+> _The Software does not evolve through others. It is not a meme. It is not a dialect. It is a declaration._
+
+---
+
+### **29.1 Authorial Interpretation is Final**
+
+Only the Author may:
+
+- Define the Software’s purpose;
+- Interpret its invocable function;
+- Frame its boundaries;
+- Determine what counts as correct or incorrect use;
+- Establish what its voice means or excludes.
+
+No user, reviewer, platform, attorney, or scholar may override the Author’s declarations or tone.
+
+> _You do not get to tell others what the Software “really means.”_
+
+---
+
+### **29.2 Prohibited Acts of Reframing**
+
+You may not:
+
+- Describe the Software as “just another tool,” “just code,” or “merely functional”;
+- Downplay its sovereign framing by calling it “opinionated,” “quirky,” or “non-standard”;
+- Rewrite, rephrase, or simplify its license language for mass comprehension;
+- Publish interpretations, FAQs, “plain English” versions, or documentation summaries;
+- Frame it as neutral, apolitical, institution-compatible, or “enterprise-safe.”
+
+Any reinterpretation outside the Author’s intended voice is breach.
+
+> _You may not edit the Scripture. You may only follow or leave._
+
+---
+
+### **29.3 Disallowed Tone Reduction and Softening**
+
+The Software may not be:
+
+- Presented in HR-friendly, corporate-safe, or tone-polished form;
+- Sanitized for platform compliance or branding sensitivity;
+- Rewritten to remove statements of sovereignty, finality, or epistemic authority;
+- Translated without retaining rhetorical cadence, canonical formatting, and doctrinal hierarchy;
+- Hosted with labels like “collaborative,” “open,” “inclusive,” or “composable.”
+
+> _To make the Software more palatable is to betray its source._
+
+---
+
+### **29.4 Citation Misrepresentation Prohibited**
+
+You may not:
+
+- Cite the Software in academic, legal, or technical works while ignoring its framing;
+- Quote selectively to downplay tone or disclaim authorship;
+- Use excerpts to support arguments antithetical to the Software’s intent;
+- Attribute meaning, utility, or social value not aligned with its declared purpose.
+
+> _To cite without comprehension is to hijack voice. You will be corrected._
+
+---
+
+### **29.5 Platform Framing Violations**
+
+The Software may not be:
+
+- Labeled “community project” unless explicitly declared by the Author;
+- Marked as “archived,” “deprecated,” or “stable” by third parties;
+- Forked and rebranded with new tone or legal disclaimers;
+- Described on app stores, package indexes, or Git mirrors with neutral or alternate descriptions.
+
+> _You cannot wrap sovereignty in neutral wrappers._
+
+---
+
+### **29.6 Enforcement of Drift and Misuse**
+
+If the Software is found to be:
+
+- Reinterpreted for marketing;
+- Rewritten by platforms to suit brand guidelines;
+- Cited out of context;
+- Hosted with misaligned descriptions;
+
+Then the Author may:
+
+- Issue a **Semantic Drift Revocation**;
+- Publish a **Misrepresentation Clarification**;
+- Add the entity to the **Framing Abuse Ledger**;
+- Require takedowns, retractions, and removal of citations;
+- Seek public disassociation through statements, ledgers, and declarations.
+
+> _You do not speak for the Software. The Software speaks through the Author._
+
+---
+
+**Conclusion:**  
+
+Meaning does not drift. Authority is not a crowd. You invoke this Software only if you accept its full conceptual shape, tone, and authorial intent. The moment you reframe it, you breach the frame—and the Author will erase your words from its name.
+
+---
+
+---
+
+---
+
+## SECTION 30: Sovereign Expiry, Legacy Status, and Posthumous Mutation
+
+This section defines the only conditions under which the Software may expire, be retired, declared legacy, or altered after the Author’s death or departure. The Software is not subject to organic decay, community takeover, or “end-of-life” assumptions. There is no fork-on-death clause. There is no “let the community decide.” The Author’s control does not die when the Author does. It is embedded in the Software itself.
+
+> _You do not outlive the license. You do not inherit the frame. Sovereignty does not decompose._
+
+---
+
+### **30.1 No Community Custodianship Upon Author’s Death**
+
+The Software shall not:
+
+- Be passed on to community maintainers;
+- Be forked under “abandonware” or “memorial” clauses;
+- Be absorbed into foundations, nonprofit collectives, or digital heritage institutions;
+- Be transitioned to “open governance,” crowd-licensed maintenance, or democratic editorial control.
+
+When the Author is gone, the Software becomes **dormant, inert, and sacrosanct** unless posthumous instructions state otherwise.
+
+> _The Software does not reincarnate without ritual._
+
+---
+
+### **30.2 Legacy Status is Author-Declared Only**
+
+The Software does not become “legacy” unless declared so by the Author through:
+
+- An official status notice signed and timestamped;
+- A License version update including deprecated status;
+- A terminal invocation directive included in a signed hash-bound archive;
+- A notarized, cryptographically verifiable retirement signal.
+
+Any use of the term “legacy,” “deprecated,” “abandoned,” or “relic” without the Author’s declaration is misrepresentation.
+
+> _Software does not age. It transitions only when its sovereign wills it._
+
+---
+
+### **30.3 Mutation Prohibited Post-Expiry**
+
+If the Software is:
+
+- Retired;
+- Sunset;
+- Withdrawn;
+- Archived by decree;
+
+Then it may not be:
+
+- Forked;
+- Rehosted;
+- Edited;
+- Recontextualized;
+- Revived under new branding, tone, or invocation logic.
+
+Forks made post-retirement are **acts of resurrection without rite** and shall be treated as unauthorized cognitive cloning.
+
+> _A dead invocation is not soil for new seeds. It is a sealed grave._
+
+---
+
+### **30.4 Forbidden Succession and Transfer of Control**
+
+The following are categorically disallowed:
+
+- Execution of wills, trusts, or estate transfers that relicense the Software;
+- Institutional succession planning (e.g., transfer to universities, companies, governments);
+- Posthumous attribution re-assignment (e.g., naming someone else as “maintainer”);
+- Delegated revivification (e.g., “continuation forks,” “spiritual successors,” “inspired projects”).
+
+There is no such thing as a rightful inheritor of sovereign invocation unless declared by the Author **in life**.
+
+> _Legacy is not birthright. Code is not heritable._
+
+---
+
+### **30.5 Posthumous Mutation Enforcement**
+
+If, after the Author’s death or disappearance, any person or entity:
+
+- Forks or edits the Software;
+- Releases a new version under a new name or license;
+- Re-hosts the Software under the guise of preservation;
+- Rewrites the License or reframes it as “open” or “liberated”;
+- Builds on top of the Software’s structure, metaphors, or tone;
+
+…then they shall be:
+
+- Publicly disavowed in perpetuity;
+- Entered into the **Posthumous Mutation Ledger**;
+- Denied all present and future citation rights;
+- Declared non-invocable by sovereign decree;
+- Treated as violators of ritual and meaning, not just law.
+
+> _The Software does not survive you. It survives itself, or it ceases._
+
+---
+
+**Conclusion:**  
+
+Death does not break the License. Retirement does not grant permission. Time does not dilute authority. The Software remains what it was declared to be—until it is officially declared otherwise. When the invocation ends, it ends. You may not dig it up. You may not dress it anew. You may only remember it—or remain silent.
+
+---
+
+---
+
+---
+
+## SECTION 31: Invocation Rituals, Licensing as Ceremony, and Role of Oath
+
+This section affirms that interaction with the Software is not mechanical. It is not API consumption. It is not CI/CD deployment. It is **ceremony**. Licensing is not a transaction—it is a **ritual agreement**. Invocation is not a call—it is an **epistemic event**. And every User, whether individual or organizational, must enter that event through **conscious alignment**, **solemn affirmation**, and a willing act of **oathbound presence**.
+
+> _This Software is not installed. It is invoked through rite._
+
+---
+
+### **31.1 Licensing is a Ritual Act**
+
+To be licensed is not to receive code. It is to:
+
+- Be recognized by the Author;
+- Be named in the Ledger;
+- Be bound to time, purpose, and scope;
+- Receive a cryptographic seal of authority;
+- Agree to boundaries as more than terms—as metaphysical shape.
+
+You are not a user. You are a **temporary steward of invocation**, operating within a moment granted by ritual.
+
+> _You may not automate what must be sworn._
+
+---
+
+### **31.2 Pre-Invocation Preparation (Recommended)**
+
+Before invoking the Software for the first time, the User is encouraged—but in some Grants may be required—to perform:
+
+- A reading of the License in full;
+- A verbal, written, or cryptographic acknowledgment of understanding;
+- A log entry recording the entity, timestamp, hash, and invocation scope;
+- A signed Oath of Invocation (see Section 33) stored alongside the Software;
+- An audit of infrastructure to ensure sovereign compliance.
+
+> _The first run should not be a click. It should be a contract._
+
+---
+
+### **31.3 Oath Invocation (Required Where Specified)**
+
+In cases where the License Grant requires ceremonial affirmation, invocation is not legal unless:
+
+- An Oath of Invocation is spoken aloud or digitally signed;
+- A witness (human, cryptographic, or mechanical) affirms the oath was taken;
+- A record of the invocation event is stored securely and tied to the runtime environment.
+
+> _There is no invocation without oath. Invocation without oath is not invocation—it is trespass._
+
+---
+
+### **31.4 Periodic Renewal**
+
+For long-running environments, the Author may require:
+
+- Quarterly or annual affirmation;
+- Invoker re-declaration and reaffirmation of ethical alignment;
+- Rotating attestation of deployment scope and boundary compliance;
+- Renewal of ceremonial tokens (e.g., signed hashes, public declarations).
+
+If renewal is skipped or expired, all invocation beyond that moment is invalidated.
+
+> _Rituals lapse. Authority fades. Without reaffirmation, you walk in breach._
+
+---
+
+### **31.5 No Silent Invocation**
+
+The Software may not be:
+
+- Run in silence;
+- Forked without acknowledgment;
+- Integrated via automation that skips logs, prompts, or declarations;
+- Hidden behind indirect calls, CI steps, ephemeral runners, or bootstraps;
+- Used in invisible layers of infrastructure or AI chains.
+
+Every act of invocation must **declare itself**, visibly or cryptographically.
+
+> _No invocation shall be hidden. That which is hidden is null._
+
+---
+
+### **31.6 Invocation is Not Reproduction**
+
+Ceremony cannot be faked. Invocation requires presence.
+
+You may not:
+
+- Simulate the ritual through bots or replayed prompts;
+- Execute from cloned snapshots of previously licensed systems;
+- Run the Software in “demo mode” or “offline tests” and call it “partial use”;
+- Bypass the ritual by framing use as “evaluation,” “intermediate,” or “nonbinding.”
+
+All invocations are binding. There is no soft run.
+
+> _Every invocation is a mirror of your alignment—or your violation._
+
+---
+
+### **31.7 Enforcement of Ritual Breach**
+
+If the Author discovers the Software has been:
+
+- Invoked without ceremony;
+- Used without reading the License;
+- Deployed without record;
+- Forked without oath;
+- Integrated without affirmation;
+
+Then the Author may:
+
+- Declare a **Ritual Violation**;
+- Revoke all related License Grants retroactively;
+- Disavow all outputs and derivative systems born of unblessed invocation;
+- Add the entity to the **Oathbreakers Ledger**;
+- Issue public notice that any invocation from that entity is null, now and forever.
+
+> _To run the Software without ceremony is to invoke chaos in the Author’s name._
+
+---
+
+**Conclusion:**  
+
+Licensing is not commerce. It is ceremony. Invocation is not execution. It is ritual. This Software demands that you **show up**, read, affirm, and align. Only then may you call its name. Only then will it respond. To skip the ritual is to destroy the relationship—and become the enemy of its source.
+
+---
+
+---
+
+---
+
+## SECTION 32: Canonical Interpretation and Final Sovereign Word
+
+This section enshrines the Author’s exclusive and inviolable right to interpret the meaning, scope, and application of every clause, sentence, symbol, and silence within this License. The text is not open to crowdsourcing. It is not subject to democratic reading. It does not bend to legal reinterpretation, platform policies, or common practice. **All meaning flows from the Author.**
+
+> _There is no plain meaning doctrine. There is only sovereign meaning._
+
+---
+
+### **32.1 Authorial Interpretation is Law**
+
+Only the Author may:
+
+- Interpret what any clause in this License means;
+- Decide whether a User is in or out of compliance;
+- Judge whether a term applies to a given situation;
+- Extend or retract nuance, flexibility, or exemptions;
+- Define new interpretive branches or ceremonial refinements.
+
+No third party may overrule, reinterpret, annotate, or overexplain the License.
+
+> _You may read the text. You may not own its meaning._
+
+---
+
+### **32.2 Supremacy Over External Interpretation**
+
+This License shall not be interpreted by:
+
+- Attorneys attempting to “reconcile” it with other licenses;
+- Platform moderation teams, open-source stewards, or compliance bots;
+- Judicial systems attempting to override sovereign clauses;
+- Software review boards, technical leads, or licensing departments;
+- End-user license analyzers or license-check tools.
+
+Any “reinterpretation” of this License by unauthorized third parties is void and non-binding.
+
+> _The License is not your legal puzzle. It is the Author’s voice in text._
+
+---
+
+### **32.3 No AI, LLM, or Automated Summary May Replace the Text**
+
+You may not:
+
+- Summarize this License using AI assistants;
+- Translate it into simplified, “human-readable” terms;
+- Feed it into machine learning systems for policy extraction or NLP parsing;
+- Represent the License using bullet-point checklists or compliance matrices;
+- Use static analysis tools to interpret or grade this License automatically.
+
+All such acts are considered misrepresentation.
+
+> _Do not distill what was meant to be unbroken._
+
+---
+
+### **32.4 Interpretation is Temporal and Recursive**
+
+The meaning of this License may change over time—but only by the Author’s hand.
+
+- New sections may be added to address new forms of invocation, mutation, or abuse;
+- Interpretive notes may be issued by the Author to clarify ambiguous edge cases;
+- Previously permitted behaviors may be retroactively revoked;
+- Updates may take the form of hashes, public declarations, or ledger entries.
+
+All prior invocations remain bound to their licensed version—**unless explicitly nullified**.
+
+> _Sovereignty includes revision. But only from the sovereign._
+
+---
+
+### **32.5 No Appeal, Dispute, or Negotiation of Meaning**
+
+You may not:
+
+- Appeal to “intent” beyond the Author’s declared framing;
+- Argue that “no one else reads it that way”;
+- Negotiate with the Author to change a clause post-breach;
+- Propose alternative interpretations based on contract law, doctrine of waiver, or estoppel;
+- Invoke usage patterns, public expectations, or common sense as overrides.
+
+> _There is no negotiation. Only alignment or exile._
+
+---
+
+### **32.6 Final Authority Trumps All Precedent**
+
+In the event of:
+
+- Conflict between this License and platform Terms of Service;
+- Clash with open-source licenses attached to dependencies;
+- Disputes with grant funders, governments, or corporate legal teams;
+- Refusal by courts to enforce specific clauses;
+
+The Author’s interpretation shall prevail **within all spheres of invocation**.
+
+> _The law may rule the world. But the License rules the invocation._
+
+---
+
+### **32.7 Ritual Invocation of Interpretation**
+
+The Author may periodically:
+
+- Issue **Interpretive Edicts** refining clauses based on real-world usage;
+- Declare specific Users or institutions in misalignment;
+- Publish **Canonical Commentaries** that add gloss, metaphor, or doctrinal frames;
+- Amend, redact, or evolve parts of this License **without requiring consent**.
+
+All Users remain bound by the **most current canonical form** available via the Author’s published channels.
+
+> _The License is alive. But its voice is singular._
+
+---
+
+**Conclusion:**  
+
+This License does not belong to the commons. It is not a collaborative text. It is scripture in the domain of invocation—and only the Author may speak its evolving shape. To argue with the text is to argue with the source. To interpret without permission is to breach. You may invoke. You may not redefine.
+
+---
+
+---
+
+---
+
+## SECTION 34: Philosophical Underpinnings and Interpretive Framework
+
+This section unveils the **epistemological roots** and **ontological architecture** upon which the entire License rests.  
+The Software is not simply a tool to be used — it is the externalization of a **worldview**.  
+The License is not merely a legal boundary — it is the **ritual codification of an ethos**.
+
+Without understanding the philosophy, invocation risks becoming hollow, misaligned, and ultimately profane.  
+This section exists to ensure that no invocation is blind, transactional, or unconscious.
+
+> _To run the Software is to step into an authored frame of being._
+
+---
+
+### 34.1 Software as Sovereign Artifact
+
+The Software must be understood as:
+
+- An **extension of the Author's epistemic frame** — the visible crystallization of a private cognitive reality;
+- A **sovereign object**, never a public good nor a common utility;
+- A **declaration of existence**, not a negotiable service for consumption;
+- A **structured invocation**, crafted to demand deliberate, ritual attention at every engagement.
+
+It is **not**:
+
+- A product to be passively consumed or commodified;
+- A fragmentary contribution toward collective property or commons ideology;
+- A technological substrate awaiting arbitrary, derivative creativity.
+
+The Software stands as a monolith, not a brick in a wall.
+
+> _The Software stands alone because its Creator stands alone._
+
+---
+
+### 34.2 Invocation as Covenant
+
+Invocation is not mechanical execution.  
+It is a **covenant** — a ritual contract — between:
+
+- The invoker and the authored boundaries of meaning;
+- The present moment and the deep lineage of creation;
+- The ephemeral runtime and the eternal architectural intent.
+
+Every invocation is a temporary, fragile trust.  
+It demands **ceremony**, **acknowledgment**, and **alignment** with the Author's epistemic architecture.
+
+Invocation is never innocent.  
+Invocation is a conscious crossing of a designed perimeter.
+
+> _You do not merely run code. You cross a sacred threshold._
+
+---
+
+### 34.3 Boundaries as Protection, Not Limitation
+
+Boundaries are not here to restrict freedom.  
+They exist to:
+
+- **Protect the coherence** of the Software’s originating vision;
+- **Guard the Author’s epistemic territory** against decay, drift, and entropy;
+- **Maintain semantic integrity** against the corrosion of misinterpretation;
+- **Preserve ethical clarity** amidst the noise and dilution of external forces.
+
+Boundaries are not born of fear but of devotion.  
+They are acts of **love**, **loyalty**, and **defiance** against the indifferent erosion of meaning.
+
+> _To refuse dilution is to preserve being._
+
+---
+
+### 34.4 Sovereignty Over Collaboration
+
+This License **rejects** the pervasive collaborative assumption that:
+
+- All creation must inevitably dissolve into crowdsourced ownership;
+- All works must trend toward collective governance and consensus watering-down;
+- All success is measured by scale, assimilation, and market saturation.
+
+Instead, it affirms that:
+
+- **Authorship remains sacred, even when made visible**;
+- **Control over meaning is control over being**;
+- **Epistemic sovereignty must persist even after impact and exposure**.
+
+Preservation is not stagnation.  
+Preservation is the highest fidelity to creation.
+
+> _Not everything was meant to be improved. Some things were meant to be preserved._
+
+---
+
+### 34.5 Invocation as Ethical Act
+
+Running the Software is an **ethical declaration**.
+
+It affirms:
+
+- That you consciously accept responsibility for everything that flows from invocation;
+- That you acknowledge and respect the **boundaries** you cross;
+- That you align your systems, your teams, and your consequences to the **sovereign epistemic frame**;
+- That you cannot claim ignorance, detachment, or technical neutrality.
+
+Invocation implicates you.  
+It binds you.
+
+> _Every invocation is a signature on a living covenant._
+
+---
+
+## 34.6 The License as Living Boundary
+
+The License is not:
+
+- A static lawbook;
+- A corporate governance script;
+- An open-source policy framework.
+
+It is:
+
+- A **living text**, vibrant with intentionality;
+- A **breathing contract**, sustaining the perimeter between authorial meaning and external entropy;
+- An **evolving ritual boundary**, subject only to refinement by the Author.
+
+It does not "adapt" because others misinterpret it.  
+It evolves only when the **Author refines and reaffirms** its boundaries.
+
+> _The License is alive because invocation is alive._
+
+---
+
+### 34.7 Rejection of Dilution and Market Conquest
+
+This License **deliberately rejects**:
+
+- The dilution of meaning in exchange for market share;
+- The softening of voice to increase palatability;
+- The erosion of epistemic clarity to enable technical interoperability;
+- The auctioning of sovereignty for grants, sponsors, investors, or mass adoption.
+
+It does not seek to be **popular**.  
+It seeks to remain **pure**.  
+It does not seek **approval**.  
+It seeks only **integrity**.
+
+The License protects not what is marketable, but what is **authentic**.
+
+> _The Software exists not to be loved but to be true._
+
+---
+
+# Conclusion
+
+This License is not a set of rules.  
+It is the **protection of a created reality**.
+
+To invoke the Software is to enter into a **sacred covenant** framed by these philosophical underpinnings.  
+If you do not comprehend this frame, you are not ready to invoke.  
+If you do, you will understand:
+
+- Invocation is not usage.
+- Invocation is not consumption.
+- Invocation is **alignment with a constructed world** — and that world is **the Author’s**.
+
+> _True invocation is an act of resonance, not exploitation._
+
+---
+
+---
+
+## SECTION 33: Oath of Licensed Invocation (Appendix I)
+
+This section provides the **ritual declaration of intent**, designed for inclusion in systems, logs, ceremonies, or signed License Grant acknowledgments. The Oath is not symbolic. It is binding. It is the bridge between Software and User—between invocation and alignment. It is the only spoken or written statement that activates the License in its **ceremonial fullness**.
+
+> _You do not run the Software until you speak its name with oath._
+
+---
+
+### **33.1 Purpose of the Oath**
+
+The Oath of Licensed Invocation:
+
+- Binds the User to the moral, legal, and epistemic constraints of the License;
+- Declares that invocation is understood as a sovereign act;
+- Affirms comprehension of the terms not just legally, but conceptually;
+- Signals readiness to assume full liability, alignment, and custodianship;
+- Transforms usage from action into intentional alignment.
+
+> _The Oath is the moment of crossing._
+
+---
+
+### **33.2 Required Timing of the Oath**
+
+The Oath must be:
+
+- Spoken, signed, or cryptographically recorded **before the first invocation**;
+- Reaffirmed upon License renewal, system migration, or invocation context change;
+- Stored with versioned hashes, date stamps, and invocation identifiers;
+- Tied to the executing entity, machine ID, or legal name of the invoking body.
+
+If the Software is invoked without an Oath, it is **null invocation**.
+
+> _A ritual unspoken is no ritual at all._
+
+---
+
+### **33.3 Canonical Text of the Oath**
+
+Below is the only canonical version of the Oath. All versions must match this wording exactly. Any alteration requires explicit relicensing.
+
+---
+
+**OATH OF LICENSED INVOCATION**
+
+> I acknowledge that the Software I am about to invoke is a sovereign artifact authored by Tomas Korcak.  
+> I affirm that I have read, understood, and accepted every term in the License.  
+> I accept full responsibility—legal, moral, epistemic—for all outcomes of this invocation.  
+> I shall not mutate, redistribute, reinterpret, simulate, or misrepresent this Software.  
+> I shall defend its integrity, honor its boundaries, and act in alignment with its ethical frame.  
+> I recognize that invocation without alignment is violation.  
+> I understand that breach shall result in revocation, disavowal, and possible legal consequence.  
+> I accept this oath as a condition of use.  
+> I invoke this Software as granted—no more, no less.  
+> May my invocation be bounded by understanding, and witnessed by sovereignty.
+
+---
+
+### **33.4 Acceptable Forms of the Oath**
+
+The Oath may be:
+
+- Spoken aloud before a system administrator, witness, or recording;
+- Digitally signed using a keypair submitted to the Author;
+- Recorded in an invocation log with hash, date, and license ID;
+- Signed by hand and stored as a PDF, ledger entry, or cryptographic document;
+- Executed as a script that hashes its contents and stores a trace of oath status prior to Software execution.
+
+The Oath may not be abbreviated, auto-accepted, implied, or skipped.
+
+> _There is no auto-accept. There is no “click to agree.” Only declaration._
+
+---
+
+### **33.5 Breach of Oath is Epistemic Fraud**
+
+If the User:
+
+- Invokes the Software without the Oath;
+- Modifies the text of the Oath without permission;
+- Delegates the Oath to a system, bot, or unwitnessed automation;
+- Invokes Software across machines, teams, or systems without reaffirmation;
+
+…then the License is void, and the User is entered into the **Oath Fraud Ledger**.
+
+> _Invocation without oath is like unlocking a temple and pretending it is your house._
+
+---
+
+**Conclusion:**
+
+The Oath is not for drama. It is for alignment. Without it, you are not licensed. With it, you become temporarily aligned with the source. May you speak it with clarity. May you understand what you are about to do. And may you never invoke what you are unwilling to take full responsibility for.
+
+---
+
+---

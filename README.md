@@ -16,8 +16,7 @@
 [![Galerie](https://img.shields.io/badge/galerie-p5.js-ef4444?style=for-the-badge)](https://korczis.github.io/kompendium-epistemicke-anihilace/galerie/)
 
 [![Nasazení](https://github.com/korczis/kompendium-epistemicke-anihilace/actions/workflows/pages.yml/badge.svg)](https://github.com/korczis/kompendium-epistemicke-anihilace/actions/workflows/pages.yml)
-[![Text: CC BY-NC-SA 4.0](https://img.shields.io/badge/text-CC%20BY--NC--SA%204.0-4f46e5)](LICENSE-CONTENT.md)
-[![Kód: MIT](https://img.shields.io/badge/kód-MIT-6b7280)](LICENSE)
+[![Licence: GHL v1.0](https://img.shields.io/badge/licence-GHL%20v1.0-4f46e5)](LICENSE)
 [![Majordomus](https://img.shields.io/badge/dohled-Majordomus-111827)](https://majordomus.dev)
 
 </div>
@@ -50,11 +49,29 @@ zotavení**.
 | 🗂️ | [**Případy**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/historical-cases/) | anonymizované kazuistiky a historické případy: monstrprocesy, Zersetzung, normalizace, sekty, dezinformační kampaně, vědecké podvody |
 | 🛡️ | [**Obrana**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/self-defense-guides/) | sebeobrana, obrana organizací, prevence a odolnost, protokoly zotavení a krizové protokoly |
 | 📊 | [**Vizualizace**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/visualizations/) | interaktivní modely v Chart.js, p5.js a three.js, pojmové mapy v Mermaid |
+| 🕸️ | [**Mapa knihy**](https://korczis.github.io/kompendium-epistemicke-anihilace/mapa/) | interaktivní graf všech stránek a odkazů: oddíly, štítky, okolí každé stránky |
+| 📈 | [**Stav knihy**](https://korczis.github.io/kompendium-epistemicke-anihilace/stav/) | rozsah, provázanost a co ještě čeká, odvozené při každém sestavení |
 | 🎨 | [**Galerie**](https://korczis.github.io/kompendium-epistemicke-anihilace/galerie/) | generativní grafika v p5.js: rozpad sítě pojmů, eroze paměti, rekonstituce |
 | 📚 | [**Reference**](https://korczis.github.io/kompendium-epistemicke-anihilace/references/) | všechna citovaná literatura, bez duplicit, s odkazy na citující stránky |
 
 Rozsah knihy (stránky, techniky, případy, hesla glosáře, citované prameny) počítá úvodní
 stránka webu při každém sestavení.
+
+## Mapa a stav knihy
+
+<table>
+<tr>
+<td width="50%"><a href="https://korczis.github.io/kompendium-epistemicke-anihilace/mapa/"><img src="static/img/mapa-knihy.png" alt="Mapa knihy: oddíly kompendia jako uzly, síla čar odpovídá počtu odkazů mezi nimi."></a></td>
+<td width="50%"><a href="https://korczis.github.io/kompendium-epistemicke-anihilace/stav/"><img src="static/img/stav-knihy.png" alt="Stav knihy: počty stránek, slov a odkazů, sirotci a grafy podle oddílů."></a></td>
+</tr>
+<tr>
+<td><b>Mapa knihy</b>: síť odkazů mezi oddíly; na webu lze rozkliknout oddíl, štítek i okolí každé stránky.</td>
+<td><b>Stav knihy</b>: rozsah a provázanost v číslech; kontrola informační architektury dovolí čísla nedokončené práce jen snižovat.</td>
+</tr>
+</table>
+
+Každá stránka webu navíc ukazuje, **co na ni odkazuje**, **související stránky** a **graf
+svého okolí**; uzly v diagramech Mermaid vedou na stránky pojmů.
 
 ## Jak číst
 
@@ -91,14 +108,15 @@ npm run graphics   # obálka, social card, banner (SVG → PNG)
 ```
 
 Potřeba: Node.js 22+, [Zola](https://www.getzola.org/) ve verzi z `.zola-version`, Python 3.
-Animaci pro README a wiki renderuje z p5.js skici `scripts/render-p5-gif.cjs` (Playwright,
-ImageMagick).
+Animaci pro README a wiki renderuje z p5.js skici `scripts/render-p5-gif.cjs` a obrázky Mapy
+a Stavu knihy `scripts/render-readme-graphics.cjs` (Playwright, ImageMagick).
 
 | Vrstva | Kde |
 |---|---|
 | Generátor webu | Zola, `zola.toml` |
 | Vzhled | Flowbite Pro admin shell v `templates/`, Tailwind CSS 4, `styles/app.css` |
-| Chování | `static/js/site.js`: téma, hledání, Mermaid, grafy |
+| Chování | `static/js/site.js`: téma, hledání, klikací Mermaid, grafy |
+| Mapa a stav knihy | `static/js/viz/` (cytoscape.js, Apache ECharts, Alpine.js) nad `static/data/graph.json` a `metrics.json` |
 | Generativní grafika | `static/js/p5/grafika.js` (p5.js), `scripts/render-graphics.py` (SVG) |
 | Nasazení | `.github/workflows/pages.yml` na GitHub Pages, bez CDN |
 | Dohled | [Majordomus](https://majordomus.dev): `.ai/`, `AGENTS.md`, hooky v `.githooks/` |
@@ -106,9 +124,11 @@ ImageMagick).
 
 ## Licence
 
-Text, archiv a grafika: [CC BY-NC-SA 4.0](LICENSE-CONTENT.md). Uveďte autora, nepoužívejte
-komerčně a odvozená díla šiřte pod stejnou licencí. Kód: [MIT](LICENSE). Knihovny třetích
-stran: [NOTICE.md](NOTICE.md). Rozhodnutí: [ADR 0001](.ai/repo/adrs/0001-public-release-name-and-licence.md).
+Celý repozitář — text, archiv, grafika i kód — je pod **General Honest License (GHL) v1.0**
+([`LICENSE`](LICENSE), autoritativní text na
+[korczis/prismatic/docs/ghl](https://github.com/korczis/prismatic/tree/master/docs/ghl)).
+Knihovny třetích stran si ponechávají vlastní licence ([NOTICE.md](NOTICE.md)). Rozhodnutí:
+[ADR 0001](.ai/repo/adrs/0001-public-release-name-and-licence.md) a ADR 0003.
 
 Opravy a podněty: [Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues).
 

@@ -131,6 +131,51 @@
     });
   }
 
+  // Klikací uzly Mermaid:
+  // 1. `click Uzel "@/glossary/heslo.md"` ve zdroji diagramu → odkaz na stránku webu
+  //    (cesta se převede stejně jako interní odkazy Zola: _index.md → složka, .md → /);
+  // 2. uzel bez odkazu, jehož popisek odpovídá názvu stránky, se propojí přes index hledání.
+  function atPathToUrl(href) {
+    var base = body.getAttribute('data-base-url').replace(/\/$/, '').replace(/^https?:\/\/[^/]+/, '');
+    var m = /^@\/(.*?)(#.*)?$/.exec(href);
+    if (!m) return href;
+    var path = m[1].replace(/(^|\/)_index\.md$/, '$1').replace(/\.md$/, '/');
+    return base + '/' + path + (m[2] || '');
+  }
+
+  function makeClickable(node, url, title) {
+    node.style.cursor = 'pointer';
+    node.setAttribute('role', 'link');
+    node.setAttribute('tabindex', '0');
+    node.setAttribute('aria-label', title);
+    node.classList.add('kea-mermaid-link');
+    node.addEventListener('click', function () { window.location.href = url; });
+    node.addEventListener('keydown', function (e) { if (e.key === 'Enter') window.location.href = url; });
+  }
+
+  function linkDiagrams() {
+    document.querySelectorAll('.mermaid svg a').forEach(function (a) {
+      ['href', 'xlink:href'].forEach(function (attr) {
+        var v = a.getAttribute(attr);
+        if (v && v.indexOf('@/') === 0) a.setAttribute(attr, atPathToUrl(v));
+      });
+    });
+    var unlinked = [];
+    document.querySelectorAll('.mermaid svg g.node').forEach(function (g) {
+      if (!g.closest('a')) unlinked.push(g);
+    });
+    if (!unlinked.length) return;
+    loadIndex().then(function (docs) {
+      var byTitle = {};
+      docs.forEach(function (d) { if (!byTitle[d.t]) byTitle[d.t] = d; });
+      unlinked.forEach(function (g) {
+        var label = fold((g.textContent || '').replace(/\s+/g, ' ').trim());
+        var d = byTitle[label];
+        if (d && fold(href(d.path)) !== fold(window.location.pathname)) makeClickable(g, href(d.path), d.title);
+      });
+    }).catch(function () {});
+  }
+
   if (mermaidBlocks.length) {
     var diagrams = [];
     mermaidBlocks.forEach(function (code) {
@@ -149,8 +194,9 @@
           d.removeAttribute('data-processed');
           d.textContent = d.getAttribute('data-source');
         });
-        window.mermaid.initialize({ startOnLoad: false, securityLevel: 'strict', theme: dark ? 'dark' : 'default' });
-        window.mermaid.run({ nodes: diagrams });
+        // 'loose' povoluje v diagramech `click Uzel "@/cesta/stranka.md"`; zdroj diagramů je náš obsah.
+        window.mermaid.initialize({ startOnLoad: false, securityLevel: 'loose', theme: dark ? 'dark' : 'default' });
+        window.mermaid.run({ nodes: diagrams }).then(linkDiagrams).catch(function () {});
       }
       draw();
       document.addEventListener('dark-mode', draw);

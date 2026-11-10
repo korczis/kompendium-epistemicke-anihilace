@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:kompendium:schema:kompendium-engine:v1",
+  "title": "kompendium-engine/v1",
+  "description": "Requests and responses of docs/engine/kompendium-engine-v1.md.",
+  "$comment": "Necessary, not sufficient: the engine also refuses a query that normalises to \"\".",
+  "anyOf": [{ "$ref": "#/$defs/request" }, { "$ref": "#/$defs/response" }],
+  "$defs": {
+    "request": {
+      "oneOf": [{ "$ref": "#/$defs/searchRequest" }, { "$ref": "#/$defs/neighbourhoodRequest" }]
+    },
+    "searchRequest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["op", "query"],
+      "properties": {
+        "op": { "const": "search" },
+        "query": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200,
+          "pattern": "[^\\s\\u0300-\\u036f]"
+        },
+        "limit": { "type": "integer", "minimum": 1, "maximum": 50 }
+      }
+    },
+    "neighbourhoodRequest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["op", "path"],
+      "properties": {
+        "op": { "const": "neighbourhood" },
+        "path": { "type": "string", "minLength": 1, "maxLength": 512 },
+        "depth": { "enum": [1, 2] },
+        "limit": { "type": "integer", "minimum": 1, "maximum": 200 }
+      }
+    },
+    "response": {
+      "oneOf": [
+        { "$ref": "#/$defs/searchResponse" },
+        { "$ref": "#/$defs/neighbourhoodResponse" },
+        { "$ref": "#/$defs/errorResponse" }
+      ]
+    },
+    "code": {
+      "type": ["string", "null"],
+      "pattern": "^EA-[0-9]+(\\.([0-9]+|[A-Z])){0,2}$"
+    },
+    "searchResponse": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema", "ok", "op", "query", "normalised", "code", "limit", "total", "hits"],
+      "properties": {
+        "schema": { "const": "kompendium-engine/v1" },
+        "ok": { "const": true },
+        "op": { "const": "search" },
+        "query": { "type": "string" },
+        "normalised": { "type": "string", "minLength": 1 },
+        "code": { "$ref": "#/$defs/code" },
+        "limit": { "type": "integer", "minimum": 1, "maximum": 50 },
+        "total": { "type": "integer", "minimum": 0 },
+        "hits": { "type": "array", "maxItems": 50, "items": { "$ref": "#/$defs/hit" } }
+      }
+    },
+    "hit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "url", "title", "code", "kind", "in", "tier", "why"],
+      "properties": {
+        "path": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "pattern": "^/" },
+        "title": { "type": "string" },
+        "code": { "type": ["string", "null"] },
+        "kind": { "type": "string" },
+        "in": { "type": "integer", "minimum": 0 },
+        "tier": { "type": "integer", "minimum": 1, "maximum": 6 },
+        "why": {
+          "enum": [
+            "exact_code",
+            "exact_title",
+            "exact_alias",
+            "title_prefix",
+            "title_word",
+            "description"
+          ]
+        }
+      }
+    },
+    "neighbourhoodResponse": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema", "ok", "op", "path", "depth", "limit", "total", "truncated", "nodes",
+        "edges"],
+      "properties": {
+        "schema": { "const": "kompendium-engine/v1" },
+        "ok": { "const": true },
+        "op": { "const": "neighbourhood" },
+        "path": { "type": "string", "minLength": 1 },
+        "depth": { "enum": [1, 2] },
+        "limit": { "type": "integer", "minimum": 1, "maximum": 200 },
+        "total": { "type": "integer", "minimum": 0 },
+        "truncated": { "type": "boolean" },
+        "nodes": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 201,
+          "items": { "$ref": "#/$defs/node" }
+        },
+        "edges": { "type": "array", "items": { "$ref": "#/$defs/edge" } }
+      }
+    },
+    "node": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "title", "class", "distance", "in"],
+      "properties": {
+        "path": { "type": "string", "minLength": 1 },
+        "title": { "type": "string" },
+        "class": { "type": "string", "minLength": 1 },
+        "distance": { "enum": [0, 1, 2] },
+        "in": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "edge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["from", "to", "kind"],
+      "properties": {
+        "from": { "type": "string", "minLength": 1 },
+        "to": { "type": "string", "minLength": 1 },
+        "kind": { "const": "link" }
+      }
+    },
+    "errorResponse": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema", "ok", "op", "error"],
+      "properties": {
+        "schema": { "const": "kompendium-engine/v1" },
+        "ok": { "const": false },
+        "op": { "enum": ["search", "neighbourhood", null] },
+        "error": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["code", "message", "field"],
+          "properties": {
+            "code": { "enum": ["bad_input", "unknown_path", "schema_mismatch"] },
+            "message": { "type": "string", "minLength": 1 },
+            "field": { "type": ["string", "null"] }
+          }
+        }
+      }
+    }
+  }
+}

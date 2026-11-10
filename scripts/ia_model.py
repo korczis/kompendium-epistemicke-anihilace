@@ -130,6 +130,17 @@ def load_pages() -> list:
     return pages
 
 
+def detail_thresholds() -> dict:
+    """The `detail` word thresholds, read from zola.toml [extra] — the single source the
+    templates use too, so the gate and the site cannot drift."""
+    extra = tomllib.loads((ROOT / "zola.toml").read_text(encoding="utf-8")).get("extra", {})
+    keys = {"page": "ia_detail_words", "index": "ia_detail_words_index", "qr": "ia_detail_words_qr"}
+    missing = [k for k in keys.values() if not isinstance(extra.get(k), int)]
+    if missing:
+        raise SystemExit(f"ia_model: zola.toml [extra] lacks {', '.join(missing)} (integer word counts)")
+    return {name: extra[key] for name, key in keys.items()}
+
+
 TERM_INDEX = CONTENT / "kompendium" / "08-prilohy" / "index-pojmu.md"
 TERM_ROW = re.compile(
     r"^\|\s*\*\*(?:\[)?([^*\]]+?)(?:\]\(@/([^)#\s]+\.md)[^)]*\))?\*\*\s*\|\s*([^|]*)\|\s*([^|]*)\|", re.M

@@ -57,6 +57,12 @@ python3 scripts/check-ia.py --list weak-link | grep -x 'content/kompendium/case-
 printf '+++\ntitle = "Fixturové heslo"\n+++\n\nBez oddílu definice.\n' > content/glossary/case-01-fixture.md
 python3 scripts/check-ia.py --list summary | grep -x 'content/glossary/case-01-fixture.md' >/dev/null
 rm content/glossary/case-01-fixture.md
+# The detail threshold comes from zola.toml [extra] (single source): raising it there flags a long page.
+cp zola.toml "$work/zola.toml.orig"
+sed -i.bak 's/^ia_detail_words = .*/ia_detail_words = 1000000/' zola.toml && rm -f zola.toml.bak
+python3 scripts/check-ia.py --list detail | grep -x 'content/kompendium/02-uvod/definice.md' >/dev/null
+cp "$work/zola.toml.orig" zola.toml
+
 # Content that writes the site's base path is refused (hardcoded-path).
 printf '\n<script src="/kompendium-epistemicke-anihilace/js/kompendium/x.js"></script>\n' \
   >> content/kompendium/case-01-fixture/linking.md

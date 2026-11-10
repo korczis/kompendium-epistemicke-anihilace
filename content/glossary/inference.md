@@ -289,7 +289,7 @@ Pro knihu je inference modelů AI podstatná proto, že výstupy jazykových mod
 - [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) – chování OTP, které implementuje koordinátor inference.
 - [Node](https://prismatic-reality-com.github.io/prismatic-promo/glossary/node/) – uzel BEAM.
 - [prismatic_ollama](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_ollama/README.md) – lokální běhové prostředí inference přes Ollama.
-- [prismatic_agents](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_agents/README.md) – systém agentů využívající inferenci.
+- `prismatic_agents` (aplikace platformy, není součástí tohoto repozitáře) – systém agentů využívající inferenci.
 - [app_ai_safety](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/app_ai_safety/README.md) – sledování bezpečnosti výstupů inference.
 - [app_ai_interpretability](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/app_ai_interpretability/README.md) – analýza interpretovatelnosti výsledků.
 - [prismatic_telemetry](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_telemetry/README.md) – telemetrie výkonu inference.

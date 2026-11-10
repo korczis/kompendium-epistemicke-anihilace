@@ -364,7 +364,7 @@ tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md
   [prismatic_monte_carlo](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_monte_carlo/README.md),
   [prismatic_3nl](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_3nl/README.md),
   [prismatic_trinity_nexus](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_trinity_nexus/README.md),
-  [prismatic_agents](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_agents/README.md) –
+  `prismatic_agents` (aplikace platformy, není součástí tohoto repozitáře) –
   běhová implementace rámce, deduktivní engine, formální ověření, Monte Carlo pro QEVE, 3NL,
   Trinity Gate a běhové prostředí agentů; [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/)
   platformy.

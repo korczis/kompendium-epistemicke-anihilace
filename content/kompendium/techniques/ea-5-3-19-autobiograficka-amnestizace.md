@@ -44,7 +44,7 @@ V retrospektivě se objevuje sled: nejprve přestanou být některé úseky vypr
 
 Zvenčí je doložitelné především to, že chybějící epizody jsou podloženy nezávislými záznamy, a že se člověk vyhýbá lidem, kteří ho z daného období znali. Izolace od nezávislých svědků vlastního života patří mezi popsané dimenze vztahové kontroly (Hassan, 2018).
 
-*Interpretace knihy*: běžné zapomínání, disociativní amnézie i neurologické příčiny existují nezávisle na jakémkoli vnějším činiteli a mají vlastní diagnostiku. Odlišuje zde až selektivita: nedostupné je právě to, co by platný obraz zpochybnilo. Práce s pamětí patří až po stabilizaci, nikdy před ní (Herman, 1992).
+*Interpretace knihy*: běžné zapomínání, [disociativní amnézie](@/glossary/dissociativni-amnezie.md) i neurologické příčiny existují nezávisle na jakémkoli vnějším činiteli a mají vlastní diagnostiku. Odlišuje zde až selektivita: nedostupné je právě to, co by platný obraz zpochybnilo. Práce s pamětí patří až po stabilizaci, nikdy před ní (Herman, 1992).
 
 ## Fenomenologické znaky
 

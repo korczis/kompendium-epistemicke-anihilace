@@ -74,7 +74,7 @@ Co může vidět vnější pozorovatel:
 | Subjekt **nemůže** specifikovat falsifikační podmínky svého vhledu | Imunizace |
 | Vše je interpretováno jako **potvrzení** transcendentní pozice | Konfirmační uzavření |
 | Použití frází *"to nelze pochopit racionálně"*, *"musíš to zažít"* | Apriori [delegitimizace](@/glossary/delegitimizace.md) kritiky |
-| Kategorie, dříve rozlišované, jsou nyní **slité** ("věda a spiritualita jsou totéž") | Ztráta diferenciace |
+| Kategorie, dříve rozlišované, jsou nyní **slité** ("věda a spiritualita jsou totéž") | Ztráta [diferenciace](@/glossary/diferenciace.md) |
 | Subjekt **necituje** specifické zdroje — vše plyne "z vlastního vhledu" | Ztráta provenience |
 | Disproporční jistota vůči **velkým kosmickým tvrzením** | Inflační epistemika |
 | **Empatická paternalizace** vůči nesouhlasícím | Hierarchické sebepojetí |

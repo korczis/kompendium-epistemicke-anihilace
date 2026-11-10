@@ -48,7 +48,7 @@ V retrospektivě se znaky objevují v tomto sledu: souběžná expozice několik
 
 Zasažený člověk referuje, že „všechno dává smysl“, a současně nedokáže rozhodnout obyčejnou praktickou otázku. Klinické markery z této stránky — závislost na externí validaci pro běžné rozhodnutí — tuto kombinaci zachycují.
 
-*Interpretace knihy*: od zdravého pluralismu se vzorec liší tím, že pluralismus rozhodovací schopnost rozšiřuje, kdežto zde ji ruší. Metodologické meze tohoto rozlišení popisují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
+*Interpretace knihy*: od zdravého pluralismu se vzorec liší tím, že [pluralismus](@/glossary/pluralismus.md) rozhodovací schopnost rozšiřuje, kdežto zde ji ruší. Metodologické meze tohoto rozlišení popisují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Bezpečnostní rámec
 

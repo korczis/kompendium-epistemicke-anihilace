@@ -42,7 +42,7 @@ Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/k
 
 ## Struktura vzorce
 
-Pozorovatel vidí, že každé sebeoznačení je vzápětí prohlášeno za vnitřně nestabilní, takže hodnocení sebe sama se hroutí dřív, než je vysloveno. Člověk popisuje strach z formulace čehokoli definitivního. Komunikace, v níž je každá odpověď předem znehodnocena, je popsána jako dvojná vazba (Bateson et al., 1956).
+Pozorovatel vidí, že každé sebeoznačení je vzápětí prohlášeno za vnitřně nestabilní, takže hodnocení sebe sama se hroutí dřív, než je vysloveno. Člověk popisuje strach z formulace čehokoli definitivního. Komunikace, v níž je každá odpověď předem znehodnocena, je popsána jako [dvojná vazba](@/glossary/double-bind.md) (Bateson et al., 1956).
 
 Retrospektivně se sled znaků jeví takto: nejprve prostředí, kde je legitimní zkoušet predikáty samy na sobě, pak posun od logické hříčky k popisu vlastní mysli, a nakonec nemožnost vynést prostý soud bez cizí pomoci. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Paradox vzniká z užití predikátu na úrovni, na niž nepatří, nikoli z povahy mluvčího (Russell, 1908).
 

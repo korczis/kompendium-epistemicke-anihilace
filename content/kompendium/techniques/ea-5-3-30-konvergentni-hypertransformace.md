@@ -85,7 +85,7 @@ Co může vidět vnější pozorovatel:
 
 ### Sister UM techniky (subkategorie 5.3 Hypertransformativní protokoly)
 
-[EA-5.3.6](@/kompendium/techniques/ea-5-3-6-rekurzivni-hypertransformace.md) (rekurzivní hypertransformace), EA-5.3.29 (simulakrální self-substituce)
+[EA-5.3.6](@/kompendium/techniques/ea-5-3-6-rekurzivni-hypertransformace.md) (rekurzivní hypertransformace), [EA-5.3.29](@/kompendium/techniques/ea-5-3-29-simulakralni-self-substituce.md) (simulakrální self-substituce)
 
 ### Cross-categorical references
 

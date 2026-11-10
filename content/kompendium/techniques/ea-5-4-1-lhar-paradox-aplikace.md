@@ -42,7 +42,7 @@ Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/k
 
 ## Struktura vzorce
 
-Pozorovatel nezaznamená argument, nýbrž zádrhel: při formulaci jednoduchého hodnotícího soudu nastává stáze a v řeči přibývají obraty typu „to by zase bylo paradoxní“. Člověk popisuje stálé napětí, jehož zdrojem není konkrétní obava, nýbrž forma vlastního uvažování. Komunikace, v níž je každá odpověď předem znehodnocena, je popsána jako dvojná vazba (Bateson et al., 1956).
+Pozorovatel nezaznamená argument, nýbrž zádrhel: při formulaci jednoduchého hodnotícího soudu nastává stáze a v řeči přibývají obraty typu „to by zase bylo paradoxní“. Člověk popisuje stálé napětí, jehož zdrojem není konkrétní obava, nýbrž forma vlastního uvažování. Komunikace, v níž je každá odpověď předem znehodnocena, je popsána jako [dvojná vazba](@/glossary/double-bind.md) (Bateson et al., 1956).
 
 V retrospektivě se v anamnéze dá rozlišit sled, v němž znaky vystupují: nejprve prostředí, kde je legitimní zkoumat hraniční otázky o pravdě a sebereferenci, pak posun, v němž se paradox z technického problému stává popisem vlastní mysli, a nakonec stav, kdy je hodnocení možné jen s cizí pomocí. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Paradoxní sdělení se v komunikaci chovají jinak než logické úlohy právě tím, že je nelze zevnitř odmítnout (Watzlawick et al., 1967).
 

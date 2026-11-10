@@ -42,7 +42,7 @@ Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/k
 
 ## Struktura vzorce
 
-Pozorovatel vidí, že člověk přijímá za vlastní pohnutky, které sám nikdy neformuloval, a že jeho inventář motivací je vždy prohlášen za neúplný. Sám popisuje stálé napětí a nemožnost říci, co vlastně chce. Komunikace, v níž je každá odpověď předem znehodnocena, je popsána jako dvojná vazba (Bateson et al., 1956).
+Pozorovatel vidí, že člověk přijímá za vlastní pohnutky, které sám nikdy neformuloval, a že jeho inventář motivací je vždy prohlášen za neúplný. Sám popisuje stálé napětí a nemožnost říci, co vlastně chce. Komunikace, v níž je každá odpověď předem znehodnocena, je popsána jako [dvojná vazba](@/glossary/double-bind.md) (Bateson et al., 1956).
 
 Retrospektivně blízcí popisují sled: nejprve prostředí, kde je legitimní sestavovat seznam vlastních pohnutek, pak tvrzení, že vždy existuje ještě jedna, v seznamu nezahrnutá, a nakonec přijetí cizích formulací jako „skrytě vlastních“. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Paradoxy tohoto typu vznikají z míšení úrovní popisu, nikoli z vlastnosti popisovaného (Russell, 1908).
 

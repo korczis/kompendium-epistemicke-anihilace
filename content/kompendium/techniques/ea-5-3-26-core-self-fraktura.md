@@ -38,7 +38,7 @@ Core-self fraktura **rozkládá** narativně-temporální self, které integruje
 
 ## Struktura vzorce
 
-Pozorovatel vidí, že člověk nedokáže formulovat plán, který by sahal za přítomný vztah, a že o svém včerejšku a zítřku mluví, jako by šlo o jiné lidi. Narativní identita, která tyto časové úseky spojuje, se v psychologickém popisu utváří a udržuje vyprávěním (McAdams, 1993).
+Pozorovatel vidí, že člověk nedokáže formulovat plán, který by sahal za přítomný vztah, a že o svém včerejšku a zítřku mluví, jako by šlo o jiné lidi. [Narativní identita](@/glossary/narativni-identita.md), která tyto časové úseky spojuje, se v psychologickém popisu utváří a udržuje vyprávěním (McAdams, 1993).
 
 Retrospektivně blízcí popisují sled: nejprve je znehodnoceno dřívější i budoucí já, pak je jako jediné skutečné označeno „teď“ v přítomnosti jedné osoby, a nakonec je vlastní život prožíván jako řada nespojených úseků. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Časová diskontinuita sebeprožívání patří k popsaným následkům dlouhodobého vztahového traumatu (Herman, 1992).
 

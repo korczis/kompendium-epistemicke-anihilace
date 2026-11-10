@@ -44,7 +44,7 @@ Retrospektivně se sled znaků jeví takto: nejprve se vytrácí samozřejmost �
 
 Zvenčí je doložitelné především to, že k funkčnímu zhoršení v každodenním životě dochází souběžně s výkladem, který je prezentuje jako úspěch. Současný výskyt intenzivního prožitku a ztráty orientační schopnosti je popsán u nežádoucích účinků kontemplativních praxí (Lindahl et al., 2017).
 
-*Interpretace knihy*: depersonalizace má vlastní klinický popis a kontemplativní tradice mají vlastní rámce pro změněné stavy. Odlišuje až to, zda stav někdo vykládá, zda výklad vylučuje korekci a zda s ním roste dysfunkce. Posouzení patří klinice (Simeon a Abugel, 2006).
+*Interpretace knihy*: [depersonalizace](@/glossary/depersonalizace.md) má vlastní klinický popis a kontemplativní tradice mají vlastní rámce pro změněné stavy. Odlišuje až to, zda stav někdo vykládá, zda výklad vylučuje korekci a zda s ním roste dysfunkce. Posouzení patří klinice (Simeon a Abugel, 2006).
 
 ## Fenomenologické znaky
 

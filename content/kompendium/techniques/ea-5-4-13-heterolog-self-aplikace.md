@@ -42,7 +42,7 @@ Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/k
 
 ## Struktura vzorce
 
-Pozorovatel slyší popisy, v nichž se city vyvracejí samy: radost z toho, že radost chybí. Každá dispozice je prohlášena za takovou, která se na sebe nevztahuje, a hodnocení vlastního prožitku se tím znemožňuje. Komunikace, v níž je každá odpověď předem znehodnocena, je popsána jako dvojná vazba (Bateson et al., 1956).
+Pozorovatel slyší popisy, v nichž se city vyvracejí samy: radost z toho, že radost chybí. Každá dispozice je prohlášena za takovou, která se na sebe nevztahuje, a hodnocení vlastního prožitku se tím znemožňuje. Komunikace, v níž je každá odpověď předem znehodnocena, je popsána jako [dvojná vazba](@/glossary/double-bind.md) (Bateson et al., 1956).
 
 Retrospektivně blízcí popisují sled: nejprve prostředí, kde je legitimní zkoušet predikáty samy na sobě, pak rozšíření téhož na vnímání, emoce a postoje, a nakonec stav, v němž žádný prožitek neobstojí před vlastní reflexí. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Paradoxní sdělení se od logických úloh liší tím, že je nelze zevnitř odmítnout (Watzlawick et al., 1967).
 

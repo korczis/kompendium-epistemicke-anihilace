@@ -59,7 +59,7 @@ Následující pojistky jsou shrnuty proto, že jejich nepřítomnost je sama n�
 | Mechanismus | Implementace |
 |--------------|--------------|
 | **IRB přezkum** | Vícepatrový etický přezkum nezávislými komisemi před spuštěním |
-| **Informed consent** | Explicitní, opakovaně ověřovaný souhlas s právem kdykoliv odstoupit |
+| **[Informed consent](@/glossary/informed-consent.md)** | Explicitní, opakovaně ověřovaný souhlas s právem kdykoliv odstoupit |
 | **Real-time monitoring** | Kontinuální sledování biopsychosociálních markerů |
 | **Eskalační hierarchie** | Předem definované prahy a postup intervence |
 | **External audit** | Nezávislá komise s pravomocí pozastavení protokolu |

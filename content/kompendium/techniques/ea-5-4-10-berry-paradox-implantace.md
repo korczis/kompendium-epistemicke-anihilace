@@ -42,7 +42,7 @@ Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/k
 
 ## Struktura vzorce
 
-Pozorovatel slyší, že každý pokus o stručný popis sebe sama se v okamžiku vyslovení prodlužuje a nikdy nekončí; člověk popisuje, že se topí v popisech popisů. Zvenčí jde o opakované selhání u úkolu, který vypadá triviálně. Komunikační pole, v němž je každá odpověď předem znehodnocena, je popsáno jako dvojná vazba (Bateson et al., 1956).
+Pozorovatel slyší, že každý pokus o stručný popis sebe sama se v okamžiku vyslovení prodlužuje a nikdy nekončí; člověk popisuje, že se topí v popisech popisů. Zvenčí jde o opakované selhání u úkolu, který vypadá triviálně. Komunikační pole, v němž je každá odpověď předem znehodnocena, je popsáno jako [dvojná vazba](@/glossary/double-bind.md) (Bateson et al., 1956).
 
 Retrospektivně se sled znaků jeví takto: nejprve prostředí, kde je legitimní hledat „nejstručnější pravdivý popis“, pak posun od technické hříčky k popisu vlastní mysli, a nakonec neschopnost vynést jakýkoli hodnotící soud bez cizí pomoci. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Paradoxy tohoto druhu vznikají z nehlídaného míšení úrovní jazyka, nikoli z vlastnosti mluvčího (Russell, 1908).
 

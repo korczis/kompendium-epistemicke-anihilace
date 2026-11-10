@@ -42,7 +42,7 @@ Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/k
 
 ## Struktura vzorce
 
-Russellův paradox se netýká sebereference jako takové. Russell (1903) ukázal, že v naivní teorii
+[Russellův paradox](@/glossary/russell-paradox.md) se netýká [sebereference](@/glossary/self-reference.md) jako takové. Russell (1903) ukázal, že v naivní teorii
 množin vede neomezená komprehenze ke sporu u množiny všech množin, které nejsou prvkem sebe sama:
 je-li prvkem sebe sama, není jím, a naopak. Sebereferenční výrazy samy o sobě sporné nejsou —
 sporný je předpoklad, že každá podmínka vymezuje množinu. Russell (1908) na to odpověděl typovou

@@ -48,7 +48,7 @@ Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Ne
 
 Detekční markery zachycené na této stránce odpovídají téže struktuře: pojmy vymezené jen navzájem, táž sekvence úvah s drobnými obměnami po dlouhou dobu, rozhodovací paralýza a opakované odkazy na tutéž dvojici textů, které se vzájemně podpírají.
 
-*Interpretace knihy*: hermeneutický kruh sám znakem vzorce není — je otevřený a napojený na evidenci, která jej může narušit. Rozpoznávacím znakem je uzavřenost, při níž korekce zvenčí není přípustná a jednání zůstává zablokované; k rozlišovacím kritériím vede [jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
+*Interpretace knihy*: [hermeneutický kruh](@/glossary/hermeneuticky-kruh.md) sám znakem vzorce není — je otevřený a napojený na evidenci, která jej může narušit. Rozpoznávacím znakem je uzavřenost, při níž korekce zvenčí není přípustná a jednání zůstává zablokované; k rozlišovacím kritériím vede [jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 ## Fenomenologické znaky
 

@@ -87,13 +87,13 @@ Merleau-Pontyovská deformace je odlišitelná od:
 | **Některé asketické sekty** | Destrukce těla jako "duchovní cíl" |
 | **Disociativní subkultury** | Trance praxe bez supervize |
 | **Akademická patologie** | Patologická forma karteziánského fenomenologismu |
-| **Trauma-induced disociace** *post-hoc* spiritualizovaná | Maskování patologie |
+| **Trauma-induced [disociace](@/glossary/disociace.md)** *post-hoc* spiritualizovaná | Maskování patologie |
 
 ## Neutralizace
 
 ### Individuální
 
-1. **Somatická práce** — Feldenkrais, Alexander Technique, Iyengar jóga obnovují tělesné schéma.
+1. **Somatická práce** — Feldenkrais, Alexander Technique, Iyengar jóga obnovují [tělesné schéma](@/glossary/body-schema.md).
 2. **Korektní merleau-pontyovská [hermeneutika](@/glossary/hermeneutika.md)** — výklad chiazmatické struktury.
 3. **Smyslová zakotvenost** — explicitní pozornost k tělesným pocitům, dotekům, dechu.
 4. **Manuální práce** — fyzická aktivita s rukama obnovuje kinestetické schéma.

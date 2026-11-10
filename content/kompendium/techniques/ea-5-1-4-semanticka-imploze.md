@@ -44,7 +44,7 @@ Sémantická imploze je [ultramární technikou](@/kompendium/05-ultramari-techn
 
 ## Struktura vzorce
 
-Sémantická imploze se pozorovateli ukazuje na pojmech, které zasažený člověk běžně používá a zároveň nedokáže vymezit. Když je o vymezení požádán, rozpadne se mu pojem do kruhu nebo do složek, které se vylučují; žádost o vysvětlení pak odmítá jako redukcionismus. Věty přitom zůstávají mluvnicky v pořádku a znějí plynule, jen se v nich nedá najít, k čemu odkazují.
+Sémantická imploze se pozorovateli ukazuje na pojmech, které zasažený člověk běžně používá a zároveň nedokáže vymezit. Když je o vymezení požádán, rozpadne se mu pojem do kruhu nebo do složek, které se vylučují; žádost o vysvětlení pak odmítá jako [redukcionismus](@/glossary/redukcionismus.md). Věty přitom zůstávají mluvnicky v pořádku a znějí plynule, jen se v nich nedá najít, k čemu odkazují.
 
 Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejdřív bývá zasažena hrstka nosných termínů oboru nebo životní situace — metoda, evidence a platnost u odborníka, já, potřeba a hranice v terapeutickém kontextu, víra a smysl v náboženském. Jejich význam se pak posouvá po malých krocích, z nichž každý vypadá jako upřesnění. Rozpětí významu se tím rozšiřuje, až pojme i významy neslučitelné, a nakonec se týž termín v jediném rozhovoru použije v obou najednou, aniž by rozpor někdo zachytil. Výsledkem bývá únava a dezorientace, někdy ale i prožitek osvícení nad tím, že slova jsou jen slova. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 

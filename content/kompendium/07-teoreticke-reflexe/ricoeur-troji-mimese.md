@@ -1,6 +1,6 @@
 +++
 title = "7.17 Ricoeur: Trojí mimésis a narativní identita"
-description = "Paul Ricoeurova trojí mimésis (mimésis I, II, III), narativní identita a hermeneutika podezření jako rámec pro analýzu narativně-strukturálních dimenzí epistemické anihilace."
+description = "Paul Ricoeur: hermeneutika symbolu a podezření, trojí mimésis, narativní identita idem a ipse, zneužití paměti; kritika narativity a výklad pro EA."
 weight = 17
 insert_anchor_links = "right"
 
@@ -10,107 +10,194 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["putnam-internal-realism", "quine-web-of-belief", "rorty-contingency", "sartre-existencialismus"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++
 
 # 7.17 Ricoeur: Trojí mimésis a narativní identita
 
-Paul Ricoeurova trilogie *Temps et récit* (*Čas a vyprávění*, 1983–1985) představuje **systematickou hermeneutickou analýzu** narativní struktury lidské zkušenosti. Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Ricoeurova teorie nástroj pro pochopení **narativně-strukturálních dimenzí** epistemické anihilace — způsobů, jak **manipulace narativu** anihiluje subjektovu schopnost konstituovat **smysluplnou kontinuitu** vlastní existence.
+Paul Ricoeur (1913–2005), francouzský filozof hermeneutické a fenomenologické tradice, zasvětil
+velkou část díla otázce, jak člověk rozumí sobě skrze symboly, texty a vyprávění. Trilogie
+*Temps et récit* (*Čas a vyprávění*) rozvíjí tezi, že lidský čas se stává srozumitelným teprve
+tehdy, když je vyprávěn, a kniha *Soi-même comme un autre* (*Já jako jiný*) z ní odvozuje pojem
+[narativní identity](@/glossary/narativni-identita.md) (Ricoeur, 1983; Ricoeur, 1990).
 
-## 1. Trojí mimésis
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Ricoeur jazyk pro popis manipulace,
+která nemíří na jednotlivé názory, ale na příběh, jímž člověk spojuje svou minulost,
+přítomnost a budoucnost. Stránka nejprve vykládá jeho teorii podle primárních děl, poté
+shrnuje hlavní námitky proti narativnímu pojetí self a v samostatném oddílu, označeném jako
+interpretace knihy, ukazuje, jak lze s Ricoeurovými pojmy rozpoznat a léčit narušení
+vyprávěné identity (Ricoeur, 1990).
 
-Ricoeur rozšiřuje aristotelský pojem *mimésis* (napodobování, ztvárnění) na **trojstupňovou strukturu**:
+## Výklad teorie
 
-- **Mimésis I** (prefigurace) — pre-narativní strukturace zkušenosti: časová posloupnost, agentivní struktura, symbolická mediace
-- **Mimésis II** (konfigurace) — vlastní narativní akt: zápletka (*muthos*), jež **transformuje** sled událostí v **strukturovaný příběh**
-- **Mimésis III** (refigurace) — recepce příběhu čtenářem/posluchačem: **integrace** narativu zpět do žitého světa
+### Symbol a dvojí hermeneutika
 
-Pro EA z toho plyne:
+V knize *La symbolique du mal* Ricoeur rozebírá nejstarší jazyk zkušenosti zla – symboly
+poskvrny, hříchu a viny – a ukazuje, že tyto symboly nejsou primitivní pověrou, ale vrstvami
+porozumění, na nichž stojí i pozdější etické pojmy. Kniha končí známou větou, že „symbol dává
+myslet“ (Ricoeur, 1960). [Hermeneutika](@/glossary/hermeneutika.md) je pro Ricoeura od počátku
+uměním číst dvojí smysl: zjevný a skrytý.
 
-- **Útok na mimésis I**: rozbíjení **pre-narativních struktur** zkušenosti (časová dezorientace, agentivní rozpad). Klasický u traumatu.
-- **Útok na mimésis II**: nucení subjektu přijmout **cizí zápletku** vlastního života („ty jsi obětí systému / ty jsi vyvolený / ty jsi neschopný“).
-- **Útok na mimésis III**: přerušení integračního cyklu — subjekt nedokáže narativ **vstřebat** do dalšího života.
+V knize *De l'interprétation*, věnované Freudovi, Ricoeur rozlišuje dva protichůdné styly
+výkladu. První chápe interpretaci jako obnovu smyslu, který se v symbolu ohlašuje, a přistupuje k
+němu s důvěrou. Druhý ji chápe jako cvičení podezření, které za zjevným smyslem odhaluje skryté
+síly; jeho mistry jsou Marx, Nietzsche a Freud, které Ricoeur nazývá „školou podezření“ (Ricoeur,
+1965). Pozdější literatura pro druhý postoj ustálila název hermeneutika podezření. Ricoeur
+trvá, že porozumění potřebuje obojí a že podezření má sloužit obnově smyslu, nikoli ji nahradit.
 
-## 2. Narativní identita
+### Trojí mimésis
 
-Ricoeurova centrální teze (rozvinutá v *Soi-même comme un autre*, 1990): **identita osoby** je primárně **narativní**. „Kdo jsem?“ se zodpovídá **vyprávěním příběhu mého života** — nikoli odkazem na pevnou esenci.
+V prvním svazku *Temps et récit* Ricoeur spojuje Augustinovu analýzu času jako „roztažení duše“ s
+Aristotelovým pojmem zápletky (*muthos*) a navrhuje trojí stupeň mimésis. Mimésis I, prefigurace,
+je předporozumění světu jednání, které má každý člověk ještě před vyprávěním: ví, co je cíl,
+motiv, aktér a okolnost, a jeho jednání je už symbolicky zprostředkované a časově strukturované
+(Ricoeur, 1983).
 
-[Narativní identita](@/glossary/narativni-identita.md) má **dvě dimenze**:
+Mimésis II, konfigurace, je samotné vytvoření zápletky. Zápletka podle Ricoeura uskutečňuje
+„syntézu heterogenního“: spojuje události, náhody a záměry do celku, který má začátek, prostředek
+a konec, a mění pouhý sled v příběh se smyslem – v „nesouladný soulad“ (Ricoeur, 1983). Mimésis
+III, refigurace, je místo, kde se svět textu setkává se světem čtenáře: čtenář si příběh
+přivlastňuje, a tím mění, jak rozumí vlastnímu jednání a času (Ricoeur, 1983). Celý okruh se
+uzavírá – refigurované jednání se stává novou prefigurací.
 
-- **Idem-identita** (mêmeté) — totožnost ve smyslu **stejnosti**: pevný charakter, opakující se rysy
-- **Ipse-identita** (ipséité) — totožnost ve smyslu **bytí sebou**: schopnost **slibu**, **závazku**, **kontinuity přes čas**
+### Narativní identita: idem a ipse
 
-Pro EA má rozlišení idem/ipse **trojí relevanci**:
+Ve třetím svazku *Temps et récit* Ricoeur zavádí pojem narativní identity a v knize *Soi-même comme
+un autre* jej propracovává rozlišením dvou smyslů identity (Ricoeur, 1985; Ricoeur, 1990).
+Identita idem (*mêmeté*, stejnost) je trvání týchž rysů v čase; jejím vzorem je charakter, souhrn
+ustálených dispozic, podle nichž člověka poznáváme. Identita ipse
+([ipseita](@/glossary/ipseita.md), *ipséité*, sebestejnost) je trvání sebe, které nezávisí na
+neměnnosti rysů; jejím vzorem je dodržené slovo – slib, který držím, i když jsem se změnil
+(Ricoeur, 1990).
 
-1. **Útok na ipse-identitu**: techniky, jež rozkládají schopnost subjektu **slibovat** sám sobě, **zavazovat se**, **udržovat slib přes čas** — strukturálně závažnější než útok na idem.
-2. **Pseudoidentitární kategorizace**: nucení subjektu identifikovat se s **fixní idem-kategorií** (etnickou, generovou, ideologickou), na úkor jeho ipse-otevřenosti.
-3. **Klinický korelát**: komplexní PTSD je strukturálně **rozpadem ipse-identity** — pacient ztrácí schopnost slibovat, zavazovat se, **kontinuovat se** přes čas.
+Narativní identita podle Ricoeura zprostředkuje mezi oběma póly: příběh života vysvětluje, jak se
+charakter vyvinul, a zároveň ukazuje, komu lze přičíst jednání a odpovědnost (Ricoeur, 1990).
+Kniha vrcholí etickou formulací „směřování k dobrému životu s druhými a pro ně ve spravedlivých
+institucích“, v níž se identita sebe neoddělitelně váže na vztah k druhým.
 
-## 3. Hermeneutika podezření
+### Paměť a její zneužití
 
-Ricoeur (zejména *De l'interprétation*, 1965) formuluje pojem **hermeneutiky podezření** (*herméneutique du soupçon*) — interpretačního postoje, jenž **podezírá** povrchový smysl a hledá **skryté struktury** (Marx, Nietzsche, Freud jako „tři mistři podezření“).
+V pozdní knize *La mémoire, l'histoire, l'oubli* Ricoeur rozlišuje patologie a zneužití paměti:
+paměť blokovanou, která nedokáže zpracovat zranění, paměť manipulovanou, kterou moc využívá k
+utváření identity skupiny skrze vybraný příběh, a paměť uloženou povinností, kdy je vzpomínání
+nařízeno (Ricoeur, 2000). Zdůrazňuje, že každé vyprávění je výběrové, a proto otevřené
+ideologickému využití.
 
-Pro EA má hermeneutika podezření **dvojí relevanci**:
+## Kritika a meze teorie
 
-1. **Diagnostický nástroj**: detekce EA technik **vyžaduje** podezíravý postoj vůči povrchovým narativům — kompendium samotné je hermeneuticko-podezíravým projektem.
-2. **Riziko inflace**: hyperinflace podezření vede k **paranoidnímu stylu** ([viz 7.45 Chomsky](@/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent.md)), jenž je sám **patologií** epistemické integrity. Ricoeur proto kombinuje hermeneutiku podezření s **hermeneutikou důvěry** — schopnost **přijmout** smysl, kde je legitimní.
+Nejostřejší námitku proti narativnímu pojetí self formuloval Galen Strawson. Rozlišuje
+„diachronní“ lidi, kteří prožívají sebe jako trvající v čase, a „epizodické“ lidi, kteří tak
+neprožívají, a tvrdí, že ani psychologická, ani etická teze o nutnosti vyprávět si život jako
+příběh neplatí; snaha o narativní soudržnost může vést k přikrášlování a falšování (Strawson,
+2004). Pro klinickou praxi je to důležité varování, že nikoho nelze nutit, aby svůj život
+vyprávěl jako soudržný příběh.
 
-## 4. Symbolika zla a *peccatum*
+David Carr tvrdí, že narativní struktura není něco, co vyprávění teprve dodává chaotickému
+životu, ale je obsažena už v prožívání a jednání (Carr, 1986). Ve sporu s Ricoeurem jde o to,
+zda konfigurace dává životu tvar, nebo jen vyjadřuje tvar, který už má. Z jiné strany
+literatura o traumatu upozorňuje, že traumatická zkušenost se vyprávění vzpírá a vrací se jako
+fragment, nikoli jako zápletka; teorie, která identitu váže na příběh, musí počítat se
+zkušeností, kterou nelze zapojit do celku (Caruth, 1996).
 
-V *Symbolique du mal* (1960) Ricoeur analyzuje **symbolickou strukturu** lidské zkušenosti se zlem: skvrna (*macula*), hřích (*peccatum*), vina (*culpa*). Tyto symboly nejsou **primitivní reprezentace**, ale **archeologické vrstvy** porozumění zlu.
+Rita Felski konečně kritizuje dominanci „podezíravého čtení“ v humanitních oborech, které z
+Ricoeurovy školy podezření udělalo univerzální metodu, a vyzývá k návratu k čtení, které text
+nechá promlouvat (Felski, 2015). Kritika míří spíše na recepci než na Ricoeura, který podezření
+vždy vyvažoval.
 
-Pro EA z toho plyne:
+## Interpretace pro kompendium
 
-- **Manipulace symboliky viny** je strukturální technika: nucení subjektu pociťovat **pseudovinou** za „selhání“, jež jsou strukturálně produkována.
-- **Klinický korelát**: morální zranění (*moral injury*) — zranění strukturou viny, kdy subjekt byl nucen **provést něco**, co odporuje jeho vlastnímu morálnímu kompasu.
-- **Klinická intervence** musí pracovat se **symbolickou** vrstvou, nikoli pouze s racionální argumentací.
+Následující oddíl je interpretací knihy, nikoli Ricoeurovým tvrzením.
 
-## 5. Čas a vyprávění
+### Vnucená zápletka
 
-Ricoeurova teze: **čas se stává lidským** prostřednictvím **vyprávění**. Bez narativní struktury by čas zůstal **prázdnou kosmologickou posloupností** — vyprávění **konstituuje** lidský čas.
+Kompendium čte mimésis II jako místo, kde se rozhoduje o smyslu biografie. Prostředí s vysokou
+mírou kontroly často přepisuje životní příběh člena tak, že vše před vstupem do skupiny je
+temnota, omyl nebo nemoc a vše po něm probuzení. Lifton (1961) tento rys myšlenkové reformy
+popsal jako kult vyznání, v němž je minulost soustavně přeformulována do jazyka doktríny.
+Kompendium tento vzorec popisuje jako
+[náhradu sebevyprávění](@/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md);
+detekčním znakem je, že člověk umí o své minulosti mluvit jen slovníkem skupiny.
 
-Pro EA má tato perspektiva **specifickou relevanci**:
+### Uzavřená refigurace
 
-- **Časová dezorientace** v traumatu (flashbacky, intruzivní vzpomínky, foreshortened future) je strukturálně **rozpadem narativní časovosti**.
-- **Algoritmická časovost** ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)) — feedy bez konce, perpetual present, „doomscrolling“ — strukturálně **anihiluje** narativní časovost.
-- **Klinická restituce** musí znovuvybudovat narativní časovost — nikoli pouze „léčit symptomy“.
+Mimésis III předpokládá, že čtenář má k dispozici mnoho příběhů a sám volí, který mu pomůže
+porozumět vlastnímu životu (Ricoeur, 1983). Kompendium za varovný znak považuje stav, kdy je tato
+volba odňata: člověk smí číst a poslouchat jen texty skupiny, každý vnější příběh je předem
+označen za nebezpečný a vlastní zkušenost se smí vyložit jen jedním schváleným způsobem. Lifton
+(1961) tento rys popsal jako kontrolu prostředí; v Ricoeurově jazyce jde o uzavření okruhu
+mimésis, který se už nemůže obnovovat novou refigurací.
 
-## 6. Mapping na EA techniky
+### Útok na ipse
 
-| Ricoeur | EA technika | Mechanismus |
-|---------|-------------|-------------|
-| Útok na mimésis I | Časová dezorientace | EA-2.x |
-| Útok na mimésis II | Vnucená zápletka | EA-3.x |
-| Útok na mimésis III | Přerušení integrace | Strukturální |
-| Útok na ipse-identitu | Rozklad závazku | Komplexní C-PTSD |
-| Útok na narativní časovost | Doomscrolling | Strukturální |
+Rozlišení idem a ipse pomáhá rozpoznat dva odlišné zásahy. Vnucená kategorie („jsi
+přirozeně slabý“, „jsi zrádce“) cílí na idem, na charakter. Hlubší je zásah do ipse: prohlášení,
+že dřívější sliby a závazky člověka – k rodině, k povolání, k sobě – nikdy nebyly skutečné, nebo
+převedení veškeré věrnosti na skupinu (Ricoeur, 1990). Herman (1992) popisuje u dlouhodobého
+traumatu právě rozrušení schopnosti vázat se a důvěřovat, které kompendium chápe jako ztrátu
+ipse.
 
-## 7. Klinický význam
+### Manipulovaná paměť a totální podezření
 
-Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
+Ricoeurův pojem manipulované paměti kompendium vztahuje i na mikroúroveň vztahů a skupin: příběh
+o tom, co se stalo, je soustavně vybírán a přeskupován tak, aby potvrzoval výklad mocnějšího
+(Ricoeur, 2000); na úrovni jednotlivce tomu odpovídá
+[paměťová rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md). Zrcadlovým
+vzorcem je absolutizované podezření: každá myšlenka člena je vykládána jako projev ega,
+podmínění nebo „starého já“, a proto nemá váhu. Ricoeurova dvojí hermeneutika nabízí měřítko –
+podezření, které nikdy nevede k obnově smyslu, nepomáhá porozumět, ale ruší možnost porozumění
+(Ricoeur, 1965).
 
-- **[Narativní terapie](@/glossary/narativni-terapie.md)** (White & Epston) operuje na ricoeurovských kategoriích.
-- **Trauma-focused terapie** (Herman, van der Kolk) musí znovuvybudovat **narativní kontinuitu**.
-- **Ipse-identita** jako klinický cíl — schopnost slibovat, zavazovat se, **být sebou v čase**.
+### Obrana a zotavení
 
-## 8. Primární literatura
+Narativní terapie, jak ji formulovali White a Epston, pracuje s rozlišením mezi problémem a
+osobou a pomáhá klientovi najít ve vlastním životě „jedinečné výsledky“, které dominantnímu
+příběhu odporují (White a Epston, 1990). Herman (1992) řadí rekonstrukci příběhu traumatu do
+druhé fáze zotavení, až po obnovení bezpečí. Strawsonova kritika připomíná mez: cílem není
+vnutit nový soudržný příběh místo starého, ale vrátit člověku autorství, tedy možnost vyprávět
+– nebo nevyprávět – podle vlastního úsudku (Strawson, 2004).
 
-- Ricoeur, P. (1983–1985/2000–2007). *Čas a vyprávění* I–III. Oikoymenh.
-- Ricoeur, P. (1990/2016). *Já jako jiný*. Oikoymenh.
-- Ricoeur, P. (1965/1993). *De l'interprétation: Essai sur Freud*. Le Seuil.
-- Ricoeur, P. (1960). *Symbolique du mal*. Aubier.
-- Wood, D. (ed.) (1991). *On Paul Ricoeur: Narrative and Interpretation*. Routledge.
+## Otevřené otázky
+
+Otevřené zůstává, jak odlišit léčebnou rekonfiguraci příběhu v terapii od manipulativní náhrady
+příběhu, když obě pracují se stejnými prostředky (White a Epston, 1990). Stejně otevřené je, jak
+zacházet se zkušeností, která se do příběhu nezapojí, a zda je narativní identita univerzálním
+rysem lidí, nebo jen jedním ze způsobů prožívání sebe (Strawson, 2004; Caruth, 1996).
+
+## Literatura
+
+- Carr, D. (1986). *Time, Narrative, and History*. Indiana University Press.
+- Caruth, C. (1996). *Unclaimed Experience: Trauma, Narrative, and History*. Johns Hopkins University Press.
+- Felski, R. (2015). *The Limits of Critique*. University of Chicago Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Ricoeur, P. (1960). *Finitude et culpabilité II: La symbolique du mal*. Aubier.
+- Ricoeur, P. (1965). *De l'interprétation: Essai sur Freud*. Seuil.
+- Ricoeur, P. (1983). *Temps et récit I*. Seuil.
+- Ricoeur, P. (1985). *Temps et récit III: Le temps raconté*. Seuil.
+- Ricoeur, P. (1990). *Soi-même comme un autre*. Seuil.
+- Ricoeur, P. (2000). *La mémoire, l'histoire, l'oubli*. Seuil.
+- Strawson, G. (2004). Against narrativity. *Ratio*, 17(4).
+- White, M. a Epston, D. (1990). *Narrative Means to Therapeutic Ends*. W. W. Norton.
 
 ## Související
 
-- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)
-- [7.2 Epistemické trauma](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)
-- [7.10 Wittgenstein: Jazykové hry](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)
-- [7.43 Harari: Sapiens narativ](@/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ.md)
-- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
-- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
-- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+**Teoretické reflexe**
+
+- [7. Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – rozcestník sekce.
+- [MacIntyre: After Virtue](@/kompendium/07-teoreticke-reflexe/macintyre-after-virtue.md) – narativní jednota života v etice ctností.
+- [Taylor: Sources of Self](@/kompendium/07-teoreticke-reflexe/taylor-sources-of-self.md) – identita a rámce hodnot.
+- [Heidegger: Být-ve-světě](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md) – časovost pobytu, z níž Ricoeur vychází.
+- [Epistemické trauma](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md) – empirická literatura o traumatu a paměti.
+- [Harari: Sapiens narativ](@/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ.md) – vyprávění na úrovni kolektivů.
+
+**Glosář a techniky**
+
+- [Narativní identita](@/glossary/narativni-identita.md) – pojem, který Ricoeur zavedl.
+- [Ipseita](@/glossary/ipseita.md) – sebestejnost jako dodržené slovo.
+- [Narativní terapie](@/glossary/narativni-terapie.md) – klinické použití rekonfigurace příběhu.
+- [Náhrada sebevyprávění](@/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md) – vnucená zápletka vlastního života.
+
+**Klinická praxe**
+
+- [Sekce 06 – Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) – rekonstrukce příběhu v rámci zotavení.

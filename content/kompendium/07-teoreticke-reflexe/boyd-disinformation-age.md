@@ -1,6 +1,6 @@
 +++
 title = "7.57 Boyd: danah boyd a sociotechnická analýza dezinformací"
-description = "danah boyd a sociotechnická analýza dezinformací, networked publics, data void exploitation — rámec pro pochopení EA jako emergentního sociotechnického fenoménu."
+description = "danah boyd: síťové veřejnosti, kolaps kontextu, datová prázdna a kritika mediální gramotnosti podle primárních textů, s kritikami a interpretací pro obranu poznávání."
 weight = 57
 insert_anchor_links = "right"
 
@@ -10,139 +10,96 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["arendt-banalita-zla", "block-phenomenal-vs-access", "brandom-inferential-semantics", "butler-performative"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++
 
 # 7.57 Boyd: danah boyd a sociotechnická analýza dezinformací
 
-danah boyd (programově píše s malými písmeny) — americká sociální badatelka, zakladatelka Data & Society Research Institute — formuluje v knize *It's Complicated* (2014) a v četných esejích **sociotechnickou** analýzu mladých uživatelů sociálních médií a dezinformací.
+danah boyd (jméno programově píše malými písmeny) je americká sociální výzkumnice, která spojuje etnografii mladých uživatelů sociálních sítí s analýzou toho, jak se technické vlastnosti platforem promítají do společenského života. Je výzkumnicí Microsoft Research a zakladatelkou výzkumného institutu Data & Society, z jehož prostředí vzešla řada zpráv o mediální manipulaci (Marwick a Lewis, 2017). Její přístup se označuje jako sociotechnický: dezinformace podle něj nejsou jen výsledkem zlého úmyslu jednotlivců, ale vznikají ze souhry lidí, institucí a technických architektur (boyd, 2014). Stránka vykládá její hlavní pojmy z primárních textů, uvádí kritiky a v samostatném oddílu, výslovně jako interpretaci knihy, ukazuje jejich význam pro obranu proti [epistemické anihilaci](@/glossary/epistemicka-anihilace.md).
 
-Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje boydova práce nástroj pro pochopení **EA jako emergentního sociotechnického fenoménu** — nikoli pouze jako úmyslné manipulace.
+## Síťové veřejnosti a jejich vlastnosti
 
-## 1. Networked publics
+Ústředním pojmem boydové jsou síťové veřejnosti (*networked publics*): veřejné prostory ustavené síťovými technologiemi a zároveň představované společenství, které v nich vzniká. V knize o sociálním životě dospívajících na sítích uvádí čtyři vlastnosti (*affordances*), jimiž se tyto prostory liší od dřívějších veřejností: trvalost záznamu (*persistence*), viditelnost (*visibility*), šiřitelnost (*spreadability*) a vyhledatelnost (*searchability*) (boyd, 2014). Ve starší kapitole formulovala tytéž úvahy jinými termíny a popsala dynamiky, které z nich plynou: neviditelné publikum, splývání kontextů a stírání hranice mezi veřejným a soukromým (boyd, 2010).
 
-boydova centrální koncepce: **networked publics** — strukturálně **nový** typ veřejného prostoru, **mediovaný** digitálními technologiemi.
+Z těchto vlastností vychází pojem kolapsu kontextu (*context collapse*). Marwick a boyd (2011) ukázali, že uživatelé píší pro „představované publikum“, ale jejich sdělení se dostává k lidem z různých částí života najednou: k rodině, kolegům i cizím. Sdělení vytržené z kontextu, pro který vzniklo, se snadno přečte jinak, než bylo míněno, a právě tato vlastnost prostředí se stává zdrojem nedorozumění i cílené dezinterpretace.
 
-Strukturální charakteristiky:
+## Dospívající a mýtus „digitálních domorodců“
 
-- **Persistence**: digitální obsah je strukturálně **trvalý**
-- **Visibility**: výchozí pozice je **veřejná**, nikoli soukromá
-- **Spreadability**: obsah se strukturálně **šíří** bez kontroly autora
-- **Searchability**: obsah je strukturálně **vyhledatelný**
+Kniha *It's Complicated* vychází z rozhovorů s dospívajícími v různých částech Spojených států a polemizuje s morálními paniky dospělých kolem identity, soukromí, závislosti, nebezpečí a šikany. Boydová odmítá představu „digitálních domorodců“, podle níž mladí lidé díky věku automaticky rozumějí technologiím: dovednosti se podle ní rozdělují nerovnoměrně, podle zázemí a příležitostí, a mnozí dospívající mechanice platforem i důvěryhodnosti zdrojů rozumějí málo (boyd, 2014). Pro knihu je tato korekce podstatná, protože vyvrací předpoklad, že generační příslušnost sama chrání před manipulací.
 
-Tyto charakteristiky strukturálně **transformují** veřejný prostor — výsledkem je **kvalitativně** odlišný **public**.
+Stejná kniha ukazuje, že dospívající si v síťových veřejnostech vytvářejí vlastní strategie soukromí, například sdělení srozumitelná jen úzkému okruhu, a že jejich chování je často racionální reakcí na omezení, která jim klade svět dospělých. Boydová tím přesouvá pozornost od „rizikové technologie“ k sociálnímu kontextu, ve kterém se technologie používá (boyd, 2014).
 
-Pro EA z toho plyne:
+## Velká data, pozornost a datová prázdna
 
-- **Strukturální zranitelnosti networked publics**: persistence + spreadability + searchability + visibility = strukturální vystavení manipulaci
-- **Generační dimenze**: mladí lidé žijí v networked publics, jejich subjektivita je strukturálně formována novou mediální logikou
+Spolu s Crawfordovou formulovala boydová kritické otázky k velkým datům: data nejsou neutrální, větší objem neznamená lepší porozumění, kontext se při agregaci ztrácí a přístup k datům vytváří nové nerovnosti (boyd a Crawford, 2012). Tento text patří k zakladatelským dílům kritických studií dat a je důležitý i pro epistemologii, protože zpochybňuje představu, že čísla mluví sama za sebe.
 
-## 2. Data void exploitation
+V eseji o „hackování ekonomiky pozornosti“ boydová popsala, jak se skupiny na okraji internetové kultury naučily využívat mechaniky platforem a slabiny zpravodajství k tomu, aby jejich témata převzala hlavní média (boyd, 2017). Marwick a Lewis (2017) tentýž jev rozpracovali ve zprávě o mediální manipulaci a ukázali, že zesílení často nevzniká záměrem novinářů, ale tím, že redakce reagují na to, co se na sítích už šíří.
 
-boydova klíčová analýza dezinformací: **data void exploitation** — útočníci strukturálně **vyplňují** prázdná místa v informačním ekosystému **manipulativním** obsahem.
+Golebiewski a boyd (2019) zavedli pojem datových prázdných míst (*data voids*): témata nebo hledané výrazy, k nimž existuje jen málo důvěryhodného obsahu, takže výsledky vyhledávání snadno ovládne obsah zavádějící. Autoři rozlišují několik typů, například nově vzniklé výrazy, zastaralé termíny nebo náhlé zpravodajské události, kdy kvalitní zdroje teprve vznikají. Pro tuto stránku je podstatné, že jde o strukturální zranitelnost informačního prostředí, nikoli o selhání jednotlivého uživatele.
 
-Strukturální mechanismus:
+## Kritika mediální gramotnosti a strategického mlčení
 
-1. **Identifikace data void**: termíny, témata bez **kvalitního** mainstreamového pokrytí
-2. **Přesné cílení**: SEO optimalizace, hashtag flooding
-3. **Amplifikace**: koordinované sítě amplifikují obsah
-4. **Kotvení**: jakmile je obsah ukotven, dále se replikuje
+Boydová je kritická i vůči oblíbeným řešením. V přednášce o mediální gramotnosti argumentovala, že výchova k nedůvěře vůči zdrojům může mít nezamýšlený účinek: lidé, které učíme „ověřovat si to sami“, mohou dojít k tomu, že nevěří žádné instituci, a stanou se vnímavějšími k alternativním výkladům, které jim nabízejí jednoduchou jistotu (boyd, 2018). Mediální gramotnost proto podle ní nestačí, pokud se nezabývá i důvěrou, příslušností a způsobem, jak lidé poznávají svět.
 
-Klasický příklad: termín „**replacement theory**“ měl strukturálně **málo** kvalitního mainstreamového pokrytí — pravicové sítě **strukturálně** vyplnily void.
+Donovan a boyd (2021) se zabývali otázkou, kdy mají novináři o manipulativní kampani psát. Navazují na starší praxi strategického mlčení, kdy redakce záměrně nepublikovaly podrobnosti, které by mohly vést k napodobování, a navrhují ji nahradit strategickým zesílením: odpovědně informovat tak, aby zpráva posílila pochopení, ne dosah původního sdělení. Tento posun od cenzury k úvaze o důsledcích zesílení je pro obranný rámec knihy cenný.
 
-Pro EA z toho plyne:
+## Hlavní kritiky a meze
 
-- **Counter-EA**: aktivní vyplňování data voids kvalitním obsahem
-- **Algoritmická detekce**: identifikace voids dříve, než jsou exploitovány
+Sociotechnický přístup bývá kritizován z několika stran. Benkler, Faris a Roberts (2018) na rozsáhlé analýze amerického mediálního prostoru ukázali, že rozhodující roli v šíření dezinformací hrála asymetrická polarizace a tradiční média, nikoli jen platformy a jejich algoritmy; důraz na technické vlastnosti tak může podcenit politickou a institucionální rovinu. Tufekci (2017) zároveň připomíná, že tytéž vlastnosti sítí umožňují rychlou mobilizaci občanských hnutí, takže hodnocení platforem nemůže být jednostranné.
 
-## 3. Hacking the attention economy
+Další meze se týkají metody. Etnografická práce s dospívajícími poskytuje hluboký vhled, ale neumožňuje kvantitativní zobecnění, a zprávy o datových prázdnech jsou spíše konceptuální rámce než měření účinku na přesvědčení uživatelů (Golebiewski a boyd, 2019). Boydová sama upozorňuje, že technologie neurčuje výsledek a že totéž prostředí lze využít různě; kniha proto její pojmy používá jako rozpoznávací rámec, nikoli jako kauzální model (boyd, 2014).
 
-boydova teze: dezinformační kampaně strukturálně **operují** skrze **hacking** algoritmů pozornostní ekonomie:
+## Interpretace pro epistemickou anihilaci
 
-- **Engagement-driven algoritmy** strukturálně **odměňují** emocionálně intenzivní obsah
-- **Manipulativní obsah** je strukturálně **emocionálnější** než pravdivý
-- **Strukturální výhoda** dezinformací: jsou **kompatibilnější** s algoritmickými preferencemi
+Následující oddíl je interpretací této knihy, nikoli tvrzením boydové. Kniha z jejího díla přebírá především tezi, že k rozkladu poznávání nemusí docházet jen cíleným působením na jednotlivce, ale i vlastnostmi prostředí, které informace trvale uchovává, vytrhává z kontextu a zesiluje. Kolaps kontextu tak může posloužit ke zpochybnění člověka sdělením vytrženým z jiné situace; krajní podobou zneužití trvalosti a vyhledatelnosti je zveřejnění osobních údajů, které popisuje heslo [doxing](@/glossary/doxing.md) (Marwick a boyd, 2011).
 
-Pro EA z toho plyne:
+Druhá interpretace se týká informačních bublin. Pojem [epistemic bubble](@/glossary/epistemic-bubble.md) v knize označuje prostředí, v němž člověku chybějí jiné hlasy; datová prázdna ukazují, že takové prostředí nemusí vzniknout jen vlastní volbou, ale i tím, že k určitému tématu prostě neexistuje dostupný důvěryhodný obsah (Golebiewski a boyd, 2019). Kniha proto tyto jevy řadí k [informačním operacím](@/glossary/info-ops.md) jen tehdy, je-li doložen koordinovaný záměr; jinak jde o zranitelnost prostředí.
 
-- **Strukturální asymetrie**: algoritmy strukturálně **nahrávají** dezinformacím
-- **Counter-EA**: redesign algoritmů (od engagement k truthfulness)
+Třetí interpretace se týká obrany. Boydové kritika mediální gramotnosti varuje, že obrana, která stojí jen na podezíravosti, může sama přispět k rozkladu důvěry, kterou kniha popisuje na stránce [7.7 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md). Odolnost proto kniha nespojuje s plošnou nedůvěrou, ale se schopností rozlišovat důvěryhodné instituce a s vazbami na lidi, s nimiž lze zkušenost sdílet (boyd, 2018).
 
-## 4. Generační perspektiva
+## Rozpoznání, obrana a institucionální rámec
 
-V *It's Complicated* (2014) boyd analyzuje, jak **digital natives** (generace odkojená sociálními médii) strukturálně **nakládají** s digitálním prostorem:
+Rozpoznávacími znaky z této perspektivy jsou náhlý výskyt nového výrazu, ke kterému vyhledávání vrací téměř jen obsah jednoho tábora, sdělení koncipovaná tak, aby je hlavní média převzala jako „kontroverzi“, a opakované vytrhávání starých příspěvků z původního kontextu. Žádný z těchto znaků sám neprokazuje koordinaci; jde o podnět k ověření zdroje, data a původního kontextu (Golebiewski a boyd, 2019; Wardle a Derakhshan, 2017).
 
-- **Strukturální gramotnost**: mladí lidé strukturálně **lépe** rozumí mechanikám platforem než starší
-- **Strukturální zranitelnost**: jejich subjektivita je strukturálně **formovaná** platformami
-- **Algoritmická intuice**: mají strukturální intuici pro algoritmickou logiku, často implicitně
+Obrana má podle literatury institucionální povahu: redakce mohou volit strategické zesílení, provozovatelé vyhledávačů a platforem mohou včas doplňovat důvěryhodný obsah k novým tématům a výzkumné instituce mohou nezávisle auditovat doporučovací systémy (Donovan a boyd, 2021). V evropském právním rámci tuto roli posiluje nařízení (EU) 2022/2065 o digitálních službách, které ukládá velmi velkým platformám posuzovat systémová rizika; podrobnosti ponecháváme specializovaným stránkám knihy. Pro jednotlivce, včetně klientů v terapii, je ochranou obnova sítě důvěryhodných vztahů a zdrojů, nikoli izolace od informací (boyd, 2018).
 
-Pro EA z toho plyne:
+## Otevřené otázky
 
-- **Diferenciální klinická diagnostika**: mladí pacienti vyžadují strukturálně specifický přístup
-- **Inter-generační dialog**: starší generace strukturálně **postrádá** intuici, mladší strukturálně **postrádá** kritickou distanci
-- **Vzdělávání**: mediální gramotnost jako **strukturální** imperativ
+Otevřené zůstává, jak měřit dopad datových prázdných míst na skutečná přesvědčení, a jak postupovat tam, kde se jazykové modely stávají novým rozhraním k informacím a kde prázdná místa mohou vyplnit generované odpovědi. Stejně otevřená je otázka, jak vychovávat ke kritickému čtení bez toho, aby výchova vedla k cynismu vůči všem institucím (boyd, 2018; Benkler a kol., 2018).
 
-## 5. Algorithmic accountability
+## Literatura
 
-boyd zakládá **Data & Society Research Institute** (2014) — výzkumnou organizaci specializovanou na **algoritmickou zodpovědnost** (*algorithmic accountability*).
-
-Strukturální cíle:
-
-- **Transparentnost**: jak fungují algoritmy?
-- **Audit**: nezávislé hodnocení algoritmů
-- **Regulace**: institucionální obrana proti manipulativním algoritmům
-
-Pro EA má algoritmická zodpovědnost **strukturální význam**:
-
-- **Counter-EA**: institucionální obrana proti strukturální manipulaci
-- **Politická aplikace**: AI Act, GDPR jako strukturální regulace
-
-## 6. Mapping na EA techniky
-
-| boyd | EA technika | Mechanismus |
-|------|-------------|-------------|
-| Data void exploitation | Strategická dezinformace | Strukturální |
-| Hacking attention economy | Engagement-driven manipulation | Strukturální |
-| Networked publics deformation | Algoritmická amplifikace | Strukturální |
-| Generation-targeted EA | Cílení na digital natives | Strukturální |
-| Lack of algorithmic accountability | Neregulovaná manipulace | Strukturální |
-
-## 7. Klinický význam
-
-Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
-
-- **Generační diagnostika**: pacientova generační lokalizace strukturálně modifikuje klinický přístup
-- **Mediální gramotnost** jako klinický nástroj
-- **Restituce networked publics**: pacient se učí **eticky** participovat v digitálním prostoru
-
-## 8. Politické implications
-
-boydova práce má **přímou** politickou aplikaci:
-
-- **Algoritmická regulace** jako strukturální imperativ
-- **Education**: mediální gramotnost jako součást vzdělávání
-- **Institucionální obrana**: nezávislá výzkumná infrastruktura
-
-## 9. Primární literatura
-
-- boyd, d. (2014). *It's Complicated: The Social Lives of Networked Teens*. Yale UP.
-- boyd, d. (2017). „Hacking the Attention Economy“. Data & Society.
-- boyd, d. & Crawford, K. (2012). „Critical Questions for Big Data“. *Information, Communication & Society* 15.
-- Marwick, A. & Lewis, R. (2017). *Media Manipulation and Disinformation Online*. Data & Society.
-- Tufekci, Z. (2017). *Twitter and Tear Gas*. Yale UP.
+- Benkler, Y., Faris, R., a Roberts, H. (2018). *Network [Propaganda](@/glossary/propaganda.md): Manipulation, Disinformation, and Radicalization in American Politics*. Oxford University Press.
+- boyd, d. (2010). Social network sites as networked publics: Affordances, dynamics, and implications. In Z. Papacharissi (ed.), *A Networked Self: Identity, Community, and Culture on Social Network Sites*. Routledge.
+- boyd, d. (2014). *It's Complicated: The Social Lives of Networked Teens*. Yale University Press.
+- boyd, d. (2017). Hacking the attention economy. *Data & Society: Points*.
+- boyd, d. (2018). You think you want media literacy… do you? *Data & Society: Points*.
+- boyd, d., a Crawford, K. (2012). Critical questions for big data. *Information, Communication & Society*, 15(5).
+- Donovan, J., a boyd, d. (2021). Stop the presses? Moving from strategic silence to strategic amplification in a networked media ecosystem. *American Behavioral Scientist*, 65(2).
+- Golebiewski, M., a boyd, d. (2019). *Data Voids: Where Missing Data Can Easily Be Exploited*. Data & Society.
+- Marwick, A. E., a boyd, d. (2011). I tweet honestly, I tweet passionately: Twitter users, context collapse, and the imagined audience. *New Media & Society*, 13(1).
+- Marwick, A., a Lewis, R. (2017). *Media Manipulation and Disinformation Online*. Data & Society.
+- Tufekci, Z. (2017). *Twitter and Tear Gas: The Power and Fragility of Networked Protest*. Yale University Press.
+- Wardle, C., a Derakhshan, H. (2017). *Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making*. Council of Europe.
 
 ## Související
 
-- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
-- [7.8 Politická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
-- [7.41 Clark: Rozšířená mysl](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)
-- [7.50 Dawkins: Mem](@/kompendium/07-teoreticke-reflexe/dawkins-meme.md)
-- [7.54 Chomsky: Manufacturing Consent](@/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent.md)
-- [7.56 Zuboff: Surveillance Capitalism](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)
-- [7.58 Wardle: Disinformation Typology](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)
-- [7.59 Floridi: Fourth Revolution](@/kompendium/07-teoreticke-reflexe/floridi-fourth-revolution.md)
-- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+**Teoretické reflexe**
+
+- [7.58 Wardle: Typologie dezinformačního ekosystému](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md) – typologie poruch informačního prostředí.
+- [7.56 Zuboff: Surveillance Capitalism a behavioral futures](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md) – ekonomická logika platforem.
+- [7.54 Chomsky: Manufacturing Consent a propaganda model](@/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent.md) – filtry masových médií před érou sítí.
+- [7.7 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) – algoritmy, generativní modely a deepfakes.
+- [7.59 Floridi: Čtvrtá revoluce a infosféra](@/kompendium/07-teoreticke-reflexe/floridi-fourth-revolution.md) – filozofie informačního prostředí.
+
+**Glosář**
+
+- [Epistemic bubble](@/glossary/epistemic-bubble.md) – prostředí bez jiných hlasů.
+- [Info-Ops](@/glossary/info-ops.md) – koordinované informační operace.
+- [Doxing](@/glossary/doxing.md) – zneužití trvalosti a vyhledatelnosti údajů.
+- [Epistemic security](@/glossary/epistemic-security.md) – ochrana poznávání na úrovni společnosti.
+
+**Praxe**
+
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md) – etický rámec epistemické integrity.

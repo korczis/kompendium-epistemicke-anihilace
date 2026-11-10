@@ -1,6 +1,6 @@
 +++
 title = "7.59 Floridi: Čtvrtá revoluce a infosféra"
-description = "Luciano Floridi a teorie čtvrté revoluce, infosféra, ontologie informace, etika digitálního věku — rámec pro pochopení EA jako fenoménu strukturální informační ontologie."
+description = "Luciano Floridi: čtvrtá revoluce, infosféra, inforgové, sémantická informace a etika informace; kritiky a interpretace pro rámec EA a jeho právní kontext."
 weight = 59
 insert_anchor_links = "right"
 
@@ -10,156 +10,91 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["feyerabend-anti-method", "filosoficky-ramec", "friston-active-inference", "hannah-arendt-myslení"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++
 
 # 7.59 Floridi: Čtvrtá revoluce a infosféra
 
-Luciano Floridi — italsko-britský filozof, profesor digitální etiky na Yale a Oxfordu — v knihách *The Philosophy of Information* (2011), *The Fourth Revolution* (2014) a *The Logic of Information* (2019) formuluje **systematickou filozofii informace** — strukturálně novou oblast filozofie zabývající se **informací** jako **fundamentální** kategorií.
+Italský filozof Luciano Floridi, dlouholetý představitel Oxfordského internetového institutu, vybudoval soustavnou filozofii informace ve třech hlavních dílech: *The Philosophy of Information* (Floridi, 2011), *The Ethics of Information* (Floridi, 2013) a *The Logic of Information* (Floridi, 2019). Širší veřejnosti svůj rámec představil v knize *The Fourth Revolution: How the Infosphere Is Reshaping Human Reality* (Floridi, 2014). Kapitola nejprve vykládá jeho hlavní pojmy, poté kritiky, a odděleně uvádí, jak je [kompendium EA](@/glossary/kompendium-ea.md) užívá; toto užití je interpretací knihy, nikoli Floridiho tvrzením.
 
-Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Floridiho rámec nástroj pro pochopení **EA jako fenoménu strukturální informační ontologie** — manipulace probíhá v **infosféře**, jež je strukturálně novou formou existence.
+## Čtvrtá revoluce
 
-## 1. Čtvrtá revoluce
+Floridi navazuje na Freudův text z roku 1917, v němž Freud popsal tři rány lidské sebelásce: Koperníkovo zjištění, že Země není středem vesmíru, Darwinovo zjištění, že člověk je součástí živočišné říše, a psychoanalytické zjištění, že já není pánem ve vlastním domě (Freud, 1917). Floridi k nim přidává čtvrtou, kterou spojuje s Alanem Turingem: poznání, že člověk není jediným ani nutně nejlepším zpracovatelem informace, protože stroje zvládají stále víc úkolů, které jsme považovali za výlučně lidské (Floridi, 2014).
 
-Floridiho centrální teze: lidstvo prošlo **třemi** historickými revolucemi, jež **transformovaly** sebepojetí:
+Podle Floridiho tato revoluce nemění jen techniku, ale lidské sebepochopení. Lidé se jeví jako inforgové (*inforgs*), informační organismy, které sdílejí prostředí s jinými informačními činiteli, přirozenými i umělými (Floridi, 2014). Floridi zdůrazňuje, že nejde o představu kyborga s implantáty, ale o změnu toho, jak sami sebe chápeme: jako bytosti, jejichž identita a jednání jsou utvářeny informačními toky.
 
-1. **Koperníkovská** (1543): Země není středem vesmíru — strukturálně **decentruje** člověka kosmologicky
-2. **Darwinistická** (1859): Člověk je strukturálně součástí evolučního procesu — **decentruje** biologicky
-3. **Freudovská** (1900): Vědomí je strukturálně malou částí mysli — **decentruje** psychologicky
+## Infosféra, onlife a hyperhistorie
 
-**Čtvrtá revoluce** (Turing, polovina 20. století): Člověk **není** výlučný informační procesor — algoritmy jsou strukturálně schopné mnoha kognitivních úkolů. **Decentruje** informačně.
+Infosféra je u Floridiho celé informační prostředí, tvořené informačními entitami, jejich vlastnostmi, interakcemi a vztahy (Floridi, 2014). V užším smyslu je to digitální prostor, v širším smyslu je to celá realita chápaná informačně. Hranice mezi online a offline podle něj ztrácí smysl, a proto zavádí slovo onlife, které se stalo i názvem kolektivního manifestu vypracovaného pro Evropskou komisi (Floridi, 2015).
 
-Pro EA z toho plyne:
+Dějiny Floridi člení podle vztahu k informačním a komunikačním technologiím (ICT). Prehistorie je doba bez záznamu, historie doba, kdy společnosti ICT užívají k záznamu a přenosu, a hyperhistorie doba, kdy blahobyt a fungování společnosti na ICT přímo závisí (Floridi, 2014). Hyperhistorické společnosti jsou proto zranitelné způsobem, který dřívější neznaly: narušení informační infrastruktury zasahuje přímo do jejich chodu. Floridi také upozorňuje na jev, který nazývá obalováním (*enveloping*): svět se přizpůsobuje strojům, aby v něm mohly fungovat, a lidé se tím stávají spíše součástí jejich prostředí než naopak.
 
-- **Strukturální dezorientace**: čtvrtá revoluce strukturálně **destabilizuje** lidské sebepojetí
-- **EA exploituje dezorientaci**: techniky cílí na strukturální nejistotu post-Turingovského subjektu
-- **Counter-EA**: strukturální adaptace lidské subjektivity na novou ontologickou situaci
+## Sémantická informace
 
-## 2. Infosféra
+Teoretickým jádrem Floridiho díla je pojetí sémantické informace. Obecná definice říká, že informace se skládá z dat, která jsou dobře utvořená a mají význam; Floridi k tomu přidává tezi o pravdivosti (*veridicality thesis*), podle níž je sémantická informace navíc pravdivá (Floridi, 2005). Nepravdivý obsah tedy podle něj není „nepravdivou informací“, ale pseudoinformací, něčím, co informaci jen napodobuje. Metodicky Floridi pracuje s úrovněmi abstrakce (*levels of abstraction*), které určují, jaké proměnné a pozorovatelné veličiny daný popis systému bere v úvahu (Floridi, 2011).
 
-Floridiho klíčový pojem: **infosféra** (*infosphere*) — strukturální prostor, v němž **informační entity** existují, interagují a evolvují.
+## Etika informace
 
-Strukturálně, infosféra zahrnuje:
+V *The Ethics of Information* Floridi navrhuje ontocentrickou etiku: morální ohled nezasluhují jen lidé nebo cítící bytosti, ale v minimální míře všechny entity chápané jako informační objekty (Floridi, 2013). Zlem je metafyzická entropie, tedy ochuzení, poškození nebo zničení infosféry, a etika informace formuluje zásady, podle nichž se entropie nemá způsobovat, má se jí předcházet, má se odstraňovat a blaho infosféry se má podporovat. Na tento rámec navazují Floridiho práce o etice umělé inteligence, například návrh pěti principů: přínosnosti, neškodnosti, autonomie, spravedlnosti a vysvětlitelnosti (Floridi a Cowls, 2019).
 
-- **Lidi** jako informační entity
-- **Algoritmy** jako informační entity
-- **Data** jako informační entity
-- **Strukturální vztahy** mezi všemi výše
+Konkrétní podobu má Floridiho pojetí soukromí. Informační soukromí podle něj není jen ochranou majetku, ale ochranou osobní identity, protože člověk je ze značné části tvořen svými informacemi (Floridi, 2014). Floridi byl v roce 2014 členem poradního sboru společnosti Google pro uplatňování práva být zapomenut po rozsudku Soudního dvora EU ve věci Google Spain (C-131/12). Toto právo dnes výslovně upravuje článek 17 obecného nařízení o ochraně osobních údajů jako právo na výmaz (Evropský parlament a Rada EU, 2016).
 
-V Floridiho ontologii **vše**, co existuje, je strukturálně **informační** — svět je **infosférou**.
+## Hlavní kritiky
 
-Pro EA má infosféra **strukturální význam**:
+Ontocentrická etika vzbudila nejvíce námitek. Philip Brey zpochybnil, že bychom měli morální povinnosti vůči informačním objektům jako takovým, a navrhl slabší pozici, podle níž mají hodnotu jen pro bytosti, kterým na nich záleží (Brey, 2008). Kritici také upozorňují, že pojem metafyzické entropie je příliš abstraktní, aby dokázal rozhodovat konkrétní konflikty, například mezi ochranou soukromí a svobodou projevu (srov. Brey, 2008).
 
-- **EA jako informační patologie**: strukturální narušení informační tkáně infosféry
-- **Klinický korelát**: pacient v traumatizované infosféře vykazuje **informační** symptomy — fragmentace, dezorientace, ztráta narativní soudržnosti
+Teze o pravdivosti sémantické informace je sporná v teorii informace. James Fetzer namítl, že běžné i vědecké užití slova „informace“ zahrnuje i nepravdivý obsah, a že Floridiho definice proto nevystihuje pojem, který chceme vysvětlit (Fetzer, 2004). Floridi odpovídá, že jde o normativní pojem, užitečný právě proto, že odlišuje informaci od dezinformace (Floridi, 2005). Konečně historici vědy zpochybňují vyprávění o „ranách lidské sebelásce“: Dennis Danielson ukázal, že v předkoperníkovské kosmologii nebyl střed vesmíru místem cti, ale spíše nejnižší, nejhrubší polohou, takže představa, že Koperník člověka „ponížil“, je pozdější klišé (Danielson, 2001).
 
-## 3. Inforg
+## Interpretace pro rámec EA
 
-Floridi formuluje pojem **inforg** — informačního organismu. **Lidé** jsou strukturálně inforgs — informačními organismy v infosféře.
+Následující čtení je interpretací knihy. Floridiho teze o pravdivosti dává knize přesný slovník: [epistemická anihilace](@/glossary/epistemicka-anihilace.md) v informačním prostředí není jen šířením nepravd, ale znečišťováním infosféry pseudoinformací, která má podobu informace a vytlačuje ji (srov. Floridi, 2005). Claire Wardleová a Hossein Derakhshan pro tytéž jevy navrhli typologii informačního nepořádku, rozlišující misinformaci, dezinformaci a malinformaci podle nepravdivosti a záměru škodit (Wardle a Derakhshan, 2017); kniha ji rozebírá v [kapitole o Wardleové](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md).
 
-Tato pozice strukturálně rezonuje s:
+Druhým bodem je Floridiho pojetí soukromí jako součásti identity. Kniha z něj vyvozuje, proč odhalování osobních údajů, rozebírané u hesla [doxing](@/glossary/doxing.md), poškozuje víc než jen pověst: zasahuje do schopnosti člověka určovat, jaké informace o něm tvoří jeho veřejnou podobu (srov. Floridi, 2014). Třetím bodem je hyperhistorická zranitelnost: když společnost závisí na informační infrastruktuře, stává se kvalita informačního prostředí veřejným statkem, o nějž je třeba pečovat institucionálně, nikoli jen individuálně (Floridi, 2014).
 
-- **Extended mind** (Clark, [viz 7.41](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md))
-- **Cyborgs** (Clark, [viz 7.49](@/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs.md))
-- **Distributed cognition** (Hutchins, [viz 7.48](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md))
+## Právní rámec a obrana
 
-Pro EA z toho plyne:
+Obrana, kterou kniha z Floridiho rámce odvozuje, má institucionální a právní podobu. Obecné nařízení o ochraně osobních údajů, nařízení (EU) 2016/679, dává lidem práva na přístup ke svým údajům, jejich opravu a výmaz (Evropský parlament a Rada EU, 2016); v České republice je doplňuje zákon č. 110/2019 Sb., o zpracování osobních údajů. Nařízení o digitálních službách, nařízení (EU) 2022/2065, ukládá velmi velkým online platformám posuzovat a zmírňovat systémová rizika, mezi něž patří i šíření nezákonného obsahu a dopady na veřejnou debatu (Evropský parlament a Rada EU, 2022).
 
-- **Strukturální zranitelnosti inforg**: lidé jako inforgs jsou strukturálně **zranitelní** vůči informační manipulaci
-- **Counter-EA**: posílení informační etiky a regulace
+Na individuální úrovni Floridiho rámec podporuje dovednosti, které kniha rozebírá u [epistemické bezpečnosti](@/glossary/epistemic-security.md): rozlišovat úroveň abstrakce, na níž je tvrzení formulováno, ptát se, zda obsah splňuje nároky na informaci, nebo jen napodobuje její formu, a chránit vlastní informační identitu (srov. Floridi, 2011). Pro člověka, jehož osobní údaje byly zneužity, je praktickou cestou uplatnění práv podle nařízení a obrácení se na dozorový úřad; podrobnosti rozebírá [sekce forenzní a právní](@/kompendium/forensic-legal/_index.md).
 
-## 4. Information ethics
+## Meze a otevřené otázky
 
-Floridi rozvíjí **information ethics** — etiku, jejímž centrálním objektem je **informace**:
+Floridiho metafyzika informace je ambiciózní a sporná a kniha z ní nepřebírá ontologickou tezi, že vše je informace, ale jen pojmový aparát pro popis informačního prostředí (Brey, 2008). Otevřená zůstává otázka, zda právní nástroje, které pracují s jednotlivými údaji a jednotlivými platformami, dokážou postihnout systémové znečištění infosféry, o kterém Floridi mluví (srov. Floridi, 2013). A otevřená je i otázka obalování: pokud se svět přizpůsobuje strojům, kdo rozhoduje o tom, jaký lidský úsudek v něm zůstane nezbytný (Floridi, 2014).
 
-- **Entropy as evil**: degradace informace je strukturálně **etickým zlem**
-- **All informational entities have moral status**: jakákoli informační entita má strukturálně etický status (kontroverzně)
-- **Ontocentric ethics**: etika centrovaná na ontologické entity, nikoli pouze na lidi
+## Literatura
 
-Pro EA z toho plyne:
-
-- **EA jako etické zlo**: techniky strukturálně **degradují** informaci → strukturálně eticky problematické
-- **Algoritmická etika**: AI systémy mají strukturální **etické** závazky vůči informační integritě
-
-## 5. Hyperhistory
-
-Floridi rozlišuje **historické fáze**:
-
-- **Pre-history**: neexistovala písemná dokumentace
-- **History**: dokumentace existuje, ale je strukturálně omezená
-- **Hyperhistory**: dokumentace je **strukturálně neredukovatelně** závislá na ICT
-
-Strukturálně klíčový moment: **post-2000** vstupujeme do hyperhistory — fungování společnosti je strukturálně **závislé** na ICT.
-
-Pro EA z toho plyne:
-
-- **Strukturální zranitelnost hyperhistorie**: přerušení ICT je strukturálně **kataclysmické**
-- **EA v hyperhistorii**: strukturálně závažnější než v history — neexistuje „fallback“ mode
-
-## 6. Right to be forgotten
-
-Floridi je strukturálně angažovaný v digitální regulaci — zejména v koncepci **right to be forgotten** (právo být zapomenut), kodifikovaného v **GDPR** (2018).
-
-Strukturální argument:
-
-- Persistence digitálních dat je strukturálně **anti-humánní**
-- Lidská identita strukturálně **vyžaduje** kapacitu pro **změnu**, **zapomnění**
-- **Algorithmical permanence**: strukturálně **brzdí** lidský rozvoj
-
-Pro EA z toho plyne:
-
-- **Útok na right to be forgotten**: techniky, jež **vykopávají** historická data subjektu, strukturálně manipulují
-- **Klinický korelát**: oběť digitální permanence vykazuje specifické patterny — paralyzovaný strachem z **vykopání minulosti**
-
-## 7. Mapping na EA techniky
-
-| Floridi | EA technika | Mechanismus |
-|---------|-------------|-------------|
-| Manipulace infosféry | Strukturální dezinformace | Strukturální |
-| Útok na inforg | Algoritmická kolonizace | Strukturální |
-| Information entropy | Disinformační degradace | Strukturální |
-| Hyperhistorical attack | ICT disruption | Strukturální |
-| Útok na right to be forgotten | Digital persistence exploit | Strukturální |
-
-## 8. Klinický význam
-
-Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
-
-- **Diagnostika informačního ekosystému**: jaké informace strukturalizují pacientovo prožívání?
-- **Restituce informační integrity**: pacient se učí udržet informační soudržnost
-- **Right to be forgotten** jako klinický cíl: kapacita pro změnu identity přes čas
-
-## 9. Politické implications
-
-Floridi má **silnou** politickou pozici:
-
-- **Digitální regulace**: AI Act, GDPR jako strukturální nutnost
-- **Information ethics** jako součást politické filozofie
-- **Globální governance**: strukturální imperativ pro globální infosférickou regulaci
-
-## 10. Primární literatura
-
-- Floridi, L. (2011). *The Philosophy of Information*. Oxford UP.
-- Floridi, L. (2014). *The Fourth Revolution: How the Infosphere Is Reshaping Human Reality*. Oxford UP.
-- Floridi, L. (2019). *The Logic of Information*. Oxford UP.
-- Floridi, L. (2013). *The Ethics of Information*. Oxford UP.
-- Floridi, L. (ed.) (2015). *The Onlife Manifesto*. Springer.
+- Brey, P. (2008). Do we have moral duties towards information objects? *Ethics and Information Technology*, 10.
+- Danielson, D. R. (2001). The great Copernican cliché. *American Journal of Physics*, 69.
+- Evropský parlament a Rada EU. (2016). *Nařízení (EU) 2016/679 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů (obecné nařízení o ochraně osobních údajů)*. Úřední věstník EU.
+- Evropský parlament a Rada EU. (2022). *Nařízení (EU) 2022/2065 o jednotném trhu digitálních služeb (akt o digitálních službách)*. Úřední věstník EU.
+- Fetzer, J. H. (2004). Information: Does it have to be true? *Minds and Machines*, 14.
+- Floridi, L. (2005). Is semantic information meaningful data? *Philosophy and Phenomenological Research*, 70.
+- Floridi, L. (2011). *The Philosophy of Information*. Oxford University Press.
+- Floridi, L. (2013). *The Ethics of Information*. Oxford University Press.
+- Floridi, L. (2014). *The Fourth Revolution: How the Infosphere Is Reshaping Human Reality*. Oxford University Press.
+- Floridi, L. (Ed.). (2015). *The Onlife Manifesto: Being Human in a Hyperconnected Era*. Springer.
+- Floridi, L. (2019). *The Logic of Information*. Oxford University Press.
+- Floridi, L., & Cowls, J. (2019). A unified framework of five principles for AI in society. *Harvard Data Science Review*, 1.
+- Freud, S. (1917). Eine Schwierigkeit der Psychoanalyse. *Imago*, 5.
+- Wardle, C., & Derakhshan, H. (2017). *Information Disorder: Toward an Interdisciplinary Framework for Research and Policymaking*. Council of Europe.
 
 ## Související
 
-- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
-- [7.8 Politická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
-- [7.41 Clark: Rozšířená mysl](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)
-- [7.42 Metzinger: Ego Tunnel](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md)
-- [7.48 Hutchins: Distribuovaná kognice](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md)
-- [7.49 Clark: Natural-Born Cyborgs](@/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs.md)
-- [7.52 Harari: Sapiens narativ](@/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ.md)
-- [7.56 Zuboff: Surveillance Capitalism](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)
-- [7.57 Boyd: Disinformation Age](@/kompendium/07-teoreticke-reflexe/boyd-disinformation-age.md)
-- [7.58 Wardle: Disinformation Typology](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)
-- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Glosář: 3NL](@/glossary/3nl.md)
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+**Teoretické reflexe**
+
+- [7.58 Wardle: Typologie dezinformačního ekosystému](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md) – typologie informačního nepořádku.
+- [7.56 Zuboff: Surveillance Capitalism](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md) – ekonomika, která z osobních údajů těží.
+- [7.41 Clark: Rozšířená mysl](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md) – příbuzná teze o mysli v prostředí.
+- [7.48 Hutchins: Distribuovaná kognice](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md) – kognice rozprostřená mezi lidi a artefakty.
+- [7.7 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) – aplikace na algoritmy a generativní modely.
+
+**Právo a obrana**
+
+- [Sekce forenzní a právní](@/kompendium/forensic-legal/_index.md) – uplatnění práv a dokumentace.
+
+**Pojmy**
+
+- [Epistemic security](@/glossary/epistemic-security.md) – ochrana informačního prostředí.
+- [Doxing](@/glossary/doxing.md) – zásah do informační identity.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – ústřední pojem knihy.

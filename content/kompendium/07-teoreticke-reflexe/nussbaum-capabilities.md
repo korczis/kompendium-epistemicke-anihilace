@@ -1,6 +1,6 @@
 +++
 title = "7.33 Nussbaumová: Capabilities approach a lidský rozkvět"
-description = "Martha Nussbaumová a teorie schopností (capabilities approach), seznam centrálních lidských schopností, narativní představivost."
+description = "Martha Nussbaumová a přístup schopností: deset centrálních schopností, práh důstojného života, narativní představivost, kritika seznamu a výklad pro EA."
 weight = 33
 insert_anchor_links = "right"
 
@@ -10,135 +10,188 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["metzinger-ego-tunnel", "nagel-view-from-nowhere", "otevrene-otazky", "polanyi-ticha-znalost"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++
 
 # 7.33 Nussbaumová: Capabilities approach a lidský rozkvět
 
-Martha Nussbaumová ve spolupráci s Amartyou Senem ([viz 7.34](@/kompendium/07-teoreticke-reflexe/sen-development-as-freedom.md)) rozvíjí **capabilities approach** — etickou a politickou teorii, podle níž **kvalita lidského života** se měří **schopnostmi** subjektu **být** a **dělat** to, co považuje za **smysluplné**.
+Martha C. Nussbaumová, americká filozofka působící na Chicagské univerzitě, rozvinula vlastní
+verzi přístupu schopností (*capabilities approach*), který původně formuloval ekonom a filozof
+Amartya Sen ([viz 7.34](@/kompendium/07-teoreticke-reflexe/sen-development-as-freedom.md)).
+Výchozí otázka obou autorů zní: co člověk skutečně může dělat a čím může být? Kvalita života a
+spravedlnost se podle nich nemají měřit příjmem ani spokojeností, ale reálnými svobodami
+vést život, který má člověk důvod si cenit (Sen, 1999; Nussbaum, 2011).
 
-V knihách *Women and Human Development* (2000) a *Creating Capabilities* (2011) Nussbaumová formuluje **seznam centrálních lidských schopností** — strukturální mapping toho, co je **fundamentálně** vyžadováno pro **lidský rozkvět** (*human flourishing*).
+Nussbaumová na rozdíl od Sena formuluje určitý seznam deseti centrálních lidských schopností a
+tvrdí, že důstojný život vyžaduje, aby každý občan dosáhl alespoň prahové úrovně v každé z nich
+(Nussbaum, 2000). Pro [kompendium EA](@/glossary/kompendium-ea.md) je tento seznam užitečný jako
+normativní mapa: ukazuje, které lidské schopnosti manipulace a kontrola poškozují, a dává
+zotavení konkrétní cíl. Toto použití je interpretací knihy, nikoli Nussbaumové.
 
-Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje capabilities approach **strukturální mapping** schopností, na něž EA techniky útočí.
+## Výklad teorie
 
-## 1. Seznam centrálních schopností
+### Schopnosti a uskutečnění
 
-Nussbaumové **seznam** zahrnuje **deset** centrálních schopností:
+Základní rozlišení je mezi schopností (*capability*) a uskutečněním (*functioning*). Uskutečnění
+je to, co člověk skutečně dělá nebo čím je – je najedený, vzdělaný, účastní se politického
+života. Schopnost je reálná svoboda takové uskutečnění zvolit. Člověk, který se postí z
+náboženských důvodů, a člověk, který hladoví, mají totéž uskutečnění, ale zcela jinou schopnost
+(Sen, 1999). Politika má podle Nussbaumové zajišťovat schopnosti, nikoli vynucovat uskutečnění,
+protože volba zůstává věcí občana (Nussbaum, 2011).
 
-1. **Život** — schopnost dožít se přirozené délky života
-2. **Tělesné zdraví** — schopnost mít dobré zdraví
-3. **Tělesná integrita** — schopnost svobodně se pohybovat, být chráněn před napadením
-4. **Smysly, představivost, myšlení** — schopnost užívat všechny smysly, představovat si, myslet
-5. **Emoce** — schopnost mít vazby k druhým, milovat, truchlit
-6. **Praktický rozum** — schopnost formulovat koncepci dobrého života a kriticky ji reflektovat
-7. **Afilace** — schopnost žít s druhými, mít sebeúctu
-8. **Jiné druhy** — schopnost žít ve vztahu ke zvířatům, rostlinám, přírodě
-9. **Hra** — schopnost smát se, hrát si, užívat rekreačních aktivit
-10. **Kontrola nad vlastním prostředím** — politická + materiální
+V knize *Creating Capabilities* Nussbaumová dále rozlišuje vnitřní schopnosti – rysy osoby, jako
+jsou dovednosti, zdraví nebo emoční zralost – a kombinované schopnosti, tedy vnitřní schopnosti
+spolu s politickými, sociálními a ekonomickými podmínkami, za nichž je lze uplatnit. Společnost
+může vnitřní schopnosti rozvíjet, a přesto lidem bránit, aby je uplatnili (Nussbaum, 2011).
 
-Pro EA má seznam **diagnostickou hodnotu** — manipulativní techniky lze **mapovat** na **specifické** schopnosti, jež strukturálně podkopávají:
+### Deset centrálních schopností
 
-| Schopnost | EA útok | Mechanismus |
-|-----------|---------|-------------|
-| 4. Smysly, představivost, myšlení | Censura, dezinformace | EA-1.x |
-| 5. Emoce | Emocionální manipulace | EA-2.x, EA-4.x |
-| 6. Praktický rozum | Imunizace proti reflexi | EA-1.x, EA-2.x |
-| 7. Afilace | Izolace, [gaslighting](@/glossary/gaslighting.md) | EA-4.x |
-| 10. Kontrola nad prostředím | Politická EA | EA-3.x |
+Seznam zahrnuje život v přirozené délce; tělesné zdraví; tělesnou integritu včetně ochrany před
+násilím a svobody pohybu; smysly, představivost a myšlení, rozvíjené vzděláním a chráněné
+svobodou projevu; emoce, tedy schopnost mít vazby k lidem a věcem, milovat a truchlit, aniž by
+emoční vývoj ničil strach a úzkost; praktický rozum, tedy schopnost utvořit si pojetí dobrého
+života a kriticky o něm uvažovat; afiliaci, tedy život s druhými a sociální základy sebeúcty;
+vztah k jiným druhům a přírodě; hru; a kontrolu nad vlastním prostředím, politickou i
+materiální (Nussbaum, 2000; Nussbaum, 2011).
 
-## 2. Capabilities vs. Functionings
+Dvěma položkám Nussbaumová přisuzuje zvláštní, „architektonickou“ roli: praktický rozum a
+afiliace prostupují a organizují všechny ostatní, protože teprve díky nim je uplatnění jiných
+schopností skutečně lidské (Nussbaum, 2000). Seznam je otevřený revizi a schopnosti nelze
+navzájem směňovat: nedostatek v jedné nevyrovná přebytek v jiné (Nussbaum, 2011).
 
-Nussbaumová rozlišuje:
+### Důstojnost, práh a politický liberalismus
 
-- **Capability** (schopnost) — **substantivní svoboda** dosáhnout určitý stav
-- **Functioning** (uskutečnění) — **aktuální** dosažení stavu
+Nussbaumová odvozuje seznam z intuitivní ideje života hodného lidské důstojnosti a tvrdí, že jej
+mohou přijmout lidé s různými náboženskými a světonázorovými přesvědčeními jako předmět
+překrývajícího se konsenzu, podobně jako Rawlsovy principy (Rawls, 1971; Nussbaum, 2011).
+V knize *Frontiers of Justice* pak ukazuje, že teorie společenské smlouvy nedokážou dobře
+zahrnout osoby s postižením, příslušníky jiných národů a zvířata, a přístup schopností nabízí
+jako úplnější teorii minimální spravedlnosti (Nussbaum, 2006).
 
-Důraz na **capabilities** (nikoli pouze functionings) má strukturální význam:
+### Emoce a narativní představivost
 
-- Demokratická společnost musí zajistit **schopnosti**, ale **nemůže** vynucovat **uskutečnění** (respekt k autonomii)
-- Subjekt může **mít** schopnost (například vzdělání), ale **dobrovolně** ji **neuskutečňovat** (např. nezvolit akademickou kariéru) — to je **legitimní volba**
-- EA techniky cílí strukturálně na **schopnosti**, nikoli pouze na uskutečnění
+Nussbaumová chápe emoce jako hodnotící soudy o tom, co je pro člověka důležité a co leží mimo
+jeho kontrolu; emoce proto nejsou protikladem rozumu, ale jeho součástí (Nussbaum, 2001).
+V knize *Cultivating Humanity* jmenuje tři schopnosti, které má pěstovat vzdělání demokratického
+občana: sokratovské zkoumání sebe sama, občanství světa a narativní představivost, tedy schopnost
+představit si, jaké je být na místě jiného člověka (Nussbaum, 1997). *Not for Profit* varuje, že
+vzdělávací politika podřízená ekonomickému růstu tyto schopnosti oslabuje (Nussbaum, 2010).
 
-## 3. Narativní představivost
+## Kritika a meze teorie
 
-V *Cultivating Humanity* (1997) a *Not for Profit* (2010) Nussbaumová zdůrazňuje **narativní představivost** (*narrative imagination*) jako klíčovou schopnost demokratického občana:
+Sen odmítá stanovit kanonický seznam schopností. Podle něj má výběr a vážení schopností vzejít
+z veřejného rozumování v konkrétní společnosti, a pevný seznam formulovaný filozofem by tento
+demokratický proces předjímal (Sen, 2004). Rozdíl mezi oběma autory je proto zásadní: Sen nabízí
+rámec pro hodnocení, Nussbaumová částečnou teorii spravedlnosti.
 
-> *Schopnost se pohybovat v lidských historiích, vidět svět zkušeností druhých, zažívat ho jako složitou a jiný-orientovanou činnost.*
+Druhá námitka míří na paternalismus a kulturní podmíněnost seznamu. Susan Moller Okinová
+upozorňuje, že seznam vznikl bez dostatečného naslouchání chudým ženám, jejichž život má zlepšit,
+a že nese stopy západní liberální tradice (Okin, 2003). Nussbaumová odpovídá, že seznam je
+formulován obecně, ponechává konkretizaci jednotlivým společnostem a chrání právě svobodu volby
+(Nussbaum, 2000).
 
-Narativní představivost je strukturálně **vázána** na:
+Třetí okruh kritiky je metodologický. Ingrid Robeynsová rozlišuje obecný přístup schopností
+jako otevřený rámec od konkrétních teorií, jako je ta Nussbaumové, a připomíná, že schopnosti
+jsou na rozdíl od uskutečnění obtížně měřitelné, takže empirické studie často měří jen
+uskutečnění (Robeyns, 2017). Rawlsovská tradice navíc namítá, že měřítko zdrojů je pro veřejnou
+politiku průhlednější než měřítko schopností (Rawls, 1971).
 
-- **Literární vzdělávání** (zejména romány)
-- **Divadlo** a umělecké výchovy
-- **Kulturní vzdělávání** v širokém smyslu
+## Interpretace pro kompendium
 
-Pro EA má narativní představivost **klíčový význam**:
+Následující oddíl je interpretací knihy. Kompendium čte seznam centrálních schopností jako mapu
+toho, co dlouhodobá manipulace a kontrola poškozují. Evan Stark popisuje
+[donucující kontrolu](@/glossary/coercive-control.md) (*coercive control*) jako zločin proti
+svobodě: jejím jádrem není jednotlivý akt násilí, ale soustavné omezování autonomie, kontaktů,
+financí a každodenních rozhodnutí (Stark, 2007). V jazyce Nussbaumové jde o útok na kombinované
+schopnosti – člověk může mít dovednosti i vůli, ale nemá podmínky, aby je uplatnil (Nussbaum,
+2011).
 
-- **Útok na narativní představivost**: ekonomicky orientované vzdělávací reformy („not for profit“), jež **eliminují** humanity disciplíny, strukturálně **anihilují** schopnost vidět **druhého jako subjekt**.
-- **Algoritmická redukce narativní představivosti**: digital media strukturálně **upřednostňují** krátké, viscerální obsahy nad **dlouhými, komplexními** narativy.
-- **Counter-EA**: posílení humanity vzdělávání jako strukturální rezilience.
+### Které schopnosti jsou zasaženy
 
-## 4. Politická aplikace
+Prostředí s vysokou mírou kontroly zasahuje nejčastěji schopnosti, které Nussbaumová označuje
+za architektonické. Praktický rozum oslabuje zákaz pochybovat a nadřazení doktríny nad vlastní
+úsudek, který Lifton (1961) popsal jako jádro myšlenkové reformy. Afiliaci oslabuje
+[sociální izolace](@/glossary/socialni-izolace.md) od rodiny a přátel. Smysly, představivost a
+myšlení oslabuje kontrola informací, kterou Lifton nazval kontrolou prostředí
+([milieu control](@/glossary/milieu-control.md)). Kontrolu nad prostředím oslabuje ekonomická
+závislost, kterou Stark (2007) řadí mezi typické projevy donucující kontroly.
 
-Capabilities approach má **politickou** dimenzi:
+Wolff a de-Shalit (2007) zavedli pojem „korozivního znevýhodnění“: nedostatek v jedné schopnosti
+vyvolává nedostatky v dalších. Kompendium tento pojem používá k popisu kaskády, v níž izolace
+vede ke ztrátě informací, ta ke ztrátě úsudku a ta k ekonomické a právní závislosti. Za detekční
+znak považuje souběh několika zasažených schopností, nikoli jednotlivou ztrátu.
 
-- **Sociální spravedlnost** se měří **schopnostmi**, nikoli pouze „ekonomickými indikátory“ (HDP)
-- **Lidská práva** jsou strukturálně **vázána** na **kapacitální fundamenty**
-- **Rozvojová politika** se má orientovat na **schopnosti**, nikoli pouze na **růst**
+### Emoce jako hodnocení
 
-Pro EA z toho plyne:
+Kognitivní teorie emocí Nussbaumové vysvětluje, proč emoční manipulace není jen „hraním na
+city“. Pokud je emoce soudem o tom, co je pro člověka důležité, pak prostředí, které střídá
+zahrnování náklonností ([love bombing](@/glossary/love-bombing.md)) s jejím odnímáním, nemění
+jen nálady, ale přepisuje hodnocení toho, na čem člověku záleží (Nussbaum, 2001). Kompendium
+proto schopnost emocí – mít vazby, aniž by je ničil strach – považuje za samostatný cíl obrany
+a za detekční znak bere stav, kdy se náklonnost a strach vážou na tutéž osobu nebo skupinu
+(Herman, 1992).
 
-- **Politická EA** ([viz 7.8](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)) lze diagnostikovat jako **systémové podkopání kapacit** populace.
-- **Klimatická EA**: ekologická destrukce strukturálně podkopává **schopnost 8** (vztah ke zvířatům, rostlinám, přírodě).
+### Odlišení
 
-## 5. Vzdělávání a EA
+Ne každé omezení schopností je manipulací. Klášterní řád, náročný výcvik nebo dočasné omezení
+kontaktů v léčbě závislosti mohou uskutečnění dobrovolně omezit, ale schopnost odejít, změnit
+názor a obrátit se na vnější autoritu zůstává zachována (Nussbaum, 2011). Rozhodující je tedy
+rozdíl mezi uskutečněním a schopností: varovným znakem je, když člověk nejen nedělá, ale už
+reálně nemůže dělat, co by si zvolil (Sen, 1999).
 
-Nussbaumová věnuje speciální pozornost **vzdělávání** jako **strukturálnímu fundamentu** capabilities. V *Not for Profit* (2010) varuje před **redukcí** vzdělávání na **ekonomicky užitečné** disciplíny:
+### Obrana a zotavení
 
-- **Humanitní vzdělávání** kultivuje narativní představivost a kritické myšlení
-- **Bez humanit** demokracie strukturálně **chřadne**
-- **Současná tendence** redukovat vzdělávání na STEM je strukturální nebezpečí
+Přístup schopností dává zotavení konkrétní cíl, který je širší než ústup symptomů: obnovu
+vztahů, vlastního úsudku, finanční samostatnosti a účasti na veřejném životě (Nussbaum, 2011).
+Herman (1992) popisuje závěrečnou fázi zotavení z traumatu jako znovupropojení s druhými a se
+společností, což odpovídá obnově afiliace. Právní rámec chrání některé schopnosti přímo: český
+trestní zákoník (zákon č. 40/2009 Sb.) postihuje mimo jiné týrání osoby žijící ve společném
+obydlí, ačkoli donucující kontrolu jako samostatný trestný čin nezná.
 
-Pro EA z toho plyne:
+## Otevřené otázky
 
-- **Vzdělávací politika** je **strukturálním** front-line proti EA
-- **Defunding humanit** je strukturálně **anti-demokratickým** krokem
+Zůstává otevřené, kdo má v konkrétním případě rozhodnout, že schopnost klesla pod práh – zda
+postižený, odborník, nebo soud –, a jak se vyhnout paternalismu, před nímž varuje Okin (2003).
+Otevřená je i otázka měření: jak zachytit ztrátu praktického rozumu, která se navenek projevuje
+jen jako „svobodná volba“ zůstat (Robeyns, 2017).
 
-## 6. Mapping na EA techniky
+## Literatura
 
-| Nussbaumová | EA technika | Mechanismus |
-|-------------|-------------|-------------|
-| Útok na praktický rozum | Imunizace proti reflexi | EA-1.x |
-| Útok na afilace | Izolace | EA-4.x |
-| Útok na narativní představivost | Defunding humanit | Strukturální |
-| Útok na schopnost 10 | Politická EA | EA-3.x |
-| Algoritmická redukce | Krátké viscerální obsahy | Strukturální |
-
-## 7. Klinický význam
-
-Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
-
-- **Capabilities-based assessment**: hodnocení pacienta podle **schopností**, nikoli pouze symptomů.
-- **Klinický cíl**: restituce kapacit, nikoli pouze „stabilizace“.
-- **[Narativní terapie](@/glossary/narativni-terapie.md)** ([Ricoeur, viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)) operuje strukturálně na nussbaumovské narativní představivosti.
-
-## 8. Primární literatura
-
-- Nussbaumová, M. (1997). *Cultivating Humanity*. Harvard UP.
-- Nussbaumová, M. (2000). *Women and Human Development*. Cambridge UP.
-- Nussbaumová, M. (2010). *Not for Profit: Why Democracy Needs the Humanities*. Princeton UP.
-- Nussbaumová, M. (2011). *Creating Capabilities*. Belknap Press.
-- Sen, A. (1999). *Development as Freedom*. Anchor.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Nussbaum, M. C. (1997). *Cultivating Humanity: A Classical Defense of Reform in Liberal Education*. Harvard University Press.
+- Nussbaum, M. C. (2000). *Women and Human Development: The Capabilities Approach*. Cambridge University Press.
+- Nussbaum, M. C. (2001). *Upheavals of Thought: The Intelligence of Emotions*. Cambridge University Press.
+- Nussbaum, M. C. (2006). *Frontiers of Justice: Disability, Nationality, Species Membership*. Belknap Press.
+- Nussbaum, M. C. (2010). *Not for Profit: Why Democracy Needs the Humanities*. Princeton University Press.
+- Nussbaum, M. C. (2011). *Creating Capabilities: The Human Development Approach*. Belknap Press.
+- Okin, S. M. (2003). Poverty, well-being, and gender: What counts, who's heard? *Philosophy & Public Affairs*, 31(3).
+- Rawls, J. (1971). *A Theory of Justice*. Harvard University Press.
+- Robeyns, I. (2017). *Wellbeing, Freedom and Social Justice: The Capability Approach Re-Examined*. Open Book Publishers.
+- Sen, A. (1999). *Development as Freedom*. Oxford University Press.
+- Sen, A. (2004). Capabilities, lists, and public reason: Continuing the conversation. *Feminist Economics*, 10(3).
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
+- Wolff, J. a de-Shalit, A. (2007). *Disadvantage*. Oxford University Press.
 
 ## Související
 
-- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [7.17 Ricoeur: Trojí mimésis](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)
-- [7.22 Honneth: Rozpoznání](@/kompendium/07-teoreticke-reflexe/honneth-rozpoznani.md)
-- [7.32 Taylor: Sources of Self](@/kompendium/07-teoreticke-reflexe/taylor-sources-of-self.md)
-- [7.34 Sen: Development as Freedom](@/kompendium/07-teoreticke-reflexe/sen-development-as-freedom.md)
-- [7.8 Politická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
-- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
-- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+**Teoretické reflexe**
+
+- [7. Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – rozcestník sekce.
+- [Sen: Development as Freedom](@/kompendium/07-teoreticke-reflexe/sen-development-as-freedom.md) – Senova verze přístupu schopností a spor o seznam.
+- [Honneth: Rozpoznání](@/kompendium/07-teoreticke-reflexe/honneth-rozpoznani.md) – sociální základy sebeúcty z pohledu teorie uznání.
+- [MacIntyre: After Virtue](@/kompendium/07-teoreticke-reflexe/macintyre-after-virtue.md) – aristotelská etika ctností jako příbuzná tradice.
+- [Politická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) – útok na kontrolu nad vlastním prostředím v politickém měřítku.
+- [Ricoeur: Trojí mimésis](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md) – vyprávění jako nástroj narativní představivosti.
+
+**Glosář**
+
+- [Coercive control](@/glossary/coercive-control.md) – kontrola jako soustavné omezování schopností.
+- [Sociální izolace](@/glossary/socialni-izolace.md) – útok na afiliaci.
+- [Milieu control](@/glossary/milieu-control.md) – kontrola informací a myšlení.
+
+**Klinická praxe a filozofie knihy**
+
+- [Sekce 06 – Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) – zotavení orientované na obnovu schopností.
+- [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) – praktický rozum jako jádro autonomie.

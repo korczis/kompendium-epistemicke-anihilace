@@ -1,6 +1,6 @@
 +++
 title = "7.49 Clark: Natural-Born Cyborgs a hluboká integrace s technologiemi"
-description = "Andy Clark a teze Natural-Born Cyborgs, hluboká integrace lidí a technologií, etika kognitivního rozšíření — rámec pro analýzu EA technik využívajících strukturální technologickou závislost."
+description = "Andy Clark: člověk jako přirozený kyborg, průhledné technologie a plasticita mysli podle primárního díla, kritiky a interpretace pro ochranu poznávání před zneužitím technologií."
 weight = 49
 insert_anchor_links = "right"
 
@@ -10,136 +10,95 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["chalmers-hard-problem", "chomsky-manufacturing-consent", "clark-extended-mind", "computational-epistemology"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++
 
 # 7.49 Clark: Natural-Born Cyborgs a hluboká integrace s technologiemi
 
-Andy Clark v knize *Natural-Born Cyborgs: Minds, Technologies, and the Future of Human Intelligence* (2003) rozšiřuje thezi rozšířené mysli ([viz 7.41](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)) na **antropologickou tezi**: lidská bytost je **strukturálně kyborgem** — naše inteligence se **strukturálně vyvinula** ve symbiotickém vztahu s **technologiemi**.
+Andy Clark, britský filozof kognitivní vědy působící dlouho na Edinburské univerzitě a později na University of Sussex, rozšířil tezi rozšířené mysli, kterou vykládá stránka [7.41 Clark: Rozšířená mysl a kognitivní artefakty](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md), v antropologickou tezi o lidské přirozenosti. V knize *Natural-Born Cyborgs* tvrdí, že lidé jsou „rození kyborgové“: jejich mysl je od počátku uzpůsobena k tomu, aby se propojovala s nebiologickými nástroji, od jazyka a písma po digitální zařízení (Clark, 2003). Stránka vykládá jeho argument z primárního díla, uvádí hlavní kritiky a v samostatném, výslovně označeném oddílu ukazuje, proč je teze důležitá pro ochranu poznávání před zneužitím technologií.
 
-Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje tato teze nástroj pro pochopení **EA technik využívajících strukturální technologickou závislost** — zejména v digitální éře.
+## Kyborg bez implantátů
 
-## 1. Antropologická teze
+Slovo kyborg vzniklo v roce 1960, když Clynes a Kline navrhovali technické úpravy lidského organismu pro pobyt ve vesmíru, které by tělo regulovaly bez vědomého zásahu (Clynes a Kline, 1960). Clark pojem přebírá, ale odpojuje ho od představy implantátů a kovových protéz. Rozhodující podle něj není, zda technologie proniká kůží, ale jak těsně se zapojuje do našich kognitivních procesů; z tohoto hlediska jsme kyborgy už dlouho, protože naše myšlení se odehrává v souhře mozku, těla a nástrojů (Clark, 2003).
 
-Clarkova centrální teze: člověk se **strukturálně neevoluoval** jako **isolovaný** kognitivní systém. Lidská inteligence je **vždy** byla **rozšířená**:
+Clark tuto souhru ilustruje příkladem hodinek. Když se někoho zeptáme, zda ví, kolik je hodin, odpoví často „ano“ ještě předtím, než se na hodinky podívá; informace na zápěstí je pro něj dostupná tak spolehlivě, že ji prožívá jako něco, co ví (Clark, 2003). Podobně podle něj funguje písmo, kalkulace na papíře nebo skicování, při kterém výtvarník myslí v dialogu s náčrtem, a ne jen v hlavě.
 
-- **Jazyk** jako prvotní technologie
-- **Písmo** jako kognitivní revoluce (Goody, Olson)
-- **Matematika** jako kulturní artefakt
-- **Hodiny, mapy, kalendáře**: kognitivní moduly
-- **Smartphone, AI**: současné rozšíření
+## Plasticita mozku a otevřená mysl
 
-„Hluboká integrace“ člověka a technologie není **patologií** — je strukturálně **konstitutivní** lidskosti.
+Základním předpokladem knihy je, že lidský mozek je mimořádně plastický a že jeho vývoj probíhá v prostředí nástrojů a kulturních praktik. Mozek se podle Clarka „učí“ počítat s externími oporami tak, jako by byly jeho součástí, a vytváří s nimi těsné smyčky vnímání a jednání (Clark, 2003). Clark k tomu uvádí experimenty a umělecké projekty, v nichž lidé začlenili do svého tělesného schématu protézy nebo vzdáleně ovládané nástroje.
 
-Pro EA z toho plyne:
+Empirickou oporou představy, že tělesné schéma je pružné, je například pokus s gumovou rukou, v němž účastníci při synchronním dotyku začali pociťovat umělou ruku jako vlastní (Botvinick a Cohen, 1998). Heslo [tělesné schéma](@/glossary/body-schema.md) shrnuje, jak se mapa vlastního těla mění s užíváním nástrojů. Současný výzkum kognitivního odlehčování (*cognitive offloading*) zase ukazuje, že lidé si běžně ukládají paměťové a výpočetní úlohy do okolí a že o tom rozhodují podle očekávané spolehlivosti opory (Risko a Gilbert, 2016).
 
-- **Anti-luddistická pozice**: kompendium **neodmítá** technologie per se.
-- **Kritická pozice**: některé technologie jsou strukturálně **manipulativní**, vyžadují **kritickou** reflexi.
-- **Pravomoc nad rozšířením**: subjekt má strukturální **právo** na **kontrolu** vlastních kognitivních rozšíření.
+## Průhledné a neprůhledné technologie
 
-## 2. Transparent technology
+Clark rozlišuje technologie průhledné, které při užívání „mizí“ a s nimiž myslíme, aniž bychom si jich všímali, a neprůhledné, které na sebe stále upozorňují a vyžadují vědomou pozornost (Clark, 2003). Navazuje tím na Heideggerův rozbor nástroje, který je při plynulém užívání po ruce a stává se nápadným teprve tehdy, když selže (Heidegger, 1927). Cílem dobrého návrhu je podle Clarka průhlednost, protože teprve průhledná technologie se stává skutečnou součástí kognitivního systému.
 
-Clark popisuje **transparentní technologii** — technologii, jež se v **užívání** stává **neviditelnou**, **integruje se** s kognicí. Klasický příklad: tužka mistra spisovatele — **neuvědomuje** si ji, **přemýšlí jí**.
+Pozdější Clarkovy knihy tento obraz doplňují o teorii prediktivního zpracování: mozek podle ní neustále předpovídá vstupy a nástroje se stávají součástí predikčních smyček, které formují i to, co vnímáme (Clark, 2016; Clark, 2023). Heslo [predictive processing](@/glossary/predictive-processing.md) tento rámec vykládá podrobněji a stránka [7.40 Friston: Active Inference a free energy principle](@/kompendium/07-teoreticke-reflexe/friston-active-inference.md) ukazuje jeho formální jádro.
 
-Strukturální paradox transparentní technologie:
+## Rizika podle samotného Clarka
 
-- Pozitivní: umožňuje **plnou integraci**, **rozšiřuje** kognitivní kapacity
-- Negativní: subjekt **ztrácí** povědomí o technologii, **zranitelný** je vůči manipulaci
+Clark není naivní optimista. V kapitole o možných „špatných kyborzích“ sám probírá obavy, které technologie hluboké integrace vyvolávají, mezi nimi narušení soukromí, nerovný přístup, informační přetížení a odcizení od vlastního těla a místa (Clark, 2003). Jeho odpověď je však převážně smířlivá: rizika nejsou podle něj vlastností kyborgské povahy, ale konkrétních návrhů a společenských uspořádání, a proto se jim má čelit lepším návrhem a veřejnou kontrolou, nikoli odmítnutím technologií.
 
-Pro EA má transparentní technologie **klíčovou diagnostickou hodnotu**:
+## Hlavní kritiky a meze
 
-- **Algoritmická transparentnost**: digital platforms strukturálně **operují** v transparentní vrstvě — uživatel přestává **vnímat** algoritmickou mediaci.
-- **Manipulace skrze transparentnost**: techniky, jež exploitují transparentnost technologií, jsou strukturálně **závažnější**, neboť subjekt strukturálně **nevidí** manipulaci.
-- **Klinický korelát**: závislí uživatelé social media strukturálně **nedokážou** kriticky reflektovat algoritmický rámec.
+Carr (2010) tvrdí, že internet a digitální nástroje mění způsob čtení a myšlení k horšímu: podporují roztěkanou pozornost a oslabují hluboké soustředěné čtení. Jeho argument stojí částečně na empirické literatuře, jejíž výklad je sporný, ale upozorňuje na to, co Clarkův obraz podceňuje: integrace s nástrojem není neutrální a může měnit samotné kognitivní schopnosti. Haraway (1991) použila metaforu kyborga zcela jinak, jako politický obraz překračování hranic mezi člověkem, zvířetem a strojem a kritiku přirozenosti; ve srovnání s ní je Clarkův kyborg depolitizovaný.
 
-## 3. Plasticita lidského mozku
+Zásadní je i kritika z perspektivy politické ekonomie. Zuboff (2019) ukazuje, že digitální technologie, s nimiž se dnes nejtěsněji propojujeme, jsou navrhovány jako nástroje sběru dat o chování a jeho ovlivňování; jejich průhlednost pro uživatele tak může být výhodou pro provozovatele, nikoli pro uživatele. Filozofické námitky proti samotné tezi rozšířené mysli, například že spojení s nástrojem ještě nečiní nástroj součástí kognice, shrnuje stránka [7.41 Clark: Rozšířená mysl a kognitivní artefakty](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md) (Adams a Aizawa, 2008).
 
-Clark argumentuje, že **plasticita** lidského mozku je strukturálně **adaptivní** vůči technologickým rozšířením:
+## Interpretace pro epistemickou anihilaci
 
-- Mozek **přizpůsobuje** vlastní strukturu užívaným nástrojům
-- **Dlouhodobé** užívání nástroje **modifikuje** neurální architekturu
-- **Skill acquisition** je strukturálně **bio-technologickou** koevolucí
+Následující oddíl je interpretací této knihy, nikoli Clarkovým tvrzením. Kniha z jeho díla přebírá především tezi o průhlednosti. Pokud se nástroj stal součástí našeho myšlení, přestáváme ho při užívání vnímat, a právě proto je zásah do něj obtížně rozpoznatelný: zkreslený výsledek vyhledávání, upravený záznam nebo manipulativně navržené upozornění vstupují do úsudku, aniž by prošly vědomou kontrolou (Clark, 2003; Zuboff, 2019).
 
-Pro EA z toho plyne:
+Druhá interpretace se týká blízkých vztahů. Výzkum technologiemi zprostředkovaného násilí v partnerských vztazích ukazuje, že násilní partneři často využívají přístupu k zařízením a účtům, které sdílejí nebo které oběti sami nastavili, ke sledování, kontrole a zastrašování (Freed a kol., 2018). Kniha tento vzorec řadí k jevu, který popisuje heslo [coercive control](@/glossary/coercive-control.md), protože kontrola nástrojů, na nichž člověk závisí v orientaci a komunikaci, je zároveň kontrolou jeho poznávání (Stark, 2007).
 
-- **Strukturální obavy o digital natives**: generace odkojená digital tech má strukturálně **modifikovaný** mozek.
-- **Klinický korelát**: pochybnosti o **adekvátnosti** klasických terapeutických modelů pro digital natives.
-- **Counter-EA**: nutnost **pre-zahájovat** zdravé technologické vzorce v dětství.
+Třetí interpretace se týká etiky. Pokud jsou některé technologie součástí mysli, pak zásah do nich nemusí být jen poškozením majetku. Carter a Palermos (2016) argumentují, že narušení těsně integrovaného zařízení může mít morální váhu blízkou zásahu do osoby, a Ienca a Andorno (2017) navrhují nová lidská práva, například na kognitivní svobodu a duševní integritu. Kniha tyto návrhy pokládá za otevřenou, ale důležitou linii, která podporuje její pojem [epistemické agentnosti](@/glossary/epistemicka-agentnost.md).
 
-## 4. Etika rozšířené mysli
+## Rozpoznání, obrana a právní rámec
 
-Clark v posledních letech rozvíjí **etiku** rozšířené mysli:
+Rozpoznávacími znaky zneužití integrovaných technologií jsou situace, kdy druhá osoba ví o člověku věci, které mohla zjistit jen z jeho zařízení, kdy se zařízení nebo účty chovají nečekaně, kdy člověk ztrácí přístup k vlastním záznamům a kdy začíná pochybovat o své paměti, protože záznamy neodpovídají vzpomínkám. Takové znaky je třeba odlišit od technických poruch a od běžné úzkosti z technologií; podezření má posoudit odborník, například specializovaná poradna pro oběti násilí (Freed a kol., 2018).
 
-- **Kognitivní práva**: pravomoc nad vlastní rozšířenou myslí jako **fundamentální** lidské právo
-- **Algoritmická transparence**: subjekt má právo **vědět**, jak funguje systém, jenž se stal součástí jeho mysli
-- **Anti-paternalismus**: subjekt má právo na **vlastní** technologické integrace
+Obrana se nemá opírat o improvizované zásahy, které by mohly situaci vyhrotit, ale o bezpečnostní plán připravený s odbornou službou a o obnovu nezávislých opor: vlastních záznamů, důvěryhodných kontaktů a zařízení, nad nimiž má člověk kontrolu. Český právní řád postihuje nejzávažnější formy takového jednání, například nebezpečné pronásledování (§ 354) nebo neoprávněný přístup k počítačovému systému a nosiči informací (§ 230) podle zákona č. 40/2009 Sb., trestního zákoníku. V terapii kniha z Clarkova rámce vyvozuje, že zotavení zahrnuje i obnovu důvěryhodného prostředí nástrojů; postupy uvádí sekce [6. Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) (Stark, 2007).
 
-Pro EA z toho plyne:
+## Otevřené otázky
 
-- **Politická EA**: současná digital ekonomika strukturálně **porušuje** kognitivní práva.
-- **Counter-EA**: posílení regulací (GDPR, AI Act) jako kognitivní práva.
+Otevřené zůstává, kde leží hranice mezi zdravou integrací s technologií a závislostí, která oslabuje vlastní schopnosti, a zda ji lze určit jinak než v konkrétním případě. Stejně otevřená je otázka, jak v prostředí jazykových modelů, které se stávají průhledným rozhraním k informacím, zachovat schopnost všimnout si, kdy nástroj přestal sloužit uživateli (Clark, 2023; Risko a Gilbert, 2016).
 
-## 5. AI jako kognitivní rozšíření
+## Literatura
 
-Clarkova nedávná pozice (zejména v *Surfing Uncertainty*, 2016): **AI systémy** jsou strukturálně **legitimními** kognitivními rozšířeními — pokud jsou **transparentní** a **kontrolované**.
-
-Strukturální distinkce:
-
-- **AI jako nástroj**: extension uživatelovy mysli, řízená uživatelem
-- **AI jako autonomní agent**: substituuje uživatelovo rozhodování — **strukturálně problematické**
-- **AI jako manipulátor**: strukturálně optimalizovaná pro extrakci dat/pozornosti — **strukturálně manipulativní**
-
-Pro EA z toho plyne:
-
-- **Kategoriální mapping AI**: které systémy jsou **rozšířením**, které **manipulací**?
-- **Klinický mapping**: závislost na AI partnerovi (chatbots) je strukturálně **problematická**.
-
-## 6. Mapping na EA techniky
-
-| Clark | EA technika | Mechanismus |
-|-------|-------------|-------------|
-| Manipulace transparentní technologie | Algoritmická manipulace | Strukturální |
-| Útok na kognitivní práva | Nedostatečná regulace | Strukturální |
-| AI jako manipulátor | Pseudo-AI compagnion | Strukturální |
-| Nezdravé technologické vzorce | Smartphone addiction | Klinický |
-| Manipulace plasticitou | Long-term digital exposure | Strukturální |
-
-## 7. Klinický význam
-
-Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
-
-- **Diagnostika technologického rozšíření pacienta**: jaké technologie jsou strukturálně součástí?
-- **Detoxifikace digital addiction**: pomalé, strukturované odstranění problematických rozšíření.
-- **Posílení zdravých rozšíření**: deníky, plánovače, podpůrné aplikace.
-
-## 8. Politické implications
-
-Clark má **silnou** politickou pozici:
-
-- **Kognitivní práva** jako lidská práva
-- **Algoritmická transparence** jako veřejný zájem
-- **Education** o technologických rozšířeních jako rezilience
-
-## 9. Primární literatura
-
-- Clark, A. (2003). *Natural-Born Cyborgs*. Oxford UP.
-- Clark, A. (2008). *Supersizing the Mind*. Oxford UP.
-- Clark, A. (2016). *Surfing Uncertainty*. Oxford UP.
-- Clark, A. & Chalmers, D. (1998). „The Extended Mind“. *Analysis* 58.
-- Menary, R. (ed.) (2010). *The Extended Mind*. MIT Press.
+- Adams, F., a Aizawa, K. (2008). *The Bounds of Cognition*. Blackwell.
+- Botvinick, M., a Cohen, J. (1998). Rubber hands „feel“ touch that eyes see. *Nature*, 391.
+- Carr, N. (2010). *The Shallows: What the Internet Is Doing to Our Brains*. W. W. Norton.
+- Carter, J. A., a Palermos, S. O. (2016). Is having your computer compromised a personal assault? The ethics of extended cognition. *Journal of the American Philosophical Association*, 2(4).
+- Clark, A. (2003). *Natural-Born Cyborgs: Minds, Technologies, and the Future of Human Intelligence*. Oxford University Press.
+- Clark, A. (2016). *Surfing Uncertainty: Prediction, Action, and the Embodied Mind*. Oxford University Press.
+- Clark, A. (2023). *The Experience Machine: How Our Minds Predict and Shape Reality*. Pantheon.
+- Clynes, M. E., a Kline, N. S. (1960). Cyborgs and space. *Astronautics*.
+- Freed, D., Palmer, J., Minchala, D., Levy, K., Ristenpart, T., a Dell, N. (2018). „A stalker's paradise“: How intimate partner abusers exploit technology. *Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems*.
+- Haraway, D. J. (1991). *Simians, Cyborgs, and Women: The Reinvention of Nature*. Routledge.
+- Heidegger, M. (1927). *Sein und Zeit*. Max Niemeyer.
+- Ienca, M., a Andorno, R. (2017). Towards new human rights in the age of neuroscience and neurotechnology. *Life Sciences, Society and Policy*, 13.
+- Risko, E. F., a Gilbert, S. J. (2016). Cognitive offloading. *Trends in Cognitive Sciences*, 20(9).
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
+- Zuboff, S. (2019). *The Age of Surveillance Capitalism*. PublicAffairs.
 
 ## Související
 
-- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
-- [7.13 Polanyi: Tichá znalost](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)
-- [7.41 Clark: Rozšířená mysl](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)
-- [7.42 Metzinger: Ego Tunnel](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md)
-- [7.48 Hutchins: Distribuovaná kognice](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md)
-- [7.50 Dawkins: Mem](@/kompendium/07-teoreticke-reflexe/dawkins-meme.md)
-- [7.55 Zuboff: Surveillance Capitalism](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)
-- [Glosář: Metakognice](@/glossary/metakognice.md)
-- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+**Teoretické reflexe**
+
+- [7.41 Clark: Rozšířená mysl a kognitivní artefakty](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md) – výchozí teze rozšířené mysli.
+- [7.48 Hutchins: Distribuovaná kognice a kulturní artefakty](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md) – kognice rozložená mezi lidi a nástroje.
+- [7.56 Zuboff: Surveillance Capitalism a behavioral futures](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md) – ekonomika integrovaných technologií.
+- [7.14 Heidegger: Být-ve-světě a struktura starosti](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md) – nástroj po ruce.
+- [7.7 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) – algoritmy a generativní modely.
+
+**Glosář**
+
+- [Coercive control](@/glossary/coercive-control.md) – kontrola nástrojů jako kontrola poznávání.
+- [Embodied cognition](@/glossary/embodied-cognition.md) – vtělená kognice.
+- [Predictive processing](@/glossary/predictive-processing.md) – mozek jako predikční systém.
+- [Tělesné schéma](@/glossary/body-schema.md) – plasticita mapy těla.
+
+**Praxe**
+
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md) – autonomie vlastního poznávání.

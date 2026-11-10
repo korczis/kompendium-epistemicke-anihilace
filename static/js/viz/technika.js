@@ -45,7 +45,7 @@
         cases++;
       });
       text.textContent = inCases(cases) + ' · ' + linkedHere(backlinks);
-      live.hidden = false;
+      live.classList.remove('invisible');  // řádek má místo od začátku: nic se neposune
       // kontext.js panel skryje, když stránka v grafu nemá kód; skok pak nemá kam vést.
       var link = live.querySelector('a[href="#kontext-title"]');
       if (link && (!kontext || kontext.hidden || !cases)) link.hidden = true;

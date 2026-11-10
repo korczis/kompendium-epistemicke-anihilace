@@ -21,7 +21,7 @@
     <section class="mt-8 border-t border-gray-200 pt-6 dark:border-gray-700" aria-labelledby="okoli-title">
       <div class="mb-3 flex flex-wrap items-baseline justify-between gap-2">
         <h2 id="okoli-title" class="text-sm font-semibold uppercase tracking-wide text-gray-900 dark:text-white">Okolí stránky</h2>
-        <a href="{{ get_url(path='@/mapa.md') }}?stranka={{ page.relative_path | urlencode }}" class="text-sm font-medium text-primary-700 hover:underline dark:text-primary-500">Otevřít v Mapě knihy &rarr;</a>
+        <a href="{{ get_url(path='@/mapa.md') }}?stranka={{ page.relative_path | urlencode }}" class="text-sm font-medium text-primary-700 hover:underline dark:text-primary-400">Otevřít v Mapě knihy &rarr;</a>
       </div>
       <div data-okoli="{{ page.relative_path }}" class="h-72 w-full rounded-lg border border-gray-200 bg-gray-50 dark:border-gray-700 dark:bg-gray-900" role="img" aria-label="Graf stránky a jejích nejbližších sousedů"></div>
       <p data-okoli-note class="mt-2 text-xs text-gray-500 dark:text-gray-400"></p>

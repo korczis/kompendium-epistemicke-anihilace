@@ -14,6 +14,7 @@ new p5((p) => {
       particles.push({ x: p.random(p.width), y: p.random(p.height), vx: 0, vy: 0, anchor: p.createVector(p.random(p.width), p.random(p.height)) });
     }
     const slider = document.getElementById('disintegration-intensity');
+    if (slider && !slider.labels.length && !slider.hasAttribute('aria-label')) slider.setAttribute('aria-label', 'Intenzita dezintegrace');
     if (slider) slider.addEventListener('input', (e) => { intensity = parseFloat(e.target.value); });
   };
 

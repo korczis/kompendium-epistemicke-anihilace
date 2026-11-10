@@ -9,10 +9,11 @@
   var darkIcon = document.getElementById('theme-toggle-dark-icon');
   var lightIcon = document.getElementById('theme-toggle-light-icon');
 
+  // The icons follow the `dark` class through CSS (dark:hidden / dark:block), so they are right
+  // before any script runs and the navbar does not shift; this only keeps the accessible name.
   function syncThemeIcons() {
     var dark = document.documentElement.classList.contains('dark');
-    if (darkIcon) darkIcon.classList.toggle('hidden', dark);
-    if (lightIcon) lightIcon.classList.toggle('hidden', !dark);
+    if (toggle) toggle.setAttribute('aria-pressed', dark ? 'true' : 'false');
   }
 
   if (toggle) {
@@ -116,6 +117,71 @@
     document.addEventListener('click', function (e) {
       if (!form.contains(e.target)) results.classList.add('hidden');
     });
+  });
+
+  // --- Sidebar: Flowbite Drawer owns open/close, Escape, backdrop and body scroll. ------------
+  // This bridge only keeps the accessibility state right: on the desktop shell (lg) the sidebar
+  // is always visible, so it must not be aria-hidden; on mobile a closed drawer is inert (its
+  // links leave the tab order) and opening it moves focus in, closing returns focus to the
+  // toggle. Owners: this bridge writes only aria-hidden, inert and focus on #sidebar; the inline
+  // script in partials/sidebar.html owns the remembered group collapse (aria-expanded and
+  // hidden on [data-nav-group] lists) and scrolling to the active item.
+  var sidebar = document.getElementById('sidebar');
+  var sidebarToggle = document.getElementById('toggleSidebarMobile');
+  var desktopMq = window.matchMedia('(min-width: 1024px)');
+  // Attributes are written only when they change: a MutationObserver watches them, and an
+  // unconditional write would notify it again forever.
+  function setAttr(name, value) {
+    if (value === null) { if (sidebar.hasAttribute(name)) sidebar.removeAttribute(name); }
+    else if (sidebar.getAttribute(name) !== value) sidebar.setAttribute(name, value);
+  }
+  function syncSidebar() {
+    if (!sidebar) return;
+    if (desktopMq.matches) {
+      setAttr('aria-hidden', null);
+      setAttr('inert', null);
+    } else {
+      var closed = sidebar.getAttribute('aria-hidden') === 'true' || sidebar.classList.contains('-translate-x-full');
+      setAttr('inert', closed ? '' : null);
+      if (closed) setAttr('aria-hidden', 'true');
+    }
+  }
+  if (sidebar) {
+    var wasOpen = false;
+    new MutationObserver(function () {
+      syncSidebar();
+      if (desktopMq.matches) return;
+      var open = !sidebar.hasAttribute('inert');
+      if (open && !wasOpen) {
+        var first = sidebar.querySelector('#mobile-search, a[href]');
+        if (first && document.activeElement !== document.getElementById('mobile-search')) first.focus();
+      } else if (!open && wasOpen && sidebarToggle && sidebar.contains(document.activeElement)) {
+        sidebarToggle.focus();
+      } else if (!open && wasOpen && sidebarToggle && document.activeElement === document.body) {
+        sidebarToggle.focus();
+      }
+      wasOpen = open;
+    }).observe(sidebar, { attributes: true, attributeFilter: ['aria-hidden', 'class'] });  // not 'inert': we write it
+    (desktopMq.addEventListener ? desktopMq.addEventListener('change', syncSidebar) : desktopMq.addListener(syncSidebar));
+    window.addEventListener('load', syncSidebar);
+    syncSidebar();
+  }
+
+  // --- Wide tables and code: a focusable, labelled scroll region (WCAG scrollable-region) ------
+  document.querySelectorAll('.format table').forEach(function (t, i) {
+    if (t.parentElement && t.parentElement.classList.contains('kea-table-scroll')) return;
+    var wrap = document.createElement('div');
+    wrap.className = 'kea-table-scroll';
+    wrap.setAttribute('role', 'region');
+    wrap.setAttribute('tabindex', '0');
+    var cap = t.querySelector('caption');
+    var head = t.querySelector('th');
+    wrap.setAttribute('aria-label', 'Tabulka ' + (i + 1) + (cap ? ': ' + cap.textContent.trim() : head ? ': ' + head.textContent.trim() : ''));
+    t.parentNode.insertBefore(wrap, t);
+    wrap.appendChild(t);
+  });
+  document.querySelectorAll('.format pre').forEach(function (pre) {
+    if (pre.scrollWidth > pre.clientWidth) { pre.setAttribute('tabindex', '0'); pre.setAttribute('role', 'region'); pre.setAttribute('aria-label', 'Ukázka kódu'); }
   });
 
   // --- Mermaid: Zola emits <pre><code data-lang="mermaid"> with highlight spans -------------

@@ -7,13 +7,13 @@
    "sha256": "94697be52aa8cf5cb44c41b93cd24545bb39475e7552f0e95dcd5187bb306710"
   },
   "family-ea-3.svg": {
-   "sha256": "1c0f818635fe868cb5427019dfd235ce186766666c127702b390439afd036ff4"
+   "sha256": "428decb5da7285952740ccd48f7269cbbff95ab89728870983702d46bb8ddef3"
   },
   "family-ea-4.svg": {
    "sha256": "02c10be33f5c835139cd15291668f283a5a16000163072ac4f7502f5824e732d"
   },
   "family-ea-5.svg": {
-   "sha256": "4e0c18d68e98d9c0fad42a3ad6f1f238bc5c88f5addf44b11ed1cc5b50f07b70"
+   "sha256": "f1648e80cbaaf970fb1ca493b6f091c2bf94a9f769fa590159d650ba31c656b8"
   },
   "family-ea-6.svg": {
    "sha256": "b4b554d6ce676e2d84f790a6675f7bc05992d216b0670bb75cf792449cba8696"
@@ -287,8 +287,8 @@
   },
   "og-kompendium-techniques.png": {
    "height": 630,
-   "sha256": "100448306064765e215164549a7d9f2ad4f44e3bac7b89e3bcb66ac4f60d2fc8",
-   "source_sha256": "879bb7168b49a355ca8f580d897014a74b4dbd47bf5e0a42028cb531dbb031f7",
+   "sha256": "f4d6bdc87db09cdf7676f33846efa0631c5e078277d6c9950b6eb4d70706a399",
+   "source_sha256": "bf74ff9939859448970994964081b315b9c91143bfdfa1a29cb5ef81a947c08a",
    "width": 1200
   },
   "og-kompendium-visualizations.png": {
@@ -299,8 +299,8 @@
   },
   "og-kompendium.png": {
    "height": 630,
-   "sha256": "079ff296aebeb58e4081e7b07e500dd8d3ec764dac979a63ffa5fb76ca114590",
-   "source_sha256": "f7c8eac717645f161b3f82df135164990b16f1a483cab9fb1a1e29aeb8fee66a",
+   "sha256": "817f4b82aac4b151dc637c922396eae648a2b1ebb4af1ee70247b1867c014ee7",
+   "source_sha256": "904f91dca3ce4fbf1bb2e074b302c35864467899610a1d5c8af12acd0112875c",
    "width": 1200
   },
   "og-philosophy.png": {
@@ -439,13 +439,13 @@
    "sha256": "39a5f0782f5dfe6cc9cd859de9e24bd0119a7d873173a27ef397f753a1ae33e3"
   },
   "section-kompendium-techniques.svg": {
-   "sha256": "38ff16507aa8da5d87af494249b279411772d12f2983772cea7c27dcd0495650"
+   "sha256": "604b00a692d626c481883d89e049d49bacdc32752847a5882b0175a19d51032b"
   },
   "section-kompendium-visualizations.svg": {
    "sha256": "7cd757b434f79d93ff190d7cbfa0ca8674801010963f0c75a96d06a0b0bf249a"
   },
   "section-kompendium.svg": {
-   "sha256": "093d9f37f23637f55e3085f52e98c81061348401923d3df91751d38867bb54fd"
+   "sha256": "1aee8633bcca396249c9d0be95cf334a6713953f516540d8edbd3971c79f2baf"
   },
   "section-philosophy.svg": {
    "sha256": "dc474292cf3cbb149c0b0f003661040c977973cac75f46dde6b5159b9cbfddae"

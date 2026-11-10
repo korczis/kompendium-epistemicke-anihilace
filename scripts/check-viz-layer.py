@@ -16,6 +16,15 @@ it would size, theme, pause and label its canvas on its own, which is how the du
 the unlabelled, non-responsive canvases came about. Use KompendiumVrstva.p5/three/kniha,
 KompendiumViz.echarts/cytoscape, or K.chart instead.
 
+Markup written into the book (content/**/*.md) is judged too, because Tailwind generates the
+classes it finds there (styles/app.css @source '../content'):
+
+  - no inline style that sets a height or a background: the layer sizes canvases, the theme
+    colours surfaces;
+  - no colour class (text-, bg-, border- with a palette shade) without a dark: counterpart in
+    the same class attribute: a dark-only class is light text on a white page in the light
+    theme. A solid button (bg-<colour>-6xx/7xx with text-white) is exempt.
+
 Usage:
   scripts/check-viz-layer.py           report findings, exit 1 when there are any
   scripts/check-viz-layer.py --list    print the layer and the rules, exit 0
@@ -39,6 +48,39 @@ RULES = [
     ("own book-data loader", r"\bfunction\s+kniha\s*\(", {"viz/vrstva.js"}),
     ("own categorical palette", r"PALETTE_(?:LIGHT|DARK)\s*=", {"viz/vrstva.js"}),
 ]
+
+
+CONTENT = ROOT / "content"
+STYLE = re.compile(r'style="[^"]*\b(?:height|min-height|background(?:-color)?)\s*:', re.I)
+CLASS_ATTR = re.compile(r'class="([^"]*)"')
+COLOUR = re.compile(r"^(text|bg|border)-(slate|gray|zinc|neutral|stone|red|orange|amber|yellow|"
+                    r"lime|green|emerald|teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|rose)"
+                    r"-[0-9]{2,3}(/[0-9]+)?$")
+SOLID = re.compile(r"^bg-[a-z]+-[67]00$")
+
+
+def content_findings():
+    """Inline sizes/backgrounds and dark-only colour classes in the book's markup."""
+    out = []
+    for path in sorted(CONTENT.rglob("*.md")):
+        text = path.read_text(encoding="utf-8")
+        rel = path.relative_to(ROOT).as_posix()
+        for m in STYLE.finditer(text):
+            line = text.count("\n", 0, m.start()) + 1
+            out.append(f"{rel}:{line}: inline height or background in content markup "
+                       "(the layer sizes, the theme colours)")
+        for m in CLASS_ATTR.finditer(text):
+            classes = m.group(1).split()
+            if any(c.startswith("dark:") for c in classes):
+                continue
+            colours = [c for c in classes if COLOUR.match(c)]
+            if not colours:
+                continue
+            if any(SOLID.match(c) for c in colours) and "text-white" in classes:
+                continue
+            line = text.count("\n", 0, m.start()) + 1
+            out.append(f"{rel}:{line}: colour class {colours[0]} without a dark: counterpart")
+    return out
 
 
 def scripts():
@@ -71,6 +113,7 @@ def main() -> int:
                 line = text.count("\n", 0, m.start()) + 1
                 findings.append(f"static/js/{rel}:{line}: {what} outside the layer "
                                 f"({', '.join(sorted(allowed))})")
+    findings += content_findings()
     for f in findings:
         print(f)
     files = len({f.split(":")[0] for f in findings})

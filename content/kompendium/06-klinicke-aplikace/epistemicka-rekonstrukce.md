@@ -354,7 +354,7 @@ Doporučený **dlouhodobý follow-up** (1, 3, 5 let) zahrnuje:
 - [Glossary: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
 - [Glossary: Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Klinická intervence vyžaduje licencovanou klinickou supervizi.** Tento
 materiál není terapeutickou příručkou ani diagnostickou metodikou pro

@@ -359,7 +359,7 @@ Cca 50–60 % případů dosahuje **plné funkční rekonstrukce**. Další 30�
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
 - [Glossary: Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Vyber si jednu konkrétní techniku z této kategorie**, kterou jsi za
 posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v

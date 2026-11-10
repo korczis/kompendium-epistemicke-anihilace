@@ -167,7 +167,7 @@ V souladu s fundamentálním principem **primum non nocere** je nezbytné zajist
 - [Glossary: Color Teams](@/glossary/color-teams.md)
 - [Glossary: Epistemická reintegrace](@/glossary/epistemicka-reintegrace.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj
 souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi

@@ -200,7 +200,7 @@ Klinický {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} 
 - [Glossary: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - [Glossary: Anankastický režim](@/glossary/anankasticky-rezim.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Klinická intervence vyžaduje licencovanou klinickou supervizi.** Tento
 materiál není terapeutickou příručkou ani diagnostickou metodikou pro

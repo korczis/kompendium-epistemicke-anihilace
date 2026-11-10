@@ -223,7 +223,7 @@ Tento kodex je **kompatibilní s** a **rozšiřuje** následující rámce:
 - [NABLA Infinity](@/glossary/nabla-infinity.md) — L11–L13 [epistemic pipeline](@/glossary/epistemic-pipeline.md) implementuje epistemic integrity.
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md) — filozofický základ tohoto kodexu.
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Tato příloha je referenční nástroj** — není k četbě od začátku do konce.
 Místo lineární četby:

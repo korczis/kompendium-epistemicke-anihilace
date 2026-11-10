@@ -235,7 +235,7 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 - [Color Teams](@/glossary/color-teams.md) — adversariální simulace.
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — operativní použití termínů v běžícím systému.
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Tato příloha je referenční nástroj** — není k četbě od začátku do konce.
 Místo lineární četby:
@@ -248,7 +248,7 @@ Místo lineární četby:
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
 > otevři přílohu.
 
-## 🔗 Křížové odkazy
+## Křížové odkazy
 
 ### V této sekci
 

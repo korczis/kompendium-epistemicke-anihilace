@@ -122,7 +122,7 @@ Na rozdíl od klasických nozologických manuálů kompendium **explicitně odm�
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj
 souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi

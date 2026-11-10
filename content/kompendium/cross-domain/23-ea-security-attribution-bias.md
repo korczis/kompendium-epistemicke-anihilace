@@ -129,8 +129,6 @@ atribuce navenek: nejprve doklady, pak jména.
 
 ## Meze a otevřené otázky
 
-## Meze a otevřené otázky
-
 Atribuce zůstane vždy pravděpodobnostním úsudkem a veřejná atribuce bude vždy i politickým
 aktem. Otevřenou otázkou je, jak zvýšit transparentnost atribucí bez ohrožení zdrojů a jak
 čelit tomu, že každá atribuce může být zpochybněna jako „politická“, i když je dobře podložená.

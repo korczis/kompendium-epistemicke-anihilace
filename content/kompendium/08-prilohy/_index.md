@@ -111,7 +111,7 @@ Příloh y sledují **verzi celého kompendia**. Změny v hlavním textu (nové 
 - **Per-technique** → [Techniques index](@/kompendium/techniques/_index.md)
 - **Platformový kontext** → [Hub kompendia](@/kompendium/_index.md) → [Glossary](@/glossary/_index.md) → [Philosophy](@/philosophy/_index.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Tato příloha je referenční nástroj** — není k četbě od začátku do konce.
 Místo lineární četby:

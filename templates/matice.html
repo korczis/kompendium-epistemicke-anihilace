@@ -1,0 +1,165 @@
+{% extends "base.html" %}
+{% block content %}
+{%- set doc = page %}
+{% include "partials/header.html" %}
+{%- set btn_on = "bg-primary-700 text-white hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700" %}
+{%- set btn_off = "bg-white text-gray-900 hover:bg-gray-100 hover:text-primary-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white" %}
+<div class="px-4 pt-6" x-data="kompendiumMatice()">
+  <div class="rounded-lg bg-white shadow dark:bg-gray-800">
+    {#- Pro toolbar: pohled, typ případu, rodina, řazení, hledání -#}
+    <div class="flex flex-col gap-3 border-b border-gray-200 p-4 dark:border-gray-700">
+      <div class="flex flex-wrap items-center gap-3">
+        <div class="inline-flex rounded-lg shadow-sm" role="group" aria-label="Pohled na sloupce">
+          <button type="button" @click="setPohled('rodiny')" :aria-pressed="pohled === 'rodiny'" :class="pohled === 'rodiny' ? '{{ btn_on }}' : '{{ btn_off }}'" class="rounded-l-lg border border-gray-200 px-3 py-2 text-sm font-medium focus:z-10 focus:ring-2 focus:ring-primary-700 dark:border-gray-600 dark:focus:ring-primary-500">Rodiny</button>
+          <button type="button" @click="setPohled('techniky')" :aria-pressed="pohled === 'techniky'" :class="pohled === 'techniky' ? '{{ btn_on }}' : '{{ btn_off }}'" class="rounded-r-lg border border-l-0 border-gray-200 px-3 py-2 text-sm font-medium focus:z-10 focus:ring-2 focus:ring-primary-700 dark:border-gray-600 dark:focus:ring-primary-500">Jednotlivé techniky</button>
+        </div>
+        <div class="inline-flex rounded-lg shadow-sm" role="group" aria-label="Typ případu">
+          <button type="button" @click="setTyp('')" :aria-pressed="typ === ''" :class="typ === '' ? '{{ btn_on }}' : '{{ btn_off }}'" class="rounded-l-lg border border-gray-200 px-3 py-2 text-sm font-medium focus:z-10 focus:ring-2 focus:ring-primary-700 dark:border-gray-600 dark:focus:ring-primary-500">Vše</button>
+          <button type="button" @click="setTyp('kazuistiky')" :aria-pressed="typ === 'kazuistiky'" :class="typ === 'kazuistiky' ? '{{ btn_on }}' : '{{ btn_off }}'" class="border-y border-gray-200 px-3 py-2 text-sm font-medium focus:z-10 focus:ring-2 focus:ring-primary-700 dark:border-gray-600 dark:focus:ring-primary-500">Kazuistiky</button>
+          <button type="button" @click="setTyp('historicke')" :aria-pressed="typ === 'historicke'" :class="typ === 'historicke' ? '{{ btn_on }}' : '{{ btn_off }}'" class="rounded-r-lg border border-gray-200 px-3 py-2 text-sm font-medium focus:z-10 focus:ring-2 focus:ring-primary-700 dark:border-gray-600 dark:focus:ring-primary-500">Historické</button>
+        </div>
+        <button type="button" @click="reset()" class="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:focus:ring-gray-700">Zrušit filtry</button>
+      </div>
+      <div class="grid grid-cols-1 gap-3 sm:grid-cols-3">
+        <label class="block text-sm">
+          <span class="mb-1 block font-medium text-gray-900 dark:text-white">Rodina technik</span>
+          <select x-model="rodina" @change="apply()" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white">
+            <option value="">— všechny rodiny —</option>
+            <template x-for="o in families" :key="o.value"><option :value="o.value" x-text="o.label" :selected="o.value === rodina"></option></template>
+          </select>
+        </label>
+        <label class="block text-sm">
+          <span class="mb-1 block font-medium text-gray-900 dark:text-white">Řazení případů</span>
+          <select x-model="razeni" @change="apply()" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white">
+            <option value="zaber">podle počtu technik</option>
+            <option value="kniha">podle pořadí v knize</option>
+          </select>
+        </label>
+        <form class="block text-sm" role="search" @submit.prevent="apply()">
+          <label for="matice-q" class="mb-1 block font-medium text-gray-900 dark:text-white">Hledat případ nebo techniku</label>
+          <div class="relative">
+            <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"><svg class="h-4 w-4 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/></svg></div>
+            <input id="matice-q" type="search" x-model="q" @input.debounce.300ms="apply()" autocomplete="off" placeholder="např. gaslighting, Jonestown, EA-2.1" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 pl-9 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 xl:grid-cols-4">
+      <div class="min-w-0 p-4 xl:col-span-3">
+        <div class="mb-3 flex flex-wrap items-center justify-between gap-2">
+          <p class="text-sm font-medium text-gray-900 dark:text-white" aria-live="polite" x-text="summary || 'Načítám matici…'"></p>
+          <p class="text-xs text-gray-500 dark:text-gray-400" x-show="ready" x-text="pohled === 'techniky' ? 'Barva buňky = rodina techniky. Klepnutím na buňku nebo název případu otevřete případ, na kód techniky techniku.' : 'Číslo v buňce = počet technik dané rodiny. Klepnutím na buňku otevřete případ, na rodinu ji rozbalíte.'"></p>
+        </div>
+        <div class="relative">
+          <div x-ref="chart" class="h-[480px] w-full" role="img" :aria-label="'Matice případů a technik: ' + summary + '. Stejné vazby jsou níže v seznamu odkazů.'"></div>
+          <div x-show="ready && isEmpty" style="display: none" class="absolute inset-0 flex flex-col items-center justify-center rounded-lg bg-white p-6 text-center dark:bg-gray-800">
+            <svg class="mb-3 h-10 w-10 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg>
+            <p class="text-base font-semibold text-gray-900 dark:text-white">Žádná vazba neodpovídá filtrům</p>
+            <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Zkuste jiný typ případu, jinou rodinu nebo kratší hledaný výraz.</p>
+            <button type="button" @click="reset()" class="mt-4 rounded-lg bg-primary-700 px-3 py-2 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Zrušit filtry</button>
+          </div>
+        </div>
+      </div>
+      <aside class="min-w-0 space-y-6 border-t border-gray-200 p-4 xl:border-l xl:border-t-0 dark:border-gray-700" aria-label="Souhrny matice">
+        <section aria-labelledby="h-top-tech">
+          <h2 id="h-top-tech" class="mb-1 text-base font-semibold text-gray-900 dark:text-white">Nejčastější techniky napříč případy</h2>
+          <p class="mb-3 text-xs text-gray-500 dark:text-gray-400">Patnáct technik, na které odkazuje nejvíc případů z výběru.</p>
+          <p x-show="ready && !topTech.length" style="display: none" class="text-sm text-gray-500 dark:text-gray-400">Ve výběru není žádná technika.</p>
+          <ol class="space-y-1">
+            <template x-for="x in topTech" :key="x.url">
+              <li>
+                <a :href="x.url" class="block rounded-lg p-2 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-primary-300 dark:hover:bg-gray-700 dark:focus:ring-primary-800" :aria-label="x.aria">
+                  <span class="flex items-center justify-between gap-2">
+                    <span class="min-w-0 truncate text-sm text-gray-900 dark:text-white"><span class="font-semibold" x-text="x.code"></span> <span x-text="x.name"></span></span>
+                    <span class="shrink-0 rounded-md bg-primary-100 px-2 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300" x-text="x.count"></span>
+                  </span>
+                  <span class="mt-1 block h-1.5 w-full rounded-full bg-gray-200 dark:bg-gray-700" aria-hidden="true"><span class="block h-1.5 rounded-full" :style="'width:' + x.pct + '%;background:' + x.color"></span></span>
+                </a>
+              </li>
+            </template>
+          </ol>
+        </section>
+        <section aria-labelledby="h-top-cases">
+          <h2 id="h-top-cases" class="mb-1 text-base font-semibold text-gray-900 dark:text-white">Případy s nejširším záběrem</h2>
+          <p class="mb-3 text-xs text-gray-500 dark:text-gray-400">Deset případů, které spojují nejvíc technik z výběru.</p>
+          <p x-show="ready && !topCases.length" style="display: none" class="text-sm text-gray-500 dark:text-gray-400">Ve výběru není žádný případ.</p>
+          <ol class="space-y-1">
+            <template x-for="x in topCases" :key="x.url">
+              <li>
+                <a :href="x.url" class="block rounded-lg p-2 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-primary-300 dark:hover:bg-gray-700 dark:focus:ring-primary-800" :aria-label="x.aria">
+                  <span class="flex items-center justify-between gap-2">
+                    <span class="min-w-0 truncate text-sm text-gray-900 dark:text-white" x-text="x.label"></span>
+                    <span class="shrink-0 rounded-md bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300" x-text="x.count"></span>
+                  </span>
+                  <span class="mt-1 block h-1.5 w-full rounded-full bg-gray-200 dark:bg-gray-700" aria-hidden="true"><span class="block h-1.5 rounded-full" :class="x.hist ? 'bg-gray-500' : 'bg-primary-600'" :style="'width:' + x.pct + '%'"></span></span>
+                </a>
+              </li>
+            </template>
+          </ol>
+        </section>
+        <div class="text-xs text-gray-500 dark:text-gray-400">
+          <p>Matice slouží k rozpoznání opakujících se vzorců, jejich prevenci a plánování zotavení. Vazba znamená, že text případu odkazuje na stránku techniky.</p>
+          <p class="mt-1" x-show="ready" x-text="'Celkem ' + totals.cases + ' případů, ' + totals.techs + ' technik a ' + totals.links + ' vazeb.'"></p>
+          <p class="mt-1">Data: <a class="underline" href="{{ get_url(path='data/graph.json') }}">graph.json</a> (odvozeno z odkazů v textu při sestavení).</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <section class="mt-4 rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800" aria-labelledby="h-sit">
+    <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+      <div>
+        <h2 id="h-sit" class="mb-1 text-xl font-bold leading-none text-gray-900 dark:text-white">Síť nejčastějších technik</h2>
+        <p class="text-sm text-gray-500 dark:text-gray-400">Bipartitní graf: nejčastější techniky aktuálního výběru a případy, které na ně odkazují.</p>
+      </div>
+      <div class="flex items-end gap-2">
+        <label class="block text-sm">
+          <span class="mb-1 block font-medium text-gray-900 dark:text-white">Počet technik</span>
+          <select x-model="netN" @change="netShown && showNet()" class="block rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+          </select>
+        </label>
+        <button type="button" @click="showNet()" x-show="!netShown" :disabled="!ready" class="rounded-lg bg-primary-700 px-3 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 disabled:opacity-50 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Zobrazit síť</button>
+      </div>
+    </div>
+    <div x-show="netShown" style="display: none" class="mt-4">
+      <p class="mb-2 text-xs text-gray-500 dark:text-gray-400" x-text="netNote"></p>
+      <div x-ref="net" class="h-[480px] w-full rounded-lg border border-gray-200 dark:border-gray-700" role="img" aria-label="Síť nejčastějších technik a případů, které na ně odkazují. Stejné vazby jsou níže v seznamu odkazů."></div>
+      <p class="mt-2 min-h-5 text-sm text-gray-900 dark:text-white" aria-live="polite" x-text="netHover"></p>
+    </div>
+  </section>
+
+  <details class="mt-4 rounded-lg bg-white shadow dark:bg-gray-800" @toggle="toggleList($event.target.open)">
+    <summary class="cursor-pointer rounded-lg p-4 text-base font-semibold text-gray-900 hover:bg-gray-100 sm:px-6 dark:text-white dark:hover:bg-gray-700">Seznam vazeb jako odkazy <span class="text-sm font-normal text-gray-500 dark:text-gray-400">(přístupná alternativa k matici, respektuje filtry)</span></summary>
+    <div class="border-t border-gray-200 p-4 sm:p-6 dark:border-gray-700">
+      <p x-show="!list.length" class="text-sm text-gray-500 dark:text-gray-400">Filtrům neodpovídá žádný případ.</p>
+      <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+        <template x-for="r in list" :key="r.id">
+          <li class="py-3">
+            <a :href="r.url" class="text-sm font-semibold text-primary-700 hover:underline dark:text-primary-400" x-text="r.label"></a>
+            <span class="text-xs text-gray-500 dark:text-gray-400" x-text="'(' + r.techs.length + ')'"></span>
+            <ul class="mt-1 flex flex-wrap gap-1">
+              <template x-for="t in r.techs" :key="t.id">
+                <li><a :href="t.url" :title="t.name" class="inline-block rounded-md bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-primary-300 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600 dark:focus:ring-primary-800" x-text="t.code + ' ' + t.name"></a></li>
+              </template>
+            </ul>
+          </li>
+        </template>
+      </ul>
+    </div>
+  </details>
+
+  {%- if page.content | trim %}
+  <article class="mt-4 rounded-lg bg-white p-4 shadow sm:p-6 xl:p-8 dark:bg-gray-800">
+    <div class="format format-sm sm:format-base format-blue max-w-none dark:format-invert">{{ page.content | safe }}</div>
+  </article>
+  {%- endif %}
+</div>
+{% endblock content %}
+{% block page_scripts %}
+<script src="{{ get_url(path='js/viz/kompendium-viz.js', cachebust=true) }}" defer></script>
+<script src="{{ get_url(path='js/viz/matice.js', cachebust=true) }}" defer></script>
+<script src="{{ get_url(path='js/vendor/alpine.min.js') }}" defer></script>
+{% endblock page_scripts %}

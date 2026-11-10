@@ -3,8 +3,9 @@ schema: adr/v1
 id: adr-0001
 kind: adr
 title: "Název veřejného vydání a licence"
-status: accepted
+status: superseded
 date: 2026-11-09
+superseded_by: adr-0003
 tags:
   - release
   - licence

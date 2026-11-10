@@ -1,14 +1,14 @@
 +++
 title = "EA-9.2.1 Deepfake Personality"
-description = "Současná digitální EA — deepfake personality."
+description = "Vzorec, v němž syntetické video a hlas skutečné osoby „mluví“ jejím jménem a šíří sdělení, které nikdy neřekla. Znaky deepfaku, odlišení, právní rámec a obrana."
 weight = 921
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-1-8-llm-confabulation-amplification", "ea-9-1-9-multi-turn-narrative-shift", "ea-9-2-10-AI-personhood-claim", "ea-9-2-2-voice-cloning-EA"]
+related_terms = ["ea-9-2-2-voice-cloning-EA", "ea-9-2-5-video-manipulation-EA", "ea-9-2-8-AI-eyewitness-fabrication"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.2.1"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,92 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Vytvoření syntetické audiovizuální identity reálné osoby pomocí face-swap a voice-cloning technologií pro účely zfalšovaného sdělení v jejím jméně.
+*Deepfake personality* je syntetická audiovizuální podoba skutečné osoby – obličej, mimika a hlas – vytvořená generativními modely tak, aby osoba v záznamu pronášela sdělení, které nikdy neřekla: přiznání, urážku, výzvu, slib. Na rozdíl od satiry se záznam vydává za autentický a jeho cílem je změnit, co si publikum o osobě nebo o události myslí. Obecný pojem rozebírá heslo [deepfake](@/glossary/deepfake.md).
 
-V kontextu Prismatic doktríny je Deepfake Personality klasifikováno jako **L1-L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.2.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník trénuje deepfake model na veřejných videích cíle, generuje syntetické video s libovolným obsahem (vyznání, přiznání, odporování) a publikuje ho na platformách s rychlou viralizací.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Vzorec využívá důvěru, kterou lidé tradičně vkládají do obrazu a hlasu („viděl jsem to na vlastní oči“). Video se šíří rychleji než jakékoli ověření a první dojem přetrvá i po vyvrácení. Druhým účinkem je tzv. „dividenda lháře“: jakmile je veřejnost s deepfaky obeznámená, může kdokoli zpochybnit i pravý záznam tvrzením, že jde o podvrh. Vzorec tak poškozuje jak konkrétní osobu, tak obecnou použitelnost audiovizuálního důkazu. Strukturálně jde o zfalšování svědectví, nikoli jen o lež: falešný záznam se tváří jako stopa události samé.
 
 ## 4. Detekční markery
 
-Deepfake forensics (blink patterns, lip-sync artefakty), C2PA content provenance, biometric watermarking, source video forenzika.
+- Záznam se objevuje bez známého původce a první sdílení vede k anonymním nebo novým účtům.
+- Obsah je pro danou osobu nečekaný a přichází v citlivý okamžik (volby, soudní spor, krize).
+- Technické nesrovnalosti: nepřirozené mrkání, rozmazané okraje obličeje, nesoulad rtů a zvuku, nepřirozené stíny.
+- K záznamu chybí kontext – kde a kdy vznikl, kdo byl přítomen, existuje-li delší verze.
+- Osoba nebo její okolí autenticitu popírá a nabízí ověřitelné alibi (jiné místo, jiný čas).
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Satira a parodie*: zjevně označené, nepředstírají autenticitu. *[EA-9.2.5 Video Manipulation EA](@/kompendium/techniques/ea-9-2-5-video-manipulation-EA.md)*: úprava dílčích prvků pravého videa; deepfake vytváří projev osoby jako celek. *Vytržení z kontextu*: pravý záznam s zavádějícím popiskem; řeší se kontextem, ne forenzní analýzou obrazu.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Pro zobrazenou osobu jde o zásah do pověsti, soukromí a důstojnosti; zvlášť závažné jsou sexuální deepfaky, které nesou rysy sexuálního obtěžování a mají těžké psychické následky. Právně se uplatní ochrana osobnosti a podle okolností trestné činy jako pomluva, vydírání nebo podvod; v Evropské unii se k tomu přidávají povinnosti označovat syntetický obsah. Pro důkazní řízení to znamená vyšší nároky na původ a [řetězec opatrování důkazu](@/glossary/chain-of-custody.md).
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Postižená osoba*: zajistit kopie a odkazy s časem, nahlásit obsah platformám, rychle a věcně veřejně popřít a nabídnout ověřitelné údaje; vyhledat právní pomoc. *Média*: nezveřejňovat záznam bez ověření původu; při zpravování o deepfaku neukazovat jeho nejpůsobivější část. *Instituce a firmy*: mít připravený postup komunikace pro případ podvrhu vedení ([Obrana narativu v PR](@/kompendium/organizational-defense/34-PR-narrative-defense.md)). *Platformy*: podporovat standardy původu obsahu (např. C2PA) a viditelné označení syntetického obsahu.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Dva dny před komunálními volbami se objeví video, v němž kandidátka údajně zesměšňuje své voliče. Video má nízké rozlišení, je bez zdroje a šíří se v místních skupinách. Kandidátka zveřejní záznam celé akce, na níž měla údajně mluvit, a místní redakce nechá video posoudit; analýza najde nesoulad rtů a zvuku. Oprava se rozšíří, ale část voličů si pamatuje jen původní video.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Technické znaky deepfaků se s vývojem modelů ztrácejí a detekční nástroje mají omezenou spolehlivost; žádný nástroj nedává jistotu. Proto roste význam původu záznamu a kontextu oproti analýze obrazu samého. Otevřenou otázkou je, jak chránit autenticitu pravých záznamů před „dividendou lháře“.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+## 10. Pohled zevnitř a práce s postiženým
 
-**Layer 4 — Accountability:**
+Osoba zobrazená v deepfaku prožívá bezmoc a ztrátu kontroly nad vlastní tváří a hlasem; reakce připomínají reakce na jiné formy narušení hranic. Kromě právní a komunikační pomoci potřebuje i psychologickou podporu a ujištění, že její okolí rozumí, co se stalo. Terapeut by měl počítat s opakovanou retraumatizací, kdykoli se obsah znovu objeví.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+## 11. Vztah k ostatním kategoriím EA
 
-## 6. Vztah k jiným EA
+Tentýž jev popisuje z hlediska [delegitimizace](@/glossary/delegitimizace.md) osoby [EA-2.3.7 Deepfake Personalní](@/kompendium/techniques/ea-2-3-7-deepfake-personalni.md) v subkategorii mediální delegitimizace; tato stránka se soustředí na technologický nosič a na důkazní hodnotu záznamu. S [EA-2.3.1 Clip Takeout](@/kompendium/techniques/ea-2-3-1-clip-takeout.md) sdílí cíl – vytvořit z jednoho záznamu nálepku –, liší se tím, že záznam neexistoval.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 12. Postup při podezření na deepfake
 
-- **EA-1.* (Vědomá kontrola informací)** — Deepfake Personality představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+1. **Zajistit stopu:** uložit záznam, odkazy, čas a účty, které ho šíří; nesdílet ho dál.
+2. **Ověřit původ:** dohledat první zveřejnění, delší verzi a kontext; kontaktovat zobrazenou osobu nebo její zástupce.
+3. **Posoudit technicky:** požádat o forenzní posouzení odborníka; výsledky nástrojů brát jako pravděpodobnost, ne jako jistotu.
+4. **Reagovat komunikačně:** věcné popření s ověřitelnými údaji, jedním kanálem a rychle.
+5. **Podpořit postiženého:** právní kroky, nahlášení platformám, psychologická pomoc.
 
-## 7. Vztah k Prismatic platformě
+## Odborný kontext
 
-Prismatic Platform implementuje detekci a neutralizaci Deepfake Personality přes následující komponenty:
+Chesney a Citron (2019) v první systematické právní analýze deepfaků popsali dvojí riziko: přímou škodu – falešné video poškodí konkrétního člověka nebo ovlivní volby – a nepřímou škodu, kterou nazvali „dividendou lháře“. Jakmile veřejnost ví, že videa lze věrohodně padělat, může každý, kdo byl zachycen na skutečném záznamu, prohlásit, že jde o podvrh. Deepfaky tak neohrožují jen pravdivost jednotlivých záznamů, ale důkazní hodnotu audiovizuálního materiálu jako celku.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+Empirický výzkum ukazuje, že účinek nemusí spočívat v přesvědčení. Vaccari a Chadwick (2020) v experimentu s politickým deepfakem zjistili, že video diváky častěji nepřesvědčilo, ale zvýšilo jejich nejistotu, a nejistota pak snižovala důvěru ve zprávy na sociálních sítích obecně. Nightingale a Farid (2022) doložili, že lidé nedokážou spolehlivě odlišit generované tváře od skutečných a generované tváře dokonce hodnotili jako důvěryhodnější. Spoléhat na „poznám to na první pohled“ je proto chybné.
 
-**Doctrine compliance:**
+Pro forenzní a klinickou praxi z toho plyne posun od otázky „vypadá to pravě?“ k otázce „odkud záznam pochází a co ho potvrzuje?“. Farid (2016) v příručce obrazové forenziky zdůrazňuje, že technická analýza je jen jednou z cest a že kontext, původ a nezávislé záznamy mají často větší váhu.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## Souvislosti pro praxi
 
-## 8. Cross-linky
+Organizace, jejichž představitelé jsou veřejně známí, by měly mít připravený postup pro případ deepfaku: kdo rozhodne o reakci, jaké ověřitelné údaje lze rychle zveřejnit (kalendář, záznamy, svědci) a jak kontaktovat platformy. Pro terapeuty je důležité vědět, že zejména sexuální deepfaky mají dopad srovnatelný s jinými formami sexuálního obtěžování a že postižení se často stydí vyhledat pomoc. Pro školy je téma součástí prevence kyberšikany, protože deepfaky spolužáků se objevují i mezi dospívajícími.
 
-**Související EA techniky:**
+## Literatura
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.2.3 Synthetic Text Narrative](@/kompendium/techniques/ea-9-2-3-synthetic-text-narrative.md)
-- [EA-9.2.4 Image Manipulation EA](@/kompendium/techniques/ea-9-2-4-image-manipulation-EA.md)
-- [EA-9.2.5 Video Manipulation EA](@/kompendium/techniques/ea-9-2-5-video-manipulation-EA.md)
+- Chesney, R., & Citron, D. K. (2019). Deep fakes: A looming challenge for privacy, democracy, and national security. *California Law Review*.
+- Farid, H. (2016). *Photo Forensics*. MIT Press.
+- Nightingale, S. J., & Farid, H. (2022). AI-synthesized faces are indistinguishable from real faces and more trustworthy. *PNAS*.
+- Vaccari, C., & Chadwick, A. (2020). Deepfakes and disinformation: Exploring the impact of synthetic political video on deception, uncertainty, and trust in news. *Social Media + Society*.
 
-**Doktrinální a infrastructure odkazy:**
+## Související
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+**Sourozenecké techniky**
 
----
+- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md) – hlasová složka téhož vzorce.
+- [EA-9.2.5 Video Manipulation EA](@/kompendium/techniques/ea-9-2-5-video-manipulation-EA.md) – dílčí úprava pravého videa.
+- [EA-9.2.8 AI Eyewitness Fabrication](@/kompendium/techniques/ea-9-2-8-AI-eyewitness-fabrication.md) – smyšlená událost místo smyšleného projevu.
 
-## Connect & Contribute
+**Pojmy**
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+- [Deepfake](@/glossary/deepfake.md) – obecné heslo.
+- [Řetězec opatrování důkazu](@/glossary/chain-of-custody.md) – proč rozhoduje původ záznamu.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+**Obrana a právo**
 
----
-
-*EA-9.2.1 | Subkategorie 9.2 Generativní média | Prismatic Compendium | Version 18.4.0*
+- [Sebe-obrana: Detekce AI obsahu](@/kompendium/self-defense-guides/40-ai-content-detection.md) – co lze rozpoznat a co ne.
+- [Elektronické důkazy](@/kompendium/forensic-legal/35-electronic-evidence-EA.md) – zajištění a posouzení záznamu.
+- [Pomluva a EA](@/kompendium/forensic-legal/14-defamation-EA.md) – právní cesty postižené osoby.

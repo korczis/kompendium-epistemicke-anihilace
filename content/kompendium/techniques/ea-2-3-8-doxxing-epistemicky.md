@@ -1,14 +1,15 @@
 +++
-title = "EA-2.3.8 Doxxing Epistemický"
-description = "Delegitimizační technika — Doxxing Epistemický."
+title = "EA-2.3.8 Epistemický doxxing"
+description = "Vzorec, v němž se zveřejněním osobních údajů odborníka nebo mluvčího vyvolává strach o bezpečí a tím jeho mlčení. Znaky, odlišení, právní rámec, obrana."
 weight = 2308
+insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-2-3-8", "delegitimizace"]
+tags = ["kompendium", "techniques", "ea-2-3-8", "delegitimizace", "disinformation", "security"]
 categories = ["academic"]
 
 [extra]
-related_terms = ["ea-2-3-6-platform-coordinated-attack", "ea-2-3-7-deepfake-personalni", "ea-2-3-9-sealioning-medialni", "ea-2-4-1-board-capture"]
+related_terms = ["ea-2-3-4-mob-coordination", "ea-2-3-6-platform-coordinated-attack", "ea-2-5-7-self-cancelation", "ea-2-2-10-future-blackmail-implantace", "doxing", "osint"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.3.8"
 ea_category = "2. Scénáře delegitimizace"
@@ -20,90 +21,200 @@ risk_level = "high"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 +++
 
-# EA-2.3.8 Doxxing Epistemický
+# EA-2.3.8 Epistemický doxxing
 
-## Identifikace
-
-| Atribut | Hodnota |
-|---------|---------|
-| **EA kód** | EA-2.3.8 |
-| **Název** | Doxxing Epistemický |
+| Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-2.3.8` |
 | **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
 | **Subkategorie** | 2.3 Mediální delegitimizace |
-| **Risk level** | High |
-| **Access level** | L2 |
-| **Parent chapter** | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
+| **Přístupová úroveň** | L2 (odborná analýza) |
+| **Riziková úroveň** | Vysoká až extrémní – přímé ohrožení bezpečí osoby a rodiny |
+| **Reverzibilita** | Nízká; zveřejněné údaje se nedají „odzveřejnit“ |
+| **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
+| **Rychlá karta** | [QR: EA-2.3.8](@/kompendium/quick-reference/qr-ea-2-3-8.md) |
 
 ## Definice
 
-Zveřejnění osobních informací cíle s cílem podkopat jeho epistemickou autoritu a vyvolat mlčení skrze obavu o bezpečí.
+[Doxing](@/glossary/doxing.md) (také doxxing) je zveřejnění osobních údajů – adresy,
+telefonu, pracoviště, údajů o rodině, fotografií domu, skutečné identity za pseudonymem –
+bez souhlasu dotčené osoby. **Epistemický doxxing** označuje jeho užití jako nástroje
+umlčení: cílem není jen poškodit, ale **odstranit hlas z veřejné debaty** tím, že se
+mluvení spojí se strachem o fyzické bezpečí.
 
-Tato technika představuje konkrétní operacionalizaci širšího vzorce **Mediální delegitimizace** v rámci taxonomie **EA — Epistemic Attack**. Cílem není pouze útok na jednotlivý výrok či pozici, ale **systematická eroze legitimity** cíle, jeho hlasu a jeho institucionální váhy.
+Epistemický účinek se šíří i za samotný cíl. Ostatní mluvčí, kteří doxxing vidí, si
+spočítají riziko a začnou mluvit opatrněji nebo vůbec; vzniká ochlazující účinek
+(*chilling effect*) a [preventivní sebecenzura](@/kompendium/techniques/ea-2-5-7-self-cancelation.md).
 
-## Operační modus
+## Mechanismus (strukturní popis)
 
-Technika **EA-2.3.8** typicky probíhá ve třech fázích:
+Popis je záměrně omezen na strukturu, kterou pozorovatel rozpozná:
 
-### Fáze 1 — Příprava terénu
+1. **Agregace.** Údaje, z nichž každý je jednotlivě dohledatelný, se spojí do jednoho
+   profilu; spojení samo vytváří novou hrozbu.
+2. **Zveřejnění s výzvou.** Profil se zveřejní v kontextu, který naznačuje, že „by
+   se s tím mělo něco udělat“, často bez výslovné výzvy.
+3. **Rozšíření na blízké.** Údaje o rodině, partnerech a dětech zvyšují tlak.
+4. **Ztráta pseudonymity.** U lidí, kteří vystupují pod pseudonymem (oběti, whistlebloweři,
+   výzkumníci extremismu), znamená odhalení ztrátu ochrany.
+5. **Navazující obtěžování.** Doxxing umožní offline kontakty, zásilky, falešná hlášení
+   na policii.
 
-Útočník identifikuje cíl, mapuje jeho **epistemickou síť** (kolegy, instituce, publikační kanály, mediální zázemí) a vyhledává **zranitelná místa**: závislosti na grantech, slabé spojence, kontroverzní výroky v minulosti, izolovatelné subkomunity.
+Agregace veřejně dostupných údajů je metodicky blízká [OSINT](@/glossary/osint.md); rozdíl
+je v účelu, souhlasu a zveřejnění. Legitimní OSINT slouží vyšetřování a profily
+soukromých osob nezveřejňuje.
 
-### Fáze 2 — Aktivace techniky
+## Průběh
 
-Aktivace probíhá synchronně přes více vektorů. **Doxxing Epistemický** se nezavede jednorázovou akcí, ale **kaskádou koordinovaných drobných pohybů**, které jednotlivě působí marginálně, ale v součtu produkují **systémový posun**.
+Doxxing obvykle navazuje na kampaň ([EA-2.3.4](@/kompendium/techniques/ea-2-3-4-mob-coordination.md)):
+v jejím vrcholu se objeví příspěvek s osobními údaji. Během hodin se šíří a cíl začne
+dostávat zprávy na soukromé kanály. Někdy následují offline incidenty. Cíl se stáhne,
+přestěhuje nebo změní práci; jeho hlas z debaty zmizí. Doloženým příkladem rozsáhlého
+doxxingu a obtěžování byla kampaň známá jako Gamergate (2014), zaměřená zejména na ženy
+v herním průmyslu a novinářky.
 
-### Fáze 3 — Stabilizace nového stavu
+## Teoretický rámec: ochlazující účinek a ztráta pseudonymity
 
-Po dosažení primárního efektu útočník stabilizuje nový stav skrze **institucionální fakty**, **dokumentaci** a **revizionistický narativ**, který činí návrat k předchozímu stavu nákladným nebo nemožným.
+Pojem ochlazujícího účinku (*chilling effect*) se v právní teorii používá pro situace,
+kdy hrozba sankce odradí lidi od legitimního projevu, i když k sankci nedojde. Citronová
+(2014) ukázala, že online obtěžování včetně zveřejňování osobních údajů má právě tento
+účinek: cíle i přihlížející omezují svůj projev, ruší účty a odcházejí z veřejné debaty.
+Epistemicky to znamená, že z debaty mizí hlasy, které jsou nejzranitelnější –
+a často ty, které přinášejí zkušenost, jinak nedostupnou.
 
-## Detekce
+Zvláštní roli hraje pseudonymita. Pro oběti násilí, whistleblowery, výzkumníky
+extremismu nebo lidi z menšin je vystupování pod pseudonymem podmínkou, aby mohli
+mluvit. Odhalení identity proto neznamená jen ohrožení bezpečí, ale ztrátu jediné
+cesty, jíž mohli přispět k veřejnému poznání. Marwicková a Lewis (2017) popsali, jak
+online subkultury používají odhalování identity jako nástroj zastrašení protivníků.
 
-| Indikátor | Popis | Závažnost | Reakce |
-|-----------|-------|-----------|--------|
-| **Koordinovaná synchronicita** | Více aktérů provádí podobné kroky v krátkém časovém okně | Vysoká | Síťová analýza, mapování koordinace |
-| **Asymetrie kritiky** | Kritika cíle je tvrdší než stejná kritika srovnatelných případů | Střední | Dokumentace asymetrie, externí audit |
-| **Eroze procedurálních standardů** | Standardy se náhle mění specificky pro daný případ | Vysoká | Procedurální archeologie, právní revize |
-| **Narativní konvergence** | Různé zdroje začnou používat identické formulace | Střední | Lingvistická forenzika, šíření narativu |
+## Postup pro profesionály
 
-## Neutralizace
+Krizový pracovník nebo právník by měl v první řadě posoudit bezpečí: zda zveřejněné
+údaje umožňují fyzický kontakt, zda existují konkrétní výhrůžky a zda je ohrožena rodina.
+Následuje zajištění důkazů (snímky obrazovky s daty a adresami), žádosti o odstranění
+obsahu u platforem a kontakt s policií. Terapeutická práce přichází až po stabilizaci
+bezpečí a zaměřuje se na hypervigilanci a vinu vůči blízkým; u části lidí je třeba počítat
+s dlouhodobými změnami životního stylu, které samy vyžadují podporu.
 
-### Individuální obrana
+## Fenomenologické znaky (pohled zevnitř)
 
-1. **Dokumentace v reálném čase** — Vést **veřejnou kroniku** všech kroků útoku s časovými razítky, jmény aktérů a citacemi.
-2. **Diverzifikace závislostí** — Snížit **single points of failure** v kariéře (více grantů, více platforem, více institucí).
-3. **Spojenecká síť** — Aktivně kultivovat **epistemickou koalici** přesahující jednu instituci nebo jeden okruh kolegů.
+| Znak | Jak ho postižený popisuje |
+|---|---|
+| Ohrožení domova | „Vědí, kde bydlím; doma už nejsem v bezpečí.“ |
+| Vina vůči blízkým | Rodina je v ohrožení kvůli tomu, co řekl. |
+| Hypervigilance | Kontroluje okolí domu, auta, zprávy. |
+| Ztráta hlasu | Rozhodnutí přestat mluvit veřejně. |
+| Ztráta identity | U pseudonymních mluvčích ztráta bezpečné role. |
 
-### Institucionální obrana
+## Detekční markery (pohled pozorovatele)
 
-1. **Procedurální transparence** — Pevné, **veřejně dostupné procedury** pro recenze, evaluace, jmenování, granty.
-2. **Externí audit** — Pravidelné **nezávislé audity** klíčových rozhodovacích procesů institucí.
+| Marker | Co může naznačovat |
+|---|---|
+| Příspěvek s adresou, pracovištěm nebo údaji o rodině | Doxxing |
+| Zveřejnění v době vrcholící kampaně | Navazující eskalace |
+| Odhalení identity pseudonymního účtu | Ztráta pseudonymity |
+| Zprávy na soukromé kontakty cíle a jeho blízkých | Navazující obtěžování |
+| Ostatní mluvčí v tématu se po incidentu odmlčí | Ochlazující účinek |
 
-## Vztah k jiným technikám
+## Rizikové kontexty
 
-Technika **EA-2.3.8** se v praxi téměř nikdy nevyskytuje izolovaně. Typicky se kombinuje s technikami **EA-1.X.Y** (přímé útoky na jednotlivé výroky) jako **operační vrstvou** a s ostatními technikami **EA-2.X.Y** (institucionální delegitimizace) jako **strategickou vrstvou**. Identifikace primární techniky pomáhá rozeznat **strukturu kampaně** jako celku.
+Výzkumníci extremismu a dezinformací, novináři, aktivisté, moderátoři komunit, lékaři
+a vědci v polarizovaných tématech, oběti, které promluvily pod pseudonymem, whistlebloweři,
+soudci a znalci. Riziko zvyšuje velká digitální stopa, veřejné rejstříky s adresou a
+sdílení fotografií z domova.
 
-## Vztah k platformě
+## Odlišení
 
-Prismatic Platform poskytuje pro detekci a analýzu této techniky následující komponenty:
+- **Legitimní investigativní žurnalistika.** Zveřejnění identity mocné osoby, která jedná
+  ve veřejném zájmu, může být oprávněné; rozhoduje veřejný zájem, přiměřenost a
+  nezveřejnění údajů, které nejsou nutné (adresa, rodina).
+- **OSINT pro vyšetřování.** Shromažďování údajů pro due diligence nebo vyšetřování bez
+  zveřejnění není doxxing; viz [due diligence](@/glossary/due-diligence.md).
+- **Paranoidní obava.** Strach z odhalení může být i projevem úzkostné nebo paranoidní
+  poruchy; rozhoduje, zda údaje byly skutečně zveřejněny.
 
-- **[Decision Engine](@/glossary/decision-engine.md)** — vícezdrojová evidence + uncertainty estimator pro vyhodnocení důvěryhodnosti narativů kolem cíle
-- **OSINT Toolbox** — 128+ adapterů pro mapování koordinace napříč platformami a institucemi
-- **Nabla (∇∞)** — epistemický engine pro modelování útoků na epistemické autority a důvěru
-- **Hawkeye** — síťová analýza pro detekci koordinovaných kampaní a zachycených struktur
+## Klinický a právní rámec
+
+Klinicky převažuje akutní ohrožení, hypervigilance, nespavost, úzkost a u části osob
+posttraumatická stresová porucha. Prioritou je bezpečí: plán bezpečí, kontakt s policií,
+podpora blízkých.
+
+Právně může jednání naplnit znaky neoprávněného nakládání s osobními údaji (§ 180 trestního
+zákoníku, zákon č. 40/2009 Sb.), nebezpečného pronásledování (§ 354) a nebezpečného
+vyhrožování (§ 353); v civilní rovině jde o zásah do soukromí a o porušení ochrany osobních
+údajů (nařízení (EU) 2016/679). Viz [ochrana svědků](@/kompendium/emergency-protocols/40-witness-protection.md),
+[právní nouzové kroky](@/kompendium/emergency-protocols/39-legal-emergency.md) a
+[zachování důkazů](@/kompendium/forensic-legal/32-evidence-preservation.md).
+
+## Obrana a neutralizace
+
+**Pro jednotlivce (prevence).** Omezit veřejně dostupné údaje (adresy v rejstřících, kde
+to lze, fotografie z domova, údaje o dětech); oddělit pracovní a soukromé kontakty;
+zabezpečit účty. **Při incidentu:** zajistit bezpečí, dokumentovat, požádat platformy
+o odstranění, kontaktovat policii a organizace pomáhající cílům online obtěžování.
+
+**Pro instituce.** Chránit zaměstnance (nezveřejňovat soukromé údaje, mít postup pro
+incidenty), podpořit přechodná bezpečnostní opatření. Viz
+[klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
+a [řízení přístupu](@/kompendium/organizational-defense/28-access-control-EA.md).
+
+## Zotavení
+
+Zotavení začíná obnovou pocitu bezpečí, často i fyzickými změnami (bydlení, opatření).
+Následuje zpracování traumatu a rozhodnutí, zda a jak se vrátit k veřejnému hlasu.
+Viz [ustavení bezpečí](@/kompendium/recovery-protocols/acute-safety-establishment.md)
+a [akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md).
+
+## Ilustrativní příklad (anonymizovaný kompozit)
+
+Výzkumnice, která pod pseudonymem analyzuje extremistická fóra, publikuje zprávu
+o jejich síti. Za týden se na jednom z fór objeví její skutečné jméno, adresa pracoviště,
+fotografie domu a jméno jejího dítěte. Následují anonymní zprávy a falešná objednávka
+na její adresu. Policie zajistí hlídky, platforma obsah odstraní, ale kopie se šíří
+dál. Výzkumnice změní bydliště a na rok přeruší publikování; její kolegové v oboru
+začnou publikovat jen kolektivně a bez jmen.
+
+## Meze a otevřené otázky
+
+Veřejný zájem může někdy odhalení identity ospravedlnit, například u anonymních účtů
+mocných aktérů. Otevřenou otázkou je, jak právně a eticky odlišit odhalení ve veřejném
+zájmu od doxxingu, který slouží zastrašení.
+
+## Případy, které techniku ukazují
+
+Anonymizované kompozity: [mediální mob útok](@/kompendium/case-studies/04-medialni-mob-attack.md),
+[kult fóra](@/kompendium/case-studies/78-forum-cult.md), [kult discordového serveru](@/kompendium/case-studies/79-discord-server-cult.md)
+a [kult subredditu](@/kompendium/case-studies/80-subreddit-cult.md). Historicky
+[Scientologie – Fair Game](@/kompendium/historical-cases/16-scientology-fair-game.md),
+kde podle dostupných pramenů zahrnovalo pronásledování kritiků i sledování jejich
+soukromí (interpretace knihy).
+
+## Literatura
+
+- Citron, D. K. (2014). *Hate Crimes in Cyberspace*.
+- Phillips, W. (2015). *This Is Why We Can't Have Nice Things*.
+- Marwick, A., & Lewis, R. (2017). *Media Manipulation and Disinformation Online*.
 
 ## Související
 
-- [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) (parent)
-- [Taxonomie EA](@/kompendium/glossary-bridges/taxonomie-ea.md) (klasifikační rámec)
-- [Delegitimizace](@/kompendium/glossary-bridges/delegitimizace.md) (konceptuální základ)
-- [EA-2.3.7](@/kompendium/techniques/ea-2-3-7-deepfake-personalni.md) (sister)
-- [EA-2.3.9](@/kompendium/techniques/ea-2-3-9-sealioning-medialni.md) (sister)
-- [EA-2.3.6](@/kompendium/techniques/ea-2-3-6-platform-coordinated-attack.md) (sister)
-- [Gaslighting](@/kompendium/glossary-bridges/gaslighting.md) (související psychologický mechanismus)
-- [Epistemické trauma](@/kompendium/glossary-bridges/epistemicke-trauma.md) (důsledek pro cíl)
+**Techniky**
 
-## Connect
+- [EA-2.3.4 Koordinace davu](@/kompendium/techniques/ea-2-3-4-mob-coordination.md) –
+  kontext, v němž doxxing vzniká.
+- [EA-2.3.6 Koordinovaný útok napříč platformami](@/kompendium/techniques/ea-2-3-6-platform-coordinated-attack.md)
+  – rozšíření.
+- [EA-2.5.7 Preventivní sebecenzura](@/kompendium/techniques/ea-2-5-7-self-cancelation.md)
+  – ochlazující účinek na ostatní.
 
-- **Kompendium**: [Hlavní rozcestník](@/kompendium/_index.md) | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | [Glossary](@/glossary/_index.md)
-- **Platforma**: {{ <cross_link path="/decisions/" text="Decision Engine" /> }} | [OSINT Toolbox](https://prismatic-reality-com.github.io/prismatic-promo/osint/) | {{ <cross_link path="/nabla/" text="Nabla" /> }}
-- **Zpětná vazba**: Pro hlášení nových případů této techniky kontaktujte [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+**Pojmy**
+
+- [Glosář: doxing](@/glossary/doxing.md) – definice a terminologie.
+- [Glosář: OSINT](@/glossary/osint.md) – legitimní obdoba metody.
+
+**Pomoc**
+
+- [Ochrana svědků](@/kompendium/emergency-protocols/40-witness-protection.md) – bezpečnostní
+  opatření.
+- [Ustavení bezpečí](@/kompendium/recovery-protocols/acute-safety-establishment.md) –
+  první kroky.

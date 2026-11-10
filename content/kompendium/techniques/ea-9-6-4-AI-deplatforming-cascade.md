@@ -1,14 +1,14 @@
 +++
 title = "EA-9.6.4 AI Deplatforming Cascade"
-description = "Současná digitální EA — ai deplatforming cascade."
+description = "Vzorec, v němž automatický zásah proti účtu na jedné platformě spustí přes sdílené signály zásahy na dalších, takže se člověk musí odvolávat všude zvlášť."
 weight = 964
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-6-2-AI-judgment-laundering", "ea-9-6-3-automated-content-takedown", "ea-9-6-5-AI-credit-scoring-bias", "ea-9-6-6-AI-hiring-narrative"]
+related_terms = ["ea-9-6-3-automated-content-takedown", "ea-9-3-8-mass-reporting-coordination", "ea-9-6-10-AI-welfare-decision-EA"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.6.4"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,110 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Kaskáda deplatformingu napříč platformami — jakmile AI-system jedné platformy aktoraflagne, ostatní platformy reagují automaticky.
+*AI deplatforming cascade* je kaskáda zásahů proti účtu napříč platformami a službami: označení na jedné platformě se přes sdílené signály, seznamy nebo automatické systémy přenese na další – sociální sítě, platební služby, hostingy, obchody s aplikacemi. Postižený ztrácí přístup k více službám současně a musí se odvolávat na každé zvlášť, často bez informace, co zásah spustilo.
 
-V kontextu Prismatic doktríny je AI Deplatforming Cascade klasifikováno jako **L1-L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.6.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-X-platform sdílení threat-intel feeds; account flagged on platform A je automaticky downgraded/banned on B/C; appeal je nutný separátně na každé platformě.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Služby si stále častěji sdílejí signály o rizikových účtech – v dobrém úmyslu, aby zastavily podvody, násilný extremismus nebo zneužívání. Tento systém ale přenáší i chyby: chybné označení na jedné platformě se stává „důkazem“ pro další, aniž by kdokoli posoudil původní případ. Protože každá služba vidí jen signál, nikoli důvod, nemůže chybu odhalit. Výsledkem je [deplatforming](@/glossary/deplatforming.md), který nemá autora ani srozumitelné zdůvodnění. Jako epistemická agrese se vzorec uplatní tam, kde ho někdo vědomě spustí – například koordinovaným nahlašováním ([EA-9.3.8](@/kompendium/techniques/ea-9-3-8-mass-reporting-coordination.md)) –, aby cíl vytlačil z veřejného prostoru.
 
 ## 4. Detekční markery
 
-Cross-platform decision-correlation, threat-intel-feed audits, appeal-process transparency, due-process forenzika.
+- Ztráta přístupu k více službám během krátké doby bez zjevné příčiny.
+- Obecná zdůvodnění typu „porušení podmínek“ bez konkrétního obsahu.
+- Předcházející zásah na jedné platformě nebo kampaň nahlašování.
+- Odvolání na jedné službě nemá vliv na ostatní.
+- Postiženi jsou lidé určitého zaměření (novináři, aktivisté, menšiny).
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Oprávněný zásah*: účet skutečně porušuje pravidla nebo zákon na více službách. *[EA-9.6.3 Automated Content Takedown](@/kompendium/techniques/ea-9-6-3-automated-content-takedown.md)*: odstranění obsahu na jedné platformě; kaskáda zasahuje celou digitální existenci. *Sankční seznamy*: zákonné omezení s právním základem a cestou k přezkumu.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Kaskáda může člověka připravit o komunikaci, příjmy, přístup k platbám i o profesní existenci. Je zvlášť zničující pro lidi, jejichž práce závisí na digitálních službách. V EU ukládá DSA platformám povinnost zdůvodnit zásahy a umožnit stížnost; sdílení signálů mezi službami ale zůstává málo transparentní. Pro postižené je klíčové domáhat se přezkumu u každé služby a dokumentovat celý řetězec.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Postižený*: dokumentovat každý zásah, podat odvolání všude, kontaktovat organizace hájící digitální práva; mít zálohu kontaktů a dat mimo platformy. *Platformy*: sdílet signály jen s lidským ověřením a s možností odvolání, které se přenáší stejně jako zásah. *Regulátoři*: požadovat transparentnost sdílení signálů mezi službami. *Zaměstnavatelé a partneři*: nepovažovat deplatforming za důkaz viny.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Novinář píšící o extremismu sdílí snímky extremistických příspěvků jako dokumentaci. Jedna platforma jeho účet zablokuje; během týdne přijde o přístup k dalším dvěma sítím a k platební službě, přes kterou dostával příspěvky od čtenářů. Po měsíci odvolání a s pomocí organizace hájící svobodu tisku získá přístup zpět ke třem službám; čtvrtá zásah nezruší.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Sdílení signálů mezi službami má legitimní účel a pomáhá zastavit skutečné zneužívání. Otevřenou otázkou je, jak zachovat jeho přínos a zároveň zajistit, aby se s chybným zásahem šířila i jeho oprava.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+## 10. Pohled zevnitř a práce s postiženým
 
-**Layer 4 — Accountability:**
+Ztráta digitální přítomnosti je pro mnoho lidí ztrátou sociálních vazeb, práce a identity. Postižený prožívá bezmoc vůči neviditelnému systému a může začít podezírat všechny. Pomáhá praktická podpora, obnovení kontaktů mimo platformy a uznání, že jde o systémové selhání.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+## 11. Vztah k ostatním kategoriím EA
 
-## 6. Vztah k jiným EA
+Vzorec je technickou podobou [Detekční signatura: Deplatformingová kaskáda](@/kompendium/detection-signatures/24-network-deplatforming-cascade.md) a navazuje na [EA-9.6.3](@/kompendium/techniques/ea-9-6-3-automated-content-takedown.md); v institucionálním prostředí mu odpovídá [EA-2.1.7 Institucionální vyloučení](@/kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md).
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 12. Otázky pro rozhovor a šetření
 
-- **EA-1.* (Vědomá kontrola informací)** — AI Deplatforming Cascade představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+- Kdy a kde došlo k prvnímu zásahu?
+- Jaké služby následovaly a v jakém pořadí?
+- Předcházela zásahu kampaň nebo spor?
+- Jaká zdůvodnění jste dostal?
+- Které služby po odvolání zásah zrušily?
 
-## 7. Vztah k Prismatic platformě
+## 13. Postup pro profesionály
 
-Prismatic Platform implementuje detekci a neutralizaci AI Deplatforming Cascade přes následující komponenty:
+1. **Právník:** zmapovat řetězec zásahů a podat odvolání u každé služby, s odkazem na zrušení jinde.
+2. **Organizace pro digitální práva:** eskalovat případ u platforem a regulátorů.
+3. **Analytik:** doložit, zda zásahům předcházela koordinovaná kampaň.
+4. **Zaměstnavatel nebo partner:** posoudit situaci podle faktů, ne podle zásahů platforem.
+5. **Terapeut:** podpořit postiženého ve zvládání izolace a ztráty.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 14. Prevence a odolnost
 
-**Doctrine compliance:**
+Odolnost stojí na nezávislosti na jedné službě: vlastní kontakty, záloha dat, alternativní platební kanály a vlastní web. Systémově pomáhá, když se opravy zásahů šíří stejnými kanály jako zásahy.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 15. Typický průběh
 
-## 8. Cross-linky
+Kaskáda začíná jedním zásahem – oprávněným, chybným nebo vyvolaným kampaní. Během dnů následují další služby, které signál převezmou. Postižený nejdřív nechápe souvislost, pak zjistí, že zásahy jsou propojené. Odvolání probíhá paralelně a s různým výsledkem. Část služeb zásah zruší, část ne, a postižený zůstává ve stavu neúplné digitální existence.
 
-**Související EA techniky:**
+## 16. Dokumentace a důkazy
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.6.1 Algorithmic Decision Bias](@/kompendium/techniques/ea-9-6-1-algorithmic-decision-bias.md)
-- [EA-9.6.2 AI Judgment Laundering](@/kompendium/techniques/ea-9-6-2-AI-judgment-laundering.md)
-- [EA-9.6.3 Automated Content Takedown](@/kompendium/techniques/ea-9-6-3-automated-content-takedown.md)
-- [EA-9.6.5 AI Credit Scoring Bias](@/kompendium/techniques/ea-9-6-5-AI-credit-scoring-bias.md)
+Užitečná je časová osa všech zásahů, kopie oznámení, zdůvodnění a odpovědí na odvolání a doklady o případné předcházející kampani. Zrušení zásahu na jedné službě je důležitým argumentem pro ostatní.
 
-**Doktrinální a infrastructure odkazy:**
+## Odborný kontext
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+Suzor (2019) popisuje, jak pravidla platforem fungují jako soukromé právo, které rozhoduje o přístupu ke komunikaci, publiku a příjmům, ale postrádá záruky běžné ve veřejném právu: zdůvodnění, předvídatelnost a nezávislý přezkum. Kaskáda deplatformingu tento problém násobí, protože jedno rozhodnutí se přenáší do dalších systémů bez nového posouzení. Gillespie (2018) upozorňuje, že platformy sdílejí nejen technologie, ale i normy a seznamy, a že tím vzniká koordinovaná správa projevu, kterou veřejnost téměř nevidí.
 
----
+Citron a Pasquale (2014) navrhli pro automatizované hodnocení lidí princip, který je pro kaskády klíčový: kdo je hodnocen, musí se dozvědět, že hodnocení existuje, a mít možnost ho napadnout. U sdílených signálů mezi službami tato podmínka obvykle chybí. Kniha proto doporučuje chápat jakoukoli opravu chybného zásahu jako informaci, která se má šířit stejnými kanály jako zásah sám.
 
-## Connect & Contribute
+## Souvislosti pro praxi
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+Organizace hájící digitální práva mohou postiženým pomoci tím, že shromažďují kontakty na odvolací kanály jednotlivých služeb a vzory odvolání, které odkazují na zrušení zásahu jinde. Pro zaměstnavatele, banky a partnery je důležité pravidlo, že zablokování účtu na platformě není důkazem protiprávního jednání a nemá samo o sobě vést k dalším sankcím. Pro tvůrce a malé podniky, kteří jsou na digitálních službách existenčně závislí, je prevencí plán kontinuity: kde budou komunikovat se zákazníky, kdyby hlavní kanál zmizel, a jak se dostanou ke svým datům. Pro výzkum a regulátory je klíčové zmapovat, které služby si signály sdílejí a na jakém základě.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+Pro terapeuty a poradce je užitečné vědět, že ztráta digitální přítomnosti se u části klientů prožívá podobně jako vyloučení z komunity, se studem a pocitem nespravedlnosti. Při práci s nimi pomáhá oddělit otázku viny od otázky postupu a obnovit vztahy, které na platformách nezávisejí.
 
----
+## Literatura
 
-*EA-9.6.4 | Subkategorie 9.6 Algoritmická governance | Prismatic Compendium | Version 18.4.0*
+- Citron, D. K., & Pasquale, F. (2014). The scored society: Due process for automated predictions. *Washington Law Review*.
+- Gillespie, T. (2018). *Custodians of the Internet*. Yale University Press.
+- Suzor, N. P. (2019). *Lawless: The Secret Rules That Govern Our Digital Lives*. Cambridge University Press.
+
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.6.3 Automated Content Takedown](@/kompendium/techniques/ea-9-6-3-automated-content-takedown.md) – odstranění obsahu.
+- [EA-9.3.8 Mass Reporting Coordination](@/kompendium/techniques/ea-9-3-8-mass-reporting-coordination.md) – kampaň jako spouštěč.
+- [EA-9.6.10 AI Welfare Decision EA](@/kompendium/techniques/ea-9-6-10-AI-welfare-decision-EA.md) – kaskáda následků automatického označení.
+
+**Detekce a pojmy**
+
+- [Detekční signatura: Deplatformingová kaskáda](@/kompendium/detection-signatures/24-network-deplatforming-cascade.md) – rozpoznání vzorce.
+- [Deplatforming](@/glossary/deplatforming.md) – obecné heslo.
+
+**Obrana**
+
+- [Sebe-obrana: Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md) – nezávislost na jedné službě.
+- [Sebe-obrana: Mobilizace podpory](@/kompendium/self-defense-guides/30-support-mobilization.md) – pomoc komunity.

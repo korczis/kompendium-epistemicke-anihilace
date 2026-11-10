@@ -1,14 +1,14 @@
 +++
 title = "EA-9.4.3 Sock Puppet Network"
-description = "Současná digitální EA — sock puppet network."
+description = "Vzorec sítě falešných identit jednoho operátora, které z různých „úhlů“ podporují tentýž narativ a vytvářejí iluzi nezávislých hlasů. Znaky, odlišení, obrana."
 weight = 943
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-4-10-bot-detection-evasion", "ea-9-4-2-coordinated-inauthentic-behavior", "ea-9-4-4-AI-bot-personhood", "ea-9-4-5-troll-farm-EA"]
+related_terms = ["ea-9-4-2-coordinated-inauthentic-behavior", "ea-9-4-6-mass-comment-coordination", "ea-9-2-10-AI-personhood-claim", "ea-2-1-2-pseudo-peer-mob"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.4.3"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,113 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Síť falešných identit (sock puppets) provozovaných jediným operátorem k vytvoření iluze nezávislých hlasů podporujících narativ.
+*Sock puppet network* (síť „loutek“) je soubor falešných identit, které provozuje jeden operátor nebo malá skupina. Loutky mají odlišné „osobnosti“ – věk, bydliště, profesi, styl psaní – a z různých úhlů podporují tentýž narativ, chválí operátora, napadají jeho kritiky nebo vytvářejí zdání sporu, v němž „rozumná“ strana vždy vyhraje.
 
-V kontextu Prismatic doktríny je Sock Puppet Network klasifikováno jako **L1** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.4.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Operátor vytváří 50+ účtů s odlišnými 'osobnostmi' (žena z Brna, muž z Ostravy, student z Prahy); každý účet konzistentně podporuje stejný narativ z různých 'úhlů'.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Loutky využívají toho, že čtenář přisuzuje váhu rozmanitosti hlasů: když s něčím souhlasí žena z jednoho města, muž z jiného a student, působí to jako široká shoda. Loutky také umožňují obcházet pravidla – vyhnout se zákazu, hlasovat vícekrát, obejít omezení komentářů. Na rozdíl od botů bývají loutky ručně psané a jejich odhalení vyžaduje pozornost k jemným shodám: styl, chyby, časy, sdílené znalosti. Klasickým prostředím jsou diskusní fóra, recenze, encyklopedie s otevřenou editací a komentáře pod články.
 
 ## 4. Detekční markery
 
-Stylometric clustering, IP/device fingerprinting, behavioral correlation, network graph analysis.
+- Různé účty mají shodné typografické zvyklosti, chyby a oblíbené fráze.
+- Účty se nikdy neobjevují současně v živé diskusi, ale střídají se.
+- Podpora pro tutéž osobu nebo produkt z účtů, které jinak nemají žádnou aktivitu.
+- Účty znají detaily, které by znal jen operátor.
+- Spor mezi „loutkami“ vždy skončí vítězstvím stejného názoru.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Pseudonymy jednoho člověka v různých kontextech*: legitimní, pokud je nepoužívá k vzájemné podpoře nebo klamání o počtu hlasů. *[EA-9.4.2 CIB](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)*: širší, často s automatizací a infrastrukturou. *[EA-9.2.10 AI Personhood Claim](@/kompendium/techniques/ea-9-2-10-AI-personhood-claim.md)*: jedna propracovaná syntetická persona; loutky jsou spíš levné a početné.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Loutky zkreslují online diskuse, recenze a hlasování a mohou sloužit k obtěžování: operátor napadá cíl z mnoha účtů a vytváří dojem, že ho odsuzuje komunita. V komerčním kontextu jde o klamavé obchodní praktiky (falešné recenze); v redakčních komunitách o porušení pravidel; při obtěžování může jít o trestné jednání podle okolností.
 
-## 5. Neutralizační strategie
+Pro organizace a komunity je loutková kampaň i otázkou důvěry: po jejím odhalení může vzniknout podezíravost vůči každému novému hlasu, a moderátoři by proto měli komunikovat otevřeně, co se stalo a jak to bylo ověřeno, aby se neprávem nepodezírali skuteční noví členové.
 
-**Layer 1 — Detection:**
+## 7. Obrana a zotavení
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+*Moderátoři komunit*: sledovat shody v metadatech a stylu, mít pravidla proti vícenásobným účtům. *Čtenář*: nepřisuzovat váhu počtu hlasů, pokud nelze ověřit, že patří různým lidem. *Cíl obtěžování*: dokumentovat a nahlásit vzorec, ne jednotlivé účty; vyhledat podporu. *Platformy*: ověřování a omezování vícenásobných účtů při zachování práva na anonymitu.
 
-**Layer 2 — Containment:**
+## 8. Příklad (anonymizovaný kompozit)
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+V diskusi o místní škole se objeví několik „rodičů“, kteří chválí ředitele a útočí na učitelku, jež si stěžovala na šikanu vedení. Moderátorka si všimne, že účty používají stejné neobvyklé zkratky a nikdy nepíší ve stejnou hodinu. Technická kontrola ukáže sdílené připojení. Účty jsou odstraněny; učitelka dostane omluvu a diskuse se vrátí k věci.
 
-**Layer 3 — Resilience:**
+## 9. Meze a otevřené otázky
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Stylometrická podobnost není důkaz – lidé ze stejného prostředí píší podobně. Odhalení vyžaduje kombinaci znaků a opatrnost, aby nebyli obviněni skuteční lidé. Otevřenou otázkou je ochrana anonymity zranitelných lidí při potírání loutek.
 
-**Layer 4 — Accountability:**
+Kniha neuvádí, jak rozšířené jsou loutkové účty v diskusích; spolehlivá data chybějí a odhady se liší podle prostředí. Výzkum se opírá převážně o případové studie a o technické analýzy jednotlivých komunit.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Otevřené je také, jak loutky rozpoznat v malých komunitách, kde chybějí data pro srovnání.
 
-## 6. Vztah k jiným EA
+## 10. Pohled zevnitř a práce s postiženým
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Cíl loutkové kampaně prožívá pocit, že se proti němu obrátila komunita; zjištění, že šlo o jednoho člověka, přináší úlevu i vztek. Pro komunity je odhalení loutek příležitostí obnovit důvěru – a zároveň riziko, že začnou podezírat každý nový hlas.
 
-- **EA-1.* (Vědomá kontrola informací)** — Sock Puppet Network představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Pro moderátory, kteří loutky odhalí, je zátěží i následná nedůvěra v komunitě; pomáhá otevřená komunikace o postupu a jasná pravidla, která platí pro všechny stejně. Pro operátora loutek, pokud je to člen komunity, může být odhalení příležitostí ke změně, pokud komunita nabídne cestu zpět za jasných podmínek.
 
-## 7. Vztah k Prismatic platformě
+Kniha proto doporučuje opatrnost.
 
-Prismatic Platform implementuje detekci a neutralizaci Sock Puppet Network přes následující komponenty:
+## 11. Vztah k ostatním kategoriím EA
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+V akademickém prostředí popisuje příbuzný vzorec [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md): zdánlivě nezávislí kolegové, kteří se shodují v útoku. Obtěžování z mnoha účtů souvisí s [EA-2.3.4 Mob Coordination](@/kompendium/techniques/ea-2-3-4-mob-coordination.md).
 
-**Doctrine compliance:**
+## 12. Postup při podezření na loutkové účty
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+1. **Shromáždit příspěvky** podezřelých účtů s časy.
+2. **Porovnat styl** – zkratky, chyby, fráze, typografii.
+3. **Sledovat časování** – střídání účtů, nikdy současná přítomnost.
+4. **Požádat správce** komunity o technickou kontrolu.
+5. **Jednat podle pravidel** komunity a chránit cíl obtěžování.
 
-## 8. Cross-linky
+## 13. Prevence a odolnost
 
-**Související EA techniky:**
+Prevence stojí na pravidlech komunit proti vícenásobným účtům, na pozornosti moderátorů a na kultuře, v níž se váha hlasu neodvozuje od počtu účtů. Pro platformy je výzvou omezit loutky a zároveň chránit legitimní anonymitu zranitelných lidí.
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.4.4 AI Bot Personhood](@/kompendium/techniques/ea-9-4-4-AI-bot-personhood.md)
-- [EA-9.4.5 Troll Farm EA](@/kompendium/techniques/ea-9-4-5-troll-farm-EA.md)
+Pro komunity je užitečné mít pravidla, která vícenásobné účty výslovně zakazují a zároveň umožňují anonymitu tam, kde chrání zranitelné lidi; správci by měli vědět, jak tyto dva požadavky vyvážit, a mít pro sporné případy jasný postup.
 
-**Doktrinální a infrastructure odkazy:**
+## 14. Otázky pro rozhovor a šetření
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+- Objevují se účty někdy současně v živé diskusi?
+- Sdílejí neobvyklé jazykové zvyklosti?
+- Znají detaily, které by měl znát jen jeden člověk?
+- Mají aktivitu mimo podporu jedné osoby či názoru?
+- Komu jejich činnost prospívá?
 
----
+## Odborný kontext
 
-## Connect & Contribute
+Výzkum online diskusí dlouhodobě dokumentuje „loutkové“ účty jako způsob, jak jeden aktér vytváří dojem mnoha nezávislých hlasů. Goldman (2001) vysvětlil, proč na tom záleží: shoda více zdrojů má důkazní hodnotu jen při jejich nezávislosti. Loutky tuto podmínku porušují přímo – za mnoha jmény stojí jeden člověk. Cialdini (2001) popsal sociální důkaz jako jeden z hlavních principů vlivu; loutky ho padělají v měřítku jedné komunity.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+Phillips (2015) a Marwick a Lewis (2017) ukázali, že vícenásobné účty jsou běžným nástrojem online obtěžování: operátor útočí na cíl z mnoha stran a vytváří dojem, že ho odsuzuje celé společenství. Stylometrické srovnání může loutky odhalit, ale samo o sobě není důkazem, protože lidé z téhož prostředí píší podobně; kniha proto doporučuje kombinovat jazykové, časové a technické znaky.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+## Souvislosti pro praxi
 
----
+Pro moderátory je užitečné mít jasný postup, kdy a jak podezření ověřit a jak informovat komunitu, aby se odhalení nezměnilo v hon na každý nový hlas. Pro instituce, jejichž zaměstnanci čelí obtěžování z mnoha účtů, je vhodné vnímat ho jako pracovní riziko a nabídnout podporu.
 
-*EA-9.4.3 | Subkategorie 9.4 Bot networks | Prismatic Compendium | Version 18.4.0*
+## Literatura
+
+- Cialdini, R. B. (2001). *Influence: Science and Practice* (4. vyd.). Allyn & Bacon.
+- Goldman, A. I. (2001). Experts: Which ones should you trust? *Philosophy and Phenomenological Research*.
+- Marwick, A., & Lewis, R. (2017). *Media Manipulation and Disinformation Online*. Data & Society.
+- Phillips, W. (2015). *This Is Why We Can't Have Nice Things*. MIT Press.
+
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md) – širší rámec.
+- [EA-9.4.6 Mass Comment Coordination](@/kompendium/techniques/ea-9-4-6-mass-comment-coordination.md) – zahlcení komentáři.
+- [EA-9.2.10 AI Personhood Claim](@/kompendium/techniques/ea-9-2-10-AI-personhood-claim.md) – propracovaná syntetická persona.
+
+**Kapitola 2**
+
+- [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) – zdánlivě nezávislí kolegové.
+
+**Detekce a obrana**
+
+- [Detekční signatura: Monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) – mnoho hlasů, jeden původ.
+- [Sebe-obrana: Mobilizace podpory](@/kompendium/self-defense-guides/30-support-mobilization.md) – odpověď na obtěžování.
+- [Psychologické bezpečí v organizaci](@/kompendium/organizational-defense/16-psychological-safety.md) – prostředí, kde lze mluvit pod vlastním jménem.

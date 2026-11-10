@@ -1,14 +1,14 @@
 +++
 title = "EA-9.3.4 Recommendation Radicalization"
-description = "Současná digitální EA — recommendation radicalization."
+description = "Vzorec postupného posunu uživatele k extrémnějšímu obsahu přes doporučovací smyčku, v níž každé další doporučení je o stupeň ostřejší. Znaky, odlišení, obrana."
 weight = 934
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-3-2-engagement-optimization-EA", "ea-9-3-3-feed-personalization-bias", "ea-9-3-5-shadowban-coordination", "ea-9-3-6-content-moderation-bias"]
+related_terms = ["ea-9-3-3-feed-personalization-bias", "ea-9-5-9-meme-radicalization-pipeline", "ea-9-3-1-algorithmic-amplification"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.3.4"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,107 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Postupné radikalizování uživatele přes doporučovací smyčku — každé další doporučení je o stupeň extrémnější než předchozí.
+*Recommendation radicalization* je postupný posun uživatele k extrémnějšímu obsahu prostřednictvím doporučovací smyčky: od mírného obsahu k ostřejšímu a dále k extrémnímu, přičemž každý krok vypadá jako malé a přirozené pokračování. Vzorec může vznikat jako vedlejší účinek optimalizace na zapojení, nebo cíleně – když aktéři vytvářejí obsah odstupňovaný tak, aby uživatele vedl.
 
-V kontextu Prismatic doktríny je Recommendation Radicalization klasifikováno jako **L1-L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.3.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník publikuje obsah po žebříčku radikalizace (mírný → ostrý → extrémní); algoritmus uživatele postupně posunuje, protože extrémní obsah generuje vyšší engagement.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Doporučovací systém nabízí obsah, který udrží pozornost; intenzivnější obsah ji často udrží lépe. Uživatel, který hledá vysvětlení osobní frustrace (osamělost, nespravedlnost, ztráta), dostává nabídku stále jednoznačnějších odpovědí a stále jasněji definovaného nepřítele. Komunity kolem obsahu poskytují uznání a příslušnost, které uživateli jinde chybějí. Radikalizace tak není jen informační, ale i sociální proces; algoritmus je urychlovač, ne jediná příčina. Vzorec úzce souvisí s [EA-9.5.9 Meme Radicalization Pipeline](@/kompendium/techniques/ea-9-5-9-meme-radicalization-pipeline.md), kde se tentýž gradient odehrává přes humor.
 
 ## 4. Detekční markery
 
-Radicalization pathway tracking, recommendation graph analysis, intervention experiments, content gradient monitoring.
+- Proměna slovníku: nálepky pro skupiny lidí, dehumanizující výrazy, „my a oni“.
+- Rostoucí čas strávený s jedním typem obsahu a jednou komunitou; ubývání jiných zájmů a vztahů.
+- Nedůvěra ke všem „mainstreamovým“ zdrojům a k blízkým, kteří s obsahem nesouhlasí.
+- Postupné přijímání tvrzení, která by dotyčný dříve odmítl, a omlouvání násilí.
+- Historie sledování ukazuje zřetelný gradient od obecných témat k vyhraněným.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Hledání informací o kontroverzním tématu*: zájem bez proměny identity, slovníku a vztahů. *Politická angažovanost*: i ostrá, pokud respektuje lidskou důstojnost a zůstává otevřená argumentům. *[EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md)*: zúžení obrazu bez dynamického posunu k extrému.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Na úrovni jednotlivce vede radikalizace k izolaci, konfliktům v rodině, někdy ke ztrátě práce a vzácně k násilí. Na úrovni společnosti posiluje extremistické komunity. Rámec reakce zahrnuje prevenci (mediální výchova, práce s mládeží), poradenství pro blízké a programy odchodu z extremistického prostředí; tam, kde hrozí násilí, i bezpečnostní složky. Regulačně se týká povinnosti platforem posuzovat rizika doporučovacích systémů.
 
-## 5. Neutralizační strategie
+Pro školy a sociální služby je radikalizace i otázkou bezpečnosti spolužáků a kolegů; při vážném podezření na přípravu násilí je namístě spolupráce s odborníky a v krajním případě s policií.
 
-**Layer 1 — Detection:**
+## 7. Obrana a zotavení
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+*Blízcí*: udržet vztah a rozhovor i při nesouhlasu; zajímat se o potřeby, které obsah naplňuje (příslušnost, smysl, uznání). *Uživatel*: všímat si gradientu v doporučeních; čistit historii a vědomě vyhledávat jiné zdroje. *Školy a sociální práce*: prevence izolace, nabídka skutečné komunity. *Profesionálové*: pracovat podle zkušeností z [programů odchodu](@/kompendium/case-studies/24-extremni-pravice-exit.md); zahanbení a konfrontace bývají kontraproduktivní.
 
-**Layer 2 — Containment:**
+## 8. Příklad (anonymizovaný kompozit)
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+Šestnáctiletý chlapec začne sledovat videa o posilování a sebezdokonalování. Doporučení ho postupně přivedou k obsahu o tom, že za jeho neúspěch mohou ženy a „systém“, a dál k uzavřené komunitě s nenávistným slovníkem. Rodiče si všimnou, že přestal chodit na trénink a mluví o spolužačkách s pohrdáním. Školní psycholožka s ním mluví o jeho osamělosti, ne o videích; postupně se vrátí do sportovního oddílu a jeho zájem o komunitu slábne.
 
-**Layer 3 — Resilience:**
+## 9. Meze a otevřené otázky
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Role algoritmů v radikalizaci je předmětem výzkumného sporu: některé studie nacházejí výrazný posun doporučení k extrému, jiné zdůrazňují aktivní vyhledávání uživatelů. Pravděpodobně se kombinují oba faktory. Kniha proto vzorec popisuje jako interakci systému a osobní zranitelnosti.
 
-**Layer 4 — Accountability:**
+Další otevřenou otázkou je, jak hodnotit účinnost prevence, protože úspěch se projevuje tím, co se nestalo. Programy odchodu a preventivní projekty proto často dokládají výsledky jen kvalitativně a kniha jejich účinnost nekvantifikuje.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+## 10. Pohled zevnitř a práce s postiženým
 
-## 6. Vztah k jiným EA
+Zevnitř radikalizace působí jako prozření a příslušnost: konečně někdo vysvětluje, proč je život těžký. Kritika zvenčí potvrzuje, že „oni“ jsou proti. Účinná práce proto začíná vztahem a uznáním potřeb a teprve postupně otevírá pochybnosti. Odchod z komunity přináší ztrátu identity a přátel; podpora musí nabídnout náhradu, ne jen zákaz.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Pro rodiče je těžké přijmout, že jejich dítě sdílí nenávistný obsah; podpora pro ně samotné – poradna, skupina rodičů v podobné situaci – jim pomůže zůstat s dítětem ve vztahu, který je pro jeho návrat klíčový.
 
-- **EA-1.* (Vědomá kontrola informací)** — Recommendation Radicalization představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+## 11. Vztah k ostatním kategoriím EA
 
-## 7. Vztah k Prismatic platformě
+Kniha popisuje radikalizaci i v případových studiích ([online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md), [incel recovery](@/kompendium/case-studies/23-incel-recovery.md)). Postupné posouvání hranic odpovídá vzorci [posunu rozsahu](@/kompendium/detection-signatures/7-linguistic-scope-creep.md) a přechodu od mírného k extrémnímu v [EA-9.5.9](@/kompendium/techniques/ea-9-5-9-meme-radicalization-pipeline.md).
 
-Prismatic Platform implementuje detekci a neutralizaci Recommendation Radicalization přes následující komponenty:
+## 12. Postup pro blízké a profesionály
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+1. **Všimnout si změn** ve slovníku, vztazích a čase stráveném online.
+2. **Zahájit rozhovor** z pozice zájmu, ne obvinění.
+3. **Zjistit potřeby**, které obsah a komunita naplňují.
+4. **Nabídnout alternativy** – vztahy, aktivity, smysl.
+5. **Vyhledat odbornou pomoc**, pokud se objeví omlouvání násilí nebo izolace.
 
-**Doctrine compliance:**
+## 13. Prevence a odolnost
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+Prevence stojí na skutečných vztazích a komunitách, na mediální výchově, která vysvětluje doporučovací systémy, a na tom, že dospělí berou online svět mladých vážně. Pro platformy je prevencí omezení doporučování obsahu, který dehumanizuje skupiny.
 
-## 8. Cross-linky
+## 14. Otázky pro rozhovor a šetření
 
-**Související EA techniky:**
+- Jaký obsah sleduješ nejčastěji a jak ses k němu dostal?
+- Co ti dává komunita kolem něj?
+- Změnily se tvoje vztahy s lidmi mimo ni?
+- Je obsah, který je i na tebe moc?
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md)
-- [EA-9.3.5 Shadowban Coordination](@/kompendium/techniques/ea-9-3-5-shadowban-coordination.md)
+## Odborný kontext
 
-**Doktrinální a infrastructure odkazy:**
+Ribeiro et al. (2020) na rozsáhlých datech z videoplatformy doložili, že uživatelé migrovali od mírnějšího obsahu k obsahu krajnějšímu a že doporučovací systém k této migraci zčásti přispíval; jiné studie zdůrazňují aktivní vyhledávání uživatelů. Benkler, Faris a Roberts (2018) ukázali, že radikalizace probíhá v mediálních ekosystémech, které se navzájem posilují a odmítají vnější korekci. Kniha proto chápe algoritmus jako urychlovač, nikoli jedinou příčinu.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+Sociálně-psychologický rámec vysvětluje, proč je radikální komunita přitažlivá: nabízí identitu, příslušnost a jasného nepřítele (Tajfel a Turner 1979). Lidé v krizi, osamělí nebo s pocitem křivdy jsou k této nabídce vnímavější. Výzkum „psychologického očkování“ ukázal, že seznámení s manipulativními technikami předem zvyšuje schopnost je rozpoznat (Roozenbeek a van der Linden 2019), což je slibný prvek prevence.
 
----
+## Souvislosti pro praxi
 
-## Connect & Contribute
+Pro školy je užitečné propojit prevenci radikalizace s prevencí šikany a osamělosti, protože jde často o tytéž děti. Pro rodiče platí, že zákaz bez náhrady obvykle vede k utajování; rozhovor a nabídka skutečné komunity jsou účinnější. Pro terapeuty je důležité pracovat s pocitem křivdy, který komunita využívá, a nabídnout jiný způsob, jak ho zpracovat.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+## Literatura
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- Benkler, Y., Faris, R., & Roberts, H. (2018). *Network [Propaganda](@/glossary/propaganda.md)*. Oxford University Press.
+- Ribeiro, M. H., Ottoni, R., West, R., Almeida, V. A. F., & Meira, W. (2020). Auditing radicalization pathways on YouTube. *Proceedings of FAT* 2020*.
+- Roozenbeek, J., & van der Linden, S. (2019). Fake news game confers psychological resistance against online misinformation. *Palgrave Communications*.
+- Tajfel, H., & Turner, J. C. (1979). An integrative theory of intergroup conflict. In W. G. Austin & S. Worchel (Eds.), *The Social Psychology of Intergroup Relations*. Brooks/Cole.
 
----
+## Související
 
-*EA-9.3.4 | Subkategorie 9.3 Sociální platformy | Prismatic Compendium | Version 18.4.0*
+**Sourozenecké techniky**
+
+- [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md) – zúžení obrazu světa.
+- [EA-9.5.9 Meme Radicalization Pipeline](@/kompendium/techniques/ea-9-5-9-meme-radicalization-pipeline.md) – gradient přes humor.
+- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md) – infrastruktura doporučování.
+
+**Případy**
+
+- [Online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md) – anonymizovaný případ.
+- [Incel recovery](@/kompendium/case-studies/23-incel-recovery.md) – cesta zpět.
+- [Exit z extrémní pravice](@/kompendium/case-studies/24-extremni-pravice-exit.md) – zkušenosti z odchodu.
+
+**Prevence a obrana**
+
+- [Detekční signatura: Akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md) – ubývání vztahů.
+- [Sebe-obrana: Prevence izolace](@/kompendium/self-defense-guides/26-isolation-prevention.md) – udržení sítě vztahů.

@@ -39,7 +39,7 @@ EA-X.Y.Z[-α]
 | **X** | Primární kategorie / kapitola | 1–10 |
 | **Y** | Subkategorie | 1–9 |
 | **Z** | Specifický fenomén | 1–99 |
-| **α** | Volitelná varianta | a, b, c, ... |
+| **α** | Volitelná varianta | a, b, c, … |
 
 ### 1.2 Příklady
 
@@ -165,7 +165,7 @@ Postup pro přidání nové techniky do taxonomie:
 
 - Nový EA-X.Y.Z kód přidán do [Rejstříku technik](@/kompendium/08-prilohy/rejstrik-technik.md).
 - Per-technique článek vytvořen v `/kompendium/techniques/`.
-- Glosářové heslo přidáno do [Glossary](@/glossary/_index.md).
+- Glosářové heslo přidáno do [Glosář](@/glossary/_index.md).
 - Index pojmů aktualizován v [Index pojmů](@/kompendium/08-prilohy/index-pojmu.md).
 
 ## 5. Vztah k externím taxonomiím
@@ -250,7 +250,7 @@ Inter-rater agreement (Cohenova κ) na úrovni X je **> 0.95** v platných taxon
 
 Aktuální verze taxonomie: **v1.0.0** (kanonický stav 2026-04-25).
 
-## 8. Cross-referencing s dalšími přílohami
+## 8. Vazby na další přílohy
 
 - [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární literatura k taxonomické metodě.
 - [Rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) — operativní výstup tohoto schématu.
@@ -261,7 +261,7 @@ Aktuální verze taxonomie: **v1.0.0** (kanonický stav 2026-04-25).
 
 ## 9. Platformový kontext
 
-- [Glossary](@/glossary/_index.md) — kanonizace termínů recipročně s touto taxonomií.
+- [Glosář](@/glossary/_index.md) — kanonizace termínů recipročně s touto taxonomií.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) — L0–L13 mapování (sekce 5.5).
 - [Color Teams](@/glossary/color-teams.md) — Red Team scénáře využívají dimenzionální osy.
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — kalibrace důvěry využívá EA klasifikační prostor jako feature space.
@@ -274,34 +274,36 @@ Místo lineární četby:
 
 1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
 2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
-3. Pokud nenajdeš, zkontroluj [glossary](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
+3. Pokud nenajdeš, zkontroluj [glosář](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
 
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
 > otevři přílohu.
 
-## 🔗 Křížové odkazy
+## Související
 
-### V této sekci
+**Přílohy knihy**
 
-- [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)
-- [Diagnostické dotazníky a nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md)
-- [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md)
-- [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md)
-- [Kompletní rejstřík technik (master index)](@/kompendium/08-prilohy/rejstrik-technik.md)
+- [Kompletní rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) – kódy přidělené podle tohoto schématu.
+- [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) – notační konvence všech sekcí.
+- [Index pojmů](@/kompendium/08-prilohy/index-pojmu.md) – terminologický rejstřík s anglickými ekvivalenty.
 
-### Klíčové orientační body
+**Metodologie**
 
-- [Hub kompendia](@/kompendium/_index.md) — návrat na úvodní rozcestník
-- [Glossary](@/glossary/_index.md) — terminologický slovník
-- [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární zdroje
-- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — povinné rámce použití
+- [2.4 Metodologické poznámky k taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md) – klasifikační a validační principy v úvodu.
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) – heslo glosáře o systému kódů.
+- [Knihovna technik](@/kompendium/techniques/_index.md) – články, které schéma třídí.
+
+**Externí taxonomie**
+
+- [BITE model](@/glossary/bite-model.md) – Hassanův rámec, s nímž se schéma porovnává.
+- [Thought reform](@/glossary/thought-reform.md) – Liftonova kritéria myšlenkové reformy.
 
 ---
 
-## Connect & Contribute
+## Kontakt a příspěvky
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Techniques](@/kompendium/techniques/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Techniky](@/kompendium/techniques/_index.md) | [Glosář](@/glossary/_index.md) | [Filozofie](@/philosophy/_index.md) | [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -1,108 +1,198 @@
 +++
-title = "EA-7.1.1 Foucault: Power/Knowledge"
-description = "Teoretická reflexe — Foucault: Power/Knowledge a vztah k EA."
+title = "EA-7.1.1 Foucault: moc a vědění"
+description = "Teoretická reflexe Foucaultova pojmu moc–vědění: kdo určuje, co platí za pravdivé, tvaruje i prostor možného poznání. Jak rámec pomáhá rozpoznat a bránit EA."
 weight = 711
+insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
+tags = ["kompendium", "techniques", "ea-7-1", "teoreticke", "philosophy", "kriticka-teorie"]
 categories = ["academic", "theory"]
 
 [extra]
-related_terms = ["ea-6-5-8-day-program-EA", "ea-6-5-9-residential-program-EA", "ea-7-1-10-merleau-ponty-embodiment", "ea-7-1-2-foucault-discipline"]
+related_terms = ["ea-7-1-2-foucault-discipline", "ea-7-1-3-adorno-instrumental-reason", "ea-2-4-falesny-konsensus", "power-knowledge", "diskursivni-formace", "panopticism"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.1.1"
 ea_category = "7. Teoretické reflexe"
-ea_subcategory = "7.1 Continental filozofie"
+ea_subcategory = "7.1 Kontinentální filozofie"
 section_icon = "🪐"
 toc = true
 access_level = "L1"
 parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 +++
 
-# EA-7.1.1 Foucault: Power/Knowledge
-
-> *Teoretická reflexe v rámci 7.1 Continental filozofie.*
-
-## Identifikace
+# EA-7.1.1 Foucault: moc a vědění
 
 | Pole | Hodnota |
-|---|---|
-| **Kód EA** | EA-7.1.1 |
-| **Tradice** | Continental filozofie |
-| **Autor / škola** | Foucault |
-| **Hlavní teze** | Vedení není neutrální zrcadlo reality, nýbrž efekt mocenských vztahů, které samy produkují to, co lze vůbec považovat za pravdivé. |
-| **Status v EA** | Teoretická reflexe — interpretační rámec, ne přímá technika |
-| **Cross-reference** | viz sekce *Mapování na EA techniky* |
+|------|---------|
+| **Kód EA** | `EA-7.1.1` |
+| **Tradice** | Kontinentální filozofie, poststrukturalismus |
+| **Autor** | Michel Foucault (1926–1984) |
+| **Hlavní teze** | Vědění a moc se vzájemně podmiňují: moc vytváří, co lze považovat za pravdivé, a vědění moc ospravedlňuje a rozšiřuje. |
+| **Status v EA** | Teoretická reflexe – interpretační rámec, ne technika |
+| **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |
 
-## Kontext autora
+## Vymezení
 
-Foucault patří do tradice **Continental filozofie**. Jeho/její pozice je relevantní pro EA tím, že nabízí pojmový aparát, jímž lze popsat manipulaci, asymetrii, framing a epistemickou dynamiku — tedy přesně to, co EA mapuje jako útočné a obranné techniky.
+Pojem *moc–vědění* (*pouvoir/savoir*) shrnuje Foucaultovu tezi, že vědění není neutrálním
+zrcadlem skutečnosti oddělitelným od moci, ani pouhým nástrojem, který moc používá.
+Moc a vědění se vzájemně vytvářejí: instituce, praktiky a diskurzy určují, co se může
+stát předmětem vědění, kdo smí mluvit s autoritou a podle jakých pravidel se rozhoduje
+o pravdě; vědění zpětně tyto instituce a praktiky zdůvodňuje. Foucault (1975) to
+formuloval tak, že neexistuje mocenský vztah bez korelativní konstituce pole vědění,
+ani vědění, které by zároveň nepředpokládalo a nevytvářelo mocenské vztahy. Heslo
+glosáře [moc–vědění](@/glossary/power-knowledge.md) podává stručnou definici.
 
-Místo, aby EA tato pozice technicky obohacovala (jako kapitoly 1–5), slouží jako **interpretační vrstva**: pomáhá odpovědět na otázku *proč* daná technika funguje, *kdo* jí těží a *za jakých podmínek* jí lze odolat.
+Pro Kompendium je tento rámec klíčový, protože popisuje rovinu, na níž působí řada
+technik: nikoli jednotlivá lež, ale **uspořádání, které určuje, co se vůbec může jevit
+jako pravda**. Techniky podkategorie 2.4 (institucionální zachycení) nebo
+[falešný konsensus](@/kompendium/techniques/ea-2-4-falesny-konsensus.md) jsou přesně
+takovými zásahy do „režimu pravdy“.
 
-## Klíčové koncepty
+## Původ a kontext
 
-1. **Power/Knowledge (pouvoir/savoir)**
-2. **Dispositif (uspořádání diskurzu, institucí, praktik)**
-3. **Genealogie (historická archeologie pravdy)**
+Foucault rozvíjel pojem v několika fázích. V *Archeologii vědění* (1969) popsal
+[diskurzivní formace](@/glossary/diskursivni-formace.md) – pravidla, podle nichž v určité
+době vznikají výpovědi, předměty a pojmy určitého vědění. V *Dohlížet a trestat* (1975)
+a v prvním svazku *Dějin sexuality* (1976) přešel k analýze moci, která není jen
+represivní, ale **produktivní**: vytváří subjekty, kategorie a normy. V rozhovoru
+„Pravda a moc“ (1977, přeloženo v souboru *Power/Knowledge*, 1980) zavedl pojem
+**režimu pravdy**: každá společnost má své typy diskurzů, které přijímá jako pravdivé,
+mechanismy, jimiž rozlišuje pravdivé a nepravdivé výpovědi, a postavení těch, kdo mají
+za úkol říkat, co platí za pravdivé. Foucault patří k poststrukturalistické linii
+francouzského myšlení, ale vlastní zařazení do škol odmítal.
 
-Tyto pojmy nejsou v EA použity přímo jako názvy technik, ale tvoří **rastr**, jímž lze techniky kapitol 1–6 lépe číst — a v některých případech i odhalit, že to, co vypadá jako jediná technika, je ve skutečnosti složený dispozitiv.
+## Co rámec zviditelňuje
 
-## Vztah k EA
+Foucaultův rámec pomáhá Kompendiu popsat tři úrovně, které by jinak zůstaly skryté.
+První úrovní je **kdo smí mluvit**. Techniky [útoku na kvalifikaci](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md)
+a [institucionálního vyloučení](@/kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md)
+nezpochybňují obsah výpovědi, ale postavení mluvčího v režimu pravdy. Fricker (2007)
+tento postřeh rozvinula v pojmu [testimoniální nespravedlnosti](@/glossary/testimonialni-nespravedlnost.md):
+mluvčímu je upřena důvěryhodnost kvůli tomu, kým je.
 
-Pozice **Foucault** vnáší do EA tři operativní příspěvky:
+Druhou úrovní jsou **kategorie**. Moc nevládne jen tím, co zakazuje, ale tím, jaké
+kategorie nabízí: „normální“ a „deviantní“, „odborník“ a „laik“, „věda“ a „[pseudověda](@/glossary/pseudoscience.md)“.
+Kdo kategorie ovládá, rozhoduje předem o výsledku sporu; v Kompendiu tomu odpovídají
+techniky [vynucování oborových hranic](@/kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md)
+a [zachycení kurikula](@/kompendium/techniques/ea-2-4-9-curriculum-capture.md).
 
-- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *„něco se tu děje, ale nevíme co“*.
-- **Hloubka rámce**: ukazuje, že manipulace často není individuální akt, nýbrž **strukturální efekt** vyšší vrstvy (diskurzní, institucionální, biologické).
-- **Etická pojistka**: brání tomu, aby EA degenerovala v techniku oboustranné aplikace bez reflexe — tj. aby se z obranného nástroje stala nová manipulační šablona.
+Třetí úrovní je **produktivita moci**. Manipulace v uzavřených skupinách nepůsobí jen
+zákazem, ale tím, že vytváří nové subjekty – člověka, který se sám hlídá, sám se vyznává,
+sám sebe měří. Foucaultovy pozdní analýzy „technologií sebe“ vysvětlují, proč techniky
+podkategorie 2.5 (sebeindukovaná [delegitimizace](@/glossary/delegitimizace.md)) fungují bez vnějšího donucení.
 
-## Mapování na EA techniky
+## Pohled zevnitř
 
-Pozice **Foucault** se relevantně dotýká těchto oblastí EA:
+Člověk žijící uvnitř režimu pravdy ho obvykle nevidí jako moc, ale jako samozřejmost:
+„tak to prostě je“. Teprve zkušenost jiného režimu – odchod ze skupiny, změna oboru,
+emigrace – ukáže, že pravidla, podle nichž se rozhodovalo o pravdě, byla historicky
+a institucionálně podmíněna. Tato zkušenost bývá dezorientující: s režimem pravdy se
+rozpadne i pocit, že člověk věděl, co je skutečné. V kazuistikách se proto po odchodu
+objevuje [epistemická bezdomovost](@/glossary/epistemicka-bezdomovost.md).
 
-- framing pravdy, gatekeeping informací, normalizace narativu
-- vztah ke **kapitole 6 (obrana a kalibrace)**: pomáhá rozlišit obranu strukturální od obrany pouze taktické.
-- vztah ke **kapitole 3 (manipulační vzorce)**: dodává jazyk, jímž lze pojmenovat skryté předpoklady techniky.
+## Detekční markery z hlediska rámce
 
-Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [techniques index](@/kompendium/techniques/_index.md).
+Rámec moc–vědění nabízí pozorovateli otázky spíš než znaky. Kdo v daném prostředí určuje,
+co je pravdivé, a jakým postupem? Které kategorie jsou k dispozici a kdo je zavedl?
+Kdo je z rozhodování o pravdě vyloučen a jak se to zdůvodňuje? Jsou pravidla ověřování
+stejná pro všechny, nebo se mění podle toho, kdo mluví? Prostředí, v němž jedna osoba
+nebo skupina rozhoduje o kategoriích, mluvčích i pravidlech zároveň, odpovídá tomu, co
+Kompendium popisuje jako uzavřený režim pravdy, a je rizikové bez ohledu na obsah doktríny.
 
-## Limitace
+## Rizikové kontexty
 
-- **Není přímo testovatelná**: na rozdíl od EA-1 až EA-5 nelze tuto pozici jednoduše operacionalizovat ve scoring engine — slouží jako interpretační rámec, ne jako prediktor.
-- **Riziko nadužití**: aplikovaná všude, ztrácí ostří; pozice je nosná tam, kde **standardní psychologický nebo logický rozbor selává**.
-- **Spor o překlad**: některé pojmy (např. *[différance](@/glossary/differance.md)*, *Dasein*, *phi*) odporují čistému přepisu do operativního jazyka platformy a musí být užity s vědomím vlastní hranice.
-- **Žádná pozice není totální**: tato reflexe je jednou z mnoha — viz sister 7.1.* a sousední podkapitoly 7.1, 7.2, 7.3.
+Rámec je nejužitečnější tam, kde se rozhodování o pravdě soustřeďuje do jednoho místa:
+v totálních institucích, které Goffman (1961) popsal jako prostředí, kde se celý život
+odehrává pod jednou autoritou; v uzavřených skupinách s vlastní doktrínou; v oborech
+ovládaných jednou školou; v online komunitách, kde moderátoři určují, co je přípustné
+říct. Ve všech těchto prostředích se moc a vědění slévají v jednom aktérovi, který
+zároveň rozhoduje o kategoriích, o mluvčích i o sankcích.
 
-## Cross-linky
+## Odlišení a meze užití
 
-### Sesterské reflexe (7.1.*)
-- [EA-7.1.2 Foucault: Discipline & Punish](@/kompendium/techniques/ea-7-1-2-foucault-discipline.md)
-- [EA-7.1.3 Adorno: Instrumentální rozum](@/kompendium/techniques/ea-7-1-3-adorno-instrumental-reason.md)
-- [EA-7.1.4 Habermas: Komunikativní jednání](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md)
-- [EA-7.1.5 Arendtová: Banalita zla](@/kompendium/techniques/ea-7-1-5-arendt-banality-evil.md)
-- [EA-7.1.6 Sloterdijk: Sféry](@/kompendium/techniques/ea-7-1-6-sloterdijk-spheres.md)
-- [EA-7.1.7 Deleuze & Guattari: Rhizome](@/kompendium/techniques/ea-7-1-7-deleuze-rhizome.md)
+Foucaultův rámec bývá zjednodušen do teze, že „pravda je jen moc“. Takové čtení je
+nepřesné a pro Kompendium nebezpečné, protože by vedlo k [radikálnímu relativismu](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md),
+který sám odstraňuje obranu proti manipulaci. Foucault analyzoval podmínky, za nichž
+se pravda ustavuje, nikoli to, že by rozdíl mezi pravdou a omylem neexistoval.
+Habermas (1985) mu vytýkal, že jeho teorie nemá normativní měřítko, podle něhož by
+mohla kritizovat moc; Fraser (1981) se ptala, proč by se měl člověk moci bránit, pokud
+každý režim je jen jiný režim. Kompendium tuto kritiku přijímá: Foucault slouží jako
+nástroj analýzy, normativní měřítko dodávají jiné rámce (viz
+[EA-7.1.4 Habermas](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md)).
 
-### Související
-- [Kapitola 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Kapitola 06: Obrana a kalibrace](@/kompendium/06-obrana/_index.md)
-- [Kapitola 03: Manipulační vzorce](@/kompendium/03-manipulacni-vzorce/_index.md)
-- [Glosář: Falsifikace](@/kompendium/glossary-bridges/falsifikace.md)
-- [Glosář: Predictive processing](@/glossary/predictive-processing.md)
-- [Glosář: Power-knowledge](@/glossary/power-knowledge.md)
-- [Glosář: Lakatos research program](@/glossary/lakatos.md)
-- {{ <cross_link path="/decisions/" text="Platforma: Decision Engine" /> }}
-- {{ <cross_link path="/investigate/" text="Platforma: Investigate" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="Platforma: OSINT Toolbox" /> }}
+Rámec také nemá sloužit k odmítnutí každé autority. Lékař, soudce nebo vědec mají
+oprávněnou epistemickou autoritu, pokud je vázána na ověřitelné postupy a kontrolu;
+rizikové není, že autorita existuje, ale že se vymaní z kontroly.
 
----
+## Klinický a právní rámec
 
-## Connect
+Klinicky upozorňuje Foucault na mocenský rozměr samotné diagnostiky. Kniha *Dějiny
+šílenství* (1961) ukázala, jak se kategorie duševní nemoci historicky proměňovaly.
+Pro kliniky z toho plyne opatrnost: diagnóza je vždy i aktem moci a v kontextu EA může
+být zneužita (patologizace kritiků). Kompendium tuto výhradu rozvádí v kritických
+perspektivách [medikalizace](@/kompendium/critical-perspectives/1-medicalization-critique.md)
+a [EA jako mocenského nástroje](@/kompendium/critical-perspectives/18-EA-as-power-tool.md).
+V právní rovině je relevantní otázka, kdo je uznán jako věrohodný svědek a znalec;
+srov. [posouzení věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md).
 
-Chcete tuto reflexi aplikovat na konkrétní případ?
+## Obrana a zotavení
 
-- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — [Decision Engine](@/glossary/decision-engine.md) s podporou epistemické kalibrace.
-- [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
-- [Glosář pojmů](@/glossary/_index.md) — definice klíčových termínů napříč EA.
+Obranný přínos rámce spočívá v tom, že umožňuje **vidět pravidla hry**. Kdo rozpozná,
+kdo určuje kategorie a mluvčí, může se ptát po jejich legitimitě a hledat jiná místa
+ověření. Prakticky to znamená udržovat [pluralitu paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md),
+[triangulovat zdroje](@/kompendium/self-defense-guides/3-source-triangulation.md)
+a v institucích trvat na [sledovatelnosti rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md).
+Pro zotavení po odchodu z uzavřeného režimu pravdy je užitečný
+[hermeneutický reset](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md):
+obnovení schopnosti klást otázky po původu pravidel bez ztráty schopnosti rozlišovat.
 
-*Část kompendia [Epistemic Arsenal](@/kompendium/_index.md) — kapitola 7. Teoretické reflexe, podkapitola 7.1 Continental filozofie.*
+## Případy, které rámec osvětluje
+
+[Stalinské monstrprocesy](@/kompendium/historical-cases/1-stalinist-show-trials.md)
+ukazují režim pravdy, v němž přiznání obžalovaného bylo „pravdou“ bez ohledu na fakta;
+[případ Lysenko](@/kompendium/historical-cases/31-lysenko.md) spojení politické moci
+s rozhodováním o vědecké pravdě; [ujgurská převýchova](@/kompendium/historical-cases/10-uyghur-reeducation.md)
+produktivní moc, která vytváří nové subjekty (interpretace knihy podle dostupných pramenů).
+
+## Poznámka ke kódu
+
+Kód `EA-7.1.1` patří do řady teoretických reflexí v katalogu technik a není totožný
+s číslováním oddílů kapitoly 7: tam Foucaulta spolu s Adornem, Sloterdijkem
+a Habermasem pojednává oddíl [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md).
+
+## Literatura
+
+- Goffman, E. (1961). *Asylums*.
+- Foucault, M. (1961). *Folie et déraison: Histoire de la folie à l'âge classique*.
+- Foucault, M. (1969). *L'Archéologie du savoir*.
+- Foucault, M. (1975). *Surveiller et punir: Naissance de la prison*.
+- Foucault, M. (1976). *Histoire de la sexualité I: La volonté de savoir*.
+- Foucault, M. (1980). *Power/Knowledge: Selected Interviews and Other Writings 1972–1977*
+  (ed. C. Gordon).
+- Fraser, N. (1981). Foucault on Modern Power: Empirical Insights and Normative Confusions.
+  *Praxis International*.
+- Habermas, J. (1985). *Der philosophische Diskurs der Moderne*.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*.
+
+## Související
+
+**Sesterské reflexe a kapitoly**
+
+- [EA-7.1.2 Foucault: disciplína](@/kompendium/techniques/ea-7-1-2-foucault-discipline.md) –
+  dozor a normalizace.
+- [EA-7.1.4 Habermas: komunikativní jednání](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md)
+  – normativní protiváha.
+- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md) –
+  souhrnné pojednání.
+
+**Pojmy**
+
+- [Glosář: moc–vědění](@/glossary/power-knowledge.md) – definice.
+- [Glosář: diskurzivní formace](@/glossary/diskursivni-formace.md) – pravidla výpovědí.
+
+**Techniky, které rámec vysvětluje**
+
+- [EA-2.4 Falešný konsensus](@/kompendium/techniques/ea-2-4-falesny-konsensus.md) – zásah
+  do režimu pravdy.
+- [EA-2.1.3 Útok na kvalifikaci](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) –
+  kdo smí mluvit.

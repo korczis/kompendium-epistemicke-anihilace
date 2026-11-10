@@ -1,14 +1,14 @@
 +++
 title = "EA-9.5.3 Emotional Meme Engineering"
-description = "Současná digitální EA — emotional meme engineering."
+description = "Vzorec memů laděných na co nejsilnější emoční reakci – rozhořčení, strach, pocit potvrzené identity – testováním variant na různých skupinách publika."
 weight = 953
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-5-10-meme-attribution-laundering", "ea-9-5-2-symbolic-hijacking", "ea-9-5-4-meme-network-amplification", "ea-9-5-5-counter-meme-suppression"]
+related_terms = ["ea-9-5-7-narrative-meme-fusion", "ea-9-5-4-meme-network-amplification", "ea-9-3-2-engagement-optimization-EA", "ea-1-5-1-emocni-podbarveni"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.5.3"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,102 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Inženýrství memů s precizně cíleným emocionálním účinkem (rozhořčení, sentiment, identity-validation) — psychometric optimization.
+*Emotional meme engineering* je tvorba memů, které jsou cíleně laděny na vyvolání určité emoce u konkrétní skupiny: rozhořčení, strachu, výsměchu, pocitu potvrzené identity („my jsme ti správní“). Varianty se zkoušejí na různých segmentech publika a ty, které vyvolají nejsilnější reakci, se šíří dál. Mem se tak stává nástrojem emoční mobilizace, nikoli sdělením.
 
-V kontextu Prismatic doktríny je Emotional Meme Engineering klasifikováno jako **L1** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.5.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník A/B-testuje memes na demographic segmentech, měří emotional response (engagement signals), iteruje k maximalizaci požadované emoce.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Memy jsou ideálním nosičem emocí: jsou krátké, vizuální, snadno sdílitelné a nevyžadují argument. Emoce – zvláště morální rozhořčení a strach – zvyšují pravděpodobnost sdílení a zároveň oslabují kritické zhodnocení. Testování variant (dříve intuitivní, dnes podporované daty o reakcích) umožňuje vybrat ty, které nejlépe zasáhnou. Výsledkem je obsah, jehož úspěch nezávisí na pravdivosti, ale na emoční účinnosti; je to memetická podoba [EA-9.3.2 Engagement Optimization](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md). Opakované vystavení takovému obsahu posouvá emoční vnímání celé skupiny – protivník se stává hrozbou a hrozba osobní urážkou.
 
 ## 4. Detekční markery
 
-Affect detection on engagement, emotional valence scoring, demographic targeting forenzika.
+- Mem vyvolá okamžitou silnou emoci, ale při klidném čtení neobsahuje žádné ověřitelné tvrzení.
+- Existuje více variant téhož memu laděných na různé skupiny (rodiče, senioři, mladí muži…).
+- Mem zobrazuje protivníka jako zlovolného nebo směšného, nikdy jako člověka s důvody.
+- Výzva ke sdílení je součástí obsahu („sdílej, pokud souhlasíš“).
+- Stejný zdroj produkuje memy, které rozdmýchávají obě strany konfliktu.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Emočně silné umění a satira*: emoce slouží výpovědi o skutečnosti, autor za ni ručí. *Osvětová kampaň*: může cílit na emoce (např. bezpečnost silničního provozu), ale je transparentní a opírá se o fakta. *[EA-9.5.7 Narrative Meme Fusion](@/kompendium/techniques/ea-9-5-7-narrative-meme-fusion.md)*: mem nesoucí celý příběh; emoční inženýrství se soustředí na účinek, ne na příběh.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Dlouhodobé vystavení emočně laděným memům se spojuje s rostoucí polarizací a nepřátelstvím mezi skupinami. Pro jednotlivce může znamenat chronický stres a pocit ohrožení. Regulačně se týká hlavně politické reklamy a cílení (pravidla transparentnosti, ochrana osobních údajů); běžný emočně laděný obsah zůstává legální, a obrana je proto hlavně na straně publika a vzdělávání.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Uživatel*: všimnout si vlastní emoce a zeptat se, kdo z ní těží; před sdílením počkat ([Emoční odstup](@/kompendium/self-defense-guides/15-emotional-distancing.md)). *Rodiny a školy*: mluvit o tom, jak memy pracují s emocemi, bez zesměšňování těch, kdo je sdílejí. *Platformy*: nezesilovat obsah jen podle intenzity reakcí. *Komunity*: pěstovat normy, v nichž se protivník popisuje jako člověk.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Před referendem se šíří série memů o tom, že „oni“ chtějí vzít dětem budoucnost. Varianta pro rodiče ukazuje plačící dítě, varianta pro seniory prázdnou lednici, varianta pro mladé zavřenou továrnu. Žádná neobsahuje konkrétní tvrzení o návrhu, o němž se hlasuje. Učitelka občanské výchovy memy rozebere se studenty: ti zjistí, že všechny pocházejí z téže stránky, a sami napíšou, co návrh skutečně obsahuje.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Emoce jsou legitimní součástí politiky a veřejné debaty; problémem není emoce, ale její oddělení od pravdivého obsahu a skryté cílení. Otevřené zůstává, jak měřit dlouhodobé účinky emočně laděného obsahu na postoje a vztahy mezi skupinami.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+## 10. Pohled zevnitř a práce s postiženým
 
-**Layer 4 — Accountability:**
+Zevnitř se emočně laděné memy prožívají jako vyjádření toho, co člověk cítí – „konečně to někdo řekl“. Kritika zvenčí působí jako útok na tyto city. Terapeut nebo blízká osoba pomáhá víc, když nejprve uzná emoci a teprve potom se ptá, odkud pochází a čím je živena. U lidí, kteří jsou dlouhodobě v rozhořčení, je součástí zotavení i obnova jiných zdrojů emocí – vztahů, zájmů, odpočinku.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+## 11. Vztah k ostatním kategoriím EA
 
-## 6. Vztah k jiným EA
+V kapitole 1 popisuje tentýž mechanismus [EA-1.5.1 Emoční podbarvení](@/kompendium/techniques/ea-1-5-1-emocni-podbarveni.md) a [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md); memetická podoba přidává rozsah a testování. Teoretický rámec dodává [Damasio: Somatic Marker](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md).
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 12. Otázky pro rozhovor a šetření
 
-- **EA-1.* (Vědomá kontrola informací)** — Emotional Meme Engineering představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+- Co jste cítili, když jste mem viděli poprvé?
+- Co mem tvrdí – a dá se to ověřit?
+- Viděli jste podobné memy laděné na jiné skupiny lidí?
+- Kdo mem vytvořil a co by z vaší reakce měl?
+- Jak byste o protivníkovi mluvili, kdybyste ho znali osobně?
 
-## 7. Vztah k Prismatic platformě
+## 13. Postup pro profesionály
 
-Prismatic Platform implementuje detekci a neutralizaci Emotional Meme Engineering přes následující komponenty:
+1. **Analytik:** porovnat varianty memu a cílové skupiny; doložit, zda jde o koordinovanou sérii.
+2. **Novinář:** psát o mechanismu, ne o memu samotném; neopakovat jeho emoční náboj v titulku.
+3. **Pedagog:** zařadit rozbor emočně laděného obsahu do výuky mediální výchovy.
+4. **Terapeut:** u klientů s chronickým rozhořčením nebo úzkostí z „hrozeb“ zjišťovat informační dietu a pracovat s regulací emocí.
+5. **Moderátor komunity:** omezovat obsah, který dehumanizuje skupiny, i když je podán jako humor.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 14. Prevence a odolnost
 
-**Doctrine compliance:**
+Odolnost stojí na emoční gramotnosti – schopnosti všimnout si vlastní reakce a oddělit ji od úsudku – a na osobním kontaktu s lidmi z jiných skupin, který brání jejich dehumanizaci. Pomáhá vědomá informační dieta ([Informační dieta](@/kompendium/self-defense-guides/33-information-diet.md)) a pravidelný odstup od sociálních sítí v obdobích zvýšeného napětí, například před volbami.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## Odborný kontext
 
-## 8. Cross-linky
+Brady et al. (2017) na velkém souboru příspěvků o politicky sporných tématech ukázali, že každý morálně-emoční výraz v textu zvyšoval pravděpodobnost sdílení, a to hlavně uvnitř vlastní ideologické skupiny. Emoční obsah tedy nejen víc cestuje, ale cestuje „domů“ – posiluje skupinovou identitu a hranici vůči druhým. Vosoughi, Roy a Aral (2018) doplnili, že nepravdivé zprávy vyvolávaly ve větší míře překvapení a znechucení, což přispívalo k jejich rychlejšímu šíření.
 
-**Související EA techniky:**
+Teorie sociální identity vysvětluje, proč je obsah, který staví „nás“ proti „nim“, tak účinný: příslušnost ke skupině je součástí sebepojetí a ohrožení skupiny se prožívá jako ohrožení vlastní (Tajfel a Turner 1979). Haidt (2012) popisuje, jak morální intuice předcházejí úsudku a jak se argumenty dodatečně hledají k tomu, co člověk už cítí. Emočně laděné memy pracují právě na úrovni intuice, a proto je proti nim argumentace slabá, pokud nejprve neuzná emoci.
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.5.4 Meme Network Amplification](@/kompendium/techniques/ea-9-5-4-meme-network-amplification.md)
-- [EA-9.5.5 Counter-Meme Suppression](@/kompendium/techniques/ea-9-5-5-counter-meme-suppression.md)
+## Souvislosti pro praxi
 
-**Doktrinální a infrastructure odkazy:**
+Terapeuti a poradci se s účinky emočně laděných memů setkávají nepřímo – jako s chronickou podrážděností, úzkostí nebo konflikty v rodině kolem politiky. Při práci s klienty je užitečné zjistit jejich informační dietu a pomoci jim všímat si, jak obsah působí na jejich tělo a náladu. Pro školy je vhodné vést mediální výchovu tak, aby učila rozpoznávat emoce v obsahu bez moralizování, a nabízet žákům zkušenost s lidmi z jiných skupin, která brání jejich dehumanizaci.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Literatura
 
----
+- Brady, W. J., Wills, J. A., Jost, J. T., Tucker, J. A., & Van Bavel, J. J. (2017). Emotion shapes the diffusion of moralized content in social networks. *PNAS*.
+- Haidt, J. (2012). *The Righteous Mind*. Pantheon Books.
+- Tajfel, H., & Turner, J. C. (1979). An integrative theory of intergroup conflict. In W. G. Austin & S. Worchel (Eds.), *The Social Psychology of Intergroup Relations*. Brooks/Cole.
+- Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science*.
 
-## Connect & Contribute
+## Související
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+**Sourozenecké techniky**
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- [EA-9.5.7 Narrative Meme Fusion](@/kompendium/techniques/ea-9-5-7-narrative-meme-fusion.md) – mem nesoucí celý příběh.
+- [EA-9.5.4 Meme Network Amplification](@/kompendium/techniques/ea-9-5-4-meme-network-amplification.md) – síť, která memy šíří.
+- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md) – optimalizace na reakci.
 
----
+**Kapitola 1 a teorie**
 
-*EA-9.5.3 | Subkategorie 9.5 Memetická válka | Prismatic Compendium | Version 18.4.0*
+- [EA-1.5.1 Emoční podbarvení](@/kompendium/techniques/ea-1-5-1-emocni-podbarveni.md) – emoce jako nástroj úsudku.
+- [Damasio: Somatic Marker](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md) – vazba emoce a rozhodování.
+
+**Detekce a obrana**
+
+- [Detekční signatura: Emocionální modulace](@/kompendium/detection-signatures/16-behavioral-emotional-modulation.md) – řízení emocí.
+- [Sebe-obrana: Emoční odstup](@/kompendium/self-defense-guides/15-emotional-distancing.md) – odstup před sdílením.
+- [Sebe-obrana: Informační dieta](@/kompendium/self-defense-guides/33-information-diet.md) – vědomý výběr obsahu.

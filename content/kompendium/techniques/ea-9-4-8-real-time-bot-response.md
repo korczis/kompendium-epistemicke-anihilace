@@ -1,14 +1,14 @@
 +++
 title = "EA-9.4.8 Real-Time Bot Response"
-description = "Současná digitální EA — real-time bot response."
+description = "Vzorec, v němž automatizované účty reagují na událost nebo příspěvek během sekund připravenými tezemi a předem obsadí rámec, v němž se o ní bude mluvit."
 weight = 948
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-4-6-mass-comment-coordination", "ea-9-4-7-cross-platform-bot-cascade", "ea-9-4-9-bot-narrative-injection", "ea-9-5-1-meme-cascade-injection"]
+related_terms = ["ea-9-4-9-bot-narrative-injection", "ea-9-4-4-AI-bot-personhood", "ea-9-4-10-bot-detection-evasion", "ea-9-5-6-frame-war-coordination"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.4.8"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,115 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Boti reagující v reálném čase na události (news drop, target's post) s pre-computed talking points — sekundy po triggeru.
+*Real-time bot response* je okamžitá reakce automatizovaných účtů na událost – zveřejnění zprávy, příspěvek sledované osoby, výrok v přímém přenosu – připravenými tezemi, které se objeví během sekund až minut. Cílem je obsadit první reakce a tím rámec, v němž o události budou uvažovat lidé, kteří přijdou později.
 
-V kontextu Prismatic doktríny je Real-Time Bot Response klasifikováno jako **L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.4.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Bot framework monitoruje target accounts/keywords; při triggeru spouští response-pipeline (LLM-generation z templatů + posting přes N účtů) v <60s.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+První reakce na událost mají nepoměrný vliv: v době, kdy chybějí informace, nabízejí výklad, a pozdější fakta se k nim musí vztahovat. Automatizované účty sledující klíčová slova nebo konkrétní osoby mohou reagovat rychleji než jakýkoli člověk, a s jazykovými modely i v podobě, která na situaci zdánlivě reaguje. Vzniká iluze, že „lidé okamžitě reagovali tak a tak“. Vzorec úzce souvisí s [EA-9.5.6 Frame War Coordination](@/kompendium/techniques/ea-9-5-6-frame-war-coordination.md), kde jde o soutěž o rámec události.
 
 ## 4. Detekční markery
 
-Response-time anomaly detection, content template fingerprinting, monitoring-target inference, bot-trigger forensics.
+- Reakce se objeví neuvěřitelně rychle, dřív než by člověk stihl obsah přečíst nebo zhlédnout.
+- Reakce používají shodné teze a formulace, které nereagují na konkrétní obsah, jen na klíčová slova.
+- Tytéž účty reagují rychle na mnoho různých událostí s podobným rámcem.
+- Reakce jsou připravené pro obě možnosti vývoje (například k výsledku hlasování).
+- Účty nejsou aktivní mezi událostmi.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Rychlí lidští komentátoři*: novináři a aktivní uživatelé reagují rychle, ale vlastními slovy a s odkazem na obsah. *Oficiální automatická oznámení*: přiznaná automatizace (např. upozornění úřadu). *[EA-9.4.9 Bot Narrative Injection](@/kompendium/techniques/ea-9-4-9-bot-narrative-injection.md)*: vložení rámce do diskuse pod konkrétním příspěvkem; real-time reakce je obecnější a rychlejší.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Vzorec ovlivňuje první dojem z událostí – voleb, krizí, projevů – a tím i to, jak o nich informují média, která sledují reakce na sítích. Pro lidi, kteří se k tématu dostanou později, je rámec už „hotový“. Rámcem obrany je opatrnost médií při citování reakcí ze sítí a pravidla platforem pro automatizované účty.
 
-## 5. Neutralizační strategie
+Pro politiky, vědce a mluvčí, kteří vystupují v přímých přenosech, je užitečné vědět, že okamžitá vlna negativních reakcí může být automatizovaná, a nehodnotit podle ní své vystoupení. Pro média je důležité oddělit zpravodajství o události od zpravodajství o reakcích na ni.
 
-**Layer 1 — Detection:**
+## 7. Obrana a zotavení
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+*Uživatel*: první reakce nejsou názor veřejnosti; počkat na informace ([Časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md)). *Novináři*: necitovat první reakce ze sítí jako „reakci lidí“ bez ověření autenticity. *Instituce*: připravit si vlastní srozumitelná první sdělení pro předvídatelné události. *Platformy*: detekovat nepřirozeně rychlé reakce a označovat automatizaci.
 
-**Layer 2 — Containment:**
+## 8. Příklad (anonymizovaný kompozit)
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+Během přímého přenosu tiskové konference ministra se pod přenosem během desítek sekund po každém jeho výroku objevují komentáře s identickými hesly o „lžích“. Zpravodajský web ve shrnutí píše, že „sítě reagovaly bouřlivě“. Analýza ukáže, že komentáře přišly od několika stovek účtů, které reagovaly na klíčová slova, a to i na výroky, jež s hesly nesouvisely. Redakce svůj text opraví a vysvětlí, jak k chybě došlo.
 
-**Layer 3 — Resilience:**
+## 9. Meze a otevřené otázky
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Rychlost sama o sobě není důkaz automatizace; aktivní lidé reagují rychle. Rozhoduje kombinace rychlosti, šablonovitosti a chování účtů. Otevřenou otázkou je, jak média mají pracovat s reakcemi ze sítí, když jejich autenticitu nelze rychle ověřit.
 
-**Layer 4 — Accountability:**
+Kniha neuvádí čísla o podílu automatizovaných reakcí na události, protože se liší podle platformy a tématu a nelze je spolehlivě ověřit.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Otevřenou otázkou je i to, jak mají média pracovat s reakcemi ze sítí v reálném čase, když jejich autenticitu nelze rychle ověřit, a zda by neměla tuto praxi omezit.
 
-## 6. Vztah k jiným EA
+## 10. Pohled zevnitř a práce s postiženým
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Mluvčí, politik nebo vědec, který vidí okamžitou vlnu negativních reakcí, může zpochybnit sám sebe a změnit vystupování. Pomáhá vědět, že první vlna nemusí odrážet skutečné publikum, a mít k dispozici analýzu reakcí, ne jen jejich počet.
 
-- **EA-1.* (Vědomá kontrola informací)** — Real-Time Bot Response představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Pro diváky, kteří první vlnu reakcí vnímali jako hlas veřejnosti, je užitečné vědět, jak snadno ji lze vyrobit.
 
-## 7. Vztah k Prismatic platformě
+Další otázkou je, jak se vzorec změní, až budou okamžité reakce generovat jazykové modely přizpůsobené obsahu.
 
-Prismatic Platform implementuje detekci a neutralizaci Real-Time Bot Response přes následující komponenty:
+Kniha ji nechává otevřenou.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 11. Vztah k ostatním kategoriím EA
 
-**Doctrine compliance:**
+Vzorec je technickou podobou toho, co kniha v kapitole 1 popisuje jako [strategickou reinterpretaci](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md): události se okamžitě přidělí výklad, který pak určuje, jak se čtou fakta. Souvisí s [EA-9.4.7](@/kompendium/techniques/ea-9-4-7-cross-platform-bot-cascade.md) a [EA-9.5.6](@/kompendium/techniques/ea-9-5-6-frame-war-coordination.md).
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 12. Postup při posuzování prvních reakcí
 
-## 8. Cross-linky
+1. **Zaznamenat časy** reakcí vůči okamžiku události.
+2. **Porovnat obsah** reakcí s tím, co bylo skutečně řečeno.
+3. **Prověřit účty** – aktivitu mezi událostmi, propojení.
+4. **Necitovat první reakce** jako hlas veřejnosti bez ověření.
+5. **Opravit shrnutí**, pokud se ukáže, že reakce byly automatizované.
 
-**Související EA techniky:**
+## 13. Prevence a odolnost
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.4.3 Sock Puppet Network](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md)
-- [EA-9.4.4 AI Bot Personhood](@/kompendium/techniques/ea-9-4-4-AI-bot-personhood.md)
+Prevence stojí na trpělivosti publika a médií – první reakce nejsou názorem veřejnosti – a na institucích, které mají připravená vlastní první sdělení pro předvídatelné události. Platformy mohou označovat automatizované účty a zpomalovat nepřirozeně rychlé reakce.
 
-**Doktrinální a infrastructure odkazy:**
+Pro diváky přímých přenosů je užitečné vědět, že první komentáře nemusejí pocházet od lidí, kteří přenos skutečně sledují, a počkat s úsudkem.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## 14. Otázky pro rozhovor a šetření
 
----
+- Za jak dlouho po události se reakce objevily?
+- Odpovídají reakce obsahu, nebo jen klíčovým slovům?
+- Jsou účty aktivní i mimo podobné události?
+- Kdo první reakce dál zesílil?
+- Jak se změnil obraz události po několika hodinách?
 
-## Connect & Contribute
+## Odborný kontext
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+Výzkum ukotvení ukazuje, že první informace silně ovlivňuje další úsudek, i když je zjevně náhodná (Tversky a Kahneman 1974). První reakce na událost proto působí nepoměrně: nabízejí výklad v době, kdy chybí fakta, a pozdější informace se k nim vztahují. Entman (1993) popsal, jak rámec určuje, které aspekty události jsou zdůrazněny a jak jsou hodnoceny; automatizované okamžité reakce soutěží právě o tento rámec.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+Ferrara et al. (2016) upozornili, že boti mohou ovlivnit průběh debat tím, že reagují rychleji a ve větším objemu než lidé. Benkler, Faris a Roberts (2018) doložili, že zpravodajská média přebírají „reakce sítí“ jako zprávu, a tím jim dodávají legitimitu. Kniha z toho vyvozuje, že obrana stojí především na médiích a institucích, které první vlnu reakcí nepovažují za hlas veřejnosti.
 
----
+## Souvislosti pro praxi
 
-*EA-9.4.8 | Subkategorie 9.4 Bot networks | Prismatic Compendium | Version 18.4.0*
+Pro redakce je dobrou praxí psát o „reakcích na sítích“ až po analýze jejich autenticity a uvádět, jak byla provedena. Pro tiskové mluvčí je užitečné připravit si první sdělení pro očekávané události, aby výklad nedefinovali jiní.
+
+## Literatura
+
+- Benkler, Y., Faris, R., & Roberts, H. (2018). *Network [Propaganda](@/glossary/propaganda.md)*. Oxford University Press.
+- Entman, R. M. (1993). Framing: Toward clarification of a fractured paradigm. *Journal of Communication*.
+- Ferrara, E., Varol, O., Davis, C., Menczer, F., & Flammini, A. (2016). The rise of social bots. *Communications of the ACM*.
+- Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*.
+
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.4.9 Bot Narrative Injection](@/kompendium/techniques/ea-9-4-9-bot-narrative-injection.md) – rámec první reakce v diskusi.
+- [EA-9.4.4 AI Bot Personhood](@/kompendium/techniques/ea-9-4-4-AI-bot-personhood.md) – boti řízení jazykovými modely.
+- [EA-9.4.10 Bot Detection Evasion](@/kompendium/techniques/ea-9-4-10-bot-detection-evasion.md) – napodobování lidského chování.
+- [EA-9.5.6 Frame War Coordination](@/kompendium/techniques/ea-9-5-6-frame-war-coordination.md) – soutěž o rámec události.
+
+**Detekce**
+
+- [Detekční signatura: Bot coordination](@/kompendium/detection-signatures/20-network-bot-coordination.md) – znaky koordinace.
+- [Detekční signatura: Posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md) – rámec přidělený události.
+
+**Obrana**
+
+- [Sebe-obrana: Časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md) – počkat na informace.

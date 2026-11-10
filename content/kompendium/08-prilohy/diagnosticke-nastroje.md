@@ -123,7 +123,7 @@ Soto, C. J., & John, O. P. (2017). The Next Big Five Inventory (BFI-2). *Journal
 
 | Doména | Počet položek | Hlavní fokus |
 |--------|---------------|--------------|
-| **Identita** | ~10 | Pocit "kdo jsem", kontinuita s pre-expozičním self. |
+| **Identita** | ~10 | Pocit „kdo jsem“, kontinuita s pre-expozičním self. |
 | **Kognice** | ~8 | Schopnost kritického myšlení, rozhodování, paměť. |
 | **Sociální** | ~10 | Vztahy s rodinou, přáteli, novými známými. |
 | **Emoce** | ~8 | Úzkost, deprese, výbuchy hněvu, emoční otupělost. |
@@ -193,7 +193,7 @@ DES-II měří 4 kategorie disociativních zkušeností:
 | **Amnestic dissociation** | Ztráta vzpomínek na časové úseky, absence bez vzpomínky. |
 | **Depersonalization/derealization** | Pocit pozorování sebe sama, neskutečnost prostředí. |
 | **Absorption/imagination** | Pohlcení v mentálních obrazech, ztráta kontaktu s okolím. |
-| **Identity confusion/alteration** | Pocit více "já", neidentifikování s vlastními činy. |
+| **Identity confusion/alteration** | Pocit více „já“, neidentifikování s vlastními činy. |
 
 ### Skórování
 
@@ -250,7 +250,7 @@ Pro standardizované klinické nebo výzkumné posouzení doporučujeme následu
 - **Sekundární zranění** může vzniknout, pokud výsledky nejsou pacientovi srozumitelně komunikovány nebo pokud detekce EA nevede k navržení konkrétní terapeutické cesty.
 - **Konfliktní motivace**: výzkumný a klinický cíl se mohou rozcházet. V případě konfliktu *vždy* dominuje klinický zájem pacienta.
 
-## Cross-referencing s dalšími přílohami
+## Vazby na další přílohy
 
 - [Bibliografie §IX](@/kompendium/08-prilohy/bibliografie.md) — klinická literatura k traumatu a disociaci.
 - [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — IRB rámec pro použití instrumentů.
@@ -271,34 +271,37 @@ Místo lineární četby:
 
 1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
 2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
-3. Pokud nenajdeš, zkontroluj [glossary](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
+3. Pokud nenajdeš, zkontroluj [glosář](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
 
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
 > otevři přílohu.
 
-## 🔗 Křížové odkazy
+## Související
 
-### V této sekci
+**Přílohy knihy**
 
-- [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)
-- [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md)
-- [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md)
-- [Klasifikační schéma a taxonomie — meta-úroveň](@/kompendium/08-prilohy/klasifikace.md)
-- [Kompletní rejstřík technik (master index)](@/kompendium/08-prilohy/rejstrik-technik.md)
+- [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md) – etické podmínky použití instrumentů.
+- [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md) – primární publikace nástrojů.
+- [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) – dimenze, které nástroje měří.
 
-### Klíčové orientační body
+**Klinické aplikace**
 
-- [Hub kompendia](@/kompendium/_index.md) — návrat na úvodní rozcestník
-- [Glossary](@/glossary/_index.md) — terminologický slovník
-- [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární zdroje
-- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — povinné rámce použití
+- [Self-report instrumenty](@/kompendium/06-klinicke-aplikace/self-report-instrumenty.md) – kalibrace a interpretace sebeposuzovacích škál.
+- [Screeningové instrumenty – detailní katalog](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md) – širší výběr screeningových nástrojů.
+- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) – proč skóre samo diagnózu nestanoví.
+
+**Glosář**
+
+- [BITE model](@/glossary/bite-model.md) – Hassanův rámec kontroly chování, informací, myšlení a emocí.
+- [DES-II](@/glossary/des-ii.md) a [IES-R](@/glossary/ies-r.md) – hesla k nejčastěji používaným škálám.
+- [ECRI](@/glossary/ecri.md) – nástroj pro sledování zotavení po odchodu ze skupiny.
 
 ---
 
-## Connect & Contribute
+## Kontakt a příspěvky
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) | [Glossary](@/glossary/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) | [Glosář](@/glossary/_index.md) | [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

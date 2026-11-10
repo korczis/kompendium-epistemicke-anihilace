@@ -1,14 +1,14 @@
 +++
 title = "EA-9.4.9 Bot Narrative Injection"
-description = "Současná digitální EA — bot narrative injection."
+description = "Vzorec, v němž automatizované účty obsadí první komentáře pod populárním příspěvkem a zesílí je nahoru, takže jejich rámec určuje, jak příspěvek čtou ostatní."
 weight = 949
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-4-7-cross-platform-bot-cascade", "ea-9-4-8-real-time-bot-response", "ea-9-5-1-meme-cascade-injection", "ea-9-5-10-meme-attribution-laundering"]
+related_terms = ["ea-9-4-8-real-time-bot-response", "ea-9-4-6-mass-comment-coordination", "ea-9-1-5-llm-narrative-injection"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.4.9"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,115 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Boti vkládající narativní rámce do diskusí pod populárními posty — předjímání čtení, formování konsenzu od první vteřiny.
+*Bot narrative injection* je vložení narativního rámce do diskuse pod populárním příspěvkem prostřednictvím automatizovaných účtů: bot napíše jeden z prvních komentářů („tohle je ve skutečnosti o…“), další boti ho zesílí hlasováním nebo odpověďmi, a komentář se dostane na první místo. Čtenáři, kteří přijdou později, čtou příspěvek optikou tohoto rámce.
 
-V kontextu Prismatic doktríny je Bot Narrative Injection klasifikováno jako **L1** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.4.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Bot je první komentář pod high-velocity postem; jeho frame ('toto je o X') predisponuje další čtenáře; další boti komentář upvotují k top pozici.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Nejvýše řazený komentář funguje jako veřejný výklad příspěvku – „co si o tom myslí ostatní“. Lidé ho čtou často dřív, než si příspěvek sami zhodnotí, a ukotví se na jeho rámci. Vložený rámec nemusí být nepravdivý; stačí, že přesune pozornost (od obsahu k osobě autora, od faktů k motivům, od problému k vině skupiny). Vzorec je digitální obdobou [efektu ukotvení](@/glossary/kognitivni-bias.md) a navazuje na [EA-9.1.5 LLM Narrative Injection](@/kompendium/techniques/ea-9-1-5-llm-narrative-injection.md), kde se rámec vkládá do kontextu modelu.
 
 ## 4. Detekční markery
 
-First-comment timing analysis, upvote-velocity forensics, comment-vote network audit, frame-detection on bot output.
+- Nejvýše řazený komentář přišel velmi brzy a získal mnoho hlasů rychleji než příspěvek sám.
+- Rámec komentáře je opakovaně stejný pod různými příspěvky na podobné téma.
+- Účty, které komentář zesilují, nemají jinou aktivitu v diskusi.
+- Komentář mění téma: z obsahu na motivy, z problému na skupinu.
+- Pozdější věcné komentáře zůstávají níže, i když mají více odpovědí.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Výstižný první komentář*: rychlý lidský komentář, který získá hlasy, protože je dobrý; účty hlasujících jsou rozmanité. *[EA-9.4.6 Mass Comment Coordination](@/kompendium/techniques/ea-9-4-6-mass-comment-coordination.md)*: záplava komentářů; zde jeden řazený komentář. *Moderátorské připnutí*: přiznaný výběr komentáře správcem.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Vzorec ovlivňuje, jak velké publikum chápe obsah, a posouvá debatu k rámci, který zvolil skrytý aktér. Na platformách s hlasováním (fóra, diskusní weby) jde o porušení pravidel manipulace s hlasy. Obranou jsou moderace a algoritmy řazení, které zohledňují nezávislost hlasujících.
 
-## 5. Neutralizační strategie
+Pro autory populárních příspěvků je užitečné vědět, že rámec diskuse lze ovlivnit vlastním připnutým komentářem s kontextem, a že moderátoři mají možnost řešit podezřelé zesílení. Pro média, která citují „nejoblíbenější komentáře“ jako hlas čtenářů, platí, že by měla nejdřív ověřit, jak se komentář na první místo dostal.
 
-**Layer 1 — Detection:**
+## 7. Obrana a zotavení
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+*Čtenář*: nejdřív si přečíst samotný příspěvek a vytvořit si názor, teprve pak komentáře ([Hluboké čtení](@/kompendium/self-defense-guides/35-deep-reading-practice.md)). *Moderátoři*: sledovat neobvykle rychle zesílené komentáře; řadit podle kvality, ne jen počtu hlasů. *Platformy*: detekovat koordinované hlasování a řadit komentáře s ohledem na rozmanitost hlasujících. *Autoři*: připnout vlastní kontext nebo shrnutí, aby rámec nedefinoval někdo jiný.
 
-**Layer 2 — Containment:**
+## 8. Příklad (anonymizovaný kompozit)
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+Pod populárním příspěvkem o zvýšení minimální mzdy se jako první objeví komentář: „Tohle je jen předvolební úplatek pro lidi, co nechtějí pracovat.“ Během minut získá stovky hlasů a zůstane nahoře. Většina dalších komentářů na něj reaguje, místo aby řešila samotný návrh. Moderátoři fóra zjistí, že hlasy přišly od účtů vytvořených v posledních dnech, a komentář odstraní; diskuse se pak vrátí k obsahu.
 
-**Layer 3 — Resilience:**
+## 9. Meze a otevřené otázky
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Řazení komentářů je vždy výběr a nějaký rámec vznikne pokaždé. Problémem je skrytá koordinace, ne existence rámce. Otevřenou otázkou je, jak navrhnout řazení, které je odolné vůči manipulaci a zároveň srozumitelné.
 
-**Layer 4 — Accountability:**
+Kniha neuvádí čísla o četnosti vložených rámců v diskusích; výzkum se opírá převážně o analýzy jednotlivých komunit a platforem s hlasováním.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Otevřenou otázkou zůstává, jak navrhnout řazení komentářů, které je odolné vůči koordinaci a přitom srozumitelné pro uživatele.
 
-## 6. Vztah k jiným EA
+## 10. Pohled zevnitř a práce s postiženým
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Autor příspěvku, jehož obsah byl přerámován, má pocit, že „mluví do zdi“ – diskuse se netýká toho, co napsal. Čtenář, který převzal vložený rámec, si obvykle neuvědomuje, odkud pochází. Pro pedagogy je to užitečný příklad k výuce rozdílu mezi obsahem a jeho výkladem.
 
-- **EA-1.* (Vědomá kontrola informací)** — Bot Narrative Injection představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Pro čtenáře, kteří převzali vložený rámec, je užitečné ukázat, jak se komentář na první místo dostal, a pozvat je k vlastnímu čtení příspěvku. Pro moderátory je vzorec připomínkou, že řazení komentářů je redakční rozhodnutí s dopadem na to, jak lidé chápou obsah.
 
-## 7. Vztah k Prismatic platformě
+Další otázkou je, zda by platformy neměly zobrazovat, jak rychle a od koho komentář hlasy získal, aby čtenáři mohli sami posoudit jeho reprezentativnost.
 
-Prismatic Platform implementuje detekci a neutralizaci Bot Narrative Injection přes následující komponenty:
+Kniha to považuje za užitečné.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 11. Vztah k ostatním kategoriím EA
 
-**Doctrine compliance:**
+V kapitole 1 popisuje stejnou dynamiku [EA-1.4.1 Latentní podbarvení](@/kompendium/techniques/ea-1-4-1-latentni-podbarveni.md): rámec, který není vysloven jako teze, ale určuje čtení. Okamžitost reakce sdílí s [EA-9.4.8 Real-Time Bot Response](@/kompendium/techniques/ea-9-4-8-real-time-bot-response.md).
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 12. Postup při podezření na vložený rámec v diskusi
 
-## 8. Cross-linky
+1. **Zaznamenat čas** prvního komentáře a nárůst jeho hlasů.
+2. **Prověřit hlasující účty**, pokud to platforma umožňuje.
+3. **Porovnat rámec** s komentáři pod podobnými příspěvky.
+4. **Připnout kontext** autora nebo moderátora.
+5. **Odstranit manipulovaný komentář**, pokud se koordinace potvrdí.
 
-**Související EA techniky:**
+## 13. Prevence a odolnost
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.4.3 Sock Puppet Network](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md)
-- [EA-9.4.4 AI Bot Personhood](@/kompendium/techniques/ea-9-4-4-AI-bot-personhood.md)
+Prevence stojí na čtenářích, kteří si nejdřív přečtou obsah a teprve potom komentáře, na moderaci, která sleduje neobvykle rychle zesílené komentáře, a na algoritmech řazení, které zohledňují rozmanitost hlasujících.
 
-**Doktrinální a infrastructure odkazy:**
+Pro výuku je užitečné porovnat diskusi pod tímtéž příspěvkem s komentáři seřazenými chronologicky a podle hlasů.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## 14. Otázky pro rozhovor a šetření
 
----
+- Jak rychle se komentář dostal nahoru?
+- Kdo pro něj hlasoval?
+- Opakuje se tentýž rámec pod jinými příspěvky?
+- Mění komentář téma příspěvku?
+- Jak by diskuse vypadala bez něj?
 
-## Connect & Contribute
+## Odborný kontext
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+Efekt ukotvení popsali Tversky a Kahneman (1974): první informace ovlivňuje odhad a úsudek i tehdy, když je náhodná. Nejvýše řazený komentář funguje jako kotva pro čtení příspěvku. Entman (1993) definoval rámování jako zdůraznění určitých aspektů skutečnosti tak, aby se prosadila určitá definice problému a hodnocení; vložený komentář dělá přesně to, aniž by byl rozpoznán jako tvrzení. Lakoff a Johnson (1980) ukázali, že rámce se skrývají v běžných výrazech a metaforách, a proto působí, i když je čtenář nevnímá.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+Ferrara et al. (2016) upozornili, že boti mohou ovlivnit diskuse nejen obsahem, ale i manipulací se signály popularity, jako jsou hlasy a sdílení. Kombinace obou – první komentář a jeho umělé zesílení – vytváří zdání, že „většina“ čte příspěvek určitým způsobem. Kniha z toho vyvozuje, že obrana stojí na řazení odolném vůči koordinaci a na čtenářích, kteří se nejdřív seznámí s obsahem.
 
----
+## Souvislosti pro praxi
 
-*EA-9.4.9 | Subkategorie 9.4 Bot networks | Prismatic Compendium | Version 18.4.0*
+Pro správce diskusních platforem je užitečné sledovat komentáře, které získávají hlasy neobvykle rychle, a zvážit řazení, které zohledňuje nezávislost hlasujících. Pro učitele je vzorec vhodným příkladem k výuce rozdílu mezi obsahem a jeho výkladem.
+
+## Literatura
+
+- Entman, R. M. (1993). Framing: Toward clarification of a fractured paradigm. *Journal of Communication*.
+- Ferrara, E., Varol, O., Davis, C., Menczer, F., & Flammini, A. (2016). The rise of social bots. *Communications of the ACM*.
+- Lakoff, G., & Johnson, M. (1980). *Metaphors We Live By*. University of Chicago Press.
+- Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*.
+
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.4.8 Real-Time Bot Response](@/kompendium/techniques/ea-9-4-8-real-time-bot-response.md) – okamžitá reakce na událost.
+- [EA-9.4.6 Mass Comment Coordination](@/kompendium/techniques/ea-9-4-6-mass-comment-coordination.md) – záplava komentářů.
+- [EA-9.1.5 LLM Narrative Injection](@/kompendium/techniques/ea-9-1-5-llm-narrative-injection.md) – rámec v kontextu modelu.
+
+**Detekce**
+
+- [Detekční signatura: Injekce narativu](@/kompendium/detection-signatures/22-network-narrative-injection.md) – vložený narativ.
+- [Detekční signatura: Posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md) – změna předmětu debaty.
+
+**Pojmy a obrana**
+
+- [Kognitivní bias](@/glossary/kognitivni-bias.md) – ukotvení jako opora vzorce.
+- [Sebe-obrana: Hluboké čtení](@/kompendium/self-defense-guides/35-deep-reading-practice.md) – nejdřív obsah, pak komentáře.

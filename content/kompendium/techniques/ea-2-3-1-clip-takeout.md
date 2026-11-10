@@ -1,14 +1,15 @@
 +++
-title = "EA-2.3.1 Clip Takeout"
-description = "Delegitimizační technika — Clip Takeout."
+title = "EA-2.3.1 Vytržený klip (clip takeout)"
+description = "Vzorec, v němž se krátký video- nebo zvukový výřez šíří odděleně od celku a připisuje mluvčímu smysl, který nevyslovil. Znaky, ověření, odlišení a obrana."
 weight = 2301
+insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-2-3-1", "delegitimizace"]
+tags = ["kompendium", "techniques", "ea-2-3-1", "delegitimizace", "disinformation", "digitalni"]
 categories = ["academic"]
 
 [extra]
-related_terms = ["ea-2-2-8-intellectual-paternity-claim", "ea-2-2-9-disciplinary-boundary-coercion", "ea-2-3-10-viralni-misrepresentation", "ea-2-3-2-context-collapse"]
+related_terms = ["ea-2-3-3-quote-mining", "ea-2-3-2-context-collapse", "ea-2-3-10-viralni-misrepresentation", "ea-9-2-5-video-manipulation-EA", "deepfake", "firehose-of-falsehood"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.3.1"
 ea_category = "2. Scénáře delegitimizace"
@@ -20,90 +21,200 @@ risk_level = "high"
 parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 +++
 
-# EA-2.3.1 Clip Takeout
+# EA-2.3.1 Vytržený klip (clip takeout)
 
-## Identifikace
-
-| Atribut | Hodnota |
-|---------|---------|
-| **EA kód** | EA-2.3.1 |
-| **Název** | Clip Takeout |
+| Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-2.3.1` |
 | **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
 | **Subkategorie** | 2.3 Mediální delegitimizace |
-| **Risk level** | High |
-| **Access level** | L2 |
-| **Parent chapter** | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
+| **Přístupová úroveň** | L2 (odborná analýza) |
+| **Riziková úroveň** | Vysoká – klip se šíří rychleji než celý záznam |
+| **Reverzibilita** | Střední; celý záznam vyvrací výklad, ale nedosáhne stejného publika |
+| **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
+| **Rychlá karta** | [QR: EA-2.3.1](@/kompendium/quick-reference/qr-ea-2-3-1.md) |
 
 ## Definice
 
-Vytržení video- či audioklipu z původního kontextu pro mediální delegitimizaci experta nebo aktéra.
+Vytržený klip je krátký výřez ze záznamu (přednášky, rozhovoru, debaty, jednání), který
+se **šíří odděleně od celku** a v novém prostředí nese smysl, jaký mluvčí nevyslovil.
+Klip není podvržený: slova i obraz jsou pravé. Mění se **rámec** – co předcházelo, co
+následovalo, komu a proč byla slova určena. Proto je klip tak přesvědčivý: kdo ho vidí,
+„viděl to na vlastní oči“.
 
-Tato technika představuje konkrétní operacionalizaci širšího vzorce **Mediální delegitimizace** v rámci taxonomie **EA — Epistemic Attack**. Cílem není pouze útok na jednotlivý výrok či pozici, ale **systematická eroze legitimity** cíle, jeho hlasu a jeho institucionální váhy.
+Vzorec patří do podkategorie 2.3 Mediální delegitimizace a je nejčastějším vstupem
+do širších kampaní: klip poskytne „důkaz“, na který navážou [koordinace davu](@/kompendium/techniques/ea-2-3-4-mob-coordination.md)
+a [virální zkreslení](@/kompendium/techniques/ea-2-3-10-viralni-misrepresentation.md).
 
-## Operační modus
+## Mechanismus (strukturní popis)
 
-Technika **EA-2.3.1** typicky probíhá ve třech fázích:
+1. **Výběr okamžiku.** Vybírá se pasáž, která sama o sobě působí jinak než v celku:
+   citace oponenta, ironie, hypotetická úvaha, nedokončená věta, otázka řečená jako
+   oznámení.
+2. **Odstranění rámce.** Chybí úvod („jak tvrdí kritici…“) nebo závěr („…a proto je to
+   nesmysl“).
+3. **Nový titulek.** Klip doprovází popisek, který určuje výklad dřív, než ho divák
+   uvidí.
+4. **Ztráta zdroje.** Klip se šíří jako samostatný soubor bez odkazu na původní záznam;
+   ověření vyžaduje úsilí, které většina diváků nevynaloží.
+5. **Nesouměrnost oprav.** Vyvrácení vyžaduje delší vysvětlení než klip; tento rozdíl
+   v nákladech je strukturní výhodou zkreslení.
 
-### Fáze 1 — Příprava terénu
+## Průběh
 
-Útočník identifikuje cíl, mapuje jeho **epistemickou síť** (kolegy, instituce, publikační kanály, mediální zázemí) a vyhledává **zranitelná místa**: závislosti na grantech, slabé spojence, kontroverzní výroky v minulosti, izolovatelné subkomunity.
+Klip se objeví v prostředí, které je vůči mluvčímu předem nepřátelské, a během hodin
+dosáhne publika řádově většího než původní záznam. Následuje vlna reakcí, často
+i požadavky na omluvu, odvolání nebo propuštění. Instituce mluvčího se rozhoduje pod
+tlakem a obvykle dříve, než si celý záznam prohlédne. Celý záznam se objeví později;
+oprava dosáhne zlomku publika a mnozí si pamatují jen klip. Doloženým příkladem je případ
+úřednice amerického ministerstva zemědělství z roku 2010, která rezignovala kvůli
+sestříhanému klipu ze své řeči; celý záznam ukázal opačný smysl a omluva přišla až poté.
 
-### Fáze 2 — Aktivace techniky
+## Teoretický rámec: přesvědčivost obrazu
 
-Aktivace probíhá synchronně přes více vektorů. **Clip Takeout** se nezavede jednorázovou akcí, ale **kaskádou koordinovaných drobných pohybů**, které jednotlivě působí marginálně, ale v součtu produkují **systémový posun**.
+Vytržený klip je účinnější než vytržený citát, protože obraz a hlas vyvolávají dojem
+přímého svědectví. Divák nemá pocit, že čte cizí interpretaci; má pocit, že sám viděl.
+Wardleová a Derakhshan (2017) řadí vytržení pravdivého záznamu z kontextu mezi formy
+„zavádějícího obsahu“, které jsou zvlášť obtížně vyvratitelné, protože jednotlivé prvky
+jsou pravdivé. Lewandowsky a kolegové (2012) ukázali, že vyvrácení dezinformace
+často nevymaže její vliv na úsudek; u obrazového materiálu je tento účinek pravděpodobně
+ještě silnější, protože vzpomínka na obraz přetrvává.
 
-### Fáze 3 — Stabilizace nového stavu
+Druhým faktorem je rychlost. Rozhodnutí institucí – suspendace, výpověď, stažení
+pozvání – často padají dříve, než je k dispozici celý záznam. Ronson (2015) dokumentoval
+řadu případů, v nichž následky pro cíl nastaly během hodin a vysvětlení přišlo pozdě.
+Obrana proto musí počítat s tím, že náprava nebude okamžitá, a zaměřit se na to, aby
+instituce nerozhodovaly pod tlakem klipu.
 
-Po dosažení primárního efektu útočník stabilizuje nový stav skrze **institucionální fakty**, **dokumentaci** a **revizionistický narativ**, který činí návrat k předchozímu stavu nákladným nebo nemožným.
+## Postup pro posuzovatele
 
-## Detekce
+Instituce, která obdrží klip, by měla vyžádat celý záznam a stanovisko dotčené osoby
+dřív, než rozhodne; posoudit, zda výrok v klipu odpovídá smyslu celku; a teprve poté
+zvážit, zda je nutné jakékoli opatření. Novinář by měl uvádět délku klipu a odkaz na
+celý záznam.
 
-| Indikátor | Popis | Závažnost | Reakce |
-|-----------|-------|-----------|--------|
-| **Koordinovaná synchronicita** | Více aktérů provádí podobné kroky v krátkém časovém okně | Vysoká | Síťová analýza, mapování koordinace |
-| **Asymetrie kritiky** | Kritika cíle je tvrdší než stejná kritika srovnatelných případů | Střední | Dokumentace asymetrie, externí audit |
-| **Eroze procedurálních standardů** | Standardy se náhle mění specificky pro daný případ | Vysoká | Procedurální archeologie, právní revize |
-| **Narativní konvergence** | Různé zdroje začnou používat identické formulace | Střední | Lingvistická forenzika, šíření narativu |
+## Fenomenologické znaky (pohled zevnitř)
 
-## Neutralizace
+| Znak | Jak ho postižený popisuje |
+|---|---|
+| Nepoznání sebe | „Řekl jsem to, ale neřekl jsem tohle.“ |
+| Bezmoc proti obrazu | Jeho vlastní tvář svědčí proti němu. |
+| Zahlcení | Stovky reakcí za hodinu; nelze odpovědět všem. |
+| Strach mluvit | Každé veřejné vystoupení vnímá jako materiál pro další klip. |
+| Stud | I když ví, že klip lže, cítí se ponížen. |
 
-### Individuální obrana
+## Detekční markery (pohled pozorovatele)
 
-1. **Dokumentace v reálném čase** — Vést **veřejnou kroniku** všech kroků útoku s časovými razítky, jmény aktérů a citacemi.
-2. **Diverzifikace závislostí** — Snížit **single points of failure** v kariéře (více grantů, více platforem, více institucí).
-3. **Spojenecká síť** — Aktivně kultivovat **epistemickou koalici** přesahující jednu instituci nebo jeden okruh kolegů.
+| Marker | Co může naznačovat |
+|---|---|
+| Klip trvá několik sekund a začíná nebo končí uprostřed myšlenky | Odstranění rámce |
+| Chybí odkaz na původní záznam | Ztráta zdroje |
+| Popisek interpretuje víc, než klip ukazuje | Nový titulek; srov. [posun rámce](@/kompendium/detection-signatures/4-linguistic-framing-shift.md) |
+| Klip se šíří primárně v kanálech nepřátelských k mluvčímu | Selektivní distribuce |
+| Výrok odporuje tomu, co mluvčí dlouhodobě veřejně zastává | Podezření na vytržení |
 
-### Institucionální obrana
+## Rizikové kontexty
 
-1. **Procedurální transparence** — Pevné, **veřejně dostupné procedury** pro recenze, evaluace, jmenování, granty.
-2. **Externí audit** — Pravidelné **nezávislé audity** klíčových rozhodovacích procesů institucí.
+Veřejné přednášky a hodiny, které se nahrávají; politické debaty; online výuka; podcasty
+a dlouhé rozhovory; výpovědi a jednání, kde se mluví hypoteticky nebo cituje
+protistrana. Zvlášť zranitelní jsou učitelé a lékaři, kteří při výkladu běžně citují
+mylné názory, aby je vyvrátili, a lidé, kteří mluví ironicky.
 
-## Vztah k jiným technikám
+## Odlišení
 
-Technika **EA-2.3.1** se v praxi téměř nikdy nevyskytuje izolovaně. Typicky se kombinuje s technikami **EA-1.X.Y** (přímé útoky na jednotlivé výroky) jako **operační vrstvou** a s ostatními technikami **EA-2.X.Y** (institucionální delegitimizace) jako **strategickou vrstvou**. Identifikace primární techniky pomáhá rozeznat **strukturu kampaně** jako celku.
+- **Legitimní citace výňatku.** Novinář smí vybrat podstatný úsek; rozhoduje, zda výňatek
+  věrně odráží smysl celku a zda je k dispozici odkaz na zdroj.
+- **[EA-2.3.3 Těžba citátů](@/kompendium/techniques/ea-2-3-3-quote-mining.md).** Textová
+  obdoba; klip pracuje s obrazem a hlasem, a proto působí silněji.
+- **Úprava záznamu (cheapfake).** Zpomalení, sestřih nebo změna pořadí slov je už manipulace
+  záznamu; doloženým příkladem je zpomalené video americké politické představitelky
+  z roku 2019. Viz [EA-9.2.5](@/kompendium/techniques/ea-9-2-5-video-manipulation-EA.md).
+- **[Deepfake](@/glossary/deepfake.md).** Syntetický záznam slov, která nebyla řečena;
+  popisuje ho [EA-2.3.7](@/kompendium/techniques/ea-2-3-7-deepfake-personalni.md).
 
-## Vztah k platformě
+## Klinický a právní rámec
 
-Prismatic Platform poskytuje pro detekci a analýzu této techniky následující komponenty:
+Klinicky se setkáváme s akutní stresovou reakcí, panickými atakami, nespavostí,
+hanbou a po odeznění s vyhýbáním se veřejnému vystupování. Při výhrůžkách nebo
+obtěžování je třeba posoudit bezpečnost.
 
-- **[Decision Engine](@/glossary/decision-engine.md)** — vícezdrojová evidence + uncertainty estimator pro vyhodnocení důvěryhodnosti narativů kolem cíle
-- **OSINT Toolbox** — 128+ adapterů pro mapování koordinace napříč platformami a institucemi
-- **Nabla (∇∞)** — epistemický engine pro modelování útoků na epistemické autority a důvěru
-- **Hawkeye** — síťová analýza pro detekci koordinovaných kampaní a zachycených struktur
+Právně může šíření klipu s nepravdivým výkladem zasahovat do ochrany osobnosti
+(zákon č. 89/2012 Sb.) a u nepravdivého skutkového tvrzení naplnit znaky pomluvy
+(§ 184 trestního zákoníku). U velkých platforem lze využít mechanismy hlášení podle
+nařízení (EU) 2022/2065 o digitálních službách. Viz [pomluva a EA](@/kompendium/forensic-legal/14-defamation-EA.md)
+a [elektronické důkazy](@/kompendium/forensic-legal/35-electronic-evidence-EA.md).
+
+## Obrana a neutralizace
+
+**Pro mluvčího.** Uchovávat vlastní úplné záznamy vystoupení; při útoku rychle zveřejnit
+celý záznam s časovým odkazem na sporné místo; neodpovídat na každou reakci, ale na
+jednom místě. Viz [ochrana záznamů](@/kompendium/forensic-legal/36-recording-protocols.md).
+
+**Pro instituce.** Nerozhodovat o sankcích před zhlédnutím celého záznamu; mít připravený
+postup pro mediální incidenty. Viz [reakce na incident](@/kompendium/organizational-defense/31-incident-response-EA.md)
+a [obrana veřejného narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md).
+
+**Pro diváky.** Hledat celý záznam a ověřit kontext dřív, než klip sdílí; srov.
+[ověřování tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md).
+
+## Zotavení
+
+Zotavení zahrnuje stabilizaci po akutní vlně, obnovu důvěry ve vlastní projev a
+postupný návrat k veřejnému vystupování. Pomáhá [akutní stabilizace](@/kompendium/recovery-protocols/acute-stabilization-protocol.md)
+a [externalizace narativu](@/kompendium/recovery-protocols/subacute-narrative-externalization.md).
+
+## Ilustrativní příklad (anonymizovaný kompozit)
+
+Profesorka práva na přednášce cituje argumenty obhajoby v kontroverzním případu, aby je
+studenti mohli kriticky rozebrat. Student natočí desetisekundový výřez s citací
+a zveřejní ho s titulkem „profesorka obhajuje násilí“. Video zhlédnou statisíce lidí.
+Fakulta během dne oznámí „prošetření“. Profesorka zveřejní záznam celé přednášky,
+z něhož je zřejmé, že argument vzápětí vyvrací. Fakulta prošetření ukončí, ale omluvu
+nezveřejní; profesorka přestane přednášky nahrávat.
+
+## Případy, které techniku ukazují
+
+Anonymizované kompozity: [mediální mob útok](@/kompendium/case-studies/04-medialni-mob-attack.md)
+(klip z přednášky jako spouštěč kampaně), [kult vysílatele](@/kompendium/case-studies/71-broadcaster-cult.md)
+a [kult youtubera](@/kompendium/case-studies/76-youtuber-cult.md), kde se klipy oponentů
+stávají obsahem kanálu.
+
+## Poznámka ke kódu
+
+[Rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) používá kód `EA-2.3.1`
+pro „Kvalifikační útok“ ze staršího číslování kapitoly 2; ten popisuje stránka
+[EA-2.1.3 Útok na kvalifikaci](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md).
+Tato stránka patří do řady per-technique článků podkategorie 2.3.
+
+## Literatura
+
+- Marwick, A., & Lewis, R. (2017). *Media Manipulation and Disinformation Online*. Data &
+  Society.
+- Wardle, C., & Derakhshan, H. (2017). *Information Disorder*. Rada Evropy.
+- Ronson, J. (2015). *So You've Been Publicly Shamed*.
+- Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012).
+  Misinformation and its correction. *Psychological Science in the Public Interest*.
 
 ## Související
 
-- [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) (parent)
-- [Taxonomie EA](@/kompendium/glossary-bridges/taxonomie-ea.md) (klasifikační rámec)
-- [Delegitimizace](@/kompendium/glossary-bridges/delegitimizace.md) (konceptuální základ)
-- [EA-2.3.2](@/kompendium/techniques/ea-2-3-2-context-collapse.md) (sister)
-- [EA-2.3.3](@/kompendium/techniques/ea-2-3-3-quote-mining.md) (sister)
-- [EA-2.3.4](@/kompendium/techniques/ea-2-3-4-mob-coordination.md) (sister)
-- [Gaslighting](@/kompendium/glossary-bridges/gaslighting.md) (související psychologický mechanismus)
-- [Epistemické trauma](@/kompendium/glossary-bridges/epistemicke-trauma.md) (důsledek pro cíl)
+**Techniky podkategorie 2.3**
 
-## Connect
+- [EA-2.3.3 Těžba citátů](@/kompendium/techniques/ea-2-3-3-quote-mining.md) – textová
+  obdoba.
+- [EA-2.3.2 Kolaps kontextu](@/kompendium/techniques/ea-2-3-2-context-collapse.md) – přesun
+  do cizího publika.
+- [EA-2.3.10 Virální zkreslení](@/kompendium/techniques/ea-2-3-10-viralni-misrepresentation.md)
+  – šíření zkreslené verze.
+- [EA-2.3.7 Personální deepfake](@/kompendium/techniques/ea-2-3-7-deepfake-personalni.md) –
+  syntetická obdoba.
 
-- **Kompendium**: [Hlavní rozcestník](@/kompendium/_index.md) | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | [Glossary](@/glossary/_index.md)
-- **Platforma**: {{ <cross_link path="/decisions/" text="Decision Engine" /> }} | [OSINT Toolbox](https://prismatic-reality-com.github.io/prismatic-promo/osint/) | {{ <cross_link path="/nabla/" text="Nabla" /> }}
-- **Zpětná vazba**: Pro hlášení nových případů této techniky kontaktujte [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+**Pojmy**
+
+- [Glosář: deepfake](@/glossary/deepfake.md) – kde končí výřez a začíná syntéza.
+
+**Pomoc**
+
+- [Ověřování tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) – postup
+  pro diváka.
+- [Reakce na incident](@/kompendium/organizational-defense/31-incident-response-EA.md) –
+  postup instituce.

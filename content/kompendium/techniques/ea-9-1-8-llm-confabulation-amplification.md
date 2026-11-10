@@ -1,14 +1,14 @@
 +++
 title = "EA-9.1.8 LLM Confabulation Amplification"
-description = "Současná digitální EA — llm confabulation amplification."
+description = "Vzorec, v němž se podobné konfabulace více jazykových modelů sdílejí jako „AI konsenzus“, ačkoli jde o tutéž chybu opakovanou bez nezávislého zdroje. Znaky a obrana."
 weight = 918
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-1-6-llm-source-attribution-bypass", "ea-9-1-7-synthetic-expertise-claim", "ea-9-1-9-multi-turn-narrative-shift", "ea-9-2-1-deepfake-personality"]
+related_terms = ["ea-9-1-1-llm-hallucination-laundering", "ea-9-1-3-jailbreak-cascade", "ea-9-1-10-llm-recursion-loop", "ea-1-2-2-falesna-ekvivalence"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.1.8"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,97 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Systematické zesilování LLM konfabulací — opakované dotazy, různé modely, sdílení výstupů — vytvářejí falešný dojem konsenzu napříč 'nezávislými' AI.
+*Confabulation amplification* je zesílení konfabulací jazykových modelů opakováním a sdílením: tentýž dotaz se položí více modelům nebo opakovaně jednomu, podobné smyšlené odpovědi se posbírají a prezentují jako „shoda nezávislých AI“. Nezávislost je přitom zdánlivá – modely sdílejí trénovací data, podobné architektury i stejné mezery ve znalostech.
 
-V kontextu Prismatic doktríny je LLM Confabulation Amplification klasifikováno jako **L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.1.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník dotazuje téma na N modelech; každý nezávisle konfabulujue podobně; útočník prezentuje shodu jako 'AI konsensus' bez disclosure halucinační povahy.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Lidský úsudek zachází se shodou více zdrojů jako se silným důkazem, protože předpokládá jejich nezávislost. U modelů tento předpoklad neplatí: chyba, kterou vyvolá stejně formulovaná otázka, se v podobné podobě objeví u více systémů. Vzorec tedy využívá heuristiku „víc hlasů = vyšší pravděpodobnost“ tam, kde hlasy nejsou svědky, ale ozvěnou. Podobný princip popisuje [Detekční signatura: Monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md): mnoho kanálů, jeden původ.
 
 ## 4. Detekční markery
 
-Detekce coordinated AI prompting, cross-model variance audit, baseline epistemic uncertainty tracking.
+- Argument se opírá o počet modelů, které „to potvrdily“, nikoli o zdroj tvrzení.
+- Odpovědi modelů mají podobné formulace, stejnou strukturu a stejné neověřitelné detaily.
+- Žádná z odpovědí neodkazuje na ověřitelný primární pramen.
+- Neuvádí se, jak byly dotazy formulovány; obměna otázky vede k jiným odpovědím.
+- Nejistota, kterou modely samy uvádějí, je při sdílení vypuštěna.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Skutečný konsenzus*: shoda nezávislých zdrojů s vlastním přístupem k datům (měření, archivy, svědci). *[EA-9.1.3 Jailbreak Cascade](@/kompendium/techniques/ea-9-1-3-jailbreak-cascade.md)*: shoda vynucená obcházením pravidel; zde vzniká „spontánně“ z podobných mezer. *[EA-9.1.1 Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)*: přenos jedné halucinace řetězem; zde souběh mnoha podobných.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Vzorec posiluje falešnou jistotu u témat, kde je poctivá odpověď „nevíme“. Pro veřejnou debatu je nebezpečný tím, že „konsenzus AI“ se může stavět proti konsenzu odborníků a vytvářet dojem rovnocenného sporu ([falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)). Právní rámec je zde okrajový; jde především o otázku mediální a informační gramotnosti.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Čtenář*: ptát se, zda zdroje mají nezávislý přístup k faktům; počet modelů nic nedokládá. *Uživatel AI*: obměňovat otázku, žádat zdroje a ověřit je; brát vážně, když model uvádí nejistotu. *Novináři a pedagogové*: vysvětlovat, proč shoda modelů není nezávislé svědectví ([Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)). *Odborná komunita*: veřejně uvádět, kde je odpověď skutečně nejistá, aby prázdné místo nezaplnila [konfabulace](@/glossary/konfabulace.md).
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Influencer zveřejní video, v němž položí pěti různým chatbotům otázku na údajné vedlejší účinky doplňku stravy. Čtyři odpovědi zmiňují podobnou „studii“ a podobné procento. Video slaví úspěch s heslem „pět AI se shoduje“. Lékařka v komentáři upozorní, že studie neexistuje, a vysvětlí, že modely trénované na podobných datech chybují podobně. Její komentář má zlomek dosahu původního videa; část diváků ale začne otázku formulovat jinak a dostává rozdílné odpovědi.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Shoda modelů může být i správná – u dobře zdokumentovaných faktů je to běžné. Problém nastává tam, kde shoda nahrazuje zdroj. Zatím chybí srozumitelný způsob, jak veřejnosti ukázat míru nezávislosti modelů a míru jejich nejistoty v konkrétní odpovědi.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Pro výzkum je otevřené, jak publikum vnímá shodu modelů ve srovnání se shodou lidských expertů, a zda vysvětlení společného původu dat skutečně snižuje přesvědčivost „AI konsenzu“. Dostupné poznatky pocházejí převážně z obecného výzkumu sociálního důkazu a oprav dezinformací.
 
-**Layer 4 — Accountability:**
+## 10. Pohled zevnitř a práce s postiženým
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Člověk, který „konsenzu AI“ uvěřil, obvykle nejedná naivně: uplatňuje rozumnou heuristiku, že shoda více zdrojů je silnější než jeden zdroj. Vysvětlení by proto mělo heuristiku respektovat a doplnit ji o otázku nezávislosti – kdo z těch „hlasů“ měl vlastní přístup k faktům? Pro učitele a lékaře je užitečné mít připravený jednoduchý příklad, na němž lze shodu modelů a absenci zdroje ukázat během několika minut. Takové vysvětlení bývá přijato lépe než obecné varování před umělou inteligencí.
 
-## 6. Vztah k jiným EA
+Pro novináře platí, že „shoda modelů“ není zpráva; zprávou může být jen to, co doloží nezávislé zdroje s vlastním přístupem k faktům, a to je třeba v textu jasně odlišit.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Pro odborníky je vhodné odpovídat věcně a s odkazem na zdroje, nikoli výsměchem.
 
-- **EA-1.* (Vědomá kontrola informací)** — LLM Confabulation Amplification představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+## 11. Postup při posuzování „shody modelů“
 
-## 7. Vztah k Prismatic platformě
+1. **Zjistit formulaci dotazů**, které výstupy vyvolaly.
+2. **Obměnit otázku** a sledovat, zda se odpovědi mění.
+3. **Požádat o zdroje** a ověřit je.
+4. **Hledat nezávislé lidské zdroje** s vlastním přístupem k faktům.
+5. **Vysvětlit společný původ** modelů, pokud o shodě informujete.
 
-Prismatic Platform implementuje detekci a neutralizaci LLM Confabulation Amplification přes následující komponenty:
+## 12. Prevence a odolnost
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+Odolnost stojí na pochopení, proč shoda modelů není nezávislým svědectvím, a na návyku požadovat zdroj. Vzdělávání může vysvětlovat princip společného původu dat na jednoduchých příkladech. Odborná komunita může předcházet konfabulacím tím, že poctivě a srozumitelně komunikuje, kde je odpověď nejistá, a provozovatelé modelů tím, že nejistotu v odpovědích zviditelní místo toho, aby ji skrývali za plynulý text.
 
-**Doctrine compliance:**
+## Odborný kontext
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+Váha, kterou připisujeme shodě více zdrojů, má racionální jádro: nezávislá svědectví se potvrzují. Goldman (2001) však upozorňuje, že shoda má důkazní hodnotu jen tehdy, když zdroje skutečně nejsou na sobě závislé – když každý má vlastní přístup k faktům a nepřebírá názor jiného. Jazykové modely trénované na podobných datech tuto podmínku nesplňují; jejich shoda je bližší ozvěně jednoho korpusu než souhlasu nezávislých svědků.
 
-## 8. Cross-linky
+Psychologie přidává, že lidé nezávislost zdrojů často neposuzují a reagují na počet hlasů. Efekt iluzorní pravdy ukazuje, že opakované vystavení tvrzení zvyšuje jeho přesvědčivost i u lidí, kteří mají správné znalosti (Fazio et al. 2015). Video či příspěvek, který ukazuje pět modelů s podobnou odpovědí, kombinuje oba mechanismy – zdánlivou nezávislost a opakování.
 
-**Související EA techniky:**
+Z výzkumu oprav dezinformací vyplývá, že účinná oprava nevyvrací jen konkrétní údaj, ale nabízí alternativní vysvětlení, proč omyl vznikl (Lewandowsky et al. 2017). U „AI konsenzu“ je takovým vysvětlením právě společný původ modelů a jejich společné mezery ve znalostech; pochopení této struktury chrání lépe než varování před konkrétní smyšlenkou.
 
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.1.3 Jailbreak Cascade](@/kompendium/techniques/ea-9-1-3-jailbreak-cascade.md)
-- [EA-9.1.4 RAG Context Poisoning](@/kompendium/techniques/ea-9-1-4-rag-context-poisoning.md)
+## Souvislosti pro praxi
 
-**Doktrinální a infrastructure odkazy:**
+Učitelé, lékaři a knihovníci se s „AI konsenzem“ setkávají v přímém rozhovoru a nemají čas na rozsáhlé vysvětlování. Osvědčuje se nabídnout jednoduchý test: položit modelu tutéž otázku jinými slovy, požádat o zdroj a zdroj otevřít. Většina konfabulací se při tomto postupu sama rozpadne a člověk dojde k závěru sám, což je účinnější než přesvědčování. Pro odborné společnosti je užitečné zveřejňovat srozumitelné přehledy témat, kde odpověď skutečně není známa, aby měli lidé k dispozici poctivé „nevíme“.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Literatura
 
----
+- Fazio, L. K., Brashier, N. M., Payne, B. K., & Marsh, E. J. (2015). Knowledge does not protect against illusory truth. *Journal of Experimental Psychology: General*.
+- Goldman, A. I. (2001). Experts: Which ones should you trust? *Philosophy and Phenomenological Research*.
+- Lewandowsky, S., Ecker, U. K. H., & Cook, J. (2017). Beyond misinformation: Understanding and coping with the „post-truth“ era. *Journal of Applied Research in Memory and Cognition*.
 
-## Connect & Contribute
+## Související
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+**Sourozenecké techniky**
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md) – jedna halucinace přenesená řetězem.
+- [EA-9.1.3 Jailbreak Cascade](@/kompendium/techniques/ea-9-1-3-jailbreak-cascade.md) – vynucená shoda modelů.
+- [EA-9.1.10 LLM Recursion Loop](@/kompendium/techniques/ea-9-1-10-llm-recursion-loop.md) – konfabulace fixovaná v datech.
 
----
+**Detekce**
 
-*EA-9.1.8 | Subkategorie 9.1 LLM-mediated EA | Prismatic Compendium | Version 18.4.0*
+- [Detekční signatura: Monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) – mnoho kanálů, jeden původ.
+- [Detekční signatura: Asymetrie amplifikace](@/kompendium/detection-signatures/19-network-amplification-asymmetry.md) – zesílení bez odpovídající opory.
+
+**Obrana a pojmy**
+
+- [Sebe-obrana: Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – ověření nezávislosti.
+- [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) – „AI konsenzus“ proti odbornému konsenzu.
+- [Pluralita signálů](@/glossary/signal-plurality.md) – proč je důležitá nezávislost zdrojů.

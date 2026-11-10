@@ -1,14 +1,15 @@
 +++
 title = "EA-2.1.7 Institucionální vyloučení"
-description = "Delegitimizační technika — Institucionální vyloučení."
+description = "Postupné vytlačení odborníka z komisí, rad a rozhodovacích míst, které mu bere hlas v institucích bez otevřeného sporu. Znaky, odlišení, obrana."
 weight = 2107
+insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-2-1-7", "delegitimizace"]
+tags = ["kompendium", "techniques", "ea-2-1-7", "delegitimizace", "expertni-diskvalifikace", "social"]
 categories = ["academic"]
 
 [extra]
-related_terms = ["ea-2-1-5-citation-suppression", "ea-2-1-6-funding-attack", "ea-2-1-8-reputation-laundering-inverze", "ea-2-1-9-pseudo-konsenzus-vytvoreni"]
+related_terms = ["ea-2-1-3-credentialing-attack", "ea-2-4-1-board-capture", "ea-2-4-10-disciplinary-society-capture", "ea-2-1-6-funding-attack", "socialni-izolace", "delegitimizace"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.1.7"
 ea_category = "2. Scénáře delegitimizace"
@@ -22,88 +23,190 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 # EA-2.1.7 Institucionální vyloučení
 
-## Identifikace
-
-| Atribut | Hodnota |
-|---------|---------|
-| **EA kód** | EA-2.1.7 |
-| **Název** | Institucionální vyloučení |
+| Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-2.1.7` |
 | **Kategorie** | 2. Scénáře [delegitimizace](@/glossary/delegitimizace.md) |
 | **Subkategorie** | 2.1 Expertní diskvalifikace |
-| **Risk level** | High |
-| **Access level** | L2 |
-| **Parent chapter** | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
+| **Přístupová úroveň** | L2 (odborná analýza) |
+| **Riziková úroveň** | Vysoká – odnímá odborníkovi institucionální hlas a ochranu |
+| **Reverzibilita** | Střední; pozice se dají znovu získat, ztracená síť a vliv pomaleji |
+| **Rodičovská kapitola** | [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
+| **Rychlá karta** | [QR: EA-2.1.7](@/kompendium/quick-reference/qr-ea-2-1-7.md) |
 
 ## Definice
 
-Postupné vyřazení experta z klíčových institucionálních pozic, komisí a rozhodovacích orgánů odborné komunity.
+Institucionální vyloučení je **postupné vytlačení odborníka z míst, kde se v instituci
+rozhoduje** – z komisí, vědeckých rad, redakcí, hodnoticích panelů, oborových výborů,
+pracovních skupin a nakonec i z pracovního poměru. Vyloučení se málokdy vyhlásí: člověk
+prostě není znovu nominován, nedostane pozvánku, jeho funkce „vyprší“, agenda se přesune
+jinam.
 
-Tato technika představuje konkrétní operacionalizaci širšího vzorce **Expertní diskvalifikace** v rámci taxonomie **EA — Epistemic Attack**. Cílem není pouze útok na jednotlivý výrok či pozici, ale **systematická eroze legitimity** cíle, jeho hlasu a jeho institucionální váhy.
+Výsledkem je, že odborník zůstává formálně členem instituce, ale ztrácí **hlas**
+(možnost ovlivnit, co instituce považuje za pravdivé a správné) a **ochranu** (nemá už
+spojence v místech, kde se o něm rozhoduje).
 
-## Operační modus
+## Mechanismus (strukturní popis)
 
-Technika **EA-2.1.7** typicky probíhá ve třech fázích:
+1. **Tichá nenominace.** Mandáty se neobnovují, nominace se „zapomenou“; nikdo
+   nerozhodne o vyloučení, rozhodne se jen o jiném složení.
+2. **Přesun agendy.** Rozhodování se přesune do nových neformálních skupin, kam cíl
+   nepatří; formální orgány, v nichž zůstal, ztratí obsah.
+3. **Informační odstřižení.** Cíl se dozvídá o rozhodnutích pozdě nebo vůbec; nemůže
+   reagovat.
+4. **Reputační zdůvodnění.** Pokud se vyloučení vysvětluje, pak obecně: „není týmový hráč“,
+   „komplikuje jednání“, „potřebujeme nové tváře“.
+5. **Kaskáda.** Ztráta jedné pozice snižuje šanci na další; vyloučení se samo urychluje.
 
-### Fáze 1 — Příprava terénu
+Psychologicky odpovídá vzorec tomu, co Kipling Williams zkoumá jako **ostrakismus**:
+být ignorován ohrožuje potřebu příslušnosti, kontroly, sebeúcty a smysluplné existence.
+V institucionální podobě se k tomu přidává ztráta vlivu na kolektivní poznání.
 
-Útočník identifikuje cíl, mapuje jeho **epistemickou síť** (kolegy, instituce, publikační kanály, mediální zázemí) a vyhledává **zranitelná místa**: závislosti na grantech, slabé spojence, kontroverzní výroky v minulosti, izolovatelné subkomunity.
+## Teoretický rámec: ostrakismus a institucionální zrada
 
-### Fáze 2 — Aktivace techniky
+Williams (2007) shrnul výzkum ostrakismu: být ignorován nebo vyloučen ohrožuje čtyři
+základní potřeby – příslušnost, sebeúctu, kontrolu a pocit smysluplné existence. Reakce
+probíhá ve fázích: okamžitá bolest (podobná fyzické), pak snaha znovu získat přijetí
+nebo naopak agrese, a při dlouhodobém vyloučení rezignace, odcizení a depresivní stavy.
+Institucionální vyloučení je ostrakismem v organizační podobě; jeho tichost (nikdo
+nerozhodl, nikdo nevyloučil) ztěžuje i první fázi, protože postižený nemá jasný podnět,
+k němuž by bolest vztáhl.
 
-Aktivace probíhá synchronně přes více vektorů. **Institucionální vyloučení** se nezavede jednorázovou akcí, ale **kaskádou koordinovaných drobných pohybů**, které jednotlivě působí marginálně, ale v součtu produkují **systémový posun**.
+Smithová a Freydová (2014) zavedly pojem *institucionální zrady*: poškození, které
+vzniká, když instituce, na níž člověk závisí, nepředejde křivdě nebo na ni nereaguje.
+Jejich výzkum ukazuje, že institucionální zrada zhoršuje psychické následky původní
+křivdy. Pro Kompendium to znamená, že tiché vyloučení whistleblowera nebo kritika není
+jen personálním rozhodnutím, ale samostatným zdrojem poškození. Hirschman (1970) navíc
+připomíná, že instituce, které potlačují hlas, ztrácejí informace nezbytné pro vlastní
+nápravu.
 
-### Fáze 3 — Stabilizace nového stavu
+## Postup pro posuzovatele
 
-Po dosažení primárního efektu útočník stabilizuje nový stav skrze **institucionální fakty**, **dokumentaci** a **revizionistický narativ**, který činí návrat k předchozímu stavu nákladným nebo nemožným.
+Ombudsman nebo kontrolní orgán by měl sestavit časovou řadu členství dotyčného
+v orgánech a srovnat ji s jinými členy; zjistit, zda obměna proběhla podle pravidel
+a zda byla zdůvodněna; a porovnat ji s datem sporu nebo oznámení. U oznamovatelů je
+nutné posoudit, zda nejde o odvetné opatření, které zákon zakazuje.
 
-## Detekce
+## Fenomenologické znaky (pohled zevnitř)
 
-| Indikátor | Popis | Závažnost | Reakce |
-|-----------|-------|-----------|--------|
-| **Koordinovaná synchronicita** | Více aktérů provádí podobné kroky v krátkém časovém okně | Vysoká | Síťová analýza, mapování koordinace |
-| **Asymetrie kritiky** | Kritika cíle je tvrdší než stejná kritika srovnatelných případů | Střední | Dokumentace asymetrie, externí audit |
-| **Eroze procedurálních standardů** | Standardy se náhle mění specificky pro daný případ | Vysoká | Procedurální archeologie, právní revize |
-| **Narativní konvergence** | Různé zdroje začnou používat identické formulace | Střední | Lingvistická forenzika, šíření narativu |
+| Znak | Jak ho postižený popisuje |
+|---|---|
+| Neviditelnost | „Jako bych byl vzduch – nikdo se se mnou nehádá, jen se mnou nepočítají.“ |
+| Nemožnost konfrontace | Není rozhodnutí, proti kterému by se dalo odvolat. |
+| Nejistota vlastního vnímání | Pochybuje, zda si vyloučení nenamlouvá; srov. [gaslighting](@/glossary/gaslighting.md). |
+| Stud a stažení | Sám začne omezovat účast, aby se vyhnul dalšímu odmítnutí. |
+| Ztráta smyslu | Instituce, do níž investoval roky, ho už „nepotřebuje“. |
 
-## Neutralizace
+## Detekční markery (pohled pozorovatele)
 
-### Individuální obrana
+| Marker | Co může naznačovat |
+|---|---|
+| Mandáty se neobnovují jen u jedné osoby nebo skupiny | Tichá nenominace |
+| Vznik neformálních orgánů, které rozhodují místo formálních | Přesun agendy |
+| Osoba dostává podklady později než ostatní | Informační odstřižení |
+| Obecné charakterové zdůvodnění bez konkrétních událostí | Reputační zdůvodnění |
+| Časová souvislost s kritikou, oznámením nebo sporem | Odveta |
 
-1. **Dokumentace v reálném čase** — Vést **veřejnou kroniku** všech kroků útoku s časovými razítky, jmény aktérů a citacemi.
-2. **Diverzifikace závislostí** — Snížit **single points of failure** v kariéře (více grantů, více platforem, více institucí).
-3. **Spojenecká síť** — Aktivně kultivovat **epistemickou koalici** přesahující jednu instituci nebo jeden okruh kolegů.
+## Rizikové kontexty
 
-### Institucionální obrana
+Whistlebloweři a lidé, kteří upozornili na pochybení; kritici vedení; členové menšinového
+směru v oboru; lidé po návratu z dlouhodobé nepřítomnosti (nemoc, rodičovská dovolená);
+instituce po změně vedení, kde se obměňují „lidé starého režimu“. Riziko je vyšší
+v institucích bez psaných pravidel pro složení orgánů. Strukturní kořen bývá
+v [EA-2.4.1 Zachycení správních orgánů](@/kompendium/techniques/ea-2-4-1-board-capture.md)
+nebo [EA-2.4.4 Zachycení vedení](@/kompendium/techniques/ea-2-4-4-leadership-capture.md).
 
-1. **Procedurální transparence** — Pevné, **veřejně dostupné procedury** pro recenze, evaluace, jmenování, granty.
-2. **Externí audit** — Pravidelné **nezávislé audity** klíčových rozhodovacích procesů institucí.
+## Odlišení
 
-## Vztah k jiným technikám
+- **Běžná rotace.** Obměna orgánů je zdravá; rozhoduje, zda platí pro všechny a podle
+  známých pravidel.
+- **Skutečné pracovní problémy.** Pokud jsou doloženy konkrétní události (neplnění úkolů,
+  porušení pravidel), jde o legitimní rozhodnutí, které může být sporné, ale není vzorcem.
+- **Mobbing.** Heinz Leymann popsal mobbing jako soustavné nepřátelské jednání na
+  pracovišti; institucionální vyloučení může být jeho součástí, ale nemusí obsahovat
+  přímé nepřátelství.
+- **Sociální úzkost a depresivní stažení.** Člověk se může stahovat sám a interpretovat to
+  jako vyloučení; srovnání s faktickými rozhodnutími instituce je zde zásadní.
 
-Technika **EA-2.1.7** se v praxi téměř nikdy nevyskytuje izolovaně. Typicky se kombinuje s technikami **EA-1.X.Y** (přímé útoky na jednotlivé výroky) jako **operační vrstvou** a s ostatními technikami **EA-2.X.Y** (institucionální delegitimizace) jako **strategickou vrstvou**. Identifikace primární techniky pomáhá rozeznat **strukturu kampaně** jako celku.
+## Klinický a právní rámec
 
-## Vztah k platformě
+Klinicky převažují depresivní a úzkostné příznaky, pocit ponížení a ztráta profesní
+identity; u dlouhodobého vyloučení i obraz [institucionální zrady](@/glossary/betrayal-trauma.md),
+kterou Smithová a Freydová popisují jako poškození vzniklé tím, že instituce selže vůči
+člověku, který na ni spoléhá.
 
-Prismatic Platform poskytuje pro detekci a analýzu této techniky následující komponenty:
+Právně jsou relevantní pracovněprávní ochrana před diskriminací a odvetou (zákon
+č. 262/2006 Sb., zákoník práce), pravidla vnitřních předpisů instituce o složení orgánů a
+u oznamovatelů zákon č. 171/2023 Sb., o ochraně oznamovatelů, který zakazuje odvetná
+opatření. Viz [pracovní právo v kontextu EA](@/kompendium/forensic-legal/44-employment-law-EA.md)
+a [rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md).
 
-- **[Decision Engine](@/glossary/decision-engine.md)** — vícezdrojová evidence + uncertainty estimator pro vyhodnocení důvěryhodnosti narativů kolem cíle
-- **OSINT Toolbox** — 128+ adapterů pro mapování koordinace napříč platformami a institucemi
-- **Nabla (∇∞)** — epistemický engine pro modelování útoků na epistemické autority a důvěru
-- **Hawkeye** — síťová analýza pro detekci koordinovaných kampaní a zachycených struktur
+## Obrana a neutralizace
+
+**Pro jednotlivce.** Vést časovou osu nominací, pozvánek a rozhodnutí; žádat písemné
+zdůvodnění složení orgánů; budovat vztahy mimo instituci
+([diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md));
+nezaměňovat odstup od instituce za vlastní selhání.
+
+**Pro instituce.** Psaná pravidla pro složení a obměnu orgánů, zveřejňování nominací,
+oddělení rozhodování o lidech od sporů o obsah. Viz [výstupní pohovor](@/kompendium/organizational-defense/13-exit-interview-EA.md),
+[ombudsman](@/kompendium/organizational-defense/6-ombudsman-role.md) a
+[psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md).
+
+## Zotavení
+
+Zotavení vyžaduje nejen novou pozici, ale i zpracování ztráty: instituce, s níž se člověk
+identifikoval, se k němu obrátila zády. Pomáhá [restrukturace vztahů](@/kompendium/recovery-protocols/subacute-relational-restructuring.md),
+nalezení jiné profesní komunity a v delším horizontu [budování komunity](@/kompendium/recovery-protocols/longterm-community-rebuilding.md).
+
+## Ilustrativní příklad (anonymizovaný kompozit)
+
+Docentka, která v akademickém senátu kritizovala hospodaření fakulty, není v dalším
+období navržena do žádné komise. Pozvánky na porady vedení kateder přestanou chodit
+„omylem“. Agendu doktorského studia, kterou vedla deset let, převezme nová pracovní
+skupina. Nikdo s ní nemluví o důvodech. Po dvou letech zvažuje odchod. Ombudsman fakulty
+na základě její časové osy zjistí, že změny proběhly bez rozhodnutí příslušných orgánů,
+a doporučí jejich přezkum. Docentka se do komisí vrátí; důvěru k vedení fakulty však
+obnovuje mnohem pomaleji než své pozice, což odpovídá zjištěním o institucionální zradě.
+
+## Případy, které techniku ukazují
+
+Anonymizované kompozity: [kult akademické školy](@/kompendium/case-studies/66-academic-school-cult.md)
+a [kult politického okruhu](@/kompendium/case-studies/69-policy-circle-cult.md), kde se
+kritik postupně ocitne mimo všechna rozhodovací místa. Historicky ukazuje vzorec
+v plošném měřítku [československá normalizace](@/kompendium/historical-cases/6-czechoslovak-normalizace.md):
+po roce 1968 vedly politické prověrky k vyloučení tisíců lidí z institucí, vysokých škol
+a výzkumu. Podobně [případ Lysenko](@/kompendium/historical-cases/31-lysenko.md).
+
+## Literatura
+
+- Williams, K. D. (2007). Ostracism. *Annual Review of Psychology*.
+- Leymann, H. (1990). Mobbing and psychological terror at workplaces. *Violence and Victims*.
+- Smith, C. P., & Freyd, J. J. (2014). Institutional betrayal. *American Psychologist*.
+- Hirschman, A. O. (1970). *Exit, Voice, and Loyalty*.
 
 ## Související
 
-- [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) (parent)
-- [Taxonomie EA](@/kompendium/glossary-bridges/taxonomie-ea.md) (klasifikační rámec)
-- [Delegitimizace](@/kompendium/glossary-bridges/delegitimizace.md) (konceptuální základ)
-- [EA-2.1.6](@/kompendium/techniques/ea-2-1-6-funding-attack.md) (sister)
-- [EA-2.1.8](@/kompendium/techniques/ea-2-1-8-reputation-laundering-inverze.md) (sister)
-- [EA-2.1.5](@/kompendium/techniques/ea-2-1-5-citation-suppression.md) (sister)
-- [Gaslighting](@/kompendium/glossary-bridges/gaslighting.md) (související psychologický mechanismus)
-- [Epistemické trauma](@/kompendium/glossary-bridges/epistemicke-trauma.md) (důsledek pro cíl)
+**Sourozenecké a strukturní techniky**
 
-## Connect
+- [EA-2.1.3 Útok na kvalifikaci](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) –
+  častý předstupeň.
+- [EA-2.1.6 Útok na financování](@/kompendium/techniques/ea-2-1-6-funding-attack.md) –
+  souběžná ztráta zdrojů.
+- [EA-2.4.1 Zachycení správních orgánů](@/kompendium/techniques/ea-2-4-1-board-capture.md) –
+  strukturní kořen.
+- [EA-2.4.10 Zachycení odborné společnosti](@/kompendium/techniques/ea-2-4-10-disciplinary-society-capture.md)
+  – vyloučení z oborové komunity.
 
-- **Kompendium**: [Hlavní rozcestník](@/kompendium/_index.md) | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | [Glossary](@/glossary/_index.md)
-- **Platforma**: {{ <cross_link path="/decisions/" text="Decision Engine" /> }} | [OSINT Toolbox](https://prismatic-reality-com.github.io/prismatic-promo/osint/) | {{ <cross_link path="/nabla/" text="Nabla" /> }}
-- **Zpětná vazba**: Pro hlášení nových případů této techniky kontaktujte [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+**Pojmy a případy**
+
+- [Glosář: sociální izolace](@/glossary/socialni-izolace.md) – psychologický rozměr.
+- [Československá normalizace](@/kompendium/historical-cases/6-czechoslovak-normalizace.md)
+  – plošné vyloučení jako politika.
+
+**Pomoc**
+
+- [Pracovní právo v kontextu EA](@/kompendium/forensic-legal/44-employment-law-EA.md) –
+  ochrana před odvetou.
+- [Restrukturace vztahů](@/kompendium/recovery-protocols/subacute-relational-restructuring.md)
+  – obnova sítě.

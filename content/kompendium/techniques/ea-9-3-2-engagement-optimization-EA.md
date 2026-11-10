@@ -1,14 +1,14 @@
 +++
 title = "EA-9.3.2 Engagement Optimization EA"
-description = "Současná digitální EA — engagement optimization ea."
+description = "Vzorec obsahu laděného na kliknutí, sdílení a komentáře na úkor pravdivosti („outrage farming“), který systematicky zvýhodňuje rozhořčení a strach. Znaky a obrana."
 weight = 932
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-3-1-algorithmic-amplification", "ea-9-3-10-trend-manipulation-EA", "ea-9-3-3-feed-personalization-bias", "ea-9-3-4-recommendation-radicalization"]
+related_terms = ["ea-9-3-1-algorithmic-amplification", "ea-9-3-3-feed-personalization-bias", "ea-9-5-3-emotional-meme-engineering", "ea-1-4-2-latentni-emocionalni-modulace"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.3.2"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,108 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Tvorba obsahu cíleně optimalizovaného pro engagement metriky (clicks, shares, comments) na úkor pravdivostní hodnoty — outrage farming.
+*Engagement optimization EA* označuje tvorbu obsahu, který je cíleně optimalizován na metriky zapojení – kliknutí, sdílení, komentáře, dobu sledování – na úkor pravdivosti a souvislostí. Typickou podobou je *outrage farming*: obsah, který vyvolává rozhořčení, strach nebo pocit ohrožení vlastní skupiny, protože tyto emoce spolehlivě vedou k reakci.
 
-V kontextu Prismatic doktríny je Engagement Optimization EA klasifikováno jako **L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.3.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník konstruuje obsah s emocionální triggery (rozhořčení, strach, identity-attack) a A/B testuje varianty; vítězné iterace získávají algoritmickou amplifikaci.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Vzorec stojí na souhře tří prvků. Psychologického: negativní a morálně nabité podněty přitahují pozornost silněji než neutrální. Ekonomického: dosah a příjmy autorů závisejí na zapojení. Technického: obsah lze levně testovat ve variantách a ponechat tu, která vyvolá nejvíc reakcí. Výsledkem je selekce obsahu podle emoční účinnosti, nikoli podle hodnoty. Vzorec nemusí mít ideologický cíl – často jde čistě o výdělek –, ale jeho epistemický účinek je stejný: publikum žije ve stále vzrušenějším obrazu světa, v němž jsou protivníci horší, hrozby bližší a kompromis nemožný.
 
 ## 4. Detekční markery
 
-Emotional valence scoring, content moderation classifiers, source consistency audit, engagement-vs-truth ratio.
+- Titulek slibuje skandál nebo hrozbu, kterou text sám nedoloží.
+- Obsah útočí na skupinovou identitu („oni chtějí zničit naše…“) a vyzývá ke sdílení.
+- Opakující se šablona: šokující tvrzení, emoční obraz, výzva k reakci.
+- Autor nebo stránka publikuje velké množství podobného obsahu napříč tématy, která nesouvisejí.
+- Opravy a vysvětlení se neobjevují; nový rozhořčující obsah nahrazuje starý.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Angažovaná žurnalistika*: může vyvolávat silné emoce, ale opírá se o doložená fakta a nese odpovědnost za chyby. *Satira*: přehání zjevně a s komentářem; neklame o faktech. *[EA-9.5.3 Emotional Meme Engineering](@/kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md)*: tentýž princip v memetické formě.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Dlouhodobé vystavení obsahu optimalizovanému na rozhořčení je spojováno s vyšší úzkostí, cynismem a polarizací, i když velikost účinku se v jednotlivých studiích liší. Pro veřejnou debatu znamená, že pomalé a vyvážené informace prohrávají soutěž o pozornost. Regulační rámec (DSA v EU) se týká hlavně systémových rizik velkých platforem; obsah sám je většinou legální, a proto je klíčová obrana na straně publika a vzdělávání.
 
-## 5. Neutralizační strategie
+Pro reklamní trh má vzorec i ekonomický rozměr: inzerenti, jejichž reklamy se zobrazují vedle rozhořčujícího obsahu, ho nepřímo financují, a proto mohou tlakem na platformy a výběrem umístění přispět ke změně.
 
-**Layer 1 — Detection:**
+## 7. Obrana a zotavení
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+*Uživatel*: všimnout si vlastní reakce („jsem naštvaný – kdo z toho má užitek?“) a odložit sdílení ([Časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md)). *Rodiny a školy*: mluvit o tom, jak obsah na emoce vzniká, bez moralizování. *Redakce*: odolat tlaku metrik; měřit i kvalitu a důvěru, ne jen kliknutí. *Platformy*: nezesilovat obsah jen podle počtu reakcí; zohlednit kvalitu a zpětnou vazbu uživatelů.
 
-**Layer 2 — Containment:**
+## 8. Příklad (anonymizovaný kompozit)
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+Stránka s názvem připomínajícím místní komunitu sdílí denně několik příspěvků o „skandálech“ – údajně nebezpečných přistěhovalcích, zdražování, korupci. Většina příspěvků je přehnaná nebo vytržená z kontextu, ale každý vyvolá stovky komentářů. Jeden z pravidelných čtenářů si po čase všimne, že se po jejich čtení cítí podrážděný a nespí; omezí čas na sítích a začne místo toho číst místní noviny. Popisuje, že se mu „vrátil pocit, že svět je normální“.
 
-**Layer 3 — Resilience:**
+## 9. Meze a otevřené otázky
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Ne každý emočně silný obsah je manipulace; emoce jsou legitimní součástí informace o tom, co je důležité. Otevřené zůstává, jak měřit kvalitu obsahu tak, aby to platformy mohly použít bez cenzury.
 
-**Layer 4 — Accountability:**
+## 10. Pohled zevnitř a práce s postiženým
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Zevnitř se outrage farming prožívá jako morální angažovanost: člověk má pocit, že „konečně vidí pravdu“ a že ho ostatní neberou vážně. Terapeut nebo blízká osoba pomůže víc, když uzná hodnoty, které za rozhořčením stojí, a teprve pak se ptá na zdroje. Dlouhodobě rozhořčení vyčerpává; obnova spánku, kontaktu s lidmi a pozornosti mimo obrazovku je součástí zotavení.
 
-## 6. Vztah k jiným EA
+Pro rodiny, v nichž se jeden člen ponořil do rozhořčujícího obsahu, je užitečné hledat společná témata a aktivity mimo obrazovku, které obnovují vztah bez sporu o politiku.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 11. Vztah k ostatním kategoriím EA
 
-- **EA-1.* (Vědomá kontrola informací)** — Engagement Optimization EA představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+V kapitole 1 popisuje stejnou páku [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – řízení úsudku přes emoci; zde je modulace automatizovaná a testovaná na milionech lidí. Platformní infrastrukturu dodává [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md).
 
-## 7. Vztah k Prismatic platformě
+## 12. Postup při práci s obsahem optimalizovaným na rozhořčení
 
-Prismatic Platform implementuje detekci a neutralizaci Engagement Optimization EA přes následující komponenty:
+1. **Pojmenovat vlastní reakci** a odložit sdílení.
+2. **Ověřit klíčové tvrzení** u primárního zdroje.
+3. **Zjistit autora** a jeho obvyklý obsah.
+4. **Hledat kontext**, který titulek nebo obrázek vynechává.
+5. **Reagovat věcně** nebo nereagovat – komentář obsah zesiluje.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 13. Prevence a odolnost
 
-**Doctrine compliance:**
+Prevence stojí na emoční gramotnosti, vědomé informační dietě a na médiích, která měří i důvěru a kvalitu, ne jen kliknutí. Pro platformy je prevencí omezení zesilování obsahu jen podle intenzity reakcí a zohlednění zpětné vazby uživatelů o kvalitě.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 14. Otázky pro rozhovor a šetření
 
-## 8. Cross-linky
+- Jak se cítíte po čtení svého feedu?
+- Které zdroje vás nejčastěji rozhořčí?
+- Ověřili jste někdy tvrzení, které vás rozzlobilo?
+- Co by se změnilo, kdybyste je přestali sledovat?
 
-**Související EA techniky:**
+## Odborný kontext
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md)
-- [EA-9.3.4 Recommendation Radicalization](@/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md)
-- [EA-9.3.5 Shadowban Coordination](@/kompendium/techniques/ea-9-3-5-shadowban-coordination.md)
+Brady et al. (2017) ukázali, že morálně-emoční výrazy zvyšují šíření obsahu, zvláště uvnitř vlastní ideologické skupiny, a tím posilují polarizaci. Vosoughi, Roy a Aral (2018) zjistili, že nepravdivé zprávy vyvolávaly víc překvapení a znechucení a šířily se rychleji. Obsah optimalizovaný na zapojení tak využívá spolehlivé rysy lidské pozornosti; nepotřebuje lež, stačí mu emoční zkratka.
 
-**Doktrinální a infrastructure odkazy:**
+Haidt (2012) popsal, že morální intuice předcházejí úvaze a že argumenty často slouží k obhajobě toho, co už cítíme. To vysvětluje, proč vyvracení rozhořčujícího obsahu fakty bývá neúčinné. Pennycook a Rand (2019) naopak ukázali, že náchylnost k nepravdivým titulkům souvisí spíš s nedostatkem reflexe než s politickou příslušností; jednoduchá výzva k zamyšlení nad přesností před sdílením může kvalitu sdíleného obsahu zlepšit. Kniha z toho vyvozuje, že obrana stojí na zpomalení, ne na moralizování.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Souvislosti pro praxi
 
----
+Terapeuti a lékaři se s účinky obsahu optimalizovaného na rozhořčení setkávají jako s chronickou podrážděností, úzkostí a poruchami spánku. Užitečné je ptát se klientů, jak tráví čas online a jak se po něm cítí, a nabídnout konkrétní změny – omezení času, výběr zdrojů, offline aktivity. Pro redakce je to výzva odolat tlaku metrik a pro rodiny téma k otevřenému rozhovoru bez výčitek.
 
-## Connect & Contribute
+## Literatura
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+- Brady, W. J., Wills, J. A., Jost, J. T., Tucker, J. A., & Van Bavel, J. J. (2017). Emotion shapes the diffusion of moralized content in social networks. *PNAS*.
+- Haidt, J. (2012). *The Righteous Mind*. Pantheon Books.
+- Pennycook, G., & Rand, D. G. (2019). Lazy, not biased: Susceptibility to partisan fake news is better explained by lack of reasoning than by motivated reasoning. *Cognition*.
+- Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science*.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+## Související
 
----
+**Sourozenecké techniky**
 
-*EA-9.3.2 | Subkategorie 9.3 Sociální platformy | Prismatic Compendium | Version 18.4.0*
+- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md) – infrastruktura zesílení.
+- [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md) – doručení obsahu „správné“ skupině.
+- [EA-9.5.3 Emotional Meme Engineering](@/kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md) – emoční účinnost v memech.
+
+**Detekce**
+
+- [Detekční signatura: Emocionální modulace](@/kompendium/detection-signatures/16-behavioral-emotional-modulation.md) – řízení úsudku emocí.
+
+**Obrana**
+
+- [Sebe-obrana: Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) – práce s vlastní reakcí.
+- [Sebe-obrana: Časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md) – odstup před sdílením.
+- [Sebe-obrana: Rozpočet pozornosti](@/kompendium/self-defense-guides/34-attention-budget.md) – vědomé hospodaření s pozorností.
+
+**Kapitola 1**
+
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – tentýž mechanismus v přímé interakci.

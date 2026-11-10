@@ -1,14 +1,14 @@
 +++
 title = "EA-9.3.7 Platform Coordinated Attack"
-description = "Současná digitální EA — platform coordinated attack."
+description = "Vzorec synchronizované kampaně napříč platformami, v níž se tentýž narativ objeví v krátkém okně všude a vytváří dojem spontánní shody. Znaky, odlišení, obrana."
 weight = 937
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-3-5-shadowban-coordination", "ea-9-3-6-content-moderation-bias", "ea-9-3-8-mass-reporting-coordination", "ea-9-3-9-tag-hijacking-EA"]
+related_terms = ["ea-2-3-6-platform-coordinated-attack", "ea-9-4-7-cross-platform-bot-cascade", "ea-9-4-2-coordinated-inauthentic-behavior", "ea-9-3-10-trend-manipulation-EA"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.3.7"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,112 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Synchronizovaný útok napříč platformami (X, Facebook, TikTok, YouTube) s identickým narativem doručeným v krátkém časovém okně.
+*Platform coordinated attack* je synchronizovaná kampaň, v níž se tentýž narativ – s drobnými obměnami – objeví v krátkém časovém okně na více platformách současně (krátká videa, mikroblogy, sociální sítě, video servery, diskusní fóra). Současný výskyt v různých prostředích má vytvořit dojem, že jde o spontánní a široce sdílené mínění nebo o „všude probíranou“ událost.
 
-V kontextu Prismatic doktríny je Platform Coordinated Attack klasifikováno jako **L1-L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.3.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Síť operátorů publikuje koordinovaný obsah s drobnými variacemi v T0+5min na všech platformách; cross-platform amplifikace vytváří dojem spontánního konsenzu.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Lidé pokládají za nezávislé ty zdroje, které potkávají v různých prostředích: když totéž slyší na více platformách, považují to za potvrzené. Koordinovaná kampaň tento předpoklad využívá – jeden aktér, mnoho kanálů. Každá platforma vidí jen svůj výsek a moderace jedné nevidí, co se děje na ostatních, takže koordinace zůstává nerozpoznaná. Následná pozornost médií („o tomto se mluví na sítích“) z kampaně dělá zprávu. Vzorec spojuje [koordinované neautentické chování](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md) s algoritmickou amplifikací jednotlivých platforem.
 
 ## 4. Detekční markery
 
-Cross-platform coordination forensics, posting timestamp clustering, content fingerprint matching, network graph analysis.
+- Tentýž narativ, slogan nebo obrázek se objeví na více platformách v rozmezí minut až hodin.
+- Obsah se liší jen formou, ne strukturou argumentu a klíčovými formulacemi.
+- Účty, které kampaň šíří, mají podobné vzorce založení, aktivity a sledujících.
+- Kampaň začíná bez zjevného spouštěče (události, zprávy) nebo ho předbíhá.
+- Po krátkém vrcholu kampaň synchronně utichne.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Spontánní reakce na událost*: vzniká na více platformách, ale s rozmanitými formulacemi a postupně. *Přiznaná kampaň*: organizace koordinuje sdílení pod vlastním jménem; legitimní forma advokacie. *[EA-9.4.7 Cross-Platform Bot Cascade](@/kompendium/techniques/ea-9-4-7-cross-platform-bot-cascade.md)*: totéž provedené převážně boty; zde mohou působit i skuteční lidé.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Koordinované kampaně mohou ovlivnit volby, poškodit pověst osob a firem a vytvořit tlak na rozhodovatele. Protože každá platforma vidí jen část, je odhalení otázkou spolupráce platforem, výzkumníků a novinářů. Regulačně se uplatňují pravidla platforem proti neautentickému chování a povinnosti velkých platforem podle DSA posuzovat rizika manipulace; u zahraničních aktérů i bezpečnostní rámec.
 
-## 5. Neutralizační strategie
+Pro volební orgány a bezpečnostní instituce jsou kampaně napříč platformami součástí posuzování rizik voleb a zahraničního vlivu; spolupráce s platformami a výzkumníky před volbami umožňuje rychlejší reakci.
 
-**Layer 1 — Detection:**
+## 7. Obrana a zotavení
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+*Čtenář*: výskyt na více platformách není nezávislé potvrzení; hledat původce a primární zdroj. *Novináři*: neinformovat o „trendu na sítích“ bez analýzy jeho původu. *Postižené osoby a organizace*: dokumentovat napříč platformami, spolupracovat s výzkumníky, reagovat věcně jedním kanálem ([Obrana narativu v PR](@/kompendium/organizational-defense/34-PR-narrative-defense.md)). *Platformy a výzkum*: sdílení poznatků o kampaních s ochranou soukromí uživatelů.
 
-**Layer 2 — Containment:**
+## 8. Příklad (anonymizovaný kompozit)
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+Večer před hlasováním zastupitelstva o územním plánu se na čtyřech platformách objeví stejné tvrzení, že investor podplatil radní. Videa, příspěvky i komentáře používají stejnou formulaci a stejný rozmazaný „dokument“. Ráno o „bouři na sítích“ informuje regionální zpravodajství. Novinář, který kampaň zmapuje, ukáže, že většina účtů vznikla v posledním týdnu a sdílí obsah v rozmezí dvaceti minut. Zastupitelstvo hlasování odloží a požádá o prošetření; obvinění se nepotvrdí.
 
-**Layer 3 — Resilience:**
+## 9. Meze a otevřené otázky
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Rozlišit koordinaci od rychlé spontánní reakce není vždy možné, zvlášť u událostí, které vyvolají silné emoce. Bez přístupu k datům více platforem zůstává analýza nepřímá. Otevřenou otázkou je, jak sdílet údaje mezi platformami bez ohrožení soukromí.
 
-**Layer 4 — Accountability:**
+Otevřené zůstává i to, kdy má být kampaň veřejně označena za koordinovanou: předčasné obvinění může poškodit skutečné lidi, pozdní reakce nechává kampaň působit.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Pro výzkumníky je klíčový přístup k datům více platforem, bez něhož koordinaci nelze spolehlivě doložit.
 
-## 6. Vztah k jiným EA
+Kniha proto doporučuje opatrnost v obou směrech.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 10. Pohled zevnitř a práce s postiženým
 
-- **EA-1.* (Vědomá kontrola informací)** — Platform Coordinated Attack představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Pro cíl kampaně je zkušenost „všude o mně mluví“ zdrcující: zdá se, že se proti němu obrátil celý svět. Pomáhá ukázat skutečný rozsah a původ kampaně – často jde o malou skupinu aktérů s mnoha účty. Psychologická podpora by měla počítat s reakcemi podobnými jako po [mediálním útoku davu](@/kompendium/case-studies/04-medialni-mob-attack.md).
 
-## 7. Vztah k Prismatic platformě
+Pro zaměstnance organizace, která se stala cílem kampaně, je kampaň zátěží, i když nejsou přímo jmenováni; vedení by s nimi mělo otevřeně komunikovat, vysvětlit, co se děje, a nabídnout podporu. Pro jednotlivce, kteří jsou tváří organizace, je vhodná i osobní ochrana – omezení dostupnosti osobních údajů a právní pomoc při výhrůžkách.
 
-Prismatic Platform implementuje detekci a neutralizaci Platform Coordinated Attack přes následující komponenty:
+## 11. Vztah k ostatním kategoriím EA
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+Tentýž vzorec z hlediska [delegitimizace](@/glossary/delegitimizace.md) osoby popisuje [EA-2.3.6 Platform Coordinated Attack](@/kompendium/techniques/ea-2-3-6-platform-coordinated-attack.md) v kapitole 2 (sdílený název, jiný úhel pohledu); tato stránka se soustředí na infrastrukturu a detekci. Organizovaný dav jako nositel útoku je námětem [EA-2.3.4 Mob Coordination](@/kompendium/techniques/ea-2-3-4-mob-coordination.md).
 
-**Doctrine compliance:**
+## 12. Postup při podezření na koordinovanou kampaň
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+1. **Zmapovat výskyty** napříč platformami s časy a účty.
+2. **Porovnat formulace** a vizuální prvky.
+3. **Prověřit účty** – stáří, aktivitu, propojení.
+4. **Spolupracovat s výzkumníky** a novináři na analýze.
+5. **Reagovat věcně** jedním kanálem a nahlásit vzorec platformám.
 
-## 8. Cross-linky
+## 13. Prevence a odolnost
 
-**Související EA techniky:**
+Prevence stojí na spolupráci platforem, výzkumníků a novinářů, na pravidlech proti neautentickému chování a na publiku, které ví, že výskyt na více platformách není nezávislé potvrzení. Pro organizace je prevencí připravený komunikační postup a monitorování zmínek napříč platformami.
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md)
-- [EA-9.3.4 Recommendation Radicalization](@/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md)
+## 14. Otázky pro rozhovor a šetření
 
-**Doktrinální a infrastructure odkazy:**
+- Kdy a kde se narativ objevil poprvé?
+- Jak rychle se objevil na dalších platformách?
+- Které účty ho šířily jako první?
+- Existoval spouštěč, nebo kampaň předběhla událost?
+- Kdo z kampaně těží?
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Odborný kontext
 
----
+Starbird, Arif a Wilson (2019) ukázali, že strategické [informační operace](@/glossary/info-ops.md) nejsou jen dílem centra, které rozesílá obsah, ale kolaborativní prací, do níž se zapojují i skuteční uživatelé v dobré víře; koordinovaná kampaň proto po startu často pokračuje „organicky“. Woolley a Howard (2018) v mezinárodním srovnání doložili, že takové kampaně využívají politické strany i státy. Benkler, Faris a Roberts (2018) popsali, jak se obsah kampaní přelévá mezi okrajovými weby, sociálními sítěmi a velkými médii.
 
-## Connect & Contribute
+Wardle a Derakhshan (2017) doporučují posuzovat informační operace podle aktéra, sdělení a interpreta a sledovat, jak se sdělení mění v jednotlivých fázích. U kampaní napříč platformami je klíčová první fáze – synchronní start –, protože později už koordinaci zakryje organický dosah. Proto kniha zdůrazňuje rychlé zmapování výskytů.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+## Souvislosti pro praxi
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+Pro politiky, firmy a instituce, které se stanou cílem kampaně, je užitečné mít předem domluvenou spolupráci s výzkumnými skupinami a kontakty na platformy. Pro novináře platí, že „bouře na sítích“ je zpráva až tehdy, když je známo, kdo ji vyvolal.
 
----
+## Literatura
 
-*EA-9.3.7 | Subkategorie 9.3 Sociální platformy | Prismatic Compendium | Version 18.4.0*
+- Benkler, Y., Faris, R., & Roberts, H. (2018). *Network [Propaganda](@/glossary/propaganda.md)*. Oxford University Press.
+- Starbird, K., Arif, A., & Wilson, T. (2019). Disinformation as collaborative work. *Proceedings of the ACM on Human-Computer Interaction (CSCW)*.
+- Wardle, C., & Derakhshan, H. (2017). *Information Disorder*. Council of Europe.
+- Woolley, S. C., & Howard, P. N. (Eds.) (2018). *Computational Propaganda*. Oxford University Press.
+
+## Související
+
+**Sourozenecké a příbuzné techniky**
+
+- [EA-2.3.6 Platform Coordinated Attack](@/kompendium/techniques/ea-2-3-6-platform-coordinated-attack.md) – tentýž vzorec z hlediska delegitimizace.
+- [EA-9.4.7 Cross-Platform Bot Cascade](@/kompendium/techniques/ea-9-4-7-cross-platform-bot-cascade.md) – provedení sítí botů.
+- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md) – obecný rámec koordinace.
+- [EA-9.3.10 Trend Manipulation EA](@/kompendium/techniques/ea-9-3-10-trend-manipulation-EA.md) – kampaň jako vyrobený trend.
+
+**Detekce**
+
+- [Detekční signatura: Platformní koordinace](@/kompendium/detection-signatures/21-network-platform-coordination.md) – stopy synchronizace.
+- [Sociální sítě a manipulace v OSINT](@/kompendium/cross-domain/5-ea-osint-social-media-manipulation.md) – metody analýzy.
+
+**Obrana a případ**
+
+- [Obrana narativu v PR](@/kompendium/organizational-defense/34-PR-narrative-defense.md) – reakce organizace.
+- [Mediální mob attack](@/kompendium/case-studies/04-medialni-mob-attack.md) – dopad na cíl kampaně.

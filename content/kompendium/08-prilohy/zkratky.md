@@ -46,10 +46,10 @@ EA-X.Y.Z[-α]
 | Komponenta | Význam | Doména |
 |------------|--------|--------|
 | **EA** | Konstantní prefix | Pevné |
-| **X** | Kapitola (1–10) | 1, 2, ..., 10 |
-| **Y** | Subkategorie (1–9) | 1, 2, ..., 9 |
-| **Z** | Specifický fenomén | 1, 2, ..., 99 |
-| **α** | Volitelná varianta | a, b, c, ... |
+| **X** | Kapitola (1–10) | 1, 2, …, 10 |
+| **Y** | Subkategorie (1–9) | 1, 2, …, 9 |
+| **Z** | Specifický fenomén | 1, 2, …, 99 |
+| **α** | Volitelná varianta | a, b, c, … |
 
 Plná specifikace v [Klasifikačním schématu](@/kompendium/08-prilohy/klasifikace.md).
 
@@ -90,37 +90,37 @@ Plná specifikace v [Klasifikačním schématu](@/kompendium/08-prilohy/klasifik
 
 ## 5. Platformové doctrine zkratky (Prismatic)
 
-Kompendium operuje uvnitř širšího platformového ekosystému Prismatic, který je řízen **18-pillar [doctrine](@/glossary/doctrine.md)**. Zkratky uvedené níže jsou **operativní zkratky platformy**, ne kompendia samotného, ale objevují se v cross-referencích a v citacích.
+Kompendium vzniklo v prostředí platformy Prismatic, jejíž vývoj se řídí **[doktrínou](@/glossary/doctrine.md) o osmnácti pilířích** (stav v době zápisu). Zkratky uvedené níže jsou **zkratkami platformy**, ne knihy samotné, ale objevují se v odkazech a poznámkách řady stránek.
 
 | Zkratka | Plný název | Doména |
 |---------|------------|--------|
-| **3NL** | Three-Nested-Loops (L1+L2+L3) | Architektura |
-| **NMND** | [No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md) | Execution discipline |
-| **NWB** | No Way Back | Permanence |
-| **FLLM** | Flowbite LLM (CSS hygiene) | UI design |
-| **M5M** | Max 5 Minutes | Granular execution |
-| **NCLB** | No Claim Left Behind | Evidence integrity |
-| **TACH** | Total Assurance Comprehensive Hardened | Testing |
-| **ZERO** | Zero Error Runtime Operations | Runtime safety |
-| **PERF** | Performance Engineering Runtime Fence | Performance |
-| **SEAL** | Security Enforcement Absolute Lock | Security |
-| **DEPS** | Dependency Engineering Protection Standard | Dependencies |
-| **DOCS** | Documentation Omnipresent Comprehensive Standard | Documentation |
-| **OTEL** | Observability Telemetry Enforcement Layer | Telemetry |
-| **GITL** | GitLab Integration & Traceability Linkage | Traceability |
-| **KNOW** | Knowledge Coverage | Glossary |
-| **RDME** | README enforcement | Repo hygiene |
-| **NLLB** | No Link Left Behind | Link integrity |
-| **HYGIENE** | Repository hygiene | Repo cleanliness |
+| **3NL** | [Three-Nested-Loops](@/glossary/three-nested-loops.md) (L1+L2+L3) | architektura |
+| **NMND** | [No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md) | disciplína provedení |
+| **NWB** | [No Way Back](@/glossary/nwb.md) | trvalost řešení |
+| **FLLM** | [Flowbite LLM](@/glossary/fllm.md) (čistota stylů) | uživatelské rozhraní |
+| **M5M** | [Max 5 Minutes](@/glossary/m5m.md) | granulární práce |
+| **NCLB** | [No Claim Left Behind](@/glossary/nclb.md) | doložitelnost tvrzení |
+| **TACH** | [Total Assurance Comprehensive Hardened](@/glossary/tach.md) | testování |
+| **ZERO** | [Zero Error Runtime Operations](@/glossary/zero.md) | běhová bezpečnost |
+| **PERF** | Performance Engineering Runtime Fence | výkon |
+| **SEAL** | [Security Enforcement Absolute Lock](@/glossary/seal.md) | bezpečnost |
+| **DEPS** | Dependency Engineering Protection Standard | závislosti |
+| **DOCS** | Documentation Omnipresent Comprehensive Standard | dokumentace |
+| **OTEL** | Observability Telemetry Enforcement Layer | telemetrie |
+| **GITL** | [GitLab Integration & Traceability Linkage](@/glossary/gitl.md) | dohledatelnost změn |
+| **KNOW** | [Knowledge Coverage](@/glossary/know.md) | pokrytí glosářem |
+| **RDME** | README v každé aplikaci | čistota repozitáře |
+| **NLLB** | No Link Left Behind | funkčnost odkazů |
+| **HYGIENE** | Repository hygiene | čistota repozitáře |
 
-> Plný popis viz [hlavní CLAUDE.md](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/CLAUDE.md).
+Pilíře popisují, jak se vyvíjí software platformy; do taxonomie epistemické anihilace nepatří. Kniha je uvádí ze dvou důvodů. Zaprvé se na ně odvolává řada stránek, které vznikly v prostředí platformy, a čtenář bez této tabulky by jejich poznámky nerozluštil. Zadruhé kniha některé pilíře převzala jako redakční zásady: z NCLB požadavek, aby žádné tvrzení nezůstalo bez ověřitelné opory, z NWB a NMND požadavek úplnosti stránek a z NLLB a KNOW požadavek, aby každý odkaz vedl na existující stránku a každý pojem měl heslo. Počet pilířů se mezi verzemi platformy měnil, a údaj „18“ je proto třeba číst jako stav v době zápisu. Výklad každého pilíře, jeho mezí a vztahu ke knize podává heslo [Doctrine](@/glossary/doctrine.md) a hesla jednotlivých pilířů odkázaná v tabulce.
 
 ## 6. Platformové kapacity
 
 | Zkratka | Plný název | Funkce |
 |---------|------------|--------|
 | **NABLA** | NABLA Infinity (∇∞) | Epistemic framework L0–L13 → [Glossary](@/glossary/nabla-infinity.md) |
-| **AIAD** | AI-Augmented Development | Standardní rámec → [AIAD README](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/.aiad/README.md) |
+| **AIAD** | AI-Augmented Development | standard definic agentů → [Glosář](@/glossary/aiad.md) |
 | **DD** | [Due Diligence](@/glossary/due-diligence.md) | Modul pro investigativní práci → {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} |
 | **OSINT** | Open Source Intelligence | Adapter framework |
 | **EASM** | External Attack Surface Management | Perimeter modul |
@@ -196,6 +196,8 @@ Kompendium používá **modifikovaný APA 7. styl**:
 - **Filozofické klasiky**: rok prvního vydání + rok edice použité.
 - **Cross-reference uvnitř kompendia**: Markdown odkazy na relativní cesty.
 
+Od listopadu 2026 platí pro odborné stránky knihy přísnější podoba této konvence. Každý podstatný odstavec se opírá o odkaz v podobě autor–rok, například (Herman 1992), na dílo, o jehož existenci a obsahu není pochyb, a stránka končí oddílem **Literatura** před oddílem **Související**. Kde jistý zdroj chybí, odstavec zůstává bez citace a myšlenka se uvádí jako výklad autora; vymyšlený nebo nejistý odkaz je vždy horší než žádný. Výčty se používají jen tam, kde jde o skutečný výčet – kroky protokolu, kontakty krizových služeb, seznamy odkazů –, ostatní obsah se píše souvislým textem. Citovanou literaturu ze všech stránek shromažďuje generovaný [přehled literatury](@/references.md).
+
 ## 9. URL konvence
 
 | Pattern | Použití |
@@ -216,7 +218,7 @@ Kompendium používá **modifikovaný APA 7. styl**:
 | `🔒 omezený` | Vyžaduje úroveň přístupu L2+ |
 | `⚠️ rizikový` | Obsahuje materiál vyšší citlivosti |
 
-## Cross-referencing s dalšími přílohami
+## Vazby na další přílohy
 
 - [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — citační konvence v kontextu primární literatury.
 - [Rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) — operativní použití EA notace.
@@ -227,8 +229,8 @@ Kompendium používá **modifikovaný APA 7. styl**:
 
 ## Platformový kontext
 
-- [CLAUDE.md](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/CLAUDE.md) — kanonický zdroj 18-pillar doctrine zkratek.
-- [Glossary](@/glossary/_index.md) — všechny domain zkratky mají glosářová hesla.
+- [Doctrine](@/glossary/doctrine.md) — výklad pilířů doktríny a jejich zkratek.
+- [Glosář](@/glossary/_index.md) — všechny domain zkratky mají glosářová hesla.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) — epistemic framework.
 - [3NL](@/glossary/three-nested-loops.md) — architektura platformy.
 - [Color Teams](@/glossary/color-teams.md) — Red/Blue/Purple/Green týmy.
@@ -241,34 +243,37 @@ Místo lineární četby:
 
 1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
 2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
-3. Pokud nenajdeš, zkontroluj [glossary](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
+3. Pokud nenajdeš, zkontroluj [glosář](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
 
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
 > otevři přílohu.
 
-## 🔗 Křížové odkazy
+## Související
 
-### V této sekci
+**Přílohy knihy**
 
-- [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)
-- [Diagnostické dotazníky a nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md)
-- [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md)
-- [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md)
-- [Klasifikační schéma a taxonomie — meta-úroveň](@/kompendium/08-prilohy/klasifikace.md)
+- [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) – úplná specifikace notace EA-X.Y.Z.
+- [Kompletní rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) – všechny kódy na jednom místě.
+- [Index pojmů](@/kompendium/08-prilohy/index-pojmu.md) – dvojjazyčné mapování pojmů a zkratek.
 
-### Klíčové orientační body
+**Platformní zkratky**
 
-- [Hub kompendia](@/kompendium/_index.md) — návrat na úvodní rozcestník
-- [Glossary](@/glossary/_index.md) — terminologický slovník
-- [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární zdroje
-- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — povinné rámce použití
+- [Doctrine](@/glossary/doctrine.md) – soustava pilířů, z níž pocházejí zkratky oddílu 5.
+- [Doktrína NM/ND](@/glossary/nm-nd.md) – zastřešující zásada pilířů.
+- [NCLB](@/glossary/nclb.md) – pilíř, který kniha přebírá jako zásadu doložitelnosti.
+- [1.6 Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) – proč se platformní zkratky v knize objevují.
+
+**Doménové pojmy**
+
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) – systém kódů technik.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – pojem za zkratkou EA.
 
 ---
 
-## Connect & Contribute
+## Kontakt a příspěvky
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Glosář](@/glossary/_index.md) | [Filozofie](@/philosophy/_index.md) | [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

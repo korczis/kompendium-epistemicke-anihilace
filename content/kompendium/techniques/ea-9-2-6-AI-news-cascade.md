@@ -1,14 +1,14 @@
 +++
 title = "EA-9.2.6 AI News Cascade"
-description = "Současná digitální EA — ai news cascade."
+description = "Vzorec, v němž síť generovaných „zpravodajských“ webů publikuje a vzájemně cituje zprávy o události, která se nestala, a vyrábí tak zdání mnohozdrojového pokrytí."
 weight = 926
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-2-4-image-manipulation-EA", "ea-9-2-5-video-manipulation-EA", "ea-9-2-7-synthetic-witness-testimony", "ea-9-2-8-AI-eyewitness-fabrication"]
+related_terms = ["ea-9-2-3-synthetic-text-narrative", "ea-9-2-8-AI-eyewitness-fabrication", "ea-9-4-7-cross-platform-bot-cascade"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.2.6"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,99 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Automatizovaná kaskáda AI-generated 'zpravodajských' článků, které se vzájemně citují a vytvářejí iluzi rozsáhlého mediálního pokrytí jediné fabrikované události.
+*AI news cascade* je kaskáda generovaných článků ve zpravodajském stylu, které publikuje síť webů napodobujících média; články se navzájem citují a vytvářejí dojem, že o události (často smyšlené nebo zásadně zkreslené) informuje mnoho nezávislých redakcí. Agregátory a sociální sítě pak kaskádu dále zesilují.
 
-V kontextu Prismatic doktríny je AI News Cascade klasifikováno jako **L1** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.2.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník nasadí síť AI-news webů, každý publikuje variantu článku citující ostatní; agregátory a sociální sítě amplifikují; vzniká 'vícezdrojový' důkaz neexistující události.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Vzorec padělá to, podle čeho čtenář pozná důvěryhodnou zprávu: zpravodajský styl, název připomínající médium, odkazy na „další zdroje“. Protože weby citují jeden druhého, vede ověřování v kruhu a čtenář, který „si to ověřil na třech webech“, ve skutečnosti potkal tentýž zdroj třikrát. Generování textu umožňuje provozovat desítky takových webů s minimálními náklady. Jde o kombinaci [EA-9.2.3 Synthetic Text Narrative](@/kompendium/techniques/ea-9-2-3-synthetic-text-narrative.md) a [cirkularity citací](@/kompendium/detection-signatures/18-network-citation-circularity.md).
 
 ## 4. Detekční markery
 
-Source graph analysis, publication pattern detection, fact-check cross-reference, domain registration forensics.
+- Weby bez tiráže, bez jmen redaktorů a kontaktů; domény registrované nedávno a hromadně.
+- Články různých webů mají stejnou strukturu, obrázky a citáty, liší se jen formulacemi.
+- Odkazy vedou mezi weby téže sítě; žádný nevede k primárnímu zdroji (úřad, svědek, dokument).
+- Zavedená média o události neinformují, nebo ji uvádějí jako nepotvrzenou.
+- Publikace přichází v krátkém časovém okně a pak se síť odmlčí.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Přebírání agenturní zprávy*: mnoho médií publikuje tutéž zprávu, ale s uvedením zdroje (agentury), který existuje. *Obsahové farmy*: generují text pro reklamu bez konkrétního narativu; kaskáda má směr. *[EA-9.2.8 AI Eyewitness Fabrication](@/kompendium/techniques/ea-9-2-8-AI-eyewitness-fabrication.md)*: smyšlený obrazový „důkaz“ události; kaskáda dodává textové „pokrytí“.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Kaskáda může vyvolat paniku, ovlivnit trhy nebo poškodit pověst konkrétních osob a institucí, než se stihne ověřit. Zároveň oslabuje důvěru ve zpravodajství jako celek. Právně se uplatní pravidla o šíření poplašné zprávy, pomluvě nebo manipulaci trhu podle okolností; z hlediska regulace jde o oblast transparentnosti platforem a vlastnictví médií ([Regulace platforem](@/kompendium/population-health/25-platform-regulation-EA.md)).
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Čtenář*: ověřit, kdo za webem stojí (tiráž, redakce, historie), a hledat primární zdroj, ne další weby. *Redakce a fact-checkeři*: mapovat síť webů, zveřejňovat vazby a postup ověření. *Agregátory a vyhledávače*: snižovat dosah webů bez transparentního vlastnictví a redakce. *Instituce zmíněné ve zprávě*: reagovat rychle oficiálním kanálem a odkazem na ověřitelná fakta.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Během jednoho odpoledne se na desítce webů s názvy připomínajícími regionální noviny objeví zpráva o údajné kontaminaci pitné vody v okresním městě. Články citují „místní úřady“ a navzájem na sebe odkazují. Lidé začnou skupovat balenou vodu. Vodárna a hygienická stanice zveřejní výsledky rozborů; redakce zjistí, že všechny weby byly zaregistrovány v posledním měsíci a sdílejí hostitelskou infrastrukturu.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Ne každý web bez tiráže je součástí kaskády a malá nezávislá média mohou mít podobné znaky. Rozhoduje síťová analýza, ne jednotlivý znak. Otevřené zůstává, jak rychle lze kaskádu zachytit dřív, než způsobí škodu.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Výzkum má k dispozici převážně analýzy jednotlivých sítí; srovnávací data o tom, kolik takových sítí existuje a jak velký mají dosah, chybějí, a kniha proto neuvádí odhady. Otevřená zůstává i otázka, jak by agregátory a vyhledávače měly zacházet s weby, které nejsou zjevně falešné, ale nemají transparentní vlastnictví – plošné omezení by poškodilo i malá nezávislá média.
 
-**Layer 4 — Accountability:**
+Otevřená zůstává i role jazykových modelů, které mohou obsah kaskády převzít a dál ho šířit v odpovědích, což propojuje tento vzorec se smyčkou popsanou v [EA-9.1.10](@/kompendium/techniques/ea-9-1-10-llm-recursion-loop.md).
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+## 10. Pohled zevnitř a práce s postiženým
 
-## 6. Vztah k jiným EA
+Čtenář, který podle kaskády jednal, často pociťuje vztek – na weby i na sebe. Pomáhá vysvětlit, že ověřování „na více webech“ bylo rozumné, jen mu chyběla otázka nezávislosti. Pro komunity, které kaskáda zasáhla (panika, obviňování konkrétních lidí), je důležitá rychlá a srozumitelná komunikace místních autorit.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Pro jednotlivce obviněné v kaskádě je klíčová rychlá veřejná oprava a právní pomoc; jejich zkušenost se podobá mediálnímu útoku davu a zaslouží si podobnou psychologickou podporu, protože dozvuky obvinění přetrvávají ve vyhledávání ještě dlouho po vyvrácení.
 
-- **EA-1.* (Vědomá kontrola informací)** — AI News Cascade představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+## 11. Vztah k ostatním kategoriím EA
 
-## 7. Vztah k Prismatic platformě
+Vzorec je automatizovanou podobou [EA-2.3.5 Pseudo-kontroverze Amplifikace](@/kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md): spor nebo událost se vyrobí a zesílí, dokud se o nich „nemluví všude“. Cirkulární odkazování mezi weby připomíná [EA-2.1.9 Pseudo-konsenzus vytvoření](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md), jen místo odborníků vystupují fiktivní redakce.
 
-Prismatic Platform implementuje detekci a neutralizaci AI News Cascade přes následující komponenty:
+## 12. Postup při podezření na kaskádu
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+1. **Zjistit provozovatele** webů – tiráž, registrace domény, kontakty.
+2. **Zmapovat odkazy** mezi weby a hledat primární zdroj.
+3. **Ověřit u institucí**, které jsou ve zprávě citovány.
+4. **Zveřejnit mapu sítě** a výsledek ověření.
+5. **Upozornit agregátory** a platformy na síť webů.
 
-**Doctrine compliance:**
+## 13. Prevence a odolnost
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+Odolnost publika stojí na návyku zjistit, kdo za zpravodajským webem stojí, a na znalosti několika důvěryhodných zdrojů pro místní i celostátní zprávy. Instituce mohou kaskádám předcházet pravidelnou a srozumitelnou komunikací, díky níž mají lidé kam se obrátit. Pro redakce je prevencí transparentnost – tiráž, jména redaktorů, opravy –, která je odlišuje od napodobenin. Agregátory a vyhledávače mohou snížit dosah webů bez transparentního vlastnictví. Pro školy je vhodné zařadit nácvik ověřování zpravodajských webů do mediální výchovy už na základním stupni.
 
-## 8. Cross-linky
+## Odborný kontext
 
-**Související EA techniky:**
+Wardle a Derakhshan (2017) zdůraznili, že informační poruchu je třeba zkoumat v celém řetězci – aktér, sdělení, interpret – a že stejné sdělení může v různých fázích šíření měnit povahu. Kaskáda generovaných zpráv cílí především na fázi interpretace: čtenář, který ověřuje „na více webech“, uplatňuje rozumnou strategii, ale nezná vztahy mezi zdroji. Wineburg a McGrew (2019) ukázali, že profesionální ověřovatelé místo čtení podezřelé stránky zjišťují, kdo za ní stojí a co o ní říkají jiní; právě tento postup kaskádu rychle odhalí.
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.2.3 Synthetic Text Narrative](@/kompendium/techniques/ea-9-2-3-synthetic-text-narrative.md)
-- [EA-9.2.4 Image Manipulation EA](@/kompendium/techniques/ea-9-2-4-image-manipulation-EA.md)
+Benkler, Faris a Roberts (2018) na americkém mediálním prostředí doložili, že dezinformace se nejúčinněji šíří tam, kde existuje uzavřený ekosystém médií, která se navzájem citují a nepodléhají vnější korekci. Kaskáda generovaných webů je umělou výrobou takového ekosystému. Paul a Matthews (2016) popsali, že mnohost kanálů a opakování zvyšují přesvědčivost i u nekonzistentních sdělení.
 
-**Doktrinální a infrastructure odkazy:**
+## Souvislosti pro praxi
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+Pro redakce a fact-checkingové organizace je užitečné průběžně mapovat sítě webů bez transparentního vlastnictví a sdílet je s ostatními. Pro úřady a firmy zmíněné v kaskádě je klíčová rychlá reakce oficiálním kanálem s odkazem na ověřitelná fakta. Pro školy je kaskáda vhodným příkladem k nácviku laterálního čtení: žáci zjišťují, kdo za webem stojí, místo aby četli jeho obsah.
 
----
+## Literatura
 
-## Connect & Contribute
+- Benkler, Y., Faris, R., & Roberts, H. (2018). *Network [Propaganda](@/glossary/propaganda.md): Manipulation, Disinformation, and Radicalization in American Politics*. Oxford University Press.
+- Paul, C., & Matthews, M. (2016). *The Russian „[Firehose of Falsehood](@/glossary/firehose-of-falsehood.md)“ Propaganda Model*. RAND Corporation.
+- Wardle, C., & Derakhshan, H. (2017). *Information Disorder*. Council of Europe.
+- Wineburg, S., & McGrew, S. (2019). Lateral reading and the nature of expertise. *Teachers College Record*.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+## Související
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+**Sourozenecké techniky**
 
----
+- [EA-9.2.3 Synthetic Text Narrative](@/kompendium/techniques/ea-9-2-3-synthetic-text-narrative.md) – hromadně generovaný text.
+- [EA-9.2.8 AI Eyewitness Fabrication](@/kompendium/techniques/ea-9-2-8-AI-eyewitness-fabrication.md) – obrazový „důkaz“ smyšlené události.
+- [EA-9.4.7 Cross-Platform Bot Cascade](@/kompendium/techniques/ea-9-4-7-cross-platform-bot-cascade.md) – šíření napříč platformami.
 
-*EA-9.2.6 | Subkategorie 9.2 Generativní média | Prismatic Compendium | Version 18.4.0*
+**Detekce**
+
+- [Detekční signatura: Cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md) – weby citující samy sebe.
+- [Detekční signatura: Asymetrie amplifikace](@/kompendium/detection-signatures/19-network-amplification-asymmetry.md) – dosah bez opory.
+
+**Obrana a teorie**
+
+- [Sebe-obrana: Rutina cross-source](@/kompendium/self-defense-guides/36-cross-source-routine.md) – ověřování nezávislých zdrojů.
+- [Herman & Chomsky: Propaganda model](@/kompendium/07-teoreticke-reflexe/herman-chomsky-propaganda-model.md) – filtry zpravodajství.

@@ -1,14 +1,14 @@
 +++
 title = "EA-9.5.8 Meme Context Collapse"
-description = "Současná digitální EA — meme context collapse."
+description = "Vzorec, v němž se při sdílení memu nebo snímku odstraní kontext – ořez, smazané upozornění, chybějící vlákno – a obsah pak nese opačný nebo zkreslený význam."
 weight = 958
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-5-6-frame-war-coordination", "ea-9-5-7-narrative-meme-fusion", "ea-9-5-9-meme-radicalization-pipeline", "ea-9-6-1-algorithmic-decision-bias"]
+related_terms = ["ea-9-5-7-narrative-meme-fusion", "ea-9-5-5-counter-meme-suppression", "ea-9-5-10-meme-attribution-laundering", "ea-2-3-2-context-collapse", "ea-2-3-3-quote-mining"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.5.8"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,109 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Záměrné odebrání kontextu memu při sdílení — bez kontextu meme nese opačný/zkreslený význam, než původně zamýšlel.
+*Meme context collapse* je záměrné odstranění kontextu při sdílení memu, snímku obrazovky nebo citátu: ořízne se část obrazu, smaže upozornění, že jde o satiru, vytrhne se jedna zpráva z vlákna. Bez kontextu obsah nese jiný, často opačný význam, než jaký měl původně, a příjemce ho vykládá podle vlastních očekávání.
 
-V kontextu Prismatic doktríny je Meme Context Collapse klasifikováno jako **L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.5.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník ořízne screenshot, odebere disclaimer, sdílí izolovanou frame; recipient interpretuje frame podle vlastního bias; vzniká masová dezinterpretace.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Sociální sítě slévají různá publika a kontexty do jednoho proudu – sociologie to popisuje jako *context collapse*. Sdělení určené jedné komunitě (ironie, odborná zkratka, vnitřní vtip) se dostane k lidem, kteří kontext nemají. Záměrné odstranění kontextu tento jev zneužívá: vybere výsek, který mimo kontext působí šokujícím dojmem, a nechá publikum, aby ho dovyložilo. Výsledkem může být veřejné odsouzení člověka za výrok, který řekl v opačném smyslu, nebo šíření satiry jako skutečné zprávy. Tentýž princip popisuje v kapitole 2 [EA-2.3.2 Context Collapse](@/kompendium/techniques/ea-2-3-2-context-collapse.md).
 
 ## 4. Detekční markery
 
-Context-restoration forensics, source tracking, full-thread reconstruction, original-intent verification.
+- Snímek je ořízlý; chybí název, autor, datum nebo okolní zprávy.
+- Původní zdroj obsahuje upozornění („satira“, „ironicky“), které ve sdílené verzi chybí.
+- Citát začíná nebo končí uprostřed myšlenky.
+- Sdílená verze vyvolává pohoršení, které původní publikum nepociťovalo.
+- Autor nebo původní komunita vysvětlují, že výrok byl míněn jinak.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Neúmyslná ztráta kontextu*: obsah se šíří a kontext se ztrácí bez záměru; oprava bývá přijata. *[EA-2.3.1 Clip Takeout](@/kompendium/techniques/ea-2-3-1-clip-takeout.md)*: vystřižení úseku videa; collapse se týká memů a snímků. *[EA-9.2.4 Image Manipulation](@/kompendium/techniques/ea-9-2-4-image-manipulation-EA.md)*: obraz je změněn; zde je jen ořezán.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Vytržení z kontextu může zničit pověst člověka, vyvolat vlnu nenávisti a vést ke ztrátě práce. Pro veřejnou debatu znamená, že lidé reagují na výroky, které nikdo neřekl. Právní rámec se uplatní u pomluvy; pro média platí profesní standardy ověření kontextu citací.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Uživatel*: u šokujícího snímku hledat původní zdroj a kontext, než ho sdílí ([Hluboké čtení](@/kompendium/self-defense-guides/35-deep-reading-practice.md)). *Postižený autor*: rychle zveřejnit celý kontext, archivovat původní verzi, vyhledat podporu. *Novináři*: citovat jen s ověřeným kontextem. *Zaměstnavatelé a instituce*: nerozhodovat o postihu podle vytrženého snímku bez ověření.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Lékař na odborném fóru ironicky napíše: „Samozřejmě, očkování způsobuje všechno, i špatné počasí.“ Ořízlý snímek bez kontextu se šíří s komentářem „I lékaři to přiznávají!“. Jiná skupina ho naopak napadá jako „antivaxera“. Lékař zveřejní celé vlákno a jeho nemocnice vydá prohlášení. Mezitím dostává výhrůžky z obou stran.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Kontext je vždy neúplný; každé sdílení něco vynechává. Rozhoduje, zda vynechání mění význam a zda je záměrné. Otevřenou otázkou je, jak by platformy mohly podporovat zachování kontextu (odkazy na originál, upozornění) bez zásahu do svobody sdílení.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Výzkum kolapsu kontextu vychází převážně z kvalitativních studií uživatelů a případových analýz; srovnávací data o tom, jak často jsou výroky záměrně vytrhávány a s jakými následky, chybějí. Otevřené zůstává i to, jak se mění chování lidí, kteří vytržení zažili – zda mluví opatrněji, nebo se z veřejného prostoru stahují úplně.
 
-**Layer 4 — Accountability:**
+## 10. Pohled zevnitř a práce s postiženým
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Člověk, jehož výrok byl vytržen, prožívá šok, bezmoc a pocit, že „nikdo nechce slyšet pravdu“. Může začít mluvit opatrněji nebo se stáhnout. Pomáhá rychlá podpora instituce a blízkých, a pomoc s komunikací kontextu. Dlouhodobě je užitečné zpracovat zkušenost s terapeutem, zvlášť pokud následovalo obtěžování.
 
-## 6. Vztah k jiným EA
+Okolí postiženého by mělo vědět, že veřejná vlna odsouzení obvykle rychle opadá, ale její stopy ve vyhledávání zůstávají; proto je užitečné zveřejnit úplný kontext na místě, které bude dlouhodobě dohledatelné, a požádat média, která o případu psala, o doplnění. Pro samotného člověka je důležité, aby zkušenost nevedla k úplnému umlčení – návrat k veřejnému vystupování, postupně a s podporou, je součástí zotavení.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Pomáhá také, když se instituce, pro kterou člověk pracuje, veřejně postaví za férové posouzení.
 
-- **EA-1.* (Vědomá kontrola informací)** — Meme Context Collapse představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+## 11. Vztah k ostatním kategoriím EA
 
-## 7. Vztah k Prismatic platformě
+Vzorec je memetickou podobou [EA-2.3.2 Context Collapse](@/kompendium/techniques/ea-2-3-2-context-collapse.md) a [EA-2.3.3 Quote Mining](@/kompendium/techniques/ea-2-3-3-quote-mining.md); v argumentaci mu odpovídá [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md), kde je cizí výrok posuzován v nejslabší podobě.
 
-Prismatic Platform implementuje detekci a neutralizaci Meme Context Collapse přes následující komponenty:
+## 12. Otázky pro rozhovor a šetření
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+- Odkud snímek pochází a existuje celý originál?
+- Co předcházelo a co následovalo?
+- Komu byl výrok původně určen?
+- Je v originálu znak ironie nebo satiry?
+- Kdo snímek ořízl a sdílel jako první?
 
-**Doctrine compliance:**
+## 13. Postup pro profesionály
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+1. **Redakce:** ověřit původní zdroj a kontext každého snímku, který publikuje.
+2. **Zaměstnavatel:** při stížnosti na výrok zaměstnance si vyžádat celý kontext a vyslechnout ho.
+3. **Moderátor:** připojit k virálnímu snímku odkaz na originál, pokud existuje.
+4. **Právník:** posoudit, zda šíření vytrženého snímku nenaplňuje znaky pomluvy.
+5. **Terapeut:** podpořit klienta v zvládání veřejného útoku a obnovit jeho důvěru ve vlastní hlas.
 
-## 8. Cross-linky
+## 14. Prevence a odolnost
 
-**Související EA techniky:**
+Prevence spočívá ve zvyku hledat originál, v archivaci vlastních veřejných výroků a v kultuře, která dává lidem šanci vysvětlit, co mysleli. Platformy mohou pomoci funkcemi, které usnadňují návrat k původnímu vláknu.
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.5.3 Emotional Meme Engineering](@/kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md)
-- [EA-9.5.4 Meme Network Amplification](@/kompendium/techniques/ea-9-5-4-meme-network-amplification.md)
+## Odborný kontext
 
-**Doktrinální a infrastructure odkazy:**
+Pojem *context collapse* rozpracovali Marwick a boyd (2011): na sociálních sítích se slévají publika, která by se v běžném životě nepotkala, a autor nemůže předem vědět, kdo jeho sdělení uvidí a jak ho vyloží. boyd (2014) ukázala na dospívajících, že tato situace vede k neustálému vyjednávání o tom, co komu lze říct, a že výroky určené jedné skupině se snadno dostanou k jiné. Záměrné odstranění kontextu tento jev zneužívá – vybere výsek, který mimo původní publikum působí opačně.
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+Wardle a Derakhshan (2017) zařazují pravdivý obsah, který je sdílen v zavádějícím kontextu nebo s odstraněným kontextem, mezi typické formy informační poruchy, protože jednotlivé prvky jsou pravé, a kontrola faktů je proto obtížnější. Phillips (2015) dokládá, že vytržené výroky jsou častým spouštěčem online obtěžování. Ochrana tedy vyžaduje nejen ověření obsahu, ale i rekonstrukci situace, v níž vznikl.
 
----
+## Souvislosti pro praxi
 
-## Connect & Contribute
+Pro zaměstnavatele a instituce je podstatné nerozhodovat o postihu podle snímku obrazovky bez vyžádání celého kontextu a bez slyšení dotčené osoby; rychlá reakce na veřejný tlak často vede k nespravedlivým rozhodnutím, která se později těžko napravují. Pro učitele je užitečné ukazovat na příkladech, jak jeden výrok mění význam podle toho, co ho obklopuje, a cvičit hledání originálu.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+Pro právníky je užitečné vědět, že úplný kontext výroku je často nejsilnějším důkazem při obraně proti pomluvě, a že je proto třeba ho zajistit co nejdříve, dokud je originál dostupný.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+## Literatura
 
----
+- boyd, d. (2014). *It's Complicated: The Social Lives of Networked Teens*. Yale University Press.
+- Marwick, A. E., & boyd, d. (2011). I tweet honestly, I tweet passionately: Twitter users, context collapse, and the imagined audience. *New Media & Society*.
+- Phillips, W. (2015). *This Is Why We Can't Have Nice Things*. MIT Press.
+- Wardle, C., & Derakhshan, H. (2017). *Information Disorder*. Council of Europe.
 
-*EA-9.5.8 | Subkategorie 9.5 Memetická válka | Prismatic Compendium | Version 18.4.0*
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.5.7 Narrative Meme Fusion](@/kompendium/techniques/ea-9-5-7-narrative-meme-fusion.md) – mem nesoucí příběh.
+- [EA-9.5.5 Counter-Meme Suppression](@/kompendium/techniques/ea-9-5-5-counter-meme-suppression.md) – rozmělnění významu.
+- [EA-9.5.10 Meme Attribution Laundering](@/kompendium/techniques/ea-9-5-10-meme-attribution-laundering.md) – ztráta stopy původu.
+
+**Kapitola 2**
+
+- [EA-2.3.2 Context Collapse](@/kompendium/techniques/ea-2-3-2-context-collapse.md) – tentýž princip v médiích.
+- [EA-2.3.3 Quote Mining](@/kompendium/techniques/ea-2-3-3-quote-mining.md) – vytržené citáty.
+
+**Obrana a případ**
+
+- [Sebe-obrana: Hluboké čtení](@/kompendium/self-defense-guides/35-deep-reading-practice.md) – návrat k celku.
+- [Případ: Mediální mob attack](@/kompendium/case-studies/04-medialni-mob-attack.md) – následky vytrženého výroku.

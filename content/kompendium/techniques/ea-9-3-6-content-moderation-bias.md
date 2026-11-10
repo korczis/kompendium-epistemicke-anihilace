@@ -1,14 +1,14 @@
 +++
 title = "EA-9.3.6 Content Moderation Bias"
-description = "Současná digitální EA — content moderation bias."
+description = "Vzorec, v němž systematické zaujatosti automatické moderace – podle jazyka, dialektu nebo tématu – vedou k nerovnému umlčování a jsou zneužitelné proti oponentům."
 weight = 936
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-3-4-recommendation-radicalization", "ea-9-3-5-shadowban-coordination", "ea-9-3-7-platform-coordinated-attack", "ea-9-3-8-mass-reporting-coordination"]
+related_terms = ["ea-9-3-5-shadowban-coordination", "ea-9-3-8-mass-reporting-coordination", "ea-9-6-3-automated-content-takedown"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.3.6"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,112 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Exploatace systematických zaujatostí AI-content-moderation systémů k selektivnímu cenzurování oponentů a propouštění spojenců.
+*Content moderation bias* označuje systematické zaujatosti automatických moderačních systémů – nadměrné odstraňování obsahu v určitém jazyce, dialektu, tématu nebo od určité skupiny a naopak přehlížení obsahu jiného – a jejich vědomé zneužití: aktéři formulují vlastní obsah tak, aby moderaci prošel, zatímco oponenty provokují k reakcím, které moderace zachytí.
 
-V kontextu Prismatic doktríny je Content Moderation Bias klasifikováno jako **L1** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.3.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník identifikuje moderation classifier biases (politická orientace, jazyk, dialect) a frame-uje vlastní obsah pod radarem, zatímco oponenti jsou nadúderně flagováni.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Klasifikátory se učí na příkladech, které nemusí rovnoměrně pokrývat všechny jazyky, dialekty a kontexty. Výsledkem bývá vyšší míra chybných zásahů u menšinových jazyků, u slangu nebo u obsahu, který o násilí či nenávisti *informuje* (žurnalistika, osvěta, svědectví obětí). Kdo tyto slabiny zná, může je využít: vlastní nenávistný obsah zakódovat do eufemismů a kódových slov, a oponenty vyprovokovat k ostré reakci, za kterou budou potrestáni oni. Systém, který má chránit, tak nerovnoměrně umlčuje ty, kdo jsou už tak slabší.
 
 ## 4. Detekční markery
 
-Moderation outcome audits, false-positive/negative analysis, classifier bias testing, appeal rate disparity.
+- Obsah obětí nebo novinářů popisující násilí je odstraňován, zatímco kódovaný nenávistný obsah zůstává.
+- Výrazně vyšší míra zásahů u příspěvků v určitém jazyce nebo dialektu.
+- Opakovaně úspěšná odvolání – znak, že první zásah byl chybný.
+- Provokace následované hromadným nahlašováním reakce provokovaného.
+- Eufemismy a kódová slova, která se rychle mění, když je moderace začne zachycovat.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Nedokonalost moderace*: náhodné chyby bez systematického vzorce. *Rozdílná pravidla platforem*: legitimní, pokud jsou veřejná a uplatňovaná stejně. *[EA-9.3.5 Shadowban Coordination](@/kompendium/techniques/ea-9-3-5-shadowban-coordination.md)*: cílený útok na konkrétní účet; zde systémová nerovnost, kterou lze zneužít.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Nerovnoměrná moderace umlčuje zranitelné skupiny a zároveň jim bere ochranu před nenávistí. Oslabuje důvěru v platformy a může vést k přesunu komunit na méně moderovaná místa. Rámcem jsou pravidla transparentnosti moderace, právo na zdůvodnění a odvolání (DSA v EU) a pravidla zákazu diskriminace. Pro výzkum je klíčový přístup k datům o moderaci.
 
-## 5. Neutralizační strategie
+Pro platformy je zaujatá moderace i reputačním a právním rizikem, protože podkopává důvěru menšinových uživatelů a může naplňovat znaky nepřímé diskriminace. Pro organizace zastupující zranitelné skupiny je užitečné nabízet platformám spolupráci na pravidlech a školení moderátorů, protože právě znalost kontextu je to, co automatickým systémům nejvíce chybí. Pro výzkum je otevřená otázka, jak měřit rovnost moderace mezi jazyky, které mají velmi rozdílný objem obsahu.
 
-**Layer 1 — Detection:**
+## 7. Obrana a zotavení
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+*Postižení uživatelé*: využívat odvolání, dokumentovat chybné zásahy, sdílet je s organizacemi, které moderaci sledují. *Novináři a osvětové organizace*: uvádět kontext u obsahu o násilí; spolupracovat s platformami na výjimkách. *Platformy*: pravidelné audity zaujatosti podle jazyka a skupiny, lidská revize u hraničních případů. *Regulátoři a výzkum*: zveřejňování statistik moderace a odvolání.
 
-**Layer 2 — Containment:**
+## 8. Příklad (anonymizovaný kompozit)
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+Romská aktivistka sdílí snímky nenávistných komentářů, které dostává, aby upozornila na problém. Její příspěvky jsou opakovaně odstraněny za „nenávistný obsah“, zatímco původní komentáře psané v kódových výrazech zůstávají. Organizace, která moderaci sleduje, shromáždí podobné případy a předá je platformě i regulátorovi; po revizi platforma upraví postup pro obsah, který nenávist dokumentuje.
 
-**Layer 3 — Resilience:**
+## 9. Meze a otevřené otázky
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Prokázat systematickou zaujatost bez přístupu k datům platforem je obtížné a jednotlivé případy mohou být nereprezentativní. Otevřenou otázkou je, jak moderovat ve stovkách jazyků s rovnou kvalitou a jak chránit svědectví o násilí.
 
-**Layer 4 — Accountability:**
+Kniha neuvádí čísla o rozdílech v moderaci mezi jazyky a skupinami, protože veřejně dostupná data jsou neúplná; odkazuje na kvalitativní a případové poznatky výzkumu.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Otevřenou otázkou je i to, zda lze spravedlivě moderovat ve stovkách jazyků s rovnou kvalitou, a pokud ne, jak mají platformy o této nerovnosti informovat uživatele. Kniha považuje za minimum otevřené přiznání, kde moderace funguje hůř, aby uživatelé a regulátoři mohli jednat.
 
-## 6. Vztah k jiným EA
+Pro zasažené uživatele je užitečné vědět, že úspěšné odvolání není výjimkou a že má smysl ho podat.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 10. Pohled zevnitř a práce s postiženým
 
-- **EA-1.* (Vědomá kontrola informací)** — Content Moderation Bias představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+Uživatel, který je opakovaně trestán za to, že se brání nebo mluví o vlastní zkušenosti, prožívá dvojí křivdu – útok a pak umlčení. Je to blízké tomu, co kniha popisuje jako [epistemickou nespravedlnost](@/glossary/epistemicka-injustice.md): jeho slovo má menší váhu. Pomáhá uznání křivdy a propojení s komunitou a organizacemi, které mohou jednat systémově.
 
-## 7. Vztah k Prismatic platformě
+Pro moderátory komunit, kteří vidí nerovnost zásahů, je důležité mít možnost ji eskalovat a nezůstat s pocitem bezmoci; i jejich zkušenost je cenným zdrojem pro audit.
 
-Prismatic Platform implementuje detekci a neutralizaci Content Moderation Bias přes následující komponenty:
+## 11. Vztah k ostatním kategoriím EA
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+Nerovnost v tom, čí slovo platí, rozebírá teoreticky kapitola o [sociální epistemologii](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) (Fricker 2007). Provokace s cílem vyvolat potrestatelnou reakci odpovídá dynamice [DARVO](@/glossary/darvo.md) v digitálním prostředí: útočník se stává „obětí“ a oběť „útočníkem“.
 
-**Doctrine compliance:**
+## 12. Postup při podezření na zaujatou moderaci
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+1. **Dokumentovat zásahy** – obsah, datum, zdůvodnění, výsledek odvolání.
+2. **Porovnat s podobným obsahem**, který zůstal.
+3. **Využít odvolání** s kontextem a odkazem na pravidla.
+4. **Předat případy** organizacím, které moderaci sledují.
+5. **Podat podnět** regulátorovi, pokud se vzorec opakuje.
 
-## 8. Cross-linky
+## 13. Prevence a odolnost
 
-**Související EA techniky:**
+Prevence stojí na auditech moderace podle jazyka a skupin, na lidské revizi hraničních případů a na spolupráci platforem s organizacemi zastupujícími zranitelné skupiny. Pro uživatele je užitečné uvádět kontext u obsahu, který dokumentuje nenávist nebo násilí.
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md)
-- [EA-9.3.4 Recommendation Radicalization](@/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md)
+## 14. Otázky pro rozhovor a šetření
 
-**Doktrinální a infrastructure odkazy:**
+- Jaký obsah byl odstraněn a s jakým zdůvodněním?
+- Zůstal podobný obsah od jiných autorů?
+- Bylo odvolání úspěšné?
+- V jakém jazyce nebo dialektu byl obsah napsán?
+- Předcházela zásahu provokace?
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Odborný kontext
 
----
+Gillespie (2018) ukázal, že pravidla moderace i jejich uplatňování nesou hodnotová rozhodnutí a že platformy tato rozhodnutí činí ve velkém měřítku a s omezenou transparentností. Gorwa, Binns a Katzenbach (2020) upozornili, že automatické klasifikátory mají nerovnoměrnou přesnost napříč jazyky a kontexty a že chyby se systémově soustřeďují. Noble (2018) na příkladu vyhledávačů doložila, jak algoritmické systémy reprodukují rasové a genderové stereotypy.
 
-## Connect & Contribute
+Fricker (2007) popsala svědeckou nespravedlnost – situaci, kdy výpověď ztrácí váhu kvůli předsudku vůči mluvčímu. Zaujatá moderace je její technickou podobou: svědectví obětí o nenávisti je odstraněno, zatímco kódovaná nenávist zůstává. Kniha proto chápe nerovnou moderaci nejen jako technickou chybu, ale jako epistemickou nespravedlnost, která zesiluje existující nerovnosti v tom, čí slovo platí.
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+## Souvislosti pro praxi
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+Pro platformy je užitečné pravidelně zveřejňovat statistiky moderace a odvolání podle jazyků a kategorií. Pro neziskové organizace je cenné vést přehledy kódových výrazů, které moderace nezachycuje, a sdílet je s platformami. Pro výzkumníky je klíčový přístup k datům, který evropská regulace velkým platformám ukládá.
 
----
+## Literatura
 
-*EA-9.3.6 | Subkategorie 9.3 Sociální platformy | Prismatic Compendium | Version 18.4.0*
+- Fricker, M. (2007). *Epistemic Injustice*. Oxford University Press.
+- Gillespie, T. (2018). *Custodians of the Internet*. Yale University Press.
+- Gorwa, R., Binns, R., & Katzenbach, C. (2020). Algorithmic content moderation. *Big Data & Society*.
+- Noble, S. U. (2018). *Algorithms of Oppression: How Search Engines Reinforce Racism*. NYU Press.
+
+## Související
+
+**Sourozenecké techniky**
+
+- [EA-9.3.5 Shadowban Coordination](@/kompendium/techniques/ea-9-3-5-shadowban-coordination.md) – cílené ztlumení účtu.
+- [EA-9.3.8 Mass Reporting Coordination](@/kompendium/techniques/ea-9-3-8-mass-reporting-coordination.md) – hromadné nahlašování.
+- [EA-9.6.3 Automated Content Takedown](@/kompendium/techniques/ea-9-6-3-automated-content-takedown.md) – chybná automatická odstranění.
+
+**Pojmy a teorie**
+
+- [Epistemická nespravedlnost](@/glossary/epistemicka-injustice.md) – čí slovo má váhu.
+- [DARVO](@/glossary/darvo.md) – obrácení role oběti a útočníka.
+- [Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) – teoretický rámec.
+
+**Kritika a obrana**
+
+- [Kulturní zaujatost EA kategorií](@/kompendium/critical-perspectives/10-cultural-bias-critique.md) – i kategorie mohou být zaujaté.
+- [Sebe-obrana: Mobilizace podpory](@/kompendium/self-defense-guides/30-support-mobilization.md) – systémová reakce.

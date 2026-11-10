@@ -1,14 +1,14 @@
 +++
 title = "EA-9.2.5 Video Manipulation EA"
-description = "Současná digitální EA — video manipulation ea."
+description = "Vzorec, v němž se v pravém videu AI nástroji změní jen dílčí prvek – předmět, nápis, gesto – a záznam tak dokládá něco jiného, než se stalo. Znaky a obrana."
 weight = 925
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-2-3-synthetic-text-narrative", "ea-9-2-4-image-manipulation-EA", "ea-9-2-6-AI-news-cascade", "ea-9-2-7-synthetic-witness-testimony"]
+related_terms = ["ea-9-2-1-deepfake-personality", "ea-9-2-4-image-manipulation-EA", "ea-9-2-8-AI-eyewitness-fabrication"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.2.5"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,101 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Frame-level AI modifikace videa (style transfer, inpainting, [deepfake](@/glossary/deepfake.md) objects) pro selektivní zkreslení reality bez full deepfake reproduction.
+*Video manipulation EA* je úprava vybraných prvků skutečného videozáznamu – předmětu v ruce, nápisu, loga, gesta, pozadí – generativními nástroji, přičemž zbytek záznamu zůstává pravý. Na rozdíl od úplného [deepfaku](@/glossary/deepfake.md) se nevytváří nový projev osoby, ale mění se detail, na němž závisí výklad události.
 
-V kontextu Prismatic doktríny je Video Manipulation EA klasifikováno jako **L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.2.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník upraví dílčí elementy reálného videa (logo, text, objekt v ruce) — zachová maximum původního obsahu; obtížnější forenzní detekce než plný deepfake.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Vzorec stojí na tom, že pravá část záznamu propůjčuje věrohodnost upravené části. Pozorovatel ověřuje, co může: místo, osoby, čas – a to vše sedí. Sporný detail (držel nůž, nebo telefon? jaký nápis měl transparent?) se ověřuje mnohem hůř. Patří sem i jednodušší zásahy, které nevyžadují AI: zpomalení, zrychlení, vystřižení úseku, zavádějící střih. Společné je, že záznam se stává argumentem pro výklad, který neodpovídá události.
 
 ## 4. Detekční markery
 
-Frame-by-frame error analysis, temporal consistency checks, optical flow anomalies, source video matching.
+- Existuje delší nebo jiná verze záznamu, v níž sporný detail vypadá jinak.
+- Nepravidelnosti v pohybu, osvětlení nebo okrajích předmětu mezi snímky; „plavání“ textur.
+- Záznam je zkrácený přesně kolem sporného okamžiku; chybí, co předcházelo a následovalo.
+- Šířená verze má horší kvalitu než očekávaný originál; metadata chybějí.
+- Svědci nebo jiné kamery zachycují situaci odlišně.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Střih a kontext*: pravé záběry poskládané zavádějícím způsobem; manipulace výkladem, ne obrazem. *[EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)*: syntetický projev osoby jako celek. *Technické artefakty*: komprese a nízké rozlišení vytvářejí podobné vady bez úmyslu; rozhodne originál.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Upravené video může ovlivnit vyšetřování, soudní řízení i veřejnou reakci na incident (protest, zákrok, nehodu). Pro posouzení je nezbytný originální záznam s metadaty a dokumentovaný původ ([Elektronické důkazy](@/kompendium/forensic-legal/35-electronic-evidence-EA.md)). Právní hodnocení závisí na účelu: pomluva, padělání důkazu, podněcování.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Čtenář*: hledat původní a delší verzi, další úhly pohledu a zdroj prvního zveřejnění. *Redakce*: pracovat s originálem, porovnávat více zdrojů, při nejistotě to otevřeně uvést. *Vyšetřovatelé*: zajistit originály ze zařízení a kamer co nejdříve, než se rozšíří upravené verze. *Postižená osoba*: získat vlastní nebo nezávislé záznamy, požádat o forenzní posouzení.
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Po potyčce na demonstraci se šíří krátké video, na němž má jeden z účastníků v ruce předmět připomínající zbraň. Novinář získá původní záznam od autora: předmět je skládací deštník, šířená verze je zkrácená a v místě předmětu nese stopy úpravy. Redakce zveřejní srovnání obou verzí a postup ověření. Šiřitelé upravené verze tvrdí, že „originál je ten zfalšovaný“ – spor se přesune k otázce původu, kterou lze doložit.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Rozpoznat malou úpravu ve videu je technicky náročné a vyžaduje originál; bez něj zůstává posouzení nejisté. Otevřenou otázkou je, jak zajistit dostupnost originálů, aniž by se ohrozilo soukromí lidí na záznamech.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Zůstává také otázkou, jak informovat veřejnost o manipulacích, aniž by se upravená verze dál šířila; srovnání obou verzí může nechtěně zvýšit dosah té nepravé.
 
-**Layer 4 — Accountability:**
+Další otevřenou otázkou je dlouhodobá archivace originálů, bez níž nebude možné ani po letech doložit, jak záznam vypadal.
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+## 10. Pohled zevnitř a práce s postiženým
 
-## 6. Vztah k jiným EA
+Člověk, kterého upravené video vykresluje jako agresora, čelí rychlé sociální odsouzení, často dřív, než se může bránit. Prožívá šok a bezmoc; okolí mu nemusí věřit. Užitečná je rychlá právní a komunikační pomoc, ale i psychická podpora při zvládání vlny nenávisti. Po očištění pomáhá veřejná oprava stejně viditelná jako původní obvinění.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+Pro rodinu postiženého je důležité vědět, že i jejich soukromí může být zasaženo, a mít podporu při jednání s médii a při ochraně dětí před vlnou nenávisti, která se často přelévá i do školy a sousedství.
 
-- **EA-1.* (Vědomá kontrola informací)** — Video Manipulation EA představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+## 11. Vztah k ostatním kategoriím EA
 
-## 7. Vztah k Prismatic platformě
+Starší, netechnologickou podobou je [EA-2.3.1 Clip Takeout](@/kompendium/techniques/ea-2-3-1-clip-takeout.md) – vystřižení úseku z kontextu – a [EA-2.3.2 Context Collapse](@/kompendium/techniques/ea-2-3-2-context-collapse.md). Generativní úprava přidává možnost změnit i samotný obsah záběru, takže kontrola kontextu už nestačí a rozhoduje původ záznamu.
 
-Prismatic Platform implementuje detekci a neutralizaci Video Manipulation EA přes následující komponenty:
+Pro klinickou a forenzní praxi z toho plyne obecné pravidlo celé subkategorie 9.2: videozáznam je stopa, nikoli svědectví, a jeho váha závisí na tom, jak dobře je doložen jeho vznik a cesta k posuzovateli. Kde tato cesta chybí, je namístě opatrnost i u záznamů, které působí přesvědčivě, a zároveň respekt k lidem, jejichž výpověď záznamu odporuje.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## 12. Postup při sporném videu
 
-**Doctrine compliance:**
+1. **Najít první zveřejnění** a autora záznamu.
+2. **Získat delší nebo původní verzi** a porovnat ji se šířenou.
+3. **Hledat další úhly pohledu** – jiné kamery, svědky, oficiální záznamy.
+4. **Zajistit originál** forenzně, pokud jde o řízení.
+5. **Zveřejnit srovnání** s postupem ověření, ne jen vyvrácení.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+## 13. Prevence a odolnost
 
-## 8. Cross-linky
+Prevence stojí na návyku hledat původní a delší verzi záznamu a na pochopení, že pravá část videa nedokládá pravost celku. Pro organizace, jejichž činnost je často natáčena (policie, pořadatelé akcí, školy), je užitečné uchovávat vlastní záznamy s doloženým původem. Systémově pomáhají standardy původu obsahu a pravidla redakcí, podle nichž se sporné záznamy zveřejňují jen s popsaným postupem ověření a s otevřeně uvedenou nejistotou tam, kde originál chybí.
 
-**Související EA techniky:**
+## Odborný kontext
 
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.2.3 Synthetic Text Narrative](@/kompendium/techniques/ea-9-2-3-synthetic-text-narrative.md)
-- [EA-9.2.4 Image Manipulation EA](@/kompendium/techniques/ea-9-2-4-image-manipulation-EA.md)
+Výzkum dezinformací rozlišuje plně vymyšlený obsah od obsahu, který je pravý, ale zmanipulovaný nebo vytržený z kontextu (Wardle a Derakhshan 2017). Dílčí úprava videa patří mezi nejobtížněji odhalitelné formy, protože většina záznamu obstojí při jakékoli kontrole. Chesney a Citron (2019) upozorňují, že s rozšířením manipulací roste „dividenda lháře“ – i pravý záznam lze zpochybnit tvrzením, že byl upraven; spor se pak vede o původ, nikoli o obsah.
 
-**Doktrinální a infrastructure odkazy:**
+Psychologie svědectví ukazuje, že i drobná změna informace po události ovlivňuje, jak si ji lidé pamatují: klasické experimenty Loftusové a Palmera (1974) doložily, že formulace otázky změnila odhad rychlosti aut ve videu i vzpomínku na rozbité sklo, které ve videu nebylo. Upravené video tak může ovlivnit nejen veřejnost, ale i skutečné svědky, kteří ho uvidí dřív, než vypovídají. Proto vyšetřovací praxe doporučuje vyslechnout svědky co nejdříve a zaznamenat, jaký obsah o události viděli (Wells a Olson 2003).
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+## Souvislosti pro praxi
 
----
+Pro vyšetřovatele je důležité zajistit originály záznamů ze zařízení a kamer okamžitě, protože upravené verze se šíří rychle a originály mohou zmizet. Pro redakce platí, že srovnání upravené a původní verze, zveřejněné s postupem ověření, je účinnější než pouhé vyvrácení. Pro obhájce a zástupce obětí je užitečné trvat na forenzním posouzení u záznamů, které rozhodují o výkladu události.
 
-## Connect & Contribute
+## Literatura
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+- Chesney, R., & Citron, D. K. (2019). Deep fakes: A looming challenge for privacy, democracy, and national security. *California Law Review*.
+- Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. *Journal of Verbal Learning and Verbal Behavior*.
+- Wardle, C., & Derakhshan, H. (2017). *Information Disorder*. Council of Europe.
+- Wells, G. L., & Olson, E. A. (2003). Eyewitness testimony. *Annual Review of Psychology*.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+## Související
 
----
+**Sourozenecké techniky**
 
-*EA-9.2.5 | Subkategorie 9.2 Generativní média | Prismatic Compendium | Version 18.4.0*
+- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md) – syntetický projev osoby.
+- [EA-9.2.4 Image Manipulation EA](@/kompendium/techniques/ea-9-2-4-image-manipulation-EA.md) – tentýž princip u fotografie.
+- [EA-9.2.8 AI Eyewitness Fabrication](@/kompendium/techniques/ea-9-2-8-AI-eyewitness-fabrication.md) – celá smyšlená událost.
+
+**Forenzika**
+
+- [Elektronické důkazy](@/kompendium/forensic-legal/35-electronic-evidence-EA.md) – originál a metadata.
+- [Zachování důkazů](@/kompendium/forensic-legal/32-evidence-preservation.md) – včasné zajištění záznamů.
+
+**Detekce a obrana**
+
+- [Detekční signatura: Posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md) – změna výkladu události.
+- [Sebe-obrana: Detekce AI obsahu](@/kompendium/self-defense-guides/40-ai-content-detection.md) – praktické kontroly.

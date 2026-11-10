@@ -106,7 +106,7 @@ Detailní popis notace viz [Klasifikační schéma](@/kompendium/08-prilohy/klas
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-| `EA-3.1.1` | Pseudokritické myšlení | Trénink "kritičnosti" zaměřený výhradně na vnější autority. |
+| `EA-3.1.1` | Pseudokritické myšlení | Trénink „kritičnosti“ zaměřený výhradně na vnější autority. |
 | `EA-3.1.2` | Internalizace metaframu | Adopce výkladového rámce jako vlastního světonázoru. |
 | `EA-3.2.1` | Konfesní cyklus | Periodická veřejná sebedeklarace upevňující skupinovou loyalitu. |
 | `EA-3.2.2` | Pedagogická triangulace | Učitel hraje roli jak autority, tak rivala, tak průvodce. |
@@ -287,7 +287,7 @@ Třicet hesel ve třech skupinách. Každé popisuje myšlenku autora, to, co z 
 | Plánovaná finální velikost | **150 technik** napříč 10 kapitolami |
 | Aktuální stav | **~15%** publikovaných v plné formě |
 
-## Cross-referencing s dalšími přílohami
+## Vazby na další přílohy
 
 - [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární literatura k jednotlivým kategoriím technik.
 - [Index pojmů](@/kompendium/08-prilohy/index-pojmu.md) — anglické ekvivalenty kanonizovaných českých termínů.
@@ -300,7 +300,7 @@ Třicet hesel ve třech skupinách. Každé popisuje myšlenku autora, to, co z 
 
 Master rejstřík je propojen s běžícími systémy:
 
-- [Glossary](@/glossary/_index.md) — každý kanonizovaný název má glosářové heslo.
+- [Glosář](@/glossary/_index.md) — každý kanonizovaný název má glosářové heslo.
 - [Color Teams](@/glossary/color-teams.md) — [Red Team](@/glossary/red-team.md) scénáře čerpají z této taxonomie.
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — kalibrace důvěry využívá EA kódy jako negativní signály.
 - [3NL architektura](@/glossary/three-nested-loops.md) — L1 (logika) ↔ L2 (neurální) ↔ L3 (lingvistika) mapuje kapitoly 1–5 podle dominantní vrstvy.
@@ -312,34 +312,38 @@ Místo lineární četby:
 
 1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
 2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
-3. Pokud nenajdeš, zkontroluj [glossary](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
+3. Pokud nenajdeš, zkontroluj [glosář](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
 
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
 > otevři přílohu.
 
-## 🔗 Křížové odkazy
+## Související
 
-### V této sekci
+**Navigace v taxonomii**
 
-- [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)
-- [Diagnostické dotazníky a nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md)
-- [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md)
-- [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md)
-- [Klasifikační schéma a taxonomie — meta-úroveň](@/kompendium/08-prilohy/klasifikace.md)
+- [Knihovna technik](@/kompendium/techniques/_index.md) – podrobné články ke všem kódům.
+- [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) – podle čeho se kódy přidělují.
+- [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) – formát EA-X.Y.Z a jeho varianty.
+- [Index pojmů](@/kompendium/08-prilohy/index-pojmu.md) – pojmy, k nimž techniky patří.
 
-### Klíčové orientační body
+**Kapitoly s technikami**
 
-- [Hub kompendia](@/kompendium/_index.md) — návrat na úvodní rozcestník
-- [Glossary](@/glossary/_index.md) — terminologický slovník
-- [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární zdroje
-- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — povinné rámce použití
+- [03. Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) – techniky EA-1 až EA-3.
+- [04. Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) – sekvence vedoucí k systémové destrukci.
+- [05. Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) – nejzávažnější skupina.
+- [06. Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) – detekce a léčba.
+- [7. Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – teoretické rámce EA-7.
+
+**Glosář**
+
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) – heslo o systému kódů.
 
 ---
 
-## Connect & Contribute
+## Kontakt a příspěvky
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Techniques](@/kompendium/techniques/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Techniky](@/kompendium/techniques/_index.md) | [Glosář](@/glossary/_index.md) | [Filozofie](@/philosophy/_index.md) | [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -1,14 +1,14 @@
 +++
 title = "EA-9.1.5 LLM Narrative Injection"
-description = "Současná digitální EA — llm narrative injection."
+description = "Vzorec, v němž se do kontextu AI konverzace vloží narativní premisy a model je pak reprodukuje jako „objektivní analýzu“. Znaky, odlišení od chyby a obrana."
 weight = 915
 
 [taxonomies]
-tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "AI"]
-categories = ["academic", "digital", "AI"]
+tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "ai"]
+categories = ["academic", "digital", "ai"]
 
 [extra]
-related_terms = ["ea-9-1-3-jailbreak-cascade", "ea-9-1-4-rag-context-poisoning", "ea-9-1-6-llm-source-attribution-bypass", "ea-9-1-7-synthetic-expertise-claim"]
+related_terms = ["ea-9-1-9-multi-turn-narrative-shift", "ea-9-1-2-prompt-injection-EA", "ea-9-4-9-bot-narrative-injection"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.1.5"
 ea_category = "9. Současná digitální EA"
@@ -35,136 +35,94 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Risk level:** Moderate-High
 **[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
-Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
-
 ## 2. Definice
 
-Vkládání narativních rámců (frame, archetyp, příběh) do LLM kontextu tak, aby model následně reprodukoval narativ jako 'objektivní analýzu'.
+*LLM narrative injection* je vložení narativního rámce – premisy, archetypu, příběhu – do kontextu, s nímž jazykový model pracuje, tak, že model rámec převezme a jeho výstup ho reprodukuje jako neutrální analýzu. Na rozdíl od vloženého pokynu nejde o příkaz, ale o předpoklad, který model přijme za daný („jak víme, X je Y“).
 
-V kontextu Prismatic doktríny je LLM Narrative Injection klasifikováno jako **L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.1.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+## 3. Mechanismus (strukturálně)
 
-## 3. Operační modus
-
-Útočník v dlouhém kontextu nenápadně etabluje narativní premisy ('jak víme, X je Y'); model přijme premisy za dané a generuje analýzy, které je posilují.
-
-Operační cyklus typicky zahrnuje:
-
-1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
-2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
-3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
-4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
-5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
-
-Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+Jazykové modely jsou citlivé na rámování zadání: premisa uvedená jako samozřejmost se zřídka zpochybní a další text se k ní přizpůsobí. Vzniká výstup, který je vnitřně soudržný, ale stojí na předpokladu, jenž nikdy nebyl ověřen. Když se takový výstup šíří jako „analýza AI“, nese rámec dál s puncem nestrannosti. Pro pozorovatele je to digitální obdoba [posunu rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md): spor se nevede o tom, zda je premisa pravdivá, ale jen o jejích důsledcích.
 
 ## 4. Detekční markery
 
-Frame-detection na výstupech, audit kontextové délky, srovnání s baseline modelovými odpověďmi bez kontextu.
+- Výstup obsahuje hodnotící premisu, která v otázce nebyla položena jako otázka, ale jako fakt.
+- Stejný dotaz bez předchozího kontextu vede k podstatně odlišné, opatrnější odpovědi.
+- „Analýza“ neuvádí alternativní výklady ani nejistotu, jen rozvíjí jeden příběh.
+- Šířený výstup je zbaven zadání; chybí úvodní část konverzace, kde se rámec ustavil.
+- Jazyk výstupu přejímá nálepky a metafory konkrétní skupiny.
 
-**Technické markery:**
+## 5. Odlišení
 
-- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
-- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
-- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
-- **Síťové markery** — network topology, account graphs, propagation paths
+*Legitimní zadání perspektivy*: „napiš argumenty pro X“ je přiznané a výstup se tak i prezentuje. *[EA-9.1.9 Multi-Turn Narrative Shift](@/kompendium/techniques/ea-9-1-9-multi-turn-narrative-shift.md)*: rámec se posouvá postupně po krocích, ne vložením premisy na začátku. *Zkreslení v trénovacích datech*: systémové, nemá konkrétního autora rámce.
 
-**Kontextové markery:**
+## 6. Dopad a rámec
 
-- Disproporční amplifikace vs. organic baseline
-- Inkonzistence mezi claimed origin a actual provenance
-- Anomálie v engagement signal distribuci
-- Cross-platform synchronizační patterns
+Čtenář dostává hotový výklad, v němž je sporná premise skrytá v pozadí, a kritické zpochybnění vyžaduje mnohem víc úsilí než přijetí ([Brandoliniho asymetrie](@/glossary/gish-gallop.md)). V politické a mediální komunikaci vzorec slouží k legitimizaci rámce odkazem na nestrannou technologii. Právní hodnocení se odvíjí od obsahu (pomluva, nenávistný obsah), ne od použití modelu.
 
-## 5. Neutralizační strategie
+## 7. Obrana a zotavení
 
-**Layer 1 — Detection:**
+*Čtenář*: hledat premisy, které výstup bere jako dané, a ptát se, kde jsou doloženy. *Uživatel AI*: klást otevřené otázky bez hodnotících předpokladů a porovnat odpověď s dotazem bez kontextu. *Novináři a analytici*: nezveřejňovat výstup modelu bez úplného zadání; „AI analýzu“ nepovažovat za nezávislý zdroj. *Vzdělávání*: cvičit rozpoznávání rámce ([Pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md)).
 
-- Real-time monitoring metrik specifických pro tuto techniku
-- Multi-modal classification (text + behavioral + network + provenance)
-- Adversarial robustness testing detekčních classifiers
+## 8. Příklad (anonymizovaný kompozit)
 
-**Layer 2 — Containment:**
+Zájmová skupina zveřejní „nezávislou analýzu umělé inteligence“ o místním stavebním projektu. Analýza je vnitřně soudržná a vyznívá jednoznačně proti projektu. Když novinář položí modelu stejnou otázku bez předchozího kontextu, dostane vyváženou odpověď s výhradami na obou stranách. Ukáže se, že zveřejněná analýza vznikla po dlouhém úvodu, v němž byly sporné premisy podány jako fakta. Skupina pak tvrdí, že novinář „model zmanipuloval“ – spor se přesune od obsahu k technologii.
 
-- Surgical takedown s minimal collateral damage
-- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
-- Attribution publication k zvýšení reputational cost útočníka
+## 9. Meze a otevřené otázky
 
-**Layer 3 — Resilience:**
+Každé zadání nějaký rámec obsahuje; otázkou není, zda rámec existuje, ale zda je přiznaný. Nejasné zůstává, jak výstupy modelů v praxi označovat, aby čtenář viděl i zadání, a jak se modely naučí sporné premisy aktivně zpochybňovat.
 
-- Pre-bunking edukace cílové populace
-- Source-provenance infrastructure (C2PA, content credentials)
-- Cross-platform threat-intel sharing s due-process safeguards
+Pro výzkum je otevřené, jak silně vložený rámec ovlivňuje čtenáře výsledného textu ve srovnání s textem psaným člověkem; dostupné poznatky pocházejí převážně z obecného výzkumu rámování, nikoli z experimentů s výstupy modelů. Kniha proto mechanismus popisuje strukturálně a vyhýbá se odhadům velikosti účinku.
 
-**Layer 4 — Accountability:**
+## 10. Pohled zevnitř a práce s postiženým
 
-- Forensic preservation pro právní/regulační response
-- Public transparency reports
-- Mezisektorové pattern-sharing (state, platform, civil society)
+Čtenář, který „analýzu AI“ převzal, ji obvykle prožívá jako potvrzení toho, co tušil, a proto ji těžko pustí. Zpochybnění prožívá jako útok na vlastní úsudek. V rozhovoru – rodinném, poradenském, pedagogickém – je užitečné nejprve společně najít premisy, na nichž text stojí, a teprve potom se ptát, kde jsou doloženy. Tím se spor přesouvá od „kdo má pravdu“ k „z čeho vycházíme“. Člověk tak může svůj názor revidovat, aniž by ztratil tvář.
 
-## 6. Vztah k jiným EA
+Pro uživatele, kteří s modely pracují denně, je užitečné vědět, že i jejich vlastní dotazy nesou rámec; vědomá formulace otázky je první obranou před tím, aby model jen zesílil to, co do něj sami vložili.
 
-Tato technika **interaguje** s následujícími EA-* kategoriemi:
+## 11. Postup při rozboru „AI analýzy“
 
-- **EA-1.* (Vědomá kontrola informací)** — LLM Narrative Injection představuje technologicky augmentovanou variantu klasické informační kontroly
-- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
-- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
-- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
-- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
-- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
-- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
-- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+1. **Vypsat premisy**, na nichž text stojí.
+2. **Označit u každé**, zda je doložená, sporná nebo hodnotová.
+3. **Zopakovat dotaz** bez úvodního kontextu a porovnat výsledek.
+4. **Hledat alternativní výklady**, které text vynechává.
+5. **Zveřejnit rozbor** s úplným zadáním, pokud o textu informujete.
 
-## 7. Vztah k Prismatic platformě
+## 12. Prevence a odolnost
 
-Prismatic Platform implementuje detekci a neutralizaci LLM Narrative Injection přes následující komponenty:
+Odolnost proti vloženým rámcům roste s gramotností v rámování: schopností rozpoznat, co text předpokládá, a s návykem klást otevřené otázky. Vzdělávání může tuto dovednost cvičit na srovnání textů vzniklých z různě formulovaných zadání. Pro redakce a analytické týmy je prevencí pravidlo zveřejňovat výstupy modelů jen s úplným zadáním a s vlastní kritickou poznámkou o premisách, na nichž výstup stojí, a o alternativách, které vynechává.
 
-- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a [evidence-based](@/glossary/evidence-based.md) scoring (NCLB doctrine)
-- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
-- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
-- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+## Odborný kontext
 
-**Doctrine compliance:**
+Vzorec stojí na mechanismu rámování, který komunikační věda zkoumá desítky let. Entman (1993) definoval rámování jako výběr některých aspektů skutečnosti a jejich zdůraznění tak, aby se prosadila určitá definice problému, příčinný výklad, morální hodnocení a doporučené řešení. Vložená premisa v zadání modelu dělá přesně tohle: předem určí, co je problém a kdo za něj může, a model pak vyrábí „analýzu“ uvnitř takto vymezeného prostoru.
 
-- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
-- **ZERO** — žádné silent failures v detection pipelines, structured error handling
-- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
-- **OTEL** — full telemetry coverage detection pipelines pro auditability
+Lakoff a Johnson (1980) ukázali, že rámce se často skrývají v metaforách a běžných výrazech, které nevnímáme jako tvrzení. Proto vložený rámec nemusí být nápadný: stačí slovník, který jednu stranu sporu popisuje jazykem hrozby a druhou jazykem obrany. Jazykové modely tento slovník převezmou a rozvinou, protože navazují na kontext, a výsledný text se pak čte jako nestranný.
 
-## 8. Cross-linky
+Výzkum kognitivních zkreslení dodává, že první informace působí jako kotva pro další úsudek (Tversky a Kahneman 1974). Premisa uvedená na začátku konverzace tak ovlivňuje nejen model, ale i čtenáře výsledku. Obrana proto začíná u otázky „co tento text předpokládá?“ – tedy u rekonstrukce rámce, nikoli u sporu o jednotlivé závěry.
 
-**Související EA techniky:**
+## Souvislosti pro praxi
 
-- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
-- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
-- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
-- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
-- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
-- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
-- [EA-9.1.3 Jailbreak Cascade](@/kompendium/techniques/ea-9-1-3-jailbreak-cascade.md)
-- [EA-9.1.4 RAG Context Poisoning](@/kompendium/techniques/ea-9-1-4-rag-context-poisoning.md)
+V analytické a novinářské práci je užitečné před použitím výstupu modelu sepsat premisy, na nichž stojí, a u každé uvést, zda je doložená, sporná nebo hodnotová. Tento krok trvá několik minut a odhalí většinu vložených rámců. Ve výuce lze stejný postup použít jako cvičení: studenti dostanou dvě „analýzy“ téhož tématu vzniklé z různě rámovaných zadání a mají najít místo, kde se cesty rozešly. Cílem není naučit nedůvěru k modelům, ale návyk číst každý text i s jeho předpoklady.
 
-**Doktrinální a infrastructure odkazy:**
+## Literatura
 
-- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+- Entman, R. M. (1993). Framing: Toward clarification of a fractured paradigm. *Journal of Communication*.
+- Lakoff, G., & Johnson, M. (1980). *Metaphors We Live By*. University of Chicago Press.
+- Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*.
 
----
+## Související
 
-## Connect & Contribute
+**Sourozenecké techniky**
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
+- [EA-9.1.9 Multi-Turn Narrative Shift](@/kompendium/techniques/ea-9-1-9-multi-turn-narrative-shift.md) – postupný posun místo vložené premisy.
+- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md) – vložený pokyn místo vloženého předpokladu.
+- [EA-9.4.9 Bot Narrative Injection](@/kompendium/techniques/ea-9-4-9-bot-narrative-injection.md) – tentýž rámec šířený sítí botů.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+**Detekce**
 
----
+- [Detekční signatura: Posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md) – jak poznat, že se mění předmět sporu.
+- [Detekční signatura: Injekce narativu](@/kompendium/detection-signatures/22-network-narrative-injection.md) – vložený narativ v informačním toku.
 
-*EA-9.1.5 | Subkategorie 9.1 LLM-mediated EA | Prismatic Compendium | Version 18.4.0*
+**Obrana a teorie**
+
+- [Sebe-obrana: Pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md) – udržet více výkladů současně.
+- [Lakoff: Konceptuální metafora](@/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md) – proč rámec řídí úsudek.

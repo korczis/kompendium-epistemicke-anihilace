@@ -1,6 +1,6 @@
 +++
 title = "EA-6.1.10 Epistemická trust assessment"
-description = "Klinická technika — Epistemická trust assessment."
+description = "Hodnocení schopnosti klienta důvěřovat informacím od druhých a předávat je – epistemické důvěry, kterou dlouhodobá manipulace narušuje oběma směry."
 weight = 620
 insert_anchor_links = "right"
 
@@ -9,7 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-1", "klinicke", "epistemicka-trust-ass
 categories = ["academic", "clinical"]
 
 [extra]
-related_terms = ["ea-5-5-9-kinesteticka-deformace", "ea-6-1-1-screening-strukturalni-rozhovor", "ea-6-1-2-self-report-instrument", "ea-6-1-3-collateral-interview"]
+related_terms = ["ea-6-1-2-self-report-instrument", "ea-6-1-9-metakognitivni-functional-assessment", "ea-8-1-5-epistemic-trust-scale", "ea-6-3-8-relacni-restaurace"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.1.10"
 ea_category = "6. Klinické aplikace"
@@ -83,7 +83,7 @@ Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní pod
 
 Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně, ke které je aplikována:
 
-EA-3 sektářské: zaměření na in/out group polarizaci důvěry. EA-1 akademické: epistemická důvěra k institucionálním autoritám. [EA-6.4.4](@/kompendium/techniques/ea-6-4-4-LGBTQI-EA-protokol.md) LGBTQI: kulturně-senzitivní úprava ohledně institucionální nedůvěry.
+Po odchodu ze sektářské skupiny: zaměření na in/out group polarizaci důvěry. EA-1 akademické: epistemická důvěra k institucionálním autoritám. [EA-6.4.4](@/kompendium/techniques/ea-6-4-4-LGBTQI-EA-protokol.md) LGBTQI: kulturně-senzitivní úprava ohledně institucionální nedůvěry.
 
 Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
 
@@ -107,68 +107,6 @@ Technika **EA-6.1.10** se historicky vyvinula z konvergence několika klinickýc
 
 **Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
 
-## Evidence base
-
-Empirická opora techniky se opírá o tři primární evidenční pilíře: (a) randomizované kontrolované studie (RCT) s validovanými outcome metrikami, (b) meta-analytické syntézy efektivity intervencí pro EA-trauma spektra, (c) longitudinální observační studie sledující trajektorie subjektů 2-10 let po dokončení intervence.
-
-(1) **Resick, P. A., et al. (2017)** — RCT, n=164, *JAMA Psychiatry*. Klíčový nález: g = 0.84 pro PCL-5, retence efektu v 1-letém follow-up g = 0.71.
-
-(2) **Cloitre, M., et al. (2019)** — Multi-center trial, n=302, *Lancet Psychiatry*. Klíčový nález: d = 1.12 pro ITQ Disturbances in Self-Organization, ICD-11 CPTSD specific outcome.
-
-(3) **van der Kolk, B. A., et al. (2014)** — RCT, n=88, *Journal of Clinical Psychiatry*. Klíčový nález: d = 1.04 pro CAPS-5, somatic symptom reduction g = 0.73.
-
-**Synthesa důkazů**: agregovaná evidence pro intervence z této kategorie ukazuje robustní efekt velikosti d ≈ 0.7-1.1 pro primární trauma symptomatologii (PCL-5, CAPS-5), s nižším ale konzistentním efektem d ≈ 0.4-0.6 pro sekundární komorbidní depresivní a úzkostnou symptomatologii. Number Needed to Treat (NNT) se pohybuje typicky v rozmezí 2-4, což odpovídá vysoce účinným intervencím v psychiatrické praxi (srovnání: SSRI u MDD typicky NNT 6-9).
-
-**Limitace evidenční báze**: dostupná literatura má dokumentované metodologické limitace — (i) převaha studií na západní populacích (WEIRD bias), (ii) krátké follow-up rámce (typicky 3-12 měsíců, vzácně >2 roky), (iii) výběrové bias směrem k populacím s vysokou compliance, (iv) heterogenita v operacionalizaci EA-trauma napříč studiemi. Aplikace techniky v české klinické praxi proto vyžaduje kritickou adaptaci a průběžné monitorování individuálního outcome subjektu.
-
-**Recommendation grade**: dle GRADE methodology dosahuje evidenční báze úrovně **B (moderate-quality)** — konzistentní efekt napříč studiemi, ale heterogenita designů a nedostatek replikací v non-WEIRD populacích.
-
-## Algoritmický rozhodovací strom
-
-Klinické rozhodování o aplikaci techniky **EA-6.1.10** sleduje strukturovaný algoritmus s explicitními rozhodovacími uzly a kvantifikovanými prahovými hodnotami:
-
-**Uzel 1 — Indikační audit (vstupní)**:
-
-- IF PCL-5 ≥ 33 AND ITQ DSO ≥ klinický práh AND absence psychotické symptomatologie → POKRAČUJ k Uzel 2
-- ELIF PCL-5 < 33 AND symptomy < 1 měsíc → ZVAŽ watchful waiting + krizová podpora
-- ELIF aktivní psychotická symptomatologie OR akutní suicidalita → STABILIZACE PRIORITNĚ, technika **kontraindikována**
-
-**Uzel 2 — Stabilizační prerekvizity**:
-
-- IF DERS celkový skór > 120 AND chybí stabilizační dovednosti → ZAŘAĎ pre-protokol DBT distress tolerance modul (8-12 sezení)
-- IF DES-II > 30 AND aktivní disociativní fragmentace → ZAŘAĎ disociativní stabilizační protokol PŘED expozičními komponentami
-- ELSE → POKRAČUJ k Uzel 3
-
-**Uzel 3 — Modulární stratifikace**:
-
-- IF Type I trauma (single-incident) → standardní protokol 12-16 sezení
-- IF Type II trauma (chronic relational) → rozšířený protokol 24-36 sezení s posílenou stabilizační fází
-- IF aktivní externí ohrožení (DV, kult, koercivní vztah) → BEZPEČNOSTNÍ PLAN PRIORITNĚ, technika odložena do bezpečné distance
-
-**Uzel 4 — Průběžné re-evaluation**:
-
-- KAŽDÉ 4. sezení: PCL-5 + CGI-S + terapeutická aliance (WAI-SR)
-- IF zhoršení > 20% baseline OR aliance < 20 percentil → SUPERVIZE + modifikace protokolu
-- IF redukce ≥ 30% AND funkcionální zlepšení → POKRAČUJ do konsolidační fáze
-
-**Uzel 5 — Terminace**:
-
-- Klinicky významná redukce (Cohenovo d ≥ 0.5 pre-post) AND udržení po 3 měsíce AND obnova funkce → ŘÁDNÁ TERMINACE s booster sessions plánem
-
-## Neuropsychologické markery
-
-Aplikace techniky je provázena charakteristickými neurokognitivními změnami, které lze objektivizovat standardním neuropsychologickým testováním. Dokumentované markery slouží jako objektivní outcome měření paralelní k [self-report](@/glossary/self-report.md) instrumentům:
-
-**Pozornostní funkce**: pre-intervenční obraz typicky vykazuje narušení selektivní pozornosti (Stroop interference + 1.5 SD nad normou), sníženou vigilanční kapacitu (CPT-3 commission errors > 70 percentil) a afektivní bias v emoční Stroop úloze (latence pro trauma-related stimuli). Post-intervenčně dokumentována normalizace o 0.6-1.0 SD.
-
-**Exekutivní funkce**: trauma-related populace vykazují sníženou kognitivní flexibilitu (WCST perseverative errors), deficity v pracovní paměti (n-back 2-back accuracy) a impulzivitu v rozhodovacích úlohách (Iowa Gambling Task). Post-intervenční zlepšení korelace s redukcí PCL-5 (r = 0.42-0.58).
-
-**Paměťové funkce**: charakteristické fragmentární kódování traumatic memory (CVLT-3 free recall pro emocionální materiál), deficity v autobiografické specificitě (AMT — Autobiographical Memory Test), over-general recall bias. Mereologická rekonstrukce vede k progresivní normalizaci specificity.
-
-**Sociálně-kognitivní markery**: pre-intervenčně narušená [teorie mysli](@/glossary/theory-of-mind.md) (Reading the Mind in the Eyes Test pod 25 percentilem), hyper-vigilance vůči sociálním ohrožením, deficit v emoční identifikaci.
-
-**Doporučená neuropsychologická baterie**: Stroop, CPT-3, WCST, n-back, CVLT-3, AMT, RMET, Iowa Gambling Task. Cena/přínos analýza ukazuje, že full baseline + post-baterie je indikována u L2 výzkumných protokolů; v rutinní klinice postačuje screening-úroveň (Stroop + AMT + CVLT-3).
-
 ## Vulnerabilní podpopulace
 
 Aplikace techniky **EA-6.1.10** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
@@ -184,22 +122,6 @@ Aplikace techniky **EA-6.1.10** vyžaduje specifickou modifikaci v následujíc�
 **Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training 12-24 týdnů) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
 
 **Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence do 6 měsíců post-partum.
-
-## Intervenční variace
-
-Klinický kontext **EA-6.1.10** připouští následující dokumentované adaptace pro specifické setting a populace, vždy se zachováním jádra evidence-based protokolu:
-
-**Telehealth varianta**: COVID-19 pandemie urychlila adopci video-mediovaných verzí. Meta-analýza (Hilty et al., 2022) dokumentuje srovnatelnou efektivitu (d = 0.71 vs. 0.78 face-to-face), s výjimkou pacientů s aktivní disociativní symptomatologií, kde face-to-face setting zachovává klinickou výhodu (regulace prostřednictvím kotvícího fyzického přítomnosti terapeuta). Praktické modifikace: technické rituály (kvalita připojení), explicitní bezpečnostní plán pro fyzické nedostupnosti, rozšířená dokumentace.
-
-**Skupinový formát**: 4-8 členů, 12-16 sezení, doplňkové individuální moduly. Efektivita d = 0.62 (vs. 0.78 individuální); kompenzována ekonomickou efektivitou a peer-support komponentou. Kontraindikace: aktivní psychotická symptomatologie, závažná interpersonální agresivita, nestabilní disociativní obraz.
-
-**Krátká intervence (8-12 sezení)**: pro selected populace s Type I traumatem, vysokou compliance a dostupnou support sítí. Compressed protocol s denními sezeními po 1-2 týdny (Foa et al., 2018) ukazuje noninferioritu standardní 12-16týdenní variantě.
-
-**Adjuvantní farmakoterapie**: SSRI/SNRI (sertralin 50-200mg, paroxetin 20-50mg, venlafaxin XR 75-225mg) jako baseline; prazosin 2-15mg pro nightmare-related insomnii; opatrné zvážení přidání PTSD-specifických agentů (MDMA-AT v US clinical trials, propranolol pre-konsolidace).
-
-**Kulturně senzitivní adaptace**: česká adaptace zohledňuje (a) jazyk a metaforický rámec specifický pro středoevropskou trauma narativu, (b) postkomunistická intergenerační traumata jako kontext, (c) explicitní eskalační cesty v rámci VZP-hrazené péče. Slovenská a polská adaptace sdílí ≥ 80% rámce.
-
-**Crisis-modifikovaná verze**: redukce expozičních komponent ve prospěch posílených stabilizačních modulů pro aktuálně dekompenzované pacienty; přechod do standardního protokolu po dosažení remise CGI-S < 4.
 
 ## Outcome měření
 
@@ -231,64 +153,30 @@ Validace efektivity techniky vyžaduje multidimenzionální outcome battery apli
 - **Functional Recovery**: WHODAS 2.0 skór ≤ percentil 75 srovnatelné populace
 - **Sustained Remission**: udržení nad RCI prahem v 12měsíčním FU
 
-**Brier skór kalibrace**: prediktivní kalibrace klinikova odhadu remise vs. realita; target Brier < 0.20 pro experienced klinika, ECE < 0.10. Tato metrika integrována do platformové {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} pro průběžné kalibrační monitoring.
-
-## Long-term follow-up
-
-Longitudinální data sledující subjekty 1-5 let po dokončení intervence dokumentují následující trajektorii:
-
-**1-rok follow-up**: 65-75% subjektů udržuje klinicky významnou redukci primární symptomatologie (PCL-5 < 33). Relapse rate 15-25% — nejčastější triggers: (a) re-exposure k similar traumatic stimuli, (b) ztráta klíčové podpůrné figury, (c) major life transition (rozvod, stěhování, ztráta zaměstnání), (d) somatická onemocnění s funkční disabilitou.
-
-**3-rok follow-up**: persistence remise 55-65%; subgroup s Type II komplexním traumatem ukazuje delší trajektorii — křivka zlepšení pokračuje mezi měsíci 12-36 (kontinuální post-treatment growth dokumentován v Cloitre et al., 2019).
-
-**5-rok follow-up**: dostupná longitudinální data (k = 8 studií) ukazují udržení nad-baseline funkce u 50-60%; klíčové prediktory dlouhodobé prosperity: (i) post-traumatic growth komponenta, (ii) integrovaná podpůrná síť, (iii) najaté smysluplné práce/role, (iv) dostupnost booster sessions (1-2× ročně).
-
-**Doporučení pro dlouhodobou péči**: minimálně 1× roční follow-up sezení, otevřená re-engagement cesta při relapse symptomatologie, integrace do peer-support komunity, monitoring pomocí self-report instrumentů (PCL-5, PHQ-9) každých 6 měsíců.
-
 ## Vztah k jiným technikám
 
 Validizuje [EA-6.1.9 metakognitivní assessment](@/kompendium/techniques/ea-6-1-9-metakognitivni-functional-assessment.md), připravuje [EA-6.2.5 narrative therapy](@/kompendium/techniques/ea-6-2-5-narrative-therapy-protokol.md), informuje [EA-6.3.8 relační restauraci](@/kompendium/techniques/ea-6-3-8-relacni-restaurace.md).
 
-## Vztah k Prismatic platformě
+## Literatura
 
-Technika je integrována do širšího ekosystému platformy Prismatic prostřednictvím:
-
-- **Prismatic Nabla** — epistemický engine umožňuje kvantifikaci epistemicko-afektivního poškození jako vstup do klinického assessmentu a výstup z monitoring intervence
-- **[Decision Engine](@/glossary/decision-engine.md)** — kalibrace klinického rozhodování o indikaci/modifikaci/ukončení techniky s explicitními Brierův skór metrikami
-- **OSINT toolbox** — pre-klinické forenzní DD klientů s anamnézou expozice manipulativním systémům, validizace anamnestických údajů
-- **Akademie** — interaktivní vzdělávací moduly pro klinickou populaci a peer-support komunity
+- Fonagy, P., & Allison, E. (2014). The role of mentalizing and epistemic trust in the therapeutic relationship. *Psychotherapy*.
+- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Fricker, M. (2007). *Epistemic Injustice*. Oxford University Press.
 
 ## Související
 
-### Sesterské techniky (6.1 Diagnostické techniky)
+**Sourozenecké techniky (6.1)**
 
-- [EA-6.1.1 Screeningový strukturální rozhovor](@/kompendium/techniques/ea-6-1-1-screening-strukturalni-rozhovor.md)
-- [EA-6.1.2 Self-report instrument](@/kompendium/techniques/ea-6-1-2-self-report-instrument.md)
-- [EA-6.1.3 Collateral interview (rozhovor s blízkými)](@/kompendium/techniques/ea-6-1-3-collateral-interview.md)
-- [EA-6.1.4 Observational assessment](@/kompendium/techniques/ea-6-1-4-observational-assessment.md)
-- [EA-6.1.5 Neuropsychologické vyšetření](@/kompendium/techniques/ea-6-1-5-neuropsychologicke-vysetreni.md)
-- [EA-6.1.6 Fyziologické monitoring](@/kompendium/techniques/ea-6-1-6-fyziologicke-monitoring.md)
-- [EA-6.1.7 Trauma history protokol](@/kompendium/techniques/ea-6-1-7-trauma-history-protokol.md)
-- [EA-6.1.8 Disociativní spektrum assessment](@/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md)
-- [EA-6.1.9 Metakognitivní functional assessment](@/kompendium/techniques/ea-6-1-9-metakognitivni-functional-assessment.md)
+- [EA-6.1.2 Self-report instrument](@/kompendium/techniques/ea-6-1-2-self-report-instrument.md) – [sebevýpověď](@/glossary/self-report.md), kterou hodnocení důvěry kalibruje.
+- [EA-6.1.9 Metakognitivní functional assessment](@/kompendium/techniques/ea-6-1-9-metakognitivni-functional-assessment.md) – kalibrace vlastní jistoty.
 
-### Rodičovská kapitola
+**Nástroje a rekonstrukce**
 
-- [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [EA-8.1.5 Epistemic trust scale](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md) – škála v přílohách.
+- [Subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) – co následuje po hodnocení.
+- [EA-6.3.8 Relační restaurace](@/kompendium/techniques/ea-6-3-8-relacni-restaurace.md) – obnova důvěry ve vztazích.
 
-### Glosář
+**Pojmy a obrana**
 
-- [c-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Epistemická trauma](@/glossary/epistemicke-trauma.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [Iatrogenní harm](@/glossary/iatrogenic-harm.md)
-- [Disociace](@/glossary/disociace.md)
-- [Mereologická rekonstrukce](@/glossary/mereologicka-rekonstrukce.md)
-
-### Prismatic platforma
-
-- [Prismatic Nabla](https://prismatic-reality-com.github.io/prismatic-promo/about/architecture/) — epistemický engine pro modelování EA-trauma jako kvantifikovatelné epistemické poškození
-- {{ <cross_link path="/osint/toolbox/" text="OSINT toolbox" /> }} — investigation backend pro forenzní DD klientů s podezřením na manipulativní expozici
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — kalibrace klinického rozhodování s Brierův skór monitoring
-- [Akademie](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — interaktivní vzdělávací moduly pro klinickou populaci
+- [Epistemická nespravedlnost](@/glossary/epistemicka-injustice.md) – když klientovi nebylo věřeno.
+- [Sebe-obrana: Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) – praktický protějšek pro klienta.

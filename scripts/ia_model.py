@@ -115,3 +115,56 @@ def load_pages() -> list:
     for page in pages:
         page["links_in"] = incoming[page["path"]]
     return pages
+
+
+TERM_INDEX = CONTENT / "kompendium" / "08-prilohy" / "index-pojmu.md"
+TERM_ROW = re.compile(r"^\|\s*\*\*(?:\[)?([^*\]]+?)(?:\]\([^)]*\))?\*\*\s*\|\s*([^|]*)\|\s*([^|]*)\|", re.M)
+EA_CODE = re.compile(r"EA-(\d+)\.(\d+)\.(\d+)")
+
+
+def slugify(text: str) -> str:
+    import unicodedata
+    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", text).strip("-")
+
+
+def load_terms(pages: list) -> list:
+    """The book's terms (rows of the index of terms) and the page each one has, if any.
+
+    A term has its own page when a glossary entry carries its name (file slug or title, in
+    Czech or in the English equivalent), when its location column links a glossary,
+    philosophy or technique page, or when its location names an EA code that has a technique page.
+    """
+    if not TERM_INDEX.exists():
+        return []
+    glossary = {}
+    techniques = {}
+    for page in pages:
+        path = page["path"]
+        if path.startswith("glossary/") and not page["is_index"]:
+            stem = pathlib.PurePosixPath(path).stem
+            glossary.setdefault(stem, path)
+            if page["title"]:
+                glossary.setdefault(slugify(page["title"]), path)
+        m = re.match(r"kompendium/techniques/ea-(\d+)-(\d+)-(\d+)", path)
+        if m:
+            techniques["EA-" + ".".join(m.groups())] = path
+    terms = []
+    for cs, en, location in TERM_ROW.findall(TERM_INDEX.read_text(encoding="utf-8")):
+        cs, en = cs.strip(), re.sub(r"\[[=≈~]\]", "", en).strip()
+        page = None
+        for key in (slugify(cs), slugify(re.sub(r"\(.*?\)", "", cs)), slugify(en),
+                    slugify(re.sub(r"\(.*?\)", "", en))):
+            if key and key in glossary:
+                page = glossary[key]
+                break
+        if page is None:
+            m = re.search(r"\(@/((?:glossary|philosophy|kompendium/techniques)/[^)#\s]+\.md)", location)
+            if m:
+                page = m.group(1)
+        if page is None:
+            m = EA_CODE.search(location)
+            if m and m.group(0) in techniques:
+                page = techniques[m.group(0)]
+        terms.append({"term": cs, "en": en, "slug": slugify(cs), "page": page})
+    return terms

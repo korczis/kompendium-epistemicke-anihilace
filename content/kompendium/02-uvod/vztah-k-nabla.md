@@ -54,7 +54,7 @@ Validace formátu, integrity, plauzibility. První linie obrany proti syntetick�
 Mandatorní atribuce každého signálu na zdroj. Implementace **Provenance Mandatory** (Axiom 7). Obrana proti EA-1.3.3 (tematická diverze) — každý signál má traceable origin.
 
 ### L4: Signal Correlation
-Korelace napříč signály. Obrana proti **iluzorní pluralitě** — pokud jsou "nezávislé" zdroje korelované, korelace je explicitně zaznamenána.
+Korelace napříč signály. Obrana proti **iluzorní pluralitě** — pokud jsou „nezávislé“ zdroje korelované, korelace je explicitně zaznamenána.
 
 ### L5: Pattern Detection
 Detekce vzorců. Identifikuje **strukturní podpisy** manipulativních kampaní (např. koordinované disinformace).
@@ -163,7 +163,7 @@ EXECUTION PHASE (NM/ND active)
   - No Doubts: rozhodná akce
 ```
 
-Před transition: pochybnost je **mandatorní**. Po transition: pochybnost je nahrazena commitment-em. Tato dvoufázová architektura předchází obě selhání: **prematurní akci** (nedostatečně verifikované přesvědčení) i **analýzovou paralýzu** (nikdy nejednáme, vždy je více evidence). NABLA definuje, co znamená "dostatečná verifikace"; Trinity Gate certifikuje, že verifikace je úplná; NM/ND řídí, co následuje.
+Před transition: pochybnost je **mandatorní**. Po transition: pochybnost je nahrazena commitment-em. Tato dvoufázová architektura předchází obě selhání: **prematurní akci** (nedostatečně verifikované přesvědčení) i **analýzovou paralýzu** (nikdy nejednáme, vždy je více evidence). NABLA definuje, co znamená „dostatečná verifikace“; Trinity Gate certifikuje, že verifikace je úplná; NM/ND řídí, co následuje.
 
 ## Reflexivní vztah taxonomie a NABLA
 
@@ -202,7 +202,6 @@ Integrace taxonomie a NABLA má strukturní limity, jež je nezbytné explicitn�
 - [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
 - [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-
 
 ## ⚡ Kritický krok
 

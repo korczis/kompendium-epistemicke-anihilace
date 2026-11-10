@@ -47,7 +47,7 @@ Iniciátor (často soukromou komunikací — DM skupiny, mailing list, chat) **m
 
 ### Krok 2 — Synchronizace narativu
 
-Skupina **konverguje na společné formulace** — klíčová slova, frázování, "talking points". Žádný účastník nemusí znát plný plán; stačí, když souhlasí s několika body.
+Skupina **konverguje na společné formulace** — klíčová slova, frázování, „talking points“. Žádný účastník nemusí znát plný plán; stačí, když souhlasí s několika body.
 
 ### Krok 3 — Distribuovaný launch
 
@@ -55,7 +55,7 @@ Skupina **konverguje na společné formulace** — klíčová slova, frázován�
 
 ### Krok 4 — Amplifikace prostřednictvím retweetů
 
-Druhá vlna účastníků (kteří nemusí být součástí koordinace) **přidává svou váhu** — sdílí, "thread", komentuje. Tato vlna je **autentická**, ale celé pole je již **rámováno** koordinovanou první vlnou.
+Druhá vlna účastníků (kteří nemusí být součástí koordinace) **přidává svou váhu** — sdílí, „thread“, komentuje. Tato vlna je **autentická**, ale celé pole je již **rámováno** koordinovanou první vlnou.
 
 ### Krok 5 — Žádost o stanovisko
 

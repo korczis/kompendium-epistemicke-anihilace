@@ -30,12 +30,12 @@ Ricoeur rozšiřuje aristotelský pojem *mimésis* (napodobování, ztvárnění
 Pro EA z toho plyne:
 
 - **Útok na mimésis I**: rozbíjení **pre-narativních struktur** zkušenosti (časová dezorientace, agentivní rozpad). Klasický u traumatu.
-- **Útok na mimésis II**: nucení subjektu přijmout **cizí zápletku** vlastního života ("ty jsi obětí systému / ty jsi vyvolený / ty jsi neschopný").
+- **Útok na mimésis II**: nucení subjektu přijmout **cizí zápletku** vlastního života („ty jsi obětí systému / ty jsi vyvolený / ty jsi neschopný“).
 - **Útok na mimésis III**: přerušení integračního cyklu — subjekt nedokáže narativ **vstřebat** do dalšího života.
 
 ## 2. Narativní identita
 
-Ricoeurova centrální teze (rozvinutá v *Soi-même comme un autre*, 1990): **identita osoby** je primárně **narativní**. "Kdo jsem?" se zodpovídá **vyprávěním příběhu mého života** — nikoli odkazem na pevnou esenci.
+Ricoeurova centrální teze (rozvinutá v *Soi-même comme un autre*, 1990): **identita osoby** je primárně **narativní**. „Kdo jsem?“ se zodpovídá **vyprávěním příběhu mého života** — nikoli odkazem na pevnou esenci.
 
 Narativní identita má **dvě dimenze**:
 
@@ -50,7 +50,7 @@ Pro EA má rozlišení idem/ipse **trojí relevanci**:
 
 ## 3. Hermeneutika podezření
 
-Ricoeur (zejména *De l'interprétation*, 1965) formuluje pojem **hermeneutiky podezření** (*herméneutique du soupçon*) — interpretačního postoje, jenž **podezírá** povrchový smysl a hledá **skryté struktury** (Marx, Nietzsche, Freud jako "tři mistři podezření").
+Ricoeur (zejména *De l'interprétation*, 1965) formuluje pojem **hermeneutiky podezření** (*herméneutique du soupçon*) — interpretačního postoje, jenž **podezírá** povrchový smysl a hledá **skryté struktury** (Marx, Nietzsche, Freud jako „tři mistři podezření“).
 
 Pro EA má hermeneutika podezření **dvojí relevanci**:
 
@@ -63,7 +63,7 @@ V *Symbolique du mal* (1960) Ricoeur analyzuje **symbolickou strukturu** lidské
 
 Pro EA z toho plyne:
 
-- **Manipulace symboliky viny** je strukturální technika: nucení subjektu pociťovat **pseudovinou** za "selhání", jež jsou strukturálně produkována.
+- **Manipulace symboliky viny** je strukturální technika: nucení subjektu pociťovat **pseudovinou** za „selhání“, jež jsou strukturálně produkována.
 - **Klinický korelát**: morální zranění (*moral injury*) — zranění strukturou viny, kdy subjekt byl nucen **provést něco**, co odporuje jeho vlastnímu morálnímu kompasu.
 - **Klinická intervence** musí pracovat se **symbolickou** vrstvou, nikoli pouze s racionální argumentací.
 
@@ -74,8 +74,8 @@ Ricoeurova teze: **čas se stává lidským** prostřednictvím **vyprávění**
 Pro EA má tato perspektiva **specifickou relevanci**:
 
 - **Časová dezorientace** v traumatu (flashbacky, intruzivní vzpomínky, foreshortened future) je strukturálně **rozpadem narativní časovosti**.
-- **Algoritmická časovost** ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)) — feedy bez konce, perpetual present, "doomscrolling" — strukturálně **anihiluje** narativní časovost.
-- **Klinická restituce** musí znovuvybudovat narativní časovost — nikoli pouze "léčit symptomy".
+- **Algoritmická časovost** ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)) — feedy bez konce, perpetual present, „doomscrolling“ — strukturálně **anihiluje** narativní časovost.
+- **Klinická restituce** musí znovuvybudovat narativní časovost — nikoli pouze „léčit symptomy“.
 
 ## 6. Mapping na EA techniky
 

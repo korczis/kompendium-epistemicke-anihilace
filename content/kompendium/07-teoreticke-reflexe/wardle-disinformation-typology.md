@@ -70,7 +70,7 @@ Každá fáze má **specifické** aktéry a **specifické** intervence:
 
 - **Creators**: profesionální dezinformátoři, vlády, ideologické skupiny
 - **Producers**: trolling armády, content farms, partisan media
-- **Distributors**: koordinované sítě, algoritmy, "užiteční idioti"
+- **Distributors**: koordinované sítě, algoritmy, „užiteční idioti“
 
 Pro EA z toho plyne:
 
@@ -142,10 +142,10 @@ Pro Prismatic má Wardlové typologie **specifickou** relevanci:
 ## 10. Primární literatura
 
 - Wardle, C. & Derakhshan, H. (2017). *Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making*. Council of Europe.
-- Wardle, C. (2017). "Fake News. It's Complicated.". First Draft.
-- Wardle, C. (2019). "Misinformation Has Created a New World Disorder". *Scientific American* 321.
+- Wardle, C. (2017). „Fake News. It's Complicated.“. First Draft.
+- Wardle, C. (2019). „Misinformation Has Created a New World Disorder“. *Scientific American* 321.
 - Marwick, A. & Lewis, R. (2017). *Media Manipulation and Disinformation Online*. Data & Society.
-- Wineburg, S. & McGrew, S. (2019). "Lateral Reading and the Nature of Expertise". *Teachers College Record* 121.
+- Wineburg, S. & McGrew, S. (2019). „Lateral Reading and the Nature of Expertise“. *Teachers College Record* 121.
 
 ## Související
 

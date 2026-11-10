@@ -17,7 +17,7 @@ toc = true
 
 Tento článek pokrývá **Fenomenologický Interview v EA** v rámci kvalitativního výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
 
-**Specifický metodologický háček EA výzkumu:** Husserliánská epoché — výzkumník suspenduje vlastní teoretické předpoklady. Otevřené otázky typu 'Popište mi okamžik, kdy...'. Bracketing journal povinný.
+**Specifický metodologický háček EA výzkumu:** Husserliánská epoché — výzkumník suspenduje vlastní teoretické předpoklady. Otevřené otázky typu 'Popište mi okamžik, kdy…'. Bracketing journal povinný.
 
 EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani naopak utopit data v interpretativní mlze. Cílem je **triangulační konvergence** mezi behaviorálními markery, subjektivním prožitkem a strukturálními invarianty deformace ega.
 
@@ -33,22 +33,26 @@ EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani na
 ## Procedurální postup
 
 **Fáze 1 — Příprava (4-12 týdnů)**
+
 - Literature review s PRISMA flow chart
 - Pre-registrace na OSF (hypotézy, design, analýza uzamčeny)
 - IRB submission + amendments
 - Pilot study (n=10-30) pro feasibility a item refinement
 
 **Fáze 2 — Sběr dat (variabilní)**
+
 - Strict protocol adherence — deviations log povinný
 - Real-time data quality checks (missingness, výpadky)
 - Periodic safety review (DSMB pro intervenční studie)
 
 **Fáze 3 — Analýza (4-8 týdnů)**
+
 - Pre-registered analysis first, exploratory analyses jasně označené
 - Sensitivity analyses (alternative model specifications)
 - Multiple comparison correction (Bonferroni/FDR/Holm)
 
 **Fáze 4 — Reporting (4-12 týdnů)**
+
 - CONSORT/STROBE/COREQ checklist dle designu
 - Open materials/data/code (FAIR principles)
 - Limitations sekce explicitní, ne defenzivní

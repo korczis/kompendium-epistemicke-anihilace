@@ -43,7 +43,7 @@ Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
 
 ### Krok 1 — Devalvace existujících vztahů
 
-'Tvoje rodina ti nikdy nerozuměla', 'tvoji přátelé jsou v tom s tebou jenom proto, že...'.
+'Tvoje rodina ti nikdy nerozuměla', 'tvoji přátelé jsou v tom s tebou jenom proto, že…'.
 
 ### Krok 2 — Konstrukce alternativní relační sítě
 
@@ -122,7 +122,6 @@ Technika **relační restrukturalizace** představuje strukturální výzvu pro 
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## Teoretické zázemí
 

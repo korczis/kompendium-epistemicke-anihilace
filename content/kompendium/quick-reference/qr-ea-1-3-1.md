@@ -21,14 +21,14 @@ toc = false
 ## Operační modus (3 kroky)
 
 1. Konfrontace teorie s falsifikační evidencí
-2. Ad-hoc rozšíření teorie (auxiliary hypotézy, výjimky, redefinice termínů), které "vysvětlí" kontradiktorní data, ale samo o sobě není testovatelné
-3. Rétorický posun — předikce, která selhala, je reklasifikována jako "ne pravá predikce", "speciální případ" nebo důkaz hloubky teorie ("tvrdíš to, ale jen proto, že ti to teorie nedovoluje pochopit")
+2. Ad-hoc rozšíření teorie (auxiliary hypotézy, výjimky, redefinice termínů), které „vysvětlí“ kontradiktorní data, ale samo o sobě není testovatelné
+3. Rétorický posun — předikce, která selhala, je reklasifikována jako „ne pravá predikce“, „speciální případ“ nebo důkaz hloubky teorie („tvrdíš to, ale jen proto, že ti to teorie nedovoluje pochopit“)
 
 ## Detekční markery (3 nejvýraznější)
 
-- Test "Co by Vás přesvědčilo, že se mýlíte?" — odpověď "nic" nebo nekonkrétní mlhavost je definitivní známka
+- Test „Co by Vás přesvědčilo, že se mýlíte?“ — odpověď „nic“ nebo nekonkrétní mlhavost je definitivní známka
 - Teorie se s každou kontradikcí zvětšuje (epicykly), nikdy nezužuje set falsifikačních scénářů
-- Kontradiktorní evidence je systematicky reklasifikována na podporující ("to právě potvrzuje, že...") bez auditního trail
+- Kontradiktorní evidence je systematicky reklasifikována na podporující („to právě potvrzuje, že…“) bez auditního trail
 
 ## Neutralizační strategie (3 nejúčinnější)
 
@@ -38,7 +38,7 @@ toc = false
 
 ## Příklad
 
-Trader prohlásí "tato strategie generuje 30 % ročně". Po roce ztráty argumentuje "ale toto byl atypický rok / chybělo mi 2 % expozice / jen jsem nekonal podle pravidla 7". Po pěti letech ztrát se ze "strategie" stalo systém s 47 výjimkami, který neselhává nikdy — protože nikdy nic netestuje.
+Trader prohlásí „tato strategie generuje 30 % ročně“. Po roce ztráty argumentuje „ale toto byl atypický rok / chybělo mi 2 % expozice / jen jsem nekonal podle pravidla 7“. Po pěti letech ztrát se ze „strategie“ stalo systém s 47 výjimkami, který neselhává nikdy — protože nikdy nic netestuje.
 
 ## Cross-linky
 

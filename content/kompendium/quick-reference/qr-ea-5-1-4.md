@@ -28,8 +28,8 @@ toc = false
 
 ## Operační modus (5 kroků)
 
-1. **Identifikace vysoce hodnotných slov** — manipulátor mapuje slova, jež jsou pro subjektovu identitu nebo orientaci klíčová ("láska", "férový", "kompetentní", "pravdivý").
-2. **Konkurenční sémantická vrstvení** — slovo je opakovaně použito v navzájem nesouvisejících kontextech s nepřekrývajícími se denotáty, vždy s nárokem na "skutečný" význam.
+1. **Identifikace vysoce hodnotných slov** — manipulátor mapuje slova, jež jsou pro subjektovu identitu nebo orientaci klíčová („láska“, „férový“, „kompetentní“, „pravdivý“).
+2. **Konkurenční sémantická vrstvení** — slovo je opakovaně použito v navzájem nesouvisejících kontextech s nepřekrývajícími se denotáty, vždy s nárokem na „skutečný“ význam.
 3. **Hyperironie a meta-užití** — slovo je střídavě užíváno doslovně, ironicky, sarkasticky, autoreferenčně, bez explicitního značení módu.
 4. **Sémantické inverze** — slovo je v některých kontextech užito tak, že znamená opak svého konvenčního denotátu.
 5. **Komunikační stažení** — subjekt přestává slova používat, přechází na perifrázi, gesta, nakonec mlčí v oblastech, kde manipulátor sémanticky operuje.
@@ -60,7 +60,7 @@ toc = false
 
 ## Klinický kontext
 
-Sémantická imploze se vyskytuje typicky v dlouhodobém abusivním partnerství (slova "láska", "péče", "férový" jsou systematicky přesycována a invertována), v sektách s gnostickým výkladem terminologie ("svoboda" znamená podřízení), ve vysoce ironickém intelektuálním prostředí, kde mizí distinkce mezi módy užití, a v některých formách korporátního newspeaku. Léčba vyžaduje **lingvistickou rehabilitaci** — explicitní cvičení v normativním užívání slov v bezpečném prostředí, často 6–18 měsíců.
+Sémantická imploze se vyskytuje typicky v dlouhodobém abusivním partnerství (slova „láska“, „péče“, „férový“ jsou systematicky přesycována a invertována), v sektách s gnostickým výkladem terminologie („svoboda“ znamená podřízení), ve vysoce ironickém intelektuálním prostředí, kde mizí distinkce mezi módy užití, a v některých formách korporátního newspeaku. Léčba vyžaduje **lingvistickou rehabilitaci** — explicitní cvičení v normativním užívání slov v bezpečném prostředí, často 6–18 měsíců.
 
 ## Cross-linky
 

@@ -63,7 +63,6 @@ DD target: 12 zdrojů potvrzuje revenue, ale všech 12 cituje jeden auditovaný 
 
 OSINT investigace: 3 zdroje (firemní web + LinkedIn + press) všechny pochází z marketingu — refutation hledána v soudních spisech, found contradiction
 
-
 Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
 
 ## Cross-linky
@@ -78,7 +77,6 @@ Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, kte
 - [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
 - [Case studies](@/kompendium/case-studies/_index.md)
 - [Quick reference](@/kompendium/quick-reference/_index.md)
-
 
 ## Connect
 

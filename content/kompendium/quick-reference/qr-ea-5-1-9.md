@@ -24,14 +24,14 @@ toc = false
 
 ## Definice
 
-**Identitní dezintegrace** systematicky rozkládá narativní kontinuitu subjektu skrze opakované zpochybňování paměti, retroaktivní reinterpretace minulých rozhodnutí a vytváření protichůdných verzí "kdo jsi". Subjekt postupně ztrácí přístup k *já-narativu* — koherentnímu příběhu, jenž integruje minulost, přítomnost a budoucnost do identitní jednoty. V terminálním stadiu zažívá *narativní vakuum*: faktické vzpomínky existují, ale neskládají se do osoby. Strukturálně je technika příbuzná Ricoeurově *narrative identity* aplikovanou destruktivně — manipulátor přebírá roli vypravěče, jenž subjektu poskytuje "správnou" verzi jeho příběhu.
+**Identitní dezintegrace** systematicky rozkládá narativní kontinuitu subjektu skrze opakované zpochybňování paměti, retroaktivní reinterpretace minulých rozhodnutí a vytváření protichůdných verzí „kdo jsi“. Subjekt postupně ztrácí přístup k *já-narativu* — koherentnímu příběhu, jenž integruje minulost, přítomnost a budoucnost do identitní jednoty. V terminálním stadiu zažívá *narativní vakuum*: faktické vzpomínky existují, ale neskládají se do osoby. Strukturálně je technika příbuzná Ricoeurově *narrative identity* aplikovanou destruktivně — manipulátor přebírá roli vypravěče, jenž subjektu poskytuje „správnou“ verzi jeho příběhu.
 
 ## Operační modus (5 kroků)
 
 1. **Akviziční mapování biografie** — manipulátor sbírá detaily subjektovy minulosti pod záminkou intimního zájmu.
-2. **Reinterpretační injekce** — klíčové momenty jsou retroaktivně přerámovány ("vlastně jsi tehdy chtěl/a něco jiného").
+2. **Reinterpretační injekce** — klíčové momenty jsou retroaktivně přerámovány („vlastně jsi tehdy chtěl/a něco jiného“).
 3. **Paměťová eroze skrze kontradikci** — manipulátor opakovaně tvrdí verze událostí, jež jsou v rozporu se subjektovou pamětí.
-4. **Náhradní narativ** — manipulátor nabídne "skutečnou" verzi subjektovy historie, jež je internalizována.
+4. **Náhradní narativ** — manipulátor nabídne „skutečnou“ verzi subjektovy historie, jež je internalizována.
 5. **Identitní substituce** — subjekt přestává mít přístup k vlastnímu narativu, žije v narativu manipulátora.
 
 ## Fenomenologické znaky
@@ -60,7 +60,7 @@ toc = false
 
 ## Klinický kontext
 
-Identitní dezintegrace se vyskytuje v dlouhodobém koerzivně-kontrolním vztahu, sektářském kontextu (vstupní rituál často zahrnuje "smrt starého já"), v traumatickém kultu osobnosti a v některých formách dlouhodobé hospitalizace, jež degradují biografickou paměť. Diferenciálně se odlišuje od **legitimního terapeutického reframingu** (který subjektovi pomáhá integrovat, ne nahradit, vlastní narativ). Reverzibilita: vysoká, pokud existují externí narativní svědci; velmi nízká, pokud byl subjekt izolován od původní biografie.
+Identitní dezintegrace se vyskytuje v dlouhodobém koerzivně-kontrolním vztahu, sektářském kontextu (vstupní rituál často zahrnuje „smrt starého já“), v traumatickém kultu osobnosti a v některých formách dlouhodobé hospitalizace, jež degradují biografickou paměť. Diferenciálně se odlišuje od **legitimního terapeutického reframingu** (který subjektovi pomáhá integrovat, ne nahradit, vlastní narativ). Reverzibilita: vysoká, pokud existují externí narativní svědci; velmi nízká, pokud byl subjekt izolován od původní biografie.
 
 ## Cross-linky
 

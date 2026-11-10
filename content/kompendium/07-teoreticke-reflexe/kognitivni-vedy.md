@@ -37,26 +37,26 @@ Kahnemanova rekonstrukce dvojsystémové teorie (*Thinking, Fast and Slow*, 2011
 | **Modifikovatelnost** | Obtížně přístupná introspekci | Přístupná reflexi |
 | **Spotřeba zdrojů** | Minimální (default mode) | Vysoká (executive control) |
 
-System 1 generuje **rychlé heuristické soudy** na základě rozpoznávání vzorců, asociativních spojů a afektivních markerů. System 2 disponuje **analytickou kapacitou**, ale je nákladný — jeho aktivace vyžaduje [metakognitivní](@/glossary/metakognice.md) signál ("toto vyžaduje pozornost") a dostatečné mentální zdroje.
+System 1 generuje **rychlé heuristické soudy** na základě rozpoznávání vzorců, asociativních spojů a afektivních markerů. System 2 disponuje **analytickou kapacitou**, ale je nákladný — jeho aktivace vyžaduje [metakognitivní](@/glossary/metakognice.md) signál („toto vyžaduje pozornost“) a dostatečné mentální zdroje.
 
 ### Exploitabilita System 1
 
 Manipulátor cílí primárně na System 1 z pragmatických důvodů: System 1 je rychlejší, méně podezíravý a operuje pod prahem reflektivního vědomí. Klíčové exploitabilní vlastnosti zahrnují:
 
-- **Substitution heuristic** — Subjekt nahradí obtížnou otázku ("Je tato investice racionální?") otázkou snazší ("Cítím se ohledně této investice dobře?"). Manipulátor ovlivňuje afektivní marker, nikoli analytický obsah.
+- **Substitution heuristic** — Subjekt nahradí obtížnou otázku („Je tato investice racionální?“) otázkou snazší („Cítím se ohledně této investice dobře?“). Manipulátor ovlivňuje afektivní marker, nikoli analytický obsah.
 - **Availability heuristic** — Frekvence a vivisita mediální expozice utváří subjektivní odhad pravděpodobnosti. Saturace mediálního prostoru jednou narativní linií transformuje její vnímanou pravděpodobnost.
 - **Anchoring** — Iniciální numerická kotva kontaminuje následné odhady, i když subjekt explicitně ví, že kotva je arbitrární.
 - **Affect heuristic** — Pozitivní/negativní valence transferovaná z asociovaných objektů manipuluje rozhodnutí v doménách formálně nesouvisejících.
 - **Framing effects** — Logicky ekvivalentní formulace generují odlišná rozhodnutí; manipulátor volí frame maximalizující požadovaný výsledek.
 
-Tato zranitelnost je **strukturální**, nikoli individuální. Není manifestací iracionality jednotlivců, ale architektonického kompromisu mezi rychlostí a přesností. Kahneman opakovaně zdůrazňuje, že System 1 nelze "vypnout" — lze pouze kultivovat **metakognitivní detekci** situací, jež vyžadují aktivaci System 2.
+Tato zranitelnost je **strukturální**, nikoli individuální. Není manifestací iracionality jednotlivců, ale architektonického kompromisu mezi rychlostí a přesností. Kahneman opakovaně zdůrazňuje, že System 1 nelze „vypnout“ — lze pouze kultivovat **metakognitivní detekci** situací, jež vyžadují aktivaci System 2.
 
 ### Inhibice System 2 jako útoková strategie
 
 Sofistikované manipulační konfigurace cílí nikoli pouze na klamání System 1, ale především na **inhibici System 2**. Hlavní inhibiční techniky:
 
 - **Cognitive load saturation** — Informační přetížení vyčerpá kapacitu pracovní paměti; System 2 nemá zdroje pro analytickou intervenci.
-- **Time pressure** — Akcentace urgence ("Musíme rozhodnout teď") znemožňuje pomalou sekvenční analýzu.
+- **Time pressure** — Akcentace urgence („Musíme rozhodnout teď“) znemožňuje pomalou sekvenční analýzu.
 - **Emotional flooding** — Hyperaktivace amygdaly přes hrozbu/strach disabilizuje prefrontální kortex; System 2 je neurobiologicky offline.
 - **Sleep deprivation** — Spánkový deficit selektivně poškozuje exekutivní funkce System 2 dříve než automatismy System 1.
 - **Glycemic depletion** — Akutní pokles glukózy diskriminačně postihuje energeticky náročné System 2 procesy.
@@ -67,7 +67,7 @@ Kombinace selektivního atakování System 1 plus inhibice System 2 představuje
 
 ### Mozek jako prediktivní stroj
 
-Friston (*The free-energy principle*, 2010) a Clark (*Surfing Uncertainty*, 2016) formulují radikálně odlišný model kognice: mozek není pasivním přijímačem senzorických dat, ale **prediktivním generátorem hypotéz** o budoucích senzorických vstupech. Vědomá zkušenost není rekonstrukcí "venku jsoucího světa", ale **kontrolovanou halucinací** — modelem světa, jenž je kontinuálně testován proti predikčním chybám (prediction errors).
+Friston (*The free-energy principle*, 2010) a Clark (*Surfing Uncertainty*, 2016) formulují radikálně odlišný model kognice: mozek není pasivním přijímačem senzorických dat, ale **prediktivním generátorem hypotéz** o budoucích senzorických vstupech. Vědomá zkušenost není rekonstrukcí „venku jsoucího světa“, ale **kontrolovanou halucinací** — modelem světa, jenž je kontinuálně testován proti predikčním chybám (prediction errors).
 
 Klíčové komponenty prediktivního zpracování:
 
@@ -83,7 +83,7 @@ Klíčové komponenty prediktivního zpracování:
 
 Konkrétní mechanismy:
 
-- **Prior shaping** — Saturace informačního prostoru utváří očekávání ohledně toho, co je "normální", "pravděpodobné", "věrohodné". Subsequentní evidence je interpretována skrze tyto kontaminované priors.
+- **Prior shaping** — Saturace informačního prostoru utváří očekávání ohledně toho, co je „normální“, „pravděpodobné“, „věrohodné“. Subsequentní evidence je interpretována skrze tyto kontaminované priors.
 - **Precision weighting attack** — Manipulace hodnoty *precision* (důvěry) přiřazené různým zdrojům informace. Diskreditace legitimních zdrojů snižuje váhu jejich prediction errors; legitimizace manipulačních zdrojů zvyšuje váhu jejich vstupů.
 - **Prediction error suppression** — Když subjekt učiní krok do manipulační reality, [konfirmační bias](@/glossary/konfirmacni-bias.md) selektivně suprimuje prediction errors odporující novému modelu. Model se stabilizuje proti revizi.
 - **Active inference capture** — Manipulátor strukturuje subjektovo prostředí tak, aby konfirmovalo manipulační predikce. Subjekt aktivně modifikuje svět směrem k manipulační verzi reality.
@@ -121,7 +121,7 @@ Pokud je poznání vtělené, pak [epistemická anihilace](@/glossary/epistemick
 
 Enaktivistická perspektiva implikuje, že individuální poznání je nedělitelně **dialogické** — vzniká v koordinované interakci s druhými. Z toho plyne, že [epistemická alienace](@/glossary/epistemicka-alienace.md) není pouze ztrátou individuálních epistemických kapacit, ale **destrukcí epistemického společenství**, v němž jednotlivec své kapacity uskutečňuje.
 
-Tradiční model "robustního racionálního individua" je z enaktivistické perspektivy iluzí: každý subjekt je neoddělitelně vsazen v epistemické komunitě, jejíž rozklad je primární patogenní operací totalitních a kultovních kontextů.
+Tradiční model „robustního racionálního individua“ je z enaktivistické perspektivy iluzí: každý subjekt je neoddělitelně vsazen v epistemické komunitě, jejíž rozklad je primární patogenní operací totalitních a kultovních kontextů.
 
 ## Integrativní syntéza
 
@@ -139,7 +139,7 @@ Sofistikovaný manipulační útok operuje **napříč všemi třemi úrovněmi 
 
 [NABLA Infinity](@/glossary/nabla-infinity.md) implementuje strukturní obranu napříč třemi úrovněmi:
 
-- **Duální systém**: NABLA L0–L4 explicitně oddělují rychlé heuristické zpracování od pomalé analytické evaluace, čímž implementují nucenou aktivaci "System 2" pro epistemicky kritické operace.
+- **Duální systém**: NABLA L0–L4 explicitně oddělují rychlé heuristické zpracování od pomalé analytické evaluace, čímž implementují nucenou aktivaci „System 2“ pro epistemicky kritické operace.
 - **Prediktivní kódování**: Axiom Contradiction Preservation (NABLA Axiom 2) brání systematickou supresi prediction errors; Provenance Mandatory (Axiom 7) udržuje dohledatelnost prior shaping.
 - **Embodied / enaktivní**: Kolektivní operace jsou strukturovány skrze [Color Teams](@/glossary/color-teams.md) — dialogická adversariální architektura, jež kompenzuje individuální zranitelnosti distributed cognition modelem.
 
@@ -180,7 +180,6 @@ Sofistikovaný manipulační útok operuje **napříč všemi třemi úrovněmi 
 - [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Glosář: Color Teams](@/glossary/color-teams.md)
 - [Glosář: Decision Core](@/glossary/decision-core.md)
-
 
 ## ⚡ Kritický krok
 

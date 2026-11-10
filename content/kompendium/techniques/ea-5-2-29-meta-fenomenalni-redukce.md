@@ -37,9 +37,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 **Meta-fenomenální redukce** je metatranscendentální technika eskalace [EA-5.2.17 husserlovské redukce — perverze](@/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze.md). Zatímco perverze redukuje **přirozený postoj** k trvalému uzávorkování, meta-fenomenální redukce **redukuje samu redukující kapacitu**: subjekt provádí *epoché* na svém vlastním aktu *epoché*, čímž generuje **rekurzivní paralýzu** fenomenologického fungování.
 
-V Husserlově fenomenologii je *epoché* metodologickým aktem; v korektní praxi se vědomí **navrací** k fenomenologické práci. Meta-fenomenální redukce tuto návratnou kapacitu destruuje skrze **rekurzivní aplikaci redukce na samu sebe**: každý pokus o návrat k fenomenologickému fungování je sám uzávorkován jako "naivní akt".
+V Husserlově fenomenologii je *epoché* metodologickým aktem; v korektní praxi se vědomí **navrací** k fenomenologické práci. Meta-fenomenální redukce tuto návratnou kapacitu destruuje skrze **rekurzivní aplikaci redukce na samu sebe**: každý pokus o návrat k fenomenologickému fungování je sám uzávorkován jako „naivní akt“.
 
-Subjekt v terminálním stadiu trpí **strukturní fenomenologickou afázií**: nemůže provést ani přirozený postoj (uzávorkován), ani fenomenologickou redukci (rekurzivně uzávorkována). Stav je něco jako "metafenomenologické vakuum", v němž žádná fenomenologická operace nemá strukturní oporu.
+Subjekt v terminálním stadiu trpí **strukturní fenomenologickou afázií**: nemůže provést ani přirozený postoj (uzávorkován), ani fenomenologickou redukci (rekurzivně uzávorkována). Stav je něco jako „metafenomenologické vakuum“, v němž žádná fenomenologická operace nemá strukturní oporu.
 
 Tento stav je často **terminální fáze** dlouhodobé akademické patologie u doktorandů zaplavených pseudo-fenomenologickou indoktrinací bez supervize. Klinicky je extrémně rezistentní.
 
@@ -51,7 +51,7 @@ Meta-fenomenální redukce **nemůže být indukována přímo** — vyžaduje p
 
 ### Krok 2 — Pseudo-radikální indoktrinace
 
-Subjekt je veden k tvrzení, že *"redukce sama je naivní akt — i ona musí být zredukována."* Husserlův *Krisis* je zneužíván jako autorita.
+Subjekt je veden k tvrzení, že *„redukce sama je naivní akt — i ona musí být zredukována.“* Husserlův *Krisis* je zneužíván jako autorita.
 
 ### Krok 3 — Aplikace redukce na redukci
 
@@ -59,16 +59,16 @@ Subjekt je veden k systematickému uzávorkování svého vlastního *epoché*. 
 
 ### Krok 4 — Bod meta-fenomenální paralýzy
 
-Subjekt prožívá **strukturní fenomenologické vakuum** — nemůže provést přirozený postoj ani fenomenologickou redukci. Stav je interpretován jako "překonání všech postojů".
+Subjekt prožívá **strukturní fenomenologické vakuum** — nemůže provést přirozený postoj ani fenomenologickou redukci. Stav je interpretován jako „překonání všech postojů“.
 
-### Krok 5 — Konsolidace paralýzy jako "post-fenomenologie"
+### Krok 5 — Konsolidace paralýzy jako „post-fenomenologie“
 
-Stav strukturní paralýzy je etablován jako "post-fenomenologický postoj" nebo "překonání metafyziky". Identitární investice činí návrat psychologicky téměř nemožným.
+Stav strukturní paralýzy je etablován jako „post-fenomenologický postoj“ nebo „překonání metafyziky“. Identitární investice činí návrat psychologicky téměř nemožným.
 
 ## Fenomenologické znaky
 
 - **Strukturní fenomenologická afázie** — neschopnost zaujmout jakýkoli postoj.
-- **Pseudo-radikální melancholie** — pocit "překonání všech pozic".
+- **Pseudo-radikální melancholie** — pocit „překonání všech pozic“.
 - **Praktická bezmocnost** v úkolech vyžadujících jasný postoj.
 - **Slovní intelektualizace** maskující strukturní paralýzu.
 - **Lingvistická regrese** — řeč o řeči o řeči, bez praktické denotace.
@@ -106,7 +106,7 @@ Meta-fenomenální redukce je odlišitelná od:
 ### Individuální
 
 1. **Korektní husserlovská hermeneutika** — výklad *Krisis* a lebensweltové rekonstrukce.
-2. **Pragmatistická korekce** — Jamesovo *"radikální empirismus"* jako antidotum.
+2. **Pragmatistická korekce** — Jamesovo *„radikální empirismus“* jako antidotum.
 3. **Strukturální postojová cvičení** — vynucené praktické zaujímání pozic.
 4. **Tělesná zakotvenost** — primární praxe mimo transcendentální aparát.
 

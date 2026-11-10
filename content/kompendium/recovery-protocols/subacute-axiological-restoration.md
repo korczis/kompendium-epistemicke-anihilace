@@ -40,7 +40,7 @@ Měsíce 1–3 po dosažení akutní stabilizace. Intenzita: 1–2 sezení týdn
 
 1. **Hloubkové hodnocení (týden 5–6)**: Klinické instrumenty (PCL-5, ITQ, IES-R), kognitivní baseline, narativní mapování. Identifikace primárních manipulačních vzorců.
 2. **Strukturovaná psychoedukace (měsíc 2)**: Vzdělávací moduly o specifických technikách EA, kterým byl klient vystaven. **Kontrolovaná dávka** — psychoedukace musí být tolerována bez retraumatizace.
-3. **Narativní práce (měsíce 1–3)**: Týdenní sezení zaměřená na konstrukci koherentní traumatické narace. Externalizace pachatelského hlasu (technika "pojmenuj postavu"). Postupné přepisování klíčových scén.
+3. **Narativní práce (měsíce 1–3)**: Týdenní sezení zaměřená na konstrukci koherentní traumatické narace. Externalizace pachatelského hlasu (technika „pojmenuj postavu“). Postupné přepisování klíčových scén.
 4. **Trauma-focused intervence (měsíce 2–3)**: Zahájení EMDR nebo TF-CBT, jakmile dostatečná stabilizace. Cíl: zpracování klíčových traumatických memorií, ne celého spektra.
 5. **Detekční trénink (měsíc 3)**: Strukturované cvičení rozpoznávání manipulativních vzorců — hypotetické scénáře, role-play, video case studies. Budování **epistemic vigilance**.
 6. **Hodnotová inventarizace (měsíc 3)**: Strukturovaná práce s hodnotovým systémem — co je autentické, co implantované, co potřeba rekonstruovat.

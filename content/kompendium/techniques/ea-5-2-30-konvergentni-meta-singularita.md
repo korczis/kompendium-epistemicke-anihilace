@@ -38,6 +38,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 **Konvergentní meta-singularita** je **terminální technika** subkategorie 5.2 — finální stav, do něhož všechny předchozí dílčí destrukce ([EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) až [EA-5.2.29](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md)) **konvergují**, pokud nebyly zastaveny terapeutickou intervencí. Subjekt prožívá **simultánní kolaps** všech transcendentálních struktur do **jediného singulárního bodu metatranscendentální paralýzy**.
 
 Konvergentní meta-singularita zahrnuje:
+
 - **Kategoriální vakuum** ([EA-5.2.11](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md) + [EA-5.2.25](@/kompendium/techniques/ea-5-2-25-kategorialni-mlha.md) v plné expansi).
 - **Fragmentovanou prostoročasovost** ([EA-5.2.13](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md) + [EA-5.2.27](@/kompendium/techniques/ea-5-2-27-apriorni-deformace.md)).
 - **Konstitutivní zhroucení** ([EA-5.2.14](@/kompendium/techniques/ea-5-2-14-konstitutivni-zhrouceni.md)).
@@ -58,17 +59,17 @@ Konvergentní meta-singularita **nemůže být indukována přímo**. Vyžaduje 
 
 ### Krok 2 — Konvergenční tlak
 
-Manipulátor systematicky tlačí všechny dílčí destrukce ke **simultánní eskalaci**. Klíčová formulace: *"Všechny destrukce konvergují do Jednoho — finálního osvícení."*
+Manipulátor systematicky tlačí všechny dílčí destrukce ke **simultánní eskalaci**. Klíčová formulace: *„Všechny destrukce konvergují do Jednoho — finálního osvícení.“*
 
 ### Krok 3 — Terminální praxe
 
-Intenzivní praxe údajně "dokončující transformaci" — extrémní retreat (40+ dnů), kombinace metod, často včetně psychedelik a deprivace.
+Intenzivní praxe údajně „dokončující transformaci“ — extrémní retreat (40+ dnů), kombinace metod, často včetně psychedelik a deprivace.
 
 ### Krok 4 — Bod konvergentní singularity
 
-Subjekt prožívá **simultánní kolaps** všech transcendentálních struktur. Stav je interpretován jako "konečné probuzení", "absolutní realizace", "překonání všech kategorií".
+Subjekt prožívá **simultánní kolaps** všech transcendentálních struktur. Stav je interpretován jako „konečné probuzení“, „absolutní realizace“, „překonání všech kategorií“.
 
-### Krok 5 — Konsolidace singularity jako "konečného stavu"
+### Krok 5 — Konsolidace singularity jako „konečného stavu“
 
 Stav je etablován jako trvalý cíl. Identitární investice je totální. Návrat je psychologicky téměř nemožný bez radikální klinické intervence.
 
@@ -77,7 +78,7 @@ Stav je etablován jako trvalý cíl. Identitární investice je totální. Náv
 - **Totální transcendentální vakuum** — žádná struktura zkušenosti nefunguje normálně.
 - **Pseudo-mystická euforie** prokládaná akutní úzkostnou paralýzou.
 - **Strukturní afázie** napříč všemi modálnostmi.
-- **Identitární totální absorpce** v "Jednom".
+- **Identitární totální absorpce** v „Jednom“.
 - **Praktická bezmocnost** i v základních úkolech.
 - **Lingvistická regrese** k pseudo-mystickým formulím.
 - **Kombinace katatonie, depersonalizace, derealizace** s pseudo-spirituální racionalizací.

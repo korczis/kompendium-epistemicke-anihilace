@@ -24,15 +24,15 @@ toc = false
 
 ## Definice
 
-**Reflexivní paradoxie** vytváří v subjektově reflexivní kapacitě **paradoxní smyčky**, v nichž každý pokus o reflexi situace samé spouští novou úroveň reflexe, která je zase součástí situace. Manipulátor zarámuje vztah či diskurz tak, že **pokus uniknout je součástí toho, před čím se uniká**: rozpoznáním manipulace se subjekt stává "paranoidním", odmítnutím rozpoznání zůstává v manipulaci. Subjekt prožívá *epistemický klín*, ze kterého neexistuje pohyb bez ztráty. Strukturálně příbuzné Russelově paradoxu, Liarovu paradoxu a Batesonovu **double bind**, ale operující na úrovni metakognice samé.
+**Reflexivní paradoxie** vytváří v subjektově reflexivní kapacitě **paradoxní smyčky**, v nichž každý pokus o reflexi situace samé spouští novou úroveň reflexe, která je zase součástí situace. Manipulátor zarámuje vztah či diskurz tak, že **pokus uniknout je součástí toho, před čím se uniká**: rozpoznáním manipulace se subjekt stává „paranoidním“, odmítnutím rozpoznání zůstává v manipulaci. Subjekt prožívá *epistemický klín*, ze kterého neexistuje pohyb bez ztráty. Strukturálně příbuzné Russelově paradoxu, Liarovu paradoxu a Batesonovu **double bind**, ale operující na úrovni metakognice samé.
 
 ## Operační modus (5 kroků)
 
-1. **Etablování interpretačního rámce s vestavěnou reflexí** — manipulátor instaluje výklad, který obsahuje preventivní vyvrácení každé možné námitky ("kdokoli toto zpochybní, jen potvrzuje, že nepochopil").
+1. **Etablování interpretačního rámce s vestavěnou reflexí** — manipulátor instaluje výklad, který obsahuje preventivní vyvrácení každé možné námitky („kdokoli toto zpochybní, jen potvrzuje, že nepochopil“).
 2. **Performativní past** — každé subjektovo jednání lze interpretovat dvěma vzájemně se vylučujícími způsoby, oba jsou patologické.
 3. **Meta-rovina jako re-vstup** — pokus reflektovat past je sám interpretován jako důkaz pasti, do níž subjekt spadl.
 4. **Časové uzavření** — paradox je strukturován tak, že subjektovy minulé, současné i budoucí akce jsou retroaktivně reinterpretovatelné v jeho rámci.
-5. **Reflexivní vyhoření** — subjekt přestává reflexi vůbec aktivovat, přijímá manipulátorův rámec jako "úsporné řešení".
+5. **Reflexivní vyhoření** — subjekt přestává reflexi vůbec aktivovat, přijímá manipulátorův rámec jako „úsporné řešení“.
 
 ## Fenomenologické znaky
 
@@ -60,7 +60,7 @@ toc = false
 
 ## Klinický kontext
 
-Reflexivní paradoxie se objevuje ve vysoce kohezních sektách s elaborate doktrínou, v některých formách hyperintelektuálního gaslightingu, v dlouhodobých vztazích s narcistickou strukturou (kde každý projev nezávislosti je interpretován jako "potvrzení" partnerova hodnocení) a v institucionálních kontextech, kde stížnost na proces je sama předmětem procesu. Léčba vyžaduje strukturální distanci — terapeut musí explicitně **odmítnout** vnitřní logiku rámce, jinak paradox kolonizuje terapeutický vztah.
+Reflexivní paradoxie se objevuje ve vysoce kohezních sektách s elaborate doktrínou, v některých formách hyperintelektuálního gaslightingu, v dlouhodobých vztazích s narcistickou strukturou (kde každý projev nezávislosti je interpretován jako „potvrzení“ partnerova hodnocení) a v institucionálních kontextech, kde stížnost na proces je sama předmětem procesu. Léčba vyžaduje strukturální distanci — terapeut musí explicitně **odmítnout** vnitřní logiku rámce, jinak paradox kolonizuje terapeutický vztah.
 
 ## Cross-linky
 

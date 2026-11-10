@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 **Tematická diverze** (známá také jako *red herring*, *thematic deflection*) je systematické **přesměrování diskuse** od potenciálně **problematických** nebo **falsifikujicích** aspektů teorie k **irelevantním**, **triviálně pravdivým** nebo **highly defensible** aspektům.
 
-Klíčový mechanismus: **exploitace konverzační fluidity** a **epistemické kontinuity** mezi distinktními, ale souvisejícími tématy. Subjekt prožívá diskusi jako **kontinuální** — sleduje "tok hovoru" — bez vědomí, že **původní centrální otázka** byla **strukturálně opuštěna**.
+Klíčový mechanismus: **exploitace konverzační fluidity** a **epistemické kontinuity** mezi distinktními, ale souvisejícími tématy. Subjekt prožívá diskusi jako **kontinuální** — sleduje „tok hovoru“ — bez vědomí, že **původní centrální otázka** byla **strukturálně opuštěna**.
 
 Strukturálně sourozenecká vůči [EA-1.3.1 Imunizaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) a [EA-1.3.2 Strategické reinterpretaci](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) — všechny tři brání **revizi a falsifikaci**, ale různými mechanismy: imunizace přidává auxiliární hypotézy; reinterpretace přepisuje meaning; diverze **odsouvá** kontradikci mimo prostor diskuse.
 
@@ -60,10 +60,10 @@ Manipulátor identifikuje, že centrální otázka představuje **epistemické r
 
 Manipulátor **plynule** přesouvá diskusi:
 
-- "To je zajímavá otázka, ale **mnohem důležitější** je otázka..."
-- "Předtím, než to budeme řešit, **musíme adresovat**..."
-- "To je vlastně **symptom hlubšího problému**, kterým je..."
-- "**Související** otázkou, která by měla mít prioritu, je..."
+- „To je zajímavá otázka, ale **mnohem důležitější** je otázka…“
+- „Předtím, než to budeme řešit, **musíme adresovat**…“
+- „To je vlastně **symptom hlubšího problému**, kterým je…“
+- „**Související** otázkou, která by měla mít prioritu, je…“
 
 Klíčová charakteristika: nové téma je **související**, ale **strukturálně distinktivní**. Není to **non-sequitur** (které by bylo snadno detekovatelné), ale **soft pivot**.
 
@@ -75,9 +75,9 @@ Manipulátor **detailně** debatuje v novém tématu — typicky v oblasti, kde 
 
 Pokud subjekt **explicitně** požaduje návrat k původní otázce, manipulátor:
 
-- "Vrátíme se k tomu, jakmile vyřešíme **tento** prerekvizit"
-- "Toto je **integrální** s tou otázkou, kterou jste položil"
-- "Po této stranou-otázce uvidíme původní otázku v novém světle"
+- „Vrátíme se k tomu, jakmile vyřešíme **tento** prerekvizit“
+- „Toto je **integrální** s tou otázkou, kterou jste položil“
+- „Po této stranou-otázce uvidíme původní otázku v novém světle“
 
 V praxi se k původní otázce **nikdy** nevrátíme.
 
@@ -146,7 +146,7 @@ Toto referenční prohlášení **strukturálně** odolává diverzi.
 
 Při detekci diverze **explicitně** navrať diskusi:
 
-> *"Vraťme se k mé původní otázce: [explicit formulation]. Můžete na ni odpovědět?"*
+> *„Vraťme se k mé původní otázce: [explicit formulation]. Můžete na ni odpovědět?“*
 
 Bez ostychu. Pokud je sociální cena vysoká, je to indikátor strukturální diverze (a tedy validity návratu).
 
@@ -154,7 +154,7 @@ Bez ostychu. Pokud je sociální cena vysoká, je to indikátor strukturální d
 
 Identifikuj diverzi **explicitně, na meta-úrovni**:
 
-> *"Všiml/a jsem si, že diskuse se posunula od původní otázky. Můžeme se k ní explicitně vrátit?"*
+> *„Všiml/a jsem si, že diskuse se posunula od původní otázky. Můžeme se k ní explicitně vrátit?“*
 
 Meta-úroveň přerušuje strukturální vzorec — manipulátor není připraven explicitně **obhájit** přesun.
 
@@ -171,7 +171,7 @@ Strukturální časové rozpočty zabraňují diverzi mimo agendu.
 
 Pokud diskuse skončí bez klozury, **písemně** zformuluj **původní otázku** a **požaduj odpověď**:
 
-> *"Po naší diskusi zůstává nezodpovězeno: [explicit question]. Žádám o písemnou odpověď do [deadline]."*
+> *„Po naší diskusi zůstává nezodpovězeno: [explicit question]. Žádám o písemnou odpověď do [deadline].“*
 
 Písemný formát strukturálně **stabilizuje** otázku.
 
@@ -191,7 +191,7 @@ Písemný formát strukturálně **stabilizuje** otázku.
 
 Student na obhajobě dostal **konkrétní** kritickou otázku ohledně metodologie. Místo přímé odpovědi posunul diskusi na **obecné** filozofické otázky vědecké metody.
 
-Detekce: Předseda komise explicitně přerušil: "Vrátíme se k vaší metodologii konkrétně. Můžete odpovědět na otázku o sample size justification?"
+Detekce: Předseda komise explicitně přerušil: „Vrátíme se k vaší metodologii konkrétně. Můžete odpovědět na otázku o sample size justification?“
 
 Intervence: Strukturální požadavek na obhajoby — moderátor s mandátem **vrátit** diskusi k původní otázce.
 
@@ -223,7 +223,7 @@ Intervence: Klinické protokoly — strukturální ujištění, že každý paci
 ### Eskaluje do
 
 - **Kolektivní tematická diverze** — strukturální delegitimizace pole skrze opakovanou diverzi od kritických otázek.
-- **EA-1.6.1 Vzorec "Guru a adept"** — guru kontroluje **trajektorii** diskusí, systematicky odsouvá kritické otázky.
+- **EA-1.6.1 Vzorec „Guru a adept“** — guru kontroluje **trajektorii** diskusí, systematicky odsouvá kritické otázky.
 
 ### Hraniční / podobné
 
@@ -248,7 +248,6 @@ Intervence: Klinické protokoly — strukturální ujištění, že každý paci
 - **Související platformové koncepty**:
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
-
 
 ## ⚡ Kritický krok
 

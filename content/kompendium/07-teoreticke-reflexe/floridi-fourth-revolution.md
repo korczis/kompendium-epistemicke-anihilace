@@ -96,7 +96,7 @@ Strukturálně klíčový moment: **post-2000** vstupujeme do hyperhistory — f
 Pro EA z toho plyne:
 
 - **Strukturální zranitelnost hyperhistorie**: přerušení ICT je strukturálně **kataclysmické**
-- **EA v hyperhistorii**: strukturálně závažnější než v history — neexistuje "fallback" mode
+- **EA v hyperhistorii**: strukturálně závažnější než v history — neexistuje „fallback“ mode
 
 ## 6. Right to be forgotten
 

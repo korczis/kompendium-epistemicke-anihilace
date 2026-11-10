@@ -123,7 +123,6 @@ Technika **genealogická rekonstrukce** představuje strukturální výzvu pro d
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Foucaultova **généalogie** jako kritická analýza vznikání — manipulátor parazituje na této metodě, instaluje fiktivní genealogii. Ricoeurova **mémoire collective** (*La mémoire, l'histoire, l'oubli*) — subjekt je formován kolektivní pamětí — je falsifikována. Husserlova **passive Genesis** ego (*Cartesian Meditations*) — sedimentační historie monády — je přeskočena. Heideggerova **Geworfenheit** (vrženost, *Sein und Zeit*) ztrácí faktickou kotvu: subjekt je 'vržen' do fiktivní genealogie. Damasiova **autobiographical extended consciousness** ztrácí kontinuální kotvení v rodinné/kulturní historii. Levinas: stopa otce je nahrazena stopou manipulátora. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

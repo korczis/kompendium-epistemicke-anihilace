@@ -23,14 +23,14 @@ Jean-Paul Sartrovo *L'Être et le néant* (*Bytí a nicota*, 1943) představuje 
 
 Sartre rozlišuje dva fundamentální mody bytí:
 
-- **En-soi** ("bytí o sobě") — bytí věcí, jež jsou **identicky to, čím jsou**. Kámen je kámen.
-- **Pour-soi** ("bytí pro sebe") — bytí vědomí, jež **není identicky tím, čím je** — vždy se k sobě **vztahuje**, **přesahuje** se, **projektuje** se.
+- **En-soi** („bytí o sobě“) — bytí věcí, jež jsou **identicky to, čím jsou**. Kámen je kámen.
+- **Pour-soi** („bytí pro sebe“) — bytí vědomí, jež **není identicky tím, čím je** — vždy se k sobě **vztahuje**, **přesahuje** se, **projektuje** se.
 
 Lidské vědomí je strukturálně **trhlinou** v plnosti bytí — **nicotou** (*néant*), jež zavádí distanci od samotné sebe.
 
 Pro EA z toho plyne:
 
-- **Reifikace pour-soi do en-soi** je strukturální technika: nutit subjekt myslet o sobě jako o **objektu** ("ty jsi takový a takový", "máš tyto vlastnosti", "patříš do této kategorie") znamená vystavit ho EA.
+- **Reifikace pour-soi do en-soi** je strukturální technika: nutit subjekt myslet o sobě jako o **objektu** („ty jsi takový a takový“, „máš tyto vlastnosti“, „patříš do této kategorie“) znamená vystavit ho EA.
 - **Sociální etiketování** — třídní, etnické, genderové, diagnostické — operuje strukturálně skrze tuto reifikaci.
 - **Svoboda pour-soi** je strukturální zdroj **rezilience** vůči EA: subjekt si vědom své svobody je strukturálně méně manipulovatelný.
 
@@ -40,9 +40,9 @@ Sartrův centrální pojem: **mauvaise foi** — sebeklam, jímž subjekt **utí
 
 Klasické příklady ze *Bytí a nicoty*:
 
-- **Číšník**, jenž "hraje číšníka" — nadměrně pohyblivý, přesný, formální, jako by jeho **bytí** bylo identicky **funkcí** "číšníka".
+- **Číšník**, jenž „hraje číšníka“ — nadměrně pohyblivý, přesný, formální, jako by jeho **bytí** bylo identicky **funkcí** „číšníka“.
 - **Žena na rande**, jež nechá svou ruku **být objektem** v ruce muže, aniž by formálně přitakala flirtu — utíká od svobody **rozhodnout**.
-- **Antisemita**, jenž věří, že "Žid" má pevnou esenci — utíká od svobody **vidět konkrétního člověka**.
+- **Antisemita**, jenž věří, že „Žid“ má pevnou esenci — utíká od svobody **vidět konkrétního člověka**.
 
 Pro EA má mauvaise foi **trojí relevanci**:
 
@@ -52,12 +52,12 @@ Pro EA má mauvaise foi **trojí relevanci**:
 
 ## 3. Radikální svoboda
 
-Sartrova nejprovokativnější teze: **člověk je odsouzen ke svobodě**. Nelze **nezvolit** — i odmítnutí volby je volbou. Neexistuje žádná **podstata** člověka, jež by předcházela jeho **existenci**: "**Existence předchází esenci**" (*L'Existentialisme est un humanisme*, 1946).
+Sartrova nejprovokativnější teze: **člověk je odsouzen ke svobodě**. Nelze **nezvolit** — i odmítnutí volby je volbou. Neexistuje žádná **podstata** člověka, jež by předcházela jeho **existenci**: „**Existence předchází esenci**“ (*L'Existentialisme est un humanisme*, 1946).
 
 Pro EA z toho plyne:
 
-- **Útok na radikální svobodu** je strukturální technika: deterministické rámce ("nemůžeš jinak", "tvoje DNA tě nutí", "ekonomické zákony to vynucují") jsou **manipulativní**, i když mají vědecký nátěr.
-- **Defenzivní zneužití** Sartra: "vše je svobodná volba" může být použito jako **maska pro strukturální násilí** — zatímco systém vytváří podmínky, jednotlivec je obviňován ze "špatné volby".
+- **Útok na radikální svobodu** je strukturální technika: deterministické rámce („nemůžeš jinak“, „tvoje DNA tě nutí“, „ekonomické zákony to vynucují“) jsou **manipulativní**, i když mají vědecký nátěr.
+- **Defenzivní zneužití** Sartra: „vše je svobodná volba“ může být použito jako **maska pro strukturální násilí** — zatímco systém vytváří podmínky, jednotlivec je obviňován ze „špatné volby“.
 - Kompendium proto **kombinuje** Sartrův důraz na svobodu se **strukturální analýzou** podmínek (Foucault, [viz 7.1 §1](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)).
 
 ## 4. *Le regard* (Pohled druhého)
@@ -76,7 +76,7 @@ Sartre v poválečném období rozvíjí pojem **angažovaného intelektuála** 
 
 Pro EA má tato pozice **dvojí relevanci**:
 
-1. **Proti pseudoneutralitě**: Pozice "objektivního pozorovatele" je často **mauvaise foi** intelektuála — útěk od zodpovědnosti.
+1. **Proti pseudoneutralitě**: Pozice „objektivního pozorovatele“ je často **mauvaise foi** intelektuála — útěk od zodpovědnosti.
 2. **Riziko angažmá**: Angažovaný intelektuál je strukturálně **otevřený** EA — pokud jeho angažmá ztratí kritickou distanci, stává se **funkcionářem** ideologie. Sartrova vlastní pozice vůči SSSR je **klasickým příkladem** tohoto rizika.
 
 ## 6. Mapping na EA techniky
@@ -95,7 +95,7 @@ Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.
 
 - **Detekce mauvaise foi** je diagnostickým úkolem — subjekt v sebeklamu vyžaduje **specifickou** terapeutickou strategii.
 - **Existenciální analýza** (Frankl, Yalom) operuje na sartrovských kategoriích.
-- **Rizikem** je **inflace** existencialismu — všechno přepsat na "svobodnou volbu", což může vést k obviňování oběti.
+- **Rizikem** je **inflace** existencialismu — všechno přepsat na „svobodnou volbu“, což může vést k obviňování oběti.
 
 ## 8. Primární literatura
 

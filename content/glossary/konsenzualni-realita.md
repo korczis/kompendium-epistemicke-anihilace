@@ -1,81 +1,141 @@
 +++
-title = "Konsenzualni Realita"
+title = "Konsenzuální realita"
 weight = 100
-description = "Konsenzualni Realita — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
+description = "Konsenzuální realita: obraz světa, který sdílíme s ostatními a o který opíráme vlastní vnímání. Jak se tvoří, jak se dá zneužít a jak ji chránit."
 
 [taxonomies]
-tags = ["glossary", "architecture", "interactive"]
+tags = ["glossary", "kompendium", "epistemic", "social"]
 
 [extra]
-category = "architecture"
-related_terms = ["adversarial-architecture", "adaptive-learning", "adversarial-conditions", "acid-transactions", "accreditation", "adapter"]
+category = "epistemic"
+related_terms = ["lebenswelt", "solipsismus", "privatni-jazyk", "reality-testing", "epistemicka-komunita", "gaslighting"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 ref_count_at_creation = 1
 +++
 
-## Definition
+## Definice
 
-**Konsenzualni Realita** is a platform-architecture term used across the Prismatic Platform documentation. This entry is a structural stub created during the 2026-05-03 NLLB content-completion sweep — full treatment is part of the ongoing knowledge-base buildout.
+**Konsenzuální realita** je obraz světa, který člověk **sdílí s ostatními** a který považuje
+za samozřejmě platný: co se stalo, co je normální, co znamenají slova, kdo je kdo. Většinu
+toho, co víme, jsme nikdy sami neověřili; spoléháme na to, že to tak vidí i ostatní. Shoda
+s druhými je jedním z hlavních způsobů, jak ověřujeme vlastní vnímání a paměť.
 
-## See Also
+Konsenzuální realita není totéž co pravda. Shoda může být mylná a menšina může mít pravdu.
+Přesto je pro duševní zdraví zásadní: kdo ztratí možnost porovnávat své vnímání s druhými,
+ztrácí jeden z nejdůležitějších nástrojů [testování reality](@/glossary/reality-testing.md).
+Právě proto je sdílená realita citlivým cílem manipulace – ať už jejím zúžením na jednu
+skupinu, nebo vytvořením falešné shody.
 
-- [Glossary index](@/glossary/_index.md)
+## Původ a kontext pojmu
 
----
+Myšlenka má několik kořenů. Fenomenologie Edmunda Husserla popsala „přirozený postoj“
+a [Lebenswelt](@/glossary/lebenswelt.md) – předvědecký, sdílený svět, ve kterém žijeme dřív,
+než o něm začneme teoretizovat. Peter L. Berger a Thomas Luckmann v knize *The Social
+Construction of Reality* (1966) ukázali, jak se sdílená realita vytváří a udržuje v rozhovoru,
+institucích a rutinách, a jak se člověk do ní socializuje.
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Sociální psychologie doložila sílu konsenzu experimentálně. V pokusech Solomona Asche (první
+publikace 1951) část účastníků alespoň v některých kolech přijala zjevně chybný úsudek
+o délce úseček, když jej jednomyslně vyslovili ostatní členové skupiny (ve skutečnosti
+spolupracovníci experimentátora). Pokusy ukázaly i opak: přítomnost **jediného dalšího
+nesouhlasícího** účastníka konformitu výrazně snížila.
 
-## Manažerské shrnutí
+Filozofie jazyka přispívá argumentem Ludwiga Wittgensteina proti možnosti
+[soukromého jazyka](@/glossary/privatni-jazyk.md): význam slov je zakotven ve sdílené praxi,
+nikoli v soukromém nitru.
 
-**Konsenzualni Realita** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Jak se projevuje
 
+Zdravý vztah ke konsenzuální realitě se projevuje tím, že člověk svá vnímání porovnává
+s různými lidmi, umí nesouhlasit s většinou, když k tomu má důvody, a unese, že někdy je sám.
 
-## Koncepční síť
+Varovné znaky narušení:
 
-Vizualizace propojení **Konsenzualni Realita** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+- **zúžení zdrojů shody** – jedinou referenční skupinou je rodina, partner, skupina nebo
+  komunita kolem jedné autority;
+- **sborová verze událostí** – několik lidí opakuje totéž, často podobnými slovy, a jejich
+  shoda je předkládána jako důkaz;
+- **izolace od nezávislých svědků** – kontakt s lidmi, kteří by mohli potvrdit jiný pohled,
+  je omezen nebo zdiskreditován (viz [sociální izolace](@/glossary/socialni-izolace.md));
+- **subjektivní nejistota o realitě** – „nevím, jestli se to stalo, když všichni říkají, že ne“
+  (viz detekční signatura [Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md)).
 
-```mermaid
-graph TD
-    C0["Konsenzualni Realita"]
-    N1["Adversarial Architecture"]
-    N2["Adaptive Learning"]
-    N3["Adversarial Conditions"]
-    N4["ACID Transactions"]
-    N5["Accreditation"]
-    N6["Adapter"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+## Mechanismus
 
-## Související pojmy
+Manipulace s konsenzuální realitou využívá skutečnost, že shoda druhých je **legitimním**
+epistemickým zdrojem. Strukturálně se objevují tři vzorce:
 
-- [Adversarial Architecture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-architecture/) — slug `adversarial-architecture`
-- [Adaptive Learning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adaptive-learning/) — slug `adaptive-learning`
-- [Adversarial Conditions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-conditions/) — slug `adversarial-conditions`
-- [ACID Transactions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/acid-transactions/) — slug `acid-transactions`
-- [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/) — slug `accreditation`
-- [Adapter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adapter/) — slug `adapter`
+1. **Monopolizace konsenzu.** Okruh lidí, se kterými člověk může své vnímání porovnat, je zúžen
+   na jednu skupinu. Její shoda pak působí jako shoda „všech“.
+2. **Výroba konsenzu.** Shoda je vytvořena uměle – koordinovanými výpověďmi, falešnými
+   účty, přizpůsobením hodnocení (srov. [EA-2.1.9 Pseudo-konsenzus vytvoření](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md)).
+3. **Rozklad konsenzu.** Opačný směr: člověku je soustavně tvrzeno, že sdílená realita je jen
+   konvence, a tedy nic neznamená. To vede k solipsistickému osamocení, které popisuje
+   [EA-5.1.18 Solipsistická dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md).
 
-## Navigace
+V rodinném či partnerském prostředí je nejznámější podobou skupinový [gaslighting](@/glossary/gaslighting.md):
+když několik lidí shodně popírá to, co oběť zažila, je pro ni velmi těžké svému vnímání
+věřit.
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## Odlišení
+
+- **Konsenzus vs. pravda.** Ve vědě, právu i běžném životě se shoda hodnotí podle nezávislosti
+  zdrojů, ne podle počtu hlasů. Deset lidí opakujících jeden zdroj je jeden zdroj.
+- **Legitimní sociální vliv vs. manipulace.** Učit se od druhých a přejímat jejich znalosti je
+  normální. Manipulací se stává, když je shoda vyráběna nebo když je znemožněno ji ověřit.
+- **Vs. psychotická ztráta sdílené reality.** U psychózy se člověk odchyluje od sdílené reality
+  z vnitřních důvodů, často s bludným přesvědčením. U manipulace je zdrojem nejistoty vnější
+  tlak a její obsah je obvykle realistický. Odlišení vyžaduje klinické posouzení (viz
+  [Diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
+- **Vs. nonkonformní postoj.** Nesouhlas s většinou je sám o sobě zdravý; problémem je až
+  neschopnost porovnávat se s kýmkoli.
+
+## Význam pro Kompendium
+
+Pojem vysvětluje, proč izolace patří k nejúčinnějším prvkům mnoha technik a proč obnova
+vztahů s nezávislými lidmi bývá rozhodujícím krokem zotavení. Ve forenzním kontextu souvisí
+s otázkou koordinovaných výpovědí (viz [Civilní konspirace](@/kompendium/forensic-legal/16-civil-conspiracy-EA.md))
+a s hodnotou [třetiosobního potvrzení](@/kompendium/forensic-legal/37-third-party-corroboration.md).
+V [kartě EA-5.1.18](@/kompendium/quick-reference/qr-ea-5-1-18.md) je uveden mezi pojmy, které
+pomáhají rozpoznat solipsistickou dekompozici.
+
+## Obrana a zotavení
+
+- **Diverzifikovat zdroje shody.** Udržovat kontakty s lidmi z různých prostředí, kteří se mezi
+  sebou neznají (viz [Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md)).
+- **Ptát se na nezávislost, ne na počet.** „Viděl to každý z nich sám, nebo to slyšeli od
+  jednoho člověka?“
+- **Vést si záznamy.** Psané poznámky, fotografie a archiv zpráv vytvářejí „svědka“, kterého
+  nelze přemluvit (viz [Paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md)).
+- **Pro profesionály:** potvrzovat klientovi, že jeho vnímání má hodnotu, aniž by terapeut
+  sám rozhodoval o faktech, která nezná; pomáhat najít nezávislé potvrzení tam, kde je to možné.
+
+## Literatura
+
+- Berger, P. L., & Luckmann, T. (1966). *The Social Construction of Reality*.
+- Asch, S. E. (1951). Effects of group pressure upon the modification and distortion of
+  judgments.
+- Wittgenstein, L. (1953). *Philosophische Untersuchungen* (Filosofická zkoumání).
+
+## Související
+
+**Pojmy glosáře**
+
+- [Lebenswelt](@/glossary/lebenswelt.md) – sdílený svět každodenní zkušenosti.
+- [Solipsismus](@/glossary/solipsismus.md) – krajní ztráta sdílené reality.
+- [Reality testing](@/glossary/reality-testing.md) – ověřování vnímání, ke kterému shoda slouží.
+- [Gaslighting](@/glossary/gaslighting.md) – vztahová manipulace sdílenou verzí událostí.
+
+**Techniky a detekce**
+
+- [EA-5.1.18 Solipsistická dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md) – rozklad sdílené reality.
+- [EA-2.1.9 Pseudo-konsenzus vytvoření](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – výroba falešné shody.
+- [Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md) – fenomenologický znak.
+
+**Forenzní praxe a obrana**
+
+- [Třetiosobní potvrzení](@/kompendium/forensic-legal/37-third-party-corroboration.md) – nezávislí svědci jako důkaz.
+- [Sebe-obrana: Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md) – více nezávislých zdrojů shody.

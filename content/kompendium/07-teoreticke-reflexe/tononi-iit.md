@@ -44,7 +44,7 @@ IIT formuluje **kvantitativní míru**: **Φ** (phi) — **maximální integrova
 
 - Φ = 0: systém **bez** vědomí (oddělené části, bez integrace)
 - Φ > 0: systém **s vědomím** (integrované celky)
-- Φ_max: maximální integrace — vědomí "**žije**" na úrovni nejvyššího Φ
+- Φ_max: maximální integrace — vědomí „**žije**“ na úrovni nejvyššího Φ
 
 Pro EA má kvantifikace **specifický význam**:
 
@@ -71,7 +71,7 @@ Pro EA z toho plyne:
 
 IIT je strukturálně **kontroverzní**:
 
-- **Scott Aaronson** (informatik): "expander graph" má vysoké Φ, ale strukturálně neintuitivně **není vědomé**
+- **Scott Aaronson** (informatik): „expander graph“ má vysoké Φ, ale strukturálně neintuitivně **není vědomé**
 - **Daniel Dennett**: IIT je metafyzická spekulace bez empirické testovatelnosti
 - **Empiricky**: měření Φ v reálných systémech je strukturálně **neproveditelné** (kombinatorická exploze)
 
@@ -116,10 +116,10 @@ IIT má hlubokou **etickou** dimenzi:
 
 ## 9. Primární literatura
 
-- Tononi, G. (2004). "An Information Integration Theory of Consciousness". *BMC Neuroscience* 5.
-- Tononi, G. (2008). "Consciousness as Integrated Information". *Biological Bulletin* 215.
+- Tononi, G. (2004). „An Information Integration Theory of Consciousness“. *BMC Neuroscience* 5.
+- Tononi, G. (2008). „Consciousness as Integrated Information“. *Biological Bulletin* 215.
 - Tononi, G. (2012). *Phi: A Voyage from the Brain to the Soul*. Pantheon.
-- Tononi, G. & Koch, C. (2015). "Consciousness: Here, There and Everywhere?". *Phil. Trans. R. Soc. B* 370.
+- Tononi, G. & Koch, C. (2015). „Consciousness: Here, There and Everywhere?“. *Phil. Trans. R. Soc. B* 370.
 - Tononi, G. (2018). *The Feeling of Life Itself*. MIT Press.
 
 ## Související

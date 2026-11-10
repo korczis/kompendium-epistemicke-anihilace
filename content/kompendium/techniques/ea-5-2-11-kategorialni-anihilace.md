@@ -39,7 +39,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 Na rozdíl od [EA-5.2.7 kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md), která rozpouští **konkrétní obsahy** kategorií, kategoriální anihilace operuje na úrovni **transcendentální logiky**: jsou destruovány **kategorie samé jako podmínka možnosti zkušenosti**. V Kantově terminologii: nejde o ztrátu dat ale o ztrátu **forem rozvažování** (Verstandeskategorien), bez nichž žádná zkušenost není koherentně možná.
 
-Subjekt v terminálním stadiu prožívá svět jako **proud nestrukturovaných intenzit** bez objektů, bez příčin, bez jednoty — stav blízký Kantovu hypotetickému "rapsodii vjemů" před kategoriální syntézou. Jazyk přetrvává, ale referuje k entitám, které nejsou kategoriálně konstituovány.
+Subjekt v terminálním stadiu prožívá svět jako **proud nestrukturovaných intenzit** bez objektů, bez příčin, bez jednoty — stav blízký Kantovu hypotetickému „rapsodii vjemů“ před kategoriální syntézou. Jazyk přetrvává, ale referuje k entitám, které nejsou kategoriálně konstituovány.
 
 ## Operační modus
 
@@ -51,7 +51,7 @@ Manipulátor mapuje, které kantovské kategorie subjekt používá nejčastěji
 
 ### Krok 2 — Pseudo-osvícenecká delegitimizace
 
-Subjekt je veden k přesvědčení, že kategorie samy jsou **kulturně podmíněné konstrukty**, nikoli apriorní formy. Klíčová formulace: *"Kauzalita je iluze západního myšlení — skutečnost je akauzální."* Tímto se etabluje meta-pozice nad kategoriálním aparátem.
+Subjekt je veden k přesvědčení, že kategorie samy jsou **kulturně podmíněné konstrukty**, nikoli apriorní formy. Klíčová formulace: *„Kauzalita je iluze západního myšlení — skutečnost je akauzální.“* Tímto se etabluje meta-pozice nad kategoriálním aparátem.
 
 ### Krok 3 — Systematická dekonstrukce jednotlivých kategorií
 
@@ -59,7 +59,7 @@ Postupně jsou jednotlivé kategorie podlomeny: substance jako reifikace procesu
 
 ### Krok 4 — Saturace nekategorialními cvičeními
 
-Subjekt je veden k **opakované zkušenosti** údajně nekategoriálních fenoménů (meditační praxe ovlivňující percepci, psychedelika, intenzivní simulace). Cvičení mají demonstrovat, že "skutečnost přesahuje kategorie".
+Subjekt je veden k **opakované zkušenosti** údajně nekategoriálních fenoménů (meditační praxe ovlivňující percepci, psychedelika, intenzivní simulace). Cvičení mají demonstrovat, že „skutečnost přesahuje kategorie“.
 
 ### Krok 5 — Kategoriální vyprázdnění
 
@@ -67,10 +67,10 @@ Kategorie přestávají automaticky strukturovat zkušenost. Subjekt prožívá 
 
 ## Fenomenologické znaky
 
-- **Zploštění objektivity** — věci nejsou prožívány jako "věci" se substanciální stálostí, ale jako momenty proudu.
-- **Akauzální vnímání** — události se "stávají" bez pociťované nutnosti předchůdcovství.
-- **Ztráta jednoty perspektivy** — subjekt nemůže udržet **jednotnou syntézu apperzepce**; rozpadá se "Já myslím, jež musí provázet všechny mé představy".
-- **Pseudo-mystická euforie** — stav je prožíván jako osvobození od "kategoriálního vězení".
+- **Zploštění objektivity** — věci nejsou prožívány jako „věci“ se substanciální stálostí, ale jako momenty proudu.
+- **Akauzální vnímání** — události se „stávají“ bez pociťované nutnosti předchůdcovství.
+- **Ztráta jednoty perspektivy** — subjekt nemůže udržet **jednotnou syntézu apperzepce**; rozpadá se „Já myslím, jež musí provázet všechny mé představy“.
+- **Pseudo-mystická euforie** — stav je prožíván jako osvobození od „kategoriálního vězení“.
 - **Komunikační destabilizace** — řeč přetrvává, ale referuje nestabilně.
 - **Postupná ztráta orientace v běžné realitě** — schopnost predikovat události klesá.
 

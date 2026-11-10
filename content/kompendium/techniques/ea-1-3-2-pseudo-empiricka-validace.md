@@ -36,7 +36,6 @@ Pro architekturu EA taxonomie viz [Taxonomie EA](@/kompendium/glossary-bridges/t
 
 **EA-1-3-2-pseudo-empiricka-validace** je aktivní uzel taxonomického grafu sekce `kompendium/techniques` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
 
-
 ## Koncepční síť
 
 Vizualizace propojení **EA-1-3-2-pseudo-empiricka-validace** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.

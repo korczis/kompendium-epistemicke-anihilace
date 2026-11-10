@@ -50,7 +50,7 @@ Tato strukturní amplifikace představuje to, co lze nazvat **algoritmickým kon
 
 Shoshana Zuboff (*The Age of Surveillance Capitalism*, 2019) konceptualizuje platformovou ekonomiku jako novou ekonomickou formaci, v níž **lidská zkušenost** je transformována na **predikční komoditu**. Klíčové implikace:
 
-1. **Behaviorální surplus** — Data o uživatelích nejsou pouze produktem, ale rozšiřují se daleko za nezbytný rámec služby; tento "surplus" je hlavní ekonomická hodnota.
+1. **Behaviorální surplus** — Data o uživatelích nejsou pouze produktem, ale rozšiřují se daleko za nezbytný rámec služby; tento „surplus“ je hlavní ekonomická hodnota.
 2. **Predikční produkty** — Surplus je transformován do produktů predikujících budoucí chování uživatelů.
 3. **Behaviorální modifikace** — Optimální platforma neaspiruje pouze na predikci, ale na **modifikaci** chování směrem k profitabilním predikcím.
 
@@ -80,9 +80,9 @@ Generativní AI v doménách obrazu, zvuku a videa (Stable Diffusion, Midjourney
 
 Strukturální důsledky:
 
-- **Erose důkazní hodnoty audiovizuálních záznamů** — Tradiční epistemická presumpce ("vidím to na vlastní oči") přestává fungovat. Každý záznam musí být epistemicky re-evaluován.
+- **Erose důkazní hodnoty audiovizuálních záznamů** — Tradiční epistemická presumpce („vidím to na vlastní oči“) přestává fungovat. Každý záznam musí být epistemicky re-evaluován.
 - **Liar's dividend** (Citron & Chesney) — Nejen že fake mohou být zaměňovány za skutečné; **skutečné** záznamy mohou být odmítnuty jako fake. Tato symetrická eroze zasahuje epistemii hlouběji než pouhá produkce dezinformací.
-- **Ontologická nejistota** — Syntetické osoby ("never-existed faces"), syntetické události, syntetické historie. Subjekt obývá prostředí, jehož ontologická vrstva je systematicky kontaminovaná.
+- **Ontologická nejistota** — Syntetické osoby („never-existed faces“), syntetické události, syntetické historie. Subjekt obývá prostředí, jehož ontologická vrstva je systematicky kontaminovaná.
 
 Tato eroze koresponduje s [ontologickou anihilací](@/glossary/ontologicka-anihilace.md) v terminologii kompendia — narušením schopnosti subjektu rozlišovat **co je**.
 
@@ -107,7 +107,7 @@ Yuval Noah Harari (*Homo Deus*, 2016; *21 Lessons*, 2018; *Nexus*, 2024) formulu
 2. **Useless class** — Automatizace vytváří kategorii lidí ekonomicky obsoletních. Jejich primární socioekonomickou rolí se stává **konzumace pozornosti** — jejich data a engagement jsou zdrojem příjmů platforem.
 3. **Hackování člověka** — Kombinace biometrie, neurovědy a AI umožňuje **predikci** a **modifikaci** rozhodovacích procesů na biologické úrovni — pod prahem reflexivního vědomí.
 
-Harariho ústřední epistemické tvrzení: subjekt, jehož biometrická data jsou kontinuálně sbírána a algoritmicky interpretována, **přestává být vlastním "já"**. Algoritmus zná jeho fyziologické reakce přesněji než on sám; algoritmus zná jeho preference dříve, než si je sám uvědomí; algoritmus může jeho rozhodnutí predikovat s vyšší přesností, než dovoluje subjektovo introspektivní sebepoznání.
+Harariho ústřední epistemické tvrzení: subjekt, jehož biometrická data jsou kontinuálně sbírána a algoritmicky interpretována, **přestává být vlastním „já“**. Algoritmus zná jeho fyziologické reakce přesněji než on sám; algoritmus zná jeho preference dříve, než si je sám uvědomí; algoritmus může jeho rozhodnutí predikovat s vyšší přesností, než dovoluje subjektovo introspektivní sebepoznání.
 
 Toto je **maximální verze** [epistemické alienace](@/glossary/epistemicka-alienace.md) — nikoli pouze odcizení od specifických přesvědčení, ale od samotné kapacity sebepoznání.
 
@@ -205,7 +205,6 @@ Realistická pozice tedy vyžaduje **akceptaci permanentní zranitelnosti** komb
 - [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Glosář: Color Teams](@/glossary/color-teams.md)
 - [Glosář: Decision Core](@/glossary/decision-core.md)
-
 
 ## ⚡ Kritický krok
 

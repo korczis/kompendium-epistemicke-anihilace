@@ -17,11 +17,11 @@ toc = true
 ea_code = "EA-3.2.H"
 +++
 
-# 3.2.H Scénář H: Destruktivní "konstruktivní" kritika
+# 3.2.H Scénář H: Destruktivní „konstruktivní“ kritika
 
 **EA kód**: `EA-3.2.H` | **Cílová úroveň**: Individuum (epistemická sebedůvěra) | **Časový rozsah**: měsíce – roky | **Reverzibilita**: Nízká až střední
 
-Scénář destruktivní "konstruktivní" kritiky reprezentuje **systematický proces podkopávání epistemické sebedůvěry a integrity jedince** prostřednictvím strategií prezentovaných jako nápomocná zpětná vazba a rozvojové vedení. Tento scénář je obzvláště zákeřný, protože **využívá konvenční akademické a profesionální normy** týkající se zpětné vazby a zlepšování — institucionální legitimita kritiky maskuje její patogenní strukturu.
+Scénář destruktivní „konstruktivní“ kritiky reprezentuje **systematický proces podkopávání epistemické sebedůvěry a integrity jedince** prostřednictvím strategií prezentovaných jako nápomocná zpětná vazba a rozvojové vedení. Tento scénář je obzvláště zákeřný, protože **využívá konvenční akademické a profesionální normy** týkající se zpětné vazby a zlepšování — institucionální legitimita kritiky maskuje její patogenní strukturu.
 
 ## Teoretický základ
 
@@ -104,12 +104,12 @@ Typickým výsledkem je **ochromující sebepochybnost** kombinovaná se **silno
 
 **Detekční markery**:
 
-- Subjekt vyjadřuje vděčnost a "vybranost"
+- Subjekt vyjadřuje vděčnost a „vybranost“
 - Zvýšená receptivita ke zpětné vazbě
 - Vznikající závislost na vztahu pro epistemickou validaci
 - Sociální prestiž asociovaná s kritikem
 
-**Fenomenologie**: Subjekt prožívá **vděčnost, nadšení, pocit "vybranosti"**. "Tato osoba věří v můj potenciál víc než kdokoli jiný." Tato fáze je konzistentní s legitimním mentorováním a **nemůže být detekována izolovaně** — patogenní povaha vychází z následujících fází.
+**Fenomenologie**: Subjekt prožívá **vděčnost, nadšení, pocit „vybranosti“**. „Tato osoba věří v můj potenciál víc než kdokoli jiný.“ Tato fáze je konzistentní s legitimním mentorováním a **nemůže být detekována izolovaně** — patogenní povaha vychází z následujících fází.
 
 ### Fáze 2: Etablování nestabilních standardů
 
@@ -122,7 +122,7 @@ Typickým výsledkem je **ochromující sebepochybnost** kombinovaná se **silno
 - Kontinuální zvyšování standardů bezprostředně po dosaženém zlepšení
 - Vágní subjektivní hodnotící kritéria
 - Alternace mezi kontradiktorními standardy bez uznání nekonzistence
-- Simultánní kritizování protichůdných charakteristik ("příliš detailní" + "nedostatečně detailní")
+- Simultánní kritizování protichůdných charakteristik („příliš detailní“ + „nedostatečně detailní“)
 - [EA-1.2.1 (falešné dilema)](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — nemožné volby
 - [EA-1.3.1 (imunizace proti falsifikaci)](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) standardů
 
@@ -134,7 +134,7 @@ Typickým výsledkem je **ochromující sebepochybnost** kombinovaná se **silno
 - Asymetrie mezi dokumentací (kritika vágní) a komunikací (kritika konkrétní)
 - Nemožnost externí verifikace standardů
 
-**Fenomenologie**: Subjekt prožívá **rostoucí kognitivní zatížení** snahou udržet "v hlavě" stále se měnící mapu očekávání. Vznikající **přesvědčení o vlastní nedostatečnosti** — "asi to ještě nechápu". Příprava na **interní atribuční chybu**: subjekt přisuzuje problém sobě, ne struktuře standardů.
+**Fenomenologie**: Subjekt prožívá **rostoucí kognitivní zatížení** snahou udržet „v hlavě“ stále se měnící mapu očekávání. Vznikající **přesvědčení o vlastní nedostatečnosti** — „asi to ještě nechápu“. Příprava na **interní atribuční chybu**: subjekt přisuzuje problém sobě, ne struktuře standardů.
 
 ### Fáze 3: Strategická invalidace
 
@@ -171,8 +171,8 @@ Typickým výsledkem je **ochromující sebepochybnost** kombinovaná se **silno
 
 - Vzácná, ale intenzivní chvála po obdobích obzvláště tvrdé kritiky
 - Zdůrazňování specifických silných stránek pro pozdější využití jako bodů kontrastu
-- Příležitostný "úspěch" subjektu prezentován jako výsledek následování kritikova vedení
-- Vytváření umělých "průlomů" dočasně vypadajících jako řešení tenzí
+- Příležitostný „úspěch“ subjektu prezentován jako výsledek následování kritikova vedení
+- Vytváření umělých „průlomů“ dočasně vypadajících jako řešení tenzí
 - Strategický timing pozitivní zpětné vazby v okamžicích pravděpodobného odchodu
 
 **Detekční markery**:
@@ -196,8 +196,8 @@ Typickým výsledkem je **ochromující sebepochybnost** kombinovaná se **silno
 - Přerámování kritiky jako reflexe **fundamentálního charakteru** subjektu (ne specifických výstupů)
 - Sugesce, že epistemická závislost znamená pokoru a moudrost
 - Pozicionování pokračujícího vztahu jako esenciálního pro budoucí pokrok
-- Kontrastování subjektu s ostatními "arogantními"
-- Generalizace patologie do dalších domén ("máš to i v osobním životě")
+- Kontrastování subjektu s ostatními „arogantními“
+- Generalizace patologie do dalších domén („máš to i v osobním životě“)
 
 **Detekční markery**:
 
@@ -207,7 +207,7 @@ Typickým výsledkem je **ochromující sebepochybnost** kombinovaná se **silno
 - Subjekt může se stát **obráncem kritikových standardů** vůči ostatním
 - Ztráta historického self — subjekt si nepamatuje, že byl kdy autonomní
 
-**Fenomenologie**: Subjekt prožívá **fundamentální transformaci sebeobrazu**. "Byl jsem dříve sebedůvěrnější, ale to byla naivita." Vznikající **stockholmský syndrom** — subjekt **brání kritika** před externími pozorovateli.
+**Fenomenologie**: Subjekt prožívá **fundamentální transformaci sebeobrazu**. „Byl jsem dříve sebedůvěrnější, ale to byla naivita.“ Vznikající **stockholmský syndrom** — subjekt **brání kritika** před externími pozorovateli.
 
 ## Strukturální prerekvizity
 
@@ -265,7 +265,7 @@ Typickým výsledkem je **ochromující sebepochybnost** kombinovaná se **silno
 
 ### Specifické terapeutické techniky
 
-- **Schema therapy** zaměřená na "vadný self" schéma
+- **Schema therapy** zaměřená na „vadný self“ schéma
 - **Cognitive restructuring** pro disconfirmaci internalizovaných standardů
 - **Behavioral experiments** testující autonomní úsudek
 - **EMDR** pro zpracování traumatické vazby
@@ -287,17 +287,17 @@ Reverzibilita je obvykle **vyšší než EA-3.2.G** (kognitivní dekonstrukce), 
 
 > **Subjekt P.**, 27letý doktorand v biomedicínském výzkumu. Před vstupem do PhD: brilantní akademický záznam, sebedůvěrný, autonomní výzkumník, pět publikací jako spoluautor během magisterského studia. Vstoupil do prestižní laboratoře vedené mezinárodně uznávaným školitelem (Profesor S.).
 >
-> **Fáze 1 (měsíce 1–4)**: Profesor S. vyjádřil neobvyklé nadšení pro P. potenciál. "Vidím v tobě budoucího lídra oboru." Poskytoval impresivní vědecké insights, věnoval P. neobvyklé množství času (často víkendová setkání). P. se cítil "vybraný" — kolegové z lab byli zjevně závistiví.
+> **Fáze 1 (měsíce 1–4)**: Profesor S. vyjádřil neobvyklé nadšení pro P. potenciál. „Vidím v tobě budoucího lídra oboru.“ Poskytoval impresivní vědecké insights, věnoval P. neobvyklé množství času (často víkendová setkání). P. se cítil „vybraný“ — kolegové z lab byli zjevně závistiví.
 >
-> **Fáze 2 (měsíce 5–10)**: Standardy začaly být nekonzistentní. Experimentální protokol schválený v týdnu 12 byl kritizován v týdnu 16 jako "metodologicky chudý". Když P. citoval své poznámky z dřívějšího setkání, profesor reagoval: "Špatně jsi mě pochopil, pokud sis tohle myslel." Žádná schůzka nebyla dokumentována formálně.
+> **Fáze 2 (měsíce 5–10)**: Standardy začaly být nekonzistentní. Experimentální protokol schválený v týdnu 12 byl kritizován v týdnu 16 jako „metodologicky chudý“. Když P. citoval své poznámky z dřívějšího setkání, profesor reagoval: „Špatně jsi mě pochopil, pokud sis tohle myslel.“ Žádná schůzka nebyla dokumentována formálně.
 >
 > **Fáze 3 (měsíce 11–18)**: Profesor začal selektivně zaměřovat kritiku na periferní aspekty (formátování tabulek, výběr referencí), ignoroval substantivní vědecké kontribuce. Při lab meetingech veřejně zdůrazňoval P. nedostatky, které v privátní zpětné vazbě nezmínil. P. začal anticipovat kritiku — autocenzura preventivně eliminovala originální nápady.
 >
-> **Fáze 4 (měsíce 19–24, kontinuálně)**: Profesor občas — typicky po obzvláště devastujících kritických sezeních — vyjádřil intenzivní chválu specifického aspektu P. práce. "Tohle je opravdu inovativní." P. prožíval nesmírnou úlevu, oddanost se zintenzivnila. Časový vzorec analýza ex post: každé 6–10 týdnů přesně jedna pozitivní epizoda — frekvence kalibrovaná pro maximální efekt intermittent reinforcement.
+> **Fáze 4 (měsíce 19–24, kontinuálně)**: Profesor občas — typicky po obzvláště devastujících kritických sezeních — vyjádřil intenzivní chválu specifického aspektu P. práce. „Tohle je opravdu inovativní.“ P. prožíval nesmírnou úlevu, oddanost se zintenzivnila. Časový vzorec analýza ex post: každé 6–10 týdnů přesně jedna pozitivní epizoda — frekvence kalibrovaná pro maximální efekt intermittent reinforcement.
 >
-> **Fáze 5 (měsíce 25+)**: V třetím ročníku P. vykazoval persistentní úzkost ohledně své práce, neschopnost psát bez konstantní validace, vyvinul zvyk **diskvalifikovat své myšlenky před plnou artikulací**. P. vyjádřil přesvědčení, že "bez Prof. S. jsem intelektuálně ztracen" navzdory důkazům o silném nezávislém myšlení v jiných kontextech (P. nadále excelloval v outside collaborations, kde Prof. S. nebyl přítomen).
+> **Fáze 5 (měsíce 25+)**: V třetím ročníku P. vykazoval persistentní úzkost ohledně své práce, neschopnost psát bez konstantní validace, vyvinul zvyk **diskvalifikovat své myšlenky před plnou artikulací**. P. vyjádřil přesvědčení, že „bez Prof. S. jsem intelektuálně ztracen“ navzdory důkazům o silném nezávislém myšlení v jiných kontextech (P. nadále excelloval v outside collaborations, kde Prof. S. nebyl přítomen).
 >
-> **Externí pozorování**: Klíčový diagnostický marker — P. **bránil Prof. S.** před externími pozorovateli, kteří identifikovali manipulativní vzorec. "Vy ho neznáte. Jen mi chce pomoci."
+> **Externí pozorování**: Klíčový diagnostický marker — P. **bránil Prof. S.** před externími pozorovateli, kteří identifikovali manipulativní vzorec. „Vy ho neznáte. Jen mi chce pomoci.“
 >
 > **Intervence (rok 4)**: Vynucená rotace supervizora v důsledku institucionální politiky. Nový supervizor (Prof. T.) okamžitě poskytl jasná kritéria, dokumentoval všechny zpětné vazby písemně, povzbuzoval P. autonomii. Po 6 měsících P. začal obnovovat sebedůvěru. Po 18 měsících publikoval první prvořadou publikaci (skutečně inovativní) — vyžadovalo to **kompletní separaci** od původní lab dynamiky.
 >
@@ -358,7 +358,6 @@ Cca 50–60 % případů dosahuje **plné funkční rekonstrukce**. Další 30�
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
 - [Glossary: Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

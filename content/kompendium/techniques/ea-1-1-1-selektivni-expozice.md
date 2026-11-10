@@ -63,15 +63,15 @@ Filtrace **není totální** — to by bylo příliš nápadné. Místo toho je 
 
 ### Krok 3 — Vytváření dojmu komprehenzivity
 
-Filtrovaný materiál je **prezentován jako úplný přehled**. Klíčová slova: "kompletní úvod", "comprehensive review", "definitive guide", "all you need to know". Cíl: nahradit u subjektu hypotézu *"toto je výběr"* hypotézou *"toto je celé pole"*.
+Filtrovaný materiál je **prezentován jako úplný přehled**. Klíčová slova: „kompletní úvod“, „comprehensive review“, „definitive guide“, „all you need to know“. Cíl: nahradit u subjektu hypotézu *„toto je výběr“* hypotézou *„toto je celé pole“*.
 
 ### Krok 4 — Inhibice externího vyhledávání
 
 Často kombinováno s **explicitním** nebo **implicitním** odrazováním od externího vyhledávání:
 
-- "Tyto zdroje jsou problematické / non-rigorózní / outdated"
-- "Začni s tímto, pak se dostaneš dál" (přičemž k "dál" se nikdy nedostává)
-- "Internet je plný šumu, drž se etablovaných autorit" (kde "etablované autority" = filtrovaný výběr)
+- „Tyto zdroje jsou problematické / non-rigorózní / outdated“
+- „Začni s tímto, pak se dostaneš dál“ (přičemž k „dál“ se nikdy nedostává)
+- „Internet je plný šumu, drž se etablovaných autorit“ (kde „etablované autority“ = filtrovaný výběr)
 - Algoritmické personalizace, které samy o sobě generují filter bubbles
 
 ### Krok 5 — Konsolidace skrze epistemickou saturaci
@@ -83,11 +83,11 @@ Subjekt **prožívá pocit informovanosti** (četl jsem hodně, znám literaturu
 Co prožívá subjekt **uvnitř** selektivní expozice:
 
 - **Pocit informovanosti** disproporční vůči rozsahu skutečně exponovaných materiálů
-- **Epistemická saturace** — "už jsem to studoval, nemusím dál hledat"
+- **Epistemická saturace** — „už jsem to studoval, nemusím dál hledat“
 - **Důvěrnost** s konkrétními autoritami / referencemi citovanými opakovaně
 - **Cizota** vůči alternativním autoritám (jejich jména jsou nová a neznámá)
-- **Implicitní mapa pole** strukturovaná jako "etablované jádro" (= filtrovaný výběr) versus "okrajové, problematické, non-rigorózní" (= vše ostatní)
-- **Subtilní diskomfort** při konfrontaci s materiálem mimo výběr — diskomfort interpretovaný jako "kvalitativní problém zdroje", nikoli jako vlastní limit
+- **Implicitní mapa pole** strukturovaná jako „etablované jádro“ (= filtrovaný výběr) versus „okrajové, problematické, non-rigorózní“ (= vše ostatní)
+- **Subtilní diskomfort** při konfrontaci s materiálem mimo výběr — diskomfort interpretovaný jako „kvalitativní problém zdroje“, nikoli jako vlastní limit
 
 V pokročilejších stadiích kombinace s [EA-1.4.2 latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) může produkovat **aktivní averzi** vůči externím zdrojům.
 
@@ -187,7 +187,7 @@ Intervence: Strukturální reforma vyžadující **comparative paradigm review**
 
 ### Případ 2 — Korporátní compliance training
 
-Velká finanční instituce. Compliance training prezentovaný jako "vše, co potřebuješ vědět o regulaci" obsahoval **systematicky vybrané** případy posilující dominantní firemní interpretaci hraničních situací.
+Velká finanční instituce. Compliance training prezentovaný jako „vše, co potřebuješ vědět o regulaci“ obsahoval **systematicky vybrané** případy posilující dominantní firemní interpretaci hraničních situací.
 
 Detekce: Whistleblower porovnal training materiály s primárními právními zdroji a zjistil, že **kontroverzní** případy svědčící proti firemní interpretaci byly **vynechané**.
 
@@ -195,7 +195,7 @@ Intervence: Externí audit, redesign training programu s explicitním **counter-
 
 ### Případ 3 — Algoritmický filter bubble
 
-Žurnalistka pravidelně využívající personalizovaný news feed po dvou letech spontánně reportovala, že "obor se zúžil" — již nebylo z čeho psát zajímavé příběhy.
+Žurnalistka pravidelně využívající personalizovaný news feed po dvou letech spontánně reportovala, že „obor se zúžil“ — již nebylo z čeho psát zajímavé příběhy.
 
 Detekce: Self-audit feedu odhalil, že 84 % zobrazených článků pocházelo z 11 zdrojů (z původně diverzního feedu se stal homogenní).
 
@@ -205,14 +205,14 @@ Intervence: Manuální **deduplikace** zdrojů, přihlášení k **antagonistick
 
 ### Často se kombinuje s
 
-- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — filtrovaný výběr používá **specifický slovník**, který činí externí materiál "nepochopitelným" pro filtrovaného subjekta.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — filtrovaný výběr používá **specifický slovník**, který činí externí materiál „nepochopitelným“ pro filtrovaného subjekta.
 - **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — filtrace evidence zajišťuje, že subjekt **nikdy neuvidí** falsifikační evidenci, takže teorii nelze efektivně zpochybnit.
 - **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — když selhává filtrace a externí evidence se prosadí, diverze přesměrovává diskusi pryč od ní.
-- **EA-1.6.1 Vzorec "Guru a adept"** — filtrace ze strany gurua je strukturálním předpokladem etablování epistemické závislosti.
+- **EA-1.6.1 Vzorec „Guru a adept“** — filtrace ze strany gurua je strukturálním předpokladem etablování epistemické závislosti.
 
 ### Eskaluje do
 
-- **EA-1.6.2 Vzorec "Epistemický trojský kůň"** — z filtrovaného korpusu lze vybrat validní materiál jako **vehikulum** pro vpašování problematických prvků.
+- **EA-1.6.2 Vzorec „Epistemický trojský kůň“** — z filtrovaného korpusu lze vybrat validní materiál jako **vehikulum** pro vpašování problematických prvků.
 - **Kolektivní epistemická delegitimizace** ([Scénář F v Kapitole 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — selektivní expozice na úrovni komunity vytváří **strukturální zranitelnost** pro další manipulaci.
 
 ### Alternativy / podobné, ale **distinktivní**
@@ -244,7 +244,6 @@ Selektivní expozice je **strukturálním motivem** pro několik defenzivních m
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

@@ -55,7 +55,7 @@ Strukturální argument: hladomory nejsou primárně produktem **nedostatku potr
 
 Pro EA z toho plyne:
 
-- **Útok na demokratické instituce** je strukturálně **anti-humanitární** — i pokud se manifestuje "ekonomicky" nebo "kulturně".
+- **Útok na demokratické instituce** je strukturálně **anti-humanitární** — i pokud se manifestuje „ekonomicky“ nebo „kulturně“.
 - **Útok na svobodný tisk** je strukturálně útokem na **strukturální fundament** humanitární ochrany.
 
 ## 3. Identita a násilí
@@ -64,7 +64,7 @@ V *Identity and Violence* (2006) Sen formuluje **kritiku identitárního redukci
 
 Sen argumentuje:
 
-- Každý člověk má **mnohonásobné identity** (otec, vědec, Čech, milovník hudby, přítel...)
+- Každý člověk má **mnohonásobné identity** (otec, vědec, Čech, milovník hudby, přítel…)
 - **Redukce na jednu identitu** je strukturálním aktem **manipulace**
 - **Identitární polarizace** je strukturálním zdrojem násilí
 
@@ -79,14 +79,14 @@ V *The Idea of Justice* (2009) Sen formuluje **komparativní** teorii spravedlno
 
 Pro EA má tato pozice **specifickou relevanci**:
 
-- **Komparativní hodnocení EA**: nelze čekat na "ideální" situaci, je třeba **redukovat** EA **postupně**, pragmaticky.
-- **Rezilience jako komparativní zlepšování**: každá zlepšená kapacita je hodnotná, bez ohledu na "ideál".
+- **Komparativní hodnocení EA**: nelze čekat na „ideální“ situaci, je třeba **redukovat** EA **postupně**, pragmaticky.
+- **Rezilience jako komparativní zlepšování**: každá zlepšená kapacita je hodnotná, bez ohledu na „ideál“.
 
 ## 5. Capability vs. utility
 
 Sen kritizuje **utilitaristickou** tradici (Bentham, Mill): redukce blahobytu na **subjektivní utilitu** strukturálně **přehlíží** **objektivní** dimenze:
 
-- Subjekt v deprivaci se může **přizpůsobit** — naučit se "spokojit" s málem
+- Subjekt v deprivaci se může **přizpůsobit** — naučit se „spokojit“ s málem
 - **Subjektivní spokojenost** může být strukturálně **iluzorní**
 - **Objektivní kapacity** (Senovy svobody) jsou strukturálně **autentičtější** mírou
 

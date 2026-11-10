@@ -42,9 +42,9 @@ Distinkce fenomenální/noumenální (Kant) nebo zjevení/skutečnost má v bě�
 EA-5.2.3 operuje ve dvou opačných formách:
 
 1. **Noumenální naivita** — subjekt prožívá své vjemy a interpretace jako bezprostředně skutečnost, bez odporu k revizi.
-2. **Noumenální cynismus** — subjekt přijme, že nikdy nemá přístup k noumenu, a redukuje veškeré poznání na "pouze jev", čímž ztrácí motivaci k epistemické práci.
+2. **Noumenální cynismus** — subjekt přijme, že nikdy nemá přístup k noumenu, a redukuje veškeré poznání na „pouze jev“, čímž ztrácí motivaci k epistemické práci.
 
-V obou formách dochází k **rozpadu regulativní funkce** distinkce. První forma vede ke **strukturální nepřístupnosti revize**, druhá ke **strukturální nepřístupnosti péče o pravdu**. V terminálních stadiích se obě formy mohou kombinovat — subjekt cynicky tvrdí, že "nic není", a zároveň naivně jedná, jako by věděl, jak je to skutečně.
+V obou formách dochází k **rozpadu regulativní funkce** distinkce. První forma vede ke **strukturální nepřístupnosti revize**, druhá ke **strukturální nepřístupnosti péče o pravdu**. V terminálních stadiích se obě formy mohou kombinovat — subjekt cynicky tvrdí, že „nic není“, a zároveň naivně jedná, jako by věděl, jak je to skutečně.
 
 ## Operační modus
 
@@ -61,11 +61,11 @@ Podle psychologického profilu subjektu se vybírá:
 
 ### Krok 3a — Indukce naivity
 
-Manipulátor systematicky **legitimuje bezprostřednost vjemu**: *"Pokud to tak vidíš, tak to tak je"*, *"Tvoje intuice je hlubší než jakákoli teorie"*, *"Příliš mnoho přemýšlení zatemňuje pravdu"*. Distinkce mezi *jak se to mi jeví* a *jak to je* je prezentována jako **akademická hra** bez praktického významu.
+Manipulátor systematicky **legitimuje bezprostřednost vjemu**: *„Pokud to tak vidíš, tak to tak je“*, *„Tvoje intuice je hlubší než jakákoli teorie“*, *„Příliš mnoho přemýšlení zatemňuje pravdu“*. Distinkce mezi *jak se to mi jeví* a *jak to je* je prezentována jako **akademická hra** bez praktického významu.
 
 ### Krok 3b — Indukce cynismu
 
-Alternativně manipulátor systematicky **delegitimuje jakýkoliv epistemický nárok**: *"Nikdy nemůžeme vědět, jak to skutečně je"*, *"Všechny perspektivy jsou stejně platné/nelegitimní"*, *"Fakta jsou jen mocenský konstrukt"*. Distinkce kolabuje, protože **noumenální strana** je odepřena jako principálně nepřístupná.
+Alternativně manipulátor systematicky **delegitimuje jakýkoliv epistemický nárok**: *„Nikdy nemůžeme vědět, jak to skutečně je“*, *„Všechny perspektivy jsou stejně platné/nelegitimní“*, *„Fakta jsou jen mocenský konstrukt“*. Distinkce kolabuje, protože **noumenální strana** je odepřena jako principálně nepřístupná.
 
 ### Krok 4 — Saturace cvičeními
 
@@ -80,12 +80,12 @@ Subjekt je integrován do **komunity**, která redukci sdílí. Sociální posí
 ### Naivní forma
 
 - **Bezprostřední přesvědčivost vlastních dojmů** disproporční vůči jejich evidenční podpoře.
-- **Iritace nad žádostmi o důkaz** — *"vidím to, je to tak, není co dokazovat"*.
+- **Iritace nad žádostmi o důkaz** — *„vidím to, je to tak, není co dokazovat“*.
 - **Rezistence vůči alternativním interpretacím** — alternativy jsou prožívány jako **lži** o skutečnosti, ne jako odlišné perspektivy.
 
 ### Cynická forma
 
-- **Globální epistemická bezmocnost** — *"nic se nedá vědět"*.
+- **Globální epistemická bezmocnost** — *„nic se nedá vědět“*.
 - **Devalvace každého epistemického snažení** — výzkum, debata, kritika jsou prezentovány jako **naivní**.
 - **Skrytá ontologická naivita** — přes cynické tvrzení subjekt **jedná**, jako by mu byly bezprostředně přístupné určité pravdy (například pravda o tom, že nic není pravda).
 
@@ -128,8 +128,9 @@ Noumenální redukce je odlišitelná od **legitimní filozofické pozice antira
 #### 1. Explicitní formulace fenomenálních claims
 
 Pravidelné cvičení: pro každé silné přesvědčení formulovat **dvě verze**:
-- **Fenomenální**: *"Jeví se mi, že..."*
-- **Noumenální (kandidátní)**: *"Domnívám se, že je tomu tak, protože..."* s explicitní evidenční podporou.
+
+- **Fenomenální**: *„Jeví se mi, že…“*
+- **Noumenální (kandidátní)**: *„Domnívám se, že je tomu tak, protože…“* s explicitní evidenční podporou.
 
 #### 2. Bayesovská kalibrace
 
@@ -155,7 +156,7 @@ Kontemplativní praxe (zejména v rigoróznějších tradicích — pokročilá 
 
 ### Případ 1 — Akademický cynismus v sociálních vědách
 
-PhD program rozvinul lokální kulturu radikálního antirealismu. Studenti tvrdili, že "fakta jsou konstrukty", ale jejich vlastní disertace **dělaly silné empirické nároky**.
+PhD program rozvinul lokální kulturu radikálního antirealismu. Studenti tvrdili, že „fakta jsou konstrukty“, ale jejich vlastní disertace **dělaly silné empirické nároky**.
 
 Detekce: externí evaluátor zjistil **performativní rozpor**: studenti **požadovali důkazy** od oponovaných pozic, ale **odmítali požadavek** na důkaz vlastních pozic s odkazem na cynickou tezi.
 
@@ -163,7 +164,7 @@ Intervence: kurikulární reforma, povinná **explicitní reflexe metodologické
 
 ### Případ 2 — Naivita v charismatickém vedení
 
-Vedoucí komunity prosazoval pozici, že *"co cítím, je pravda"*. Členové, kteří zpochybňovali jeho rozhodnutí požadavkem na evidenci, byli odmítnuti jako *"akademici, kteří ztratili kontakt se životem"*.
+Vedoucí komunity prosazoval pozici, že *„co cítím, je pravda“*. Členové, kteří zpochybňovali jeho rozhodnutí požadavkem na evidenci, byli odmítnuti jako *„akademici, kteří ztratili kontakt se životem“*.
 
 Detekce: ekonomické rozhodnutí komunity vedlo k vážným ztrátám; vedoucí to interpretoval jako **kosmický test víry**.
 
@@ -171,7 +172,7 @@ Intervence: jen po finanční katastrofě, kdy externí likvidátor **přinutil*
 
 ### Případ 3 — Mediální cynismus
 
-Žurnalista postupně přijal pozici, že *"objektivita neexistuje, vše je narativ"*. Jeho reportáže přestaly **rozlišovat zdroje podle reliability** a začaly prezentovat všechny perspektivy jako stejně platné.
+Žurnalista postupně přijal pozici, že *„objektivita neexistuje, vše je narativ“*. Jeho reportáže přestaly **rozlišovat zdroje podle reliability** a začaly prezentovat všechny perspektivy jako stejně platné.
 
 Detekce: redakční audit ukázal **dramatický pokles** evidenční podpory v jeho článcích a **rostoucí závislost** na narativně silných, ale fakticky nepodložených zdrojích.
 
@@ -208,7 +209,6 @@ Intervence: redakční intervence, povinný kurz **investigativní metodologie**
   - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
-
 
 ## ⚡ Kritický krok
 

@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 **Informační přetížení** je prezentace **excesivního množství** informací nebo náročně komplexních dat způsobem, který **znemožňuje jejich adekvátní kritické zpracování**. Technika je strukturálně **inverzní** vůči [EA-1.1.1 Selektivní expozici](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — místo redukce informačního pole jeho **expanzí** za hranice subjektovy zpracovatelské kapacity.
 
-Klíčová **iluze**: subjekt prožívá obtíž zpracování jako **vlastní kognitivní limit** ("nestíhám", "to je na mě moc"), nikoli jako **strategicky nastavenou** přetíženost. Tato attribution je esenciální — bez ní by subjekt zpomalil a požadoval více času, což by techniku zneutralizovalo.
+Klíčová **iluze**: subjekt prožívá obtíž zpracování jako **vlastní kognitivní limit** („nestíhám“, „to je na mě moc“), nikoli jako **strategicky nastavenou** přetíženost. Tato attribution je esenciální — bez ní by subjekt zpomalil a požadoval více času, což by techniku zneutralizovalo.
 
 ## Operační modus
 
@@ -45,8 +45,8 @@ Klíčová **iluze**: subjekt prožívá obtíž zpracování jako **vlastní ko
 
 Manipulátor etabluje **tempo prezentace** nebo **objem materiálu** jako **standardní očekávání**:
 
-- "V tomto kurzu pokrýváme látku rychle" → studenti nemají referenční rámec pro to, co je **rozumné** tempo.
-- "Prosím prostudujte přiloženou dokumentaci" → 400stránkový dokument 24 hodin před schůzkou.
+- „V tomto kurzu pokrýváme látku rychle“ → studenti nemají referenční rámec pro to, co je **rozumné** tempo.
+- „Prosím prostudujte přiloženou dokumentaci“ → 400stránkový dokument 24 hodin před schůzkou.
 - Konferenční prezentace s 60 slidy v 20 minutách.
 
 ### Krok 2 — Strukturální exploitace kognitivních limitů
@@ -57,7 +57,7 @@ Manipulativní informační přetížení tuto vulnerabilitu **strategicky explo
 
 ### Krok 3 — Rapid conclusions
 
-Po fázi přetížení následují **rychlé závěry** nebo interpretace, prezentované jako "**logicky vyplývající**" z předchozí prezentace. Subjekt — neschopný evaluovat odvození kvůli zahlcení — typicky:
+Po fázi přetížení následují **rychlé závěry** nebo interpretace, prezentované jako „**logicky vyplývající**“ z předchozí prezentace. Subjekt — neschopný evaluovat odvození kvůli zahlcení — typicky:
 
 - **Akceptuje** závěr (z důvěry v narativní strukturu)
 - **Plošně odmítá** (z averze k zahlcení)
@@ -71,8 +71,8 @@ Klíčová součást techniky — **inhibice** subjektova požadavku na pomalej�
 
 - **Sociální tlak**: ostatní (skutečně či domněle) tempo zvládají
 - **Status threat**: požadavek na zpomalení = signál nedostatečné kompetence
-- **Time pressure**: "musíme to dokončit dnes" / "rozhodnutí potřebujeme do pátku"
-- **Reframing of pace**: "rychlé tempo je standardní" / "ostatní si stěžovat nepotřebovali"
+- **Time pressure**: „musíme to dokončit dnes“ / „rozhodnutí potřebujeme do pátku“
+- **Reframing of pace**: „rychlé tempo je standardní“ / „ostatní si stěžovat nepotřebovali“
 
 ### Krok 5 — Konsolidace vzorce
 
@@ -143,9 +143,9 @@ Pokud nemůžeš provést dekompozici, **nemáš dostatek času** — explicitn�
 
 Bez ohledu na sociální tlak — explicitně požadej zpomalení / dodatečný čas / repetici. Klíčové formulace:
 
-- "Mohli byste prosím zpomalit / opakovat **tuto** část?"
-- "Potřebuji 24 hodin k prostudování dokumentu před tím, než se k tomu vyjádřím."
-- "Tempo je pro mě příliš rychlé — můžeme se vrátit k bodu X?"
+- „Mohli byste prosím zpomalit / opakovat **tuto** část?“
+- „Potřebuji 24 hodin k prostudování dokumentu před tím, než se k tomu vyjádřím.“
+- „Tempo je pro mě příliš rychlé — můžeme se vrátit k bodu X?“
 
 **Sociální tlak proti zpomalení** je sám o sobě indikátor potenciální manipulace.
 
@@ -155,7 +155,7 @@ Při zahlcení aktivně **dokumentuj** klíčové premisy a inferenční kroky *
 
 #### 4. **Odmítnutí závěrů bez evaluace**
 
-> Pokud nemáš čas evaluovat, **nezavazuj** se k závěrům. Strategická formulace: "Vrátím se s odpovědí, až budu mít čas materiál prostudovat."
+> Pokud nemáš čas evaluovat, **nezavazuj** se k závěrům. Strategická formulace: „Vrátím se s odpovědí, až budu mít čas materiál prostudovat.“
 
 #### 5. **Strukturální časový buffer**
 
@@ -175,7 +175,7 @@ Pro klíčová rozhodnutí (akademická, klinická, právní, finanční) **vžd
 
 ### Případ 1 — Korporátní akvizice
 
-Senior management dostal 800stránkový due diligence dokument 36 hodin před deadline pro investment committee. Tým analyzoval pouze první 80 stran, zbytek byl heuristicky oklasifikován jako "standardní". V hloubce dokumentu byla **klauzule, která** retrospektivně byla rozhodující.
+Senior management dostal 800stránkový due diligence dokument 36 hodin před deadline pro investment committee. Tým analyzoval pouze první 80 stran, zbytek byl heuristicky oklasifikován jako „standardní“. V hloubce dokumentu byla **klauzule, která** retrospektivně byla rozhodující.
 
 Detekce: Post-mortem audit identifikoval, že tempo bylo **strukturálně neudržitelné** a klíčová klauzule byla v **typografically dense** sekci s minimální interpretací.
 
@@ -183,7 +183,7 @@ Intervence: Procedurální reforma — minimální 14 dnů mezi DD package a IC 
 
 ### Případ 2 — Klinický kontext
 
-Pacient s onkologickou diagnózou dostal 20-minutovou prezentaci léčebných možností s **multiple komplexními** trade-offs. Nemohl ve struktuře identifikovat klíčové rozhodovací uzly. Akceptoval "doporučenou" variantu — která byla strukturálně identifikovatelná retrospektivně, ale ne v reálném čase.
+Pacient s onkologickou diagnózou dostal 20-minutovou prezentaci léčebných možností s **multiple komplexními** trade-offs. Nemohl ve struktuře identifikovat klíčové rozhodovací uzly. Akceptoval „doporučenou“ variantu — která byla strukturálně identifikovatelná retrospektivně, ale ne v reálném čase.
 
 Detekce: Ombudsman pacientů identifikoval vzorec — pacienti **nemohli** v takovém tempu provést informované rozhodnutí.
 
@@ -191,7 +191,7 @@ Intervence: Strukturovaná **two-stage konzultace** s 48-hodinovou pauzou; píse
 
 ### Případ 3 — Akademický doktorský kurz
 
-Kurz v doktorském programu prezentoval **40+ článků/týden** z různých paradigmatických škol bez **explicitní mapy** vztahů. Studenti reportovali pocit "**nemohu chytit kontext**". Většina nakonec defaultovala na **profesorovu interpretaci** všeho — nemohli si dovolit nezávislé zpracování.
+Kurz v doktorském programu prezentoval **40+ článků/týden** z různých paradigmatických škol bez **explicitní mapy** vztahů. Studenti reportovali pocit „**nemohu chytit kontext**“. Většina nakonec defaultovala na **profesorovu interpretaci** všeho — nemohli si dovolit nezávislé zpracování.
 
 Detekce: Externí evaluace zjistila, že tempo bylo strukturálně neproporční vůči časovému budgetu studentů.
 
@@ -233,7 +233,6 @@ Intervence: Redesign — méně článků, více integračních seminářů, exp
 - **Související platformové koncepty**:
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
-
 
 ## ⚡ Kritický krok
 

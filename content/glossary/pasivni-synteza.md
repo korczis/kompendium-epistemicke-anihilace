@@ -38,7 +38,6 @@ Pasivní syntéza (něm. *passive Synthesis*) je husserlovský koncept popisují
 
 **Passive Synthesis / Pasivní syntéza** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
 
-
 ## Koncepční síť
 
 Vizualizace propojení **Passive Synthesis / Pasivní syntéza** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.

@@ -372,7 +372,6 @@ Kompendium není pouhým statickým akademickým textem — je integrováno s {{
 - [Glossary](@/glossary/_index.md)
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 
-
 ## ⚡ Kritický krok
 
 **Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj

@@ -138,19 +138,23 @@ skupiny fungují, a odborná podpora; viz [post-cult protokol](@/kompendium/tech
 ## Související
 
 **Navazující scénáře**
+
 - [Přesahy mentora](@/kompendium/educational-scenarios/12-mentor-overreach.md) – týž gradient ve dvojici.
 - [Vzorec gaslightingu](@/kompendium/educational-scenarios/19-gaslighting-pattern.md) – zpochybňování vlastního vnímání.
 - [Trajektorie zotavení](@/kompendium/educational-scenarios/26-recovery-trajectory.md) – plán obnovy po odchodu.
 
 **Techniky a rámce**
+
 - [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – základní mocenský vztah.
 - [EA-8.2.2 Liftonova kritéria](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – osm znaků myšlenkové reformy.
 
 **Zotavení a sebe-obrana**
+
 - [Protokol kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md) – dlouhodobý rekonstrukční postup.
 - [Prevence izolace](@/kompendium/self-defense-guides/26-isolation-prevention.md) – ochrana vlastní sítě.
 
 **Glosář**
+
 - [BITE model](@/glossary/bite-model.md) – čtyři oblasti kontroly.
 - [Love bombing](@/glossary/love-bombing.md) – úvodní fáze náboru.
 - [Trauma bonding](@/glossary/trauma-bonding.md) – proč je odchod tak obtížný.

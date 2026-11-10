@@ -63,7 +63,6 @@ Attack on Czech utility: initial atribuce 'Russian APT' based on Cyrillic string
 
 Ransomware blamed on 'North Korean actor' — refutation analysis showed equally plausible criminal-as-a-service group, atribuce downgraded
 
-
 Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
 
 ## Cross-linky
@@ -78,7 +77,6 @@ Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, kte
 - [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
 - [Case studies](@/kompendium/case-studies/_index.md)
 - [Quick reference](@/kompendium/quick-reference/_index.md)
-
 
 ## Connect
 

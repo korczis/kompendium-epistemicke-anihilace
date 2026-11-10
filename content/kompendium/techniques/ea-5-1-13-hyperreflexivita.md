@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/05-pokrocile-operace/kapitola-6/"
 
 **Hyperreflexivita** je patologická intenzifikace metakognitivních procesů, při níž subjekt ztrácí schopnost angažovat primární kognici (vnímání, úsudek, jednání) bez **současného reflektování nad samotným kognitivním aktem**. Každý myšlenkový tah je doprovázen druhořadou reflexí, která je vzápětí reflektována reflexí třetího řádu — vzniká **rekurzivní řetězec**, který subjekta zachycuje v nekonečně se prohlubující smyčce sebeexaminace.
 
-Na rozdíl od zdravé metakognice (která je **nástrojová** a slouží primární kognici) je hyperreflexivita **autotelická**: reflexe se stává cílem sama o sobě, primární kognice je odsouvána, oddalována, nakonec **paralyzována**. Subjekt přestává jednat, vnímat a soudit, protože každý takový akt vyvolává otázku *"jakým způsobem teď vnímám / soudím / jednám?"* — a odpověď na tuto otázku vyvolává otázku další.
+Na rozdíl od zdravé metakognice (která je **nástrojová** a slouží primární kognici) je hyperreflexivita **autotelická**: reflexe se stává cílem sama o sobě, primární kognice je odsouvána, oddalována, nakonec **paralyzována**. Subjekt přestává jednat, vnímat a soudit, protože každý takový akt vyvolává otázku *„jakým způsobem teď vnímám / soudím / jednám?“* — a odpověď na tuto otázku vyvolává otázku další.
 
 Hyperreflexivita je **strukturálně příbuzná** klinickému jevu popsanému Sassem a Parnasem v souvislosti se schizofrenním spektrem, ovšem v kontextu epistemické anihilace je **indukovaná zvenčí** — manipulátor cíleně provokuje rekurzi do té míry, že se z funkční metakognice stane disociativní past.
 
@@ -47,11 +47,11 @@ Technika operuje v pěti krocích:
 
 ### Krok 1 — Etablování metakognitivního imperativu
 
-Manipulátor vytváří **normu**, podle níž je *nereflektovaná kognice* znakem nedostatečné epistemické zralosti. Subjekt je opakovaně konfrontován s otázkami typu: *"Jak víš, že to víš?"*, *"Jakou metodologií jsi došel k tomuto závěru?"*, *"Reflektoval jsi své premisy?"* Norma je prezentována jako **standard intelektuální poctivosti**.
+Manipulátor vytváří **normu**, podle níž je *nereflektovaná kognice* znakem nedostatečné epistemické zralosti. Subjekt je opakovaně konfrontován s otázkami typu: *„Jak víš, že to víš?“*, *„Jakou metodologií jsi došel k tomuto závěru?“*, *„Reflektoval jsi své premisy?“* Norma je prezentována jako **standard intelektuální poctivosti**.
 
 ### Krok 2 — Eskalace řádu reflexe
 
-Po každé úrovni reflexe je požadována reflexe **vyššího řádu**: *"A jak víš, že tvá reflexe je správná?"*, *"A jakým způsobem jsi reflektoval svou metodologii reflexe?"* Eskalace pokračuje, dokud subjekt nedosáhne bodu, kdy nemůže formulovat odpověď bez dalšího sebepoukazu.
+Po každé úrovni reflexe je požadována reflexe **vyššího řádu**: *„A jak víš, že tvá reflexe je správná?“*, *„A jakým způsobem jsi reflektoval svou metodologii reflexe?“* Eskalace pokračuje, dokud subjekt nedosáhne bodu, kdy nemůže formulovat odpověď bez dalšího sebepoukazu.
 
 ### Krok 3 — Delegitimizace primární kognice
 
@@ -63,16 +63,16 @@ V okamžicích, kdy subjekt potřebuje jednat či soudit, se aktivuje **rekurziv
 
 ### Krok 5 — Konsolidace skrze identifikaci s reflexivním já
 
-Subjekt se postupně identifikuje s **reflexivním pozorovatelem** spíše než s jednajícím já. Primární kognice je vnímána jako "tělesné", "afektivní", "instinktivní" — a tedy **podřadné**. Reflexivní já je identifikováno jako **pravé já**. Subjekt **nechce** vystoupit ze smyčky, protože smyčka **je** jeho identita.
+Subjekt se postupně identifikuje s **reflexivním pozorovatelem** spíše než s jednajícím já. Primární kognice je vnímána jako „tělesné“, „afektivní“, „instinktivní“ — a tedy **podřadné**. Reflexivní já je identifikováno jako **pravé já**. Subjekt **nechce** vystoupit ze smyčky, protože smyčka **je** jeho identita.
 
 ## Fenomenologické znaky
 
 Co prožívá subjekt **uvnitř** hyperreflexivity:
 
-- **Pocit bezedné hloubky** každého kognitivního aktu — žádný úsudek se nezdá "dostatečně reflektovaný"
+- **Pocit bezedné hloubky** každého kognitivního aktu — žádný úsudek se nezdá „dostatečně reflektovaný“
 - **Paralyzující přítomnost pozorovatele** — subjekt cítí, jak ho jeho vlastní mysl sleduje
-- **Disociace mezi jednajícím a reflektujícím já** — primární kognice je prožívána jako "cizí", "automatická"
-- **Diskomfort z bezprostřednosti** — spontánní reakce vyvolávají úzkost, protože "nebyly reflektovány"
+- **Disociace mezi jednajícím a reflektujícím já** — primární kognice je prožívána jako „cizí“, „automatická“
+- **Diskomfort z bezprostřednosti** — spontánní reakce vyvolávají úzkost, protože „nebyly reflektovány“
 - **Odklad jednání** — rozhodnutí jsou neustále odsouvána pro nedostatečnou metakognitivní jistotu
 - **Subjektivní zpomalení času** — každý okamžik se zdá nabitý nesplněnou reflexivní povinností
 - **Vyčerpání bez výkonu** — subjekt je kognitivně unavený, aniž by reálně cokoli dokončil
@@ -120,7 +120,7 @@ Hraniční případ: **akademická socializace** v určitých obdobích a oborec
 
 #### 1. Operační uzávěrka
 
-Stanovit **explicitní časový limit** pro reflexi v daném kontextu. Po překročení limitu **jednat** na základě nejlepšího aktuálního porozumění, **bez další reflexe**. Zápis: *"Reflexe ukončena v T+10 min, jednám podle závěru, další reflexe odložena na X."*
+Stanovit **explicitní časový limit** pro reflexi v daném kontextu. Po překročení limitu **jednat** na základě nejlepšího aktuálního porozumění, **bez další reflexe**. Zápis: *„Reflexe ukončena v T+10 min, jednám podle závěru, další reflexe odložena na X.“*
 
 #### 2. Návrat k tělesnému
 
@@ -136,7 +136,7 @@ Záměrně jednat **bez reflexe** v nízkorizikových doménách (volba kávy, t
 
 #### 5. Externí epistemický partner
 
-Osoba, která má **autoritu zastavit** rekurzivní řetězec frází typu: *"Toto je hyperreflexivita, ne metakognice. Jednej."*
+Osoba, která má **autoritu zastavit** rekurzivní řetězec frází typu: *„Toto je hyperreflexivita, ne metakognice. Jednej.“*
 
 ### Institucionální
 
@@ -160,7 +160,7 @@ Intervence: Strukturovaný program s denním limitem reflexe (90 minut), povinno
 
 ### Případ 2 — Účastník dlouhodobého meditačního ústraní
 
-Účastník 3měsíční retreat reportoval po šesti týdnech *"neschopnost přestat se pozorovat"*. Každý kognitivní akt byl současně objektem pozorování, které bylo objektem pozorování dalšího řádu.
+Účastník 3měsíční retreat reportoval po šesti týdnech *„neschopnost přestat se pozorovat“*. Každý kognitivní akt byl současně objektem pozorování, které bylo objektem pozorování dalšího řádu.
 
 Detekce: Učitel rozpoznal symptomy hyperreflexivity (na rozdíl od zamýšlené **nedualistické** zkušenosti) podle disociačního charakteru a úzkosti.
 
@@ -168,7 +168,7 @@ Intervence: Přerušení formální praxe, návrat k jednoduchým fyzickým čin
 
 ### Případ 3 — Korporátní executive coaching
 
-Senior manažer prošel 18měsíčním "transformačním" coachingem. Po dokončení programu byl **neschopen rozhodovat** v doménách, v nichž měl 20 let zkušeností. Každé rozhodnutí vyvolávalo "kdo to vlastně rozhoduje?", "podle jakého modelu já?", "co předpokládám o sobě?"
+Senior manažer prošel 18měsíčním „transformačním“ coachingem. Po dokončení programu byl **neschopen rozhodovat** v doménách, v nichž měl 20 let zkušeností. Každé rozhodnutí vyvolávalo „kdo to vlastně rozhoduje?“, „podle jakého modelu já?“, „co předpokládám o sobě?“
 
 Detekce: HR si všimlo dramatického poklesu výkonu. Klinické posouzení odhalilo indukovanou hyperreflexivitu.
 
@@ -195,7 +195,7 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
 
 ## Vztah k Prismatic platformě
 
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} operační uzávěrka** — kalibrační logika obsahuje **time-boxed** reflexi s povinným přechodem k rozhodnutí; rozhodnutí, která čekají na "dostatečnou jistotu", jsou flagována jako rekurzivně paralyzovaná.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} operační uzávěrka** — kalibrační logika obsahuje **time-boxed** reflexi s povinným přechodem k rozhodnutí; rozhodnutí, která čekají na „dostatečnou jistotu“, jsou flagována jako rekurzivně paralyzovaná.
 - **NABLA Infinity reflective depth limit** — epistemický pipeline má **maximální hloubku** sebepoukazu; po dosažení limitu se aktivuje operační rozhodnutí na základě nejlepšího aktuálního stavu.
 - **Color Teams reflexivní rotace** — Red Team má mandát **zastavit** Blue Team v rekurzivní reflexi, pokud paralyzuje rozhodování.
 
@@ -220,7 +220,6 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

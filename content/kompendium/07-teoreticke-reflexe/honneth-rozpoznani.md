@@ -17,7 +17,7 @@ toc = true
 
 # 7.22 Honneth: Rozpoznání a boj o uznání
 
-Axel Honneth — třetí generace Frankfurtské školy — formuluje v *Kampf um Anerkennung* (1992) **teorii rozpoznání** (*Anerkennung*) jako **fundamentální antropologickou** a **socio-politickou** kategorii. Lidský subjekt se konstituuje **skrze** rozpoznání ze strany druhých — selhání rozpoznání (*Mißachtung*, "neuznání") je strukturálně **anihilační** zkušeností.
+Axel Honneth — třetí generace Frankfurtské školy — formuluje v *Kampf um Anerkennung* (1992) **teorii rozpoznání** (*Anerkennung*) jako **fundamentální antropologickou** a **socio-politickou** kategorii. Lidský subjekt se konstituuje **skrze** rozpoznání ze strany druhých — selhání rozpoznání (*Mißachtung*, „neuznání“) je strukturálně **anihilační** zkušeností.
 
 Pro kompendium EA poskytuje Honnethová teorie rámec pro pochopení **sociálně-epistemických škod**, jež manipulativní techniky způsobují prostřednictvím **strukturálního odepření uznání**.
 
@@ -40,12 +40,12 @@ Každá sféra konstituuje **specifický rozměr** subjektivity:
 Pro EA z toho plyne:
 
 - **EA jako odepření uznání**: techniky EA často strukturálně **odepírají** subjektu rozpoznání v jedné nebo více sférách.
-- **Klinický korelát**: trauma způsobené odepřením rozpoznání má **specifické** patterny — nikoli pouze "kognitivní distorzi", ale **rozpad** příslušné dimenze sebevztahu.
+- **Klinický korelát**: trauma způsobené odepřením rozpoznání má **specifické** patterny — nikoli pouze „kognitivní distorzi“, ale **rozpad** příslušné dimenze sebevztahu.
 - **Trojí klinická diagnostika**: pacient s trauma vyžaduje hodnocení **každé** sféry zvlášť.
 
 ## 2. *Mißachtung* (Neuznání) jako strukturální zkušenost
 
-Honneth analyzuje neuznání jako strukturálně **traumatickou** zkušenost — nikoli pouze "negativní emoci", ale **fundamentální zranění** subjektivity.
+Honneth analyzuje neuznání jako strukturálně **traumatickou** zkušenost — nikoli pouze „negativní emoci“, ale **fundamentální zranění** subjektivity.
 
 Tři patterny neuznání:
 
@@ -57,7 +57,7 @@ Pro EA má tato analýza **diagnostickou hodnotu**:
 
 - **Multidimenzionální mapping** EA technik: která sféra rozpoznání je primárně cílena?
 - **Klinická intervence** musí být **specificky** kalibrována pro postiženou sféru.
-- **Strukturální politika rezilience**: kompletní reziliencia vyžaduje **všechny tři** sféry rozpoznání — jednodimenzionální intervence (např. pouze "self-care") jsou **strukturálně nedostatečné**.
+- **Strukturální politika rezilience**: kompletní reziliencia vyžaduje **všechny tři** sféry rozpoznání — jednodimenzionální intervence (např. pouze „self-care“) jsou **strukturálně nedostatečné**.
 
 ## 3. Patologie reifikace
 
@@ -84,7 +84,7 @@ Pro EA z toho plyne:
 
 - **Pseudo-uznání jako EA**: techniky, jež **simulují** uznání bez jeho strukturální hloubky, jsou specifickou formou EA.
 - **Closer alliance s Zubofovou Surveillance Capitalism** ([viz 7.47](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)).
-- **Klinický korelát**: subjekti chronicky vystavení pseudo-uznání vykazují specifické patterny — paradoxní rozpad self přes kvantitativní "úspěch".
+- **Klinický korelát**: subjekti chronicky vystavení pseudo-uznání vykazují specifické patterny — paradoxní rozpad self přes kvantitativní „úspěch“.
 
 ## 5. Mapping na EA techniky
 

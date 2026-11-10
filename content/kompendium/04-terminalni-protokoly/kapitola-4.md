@@ -165,7 +165,7 @@ Pro pochopení diferenciace mezi legitimním extrémním výcvikem a destruktivn
 
 ### DBT distress tolerance moduly
 
-**Kontext.** Dialekticko-behaviorální terapie (DBT) Marshy Linehan vyvinutá pro pacienty s borderline personality disorder; obsahuje "distress tolerance" moduly, které vyučují přežívání akutního emocionálního stresu bez maladaptivního chování.
+**Kontext.** Dialekticko-behaviorální terapie (DBT) Marshy Linehan vyvinutá pro pacienty s borderline personality disorder; obsahuje „distress tolerance“ moduly, které vyučují přežívání akutního emocionálního stresu bez maladaptivního chování.
 
 **Strukturální charakteristiky.** Mikroverze pětistupňové sekvence aplikovaná v terapeutickém kontextu; explicitní edukace o mechanismech distress tolerance; kontinuální informovaný souhlas; aktivní reintegrační fáze v každé sezení.
 
@@ -194,6 +194,7 @@ Pro pochopení diferenciace mezi legitimním extrémním výcvikem a destruktivn
 Extrémní výcvikové sekvence — i když dokonale legitimní — nesou inherentní rizika, která musí být explicitně adresována:
 
 **Akutní rizika:**
+
 - Akutní stresová reakce vyžadující klinickou intervenci
 - Disociativní epizody
 - Suicidální nebo sebezraňující ideace
@@ -201,6 +202,7 @@ Extrémní výcvikové sekvence — i když dokonale legitimní — nesou inhere
 - Psychotická dekompenzace u predisponovaných jedinců
 
 **Dlouhodobá rizika:**
+
 - Post-traumatic stress disorder (PTSD)
 - Komplexní PTSD u opakovaných expozic
 - Maladaptivní coping mechanismy
@@ -208,6 +210,7 @@ Extrémní výcvikové sekvence — i když dokonale legitimní — nesou inhere
 - Profesionální vyhoření urychlené předchozí intenzitou
 
 **Strukturální rizika:**
+
 - Iatrogenní trauma (poškození způsobené samotným výcvikem)
 - Falešný pocit mistrovství
 - Identita over-fused s výcvikovou rolí
@@ -230,18 +233,21 @@ Extrémní výcvikové sekvence — i když dokonale legitimní — nesou inhere
 Protokol musí specifikovat **explicitní kritéria** pro předčasné ukončení účasti subjektu:
 
 **Hard abort criteria** (okamžité ukončení):
+
 - Suicidální ideace s plánem
 - Psychotická symptomatologie
 - Život ohrožující somatická komplikace
 - Disociativní stav přetrvávající po ukončení akutní expozice
 
 **Soft abort criteria** (doporučené ukončení po klinickém zhodnocení):
+
 - Eskalující depresivní symptomatologie
 - Disociativní symptomatologie reagující na intervenci
 - Somatické komplikace s reverzibilním průběhem
 - Sociometrický kolaps (subjekt zůstává trvale izolován)
 
 **Subjekt-iniciované abort criteria**:
+
 - Explicitní žádost o ukončení **musí být respektována bez negativních konsekvencí**; jakékoli penalizace abort signálu transformují program z legitimního výcviku do koercitivního protokolu.
 
 ## Integrace s technikami EA-1.X.Y
@@ -289,7 +295,6 @@ Pro výzkumníky, klinickou praxi a institucionální governance z toho vyplýv�
 - [Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — evidence-based hodnocení rizikového profilu
-
 
 ## ⚡ Kritický krok
 

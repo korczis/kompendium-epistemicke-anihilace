@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/05-pokrocile-operace/kapitola-6/"
 
 ## Definice
 
-**Apofatické zacyklení** je technika, která uzamyká subjekta v **výlučně negujícím** modu popisu — každé pozitivní tvrzení je systematicky invalidováno frází typu *"to není ono, ale ani toho"*, *"není to A, ale ani ne-A"*, *"je to za hranicí jakéhokoli vymezení"*. Subjekt se tak ocitá v **totální epistemické stázi**: nemůže nic potvrdit, nemůže nic popřít, nemůže ani potvrdit nemožnost potvrdit.
+**Apofatické zacyklení** je technika, která uzamyká subjekta v **výlučně negujícím** modu popisu — každé pozitivní tvrzení je systematicky invalidováno frází typu *„to není ono, ale ani toho“*, *„není to A, ale ani ne-A“*, *„je to za hranicí jakéhokoli vymezení“*. Subjekt se tak ocitá v **totální epistemické stázi**: nemůže nic potvrdit, nemůže nic popřít, nemůže ani potvrdit nemožnost potvrdit.
 
 Pojmenování čerpá z **apofatické** (negativní) teologie — autentické tradice, která negaci používá jako **disciplínu pokory** vůči nedosažitelnému transcendentnu. V kontextu epistemické anihilace je však apofatický modus **vytržen z původního rámce** a aplikován **plošně** — na vše, čemu se subjekt pokusí přiřadit pozitivní obsah. Výsledkem není pokora, ale **paralýza**.
 
@@ -51,23 +51,23 @@ Technika operuje v pěti krocích:
 
 ### Krok 1 — Etablování negace jako vyšší formy
 
-Manipulátor prezentuje **negativní** vymezení jako epistemicky **rafinovanější** než pozitivní tvrzení. *"Pravda je tam, kde končí všechna slova."* *"Vše, co lze říci, je nutně nepřesné."* Subjekt je naučen **podezřívat** každou pozitivní formulaci jako naivní.
+Manipulátor prezentuje **negativní** vymezení jako epistemicky **rafinovanější** než pozitivní tvrzení. *„Pravda je tam, kde končí všechna slova.“* *„Vše, co lze říci, je nutně nepřesné.“* Subjekt je naučen **podezřívat** každou pozitivní formulaci jako naivní.
 
 ### Krok 2 — Zavedení univerzální dvojí negace
 
-Po každém pozitivním tvrzení následuje **první negace** ("*to není přesně tak*"), po ní **druhá negace** ("*ale ani opak není pravda*"). Subjekt se naučí, že každá pozice je vždy **současně** příliš silná a příliš slabá.
+Po každém pozitivním tvrzení následuje **první negace** („*to není přesně tak*“), po ní **druhá negace** („*ale ani opak není pravda*“). Subjekt se naučí, že každá pozice je vždy **současně** příliš silná a příliš slabá.
 
 ### Krok 3 — Eskalace do meta-negace
 
-Když se subjekt pokusí formulovat **agnostickou** pozici ("*nevím*"), je tato pozice rovněž invalidována: *"Ani to 'nevím' není přesné, protože předpokládá rámec, v němž je vědění nebo nevědění možné."* Negace se aplikuje na **samotnou metakognitivní strukturu**.
+Když se subjekt pokusí formulovat **agnostickou** pozici („*nevím*“), je tato pozice rovněž invalidována: *„Ani to 'nevím' není přesné, protože předpokládá rámec, v němž je vědění nebo nevědění možné.“* Negace se aplikuje na **samotnou metakognitivní strukturu**.
 
 ### Krok 4 — Inhibice operativního jednání
 
-Jednání předpokládá **rozhodnutí** mezi alternativami; rozhodnutí předpokládá **diference**; diference vyžaduje **pozitivní** vymezení. Apofatické zacyklení rozpouští všechny tři předpoklady. Subjekt je v jakémkoli volbu paralyzován: *"Volba A není správná, ale ani volba B, ale ani neutralita."*
+Jednání předpokládá **rozhodnutí** mezi alternativami; rozhodnutí předpokládá **diference**; diference vyžaduje **pozitivní** vymezení. Apofatické zacyklení rozpouští všechny tři předpoklady. Subjekt je v jakémkoli volbu paralyzován: *„Volba A není správná, ale ani volba B, ale ani neutralita.“*
 
-### Krok 5 — Konsolidace skrze identifikaci s "ne-postojem"
+### Krok 5 — Konsolidace skrze identifikaci s „ne-postojem“
 
-Subjekt postupně začíná identifikovat svůj epistemický stav s *"hlubším porozuměním"*, které **nemůže být sděleno** jiným způsobem než další negací. Pokus o pomoc zvenčí je interpretován jako **neporozumění hloubce**: *"Ty mě nechápeš, protože stále operuješ v polaritách."*
+Subjekt postupně začíná identifikovat svůj epistemický stav s *„hlubším porozuměním“*, které **nemůže být sděleno** jiným způsobem než další negací. Pokus o pomoc zvenčí je interpretován jako **neporozumění hloubce**: *„Ty mě nechápeš, protože stále operuješ v polaritách.“*
 
 ## Fenomenologické znaky
 
@@ -75,11 +75,11 @@ Co prožívá subjekt **uvnitř** apofatického zacyklení:
 
 - **Pocit, že každá pozitivní formulace zrazuje pravdu**
 - **Únava z neschopnosti dokončit větu** — každá věta vyvolává okamžitou potřebu negace
-- **Subjektivní pocit "hloubky"** kombinovaný s **objektivní stagnací**
+- **Subjektivní pocit „hloubky“** kombinovaný s **objektivní stagnací**
 - **Absence operativního cíle** — subjekt nemůže formulovat, co chce
 - **Tichá lhostejnost** — afektivní zploštění jako důsledek epistemické paralýzy
-- **Paradoxní prožitek "klidu"** — který je ve skutečnosti **vyprázdněním** energie potřebné k operaci
-- **Neschopnost odpovědět na konkrétní otázku** — odpověď je vždy "ne tak jednoduché"
+- **Paradoxní prožitek „klidu“** — který je ve skutečnosti **vyprázdněním** energie potřebné k operaci
+- **Neschopnost odpovědět na konkrétní otázku** — odpověď je vždy „ne tak jednoduché“
 - **Růst sociální izolace** — subjekt přestává komunikovat, protože komunikace **vyžaduje** pozitivní obsah
 
 V pokročilejších stadiích kombinace s [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) může produkovat **chronickou depresivní stagnaci**.
@@ -126,7 +126,7 @@ Hraniční případ: **filosofové fenomenologie** v určitých metodologických
 
 #### 1. Rehabilitace pozitivního tvrzení
 
-Trénink **explicitního** formulování pozitivních tvrzení v nízkorizikových doménách. *"Káva je teplá."* *"Toto je červená."* Bez následné negace. Cíl: znovu ustanovit kapacitu **držet** pozitivní obsah.
+Trénink **explicitního** formulování pozitivních tvrzení v nízkorizikových doménách. *„Káva je teplá.“* *„Toto je červená.“* Bez následné negace. Cíl: znovu ustanovit kapacitu **držet** pozitivní obsah.
 
 #### 2. Operační kotvy
 
@@ -142,7 +142,7 @@ Denní zápis **třech věcí**, které subjekt **tvrdí** bez negace. Cvičení
 
 #### 5. Externí epistemický partner
 
-Osoba s autoritou **ukončit** negativní řetězec. Používá fráze typu: *"Tato negace nyní stačí. Co je tvá pracovní hypotéza?"* Externí struktura nahrazuje vnitřní disciplinu, dokud se neobnoví.
+Osoba s autoritou **ukončit** negativní řetězec. Používá fráze typu: *„Tato negace nyní stačí. Co je tvá pracovní hypotéza?“* Externí struktura nahrazuje vnitřní disciplinu, dokud se neobnoví.
 
 ### Institucionální
 
@@ -160,7 +160,7 @@ Osoba s autoritou **ukončit** negativní řetězec. Používá fráze typu: *"T
 
 Doktorand v posledním roce psaní disertace začal vykazovat rostoucí neschopnost formulovat **vlastní** pozici. Každá kapitola byla **kritikou** jiných pozic, ale chyběla **konstruktivní** část. Po roce psaní měl 800 stran kritiky a žádné vlastní stanovisko.
 
-Detekce: Externí supervizor zjistil, že subjekt **nedokáže** odpovědět na otázku *"Co tedy tvrdíš?"* bez několikahodinového řetězce dvojích negací.
+Detekce: Externí supervizor zjistil, že subjekt **nedokáže** odpovědět na otázku *„Co tedy tvrdíš?“* bez několikahodinového řetězce dvojích negací.
 
 Intervence: Strukturovaný program s denním limitem kritiky (60 minut), povinným tvořením **jedné** pozitivní teze denně, externí supervize kontrolující dodržování. Disertace přepracována za 11 měsíců.
 
@@ -172,9 +172,9 @@ Detekce: Tradiční učitel rozpoznal, že subjekt **vytrhl** apofatický modus 
 
 Intervence: Návrat k **začátečnické praxi** s explicitními pozitivními afirmacemi, povinné společenské závazky vyžadující operativní rozhodnutí, klinická spolupráce. Funkce obnovena za 2 roky.
 
-### Případ 3 — Klient po několika letech "kritického coachingu"
+### Případ 3 — Klient po několika letech „kritického coachingu“
 
-Klient prošel coachingovým programem zaměřeným na *"dekonstrukci ego-identity"*. Po čtyřech letech reportoval, že **nemůže** formulovat své zájmy, hodnoty ani cíle — každá formulace mu zní jako *"konstrukce, kterou je třeba podrobit kritice"*.
+Klient prošel coachingovým programem zaměřeným na *„dekonstrukci ego-identity“*. Po čtyřech letech reportoval, že **nemůže** formulovat své zájmy, hodnoty ani cíle — každá formulace mu zní jako *„konstrukce, kterou je třeba podrobit kritice“*.
 
 Detekce: Klinické posouzení odhalilo plnohodnotné apofatické zacyklení s **operačním kolapsem** (ztráta zaměstnání, rozpad vztahů, finanční potíže).
 
@@ -185,7 +185,7 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
 ### Často se kombinuje s
 
 - **[EA-1.3.4 Indukovaná pochybnost](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md)** — pochybnost je **bránou** do apofatického zacyklení; po dosažení dostatečně rozšířené pochybnosti se aktivuje plošná negace.
-- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — negace je afektivně barvená "klidem" nebo "hloubkou", což zvyšuje rezistenci vůči korekci.
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — negace je afektivně barvená „klidem“ nebo „hloubkou“, což zvyšuje rezistenci vůči korekci.
 - **EA-5.1.13 Hyperreflexivita** — sesterská technika; obě sdílejí strukturu epistemické paralýzy, ovšem mechanismus je odlišný (rekurze vs. negace).
 - **EA-5.1.14 Iluzorní transcendence** — strukturní inverze; obě produkují stáze, ovšem opačnými mechanismy (vyprázdnění vs. zaplnění).
 
@@ -228,7 +228,6 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

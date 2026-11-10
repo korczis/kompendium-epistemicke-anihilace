@@ -123,7 +123,6 @@ Technika **rekurzivní hypertransformace** představuje strukturální výzvu pr
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Heideggerova **Eigentlichkeit** (vlastnictví) jako návrat k vlastní možnosti je nahrazena nekonečnou rekurzí transformací bez finální konfigurace. Ricoeurova **identita jako narativní celek** je rozkládána iterativním přeprogramováním — každý nový narativ ruší předešlý. Husserlův **horizont** (*Cartesian Meditations*) — implicitní pozadí každého aktu — je odstraněn: každá transformace vyžaduje radikální nový horizont. Damasiův **homeostatický imperativ** (*Self Comes to Mind*) je porušen: rekurzivní transformace vyčerpává metabolický substrát kontinuity. Foucaultovy **technologie sebe** (*L'herméneutique du sujet*) jsou reverzovány: namísto sebepéče slouží k sebezničení. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
@@ -153,7 +152,7 @@ Diferenciální klíč: přítomnost identifikovatelného **externího agenta**,
 
 Pozorovatelné indikátory přítomnosti této techniky v klinické anamnéze:
 
-narativní rekurze s rostoucí abstraktností a rostoucí ztrátou referenčnosti, exhausce projevující se kataleptickými epizodami, jazyk druhého řádu ('teď konečně chápu, kdo jsem byl, když jsem si myslel...'), zrychlující se cyklus identitárních redefinic, ztráta čerpacího horizontu.
+narativní rekurze s rostoucí abstraktností a rostoucí ztrátou referenčnosti, exhausce projevující se kataleptickými epizodami, jazyk druhého řádu ('teď konečně chápu, kdo jsem byl, když jsem si myslel…'), zrychlující se cyklus identitárních redefinic, ztráta čerpacího horizontu.
 
 Tyto markery jsou kumulativní — žádný jednotlivý nemá diagnostickou specificitu, ale jejich konvergence při anamnéze přítomnosti high-control vztahu nebo izolačního prostředí zvyšuje prediktivní hodnotu. Doporučená klinická cesta zahrnuje longitudinální anamnézu (před/po hraniční bod), konfrontaci s externí dokumentací (deníky, fotografie, korespondence), a strukturované interview se zaměřením na narativní koherenci pre-manipulační fáze.
 

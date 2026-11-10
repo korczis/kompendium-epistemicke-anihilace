@@ -129,19 +129,23 @@ vedením, uznejte je a nabídněte individuální rozhovor; odkažte na
 ## Související
 
 **Navazující scénáře**
+
 - [Design falsifikace](@/kompendium/educational-scenarios/6-falsification-design.md) – co by hypotézu vyvrátilo.
 - [Řešení rozporů](@/kompendium/educational-scenarios/8-contradiction-resolution.md) – když si důkazy odporují.
 - [Akademická manipulace](@/kompendium/educational-scenarios/11-academic-manipulation.md) – podobný kontext na pokročilejší úrovni.
 
 **Forenzní rámec**
+
 - [Pattern důkaz](@/kompendium/forensic-legal/38-pattern-evidence.md) – vzorec jako důkaz v řízení.
 - [RCT v EA výzkumu](@/kompendium/research-methodology/RCT-EA-considerations.md) – proč RCT často nelze použít.
 
 **Signatury a sebe-obrana**
+
 - [Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – dokumentovatelný rozpor s realitou.
 - [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) – návod pro jednotlivce.
 
 **Glosář**
+
 - [Evidence-based](@/glossary/evidence-based.md) – kontext pyramidy důkazů.
 - [Chain of custody](@/glossary/chain-of-custody.md) – integrita podkladů.
 

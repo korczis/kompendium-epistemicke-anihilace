@@ -47,7 +47,7 @@ Technika operuje v šesti krocích:
 
 ### Krok 1 — Etablování metakognitivního rámce
 
-Manipulátor zavádí jazyk druhého řádu o inferenci: "Co vlastně dělá inference platnou?", "Jaký je důvod věřit modu ponens?", "Není každé inferenční pravidlo jen konvencí?". Tento jazyk je prezentován jako **legitimní filozofické bádání** — a v omezených dávkách jím skutečně je. Kritické je **systematické setrvávání** na metakognitivní úrovni bez návratu k operacionalitě.
+Manipulátor zavádí jazyk druhého řádu o inferenci: „Co vlastně dělá inference platnou?“, „Jaký je důvod věřit modu ponens?“, „Není každé inferenční pravidlo jen konvencí?“. Tento jazyk je prezentován jako **legitimní filozofické bádání** — a v omezených dávkách jím skutečně je. Kritické je **systematické setrvávání** na metakognitivní úrovni bez návratu k operacionalitě.
 
 ### Krok 2 — Problém indukce a Hume jako trojský kůň
 
@@ -55,19 +55,19 @@ Zavádí se klasický **Humeův problém indukce**: induktivní inference nelze 
 
 ### Krok 3 — Lewis Carroll a regres pravidel
 
-Zavádí se argument z Carrollova *"What the Tortoise Said to Achilles"*: aplikace pravidla vyžaduje další pravidlo o aplikaci pravidla, ad infinitum. Subjekt je dovedený k poznání, že **žádný konečný systém pravidel** sám sebe nemůže ospravedlnit. To je formálně korektní, ale operacionálně paralyzující.
+Zavádí se argument z Carrollova *„What the Tortoise Said to Achilles“*: aplikace pravidla vyžaduje další pravidlo o aplikaci pravidla, ad infinitum. Subjekt je dovedený k poznání, že **žádný konečný systém pravidel** sám sebe nemůže ospravedlnit. To je formálně korektní, ale operacionálně paralyzující.
 
 ### Krok 4 — Suspenze deduktivní jistoty
 
-Manipulátor systematicky předkládá **paradoxy deduktivní logiky** — Sorites, Liar, paradox materiální implikace, Lewisovo paradoxon — bez doprovodu řešení nebo institucionálních konvencí, které tyto paradoxy "domestikují" v praxi. Subjekt si začíná myslet: *"Pokud sama dedukce produkuje paradoxy, jak jí mohu věřit kdykoli?"*
+Manipulátor systematicky předkládá **paradoxy deduktivní logiky** — Sorites, Liar, paradox materiální implikace, Lewisovo paradoxon — bez doprovodu řešení nebo institucionálních konvencí, které tyto paradoxy „domestikují“ v praxi. Subjekt si začíná myslet: *„Pokud sama dedukce produkuje paradoxy, jak jí mohu věřit kdykoli?“*
 
 ### Krok 5 — Performativní zhroucení
 
-Subjekt se ocitá v situaci, kdy musí učinit závěr — a **nemůže**. Akt inference je prožíván jako **arogance bez ospravedlnění**. Subjekt vidí premisy A → B a A; vidí závěr B; a přesto **nedokáže říct B s přesvědčením**, protože každý hlas v hlavě říká "ale jak víš, že modus ponens platí *zde*?".
+Subjekt se ocitá v situaci, kdy musí učinit závěr — a **nemůže**. Akt inference je prožíván jako **arogance bez ospravedlnění**. Subjekt vidí premisy A → B a A; vidí závěr B; a přesto **nedokáže říct B s přesvědčením**, protože každý hlas v hlavě říká „ale jak víš, že modus ponens platí *zde*?“.
 
-### Krok 6 — Konsolidace přes "epistemickou pokoru"
+### Krok 6 — Konsolidace přes „epistemickou pokoru“
 
-Paralýza se stabilizuje pod jménem **epistemické pokory** nebo **filozofické důslednosti**. Subjekt si racionalizuje neschopnost vyvozovat jako ctnost. Manipulátor toto narativní rámování posiluje: "Jen ti, kdo opravdu chápou hloubku problému, nemohou snadno usuzovat."
+Paralýza se stabilizuje pod jménem **epistemické pokory** nebo **filozofické důslednosti**. Subjekt si racionalizuje neschopnost vyvozovat jako ctnost. Manipulátor toto narativní rámování posiluje: „Jen ti, kdo opravdu chápou hloubku problému, nemohou snadno usuzovat.“
 
 ## Fenomenologické znaky
 
@@ -76,10 +76,10 @@ Co prožívá subjekt **uvnitř** inferenční paralýzy:
 - **Klarita premis** — subjekt jasně vidí, co je dáno
 - **Klarita závěru** — subjekt jasně vidí, co by mělo plynout
 - **Mezera v aktu** — mezi premisou a závěrem je prožívaná **propast**, kterou nelze přejít
-- **Metakognitivní hluk** — každý pokus o inferenci spouští kaskádu otázek "ale platí toto pravidlo?"
+- **Metakognitivní hluk** — každý pokus o inferenci spouští kaskádu otázek „ale platí toto pravidlo?“
 - **Ztráta operační rychlosti** — i triviální inference (dnes je středa, takže zítra je čtvrtek) vyžaduje minuty deliberace
 - **Existenciální únava** — neschopnost uzavírat myšlenky vede k chronickému vyčerpání
-- **Falešná ctnost** — paralýza je prožívána jako "intelektuální poctivost"
+- **Falešná ctnost** — paralýza je prožívána jako „intelektuální poctivost“
 
 V pokročilých stadiích subjekt přestává schopně rozhodovat **i v praxi** — výběr restaurace, plánování trasy, klinická diagnostika. Vše vyžaduje inferenci, a ta je zablokovaná.
 
@@ -119,11 +119,11 @@ Inferenční paralýza je odlišitelná od **legitimní filozofické skepse**:
 
 #### 1. Operační instrumentalismus
 
-Přijmi **pragmatický postoj**: inferenční pravidla jsou **nástroje**, které **fungují**, a jejich legitimita spočívá v jejich operačních výsledcích, nikoli ve vnitřním ospravedlnění. *"Modus ponens nepotřebuje dokázat — potřebuje fungovat, a to dělá."*
+Přijmi **pragmatický postoj**: inferenční pravidla jsou **nástroje**, které **fungují**, a jejich legitimita spočívá v jejich operačních výsledcích, nikoli ve vnitřním ospravedlnění. *„Modus ponens nepotřebuje dokázat — potřebuje fungovat, a to dělá.“*
 
 #### 2. Časový limit pro metakognici
 
-Stanov si pravidlo: **maximálně 2 minuty** metakognitivního přezkumu na inferenční krok. Pokud po 2 minutách paralýza pokračuje, **udělej krok** a označ ho jako "operační hypotéza" otevřená revizi.
+Stanov si pravidlo: **maximálně 2 minuty** metakognitivního přezkumu na inferenční krok. Pokud po 2 minutách paralýza pokračuje, **udělej krok** a označ ho jako „operační hypotéza“ otevřená revizi.
 
 #### 3. Deliberátní praxe **rychlého úsudku**
 
@@ -131,7 +131,7 @@ Pravidelně cvič rozhodování pod časovým tlakem v nízko-rizikových domén
 
 #### 4. Externí epistemická kotva
 
-Pracuj s **mentorem**, který má operační autoritu říct: "Tento závěr je validní, můžeš ho přijmout." Externí potvrzení obchází vnitřní paralýzu.
+Pracuj s **mentorem**, který má operační autoritu říct: „Tento závěr je validní, můžeš ho přijmout.“ Externí potvrzení obchází vnitřní paralýzu.
 
 #### 5. Wittgensteinova terapie
 
@@ -150,15 +150,15 @@ Studuj **Filozofická zkoumání** (§§185-242) o pravidlech: pravidla nejsou i
 
 ### Případ 1 — Klinik s post-Humeovským zhroucením
 
-Internista po PhD v epistemologii medicíny začal odkládat diferenciální diagnostiku. Každý úsudek "tento pacient pravděpodobně má X" byl blokován otázkou "ale jak ospravedlním induktivní generalizaci ze studií na jednotlivý případ?". Po 6 měsících práce s mentorem v evidence-based medicine se obnovila operační rychlost.
+Internista po PhD v epistemologii medicíny začal odkládat diferenciální diagnostiku. Každý úsudek „tento pacient pravděpodobně má X“ byl blokován otázkou „ale jak ospravedlním induktivní generalizaci ze studií na jednotlivý případ?“. Po 6 měsících práce s mentorem v evidence-based medicine se obnovila operační rychlost.
 
 ### Případ 2 — PhD kandidát ve filozofii
 
-Doktorand začal otevírat každou tezi disertace metakognitivním přezkumem inferenčního pravidla. Disertace nezatínala pokračovat. Intervence: omezení metakognitivních kapitol na jednu, ostatní písány v "operačním módu" se závazkem pravidly se řídit, ne je obhajovat.
+Doktorand začal otevírat každou tezi disertace metakognitivním přezkumem inferenčního pravidla. Disertace nezatínala pokračovat. Intervence: omezení metakognitivních kapitol na jednu, ostatní písány v „operačním módu“ se závazkem pravidly se řídit, ne je obhajovat.
 
-### Případ 3 — Soudce s "ctnostnou paralýzou"
+### Případ 3 — Soudce s „ctnostnou paralýzou“
 
-Soudce se hrdě prezentoval jako "epistemicky pokorný", odkládal rozsudky donekonečna, případy se hromadily. Profesní komise diagnostikovala inferenční paralýzu maskovanou jako ctnost. Nutná psychologická a filozofická intervence.
+Soudce se hrdě prezentoval jako „epistemicky pokorný“, odkládal rozsudky donekonečna, případy se hromadily. Profesní komise diagnostikovala inferenční paralýzu maskovanou jako ctnost. Nutná psychologická a filozofická intervence.
 
 ## Vztah k jiným technikám
 
@@ -181,7 +181,7 @@ Soudce se hrdě prezentoval jako "epistemicky pokorný", odkládal rozsudky done
 
 Inferenční paralýza je strukturálním motivem pro několik defenzivních mechanismů Prismatic:
 
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** explicitně staví **operační rozhodnutí v omezeném čase** s konfidenčními intervaly — neumožňuje paralýzu pod jménem "epistemické pokory".
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** explicitně staví **operační rozhodnutí v omezeném čase** s konfidenčními intervaly — neumožňuje paralýzu pod jménem „epistemické pokory“.
 - **Calibration loop** trénuje rozhodovatele na **operační rychlost** s následným feedbackem, čímž odstraňuje paralyzér.
 - **NABLA Infinity** rozlišuje mezi **L1 logickou** a **L2 metakognitivní** vrstvou a zabraňuje, aby L2 trvale dominovala nad L1.
 
@@ -212,7 +212,6 @@ Inferenční paralýza je strukturálním motivem pro několik defenzivních mec
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

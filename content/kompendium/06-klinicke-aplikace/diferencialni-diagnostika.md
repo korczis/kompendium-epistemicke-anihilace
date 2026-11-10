@@ -60,11 +60,11 @@ Tyto diagnózy **nejsou vzájemně vylučující** — EA často **koexistuje** 
 | **Self-narrativ** | Fragmentace, externí kotvení | Často intaktní, ale s negativním obsahem |
 | **Léčba** | Epistemická rekonstrukce + trauma-focused | Trauma-focused (EMDR, TF-CBT, PE) |
 
-**Klinický klíč**: Pacient s **čistým PTSD** dokáže **reflektovat své symptomy** ("vím, že je tato reakce přehnaná"). Pacient s **EA** ztrácí samotnou meta-pozici, z níž by reflexe byla možná.
+**Klinický klíč**: Pacient s **čistým PTSD** dokáže **reflektovat své symptomy** („vím, že je tato reakce přehnaná“). Pacient s **EA** ztrácí samotnou meta-pozici, z níž by reflexe byla možná.
 
 ### EA vs. cPTSD
 
-cPTSD je **diagnostický kandidát s největším překryvem** — zvláště komponenty "negativní self-koncept" a "interpersonální obtíže". Diferenciace je obtížnější.
+cPTSD je **diagnostický kandidát s největším překryvem** — zvláště komponenty „negativní self-koncept“ a „interpersonální obtíže“. Diferenciace je obtížnější.
 
 | Dimenze | EA | cPTSD |
 |---------|-----|-------|
@@ -77,7 +77,7 @@ cPTSD je **diagnostický kandidát s největším překryvem** — zvláště ko
 
 **Klinický klíč**: cPTSD pacient typicky **trpí** vědomím trauma. EA pacient často **nemá přístup** k vědomí, že byl traumatizován — útok zacílil samotnou reflexivní kapacitu.
 
-> **Časté koexistence**: Oběti dlouhodobé domácí violence, post-kult klienti a oběti politických represí typicky splňují **kritéria cPTSD i EA**. Diagnóza není "buď/nebo" — je to **stratifikace utrpení**, která určuje, jak má vypadat sekvence intervencí.
+> **Časté koexistence**: Oběti dlouhodobé domácí violence, post-kult klienti a oběti politických represí typicky splňují **kritéria cPTSD i EA**. Diagnóza není „buď/nebo“ — je to **stratifikace utrpení**, která určuje, jak má vypadat sekvence intervencí.
 
 ### EA vs. disociativní poruchy
 
@@ -89,11 +89,12 @@ cPTSD je **diagnostický kandidát s největším překryvem** — zvláště ko
 | **Depersonalizace** | Sekundární, časově variabilní | Centrální, často chronická |
 | **Realita-testing** | Erodovaný systematickou manipulací | Intaktní, ale subjektivně narušený |
 
-**Klinický klíč**: Disociativní pacient zažívá **diskontinuitu** ve zkušenosti ("nepamatuji si, kdo jsem byl při té události"). EA pacient zažívá **kontinuitní, ale nedůvěryhodnou** zkušenost ("pamatuji si, ale nevím, zda je to pravda").
+**Klinický klíč**: Disociativní pacient zažívá **diskontinuitu** ve zkušenosti („nepamatuji si, kdo jsem byl při té události“). EA pacient zažívá **kontinuitní, ale nedůvěryhodnou** zkušenost („pamatuji si, ale nevím, zda je to pravda“).
 
 ### EA vs. psychotické poruchy
 
 Toto rozlišení je **kriticky důležité**, protože záměna může vést k:
+
 - Iatrogennímu poškození (nepotřebná antipsychotická medikace);
 - Patologizaci legitimní rezistence;
 - Reinscenaci útoku (lékař jako další autorita-zneužívatel).
@@ -107,11 +108,11 @@ Toto rozlišení je **kriticky důležité**, protože záměna může vést k:
 | **Insight** | Variabilní, často chybí, ale **rekonstruovatelný** | Často chybí, **rezistentní** vůči konfrontaci s důkazy |
 | **Reakce na realistické důkazy** | Postupná otevřenost s podporou | Inkorporace do bludové struktury |
 
-**Klinický klíč**: U EA jsou "bludné" obsahy **importované** ze sociálního pole útoku — pacient je **opouští**, když je vystaven důvěryhodnému opozičnímu zdroji v bezpečném prostředí. Psychotický pacient generuje obsahy **endogenně** a je k externí evidenci **rezistentní**.
+**Klinický klíč**: U EA jsou „bludné“ obsahy **importované** ze sociálního pole útoku — pacient je **opouští**, když je vystaven důvěryhodnému opozičnímu zdroji v bezpečném prostředí. Psychotický pacient generuje obsahy **endogenně** a je k externí evidenci **rezistentní**.
 
 ### EA vs. úzkostné poruchy s metakognitivní složkou
 
-GAD a OCD často mají metakognitivní rysy ("mám nutkání kontrolovat své myšlenky"). Diferenciace:
+GAD a OCD často mají metakognitivní rysy („mám nutkání kontrolovat své myšlenky“). Diferenciace:
 
 | Dimenze | EA | GAD/OCD |
 |---------|-----|---------|
@@ -184,11 +185,11 @@ V praxi se setkáváme s několika typickými klastry:
 
 ### Vinětta A: Diferenciace EA vs. PTSD
 
-> Pacientka, 34 let, po opuštění partnera s dlouhodobým gaslightingem. Prezentuje s úzkostí, depresivními symptomy, "kognitivními obtížemi". V rozhovoru: opakovaně kontroluje, zda si "události opravdu pamatuje". Žádné flashbacky, žádná hyperarousal odpověď na specifické podněty. Klastr A: 4 markery, klastr C: 3 markery. **Dg.: EA strukturální + cPTSD; primární intervence: epistemická rekonstrukce s trauma-informovaným rámcem.**
+> Pacientka, 34 let, po opuštění partnera s dlouhodobým gaslightingem. Prezentuje s úzkostí, depresivními symptomy, „kognitivními obtížemi“. V rozhovoru: opakovaně kontroluje, zda si „události opravdu pamatuje“. Žádné flashbacky, žádná hyperarousal odpověď na specifické podněty. Klastr A: 4 markery, klastr C: 3 markery. **Dg.: EA strukturální + cPTSD; primární intervence: epistemická rekonstrukce s trauma-informovaným rámcem.**
 
 ### Vinětta B: Diferenciace EA vs. psychóza
 
-> Pacient, 22 let, opuštěné prostředí konspirační online komunity. Prezentuje s "paranoidními" tématy ("vše je sledováno"). V rozhovoru: žádné formální myšlenkové poruchy, žádné halucinace, obsah přesvědčení odpovídá narativu komunity. Vystavení důvěryhodnému opozičnímu zdroji vede k postupnému revidování. **Dg.: EA obsahová, ne psychotická porucha; primární intervence: bezpečná epistemická rekonstrukce.**
+> Pacient, 22 let, opuštěné prostředí konspirační online komunity. Prezentuje s „paranoidními“ tématy („vše je sledováno“). V rozhovoru: žádné formální myšlenkové poruchy, žádné halucinace, obsah přesvědčení odpovídá narativu komunity. Vystavení důvěryhodnému opozičnímu zdroji vede k postupnému revidování. **Dg.: EA obsahová, ne psychotická porucha; primární intervence: bezpečná epistemická rekonstrukce.**
 
 ## Etické důsledky diagnózy
 
@@ -196,7 +197,7 @@ Diagnóza EA má specifické etické důsledky:
 
 - **Validace zkušenosti**: pacient slyší, že jeho utrpení **má strukturu** a **má jméno**;
 - **Riziko nálepkování**: diagnóza EA nesmí být použita k **delegitimizaci** pacienta jako svědka (např. v rozvodovém řízení proti agresorovi);
-- **Forenzní komplexity**: u soudních znaleckých posudků je nutná opatrnost — diagnóza EA může být útočníkem **obrácena** ("vidíte, je nemocný, neberte ho vážně");
+- **Forenzní komplexity**: u soudních znaleckých posudků je nutná opatrnost — diagnóza EA může být útočníkem **obrácena** („vidíte, je nemocný, neberte ho vážně“);
 - **Důvěrnost**: epistemická anamnéza odhaluje vysoce citlivá data o vztazích třetích osob.
 
 ## Související
@@ -211,7 +212,6 @@ Diagnóza EA má specifické etické důsledky:
 - [Glossary: Gaslighting](@/glossary/gaslighting.md)
 - [Glossary: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - [Glossary: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
-
 
 ## ⚡ Kritický krok
 

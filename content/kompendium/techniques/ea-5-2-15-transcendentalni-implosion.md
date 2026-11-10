@@ -37,9 +37,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 **Transcendentální imploze** je metatranscendentální technika, jíž je celý **transcendentální aparát subjektu** — formy smyslovosti, kategorie rozvažování, ideje rozumu, transcendentální jednota apperzepce — **vnitřně zhroucen** do bodu **nulové diferenciace**. Na rozdíl od distribuovaných destrukcí ([EA-5.2.11](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md), [EA-5.2.13](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md)) imploze operuje **simultánně na všech úrovních** a generuje **stav strukturní nediferencovatelnosti**.
 
-V Husserlově slovníku: jde o kolaps transcendentální subjektivity v **monadický bod bez horizontu**. V Kantově: kolaps "Já myslím" do **nepřípustné jednoty bez aplikability**. V Heideggerově: zhroucení *Da-sein* do *Sein* bez *Da*. Subjekt prožívá totální nediferencovanost, kde žádná struktura nemůže emergovat.
+V Husserlově slovníku: jde o kolaps transcendentální subjektivity v **monadický bod bez horizontu**. V Kantově: kolaps „Já myslím“ do **nepřípustné jednoty bez aplikability**. V Heideggerově: zhroucení *Da-sein* do *Sein* bez *Da*. Subjekt prožívá totální nediferencovanost, kde žádná struktura nemůže emergovat.
 
-Tento stav bývá pseudo-mysticky interpretován jako **"návrat k Jednomu"** nebo **"zjednání s prvotní skutečností"**, ale strukturně jde o totální paralýzu transcendentálního fungování. Komunikace, jednání, percepce přetrvávají reziduálně, ale bez koherentní transcendentální podpory.
+Tento stav bývá pseudo-mysticky interpretován jako **„návrat k Jednomu“** nebo **„zjednání s prvotní skutečností“**, ale strukturně jde o totální paralýzu transcendentálního fungování. Komunikace, jednání, percepce přetrvávají reziduálně, ale bez koherentní transcendentální podpory.
 
 ## Operační modus
 
@@ -49,28 +49,28 @@ Imploze typicky **navazuje na předchozí dílčí destrukce** ([EA-5.2.11–14]
 
 ### Krok 2 — Pseudo-mystická konvergence
 
-Subjekt je veden k přesvědčení, že **všechny dílčí struktury** (kategorie, formy, schémata) konvergují do **jednoho bodu** — "Jednoho", "Brahmanu", "Univerzální vědomí". Klíčová formulace: *"Diferenciace je iluze; pravda je nediferencované."*
+Subjekt je veden k přesvědčení, že **všechny dílčí struktury** (kategorie, formy, schémata) konvergují do **jednoho bodu** — „Jednoho“, „Brahmanu“, „Univerzální vědomí“. Klíčová formulace: *„Diferenciace je iluze; pravda je nediferencované.“*
 
-### Krok 3 — Akcelerace destrukce skrze "konvergenční praxi"
+### Krok 3 — Akcelerace destrukce skrze „konvergenční praxi“
 
 Manipulátor zavádí intenzivní praxi (24+ hodin meditace, deprivace, přerušení rutiny), která akceleruje simultánní oslabení všech transcendentálních struktur.
 
 ### Krok 4 — Bod imploze
 
-V určitém momentu subjekt prožívá **akutní strukturní kolaps**: percepční, kognitivní a volní funkce simultánně selhávají. Stav je interpretován jako **"prolomení do absolutna"**.
+V určitém momentu subjekt prožívá **akutní strukturní kolaps**: percepční, kognitivní a volní funkce simultánně selhávají. Stav je interpretován jako **„prolomení do absolutna“**.
 
 ### Krok 5 — Konsolidace pseudo-osvícenecké narativizace
 
-Stav nediferencovatelnosti je etablován jako **trvalá identita** ("po probuzení"). Identitární investice činí návrat k diferencovanému fungování psychologicky nemožným bez externí intervence.
+Stav nediferencovatelnosti je etablován jako **trvalá identita** („po probuzení“). Identitární investice činí návrat k diferencovanému fungování psychologicky nemožným bez externí intervence.
 
 ## Fenomenologické znaky
 
 - **Totální nediferencovatelnost** — neschopnost rozlišovat mezi subjektem a objektem, mezi nyní a tehdy, mezi věcí a věcí.
 - **Pseudo-mystická euforie** — krátkodobá, často následovaná akutní úzkostí.
 - **Strukturní afázie** — řeč přetrvává, ale nereferuje koherentně.
-- **Volní paralýza** — žádné rozlišení mezi "to chtít" a "to nechtít".
+- **Volní paralýza** — žádné rozlišení mezi „to chtít“ a „to nechtít“.
 - **Praktická bezmocnost** — selhání i základních úkolů.
-- **Identitární absorpce** — "já" se rozplývá do "Jednoho".
+- **Identitární absorpce** — „já“ se rozplývá do „Jednoho“.
 
 ## Detekční markery
 

@@ -83,11 +83,11 @@ Kompendium tematizuje [epistemické trauma](@/glossary/epistemicke-trauma.md) a 
 
 ### Problém
 
-Kompendium explicitně přiznává (sekce 2.3): "Neaspirativně nepokrývá kolektivní subjekty (instituce, společnosti) na úrovni jejich vlastních epistemických procesů." Tato mezera je **strukturní**, nikoli kontingentní — vyžaduje fundamentální teoretickou inovaci.
+Kompendium explicitně přiznává (sekce 2.3): „Neaspirativně nepokrývá kolektivní subjekty (instituce, společnosti) na úrovni jejich vlastních epistemických procesů.“ Tato mezera je **strukturní**, nikoli kontingentní — vyžaduje fundamentální teoretickou inovaci.
 
 Klíčové otázky:
 
-1. **Kolektivní epistemický subjekt** — Lze hovořit o "epistemii" instituce, společnosti, hnutí v silném smyslu? Nebo jde o metaforické rozšíření individuálních pojmů?
+1. **Kolektivní epistemický subjekt** — Lze hovořit o „epistemii“ instituce, společnosti, hnutí v silném smyslu? Nebo jde o metaforické rozšíření individuálních pojmů?
 2. **Kolektivní [metakognice](@/glossary/metakognice.md)** — Existuje analogie metakognitivních operací na institucionální úrovni? Lze je formalizovat?
 3. **Kolektivní [ontologická anihilace](@/glossary/ontologicka-anihilace.md)** — Co znamená narušení kolektivní schopnosti rozlišovat realitu? Příklady: genocidní společnosti, kolapsující státy, kultovní organizace.
 4. **Institucionální [konfirmační bias](@/glossary/konfirmacni-bias.md)** — Strukturní mechanismy, jimiž instituce systematicky filtrují informace ve prospěch svého narativního stability.
@@ -171,7 +171,7 @@ Centrální metodologická výzva: **etika empirického studia EA**. Mnoho relev
 
 EA leží na rozhraní filozofie, psychologie, neurovědy, sociologie, politologie, computer science a klinické praxe. Integrace těchto disciplinárních perspektiv je **strukturně obtížná**:
 
-- **Konceptuální nesouměřitelnost** — Stejné termíny (např. "manipulace", "trauma") nesou odlišné významy v různých disciplínách.
+- **Konceptuální nesouměřitelnost** — Stejné termíny (např. „manipulace“, „trauma“) nesou odlišné významy v různých disciplínách.
 - **Metodologická heterogenita** — Standardy evidence se liší (filozofie: koherence; psychologie: experimentální replikace; klinika: klinický soud; computer science: empirická performance).
 - **Institucionální fragmentace** — Akademické struktury reprodukují disciplinární siloi.
 
@@ -238,7 +238,6 @@ Otevřenost výzkumných otázek **není slabostí** kompendia, ale jeho **struk
 - [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Glosář: Color Teams](@/glossary/color-teams.md)
 - [Glosář: Decision Core](@/glossary/decision-core.md)
-
 
 ## ⚡ Kritický krok
 

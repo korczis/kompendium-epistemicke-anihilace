@@ -16,14 +16,14 @@ toc = true
 
 # 6.5 Práce s vulnerabilní populací
 
-## Co znamená "vulnerabilní" v kontextu EA
+## Co znamená „vulnerabilní“ v kontextu EA
 
 Pojem **vulnerabilní populace** v kontextu [epistemické anihilace](@/glossary/epistemicka-anihilace.md) označuje skupiny, u nichž je **strukturálně zvýšené riziko**:
 
 1. **Vystavení EA** — z důvodu životních okolností, závislostí, mocenských asymetrií;
 2. **Sekundární viktimizace** v klinickém kontextu — riziko, že terapeutická či institucionální intervence sama o sobě zhorší stav;
 3. **Iatrogenního poškození** — riziko, že **dobře míněné** intervence způsobí škodu;
-4. **Diagnostické nepoznání** — symptomatika je atypická, přehlížená, nebo patologizovaná v "neepistemickém" rámci.
+4. **Diagnostické nepoznání** — symptomatika je atypická, přehlížená, nebo patologizovaná v „neepistemickém“ rámci.
 
 Tato kapitola se věnuje **specifikům klinické práce** se čtyřmi nejvíce zranitelnými skupinami: dětmi, post-kult klienty, uprchlíky a oběťmi dlouhodobého trauma. Pro každou skupinu poskytuje: rizikový profil, adaptaci diagnostiky, adaptaci protokolu rekonstrukce, etické zásady.
 
@@ -38,6 +38,7 @@ Klient přicházející z EA-prostředí typicky vykazuje **adaptivní strategie
 ### Princip 2: Explicitní mocenská transparence
 
 V populacích s historií systematického zneužití moci je **každá** mocenská asymetrie potenciálně reinscenací útoku. Klinik:
+
 - **Explicitně** tematizuje vlastní pozici;
 - Sděluje **limity** vlastní role;
 - Pravidelně **zve** klientovu kritiku terapeutického vztahu;
@@ -46,6 +47,7 @@ V populacích s historií systematického zneužití moci je **každá** mocensk
 ### Princip 3: Kontextuální senzitivita
 
 Vulnerabilní populace mají **kulturně, jazykově, historicky specifické** zkušenosti. Standardizované protokoly **musí být adaptovány**. Příklady:
+
 - U uprchlíků: jazykový bariér, kolektivní dimenze trauma;
 - U post-kult: specifický slovník skupiny;
 - U dětí: vývojově adekvátní formulace.
@@ -97,7 +99,7 @@ Vulnerabilní klient je často také **svědek** — proti agresorům, proti ins
 
 ### Etické a strukturální výzvy
 
-- **Souhlas a důvěrnost** — kdo je "klientem"? Dítě? Rodič? Soud?
+- **Souhlas a důvěrnost** — kdo je „klientem“? Dítě? Rodič? Soud?
 - **Ochrana před rodičem-agresorem** — koordinace s OSPOD, sociálními službami;
 - **Soudní rozvodová řízení** — terapie nesmí být **používána** jako důkaz proti druhému rodiči **bez** odborné soudní expertízy;
 - **Dlouhodobá podpora** — děti potřebují **kontinuální** sledování, nikoli jednorázovou intervenci.
@@ -117,6 +119,7 @@ Vulnerabilní klient je často také **svědek** — proti agresorům, proti ins
 #### Fáze výstupu
 
 Klient typicky prochází fázemi:
+
 1. **Akutní zmatek** (často první týdny–měsíce po výstupu);
 2. **Hněv vůči skupině**;
 3. **Hluboký smutek** za ztracenou komunitou (může být překvapivě silný);
@@ -126,7 +129,7 @@ Klient typicky prochází fázemi:
 #### Specifické intervence
 
 - **Validace ambivalentního truchlení** — klient typicky truchlí za to, co kult **nabízel** (komunita, smysl), nejen za to, co **odebral**;
-- **Pomalé tempo** konfrontace — "deprogramming" jako akutní intervence je **nedoporučovaný** (riziko reinscenace);
+- **Pomalé tempo** konfrontace — „deprogramming“ jako akutní intervence je **nedoporučovaný** (riziko reinscenace);
 - **Skupinová terapie** s jinými ex-členy — peer-validace má specifickou kvalitu;
 - **Praktická podpora** — bydlení, ekonomika, vzdělání;
 - **Postupné rozšiřování informačního prostředí** — bez akutní konfrontace s kritickými zdroji.
@@ -141,7 +144,7 @@ Klient typicky prochází fázemi:
 
 ### Etika
 
-- **Ne-deprogramming** — terapeut **není** "decoder" či "rescuer";
+- **Ne-deprogramming** — terapeut **není** „decoder“ či „rescuer“;
 - **Respekt k zbytkovým hodnotám** — některé hodnoty z kultu mohou být legitimní;
 - **Klient určuje tempo** — ne terapeut, ne rodina, ne média;
 - **Nezveřejňování** — opatrnost s kontaktem médií, dokumentaristů.
@@ -186,7 +189,7 @@ Klient typicky prochází fázemi:
 
 ### Etika a struktura
 
-- **Klinik jako svědek** — nikoli jako "expert na pravdu" politické situace;
+- **Klinik jako svědek** — nikoli jako „expert na pravdu“ politické situace;
 - **Spolupráce s humanitárními organizacemi**;
 - **Sebepéče klinika** — sekundární traumatizace je riziko;
 - **Forenzní role** — psychiatrické posudky pro azylová řízení vyžadují **specifickou kvalifikaci**.
@@ -218,7 +221,7 @@ Klient typicky prochází fázemi:
 
 ## Etika napříč skupinami
 
-### Princip "Do No Harm" v rozšířené interpretaci
+### Princip „Do No Harm“ v rozšířené interpretaci
 
 | Princip | Aplikace pro EA |
 |---------|-----------------|
@@ -231,24 +234,27 @@ Klient typicky prochází fázemi:
 ### Rizika institucionálního přístupu
 
 Klinik pracující ve **vulnerabilní populaci** musí být ostražitý vůči:
+
 - **Institucionálnímu gaslightingu** — instituce sama může reinscenovat dynamiku útoku;
-- **Diagnostické patologizaci legitimní rezistence** — klient je "neflexibilní", "nespolupracující";
+- **Diagnostické patologizaci legitimní rezistence** — klient je „neflexibilní“, „nespolupracující“;
 - **Profesnímu vyhoření** s následnou cynizací — riziko retraumatizujícího chování ze strany kliniků samotných;
 - **Mocenské asymetrii** mezi specialistou a klientem — opět blízká dynamice původního útoku.
 
 ## Sebepéče klinika pracujícího s vulnerabilní populací
 
 Práce s touto populací nese **vysoké riziko vicarious trauma a EA-přenosu** na klinika samotného. Doporučení:
+
 - **Pravidelná supervize** s kolegou specializovaným na trauma;
 - **Peer-konzultace** — pravidelné případové konzultace;
 - **Vlastní psychoterapie**;
-- **Limitace zátěže** — počet "vysoce komplexních" případů paralelně;
+- **Limitace zátěže** — počet „vysoce komplexních“ případů paralelně;
 - **Sebereflexivní praxe** — pravidelný čas na zaznamenání dopadu práce na klinika;
 - **Diverzita praxe** — kombinace s jinými typy klientů, nejen vulnerabilní populace.
 
 ## Vztah k platformě Prismatic
 
 Pro institucionální podporu vulnerabilních populací nabízí platforma:
+
 - **[Color Teams](@/glossary/color-teams.md)** — defenzivní agenti pro detekci EA v institucionálních kontextech;
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — kalibrace klinické důvěry s ohledem na rizikové signály manipulace;
 - **Glosář a kompendium** — psychoedukační nástroje pro klienty, jejich rodiny a institucionální partnery;
@@ -257,6 +263,7 @@ Pro institucionální podporu vulnerabilních populací nabízí platforma:
 ## Limity a otevřené otázky
 
 Práce s vulnerabilní populací zůstává **oblastí aktivního vývoje**:
+
 - **Empirická evidence** — většina protokolů je extrapolací z příbuzných oblastí;
 - **Kulturní validace** — protokoly potřebují cross-kulturní adaptace a validaci;
 - **Forenzní propojení** — koordinace klinické a forenzní práce;
@@ -276,7 +283,6 @@ Práce s vulnerabilní populací zůstává **oblastí aktivního vývoje**:
 - [Glossary: Epistemická alienace](@/glossary/epistemicka-alienace.md)
 - [Glossary: Dual-use poznání](@/glossary/dual-use-poznani.md)
 - [Glossary: Anankastický režim](@/glossary/anankasticky-rezim.md)
-
 
 ## ⚡ Kritický krok
 

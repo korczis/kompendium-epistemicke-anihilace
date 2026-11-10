@@ -21,24 +21,24 @@ toc = false
 ## Operační modus (3 kroky)
 
 1. Detekce, že debata se blíží k materiálnímu, falsifikujícímu nebo reputačnímu bodu
-2. Vložení atraktivnějšího (afektivně nabitého, kontroverzního, sebe-prezentujícího) tématu — whataboutism, "ale podívejme se na X", anekdota
+2. Vložení atraktivnějšího (afektivně nabitého, kontroverzního, sebe-prezentujícího) tématu — whataboutism, „ale podívejme se na X“, anekdota
 3. Konsolidace přesměrování opakováním a sociálním tlakem, dokud původní bod neztratí trakci a debata se neresetuje na nové ose
 
 ## Detekční markery (3 nejvýraznější)
 
 - Časová korelace — přechod na nové téma nastane vždy v okamžiku konkrétní (nikoli obecné) otázky
-- Diverzní téma je jednostranně výhodné pro stranu, která ho zavádí ("a co...", "vy také..."), nikoli neutrální
-- Zpětný návrat k původní otázce vyvolává odpor a další diverzi ("ale to už jsme probrali / to je vedlejší")
+- Diverzní téma je jednostranně výhodné pro stranu, která ho zavádí („a co…“, „vy také…“), nikoli neutrální
+- Zpětný návrat k původní otázce vyvolává odpor a další diverzi („ale to už jsme probrali / to je vedlejší“)
 
 ## Neutralizační strategie (3 nejúčinnější)
 
 - Strukturovaný protokol — agenda se zapisuje, otázky čekající na odpověď zůstávají na flipchartu, dokud nejsou zodpovězeny
-- Pojmenování ("vraťme se k otázce X, na kterou jsme nedostali odpověď") — meta-úroveň přerušuje vzorec
-- Časový limit per téma + facilitátor s mandátem zastavit diverzi; zápis explicitně označuje "neodpovězeno"
+- Pojmenování („vraťme se k otázce X, na kterou jsme nedostali odpověď“) — meta-úroveň přerušuje vzorec
+- Časový limit per téma + facilitátor s mandátem zastavit diverzi; zápis explicitně označuje „neodpovězeno“
 
 ## Příklad
 
-Při auditu finančního ředitele padne otázka "proč 4 M Kč zmizely z účtu A?". CFO odpoví: "Mimochodem, máte vůbec přehled, jaký je legislativní rámec pro... a víte, že kolegyně Marta měla loni..." Po 20 minutách se na původní otázku zapomnělo. Jediná efektivní obrana: zapsat na flipchart "OTEVŘENO: 4 M Kč, účet A".
+Při auditu finančního ředitele padne otázka „proč 4 M Kč zmizely z účtu A?“. CFO odpoví: „Mimochodem, máte vůbec přehled, jaký je legislativní rámec pro… a víte, že kolegyně Marta měla loni…“ Po 20 minutách se na původní otázku zapomnělo. Jediná efektivní obrana: zapsat na flipchart „OTEVŘENO: 4 M Kč, účet A“.
 
 ## Cross-linky
 

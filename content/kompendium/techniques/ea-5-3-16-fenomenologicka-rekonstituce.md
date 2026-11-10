@@ -123,7 +123,6 @@ Technika **fenomenologická rekonstituce** představuje strukturální výzvu pr
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Husserlova **fenomenologická redukce** (*Ideen I*) — pozastavení přirozeného postoje — je manipulátorem instrumentalizována jako nástroj devalvace pre-manipulační zkušenosti ('to byla naivita'). **Konstituce** (Konstitution) — způsob, jak vědomí konstruuje fenomény — je převedena pod externí program. Merleau-Pontyho **přirozený postoj** ztrácí důvěryhodnost. Heideggerova **alétheia** (odkrývání bytí) je manipulátorem nárokována jako jeho doména. Sartrova **mauvaise foi** (*L'Être et le néant*) je obráceně diagnostikována: autentické pre-manipulační self je označeno za zlou víru, zatímco implantát je 'pravda'. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

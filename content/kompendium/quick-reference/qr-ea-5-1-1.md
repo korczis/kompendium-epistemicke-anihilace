@@ -28,10 +28,10 @@ toc = false
 
 ## Operační modus (5 kroků)
 
-1. **Etablování asymetrické intelektuální blízkosti** — mentorský, terapeutický nebo guru-adept vztah jako "bezpečný prostor" pro sdílení rozpracovaných idejí.
+1. **Etablování asymetrické intelektuální blízkosti** — mentorský, terapeutický nebo guru-adept vztah jako „bezpečný prostor“ pro sdílení rozpracovaných idejí.
 2. **Tichá akumulace produkce** — systematický, často implicitní záznam subjektových formulací, charakteristických metafor a struktur argumentů.
 3. **Reframování a reatribuce** — po temporálním odstupu prezentace subjektovy produkce v upraveném tvaru jako vhled manipulátora; subjekt rozeznává důvěrnost, ale nedokáže lokalizovat původ.
-4. **Kapacitní devalvace zdroje** — paralelní označování subjektovy rané produkce za "nezralou" či "intuitivní bez rigoru", což legitimizuje pohlcení jako "dotvoření".
+4. **Kapacitní devalvace zdroje** — paralelní označování subjektovy rané produkce za „nezralou“ či „intuitivní bez rigoru“, což legitimizuje pohlcení jako „dotvoření“.
 5. **Konsolidace epistemické závislosti** — subjekt přestává důvěřovat vlastním vhledům bez validace manipulátorem a aktivně reprodukuje recyklované verze vlastního myšlení.
 
 ## Fenomenologické znaky

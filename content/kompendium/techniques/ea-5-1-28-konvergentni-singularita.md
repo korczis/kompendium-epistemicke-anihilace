@@ -55,7 +55,7 @@ Konstrukce **jedné odpovědi** (může mít formu propozice, doktríny, autorit
 
 ### Vrstva 3 — Vrstvení redirekčních heuristik
 
-Operátor postupně nainstaluje sadu inferenčních pravidel ("kdykoli si myslíš X, znamená to Y", "skutečný význam každé otázky je Z"), které **přesměrovávají** každou kognitivní trajektorii zpět k atraktoru. Klíčové je, že heuristiky jsou **vrstvené** — pokud subjekt obejde jednu, narazí na další.
+Operátor postupně nainstaluje sadu inferenčních pravidel („kdykoli si myslíš X, znamená to Y“, „skutečný význam každé otázky je Z“), které **přesměrovávají** každou kognitivní trajektorii zpět k atraktoru. Klíčové je, že heuristiky jsou **vrstvené** — pokud subjekt obejde jednu, narazí na další.
 
 ### Vrstva 4 — Eliminace divergentních trajektorií
 
@@ -63,7 +63,7 @@ Systematické posílení averze ([EA-1.4.2](@/kompendium/techniques/ea-1-4-2-lat
 
 ### Vrstva 5 — Konsolidace topologie
 
-Po několika měsících opakování se kognitivní cesty **fixují** — subjektova mysl přestává generovat alternativy spontánně. Topologie přechází z **vícecestné** ("mohu uvažovat různě") na **monotónní** ("vše vede sem"). Tato fáze je strukturálně analogická pevnému bodu v dynamickém systému.
+Po několika měsících opakování se kognitivní cesty **fixují** — subjektova mysl přestává generovat alternativy spontánně. Topologie přechází z **vícecestné** („mohu uvažovat různě“) na **monotónní** („vše vede sem“). Tato fáze je strukturálně analogická pevnému bodu v dynamickém systému.
 
 ### Vrstva 6 — Sebeudržující monotonie
 
@@ -73,13 +73,13 @@ V terminálním stavu subjekt **sám aktivně reprodukuje** konvergenci: každou
 
 Co prožívá subjekt **uvnitř** konvergentní singularity:
 
-- **Pocit hluboké jasnosti** — "konečně všemu rozumím", "všechno do sebe zapadá"
+- **Pocit hluboké jasnosti** — „konečně všemu rozumím“, „všechno do sebe zapadá“
 - **Subjektivní svoboda** — subjekt prožívá své uvažování jako svobodné, navzdory deterministickému výstupu
 - **Estetická závaznost atraktoru** — atraktor působí jako *krásný*, *elegantní*, *jediný možný*
 - **Difúzní úzkost** při představě divergentní odpovědi — i při pokusu o přemýšlení odjinud se objevuje fenomenologický odpor
 - **Snížení kognitivní únavy** — singularita paradoxně **šetří** kognitivní energii (není nutné zvažovat alternativy)
 - **Ztráta zájmu o nové informace** — subjekt vnímá nová data jako *konfirmační*, nikoli jako *informativní*
-- **Pocit "přebývajícího klidu"** — emocionální plochost provázená pocitem dosažené pravdy
+- **Pocit „přebývajícího klidu“** — emocionální plochost provázená pocitem dosažené pravdy
 - **Hermeneutická totalita** ([viz hermeneutika](@/glossary/hermeneutika.md)) — každá situace má **stejný** klíč k interpretaci
 
 ## Detekční markery (pohled pozorovatele)
@@ -149,7 +149,7 @@ Diskuse klíčových závěrů s **alespoň pěti** zdroji z **maximálně rozd�
 
 ### Případ 1 — Anonymizovaný terapeutický kontext
 
-Klient po 4 letech intenzivní práce s jedním terapeutickým rámcem začal vykazovat strukturálně identické interpretace ekonomických rozhodnutí, partnerských konfliktů, profesního růstu i vlastních snů — vše interpretováno jako "manifestace" jediného hlubokého motivu. Detekce: druhý terapeut konsultován v rámci supervize zjistil **úplnou absenci** jiných hypotéz. Intervence: 18měsíční pluralizační program s expozicí třem alternativním rámcům.
+Klient po 4 letech intenzivní práce s jedním terapeutickým rámcem začal vykazovat strukturálně identické interpretace ekonomických rozhodnutí, partnerských konfliktů, profesního růstu i vlastních snů — vše interpretováno jako „manifestace“ jediného hlubokého motivu. Detekce: druhý terapeut konsultován v rámci supervize zjistil **úplnou absenci** jiných hypotéz. Intervence: 18měsíční pluralizační program s expozicí třem alternativním rámcům.
 
 ### Případ 2 — Korporátní strategická monokultura
 
@@ -166,7 +166,7 @@ Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signa
 - **[EA-5.1.29 Ontologická exfoliace](@/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md)** — sesterská technika; exfoliace připraví terén odstraněním konkurenčních ontologických závazků, singularita pak vyplní vakuum jediným atraktorem.
 - **[EA-5.1.30 Konceptuální entropie](@/kompendium/techniques/ea-5-1-30-konceptualni-entropie.md)** — entropie destruuje stávající kognitivní strukturu; singularita ji nahrazuje monotónní strukturou. Sekvence E→S je standardní ultramari postup.
 - **[EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)** — falešné dilema je *prekursorová* technika: redukce z N na 2 trajektorie. Singularita je její terminální generalizací (redukce z N na 1).
-- **[EA-1.6.1 Vzorec "Guru a adept"](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)** — guru-figure často slouží jako personifikovaný atraktor.
+- **[EA-1.6.1 Vzorec „Guru a adept“](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)** — guru-figure často slouží jako personifikovaný atraktor.
 
 ### Eskaluje do
 
@@ -208,7 +208,6 @@ Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signa
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

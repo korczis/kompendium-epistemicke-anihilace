@@ -123,19 +123,23 @@ kde je monitorovací funkce narušena.
 ## Související
 
 **Navazující scénáře**
+
 - [Rozpoznání kognitivních zkreslení](@/kompendium/educational-scenarios/2-cognitive-bias-recognition.md) – zkreslení, která revize odhaluje.
 - [Design falsifikace](@/kompendium/educational-scenarios/6-falsification-design.md) – kritéria vyvrácení v deníku.
 - [Metakognitivní kolaps](@/kompendium/educational-scenarios/24-metacognitive-collapse.md) – když monitorovací funkce selže.
 
 **Techniky a signatury**
+
 - [EA-3.1.3 Metakognitivní kultivace](@/kompendium/techniques/ea-3-1-3-metacognitive-cultivation.md) – systematický rozvoj metakognice.
 - [Epistemická kalibrace](@/kompendium/detection-signatures/epistemicka-kalibrace.md) – měření souladu jistoty a přesnosti.
 
 **Sebe-obrana**
+
 - [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) – průběžné sledování úsudku.
 - [Revize přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md) – jak měnit názor bez ztráty stability.
 
 **Glosář**
+
 - [Metakognitivní deficit](@/glossary/metakognitivni-deficit.md) – klinická podoba narušení.
 - [Epistemická pokora](@/glossary/epistemicka-pokora.md) – postoj, který kalibraci umožňuje.
 

@@ -180,15 +180,88 @@ Detailní popis notace viz [Klasifikační schéma](@/kompendium/08-prilohy/klas
 
 ---
 
-## Kapitola 7 — Teoretické reflexe (placeholder)
+## Kapitola 7 — Teoretické reflexe
 
-> **Filozofické a interdisciplinární implikace.** Plný popis v [Sekci 07](@/kompendium/07-teoreticke-reflexe/_index.md).
+> **Filozofické, epistemologické a kognitivně-vědní zázemí taxonomie.** Kapitola 7 neobsahuje techniky v užším smyslu: kódy `EA-7.*` označují teoretické rámce, jimiž se jevy z kapitol 1–5 vysvětlují, kriticky prověřují a zasazují do dějin myšlení. Rozcestník kapitoly je [Sekce 07](@/kompendium/07-teoreticke-reflexe/_index.md), přehled tradic podle oborů [Filozofické tradice](@/kompendium/07-teoreticke-reflexe/filozoficke-tradice/_index.md), grafický přehled [mapa teoretických rámců](@/kompendium/07-teoreticke-reflexe/visualizations.md).
 
-| Kód | Název | Stav |
-|-----|-------|------|
-| `EA-7.1.1` | Epistemická anihilace v 21. století | Příprava |
-| `EA-7.2.1` | Vztah k AI a algoritmické manipulaci | Příprava |
-| `EA-7.3.1` | Kolektivní epistemická bezpečnost | Příprava |
+### 7.A Kódované teoretické rámce `EA-7.*`
+
+Třicet hesel ve třech skupinách. Každé popisuje myšlenku autora, to, co z ní plyne pro rozpoznání epistemické anihilace, a meze jejího použití.
+
+#### EA-7.1 Kontinentální filozofie a kritická teorie
+
+| Kód | Název | Jednořádkový popis |
+|-----|-------|--------------------|
+| [`EA-7.1.1`](@/kompendium/techniques/ea-7-1-1-foucault-power-knowledge.md) | Foucault: moc a vědění | Vědění a moc se vzájemně podmiňují; kdo určuje, co platí za pravdu, ovládá i prostor možného poznání. |
+| [`EA-7.1.2`](@/kompendium/techniques/ea-7-1-2-foucault-discipline.md) | Foucault: Dohlížet a trestat | Disciplinární instituce formují subjekt dohledem a normalizací; rámec pro totalitní prostředí. |
+| [`EA-7.1.3`](@/kompendium/techniques/ea-7-1-3-adorno-instrumental-reason.md) | Adorno: instrumentální rozum | Rozum zúžený na prostředek k cíli ztrácí schopnost ptát se po cílech samých. |
+| [`EA-7.1.4`](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md) | Habermas: komunikativní jednání | Měřítko nezkreslené komunikace, proti němuž se dá popsat strategické zkreslení rozhovoru. |
+| [`EA-7.1.5`](@/kompendium/techniques/ea-7-1-5-arendt-banality-evil.md) | Arendtová: banalita zla | Zlo vykonané bez myšlení a úsudku; selhání úsudku jako společný jmenovatel. |
+| [`EA-7.1.6`](@/kompendium/techniques/ea-7-1-6-sloterdijk-spheres.md) | Sloterdijk: sféry | Člověk žije ve sdílených „bublinách“ smyslu; jejich uzavření je předpoklad epistemické izolace. |
+| [`EA-7.1.7`](@/kompendium/techniques/ea-7-1-7-deleuze-rhizome.md) | Deleuze a Guattari: rhizom | Necentrovaná síť vztahů jako model decentralizovaných a těžko dohledatelných vlivů. |
+| [`EA-7.1.8`](@/kompendium/techniques/ea-7-1-8-derrida-deconstruction.md) | Derrida: dekonstrukce | Rozbor nestability významu; hranice mezi kritickým čtením a rozkladem smyslu. |
+| [`EA-7.1.9`](@/kompendium/techniques/ea-7-1-9-heidegger-dasein.md) | Heidegger: pobyt (Dasein) | Bytí-ve-světě a starost; co se ztrácí, když je člověku vzat jeho svět. |
+| [`EA-7.1.10`](@/kompendium/techniques/ea-7-1-10-merleau-ponty-embodiment.md) | Merleau-Ponty: vtělenost | Vnímání je tělesné; teoretický základ somatických vrstev technik a tělesně zaměřené obnovy. |
+
+#### EA-7.2 Epistemologie a filozofie vědy
+
+| Kód | Název | Jednořádkový popis |
+|-----|-------|--------------------|
+| [`EA-7.2.1`](@/kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md) | Fricker: epistemická nespravedlnost | Svědectví a hermeneutická nespravedlnost: člověku se nevěří, nebo chybí pojmy pro jeho zkušenost. |
+| [`EA-7.2.2`](@/kompendium/techniques/ea-7-2-2-goldman-veritism.md) | Goldman: veritismus | Sociální praxe se hodnotí podle toho, zda zvyšují podíl pravdivých přesvědčení. |
+| [`EA-7.2.3`](@/kompendium/techniques/ea-7-2-3-popper-falsification.md) | Popper: falsifikace | Teorie, kterou nic nemůže vyvrátit, není poznáním; měřítko pro imunizované doktríny. |
+| [`EA-7.2.4`](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md) | Lakatos: výzkumný program | Tvrdé jádro a ochranný pás; rozlišení progresivního a degenerujícího programu. |
+| [`EA-7.2.5`](@/kompendium/techniques/ea-7-2-5-kuhn-paradigm-shift.md) | Kuhn: změna paradigmatu | Paradigmata určují, co se vidí jako problém; „konverze“ a její zneužití. |
+| [`EA-7.2.6`](@/kompendium/techniques/ea-7-2-6-feyerabend-anti-method.md) | Feyerabend: proti metodě | Kritika jediné metody; zároveň argument, jímž se dá relativizovat jakákoli kontrola. |
+| [`EA-7.2.7`](@/kompendium/techniques/ea-7-2-7-quine-web-belief.md) | Quine: síť přesvědčení | Přesvědčení tvoří celek; změna v jádru sítě se šíří do všech okrajů. |
+| [`EA-7.2.8`](@/kompendium/techniques/ea-7-2-8-davidson-charity.md) | Davidson: princip vstřícnosti | Porozumění předpokládá, že druhý má většinou pravdivá přesvědčení; kdy se princip zneužívá. |
+| [`EA-7.2.9`](@/kompendium/techniques/ea-7-2-9-williams-truthfulness.md) | Williams: pravdivost | Ctnosti přesnosti a upřímnosti jako podmínka společného poznání. |
+| [`EA-7.2.10`](@/kompendium/techniques/ea-7-2-10-nagel-view-from-nowhere.md) | Nagel: pohled odnikud | Napětí mezi objektivním a subjektivním pohledem; riziko „objektivity“ bez subjektu. |
+
+#### EA-7.3 Kognitivní věda a teorie vědomí
+
+| Kód | Název | Jednořádkový popis |
+|-----|-------|--------------------|
+| [`EA-7.3.1`](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) | Kahneman: Systém 1 a 2 | Rychlé intuitivní a pomalé reflexivní myšlení; proč tlak a únava oslabují kontrolu úsudku. |
+| [`EA-7.3.2`](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) | Tversky a Kahneman: heuristiky | Systematické zkreslení úsudku za nejistoty; základ katalogu kognitivních biasů. |
+| [`EA-7.3.3`](@/kompendium/techniques/ea-7-3-3-friston-active-inference.md) | Friston: aktivní inference | Mozek minimalizuje predikční chybu; kontrolované prostředí přepisuje očekávání. |
+| [`EA-7.3.4`](@/kompendium/techniques/ea-7-3-4-clark-extended-mind.md) | Clark: rozšířená mysl | Kognice zahrnuje nástroje a druhé lidi; kdo ovládá vnější opory, zasahuje do myšlení. |
+| [`EA-7.3.5`](@/kompendium/techniques/ea-7-3-5-metzinger-ego-tunnel.md) | Metzinger: ego-tunel | Já jako fenomenální model sebe; teoretický rámec poruch prožitku já. |
+| [`EA-7.3.6`](@/kompendium/techniques/ea-7-3-6-thompson-mind-life.md) | Thompson: mysl v životě | Kontinuita života a mysli; enaktivní pohled na smysl a sebe-udržování. |
+| [`EA-7.3.7`](@/kompendium/techniques/ea-7-3-7-dennett-intentional-stance.md) | Dennett: intenční postoj | Připisování přesvědčení a záměrů jako interpretační strategie a její omyly. |
+| [`EA-7.3.8`](@/kompendium/techniques/ea-7-3-8-chalmers-hard-problem.md) | Chalmers: těžký problém | Proč prožitek nelze odvodit z funkce; meze redukce subjektivity na chování. |
+| [`EA-7.3.9`](@/kompendium/techniques/ea-7-3-9-dehaene-consciousness.md) | Dehaene: globální pracovní prostor | Vědomý přístup jako sdílení informace napříč mozkem; co znamená zahlcení pozornosti. |
+| [`EA-7.3.10`](@/kompendium/techniques/ea-7-3-10-tononi-iit.md) | Tononi: teorie integrované informace | Vědomí jako integrovaná informace; teoretický, empiricky sporný rámec. |
+
+### 7.B Tematické kapitoly 7.1–7.9
+
+| Č. | Kapitola | Co řeší |
+|----|----------|---------|
+| 7.1 | [Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md) | Foucault, Adorno, Sloterdijk a Habermas jako čtyři optiky moci, rozumu a komunikace. |
+| 7.2 | [Vztah k epistemickému traumatu](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md) | Empirická psychotraumatologie: komplexní trauma, trauma ze zrady, disociace. |
+| 7.3 | [Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) | Svědectví, důvěra a epistemická nespravedlnost (Goldman, Fricker, Longino, Anderson). |
+| 7.4 | [EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md) | Lyotard, Baudrillard, Derrida: kde kritika metanarativů končí a začíná rozklad poznání. |
+| 7.5 | [Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) | Duální systém, prediktivní zpracování, vtělená kognice jako vysvětlení zranitelnosti. |
+| 7.6 | [Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md) | Formální modely přesvědčení a jejich vztah k platformě. |
+| 7.7 | [EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) | Algoritmy, generativní modely a *deepfakes* jako nové prostředí starých vzorců. |
+| 7.8 | [Politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) | Totalitní systémy, propaganda a populismus jako kolektivní rovina jevu. |
+| 7.9 | [Otevřené výzkumné otázky](@/kompendium/07-teoreticke-reflexe/otevrene-otazky.md) | Co taxonomie zatím neumí vysvětlit nebo změřit. |
+
+### 7.C Monografické kapitoly 7.10–7.59
+
+| Skupina | Kapitoly |
+|---------|----------|
+| Jazyk, věda a tiché vědění (7.10–7.13) | [7.10 Wittgenstein](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md) · [7.11 Kuhn](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md) · [7.12 Feyerabend](@/kompendium/07-teoreticke-reflexe/feyerabend-anti-method.md) · [7.13 Polanyi](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md) |
+| Fenomenologie a existence (7.14–7.17) | [7.14 Heidegger](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md) · [7.15 Sartre](@/kompendium/07-teoreticke-reflexe/sartre-existencialismus.md) · [7.16 Merleau-Ponty](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md) · [7.17 Ricoeur](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md) |
+| Úsudek, druhý a uznání (7.18–7.22) | [7.18 Arendtová: banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md) · [7.19 Arendtová: myšlení](@/kompendium/07-teoreticke-reflexe/hannah-arendt-myslení.md) · [7.20 Levinas](@/kompendium/07-teoreticke-reflexe/levinas-jiny.md) · [7.21 Butlerová](@/kompendium/07-teoreticke-reflexe/butler-performative.md) · [7.22 Honneth](@/kompendium/07-teoreticke-reflexe/honneth-rozpoznani.md) |
+| Význam, interpretace a pravda (7.23–7.30) | [7.23 Brandom](@/kompendium/07-teoreticke-reflexe/brandom-inferential-semantics.md) · [7.24 McDowell](@/kompendium/07-teoreticke-reflexe/mcDowell-mind-and-world.md) · [7.25 Davidson](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md) · [7.26 Quine](@/kompendium/07-teoreticke-reflexe/quine-web-of-belief.md) · [7.27 Putnam](@/kompendium/07-teoreticke-reflexe/putnam-internal-realism.md) · [7.28 Rorty](@/kompendium/07-teoreticke-reflexe/rorty-contingency.md) · [7.29 Nagel](@/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere.md) · [7.30 Williams](@/kompendium/07-teoreticke-reflexe/williams-truth-and-truthfulness.md) |
+| Morální jazyk, identita a rozkvět (7.31–7.34) | [7.31 MacIntyre](@/kompendium/07-teoreticke-reflexe/macintyre-after-virtue.md) · [7.32 Taylor](@/kompendium/07-teoreticke-reflexe/taylor-sources-of-self.md) · [7.33 Nussbaumová](@/kompendium/07-teoreticke-reflexe/nussbaum-capabilities.md) · [7.34 Sen](@/kompendium/07-teoreticke-reflexe/sen-development-as-freedom.md) |
+| Mysl a vědomí (7.35–7.40) | [7.35 Dennett](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md) · [7.36 Searle](@/kompendium/07-teoreticke-reflexe/searle-chinese-room.md) · [7.37 Chalmers](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md) · [7.38 Block](@/kompendium/07-teoreticke-reflexe/block-phenomenal-vs-access.md) · [7.39 Tononi](@/kompendium/07-teoreticke-reflexe/tononi-iit.md) · [7.40 Friston](@/kompendium/07-teoreticke-reflexe/friston-active-inference.md) |
+| Vtělená, rozšířená a distribuovaná kognice (7.41–7.49) | [7.41 Clark: rozšířená mysl](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md) · [7.42 Metzinger](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md) · [7.43 Thompson](@/kompendium/07-teoreticke-reflexe/thompson-mind-in-life.md) · [7.44 Varela](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md) · [7.45 Damasio](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md) · [7.46 Lakoff](@/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md) · [7.47 Johnson](@/kompendium/07-teoreticke-reflexe/johnson-body-in-mind.md) · [7.48 Hutchins](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md) · [7.49 Clark: Natural-Born Cyborgs](@/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs.md) |
+| Kulturní evoluce a narativ (7.50–7.53) | [7.50 Dawkins](@/kompendium/07-teoreticke-reflexe/dawkins-meme.md) · [7.51 Dennett: From Bacteria to Bach](@/kompendium/07-teoreticke-reflexe/dennett-from-bacteria-to-bach.md) · [7.52 Harari](@/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ.md) · [7.53 Snyder](@/kompendium/07-teoreticke-reflexe/snyder-tyranny-essays.md) |
+| Média, propaganda a infosféra (7.54–7.59) | [7.54 Chomsky](@/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent.md) · [7.55 Herman a Chomsky](@/kompendium/07-teoreticke-reflexe/herman-chomsky-propaganda-model.md) · [7.56 Zuboffová](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md) · [7.57 boyd](@/kompendium/07-teoreticke-reflexe/boyd-disinformation-age.md) · [7.58 Wardleová](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md) · [7.59 Floridi](@/kompendium/07-teoreticke-reflexe/floridi-fourth-revolution.md) |
+
+> **Vztah obou řad**: kódovaná hesla `EA-7.*` jsou krátká a slouží jako uzly sítě technik; monografické kapitoly 7.10–7.59 stejné myšlenky rozvádějí v plné šíři. Kde existují obě (např. Kuhn, Feyerabend, Quine, Davidson, Williams, Nagel, Friston, Clark, Metzinger, Thompson, Dennett, Chalmers, Tononi), čtěte nejprve heslo a pak kapitolu.
 
 ---
 
@@ -228,7 +301,6 @@ Master rejstřík je propojen s běžícími systémy:
 - [Color Teams](@/glossary/color-teams.md) — Red Team scénáře čerpají z této taxonomie.
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — kalibrace důvěry využívá EA kódy jako negativní signály.
 - [3NL architektura](@/glossary/three-nested-loops.md) — L1 (logika) ↔ L2 (neurální) ↔ L3 (lingvistika) mapuje kapitoly 1–5 podle dominantní vrstvy.
-
 
 ## ⚡ Kritický krok
 

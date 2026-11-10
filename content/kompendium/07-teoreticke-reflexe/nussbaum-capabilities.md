@@ -75,7 +75,7 @@ Narativní představivost je strukturálně **vázána** na:
 
 Pro EA má narativní představivost **klíčový význam**:
 
-- **Útok na narativní představivost**: ekonomicky orientované vzdělávací reformy ("not for profit"), jež **eliminují** humanity disciplíny, strukturálně **anihilují** schopnost vidět **druhého jako subjekt**.
+- **Útok na narativní představivost**: ekonomicky orientované vzdělávací reformy („not for profit“), jež **eliminují** humanity disciplíny, strukturálně **anihilují** schopnost vidět **druhého jako subjekt**.
 - **Algoritmická redukce narativní představivosti**: digital media strukturálně **upřednostňují** krátké, viscerální obsahy nad **dlouhými, komplexními** narativy.
 - **Counter-EA**: posílení humanity vzdělávání jako strukturální rezilience.
 
@@ -83,7 +83,7 @@ Pro EA má narativní představivost **klíčový význam**:
 
 Capabilities approach má **politickou** dimenzi:
 
-- **Sociální spravedlnost** se měří **schopnostmi**, nikoli pouze "ekonomickými indikátory" (HDP)
+- **Sociální spravedlnost** se měří **schopnostmi**, nikoli pouze „ekonomickými indikátory“ (HDP)
 - **Lidská práva** jsou strukturálně **vázána** na **kapacitální fundamenty**
 - **Rozvojová politika** se má orientovat na **schopnosti**, nikoli pouze na **růst**
 
@@ -120,7 +120,7 @@ Pro EA z toho plyne:
 Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Capabilities-based assessment**: hodnocení pacienta podle **schopností**, nikoli pouze symptomů.
-- **Klinický cíl**: restituce kapacit, nikoli pouze "stabilizace".
+- **Klinický cíl**: restituce kapacit, nikoli pouze „stabilizace“.
 - **Narativní terapie** ([Ricoeur, viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)) operuje strukturálně na nussbaumovské narativní představivosti.
 
 ## 8. Primární literatura

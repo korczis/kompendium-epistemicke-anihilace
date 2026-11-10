@@ -64,19 +64,19 @@ V této fázi je centrální strukturální mechanismus: subjekt je donucen voli
 
 S oslabeným synchronním role-setem je atakována diachronní vrstva — autobiografická paměť. Mechanismy:
 
-- **Selektivní reinterpretace** — vybrané životní události jsou opakovaně přerámcovány v destruktivním klíči ("ve skutečnosti to znamenalo, že...").
+- **Selektivní reinterpretace** — vybrané životní události jsou opakovaně přerámcovány v destruktivním klíči („ve skutečnosti to znamenalo, že…“).
 - **Kontradiktorní svědectví** — třetí osoby přinášejí svědectví neslučitelné s vlastní vzpomínkou subjektu.
 - **Forced confabulation** — subjekt je doveden k vyplňování vzpomínkových mezer, přičemž vyplnění je následně traktováno jako pravdivá vzpomínka — strukturálně blízké formám [gaslightingu](@/glossary/gaslighting.md) a induced false memory.
-- **Symbolický předěl** — subjektu je předložen symbolický akt, kterým se "rozchází se starou identitou" (rituální gesto, prohlášení, deník).
+- **Symbolický předěl** — subjektu je předložen symbolický akt, kterým se „rozchází se starou identitou“ (rituální gesto, prohlášení, deník).
 
-V této fázi subjekt typicky vstupuje do stavu, ve kterém **autobiografická kontinuita je pociťována jako napadnutelná** — vzpomínky se zdají pochybné, méně reálné, méně "vlastní" než externí svědectví.
+V této fázi subjekt typicky vstupuje do stavu, ve kterém **autobiografická kontinuita je pociťována jako napadnutelná** — vzpomínky se zdají pochybné, méně reálné, méně „vlastní“ než externí svědectví.
 
 ### Fáze I4 — reflexivní kolaps
 
 Při dostatečně narušených synchronních a diachronních vrstvách subjekt vstupuje do reflexivního kolapsu: ztrácí přístup k samotnému aktu sebe-poznání. Tento stav má následující markery:
 
-- depersonalizace ("nejsem si jistý, jestli to dělám já"),
-- derealizace ("nejsem si jistý, jestli je toto skutečné"),
+- depersonalizace („nejsem si jistý, jestli to dělám já“),
+- derealizace („nejsem si jistý, jestli je toto skutečné“),
 - ztráta self-correctingu ([kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)),
 - akceptace externí autority pro definici Já,
 - často: somatický kolaps nebo akutní disociace.
@@ -165,7 +165,6 @@ Při detekci pravděpodobného aktivního protokolu je etická povinnost klinick
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
 - Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
 - Platforma: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} · [NABLA Infinity](@/glossary/nabla-infinity.md) · [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

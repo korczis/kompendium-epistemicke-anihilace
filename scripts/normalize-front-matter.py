@@ -193,6 +193,13 @@ def normalise(text: str, is_section: bool = False):
 
 
 def main() -> int:
+    if any(a in ("-h", "--help") for a in sys.argv[1:]):
+        print(__doc__.strip())
+        return 0
+    unknown = [a for a in sys.argv[1:] if a.startswith("-") and a != "--check"]
+    if unknown:
+        print(f"normalize-front-matter: unknown option {unknown[0]}; see --help", file=sys.stderr)
+        return 2
     args = [a for a in sys.argv[1:] if a != "--check"]
     check = "--check" in sys.argv[1:]
     paths = []

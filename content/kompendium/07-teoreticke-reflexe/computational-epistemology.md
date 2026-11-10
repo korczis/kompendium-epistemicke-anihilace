@@ -31,12 +31,12 @@ Klíčové průkopnické práce:
 
 - **Goldman, *Epistemology and Cognition* (1986)** — Reliabilismus jako most mezi normativní epistemologií a kognitivní vědou.
 - **Thagard, *Computational Philosophy of Science* (1988)** — Algoritmické modely vědeckého objevu, vysvětlení, koncepční změny.
-- **Floridi, *The Philosophy of Information* (2011)** — Informace jako fundamentální ontologická a epistemologická kategorie; "fourth revolution" (Turing) v lidském sebe-porozumění.
+- **Floridi, *The Philosophy of Information* (2011)** — Informace jako fundamentální ontologická a epistemologická kategorie; „fourth revolution“ (Turing) v lidském sebe-porozumění.
 - **Pearl, *Causality* (2000) / *The Book of Why* (2018)** — Formální modely kauzální inference, do-calculus, counterfactual reasoning.
 
 ### Floridiho informační etika
 
-Luciano Floridi rozšiřuje computational epistemology do **informační etiky**: pokud jsou epistemické subjekty informacemi v silném ontologickém smyslu (informational organisms, "inforgs"), pak manipulace informací je **manipulací ontologického statusu** subjektu. [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) v tomto rámci není pouze deformací poznání, ale **redukcí ontologické integrity** subjektu.
+Luciano Floridi rozšiřuje computational epistemology do **informační etiky**: pokud jsou epistemické subjekty informacemi v silném ontologickém smyslu (informational organisms, „inforgs“), pak manipulace informací je **manipulací ontologického statusu** subjektu. [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) v tomto rámci není pouze deformací poznání, ale **redukcí ontologické integrity** subjektu.
 
 Floridi rozlišuje čtyři úrovně informačních patologií:
 
@@ -102,7 +102,7 @@ NABLA architektura je strukturována sedmi axiomy. Pro účely této kapitoly js
 
 **Axiom 2: Contradiction Preservation** — Detekované kontradikce nelze tiše rezolvovat; musí být zaznamenány a reflektovány.
 
-**Axiom 4: Time Decay** — Důvěryhodnost informace je funkcí jejího stáří. Stará data automaticky ztrácejí *precision weighting* v aktivní inferenci, čímž jsou systémově chráněna proti zneužití zastaralých zdrojů jako "evergreen evidence".
+**Axiom 4: Time Decay** — Důvěryhodnost informace je funkcí jejího stáří. Stará data automaticky ztrácejí *precision weighting* v aktivní inferenci, čímž jsou systémově chráněna proti zneužití zastaralých zdrojů jako „evergreen evidence“.
 
 **Axiom 7: Provenance Mandatory** — Každá informace v systému musí mít dohledatelný původ. Tento axiom realizuje princip **epistemické audit-ability**.
 
@@ -187,7 +187,6 @@ Souběžně tato izomorfie odhaluje **gradient kategorií** v taxonomii: nejniž
 - [Glosář: Gaslighting](@/glossary/gaslighting.md)
 - [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
 - [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
-
 
 ## ⚡ Kritický krok
 

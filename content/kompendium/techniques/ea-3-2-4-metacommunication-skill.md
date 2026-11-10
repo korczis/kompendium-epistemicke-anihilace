@@ -45,7 +45,7 @@ Technika je strukturována pěti až šesti sekvenčními kroky implementace:
 
 1. **Pattern detection** — supervizor sleduje proces (tempo, vyhýbání, opakování).
 2. **Hypothesis formation** — interní hypotéza o procesním vzorci.
-3. **Tentative naming** — explicitní pojmenování s osvobozující formulací (*„zvažte..."* spíše než *„vy..."*).
+3. **Tentative naming** — explicitní pojmenování s osvobozující formulací (*„zvažte…„* spíše než *„vy…“*).
 4. **Student response holding** — supervizor drží prostor pro studentovu reakci bez tlaku.
 5. **Process integration** — výsledek metakomunikace integrován do dalšího postupu.
 

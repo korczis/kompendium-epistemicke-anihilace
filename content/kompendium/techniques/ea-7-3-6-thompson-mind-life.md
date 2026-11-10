@@ -52,7 +52,7 @@ Tyto pojmy nejsou v EA použity přímo jako názvy technik, ale tvoří **rastr
 
 Pozice **Thompson** vnáší do EA tři operativní příspěvky:
 
-- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *"něco se tu děje, ale nevíme co"*.
+- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *„něco se tu děje, ale nevíme co“*.
 - **Hloubka rámce**: ukazuje, že manipulace často není individuální akt, nýbrž **strukturální efekt** vyšší vrstvy (diskurzní, institucionální, biologické).
 - **Etická pojistka**: brání tomu, aby EA degenerovala v techniku oboustranné aplikace bez reflexe — tj. aby se z obranného nástroje stala nová manipulační šablona.
 

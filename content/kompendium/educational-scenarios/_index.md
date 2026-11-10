@@ -92,16 +92,19 @@ jednotlivě, ale pokročilé předpokládají znalost základních.
 ## Související
 
 **Výcvikový rámec**
+
 - [EA-3.1.6 Recognition trénink](@/kompendium/techniques/ea-3-1-6-recognition-training.md) – principy, na nichž scénáře stojí.
 - [EA-3.1.1 Graduální expozice](@/kompendium/techniques/ea-3-1-1-graduated-exposure-design.md) – proč řada postupuje od jednoduchého ke složitému.
 - [3.3 Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) – výukový kontext v hlavním textu.
 
 **Nástroje k dispozici během cvičení**
+
 - [Detekční signatury](@/kompendium/detection-signatures/_index.md) – katalog markerů.
 - [Praktické návody sebe-obrany](@/kompendium/self-defense-guides/_index.md) – postupy pro jednotlivce.
 - [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md) – zotavení.
 
 **Prevence a kritika**
+
 - [Kurikulum kritického myšlení](@/kompendium/prevention-resilience/8-critical-thinking-curriculum.md) – zařazení do širšího vzdělávání.
 - [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md) – proč scénáře trénují i opatrnost.
 - [Case Studies](@/kompendium/case-studies/_index.md) – anonymizované případy pro rozšiřující úkoly.

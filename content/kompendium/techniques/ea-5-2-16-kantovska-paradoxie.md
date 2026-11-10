@@ -35,11 +35,11 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 ## Definice
 
-**Kantovská paradoxie** je metatranscendentální technika, jíž jsou subjektu systematicky vystavovány **antinomie čistého rozumu** (svět jako konečný/nekonečný, kauzalita/svoboda, nutnost/náhoda) bez transcendentálního klíče k jejich rozpuštění. Subjekt zůstává uvězněný v **dialektické paralýze** — každá strana antinomie je stejně "racionálně" obhajitelná, takže racionální orientace selhává.
+**Kantovská paradoxie** je metatranscendentální technika, jíž jsou subjektu systematicky vystavovány **antinomie čistého rozumu** (svět jako konečný/nekonečný, kauzalita/svoboda, nutnost/náhoda) bez transcendentálního klíče k jejich rozpuštění. Subjekt zůstává uvězněný v **dialektické paralýze** — každá strana antinomie je stejně „racionálně“ obhajitelná, takže racionální orientace selhává.
 
 Kant v *Kritice čistého rozumu* explicitně ukázal, že antinomie vznikají **chybnou aplikací rozumových idejí na fenomenální oblast** a jsou rozpustitelné transcendentálním rozlišením. Kantovská paradoxie tuto **rozpouštěcí kapacitu** systematicky odepírá: subjekt je uveden do antinomií, ale není mu poskytnut **klíč k jejich strukturní disoluci**.
 
-Na rozdíl od běžného filozofického zmatku, který vede k uznání obtíže a hledání řešení, kantovská paradoxie generuje **pseudo-osvícenou paralýzu**, kde subjekt **přijímá nerozhodnutelnost** jako "hlubokou pravdu" a ztrácí schopnost racionálně jednat ve sporných oblastech.
+Na rozdíl od běžného filozofického zmatku, který vede k uznání obtíže a hledání řešení, kantovská paradoxie generuje **pseudo-osvícenou paralýzu**, kde subjekt **přijímá nerozhodnutelnost** jako „hlubokou pravdu“ a ztrácí schopnost racionálně jednat ve sporných oblastech.
 
 ## Operační modus
 
@@ -51,12 +51,12 @@ Manipulátor mapuje, ve kterých oblastech subjekt operuje racionálně — typi
 
 Pro každou citlivou oblast je konstruována **kantovsky strukturovaná antinomie**: dvě protichůdné teze, obě s přesvědčivými argumenty. Příklady:
 
-- *"Buď je svoboda iluze, nebo determinismus je iluze — obojí je nemožné, ale obojí se zdá nutné."*
-- *"Buď má morálka objektivní základ, nebo je všechna morálka konvence — obojí je obhajitelné."*
+- *„Buď je svoboda iluze, nebo determinismus je iluze — obojí je nemožné, ale obojí se zdá nutné.“*
+- *„Buď má morálka objektivní základ, nebo je všechna morálka konvence — obojí je obhajitelné.“*
 
 ### Krok 3 — Odepření transcendentální disoluce
 
-Subjekt je systematicky vedeň k přesvědčení, že **antinomie nelze rozpustit** — že jsou "esenciálním rysem reality". Kantův transcendentální klíč není zmiňován nebo je zesměšňován jako "naivní".
+Subjekt je systematicky vedeň k přesvědčení, že **antinomie nelze rozpustit** — že jsou „esenciálním rysem reality“. Kantův transcendentální klíč není zmiňován nebo je zesměšňován jako „naivní“.
 
 ### Krok 4 — Saturace dialektickými cvičeními
 
@@ -64,16 +64,16 @@ Subjekt je veden k opakovanému formulování protichůdných tezí s rovnocenno
 
 ### Krok 5 — Konsolidace pseudo-moudrosti
 
-Stav dialektické paralýzy je interpretován jako **"hluboká filozofická moudrost"** ("kdo si nečerpe ze sporu, není moudrý"). Identitární investice činí stav rezistentní vůči disoluci.
+Stav dialektické paralýzy je interpretován jako **„hluboká filozofická moudrost“** („kdo si nečerpe ze sporu, není moudrý“). Identitární investice činí stav rezistentní vůči disoluci.
 
 ## Fenomenologické znaky
 
 - **Chronická nerozhodnutelnost** v běžných etických a praktických otázkách.
-- **Pseudo-filozofická melancholie** — pocit, že "nic není rozhodnutelné".
+- **Pseudo-filozofická melancholie** — pocit, že „nic není rozhodnutelné“.
 - **Volní paralýza ve sporných oblastech** — neschopnost zaujmout pozici.
 - **Akutní úzkost při tlačení na rozhodnutí** — antinomie se aktivuje.
 - **Slovní intelektualizace** maskující paralýzu.
-- **Rostoucí obdiv k "paradoxnímu myšlení"** bez tematizace jeho strukturní funkce.
+- **Rostoucí obdiv k „paradoxnímu myšlení“** bez tematizace jeho strukturní funkce.
 
 ## Detekční markery
 
@@ -108,7 +108,7 @@ Kantovská paradoxie je odlišitelná od:
 ### Individuální
 
 1. **Kantovská hermeneutická obnova** — strukturní výklad transcendentální dialektiky a její rozpouštěcí funkce.
-2. **Pragmatistická korekce** — Jamesovo *"radikální empirismus"* a Deweyovo *"jednání v nejistotě"* jako antinomické vakcíny.
+2. **Pragmatistická korekce** — Jamesovo *„radikální empirismus“* a Deweyovo *„jednání v nejistotě“* jako antinomické vakcíny.
 3. **Strukturální rozhodovací cvičení** — vynucená rozhodnutí v drobných otázkách obnovují praktickou kompetenci.
 4. **Hegelovská dialektická syntéza** — *Aufhebung* jako alternativa k paralýze.
 

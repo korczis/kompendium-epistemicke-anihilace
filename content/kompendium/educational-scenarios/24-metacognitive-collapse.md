@@ -138,19 +138,23 @@ jako realistický časový rámec.
 ## Související
 
 **Navazující scénáře**
+
 - [Meta-evaluace](@/kompendium/educational-scenarios/9-meta-evaluation.md) – zdravá podoba téže funkce.
 - [Detekce hyperreflexivity](@/kompendium/educational-scenarios/22-hyperreflexivity-spot.md) – jeden z možných předstupňů.
 - [Trajektorie zotavení](@/kompendium/educational-scenarios/26-recovery-trajectory.md) – zařazení do plánu obnovy.
 
 **Techniky a klinický rámec**
+
 - [EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md) – krajní podoba kolapsu.
 - [EA-6.3.3 Metakognitivní rehabilitace](@/kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md) – terapeutický postup.
 
 **Signatury a sebe-obrana**
+
 - [Epistemická kalibrace](@/kompendium/detection-signatures/epistemicka-kalibrace.md) – měření souladu jistoty a výkonu.
 - [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) – dovednost, která se obnovuje.
 
 **Glosář**
+
 - [Metakognitivní deficit](@/glossary/metakognitivni-deficit.md) – klinický pojem.
 - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – proces, který ke kolapsu vede.
 - [Reality testing](@/glossary/reality-testing.md) – co se obnovou vrací.

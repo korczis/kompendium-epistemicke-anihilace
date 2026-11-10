@@ -261,7 +261,6 @@ Pro standardizované klinické nebo výzkumné posouzení doporučujeme následu
 - [Color Teams](@/glossary/color-teams.md) — Blue Team využívá tyto instrumenty pro defenzivní detekci.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) — disociativní výsledky DES-II mapují na L4–L6 narušení epistemic pipeline.
 
-
 ## ⚡ Kritický krok
 
 **Tato příloha je referenční nástroj** — není k četbě od začátku do konce.

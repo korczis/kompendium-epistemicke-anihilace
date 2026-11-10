@@ -50,7 +50,7 @@ Strukturální mechanismus:
 3. **Amplifikace**: koordinované sítě amplifikují obsah
 4. **Kotvení**: jakmile je obsah ukotven, dále se replikuje
 
-Klasický příklad: termín "**replacement theory**" měl strukturálně **málo** kvalitního mainstreamového pokrytí — pravicové sítě **strukturálně** vyplnily void.
+Klasický příklad: termín „**replacement theory**“ měl strukturálně **málo** kvalitního mainstreamového pokrytí — pravicové sítě **strukturálně** vyplnily void.
 
 Pro EA z toho plyne:
 
@@ -128,8 +128,8 @@ boydova práce má **přímou** politickou aplikaci:
 ## 9. Primární literatura
 
 - boyd, d. (2014). *It's Complicated: The Social Lives of Networked Teens*. Yale UP.
-- boyd, d. (2017). "Hacking the Attention Economy". Data & Society.
-- boyd, d. & Crawford, K. (2012). "Critical Questions for Big Data". *Information, Communication & Society* 15.
+- boyd, d. (2017). „Hacking the Attention Economy“. Data & Society.
+- boyd, d. & Crawford, K. (2012). „Critical Questions for Big Data“. *Information, Communication & Society* 15.
 - Marwick, A. & Lewis, R. (2017). *Media Manipulation and Disinformation Online*. Data & Society.
 - Tufekci, Z. (2017). *Twitter and Tear Gas*. Yale UP.
 

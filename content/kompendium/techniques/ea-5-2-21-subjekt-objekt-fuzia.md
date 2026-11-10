@@ -35,39 +35,39 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 ## Definice
 
-**Subjekt-objekt fúzia** je metatranscendentální technika, jíž je destruována **fundamentální subjekt-objektová struktura zkušenosti**: subjekt patologicky splývá s objektem vnímání tak, že rozdíl mezi vnímajícím a vnímaným kolabuje. Na rozdíl od [EA-5.2.20 apperceptivního rozkladu](@/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad.md), kde subjekt **mizí**, subjekt-objekt fúzia **rozpouští hranici**: subjekt se "stává" objektem.
+**Subjekt-objekt fúzia** je metatranscendentální technika, jíž je destruována **fundamentální subjekt-objektová struktura zkušenosti**: subjekt patologicky splývá s objektem vnímání tak, že rozdíl mezi vnímajícím a vnímaným kolabuje. Na rozdíl od [EA-5.2.20 apperceptivního rozkladu](@/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad.md), kde subjekt **mizí**, subjekt-objekt fúzia **rozpouští hranici**: subjekt se „stává“ objektem.
 
 Husserlovská fenomenologie a Kantova kritika rovněž etablují **noeticko-noematickou diferenciaci** jako konstitutivní pro zkušenost. *Noesis* (akt vědomí) a *noema* (předmětný korelát) jsou strukturně odlišné. Subjekt-objekt fúzia tuto diferenciaci destruuje: subjekt prožívá **identitu s objektem** — ztotožňuje se s tím, co vnímá, čte, slyší, sleduje.
 
-Subjekt v terminálním stadiu trpí strukturní ztrátou hranic: pociťuje se jako "součást" pozorovaných jevů, postav v médiích, partnerských osob, kolektivních entit. Hranice "já vs. ostatní" jsou strukturně prostupné.
+Subjekt v terminálním stadiu trpí strukturní ztrátou hranic: pociťuje se jako „součást“ pozorovaných jevů, postav v médiích, partnerských osob, kolektivních entit. Hranice „já vs. ostatní“ jsou strukturně prostupné.
 
-Tento stav bývá pseudo-mysticky interpretován jako "splynutí s vesmírem" nebo "překonání duality", ale strukturně jde o ztrátu subjekt-objektové struktury, jež je **podmínkou možnosti** koherentního vědomí.
+Tento stav bývá pseudo-mysticky interpretován jako „splynutí s vesmírem“ nebo „překonání duality“, ale strukturně jde o ztrátu subjekt-objektové struktury, jež je **podmínkou možnosti** koherentního vědomí.
 
 ## Operační modus
 
 ### Krok 1 — Pseudo-mystická indoktrinace
 
-Subjekt je veden k radikální verzi non-duality — *"subjekt-objekt distinkce je iluze."* Klíčová formulace: *"Skutečnost je jediná; oddělení je vinou ega."*
+Subjekt je veden k radikální verzi non-duality — *„subjekt-objekt distinkce je iluze.“* Klíčová formulace: *„Skutečnost je jediná; oddělení je vinou ega.“*
 
 ### Krok 2 — Saturace splývacími praxemi
 
-Manipulátor zavádí intenzivní praxe údajně "překonávající dualitu" — meditace zaměřená na splývání s objektem, identifikační praktiky, kolektivní rituály.
+Manipulátor zavádí intenzivní praxe údajně „překonávající dualitu“ — meditace zaměřená na splývání s objektem, identifikační praktiky, kolektivní rituály.
 
 ### Krok 3 — Destrukce hranic Já-Ty
 
-Sociální hranice jsou systematicky podlamovány: subjekt je veden k "úplné otevřenosti", "transparentnosti", "splynutí s komunitou".
+Sociální hranice jsou systematicky podlamovány: subjekt je veden k „úplné otevřenosti“, „transparentnosti“, „splynutí s komunitou“.
 
 ### Krok 4 — Bod fúzie
 
-V určitém momentu subjekt prožívá **akutní splynutí** — pociťuje se identický s objektem (postavou, komunitou, partnerem, médiem). Stav je interpretován jako "průlom".
+V určitém momentu subjekt prožívá **akutní splynutí** — pociťuje se identický s objektem (postavou, komunitou, partnerem, médiem). Stav je interpretován jako „průlom“.
 
-### Krok 5 — Konsolidace fúzie jako "vyšší skutečnosti"
+### Krok 5 — Konsolidace fúzie jako „vyšší skutečnosti“
 
 Stav strukturní fúzie je etablován jako trvalý modus. Identitární investice činí návrat k subjekt-objektové diferenciaci obtížným.
 
 ## Fenomenologické znaky
 
-- **Strukturní ztráta hranic** — neschopnost rozlišit, kde "končí já" a začíná svět.
+- **Strukturní ztráta hranic** — neschopnost rozlišit, kde „končí já“ a začíná svět.
 - **Pseudo-empatická hyperidentifikace** — subjekt prožívá emoce ostatních jako vlastní.
 - **Mediální fúzie** — splynutí s postavami, scénami, mediálním obsahem.
 - **Pseudo-mystická euforie** prokládaná akutní úzkostnou epizodou.

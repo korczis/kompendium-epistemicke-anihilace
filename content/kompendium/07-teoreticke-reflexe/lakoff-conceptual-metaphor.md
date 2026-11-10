@@ -27,14 +27,14 @@ Lakoffova centrální teze: **abstraktní pojmy** jsou **strukturálně organizo
 
 Klasické příklady:
 
-- **ARGUMENT IS WAR**: "vyhrát/prohrát argument", "obranná pozice", "strategie", "atak"
-- **TIME IS MONEY**: "investovat čas", "ušetřit čas", "stojí to čas"
-- **LIFE IS JOURNEY**: "dosáhnout cíle", "překážky", "rozcestí"
-- **MIND IS CONTAINER**: "naplnit hlavu fakty", "vyprázdnit mysl"
+- **ARGUMENT IS WAR**: „vyhrát/prohrát argument“, „obranná pozice“, „strategie“, „atak“
+- **TIME IS MONEY**: „investovat čas“, „ušetřit čas“, „stojí to čas“
+- **LIFE IS JOURNEY**: „dosáhnout cíle“, „překážky“, „rozcestí“
+- **MIND IS CONTAINER**: „naplnit hlavu fakty“, „vyprázdnit mysl“
 
 Pro EA z toho plyne:
 
-- **Manipulace metaforou**: změna metaforického rámce **mění** kognitivní operaci. "Imigrant je **invader**" vs. "imigrant je **uprchlík**" — radikálně odlišné kognitivní operace.
+- **Manipulace metaforou**: změna metaforického rámce **mění** kognitivní operaci. „Imigrant je **invader**“ vs. „imigrant je **uprchlík**“ — radikálně odlišné kognitivní operace.
 - **Iluzorní neutralita**: žádný **netaforický** popis politických jevů neexistuje — všechny popisy operují skrze **specifické** metafory.
 - **Frame manipulation**: techniky, jež **nahrazují** metaforické rámce, strukturálně manipulují **kognicí** subjektů.
 
@@ -42,16 +42,16 @@ Pro EA z toho plyne:
 
 Lakoff rozvíjí (s Johnsonem v *Philosophy in the Flesh*, 1999) teorii **embodied conceptualization**: konceptuální metafory jsou strukturálně **vázány** na **tělesné** zkušenosti:
 
-- "**Více** je **nahoře**": vychází z tělesné zkušenosti (kupy, hladiny)
-- "**Pochopit**" (*grasp*): vychází z motoricé zkušenosti uchopení
-- "**Vidět**" jako "**vědět**": vychází z primárního senzorického aktu
+- „**Více** je **nahoře**“: vychází z tělesné zkušenosti (kupy, hladiny)
+- „**Pochopit**“ (*grasp*): vychází z motoricé zkušenosti uchopení
+- „**Vidět**“ jako „**vědět**“: vychází z primárního senzorického aktu
 
 Tato pozice strukturálně rezonuje s **embodied cognition** ([Varela, viz 7.45](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)) a Damasiovým somatic marker ([viz 7.36](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md)).
 
 Pro EA z toho plyne:
 
 - **Útok na tělesné fundamenty pojmů**: techniky, jež **rozpojují** subjekt od tělesné zkušenosti, strukturálně podkopávají kategorickou kapacitu.
-- **Algoritmické zprostředkování**: digital interfaces strukturálně **modifikují** tělesné fundamenty pojmů (například "scrolling" jako nová tělesná metafora pro "procházení informací").
+- **Algoritmické zprostředkování**: digital interfaces strukturálně **modifikují** tělesné fundamenty pojmů (například „scrolling“ jako nová tělesná metafora pro „procházení informací“).
 
 ## 3. Politické framing
 
@@ -59,7 +59,7 @@ V *Don't Think of an Elephant!* (2004) Lakoff aplikuje frame theory na **politic
 
 - **Frame** (rámec): kognitivní struktura, jež **organizuje** pochopení tématu
 - **Aktivace frame**: pouhé **zmínění** klíčového slova **aktivuje** celý frame
-- **Negace nepomáhá**: "Don't think of an elephant" **aktivuje** pojem "elephant"
+- **Negace nepomáhá**: „Don't think of an elephant“ **aktivuje** pojem „elephant“
 
 Lakoffova diagnóza: **konzervativní** politici **strukturálně lépe** ovládají frame theory než **liberálové** — proto strukturálně **dominují** politickému diskurzu.
 
@@ -80,17 +80,17 @@ Tato distinkce strukturálně **organizuje** všechny ostatní politické pozice
 Pro EA má tato analýza **strategický význam**:
 
 - **Politická EA** ([viz 7.8](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)) operuje strukturálně skrze metaforické rámce.
-- **Tribalistická polarizace**: aktivace "rodinných" metafor strukturálně intenzifikuje konflikt.
+- **Tribalistická polarizace**: aktivace „rodinných“ metafor strukturálně intenzifikuje konflikt.
 
 ## 5. Anti-objektivismus
 
-Lakoff je strukturálně **anti-objektivista** — odmítá pozici, podle níž existují "neutrální" pojmy nezávislé na tělesné zkušenosti a metaforických strukturách.
+Lakoff je strukturálně **anti-objektivista** — odmítá pozici, podle níž existují „neutrální“ pojmy nezávislé na tělesné zkušenosti a metaforických strukturách.
 
 Tato pozice je strukturálně **napjatá** s realismem (rezonuje s **Putnamovým vnitřním realismem**, [viz 7.27](@/kompendium/07-teoreticke-reflexe/putnam-internal-realism.md)) — Lakoff trvá na tom, že je **realista**, ale ne **objektivista**.
 
 Pro EA z toho plyne:
 
-- **Anti-pseudoneutrální rétorika**: zdánlivě "neutrální" tvrzení ("věda objektivně dokazuje") strukturálně **maskují** specifické rámce.
+- **Anti-pseudoneutrální rétorika**: zdánlivě „neutrální“ tvrzení („věda objektivně dokazuje“) strukturálně **maskují** specifické rámce.
 - **Counter-EA**: schopnost **identifikovat** rámec a **navrhnout** alternativu.
 
 ## 6. Mapping na EA techniky

@@ -134,20 +134,24 @@ Vytvořte prostor pro sdílení a připomeňte, že návrat nebývá konečný a
 ## Související
 
 **Navazující scénáře**
+
 - [Náborové techniky kultu](@/kompendium/educational-scenarios/18-cult-recruitment.md) – jak se klientka do skupiny dostala.
 - [Fragmentace identity](@/kompendium/educational-scenarios/25-identity-fragmentation.md) – identitní práce ve fázi rekonstrukce.
 - [Iatrogenní riziko](@/kompendium/educational-scenarios/27-iatrogenic-risk.md) – kde může plán sám škodit.
 
 **Protokoly zotavení**
+
 - [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md) – první fáze.
 - [Subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) – druhá fáze.
 - [Středně-dobý hermeneutický reset](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md) – obnova vlastního výkladu.
 
 **Techniky**
+
 - [EA-8.2.10 Herman Recovery Stages](@/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md) – teoretický rámec.
 - [EA-6.3.1 Stabilizační fáze](@/kompendium/techniques/ea-6-3-1-stabilizacni-faze-protokol.md) – klinický protokol.
 
 **Sebe-obrana a glosář**
+
 - [Mobilizace podpory](@/kompendium/self-defense-guides/30-support-mobilization.md) – jak si klientka sama staví síť.
 - [Epistemická reintegrace](@/glossary/epistemicka-reintegrace.md) – cílový stav.
 

@@ -39,7 +39,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Klíčový distinktivní znak — sémantická imploze není pouhá nejasnost ani polysémie. Polysémní termín má **strukturovaný** rozsah významů, mezi nimiž subjekt umí kontextuálně rozlišovat. Sémanticky imploudovaný termín naopak **ztrácí strukturu**: subjekt jej používá s pocitem rozumění, ale při jakémkoli pokusu o explikaci rozkládá pojem do **kruhových** nebo **protichůdných** komponent.
 
-Technika exploituje skutečnost, že v běžném používání jazyka **nikdy neverifikujeme** sémantickou stabilitu klíčových pojmů — důvěřujeme, že "svoboda", "pravda", "spravedlnost", "subjekt", "vědomí" odkazují k něčemu konzistentnímu. Sémantická imploze tuto důvěru **strukturálně** ničí.
+Technika exploituje skutečnost, že v běžném používání jazyka **nikdy neverifikujeme** sémantickou stabilitu klíčových pojmů — důvěřujeme, že „svoboda“, „pravda“, „spravedlnost“, „subjekt“, „vědomí“ odkazují k něčemu konzistentnímu. Sémantická imploze tuto důvěru **strukturálně** ničí.
 
 Sémantická imploze je [ultramární technikou](@/kompendium/05-ultramari-techniky/_index.md) kategorie [epistemická singularita](@/glossary/epistemicka-anihilace.md), kde **prostředek poznání** (jazyk) je sám předmětem destrukce.
 
@@ -49,7 +49,7 @@ Technika operuje v pěti krocích, typicky v dlouhodobém rámci (měsíce až r
 
 ### Krok 1 — Identifikace klíčových termínů
 
-Manipulátor identifikuje **kotvící pojmy** subjektova oboru / života: termíny, na nichž visí významová síť. V akademickém kontextu: "metoda", "evidence", "validita". V politickém: "demokracie", "občan", "právo". V terapeutickém: "já", "potřeba", "hranice". V náboženském: "víra", "duše", "smysl".
+Manipulátor identifikuje **kotvící pojmy** subjektova oboru / života: termíny, na nichž visí významová síť. V akademickém kontextu: „metoda“, „evidence“, „validita“. V politickém: „demokracie“, „občan“, „právo“. V terapeutickém: „já“, „potřeba“, „hranice“. V náboženském: „víra“, „duše“, „smysl“.
 
 ### Krok 2 — Postupná introduktivní redefinice
 
@@ -61,23 +61,23 @@ V průběhu času je tentýž termín použit v **mnoha různých** mírně posu
 
 ### Krok 4 — Konfrontační superpozice
 
-Manipulátor explicitně používá termín v kontextu, kde **vyžaduje** současně dva neslučitelné významy (např. "svoboda" jako absence omezení **a** jako podřízení vyšší autoritě). Subjekt je nucen oba významy přijmout — v rámci akumulované důvěry již nemá nástroj, jak je rozlišit.
+Manipulátor explicitně používá termín v kontextu, kde **vyžaduje** současně dva neslučitelné významy (např. „svoboda“ jako absence omezení **a** jako podřízení vyšší autoritě). Subjekt je nucen oba významy přijmout — v rámci akumulované důvěry již nemá nástroj, jak je rozlišit.
 
 ### Krok 5 — Generalizovaný kolaps
 
-Po dostatečné expozici subjekt **generalizuje** vzorec: každý termín může v každý okamžik znamenat cokoliv. Lingvistický substrát myšlení se rozkládá. Subjekt často reaguje **únavou**, **dezorientací**, nebo **paradoxním pocitem osvícení** — "konečně jsem pochopil, že slova jsou jen slova".
+Po dostatečné expozici subjekt **generalizuje** vzorec: každý termín může v každý okamžik znamenat cokoliv. Lingvistický substrát myšlení se rozkládá. Subjekt často reaguje **únavou**, **dezorientací**, nebo **paradoxním pocitem osvícení** — „konečně jsem pochopil, že slova jsou jen slova“.
 
 ## Fenomenologické znaky
 
 Co prožívá subjekt **uvnitř** sémantické imploze:
 
-- **Klouzavost pojmů** — pocit, že klíčové termíny "neudrží" význam, že "se mi rozpadají v rukou"
+- **Klouzavost pojmů** — pocit, že klíčové termíny „neudrží“ význam, že „se mi rozpadají v rukou“
 - **Pseudo-rozumění** — dojem, že rozumí, který se rozpadne při pokusu o explikaci
-- **Lexikální únava** — vyhýbání se klíčovým termínům, používání perifrází ("ta věc, co jsme o ní mluvili")
-- **Kruhové definice** — definuje pojem skrze jiný stejně imploudovaný pojem ("svoboda je autenticita", "autenticita je svoboda")
+- **Lexikální únava** — vyhýbání se klíčovým termínům, používání perifrází („ta věc, co jsme o ní mluvili“)
+- **Kruhové definice** — definuje pojem skrze jiný stejně imploudovaný pojem („svoboda je autenticita“, „autenticita je svoboda“)
 - **Paradoxní afirmace** — pocit, že rozporné výroky o tomtéž pojmu mohou být **současně** pravdivé
-- **Nostalgie po významu** — vzpomínka, že "kdysi" tato slova něco znamenala
-- **Mlhavá euforie** — v pokročilejších stadiích pseudo-mystický pocit, že "překročil" obyčejný jazyk
+- **Nostalgie po významu** — vzpomínka, že „kdysi“ tato slova něco znamenala
+- **Mlhavá euforie** — v pokročilejších stadiích pseudo-mystický pocit, že „překročil“ obyčejný jazyk
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -95,7 +95,7 @@ Co prožívá subjekt **uvnitř** sémantické imploze:
 
 Sémantická imploze je odlišitelná od:
 
-- **Legitimní filosofická revize pojmů** — explicitní, lokalizovaná, transparentní o stávající definici a nové; **udržuje** rozlišení mezi "termín v běžném smyslu" a "termín v navrhovaném smyslu". Sémantická imploze toto rozlišení likviduje.
+- **Legitimní filosofická revize pojmů** — explicitní, lokalizovaná, transparentní o stávající definici a nové; **udržuje** rozlišení mezi „termín v běžném smyslu“ a „termín v navrhovaném smyslu“. Sémantická imploze toto rozlišení likviduje.
 - **Polysémie** — strukturovaná, kontextově řízená; subjekt **umí** rozlišovat. Imploudovaný termín naopak ztrácí strukturu.
 - **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — zatemňuje význam **specializovaného** termínu pro účely vyloučení; nedestruktiuje sémantické pole subjektu.
 - **Genuinně obtížné pojmy** (vědomí, čas, identita) — mají **diskurzivně mapovanou** problematičnost; subjekt umí pojmenovat, **co** je obtížné. Imploudovaný subjekt naopak operuje s pocitem zdánlivého rozumění.
@@ -148,15 +148,15 @@ Klíčový pojem definuj **třemi nezávislými** způsoby (extenzionálně, int
 
 ### Případ 1 — Vysoce kontrolní skupina
 
-Členové sekty po 2-3 letech nedokázali definovat slovo "svoboda" konzistentním způsobem. V interview produkovali definice typu "svoboda je odevzdání se", "svoboda je poslušnost vyšší vůli", "svoboda je vědomí, že nejsi". Externí psycholingvista identifikoval **17 vzájemně neslučitelných** definic napříč skupinou. Členové reportovali subjektivní pocit "hluboké koherence" sémantického pole.
+Členové sekty po 2-3 letech nedokázali definovat slovo „svoboda“ konzistentním způsobem. V interview produkovali definice typu „svoboda je odevzdání se“, „svoboda je poslušnost vyšší vůli“, „svoboda je vědomí, že nejsi“. Externí psycholingvista identifikoval **17 vzájemně neslučitelných** definic napříč skupinou. Členové reportovali subjektivní pocit „hluboké koherence“ sémantického pole.
 
 ### Případ 2 — Akademický pseudo-paradigmatický kontext
 
-PhD kandidát po 4 letech v určitém teoretickém proudu nebyl schopen explikovat, co míní "subjektem". Definice oscilovaly mezi konstruktivistickou, strukturalistickou, fenomenologickou a postrukturalistickou pozicí — bez vědomí, že jsou navzájem teoreticky inkompatibilní. Detekce: externí komise vyžádala operační definici. Kandidát produkoval 4 definice za 20 minut, vzájemně rozporné.
+PhD kandidát po 4 letech v určitém teoretickém proudu nebyl schopen explikovat, co míní „subjektem“. Definice oscilovaly mezi konstruktivistickou, strukturalistickou, fenomenologickou a postrukturalistickou pozicí — bez vědomí, že jsou navzájem teoreticky inkompatibilní. Detekce: externí komise vyžádala operační definici. Kandidát produkoval 4 definice za 20 minut, vzájemně rozporné.
 
 ### Případ 3 — Pokročilý coaching kontext
 
-Klient po 18 měsících intenzivního programu nebyl schopen popsat, co znamená jeho vlastní výrok "musím být autentický". V dotazování produkoval definice "autenticity" jako "spontaneita", "disciplína", "podřízenost intuici", "překročení intuice", "ego-smrt", "sebeprosazení" — bez vědomí, že tyto významy jsou vzájemně neslučitelné.
+Klient po 18 měsících intenzivního programu nebyl schopen popsat, co znamená jeho vlastní výrok „musím být autentický“. V dotazování produkoval definice „autenticity“ jako „spontaneita“, „disciplína“, „podřízenost intuici“, „překročení intuice“, „ego-smrt“, „sebeprosazení“ — bez vědomí, že tyto významy jsou vzájemně neslučitelné.
 
 ## Vztah k jiným technikám
 
@@ -213,7 +213,6 @@ Sémantická imploze je strukturálním motivem pro několik defenzivních mecha
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

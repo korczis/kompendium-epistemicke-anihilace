@@ -51,10 +51,10 @@ Klíčový rys techniky je její **logická legitimita na povrchu**: skutečné 
 
 Manipulátor předkládá **autentický logický paradox** — typicky:
 
-- **Lhářův paradox**: *"Tato věta je nepravdivá."*
-- **Russellův paradox**: *"Množina všech množin, které neobsahují samy sebe."*
-- **Berryho paradox**: *"Nejmenší přirozené číslo, které nelze popsat méně než dvanácti slovy."*
-- **Curryho paradox**: *"Pokud je tato věta pravdivá, pak X"* — kde X je libovolné tvrzení.
+- **Lhářův paradox**: *„Tato věta je nepravdivá.“*
+- **Russellův paradox**: *„Množina všech množin, které neobsahují samy sebe.“*
+- **Berryho paradox**: *„Nejmenší přirozené číslo, které nelze popsat méně než dvanácti slovy.“*
+- **Curryho paradox**: *„Pokud je tato věta pravdivá, pak X“* — kde X je libovolné tvrzení.
 
 Paradox je prezentován jako **hluboký vhled do povahy reality** spíše než jako **technický problém formálního systému**.
 
@@ -62,9 +62,9 @@ Paradox je prezentován jako **hluboký vhled do povahy reality** spíše než j
 
 Manipulátor systematicky **aplikuje paradoxní strukturu** na centrální tvrzení subjektu:
 
-- *"Tvrdíš, že hledáš pravdu — ale samotné toto hledání předpokládá, že pravda existuje. Existuje pravda?"*
-- *"Pokud řekneš ano, nemůžeš hledat to, co už máš. Pokud řekneš ne, na základě čeho hledáš?"*
-- *"Říkáš, že chceš svobodu — ale tvoje rozhodnutí být svobodný je samo determinováno. Jsi svobodný?"*
+- *„Tvrdíš, že hledáš pravdu — ale samotné toto hledání předpokládá, že pravda existuje. Existuje pravda?“*
+- *„Pokud řekneš ano, nemůžeš hledat to, co už máš. Pokud řekneš ne, na základě čeho hledáš?“*
+- *„Říkáš, že chceš svobodu — ale tvoje rozhodnutí být svobodný je samo determinováno. Jsi svobodný?“*
 
 Každá z těchto formulací **má autentický filozofický kořen**, ale je vytržena z kontextu, který by umožnil řešení.
 
@@ -77,27 +77,27 @@ Klíčový operační moment: subjekt je **odrazován** od rozlišování:
 - **performativního aktu** vs. **propozičního obsahu**
 - **konstativní** vs. **regulativní** funkce výroku
 
-Subjekt, který by řekl *"výrok 'tato věta je nepravdivá' je smysluplný pouze, pokud rozlišíme jazyk a metajazyk"*, je obviněn z *"unikání před paradoxem"* nebo z *"lpění na technické distinkci místo skutečné pravdy"*.
+Subjekt, který by řekl *„výrok 'tato věta je nepravdivá' je smysluplný pouze, pokud rozlišíme jazyk a metajazyk“*, je obviněn z *„unikání před paradoxem“* nebo z *„lpění na technické distinkci místo skutečné pravdy“*.
 
 ### Krok 4 — Indukce kognitivní paralýzy
 
 Subjekt **opakovaně prožívá**, že jakákoli jeho odpověď generuje kontradikci. Toto je **subjektivně traumatizující** — racionální mysl je strukturálně závislá na **principu non-kontradikce** a jeho systematické porušování generuje **epistemickou úzkost**.
 
-V pokročilých stadiích subjekt **rezignuje** na racionální argumentaci a přijímá rámec manipulátora jako *"jediný, který paradox transcenduje"* — typicky pseudo-mystický rámec ("v jednotě paradox neexistuje", srov. [EA-5.1.19](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md)).
+V pokročilých stadiích subjekt **rezignuje** na racionální argumentaci a přijímá rámec manipulátora jako *„jediný, který paradox transcenduje“* — typicky pseudo-mystický rámec („v jednotě paradox neexistuje“, srov. [EA-5.1.19](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md)).
 
-### Krok 5 — Konsolidace skrze "transcendenci logiky"
+### Krok 5 — Konsolidace skrze „transcendenci logiky“
 
-Konečná konsolidace: subjekt **přijímá pozici**, že *"logika je nižší úroveň myšlení"* a že *"skutečné poznání je za logikou"*. Tím je **dokončena epistemická anihilace** — subjekt **opustil** samotný nástroj, kterým by mohl detekovat manipulaci.
+Konečná konsolidace: subjekt **přijímá pozici**, že *„logika je nižší úroveň myšlení“* a že *„skutečné poznání je za logikou“*. Tím je **dokončena epistemická anihilace** — subjekt **opustil** samotný nástroj, kterým by mohl detekovat manipulaci.
 
 ## Fenomenologické znaky
 
 - **Pocit bezvýchodnosti** v každé argumentaci
 - **Hluboká kognitivní úzkost** při pokusu o konzistenci
-- **Pocit, že "logika nestačí"**
+- **Pocit, že „logika nestačí“**
 - **Úleva** při přijetí rámce manipulátora
-- **Specifická "duchovní" interpretace paradoxu** ("pravda je za dualitou")
-- **Imunita vůči externí argumentaci** ("tvoje argumenty jsou stále v dualitě")
-- **Disociace mezi formálním uvažováním a "skutečným poznáním"**
+- **Specifická „duchovní“ interpretace paradoxu** („pravda je za dualitou“)
+- **Imunita vůči externí argumentaci** („tvoje argumenty jsou stále v dualitě“)
+- **Disociace mezi formálním uvažováním a „skutečným poznáním“**
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -116,7 +116,7 @@ Konečná konsolidace: subjekt **přijímá pozici**, že *"logika je nižší �
 Sebe-referenční paradox jako manipulativní technika je odlišitelný od **autentické logické práce**:
 
 - **Autentický logik** uznává, že paradoxy mají **technická řešení** (typová teorie, hierarchie metajazyků, parakonzistentní logika) a používá je jako **diagnostické nástroje** pro odhalení problémů formálního systému.
-- **Manipulativní rámec** prezentuje paradoxy jako **terminální** a "transcendentní", odmítá technická řešení.
+- **Manipulativní rámec** prezentuje paradoxy jako **terminální** a „transcendentní“, odmítá technická řešení.
 
 Hraniční případ: **autentická buddhistická tradice** používá kóany (např. *Mu* kóan) jako **strukturované meditační nástroje** s explicitním kontextem a tradicí. Toto **není** sebe-referenční paradox v manipulativním smyslu — je to **disciplinovaná praxe** s vlastními diagnostickými rámci.
 
@@ -145,7 +145,7 @@ U každého paradoxu se ptej: *Jaké typové úrovně se zde mísí? Jaké mlč�
 
 #### 3. **Diagnostika double-bindu**
 
-Bateson identifikoval **double-bind** jako paradoxní komunikační vzorec. Pokud zjistíš, že **každá** odpověď v nějaké interakci je "špatně", **nejde o tvoji chybu** — jde o strukturální past, kterou je třeba **opustit jako celek**, nikoli "vyřešit".
+Bateson identifikoval **double-bind** jako paradoxní komunikační vzorec. Pokud zjistíš, že **každá** odpověď v nějaké interakci je „špatně“, **nejde o tvoji chybu** — jde o strukturální past, kterou je třeba **opustit jako celek**, nikoli „vyřešit“.
 
 #### 4. **Časový odstup od paradoxu**
 
@@ -153,7 +153,7 @@ Pokud paradox generuje úzkost, **odstup**. Nech ho stranou, věnuj se konkrétn
 
 #### 5. **Externí konzultace s logikem**
 
-Diskutuj paradox s někým, kdo má **formální vzdělání v logice**. Většinu "neřešitelných" paradoxů má profesionální logik vyřešené během několika minut technickou distinkcí.
+Diskutuj paradox s někým, kdo má **formální vzdělání v logice**. Většinu „neřešitelných“ paradoxů má profesionální logik vyřešené během několika minut technickou distinkcí.
 
 ### Institucionální
 
@@ -167,22 +167,22 @@ Diskutuj paradox s někým, kdo má **formální vzdělání v logice**. Větši
 
 ### Případ 1 — Pseudo-spirituální seminář
 
-Účastník byl konfrontován s opakovanými paradoxy: *"Pokud chceš osvícení, právě tato touha tě od něj vzdaluje. Pokud nechceš, jak ho hledáš?"* Po týdnu opakovaných cvičení účastník rezignoval na racionální analýzu a přijal rámec učitele jako "jediný transcendentní". Diagnóza: sebe-referenční paradox s pseudo-mystickou konsolidací.
+Účastník byl konfrontován s opakovanými paradoxy: *„Pokud chceš osvícení, právě tato touha tě od něj vzdaluje. Pokud nechceš, jak ho hledáš?“* Po týdnu opakovaných cvičení účastník rezignoval na racionální analýzu a přijal rámec učitele jako „jediný transcendentní“. Diagnóza: sebe-referenční paradox s pseudo-mystickou konsolidací.
 
 ### Případ 2 — Manipulativní vztah
 
-Partner systematicky používal Curryho strukturu: *"Pokud mě skutečně miluješ, musíš důvěřovat všemu, co říkám — i když říkám, že tě nemiluji."* Každá odpověď byla interpretována jako potvrzení nebo selhání lásky. Diagnóza: aplikovaný double-bind.
+Partner systematicky používal Curryho strukturu: *„Pokud mě skutečně miluješ, musíš důvěřovat všemu, co říkám — i když říkám, že tě nemiluji.“* Každá odpověď byla interpretována jako potvrzení nebo selhání lásky. Diagnóza: aplikovaný double-bind.
 
 ### Případ 3 — Online ideologická skupina
 
-Komunita aplikovala paradoxní strukturu: *"Že nás kritizuješ, dokazuje, jak hluboce jsi manipulován systémem, proti kterému stojíme."* Externí kritika byla strukturálně transformována na potvrzení centrální teze. Diagnóza: institucionalizovaný sebe-referenční paradox.
+Komunita aplikovala paradoxní strukturu: *„Že nás kritizuješ, dokazuje, jak hluboce jsi manipulován systémem, proti kterému stojíme.“* Externí kritika byla strukturálně transformována na potvrzení centrální teze. Diagnóza: institucionalizovaný sebe-referenční paradox.
 
 ## Vztah k jiným technikám
 
 ### Sesterská UM (úroveň 5)
 
-- **[EA-5.1.19 Kvazi-mystická anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md)** — typický **konsolidační rámec** pro vyřešení paradoxu skrze "transcendenci logiky".
-- **[EA-5.1.20 Holografická redukce](@/kompendium/techniques/ea-5-1-20-holograficka-redukce.md)** — když holografický rámec generuje paradox, paradox je interpretován jako "důkaz hloubky".
+- **[EA-5.1.19 Kvazi-mystická anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md)** — typický **konsolidační rámec** pro vyřešení paradoxu skrze „transcendenci logiky“.
+- **[EA-5.1.20 Holografická redukce](@/kompendium/techniques/ea-5-1-20-holograficka-redukce.md)** — když holografický rámec generuje paradox, paradox je interpretován jako „důkaz hloubky“.
 
 ### Vztah k základním (EA-1.X.Y) technikám
 
@@ -193,12 +193,12 @@ Komunita aplikovala paradoxní strukturu: *"Že nás kritizuješ, dokazuje, jak 
 ### Eskaluje do
 
 - **Trvalá epistemická paralýza** — subjekt opouští racionální analýzu jako celek.
-- **Závislost na "transcendentním" učiteli** — pouze on "rozumí paradoxu".
+- **Závislost na „transcendentním“ učiteli** — pouze on „rozumí paradoxu“.
 
 ## Vztah k Prismatic platformě
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemic monitor explicitně modeluje **typové úrovně tvrzení** a flaguje sebe-referenční konstrukce, které mísí objektovou úroveň a metaúroveň.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — vyžaduje **formálně artikulovaná falsifikační kritéria**; paradoxní formulace ("jakákoli evidence potvrzuje rámec") jsou strukturálně odmítnuty.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — vyžaduje **formálně artikulovaná falsifikační kritéria**; paradoxní formulace („jakákoli evidence potvrzuje rámec“) jsou strukturálně odmítnuty.
 - **[Logic Prolog](@/glossary/logic-prolog.md)** — formální logické moduly platformy implementují **typovou disciplínu**, která eliminuje sebe-referenční paradoxy na úrovni inference.
 
 ## Související
@@ -219,7 +219,6 @@ Komunita aplikovala paradoxní strukturu: *"Že nás kritizuješ, dokazuje, jak 
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

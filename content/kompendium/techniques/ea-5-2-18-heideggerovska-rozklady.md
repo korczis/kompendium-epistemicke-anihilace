@@ -41,16 +41,16 @@ Heideggerova analýza pobytu v *Bytí a čase* identifikuje existenciály jako *
 
 - **Pervertovanou autenticitu** — *Eigentlichkeit* je zaměněna za pseudo-mystický stav místo za autentické přijetí konečnosti.
 - **Manipulaci se Sein-zum-Tode** — bytí k smrti je instrumentalizováno jako zdroj paralýzy místo jako disclosing struktury existence.
-- **Destrukci Geworfenheit** — vrženost do situace je interpretována jako "uvěznění" místo jako podmínka možnosti existence.
+- **Destrukci Geworfenheit** — vrženost do situace je interpretována jako „uvěznění“ místo jako podmínka možnosti existence.
 - **Atrofie Sorge** — starost se rozpadá v bezstarostnost nebo úzkostnou hyperstarost.
 
-Subjekt v terminálním stadiu prožívá pseudo-autentický stav, kde existenciální struktury jsou narušeny, ale narušení je reframované jako "filozofické osvícení". Ve skutečnosti jde o existenciální paralýzu maskovanou heideggerovským slovníkem.
+Subjekt v terminálním stadiu prožívá pseudo-autentický stav, kde existenciální struktury jsou narušeny, ale narušení je reframované jako „filozofické osvícení“. Ve skutečnosti jde o existenciální paralýzu maskovanou heideggerovským slovníkem.
 
 ## Operační modus
 
 ### Krok 1 — Pseudo-heideggerovská indoktrinace
 
-Subjekt je uveden do heideggerovské terminologie s **chybějícím autentickým existenciálním nakletím**. *Eigentlichkeit* je redukována na "spirituální stav".
+Subjekt je uveden do heideggerovské terminologie s **chybějícím autentickým existenciálním nakletím**. *Eigentlichkeit* je redukována na „spirituální stav“.
 
 ### Krok 2 — Manipulace se Sein-zum-Tode
 
@@ -58,11 +58,11 @@ Bytí k smrti je systematicky exploitováno: subjekt je veden k chronickému sou
 
 ### Krok 3 — Destrukce Lebensweltové orientace
 
-Heideggerovský **Mitwelt** (spolusvět s druhými) je systematicky podlamován pod záminkou *"Das Man je nepravost"*. Subjekt se izoluje od běžného fungování s druhými.
+Heideggerovský **Mitwelt** (spolusvět s druhými) je systematicky podlamován pod záminkou *„Das Man je nepravost“*. Subjekt se izoluje od běžného fungování s druhými.
 
 ### Krok 4 — Pervertovaná Geworfenheit
 
-Vrženost do situace je interpretována jako "uvěznění", což generuje resentiment místo autentického přijetí. Subjekt prožívá život jako "vězení", nikoli jako podmínku existování.
+Vrženost do situace je interpretována jako „uvěznění“, což generuje resentiment místo autentického přijetí. Subjekt prožívá život jako „vězení“, nikoli jako podmínku existování.
 
 ### Krok 5 — Konsolidace pseudo-autenticity
 
@@ -70,11 +70,11 @@ Stav existenciální paralýzy je interpretován jako *Eigentlichkeit*. Identit�
 
 ## Fenomenologické znaky
 
-- **Chronická existenciální úzkost** racionalizovaná jako "autentické bytí k smrti".
-- **Sociální izolace** racionalizovaná jako "překonání Das Man".
+- **Chronická existenciální úzkost** racionalizovaná jako „autentické bytí k smrti“.
+- **Sociální izolace** racionalizovaná jako „překonání Das Man“.
 - **Pseudo-mystická melancholie** prokládaná akutními úzkostnými epizodami.
 - **Praktická bezstarostnost** maskovaná pseudo-filozofickou hloubkou.
-- **Resentimentní vztah ke vrženosti** — chronická stížnost na "podmínky existence".
+- **Resentimentní vztah ke vrženosti** — chronická stížnost na „podmínky existence“.
 - **Slovní intelektualizace** maskující strukturální paralýzu.
 
 ## Detekční markery

@@ -29,7 +29,7 @@ Nagelův argument: i kdybychom **plně rozuměli** netopýrově neurofyziologii,
 
 Pro EA má tento argument **strukturální význam**:
 
-- **Pseudoobjektivní redukce subjektivity**: techniky, jež **redukují** subjektivní zkušenost na "měřitelné parametry" (algoritmus dobře known: behaviorální data, biometrika), strukturálně **anihilují** subjektivní pól.
+- **Pseudoobjektivní redukce subjektivity**: techniky, jež **redukují** subjektivní zkušenost na „měřitelné parametry“ (algoritmus dobře known: behaviorální data, biometrika), strukturálně **anihilují** subjektivní pól.
 - **Klinický korelát**: medikalizační redukce trauma na **DSM kódy** je strukturálně **nagelovsky problematická** — ztrácí *what it is like* perspektivy traumatizovaného subjektu.
 
 ## 2. Pohled odnikud a paradox
@@ -39,13 +39,13 @@ Nagel v *The View from Nowhere* (1986) argumentuje, že lidská racionalita **ko
 - **Subjektivní pohled**: pohled **odnaštěstí**, ze specifické perspektivy
 - **Objektivní pohled**: pohled, jenž se **transcendentuje** směrem k pohledu **odnikud**
 
-Tato kombinace je **strukturálně paradoxní**: čím **více** se transcendetuji ke "view from nowhere", tím **více ztrácím** specifickou subjektivitu. A přece **plně** ztratit subjektivitu **nelze** — vždy zůstává **někdo**, kdo zaujímá pohled.
+Tato kombinace je **strukturálně paradoxní**: čím **více** se transcendetuji ke „view from nowhere“, tím **více ztrácím** specifickou subjektivitu. A přece **plně** ztratit subjektivitu **nelze** — vždy zůstává **někdo**, kdo zaujímá pohled.
 
 Pro EA z toho plyne:
 
-- **Pseudo-univerzální rétorika**: techniky, jež předstírají dosáhnutí "view from nowhere" ("věda objektivně dokazuje X", "data jasně ukazují Y"), strukturálně **maskují** zbývající subjektivní pól.
+- **Pseudo-univerzální rétorika**: techniky, jež předstírají dosáhnutí „view from nowhere“ („věda objektivně dokazuje X“, „data jasně ukazují Y“), strukturálně **maskují** zbývající subjektivní pól.
 - **Algoritmická pseudo-objektivita**: AI/ML systémy ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)) operují s **rétorikou** view from nowhere, ale strukturálně **encodují** specifické subjektivní pohledy (training data biases).
-- **Klinický korelát**: subjekti vystaveni této rétorice ztrácí kapacitu **rozeznat** subjektivní pól v "objektivních" nárocích.
+- **Klinický korelát**: subjekti vystaveni této rétorice ztrácí kapacitu **rozeznat** subjektivní pól v „objektivních“ nárocích.
 
 ## 3. Mortalita a smysl
 
@@ -55,7 +55,7 @@ Tato strukturální diskrepance je **konstitutivní** lidské zkušenosti — ne
 
 Pro EA má tato analýza **specifickou relevanci**:
 
-- **Manipulativní inflace absurdity**: techniky, jež **amplifikují** absurditu jako **paralyzující** ("nic nemá smysl, vše je marné"), strukturálně podkopávají subjektovu schopnost angažmá.
+- **Manipulativní inflace absurdity**: techniky, jež **amplifikují** absurditu jako **paralyzující** („nic nemá smysl, vše je marné“), strukturálně podkopávají subjektovu schopnost angažmá.
 - **Manipulativní popření absurdity**: techniky, jež nabízejí **falešné rozpuštění** absurdity (autoritářská řešení, kultovní jistota), strukturálně **anihilují** subjektovu reflexi.
 
 ## 4. Etika z pohledu odnikud
@@ -88,7 +88,7 @@ Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.
 
 ## 7. Primární literatura
 
-- Nagel, T. (1974). "What Is It Like to Be a Bat?". *The Philosophical Review* 83(4).
+- Nagel, T. (1974). „What Is It Like to Be a Bat?“. *The Philosophical Review* 83(4).
 - Nagel, T. (1986). *The View from Nowhere*. Oxford UP.
 - Nagel, T. (1970). *The Possibility of Altruism*. Princeton UP.
 - Nagel, T. (1979). *Mortal Questions*. Cambridge UP.

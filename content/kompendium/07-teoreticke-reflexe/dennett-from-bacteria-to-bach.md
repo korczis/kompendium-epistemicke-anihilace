@@ -61,7 +61,7 @@ Pro EA má tato perspektiva **specifický význam**:
 
 ## 4. Evoluce vědomí
 
-Dennett odmítá **redukcionistickou** pozici "vědomí přijde najednou". Vědomí je strukturálně **kumulativní akumulace kompetencí**:
+Dennett odmítá **redukcionistickou** pozici „vědomí přijde najednou“. Vědomí je strukturálně **kumulativní akumulace kompetencí**:
 
 - **Reaktivní** vědomí (bakterie)
 - **Senzorické** vědomí (zvířata)

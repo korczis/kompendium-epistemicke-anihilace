@@ -8,3 +8,4 @@ sort_by = "weight"
 lead = "Ucelená taxonomie fenoménů, které systematicky narušují schopnost člověka poznávat, vyhodnocovat informace a udržet koherentní obraz reality. Kniha popisuje mechanismy na úrovni struktury, ne implementace, a ke každému jevu dává detekční markery, klinický rámec a cestu k obraně a zotavení."
 audience = "Kvalifikovaní psychiatři, psychologové, terapeuti, vyšetřovatelé, filozofové a výzkumníci kognitivních věd."
 +++
+

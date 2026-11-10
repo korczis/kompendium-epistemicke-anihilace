@@ -46,12 +46,12 @@ Davidsonův pozdní pojem (zejména *Subjective, Intersubjective, Objective*): *
 - **Ty** (subjekt 2)
 - **Svět** (společný objekt pozornosti)
 
-Triangulace je strukturálně **prvotní** — pojmy "vlastní mysli", "jiné mysli" a "objektivního světa" se konstituují **současně** v této triangulační struktuře. Žádný z těchto pojmů není **prvotnější** než ostatní.
+Triangulace je strukturálně **prvotní** — pojmy „vlastní mysli“, „jiné mysli“ a „objektivního světa“ se konstituují **současně** v této triangulační struktuře. Žádný z těchto pojmů není **prvotnější** než ostatní.
 
 Pro EA z toho plyne:
 
 - **Útok na triangulaci**: techniky, jež **rozbíjejí** trojstrannou strukturu společné pozornosti, strukturálně **anihilují** podmínky objektivity.
-- **Algoritmické zprostředkování**: digitální platformy strukturálně **modifikují** triangulaci — "společný svět" je **algoritmicky kurátorský**, různé subjekty vidí **různé světy**.
+- **Algoritmické zprostředkování**: digitální platformy strukturálně **modifikují** triangulaci — „společný svět“ je **algoritmicky kurátorský**, různé subjekty vidí **různé světy**.
 - **Klinický korelát**: rozpad triangulace má **specifické** patterny — subjekt ztrácí pocit **sdíleného světa** s ostatními.
 
 ## 3. Anomální monismus a primat lidských jednání
@@ -61,7 +61,7 @@ Davidson v eseji *Mental Events* (1970) formuluje **anomální monismus**: ment�
 Tato pozice má pro EA **specifickou relevanci**:
 
 - **Redukcionistické modely** (čisté neuro-determinismus, behaviorální analýza) jsou strukturálně **nedostatečné** pro popis **lidského jednání** — vyžadují **interpretativní rámec**.
-- **Algoritmické "behaviorální targeting"** strukturálně předstírá redukcionistickou pozici — operuje s **pravidly chování**, jež neexistují v přísné formě.
+- **Algoritmické „behaviorální targeting“** strukturálně předstírá redukcionistickou pozici — operuje s **pravidly chování**, jež neexistují v přísné formě.
 
 ## 4. Pravda a koherence
 

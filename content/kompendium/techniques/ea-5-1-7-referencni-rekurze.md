@@ -47,9 +47,9 @@ Technika cílí na [metakognitivní vrstvu](@/glossary/metakognitivni-destrukce.
 
 Manipulátor v komunikaci s subjektem zavádí dva pojmy, **A** a **B**, které jsou prezentovány jako fundamentální pro jakékoli další uvažování v dané doméně. Příklady:
 
-- *„Abys pochopil, co je autenticita, musíš nejprve pochopit, co je svoboda."* + *„Abys pochopil, co je svoboda, musíš nejprve pochopit, co je autenticita."*
-- *„Skutečné poznání předpokládá skutečnou důvěru."* + *„Skutečná důvěra předpokládá skutečné poznání."*
-- *„Pravá víra vyžaduje pravé porozumění."* + *„Pravé porozumění vyžaduje pravou víru."*
+- *„Abys pochopil, co je autenticita, musíš nejprve pochopit, co je svoboda.„* + *„Abys pochopil, co je svoboda, musíš nejprve pochopit, co je autenticita.“*
+- *„Skutečné poznání předpokládá skutečnou důvěru.„* + *„Skutečná důvěra předpokládá skutečné poznání.“*
+- *„Pravá víra vyžaduje pravé porozumění.„* + *„Pravé porozumění vyžaduje pravou víru.“*
 
 Klíčové je, aby kotvy **vypadaly hluboce** — aby subjekt přijal, že vzájemná závislost je *odhalením struktury skutečnosti*, nikoliv konstrukčním artefaktem.
 
@@ -225,7 +225,6 @@ Referenční rekurze má v Prismatic platformě tři hlavní defenzivní mapová
 - **Forward-refs**:
   - [Kapitola 4 — Operační principy](@/kompendium/04-operacni-principy/_index.md)
   - [Kapitola 6 — Epistemická singularita](@/kompendium/06-epistemicka-singularita/_index.md)
-
 
 ## ⚡ Kritický krok
 

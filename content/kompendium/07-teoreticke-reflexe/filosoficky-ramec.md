@@ -17,17 +17,17 @@ toc = true
 
 # 7.1 Filosofický rámec EA: Foucault, Adorno, Sloterdijk, Habermas
 
-Tato kapitola lokalizuje kompendium epistemické a kognitivní anihilace ve **čtyřech velkých tradicích** kontinentální filozofie, jež nejsystematičtěji teoretizovaly vztah mezi věděním, mocí, racionalitou a sociálním prostorem. Foucault, Adorno, Sloterdijk a Habermas nejsou pouze "vlivy" — jsou to **konstitutivní intelektuální zdroje**, jejichž koncepty rezonují napříč sekcemi 03–06 kompendia, ať už explicitně či implicitně. Cílem této kapitoly je tyto rezonance **vyznačit**, **kriticky reflektovat** a **identifikovat body**, kde kompendium od svých zdrojů odbočuje.
+Tato kapitola lokalizuje kompendium epistemické a kognitivní anihilace ve **čtyřech velkých tradicích** kontinentální filozofie, jež nejsystematičtěji teoretizovaly vztah mezi věděním, mocí, racionalitou a sociálním prostorem. Foucault, Adorno, Sloterdijk a Habermas nejsou pouze „vlivy“ — jsou to **konstitutivní intelektuální zdroje**, jejichž koncepty rezonují napříč sekcemi 03–06 kompendia, ať už explicitně či implicitně. Cílem této kapitoly je tyto rezonance **vyznačit**, **kriticky reflektovat** a **identifikovat body**, kde kompendium od svých zdrojů odbočuje.
 
 ## 1. Michel Foucault — analytika moc-vědění
 
 ### 1.1 Pouvoir-savoir jako strukturální vazba
 
-Foucaultův centrální pojem *pouvoir-savoir* (moc-vědění), rozvinutý zejména v *Surveiller et punir* (1975) a *Histoire de la sexualité I* (1976), představuje pro kompendium EA **strukturální východisko**: vědění není neutrálním médiem, jež moc instrumentálně zneužívá, ale je **konstitutivně provázáno** s mocenskými praktikami. Tato vazba není primárně represivní (moc potlačuje pravdu), ale **produktivní** — moc generuje specifické režimy pravdy, vědecké diskurzy, klasifikační aparáty a "objektivní" expertize.
+Foucaultův centrální pojem *pouvoir-savoir* (moc-vědění), rozvinutý zejména v *Surveiller et punir* (1975) a *Histoire de la sexualité I* (1976), představuje pro kompendium EA **strukturální východisko**: vědění není neutrálním médiem, jež moc instrumentálně zneužívá, ale je **konstitutivně provázáno** s mocenskými praktikami. Tato vazba není primárně represivní (moc potlačuje pravdu), ale **produktivní** — moc generuje specifické režimy pravdy, vědecké diskurzy, klasifikační aparáty a „objektivní“ expertize.
 
 Pro taxonomii EA má tato perspektiva **trojí důsledek**:
 
-1. **Klasifikace samotná je mocenský akt.** Akt pojmenování techniky jako "epistemicky anihilující" je sám o sobě intervencí do diskurzivního pole. Kompendium si je tohoto faktu vědomo (viz princip transparentní limitace, [01 — Předmluva](@/kompendium/01-predmluva/_index.md)) a nedeklaruje sebe sama jako neutrální popis.
+1. **Klasifikace samotná je mocenský akt.** Akt pojmenování techniky jako „epistemicky anihilující“ je sám o sobě intervencí do diskurzivního pole. Kompendium si je tohoto faktu vědomo (viz princip transparentní limitace, [01 — Předmluva](@/kompendium/01-predmluva/_index.md)) a nedeklaruje sebe sama jako neutrální popis.
 2. **Disciplinární dispozitivy.** Foucaultův pojem dispozitivu (*dispositif*) — heterogenní síť diskurzů, institucí, architektonických forem, regulačních rozhodnutí, zákonů, administrativních opatření, vědeckých výroků, filozofických tezí, morálních a filantropických propozic — strukturálně předjímá multidimenzionální klasifikaci kompendia ([2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)). Techniky EA neoperují izolovaně, nýbrž v dispozitivních konfiguracích.
 3. **Subjektivace skrze diskurz.** Foucaultova analýza, jak diskurzy formují subjekty (*assujettissement*), poskytuje rámec pro pochopení, proč některé techniky EA fungují bez explicitní donucovací síly — subjekt **sám sebe konstituuje** v termínech disciplinárního diskurzu.
 
@@ -36,14 +36,14 @@ Pro taxonomii EA má tato perspektiva **trojí důsledek**:
 V *Surveiller et punir* Foucault analyzuje **panoptismus** — nikoli pouze Benthamovu architekturu věznice, ale **obecný princip moderní moci**: subjekt internalizuje pohled dohlížitele a stává se vlastním cenzorem. Tato internalizace má pro EA klíčovou diagnostickou hodnotu:
 
 - Techniky **chronické autocenzury** ([EA chronicity, viz sekce 04](@/kompendium/04-terminalni-protokoly/_index.md)) operují strukturně panoptickým způsobem.
-- Subjekt naučený anticipovat sankce za "nepovolené" epistemické operace přestává tyto operace vůbec provádět — nikoli proto, že by byl explicitně potlačován, ale protože **internalizoval cenzurní strukturu**.
+- Subjekt naučený anticipovat sankce za „nepovolené“ epistemické operace přestává tyto operace vůbec provádět — nikoli proto, že by byl explicitně potlačován, ale protože **internalizoval cenzurní strukturu**.
 - Tento mechanismus je v kompendiu identifikován jako **prevenivní rezilienci převrácená naruby** — místo strukturální odolnosti vůči manipulaci subjekt vytváří strukturální odolnost vůči **vlastnímu kritickému myšlení**.
 
 ### 1.3 Biopolitika a populační epistemika
 
 Foucaultova analýza biopolitiky (*Naissance de la biopolitique*, přednášky 1978–1979) rozšiřuje analytiku moc-vědění z disciplinárních na **regulační** a **populační** úrovně. Pro EA to znamená:
 
-- Útoky na epistemické kapacity nemusí cílit na jedince — mohou operovat **populačně** skrze statistické nástroje, normalizační křivky, "evidence-based" politiky a algoritmické filtry.
+- Útoky na epistemické kapacity nemusí cílit na jedince — mohou operovat **populačně** skrze statistické nástroje, normalizační křivky, „evidence-based“ politiky a algoritmické filtry.
 - Kompendium tuto perspektivu integruje v kategoriích **strukturálních** technik EA — manipulace nikoli skrze **intencionální** akt jednotlivce, ale skrze **architekturu** informačního prostředí.
 - Algoritmická filtrace sociálních sítí představuje paradigmatický případ biopolitické EA: žádný jednotlivec necenzuruje, a přece je výsledný informační prostor systematicky deformován.
 
@@ -52,7 +52,7 @@ Foucaultova analýza biopolitiky (*Naissance de la biopolitique*, přednášky 1
 Kompendium odbočuje od Foucaulta v **třech bodech**:
 
 1. **Normativní afirmace.** Foucault (zejména pozdní) odmítá privilegované normativní stanovisko. Kompendium naopak deklaruje **explicitní normativní závazek** k epistemické integritě (viz [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)). Tato pozice je sice slabší než klasický fundacionalismus, ale silnější než foucaultovský diskurzivní deskriptivismus.
-2. **Klinická intervenovatelnost.** Foucault skepticky pohlíží na "osvobozující" projekty (kritická psychiatrie). Kompendium naopak připouští, že **terapeutická intervence** je možná a etická, byť pouze v rámcích explicitně definovaných v sekci 06.
+2. **Klinická intervenovatelnost.** Foucault skepticky pohlíží na „osvobozující“ projekty (kritická psychiatrie). Kompendium naopak připouští, že **terapeutická intervence** je možná a etická, byť pouze v rámcích explicitně definovaných v sekci 06.
 3. **Strukturální realismus.** Foucault je často interpretován jako antirealisticky orientovaný diskurzivní konstruktivista. Kompendium zaujímá stanovisko **kritického realismu** ([2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)) — epistemické patologie mají **strukturální vlastnosti**, jež nejsou redukovatelné na diskurzivní efekty.
 
 ## 2. Theodor W. Adorno — instrumentální rozum a negativní dialektika
@@ -170,7 +170,7 @@ Habermasova **diskursivní etika** (zejména *Moralbewußtsein und kommunikative
 Pro klinickou aplikaci ([sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)) tento princip znamená:
 
 - Terapeutické intervence cílící na epistemické trauma musí být **diskursivně legitimovatelné** — pacient musí být schopen retrospektivně souhlasit s podstatou intervence.
-- Etika vyžaduje **explicitní informovaný souhlas** k epistemické rekonstrukci, nikoli pouze paternalistickou aplikaci "objektivně správného" rámce.
+- Etika vyžaduje **explicitní informovaný souhlas** k epistemické rekonstrukci, nikoli pouze paternalistickou aplikaci „objektivně správného“ rámce.
 
 ### 4.4 Lifeworld vs. systém
 
@@ -237,7 +237,6 @@ Filosofický rámec kompendia **není** uzavřený. Otevřené teoretické body,
 - [Glosář: 3NL](@/glossary/3nl.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

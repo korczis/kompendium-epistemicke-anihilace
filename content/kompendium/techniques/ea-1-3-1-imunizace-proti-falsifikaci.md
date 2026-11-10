@@ -53,9 +53,9 @@ Empirická realita generuje evidenci **proti** teorii. To je **nevyhnutelné** p
 
 Místo **revize** teorie je zavedena **ad hoc výjimka**:
 
-- "Ale ne v tomto případě, protože X."
-- "Toto je speciální případ, kde platí Y."
-- "Teorie predikuje Z, **ale pouze za podmínky** W (která dosud nebyla artikulována)."
+- „Ale ne v tomto případě, protože X.“
+- „Toto je speciální případ, kde platí Y.“
+- „Teorie predikuje Z, **ale pouze za podmínky** W (která dosud nebyla artikulována).“
 
 Klíčová charakteristika: **W** se objevuje **až po** kontradiktorní evidenci, **nikdy** předem.
 
@@ -63,8 +63,8 @@ Klíčová charakteristika: **W** se objevuje **až po** kontradiktorní evidenc
 
 Pokud konkrétní termín v teorii čelí kontradikci, jeho **definice** je modifikována:
 
-- "Když říkáme 'X', myslíme tím 'X v jistém smyslu'..."
-- "Kategorie X' nezahrnuje případy typu Y."
+- „Když říkáme 'X', myslíme tím 'X v jistém smyslu'…“
+- „Kategorie X' nezahrnuje případy typu Y.“
 
 Po opakovaných modifikacích se původní teorie stává **významově nepoznatelnou**, ale udržuje **rétorickou kontinuitu**.
 
@@ -72,14 +72,14 @@ Po opakovaných modifikacích se původní teorie stává **významově nepoznat
 
 Pro každou vlnu kontradikcí jsou postulovány **auxiliární hypotézy**:
 
-- "Teorie hlavní platí, ale je modulována mechanismem M."
-- "Predikce by se splnila, kdyby nebylo intervenujícího faktoru F."
+- „Teorie hlavní platí, ale je modulována mechanismem M.“
+- „Predikce by se splnila, kdyby nebylo intervenujícího faktoru F.“
 
 Tyto hypotézy jsou samy o sobě často **nedokazatelné** a slouží **výhradně** k absorpci specifických kontradiktorních dat.
 
 ### Krok 6 — Konsolidace netestovatelnosti
 
-Po několika cyklech se teorie stává **netestovatelnou**: pro **jakoukoli** myslitelnou evidenci existuje pre-hotová **interpretační strategie**, která ji integruje. Subjekt prožívá teorii jako "**explanační silnou**" (vysvětluje vše), aniž by si uvědomoval, že explanační síla je důsledkem **strukturálního prázdnoty** — teorie nevylučuje **žádnou** evidenci, takže nepředstavuje žádné epistemické riziko.
+Po několika cyklech se teorie stává **netestovatelnou**: pro **jakoukoli** myslitelnou evidenci existuje pre-hotová **interpretační strategie**, která ji integruje. Subjekt prožívá teorii jako „**explanační silnou**“ (vysvětluje vše), aniž by si uvědomoval, že explanační síla je důsledkem **strukturálního prázdnoty** — teorie nevylučuje **žádnou** evidenci, takže nepředstavuje žádné epistemické riziko.
 
 ## Fenomenologické znaky
 
@@ -118,7 +118,7 @@ Imunizace vs. **legitimní teoretická revize**:
 | **Definiční stabilita** | Tekutá | Stabilní |
 | **Ochota přijmout falsifikaci** | Rezistentní | Otevřená |
 
-Hraniční případy: Lakatosův *research programme* — některé legitimní programy obsahují **protective belt** auxiliárních hypotéz. Distinkce: Lakatosovský protective belt **musí** generovat **nové, nezávislé predikce** ("progressive problem shifts"); imunizační belt **pouze** absorbuje kontradikce ("degenerative problem shifts").
+Hraniční případy: Lakatosův *research programme* — některé legitimní programy obsahují **protective belt** auxiliárních hypotéz. Distinkce: Lakatosovský protective belt **musí** generovat **nové, nezávislé predikce** („progressive problem shifts“); imunizační belt **pouze** absorbuje kontradikce („degenerative problem shifts“).
 
 ## Rizikové kontexty
 
@@ -140,12 +140,12 @@ Hraniční případy: Lakatosův *research programme* — některé legitimní p
 
 Při setkání s teorií **explicitně** požaduj:
 
-> *"Jaká specifická evidence by tuto teorii falsifikovala?"*
+> *„Jaká specifická evidence by tuto teorii falsifikovala?“*
 
 Pokud manipulátor:
 
 - **Nemůže** specifikovat → silný indikátor netestovatelnosti
-- **Specifikuje příliš obecně** ("kdyby vše bylo jinak") → indikátor obrany
+- **Specifikuje příliš obecně** („kdyby vše bylo jinak“) → indikátor obrany
 - **Specifikuje precizně** → legitimní testovatelná teorie
 
 #### 2. **Identifikace ad hoc modifikací**
@@ -173,7 +173,7 @@ Degenerativní programy by měly být **opouštěny**, nikoli posilovány.
 
 #### 5. **Active falsification attempt**
 
-Aktivně **hledej** evidenci, která by teorii falsifikovala. Pokud subjekt **odmítá** uznat hypotetickou falsifikační evidenci ("ale to by se nemohlo stát z důvodů X"), to samo o sobě je **diagnostické**.
+Aktivně **hledej** evidenci, která by teorii falsifikovala. Pokud subjekt **odmítá** uznat hypotetickou falsifikační evidenci („ale to by se nemohlo stát z důvodů X“), to samo o sobě je **diagnostické**.
 
 ### Institucionální
 
@@ -191,10 +191,10 @@ Aktivně **hledej** evidenci, která by teorii falsifikovala. Pokud subjekt **od
 
 Klasický Popperovský příklad. Astrologické predikce:
 
-- Konkrétní → "Stane se X"
-- Po non-occurrence → "Stalo by se X, kdyby nebylo Y"
-- Po cumulative non-occurrence → "X je interpretováno spirituálně, ne literálně"
-- Po philosophical critique → "Astrologie odhaluje archetypální vzorce, ne konkrétní události"
+- Konkrétní → „Stane se X“
+- Po non-occurrence → „Stalo by se X, kdyby nebylo Y“
+- Po cumulative non-occurrence → „X je interpretováno spirituálně, ne literálně“
+- Po philosophical critique → „Astrologie odhaluje archetypální vzorce, ne konkrétní události“
 
 Strukturální imunizace přes generace.
 
@@ -202,9 +202,9 @@ Strukturální imunizace přes generace.
 
 Macroekonomická teorie predikuje X. Empirická realita ukáže non-X.
 
-- Verze 1: "X by se stalo, kdyby central bank reagovala správně"
-- Verze 2: "X by se stalo, kdyby nebyly external shocks"
-- Verze 3: "X by se stalo v dlouhém horizontu" (kde "dlouhý" je nedefinován)
+- Verze 1: „X by se stalo, kdyby central bank reagovala správně“
+- Verze 2: „X by se stalo, kdyby nebyly external shocks“
+- Verze 3: „X by se stalo v dlouhém horizontu“ (kde „dlouhý“ je nedefinován)
 
 Detekce: Externí kritická revue ekonomické literatury identifikuje vzorec degenerativních shiftů.
 
@@ -212,12 +212,12 @@ Intervence: Pre-registered macroekonomické modely s explicitními kvantitativn�
 
 ### Případ 3 — Klinická psychiatrie
 
-Specifický terapeutický přístup tvrdí "**efektivnost** pro většinu pacientů". V případě failure přístup tvrdí:
+Specifický terapeutický přístup tvrdí „**efektivnost** pro většinu pacientů“. V případě failure přístup tvrdí:
 
-- "Pacient nedodržel"
-- "Pacient nebyl ready"
-- "Pacient byl special case"
-- "Failure je ve skutečnosti součást healing process"
+- „Pacient nedodržel“
+- „Pacient nebyl ready“
+- „Pacient byl special case“
+- „Failure je ve skutečnosti součást healing process“
 
 Detekce: Externí klinický audit identifikuje, že **každé** failure je vysvětleno auxiliárním hypotézou.
 
@@ -234,7 +234,7 @@ Intervence: Strukturální požadavek na pre-registered outcome criteria; advers
 
 ### Eskaluje do
 
-- **EA-1.6.1 Vzorec "Guru a adept"** — guru vede teorii v dlouhodobé imunizační dynamice.
+- **EA-1.6.1 Vzorec „Guru a adept“** — guru vede teorii v dlouhodobé imunizační dynamice.
 - **Strukturální delegitimizace pole** ([Scénář F](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — kolektivní imunizace odbourává epistemickou zdravost komunity.
 
 ### Hraniční / podobné
@@ -261,7 +261,6 @@ Intervence: Strukturální požadavek na pre-registered outcome criteria; advers
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

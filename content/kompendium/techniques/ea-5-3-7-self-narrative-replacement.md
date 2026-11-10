@@ -123,7 +123,6 @@ Technika **self-narrative replacement** představuje strukturální výzvu pro d
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Ricoeurova **narativní identita** je nahrazena cizím master-narrativem — substituovaný subjekt vypráví příběh, který není jeho. Husserlova **passive synthesis** je obejita: nový narativ je vložen aktivně, bez postupné sedimentace. Merleau-Pontyho **chair** odhaluje, že narativ je tělově ukotven — replacement narratives nemají tělovou rezonanci, jsou disinkarnovány. Damasiův **self-as-knower/self-as-known** rozštěp se prohlubuje. Levinasovo **témoignage** (svědectví) je falsifikováno: subjekt svědčí o příběhu, který sám nezažil. Lyotardova kritika **velkých vyprávění** (*La condition postmoderne*) ukazuje moc master-narrativů — manipulace je instaluje na mikro-úrovni. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

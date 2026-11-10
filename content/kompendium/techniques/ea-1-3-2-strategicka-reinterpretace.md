@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 **Strategická reinterpretace** je systematické **přeinterpretování evidence**, která **kontradiktuje** specifickou teorii nebo pozici, způsobem, který ji **transformuje** na **podporující** evidenci. Strukturálně **sourozenecká** vůči [EA-1.3.1 Imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), ale s odlišným mechanismem: imunizace přidává **auxiliární hypotézy**; strategická reinterpretace **přeinterpretovává existující evidenci**.
 
-Klíčový mechanismus: **exploitace inherentní interpretační flexibility** empirických dat, kombinovaná s **rekurzivní hermeneutickou adjustací**. Stejná data, která původně byla čtena jako "**proti**" teorii, jsou zpětně čtena jako "**pro**" — bez explicitního přiznání, že interpretace se změnila.
+Klíčový mechanismus: **exploitace inherentní interpretační flexibility** empirických dat, kombinovaná s **rekurzivní hermeneutickou adjustací**. Stejná data, která původně byla čtena jako „**proti**“ teorii, jsou zpětně čtena jako „**pro**“ — bez explicitního přiznání, že interpretace se změnila.
 
 Strukturální problém: **veškerá** empirická evidence vyžaduje interpretaci. Strategická reinterpretace neexploituje tuto **legitimní** flexibilitu, ale její **nelegitimní** rozšíření na případy, kdy data **strukturálně** odporují teorii.
 
@@ -55,15 +55,15 @@ Empirická realita generuje data, která **podle iniciálního rámce** kontradi
 
 Místo **revize teorie** je provedena **adjustace interpretačního rámce**:
 
-- "Toto data nelze číst tak povrchně — strukturálně podporují teorii, pokud rozumíme..."
-- "Při hlubší analýze tato data ukazují, že..."
-- "Skutečný význam těchto dat je opačný od povrchového dojmu..."
+- „Toto data nelze číst tak povrchně — strukturálně podporují teorii, pokud rozumíme…“
+- „Při hlubší analýze tato data ukazují, že…“
+- „Skutečný význam těchto dat je opačný od povrchového dojmu…“
 
 Výsledek: kontradiktorní evidence je **přečtena** jako podporující — bez **explicitního** přiznání, že se interpretační rámec změnil.
 
 ### Krok 4 — Rekurzivní rekonstrukce minulosti
 
-Předchozí evidence, která byla **interpretována** v starém rámci, je **retrospektivně reinterpretována** v novém. Subjekt prožívá **kontinuální** narativ — "teorie byla **vždy** podporována touto evidencí" — aniž by si uvědomoval, že interpretace byly průběžně **přepisovány**.
+Předchozí evidence, která byla **interpretována** v starém rámci, je **retrospektivně reinterpretována** v novém. Subjekt prožívá **kontinuální** narativ — „teorie byla **vždy** podporována touto evidencí“ — aniž by si uvědomoval, že interpretace byly průběžně **přepisovány**.
 
 ### Krok 5 — Konsolidace nestability interpretace
 
@@ -124,7 +124,7 @@ Strategická reinterpretace vs. **legitimní hermeneutická revize**:
 
 Před evaluací evidence **explicitně** požaduj:
 
-> *"Jaká pravidla budeme používat pro čtení této evidence? Specificky — jaký výsledek by byl podporující, jaký falsifikující?"*
+> *„Jaká pravidla budeme používat pro čtení této evidence? Specificky — jaký výsledek by byl podporující, jaký falsifikující?“*
 
 Předem dokumentované **interpretační principy** zabraňují post hoc reinterpretaci.
 
@@ -175,9 +175,9 @@ Pre-registered forecasting (Tetlock-style superforecasting) — **explicitní** 
 
 Originální experiment ukázal X. Replikace ukázala non-X.
 
-- Reinterpretace 1: "Replikace nereplikovala přesně" (true, ale interpretačně unprincipled)
-- Reinterpretace 2: "Replikace ukazuje contextual sensitivity, což je samo o sobě teoreticky zajímavé"
-- Reinterpretace 3: "Failure to replicate je informativní pro teorii"
+- Reinterpretace 1: „Replikace nereplikovala přesně“ (true, ale interpretačně unprincipled)
+- Reinterpretace 2: „Replikace ukazuje contextual sensitivity, což je samo o sobě teoreticky zajímavé“
+- Reinterpretace 3: „Failure to replicate je informativní pro teorii“
 
 Detekce: Externí meta-analýza identifikuje vzorec — failure-to-replicate **systematically** reinterpretované jako podporující.
 
@@ -187,9 +187,9 @@ Intervence: Pre-registration mandates; methodological transparency.
 
 Politik prohlásil X. Realita ukázala non-X. Místo přiznání:
 
-- "X jsme **mysleli** v jiném smyslu"
-- "X bude trvat déle, než jsme předpovídali, ale je to konzistentní s..."
-- "Skutečný X je v jiném metricu, ne v tom, který jsme původně používali"
+- „X jsme **mysleli** v jiném smyslu“
+- „X bude trvat déle, než jsme předpovídali, ale je to konzistentní s…“
+- „Skutečný X je v jiném metricu, ne v tom, který jsme původně používali“
 
 Detekce: Externí fact-check organizace dokumentuje původní formulace.
 
@@ -199,9 +199,9 @@ Intervence: Strukturální accountability; **dokumentované** original statement
 
 Pacient v terapii nezlepšuje. Místo revize přístupu:
 
-- "Pacient prochází 'getting worse before getting better'"
-- "Toto je terapeutická regrese"
-- "Resistance je signál, že terapie funguje"
+- „Pacient prochází 'getting worse before getting better'“
+- „Toto je terapeutická regrese“
+- „Resistance je signál, že terapie funguje“
 
 Detekce: Externí clinical audit; comparative studies s alternative přístupy.
 
@@ -218,7 +218,7 @@ Intervence: Pre-registered outcome criteria; structured clinical decision rules.
 
 ### Eskaluje do
 
-- **EA-1.6.1 Vzorec "Guru a adept"** — guru kontroluje "správnou" interpretaci kontinuálně.
+- **EA-1.6.1 Vzorec „Guru a adept“** — guru kontroluje „správnou“ interpretaci kontinuálně.
 - **Kolektivní strategická reinterpretace** — strukturální delegitimizace pole skrze reinterpretaci celých historických záznamů.
 
 ### Hraniční / podobné
@@ -244,7 +244,6 @@ Intervence: Pre-registered outcome criteria; structured clinical decision rules.
 - **Související platformové koncepty**:
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
-
 
 ## ⚡ Kritický krok
 

@@ -41,7 +41,7 @@ Snyderovy lekce strukturálně mapují na **prakticko-politické** intervence:
 14. **Ustanovit soukromý život** — autoritáři **kontaminují** soukromí
 15. **Přispěvejte na dobré cíle** — angažmá strukturálně **kotví**
 16. **Učit se od kolegů z jiných zemí** — strukturální solidarita
-17. **Naslouchejte nebezpečným slovům** — "teroristé", "extremisté", "nepřátelé lidu"
+17. **Naslouchejte nebezpečným slovům** — „teroristé“, „extremisté“, „nepřátelé lidu“
 18. **Zachovejte klid, když nemyslitelné přijde** — autoritáři exploitují krize
 19. **Buďte vlastenci** — autoritáři přivlastňují národní symboly
 20. **Buďte stateční**, jak jen umíte
@@ -71,15 +71,15 @@ Strukturální paralela s **Arendtovou** ([viz 7.18](@/kompendium/07-teoreticke-
 
 Pro EA z toho plyne:
 
-- **Post-truth jako strategická EA**: nikoli pouze "více lží", ale **strukturální anihilace** kategorie pravdy.
+- **Post-truth jako strategická EA**: nikoli pouze „více lží“, ale **strukturální anihilace** kategorie pravdy.
 - **Counter-EA**: **odmítnutí** post-truth nihilismu, **trvání** na pravdě jako kategorii.
 
 ## 4. Politika věčnosti vs. politika nevyhnutelnosti
 
 Snyderova **strukturální** analýza:
 
-- **Politika nevyhnutelnosti** (po roce 1989): "kapitalismus + demokracie = zaručená budoucnost"
-- **Politika věčnosti** (po roce 2008): "byly skvělé dny v minulosti, vrátíme se k nim"
+- **Politika nevyhnutelnosti** (po roce 1989): „kapitalismus + demokracie = zaručená budoucnost“
+- **Politika věčnosti** (po roce 2008): „byly skvělé dny v minulosti, vrátíme se k nim“
 
 Obě jsou strukturálně **anti-historické** — odmítají **kontingenci** dějin a aktivní politické jednání.
 
@@ -96,11 +96,11 @@ V *The Road to Unfreedom* a v četných esejích Snyder dokumentuje **ruské** o
 - **Trolling armády**: organizovaná dezinformační kampaň
 - **Kompromitace politiků**: kybernetické útoky
 - **Amplifikace existujících konfliktů**: minoritní problémy → masové polarizace
-- **Falešné tvrzení rovnocennosti**: "všechny demokracie jsou stejně korupní"
+- **Falešné tvrzení rovnocennosti**: „všechny demokracie jsou stejně korupní“
 
 Pro EA má tato dokumentace **strukturální význam**:
 
-- **Politická EA je realita**: nikoli "konspirační teorie", ale dokumentovaná operativní realita
+- **Politická EA je realita**: nikoli „konspirační teorie“, ale dokumentovaná operativní realita
 - **Strukturální propojení s Color Teams**: simulace **adversárních** taktik je strukturálně preventivní
 
 ## 6. Mapping na EA techniky
@@ -127,7 +127,7 @@ Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.
 
 - **Politické trauma**: subjekti vystaveni autoritářskému režimu vyžadují **specifickou** klinickou pozornost
 - **Restituce politické agency**: pacient se učí **angažovat** se v demokratických procesech
-- **Counter-paranoia**: lekce 11 ("vyšetřujte") je strukturálně **opačná** ke konspiračnímu myšlení — vyšetřování má **kritérium**, není **bezbřehé** podezírání
+- **Counter-paranoia**: lekce 11 („vyšetřujte“) je strukturálně **opačná** ke konspiračnímu myšlení — vyšetřování má **kritérium**, není **bezbřehé** podezírání
 
 ## 9. Primární literatura
 

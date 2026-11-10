@@ -22,14 +22,14 @@ toc = false
 
 ## Operační modus (3 kroky)
 
-1. Vytvoření iluze "spontánního" peer konsenzu proti subjektu — koordinovaná, nikoli organická vlna kritiky (sdílená wording, časová synchronizace)
+1. Vytvoření iluze „spontánního“ peer konsenzu proti subjektu — koordinovaná, nikoli organická vlna kritiky (sdílená wording, časová synchronizace)
 2. Eskalace skrze sociální média / interní listservy — text útoku migruje s drobnými modifikacemi, kořen je ale jeden
 3. Sociální izolace cíle — peers, kteří by ho hájili, mlčí, protože vidí cenu obhajoby; mob roste z toho mlčení
 
 ## Detekční markery (3 nejvýraznější)
 
 - Lexikální analýza odhalí, že kritiky používají identické fráze v různých kanálech — koordinace je viditelná v textu
-- Časový vzorec — vlna začíná synchronizovaně po jednom konkrétním "spouštěči", nikoli organickou difúzí
+- Časový vzorec — vlna začíná synchronizovaně po jednom konkrétním „spouštěči“, nikoli organickou difúzí
 - Účastníci mobu nebyli předtím v obsahovém kontaktu se subjektem — útok je univerzální, nespecifický
 
 ## Neutralizační strategie (3 nejúčinnější)
@@ -40,7 +40,7 @@ toc = false
 
 ## Příklad
 
-Akademička publikuje studii, jejíž závěry se nelíbí jednomu vlivnému kruhu. Během 48 hodin dostane 20 e-mailů a tweetů s identickou frází "tato práce porušuje základní metodologické standardy". Žádný z autorů studii neviděl podrobně. Po šesti měsících se to v komunitě stalo "obecně známou pravdou".
+Akademička publikuje studii, jejíž závěry se nelíbí jednomu vlivnému kruhu. Během 48 hodin dostane 20 e-mailů a tweetů s identickou frází „tato práce porušuje základní metodologické standardy“. Žádný z autorů studii neviděl podrobně. Po šesti měsících se to v komunitě stalo „obecně známou pravdou“.
 
 ## Cross-linky
 

@@ -123,7 +123,6 @@ Technika **minimal-self deformace** představuje strukturální výzvu pro defen
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Zahaviho **minimal self** (*Self-Awareness and Alterity*, 1999) — pre-reflektivní self-awareness, *for-me-ness* každé zkušenosti — je deformována. Husserlovo **Selbstgegebenheit** (sebe-danost) ztrácí samozřejmost. Damasiův **core self** je rozštěpen od proto-selfu. Merleau-Pontyho **mineness** vlastního těla je narušena. Sartrova **pré-réflexive cogito** (*La Transcendance de l'Ego*) ztrácí jednotu. Levinas: **iposeité** (sebství jako noc unutrnění) je instrumentalizována. Henry: **auto-affection** (*L'essence de la manifestation*) přestává být samozřejmá. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

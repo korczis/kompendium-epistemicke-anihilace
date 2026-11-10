@@ -96,7 +96,7 @@ BTT poskytuje empirický rámec pro pochopení, **proč** některé EA techniky 
 BTT má pro klinickou aplikaci **fundamentální** důsledky:
 
 1. Pacient nemusí **vědět**, že byl epistemicky traumatizován — betrayal blindness je adaptivní, nikoli patologická
-2. Konfrontace traumatu musí být **postupná** a **kontextualizovaná** — náhlé "odhalení" může destabilizovat vazebné struktury, na nichž pacient stále závisí
+2. Konfrontace traumatu musí být **postupná** a **kontextualizovaná** — náhlé „odhalení“ může destabilizovat vazebné struktury, na nichž pacient stále závisí
 3. Důvěra v terapeutický vztah je **současně podmínkou** a **prvním cílem** terapie
 
 ## 3. Prediktivní zpracování a model světa (Friston, Clark, Hohwy)
@@ -196,7 +196,7 @@ Chris Brewin (Brewin, Dalgleish, Joseph, 1996; Brewin, 2014) formuloval **teorii
 
 Traumatická paměť je dominantně **SAM** — tj. neintegrovaná do narativní struktury. **Klinický cíl** spočívá v **integraci** SAM do VAM.
 
-Pro EA: **epistemické trauma** vykazuje analogickou strukturu — fragmentované epistemické "vzpomínky" (somatosenzorické, afektivní, intuitivní), jež nejsou narativně integrovány do koherentního autobiografického příběhu.
+Pro EA: **epistemické trauma** vykazuje analogickou strukturu — fragmentované epistemické „vzpomínky“ (somatosenzorické, afektivní, intuitivní), jež nejsou narativně integrovány do koherentního autobiografického příběhu.
 
 ## 5. Neuroplasticita a rekonstrukce
 
@@ -296,7 +296,6 @@ Empirická literatura epistemického traumatu **přímo informuje** taxonomické
 - [Glosář: Decision Core](@/glossary/decision-core.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

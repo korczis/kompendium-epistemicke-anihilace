@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Ontologická exfoliace** je ultramari technika, která **postupně, vrstvu po vrstvě odlupuje** ontologické závazky subjektu — tedy ty implicitní i explicitní předpoklady o tom, *co existuje* a *jakého druhu věci jsou ty, s nimiž má smysl počítat*. Exfoliace probíhá v přesně daném sledu: nejprve abstraktní entity (čísla, hodnoty, instituce), poté sociokulturní kategorie (role, identita, příslušnost), pak fyzické objekty (předměty, místa, těla), a nakonec **self** — subjekt sám jako referenční bod. Po dokončení procesu **subjekt nemá stabilní referenci reality**.
 
-Exfoliace je strukturálně analogická chemické exfoliaci kůže: každá vrstva je odstraňována *kontrolovaně*, *postupně*, a *zdánlivě jako emancipace* (subjekt prožívá odstranění jako "osvobození od iluzí"). Distinktivní rys oproti běžné dekonstrukci ([viz fenomenologie](@/glossary/fenomenologie.md)) spočívá v **absenci rekonstrukčního momentu**: legitimní filozofická dekonstrukce vede k re-artikulaci ontologických závazků na vyšší úrovni reflexe; exfoliace **rekonstrukci aktivně blokuje**, takže subjekt zůstává v progresivně tenčí ontologické kůži, dokud nezůstane nic.
+Exfoliace je strukturálně analogická chemické exfoliaci kůže: každá vrstva je odstraňována *kontrolovaně*, *postupně*, a *zdánlivě jako emancipace* (subjekt prožívá odstranění jako „osvobození od iluzí“). Distinktivní rys oproti běžné dekonstrukci ([viz fenomenologie](@/glossary/fenomenologie.md)) spočívá v **absenci rekonstrukčního momentu**: legitimní filozofická dekonstrukce vede k re-artikulaci ontologických závazků na vyšší úrovni reflexe; exfoliace **rekonstrukci aktivně blokuje**, takže subjekt zůstává v progresivně tenčí ontologické kůži, dokud nezůstane nic.
 
 V terminálním stavu exfoliace produkuje **ontologickou anihilaci** ([viz ontologická anihilace](@/glossary/ontologicka-anihilace.md)) — subjekt nedokáže s jistotou určit, co je skutečné, co je nikoli, ani kdo je on sám.
 
@@ -49,9 +49,9 @@ Technika operuje v pěti vrstvách odlupování, prováděných sekvenčně.
 
 Operátor začíná s **nejvzdálenější** ontologickou vrstvou: abstraktními entitami (matematické objekty, hodnoty, instituce, právo). Argumentační vzorec:
 
-- "Spravedlnost je jen jméno pro mocenský vztah"
-- "Čísla neexistují, jsou to konvenční symboly"
-- "Instituce jsou kolektivní halucinace"
+- „Spravedlnost je jen jméno pro mocenský vztah“
+- „Čísla neexistují, jsou to konvenční symboly“
+- „Instituce jsou kolektivní halucinace“
 
 Tato vrstva je relativně **bezpečná** pro odstranění — mnoho subjektů ji odlupuje sami v rámci běžné kritické reflexe. Operátor však zajistí, že **rekonstrukční** krok (re-artikulace na vyšší úrovni) **neproběhne**.
 
@@ -59,9 +59,9 @@ Tato vrstva je relativně **bezpečná** pro odstranění — mnoho subjektů ji
 
 Po destabilizaci abstraktních entit operátor cíleně rozkládá **sociokulturní** kategorie: rod, povolání, etnická příslušnost, rodinné role, generace.
 
-- "Tvoje povolání tě nedefinuje"
-- "Příslušnost ke skupině je iluze"
-- "Rodinné vazby jsou jen biologické náhody"
+- „Tvoje povolání tě nedefinuje“
+- „Příslušnost ke skupině je iluze“
+- „Rodinné vazby jsou jen biologické náhody“
 
 Subjekt je v této fázi typicky pobouřen nebo emocionálně zasažen, ale postupně přijímá narativ, že tyto kategorie jsou **fikční**.
 
@@ -69,9 +69,9 @@ Subjekt je v této fázi typicky pobouřen nebo emocionálně zasažen, ale post
 
 Operátor zpochybňuje stabilní existenci **fyzických objektů**: domov, místa, předměty důvěrné identifikace, dokonce i biologické tělo.
 
-- "Tvůj domov je jen souborem atomů"
-- "Tělo je proudem buněčných obratů, žádná identita"
-- "Místa jsou konstrukty paměti"
+- „Tvůj domov je jen souborem atomů“
+- „Tělo je proudem buněčných obratů, žádná identita“
+- „Místa jsou konstrukty paměti“
 
 Tato vrstva je již vážně dezorientující — subjekt ztrácí orientační kotvy v každodenní zkušenosti.
 
@@ -81,7 +81,7 @@ Před přechodem k poslednímu kroku operátor destabilizuje **čas a kauzalitu*
 
 ### Vrstva 5 — Exfoliace self
 
-V terminální vrstvě je odstraněn **subjekt sám jako referenční bod**. Argumentační vzorce: "Žádné stabilní já neexistuje", "Pocit subjektu je epifenomén", "Ty, kdo to čte, je jen biochemický proces".
+V terminální vrstvě je odstraněn **subjekt sám jako referenční bod**. Argumentační vzorce: „Žádné stabilní já neexistuje“, „Pocit subjektu je epifenomén“, „Ty, kdo to čte, je jen biochemický proces“.
 
 Po této vrstvě subjekt **nemá z čeho se ptát na to, co existuje** — referenční bod tázání byl odstraněn jako poslední vrstva.
 
@@ -89,13 +89,13 @@ Po této vrstvě subjekt **nemá z čeho se ptát na to, co existuje** — refer
 
 Co prožívá subjekt **uvnitř** ontologické exfoliace:
 
-- **Iniciálně: pocit osvobození** — odlupování první vrstvy je provázeno euforií "konečně vidím skrz iluze"
-- **Postupně: difúzní úzkost** — orientační body se rozplývají, ale subjekt je interpretuje jako "intenzitu nového vnímání"
+- **Iniciálně: pocit osvobození** — odlupování první vrstvy je provázeno euforií „konečně vidím skrz iluze“
+- **Postupně: difúzní úzkost** — orientační body se rozplývají, ale subjekt je interpretuje jako „intenzitu nového vnímání“
 - **Derealizace** — okolní svět začíná působit *vzdáleně*, *plochcky*, *jako film*
 - **Depersonalizace** — vlastní zkušenost působí *cizí*, *zvenku pozorovaná*
 - **Estetická fascinace prázdnotou** — exfoliace je často podávána v jazyce hluboké duchovnosti, takže subjekt prožívá ztrátu jako *probuzení*
 - **Ztráta operativnosti** — subjekt má potíže s běžnými rozhodnutími (co jíst, kam jít), protože odpadají kategorie, podle nichž lze rozhodovat
-- **Pocit "kosmické perspektivy"** — vzdálení se od běžných referencí je interpretováno jako vyšší úroveň náhledu
+- **Pocit „kosmické perspektivy“** — vzdálení se od běžných referencí je interpretováno jako vyšší úroveň náhledu
 - **Hermeneutický kolaps](@/glossary/hermeneutika.md)** — neschopnost interpretovat nové situace, protože interpretační rámec byl odstraněn
 
 ## Detekční markery (pohled pozorovatele)
@@ -137,7 +137,7 @@ Ontologickou exfoliaci je nutné odlišit od:
 
 #### 1. **Ontologická inventarizace**
 
-Subjekt periodicky provede inventarizaci **ontologických závazků**: "Co považuji za skutečné? Co za fungující kategorii? Co za nezbytné pro každodenní orientaci?" Pokud se inventář progresivně tenčí, je to varovný signál.
+Subjekt periodicky provede inventarizaci **ontologických závazků**: „Co považuji za skutečné? Co za fungující kategorii? Co za nezbytné pro každodenní orientaci?“ Pokud se inventář progresivně tenčí, je to varovný signál.
 
 #### 2. **Rekonstrukční disciplína**
 
@@ -164,15 +164,15 @@ Pravidelná interakce s **diverzním** kruhem osob, které sdílejí běžné on
 
 ### Případ 1 — Anonymizovaný spirituální kontext
 
-Účastník 7letého programu ezoterického společenství vykazoval po čtvrtém roce progresivní ztrátu schopnosti rozhodovat o běžných záležitostech, derealizační epizody, a verbalizaci typu "nejsem si jistý, jestli ty jsi skutečný". Detekce: rodinný příslušník vyhledal externího terapeuta. Diagnostika odhalila vrstvy 1-4 odstraněny, vrstva 5 v procesu. Intervence: 24měsíční rekonstrukční program zahrnující komunitní zakotvení, operativní rehabilitaci, a postupné re-etablování sociokulturních závazků.
+Účastník 7letého programu ezoterického společenství vykazoval po čtvrtém roce progresivní ztrátu schopnosti rozhodovat o běžných záležitostech, derealizační epizody, a verbalizaci typu „nejsem si jistý, jestli ty jsi skutečný“. Detekce: rodinný příslušník vyhledal externího terapeuta. Diagnostika odhalila vrstvy 1-4 odstraněny, vrstva 5 v procesu. Intervence: 24měsíční rekonstrukční program zahrnující komunitní zakotvení, operativní rehabilitaci, a postupné re-etablování sociokulturních závazků.
 
 ### Případ 2 — Akademický kontext
 
-Doktorand v dekonstrukčně orientovaném programu po 5 letech vykazoval neschopnost dokončit dizertaci, protože "každá teze je jen mocensky etablovaná fikce". Detekce: konzultace s externím supervizorem odhalila absenci rekonstrukčního kroku v jeho akademické formaci. Intervence: změna supervize, povinná rekonstrukční oblastní práce.
+Doktorand v dekonstrukčně orientovaném programu po 5 letech vykazoval neschopnost dokončit dizertaci, protože „každá teze je jen mocensky etablovaná fikce“. Detekce: konzultace s externím supervizorem odhalila absenci rekonstrukčního kroku v jeho akademické formaci. Intervence: změna supervize, povinná rekonstrukční oblastní práce.
 
 ### Případ 3 — Online komunita
 
-Uživatel internetové subkultury "od-iluze-osvobozený" reportoval po 18 měsících aktivní účasti depersonalizační epizody, ztrátu identifikace s rodinou, a neschopnost udržet zaměstnání. Detekce: sebehlášení v krizové lince. Intervence: odpojení od komunity, terapeutická rekonstrukce identitních závazků, postupné re-etablování operativních kategorií.
+Uživatel internetové subkultury „od-iluze-osvobozený“ reportoval po 18 měsících aktivní účasti depersonalizační epizody, ztrátu identifikace s rodinou, a neschopnost udržet zaměstnání. Detekce: sebehlášení v krizové lince. Intervence: odpojení od komunity, terapeutická rekonstrukce identitních závazků, postupné re-etablování operativních kategorií.
 
 ## Vztah k jiným technikám
 
@@ -223,7 +223,6 @@ Uživatel internetové subkultury "od-iluze-osvobozený" reportoval po 18 měsí
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

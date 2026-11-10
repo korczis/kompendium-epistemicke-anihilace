@@ -37,38 +37,38 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Modální dezorientace** je ultramární technika, která systematicky narušuje subjektovu schopnost udržovat stabilní rozlišení mezi **modálními kategoriemi**: *aktuálním* (co je), *možným* (co může být), *nutným* (co musí být), *kontingentním* (co je, ale mohlo nebýt), *kontrafaktuálním* (co bylo by, kdyby), a *imaginárním* (co je pouze představované).
 
-Subjekt si zachovává schopnost tyto kategorie pojmenovat — **přestává je však spolehlivě aplikovat na vlastní zkušenost**. Hypotetický scénář je prožíván s emoční vahou skutečnosti; aktuální událost je deklasifikována jako "možná by se to dalo říct jinak"; sen, fantazie a vzpomínka se v subjektivní topologii **propíchávají** do jediné nediferencované plochy.
+Subjekt si zachovává schopnost tyto kategorie pojmenovat — **přestává je však spolehlivě aplikovat na vlastní zkušenost**. Hypotetický scénář je prožíván s emoční vahou skutečnosti; aktuální událost je deklasifikována jako „možná by se to dalo říct jinak“; sen, fantazie a vzpomínka se v subjektivní topologii **propíchávají** do jediné nediferencované plochy.
 
-Technika se odlišuje od běžné konfuze (kdy si člověk *není jistý*, ale *ví, že si není jistý*) tím, že **ničí samotnou metakognitivní funkci**, která modální status sleduje. Subjekt přestává mít k dispozici interní marker "toto je realita" vs. "toto je představa" — všechny prožitky přicházejí s rovnocennou ontologickou váhou.
+Technika se odlišuje od běžné konfuze (kdy si člověk *není jistý*, ale *ví, že si není jistý*) tím, že **ničí samotnou metakognitivní funkci**, která modální status sleduje. Subjekt přestává mít k dispozici interní marker „toto je realita“ vs. „toto je představa“ — všechny prožitky přicházejí s rovnocennou ontologickou váhou.
 
 ## Operační modus
 
-### Krok 1 — Etablování diskurzu "vše je interpretace"
+### Krok 1 — Etablování diskurzu „vše je interpretace“
 
-Manipulátor systematicky snižuje epistemickou váhu rozlišení mezi *fakt* a *vyprávění*: "Realita je vždy příběh, žádná čistá fakta neexistují". Tento postoj je v izolaci defenzibilní filosofická pozice — operativně však slouží jako vstupní brána pro **rovnoměrné nasazení modální váhy** na zcela odlišné typy obsahů.
+Manipulátor systematicky snižuje epistemickou váhu rozlišení mezi *fakt* a *vyprávění*: „Realita je vždy příběh, žádná čistá fakta neexistují“. Tento postoj je v izolaci defenzibilní filosofická pozice — operativně však slouží jako vstupní brána pro **rovnoměrné nasazení modální váhy** na zcela odlišné typy obsahů.
 
 ### Krok 2 — Modální zaměňování v běžné komunikaci
 
 V běžných výměnách se systematicky zaměňuje:
 
-- "Mohlo by se stát, že..." prezentováno jako de facto událost
-- Skutečné události reformulovány jako "jedna z možných verzí"
-- Sny a fantazie mluvčího aplikovány na subjekta jako "co se stalo"
-- Subjektovy faktické vzpomínky jsou klasifikovány jako "dojem" nebo "verze"
+- „Mohlo by se stát, že…“ prezentováno jako de facto událost
+- Skutečné události reformulovány jako „jedna z možných verzí“
+- Sny a fantazie mluvčího aplikovány na subjekta jako „co se stalo“
+- Subjektovy faktické vzpomínky jsou klasifikovány jako „dojem“ nebo „verze“
 
 Klíčová je **konzistentnost asymetrie** — modality se posouvají ne náhodně, ale vždy ve směru posilujícím manipulátorovu pozici.
 
 ### Krok 3 — Vsazování imaginace do reality
 
-Subjekt je opakovaně zván k **detailní imaginaci** scénářů (často s pomocí návodných otázek "jak by ses cítil, kdybys...") s následnou diskuzí imaginace, **jako by se odehrála**. Postupně začínají emocionální stopy imaginovaných scénářů konkurovat stopám reálných událostí o stejné neurální zdroje.
+Subjekt je opakovaně zván k **detailní imaginaci** scénářů (často s pomocí návodných otázek „jak by ses cítil, kdybys…“) s následnou diskuzí imaginace, **jako by se odehrála**. Postupně začínají emocionální stopy imaginovaných scénářů konkurovat stopám reálných událostí o stejné neurální zdroje.
 
 ### Krok 4 — Eroze realitního testování
 
-Klasické markery realitního testování — *kontinuita s ostatními paměťovými stopami*, *konzistence smyslových modalit*, *intersubjektivní validace* — jsou systematicky podkopávány: "tvoje paměť je nespolehlivá", "ostatní si to pamatují jinak", "fyzické důkazy by se daly interpretovat jinak". Subjekt postupně přestává mít vnější ani vnitřní pevný bod, k němuž by realitu mohl kotvit.
+Klasické markery realitního testování — *kontinuita s ostatními paměťovými stopami*, *konzistence smyslových modalit*, *intersubjektivní validace* — jsou systematicky podkopávány: „tvoje paměť je nespolehlivá“, „ostatní si to pamatují jinak“, „fyzické důkazy by se daly interpretovat jinak“. Subjekt postupně přestává mít vnější ani vnitřní pevný bod, k němuž by realitu mohl kotvit.
 
 ### Krok 5 — Konsolidace skrze metafyzickou abdikaci
 
-Subjekt se stahuje do pozice "**nemůžu vědět, co je skutečné, a možná to ani nezáleží**". Tato pozice je manipulátorem prezentována jako *zralost*, *filosofická hloubka*, *překonání naivity*. Operativně je to **kapitulace metakognitivní funkce** — subjekt přestal mít investovaný zájem na rozlišení modálního statusu vlastních prožitků.
+Subjekt se stahuje do pozice „**nemůžu vědět, co je skutečné, a možná to ani nezáleží**“. Tato pozice je manipulátorem prezentována jako *zralost*, *filosofická hloubka*, *překonání naivity*. Operativně je to **kapitulace metakognitivní funkce** — subjekt přestal mít investovaný zájem na rozlišení modálního statusu vlastních prožitků.
 
 ## Fenomenologie
 
@@ -82,7 +82,7 @@ Subjekt se stahuje do pozice "**nemůžu vědět, co je skutečné, a možná to
 | **Realitní testy** | Subjekt si je formálně vědom, ale **nedůvěřuje jim** |
 | **Závěry o světě** | Tvořeny ze směsi reálných a imaginovaných epizod |
 
-Charakteristická výpověď: "Vím, že mi to ostatní řekli, ale taky vím, že jsem si to představoval — a já neumím říct, který z těch dvou typů znalosti je primární."
+Charakteristická výpověď: „Vím, že mi to ostatní řekli, ale taky vím, že jsem si to představoval — a já neumím říct, který z těch dvou typů znalosti je primární.“
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -102,7 +102,7 @@ Modální dezorientace se odlišuje od:
 
 - **Psychotické konfuze** — psychóza generuje **pozitivní symptomy** (halucinace, bludy); dezorientace má **negativní strukturu** (chybějící marker), bez paroxysmu.
 - **Dissociace** — disociace má kvalitu **odpojení**; dezorientace má kvalitu **rovnoměrné spojenosti** všech obsahů na stejné úrovni.
-- **Kreativní imaginativní práce** — kreativní pracovník má **explicitní rámec** "teď tvořím"; dezorientovaný subjekt rámec nemá.
+- **Kreativní imaginativní práce** — kreativní pracovník má **explicitní rámec** „teď tvořím“; dezorientovaný subjekt rámec nemá.
 - **Filosofického skepticismu** — skeptik teoreticky **uvažuje o** rozdílu skutečné/zdání; dezorientovaný subjekt **nemá přístup** k aktivnímu rozlišení.
 
 Hraniční případ: některé kontemplativní praktiky (zvláště pokročilé fáze meditace na *prázdnotu*) mohou produkovat **transientní** modální flexibilitu. Ta je v rámci tradice strukturována, kotvena učitelem a integrována. Indukovaná dezorientace nemá strukturu ani kotvu.
@@ -124,7 +124,7 @@ Hraniční případ: některé kontemplativní praktiky (zvláště pokročilé 
 
 #### 1. Explicitní modální značkování
 
-Subjekt vědomě před každou interpretací prožitku **vysloví modální status**: "toto je vzpomínka na skutečnou událost", "toto je hypotetická úvaha", "toto je sen". Praktika působí mechanicky, ale **obnovuje aktivní funkci modálního markeru**.
+Subjekt vědomě před každou interpretací prožitku **vysloví modální status**: „toto je vzpomínka na skutečnou událost“, „toto je hypotetická úvaha“, „toto je sen“. Praktika působí mechanicky, ale **obnovuje aktivní funkci modálního markeru**.
 
 #### 2. Tvrdé externí kotvy
 
@@ -132,15 +132,15 @@ Subjekt vědomě před každou interpretací prožitku **vysloví modální stat
 
 #### 3. Intersubjektivní validace v důvěryhodné síti
 
-**Trianguční konzultace** s alespoň třemi nezávislými, dlouhodobě známými lidmi: "Stalo se X v období Y?" Konzistentní odpovědi slouží jako **rekalibrační signál**.
+**Trianguční konzultace** s alespoň třemi nezávislými, dlouhodobě známými lidmi: „Stalo se X v období Y?“ Konzistentní odpovědi slouží jako **rekalibrační signál**.
 
 #### 4. Realitní testy s výstupem
 
 Pravidelné testy, jejichž výsledek je **fyzicky zaznamenán**: telefonní hovor s partnerem o události, e-mailová výměna o detailu, kontrola záznamu. Záznam slouží jako externí paměť **manipulačně rezistentní**.
 
-#### 5. Disciplína "kategorického dotazu"
+#### 5. Disciplína „kategorického dotazu“
 
-Pravidelné kladení otázky *"stalo se to, ano nebo ne?"* — bez tolerance kvalifikací typu *"v jistém smyslu"*. Smyslem je obnovit **rozhodnutelnost** jako kognitivní operaci.
+Pravidelné kladení otázky *„stalo se to, ano nebo ne?“* — bez tolerance kvalifikací typu *„v jistém smyslu“*. Smyslem je obnovit **rozhodnutelnost** jako kognitivní operaci.
 
 ### Institucionální
 
@@ -155,15 +155,15 @@ Pravidelné kladení otázky *"stalo se to, ano nebo ne?"* — bez tolerance kva
 
 ### Případ 1 — Forenzní pseudo-svědectví
 
-Svědek po opakovaných výsleších s imaginativními rekonstrukcemi ("představte si, jak útočník vypadal") začal **detailně popisovat** rysy útočníka, kterého ve skutečnosti neviděl. Při video-rekonstrukci původní scény nebylo možné, aby měl výhled na popisované detaily. Diagnóza: indukovaná modální dezorientace zaměňující imaginaci za vzpomínku. Případ vedl k revizi výslechových protokolů.
+Svědek po opakovaných výsleších s imaginativními rekonstrukcemi („představte si, jak útočník vypadal“) začal **detailně popisovat** rysy útočníka, kterého ve skutečnosti neviděl. Při video-rekonstrukci původní scény nebylo možné, aby měl výhled na popisované detaily. Diagnóza: indukovaná modální dezorientace zaměňující imaginaci za vzpomínku. Případ vedl k revizi výslechových protokolů.
 
 ### Případ 2 — Vztahový kontext
 
-Klientka po pětiletém vztahu hlásí: "Nevím, co se vlastně stalo a co mi partner namluvil, že se stalo." Konkrétní události se v jejím podání objevují **střídavě** jako fakta a jako "snad i jen představy". Externí evidence (e-maily, fotografie) potvrdila skutečnost — subjekt však k těmto kotvám neměl důvěru, protože byl opakovaně přesvědčen o jejich "jiné interpretaci".
+Klientka po pětiletém vztahu hlásí: „Nevím, co se vlastně stalo a co mi partner namluvil, že se stalo.“ Konkrétní události se v jejím podání objevují **střídavě** jako fakta a jako „snad i jen představy“. Externí evidence (e-maily, fotografie) potvrdila skutečnost — subjekt však k těmto kotvám neměl důvěru, protože byl opakovaně přesvědčen o jejich „jiné interpretaci“.
 
 ### Případ 3 — Sociomediální expozice
 
-Účastník dlouhodobě vystavený konspirativním narativům na sociálních sítích postupně **přestal rozlišovat** vlastní zážitky od narativů, které opakovaně viděl. Začal "vzpomínat" na epizody, které byly fragmenty konspiračních videí. Intervence: digitální detox + strukturovaná biografická rekapitulace s externí kotvou.
+Účastník dlouhodobě vystavený konspirativním narativům na sociálních sítích postupně **přestal rozlišovat** vlastní zážitky od narativů, které opakovaně viděl. Začal „vzpomínat“ na epizody, které byly fragmenty konspiračních videí. Intervence: digitální detox + strukturovaná biografická rekapitulace s externí kotvou.
 
 ## Vztah k jiným technikám
 
@@ -186,7 +186,7 @@ Klientka po pětiletém vztahu hlásí: "Nevím, co se vlastně stalo a co mi pa
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} source modality check** — explicitně rozlišuje *fakt* / *hypotézu* / *kontrafaktuál* / *imaginaci* v evidenčním řetězci a vyžaduje, aby každý vstup nesl modální označení.
 - **NABLA Infinity provenance tracking** — každé tvrzení označeno typem zdroje (přímé pozorování / nepřímé / spekulace), čímž **algoritmicky** udržuje modální distinkci.
-- **OSINT framework's "evidence vs. hypothesis" gate** — výstupy investigací nesmí mísit ověřená fakta s hypotézami bez explicitního označení.
+- **OSINT framework's „evidence vs. hypothesis“ gate** — výstupy investigací nesmí mísit ověřená fakta s hypotézami bez explicitního označení.
 
 ## Související
 
@@ -209,7 +209,6 @@ Klientka po pětiletém vztahu hlásí: "Nevím, co se vlastně stalo a co mi pa
 - **Platformové koncepty**:
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
-
 
 ## ⚡ Kritický krok
 

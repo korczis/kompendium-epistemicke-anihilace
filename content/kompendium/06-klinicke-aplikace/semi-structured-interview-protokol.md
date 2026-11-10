@@ -34,9 +34,10 @@ Před administrací protokolu musí být splněno:
 
 **Cíl**: identifikovat dominantní zdroje informací a stupeň monokultury.
 
-**Otevírací otázka**: *"Pojďme zmapovat, odkud čerpáte informace o světě. Začněme zprávami: kde se dozvídáte, co se děje?"*
+**Otevírací otázka**: *„Pojďme zmapovat, odkud čerpáte informace o světě. Začněme zprávami: kde se dozvídáte, co se děje?“*
 
 **Sondovací linie**:
+
 - Jaké tři zdroje jsou pro vás nejdůležitější?
 - Pokud byste měl/a vědět pravdu o kontroverzním tématu, kam se obrátíte?
 - Existuje osoba, jejíž názoru důvěřujete víc než vlastnímu úsudku?
@@ -49,14 +50,15 @@ Před administrací protokolu musí být splněno:
 
 **Cíl**: identifikovat asymetrické vztahy a definující vlivy na sebepercepci.
 
-**Otevírací otázka**: *"Kdo má v současnosti největší vliv na to, jak se vidíte vy sám/sama?"*
+**Otevírací otázka**: *„Kdo má v současnosti největší vliv na to, jak se vidíte vy sám/sama?“*
 
 **Sondovací linie**:
+
 - Existuje osoba, jejíž souhlas potřebujete pro důležitá rozhodnutí?
 - Jste finančně, emocionálně či informačně závislý/á na konkrétní osobě?
 - Existují vztahy, které byly v poslední době ukončeny **bez vašeho aktivního rozhodnutí**?
 - Měl/a jste pocit, že vaše paměť události se odlišuje od toho, co vám druzí říkali?
-- Cítíte, že někdo "vykonává péči" o váš obraz reality?
+- Cítíte, že někdo „vykonává péči“ o váš obraz reality?
 
 **Klinické vodítko**: pozitivní odpovědi na ≥3 položky = silný signál [coercive control](@/glossary/coercive-control.md) nebo [gaslightingu](@/glossary/gaslighting.md).
 
@@ -64,9 +66,10 @@ Před administrací protokolu musí být splněno:
 
 **Cíl**: testovat schopnost druhořádové reflexe (myšlení o myšlení).
 
-**Otevírací otázka**: *"Vezměte jedno z vašich silných přesvědčení. Pojďme se podívat, jak jste k němu došel/došla."*
+**Otevírací otázka**: *„Vezměte jedno z vašich silných přesvědčení. Pojďme se podívat, jak jste k němu došel/došla.“*
 
 **Sondovací linie**:
+
 - Můžete popsat **proces**, ne jen závěr?
 - Jaké důkazy by vás přesvědčily, že je toto přesvědčení nesprávné?
 - Existují témata, o nichž **odmítáte** přemýšlet, a víte o tom?
@@ -79,14 +82,15 @@ Před administrací protokolu musí být splněno:
 
 **Cíl**: detekovat diskontinuity v sebepojetí a hodnotových strukturách.
 
-**Otevírací otázka**: *"Popište mi sebe tak, jak byste se popsal/a před 5 lety. Pak před rokem. Pak dnes."*
+**Otevírací otázka**: *„Popište mi sebe tak, jak byste se popsal/a před 5 lety. Pak před rokem. Pak dnes.“*
 
 **Sondovací linie**:
+
 - Existuje rozhodnutí z minulosti, které dnes pociťujete jako **cizí**?
 - Změnily se hodnoty, slovník, vztahové vzory?
-- Cítíte se "jinou osobou" než před vstupem do aktuálního prostředí/vztahu?
+- Cítíte se „jinou osobou“ než před vstupem do aktuálního prostředí/vztahu?
 - Existují ztracené přátelské či rodinné vazby, které dnes vnímáte jako důležité?
-- Vzpomínáte si na okamžik, kdy jste začal/a "vidět věci jinak"?
+- Vzpomínáte si na okamžik, kdy jste začal/a „vidět věci jinak“?
 
 **Klinické vodítko**: ostrá diskontinuita s neschopností vysvětlit její genezi = silný signál EA-3.x.x až EA-5.x.x.
 
@@ -94,15 +98,16 @@ Před administrací protokolu musí být splněno:
 
 **Cíl**: testovat schopnost interpretace významů, kontextů, ironie.
 
-**Otevírací otázka**: *"Přečtu vám krátký text — řekněte mi, co tím autor myslí."*
+**Otevírací otázka**: *„Přečtu vám krátký text — řekněte mi, co tím autor myslí.“*
 
 **Test**: krátká pasáž s explicitní ironií nebo dvouznačnou metaforou.
 
 **Sondovací linie**:
+
 - Vyhodnotil/a pacient ironii správně?
 - Dokáže rozlišit doslovný a přenesený význam?
 - Cítí potřebu autoritativního výkladu pro běžné texty?
-- Trpí hyperinterpretacemi typu "vše něco znamená"?
+- Trpí hyperinterpretacemi typu „vše něco znamená“?
 
 **Klinické vodítko**: ztráta ironie + potřeba externí interpretace = klastr B markery.
 
@@ -111,6 +116,7 @@ Před administrací protokolu musí být splněno:
 **Cíl**: ověřit pacientovu vlastní reflexi rozhovoru.
 
 **Závěrečné otázky**:
+
 - Co bylo z této hodiny pro vás nejtěžší?
 - Existuje něco, co byste teď chtěl/a říct, ale neřekl/a?
 - Jak hodnotíte, že rozumíte sám/sama sobě po tomto rozhovoru?

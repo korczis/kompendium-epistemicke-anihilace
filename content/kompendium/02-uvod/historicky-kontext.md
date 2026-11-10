@@ -330,7 +330,6 @@ Detailní vztah k Decision Engine je rozpracován v sekci [2.7 Vztah ke Decision
 - [Glosář: 3NL](@/glossary/3nl.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
-
 ## ⚡ Kritický krok
 
 **Než přejdeš ke konkrétním kategoriím**, formuluj si vlastní pracovní

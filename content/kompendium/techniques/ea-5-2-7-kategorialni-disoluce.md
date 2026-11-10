@@ -39,7 +39,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Strukturálně je disoluce **terminálním cílem** několika postupů: může být dosaženo skrze [EA-5.2.6 transcendentální rekurzivitu](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md), kde rekurzivní aplikace kategorií je destabilizuje, nebo skrze [EA-5.2.5 konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md), kde rozpad konstitutivních principů odebírá funkci kategorialní organizace, nebo skrze [EA-5.2.4 apriorní saturaci](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md), kde saturace falešnými apriori činí kategorie funkčně nepoužitelné.
 
-Klíčový diagnostický rys: subjekt v disoluci **nedokáže** odpovědět na základní kategoriální otázky. *"Kolik je tam lidí?"* — nedokáže rozhodnout, protože **kvantita** přestala fungovat. *"Jaké je to barvy?"* — nedokáže přiřadit kvalitu. *"Co s čím souvisí?"* — relace nelze identifikovat. *"Je to možné nebo nutné?"* — modalita kolabuje.
+Klíčový diagnostický rys: subjekt v disoluci **nedokáže** odpovědět na základní kategoriální otázky. *„Kolik je tam lidí?“* — nedokáže rozhodnout, protože **kvantita** přestala fungovat. *„Jaké je to barvy?“* — nedokáže přiřadit kvalitu. *„Co s čím souvisí?“* — relace nelze identifikovat. *„Je to možné nebo nutné?“* — modalita kolabuje.
 
 V kontrastu s běžnou afázií nebo agnozií, které jsou neurologickými poruchami specifických funkcí, kategoriální disoluce je **strukturální** porucha napříč kategoriemi a vyplývá z **rekonstruovatelné** epistemické historie — ne z neurologické patologie.
 
@@ -51,28 +51,28 @@ Disoluce je obvykle **vyvrcholením** delší sekvence: rekurzivní destabilizac
 
 ### Krok 2 — Zviditelnění kategorialní funkce
 
-Subjekt je veden k **explicitní reflexi** kategorialní organizace zkušenosti. *"Všimni si, jak strukturuješ vše do kategorií."* Tato fáze je **stejně jako u EA-5.2.5/5.2.6** legitimní fenomenologickou prací do specifického bodu.
+Subjekt je veden k **explicitní reflexi** kategorialní organizace zkušenosti. *„Všimni si, jak strukturuješ vše do kategorií.“* Tato fáze je **stejně jako u EA-5.2.5/5.2.6** legitimní fenomenologickou prací do specifického bodu.
 
 ### Krok 3 — Indukce *epoché* kategorialní funkce
 
-Manipulátor směřuje subjekta k **závorkování kategorialní organizace samé**: *"Co kdyby ses pokusil prožít zkušenost bez kategorií?"* Tato instrukce, prováděná intenzivně a izolovaně, indukuje **rozpad** kategoriální funkce.
+Manipulátor směřuje subjekta k **závorkování kategorialní organizace samé**: *„Co kdyby ses pokusil prožít zkušenost bez kategorií?“* Tato instrukce, prováděná intenzivně a izolovaně, indukuje **rozpad** kategoriální funkce.
 
-### Krok 4 — Konsolidace stavu jako "vyšší úrovně"
+### Krok 4 — Konsolidace stavu jako „vyšší úrovně“
 
-Stav disoluce je legitimizován jako *"přímý kontakt"*, *"viděním před kategoriálním rozdělením"*, *"jednotou všeho"*. Strukturálně podobné EA-5.2.2 (transcendentální iluze), ale operuje na rovině disoluce, ne na rovině iluzorního překročení.
+Stav disoluce je legitimizován jako *„přímý kontakt“*, *„viděním před kategoriálním rozdělením“*, *„jednotou všeho“*. Strukturálně podobné EA-5.2.2 (transcendentální iluze), ale operuje na rovině disoluce, ne na rovině iluzorního překročení.
 
 ### Krok 5 — Stabilizace skrze sociální podporu
 
-Komunita, ve které subjekt operuje, **udržuje stav** sdílením interpretačního rámce. *"Konečně jsi pochopil"*, *"Teď jsi mezi nás"*. Sociální stabilizace činí disoluci obtížně reverzibilní.
+Komunita, ve které subjekt operuje, **udržuje stav** sdílením interpretačního rámce. *„Konečně jsi pochopil“*, *„Teď jsi mezi nás“*. Sociální stabilizace činí disoluci obtížně reverzibilní.
 
 ## Fenomenologie
 
-- **Specifická zkušeností "neurčité úplnosti"** — vše se ukazuje, ale nic není **něco**.
+- **Specifická zkušeností „neurčité úplnosti“** — vše se ukazuje, ale nic není **něco**.
 - **Časová desorganizace** — sled okamžiků se neorganizuje do **událostí**.
 - **Kvantitativní neurčitost** — subjekt nedokáže určit počet objektů, dokonce ani **že to jsou objekty**.
 - **Kvalitativní fluktuace** — barvy, zvuky, pocity neproudí stabilně, ale jako **měnící se intenzity bez určení**.
 - **Relační rozpad** — předměty (pokud ještě existují) se neukazují jako *spojené s* nebo *podléhající* nebo *patřící k* — relace se rozpouští.
-- **Modální kolaps** — distinkce možné/nutné/aktuální zaniká; vše je prožíváno v jednotném *"je"* bez modální struktury.
+- **Modální kolaps** — distinkce možné/nutné/aktuální zaniká; vše je prožíváno v jednotném *„je“* bez modální struktury.
 
 V terminálních stadiích kombinace s [EA-5.2.30 metatranscendentální terminací](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-metatranscendentalni-terminace) vede ke stavu *epistemického coma vigil* — subjekt je vědom, ale **ne strukturovaně vědom čeho**.
 
@@ -140,9 +140,9 @@ Strukturované **somatické úkoly** (řemeslo, sport, fyzická práce), které 
 
 ### Případ 1 — Postretreatová disoluce
 
-Praktikující po 6měsíčním nedovedeném retreatu vyvinul perzistentní stav disoluce. Klinicky prezentován jako neschopnost popsat svůj den **strukturovaně** — vše se prožívalo jako "neurčité kontinuum".
+Praktikující po 6měsíčním nedovedeném retreatu vyvinul perzistentní stav disoluce. Klinicky prezentován jako neschopnost popsat svůj den **strukturovaně** — vše se prožívalo jako „neurčité kontinuum“.
 
-Detekce: rodina zjistila, že subjekt **nedokáže odpovědět** ani na otázku, jaký byl jeho den, protože *"bylo to všechno tak nějak ve stejnou dobu"*.
+Detekce: rodina zjistila, že subjekt **nedokáže odpovědět** ani na otázku, jaký byl jeho den, protože *„bylo to všechno tak nějak ve stejnou dobu“*.
 
 Intervence: 30 měsíců strukturované rekategorizační práce s fenomenologickým psychiatrem, jazyková rehabilitace, sociální rekonstrukce. Návrat **částečný** — subjekt si zachoval **chronickou tenzi** mezi kategoriální organizací a fenomenologickou neurčitostí.
 
@@ -156,11 +156,11 @@ Intervence: změna výzkumného tématu, supervize klinickým fenomenologem, int
 
 ### Případ 3 — Postpsychedelická disoluce
 
-Subjekt po vysoké dávce psychedelika v rámci charismatického "léčebného" rámce vyvinul perzistentní disoluci. Stav byl komunitou interpretován jako *"prokousnutí závoje"* a subjekt byl **odrazován** od klinické intervence.
+Subjekt po vysoké dávce psychedelika v rámci charismatického „léčebného“ rámce vyvinul perzistentní disoluci. Stav byl komunitou interpretován jako *„prokousnutí závoje“* a subjekt byl **odrazován** od klinické intervence.
 
 Detekce: pouze po **dramatickém praktickém selhání** (subjekt přestal být schopen vykonávat profesi) byla intervence vyžádána externí rodinou.
 
-Intervence: 36 měsíců rekategorizační práce, vyžadující **odloučení od původní komunity**. Klinický návrat funkční stability dosažen, ale **ontologické dysfórie** (pocit "není to skutečné, co tu žiju") přetrvala.
+Intervence: 36 měsíců rekategorizační práce, vyžadující **odloučení od původní komunity**. Klinický návrat funkční stability dosažen, ale **ontologické dysfórie** (pocit „není to skutečné, co tu žiju“) přetrvala.
 
 ## Vztah k jiným technikám
 
@@ -195,7 +195,6 @@ Intervence: 36 měsíců rekategorizační práce, vyžadující **odloučení o
   - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Anankastický režim](@/glossary/anankasticky-rezim.md)
-
 
 ## ⚡ Kritický krok
 

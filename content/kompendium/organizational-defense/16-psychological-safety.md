@@ -43,7 +43,7 @@ v navazujících sekcích kompendia.
 
 **Konkrétní krok pro tuto oblast:**
 
-> Trénujte manažery v technikách "productive disagreement" (Edmondson, Schein) s povinnou demonstrací při performance review.
+> Trénujte manažery v technikách „productive disagreement“ (Edmondson, Schein) s povinnou demonstrací při performance review.
 
 **Doporučená sekvence implementace:**
 
@@ -61,7 +61,7 @@ Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl
 - Poradní porady jsou monology, dissent vede k marginalizaci, errors jsou skrývány.
 - Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
 - Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v "černé díře" bez odpovědi v rozumné lhůtě
+- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
 - Externí auditoři dostávají omezený přístup k datům nebo lidem
 
 Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
@@ -100,4 +100,3 @@ Blameless post-mortems, regular retrospektivy, public recognition za nahlášen�
 - **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
-

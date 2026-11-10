@@ -23,7 +23,7 @@ Pro kompendium EA poskytuje Butlerové teorie nástroj pro pochopení **struktur
 
 ## 1. Performativita
 
-Butlerová rozšiřuje Austinovu teorii **performativních promluv** (*How to Do Things with Words*, 1962): některé promluvy nejen popisují skutečnost, ale **konstituují** ji ("Vyhlašuji vás manželi"). Butlerová argumentuje, že **identita** — zejména gender — je strukturálně **performativní**: není **vyjádřením** vnitřní esence, ale **opakováním** kulturních norem.
+Butlerová rozšiřuje Austinovu teorii **performativních promluv** (*How to Do Things with Words*, 1962): některé promluvy nejen popisují skutečnost, ale **konstituují** ji („Vyhlašuji vás manželi“). Butlerová argumentuje, že **identita** — zejména gender — je strukturálně **performativní**: není **vyjádřením** vnitřní esence, ale **opakováním** kulturních norem.
 
 Performativita má **trojstrukturu**:
 
@@ -33,28 +33,28 @@ Performativita má **trojstrukturu**:
 
 Pro EA z toho plyne:
 
-- **EA jako performativní indukce**: techniky EA často **performativně produkují** subjektové pozice ("ty jsi oběť", "ty jsi vyvolený", "ty jsi nepřítel") prostřednictvím **opakované citace**.
+- **EA jako performativní indukce**: techniky EA často **performativně produkují** subjektové pozice („ty jsi oběť“, „ty jsi vyvolený“, „ty jsi nepřítel“) prostřednictvím **opakované citace**.
 - **Memetická manipulace**: virální memy operují strukturálně skrze **iterabilitu** — každé sdílení je **performativní citací**, jež upevňuje normu.
 - **Subverzní rezilience**: schopnost **citovat odlišně**, performativně **přepisovat** indukované pozice, je strukturálním zdrojem rezilience.
 
 ## 2. Subjektivace a *interpellation*
 
-Butlerová rozvíjí Althusserův koncept **interpellace** — aktu, jímž ideologický aparát "**volá**" subjekt do specifické pozice ("Hej, ty!"). Subjekt se konstituuje **odpovědí na zavolání**.
+Butlerová rozvíjí Althusserův koncept **interpellace** — aktu, jímž ideologický aparát „**volá**“ subjekt do specifické pozice („Hej, ty!“). Subjekt se konstituuje **odpovědí na zavolání**.
 
 Pro EA má interpellace **strukturální význam**:
 
 - **Algoritmická interpellace**: digitální platformy **volají** subjekt prostřednictvím notifikací, doporučení, personalizovaného obsahu — performativně produkují **algoritmickou identitu** (target, profil, segment).
-- **Politická interpellace**: populistické rétoriky **volají** subjekt do pozice "obyčejného člověka" proti "elitám" — performativně produkují **populistickou identitu**.
+- **Politická interpellace**: populistické rétoriky **volají** subjekt do pozice „obyčejného člověka“ proti „elitám“ — performativně produkují **populistickou identitu**.
 - **Klinická interpellace**: diagnostické kategorie **volají** subjekt do pozice **pacienta s X** — performativně produkují **patologickou identitu** (přínosy a rizika).
 
 ## 3. Politika subverze
 
-Butlerové **politicky pozitivní** moment: pokud je identita performativně produkována, je **performativně subvertibilní**. Drag, queer, kamp — všechny jsou strukturálně **denaturalizujícími** opakováními, jež **odhalují** performativní povahu zdánlivě "přirozených" identit.
+Butlerové **politicky pozitivní** moment: pokud je identita performativně produkována, je **performativně subvertibilní**. Drag, queer, kamp — všechny jsou strukturálně **denaturalizujícími** opakováními, jež **odhalují** performativní povahu zdánlivě „přirozených“ identit.
 
 Pro EA má pojem subverze **dvojí relevanci**:
 
 1. **Subverze jako rezilience**: schopnost **performativně přepsat** indukované EA pozice je klinicky a politicky cenná.
-2. **Riziko inflace subverze**: ne každá "subverzivní" praxe je **emancipační** — některé "alternativní" identity mohou být **strukturálně manipulativní** (například queer-washing korporací).
+2. **Riziko inflace subverze**: ne každá „subverzivní“ praxe je **emancipační** — některé „alternativní“ identity mohou být **strukturálně manipulativní** (například queer-washing korporací).
 
 ## 4. *Excitable speech* a hate speech
 
@@ -94,7 +94,7 @@ Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.
 
 - **Performativní subverze** jako klinický cíl — pacient se učí **přepisovat** indukované pozice.
 - **Narativní terapie** ([Ricoeur, viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)) operuje strukturálně na butlerovských kategoriích.
-- **Riziko**: nucená "subverze" může být **dalším formou EA**, pokud není pacientem zvolena.
+- **Riziko**: nucená „subverze“ může být **dalším formou EA**, pokud není pacientem zvolena.
 
 ## 8. Kritická distance
 

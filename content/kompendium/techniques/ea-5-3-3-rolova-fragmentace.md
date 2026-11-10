@@ -123,7 +123,6 @@ Technika **rolová fragmentace** představuje strukturální výzvu pro defenziv
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Goffmanovský **dramaturgický self** (*The Presentation of Self*) předpokládá integrovaného herce za maskami — fragmentace tento předpoklad ruší. Ricoeurovo **idem-identité** (sameness) je rozštěpena na inkonzistentní rolové konfigurace. Merleau-Pontyho **inkarnovaná intersubjektivita** ukazuje, že role nejsou abstraktní funkce ale tělové styly — fragmentace tedy fragmentuje tělové schéma. Heideggerova **Zerstreuung** (rozptýlenost v *Sein und Zeit*) je manipulačně prohlubována: subjekt zůstává v nevlastním Mit-sein bez možnosti návratu k vlastní existenciální možnosti. Damasiův **konvergenčně-divergenční zónový model** se rozpojuje: rolové fragmenty nejsou integrovány vyšší koordinační vrstvou. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

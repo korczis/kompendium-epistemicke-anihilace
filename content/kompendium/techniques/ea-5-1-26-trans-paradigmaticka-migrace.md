@@ -56,23 +56,23 @@ Manipulátor identifikuje **základní interpretační rámec** subjektu — jeh
 Manipulátor systematicky **otřásá** počátečním paradigmatem skrz:
 
 - **Vystavení anomáliím**, které paradigma nedokáže vysvětlit
-- **Sociální delegitimizaci** — *"to už dnes nikdo seriózní nezastává"*
+- **Sociální delegitimizaci** — *„to už dnes nikdo seriózní nezastává“*
 - **Emocionální cenu** za udržování — frustrace, izolace
 - **Atraktivní alternativy**, které anomálie vysvětlují
 
 ### Krok 3 — Migrace přes mezisaturaci paradigmat
 
-Subjekt je veden **sekvenčně** skrz několik paradigmat. Každé je prezentováno jako **konečné řešení** předchozího nedostatku, ale brzy je samo destabilizováno — typicky tak, že nové paradigma **vyzdvihuje hodnotu** předchozího kroku, ale demonstruje, že předchozí paradigma šlo *"jen dál po cestě"*.
+Subjekt je veden **sekvenčně** skrz několik paradigmat. Každé je prezentováno jako **konečné řešení** předchozího nedostatku, ale brzy je samo destabilizováno — typicky tak, že nové paradigma **vyzdvihuje hodnotu** předchozího kroku, ale demonstruje, že předchozí paradigma šlo *„jen dál po cestě“*.
 
 Sekvence často probíhá v vlnách: scientistický racionalismus → relativismus → holistická spirituality → integrální syntéza → meta-skepse → atd. Každá fáze trvá tak akorát na to, aby destabilizovala minulost, nikdy dost na konsolidaci.
 
 ### Krok 4 — Vyčerpání paradigmatické imunity
 
-Po několika cyklech subjekt zažívá **kognitivní vyčerpání**: každý nově nabízený rámec se jeví jako *"další iluze"*. Zároveň však subjekt **nedokáže** existovat bez interpretačního rámce — vyčerpání plodí **akutní touhu** po stabilizujícím řešení.
+Po několika cyklech subjekt zažívá **kognitivní vyčerpání**: každý nově nabízený rámec se jeví jako *„další iluze“*. Zároveň však subjekt **nedokáže** existovat bez interpretačního rámce — vyčerpání plodí **akutní touhu** po stabilizujícím řešení.
 
-### Krok 5 — Nabídnutí "konečného" rámce
+### Krok 5 — Nabídnutí „konečného“ rámce
 
-V momentu maximální paradigmatické bezdomoviny manipulátor nabízí **stabilizující meta-rámec** — typicky prezentovaný jako *"nad-paradigmatický"*, *"za všemi paradigmaty"*, *"přímo pravda za vším konstruktem"*. Subjekt akceptuje s **minimální kritickou rezistencí**, protože jakákoli stabilizace je preferovaná před pokračující bezdomovinou.
+V momentu maximální paradigmatické bezdomoviny manipulátor nabízí **stabilizující meta-rámec** — typicky prezentovaný jako *„nad-paradigmatický“*, *„za všemi paradigmaty“*, *„přímo pravda za vším konstruktem“*. Subjekt akceptuje s **minimální kritickou rezistencí**, protože jakákoli stabilizace je preferovaná před pokračující bezdomovinou.
 
 Akceptovaný meta-rámec je obvykle **doktrinální** — vyžaduje submisivitu vůči konkrétnímu zdroji autority (manipulátor, skupina, text).
 
@@ -80,14 +80,14 @@ Akceptovaný meta-rámec je obvykle **doktrinální** — vyžaduje submisivitu 
 
 Co prožívá subjekt **uvnitř** trans-paradigmatické migrace:
 
-- **Kognitivní únava** — *"jsem vyčerpaný/á věčným pochybováním"*
-- **Cynicismus vůči "každému dalšímu paradigmatu"**
+- **Kognitivní únava** — *„jsem vyčerpaný/á věčným pochybováním“*
+- **Cynicismus vůči „každému dalšímu paradigmatu“**
 - **Touha po klidu** — silná emocionální preference jakéhokoli stabilního rámce
-- **Pocit, že "všechny perspektivy jsou jen hry"** — koncové stadium relativizace
-- **Otevřenost vůči autoritám**, které nabízejí *"přímou pravdu"*
+- **Pocit, že „všechny perspektivy jsou jen hry“** — koncové stadium relativizace
+- **Otevřenost vůči autoritám**, které nabízejí *„přímou pravdu“*
 - **Snížená trpělivost** s nuancí, ambivalencí, nedořešeností
 - **Vděčnost** vůči zdroji finálního rámce — disproporční vůči jeho skutečné argumentační kvalitě
-- **Inhibice** kritického zkoumání nového rámce — *"konečně něco funguje, nebudu to rozbíjet"*
+- **Inhibice** kritického zkoumání nového rámce — *„konečně něco funguje, nebudu to rozbíjet“*
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -106,7 +106,7 @@ Co prožívá subjekt **uvnitř** trans-paradigmatické migrace:
 Trans-paradigmatická migrace je odlišitelná od **legitimního intelektuálního vývoje**:
 
 - **Legitimní vývoj** udržuje **paměť** předchozích paradigmat jako **integrované** zkušenosti — člověk si pamatuje, co bylo cenné, a co odmítá.
-- **Vynucená migrace** likviduje předchozí paradigmata — subjekt je popisuje jako *"slepé uličky"*, nikoli jako kroky, ze kterých si něco odnesl.
+- **Vynucená migrace** likviduje předchozí paradigmata — subjekt je popisuje jako *„slepé uličky“*, nikoli jako kroky, ze kterých si něco odnesl.
 
 Časová kalibrace: legitimní zásadní paradigmatický posun trvá roky až desetiletí. Migrace skrz 4+ paradigmata za 12 měsíců je **silným indikátorem** vynucené dynamiky.
 
@@ -127,15 +127,15 @@ Trans-paradigmatická migrace je odlišitelná od **legitimního intelektuální
 
 #### 1. Paradigmatická archeologie
 
-Pravidelně si pokládat otázku: *"Co jsem si myslel/a před 2/5/10 lety? Co bylo na tehdejším pohledu legitimní?"* — cíl je obnovit **paměť** paradigmatické historie, ne ji likvidovat.
+Pravidelně si pokládat otázku: *„Co jsem si myslel/a před 2/5/10 lety? Co bylo na tehdejším pohledu legitimní?“* — cíl je obnovit **paměť** paradigmatické historie, ne ji likvidovat.
 
 #### 2. Strategická paradigmatická pluralita
 
 Cíleně udržovat **více souběžných** interpretačních rámců pro různé domény života. Ne každá doména vyžaduje stejný metafyzický základ.
 
-#### 3. Inhibice akceptace "konečných" rámců
+#### 3. Inhibice akceptace „konečných“ rámců
 
-Princip: **jakékoli paradigma**, které samo sebe popisuje jako *"za všemi paradigmaty"*, *"přímou pravdu"*, *"konečnou syntézu"*, je **systematicky podezřelé**. Tento marker je téměř bez výjimky indikátorem manipulativního rámce.
+Princip: **jakékoli paradigma**, které samo sebe popisuje jako *„za všemi paradigmaty“*, *„přímou pravdu“*, *„konečnou syntézu“*, je **systematicky podezřelé**. Tento marker je téměř bez výjimky indikátorem manipulativního rámce.
 
 #### 4. Časová kalibrace
 
@@ -157,15 +157,15 @@ Diskutuj nově nabízený rámec s lidmi, kteří **nesdílejí** zdroj rámce. 
 
 ### Případ 1 — Integrální spirituality
 
-Subjekt prošel za 14 měsíců sekvencí: kritika institucionální církve → buddhistická psychologie → non-dual učení → integrální teorie → koncový "nad-paradigmatický" učitel. Při externí intervenci zjištěno, že žádné z předchozích paradigmat neumí solidně artikulovat — všechny popsané jako *"kroky k pravdě"*. Rekonstrukce paradigmatické gramotnosti trvala 18 měsíců.
+Subjekt prošel za 14 měsíců sekvencí: kritika institucionální církve → buddhistická psychologie → non-dual učení → integrální teorie → koncový „nad-paradigmatický“ učitel. Při externí intervenci zjištěno, že žádné z předchozích paradigmat neumí solidně artikulovat — všechny popsané jako *„kroky k pravdě“*. Rekonstrukce paradigmatické gramotnosti trvala 18 měsíců.
 
 ### Případ 2 — Coaching pipeline
 
-Klient prošel během 9 měsíců sekvencí 5 kurzů od stejného coache. Každý kurz prezentoval předchozí jako *"začáteční úroveň"*. Při auditu materiálů zjištěno, že kurzy si fakticky **odporují** v základních předpokladech — koherence existuje pouze v supersesní rétorice, ne v obsahu.
+Klient prošel během 9 měsíců sekvencí 5 kurzů od stejného coache. Každý kurz prezentoval předchozí jako *„začáteční úroveň“*. Při auditu materiálů zjištěno, že kurzy si fakticky **odporují** v základních předpokladech — koherence existuje pouze v supersesní rétorice, ne v obsahu.
 
 ### Případ 3 — Akademická radikalizace
 
-Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kritická teorie → post-strukturalismus → mentorův "post-post" rámec. Ostatní studenti stejného mentora prošli **identickou** sekvencí. Nezávislý audit zjistil templátování pipeline.
+Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kritická teorie → post-strukturalismus → mentorův „post-post“ rámec. Ostatní studenti stejného mentora prošli **identickou** sekvencí. Nezávislý audit zjistil templátování pipeline.
 
 ## Vztah k jiným technikám
 
@@ -209,7 +209,6 @@ Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kri
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

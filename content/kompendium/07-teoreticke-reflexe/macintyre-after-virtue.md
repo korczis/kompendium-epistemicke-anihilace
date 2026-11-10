@@ -72,7 +72,7 @@ Pro EA z toho plyne:
 
 ## 4. Narativní jednota a moral identity
 
-MacIntyre rozvíjí (paralelně s Ricoeurem, [viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)): **lidská identita** je strukturálně **narativní**. "Kdo jsem?" se zodpovídá vyprávěním příběhu mého života v rámci **tradice**, jíž patřím.
+MacIntyre rozvíjí (paralelně s Ricoeurem, [viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)): **lidská identita** je strukturálně **narativní**. „Kdo jsem?“ se zodpovídá vyprávěním příběhu mého života v rámci **tradice**, jíž patřím.
 
 Bez narativní jednoty:
 
@@ -87,7 +87,7 @@ Pro EA má narativní jednota **klíčovou diagnostickou hodnotu**:
 
 ## 5. Tradice a racionalita
 
-MacIntyrova radikální teze (v *Whose Justice? Which Rationality?*, 1988): **racionalita** je strukturálně **vázána** na **tradici**. Žádný "neutrální" rozum **mimo** tradice neexistuje.
+MacIntyrova radikální teze (v *Whose Justice? Which Rationality?*, 1988): **racionalita** je strukturálně **vázána** na **tradici**. Žádný „neutrální“ rozum **mimo** tradice neexistuje.
 
 Tato pozice je strukturálně **napjatá** s **liberálním univerzalismem** (Habermasovská ideální komunikační situace). Kompendium absorbuje MacIntyrův komunitaristický moment, ale **odbočuje** ve směru **kombinace** s univerzalistickými normativními kritérii.
 

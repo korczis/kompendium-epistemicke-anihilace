@@ -28,19 +28,19 @@ toc = false
 
 ## Detekční markery (3 nejvýraznější)
 
-- Citovaná věta zní "absurdně" — to je často signál, že byla vybrána právě proto
+- Citovaná věta zní „absurdně“ — to je často signál, že byla vybrána právě proto
 - Před a po citované větě v originálu jsou jiné formulace, které ji rušily nebo modifikovaly
-- Subjekt veřejně opakuje "to není to, co jsem řekl"; klip běží dál, jeho korekce nedostává trakci
+- Subjekt veřejně opakuje „to není to, co jsem řekl“; klip běží dál, jeho korekce nedostává trakci
 
 ## Neutralizační strategie (3 nejúčinnější)
 
 - Mandátní link na originál (timestamp, full transcript) u každé citace; bez kontextu = nepublikovat
 - Veřejná publikace plné verze + extrahovaného klipu vedle sebe; přeruší dynamiku decontextualizace
-- Strukturální zákaz "krátkých soundbitů" v interních diskusích — pravidlo "celá věta nebo nic"
+- Strukturální zákaz „krátkých soundbitů“ v interních diskusích — pravidlo „celá věta nebo nic“
 
 ## Příklad
 
-Vědec v hodinové debatě v rámci úvahy nadhodí: "Hypoteticky by se dalo argumentovat, že X — i když to samozřejmě odmítám, protože Y." Z debaty se na sociálních sítích šíří 4-sekundový klip "by se dalo argumentovat, že X". Po týdnu je veřejně známo, že "vědec tvrdí X". Originální debata má 200 zhlédnutí, klip 2 milióny.
+Vědec v hodinové debatě v rámci úvahy nadhodí: „Hypoteticky by se dalo argumentovat, že X — i když to samozřejmě odmítám, protože Y.“ Z debaty se na sociálních sítích šíří 4-sekundový klip „by se dalo argumentovat, že X“. Po týdnu je veřejně známo, že „vědec tvrdí X“. Originální debata má 200 zhlédnutí, klip 2 milióny.
 
 ## Cross-linky
 

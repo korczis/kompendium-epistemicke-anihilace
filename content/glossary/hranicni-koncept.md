@@ -1,81 +1,145 @@
 +++
-title = "Hranicni Koncept"
+title = "Hraniční koncept"
 weight = 100
-description = "Hranicni Koncept — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
+description = "Hraniční koncept: pojem, který vymezuje meze poznání (Kantův Grenzbegriff), a hraniční případy, jejichž zneužití vede ke zrušení užitečných rozlišení."
 
 [taxonomies]
-tags = ["glossary", "architecture", "interactive"]
+tags = ["glossary", "kompendium", "philosophy", "epistemic"]
 
 [extra]
-category = "architecture"
-related_terms = ["access-control", "3nl", "adversarial-conditions", "adversarial-architecture", "adapter", "acid-transactions"]
+category = "philosophy"
+related_terms = ["noumenum", "ding-an-sich", "diferenciace", "kognitivni-zplosteni", "kantovy-kategorie", "via-negativa"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 ref_count_at_creation = 1
 +++
 
-## Definition
+## Definice
 
-**Hranicni Koncept** is a platform-architecture term used across the Prismatic Platform documentation. This entry is a structural stub created during the 2026-05-03 NLLB content-completion sweep — full treatment is part of the ongoing knowledge-base buildout.
+**Hraniční koncept** (něm. *Grenzbegriff*) je pojem, jehož úkolem není popsat nějaký předmět,
+ale vyznačit **mez**, za kterou naše poznání nesahá. V užším, kantovském smyslu je to pojem,
+který omezuje nárok smyslovosti a rozumu, aniž by o tom, co leží za hranicí, cokoli pozitivně
+tvrdil.
 
-## See Also
+V Kompendiu se pojem používá ve dvou souvisejících významech:
 
-- [Glossary index](@/glossary/_index.md)
+1. **filozofickém** – pojem meze poznání, například [noumenon](@/glossary/noumenum.md);
+2. **praktickém** – pojem pro **hraniční případy**, tedy situace, kdy rozlišení mezi dvěma
+   kategoriemi není ostré. Hraniční případy jsou běžnou součástí myšlení; jejich soustavné
+   zneužívání ale může vést k závěru, že žádné rozlišení neplatí.
 
----
+## Původ a kontext pojmu
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Termín *Grenzbegriff* použil Immanuel Kant v *Kritice čistého rozumu* (1781, 2. vyd. 1787)
+v pasáži o rozlišení fenomén a noumen. Noumenon v negativním smyslu je podle Kanta „pouze
+hraniční pojem“, jehož funkcí je omezit nárok smyslovosti: říká, že věci, jak se nám jeví,
+nejsou nutně věcmi, jak jsou samy o sobě, ale nedává nám žádné poznání o tom, jaké jsou
+(viz [Ding an sich](@/glossary/ding-an-sich.md) a [Kantovy kategorie](@/glossary/kantovy-kategorie.md)).
 
-## Manažerské shrnutí
+Druhý význam navazuje na diskusi o **vágnosti pojmů**. Už antický paradox hromady (sorites)
+ukazuje, že mnoho užitečných pojmů – „hromada“, „holohlavý“, „dospělý“ – nemá ostrou hranici,
+a přesto jimi rozumně rozlišujeme. Logika a filozofie jazyka nabízejí různá řešení (od
+supervaluace po epistemické teorie vágnosti); pro Kompendium je podstatné jen jedno: existence
+hraničních případů nedokazuje, že rozlišení je iluzorní.
 
-**Hranicni Koncept** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Jak se projevuje
 
+Zdravé zacházení s hraničními pojmy a případy:
 
-## Koncepční síť
+- člověk připouští, že některé případy nedokáže zařadit, a přesto používá rozlišení tam, kde
+  je zřetelné;
+- pojmenovává mez vlastního poznání („to nevím a z dostupných údajů vědět nemohu“);
+- rozlišuje mezi „nevím, kam to patří“ a „rozdíl neexistuje“.
 
-Vizualizace propojení **Hranicni Koncept** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+Varovné znaky zneužití, jak je popisuje technika
+[EA-5.1.22 Diferenciální nihilace](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md):
 
-```mermaid
-graph TD
-    C0["Hranicni Koncept"]
-    N1["Access Control"]
-    N2["3NL"]
-    N3["Adversarial Conditions"]
-    N4["Adversarial Architecture"]
-    N5["Adapter"]
-    N6["ACID Transactions"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+- rozhovor se opakovaně stáčí jen k nejasným případům, zatímco jasné případy se nezmiňují;
+- z výroku „někdy to nelze rozlišit“ se bez dalšího vyvozuje „nikdy to nelze rozlišit“;
+- schopnost rozlišovat se označuje za rigidní, binární nebo nezralou;
+- dotčený člověk ztrácí slovník pro rozdíly, které dřív běžně používal (viz
+  [kognitivní zploštění](@/glossary/kognitivni-zplosteni.md)).
 
-## Související pojmy
+## Mechanismus
 
-- [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/) — slug `access-control`
-- [3NL](@/glossary/3nl.md) — slug `3nl`
-- [Adversarial Conditions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-conditions/) — slug `adversarial-conditions`
-- [Adversarial Architecture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-architecture/) — slug `adversarial-architecture`
-- [Adapter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adapter/) — slug `adapter`
-- [ACID Transactions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/acid-transactions/) — slug `acid-transactions`
+Strukturálně jde o **kvantifikační záměnu**: z existenčního tvrzení („existují případy, kdy
+rozdíl mezi A a B je nejasný“) se vyvozuje univerzální tvrzení („rozdíl mezi A a B je
+konstrukce“). Je to stejná chyba, jakou by bylo tvrdit, že soumrak dokazuje neexistenci rozdílu
+mezi dnem a nocí.
 
-## Navigace
+U filozofického hraničního pojmu je riziko jiné. Mez poznání může být přetvořena v **prostor
+pro autoritu**: „za hranicí tvého poznání je pravda, kterou znám já.“ Hraniční pojem, který měl
+nárok na poznání omezovat, se tak mění v nárok na zvláštní, neověřitelné poznání. Na tento
+posun upozorňují techniky metatranscendentální skupiny, například
+[EA-5.2.3 Noumenální redukce](@/kompendium/techniques/ea-5-2-3-noumenalni-redukce.md).
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+Obecný, anonymizovaný příklad: v uzavřené skupině se opakovaně diskutuje, zda je určité
+jednání vedoucího „ještě péče“, nebo „už kontrola“. Diskuse se vždy vede jen o sporných
+případech; jasné případy (zákaz kontaktu s rodinou, kontrola financí) se do ní nedostanou.
+Po měsících člověk konstatuje, že „mezi péčí a kontrolou se stejně nedá rozlišit“, a přestává
+hodnotit i jednání, které by dřív bez váhání označil za nepřijatelné. Nic nepravdivého nebylo
+řečeno; změnil se jen výběr případů, o kterých se mluvilo.
+
+## Odlišení
+
+- **Hraniční koncept vs. hraniční porucha osobnosti.** Shoda slov je náhodná. Hraniční
+  (*borderline*) porucha osobnosti je klinická diagnóza; s tímto heslem nemá věcnou souvislost
+  a obě oblasti je třeba v dokumentaci důsledně rozlišovat.
+- **Hraniční případ vs. falešná ekvivalence.** Hraniční případ je skutečně nejasný.
+  [Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) prohlašuje za
+  rovnocenné věci, které jasně rovnocenné nejsou.
+- **Filozofická skepse vs. manipulace.** Autentické tázání po mezích poznání vede k opatrnosti
+  a ke zpřesnění pojmů. Manipulativní užití vede k paralýze nebo k přesunu autority na jednu
+  osobu.
+- **Apofatická mez vs. zacyklení.** Mystická tradice mluví o tom, co je za hranicí slov, s
+  vědomím meze (viz [via negativa](@/glossary/via-negativa.md)); zacyklení tuto mez využívá
+  k blokaci jakékoli výpovědi.
+
+## Význam pro Kompendium
+
+Hraniční koncept je klíčem k pochopení skupiny technik, které nepracují s nepravdou, ale
+s **rozostřením rozlišení**: diferenciální nihilace, [kategoriální mlha](@/kompendium/techniques/ea-5-2-25-kategorialni-mlha.md)
+a [Categorical boundary erosion](@/kompendium/techniques/ea-4-3-2-categorical-boundary-erosion.md).
+V [kartě EA-5.1.22](@/kompendium/quick-reference/qr-ea-5-1-22.md) je uveden mezi pojmy, které
+pomáhají odlišit legitimní filozofickou práci s mezemi pojmů od jejich zneužití.
+
+Pro klinika je pojem užitečný i obráceně: pomáhá formulovat, kde končí to, co lze z výpovědi
+klienta s jistotou vyvodit. Diagnostické a forenzní závěry mají vlastní hraniční pásma, která
+je poctivé pojmenovat, místo aby se zastírala.
+
+## Obrana a zotavení
+
+- **Vracet se k jasným případům.** Proti rozostření pomáhá připomenout si případy, kde je
+  rozdíl zřejmý, a od nich postupovat k nejasným.
+- **Oddělit „nevím“ od „neexistuje“.** Věta „tento případ nedokážu zařadit“ je poctivá; nic
+  neříká o tom, zda kategorie existují.
+- **Znovu budovat slovník rozdílů.** V terapii po dlouhodobém vystavení technice diferenciální
+  nihilace se osvědčuje výslovně pojmenovávat rozdíly v každodenních situacích a ověřovat je
+  s blízkými lidmi (srov. [Kognitivní flexibilita](@/kompendium/self-defense-guides/8-cognitive-flexibility.md)).
+- **Hlídat přesun autority.** Kdo tvrdí, že za mezí vašeho poznání je jeho pravda, nese
+  důkazní břemeno stejně jako kdokoli jiný.
+
+## Literatura
+
+- Kant, I. (1781/1787). *Kritik der reinen Vernunft* (Kritika čistého rozumu).
+
+## Související
+
+**Pojmy glosáře**
+
+- [Noumenon](@/glossary/noumenum.md) – Kantův příklad hraničního pojmu.
+- [Ding an sich](@/glossary/ding-an-sich.md) – věc o sobě a mez zkušenosti.
+- [Diferenciace](@/glossary/diferenciace.md) – schopnost rozlišovat, kterou zneužití hraničních případů oslabuje.
+- [Kognitivní zploštění](@/glossary/kognitivni-zplosteni.md) – výsledný stav ztráty rozlišení.
+
+**Techniky**
+
+- [EA-5.1.22 Diferenciální nihilace](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md) – rozostřování přes hraniční případy.
+- [EA-5.2.25 Kategoriální mlha](@/kompendium/techniques/ea-5-2-25-kategorialni-mlha.md) – rozmazání kategorií jako celku.
+- [EA-5.2.3 Noumenální redukce](@/kompendium/techniques/ea-5-2-3-noumenalni-redukce.md) – mez poznání jako prostor pro autoritu.
+
+**Obrana**
+
+- [Sebe-obrana: Kognitivní flexibilita](@/kompendium/self-defense-guides/8-cognitive-flexibility.md) – pružnost bez ztráty rozlišení.

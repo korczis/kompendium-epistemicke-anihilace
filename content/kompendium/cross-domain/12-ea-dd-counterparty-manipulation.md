@@ -63,7 +63,6 @@ DD target: data room měl 847 dokumentů, ale request log ukázal 1,203 requeste
 
 Management interview: CEO odpověděl na 'litigation' otázku rehearsed scriptem — adversarial reframing odhalil 4 undisclosed disputes
 
-
 Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
 
 ## Cross-linky
@@ -78,7 +77,6 @@ Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, kte
 - [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
 - [Case studies](@/kompendium/case-studies/_index.md)
 - [Quick reference](@/kompendium/quick-reference/_index.md)
-
 
 ## Connect
 

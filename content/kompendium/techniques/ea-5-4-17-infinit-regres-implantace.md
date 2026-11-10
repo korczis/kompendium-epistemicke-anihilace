@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 ## Definice
 
-**Implantace nekonečného regresu** je paradoxální metaanihilační protokol, jehož operační jádro tvoří indukce nekonečného regresu zdůvodňování („proč věříš X? protože Y. Proč Y? protože Z. Proč Z?...“). Technika patří do subkategorie **5.4 Paradoxální metaanihilační protokoly** — třídy ultramárních postupů, které využívají **strukturální paradoxy v subjektově sebehodnotícím aparátu** k destabilizaci samotného procesu, jímž subjekt rozlišuje, co je správné, pravdivé, vlastní a smysluplné.
+**Implantace nekonečného regresu** je paradoxální metaanihilační protokol, jehož operační jádro tvoří indukce nekonečného regresu zdůvodňování („proč věříš X? protože Y. Proč Y? protože Z. Proč Z?…“). Technika patří do subkategorie **5.4 Paradoxální metaanihilační protokoly** — třídy ultramárních postupů, které využívají **strukturální paradoxy v subjektově sebehodnotícím aparátu** k destabilizaci samotného procesu, jímž subjekt rozlišuje, co je správné, pravdivé, vlastní a smysluplné.
 
 Na rozdíl od technik **epistemické singularity** ([5.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)), které pohlcují obsahy poznání, a technik **transcendentální iluze** ([5.2](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)), které manipulují s podmínkami možnosti poznání, paradoxální protokoly zasahují **formální infrastrukturu** posuzování. Subjekt nedokáže paradoxnost obejít vyšší úrovní reflexe, protože každá vyšší úroveň je sama postižena strukturálně analogickou paradoxií. Vzniká **kognitivní past s rekurzivně reprodukovaným zámkem**: čím více se subjekt snaží uniknout, tím pevněji je v pasti uvězněn.
 

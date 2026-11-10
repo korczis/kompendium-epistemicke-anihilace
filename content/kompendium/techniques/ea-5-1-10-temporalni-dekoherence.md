@@ -49,17 +49,17 @@ Subjekt je systematicky vystavován **vícero nekonzistentním** chronologiím t
 
 ### Krok 2 — Rozpojení afektu od události
 
-Konkrétní afektivní stavy (úzkost, hanba, úleva) jsou opakovaně vázány na *jinou* než původní událost — typicky cestou interpretačních reformulací: "to, co cítíš, není o X, je to vlastně o Y, které se stalo dřív/později". Postupně se afekty stávají **mobilními** a přestávají sloužit jako kotvy biografické paměti.
+Konkrétní afektivní stavy (úzkost, hanba, úleva) jsou opakovaně vázány na *jinou* než původní událost — typicky cestou interpretačních reformulací: „to, co cítíš, není o X, je to vlastně o Y, které se stalo dřív/později“. Postupně se afekty stávají **mobilními** a přestávají sloužit jako kotvy biografické paměti.
 
 ### Krok 3 — Neutralizace prediktivní hodnoty minulosti
 
-Manipulátor systematicky podkopává **kauzální linkování** mezi minulými vzorci a současným chováním subjektu: "to bylo tehdy, ty už nejsi tehdejší ty", případně opačně "ty jsi pořád ten, kým jsi byl, dnešní ty je iluze". Obě strategie produkují tentýž efekt — minulost přestává **predikovat** přítomnost a budoucnost.
+Manipulátor systematicky podkopává **kauzální linkování** mezi minulými vzorci a současným chováním subjektu: „to bylo tehdy, ty už nejsi tehdejší ty“, případně opačně „ty jsi pořád ten, kým jsi byl, dnešní ty je iluze“. Obě strategie produkují tentýž efekt — minulost přestává **predikovat** přítomnost a budoucnost.
 
 ### Krok 4 — Indukce protentivního rozkladu
 
-Plánování budoucnosti je systematicky narušováno: každý plán je rekonstextualizován tak, že subjekt přestává vnímat **kontinuitu agenta**, který plán uskuteční. Otázky typu "Kdo přesně to udělá? Ten, kým jsi teď, nebo ten, kým budeš?" nejsou metafyzicky bezzubé — opakovaně aplikované rozpadají subjektivní jistotu, že existuje jeden agent, který minulé záměry promění v budoucí činy.
+Plánování budoucnosti je systematicky narušováno: každý plán je rekonstextualizován tak, že subjekt přestává vnímat **kontinuitu agenta**, který plán uskuteční. Otázky typu „Kdo přesně to udělá? Ten, kým jsi teď, nebo ten, kým budeš?“ nejsou metafyzicky bezzubé — opakovaně aplikované rozpadají subjektivní jistotu, že existuje jeden agent, který minulé záměry promění v budoucí činy.
 
-### Krok 5 — Konsolidace skrze "věčnou přítomnost"
+### Krok 5 — Konsolidace skrze „věčnou přítomnost“
 
 Subjekt se postupně stahuje do **úzkého teď** zbaveného retence i protence. Tento stav je manipulátorem prezentován jako *osvobození*, *autenticita*, *přítomnost-bez-zátěže*. Ve skutečnosti je to projev pokročilé temporální dekoherence — subjekt přestal být schopen unést **integrované Já napříč časem** a redukoval se na sérii nekontinuálních epizod.
 
@@ -74,7 +74,7 @@ Subjekt se postupně stahuje do **úzkého teď** zbaveného retence i protence.
 | **Identita v čase** | "Nevím, jestli ten, kdo to dělal, jsem byl já" |
 | **Afektivní konzistence** | Emoce vznikají bez kotvy v události a po události bez následku |
 
-Subjekt často popisuje svůj stav jako "ztrátu kontinuity bez ztráty paměti" — což je přesně diagnostické. Klasické amnézie ztrácejí *obsah*; temporální dekoherence ztrácí *syntézu*.
+Subjekt často popisuje svůj stav jako „ztrátu kontinuity bez ztráty paměti“ — což je přesně diagnostické. Klasické amnézie ztrácejí *obsah*; temporální dekoherence ztrácí *syntézu*.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -129,11 +129,11 @@ Pravidelné fyzické artefakty (fotografie s daty, video deníky, dopisy se zná
 
 #### 4. Resekvence afektu a události
 
-Cvičení, ve kterých subjekt vědomě rekonstruuje vazby "co cítím — co se stalo, kdy" v přítomnosti důvěryhodného partnera. Cílem je **obnovit funkční vazbu** mezi afektem a kotvou v čase.
+Cvičení, ve kterých subjekt vědomě rekonstruuje vazby „co cítím — co se stalo, kdy“ v přítomnosti důvěryhodného partnera. Cílem je **obnovit funkční vazbu** mezi afektem a kotvou v čase.
 
 #### 5. Ochrana protence
 
-Subjekt explicitně artikuluje plány v termínech "**ten, kým jsem teď a budu, to udělá**", spíš než v abstraktních termínech "**stane se, že**". Tato gramatická drobnost obnovuje kontinuitu agenta jako prediktivní strukturu.
+Subjekt explicitně artikuluje plány v termínech „**ten, kým jsem teď a budu, to udělá**“, spíš než v abstraktních termínech „**stane se, že**“. Tato gramatická drobnost obnovuje kontinuitu agenta jako prediktivní strukturu.
 
 ### Institucionální
 
@@ -148,7 +148,7 @@ Subjekt explicitně artikuluje plány v termínech "**ten, kým jsem teď a budu
 
 ### Případ 1 — Dlouhodobý vztahový kontext
 
-Klient po 14 letech vztahu hlásí "mlhu kolem celého života". Detailní vzpomínky zachované, ale **bez vlastnické kvality** — působí jako pozorování cizích lidí. Anamnéza odhalila systematické "korigování" jeho vzpomínek partnerem ("ne, to bylo jinak, neřekl jsi to tak"). Po 18 měsících odděleného života a strukturované biografické rekonstrukce s externími referenčními partnery se kontinuita částečně obnovila.
+Klient po 14 letech vztahu hlásí „mlhu kolem celého života“. Detailní vzpomínky zachované, ale **bez vlastnické kvality** — působí jako pozorování cizích lidí. Anamnéza odhalila systematické „korigování“ jeho vzpomínek partnerem („ne, to bylo jinak, neřekl jsi to tak“). Po 18 měsících odděleného života a strukturované biografické rekonstrukce s externími referenčními partnery se kontinuita částečně obnovila.
 
 ### Případ 2 — Forenzní vyšetřování
 
@@ -156,7 +156,7 @@ Svědek opakovaně vyslýchaný v období 9 měsíců přestal být schopen rozl
 
 ### Případ 3 — Korporátní reorganizace
 
-Vedoucí pracovník po sérii reorganizací prožíval "kariérní biografii" jako sled nepropojených epizod. Plánování dalšího kroku selhávalo, protože subjekt necítil, že **ten, kdo plán vykoná**, je v kontinuitě s **tím, kdo plán dělá**. Intervence: strukturovaný coachingový proces obnovující retentně-protentní integraci.
+Vedoucí pracovník po sérii reorganizací prožíval „kariérní biografii“ jako sled nepropojených epizod. Plánování dalšího kroku selhávalo, protože subjekt necítil, že **ten, kdo plán vykoná**, je v kontinuitě s **tím, kdo plán dělá**. Intervence: strukturovaný coachingový proces obnovující retentně-protentní integraci.
 
 ## Vztah k jiným technikám
 
@@ -201,7 +201,6 @@ Vedoucí pracovník po sérii reorganizací prožíval "kariérní biografii" ja
 - **Platformové koncepty**:
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
-
 
 ## ⚡ Kritický krok
 

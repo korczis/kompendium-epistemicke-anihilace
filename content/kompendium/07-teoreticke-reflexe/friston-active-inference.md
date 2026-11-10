@@ -113,9 +113,9 @@ Pro Prismatic platformu má Fristonova teorie **specifický** význam:
 
 ## 9. Primární literatura
 
-- Friston, K. (2010). "The free-energy principle: a unified brain theory?". *Nature Reviews Neuroscience* 11.
-- Friston, K. (2013). "Life as we know it". *Journal of the Royal Society Interface* 10.
-- Friston, K., FitzGerald, T., Rigoli, F., Schwartenbeck, P. & Pezzulo, G. (2017). "Active Inference: A Process Theory". *Neural Computation* 29.
+- Friston, K. (2010). „The free-energy principle: a unified brain theory?“. *Nature Reviews Neuroscience* 11.
+- Friston, K. (2013). „Life as we know it“. *Journal of the Royal Society Interface* 10.
+- Friston, K., FitzGerald, T., Rigoli, F., Schwartenbeck, P. & Pezzulo, G. (2017). „Active Inference: A Process Theory“. *Neural Computation* 29.
 - Parr, T., Pezzulo, G. & Friston, K. (2022). *Active Inference: The Free Energy Principle in Mind, Brain, and Behavior*. MIT Press.
 - Hohwy, J. (2013). *The Predictive Mind*. Oxford UP.
 

@@ -68,7 +68,7 @@ Primárním cílem **není izolovaný jedinec**, ale epistemická komunita jako 
 - Sdílené metodologické standardy
 - Mechanismy peer review a evaluace
 - Distribuci autority a kredibility
-- Hraniční mechanismy (kdo je "uvnitř" a kdo "vně")
+- Hraniční mechanismy (kdo je „uvnitř“ a kdo „vně“)
 - Historické narativy disciplíny
 
 ### Vektor útoku
@@ -111,7 +111,7 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 
 **Detekční markery**:
 
-- Náhlý nárůst pozornosti "outsiderů" o disciplinární práci
+- Náhlý nárůst pozornosti „outsiderů“ o disciplinární práci
 - Anomální frekvence anonymních přístupů k publikacím
 - Systematické dotazování o organizační struktuře
 - Dotazníková aktivita zacílená na komunikační kanály
@@ -122,24 +122,24 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 
 **Trvání**: 3–12 měsíců
 
-**Popis**: Systematické oslabování mechanismů udržování hranic komunity a etablování externích agentů jako "legitimních participantů" v epistemickém diskurzu.
+**Popis**: Systematické oslabování mechanismů udržování hranic komunity a etablování externích agentů jako „legitimních participantů“ v epistemickém diskurzu.
 
 **Klíčové techniky**:
 
 - Exploitace inkluzivní rétoriky a hodnot komunity — využití [EA-1.4.2 (latentní emocionální modulace)](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
-- Apel na širší principy ("svobodná diskuse", "rozmanité perspektivy")
+- Apel na širší principy („svobodná diskuse“, „rozmanité perspektivy“)
 - Strategická adopce povrchních lingvistických markerů a epistemických norem
-- "Noha ve dveřích" přístupy — minimální akceptovatelné požadavky na participaci
+- „Noha ve dveřích“ přístupy — minimální akceptovatelné požadavky na participaci
 - Kombinace s [EA-1.1.3 (terminologická mystifikace)](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) k zamlžení agenturní povahy
 
 **Detekční markery**:
 
 - Mírně zvýšené napětí ohledně inkluzivních vs. exkluzivních praktik
-- Vznik diskuse o "metodologickém pluralismu" bez jasné motivace
+- Vznik diskuse o „metodologickém pluralismu“ bez jasné motivace
 - Externí účastníci v interních fórech bez tradiční kvalifikační cesty
 - Posun rétoriky směrem k vágním univerzálním hodnotám
 
-**Fenomenologie**: Členové často nesouhlasí o tom, zda a jak přizpůsobit "outsidery", což vytváří **iniciální linie zlomu**. Komunita prožívá narůstající nepříjemné napětí mezi tradičním vymezením a zdánlivě legitimními inkluzivními výzvami.
+**Fenomenologie**: Členové často nesouhlasí o tom, zda a jak přizpůsobit „outsidery“, což vytváří **iniciální linie zlomu**. Komunita prožívá narůstající nepříjemné napětí mezi tradičním vymezením a zdánlivě legitimními inkluzivními výzvami.
 
 ### Fáze 3: Epistemická fragmentace a polarizace
 
@@ -149,9 +149,9 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 
 **Klíčové techniky**:
 
-- Strategicky formulované "hraniční problémy" bez jasného řešení
+- Strategicky formulované „hraniční problémy“ bez jasného řešení
 - Amplifikace drobných neshod na hlavní epistemické konflikty
-- "Klínové problémy" maximalizující polarizaci — využití [EA-1.2.1 (falešné dilema)](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)
+- „Klínové problémy“ maximalizující polarizaci — využití [EA-1.2.1 (falešné dilema)](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)
 - Falešná ekvivalence mezi centrálními a periferními standardy — [EA-1.2.2](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)
 - [EA-1.3.3 (tematická diverze)](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) — odvádění pozornosti od substantivních otázek
 - [EA-1.3.2 (strategická reinterpretace)](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) historických textů disciplíny
@@ -174,7 +174,7 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 
 **Klíčové techniky**:
 
-- Strategie "jen se ptám" implicitně zpochybňující integritu autorit
+- Strategie „jen se ptám“ implicitně zpochybňující integritu autorit
 - Selektivní extrakce historických výroků a jejich prezentace v nejhorším světle
 - [EA-1.3.1 (imunizace proti falsifikaci)](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) aplikovaná v reverse — extrémní falsifikační požadavky pro centrální autority
 - Koordinované útoky z více stran simultánně, přehlcující schopnost odpovídat
@@ -189,7 +189,7 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 - Soustředěné personální kampaně proti specifickým osobám
 - Asymetrie v aplikaci kritických standardů
 
-**Fenomenologie**: Komunita prožívá **kolektivní krizi** — pocit, že "nic už není stejné". Centrální autority jsou paradoxně paralyzovány — jakákoli reakce je interpretována jako důkaz problému, který kritika postuluje.
+**Fenomenologie**: Komunita prožívá **kolektivní krizi** — pocit, že „nic už není stejné“. Centrální autority jsou paradoxně paralyzovány — jakákoli reakce je interpretována jako důkaz problému, který kritika postuluje.
 
 ### Fáze 5: Rekonstrukce alternativní epistemické hierarchie
 
@@ -210,11 +210,11 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 
 - Komunita prožívá fundamentální rekonfiguraci
 - Původní členové se cítí odcizeni
-- Nové hierarchie se vynořují "zdánlivě náhle"
+- Nové hierarchie se vynořují „zdánlivě náhle“
 - Časopisy mění redakční politiku bez jasných důvodů
 - Granty směřují k nově privilegovaným tématům
 
-**Fenomenologie**: Subjekty zažívají [epistemickou alienaci](@/glossary/epistemicka-alienace.md) — pocit, že "moje pole se stalo cizím". Nové autority jsou prezentovány jako "konečně překonávající" tradiční omezení; tradiční autority jsou retrospektivně přerámovány jako bývalé překážky pokroku.
+**Fenomenologie**: Subjekty zažívají [epistemickou alienaci](@/glossary/epistemicka-alienace.md) — pocit, že „moje pole se stalo cizím“. Nové autority jsou prezentovány jako „konečně překonávající“ tradiční omezení; tradiční autority jsou retrospektivně přerámovány jako bývalé překážky pokroku.
 
 ## Strukturální prerekvizity
 
@@ -298,15 +298,15 @@ Realistickou strategií po Fázi 4 je často **paralelní budování alternativn
 
 > **Disciplína X**, akademická subdisciplína v sociálních vědách, byla po desetiletí charakterizována sdílenými metodologickými standardy založenými na kvantitativním empirickém výzkumu. Komunita ~800 výzkumníků sdílela publikační infrastrukturu (3 hlavní časopisy), pravidelnou výroční konferenci a systém peer review s vysokou inter-rater reliability.
 >
-> **Fáze 1 (2010–2012)**: Anomální nárůst pozornosti od badatelů z příbuzných oborů. Oblíbené konference začaly přijímat panely od "interdisciplinárních" výzkumníků s minimální historií v Disciplíně X. Sociometrická analýza ex post odhalila koordinovanou kampaň financovanou skrze tři externí grantové zdroje.
+> **Fáze 1 (2010–2012)**: Anomální nárůst pozornosti od badatelů z příbuzných oborů. Oblíbené konference začaly přijímat panely od „interdisciplinárních“ výzkumníků s minimální historií v Disciplíně X. Sociometrická analýza ex post odhalila koordinovanou kampaň financovanou skrze tři externí grantové zdroje.
 >
-> **Fáze 2 (2012–2014)**: Vznik diskurzu o "metodologickém kolonialismu" tradiční disciplíny. Apel na "rozmanité perspektivy" a "reflexivní praxi" získal podporu junior výzkumníků. Senior figury odmítající tento posun byly veřejně označeny za "obhájce statusu quo".
+> **Fáze 2 (2012–2014)**: Vznik diskurzu o „metodologickém kolonialismu“ tradiční disciplíny. Apel na „rozmanité perspektivy“ a „reflexivní praxi“ získal podporu junior výzkumníků. Senior figury odmítající tento posun byly veřejně označeny za „obhájce statusu quo“.
 >
-> **Fáze 3 (2014–2017)**: Polarizace o otázce "kvantitativní vs. kvalitativní" metodologie, která nebyla v disciplíně předtím kontroverzní (oba přístupy koexistovaly). Drobné neshody byly amplifikovány do existenciálních konfliktů. Hlavní časopisy zaznamenaly nárůst odmítnutí podle metodologické příslušnosti.
+> **Fáze 3 (2014–2017)**: Polarizace o otázce „kvantitativní vs. kvalitativní“ metodologie, která nebyla v disciplíně předtím kontroverzní (oba přístupy koexistovaly). Drobné neshody byly amplifikovány do existenciálních konfliktů. Hlavní časopisy zaznamenaly nárůst odmítnutí podle metodologické příslušnosti.
 >
-> **Fáze 4 (2017–2020)**: Tři nejcitovanější autority v disciplíně byly vystaveny koordinovaným kampaním zpochybňujícím jejich integritu. Selektivní extrakce 25 let starých výroků, dezinterpretace v nejhorším světle, požadavky na "vyvození odpovědnosti". Dvě z autorit přijaly dřívější odchod do důchodu, jedna byla institucionálně izolována.
+> **Fáze 4 (2017–2020)**: Tři nejcitovanější autority v disciplíně byly vystaveny koordinovaným kampaním zpochybňujícím jejich integritu. Selektivní extrakce 25 let starých výroků, dezinterpretace v nejhorším světle, požadavky na „vyvození odpovědnosti“. Dvě z autorit přijaly dřívější odchod do důchodu, jedna byla institucionálně izolována.
 >
-> **Fáze 5 (2020–přítomnost)**: Dva ze tří hlavních časopisů změnily redakční politiku — preferují kvalitativní a "reflexivně-kritický" výzkum. Granty směřují k nově privilegovaným otázkám. Pedagogické pozice na hlavních univerzitách jsou postupně obsazeny absolventy nového paradigmatu. Disciplína X jako koherentní entita prakticky **přestala existovat** — rozdělila se na dvě nepřátelské podskupiny s minimální komunikací.
+> **Fáze 5 (2020–přítomnost)**: Dva ze tří hlavních časopisů změnily redakční politiku — preferují kvalitativní a „reflexivně-kritický“ výzkum. Granty směřují k nově privilegovaným otázkám. Pedagogické pozice na hlavních univerzitách jsou postupně obsazeny absolventy nového paradigmatu. Disciplína X jako koherentní entita prakticky **přestala existovat** — rozdělila se na dvě nepřátelské podskupiny s minimální komunikací.
 >
 > **Klíčové markery**: Žádná z fází nebyla rozeznatelná v reálném čase většinou členů. Retrospektivně bylo možné rekonstruovat koordinovanou strukturu skrze publikační analýzu, financování a sociometrické sítě. Reverzibilita: extrémně nízká — pokus o restauraci by vyžadoval rekonstrukci institucionálních struktur, což je politicky nereálné.
 
@@ -325,7 +325,7 @@ Plné zotavení do předútočného stavu **není typicky možné**. Realistick�
 
 ### Sister scenarios
 - [Scénář G: Progresivní kognitivní dekonstrukce](@/kompendium/03-zakladni-kategorie/scenar-g.md)
-- [Scénář H: Destruktivní "konstruktivní" kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md)
+- [Scénář H: Destruktivní „konstruktivní“ kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md)
 
 ### Kapitoly
 - [Kapitola 1: Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
@@ -365,7 +365,6 @@ Plné zotavení do předútočného stavu **není typicky možné**. Realistick�
 ### Platforma
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

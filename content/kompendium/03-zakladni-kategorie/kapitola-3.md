@@ -179,7 +179,7 @@ Implementace protokolu vyžaduje od supervizorů specifické kompetence a modali
 - **Oscilační rytmus** alternace mezi výzvou a konsolidací
 - **Metakognitivní rámování** výzev jako příležitostí pro růst
 
-**Implementační techniky**: gradované série případových studií, "sandwichová metoda" (výzývající + stabilizující), personalizované signalizační systémy, post-expoziční reflexe.
+**Implementační techniky**: gradované série případových studií, „sandwichová metoda“ (výzývající + stabilizující), personalizované signalizační systémy, post-expoziční reflexe.
 
 ### Modalita 2: Metakomunikativní scaffolding
 
@@ -218,7 +218,7 @@ Implementace protokolu vyžaduje od supervizorů specifické kompetence a modali
 - **Produktivní ambiguita** — využití cílených ambiguitních situací
 - **Perspektivní multiplicity** — simultánní držení multiple rámců
 
-**Implementační techniky**: strukturované dialektické dialogy, "perspektivní rotační protokol", "produktivní paradoxy", kolaborativní mapování dialektických vztahů.
+**Implementační techniky**: strukturované dialektické dialogy, „perspektivní rotační protokol“, „produktivní paradoxy“, kolaborativní mapování dialektických vztahů.
 
 ## Supervizorské kompetence — matrice
 
@@ -503,7 +503,7 @@ Při implementaci s potenciálně vulnerabilními populacemi by měly být aplik
 
 **Deskripce**: Studium vede k nárůstu suspice v širší komunitě.
 
-**Navigační proces**: jasné hranice mezi edukativním kontextem a širšími vztahy → facilitace komunitní diskuse → "dekontaminační" rituály po expozici → posílení pozitivních norem → strukturovaná reflexe přesahů.
+**Navigační proces**: jasné hranice mezi edukativním kontextem a širšími vztahy → facilitace komunitní diskuse → „dekontaminační“ rituály po expozici → posílení pozitivních norem → strukturovaná reflexe přesahů.
 
 ## Evaluační rámec a metriky úspěšnosti
 
@@ -1053,7 +1053,7 @@ Implementace pokročilého programu naráží na predikovatelné výzvy. Anticip
 
 ### Výzva 1: Kulturní rezistence
 
-Někteří akademičtí pracovníci interpretují program jako "dramatický" nebo "ideologicky motivovaný".
+Někteří akademičtí pracovníci interpretují program jako „dramatický“ nebo „ideologicky motivovaný“.
 
 **Mitigation**: rigorózní empirická validace, transparentní metodologie, otevřená komunikace s skeptickými hlasy, demonstrace praktických výstupů, kultivace alianci s respektovanými senior figures.
 
@@ -1105,7 +1105,6 @@ V následujících sekcích kompendia jsou detailně rozpracovány pokročilejš
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - Platforma: {{ <cross_link path="/hub/dd/decisions/" text="DD Decisions" /> }}, [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

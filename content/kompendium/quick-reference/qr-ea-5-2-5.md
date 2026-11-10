@@ -24,12 +24,12 @@ toc = false
 
 ## Definice
 
-**Konstitutivní rozpad** systematicky **narušuje pre-reflexivní struktury intencionality** — základní zaměřenost zkušenosti na předmět ("vědomí je vždy vědomí něčeho", *Bewusstsein-von*). Manipulátor (často skrze intenzivní "neutčící" či "neziskovou" meditaci, paradoxní rituály nebo dlouhodobou hyperreflexivitu) systematicky rámuje subjektovu **konstitutivní práci** (syntézy retence-prezentace-protence, horizonty, asociace) jako "iluzi ega". Subjekt postupně ztrácí schopnost udržet **zaměřený předmět zkušenosti** — myšlenky, vnímání, emoce se "rozpadají" před uchopením. V terminálním stadiu nastává stav, který klinicky často odpovídá **indukované depersonalizaci** s fenomenologickým podkladem. Strukturálně se technika liší od legitimní husserlovské *epoché* — *epoché* je metodologickou pauzou s návratem k *Lebenswelt*; konstitutivní rozpad nikdy nedovolí návrat.
+**Konstitutivní rozpad** systematicky **narušuje pre-reflexivní struktury intencionality** — základní zaměřenost zkušenosti na předmět („vědomí je vždy vědomí něčeho“, *Bewusstsein-von*). Manipulátor (často skrze intenzivní „neutčící“ či „neziskovou“ meditaci, paradoxní rituály nebo dlouhodobou hyperreflexivitu) systematicky rámuje subjektovu **konstitutivní práci** (syntézy retence-prezentace-protence, horizonty, asociace) jako „iluzi ega“. Subjekt postupně ztrácí schopnost udržet **zaměřený předmět zkušenosti** — myšlenky, vnímání, emoce se „rozpadají“ před uchopením. V terminálním stadiu nastává stav, který klinicky často odpovídá **indukované depersonalizaci** s fenomenologickým podkladem. Strukturálně se technika liší od legitimní husserlovské *epoché* — *epoché* je metodologickou pauzou s návratem k *Lebenswelt*; konstitutivní rozpad nikdy nedovolí návrat.
 
 ## Operační modus (5 kroků)
 
 1. **Indukce intenzivní meditativní praxe** — bez kvalifikovaného integrativního rámce.
-2. **Rámování konstitutivních aktů jako "ego iluze"** — explicitní instrukce nepodléhat intencionalitě.
+2. **Rámování konstitutivních aktů jako „ego iluze“** — explicitní instrukce nepodléhat intencionalitě.
 3. **Rituální upevnění** — opakování praxe v komunitním rámci.
 4. **Strukturální dezintegrace** — subjekt přestává udržovat zaměřený předmět.
 5. **Konsolidace fenomenologického rozpadu** — pre-reflexivní struktura nedostupná.
@@ -60,7 +60,7 @@ toc = false
 
 ## Klinický kontext
 
-Konstitutivní rozpad se vyskytuje typicky po dlouhodobé intenzivní "neutčící" meditační praxi v komunitách bez kvalifikovaných učitelů, v některých neo-šamanistických tradicích bez kulturního kořene a u některých formách kontemplativní psychoterapie operující bez somatické kotvy. **Klasický případ**: praktikant intenzivní "neutčící" meditace po roce reportuje "věci se mi rozpadají, nedrží pohromadě". V běžných úkolech (nákup v obchodě, organizace dne) selhává; aktivně rozpadlou strukturu rámuje jako spirituální cíl. Rodina ho přivede k psychiatrovi; diferenciální dg. zahrnuje depersonalizaci s indukovaným podtypem. Léčba: dlouhodobá fenomenologicky orientovaná psychoterapie, často 24–48 měsíců.
+Konstitutivní rozpad se vyskytuje typicky po dlouhodobé intenzivní „neutčící“ meditační praxi v komunitách bez kvalifikovaných učitelů, v některých neo-šamanistických tradicích bez kulturního kořene a u některých formách kontemplativní psychoterapie operující bez somatické kotvy. **Klasický případ**: praktikant intenzivní „neutčící“ meditace po roce reportuje „věci se mi rozpadají, nedrží pohromadě“. V běžných úkolech (nákup v obchodě, organizace dne) selhává; aktivně rozpadlou strukturu rámuje jako spirituální cíl. Rodina ho přivede k psychiatrovi; diferenciální dg. zahrnuje depersonalizaci s indukovaným podtypem. Léčba: dlouhodobá fenomenologicky orientovaná psychoterapie, často 24–48 měsíců.
 
 ## Cross-linky
 

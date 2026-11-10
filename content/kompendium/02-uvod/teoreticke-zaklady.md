@@ -82,13 +82,13 @@ Taxonomie identifikuje spektrum fenoménů narušujících epistemickou autonomi
 
 **Epistemická rekurzivita** označuje kapacitu poznávacích procesů reflektovat samy sebe a operovat na vlastních výstupech. Tento princip je fundamentální pro meta-kognitivní fungování, které umožňuje subjektu monitorovat a regulovat vlastní poznávací procesy.
 
-Taxonomie identifikuje specifické formy narušení epistemické rekurzivity, od oslabení meta-kognitivních kapacit až po fenomény jako "epistemická slepota" (inability detekovat vlastní epistemické deficity) nebo "kognitivní anti-rekurzivita" (aktivní blokování rekurzivních poznávacích operací).
+Taxonomie identifikuje specifické formy narušení epistemické rekurzivity, od oslabení meta-kognitivních kapacit až po fenomény jako „epistemická slepota“ (inability detekovat vlastní epistemické deficity) nebo „kognitivní anti-rekurzivita“ (aktivní blokování rekurzivních poznávacích operací).
 
 ### Princip epistemické sociality
 
 **Epistemická socialita** reflektuje fundamentálně sociální povahu lidského poznávání a uznává, že epistemické procesy a struktury jsou konstituovány a udržovány prostřednictvím sociálních interakcí a participace v epistemických komunitách.
 
-Taxonomie analyzuje specifické formy narušení epistemické sociality, od izolace subjektu od relevantních epistemických komunit až po distorzi sociálně-epistemických vztahů prostřednictvím fenoménů jako "epistemická dominance" nebo "testimonální injustice".
+Taxonomie analyzuje specifické formy narušení epistemické sociality, od izolace subjektu od relevantních epistemických komunit až po distorzi sociálně-epistemických vztahů prostřednictvím fenoménů jako „epistemická dominance“ nebo „testimonální injustice“.
 
 ## Hierarchický model kognitivní architektury
 
@@ -490,7 +490,6 @@ Teoretický rámec je **dynamickou architekturou**, otevřenou kontinuální rev
 - [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - [Glosář: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-
 
 ## ⚡ Kritický krok
 

@@ -50,7 +50,7 @@ Searleho argument: **slabá AI je legitimní** vědecký program; **silná AI je
 
 Pro EA z toho plyne:
 
-- **Marketing silné AI**: tvrzení "AI rozumí", "AI cítí", "AI uvažuje" jsou strukturálně **manipulativní** — buď nepodložená hypotéza, nebo metafora maskovaná jako tvrzení.
+- **Marketing silné AI**: tvrzení „AI rozumí“, „AI cítí“, „AI uvažuje“ jsou strukturálně **manipulativní** — buď nepodložená hypotéza, nebo metafora maskovaná jako tvrzení.
 - **Klinická aplikace**: AI nemůže **substituovat** terapeuta — terapeutický vztah strukturálně vyžaduje **rozumění**, jež AI strukturálně nemá.
 - **Edukační aplikace**: spoléhání na LLM jako **autoritu** je strukturálně **nebezpečné** — model nerozumí, pouze syntakticky transformuje.
 
@@ -70,7 +70,7 @@ Pro EA z toho plyne:
 
 ## 4. Konstrukce sociální reality
 
-Searle (*The Construction of Social Reality*, 1995): **institucionální fakta** (peníze, manželství, vlastnictví) jsou strukturálně **konstruována** kolektivními intencionálními akty — strukturou "*X počítáno za Y v kontextu C*".
+Searle (*The Construction of Social Reality*, 1995): **institucionální fakta** (peníze, manželství, vlastnictví) jsou strukturálně **konstruována** kolektivními intencionálními akty — strukturou „*X počítáno za Y v kontextu C*“.
 
 Pro EA z toho plyne:
 
@@ -109,7 +109,7 @@ Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.
 
 - **AI nemůže nahradit lidský terapeutický vztah**: rozumění je strukturálně biologicky a sociálně vázáno.
 - **AI jako podpůrný nástroj**: legitimní využití (administrativa, dokumentace, edukace), nikoli substituce.
-- **Riziko závislosti na AI "compagnonu"**: strukturálně zhoršuje schopnost autentických intersubjektivních vztahů.
+- **Riziko závislosti na AI „compagnonu“**: strukturálně zhoršuje schopnost autentických intersubjektivních vztahů.
 
 ## 8. Kritická distance
 
@@ -120,7 +120,7 @@ Kompendium absorbuje Searleho argument, ale **odbočuje** v několika bodech:
 
 ## 9. Primární literatura
 
-- Searle, J. (1980). "Minds, Brains, and Programs". *Behavioral and Brain Sciences* 3.
+- Searle, J. (1980). „Minds, Brains, and Programs“. *Behavioral and Brain Sciences* 3.
 - Searle, J. (1992). *The Rediscovery of the Mind*. MIT Press.
 - Searle, J. (1995). *The Construction of Social Reality*. Free Press.
 - Searle, J. (2004). *Mind: A Brief Introduction*. Oxford UP.

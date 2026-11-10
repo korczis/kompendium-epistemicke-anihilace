@@ -58,10 +58,10 @@ v navazujících sekcích kompendia.
 
 Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
 
-- Žádný post-mortem, "je to za námi", lessons learned nikde nezapsané, stejné chyby za 2 roky.
+- Žádný post-mortem, „je to za námi“, lessons learned nikde nezapsané, stejné chyby za 2 roky.
 - Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
 - Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v "černé díře" bez odpovědi v rozumné lhůtě
+- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
 - Externí auditoři dostávají omezený přístup k datům nebo lidem
 
 Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
@@ -100,4 +100,3 @@ Blameless culture, public report (redacted), lessons DB, quarterly preventive ac
 - **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
-

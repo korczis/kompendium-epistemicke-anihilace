@@ -1,81 +1,168 @@
 +++
 title = "Doxing"
 weight = 100
-description = "Doxing — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
+description = "Zveřejnění osobních údajů o člověku proti jeho vůli s cílem vystavit ho obtěžování, zastrašení nebo umlčení; znaky, dopady, právní rámec a obrana."
 
 [taxonomies]
-tags = ["glossary", "architecture", "interactive"]
+tags = ["glossary", "security", "legal", "digitalni", "kompendium"]
 
 [extra]
-category = "architecture"
-related_terms = ["adaptive-learning", "acid-transactions", "addiction-recovery", "adaptive-testing", "3nl", "adversarial-drift"]
+category = "security"
+related_terms = ["deplatforming", "osint", "panopticism", "info-ops", "chain-of-custody", "socialni-izolace"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 ref_count_at_creation = 1
 +++
 
-## Definition
+## Definice
 
-**Doxing** is a platform-architecture term used across the Prismatic Platform documentation. This entry is a structural stub created during the 2026-05-03 NLLB content-completion sweep — full treatment is part of the ongoing knowledge-base buildout.
+**Doxing** (také *doxxing*, z anglického *docs*, „dokumenty“) je shromáždění a **zveřejnění
+osobních údajů o konkrétním člověku proti jeho vůli** – adresy bydliště, telefonu,
+zaměstnavatele, fotografií rodiny, zdravotních nebo finančních informací, skutečné
+identity za pseudonymem –, a to s účelem nebo předvídatelným důsledkem, že dotčený bude
+vystaven obtěžování, zastrašování, ztrátě práce nebo fyzickému ohrožení.
 
-## See Also
+Doxing není totéž co zveřejnění informace ve veřejném zájmu (investigativní novinařina,
+odhalení korupce). Rozhoduje **účel, přiměřenost a cílení**: doxing míří na osobu, ne na
+čin, a zveřejněné údaje nemají vztah k veřejné debatě, ale k možnosti člověka najít
+a zasáhnout.
 
-- [Glossary index](@/glossary/_index.md)
+## Původ a kontext pojmu
 
----
+Výraz vznikl v hackerských a online subkulturách na přelomu 20. a 21. století, kde
+„dropping docs“ znamenalo zveřejnit identitu protivníka. Do širšího povědomí se dostal
+v 2010. letech v souvislosti s koordinovanými online kampaněmi proti novinářkám,
+aktivistům, vědcům a herním vývojářkám.
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Jev sám je ale starší než internet. Zveřejňování adres a jmen „nepřátel“ s výzvou
+k jejich pronásledování patří k repertoáru politického teroru; historické případy
+v Kompendiu ukazují veřejné pranýřování a mobilizaci okolí proti jednotlivcům ([Kubánské
+akty repudia](@/kompendium/historical-cases/9-cuban-akty-repudio.md)). Digitální prostředí
+změnilo hlavně rychlost a dosah: k údajům se lze dostat z veřejně dostupných zdrojů
+a jejich šíření je okamžité.
 
-## Manažerské shrnutí
+## Jak se projevuje
 
-**Doxing** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+- zveřejnění údajů dotčeného v diskusi, na sociální síti nebo ve skupině, často
+  s implicitní výzvou („tady bydlí, kdyby někdo chtěl něco říct“);
+- náhlá vlna zpráv, telefonátů, zásilek nebo návštěv od neznámých lidí;
+- kontaktování zaměstnavatele, rodiny nebo školy dětí;
+- spojení pseudonymu s občanskou identitou;
+- zveřejnění citlivých informací (zdraví, sexualita, minulost) s cílem zostudit;
+- souběh s koordinovaným útokem, deepfaky nebo vytrženými citacemi; viz [Mob
+  Coordination](@/kompendium/techniques/ea-2-3-4-mob-coordination.md) a [Clip
+  Takeout](@/kompendium/techniques/ea-2-3-1-clip-takeout.md).
 
+**U dotčeného:** akutní strach o bezpečí sebe a rodiny, hypervigilance, nespavost,
+stažení z veřejného prostoru, autocenzura, pocit ztráty kontroly nad vlastním životem.
 
-## Koncepční síť
+## Mechanismus
 
-Vizualizace propojení **Doxing** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+Kompendium se doxingem zabývá jako **epistemickým útokem**, nejen jako bezpečnostním
+incidentem. Jeho strukturální účinek spočívá ve třech rovinách:
 
-```mermaid
-graph TD
-    C0["Doxing"]
-    N1["Adaptive Learning"]
-    N2["ACID Transactions"]
-    N3["Addiction Recovery"]
-    N4["Adaptive Testing"]
-    N5["3NL"]
-    N6["Adversarial Drift"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+- **Přesun z argumentu na osobu.** Spor o myšlenku se mění v ohrožení člověka, který ji
+  vyslovil. Tím se mění náklady účasti ve veřejné debatě; viz [EA-2.3.8 Doxxing
+  epistemický](@/kompendium/techniques/ea-2-3-8-doxxing-epistemicky.md).
+- **Odstrašení okolí.** Účinek nepůsobí jen na oběť, ale na všechny, kdo útok sledují:
+  zpráva zní „tohle se stane každému, kdo promluví“. Výsledkem je ochlazení debaty
+  v celé komunitě.
+- **Pocit všudypřítomného dohledu.** Vědomí, že kdokoli může znát mou adresu a denní
+  režim, vyvolává stav podobný tomu, co Foucault popisuje jako [panoptismus](@/glossary/panopticism.md):
+  člověk se začne kontrolovat sám.
 
-## Související pojmy
+Doxing často využívá stejné metody práce s veřejnými zdroji jako legitimní [OSINT](@/glossary/osint.md).
+Rozdíl není v nástrojích, ale v účelu, proporcionalitě a etice: legitimní vyšetřování
+chrání soukromí nezúčastněných, zveřejňuje jen to, co je pro veřejný zájem nezbytné,
+a nikdy nevyzývá k obtěžování.
 
-- [Adaptive Learning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adaptive-learning/) — slug `adaptive-learning`
-- [ACID Transactions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/acid-transactions/) — slug `acid-transactions`
-- [Addiction Recovery](@/glossary/addiction-recovery.md) — slug `addiction-recovery`
-- [Adaptive Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adaptive-testing/) — slug `adaptive-testing`
-- [3NL](@/glossary/3nl.md) — slug `3nl`
-- [Adversarial Drift](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-drift/) — slug `adversarial-drift`
+**Obecný příklad (kompozit).** Vědkyně, která v médiích vysvětluje výsledky výzkumu
+na kontroverzní téma, najde v anonymní diskusi svou adresu, fotografii domu a jméno školy,
+kterou navštěvují její děti. Během týdne dostane desítky výhrůžných zpráv a její
+zaměstnavatel e-maily s požadavkem na její propuštění. Přestane přijímat pozvánky do
+médií. Půl roku poté, co útok utichl, se stále vyhýbá veřejným vystoupením – a několik
+jejích kolegů odmítá k tématu cokoli říct. Doxing tak zasáhl nejen ji, ale i to, co se
+o tématu veřejně ví.
 
-## Navigace
+## Odlišení
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+- **Od investigativní novinařiny a whistleblowingu:** veřejný zájem, ověřování, ochrana
+  nezúčastněných, odpovědnost redakce, právo na reakci.
+- **Od [deplatformingu](@/glossary/deplatforming.md):** deplatforming odebírá prostor
+  k projevu; doxing ohrožuje osobu mimo platformu. Často se kombinují.
+- **Od legitimní kritiky:** kritika se týká výroků a jednání; doxing se týká místa, kde
+  člověk spí.
+- **Od paranoidních obav:** dotčení po doxingu bývají hypervigilantní a jejich strach
+  může působit přehnaně. Ve skutečnosti bývá oprávněný; klinik by neměl reakci
+  patologizovat, ale pomoci ji regulovat a zároveň ověřit reálná rizika.
+
+## Právní rámec
+
+Konkrétní kvalifikace závisí na jurisdikci a okolnostech. V evropském prostoru je
+zpracování osobních údajů upraveno **obecným nařízením o ochraně osobních údajů (GDPR,
+nařízení (EU) 2016/679)**; dotčený se může obrátit na provozovatele platformy a na
+dozorový úřad (v Česku Úřad pro ochranu osobních údajů). Trestněprávně může doxing
+naplnit znaky **nebezpečného pronásledování** (§ 354 trestního zákoníku), vydírání,
+nebezpečného vyhrožování nebo jiných činů, pokud je spojen s dalším jednáním.
+Občanskoprávně přichází v úvahu ochrana osobnosti. Viz [Ochrana
+svědků](@/kompendium/forensic-legal/22-fact-witness-protection.md) a [Elektronické
+důkazy](@/kompendium/forensic-legal/35-electronic-evidence-EA.md).
+
+## Význam pro Kompendium
+
+Doxing patří do skupiny technik mediálního a síťového útoku (EA-2.3) a objevuje se
+v kazuistikách mediálních útoků ([Mediální mob attack](@/kompendium/case-studies/04-medialni-mob-attack.md))
+i v historických případech dezinformačních kampaní ([Pizzagate](@/kompendium/historical-cases/29-pizzagate.md)).
+Na populační úrovni s ním počítají programy [digitálního
+občanství](@/kompendium/population-health/16-digital-citizenship-program.md).
+
+## Obrana a zotavení
+
+**Prevence:**
+
+- Pravidelně kontrolovat, jaké údaje o mně jsou veřejně dostupné, a omezit je
+  (nastavení soukromí, oddělení pracovních a soukromých účtů, opatrnost u fotografií
+  s rozpoznatelným místem); viz [Digitální hygiena](@/kompendium/prevention-resilience/7-digital-hygiene-prevention.md).
+- Dvoufaktorové ověření a silná hesla, aby nebyly zneužitelné účty.
+
+**Při útoku:**
+
+- **Bezpečí na prvním místě.** Při konkrétní hrozbě kontaktovat policii; informovat
+  blízké, zaměstnavatele a případně školu dětí.
+- **Dokumentovat**, než se obsah smaže: snímky obrazovky s adresou a časem, archivace;
+  viz [Uchování důkazů](@/kompendium/forensic-legal/32-evidence-preservation.md).
+- Nahlásit obsah platformě a požadovat odstranění osobních údajů.
+- Nereagovat na útočníky přímo; komunikovat přes jednoho pověřeného člověka.
+
+**Pro organizace:** mít připravený postup pro zaměstnance pod útokem ([Reakce na
+incident](@/kompendium/organizational-defense/31-incident-response-EA.md)).
+
+**Zotavení:** práce s hypervigilancí a ztrátou pocitu bezpečí, postupný návrat do
+veřejného prostoru podle vlastního tempa.
+
+## Související
+
+**Pojmy**
+
+- [Deplatforming](@/glossary/deplatforming.md) – souběžné odebrání prostoru k projevu.
+- [OSINT](@/glossary/osint.md) – legitimní práce s veřejnými zdroji a její etické meze.
+- [Panopticism](@/glossary/panopticism.md) – účinek pocitu všudypřítomného dohledu.
+
+**Techniky a případy**
+
+- [EA-2.3.8 Doxxing epistemický](@/kompendium/techniques/ea-2-3-8-doxxing-epistemicky.md)
+  – doxing jako technika umlčení.
+- [EA-2.3.4 Mob Coordination](@/kompendium/techniques/ea-2-3-4-mob-coordination.md)
+  – koordinovaný útok, jehož bývá součástí.
+- [Mediální mob attack](@/kompendium/case-studies/04-medialni-mob-attack.md) – kazuistika.
+
+**Obrana**
+
+- [Uchování důkazů](@/kompendium/forensic-legal/32-evidence-preservation.md) – dokumentace
+  útoku.
+- [Digitální hygiena](@/kompendium/prevention-resilience/7-digital-hygiene-prevention.md)
+  – prevence.
+- [Reakce na incident](@/kompendium/organizational-defense/31-incident-response-EA.md)
+  – postup organizace.

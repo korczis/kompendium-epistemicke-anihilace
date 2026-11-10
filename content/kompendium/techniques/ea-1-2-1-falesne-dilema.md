@@ -39,7 +39,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 Strukturální mechanismus: **artificiální polarizace** kontinuálního problémového prostoru na **dvě body**. Ostatní body — kterých je v reálných problémech **vždy mnoho** — jsou rétoricky vyloučeny z legitimního prostoru úvahy.
 
-Klíčová asymetrie: subjekt prožívá **kogntivní tenzi** (musí vybrat mezi A a B), aniž by si uvědomoval, že **C, D, E, ..., Z** byly strukturálně vyloučeny.
+Klíčová asymetrie: subjekt prožívá **kogntivní tenzi** (musí vybrat mezi A a B), aniž by si uvědomoval, že **C, D, E, …, Z** byly strukturálně vyloučeny.
 
 ## Operační modus
 
@@ -47,9 +47,9 @@ Klíčová asymetrie: subjekt prožívá **kogntivní tenzi** (musí vybrat mezi
 
 Problém je **iniciálně formulován** v binárních termínech:
 
-- "Buď A, nebo B"
-- "Otázka stojí takto: X, nebo Y"
-- "Existují dvě fundamentální pozice: pro a proti"
+- „Buď A, nebo B“
+- „Otázka stojí takto: X, nebo Y“
+- „Existují dvě fundamentální pozice: pro a proti“
 
 Klíčová vlastnost: **bez explicitního zdůvodnění**, proč jsou pouze tyto dvě možnosti relevantní. Pokud by manipulátor explicitně argumentoval, **proč** jsou A a B vyčerpávající, otevřel by **prostor pro evaluaci**, zda skutečně jsou. Manipulace spočívá v **nezavedení** této otázky.
 
@@ -63,16 +63,16 @@ To je **strukturálně významné**: i pokud subjekt přemýšlí kriticky **uvn
 
 Rétorické signály delegitimizují středy:
 
-- "Centrismus znamená nepřemýšlet"
-- "Kdo se nerozhodne, je v podstatě pro [opačnou stranu]"
-- "Hybridní řešení jsou typicky kompromis nikomu vyhovující"
-- "Toto není doba pro nuanci"
+- „Centrismus znamená nepřemýšlet“
+- „Kdo se nerozhodne, je v podstatě pro [opačnou stranu]“
+- „Hybridní řešení jsou typicky kompromis nikomu vyhovující“
+- „Toto není doba pro nuanci“
 
 Tyto signály **nejsou** argumenty — jsou **rámcovými gesty**, která **vylučují** legitimní pozice z prostoru úvahy bez argumentačního důkazu.
 
 ### Krok 4 — Time pressure
 
-Často kombinováno s **time pressure**: "Musíme se rozhodnout teď." Time pressure inhibuje rekonstrukci alternativ — subjekt nemá kapacitu **zpochybnit rámec**, musí volit **uvnitř** něj.
+Často kombinováno s **time pressure**: „Musíme se rozhodnout teď.“ Time pressure inhibuje rekonstrukci alternativ — subjekt nemá kapacitu **zpochybnit rámec**, musí volit **uvnitř** něj.
 
 ### Krok 5 — Konsolidace skrze opakování
 
@@ -131,9 +131,9 @@ Falešné dilema vs. **legitimní volba mezi dvěma alternativami**:
 
 #### 1. **Explicitní identifikace binárního rámce**
 
-Při prvních signálech "buď A, nebo B" **explicitně** zformuluj:
+Při prvních signálech „buď A, nebo B“ **explicitně** zformuluj:
 
-> *"To, co prezentujete, je binární volba. Existují i jiné pozice?"*
+> *„To, co prezentujete, je binární volba. Existují i jiné pozice?“*
 
 Tento jednoduchý dotaz přerušuje strukturální mechanismus mystifikace.
 
@@ -151,7 +151,7 @@ Cíl není přesvědčit manipulátora — cíl je **rozšířit vlastní prosto
 
 #### 3. **Dekonstrukce předpokládané exkluzivity**
 
-Při tvrzení *"buď A, nebo B"* explicitně testuj:
+Při tvrzení *„buď A, nebo B“* explicitně testuj:
 
 - Jsou A a B skutečně **vzájemně vyloučující**?
 - Pokud ano — ve kterém **rozměru**? Mohou koexistovat v jiném rozměru?
@@ -161,7 +161,7 @@ Při tvrzení *"buď A, nebo B"* explicitně testuj:
 
 Při time pressure **odmítni** rozhodnout v rámci binárního rámce. Klíčová formulace:
 
-> *"Potřebuji čas zvážit, zda jsou A a B opravdu vyčerpávající. Vrátím se s odpovědí v X čase."*
+> *„Potřebuji čas zvážit, zda jsou A a B opravdu vyčerpávající. Vrátím se s odpovědí v X čase.“*
 
 Time pressure samotný je **silný indikátor** falešného dilematu.
 
@@ -183,7 +183,7 @@ V kontextech, kde předem víš, že hrozí falešné dilema (politické debaty,
 
 ### Případ 1 — Korporátní strategie
 
-Boardroom diskuse: "Build vs. buy" pro novou platformu. Výkonný tým prezentoval **dvě** opce s detailní analýzou.
+Boardroom diskuse: „Build vs. buy“ pro novou platformu. Výkonný tým prezentoval **dvě** opce s detailní analýzou.
 
 Detekce: Junior analyst zformuloval **třetí** opci: partner s existujícím vendorem na hybrid řešení. Po analýze byla třetí opce **superiorní** k oběma binárním v ROI i time-to-market.
 
@@ -191,7 +191,7 @@ Intervence: Boardroom přijal politiku **mandatorní třetí opce** ve všech st
 
 ### Případ 2 — Akademická debata
 
-Konferenční panel: "Kvalitativní vs. kvantitativní metodologie v sociálních vědách". Panel byl strukturován jako "obhajoba dvou škol".
+Konferenční panel: „Kvalitativní vs. kvantitativní metodologie v sociálních vědách“. Panel byl strukturován jako „obhajoba dvou škol“.
 
 Detekce: Externí komentátor poukázal, že **80 %** publikované literatury používá **mixed-methods**, který panel **strukturálně ignoroval**.
 
@@ -216,7 +216,7 @@ Intervence: Mandatorní **multi-disciplinary tumor board** review pro všechny k
 ### Eskaluje do
 
 - **Kolektivní polarizace** — kolektivní falešné dilema indukuje **strukturální** polarizaci komunity.
-- **EA-1.6.1 Vzorec "Guru a adept"** — guru často rámec etabluje *jako* binární mezi "naším" a "ostatními".
+- **EA-1.6.1 Vzorec „Guru a adept“** — guru často rámec etabluje *jako* binární mezi „naším“ a „ostatními“.
 
 ### Hraniční / podobné
 
@@ -225,7 +225,7 @@ Intervence: Mandatorní **multi-disciplinary tumor board** review pro všechny k
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine multi-hypothesis tracking** — explicitní strukturální obrana: každé rozhodnutí ukládá **multiple hypotézy**, ne pouze "best vs. rest".
+- **Decision Engine multi-hypothesis tracking** — explicitní strukturální obrana: každé rozhodnutí ukládá **multiple hypotézy**, ne pouze „best vs. rest“.
 - **NABLA Infinity epistemic divergence detection** — pokud kandidátní rozhodnutí konverguje na binární rámec přes nuancovanou evidenci, system **flagguje** anomálii.
 - **Color Teams Devil's Advocate role** — Red Team agenty mají strukturální mandát zpochybnit binární rámce.
 
@@ -242,7 +242,6 @@ Intervence: Mandatorní **multi-disciplinary tumor board** review pro všechny k
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

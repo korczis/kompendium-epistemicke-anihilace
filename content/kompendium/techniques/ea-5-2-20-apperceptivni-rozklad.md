@@ -35,31 +35,31 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 ## Definice
 
-**Apperceptivní rozklad** je metatranscendentální technika, jíž je destruována **transcendentální jednota apperzepce** — Kantovo "*Ich denke*" (Já myslím), jež musí provázet všechny mé představy, aby vůbec byly **mé** představy. Subjekt ztrácí strukturní jednotu sebevědomí napříč myšlenkami, vzpomínkami a percepcemi. Reprezentace pokračují, ale **nejsou sjednoceny v jednotu vědomí**.
+**Apperceptivní rozklad** je metatranscendentální technika, jíž je destruována **transcendentální jednota apperzepce** — Kantovo „*Ich denke*“ (Já myslím), jež musí provázet všechny mé představy, aby vůbec byly **mé** představy. Subjekt ztrácí strukturní jednotu sebevědomí napříč myšlenkami, vzpomínkami a percepcemi. Reprezentace pokračují, ale **nejsou sjednoceny v jednotu vědomí**.
 
 Kant v *Kritice čistého rozumu* identifikuje transcendentální apperzepci jako **nejvyšší princip rozvažování**: podmínku možnosti, aby reprezentace byly sjednoceny v jednotu zkušenosti. Bez ní by zkušenost byla **rapsodií nezávislých vjemů** bez koherentního subjektu.
 
-Apperceptivní rozklad tuto syntetickou jednotu destruuje. Subjekt prožívá své myšlenky, vzpomínky a percepce jako **rozptýlené události** bez sjednocujícího "já". Analogie s Husserlovým *prelinguistickým hyletickým proudem*, ale patologická: subjekt nedokáže obnovit syntézu.
+Apperceptivní rozklad tuto syntetickou jednotu destruuje. Subjekt prožívá své myšlenky, vzpomínky a percepce jako **rozptýlené události** bez sjednocujícího „já“. Analogie s Husserlovým *prelinguistickým hyletickým proudem*, ale patologická: subjekt nedokáže obnovit syntézu.
 
-Tento stav bývá pseudo-mysticky interpretován jako *anatta* (no-self) nebo "rozpuštění ega", ale strukturně jde o destrukci transcendentální subjektivity, nikoli o autentický buddhistický vhled.
+Tento stav bývá pseudo-mysticky interpretován jako *anatta* (no-self) nebo „rozpuštění ega“, ale strukturně jde o destrukci transcendentální subjektivity, nikoli o autentický buddhistický vhled.
 
 ## Operační modus
 
 ### Krok 1 — Pseudo-buddhistická indoktrinace
 
-Subjekt je veden k radikální verzi *anatta* — "neexistuje žádné já". Buddhistický nuancovaný výklad (anatta jako absence stálé substanciální identity) je redukován na **strukturní popření jednoty subjektivity**.
+Subjekt je veden k radikální verzi *anatta* — „neexistuje žádné já“. Buddhistický nuancovaný výklad (anatta jako absence stálé substanciální identity) je redukován na **strukturní popření jednoty subjektivity**.
 
 ### Krok 2 — Saturace fragmentačními praxemi
 
-Intenzivní meditace zaměřená na "pozorování myšlenek bez pozorovatele" (perverze legitimní praxe) systematicky oslabuje syntetickou jednotu apperzepce.
+Intenzivní meditace zaměřená na „pozorování myšlenek bez pozorovatele“ (perverze legitimní praxe) systematicky oslabuje syntetickou jednotu apperzepce.
 
 ### Krok 3 — Destrukce mnemonické integrace
 
-Pamět je systematicky destabilizována — subjekt je veden k pochybnostem o autobiografické kontinuitě, k disociaci od minulých "já".
+Pamět je systematicky destabilizována — subjekt je veden k pochybnostem o autobiografické kontinuitě, k disociaci od minulých „já“.
 
 ### Krok 4 — Bod apperceptivního rozkladu
 
-V určitém momentu subjekt prožívá **akutní rozklad** jednoty sebevědomí: myšlenky se zdají "ničí", vzpomínky "neosobní", percepce "bez subjektu".
+V určitém momentu subjekt prožívá **akutní rozklad** jednoty sebevědomí: myšlenky se zdají „ničí“, vzpomínky „neosobní“, percepce „bez subjektu“.
 
 ### Krok 5 — Konsolidace pseudo-osvícenecky
 
@@ -67,10 +67,10 @@ Stav je etablován jako *anatta*-realizace. Identitární investice činí návr
 
 ## Fenomenologické znaky
 
-- **Subjektová bezdomovost** — myšlenky "nejsou moje".
-- **Mnemonická disociace** — vzpomínky "patří někomu jinému".
+- **Subjektová bezdomovost** — myšlenky „nejsou moje“.
+- **Mnemonická disociace** — vzpomínky „patří někomu jinému“.
 - **Pseudo-mystická euforie** prokládaná akutní úzkostí.
-- **Volní paralýza** — neschopnost iniciovat akce, protože "není kdo by je inicioval".
+- **Volní paralýza** — neschopnost iniciovat akce, protože „není kdo by je inicioval“.
 - **Lingvistická paradoxie** — řeč přetrvává v první osobě, ale neodkazuje k jednotnému subjektu.
 - **Praktická bezmocnost** — selhání v úkolech vyžadujících kontinuální subjektivitu.
 

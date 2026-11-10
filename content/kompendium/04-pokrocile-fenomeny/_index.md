@@ -61,7 +61,7 @@ Stavy emerge na rozhraní subjektu a sociálního pole:
 
 - **Identitární disociace** — Aktivní, manipulátorem podporovaná dezintegrace subjektivního self do více navzájem nekompatibilních identitárních fragmentů.
 - **Relační inverzní vazba** — Stav, kdy subjekt rozpozná manipulátora jako ohrožení a současně jako jediný zdroj bezpečí. Mechanismus překračuje klasické trauma bonding tím, že neoperuje primárně přes intermitentní posilování, ale přes epistemickou závislost.
-- **Kolektivní entrainment** — Synchronizace kognice, emocí a chování ve skupině do té míry, že individuální posouzení přestává být dostupné. Mechanismus mass formation, Le Bonovy "duše davu" v moderní reformulaci.
+- **Kolektivní entrainment** — Synchronizace kognice, emocí a chování ve skupině do té míry, že individuální posouzení přestává být dostupné. Mechanismus mass formation, Le Bonovy „duše davu“ v moderní reformulaci.
 
 ### Ontologicko-existenciální fenomény
 

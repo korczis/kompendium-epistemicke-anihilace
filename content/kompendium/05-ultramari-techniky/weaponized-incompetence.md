@@ -29,13 +29,14 @@ Mechanismus **Weaponized Incompetence** typicky zahrnuje tři fáze:
 
 1. **Setup phase** — útočník etabluje rámec, který činí standardní obranné mechanismy oběti irelevantními nebo invertuje jejich smysl
 2. **Eskalační fáze** — útočník vystupňuje tlak nebo nejednoznačnost, dokud oběť nezačne pochybovat o vlastním úsudku
-3. **Konsolidační fáze** — útočník upevní novou epistemickou pozici jako "normální" nebo "samozřejmou", takže návrat k původnímu stavu vyžaduje externí intervenci
+3. **Konsolidační fáze** — útočník upevní novou epistemickou pozici jako „normální“ nebo „samozřejmou“, takže návrat k původnímu stavu vyžaduje externí intervenci
 
 Detailní analýza jednotlivých fází je dokumentována v technique-level článcích (`techniques/ea-X-X-X.md`) a v detection-signature záznamech.
 
 ## Detekční signatura
 
 Operační detekce **Weaponized Incompetence** se opírá o behaviorální a lingvistické markery dokumentované v [detection-signatures/](@/kompendium/detection-signatures/_index.md). Analytik hledá diskrepance mezi:
+
 - explicitním obsahem výroku a implicitním rámcem (motte-bailey vzorec)
 - rychlostí přechodu mezi pozicemi (sealioning timing)
 - asymetrií v důkazních standardech mezi vlastními a oponentovými tvrzeními
@@ -43,11 +44,11 @@ Operační detekce **Weaponized Incompetence** se opírá o behaviorální a lin
 ## Counter-protokol
 
 Ochrana proti **Weaponized Incompetence** vyžaduje:
+
 - **Externalizaci epistemických procesů** — peer review, dokumentační stopy, časové razítko
 - **Strukturní přerušení interakce** — stop-pravidla, time-outs, externí mediace
 - **Rekonstruktivní práci po expozici** — viz [recovery-protocols/](@/kompendium/recovery-protocols/_index.md), zejména protokoly orientované na narativ a paradigm-rebuilding
 <!-- EXPANDED:PHASE11 -->
-
 
 ## See Also
 
@@ -61,7 +62,6 @@ Ochrana proti **Weaponized Incompetence** vyžaduje:
 ## Manažerské shrnutí
 
 **Weaponized Incompetence** je aktivní uzel taxonomického grafu sekce `kompendium/05-ultramari-techniky` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
-
 
 ## Koncepční síť
 

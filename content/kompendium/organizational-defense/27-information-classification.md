@@ -17,7 +17,7 @@ toc = true
 
 > **Bucket:** Operativní · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
 
-Bez klasifikace nelze chránit — EA aktéři exfiltrují citlivé informace přes "public" kanály díky absenci taggingu.
+Bez klasifikace nelze chránit — EA aktéři exfiltrují citlivé informace přes „public“ kanály díky absenci taggingu.
 
 ## 1. Organizační kontext
 
@@ -58,10 +58,10 @@ v navazujících sekcích kompendia.
 
 Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
 
-- Vše je "interní", žádné labeling, citlivé dokumenty na sdílených discích bez restrikcí.
+- Vše je „interní“, žádné labeling, citlivé dokumenty na sdílených discích bez restrikcí.
 - Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
 - Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v "černé díře" bez odpovědi v rozumné lhůtě
+- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
 - Externí auditoři dostávají omezený přístup k datům nebo lidem
 
 Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
@@ -100,4 +100,3 @@ DLP tooling, automatic classification (NLP), regular audit, training s practical
 - **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
-

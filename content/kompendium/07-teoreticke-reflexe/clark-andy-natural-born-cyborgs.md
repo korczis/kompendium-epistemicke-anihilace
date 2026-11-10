@@ -31,7 +31,7 @@ Clarkova centrální teze: člověk se **strukturálně neevoluoval** jako **iso
 - **Hodiny, mapy, kalendáře**: kognitivní moduly
 - **Smartphone, AI**: současné rozšíření
 
-"Hluboká integrace" člověka a technologie není **patologií** — je strukturálně **konstitutivní** lidskosti.
+„Hluboká integrace“ člověka a technologie není **patologií** — je strukturálně **konstitutivní** lidskosti.
 
 Pro EA z toho plyne:
 
@@ -127,7 +127,7 @@ Clark má **silnou** politickou pozici:
 - Clark, A. (2003). *Natural-Born Cyborgs*. Oxford UP.
 - Clark, A. (2008). *Supersizing the Mind*. Oxford UP.
 - Clark, A. (2016). *Surfing Uncertainty*. Oxford UP.
-- Clark, A. & Chalmers, D. (1998). "The Extended Mind". *Analysis* 58.
+- Clark, A. & Chalmers, D. (1998). „The Extended Mind“. *Analysis* 58.
 - Menary, R. (ed.) (2010). *The Extended Mind*. MIT Press.
 
 ## Související

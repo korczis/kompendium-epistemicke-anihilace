@@ -45,7 +45,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 - **Minulost / přítomnost / budoucnost** — temporální struktura zkušenosti se rozpouští
 - **Konkrétní / abstraktní** — pojmové a vjemové roviny ztrácejí distinkci
 
-Klíčový distinktivní znak — kategorická transgrese není pouhý přesun mezi kategoriemi (metafora, analogie), ani filosofická kritika kategoriálního systému. Subjekt **ztrácí schopnost** rozlišovat. Nikoliv "rozlišuje, ale rozhodl se nepřisuzovat váhu rozdílu", ale **kapacitně** nedokáže udržet hranici.
+Klíčový distinktivní znak — kategorická transgrese není pouhý přesun mezi kategoriemi (metafora, analogie), ani filosofická kritika kategoriálního systému. Subjekt **ztrácí schopnost** rozlišovat. Nikoliv „rozlišuje, ale rozhodl se nepřisuzovat váhu rozdílu“, ale **kapacitně** nedokáže udržet hranici.
 
 Technika exploituje skutečnost, že kategoriální struktura zkušenosti je **infrastrukturální** — operuje pod úrovní vědomé reflexe. Systematická transgrese této infrastruktury produkuje **dezorientaci**, kterou subjekt nedokáže lokalizovat, protože nedokáže pojmenovat, **co** se rozpadlo.
 
@@ -65,15 +65,16 @@ Manipulátor začíná **legitimními** překročeními kategorie: metafora, nar
 
 ### Krok 3 — Postupná dereifikace hranice
 
-Postupně manipulátor přestává **explicitně označovat** překročení jako tropus. Metafora je prezentována jako "hlubší pravda". Narativ je prezentován jako "jiná úroveň reality". Identifikace s druhým je prezentována jako "rozpuštění iluze ega". Subjekt přijímá tyto rámce, protože v rámci akumulovaného vztahu nemá nástroj, jak je odmítnout.
+Postupně manipulátor přestává **explicitně označovat** překročení jako tropus. Metafora je prezentována jako „hlubší pravda“. Narativ je prezentován jako „jiná úroveň reality“. Identifikace s druhým je prezentována jako „rozpuštění iluze ega“. Subjekt přijímá tyto rámce, protože v rámci akumulovaného vztahu nemá nástroj, jak je odmítnout.
 
 ### Krok 4 — Konsolidace transgresivního vzorce
 
-Manipulátor sytematicky **odměňuje** transgresivní akty (afirmace, "průlom", "vyšší pochopení") a **trestá** kategorialní obnovu ("zpátky do iluze", "ego se brání", "intelektualizace"). Subjekt internalizuje vzorec: rozpouštění hranice = pokrok, udržování hranice = patologie.
+Manipulátor sytematicky **odměňuje** transgresivní akty (afirmace, „průlom“, „vyšší pochopení“) a **trestá** kategorialní obnovu („zpátky do iluze“, „ego se brání“, „intelektualizace“). Subjekt internalizuje vzorec: rozpouštění hranice = pokrok, udržování hranice = patologie.
 
 ### Krok 5 — Generalizovaný kategoriální kolaps
 
 Po dostatečné expozici subjekt **generalizuje** vzorec. Kategoriální struktura zkušenosti se rozpadá:
+
 - Symboly **jsou** věci (fiktivní bytost je reálnou bytostí)
 - Druhý **je** já (memory blending, konfuze autorství zkušeností)
 - Hodnoty **jsou** fakty (normativní výroky prožívané jako empirické nutnosti)
@@ -85,13 +86,13 @@ Subjekt často reportuje **mystický pocit jednoty** — strukturálně tomu odp
 
 Co prožívá subjekt **uvnitř** kategorické transgrese:
 
-- **Dezorientace v základních rozlišeních** — "co je vlastně reálné?", "kdo je vlastně 'já'?"
-- **Ontologická úzkost** — pocit, že "základ se rozpadá", bez schopnosti lokalizovat **co**
-- **Pseudo-mystická jednota** — eufórický pocit, že "vše je jedno", interpretovaný jako spirituální průlom
+- **Dezorientace v základních rozlišeních** — „co je vlastně reálné?“, „kdo je vlastně 'já'?“
+- **Ontologická úzkost** — pocit, že „základ se rozpadá“, bez schopnosti lokalizovat **co**
+- **Pseudo-mystická jednota** — eufórický pocit, že „vše je jedno“, interpretovaný jako spirituální průlom
 - **Memory blending** — konfuze, zda určitá vzpomínka je vlastní zkušenost, převzatý narativ nebo představa
-- **Dereifikace agentnosti** — pocit, že "věci se dějí mně", bez jasné lokalizace činitele
+- **Dereifikace agentnosti** — pocit, že „věci se dějí mně“, bez jasné lokalizace činitele
 - **Re-traumatizace bez kontextu** — emocionální stavy minulých událostí prožívané jako přítomné
-- **Antropomorfizace + de-animace** — neživé prostředí "promlouvá", živí "jsou hra"
+- **Antropomorfizace + de-animace** — neživé prostředí „promlouvá“, živí „jsou hra“
 - **Pasivní akceptace narativu** — fiktivní výroky o realitě nepoznávány jako fiktivní
 
 ## Detekční markery (pohled pozorovatele)
@@ -136,6 +137,7 @@ Kategorická transgrese je odlišitelná od:
 #### 1. **Kategoriální audit**
 
 Pravidelně si pokládej **explicitní** otázky:
+
 - Toto je vzpomínka, představa, nebo aktuální vjem?
 - Toto je metafora, nebo doslovný popis?
 - Toto je můj zážitek, nebo příběh, který jsem slyšel?
@@ -148,7 +150,7 @@ Udržuj **pravidelný kontakt** s prostředím, které **vynucuje** kategoriáln
 
 #### 3. **Temporální pinning**
 
-Pravidelně **explicitně** lokalizuj zážitek v čase: "toto se děje **teď**, dne **X**, v **Y**". Re-traumatizace bez temporální kotvy je hlavním symptomem narušené hranice minulost / přítomnost.
+Pravidelně **explicitně** lokalizuj zážitek v čase: „toto se děje **teď**, dne **X**, v **Y**“. Re-traumatizace bez temporální kotvy je hlavním symptomem narušené hranice minulost / přítomnost.
 
 #### 4. **Autorská lokalizace**
 
@@ -171,22 +173,22 @@ Kategoriální struktura je hluboce zakotvena v tělesné zkušenosti. Pravideln
 
 ### Případ 1 — Vysoce kontrolní skupina
 
-Členka skupiny po 5 letech reportovala, že "už neví, kde končí ona a začíná Mistr". Vzpomínky z dětství obsahovaly elementy, které byly **doktrinálně** typické pro skupinu, ale **biograficky** nemožné. Při terapeutické intervenci byla identifikována systematická konfuze mezi vlastními zkušenostmi a převzatými narativy. Pacientka nereagovala na návrh, že rozdíl je důležitý — "vše je jedno". Reverzace vyžadovala 24 měsíců strukturované terapie s explicitním memory provenance work.
+Členka skupiny po 5 letech reportovala, že „už neví, kde končí ona a začíná Mistr“. Vzpomínky z dětství obsahovaly elementy, které byly **doktrinálně** typické pro skupinu, ale **biograficky** nemožné. Při terapeutické intervenci byla identifikována systematická konfuze mezi vlastními zkušenostmi a převzatými narativy. Pacientka nereagovala na návrh, že rozdíl je důležitý — „vše je jedno“. Reverzace vyžadovala 24 měsíců strukturované terapie s explicitním memory provenance work.
 
 ### Případ 2 — Psychedelický kontext bez integrace
 
-Účastník po sérii nestrukturovaných vysokých dávek reportoval, že "rozumí všemu". V interview používal výroky jako "stůl je vědomý" a "moji rodiče jsou mé minulé já" jako **doslovné** popisy. Při dotázání reagoval, že "tohle je vyšší úroveň pravdy, kterou intelekt neuchopí". Detekce: rodina po šesti měsících. Klinická intervence stabilizovala stav, ale plné kategoriální obnovy bylo dosaženo pouze částečně.
+Účastník po sérii nestrukturovaných vysokých dávek reportoval, že „rozumí všemu“. V interview používal výroky jako „stůl je vědomý“ a „moji rodiče jsou mé minulé já“ jako **doslovné** popisy. Při dotázání reagoval, že „tohle je vyšší úroveň pravdy, kterou intelekt neuchopí“. Detekce: rodina po šesti měsících. Klinická intervence stabilizovala stav, ale plné kategoriální obnovy bylo dosaženo pouze částečně.
 
 ### Případ 3 — Politicko-ideologický kontext
 
-Aktivista po 3 letech v intenzivním rámci reportoval, že nedokáže rozlišit, **které** historické události se reálně staly, **které** jsou re-interpretace, a **které** jsou doktrinální narativy. Při dotázání produkoval kombinace, kde fakta a hodnocení byly neoddělitelné ("ten člověk **byl** zlý" jako empirický výrok bez schopnosti rozdělit fakt od hodnoty). Externí historik identifikoval transgresi fakt / hodnota.
+Aktivista po 3 letech v intenzivním rámci reportoval, že nedokáže rozlišit, **které** historické události se reálně staly, **které** jsou re-interpretace, a **které** jsou doktrinální narativy. Při dotázání produkoval kombinace, kde fakta a hodnocení byly neoddělitelné („ten člověk **byl** zlý“ jako empirický výrok bez schopnosti rozdělit fakt od hodnoty). Externí historik identifikoval transgresi fakt / hodnota.
 
 ## Vztah k jiným technikám
 
 ### Často kombinováno s
 
 - **[EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)** — kolaps kategorií zrcadlí kolaps sémantiky pojmů, jež kategorie značily; spolu eliminují klasifikační kapacitu.
-- **[EA-5.1.5 Logická diskontinuita](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md)** — kolaps kategorií předpokládá, že subjekt nedrží řetězec, který by ho z transgrese vyvedl ("víš co je vzpomínka, sleduj řetězec — proč by **toto** byla vzpomínka?").
+- **[EA-5.1.5 Logická diskontinuita](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md)** — kolaps kategorií předpokládá, že subjekt nedrží řetězec, který by ho z transgrese vyvedl („víš co je vzpomínka, sleduj řetězec — proč by **toto** byla vzpomínka?“).
 - **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — emocionální saturace transgresivních zážitků blokuje racionální revizi kategoriálního stavu.
 - **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — diverze brání subjektu vystopovat strukturální vady kategoriálního systému, který přijímá.
 
@@ -236,7 +238,6 @@ Kategorická transgrese je strukturálním motivem pro několik defenzivních me
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

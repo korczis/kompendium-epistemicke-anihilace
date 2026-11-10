@@ -123,7 +123,6 @@ Technika **perspektivní substituce** představuje strukturální výzvu pro def
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Husserlův **Ich-pól** intencionálního aktu (*Ideen I*) — formální centrum prožívání — je nahrazen perspektivou druhého. Merleau-Pontyho **point de vue** jako tělově ukotvený horizont je vyměněn. Mead-Cooleyovský **looking-glass self** je radikalizován: subjekt nevidí sebe očima druhého, ale vidí svět očima druhého. Levinasovo **face-à-face** je narušeno: subjekt zírá na svět z tváře druhého, jako by byla jeho. Ricoeurovo **soi-même comme un autre** je inverzně realizováno — namísto distance přes druhého je self ztotožněn s druhým. Damasiova **perspective-taking** sítě (mPFC, TPJ) jsou hypertrofované jedním směrem. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

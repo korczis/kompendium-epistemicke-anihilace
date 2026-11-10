@@ -335,15 +335,15 @@ The broader ecosystem gains:
 
 ### Common Objections
 
-#### "Boundaries Restrict Innovation"
+#### “Boundaries Restrict Innovation”
 
 **Response**: Boundaries direct innovation rather than restricting it. The most creative work in any domain occurs within constraints, not in their absence.
 
-#### "Boundaries Create Silos"
+#### “Boundaries Create Silos”
 
 **Response**: Boundaries create defined interfaces, not silos. Well-designed boundaries enable interoperability while preserving integrity.
 
-#### "Boundaries Are Elitist"
+#### “Boundaries Are Elitist”
 
 **Response**: Boundaries protect the rights of creators regardless of their status. They are egalitarian in principle even if their effects differ by context.
 

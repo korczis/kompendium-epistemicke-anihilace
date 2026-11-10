@@ -130,22 +130,27 @@ rozhovor mimo skupinu. Pro práci s vlastním prožitkem viz
 ## Související
 
 **Navazující scénáře**
+
 - [Vzorec gaslightingu](@/kompendium/educational-scenarios/19-gaslighting-pattern.md) – vzorec, na nějž DARVO často navazuje při konfrontaci.
 - [Rozpoznání ultramárních technik](@/kompendium/educational-scenarios/21-ultramarine-recognition.md) – začátek pokročilé řady.
 
 **Techniky**
+
 - [EA-5.3.22 Inverze morálních os](@/kompendium/techniques/ea-5-3-22-moralni-osy-inverze.md) – hlubší forma obrácení rolí.
 - [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – odvedení od tématu.
 
 **Detekční signatury**
+
 - [Inverze zájmen](@/kompendium/detection-signatures/5-linguistic-pronoun-inversion.md) – jazykový otisk výměny rolí.
 - [Vyhýbání se tématu](@/kompendium/detection-signatures/11-behavioral-topic-evasion.md) – behaviorální otisk.
 
 **Sebe-obrana a organizace**
+
 - [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) – jak udržet téma pod tlakem.
 - [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md) – procesní rámec.
 
 **Glosář**
+
 - [DARVO](@/glossary/darvo.md) – definice a souvislosti.
 - [Blame shifting](@/glossary/blame-shifting.md) – příbuzný mechanismus přesunu viny.
 

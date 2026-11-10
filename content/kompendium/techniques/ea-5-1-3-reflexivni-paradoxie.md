@@ -39,9 +39,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Na rozdíl od běžné nadměrné introspekce, která pouze **zpomaluje** myšlení, reflexivní paradoxie **strukturálně blokuje** metakognitivní operace: subjekt nedokáže myslet o vlastním myšlení, aniž by se nedostal do logicky neudržitelné pozice. Klasickými příklady indukovaných paradoxů jsou:
 
-- *"Mohu důvěřovat vlastnímu úsudku o tom, zda mohu důvěřovat vlastnímu úsudku?"*
-- *"Pokud jsem manipulován, mohu rozpoznat manipulaci? A pokud myslím, že nejsem, není to právě důsledek manipulace?"*
-- *"Kdo to ve mně reflektuje? A kdo reflektuje toho, kdo reflektuje?"*
+- *„Mohu důvěřovat vlastnímu úsudku o tom, zda mohu důvěřovat vlastnímu úsudku?“*
+- *„Pokud jsem manipulován, mohu rozpoznat manipulaci? A pokud myslím, že nejsem, není to právě důsledek manipulace?“*
+- *„Kdo to ve mně reflektuje? A kdo reflektuje toho, kdo reflektuje?“*
 
 V akutní fázi prožívá subjekt stav, který fenomenologie označuje jako **kognitivní zamrznutí**: produktivní myšlení se zastavuje v okamžiku, kdy se obrací k sobě samému. Spolu s [EA-5.1.1 epistemickou kanibalizací](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) a [EA-5.1.2 konceptuální nihilací](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md) tvoří reflexivní paradoxie jádro **epistemické singularity** — subjekt přestává být schopný operovat jako autonomní epistemický agent.
 
@@ -51,16 +51,16 @@ Technika operuje v pěti krocích, jejichž cyklus je iterován s rostoucí inte
 
 ### Krok 1 — Etablování meta-kompetence manipulátora
 
-Manipulátor se etabluje jako **mistr metakognice**: ten, kdo "vidí, jak člověk myslí o myšlení". Tato role je obvykle prezentována jako mentorská, terapeutická, nebo doktrinální. Klíčové je, že subjekt přijímá, že **on sám** v meta-úrovni operuje **méně kompetentně** než manipulátor.
+Manipulátor se etabluje jako **mistr metakognice**: ten, kdo „vidí, jak člověk myslí o myšlení“. Tato role je obvykle prezentována jako mentorská, terapeutická, nebo doktrinální. Klíčové je, že subjekt přijímá, že **on sám** v meta-úrovni operuje **méně kompetentně** než manipulátor.
 
 ### Krok 2 — Indukce primárního paradoxu
 
 Manipulátor zavádí **primární paradoxní strukturu** v reflexi. Klasické formy:
 
-- **Paradox důvěry úsudku**: *"Než si budeš věřit, musíš vědět, že tvůj úsudek o vlastním úsudku je validní. Ale tento meta-úsudek je sám produktem stejného úsudku."*
-- **Paradox manipulace**: *"Když si myslíš, že nejsi manipulován, je to právě nejsilnější efekt manipulace. Když si myslíš, že jsi, je to často projev paranoie."*
-- **Paradox autenticity**: *"To, co cítíš jako 'své pravé já', je sociálně konstruováno. Ale i odhalení této konstrukce je sociálně konstruováno."*
-- **Paradox volby**: *"Tvoje rozhodnutí ze svobodné vůle je důsledkem příčin. Ale rozhodnutí to vědět je také důsledkem příčin."*
+- **Paradox důvěry úsudku**: *„Než si budeš věřit, musíš vědět, že tvůj úsudek o vlastním úsudku je validní. Ale tento meta-úsudek je sám produktem stejného úsudku.“*
+- **Paradox manipulace**: *„Když si myslíš, že nejsi manipulován, je to právě nejsilnější efekt manipulace. Když si myslíš, že jsi, je to často projev paranoie.“*
+- **Paradox autenticity**: *„To, co cítíš jako 'své pravé já', je sociálně konstruováno. Ale i odhalení této konstrukce je sociálně konstruováno.“*
+- **Paradox volby**: *„Tvoje rozhodnutí ze svobodné vůle je důsledkem příčin. Ale rozhodnutí to vědět je také důsledkem příčin.“*
 
 Paradox je **logicky reálný** — má autentickou strukturu rekurze nebo autoreference. Manipulátorův příspěvek není ve fabrikaci paradoxu, ale ve **strategickém** zavádění a **inhibici** běžných operativních úniků (pragmatické bracketing, hierarchické typování, fenomenologická redukce).
 
@@ -68,8 +68,8 @@ Paradox je **logicky reálný** — má autentickou strukturu rekurze nebo autor
 
 Když se subjekt pokusí paradox **operativně překročit** (např. pragmaticky se rozhodnout důvěřovat úsudku navzdory regresi), manipulátor zavádí **další úroveň meta-otázky**:
 
-- *"To je rozumné rozhodnutí. Ale rozhodnutí to považovat za rozumné je samo součástí toho, co se snažíš obhájit."*
-- *"Pragmatická volba je únik. Ale únik před čím? Před pravdou? Nebo před úzkostí? A jak to chceš rozlišit?"*
+- *„To je rozumné rozhodnutí. Ale rozhodnutí to považovat za rozumné je samo součástí toho, co se snažíš obhájit.“*
+- *„Pragmatická volba je únik. Ale únik před čím? Před pravdou? Nebo před úzkostí? A jak to chceš rozlišit?“*
 
 Subjekt je **stržen** zpět do paradoxního pole pokaždé, když se z něj pokusí vystoupit. Tato dynamika produkuje **kognitivní bezvýchodnost**.
 
@@ -77,15 +77,15 @@ Subjekt je **stržen** zpět do paradoxního pole pokaždé, když se z něj pok
 
 Paradoxní pole je **emocionálně nabíjeno** vyhrocením stakes:
 
-- *"Pokud nedokážeš vyřešit tento paradox, nejsi schopen autenticky žít."*
-- *"Toto je ta nejdůležitější otázka. Vše ostatní je odvozené."*
-- *"Lidé, kteří tento paradox neřeší, jsou v podstatě bezvědomí."*
+- *„Pokud nedokážeš vyřešit tento paradox, nejsi schopen autenticky žít.“*
+- *„Toto je ta nejdůležitější otázka. Vše ostatní je odvozené.“*
+- *„Lidé, kteří tento paradox neřeší, jsou v podstatě bezvědomí.“*
 
 Subjekt prožívá paradox nikoli jako **filozofickou kuriozitu**, ale jako **existenciální nutnost** — která je **nerozhodnutelná**. Vzniká **metakognitivní úzkost**: úzkost z toho, že nejsem schopen myslet o svém myšlení správně.
 
 ### Krok 5 — Substituce externího meta-arbitra
 
-Manipulátor nabízí **externí výstup**: nikoli řešení paradoxu, ale **vlastní arbitráž**. *"Já vidím tvé myšlení zvenčí. Můžu ti říct, kdy jsi v pravém režimu, a kdy ne."* Subjekt přijímá manipulátora jako **externí meta-vědomí**, protože vlastní metakognitivní operace je paralyzována. Tím vzniká struktura, kterou literatura označuje jako [epistemickou alienaci](@/glossary/epistemicka-alienace.md) v terminálním tvaru — subjekt **delegoval** vlastní metakognici.
+Manipulátor nabízí **externí výstup**: nikoli řešení paradoxu, ale **vlastní arbitráž**. *„Já vidím tvé myšlení zvenčí. Můžu ti říct, kdy jsi v pravém režimu, a kdy ne.“* Subjekt přijímá manipulátora jako **externí meta-vědomí**, protože vlastní metakognitivní operace je paralyzována. Tím vzniká struktura, kterou literatura označuje jako [epistemickou alienaci](@/glossary/epistemicka-alienace.md) v terminálním tvaru — subjekt **delegoval** vlastní metakognici.
 
 ## Fenomenologické znaky
 
@@ -122,7 +122,7 @@ Co může vidět vnější pozorovatel:
 Reflexivní paradoxie je odlišitelná od **legitimního filozofického studia paradoxů**:
 
 - **Legitimní studium** umisťuje paradoxy do **rozpoznatelného teoretického rámce** (typová teorie, fenomenologická redukce, pragmatická bracketing) a **chrání operativní rovinu**.
-- **Manipulativní indukce** zanechává subjekt **bez rámce úniku**, **bez operativní ochrany**, a aktivně inhibuje legitimní úniky jako "naivní".
+- **Manipulativní indukce** zanechává subjekt **bez rámce úniku**, **bez operativní ochrany**, a aktivně inhibuje legitimní úniky jako „naivní“.
 
 Hraniční případ: **autentická existenciální krize** může produkovat fenomenologicky podobné stavy. Distinktivní kritérium: krize má **trajektorii** k nové integraci; reflexivní paradoxie zanechává subjekt **stagnujícího** v paradoxním poli s rostoucí závislostí na externím arbitrovi.
 
@@ -147,7 +147,7 @@ Subjekt si vědomě udržuje **typovou disciplínu**: úsudky první úrovně (o
 
 #### 2. **Pragmatická bracketing operativních otázek**
 
-Praktická rozhodnutí jsou **explicitně oddělena** od metakognitivní reflexe a chráněna rámcovým rozhodnutím *"V této otázce nezahajuji meta-úroveň."* Bracketing není filozofickým řešením paradoxu, ale **operativní disciplínou**.
+Praktická rozhodnutí jsou **explicitně oddělena** od metakognitivní reflexe a chráněna rámcovým rozhodnutím *„V této otázce nezahajuji meta-úroveň.“* Bracketing není filozofickým řešením paradoxu, ale **operativní disciplínou**.
 
 #### 3. **Tělesný a smyslový anchor**
 
@@ -174,9 +174,9 @@ Subjekt si stanoví **explicitní časové sloty** pro reflexi (např. 30 minut 
 
 ### Případ 1 — Anonymizovaný duchovní vztah
 
-Následovník/ice charizmatického vůdce po pěti letech praxe nedokáže/není schopen/a učinit běžná každodenní rozhodnutí (kariéra, vztah, bydlení) bez konzultace s vůdcem. Při pokusu rozhodnout sám/sama prožívá akutní úzkost a "nejistotu, kdo to vlastně chce".
+Následovník/ice charizmatického vůdce po pěti letech praxe nedokáže/není schopen/a učinit běžná každodenní rozhodnutí (kariéra, vztah, bydlení) bez konzultace s vůdcem. Při pokusu rozhodnout sám/sama prožívá akutní úzkost a „nejistotu, kdo to vlastně chce“.
 
-Detekce: Klinický psycholog identifikoval indukovanou strukturu paradoxu autenticity ("co cítíš jako 'své' není tvé") provázenou substitucí vůdce jako externího meta-vědomí.
+Detekce: Klinický psycholog identifikoval indukovanou strukturu paradoxu autenticity („co cítíš jako 'své' není tvé“) provázenou substitucí vůdce jako externího meta-vědomí.
 
 Intervence: Postupné omezení kontaktu, terapeutická rekonstrukce metakognitivní kapacity, hierarchické typování úsudku jako explicitní cvičení (28 měsíců).
 
@@ -184,7 +184,7 @@ Intervence: Postupné omezení kontaktu, terapeutická rekonstrukce metakognitiv
 
 Doktorand/ka v analytické filozofii pod supervizí, která systematicky uváděla paradox důvěry úsudku v každém rozhovoru o disertaci. Po třech letech kandidát/ka **nezačal/a** psát — každý pokus formulovat tezi byl preventivně paralyzován meta-otázkou.
 
-Detekce: Externí komise zjistila, že kandidát/ka má vynikající znalost literatury, ale **žádnou** vlastní formulační produkci. Kandidát/ka reportoval/a, že "neví, jestli má dost informací k formulaci".
+Detekce: Externí komise zjistila, že kandidát/ka má vynikající znalost literatury, ale **žádnou** vlastní formulační produkci. Kandidát/ka reportoval/a, že „neví, jestli má dost informací k formulaci“.
 
 Intervence: Změna supervize na pragmatičtěji orientovaného mentora, povinné cvičení v hierarchickém typování úsudku, časově ohraničené formulační bloky bez meta-revize.
 
@@ -224,7 +224,7 @@ Reflexivní paradoxie je **strukturálním motivem** pro několik defenzivních 
 - **Příbuzné akademické techniky**:
   - [EA-1.2.1 Argumentační oslabení](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md)
   - [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
-  - [EA-1.6.1 Vzorec "Guru a adept"](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)
+  - [EA-1.6.1 Vzorec „Guru a adept“](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
@@ -242,7 +242,6 @@ Reflexivní paradoxie je **strukturálním motivem** pro několik defenzivních 
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

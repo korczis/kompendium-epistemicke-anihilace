@@ -21,12 +21,12 @@ toc = false
 ## Operační modus (3 kroky)
 
 1. Tichá indukce afektivního stavu — mírný strach (vague threat), mírný stud, mírná nejistota — bez explicitního pojmenování emoce
-2. Spojení indukovaného afektu s preferovaným závěrem ("rozumní lidé už chápou..."); subjekt afekt interpretuje jako vlastní intuicí
+2. Spojení indukovaného afektu s preferovaným závěrem („rozumní lidé už chápou…“); subjekt afekt interpretuje jako vlastní intuicí
 3. Vyvolání averze k alternativním pozicím skrze sociální nepohodlí (rozpadnutí kontaktu, mírná chladnost) bez explicitního konfliktu
 
 ## Detekční markery (3 nejvýraznější)
 
-- Subjekt formuluje rozhodnutí přes pocit ("nějak mi to nesedí", "mám z toho zvláštní pocit") bez explicitního obsahu
+- Subjekt formuluje rozhodnutí přes pocit („nějak mi to nesedí“, „mám z toho zvláštní pocit“) bez explicitního obsahu
 - Afektivní stav se nesoulad s objektivním obsahem konverzace (mírný stres v technicky neutrálním tématu)
 - V přítomnosti druhé osoby se mění tón a interpretace stejných dat — afekt je relační, nikoli vázaný k obsahu
 
@@ -34,7 +34,7 @@ toc = false
 
 - Afektivní debriefing — po interakci pojmenovat, jaký afekt byl indukován a kdy; explicitní vědomí přerušuje vliv
 - Kanálová separace — rozhodnutí formulovat písemně, mimo přítomnost zdroje afektu; čtení textu mimo kontext
-- Test kontrafaktu — "kdybych tato data dostal od kohokoli jiného, hodnotil bych je stejně?"; neguje relační vrstvu
+- Test kontrafaktu — „kdybych tato data dostal od kohokoli jiného, hodnotil bych je stejně?“; neguje relační vrstvu
 
 ## Příklad
 

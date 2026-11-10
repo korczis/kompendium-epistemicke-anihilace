@@ -35,7 +35,7 @@ Klasická epistemická manipulace pracuje s **opozicí pravdivé / nepravdivé**
 Konkrétně technika EA-5.2.* typicky:
 
 1. **Identifikuje transcendentální strukturu** subjektu — apriorní kategorie, schémata zkušenosti, principy konstituce předmětů.
-2. **Zviditelní strukturu** ve specifické zkreslené podobě — subjekt si poprvé v životě uvědomí, že "vidí přes brýle", a brýle jsou prezentovány jako defektní.
+2. **Zviditelní strukturu** ve specifické zkreslené podobě — subjekt si poprvé v životě uvědomí, že „vidí přes brýle“, a brýle jsou prezentovány jako defektní.
 3. **Indukuje meta-reflexivní obrat** — subjekt se snaží reflektovat strukturu samu, ale každá reflexe sama používá strukturu, kterou se snaží reflektovat (recursivní lapač).
 4. **Saturuje reflexivní kapacitu** — subjekt se zacyklí v meta-reflexi a ztrácí schopnost normálně používat kategorii ve fenoménech.
 5. **Konsoliduje rozpad** — kategorie přestává fungovat normativně a její absence není nahrazena alternativní strukturou. Subjekt zůstává v **transcendentálním vakuu**.
@@ -54,7 +54,7 @@ Singulární techniky (EA-5.1.*) a metatranscendentální techniky (EA-5.2.*) sd
 | **Klinická prezentace** | Epistemická bezmocnost, ztráta autorství | Depersonalizace, aperspektivismus, dekategoriální stavy |
 | **Filozofická afinita** | Pyrrhonský skepticismus, konstruktivistická psychóza | Kantovská kritika převrácená proti samotné možnosti syntetické apercepce |
 
-Klíčový diagnostický rozdíl: subjekt po EA-5.1.* je schopen **popsat své poškození** — má slova, používá kategorie, dokáže říct *"nevěřím ničemu"*, *"nemám vlastní myšlenky"*. Subjekt po EA-5.2.* nedokáže své poškození artikulovat **strukturálně**, protože samotné struktury, které by artikulaci umožnily, jsou narušené. Klinici hlásí výpovědi typu *"není to, že bych něco neviděl, ale chybí mi něco, co by mi umožnilo říct, co chybí"*.
+Klíčový diagnostický rozdíl: subjekt po EA-5.1.* je schopen **popsat své poškození** — má slova, používá kategorie, dokáže říct *„nevěřím ničemu“*, *„nemám vlastní myšlenky“*. Subjekt po EA-5.2.* nedokáže své poškození artikulovat **strukturálně**, protože samotné struktury, které by artikulaci umožnily, jsou narušené. Klinici hlásí výpovědi typu *„není to, že bych něco neviděl, ale chybí mi něco, co by mi umožnilo říct, co chybí“*.
 
 ## Třicet technik metatranscendentální anihilace
 
@@ -79,7 +79,7 @@ Kapitola obsahuje třicet technik, EA-5.2.1 až EA-5.2.30. První desetinu pokr�
 Schémata Kantovy *Kritiky čistého rozumu* (časová syntéza, jednota apercepce) přestávají fungovat. Subjekt prožívá rozpadající se vědomí jako **sled nesyntetizovaných okamžiků**. Klinicky: **disociativní fragmentace s časovou neukotveností**, odlišná od standardní disociace tím, že chybí *funkce* časové syntézy, nikoli pouze její obsah.
 
 #### EA-5.2.12 Apercepční roztržka
-Transcendentální jednota apercepce ("Já myslím, které musí provázet všechny mé představy") je narušena. Subjekt prožívá myšlenky jako **nepřivlastněné** — jdou skrze něj, ale nejsou jeho. Liší se od depersonalizace tím, že subjekt **nemá ani Já, vůči němuž by myšlenky byly cizí**.
+Transcendentální jednota apercepce („Já myslím, které musí provázet všechny mé představy“) je narušena. Subjekt prožívá myšlenky jako **nepřivlastněné** — jdou skrze něj, ale nejsou jeho. Liší se od depersonalizace tím, že subjekt **nemá ani Já, vůči němuž by myšlenky byly cizí**.
 
 #### EA-5.2.13 Synteticky-analytický rozklad
 Distinkce mezi syntetickými a analytickými soudy mizí. Subjekt nedokáže rozlišit, kdy říká něco **podle definice** od situace, kdy říká něco **na základě zkušenosti**. Výsledek: globální dogmatizace nebo globální skepticismus podle predispozice.
@@ -158,7 +158,6 @@ Veškerá analýza technik EA-5.2.* podléhá [Etickým aspektům](@/kompendium/
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
   - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-
 
 ## ⚡ Kritický krok
 

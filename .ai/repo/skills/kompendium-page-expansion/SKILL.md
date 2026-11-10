@@ -41,9 +41,12 @@ Kdykoli se stránka v `content/` rozvíjí, překládá, opravuje nebo provazuje
    hlášení.
 6. Odkazy: první zmínka pojmu s vlastní stránkou je `[text](@/cesta.md)`; na konci
    `## Související` s 6–12 odkazy seskupenými podle druhu, každý s důvodem. Jen cíle ze seznamu.
-7. Hlavička: platná TOML/YAML; `title`, `weight`, `taxonomies`, `extra` zůstávají;
+7. Diagramy: Mermaid uzel odkazuj na stránku, kterou představuje – `click Uzel "@/cesta.md"`;
+   uzel s popiskem rovným názvu stránky je klikací automaticky. Grafy a přehledy nepiš ručně:
+   vykresluje je šablona z `static/data/` (pravidlo `project.site-derived-surfaces`).
+8. Hlavička: platná TOML; `title`, `weight`, `taxonomies`, `extra` zůstávají;
    `description` 50–200 znaků česky.
-8. Ověř: `zola build --force -o "$TMPDIR/kea-out-<id>"` vypíše `Done`; chybu v cizím souboru
+9. Ověř: `zola build --force -o "$TMPDIR/kea-out-<id>"` vypíše `Done`; chybu v cizím souboru
    (souběžný pracovník) přeskoč a zkus znovu, chybu ve vlastním opraví hned.
 
 # Output

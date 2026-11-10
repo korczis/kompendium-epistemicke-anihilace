@@ -123,7 +123,6 @@ Technika **self-vector rotation** představuje strukturální výzvu pro defenzi
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Husserlova **intencionální struktura** (noesis-noema) — orientovanost vědomí — je rotována k jiné cíli. Heideggerovo **Worauf-zu** (k-čemu rozvrhu) je přesměrováno. Sartrova **fundamentální volba** je rotována — nikoliv nahrazena, ale otočena vůči stejné životní materii. Ricoeurova **promise** (slib) zůstává formálně, ale obsah je rotován. Damasiův **homeostatický vektor** (orientace k well-being) je rotován k zdrojem definovanému 'well-being'. Levinas: **désir métaphysique** (touha po druhém) je redirected. Schelerova **ordo amoris** (řád lásky) je přerovnán. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

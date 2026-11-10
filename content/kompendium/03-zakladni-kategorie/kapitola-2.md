@@ -56,7 +56,7 @@ Systematická introdukce **epistemických disonancí** — argumentů, evidencí
 
 #### Detail Fáze 3 — Rekonfigurační
 
-Nabídka **alternativního rámce**, jenž "rozřeší" indukované disonance a poskytne iluzorní stabilitu. Subjekt zažívá fenomenologicky silný "průlom", jenž je často interpretován jako autentický intelektuální vhled, ačkoli ve skutečnosti je výsledkem orchestrovaného procesu.
+Nabídka **alternativního rámce**, jenž „rozřeší“ indukované disonance a poskytne iluzorní stabilitu. Subjekt zažívá fenomenologicky silný „průlom“, jenž je často interpretován jako autentický intelektuální vhled, ačkoli ve skutečnosti je výsledkem orchestrovaného procesu.
 
 #### Detail Fáze 4 — Konsolidační
 
@@ -81,7 +81,7 @@ Rozšíření delegitimizačních procesů na další epistemické domény a soc
 
 Následuje devět scénářů řazených podle **expanze cílové úrovně** — od individuálních (A, B, E, G, H) přes komunální (C, F, I) k institucionálním (D). Každý scénář je strukturován podle stejné šablony: **strukturální charakteristiky**, **typická sekvence**, **fenomenologický profil** a **preventivní/intervenční strategie**.
 
-### Scénář A: Individuální delegitimizace skrze "expertní" diskvalifikaci
+### Scénář A: Individuální delegitimizace skrze „expertní“ diskvalifikaci
 
 **Cíl**: Jednotlivec — typicky odborník nebo svědek s nepříjemnými poznatky.
 
@@ -93,7 +93,7 @@ Následuje devět scénářů řazených podle **expanze cílové úrovně** —
 - Progrese: rapidní (dny–měsíce) v akutní fázi, kumulativní v dlouhodobém měřítku
 - Charakteristický efekt: profesní izolace, ztráta validačních platforem, sebepochybnost
 
-**Typická sekvence A**: identifikace cíle a jeho profesního kapitálu → mapování zranitelných bodů (kontroverzní výroky, metodologické skeptické momenty, osobní život) → strategická amplifikace zranitelností → koordinovaná kampaň skrze multiple kanály (peer review, sociální média, institucionální stížnosti) → rekonstrukce profesní biografie cílového subjektu jako "patologické".
+**Typická sekvence A**: identifikace cíle a jeho profesního kapitálu → mapování zranitelných bodů (kontroverzní výroky, metodologické skeptické momenty, osobní život) → strategická amplifikace zranitelností → koordinovaná kampaň skrze multiple kanály (peer review, sociální média, institucionální stížnosti) → rekonstrukce profesní biografie cílového subjektu jako „patologické“.
 
 **Fenomenologický profil A**: počáteční překvapení a defenzivnost → narůstající izolace a ztráta spojenců → pochybnosti o vlastní kompetenci → potenciální profesní deprese.
 
@@ -107,7 +107,7 @@ Následuje devět scénářů řazených podle **expanze cílové úrovně** —
 
 **Cíl**: Student/mentee v asymetrickém vzdělávacím vztahu.
 
-**Mechanismus**: Kompoziční vzorec "Guru a adept" + EA-1.4.2 (latentní emocionální modulace) + EA-1.1.1 (selektivní expozice ke "schválené" literatuře). Postupné etablování epistemické závislosti na mentora vede k frequently neproduktivní [epistemické alienaci](@/glossary/epistemicka-alienace.md). Tento scénář je distinktní od Scénáře H (destruktivní kritika) tím, že **primárně cílí na formování epistemické identity** subjektu spíše než na jeho destabilizaci.
+**Mechanismus**: Kompoziční vzorec „Guru a adept“ + EA-1.4.2 (latentní emocionální modulace) + EA-1.1.1 (selektivní expozice ke „schválené“ literatuře). Postupné etablování epistemické závislosti na mentora vede k frequently neproduktivní [epistemické alienaci](@/glossary/epistemicka-alienace.md). Tento scénář je distinktní od Scénáře H (destruktivní kritika) tím, že **primárně cílí na formování epistemické identity** subjektu spíše než na jeho destabilizaci.
 
 **Strukturální charakteristiky B**:
 
@@ -117,7 +117,7 @@ Následuje devět scénářů řazených podle **expanze cílové úrovně** —
 
 **Typická sekvence B**: iniciální fascination autoritou → kultivace osobního vztahu nad rámec profesního → graduální izolace od alternativních epistemických autorit → expanze mentorova vlivu mimo doménu jeho kompetence → etablování rekurzivních validačních smyček → eventuální internalizace mentorova rámce jako vlastního.
 
-**Fenomenologický profil B**: iniciální vděčnost a "vybranost" → narůstající epistemická úzkost při absenci mentora → neschopnost formovat nezávislé úsudky → pocit "intellektuální ztracenosti" mimo mentorův kontext.
+**Fenomenologický profil B**: iniciální vděčnost a „vybranost“ → narůstající epistemická úzkost při absenci mentora → neschopnost formovat nezávislé úsudky → pocit „intellektuální ztracenosti“ mimo mentorův kontext.
 
 **Typické rizikové kontexty**: PhD supervize, specializované výzkumné skupiny, terapeutické vztahy, klinické residenční programy, mistr-učeň vzorce v uměleckých disciplínách.
 
@@ -137,7 +137,7 @@ Následuje devět scénářů řazených podle **expanze cílové úrovně** —
 - Progrese: rapidní (týdny–měsíce) v akutní fázi
 - Charakteristický efekt: ztráta veřejné důvěry, redukce financování, snížená atraktivita disciplíny pro talenty
 
-**Typická sekvence C**: identifikace cílové komunity a jejích interních kontroverzí → strategický výběr okrajových názorů → mediální amplifikace skrze "balance fallacy" → vytváření falešného dojmu kontroverze tam, kde existuje konsensus → mobilizace politické a populistické energie → tlak na institucionální změny.
+**Typická sekvence C**: identifikace cílové komunity a jejích interních kontroverzí → strategický výběr okrajových názorů → mediální amplifikace skrze „balance fallacy“ → vytváření falešného dojmu kontroverze tam, kde existuje konsensus → mobilizace politické a populistické energie → tlak na institucionální změny.
 
 **Fenomenologický profil C** (z perspektivy členů komunity): počáteční překvapení nad medializací → frustrace z nemožnosti efektivně reagovat → defenzivnost a klastrování → ztráta motivace k veřejné komunikaci.
 
@@ -161,7 +161,7 @@ Následuje devět scénářů řazených podle **expanze cílové úrovně** —
 
 **Typická sekvence D**: identifikace cílové instituce a jejích strukturálních pák (financování, jmenovací procesy, evaluační kritéria) → strategický nábor sympatizujících členů na klíčových pozicích → graduální modifikace standardů a procedur → restrukturalizace evaluačních kritérií → marginalizace nesouhlasných hlasů → eventuální rekonstrukce institucionální paměti tak, aby legitimizovala nový stav.
 
-**Fenomenologický profil D** (z perspektivy postižených odborníků): počáteční přehlížení signálů jako "normální evoluce" → narůstající nepohodlí s novými standardy → izolace kritických hlasů → eventuální exit nebo rezignace.
+**Fenomenologický profil D** (z perspektivy postižených odborníků): počáteční přehlížení signálů jako „normální evoluce“ → narůstající nepohodlí s novými standardy → izolace kritických hlasů → eventuální exit nebo rezignace.
 
 **Typické rizikové kontexty**: Regulační zachycení (regulátor je dominantním finančním zdrojem regulovaného odvětví), ideologická kolonizace univerzit, korporátní zachycení výzkumných agend, politicko-ideologická infiltrace profesních asociací.
 
@@ -173,7 +173,7 @@ Následuje devět scénářů řazených podle **expanze cílové úrovně** —
 
 **Cíl**: Sám sebe — jednotlivec v důsledku pseudo-pokorové internalizace.
 
-**Mechanismus**: Internalizovaná hyperskeptická pozice paralyzující epistemickou autonomii pod záminkou "epistemic humility". Vede k delegování poznání externím autoritám a frequently kulminuje v [metakognitivní destrukci](@/glossary/metakognitivni-destrukce.md). Tento scénář je distinktní od ostatních tím, že **chybí explicitní externí agent** — manipulace probíhá skrze internalizaci kulturních narativů.
+**Mechanismus**: Internalizovaná hyperskeptická pozice paralyzující epistemickou autonomii pod záminkou „epistemic humility“. Vede k delegování poznání externím autoritám a frequently kulminuje v [metakognitivní destrukci](@/glossary/metakognitivni-destrukce.md). Tento scénář je distinktní od ostatních tím, že **chybí explicitní externí agent** — manipulace probíhá skrze internalizaci kulturních narativů.
 
 **Strukturální charakteristiky E**:
 
@@ -181,9 +181,9 @@ Následuje devět scénářů řazených podle **expanze cílové úrovně** —
 - Progrese: pomalá (roky), často nezaznamenaná samotným subjektem
 - Charakteristický efekt: epistemická paralýza, nadměrná delegace poznání, fundamentální nejistota
 
-**Typická sekvence E**: expozice kulturním narativům "epistemické pokory" → internalizace hyperskepticismu jako virtu → graduální zpochybňování všech vlastních úsudků → delegování poznání externím autoritám → kolaps epistemické sebe-účinnosti → eventuální paralýza rozhodování.
+**Typická sekvence E**: expozice kulturním narativům „epistemické pokory“ → internalizace hyperskepticismu jako virtu → graduální zpochybňování všech vlastních úsudků → delegování poznání externím autoritám → kolaps epistemické sebe-účinnosti → eventuální paralýza rozhodování.
 
-**Fenomenologický profil E**: iniciální pocit intellectual sophistication ("uznávám své limity") → narůstající nejistota → zvyšující se závislost na externí validaci → paradoxní kombinace hyperskepticismu vůči vlastním úsudkům a hyperkredulity vůči autoritám.
+**Fenomenologický profil E**: iniciální pocit intellectual sophistication („uznávám své limity“) → narůstající nejistota → zvyšující se závislost na externí validaci → paradoxní kombinace hyperskepticismu vůči vlastním úsudkům a hyperkredulity vůči autoritám.
 
 **Typické rizikové kontexty**: Postmoderní akademická kultura, terapeutické pasti (zejména některé formy long-term psychoterapie), dlouhodobá expozice technikám EA-1.3.* bez stabilizace, akademická socializace v hyperskeptických tradicích.
 
@@ -198,7 +198,7 @@ Scénář kolektivní epistemické delegitimizace reprezentuje systematický pro
 #### Strukturální charakteristiky F
 
 - **Cíl**: Epistemická komunita, tj. skupina sdílející společné standardy, praktiky a autority
-- **Vektor**: Simultánně "zvenčí" (externí diskreditace) a "zevnitř" (vyvolaný interní nesoulad)
+- **Vektor**: Simultánně „zvenčí“ (externí diskreditace) a „zevnitř“ (vyvolaný interní nesoulad)
 - **Progrese**: Od periferie (vulnerabilní členové) směrem k jádru (etablované autority)
 - **Charakteristický efekt**: Fragmentace na kompetitivní epistemické frakce
 
@@ -206,17 +206,17 @@ Scénář kolektivní epistemické delegitimizace reprezentuje systematický pro
 
 **Fáze 1 — Strategické mapování epistemické komunity**: Detailní identifikace struktury, formálních a neformálních autorit, klíčových standardů, interních napětí a vulnerabilit. Klíčové techniky: infiltrace periferie, sociometrická analýza, identifikace latentních kontradikcí, mapování hraničních mechanismů. Komunita typicky nezaznamenává signifikantní změny.
 
-**Fáze 2 — Narušení hranic a legitimizace externích agentů**: Systematické oslabování mechanismů udržování hranic a etablování externích agentů jako "legitimních participantů". Klíčové techniky: exploitace inkluzivní rétoriky komunity, apel na "svobodnou diskusi", strategická adopce povrchních markerů norem, "noha ve dveřích". Komunita zažívá mírně zvýšené napětí; vznikají iniciální linie zlomu.
+**Fáze 2 — Narušení hranic a legitimizace externích agentů**: Systematické oslabování mechanismů udržování hranic a etablování externích agentů jako „legitimních participantů“. Klíčové techniky: exploitace inkluzivní rétoriky komunity, apel na „svobodnou diskusi“, strategická adopce povrchních markerů norem, „noha ve dveřích“. Komunita zažívá mírně zvýšené napětí; vznikají iniciální linie zlomu.
 
-**Fáze 3 — Epistemická fragmentace a polarizace**: Systematická introdukce rozdělujících otázek polarizujících komunitu. Klíčové techniky: strategicky formulované "hraniční problémy", amplifikace drobných neshod, "klínové problémy", falešná ekvivalence mezi centrálními a periferními standardy. Diskuse se stávají emočně nabitými, formují se podskupiny.
+**Fáze 3 — Epistemická fragmentace a polarizace**: Systematická introdukce rozdělujících otázek polarizujících komunitu. Klíčové techniky: strategicky formulované „hraniční problémy“, amplifikace drobných neshod, „klínové problémy“, falešná ekvivalence mezi centrálními a periferními standardy. Diskuse se stávají emočně nabitými, formují se podskupiny.
 
-**Fáze 4 — Delegitimizace centrálních autorit**: Systematické podkopávání kredibility klíčových postav prostřednictvím koordinovaných kampaní. Klíčové techniky: strategie "jen se ptám", selektivní extrakce historických výroků, exploitace úsudkových pochybení, koordinované útoky z více stran simultánně. Klíčoví členové zažívají defenzivnost a úzkost; komunita prožívá dezorientaci.
+**Fáze 4 — Delegitimizace centrálních autorit**: Systematické podkopávání kredibility klíčových postav prostřednictvím koordinovaných kampaní. Klíčové techniky: strategie „jen se ptám“, selektivní extrakce historických výroků, exploitace úsudkových pochybení, koordinované útoky z více stran simultánně. Klíčoví členové zažívají defenzivnost a úzkost; komunita prožívá dezorientaci.
 
 **Fáze 5 — Rekonstrukce alternativní epistemické hierarchie**: Etablování nové hierarchie a standardů nahrazujících původní struktury, často privilegujících dříve marginální perspektivy. Klíčové techniky: introdukce nových autorit s kredenciály z příbuzných oborů, redefinice klíčových termínů, etablování paralelního systému uznání, vytváření nových metrik. Původní členové se cítí odcizeni od svého intelektuálního domova.
 
 #### Případ: Rekonfigurace vědecké subdisciplíny
 
-Anonymizovaný případ z historie vědeckého výzkumu: vědecká subdisciplína X byla po desetiletí charakterizována sdílenými metodologickými standardy založenými na kvantitativním empirickém výzkumu. Během 5–7 let došlo k dramatické rekonfiguraci epistemické krajiny. Proces začal zdánlivě legitimními výzvami k "metodologické diverzitě" a "širším perspektivám" ze strany badatelů z příbuzných oborů. Postupně se vyvinuly v koordinované útoky na klíčové metodologické přístupy. Klíčové autority byly diskreditovány skrze dezinterpretace; nové "autority" s minimální historií v původní disciplíně byly rychle vyzvednuty. Výsledkem byl kolaps původní komunity do polarizovaných frakcí, rekonfigurace redakčních rad a fundamentální posun v tom, jaký výzkum byl považován za legitimní.
+Anonymizovaný případ z historie vědeckého výzkumu: vědecká subdisciplína X byla po desetiletí charakterizována sdílenými metodologickými standardy založenými na kvantitativním empirickém výzkumu. Během 5–7 let došlo k dramatické rekonfiguraci epistemické krajiny. Proces začal zdánlivě legitimními výzvami k „metodologické diverzitě“ a „širším perspektivám“ ze strany badatelů z příbuzných oborů. Postupně se vyvinuly v koordinované útoky na klíčové metodologické přístupy. Klíčové autority byly diskreditovány skrze dezinterpretace; nové „autority“ s minimální historií v původní disciplíně byly rychle vyzvednuty. Výsledkem byl kolaps původní komunity do polarizovaných frakcí, rekonfigurace redakčních rad a fundamentální posun v tom, jaký výzkum byl považován za legitimní.
 
 #### Preventivní a intervenční strategie F
 
@@ -225,7 +225,7 @@ Anonymizovaný případ z historie vědeckého výzkumu: vědecká subdisciplín
 1. Explicitní artikulace a dokumentace standardů komunity včetně metodologických principů a zdůvodnění
 2. Transparentní procedury pro epistemickou evoluci umožňující konstruktivní kritiku bez vulnerability
 3. Robustní povědomí o historii a vývoji disciplíny
-4. Pravidelný "epistemický audit" struktur řízení
+4. Pravidelný „epistemický audit“ struktur řízení
 5. Formální mechanismy pro rozlišování konstruktivní kritiky od delegitimizačních strategií
 
 **Intervence**:
@@ -234,16 +234,16 @@ Anonymizovaný případ z historie vědeckého výzkumu: vědecká subdisciplín
 2. Reafirmace klíčových standardů a jejich zdůvodnění
 3. Depersonalizace konfliktu, soustředění na substantivní otázky
 4. Institucionální ochrana klíčových struktur (peer review, publikační standardy)
-5. "Epistemické mosty" mezi fragmentovanými podskupinami
+5. „Epistemické mosty“ mezi fragmentovanými podskupinami
 
 ### Scénář G: Progresivní kognitivní dekonstrukce
 
-Systematický proces graduální destabilizace fundamentálních kognitivních struktur jedince, vedoucí k hluboké epistemické nejistotě a zranitelnosti vůči externě vnuceným interpretačním rámcům. Na rozdíl od explicitně nepřátelských procesů je často maskován jako "intelektuální rozvoj" nebo "kritické myšlení".
+Systematický proces graduální destabilizace fundamentálních kognitivních struktur jedince, vedoucí k hluboké epistemické nejistotě a zranitelnosti vůči externě vnuceným interpretačním rámcům. Na rozdíl od explicitně nepřátelských procesů je často maskován jako „intelektuální rozvoj“ nebo „kritické myšlení“.
 
 #### Strukturální charakteristiky G
 
 - **Cíl**: Fundamentální kognitivní struktury organizující a stabilizující epistemickou zkušenost (kategorizační systémy, schémata kauzální atribuce)
-- **Vektor**: "Shora dolů" — od abstraktnějších k fundamentálnějším strukturám
+- **Vektor**: „Shora dolů“ — od abstraktnějších k fundamentálnějším strukturám
 - **Progrese**: Subtilní akcelerace — pomalu a opatrně, postupně intenzivně
 - **Charakteristický efekt**: Hluboká dezorientace, zvýšená sugestibilita, závislost na externích rámcích
 
@@ -251,7 +251,7 @@ Systematický proces graduální destabilizace fundamentálních kognitivních s
 
 **Fáze 1 — Epistemická desenzitizace**: Graduální desenzitizace vůči kontradikcím a inkoherencím skrze pečlivě kalibrované paradoxy. Subjekt zažívá iniciální vzrušení a pocit sofistikovanosti.
 
-**Fáze 2 — Destabilizace kognitivních kategorií**: Dekonstrukce základních kategorií skrze rozmazávání hranic a zpochybňování distinkcí. Hraniční případy, kontinuální přesouvání hranic, taktiky "hradba a věž". Subjekt zažívá obtíže v navigaci konceptuální krajinou.
+**Fáze 2 — Destabilizace kognitivních kategorií**: Dekonstrukce základních kategorií skrze rozmazávání hranic a zpochybňování distinkcí. Hraniční případy, kontinuální přesouvání hranic, taktiky „hradba a věž“. Subjekt zažívá obtíže v navigaci konceptuální krajinou.
 
 **Fáze 3 — Disrupce kauzálních schémat**: Disrupce implicitních kauzálních modelů. Zdůrazňování nelineární kauzality kde jsou jednodušší modely adekvátní, převracení příčiny a následku, excesivní množství kauzálních faktorů. Subjekt zažívá obtíže v predikci výsledků.
 
@@ -261,14 +261,14 @@ Systematický proces graduální destabilizace fundamentálních kognitivních s
 
 #### Případ: Graduální seminář ve filozofii
 
-Anonymizovaný případ: student nastoupil do graduálního semináře vedeného uznávaným profesorem. Seminář začal výzvami k "přehodnocení základních předpokladů". Profesor systematicky prezentoval stále radikálnější pozice, vždy začínaje rozumnými předpoklady. Námitky byly invariabilně odmítnuty jako "stále operující v konvenčním paradigmatu". Studenti byli postaveni proti sobě v soutěži o "transcendenci" konvenčního myšlení. Na konci semestru vykazovali mnozí studenti známky signifikantní dezorientace. Jeden student popsal zkušenost jako "moje schopnost jasně myslet byla systematicky rozmontována". Profesor prezentoval tyto výsledky jako známky úspěšného "intelektuálního růstu".
+Anonymizovaný případ: student nastoupil do graduálního semináře vedeného uznávaným profesorem. Seminář začal výzvami k „přehodnocení základních předpokladů“. Profesor systematicky prezentoval stále radikálnější pozice, vždy začínaje rozumnými předpoklady. Námitky byly invariabilně odmítnuty jako „stále operující v konvenčním paradigmatu“. Studenti byli postaveni proti sobě v soutěži o „transcendenci“ konvenčního myšlení. Na konci semestru vykazovali mnozí studenti známky signifikantní dezorientace. Jeden student popsal zkušenost jako „moje schopnost jasně myslet byla systematicky rozmontována“. Profesor prezentoval tyto výsledky jako známky úspěšného „intelektuálního růstu“.
 
 #### Preventivní a intervenční strategie G
 
 **Prevence**:
 
 1. Kultivace metakognitivní robustnosti
-2. Etablování "epistemických kotev" — klíčových principů jako referenčních bodů
+2. Etablování „epistemických kotev“ — klíčových principů jako referenčních bodů
 3. Povědomí o typických trajektoriích kognitivní dekonstrukce
 4. Spojení s multiple epistemickými komunitami
 5. Pravidelná epistemická inventura
@@ -281,7 +281,7 @@ Anonymizovaný případ: student nastoupil do graduálního semináře vedeného
 4. Kolaborativní konstrukce významu s důvěryhodnými jedinci mimo kontext
 5. Identifikace a artikulace specifických technik a jejich efektů
 
-### Scénář H: Destruktivní "konstruktivní" kritika
+### Scénář H: Destruktivní „konstruktivní“ kritika
 
 Systematický proces podkopávání epistemické sebedůvěry skrze strategie prezentované jako nápomocná zpětná vazba. Tento scénář je obzvláště zákeřný — využívá konvenční normy týkající se zpětné vazby.
 
@@ -294,19 +294,19 @@ Systematický proces podkopávání epistemické sebedůvěry skrze strategie pr
 
 #### Typická sekvence H
 
-**Fáze 1 — Etablování autority a důvěry**: Kultivace vztahu založeného na asymetrii a důvěře. Iniciální demonstrace expertizy, příležitostná skutečně nápomocná zpětná vazba, vyjádření speciálního zájmu, exkluzivní vztah. Subjekt zažívá vděčnost a pocit "vybranosti".
+**Fáze 1 — Etablování autority a důvěry**: Kultivace vztahu založeného na asymetrii a důvěře. Iniciální demonstrace expertizy, příležitostná skutečně nápomocná zpětná vazba, vyjádření speciálního zájmu, exkluzivní vztah. Subjekt zažívá vděčnost a pocit „vybranosti“.
 
 **Fáze 2 — Etablování nestabilních standardů**: Implementace měnících se ambivalentních standardů. Kontinuální zvyšování po zlepšení, vágní subjektivní kritéria, alternace mezi kontradiktorními standardy, simultánní kritizování protichůdných charakteristik. Subjekt zažívá zmatení a frustraci.
 
-**Fáze 3 — Strategická invalidace**: Podkopávání produktů a procesů skrze cílenou invalidaci jako "konstruktivní zpětnou vazbu". Fokus na periferní nedostatky, dezinterpretace argumentů před kritikou této dezinterpretace, arbitrární požadavky po dokončení, prezentace subjektivních preferencí jako univerzálních standardů. Subjekt zažívá klesající důvěru.
+**Fáze 3 — Strategická invalidace**: Podkopávání produktů a procesů skrze cílenou invalidaci jako „konstruktivní zpětnou vazbu“. Fokus na periferní nedostatky, dezinterpretace argumentů před kritikou této dezinterpretace, arbitrární požadavky po dokončení, prezentace subjektivních preferencí jako univerzálních standardů. Subjekt zažívá klesající důvěru.
 
-**Fáze 4 — Intermitentní posilování**: Příležitostná, nepředvídatelná pozitivní zpětná vazba strategicky načasovaná k prevenci odpoutání. Vzácná intenzivní chvála po obdobích tvrdé kritiky, prezentace "úspěchu" jako výsledku následování vedení, umělé "průlomy". Subjekt zažívá silnou úlevu a vděčnost.
+**Fáze 4 — Intermitentní posilování**: Příležitostná, nepředvídatelná pozitivní zpětná vazba strategicky načasovaná k prevenci odpoutání. Vzácná intenzivní chvála po obdobích tvrdé kritiky, prezentace „úspěchu“ jako výsledku následování vedení, umělé „průlomy“. Subjekt zažívá silnou úlevu a vděčnost.
 
-**Fáze 5 — Identitní rekonfigurace**: Přetváření epistemické identity k fundamentální sebepochybnosti. Přerámování kritiky jako reflexe charakteru, sugesce že závislost znamená pokoru, pozicionování vztahu jako esenciálního pro pokrok, kontrastování s "arogantními" ostatními. Subjekt internalizuje pohled na sebe jako fundamentálně vadného agenta.
+**Fáze 5 — Identitní rekonfigurace**: Přetváření epistemické identity k fundamentální sebepochybnosti. Přerámování kritiky jako reflexe charakteru, sugesce že závislost znamená pokoru, pozicionování vztahu jako esenciálního pro pokrok, kontrastování s „arogantními“ ostatními. Subjekt internalizuje pohled na sebe jako fundamentálně vadného agenta.
 
 #### Případ: Vztah doktorského vedení
 
-Anonymizovaný případ: doktorandský student s vynikajícím zázemím začal pracovat s prominentním školitelem. Počáteční interakce byly extrémně pozitivní. Postupně začaly kapitoly dostávat stále kritičtější odezvy. Standardy se zdály měnit s každým předložením. Metodologické přístupy původně podporované byly později kritizovány bez uznání předchozího vedení. Když student požádal o konkrétní vedení, školitel poskytl vágní směrnice, později kritizujíc studentovu interpretaci. Příležitostně, typicky následujíc po obzvláště devastujících sezeních, školitel chválil specifický aspekt práce. Ve třetím ročníku dříve sebevědomý student vykazoval perzistentní úzkost, potíže s psaním bez konstantní validace, vyvinul zvyk diskvalifikovat své myšlenky. Vyjádřil přesvědčení, že bez školitelova vedení je "intelektuálně ztracen" navzdory důkazům o silném nezávislém myšlení v jiných kontextech.
+Anonymizovaný případ: doktorandský student s vynikajícím zázemím začal pracovat s prominentním školitelem. Počáteční interakce byly extrémně pozitivní. Postupně začaly kapitoly dostávat stále kritičtější odezvy. Standardy se zdály měnit s každým předložením. Metodologické přístupy původně podporované byly později kritizovány bez uznání předchozího vedení. Když student požádal o konkrétní vedení, školitel poskytl vágní směrnice, později kritizujíc studentovu interpretaci. Příležitostně, typicky následujíc po obzvláště devastujících sezeních, školitel chválil specifický aspekt práce. Ve třetím ročníku dříve sebevědomý student vykazoval perzistentní úzkost, potíže s psaním bez konstantní validace, vyvinul zvyk diskvalifikovat své myšlenky. Vyjádřil přesvědčení, že bez školitelova vedení je „intelektuálně ztracen“ navzdory důkazům o silném nezávislém myšlení v jiných kontextech.
 
 #### Preventivní a intervenční strategie H
 
@@ -345,7 +345,7 @@ Devátý scénář, jenž v původní taxonomii není explicitně vyčleněn, re
 4. **Diskurzivní izolace** — alternativní perspektivy jsou systematicky de-prioritizovány
 5. **Reality fragmentation** — různé subpopulace operují v effectivně disjunkčních informačních prostředích
 
-**Distinktní rys**: Absence intentionálního agenta. Manipulace je emergentní vlastností optimalizace pro engagement, nikoli produktem koordinovaného plánu. To činí intervenci strukturálně obtížnější — neexistuje "viník", proti němuž by bylo lze formulovat klasickou intervenci.
+**Distinktní rys**: Absence intentionálního agenta. Manipulace je emergentní vlastností optimalizace pro engagement, nikoli produktem koordinovaného plánu. To činí intervenci strukturálně obtížnější — neexistuje „viník“, proti němuž by bylo lze formulovat klasickou intervenci.
 
 **Rizikové kontexty**: Sociální média, doporučovací systémy, generativní AI asistenti, search engine optimization.
 
@@ -355,8 +355,8 @@ Devátý scénář, jenž v původní taxonomii není explicitně vyčleněn, re
 
 Po zvážení další expanze taxonomie (scénáře J, K, L) jsme dospěli k závěru, že **další scénáře by byly redundantní** ve dvou ohledech:
 
-1. **Redundance vůči existujícím scénářům**: Hypotetické "Korporátní gaslighting" nebo "Politická delegitimizace" jsou strukturálně izomorfní se Scénářem D (institucionální zachycení) aplikovaným na korporátní/politický kontext. Specifika kontextu nevytvářejí novou strukturální dynamiku.
-2. **Redundance vůči Kapitole 1**: Scénáře jako "Akademický mobbing" jsou aplikací technik EA-1.4.* a EA-1.5.* v interpersonálním kontextu, plně pokryté kompozičním vzorcem "Guru a adept" s inverzní polaritou.
+1. **Redundance vůči existujícím scénářům**: Hypotetické „Korporátní gaslighting“ nebo „Politická delegitimizace“ jsou strukturálně izomorfní se Scénářem D (institucionální zachycení) aplikovaným na korporátní/politický kontext. Specifika kontextu nevytvářejí novou strukturální dynamiku.
+2. **Redundance vůči Kapitole 1**: Scénáře jako „Akademický mobbing“ jsou aplikací technik EA-1.4.* a EA-1.5.* v interpersonálním kontextu, plně pokryté kompozičním vzorcem „Guru a adept“ s inverzní polaritou.
 
 Devět scénářů A–I tedy reprezentuje **kompletní rozkrytí strukturálního prostoru** epistemické delegitimizace přes tři dimenze: cílovou úroveň (individuál → komunita → instituce → distribuovaná populace), vektor (vnější/vnitřní/auto-) a temporální dynamiku (rapidní/postupná/algoritmická).
 
@@ -417,19 +417,19 @@ Scénáře nejsou paralelními procesy, ale **synergickými kombinacemi**, jež 
 - Postupné napětí ohledně fundamentálních standardů
 - Pocity zrady a dezorientace při eskalaci
 - Tendence k epistemické tribalizaci
-- Retrospektivní inkrementalismus ("Jak jsme se sem dostali?")
+- Retrospektivní inkrementalismus („Jak jsme se sem dostali?“)
 
 #### Scénář G: Kognitivní dekonstrukce
 
 - Iniciální fascinace komplexitou a paradoxem
 - Graduální eroze důvěry ve vlastní procesy
 - Narůstající kognitivní zahlcení a paralýza analýzy
-- Pocit epistemické "beztíže" a dezorientace
+- Pocit epistemické „beztíže“ a dezorientace
 - Simultánní hyperskepticismus a hyperkredulita
 
 #### Scénář H: Destruktivní kritika
 
-- Iniciální nadšení ze "speciální" pozornosti
+- Iniciální nadšení ze „speciální“ pozornosti
 - Cyklická frustrace a úleva při alternaci
 - Anticipatorní úzkost ohledně hodnocení
 - Chronické pochybnosti navzdory objektivním úspěchům
@@ -437,9 +437,9 @@ Scénáře nejsou paralelními procesy, ale **synergickými kombinacemi**, jež 
 
 #### Scénář I: Algoritmická realita
 
-- Pocit "rezonance" a přitažlivosti obsahu
+- Pocit „rezonance“ a přitažlivosti obsahu
 - Postupné rozcházení s reálnými sociálními kontakty
-- Narůstající přesvědčení o "skrytých pravdách"
+- Narůstající přesvědčení o „skrytých pravdách“
 - Defenzivní reakce na alternativní informační zdroje
 - Sklon k apokalyptickým narativům
 
@@ -547,15 +547,15 @@ Pro zaokruhlení strukturálního prostoru taxonomie uvádíme stručné ilustra
 
 ### Případ A: Whistleblower v zdravotnictví
 
-Lékař s desetiletími klinické praxe identifikoval systematickou nadužívání specifické terapeutické intervence v jeho fakultní nemocnici. Po pokusu o interní upozornění následovala koordinovaná kampaň zpochybňující jeho metodologickou rigorózitu — citace selektivních článků z jeho rané kariéry, dezinterpretace jeho metodologického přístupu, akademické tváře oddělení vyjadřující "vážné obavy" o jeho úsudek. Médiím byly podány selektivní informace prezentující jeho stížnost jako "personal grievance". Po 18 měsících opustil instituci s poškozenou pověstí, ačkoli jeho původní empirická tvrzení byla nezávisle verifikována.
+Lékař s desetiletími klinické praxe identifikoval systematickou nadužívání specifické terapeutické intervence v jeho fakultní nemocnici. Po pokusu o interní upozornění následovala koordinovaná kampaň zpochybňující jeho metodologickou rigorózitu — citace selektivních článků z jeho rané kariéry, dezinterpretace jeho metodologického přístupu, akademické tváře oddělení vyjadřující „vážné obavy“ o jeho úsudek. Médiím byly podány selektivní informace prezentující jeho stížnost jako „personal grievance“. Po 18 měsících opustil instituci s poškozenou pověstí, ačkoli jeho původní empirická tvrzení byla nezávisle verifikována.
 
 ### Případ B: PhD student v elitním programu
 
-Doktorand v prestižním programu kontinentální filozofie strávil čtyři roky v bezprostřední blízkosti charismatického supervizora. Iniciální entuziasmus z "exkluzivního" mentorského vztahu se postupně proměnil v progresivní omezování. Studovaná literatura byla restriktivně omezena na "schválený" kánon. Pokusy o externí konzultace byly subtilně diskreditovány. Po pěti letech student dokončil disertaci s minimálním externím feedbackem a zjistil, že jeho práce má omezenou rezonanci mimo úzký kruh supervisorových studentů. Recovery od epistemické závislosti vyžadoval roky následující terapeutické práce.
+Doktorand v prestižním programu kontinentální filozofie strávil čtyři roky v bezprostřední blízkosti charismatického supervizora. Iniciální entuziasmus z „exkluzivního“ mentorského vztahu se postupně proměnil v progresivní omezování. Studovaná literatura byla restriktivně omezena na „schválený“ kánon. Pokusy o externí konzultace byly subtilně diskreditovány. Po pěti letech student dokončil disertaci s minimálním externím feedbackem a zjistil, že jeho práce má omezenou rezonanci mimo úzký kruh supervisorových studentů. Recovery od epistemické závislosti vyžadoval roky následující terapeutické práce.
 
 ### Případ C: Klimatologická komunita
 
-V průběhu 2010s byla klimatologická komunita systematicky cílem mediálních kampaní zpochybňujících konsensus. Strategie kombinovaly amplifikaci okrajových pozic ("there is debate"), ad hominem útoky na klíčové autory ("Climategate"), falešnou ekvivalenci mezi peer-reviewed studiemi a politickými pamflety. Komunita zůstala interně koherentní, ale ztratila signifikantní část veřejné podpory na desetiletí, s důsledky pro politiku a financování.
+V průběhu 2010s byla klimatologická komunita systematicky cílem mediálních kampaní zpochybňujících konsensus. Strategie kombinovaly amplifikaci okrajových pozic („there is debate“), ad hominem útoky na klíčové autory („Climategate“), falešnou ekvivalenci mezi peer-reviewed studiemi a politickými pamflety. Komunita zůstala interně koherentní, ale ztratila signifikantní část veřejné podpory na desetiletí, s důsledky pro politiku a financování.
 
 ### Případ D: Regulační zachycení v farmacii
 
@@ -563,7 +563,7 @@ V průběhu několika dekád docházelo v některých regulačních tělesech ke
 
 ### Případ E: Akademik v krizi sebedůvěry
 
-Vědkyně s vynikajícím early career zázemím začala publikovat pomaleji a méně. V interview popsala progresivní internalizaci hyperskeptického postoje: "Začala jsem zpochybňovat každý argument, který jsem chtěla napsat. Pokud něco bylo zřejmé, jistě to muselo být příliš jednoduché. Pokud něco bylo komplexní, jistě jsem nedokázala správně postihnout všechny relevantní faktory. Po pěti letech jsem byla schopna pouze čerpat z literatury, ale nikdy nevytvářet vlastní pozice." Recovery vyžadovala terapeutickou intervenci a postupnou rekonstrukci epistemic agency.
+Vědkyně s vynikajícím early career zázemím začala publikovat pomaleji a méně. V interview popsala progresivní internalizaci hyperskeptického postoje: „Začala jsem zpochybňovat každý argument, který jsem chtěla napsat. Pokud něco bylo zřejmé, jistě to muselo být příliš jednoduché. Pokud něco bylo komplexní, jistě jsem nedokázala správně postihnout všechny relevantní faktory. Po pěti letech jsem byla schopna pouze čerpat z literatury, ale nikdy nevytvářet vlastní pozice.“ Recovery vyžadovala terapeutickou intervenci a postupnou rekonstrukci epistemic agency.
 
 ## Forenzní rekonstrukce historických případů
 
@@ -572,7 +572,7 @@ Strukturální analýza scénářů A–I umožňuje **forenzní rekonstrukci** 
 - **Lysenkismus** v sovětské biologii kombinoval Scénář D (institucionální zachycení) s Scénářem F (kolektivní delegitimizace) přes desetiletí
 - **Tuskegee syphilis study** zahrnoval Scénář B (pedagogická koercion mezi výzkumníky a subjekty) v rámci širšího institucionálního kontextu
 - **Replikace krize v sociální psychologii** vykazuje rysy Scénáře F s graduálním zhroucením publikačních standardů
-- **Nicholas Wadeova kniha "A Troublesome Inheritance"** v genetice exemplifikuje Scénář C (mediální delegitimizace odborné komunity)
+- **Nicholas Wadeova kniha „A Troublesome Inheritance“** v genetice exemplifikuje Scénář C (mediální delegitimizace odborné komunity)
 
 Tato forenzní aplikace má dvojí hodnotu: validuje taxonomii skrze její aplikabilitu na známé případy a poskytuje pedagogický materiál pro edukativní implementaci popsanou v [Kapitole 3](@/kompendium/03-zakladni-kategorie/kapitola-3.md).
 
@@ -638,7 +638,6 @@ Efektivní navigace komplexního epistemického terénu vyžaduje robustní poro
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - Platforma: {{ <cross_link path="/hub/dd/decisions/" text="DD Decisions" /> }}, [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

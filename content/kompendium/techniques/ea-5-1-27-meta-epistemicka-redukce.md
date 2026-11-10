@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 ## Definice
 
-**Meta-epistemická redukce** je technika **sloučení všech epistemických standardů** subjektu (logické konzistence, empirické verifikace, koherence se zkušeností, intersubjektivní validace, fenomenologické evidence atd.) do **jediného nadřazeného meta-standardu** dodaného manipulátorem — typicky autorita-závislého standardu typu *"pravdivé je, co potvrzuje vůdce / posvátný text / hnutí"*. Subjekt po proběhlé redukci **nedokáže oddělit** otázku *"je to pravda?"* od otázky *"potvrzuje to autorita?"* — obě otázky se stávají **fenomenologicky identické**.
+**Meta-epistemická redukce** je technika **sloučení všech epistemických standardů** subjektu (logické konzistence, empirické verifikace, koherence se zkušeností, intersubjektivní validace, fenomenologické evidence atd.) do **jediného nadřazeného meta-standardu** dodaného manipulátorem — typicky autorita-závislého standardu typu *„pravdivé je, co potvrzuje vůdce / posvátný text / hnutí“*. Subjekt po proběhlé redukci **nedokáže oddělit** otázku *„je to pravda?“* od otázky *„potvrzuje to autorita?“* — obě otázky se stávají **fenomenologicky identické**.
 
 Klíčový rozdíl proti běžné autoritativní deference spočívá ve **strukturálním kolapsu**: zatímco normální vztah k autoritě udržuje **paralelně** vlastní epistemické standardy (mohu věřit autoritě a zároveň mít kritérium, jímž ji eventuálně přehodnotím), meta-epistemická redukce **eliminuje** existenci paralelních standardů. Mimo meta-standard **neexistuje** epistemický prostor.
 
@@ -59,13 +59,13 @@ Manipulátor systematicky identifikuje, které **epistemické standardy** subjek
 
 Každý standard je systematicky podkopán **specifickou** rétorikou:
 
-- *Logika* → *"to je jen lineární myšlení, omezení západní racionality"*
-- *Empirické fakty* → *"smysly klamou, materialismus je iluze"*
-- *Koherence* → *"systémy myšlení jsou jen sociální konstrukty"*
-- *Intersubjektivita* → *"většina se mýlila vždycky"*
-- *Fenomenologie* → *"svou zkušenost si interpretuješ špatně"*
-- *Pragmatika* → *"funkční výsledky jsou povrchní"*
-- *Tradice* → *"jen kulturní setrvačnost"*
+- *Logika* → *„to je jen lineární myšlení, omezení západní racionality“*
+- *Empirické fakty* → *„smysly klamou, materialismus je iluze“*
+- *Koherence* → *„systémy myšlení jsou jen sociální konstrukty“*
+- *Intersubjektivita* → *„většina se mýlila vždycky“*
+- *Fenomenologie* → *„svou zkušenost si interpretuješ špatně“*
+- *Pragmatika* → *„funkční výsledky jsou povrchní“*
+- *Tradice* → *„jen kulturní setrvačnost“*
 
 Klíčové: každý standard je delegitimizován **z perspektivy** ostatních, čímž se vytváří **vzájemně pohlcující skepse**, která zanechává subjekt bez **jakéhokoli** stabilního kritéria.
 
@@ -73,25 +73,25 @@ Klíčové: každý standard je delegitimizován **z perspektivy** ostatních, �
 
 V momentu maximální epistemické desorientace manipulátor nabízí **jediný** standard, který je prezentován jako **nad** všemi předchozími:
 
-- *"Vědění není v hlavě, ale v srdci [/ v mistrovi / v textu / v hnutí]."*
-- *"Až když přijmeš [autoritu], všechno ostatní začne dávat smysl."*
-- *"Pravda není to, co ti tvoje mysl tvrdí — pravda je to, co potvrzuje [autorita]."*
+- *„Vědění není v hlavě, ale v srdci [/ v mistrovi / v textu / v hnutí].“*
+- *„Až když přijmeš [autoritu], všechno ostatní začne dávat smysl.“*
+- *„Pravda není to, co ti tvoje mysl tvrdí — pravda je to, co potvrzuje [autorita].“*
 
-Substituce je **nereverzibilní** — meta-standard je **definován** tak, že vylučuje vnější validaci. Otázka *"je tento meta-standard pravdivý?"* se v jeho rámci **stává neformulovatelnou**.
+Substituce je **nereverzibilní** — meta-standard je **definován** tak, že vylučuje vnější validaci. Otázka *„je tento meta-standard pravdivý?“* se v jeho rámci **stává neformulovatelnou**.
 
 ### Krok 4 — Konsolidace skrze cirkulární validaci
 
 Subjekt po akceptaci meta-standardu testuje **každou** nově nabytou informaci skrz autoritu. Pokud autorita potvrdí, je informace pravdivá; pokud nepotvrdí, je nepravdivá. **Žádné** jiné kritérium není relevantní.
 
-Cirkulární validace je **fenomenologicky transparentní** — subjekt **neprožívá** strukturu jako cirkulární. Naopak prožívá ji jako *"konečné porozumění"*, *"přímé poznání"*, *"vystoupení z relativismu"*.
+Cirkulární validace je **fenomenologicky transparentní** — subjekt **neprožívá** strukturu jako cirkulární. Naopak prožívá ji jako *„konečné porozumění“*, *„přímé poznání“*, *„vystoupení z relativismu“*.
 
 ### Krok 5 — Sebe-imunizace skrz internalizaci
 
 V terminálním stavu subjekt **sám** brání meta-standard proti jakémukoli vnějšímu zpochybnění. Vnější kritika je interpretována jako:
 
-- **Nepochopení** — *"on/a tomu nerozumí, není uvnitř"*
-- **Útok** — *"snaží se rozbít to, co máme"*
-- **Důkaz** — *"i toto je předpovězeno [autoritou], což potvrzuje pravdu"*
+- **Nepochopení** — *„on/a tomu nerozumí, není uvnitř“*
+- **Útok** — *„snaží se rozbít to, co máme“*
+- **Důkaz** — *„i toto je předpovězeno [autoritou], což potvrzuje pravdu“*
 
 Každý možný **falsifikátor** je transformován ve **konfirmátor**.
 
@@ -99,13 +99,13 @@ Každý možný **falsifikátor** je transformován ve **konfirmátor**.
 
 Co prožívá subjekt **uvnitř** meta-epistemické redukce:
 
-- **Fenomenologická transparentnost** otázek pravdy — *"jestli je to pravda, vím okamžitě"*
+- **Fenomenologická transparentnost** otázek pravdy — *„jestli je to pravda, vím okamžitě“*
 - **Eliminace epistemické úzkosti** — chronické nejistoty mizí, výměnou za absolutní jistotu vůči zdroji
-- **Subjektivní pocit "konečnosti"** — *"konečně vím, jak poznávat"*
+- **Subjektivní pocit „konečnosti“** — *„konečně vím, jak poznávat“*
 - **Disproporční dôvěra** k jednomu zdroji, disproporční nedůvěra ke všem ostatním
 - **Neschopnost** formulovat hypotetickou situaci, kdy by se autorita mýlila
-- **Ekvivalence** *"je to pravda"* a *"autorita to potvrzuje"* — obě věty se prožívají jako synonyma
-- **Cizota** vůči vlastnímu dřívějšímu epistemickému uvažování — staré pochybnosti působí jako *"nezralé bludy"*
+- **Ekvivalence** *„je to pravda“* a *„autorita to potvrzuje“* — obě věty se prožívají jako synonyma
+- **Cizota** vůči vlastnímu dřívějšímu epistemickému uvažování — staré pochybnosti působí jako *„nezralé bludy“*
 - **Strukturální nemožnost** uvažovat o meta-standardu jako o předmětu zkoumání
 
 ## Detekční markery (pohled pozorovatele)
@@ -125,7 +125,7 @@ Co prožívá subjekt **uvnitř** meta-epistemické redukce:
 Meta-epistemická redukce je odlišitelná od **legitimní intelektuální deference**:
 
 - **Legitimní deference** udržuje **paralelní** vlastní kritéria — subjekt důvěřuje autoritě v doméně její kompetence, a zároveň udržuje rámec, jímž by ji v principu mohl přehodnotit.
-- **Patologická redukce** **eliminuje** existenci paralelních kritérií — autoritu nelze v principu přehodnotit, protože **autorita sama definuje**, co znamená "přehodnotit".
+- **Patologická redukce** **eliminuje** existenci paralelních kritérií — autoritu nelze v principu přehodnotit, protože **autorita sama definuje**, co znamená „přehodnotit“.
 
 Diagnostický test: požádej subjekt o popis **hypotetické situace**, kdy by se autorita mýlila a on/a by to poznal/a. Subjekt v meta-epistemické redukci tuto úlohu **nedokáže splnit** — nikoli z neznalosti, ale ze strukturální nemožnosti.
 
@@ -146,19 +146,19 @@ Diagnostický test: požádej subjekt o popis **hypotetické situace**, kdy by s
 
 #### 1. Pluralizace epistemické gramatiky
 
-Cíleně udržovat **více** epistemických standardů a pravidelně se ptát na každý zvlášť: *"Je to logicky konzistentní?"*, *"Je to empiricky podložené?"*, *"Souhlasí s mojí přímou zkušeností?"*, *"Co by řekl odpůrce?"*. Cíl: udržet **strukturální** pluralitu.
+Cíleně udržovat **více** epistemických standardů a pravidelně se ptát na každý zvlášť: *„Je to logicky konzistentní?“*, *„Je to empiricky podložené?“*, *„Souhlasí s mojí přímou zkušeností?“*, *„Co by řekl odpůrce?“*. Cíl: udržet **strukturální** pluralitu.
 
 #### 2. Hypotetický falsifikační test
 
-Pravidelně si vůči **každému** přesvědčení (zejména vůči těm, která pocházejí z důvěryhodného zdroje) klást otázku: *"Co by mě přesvědčilo, že je to nepravda?"* — pokud nedokážeš odpovědět, je to **diagnostický signál**.
+Pravidelně si vůči **každému** přesvědčení (zejména vůči těm, která pocházejí z důvěryhodného zdroje) klást otázku: *„Co by mě přesvědčilo, že je to nepravda?“* — pokud nedokážeš odpovědět, je to **diagnostický signál**.
 
 #### 3. Externí autoritativní triangulace
 
 Vystavovat klíčová přesvědčení **více** autoritám z **různých** epistemických rodin. Ne shoda mezi nimi (ta je často znakem sdíleného filtru), ale **diversita produktivního nesouhlasu**.
 
-#### 4. Inhibice "konečných" rámců
+#### 4. Inhibice „konečných“ rámců
 
-Princip: **jakákoli** epistemologie, která sama sebe popisuje jako *"konečnou"*, *"přímou pravdu"*, *"za všemi standardy"*, je **systematicky podezřelá**. Tento marker je prakticky bez výjimky indikátorem manipulativního rámce.
+Princip: **jakákoli** epistemologie, která sama sebe popisuje jako *„konečnou“*, *„přímou pravdu“*, *„za všemi standardy“*, je **systematicky podezřelá**. Tento marker je prakticky bez výjimky indikátorem manipulativního rámce.
 
 #### 5. Strukturální skromnost
 
@@ -176,15 +176,15 @@ Udržovat trvalý vztah **fallibility** vůči vlastním nejdůležitějším p�
 
 ### Případ 1 — High-control duchovní hnutí
 
-Subjekt po pěti letech v hnutí na otázku *"jak bys poznal/a, že Mistr nemá pravdu?"* odpověděl: *"to není možné, protože Mistr definuje, co je pravda"*. Meta-standard byl plně internalizován; rekonstrukce trvala 3 roky terapie + opatření systematické expozice plurálním epistemickým rámcům.
+Subjekt po pěti letech v hnutí na otázku *„jak bys poznal/a, že Mistr nemá pravdu?“* odpověděl: *„to není možné, protože Mistr definuje, co je pravda“*. Meta-standard byl plně internalizován; rekonstrukce trvala 3 roky terapie + opatření systematické expozice plurálním epistemickým rámcům.
 
 ### Případ 2 — Charismatický coaching
 
-Klient po dvou letech intenzivního programu validoval každé profesní rozhodnutí dotazem na trenéra. Při auditu zjištěno, že trenérovy odpovědi byly **vzájemně rozporné** napříč případy, ale klient tyto rozpory **neviděl** — každá odpověď byla jím prožívána jako *"konzistentní s metodou"*.
+Klient po dvou letech intenzivního programu validoval každé profesní rozhodnutí dotazem na trenéra. Při auditu zjištěno, že trenérovy odpovědi byly **vzájemně rozporné** napříč případy, ale klient tyto rozpory **neviděl** — každá odpověď byla jím prožívána jako *„konzistentní s metodou“*.
 
 ### Případ 3 — Akademický monoschol
 
-Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *"co projde naší peer review"*. Externí peer review odlišné epistemické tradice systematicky odmítal jako *"nekompetentní"*. Diagnóza meta-epistemické redukce na institucionální úrovni.
+Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *„co projde naší peer review“*. Externí peer review odlišné epistemické tradice systematicky odmítal jako *„nekompetentní“*. Diagnóza meta-epistemické redukce na institucionální úrovni.
 
 ## Vztah k jiným technikám
 
@@ -234,7 +234,6 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *"co 
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

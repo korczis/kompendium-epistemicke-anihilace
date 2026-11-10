@@ -62,7 +62,7 @@ Klinický pracovník pracující s tímto kompendiem získává sadu **diferenci
 Vulnerabilní populace (oběti gaslightingu, post-kult klienti, oběti politických represí) jsou specificky náchylné k **sekundární viktimizaci** v klinickém kontextu. Klinik, který nerozpozná epistemickou dimenzi utrpení, riskuje:
 
 - **Patologizace** legitimní rezistence vůči manipulaci jako paranoie;
-- **Validace** manipulátorovy narativy skrze diagnostickou kategorizaci pacienta jako "labilního";
+- **Validace** manipulátorovy narativy skrze diagnostickou kategorizaci pacienta jako „labilního“;
 - **Reinscenace** mocenské dynamiky útoku v terapeutickém vztahu.
 
 Sekce 06.5 se těmto rizikům věnuje detailně.
@@ -123,7 +123,6 @@ Pro **klinika začínajícího** s kompendiem doporučujeme následující sekve
 - [Techniques index](@/kompendium/techniques/_index.md) — per-technique katalog
 - [Glossary: Epistemické trauma](@/glossary/epistemicke-trauma.md)
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

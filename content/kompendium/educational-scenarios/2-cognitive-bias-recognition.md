@@ -136,21 +136,26 @@ cvičení nemá zpochybnit konkrétní lidi, ale postup. Pro hlubší práci odk
 ## Související
 
 **Navazující scénáře**
+
 - [Meta-evaluace](@/kompendium/educational-scenarios/9-meta-evaluation.md) – zpětná kalibrace vlastních rozhodnutí.
 - [Zkreslení v peer review](@/kompendium/educational-scenarios/13-peer-review-bias.md) – halo efekt na úrovni instituce.
 
 **Techniky a teorie**
+
 - [EA-7.3.1 Kahneman: System 1/2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) – rámec rychlého a pomalého úsudku.
 - [EA-7.3.2 Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md) – ukotvení a dostupnost.
 
 **Detekční signatury**
+
 - [Nepřiměřená sebejistota](@/kompendium/detection-signatures/9-behavioral-disproportionate-confidence.md) – jistota nekrytá důvody.
 
 **Sebe-obrana**
+
 - [Osobní audit zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md) – pravidelná sebekontrola.
 - [Revize přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md) – jak aktualizovat bez přehnané korekce.
 
 **Glosář**
+
 - [Konfirmační bias](@/glossary/konfirmacni-bias.md) – zkreslení, které halo efekt často doprovází.
 - [Epistemická pokora](@/glossary/epistemicka-pokora.md) – postoj, který korekci umožňuje.
 

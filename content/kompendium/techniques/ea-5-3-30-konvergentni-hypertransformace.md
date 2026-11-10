@@ -123,7 +123,6 @@ Technika **konvergentní hypertransformace** představuje strukturální výzvu 
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Konvergence všech výše analyzovaných vrstev: **Ricoeurova narativní identita**, **Damasiova trojvrstvá self-architektura**, **Merleau-Pontyho chair**, **Husserlovy passive syntheses**, **Heideggerova existencialita**, **Levinasova substituce-pro-druhého** — všechny jsou simultánně atakovány. Specificita konvergentní hypertransformace je v synergickém efektu: žádná jednotlivá vrstva není dostatečně narušena, aby spustila kompenzační odolnost ostatních, ale jejich společná narušenost je terminální. Foucaultovy **technologie sebe** v jejich totalitě jsou převzaty externí mocí. Heideggerova **Eigentlichkeit** je nedosažitelná z žádného vstupního bodu. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

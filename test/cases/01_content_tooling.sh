@@ -13,6 +13,14 @@ trap 'rm -rf "$work"' EXIT
 git -C "$root" archive "$(git -C "$root" write-tree)" | tar -x -C "$work"  # the index: what is about to be committed
 cd "$work"
 
+# An unknown option is refused and changes nothing; --help only prints.
+before=$(find content -name '*.md' -exec cat {} + | shasum)
+for tool in polish-markdown normalize-front-matter; do
+  python3 scripts/$tool.py --help >/dev/null
+  if python3 scripts/$tool.py --bogus >/dev/null 2>&1; then echo "$tool accepted --bogus"; exit 1; fi
+done
+[ "$before" = "$(find content -name '*.md' -exec cat {} + | shasum)" ] || { echo "a refused option changed content"; exit 1; }
+
 python3 scripts/polish-markdown.py >/dev/null
 python3 scripts/polish-markdown.py --check
 

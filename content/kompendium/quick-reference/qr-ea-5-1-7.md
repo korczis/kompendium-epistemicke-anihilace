@@ -24,15 +24,15 @@ toc = false
 
 ## Definice
 
-**Referenční rekurze** vytváří strukturu, v níž **každá reference vede k další referenci**, aniž by kdy dosáhla pevného denotátu. Manipulátor systematicky odpovídá na subjektovy otázky odkazy na další zdroje, autority, kontexty nebo "musíš pochopit nejprve…" tak, že subjekt nikdy nedosáhne přímé odpovědi. Subjekt prožívá *infinitní regress* — každé "vysvětlení" obsahuje další pojem, který vyžaduje vysvětlení. V terminálním stadiu se subjekt vzdává hledání reference a přijímá strukturu samé referenční sítě jako "to, co se nedá vysvětlit, ale jen prožít". Strukturálně blízké hermeneutickému kruhu, ale bez návratu — pouze dovnitř.
+**Referenční rekurze** vytváří strukturu, v níž **každá reference vede k další referenci**, aniž by kdy dosáhla pevného denotátu. Manipulátor systematicky odpovídá na subjektovy otázky odkazy na další zdroje, autority, kontexty nebo „musíš pochopit nejprve…“ tak, že subjekt nikdy nedosáhne přímé odpovědi. Subjekt prožívá *infinitní regress* — každé „vysvětlení“ obsahuje další pojem, který vyžaduje vysvětlení. V terminálním stadiu se subjekt vzdává hledání reference a přijímá strukturu samé referenční sítě jako „to, co se nedá vysvětlit, ale jen prožít“. Strukturálně blízké hermeneutickému kruhu, ale bez návratu — pouze dovnitř.
 
 ## Operační modus (5 kroků)
 
-1. **Otevření referenčního řetězce** — subjektova konkrétní otázka je zodpovězena odkazem ("musíš to chápat v kontextu…").
+1. **Otevření referenčního řetězce** — subjektova konkrétní otázka je zodpovězena odkazem („musíš to chápat v kontextu…“).
 2. **Postupný drift** — každý další krok zahrnuje další odkaz, vzdaluje od původní otázky.
 3. **Expertní rétorická bariéra** — odkazy na specializované zdroje, jež subjekt nemůže rychle ověřit.
 4. **Cirkulární uzavření** — řetězec se eventuálně zacyklí, ale délka cyklu je dostatečná, aby subjekt přestal sledovat.
-5. **Akceptace nedostupnosti** — subjekt přijímá, že pravda "leží někde uvnitř sítě", a nepokouší se ji extrahovat.
+5. **Akceptace nedostupnosti** — subjekt přijímá, že pravda „leží někde uvnitř sítě“, a nepokouší se ji extrahovat.
 
 ## Fenomenologické znaky
 
@@ -55,12 +55,12 @@ toc = false
 ## Neutralizace
 
 - **Pravidlo přímé odpovědi** — explicitní žádost o **konkrétní teze v jedné větě**, opakovaná, dokud nedostane.
-- **Vrácení k otázce** — návrat k původní formulaci po každém odkazu: "to chápu, ale otázka byla X".
+- **Vrácení k otázce** — návrat k původní formulaci po každém odkazu: „to chápu, ale otázka byla X“.
 - **Časový limit na odpověď** — pokud konkrétní výstup nedorazí v krátkém čase, je to diagnosticky relevantní.
 
 ## Klinický kontext
 
-Manifestuje se v ezoterických tradicích s "tajným věděním", v hyperintelektuálních kruzích, kde čtená literatura je sociálním kapitálem, v psychoterapeutických školách, jež se odmítají vyjadřovat operativně, a ve veřejných intelektuálních debatách, jež nahrazují argumenty citacemi. Diferenciálně se odlišuje od **legitimní hermeneutické kontextualizace** (která má vždy konkrétní výstup po několika krocích) tím, že referenční rekurze **nikdy** k výstupu nedorazí. Léčba: trénink na **operativní artikulaci** — schopnost převést jakoukoli teorii do testovatelného výroku.
+Manifestuje se v ezoterických tradicích s „tajným věděním“, v hyperintelektuálních kruzích, kde čtená literatura je sociálním kapitálem, v psychoterapeutických školách, jež se odmítají vyjadřovat operativně, a ve veřejných intelektuálních debatách, jež nahrazují argumenty citacemi. Diferenciálně se odlišuje od **legitimní hermeneutické kontextualizace** (která má vždy konkrétní výstup po několika krocích) tím, že referenční rekurze **nikdy** k výstupu nedorazí. Léčba: trénink na **operativní artikulaci** — schopnost převést jakoukoli teorii do testovatelného výroku.
 
 ## Cross-linky
 

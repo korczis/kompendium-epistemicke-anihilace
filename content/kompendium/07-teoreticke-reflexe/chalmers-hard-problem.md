@@ -38,7 +38,7 @@ Chalmersův argument: **funkcionální popis** žádného systému nikdy **plně
 
 Pro EA z toho plyne:
 
-- **Pseudo-funkcionalistická redukce**: techniky, jež **redukují** subjektovu zkušenost na **funkční měřítka** ("KPIs of well-being", "happiness scores"), strukturálně anihilují hard problem rozměr.
+- **Pseudo-funkcionalistická redukce**: techniky, jež **redukují** subjektovu zkušenost na **funkční měřítka** („KPIs of well-being“, „happiness scores“), strukturálně anihilují hard problem rozměr.
 - **Klinický korelát**: medikalizační redukce trauma na **DSM kódy** strukturálně **opomíjí** subjektivní pól.
 - **Algoritmická pseudo-objektivita**: digital systems strukturálně **redukují** subjekty na funkční profily — anihilace hard problem.
 
@@ -61,7 +61,7 @@ Chalmersova metafyzická pozice: **vlastnostní dualismus** (*property dualism*)
 Implications:
 
 - Vědomí **není** redukovatelné na fyzikální fakta
-- A přece **není** substanční (žádná "duše")
+- A přece **není** substanční (žádná „duše“)
 - **Zákon přidružení**: každá fyzikální realizace je **provázena** specifickými fenomenálními vlastnostmi
 
 Pro EA má vlastnostní dualismus **dvojí relevanci**:
@@ -106,10 +106,10 @@ Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.
 
 ## 8. Primární literatura
 
-- Chalmers, D. (1995). "Facing Up to the Problem of Consciousness". *Journal of Consciousness Studies* 2.
+- Chalmers, D. (1995). „Facing Up to the Problem of Consciousness“. *Journal of Consciousness Studies* 2.
 - Chalmers, D. (1996). *The Conscious Mind*. Oxford UP.
 - Chalmers, D. (2010). *The Character of Consciousness*. Oxford UP.
-- Clark, A. & Chalmers, D. (1998). "The Extended Mind". *Analysis* 58.
+- Clark, A. & Chalmers, D. (1998). „The Extended Mind“. *Analysis* 58.
 - Chalmers, D. (2022). *Reality+: Virtual Worlds and the Problems of Philosophy*. W.W. Norton.
 
 ## Související

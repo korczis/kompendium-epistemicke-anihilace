@@ -57,15 +57,15 @@ Manipulátor **systematicky zaznamenává** subjektovy formulace — někdy expl
 
 Po **temporálním odstupu** (týdny, měsíce, někdy roky) manipulátor formuluje subjektovu produkci v **reframovaném tvaru** a prezentuje ji:
 
-- Subjektu samému, jako **vlastní vhled** manipulátora ("napadlo mě, že…")
+- Subjektu samému, jako **vlastní vhled** manipulátora („napadlo mě, že…“)
 - Třetím stranám, jako součást manipulátorova publikovaného korpusu
 - Komunitě, jako manipulátorovu **signaturní pozici**
 
-Reframování je obvykle dostatečné, aby subjekt nerozpoznal pohlcení jako přímou krádež, ale **dostatečně blízké**, aby v subjektu rezonoval pocit důvěrnosti — a aby se subjekt ztotožnil s manipulátorovou pozicí jako "správnou", protože v ní rozeznává vlastní rané intuice (které již ale nedokáže lokalizovat jako vlastní).
+Reframování je obvykle dostatečné, aby subjekt nerozpoznal pohlcení jako přímou krádež, ale **dostatečně blízké**, aby v subjektu rezonoval pocit důvěrnosti — a aby se subjekt ztotožnil s manipulátorovou pozicí jako „správnou“, protože v ní rozeznává vlastní rané intuice (které již ale nedokáže lokalizovat jako vlastní).
 
 ### Krok 4 — Kapacitní devalvace zdroje
 
-Paralelně s pohlcováním manipulátor **systematicky devalvuje** subjektovu epistemickou kapacitu: jeho rané formulace jsou označovány za "zajímavé, ale nehotové", "dobrá intuice, ale chybějící rigor", "máš na to talent, ale potřebuješ vedení". Tato devalvace **legitimizuje pohlcení**: pokud je subjekt epistemicky nezralý, je manipulátorovo "dotvoření" jeho idejí přínosem, nikoli krádeží.
+Paralelně s pohlcováním manipulátor **systematicky devalvuje** subjektovu epistemickou kapacitu: jeho rané formulace jsou označovány za „zajímavé, ale nehotové“, „dobrá intuice, ale chybějící rigor“, „máš na to talent, ale potřebuješ vedení“. Tato devalvace **legitimizuje pohlcení**: pokud je subjekt epistemicky nezralý, je manipulátorovo „dotvoření“ jeho idejí přínosem, nikoli krádeží.
 
 ### Krok 5 — Konsolidace epistemické závislosti
 
@@ -74,7 +74,7 @@ Subjekt se postupně dostává do stavu, v němž:
 - **Nedůvěřuje** vlastním vhledům, dokud nejsou validovány manipulátorem
 - **Připisuje** manipulátorovi i ty ideje, které byly evidentně subjektovými
 - **Reprodukuje** manipulátorovu pozici, aniž by si byl vědom, že je to recyklace vlastního dřívějšího myšlení
-- **Cítí se vděčný** za manipulátorovu "stimulaci", která je ve skutečnosti recyklací subjektova vlastního výkonu
+- **Cítí se vděčný** za manipulátorovu „stimulaci“, která je ve skutečnosti recyklací subjektova vlastního výkonu
 
 V terminálním stadiu subjekt **nedokáže produkovat** epistemické výstupy bez manipulátorovy validace — autorská kapacita byla **kanibalizována zevnitř**.
 
@@ -113,7 +113,7 @@ Co může vidět vnější pozorovatel:
 Epistemická kanibalizace je odlišitelná od **legitimní intenzivní intelektuální výměny**:
 
 - **Legitimní mentor** **explicitně připisuje** subjektovi autorství raných formulací, **archivuje** subjektovu produkci ve sdílených prostorech a **podporuje** subjektovu nezávislou publikaci.
-- **Kanibalizující manipulátor** prezentuje výměnu jako "společné myšlení" bez autorské stopy, systematicky zpožďuje subjektovu nezávislou publikaci a vlastní výstup datuje **dříve**, než subjektova nezávislá produkce může být doložena.
+- **Kanibalizující manipulátor** prezentuje výměnu jako „společné myšlení“ bez autorské stopy, systematicky zpožďuje subjektovu nezávislou publikaci a vlastní výstup datuje **dříve**, než subjektova nezávislá produkce může být doložena.
 
 Hraniční případ: **konvergentní intelektuální vývoj** mezi blízkými spolupracovníky — bona fide situace, v níž jsou ideje skutečně vzájemné a ne-atribuovatelné. Distinktivní kritérium: konvergence je **symetrická** (obě strany těží), kanibalizace **asymetrická** (jen manipulátor těží).
 
@@ -146,7 +146,7 @@ Subjekt sdílí klíčové ideje **také** s nezávislými třetími stranami **
 
 #### 4. **Dočasná epistemická separace**
 
-Periodické období **bez kontaktu** s manipulátorem — během něhož subjekt produkuje samostatně. Pokud produkce kvalitativně klesá pouze "na chvíli" a poté se obnoví, je to **diagnosticky důležité**: pravděpodobně byla autorská kapacita intaktní, jen byla pohlcována. Pokud se neobnoví, je nutná klinická intervence.
+Periodické období **bez kontaktu** s manipulátorem — během něhož subjekt produkuje samostatně. Pokud produkce kvalitativně klesá pouze „na chvíli“ a poté se obnoví, je to **diagnosticky důležité**: pravděpodobně byla autorská kapacita intaktní, jen byla pohlcována. Pokud se neobnoví, je nutná klinická intervence.
 
 #### 5. **Externí autorský audit**
 
@@ -168,13 +168,13 @@ Důvěryhodný kolega s přístupem k subjektově staré produkci provede **audi
 
 PhD kandidát/ka v humanitní disciplíně sdílí se supervizorem rané teoretické vhledy o specifickém jevu po dobu 4 let. Po obhajobě supervizor publikuje monografii, jejíž jádrové teze odpovídají kandidátovým raným vhledům — bez citace.
 
-Detekce: Externí auditor porovnal kandidátovy datované e-maily se supervizorem (let 1–2) s monografií (rok 5) a identifikoval **23 pasáží** strukturálně shodných. Kandidát/ka při auditu reportoval/a, že "myslel/a, že to byly vlastně supervizorovy ideje".
+Detekce: Externí auditor porovnal kandidátovy datované e-maily se supervizorem (let 1–2) s monografií (rok 5) a identifikoval **23 pasáží** strukturálně shodných. Kandidát/ka při auditu reportoval/a, že „myslel/a, že to byly vlastně supervizorovy ideje“.
 
 Intervence: Institucionální etická komise, retrospektivní korigované autorství, terapeutická intervence pro rekonstrukci kandidátovy autorské identity (18 měsíců).
 
 ### Případ 2 — Charizmatický vedoucí komunity
 
-Vůdce intelektuální komunity systematicky absorboval příspěvky členů z diskusních setkání a publikoval je jako vlastní "doktrinální syntézy". Členové komunity prožívali rostoucí "vděk za syntetizační schopnost vůdce" — i v případech, kdy syntéza nepřinesla nic, co by sami nevyslovili.
+Vůdce intelektuální komunity systematicky absorboval příspěvky členů z diskusních setkání a publikoval je jako vlastní „doktrinální syntézy“. Členové komunity prožívali rostoucí „vděk za syntetizační schopnost vůdce“ — i v případech, kdy syntéza nepřinesla nic, co by sami nevyslovili.
 
 Detekce: Bývalý člen po výstupu z komunity porovnal vlastní staré osobní zápisky s vůdcovým publikovaným korpusem. Nalezl shodu v rozsahu, který nelze vysvětlit konvergencí.
 
@@ -187,7 +187,7 @@ Intervence: Veřejné svědectví, deklarace komunity jako kanibalizační struk
 - **[EA-5.1.2 Konceptuální nihilace](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md)** — pohlcení autorství je usnadněno destabilizací konceptu autorství samého.
 - **[EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)** — když se subjekt pokusí reflektovat vlastní pohlcení, paradoxní struktury reflexe ho paralyzují.
 - **[EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)** — reframování subjektových idejí v manipulátorových pojmech je akademickou variantou kanibalizace.
-- **[EA-1.6.1 Vzorec "Guru a adept"](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)** — guru-adept vztah je strukturálním rámcem dlouhodobé kanibalizace.
+- **[EA-1.6.1 Vzorec „Guru a adept“](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)** — guru-adept vztah je strukturálním rámcem dlouhodobé kanibalizace.
 
 ### Eskaluje do
 
@@ -215,7 +215,7 @@ Epistemická kanibalizace je **strukturálním motivem** pro několik defenzivn�
   - [EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)
 - **Příbuzné akademické techniky**:
   - [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)
-  - [EA-1.6.1 Vzorec "Guru a adept"](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)
+  - [EA-1.6.1 Vzorec „Guru a adept“](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)
   - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
@@ -231,7 +231,6 @@ Epistemická kanibalizace je **strukturálním motivem** pro několik defenzivn�
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

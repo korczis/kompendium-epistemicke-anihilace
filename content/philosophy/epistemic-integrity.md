@@ -132,7 +132,7 @@ Human cognition has a powerful drive to resolve contradictions, even when resolu
 - **Both Sides Maintained**: Contradictory signals are preserved simultaneously
 - **No Premature Resolution**: Contradictions are not resolved until sufficient evidence exists
 - **Evidence Plurality**: Resolution requires multiple independent sources
-- **Acknowledgment of Uncertainty**: "I don't know" is a legitimate epistemic state
+- **Acknowledgment of Uncertainty**: “I don't know” is a legitimate epistemic state
 
 #### Practical Implementation
 

@@ -127,19 +127,23 @@ a neutrální; pokud se debata stočí k obsahu sporu, vraťte ji k metodě.
 ## Související
 
 **Navazující scénáře**
+
 - [Rozpoznání mediální smečky](@/kompendium/educational-scenarios/14-media-mob-recognition.md) – mediální vrstva téhož jevu.
 - [Koordinace botů](@/kompendium/educational-scenarios/17-bot-coordination.md) – kvantitativní analýza účtů.
 - [Emergentní vzorec](@/kompendium/educational-scenarios/29-emergent-pattern.md) – vzorce viditelné až v agregaci.
 
 **Techniky**
+
 - [EA-9.4.6 Mass Comment Coordination](@/kompendium/techniques/ea-9-4-6-mass-comment-coordination.md) – hromadné koordinované komentáře.
 - [EA-9.1.5 LLM Narrative Injection](@/kompendium/techniques/ea-9-1-5-llm-narrative-injection.md) – narativ generovaný jazykovým modelem.
 
 **Detekční signatury**
+
 - [Injekce narativu](@/kompendium/detection-signatures/22-network-narrative-injection.md) – kritéria a validace.
 - [Sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md) – posun významu klíčových slov.
 
 **Sebe-obrana a teorie**
+
 - [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) – jak chránit vlastní příběh komunity.
 - [Wardle: typologie dezinformací](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md) – rámec pro třídění.
 - [Info-ops](@/glossary/info-ops.md) – širší kontext informačních operací.

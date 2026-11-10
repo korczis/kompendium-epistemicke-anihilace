@@ -141,22 +141,27 @@ mnohosti. Pro další práci viz [správa mnohočetného já](@/kompendium/self-
 ## Související
 
 **Navazující scénáře**
+
 - [Ontologický útok](@/kompendium/educational-scenarios/23-ontological-attack.md) – ztráta kotev, která fragmentaci předchází.
 - [Trajektorie zotavení](@/kompendium/educational-scenarios/26-recovery-trajectory.md) – kam obnova identity patří v plánu.
 - [Náborové techniky kultu](@/kompendium/educational-scenarios/18-cult-recruitment.md) – identitní přeměna jako poslední fáze náboru.
 
 **Techniky a zotavení**
+
 - [EA-5.3.3 Rolová fragmentace](@/kompendium/techniques/ea-5-3-3-rolova-fragmentace.md) – mechanismus.
 - [EA-6.3.7 Identitní rekonstituce](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md) – terapeutický postup.
 - [Středně-dobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md) – časový rámec obnovy.
 
 **Detekční signatury**
+
 - [Fragmentace identity](@/kompendium/detection-signatures/30-phenomenological-identity-fragmentation.md) – kritéria.
 
 **Sebe-obrana**
+
 - [Integrace životního příběhu](@/kompendium/self-defense-guides/45-life-story-integration.md) – práce s příběhem.
 
 **Glosář**
+
 - [Narativní identita](@/glossary/narativni-identita.md) – co drží identitu pohromadě.
 - [Identity destruction](@/glossary/identity-destruction.md) – krajní podoba procesu.
 

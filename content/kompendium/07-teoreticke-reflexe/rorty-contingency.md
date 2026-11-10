@@ -17,7 +17,7 @@ toc = true
 
 # 7.28 Rorty: Kontingence, ironie a solidarita
 
-Richard Rorty (1931–2007) v *Philosophy and the Mirror of Nature* (1979) a zejména v *Contingency, Irony, and Solidarity* (1989) formuluje **neopragmatický antifoundacionalismus**: filozofie přestává hledat **fundamenty** poznání v esenci, pravdě nebo v "Naturé". Filozofie je **kulturně-politickou konverzací**, jejíž hodnota je **performativní**, nikoli **fundacionalistická**.
+Richard Rorty (1931–2007) v *Philosophy and the Mirror of Nature* (1979) a zejména v *Contingency, Irony, and Solidarity* (1989) formuluje **neopragmatický antifoundacionalismus**: filozofie přestává hledat **fundamenty** poznání v esenci, pravdě nebo v „Naturé“. Filozofie je **kulturně-politickou konverzací**, jejíž hodnota je **performativní**, nikoli **fundacionalistická**.
 
 Pro kompendium EA představuje Rorty **produktivní napětí**: jeho antifoundacionalismus je strukturálně **kompatibilní** s některými foucaultovskými intuicemi ([viz 7.1 §1](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)), ale strukturálně **napadá** normativní fundament kompendia.
 
@@ -31,7 +31,7 @@ Rortyho centrální teze: **kontingence** jazyka, self a komunity:
 
 Pro EA z toho plyne:
 
-- **Antifoundacionalistický náhled**: pojmy "EA techniky", "epistemické trauma" jsou strukturálně **kontingentními** kategorizacemi — neexistuje "přírodní třída" EA technik.
+- **Antifoundacionalistický náhled**: pojmy „EA techniky“, „epistemické trauma“ jsou strukturálně **kontingentními** kategorizacemi — neexistuje „přírodní třída“ EA technik.
 - **Kompendium si je toho vědomo** (princip transparentní limitace) — taxonomie je **operativní**, nikoli **fundamentalistická**.
 - **Riziko Rortyho pozice**: pokud jsou všechny kategorizace **stejně** kontingentní, **nelze** preferovat jednu nad druhou. Kompendium zde **odbočuje** od Rortyho.
 
@@ -47,13 +47,13 @@ Liberální ironik je **paradoxní postavou**: drží silné **morální závazk
 Pro EA má liberální ironik **dvojí relevanci**:
 
 1. **Pozitivní model**: schopnost držet **etické závazky** bez **fundamentalistické rigidity** je strukturální zdroj rezilience vůči ideologické indoktrinaci.
-2. **Riziko**: ironický distance může být **manipulativně zneužit** — "vše je přece relativní" jako alibi pro epistemicky nebo eticky nepřijatelné pozice.
+2. **Riziko**: ironický distance může být **manipulativně zneužit** — „vše je přece relativní“ jako alibi pro epistemicky nebo eticky nepřijatelné pozice.
 
 ## 3. Sentimentální vzdělávání
 
 Rorty (zejména v esejích sebraných v *Truth and Progress*, 1998) argumentuje, že **morální pokrok** není primárně **kognitivním** — není to **lepší argument**, ale **rozšiřování kruhu solidarity** skrze **sentimentální vzdělávání** (zejména literaturou).
 
-Příběhy o utrpení druhých — od *Chaty strýčka Toma* po *Kotvu z fialového srdce* — **rozšiřují** kruh subjektů, jež vnímáme jako "**nás**".
+Příběhy o utrpení druhých — od *Chaty strýčka Toma* po *Kotvu z fialového srdce* — **rozšiřují** kruh subjektů, jež vnímáme jako „**nás**“.
 
 Pro EA má sentimentální vzdělávání **specifický význam**:
 
@@ -63,11 +63,11 @@ Pro EA má sentimentální vzdělávání **specifický význam**:
 
 ## 4. Filozofie jako konverzace
 
-Rorty (*Philosophy and the Mirror of Nature*, 1979) odmítá tradiční obraz filozofie jako "zrcadla přírody" — disciplíny hledající **odpovídající** reprezentace reality. Filozofie je **konverzací** mezi tradicemi, **edifikací** (*edification*), nikoli **akumulací poznatků**.
+Rorty (*Philosophy and the Mirror of Nature*, 1979) odmítá tradiční obraz filozofie jako „zrcadla přírody“ — disciplíny hledající **odpovídající** reprezentace reality. Filozofie je **konverzací** mezi tradicemi, **edifikací** (*edification*), nikoli **akumulací poznatků**.
 
 Pro EA z toho plyne:
 
-- **Konverzační fundament**: kompendium je strukturálně **konverzačním** — vstupuje do dialogu s tradicemi, nikoli "objevuje" pravdu o EA.
+- **Konverzační fundament**: kompendium je strukturálně **konverzačním** — vstupuje do dialogu s tradicemi, nikoli „objevuje“ pravdu o EA.
 - **Riziko inflace konverzace**: pokud filozofie je **pouze** konverzací, **nelze** rozhodovat mezi konkurenčními pozicemi. Kompendium zde **kombinuje** Rortyho s **Habermasovskou normativitou**.
 
 ## 5. Kritika Rortyho
@@ -75,7 +75,7 @@ Pro EA z toho plyne:
 Kompendium absorbuje Rortyho užitečné motivy, ale **odmítá** jeho **silnou** antifoundacionalistickou pozici z **třech důvodů**:
 
 1. **Klinická realita**: epistemické trauma je **strukturální** klinickou realitou, nikoli **kontingentní** kategorií. Rorty zde **nedostatečně** rozlišuje mezi epistemickou skepsí a klinickou diagnostikou.
-2. **Hodnotová asymetrie**: Rortyho pozice strukturálně **nedoceňuje**, že některé "kontingentní" pozice jsou **eticky nezbytné** — kruté praktiky **nelze** ekvivalovat s normami solidarity.
+2. **Hodnotová asymetrie**: Rortyho pozice strukturálně **nedoceňuje**, že některé „kontingentní“ pozice jsou **eticky nezbytné** — kruté praktiky **nelze** ekvivalovat s normami solidarity.
 3. **Empirická vázanost**: Rorty strukturálně **podceňuje** disciplínu světa — pozice, kterou kompendium řeší skrze **kritický realismus** ([viz 7.7](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md)).
 
 ## 6. Mapping na EA techniky

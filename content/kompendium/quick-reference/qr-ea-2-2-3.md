@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.2.3 Thesis capture"
-description = "Rychla referencni karta pro EA-2.2.3 (delegitimizace)."
+title = "Rychlá karta EA-2.2.3: Zachycení směru kvalifikační práce"
+description = "Zachycení směru kvalifikační práce v kostce: jak poznat, že školitel přetváří téma a závěry disertace ve svůj prospěch, a co dělat."
 weight = 30223
 
 [taxonomies]
@@ -16,39 +16,49 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.2.3 Thesis capture
+# EA-2.2.3 Zachycení směru kvalifikační práce – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.2 Pedagogická koerce · **Plná stránka:** [EA-2.2.3 Zachycení směru kvalifikační práce](@/kompendium/techniques/ea-2-2-3-thesis-direction-capture.md)
 
-## Operační modus (3 kroky)
+## Co to je
 
-1. Mentor postupně přesouvá tematické směřování dizertace tak, aby výsledek primárně sloužil jeho vlastní agendě (granty, publikační linie, politické pozice)
-2. Modifikace jsou prezentovány jako „vědecká rada“, odmítnutí jako „neporozumění oboru“; mentee ztrácí ownership tématu
-3. Po obhajobě je mentee držen v projektu pokračujícím v zachycené linii; vlastní výzkumná identita zaniká
+Školitel přetváří téma, otázky, metodu a nakonec i závěry kvalifikační práce tak, aby sloužily jeho projektu, grantu nebo sporu, ne rozvoji studenta a poznání. Vedení je ovlivňování a má jím být; vzorec nastává, když vliv přestane být nabídkou a stane se podmínkou a když se mění odpovědi, ne jen otázky.
 
-## Detekční markery (3 nejvýraznější)
+## Jak ji poznat
 
-- Téma na začátku doktorátu a téma při obhajobě mají odlišný objekt zkoumání, přitom mentee popisuje proces jako „zrání“
-- Citace v dizertaci jsou převážně z mentorovy laboratoře — výzkumný horizont mentee zúžen
-- Mentee neumí formulovat „co je MOJE specifická kontribuce“, odpovídá obecně „rozšířili jsme…“
+- Téma se zásadně změnilo bez písemného zdůvodnění.
+- Student mluví o práci jako o „projektu profesora“.
+- Negativní či nepohodlné výsledky se v textu neobjevují; žádají se další analýzy, „dokud to nevyjde“.
+- Obhajoba se odkládá, dokud závěry nejsou „správné“.
+- Více disertací ve skupině podporuje tutéž spornou teorii.
+- Student svou práci nepoznává a cítí etický neklid z vynechaných dat.
 
-## Neutralizační strategie (3 nejúčinnější)
+## První bezpečná reakce
 
-- Strukturovaný thesis proposal s explicitní formulací výzkumné otázky a očekávaného výsledku, ratifikovaný komisí na začátku
-- Periodické audity scope drift — porovnání aktuální verze s původním proposalem; každá změna musí být explicitně schválena
-- Thesis defense by externí komise s mandátem zkoumat kontribuci mentee, nikoli mentora
+**Pro zasaženého:** veďte datovaný deník výzkumu (otázky, výsledky, změny a jejich důvody), archivujte všechny verze dat a textu a konzultujte metodu i mimo skupinu. Při zásadní změně tématu žádejte písemné zdůvodnění a souhlas oborové rady ([paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md), [asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md)).
 
-## Příklad
+**Pro odborníka:** odlište legitimní usměrnění od řízení závěrů; ptejte se, co se stalo s výsledky, které nevyšly. Vinu a bezmoc studenta berte vážně – bez podpisu školitele práci odevzdat nelze.
 
-Doktorand začínal s tématem „behavioral ecology of urban birds“, po čtyřech letech obhajuje „telomere length in passerines under stress“ — mentorovo téma s grantem. Klade si otázku, kdy se ztratil, ale nemá záznam, žádný checkpoint, kde by změna byla explicitní.
+## Kdy a jak eskalovat
 
-## Cross-linky
+Eskalujte okamžitě, když se po studentovi žádá úprava nebo vynechání dat: to je otázka vědecké integrity, kterou řeší etická komise instituce, ne vztah se školitelem. Využijte [mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md), změnu školitele s ochranou dosažené práce ([ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)) a uchování původních dat ([uchování důkazů](@/kompendium/forensic-legal/32-evidence-preservation.md)).
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-2-3-thesis-direction-capture/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## S čím ji nezaměnit
+
+- **Legitimní usměrnění:** zdůvodněné, s volbou pro studenta a s přijetím výsledků, které nevyšly.
+- **Práce v grantovém projektu:** sleduje jeho cíle co do zaměření, ne co do závěrů.
+- **Výzkumný podvod:** úprava dat je samostatná a závažnější kategorie; student, který se jí brání, potřebuje ochranu.
+- **[EA-2.2.8 Nárok na intelektuální otcovství](@/kompendium/quick-reference/qr-ea-2-2-8.md):** výsledky si mentor přisvojuje dodatečně; zde je určuje předem.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.2.3 Zachycení směru kvalifikační práce](@/kompendium/techniques/ea-2-2-3-thesis-direction-capture.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.2.3](@/kompendium/techniques/ea-2-2-3-thesis-direction-capture.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
+- **Případ:** [doktorské vedení](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md) – anonymizovaná kazuistika.
+- **Glosář:** [epistemická agentnost](@/glossary/epistemicka-agentnost.md) – schopnost klást vlastní otázky, o kterou student přichází.
+- **Sousední karty:** [EA-2.2.9 Vynucování oborových hranic](@/kompendium/quick-reference/qr-ea-2-2-9.md) – omezování metod a témat; [EA-1.3.2 Strategická reinterpretace](@/kompendium/quick-reference/qr-ea-1-3-2.md) – překládání nepohodlných výsledků.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-1.2.3 Iluzorní komplexita"
-description = "Rychlá referenční karta — Inflace nerozřešitelnosti jasně rozhodnutých problémů."
+title = "Rychlá karta EA-1.2.3: Iluzorní komplexita"
+description = "Iluzorní komplexita v kostce: jak poznat, když se jasný nebo vyřešený problém nafukuje do nerozhodnutelnosti, a jak reagovat."
 weight = 123
 
 [taxonomies]
@@ -14,39 +14,49 @@ ea_code = "EA-1.2.3"
 toc = false
 +++
 
-# QR Card — EA-1.2.3 Iluzorní komplexita
+# EA-1.2.3 Iluzorní komplexita – karta v kostce
 
-**Definice (1 věta)**: Inflace nerozřešitelnosti jasně rozhodnutých problémů.
+**Oblast:** [3.1 Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md), podskupina 1.2 Narušení evaluace a integrace · **Plná stránka:** [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)
 
-## Operační modus (3 kroky)
+## Co to je
 
-1. Aplikace jazyka komplexity („nuanced“, „multifaktoriální“, „ještě ne plně pochopené“) na otázky, kde literatura konverguje k jasné odpovědi
-2. Vkládání reálných (ale marginálních) výzkumných otevřených otázek vedle dávno vyřešených, takže oba získají status „stále otevřené“
-3. Závěr „potřebujeme více výzkumu“ jako trvalá odložení rozhodnutí — bez specifikace, jaký výzkum, jaká data by debatu ukončila
+Problém, který je v podstatě jasný nebo vyřešený, se předkládá jako vysoce složitý, sporný či nerozhodnutelný. Do debaty se vnášejí okrajové faktory a „ale co když…“, takže člověk odloží úsudek „dokud se věc nevyjasní“ – což u uměle nafouknutého problému nenastane nikdy.
 
-## Detekční markery (3 nejvýraznější)
+## Jak ji poznat
 
-- Konkrétní otázka „Co by změnilo váš názor?“ zůstává nezodpovězena nebo dostane vyhýbavou odpověď
-- Subjekt opakovaně používá frázi „to je složitější, než si myslíš“ bez schopnosti specifikovat dimenze komplexity
-- Mezi-publikační konsenzus (např. >90 % v expertních surveys) je systematicky převáděn na „diskuse pokračuje“
+- Nepoměr mezi skutečnou a předváděnou složitostí.
+- Kaskáda faktorů, z nichž žádný nemění hlavní závěr.
+- Ke každému jasnému závěru přibude nová námitka typu „ale co když…“.
+- Nikdo neřekne, které faktory jsou rozhodující a které okrajové.
+- Výslovný závěr je odmítán i tam, kde je k dispozici.
+- Zasažený odkládá rozhodnutí a nahlodává se mu dříve pevné přesvědčení.
 
-## Neutralizační strategie (3 nejúčinnější)
+## První bezpečná reakce
 
-- Mandát na falsifikační kritérium — „co konkrétně by muselo být pravda, aby závěr X byl chybný?“; absence odpovědi indikuje pseudo-komplexitu
-- Audit konsenzuální základny — kvantifikace, kde literatura konverguje a kde reálně diverguje; přiřazení vah jen otevřeným otázkám
-- Decision-forcing zařízení — předem stanovený threshold (datum, evidence, milník), po kterém rozhodnutí padne navzdory „pokračujícím debatám“
+**Pro zasaženého:** vraťte se k jádru: zformulujte jednu ústřední otázku a u každého nového faktoru se ptejte, zda mění odpověď na ni. Pokud ne, je okrajový ([hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md), [revize přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md)).
 
-## Příklad
+**Pro odborníka:** pomozte rozlišit nejistotu skutečnou od vyrobené. Ptejte se, co by klient potřeboval vědět, aby rozhodl; nekonečně se posouvající odpověď je diagnostická. Všímejte si [posunu rozsahu](@/kompendium/detection-signatures/7-linguistic-scope-creep.md).
 
-Lobby výrobce sladkých nápojů nasazuje narativ „vztah mezi cukrem a obezitou je komplexní multifaktoriální záležitost vyžadující další výzkum“. Odhalovaná data: konsenzus existoval už v 90. letech, „výzkum“ sloužil k 30letému zdržení regulace.
+## Kdy a jak eskalovat
 
-## Cross-linky
+Eskalujte, když odklad rozhodnutí poškozuje zdraví, bezpečí nebo práva (odklad léčby, oznámení, ochrany dítěte) nebo když iluzorní komplexita brání vyvození odpovědnosti v instituci. Pak je na místě nezávislý odborný posudek, [interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md) a u klienta [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md).
 
-- **Detailní článek**: [/kompendium/techniques/ea-1-2-3-Iluzorní-komplexita](@/kompendium/techniques/_index.md)
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
-- **Glossary**: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Platformové refs**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}, [NABLA Infinity](@/glossary/nabla-infinity.md)
+## S čím ji nezaměnit
+
+- **Skutečně složitý problém:** expert řekne, co je jisté, co ne a proč.
+- **Vědecká opatrnost:** vymezí meze poznání, ale nebrání praktickému rozhodnutí.
+- **[Paralysis by analysis](@/glossary/paralysis-by-analysis.md):** vlastní sklon k přemýšlení bez cizího přispění.
+- **[EA-1.1.2 Informační přetížení](@/kompendium/quick-reference/qr-ea-1-1-2.md):** zahlcuje objemem dat, ne počtem pochybností.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-1.2.3](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) – mechanismus, kontexty a neutralizace; [kapitola 3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md) – akademické techniky.
+- **Obrana:** [časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md) – rozhodnout v pevném termínu.
+- **Glosář:** [epistemická stáze](@/glossary/epistemicka-staze.md) – stav, do kterého vede trvalý odklad úsudku.
+- **Sousední karty:** [EA-1.2.2 Falešná ekvivalence](@/kompendium/quick-reference/qr-ea-1-2-2.md) – inverzní vzorec; [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/quick-reference/qr-ea-1-3-1.md) – komplexita jako zásoba výjimek; [EA-1.1.3 Terminologická mystifikace](@/kompendium/quick-reference/qr-ea-1-1-3.md) – jazyková fasáda složitosti.
 
 ---
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

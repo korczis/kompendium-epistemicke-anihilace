@@ -1,6 +1,6 @@
 +++
-title = "EA-7.3.3 Friston: Active Inference"
-description = "Teoretická reflexe — Friston: Active Inference a vztah k EA."
+title = "EA-7.3.3 Friston: Aktivní inference"
+description = "Mozek jako systém, který minimalizuje predikční chybu. Jak kontrolované prostředí přepisuje očekávání a váhu vlastních vjemů, jak to rozpoznat a obnovit."
 weight = 733
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "techniques", "ea-7-3", "teoreticke"]
 categories = ["academic", "theory"]
 
 [extra]
-related_terms = ["ea-7-3-10-tononi-iit", "ea-7-3-2-tversky-heuristics", "ea-7-3-4-clark-extended-mind", "ea-7-3-5-metzinger-ego-tunnel"]
+related_terms = ["ea-1-1-1-selektivni-expozice", "ea-4-3-5-evidential-criteria-modification", "ea-5-1-24-epistemicka-vakuace", "ea-7-3-4-clark-extended-mind", "ea-7-3-6-thompson-mind-life", "ea-7-3-5-metzinger-ego-tunnel"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.3.3"
 ea_category = "7. Teoretické reflexe"
@@ -19,90 +19,195 @@ access_level = "L1"
 parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 +++
 
-# EA-7.3.3 Friston: Active Inference
-
-> *Teoretická reflexe v rámci 7.3 Kognitivní věda.*
-
-## Identifikace
+# EA-7.3.3 Friston: Aktivní inference
 
 | Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-7.3.3` |
+| **Kategorie** | 7. Teoretické reflexe |
+| **Subkategorie** | 7.3 Kognitivní věda |
+| **Typ hesla** | Interpretační rámec – výpočetní model vnímání, přesvědčení a jednání |
+| **Přístupová úroveň** | L1 |
+| **Riziková úroveň** | Střední u popsaného jevu – přepsaná očekávání se samy udržují jednáním |
+| **Reverzibilita** | Střední; nová očekávání vyžadují dlouhodobě jiné prostředí, ne jednorázový argument |
+| **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |
+| **Monografické zpracování** | [7.40 Friston: Active Inference a free energy principle](@/kompendium/07-teoreticke-reflexe/friston-active-inference.md) |
+
+> **Poznámka ke kódu.** Heslo `EA-7.3.3` a monografická kapitola 7.40 mají společný předmět;
+> řada 7.3 nesouvisí s tematickou kapitolou 7.3 Sociální epistemologie.
+
+## Definice
+
+**Aktivní inference** je rámec Karla Fristona, podle něhož mozek neustále **předpovídá**
+podněty ze světa i z těla a snaží se minimalizovat rozdíl mezi předpovědí a skutečným
+vstupem – **predikční chybu**. Může to dělat dvojím způsobem: změnit svůj model (vnímání
+a učení), nebo změnit svět tak, aby předpovědi odpovídal (jednání). Obecným principem je
+**minimalizace volné energie**, matematické horní meze „překvapení“. Klíčovou roli hraje
+**přesnost** (*precision*): váha, kterou systém přikládá predikčním chybám z určitého zdroje.
+
+Kompendium heslo používá jako vysvětlení, proč dlouhodobě kontrolované prostředí mění
+nejen názory, ale samotná **očekávání a váhu vlastních vjemů** – a proč odchod z takového
+prostředí působí jako otřes.
+
+## Původ a kontext pojmu
+
+Friston formuloval princip volné energie v řadě prací od poloviny 2000. let; přehledně ve
+stati „The Free-Energy Principle: A Unified Brain Theory?“ (*Nature Reviews Neuroscience*,
+2010). Navazuje na [prediktivní zpracování](@/glossary/predictive-processing.md) a
+prediktivní kódování (Rao a Ballard, 1999) a na starší myšlenku Hermanna von Helmholtze
+o vnímání jako nevědomém usuzování. Andy Clark rámec zpřístupnil a kriticky rozvedl
+(„Whatever Next?“, 2013; *Surfing Uncertainty*, 2016). Učebnicové shrnutí podávají Parr,
+Pezzulo a Friston (*Active Inference*, 2022). Rámec je vlivný, ale jeho obecnost je také
+předmětem kritiky: některé jeho podoby jsou natolik univerzální, že je obtížné je empiricky
+vyvrátit.
+
+## Mechanismus (strukturní popis)
+
+Z pohledu aktivní inference lze v kazuistikách rozpoznat čtyři strukturní posuny:
+
+1. **Jednostranná evidence.** Prostředí dlouhodobě dodává jen vstupy shodné s doktrínou;
+   model se jim přizpůsobí a začne je předpovídat ([EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)).
+2. **Přeskupená přesnost.** Učení přidělí nízkou váhu vlastním vjemům a pochybnostem („to je
+   jen ego“, „pocity klamou“) a vysokou váhu výrokům autority. Rozporné zkušenosti pak
+   model nemění; srov. [EA-4.3.5 Modifikace kritérií evidence](@/kompendium/techniques/ea-4-3-5-evidential-criteria-modification.md).
+3. **Sebenaplňující jednání.** Člověk jedná tak, aby se předpovědi skupiny potvrzovaly
+   (vyhýbá se lidem, kteří by mohli překvapit), a tím si sám uzavírá svět.
+4. **Netolerance překvapení.** Po dlouhé době bez nečekaných vstupů se každé překvapení
+   prožívá jako hrozba; odchod znamená obrovskou predikční chybu, která se projevuje
+   úzkostí, dezorientací a touhou po návratu.
+
+## Fenomenologické znaky (pohled zevnitř)
+
+| Znak | Jak ho člověk popisuje |
 |---|---|
-| **Kód EA** | EA-7.3.3 |
-| **Tradice** | Kognitivní věda |
-| **Autor / škola** | Friston |
-| **Hlavní teze** | Mozek je predikční stroj minimalizující volnou energii — vnímání i jednání jsou pokusy snížit překvapení. |
-| **Status v EA** | Teoretická reflexe — interpretační rámec, ne přímá technika |
-| **Cross-reference** | viz sekce *Mapování na EA techniky* |
+| Svět podle učení | „Všechno, co se děje, jsem čekal.“ |
+| Nedůvěra k vjemům | „Co cítím, není spolehlivé.“ |
+| Úzkost z nového | „Venku je všechno nepředvídatelné, nesnesu to.“ |
+| Stesk po jistotě | „Tam aspoň dávalo všechno smysl.“ |
 
-## Kontext autora
+## Detekční markery (pohled pozorovatele)
 
-Friston patří do tradice **Kognitivní věda**. Jeho/její pozice je relevantní pro EA tím, že nabízí pojmový aparát, jímž lze popsat manipulaci, asymetrii, framing a epistemickou dynamiku — tedy přesně to, co EA mapuje jako útočné a obranné techniky.
+| Marker | Co může naznačovat |
+|---|---|
+| Člověk se aktivně vyhýbá podnětům, které by mohly odporovat učení | Sebenaplňující uzavírání |
+| Vlastní tělesné a emoční signály označuje za nespolehlivé | Přeskupená přesnost |
+| Výrazná úzkost a dezorientace po odchodu, touha vrátit se | Netolerance predikční chyby |
+| Stejný výklad pro protichůdné události | Model, který už nepřijímá chybu |
 
-Místo, aby EA tato pozice technicky obohacovala (jako kapitoly 1–5), slouží jako **interpretační vrstva**: pomáhá odpovědět na otázku *proč* daná technika funguje, *kdo* jí těží a *za jakých podmínek* jí lze odolat.
+## Rizikové kontexty
 
-## Klíčové koncepty
+Dlouhodobě uzavřené skupiny, rezidenční programy, online komunity s algoritmicky
+homogenním obsahem, izolující partnerské vztahy a instituce s pevným denním režimem bez
+vnějších podnětů.
 
-1. **Princip volné energie**
-2. **Predikce a prediktivní kódování**
-3. **Aktivní inference (jednání jako predikce)**
+## Odlišení
 
-Tyto pojmy nejsou v EA použity přímo jako názvy technik, ale tvoří **rastr**, jímž lze techniky kapitol 1–6 lépe číst — a v některých případech i odhalit, že to, co vypadá jako jediná technika, je ve skutečnosti složený dispozitiv.
+- **Normální učení.** Každé prostředí formuje očekávání; problémem je soustavné snižování
+  váhy vlastních vjemů a vyloučení odporujících vstupů.
+- **Kulturní socializace** vytváří sdílené predikce, ale nepřiděluje člověku nulovou
+  důvěru ve vlastní zkušenost.
+- **Klinické stavy.** Výpočetní psychiatrie vykládá některé příznaky psychózy jako poruchu
+  přesnosti predikčních chyb (Fletcher a Frith, 2009) a úzkost jako přeceňování hrozivých
+  předpovědí. Tyto stavy vznikají bez vnějšího aktéra a vyžadují odbornou péči; viz
+  [diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)
+  a [testování reality](@/glossary/reality-testing.md).
 
-## Vztah k EA
+## Klinický a právní rámec
 
-Pozice **Friston** vnáší do EA tři operativní příspěvky:
+Rámec je užitečný v psychoedukaci po odchodu: úzkost a stesk po skupině nejsou důkazem, že
+odchod byl chybou, ale očekávaným důsledkem změny prostředí. Terapeutická práce s
+[interocepcí](@/glossary/interocepce.md) vrací váhu tělesným signálům. Právně rámec sám nic
+nezakládá; může však pomoci znalci vysvětlit, proč člověk dlouho „nepoznal“ zjevné
+skutečnosti.
 
-- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *„něco se tu děje, ale nevíme co“*.
-- **Hloubka rámce**: ukazuje, že manipulace často není individuální akt, nýbrž **strukturální efekt** vyšší vrstvy (diskurzní, institucionální, biologické).
-- **Etická pojistka**: brání tomu, aby EA degenerovala v techniku oboustranné aplikace bez reflexe — tj. aby se z obranného nástroje stala nová manipulační šablona.
+## Obrana a neutralizace
 
-## Mapování na EA techniky
+**Pro jednotlivce.** Vědomě udržovat zdroje překvapení: lidi, místa a informace mimo
+převládající prostředí ([diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md),
+[rutina cross-source](@/kompendium/self-defense-guides/36-cross-source-routine.md)).
+Varovným signálem je pocit, že „už nic nepřekvapí“. **Pro profesionály.** Po odchodu
+dávkovat novost a nabízet předvídatelný rámec péče, aby predikční chyba nebyla
+zahlcující.
 
-Pozice **Friston** se relevantně dotýká těchto oblastí EA:
+**Otázky, které pomáhají v rozhovoru.** Co tě v poslední době překvapilo a jak ses při tom
+cítil? Čemu z toho, co vnímáš, věříš a čemu ne? Kdo tě naučil nevěřit vlastním pocitům?
+Jaké malé nové zkušenosti zvládneš tento týden? Otázky podporují postupné přeučení modelu
+bez zahlcení.
 
-- predikční chyby, model světa, surprise minimization
-- vztah ke **kapitole 6 (obrana a kalibrace)**: pomáhá rozlišit obranu strukturální od obrany pouze taktické.
-- vztah ke **kapitole 3 (manipulační vzorce)**: dodává jazyk, jímž lze pojmenovat skryté předpoklady techniky.
+## Zotavení
 
-Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [techniques index](@/kompendium/techniques/_index.md).
+Zotavení je přeučením modelu: postupné, opakované a bezpečné zkušenosti, které ukazují, že
+svět mimo skupinu je zvládnutelný. [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md),
+pravidelný režim a [somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md)
+snižují nejistotu; [prevence relapsu](@/kompendium/recovery-protocols/longterm-relapse-prevention.md)
+počítá se steskem po předvídatelnosti.
 
-## Limitace
+Blízcí mohou pomoci tím, že nabízejí stálost: pravidelný kontakt, dodržené sliby a
+srozumitelné plány. Každá splněná drobnost je pro model světa důkazem, že i mimo skupinu
+lze předpovídat a spoléhat se – a že překvapení nemusí znamenat hrozbu.
 
-- **Není přímo testovatelná**: na rozdíl od EA-1 až EA-5 nelze tuto pozici jednoduše operacionalizovat ve scoring engine — slouží jako interpretační rámec, ne jako prediktor.
-- **Riziko nadužití**: aplikovaná všude, ztrácí ostří; pozice je nosná tam, kde **standardní psychologický nebo logický rozbor selává**.
-- **Spor o překlad**: některé pojmy (např. *[différance](@/glossary/differance.md)*, *Dasein*, *phi*) odporují čistému přepisu do operativního jazyka platformy a musí být užity s vědomím vlastní hranice.
-- **Žádná pozice není totální**: tato reflexe je jednou z mnoha — viz sister 7.3.* a sousední podkapitoly 7.1, 7.2, 7.3.
+## Případy, které jev ukazují
 
-## Cross-linky
+- [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) –
+  dlouhé přeučování očekávání.
+- [Sektářské vycházení](@/kompendium/case-studies/10-sektarske-vychazeni.md) – otřes
+  z predikční chyby po odchodu.
+- [QAnon recovery](@/kompendium/case-studies/55-qanon-recovery.md) – model, který vše
+  předpovídá.
 
-### Sesterské reflexe (7.3.*)
-- [EA-7.3.1 Kahneman: System 1/2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md)
-- [EA-7.3.2 Tversky & Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md)
+## Ilustrativní příklad
+
+Anonymizovaný kompozit: muž strávil osm let v komunitě, kde byl den rozvržen do minut,
+zprávy ze světa přicházely jen přes vedení a vlastní pochybnosti se označovaly za „hlas
+nižšího já“. Po odchodu žije v bytě sám a popisuje, že ho „všechno překvapuje“: hluk ulice,
+nabídky v obchodě, otázky úředníků. Je úzkostný, špatně spí a několikrát se chce vrátit,
+protože „tam aspoň všechno dávalo smysl“. Optika aktivní inference pomáhá jemu i
+terapeutovi pochopit stav bez moralizování: model světa byl naladěn na úzké, předvídatelné
+prostředí a nyní je zahlcen predikčními chybami. Terapie proto nezačíná debatou o učení
+komunity, ale pravidelným režimem, předvídatelnými schůzkami a postupným rozšiřováním
+světa. Po několika měsících muž poprvé řekne, že ho něco nového „příjemně překvapilo“.
+
+## Meze a otevřené otázky
+
+Princip volné energie je matematicky obecný a jeho kritici upozorňují, že v nejobecnější
+podobě je obtížně vyvratitelný; jeho psychologické aplikace jsou interpretacemi, nikoli
+přímými důsledky. Kompendium ho používá jako výkladový rámec, ne jako diagnostický nástroj.
+Otevřená zůstává otázka, zda lze změny „přesnosti“ predikčních chyb u lidí z kontrolujících
+prostředí empiricky měřit a odlišit od úzkostných a depresivních stavů, které se projevují
+podobně.
+
+## Literatura
+
+- Friston, K. (2010). The Free-Energy Principle: A Unified Brain Theory? *Nature Reviews
+  Neuroscience*.
+- Rao, R. P. N., & Ballard, D. H. (1999). Predictive Coding in the Visual Cortex. *Nature
+  Neuroscience*.
+- Clark, A. (2016). *Surfing Uncertainty*. Oxford University Press.
+- Fletcher, P. C., & Frith, C. D. (2009). Perceiving Is Believing. *Nature Reviews
+  Neuroscience*.
+- Parr, T., Pezzulo, G., & Friston, K. J. (2022). *Active Inference*. MIT Press.
+
+## Související
+
+**Sesterská hesla a kapitoly**
+
+- [7.40 Friston: Active Inference](@/kompendium/07-teoreticke-reflexe/friston-active-inference.md)
+  – plný výklad.
 - [EA-7.3.4 Clark: Rozšířená mysl](@/kompendium/techniques/ea-7-3-4-clark-extended-mind.md)
-- [EA-7.3.5 Metzinger: Ego-tunel](@/kompendium/techniques/ea-7-3-5-metzinger-ego-tunnel.md)
-- [EA-7.3.6 Thompson: Mind in Life](@/kompendium/techniques/ea-7-3-6-thompson-mind-life.md)
-- [EA-7.3.7 Dennett: Intenční postoj](@/kompendium/techniques/ea-7-3-7-dennett-intentional-stance.md)
+  – predikce rozložená do prostředí.
+- [EA-7.3.6 Thompson: Mysl v životě](@/kompendium/techniques/ea-7-3-6-thompson-mind-life.md)
+  – enaktivní alternativa.
 
-### Související
-- [Kapitola 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Kapitola 06: Obrana a kalibrace](@/kompendium/06-obrana/_index.md)
-- [Kapitola 03: Manipulační vzorce](@/kompendium/03-manipulacni-vzorce/_index.md)
-- [Glosář: Falsifikace](@/kompendium/glossary-bridges/falsifikace.md)
-- [Glosář: Predictive processing](@/glossary/predictive-processing.md)
-- [Glosář: Power-knowledge](@/glossary/power-knowledge.md)
-- [Glosář: Lakatos research program](@/glossary/lakatos.md)
-- {{ <cross_link path="/decisions/" text="Platforma: Decision Engine" /> }}
-- {{ <cross_link path="/investigate/" text="Platforma: Investigate" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="Platforma: OSINT Toolbox" /> }}
+**Techniky**
 
----
+- [EA-5.1.24 Epistemická vakuace](@/kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md) –
+  vyprázdnění zdrojů evidence.
+- [EA-4.3.5 Modifikace kritérií evidence](@/kompendium/techniques/ea-4-3-5-evidential-criteria-modification.md)
+  – přepsaná váha důkazů.
 
-## Connect
+**Pojmy a pomoc**
 
-Chcete tuto reflexi aplikovat na konkrétní případ?
-
-- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — [Decision Engine](@/glossary/decision-engine.md) s podporou epistemické kalibrace.
-- [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
-- [Glosář pojmů](@/glossary/_index.md) — definice klíčových termínů napříč EA.
-
-*Část kompendia [Epistemic Arsenal](@/kompendium/_index.md) — kapitola 7. Teoretické reflexe, podkapitola 7.3 Kognitivní věda.*
+- [Glosář: predictive processing](@/glossary/predictive-processing.md) – obecný rámec.
+- [Glosář: interocepce](@/glossary/interocepce.md) – vnímání těla jako zdroj evidence.
+- [Detekční signatura: Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md)
+  – jak se otřes projevuje.

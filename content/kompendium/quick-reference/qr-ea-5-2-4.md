@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-5.2.4 Apriorni saturace"
-description = "Rychla referencni karta pro EA-5.2.4 (metatranscendentalni anihilace)."
+title = "Rychlá karta EA-5.2.4: Apriorní saturace"
+description = "Apriorní saturace v kostce: jak poznat falešná „zřejmá“ apriori, která blokují jakoukoli revizi zkušeností, a jak je zviditelnit."
 weight = 20004
 
 [taxonomies]
@@ -16,60 +16,49 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.2.4 Apriorní saturace
+# EA-5.2.4 Apriorní saturace – karta v kostce
 
-> WARNING: Přístupová úroveň L4. Pouze pro kvalifikované výzkumníky pod IRB.
+**Oblast:** [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md), skupina 5.2 · **Plná stránka:** [EA-5.2.4 Apriorní saturace](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md)
 
-**Doména**: Metatranscendentální anihilace — útok na strukturu apriorních podmínek poznání skrze jejich přesycení nelegitimními „apriorními pravdami“.
+> Karta vyšší přístupové úrovně slouží k rozpoznání a ochraně; popis je strukturní, ne návod.
 
-## Definice
+## Co to je
 
-**Apriorní saturace** je technika, při níž manipulátor **vnáší doktrinální teze** (kosmologické, antropologické, etické) do subjektova diskurzu jako **„apriorní“** — tedy jako pravdy, které nepotřebují empirickou validaci, jsou přijímány **dříve, než vůbec mohly být zpochybněny**. Strukturálně se to liší od legitimních apriori (matematicko-logických, jichž si Kant všímal) — pseudo-apriorní teze („vesmír je vědomý“, „duše existuje“, „dobro vítězí“) jsou syntetické, ale jsou prezentovány jako analytické. Subjekt postupně přesycuje svůj epistemický prostor tezemi, které jsou imunizovány proti empirickému zpochybnění formulemi typu „to nelze testovat, je to apriorně dáno“. V terminálním stadiu nastává *kruhová struktura*: empirie je interpretována tezí, teze je „potvrzena“ empirií, kterou sama strukturuje.
+Kognitivní struktura je nasycena falešnými syntetickými [apriori](@/glossary/apriori.md) – soudy, které působí zároveň univerzálně platně a obsahově informativně, ale nejsou ani skutečně apriorní, ani empiricky podložené ([syntetické a analytické soudy](@/glossary/synteticke-analyticke.md)). Jejich funkcí je blokovat revizi: cokoli jim ve zkušenosti odporuje, je předem chybou zkušenosti.
 
-## Operační modus (5 kroků)
+## Jak ji poznat
 
-1. **Vnesení doktrinálních tezí** — kosmologické, antropologické či etické výroky prezentovány jako „apriorně samozřejmé“.
-2. **Imunizace proti empirickému zpochybnění** — „to nelze testovat“.
-3. **Rituální posílení** — opakování v doktrinálních setkáních.
-4. **Kruhová verifikace** — empirie je interpretována tezí, teze „potvrzena“ výsledkem.
-5. **Konsolidace nemožnosti zpochybnění** — subjekt nedokáže pojmout tezi jako *tvrditelnou*.
+- Člověk vyhlašuje pravdy bez opory a nevnímá, že jde o předpoklad.
+- Nedokáže formulovat, co by tvrzení vyvrátilo.
+- Otázka „jak to víš?“ ho dráždí a vykládá ji jako zlou vůli.
+- Nepamatuje si, kdy a jak soud přijal.
+- Kdo soudí opačně, je pro něj iracionální.
+- Komunita sdílí táž „zřejmá“ apriori a navzájem je potvrzuje.
 
-## Fenomenologické znaky
+## První bezpečná reakce
 
-| Znak | Popis |
-|------|-------|
-| **Samozřejmost** | "To je samozřejmé, není to třeba argumentovat" |
-| **Kategoriální averze k testu** | Test je "kategorizační chyba" |
-| **Kruhová interpretace** | Empirie potvrzuje to, čím sama je strukturována |
-| **Neformulovatelnost jako tvrzení** | Subjekt nedokáže pojmout tezi jako něco, co by mohlo být nepravdivé |
+**Pro zasaženého:** sepište si své „samozřejmosti“ – implicitní předpoklady, které nikdy neověřujete. U každého silného přesvědčení zformulujte konkrétní zkušenost, která by vás přiměla ho revidovat; neschopnost to udělat je sama varováním ([osobní audit zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md), [falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md)).
 
-## Detekční markery
+**Pro odborníka:** pomáhá konzultace s filozofem nebo metodologem, který rozliší skutečně apriorní (logika, matematika) od převlečených empirických a hodnotových tvrzení.
 
-| Marker | Indikuje |
-|--------|----------|
-| Subjekt formuluje tvrzení jako **"samozřejmá"** bez ochoty argumentovat | Aktivní saturaci |
-| Pokus o empirický test rámován jako **"kategorizační chyba"** | Strukturální imunizaci |
-| **Rozpor s běžnou empirií** vyřešen ve prospěch apriorní teze, vždy | Kruhovou strukturu |
-| Subjekt nedokáže formulovat **scénář vyvrácení** | Pseudo-apriori strukturu |
+## Kdy a jak eskalovat
 
-## Neutralizace
+Eskalujte, když apriori slouží doktríně skupiny, která řídí zásadní životní rozhodnutí, nebo když jsou „klinicky nutnými“ apriori konkrétní terapeutické školy: [druhý názor](@/kompendium/emergency-protocols/38-second-opinion-emergency.md), [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), rámec [skupiny s vysokou mírou kontroly](@/glossary/high-control-group.md).
 
-- **Strukturální Kantův audit** — odlišení matematicko-logických apriori (legitimních) od pseudo-apriorních doktrín; kritérium syntetické / analytické.
-- **Empirický falsifikační test** — pro každé tvrzení vyžadovat scénář, ve kterém by bylo nepravdivé.
-- **Historicko-filosofický kontext** — ukázat, že tvrzení patří do specifické tradice, není transhistoricky platné.
+## S čím ji nezaměnit
 
-## Klinický kontext
+- **Skutečná apriorní poznání:** logika a matematika, jejichž platnost nezávisí na zkušenosti a lze ji zkontrolovat.
+- **Pracovní předpoklady vědy:** vědomé, výslovné a revidovatelné.
+- **Hodnotová přesvědčení:** legitimní, pokud se nevydávají za fakta.
+- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/quick-reference/qr-ea-1-3-1.md):** stejná struktura na úrovni jednotlivých tvrzení.
 
-Apriorní saturace se vyskytuje v „kvantově-vědomých“ komunitách, v některých formách New Age duchovních škol, v náboženských fundamentalistických společenstvích a v některých post-strukturalistických akademických prostředích. **Klasický případ**: komunita věřících v „kvantové vědomí“ tvrdí jako apriori, že „myšlenky vytvářejí realitu“. Subjekt po dvou letech expozice nedokáže pojmout výrok jako tvrditelný; pro něj je „samozřejmý“. Při klinické konfrontaci s placebo studiemi (kde efekt je 30-40 %, nikoli 100 %) reaguje „to je iluze měření, kvantové vědomí pracuje na hlubší úrovni“. Klinické riziko: rozhodnutí na základě saturovaných pseudo-apriori vede k praktickým chybám s nelze-li-vyvrátit struktorou.
+**Zdroj:** karta shrnuje plnou stránku [EA-5.2.4 Apriorní saturace](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
 
-## Cross-linky
+## Související
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)
-- **Detailní článek**: [EA-5.2.4 Apriorní saturace](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md)
-- **Sourozenecké techniky**: [EA-5.2.1 Meta-epistemická inverze](@/kompendium/quick-reference/qr-ea-5-2-1.md), [EA-5.2.3 Noumenální redukce](@/kompendium/quick-reference/qr-ea-5-2-3.md), [EA-5.1.17 Tautologická imploze](@/kompendium/quick-reference/qr-ea-5-1-17.md)
-- **Glossary**: [Apriori](@/glossary/apriori.md), [Syntetické a analytické](@/glossary/synteticke-analyticke.md), [Falsifikovatelnost](@/glossary/falsifikovatelnost.md), [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Apriorní rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md), [Multidisciplinární tým](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-- **Platforma**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine claim verification" /> }}, [Color Teams pseudoscience audit](@/glossary/color-teams.md)
+- **Technika a kapitola:** [plná stránka EA-5.2.4](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md) – mechanismus, případy a neutralizace; [kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) – metatranscendentální anihilace.
+- **Glosář:** [Kantovy kategorie](@/glossary/kantovy-kategorie.md) – co skutečně apriorní je podle Kanta.
+- **Sousední karty:** [EA-5.2.5 Konstitutivní rozpad](@/kompendium/quick-reference/qr-ea-5-2-5.md) – navazující stadium; [EA-5.2.27 Apriorní deformace](@/kompendium/quick-reference/qr-ea-5-2-27.md) – zkřivení skutečných apriori.
 
 ---
 

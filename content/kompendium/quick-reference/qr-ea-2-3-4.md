@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.3.4 Mob coordination"
-description = "Rychla referencni karta pro EA-2.3.4 (delegitimizace)."
+title = "Rychlá karta EA-2.3.4: Koordinace davu"
+description = "Koordinace davu v kostce: jak poznat synchronizovaný útok mnoha účtů na jeden cíl, který se tváří jako spontánní pobouření, a jak reagovat."
 weight = 30234
 
 [taxonomies]
@@ -16,33 +16,49 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.3.4 Mob coordination
+# EA-2.3.4 Koordinace davu – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.3 Mediální [delegitimizace](@/glossary/delegitimizace.md) · **Plná stránka:** [EA-2.3.4 Koordinace davu](@/kompendium/techniques/ea-2-3-4-mob-coordination.md)
 
-## Mechanismus
+## Co to je
 
-Aplikace techniky Mob coordination ve specifickém kontextu vedoucí k delegitimizaci cíle.
+Mnoho účtů nebo lidí současně útočí na jeden cíl – komentáři, hlášeními, recenzemi, e-maily zaměstnavateli – a útok se tváří jako spontánní pobouření. Rozhodující je kombinace objemu, na který cíl nemůže reagovat, a zdání nezávislosti, které vytváří dojem, že s cílem nesouhlasí „všichni“.
 
-## Indikatory
+## Jak ji poznat
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](@/glossary/epistemicke-trauma.md), [c-ptsd](@/glossary/c-ptsd.md))
+- Prudký nárůst zmínek krátce poté, co cíl „ukázal“ vlivný účet.
+- Identické formulace a hashtagy ve vlnách.
+- Mnoho nových nebo dříve neaktivních účtů.
+- Útoky přecházejí mezi platformami, na pracovní e-mail a k zaměstnavateli.
+- Útočníci nereagují na obsah, jen na „pověst“ cíle.
+- Postižený popisuje lavinu, strach o bezpečí, pocit neskutečnosti a kompulzivní čtení reakcí.
 
-## Neutralizace
+## První bezpečná reakce
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md))
+**Pro zasaženého:** nejdřív bezpečí – soukromí, adresy, rodina. Čtení reakcí delegujte na důvěryhodnou osobu, dokumentujte bez kompulzivního čtení a neodpovídejte davu po jednom ([akutní zajištění bezpečí](@/kompendium/recovery-protocols/acute-safety-establishment.md), [akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md)).
 
-## Cross-linky
+**Pro odborníka:** při disociaci nebo panice nejprve stabilizujte ([uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md)); analýzu koordinace nechte na později. Sledujte [koordinaci botů](@/kompendium/detection-signatures/20-network-bot-coordination.md).
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-3-4-mob-coordination/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## Kdy a jak eskalovat
+
+Eskalujte při výhrůžkách násilím, zveřejnění adresy nebo útoku na rodinu: policie a bezpečnostní plán mají přednost; zajistěte [elektronické důkazy](@/kompendium/forensic-legal/35-electronic-evidence-EA.md) a hlaste koordinované chování platformám. Instituce nemá posuzovat objem stížností jako důkaz ([reakce na incident](@/kompendium/organizational-defense/31-incident-response-EA.md)). Při akutní disociaci postupujte podle [protokolu akutní disociace](@/kompendium/emergency-protocols/4-acute-dissociation-EA.md).
+
+## S čím ji nezaměnit
+
+- **Skutečná veřejná kritika:** týká se obsahu, neútočí na soukromí a neusiluje o zničení osoby.
+- **Kampaň za odpovědnost:** organizovaná výzva k nápravě skutečného pochybení, přiměřená a pravdivá.
+- **[EA-2.1.2 Pseudo-peer mob](@/kompendium/quick-reference/qr-ea-2-1-2.md):** akademická obdoba, kde dav tvoří „kolegové“.
+- **[EA-2.3.6 Koordinovaný útok napříč platformami](@/kompendium/quick-reference/qr-ea-2-3-6.md):** důraz na plánované přelévání kampaně mezi kanály.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.3.4 Koordinace davu](@/kompendium/techniques/ea-2-3-4-mob-coordination.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.3.4](@/kompendium/techniques/ea-2-3-4-mob-coordination.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře delegitimizace.
+- **Detekce:** [deplatformingová kaskáda](@/kompendium/detection-signatures/24-network-deplatforming-cascade.md) – častý důsledek.
+- **Glosář:** [deplatforming](@/glossary/deplatforming.md) – cíl mnoha vln.
+- **Sousední karty:** [EA-2.3.1 Vytržený klip](@/kompendium/quick-reference/qr-ea-2-3-1.md) – typický spouštěč; [EA-2.1.9 Vytváření pseudokonsenzu](@/kompendium/quick-reference/qr-ea-2-1-9.md) – zdání shody.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

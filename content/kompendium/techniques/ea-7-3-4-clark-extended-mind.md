@@ -1,6 +1,6 @@
 +++
 title = "EA-7.3.4 Clark: Rozšířená mysl"
-description = "Teoretická reflexe — Clark: Rozšířená mysl a vztah k EA."
+description = "Kognice zahrnuje poznámky, zařízení a druhé lidi. Kdo ovládá tyto vnější opory, zasahuje do myšlení: znaky, odlišení, ochrana a obnova vlastních opor."
 weight = 734
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "techniques", "ea-7-3", "teoreticke"]
 categories = ["academic", "theory"]
 
 [extra]
-related_terms = ["ea-7-3-2-tversky-heuristics", "ea-7-3-3-friston-active-inference", "ea-7-3-5-metzinger-ego-tunnel", "ea-7-3-6-thompson-mind-life"]
+related_terms = ["ea-4-1-gaslighting", "ea-2-2-2-mentee-isolation", "ea-2-3-7-deepfake-personalni", "ea-7-3-3-friston-active-inference", "ea-7-3-6-thompson-mind-life", "ea-1-1-1-selektivni-expozice"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.3.4"
 ea_category = "7. Teoretické reflexe"
@@ -21,88 +21,188 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 
 # EA-7.3.4 Clark: Rozšířená mysl
 
-> *Teoretická reflexe v rámci 7.3 Kognitivní věda.*
-
-## Identifikace
-
 | Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-7.3.4` |
+| **Kategorie** | 7. Teoretické reflexe |
+| **Subkategorie** | 7.3 Kognitivní věda |
+| **Typ hesla** | Interpretační rámec – mysl rozložená do nástrojů, prostředí a vztahů |
+| **Přístupová úroveň** | L1 |
+| **Riziková úroveň** | Střední až vysoká u popsaného jevu – zásah do vnějších opor působí jako zásah do paměti a úsudku |
+| **Reverzibilita** | Dobrá, pokud člověk získá zpět vlastní, ověřitelné opory |
+| **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |
+| **Monografické zpracování** | [7.41 Clark: Rozšířená mysl a kognitivní artefakty](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md) |
+
+> **Poznámka ke kódu.** Heslo `EA-7.3.4` a monografická kapitola 7.41 mají společný předmět;
+> příbuzná je kapitola [7.49 Natural-Born Cyborgs](@/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs.md).
+> Řada 7.3 nesouvisí s tematickou kapitolou 7.3.
+
+## Definice
+
+**Teze rozšířené mysli** tvrdí, že kognitivní procesy nekončí na hranici lebky. Pokud
+vnější prvek – zápisník, kalendář, telefon, ale i blízký člověk – plní ve
+vzpomínání nebo uvažování stejnou funkci, jakou by plnil proces v hlavě, je podle Andyho
+Clarka a Davida Chalmerse **součástí kognitivního systému**. Clark mluví o kognitivním
+**lešení** (*scaffolding*): mysl se opírá o prostředí, které si sama budovala.
+
+Pro Kompendium z toho plyne obranně důležitý závěr: **kdo ovládá vnější opory myšlení,
+zasahuje přímo do myšlení**. Smazané zprávy, upravené záznamy nebo zabavený deník nejsou
+jen ztrátou věcí, ale zásahem do paměti.
+
+## Původ a kontext pojmu
+
+Clark a Chalmers představili tezi ve stati „The Extended Mind“ (*Analysis*, 1998) na
+příkladu Otty, muže s poruchou paměti, který si vše zapisuje do zápisníku: když Otto
+„ví“, kde je muzeum, protože to má zapsané, jde podle autorů o stejnou paměť jako u Ingy,
+která si to pamatuje. Formulovali **princip parity** a podmínky, za nichž je vnější
+prvek součástí mysli: je spolehlivě dostupný, jeho obsah se automaticky přijímá a byl
+v minulosti vědomě schválen. Clark tezi rozvinul v knihách *Natural-Born Cyborgs* (2003)
+a *Supersizing the Mind* (2008). Příbuzné jsou práce o distribuované kognici (Hutchins,
+1995; [7.48](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md))
+a o **transaktivní paměti** v párech a skupinách (Wegner, 1987).
+
+## Mechanismus (strukturní popis)
+
+Teze vysvětluje pět vzorců, které kazuistiky popisují jako útok na paměť a úsudek:
+
+1. **Zásah do záznamu.** Úprava, mazání nebo zpochybnění vlastních záznamů – zpráv,
+   kalendáře, fotografií. Protože jim člověk automaticky důvěřuje, změna se prožívá jako
+   vlastní omyl; srov. [EA-4.1 Gaslighting](@/kompendium/techniques/ea-4-1-gaslighting.md).
+2. **Odebrání opor.** Zabavení telefonu, deníku nebo dokladů; zákaz psát si poznámky.
+3. **Monopol na transaktivní paměť.** Jeden partner nebo vůdce „pamatuje za ostatní“; jeho
+   verze minulosti se stává jedinou dostupnou.
+4. **Ovládnutí informační infrastruktury.** Skupina určuje, jaké aplikace, zdroje a kanály
+   člověk používá; srov. [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md).
+5. **Padělané opory.** Uměle vytvořený obsah, který vypadá jako záznam reality
+   ([EA-2.3.7 Personální deepfake](@/kompendium/techniques/ea-2-3-7-deepfake-personalni.md),
+   [deepfake](@/glossary/deepfake.md)).
+
+## Fenomenologické znaky (pohled zevnitř)
+
+| Znak | Jak ho člověk popisuje |
 |---|---|
-| **Kód EA** | EA-7.3.4 |
-| **Tradice** | Kognitivní věda |
-| **Autor / škola** | Clark |
-| **Hlavní teze** | Mysl není uvězněná v lebce — kognice se rozprostírá do nástrojů, poznámek a prostředí. |
-| **Status v EA** | Teoretická reflexe — interpretační rámec, ne přímá technika |
-| **Cross-reference** | viz sekce *Mapování na EA techniky* |
+| Nedůvěra k záznamu | „Byla jsem si jistá, že jsem to tam napsala.“ |
+| Závislost na druhém | „On si to pamatuje líp, tak se ptám jeho.“ |
+| Ztráta opory | „Bez telefonu nevím, co jsem dělala minulý týden.“ |
+| Zmatek z reality | „Fotka existuje, ale já si to pamatuju jinak.“ |
 
-## Kontext autora
+## Detekční markery (pohled pozorovatele)
 
-Clark patří do tradice **Kognitivní věda**. Jeho/její pozice je relevantní pro EA tím, že nabízí pojmový aparát, jímž lze popsat manipulaci, asymetrii, framing a epistemickou dynamiku — tedy přesně to, co EA mapuje jako útočné a obranné techniky.
+| Marker | Co může naznačovat |
+|---|---|
+| Druhá osoba má přístup k zařízením, účtům a dokumentům, člověk k jejím ne | Asymetrie kontroly opor |
+| Opakované „ztráty“ záznamů a předmětů | Zásah do záznamu |
+| Člověk se ptá druhého, co sám zažil | Monopol na transaktivní paměť |
+| Zákaz nebo zesměšňování psaní deníku | Odebrání opor |
+| Jediný povolený zdroj informací | [Monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) |
 
-Místo, aby EA tato pozice technicky obohacovala (jako kapitoly 1–5), slouží jako **interpretační vrstva**: pomáhá odpovědět na otázku *proč* daná technika funguje, *kdo* jí těží a *za jakých podmínek* jí lze odolat.
+## Rizikové kontexty
 
-## Klíčové koncepty
+Kontrolující partnerské vztahy se sdílenými účty, péče o seniory, kde opatrovník spravuje
+dokumenty, skupiny s povinným odevzdáním telefonů, pracoviště se sledovacím softwarem,
+online komunity s vlastní platformou a historické praktiky státních služeb, které tajně
+vstupovaly do bytů a měnily drobnosti v prostředí.
 
-1. **Rozšířená mysl (extended mind thesis)**
-2. **Kognitivní lešení (scaffolding)**
-3. **Parita kritérium**
+## Odlišení
 
-Tyto pojmy nejsou v EA použity přímo jako názvy technik, ale tvoří **rastr**, jímž lze techniky kapitol 1–6 lépe číst — a v některých případech i odhalit, že to, co vypadá jako jediná technika, je ve skutečnosti složený dispozitiv.
+- **Zdravé spoléhání.** Páry a týmy si paměť běžně dělí; problém nastává, když je dělba
+  jednostranná a nelze ji kontrolovat.
+- **Technologická závislost.** Spoléhat na telefon je normální; manipulací je teprve úmyslný
+  zásah do jeho obsahu nebo přístupu.
+- **Kritika teze.** Část filozofů tezi odmítá (kognice podle nich zůstává v hlavě, nástroje
+  ji jen podporují). Pro obranný závěr Kompendia to nehraje roli: zásah do opor poškozuje
+  myšlení v obou výkladech.
+- **Klinické stavy.** Poruchy paměti při neurokognitivních onemocněních, disociaci nebo
+  užívání látek se mohou podobat; je třeba je odborně vyloučit.
 
-## Vztah k EA
+## Klinický a právní rámec
 
-Pozice **Clark** vnáší do EA tři operativní příspěvky:
+Kliník by se měl ptát, kdo má přístup k pacientovým záznamům, zařízením a dokumentům.
+U seniorů jde o znak [zneužívání seniorů](@/glossary/elder-abuse.md). Právně může jít
+o neoprávněný přístup k počítačovému systému, porušení tajemství dopravovaných zpráv nebo
+o součást [coercive control](@/glossary/coercive-control.md); pro důkazní účely je klíčová
+[ochrana elektronických důkazů](@/kompendium/forensic-legal/35-electronic-evidence-EA.md).
 
-- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *„něco se tu děje, ale nevíme co“*.
-- **Hloubka rámce**: ukazuje, že manipulace často není individuální akt, nýbrž **strukturální efekt** vyšší vrstvy (diskurzní, institucionální, biologické).
-- **Etická pojistka**: brání tomu, aby EA degenerovala v techniku oboustranné aplikace bez reflexe — tj. aby se z obranného nástroje stala nová manipulační šablona.
+## Obrana a neutralizace
 
-## Mapování na EA techniky
+**Pro jednotlivce.** Mít opory, k nimž nemá přístup nikdo jiný: zálohy, papírový deník,
+kopie u důvěryhodné osoby ([paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md)).
+Hesla a přístupy k zařízením nesdílet pod tlakem; [digitální hygiena](@/kompendium/prevention-resilience/7-digital-hygiene-prevention.md).
+U podezřelého obsahu ověřovat původ ([detekce AI obsahu](@/kompendium/self-defense-guides/40-ai-content-detection.md)).
+**Pro profesionály.** Zajistit pacientovi nebo klientovi bezpečné místo pro záznamy.
 
-Pozice **Clark** se relevantně dotýká těchto oblastí EA:
+**Otázky, které pomáhají v rozhovoru.** Kdo má přístup k tvému telefonu, účtům
+a dokumentům? Ztratilo se ti v poslední době něco, co sis zapsal? Kdo ti pak vysvětlil,
+co se stalo? Máš místo, kam nikdo jiný nevidí? Otázky mapují, které opory myšlení člověk
+ještě ovládá.
 
-- externí kognitivní opory, paměťové artefakty, distribuovaná kognice
-- vztah ke **kapitole 6 (obrana a kalibrace)**: pomáhá rozlišit obranu strukturální od obrany pouze taktické.
-- vztah ke **kapitole 3 (manipulační vzorce)**: dodává jazyk, jímž lze pojmenovat skryté předpoklady techniky.
+## Zotavení
 
-Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [techniques index](@/kompendium/techniques/_index.md).
+Obnova začíná znovuzískáním vlastních opor: dokladů, účtů a záznamů. Následuje rekonstrukce
+minulosti z nezávislých zdrojů – dopisů, výpisů, svědků – a návrat důvěry ve vlastní paměť.
+Pomáhá [rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md)
+a [biografická rekonstrukce](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md).
 
-## Limitace
+## Případy, které jev ukazují
 
-- **Není přímo testovatelná**: na rozdíl od EA-1 až EA-5 nelze tuto pozici jednoduše operacionalizovat ve scoring engine — slouží jako interpretační rámec, ne jako prediktor.
-- **Riziko nadužití**: aplikovaná všude, ztrácí ostří; pozice je nosná tam, kde **standardní psychologický nebo logický rozbor selává**.
-- **Spor o překlad**: některé pojmy (např. *[différance](@/glossary/differance.md)*, *Dasein*, *phi*) odporují čistému přepisu do operativního jazyka platformy a musí být užity s vědomím vlastní hranice.
-- **Žádná pozice není totální**: tato reflexe je jednou z mnoha — viz sister 7.3.* a sousední podkapitoly 7.1, 7.2, 7.3.
+- [Partnerský gaslighting](@/kompendium/case-studies/08-gaslighting-partnersky.md) – zásah
+  do záznamů a paměti.
+- [Východoněmecká Zersetzung](@/kompendium/historical-cases/5-east-german-zersetzung.md) –
+  státní rozklad důvěry ve vlastní vnímání.
+- [Kult platformy](@/kompendium/case-studies/73-platform-cult.md) a
+  [kult Discord serveru](@/kompendium/case-studies/79-discord-server-cult.md) – ovládnutá
+  informační infrastruktura.
 
-## Cross-linky
+## Ilustrativní příklad
 
-### Sesterské reflexe (7.3.*)
-- [EA-7.3.1 Kahneman: System 1/2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md)
-- [EA-7.3.2 Tversky & Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md)
-- [EA-7.3.3 Friston: Active Inference](@/kompendium/techniques/ea-7-3-3-friston-active-inference.md)
-- [EA-7.3.5 Metzinger: Ego-tunel](@/kompendium/techniques/ea-7-3-5-metzinger-ego-tunnel.md)
-- [EA-7.3.6 Thompson: Mind in Life](@/kompendium/techniques/ea-7-3-6-thompson-mind-life.md)
-- [EA-7.3.7 Dennett: Intenční postoj](@/kompendium/techniques/ea-7-3-7-dennett-intentional-stance.md)
+Anonymizovaný kompozit: starší muž po mrtvici svěří správu svého telefonu, e-mailu
+a bankovnictví synovci, který se k němu nastěhuje. Postupně si všimne, že některé zprávy
+od přátel „nepřišly“, v kalendáři chybějí schůzky, které si pamatuje, a výpisy z účtu
+nedostává. Synovec ho ujišťuje, že si to plete kvůli nemoci. Muž začne o své paměti
+pochybovat natolik, že přestane volat přátelům. Teze rozšířené mysli pomáhá sociální
+pracovnici pojmenovat, co se děje: neztratil jen přístup k věcem, ale k částem vlastní
+paměti a uvažování, které byly uloženy mimo hlavu. Opatřením není jen změna hesel, ale
+obnova vlastních opor – papírový diář, výpisy zasílané poštou, pravidelný telefonát
+s přítelem – a prověření, zda nejde o finanční zneužívání.
 
-### Související
-- [Kapitola 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Kapitola 06: Obrana a kalibrace](@/kompendium/06-obrana/_index.md)
-- [Kapitola 03: Manipulační vzorce](@/kompendium/03-manipulacni-vzorce/_index.md)
-- [Glosář: Falsifikace](@/kompendium/glossary-bridges/falsifikace.md)
-- [Glosář: Predictive processing](@/glossary/predictive-processing.md)
-- [Glosář: Power-knowledge](@/glossary/power-knowledge.md)
-- [Glosář: Lakatos research program](@/glossary/lakatos.md)
-- {{ <cross_link path="/decisions/" text="Platforma: Decision Engine" /> }}
-- {{ <cross_link path="/investigate/" text="Platforma: Investigate" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="Platforma: OSINT Toolbox" /> }}
+## Meze a otevřené otázky
 
----
+Teze rozšířené mysli je filozoficky sporná a Kompendium nepotřebuje rozhodnout spor o to,
+kde mysl „končí“; obranný závěr platí i ve slabší podobě (nástroje podporují kognici).
+Otevřená zůstává otázka, jak chránit vnější opory lidí, kteří je z dobrých důvodů svěřili
+druhým (senioři, nemocní, děti), aniž by ztratili potřebnou pomoc, a jak se mění riziko
+s nástupem osobních asistentů založených na umělé inteligenci, kteří si pamatují a
+rozhodují za uživatele.
 
-## Connect
+## Literatura
 
-Chcete tuto reflexi aplikovat na konkrétní případ?
+- Clark, A., & Chalmers, D. J. (1998). The Extended Mind. *Analysis*.
+- Clark, A. (2003). *Natural-Born Cyborgs*. Oxford University Press.
+- Clark, A. (2008). *Supersizing the Mind*. Oxford University Press.
+- Hutchins, E. (1995). *Cognition in the Wild*. MIT Press.
+- Wegner, D. M. (1987). Transactive Memory. In B. Mullen & G. R. Goethals (Eds.),
+  *Theories of Group Behavior*. Springer.
 
-- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — [Decision Engine](@/glossary/decision-engine.md) s podporou epistemické kalibrace.
-- [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
-- [Glosář pojmů](@/glossary/_index.md) — definice klíčových termínů napříč EA.
+## Související
 
-*Část kompendia [Epistemic Arsenal](@/kompendium/_index.md) — kapitola 7. Teoretické reflexe, podkapitola 7.3 Kognitivní věda.*
+**Sesterská hesla a kapitoly**
+
+- [7.41 Clark: Rozšířená mysl](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md) –
+  plný výklad.
+- [EA-7.3.3 Friston: Aktivní inference](@/kompendium/techniques/ea-7-3-3-friston-active-inference.md)
+  – predikce opřená o prostředí.
+- [7.48 Hutchins: Distribuovaná kognice](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md)
+  – kognice v týmech a nástrojích.
+
+**Techniky**
+
+- [EA-4.1 Gaslighting](@/kompendium/techniques/ea-4-1-gaslighting.md) – zásah do paměti.
+- [EA-2.2.2 Izolace mentee](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md) – odebrání
+  vztahových opor.
+
+**Pojmy a pomoc**
+
+- [Glosář: embodied cognition](@/glossary/embodied-cognition.md) – příbuzný rámec vtělené
+  kognice.
+- [Sebeobrana: paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md) –
+  vlastní, chráněné opory.

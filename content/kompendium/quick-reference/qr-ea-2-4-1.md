@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.4.1 Board capture"
-description = "Rychla referencni karta pro EA-2.4.1 (delegitimizace)."
+title = "Rychlá karta EA-2.4.1: Zachycení správních orgánů"
+description = "Zachycení správních orgánů v kostce: jak poznat radu nebo senát obsazený jednou skupinou, který přestal kontrolovat, a jak reagovat."
 weight = 30241
 
 [taxonomies]
@@ -16,39 +16,49 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.4.1 Board capture
+# EA-2.4.1 Zachycení správních orgánů – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.4 Institucionální zachycení · **Plná stránka:** [EA-2.4.1 Zachycení správních orgánů](@/kompendium/techniques/ea-2-4-1-board-capture.md)
 
-## Operační modus (3 kroky)
+## Co to je
 
-1. Postupné dosazování spojenců do rozhodovacích orgánů (vedení katedry, ediční rady, grantové komise) skrze rotace, doplňovací volby, „konsenzuální“ jmenování
-2. Při dosažení většiny — modifikace pravidel (kvórum, hlasovací prahy, mandatorní externí supervize) tak, aby další obměna byla blokována
-3. Konsolidace skrze obsazení key gatekeeper rolí (předseda, secretary); nesouhlas se stane procedurálně neuskutečnitelný
+Orgány, které mají instituci kontrolovat – správní a dozorčí rada, akademický senát, vědecká rada, kuratorium, etická komise –, se postupně obsadí lidmi vázanými na jednu skupinu. Orgán formálně zasedá a hlasuje, ale přestane plnit kontrolní roli: schvaluje, co mu předloží ti, které měl kontrolovat.
 
-## Detekční markery (3 nejvýraznější)
+## Jak ji poznat
 
-- Personální složení boardu během 2-3 let radikálně mění bez explicitní debaty o směřování
-- Nově dosazení členové sdílejí nadprůměrnou síť personálních / akademických / politických vazeb
-- Procedurální změny pravidel (rules of order) systematicky ztěžují další personální obměnu
+- Složení orgánu se postupně, po jednom místě, homogenizuje ve prospěch jedné skupiny.
+- Volby bez protikandidátů, kandidáti navržení vedením.
+- Roste podíl jednomyslných hlasování.
+- Podklady přicházejí těsně před jednáním.
+- Jednací řád se mění tak, aby omezil veřejnost a menšinu.
+- Nezávislí členové odcházejí krátce po sporném hlasování; zaměstnanci „nemají komu si stěžovat“.
 
-## Neutralizační strategie (3 nejúčinnější)
+## První bezpečná reakce
 
-- Strukturální oddělení nominačního a rozhodovacího procesu — externí komise pro výběr členů, internal pro rozhodování
-- Time-locked term limits + rotace přes různé výběrové cesty (volba členstvem, jmenování externí autoritou, lottery)
-- Public meeting minutes + transparentní hlasovací záznamy; ztěžuje tichou kolektivní transformaci
+**Pro člena orgánu nebo zaměstnance:** trvejte na písemných podkladech s předstihem, nechte zapsat nesouhlasné stanovisko a spojte se s nezávislými členy. Dokumentujte složení, hlasování a vazby členů ([forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md), [sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)).
 
-## Příklad
+**Pro odborníka a poradce:** pomozte rozlišit legitimní většinu z otevřených voleb od obcházení soutěže, informací a ochrany menšiny; menšinu, která se cítí jako „potížista“, podpořte.
 
-Edicni rada čipového odborného časopisu měla 12 členů z 8 zemí. Během 4 let nový šéfredaktor doplnil 6 míst všemi spolupracovníky z jeho kruhu. Přijímací rate článků kritických k jeho výzkumné linii spadla na 3 %, ostatních zůstala 30 %. Fakta jsou ověřitelná, ale „nepřípustně podsouvají politizaci“.
+## Kdy a jak eskalovat
 
-## Cross-linky
+Eskalujte, když orgán přestane plnit zákonnou kontrolní funkci nebo schvaluje rozhodnutí se střetem zájmů: obraťte se na zřizovatele či kontrolní orgán, využijte [auditní výbor](@/kompendium/organizational-defense/5-audit-committee-EA.md), [politiku střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md) a [mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md).
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-4-1-board-capture/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## S čím ji nezaměnit
+
+- **Legitimní většina:** skupina, která vyhrála otevřené volby, smí orgán ovládat.
+- **Souhra vedení a orgánu:** shoda s diskusí a informacemi může znamenat dobrou správu.
+- **Nezájem o volby:** obsazení „z nouze“ vede k podobnému výsledku bez úmyslu – strukturní slabina, ne technika.
+- **[EA-2.4.4 Zachycení vedení](@/kompendium/quick-reference/qr-ea-2-4-4.md):** výkonná, ne kontrolní vrstva.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.4.1 Zachycení správních orgánů](@/kompendium/techniques/ea-2-4-1-board-capture.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.4.1](@/kompendium/techniques/ea-2-4-1-board-capture.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
+- **Organizace:** [odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md) – institucionální prevence.
+- **Terminální protokol:** [institucionální anihilace](@/kompendium/04-terminalni-protokoly/institucionalni-anihilace.md) – kam zachycení instituce vede.
+- **Sousední karty:** [EA-2.4.2 Skrytý přepis pravidel](@/kompendium/quick-reference/qr-ea-2-4-2.md) – co zachycený orgán schvaluje; [EA-2.1.7 Institucionální vyloučení](@/kompendium/quick-reference/qr-ea-2-1-7.md) – dopad na jednotlivce.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

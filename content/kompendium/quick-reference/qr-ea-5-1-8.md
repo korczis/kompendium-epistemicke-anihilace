@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-5.1.8 Konceptualni fragmentace"
-description = "Rychla referencni karta pro ultramarine techniku Konceptualni fragmentace (epistemicka singularita)."
+title = "Rychlá karta EA-5.1.8: Konceptuální fragmentace"
+description = "Konceptuální fragmentace v kostce: jak poznat rozklad dříve propojených pojmů na nesouvisející útržky, který brání celistvému úsudku."
 weight = 10008
 
 [taxonomies]
@@ -16,60 +16,49 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.1.8 Konceptuální fragmentace
+# EA-5.1.8 Konceptuální fragmentace – karta v kostce
 
-> WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
+**Oblast:** [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), skupina 5.1 · **Plná stránka:** [EA-5.1.8 Konceptuální fragmentace](@/kompendium/techniques/ea-5-1-8-konceptualni-fragmentace.md)
 
-**Doména**: [Epistemická singularita](@/glossary/epistemicka-singularita.md) — rozštěpení integrovaného konceptu na nesouvisející fragmenty, jež subjekt nedokáže znovu sloučit.
+> Přístupová úroveň L3. Karta slouží k rozpoznání a ochraně; popis je strukturní, ne návod.
 
-## Definice
+## Co to je
 
-**Konceptuální fragmentace** rozštěpí jednotný pojem subjektu na **nesouvisející části**, z nichž každá je legitimní, ale celek se rozpadá. Na rozdíl od konceptuální nihilace (která pojem ruší) fragmentace **zachovává** všechny prvky, ale **odstraňuje strukturální vazby** mezi nimi. Subjekt se ocitá ve stavu, v němž „víš všechno o lásce, ale nedokážeš lásku poznat“, „rozumíš odpovědnosti po částech, ale celek se rozpadá při pokusu jednat“. Strukturálně je technika modelovatelná jako *graph cut*: koncept = graf, kde uzly přežijí, ale hrany jsou rozříznuty. V terminálním stadiu nastává *integrative collapse* — subjekt nemůže provést jednotnou akci, protože nedokáže pojem-celek udržet.
+Dříve propojené pojmové struktury se rozkládají na izolované fragmenty, takže člověk přestane umět sestavit celistvé porozumění dané oblasti. Cílem není vnutit chybnou tezi, ale zničit schopnost integrace – vazby mezi pojmy; člověk přitom paradoxně prožívá, že se „učí“ nové detaily a rozlišení.
 
-## Operační modus (5 kroků)
+## Jak ji poznat
 
-1. **Mapování konceptuálního pole** — manipulátor identifikuje strukturální komponenty pojmu (důvěra = předvídatelnost + spolehlivost + dobrá vůle + transparentnost).
-2. **Postupné izolování komponent** — každá komponenta je zvlášť zpochybněna nebo redefinována.
-3. **Anti-syntéza** — návrh na „sjednocení“ je systematicky blokován („ale to není totéž!“).
-4. **Komparativní rozštěp** — komponenty jsou prezentovány jako vzájemně neslučitelné („buď chceš spolehlivost, nebo dobrou vůli“).
-5. **Integrativní paralýza** — subjekt přestává pojem aplikovat v praxi, protože nedokáže komponenty složit.
+- Pojmy definuje přesně, ale používá je nesoudržně.
+- Složitá rozhodnutí trvají nepoměrně déle než dříve.
+- Místo jednání stále „rozlišuje úrovně“.
+- Složité úsudky přenechává jedné autoritě.
+- Mizí „cit pro obor“: dříve okamžité úsudky vyžadují dlouhou analýzu.
+- Pokus o celkovou odpověď vyvolá krátké kognitivní „zatemnění“.
 
-## Fenomenologické znaky
+## První bezpečná reakce
 
-| Znak | Popis |
-|------|-------|
-| **Atomizační únava** | "Vidím všechny části, ale nevím, jak to dohromady patří" |
-| **Akční paralýza** | Neschopnost jednat z konceptu, který se rozpadá při aplikaci |
-| **Komponentní hypertrofie** | Excesivní pozornost k detailům, ztráta celku |
-| **Strach z aplikace** | Pojem je v hlavě, ale "nedá se s ním pracovat" |
+**Pro zasaženého:** ověřte, zda ve své oblasti rozhodujete stejně rychle a úspěšně jako dřív – pokles při zachovaných znalostech je silný signál. Vraťte se k vlastním zápiskům a materiálům z doby před kontaktem s daným vlivem a zrekonstruujte, jak jste tehdy uvažovali; struktura bývá jen utlumená ([paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md)).
 
-## Detekční markery
+**Pro odborníka:** podporujte syntézu na konkrétních případech z praxe klienta, ne další rozlišování. Zjistěte, kdo rozkládá jeho rámec bez nabídky funkční náhrady.
 
-| Marker | Indikuje |
-|--------|----------|
-| Subjekt **artikuluje komponenty**, ale neudrží je v jedné větě | Aktivní fragmentaci |
-| Manipulátor odmítá **integrativní pojetí** ("to je naivní") | Anti-syntézu |
-| Při pokusu jednat z pojmu subjekt **váhá** | Integrativní paralýzu |
-| Časem narůstá **počet komponent**, klesá akční výstup | Stupňující se rozštěp |
+## Kdy a jak eskalovat
 
-## Neutralizace
+Eskalujte, když fragmentace ohrožuje profesní výkon nebo samostatnost a člověk se stává závislým na jedné autoritě: postupujte podle [diagnostických indikátorů](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a [metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md); v organizaci po reorganizaci pomáhá [obnovení kompetencí](@/kompendium/recovery-protocols/midterm-skill-rebuilding.md).
 
-- **Praktická resyntéza** — opakovaná akce, jež vyžaduje aplikaci celého pojmu, bez možnosti rozkladu.
-- **Příkladová kotva** — kanonický příklad, v němž pojem funguje jako celek (oprava traktoru jako příklad celostní kompetence).
-- **Komunita praxe** — sdílená praxe, kde celostní pojem je nutný k participaci.
+## S čím ji nezaměnit
 
-## Klinický kontext
+- **Normální fáze učení:** dočasná dezintegrace při přechodu na nový rámec, který se pak složí v celek.
+- **Vyhoření a deprese:** pokles výkonu ze ztráty energie, ne ze ztráty vazeb mezi pojmy.
+- **Neurokognitivní porucha:** vyžaduje lékařské vyšetření.
+- **[EA-5.1.30 Konceptuální entropie](@/kompendium/quick-reference/qr-ea-5-1-30.md):** postupný rozpad celého pojmového systému, ne cílený rozklad vazeb.
 
-Konceptuální fragmentace se vyskytuje v hyperakademických prostředích, jež „operacionalizují“ vše do měřitelných subkomponent (čímž rozkládají integrativní pojmy ctnosti, vztahu, péče), v některých formách kognitivně-behaviorální terapie, jež dělí emoce na komponenty bez rekonstrukce, a v korporátních prostředích, kde „kompetence“ jsou rozštěpeny do KPI matrice. Diferenciálně se odlišuje od **legitimní analytické dekompozice** (která vždy předpokládá rekonstrukci celku) — fragmentace **neumí** komponenty složit zpět.
+**Zdroj:** karta shrnuje plnou stránku [EA-5.1.8 Konceptuální fragmentace](@/kompendium/techniques/ea-5-1-8-konceptualni-fragmentace.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
 
-## Cross-linky
+## Související
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
-- **Detailní článek**: [EA-5.1.8 Konceptuální fragmentace](@/kompendium/techniques/ea-5-1-8-konceptualni-fragmentace.md)
-- **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md), [EA-5.1.20 Holografická redukce](@/kompendium/quick-reference/qr-ea-5-1-20.md), [EA-5.1.30 Konceptuální entropie](@/kompendium/quick-reference/qr-ea-5-1-30.md)
-- **Glossary**: [Konceptuální anihilace](@/glossary/konceptualni-anihilace.md), [Integrative collapse](@/glossary/integrative-collapse.md), [Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Konceptuální rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Platforma**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine concept graph" /> }}, [NABLA Infinity integrace](@/glossary/nabla-infinity.md)
+- **Technika a kapitola:** [plná stránka EA-5.1.8](@/kompendium/techniques/ea-5-1-8-konceptualni-fragmentace.md) – mechanismus, případy a neutralizace; [kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) – [epistemická singularita](@/glossary/epistemicka-singularita.md).
+- **Glosář:** [integrativní kolaps](@/glossary/integrative-collapse.md) – terminální stav ztráty integrace.
+- **Sousední karty:** [EA-5.1.7 Referenční rekurze](@/kompendium/quick-reference/qr-ea-5-1-7.md) – smyčka postavená na fragmentech; [EA-5.1.9 Identitní dezintegrace](@/kompendium/quick-reference/qr-ea-5-1-9.md) – fragmentace sebepojetí.
 
 ---
 

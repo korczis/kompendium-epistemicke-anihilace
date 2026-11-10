@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-5.1.4 Semanticka imploze"
-description = "Rychla referencni karta pro ultramarine techniku Semanticka imploze (epistemicka singularita)."
+title = "Rychlá karta EA-5.1.4: Sémantická imploze"
+description = "Sémantická imploze v kostce: jak poznat kolaps významů slov, kdy pojmy neodkazují k ničemu nebo k protikladům, a jak reagovat."
 weight = 10004
 
 [taxonomies]
@@ -16,60 +16,49 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.1.4 Sémantická imploze
+# EA-5.1.4 Sémantická imploze – karta v kostce
 
-> WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
+**Oblast:** [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), skupina 5.1 · **Plná stránka:** [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)
 
-**Doména**: [Epistemická singularita](@/glossary/epistemicka-singularita.md) — kolaps sémantického prostoru, v němž slova subjektu přestávají odkazovat ke stabilním denotátům.
+> Přístupová úroveň L3. Karta slouží k rozpoznání a ochraně; popis je strukturní, ne návod.
 
-## Definice
+## Co to je
 
-**Sémantická imploze** je technika, při níž manipulátor systematicky **přetěžuje** sémantické pole klíčových slov subjektu protichůdnými, nadbytečnými a vzájemně se rušícími významy do bodu, kdy slovo **přestává nést referenci**. Na rozdíl od konceptuální nihilace (která rozkládá pojem) sémantická imploze **přesycuje** slovo natolik, že ztrácí komunikativní funkci. Subjekt postupně přestává mluvit o klíčových oblastech zkušenosti, protože každé slovo se v jeho zkušenosti rozpadá na inkonzistentní vrstvy. V terminálním stadiu nastává *afasie selektivních polí* — subjekt mluví, ale o specifických oblastech (často právě těch, kterými manipulátor disponuje) ztrácí jazyk.
+Významy slov kolabují tak, že dříve stabilní termíny neodkazují k ničemu (referenční vyprázdnění) nebo současně k protikladům (referenční superpozice). Člověk dál tvoří syntakticky správné věty, ale ty jsou sémanticky prázdné nebo rozporné. Nejde o polysémii: mnohoznačný termín má strukturovaný rozsah významů, implodovaný ne.
 
-## Operační modus (5 kroků)
+## Jak ji poznat
 
-1. **Identifikace vysoce hodnotných slov** — manipulátor mapuje slova, jež jsou pro subjektovu identitu nebo orientaci klíčová („láska“, „férový“, „kompetentní“, „pravdivý“).
-2. **Konkurenční sémantická vrstvení** — slovo je opakovaně použito v navzájem nesouvisejících kontextech s nepřekrývajícími se denotáty, vždy s nárokem na „skutečný“ význam.
-3. **Hyperironie a meta-užití** — slovo je střídavě užíváno doslovně, ironicky, sarkasticky, autoreferenčně, bez explicitního značení módu.
-4. **Sémantické inverze** — slovo je v některých kontextech užito tak, že znamená opak svého konvenčního denotátu.
-5. **Komunikační stažení** — subjekt přestává slova používat, přechází na perifrázi, gesta, nakonec mlčí v oblastech, kde manipulátor sémanticky operuje.
+- Člověk nedokáže definovat pojmy, které sám aktivně používá.
+- Definice vede do kruhu („svoboda je autenticita, autenticita je svoboda“) nebo obsahuje protiklady.
+- Žádost o vysvětlení odmítá jako „redukcionistickou“.
+- Tentýž termín v jednom rozhovoru používá v neslučitelných významech, aniž by rozpor vnímal.
+- Produkuje „slovní pěnu“ – správnou větnou stavbu bez obsahu.
+- Popisuje klouzavost pojmů, pseudorozumění a vyhýbání se klíčovým slovům.
 
-## Fenomenologické znaky
+## První bezpečná reakce
 
-| Znak | Popis |
-|------|-------|
-| **Lexikální váhání** | Při klíčových slovech subjekt se zastaví, hledá náhradu |
-| **Hyperhedging** | "Tomu, čemu se asi říká…", "v jistém smyslu, ne úplně, ale…" |
-| **Selektivní afázie** | V některých oblastech subjekt mluví plynule, v jiných se rozpadá |
-| **Sémantická úzkost** | Strach z nesprávného užití zatemní celou výpověď |
+**Pro zasaženého:** u každého důležitého slova se ptejte: co konkrétně by musel jiný člověk umět rozlišit, aby mi rozuměl? Veďte si deník klíčových pojmů s vlastní definicí a konkrétními příklady a sledujte, zda se mění ([cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md), [hluboké čtení](@/kompendium/self-defense-guides/35-deep-reading-practice.md)).
 
-## Detekční markery
+**Pro odborníka:** pracujte s konkrétními příklady a obyčejným jazykem; sledujte [sémantickou erozi](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md). Zjistěte, zda skupina, v níž člověk žije, soustavně redefinuje běžná slova.
 
-| Marker | Indikuje |
-|--------|----------|
-| Subjekt používá v jedné větě **opisný výraz** místo standardního slova | Sémantickou erozi referenta |
-| Manipulátor opakovaně koriguje subjektovo užití slov ("ne tak doslova") | Aktivní přesycení pole |
-| Subjekt se vyhýbá **doménám**, které dříve bezproblémově artikuloval | Doménově lokalizovanou afázii |
-| Frekvence **hyperhedgingu** v audiu/textu narůstá | Stupňující se imploze |
+## Kdy a jak eskalovat
 
-## Neutralizace
+Eskalujte, pokud se k rozpadu řeči přidávají halucinace, bludy nebo dezorganizace chování: neurologické a psychiatrické vyšetření má přednost ([EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md), [psychotický zlom](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)). Při kontextu uzavřené skupiny postupujte podle [protokolu kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md).
 
-- **Lexikální restituce** — opakovaná praxe užívání problematických slov v jednoduchých, jednoznačných kontextech mimo manipulátorův dosah.
-- **Slovníková kotva** — návrat ke konvenčnímu denotátu skrze normativní reference (slovník, korpus, komunita).
-- **Externí komunikační audit** — pozorovatel registruje doménově lokalizovaná stažení a poskytuje subjektu zpětnou vazbu.
+## S čím ji nezaměnit
 
-## Klinický kontext
+- **Polysémie a odborná mnohoznačnost:** rozsah významů je strukturovaný a kontextem rozlišitelný.
+- **Afázie:** neurologická porucha řeči ([sémantická afázie](@/glossary/semanticka-afazie.md)), ne vnější působení.
+- **Formální myšlenková porucha:** symptom psychózy.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/quick-reference/qr-ea-1-1-3.md):** zatemňuje jednotlivé termíny, nerozkládá celé sémantické pole.
 
-Sémantická imploze se vyskytuje typicky v dlouhodobém abusivním partnerství (slova „láska“, „péče“, „férový“ jsou systematicky přesycována a invertována), v sektách s gnostickým výkladem terminologie („svoboda“ znamená podřízení), ve vysoce ironickém intelektuálním prostředí, kde mizí distinkce mezi módy užití, a v některých formách korporátního newspeaku. Léčba vyžaduje **lingvistickou rehabilitaci** — explicitní cvičení v normativním užívání slov v bezpečném prostředí, často 6–18 měsíců.
+**Zdroj:** karta shrnuje plnou stránku [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
 
-## Cross-linky
+## Související
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
-- **Detailní článek**: [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)
-- **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md), [EA-5.1.5 Logická diskontinuita](@/kompendium/quick-reference/qr-ea-5-1-5.md), [EA-5.1.17 Tautologická imploze](@/kompendium/quick-reference/qr-ea-5-1-17.md)
-- **Glossary**: [Sémantická afázie](@/glossary/semanticka-afazie.md), [Konceptuální anihilace](@/glossary/konceptualni-anihilace.md), [Newspeak](@/glossary/newspeak.md), [Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Lingvistická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Platforma**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine sémantická vrstva" /> }}, [Glossary canonical](@/glossary/_index.md)
+- **Technika a kapitola:** [plná stránka EA-5.1.4](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md) – mechanismus, případy a neutralizace; [kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) – [epistemická singularita](@/glossary/epistemicka-singularita.md).
+- **Glosář:** [newspeak](@/glossary/newspeak.md) – literární model řízeného vyprázdnění slov.
+- **Sousední karty:** [EA-5.1.5 Logická diskontinuita](@/kompendium/quick-reference/qr-ea-5-1-5.md) – rozpad usuzování; [EA-5.1.6 Kategorická transgrese](@/kompendium/quick-reference/qr-ea-5-1-6.md) – rozpad kategorií; [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md) – rozpad nosných pojmů.
 
 ---
 

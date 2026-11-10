@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-5.2.2 Transcendentalni iluze"
-description = "Rychla referencni karta pro EA-5.2.2 (metatranscendentalni anihilace)."
+title = "Rychlá karta EA-5.2.2: Transcendentální iluze"
+description = "Transcendentální iluze v kostce: jak poznat inscenovaný prožitek „vhledu pod povrch světa“, který je jen obsahem běžné zkušenosti."
 weight = 20002
 
 [taxonomies]
@@ -16,60 +16,49 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.2.2 Transcendentální iluze
+# EA-5.2.2 Transcendentální iluze – karta v kostce
 
-> WARNING: Přístupová úroveň L4. Pouze pro kvalifikované výzkumníky pod IRB.
+**Oblast:** [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md), skupina 5.2 · **Plná stránka:** [EA-5.2.2 Transcendentální iluze](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md)
 
-**Doména**: Metatranscendentální anihilace — indukce přesvědčení, že subjekt „viděl“ něco za hranicí možného poznání (Kantovo *Ding-an-sich*, „absolutní pravdu“).
+> Karta vyšší přístupové úrovně slouží k rozpoznání a ochraně; popis je strukturní, ne návod.
 
-## Definice
+## Co to je
 
-**Transcendentální iluze** je technika, jež v subjektu vyvolá **strukturální [kategoriální omyl](@/glossary/category-mistake.md)**: dojem, že přímo „viděl“ obsah, který je dle samé Kantovy transcendentální analytiky **principálně nepoznatelný** (věc o sobě, „čistý“ obsah mimo formy smyslovosti, „absolutní pravdu“ mimo kategorie rozumu). Tato iluze není psychotická epizoda v klasickém smyslu — subjekt zůstává funkční v běžném životě — ale **strukturní**: identita se buduje kolem „viděného“, které není komunikovatelné v žádném jazyce bez metaforické deflace, přitom subjekt trvá na jeho **literalitě**. Komunita kolem subjekta validuje obsah („ano, on viděl, my taky“), čímž se iluze stabilizuje sociální sítí. Klinicky důležitá distinkce od skutečné psychózy: u transcendentální iluze zůstává *run-time* funkčnost intaktní.
+Navozuje se falešný prožitek překročení mezí poznání: člověk věří, že „viděl, jak svět skutečně funguje pod povrchem“, ve skutečnosti byl umístěn do inscenované pseudotranscendence, která je jen dalším obsahem běžné zkušenosti. Na prožitek se pak váže identita a komunita „zasvěcených“.
 
-## Operační modus (5 kroků)
+## Jak ji poznat
 
-1. **Indukce mimo-kategoriálního prožitku** — kontemplativní, rituální nebo psychedelická praxe, jež produkuje afektivně přesvědčivý zážitek.
-2. **Stabilizace iluze rituální praxí** — opakování zážitku v komunitním rámci.
-3. **Komunitní validace** — sociální skupina potvrzuje obsah jako sdílenou realitu.
-4. **Konstrukce identity okolo „viděného“** — subjekt se stává „tím, kdo viděl“.
-5. **Imunita k argumentaci** — racionální argument je rámován jako „z této strany hranice“.
+- Odkazuje na zážitek jako na zdroj jistoty, ale nedokáže popsat jeho strukturu.
+- Komunita je uspořádána podle „úrovní zasvěcení“.
+- Kritiku zážitku vnímá jako útok na sebe.
+- Používá specifický slovník skupiny.
+- Pocit pravdy, kterou nelze vyslovit běžným jazykem; nízká tolerance k „obyčejnému“ diskurzu.
+- Běžná měřítka „platí jen na úrovni, kterou jsme překročili“.
 
-## Fenomenologické znaky
+## První bezpečná reakce
 
-| Znak | Popis |
-|------|-------|
-| **Mimo-kategoriální obsah** | "Vidím všechny časy najednou", "jsem mimo prostor" |
-| **Strukturní jistota bez artikulace** | Obsah je nesdělitelný, ale absolutně jistý |
-| **Identitní ukotvení** | "Já jsem ten, kdo viděl" |
-| **Sociální ukotvení** | Komunita validuje obsah jako sdílenou pravdu |
+**Pro zasaženého:** u každého silného zážitku oddělte, co cítíte, od toho, co víte – intenzita prožitku sama není důkazem o struktuře světa. Proberte zážitek s lidmi mimo komunitu, ideálně s odborníkem na psychologii mimořádných prožitků ([metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md), [zapojení do komunity](@/kompendium/self-defense-guides/28-community-engagement.md)).
 
-## Detekční markery
+**Pro odborníka:** respektujte prožitek, zkoumejte rámec, který mu dal výklad, a vazbu identity na skupinu; frontální vyvracení prohloubí obranu.
 
-| Marker | Indikuje |
-|--------|----------|
-| Reportované obsahy **logicky předpokládají** operace mimo Kantovy kategorie | Strukturní omyl |
-| Obsahy **nejsou vyjádřitelné** v žádném jazyce bez metafor; subjekt trvá na literalitě | Transcendentální iluzi |
-| Sociální skupina má normu **nezpochybňování** těchto reportů | Stabilizační síť |
-| **Run-time funkčnost** je zachována (na rozdíl od psychózy) | Kategoriální (ne klinickou) povahu |
+## Kdy a jak eskalovat
 
-## Neutralizace
+Eskalujte při izolaci od blízkých, finančním vykořisťování nebo psychotických a manických příznacích: [aktivní kult](@/kompendium/emergency-protocols/27-active-cult-emergency.md), [EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md); po odchodu [protokol kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md).
 
-- **Diferenciální diagnostika** — psychiatr odlišuje transcendentální iluzi od skutečné psychotické zkušenosti; rozdíl je v zachování funkčnosti.
-- **Strukturální filosofická konfrontace** — Kantova kritika, která uznává transcendentální akt poznání bez naturalistické iluze.
-- **Pragmatická redukce** — co konkrétně se na praktickém světě subjektu změnilo? Pokud nic, byla iluze; pokud něco, vyžaduje to operacionální popis.
+## S čím ji nezaměnit
 
-## Klinický kontext
+- **Transcendentální v Kantově smyslu:** zkoumání [apriorních](@/glossary/apriori.md) podmínek poznání, ne zážitek „za ním“.
+- **Autentický [mystický prožitek](@/glossary/mysticky-prozitek.md):** bez hierarchie zasvěcení a bez imunity vůči kritice.
+- **Psychedelický zážitek s integrací:** vykládaný otevřeně, ne v předem připraveném rámci.
+- **[EA-5.1.19 Kvazi-mystická anihilace](@/kompendium/quick-reference/qr-ea-5-1-19.md):** blízká struktura s jiným cílem (singularita).
 
-Transcendentální iluze se vyskytuje v ezoterických skupinách s rituální iniciací, v psychedelických komunitách bez integrativního rámce, v některých formách kontemplativní tradice na Západě (oddělené od kulturně-doktrinálního pozadí) a v některých případech „duchovní krize“ v psychoterapii. **Klasický případ**: adept v esoterické skupině reportuje „vystoupení mimo čas — viděl jsem, jak jsou všechny mé inkarnace propojené“. Při klinickém rozhovoru je orientován v běžném čase, plánuje budoucí akce. Tvrzení o „mimo-časovosti“ funguje jako identitní fakt, ne jako kognitivní stav. Léčba: filosoficky kvalifikovaná psychoterapie, postupné rozlišení mezi *prožitkem* a jeho *interpretací*.
+**Zdroj:** karta shrnuje plnou stránku [EA-5.2.2 Transcendentální iluze](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
 
-## Cross-linky
+## Související
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)
-- **Detailní článek**: [EA-5.2.2 Transcendentální iluze](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md)
-- **Sourozenecké techniky**: [EA-5.2.1 Meta-epistemická inverze](@/kompendium/quick-reference/qr-ea-5-2-1.md), [EA-5.2.3 Noumenální redukce](@/kompendium/quick-reference/qr-ea-5-2-3.md), [EA-5.1.14 Iluzorní transcendence](@/kompendium/quick-reference/qr-ea-5-1-14.md)
-- **Glossary**: [Ding-an-sich](@/glossary/ding-an-sich.md), [Kantovy kategorie](@/glossary/kantovy-kategorie.md), [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Fenomenologická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md), [Multidisciplinární tým](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-- **Platforma**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine kategoriální validace" /> }}, [NABLA Infinity transcendentální vrstvy](@/glossary/nabla-infinity.md)
+- **Technika a kapitola:** [plná stránka EA-5.2.2](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md) – mechanismus, případy a neutralizace; [kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) – metatranscendentální anihilace.
+- **Glosář:** [charisma](@/glossary/charisma.md) – autorita, která zážitek rámuje.
+- **Sousední karty:** [EA-5.2.1 Meta-epistemická inverze](@/kompendium/quick-reference/qr-ea-5-2-1.md) – převrácená měřítka; [EA-5.1.14 Iluzorní transcendence](@/kompendium/quick-reference/qr-ea-5-1-14.md) – individuální obdoba.
 
 ---
 

@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.3.2 Context collapse"
-description = "Rychla referencni karta pro EA-2.3.2 (delegitimizace)."
+title = "Rychlá karta EA-2.3.2: Kolaps kontextu"
+description = "Kolaps kontextu v kostce: jak poznat výrok záměrně přenesený k publiku s jinými normami a vyložený podle nich, a jak reagovat."
 weight = 30232
 
 [taxonomies]
@@ -16,39 +16,48 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.3.2 Context collapse
+# EA-2.3.2 Kolaps kontextu – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.3 Mediální [delegitimizace](@/glossary/delegitimizace.md) · **Plná stránka:** [EA-2.3.2 Kolaps kontextu](@/kompendium/techniques/ea-2-3-2-context-collapse.md)
 
-## Operační modus (3 kroky)
+## Co to je
 
-1. Přenos výroku z původního kontextu (specifická konference, odborný kruh, žánr ironické nadsázky) do publika, které tyto kódy nesdílí
-2. Publikum interpretuje výrok podle svých standardů — odborný hovor zní arrogantně, ironie zní vážně, technické zjednodušení zní falešně
-3. Subjekt se nemůže odvolat na „neporozuměl jste mě“, protože by působilo jako uhýbání odpovědnosti
+*Context collapse* (Marwick a boyd, 2011) označuje slévání publik, která by si člověk jinak držel oddělená. Jako technika delegitimizace jde o záměrný přenos výroku z prostředí, pro které byl určen (odborný seminář, uzavřená skupina, satira, jiná doba), do prostředí s jinými normami, kde se vyloží podle nich.
 
-## Detekční markery (3 nejvýraznější)
+## Jak ji poznat
 
-- Reakce v novém publiku je drasticky odlišná od reakce v původním — stejný text, opačná interpretace
-- Citující strana ignoruje nebo aktivně skrývá meta-informace o žánru / kontextu / publiku
-- Vznik kanonické „kontroverzní citace“ osamocené, bez doprovodu zdrojové diskuze
+- Výrok pochází z uzavřeného nebo odborného prostředí.
+- Nové publikum ignoruje žánr: ironii, satiru, hypotézu, profesní humor.
+- Starý výrok se čte podle dnešních měřítek bez zmínky o době.
+- Šíří ho účty, které mluvčího sledují kriticky.
+- Odborníci z původního prostředí výklad nesdílejí.
+- Výrok často přenesl někdo z původního publika; postižený prožívá zradu a přestává mluvit otevřeně i v odborném kruhu.
 
-## Neutralizační strategie (3 nejúčinnější)
+## První bezpečná reakce
 
-- Veřejné komunikace s vědomým „context warning“ — žánr, publikum, předpoklady před každým citačně-rizikovým výrokem
-- Aktivní rekonstrukce kontextu při napadení — link na celou přednášku, dotazování publika, sběr svědectví o atmosféře
-- Strukturální oddělení odborných a veřejných formátů — vědomí, že přednáška na konferenci nemá být klipovaná pro Twitter
+**Pro zasaženého:** vysvětlete kontext jednou, stručně a s doklady o původním prostředí a žánru, a požádejte svědky z původního publika, aby ho potvrdili. Do budoucna vědomě oddělujte publika (nastavení soukromí, oddělené účty) ([správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md), [mobilizace podpory](@/kompendium/self-defense-guides/30-support-mobilization.md)).
 
-## Příklad
+**Pro odborníka:** retrospektivní strach („co ještě může vyplavat“) je typický a může přejít v sebecenzuru; pracujte s ním. Instituci doporučte nechat se poradit odborníky z původního prostředí.
 
-Lékař na odborném semináři pro kolegy s tíživým humorem řekne „tak prostě nejdřív zabijeme 5 % pacientů“. Všichni v sále vědí, že je to ironický komentář ke statistickému riziku procedury. Přepis se dostane k laickému publiku — během 24 hodin je vyloučen z odborné společnosti za „vyhrožování pacientům“.
+## Kdy a jak eskalovat
 
-## Cross-linky
+Eskalujte, když přenos vedl ke kampani, výhrůžkám nebo k pracovní sankci: zajistěte původní kontext a důkazy ([elektronické důkazy](@/kompendium/forensic-legal/35-electronic-evidence-EA.md)), instituce má postupovat podle [komunikační politiky](@/kompendium/organizational-defense/23-communication-policy.md) a [reakce na incident](@/kompendium/organizational-defense/31-incident-response-EA.md). Únik z uzavřeného prostředí může mít i právní rozměr ochrany soukromí.
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-3-2-context-collapse/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## S čím ji nezaměnit
+
+- **Strukturní kolaps bez úmyslu:** vzniká vlastnostmi platforem; technikou se stává záměrným přenosem a nepřátelským výkladem.
+- **Oprávněné veřejné zkoumání:** výrok veřejné osoby ukazuje skutečný rozpor s jejím veřejným jednáním.
+- **[EA-2.3.1 Vytržený klip](@/kompendium/quick-reference/qr-ea-2-3-1.md):** mění rámec výřezem; kolaps kontextu mění publikum.
+- **[EA-2.3.8 Epistemický doxxing](@/kompendium/quick-reference/qr-ea-2-3-8.md):** zveřejňuje osobní údaje, ne výroky.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.3.2 Kolaps kontextu](@/kompendium/techniques/ea-2-3-2-context-collapse.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.3.2](@/kompendium/techniques/ea-2-3-2-context-collapse.md) – původ pojmu, mechanismus a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře delegitimizace.
+- **Glosář:** [hermeneutický kruh](@/glossary/hermeneuticky-kruh.md) – proč smysl závisí na kontextu.
+- **Sousední karty:** [EA-2.3.3 Těžba citátů](@/kompendium/quick-reference/qr-ea-2-3-3.md) – výběr vět; [EA-2.3.10 Virální zkreslení výroku](@/kompendium/quick-reference/qr-ea-2-3-10.md) – co se s přeneseným výrokem děje dál.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-5.1.3 Reflexivni paradoxie"
-description = "Rychla referencni karta pro ultramarine techniku Reflexivni paradoxie (epistemicka singularita)."
+title = "Rychlá karta EA-5.1.3: Reflexivní paradoxie"
+description = "Reflexivní paradoxie v kostce: jak poznat paradoxy vložené do sebereflexe, které vedou k metakognitivní paralýze, a jak reagovat."
 weight = 10003
 
 [taxonomies]
@@ -16,60 +16,49 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.1.3 Reflexivní paradoxie
+# EA-5.1.3 Reflexivní paradoxie – karta v kostce
 
-> WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
+**Oblast:** [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), skupina 5.1 · **Plná stránka:** [EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)
 
-**Doména**: [Epistemická singularita](@/glossary/epistemicka-singularita.md) — paralýza schopnosti reflektovat vlastní situaci skrze paradoxní strukturu metaúrovní.
+> Přístupová úroveň L3. Karta slouží k rozpoznání a ochraně; popis je strukturní, ne návod.
 
-## Definice
+## Co to je
 
-**Reflexivní paradoxie** vytváří v subjektově reflexivní kapacitě **paradoxní smyčky**, v nichž každý pokus o reflexi situace samé spouští novou úroveň reflexe, která je zase součástí situace. Manipulátor zarámuje vztah či diskurz tak, že **pokus uniknout je součástí toho, před čím se uniká**: rozpoznáním manipulace se subjekt stává „paranoidním“, odmítnutím rozpoznání zůstává v manipulaci. Subjekt prožívá *epistemický klín*, ze kterého neexistuje pohyb bez ztráty. Strukturálně příbuzné Russelově paradoxu, Liarovu paradoxu a Batesonovu **double bind**, ale operující na úrovni [metakognice](@/glossary/metakognice.md) samé.
+Do sebereflexe člověka jsou vneseny paradoxní struktury, takže každý pokus přemýšlet o vlastním myšlení končí rozporem nebo nekonečným regresem. Na rozdíl od nadměrné introspekce, která myšlení jen zpomaluje, reflexivní paradoxie metakognici strukturálně blokuje a vede k paralýze.
 
-## Operační modus (5 kroků)
+## Jak ji poznat
 
-1. **Etablování interpretačního rámce s vestavěnou reflexí** — manipulátor instaluje výklad, který obsahuje preventivní vyvrácení každé možné námitky („kdokoli toto zpochybní, jen potvrzuje, že nepochopil“).
-2. **Performativní past** — každé subjektovo jednání lze interpretovat dvěma vzájemně se vylučujícími způsoby, oba jsou patologické.
-3. **Meta-rovina jako re-vstup** — pokus reflektovat past je sám interpretován jako důkaz pasti, do níž subjekt spadl.
-4. **Časové uzavření** — paradox je strukturován tak, že subjektovy minulé, současné i budoucí akce jsou retroaktivně reinterpretovatelné v jeho rámci.
-5. **Reflexivní vyhoření** — subjekt přestává reflexi vůbec aktivovat, přijímá manipulátorův rámec jako „úsporné řešení“.
+- Na přímou otázku „co si o tom myslíš?“ odpovídá člověk meta-otázkou.
+- Rozhodnutí odkládá s tím, že „ještě potřebuje reflektovat“.
+- Hledá vnější arbitráž i u triviálních otázek.
+- Návrh rozhodnout se „intuitivně“ vyvolá akutní úzkost.
+- Paradoxy cituje jako důvody nečinnosti.
+- Popisuje kognitivní zamrznutí a závrať „jako mezi dvěma zrcadly“.
 
-## Fenomenologické znaky
+## První bezpečná reakce
 
-| Znak | Popis |
-|------|-------|
-| **Smyčková nemožnost rozhodnutí** | Každá volba se zdá být současně správná i špatná |
-| **Reflexivní únava** | Pocit, že "myslet o tom déle už jen zhoršuje situaci" |
-| **Performativní paralýza** | Neschopnost jednat, protože každé jednání je předem interpretováno |
-| **Strukturální pocit pasti** | Vnímání situace jako labyrintu bez východu |
+**Pro zasaženého:** oddělte úrovně úsudku: rozhodnutí o světě smíte udělat, aniž byste vyřešili, zda můžete důvěřovat svému úsudku. „Nemusím rozřešit rekurzi, abych dnes večer rozhodl.“ Praktické volby výslovně vyčleňte z reflexe ([metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md)).
 
-## Detekční markery
+**Pro odborníka:** neprohlubujte reflexi; podporujte malá operativní rozhodnutí a jejich dokončení. Sledujte, kdo se nabízí jako jediný arbitr – závislost na vnější arbitráži je jádrem vzorce.
 
-| Marker | Indikuje |
-|--------|----------|
-| Manipulátorův výklad obsahuje **anticipaci námitek** jako součást vlastního ospravedlnění | Strukturální paradoxnost |
-| Subjekt po několika měsících reportuje **redukci reflexivní aktivity** | Reflexivní vyhoření |
-| Subjektovo jednání je interpretováno jako "důkaz" obou opačných tezí | Performativní past |
-| Při návrhu **opuštění rámce** subjekt prožívá panickou úzkost | Reflexivní uzavření |
+## Kdy a jak eskalovat
 
-## Neutralizace
+Eskalujte při úplné neschopnosti rozhodovat, suicidálních myšlenkách nebo rozpadu denního fungování: [protokol akutní kognitivní paralýzy](@/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md), [suicidální riziko](@/kompendium/emergency-protocols/2-suicide-risk-EA.md) a dlouhodobě [metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md) se [supervizí](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 
-- **Externí rámec** — supervizor mimo paradoxní strukturu, který nepřijímá vnitřní logiku rámce, poskytuje archimédovský bod.
-- **Pragmatický exit** — fyzická separace od kontextu, kde paradox operuje, často důležitější než kognitivní rozbor.
-- **Strukturální analýza místo obsahové debaty** — namísto polemiky s manipulátorovými tezemi pojmenovat **formu** pasti samé.
+## S čím ji nezaměnit
 
-## Klinický kontext
+- **Filozofická práce s paradoxy:** v teorii, bez vlivu na praktické jednání.
+- **Obsedantně-kompulzivní porucha:** vtíravé pochybnosti napříč životem, bez vnějšího zdroje a arbitra.
+- **[EA-5.1.13 Hyperreflexivita](@/kompendium/quick-reference/qr-ea-5-1-13.md):** nadměrné sebepozorování, které se nemusí uzavírat do paradoxu.
+- **[EA-5.1.21 Sebe-referenční paradox](@/kompendium/quick-reference/qr-ea-5-1-21.md):** paradox v obsahu výroků, ne v aktu reflexe.
 
-Reflexivní paradoxie se objevuje ve vysoce kohezních sektách s elaborate doktrínou, v některých formách hyperintelektuálního gaslightingu, v dlouhodobých vztazích s narcistickou strukturou (kde každý projev nezávislosti je interpretován jako „potvrzení“ partnerova hodnocení) a v institucionálních kontextech, kde stížnost na proces je sama předmětem procesu. Léčba vyžaduje strukturální distanci — terapeut musí explicitně **odmítnout** vnitřní logiku rámce, jinak paradox kolonizuje terapeutický vztah.
+**Zdroj:** karta shrnuje plnou stránku [EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
 
-## Cross-linky
+## Související
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
-- **Detailní článek**: [EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)
-- **Sourozenecké techniky**: [EA-5.1.1 Epistemická kanibalizace](@/kompendium/quick-reference/qr-ea-5-1-1.md), [EA-5.1.13 Hyperreflexivita](@/kompendium/quick-reference/qr-ea-5-1-13.md), [EA-5.1.21 Sebereferenční paradox](@/kompendium/quick-reference/qr-ea-5-1-21.md)
-- **Glossary**: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Double bind](@/glossary/double-bind.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Russell paradox](@/glossary/russell-paradox.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Rekonstrukce reflexe](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Platforma**: [NABLA Infinity reflexivní vrstva](@/glossary/nabla-infinity.md), [Color Teams red-team protokol](@/glossary/color-teams.md)
+- **Technika a kapitola:** [plná stránka EA-5.1.3](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md) – mechanismus, případy a neutralizace; [kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) – [epistemická singularita](@/glossary/epistemicka-singularita.md).
+- **Glosář:** [kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) – terminální stav; [rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md) – klinický obraz.
+- **Sousední karty:** [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md) – vyprázdněné pojmy jako palivo paradoxů; [EA-5.1.16 Inferenční paralýza](@/kompendium/quick-reference/qr-ea-5-1-16.md) – zablokované usuzování.
 
 ---
 

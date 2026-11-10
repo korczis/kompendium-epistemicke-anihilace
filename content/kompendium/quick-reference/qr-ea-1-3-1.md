@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-1.3.1 Imunizace proti falsifikaci"
-description = "Rychlá referenční karta — Modifikace teorie imunizující ji vůči kontradiktorní evidenci."
+title = "Rychlá karta EA-1.3.1: Imunizace proti falsifikaci"
+description = "Imunizace proti falsifikaci v kostce: jak poznat teorii, která se dodatečnými výjimkami stala nevyvratitelnou, a jak reagovat."
 weight = 131
 
 [taxonomies]
@@ -14,39 +14,48 @@ ea_code = "EA-1.3.1"
 toc = false
 +++
 
-# QR Card — EA-1.3.1 Imunizace proti falsifikaci
+# EA-1.3.1 Imunizace proti falsifikaci – karta v kostce
 
-**Definice (1 věta)**: Modifikace teorie imunizující ji vůči kontradiktorní evidenci.
+**Oblast:** [3.1 Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md), podskupina 1.3 Narušení revize a [falsifikace](@/glossary/falsifikace.md) · **Plná stránka:** [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
 
-## Operační modus (3 kroky)
+## Co to je
 
-1. Konfrontace teorie s falsifikační evidencí
-2. Ad-hoc rozšíření teorie (auxiliary hypotézy, výjimky, redefinice termínů), které „vysvětlí“ kontradiktorní data, ale samo o sobě není testovatelné
-3. Rétorický posun — předikce, která selhala, je reklasifikována jako „ne pravá predikce“, „speciální případ“ nebo důkaz hloubky teorie („tvrdíš to, ale jen proto, že ti to teorie nedovoluje pochopit“)
+Teorie nebo argument se upravuje dodatečnými výjimkami, pomocnými hypotézami a pružnými definicemi tak, že pohltí každý protichůdný důkaz, a přitom si zachovává zdání testovatelnosti. Pojem vychází z Popperovy kritiky teorií, které vysvětlí cokoli ([falsifikovatelnost](@/glossary/falsifikovatelnost.md), [popperianismus](@/glossary/popperianismus.md)).
 
-## Detekční markery (3 nejvýraznější)
+## Jak ji poznat
 
-- Test „Co by Vás přesvědčilo, že se mýlíte?“ — odpověď „nic“ nebo nekonkrétní mlhavost je definitivní známka
-- Teorie se s každou kontradikcí zvětšuje (epicykly), nikdy nezužuje set falsifikačních scénářů
-- Kontradiktorní evidence je systematicky reklasifikována na podporující („to právě potvrzuje, že…“) bez auditního trail
+- Chybí výslovné kritérium, co by teorii vyvrátilo; na dotaz přijde vyhýbavá odpověď.
+- Výjimky se zavádějí až potom, co přijde nepříjemný výsledek, nikdy předem.
+- Definice se mění v reakci na protichůdná data.
+- Teorie „vysvětluje všechno“ a žádný představitelný výsledek s ní není v rozporu.
+- Hromadí se zvláštní případy, které se nikdy nesjednotí.
+- Zasažený má pocit pohyblivého cíle: kdykoli teorii pochopí, posune se.
 
-## Neutralizační strategie (3 nejúčinnější)
+## První bezpečná reakce
 
-- Pre-registrace predikcí — před experimentem písemně zafixovat, jaký výsledek by teorii falsifikoval; sankce za posthoc úpravu
-- Bayesovská bookkeeping — po každé evidenci zaznamenat změnu confidence; trvale rostoucí confidence při mixed evidence indikuje imunizaci
-- Externí validátor — třetí strana mimo loyalitní strukturu posuzuje, zda modifikace zachovávají testovatelnost
+**Pro zasaženého:** zeptejte se předem: „Jaký konkrétní výsledek by tuto teorii vyvrátil?“ Odpověď si zapište s datem a u každé pozdější úpravy ověřte, zda byla ohlášena dřív, než přišla data ([falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md)).
 
-## Příklad
+**Pro odborníka:** odlište obranu teorie od obrany identity. Sledujte [nefalsifikovatelná tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md) a opatrně ověřte, zda teorie neslouží jako uzavřený výkladový rámec skupiny.
 
-Trader prohlásí „tato strategie generuje 30 % ročně“. Po roce ztráty argumentuje „ale toto byl atypický rok / chybělo mi 2 % expozice / jen jsem nekonal podle pravidla 7“. Po pěti letech ztrát se ze „strategie“ stalo systém s 47 výjimkami, který neselhává nikdy — protože nikdy nic netestuje.
+## Kdy a jak eskalovat
 
-## Cross-linky
+Eskalujte, když imunizovaný rámec slouží k vysvětlení každé kritiky jako důkazu proti kritikovi („pochybuješ, protože jsi ještě nedozrál“): to je znak uzavřené doktríny a [skupiny s vysokou mírou kontroly](@/glossary/high-control-group.md). Postupujte podle [diagnostických indikátorů](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md); při odchodu ze skupiny podle [protokolu kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md).
 
-- **Detailní článek**: [/kompendium/techniques/ea-1-3-1-Imunizace-proti-falsifikaci](@/kompendium/techniques/_index.md)
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
-- **Glossary**: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Platformové refs**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}, [NABLA Infinity](@/glossary/nabla-infinity.md)
+## S čím ji nezaměnit
+
+- **Legitimní úprava teorie:** nová pomocná hypotéza je ohlášena předem, přináší nové testovatelné predikce a obor ji může ověřit (srov. [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md)).
+- **Mladá teorie bez dat:** zatím netestovaná, ne netestovatelná.
+- **[Motte-and-bailey](@/glossary/motte-and-bailey.md):** ústup na obhajitelnou pozici, ne pohlcení důkazu.
+- **[EA-1.3.2 Strategická reinterpretace](@/kompendium/quick-reference/qr-ea-1-3-2.md):** nepřidává výjimky, ale překládá smysl samotných dat.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – mechanismus, kontexty a neutralizace; [kapitola 3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md) – akademické techniky.
+- **Glosář:** [falsifikovatelnost](@/glossary/falsifikovatelnost.md) – kritérium, které imunizace obchází; [pseudověda](@/glossary/pseudoscience.md) – typické prostředí.
+- **Sousední karty:** [EA-1.3.2 Strategická reinterpretace](@/kompendium/quick-reference/qr-ea-1-3-2.md) – sourozenecký mechanismus; [EA-1.3.3 Tematická diverze](@/kompendium/quick-reference/qr-ea-1-3-3.md) – únik od konfrontace; [EA-1.2.3 Iluzorní komplexita](@/kompendium/quick-reference/qr-ea-1-2-3.md) – zásoba výjimek.
 
 ---
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

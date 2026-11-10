@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-5.1.1 Epistemicka kanibalizace"
-description = "Rychla referencni karta pro ultramarine techniku Epistemicka kanibalizace (epistemicka singularita)."
+title = "Rychlá karta EA-5.1.1: Epistemická kanibalizace"
+description = "Epistemická kanibalizace v kostce: jak poznat pohlcování a přisvojování myšlenek člověka uvnitř dlouhého vztahu, první reakce a eskalace."
 weight = 10001
 
 [taxonomies]
@@ -16,60 +16,49 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.1.1 Epistemická kanibalizace
+# EA-5.1.1 Epistemická kanibalizace – karta v kostce
 
-> WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled. Detailní operační rámec je v plném článku.
+**Oblast:** [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), skupina 5.1 · **Plná stránka:** [EA-5.1.1 Epistemická kanibalizace](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)
 
-**Doména**: [Epistemická singularita](@/glossary/epistemicka-singularita.md) — destrukce schopnosti rozlišit vlastní epistemickou produkci od epistemické produkce manipulátora.
+> Přístupová úroveň L3. Karta slouží k rozpoznání a ochraně; popis je strukturní, ne návod.
 
-## Definice
+## Co to je
 
-**Epistemická kanibalizace** je ultramární technika, při níž manipulátor systematicky **pohlcuje epistemické výstupy subjektu** (argumenty, vhledy, formulace, syntézy) a v reframovaném tvaru je subjektu i třetím stranám prezentuje jako vlastní produkty. Subjekt postupně přestává rozeznávat **autorství vlastního myšlení**, internalizuje pozici manipulátora jako jediného legitimního zdroje idejí a v terminálním stadiu prožívá **epistemický autoplagiát** — vlastní starou myšlenku cituje jako cizí. Na rozdíl od běžného plagiátu operuje technika **uvnitř dlouhodobého vztahu** a pracuje s fenomenologií autorství samé.
+Uvnitř dlouhodobého asymetrického vztahu (supervize, terapie, guru a adept) jsou argumenty, vhledy a formulace člověka soustavně pohlcovány a v přerámované podobě mu vraceny jako myšlenky druhé strany. Člověk postupně přestává rozpoznávat, co je jeho vlastní myšlenkový výkon, a vlastní kapacitu vnímá jen jako pasivní příjem.
 
-## Operační modus (5 kroků)
+## Jak ji poznat
 
-1. **Etablování asymetrické intelektuální blízkosti** — mentorský, terapeutický nebo guru-adept vztah jako „bezpečný prostor“ pro sdílení rozpracovaných idejí.
-2. **Tichá akumulace produkce** — systematický, často implicitní záznam subjektových formulací, charakteristických metafor a struktur argumentů.
-3. **Reframování a reatribuce** — po temporálním odstupu prezentace subjektovy produkce v upraveném tvaru jako vhled manipulátora; subjekt rozeznává důvěrnost, ale nedokáže lokalizovat původ.
-4. **Kapacitní devalvace zdroje** — paralelní označování subjektovy rané produkce za „nezralou“ či „intuitivní bez rigoru“, což legitimizuje pohlcení jako „dotvoření“.
-5. **Konsolidace epistemické závislosti** — subjekt přestává důvěřovat vlastním vhledům bez validace manipulátorem a aktivně reprodukuje recyklované verze vlastního myšlení.
+- Člověk cituje „originální“ myšlenky druhé strany, které okolí dříve slyšelo od něj.
+- Publikovaný korpus druhé strany obsahuje formulace typické pro něj.
+- Vlastní starší práci znehodnocuje („to bylo nezralé“) vůči pozici, která z ní vychází.
+- Ve volném rozhovoru nedokáže rozlišit vlastní výrok od výroku druhé strany.
+- Při čtení cizího textu má „déjà vu autorství“ bez schopnosti určit původ.
+- Návrh intelektuálního odstupu vyvolává paniku.
 
-## Fenomenologické znaky
+## První bezpečná reakce
 
-| Znak | Popis |
-|------|-------|
-| **Déjà vu autorství** | Při čtení manipulátorova textu pocit důvěrnosti bez schopnosti lokalizovat původ ideje |
-| **Erozivní nejistota o autorství** | Otázka "říkal/a jsem to já první, nebo on/ona?" eskaluje u klíčových idejí |
-| **Citační inverze** | Subjekt cituje manipulátora jako zdroj idejí, které sám/sama formuloval/a |
-| **Devalvace vlastní rané produkce** | Aktivní přepisování paměti — staré poznámky působí jako "primitivní pokusy" |
+**Pro zasaženého:** začněte vést datovaný, externě ověřitelný záznam vlastních myšlenek (deník, e-mail sám sobě, preprint) a klíčové nápady sdílejte s nezávislými lidmi mimo vztah jako svědky autorství ([paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md)).
 
-## Detekční markery (pohled pozorovatele)
+**Pro odborníka:** rekonstruujte autorství z dokumentů, ne z paměti, a nespěchejte s konfrontací vztahu. Odstup od vztahu je i diagnostický: obnoví-li se autorská jistota, kapacita zůstala zachována.
 
-| Marker | Indikuje |
-|--------|----------|
-| Manipulátorův korpus obsahuje formulace **lingvisticky charakteristické** pro subjekta | Reframovaná pohlcení |
-| Subjektova produkce klesá, manipulátorova v téže oblasti roste | Strukturální transfer autorství |
-| Subjekt **nedokáže** ve volné konverzaci rozlišit vlastní výrok od manipulátorova | Erozi autorské paměti |
-| Panika při návrhu intelektuální separace | Konsolidovaná epistemická závislost |
+## Kdy a jak eskalovat
 
-## Neutralizace
+Eskalujte, když ztráta autorství provází závislost, izolaci nebo rozpad sebepojetí: klinicky podle [diagnostických indikátorů](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a [protokolů epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) se [supervizí](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md); spory o autorství řeší etická komise a [uchování důkazů](@/kompendium/forensic-legal/32-evidence-preservation.md).
 
-- **Externí archivace s časovou stopou** — datovaný, kryptograficky verifikovatelný záznam vlastní produkce (preprint servery, git, blog s timestampy) odolá retrospektivnímu reframování.
-- **Triangulace mimo vztah** — sdílení klíčových idejí s nezávislými třetími stranami jako autorskými svědky.
-- **Periodická epistemická separace** — diagnosticky důležitá: pokud autorská kapacita po odeznění závislosti obnoví, byla intaktní; pokud ne, je nutná klinická intervence.
+## S čím ji nezaměnit
 
-## Klinický kontext
+- **Legitimní mentorský přínos:** autorství se výslovně a oboustranně připisuje.
+- **Konvergentní vývoj myšlení:** symetrický, oba přispívají a oba se citují.
+- **Plagiát:** jednorázové převzetí textu bez dlouhodobého působení na autorskou identitu.
+- **[EA-2.2.8 Nárok na intelektuální otcovství](@/kompendium/quick-reference/qr-ea-2-2-8.md):** akademická obdoba bez rozpadu autorské paměti.
 
-Manifestuje se nejčastěji v PhD supervizi (mentor publikuje subjektovy ideje), dlouhodobé psychoterapii (terapeut přebírá klientovy formulační průlomy), charizmatickém vedení komunity, intimním intelektuálním partnerství s asymetrií veřejné viditelnosti a v korporátní inovaci. Diferenciálně se odlišuje od **legitimní mentorské kontribuce** (která explicitně připisuje autorství) a od **konvergentního intelektuálního vývoje** (který je symetrický). Reverzibilita je velmi nízká — rekonstrukce autorské identity vyžaduje typicky 12–36 měsíců terapeutické intervence.
+**Zdroj:** karta shrnuje plnou stránku [EA-5.1.1 Epistemická kanibalizace](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
 
-## Cross-linky
+## Související
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1 Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)
-- **Detailní článek**: [EA-5.1.1 Epistemická kanibalizace](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)
-- **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md), [EA-5.1.3 Reflexivní paradoxie](@/kompendium/quick-reference/qr-ea-5-1-3.md), [EA-5.1.9 Identitní dezintegrace](@/kompendium/quick-reference/qr-ea-5-1-9.md)
-- **Glossary**: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md), [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-- **Platforma**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine — provenance ledger" /> }}, [NABLA Infinity authorship invariants](@/glossary/nabla-infinity.md)
+- **Technika a kapitola:** [plná stránka EA-5.1.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) – mechanismus, případy a neutralizace; [kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) – epistemická singularita.
+- **Glosář:** [epistemická singularita](@/glossary/epistemicka-singularita.md) – stav, k němuž skupina 5.1 směřuje; [epistemická alienace](@/glossary/epistemicka-alienace.md) – odcizení vlastnímu poznání.
+- **Sousední karty:** [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md) – rozpad pojmu autorství; [EA-5.1.9 Identitní dezintegrace](@/kompendium/quick-reference/qr-ea-5-1-9.md) – kam ztráta autorství vede; [EA-2.1.5 Potlačování citací](@/kompendium/quick-reference/qr-ea-2-1-5.md) – veřejná vrstva téhož.
 
 ---
 

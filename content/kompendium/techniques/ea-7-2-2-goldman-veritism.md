@@ -1,6 +1,6 @@
 +++
 title = "EA-7.2.2 Goldman: Veritismus"
-description = "Teoretická reflexe — Goldman: Veritismus a vztah k EA."
+description = "Sociální praxe poznání se hodnotí podle toho, zda vedou k pravdivým přesvědčením. Rámec pro rozpoznání prostředí, která soustavně produkují omyl, a obranu."
 weight = 722
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "techniques", "ea-7-2", "teoreticke"]
 categories = ["academic", "theory"]
 
 [extra]
-related_terms = ["ea-7-2-1-fricker-epistemic-injustice", "ea-7-2-10-nagel-view-from-nowhere", "ea-7-2-3-popper-falsification", "ea-7-2-4-lakatos-research-program"]
+related_terms = ["ea-2-1-9-pseudo-konsenzus-vytvoreni", "ea-2-1-10-credentials-rekonfigurace", "ea-1-1-1-selektivni-expozice", "ea-7-2-1-fricker-epistemic-injustice", "ea-7-2-3-popper-falsification", "ea-7-3-2-tversky-heuristics"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.2.2"
 ea_category = "7. Teoretické reflexe"
@@ -21,88 +21,197 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 
 # EA-7.2.2 Goldman: Veritismus
 
-> *Teoretická reflexe v rámci 7.2 Analytická filozofie.*
-
-## Identifikace
-
 | Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-7.2.2` |
+| **Kategorie** | 7. Teoretické reflexe |
+| **Subkategorie** | 7.2 Analytická filozofie |
+| **Typ hesla** | Interpretační rámec – měřítko kvality informačního prostředí |
+| **Přístupová úroveň** | L1 |
+| **Riziková úroveň** | Střední u popsaného jevu – degradované prostředí poškozuje úsudek pomalu a nenápadně |
+| **Reverzibilita** | Dobrá; obnova rozmanitých a ověřitelných zdrojů je proveditelná |
+| **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |
+| **Monografické zpracování** | [7.3 Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) |
+
+> **Poznámka ke kódu.** Řada `EA-7.2` (analytická filozofie) se nekryje s tematickou
+> kapitolou 7.2 ani s monografickými kapitolami 7.10–7.59; viz
+> [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md).
+
+## Definice
+
+**Veritismus** je stanovisko sociální epistemologie, podle něhož se praxe sdílení poznání –
+svědectví, diskuse, média, věda, soudní řízení, vzdělávání – hodnotí podle toho, jak zvyšují
+podíl **pravdivých přesvědčení** a snižují podíl omylu a nevědomosti. Alvin Goldman tuto
+hodnotu nazývá *veritistickou*. Pro Kompendium je veritismus měřítkem prostředí: technika
+epistemické anihilace často nepůsobí jedním výrokem, ale tím, že **zhorší veritistickou
+kvalitu celého prostředí**, v němž člověk poznává.
+
+## Původ a kontext pojmu
+
+Goldman (1979) formuloval **spolehlivostní teorii ospravedlnění** (*reliabilism*): přesvědčení
+je ospravedlněné, vzniklo-li spolehlivým procesem, tedy takovým, který vede převážně
+k pravdě. V knize *Knowledge in a Social World* (1999) přenesl tuto myšlenku z jednotlivce na
+společenské instituce. Ve stati „Experts: Which Ones Should You Trust?“ (2001) rozebral
+**problém laika a experta**: laik nemůže posoudit odbornost přímo, a musí se proto opírat
+o nepřímé vodítko – argumenty, shodu dalších odborníků, hodnocení metaexperty (vzdělání,
+uznání), zájmy a zaujatost a dosavadní úspěšnost.
+
+## Mechanismus (strukturní popis)
+
+Z pohledu veritismu se v kazuistikách opakují čtyři způsoby, jimiž prostředí ztrácí
+schopnost vést k pravdě:
+
+1. **Monopol svědectví.** Všechny dostupné zdroje vedou k jednomu původci; srov.
+   [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
+   a [monokulturu zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md).
+2. **Padělaná shoda.** Zdánlivě nezávislé hlasy opakují totéž
+   ([EA-2.1.9 Pseudokonsenzus](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md)),
+   takže vodítko „shoda odborníků“ přestává fungovat.
+3. **Padělané kredity.** Tituly, afiliace a ocenění, jimiž laik poznává experta, jsou
+   nepravé nebo nepřenositelné ([EA-2.1.10 Rekonfigurace kreditů](@/kompendium/techniques/ea-2-1-10-credentials-rekonfigurace.md)).
+4. **Skryté zájmy a vymazaná historie.** Střet zájmů není vidět a selhání dřívějších
+   předpovědí se nezaznamenává, takže chybí dvě zbylá vodítka Goldmanova seznamu.
+
+Výsledkem není jedna lež, ale prostředí, v němž i pečlivý člověk dojde k omylu, protože
+všechny jeho nástroje ověřování byly předem obsazeny.
+
+## Fenomenologické znaky (pohled zevnitř)
+
+| Znak | Jak ho člověk popisuje |
 |---|---|
-| **Kód EA** | EA-7.2.2 |
-| **Tradice** | Analytická filozofie |
-| **Autor / škola** | Goldman |
-| **Hlavní teze** | Hodnotu poznávacích praktik je třeba měřit jejich schopností produkovat pravdivé přesvědčení — vše ostatní je sekundární. |
-| **Status v EA** | Teoretická reflexe — interpretační rámec, ne přímá technika |
-| **Cross-reference** | viz sekce *Mapování na EA techniky* |
+| Opora v počtu | „Všichni, koho znám, to říkají.“ |
+| Bezradnost | „Nevím, komu věřit, tak věřím těm, kdo jsou blízko.“ |
+| Únava z ověřování | „Na kontrolu nemám čas ani sílu.“ |
+| Uzavřený okruh | „Ostatní zdroje jsou zkorumpované, to se ví.“ |
 
-## Kontext autora
+## Detekční markery (pohled pozorovatele)
 
-Goldman patří do tradice **Analytická filozofie**. Jeho/její pozice je relevantní pro EA tím, že nabízí pojmový aparát, jímž lze popsat manipulaci, asymetrii, framing a epistemickou dynamiku — tedy přesně to, co EA mapuje jako útočné a obranné techniky.
+| Marker | Co může naznačovat |
+|---|---|
+| Zdroje se navzájem citují a vedou k jednomu původu | [Cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md) |
+| Autorita se dokládá jen tituly, ne výsledky | Padělané vodítko metaexpertů |
+| Nesouhlasní odborníci jsou předem diskvalifikováni | Odstraněné vodítko shody |
+| Dřívější omyly zdroje se nepřipomínají | Vymazaná úspěšnost |
+| Finanční nebo statusový zisk zdroje z přijetí tvrzení | Skrytý zájem |
 
-Místo, aby EA tato pozice technicky obohacovala (jako kapitoly 1–5), slouží jako **interpretační vrstva**: pomáhá odpovědět na otázku *proč* daná technika funguje, *kdo* jí těží a *za jakých podmínek* jí lze odolat.
+## Rizikové kontexty
 
-## Klíčové koncepty
+Uzavřené skupiny s vlastními „odborníky“, trh s pseudoodborností (zdraví, finance,
+osobní rozvoj), online komunity s doporučovacími algoritmy, firmy a úřady, kde informace
+prochází jediným kanálem, a [due diligence](@/glossary/due-diligence.md), kde se zdroje
+navzájem přebírají ([EA × DD: váhy zdrojů](@/kompendium/cross-domain/10-ea-dd-source-weighting.md)).
 
-1. **Veritistická hodnota**
-2. **Sociální epistemologie**
-3. **Spolehlivostní teorie ospravedlnění**
+## Odlišení
 
-Tyto pojmy nejsou v EA použity přímo jako názvy technik, ale tvoří **rastr**, jímž lze techniky kapitol 1–6 lépe číst — a v některých případech i odhalit, že to, co vypadá jako jediná technika, je ve skutečnosti složený dispozitiv.
+- **Oprávněná důvěra v odborníky.** Spoléhat na experty je racionální; problém nastává, když
+  vodítka, podle nichž je poznáváme, byla padělána nebo odstraněna.
+- **Epistemická bublina a ozvěnová komora.** C. Thi Nguyen (2020) rozlišuje
+  [bublinu](@/glossary/epistemic-bubble.md), v níž chybějí jiné hlasy, a ozvěnovou komoru,
+  v níž jsou jiné hlasy aktivně zdiskreditovány. Druhá je vůči nápravě odolnější.
+- **Paranoidní nedůvěra.** Odmítání všech zdrojů není veritistickou ctností; i paušální
+  nedůvěra snižuje podíl pravdivých přesvědčení.
+- **Kognitivní zkreslení.** Jednotlivá zkreslení ([EA-7.3.2 Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md))
+  popisují jedince; veritismus hodnotí prostředí.
 
-## Vztah k EA
+## Klinický a právní rámec
 
-Pozice **Goldman** vnáší do EA tři operativní příspěvky:
+V klinice se veritistická otázka klade při anamnéze informačního prostředí: odkud pacient
+čerpá, zda existuje zdroj mimo skupinu a kdo ze sdílení informací profituje. V právu se
+problém laika a experta objevuje u znaleckého dokazování: soud jako laik hodnotí znalce
+podle metody, odůvodnění a nezávislosti; v Česku upravuje znaleckou činnost zákon
+č. 254/2019 Sb., o znalcích. Viz také [znalec v kontextu EA](@/kompendium/forensic-legal/21-expert-witness-EA.md).
 
-- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *„něco se tu děje, ale nevíme co“*.
-- **Hloubka rámce**: ukazuje, že manipulace často není individuální akt, nýbrž **strukturální efekt** vyšší vrstvy (diskurzní, institucionální, biologické).
-- **Etická pojistka**: brání tomu, aby EA degenerovala v techniku oboustranné aplikace bez reflexe — tj. aby se z obranného nástroje stala nová manipulační šablona.
+## Obrana a neutralizace
 
-## Mapování na EA techniky
+**Pro jednotlivce.** Goldmanova vodítka lze použít obranně jako kontrolní seznam: má zdroj
+argumenty, které chápu? Souhlasí s ním nezávislí odborníci? Jaký má zájem? Jak dopadly jeho
+dřívější tvrzení? Prakticky: [triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md),
+[kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) a
+[kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md).
 
-Pozice **Goldman** se relevantně dotýká těchto oblastí EA:
+**Pro organizace.** Více nezávislých kanálů informací, evidence střetu zájmů a zpětné
+vyhodnocování přesnosti předpovědí a doporučení.
 
-- kalibrace zdroje, [evidence-based](@/glossary/evidence-based.md) rámec, epistemická prosperita
-- vztah ke **kapitole 6 (obrana a kalibrace)**: pomáhá rozlišit obranu strukturální od obrany pouze taktické.
-- vztah ke **kapitole 3 (manipulační vzorce)**: dodává jazyk, jímž lze pojmenovat skryté předpoklady techniky.
+**Otázky, které pomáhají v rozhovoru.** Odkud se o tom dozvídáš a odkud to ví ten zdroj?
+Znáš někoho, kdo s tím nesouhlasí, a víš, proč? Co by zdroj ztratil, kdyby se mýlil? Jak
+dopadlo, co tvrdil před rokem? Otázky nejsou výslechem; mají vrátit do hry vodítka, která
+prostředí odstranilo, a nechat člověka, aby odpověď našel sám.
 
-Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [techniques index](@/kompendium/techniques/_index.md).
+## Zotavení
 
-## Limitace
+Po odchodu z degradovaného prostředí člověk často neví, čemu věřit vůbec. Zotavení
+proto nevede přes novou autoritu, ale přes **pomalé budování portfolia zdrojů**, jejichž
+spolehlivost si sám ověřuje. Podporu dává [akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md)
+a [subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md).
 
-- **Není přímo testovatelná**: na rozdíl od EA-1 až EA-5 nelze tuto pozici jednoduše operacionalizovat ve scoring engine — slouží jako interpretační rámec, ne jako prediktor.
-- **Riziko nadužití**: aplikovaná všude, ztrácí ostří; pozice je nosná tam, kde **standardní psychologický nebo logický rozbor selává**.
-- **Spor o překlad**: některé pojmy (např. *[différance](@/glossary/differance.md)*, *Dasein*, *phi*) odporují čistému přepisu do operativního jazyka platformy a musí být užity s vědomím vlastní hranice.
-- **Žádná pozice není totální**: tato reflexe je jednou z mnoha — viz sister 7.2.* a sousední podkapitoly 7.1, 7.2, 7.3.
+## Případy, které jev ukazují
 
-## Cross-linky
+- [Manipulace tabákovým průmyslem](@/kompendium/historical-cases/25-tobacco-doubt.md) –
+  vyráběná pochybnost jako zhoršení veritistické kvality veřejné debaty.
+- [Popírání klimatu](@/kompendium/historical-cases/26-climate-denial.md) – padělaná
+  rovnováha odborných hlasů.
+- [Stapel](@/kompendium/historical-cases/34-stapel-fraud.md) – reputace jako náhrada
+  ověřování.
+- [MLM recovery](@/kompendium/case-studies/13-mlm-recovery.md) a
+  [finanční kult](@/kompendium/case-studies/20-finance-cult.md) – „odborníci“ uvnitř
+  uzavřeného okruhu.
 
-### Sesterské reflexe (7.2.*)
+## Ilustrativní příklad
+
+Anonymizovaný kompozit: muž středního věku se po ztrátě zaměstnání připojí k online
+komunitě, která slibuje „finanční nezávislost“. Během několika měsíců čerpá informace jen
+z jejích videí, podcastů a diskusních vláken. Všechny tři zdroje, které považuje za
+nezávislé, vedou ke stejnému zakladateli; „odborníci“, kteří v nich vystupují, mají tituly
+z kurzů téže komunity; o investicích, které dříve nevyšly, se nemluví. Když ho dcera upozorní
+na varování regulátora, odpoví, že regulátor „chrání banky“. Z veritistického hlediska
+neselhal jeho rozum, ale prostředí: všechna vodítka, jimiž laik rozpoznává spolehlivého
+odborníka, byla obsazena jedním aktérem. Obrat přichází, když si sám zkusí dohledat
+dřívější předpovědi zakladatele a zjistí, že se většina nesplnila. Teprve úspěšnost, tedy
+vodítko, které komunita vymazala, mu vrátí měřítko.
+
+## Meze a otevřené otázky
+
+Veritismus předpokládá, že pravdivost lze alespoň zpětně ověřit. V oblastech, kde je to
+obtížné (hodnotové spory, dlouhodobé předpovědi, osobní zkušenost), poskytuje slabší oporu
+a je třeba ho doplnit jinými měřítky, například spravedlností vůči svědkům
+([EA-7.2.1](@/kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md)). Otevřená
+zůstává otázka, jak hodnotit prostředí, která zvyšují podíl pravdivých přesvědčení
+v průměru, ale poškozují konkrétní menšiny, a jak měřit veritistickou kvalitu online
+prostředí, jehož obsah se mění každou hodinu. Kniha rámec používá jako vodítko úvahy, ne
+jako výpočet.
+
+## Literatura
+
+- Goldman, A. I. (1979). What Is Justified Belief? In G. Pappas (Ed.), *Justification and
+  Knowledge*. Reidel.
+- Goldman, A. I. (1999). *Knowledge in a Social World*. Oxford University Press.
+- Goldman, A. I. (2001). Experts: Which Ones Should You Trust? *Philosophy and
+  Phenomenological Research*.
+- Nguyen, C. T. (2020). Echo Chambers and Epistemic Bubbles. *Episteme*.
+- Oreskes, N., & Conway, E. M. (2010). *Merchants of Doubt*. Bloomsbury.
+
+## Související
+
+**Sesterská hesla**
+
 - [EA-7.2.1 Fricker: Epistemická nespravedlnost](@/kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md)
+  – kdo je jako svědek slyšen.
 - [EA-7.2.3 Popper: Falsifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md)
-- [EA-7.2.4 Lakatos: Vědecký výzkumný program](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md)
-- [EA-7.2.5 Kuhn: Paradigmatický posun](@/kompendium/techniques/ea-7-2-5-kuhn-paradigm-shift.md)
-- [EA-7.2.6 Feyerabend: Anti-metoda](@/kompendium/techniques/ea-7-2-6-feyerabend-anti-method.md)
-- [EA-7.2.7 Quine: Web of Belief](@/kompendium/techniques/ea-7-2-7-quine-web-belief.md)
+  – kritika jako podmínka růstu poznání.
+- [EA-7.2.9 Williams: Pravdivost](@/kompendium/techniques/ea-7-2-9-williams-truthfulness.md)
+  – přesnost a upřímnost zdrojů.
 
-### Související
-- [Kapitola 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Kapitola 06: Obrana a kalibrace](@/kompendium/06-obrana/_index.md)
-- [Kapitola 03: Manipulační vzorce](@/kompendium/03-manipulacni-vzorce/_index.md)
-- [Glosář: Falsifikace](@/kompendium/glossary-bridges/falsifikace.md)
-- [Glosář: Predictive processing](@/glossary/predictive-processing.md)
-- [Glosář: Power-knowledge](@/glossary/power-knowledge.md)
-- [Glosář: Lakatos research program](@/glossary/lakatos.md)
-- {{ <cross_link path="/decisions/" text="Platforma: Decision Engine" /> }}
-- {{ <cross_link path="/investigate/" text="Platforma: Investigate" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="Platforma: OSINT Toolbox" /> }}
+**Techniky**
 
----
+- [EA-2.1.9 Pseudokonsenzus](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md)
+  – padělaná shoda odborníků.
+- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) –
+  monopol na zdroje.
 
-## Connect
+**Pojmy a praxe**
 
-Chcete tuto reflexi aplikovat na konkrétní případ?
-
-- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — [Decision Engine](@/glossary/decision-engine.md) s podporou epistemické kalibrace.
-- [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
-- [Glosář pojmů](@/glossary/_index.md) — definice klíčových termínů napříč EA.
-
-*Část kompendia [Epistemic Arsenal](@/kompendium/_index.md) — kapitola 7. Teoretické reflexe, podkapitola 7.2 Analytická filozofie.*
+- [7.3 Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md)
+  – širší rámec Goldmana, Fricker, Longinové a Andersonové.
+- [Glosář: epistemická bublina](@/glossary/epistemic-bubble.md) – uzavřené informační prostředí.
+- [EA × OSINT: triangulace zdrojů](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md)
+  – veritismus v investigativní praxi.

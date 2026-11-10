@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.2.2 Mentee isolation"
-description = "Rychla referencni karta pro EA-2.2.2 (delegitimizace)."
+title = "Rychlá karta EA-2.2.2: Izolace svěřence"
+description = "Izolace svěřence v kostce: jak poznat postupné odříznutí studenta od jiných odborníků pod záminkou ochrany či výjimečnosti, a co dělat."
 weight = 30222
 
 [taxonomies]
@@ -16,39 +16,49 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.2.2 Mentee isolation
+# EA-2.2.2 Izolace svěřence – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.2 Pedagogická koerce · **Plná stránka:** [EA-2.2.2 Izolace svěřence](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md)
 
-## Operační modus (3 kroky)
+## Co to je
 
-1. Strukturální izolace mentee od peer skupiny — výlučná spolupráce 1:1, blokace mezilaboratorní komunikace
-2. Negativní rámování externích kontaktů („ti z X jsou neseriózní“, „ona je politická aktivistka, nikoli vědkyně“)
-3. Vytvoření závislosti — mentee dostává všechno (data, prostředky, autorství) skrze mentor; ztráta vztahu = ztráta kariéry
+Mentor postupně odřízne svěřence od jiných odborných hlasů – kolegů z jiných skupin, konzultantů, konferencí, alternativních škol oboru. Izolace se podává jako ochrana („tam tě jen rozptýlí“), výjimečnost („my děláme skutečnou vědu“) nebo loajalita, a odstraňuje korektiv: kdo má jiné vztahy, dřív pozná, že zacházení s ním není normální.
 
-## Detekční markery (3 nejvýraznější)
+## Jak ji poznat
 
-- Mentee má v praxi nulové ko-autory mimo lab po několika letech práce
-- Žádné solo first-author papers; všechny publikace s mentorem jako corresponding author
-- Sociální síť mentee mimo akademii (přátelé, rodina) přestává mít přístup k jeho profesnímu životu — uzavřený systém
+- Doktorand nejezdí na konference a nepublikuje s nikým mimo skupinu.
+- Mentor znevažuje jiná pracoviště před studenty.
+- Svěřenec se omlouvá za kontakt s jinými nebo ho tají.
+- Pracovní zátěž neponechává čas na semináře ani vztahy mimo skupinu.
+- Příležitosti přicházejí výhradně přes vedoucího.
+- Skupina má vysokou fluktuaci a málo kontaktů s absolventy.
 
-## Neutralizační strategie (3 nejúčinnější)
+## První bezpečná reakce
 
-- Mandatory external rotation — formálně vyžadovaná stáž / co-supervision na jiné instituci
-- Vícenásobné first-author publikace bez mentora jako spoluautora; znamená nezávislou výzkumnou linii
-- Peer mentoring sítě (formální nebo neformální) s lidmi mimo přímou hierarchii
+**Pro zasaženého:** udržujte aspoň jeden pravidelný odborný kontakt mimo skupinu, účastněte se konferencí a studentských sítí a o pracovních podmínkách mluvte s lidmi mimo pracoviště ([prevence izolace](@/kompendium/self-defense-guides/26-isolation-prevention.md), [diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md)).
 
-## Příklad
+**Pro odborníka:** chybí-li klientovi srovnání („nevím, co je v oboru normální“), pomozte mu ho získat přes nezávislé kolegy. Sledujte [akceleraci izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md) a odlište ji od sociální úzkosti.
 
-Postdoktorandka tři roky pracuje jen s jedním PI. Když chce přejít na pozici mimo, zjišťuje, že nemá žádné nezávislé reference, žádné solo-author paper, a všechny její data formálně patří laboratoři. Závislost není pracovní — je epistemická a institucionální.
+## Kdy a jak eskalovat
 
-## Cross-linky
+Eskalujte, když izolace doprovází zastrašování, kontrolu soukromí nebo zhoršení duševního zdraví: kontaktujte oborovou radu, žádejte konzultanta mimo skupinu a postupujte podle [ochrany mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md). Rozvíjí-li se uzavřený vzorec skupiny s kontrolou informací, posuďte ho rámcem [BITE](@/glossary/bite-model.md) a [diagnostickými indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md).
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-2-2-mentee-isolation/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## S čím ji nezaměnit
+
+- **Soustředění práce:** doporučení omezit rozptýlení před odevzdáním, bez zákazu a kontroly.
+- **Ochrana duševního vlastnictví:** opatrnost s nepublikovanými daty, ne se všemi kontakty.
+- **Sociální úzkost:** svěřenec se stahuje sám a nikdo kontakt neznevažuje.
+- **[Epistemická bublina](@/glossary/epistemic-bubble.md):** vzniká i bez úmyslu; izolace je aktivně udržovaná.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.2.2 Izolace svěřence](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.2.2](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
+- **Organizace:** [politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md) – kontakty napříč pracovišti.
+- **Glosář:** [sociální izolace](@/glossary/socialni-izolace.md) – obecný mechanismus a jeho dopady.
+- **Sousední karty:** [EA-2.2.1 Sebetotalizace mentora](@/kompendium/quick-reference/qr-ea-2-2-1.md) – předcházející krok; [EA-2.2.4 Monopolizace spolupráce](@/kompendium/quick-reference/qr-ea-2-2-4.md) – kontakt jen přes mentora; [EA-2.2.6 Akademická kontrola času](@/kompendium/quick-reference/qr-ea-2-2-6.md) – zahlcení jako izolační nástroj.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

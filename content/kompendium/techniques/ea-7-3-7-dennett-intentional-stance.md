@@ -1,6 +1,6 @@
 +++
 title = "EA-7.3.7 Dennett: Intenční postoj"
-description = "Teoretická reflexe — Dennett: Intenční postoj a vztah k EA."
+description = "Připisování přesvědčení a záměrů jako interpretační strategie. Jak se přehnané i odepřené připisování záměrů stává nástrojem manipulace a jak je kalibrovat."
 weight = 737
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "techniques", "ea-7-3", "teoreticke"]
 categories = ["academic", "theory"]
 
 [extra]
-related_terms = ["ea-7-3-5-metzinger-ego-tunnel", "ea-7-3-6-thompson-mind-life", "ea-7-3-8-chalmers-hard-problem", "ea-7-3-9-dehaene-consciousness"]
+related_terms = ["ea-1-6-1-vzorec-guru-a-adept", "ea-5-1-12-kauzalni-inverze", "ea-2-5-8-recursive-doubt-spiral", "ea-7-2-8-davidson-charity", "ea-7-3-8-chalmers-hard-problem", "ea-7-3-1-kahneman-system12"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.3.7"
 ea_category = "7. Teoretické reflexe"
@@ -21,88 +21,186 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 
 # EA-7.3.7 Dennett: Intenční postoj
 
-> *Teoretická reflexe v rámci 7.3 Kognitivní věda.*
-
-## Identifikace
-
 | Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-7.3.7` |
+| **Kategorie** | 7. Teoretické reflexe |
+| **Subkategorie** | 7.3 Kognitivní věda |
+| **Typ hesla** | Interpretační rámec – jak a kdy připisujeme druhým mysl |
+| **Přístupová úroveň** | L1 |
+| **Riziková úroveň** | Střední u popsaného jevu – chybné připisování záměrů deformuje výklad vztahů i světa |
+| **Reverzibilita** | Dobrá; kalibrace připisování je naučitelná |
+| **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |
+| **Monografické zpracování** | [7.35 Dennett: Intentional Stance a vrstvy interpretace](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md) |
+
+> **Poznámka ke kódu.** Heslo `EA-7.3.7` a monografická kapitola 7.35 mají společný předmět;
+> řada 7.3 nesouvisí s tematickou kapitolou 7.3.
+
+## Definice
+
+**Intenční postoj** (*intentional stance*) je podle Daniela Dennetta strategie předvídání
+chování: s nějakým systémem zacházíme, *jako by* měl přesvědčení a přání a jednal
+racionálně podle nich. Dennett ho odlišuje od **fyzikálního postoje** (předpověď z fyzikálních
+zákonů) a **postoje designu** (předpověď z toho, k čemu je věc navržena). Intenční postoj je
+oprávněný tam, kde dobře funguje – u lidí téměř vždy, u termostatu jen zčásti.
+
+Kompendium heslo používá k rozpoznání dvou opačných chyb, které manipulace využívá:
+**přehnaného** připisování záměrů (za vším stojí plán) a **odepřeného** připisování
+(člověk není jednající bytost s důvody, ale mechanismus).
+
+## Původ a kontext pojmu
+
+Dennett pojem zavedl ve stati „Intentional Systems“ (1971) a rozvinul v knize *The
+Intentional Stance* (1987). V *Consciousness Explained* (1991) navrhl model **mnohonásobných
+konceptů** (*multiple drafts*) vědomí a metodu **heterofenomenologie**: zprávy lidí o jejich
+prožitku je třeba brát vážně jako data o tom, jak se jim věci jeví, aniž bychom je
+pokládali za neomylné. Rámec souvisí s výzkumem [teorie mysli](@/glossary/theory-of-mind.md)
+a [intencionality](@/glossary/intencionalita.md).
+
+## Mechanismus (strukturní popis)
+
+1. **Hyperintencionalita.** Náhodné nebo strukturní události se vykládají jako záměr
+   skrytého aktéra – vůdce, který „má plán pro každého“, nebo nepřítele, který „všechno
+   řídí“. Konspirační výklad je intenční postoj použitý tam, kde nefunguje; srov.
+   [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md).
+2. **Vševědoucí autorita.** Adept připisuje guruovi záměr i tam, kde žádný není („nechal mě
+   čekat, aby mě něco naučil“); viz [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md).
+3. **Odepřená [intencionalita](@/glossary/intentionalita.md).** Vůči oběti nebo kritikovi se uplatňuje fyzikální či
+   designový postoj: jeho námitky nejsou důvody, ale „spouštěče“, „trauma“, „programování“.
+   Člověk přestává být partnerem v rozhovoru.
+4. **Rekurzivní podezření.** Člověk začne připisovat skryté záměry i sám sobě („možná to
+   chci jen ze sobectví“), až ztratí přístup k vlastním důvodům; srov.
+   [EA-2.5.8 Spirála rekurzivní pochybnosti](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md).
+
+## Fenomenologické znaky (pohled zevnitř)
+
+| Znak | Jak ho člověk popisuje |
 |---|---|
-| **Kód EA** | EA-7.3.7 |
-| **Tradice** | Kognitivní věda |
-| **Autor / škola** | Dennett |
-| **Hlavní teze** | Přisuzovat víry a touhy je strategie predikce — funguje, když systém vykazuje racionální chování. |
-| **Status v EA** | Teoretická reflexe — interpretační rámec, ne přímá technika |
-| **Cross-reference** | viz sekce *Mapování na EA techniky* |
+| Všude záměr | „Nic se neděje náhodou, všechno je znamení.“ |
+| Neomylný vůdce | „I když to vypadá kruté, má s tím svůj úmysl.“ |
+| Nebrán vážně | „Co řeknu, berou jako symptom, ne jako názor.“ |
+| Podezření k sobě | „Nevím, proč doopravdy dělám, co dělám.“ |
 
-## Kontext autora
+## Detekční markery (pohled pozorovatele)
 
-Dennett patří do tradice **Kognitivní věda**. Jeho/její pozice je relevantní pro EA tím, že nabízí pojmový aparát, jímž lze popsat manipulaci, asymetrii, framing a epistemickou dynamiku — tedy přesně to, co EA mapuje jako útočné a obranné techniky.
+| Marker | Co může naznačovat |
+|---|---|
+| Výklad nehod a náhod jako cílených akcí | Hyperintencionalita |
+| Krutost autority se vysvětluje vyšším záměrem | Vševědoucí autorita |
+| Argumenty kritika se odbývají diagnózou nebo nálepkou | Odepřená intencionalita |
+| Člověk nedokáže uvést vlastní důvod jednání bez odkazu na skupinu | Ztráta přístupu k vlastním důvodům |
+| Nesoulad v odhadu záměrů druhých | [Kalibrace teorie mysli](@/kompendium/detection-signatures/tom-kalibrace.md) |
 
-Místo, aby EA tato pozice technicky obohacovala (jako kapitoly 1–5), slouží jako **interpretační vrstva**: pomáhá odpovědět na otázku *proč* daná technika funguje, *kdo* jí těží a *za jakých podmínek* jí lze odolat.
+## Rizikové kontexty
 
-## Klíčové koncepty
+Konspirační komunity, skupiny s charismatickým vůdcem, koučovací a terapeutické vztahy
+s autoritou vykladače, politická [propaganda](@/glossary/propaganda.md) vytvářející obraz všemocného nepřítele
+a prostředí, kde se psychologický slovník používá k diskvalifikaci námitek.
 
-1. **Intenční postoj**
-2. **Multiple drafts model**
-3. **Heterofenomenologie**
+## Odlišení
 
-Tyto pojmy nejsou v EA použity přímo jako názvy technik, ale tvoří **rastr**, jímž lze techniky kapitol 1–6 lépe číst — a v některých případech i odhalit, že to, co vypadá jako jediná technika, je ve skutečnosti složený dispozitiv.
+- **Správné připisování.** Lidé skutečně jednají záměrně a někdy i koordinovaně; rozhoduje,
+  zda výklad stojí na doložitelných krocích, nebo jen na tom, že „to dává smysl“.
+- **Psychologické porozumění.** Vysvětlit chování emocí nebo zkušeností není samo
+  o sobě odepření intencionality; stává se jím, když vysvětlení nahradí vyslechnutí důvodů.
+- **[Zneužití teorie mysli](@/kompendium/03-zakladni-kategorie/tom-exploitation.md)** je
+  příbuzná kapitola o tom, jak se schopnost číst druhé obrací proti člověku.
+- **Klinické stavy.** Vztahovačnost a perzekuční bludy jsou extrémní hyperintencionalitou
+  bez vnějšího zdroje; u poruch autistického spektra může být intuitivní připisování
+  záměrů obtížnější, což zvyšuje zranitelnost, ale není to manipulace.
 
-## Vztah k EA
+## Klinický a právní rámec
 
-Pozice **Dennett** vnáší do EA tři operativní příspěvky:
+Heterofenomenologie je užitečný klinický postoj: brát výpověď pacienta jako skutečný
+údaj o jeho prožitku, aniž by se kliník předem rozhodl, co „doopravdy“ znamená. Ochraňuje
+před odepřením intencionality i před převzetím pacientova výkladu. Právně je rozlišení
+úmyslu a náhody základem odpovědnosti; při hodnocení výpovědí o „řízených“ událostech je
+třeba hledat doložitelné kroky a aktéry ([rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md)).
 
-- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *„něco se tu děje, ale nevíme co“*.
-- **Hloubka rámce**: ukazuje, že manipulace často není individuální akt, nýbrž **strukturální efekt** vyšší vrstvy (diskurzní, institucionální, biologické).
-- **Etická pojistka**: brání tomu, aby EA degenerovala v techniku oboustranné aplikace bez reflexe — tj. aby se z obranného nástroje stala nová manipulační šablona.
+V organizacích a v médiích se odepřená intencionalita objevuje jako paušální psychologizace
+kritiků („je frustrovaný“, „má problém s autoritou“). Taková vysvětlení mohou být někdy
+pravdivá, ale pokud nahrazují posouzení obsahu námitky, slouží k umlčení. Dobrou praxí je
+nejprve věcně odpovědět na argument a teprve potom, je-li to vůbec relevantní, zkoumat
+motivaci.
 
-## Mapování na EA techniky
+## Obrana a neutralizace
 
-Pozice **Dennett** se relevantně dotýká těchto oblastí EA:
+**Pro jednotlivce.** Test náhody: „Jak by to vypadalo, kdyby za tím nebyl žádný záměr?“
+A test důvodů: „Co by mi ten člověk řekl, kdybych se ho zeptal přímo?“ Uvádět vlastní důvody
+nahlas nebo písemně ([metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md)).
+**Pro profesionály.** Nediagnostikovat námitky; nejprve je vyslechnout jako důvody.
 
-- modelování oponenta, predikce chování, [redukcionismus](@/glossary/redukcionismus.md) mysli
-- vztah ke **kapitole 6 (obrana a kalibrace)**: pomáhá rozlišit obranu strukturální od obrany pouze taktické.
-- vztah ke **kapitole 3 (manipulační vzorce)**: dodává jazyk, jímž lze pojmenovat skryté předpoklady techniky.
+**Otázky, které pomáhají v rozhovoru.** Co by se muselo stát, abys uznal, že to byla
+náhoda? Jak bys shrnul důvody toho, kdo s tebou nesouhlasí, aby s tím souhlasil? Komu
+připisuješ záměry, které nikdy neřekl? Jaké jsou tvé vlastní důvody, když je řekneš
+nahlas? Otázky vracejí důvodům jejich místo.
 
-Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [techniques index](@/kompendium/techniques/_index.md).
+## Zotavení
 
-## Limitace
+Člověk se učí připustit náhodu a omyl u druhých i u sebe, aniž by ztratil schopnost
+rozpoznat skutečný úmysl. Pomáhá [subakutní detekční trénink](@/kompendium/recovery-protocols/subacute-detection-training.md)
+a [kognitivní flexibilita](@/kompendium/self-defense-guides/8-cognitive-flexibility.md).
 
-- **Není přímo testovatelná**: na rozdíl od EA-1 až EA-5 nelze tuto pozici jednoduše operacionalizovat ve scoring engine — slouží jako interpretační rámec, ne jako prediktor.
-- **Riziko nadužití**: aplikovaná všude, ztrácí ostří; pozice je nosná tam, kde **standardní psychologický nebo logický rozbor selává**.
-- **Spor o překlad**: některé pojmy (např. *[différance](@/glossary/differance.md)*, *Dasein*, *phi*) odporují čistému přepisu do operativního jazyka platformy a musí být užity s vědomím vlastní hranice.
-- **Žádná pozice není totální**: tato reflexe je jednou z mnoha — viz sister 7.3.* a sousední podkapitoly 7.1, 7.2, 7.3.
+## Případy, které jev ukazují
 
-## Cross-linky
+- [Konspirační rekrutace](@/kompendium/case-studies/21-konspiracni-rekrutace.md) –
+  hyperintencionalita jako vstupní brána.
+- [Deep state narativ](@/kompendium/historical-cases/30-deep-state-narrative.md) – všemocný
+  skrytý aktér.
+- [Coach coercion](@/kompendium/case-studies/17-coach-coercion.md) – „všechno má svůj
+  pedagogický záměr“.
+- [Psychoterapeut totalizace](@/kompendium/case-studies/16-psychoterapeut-totalizace.md) –
+  námitky klienta jako symptom.
 
-### Sesterské reflexe (7.3.*)
-- [EA-7.3.1 Kahneman: System 1/2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md)
-- [EA-7.3.2 Tversky & Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md)
-- [EA-7.3.3 Friston: Active Inference](@/kompendium/techniques/ea-7-3-3-friston-active-inference.md)
-- [EA-7.3.4 Clark: Rozšířená mysl](@/kompendium/techniques/ea-7-3-4-clark-extended-mind.md)
-- [EA-7.3.5 Metzinger: Ego-tunel](@/kompendium/techniques/ea-7-3-5-metzinger-ego-tunnel.md)
-- [EA-7.3.6 Thompson: Mind in Life](@/kompendium/techniques/ea-7-3-6-thompson-mind-life.md)
+## Ilustrativní příklad
 
-### Související
-- [Kapitola 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Kapitola 06: Obrana a kalibrace](@/kompendium/06-obrana/_index.md)
-- [Kapitola 03: Manipulační vzorce](@/kompendium/03-manipulacni-vzorce/_index.md)
-- [Glosář: Falsifikace](@/kompendium/glossary-bridges/falsifikace.md)
-- [Glosář: Predictive processing](@/glossary/predictive-processing.md)
-- [Glosář: Power-knowledge](@/glossary/power-knowledge.md)
-- [Glosář: Lakatos research program](@/glossary/lakatos.md)
-- {{ <cross_link path="/decisions/" text="Platforma: Decision Engine" /> }}
-- {{ <cross_link path="/investigate/" text="Platforma: Investigate" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="Platforma: OSINT Toolbox" /> }}
+Anonymizovaný kompozit: muž ve středním věku začne po sérii neúspěchů sledovat kanály,
+které vysvětlují dění ve světě jako plán skryté skupiny. Brzy vidí záměr i v drobnostech:
+zpožděný vlak, výpadek proudu, zdražení. Současně odmítá názory své ženy jako „naprogramované
+médii“, takže s ní přestane mluvit o čemkoli podstatném. Dennettova optika rozlišuje obě
+chyby: hyperintencionalitu vůči světu a odepřenou intencionalitu vůči blízkému člověku,
+jehož důvody už nejsou brány jako důvody. Rodinná terapeutka nevede spor o obsah teorií.
+Ptá se muže, jak by vypadal svět, kdyby některé události byly náhodné, a žádá oba
+manžele, aby navzájem shrnuli důvody toho druhého tak, aby s tím souhlasil. Teprve když
+muž slyší, že žena jeho důvody chápe, začne poslouchat i její.
 
----
+## Meze a otevřené otázky
 
-## Connect
+Intenční postoj je interpretační strategie a Dennett sám zdůrazňuje, že funguje díky
+skutečným vzorcům v chování; nelze ho proto odmítnout jako pouhou projekci. Hranice mezi
+oprávněným podezřením na koordinované jednání (které se skutečně děje) a konspiračním
+výkladem není vždy ostrá. Otevřená zůstává otázka, jak pomoci lidem kalibrovat připisování
+záměrů v informačním prostředí, kde skutečné kampaně i vymyšlená spiknutí existují vedle
+sebe.
 
-Chcete tuto reflexi aplikovat na konkrétní případ?
+## Literatura
 
-- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — [Decision Engine](@/glossary/decision-engine.md) s podporou epistemické kalibrace.
-- [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
-- [Glosář pojmů](@/glossary/_index.md) — definice klíčových termínů napříč EA.
+- Dennett, D. C. (1971). Intentional Systems. *The Journal of Philosophy*.
+- Dennett, D. C. (1987). *The Intentional Stance*. MIT Press.
+- Dennett, D. C. (1991). *Consciousness Explained*. Little, Brown.
+- Douglas, K. M., Sutton, R. M., & Cichocka, A. (2017). The Psychology of Conspiracy
+  Theories. *Current Directions in Psychological Science*.
 
-*Část kompendia [Epistemic Arsenal](@/kompendium/_index.md) — kapitola 7. Teoretické reflexe, podkapitola 7.3 Kognitivní věda.*
+## Související
+
+**Sesterská hesla a kapitoly**
+
+- [7.35 Dennett: Intentional Stance](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md)
+  – plný výklad.
+- [EA-7.2.8 Davidson: Princip vstřícnosti](@/kompendium/techniques/ea-7-2-8-davidson-charity.md)
+  – připisování racionality v interpretaci.
+- [EA-7.3.8 Chalmers: Těžký problém](@/kompendium/techniques/ea-7-3-8-chalmers-hard-problem.md)
+  – spor o povahu prožitku, s nímž Dennett polemizuje.
+
+**Techniky a kapitoly**
+
+- [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md) –
+  převrácené příčiny a záměry.
+- [Zneužití teorie mysli](@/kompendium/03-zakladni-kategorie/tom-exploitation.md) –
+  schopnost číst druhé jako zranitelnost.
+
+**Pojmy a pomoc**
+
+- [Glosář: theory of mind](@/glossary/theory-of-mind.md) – schopnost připisovat mysl.
+- [Detekční signatura: Kalibrace ToM](@/kompendium/detection-signatures/tom-kalibrace.md) –
+  měření přesnosti připisování.

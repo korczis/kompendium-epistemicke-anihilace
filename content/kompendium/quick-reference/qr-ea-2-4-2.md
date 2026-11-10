@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.4.2 Policy rewriting"
-description = "Rychla referencni karta pro EA-2.4.2 (delegitimizace)."
+title = "Rychlá karta EA-2.4.2: Skrytý přepis pravidel"
+description = "Skrytý přepis pravidel v kostce: jak poznat tichou změnu předpisů, stanov a kodexů instituce ve prospěch jedné skupiny, a jak reagovat."
 weight = 30242
 
 [taxonomies]
@@ -16,33 +16,48 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.4.2 Policy rewriting
+# EA-2.4.2 Skrytý přepis pravidel – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.4 Institucionální zachycení · **Plná stránka:** [EA-2.4.2 Skrytý přepis pravidel](@/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md)
 
-## Mechanismus
+## Co to je
 
-Aplikace techniky Policy rewriting ve specifickém kontextu vedoucí k delegitimizaci cíle.
+Vnitřní předpisy, stanovy, etické kodexy a jednací řády se mění tak, aby změna unikla pozornosti těch, jichž se týká, a nové znění sloužilo jedné skupině. Nejde o otevřený spor o pravidla, ale o tichou proměnu – v příloze, v definici pojmu, v „technické“ novele, v přesunu pravomoci. Pravidla jsou paměť a ochrana instituce; kdo je mění skrytě, mění i to, co v ní platí za správné.
 
-## Indikatory
+## Jak ji poznat
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](@/glossary/epistemicke-trauma.md), [c-ptsd](@/glossary/c-ptsd.md))
+- Rozsáhlé novely s krátkou lhůtou k připomínkám, označené jako formální.
+- Změna definic pojmů (střet zájmů, člen, pochybení) bez zdůvodnění.
+- Přesun pravomoci z kolektivního orgánu na jednotlivce.
+- Nové znění se uplatní na probíhající případ.
+- Starší znění nejsou archivována ani zveřejněna.
+- Změna přichází těsně po konfliktu, který stará pravidla „nedovolila“ vyřešit.
 
-## Neutralizace
+## První bezpečná reakce
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md))
+**Pro zasaženého:** archivujte znění předpisů, podle nichž jednáte, s daty účinnosti; čtěte novely zejména v definicích a pravomocích a žádejte srovnávací znění ([časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md), [dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)).
 
-## Cross-linky
+**Pro odborníka a poradce:** pomozte rozlišit řádnou revizi (veřejná, zdůvodněná, s přechodnými ustanoveními) od účelové změny se stálým směrem.
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## Kdy a jak eskalovat
+
+Eskalujte, když se změněné pravidlo uplatní zpětně ve váš neprospěch nebo oslabí ochranu oznamovatelů: žádejte přezkum u zřizovatele či kontrolního orgánu, právní posouzení ([pracovní právo](@/kompendium/forensic-legal/44-employment-law-EA.md)) a v instituci [cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md) a [mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md).
+
+## S čím ji nezaměnit
+
+- **Řádná revize předpisů:** veřejná, se zdůvodněním a srovnávacím zněním.
+- **Nekvalitní legislativa:** chaotické změny bez úmyslu a bez stálého směru.
+- **[EA-2.1.10 Rekonfigurace kvalifikačních standardů](@/kompendium/quick-reference/qr-ea-2-1-10.md):** zvláštní případ týkající se kvalifikací.
+- **[EA-2.4.5 Přepis hodnoticích kritérií](@/kompendium/quick-reference/qr-ea-2-4-5.md):** zvláštní případ týkající se hodnocení práce.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.4.2 Skrytý přepis pravidel](@/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.4.2](@/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
+- **Organizace:** [ochrana zakládací listiny](@/kompendium/organizational-defense/2-charter-protection.md) – ochrana stanov.
+- **Sousední karty:** [EA-2.4.1 Zachycení správních orgánů](@/kompendium/quick-reference/qr-ea-2-4-1.md) – kdo změny schvaluje; [EA-2.4.10 Zachycení odborné společnosti](@/kompendium/quick-reference/qr-ea-2-4-10.md) – změny etických kodexů oboru.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

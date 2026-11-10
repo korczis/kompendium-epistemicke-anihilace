@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-1.3.3 Tematická diverze"
-description = "Rychlá referenční karta — Přesměrování diskuse od kritických bodů."
+title = "Rychlá karta EA-1.3.3: Tematická diverze"
+description = "Tematická diverze v kostce: jak poznat, když se rozhovor odvádí od nepříjemné otázky k bezpečným tématům, a jak se k ní vrátit."
 weight = 133
 
 [taxonomies]
@@ -14,39 +14,49 @@ ea_code = "EA-1.3.3"
 toc = false
 +++
 
-# QR Card — EA-1.3.3 Tematická diverze
+# EA-1.3.3 Tematická diverze – karta v kostce
 
-**Definice (1 věta)**: Přesměrování diskuse od kritických bodů.
+**Oblast:** [3.1 Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md), podskupina 1.3 Narušení revize a [falsifikace](@/glossary/falsifikace.md) · **Plná stránka:** [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)
 
-## Operační modus (3 kroky)
+## Co to je
 
-1. Detekce, že debata se blíží k materiálnímu, falsifikujícímu nebo reputačnímu bodu
-2. Vložení atraktivnějšího (afektivně nabitého, kontroverzního, sebe-prezentujícího) tématu — whataboutism, „ale podívejme se na X“, anekdota
-3. Konsolidace přesměrování opakováním a sociálním tlakem, dokud původní bod neztratí trakci a debata se neresetuje na nové ose
+Diskuse se soustavně odvádí od problematických nebo vyvracejících otázek k tématům okrajovým, triviálně pravdivým nebo snadno obhajitelným (*red herring*). Rozhovor působí plynule, a proto si zasažený nevšimne, že ústřední otázka byla opuštěna a nikdy nezodpovězena.
 
-## Detekční markery (3 nejvýraznější)
+## Jak ji poznat
 
-- Časová korelace — přechod na nové téma nastane vždy v okamžiku konkrétní (nikoli obecné) otázky
-- Diverzní téma je jednostranně výhodné pro stranu, která ho zavádí („a co…“, „vy také…“), nikoli neutrální
-- Zpětný návrat k původní otázce vyvolává odpor a další diverzi („ale to už jsme probrali / to je vedlejší“)
+- Řada přesunů od sporné otázky k bezpečným tématům, každý jednotlivě „logický“.
+- Rytmus a změny tématu určuje jedna strana.
+- Přechody nejsou ohlášeny a původní otázka se před přesunem nepotvrdí.
+- Po dlouhé debatě zůstane původní otázka bez odpovědi.
+- Pokus vrátit se k ní je vnímán jako neslušnost nebo umíněnost.
+- Zasažený si nedokáže vybavit, na co se vlastně chtěl zeptat.
 
-## Neutralizační strategie (3 nejúčinnější)
+## První bezpečná reakce
 
-- Strukturovaný protokol — agenda se zapisuje, otázky čekající na odpověď zůstávají na flipchartu, dokud nejsou zodpovězeny
-- Pojmenování („vraťme se k otázce X, na kterou jsme nedostali odpověď“) — meta-úroveň přerušuje vzorec
-- Časový limit per téma + facilitátor s mandátem zastavit diverzi; zápis explicitně označuje „neodpovězeno“
+**Pro zasaženého:** před rozhovorem si otázku napište, i s tím, co by bylo dostatečnou odpovědí. Při odbočce se klidně vraťte: „Vraťme se k mé původní otázce. Můžete na ni odpovědět?“ Opakovaná neodpověď je sama odpovědí ([asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md)).
 
-## Příklad
+**Pro odborníka:** sledujte signaturu [vyhýbání se tématu](@/kompendium/detection-signatures/11-behavioral-topic-evasion.md). V terapii i vyšetřování pomáhá písemný seznam otevřených otázek a jejich odškrtávání.
 
-Při auditu finančního ředitele padne otázka „proč 4 M Kč zmizely z účtu A?“. CFO odpoví: „Mimochodem, máte vůbec přehled, jaký je legislativní rámec pro… a víte, že kolegyně Marta měla loni…“ Po 20 minutách se na původní otázku zapomnělo. Jediná efektivní obrana: zapsat na flipchart „OTEVŘENO: 4 M Kč, účet A“.
+## Kdy a jak eskalovat
 
-## Cross-linky
+Eskalujte, když diverze brání vyřešení stížnosti, vyšetření pochybení nebo bezpečnostního rizika: v instituci je to důvod pro [sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md), zápis s otevřenými body a případně [mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md). Ve vyšetřovacím rozhovoru se drží struktura [forenzního rozhovoru](@/kompendium/forensic-legal/1-forensic-interview-protocol.md).
 
-- **Detailní článek**: [/kompendium/techniques/ea-1-3-3-Tematická-diverze](@/kompendium/techniques/_index.md)
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
-- **Glossary**: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Platformové refs**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}, [NABLA Infinity](@/glossary/nabla-infinity.md)
+## S čím ji nezaměnit
+
+- **Přirozený vývoj rozhovoru:** odbočka, ke které se strany vrátí, a otázka je nakonec zodpovězena.
+- **Nutný kontext:** odpověď vyžaduje vysvětlení souvislostí, ale k otázce dojde.
+- **[Sealioning](@/glossary/sealioning.md):** zahlcuje dotazy; diverze naopak dotazům uhýbá.
+- **[EA-1.3.2 Strategická reinterpretace](@/kompendium/quick-reference/qr-ea-1-3-2.md):** důkaz se nepřehlíží, ale překládá.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-1.3.3](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – mechanismus, kontexty a neutralizace; [kapitola 3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md) – akademické techniky.
+- **Detekce:** [vyhýbání se tématu](@/kompendium/detection-signatures/11-behavioral-topic-evasion.md) – pozorovatelný otisk.
+- **Glosář:** [motte-and-bailey](@/glossary/motte-and-bailey.md) – příbuzný únik na bezpečnější pozici.
+- **Sousední karty:** [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/quick-reference/qr-ea-1-3-1.md) – diverze jako únik od vyvrácení; [EA-1.2.3 Iluzorní komplexita](@/kompendium/quick-reference/qr-ea-1-2-3.md) – nekonečná zásoba odboček; [EA-1.1.2 Informační přetížení](@/kompendium/quick-reference/qr-ea-1-1-2.md) – přetížený člověk otázku neudrží.
 
 ---
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

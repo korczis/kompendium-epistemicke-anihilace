@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.3.9 Sealioning"
-description = "Rychla referencni karta pro EA-2.3.9 (delegitimizace)."
+title = "Rychlá karta EA-2.3.9: Mediální sealioning"
+description = "Mediální sealioning v kostce: jak poznat zdvořilé, ale neukojitelné požadavky na důkazy, které mají odborníka vyčerpat, a jak reagovat."
 weight = 30239
 
 [taxonomies]
@@ -16,33 +16,48 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.3.9 Sealioning
+# EA-2.3.9 Mediální sealioning – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.3 Mediální [delegitimizace](@/glossary/delegitimizace.md) · **Plná stránka:** [EA-2.3.9 Mediální sealioning](@/kompendium/techniques/ea-2-3-9-sealioning-medialni.md)
 
-## Mechanismus
+## Co to je
 
-Aplikace techniky [Sealioning](@/glossary/sealioning.md) ve specifickém kontextu vedoucí k delegitimizaci cíle.
+[Sealioning](@/glossary/sealioning.md) – pojmenovaný podle komiksu Davida Malkiho *Wondermark* (2014) – vkládá do rozhovoru zdvořilé, vytrvalé a neukojitelné požadavky na důkazy a vysvětlení, které se tváří jako dobrá víra, ale slouží k vyčerpání. V mediální podobě míří na veřejně vystupujícího odborníka; když přestane odpovídat, vypadá to, že odpověď nemá.
 
-## Indikatory
+## Jak ji poznat
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](@/glossary/epistemicke-trauma.md), [c-ptsd](@/glossary/c-ptsd.md))
+- Stejná otázka se opakuje i po úplné odpovědi.
+- Tazatelé nereagují na obsah odpovědí.
+- Dotazy přicházejí ve vlnách z více účtů.
+- Při konfrontaci zazní „jen se ptám“.
+- Cíl je kritizován za tón, ne za obsah.
+- Postižený popisuje vyčerpání, pochybnost o vlastní netrpělivosti a past, v níž prohrává odpovědí i mlčením.
 
-## Neutralizace
+## První bezpečná reakce
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md))
+**Pro zasaženého:** odpovězte jednou a úplně, pak odkazujte na tuto odpověď a vzorec klidně pojmenujte („na otázku jsem odpověděl zde“). Nastavte hranice komentářů a nepřijímejte roli obžalovaného ([asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md), [rozpočet pozornosti](@/kompendium/self-defense-guides/34-attention-budget.md)).
 
-## Cross-linky
+**Pro odborníka:** asymetrie nákladů (otázka trvá vteřiny, odpověď hodiny) je jádrem vzorce; pomozte klientovi přestat ji platit. Pocit „možná jsem arogantní“ přerámujte jako účinek vzorce.
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-3-9-sealioning-medialni/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## Kdy a jak eskalovat
+
+Eskalujte, když dotazy přerůstají v obtěžování soukromými kanály, koordinovanou kampaň nebo výhrůžky: zajistěte dokumentaci, hlaste koordinaci platformě a v instituci postupujte podle [komunikační politiky](@/kompendium/organizational-defense/23-communication-policy.md) a [reakce na incident](@/kompendium/organizational-defense/31-incident-response-EA.md). Vyčerpání s úzkostí či depresí patří do klinické péče.
+
+## S čím ji nezaměnit
+
+- **Skutečná zvídavost:** reaguje na odpovědi, přizná, že jí něco vysvětlily, a skončí.
+- **Oprávněná kritika:** opakované upozornění na skutečnou chybu, které odpověď řešící chybu přijme.
+- **Neurodivergentní styl:** opakované a doslovné dotazy jednotlivce bez úmyslu vyčerpat.
+- **[EA-2.5.8 Rekurzivní spirála pochybnosti](@/kompendium/quick-reference/qr-ea-2-5-8.md):** vnitřní obdoba, nekonečné otázky kladené sobě.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.3.9 Mediální sealioning](@/kompendium/techniques/ea-2-3-9-sealioning-medialni.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.3.9](@/kompendium/techniques/ea-2-3-9-sealioning-medialni.md) – původ pojmu, mechanismus a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře delegitimizace.
+- **Glosář:** [double bind](@/glossary/double-bind.md) – past odpovědi i mlčení; [gish gallop](@/glossary/gish-gallop.md) – příbuzné zahlcení tvrzeními.
+- **Sousední karty:** [EA-2.3.5 Zesilování pseudokontroverze](@/kompendium/quick-reference/qr-ea-2-3-5.md) – pochybnost jako zbraň; [EA-1.3.3 Tematická diverze](@/kompendium/quick-reference/qr-ea-1-3-3.md) – opačný únik.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

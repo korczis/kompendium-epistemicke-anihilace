@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-2.4.5 Evaluation criteria rewrite"
-description = "Rychla referencni karta pro EA-2.4.5 (delegitimizace)."
+title = "Rychlá karta EA-2.4.5: Přepis hodnoticích kritérií"
+description = "Přepis hodnoticích kritérií v kostce: jak poznat kritéria hodnocení práce přepsaná ve prospěch jedné frakce, a jak reagovat."
 weight = 30245
 
 [taxonomies]
@@ -16,33 +16,48 @@ risk_level = "high"
 toc = false
 +++
 
-# QR Card — EA-2.4.5 Evaluation criteria rewrite
+# EA-2.4.5 Přepis hodnoticích kritérií – karta v kostce
 
-**Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
+**Oblast:** [3.2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md), podskupina 2.4 Institucionální zachycení · **Plná stránka:** [EA-2.4.5 Přepis hodnoticích kritérií](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md)
 
-## Mechanismus
+## Co to je
 
-Aplikace techniky Evaluation criteria rewrite ve specifickém kontextu vedoucí k delegitimizaci cíle.
+Kritéria, podle nichž instituce hodnotí výzkum, výuku, klinickou či jinou práci, se změní tak, aby zvýhodnila jednu skupinu, metodu nebo typ práce. Navenek jde o modernizaci; ve skutečnosti se mění, co instituce považuje za kvalitní poznání. Lidé se podle kritérií chovají – na to v obecné podobě upozorňuje Goodhartův zákon: ukazatel, který se stane cílem, přestává dobře měřit.
 
-## Indikatory
+## Jak ji poznat
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](@/glossary/epistemicke-trauma.md), [c-ptsd](@/glossary/c-ptsd.md))
+- Pracovní skupinu pro kritéria tvoří jedna frakce.
+- Výuka, praxe či monografie mizí nebo dostanou nízkou váhu.
+- Hodnocení se redukuje na indexy bez obsahového posouzení.
+- Dopad prvního kola se soustředí na jednotky s jiným profilem.
+- Nová kritéria se uplatní zpětně.
+- Zaměstnanci popisují „neviditelnou práci“ a honbu za body.
 
-## Neutralizace
+## První bezpečná reakce
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md))
+**Pro zasaženého:** dokumentujte celou šíři své práce, účastněte se připomínkování a spojte se s kolegy z jiných jednotek; nepřizpůsobujte se na úkor kvality bez vědomého rozhodnutí ([vyjasnění hodnot](@/kompendium/self-defense-guides/44-axiology-clarification.md), [diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md)).
 
-## Cross-linky
+**Pro odborníka a poradce:** pomozte odlišit legitimní reformu (pluralitní příprava, pilotní kolo, analýza dopadu, přechodná období) od vnucení jednoho oborového profilu ostatním. Kritiku redukce hodnocení na impakt časopisu formuluje například Sanfranciská deklarace o hodnocení výzkumu (DORA).
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite/](@/kompendium/techniques/_index.md)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
-- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
+## Kdy a jak eskalovat
+
+Eskalujte, když kritéria působí zpětně, vedou k propouštění nebo rušení jednotek bez obsahového posouzení: žádejte pilotní kolo bez finančních dopadů a analýzu dopadu, využijte [kulturní průzkum](@/kompendium/organizational-defense/15-culture-survey-EA.md), [sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md) a pracovněprávní ochranu ([pracovní právo](@/kompendium/forensic-legal/44-employment-law-EA.md)).
+
+## S čím ji nezaměnit
+
+- **Legitimní reforma hodnocení:** připravená pluralitně, pilotovaná a revidovaná.
+- **Sladění s praxí oboru:** oprávněné, dokud se jeden obor nevnucuje ostatním.
+- **[EA-2.1.10 Rekonfigurace kvalifikačních standardů](@/kompendium/quick-reference/qr-ea-2-1-10.md):** individuální obdoba.
+- **[EA-2.4.2 Skrytý přepis pravidel](@/kompendium/quick-reference/qr-ea-2-4-2.md):** obecnější změna předpisů.
+
+**Zdroj:** karta shrnuje plnou stránku [EA-2.4.5 Přepis hodnoticích kritérií](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
+
+## Související
+
+- **Technika a kapitola:** [plná stránka EA-2.4.5](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
+- **Glosář:** [epistemická monokultura](@/glossary/epistemicka-monokultura.md) – důsledek jediného kritéria kvality.
+- **Sousední karty:** [EA-2.4.3 Přesměrování financí](@/kompendium/quick-reference/qr-ea-2-4-3.md) – peníze podle nových kritérií; [EA-2.4.9 Zachycení kurikula](@/kompendium/quick-reference/qr-ea-2-4-9.md) – kritéria ve výuce.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

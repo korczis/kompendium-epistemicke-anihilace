@@ -1,6 +1,6 @@
 +++
-title = "QR: EA-5.1.9 Identitni dezintegrace"
-description = "Rychla referencni karta pro ultramarine techniku Identitni dezintegrace (epistemicka singularita)."
+title = "Rychlá karta EA-5.1.9: Identitní dezintegrace"
+description = "Identitní dezintegrace v kostce: jak poznat rozpouštění osobní kontinuity a narativní identity, první bezpečná reakce a eskalace."
 weight = 10009
 
 [taxonomies]
@@ -16,60 +16,49 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.1.9 Identitní dezintegrace
+# EA-5.1.9 Identitní dezintegrace – karta v kostce
 
-> WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
+**Oblast:** [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md), skupina 5.1 · **Plná stránka:** [EA-5.1.9 Identitní dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
 
-**Doména**: [Epistemická singularita](@/glossary/epistemicka-singularita.md) — destrukce subjektovy schopnosti udržet narativní kontinuitu vlastní identity napříč časem.
+> Přístupová úroveň L3. Karta slouží k rozpoznání a ochraně; popis je strukturní, ne návod.
 
-## Definice
+## Co to je
 
-**Identitní dezintegrace** systematicky rozkládá narativní kontinuitu subjektu skrze opakované zpochybňování paměti, retroaktivní reinterpretace minulých rozhodnutí a vytváření protichůdných verzí „kdo jsi“. Subjekt postupně ztrácí přístup k *já-narativu* — koherentnímu příběhu, jenž integruje minulost, přítomnost a budoucnost do identitní jednoty. V terminálním stadiu zažívá *narativní vakuum*: faktické vzpomínky existují, ale neskládají se do osoby. Strukturálně je technika příbuzná Ricoeurově *narrative identity* aplikovanou destruktivně — manipulátor přebírá roli vypravěče, jenž subjektu poskytuje „správnou“ verzi jeho příběhu.
+Rozpouští se [narativní identita](@/glossary/narativni-identita.md) – kontinuita já, které si pamatuje, plánuje a hlásí se k minulým volbám. Nemění se obsah identity (profese, hodnoty), ale ničí se „lepidlo“, které ji drží v čase pohromadě; výsledkem je sebefragmentace, odcizení a ztráta schopnosti předvídat vlastní jednání.
 
-## Operační modus (5 kroků)
+## Jak ji poznat
 
-1. **Akviziční mapování biografie** — manipulátor sbírá detaily subjektovy minulosti pod záminkou intimního zájmu.
-2. **Reinterpretační injekce** — klíčové momenty jsou retroaktivně přerámovány („vlastně jsi tehdy chtěl/a něco jiného“).
-3. **Paměťová eroze skrze kontradikci** — manipulátor opakovaně tvrdí verze událostí, jež jsou v rozporu se subjektovou pamětí.
-4. **Náhradní narativ** — manipulátor nabídne „skutečnou“ verzi subjektovy historie, jež je internalizována.
-5. **Identitní substituce** — subjekt přestává mít přístup k vlastnímu narativu, žije v narativu manipulátora.
+- Člověk mluví o sobě ve třetí osobě nebo s odstupem.
+- Opakovaně relativizuje vlastní vzpomínky a motivy.
+- Náhle mění ústřední hodnoty bez spouštěcí události.
+- Neumí odpovědět na otázku „co bys udělal v situaci X?“.
+- Vlastní fotografie a deníky v něm vyvolávají odcizení.
+- Popisuje [depersonalizaci](@/glossary/depersonalizace.md) („dívám se na sebe zvenčí“) a derealizaci („svět je za sklem“).
 
-## Fenomenologické znaky
+## První bezpečná reakce
 
-| Znak | Popis |
-|------|-------|
-| **Narativní propast** | Pocit, že "můj život před setkáním s X je nejasný" |
-| **Retroaktivní pochybnost** | Vlastní rozhodnutí v minulosti působí jako cizí nebo chybná |
-| **Identitní úzkost** | "Nevím, kdo jsem, když nejsem s ním/ní" |
-| **Paměťová deferencionace** | Při dotazu na minulost subjekt nejprve referuje k manipulátorovi |
+**Pro zasaženého:** vyhledejte dlouholeté blízké, kteří vás znali před začátkem působení, a mluvte s nimi o tom, jak vás vnímali; zapisujte, jakou kontinuitu vidí. Procházejte vlastní zápisky a fotografie z dřívějška – ne abyste se „vrátili“, ale abyste znovu navázali souvislost ([časové sešívání já](@/kompendium/self-defense-guides/49-temporal-self-stitching.md), [integrace životního příběhu](@/kompendium/self-defense-guides/45-life-story-integration.md)).
 
-## Detekční markery
+**Pro odborníka:** stabilizace má přednost před rozkrýváním; zjistěte, zda skupina nebo vztah nevyžaduje „smrt starého já“.
 
-| Marker | Indikuje |
-|--------|----------|
-| Subjektovy vzpomínky **systematicky korespondují** s manipulátorovou verzí | Narativní substituci |
-| Stará přátelství/rodina jsou postupně **delegitimizovány** | Identitní izolaci |
-| Subjekt **přepisuje** vlastní biografii v dopisech, denících | Aktivní reinterpretaci |
-| Při separaci od manipulátora subjekt **nedokáže** odpovědět "kdo jsi" | Konsolidovanou substituci |
+## Kdy a jak eskalovat
 
-## Neutralizace
+Eskalujte při akutní disociaci, sebepoškozování nebo suicidálních myšlenkách: [akutní disociativní stav](@/kompendium/emergency-protocols/4-acute-dissociation-EA.md), [suicidální riziko](@/kompendium/emergency-protocols/2-suicide-risk-EA.md). Dále diferenciální diagnostika vůči disociativním poruchám a cPTSD ([6.2](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)) a [rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md).
 
-- **Externí archivace biografie** — datované záznamy, fotografie, dopisy, diáře, jež odolávají retroaktivní revizi.
-- **Triangulace s rodinou původu** — kontakt se starými svědky života před manipulačním vztahem.
-- **Narativní rekonstrukce v terapii** — explicitní práce s biografií, často 12–36 měsíců.
+## S čím ji nezaměnit
 
-## Klinický kontext
+- **Disociativní porucha identity a [komplexní trauma](@/glossary/complex-trauma.md):** klinické obrazy s vlastní etiologií; mohou se s EA překrývat.
+- **Životní přechod:** změna identity, kterou člověk prožívá jako vlastní a souvislou.
+- **Depersonalizační-derealizační porucha:** bez vnějšího přerámování identity.
+- **[EA-5.1.25 Singulární narativní kolaps](@/kompendium/quick-reference/qr-ea-5-1-25.md):** zhroucení životního příběhu do jediného rámce.
 
-Identitní dezintegrace se vyskytuje v dlouhodobém koerzivně-kontrolním vztahu, sektářském kontextu (vstupní rituál často zahrnuje „smrt starého já“), v traumatickém kultu osobnosti a v některých formách dlouhodobé hospitalizace, jež degradují biografickou paměť. Diferenciálně se odlišuje od **legitimního terapeutického reframingu** (který subjektovi pomáhá integrovat, ne nahradit, vlastní narativ). Reverzibilita: vysoká, pokud existují externí narativní svědci; velmi nízká, pokud byl subjekt izolován od původní biografie.
+**Zdroj:** karta shrnuje plnou stránku [EA-5.1.9 Identitní dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md); literaturu k technice a doklady k tvrzením uvádí tato stránka, karta žádný další zdroj nepřidává.
 
-## Cross-linky
+## Související
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
-- **Detailní článek**: [EA-5.1.9 Identitní dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
-- **Sourozenecké techniky**: [EA-5.1.10 Temporální dekoherence](@/kompendium/quick-reference/qr-ea-5-1-10.md), [EA-5.1.18 Solipsistická dekompozice](@/kompendium/quick-reference/qr-ea-5-1-18.md), [EA-5.1.25 Singulární narativní kolaps](@/kompendium/quick-reference/qr-ea-5-1-25.md)
-- **Glossary**: [Narativní identita](@/glossary/narativni-identita.md), [Coercive control](@/glossary/coercive-control.md), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Gaslighting](@/glossary/gaslighting.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Narativní rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Platforma**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine narrative trace" /> }}, [Color Teams identity protokol](@/glossary/color-teams.md)
+- **Technika a kapitola:** [plná stránka EA-5.1.9](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) – mechanismus, případy a neutralizace; [kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) – [epistemická singularita](@/glossary/epistemicka-singularita.md).
+- **Glosář:** [identity destruction](@/glossary/identity-destruction.md) – krajní podoba.
+- **Sousední karty:** [EA-5.1.10 Temporální dekoherence](@/kompendium/quick-reference/qr-ea-5-1-10.md) – rozpad prožívaného času; [EA-5.1.8 Konceptuální fragmentace](@/kompendium/quick-reference/qr-ea-5-1-8.md) – fragmentace pojmů já a paměť.
 
 ---
 

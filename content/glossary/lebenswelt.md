@@ -21,84 +21,192 @@ image_alt = "Lebenswelt – glosář"
 
 ## Definice
 
-**Lebenswelt** – obvykle překládáno jako **žitý svět** (*lifeworld*) – je termín Edmunda Husserla, ústředně rozvinutý v *Krizi evropských věd a transcendentální fenomenologii* (1936), pro **předteoretický, samozřejmě přijímaný horizont** bezprostřední zkušenosti, na němž stojí veškerá následná poznávací činnost včetně vědecké teorie. Žitý svět není to, *o čem* přemýšlíme; je to pozadí, na kterém se jakékoli přemýšlení o něčem může odehrát.
+Lebenswelt, česky žitý svět (*lifeworld*), je termín Edmunda Husserla pro předteoretický,
+samozřejmě přijímaný horizont bezprostřední zkušenosti, na němž stojí veškerá další poznávací
+činnost včetně vědecké teorie (Husserl, 1936). Žitý svět není to, o čem přemýšlíme; je to
+pozadí, na němž se jakékoli přemýšlení o něčem může vůbec odehrát, a jako pozadí zůstává
+nepovšimnut (Husserl, 1913).
 
-Husserl pojem rozvinul proti tomu, co diagnostikoval jako „krizi“ moderní vědy: nahrazení žitého světa idealizovaným matematicko-fyzikálním univerzem, přestože věda měla svůj smysl původně právě v žitém světě. Žitý svět je *dřívější* než každá teoretická konstrukce a *zakládá* ji – včetně konstrukce, která si nárokuje jej nahradit. Nesetkáváme se nejprve s elektrony, abychom pak zkonstruovali žitý svět; nejprve obýváme žitý svět, v němž má činnost *měření* a *teoretizování* smysl, a uvnitř této činnosti vytváříme pojem elektronu.
+Husserl pojem rozvinul proti tomu, co označil za krizi moderní vědy: za nahrazení žitého světa
+idealizovaným matematicko-fyzikálním univerzem, přestože věda svůj smysl původně získala právě
+v žitém světě (Husserl, 1936). Nesetkáváme se nejprve s elektrony, abychom pak zkonstruovali
+žitý svět; nejprve obýváme svět, v němž má měření a teoretizování smysl, a teprve uvnitř této
+činnosti vzniká pojem elektronu (Husserl, 1936).
 
-Pro epistemickou bezpečnost jsou podstatné čtyři strukturní rysy žitého světa:
-
-1. **danost** – je *už tu*, nevzniká aktem pozornosti;
-2. **horizontová struktura** – není souhrnem předmětů, ale strukturovaným pozadím možností;
-3. **intersubjektivita** – je sdílený, ne soukromý („žitý svět jednoho“ je nesoudržný pojem);
-4. **dějinnost** – každý žitý svět je usazeninou činného života předchozích generací, vtělenou do jazyka, institucí a praktik.
-
-Žitý svět je **nejhlubší vrstvou poznání**. Proto je také nejhlubším cílem [epistemické anihilace](@/glossary/epistemicka-anihilace.md): poškození konkrétních přesvědčení je napravitelné; poškození žitého světa ohrožuje *podmínku možnosti* jakéhokoli přesvědčení.
+Pro epistemickou bezpečnost jsou podstatné čtyři rysy žitého světa. Je už tu a nevzniká aktem
+pozornosti; není souhrnem předmětů, ale strukturovaným pozadím možností, tedy horizontem
+(Husserl, 1913); je sdílený, takže „žitý svět jednoho“ je nesoudržný pojem; a je dějinný, neboť
+každý žitý svět je usazeninou činného života předchozích generací, vtělenou do jazyka,
+institucí a praktik (Schütz a Luckmann, 1975).
 
 ## Původ a kontext pojmu
 
-Pojem navazuje na Husserlovy analýzy [intencionality](@/glossary/intentionalita.md) a horizontu. Rozvinuli jej Alfred Schutz (sociologie každodennosti), Jan Patočka (přirozený svět jako filozofický problém) a Jürgen Habermas, pro něhož je žitý svět zdrojem sdílených významů, ohrožovaným „kolonizací“ systémovou racionalitou trhu a byrokracie. Blízká je Heideggerova analýza bytí-ve-světě ([Heidegger: bytí ve světě](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md)) a Merleau-Pontyho fenomenologie tělesného vnímání. Kniha pojem vykládá v kapitole [Lebenswelt](@/kompendium/03-zakladni-kategorie/lebenswelt.md).
+Pojem navazuje na Husserlovy analýzy [intencionality](@/glossary/intentionalita.md)
+a horizontu, v nichž je každý akt vědomí zaměřen k něčemu na pozadí nevyslovených
+předpokladů (Husserl, 1913). Sociologicky jej rozpracovali Alfred Schütz a Thomas Luckmann
+jako strukturu každodennosti s vrstvami samozřejmého vědění, které člověk přejímá, aniž by je
+prověřoval (Schütz a Luckmann, 1975).
+
+V české tradici pojem rozvinul Jan Patočka jako problém přirozeného světa, který věda
+nenahrazuje, ale předpokládá (Patočka, 1936). Jürgen Habermas žitý svět vyložil jako zdroj
+sdílených významů, ohrožovaný „kolonizací“ systémovou racionalitou trhu a byrokracie
+(Habermas, 1981). Blízká je Heideggerova analýza bytí-ve-světě, podle níž je rozumění světu
+primárně praktické, ne teoretické (Heidegger, 1927); knižní rozbor je v kapitole [Heidegger:
+bytí ve světě](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md). Tělesnou stránku
+téhož ukotvení popsal Maurice Merleau-Ponty (Merleau-Ponty, 1945). Výklad knihy je v kapitole
+[Lebenswelt](@/kompendium/03-zakladni-kategorie/lebenswelt.md).
 
 ## Jak se projevuje
 
-Tři diagnostické znaky poškození žitého světa:
+Poškození žitého světa se podle výkladu knihy pozná podle tří znaků (*interpretace knihy*).
+Prvním je derealizace, při níž člověk popisuje, že svět sám se stal neskutečným nebo „tenkým“;
+týž prožitek je v klinické podobě samostatně vymezen jako porucha s vlastními kritérii
+(American Psychiatric Association, 2022).
 
-1. **derealizace** – člověk popisuje, že *svět sám* se stal neskutečným nebo „tenkým“;
-2. **intersubjektivní kolaps** – člověk už nemůže předpokládat sdílenou skutečnost s druhými, ani s těmi, kdo mu nijak neškodí;
-3. **kolaps horizontu** – strukturované pozadí možností se zploští buď do klaustrofobie („nic jiného není možné“), nebo do závratné nerozlišenosti („všechno je možné, nic nemá váhu“).
+Druhým znakem je kolaps intersubjektivity: člověk už nemůže předpokládat sdílenou skutečnost
+s druhými, a to ani s těmi, kdo mu nijak neškodí. Pro fenomenologickou psychopatologii je právě
+ztráta samozřejmé sdílenosti světa jádrem nejtěžších poruch sebeprožívání (Sass a Parnas,
+2003). Třetím znakem je kolaps horizontu, při němž se strukturované pozadí možností zploští
+buď do neprostupnosti, nebo do nerozlišenosti, v níž nic nemá váhu; obdobné proměny časové
+a možnostní struktury zkušenosti popisuje fenomenologicky orientovaná psychopatologie
+(Fuchs, 2013).
 
-Tyto znaky *nejsou* příznaky v běžném psychiatrickém smyslu – jsou to strukturně-fenomenologická diagnostika, která psychiatrickým příznakům *předchází* a *leží pod nimi*. V knize je zachycují signatury [nejistoty ohledně skutečnosti](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md) a [časové dezorientace](@/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md).
+Tyto znaky nejsou příznaky v běžném psychiatrickém smyslu; jsou strukturním popisem, který
+příznakům předchází a leží pod nimi, a jehož jazyk je odvozen z fenomenologie, ne z klasifikace
+nemocí (Sass a Parnas, 2003). V knize je zachycují signatury [nejistoty ohledně
+skutečnosti](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md)
+a [časové
+dezorientace](@/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md).
 
-### Obecný příklad
-
-*Anonymizovaná, obecná ilustrace; nejde o konkrétní případ.*
-
-Žena po odchodu z dlouholeté izolované komunity popisuje, že „všechno vypadá jako kulisa“: obchody, lidé na ulici, rozhovory s rodiči. Nevěří ani tomu, co dříve považovala za samozřejmé – že soused je jen soused, že zpráva v rádiu je jen zpráva. Nemá psychotické příznaky. Pomáhá jí teprve pravidelný rytmus: každé ráno stejná procházka se sestrou, společné vaření, práce na zahradě. Teprve po měsících, kdy se samozřejmosti vrátí, je schopna mluvit o tom, čemu ve skupině věřila.
+Obecná, anonymizovaná ilustrace: žena po odchodu z dlouholeté izolované komunity popisuje, že
+„všechno vypadá jako kulisa“ – obchody, lidé na ulici, rozhovory s rodiči – a nevěří ani tomu,
+co dřív považovala za samozřejmé. Psychotické příznaky nemá. Pomáhá jí teprve pravidelný
+rytmus: stejná procházka se sestrou, společné vaření, práce na zahradě. Obnova každodenního
+řádu a vztahů před prací na obsahu odpovídá obecnému pořadí zotavení z chronického traumatu
+(Herman, 1992).
 
 ## Mechanismus
 
-V modelu hrozby platformy Prismatic, z níž kniha vzešla, je poškození žitého světa považováno za **vrstvu nejvyšší závažnosti** v [taxonomii Kompendia](@/glossary/taxonomie-ea.md). Na této úrovni působí zejména nejzávažnější techniky páté části taxonomie – techniky, které narušují základní smysl toho, *co je skutečné, co je sdílené, co se bere za samozřejmé*: předpojmový rozklad ([Pre-konceptuální rozklad](@/kompendium/05-pre-konceptualni-rozklad/_index.md)), například [EA-5.5.23 Rozklad liminálního prostoru](@/kompendium/techniques/ea-5-5-23-liminalni-prostor-rozklad.md), a transcendentální rozklady, například [EA-5.2.18 Heideggerovské rozklady](@/kompendium/techniques/ea-5-2-18-heideggerovska-rozklady.md).
+Strukturálně jde o útok na samozřejmost a na sdílenost. Uzavřené prostředí může nahradit
+sdílený každodenní svět vlastním – jiným jazykem, jiným rytmem dne, jinými samozřejmostmi –,
+a popisy prostředí s vysokou kontrolou tuto výměnu dokládají jako jejich běžnou vlastnost
+(Lifton, 1961). Po odchodu pak člověk nemá kam se vrátit: starý žitý svět už nesdílí a nový se
+rozpadl (*interpretace knihy*).
 
-Strukturálně jde o útok na **intersubjektivitu a samozřejmost**. Uzavřené prostředí může nahradit sdílený každodenní svět vlastním: jiný jazyk, jiný rytmus dne, jiné „samozřejmosti“. Po odchodu člověk nemá kam se vrátit – starý žitý svět už nesdílí a nový se rozpadl. Habermasovským jazykem jde o krajní podobu kolonizace žitého světa.
+Habermasovským jazykem jde o krajní podobu kolonizace žitého světa, v níž je sdílené porozumění
+vytlačeno cizí logikou (Habermas, 1981). Protože je žitý svět nesen tělesným ukotvením
+v prostoru a pohybu, zasahují jej i režimy, které tělesnou zkušenost dlouhodobě ruší
+(Merleau-Ponty, 1945); tento tělesný rozměr rozebírá heslo [tělesné
+schéma](@/glossary/body-schema.md).
+
+V taxonomii knihy je poškození žitého světa vrstvou nejvyšší závažnosti; působí na ni zejména
+techniky páté části taxonomie, které zasahují smysl toho, co je skutečné a co se bere za
+samozřejmé – [pre-konceptuální
+rozklad](@/kompendium/05-pre-konceptualni-rozklad/_index.md), například [rozklad liminálního
+prostoru](@/kompendium/techniques/ea-5-5-23-liminalni-prostor-rozklad.md), a transcendentální
+rozklady, například [heideggerovské
+rozklady](@/kompendium/techniques/ea-5-2-18-heideggerovska-rozklady.md). Důvodem pro nejvyšší
+závažnost je, že jde o vrstvu, kterou Husserl popisuje jako zakládající pro každé další
+poznání (Husserl, 1936). Zařazení i pořadí
+závažnosti jsou soustavou knihy (*interpretace knihy*) podle zásad v [metodologických
+poznámkách](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Odlišení
 
-- **Od světového názoru:** názor lze vyslovit a polemizovat s ním; žitý svět je předpokladem toho, že něco vůbec vyslovujeme.
-- **Od [konsenzuální reality](@/glossary/konsenzualni-realita.md):** sdílená představa skutečnosti je vyšší, tematizovaná vrstva; žitý svět ji nese.
-- **Od [depersonalizace](@/glossary/depersonalizace.md) a derealizace jako poruchy:** klinická derealizace je stav jednotlivce s vlastní diagnostikou; poškození žitého světa je strukturní popis, který s ní může, ale nemusí souviset.
-- **Od [ontologické anihilace](@/glossary/ontologicka-anihilace.md):** pojem Kompendia pro mezní případ zániku sdílené kotvy skutečnosti; poškození žitého světa je jeho fenomenologický popis.
+Od světového názoru se žitý svět liší tím, že názor lze vyslovit a polemizovat s ním, zatímco
+žitý svět je předpokladem toho, že vůbec něco vyslovujeme (Husserl, 1936). Od [konsenzuální
+reality](@/glossary/konsenzualni-realita.md) se liší vrstvou: sdílená představa skutečnosti je
+už tematizovaná, žitý svět ji nese jako nevyslovené pozadí (Schütz a Luckmann, 1975).
+
+Od [depersonalizace](@/glossary/depersonalizace.md) a derealizace jako klinické poruchy se
+odlišuje povahou tvrzení: porucha je stav jednotlivce s vlastními diagnostickými kritérii
+a vyžaduje odbornou péči (American Psychiatric Association, 2022), kdežto poškození žitého
+světa je strukturní popis, který s ní může, ale nemusí souviset. Od poruch sebeprožívání
+u psychotických onemocnění se odlišuje tím, že u nich jde o primární proměnu minimálního
+sebeprožívání, nikoli o následek prostředí (Sass a Parnas, 2003).
+
+Od [ontologické anihilace](@/glossary/ontologicka-anihilace.md), což je pojem knihy pro mezní
+případ zániku sdílené kotvy skutečnosti, se poškození žitého světa liší jako jeho
+fenomenologický popis od jeho krajního výsledku (*interpretace knihy*); obě roviny spojuje
+pouze tvrzení o jejich pořadí, které kniha nedokládá měřením (Husserl, 1936).
 
 ## Význam pro Kompendium
 
-Tři diagnostické znaky uvedené výše řídí kalibraci závažnosti v [Decision Engine](@/glossary/decision-engine.md) platformy. Doktrína zotavení platformy i knihy dává **obnově žitého světa přednost před zvládáním příznaků**: nejprve stabilizovat intersubjektivní půdu (důvěryhodní druzí, sdílené každodenní praktiky, opakující se tělesné činnosti), teprve potom jakákoli propoziční terapie. Pořadí popisuje [Sekvence](@/kompendium/recovery-protocols/sekvence.md), konkrétní postup protokol [Žitý svět](@/kompendium/recovery-protocols/lifeworld.md).
+Z pojmu plyne pro knihu praktické pravidlo: obnova žitého světa má přednost před zvládáním
+příznaků. Nejprve se stabilizuje intersubjektivní půda – důvěryhodní druzí, sdílené každodenní
+praktiky, opakující se tělesné činnosti – a teprve potom přichází práce s obsahem přesvědčení;
+toto pořadí odpovídá obecnému pořadí zotavení z chronického traumatu (Herman, 1992). Konkrétní
+podobu má protokol [žitý svět](@/kompendium/recovery-protocols/lifeworld.md), pořadí kroků
+popisuje [sekvence](@/kompendium/recovery-protocols/sekvence.md).
+
+Druhým důsledkem je, že kniha žitý svět používá jako kritérium závažnosti: čím hlubší vrstvu
+zkušenosti zásah zasáhne, tím méně stačí propoziční náprava, protože poškozeno není
+přesvědčení, ale podmínka jeho možnosti (Husserl, 1936). Toto uspořádání je vlastním výkladem
+knihy, ne nálezem fenomenologické literatury (*interpretace knihy*), opřeným o zásady
+v [etických aspektech Kompendia](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Obrana a zotavení
 
-- **Pro dotčeného:** návrat k jednoduchým sdíleným činnostem – vaření s někým, procházky, ruční práce, pravidelný rytmus dne; obnova vztahů, v nichž není třeba nic dokazovat ([vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md)); [uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md).
-- **Pro profesionála:** nezačínat rozborem přesvědčení; podporovat [komunitní obnovu](@/kompendium/recovery-protocols/longterm-community-rebuilding.md) a [sociální propojení](@/kompendium/recovery-protocols/acute-social-reconnection.md); počítat s tím, že návrat samozřejmostí je pomalý a nedá se urychlit argumentem.
+Pro dotčeného je nejúčinnější návrat k jednoduchým sdíleným činnostem – společnému vaření,
+procházkám, ruční práci, pravidelnému rytmu dne – a obnova vztahů, v nichž není třeba nic
+dokazovat, protože samozřejmost se nedá argumentem obnovit, jen žitím (Schütz a Luckmann,
+1975). Navazují [vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md)
+a [uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md), jejichž
+tělesná opora odpovídá tomu, že vnímání je nejprve tělesné (Merleau-Ponty, 1945).
+
+Pro profesionála platí, že se nezačíná rozborem přesvědčení a že návrat samozřejmostí je
+pomalý; obnova sociálního světa je součástí léčby, ne její předehrou (Herman, 1992). Navazují
+protokoly [komunitní obnovy](@/kompendium/recovery-protocols/longterm-community-rebuilding.md)
+a [sociálního propojení](@/kompendium/recovery-protocols/acute-social-reconnection.md);
+u příznaků, které dosáhnou klinické úrovně, má přednost diagnostika a léčba podle platných
+kritérií (American Psychiatric Association, 2022).
+
+## Meze pojmu a kritika
+
+Žitý svět je pojem fenomenologický, ne měřitelný; neexistuje nástroj, který by jeho poškození
+kvantifikoval, a jeho popis vždy zůstává popisem zkušenosti z první osoby (Husserl, 1936).
+Fenomenologická psychopatologie proto pracuje s pečlivě vedeným rozhovorem, ne se škálami,
+a sama upozorňuje na mez takového přístupu (Sass a Parnas, 2003).
+
+Druhou mezí je sváděnivost pojmu k dramatickým tvrzením. Z toho, že je žitý svět nejhlubší
+vrstvou, neplyne, že jeho poškození je nevratné; dokládané průběhy naopak ukazují, že
+každodenní řád a vztahy se obnovují, byť pomalu (Herman, 1992). Kniha proto o nevratnosti
+netvrdí nic a riziko nadužití rámce rozebírá kapitola [Přesah
+rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
 
 ## Literatura
 
-- Edmund Husserl: *Die Krisis der europäischen Wissenschaften und die transzendentale Phänomenologie* (1936).
-- Alfred Schütz, Thomas Luckmann: *Strukturen der Lebenswelt* (1975).
-- Jan Patočka: *Přirozený svět jako filosofický problém* (1936).
-- Jürgen Habermas: *Theorie des kommunikativen Handelns* (1981).
+- American Psychiatric Association (2022). *Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR)*. American Psychiatric Publishing.
+- Fuchs, T. (2013). *Temporality and psychopathology*. Phenomenology and the Cognitive Sciences.
+- Habermas, J. (1981). *Theorie des kommunikativen Handelns*. Suhrkamp.
+- Heidegger, M. (1927). *Sein und Zeit*. Niemeyer.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Husserl, E. (1913). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie*. Niemeyer.
+- Husserl, E. (1936). *Die Krisis der europäischen Wissenschaften und die transzendentale Phänomenologie*. Philosophia.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Patočka, J. (1936). *Přirozený svět jako filosofický problém*. Ústřední nakladatelství a knihkupectví učitelstva československého.
+- Sass, L. A., & Parnas, J. (2003). *Schizophrenia, consciousness, and the self*. Schizophrenia Bulletin.
+- Schütz, A., & Luckmann, T. (1975). *Strukturen der Lebenswelt*. Luchterhand.
 
 ## Související
 
 **Pojmy**
 
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – nadřazený rámec hrozby.
-- [Intencionalita](@/glossary/intentionalita.md) – husserlovská intencionální struktura.
-- [Embodied Cognition](@/glossary/embodied-cognition.md) – enaktivistické paralelní ukotvení.
-- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – poškození kognitivních procesů.
-- [Narrative Trauma](@/glossary/narrative-trauma.md) – narativní poškození na úrovni žitého světa.
-- [Metakognice](@/glossary/metakognice.md) – reflexe předpokládá žitý svět.
+- [Intencionalita](@/glossary/intentionalita.md) – husserlovská struktura vědomí.
+- [Tělesné schéma](@/glossary/body-schema.md) – tělesná opora žitého světa.
+- [Embodied cognition](@/glossary/embodied-cognition.md) – příbuzný teoretický rámec.
+- [Konsenzuální realita](@/glossary/konsenzualni-realita.md) – vyšší, tematizovaná vrstva.
+- [Depersonalizace](@/glossary/depersonalizace.md) – klinický obraz, k odlišení.
+- [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) – mezní případ v pojmech knihy.
 
 **Kniha**
 
 - [Lebenswelt](@/kompendium/03-zakladni-kategorie/lebenswelt.md) – kapitola základních kategorií.
 - [Žitý svět](@/kompendium/recovery-protocols/lifeworld.md) – protokol obnovy.
 - [Sekvence](@/kompendium/recovery-protocols/sekvence.md) – pořadí kroků zotavení.
+- [Pre-konceptuální rozklad](@/kompendium/05-pre-konceptualni-rozklad/_index.md) – kapitola o technikách pod úrovní pojmů.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

@@ -1,7 +1,7 @@
 +++
 title = "Narativní identita (narrative identity)"
 weight = 6
-description = "Psychologický a filosofický konstrukt, podle něhož identitu tvoří vnitřní životní příběh spojující minulost, přítomnost a budoucnost; klinický a forenzní pohled."
+description = "Konstrukt, podle něhož identitu tvoří vnitřní životní příběh spojující minulost, přítomnost a budoucnost: psychologická opora, klinický a forenzní pohled, kritika."
 
 [taxonomies]
 tags = ["glossary", "psychology", "identity", "narativni-identita", "clinical", "kompendium"]
@@ -12,11 +12,11 @@ status = "active"
 author = "Tomas Korcak (korczis)"
 difficulty = "intermediate"
 date_created = "2026-05-03"
-date_updated = "2026-05-03"
+date_updated = "2026-11-10"
 importance = "high"
 related_terms = ["pragmaticka-kompetence", "epistemicke-trauma", "ego-death", "identity-destruction", "anihilacni-fenomeny", "reality-testing"]
 keywords = ["narrative identity", "McAdams", "Ricoeur", "life story", "self-construction", "biographical coherence", "personality"]
-key_takeaway = "Narativní identita is the medium through which a person sustains themselves as a continuous agent over time. Its disruption — through trauma, coercion, or pathology — produces measurable distress; its restoration is the operational goal of most depth therapies."
+key_takeaway = "Narativní identita je prostředí, v němž se člověk udržuje jako týž jednající v čase; její narušení traumatem, nátlakem nebo poruchou působí měřitelnou tíseň a její obnova je cílem většiny hloubkových terapií."
 see_also = ["epistemicke-trauma", "identity-destruction", "ego-death"]
 image = "/images/sections/glossary.png"
 image_alt = "Narativní identita (narrative identity) – glosář"
@@ -24,162 +24,176 @@ image_alt = "Narativní identita (narrative identity) – glosář"
 
 ## Definice
 
-**Narativní identita** (*narrative identity*) je teoretický konstrukt, který rozvinula
-filosofie 20. století (Paul Ricoeur, Charles Taylor, Alasdair MacIntyre) a psychologie
-osobnosti (Dan P. McAdams, Jefferson Singer). Podle něj osobní identita není pevná podstata,
-ale výsledek průběžně revidovaného, zvnitřněného životního příběhu. Příběh spojuje
-rekonstruované vzpomínky na minulost, hodnoticí výklady přítomnosti a představované
-trajektorie budoucnosti do soudržného (ne nutně přesného) vyprávění o tom, *kdo jsem*.
-Konstrukt zdůrazňuje, že identita je performativní – vzniká a udržuje se vyprávěním.
+Narativní identita (*narrative identity*) je teoretický konstrukt, podle něhož osobní identita
+není pevná podstata, ale výsledek průběžně revidovaného, zvnitřněného životního příběhu:
+vyprávění spojuje rekonstruované vzpomínky, hodnoticí výklad přítomnosti a představovanou
+budoucnost do soudržného – ne nutně přesného – vyprávění o tom, kdo jsem (McAdams a McLean,
+2013). Konstrukt tím zdůrazňuje, že identita se vyprávěním vytváří a udržuje, ne pouze
+popisuje (Ricoeur, 1990).
 
-Toto heslo se soustředí na psychologickou, klinickou a forenzní stránku pojmu. Filosofické
-jádro (Ricoeurovo rozlišení *idem* a *ipse*, MacIntyrovo „narativní hledání“) a roli narativní
-identity jako cíle epistemické anihilace rozebírá souběžné heslo [Narrative
-Identity](@/glossary/narrative-identity.md).
+Tato stránka se soustředí na psychologickou, klinickou a forenzní stránku pojmu. Filozofické
+jádro – Ricoeurovo rozlišení *idem* a *ipse* – a roli narativní identity jako terče epistemické
+anihilace rozebírá souběžné heslo [Narrative Identity](@/glossary/narrative-identity.md), které
+vychází z téže tradice (Ricoeur, 1990).
 
 ## Původ a kontext pojmu
 
-Filosofické základy položil Paul Ricoeur v knize *Soi-même comme un autre* (1990) rozlišením
-mezi *idem* (stejnost – identita jako fyzická kontinuita) a *ipse* (sobství – identita jako
-narativní soudržnost; srov. heslo [ipseita](@/glossary/ipseita.md)). Charles Taylor v *Sources
-of the Self* (1989) a MacIntyre v *After Virtue* (1981) spojili identitu s orientací v příběhu
-a v tradici.
+Filozofické základy položil Paul Ricoeur rozlišením mezi *idem*, stejností v čase, a *ipse*,
+sobstvím drženým narativní soudržností; identita je podle něj dostupná jen prostřednictvím
+vyprávění, v němž se člověk ustavuje jako týž jednající (Ricoeur, 1990). Příbuzně, i když
+z jiné strany, spojili identitu s orientací v příběhu a v tradici autoři morální filozofie
+(MacIntyre, 1981; Taylor, 1989); Ricoeurův výklad viz heslo [ipseita](@/glossary/ipseita.md).
 
-Dan P. McAdams v knize *Power, Intimacy, and the Life Story* (1985) převedl konstrukt do
-psychologie osobnosti a vytvořil metodu *Life Story Interview* – strukturovaný rozhovor,
-který mapuje klíčové scény života (například vrchol, nejnižší bod, bod obratu), hlavní
-postavy, motivy, konflikty a generativní představu budoucnosti. Kódování příběhů rozlišuje
-mimo jiné sekvence *redemption* (negativní zkušenost se promění v pozitivní), *contamination*
-(opak), motivy *agency* (vlastní jednání a vliv) a *communion* (blízkost a sounáležitost).
+Do psychologie osobnosti konstrukt převedl Dan P. McAdams, který navrhl, že dospělost
+organizuje svou zkušenost do „osobního mýtu“, a vytvořil k jeho zkoumání strukturovaný
+rozhovor o životním příběhu – s klíčovými scénami, hlavními postavami, motivy a představou
+budoucnosti (McAdams, 1985). Pozdější kódování rozlišuje mimo jiné sekvence, v nichž se
+negativní zkušenost promění v pozitivní, i opačné, a motivy jednání a blízkosti (McAdams,
+1993). Vývojově se schopnost vyprávět soudržný život ustavuje až v adolescenci, kdy se
+objevují prostředky časové, kauzální a tematické souvislosti (Habermas a Bluck, 2000).
 
-Klinickou aplikací je narativní terapie (Michael White a David Epston, *Narrative Means to
-Therapeutic Ends*, 1990), v níž se intervence soustředí na přepsání (*re-storying*)
-maladaptivních dominantních příběhů; podrobně heslo [narativní
-terapie](@/glossary/narativni-terapie.md).
+Klinickou aplikací je narativní terapie, v níž se intervence soustředí na přepsání
+maladaptivního dominantního příběhu, přičemž autorem nového čtení je klient (White a Epston,
+1990); podrobně heslo [narativní terapie](@/glossary/narativni-terapie.md). Longitudinální
+výzkum v průběhu psychoterapie doložil, že narůstající motiv vlastního jednání ve vyprávění
+předchází zlepšení duševního zdraví, ne naopak (Adler, 2012).
 
 ## Jak se projevuje
 
-Narativní identitu nelze pozorovat přímo, ale lze ji posoudit podle vlastností vyprávění:
+Narativní identitu nelze pozorovat přímo; posuzuje se podle vlastností vyprávění. Soudržnost
+znamená, že jednotlivá období na sebe navazují a jejich přechody dávají smysl, a právě tyto
+prostředky souvislosti jsou v literatuře popsány jako jádro životního příběhu (Habermas
+a Bluck, 2000). Autorství znamená, že člověk mluví o rozhodnutích jako o svých, ne jen o tom,
+co se mu stalo (Adler, 2012).
 
-- **soudržnost** – člověk dokáže vyprávět svůj život tak, že jednotlivé období na sebe
-  navazují a jejich přechody dávají smysl;
-- **autorství** – mluví o rozhodnutích jako o svých, ne jen o tom, co se mu „stalo“;
-- **integrace obtížných událostí** – bolestné epizody v příběhu jsou, nejsou vynechány ani
-  nepřebírají celý příběh;
-- **otevřená budoucnost** – příběh má pokračování, které si člověk dokáže představit;
-- **stabilita napříč rozhovory** – podstatné obrysy příběhu se mezi sezeními nemění zásadně.
+Dalšími znaky jsou začlenění obtížných událostí – bolestné epizody v příběhu jsou, ale
+nepřebírají ho celý – otevřená budoucnost, kterou si člověk dokáže představit, a stabilita
+podstatných obrysů příběhu napříč rozhovory (McAdams a McLean, 2013). Varovné znaky jsou
+opakem: nesouvislé nebo mezi sezeními výrazně proměnlivé vyprávění, popis minulého života jako
+života jiného člověka, převzatý slovník a výklad cizí autority a nemožnost představit si
+pokračování (Herman, 1992). Jazykovou stránku zachycuje signatura [fragmentace
+narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md).
 
-Varovné znaky poškozené narativní identity jsou opakem: nesouvislé nebo mezi sezeními
-výrazně proměnlivé vyprávění, popis minulého života jako života „jiného člověka“, převzatý
-slovník a výklad cizí autority (typicky skupiny nebo partnera), nemožnost představit si
-budoucnost (viz [detekční signaturu Fragmentace
-narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md)).
-
-## Mechanismus
+## Mechanismus, jak jej zdroje podporují
 
 Narativní identita vzniká a udržuje se v rozhovoru s druhými: příběh se vypráví, druzí ho
-potvrzují, opravují nebo doplňují a ukotvují ho sdílené vzpomínky a dokumenty. Proto je
-zranitelná všude tam, kde jedna osoba nebo skupina získá monopol na výklad života člověka.
-Strukturálně jde o tři body poškození: zpochybnění minulosti (vzpomínky se prohlašují za
-chybné), zúžení přítomnosti (přístup k jiným vypravěčům a svědkům se omezí) a uzavření
-budoucnosti (alternativní pokračování příběhu se líčí jako nemožné). Vzorec je popsán proto,
-aby ho pozorovatel rozpoznal; podrobněji v heslech [Narrative
-Trauma](@/glossary/narrative-trauma.md) a [Identity
-Destruction](@/glossary/identity-destruction.md).
+potvrzují, opravují nebo doplňují a ukotvují ho sdílené vzpomínky a dokumenty (McAdams
+a McLean, 2013). Z toho plyne její zranitelnost všude, kde jedna osoba nebo skupina získá
+monopol na výklad života člověka – mechanismus, který klinická literatura o zajetí popisuje
+jako nahrazení vlastního hlasu hlasem toho, kdo kontroluje (Herman, 1992).
 
-## Odlišení
+Podle výkladu knihy jde o tři body poškození: zpochybnění minulosti, kdy se vzpomínky
+prohlašují za chybné; zúžení přítomnosti, kdy se omezí přístup k jiným vypravěčům a svědkům;
+a uzavření budoucnosti, kdy se alternativní pokračování líčí jako nemožné (*interpretace
+knihy*). Oporou prvního bodu je zjištění, jak snadno se vzpomínka pod opakovaným cizím
+popisem mění (Loftus, 2005); oporou třetího popis prostředí, která nabízejí jediný výklad
+světa i budoucnosti (Lifton, 1961). Vzorec je popsán proto, aby ho pozorovatel rozpoznal;
+rozvádějí ho hesla [narrative trauma](@/glossary/narrative-trauma.md) a [identity
+destruction](@/glossary/identity-destruction.md).
 
-- **Od depresivní poruchy sebepojetí** – u deprese je příběh zachovaný, ale zabarvený
-  beznadějí; u narativního poškození chybí sama schopnost příběh poskládat nebo je příběh
-  převzatý.
-- **Od disociace** – [disociace](@/glossary/disociace.md) příběh rozděluje do oddělených
-  oddílů, které o sobě nevědí; narativní poškození ho rozkládá nebo nahrazuje.
-- **Od běžné životní proměny** – změna hodnot po konverzi, rozvodu nebo emigraci je
-  normální, pokud ji člověk dokáže vyprávět jako svou a pokud zůstává spojení s dřívějším já.
-- **Od [konfabulace](@/glossary/konfabulace.md) u neurologických stavů** – tam vyplňování mezer souvisí s poruchou
-  paměti a vyžaduje neurologické vyšetření.
+## Odlišení od běžného a od sousedních jevů
 
-## Význam pro Kompendium
+Od depresivní poruchy sebepojetí se narativní poškození odlišuje tím, že u deprese je příběh
+zachovaný, jen zabarvený beznadějí, zatímco zde chybí sama schopnost příběh poskládat nebo je
+příběh převzatý (Herman, 1992). Od [disociace](@/glossary/disociace.md) se odlišuje tím, že
+disociace příběh rozděluje do oddílů, které o sobě nevědí, místo aby ho rozkládala nebo
+nahrazovala (American Psychiatric Association, 2022).
 
-V kontextu [due diligence](@/glossary/due-diligence.md), klinické psychologie i investigace
-z otevřených zdrojů je narativní identita **diagnosticky a prognosticky kritickou
-kategorií**. Člověk se soudržnou, integrovanou narativní identitou má zdravou schopnost
-reflexe, odolnost vůči manipulaci a předvídatelné jednání. Člověk s rozpadlým,
-fragmentovaným nebo cizí autoritou převzatým příběhem (typicky bývalý člen kultu, oběť
-dlouhodobé [coercive control](@/glossary/coercive-control.md), člověk po závažném traumatu,
-vůdce závislý na pseudobiografickém mýtu) vykazuje méně předvídatelné jednání, kognitivní
-disonanci a vysoké riziko regrese pod stresem. Pro rozhodování je podstatné, že posouzení
-narativní identity **nelze automatizovat**: vyžaduje kvalifikovaný klinický rozhovor
-s výslovným souhlasem posuzovaného nebo s jiným etickým a právním základem (například
-soudem nařízené znalecké zkoumání; viz [informovaný souhlas](@/glossary/informed-consent.md)).
+Od běžné životní proměny se odlišuje autorstvím a návazností. Změna hodnot po konverzi,
+rozvodu nebo emigraci je normální, pokud ji člověk dokáže vyprávět jako svou a pokud zůstává
+spojení s dřívějším já; obrat sám je v příbězích dospělých běžným a dobře popsaným prvkem
+(McAdams, 1993). Od [konfabulace](@/glossary/konfabulace.md) u neurologických stavů se
+odlišuje tím, že tam vyplňování mezer souvisí s poruchou paměti a vyžaduje neurologické
+vyšetření (American Psychiatric Association, 2022).
 
-Praktické aplikace popsané v původní verzi hesla:
+## Klinický, forenzní a etický rámec
 
-1. **Prověrka bývalého člena kultu** – posouzení narativní identity ukáže, zda člověk prošel
-   autentickou reintegrací, nebo zda stále nese implantovaný příběh skupiny; mapuje se
-   přechodové vyprávění *před / během / po* angažmá (srov. [případ Sektářské
-   vycházení](@/kompendium/case-studies/10-sektarske-vychazeni.md)).
-2. **Akvizice – posouzení vedení** – vůdce se soudržným příběhem krizi unese; vůdce
-   s grandiózním nebo ahistorickým příběhem (typicky odmítá začlenit data, která by příběhu
-   odporovala) představuje strategické riziko.
-3. **Triangulace z otevřených zdrojů** – srovnání zveřejněných verzí života člověka
-   (profesní profily, knihy, rozhovory, soudní výpovědi) odhaluje narativní nesrovnalosti,
-   které jsou signálem k hlubšímu šetření; nesrovnalost sama ale není důkazem nepoctivosti
-   (paměť i sebeprezentace se legitimně mění).
-4. **Klinická intervence po destrukci identity** – narativní terapie je modalita
-   s empirickou oporou pro znovuvybudování fragmentovaného já po vymanění z coercive control.
+V klinickém a v posuzovacím kontextu je narativní identita diagnosticky i prognosticky
+významná, protože soudržné a integrované vyprávění se pojí s lepším fungováním než vyprávění
+rozpadlé nebo převzaté (Adler, 2012). Pro posouzení je ovšem podstatné, že
+je nelze automatizovat: vyžaduje kvalifikovaný rozhovor a výslovný souhlas posuzovaného, nebo
+jiný právní základ, například soudem nařízené znalecké zkoumání (McAdams, 1985); viz
+[informovaný souhlas](@/glossary/informed-consent.md).
+
+Ve prověrce bývalého člena uzavřené skupiny se posuzuje, zda člověk prošel vlastní
+reintegrací, nebo zda nese dál příběh skupiny; vodítkem je, zda dokáže vyprávět období před,
+během a po angažmá jako jeden život (Lifton, 1961). Případ rozvádí [Sektářské
+vycházení](@/kompendium/case-studies/10-sektarske-vychazeni.md). Při posuzování vedení v rámci
+[due diligence](@/glossary/due-diligence.md) je rozlišujícím znakem, zda vyprávění začleňuje
+data, která mu odporují, nebo je odmítá (McAdams a McLean, 2013).
+
+Při srovnávání veřejně dostupných verzí života – profesních profilů, rozhovorů, výpovědí –
+jsou narativní nesrovnalosti podnětem k dalšímu šetření, ne důkazem nepoctivosti, protože paměť
+i sebeprezentace se legitimně mění v čase (Loftus, 2005). Eticky z toho plyne, že se nález
+zaznamenává jako hypotéza; riziko opačného postupu rozebírá [riziko obviňování
+oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md).
 
 ## Obrana a zotavení
 
-- **Pro postiženého**: vést vlastní záznam (deník, chronologii, fotografie), obnovovat
-  kontakt s lidmi, kteří znali dřívější já, a vyprávět svůj příběh v bezpečném prostředí
-  vlastními slovy (viz [Sebe-obrana: Správa
-  narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md)).
-- **Pro profesionála**: nespěchat s „novým“ příběhem – předčasná rekonstrukce je riziko
-  [iatrogenní újmy](@/glossary/iatrogenic-harm.md); oddělit hodnocení narativu od hodnocení
-  pravdivosti jednotlivých tvrzení; pracovat podle protokolu [Středně-dobá rekonstrukce
-  identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md).
-- **Ve forenzním a DD kontextu**: narativní nesrovnalosti zaznamenat jako hypotézu, ne jako
-  závěr, a ověřit je nezávislými zdroji.
+Pro zasaženého je nosné vést vlastní záznam – deník, chronologii, fotografie – obnovovat kontakt
+s lidmi, kteří znali dřívější já, a vyprávět svůj příběh vlastními slovy v prostředí, kde ho
+nikdo neopravuje; obnova běžného řádu a vztahů je součástí každého zotavení (Herman, 1992).
+Oporu nabízí [správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md).
+
+Pro profesionála platí, že se nespěchá s „novým“ příběhem, protože předčasná rekonstrukce je
+rizikem [iatrogenní újmy](@/glossary/iatrogenic-harm.md), a že se hodnocení narativu drží
+odděleně od hodnocení pravdivosti jednotlivých tvrzení (White a Epston, 1990). Navazuje
+protokol [střednědobé rekonstrukce
+identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md). Empirickou
+oporou je zjištění, že posilování motivu vlastního jednání ve vyprávění souvisí se zlepšením
+stavu (Adler, 2012).
+
+## Meze pojmu a jeho kritika
+
+Nejzávažnější námitka zpochybňuje samu obecnost konstruktu. Ne všichni lidé svůj život
+prožívají jako příběh; „epizodické“ sebepojetí, v němž se člověk nevnímá jako týž napříč
+dlouhými obdobími, je podle této kritiky stejně dobrý způsob existence a normativní nárok na
+narativní soudržnost je neopodstatněný (Strawson, 2004). Kniha proto nepracuje s tvrzením, že
+bez příběhu není identita, ale jen s tím, že rozpad nebo převzetí příběhu pozorovatelně provází
+popsané vzorce.
+
+Druhou mezí je metoda. Soudržnost vyprávění se hodnotí kódováním rozhovorů, tedy posouzením
+posuzovatelem, a mezikulturní platnost norem soudržnosti není zajištěna (Habermas a Bluck,
+2000). Z toho plyne, že z jediného rozhovoru nelze odvozovat posudek; kulturní zaujatost
+kategorií knihy rozebírá kapitola [Kulturní
+zaujatost](@/kompendium/critical-perspectives/10-cultural-bias-critique.md).
 
 ## Literatura
 
-- Paul Ricoeur: *Soi-même comme un autre* (Seuil, 1990); angl. *Oneself as Another*
-  (University of Chicago Press, 1992).
-- Dan P. McAdams: *The Stories We Live By: Personal Myths and the Making of the Self*
-  (Guilford, 1993).
-- Dan P. McAdams, Kate C. McLean: „Narrative Identity“, *Current Directions in Psychological
-  Science* (2013).
-- Michael White, David Epston: *Narrative Means to Therapeutic Ends* (Norton, 1990).
-- Alasdair MacIntyre: *After Virtue* (University of Notre Dame Press, 1981).
-- Charles Taylor: *Sources of the Self* (1989).
+- Adler, J. M. (2012). *Living into the story: agency and coherence in a longitudinal study of narrative identity development and mental health over the course of psychotherapy*. Journal of Personality and Social Psychology.
+- American Psychiatric Association (2022). *Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR)*. American Psychiatric Publishing.
+- Habermas, T., & Bluck, S. (2000). *Getting a life: the emergence of the life story in adolescence*. Psychological Bulletin.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. Norton.
+- Loftus, E. F. (2005). *Planting misinformation in the human mind: a 30-year investigation of the malleability of memory*. Learning & Memory.
+- MacIntyre, A. (1981). *After Virtue*. University of Notre Dame Press.
+- McAdams, D. P. (1985). *Power, Intimacy, and the Life Story: Personological Inquiries into Identity*. Guilford.
+- McAdams, D. P. (1993). *The Stories We Live By: Personal Myths and the Making of the Self*. Guilford.
+- McAdams, D. P., & McLean, K. C. (2013). *Narrative identity*. Current Directions in Psychological Science.
+- Ricoeur, P. (1990). *Soi-même comme un autre*. Seuil.
+- Strawson, G. (2004). *Against narrativity*. Ratio.
+- Taylor, C. (1989). *Sources of the Self*. Harvard University Press.
+- White, M., & Epston, D. (1990). *Narrative Means to Therapeutic Ends*. Norton.
 
 ## Související
 
 **Pojmy**
 
-- [Narrative Identity](@/glossary/narrative-identity.md) – filosofické jádro pojmu a jeho
-  role jako cíle EA.
-- [Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md) – jazykový základ, na němž
-  stojí schopnost vyprávět.
-- [Epistemické trauma](@/glossary/epistemicke-trauma.md) – kognitivní poškození, které příběh
-  fragmentuje.
+- [Narrative Identity](@/glossary/narrative-identity.md) – filozofické jádro pojmu a jeho role jako terče EA.
+- [Ipseita](@/glossary/ipseita.md) – Ricoeurovo sobství.
+- [Narativní terapie](@/glossary/narativni-terapie.md) – klinická aplikace konstruktu.
+- [Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md) – jazykový základ schopnosti vyprávět.
+- [Epistemické trauma](@/glossary/epistemicke-trauma.md) – poškození, které příběh fragmentuje.
+- [Identity Destruction](@/glossary/identity-destruction.md) – nátlakové narušení narativní kontinuity.
 - [Ego Death](@/glossary/ego-death.md) – přechodné pozastavení narativní funkce.
-- [Identity Destruction](@/glossary/identity-destruction.md) – donucovací narušení narativní
-  kontinuity.
-- [Anihilační fenomény](@/glossary/anihilacni-fenomeny.md) – fenomenologický extrém
-  narativního kolapsu.
-- [Reality Testing](@/glossary/reality-testing.md) – funkce, která udržuje soulad příběhu
-  s realitou.
+- [Reality Testing](@/glossary/reality-testing.md) – funkce, která udržuje soulad příběhu se skutečností.
 
 **Techniky a protokoly**
 
-- [EA-5.3.7 Self-narrative replacement](@/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md) –
-  nahrazení vlastního příběhu příběhem cizím.
-- [EA-6.2.5 Narrative therapy protokol](@/kompendium/techniques/ea-6-2-5-narrative-therapy-protokol.md) –
-  terapeutický protějšek.
+- [EA-5.3.7 Nahrazení vlastního příběhu](@/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md) – příběh převzatý od cizí autority.
+- [EA-6.2.5 Protokol narativní terapie](@/kompendium/techniques/ea-6-2-5-narrative-therapy-protokol.md) – terapeutický protějšek.
+- [Střednědobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md) – protokol zotavení.
 
 **Teorie**
 
-- [7.17 Ricoeur: Trojí mimésis a narativní identita](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md) –
-  filosofický výklad v knize.
+- [Ricoeur: trojí mimésis](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md) – filozofický výklad v knize.

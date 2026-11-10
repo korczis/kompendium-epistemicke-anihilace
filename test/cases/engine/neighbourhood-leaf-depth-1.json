@@ -96,7 +96,7 @@
       {
         "class": "glossary",
         "distance": 1,
-        "in": 381,
+        "in": 377,
         "path": "glossary/taxonomie-ea.md",
         "title": "Taxonomie EA"
       },
@@ -110,7 +110,7 @@
       {
         "class": "kompendium/techniques",
         "distance": 1,
-        "in": 45,
+        "in": 44,
         "path": "kompendium/techniques/_index.md",
         "title": "Techniques — detailní per-technique články"
       },

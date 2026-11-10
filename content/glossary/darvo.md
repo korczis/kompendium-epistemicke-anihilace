@@ -21,157 +21,178 @@ image_alt = "DARVO – glosář"
 
 ## Definice
 
-**DARVO** – zkratka z anglického **Deny, Attack, Reverse Victim and Offender** (popřít,
-zaútočit, obrátit role oběti a pachatele) – označuje ustálený třífázový vzorec reakce,
-který někteří pachatelé uplatňují, když jsou konfrontováni se svým jednáním. Konstrukt
-formulovala psycholožka **Jennifer J. Freydová** (1997) v rámci výzkumu [traumatu ze
-zrady](@/glossary/betrayal-trauma.md); od té doby byl empiricky zkoumán v oblastech
-sexuálního obtěžování, partnerského násilí, institucionálních pochybení i politické
-odpovědnosti.
+DARVO je zkratka z anglického *Deny, Attack, Reverse Victim and Offender* – popřít, zaútočit,
+obrátit role oběti a pachatele – a označuje ustálený vzorec reakce, který někteří pachatelé
+uplatňují, když jsou konfrontováni se svým jednáním. Konstrukt formulovala psycholožka
+Jennifer Freydová v rámci výzkumu [traumatu ze zrady](@/glossary/betrayal-trauma.md) a od
+počátku jej popisovala jako jednání, které posiluje slepotu poškozené osoby ke zradě
+(Freyd, 1997).
 
-Tři fáze probíhají za sebou nebo se rychle střídají:
-
-1. **Popření (Deny)** – přímé odmítnutí, že se jednání stalo, že bylo škodlivé nebo že je
-   výklad obviňující strany rozumný („To se nikdy nestalo.“, „Pamatuješ si to špatně.“,
-   „Tak to nebylo.“).
-2. **Útok (Attack)** – útok na důvěryhodnost, motivy, duševní zdraví nebo charakter
-   obviňující strany („Je labilní.“, „Plánoval to celé měsíce.“, „Je to politicky
-   motivované.“).
-3. **Obrácení rolí oběti a pachatele (Reverse Victim and Offender, RVO)** – převyprávění
-   události tak, že se původní pachatel stává poškozeným a původní oběť agresorem („To já
-   jsem tady obtěžovaný.“, „Toto křivé obvinění mi zničilo život.“).
+Vzorec má tři složky, jež na sebe navazují nebo se rychle střídají. Popření odmítá, že se
+jednání stalo, že bylo škodlivé nebo že je výklad druhé strany rozumný. Útok míří na
+důvěryhodnost, motivy, duševní zdraví nebo charakter osoby, která jednání pojmenovala.
+Obrácení rolí převypráví událost tak, že se původní pachatel stává poškozeným a poškozená
+osoba agresorem, typicky v jazyce křivého obvinění a zničeného života (Harsey a Freyd, 2020).
 
 ## Původ a kontext pojmu
 
-Freydová popsala DARVO v článku o zneužití moci a adaptivní slepotě (*Feminism &
-Psychology*, 1997). Pozdější studie (Harsey, Zurbriggen a Freydová 2017; Harsey a Freydová
-2020) ukazují, že vystavení DARVO **snižuje důvěru pozorovatelů v obviňující osobu**
-a zvyšuje přičítání viny oběti – a to i u informovaného publika. Oběti, které se s DARVO
-setkaly, navíc vykazovaly více sebeobviňování.
+Freydová popsala vzorec ve článku o zneužití moci a adaptivní slepotě, který zároveň zavedl
+teorii traumatu ze zrady; DARVO v něm není jen obranným reflexem, ale jednáním, které
+poškozené osobě znemožňuje zradu poznat (Freyd, 1997). Teorie předpokládá, že právě závislost
+na pachateli činí jeho verzi přijatelnější než vlastní pozorování (Freyd a Birrell, 2013).
 
-DARVO tedy není jen obranným reflexem, ale **aktivní epistemickou zbraní**, která využívá
-heuristiky třetích stran týkající se sebejistoty, rozrušení a soudržnosti vyprávění.
-Nejspolehlivěji je pozorováno u pachatelů s vysokým pocitem nároku, nízkou lítostí
-a předchozí praxí – u dlouhodobých manipulátorů, obránců institucí a osob s antisociálními
-nebo narcistickými rysy. Jeho přítomnost je silným (byť ne patognomickým) signálem
-jednání ve zlé víře.
+Empirické zpracování přišlo později. Studie reakcí na konfrontaci zjistila, že lidé, kteří se
+s DARVO setkali, uváděli více sebeobviňování, a tedy že vzorec působí přímo na postoj
+poškozené osoby k sobě samé (Harsey a kol., 2017). Navazující experiment ukázal, že vystavení
+DARVO snižuje důvěru pozorovatelů v osobu, která jednání pojmenovala, a zvyšuje přičítání viny
+jí (Harsey a Freyd, 2020). To je hlavní doložený nález o vzorci: jeho účinek je především
+sociální, nikoli vnitřní.
+
+Institucionální obdobu popisuje výzkum institucionální zrady, v němž organizace reaguje na
+stížnost ochranou vlastní pověsti a oznamovatele prověřuje dřív než oznámené jednání
+(Smith a Freyd, 2014). Epistemologicky jde o případ újmy, která vzniká odepřením váhy
+svědectví kvůli tomu, kým mluvčí je (Fricker, 2007); kniha jej spojuje s
+[delegitimizací](@/glossary/delegitimizace.md).
 
 ## Jak se projevuje
 
-**V řeči pachatele:**
+V řeči konfrontované osoby se vzorec pozná podle toho, že popření během jedné odpovědi přejde
+v útok a otázka na konkrétní jednání je zodpovězena otázkou na duševní zdraví nebo motivy
+druhé strany (Freyd, 1997). Důraz na vlastní utrpení způsobené „obviněním“ převáží nad
+tématem samotným a veřejná prohlášení jsou formulována jako obrana před honem na čarodějnice
+(Harsey a Freyd, 2020).
 
-- popření přechází během jedné odpovědi v útok („nic takového se nestalo – a vůbec, proč
-  to vytahuješ teď?“);
-- otázka na konkrétní čin je zodpovězena otázkou na duševní zdraví nebo motivy oběti;
-- důraz na vlastní utrpení způsobené „obviněním“ převáží nad tématem samotným;
-- veřejná prohlášení jsou formulována jako obrana před „honem na čarodějnice“.
+V okolí se pozná podle přesunu pozornosti: tématem se stane osoba, která jednání oznámila, ne
+jednání samo, a svědci váhají, protože konfrontovaná osoba vystupuje klidně, zatímco poškozená
+je rozrušená (Harsey a Freyd, 2020). V organizaci se totéž projeví jako prověřování
+oznamovatele před prověřením oznámení (Smith a Freyd, 2014).
 
-**V okolí:**
-
-- pozornost se přesouvá od činu k osobě, která ho oznámila;
-- svědci váhají, protože obviněný vystupuje sebejistě a oběť je rozrušená;
-- instituce začne prověřovat oznamovatele dřív než oznámené jednání.
-
-**U oběti:**
-
-- pochybnosti o vlastní paměti a o oprávněnosti stížnosti;
-- stud a sebeobviňování, stažení stížnosti.
+U poškozené osoby se objevují pochybnosti o vlastní paměti a o oprávněnosti stížnosti, stud
+a stažení stížnosti; souvislost se sebeobviňováním je právě tou částí vzorce, kterou výzkum
+měřil nejdřív (Harsey a kol., 2017). Dlouhodobé následky odpovídají obrazu chronického
+traumatu v prostředí, z něhož se obtížně odchází (Herman, 1992).
 
 ## Mechanismus
 
-DARVO využívá tři heuristiky, jimiž se lidé běžně řídí při posuzování věrohodnosti:
-sebejistý mluvčí působí pravdivěji, rozrušený méně; soudržný příběh působí pravdivěji než
-fragmentovaný; a ten, kdo se prezentuje jako poškozený, budí soucit. Pachatel, který
-zachovává klid a předkládá uzavřený příběh vlastního poškození, tak může přesvědčit okolí,
-aniž by vyvrátil jediný fakt.
+DARVO využívá tři heuristiky, podle nichž lidé běžně posuzují věrohodnost: sebejistý mluvčí
+působí pravdivěji než rozrušený, uzavřený a soudržný příběh působí pravdivěji než
+fragmentovaný a ten, kdo se prezentuje jako poškozený, budí soucit. Experimentální doklad
+ukazuje, že tento přesun soucitu a důvěry se skutečně odehraje, a to i u publika, které
+o sporu nic neví (Harsey a Freyd, 2020).
 
-Úspěšné DARVO nemusí přesvědčit původní oběť; stačí, když **rozbije okolní důkazní
-společenství** – svědky, kolegy, instituci. Proto je to jedna z provozně
-nejvýznamnějších technik, které Kompendium popisuje. Řadí je k imunizačním technikám
-skupiny EA-1.3 (obrana tvrzení útokem na toho, kdo je zpochybňuje), v blízkosti [EA-1.3.2
-Strategické reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md);
-souhrnný popis je i v [EA-1-3-2](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md). Obrácení příčiny
-a následku obecněji popisuje [EA-5.1.12 Kauzální
-inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md).
+Rozhodující je, co vzorec nemusí dokázat. Úspěšné DARVO nemusí přesvědčit poškozenou osobu;
+stačí, když rozloží okolní důkazní společenství – svědky, kolegy, instituci –, protože bez
+nich zůstane tvrzení poškozené osoby nepotvrzené (Smith a Freyd, 2014). Fragmentovanost
+výpovědi, kterou vzorec využívá, je přitom samotným následkem újmy, ne známkou
+nepravdivosti (Herman, 1992).
+
+Kniha proto DARVO řadí k imunizačním technikám, tedy k obraně tvrzení útokem na toho, kdo je
+zpochybňuje, v blízkosti [strategické
+reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md); obrácení
+příčiny a následku obecněji popisuje [kauzální
+inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md); obě zařazení odpovídají
+tomu, že druhá složka vzorce útočí na zdroj zpochybnění, ne na jeho obsah (Freyd, 1997).
+Toto zařazení je vlastní
+soustavou knihy, ne nálezem citované literatury (*interpretace knihy*), a opírá se o metodické
+zásady v [metodologických poznámkách](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Odlišení
 
-- **Upřímné popření nevinného.** I nevinně obviněný popírá a může se cítit poškozen.
-  Rozdíl je v útoku a obrácení rolí: nevinný obvykle reaguje na obsah obvinění a hledá
-  fakta, DARVO míří na osobu a na publikum.
-- **[Blame shifting](@/glossary/blame-shifting.md).** Širší kategorie přesouvání viny;
-  DARVO je její vyhraněná třífázová podoba.
-- **[Gaslighting](@/glossary/gaslighting.md).** Často se vyskytuje spolu s první fází
-  (popření); gaslighting je ale dlouhodobé zpochybňování vnímání, DARVO reakce na
-  konfrontaci.
-- **[Delegitimizace](@/glossary/delegitimizace.md).** Širší rodina technik zpochybnění
-  obviňující strany, z nichž je DARVO nejustálenější.
+Od upřímného popření nevinné osoby se DARVO liší směrem reakce. I nevinně obviněný popírá
+a cítí se poškozen, obvykle však reaguje na obsah obvinění a dožaduje se faktů, zatímco
+vzorec míří na osobu a na publikum (Harsey a Freyd, 2020). Rozhodující je přítomnost všech tří
+složek, ne jednotlivé popření (Freyd, 1997).
+
+Od [přesouvání viny](@/glossary/blame-shifting.md) se liší tím, že jde o jeho vyhraněnou
+třísložkovou podobu s obrácením rolí, ne o jakékoli odmítnutí odpovědnosti (Freyd, 1997). Od
+[gaslightingu](@/glossary/gaslighting.md) se liší časem a předmětem: gaslighting je dlouhodobé
+zpochybňování vnímání druhé osoby, DARVO je reakce na konfrontaci, v níž první složka
+s gaslightingem splývá (Harsey a kol., 2017). V režimu donucovací kontroly se obojí objevuje
+spolu a jeho součástí bývá i ovládání vztahů a prostředků druhé osoby (Stark, 2007);
+souhrnně viz [coercive control](@/glossary/coercive-control.md).
+
+Od oprávněné obrany proti nepravdivému obvinění je nutné odlišovat opatrně, protože nepravdivá
+obvinění se vyskytují a mají v českém právu vlastní skutkové podstaty: zákon č. 40/2009 Sb.,
+trestní zákoník, zná jak křivé obvinění podle § 345, tak pomluvu podle § 184. Posouzení proto
+nemůže stát na dojmu z vystupování stran, který je právě tím, co vzorec zkresluje
+(Harsey a Freyd, 2020).
 
 ## Význam pro Kompendium
 
-- Na platformě, z níž kniha vzešla, [Decision Engine](@/glossary/decision-engine.md)
-  považuje znaky DARVO při zpracování popření v kontextu [due
-  diligence](@/glossary/due-diligence.md) za **negativní signály důvěryhodnosti zdroje**.
-  Výpověď s třífázovým podpisem má nižší váhu; původní obvinění se tím *nezvyšuje* (DARVO
-  není potvrzením), ale přestává se snižovat.
-- Modely protivníků v Red Teamu ([Color Teams](@/glossary/color-teams.md)) zahrnují
-  vzorce DARVO při simulaci mediálně zdatných aktérů a operací obrany reputace.
-- DARVO se často vyskytuje spolu se vzorci [coercive control](@/glossary/coercive-control.md)
-  a [gaslightingu](@/glossary/gaslighting.md).
-- Rozpoznání DARVO je součástí klinických výukových materiálů v [06. Klinických
-  aplikacích](@/kompendium/06-klinicke-aplikace/_index.md), vzdělávacího scénáře [Rozpoznání
-  DARVO](@/kompendium/educational-scenarios/20-darvo-recognition.md) a postupů OSINT
-  ve forenzní analýze řízení reputace.
+Kniha bere DARVO za jednu z provozně nejvýznamnějších technik, protože zasahuje nikoli
+jednotlivé přesvědčení, ale okruh lidí, kteří by přesvědčení mohli potvrdit; v tom je podle
+výkladu knihy sousedem [epistemické anihilace](@/glossary/epistemicka-anihilace.md) na úrovni
+skupiny (*interpretace knihy*). Doložená část tohoto tvrzení je přesun důvěry u pozorovatelů
+(Harsey a Freyd, 2020).
+
+Rozpoznání vzorce je proto součástí vzdělávací části knihy; nácvik vede scénář [rozpoznání
+DARVO](@/kompendium/educational-scenarios/20-darvo-recognition.md) a klinický rámec dávají
+[klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md). Zda informovanost účinek
+vzorce na pozorovatele oslabuje, kniha tvrdí jen jako pracovní předpoklad, protože měřen byl
+dosud opačný směr, totiž vznik nedůvěry u nepřipraveného publika (Harsey a Freyd, 2020).
 
 ## Obrana a zotavení
 
-**Pro dotčeného:**
+Pro dotčeného je prvním krokem pojmenování vzorce, protože vědomí, že jde o známou reakci,
+oslabuje jeho dopad na vlastní sebeobviňování, které je u DARVO nejvýrazněji doloženým
+následkem (Harsey a kol., 2017). Dále je užitečné držet se faktů a časové osy a nenechat se
+vtáhnout do obhajoby vlastní osoby, protože právě tam vzorec míří (Freyd, 1997). Uchovávání
+dokladů má vlastní pravidla ([chain of custody](@/glossary/chain-of-custody.md)).
 
-- vědět, že DARVO je známý vzorec: pojmenování sníží jeho účinek na vlastní sebedůvěru;
-- držet se faktů a časové osy, nenechat se vtáhnout do obhajoby vlastní osoby;
-- uchovávat záznamy a důkazy (viz [Chain of custody](@/glossary/chain-of-custody.md)).
+Pro instituci a profesionála platí, že šetření jednání má být oddělené od posuzování osobnosti
+oznamovatele; organizace, která toto oddělení nezvládne, přidá k původní újmě vlastní
+(Smith a Freyd, 2014). Ochranu oznamovatelů v České republice zakládá zákon č. 171/2023 Sb.,
+o ochraně oznamovatelů; organizační podobu popisuje [mechanismus
+oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md).
 
-**Pro instituci a profesionála:**
+Pro soudce, vyšetřovatele a znalce je podstatné, že klid a soudržnost vyprávění nejsou
+ukazatelem pravdivosti a že nejistá výpověď poškozené osoby je očekávatelná (Herman, 1992).
+Vzdělávací rámec pro justici popisuje [vzdělávání
+soudců](@/kompendium/forensic-legal/29-judicial-education.md), postup posouzení [hodnocení
+věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md).
 
-- oddělit šetření jednání od posuzování osobnosti oznamovatele;
-- učit vyšetřovatele, porotce a soudce rozpoznat DARVO – výzkum naznačuje, že informovanost
-  jeho účinek oslabuje (viz [Vzdělávání soudců](@/kompendium/forensic-legal/29-judicial-education.md));
-- chránit oznamovatele (viz [Mechanismus
-  oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)).
+## Meze a kritika
+
+Doklady o vzorci stojí převážně na vinětových experimentech a dotaznících, nikoli na
+pozorování skutečných konfrontací, takže o jeho výskytu v populaci nelze z literatury nic
+spolehlivého vyvodit (Harsey a Freyd, 2020). Nevíme ani, nakolik je vzorec záměrný: tytéž tři
+složky mohou být výsledkem úvahy i okamžité obranné reakce (Freyd, 1997).
+
+Druhou mezí je dvojsečnost pojmu. Označení „to je DARVO“ lze použít k odmítnutí každé obrany,
+včetně obrany oprávněné, a tím se z nástroje rozpoznání stává nástroj zpochybnění
+(Fricker, 2007). Kniha proto trvá na tom, že se o vzorci mluví až při přítomnosti všech tří
+složek a že jeho přítomnost původní tvrzení nepotvrzuje; riziko nadužití rámce rozebírá
+kapitola [Přesah rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
 
 ## Literatura
 
-- Jennifer J. Freyd: „Violations of power, adaptive blindness and betrayal trauma theory“,
-  *Feminism & Psychology* (1997).
-- Sarah J. Harsey, Eileen L. Zurbriggen, Jennifer J. Freyd: „Perpetrator responses to
-  victim confrontation: DARVO and victim self-blame“, *Journal of Aggression, Maltreatment
-  & Trauma* (2017).
-- Sarah Harsey, Jennifer J. Freyd: „Deny, attack, and reverse victim and offender (DARVO):
-  What is the influence on perceived perpetrator and victim credibility?“, *Journal of
-  Aggression, Maltreatment & Trauma* (2020).
+- Freyd, J. J. (1997). *Violations of power, adaptive blindness and betrayal trauma theory*. Feminism & Psychology.
+- Freyd, J. J., & Birrell, P. (2013). *Blind to Betrayal*. Jossey-Bass.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Harsey, S. J., Zurbriggen, E. L., & Freyd, J. J. (2017). *Perpetrator responses to victim confrontation: DARVO and victim self-blame*. Journal of Aggression, Maltreatment & Trauma.
+- Harsey, S. J., & Freyd, J. J. (2020). *Deny, attack, and reverse victim and offender (DARVO): What is the influence on perceived perpetrator and victim credibility?*. Journal of Aggression, Maltreatment & Trauma.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Smith, C. P., & Freyd, J. J. (2014). *Institutional betrayal*. American Psychologist.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 
 **Pojmy**
 
-- [Gaslighting](@/glossary/gaslighting.md) – technika zkreslování reality, často nasazovaná
-  společně.
-- [Delegitimizace](@/glossary/delegitimizace.md) – širší rodina zpochybnění obviňující
-  strany.
-- [Coercive Control](@/glossary/coercive-control.md) – DARVO je pro kontrolující osoby
-  vysoce typické.
-- [BITE Model](@/glossary/bite-model.md) – skupinová obdoba.
-- [Blame shifting](@/glossary/blame-shifting.md) – obecnější vzorec přesouvání viny.
+- [Gaslighting](@/glossary/gaslighting.md) – dlouhodobé zpochybňování vnímání, k odlišení.
+- [Betrayal trauma](@/glossary/betrayal-trauma.md) – teorie, v níž vzorec vznikl.
+- [Delegitimizace](@/glossary/delegitimizace.md) – širší rodina zpochybnění druhé strany.
+- [Coercive control](@/glossary/coercive-control.md) – režim, v němž se vzorec objevuje typicky.
+- [BITE model](@/glossary/bite-model.md) – skupinová obdoba kontroly.
+- [Přesouvání viny](@/glossary/blame-shifting.md) – obecnější vzorec.
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – ústřední pojem Kompendia.
-- [Taxonomie EA](@/glossary/taxonomie-ea.md) – katalog technik.
 
-**Výuka a obrana**
+**Výuka, právo a obrana**
 
-- [Rozpoznání DARVO](@/kompendium/educational-scenarios/20-darvo-recognition.md) –
-  vzdělávací scénář.
-- [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
-  – institucionální ochrana.
-- [Kompendium](@/kompendium/_index.md) – celá taxonomie.
+- [Rozpoznání DARVO](@/kompendium/educational-scenarios/20-darvo-recognition.md) – vzdělávací scénář.
+- [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md) – institucionální ochrana.
+- [Hodnocení věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md) – forenzní postup.
+- [Přesah rámce](@/kompendium/critical-perspectives/3-framework-overreach.md) – mez pojmu.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

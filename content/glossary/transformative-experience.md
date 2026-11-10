@@ -1,7 +1,7 @@
 +++
 title = "Transformative experience (transformativní zkušenost)"
 weight = 5
-description = "Pojem L. A. Paulové: zkušenost, která přináší předem nedostupné poznání a zároveň mění hodnoty a identitu člověka; výzva pro informovaný souhlas a pro obranu před manipulací."
+description = "Pojem L. A. Paulové: zkušenost, kterou nelze předem poznat a která mění hodnoty člověka. Důsledky pro rozhodování, pro informovaný souhlas a pro obranu před manipulací."
 
 [taxonomies]
 tags = ["glossary", "philosophy", "ethics", "identity", "kompendium"]
@@ -17,140 +17,188 @@ date_updated = "2026-05-03"
 importance = "high"
 related_terms = ["epistemic-reasoning", "epistemicka-pokora", "bayesian-reasoning", "belief-graph", "informed-consent", "irb-review", "trauma-spectrum"]
 keywords = ["transformative experience", "L.A. Paul", "epistemic transformation", "personal transformation", "rational choice", "decision theory", "preference change", "first-person knowledge"]
-key_takeaway = "A transformative experience is one whose subjective character cannot be known in advance and whose impact on the person's values is so deep that pre-experience preferences are not a reliable guide. This breaks classical decision theory and creates genuine challenges for informed consent in research, medicine, and life decisions."
+key_takeaway = "Transformativní zkušenost nelze předem poznat a mění hodnoty, podle nichž by se o ní rozhodovalo; tím narušuje klasickou teorii rozhodování i doktrínu informovaného souhlasu."
 see_also = ["informed-consent", "irb-review", "individual-risk-map"]
 image = "/images/sections/glossary.png"
-image_alt = "Transformative experience (transformativní zkušenost) – glosář"
+image_alt = "Transformativní zkušenost – glosář"
 +++
 
 ## Definice
 
-**Transformativní zkušenost** (*transformative experience*) je v pojetí filosofky L. A. Paulové
-zkušenost, která je zároveň **epistemicky transformativní** – přináší poznání, zejména
-fenomenální poznání z první osoby („jaké to je“), které nelze získat jinak –, a **osobně
-transformativní** – mění základní preference, hodnoty a identitu toho, kdo ji prožívá, a to
-způsobem, který by dřívější já nemohlo předem schválit. Kanonickými příklady jsou rodičovství,
-zkušenost boje, prožitky blízké smrti, náboženská konverze, některá hluboká kulturní přesídlení
-a některé psychedelické nebo psychiatrické intervence.
+**Transformativní zkušenost** (*transformative experience*) je v pojetí filozofky L. A.
+Paulové zkušenost, která je zároveň epistemicky transformativní, protože přináší poznání
+nedostupné jinak než prožitím, a osobně transformativní, protože mění základní preference,
+hodnoty a sebepojetí toho, kdo ji prožil (Paul, 2014). Kanonickými příklady jsou rodičovství,
+zkušenost boje, prožitky blízké smrti, náboženská konverze nebo některé psychiatrické
+intervence.
 
-Pojem představuje skutečnou hádanku pro rámce racionální volby, které předpokládají stabilní
-preference a možnost výsledky předem ohodnotit: *před zkušeností* nelze vědět, jaké to bude,
-a *po zkušenosti* rozhoduje člověk s jinými hodnotami než předtím.
+Hádanka, kterou pojem otevírá, se týká racionální volby. Rámce rozhodování předpokládají, že
+rozhodující umí předem ohodnotit možné výsledky; u transformativní zkušenosti však *před*
+prožitím nelze vědět, jaké to bude, a *po* prožitku rozhoduje člověk s jinými hodnotami než
+dřív (Paul, 2015). Volba se tak nedá provést z pohledu dřívějšího já, aniž by přišla o to, co
+je na ní podstatné.
+
+Pro [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md) má pojem dvojí
+význam: pojmenovává legitimní proměnu, kterou nelze předem pochopit, a zároveň vysvětluje, proč
+je slib takové proměny tak účinným nástrojem vlivu. Druhá část je výkladem knihy; Paulová sama
+o manipulaci nepíše a svůj pojem buduje jako problém racionální volby (Paul, 2014).
 
 ## Původ a kontext pojmu
 
-L. A. Paulová pojem rozpracovala v knize *Transformative Experience* (Oxford University Press,
-2014) a v článku „What You Can't Expect When You're Expecting“ (*Res Philosophica*, 2015).
-Navazuje na debatu o fenomenálním poznání (argument „Maryina pokoje“ Franka Jacksona) a na
-teorii rozhodování. Bioetika pojem rychle převzala pro otázky souhlasu s intervencemi, které
-mění osobnost (např. Jonathan Pugh, *Autonomy, Rationality, and Contemporary Bioethics*, 2020).
-V knize souvisí s tématem [mystického prožitku](@/glossary/mysticky-prozitek.md), [ego
-death](@/glossary/ego-death.md) a [sektářské konverze](@/glossary/sektarska-konverze.md).
+Paulová pojem rozpracovala v monografii (Paul, 2014) a v navazujícím článku o rodičovství jako
+vzorovém případu (Paul, 2015). Navazuje na starší debatu o fenomenálním poznání: Jackson
+argumentoval myšlenkovým pokusem s vědkyní, která o barvách ví vše, ale barvu nikdy neviděla,
+že existuje poznání dostupné jen prožitím (Jackson, 1982), a Lewis proti tomu namítl, že
+takové poznání je spíš schopností než novým faktem (Lewis, 1988).
+
+Bioetika pojem rychle převzala pro otázky souhlasu s intervencemi, které mění osobnost; Pugh
+jej zasadil do soustavného výkladu autonomie a racionality v současné bioetice (Pugh, 2020).
+V knize souvisí s [mystickým prožitkem](@/glossary/mysticky-prozitek.md), s [ego
+death](@/glossary/ego-death.md) a se [sektářskou
+konverzí](@/glossary/sektarska-konverze.md).
+
+## Kritika pojmu
+
+Pojem není v literatuře přijat bez výhrad. Pettigrew ukázal, že teorie rozhodování si
+s měnícími se hodnotami poradit umí, pracuje-li s rozhodováním za nejistoty o vlastních
+budoucích preferencích, takže Paulové závěr o selhání rámce je silnější, než jeho premisy
+unesou (Pettigrew, 2016).
+
+Dougherty, Horowitzová a Sliwa namítli, že dostupná svědectví druhých a obecné poznatky
+o lidských reakcích dávají o takové zkušenosti víc informací, než Paulová připouští, a že
+rozhodnutí tedy není epistemicky nedostupné, nýbrž jen obtížné (Dougherty a kol., 2015).
+Heslo proto pojem uvádí jako plodnou hypotézu, ne jako prokázanou mez racionality.
 
 ## Jak se projevuje
 
-- člověk po zkušenosti mluví o „předchozím životě“ a hodnotí ho jinými měřítky;
-- dřívější dohody a závazky mu připadají nesrozumitelné nebo cizí;
-- vzniká nesoulad mezi minulými a současnými výroky, který není lží;
-- okolí reaguje nepochopením („to není on/ona“);
-- při zpětném pohledu člověk nedokáže říct, zda by se rozhodl stejně, kdyby věděl, co ho čeká.
+Po zkušenosti člověk mluví o „předchozím životě“ a hodnotí jej jinými měřítky; dřívější dohody
+a závazky mu připadají cizí. McAdams takovou přestavbu životního vyprávění popisuje jako běžný
+mechanismus, jímž lidé dávají smysl zásadním změnám, a nikoli jako příznak (McAdams, 2001).
+
+Vzniká nesoulad mezi minulými a současnými výroky, který není lží, a okolí reaguje
+nepochopením. Právě zde je nutná opatrnost při výkladu: nesoulad vyprávění je u velkých změn
+pravidlem, takže z něj nelze usuzovat na nepravdivost (McAdams, 2001).
+
+Při zpětném pohledu člověk často nedokáže říct, zda by se rozhodl stejně, kdyby věděl, co ho
+čeká. Paulová z toho vyvozuje, že hodnocení volby po zkušenosti není nezávislým potvrzením její
+správnosti, protože hodnotí už změněný člověk (Paul, 2014).
 
 ## Mechanismus
 
-Pro Kompendium má pojem dvě strany. Zaprvé pojmenovává **legitimní** proměnu člověka, kterou
-nelze předem plně pochopit – a proto ji nelze ani zakazovat, ani bagatelizovat. Zadruhé
-vysvětluje, proč jsou skupiny a jednotlivci, kteří nabízejí „transformaci“, strukturně
-v silné pozici: slib zkušenosti, kterou zvenčí nelze posoudit („pochopíš, až to zažiješ“),
-znemožňuje informované rozhodnutí předem, a změněné hodnoty po zkušenosti mohou zpětně
-ospravedlnit cokoli, co k ní vedlo. Tento vzorec se objevuje v kazuistikách sekulárních kultů
-a seberozvojových programů (viz [Exit ze sekulárního
+Doložená část se týká poznání, ne vlivu: určité poznání je dostupné jen prožitím, a proto nelze
+rozhodnutí o jeho získání plně informovat předem (Paul, 2014; Jackson, 1982).
+
+Výkladem knihy je to, co z toho plyne pro vliv. Skupina, která nabízí proměnu, získává
+strukturní výhodu: slib zkušenosti, kterou zvenčí nelze posoudit, znemožňuje informované
+rozhodnutí předem, a změněné hodnoty po zkušenosti mohou zpětně ospravedlnit cestu, která
+k nim vedla. Lifton popsal podobné uspořádání jako prostředí, v němž doktrína předchází osobě
+a pochybnost se vykládá jako nezralost (Lifton, 1961); kniha z toho dělá rozpoznávací znak, ne
+tvrzení o každé nabídce proměny (*interpretace knihy*, viz [etické
+aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)).
+
+Proti plošnému čtení stojí empirie konverzí. Barkerová na dlouhodobém výzkumu nového
+náboženského hnutí ukázala, že většina zájemců nekonvertovala a že konverze byly převážně
+výsledkem rozhodnutí, nikoli zlomení vůle (Barker, 1984). Vzorec je tedy riziko, ne zákonitost;
+v knize k tomu patří kazuistiky [Exit ze sekulárního
 kultu](@/kompendium/case-studies/27-secular-cult-exit.md) a [Self-help
-cult](@/kompendium/case-studies/14-self-help-cult.md)). Popis slouží k rozpoznání: pozor na
-nabídky, které odmítají vysvětlit, co se bude dít, a označují dotazy za „odpor“.
+cult](@/kompendium/case-studies/14-self-help-cult.md).
 
 ## Odlišení
 
-- **Od běžné změny názoru** – změna názoru se dá vysvětlit argumenty dostupnými předem;
-  transformativní zkušenost ne.
-- **Od [identitní destrukce](@/glossary/identity-destruction.md)** – transformace zachovává
-  autorství a spojení s dřívějším já; destrukce ho přetrhává a nahrazuje příběhem dodaným
-  zvenčí.
-- **Od [spiritual bypassing](@/glossary/spiritual-bypassing.md)** – tam se duchovní rámec
-  používá k obcházení bolestných témat, nejde o skutečnou proměnu.
-- **Od patologické změny osobnosti** – změny po neurologickém onemocnění nebo v psychóze
-  vyžadují klinické vyšetření.
+Od běžné změny názoru se transformativní zkušenost liší tím, že změnu nelze vysvětlit
+argumenty dostupnými předem; běžnou změnu lze (Paul, 2015).
 
-## Význam pro Kompendium
+Od [identitní destrukce](@/glossary/identity-destruction.md) se liší zachováním autorství:
+transformace ponechává spojení s dřívějším já a schopnost o ní vyprávět jako o vlastním
+příběhu, zatímco destrukce toto spojení přetrhává a nahrazuje vyprávěním dodaným zvenčí. Úloha
+souvislého životního vyprávění pro identitu je přitom dobře popsaná (McAdams, 2001).
 
-Rámec transformativní zkušenosti má podstatné důsledky pro právní a etickou doktrínu
-[informovaného souhlasu](@/glossary/informed-consent.md). Standardní souhlas vyžaduje, aby pacient
-nebo účastník výzkumu rozuměl rizikům a přínosům intervence. U transformativních intervencí –
-hluboké mozkové stimulace, terapie psilocybinem, afirmačních chirurgických zákroků, některých
-experimentálních genových terapií – je však nejvýznamnější výsledek (změněné vnímání sebe) přesně
-tím druhem výsledku, který dřívější já nemůže předem plně uchopit. Bioetická literatura
-a literatura o etických komisích ([IRB Review](@/glossary/irb-review.md)) řeší, zda tradiční rámce
-souhlasu stačí, nebo zda jsou nutné dynamické, postupné či vztahové modely souhlasu. Evropská
-regulace klinických hodnocení (nařízení EU č. 536/2014) a česká právní úprava (zákon
-č. 372/2011 Sb., o zdravotních službách) kladou na souhlas obdobné požadavky, aniž by se s touto
-filosofickou výzvou plně vypořádávaly.
+Od [spirituálního obcházení](@/glossary/spiritual-bypassing.md) se liší skutečností proměny: tam
+se duchovní rámec používá k obejití bolestných témat, aniž by se cokoli změnilo (Pugh, 2020).
+Od patologické změny osobnosti po neurologickém onemocnění nebo v psychóze se liší tím, že
+vyžaduje klinické vyšetření podle kritérií (American Psychiatric Association, 2022).
 
-V kontextu Prismatic Platform je pojem relevantní pro posouzení rozhodovací kapacity v rámci
-[individuální mapy rizik](@/glossary/individual-risk-map.md) a pro návrh výzkumných protokolů,
-v nichž se účastníkovi nabízí potenciálně transformativní intervence. Praktické aplikace:
+## Důsledky pro informovaný souhlas
 
-- **v návrhu výzkumu a přezkumu etickou komisí** vyžadují transformativní intervence zvýšenou
-  pozornost: delší dobu na rozmyšlenou, nezávislé zastánce, postupný souhlas (úvodní souhlas
-  se zahájením a nový souhlas v každém milníku) a výslovné upozornění v dokumentu o souhlasu, že
-  intervence může změnit, jak účastník intervenci samotnou hodnotí;
-- **v [due diligence](@/glossary/due-diligence.md) u klíčových osob** rámec vysvětluje, proč přechody vedení po akvizici často
-  selhávají navzdory zdánlivě jasným smluvním závazkům – zakladatel, který firmu prodává, ještě
-  neví, jaké to bude být zaměstnancem, a já po prodeji může dohodu z doby před prodejem
-  racionálně odmítnout;
-- **při analýze z otevřených zdrojů** u osob procházejících radikalizací, konverzí nebo
-  zotavením brání perspektiva transformativní zkušenosti přehnanému výkladu nesouladu mezi
-  minulými a současnými výroky (srov. [narativní identita](@/glossary/narativni-identita.md)).
+Doktrína [informovaného souhlasu](@/glossary/informed-consent.md) vyžaduje, aby pacient nebo
+účastník rozuměl rizikům a přínosům zásahu; Faden a Beauchamp ukázali, že její historické jádro
+je ochrana autonomie rozhodnutí, nikoli předání informací (Faden a Beauchamp, 1986), a stejný
+důraz nese standardní výklad principů biomedicínské etiky (Beauchamp a Childress, 2019).
+
+U transformativních zásahů je ovšem nejvýznamnější výsledek právě ten, který dřívější já
+nemůže předem uchopit. Doloženo je to u obou krajních příkladů: psilocybinem vyvolané mystické
+prožitky byly spojeny s měřitelnou a přetrvávající změnou osobnostní otevřenosti (MacLean
+a kol., 2011), a u hluboké mozkové stimulace u Parkinsonovy nemoci byla popsána situace
+„uzdraveného těla a rozrušené mysli“, tedy úspěšný zásah s nečekanou proměnou sebepojetí
+(Schüpbach a kol., 2006).
+
+Právní rámce tuto filozofickou obtíž neřeší, jen stanovují požadavky na souhlas. Klinická
+hodnocení v Evropské unii upravuje nařízení (EU) č. 536/2014 a souhlas se zdravotními službami
+v Česku zákon č. 372/2011 Sb., o zdravotních službách; Pugh z toho vyvozuje potřebu modelů
+souhlasu, které počítají s proměnou rozhodujícího (Pugh, 2020). V knize k tomu patří [IRB
+review](@/glossary/irb-review.md) a [otázka validity
+souhlasu](@/kompendium/critical-perspectives/15-consent-validity-question.md).
 
 ## Obrana a zotavení
 
-- **Před rozhodnutím**: hledat svědectví lidí, kteří zkušenost prošli, včetně těch, kteří
-  litují; ptát se, co se stane, když se rozhodnu odejít; nedůvěřovat nabídkám, které odmítají
-  vysvětlit postup; ponechat si vztahy a zdroje mimo skupinu, která transformaci nabízí.
-- **Po zkušenosti**: dát si čas, než nové hodnoty promítnete do nevratných rozhodnutí;
-  pracovat s kontinuitou příběhu (co z dřívějšího já zůstává).
-- **Pro profesionála**: respektovat legitimní proměnu klienta a zároveň mapovat, zda nebyla
-  vyvolána nebo zneužita manipulací; u výzkumu uplatnit postupný souhlas (viz [Otázka validity
-  souhlasu v EA výzkumu](@/kompendium/critical-perspectives/15-consent-validity-question.md)).
+Před rozhodnutím pomáhá hledat svědectví lidí, kteří zkušenost prošli, včetně těch, kteří jí
+litují; právě dostupnost takových svědectví je argumentem proti tvrzení, že rozhodnutí je
+epistemicky nedostupné (Dougherty a kol., 2015). Užitečné je také ponechat si vztahy a zdroje
+mimo skupinu, která proměnu nabízí, protože Barkerová ukázala, jak podstatný je u konverzí
+přístup k vnějšímu srovnání (Barker, 1984).
+
+Po zkušenosti je rozumné dát si čas, než se nové hodnoty promítnou do nevratných rozhodnutí,
+a pracovat se souvislostí vyprávění, tedy s tím, co z dřívějšího já zůstává (McAdams, 2001);
+v knize k tomu vede [narativní identita](@/glossary/narativni-identita.md).
+
+Pro profesionála platí dvojí úkol: respektovat legitimní proměnu klienta a zároveň mapovat,
+zda nebyla vyvolána nebo zneužita; u výzkumu je pak odpovědí postupný souhlas, tedy opakované
+potvrzení v průběhu, nikoli jediný podpis na začátku (Pugh, 2020).
+
+## Meze a otevřené otázky
+
+Hlavní otevřenou otázkou je, zda je nedostupnost poznání opravdu zásadní, nebo jen praktická;
+spor Jacksona s Lewisem o povahu fenomenálního poznání není rozhodnut (Jackson, 1982; Lewis,
+1988) a námitky proti Paulové se ho přímo dotýkají (Pettigrew, 2016).
+
+Druhou mezí je přenositelnost. Rámec byl formulován pro jednotlivá velká rozhodnutí, ne pro
+dlouhodobé působení ve skupině, a jeho použití na manipulaci je výkladem knihy, nikoli
+výsledkem Paulové (*interpretace knihy*). Nadužití by vedlo k tvrzení, že každá hluboká změna
+je zneužitím, což empirie konverzí nepodporuje (Barker, 1984).
 
 ## Literatura
 
-- L. A. Paul: *Transformative Experience* (Oxford University Press, 2014).
-- L. A. Paul: „What You Can't Expect When You're Expecting“, *Res Philosophica* 92 (2), 2015.
-- Jonathan Pugh: *Autonomy, Rationality, and Contemporary Bioethics* (Oxford University Press,
-  2020).
-- Havi Carel, Ian James Kidd: „Epistemic injustice in healthcare: a philosophical analysis“,
-  *Medicine, Health Care and Philosophy* (2014).
+- American Psychiatric Association (2022). *Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR)*. American Psychiatric Publishing.
+- Barker, E. (1984). *The Making of a Moonie: Choice or Brainwashing?*. Blackwell.
+- Beauchamp, T. L., & Childress, J. F. (2019). *Principles of Biomedical Ethics*. Oxford University Press.
+- Dougherty, T., Horowitz, S., & Sliwa, P. (2015). *Expecting the unexpected*. Res Philosophica.
+- Faden, R. R., & Beauchamp, T. L. (1986). *A History and Theory of Informed Consent*. Oxford University Press.
+- Jackson, F. (1982). *Epiphenomenal qualia*. Philosophical Quarterly.
+- Lewis, D. (1988). *What experience teaches*. Proceedings of the Russellian Society.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. Norton.
+- MacLean, K. A., Johnson, M. W., & Griffiths, R. R. (2011). *Mystical experiences occasioned by the hallucinogen psilocybin lead to increases in the personality domain of openness*. Journal of Psychopharmacology.
+- McAdams, D. P. (2001). *The psychology of life stories*. Review of General Psychology.
+- Paul, L. A. (2014). *Transformative Experience*. Oxford University Press.
+- Paul, L. A. (2015). *What you can't expect when you're expecting*. Res Philosophica.
+- Pettigrew, R. (2016). *Transformative experience and decision theory*. Philosophy and Phenomenological Research.
+- Pugh, J. (2020). *Autonomy, Rationality, and Contemporary Bioethics*. Oxford University Press.
+- Schüpbach, M., Gargiulo, M., Welter, M. L., et al. (2006). *Neurosurgery in Parkinson disease: A distressed mind in a repaired body?*. Neurology.
 
 ## Související
 
-**Pojmy v tomto glosáři**
+**Pojmy**
 
-- [Epistemická pokora](@/glossary/epistemicka-pokora.md) – postoj přiměřený nejistotě
-  transformativní zkušenosti.
-- [Informed Consent](@/glossary/informed-consent.md) – doktrína, které se pojem dotýká nejvíce.
-- [IRB Review](@/glossary/irb-review.md) – mechanismus řízení souhlasu v transformativním výzkumu.
-- [Individual Risk Map](@/glossary/individual-risk-map.md) – nástroj pro individualizované posouzení
-  rizik.
-- [Sektářská konverze](@/glossary/sektarska-konverze.md) – konverze jako transformace a její
-  zneužití.
-
-**Hesla platformy mimo tuto knihu**
-
-- [Epistemic Reasoning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-reasoning/),
-  [Bayesian Reasoning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/bayesian-reasoning/),
-  [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) –
-  rámce rozhodování, které transformativní zkušenost zpochybňuje nebo přestavuje.
+- [Epistemická pokora](@/glossary/epistemicka-pokora.md) – postoj přiměřený nejistotě o vlastní budoucí volbě.
+- [Informed consent](@/glossary/informed-consent.md) – doktrína, které se pojem dotýká nejvíce.
+- [IRB review](@/glossary/irb-review.md) – mechanismus posouzení transformativního výzkumu.
+- [Individual risk map](@/glossary/individual-risk-map.md) – nástroj individualizovaného posouzení rizika.
+- [Sektářská konverze](@/glossary/sektarska-konverze.md) – konverze jako proměna a její zneužití.
+- [Identitní destrukce](@/glossary/identity-destruction.md) – protiklad zachované autorské proměny.
+- [Narativní identita](@/glossary/narativni-identita.md) – souvislost vyprávění o sobě.
+- [Mystický prožitek](@/glossary/mysticky-prozitek.md) – blízká kategorie zkušenosti.
 
 **Kniha**
 
-- [Exit ze sekulárního kultu](@/kompendium/case-studies/27-secular-cult-exit.md) – zneužitý slib
-  transformace.
+- [Otázka validity souhlasu](@/kompendium/critical-perspectives/15-consent-validity-question.md) – kritická perspektiva.
+- [Exit ze sekulárního kultu](@/kompendium/case-studies/27-secular-cult-exit.md) – zneužitý slib proměny.
+- [Self-help cult](@/kompendium/case-studies/14-self-help-cult.md) – proměna jako produkt.

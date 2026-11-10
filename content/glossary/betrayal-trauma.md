@@ -21,128 +21,179 @@ image_alt = "Betrayal trauma – glosář"
 
 ## Definice
 
-**Betrayal trauma** (česky *trauma ze zrady*) je kategorie traumatu, kterou formulovala
-psycholožka Jennifer Freydová v knize *Betrayal Trauma: The Logic of Forgetting Childhood
-Abuse* (1996) a dále rozpracovala v **teorii traumatu ze zrady** (*Betrayal Trauma Theory*,
-BTT). Označuje újmu, kterou způsobí osoba, instituce nebo systém, na nichž je oběť závislá
-pro přežití, péči, citovou vazbu nebo identitu – rodič, partner, terapeut, náboženská
-instituce, zaměstnavatel, stát.
+Betrayal trauma, česky trauma ze zrady, je kategorie traumatu, kterou formulovala psycholožka
+Jennifer Freydová: označuje újmu způsobenou osobou, institucí nebo systémem, na nichž je
+dotčený závislý pro přežití, péči, citovou vazbu nebo identitu – rodičem, partnerem,
+terapeutem, náboženskou obcí, zaměstnavatelem či státem (Freyd, 1996). Rozhodující není
+závažnost události, ale míra zrady, tedy to, jak blízká a jak nezbytná je osoba, která ublížila
+(Freyd, 1997).
 
-Na rozdíl od traumatu z ohrožení, kde je adaptivní odpovědí boj nebo útěk, vytváří trauma
-ze zrady protichůdný adaptivní imperativ: oběť zradu **nesmí** plně poznat, protože
-výslovné vědění by ji donutilo opustit vztah, bez něhož se neobejde. Výsledkem je
-**izolace vědění** (*knowledge isolation*): oběť újmu disociuje, zapomene, zlehčí nebo ji
-soustavně přerámuje tak, aby vztah zachovala.
-
-Ústřední Freydové myšlenkou je, že **disociace je za podmínek závislosti racionální**. Když
-cena vědění převýší cenu nevědění, kognitivní systém se přeorganizuje kolem selektivní
-nevědomosti. Odtud typické rysy: slepota ke zradě (*betrayal blindness*), motivované
-zapomínání a internalizované sebeobviňování („za to můžu já“).
+Teorie traumatu ze zrady (*Betrayal Trauma Theory*) na tomto rozlišení staví jedno ústřední
+tvrzení: za podmínek závislosti je omezení přístupu k vědění o zradě adaptivní, protože
+výslovné poznání by dotčeného donutilo vztah opustit, bez něhož se neobejde (Freyd, 1996).
+Odtud typické rysy – slepota ke zradě (*betrayal blindness*), motivované zapomínání
+a internalizované sebeobviňování (Freyd a Birrell, 2013).
 
 ## Původ a kontext pojmu
 
-Teorie vznikla v 90. letech v kontextu sporu o vzpomínky na zneužívání v dětství. Freydová
-vysvětlila, proč děti zneužívané pečující osobou často na zneužití „zapomínají“ častěji než
-děti, kterým ublížil cizí člověk: zapomnění chrání vazbu, na níž dítě závisí. Pojem
-**DARVO** (*Deny, Attack, Reverse Victim and Offender*), který Freydová zavedla v roce 1997,
-popisuje vzorec na straně pachatele, který slepotu oběti zneužívá a posiluje (viz
-[DARVO](@/glossary/darvo.md)). Pojem *betrayal blindness* šířeji zpracovaly Freydová
-a Birrellová v knize *Blind to Betrayal* (2013).
+Teorie vznikla v 90. letech v kontextu sporu o vzpomínky na zneužívání v dětství. Freydová jí
+vysvětlila doklad, který samotná závažnost události nevysvětluje: děti, jimž ublížila pečující
+osoba, na zneužití „zapomínají“ častěji než děti, kterým ublížil cizí člověk, protože zapomnění
+chrání vazbu, na níž závisí jejich přežití (Freyd, 1996). Teoretickým pozadím je výzkum citové
+vazby, podle něhož dítě udržuje blízkost k pečující osobě i tehdy, je-li zdrojem ohrožení
+(Bowlby, 1969).
 
-Teorie je empiricky dobře podložená: trauma s vysokou mírou zrady předpovídá disociativní
-příznaky, alexithymii a rysy [komplexní PTSD](@/glossary/c-ptsd.md) spolehlivěji než
-trauma srovnatelné závažnosti s nízkou mírou zrady. Pojem **institucionální zrada**
-(Smithová a Freydová 2014) rozšiřuje rámec za hranice intimních vztahů – na církve,
-armády, univerzity a zdravotnické systémy, které selžou v ochraně lidí, kteří jim důvěřují.
+Empirická opora se od té doby rozšířila. Trauma s vysokou mírou zrady souvisí s disociativními
+příznaky, se studem a strachem silněji než trauma srovnatelné závažnosti s nízkou mírou zrady
+(Platt a Freyd, 2015), a předpovídá jak psychické, tak tělesné obtíže (Goldsmith a kol., 2012).
+Pojem institucionální zrady rozšiřuje rámec za hranice intimních vztahů na církve, armády,
+univerzity a zdravotnické systémy, které selžou v ochraně lidí, kteří jim důvěřují (Smith
+a Freyd, 2014); zkušenost s institucionální zradou přitom zhoršuje následky původní újmy
+(Smith a Freyd, 2013).
+
+Do téhož okruhu patří i vzorec [DARVO](@/glossary/darvo.md), který Freydová zavedla pro reakci
+pachatele při konfrontaci; popření, útok a obrácení rolí slepotu dotčeného využívají a dále
+ji posilují (Freyd, 1997).
 
 ## Jak se projevuje
 
-**U dotčeného:**
+U dotčeného se typicky objevují mezery v paměti právě v oblasti vztahu, který ublížil, při
+jinak dobré paměti, a soustavná obhajoba této osoby i proti zjevným dokladům (Freyd a Birrell,
+2013). Namísto hněvu se objevuje stud a sebeobviňování, které u traumatu s vysokou mírou zrady
+patří k nejvýraznějším nálezům (Platt a Freyd, 2015).
 
-- mezery v paměti právě v oblasti vztahu, který ublížil, při jinak dobré paměti;
-- obhajoba osoby nebo instituce, která ublížila, i proti zjevným důkazům;
-- sebeobviňování a stud místo hněvu;
-- tělesné reakce (úzkost, ztuhnutí) při tématech, o nichž člověk „nic neví“;
-- obtíž pojmenovat vlastní emoce (alexithymie).
+Druhým okruhem jsou tělesné a emoční projevy při tématech, o nichž člověk „nic neví“: úzkost,
+ztuhnutí, nevysvětlené bolesti nebo potíže pojmenovat vlastní emoce; tělesné obtíže doprovázejí
+tento typ traumatu doloženě častěji (Goldsmith a kol., 2012). Herman tytéž projevy popisuje
+jako součást obrazu chronického traumatu v podmínkách, z nichž nelze odejít (Herman, 1992).
 
-**Ve vztahu a v instituci:**
-
-- oběť je nejhlasitějším obhájcem prostředí, které ji poškozuje;
-- instituce reaguje na stížnost ochranou vlastní pověsti, nikoli ochranou oznamovatele;
-- okolí přijímá výklad mocnější strany, protože i ono na ní závisí.
+Ve vztahu a v instituci se vzorec pozná podle toho, že dotčený bývá nejhlasitějším obhájcem
+prostředí, které ho poškozuje, že instituce reaguje na stížnost ochranou vlastní pověsti místo
+ochranou oznamovatele a že okolí přejímá výklad mocnější strany, protože i ono na ní závisí
+(Smith a Freyd, 2014). Právě tato reakce prostředí je tím, co výzkum označuje za institucionální
+zradu, a co následky původní újmy prohlubuje (Smith a Freyd, 2013).
 
 ## Mechanismus
 
-Strukturálně jde o **konflikt dvou adaptivních systémů**: systému, který detekuje ohrožení,
-a systému citové vazby. Když ohrožení přichází od toho, na kom vazba stojí, systém
-řeší konflikt omezením přístupu k informaci. Vědění se nerozpadne, ale izoluje: je
-uloženo, prožíváno tělesně, nikoli však integrováno do vědomého příběhu.
+Strukturálně jde o konflikt dvou adaptivních systémů: systému, který rozpoznává ohrožení,
+a systému citové vazby. Pokud ohrožení přichází právě od toho, na kom vazba stojí, nelze obě
+odpovědi uplatnit zároveň, a systém konflikt řeší omezením přístupu k informaci (Freyd, 1996).
+Vědění se tím nerozpadne, ale izoluje: je uloženo a prožíváno tělesně, nikoli však integrováno
+do vědomého příběhu (Freyd a Birrell, 2013).
 
-Tento mechanismus je **jádrem několika drah epistemické anihilace** popsaných v Kompendiu.
-Je-li manipulátor důvěryhodnou vazebnou osobou, kognitivní aparát oběti aktivně
-spolupracuje na ničení vlastní epistemické kapacity – ne z hlouposti nebo slabosti, ale
-z racionální adaptivní logiky zachování vazby. Konkrétně:
+Kniha z toho vyvozuje, proč bývají některé dráhy [epistemické
+anihilace](@/glossary/epistemicka-anihilace.md) tak účinné: je-li manipulující osoba zároveň
+vazebnou osobou, poznávací aparát dotčeného se na omezení vlastního vědění podílí sám, a to
+nikoli ze slabosti, ale z logiky zachování vazby (*interpretace knihy*). Doložená část tohoto
+výkladu je právě ona logika, nikoli zařazení do taxonomie knihy (Freyd, 1996).
 
-- imunizační techniky skupiny EA-1.3 (např. [EA-1.3.1 Imunizace proti
-  falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)) využívají
-  slepotu ke zradě: oběť nemůže zkoumat důkazy proti agresorovi, aniž by spustila ohrožení
-  vazby;
-- [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) zneužívá disociativní
-  mezeru: oběť nemůže důvěřovat vlastním vjemům, protože by tím zradu pojmenovala;
-- [gaslighting](@/glossary/gaslighting.md) a [trauma bonding](@/glossary/trauma-bonding.md)
-  tuto mezeru dále prohlubují.
+Konkrétně kniha uvádí tři souvislosti. Imunizační technika [imunizace proti
+falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) těží ze slepoty
+ke zradě, protože zkoumání dokladů proti agresorovi je zároveň ohrožením vazby;
+[metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) využívá disociativní mezeru,
+protože důvěra ve vlastní vjemy by zradu pojmenovala; a [gaslighting](@/glossary/gaslighting.md)
+s [trauma bondingem](@/glossary/trauma-bonding.md) mezeru dále prohlubují. Všechny tři vazby
+jsou výkladem knihy opřeným o Freydové mechanismus, ne samostatným nálezem (Freyd, 1997).
 
 ## Odlišení
 
-- **PTSD z jednorázové události.** Trauma ze zrady se neurčuje závažností události, ale
-  vztahem závislosti; často je chronické a vede spíše ke komplexnímu obrazu.
-- **[Trauma bonding](@/glossary/trauma-bonding.md).** Popisuje silnou vazbu na agresora
-  vzniklou střídáním týrání a vlídnosti; trauma ze zrady vysvětluje, proč oběť o zradě
-  „neví“. Oba jevy se často vyskytují spolu.
-- **Simulace a nepravdivá výpověď.** Mezery v paměti u traumatu ze zrady nejsou známkou
-  nevěrohodnosti; mají typický vzorec (selektivní, vázaný na vztah). Posouzení věrohodnosti
-  vyžaduje opatrnost (viz [Hodnocení
-  věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md)).
-- **Disociativní porucha.** Disociace zde může dosáhnout klinické úrovně, ale teorie
-  popisuje především funkci disociace, nikoli diagnózu (viz [Disociace](@/glossary/disociace.md)).
+Od posttraumatické stresové poruchy po jednorázové události se trauma ze zrady neodlišuje
+příznaky, ale podmínkou vzniku: určuje ho vztah závislosti, bývá chronické a vede spíše k obrazu
+blízkému [komplexní PTSD](@/glossary/c-ptsd.md), který je v mezinárodní klasifikaci nemocí
+veden jako samostatná jednotka (World Health Organization, 2019). Od [trauma
+bondingu](@/glossary/trauma-bonding.md) se liší tím, co vysvětluje: tam silnou vazbu na
+agresora, zde to, proč dotčený o zradě „neví“ (Freyd a Birrell, 2013).
+
+Od simulace a nepravdivé výpovědi je třeba odlišovat opatrně. Mezery v paměti u traumatu ze
+zrady nejsou známkou nevěrohodnosti a mají typický vzorec, totiž selektivitu vázanou na vztah
+(Freyd, 1996); obtíž podat soudržné vyprávění patří k následkům chronického traumatu
+(Herman, 1992). Praktický rámec dává [posuzování
+věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md).
+
+Od disociativní poruchy se teorie liší předmětem: popisuje funkci disociace, ne diagnózu.
+Disociace zde může dosáhnout klinické úrovně, a pak má vlastní diagnostická kritéria
+(American Psychiatric Association, 2022); sousední plochu rozebírá heslo
+[disociace](@/glossary/disociace.md).
+
+## Klinický, právní a etický rámec
+
+Trauma ze zrady není diagnózou; je vysvětlujícím rámcem, který určuje, jak se k příznakům
+přistupuje. Klinicky z něj plyne, že obvyklé postupy [testování
+reality](@/glossary/reality-testing.md) u lidí po epistemické anihilaci často selhávají,
+protože dotčený nemá jen chybnou informaci, ale důvod ji nemít, a že proto je potřeba přístup
+citlivý k vazbě (Freyd a Birrell, 2013). Pořadí stabilizace a zpracování odpovídá obecnému
+rámci zotavení z chronického traumatu (Herman, 1992).
+
+Právně se nejbližší skutkové podstaty v České republice nacházejí v zákoně č. 40/2009 Sb.,
+trestním zákoníku – u svěřených osob zejména § 198 o týrání svěřené osoby a § 199 o týrání
+osoby žijící ve společném obydlí. Institucionální rozměr pokrývá zákon č. 171/2023 Sb.,
+o ochraně oznamovatelů, který zavazuje organizace k ochraně toho, kdo pochybení nahlásí; jde
+o právní nástroj proti tomu, co výzkum nazývá institucionální zradou (Smith a Freyd, 2014).
+
+Eticky je zásadní, že rámec nesmí být použit k tomu, aby se dotčenému vnucovalo poznání,
+k němuž není připraven, ani k tomu, aby se jeho obhajoba pachatele vykládala jako souhlas
+(Freyd a Birrell, 2013). Zásady, podle nichž kniha s takovým materiálem zachází, popisují
+[etické aspekty Kompendia](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Význam pro Kompendium
 
-- [Decision Engine](@/glossary/decision-engine.md) považuje vztahové kontexty s vysokou
-  závislostí za **strukturální rizikové faktory** při kalibraci důvěryhodnosti: výpověď obětí
-  důvěryhodných institucí vyžaduje jiné epistemické vážení než výpověď o cizích lidech.
-- Klinické kapitoly v [06. Klinických aplikacích](@/kompendium/06-klinicke-aplikace/_index.md)
-  stavějí přímo na BTT, když vysvětlují, proč běžné intervence [testování reality](@/glossary/reality-testing.md) u lidí
-  po epistemické anihilaci často selhávají a proč jsou nutné terapeutické přístupy citlivé
-  k vazbě.
-- Pojem vysvětluje [epistemickou alienaci](@/glossary/epistemicka-alienace.md) – odcizení
-  od vlastního poznávacího aparátu – a na úrovni institucí navazuje na [epistemickou
-  injustici](@/glossary/epistemicka-injustice.md).
+Pro knihu je trauma ze zrady spojnicí mezi individuální a institucionální rovinou. Vysvětluje
+[epistemickou alienaci](@/glossary/epistemicka-alienace.md) jako odcizení od vlastního
+poznávacího aparátu a na úrovni institucí navazuje na [epistemickou
+injustici](@/glossary/epistemicka-injustice.md), tedy na újmu, která vzniká tím, že se
+svědectví předem nepřizná váha (Smith a Freyd, 2014). Klinické kapitoly knihy na tomto rámci
+stavějí ([Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)).
+
+Z téhož důvodu kniha doporučuje brát vztahy s vysokou mírou závislosti za samostatný
+strukturální rizikový faktor při vážení výpovědí: výpověď o blízké či důvěryhodné instituci
+vzniká za jiných podmínek než výpověď o cizím člověku, a bývá proto opatrnější a pozdější
+(Smith a Freyd, 2013). Toto doporučení je výkladem knihy pro její vlastní postupy
+(*interpretace knihy*), opřeným o metodické zásady v [metodologických
+poznámkách](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Obrana a zotavení
 
-**Pro dotčeného:**
+Pro dotčeného je prvním krokem uznání, že „nevědění“ bylo ochranou, nikoli selháním; to snižuje
+stud, který je u traumatu ze zrady jedním z nejsilnějších udržujících prvků (Platt a Freyd,
+2015). Vědění se obnovuje postupně a v bezpečném vztahu, ne konfrontací, a současně je potřeba
+budovat vazby mimo prostředí, které ublížilo, aby poznání přestalo ohrožovat přežití
+(Freyd a Birrell, 2013). Navazuje [obnova
+důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md).
 
-- uznat, že „nevědění“ bylo ochranou, nikoli selháním; to snižuje stud;
-- obnovovat vědění postupně a v bezpečném vztahu, ne konfrontací;
-- budovat vazby mimo prostředí, které ublížilo, aby vědění přestalo ohrožovat přežití
-  (viz [Obnova důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md)).
+Pro profesionála a pro instituci platí, že terapie má mířit na bezpečí a na vazbu, ne na rychlé
+„odhalení pravdy“, a že při šetření stížností je třeba počítat s tím, že dotčený může zpočátku
+zlehčovat nebo hájit pachatele (Freyd, 1996). Instituce, která chrání oznamovatele, snižuje
+riziko, že k původní újmě přidá vlastní (Smith a Freyd, 2013); organizační podobu popisuje
+[mechanismus
+oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md).
 
-**Pro profesionála a instituci:**
+## Meze a kritika
 
-- terapie zaměřená na vazbu a na bezpečí, nikoli na rychlé „odhalení pravdy“;
-- při šetření stížností počítat s tím, že oběť může zpočátku zlehčovat nebo hájit pachatele;
-- institucionálně chránit oznamovatele a předcházet institucionální zradě (viz [Mechanismus
-  oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)).
+Teorie vznikla v ostrém sporu o povahu vzpomínek na zneužívání a tento spor není uzavřen:
+tvrzení o motivovaném zapomínání se opírá převážně o retrospektivní data, u nichž nelze oddělit
+zapomnění od nevyprávění (Freyd, 1996). Rámec také nepředpovídá, kdo slepotu ke zradě rozvine
+a kdo ne; doložené jsou souvislosti na úrovni skupin, ne jednotlivé průběhy (Goldsmith a kol.,
+2012).
+
+Druhou mezí je riziko nadužití. Pojem se hodí k vysvětlení téměř každé loajality
+k poškozujícímu prostředí, a tím ztrácí rozlišovací schopnost; u konkrétní osoby může být
+obhajoba instituce výsledkem úvahy, nikoli disociace (Smith a Freyd, 2014). Riziko nadužití
+rámce rozebírá kapitola [Přesah
+rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
 
 ## Literatura
 
-- Jennifer J. Freyd: *Betrayal Trauma: The Logic of Forgetting Childhood Abuse* (1996).
-- Jennifer J. Freyd: „Violations of power, adaptive blindness and betrayal trauma theory“,
-  *Feminism & Psychology* (1997).
-- Jennifer J. Freyd, Pamela Birrell: *Blind to Betrayal* (2013).
-- Carly P. Smith, Jennifer J. Freyd: „Institutional betrayal“, *American Psychologist* (2014).
-- Judith L. Herman: *Trauma and Recovery* (1992).
+- American Psychiatric Association (2022). *Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR)*. American Psychiatric Publishing.
+- Bowlby, J. (1969). *Attachment and Loss, Vol. 1: Attachment*. Basic Books.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Freyd, J. J. (1997). *Violations of power, adaptive blindness and betrayal trauma theory*. Feminism & Psychology.
+- Freyd, J. J., & Birrell, P. (2013). *Blind to Betrayal*. Jossey-Bass.
+- Goldsmith, R. E., Freyd, J. J., & DePrince, A. P. (2012). *Betrayal trauma: associations with psychological and physical symptoms in young adults*. Journal of Interpersonal Violence.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Platt, M. G., & Freyd, J. J. (2015). *Betray my trust, shame on me: Shame, dissociation, fear, and betrayal trauma*. Psychological Trauma: Theory, Research, Practice, and Policy.
+- Smith, C. P., & Freyd, J. J. (2013). *Dangerous safe havens: Institutional betrayal exacerbates sexual trauma*. Journal of Traumatic Stress.
+- Smith, C. P., & Freyd, J. J. (2014). *Institutional betrayal*. American Psychologist.
+- World Health Organization (2019). *International Classification of Diseases, 11th Revision (ICD-11)*. WHO.
 
 ## Související
 
@@ -150,22 +201,18 @@ z racionální adaptivní logiky zachování vazby. Konkrétně:
 
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – ústřední pojem Kompendia.
 - [C-PTSD](@/glossary/c-ptsd.md) – častý diagnostický výsledek chronického traumatu ze zrady.
-- [DARVO](@/glossary/darvo.md) – vzorec pachatele, který slepotu oběti zneužívá.
-- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – protějšek na úrovni
-  kognitivních procesů.
-- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – vyřazení reflexivního
-  vědomí.
-- [Epistemická alienace](@/glossary/epistemicka-alienace.md) – odcizení od vlastního
-  poznávacího aparátu.
-- [Epistemická injustice](@/glossary/epistemicka-injustice.md) – epistemická újma na úrovni
-  institucí.
+- [DARVO](@/glossary/darvo.md) – vzorec pachatele, který slepotu dotčeného využívá.
+- [Trauma bonding](@/glossary/trauma-bonding.md) – vazba na agresora, k odlišení.
+- [Disociace](@/glossary/disociace.md) – mechanismus, jehož funkci teorie vysvětluje.
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) – odcizení od vlastního poznávacího aparátu.
+- [Epistemická injustice](@/glossary/epistemicka-injustice.md) – epistemická újma na úrovni institucí.
 
 **Klinika a obrana**
 
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) – klinické využití BTT.
-- [Obnova důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) – protokol
-  pro období po odchodu z poškozujícího vztahu.
-- [Kompendium](@/kompendium/_index.md) – celá taxonomie.
+- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) – klinické využití rámce.
+- [Obnova důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) – protokol pro období po odchodu.
+- [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md) – ochrana proti institucionální zradě.
+- [Přesah rámce](@/kompendium/critical-perspectives/3-framework-overreach.md) – mez pojmu.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

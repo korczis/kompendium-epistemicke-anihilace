@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 603,
+        "in": 600,
         "kind": "Pojem",
         "path": "glossary/epistemicka-anihilace.md",
         "tier": 2,
@@ -55,7 +55,7 @@
       },
       {
         "code": null,
-        "in": 224,
+        "in": 222,
         "kind": "Kapitola",
         "path": "kompendium/05-ultramari-techniky/_index.md",
         "tier": 6,
@@ -105,7 +105,7 @@
       },
       {
         "code": null,
-        "in": 8,
+        "in": 7,
         "kind": "Most",
         "path": "kompendium/glossary-bridges/bridge-c-ptsd.md",
         "tier": 6,

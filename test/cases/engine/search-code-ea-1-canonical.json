@@ -1,0 +1,39 @@
+{
+  "category": "code",
+  "expected": {
+    "code": "EA-1.3.1",
+    "hits": [
+      {
+        "code": "EA-1.3.1",
+        "in": 179,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+        "tier": 1,
+        "title": "EA-1.3.1 Imunizace proti falsifikaci",
+        "url": "/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/",
+        "why": "exact_code"
+      },
+      {
+        "code": "EA-1.3.1",
+        "in": 10,
+        "kind": "Kapitola",
+        "path": "kompendium/quick-reference/qr-ea-1-3-1.md",
+        "tier": 1,
+        "title": "Rychlá karta EA-1.3.1: Imunizace proti falsifikaci",
+        "url": "/kompendium/quick-reference/qr-ea-1-3-1/",
+        "why": "exact_code"
+      }
+    ],
+    "limit": 12,
+    "normalised": "ea-1.3.1",
+    "ok": true,
+    "op": "search",
+    "query": "EA-1.3.1",
+    "schema": "kompendium-engine/v1",
+    "total": 2
+  },
+  "input": {
+    "op": "search",
+    "query": "EA-1.3.1"
+  }
+}

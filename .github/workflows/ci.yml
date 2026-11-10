@@ -71,6 +71,8 @@ jobs:
         run: python3 scripts/build-graph.py --check
       - name: Shell data (navigation, terms, search, viz libraries) is current
         run: python3 scripts/build-ui-data.py --check
+      - name: Engine contract fixtures (kompendium-engine/v1) are current
+        run: python3 scripts/build-engine-fixtures.py --check
       - name: Graphics (lattice SVG, section SVG and OG images) are current
         run: python3 scripts/render-graphics.py --check
       - name: README scope table is current
@@ -102,7 +104,8 @@ jobs:
           zola build --base-url http://127.0.0.1:18790/kompendium-epistemicke-anihilace --output-dir "$root/kompendium-epistemicke-anihilace"
           (cd "$root" && python3 -m http.server 18790 --bind 127.0.0.1 > /dev/null 2>&1 &)
           sleep 2
-          BASE_URL=http://127.0.0.1:18790/kompendium-epistemicke-anihilace/ npm run --silent test:surfaces
+          BASE_URL=http://127.0.0.1:18790/kompendium-epistemicke-anihilace/ \
+            SITE_DIR="$root/kompendium-epistemicke-anihilace" npm run --silent test:surfaces
       - name: Accessibility, layout and links (axe-core WCAG 2.2 AA, CLS, overflow, internal links)
         run: BASE_URL=http://127.0.0.1:18790/kompendium-epistemicke-anihilace/ npm run --silent test:audit
       - name: Upload the site

@@ -1,0 +1,139 @@
+{
+  "category": "term",
+  "expected": {
+    "code": null,
+    "hits": [
+      {
+        "code": null,
+        "in": 603,
+        "kind": "Pojem",
+        "path": "glossary/epistemicka-anihilace.md",
+        "tier": 4,
+        "title": "Epistemická anihilace",
+        "url": "/glossary/epistemicka-anihilace/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 177,
+        "kind": "Pojem",
+        "path": "glossary/epistemicke-trauma.md",
+        "tier": 4,
+        "title": "Epistemické trauma",
+        "url": "/glossary/epistemicke-trauma/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 138,
+        "kind": "Pojem",
+        "path": "glossary/epistemicka-singularita.md",
+        "tier": 4,
+        "title": "Epistemická singularita",
+        "url": "/glossary/epistemicka-singularita/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 130,
+        "kind": "Pojem",
+        "path": "glossary/epistemicka-injustice.md",
+        "tier": 4,
+        "title": "Epistemická injustice",
+        "url": "/glossary/epistemicka-injustice/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 128,
+        "kind": "Filozofie",
+        "path": "philosophy/epistemic-integrity.md",
+        "tier": 4,
+        "title": "Epistemická integrita a uchování významu",
+        "url": "/philosophy/epistemic-integrity/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 98,
+        "kind": "Pojem",
+        "path": "glossary/epistemicka-alienace.md",
+        "tier": 4,
+        "title": "Epistemická alienace",
+        "url": "/glossary/epistemicka-alienace/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 76,
+        "kind": "Pojem",
+        "path": "glossary/epistemic-bubble.md",
+        "tier": 4,
+        "title": "Epistemic bubble (epistemická bublina)",
+        "url": "/glossary/epistemic-bubble/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 64,
+        "kind": "Pojem",
+        "path": "glossary/epistemicka-pokora.md",
+        "tier": 4,
+        "title": "Epistemická pokora",
+        "url": "/glossary/epistemicka-pokora/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 57,
+        "kind": "Pojem",
+        "path": "glossary/epistemicka-monokultura.md",
+        "tier": 4,
+        "title": "Epistemická monokultura",
+        "url": "/glossary/epistemicka-monokultura/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 44,
+        "kind": "Pojem",
+        "path": "glossary/epistemic-pipeline.md",
+        "tier": 4,
+        "title": "Epistemic Pipeline (epistemický proces)",
+        "url": "/glossary/epistemic-pipeline/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 36,
+        "kind": "Pojem",
+        "path": "glossary/epistemic-security.md",
+        "tier": 4,
+        "title": "Epistemic security (epistemická bezpečnost)",
+        "url": "/glossary/epistemic-security/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 33,
+        "kind": "Pojem",
+        "path": "glossary/epistemicka-agentnost.md",
+        "tier": 4,
+        "title": "Epistemická agentnost",
+        "url": "/glossary/epistemicka-agentnost/",
+        "why": "title_prefix"
+      }
+    ],
+    "limit": 12,
+    "normalised": "epi",
+    "ok": true,
+    "op": "search",
+    "query": "Epi",
+    "schema": "kompendium-engine/v1",
+    "total": 407
+  },
+  "input": {
+    "op": "search",
+    "query": "Epi"
+  }
+}

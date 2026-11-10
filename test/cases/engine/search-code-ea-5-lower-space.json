@@ -1,0 +1,139 @@
+{
+  "category": "code",
+  "expected": {
+    "code": "EA-5.1.1",
+    "hits": [
+      {
+        "code": "EA-5.1.1",
+        "in": 87,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md",
+        "tier": 1,
+        "title": "EA-5.1.1 Epistemická kanibalizace",
+        "url": "/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace/",
+        "why": "exact_code"
+      },
+      {
+        "code": "EA-5.1.1",
+        "in": 4,
+        "kind": "Kapitola",
+        "path": "kompendium/quick-reference/qr-ea-5-1-1.md",
+        "tier": 1,
+        "title": "Rychlá karta EA-5.1.1: Epistemická kanibalizace",
+        "url": "/kompendium/quick-reference/qr-ea-5-1-1/",
+        "why": "exact_code"
+      },
+      {
+        "code": "EA-5.1.13",
+        "in": 50,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-5-1-13-hyperreflexivita.md",
+        "tier": 4,
+        "title": "EA-5.1.13 Hyperreflexivita",
+        "url": "/kompendium/techniques/ea-5-1-13-hyperreflexivita/",
+        "why": "title_prefix"
+      },
+      {
+        "code": "EA-5.1.16",
+        "in": 35,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-5-1-16-inferencni-paralyza.md",
+        "tier": 4,
+        "title": "EA-5.1.16 Inferenční paralýza",
+        "url": "/kompendium/techniques/ea-5-1-16-inferencni-paralyza/",
+        "why": "title_prefix"
+      },
+      {
+        "code": "EA-5.1.10",
+        "in": 26,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md",
+        "tier": 4,
+        "title": "EA-5.1.10 Temporální dekoherence",
+        "url": "/kompendium/techniques/ea-5-1-10-temporalni-dekoherence/",
+        "why": "title_prefix"
+      },
+      {
+        "code": "EA-5.1.14",
+        "in": 24,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md",
+        "tier": 4,
+        "title": "EA-5.1.14 Iluzorní transcendence",
+        "url": "/kompendium/techniques/ea-5-1-14-iluzorni-transcendence/",
+        "why": "title_prefix"
+      },
+      {
+        "code": "EA-5.1.17",
+        "in": 21,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-5-1-17-tautologicka-imploze.md",
+        "tier": 4,
+        "title": "EA-5.1.17 Tautologická imploze",
+        "url": "/kompendium/techniques/ea-5-1-17-tautologicka-imploze/",
+        "why": "title_prefix"
+      },
+      {
+        "code": "EA-5.1.15",
+        "in": 19,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-5-1-15-apofaticke-zacykleni.md",
+        "tier": 4,
+        "title": "EA-5.1.15 Apofatické zacyklení",
+        "url": "/kompendium/techniques/ea-5-1-15-apofaticke-zacykleni/",
+        "why": "title_prefix"
+      },
+      {
+        "code": "EA-5.1.19",
+        "in": 18,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md",
+        "tier": 4,
+        "title": "EA-5.1.19 Kvazi-mystická anihilace",
+        "url": "/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace/",
+        "why": "title_prefix"
+      },
+      {
+        "code": "EA-5.1.18",
+        "in": 17,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md",
+        "tier": 4,
+        "title": "EA-5.1.18 Solipsistická dekompozice",
+        "url": "/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice/",
+        "why": "title_prefix"
+      },
+      {
+        "code": "EA-5.1.12",
+        "in": 11,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md",
+        "tier": 4,
+        "title": "EA-5.1.12 Kauzální inverze",
+        "url": "/kompendium/techniques/ea-5-1-12-kauzalni-inverze/",
+        "why": "title_prefix"
+      },
+      {
+        "code": "EA-5.1.11",
+        "in": 8,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-5-1-11-modalni-dezorientace.md",
+        "tier": 4,
+        "title": "EA-5.1.11 Modální dezorientace",
+        "url": "/kompendium/techniques/ea-5-1-11-modalni-dezorientace/",
+        "why": "title_prefix"
+      }
+    ],
+    "limit": 12,
+    "normalised": "ea-5.1.1",
+    "ok": true,
+    "op": "search",
+    "query": "ea 5.1.1",
+    "schema": "kompendium-engine/v1",
+    "total": 12
+  },
+  "input": {
+    "op": "search",
+    "query": "ea 5.1.1"
+  }
+}

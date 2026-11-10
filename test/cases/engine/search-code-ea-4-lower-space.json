@@ -1,0 +1,39 @@
+{
+  "category": "code",
+  "expected": {
+    "code": "EA-4.4.1",
+    "hits": [
+      {
+        "code": "EA-4.4.1",
+        "in": 28,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-4-4-1-narrative-disassembly.md",
+        "tier": 1,
+        "title": "EA-4.4.1 Narrative disassembly",
+        "url": "/kompendium/techniques/ea-4-4-1-narrative-disassembly/",
+        "why": "exact_code"
+      },
+      {
+        "code": "EA-4.4.10",
+        "in": 3,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-4-4-10-identity-stabilization.md",
+        "tier": 4,
+        "title": "EA-4.4.10 Identity stabilization",
+        "url": "/kompendium/techniques/ea-4-4-10-identity-stabilization/",
+        "why": "title_prefix"
+      }
+    ],
+    "limit": 12,
+    "normalised": "ea-4.4.1",
+    "ok": true,
+    "op": "search",
+    "query": "ea 4.4.1",
+    "schema": "kompendium-engine/v1",
+    "total": 2
+  },
+  "input": {
+    "op": "search",
+    "query": "ea 4.4.1"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "category": "neighbourhood",
+  "expected": {
+    "depth": 1,
+    "edges": [
+      {
+        "from": "glossary/taxonomie-ea.md",
+        "kind": "link",
+        "to": "kompendium/techniques/_index.md"
+      },
+      {
+        "from": "kompendium/case-studies/_index.md",
+        "kind": "link",
+        "to": "kompendium/historical-cases/_index.md"
+      },
+      {
+        "from": "kompendium/case-studies/_index.md",
+        "kind": "link",
+        "to": "kompendium/techniques/_index.md"
+      },
+      {
+        "from": "kompendium/historical-cases/_index.md",
+        "kind": "link",
+        "to": "kompendium/techniques/_index.md"
+      },
+      {
+        "from": "kompendium/techniques/_index.md",
+        "kind": "link",
+        "to": "glossary/taxonomie-ea.md"
+      },
+      {
+        "from": "kompendium/techniques/_index.md",
+        "kind": "link",
+        "to": "kompendium/case-studies/_index.md"
+      },
+      {
+        "from": "kompendium/techniques/_index.md",
+        "kind": "link",
+        "to": "kompendium/historical-cases/_index.md"
+      },
+      {
+        "from": "mapa.md",
+        "kind": "link",
+        "to": "matice.md"
+      },
+      {
+        "from": "mapa.md",
+        "kind": "link",
+        "to": "stav.md"
+      },
+      {
+        "from": "matice.md",
+        "kind": "link",
+        "to": "glossary/taxonomie-ea.md"
+      },
+      {
+        "from": "matice.md",
+        "kind": "link",
+        "to": "kompendium/case-studies/_index.md"
+      },
+      {
+        "from": "matice.md",
+        "kind": "link",
+        "to": "kompendium/historical-cases/_index.md"
+      },
+      {
+        "from": "matice.md",
+        "kind": "link",
+        "to": "kompendium/techniques/_index.md"
+      },
+      {
+        "from": "matice.md",
+        "kind": "link",
+        "to": "mapa.md"
+      },
+      {
+        "from": "matice.md",
+        "kind": "link",
+        "to": "stav.md"
+      },
+      {
+        "from": "stav.md",
+        "kind": "link",
+        "to": "mapa.md"
+      }
+    ],
+    "limit": 28,
+    "nodes": [
+      {
+        "class": "root",
+        "distance": 0,
+        "in": 1,
+        "path": "matice.md",
+        "title": "Případy × techniky"
+      },
+      {
+        "class": "glossary",
+        "distance": 1,
+        "in": 381,
+        "path": "glossary/taxonomie-ea.md",
+        "title": "Taxonomie EA"
+      },
+      {
+        "class": "kompendium/case-studies",
+        "distance": 1,
+        "in": 55,
+        "path": "kompendium/case-studies/_index.md",
+        "title": "Případové studie – anonymizované kompozity"
+      },
+      {
+        "class": "kompendium/techniques",
+        "distance": 1,
+        "in": 45,
+        "path": "kompendium/techniques/_index.md",
+        "title": "Techniques — detailní per-technique články"
+      },
+      {
+        "class": "kompendium/historical-cases",
+        "distance": 1,
+        "in": 18,
+        "path": "kompendium/historical-cases/_index.md",
+        "title": "Historické případy"
+      },
+      {
+        "class": "root",
+        "distance": 1,
+        "in": 5,
+        "path": "mapa.md",
+        "title": "Mapa knihy"
+      },
+      {
+        "class": "root",
+        "distance": 1,
+        "in": 3,
+        "path": "stav.md",
+        "title": "Stav knihy"
+      }
+    ],
+    "ok": true,
+    "op": "neighbourhood",
+    "path": "matice.md",
+    "schema": "kompendium-engine/v1",
+    "total": 6,
+    "truncated": false
+  },
+  "input": {
+    "depth": 1,
+    "op": "neighbourhood",
+    "path": "matice.md"
+  }
+}

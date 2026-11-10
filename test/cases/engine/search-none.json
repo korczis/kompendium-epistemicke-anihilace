@@ -1,0 +1,18 @@
+{
+  "category": "none",
+  "expected": {
+    "code": null,
+    "hits": [],
+    "limit": 12,
+    "normalised": "xxx",
+    "ok": true,
+    "op": "search",
+    "query": "xxx",
+    "schema": "kompendium-engine/v1",
+    "total": 0
+  },
+  "input": {
+    "op": "search",
+    "query": "xxx"
+  }
+}

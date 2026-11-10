@@ -1,0 +1,16 @@
+{
+  "category": "bad_input",
+  "expected": {
+    "error": {
+      "code": "bad_input",
+      "field": "op",
+      "message": "op must be a string"
+    },
+    "ok": false,
+    "op": null,
+    "schema": "kompendium-engine/v1"
+  },
+  "input": {
+    "query": "Epistemická anihilace"
+  }
+}

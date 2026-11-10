@@ -1,0 +1,89 @@
+{
+  "category": "term",
+  "expected": {
+    "code": null,
+    "hits": [
+      {
+        "code": null,
+        "in": 298,
+        "kind": "Pojem",
+        "path": "glossary/coercive-control.md",
+        "tier": 4,
+        "title": "Coercive control (donucující kontrola)",
+        "url": "/glossary/coercive-control/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 49,
+        "kind": "Kapitola",
+        "path": "kompendium/forensic-legal/12-coercive-control-law.md",
+        "tier": 5,
+        "title": "Právní úprava coercive control",
+        "url": "/kompendium/forensic-legal/12-coercive-control-law/",
+        "why": "title_word"
+      },
+      {
+        "code": "EA-8.2.5",
+        "in": 17,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+        "tier": 5,
+        "title": "EA-8.2.5 Starkův rámec coercive control",
+        "url": "/kompendium/techniques/ea-8-2-5-stark-coercive-control/",
+        "why": "title_word"
+      },
+      {
+        "code": "EA-8.1.4",
+        "in": 13,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-8-1-4-coercive-control-scale.md",
+        "tier": 5,
+        "title": "EA-8.1.4 Měření coercive control (škály a dotazníky)",
+        "url": "/kompendium/techniques/ea-8-1-4-coercive-control-scale/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 12,
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-coercive-control.md",
+        "tier": 5,
+        "title": "Bridge: Coercive control (donucující kontrola)",
+        "url": "/kompendium/glossary-bridges/bridge-coercive-control/",
+        "why": "title_word"
+      },
+      {
+        "code": "EA-8.3.1",
+        "in": 7,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-8-3-1-foundational-readings.md",
+        "tier": 6,
+        "title": "EA-8.3.1 Základní literatura",
+        "url": "/kompendium/techniques/ea-8-3-1-foundational-readings/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 6,
+        "kind": "Kapitola",
+        "path": "kompendium/international/27-australian-law-EA/index.md",
+        "tier": 6,
+        "title": "Austrálie — EA právní rámec",
+        "url": "/kompendium/international/27-australian-law-ea/",
+        "why": "description"
+      }
+    ],
+    "limit": 12,
+    "normalised": "coe",
+    "ok": true,
+    "op": "search",
+    "query": "Coe",
+    "schema": "kompendium-engine/v1",
+    "total": 7
+  },
+  "input": {
+    "op": "search",
+    "query": "Coe"
+  }
+}

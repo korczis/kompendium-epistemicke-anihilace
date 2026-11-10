@@ -15,7 +15,8 @@
 #
 # Gates: migrate-content, normalize-front-matter (and its schema table), polish-markdown,
 # link-terms, check-ia, build-references, build-graph, build-ui-data, build-readme (when present),
-# zola build, build-surfaces, graph urls resolve, test/ staged, test/run.sh. The export is
+# zola build, build-surfaces, build-engine-fixtures, graph urls resolve, test/ staged,
+# test/run.sh. The export is
 # deleted afterwards.
 set -euo pipefail
 
@@ -64,6 +65,9 @@ if [ "$fix" = --fix ]; then
   step "build-references"         python3 scripts/build-references.py
   step "build-graph"              python3 scripts/build-graph.py
   step "build-ui-data"            python3 scripts/build-ui-data.py
+  if [ -f scripts/build-engine-fixtures.py ]; then
+    step "build-engine-fixtures"  python3 scripts/build-engine-fixtures.py
+  fi
   # README's derived section table (dev-31's generator); it reads graph.json and metrics.json.
   if [ -f scripts/build-readme.py ]; then step "build-readme" python3 scripts/build-readme.py; fi
 fi
@@ -71,6 +75,9 @@ step "check-ia"                   python3 scripts/check-ia.py
 step "build-references --check"   python3 scripts/build-references.py --check
 step "build-graph --check"        python3 scripts/build-graph.py --check
 step "build-ui-data --check"      python3 scripts/build-ui-data.py --check
+if [ -f scripts/build-engine-fixtures.py ]; then
+  step "build-engine-fixtures --check" python3 scripts/build-engine-fixtures.py --check
+fi
 if [ -f scripts/build-readme.py ]; then
   step "build-readme --check"     python3 scripts/build-readme.py --check
 fi
@@ -93,6 +100,10 @@ if [ "$fix" = --fix ]; then
   cp static/data/*.json "$root/static/data/"
   cp content/references.md "$root/content/references.md"
   derived="scripts/ia-baseline.json static/data content/references.md"
+  if [ -f scripts/build-engine-fixtures.py ]; then
+    rm -rf "$root/test/cases/engine" && cp -R test/cases/engine "$root/test/cases/engine"
+    derived="$derived test/cases/engine"
+  fi
   if [ -f scripts/build-readme.py ]; then cp README.md "$root/README.md"; derived="$derived README.md"; fi
   (cd "$root" && git add $derived)
   echo "verify-content: derived files regenerated from the staged tree and staged"

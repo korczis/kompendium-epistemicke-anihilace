@@ -28,13 +28,8 @@
   var basePath = base.replace(/^https?:\/\/[^/]+/, '');
 
   // --- Pomocné funkce ----------------------------------------------------------------------
-  function fold(s) {
-    return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
-  }
-
-  function words(s) {
-    return s.split(/[^a-z0-9]+/).filter(Boolean);
-  }
+  // Normalizace a slova jsou jádra (static/js/viz/jadro.js, kontrakt kompendium-engine/v1).
+  var J = window.KompendiumJadro;
 
   function href(path) {
     if (/^https?:/.test(path)) return path;
@@ -60,22 +55,6 @@
     return t.content.firstElementChild.cloneNode(true);
   }
 
-  // Kód techniky ve tvaru 1.2.2 z „EA-1.2.2“, „ea-1-2-2“, „ea 1.2.2“ nebo z adresy.
-  var CODE_RE = /(?:^|[^a-z0-9])ea[\s._-]*(\d+(?:[._-]\d+)*)/;
-  function codeOf(title, url) {
-    var m = CODE_RE.exec(fold(title)) || /\/(?:qr-)?ea-(\d+(?:-\d+)*)(?:-|\/|$)/.exec(url || '');
-    return m ? m[1].replace(/[._-]/g, '.') : '';
-  }
-
-  // Kód v dotazu: s předponou „ea“ stačí jedna úroveň, bez ní aspoň dvě (1.2, 1.2.2).
-  function queryCode(q) {
-    var m = /(?:^|\s)(ea[\s._-]*)?(\d+(?:[\s._-]+\d+)*)(?=\s|$)/.exec(q);
-    if (!m) return null;
-    var parts = m[2].split(/[\s._-]+/);
-    if (!m[1] && parts.length < 2) return null;
-    return { code: parts.join('.'), rest: (q.slice(0, m.index) + ' ' + q.slice(m.index + m[0].length)).trim() };
-  }
-
   // --- Nedávné stránky (localStorage, jen pohodlí čtenáře) ---------------------------------
   function readRecent() {
     try {
@@ -99,9 +78,9 @@
   }
 
   // --- Data ---------------------------------------------------------------------------------
-  // Jediný rejstřík webu: static/data/search.json (scripts/build-ui-data.py), týž, který čte
-  // vyhledávání v horní liště. Nese kód EA, oddíl, počet příchozích odkazů i štítky, takže
-  // paleta nepotřebuje rejstřík Zoly ani graf knihy.
+  // Jediný rejstřík webu: static/data/search.json (scripts/build-ui-data.py) a graf knihy, nad
+  // kterými stránky řadí jádro (tak jako vyhledávání v horní liště). Kód EA bere paleta jen
+  // ze search.json; sama ho z názvu ani adresy neodvozuje.
   var dataPromise = null;
   var docs = null;
 
@@ -123,23 +102,26 @@
     return section.split('/').pop().replace(/^\d+-/, '').replace(/-/g, ' ');
   }
 
+  // Akce a stránky aplikace hledá paleta sama (nejsou to stránky knihy, jádro je neřadí):
+  // každé slovo dotazu musí začínat některé slovo názvu nebo klíčových slov.
   function makeDoc(o) {
-    var t = fold(o.title);
-    o.t = t;
-    o.tw = words(t);
-    o.hay = fold(o.title + ' ' + (o.description || '') + ' ' + (o.keywords || '') + ' ' + (o.badge || ''));
-    o.hw = words(o.hay);
+    o.words = J.tokens(J.normalise(o.title + ' ' + (o.keywords || '')));
     o.code = o.code || '';
-    o.inLinks = o.inLinks || 0;
     return o;
   }
 
   function loadData() {
     if (dataPromise) return dataPromise;
-    dataPromise = fetch(body.getAttribute('data-search-index')).then(function (r) {
-      if (!r.ok) throw new Error('Rejstřík hledání: HTTP ' + r.status);
-      return r.json();
-    }).then(function (data) {
+    function fetchJson(url, what) {
+      return fetch(url).then(function (r) {
+        if (!r.ok) throw new Error(what + ': HTTP ' + r.status);
+        return r.json();
+      });
+    }
+    dataPromise = Promise.all([fetchJson(body.getAttribute('data-search-index'), 'Rejstřík hledání'),
+      fetchJson(body.getAttribute('data-graph'), 'Graf knihy')]).then(function (res) {
+      var data = res[0];
+      var engine = J.create(data, res[1]);
       var f = {};
       data.fields.forEach(function (name, i) { f[name] = i; });
       var labels = data.sections || {};
@@ -156,18 +138,19 @@
         if (seen[k] || appKeys[k] || !title) return;
         seen[k] = true;
         var section = sectionOf(path);
-        var code = codeOf(title, k) || String(e[f.code] || '').replace(/^ea-?/i, '');
+        var code = e[f.code] || '';
         var kind = 'page';
         if (e[f.file] === 1) kind = 'section';
         else if (code || section === 'kompendium/techniques') kind = 'technique';
         else if (section === 'glossary') kind = 'glossary';
         list.push(makeDoc({
           kind: kind, title: title, description: e[f.description] || '', url: href(k), k: k,
-          badge: labels[section] || fallbackLabel(section), code: code, inLinks: e[f['in']] || 0,
-          keywords: (e[f.tags] || []).join(' '), path: path,
+          badge: labels[section] || fallbackLabel(section), code: code, path: path,
         }));
       });
-      docs = { list: list, byKey: byKey };
+      var docByKey = {};
+      list.forEach(function (d) { docByKey[d.k] = d; });
+      docs = { list: list, byKey: byKey, docByKey: docByKey, engine: engine };
       return docs;
     });
     dataPromise.catch(function () { dataPromise = null; });
@@ -221,53 +204,28 @@
     { kind: 'page', label: 'Ostatní stránky' },
   ];
 
-  function termScore(d, term) {
-    if (d.t === term) return 14;
-    if (d.t.indexOf(term) === 0) return 10;
-    var w = false;
-    var wp = false;
-    for (var i = 0; i < d.tw.length; i++) {
-      if (d.tw[i] === term) { w = true; break; }
-      if (d.tw[i].indexOf(term) === 0) wp = true;
-    }
-    if (w) return 8;
-    if (wp) return 6;
-    if (d.t.indexOf(term) !== -1) return 3;
-    for (var j = 0; j < d.hw.length; j++) if (d.hw[j].indexOf(term) === 0) return 2;
-    return d.hay.indexOf(term) !== -1 ? 1 : 0;
-  }
-
-  function score(d, terms, qc) {
-    var s = 0;
-    if (qc) {
-      if (!d.code) return 0;
-      if (d.code === qc) s += 30;
-      else if (d.code.indexOf(qc + '.') === 0) s += 12;
-      else return 0;
-    }
-    for (var i = 0; i < terms.length; i++) {
-      var ts = termScore(d, terms[i]);
-      if (!ts) return 0;
-      s += ts;
-    }
-    return s;
-  }
-
+  // Stránky knihy v pořadí jádra (shoda kódu, názvu, aliasu, začátku názvu, slov v názvu, slov
+  // v popisu; pak příchozí odkazy), akce a stránky aplikace zvlášť a před nimi. Skóre řádku
+  // je jen jeho pořadí: skupiny pak řadí jejich nejlepší řádek.
   function search(q) {
-    var fq = fold(q).trim();
-    var qc = queryCode(fq);
-    var terms = words(qc ? qc.rest : fq).filter(function (t) { return !(qc && t === 'ea'); });
-    if (!qc && !terms.length) return [];
-    var pool = ACTIONS.concat(APPS, docs ? docs.list : []);
     var hits = [];
-    for (var i = 0; i < pool.length; i++) {
-      var s = score(pool[i], terms, qc && qc.code);
-      if (s) hits.push({ d: pool[i], s: s });
-    }
-    hits.sort(function (a, b) {
-      return b.s - a.s || b.d.inLinks - a.d.inLinks || a.d.title.length - b.d.title.length;
+    var qn = J.normalise(q);
+    var terms = J.eaCode(qn) ? [] : J.tokens(qn);
+    ACTIONS.concat(APPS).forEach(function (d) {
+      if (terms.length && terms.every(function (t) {
+        return d.words.some(function (w) { return w.indexOf(t) === 0; });
+      })) hits.push({ d: d, s: 1e6 - hits.length });
     });
-    return hits.map(function (h) { return { d: h.d, s: h.s }; });
+    if (docs) {
+      var res = docs.engine.run({ op: 'search', query: q, limit: 50 });
+      if (res.ok) {
+        res.hits.forEach(function (h, i) {
+          var d = docs.docByKey[key(h.url)];
+          if (d) hits.push({ d: d, s: -i });
+        });
+      }
+    }
+    return hits;
   }
 
   // Výsledky do skupin; skupiny řadí jejich nejlepší výsledek, takže první řádek je nejlepší shoda.

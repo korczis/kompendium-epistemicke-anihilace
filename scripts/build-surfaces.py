@@ -32,7 +32,8 @@ KNOWN_GAPS is a ratchet: a gap not on it fails, an entry that is no longer a gap
 class) fails until it is removed, so the list only shrinks.
 
 The views come from a built site (default public/, from `npm run build` or `zola build`):
-derived() picks the Mermaid page from the built HTML. Run this after the build; it refuses a
+derived() picks the Mermaid page and, for every class without a scenario of its own, the class's
+most linked page that renders a view from the built HTML. Run this after the build; it refuses a
 site whose data/*.json differ from static/data/.
 
 Usage:
@@ -62,45 +63,16 @@ SITE_DATA = ("graph.json", "search.json")
 # Classes whose pages render no view covered by a scenario on one of their own pages. Ratchet:
 # a new gap fails, and an entry that is covered (or gone) fails until it is removed here.
 KNOWN_GAPS = (
-    "kompendium",
-    "kompendium/01-predmluva",
     "kompendium/02-doktrinalni-ramec",
-    "kompendium/03-manipulacni-vzorce",
-    "kompendium/03-zakladni-kategorie",
     "kompendium/04-klinika",
     "kompendium/04-operacni-principy",
-    "kompendium/04-pokrocile-fenomeny",
-    "kompendium/04-terminalni-protokoly",
     "kompendium/05-diagnostika",
     "kompendium/05-kolektivni-rozmer",
     "kompendium/05-pokrocile-operace",
     "kompendium/05-pokrocile-techniky",
     "kompendium/05-pre-konceptualni-rozklad",
-    "kompendium/05-ultramari-techniky",
     "kompendium/06-epistemicka-singularita",
-    "kompendium/06-intervence-a-obrana",
-    "kompendium/06-klinicke-aplikace",
     "kompendium/06-obrana",
-    "kompendium/07-populacni",
-    "kompendium/aiad-integration",
-    "kompendium/critical-perspectives",
-    "kompendium/cross-domain",
-    "kompendium/detection-signatures",
-    "kompendium/educational-scenarios",
-    "kompendium/forensic-legal",
-    "kompendium/glossary-bridges",
-    "kompendium/international",
-    "kompendium/konceptualni-mapa",
-    "kompendium/organizational-defense",
-    "kompendium/population-health",
-    "kompendium/prevention-resilience",
-    "kompendium/puvodni-taxonomie",  # new class (O1); needs a surfaces.cjs scenario (dev-31)
-    "kompendium/quick-reference",
-    "kompendium/recovery-protocols",
-    "kompendium/research-methodology",
-    "kompendium/section-bridges",
-    "kompendium/self-defense-guides",
-    "philosophy",
 )
 
 # On every page of its kind, so they say nothing about a class: the neighbourhood graph under
@@ -110,10 +82,11 @@ GENERIC_VIEWS = {
     "viz/oddil": "obecný přehled každého oddílu (partials/section-overview.html)",
 }
 # Loaded by the shell on every page, or the component layer the views draw through
-# (scripts/check-viz-layer.py: vrstva.js for p5/three canvases, kompendium-viz.js for
+# (scripts/check-viz-layer.py: vrstva.js for p5/three canvases, jadro.js the search and
+# neighbourhood engine (kompendium-engine/v1), kompendium-viz.js for
 # ECharts/cytoscape, kniha.js for Chart.js): not a view of a page. A view's canvas made through
 # the layer still counts, under the view's own script.
-NOT_VIEWS = {"viz/paleta", "viz/kompendium-viz", "viz/vrstva", "kompendium/kniha"}
+NOT_VIEWS = {"viz/paleta", "viz/kompendium-viz", "viz/vrstva", "viz/jadro", "kompendium/kniha"}
 # A scenario that paints nothing covers only the view its interaction or Mermaid check names.
 INTERACT_VIEWS = {"kostka": "viz/kostka", "faseta": "viz/glosar", "rejstrik": "viz/rejstrik"}
 RENDER_CHECKS = ("painted", "count", "counts", "text")

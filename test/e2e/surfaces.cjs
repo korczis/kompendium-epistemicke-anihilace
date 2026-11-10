@@ -3,7 +3,8 @@
 // vykreslují (ne jen že stránka vrací 200), že nejsou chyby v konzoli a že na telefonu
 // (390 px) nic nepřetéká do šířky. Prázdný graf je chyba, ne úspěch.
 //
-// Použití: BASE_URL=http://127.0.0.1:18790/ [ONLY=<regexp cesty>] node test/e2e/surfaces.cjs
+// Použití: BASE_URL=http://127.0.0.1:18790/ [SITE_DIR=<sestavený web>] [ONLY=<regexp cesty>]
+//          node test/e2e/surfaces.cjs
 // (web sestavený s --base-url na tutéž adresu). Playwright: PLAYWRIGHT=<cesta k playwright-core>.
 //
 // Jako modul (bez prohlížeče): require('./test/e2e/surfaces.cjs') vrací { FIXED, derived,
@@ -106,7 +107,35 @@ async function derived(load = fromBase) {
     const html = await load(page(n)).catch(() => '');
     if (html.includes('data-lang="mermaid"')) { out.push({ path: page(n), painted: 0, mermaid: 1, note: 'stránka s diagramem Mermaid' }); break; }
   }
+  // Třída stránek (oddíl, graph.json section) bez scénáře na vlastní stránce: její
+  // nejodkazovanější stránka (při shodě podle cesty), jejíž sestavené HTML vykresluje pohled.
+  // Třída bez pohledu scénář nedostane a scripts/build-surfaces.py ji hlásí jako mezeru.
+  const sectionOf = Object.fromEntries(g.nodes.map((n) => [page(n), n.section]));
+  const tested = new Set(FIXED.concat(out).map((s) => sectionOf[s.path]).filter(Boolean));
+  const byRank = (a, b) => (inDeg[b.id] || 0) - (inDeg[a.id] || 0) || (a.path < b.path ? -1 : a.path > b.path ? 1 : 0);
+  for (const section of [...new Set(g.nodes.map((n) => n.section))].sort()) {
+    if (tested.has(section)) continue;
+    for (const n of g.nodes.filter((x) => x.section === section).sort(byRank)) {
+      const s = classView(await load(page(n)).catch(() => ''));
+      if (s) { out.push({ path: page(n), ...s, note: `třída ${section}: ${s.note}` }); break; }
+    }
+  }
   return out;
+}
+
+// Pohled třídy v sestaveném HTML stránky (jako views_of ve scripts/build-surfaces.py, bez
+// obecného okolí a přehledu oddílu) a kontrola, že se vykreslil: odvozený pohled (pohled-graf)
+// dojde do stavu „hotovo“ s textovou podobou a ovládáním, plátna grafů (chart_inline,
+// viz_script) jsou vykreslená, diagramy Mermaid mají SVG. Bez pohledu vrací null.
+function classView(html) {
+  const canvases = (html.match(/<canvas\b/g) || []).length;
+  const pohled = (html.match(/data-pohled="([\w-]+)"/) || [])[1];
+  if (pohled) return { painted: canvases + 1, pohled, note: 'pohled ' + pohled };
+  const charts = html.includes('data-chart="') || /\/js\/kompendium\/[\w-]+\.js/.test(html);
+  if (charts && canvases) return { painted: canvases, note: `vykreslená plátna grafů (${canvases})` };
+  const diagrams = (html.match(/data-lang="mermaid"/g) || []).length;
+  if (diagrams) return { painted: 0, mermaid: diagrams, note: `diagramy Mermaid (${diagrams})` };
+  return null;
 }
 
 let SURFACES = FIXED;
@@ -414,7 +443,10 @@ async function check(browser, s, viewport, scheme) {
 
 async function main() {
   const { chromium } = require(process.env.PLAYWRIGHT || 'playwright-core');
-  SURFACES = FIXED.concat(await derived());
+  // SITE_DIR=<sestavený web>: odvozené scénáře čte z disku, ne přes HTTP. Smyčka přes stránky
+  // (hledání Mermaid) tak nedělá stovky požadavků na http.server; jeden z nich v CI shodil
+  // Node (undici: assert(!this.paused), běh 42810123032).
+  SURFACES = FIXED.concat(await derived(process.env.SITE_DIR ? fromDir(process.env.SITE_DIR) : undefined));
   // ONLY=<regexp cesty>: jen vybrané plochy (ladění; gate běží bez něj).
   if (process.env.ONLY) SURFACES = SURFACES.filter((s) => new RegExp(process.env.ONLY).test('/' + s.path));
   const browser = await chromium.launch();

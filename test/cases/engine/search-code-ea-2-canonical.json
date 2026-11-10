@@ -1,0 +1,39 @@
+{
+  "category": "code",
+  "expected": {
+    "code": "EA-2.1.9",
+    "hits": [
+      {
+        "code": "EA-2.1.9",
+        "in": 60,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+        "tier": 1,
+        "title": "EA-2.1.9 Vytváření pseudokonsenzu",
+        "url": "/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni/",
+        "why": "exact_code"
+      },
+      {
+        "code": "EA-2.1.9",
+        "in": 7,
+        "kind": "Kapitola",
+        "path": "kompendium/quick-reference/qr-ea-2-1-9.md",
+        "tier": 1,
+        "title": "Rychlá karta EA-2.1.9: Vytváření pseudokonsenzu",
+        "url": "/kompendium/quick-reference/qr-ea-2-1-9/",
+        "why": "exact_code"
+      }
+    ],
+    "limit": 12,
+    "normalised": "ea-2.1.9",
+    "ok": true,
+    "op": "search",
+    "query": "EA-2.1.9",
+    "schema": "kompendium-engine/v1",
+    "total": 2
+  },
+  "input": {
+    "op": "search",
+    "query": "EA-2.1.9"
+  }
+}

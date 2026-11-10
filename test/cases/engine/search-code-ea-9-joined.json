@@ -1,0 +1,39 @@
+{
+  "category": "code",
+  "expected": {
+    "code": "EA-9.3.1",
+    "hits": [
+      {
+        "code": "EA-9.3.1",
+        "in": 29,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-9-3-1-algorithmic-amplification.md",
+        "tier": 1,
+        "title": "EA-9.3.1 Algoritmická amplifikace",
+        "url": "/kompendium/techniques/ea-9-3-1-algorithmic-amplification/",
+        "why": "exact_code"
+      },
+      {
+        "code": "EA-9.3.10",
+        "in": 5,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-9-3-10-trend-manipulation-EA.md",
+        "tier": 4,
+        "title": "EA-9.3.10 Trend Manipulation EA",
+        "url": "/kompendium/techniques/ea-9-3-10-trend-manipulation-ea/",
+        "why": "title_prefix"
+      }
+    ],
+    "limit": 12,
+    "normalised": "ea-9.3.1",
+    "ok": true,
+    "op": "search",
+    "query": "EA9.3.1",
+    "schema": "kompendium-engine/v1",
+    "total": 2
+  },
+  "input": {
+    "op": "search",
+    "query": "EA9.3.1"
+  }
+}

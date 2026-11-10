@@ -1,0 +1,39 @@
+{
+  "category": "term",
+  "expected": {
+    "code": null,
+    "hits": [
+      {
+        "code": null,
+        "in": 298,
+        "kind": "Pojem",
+        "path": "glossary/coercive-control.md",
+        "tier": 2,
+        "title": "Coercive control (donucující kontrola)",
+        "url": "/glossary/coercive-control/",
+        "why": "exact_title"
+      },
+      {
+        "code": null,
+        "in": 12,
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-coercive-control.md",
+        "tier": 5,
+        "title": "Bridge: Coercive control (donucující kontrola)",
+        "url": "/kompendium/glossary-bridges/bridge-coercive-control/",
+        "why": "title_word"
+      }
+    ],
+    "limit": 12,
+    "normalised": "coercive control (donucujici kontrola)",
+    "ok": true,
+    "op": "search",
+    "query": "Coercive control (donucující kontrola)",
+    "schema": "kompendium-engine/v1",
+    "total": 2
+  },
+  "input": {
+    "op": "search",
+    "query": "Coercive control (donucující kontrola)"
+  }
+}

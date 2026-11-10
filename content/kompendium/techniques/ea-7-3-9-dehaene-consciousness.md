@@ -1,6 +1,6 @@
 +++
 title = "EA-7.3.9 Dehaene: Globální pracovní prostor"
-description = "Teoretická reflexe — Dehaene: Globální pracovní prostor a vztah k EA."
+description = "Vědomý přístup jako sdílení informace napříč mozkem s omezenou kapacitou. Co znamená zahlcení pozornosti, mýty o podprahovém ovlivňování a obrana pozornosti."
 weight = 739
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "techniques", "ea-7-3", "teoreticke"]
 categories = ["academic", "theory"]
 
 [extra]
-related_terms = ["ea-7-3-7-dennett-intentional-stance", "ea-7-3-8-chalmers-hard-problem", "ea-8-1-1-bite-model-detail", "ea-8-1-10-decision-making-capacity-scale"]
+related_terms = ["ea-1-1-2-informacni-pretizeni", "ea-7-3-1-kahneman-system12", "ea-7-3-10-tononi-iit", "ea-7-3-3-friston-active-inference", "ea-2-2-6-time-control-academic", "ea-5-1-10-temporalni-dekoherence"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.3.9"
 ea_category = "7. Teoretické reflexe"
@@ -21,88 +21,193 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 
 # EA-7.3.9 Dehaene: Globální pracovní prostor
 
-> *Teoretická reflexe v rámci 7.3 Kognitivní věda.*
-
-## Identifikace
-
 | Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-7.3.9` |
+| **Kategorie** | 7. Teoretické reflexe |
+| **Subkategorie** | 7.3 Kognitivní věda |
+| **Typ hesla** | Interpretační rámec – neurokognitivní model vědomého přístupu a pozornosti |
+| **Přístupová úroveň** | L1 |
+| **Riziková úroveň** | Střední u popsaného jevu – trvale obsazená pozornost vytlačuje reflexi |
+| **Reverzibilita** | Vysoká; omezení podnětů a odpočinek obnovují kapacitu |
+| **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |
+| **Monografické zpracování** | [7.5 Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) |
+
+> **Poznámka ke kódu.** Řada `EA-7.3` nesouvisí s tematickou kapitolou 7.3 Sociální
+> epistemologie; Dehaene nemá vlastní monografickou kapitolu, nejblíže je kapitola 7.5.
+
+## Definice
+
+**Teorie globálního neuronálního pracovního prostoru** (Stanislas Dehaene, Jean-Pierre
+Changeux a spolupracovníci) vykládá vědomí jako **globální zpřístupnění informace**: velká
+část zpracování v mozku probíhá nevědomě v paralelních specializovaných okruzích, ale
+vědomou se informace stává, když je „vysílána“ v síti dlouhých spojů (zejména
+frontoparietálních) a zpřístupněna paměti, řeči, plánování a rozhodování. Přechod do
+vědomí má podobu náhlého **„zažehnutí“** (*ignition*) rozsáhlé aktivity. Kapacita prostoru
+je **omezená**: v jednu chvíli v něm může být jen málo obsahů.
+
+Pro Kompendium je podstatná právě omezená kapacita: **kdo trvale obsazuje pracovní prostor,
+vytlačuje z něj reflexi**.
+
+## Původ a kontext pojmu
+
+Teorie navazuje na kognitivní model globálního pracovního prostoru Bernarda Baarse (1988).
+Dehaene a Naccache (2001) ji formulovali neurálně a Dehaene shrnul empirii v knize
+*Consciousness and the Brain* (2014): pokusy s maskováním podnětů, „slepotou“ pozornosti
+(*attentional blink*) a srovnáním vědomého a nevědomého zpracování. Přehled podává
+Mashour, Roelfsema, Changeux a Dehaene (2020). Teorie je jedním z hlavních kandidátů
+vědecké teorie vědomí vedle [teorie integrované informace](@/kompendium/techniques/ea-7-3-10-tononi-iit.md);
+rozsáhlé srovnávací experimenty obou teorií zatím nevedly k jednoznačnému rozhodnutí.
+
+## Mechanismus (strukturní popis)
+
+Z pohledu teorie lze v kazuistikách rozpoznat čtyři vzorce:
+
+1. **Trvalé obsazení.** Nepřetržitý proud zpráv, úkolů, notifikací, zpěvů nebo mantry drží
+   pracovní prostor plný; na vlastní úvahu nezbývá kapacita
+   ([EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)).
+2. **Přerušování.** Časté přepínání úkolů brání tomu, aby se myšlenka udržela dost dlouho na
+   to, aby byla zvážena; srov. [EA-2.2.6 Kontrola času](@/kompendium/techniques/ea-2-2-6-time-control-academic.md).
+3. **Emoční přednost.** Ohrožující nebo vzrušující obsah má přednost při vstupu do vědomí;
+   prostředí, které jím zásobuje, určuje, co se vůbec dostane k úvaze.
+4. **Mýtus podprahového ovládání.** Nevědomé zpracování existuje, ale jeho účinky jsou
+   v laboratoři krátkodobé a slabé. Nabídky „podprahového přeprogramování“ jsou
+   pseudovědou; slavný případ údajné podprahové reklamy z roku 1957 jeho autor později
+   označil za vymyšlený. Skutečná rizika leží ve viditelném, ale neustálém tlaku na pozornost.
+
+## Fenomenologické znaky (pohled zevnitř)
+
+| Znak | Jak ho člověk popisuje |
 |---|---|
-| **Kód EA** | EA-7.3.9 |
-| **Tradice** | Kognitivní věda |
-| **Autor / škola** | Dehaene |
-| **Hlavní teze** | Vědomí je globální vysílání informace v korovém pracovním prostoru. |
-| **Status v EA** | Teoretická reflexe — interpretační rámec, ne přímá technika |
-| **Cross-reference** | viz sekce *Mapování na EA techniky* |
+| Plná hlava | „Nemám ani chvilku přemýšlet.“ |
+| Rozpadlé myšlenky | „Začnu na něco myslet a hned mě to vytrhne.“ |
+| Ticho jako hrozba | „Když nic nehraje, je mi úzko.“ |
+| Pozdní uvědomění | „Došlo mi to, až když jsem byl týden pryč.“ |
 
-## Kontext autora
+## Detekční markery (pohled pozorovatele)
 
-Dehaene patří do tradice **Kognitivní věda**. Jeho/její pozice je relevantní pro EA tím, že nabízí pojmový aparát, jímž lze popsat manipulaci, asymetrii, framing a epistemickou dynamiku — tedy přesně to, co EA mapuje jako útočné a obranné techniky.
+| Marker | Co může naznačovat |
+|---|---|
+| Nepřetržitá komunikace skupiny, povinná okamžitá odpověď | Trvalé obsazení |
+| Neschopnost dočíst text nebo dokončit úvahu | Přerušování; [kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md) |
+| Úzkost při výpadku podnětů | Návyk na plný pracovní prostor |
+| Nabídky „podprahových“ nahrávek a „přeprogramování podvědomí“ | Pseudovědecký trh |
 
-Místo, aby EA tato pozice technicky obohacovala (jako kapitoly 1–5), slouží jako **interpretační vrstva**: pomáhá odpovědět na otázku *proč* daná technika funguje, *kdo* jí těží a *za jakých podmínek* jí lze odolat.
+## Rizikové kontexty
 
-## Klíčové koncepty
+Online komunity s nepřetržitým provozem (streamy, chatovací servery), pracoviště
+s okamžitou dostupností, rezidenční programy s nabitým programem, ekonomika pozornosti
+obecně a prodej „podprahových“ technik osobního rozvoje.
 
-1. **Global workspace theory**
-2. **Neurální podpisy vědomí**
-3. **Subliminální vs. vědomé zpracování**
+## Odlišení
 
-Tyto pojmy nejsou v EA použity přímo jako názvy technik, ale tvoří **rastr**, jímž lze techniky kapitol 1–6 lépe číst — a v některých případech i odhalit, že to, co vypadá jako jediná technika, je ve skutečnosti složený dispozitiv.
+- **Soustředění a flow.** Plné zaujetí činností, kterou si člověk zvolil a může přerušit,
+  není zahlcením.
+- **ADHD a úzkostné poruchy** mění zvládání pozornosti zevnitř; vyžadují odborné posouzení
+  a zvyšují zranitelnost vůči prostředí, které pozornost vyčerpává.
+- **[Default mode network](@/glossary/default-mode-network.md).** Klidové stavy mozku jsou
+  spojovány se sebereflexí a vybavováním vzpomínek; jejich soustavné potlačování je
+  hypotézou o tom, proč nepřetržitá stimulace oslabuje sebereflexi, ne prokázaným
+  mechanismem.
+- **Mýtus vs. riziko.** Odmítnutí podprahového ovládání nesmí vést k podcenění viditelného
+  tlaku na pozornost.
 
-## Vztah k EA
+## Klinický a právní rámec
 
-Pozice **Dehaene** vnáší do EA tři operativní příspěvky:
+Kliník by se měl ptát, kolik času denně má člověk bez podnětů a zda ho snese. Psychoedukace
+o omezené kapacitě pozornosti pomáhá pochopit, proč člověk „neviděl“ zjevné rozpory: ne pro
+hloupost, ale pro zaplněný pracovní prostor. Právně je relevantní ochrana spotřebitele před
+klamavými tvrzeními o „podprahových“ účincích a pracovněprávní ochrana odpočinku
+([pracovní právo](@/kompendium/forensic-legal/44-employment-law-EA.md)).
 
-- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *„něco se tu děje, ale nevíme co“*.
-- **Hloubka rámce**: ukazuje, že manipulace často není individuální akt, nýbrž **strukturální efekt** vyšší vrstvy (diskurzní, institucionální, biologické).
-- **Etická pojistka**: brání tomu, aby EA degenerovala v techniku oboustranné aplikace bez reflexe — tj. aby se z obranného nástroje stala nová manipulační šablona.
+Pro forenzní práci z teorie plyne opatrnost při hodnocení „proč si toho nevšiml“: člověk,
+jehož pozornost byla dlouhodobě obsazena, mohl informace formálně dostat, aniž by se kdy
+dostaly do vědomého zpracování. Výpověď „neviděl jsem to“ proto nemusí být výmluvou, ale
+přesným popisem stavu, v němž se nacházel. Totéž platí u obětí podvodů, které ve stresu
+přehlédly zjevné varovné znaky.
 
-## Mapování na EA techniky
+## Obrana a neutralizace
 
-Pozice **Dehaene** se relevantně dotýká těchto oblastí EA:
+**Pro jednotlivce.** Vytvářet chráněné úseky bez podnětů ([řízení pozornosti](@/kompendium/self-defense-guides/9-attention-management.md),
+[rozpočet pozornosti](@/kompendium/self-defense-guides/34-attention-budget.md),
+[informační půst](@/kompendium/self-defense-guides/39-information-fasting.md)) a
+[hluboké čtení](@/kompendium/self-defense-guides/35-deep-reading-practice.md) jako trénink
+udržení myšlenky. **Pro organizace.** Pravidla dostupnosti, časy bez schůzek a notifikací.
 
-- fokus pozornosti, vědomé vs. nevědomé zpracování signálu
-- vztah ke **kapitole 6 (obrana a kalibrace)**: pomáhá rozlišit obranu strukturální od obrany pouze taktické.
-- vztah ke **kapitole 3 (manipulační vzorce)**: dodává jazyk, jímž lze pojmenovat skryté předpoklady techniky.
+**Otázky, které pomáhají v rozhovoru.** Kolik času denně máš bez obrazovky a bez zpráv?
+Jak se cítíš, když nic nehraje? Kdy sis naposledy promyslel něco až do konce? Kdo
+očekává, že odpovíš hned? Otázky ukazují, kolik pracovního prostoru zbývá na vlastní
+úvahu, a pomáhají ho postupně uvolnit.
 
-Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [techniques index](@/kompendium/techniques/_index.md).
+U organizací a škol je obrana strukturální: pravidla dostupnosti, která platí i pro
+vedoucí, a čas bez notifikací, který není výjimkou, ale normou.
 
-## Limitace
+## Zotavení
 
-- **Není přímo testovatelná**: na rozdíl od EA-1 až EA-5 nelze tuto pozici jednoduše operacionalizovat ve scoring engine — slouží jako interpretační rámec, ne jako prediktor.
-- **Riziko nadužití**: aplikovaná všude, ztrácí ostří; pozice je nosná tam, kde **standardní psychologický nebo logický rozbor selává**.
-- **Spor o překlad**: některé pojmy (např. *[différance](@/glossary/differance.md)*, *Dasein*, *phi*) odporují čistému přepisu do operativního jazyka platformy a musí být užity s vědomím vlastní hranice.
-- **Žádná pozice není totální**: tato reflexe je jednou z mnoha — viz sister 7.3.* a sousední podkapitoly 7.1, 7.2, 7.3.
+Obnova kapacity je rychlá, pokud se sníží proud podnětů; obtížnější je snést ticho, které
+po něm zbude. Pomáhá postupné prodlužování času bez podnětů a [detoxikace feedu](@/kompendium/self-defense-guides/32-feed-detoxification.md);
+v další fázi [metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md).
 
-## Cross-linky
+## Případy, které jev ukazují
 
-### Sesterské reflexe (7.3.*)
-- [EA-7.3.1 Kahneman: System 1/2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md)
-- [EA-7.3.2 Tversky & Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md)
-- [EA-7.3.3 Friston: Active Inference](@/kompendium/techniques/ea-7-3-3-friston-active-inference.md)
-- [EA-7.3.4 Clark: Rozšířená mysl](@/kompendium/techniques/ea-7-3-4-clark-extended-mind.md)
-- [EA-7.3.5 Metzinger: Ego-tunel](@/kompendium/techniques/ea-7-3-5-metzinger-ego-tunnel.md)
-- [EA-7.3.6 Thompson: Mind in Life](@/kompendium/techniques/ea-7-3-6-thompson-mind-life.md)
+- [Kult Twitch streamera](@/kompendium/case-studies/77-twitch-streamer-cult.md) – nepřetržitý
+  provoz komunity.
+- [Kult platformy](@/kompendium/case-studies/73-platform-cult.md) – infrastruktura
+  pozornosti.
+- [Investiční bankovnictví](@/kompendium/case-studies/39-finance-totalizace.md) – okamžitá
+  dostupnost jako norma.
 
-### Související
-- [Kapitola 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Kapitola 06: Obrana a kalibrace](@/kompendium/06-obrana/_index.md)
-- [Kapitola 03: Manipulační vzorce](@/kompendium/03-manipulacni-vzorce/_index.md)
-- [Glosář: Falsifikace](@/kompendium/glossary-bridges/falsifikace.md)
-- [Glosář: Predictive processing](@/glossary/predictive-processing.md)
-- [Glosář: Power-knowledge](@/glossary/power-knowledge.md)
-- [Glosář: Lakatos research program](@/glossary/lakatos.md)
-- {{ <cross_link path="/decisions/" text="Platforma: Decision Engine" /> }}
-- {{ <cross_link path="/investigate/" text="Platforma: Investigate" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="Platforma: OSINT Toolbox" /> }}
+## Ilustrativní příklad
 
----
+Anonymizovaný kompozit: šestnáctiletý chlapec tráví večery v komunitě kolem oblíbeného
+streamera. Chat běží nepřetržitě, upozornění chodí i v noci a kdo nereaguje rychle,
+„nepatří k nám“. Ve škole se nedokáže soustředit, nedočte kapitolu knihy a při tichu cítí
+neklid. Když streamer začne komunitu obracet proti „nepřátelům“, chlapec přebírá jeho
+názory, aniž by o nich přemýšlel – na přemýšlení nemá čas ani prostor. Teorie globálního
+pracovního prostoru dává rodičům a školnímu psychologovi srozumitelné vysvětlení: pozornost
+chlapce je trvale obsazená a reflexe se k němu nedostane. Místo zákazů domluví postupné
+vypínání upozornění a společné činnosti bez obrazovky. Chlapec po několika týdnech sám
+řekne, že si „konečně slyší vlastní myšlenky“, a některé názory komunity začne zpochybňovat.
 
-## Connect
+## Meze a otevřené otázky
 
-Chcete tuto reflexi aplikovat na konkrétní případ?
+Teorie globálního pracovního prostoru vysvětluje vědomý přístup, ne všechny aspekty
+prožitku; vztah k těžkému problému vědomí zůstává otevřený. Spojení mezi nepřetržitou
+stimulací a oslabenou sebereflexí je přirozeným důsledkem omezené kapacity, ale přesná
+míra dopadu digitálních prostředí na pozornost je předmětem sporů a výsledky studií se
+různí. Otevřená zůstává otázka, jak účinně chránit pozornost dětí a dospívajících
+v prostředí navrženém tak, aby ji udržovalo, a jaký podíl odpovědnosti nesou platformy.
 
-- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — [Decision Engine](@/glossary/decision-engine.md) s podporou epistemické kalibrace.
-- [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
-- [Glosář pojmů](@/glossary/_index.md) — definice klíčových termínů napříč EA.
+## Literatura
 
-*Část kompendia [Epistemic Arsenal](@/kompendium/_index.md) — kapitola 7. Teoretické reflexe, podkapitola 7.3 Kognitivní věda.*
+- Baars, B. J. (1988). *A Cognitive Theory of Consciousness*. Cambridge University Press.
+- Dehaene, S., & Naccache, L. (2001). Towards a Cognitive Neuroscience of Consciousness.
+  *Cognition*.
+- Dehaene, S. (2014). *Consciousness and the Brain*. Viking.
+- Mashour, G. A., Roelfsema, P., Changeux, J.-P., & Dehaene, S. (2020). Conscious
+  Processing and the Global Neuronal Workspace Hypothesis. *Neuron*.
+
+## Související
+
+**Sesterská hesla a kapitoly**
+
+- [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md) –
+  kontrola úsudku pod zátěží.
+- [EA-7.3.10 Tononi: IIT](@/kompendium/techniques/ea-7-3-10-tononi-iit.md) – konkurenční teorie
+  vědomí.
+- [7.5 Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – širší
+  rámec.
+
+**Techniky**
+
+- [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) –
+  zahlcení pozornosti.
+- [EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md)
+  – rozpad souvislého prožívání času.
+
+**Pomoc**
+
+- [Sebeobrana: řízení pozornosti](@/kompendium/self-defense-guides/9-attention-management.md)
+  – každodenní praxe.
+- [Digitální hygiena](@/kompendium/prevention-resilience/7-digital-hygiene-prevention.md) –
+  prevence.

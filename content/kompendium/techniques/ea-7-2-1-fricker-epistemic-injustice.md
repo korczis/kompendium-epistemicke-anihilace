@@ -1,6 +1,6 @@
 +++
 title = "EA-7.2.1 Fricker: Epistemická nespravedlnost"
-description = "Teoretická reflexe — Fricker: Epistemická nespravedlnost a vztah k EA."
+description = "Křivda na člověku jako poznávajícím: nevěří se mu kvůli tomu, kým je, nebo chybějí pojmy pro jeho zkušenost. Mechanismus, znaky, odlišení a obrana."
 weight = 721
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "techniques", "ea-7-2", "teoreticke"]
 categories = ["academic", "theory"]
 
 [extra]
-related_terms = ["ea-7-1-8-derrida-deconstruction", "ea-7-1-9-heidegger-dasein", "ea-7-2-10-nagel-view-from-nowhere", "ea-7-2-2-goldman-veritism"]
+related_terms = ["ea-2-5-3-self-doubt-cultivation", "ea-2-1-1-expertni-disinflation", "ea-2-1-7-institucionalni-vyloucenni", "ea-7-2-2-goldman-veritism", "ea-7-2-9-williams-truthfulness", "ea-7-1-1-foucault-power-knowledge"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.2.1"
 ea_category = "7. Teoretické reflexe"
@@ -21,88 +21,195 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 
 # EA-7.2.1 Fricker: Epistemická nespravedlnost
 
-> *Teoretická reflexe v rámci 7.2 Analytická filozofie.*
-
-## Identifikace
-
 | Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-7.2.1` |
+| **Kategorie** | 7. Teoretické reflexe |
+| **Subkategorie** | 7.2 Analytická filozofie |
+| **Typ hesla** | Interpretační rámec – vysvětluje, proč techniky zasahují člověka jako svědka a mluvčího |
+| **Přístupová úroveň** | L1 |
+| **Riziková úroveň** | Vysoká u popsaného jevu – soustavné nevěření vede k sebeumlčení a ke ztrátě důvěry ve vlastní paměť |
+| **Reverzibilita** | Dobrá, pokud se člověk dostane do prostředí, které mu naslouchá, a najde pojmy pro svou zkušenost |
+| **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |
+| **Monografické zpracování** | [7.3 Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) |
+
+> **Poznámka ke kódu.** Řada `EA-7.2` označuje hesla analytické filozofie a nekryje se
+> s tematickou kapitolou [7.2 Vztah k epistemickému traumatu](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)
+> ani s číslováním monografických kapitol 7.10–7.59. Vztah obou řad vysvětluje
+> [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md).
+
+## Definice
+
+[Epistemická nespravedlnost](@/glossary/epistemicka-injustice.md) je křivda, která člověka
+zasahuje **jako poznávajícího**: jako svědka, mluvčího a vykladače vlastní zkušenosti.
+Miranda Fricker ji rozdělila na dvě formy.
+
+- **[Testimoniální (svědecká) nespravedlnost](@/glossary/testimonialni-nespravedlnost.md)** –
+  posluchač přizná mluvčímu menší důvěryhodnost, než odpovídá tomu, co říká, a to kvůli
+  předsudku o jeho identitě (pohlaví, věk, diagnóza, původ, postavení ve skupině).
+- **Hermeneutická nespravedlnost** – ve sdílené zásobě pojmů chybí výklad, jímž by člověk
+  mohl svou zkušenost pochopit a sdělit, protože skupina, k níž patří, byla vyloučena z tvorby
+  společných významů (srov. [hermeneutická marginalizace](@/glossary/hermeneuticka-marginalizace.md)).
+
+Kompendium heslo používá jako optiku: mnoho technik nepůsobí na to, *co* si člověk myslí, ale
+na to, *zda je mu vůbec přiznáno*, že může vědět.
+
+## Původ a kontext pojmu
+
+Pojem zavedla Fricker v knize *Epistemic Injustice: Power and the Ethics of Knowing* (2007),
+na pomezí sociální epistemologie, feministické filozofie a etiky ctností. Testimoniální
+nespravedlnost ilustruje soudním procesem s Tomem Robinsonem z románu Harper Leeové *Jako
+zabít ptáčka*; hermeneutickou nespravedlnost zkušeností žen, které čelily obtěžování na
+pracovišti dříve, než pro ně existoval pojem *sexual harassment*. Jako nápravu navrhuje dvě
+ctnosti posluchače: **svědeckou spravedlnost** (reflexivně opravovat vliv předsudku na
+hodnocení důvěryhodnosti) a **hermeneutickou spravedlnost** (počítat s tím, že nesrozumitelnost
+výpovědi může být chybou sdílených pojmů, ne mluvčího).
+
+Na Fricker navázala Kristie Dotsonová (2011) rozlišením *testimonial quieting* (mluvčí není
+uznán jako svědek) a *testimonial smothering* (mluvčí sám zkrátí výpověď, protože ví, že nebude
+pochopena) a José Medina (2013) rozborem aktivní nevědomosti privilegovaných posluchačů.
+
+## Mechanismus (strukturní popis)
+
+V kazuistikách knihy se epistemická nespravedlnost skládá z pěti prvků:
+
+1. **Deficit důvěryhodnosti vázaný na identitu.** Výpověď se neposuzuje podle obsahu, ale
+   podle nálepky: „přecitlivělá“, „bývalý člen, zahořklý“, „pacient“, „dítě“, „cizinec“.
+2. **Systematičnost.** Deficit provází člověka napříč prostředími – v rodině, na úřadě,
+   u lékaře, u soudu. Právě to odlišuje strukturální křivdu od jednorázového omylu.
+3. **Předem rozšířený výklad.** Ještě než člověk promluví, okolí už „ví“, jak jeho slova
+   chápat; srov. [EA-2.1.1 Expertní disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md)
+   a [delegitimizaci](@/glossary/delegitimizace.md).
+4. **Hermeneutická mezera.** Chybějí pojmy ([coercive control](@/glossary/coercive-control.md) nebo
+   [gaslighting](@/glossary/gaslighting.md) dlouho neměly jméno), nebo je skupina nahradí
+   vlastním slovníkem ([loading the language](@/glossary/loading-the-language.md)), takže
+   zkušenost nelze vyjádřit mimo ni.
+5. **Zvnitřnění.** Opakované nevěření vede k sebeumlčení a k pochybnosti o vlastní paměti –
+   přechod k [EA-2.5.3 Kultivaci sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md).
+
+## Fenomenologické znaky (pohled zevnitř)
+
+| Znak | Jak ho člověk popisuje |
 |---|---|
-| **Kód EA** | EA-7.2.1 |
-| **Tradice** | Analytická filozofie |
-| **Autor / škola** | Fricker |
-| **Hlavní teze** | Existují systematické křivdy, které se týkají nás jako poznávajících — když nejsme slyšeni nebo nemáme pojmy pro vlastní zkušenost. |
-| **Status v EA** | Teoretická reflexe — interpretační rámec, ne přímá technika |
-| **Cross-reference** | viz sekce *Mapování na EA techniky* |
+| Neslyšenost | „Mluvím, ale jako bych tam nebyla.“ |
+| Chybějící slovo | „Věděla jsem, že je něco špatně, ale neuměla jsem říct co.“ |
+| Sebezkracování | „Přestala jsem to říkat celé, stejně by to nepochopili.“ |
+| Výpůjčka hlasu | „Uvěřili tomu, až když to řekl můj bratr.“ |
+| Úleva z pojmu | „Když jsem to slovo poprvé četla, rozbrečela jsem se.“ |
 
-## Kontext autora
+## Detekční markery (pohled pozorovatele)
 
-Fricker patří do tradice **Analytická filozofie**. Jeho/její pozice je relevantní pro EA tím, že nabízí pojmový aparát, jímž lze popsat manipulaci, asymetrii, framing a epistemickou dynamiku — tedy přesně to, co EA mapuje jako útočné a obranné techniky.
+| Marker | Co může naznačovat |
+|---|---|
+| Stejné tvrzení se hodnotí jinak podle toho, kdo ho vysloví | Deficit důvěryhodnosti vázaný na identitu |
+| Dokumentace popisuje povahu mluvčího místo obsahu výpovědi | Posun od faktů k osobě |
+| Člověk mluví vypůjčenými nebo neurčitými slovy, hledá výraz | Hermeneutická mezera |
+| Výpověď se v přítomnosti autority zkracuje nebo mizí | Sebeumlčení (*testimonial smothering*) |
+| Opakovaná nálepka „přehání“ bez ověření tvrzení | Strukturální předsudek, ne kalibrovaná skepse |
 
-Místo, aby EA tato pozice technicky obohacovala (jako kapitoly 1–5), slouží jako **interpretační vrstva**: pomáhá odpovědět na otázku *proč* daná technika funguje, *kdo* jí těží a *za jakých podmínek* jí lze odolat.
+## Rizikové kontexty
 
-## Klíčové koncepty
+Zdravotnictví (lidé s psychiatrickou diagnózou, chronickou bolestí, senioři), trestní
+a opatrovnické řízení (oběti domácího násilí, děti), školy, uzavřené skupiny, kde je odpadlík
+předem označen za lháře, akademické hierarchie (doktorand proti školiteli) a jazykové či
+kulturní menšiny. Riziko roste tam, kde jedna strana kontroluje záznam o tom, co se stalo.
 
-1. **[Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md)**
-2. **Hermeneutická nespravedlnost**
-3. **Epistemická důvěryhodnost a předsudek**
+## Odlišení
 
-Tyto pojmy nejsou v EA použity přímo jako názvy technik, ale tvoří **rastr**, jímž lze techniky kapitol 1–6 lépe číst — a v některých případech i odhalit, že to, co vypadá jako jediná technika, je ve skutečnosti složený dispozitiv.
+- **Kalibrovaná skepse.** Posluchač, který žádá doklady stejně po každém, nejedná
+  nespravedlivě; rozhoduje, zda se míra pochybnosti řídí důkazy, nebo identitou.
+- **Nesouhlas.** Výpověď může být vyslyšena a přesto odmítnuta z věcných důvodů.
+- **[Gaslighting](@/glossary/gaslighting.md).** Je aktivní popírání vnímání konkrétním
+  aktérem; epistemická nespravedlnost může být strukturální a bez úmyslu. Oba jevy se často
+  sčítají.
+- **Opačná chyba.** Přehnaná důvěryhodnost (Fricker mluví o *credibility excess*) také
+  škodí – viz spor o [znovuobjevené vzpomínky](@/kompendium/historical-cases/37-recovered-memory.md).
+- **Klinické stavy.** Pocit „nikdo mi nevěří“ provází i perzekuční bludy a posttraumatickou
+  nedůvěru. Rozhoduje ověřitelný obsah výpovědi a přítomnost dalších příznaků; viz
+  [diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md).
 
-## Vztah k EA
+## Klinický a právní rámec
 
-Pozice **Fricker** vnáší do EA tři operativní příspěvky:
+Kliník je sám v pozici posluchače, jehož hodnocení má váhu. Typickým iatrogenním vzorcem je
+*diagnostic overshadowing*: tělesné nebo vztahové stížnosti se vykládají jako projev známé
+diagnózy. Ochranou je doslovný záznam výpovědi a oddělení obsahu od hodnocení osoby
+([iatrogenní újma](@/glossary/iatrogenic-harm.md)).
 
-- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *„něco se tu děje, ale nevíme co“*.
-- **Hloubka rámce**: ukazuje, že manipulace často není individuální akt, nýbrž **strukturální efekt** vyšší vrstvy (diskurzní, institucionální, biologické).
-- **Etická pojistka**: brání tomu, aby EA degenerovala v techniku oboustranné aplikace bez reflexe — tj. aby se z obranného nástroje stala nová manipulační šablona.
+Právně věrohodnost výpovědi posuzuje orgán činný v trestním řízení nebo soud v rámci volného
+hodnocení důkazů; znalecké posouzení věrohodnosti má jasné meze
+([posuzování věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md)).
+Zákon č. 45/2013 Sb., o obětech trestných činů, chrání oběti mimo jiné před druhotnou újmou,
+k níž patří i zacházení, které jim předem upírá důvěryhodnost.
 
-## Mapování na EA techniky
+## Obrana a neutralizace
 
-Pozice **Fricker** se relevantně dotýká těchto oblastí EA:
+**Pro jednotlivce.** Vést záznamy s daty a doslovnými výroky
+([paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md)), hledat svědky
+a lidi se stejnou zkušeností a hledat pojmy – glosář a svépomocná literatura často poskytnou
+první slovo pro to, co se děje.
 
-- umlčování svědka, popírání zkušenosti, asymetrie kredibility
-- vztah ke **kapitole 6 (obrana a kalibrace)**: pomáhá rozlišit obranu strukturální od obrany pouze taktické.
-- vztah ke **kapitole 3 (manipulační vzorce)**: dodává jazyk, jímž lze pojmenovat skryté předpoklady techniky.
+**Pro profesionály.** Svědecká spravedlnost jako pracovní návyk: ptát se, zda bych stejné
+tvrzení hodnotil stejně u jiného mluvčího; zapisovat, co bylo řečeno, ne jak to působilo;
+nepřebírat charakteristiky od třetích stran bez ověření.
 
-Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [techniques index](@/kompendium/techniques/_index.md).
+**Pro instituce.** Postupy, které hodnotí oznámení podle obsahu, ne podle pověsti
+oznamovatele ([mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)).
 
-## Limitace
+## Zotavení
 
-- **Není přímo testovatelná**: na rozdíl od EA-1 až EA-5 nelze tuto pozici jednoduše operacionalizovat ve scoring engine — slouží jako interpretační rámec, ne jako prediktor.
-- **Riziko nadužití**: aplikovaná všude, ztrácí ostří; pozice je nosná tam, kde **standardní psychologický nebo logický rozbor selává**.
-- **Spor o překlad**: některé pojmy (např. *[différance](@/glossary/differance.md)*, *Dasein*, *phi*) odporují čistému přepisu do operativního jazyka platformy a musí být užity s vědomím vlastní hranice.
-- **Žádná pozice není totální**: tato reflexe je jednou z mnoha — viz sister 7.2.* a sousední podkapitoly 7.1, 7.2, 7.3.
+Zotavení znamená znovu získat **status svědka** – nejprve před sebou, pak před druhými.
+Pomáhá [narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md),
+při níž člověk sepíše vlastní verzi událostí, a
+[hermeneutický reset](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md), při
+němž nahradí slovník skupiny vlastními pojmy. Rozhodující je zkušenost, že mu někdo uvěří
+bez nutnosti „dokazovat to desetkrát“.
 
-## Cross-linky
+## Případy, které jev ukazují
 
-### Sesterské reflexe (7.2.*)
-- [EA-7.2.2 Goldman: Veritismus](@/kompendium/techniques/ea-7-2-2-goldman-veritism.md)
-- [EA-7.2.3 Popper: Falsifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md)
-- [EA-7.2.4 Lakatos: Vědecký výzkumný program](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md)
-- [EA-7.2.5 Kuhn: Paradigmatický posun](@/kompendium/techniques/ea-7-2-5-kuhn-paradigm-shift.md)
-- [EA-7.2.6 Feyerabend: Anti-metoda](@/kompendium/techniques/ea-7-2-6-feyerabend-anti-method.md)
-- [EA-7.2.7 Quine: Web of Belief](@/kompendium/techniques/ea-7-2-7-quine-web-belief.md)
+- [Studie Tuskegee](@/kompendium/historical-cases/32-tuskegee.md) – soustavné upírání hlasu
+  a informací skupině, o jejímž zdraví se rozhodovalo bez ní.
+- [Pedagogický gaslighting](@/kompendium/case-studies/03-pedagogicke-gaslighting.md) – žák,
+  jehož výpověď proti učiteli nemá váhu.
+- [Partnerský gaslighting](@/kompendium/case-studies/08-gaslighting-partnersky.md) – vnější
+  okolí věří okouzlujícímu partnerovi.
+- [Zdravotnický iatrogen](@/kompendium/case-studies/15-zdravotnicky-iatrogen.md) – stížnosti
+  vykládané jako symptom.
+- [Akademická supervize](@/kompendium/case-studies/01-akademicka-supervize-totalizace.md) –
+  asymetrie hlasu mezi školitelem a doktorandem.
 
-### Související
-- [Kapitola 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Kapitola 06: Obrana a kalibrace](@/kompendium/06-obrana/_index.md)
-- [Kapitola 03: Manipulační vzorce](@/kompendium/03-manipulacni-vzorce/_index.md)
-- [Glosář: Falsifikace](@/kompendium/glossary-bridges/falsifikace.md)
-- [Glosář: Predictive processing](@/glossary/predictive-processing.md)
-- [Glosář: Power-knowledge](@/glossary/power-knowledge.md)
-- [Glosář: Lakatos research program](@/glossary/lakatos.md)
-- {{ <cross_link path="/decisions/" text="Platforma: Decision Engine" /> }}
-- {{ <cross_link path="/investigate/" text="Platforma: Investigate" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="Platforma: OSINT Toolbox" /> }}
+## Literatura
 
----
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford
+  University Press.
+- Dotson, K. (2011). Tracking Epistemic Violence, Tracking Practices of Silencing.
+  *Hypatia*.
+- Medina, J. (2013). *The Epistemology of Resistance*. Oxford University Press.
+- Kidd, I. J., Medina, J., & Pohlhaus, G. (Eds.). (2017). *The Routledge Handbook of
+  Epistemic Injustice*. Routledge.
 
-## Connect
+## Související
 
-Chcete tuto reflexi aplikovat na konkrétní případ?
+**Sesterská hesla**
 
-- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — [Decision Engine](@/glossary/decision-engine.md) s podporou epistemické kalibrace.
-- [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
-- [Glosář pojmů](@/glossary/_index.md) — definice klíčových termínů napříč EA.
+- [EA-7.2.2 Goldman: Veritismus](@/kompendium/techniques/ea-7-2-2-goldman-veritism.md) –
+  měřítko kvality svědectví a důvěry.
+- [EA-7.2.9 Williams: Pravdivost](@/kompendium/techniques/ea-7-2-9-williams-truthfulness.md)
+  – ctnosti, bez nichž svědectví ztrácí hodnotu.
+- [EA-7.1.1 Foucault: Moc a vědění](@/kompendium/techniques/ea-7-1-1-foucault-power-knowledge.md)
+  – kdo určuje, co platí za vědění.
 
-*Část kompendia [Epistemic Arsenal](@/kompendium/_index.md) — kapitola 7. Teoretické reflexe, podkapitola 7.2 Analytická filozofie.*
+**Techniky, které rámec vysvětluje**
+
+- [EA-2.5.3 Kultivace sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md)
+  – zvnitřněné nevěření.
+- [EA-2.1.7 Institucionální vyloučení](@/kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md)
+  – strukturální umlčení v instituci.
+
+**Pojmy a pomoc**
+
+- [Glosář: testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) –
+  podrobná definice první formy.
+- [Detekční signatura: Skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md)
+  – jak se zvnitřnění projevuje.
+- [Subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md)
+  – obnova vztahu k posluchačům.

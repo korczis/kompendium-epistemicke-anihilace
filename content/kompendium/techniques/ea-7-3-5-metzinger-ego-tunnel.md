@@ -1,6 +1,6 @@
 +++
 title = "EA-7.3.5 Metzinger: Ego-tunel"
-description = "Teoretická reflexe — Metzinger: Ego-tunel a vztah k EA."
+description = "Já jako fenomenální model sebe, který nevidíme jako model. Teoretický rámec poruch prožitku já, zneužití nauky o „iluzi já“, znaky, odlišení a obnova."
 weight = 735
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "techniques", "ea-7-3", "teoreticke"]
 categories = ["academic", "theory"]
 
 [extra]
-related_terms = ["ea-7-3-3-friston-active-inference", "ea-7-3-4-clark-extended-mind", "ea-7-3-6-thompson-mind-life", "ea-7-3-7-dennett-intentional-stance"]
+related_terms = ["ea-5-3-25-minimal-self-deformace", "ea-5-1-9-identitni-dezintegrace", "ea-5-1-19-kvazi-mysticka-anihilace", "ea-5-3-4-telesna-disociace", "ea-7-3-6-thompson-mind-life", "ea-7-3-8-chalmers-hard-problem"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.3.5"
 ea_category = "7. Teoretické reflexe"
@@ -21,88 +21,187 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 
 # EA-7.3.5 Metzinger: Ego-tunel
 
-> *Teoretická reflexe v rámci 7.3 Kognitivní věda.*
-
-## Identifikace
-
 | Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-7.3.5` |
+| **Kategorie** | 7. Teoretické reflexe |
+| **Subkategorie** | 7.3 Kognitivní věda |
+| **Typ hesla** | Interpretační rámec – já jako model a podmínky jeho narušení |
+| **Přístupová úroveň** | L1 |
+| **Riziková úroveň** | Vysoká u popsaného jevu – narušený model já může vést k disociaci a dekompenzaci |
+| **Reverzibilita** | Obvykle dobrá, u dlouhodobě vyvolávaných stavů pomalá |
+| **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |
+| **Monografické zpracování** | [7.42 Metzinger: Ego Tunnel a fenomenální self-model](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md) |
+
+> **Poznámka ke kódu.** Heslo `EA-7.3.5` a monografická kapitola 7.42 mají společný předmět;
+> řada 7.3 nesouvisí s tematickou kapitolou 7.3.
+
+## Definice
+
+Thomas Metzinger tvrdí, že to, co prožíváme jako **já**, je **fenomenální model sebe**
+(*phenomenal self-model*, PSM): reprezentace organismu, kterou mozek vytváří, aby mohl
+řídit tělo a jednat. Model je **transparentní** – nevidíme ho jako model, ale díváme se
+skrze něj, a proto se nám jeví jako přímý kontakt se sebou. Svět prožíváme uvnitř
+„ego-tunelu“: v simulaci, kterou nepoznáváme jako simulaci. Metzinger z toho vyvozuje
+provokativní tezi, že v metafyzickém smyslu „nikdo nemá já“.
+
+Kompendium heslo používá dvojím způsobem: jako vědecký rámec pro **poruchy prožitku já**
+(depersonalizace, ztráta hranic těla) a jako upozornění na **zneužití** teze o „iluzi já“
+v doktrínách, které z ní dělají pokyn k potlačení vlastní vůle a úsudku.
+
+## Původ a kontext pojmu
+
+Teorii Metzinger podrobně rozpracoval v monografii *Being No One* (2003) a popularizoval
+v knize *The Ego Tunnel* (2009). Opírá se o empirický výzkum: iluze gumové ruky
+(Botvinick a Cohen, 1998) ukazuje, že pocit vlastnictví těla lze přesunout na cizí
+předmět, a experimenty s iluzí celého těla (Lenggenhager a kol., 2007; Blanke a Metzinger,
+2009) ukazují, že lze posunout i prožívané umístění sebe. Teorie navazuje na fenomenologii
+[minimálního já](@/glossary/ipseita.md) a [předreflexivního vědomí](@/glossary/predreflexivni-vedomi.md),
+s nimiž se v otázce, zda je já „jen model“, zároveň přou.
+
+## Mechanismus (strukturní popis)
+
+V kazuistikách se narušení modelu já objevuje ve třech strukturních podobách:
+
+1. **Zneprůhlednění modelu.** Opakované praktiky (dlouhá meditace bez vedení, spánková
+   deprivace, hyperventilace, rytmické skupinové rituály) mohou model já učinit
+   „viditelným“ a nestabilním. Pod dohledem a s průvodcem může jít o cennou zkušenost; bez
+   něj o vstup do [depersonalizace](@/glossary/depersonalizace.md).
+2. **Doktrína o iluzi já.** Výrok „tvé já je iluze“ se přetaví v normu: vlastní přání,
+   pochybnosti a hranice jsou „jen ego“ a jejich potlačení je pokrok. Odpor člověka tak
+   ztrácí legitimitu; srov. [EA-5.1.19 Kvazimystická anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md).
+3. **Nahrazení modelu.** Do uvolněného prostoru se vkládá skupinová identita nebo
+   identifikace s vůdcem; srov. [EA-5.1.9 Identitní dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
+   a [EA-5.3.25 Deformace minimálního já](@/kompendium/techniques/ea-5-3-25-minimal-self-deformace.md).
+
+Metzingerova teorie sama nic takového nedoporučuje; naopak zdůrazňuje etickou odpovědnost
+za zásahy do vědomí.
+
+## Fenomenologické znaky (pohled zevnitř)
+
+| Znak | Jak ho člověk popisuje |
 |---|---|
-| **Kód EA** | EA-7.3.5 |
-| **Tradice** | Kognitivní věda |
-| **Autor / škola** | Metzinger |
-| **Hlavní teze** | Subjekt sebe sama je transparentní simulací — egem je model self, který nevidíme jako model. |
-| **Status v EA** | Teoretická reflexe — interpretační rámec, ne přímá technika |
-| **Cross-reference** | viz sekce *Mapování na EA techniky* |
+| Neskutečnost sebe | „Dívám se na sebe jako na film.“ |
+| Ztráta hranic | „Nevím, kde končím já a začínají ostatní.“ |
+| Vina za přání | „Když něco chci, je to jen ego.“ |
+| Cizí tělo | „Ruce mi připadají jako cizí.“ |
 
-## Kontext autora
+## Detekční markery (pohled pozorovatele)
 
-Metzinger patří do tradice **Kognitivní věda**. Jeho/její pozice je relevantní pro EA tím, že nabízí pojmový aparát, jímž lze popsat manipulaci, asymetrii, framing a epistemickou dynamiku — tedy přesně to, co EA mapuje jako útočné a obranné techniky.
+| Marker | Co může naznačovat |
+|---|---|
+| Vlastní potřeby a hranice označuje člověk za „ego“ | Doktrína o iluzi já jako norma |
+| Praktiky vedoucí k rozpuštění já bez průvodce a následné péče | Zneprůhlednění modelu bez ochrany |
+| Mluví o sobě v množném čísle skupiny nebo jménem vůdce | Nahrazení modelu; [fragmentace identity](@/kompendium/detection-signatures/30-phenomenological-identity-fragmentation.md) |
+| Trvalé pocity neskutečnosti, odcizení těla | Depersonalizace a derealizace |
 
-Místo, aby EA tato pozice technicky obohacovala (jako kapitoly 1–5), slouží jako **interpretační vrstva**: pomáhá odpovědět na otázku *proč* daná technika funguje, *kdo* jí těží a *za jakých podmínek* jí lze odolat.
+## Rizikové kontexty
 
-## Klíčové koncepty
+Intenzivní meditační a dechové pobyty bez klinického zázemí, neoshamanské a
+psychedelické skupiny, velkoskupinové tréninky s „průlomem ega“, duchovní komunity
+s naukou o rozpuštění já a online prostředí, kde se takové praktiky sdílejí bez vedení.
 
-1. **Fenomenální self-model (PSM)**
-2. **Transparence reprezentace**
-3. **Ego-tunel**
+## Odlišení
 
-Tyto pojmy nejsou v EA použity přímo jako názvy technik, ale tvoří **rastr**, jímž lze techniky kapitol 1–6 lépe číst — a v některých případech i odhalit, že to, co vypadá jako jediná technika, je ve skutečnosti složený dispozitiv.
+- **Legitimní kontemplativní praxe.** Tradice, které s představou ne-já pracují, obvykle
+  mají učitele, postupnost, etiku a péči o integraci. Rozdíl je v tom, zda praxe posiluje
+  schopnost žít vlastní život, nebo ji předává autoritě.
+- **[Mystický prožitek](@/glossary/mysticky-prozitek.md) a [smrt ega](@/glossary/ego-death.md)**
+  mohou být přechodné a integrovatelné; varovné je, když vedou k trvalé dysfunkci.
+- **[Spiritual bypassing](@/glossary/spiritual-bypassing.md)** – užití duchovní nauky
+  k vyhýbání se psychickým problémům – je příbuzný, ale méně nátlakový vzorec.
+- **Klinické stavy.** Depersonalizačně-derealizační porucha, disociativní poruchy,
+  psychotické prožitky a neurologické příčiny vyžadují odborné vyšetření; viz
+  [diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
 
-## Vztah k EA
+## Klinický a právní rámec
 
-Pozice **Metzinger** vnáší do EA tři operativní příspěvky:
+Akutní ztráta prožitku já může být psychiatrickou krizí; postup popisuje
+[akutní disociativní stav](@/kompendium/emergency-protocols/4-acute-dissociation-EA.md).
+Kliník by měl zjišťovat, jaké praktiky stavu předcházely a v jakém rámci. Právně jsou
+relevantní informovaný souhlas s rizikovými praktikami a odpovědnost organizátorů za
+bezpečnost účastníků ([informovaný souhlas](@/glossary/informed-consent.md)).
 
-- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *„něco se tu děje, ale nevíme co“*.
-- **Hloubka rámce**: ukazuje, že manipulace často není individuální akt, nýbrž **strukturální efekt** vyšší vrstvy (diskurzní, institucionální, biologické).
-- **Etická pojistka**: brání tomu, aby EA degenerovala v techniku oboustranné aplikace bez reflexe — tj. aby se z obranného nástroje stala nová manipulační šablona.
+## Obrana a neutralizace
 
-## Mapování na EA techniky
+**Pro jednotlivce.** Do praktik, které mění prožitek já, vstupovat jen s jasnou možností
+odejít, s vlastním plánem následné péče a s lidmi mimo skupinu, kteří o tom vědí. Varovným
+signálem je, když se vlastní hranice začnou vykládat jako překážka.
+[Uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md) a
+[somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md) stabilizují
+model já. **Pro profesionály.** Neinterpretovat stav jako „duchovní pokrok“ ani jako
+patologii předčasně; nejprve stabilizace.
 
-Pozice **Metzinger** se relevantně dotýká těchto oblastí EA:
+**Otázky, které pomáhají v rozhovoru.** Kdy ses naposledy cítil sám sebou? Co ti pomáhá
+vrátit se do těla? Kdo ti říká, že tvá přání jsou „ego“, a co z toho má? Smíš praxi
+přerušit, když ti škodí? Otázky stabilizují, ne interpretují.
 
-- fenomenální imerze, sebeklam, identifikace s narativem
-- vztah ke **kapitole 6 (obrana a kalibrace)**: pomáhá rozlišit obranu strukturální od obrany pouze taktické.
-- vztah ke **kapitole 3 (manipulační vzorce)**: dodává jazyk, jímž lze pojmenovat skryté předpoklady techniky.
+## Zotavení
 
-Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [techniques index](@/kompendium/techniques/_index.md).
+Obnova vede přes tělo a čas: spánek, režim, kontakt s předměty a lidmi, kteří potvrzují
+kontinuitu já. Poté [správa mnohočetného já](@/kompendium/self-defense-guides/46-multiple-self-management.md)
+a [rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md),
+v níž se zkušenost integruje bez převzetí doktríny.
 
-## Limitace
+## Případy, které jev ukazují
 
-- **Není přímo testovatelná**: na rozdíl od EA-1 až EA-5 nelze tuto pozici jednoduše operacionalizovat ve scoring engine — slouží jako interpretační rámec, ne jako prediktor.
-- **Riziko nadužití**: aplikovaná všude, ztrácí ostří; pozice je nosná tam, kde **standardní psychologický nebo logický rozbor selává**.
-- **Spor o překlad**: některé pojmy (např. *[différance](@/glossary/differance.md)*, *Dasein*, *phi*) odporují čistému přepisu do operativního jazyka platformy a musí být užity s vědomím vlastní hranice.
-- **Žádná pozice není totální**: tato reflexe je jednou z mnoha — viz sister 7.3.* a sousední podkapitoly 7.1, 7.2, 7.3.
+- [Zotavení ze spirituálního kultu](@/kompendium/case-studies/50-spiritual-cult-recovery.md)
+  – nauka o iluzi já jako nástroj poslušnosti.
+- [New Age recovery](@/kompendium/case-studies/51-new-age-recovery.md) – praktiky bez
+  integrace.
+- [Exit ze sekulárního kultu (LGAT)](@/kompendium/case-studies/27-secular-cult-exit.md) –
+  „průlom ega“ ve velké skupině.
 
-## Cross-linky
+## Ilustrativní příklad
 
-### Sesterské reflexe (7.3.*)
-- [EA-7.3.1 Kahneman: System 1/2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md)
-- [EA-7.3.2 Tversky & Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md)
-- [EA-7.3.3 Friston: Active Inference](@/kompendium/techniques/ea-7-3-3-friston-active-inference.md)
-- [EA-7.3.4 Clark: Rozšířená mysl](@/kompendium/techniques/ea-7-3-4-clark-extended-mind.md)
-- [EA-7.3.6 Thompson: Mind in Life](@/kompendium/techniques/ea-7-3-6-thompson-mind-life.md)
-- [EA-7.3.7 Dennett: Intenční postoj](@/kompendium/techniques/ea-7-3-7-dennett-intentional-stance.md)
+Anonymizovaný kompozit: mladý muž se zúčastní desetidenního pobytu, kde se střídají
+dlouhé dechové praxe, málo spánku a přednášky o tom, že „já je jen iluze, která trpí“.
+Pátý den zažije silný stav rozpuštění hranic, který vedoucí oslaví jako průlom. Po návratu
+domů však pocit neskutečnosti nezmizí: dívá se na své ruce jako na cizí, nemůže se
+soustředit v práci a každé vlastní přání vnímá jako „ego“, kterého se má zbavit. Kontaktuje
+skupinu, která mu poradí víc praxe. Psychiatr, k němuž ho přivede sestra, nejprve stav
+stabilizuje – spánek, režim, uzemňování – a teprve potom s ním mluví o tom, co zažil.
+Metzingerova optika pomáhá pojmenovat stav bez zesměšnění: model já se stal nestabilním,
+a nauka o iluzi já mu bránila vrátit se do běžného fungování.
 
-### Související
-- [Kapitola 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Kapitola 06: Obrana a kalibrace](@/kompendium/06-obrana/_index.md)
-- [Kapitola 03: Manipulační vzorce](@/kompendium/03-manipulacni-vzorce/_index.md)
-- [Glosář: Falsifikace](@/kompendium/glossary-bridges/falsifikace.md)
-- [Glosář: Predictive processing](@/glossary/predictive-processing.md)
-- [Glosář: Power-knowledge](@/glossary/power-knowledge.md)
-- [Glosář: Lakatos research program](@/glossary/lakatos.md)
-- {{ <cross_link path="/decisions/" text="Platforma: Decision Engine" /> }}
-- {{ <cross_link path="/investigate/" text="Platforma: Investigate" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="Platforma: OSINT Toolbox" /> }}
+## Meze a otevřené otázky
 
----
+Teorie modelu já je jednou z několika filozofických a vědeckých teorií a fenomenologové
+namítají, že minimální prožitek já nelze redukovat na reprezentaci. Kompendium spor
+nerozhoduje; používá rámec k popisu poruch prožitku já. Otevřená zůstává otázka, jak
+odlišit hodnotnou kontemplativní zkušenost od iatrogenně vyvolané depersonalizace dříve, než
+nastanou trvalé obtíže, a jaké standardy bezpečí by měly platit pro komerční pobyty
+s intenzivními praktikami.
 
-## Connect
+## Literatura
 
-Chcete tuto reflexi aplikovat na konkrétní případ?
+- Metzinger, T. (2003). *Being No One: The Self-Model Theory of Subjectivity*. MIT Press.
+- Metzinger, T. (2009). *The Ego Tunnel*. Basic Books.
+- Botvinick, M., & Cohen, J. (1998). Rubber Hands „Feel“ Touch That Eyes See. *Nature*.
+- Blanke, O., & Metzinger, T. (2009). Full-Body Illusions and Minimal Phenomenal Selfhood.
+  *Trends in Cognitive Sciences*.
 
-- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — [Decision Engine](@/glossary/decision-engine.md) s podporou epistemické kalibrace.
-- [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
-- [Glosář pojmů](@/glossary/_index.md) — definice klíčových termínů napříč EA.
+## Související
 
-*Část kompendia [Epistemic Arsenal](@/kompendium/_index.md) — kapitola 7. Teoretické reflexe, podkapitola 7.3 Kognitivní věda.*
+**Sesterská hesla a kapitoly**
+
+- [7.42 Metzinger: Ego Tunnel](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md) –
+  plný výklad.
+- [EA-7.3.6 Thompson: Mysl v životě](@/kompendium/techniques/ea-7-3-6-thompson-mind-life.md)
+  – enaktivní pohled na já.
+- [EA-7.3.8 Chalmers: Těžký problém](@/kompendium/techniques/ea-7-3-8-chalmers-hard-problem.md)
+  – meze redukce prožitku.
+
+**Techniky**
+
+- [EA-5.3.25 Deformace minimálního já](@/kompendium/techniques/ea-5-3-25-minimal-self-deformace.md)
+  – narušení pocitu „můj prožitek“.
+- [EA-5.3.4 Tělesná disociace](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md) –
+  odcizení těla.
+
+**Pojmy a pomoc**
+
+- [Glosář: tělové schéma](@/glossary/body-schema.md) – tělesná složka modelu já.
+- [Glosář: smrt ega](@/glossary/ego-death.md) – prožitek rozpuštění já.
+- [Akutní disociativní stav](@/kompendium/emergency-protocols/4-acute-dissociation-EA.md) –
+  krizový postup.

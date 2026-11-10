@@ -1,6 +1,6 @@
 +++
-title = "EA-7.3.10 Tononi: IIT"
-description = "Teoretická reflexe — Tononi: IIT a vztah k EA."
+title = "EA-7.3.10 Tononi: Teorie integrované informace"
+description = "Vědomí jako integrovaná informace (Φ): teoretický a empiricky sporný rámec. Jak se jeho jazyk zneužívá k pseudovědeckým nárokům na „měření vědomí“ a jak je rozpoznat."
 weight = 740
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "techniques", "ea-7-3", "teoreticke"]
 categories = ["academic", "theory"]
 
 [extra]
-related_terms = ["ea-7-2-9-williams-truthfulness", "ea-7-3-1-kahneman-system12", "ea-7-3-2-tversky-heuristics", "ea-7-3-3-friston-active-inference"]
+related_terms = ["ea-5-1-14-iluzorni-transcendence", "ea-5-1-20-holograficka-redukce", "ea-7-3-8-chalmers-hard-problem", "ea-7-3-9-dehaene-consciousness", "ea-7-2-3-popper-falsification", "ea-7-3-3-friston-active-inference"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.3.10"
 ea_category = "7. Teoretické reflexe"
@@ -19,90 +19,189 @@ access_level = "L1"
 parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 +++
 
-# EA-7.3.10 Tononi: IIT
-
-> *Teoretická reflexe v rámci 7.3 Kognitivní věda.*
-
-## Identifikace
+# EA-7.3.10 Tononi: Teorie integrované informace
 
 | Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-7.3.10` |
+| **Kategorie** | 7. Teoretické reflexe |
+| **Subkategorie** | 7.3 Kognitivní věda |
+| **Typ hesla** | Interpretační rámec – vědecká teorie vědomí s otevřeným statusem |
+| **Přístupová úroveň** | L1 |
+| **Riziková úroveň** | Nízká u teorie samé; střední u jejího komerčního a doktrinálního zneužití |
+| **Reverzibilita** | Dobrá |
+| **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |
+| **Monografické zpracování** | [7.39 Tononi: Integrated Information Theory (IIT)](@/kompendium/07-teoreticke-reflexe/tononi-iit.md) |
+
+> **Poznámka ke kódu.** Heslo `EA-7.3.10` a monografická kapitola 7.39 mají společný předmět;
+> řada 7.3 nesouvisí s tematickou kapitolou 7.3.
+
+## Definice
+
+**Teorie integrované informace** (*Integrated Information Theory*, IIT) Giulia Tononiho
+vychází z rysů prožitku, které pokládá za samozřejmé (axiomy: prožitek existuje sám pro
+sebe, je strukturovaný, specifický, jednotný a ohraničený), a ptá se, jaké vlastnosti
+musí mít fyzikální systém, aby je mohl nést. Odpovídá, že vědomí je **integrovaná
+informace**: míra, v níž systém jako celek určuje své stavy víc, než by je určovaly jeho
+části odděleně. Tuto míru označuje **Φ (fí)**. Systém je vědomý do té míry, do jaké má
+vysoké Φ.
+
+Kompendium heslo uvádí ze dvou důvodů: jako jednu z vlivných vědeckých teorií vědomí a jako
+příklad pojmu, jehož jazyk („měření vědomí“, „úroveň vědomí“) se snadno **přenáší do
+pseudovědeckých nabídek a doktrín**.
+
+## Původ a kontext pojmu
+
+Tononi teorii předložil ve stati „An Information Integration Theory of Consciousness“
+(*BMC Neuroscience*, 2004) a rozvíjel v dalších verzích, mimo jiné „IIT 3.0“ (Oizumi,
+Albantakis a Tononi, 2014) a v přehledu Tononiho, Bolyho, Massiminiho a Kocha (2016).
+Z výzkumu inspirovaného teorií vzešel **index perturbační komplexity** (Casali a kol., 2013),
+který z odezvy mozku na magnetickou stimulaci odhaduje, zda je člověk při vědomí; je
+zkoumán u pacientů s poruchami vědomí. Teorie zároveň čelí silné kritice: Φ je u reálných
+systémů prakticky nevypočitatelné, teorie vede k panpsychistickým důsledkům a v roce 2023
+skupina badatelů ve veřejném dopise zpochybnila její vědecký status. Srovnávací experimenty
+s teorií [globálního pracovního prostoru](@/kompendium/techniques/ea-7-3-9-dehaene-consciousness.md)
+zatím nepřinesly jednoznačné rozhodnutí.
+
+## Mechanismus (strukturní popis)
+
+Zneužití rámce se v kazuistikách projevuje třemi vzorci:
+
+1. **Kvantifikace člověka.** Nabídky „měření úrovně vědomí“ jednotlivce, které se odvolávají
+   na IIT nebo na Φ, ačkoli teorie žádný takový test pro zdravé lidi neposkytuje. Číslo
+   se stává měřítkem hodnoty nebo „pokroku“ ve skupině.
+2. **Hierarchie vědomí.** Doktrína rozdělí lidi na „vědomější“ a „méně vědomé“ a vůdci
+   připíše nejvyšší úroveň; vědecký jazyk tu slouží jako ospravedlnění autority
+   ([EA-5.1.14 Iluzorní transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md)).
+3. **Celostní zkratka.** Teze, že vědomí je „integrace celku“, se převede na tvrzení, že
+   jednotlivec je „jen část“ a jeho pochybnosti narušují integraci skupiny; srov.
+   [EA-5.1.20 Holografická redukce](@/kompendium/techniques/ea-5-1-20-holograficka-redukce.md).
+
+Teorie sama je vědeckou hypotézou o mozku a fyzikálních systémech; žádný z těchto závěrů
+z ní neplyne.
+
+## Fenomenologické znaky (pohled zevnitř)
+
+| Znak | Jak ho člověk popisuje |
 |---|---|
-| **Kód EA** | EA-7.3.10 |
-| **Tradice** | Kognitivní věda |
-| **Autor / škola** | Tononi |
-| **Hlavní teze** | Vědomí je integrovaná informace — systém je vědomý do té míry, do jaké celék dělá víc než součet částí. |
-| **Status v EA** | Teoretická reflexe — interpretační rámec, ne přímá technika |
-| **Cross-reference** | viz sekce *Mapování na EA techniky* |
+| Hodnota jako číslo | „Moje úroveň vědomí vzrostla, říkal test.“ |
+| Nižší postavení | „Ještě nejsem dost vědomý, abych tomu rozuměl.“ |
+| Rozpuštění v celku | „Když pochybuju, narušuju pole skupiny.“ |
+| Vědecká jistota | „Je to dokázané, je to neurověda.“ |
 
-## Kontext autora
+## Detekční markery (pohled pozorovatele)
 
-Tononi patří do tradice **Kognitivní věda**. Jeho/její pozice je relevantní pro EA tím, že nabízí pojmový aparát, jímž lze popsat manipulaci, asymetrii, framing a epistemickou dynamiku — tedy přesně to, co EA mapuje jako útočné a obranné techniky.
+| Marker | Co může naznačovat |
+|---|---|
+| Placené „měření vědomí“ nebo „frekvence“ člověka | Kvantifikace bez vědeckého základu |
+| Odkazy na neurovědu bez konkrétních studií a autorů | Vědecký jazyk jako ozdoba |
+| Postavení ve skupině podle „úrovně vědomí“ | Hierarchie vědomí |
+| Nesouhlas vykládán jako „nízká integrace“ | Celostní zkratka proti kritice |
 
-Místo, aby EA tato pozice technicky obohacovala (jako kapitoly 1–5), slouží jako **interpretační vrstva**: pomáhá odpovědět na otázku *proč* daná technika funguje, *kdo* jí těží a *za jakých podmínek* jí lze odolat.
+## Rizikové kontexty
 
-## Klíčové koncepty
+Trh osobního rozvoje a „technologií vědomí“, esoterní skupiny s vědeckým slovníkem,
+neurofeedback a „biohacking“ nabízený bez klinického rámce a populární média, která
+zjednodušují otevřený vědecký spor.
 
-1. **Integrated Information Theory**
-2. **Phi (Φ) jako míra integrace**
-3. **Axiomy zkušenosti**
+## Odlišení
 
-Tyto pojmy nejsou v EA použity přímo jako názvy technik, ale tvoří **rastr**, jímž lze techniky kapitol 1–6 lépe číst — a v některých případech i odhalit, že to, co vypadá jako jediná technika, je ve skutečnosti složený dispozitiv.
+- **Seriózní výzkum.** Klinický výzkum poruch vědomí, včetně indexu perturbační komplexity,
+  je legitimní a probíhá v nemocnicích s etickým dohledem.
+- **Spor o vědeckost.** Kritika IIT je součástí normální vědy; odmítnutí teorie ani její
+  přijetí nejsou samy o sobě manipulací. Pro test falsifikovatelnosti viz
+  [EA-7.2.3 Popper](@/kompendium/techniques/ea-7-2-3-popper-falsification.md).
+- **[Pseudověda](@/glossary/pseudoscience.md)** se pozná tím, že závěry o konkrétních lidech
+  nemají ověřitelnou metodu, a přesto se na nich staví rozhodnutí nebo platby.
+- **Klinické stavy.** Posuzování vědomí u pacientů po poranění mozku je odborná klinická
+  úloha se standardizovanými škálami; nemá nic společného s „úrovněmi vědomí“ zdravých lidí.
 
-## Vztah k EA
+## Klinický a právní rámec
 
-Pozice **Tononi** vnáší do EA tři operativní příspěvky:
+U pacientů s poruchami vědomí se používají standardizované behaviorální škály a
+neurofyziologické metody; výzkum inspirovaný IIT je jejich doplňkem, ne náhradou. V jiných
+kontextech by kliník měl tvrzení o „měření vědomí“ chápat jako možný znak pseudovědeckého
+prostředí. Právně mohou klamavé zdravotní nebo vědecké nároky spadat pod ochranu
+spotřebitele a při prodeji „léčby“ i pod [podvod](@/kompendium/forensic-legal/17-fraud-EA-element.md).
 
-- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *„něco se tu děje, ale nevíme co“*.
-- **Hloubka rámce**: ukazuje, že manipulace často není individuální akt, nýbrž **strukturální efekt** vyšší vrstvy (diskurzní, institucionální, biologické).
-- **Etická pojistka**: brání tomu, aby EA degenerovala v techniku oboustranné aplikace bez reflexe — tj. aby se z obranného nástroje stala nová manipulační šablona.
+## Obrana a neutralizace
 
-## Mapování na EA techniky
+**Pro jednotlivce.** Ptát se: kdo měření provedl, jakou metodou, kde je publikováno a co by
+ukázalo opak? Pokud „úroveň vědomí“ rozhoduje o postavení nebo o penězích, jde o varovný
+signál ([hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)).
+**Pro profesionály a novináře.** Popisovat IIT jako otevřenou hypotézu, nikoli jako
+hotovou vědu.
 
-Pozice **Tononi** se relevantně dotýká těchto oblastí EA:
+**Otázky, které pomáhají v rozhovoru.** Kde je metoda publikována a kdo ji nezávisle
+ověřil? Co by ukázal opačný výsledek a stalo se to někdy? Co se změní na tvém postavení,
+když číslo stoupne nebo klesne? Kolik jsi za měření zaplatila? Otázky oddělují vědeckou
+hypotézu od produktu.
 
-- měření integrace systému, fenomenální architektura, kvantifikace komplexity
-- vztah ke **kapitole 6 (obrana a kalibrace)**: pomáhá rozlišit obranu strukturální od obrany pouze taktické.
-- vztah ke **kapitole 3 (manipulační vzorce)**: dodává jazyk, jímž lze pojmenovat skryté předpoklady techniky.
+## Zotavení
 
-Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [techniques index](@/kompendium/techniques/_index.md).
+Po odchodu ze skupiny, která člověka hodnotila „úrovní vědomí“, je třeba oddělit vlastní
+hodnotu od čísla a obnovit důvěru ve vlastní prožitek. Pomáhá [axiologická restaurace](@/kompendium/recovery-protocols/subacute-axiological-restoration.md)
+a [rekonstrukce smyslu](@/kompendium/recovery-protocols/subacute-meaning-reconstruction.md).
 
-## Limitace
+## Případy, které jev ukazují
 
-- **Není přímo testovatelná**: na rozdíl od EA-1 až EA-5 nelze tuto pozici jednoduše operacionalizovat ve scoring engine — slouží jako interpretační rámec, ne jako prediktor.
-- **Riziko nadužití**: aplikovaná všude, ztrácí ostří; pozice je nosná tam, kde **standardní psychologický nebo logický rozbor selává**.
-- **Spor o překlad**: některé pojmy (např. *[différance](@/glossary/differance.md)*, *Dasein*, *phi*) odporují čistému přepisu do operativního jazyka platformy a musí být užity s vědomím vlastní hranice.
-- **Žádná pozice není totální**: tato reflexe je jednou z mnoha — viz sister 7.3.* a sousední podkapitoly 7.1, 7.2, 7.3.
+- [New Age recovery](@/kompendium/case-studies/51-new-age-recovery.md) – „vyšší vědomí“ jako
+  měřítko člověka.
+- [Pseudověda recovery](@/kompendium/case-studies/52-pseudoscience-recovery.md) – vědecký
+  jazyk bez metody.
+- [Self-help kult](@/kompendium/case-studies/14-self-help-cult.md) – placené stupně
+  „rozvoje“.
 
-## Cross-linky
+## Ilustrativní příklad
 
-### Sesterské reflexe (7.3.*)
-- [EA-7.3.1 Kahneman: System 1/2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md)
-- [EA-7.3.2 Tversky & Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md)
-- [EA-7.3.3 Friston: Active Inference](@/kompendium/techniques/ea-7-3-3-friston-active-inference.md)
-- [EA-7.3.4 Clark: Rozšířená mysl](@/kompendium/techniques/ea-7-3-4-clark-extended-mind.md)
-- [EA-7.3.5 Metzinger: Ego-tunel](@/kompendium/techniques/ea-7-3-5-metzinger-ego-tunnel.md)
-- [EA-7.3.6 Thompson: Mind in Life](@/kompendium/techniques/ea-7-3-6-thompson-mind-life.md)
+Anonymizovaný kompozit: podnikatelka navštěvuje skupinu „vědomého leadershipu“, která
+pořádá placená „měření úrovně vědomí“ pomocí čelenky s elektrodami. Výsledky se vyjadřují
+číslem a skupina se podle nich dělí do stupňů; nejvyšší stupeň má zakladatel. Lektor
+odkazuje na „teorii integrované informace“ a na neurovědu. Žena platí stále dražší kurzy,
+aby své číslo zvýšila, a pochybnosti o vedení skupiny jsou vykládány jako „nízká
+integrace“. Když se jí kamarádka – neurovědkyně – zeptá, kde je metoda publikována
+a jak se ověřovala, žena zjistí, že žádný zdroj neexistuje a že IIT podobné měření zdravých
+lidí neumožňuje. Rozlišení mezi vědeckou hypotézou a komerčním výrobkem, který si vypůjčil
+její jazyk, jí pomůže vystoupit bez pocitu, že „selhala“.
 
-### Související
-- [Kapitola 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Kapitola 06: Obrana a kalibrace](@/kompendium/06-obrana/_index.md)
-- [Kapitola 03: Manipulační vzorce](@/kompendium/03-manipulacni-vzorce/_index.md)
-- [Glosář: Falsifikace](@/kompendium/glossary-bridges/falsifikace.md)
-- [Glosář: Predictive processing](@/glossary/predictive-processing.md)
-- [Glosář: Power-knowledge](@/glossary/power-knowledge.md)
-- [Glosář: Lakatos research program](@/glossary/lakatos.md)
-- {{ <cross_link path="/decisions/" text="Platforma: Decision Engine" /> }}
-- {{ <cross_link path="/investigate/" text="Platforma: Investigate" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="Platforma: OSINT Toolbox" /> }}
+## Meze a otevřené otázky
 
----
+Status IIT je předmětem vážného sporu a Kompendium nehodnotí, zda je teorie pravdivá; pouze
+upozorňuje na zneužití jejího jazyka. Otevřená zůstává otázka, jak by se měla věda o vědomí
+komunikovat veřejnosti, aby nezakládala trh s „měřením vědomí“, a jak regulovat
+spotřebitelská zařízení, která slibují údaje o duševních stavech bez ověřené validity. Pro
+klinickou oblast poruch vědomí zůstává otevřené, nakolik budou metody inspirované IIT
+spolehlivé v individuální diagnostice.
 
-## Connect
+## Literatura
 
-Chcete tuto reflexi aplikovat na konkrétní případ?
+- Tononi, G. (2004). An Information Integration Theory of Consciousness. *BMC Neuroscience*.
+- Oizumi, M., Albantakis, L., & Tononi, G. (2014). From the Phenomenology to the Mechanisms
+  of Consciousness: Integrated Information Theory 3.0. *PLoS Computational Biology*.
+- Casali, A. G., et al. (2013). A Theoretically Based Index of Consciousness Independent of
+  Sensory Processing and Behavior. *Science Translational Medicine*.
+- Tononi, G., Boly, M., Massimini, M., & Koch, C. (2016). Integrated Information Theory:
+  From Consciousness to Its Physical Substrate. *Nature Reviews Neuroscience*.
 
-- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — [Decision Engine](@/glossary/decision-engine.md) s podporou epistemické kalibrace.
-- [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
-- [Glosář pojmů](@/glossary/_index.md) — definice klíčových termínů napříč EA.
+## Související
 
-*Část kompendia [Epistemic Arsenal](@/kompendium/_index.md) — kapitola 7. Teoretické reflexe, podkapitola 7.3 Kognitivní věda.*
+**Sesterská hesla a kapitoly**
+
+- [7.39 Tononi: IIT](@/kompendium/07-teoreticke-reflexe/tononi-iit.md) – plný výklad.
+- [EA-7.3.9 Dehaene: Globální pracovní prostor](@/kompendium/techniques/ea-7-3-9-dehaene-consciousness.md)
+  – konkurenční teorie.
+- [EA-7.3.8 Chalmers: Těžký problém](@/kompendium/techniques/ea-7-3-8-chalmers-hard-problem.md)
+  – otázka, na kterou IIT odpovídá.
+
+**Techniky**
+
+- [EA-5.1.14 Iluzorní transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md)
+  – „vyšší vědomí“ jako nabídka.
+- [EA-5.1.20 Holografická redukce](@/kompendium/techniques/ea-5-1-20-holograficka-redukce.md)
+  – jednotlivec jako část celku.
+
+**Pojmy a kritika**
+
+- [Glosář: pseudověda](@/glossary/pseudoscience.md) – kritéria rozpoznání.
+- [Glosář: replikační krize](@/glossary/replication-crisis.md) – proč je opatrnost u nových
+  teorií namístě.

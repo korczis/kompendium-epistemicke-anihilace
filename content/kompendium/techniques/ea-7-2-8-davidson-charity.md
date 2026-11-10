@@ -1,6 +1,6 @@
 +++
 title = "EA-7.2.8 Davidson: Princip vstřícnosti"
-description = "Teoretická reflexe — Davidson: Princip vstřícnosti a vztah k EA."
+description = "Porozumění druhému předpokládá, že má převážně pravdivá a rozumná přesvědčení. Jak se vstřícný výklad zneužívá, jak se upírá obětem a jak to rozpoznat."
 weight = 728
 
 [taxonomies]
@@ -8,7 +8,7 @@ tags = ["kompendium", "techniques", "ea-7-2", "teoreticke"]
 categories = ["academic", "theory"]
 
 [extra]
-related_terms = ["ea-7-2-6-feyerabend-anti-method", "ea-7-2-7-quine-web-belief", "ea-7-2-9-williams-truthfulness", "ea-7-3-1-kahneman-system12"]
+related_terms = ["ea-1-1-3-terminologicka-mystifikace", "ea-1-2-3-iluzorni-komplexita", "ea-1-6-1-vzorec-guru-a-adept", "ea-7-2-7-quine-web-belief", "ea-7-2-1-fricker-epistemic-injustice", "ea-7-3-7-dennett-intentional-stance"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.2.8"
 ea_category = "7. Teoretické reflexe"
@@ -21,88 +21,184 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 
 # EA-7.2.8 Davidson: Princip vstřícnosti
 
-> *Teoretická reflexe v rámci 7.2 Analytická filozofie.*
-
-## Identifikace
-
 | Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-7.2.8` |
+| **Kategorie** | 7. Teoretické reflexe |
+| **Subkategorie** | 7.2 Analytická filozofie |
+| **Typ hesla** | Interpretační rámec – jak rozumíme druhým a kde je toto porozumění zranitelné |
+| **Přístupová úroveň** | L1 |
+| **Riziková úroveň** | Střední u popsaného jevu – vstřícnost je ctnost, kterou lze obrátit proti tomu, kdo ji projevuje |
+| **Reverzibilita** | Dobrá; kalibraci vstřícnosti se člověk může naučit znovu |
+| **Rodičovská kapitola** | [7. Teoretické a metakonceptuální reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) |
+| **Monografické zpracování** | [7.25 Davidson: Radikální interpretace a princip charity](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md) |
+
+> **Poznámka ke kódu.** Heslo `EA-7.2.8` a monografická kapitola 7.25 mají společný předmět;
+> číslo 7.2 nesouvisí s tematickou kapitolou 7.2.
+
+## Definice
+
+**Princip vstřícnosti** (*principle of charity*) Donalda Davidsona říká, že porozumět řeči
+druhého lze jen za předpokladu, že jeho přesvědčení jsou **převážně pravdivá a navzájem
+souvislá**. Kdybychom připustili, že se mýlí ve všem, nemohli bychom jeho slovům přisoudit
+žádný význam. Vstřícnost proto není zdvořilost, ale podmínka interpretace vůbec.
+
+Kompendium heslo používá ve dvou směrech. Princip vysvětluje, proč lidé **dávají smysl
+i nesmyslu**, když pochází od důvěryhodné osoby. A popisuje, co se stane, když je někomu
+vstřícnost soustavně **odepřena**: jeho slova přestanou mít pro okolí význam.
+
+## Původ a kontext pojmu
+
+Davidson rozvinul princip v teorii **radikální interpretace** („Radical Interpretation“,
+1973): interpret, který nezná jazyk mluvčího, musí současně odhadovat, co mluvčí věří a co
+jeho slova znamenají. Ve stati „On the Very Idea of a Conceptual Scheme“ (1974) z toho
+vyvodil, že představa zcela nepřeložitelného pojmového schématu je nesrozumitelná. Později
+zdůraznil **triangulaci**: význam vzniká ve vztahu tří prvků – mluvčího, interpreta
+a společného světa, na který oba reagují. Jeho filozofie mysli (anomální monismus, „Mental
+Events“, 1970) tvoří širší rámec, pro Kompendium je však podstatná teorie interpretace.
+
+## Mechanismus (strukturní popis)
+
+1. **Vstřícnost vůči neurčitému.** Neurčité, rozporné nebo obskurní výroky autority člověk
+   doplní vlastním smysluplným výkladem a připíše ho autoritě; srov.
+   [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
+   a [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md).
+   Hloubka, kterou adept nachází, je často jeho vlastní.
+2. **Vstřícnost vůči ubližování.** Agresivní nebo ponižující výrok se vykládá jako „myslel
+   to dobře“, „je unavený“, „zkouší mě“ – rozpor mezi slovy a údajným záměrem řeší oběť.
+3. **Odepřená vstřícnost.** Vůči oběti nebo kritikovi se uplatňuje opačný výklad: každé
+   slovo se čte jako zlomyslné, hloupé nebo nemocné. Výpověď tak ztrácí význam dřív, než
+   se posoudí; navazuje [epistemická nespravedlnost](@/kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md).
+4. **Přerušená triangulace.** V izolaci chybí společný svět, k němuž by šlo výklad vztáhnout;
+   význam slov určuje jediná osoba ([sociální izolace](@/glossary/socialni-izolace.md)).
+
+## Fenomenologické znaky (pohled zevnitř)
+
+| Znak | Jak ho člověk popisuje |
 |---|---|
-| **Kód EA** | EA-7.2.8 |
-| **Tradice** | Analytická filozofie |
-| **Autor / škola** | Davidson |
-| **Hlavní teze** | Interpretovat druhého znamená předpokládat, že je převážně racionální a převážně pravdivý — jinak interpretace selává. |
-| **Status v EA** | Teoretická reflexe — interpretační rámec, ne přímá technika |
-| **Cross-reference** | viz sekce *Mapování na EA techniky* |
+| Domýšlení | „Nerozuměl jsem tomu, ale určitě to mělo hluboký smysl.“ |
+| Omlouvání | „Takhle to nemyslel, jen to tak vyznělo.“ |
+| Nesrozumitelnost sebe | „Ať řeknu cokoli, vyloží si to proti mně.“ |
+| Ztráta měřítka | „Už nevím, co slova znamenají.“ |
 
-## Kontext autora
+## Detekční markery (pohled pozorovatele)
 
-Davidson patří do tradice **Analytická filozofie**. Jeho/její pozice je relevantní pro EA tím, že nabízí pojmový aparát, jímž lze popsat manipulaci, asymetrii, framing a epistemickou dynamiku — tedy přesně to, co EA mapuje jako útočné a obranné techniky.
+| Marker | Co může naznačovat |
+|---|---|
+| Člověk vysvětluje výroky autority, které sama autorita nikdy nevysvětlila | Vstřícnost vůči neurčitému |
+| Asymetrie výkladu: autoritě se vše odpouští, kritikovi nic | Selektivní vstřícnost |
+| Výroky oběti jsou v okolí citovány vytržené a nejhorším možným čtením | Odepřená vstřícnost; srov. [quote mining](@/kompendium/techniques/ea-2-3-3-quote-mining.md) |
+| Člověk nemá nikoho, s kým by si ověřil, „co to znamenalo“ | Přerušená triangulace |
 
-Místo, aby EA tato pozice technicky obohacovala (jako kapitoly 1–5), slouží jako **interpretační vrstva**: pomáhá odpovědět na otázku *proč* daná technika funguje, *kdo* jí těží a *za jakých podmínek* jí lze odolat.
+## Rizikové kontexty
 
-## Klíčové koncepty
+Vztahy guru a adepta ([EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)),
+akademické a umělecké školy s obskurním jazykem, partnerské vztahy s nekonzistentní
+komunikací, mediální kampaně proti jednotlivci a pracovní prostředí, kde nadřízený mluví
+v náznacích.
 
-1. **Princip vstřícnosti (charity)**
-2. **Triangulace významu**
-3. **Anomální monismus**
+## Odlišení
 
-Tyto pojmy nejsou v EA použity přímo jako názvy technik, ale tvoří **rastr**, jímž lze techniky kapitol 1–6 lépe číst — a v některých případech i odhalit, že to, co vypadá jako jediná technika, je ve skutečnosti složený dispozitiv.
+- **Zdravá vstřícnost.** Číst druhého v jeho nejlepší verzi je základ dobré diskuse.
+  Problém je **nekalibrovaná** vstřícnost: neměnná bez ohledu na opakovanou zkušenost.
+- **Kulturní a jazykové rozdíly.** Nedorozumění vznikají i bez manipulace; rozhoduje, zda
+  se dají vyjasnit otázkou ([odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md)
+  je varovným znakem).
+- **[Double bind](@/glossary/double-bind.md).** Je situace protichůdných požadavků bez
+  možnosti metakomunikace; vstřícnost oběti ho často udržuje.
+- **Klinické stavy.** Obtíže s porozuměním implicitním významům (např. u některých lidí na
+  autistickém spektru nebo po poškození mozku) nejsou výsledkem manipulace, ale mohou
+  zvyšovat zranitelnost; viz [pragmatická kompetence](@/glossary/pragmaticka-kompetence.md).
 
-## Vztah k EA
+## Klinický a právní rámec
 
-Pozice **Davidson** vnáší do EA tři operativní příspěvky:
+V terapii se pracuje s tím, že vstřícnost oběti byla ctností, ne chybou – a že ji lze
+kalibrovat. Kliník sám musí hlídat, aby vůči pacientovi uplatňoval stejnou vstřícnost jako
+vůči jeho okolí. V právu se princip objevuje při výkladu projevů vůle a výpovědí: soud
+vykládá projev podle úmyslu jednajícího, pokud jej druhá strana znala nebo musela znát;
+selektivně nevstřícný výklad výpovědi je důvodem k ostražitosti.
 
-- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *„něco se tu děje, ale nevíme co“*.
-- **Hloubka rámce**: ukazuje, že manipulace často není individuální akt, nýbrž **strukturální efekt** vyšší vrstvy (diskurzní, institucionální, biologické).
-- **Etická pojistka**: brání tomu, aby EA degenerovala v techniku oboustranné aplikace bez reflexe — tj. aby se z obranného nástroje stala nová manipulační šablona.
+## Obrana a neutralizace
 
-## Mapování na EA techniky
+**Pro jednotlivce.** Vstřícnost jako úvěr, ne jako dluh: po opakovaném zklamání ji snížit.
+Žádat vysvětlení neurčitých výroků od toho, kdo je pronesl, a ne si ho domýšlet. Obnovit
+triangulaci s třetími osobami ([diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md),
+[asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md)).
+**Pro profesionály.** Ověřovat, zda je výklad výpovědi oběti stejně vstřícný jako výklad
+výpovědi druhé strany.
 
-Pozice **Davidson** se relevantně dotýká těchto oblastí EA:
+**Otázky, které pomáhají v rozhovoru.** Vysvětlil ti to někdy sám, nebo sis to vysvětlila
+ty? Odpouštíš mu věci, které bys jinému neodpustila? Jak jsou čtena tvoje slova? S kým si
+můžeš ověřit, co se vlastně řeklo? Otázky ukazují, kde vstřícnost přestala být
+porozuměním a stala se službou.
 
-- interpretační velkorysost, předpoklad racionality oponenta
-- vztah ke **kapitole 6 (obrana a kalibrace)**: pomáhá rozlišit obranu strukturální od obrany pouze taktické.
-- vztah ke **kapitole 3 (manipulační vzorce)**: dodává jazyk, jímž lze pojmenovat skryté předpoklady techniky.
+## Zotavení
 
-Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [techniques index](@/kompendium/techniques/_index.md).
+Člověk se učí rozlišovat mezi „rozumím mu“ a „dávám mu smysl za něj“. Obnova zahrnuje
+návrat k vlastnímu jazyku a k jistotě, že i jeho slova si zaslouží vstřícné čtení; pomáhá
+[hermeneutický reset](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md)
+a [subakutní relační restrukturalizace](@/kompendium/recovery-protocols/subacute-relational-restructuring.md).
 
-## Limitace
+## Případy, které jev ukazují
 
-- **Není přímo testovatelná**: na rozdíl od EA-1 až EA-5 nelze tuto pozici jednoduše operacionalizovat ve scoring engine — slouží jako interpretační rámec, ne jako prediktor.
-- **Riziko nadužití**: aplikovaná všude, ztrácí ostří; pozice je nosná tam, kde **standardní psychologický nebo logický rozbor selává**.
-- **Spor o překlad**: některé pojmy (např. *[différance](@/glossary/differance.md)*, *Dasein*, *phi*) odporují čistému přepisu do operativního jazyka platformy a musí být užity s vědomím vlastní hranice.
-- **Žádná pozice není totální**: tato reflexe je jednou z mnoha — viz sister 7.2.* a sousední podkapitoly 7.1, 7.2, 7.3.
+- [Akademický filozofický kult](@/kompendium/case-studies/28-academic-philosophy-cult.md) –
+  vstřícnost vůči obskurnímu jazyku mistra.
+- [Narcistická rodina](@/kompendium/case-studies/07-narcisticka-rodina.md) – omlouvání
+  ubližujícího rodiče.
+- [Psychoterapeut totalizace](@/kompendium/case-studies/16-psychoterapeut-totalizace.md) –
+  výklad všeho jako terapeutického záměru.
+- [Mediální mob attack](@/kompendium/case-studies/04-medialni-mob-attack.md) – odepřená
+  vstřícnost vůči jednotlivci.
 
-## Cross-linky
+## Ilustrativní příklad
 
-### Sesterské reflexe (7.2.*)
-- [EA-7.2.1 Fricker: Epistemická nespravedlnost](@/kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md)
-- [EA-7.2.2 Goldman: Veritismus](@/kompendium/techniques/ea-7-2-2-goldman-veritism.md)
-- [EA-7.2.3 Popper: Falsifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md)
-- [EA-7.2.4 Lakatos: Vědecký výzkumný program](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md)
-- [EA-7.2.5 Kuhn: Paradigmatický posun](@/kompendium/techniques/ea-7-2-5-kuhn-paradigm-shift.md)
-- [EA-7.2.6 Feyerabend: Anti-metoda](@/kompendium/techniques/ea-7-2-6-feyerabend-anti-method.md)
+Anonymizovaný kompozit: doktorandka filozofie navštěvuje seminář uznávaného profesora,
+jehož texty jsou proslulé nejasností. Studenti tráví hodiny tím, že jeho výroky vykládají,
+a ten, kdo najde nejhlubší výklad, získá pochvalu. Když se doktorandka zeptá, co profesor
+konkrétně myslel, odpoví jí, že „otázka svědčí o nepochopení“. Zároveň si všimne, že její
+vlastní práce jsou na seminářích čteny nejméně vstřícným způsobem a každá nepřesnost se
+vykládá jako neschopnost. Davidsonova optika ukazuje asymetrii: profesorovi se
+vstřícnost poskytuje bez omezení, studentce se odepírá. Teprve rozhovor s kolegy z jiné
+katedry, kteří profesorovy texty čtou bez úcty předem, jí vrátí triangulaci: co text říká,
+lze posoudit vůči společnému světu, nejen vůči autoritě, která ho napsala.
 
-### Související
-- [Kapitola 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Kapitola 06: Obrana a kalibrace](@/kompendium/06-obrana/_index.md)
-- [Kapitola 03: Manipulační vzorce](@/kompendium/03-manipulacni-vzorce/_index.md)
-- [Glosář: Falsifikace](@/kompendium/glossary-bridges/falsifikace.md)
-- [Glosář: Predictive processing](@/glossary/predictive-processing.md)
-- [Glosář: Power-knowledge](@/glossary/power-knowledge.md)
-- [Glosář: Lakatos research program](@/glossary/lakatos.md)
-- {{ <cross_link path="/decisions/" text="Platforma: Decision Engine" /> }}
-- {{ <cross_link path="/investigate/" text="Platforma: Investigate" /> }}
-- {{ <cross_link path="/osint/toolbox/" text="Platforma: OSINT Toolbox" /> }}
+## Meze a otevřené otázky
 
----
+Princip vstřícnosti je u Davidsona podmínkou interpretace, ne morální normou; jeho přenos
+do etiky rozhovoru je rozšířením, které Davidson sám nerozpracoval. Rozlišit nekalibrovanou
+vstřícnost od trpělivosti v dlouhodobém vztahu je obtížné a závisí na kontextu. Otevřená
+zůstává otázka, kdy je odepření vstřícnosti oprávněnou ochranou (po opakované lži) a kdy
+už je umlčením, a jak učit lidi kalibrovat vstřícnost, aniž by ztratili schopnost porozumět
+druhým v nejlepší verzi.
 
-## Connect
+## Literatura
 
-Chcete tuto reflexi aplikovat na konkrétní případ?
+- Davidson, D. (1973). Radical Interpretation. *Dialectica*.
+- Davidson, D. (1974). On the Very Idea of a Conceptual Scheme. *Proceedings and Addresses
+  of the American Philosophical Association*.
+- Davidson, D. (1984). *Inquiries into Truth and Interpretation*. Oxford University Press.
+- Davidson, D. (2001). *Subjective, Intersubjective, Objective*. Oxford University Press.
 
-- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — [Decision Engine](@/glossary/decision-engine.md) s podporou epistemické kalibrace.
-- [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
-- [Glosář pojmů](@/glossary/_index.md) — definice klíčových termínů napříč EA.
+## Související
 
-*Část kompendia [Epistemic Arsenal](@/kompendium/_index.md) — kapitola 7. Teoretické reflexe, podkapitola 7.2 Analytická filozofie.*
+**Sesterská hesla a kapitoly**
+
+- [7.25 Davidson: Radikální interpretace](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md)
+  – plný výklad.
+- [EA-7.2.7 Quine](@/kompendium/techniques/ea-7-2-7-quine-web-belief.md) – [holismus](@/glossary/holismus.md), z něhož
+  Davidson vychází.
+- [EA-7.3.7 Dennett: Intenční postoj](@/kompendium/techniques/ea-7-3-7-dennett-intentional-stance.md)
+  – příbuzná strategie připisování racionality.
+
+**Techniky**
+
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) –
+  vstřícnost jako pojivo asymetrie.
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
+  – neurčitost, kterou doplňuje posluchač.
+
+**Pojmy a praxe**
+
+- [Glosář: theory of mind](@/glossary/theory-of-mind.md) – schopnost připisovat druhým mysl.
+- [Vzdělávací scénář: řešení rozporů](@/kompendium/educational-scenarios/8-contradiction-resolution.md)
+  – nácvik práce s rozpornými výroky.

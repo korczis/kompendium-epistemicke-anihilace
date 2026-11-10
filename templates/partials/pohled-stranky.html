@@ -30,5 +30,8 @@
   {%- set pg = {"label": pv_h, "desc": "pohled-d", "cls": pv_c ~ " border border-gray-200 bg-gray-50 dark:border-gray-700 dark:bg-gray-900"} %}
   {% include "partials/pohled-graf.html" %}
 </section>
+{#- Jádro vizualizací načte pohled sám: rozcestník bez podstránek nemá přehled oddílu, který
+    by ho jinak vložil (gate ploch to na koncových kapitolách zachytil). -#}
+<script src="{{ get_url(path='js/viz/kompendium-viz.js', cachebust=true) }}" defer></script>
 <script src="{{ get_url(path='js/viz/' ~ pv ~ '.js', cachebust=true) }}" defer></script>
 {%- endif %}

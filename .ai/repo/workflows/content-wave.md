@@ -40,10 +40,20 @@ pravidla o zdrojích a mechaniku ověření (skill `kompendium-page-expansion`).
 
 ## 4. Ověř
 
+Ověřuje se přesně strom, který se commituje: `git archive "$(git write-tree)"` do dočasného
+adresáře a v něm všechny kontroly níže. Pracovní strom obsahuje rozpracované soubory ostatních
+pracovníků a jeho výsledek nic nedokazuje. Artefakty platformy, na které vlna narazí, popisuje
+`.ai/repo/knowledge/curated/platform-artifacts-in-content.md`.
+
 ```sh
 zola build --force -o "$TMPDIR/kea-out"       # Done; nefunkční odkaz @/ je chyba
-python3 scripts/polish-markdown.py            # jednou na konci vlny
-python3 scripts/polish-markdown.py --check    # exit 0
+python3 scripts/normalize-front-matter.py --check  # popis a štítky tam, kde je Zola čte
+python3 scripts/check-ia.py                        # žádné nové porušení IA
+python3 scripts/link-terms.py <adresáře vlny>      # obecné provázání pojmů a kódů EA
+python3 scripts/polish-markdown.py <adresáře vlny> # typografie
+python3 scripts/polish-markdown.py --check         # exit 0
+python3 scripts/build-graph.py                     # odvozená data pro mapu a stav
+bash test/run.sh                                   # nástroje se chovají, jak mají
 ```
 
 Recenze: aspoň vzorek každého adresáře proti pravidlům o obranném rámci a zdrojích; každé

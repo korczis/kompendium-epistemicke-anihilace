@@ -46,6 +46,10 @@ if python3 scripts/check-ia.py >"$work/ia.out" 2>&1; then
 fi
 python3 scripts/check-ia.py --list description | grep -x 'content/kompendium/case-01-fixture/seeded.md' >/dev/null
 python3 scripts/check-ia.py --list tags | grep -x 'content/kompendium/case-01-fixture/seeded.md' >/dev/null
+python3 scripts/check-ia.py --list detail | grep -x 'content/kompendium/case-01-fixture/seeded.md' >/dev/null
+printf '\n<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->\nx\n<!-- ENHANCED:NLLB-AUTO-BLOCK END -->\n' \
+  >> content/kompendium/case-01-fixture/seeded.md
+python3 scripts/check-ia.py --list generated | grep -x 'content/kompendium/case-01-fixture/seeded.md' >/dev/null
 # The normalizer infers the missing tags from where the page is, and a second run is a no-op.
 python3 scripts/normalize-front-matter.py content/kompendium/case-01-fixture >/dev/null
 grep -x 'tags = \["kompendium", "case-01-fixture"\]' content/kompendium/case-01-fixture/seeded.md >/dev/null
@@ -78,6 +82,24 @@ grep -x 'gaslighting vlivu](@/kompendium/forensic-legal/gaslighting-test.md) zů
 grep -c '](@/kompendium/techniques/ea-1-6-1-' content/kompendium/case-01-links/page.md | grep -x 1 >/dev/null
 python3 scripts/link-terms.py --check content/kompendium/case-01-links >/dev/null
 rm -r content/kompendium/case-01-links
+
+# derive-links: a quick-reference card and its technique link each other in a generated block,
+# and a second run changes nothing.
+python3 scripts/derive-links.py content/kompendium/quick-reference content/kompendium/techniques >/dev/null
+card=$(ls content/kompendium/quick-reference/qr-ea-*.md | head -1)
+grep -F 'kompendium:odvozene-vazby:begin' "$card" >/dev/null
+python3 scripts/derive-links.py --check content/kompendium/quick-reference content/kompendium/techniques >/dev/null
+
+# merge-duplicate: the full page gains the stub's address as an alias, links follow, stub goes.
+mkdir -p content/kompendium/case-01-dup
+printf '+++\ntitle = "Stub"\n+++\n\nKrátký stub.\n' > content/kompendium/case-01-dup/x.md
+printf '+++\ntitle = "Plná"\nweight = 1\n\n[extra]\nk = 1\n+++\n\nPlná stránka.\n' > content/kompendium/case-01-dup/x-plna.md
+printf '+++\ntitle = "Odkaz"\n+++\n\nViz [stub](@/kompendium/case-01-dup/x.md#a).\n' > content/kompendium/case-01-dup/ref.md
+python3 scripts/merge-duplicate.py kompendium/case-01-dup/x.md kompendium/case-01-dup/x-plna.md >/dev/null
+[ ! -e content/kompendium/case-01-dup/x.md ]
+grep -x 'aliases = \["/kompendium/case-01-dup/x/"\]' content/kompendium/case-01-dup/x-plna.md >/dev/null
+grep -F '](@/kompendium/case-01-dup/x-plna.md#a)' content/kompendium/case-01-dup/ref.md >/dev/null
+rm -r content/kompendium/case-01-dup
 
 python3 scripts/build-graph.py >/dev/null
 python3 scripts/build-graph.py --check >/dev/null

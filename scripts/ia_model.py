@@ -19,6 +19,10 @@ DIACRITIC = re.compile(r"[ěščřžýáíéůúťďňĚŠČŘŽÝÁÍÉŮÚŤĎ
 EN_WORDS = {"the", "and", "of", "with", "is", "are", "this", "that"}
 CZ_WORDS = {"je", "se", "na", "že", "jako", "nebo", "které", "který", "pro", "jsou", "není",
             "také", "ale", "jak", "při"}
+GENERATED_MARKERS = re.compile(
+    r"NLLB-AUTO-BLOCK|[Ss]trukturální stub|structural stub|Tato stránka je placeholder"
+    r"|pojem v sekci \S+ znalostní báze Prismatic Platform|^stub\s*=\s*true", re.M
+)
 RELATED_HEADING = re.compile(r"^##\s+(Související|Cross-linky|Související stránky)\b", re.M | re.I)
 
 
@@ -102,6 +106,8 @@ def load_pages() -> list:
             "diacritics": round(dia / len(words), 3) if words else 0.0,
             "language": language_of(words),
             "has_related": bool(RELATED_HEADING.search(body)),
+            "generated": bool(GENERATED_MARKERS.search(text)),
+            "template": str(front.get("template", "")),
             "links": [m.group(1) for m in AT_LINK.finditer(body)],
         })
     known = {p["path"] for p in pages}

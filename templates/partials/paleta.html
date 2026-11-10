@@ -14,7 +14,7 @@
 ] -%}
 {%- set paleta_record = false -%}
 {%- if current_path is defined and current_path != "/404.html" -%}{%- set paleta_record = true -%}{%- endif -%}
-<script type="application/json" data-paleta-config>{{ {"apps": paleta_apps, "mapa": get_url(path="@/mapa.md"), "viz": get_url(path="js/viz/kompendium-viz.js", cachebust=true), "record": paleta_record} | json_encode | safe }}</script>
+<script type="application/json" data-paleta-config>{{ {"apps": paleta_apps, "mapa": get_url(path="@/mapa.md"), "record": paleta_record} | json_encode | safe }}</script>
 <div id="paleta" data-paleta class="fixed inset-0 z-50 hidden" aria-hidden="true">
   <div data-paleta-backdrop class="fixed inset-0 bg-gray-900/50 dark:bg-gray-900/80"></div>
   <div class="relative flex h-full w-full justify-center sm:px-4 sm:pt-[10vh]">

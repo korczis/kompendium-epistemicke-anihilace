@@ -26,7 +26,9 @@
     });
   }
 
-  // --- Search over Zola's fuse_json index --------------------------------------------------
+  // --- Search: static/data/search.json (scripts/build-ui-data.py), ARIA combobox -------------
+  // Ranking is deterministic and explainable: exact EA code, exact title, exact alias, title
+  // prefix, every word in the title, every word anywhere. Diacritics and case are ignored.
   var indexUrl = body.getAttribute('data-search-index');
   var indexPromise = null;
 
@@ -34,37 +36,49 @@
     return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   }
 
+  function codeKey(s) {
+    // "EA-1.1.1", "ea 1 1 1", "1.1.1", "ea-1-1-1" -> "1.1.1"
+    var m = fold(s).match(/^(?:ea[\s.\-]*)?(\d{1,2})[\s.\-](\d{1,2})[\s.\-](\d{1,3})$/);
+    return m ? m[1] + '.' + m[2] + '.' + m[3] : '';
+  }
+
   function loadIndex() {
     if (!indexPromise) {
-      indexPromise = fetch(indexUrl).then(function (r) { return r.json(); }).then(function (docs) {
-        return docs.map(function (d) {
-          return { title: d.title || '', description: d.description || '', path: d.path || d.url || '',
-            hay: fold((d.title || '') + ' ' + (d.description || '')), t: fold(d.title || '') };
+      indexPromise = fetch(indexUrl).then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      }).then(function (data) {
+        // Fields by name (data.fields), so a reordered index is not misread.
+        var f = {};
+        data.fields.forEach(function (name, i) { f[name] = i; });
+        return data.entries.map(function (e) {
+          var alias = e[f.aliases] || [];
+          return { title: e[f.title], description: e[f.description], path: e[f.url], code: e[f.code],
+            kind: e[f.kind], t: fold(e[f.title]), aliases: alias.map(fold), ck: codeKey(e[f.code]),
+            hay: fold([e[f.title], e[f.description], e[f.code], e[f.kind]].concat(alias).join(' ')) };
         });
       });
+      indexPromise.catch(function () { indexPromise = null; });  // a failed fetch may be retried
     }
     return indexPromise;
   }
 
-  function escapeHtml(s) {
-    return String(s).replace(/[&<>"']/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
-    });
-  }
-
   function search(docs, query) {
-    var terms = fold(query).split(/\s+/).filter(Boolean);
-    if (!terms.length) return [];
+    var q = fold(query).trim();
+    var words = q.split(/\s+/).filter(Boolean);
+    if (!words.length) return [];
+    var ck = codeKey(query.trim());
     var hits = [];
     for (var i = 0; i < docs.length; i++) {
       var d = docs[i];
       var score = 0;
-      var all = true;
-      for (var j = 0; j < terms.length; j++) {
-        if (d.hay.indexOf(terms[j]) === -1) { all = false; break; }
-        score += d.t.indexOf(terms[j]) !== -1 ? 3 : 1;
-      }
-      if (all) hits.push({ d: d, score: score });
+      if (ck && d.ck === ck) score = 1000;
+      else if (d.t === q) score = 900;
+      else if (d.aliases.indexOf(q) !== -1) score = 800;
+      else if (d.t.indexOf(q) === 0) score = 600;
+      else if (words.every(function (w) { return d.t.indexOf(w) !== -1; })) score = 400;
+      else if (words.every(function (w) { return d.hay.indexOf(w) !== -1; })) score = 100;
+      if (score) hits.push({ d: d, score: score });
     }
     hits.sort(function (a, b) { return b.score - a.score || a.d.title.length - b.d.title.length; });
     return hits.slice(0, 12).map(function (h) { return h.d; });
@@ -77,47 +91,111 @@
     return path.indexOf(basePath + '/') === 0 ? path : basePath + path;
   }
 
-  document.querySelectorAll('[data-search-form]').forEach(function (form) {
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  document.querySelectorAll('[data-search-form]').forEach(function (form, n) {
     var input = form.querySelector('[data-search-input]');
     var results = form.querySelector('[data-search-results]');
+    var status = form.querySelector('[data-search-status]');
+    var listId = results.id || ('search-results-' + n);
     var timer = null;
+    var active = -1;
+    results.id = listId;
+    input.setAttribute('role', 'combobox');
+    input.setAttribute('aria-autocomplete', 'list');
+    input.setAttribute('aria-controls', listId);
+    input.setAttribute('aria-expanded', 'false');
+
+    function options() { return results.querySelectorAll('[role="option"]'); }
+
+    function close() {
+      results.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+      input.removeAttribute('aria-activedescendant');
+      active = -1;
+    }
+
+    function announce(text) { if (status) status.textContent = text; }
+
+    function highlight(i) {
+      var opts = options();
+      if (!opts.length) return;
+      active = (i + opts.length) % opts.length;
+      opts.forEach(function (o, k) {
+        o.setAttribute('aria-selected', k === active ? 'true' : 'false');
+        o.classList.toggle('bg-gray-100', k === active);
+        o.classList.toggle('dark:bg-gray-600', k === active);
+      });
+      input.setAttribute('aria-activedescendant', opts[active].id);
+      opts[active].scrollIntoView({ block: 'nearest' });
+    }
 
     function render(list, query) {
-      if (!query) { results.classList.add('hidden'); results.innerHTML = ''; return; }
+      if (!query) { results.innerHTML = ''; close(); announce(''); return; }
       if (!list.length) {
-        results.innerHTML = '<p class="px-4 py-3 text-gray-500 dark:text-gray-400">Nic nenalezeno.</p>';
+        results.innerHTML = '<li class="px-4 py-3 text-gray-600 dark:text-gray-300">Nic nenalezeno. Zkuste jiný tvar slova nebo kód techniky, např. <kbd class="rounded border border-gray-200 px-1 dark:border-gray-500">EA-1.1.1</kbd>.</li>';
+        announce('Nic nenalezeno');
       } else {
-        results.innerHTML = list.map(function (d) {
-          return '<a role="option" href="' + escapeHtml(href(d.path)) + '" class="block border-b border-gray-100 px-4 py-2 hover:bg-gray-100 dark:border-gray-600 dark:hover:bg-gray-600">' +
-            '<span class="block font-medium text-gray-900 dark:text-white">' + escapeHtml(d.title) + '</span>' +
-            (d.description ? '<span class="block truncate text-xs text-gray-500 dark:text-gray-400">' + escapeHtml(d.description) + '</span>' : '') +
-            '</a>';
+        results.innerHTML = list.map(function (d, k) {
+          return '<li id="' + listId + '-' + k + '" role="option" aria-selected="false" data-href="' + escapeHtml(href(d.path)) + '" class="cursor-pointer border-b border-gray-100 px-4 py-2 last:border-0 hover:bg-gray-100 dark:border-gray-600 dark:hover:bg-gray-600">' +
+            '<span class="flex items-center gap-2"><span class="min-w-0 flex-1 truncate font-medium text-gray-900 dark:text-white">' + escapeHtml(d.title) + '</span>' +
+            (d.code ? '<span class="shrink-0 rounded bg-primary-100 px-1.5 font-mono text-xs text-primary-800 dark:bg-primary-900 dark:text-primary-200">' + escapeHtml(d.code) + '</span>' : '') +
+            '<span class="shrink-0 rounded bg-gray-100 px-1.5 text-xs text-gray-700 dark:bg-gray-700 dark:text-gray-200">' + escapeHtml(d.kind) + '</span></span>' +
+            (d.description ? '<span class="block truncate text-xs text-gray-600 dark:text-gray-300">' + escapeHtml(d.description) + '</span>' : '') +
+            '</li>';
         }).join('');
+        announce(list.length + (list.length === 1 ? ' výsledek' : list.length < 5 ? ' výsledky' : ' výsledků') + ', šipkami vyberte, Enter otevře');
       }
       results.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+      active = -1;
+      input.removeAttribute('aria-activedescendant');
+    }
+
+    function go(i) {
+      var opts = options();
+      var o = opts[i < 0 ? 0 : i];
+      if (o) window.location.href = o.getAttribute('data-href');
     }
 
     input.addEventListener('input', function () {
       clearTimeout(timer);
       var q = input.value.trim();
       timer = setTimeout(function () {
-        if (q.length < 2) { render([], ''); return; }
-        loadIndex().then(function (docs) { render(search(docs, q), q); });
+        if (q.length < 2 && !codeKey(q)) { render([], ''); return; }
+        announce('Hledám…');
+        loadIndex().then(function (docs) { render(search(docs, q), q); }, function () {
+          results.innerHTML = '<li class="px-4 py-3 text-red-700 dark:text-red-400">Index vyhledávání se nepodařilo načíst. Zkuste to znovu.</li>';
+          results.classList.remove('hidden');
+          input.setAttribute('aria-expanded', 'true');
+          announce('Chyba načtení vyhledávání');
+        });
       }, 120);
     });
-    input.addEventListener('focus', function () { loadIndex(); });
+    input.addEventListener('focus', function () { loadIndex().catch(function () {}); });
     input.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') { input.value = ''; render([], ''); }
+      if (e.key === 'ArrowDown') { e.preventDefault(); highlight(active + 1); }
+      else if (e.key === 'ArrowUp') { e.preventDefault(); highlight(active - 1); }
+      else if (e.key === 'Enter') { e.preventDefault(); go(active); }
+      else if (e.key === 'Escape') {
+        if (input.getAttribute('aria-expanded') === 'true') { close(); }
+        else { input.value = ''; render([], ''); input.blur(); }
+      }
     });
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var first = results.querySelector('a');
-      if (first) window.location.href = first.href;
+    results.addEventListener('mousedown', function (e) {
+      var o = e.target.closest('[role="option"]');
+      if (o) { e.preventDefault(); window.location.href = o.getAttribute('data-href'); }
     });
-    document.addEventListener('click', function (e) {
-      if (!form.contains(e.target)) results.classList.add('hidden');
-    });
+    form.addEventListener('submit', function (e) { e.preventDefault(); go(active); });
+    document.addEventListener('click', function (e) { if (!form.contains(e.target)) close(); });
   });
+
+  // "/" and Ctrl/Cmd+K belong to the command palette (static/js/viz/paleta.js), which searches
+  // the same index; the navbar combobox is reached by Tab or by a click.
 
   // --- Sidebar: Flowbite Drawer owns open/close, Escape, backdrop and body scroll. ------------
   // This bridge only keeps the accessibility state right: on the desktop shell (lg) the sidebar

@@ -88,7 +88,7 @@
 {%- endif %}
 {% block head_extra %}{% endblock head_extra %}
 </head>
-<body class="bg-gray-50 antialiased dark:bg-gray-800" data-base-url="{{ config.base_url }}" data-search-index="{{ get_url(path='search_index.cs.json') }}" data-mermaid="{{ get_url(path='js/vendor/mermaid-11.min.js') }}" data-chartjs="{{ get_url(path='js/vendor/chart.umd.min.js') }}">
+<body class="bg-gray-50 antialiased dark:bg-gray-800" data-base-url="{{ config.base_url }}" data-search-index="{{ get_url(path='data/search.json', cachebust=true) }}" data-mermaid="{{ get_url(path='js/vendor/mermaid-11.min.js') }}" data-chartjs="{{ get_url(path='js/vendor/chart.umd.min.js') }}">
 <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-gray-900 focus:shadow">Přeskočit na obsah</a>
 {% include "partials/nav.html" %}
 {% include "partials/paleta.html" %}

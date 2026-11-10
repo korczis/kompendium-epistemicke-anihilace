@@ -31,7 +31,7 @@ Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 - **Sekce 07 — Filosofické pozadí**: Ioannidis, Open Science Collaboration
 - **Sekce 08 — Metodologie**: pre-registrace, otevřená data, replikační studie
 - **Per-technique: Source Critique**: evaluace literatury v krizové oblasti
-- **Sekce 09 — Etika**: důsledky pro evidence-based praxi
+- **Sekce 09 — Etika**: důsledky pro [evidence-based](@/glossary/evidence-based.md) praxi
 
 Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.
 

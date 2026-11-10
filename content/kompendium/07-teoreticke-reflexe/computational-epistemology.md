@@ -55,20 +55,20 @@ Anti-information odpovídá nejhlubší vrstvě epistemické anihilace v termino
 
 | Úroveň | Název | Epistemická operace | EA zranitelnost |
 |--------|-------|---------------------|-----------------|
-| **L0** | Sensory Input | Akvizice surových dat | EA-1.1.1 selektivní expozice |
-| **L1** | Signal Filtering | Pre-procesní filtrace | EA-1.1.2 prahový gating |
-| **L2** | Pattern Detection | Rozpoznání primitivních vzorců | EA-1.1.3 vzorová slepota |
+| **L0** | Sensory Input | Akvizice surových dat | [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) selektivní expozice |
+| **L1** | Signal Filtering | Pre-procesní filtrace | [EA-1.1.2](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) prahový gating |
+| **L2** | Pattern Detection | Rozpoznání primitivních vzorců | [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) vzorová slepota |
 | **L3** | Feature Extraction | Extrakce relevantních příznaků | EA-1.1.4 příznaková redukce |
 | **L4** | Perceptual Binding | Integrace do percepčního celku | EA-1.1.5 percepční fragmentace |
-| **L5** | Categorization | Kategorizace do typů | EA-1.2.1 kategoriální zploštění |
-| **L6** | Concept Formation | Formace konceptuálních struktur | EA-1.2.2 konceptuální mystifikace |
-| **L7** | Propositional Encoding | Kódování propozičních obsahů | EA-1.2.3 propoziční inverze |
-| **L8** | Inference | Inferenční operace | EA-1.3.1 imunizace proti falsifikaci |
-| **L9** | Justification | Justifikační procedury | EA-1.3.2 kruhové ospravedlnění |
-| **L10** | Belief Update | Bayesovský update věr | EA-1.3.4 update blokace |
-| **L11** | Coherence Checking | Kontrola koherence | EA-1.4.1 kontradikce-tolerance |
-| **L12** | Provenance Tracking | Sledování původu | EA-1.4.2 zdrojová amnézie |
-| **L13** | Confidence Calibration | Kalibrace důvěry | EA-2.1.1 [konfirmační bias](@/glossary/konfirmacni-bias.md) |
+| **L5** | Categorization | Kategorizace do typů | [EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) kategoriální zploštění |
+| **L6** | Concept Formation | Formace konceptuálních struktur | [EA-1.2.2](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) konceptuální mystifikace |
+| **L7** | Propositional Encoding | Kódování propozičních obsahů | [EA-1.2.3](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) propoziční inverze |
+| **L8** | Inference | Inferenční operace | [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) imunizace proti falsifikaci |
+| **L9** | Justification | Justifikační procedury | [EA-1.3.2](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) kruhové ospravedlnění |
+| **L10** | Belief Update | Bayesovský update věr | [EA-1.3.4](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md) update blokace |
+| **L11** | Coherence Checking | Kontrola koherence | [EA-1.4.1](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) kontradikce-tolerance |
+| **L12** | Provenance Tracking | Sledování původu | [EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) zdrojová amnézie |
+| **L13** | Confidence Calibration | Kalibrace důvěry | [EA-2.1.1](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) [konfirmační bias](@/glossary/konfirmacni-bias.md) |
 | **L14 (Meta)** | Meta-Reflection | [Metakognitivní](@/glossary/metakognice.md) reflexe | EA-2.2 [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) |
 | **L15 (Consciousness)** | Integrative Awareness | Integrativní vědomí | EA-3 [ontologická anihilace](@/glossary/ontologicka-anihilace.md) |
 
@@ -76,7 +76,7 @@ Anti-information odpovídá nejhlubší vrstvě epistemické anihilace v termino
 
 **L0–L4 (Senzoricko-percepční vrstva)** — Tyto úrovně implementují **akvizici** v terminologii [taxonomie EA](@/glossary/taxonomie-ea.md). Manipulátor často útočí již zde: selektivní expozice (EA-1.1.1) operuje na L0 (kontrola toho, co se vůbec dostane jako vstup); informační přetížení operuje na L1 (saturace prahových filtrů); pattern-priming operuje na L2 (instrumentalizace předem aktivovaných vzorců).
 
-NABLA obrana: **strukturální source diversity** vynucená na L0 (povinné multi-source vstupy s automatickou detekcí asymetrie); **adaptive thresholding** na L1 (dynamické filtrace odolné proti zaplavení); **adversariální pattern auditing** na L2 (Color Team red team dotazování implicitních vzorců).
+NABLA obrana: **strukturální source diversity** vynucená na L0 (povinné multi-source vstupy s automatickou detekcí asymetrie); **adaptive thresholding** na L1 (dynamické filtrace odolné proti zaplavení); **adversariální pattern auditing** na L2 (Color Team [red team](@/glossary/red-team.md) dotazování implicitních vzorců).
 
 **L5–L7 (Konceptuálně-propoziční vrstva)** — Implementují **integraci**. Kategoriální zploštění (EA-1.2.1) deformuje L5 redukcí jemných distinkcí na hrubé dichotomie. Konceptuální mystifikace (EA-1.2.2) na L6 zavádí pseudo-koncepty, jež formálně připomínají obvyklé pojmy, ale jsou definičně prázdné nebo strategicky vágní.
 
@@ -84,7 +84,7 @@ NABLA obrana: **explicit category schemas** s vynucenou granularitou; **concept 
 
 **L8–L9 (Inferenčně-justifikační vrstva)** — Realizují **evaluaci** a **justifikaci**. Imunizace proti [falsifikaci](@/glossary/falsifikace.md) (EA-1.3.1) atakuje L8 přidáváním ad hoc auxiliárních hypotéz, jež neutralizují kontradiktorní evidenci ([Lakatos](@/glossary/lakatos.md)). Kruhové ospravedlnění (EA-1.3.2) na L9 cirkuluje justifikační řetězec uzavřeně.
 
-NABLA obrana: **falsifiability mandate** — každá hypotéza musí mít explicitně formulované falsifikační kritérium; **dependency graph** justifikačních řetězců s automatickou detekcí cyklů.
+NABLA obrana: **[falsifiability](@/glossary/falsifikovatelnost.md) mandate** — každá hypotéza musí mít explicitně formulované falsifikační kritérium; **dependency graph** justifikačních řetězců s automatickou detekcí cyklů.
 
 **L10–L11 (Aktualizačně-koherenční vrstva)** — Implementují **revizi**. Update blokace (EA-1.3.4) brání L10 v reagování na kontradiktorní evidenci. Kontradikce-tolerance (EA-1.4.1) ponechává inkompatibilní propozice koexistovat bez tlaku na rozřešení.
 
@@ -123,9 +123,9 @@ Tři smyčky implementují **explanační pluralitu** zmíněnou v sekci 2.3: ž
 NABLA není koncipovaná jako izolovaný individuální agent, ale jako **distribuovaná epistemická infrastruktura**. Kolektivní rozměr realizuje skrze [Color Teams](@/glossary/color-teams.md) — adversariální týmy specializované na různé typy epistemických zranitelností:
 
 - **Red Team** — Atakuje epistemické fortifikace; testuje robustnost proti technikám popsaným v taxonomii EA.
-- **Blue Team** — Brání epistemickou integritu; implementuje strukturní obrany.
+- **[Blue Team](@/glossary/blue-team.md)** — Brání epistemickou integritu; implementuje strukturní obrany.
 - **Green Team** — Zkoumá [hermeneutickou](@/glossary/hermeneutika.md) flexibilitu; alternativní interpretační rámce.
-- **Purple Team** — Integrace red+blue; meta-úroveň testování.
+- **[Purple Team](@/glossary/purple-team.md)** — Integrace red+blue; meta-úroveň testování.
 - **Yellow Team** — [Fenomenologická](@/glossary/fenomenologie.md) reflexe; analýza subjektivní zkušenosti operátorů.
 
 Color Teams operacionalizují **adversariální falsifikaci** v [Lakatošovsko-popperovském](@/glossary/lakatos.md) duchu: hypotézy nejsou pouze pasivně testovány, ale aktivně atakovány.

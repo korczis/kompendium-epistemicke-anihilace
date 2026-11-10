@@ -47,7 +47,7 @@ Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
 | Vztah | Cílový koncept | Typ vazby |
 |---|---|---|
 | rámec | Domestic abuse paradigm | teorie |
-| nástroje | DARVO, gaslighting, isolation | tactics |
+| nástroje | DARVO, [gaslighting](@/glossary/gaslighting.md), isolation | tactics |
 | kontrastuje | Episodic violence | vzorec vs. incident |
 
 Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.

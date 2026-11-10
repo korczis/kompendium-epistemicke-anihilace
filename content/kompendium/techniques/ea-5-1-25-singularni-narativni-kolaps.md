@@ -39,7 +39,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 Klíčový rozdíl proti běžnému narativnímu vlivu spočívá v **eliminaci perspektivální plurality**: zatímco obvyklé biografické vyprávění připouští souběh více čteních téhož životního úseku (např. „to byla zároveň krize i růst“), kolaps redukuje tuto polysémii na **jediný kanonický výklad**.
 
-Singulární narativní kolaps je strukturálním předkladem pro [EA-5.1.27 meta-epistemická redukce](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md) — narativní monismus tvoří fenomenologickou půdu pro epistemický monismus.
+Singulární narativní kolaps je strukturálním předkladem pro [EA-5.1.27 meta-epistemická redukce](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md) — narativní monismus tvoří fenomenologickou půdu pro [epistemický monismus](@/glossary/epistemicky-monismus.md).
 
 ## Operační modus
 
@@ -168,7 +168,7 @@ Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze pa
 
 - **[EA-5.1.26 Trans-paradigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md)** — paradigmatická destabilizace připravuje půdu pro narativní rekonstituci.
 - **[EA-5.1.27 Meta-epistemická redukce](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md)** — narativní monismus se stabilizuje skrze epistemický monismus.
-- **EA-1.4.2 Latentní emocionální modulace** — emocionální asociace stabilizují afektivní investici do dominantního narativu.
+- **[EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) Latentní emocionální modulace** — emocionální asociace stabilizují afektivní investici do dominantního narativu.
 - **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — kontrola informačního prostředí udržuje koherenci nového narativu.
 
 ### Sourozenecké UM techniky
@@ -184,7 +184,7 @@ Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze pa
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} narrative-diversity check** — audituje rozhodnutí založená na **jediné biografické interpretaci** subjektu.
 - **NABLA Infinity provenance tracking** — udržuje historii interpretací, umožňuje detekci diskontinuity narativu.
-- **Color Teams biographical audit** — Red Team protokol pro detekci narativního monismu v high-stakes kontextech.
+- **Color Teams biographical audit** — [Red Team](@/glossary/red-team.md) protokol pro detekci narativního monismu v high-stakes kontextech.
 
 ## Související
 

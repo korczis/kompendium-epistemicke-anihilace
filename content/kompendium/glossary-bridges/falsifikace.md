@@ -22,7 +22,7 @@ quality_score = 75
 
 ## Definition
 
-Falsifikace (Karl Popper) je metodologický princip — vědecká tvrzení musí být *falzifikovatelná*, tj. logicky možná vyvrátit empirickým důkazem. Distinguish from verifikace (která je pro univerzální tvrzení nemožná). Klíčové kritérium demarkace mezi vědou a pseudo-vědou. Lakatos později rozšířil na [research programmes](@/glossary/lakatos.md) s hard core / protective belt strukturou. V Prismatic Kompendiu slouží jako teoretický základ pro [epistemic pipeline](@/glossary/epistemic-pipeline.md) gating — každý analytický nárok musí být prezentován ve falzifikovatelné formě.
+[Falsifikace](@/glossary/falsifikace.md) (Karl Popper) je metodologický princip — vědecká tvrzení musí být *falzifikovatelná*, tj. logicky možná vyvrátit empirickým důkazem. Distinguish from verifikace (která je pro univerzální tvrzení nemožná). Klíčové kritérium demarkace mezi vědou a pseudo-vědou. Lakatos později rozšířil na [research programmes](@/glossary/lakatos.md) s hard core / protective belt strukturou. V Prismatic Kompendiu slouží jako teoretický základ pro [epistemic pipeline](@/glossary/epistemic-pipeline.md) gating — každý analytický nárok musí být prezentován ve falzifikovatelné formě.
 
 ## See Also
 

@@ -59,8 +59,8 @@ Stavy, kde primárním poškozením je samotný **poznávací aparát** subjektu
 
 Stavy emerge na rozhraní subjektu a sociálního pole:
 
-- **Identitární disociace** — Aktivní, manipulátorem podporovaná dezintegrace subjektivního self do více navzájem nekompatibilních identitárních fragmentů.
-- **Relační inverzní vazba** — Stav, kdy subjekt rozpozná manipulátora jako ohrožení a současně jako jediný zdroj bezpečí. Mechanismus překračuje klasické trauma bonding tím, že neoperuje primárně přes intermitentní posilování, ale přes epistemickou závislost.
+- **Identitární [disociace](@/glossary/disociace.md)** — Aktivní, manipulátorem podporovaná dezintegrace subjektivního self do více navzájem nekompatibilních identitárních fragmentů.
+- **Relační inverzní vazba** — Stav, kdy subjekt rozpozná manipulátora jako ohrožení a současně jako jediný zdroj bezpečí. Mechanismus překračuje klasické [trauma bonding](@/glossary/trauma-bonding.md) tím, že neoperuje primárně přes intermitentní posilování, ale přes epistemickou závislost.
 - **Kolektivní entrainment** — Synchronizace kognice, emocí a chování ve skupině do té míry, že individuální posouzení přestává být dostupné. Mechanismus mass formation, Le Bonovy „duše davu“ v moderní reformulaci.
 
 ### Ontologicko-existenciální fenomény

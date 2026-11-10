@@ -103,7 +103,7 @@ a s [biografickou rekonstrukcí časové osy](@/kompendium/06-klinicke-aplikace/
   životních rozhodnutí ovlivněných režimem.
 - **S2 – Externalizace introjektů:** oddělení pravidel „neříkej, co si myslíš“ a „instituce lžou“
   od jejich historického zdroje.
-- **S3 – Rekonstrukce metakognice:** kalibrace důvěry – nácvik rozlišování mezi institucemi podle
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** kalibrace důvěry – nácvik rozlišování mezi institucemi podle
   doložitelného chování, ne podle formy jejich řeči; viz
   [kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md).
 - **S4 – Hermeneutická obnova:** nové porozumění otcově biografii včetně jeho kompromisů, bez

@@ -280,23 +280,23 @@ Boundary ethics also addresses the question of when boundaries may be legitimate
 
 ### Alignment with NO MERCY, NO DOUBTS
 
-The platform's core doctrine aligns with boundary ethics:
+The platform's core [doctrine](@/glossary/doctrine.md) aligns with boundary ethics:
 
 - **NO MERCY**: Zero tolerance for boundary violations preserves integrity
 - **NO DOUBTS**: Clear boundaries eliminate ambiguity in decision-making
 
 ### NABLA Infinity Compatibility
 
-The NABLA Infinity epistemic framework supports boundary ethics through:
+The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic framework supports boundary ethics through:
 
 - **Provenance Mandatory**: All boundary crossings must be traceable
-- **Signal Plurality**: Multiple signals validate boundary compliance
+- **[Signal Plurality](@/glossary/signal-plurality.md)**: Multiple signals validate boundary compliance
 - **Time Decay**: Boundary permissions have explicit temporal bounds
 - **Contradiction Preservation**: Both permission and restriction are maintained simultaneously
 
 ### Trinity Gate Integration
 
-Boundary-related decisions pass through the Trinity Gate:
+Boundary-related decisions pass through the [Trinity Gate](@/glossary/trinity-gate.md):
 
 1. **Structural Consistency**: Boundary structure forms valid logical framework
 2. **Logical Consistency**: Permission and restriction follow logical rules
@@ -320,7 +320,7 @@ Organizations benefit through:
 - **Risk Reduction**: Clear boundaries reduce legal and technical risks
 - **Quality Assurance**: Bounded usage prevents degradation
 - **Partnership Model**: Ceremonial compliance builds authentic relationships
-- **Compliance Framework**: Clear requirements simplify governance
+- **[Compliance Framework](@/glossary/compliance-framework.md)**: Clear requirements simplify governance
 
 ### For the Ecosystem
 

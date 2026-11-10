@@ -61,7 +61,7 @@ interpretace („svědčí pro“) a u každé formulace uvádí, o co se opír�
 a [dokazováním vzorcem](@/glossary/pattern-evidence.md), kde jednotlivé události samy nic
 neprokazují, ale doložená řada ano.
 
-**Analytik** v due diligence nebo OSINT váží zdroje podle kvality a nezávislosti; viz
+**Analytik** v [due diligence](@/glossary/due-diligence.md) nebo OSINT váží zdroje podle kvality a nezávislosti; viz
 [hodnocení kvality důkazů](@/kompendium/cross-domain/15-ea-dd-evidence-quality-assessment.md)
 a [triangulace napříč zdroji](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md).
 NCLB zde navazuje na axiom [plurality signálů](@/glossary/signal-plurality.md) z rámce
@@ -102,7 +102,7 @@ neříká „mlč, dokud nemáš důkaz“, ale „řekni, jak pevné to, co ř�
 ## Vztah k ostatním pilířům
 
 NCLB tvoří pár s doktrínou [NM/ND](@/kompendium/glossary-bridges/bridge-nm-nd.md)
-(*No Mercy, No Doubts*): ta zakazuje zkratky a nedokončené výstupy, NCLB zakazuje
+(*[No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md)*): ta zakazuje zkratky a nedokončené výstupy, NCLB zakazuje
 neopodložená tvrzení. V kontextu knihy je třeba je číst s doplňkem
 [epistemické pokory](@/glossary/epistemicka-pokora.md): doložitelnost neznamená jistotu
 a i dobře doložené tvrzení může být revidováno.

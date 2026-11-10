@@ -19,7 +19,7 @@ toc = true
 
 Donald Davidson v esejích sebraných v *Inquiries into Truth and Interpretation* (1984) a *Subjective, Intersubjective, Objective* (2001) formuluje **teorii radikální interpretace** — analýzu situace, v níž **interpret** stojí před **mluvčím** bez předchozího vědění o jeho jazyce a musí **rekonstruovat** jak významy slov, tak přesvědčení mluvčího.
 
-Pro kompendium EA poskytuje Davidsonova teorie nástroj pro pochopení **interpretačních předpokladů**, na něž útočí EA techniky operující skrze **systematickou nedůvěru**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Davidsonova teorie nástroj pro pochopení **interpretačních předpokladů**, na něž útočí EA techniky operující skrze **systematickou nedůvěru**.
 
 ## 1. Princip charity (*principle of charity*)
 
@@ -78,8 +78,8 @@ Pro EA z toho plyne:
 |----------|-------------|-------------|
 | Útok na princip charity | Indukovaná systémová nedůvěra | Strukturální |
 | Útok na triangulaci | Algoritmická fragmentace světů | Strukturální |
-| Útok na koherenci | Gaslighting | EA-4.1 |
-| Pseudo-interpretace | Selektivní citace | EA-1.1.1 |
+| Útok na koherenci | [Gaslighting](@/glossary/gaslighting.md) | EA-4.1 |
+| Pseudo-interpretace | Selektivní citace | [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) |
 | Anomalismus jako alibi | Neuro-determinismus | EA-3.x |
 
 ## 6. Klinický význam

@@ -23,7 +23,7 @@ Edwin Hutchins — kognitivní antropolog — v monografii *Cognition in the Wil
 - **Artefakty** (nástroje, mapy, displeje)
 - **Instituce** (procedury, role, normy)
 
-Pro kompendium EA poskytuje Hutchinsova teorie nástroj pro pochopení **EA jako útoku na distribuované kognitivní systémy**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Hutchinsova teorie nástroj pro pochopení **EA jako útoku na distribuované kognitivní systémy**.
 
 ## 1. Cognition in the Wild
 
@@ -89,7 +89,7 @@ Každá dimenze má **specifické** zranitelnosti vůči EA.
 
 | Hutchins | EA technika | Mechanismus |
 |----------|-------------|-------------|
-| Útok na sociální distribuci | Sociální izolace | EA-4.x |
+| Útok na sociální distribuci | [Sociální izolace](@/glossary/socialni-izolace.md) | EA-4.x |
 | Útok na fyzickou distribuci | Anihilace artefaktů | Strukturální |
 | Útok na časovou distribuci | Anihilace archivů | Strukturální |
 | Algoritmická substituce | Digital dependency | Strukturální |
@@ -115,7 +115,7 @@ Distribuovaná kognice má **politický** rozměr:
 
 Pro Prismatic má Hutchinsova teorie **specifickou** relevanci:
 
-- **Color Teams** ([viz Glosář](@/glossary/color-teams.md)): strukturálně **distribuovaná kognice** — Red, Blue, Purple Team jsou kolektivními moduly.
+- **Color Teams** ([viz Glosář](@/glossary/color-teams.md)): strukturálně **distribuovaná kognice** — Red, Blue, [Purple Team](@/glossary/purple-team.md) jsou kolektivními moduly.
 - **NABLA Infinity** ([viz Glosář](@/glossary/nabla-infinity.md)): strukturálně **distribuované** udržování hypotéz.
 - **Decision Core** ([viz Glosář](@/glossary/decision-core.md)): zaznamenává distribuované rozhodovací operace.
 

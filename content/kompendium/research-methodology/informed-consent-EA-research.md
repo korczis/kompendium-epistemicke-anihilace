@@ -15,7 +15,7 @@ toc = true
 
 ## Metodologický kontext
 
-Tento článek pokrývá **Informovaný Souhlas v EA Výzkumu** v rámci etické a governanceho výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
+Tento článek pokrývá **[Informovaný Souhlas](@/glossary/informed-consent.md) v EA Výzkumu** v rámci etické a governanceho výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
 
 **Specifický metodologický háček EA výzkumu:** Multi-stage consent — re-consent před každou významnou fází. Capacity assessment u participantů s prior trauma. Comprehension check (teach-back method) povinný.
 
@@ -25,7 +25,7 @@ EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani na
 
 1. **Konstruktová validita má přednost** — EA fenomény jsou neostře definované, špatně operacionalizované measure devalvují celou studii.
 2. **Pre-registrace povinná** — bez OSF/AsPredicted protokolu otevíráte dveře HARKing a p-hackingu.
-3. **Dvojitá triangulace** — minimálně 3 zdroje dat (self-report, behavioral, physiological/observational).
+3. **Dvojitá triangulace** — minimálně 3 zdroje dat ([self-report](@/glossary/self-report.md), behavioral, physiological/observational).
 4. **Reflexivita explicitní** — výzkumník není neutrální nástroj, jeho pozice formuje data.
 5. **Etický gating na prvním místě** — žádná data nejsou dost cenná, aby ospravedlnila neetický design.
 6. **Replikovatelnost build-in** — kód, data (anonymizovaná), materiály do veřejného repozitáře.
@@ -82,7 +82,7 @@ EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani na
 |-----------|-------------------|
 | Pre-registrace | OSF/AsPredicted před sběrem dat |
 | IRB approval | Aktivní, s amendments dokumentovanými |
-| Sample size | A priori power analysis, n ≥ vypočtené |
+| Sample size | [A priori](@/glossary/apriori.md) power analysis, n ≥ vypočtené |
 | Reliability | α ≥ 0.70, ICC ≥ 0.75 pro kontinuální measures |
 | Validity | Konvergentní + diskriminantní evidence |
 | Transparency | Materials, data (anonym.), code veřejně |

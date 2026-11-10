@@ -24,7 +24,7 @@ toc = false
 
 ## Definice
 
-**Reflexivní paradoxie** vytváří v subjektově reflexivní kapacitě **paradoxní smyčky**, v nichž každý pokus o reflexi situace samé spouští novou úroveň reflexe, která je zase součástí situace. Manipulátor zarámuje vztah či diskurz tak, že **pokus uniknout je součástí toho, před čím se uniká**: rozpoznáním manipulace se subjekt stává „paranoidním“, odmítnutím rozpoznání zůstává v manipulaci. Subjekt prožívá *epistemický klín*, ze kterého neexistuje pohyb bez ztráty. Strukturálně příbuzné Russelově paradoxu, Liarovu paradoxu a Batesonovu **double bind**, ale operující na úrovni metakognice samé.
+**Reflexivní paradoxie** vytváří v subjektově reflexivní kapacitě **paradoxní smyčky**, v nichž každý pokus o reflexi situace samé spouští novou úroveň reflexe, která je zase součástí situace. Manipulátor zarámuje vztah či diskurz tak, že **pokus uniknout je součástí toho, před čím se uniká**: rozpoznáním manipulace se subjekt stává „paranoidním“, odmítnutím rozpoznání zůstává v manipulaci. Subjekt prožívá *epistemický klín*, ze kterého neexistuje pohyb bez ztráty. Strukturálně příbuzné Russelově paradoxu, Liarovu paradoxu a Batesonovu **double bind**, ale operující na úrovni [metakognice](@/glossary/metakognice.md) samé.
 
 ## Operační modus (5 kroků)
 

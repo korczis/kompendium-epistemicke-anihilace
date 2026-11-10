@@ -69,7 +69,7 @@ Doporučená struktura vzdělávacího bloku:
    [gaslighting](@/glossary/gaslighting.md), izolace, ekonomická kontrola, post-separační
    kontrola – s důrazem na to, co lze pozorovat.
 2. **Paměť a výpověď.** Jak trauma a dlouhodobý stres ovlivňují paměť; sugestibilita;
-   disociace; vývoj výpovědí v čase.
+   [disociace](@/glossary/disociace.md); vývoj výpovědí v čase.
 3. **Mýty a skutečnost.** Rozbor intuitivních předpokladů a toho, co o nich říká výzkum.
 4. **Hodnocení důkazů.** Vzorcový důkaz, nezávislé zdroje, digitální stopy, znalecké
    posudky a jejich meze (viz [Znalec v kauzách EA](@/kompendium/forensic-legal/21-expert-witness-EA.md)).

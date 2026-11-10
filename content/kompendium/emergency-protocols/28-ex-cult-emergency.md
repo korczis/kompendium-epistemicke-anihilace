@@ -22,14 +22,14 @@ toc = true
 
 Bývalý člen kultu v emergency situaci — typicky 6 měsíců až 5 let po výstupu; emergency může být akutní depresivní epizoda, suicidalita, dissociativní fuga, „floating" episodes. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **emergency u bývalého člena kultu** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
 
-> **Epistemický status**: Protokol integruje evidence-based postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
 
 ## 2. Bezprostřední intervence (5 kroků)
 
 1. **Diferencuj „floating" (dissociativní návrat ke kult-mindset) od plné psychotické epizody** — floating je transient, kontextuální.
 2. **Aktivuj ex-cult support network** — ICSA, Cult Education Institute, SECT (CZ); peer support s vlastní ex-cult zkušeností.
 3. **Adresuj specific ex-cult triggers** — anniversary reactions, news articles o skupině, kontakt z dřívějších členů.
-4. **Plánuj specialized therapy** — ne generický trauma therapist, ale cult-aware clinician (training v BITE model, Lifton, Hassan).
+4. **Plánuj specialized therapy** — ne generický trauma therapist, ale cult-aware clinician (training v [BITE model](@/glossary/bite-model.md), Lifton, Hassan).
 5. **Validate identity reconstruction** — osoba prochází rebuilding self-concept; emergency je často developmental milestone, ne pathology.
 
 ## 3. Stabilizace

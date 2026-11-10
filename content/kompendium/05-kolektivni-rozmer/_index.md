@@ -11,7 +11,7 @@ toc = true
 
 # Kolektivní rozměr
 
-Většina stránek Kompendia popisuje, co se děje s jedním člověkem. Epistemická anihilace má
+Většina stránek Kompendia popisuje, co se děje s jedním člověkem. [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) má
 ale i rovinu, na níž je poškozeným **společenství**: vědecká disciplína, redakce, škola,
 firma, náboženská obec, region nebo celá veřejnost. Na této rovině se neničí jednotlivé
 přesvědčení, ale **sdílená měřítka**, podle nichž lidé rozhodují, čemu věřit – důvěra
@@ -25,7 +25,7 @@ odkazují jako na místo, kde se teorie potkává s intervencí a prevencí.
 
 ## Čím se kolektivní rovina liší
 
-**Cílem je struktura, ne osoba.** Kolektivní delegitimizace nemusí přesvědčit nikoho
+**Cílem je struktura, ne osoba.** Kolektivní [delegitimizace](@/glossary/delegitimizace.md) nemusí přesvědčit nikoho
 o ničem konkrétním. Stačí, když oslabí instituce, které spory rozhodují – vědu, soudy,
 žurnalistiku, odborné komory –, a lidé přestanou mít společné místo, kde se dá něco ověřit.
 Výsledkem není nová víra, ale cynismus („pravdu nezjistí nikdo“) nebo rozpad do

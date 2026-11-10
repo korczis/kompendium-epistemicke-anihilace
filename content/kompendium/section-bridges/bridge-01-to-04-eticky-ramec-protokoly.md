@@ -26,7 +26,7 @@ Etický rámec Předmluvy se z teorie stává praxí teprve v Terminálních pro
 ## 2. Klíčová témata propojení
 
 - **Princip nepoškozování → terminální safety net** — od „primum non nocere“ k formálním výstupním protokolům.
-- **Informed consent → multi-stage consent** — od jednorázového souhlasu k průběžnému přitakávání.
+- **[Informed consent](@/glossary/informed-consent.md) → multi-stage consent** — od jednorázového souhlasu k průběžnému přitakávání.
 - **Kontraindikace → screening matrix** — od seznamu varování k diagnostickému filtru.
 - **Připravenost → readiness checklist** — od subjektivní introspekce k operační validaci.
 - **Etika supervize → peer protokol** — od individuální zodpovědnosti k týmové.
@@ -44,7 +44,7 @@ Předmluvu si přečtěte celou předtím, než vstoupíte do sekce 04. Při čt
 |---|---|
 | 01.3 — Etické varování | 04.1 — Vstupní filtr |
 | 01.4 — Pro koho text určen | 04.2 — Kontraindikační matice |
-| 01.5 — Doctrine non-nocere | 04.7 — Exit protokoly |
+| 01.5 — [Doctrine](@/glossary/doctrine.md) non-nocere | 04.7 — Exit protokoly |
 | 01.6 — Audit a transparentnost | 04.8 — Logging a supervize |
 
 ## 5. Specifické techniky / koncepty

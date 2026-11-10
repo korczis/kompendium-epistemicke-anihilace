@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-AutoHeal je platformní mechanismus pro automatické zotavení z detekovaných regresí — restart selhaných GenServerů, rollback failed deployments, regenerace cache stavů a obnova baseline metrik. Aktivuje se přes `mix autoheal.baseline` a operuje pod supervizí AutoEvolve subsystému.
+AutoHeal je platformní mechanismus pro automatické zotavení z detekovaných regresí — restart selhaných GenServerů, rollback failed deployments, regenerace cache stavů a obnova baseline metrik. Aktivuje se přes `mix autoheal.baseline` a operuje pod supervizí [AutoEvolve](@/glossary/autoevolve.md) subsystému.
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
@@ -33,7 +33,7 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 02 — Resilient systems**: AutoHeal vs. let-it-crash filosofie OTP
-- **Sekce 04 — Production safety**: AutoHeal v production validation doctrine
+- **Sekce 04 — Production safety**: AutoHeal v production validation [doctrine](@/glossary/doctrine.md)
 - **Sekce 05 — Recovery patterns**: supervisor restart, baseline restoration, cache rebuild
 - **Sekce 07 — Operational doctrine**: kdy AutoHeal eskaluje na human intervention
 - **Per-technique články**: definice healing strategy per app, baseline metrics

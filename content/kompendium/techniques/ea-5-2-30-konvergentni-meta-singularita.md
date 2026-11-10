@@ -49,7 +49,7 @@ Konvergentní meta-singularita zahrnuje:
 
 V klasické filozofické terminologii: **simultánní kolaps Kantovy transcendentální subjektivity, Husserlovy transcendentální fenomenologie, Heideggerova Da-sein, Merleau-Pontyho corps propre**. Subjekt zachovává minimální biologické a behaviorální fungování, ale **transcendentální struktura zkušenosti je systémově anihilována**.
 
-Tento stav je extrémně vzácný — vyžaduje akumulaci dlouhodobé pseudo-filozofické indoktrinace, intenzivní pseudo-spirituální praxi, a typicky kombinaci psychofarmak nebo psychedelik. Klinicky se manifestuje jako kombinace katatonie, derealizace, depersonalizace, a strukturní akcie absentia s pseudo-mystickou racionalizací.
+Tento stav je extrémně vzácný — vyžaduje akumulaci dlouhodobé pseudo-filozofické indoktrinace, intenzivní pseudo-spirituální praxi, a typicky kombinaci psychofarmak nebo psychedelik. Klinicky se manifestuje jako kombinace katatonie, derealizace, [depersonalizace](@/glossary/depersonalizace.md), a strukturní akcie absentia s pseudo-mystickou racionalizací.
 
 ## Operační modus
 
@@ -128,7 +128,7 @@ Klíčový diferenciál: **autentický mystik se vrací**; subjekt v konvergentn
 |-----------|--------------|
 | **Klinický rámec** | Intensivní psychiatrická intervence |
 | **Korektní spirituální supervize** | Hermeneuticky kompetentní praktici |
-| **Strukturní rekonstrukce** | Postupná obnova diferenciace |
+| **Strukturní rekonstrukce** | Postupná obnova [diferenciace](@/glossary/diferenciace.md) |
 
 ## Vztah k jiným technikám
 
@@ -148,8 +148,8 @@ Konvergentní meta-singularita **kumuluje a sjednocuje** všechny předchozí te
 
 ## Vztah k Prismatic platformě
 
-- **NABLA Infinity terminální alarm** — epistemická provenience musí dokázat detekovat akumulaci destrukcí dříve, než dojde ke konvergenci.
-- **Decision Engine emergency protocol** — strukturní eskalace k klinické intervenci při detekci 5+ kombinovaných destrukcí.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) terminální alarm** — epistemická provenience musí dokázat detekovat akumulaci destrukcí dříve, než dojde ke konvergenci.
+- **[Decision Engine](@/glossary/decision-engine.md) emergency protocol** — strukturní eskalace k klinické intervenci při detekci 5+ kombinovaných destrukcí.
 - **OSINT psychiatric red flag** — strukturální markery konvergentní meta-singularity v investigativní práci s informátory nebo klienty.
 
 ## Související

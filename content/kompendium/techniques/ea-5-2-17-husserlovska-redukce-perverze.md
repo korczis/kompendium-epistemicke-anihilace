@@ -109,7 +109,7 @@ Husserlovská redukce — perverze je odlišitelná od:
 
 ### Individuální
 
-1. **Korektní husserlovská hermeneutika** — výklad metodologického statusu epoché.
+1. **Korektní husserlovská [hermeneutika](@/glossary/hermeneutika.md)** — výklad metodologického statusu epoché.
 2. **Lebensweltová obnova** — explicitní praxe návratu k praktickému postoji.
 3. **Pragmatistická korekce** — Jamesovo a Deweyovo „ponoření do žitého světa“.
 4. **Tělesná zakotvenost** — Merleau-Pontyovská *chair* jako antidotum derealizace.
@@ -138,8 +138,8 @@ Husserlovská redukce — perverze je odlišitelná od:
 ## Vztah k Prismatic platformě
 
 - **OSINT direct evidence requirement** — strukturní práce s přímou evidencí brání permanentní redukci.
-- **NABLA Infinity Lebensweltový axiom** — epistemická provenience operuje v praktickém světě.
-- **Decision Engine actionable verdict** — vynucování praktického jednání kompenzuje paralýzu.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) Lebensweltový axiom** — epistemická provenience operuje v praktickém světě.
+- **[Decision Engine](@/glossary/decision-engine.md) actionable verdict** — vynucování praktického jednání kompenzuje paralýzu.
 
 ## Související
 

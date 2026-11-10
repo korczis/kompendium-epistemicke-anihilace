@@ -25,7 +25,7 @@ Tato kritika není okrajová — sahá k samotnému jádru toho, jak EA framewor
 
 ## Argumentace
 
-Replikační krize v psychologii (Open Science Collaboration, 2015) ukázala, že 36-50% klasických studií se nereplikuje. Dark triad konstrukty (Paulhus & Williams, 2002), Machiavelliánismus a měření manipulability mají problematické psychometrické vlastnosti. EA framework musí brát toto vážně.
+[Replikační krize](@/glossary/replication-crisis.md) v psychologii (Open Science Collaboration, 2015) ukázala, že 36-50% klasických studií se nereplikuje. Dark triad konstrukty (Paulhus & Williams, 2002), Machiavelliánismus a měření manipulability mají problematické psychometrické vlastnosti. EA framework musí brát toto vážně.
 
 Argumentace má tři vrstvy: epistemologickou (co můžeme vědět), metodologickou (jak to zjišťujeme), etickou (co s tím vědomím děláme). Každá vrstva produkuje vlastní limity. EA framework, aby byl dospělý, musí všechny tři přiznat.
 
@@ -51,7 +51,7 @@ Konkrétní implementační kroky:
 
 ## Odpovědi z kompendia
 
-Kompendium 07-teoreticke-reflexe diskutuje evidence-based limity. Research-methodology sekce explicitně varuje před nedostatečnou replikací.
+Kompendium 07-teoreticke-reflexe diskutuje [evidence-based](@/glossary/evidence-based.md) limity. Research-methodology sekce explicitně varuje před nedostatečnou replikací.
 
 EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivně ji integruje do struktury. To je rozdíl mezi obrannou a dospělou epistemologií.
 

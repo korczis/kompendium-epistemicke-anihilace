@@ -19,7 +19,7 @@ toc = true
 
 Michael Polanyi (1891–1976) — chemik, ekonom a filozof — formuluje v knihách *Personal Knowledge* (1958) a *The Tacit Dimension* (1966) **revoluční koncepci poznání**: vědění není primárně **explicitně artikulovaným souborem propozic**, ale je **fundamentálně podloženo** tichým, neartikulovaným, **osobně zakotveným** věděním.
 
-Pro kompendium EA má Polanyiho teorie **specifickou diagnostickou hodnotu**: ukazuje, že některé EA techniky cílí přesně na **tichou dimenzi** poznání — na to, co subjekt **ví, aniž by uměl říci**, a co je proto strukturálně zranitelnější vůči manipulaci.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) má Polanyiho teorie **specifickou diagnostickou hodnotu**: ukazuje, že některé EA techniky cílí přesně na **tichou dimenzi** poznání — na to, co subjekt **ví, aniž by uměl říci**, a co je proto strukturálně zranitelnější vůči manipulaci.
 
 ## 1. Tichá znalost (*tacit knowledge*)
 
@@ -68,7 +68,7 @@ Polanyi (zejména *The Republic of Science*, 1962) argumentuje, že vědecká ko
 
 Pro EA z toho plyne:
 
-- **Útok na tichou komunitu**: delegitimizace vědecké autority, ignorování tradice, nahrazení tichých hodnot kvantitativními metrikami — vše může být manipulativně strukturováno.
+- **Útok na tichou komunitu**: [delegitimizace](@/glossary/delegitimizace.md) vědecké autority, ignorování tradice, nahrazení tichých hodnot kvantitativními metrikami — vše může být manipulativně strukturováno.
 - **Algoritmizační redukce**: snaha nahradit tichou dimenzi vědy kvantifikovatelnými KPI (citace, h-index) je strukturálně **redukcionistická** a otevírá prostor pro manipulaci skrze metriky (Goodhartův zákon).
 
 ## 5. Mapping na EA techniky

@@ -18,7 +18,7 @@ toc = true
 
 ## Účel a klinická pozice
 
-Standardizované self-report instrumenty (viz [6.1.1 Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md)) poskytují **kvantitativní** signály, ale klinická validace [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA) vyžaduje **kvalitativní** rekonstrukci pacientovy informační historie, mocenských vztahů a metakognitivní kapacity. Tento protokol — Semi-Structured Interview for Epistemic Annihilation (SSI-EA) — strukturuje klinický rozhovor do šesti modulů.
+Standardizované [self-report](@/glossary/self-report.md) instrumenty (viz [6.1.1 Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md)) poskytují **kvantitativní** signály, ale klinická validace [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA) vyžaduje **kvalitativní** rekonstrukci pacientovy informační historie, mocenských vztahů a metakognitivní kapacity. Tento protokol — Semi-Structured Interview for Epistemic Annihilation (SSI-EA) — strukturuje klinický rozhovor do šesti modulů.
 
 ## Pre-interview podmínky
 
@@ -26,7 +26,7 @@ Před administrací protokolu musí být splněno:
 
 1. **Bezpečné prostředí** — pacient není pod aktivním vlivem in-group autorit;
 2. **Stabilita** — bez akutní psychotické dekompenzace, suicidality D5 (viz [6.1](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md));
-3. **Informovaný souhlas** — pacient rozumí účelu (mapování informačního prostředí, ne soudní vyšetřování);
+3. **[Informovaný souhlas](@/glossary/informed-consent.md)** — pacient rozumí účelu (mapování informačního prostředí, ne soudní vyšetřování);
 4. **Časový rámec** — 90–120 minut, doporučeno 2 setkání;
 5. **Záznam** — audio se souhlasem, nebo strukturované poznámky.
 

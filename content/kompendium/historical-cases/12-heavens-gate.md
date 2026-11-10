@@ -21,7 +21,7 @@ type = "historical-case"
 Heaven's Gate ukazuje, že kolektivní smrt nemusí předcházet násilí, zbraně ani zjevný
 vnější nátlak. Členové byli dospělí, vzdělaní, mnozí dlouholetí a odchod byl formálně
 možný. Případ je proto klíčový pro pochopení toho, jak doktrína přestaví samotný rámec, ve
-kterém člověk volí – co Janja Lalichová nazvala **ohraničenou volbou** (*bounded choice*).
+kterém člověk volí – co Janja Lalichová nazvala **ohraničenou volbou** (*[bounded choice](@/glossary/bounded-choice.md)*).
 
 ## Kontext
 

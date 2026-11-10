@@ -26,7 +26,7 @@ Survey design, longitudinální studie, RCT omezení, mixed methods, meta-analý
 Fenomenologický interview, case study, grounded theory, narativní analýza, diskurzivní analýza, etnografie, tematická analýza, IPA, konverzační analýza, document analysis.
 
 ### Etika a governance (10)
-IRB protokoly, informovaný souhlas, debriefing, zranitelné populace, anonymizace, datová bezpečnost, publikační etika, COI, replikace, pre-registrace.
+IRB protokoly, [informovaný souhlas](@/glossary/informed-consent.md), debriefing, zranitelné populace, anonymizace, datová bezpečnost, publikační etika, COI, replikace, pre-registrace.
 
 ## Použití
 

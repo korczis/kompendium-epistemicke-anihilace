@@ -47,7 +47,7 @@ Tyto metody jsou implementovány v Prismatic Platform jako kombinace determinist
 ## Obranné mechanismy
 
 - KYC platform with narrative-coherence scoring
-- Enhanced due diligence trigger (narrative score <70 → EDD)
+- Enhanced [due diligence](@/glossary/due-diligence.md) trigger (narrative score <70 → EDD)
 - Periodic narrative re-validation (annual review of stated story vs. activity)
 - Public-records cross-check automation (ARES, OR.justice, OFAC, FAÚ)
 

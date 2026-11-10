@@ -92,7 +92,7 @@ Co prožívá subjekt **uvnitř** ontologické exfoliace:
 - **Iniciálně: pocit osvobození** — odlupování první vrstvy je provázeno euforií „konečně vidím skrz iluze“
 - **Postupně: difúzní úzkost** — orientační body se rozplývají, ale subjekt je interpretuje jako „intenzitu nového vnímání“
 - **Derealizace** — okolní svět začíná působit *vzdáleně*, *plochcky*, *jako film*
-- **Depersonalizace** — vlastní zkušenost působí *cizí*, *zvenku pozorovaná*
+- **[Depersonalizace](@/glossary/depersonalizace.md)** — vlastní zkušenost působí *cizí*, *zvenku pozorovaná*
 - **Estetická fascinace prázdnotou** — exfoliace je často podávána v jazyce hluboké duchovnosti, takže subjekt prožívá ztrátu jako *probuzení*
 - **Ztráta operativnosti** — subjekt má potíže s běžnými rozhodnutími (co jíst, kam jít), protože odpadají kategorie, podle nichž lze rozhodovat
 - **Pocit „kosmické perspektivy“** — vzdálení se od běžných referencí je interpretováno jako vyšší úroveň náhledu

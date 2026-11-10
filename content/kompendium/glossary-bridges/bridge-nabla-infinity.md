@@ -20,7 +20,7 @@ toc = false
 
 ## Definice z glossary
 
-[nabla-infinity](@/glossary/nabla-infinity.md) — Nabla Infinity (∇∞) je epistemický engine Prismatic platformy, který formalizuje práci s nejistotou, kalibrací a evidencí. Implementuje 14 axiomů včetně principu sealed envelopes, dynamic confidence updates a multi-source coherence checks jako páteř decision engine platformy.
+[nabla-infinity](@/glossary/nabla-infinity.md) — Nabla Infinity (∇∞) je epistemický engine Prismatic platformy, který formalizuje práci s nejistotou, kalibrací a evidencí. Implementuje 14 axiomů včetně principu sealed envelopes, dynamic confidence updates a multi-source coherence checks jako páteř [decision engine](@/glossary/decision-engine.md) platformy.
 
 Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 
@@ -31,7 +31,7 @@ Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 - **Sekce 03 — Architektura intelligence**: vztah Nabla∞ k decision engine
 - **Per-technique: Confidence Calibration**: operativní použití kalibračních smyček
 - **Sekce 06 — Quality assurance**: axiomatická kontrola koherentnosti závěru
-- **Sekce 08 — Doctrina**: vztah k NCLB a evidence-based pillar
+- **Sekce 08 — Doctrina**: vztah k NCLB a [evidence-based](@/glossary/evidence-based.md) pillar
 
 Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.
 

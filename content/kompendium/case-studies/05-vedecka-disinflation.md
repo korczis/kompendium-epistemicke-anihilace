@@ -104,7 +104,7 @@ Terapie běžela souběžně s profesním poradenstvím a sledovala
   vizualizace asymetrie pomohla oddělit vzorec od náhody.
 - **S2 – Externalizace introjektů:** věty „jsem metodologicky slabá“ a „poškodila jsem obor“
   přiřazené jejich zdrojům.
-- **S3 – Rekonstrukce metakognice:** obnova důvěry v explicitní kritéria – pokud data a
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** obnova důvěry v explicitní kritéria – pokud data a
   analýza obstojí, pocit „neplatnosti“ není argument.
 - **S4 – Hermeneutická obnova:** nové porozumění vědecké komunitě jako pluralitní, ne jako
   jediné skupiny, která rozhoduje o pravdě; viz

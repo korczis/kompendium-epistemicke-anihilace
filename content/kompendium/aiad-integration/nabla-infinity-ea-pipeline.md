@@ -17,7 +17,7 @@ toc = true
 
 ## Agent overview
 
-NABLA Infinity je epistemická detekční pipeline — kvantifikuje epistemic vs. aleatoric uncertainty každého LLM výstupu a flagguje high-confidence-low-truth signály jako EA suspects. V architektuře platformy zaujímá pozici v rámci **Specialized Agents** (specialized) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[NABLA Infinity](@/glossary/nabla-infinity.md) je epistemická detekční pipeline — kvantifikuje epistemic vs. aleatoric uncertainty každého LLM výstupu a flagguje high-confidence-low-truth signály jako EA suspects. V architektuře platformy zaujímá pozici v rámci **Specialized Agents** (specialized) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 
@@ -37,7 +37,7 @@ NABLA Infinity **není detektor lži** — pouze flagguje **statistické anomál
 
 ## Coordination
 
-Volán **Decision Engine** pro každé rozhodnutí; krmí data **Quality Monitor**; používán **Trinity Gate** ve verifikační vrstvě.
+Volán **[Decision Engine](@/glossary/decision-engine.md)** pro každé rozhodnutí; krmí data **Quality Monitor**; používán **[Trinity Gate](@/glossary/trinity-gate.md)** ve verifikační vrstvě.
 
 ## Cross-linky
 

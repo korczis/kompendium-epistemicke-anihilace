@@ -40,7 +40,7 @@ Manipulace v rámci tohoto kompendia není redukována na klamavou rétoriku ani
 | Jednotka | Definiční znak | Příklad |
 |----------|----------------|---------|
 | **Technika** | Atomický manipulační akt s rozpoznatelnou strukturou | [DARVO](@/glossary/darvo.md), [gaslighting](@/glossary/gaslighting.md), [sealioning](@/glossary/sealioning.md) |
-| **Vzorec** | Opakující se sekvence technik vázaná na typ vztahu | Coercive control v partnerském vztahu |
+| **Vzorec** | Opakující se sekvence technik vázaná na typ vztahu | [Coercive control](@/glossary/coercive-control.md) v partnerském vztahu |
 | **Scénář** | Kontextově ukotvený řetězec vzorců s definovaným cílem | Politická kampaň, kultovní indoktrinace |
 | **Protokol** | Multi-modální systémová intervence s rekonfigurační kapacitou | [Terminální protokol](@/kompendium/04-terminalni-protokoly/_index.md), kultovní iniciace |
 | **Doktrína** | Soustava protokolů sdílejících etiologii, ideologii a operační logiku | Totalitní indoktrinační doktríny |
@@ -70,8 +70,8 @@ Detailní rozpracování každé osy najdete v [Předmluvě](@/kompendium/01-pre
 Tato sekce je integrována s doktrinálním aparátem [platformy Prismatic](@/_index.md):
 
 - **[NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md)** — Aplikováno na rovinu výzkumu znamená: žádné hypotézy bez evidence, žádné placeholder definice, žádné hand-waving u rizikových technik. Každý nárok musí mít zdroj nebo explicitní označení jako klinickou hypotézu.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** — Sedm axiomů kalibruje, jak se v kompendiu zachází s důkazy: signal plurality (více nezávislých zdrojů na technikové úrovni), contradiction preservation (zachování kompetitivních interpretací), provenance mandatory (každá tvrzená klinická studie musí mít citaci).
-- **[Color Teams](@/glossary/color-teams.md)** — Sekce 03 a 04 fungují primárně jako materiál pro [Red Team](@/glossary/red-team.md) (adversariální simulace v sandboxu) a [Blue Team](@/glossary/blue-team.md) (defenzivní detekce v reálných operacích). Black Team izolovaně modeluje terminální protokoly bez síťového přístupu.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md)** — Sedm axiomů kalibruje, jak se v kompendiu zachází s důkazy: [signal plurality](@/glossary/signal-plurality.md) (více nezávislých zdrojů na technikové úrovni), contradiction preservation (zachování kompetitivních interpretací), provenance mandatory (každá tvrzená klinická studie musí mít citaci).
+- **[Color Teams](@/glossary/color-teams.md)** — Sekce 03 a 04 fungují primárně jako materiál pro [Red Team](@/glossary/red-team.md) (adversariální simulace v sandboxu) a [Blue Team](@/glossary/blue-team.md) (defenzivní detekce v reálných operacích). [Black Team](@/glossary/black-team.md) izolovaně modeluje terminální protokoly bez síťového přístupu.
 
 ## Doporučené pořadí čtení
 

@@ -22,14 +22,14 @@ toc = true
 
 Dítě (4–12 let) v EA-emergency — typicky po expozici parentální gaslightingu nebo vysoce konfliktnímu rozvodu s manipulativní dynamikou. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **pediatrická EA-emergency intervence** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
 
-> **Epistemický status**: Protokol integruje evidence-based postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
 
 ## 2. Bezprostřední intervence (5 kroků)
 
 1. **Vyber developmentálně přiměřený jazyk** — žádné termíny jako „manipulace", místo toho „někdo říká věci, co nejsou pravda".
 2. **Zajisti fyzickou přítomnost bezpečné dospělé osoby** — ne nutně rodič, může být učitel, prarodič, sociální pracovník.
 3. **Použij play-based assessment** — kresba, figurky, sand tray; ne přímý interview pro dítě pod 8 let.
-4. **Aktivuj OSPOD pokud je suspekt na CSA, parental alienation s ohrožením; ne unilaterálně, multidisciplinárně** — Aktivuj OSPOD pokud je suspekt na CSA, parental alienation s ohrožením; ne unilaterálně, multidisciplinárně.
+4. **Aktivuj OSPOD pokud je suspekt na CSA, [parental alienation](@/glossary/parental-alienation.md) s ohrožením; ne unilaterálně, multidisciplinárně** — Aktivuj OSPOD pokud je suspekt na CSA, parental alienation s ohrožením; ne unilaterálně, multidisciplinárně.
 5. **Naplánuj trauma-focused CBT-C nebo TF-CBT do 14 dní** — adaptovaný na děti, ne generický CBT.
 
 ## 3. Stabilizace

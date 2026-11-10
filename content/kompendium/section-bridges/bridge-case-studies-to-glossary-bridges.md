@@ -29,7 +29,7 @@ Case Studies používají **terminologii**, která musí být ukotvena v glosá�
 - **Případová variace pojmu → variantní glossary entry.**
 - **Klinický slang v case study → kanonický pojem v glosáři.**
 - **Case-specific neologizmus → glossary candidate.**
-- **Doctrine NCLB → glossary kotví case studies.**
+- **[Doctrine](@/glossary/doctrine.md) NCLB → glossary kotví case studies.**
 - **Cross-platform glossary** — kompendium + platform glossary.
 - **Glossary feedback loop** — case studies generují nové glossary entries.
 

@@ -33,7 +33,7 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 07 — Sociální epistemologie**: Fricker, Anderson, Code
-- **Sekce 08 — Klinické aplikace**: medical gaslighting, woman in pain studies
+- **Sekce 08 — Klinické aplikace**: medical [gaslighting](@/glossary/gaslighting.md), woman in pain studies
 - **Sekce 09 — Aplikace v DD**: rozpoznání epistemic injustice u whistleblowers
 - **Sekce 10 — Restorative responses**: epistemic justice movements
 - **Per-technique články**: trauma-informed interview, hermeneutic empowerment

@@ -38,7 +38,7 @@ Detailní analýza jednotlivých fází je dokumentována v technique-level čl�
 Operační detekce **Narrativni Trauma** se opírá o behaviorální a lingvistické markery dokumentované v [detection-signatures/](@/kompendium/detection-signatures/_index.md). Analytik hledá diskrepance mezi:
 
 - explicitním obsahem výroku a implicitním rámcem (motte-bailey vzorec)
-- rychlostí přechodu mezi pozicemi (sealioning timing)
+- rychlostí přechodu mezi pozicemi ([sealioning](@/glossary/sealioning.md) timing)
 - asymetrií v důkazních standardech mezi vlastními a oponentovými tvrzeními
 
 ## Counter-protokol

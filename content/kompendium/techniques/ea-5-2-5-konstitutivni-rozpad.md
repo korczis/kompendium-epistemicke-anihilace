@@ -61,7 +61,7 @@ Po destrukci časové syntézy se rozšiřuje destrukce na další konstitutivn�
 
 ### Krok 5 — Stabilizace stavu jako „vyšší úrovně“
 
-Stav rozpadu je **legitimizován** jako *„přímý kontakt s realitou“*, *„viděním před konstitucí“*. Tato legitimizace je strukturálně podobná EA-5.2.2 (transcendentální iluze), ale operuje na úrovni rozpadu, ne na úrovni iluzorního překročení.
+Stav rozpadu je **legitimizován** jako *„přímý kontakt s realitou“*, *„viděním před konstitucí“*. Tato legitimizace je strukturálně podobná [EA-5.2.2](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md) (transcendentální iluze), ale operuje na úrovni rozpadu, ne na úrovni iluzorního překročení.
 
 ## Fenomenologie
 
@@ -69,7 +69,7 @@ Stav rozpadu je **legitimizován** jako *„přímý kontakt s realitou“*, *�
 - **Časová desyntéza** — okamžiky se neorganizují do plynulého toku; každý okamžik je **fragment**, který se nepřipojuje k předchozímu.
 - **Aperspektivní pole** — chybí *„odsud-tam“* organizace zkušenosti.
 - **Cizota známých objektů** — vlastní byt vypadá jako *„shluk barev a tvarů“*, který subjekt **rozpozná**, ale **neprožije** jako svůj byt.
-- **Specifická forma odcizení**, která se liší od depersonalizace tím, že **chybí Já**, vůči kterému by zkušenost byla cizí.
+- **Specifická forma odcizení**, která se liší od [depersonalizace](@/glossary/depersonalizace.md) tím, že **chybí Já**, vůči kterému by zkušenost byla cizí.
 - **Vyhasnutí motivace** — bez konstitucí předmětů chybí to, na co by motivace mířila.
 
 V terminálních stadiích kombinace s [EA-5.2.12 apercepční roztržkou](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-12-apercepcni-roztrzka) vede ke stavu, který literatura označuje jako *strukturální dezintegrace zkušenosti*.
@@ -173,9 +173,9 @@ Intervence: integrační terapie zaměřená na rekonstrukci konstitutivních sy
 
 ## Vztah k Prismatic platformě
 
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** explicitně modeluje **konstitutivní akty** v epistemickém pipeline jako diskrétní krok od **observation** k **identification** — pokud konstitutivní akt selže, je to viditelné v auditní stopě.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md)** explicitně modeluje **konstitutivní akty** v epistemickém pipeline jako diskrétní krok od **observation** k **identification** — pokud [konstitutivní akt](@/glossary/konstitutivni-akt.md) selže, je to viditelné v auditní stopě.
 - **OSINT framework** vyžaduje **explicitní entitní rezoluci** — konstituce předmětu jako entity je strukturně exteriorizovaná a sledovatelná.
-- **Decision Engine** vyžaduje **objektifikované hypotézy** — bez konstituovaných předmětů systém odmítá vyhodnocovat.
+- **[Decision Engine](@/glossary/decision-engine.md)** vyžaduje **objektifikované hypotézy** — bez konstituovaných předmětů systém odmítá vyhodnocovat.
 
 ## Související
 

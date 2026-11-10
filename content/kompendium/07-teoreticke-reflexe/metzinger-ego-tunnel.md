@@ -19,7 +19,7 @@ toc = true
 
 Thomas Metzinger v knize *Being No One* (2003) a populárnější *The Ego Tunnel* (2009) formuluje **radikální** teorii subjektu: žádné **substanční self** neexistuje — to, čemu **říkáme „já“**, je strukturálně **fenomenální self-model** (PSM, *phenomenal self-model*) generovaný mozkem.
 
-Pro kompendium EA poskytuje Metzingerova teorie nástroj pro pochopení **strukturální iluzornosti subjektu** a EA technik manipulujících **self-model**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Metzingerova teorie nástroj pro pochopení **strukturální iluzornosti subjektu** a EA technik manipulujících **self-model**.
 
 ## 1. Fenomenální self-model
 
@@ -35,13 +35,13 @@ Strukturálně klíčový moment: **PSM je strukturálně transparentní** — s
 Pro EA z toho plyne:
 
 - **Manipulace PSM**: techniky, jež **manipulují** strukturní komponenty PSM (tělo, čas, agenturu, perspektivu), strukturálně manipulují **subjekta sama**.
-- **Klinický korelát**: trauma narušuje PSM systematicky — dissociace narušuje **agenturu**, depersonalizace narušuje **perspektivu**.
+- **Klinický korelát**: trauma narušuje PSM systematicky — dissociace narušuje **agenturu**, [depersonalizace](@/glossary/depersonalizace.md) narušuje **perspektivu**.
 
 ## 2. Ego tunel
 
 Metzingerova metafora: **ego tunel** — strukturální **simulační tunel**, v němž subjekt **žije**. Subjekt **nevidí** vnější svět **přímo** — vidí pouze svůj **simulační tunel**.
 
-To není **idealismus** ani **solipsismus** — vnější svět **existuje**, ale je **filtrován** skrze konstruktivní operace mozku.
+To není **idealismus** ani **[solipsismus](@/glossary/solipsismus.md)** — vnější svět **existuje**, ale je **filtrován** skrze konstruktivní operace mozku.
 
 Pro EA má ego tunel **specifickou diagnostickou hodnotu**:
 

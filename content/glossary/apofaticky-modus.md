@@ -64,7 +64,7 @@ Patologický apofatický modus má jiné, pozorovatelné znaky:
 
 - **Univerzální dvojí negace.** Každá věta se okamžitě opravuje: „Není to tak – ale ani
   opak není pravda.“ Opakuje se bez ohledu na téma.
-- **Delegitimizace jasnosti.** Srozumitelná odpověď je předem podezřelá jako „naivní“,
+- **[Delegitimizace](@/glossary/delegitimizace.md) jasnosti.** Srozumitelná odpověď je předem podezřelá jako „naivní“,
   „povrchní“ nebo „ještě nepochopená“.
 - **Negace i nevědění.** Ani věta „nevím“ neobstojí, protože prý „předpokládá rámec, ve
   kterém je vědění možné“. Nezbývá žádná výchozí poloha.

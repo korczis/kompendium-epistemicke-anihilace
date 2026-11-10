@@ -33,7 +33,7 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 04 — OSINT adapters**: Censys mezi 128 self-registering tools
-- **Sekce 05 — EASM workflow**: Censys + Shodan + GreyNoise integrace
+- **Sekce 05 — EASM workflow**: Censys + Shodan + [GreyNoise](@/glossary/greynoise.md) integrace
 - **Sekce 06 — Certificate transparency**: CT logs jako data source
 - **Sekce 07 — Limity**: rate limits, paid tier, ethical use
 - **Per-technique články**: Censys query syntax, automation, false positives

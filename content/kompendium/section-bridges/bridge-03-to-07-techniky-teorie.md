@@ -31,7 +31,7 @@ Sekce 03 popisuje techniky; sekce 07 je **reflektuje filozoficky a metodologicky
 - **Glossary → glossary jako mocenský akt** — pojmenování má důsledky.
 - **Hranice kategorií → reflexe pole** — co je za hranicemi pole.
 - **Readiness → kritika konceptu připravenosti** — kdo je oprávněný posuzovat.
-- **Doctrine NMND → její filozofická obhájitelnost**.
+- **[Doctrine](@/glossary/doctrine.md) NMND → její filozofická obhájitelnost**.
 
 ## 3. Doporučená čtenářská trajektorie
 

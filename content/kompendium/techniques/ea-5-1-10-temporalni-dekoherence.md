@@ -92,7 +92,7 @@ Subjekt často popisuje svůj stav jako „ztrátu kontinuity bez ztráty pamět
 
 Temporální dekoherence se odlišuje od:
 
-- **Disociativní amnézie** — tam chybí *obsah*; zde je obsah dostupný, chybí *syntéza*.
+- **[Disociativní amnézie](@/glossary/dissociativni-amnezie.md)** — tam chybí *obsah*; zde je obsah dostupný, chybí *syntéza*.
 - **PTSD-flashbacků** — flashback je *intruze* minulosti do přítomnosti; dekoherence je *neschopnost je vůbec rozlišit*.
 - **Demence** — demence ztrácí informace; dekoherence zachovává informace, ale ztrácí jejich **integrativní strukturu**.
 - **Filosofické skepse o identitě** — skepse je teoretický postoj; dekoherence je **prožitek bez teoretické distance**.

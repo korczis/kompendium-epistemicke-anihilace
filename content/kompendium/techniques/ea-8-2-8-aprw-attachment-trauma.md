@@ -42,7 +42,7 @@ Konceptuální tilt z PTSD-symptom focus na relational/developmental focus. Klí
 
 ## Aplikace v EA kontextu
 
-Teoretický rámec pro **EA-6.4.2 Post-Cult Protokol** a **EA-6.4.6 Domestic Abuse Protokol**. Mapování interpersonálního traumatu z EA-3.x technik. Synergický s mentalization-based therapy.
+Teoretický rámec pro **[EA-6.4.2](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) Post-Cult Protokol** a **[EA-6.4.6](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) Domestic Abuse Protokol**. Mapování interpersonálního traumatu z EA-3.x technik. Synergický s mentalization-based therapy.
 
 ## Validační status
 
@@ -54,7 +54,7 @@ Méně kvantitativních dat než trauma-focused frameworks. Vyžaduje vyškolen�
 
 ## Vztah k jiným zdrojům
 
-Provázaný s **EA-8.1.5 Epistemic Trust Scale** (mentalization base) a **EA-8.1.6 Betrayal Trauma Inventory**.
+Provázaný s **[EA-8.1.5](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md) Epistemic Trust Scale** (mentalization base) a **[EA-8.1.6](@/kompendium/techniques/ea-8-1-6-betrayal-trauma-inventory.md) [Betrayal Trauma](@/glossary/betrayal-trauma.md) Inventory**.
 
 ## Cross-linky
 

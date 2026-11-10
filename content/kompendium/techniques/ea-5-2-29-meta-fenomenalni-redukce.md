@@ -105,7 +105,7 @@ Meta-fenomenální redukce je odlišitelná od:
 
 ### Individuální
 
-1. **Korektní husserlovská hermeneutika** — výklad *Krisis* a lebensweltové rekonstrukce.
+1. **Korektní husserlovská [hermeneutika](@/glossary/hermeneutika.md)** — výklad *Krisis* a lebensweltové rekonstrukce.
 2. **Pragmatistická korekce** — Jamesovo *„radikální empirismus“* jako antidotum.
 3. **Strukturální postojová cvičení** — vynucené praktické zaujímání pozic.
 4. **Tělesná zakotvenost** — primární praxe mimo transcendentální aparát.
@@ -133,8 +133,8 @@ Meta-fenomenální redukce je odlišitelná od:
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine forced postoj** — strukturní vynucování konkrétního postoje.
-- **NABLA Infinity finitistický axiom** — epistemická provenience vylučuje nekonečnou rekurzi.
+- **[Decision Engine](@/glossary/decision-engine.md) forced postoj** — strukturní vynucování konkrétního postoje.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) finitistický axiom** — epistemická provenience vylučuje nekonečnou rekurzi.
 - **OSINT lebensweltová evidence** — strukturní práce s žitým světem obnovuje fungování.
 
 ## Související

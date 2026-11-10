@@ -90,7 +90,7 @@ nešlo převést do slovníku workshopu, protože šlo o čísla a o konkrétní
   pro něj skutečně silná.
 - **S2 – Externalizace introjektů:** slovník programu sepsán a přeložen; zvláštní pozornost
   větám, které znevažují minulost („to je jen tvůj příběh“).
-- **S3 – Rekonstrukce metakognice:** kritické čtení literatury o myšlenkové reformě (Lifton 1961)
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** kritické čtení literatury o myšlenkové reformě (Lifton 1961)
   a o skupinách s vysokou kontrolou; srovnání vlastní zkušenosti s popsanými vzorci.
 - **S4 – Hermeneutická obnova:** návrat vlastního životního příběhu jako legitimního, ne jako
   „rakety“.

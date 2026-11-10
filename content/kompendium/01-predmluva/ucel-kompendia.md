@@ -28,7 +28,7 @@ Kompendium důsledně rozlišuje mezi několika příbuznými, ale neidentickým
 | Pojem | Doména | Typický cíl |
 |-------|--------|-------------|
 | **Epistemická anihilace** | Struktury poznání, justifikační mechanismy | Kapacita poznávat |
-| **Kognitivní anihilace** | Mentální procesy, schémata, kategorie | Kapacita zpracovávat |
+| **[Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)** | Mentální procesy, schémata, kategorie | Kapacita zpracovávat |
 | **Epistemická manipulace** | Specifické přesvědčení, mínění | Obsah poznání |
 | **Kognitivní disonance** | Konzistence mezi přesvědčeními | Lokální koherence |
 | **Anankastický režim** | Rigidita myšlení, kompulze | Flexibilita poznání |
@@ -100,7 +100,7 @@ Kompendium je systematickým krokem v reakci na tuto novou epistemickou krajinu 
 Na rozdíl od klasických nozologických manuálů kompendium **explicitně odmítá** nárok na finální podobu. Strukturální vlastnosti epistemické krajiny se mění s technologickým a institucionálním vývojem; nové formy manipulace vznikají rychleji, než jsou klasické nosologické systémy schopny inkorporovat. Kompendium je proto konstruováno jako **živý dokument** s následujícími vlastnostmi:
 
 - **Versionovaná taxonomie** — každý EA-kód má historii revizí dokumentující změny v definici a klasifikaci.
-- **Empirická revize** — claims jsou periodicky validovány proti datům z Decision Engine a Color Teams.
+- **Empirická revize** — claims jsou periodicky validovány proti datům z [Decision Engine](@/glossary/decision-engine.md) a Color Teams.
 - **Komunitní přispění** — kvalifikovaní odborníci mohou navrhovat nové fenomény, revize nebo strukturální úpravy skrze formalizovaný recenzní proces.
 - **Křížová verifikace** — tvrzení v kompendiu jsou křížově odkazována na [glosář](@/glossary/_index.md), [filozofické základy](@/philosophy/_index.md) a empirické nástroje platformy.
 

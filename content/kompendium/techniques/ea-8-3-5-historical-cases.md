@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/08-prilohy/"
 
 ## Charakteristika zdroje
 
-Layton (1998) Seductive Poison (Jonestown). Lalich (2004) Bounded Choice (Heavens Gate/DWP). Lifton (2000) Destroying the World to Save It (Aum). Tabor & Gallagher (1995) Why Waco. Williams (1998) Heaven's Harlots (COG).
+Layton (1998) Seductive Poison (Jonestown). Lalich (2004) [Bounded Choice](@/glossary/bounded-choice.md) (Heavens Gate/DWP). Lifton (2000) Destroying the World to Save It (Aum). Tabor & Gallagher (1995) Why Waco. Williams (1998) Heaven's Harlots (COG).
 
 ## Klíčové komponenty
 
@@ -54,7 +54,7 @@ Selection bias (sensational cases over-represented). Less data o lower-profile g
 
 ## Vztah k jiným zdrojům
 
-Empirický test pro **EA-8.2.1 BITE**, **EA-8.2.2 Lifton**, **EA-8.2.3 Singer**. Komplementární s **EA-8.3.6 Contemporary Cases**.
+Empirický test pro **[EA-8.2.1](@/kompendium/techniques/ea-8-2-1-bite-framework.md) BITE**, **[EA-8.2.2](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) Lifton**, **[EA-8.2.3](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md) Singer**. Komplementární s **[EA-8.3.6](@/kompendium/techniques/ea-8-3-6-contemporary-cases.md) Contemporary Cases**.
 
 ## Cross-linky
 

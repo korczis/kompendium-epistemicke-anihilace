@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 **Pseudo-peer mob** je koordinovaný útok skupiny, který je strukturálně **inscenován jako spontánní kolektivní reakce** kolegů (peers) cílového experta. Klíčový rozdíl oproti legitimní peer kritice spočívá v **organizaci**: útok je předem koordinován co do načasování, formulace a kanálů, ale prezentován jako organická konvergence nezávislých expertů.
 
-Technika exploituje **bayesovskou heuristiku** přihlížejícího: pokud N nezávislých expertů kritizuje X, je pravděpodobnost, že X je problematický, vysoká. Když je nezávislost iluzí, je heuristika **systematicky klamná**.
+Technika exploituje **bayesovskou heuristiku** přihlížejícího: pokud N nezávislých expertů kritizuje X, je pravděpodobnost, že X je problematický, vysoká. Když je nezávislost iluzí, je [heuristika](@/glossary/heuristika.md) **systematicky klamná**.
 
 ## Operační modus
 
@@ -131,7 +131,7 @@ Co prožívá oběť pseudo-peer mob:
 
 - **OSINT framework koordinační detekce** — pipelines analyzují **synchronizované publikační vzory** napříč sociálními sítěmi a flagují koordinované kampaně.
 - **NABLA Infinity** epistemická citační síť rozlišuje **nezávislé** od **kolinearních** zdrojů.
-- **Decision Engine** — penalizuje rozhodnutí založená na zdrojích s vysokou interní korelací (proxy pro koordinaci).
+- **[Decision Engine](@/glossary/decision-engine.md)** — penalizuje rozhodnutí založená na zdrojích s vysokou interní korelací (proxy pro koordinaci).
 
 ## Související
 

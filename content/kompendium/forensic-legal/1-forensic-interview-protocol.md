@@ -52,7 +52,7 @@ přibývají další vrstvy, které rozhovor komplikují:
   dezorientace](@/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md)).
 - **Loajalita a [trauma bonding](@/glossary/trauma-bonding.md).** Osoba může pachatele
   hájit, zmírňovat a během rozhovoru přecházet mezi obviněním a omluvou.
-- **Disociace.** Při tématech blízkých jádru traumatu se může objevit ztráta kontaktu, viz
+- **[Disociace](@/glossary/disociace.md).** Při tématech blízkých jádru traumatu se může objevit ztráta kontaktu, viz
   [Disociace ve forenzní praxi](@/kompendium/forensic-legal/3-dissociation-forensic.md).
 
 Tyto rysy nejsou známkou nevěrohodnosti. Jsou předvídatelným důsledkem mechanismu, který se

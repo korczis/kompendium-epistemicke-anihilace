@@ -34,11 +34,11 @@ parent_chapter = "/kompendium/08-prilohy/"
 
 ## Charakteristika zdroje
 
-Hassan (1988, rev. 2018) integruje Liftonovu thought reform teorii (1961) a Singerovu six conditions analýzu (1995) do operacionalizovatelného rámce. Čtyři domény působí synergicky: kontrola jedné posiluje kontrolu ostatních.
+Hassan (1988, rev. 2018) integruje Liftonovu [thought reform](@/glossary/thought-reform.md) teorii (1961) a Singerovu six conditions analýzu (1995) do operacionalizovatelného rámce. Čtyři domény působí synergicky: kontrola jedné posiluje kontrolu ostatních.
 
 ## Klíčové komponenty
 
-Model rozlišuje undue influence (legitimní vliv, opt-out možný) od mind control (totalistická struktura, opt-out blokován). Stratifikuje high-control groups napříč náboženské, politické, terapeutické a komerční kontexty.
+Model rozlišuje [undue influence](@/glossary/undue-influence.md) (legitimní vliv, opt-out možný) od mind control (totalistická struktura, opt-out blokován). Stratifikuje high-control groups napříč náboženské, politické, terapeutické a komerční kontexty.
 
 ## Aplikace v EA kontextu
 
@@ -54,7 +54,7 @@ Vyvinuto na západních populacích. Méně mapováno na korporátní totalismus
 
 ## Vztah k jiným zdrojům
 
-Implementační vrstva: **EA-8.1.1 BITE Model Detail**. Komplementární rámec: **EA-8.2.4 Hassan Cult Criteria** (sub-typologie skupin).
+Implementační vrstva: **[EA-8.1.1](@/kompendium/techniques/ea-8-1-1-bite-model-detail.md) [BITE Model](@/glossary/bite-model.md) Detail**. Komplementární rámec: **[EA-8.2.4](@/kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md) Hassan Cult Criteria** (sub-typologie skupin).
 
 ## Cross-linky
 

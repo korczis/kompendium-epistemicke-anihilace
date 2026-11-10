@@ -15,7 +15,7 @@ toc = true
 
 # EA × Due Diligence: Systemic Confirmation Bias Prevention
 
-> **Cross-domain bridge** mezi Epistemic Attacks (EA) frameworkem a doménou **Due Diligence**.
+> **Cross-domain bridge** mezi Epistemic Attacks (EA) frameworkem a doménou **[Due Diligence](@/glossary/due-diligence.md)**.
 
 ## Doména
 
@@ -37,7 +37,7 @@ Bez EA-augmentace produkuje due diligence pipeline **plausible-but-wrong** záv�
 
 ## Detekční metody
 
-- Red team workshops (separate team paid to find deal-killers)
+- [Red team](@/glossary/red-team.md) workshops (separate team paid to find deal-killers)
 - Blind partial review (analyst gets data without knowing target identity)
 - Decision-protocol mandates (must list 3 deal-killers before sign-off)
 - Anonymized outcome database (bias detection across analysts)

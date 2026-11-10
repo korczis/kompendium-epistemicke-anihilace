@@ -37,9 +37,9 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 ## Definice
 
-**Trauma-focused CBT protokol** je evidence-based protokol kognitivně-behaviorální terapie adaptovaný pro EA-trauma, kombinující psychoedukaci, kognitivní restrukturalizaci, expoziční komponenty a behaviorální aktivaci s explicitním zaměřením na epistemická a hermeneutická zkreslení vzniklá manipulativní expozicí.
+**Trauma-focused CBT protokol** je [evidence-based](@/glossary/evidence-based.md) protokol kognitivně-behaviorální terapie adaptovaný pro EA-trauma, kombinující psychoedukaci, kognitivní restrukturalizaci, expoziční komponenty a behaviorální aktivaci s explicitním zaměřením na epistemická a hermeneutická zkreslení vzniklá manipulativní expozicí.
 
-Technika je součástí systematické klinické taxonomie EA-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
+Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
 
 ## Indikace
 
@@ -157,7 +157,7 @@ Klinické rozhodování o aplikaci techniky **EA-6.2.1** sleduje strukturovaný 
 
 ## Neuropsychologické markery
 
-Aplikace techniky je provázena charakteristickými neurokognitivními změnami, které lze objektivizovat standardním neuropsychologickým testováním. Dokumentované markery slouží jako objektivní outcome měření paralelní k self-report instrumentům:
+Aplikace techniky je provázena charakteristickými neurokognitivními změnami, které lze objektivizovat standardním neuropsychologickým testováním. Dokumentované markery slouží jako objektivní outcome měření paralelní k [self-report](@/glossary/self-report.md) instrumentům:
 
 **Pozornostní funkce**: pre-intervenční obraz typicky vykazuje narušení selektivní pozornosti (Stroop interference + 1.5 SD nad normou), sníženou vigilanční kapacitu (CPT-3 commission errors > 70 percentil) a afektivní bias v emoční Stroop úloze (latence pro trauma-related stimuli). Post-intervenčně dokumentována normalizace o 0.6-1.0 SD.
 
@@ -165,7 +165,7 @@ Aplikace techniky je provázena charakteristickými neurokognitivními změnami,
 
 **Paměťové funkce**: charakteristické fragmentární kódování traumatic memory (CVLT-3 free recall pro emocionální materiál), deficity v autobiografické specificitě (AMT — Autobiographical Memory Test), over-general recall bias. Mereologická rekonstrukce vede k progresivní normalizaci specificity.
 
-**Sociálně-kognitivní markery**: pre-intervenčně narušená teorie mysli (Reading the Mind in the Eyes Test pod 25 percentilem), hyper-vigilance vůči sociálním ohrožením, deficit v emoční identifikaci.
+**Sociálně-kognitivní markery**: pre-intervenčně narušená [teorie mysli](@/glossary/theory-of-mind.md) (Reading the Mind in the Eyes Test pod 25 percentilem), hyper-vigilance vůči sociálním ohrožením, deficit v emoční identifikaci.
 
 **Doporučená neuropsychologická baterie**: Stroop, CPT-3, WCST, n-back, CVLT-3, AMT, RMET, Iowa Gambling Task. Cena/přínos analýza ukazuje, že full baseline + post-baterie je indikována u L2 výzkumných protokolů; v rutinní klinice postačuje screening-úroveň (Stroop + AMT + CVLT-3).
 
@@ -254,7 +254,7 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 Technika je integrována do širšího ekosystému platformy Prismatic prostřednictvím:
 
 - **Prismatic Nabla** — epistemický engine umožňuje kvantifikaci epistemicko-afektivního poškození jako vstup do klinického assessmentu a výstup z monitoring intervence
-- **Decision Engine** — kalibrace klinického rozhodování o indikaci/modifikaci/ukončení techniky s explicitními Brierův skór metrikami
+- **[Decision Engine](@/glossary/decision-engine.md)** — kalibrace klinického rozhodování o indikaci/modifikaci/ukončení techniky s explicitními Brierův skór metrikami
 - **OSINT toolbox** — pre-klinické forenzní DD klientů s anamnézou expozice manipulativním systémům, validizace anamnestických údajů
 - **Akademie** — interaktivní vzdělávací moduly pro klinickou populaci a peer-support komunity
 

@@ -21,7 +21,7 @@ quality_score = 75
 
 ## Definition
 
-Body schema is the pre-reflective neural model of one's own body in space and action — distinct from explicit body image. Disrupted in dissociation, depersonalization, and certain manipulation techniques. Foundation for [interoception](@/glossary/interocepce.md) and embodied cognition research. Prismatic uses body-schema disruption as a detection signal for advanced coercive techniques.
+Body schema is the pre-reflective neural model of one's own body in space and action — distinct from explicit body image. Disrupted in dissociation, depersonalization, and certain manipulation techniques. Foundation for [interoception](@/glossary/interocepce.md) and [embodied cognition](@/glossary/embodied-cognition.md) research. Prismatic uses body-schema disruption as a detection signal for advanced coercive techniques.
 
 ## See Also
 

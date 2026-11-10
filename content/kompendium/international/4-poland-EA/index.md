@@ -111,7 +111,7 @@ zármutek a depresivní poruchu; u starších klientů i mezigenerační přenos
 ## 6. Právní a institucionální rámec
 
 Polský trestní zákoník (*Kodeks karny*) postihuje týrání osoby blízké nebo závislé (čl. 207)
-a nebezpečné pronásledování (čl. 190a); samostatný trestný čin coercive control neobsahuje.
+a nebezpečné pronásledování (čl. 190a); samostatný trestný čin [coercive control](@/glossary/coercive-control.md) neobsahuje.
 Procedura modré karty propojuje policii, sociální služby, školství a zdravotnictví. Polsko
 Istanbulskou úmluvu ratifikovalo; o jejím vypovězení se později vedla politická debata.
 Jako členský stát EU uplatňuje směrnici 2012/29/EU, nařízení o digitálních službách a GDPR

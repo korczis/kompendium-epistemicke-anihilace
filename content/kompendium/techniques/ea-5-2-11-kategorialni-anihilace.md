@@ -137,8 +137,8 @@ Buddhistická šúnyatá je rovněž odlišitelná — autentická praxe **neni�
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine kauzální audit** — explicitní validace kauzálních modelů detekuje anihilaci kategorie kauzality.
-- **NABLA Infinity strukturální axiomy** — epistemická provenience vyžaduje funkční kategoriální aparát.
+- **[Decision Engine](@/glossary/decision-engine.md) kauzální audit** — explicitní validace kauzálních modelů detekuje anihilaci kategorie kauzality.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) strukturální axiomy** — epistemická provenience vyžaduje funkční kategoriální aparát.
 - **OSINT entitní reifikace** — strukturní práce s entitami obnovuje kategoriální fungování v praxi.
 
 ## Související

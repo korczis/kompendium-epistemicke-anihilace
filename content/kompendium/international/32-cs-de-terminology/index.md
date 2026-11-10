@@ -84,7 +84,7 @@ Pro pojmy, které v němčině nemají ustálený protějšek, se ponechává an
   sněm se tématem zabýval na konci 90. let v anketní komisi o „takzvaných sektách
   a psychoskupinách“; v odborném textu je přesnější popsat míru kontroly, například
   podle [modelu BITE](@/glossary/bite-model.md), nebo užít výraz
-  skupina s vysokou mírou kontroly.
+  [skupina s vysokou mírou kontroly](@/glossary/high-control-group.md).
 - ***Betreuung* ≠ péče.** Německá *Betreuung* je právní institut zastoupení dospělého;
   srovnání s českým opatrovnictvím a podpůrnými opatřeními je třeba dělat opatrně, zvlášť
   u [zneužívání seniorů](@/glossary/elder-abuse.md).

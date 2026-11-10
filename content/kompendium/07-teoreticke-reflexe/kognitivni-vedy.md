@@ -98,7 +98,7 @@ Z perspektivy aktivní inference je predikční rigidita **adaptivní** v krátk
 
 ### Tělesnost mysli
 
-Tradiční kognitivismus (Fodor, Pylyshyn) konceptualizoval mysl jako **abstraktní symbolický procesor**, jenž je v zásadě nezávislý na své fyzické realizaci (multiple realizability). Toto pojetí — *thinking is brain in vat* — je v posledních dvou dekádách systematicky podkopáváno **embodied cognition** paradigmatem.
+Tradiční kognitivismus (Fodor, Pylyshyn) konceptualizoval mysl jako **abstraktní symbolický procesor**, jenž je v zásadě nezávislý na své fyzické realizaci (multiple realizability). Toto pojetí — *thinking is brain in vat* — je v posledních dvou dekádách systematicky podkopáváno **[embodied cognition](@/glossary/embodied-cognition.md)** paradigmatem.
 
 Klíčové teze:
 

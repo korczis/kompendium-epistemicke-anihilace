@@ -120,7 +120,7 @@ R6 je analyticky klíčová z hlediska **fiduciární odpovědnosti instituce**.
 |--------|-------------------|
 | Somatická | Návrat baseline parametrů; absence chronické únavy a somatizace |
 | Afektivní | Plný emocionální rozsah, schopnost rezonance se zkušeností |
-| Kognitivní | Pracovní paměť, exekutiva a metakognice na úrovni baseline+ |
+| Kognitivní | Pracovní paměť, exekutiva a [metakognice](@/glossary/metakognice.md) na úrovni baseline+ |
 | Autobiografická | Koherentní narativ s expozicí integrovanou (ne fragmentem) |
 | Pojmová | Funkční pojmový aparát, schopnost reflektovat změny |
 | Sociální | Funkční role-set, znovuobnovené významné vazby |

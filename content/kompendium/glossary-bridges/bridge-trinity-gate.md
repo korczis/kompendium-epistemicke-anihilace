@@ -39,7 +39,7 @@ Každý z těchto výskytů přidává specifickou perspektivu — operativní p
 
 | Subjekt | Vztah | Objekt |
 |---------|-------|--------|
-| **Trinity Gate** | vyžaduje | Compile + Test + Doctrine pass |
+| **Trinity Gate** | vyžaduje | Compile + Test + [Doctrine](@/glossary/doctrine.md) pass |
 | **Trinity Gate** | blokuje | Každý commit, který nesplní všechny tři |
 | **Trinity Gate** | měří | Pass rate, time-to-green, regression rate |
 

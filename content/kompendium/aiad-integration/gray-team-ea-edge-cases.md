@@ -17,7 +17,7 @@ toc = true
 
 ## Agent overview
 
-Gray Team operuje v šedé zóně — testuje hraniční případy, dual-use scenarios a etické ambivalence, kde standardní EA klasifikace selhává. V architektuře platformy zaujímá pozici v rámci **Color Teams** (color-teams) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[Gray Team](@/glossary/gray-team.md) operuje v šedé zóně — testuje hraniční případy, dual-use scenarios a etické ambivalence, kde standardní EA klasifikace selhává. V architektuře platformy zaujímá pozici v rámci **Color Teams** (color-teams) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 
@@ -37,7 +37,7 @@ Gray Team je **pomalý** (deliberace trvá hodiny až dny) a **subjektivní** �
 
 ## Coordination
 
-Eskaluje sporné případy **White Teamu** pro audit; konzultuje **Compliance Agent** pro regulační rámec; informuje **Purple Team** o nových klasifikačních dilematech.
+Eskaluje sporné případy **White Teamu** pro audit; konzultuje **Compliance Agent** pro regulační rámec; informuje **[Purple Team](@/glossary/purple-team.md)** o nových klasifikačních dilematech.
 
 ## Cross-linky
 

@@ -21,7 +21,7 @@ type = "educational-scenario"
 > **Pro koho**: moderátoři diskusí, analytici, pracovníci samospráv, výzkumníci veřejného mínění
 
 Narativ není jednotlivé tvrzení, ale **rámec, který určuje, jak se o věci mluví**: kdo je
-oběť, kdo viník, co je „zdravý rozum“ a co je „propaganda“. Injekce narativu znamená, že
+oběť, kdo viník, co je „zdravý rozum“ a co je „[propaganda](@/glossary/propaganda.md)“. Injekce narativu znamená, že
 takový rámec vstupuje do diskuse zvenčí, připravený a ve více kopiích, a tváří se jako
 spontánní názor místních lidí. Účinek nespočívá v přesvědčení jednotlivce, ale ve vytvoření
 dojmu, že „takhle to vidí všichni“ – tedy v [pseudo-konsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md).

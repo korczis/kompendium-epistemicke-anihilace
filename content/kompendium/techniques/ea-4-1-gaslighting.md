@@ -18,7 +18,7 @@ ref_count_at_creation = 1
 
 ## Definition
 
-**EA 4 1 Gaslighting** je technika klasifikovaná v Prismatic Kompendiu EA (Epistemická Anihilace) taxonomii. Strukturální stub zápis — plná specifikace včetně mechanismu manipulace, detekčních markerů, klinických případových studií, a profylaktických intervencí je součástí probíhající kompendiální výstavby.
+**EA 4 1 [Gaslighting](@/glossary/gaslighting.md)** je technika klasifikovaná v Prismatic Kompendiu EA ([Epistemická Anihilace](@/glossary/epistemicka-anihilace.md)) taxonomii. Strukturální stub zápis — plná specifikace včetně mechanismu manipulace, detekčních markerů, klinických případových studií, a profylaktických intervencí je součástí probíhající kompendiální výstavby.
 
 Pro architekturu EA taxonomie viz [Taxonomie EA](@/kompendium/glossary-bridges/taxonomie-ea.md). Pro kontextové sekce viz odpovídající kapitolu v [05 Ultramari Techniky](@/kompendium/05-ultramari-techniky/_index.md).
 

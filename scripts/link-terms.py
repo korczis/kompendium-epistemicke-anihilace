@@ -37,7 +37,10 @@ FRONT = re.compile(r"\A(\+\+\+\n.*?\n\+\+\+\n|---\n.*?\n---\n)", re.S)
 FENCE = re.compile(r"^\s*(```|~~~)")
 PROTECTED = re.compile(
     r"`+[^`]*`+|<!--.*?-->|<[^>\n]+>|\{\{.*?\}\}|\{%.*?%\}|!?\[[^\]\n]*\]\([^)\n]*\)"
-    r"|\[[^\]\n]*\]|https?://\S+"
+    r"|\[[^\]\n]*\]|\]\([^)\n]*\)|\(@/[^)\n]*\)|https?://\S+"
+    # A link whose text wraps onto this line ("…vlivu](@/x.md)") is protected from the line
+    # start, and a link text left open at the end of the line is protected to the line end.
+    r"|^[^\[\]\n]*\]\([^)\n]*\)|\[[^\]\n]*$"
 )
 EA = re.compile(r"(?<![\w/-])EA-(\d+)\.(\d+)\.(\d+)(?![\w.]*\d)")
 

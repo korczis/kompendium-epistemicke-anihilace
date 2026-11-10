@@ -41,7 +41,7 @@ Institucionální delegitimizace operuje skrze **systematické zpochybňování 
 Mechanismy:
 
 - **Asymetrické zpochybňování** — chyby instituce jsou intenzivně publikovány, úspěchy jsou ignorovány nebo redefinovány.
-- **Strukturální skepticismus** — procedury instituce jsou předkládány jako rituály bez epistemického obsahu.
+- **Strukturální [skepticismus](@/glossary/skepticismus.md)** — procedury instituce jsou předkládány jako rituály bez epistemického obsahu.
 - **Personální kontaminace** — selhání jednotlivých členů jsou generalizována na celou instituci.
 - **Kontrafaktuální narativy** — alternativní instituce nebo procedury jsou předkládány jako „to, co by bylo, kdyby [destruktivní cíl]“.
 

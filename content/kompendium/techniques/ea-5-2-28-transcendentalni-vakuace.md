@@ -108,7 +108,7 @@ Klíčový diferenciál: **autentický mahájánový praktik funguje obsahově**
 
 ### Individuální
 
-1. **Korektní buddhistická hermeneutika** — výklad *śūnyatā* jako absence inherentní existence, nikoli jako funkční vakuum.
+1. **Korektní buddhistická [hermeneutika](@/glossary/hermeneutika.md)** — výklad *śūnyatā* jako absence inherentní existence, nikoli jako funkční vakuum.
 2. **Strukturální obsahová cvičení** — drobné praktické úkoly s jasným obsahem.
 3. **Tělesná praxe** — primární kotvení mimo transcendentální aparát.
 4. **Klinická psychiatrická intervence** — často nutná v akutních fázích.
@@ -136,8 +136,8 @@ Klíčový diferenciál: **autentický mahájánový praktik funguje obsahově**
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine actionable verdict** — strukturní vynucování obsahových výstupů.
-- **NABLA Infinity obsahový axiom** — epistemická provenience vyžaduje neprázdné obsahy.
+- **[Decision Engine](@/glossary/decision-engine.md) actionable verdict** — strukturní vynucování obsahových výstupů.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) obsahový axiom** — epistemická provenience vyžaduje neprázdné obsahy.
 - **OSINT entitní obsah** — strukturní práce s konkrétními entitami obnovuje funkční aparát.
 
 ## Související

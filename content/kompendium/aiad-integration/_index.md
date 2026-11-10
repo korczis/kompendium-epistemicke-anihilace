@@ -17,11 +17,11 @@ Tato sekce mapuje **552 AIAD agentů** Prismatic platformy na taxonomie epistemi
 
 ## Struktura sekce
 
-**Color Teams (6 článků)** — duhové týmy provádějící adversariální/defenzivní/syntetické operace nad EA pole.
+**[Color Teams](@/glossary/color-teams.md) (6 článků)** — duhové týmy provádějící adversariální/defenzivní/syntetické operace nad EA pole.
 
 **Strategic Agents (5 článků)** — orchestrátoři, kteří koordinují multi-agentní odpovědi na komplexní EA scénáře.
 
-**Specialized Agents (8 článků)** — specializované systémy (NABLA Infinity, Decision Engine, AutoEvolve) pro hluboké zpracování EA.
+**Specialized Agents (8 článků)** — specializované systémy ([NABLA Infinity](@/glossary/nabla-infinity.md), [Decision Engine](@/glossary/decision-engine.md), [AutoEvolve](@/glossary/autoevolve.md)) pro hluboké zpracování EA.
 
 **Domain Agents (6 článků)** — doménové agenti (Czech ARES, OSINT, Hawkeye, Perimeter) integrující EA detekci do produkčních pipeline.
 

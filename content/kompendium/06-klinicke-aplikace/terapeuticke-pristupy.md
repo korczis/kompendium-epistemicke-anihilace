@@ -18,7 +18,7 @@ toc = true
 
 ## Úvodní rámec
 
-Terapie klientů zasažených [epistemickou anihilací](@/glossary/epistemicka-anihilace.md) (EA) **není samostatnou modalitou**, nýbrž **integrativní strukturou** kombinující evidence-based postupy z trauma-focused terapie, narrativní terapie, kognitivně-behaviorální terapie a specifické techniky **epistemické rehabilitace**. Tato kapitola poskytuje **přehled** dostupných modalit a jejich indikací; detailní pětistupňový protokol je rozpracován v [6.4](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
+Terapie klientů zasažených [epistemickou anihilací](@/glossary/epistemicka-anihilace.md) (EA) **není samostatnou modalitou**, nýbrž **integrativní strukturou** kombinující [evidence-based](@/glossary/evidence-based.md) postupy z trauma-focused terapie, narrativní terapie, kognitivně-behaviorální terapie a specifické techniky **epistemické rehabilitace**. Tato kapitola poskytuje **přehled** dostupných modalit a jejich indikací; detailní pětistupňový protokol je rozpracován v [6.4](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
 
 ## Tři pilíře terapeutické práce
 
@@ -55,7 +55,7 @@ Terapeutická intervence stojí na třech vzájemně provázaných pilířích:
 ### Specifika stabilizace u EA
 
 - **Pomalejší tempo** než u klasického PTSD — klient potřebuje čas na obnovu epistemické důvěry v terapeuta;
-- **Explicitní informovaný souhlas** s každým krokem terapie — opak manipulativní dynamiky;
+- **Explicitní [informovaný souhlas](@/glossary/informed-consent.md)** s každým krokem terapie — opak manipulativní dynamiky;
 - **Validace pochybností** — klientova pochybnost o terapeutovi není odporem, ale **chráněnou zbytkovou epistemickou autonomií**.
 
 ## Pilíř 2: Trauma-fokusovaná práce

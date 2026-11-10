@@ -24,7 +24,7 @@ toc = false
 
 ## Definice
 
-**Transcendentální iluze** je technika, jež v subjektu vyvolá **strukturální kategoriální omyl**: dojem, že přímo „viděl“ obsah, který je dle samé Kantovy transcendentální analytiky **principálně nepoznatelný** (věc o sobě, „čistý“ obsah mimo formy smyslovosti, „absolutní pravdu“ mimo kategorie rozumu). Tato iluze není psychotická epizoda v klasickém smyslu — subjekt zůstává funkční v běžném životě — ale **strukturní**: identita se buduje kolem „viděného“, které není komunikovatelné v žádném jazyce bez metaforické deflace, přitom subjekt trvá na jeho **literalitě**. Komunita kolem subjekta validuje obsah („ano, on viděl, my taky“), čímž se iluze stabilizuje sociální sítí. Klinicky důležitá distinkce od skutečné psychózy: u transcendentální iluze zůstává *run-time* funkčnost intaktní.
+**Transcendentální iluze** je technika, jež v subjektu vyvolá **strukturální [kategoriální omyl](@/glossary/category-mistake.md)**: dojem, že přímo „viděl“ obsah, který je dle samé Kantovy transcendentální analytiky **principálně nepoznatelný** (věc o sobě, „čistý“ obsah mimo formy smyslovosti, „absolutní pravdu“ mimo kategorie rozumu). Tato iluze není psychotická epizoda v klasickém smyslu — subjekt zůstává funkční v běžném životě — ale **strukturní**: identita se buduje kolem „viděného“, které není komunikovatelné v žádném jazyce bez metaforické deflace, přitom subjekt trvá na jeho **literalitě**. Komunita kolem subjekta validuje obsah („ano, on viděl, my taky“), čímž se iluze stabilizuje sociální sítí. Klinicky důležitá distinkce od skutečné psychózy: u transcendentální iluze zůstává *run-time* funkčnost intaktní.
 
 ## Operační modus (5 kroků)
 

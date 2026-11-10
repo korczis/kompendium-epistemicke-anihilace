@@ -17,11 +17,11 @@ toc = true
 
 ## Agent overview
 
-Black Team provádí hloubkové threat modeling — buduje profily protivníků, kalibruje motivace, a predikuje budoucí EA vektory mimo aktuální kompendium. V architektuře platformy zaujímá pozici v rámci **Color Teams** (color-teams) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[Black Team](@/glossary/black-team.md) provádí hloubkové threat modeling — buduje profily protivníků, kalibruje motivace, a predikuje budoucí EA vektory mimo aktuální kompendium. V architektuře platformy zaujímá pozici v rámci **Color Teams** (color-teams) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 
-Black Team se zaměřuje na **prediktivní rovinu**: zatímco Red Team simuluje známé útoky, Black Team modeluje **neznámé budoucí útočníky** — jejich kapacity, prostředky, motivace. Konzumuje **07-teoreticke-reflexe/** a externí threat-intel feedy.
+Black Team se zaměřuje na **prediktivní rovinu**: zatímco [Red Team](@/glossary/red-team.md) simuluje známé útoky, Black Team modeluje **neznámé budoucí útočníky** — jejich kapacity, prostředky, motivace. Konzumuje **07-teoreticke-reflexe/** a externí threat-intel feedy.
 
 ## Detection mechanisms
 
@@ -37,7 +37,7 @@ Black Team produkuje **hypotézy s nízkou jistotou** — vyžaduje lidský revi
 
 ## Coordination
 
-Krmí **Red Team** novými útočnými scénáři; informuje **Strategic Command** pro priority allocation; spolupracuje s **OSINT Agent** pro signal collection.
+Krmí **Red Team** novými útočnými scénáři; informuje **[Strategic Command](@/glossary/strategic-command.md)** pro priority allocation; spolupracuje s **OSINT Agent** pro signal collection.
 
 ## Cross-linky
 

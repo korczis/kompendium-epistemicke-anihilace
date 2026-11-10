@@ -35,7 +35,7 @@ Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 - **Sekce 02 — Mycelial orchestration**: Agent Registry jako základ /mycelialize a /orchestrate příkazů
 - **Sekce 04 — Color-team operations**: registry indexuje red/blue/green/black/gray/white teamy
 - **Sekce 05 — Domain specialization**: OSINT, DD, security, quality, evolution agentní rodiny
-- **Sekce 07 — AIAD doctrine**: registry jako epistemická vrstva nad raw modely
+- **Sekce 07 — AIAD [doctrine](@/glossary/doctrine.md)**: registry jako epistemická vrstva nad raw modely
 - **Per-technique články**: agent invocation patterns, tier hierarchie, supervision
 
 Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
@@ -47,8 +47,8 @@ Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
 | Vztah | Cílový koncept | Typ vazby |
 |---|---|---|
 | indexuje | Agent (entity) | kompozice |
-| organizuje | Agent Tier | klasifikace |
-| podporuje | Color Teams | kategorizace |
+| organizuje | [Agent Tier](@/glossary/agent-tier.md) | klasifikace |
+| podporuje | [Color Teams](@/glossary/color-teams.md) | kategorizace |
 
 Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
 

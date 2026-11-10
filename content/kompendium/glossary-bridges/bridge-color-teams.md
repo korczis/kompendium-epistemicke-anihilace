@@ -34,9 +34,9 @@ Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 02 — Agent organization**: color teams jako specialization axis
 - **Sekce 04 — Security operations**: red vs. blue klasické paradigma
-- **Sekce 05 — Intelligence ops**: green team (OSINT) a black team (covert)
-- **Sekce 06 — Governance**: white team a audit doctrine
-- **Per-technique články**: purple team formation, color team interplay
+- **Sekce 05 — Intelligence ops**: green team (OSINT) a [black team](@/glossary/black-team.md) (covert)
+- **Sekce 06 — Governance**: [white team](@/glossary/white-team.md) a audit [doctrine](@/glossary/doctrine.md)
+- **Per-technique články**: [purple team](@/glossary/purple-team.md) formation, color team interplay
 
 Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
 
@@ -46,7 +46,7 @@ Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
 
 | Vztah | Cílový koncept | Typ vazby |
 |---|---|---|
-| ortogonální | Agent Tier | klasifikace |
+| ortogonální | [Agent Tier](@/glossary/agent-tier.md) | klasifikace |
 | instance | Red, Blue, Green, Black, Gray, White | concrete teams |
 | kombinuje | Purple team | sjednocení |
 

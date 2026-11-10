@@ -91,7 +91,7 @@ zvyšuje cenu odchodu a snižuje ochotu svědčit.
 Jones vystupoval jako prorok, otec i politický vůdce zároveň ([charisma](@/glossary/charisma.md),
 [vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)). Veřejná
 shromáždění s kritikou a ponižováním „provinilců“ odpovídají Liftonovým kritériím
-myšlenkové reformy – zejména *milieu control*, kultu zpovědi a nadřazenosti doktríny nad
+myšlenkové reformy – zejména *[milieu control](@/glossary/milieu-control.md)*, kultu zpovědi a nadřazenosti doktríny nad
 člověkem ([Liftonova kritéria](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md)).
 
 ## Dopady na jednotlivce a společnost
@@ -151,7 +151,7 @@ souhlasit, od obětí, které nemohly. Viz též
 - Layton, D. 1998. *Seductive Poison: A Jonestown Survivor's Story of Life and Death in the Peoples Temple*.
 - Moore, R. 2009. *Understanding Jonestown and Peoples Temple*.
 - Guinn, J. 2017. *The Road to Jonestown: Jim Jones and Peoples Temple*.
-- Lifton, R. J. 1961. *Thought Reform and the Psychology of Totalism*.
+- Lifton, R. J. 1961. *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*.
 
 ## Související
 

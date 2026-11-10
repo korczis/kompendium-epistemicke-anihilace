@@ -38,7 +38,7 @@ Shapiro (2018) EMDR Therapy. Levine (2010) In an Unspoken Voice (Somatic Experie
 
 ## Klíčové komponenty
 
-Pět evidence-based trauma therapy modalities: EMDR (Shapiro), Somatic Experiencing (Levine), IFS (Schwartz), Sensorimotor (Ogden), STAIR/Narrative (Cloitre). Diverse phase-based approaches.
+Pět [evidence-based](@/glossary/evidence-based.md) trauma therapy modalities: EMDR (Shapiro), Somatic Experiencing (Levine), IFS (Schwartz), Sensorimotor (Ogden), STAIR/Narrative (Cloitre). Diverse phase-based approaches.
 
 ## Aplikace v EA kontextu
 
@@ -54,7 +54,7 @@ Modality wars — ne všechny equally validovány (IFS méně RCTs než EMDR). I
 
 ## Vztah k jiným zdrojům
 
-Implementation vrstva pro **EA-8.2.10 Herman Recovery Stages** a **EA-8.2.9 van der Kolk Trauma**.
+Implementation vrstva pro **[EA-8.2.10](@/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md) Herman Recovery Stages** a **[EA-8.2.9](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md) van der Kolk Trauma**.
 
 ## Cross-linky
 

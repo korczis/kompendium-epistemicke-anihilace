@@ -21,7 +21,7 @@ Perimeter Agent provozuje External Attack Surface Management — mapuje exposed 
 
 ## EA relevance
 
-Perimeter Agent integruje **05-ultramari-techniky** EA s konvenční cybersecurity — útoky, kde je **technická exploitace** kombinována s **psychologickou manipulací** (např. spear-phishing s deepfake).
+Perimeter Agent integruje **05-ultramari-techniky** EA s konvenční cybersecurity — útoky, kde je **technická exploitace** kombinována s **psychologickou manipulací** (např. spear-phishing s [deepfake](@/glossary/deepfake.md)).
 
 ## Detection mechanisms
 
@@ -37,7 +37,7 @@ Perimeter Agent vidí **externí povrch** — interní hrozby (insider EA) jsou 
 
 ## Coordination
 
-Krmí data **Hawkeye** pro traffic kontext; spolupracuje s **Black Team** na threat modeling; výstupy konzumuje **Strategic Command** pro investice.
+Krmí data **Hawkeye** pro traffic kontext; spolupracuje s **[Black Team](@/glossary/black-team.md)** na threat modeling; výstupy konzumuje **[Strategic Command](@/glossary/strategic-command.md)** pro investice.
 
 ## Cross-linky
 

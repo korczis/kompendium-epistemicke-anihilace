@@ -29,7 +29,7 @@ Case Studies jsou **narativní jednotky**; Klinika je **systémová praxe**. Bri
 - **Klinický pattern → klinický fenotyp.**
 - **Případová zpětná vazba → revize klinických SOP.**
 - **Klinické portfolio → meta-case study.**
-- **Case-based reasoning → klinický rozhodovací engine.**
+- **Case-based reasoning → klinický [rozhodovací engine](@/glossary/decision-engine.md).**
 - **Klinická novost → seed pro novou case study.**
 - **Klinický follow-up → multi-temporal case study.**
 
@@ -63,7 +63,7 @@ Klíčové koncepty: **klinický pattern**, **klinický fenotyp**, **case-based 
 
 ## 7. Meta-poznámka: case studies jako epistemic driver
 
-Case Studies nejsou pouze ilustrace — jsou **epistemic driver** pro revizi klinických SOP. Bridge zdůrazňuje **bidirekcionální tok**: case study generuje klinický pattern → klinický pattern revidují klinickou SOP → revidovaná SOP vede k novým case studies. Tento cyklus je explicitní v Doctrine NCLB (No Claim Left Behind) — žádné klinické tvrzení nesmí zůstat bez evidence, žádný klinický fenotyp bez case study. Praktické pravidlo: pokud klinika narazí na **klinickou novost**, která neodpovídá žádné existující case study, MUSÍ být dokumentována jako nová case study s evidence trail.
+Case Studies nejsou pouze ilustrace — jsou **epistemic driver** pro revizi klinických SOP. Bridge zdůrazňuje **bidirekcionální tok**: case study generuje klinický pattern → klinický pattern revidují klinickou SOP → revidovaná SOP vede k novým case studies. Tento cyklus je explicitní v [Doctrine](@/glossary/doctrine.md) NCLB (No Claim Left Behind) — žádné klinické tvrzení nesmí zůstat bez evidence, žádný klinický fenotyp bez case study. Praktické pravidlo: pokud klinika narazí na **klinickou novost**, která neodpovídá žádné existující case study, MUSÍ být dokumentována jako nová case study s evidence trail.
 
 ---
 

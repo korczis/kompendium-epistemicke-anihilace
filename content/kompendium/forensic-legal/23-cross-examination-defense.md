@@ -97,7 +97,7 @@ je legitimní téma; způsob, jakým se na něj ptá, může být nepřípustný
 ## Riziková místa
 
 - **Kolaps výpovědi**, který soud vyhodnotí jako nevěrohodnost, ačkoli jde o reakci na tlak.
-- **Retraumatizace** a pozdější odmítnutí další spolupráce s orgány.
+- **[Retraumatizace](@/glossary/retraumatizace.md)** a pozdější odmítnutí další spolupráce s orgány.
 - **Nečinnost soudu**, který otázky připouští ve snaze nezasahovat do obhajoby.
 - **Přehnaná ochrana**, která obhajobu omezí natolik, že je řízení nespravedlivé.
 - **Kontrast projevu** – obviněný klidný, svědkyně rozrušená; soud hodnotí dojem.

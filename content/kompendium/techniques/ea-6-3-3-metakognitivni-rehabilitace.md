@@ -39,7 +39,7 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 **Metakognitivní rehabilitace** je specializovaný protokol obnovy metakognitivních schopností — sebemonitorování, kalibrace jistoty, detekce vlastních zkreslení, mentální flexibility — narušených chronickou expozicí epistemicky-manipulativním systémům.
 
-Technika je součástí systematické klinické taxonomie EA-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
+Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
 
 ## Indikace
 
@@ -61,7 +61,7 @@ Identifikace kontraindikací je integrální součástí každého iniciálního
 
 Standardní implementace techniky probíhá v následujících strukturovaných krocích:
 
-(1) Psychoedukace metakognice. (2) Confidence calibration cvičení (predikce + post-dikce + Brierův skór). (3) Bias detection — explicitní mapování vlastních cognitive biases. (4) Theory of Mind training. (5) Cognitive flexibility — task switching praxe. (6) Generalizace do real-world rozhodování. (7) Pre-mortem a post-mortem analýzy.
+(1) Psychoedukace [metakognice](@/glossary/metakognice.md). (2) Confidence calibration cvičení (predikce + post-dikce + Brierův skór). (3) Bias detection — explicitní mapování vlastních cognitive biases. (4) [Theory of Mind](@/glossary/theory-of-mind.md) training. (5) Cognitive flexibility — task switching praxe. (6) Generalizace do real-world rozhodování. (7) Pre-mortem a post-mortem analýzy.
 
 Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
 
@@ -105,7 +105,7 @@ Technika **EA-6.3.3** se historicky vyvinula z konvergence několika klinických
 
 **Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
 
-**Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních evidence-based přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
+**Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
 
 ## Evidence base
 
@@ -157,7 +157,7 @@ Klinické rozhodování o aplikaci techniky **EA-6.3.3** sleduje strukturovaný 
 
 ## Neuropsychologické markery
 
-Aplikace techniky je provázena charakteristickými neurokognitivními změnami, které lze objektivizovat standardním neuropsychologickým testováním. Dokumentované markery slouží jako objektivní outcome měření paralelní k self-report instrumentům:
+Aplikace techniky je provázena charakteristickými neurokognitivními změnami, které lze objektivizovat standardním neuropsychologickým testováním. Dokumentované markery slouží jako objektivní outcome měření paralelní k [self-report](@/glossary/self-report.md) instrumentům:
 
 **Pozornostní funkce**: pre-intervenční obraz typicky vykazuje narušení selektivní pozornosti (Stroop interference + 1.5 SD nad normou), sníženou vigilanční kapacitu (CPT-3 commission errors > 70 percentil) a afektivní bias v emoční Stroop úloze (latence pro trauma-related stimuli). Post-intervenčně dokumentována normalizace o 0.6-1.0 SD.
 
@@ -254,7 +254,7 @@ Následuje po [EA-6.2.4 metacognitive therapy](@/kompendium/techniques/ea-6-2-4-
 Technika je integrována do širšího ekosystému platformy Prismatic prostřednictvím:
 
 - **Prismatic Nabla** — epistemický engine umožňuje kvantifikaci epistemicko-afektivního poškození jako vstup do klinického assessmentu a výstup z monitoring intervence
-- **Decision Engine** — kalibrace klinického rozhodování o indikaci/modifikaci/ukončení techniky s explicitními Brierův skór metrikami
+- **[Decision Engine](@/glossary/decision-engine.md)** — kalibrace klinického rozhodování o indikaci/modifikaci/ukončení techniky s explicitními Brierův skór metrikami
 - **OSINT toolbox** — pre-klinické forenzní DD klientů s anamnézou expozice manipulativním systémům, validizace anamnestických údajů
 - **Akademie** — interaktivní vzdělávací moduly pro klinickou populaci a peer-support komunity
 

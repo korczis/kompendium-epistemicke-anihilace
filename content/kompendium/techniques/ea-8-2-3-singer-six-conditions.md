@@ -38,11 +38,11 @@ Singer & Lalich (1995) destilace klinických zkušeností z 3000+ ex-členů. Š
 
 ## Klíčové komponenty
 
-Nejvíce parsimonious framework — méně kritérií než Lifton, hlubší implementační detail než BITE. Široce použito v US soudních systémech (expert witness testimony).
+Nejvíce parsimonious framework — méně kritérií než Lifton, hlubší implementační detail než BITE. Široce použito v US soudních systémech ([expert witness](@/glossary/expert-witness.md) testimony).
 
 ## Aplikace v EA kontextu
 
-Centrální pro EA-3.x (interpersonální vektor) a EA-6.4.2 post-cult protokol. Closed system of logic → EA-1.3.x. Suppression of old behavior → EA-3.4.x. Powerlessness → EA-3.x dominance.
+Centrální pro EA-3.x (interpersonální vektor) a [EA-6.4.2](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) post-cult protokol. Closed system of logic → EA-1.3.x. Suppression of old behavior → EA-3.4.x. Powerlessness → EA-3.x dominance.
 
 ## Validační status
 
@@ -54,7 +54,7 @@ Heavily case-based, méně kvantitativních dat. Singer's expert witness role kr
 
 ## Vztah k jiným zdrojům
 
-Triáda referenčních rámců: **EA-8.2.1 BITE Framework**, **EA-8.2.2 Lifton Criteria**, **EA-8.2.3 Singer Conditions** se vzájemně doplňují.
+Triáda referenčních rámců: **[EA-8.2.1](@/kompendium/techniques/ea-8-2-1-bite-framework.md) BITE Framework**, **[EA-8.2.2](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) Lifton Criteria**, **EA-8.2.3 Singer Conditions** se vzájemně doplňují.
 
 ## Cross-linky
 

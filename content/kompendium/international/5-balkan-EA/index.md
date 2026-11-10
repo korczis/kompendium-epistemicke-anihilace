@@ -16,7 +16,7 @@ toc = true
 
 > **Region**: státy bývalé Jugoslávie, Albánie a Bulharsko · **Oblast**: regionální
 > a postkonfliktní vzorce
-> Stránka se zaměřuje na to, jak válka, propaganda a spory o minulost zasahují do schopnosti
+> Stránka se zaměřuje na to, jak válka, [propaganda](@/glossary/propaganda.md) a spory o minulost zasahují do schopnosti
 > lidí sdílet společnou realitu. „Balkán“ je zde zkratka pro velmi rozmanitý region;
 > nepopisuje žádný národ jako agresora ani oběť a neplatí pro všechny jeho obyvatele.
 

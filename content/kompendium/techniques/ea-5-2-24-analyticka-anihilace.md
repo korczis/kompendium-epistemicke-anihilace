@@ -105,7 +105,7 @@ Analytická anihilace je odlišitelná od:
 
 ### Individuální
 
-1. **Korektní wittgensteinovská hermeneutika** — výklad language games jako stabilních praktik.
+1. **Korektní wittgensteinovská [hermeneutika](@/glossary/hermeneutika.md)** — výklad language games jako stabilních praktik.
 2. **Operacionální definování** — strukturní cvičení v explicitních definicích.
 3. **Formální logická praxe** — predikátová logika obnovuje analytickou kompetenci.
 4. **Pragmatistická korekce** — fungující definice jako pracovní nástroje.
@@ -134,8 +134,8 @@ Analytická anihilace je odlišitelná od:
 ## Vztah k Prismatic platformě
 
 - **Glossary explicitní definice** — strukturní práce s definicemi obnovuje kompetenci.
-- **NABLA Infinity definicní axiom** — epistemická provenience vyžaduje stabilní definice.
-- **Decision Engine pojmová precizace** — strukturní vynucování explicitních termínů.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) definicní axiom** — epistemická provenience vyžaduje stabilní definice.
+- **[Decision Engine](@/glossary/decision-engine.md) pojmová precizace** — strukturní vynucování explicitních termínů.
 
 ## Související
 

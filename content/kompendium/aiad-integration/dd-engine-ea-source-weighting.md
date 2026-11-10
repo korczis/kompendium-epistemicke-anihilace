@@ -37,7 +37,7 @@ DD Engine je **report-grade**, ne **real-time** — výstup vyžaduje hodiny ana
 
 ## Coordination
 
-Volá **OSINT Agent**, **Czech ARES**, **Compliance**; výstupy validuje **Trinity Gate**; reporty auditovány **White Team**.
+Volá **OSINT Agent**, **Czech ARES**, **Compliance**; výstupy validuje **[Trinity Gate](@/glossary/trinity-gate.md)**; reporty auditovány **[White Team](@/glossary/white-team.md)**.
 
 ## Cross-linky
 

@@ -92,7 +92,7 @@ Co může vidět vnější pozorovatel:
 
 ### Sister UM techniky (subkategorie 5.3 Hypertransformativní protokoly)
 
-EA-5.3.4 (tělesná disociace), EA-5.5.2 (somato-fenomenologická disrupce)
+[EA-5.3.4](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md) (tělesná [disociace](@/glossary/disociace.md)), [EA-5.5.2](@/kompendium/techniques/ea-5-5-2-somato-fenomenologicka-disrupce.md) (somato-fenomenologická disrupce)
 
 ### Cross-categorical references
 
@@ -131,8 +131,8 @@ Merleau-Pontyho **schéma corporel** (*Phénoménologie de la perception*) — p
 
 Empirický výzkum identitárně manipulativních technik se opírá o několik klíčových linií:
 
-- **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
-- **Hassan, S.** (2018). *Combating Cult Mind Control* — BITE model (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
+- **Lifton, R. J.** (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
+- **Hassan, S.** (2018). *Combating Cult Mind Control* — [BITE model](@/glossary/bite-model.md) (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
 - **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
 - **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie disociace, terapeutické důsledky.
 

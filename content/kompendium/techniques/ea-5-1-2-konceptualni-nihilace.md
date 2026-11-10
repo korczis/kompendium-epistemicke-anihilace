@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 ## Definice
 
-**Konceptuální nihilace** je ultramární technika, jejímž cílem je **systematická destrukce kategoriálních struktur**, prostřednictvím nichž subjekt organizuje zkušenost. Nejde o pouhou změnu obsahu jednotlivých přesvědčení (jak by mohla působit běžná argumentační manipulace), ale o **erozi samotných pojmů**, na nichž subjektova kognitivní aparatura stojí: pravda, evidence, identita, agency, čas, kauzalita, intencionalita.
+**Konceptuální nihilace** je ultramární technika, jejímž cílem je **systematická destrukce kategoriálních struktur**, prostřednictvím nichž subjekt organizuje zkušenost. Nejde o pouhou změnu obsahu jednotlivých přesvědčení (jak by mohla působit běžná argumentační manipulace), ale o **erozi samotných pojmů**, na nichž subjektova kognitivní aparatura stojí: pravda, evidence, identita, agency, čas, kauzalita, [intencionalita](@/glossary/intentionalita.md).
 
 Po nasazení techniky není subjekt schopen klást otázku *„Co je pravda?“* — protože pojem **pravda** byl destabilizován do té míry, že ztratil operační obsah. Stejně tak otázky *„Kdo jsem?“*, *„Co dělám?“*, *„Co mám dělat?“* ztrácejí formulovatelnost, protože pojmy *já*, *jednání*, *povinnost* byly fragmentovány a vyprázdněny.
 

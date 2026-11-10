@@ -29,7 +29,7 @@ Glossary entry slouží jako kanonický referenční bod platformy; bridge člá
 Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 
 - **Sekce 07 — Teoretické reflexe**: kritika Popperova falsifikacionismu
-- **Sekce 08 — Metaepistemologie**: kritérium progrese vs. regrese
+- **Sekce 08 — [Metaepistemologie](@/glossary/meta-epistemologie.md)**: kritérium progrese vs. regrese
 - **Per-technique: Hypothesis Tracking**: dlouhodobé sledování konkurujících rámců
 - **Sekce 09 — Dějiny vědy**: kazuistika programů (Newton, Darwin, kvantová mechanika)
 
@@ -45,7 +45,7 @@ Každý z těchto výskytů přidává specifickou perspektivu — operativní p
 
 ## Filosofické implikace
 
-Pro intelligence analýzu Lakatosův model nabízí ostřejší nástroj než naivní falsifikace: konkurující hypotézy o aktérovi nejsou jednotlivá tvrzení, nýbrž celé programy. Klíčem k volbě není první anomálie, nýbrž dlouhodobá schopnost predikce nových chování — degenerující program lze rozpoznat podle akumulace ad hoc úprav.
+Pro intelligence analýzu Lakatosův model nabízí ostřejší nástroj než naivní [falsifikace](@/glossary/falsifikace.md): konkurující hypotézy o aktérovi nejsou jednotlivá tvrzení, nýbrž celé programy. Klíčem k volbě není první anomálie, nýbrž dlouhodobá schopnost predikce nových chování — degenerující program lze rozpoznat podle akumulace ad hoc úprav.
 
 ## Cross-linky
 

@@ -19,7 +19,7 @@ toc = true
 
 Mark Johnson — spoluautor Lakoffovy teorie konceptuální metafory ([viz 7.46](@/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md)) — v knize *The Body in the Mind* (1987) a *The Meaning of the Body* (2007) rozvíjí teorii **image schemata** a **estetiky lidské zkušenosti**.
 
-Pro kompendium EA poskytuje Johnsonova teorie nástroj pro pochopení **strukturálních tělesných fundamentů**, jež EA techniky narušují.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Johnsonova teorie nástroj pro pochopení **strukturálních tělesných fundamentů**, jež EA techniky narušují.
 
 ## 1. Image schemata
 

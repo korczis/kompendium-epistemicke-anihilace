@@ -63,7 +63,7 @@ Klíčové koncepty: **flow diagram**, **decision tree**, **state machine**, **m
 
 ## 7. Meta-poznámka: kdy vizualizovat
 
-Ne každá technika potřebuje vizualizaci. **Heuristika**: pokud čtenář v sekci 06 (Klinika) musí konzultovat techniku ad-hoc, potřebuje vizualizaci na pracovišti. Pokud technika je čtena pouze sekvenčně v rámci hlubokého studia, text postačuje. Bridge varuje před **estetickou inflací** — přidávání diagramů jen proto, že to vypadá lépe, je proti FLLM doktríně (Tailwind/Flowbite hygiena). Vizualizace má vždy **operativní funkci**: rychlá orientace, kognitivní lešení, klinická referenční karta. Pokud nemá tuto funkci, patří do sekce 08 (Přílohy) jako referenční artefakt, ne do hlavního textu.
+Ne každá technika potřebuje vizualizaci. **[Heuristika](@/glossary/heuristika.md)**: pokud čtenář v sekci 06 (Klinika) musí konzultovat techniku ad-hoc, potřebuje vizualizaci na pracovišti. Pokud technika je čtena pouze sekvenčně v rámci hlubokého studia, text postačuje. Bridge varuje před **estetickou inflací** — přidávání diagramů jen proto, že to vypadá lépe, je proti FLLM doktríně (Tailwind/Flowbite hygiena). Vizualizace má vždy **operativní funkci**: rychlá orientace, kognitivní lešení, klinická referenční karta. Pokud nemá tuto funkci, patří do sekce 08 (Přílohy) jako referenční artefakt, ne do hlavního textu.
 
 ## 8. Vizualizace jako kognitivní lešení
 

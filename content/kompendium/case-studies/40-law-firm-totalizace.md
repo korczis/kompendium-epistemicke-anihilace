@@ -92,7 +92,7 @@ kolegou, který odešel na podnikovou pozici, mu ukázal, že jiná cesta existu
   kolegyní.
 - **S2 – Externalizace introjektů:** věty „nevykázaná hodina je ztracená hodina“, „kdo nemá
   partnerství, neuspěl“ odděleny od vlastních hodnot.
-- **S3 – Rekonstrukce metakognice:** vlastní měřítka dobré právní práce – kvalita, poctivost,
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** vlastní měřítka dobré právní práce – kvalita, poctivost,
   služba klientovi – místo počtu hodin.
 - **S4 – Hermeneutická obnova:** práce s [morálním zraněním](@/glossary/hodnotova-destrukce.md)
   z dřívějších klientských projektů, které byly v rozporu s jeho přesvědčením.

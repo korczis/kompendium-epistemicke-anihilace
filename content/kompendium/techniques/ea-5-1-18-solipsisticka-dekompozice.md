@@ -47,7 +47,7 @@ Technika operuje v sedmi krocích:
 
 ### Krok 1 — Skeptická hygiena jako trojský kůň
 
-Manipulátor zavádí **klasický epistemologický skepticismus**: Descartův démon, mozek v kádi, simulační hypotéza. Tyto argumenty mají v omezeném použití legitimní filozofickou roli. Jako **trvalý postoj** se stávají destruktivní.
+Manipulátor zavádí **klasický epistemologický [skepticismus](@/glossary/skepticismus.md)**: Descartův démon, mozek v kádi, simulační hypotéza. Tyto argumenty mají v omezeném použití legitimní filozofickou roli. Jako **trvalý postoj** se stávají destruktivní.
 
 ### Krok 2 — Dekompozice percepce
 
@@ -80,7 +80,7 @@ Co prožívá subjekt **uvnitř** solipsistické dekompozice:
 - **Pocit „filozofické hloubky“** — subjekt si myslí, že rozumí podstatě reality
 - **Emocionální plochost** — události vnějšího světa přestávají vyvolávat reakci
 - **Derealizace** — vnější svět se prožívá jako „ne zcela skutečný“, jako „film“
-- **Depersonalizace druhých** — druzí lidé jsou prožíváni jako „postavy“, ne jako vědomé bytosti
+- **[Depersonalizace](@/glossary/depersonalizace.md) druhých** — druzí lidé jsou prožíváni jako „postavy“, ne jako vědomé bytosti
 - **Ztráta epistemické pokory vůči vnějším zdrojům** — subjekt přestává konzultovat experty, knihy, instituce
 - **Falešná autonomie** — pocit „konečně samostatného myšlení“ maskuje izolaci
 - **Vyhasínání agencie** — schopnost jednat ve světě se snižuje
@@ -99,7 +99,7 @@ V pokročilých stadiích nastává klinický obraz **derealizační/depersonali
 | Subjekt **redukuje sociální kontakty** kvůli "zbytečnosti" | Solipsistické stažení |
 | Subjekt **odmítá konzultovat** odborníky kvůli "nedůvěryhodnosti expertizy" | Epistemická izolace |
 | Subjekt **přestává reagovat** na zpětnou vazbu z prostředí | Vyhasínání agencie |
-| Subjekt prožívá vlastní **myšlenky** jako **jediné reálné** | Konsolidovaný solipsismus |
+| Subjekt prožívá vlastní **myšlenky** jako **jediné reálné** | Konsolidovaný [solipsismus](@/glossary/solipsismus.md) |
 
 ### Diferenciální detekce
 
@@ -186,12 +186,12 @@ Doktorand 5 let pracoval na disertaci o „iluzornosti vnějšího světa“. Po
 - **[EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md)** — neschopnost vyvozovat o vnějším světě umožňuje jeho dekompozici
 - **[EA-5.1.17 Tautologická imploze](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md)** — vyprázdněný slovník nepomáhá kotvit ve světě
 - **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — filtrace zdrojů schopných solipsismus rozbít
-- **EA-1.6.1 Vzorec „Guru a adept“** — guru produkuje solipsistické uzavření jako kontrolní mechanismus
+- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — guru produkuje solipsistické uzavření jako kontrolní mechanismus
 
 ### Eskaluje do
 
 - **Klinická derealizace / depersonalizace** — psychiatrický syndrom
-- **Schizoidní stažení** — totální sociální izolace
+- **Schizoidní stažení** — totální [sociální izolace](@/glossary/socialni-izolace.md)
 - **Sebevražedná dispozice** — pokud „svět není reálný“, smrt je „jen konec iluze“
 
 ### Alternativy / podobné, ale **distinktivní**

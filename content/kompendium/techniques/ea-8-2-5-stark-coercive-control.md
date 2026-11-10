@@ -42,7 +42,7 @@ Legalizováno v UK (Serious Crime Act 2015), Wales (2015), Ireland (2018), Scotl
 
 ## Aplikace v EA kontextu
 
-Teoretický základ pro **EA-3.4.x** (interpersonální dominance) a **EA-6.4.6 Domestic Abuse Protokol**. Mediko-legální průnik. Operacionalizace v **EA-8.1.4 Coercive Control Scale**.
+Teoretický základ pro **EA-3.4.x** (interpersonální dominance) a **[EA-6.4.6](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md) Domestic Abuse Protokol**. Mediko-legální průnik. Operacionalizace v **[EA-8.1.4](@/kompendium/techniques/ea-8-1-4-coercive-control-scale.md) [Coercive Control](@/glossary/coercive-control.md) Scale**.
 
 ## Validační status
 
@@ -54,7 +54,7 @@ Gender-asymmetric framework — kritizováno za nedostatečné capture male vict
 
 ## Vztah k jiným zdrojům
 
-Operacionalizováno v **EA-8.1.4 Coercive Control Scale**. Komplementární k **EA-8.1.3 Stalking Behavior Checklist**.
+Operacionalizováno v **EA-8.1.4 Coercive Control Scale**. Komplementární k **[EA-8.1.3](@/kompendium/techniques/ea-8-1-3-stalking-behavior-checklist.md) Stalking Behavior Checklist**.
 
 ## Cross-linky
 

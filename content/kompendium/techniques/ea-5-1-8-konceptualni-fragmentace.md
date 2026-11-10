@@ -213,17 +213,17 @@ Intervence: Cílená rekonstituce mimo-právního etického slovníku skrze čte
 - **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — nový, nepřehledný slovník usnadňuje fragmentaci tím, že subjekt **musí** přijmout nové pojmy.
 - **EA-5.1.7 Referenční rekurze** — fragmentace produkuje izolované pojmy, na kterých může být následně postavena rekurzivní pasta.
 - **EA-5.1.9 Identitní dezintegrace** — když je fragmentace aplikována na sebe-pojem, výsledkem je dezintegrace identity.
-- **EA-1.3.3 Tematická diverze** — diverze udržuje subjektovu pozornost dál od integračních pokusů.
+- **[EA-1.3.3](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) Tematická diverze** — diverze udržuje subjektovu pozornost dál od integračních pokusů.
 
 ### Eskaluje do
 
-- **EA-5.2.x Ontologická anihilace** — fragmentace pojmů reality (*čas*, *prostor*, *já*, *druhý*) přechází v kolaps základního realitního testu.
-- **Klinická depersonalizace / derealizace** — fragmentace fenomenologických kategorií *já / svět / čas* může spustit depersonalizační symptomatiku.
+- **EA-5.2.x [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)** — fragmentace pojmů reality (*čas*, *prostor*, *já*, *druhý*) přechází v kolaps základního realitního testu.
+- **Klinická [depersonalizace](@/glossary/depersonalizace.md) / derealizace** — fragmentace fenomenologických kategorií *já / svět / čas* může spustit depersonalizační symptomatiku.
 
 ### Alternativy / podobné, ale **distinktivní**
 
 - **Sofistikace teorie** — *přidává* vazby a integrační rozlišnost; fragmentace *odebírá*.
-- **Pluralismus** — uchovává funkční integraci uvnitř každého paradigmatu; fragmentace destruuje integraci uvnitř původního.
+- **[Pluralismus](@/glossary/pluralismus.md)** — uchovává funkční integraci uvnitř každého paradigmatu; fragmentace destruuje integraci uvnitř původního.
 
 ## Vztah k Prismatic platformě
 
@@ -231,7 +231,7 @@ Konceptuální fragmentace má v Prismatic platformě tři hlavní defenzivní m
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) integration check** — provenance graf každé komplexní úvahy je analyzován na **strukturální propojenost**; izolované, nepropojené uzly jsou flagovány jako podezření na fragmentaci.
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} holistic gate** — komplexní rozhodnutí vyžaduje doložení **funkční** integrace, nikoli pouze inventáře komponent.
-- **Color Teams cross-paradigm review** — *Red Team* explicitně testuje, zda rozhodovací aparát neutrpěl fragmentačním tlakem konkrétního paradigmatu.
+- **[Color Teams](@/glossary/color-teams.md) cross-paradigm review** — *[Red Team](@/glossary/red-team.md)* explicitně testuje, zda rozhodovací aparát neutrpěl fragmentačním tlakem konkrétního paradigmatu.
 
 ## Související
 

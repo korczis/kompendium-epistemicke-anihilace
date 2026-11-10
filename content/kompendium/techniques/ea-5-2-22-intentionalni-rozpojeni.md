@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 **Intencionální rozpojení** je metatranscendentální technika, jíž je destruována **noeticko-noematická korelace** — fundamentální struktura intencionality, kde **akty vědomí** (*noesis*) jsou nutně **zaměřeny na předmět** (*noema*). Subjekt zachovává akty vědomí, ale ty ztrácejí svou **předmětnou zaměřenost**: myšlenky se „nestrefují“ do předmětů, vzpomínky „neukotvují“ události, percepce „neodkazuje“ k objektům.
 
-Intencionalita je v Husserlově fenomenologii **definujícím rysem vědomí**: „*Všechno vědomí je vědomím něčeho.*“ Brentano a Husserl etablovali, že psychické fenomény mají **intencionální in-existenci** — vždy odkazují k objektu (existujícímu nebo neexistujícímu, fyzickému nebo ideálnímu). Bez intencionality není vědomí jako takové.
+[Intencionalita](@/glossary/intentionalita.md) je v Husserlově fenomenologii **definujícím rysem vědomí**: „*Všechno vědomí je vědomím něčeho.*“ Brentano a Husserl etablovali, že psychické fenomény mají **intencionální in-existenci** — vždy odkazují k objektu (existujícímu nebo neexistujícímu, fyzickému nebo ideálnímu). Bez intencionality není vědomí jako takové.
 
 Intencionální rozpojení tuto strukturu narušuje. Akty pokračují, ale ztrácejí svou **předmětnost**. Subjekt prožívá „chtění bez chtěného“, „myšlení bez myšleného“, „vnímání bez vnímaného“. Strukturně je to fenomenologicky **paradoxní stav** — Husserl by řekl, že není možný — ale jako patologické narušení se v praxi vyskytuje.
 
@@ -108,7 +108,7 @@ Klíčový diferenciál: **autentický kontemplativec funguje intencionálně mi
 
 ### Individuální
 
-1. **Korektní fenomenologická hermeneutika** — výklad noeticko-noematické korelace.
+1. **Korektní fenomenologická [hermeneutika](@/glossary/hermeneutika.md)** — výklad noeticko-noematické korelace.
 2. **Předmětně zaměřená cvičení** — explicitní fixace na konkrétní předmět s tematizováním zaměřenosti.
 3. **Praktická angažovanost** — drobné úkoly s jasným cílem.
 4. **Korektní buddhistická hermeneutika** — výklad šamatha jako prostředku, ne cíle.
@@ -137,8 +137,8 @@ Klíčový diferenciál: **autentický kontemplativec funguje intencionálně mi
 ## Vztah k Prismatic platformě
 
 - **OSINT clear target requirement** — strukturní vynucování zaměřenosti na konkrétní cíl.
-- **NABLA Infinity intencionální axiom** — epistemická provenience operuje s explicitními předměty.
-- **Decision Engine konkrétní rozhodnutí** — vynucování konkrétního výstupu blokuje bezpředmětnost.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) intencionální axiom** — epistemická provenience operuje s explicitními předměty.
+- **[Decision Engine](@/glossary/decision-engine.md) konkrétní rozhodnutí** — vynucování konkrétního výstupu blokuje bezpředmětnost.
 
 ## Související
 

@@ -27,7 +27,7 @@ Klinika potřebuje **rychlé vizuální orientace** — escalation tree, decisio
 
 - **Escalation tree visualization → klinický escalation tree.**
 - **Screening flowchart → klinický screening.**
-- **Decision tree → klinický rozhodovací engine.**
+- **Decision tree → klinický [rozhodovací engine](@/glossary/decision-engine.md).**
 - **State machine → klinický stav pacienta.**
 - **Heatmap → klinické riziko.**
 - **Network graph → vztahy pacient–tým–rodina.**

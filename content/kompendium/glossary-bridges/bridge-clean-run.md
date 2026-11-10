@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-Clean Run je v Prismatic platformě stav úspěšného provedení testovacího nebo deployment cyklu bez warnings, errors, doctrine violations nebo regresí. Je to operacionalizace doctrinální `mix compile --warnings-as-errors --force` + `just quality` + `mix test` + `just validate-doctrine` pipeline s nulovým výstupem chyb.
+Clean Run je v Prismatic platformě stav úspěšného provedení testovacího nebo deployment cyklu bez warnings, errors, [doctrine](@/glossary/doctrine.md) violations nebo regresí. Je to operacionalizace doctrinální `mix compile --warnings-as-errors --force` + `just quality` + `mix test` + `just validate-doctrine` pipeline s nulovým výstupem chyb.
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 

@@ -133,8 +133,8 @@ Kategoriální mlha je odlišitelná od:
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine binární verdict** — strukturní vynucování ostrých rozhodnutí.
-- **NABLA Infinity distinktivní axiom** — epistemická provenience vyžaduje ostré distinkce.
+- **[Decision Engine](@/glossary/decision-engine.md) binární verdict** — strukturní vynucování ostrých rozhodnutí.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) distinktivní axiom** — epistemická provenience vyžaduje ostré distinkce.
 - **OSINT typed entities** — strukturní typování entit obnovuje distinktivnost.
 
 ## Související

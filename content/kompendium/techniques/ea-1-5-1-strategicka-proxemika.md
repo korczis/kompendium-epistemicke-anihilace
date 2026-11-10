@@ -238,8 +238,8 @@ Intervence: Regulatory framework — required cooldown periods, mandatory off-si
 
 ### Eskaluje do
 
-- **EA-1.6.1 Vzorec „Guru a adept“** — proxemická hierarchie je **strukturální komponenta** etablování gurova autority.
-- **Coercive control** — spatial entrapment patterns jsou součást abusive dynamics.
+- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — proxemická hierarchie je **strukturální komponenta** etablování gurova autority.
+- **[Coercive control](@/glossary/coercive-control.md)** — spatial entrapment patterns jsou součást abusive dynamics.
 
 ### Hraniční / podobné
 

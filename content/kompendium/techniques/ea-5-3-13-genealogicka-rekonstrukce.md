@@ -86,13 +86,13 @@ Co může vidět vnější pozorovatel:
 ### Institucionální
 
 - Cult exit programs: moduly o genealogické rekonstrukci a rodinné rekonsolidaci
-- Family law: identifikace genealogické rekonstrukce jako prediktoru high-control group involvement
+- Family law: identifikace genealogické rekonstrukce jako prediktoru [high-control group](@/glossary/high-control-group.md) involvement
 
 ## Vztah k jiným technikám
 
 ### Sister UM techniky (subkategorie 5.3 Hypertransformativní protokoly)
 
-EA-5.3.12 (relační restrukturalizace), EA-5.3.23 (konstitutivní mytologizace)
+[EA-5.3.12](@/kompendium/techniques/ea-5-3-12-relacni-restrukturalizace.md) (relační restrukturalizace), [EA-5.3.23](@/kompendium/techniques/ea-5-3-23-konstitutivni-mytologizace.md) (konstitutivní mytologizace)
 
 ### Cross-categorical references
 
@@ -131,10 +131,10 @@ Foucaultova **généalogie** jako kritická analýza vznikání — manipulátor
 
 Empirický výzkum identitárně manipulativních technik se opírá o několik klíčových linií:
 
-- **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
-- **Hassan, S.** (2018). *Combating Cult Mind Control* — BITE model (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
+- **Lifton, R. J.** (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
+- **Hassan, S.** (2018). *Combating Cult Mind Control* — [BITE model](@/glossary/bite-model.md) (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
 - **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
-- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie disociace, terapeutické důsledky.
+- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie [disociace](@/glossary/disociace.md), terapeutické důsledky.
 
 ## Diferenciální diagnostika
 

@@ -139,7 +139,7 @@ a [ochrana svědků v akutní situaci](@/kompendium/emergency-protocols/40-witne
 *Anonymizovaný kompozitní příklad.* Nevládní organizace dokumentuje výpovědi lidí
 propuštěných z převýchovného zařízení v zemi zasažené konfliktem. Přeživší popisují
 nucené sebekritiky, zákaz mateřského jazyka a hrozby rodinám. Tým postupuje podle
-Istanbulského protokolu: informovaný souhlas, jeden důkladný rozhovor místo opakovaných,
+Istanbulského protokolu: [informovaný souhlas](@/glossary/informed-consent.md), jeden důkladný rozhovor místo opakovaných,
 psycholog k dispozici, oddělené uložení identifikačních údajů. Digitální materiály
 (fotografie, satelitní snímky, příspěvky) zajišťuje podle Berkeleyského protokolu.
 Výsledná dokumentace slouží budoucímu řízení i dnešní péči podle

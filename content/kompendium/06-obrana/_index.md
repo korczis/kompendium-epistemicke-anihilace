@@ -54,7 +54,7 @@ padesáti návodů; jádrem jsou:
 
 ### 2. Vztahová vrstva
 
-Nikdo se neubrání sám. Epistemická anihilace téměř vždy začíná zúžením vztahů, a proto je
+Nikdo se neubrání sám. [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) téměř vždy začíná zúžením vztahů, a proto je
 nejsilnější ochranou **síť lidí, kteří mě znají mimo daný vztah nebo skupinu**:
 [diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md),
 [vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md),

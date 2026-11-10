@@ -64,7 +64,7 @@ ale také rozmělnit kategorie natolik, že ztrácejí rozlišovací schopnost
 | *psychological / emotional abuse* | obecně | britská i americká literatura je užívají nejednotně |
 | [gaslighting](@/glossary/gaslighting.md) | obecně | od hry *Gas Light* (1938); Merriam-Webster jej vyhlásil slovem roku 2022 |
 | [undue influence](@/glossary/undue-influence.md) | common law | doktrína práva o závětích a smlouvách |
-| *thought reform* / *brainwashing* | Lifton / publicistika | Lifton užíval „reformu myšlení“; „brainwashing“ je odborně sporný |
+| *[thought reform](@/glossary/thought-reform.md)* / *brainwashing* | Lifton / publicistika | Lifton užíval „reformu myšlení“; „brainwashing“ je odborně sporný |
 | *survivor* / *victim* | praxe / právo | volba nese hodnotový postoj |
 | *narcissistic abuse* | populární | není odborná kategorie; viz [stránka o populární terminologii](@/kompendium/international/38-popular-terminology-public/index.md) |
 

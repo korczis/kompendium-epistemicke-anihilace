@@ -70,7 +70,7 @@ Popperovské otázky jsou praktickým nástrojem při posuzování skupin s uzav
 - **Symetrie nároků.** Stejný test aplikovat na doktrínu skupiny i na vlastní kritiku.
 - **Pro profesionála:** u člověka po odchodu z uzavřené skupiny nezačínat konfrontací s doktrínou, ale obnovou schopnosti testovat drobná, bezpečná tvrzení; přímá „falsifikace“ víry bývá prožívána jako útok a posiluje obranu.
 
-Meze: popperovské kritérium nevysvětluje, proč lidé doktríně věří; to je otázka vztahů, potřeb a izolace. Jako izolovaný nástroj může sklouznout k intelektuální nadřazenosti, která sama působí jako delegitimizace.
+Meze: popperovské kritérium nevysvětluje, proč lidé doktríně věří; to je otázka vztahů, potřeb a izolace. Jako izolovaný nástroj může sklouznout k intelektuální nadřazenosti, která sama působí jako [delegitimizace](@/glossary/delegitimizace.md).
 
 ## Literatura
 

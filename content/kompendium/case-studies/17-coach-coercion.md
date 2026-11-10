@@ -87,7 +87,7 @@ bývalý partner, který zůstal v kontaktu a jako jediný jí otevřeně řekl,
   zpočátku pomohla, což zmírnilo stud.
 - **S2 – Externalizace introjektů:** věty „moje intuice je starý vzorec“, „bez něj se točím v
   kruhu“ vráceny zdroji.
-- **S3 – Rekonstrukce metakognice:** obnova vlastního rozhodovacího postupu – kritéria,
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** obnova vlastního rozhodovacího postupu – kritéria,
   termíny, kdo všechno má být konzultován.
 - **S4 – Hermeneutická obnova:** rozlišení mezi užitečnými nástroji, které si ponechala, a
   rozšířením koučinku na celý život.

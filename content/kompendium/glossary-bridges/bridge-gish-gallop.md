@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-Gish gallop (named after kreacionista Duane Gish) je rétorická taktika, ve které speaker dodává v rapidní sekvenci tolik různých argumentů, citací a tvrzení, že oponentu chybí čas na korektní rebuttal každého. Asymetrie: vytvoření falešného tvrzení trvá vteřiny, vyvrácení vyžaduje minuty. Strukturálně podobné firehose of falsehood.
+Gish gallop (named after kreacionista Duane Gish) je rétorická taktika, ve které speaker dodává v rapidní sekvenci tolik různých argumentů, citací a tvrzení, že oponentu chybí čas na korektní rebuttal každého. Asymetrie: vytvoření falešného tvrzení trvá vteřiny, vyvrácení vyžaduje minuty. Strukturálně podobné [firehose of falsehood](@/glossary/firehose-of-falsehood.md).
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
@@ -54,7 +54,7 @@ Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich v
 
 ## Klinicke a filosoficke implikace
 
-Gish gallop exploituje epistemickou asymetrii nákladu: falsifikace je dražší než tvrzení (Brandolini's law: 'bullshit asymmetry principle'). Counter-strategie není rebuttal každého bodu, ale strukturální delegitimizace metody samotné. Filosoficky napadá Habermasian deliberation — předpokládá good faith, kterou gish galloper explicitně porušuje.
+Gish gallop exploituje epistemickou asymetrii nákladu: [falsifikace](@/glossary/falsifikace.md) je dražší než tvrzení (Brandolini's law: 'bullshit asymmetry principle'). Counter-strategie není rebuttal každého bodu, ale strukturální [delegitimizace](@/glossary/delegitimizace.md) metody samotné. Filosoficky napadá Habermasian deliberation — předpokládá good faith, kterou gish galloper explicitně porušuje.
 
 Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 

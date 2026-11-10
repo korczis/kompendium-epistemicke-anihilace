@@ -54,7 +54,7 @@ Relativně mladá škála — limitované test-retest data. Kulturně-validačn�
 
 ## Vztah k jiným zdrojům
 
-Konceptuálně provázaný s **EA-8.2.6 ICD-11 Complex Trauma** (epistemic trust disruption jako jádro CPTSD). Předchází nasazení **EA-8.1.6 Betrayal Trauma Inventory**.
+Konceptuálně provázaný s **[EA-8.2.6](@/kompendium/techniques/ea-8-2-6-icd-11-complex-trauma.md) ICD-11 [Complex Trauma](@/glossary/complex-trauma.md)** (epistemic trust disruption jako jádro CPTSD). Předchází nasazení **[EA-8.1.6](@/kompendium/techniques/ea-8-1-6-betrayal-trauma-inventory.md) [Betrayal Trauma](@/glossary/betrayal-trauma.md) Inventory**.
 
 ## Cross-linky
 

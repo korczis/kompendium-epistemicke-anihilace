@@ -65,7 +65,7 @@ Středovou cestou je **stratifikovaný přístup**, kde každá úroveň balancu
 **Požadavky na výcvik**:
 
 - Úvodní orientační kurz (12h)
-- Etický modul: dual-use, primum non nocere, informed consent (4h)
+- Etický modul: dual-use, primum non nocere, [informed consent](@/glossary/informed-consent.md) (4h)
 - Praktický modul: navigace kompendia, glosář, křížové odkazy (4h)
 - Závěrečný test (50 otázek, minimum 80%)
 

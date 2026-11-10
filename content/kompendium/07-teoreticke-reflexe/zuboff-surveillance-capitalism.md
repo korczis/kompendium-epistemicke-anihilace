@@ -19,7 +19,7 @@ toc = true
 
 Shoshana Zuboff — sociální psycholožka, profesorka emeritus Harvard Business School — v monumentálním *The Age of Surveillance Capitalism* (2019) formuluje **strukturální analýzu** nového ekonomického režimu: **surveillance capitalism** — kapitalismu, jehož **primární zdroj** je nikoli práce ani kapitál, ale **lidská zkušenost** **konvertovaná** na predictivní data.
 
-Pro kompendium EA poskytuje Zuboffova analýza nástroj pro pochopení **strukturální EA digitálních platforem**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Zuboffova analýza nástroj pro pochopení **strukturální EA digitálních platforem**.
 
 ## 1. Surveillance capitalism
 
@@ -72,7 +72,7 @@ Tato distinkce je **strukturálně klíčová**:
 
 Pro EA má instrumentální moc **strukturální význam**:
 
-- **Subtílnější EA**: instrumentální moc je strukturálně **těžší detekovat** než totalitární propaganda
+- **Subtílnější EA**: instrumentální moc je strukturálně **těžší detekovat** než totalitární [propaganda](@/glossary/propaganda.md)
 - **Klinický korelát**: subjekt vystavený instrumentální moci může **necítit** explicitní útlak — strukturální paradox
 
 ## 4. Right to the future tense

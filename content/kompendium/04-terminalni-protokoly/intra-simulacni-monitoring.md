@@ -60,7 +60,7 @@ Komponenty:
 - **Behavioral coding** — kódování behaviorálních markerů zkušeným pozorovatelem,
 - **Performance monitoring** — sledování úspěšnosti subjektu na úkolech protokolu,
 - **Speech analysis** — analýza prozodie, koherence, lexikální variability,
-- **Motor activity** — sledování motorických markerů stresu a disociace.
+- **Motor activity** — sledování motorických markerů stresu a [disociace](@/glossary/disociace.md).
 
 Eskalační markery:
 
@@ -79,7 +79,7 @@ Komponenty:
 - **Mikroexprese** — sledování faciálních mikromarkerů,
 - **Afektivní coding** — kódování pozorovatelného afektu,
 - **Periodické fenomenologické check-ins** v intervalech protokolu,
-- **Self-report markery** — krátké sebehodnotící škály v kontrolovaných intervalech.
+- **[Self-report](@/glossary/self-report.md) markery** — krátké sebehodnotící škály v kontrolovaných intervalech.
 
 Eskalační markery:
 

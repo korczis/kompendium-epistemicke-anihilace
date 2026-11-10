@@ -17,7 +17,7 @@ toc = true
 
 # 7.3 Sociální epistemologie EA — Goldman, Fricker, Longino, Anderson
 
-Sociální epistemologie — disciplína systematicky rozvíjená od 70. let 20. století — představuje pro kompendium EA **bezprecedentně relevantní** teoretický zdroj. Zatímco klasická epistemologie analyzuje individuální poznání izolovaného subjektu, sociální epistemologie zkoumá **kolektivní** dimenzi vědění: jak věříme druhým, jak operují epistemické instituce, jak distribuce moci formuje distribuci vědění a jak některé sociální struktury **systematicky znevýhodňují** určité epistemické subjekty.
+Sociální epistemologie — disciplína systematicky rozvíjená od 70. let 20. století — představuje pro [kompendium EA](@/glossary/kompendium-ea.md) **bezprecedentně relevantní** teoretický zdroj. Zatímco klasická epistemologie analyzuje individuální poznání izolovaného subjektu, sociální epistemologie zkoumá **kolektivní** dimenzi vědění: jak věříme druhým, jak operují epistemické instituce, jak distribuce moci formuje distribuci vědění a jak některé sociální struktury **systematicky znevýhodňují** určité epistemické subjekty.
 
 Tato kapitola představuje čtyři kanonické pozice — Alvina Goldmana (veritism a sociální reliabilismus), Mirandu Fricker (epistemická nespravedlnost), Helen Longino (kritický kontextový empirismus) a Elizabeth Anderson (demokratická epistemologie) — a explicitně mapuje jejich vztah k taxonomii EA.
 
@@ -74,7 +74,7 @@ Frickerová rozlišuje **dva** centrální typy epistemické nespravedlnosti:
 
 ### 2.2 Testimoniální nespravedlnost
 
-> *Testimoniální nespravedlnost** nastává, když posluchač přiřadí mluvčímu **deficitní úroveň důvěryhodnosti** kvůli identitnímu předsudku.*
+> *[Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md)** nastává, když posluchač přiřadí mluvčímu **deficitní úroveň důvěryhodnosti** kvůli identitnímu předsudku.*
 
 Komponenty:
 
@@ -153,9 +153,9 @@ Longino poskytuje kompendiu **strukturální** kritérium pro identifikaci patol
 
 Architektura **[Color Teams](@/glossary/color-teams.md)** v Prismatic platformě **přímo implementuje** Longino podmínky:
 
-- **Red Team** zajišťuje veřejnou dostupnost kanálů kritiky (institucionalizovaná adversariální role)
-- **Blue Team** zajišťuje responsivitu (povinnost reagovat na Red Team kritiku)
-- **Purple Team** zajišťuje sdílené standardy (synthetizující meta-evaluaci)
+- **[Red Team](@/glossary/red-team.md)** zajišťuje veřejnou dostupnost kanálů kritiky (institucionalizovaná adversariální role)
+- **[Blue Team](@/glossary/blue-team.md)** zajišťuje responsivitu (povinnost reagovat na Red Team kritiku)
+- **[Purple Team](@/glossary/purple-team.md)** zajišťuje sdílené standardy (synthetizující meta-evaluaci)
 - Symetrická struktura zajišťuje zmocněnou rovnost
 
 ### 3.4 Hodnotová neutralita: kritická revize
@@ -199,7 +199,7 @@ Pro EA to má klíčový význam: **institucionální delegitimizace whistleblow
 | **Centrální pojem** | Veritistická hodnota | Epistemická nespravedlnost | Kritický kontextový empirismus | Demokratická epistemologie |
 | **Hlavní přínos pro EA** | Kvantitativní hodnocení EA technik | Identifikace strukturálních asymetrií | Strukturální podmínky integrity | Společenský horizont integrace |
 | **Slabina** | Slepota k mocenským asymetriím | Limitovaná operacionalizace | Idealizovaná představa vědy | Limitovaná implementace |
-| **Architektonická implementace v Prismatic** | Decision Engine source weighting | Hermeneutický aparát kompendia | Color Teams | Cross-team collaboration |
+| **Architektonická implementace v Prismatic** | [Decision Engine](@/glossary/decision-engine.md) source weighting | Hermeneutický aparát kompendia | Color Teams | Cross-team collaboration |
 
 ## 6. Limity sociální epistemologie
 

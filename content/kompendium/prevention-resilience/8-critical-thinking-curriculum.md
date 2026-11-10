@@ -27,7 +27,7 @@ Systematicky učit kritické myšlení jako primární obranu proti EA na všech
 
 ## Klíčové komponenty
 
-Logical fallacies (35+), cognitive biases (Kahneman), Bayesian reasoning, falsifiability (Popper), Occam's razor, scientific method.
+Logical fallacies (35+), cognitive biases (Kahneman), Bayesian reasoning, [falsifiability](@/glossary/falsifikovatelnost.md) (Popper), Occam's razor, scientific method.
 
 ---
 

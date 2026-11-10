@@ -22,7 +22,7 @@ quality_score = 75
 
 ## Definition
 
-Taxonomie EA (Epistemická Anihilace) je hierarchická klasifikace manipulačních vzorců napříč kognitivními, emocionálními, behaviorálními a pre-konceptuálními doménami. Slouží jako analytický rámec pro Prismatic Kompendium — každá technika dostává unikátní EA-kód (např. EA-1-6-1 = Vzorec guru a adept, EA-5-5-x = pre-konceptuální disrupce). Taxonomie umožňuje detekci, klasifikaci, a profylaktickou intervenci proti známým manipulačním vzorcům.
+[Taxonomie EA](@/glossary/taxonomie-ea.md) ([Epistemická Anihilace](@/glossary/epistemicka-anihilace.md)) je hierarchická klasifikace manipulačních vzorců napříč kognitivními, emocionálními, behaviorálními a pre-konceptuálními doménami. Slouží jako analytický rámec pro Prismatic Kompendium — každá technika dostává unikátní EA-kód (např. EA-1-6-1 = Vzorec guru a adept, EA-5-5-x = pre-konceptuální disrupce). Taxonomie umožňuje detekci, klasifikaci, a profylaktickou intervenci proti známým manipulačním vzorcům.
 
 ## See Also
 

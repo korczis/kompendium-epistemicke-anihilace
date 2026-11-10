@@ -54,7 +54,7 @@ Critique: too schematic, real recovery messier. Less validated v low-resource se
 
 ## Vztah k jiným zdrojům
 
-Operacionalizační rámec pro **EA-6.4.2 Post-Cult Protokol**. Synergický s **EA-8.2.6 ICD-11 Complex Trauma** a **EA-8.2.9 van der Kolk Trauma**.
+Operacionalizační rámec pro **[EA-6.4.2](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) Post-Cult Protokol**. Synergický s **[EA-8.2.6](@/kompendium/techniques/ea-8-2-6-icd-11-complex-trauma.md) ICD-11 [Complex Trauma](@/glossary/complex-trauma.md)** a **[EA-8.2.9](@/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md) van der Kolk Trauma**.
 
 ## Cross-linky
 

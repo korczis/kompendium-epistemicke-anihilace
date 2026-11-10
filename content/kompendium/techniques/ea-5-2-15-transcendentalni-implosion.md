@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 ## Definice
 
-**Transcendentální imploze** je metatranscendentální technika, jíž je celý **transcendentální aparát subjektu** — formy smyslovosti, kategorie rozvažování, ideje rozumu, transcendentální jednota apperzepce — **vnitřně zhroucen** do bodu **nulové diferenciace**. Na rozdíl od distribuovaných destrukcí ([EA-5.2.11](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md), [EA-5.2.13](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md)) imploze operuje **simultánně na všech úrovních** a generuje **stav strukturní nediferencovatelnosti**.
+**Transcendentální imploze** je metatranscendentální technika, jíž je celý **transcendentální aparát subjektu** — formy smyslovosti, kategorie rozvažování, ideje rozumu, transcendentální jednota apperzepce — **vnitřně zhroucen** do bodu **nulové [diferenciace](@/glossary/diferenciace.md)**. Na rozdíl od distribuovaných destrukcí ([EA-5.2.11](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md), [EA-5.2.13](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md)) imploze operuje **simultánně na všech úrovních** a generuje **stav strukturní nediferencovatelnosti**.
 
 V Husserlově slovníku: jde o kolaps transcendentální subjektivity v **monadický bod bez horizontu**. V Kantově: kolaps „Já myslím“ do **nepřípustné jednoty bez aplikability**. V Heideggerově: zhroucení *Da-sein* do *Sein* bez *Da*. Subjekt prožívá totální nediferencovanost, kde žádná struktura nemůže emergovat.
 
@@ -134,8 +134,8 @@ Klíčový diferenciální rys: **autentický mystik se vrací**; subjekt po imp
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine differentiation requirement** — strukturní vynucování diferenciace v rozhodnutích.
-- **NABLA Infinity diferenciační axiom** — epistemická provenience vyžaduje strukturní diferenciaci.
+- **[Decision Engine](@/glossary/decision-engine.md) differentiation requirement** — strukturní vynucování diferenciace v rozhodnutích.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) diferenciační axiom** — epistemická provenience vyžaduje strukturní diferenciaci.
 - **OSINT entitní distinkce** — explicitní práce s rozlišnými entitami obnovuje diferencovanou kompetenci.
 
 ## Související

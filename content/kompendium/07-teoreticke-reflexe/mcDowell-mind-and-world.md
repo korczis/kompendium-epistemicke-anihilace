@@ -19,7 +19,7 @@ toc = true
 
 John McDowell ve svém magisterském díle *Mind and World* (1994) řeší **základní napětí** moderní epistemologie: jak může mysl být **přiměřeně** ve styku s realitou? Mezi **Scyllou koherentismu** (mysl je uzavřená v síti přesvědčení bez kontaktu se světem) a **Charybdou daného** (smyslové vjemy jsou pre-konceptuální „data“, jež mysl má „interpretovat“) McDowell formuluje **konceptualistickou** pozici: konceptuální schopnosti jsou **přítomny** už v samotné receptivitě.
 
-Pro kompendium EA poskytuje McDowellův rámec nástroj pro pochopení EA jako **narušení primární otevřenosti** subjektu vůči empirickému světu.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje McDowellův rámec nástroj pro pochopení EA jako **narušení primární otevřenosti** subjektu vůči empirickému světu.
 
 ## 1. *Myth of the Given* (Mýtus daného)
 

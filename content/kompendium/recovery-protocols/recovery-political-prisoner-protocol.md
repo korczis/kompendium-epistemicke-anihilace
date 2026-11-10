@@ -16,7 +16,7 @@ phase = "special"
 
 # Protokol pro politické vězně
 
-> **Status**: Klinicky strukturovaný longitudinální protokol — integrace evidence-based modalit s diagnostickou optikou kompendia.
+> **Status**: Klinicky strukturovaný longitudinální protokol — integrace [evidence-based](@/glossary/evidence-based.md) modalit s diagnostickou optikou kompendia.
 > **Fáze**: `special`
 > **Cílový rámec**: Variabilní podle populace — od bezprostřední krizové intervence po multi-letý rekonstruktivní rámec.
 
@@ -59,7 +59,7 @@ Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vys
 
 - **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
 - **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **Coercive control / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
+- **[Coercive control](@/glossary/coercive-control.md) / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
 - **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
 - **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
 

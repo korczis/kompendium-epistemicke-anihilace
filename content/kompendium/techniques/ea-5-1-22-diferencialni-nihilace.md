@@ -85,7 +85,7 @@ V kombinaci s [EA-1.4.2 latentní emocionální modulací](@/kompendium/techniqu
 |--------|----------|
 | Subjekt **zaměňuje** dříve striktně rozlišované termíny | Probíhající kolaps distinkce |
 | **Lexikální chudnutí** vlastního projevu (klesající variabilita) | Lingvistická signatura zploštění |
-| Označování jemných rozborů jako **pedanterie** | Internalizovaná delegitimizace jemnosti |
+| Označování jemných rozborů jako **pedanterie** | Internalizovaná [delegitimizace](@/glossary/delegitimizace.md) jemnosti |
 | **Kvantifikační záměny** ve vlastní argumentaci ("některé" → "všechny") | Strukturální stopa Kroku 3 |
 | **Souhrnný slovník** tam, kde dříve subjekt rozlišoval | Performativní zploštění |
 | Pocit, že "to je v zásadě totéž" v případech, kde jde o různé věci | Kognitivní výstup nihilace |

@@ -39,7 +39,7 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 **EMDR protokol** je Eye Movement Desensitization and Reprocessing — strukturovaná osmifázová terapie využívající bilaterální stimulaci k aktivaci adaptivního zpracování traumatických vzpomínek; specificky adaptovaná pro EA-trauma s důrazem na epistemická a relační traumata.
 
-Technika je součástí systematické klinické taxonomie EA-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
+Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
 
 ## Indikace
 
@@ -67,7 +67,7 @@ Každý krok je dokumentován v klinickém záznamu s časovými razítky, klí�
 
 ## Trvání a frekvence
 
-**Typická délka:** 8-12 sezení 90 min; komplexní trauma 20+ sezení.
+**Typická délka:** 8-12 sezení 90 min; [komplexní trauma](@/glossary/complex-trauma.md) 20+ sezení.
 
 Frekvence sezení a celková délka intervence jsou závislé na komplexitě klinického obrazu, komorbiditách a individuální responsivitě. V populacích s komplexním C-PTSD je třeba počítat s prolongovaným průběhem, zatímco u single-incident traumat lze očekávat rychlejší progression.
 
@@ -83,7 +83,7 @@ Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní pod
 
 Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně, ke které je aplikována:
 
-EA-3 sektářské: protokol pro mapování in-cult traumatických epizod. EA-6.5 krizové: rapid stabilization protocol pro akutní trauma. EA-6.4.3 uprchlíci: kulturně-senzitivní adaptace.
+EA-3 sektářské: protokol pro mapování in-cult traumatických epizod. EA-6.5 krizové: rapid stabilization protocol pro akutní trauma. [EA-6.4.3](@/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md) uprchlíci: kulturně-senzitivní adaptace.
 
 Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
 
@@ -91,7 +91,7 @@ Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fen
 
 Aplikace techniky nese následující potenciální iatrogenní rizika:
 
-Abreakce a desorganizace při nedostatečné stabilizaci, retraumatizace, dissociativní switching v sezení, paradoxní zafixování traumatu při neúplném zpracování.
+Abreakce a desorganizace při nedostatečné stabilizaci, [retraumatizace](@/glossary/retraumatizace.md), dissociativní switching v sezení, paradoxní zafixování traumatu při neúplném zpracování.
 
 Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
 
@@ -99,7 +99,7 @@ Předcházení iatrogenním poškozením je integrální součástí klinické e
 
 Technika **EA-6.2.2** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu polyvagální teorie (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje kauzální intervence redukující EA-symptomatologii s měřitelným outcome.
 
-**Klinické zacílení**: evidence-based psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou (úzkostné poruchy, depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
+**Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou (úzkostné poruchy, depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
 **DSM-5-TR / ICD-11 mapování**: technika je primárně indikována pro diagnózy odpovídající F43.1 PTSD (ICD-11 6B40), F33 Recurrent depressive disorder (ICD-11 6A71), F41 Anxiety disorders (ICD-11 6B00-05), F45 Somatoform disorders (ICD-11 6C20-21). V rámci ICD-11 6B41 Complex PTSD (CPTSD) představuje technika klíčovou intervenční komponentu pro tři jádrové domény CPTSD: dysregulace afektu, negativní sebepojetí a relační poruchy. Diferenciální diagnostika musí explicitně vyloučit primární psychotické spektra (F20-F29 / 6A2X), bipolární poruchy (F31 / 6A6X) a organické afektivní poruchy (F06.3X / 6E62).
 
@@ -157,7 +157,7 @@ Klinické rozhodování o aplikaci techniky **EA-6.2.2** sleduje strukturovaný 
 
 ## Neuropsychologické markery
 
-Aplikace techniky je provázena charakteristickými neurokognitivními změnami, které lze objektivizovat standardním neuropsychologickým testováním. Dokumentované markery slouží jako objektivní outcome měření paralelní k self-report instrumentům:
+Aplikace techniky je provázena charakteristickými neurokognitivními změnami, které lze objektivizovat standardním neuropsychologickým testováním. Dokumentované markery slouží jako objektivní outcome měření paralelní k [self-report](@/glossary/self-report.md) instrumentům:
 
 **Pozornostní funkce**: pre-intervenční obraz typicky vykazuje narušení selektivní pozornosti (Stroop interference + 1.5 SD nad normou), sníženou vigilanční kapacitu (CPT-3 commission errors > 70 percentil) a afektivní bias v emoční Stroop úloze (latence pro trauma-related stimuli). Post-intervenčně dokumentována normalizace o 0.6-1.0 SD.
 
@@ -165,7 +165,7 @@ Aplikace techniky je provázena charakteristickými neurokognitivními změnami,
 
 **Paměťové funkce**: charakteristické fragmentární kódování traumatic memory (CVLT-3 free recall pro emocionální materiál), deficity v autobiografické specificitě (AMT — Autobiographical Memory Test), over-general recall bias. Mereologická rekonstrukce vede k progresivní normalizaci specificity.
 
-**Sociálně-kognitivní markery**: pre-intervenčně narušená teorie mysli (Reading the Mind in the Eyes Test pod 25 percentilem), hyper-vigilance vůči sociálním ohrožením, deficit v emoční identifikaci.
+**Sociálně-kognitivní markery**: pre-intervenčně narušená [teorie mysli](@/glossary/theory-of-mind.md) (Reading the Mind in the Eyes Test pod 25 percentilem), hyper-vigilance vůči sociálním ohrožením, deficit v emoční identifikaci.
 
 **Doporučená neuropsychologická baterie**: Stroop, CPT-3, WCST, n-back, CVLT-3, AMT, RMET, Iowa Gambling Task. Cena/přínos analýza ukazuje, že full baseline + post-baterie je indikována u L2 výzkumných protokolů; v rutinní klinice postačuje screening-úroveň (Stroop + AMT + CVLT-3).
 
@@ -254,7 +254,7 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 Technika je integrována do širšího ekosystému platformy Prismatic prostřednictvím:
 
 - **Prismatic Nabla** — epistemický engine umožňuje kvantifikaci epistemicko-afektivního poškození jako vstup do klinického assessmentu a výstup z monitoring intervence
-- **Decision Engine** — kalibrace klinického rozhodování o indikaci/modifikaci/ukončení techniky s explicitními Brierův skór metrikami
+- **[Decision Engine](@/glossary/decision-engine.md)** — kalibrace klinického rozhodování o indikaci/modifikaci/ukončení techniky s explicitními Brierův skór metrikami
 - **OSINT toolbox** — pre-klinické forenzní DD klientů s anamnézou expozice manipulativním systémům, validizace anamnestických údajů
 - **Akademie** — interaktivní vzdělávací moduly pro klinickou populaci a peer-support komunity
 

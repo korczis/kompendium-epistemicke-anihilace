@@ -104,7 +104,7 @@ situace se může v čase měnit.
 - **Rozhovor za přítomnosti obchodníka** nebo s tlumočníkem z jeho okruhu.
 - **Rychlé vyhoštění** před identifikací.
 - **Přehlédnutí domácích obětí** – obchodování se týká i občanů vlastního státu.
-- **Retraumatizace** opakovanými výslechy.
+- **[Retraumatizace](@/glossary/retraumatizace.md)** opakovanými výslechy.
 
 ## Modelová situace (anonymizovaná)
 

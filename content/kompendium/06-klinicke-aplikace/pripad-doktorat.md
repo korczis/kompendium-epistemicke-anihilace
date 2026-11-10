@@ -175,7 +175,7 @@ Případ M. ilustruje několik klinicky relevantních aspektů:
 | **Intenzita** | Intenzivní, koncentrovaná | Distribuovaná, chronická |
 | **Detekovatelnost vzorce** | Nižší (prožívána jako "transformativní vztah") | Nižší (prožívána jako "normální PhD") |
 | **Akutnost krize** | Subakutní destabilizace | Akutní psychiatrická krize |
-| **Centrální technika** | EA-1.1.1, EA-1.4.2 | EA-1.2.1, EA-1.3.3 |
+| **Centrální technika** | [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md), [EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) | EA-1.2.1, EA-1.3.3 |
 | **Klinický výsledek** | Akademická reorientace | Akademický exit |
 | **Reverzibilita** | Vyšší | Nižší (autorské komplikace) |
 

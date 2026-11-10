@@ -18,7 +18,7 @@ type = "educational-scenario"
 > **Úroveň**: Foundation
 > **Učební cíl**: Aplikovat CRAAP test (Currency, Relevance, Authority, Accuracy, Purpose) a poznat jeho meze
 > **Doporučená délka**: 90 minut
-> **Pro koho**: studenti, analytici, rešeršéři, pracovníci due diligence a OSINT
+> **Pro koho**: studenti, analytici, rešeršéři, pracovníci [due diligence](@/glossary/due-diligence.md) a OSINT
 
 **CRAAP test** je kontrolní seznam z knihovnické praxe: hodnotí aktuálnost (*Currency*),
 relevanci (*Relevance*), autoritu (*Authority*), přesnost (*Accuracy*) a účel (*Purpose*) zdroje.

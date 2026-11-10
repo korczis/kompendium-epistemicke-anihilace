@@ -21,7 +21,7 @@ status = "complete"
 
 # Klasifikační schéma a taxonomie — meta-úroveň
 
-> **Meta-popis klasifikačního systému kompendia** — notace, dimenzionální osy, principy kanonizace, vztah k externím taxonomiím (DSM-5, ICD-11, BITE Model). Slouží jako referenční dokument pro výzkumníky přidávající nové techniky do taxonomie a pro recenzenty hodnotící konzistenci klasifikace.
+> **Meta-popis klasifikačního systému kompendia** — notace, dimenzionální osy, principy kanonizace, vztah k externím taxonomiím (DSM-5, ICD-11, [BITE Model](@/glossary/bite-model.md)). Slouží jako referenční dokument pro výzkumníky přidávající nové techniky do taxonomie a pro recenzenty hodnotící konzistenci klasifikace.
 
 ## 1. Notační systém
 
@@ -35,7 +35,7 @@ EA-X.Y.Z[-α]
 
 | Komponenta | Význam | Doména hodnot |
 |------------|--------|---------------|
-| **EA** | Konstantní prefix: Epistemická anihilace | Pevné |
+| **EA** | Konstantní prefix: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) | Pevné |
 | **X** | Primární kategorie / kapitola | 1–10 |
 | **Y** | Subkategorie | 1–9 |
 | **Z** | Specifický fenomén | 1–99 |
@@ -55,7 +55,7 @@ EA-X.Y.Z[-α]
 |---|----------|----------------|
 | 1 | Akademické techniky | Intelektuální / akademické prostředí |
 | 2 | Delegitimizační techniky | Útok na zdrojovou věrohodnost |
-| 3 | Edukativní implementace | Sebe-manipulace učenou skrze pedagogiku |
+| 3 | [Edukativní implementace](@/glossary/edukativni-implementace.md) | Sebe-manipulace učenou skrze pedagogiku |
 | 4 | Terminální protokoly | Komplexní destrukční sekvence |
 | 5 | Ultramární techniky | Fundamentální dekonstrukce poznávání |
 | 6 | Klinické aplikace | Diagnostika a terapie |
@@ -136,7 +136,7 @@ Postup pro přidání nové techniky do taxonomie:
 
 - **Empirické pozorování** ve výzkumu nebo klinice.
 - **Historická literatura** (kapitola II Bibliografie atd.).
-- **Adversariální simulace** Red Team scénáře.
+- **Adversariální simulace** [Red Team](@/glossary/red-team.md) scénáře.
 
 ### Krok 2 — Diferenciální analýza
 
@@ -199,18 +199,18 @@ Mapování BITE → EA viz [Diagnostika §1](@/kompendium/08-prilohy/diagnostick
 
 | Liftonovo kritérium | Odpovídající EA techniky |
 |---------------------|--------------------------|
-| Milieu Control | [`EA-1.1.1`](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md), `EA-3.2.1` |
+| [Milieu Control](@/glossary/milieu-control.md) | [`EA-1.1.1`](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md), `EA-3.2.1` |
 | Mystical Manipulation | [`EA-5.1.19`](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md) |
 | Demand for Purity | `EA-3.3.1`, Kap. 4 |
 | Confession | `EA-3.2.1` |
 | Sacred Science | [`EA-1.3.1`](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) |
-| Loading the Language | [`EA-1.1.3`](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), `EA-5.1.5` |
-| Doctrine over Person | Kap. 4 protokoly |
+| [Loading the Language](@/glossary/loading-the-language.md) | [`EA-1.1.3`](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), `EA-5.1.5` |
+| [Doctrine](@/glossary/doctrine.md) over Person | Kap. 4 protokoly |
 | Dispensing of Existence | Kap. 4 + 5 finální fáze |
 
 ### 5.5 NABLA Infinity (∇∞) L0–L13
 
-Mapování EA technik na úrovně epistemic pipeline NABLA Infinity:
+Mapování EA technik na úrovně [epistemic pipeline](@/glossary/epistemic-pipeline.md) NABLA Infinity:
 
 | EA kapitola | NABLA L0–L13 |
 |-------------|--------------|
@@ -234,7 +234,7 @@ Cílem je, aby **každá empiricky pozorovaná technika** měla v taxonomii své
 
 ### 6.3 Hierarchická konzistence
 
-Subkategorie Y musí být **všechny ze stejné dimenze** v rámci kapitoly X. Příklad: Kap. 1 dělí podle **akademických aktivit** (akvizice, logika, falsifikace, prosodie, proxemika), Kap. 5 dělí podle **úrovně rozpadu** (sémantická, narativní, identitární, ontologická).
+Subkategorie Y musí být **všechny ze stejné dimenze** v rámci kapitoly X. Příklad: Kap. 1 dělí podle **akademických aktivit** (akvizice, logika, [falsifikace](@/glossary/falsifikace.md), prosodie, proxemika), Kap. 5 dělí podle **úrovně rozpadu** (sémantická, narativní, identitární, ontologická).
 
 ### 6.4 Reproducibilita klasifikace
 

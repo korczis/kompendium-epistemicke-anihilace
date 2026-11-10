@@ -17,7 +17,7 @@ toc = true
 
 # 7.14 Heidegger: Být-ve-světě a struktura starosti
 
-Martin Heideggerovo *Sein und Zeit* (*Bytí a čas*, 1927) zakládá **fundamentální ontologii** — analýzu **bytí pobytu** (*Dasein*), člověka jako bytosti, jejíž způsob existence je **starostí** (*Sorge*) o své vlastní bytí. Pro kompendium EA poskytuje Heideggerova analýza nástroj pro pochopení **strukturálních zlomů**, jež manipulativní techniky vyvolávají v **existenciálním pobývání** subjektu — nikoli pouze v jeho kognitivních operacích.
+Martin Heideggerovo *Sein und Zeit* (*Bytí a čas*, 1927) zakládá **fundamentální ontologii** — analýzu **bytí pobytu** (*Dasein*), člověka jako bytosti, jejíž způsob existence je **starostí** (*Sorge*) o své vlastní bytí. Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Heideggerova analýza nástroj pro pochopení **strukturálních zlomů**, jež manipulativní techniky vyvolávají v **existenciálním pobývání** subjektu — nikoli pouze v jeho kognitivních operacích.
 
 ## 1. *In-der-Welt-sein* (Být-ve-světě)
 
@@ -59,7 +59,7 @@ Pobyt je strukturálně **starostí** — bytím, jež se **zaobírá** vlastní
 Pro EA z toho plyne:
 
 - **Útok na projektivitu**: techniky, jež **paralyzují** schopnost projektovat budoucnost („není žádná budoucnost“, fatalistický framing). Strukturálně související s **anhedonií** a **depresivními stavy**.
-- **Útok na fakticitu**: gaslighting jako **falsifikace minulosti** — „to se nestalo“.
+- **Útok na fakticitu**: [gaslighting](@/glossary/gaslighting.md) jako **[falsifikace](@/glossary/falsifikace.md) minulosti** — „to se nestalo“.
 - **Útok na angažmá**: cynismus jako **rozpojení** od jsoucího — vše je „pouze hra“, nic skutečně neuvazuje.
 
 ## 4. *Verfallenheit* (Upadlost) a *das Man*

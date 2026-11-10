@@ -18,7 +18,7 @@ modality = "behavioral"
 
 Akcelerace izolace je postupné, ale v čase zrychlující se odřezávání člověka od jeho podpůrné sítě – rodiny, přátel, kolegů, terapeuta, nezávislých zdrojů informací – v souvislosti se vztahem k určité osobě nebo skupině. Klíčové slovo je **akcelerace**: nejde o stabilně malou síť, ale o měřitelné zužování, které se zrychluje a je zdůvodňováno potřebou vztahu („oni nám nepřejí“, „potřebuješ se soustředit na růst“, „chráním tě“).
 
-Izolace je jedním z nejlépe doložených prvků nátlakových prostředí. Biderman (1957) ji uvádí na prvním místě svého „schématu nátlaku“ (*chart of coercion*), Lifton (1961) popisuje *milieu control*, Herman (1992) izolaci jako součást mechanismu traumatického zajetí a Stark (2007) jako jeden z pilířů [coercive control](@/glossary/coercive-control.md). V akademickém prostředí ji zachycuje technika [EA-2.2.2 Mentee Isolation](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md).
+Izolace je jedním z nejlépe doložených prvků nátlakových prostředí. Biderman (1957) ji uvádí na prvním místě svého „schématu nátlaku“ (*chart of coercion*), Lifton (1961) popisuje *[milieu control](@/glossary/milieu-control.md)*, Herman (1992) izolaci jako součást mechanismu traumatického zajetí a Stark (2007) jako jeden z pilířů [coercive control](@/glossary/coercive-control.md). V akademickém prostředí ji zachycuje technika [EA-2.2.2 Mentee Isolation](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md).
 
 ## Co signatura indikuje
 

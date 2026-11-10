@@ -24,7 +24,7 @@ toc = false
 
 1. Vytvoření iluze „spontánního“ peer konsenzu proti subjektu — koordinovaná, nikoli organická vlna kritiky (sdílená wording, časová synchronizace)
 2. Eskalace skrze sociální média / interní listservy — text útoku migruje s drobnými modifikacemi, kořen je ale jeden
-3. Sociální izolace cíle — peers, kteří by ho hájili, mlčí, protože vidí cenu obhajoby; mob roste z toho mlčení
+3. [Sociální izolace](@/glossary/socialni-izolace.md) cíle — peers, kteří by ho hájili, mlčí, protože vidí cenu obhajoby; mob roste z toho mlčení
 
 ## Detekční markery (3 nejvýraznější)
 

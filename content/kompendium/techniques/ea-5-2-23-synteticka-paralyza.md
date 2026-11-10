@@ -58,7 +58,7 @@ Manipulátor systematicky zpochybňuje každý subjektův syntetický soud — *
 
 ### Krok 3 — Tautologická retreat
 
-Subjekt postupně omezuje své tvrzení na analytické soudy („víc tautologie, méně rizika“). Empirické generalizace mizí.
+Subjekt postupně omezuje své tvrzení na analytické soudy („víc [tautologie](@/glossary/tautologie.md), méně rizika“). Empirické generalizace mizí.
 
 ### Krok 4 — Bod paralýzy
 
@@ -92,7 +92,7 @@ Stav strukturní syntetické paralýzy je etablován jako „filozofická ctnost
 Syntetická paralýza je odlišitelná od:
 
 - **Legitimní humeovské skepse**, jež **operuje pragmaticky** s induktivní praxí navzdory teoretické pochybnosti.
-- **Kantovské transcendentální korekce**, jež **etabluje syntetické a priori** jako legitimní rozšiřující soudy.
+- **Kantovské transcendentální korekce**, jež **etabluje syntetické [a priori](@/glossary/apriori.md)** jako legitimní rozšiřující soudy.
 - **Klinické nerozhodnosti** (OCD), jež má odlišnou etiologii.
 
 ## Rizikové kontexty
@@ -135,8 +135,8 @@ Syntetická paralýza je odlišitelná od:
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine generalizace** — strukturní vynucování syntetických závěrů z evidence.
-- **NABLA Infinity bayesovský axiom** — epistemická provenience pracuje s graduální syntézou.
+- **[Decision Engine](@/glossary/decision-engine.md) generalizace** — strukturní vynucování syntetických závěrů z evidence.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) bayesovský axiom** — epistemická provenience pracuje s graduální syntézou.
 - **OSINT pattern recognition** — strukturní syntéza napříč zdroji obnovuje kompetenci.
 
 ## Související

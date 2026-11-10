@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/08-prilohy/"
 
 ## Charakteristika zdroje
 
-Lifton (1961) Thought Reform and the Psychology of Totalism. Schein (1961) Coercive Persuasion. Hassan (1988) Combatting Cult Mind Control. Singer & Lalich (1995) Cults in Our Midst. Hassan (2018) The Cult of Trump.
+Lifton (1961) [Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism. Schein (1961) Coercive Persuasion. Hassan (1988) Combatting Cult Mind Control. Singer & Lalich (1995) Cults in Our Midst. Hassan (2018) The Cult of Trump.
 
 ## Klíčové komponenty
 
@@ -54,7 +54,7 @@ Westerní bias (US-centric kazuistiky). Méně data o korporátním totalismu, o
 
 ## Vztah k jiným zdrojům
 
-Provázáno se všemi EA-8.2.x referenčními rámci. Komplementární s **EA-8.3.3 Philosophical Canon** a **EA-8.3.4 Empirical Research Base**.
+Provázáno se všemi EA-8.2.x referenčními rámci. Komplementární s **[EA-8.3.3](@/kompendium/techniques/ea-8-3-3-philosophical-canon.md) Philosophical Canon** a **[EA-8.3.4](@/kompendium/techniques/ea-8-3-4-empirical-research-base.md) Empirical Research Base**.
 
 ## Cross-linky
 

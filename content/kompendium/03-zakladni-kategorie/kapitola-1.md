@@ -29,7 +29,7 @@ Akademické techniky intelektuální manipulace operují na distinktním teoreti
 
 | Vrstva | Mechanismus | Disciplinární zakotvení |
 |--------|-------------|--------------------------|
-| **Exploitace kognitivních biasů** | Konfirmační bias, důvěra v autoritu, framing, kotvení a adjustace | Kognitivní psychologie (Kahneman, Tversky) |
+| **Exploitace kognitivních biasů** | [Konfirmační bias](@/glossary/konfirmacni-bias.md), důvěra v autoritu, framing, kotvení a adjustace | Kognitivní psychologie (Kahneman, Tversky) |
 | **Subverze evaluačních kritérií** | Adiaphoretická neutralizace, meta-epistemická rekonfigurace, paralogická substituce | Epistemologie a filozofie vědy |
 | **Exploitace sociální dynamiky** | Manipulace s konsensem, exploitace norem zdvořilosti, epistemická triangulace | Sociolingvistika a sociologie vědění |
 
@@ -67,7 +67,7 @@ Pokročilá taxonomie EA-1 systematicky integruje konceptuální zdroje z někol
 | **Filozofická epistemologie** | Konceptuální architektura evaluačních kritérií, distinkce mezi epistemickou a kognitivní rovinou |
 | **Kognitivní psychologie** | Mapování exploitovatelných biasů, modely kognitivního zatížení a metakognitivní detekce |
 | **Sociolingvistika** | Analýza pragmatických funkcí, paralingvistických markerů a interakční dynamiky |
-| **Sociologie vědění** | Pochopení institucionálních mechanismů legitimizace a delegitimizace |
+| **Sociologie vědění** | Pochopení institucionálních mechanismů legitimizace a [delegitimizace](@/glossary/delegitimizace.md) |
 | **Rétorika** | Klasifikace přesvědčovacích figur a jejich subverzivní inverze |
 | **Filozofie vědy** | Kritéria falsifikability, parsimonie a explanační adekvátnosti |
 
@@ -101,7 +101,7 @@ Miranda Fricker rozlišuje **testimoniální** a **hermeneutickou** epistemickou
 
 | Frickerova kategorie | EA-1 ekvivalent |
 |----------------------|-----------------|
-| **Testimoniální nespravedlnost** (předsudečné snížení kredibility svědka) | Scénář A (individuální delegitimizace) — viz [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
+| **[Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md)** (předsudečné snížení kredibility svědka) | Scénář A (individuální delegitimizace) — viz [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Hermeneutická nespravedlnost** (mezera v sociálních interpretačních zdrojích) | EA-1.1.3 (terminologická mystifikace) + EA-1.2.3 (iluzorní komplexita) |
 | **(Frickerová tuto kategorii nemá)** | EA-1.4.* + EA-1.5.* (paralingvistické a proxemické techniky) — neverbální dimenze, kterou Frickerová neadresuje |
 
@@ -290,7 +290,7 @@ Edukativní expozice technikám frequently zahrnuje simulace, které představuj
 
 **Před simulací**:
 
-- Explicitní informovaný souhlas s artikulací rizik a cílů
+- Explicitní [informovaný souhlas](@/glossary/informed-consent.md) s artikulací rizik a cílů
 - Etablování epistemické bezpečnostní sítě (kotvící body, jež nebudou zpochybněny)
 - Metakognitivní briefing pro rozpoznání reakcí
 - Bezpečnostní signály pro indikaci diskomfortu

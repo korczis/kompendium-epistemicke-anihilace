@@ -47,11 +47,11 @@ Měsíční rituál 2 hodiny na predikční registr a anti-portfolio; pre-mortem
 
 ## Indikátory pokroku
 
-Schopnost rychle změnit názor; pokles emocionální vazby na vlastní teorie; růst diferenciace mezi vírou a věděním.
+Schopnost rychle změnit názor; pokles emocionální vazby na vlastní teorie; růst [diferenciace](@/glossary/diferenciace.md) mezi vírou a věděním.
 
 ## Limitace
 
-Naivní falsifikace ignoruje, že vědecké teorie odolávají vyvrácení skrze pomocné hypotézy. Není to mechanická procedura.
+Naivní [falsifikace](@/glossary/falsifikace.md) ignoruje, že vědecké teorie odolávají vyvrácení skrze pomocné hypotézy. Není to mechanická procedura.
 
 ## Cross-linky
 

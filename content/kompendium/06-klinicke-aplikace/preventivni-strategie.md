@@ -36,7 +36,7 @@ Strukturovaná, denně praktikovaná disciplína [metakognitivní](@/glossary/me
 | **Source-audit** | Revize zdrojů, na něž se subjekt opíral v posledním týdnu — explicitní kvantifikace diverzity | Týdně |
 | **Affect-audit** | Revize epizod silných epistemických afektů (jistota, averze, fascinace) — analýza spouštěčů | Denně |
 | **Position-shift audit** | Revize pozic, na kterých subjekt **změnil** názor — explicitní artikulace **proč** a **kdo** k tomu přispěl | Měsíčně |
-| **Falsifikace-audit** | Revize centrálních přesvědčení — explicitní artikulace, **co by je vyvrátilo** | Měsíčně |
+| **[Falsifikace](@/glossary/falsifikace.md)-audit** | Revize centrálních přesvědčení — explicitní artikulace, **co by je vyvrátilo** | Měsíčně |
 
 Personální praxe **nesmí degenerovat** v hyperreflexivitu, paranoidní epistemologii nebo neproduktivní obsesi. Cíl je **detekce odchylek**, nikoli kontinuální podezírání.
 
@@ -53,7 +53,7 @@ Strukturální prevence [selektivní expozice](@/kompendium/techniques/ea-1-1-1-
 
 Tělo je **strukturálně robustnější** vůči manipulaci než kognitivní systém — somatické signály často indikují manipulaci dříve, než ji kognice rozpozná. Personální praxe somatických kotev:
 
-- **Pravidelné fyzické cvičení** mimo akademické a profesní prostředí (rituál diferenciace prostorů)
+- **Pravidelné fyzické cvičení** mimo akademické a profesní prostředí (rituál [diferenciace](@/glossary/diferenciace.md) prostorů)
 - **Kontaktní spánek** — pravidelný režim spánku, detekce odchylek jako signál stresové akumulace
 - **Tělesná percepce** — krátká denní praxe (2-5 min) pozornosti k tělesným signálům
 - **Distinktní prostorové koule** — domov, práce, sociální prostor jsou jasně odděleny; symbolické přechody (převlékání, rituály otevření/zavření)
@@ -93,7 +93,7 @@ Doktorské a postdoktorální vzdělávání je vysoce vulnerabilním kontextem 
 
 ### Etické komise s kompetencí v EA
 
-Tradiční etické komise jsou kompetentní v běžných etických problémech (informovaný souhlas, konflikt zájmů), ale **nikoli** v EA technikách. Reforma:
+Tradiční etické komise jsou kompetentní v běžných etických problémech ([informovaný souhlas](@/glossary/informed-consent.md), konflikt zájmů), ale **nikoli** v EA technikách. Reforma:
 
 - **Specializovaná podkomise** s kompetencí v taxonomii EA
 - **Anonymní indikační kanál** s odbornou triáží

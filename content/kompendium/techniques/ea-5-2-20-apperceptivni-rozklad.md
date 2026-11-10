@@ -41,7 +41,7 @@ Kant v *Kritice čistého rozumu* identifikuje transcendentální apperzepci jak
 
 Apperceptivní rozklad tuto syntetickou jednotu destruuje. Subjekt prožívá své myšlenky, vzpomínky a percepce jako **rozptýlené události** bez sjednocujícího „já“. Analogie s Husserlovým *prelinguistickým hyletickým proudem*, ale patologická: subjekt nedokáže obnovit syntézu.
 
-Tento stav bývá pseudo-mysticky interpretován jako *anatta* (no-self) nebo „rozpuštění ega“, ale strukturně jde o destrukci transcendentální subjektivity, nikoli o autentický buddhistický vhled.
+Tento stav bývá pseudo-mysticky interpretován jako *anatta* (no-self) nebo „[rozpuštění ega](@/glossary/ego-death.md)“, ale strukturně jde o destrukci transcendentální subjektivity, nikoli o autentický buddhistický vhled.
 
 ## Operační modus
 
@@ -68,7 +68,7 @@ Stav je etablován jako *anatta*-realizace. Identitární investice činí návr
 ## Fenomenologické znaky
 
 - **Subjektová bezdomovost** — myšlenky „nejsou moje“.
-- **Mnemonická disociace** — vzpomínky „patří někomu jinému“.
+- **Mnemonická [disociace](@/glossary/disociace.md)** — vzpomínky „patří někomu jinému“.
 - **Pseudo-mystická euforie** prokládaná akutní úzkostí.
 - **Volní paralýza** — neschopnost iniciovat akce, protože „není kdo by je inicioval“.
 - **Lingvistická paradoxie** — řeč přetrvává v první osobě, ale neodkazuje k jednotnému subjektu.
@@ -108,7 +108,7 @@ Klíčový diferenciál: **autentický buddhista funguje**; subjekt po appercept
 
 ### Individuální
 
-1. **Korektní buddhistická hermeneutika** — výklad anatta jako absence stálé substance, nikoli jako rozkladu funkční subjektivity.
+1. **Korektní buddhistická [hermeneutika](@/glossary/hermeneutika.md)** — výklad anatta jako absence stálé substance, nikoli jako rozkladu funkční subjektivity.
 2. **Mnemonická rekonstrukce** — autobiografické cvičení obnovuje kontinuitu.
 3. **Praktická angažovanost** — drobné úkoly s vlastnictvím a zodpovědností.
 4. **Klinická psychiatrická intervence** v akutních fázích.
@@ -136,8 +136,8 @@ Klíčový diferenciál: **autentický buddhista funguje**; subjekt po appercept
 
 ## Vztah k Prismatic platformě
 
-- **NABLA Infinity subjektový axiom** — epistemická provenience operuje s identifikovatelným subjektem.
-- **Decision Engine accountability** — strukturní vlastnictví rozhodnutí obnovuje funkční subjektivitu.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) subjektový axiom** — epistemická provenience operuje s identifikovatelným subjektem.
+- **[Decision Engine](@/glossary/decision-engine.md) accountability** — strukturní vlastnictví rozhodnutí obnovuje funkční subjektivitu.
 - **OSINT investigator continuity** — kontinuální vlastnictví case file kompenzuje rozklad.
 
 ## Související

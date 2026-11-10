@@ -18,7 +18,7 @@ toc = true
 
 ## Úvodní rámec
 
-Klinická detekce [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA) se zatím opírá o **přejaté instrumenty** z příbuzných oblastí — psychického týrání, post-kultového poradenství, coercive control a [c-PTSD](@/glossary/c-ptsd.md). Žádný instrument samostatně neposkytuje definitivní diagnózu; klinický užitek vzniká **kombinací 3–4 nástrojů** spolu se strukturovanou epistemickou anamnézou (viz [6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)).
+Klinická detekce [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA) se zatím opírá o **přejaté instrumenty** z příbuzných oblastí — psychického týrání, post-kultového poradenství, [coercive control](@/glossary/coercive-control.md) a [c-PTSD](@/glossary/c-ptsd.md). Žádný instrument samostatně neposkytuje definitivní diagnózu; klinický užitek vzniká **kombinací 3–4 nástrojů** spolu se strukturovanou epistemickou anamnézou (viz [6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)).
 
 ## Hlavní instrumenty
 
@@ -29,7 +29,7 @@ Klinická detekce [epistemické anihilace](@/glossary/epistemicka-anihilace.md) 
 **Délka**: 28 položek, Likertova škála 1–5.
 **Doporučený cutoff**: total score ≥60 = vysoké riziko EA-5.x.x.
 
-GES měří čtyři domény: (1) **kompliance** (tlak na konformitu), (2) **exploatace** (ekonomické či emocionální zneužívání), (3) **vědomí mysli** (interní pocit ovlivnění) a (4) **vyjádření** (potlačení autonomního hlasu). Pro EA je nejprediktivnější doména 3 — koreluje s markery klastru A (metakognitivní destrukce).
+GES měří čtyři domény: (1) **kompliance** (tlak na konformitu), (2) **exploatace** (ekonomické či emocionální zneužívání), (3) **vědomí mysli** (interní pocit ovlivnění) a (4) **vyjádření** (potlačení autonomního hlasu). Pro EA je nejprediktivnější doména 3 — koreluje s markery klastru A ([metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)).
 
 **Klinická poznámka**: GES nelze administrovat během akutní krize ani pacientovi, který je stále v in-group prostředí (riziko kompromitace dat). Vyžaduje **bezpečné prostředí** a min. 4 týdny po opuštění skupiny.
 
@@ -76,7 +76,7 @@ MCQ-30 nepřímo měří poškození [metakognice](@/glossary/metakognice.md). U
 **Délka**: 28 položek.
 **Funkce v EA dg.**: diferenciální vyloučení DID/OSDD.
 
-V EA kontextu DES-II slouží **negativně** — vysoké skóre (>30) přesouvá podezření na primárně disociativní poruchu, ne EA. Mírně zvýšené skóre (15–25) je u EA pacientů typické (sekundární disociace pod stresem) a není diagnosticky rozhodující.
+V EA kontextu DES-II slouží **negativně** — vysoké skóre (>30) přesouvá podezření na primárně disociativní poruchu, ne EA. Mírně zvýšené skóre (15–25) je u EA pacientů typické (sekundární [disociace](@/glossary/disociace.md) pod stresem) a není diagnosticky rozhodující.
 
 ### EA-Risk Index (experimentální)
 
@@ -102,7 +102,7 @@ Celkový čas administrace: 90–120 minut, doporučeno rozdělit do 2 setkání
 
 | Limit | Popis |
 |-------|-------|
-| **Self-report bias** | Pokročilá EA snižuje schopnost rozeznat markery u sebe |
+| **[Self-report](@/glossary/self-report.md) bias** | Pokročilá EA snižuje schopnost rozeznat markery u sebe |
 | **Kulturní validace** | Většina instrumentů validizována v anglosaském kontextu |
 | **Časová senzitivita** | Akutní krize zkresluje skóre — opakovat po 4–6 týdnech |
 | **Forensní limit** | Skóre nelze použít jako právní důkaz manipulace |

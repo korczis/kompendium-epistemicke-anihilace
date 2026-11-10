@@ -17,7 +17,7 @@ quality_score = 75
 
 ## Definition
 
-Bridge entry connecting kompendium ethical framework discussions to platform doctrine. This bridge entry is a structurally complete stub created during the
+Bridge entry connecting kompendium ethical framework discussions to platform [doctrine](@/glossary/doctrine.md). This bridge entry is a structurally complete stub created during the
 2026-05-03 NLLB Phase 7 sweep — full integration with kompendium taxonomy
 and cross-domain references is part of ongoing knowledge-base buildout.
 

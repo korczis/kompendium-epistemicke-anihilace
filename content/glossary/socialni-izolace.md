@@ -26,7 +26,7 @@ V Kompendiu má izolace zvláštní postavení. Kromě toho, že je samostatným
 
 Zdravotní význam sociálních vazeb doložila řada epidemiologických studií; metaanalýza Holt-Lunstadové, Smithe a Laytona (2010) ukázala, že silnější sociální vazby jsou spojeny s nižší úmrtností. John Cacioppo zkoumal osamělost jako biologický signál ohrožení (*Loneliness*, s W. Patrickem, 2008).
 
-V literatuře o nátlaku a kontrole je izolace popisována opakovaně a nezávisle. Albert Biderman (1957) ji v analýze zacházení s válečnými zajatci uvedl na prvním místě své tabulky nátlakových metod. Robert J. Lifton (1961) popsal „kontrolu prostředí“ (*milieu control*) jako řízení veškeré komunikace v uzavřeném prostředí. Judith Herman (*Trauma and Recovery*, 1992) ukázala izolaci jako společný rys zajetí, ať politického, nebo domácího. Evan Stark (*Coercive Control*, 2007) zařadil izolaci mezi základní složky [coercive control](@/glossary/coercive-control.md) v partnerských vztazích.
+V literatuře o nátlaku a kontrole je izolace popisována opakovaně a nezávisle. Albert Biderman (1957) ji v analýze zacházení s válečnými zajatci uvedl na prvním místě své tabulky nátlakových metod. Robert J. Lifton (1961) popsal „kontrolu prostředí“ (*[milieu control](@/glossary/milieu-control.md)*) jako řízení veškeré komunikace v uzavřeném prostředí. Judith Herman (*Trauma and Recovery*, 1992) ukázala izolaci jako společný rys zajetí, ať politického, nebo domácího. Evan Stark (*Coercive Control*, 2007) zařadil izolaci mezi základní složky [coercive control](@/glossary/coercive-control.md) v partnerských vztazích.
 
 ## Jak se projevuje
 
@@ -75,7 +75,7 @@ Pro blízké a profesionály:
 ## Literatura
 
 - Biderman, A. D. (1957). Communist attempts to elicit false confessions from Air Force prisoners of war. *Bulletin of the New York Academy of Medicine*, 33.
-- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*.
 - Herman, J. L. (1992). *Trauma and Recovery*.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*.
 - Cacioppo, J. T., Patrick, W. (2008). *Loneliness: Human Nature and the Need for Social Connection*.

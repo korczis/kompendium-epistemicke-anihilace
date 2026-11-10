@@ -20,7 +20,7 @@ parent = "kompendium"
 ## Tři koše
 
 ### 🧪 Methodological critiques (1–10)
-Limity epistemické metodiky — medikalizace, patologizace, framework overreach, kruhové uvažování, false positives, replikační krize, esencialismus, kulturní bias.
+Limity epistemické metodiky — medikalizace, patologizace, framework overreach, kruhové uvažování, false positives, [replikační krize](@/glossary/replication-crisis.md), esencialismus, kulturní bias.
 
 ### ⚖️ Ethical concerns (11–20)
 Etické problémy aplikace — iatrogenní efekty, stigma, viktimblaming, mocenská asymetrie, validita souhlasu, coerce léčba, důvěrnost, EA jako mocenský nástroj, výzkumná exploatace, publikační etika.
@@ -34,8 +34,8 @@ EA framework, aby byl epistemicky dospělý, musí čelit vlastním limitům. Ta
 
 | Princip | Aplikace |
 |---------|----------|
-| **Epistemická pokora** | Žádný framework nevysvětluje vše |
-| **Pluralismus** | EA jako jeden z rámců, ne jediný |
+| **[Epistemická pokora](@/glossary/epistemicka-pokora.md)** | Žádný framework nevysvětluje vše |
+| **[Pluralismus](@/glossary/pluralismus.md)** | EA jako jeden z rámců, ne jediný |
 | **Etická otevřenost** | Stigma, moc, exploatace jsou reálné |
 | **Dekoloniální audit** | Kdo framework patologizoval historicky |
 | **Lived experience** | Survivors jako spoluautoři |

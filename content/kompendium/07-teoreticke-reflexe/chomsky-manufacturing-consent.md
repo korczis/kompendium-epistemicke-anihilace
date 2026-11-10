@@ -19,7 +19,7 @@ toc = true
 
 Noam Chomsky a Edward Herman v knize *Manufacturing Consent: The Political Economy of the Mass Media* (1988) formulují **strukturální analýzu** masmédií — **propagandistický model** vysvětlující, jak korporátní masmédia **systematicky** produkují **manufacturing consent** (vyrábějí souhlas) populace s elitními zájmy.
 
-Pro kompendium EA poskytuje Chomského model nástroj pro pochopení **strukturální EA produkované korporátními masmédii**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Chomského model nástroj pro pochopení **strukturální EA produkované korporátními masmédii**.
 
 ## 1. Pět filtrů
 
@@ -87,7 +87,7 @@ Chomského teorie jazyka (Universal Grammar) je strukturálně relevantní pro E
 
 - **Innate jazykové struktury**: strukturálně omezují **manipulovatelnost** jazyka
 - **Pragmatická vrstva**: nicméně **vysoce manipulovatelná** — rétorika, framing, terminologie
-- **Newspeak**: strukturálně se snaží **modifikovat** základní pojmovou strukturu
+- **[Newspeak](@/glossary/newspeak.md)**: strukturálně se snaží **modifikovat** základní pojmovou strukturu
 
 Pro EA má lingvistický rámec **specifický** význam:
 

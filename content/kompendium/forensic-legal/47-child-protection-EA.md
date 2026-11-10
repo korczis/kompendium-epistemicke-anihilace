@@ -37,7 +37,7 @@ se záznamem a za účasti psychologa.
 
 Epistemické zneužívání dětí má několik podob:
 
-- **Rodičovský gaslighting.** Dítě slyší, že jeho vnímání je chybné („to se nestalo“, „ty
+- **Rodičovský [gaslighting](@/glossary/gaslighting.md).** Dítě slyší, že jeho vnímání je chybné („to se nestalo“, „ty
   si vymýšlíš“, „tatínek tě má rád, jen to tak neumí ukázat“). Učí se nedůvěřovat sobě.
 - **Svědectví kontroly mezi rodiči.** Dítě vyrůstá v domácnosti s [coercive
   control](@/glossary/coercive-control.md) a přebírá vzorce – i bez přímého násilí vůči němu.

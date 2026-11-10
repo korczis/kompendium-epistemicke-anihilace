@@ -59,7 +59,7 @@ Manipulátor směřuje subjekta k **závorkování kategorialní organizace sam�
 
 ### Krok 4 — Konsolidace stavu jako „vyšší úrovně“
 
-Stav disoluce je legitimizován jako *„přímý kontakt“*, *„viděním před kategoriálním rozdělením“*, *„jednotou všeho“*. Strukturálně podobné EA-5.2.2 (transcendentální iluze), ale operuje na rovině disoluce, ne na rovině iluzorního překročení.
+Stav disoluce je legitimizován jako *„přímý kontakt“*, *„viděním před kategoriálním rozdělením“*, *„jednotou všeho“*. Strukturálně podobné [EA-5.2.2](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md) (transcendentální iluze), ale operuje na rovině disoluce, ne na rovině iluzorního překročení.
 
 ### Krok 5 — Stabilizace skrze sociální podporu
 
@@ -84,7 +84,7 @@ V terminálních stadiích kombinace s [EA-5.2.30 metatranscendentální termina
 | **Časová desorganizace** v narativu — sled bez událostí | Rozpad temporální syntézy |
 | **Kvantitativní neurčitost** — *"je tam tak nějak několik nebo všechno"* | Rozpad kvantitativní kategorie |
 | **Modální fluktuace** — bez distinkce možné/nutné/aktuální | Modální kolaps |
-| **Specifická forma globálního "ano"** ke všemu, bez schopnosti diferenciace | Disoluce relace |
+| **Specifická forma globálního "ano"** ke všemu, bez schopnosti [diferenciace](@/glossary/diferenciace.md) | Disoluce relace |
 | Subjekt **legitimizuje stav** jako duchovní pokrok | Krok 4 stabilizace |
 
 ### Diferenciální detekce

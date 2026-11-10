@@ -15,7 +15,7 @@ toc = true
 
 # Kruhové uvažování v EA detekci
 
-> **Bucket**: methodological · **Unique angle**: tautologie behaviorálního markeru — definice = detekce
+> **Bucket**: methodological · **Unique angle**: [tautologie](@/glossary/tautologie.md) behaviorálního markeru — definice = detekce
 
 ## Kritika nebo alternativa
 
@@ -25,7 +25,7 @@ Tato kritika není okrajová — sahá k samotnému jádru toho, jak EA framewor
 
 ## Argumentace
 
-Když řekneme 'osoba X použila gaslighting, protože popřela mou paměť', riskujeme tautologii: gaslighting *je* popírání paměti. Nemáme nezávislou ověřitelnou hranici. Ke kruhu se přidává konfirmační bias detektora.
+Když řekneme 'osoba X použila [gaslighting](@/glossary/gaslighting.md), protože popřela mou paměť', riskujeme tautologii: gaslighting *je* popírání paměti. Nemáme nezávislou ověřitelnou hranici. Ke kruhu se přidává [konfirmační bias](@/glossary/konfirmacni-bias.md) detektora.
 
 Argumentace má tři vrstvy: epistemologickou (co můžeme vědět), metodologickou (jak to zjišťujeme), etickou (co s tím vědomím děláme). Každá vrstva produkuje vlastní limity. EA framework, aby byl dospělý, musí všechny tři přiznat.
 
@@ -39,7 +39,7 @@ Tato literatura není okrajová — pochází z hlavního proudu odborné diskus
 
 ## Implikace pro EA framework
 
-EA detekce vyžaduje **multi-source evidenci**: behaviorální vzorec + intencionalita + dopad + alternativní vysvětlení. Žádná z těchto sám o sobě nestačí. Kompendium musí vyžadovat triangulaci.
+EA detekce vyžaduje **multi-source evidenci**: behaviorální vzorec + [intencionalita](@/glossary/intentionalita.md) + dopad + alternativní vysvětlení. Žádná z těchto sám o sobě nestačí. Kompendium musí vyžadovat triangulaci.
 
 Konkrétní implementační kroky:
 

@@ -125,7 +125,7 @@ během maratonů, [asymetrické odhalování](@/kompendium/detection-signatures/
 - **S2 – Externalizace introjektů.** Rozbor „hlasu streamera“, který komentoval každé její
   rozhodnutí. Rozdělení odpovědnosti: co byla její volba, co byla struktura, ve které se
   rozhodovala.
-- **S3 – Rekonstrukce metakognice.** Obnova spánku jako podmínka uvažování; teprve potom práce
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Obnova spánku jako podmínka uvažování; teprve potom práce
   s tím, jak se v kanálu měnila její kritéria „správného“ a „nevěrného“
   ([uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md) pro
   okamžiky, kdy ji upozornění z aplikace vrhala zpět).

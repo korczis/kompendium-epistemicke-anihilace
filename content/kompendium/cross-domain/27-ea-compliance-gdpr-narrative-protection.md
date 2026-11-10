@@ -61,7 +61,7 @@ Subject access request: customer asked for 'complete profile' — system deliver
 
 ### Scénář 2
 
-Erasure request: subject requested deletion, system deleted PII but left narrative artifacts (anonymous risk score derived from deleted data) → escalated, remediated
+Erasure request: subject requested deletion, system deleted PII but left narrative artifacts (anonymous [risk score](@/glossary/risk-score.md) derived from deleted data) → escalated, remediated
 
 Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
 

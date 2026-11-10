@@ -54,7 +54,7 @@ Vyžaduje rozsáhlou anamnézu od oběti (může být sama traumatizována). Cit
 
 ## Vztah k jiným zdrojům
 
-Návazný na **EA-8.2.5 Stark Coercive Control** a **EA-8.1.4 Coercive Control Scale**. Komplementární s digitálními OSINT tooly platformy.
+Návazný na **[EA-8.2.5](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md) Stark [Coercive Control](@/glossary/coercive-control.md)** a **[EA-8.1.4](@/kompendium/techniques/ea-8-1-4-coercive-control-scale.md) Coercive Control Scale**. Komplementární s digitálními OSINT tooly platformy.
 
 ## Cross-linky
 

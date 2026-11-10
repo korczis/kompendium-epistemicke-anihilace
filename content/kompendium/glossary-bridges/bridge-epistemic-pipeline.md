@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-Epistemic pipeline je v Prismatic platformě sekvence transformací surových dat (raw signals) na strukturované evidence-backed claims s explicitní uncertainty kvantifikací. Typicky: source ingestion → entity extraction → cross-validation → confidence scoring → claim emission. Implementuje doctrine NCLB (No Claim Left Behind).
+Epistemic pipeline je v Prismatic platformě sekvence transformací surových dat (raw signals) na strukturované evidence-backed claims s explicitní uncertainty kvantifikací. Typicky: source ingestion → entity extraction → cross-validation → confidence scoring → claim emission. Implementuje [doctrine](@/glossary/doctrine.md) NCLB (No Claim Left Behind).
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
@@ -33,7 +33,7 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 04 — Data engineering**: epistemic vs. plain ETL pipeline
-- **Sekce 05 — Decision Engine integration**: EP jako upstream pro DE
+- **Sekce 05 — [Decision Engine](@/glossary/decision-engine.md) integration**: EP jako upstream pro DE
 - **Sekce 06 — Source diversity**: OSINT, DB queries, LLM inference
 - **Sekce 07 — Calibration loop**: feedback uzavírá pipeline
 - **Per-technique články**: implementační patterny, evidence schemas

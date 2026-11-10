@@ -17,7 +17,7 @@ toc = true
 
 ## Agent overview
 
-White Team poskytuje nezávislou verifikaci — auditní traily, regulační compliance, a důkazní řetězce pro každou detekovanou EA událost s právní vahou. V architektuře platformy zaujímá pozici v rámci **Color Teams** (color-teams) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[White Team](@/glossary/white-team.md) poskytuje nezávislou verifikaci — auditní traily, regulační compliance, a důkazní řetězce pro každou detekovanou EA událost s právní vahou. V architektuře platformy zaujímá pozici v rámci **Color Teams** (color-teams) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 
@@ -37,7 +37,7 @@ White Team **nezachycuje EA v reálném čase** — je retrospektivní. Také ne
 
 ## Coordination
 
-Validuje výstupy všech ostatních týmů; eskaluje **Compliance Agent** pro regulační reporting; spolupracuje s **Trinity Gate** na multi-stage verifikaci.
+Validuje výstupy všech ostatních týmů; eskaluje **Compliance Agent** pro regulační reporting; spolupracuje s **[Trinity Gate](@/glossary/trinity-gate.md)** na multi-stage verifikaci.
 
 ## Cross-linky
 

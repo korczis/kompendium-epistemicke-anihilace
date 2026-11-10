@@ -34,7 +34,7 @@ historií** commitů:
 
 | Období | Linie | Co obsahovala | Kde je teď |
 |---|---|---|---|
-| 2025-03 | gist „Epistemická a kognitivní anihilace: kompletní taxonomie“, gist „Hypersyntaktická anihilace“ | obsah, rejstříky, výkladový slovník | `archive/gists/` |
+| 2025-03 | gist „Epistemická a [kognitivní anihilace](@/glossary/kognitivni-anihilace.md): kompletní taxonomie“, gist „Hypersyntaktická anihilace“ | obsah, rejstříky, výkladový slovník | `archive/gists/` |
 | 2025-03 až 05 | prismatic-legacy | rané texty, rejstříky, slovníky, blog | `archive/prismatic-legacy/` |
 | 2025-07 | gist „Absolutní epistemická disoluční komora“, korczis/prismatic | první struktura o osmi oddílech | `archive/gists/`, `archive/prismatic/` |
 | 2025-09 až 2026-08 | Prismatic Platform, `docs/kompendium/` | strukturovaná verze 29 souborů | `archive/docs-kompendium/` |

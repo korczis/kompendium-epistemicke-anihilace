@@ -17,7 +17,7 @@ toc = true
 
 # 7.4 EA a postmodernismus — Lyotard, Baudrillard, Derrida
 
-Vztah kompendia EA k postmoderní filozofii je **konstitutivně ambivalentní**. Postmodernismus — zejména v podání Jeana-Françoise Lyotarda, Jeana Baudrillarda a Jacquesa Derridy — poskytuje **bezprecedentní diagnostické nástroje** pro pochopení současného epistemického prostředí, v němž EA techniky operují. Současně však **postmodernismus představuje filozofickou výzvu** vůči samotnému projektu kompendia: pokud jsou všechny metanarativy nedůvěryhodné, simulakra nahrazují skutečnost a každý text se rozpadá pod tlakem dekonstrukce, **na čem** stojí klasifikační aparát kompendia?
+Vztah kompendia EA k postmoderní filozofii je **konstitutivně ambivalentní**. Postmodernismus — zejména v podání Jeana-Françoise Lyotarda, Jeana Baudrillarda a Jacquesa Derridy — poskytuje **bezprecedentní diagnostické nástroje** pro pochopení současného epistemického prostředí, v němž EA techniky operují. Současně však **postmodernismus představuje filozofickou výzvu** vůči samotnému projektu kompendia: pokud jsou všechny metanarativy nedůvěryhodné, [simulakra](@/glossary/simulacra.md) nahrazují skutečnost a každý text se rozpadá pod tlakem dekonstrukce, **na čem** stojí klasifikační aparát kompendia?
 
 Tato kapitola se s touto výzvou **vědomě konfrontuje** a nabízí **diferencovanou** odpověď: postmodernismus je pro kompendium **současně** zdrojem (diagnostickým rámcem) **a** předmětem (kritickou pozicí, vůči níž kompendium vymezuje vlastní stanovisko).
 
@@ -69,7 +69,7 @@ Tento redukovaný metanarativ:
 
 - **Není** universalistickým nárokem na konečnou pravdu
 - **Je** explicitně fundovaným etickým závazkem k respektování epistemické autonomie
-- **Operuje** napříč jazykovými hrami jako **meta-pravidlo druhého řádu** (nikoli jako další jazyková hra)
+- **Operuje** napříč jazykovými hrami jako **meta-pravidlo druhého řádu** (nikoli jako další [jazyková hra](@/glossary/jazykova-hra.md))
 - **Akceptuje** vlastní revizibilitu a otevřenost kritice
 
 ## 2. Jean Baudrillard — hyperrealita a simulakra
@@ -79,7 +79,7 @@ Tento redukovaný metanarativ:
 Jean Baudrillard v *Simulacres et simulation* (1981) formuluje teorii **simulakra** — znaků, jež **odkazují** primárně na jiné znaky, nikoli na realitu, již by reprezentovaly. V postmoderním stavu:
 
 - Mapa **předchází** území (ve smyslu, který Borges parodoval, ale který se v digitálním věku stává empirickou realitou)
-- **Hyperrealita** — stav, v němž simulace je „reálnější“ než realita sama
+- **[Hyperrealita](@/glossary/hyperreality.md)** — stav, v němž simulace je „reálnější“ než realita sama
 - **Implozion** sociálního, ve kterém médium pohlcuje obsah
 
 ### 2.2 Tři řády simulakra
@@ -99,7 +99,7 @@ Baudrillardova diagnostika je pro EA **zásadní**:
 | Baudrillardův koncept | EA korelát |
 |------------------------|--------------|
 | Hyperrealita | Algoritmicky kurátorovaná realita sociálních sítí |
-| Simulacrum třetího řádu | Deepfake, AI-generated content, bot networks |
+| Simulacrum třetího řádu | [Deepfake](@/glossary/deepfake.md), AI-generated content, bot networks |
 | Implozion sociálního | Atrofie sociálního debate ve prospěch echo chambers |
 | Produkce reality médii | Mediální nastolování "tématu" jako epistemická intervence |
 | Rozpad referenčního rámce | Strukturální podmínka pro **iluzorní komplexitu** |
@@ -135,7 +135,7 @@ Jacques Derrida v *De la grammatologie* (1967), *L'écriture et la différence* 
 Klíčové komponenty:
 
 - **Logocentrismus** — privilegium „logosu“ (mluveného slova jako přítomnosti významu) v západní tradici
-- **Différance** — neologismus kombinující „diferenciaci“ a „odložení“; význam není **přítomný**, ale vzniká **odkazováním** na další znaky
+- **[Différance](@/glossary/differance.md)** — neologismus kombinující „diferenciaci“ a „odložení“; význam není **přítomný**, ale vzniká **odkazováním** na další znaky
 - **Trace** — každý znak nese stopy svých opozic, jež dekonstrukce odhaluje
 - **Aporia** — nerozhodnutelná napětí, jež dekonstrukce identifikuje uvnitř textů
 
@@ -212,7 +212,7 @@ Derridova analýza **marginality** — pozic vyloučených z dominantních narat
 | Stalinismus | Zhroucení víry v emancipační metanarativ |
 | Hirošima/Nagasaki | Zhroucení víry v vědeckou neutralitu |
 | Kolonialismus | Zhroucení víry v univerzalitu západního rozumu |
-| Mediální propaganda | Zhroucení víry v reprezentační funkci jazyka |
+| Mediální [propaganda](@/glossary/propaganda.md) | Zhroucení víry v reprezentační funkci jazyka |
 
 Postmoderní filozofie pak je **zároveň** diagnostikou tohoto traumatu **a** jeho symptomem (v některých podobách hraničícím s epistemickou paralýzou).
 

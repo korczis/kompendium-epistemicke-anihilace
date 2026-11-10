@@ -19,7 +19,7 @@ toc = true
 
 Timothy Snyder — historik Yale University specializovaný na dějiny střední a východní Evropy 20. století — v knize *O tyranii* (*On Tyranny: Twenty Lessons from the Twentieth Century*, 2017) formuluje **20 prakticko-politických lekcí** vyvozených z analýzy nacistické a stalinské totalitarizace.
 
-Pro kompendium EA poskytuje Snyderova práce **prakticko-politický manuál** counter-EA — konkrétní strategie, jak se subjekt může bránit politické EA před, během i po jejím zavedení.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Snyderova práce **prakticko-politický manuál** counter-EA — konkrétní strategie, jak se subjekt může bránit politické EA před, během i po jejím zavedení.
 
 ## 1. Dvacet lekcí
 

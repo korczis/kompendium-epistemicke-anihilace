@@ -17,7 +17,7 @@ toc = true
 
 ## Agent overview
 
-Tactical Execution provádí konkrétní obranné operace na taktické úrovni — spouští skenovací cykly, aplikuje patche a koordinuje aktivní response na zachycené EA. V architektuře platformy zaujímá pozici v rámci **Strategic Agents** (strategic) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[Tactical Execution](@/glossary/tactical-execution.md) provádí konkrétní obranné operace na taktické úrovni — spouští skenovací cykly, aplikuje patche a koordinuje aktivní response na zachycené EA. V architektuře platformy zaujímá pozici v rámci **Strategic Agents** (strategic) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 
@@ -29,7 +29,7 @@ Detekce: **playbook-driven** — na základě klasifikace EA incidentu vybere od
 
 ## Operational protocols
 
-Provoz: continuous, tasking-based. Vstup: tasks z **Strategic Command**. Výstup: **execution reports** s success/failure pro každý task. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](@/kompendium/aiad-integration/quality-monitor-ea-tracking.md)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
+Provoz: continuous, tasking-based. Vstup: tasks z **[Strategic Command](@/glossary/strategic-command.md)**. Výstup: **execution reports** s success/failure pro každý task. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](@/kompendium/aiad-integration/quality-monitor-ea-tracking.md)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
 
 ## Limitations
 

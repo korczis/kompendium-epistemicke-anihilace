@@ -22,7 +22,7 @@ type = "educational-scenario"
 
 Předchozí pokročilé scénáře se věnovaly rozpoznání. Tento se ptá, **co dál**. Zotavení po
 dlouhodobém epistemickém útoku není jedna intervence, ale trajektorie s fázemi, které mají
-vlastní cíle a vlastní rizika. Herman (1992) popsala pro komplexní trauma tři stadia –
+vlastní cíle a vlastní rizika. Herman (1992) popsala pro [komplexní trauma](@/glossary/complex-trauma.md) tři stadia –
 bezpečí, vzpomínání a truchlení, opětovné spojení s životem – a kniha je rozpracovává
 v [longitudinálních rekonstruktivních protokolech](@/kompendium/recovery-protocols/_index.md)
 a v [Hermanových stadiích zotavení](@/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md).
@@ -92,7 +92,7 @@ Signály v tomto scénáři slouží k určení fáze a k včasnému zachycení 
 - **K otázce 3.** Telefonáty: domluvit s klientkou, zda chce kontakt, a připravit krátkou
   odpověď nebo blokování; nezakazovat. Dluh: právní konzultace (vymahatelnost, okolnosti
   vzniku), sociální pracovnice. Viz [protokol kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md).
-- **K otázce 4.** Terapeutka: proces a vztah; psychiatr: spánek, disociace, medikace podle
+- **K otázce 4.** Terapeutka: proces a vztah; psychiatr: spánek, [disociace](@/glossary/disociace.md), medikace podle
   potřeby; sociální pracovnice: doklady, finance, bydlení; teta: domov a každodennost.
   Plán musí mít náhradu za tetu – závislost na jedné osobě je riziková. Viz
   [obnova sociální sítě](@/kompendium/prevention-resilience/22-post-EA-network-rebuilding.md).

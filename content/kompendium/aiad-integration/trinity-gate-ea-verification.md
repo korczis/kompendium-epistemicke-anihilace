@@ -17,11 +17,11 @@ toc = true
 
 ## Agent overview
 
-Trinity Gate je tří-úrovňová verifikační brána — každé high-stakes EA rozhodnutí prochází Logic, Neural a Linguistic vrstvou, výstup je akceptován pouze při shodě 3/3. V architektuře platformy zaujímá pozici v rámci **Specialized Agents** (specialized) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[Trinity Gate](@/glossary/trinity-gate.md) je tří-úrovňová verifikační brána — každé high-stakes EA rozhodnutí prochází Logic, Neural a Linguistic vrstvou, výstup je akceptován pouze při shodě 3/3. V architektuře platformy zaujímá pozici v rámci **Specialized Agents** (specialized) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 
-Trinity Gate implementuje **3NL doctrine** (Three-Nested-Loops) na detekční rovině. Konzumuje **section-bridges/** pro cross-vrstvou validaci konzistence verdiktů.
+Trinity Gate implementuje **3NL [doctrine](@/glossary/doctrine.md)** (Three-Nested-Loops) na detekční rovině. Konzumuje **section-bridges/** pro cross-vrstvou validaci konzistence verdiktů.
 
 ## Detection mechanisms
 
@@ -37,7 +37,7 @@ Trinity Gate je **drahý** — používá se pouze pro rozhodnutí s vysokou sá
 
 ## Coordination
 
-Volán **Decision Engine** pro high-stakes; spolupracuje s **NABLA Infinity** v Linguistic vrstvě; auditováno **White Teamem**.
+Volán **[Decision Engine](@/glossary/decision-engine.md)** pro high-stakes; spolupracuje s **[NABLA Infinity](@/glossary/nabla-infinity.md)** v Linguistic vrstvě; auditováno **White Teamem**.
 
 ## Cross-linky
 

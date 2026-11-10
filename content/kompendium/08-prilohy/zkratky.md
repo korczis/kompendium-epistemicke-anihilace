@@ -64,7 +64,7 @@ Plná specifikace v [Klasifikačním schématu](@/kompendium/08-prilohy/klasifik
 | Zkratka | Plný název | Použití |
 |---------|------------|---------|
 | **PTSD** | Post-Traumatic Stress Disorder | Diagnóza |
-| **C-PTSD** | Complex PTSD | Komplexní trauma |
+| **C-PTSD** | Complex PTSD | [Komplexní trauma](@/glossary/complex-trauma.md) |
 | **DSM-5** | Diagnostic and Statistical Manual of Mental Disorders, 5th ed. | Klasifikace |
 | **ICD-11** | International Classification of Diseases, 11th rev. | Klasifikace |
 | **EMDR** | Eye Movement Desensitization and Reprocessing | Terapie |
@@ -74,7 +74,7 @@ Plná specifikace v [Klasifikačním schématu](@/kompendium/08-prilohy/klasifik
 | **BFI-2** | Big Five Inventory–2 | Osobnostní dotazník → [Diagnostika](@/kompendium/08-prilohy/diagnosticke-nastroje.md) |
 | **ECRI** | Ex-Cult Recovery Instrument | Recovery instrument |
 | **IES-R** | Impact of Event Scale–Revised | PTSD screening |
-| **DES-II** | Dissociative Experiences Scale–II | Disociace screening |
+| **DES-II** | Dissociative Experiences Scale–II | [Disociace](@/glossary/disociace.md) screening |
 
 ## 4. Etické a institucionální zkratky
 
@@ -90,12 +90,12 @@ Plná specifikace v [Klasifikačním schématu](@/kompendium/08-prilohy/klasifik
 
 ## 5. Platformové doctrine zkratky (Prismatic)
 
-Kompendium operuje uvnitř širšího platformového ekosystému Prismatic, který je řízen **18-pillar doctrine**. Zkratky uvedené níže jsou **operativní zkratky platformy**, ne kompendia samotného, ale objevují se v cross-referencích a v citacích.
+Kompendium operuje uvnitř širšího platformového ekosystému Prismatic, který je řízen **18-pillar [doctrine](@/glossary/doctrine.md)**. Zkratky uvedené níže jsou **operativní zkratky platformy**, ne kompendia samotného, ale objevují se v cross-referencích a v citacích.
 
 | Zkratka | Plný název | Doména |
 |---------|------------|--------|
 | **3NL** | Three-Nested-Loops (L1+L2+L3) | Architektura |
-| **NMND** | No Mercy, No Doubts | Execution discipline |
+| **NMND** | [No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md) | Execution discipline |
 | **NWB** | No Way Back | Permanence |
 | **FLLM** | Flowbite LLM (CSS hygiene) | UI design |
 | **M5M** | Max 5 Minutes | Granular execution |
@@ -121,7 +121,7 @@ Kompendium operuje uvnitř širšího platformového ekosystému Prismatic, kter
 |---------|------------|--------|
 | **NABLA** | NABLA Infinity (∇∞) | Epistemic framework L0–L13 → [Glossary](@/glossary/nabla-infinity.md) |
 | **AIAD** | AI-Augmented Development | Standardní rámec → [AIAD README](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/.aiad/README.md) |
-| **DD** | Due Diligence | Modul pro investigativní práci → {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} |
+| **DD** | [Due Diligence](@/glossary/due-diligence.md) | Modul pro investigativní práci → {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} |
 | **OSINT** | Open Source Intelligence | Adapter framework |
 | **EASM** | External Attack Surface Management | Perimeter modul |
 | **SEADF** | Self-Evolving Autonomous Development Framework | Evolution |
@@ -205,7 +205,7 @@ Kompendium používá **modifikovaný APA 7. styl**:
 | `/kompendium/08-prilohy/<slug>/` | Přílohy sekce 08 |
 | `/glossary/<slug>/` | Glosářové heslo |
 | `/philosophy/<slug>/` | Filozofická vrstva |
-| `/hub/dd/decisions/` | Decision Engine |
+| `/hub/dd/decisions/` | [Decision Engine](@/glossary/decision-engine.md) |
 
 ## 10. Status značky
 

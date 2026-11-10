@@ -150,7 +150,7 @@ ukazují i cynismus, tichý nesouhlas a pochybnosti, které jen nebylo možné v
 - Hannah Arendt (1951): *The Origins of Totalitarianism*.
 - Robert Conquest (1968): *The Great Terror*.
 - Stephen F. Cohen (1973): *Bukharin and the Bolshevik Revolution*.
-- Robert J. Lifton (1961): *Thought Reform and the Psychology of Totalism* – srovnávací rámec.
+- Robert J. Lifton (1961): *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* – srovnávací rámec.
 
 ## Související
 

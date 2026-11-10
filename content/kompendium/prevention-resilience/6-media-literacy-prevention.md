@@ -27,7 +27,7 @@ Vybavit občany kritickým hodnocením mediálních obsahů, které jsou primár
 
 ## Klíčové komponenty
 
-Source criticism, fact-checking, manipulation detection, lateral reading, propaganda techniques (Aristoteles, Bernays, Cialdini).
+Source criticism, fact-checking, manipulation detection, lateral reading, [propaganda](@/glossary/propaganda.md) techniques (Aristoteles, Bernays, Cialdini).
 
 ---
 

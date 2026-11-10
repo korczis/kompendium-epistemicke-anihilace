@@ -14,4 +14,4 @@ tags = ["kompendium", "section"]
 quality_score = 75
 +++
 
-Sekce **Populační rovina** mapuje epistemické fenomény působící na populační úrovni: propaganda, masová delegitimizace, kolektivní paměť, generačně přenášené kognitivní a emoční vzorce. Strukturální stub sekce vytvořená během 2026-05-03 NLLB Phase 8 sweep.
+Sekce **Populační rovina** mapuje epistemické fenomény působící na populační úrovni: [propaganda](@/glossary/propaganda.md), masová [delegitimizace](@/glossary/delegitimizace.md), kolektivní paměť, generačně přenášené kognitivní a emoční vzorce. Strukturální stub sekce vytvořená během 2026-05-03 NLLB Phase 8 sweep.

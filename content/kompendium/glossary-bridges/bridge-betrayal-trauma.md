@@ -34,9 +34,9 @@ Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 06 — Trauma kategorie**: betrayal trauma vs. PTSD vs. C-PTSD
 - **Sekce 07 — Attachment theory**: betrayal trauma a disorganized attachment
-- **Sekce 08 — Coercive control**: betrayal trauma jako mechanismus DARVO
+- **Sekce 08 — [Coercive control](@/glossary/coercive-control.md)**: betrayal trauma jako mechanismus DARVO
 - **Sekce 09 — Institutional betrayal**: Smith & Freyd 2014, organizační forma
-- **Per-technique články**: screening v intimate partner violence, due diligence
+- **Per-technique články**: screening v intimate partner violence, [due diligence](@/glossary/due-diligence.md)
 
 Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
 
@@ -47,7 +47,7 @@ Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
 | Vztah | Cílový koncept | Typ vazby |
 |---|---|---|
 | podtyp | Trauma | kategorie |
-| souvisí | DARVO, gaslighting | exploitační mechanismy |
+| souvisí | DARVO, [gaslighting](@/glossary/gaslighting.md) | exploitační mechanismy |
 | kontrastuje | Stranger trauma | závislost-faktor |
 
 Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.

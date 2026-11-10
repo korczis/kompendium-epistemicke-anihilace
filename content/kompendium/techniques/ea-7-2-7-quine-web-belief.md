@@ -42,7 +42,7 @@ Místo, aby EA tato pozice technicky obohacovala (jako kapitoly 1–5), slouží
 
 ## Klíčové koncepty
 
-1. **Holismus přesvědčení**
+1. **[Holismus](@/glossary/holismus.md) přesvědčení**
 2. **Underdetermination teorie pozorováním**
 3. **Žádná analytic/synthetic distinkce**
 
@@ -70,7 +70,7 @@ Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [tec
 
 - **Není přímo testovatelná**: na rozdíl od EA-1 až EA-5 nelze tuto pozici jednoduše operacionalizovat ve scoring engine — slouží jako interpretační rámec, ne jako prediktor.
 - **Riziko nadužití**: aplikovaná všude, ztrácí ostří; pozice je nosná tam, kde **standardní psychologický nebo logický rozbor selává**.
-- **Spor o překlad**: některé pojmy (např. *différance*, *Dasein*, *phi*) odporují čistému přepisu do operativního jazyka platformy a musí být užity s vědomím vlastní hranice.
+- **Spor o překlad**: některé pojmy (např. *[différance](@/glossary/differance.md)*, *Dasein*, *phi*) odporují čistému přepisu do operativního jazyka platformy a musí být užity s vědomím vlastní hranice.
 - **Žádná pozice není totální**: tato reflexe je jednou z mnoha — viz sister 7.2.* a sousední podkapitoly 7.1, 7.2, 7.3.
 
 ## Cross-linky
@@ -101,7 +101,7 @@ Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [tec
 
 Chcete tuto reflexi aplikovat na konkrétní případ?
 
-- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — Decision Engine s podporou epistemické kalibrace.
+- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — [Decision Engine](@/glossary/decision-engine.md) s podporou epistemické kalibrace.
 - [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
 - [Glosář pojmů](@/glossary/_index.md) — definice klíčových termínů napříč EA.
 

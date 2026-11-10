@@ -24,7 +24,7 @@ toc = false
 
 ## Definice
 
-**Kategorická transgrese** je technika, při níž manipulátor systematicky **překračuje a destabilizuje hranice kategorií**, na nichž subjekt staví orientaci ve světě (subjekt vs. objekt, příčina vs. následek, věc vs. vlastnost, fakt vs. hodnota, podstata vs. akcident). Útoky operují na **kategoriálním aparátu**, nikoli na konkrétních obsazích — subjektova schopnost rozhodnout, „co je to za druh věci“, se eroduje. V terminálním stadiu subjekt přestává rozlišovat *kategoriální typy* zkušenosti (událost vs. trvalý stav, fyzická vs. psychická skutečnost, intencionalita vs. kauzalita), což znemožňuje formulovat smysluplnou interpretaci. Strukturálně připomíná ryle-ovskou *category mistake*, ale kultivovanou jako diskurzivní zbraň.
+**Kategorická transgrese** je technika, při níž manipulátor systematicky **překračuje a destabilizuje hranice kategorií**, na nichž subjekt staví orientaci ve světě (subjekt vs. objekt, příčina vs. následek, věc vs. vlastnost, fakt vs. hodnota, podstata vs. akcident). Útoky operují na **kategoriálním aparátu**, nikoli na konkrétních obsazích — subjektova schopnost rozhodnout, „co je to za druh věci“, se eroduje. V terminálním stadiu subjekt přestává rozlišovat *kategoriální typy* zkušenosti (událost vs. trvalý stav, fyzická vs. psychická skutečnost, [intencionalita](@/glossary/intentionalita.md) vs. kauzalita), což znemožňuje formulovat smysluplnou interpretaci. Strukturálně připomíná ryle-ovskou *category mistake*, ale kultivovanou jako diskurzivní zbraň.
 
 ## Operační modus (5 kroků)
 

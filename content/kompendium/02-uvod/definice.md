@@ -35,7 +35,7 @@ Na rozdíl od běžných epistemických distorzí (dílčích zkreslení v jinak
 | **Metaepistemická povaha** | Zasahuje strukturální principy poznávání a mechanismy formování přesvědčení, nejen specifická přesvědčení |
 | **Odolnost vůči korekci** | Generuje stav, kdy konfrontace s evidencí, logická argumentace či sociální feedback ztrácejí účinnost |
 
-Společný motiv těchto pěti znaků: epistemická anihilace **neodstraňuje** poznání jako obsah, ale **rozkládá** epistemickou kompetenci jako kapacitu. Postižený subjekt může nadále produkovat výroky podobné poznávacím aktům, ale tyto výroky pozbývají strukturní vlastnosti, jež je činí poznáním v normativním smyslu — sledovatelnost zdrojů, falsifikovatelnost, koherenci, revizibilitu při kontradikční evidenci.
+Společný motiv těchto pěti znaků: epistemická anihilace **neodstraňuje** poznání jako obsah, ale **rozkládá** epistemickou kompetenci jako kapacitu. Postižený subjekt může nadále produkovat výroky podobné poznávacím aktům, ale tyto výroky pozbývají strukturní vlastnosti, jež je činí poznáním v normativním smyslu — sledovatelnost zdrojů, [falsifikovatelnost](@/glossary/falsifikovatelnost.md), koherenci, revizibilitu při kontradikční evidenci.
 
 ### Epistemická vs. doxastická anihilace
 
@@ -61,7 +61,7 @@ Zatímco epistemická anihilace se primárně týká narušení poznávacích st
 | **Multidoménové narušení** | Postižení multiple kognitivních domén současně, nikoli pouze izolovaných funkcí |
 | **Progresivní deteriorace** | Graduální zhoršování kognitivních funkcí s tendencí k akceleraci v pokročilejších fázích |
 | **Funkční diskonektivita** | Narušení integrace a koordinace mezi různými kognitivními subsystémy |
-| **Metakognitivní deficit** | Narušení schopnosti monitorovat, evaluovat a regulovat vlastní kognitivní procesy |
+| **[Metakognitivní deficit](@/glossary/metakognitivni-deficit.md)** | Narušení schopnosti monitorovat, evaluovat a regulovat vlastní kognitivní procesy |
 | **Strukturální regrese** | Návrat k primitivnějším a méně diferencovaným formám kognitivního fungování |
 
 ## Vztah mezi epistemickou a kognitivní anihilací
@@ -72,7 +72,7 @@ Epistemická a kognitivní anihilace představují úzce související, avšak d
 - **Fenomenologická distinktivita** — Zatímco kognitivní anihilace se manifestuje primárně jako narušení specifických mentálních funkcí a procesů, epistemická anihilace se projevuje fundamentálnější dezintegrací vztahu subjektu k poznání jako takovému.
 - **Terapeutické implikace** — Intervence zaměřené na kognitivní anihilaci typicky cílí na obnovu specifických kognitivních funkcí, zatímco terapie epistemické anihilace vyžaduje fundamentálnější rekonstrukci epistemických kapacit a vztahu subjektu k vlastnímu poznávání.
 
-V klinické praxi je důležité rozlišovat primární a sekundární komponentu: pokud je primární kognitivní deficit (např. vaskulární encefalopatie), epistemické symptomy jsou důsledkem narušení substrátu a vyžadují primárně medicínskou intervenci. Pokud je primární epistemická manipulace (např. po extrakci ze sektářské skupiny), kognitivní symptomy mohou být sekundární a remitují s rekonstrukcí epistemické kompetence. Diferenciace mezi těmito fenomény musí jít ruku v ruce s reflexí jejich vzájemné provázanosti a komplexní interakce.
+V klinické praxi je důležité rozlišovat primární a sekundární komponentu: pokud je primární kognitivní deficit (např. vaskulární encefalopatie), epistemické symptomy jsou důsledkem narušení substrátu a vyžadují primárně medicínskou intervenci. Pokud je primární epistemická manipulace (např. po extrakci ze sektářské skupiny), kognitivní symptomy mohou být sekundární a remitují s rekonstrukcí epistemické kompetence. [Diferenciace](@/glossary/diferenciace.md) mezi těmito fenomény musí jít ruku v ruce s reflexí jejich vzájemné provázanosti a komplexní interakce.
 
 ## Typologické spektrum anihilačních fenoménů
 
@@ -83,7 +83,7 @@ Pro komplexní pochopení epistemické a kognitivní anihilace je nezbytné je z
 | **Epistemická anihilace** | Poznávací struktury | Narušení akvizice, evaluace, revize přesvědčení |
 | **Kognitivní anihilace** | Kognitivní procesy | Deficit pozornosti, paměti, exekutivních funkcí |
 | **Axiologická anihilace** | Hodnotové struktury | Hodnotová dezorientace, axiologická apatie, destrukce hierarchie |
-| **Identitní anihilace** | Personální/sociální identita | Disociace od biografického narativu, fragmentace self |
+| **Identitní anihilace** | Personální/sociální identita | [Disociace](@/glossary/disociace.md) od biografického narativu, fragmentace self |
 | **Fenomenologická anihilace** | Strukturovaná zkušenost | Dezintegrace fenomenálního pole, kolaps temporality |
 | **Sociální anihilace** | Sociální kapacity | Destrukce intersubjektivity, kolaps epistemické autority |
 | **Ontologická anihilace** | Fundamentální vztah k bytí | Ztráta orientace ve faktickém vs. fikčním, kolaps reality-testingu |
@@ -102,13 +102,13 @@ V reálných případech se tyto fenomény typicky kombinují — totalitní ind
 
 ## Graduální klasifikace anihilačních fenoménů
 
-Anihilační fenomény jsou **gradientové**, nikoli binární — vyskytují se v různé intenzitě a s různou mírou progrese. Graduální klasifikace je esenciální pro diagnostické rozhodování i pro výběr intervenční strategie — incipiální fáze vyžaduje primárně preventivní edukaci, terminální fáze externí epistemickou rekonstrukci pod ochranou specializované péče:
+[Anihilační fenomény](@/glossary/anihilacni-fenomeny.md) jsou **gradientové**, nikoli binární — vyskytují se v různé intenzitě a s různou mírou progrese. Graduální klasifikace je esenciální pro diagnostické rozhodování i pro výběr intervenční strategie — incipiální fáze vyžaduje primárně preventivní edukaci, terminální fáze externí epistemickou rekonstrukci pod ochranou specializované péče:
 
 | Stupeň | Charakteristika | Klinické znaky |
 |--------|-----------------|----------------|
 | **1. Incipiální fáze** | Subtilní izolované narušení specifických funkcí; metakognitivní povědomí o deficitech zachováno; funkční kompenzační mechanismy; omezená progrese bez dalších anihilačních vlivů | Epizodická epistemická nebo kognitivní selhání; zvýšená tenze v náročných situacích; mírné narušení kognitivní fluence a epistemické sebedůvěry; inklinace k rigidnějším strategiím |
 | **2. Intermediální (manifestní) fáze** | Rozšíření deficitů na multiple epistemické a kognitivní domény; částečně narušené metakognitivní povědomí; selhávající kompenzační mechanismy; akcelerující progrese i bez dalších externích vlivů | Frekventní dysfunkce; emergující vzorce epistemické rigidity a dogmatismu; narůstající epistemická disociace a alienace; deteriorace sociálně-epistemických kapacit |
-| **3. Avansovaná (strukturální) fáze** | Pervasivní narušení většiny epistemických a kognitivních funkcí; závažně kompromitované metakognitivní povědomí; absence funkčních kompenzačních mechanismů; etablovaná autoamplifikační dynamika | Persistentní dysfunkce; etablovaný epistemický solipsismus nebo radikální doxastická rigidita; prominentní epistemická disociace a kognitivní fragmentace; závažné narušení sociálního a pracovního fungování |
+| **3. Avansovaná (strukturální) fáze** | Pervasivní narušení většiny epistemických a kognitivních funkcí; závažně kompromitované metakognitivní povědomí; absence funkčních kompenzačních mechanismů; etablovaná autoamplifikační dynamika | Persistentní dysfunkce; etablovaný epistemický [solipsismus](@/glossary/solipsismus.md) nebo radikální doxastická rigidita; prominentní epistemická disociace a kognitivní fragmentace; závažné narušení sociálního a pracovního fungování |
 | **4. Terminální fáze** | Komplexní kolaps epistemických a kognitivních struktur; absence metakognitivního povědomí; aktivní autoamplifikace anihilačních procesů; ireverzibilní strukturální poškození; potřeba externí epistemické rekonstrukce | Totální epistemická dezintegrace; kognitivní pandémonium; fundamentální narušení kapacity konstituovat koherentní obraz reality; komplexní kolaps adaptivního fungování ve všech doménách |
 
 Graduální klasifikace **není** ekvivalentní časové ose — některé subjekty zůstávají stabilně v incipiální fázi po desetiletí, jiné akcelerují přes všechny stupně během měsíců (zvláště v intenzivně manipulativních prostředích). Klíčovým prediktorem progrese není čas, ale **přítomnost autoamplifikačních mechanismů** a **dostupnost protektivních epistemických zdrojů**. Tato klasifikace tak není pouze deskriptivním nástrojem, ale má významné implikace pro diagnostický proces, terapeutickou strategii a prognostické úvahy v klinické praxi.

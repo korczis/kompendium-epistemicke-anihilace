@@ -64,7 +64,7 @@ a kam ve stromu patří.
 | [disociace](@/glossary/disociace.md) | heslo pro disociativní poruchy | dissociat* |
 | [trauma ze zrady](@/glossary/betrayal-trauma.md) | pravděpodobně bez vlastního deskriptoru | "betrayal trauma" |
 | [trauma bonding](@/glossary/trauma-bonding.md) | pravděpodobně bez vlastního deskriptoru | "trauma bond*", "traumatic bond*" |
-| skupina s vysokou mírou kontroly ([model BITE](@/glossary/bite-model.md)) | heslo pro kulty či náboženské skupiny (ověřte) | cult*, "high-control group*", "coercive group*" |
+| [skupina s vysokou mírou kontroly](@/glossary/high-control-group.md) ([model BITE](@/glossary/bite-model.md)) | heslo pro kulty či náboženské skupiny (ověřte) | cult*, "high-control group*", "coercive group*" |
 | [zneužívání seniorů](@/glossary/elder-abuse.md) | heslo pro týrání seniorů | "elder abuse", "financial exploitation" |
 | [undue influence](@/glossary/undue-influence.md) | spíše právní databáze | "undue influence" |
 | dezinformace, [propaganda](@/glossary/propaganda.md) | heslo pro komunikaci a dezinformace (ověřte) | disinformation, misinformation |

@@ -71,7 +71,7 @@ Co prožívá subjekt **uvnitř** hyperreflexivity:
 
 - **Pocit bezedné hloubky** každého kognitivního aktu — žádný úsudek se nezdá „dostatečně reflektovaný“
 - **Paralyzující přítomnost pozorovatele** — subjekt cítí, jak ho jeho vlastní mysl sleduje
-- **Disociace mezi jednajícím a reflektujícím já** — primární kognice je prožívána jako „cizí“, „automatická“
+- **[Disociace](@/glossary/disociace.md) mezi jednajícím a reflektujícím já** — primární kognice je prožívána jako „cizí“, „automatická“
 - **Diskomfort z bezprostřednosti** — spontánní reakce vyvolávají úzkost, protože „nebyly reflektovány“
 - **Odklad jednání** — rozhodnutí jsou neustále odsouvána pro nedostatečnou metakognitivní jistotu
 - **Subjektivní zpomalení času** — každý okamžik se zdá nabitý nesplněnou reflexivní povinností
@@ -186,18 +186,18 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
 ### Eskaluje do
 
 - **EA-5.1.x Disociativní fragmentace já** — chronická hyperreflexivita může produkovat strukturální štěp mezi pozorujícím a jednajícím já.
-- **Klinická depersonalizace** — v extrémních případech přechod do diagnostické kategorie.
+- **Klinická [depersonalizace](@/glossary/depersonalizace.md)** — v extrémních případech přechod do diagnostické kategorie.
 
 ### Alternativy / podobné, ale **distinktivní**
 
 - **Zdravá metakognice** — strukturálně podobná, ale **nástrojová** a **časově ohraničená**.
-- **EA-1.3.4 Indukovaná pochybnost** — opačná strategie: ne rekurze nad kognicí, ale **destabilizace** kognitivních základů. Často kombinovány.
+- **[EA-1.3.4](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md) Indukovaná pochybnost** — opačná strategie: ne rekurze nad kognicí, ale **destabilizace** kognitivních základů. Často kombinovány.
 
 ## Vztah k Prismatic platformě
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} operační uzávěrka** — kalibrační logika obsahuje **time-boxed** reflexi s povinným přechodem k rozhodnutí; rozhodnutí, která čekají na „dostatečnou jistotu“, jsou flagována jako rekurzivně paralyzovaná.
 - **NABLA Infinity reflective depth limit** — epistemický pipeline má **maximální hloubku** sebepoukazu; po dosažení limitu se aktivuje operační rozhodnutí na základě nejlepšího aktuálního stavu.
-- **Color Teams reflexivní rotace** — Red Team má mandát **zastavit** Blue Team v rekurzivní reflexi, pokud paralyzuje rozhodování.
+- **Color Teams reflexivní rotace** — [Red Team](@/glossary/red-team.md) má mandát **zastavit** [Blue Team](@/glossary/blue-team.md) v rekurzivní reflexi, pokud paralyzuje rozhodování.
 
 ## Související
 

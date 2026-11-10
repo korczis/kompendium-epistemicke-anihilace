@@ -69,7 +69,7 @@ Strukturální analýza extrémních výcvikových protokolů — jak legitimní
 
 **Kontraindikace.** Akutní psychiatrická symptomatologie, nevyřešené trauma, kognitivní deficit pod prahovou úrovní, somatická kontraindikace pro pozdější fáze.
 
-**Indikátory úspěšného dokončení.** Subjekt demonstruje kompetenci v cílových dovednostech; adekvátní sociometrická integrace s kohortou; absence eskalujících psychiatrických symptomů; informovaný souhlas s pokračováním do stupně 2.
+**Indikátory úspěšného dokončení.** Subjekt demonstruje kompetenci v cílových dovednostech; adekvátní sociometrická integrace s kohortou; absence eskalujících psychiatrických symptomů; [informovaný souhlas](@/glossary/informed-consent.md) s pokračováním do stupně 2.
 
 ### Stupeň 2 — Exposure (kontrolovaná expozice stresorům)
 
@@ -85,7 +85,7 @@ Strukturální analýza extrémních výcvikových protokolů — jak legitimní
 
 **Kontraindikace.** Symptomy akutní stresové reakce mimo kalibrovaný rámec; eskalující dissociace; somatické komplikace; aktivní suicidalita.
 
-**Failure modes.** Nadměrná intenzita vedoucí k traumatu (iatrogeneze); nedostatečná intenzita vedoucí k pseudoinokulaci (subjekt si myslí, že je připraven, ale není); diferenciace stupně 2 od skutečně traumatických událostí (real-world contamination).
+**Failure modes.** Nadměrná intenzita vedoucí k traumatu (iatrogeneze); nedostatečná intenzita vedoucí k pseudoinokulaci (subjekt si myslí, že je připraven, ale není); [diferenciace](@/glossary/diferenciace.md) stupně 2 od skutečně traumatických událostí (real-world contamination).
 
 ### Stupeň 3 — Integration (integrace destabilizace do funkčního celku)
 
@@ -214,7 +214,7 @@ Extrémní výcvikové sekvence — i když dokonale legitimní — nesou inhere
 - Iatrogenní trauma (poškození způsobené samotným výcvikem)
 - Falešný pocit mistrovství
 - Identita over-fused s výcvikovou rolí
-- Sociální izolace od non-trained populace
+- [Sociální izolace](@/glossary/socialni-izolace.md) od non-trained populace
 
 ### Měření úspěchu — kvantitativní indikátory
 
@@ -294,7 +294,7 @@ Pro výzkumníky, klinickou praxi a institucionální governance z toho vyplýv�
 - [NABLA Infinity Framework](@/glossary/nabla-infinity.md) — formální reprezentace epistemických trajektorií
 - [Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — evidence-based hodnocení rizikového profilu
+- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — [evidence-based](@/glossary/evidence-based.md) hodnocení rizikového profilu
 
 ## ⚡ Kritický krok
 

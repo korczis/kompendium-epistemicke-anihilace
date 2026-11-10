@@ -93,8 +93,8 @@ Vulnerabilní klient je často také **svědek** — proti agresorům, proti ins
 |--------|-------------------|
 | **S1 Validace** | Hra, kresba, příběhy; rodičovská psychoedukace separátně |
 | **S2 Externalizace** | Externalizace skrze metaforu, postavy, "trápení jako monstrum" |
-| **S3 Metakognice** | Vývojově adekvátně — pojmenování emocí, "myšlenková mapa" |
-| **S4 Hermeneutika** | Práce s pohádkami, příběhy, kontextuální čtení |
+| **S3 [Metakognice](@/glossary/metakognice.md)** | Vývojově adekvátně — pojmenování emocí, "myšlenková mapa" |
+| **S4 [Hermeneutika](@/glossary/hermeneutika.md)** | Práce s pohádkami, příběhy, kontextuální čtení |
 | **S5 Konsolidace** | Posílení non-rodinných vazeb, škola, peer-skupiny |
 
 ### Etické a strukturální výzvy
@@ -109,7 +109,7 @@ Vulnerabilní klient je často také **svědek** — proti agresorům, proti ins
 ### Rizikový profil
 
 - **Hluboká identitní reorganizace** — kult typicky nahradil pre-kultovní self-narrativ;
-- **Sociální izolace** — ztráta veškerých vazeb mimo skupinu;
+- **[Sociální izolace](@/glossary/socialni-izolace.md)** — ztráta veškerých vazeb mimo skupinu;
 - **Ekonomická a strukturální závislost** — finance, bydlení, vzdělání mohou být vázány na skupinu;
 - **Riziko relapsu** — nostalgie po komunitě, pocit ztráty smyslu;
 - **Komplexní disociativní fenomény** — typické u dlouhodobé příslušnosti.
@@ -156,7 +156,7 @@ Klient typicky prochází fázemi:
 - **Akumulované trauma** — válečné, persekuční, migrační;
 - **Strukturální delegitimizace** — uprchlík je často **nevěřen** institucemi;
 - **Jazykový a kulturní bariér** — terapie probíhá v ne-mateřském jazyce nebo skrze tlumočníka;
-- **Kontextuální gaslighting** — politická represivní propaganda mohla po dlouhou dobu definovat realitu;
+- **Kontextuální gaslighting** — politická represivní [propaganda](@/glossary/propaganda.md) mohla po dlouhou dobu definovat realitu;
 - **Kolektivní dimenze trauma** — útok byl na celou komunitu, ne jen jednotlivce;
 - **Akutní praktické nejistoty** — azylová procedura, právní status, ekonomika.
 
@@ -165,7 +165,7 @@ Klient typicky prochází fázemi:
 | Forma | Popis |
 |-------|-------|
 | **Politická indoktrinace** | Systematická manipulace mediálního a vzdělávacího prostředí |
-| **Terorové gaslighting** | Popření zločinů vůči obyvatelstvu, falsifikace historie |
+| **Terorové gaslighting** | Popření zločinů vůči obyvatelstvu, [falsifikace](@/glossary/falsifikace.md) historie |
 | **Diasporní izolace** | Kontrolované informační prostředí v exilu |
 | **Institucionální nevěření** | Hostitelská země zpochybňuje výpověď uprchlíka |
 | **Translingvální disorientace** | Ztráta primárního jazyka jako kotvy reality |
@@ -174,7 +174,7 @@ Klient typicky prochází fázemi:
 
 - **Kulturně senzitivní instrumenty** — vyhýbat se západními koncepty bez adaptace;
 - **Tlumočnická etika** — kvalifikovaný, nezávislý tlumočník (nikoli rodinný příslušník);
-- **Komplexní trauma anamnéza** — pre-migrační, migrační, post-migrační stadia;
+- **[Komplexní trauma](@/glossary/complex-trauma.md) anamnéza** — pre-migrační, migrační, post-migrační stadia;
 - **Spolupráce s právníky** — azylová procedura ovlivňuje terapii;
 - **Kolektivní rovina** — co se stalo komunitě/národu, ne jen jednotlivci.
 
@@ -226,7 +226,7 @@ Klient typicky prochází fázemi:
 | Princip | Aplikace pro EA |
 |---------|-----------------|
 | **Neškodit** | Diagnóza nesmí reinscenovat manipulaci |
-| **Informovaný souhlas** | Explicitní, opakovaný, revizní |
+| **[Informovaný souhlas](@/glossary/informed-consent.md)** | Explicitní, opakovaný, revizní |
 | **Spravedlnost** | Stejný standard péče bez ohledu na vulnerabilitu |
 | **Autonomie** | I když klient byl autonomie zbaven — cílem je její obnova |
 | **Důvěrnost** | S výjimkou ohrožení dětí, klientů samotných, třetích osob |

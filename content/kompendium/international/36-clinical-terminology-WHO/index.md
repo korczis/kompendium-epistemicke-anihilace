@@ -54,7 +54,7 @@ komplexní PTSD je diagnózou MKN-11, ale v DSM-5-TR samostatně neexistuje.
 | [komplexní PTSD](@/glossary/c-ptsd.md) | 6B41 | není samostatná diagnóza | jádro PTSD + poruchy sebeorganizace: dysregulace afektu, negativní sebepojetí, potíže ve vztazích |
 | prolongovaný (komplikovaný) zármutek | 6B42 | prolonged grief disorder (od DSM-5-TR) | ztráta vztahu nebo komunity po odchodu ze skupiny |
 | poruchy přizpůsobení | 6B43 | adjustment disorders | častá diagnóza krátce po odhalení manipulace |
-| [disociace](@/glossary/disociace.md), depersonalizace | skupina disociativních poruch | dissociative disorders | odlišit od psychotického prožívání |
+| [disociace](@/glossary/disociace.md), [depersonalizace](@/glossary/depersonalizace.md) | skupina disociativních poruch | dissociative disorders | odlišit od psychotického prožívání |
 | poruchy osobnosti | jedna kategorie se stupněm závažnosti a rysovými kvalifikátory | kategoriální typy (včetně narcistické) | „narcis“ z populárního jazyka neodpovídá ani jednomu |
 | kontext týrání či zneužívání | kapitola 24 (faktory ovlivňující zdravotní stav) | kódy „Other conditions that may be a focus of clinical attention“, např. psychické zneužívání partnerem | konkrétní kódy ověřte v aktuální verzi klasifikace |
 
@@ -68,7 +68,7 @@ viz [Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-inst
   (Herman 1992), ne diagnózu. Při překladu to uvést.
 - **Kódy z druhé ruky.** Kódy z webů a sekundární literatury bývají chybné nebo převzaté
   z MKN-10. Kód uvádět jen ověřený v prohlížeči MKN-11 (ICD-11 Browser) a s verzí.
-- ***Gaslighting*, *trauma bonding* jako diagnózy.** Nejsou to klinické kategorie MKN-11
+- ***Gaslighting*, *[trauma bonding](@/glossary/trauma-bonding.md)* jako diagnózy.** Nejsou to klinické kategorie MKN-11
   ani DSM-5-TR; v dokumentaci patří do popisu anamnézy a kontextu.
 - ***Parental alienation*.** Není diagnózou MKN-11 ani DSM-5-TR; jeho použití je odborně
   i právně sporné (viz [rodičovské odcizení](@/glossary/parental-alienation.md)).

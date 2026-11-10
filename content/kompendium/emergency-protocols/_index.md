@@ -19,7 +19,7 @@ status = "in-progress"
 
 Tato sekce obsahuje **40 emergency intervenčních protokolů** pro klinickou práci s pacienty v akutní situaci po expozici [epistemické anihilace](@/glossary/epistemicka-anihilace.md). Protokoly jsou strukturované do čtyř kategorií dle klinické situace.
 
-> **Epistemický status**: Protokoly integrují evidence-based crisis interventions (Stanley-Brown Safety Plan, DBT crisis skills, polyvagal theory) s klinickou expertízou v práci s EA-survivors.
+> **Epistemický status**: Protokoly integrují [evidence-based](@/glossary/evidence-based.md) crisis interventions (Stanley-Brown Safety Plan, DBT crisis skills, polyvagal theory) s klinickou expertízou v práci s EA-survivors.
 
 ## Strukturace protokolů
 

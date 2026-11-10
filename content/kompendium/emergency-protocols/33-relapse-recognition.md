@@ -22,13 +22,13 @@ toc = true
 
 Pacient v EA-recovery — kritické rozpoznání early warning signs relapsu před akutním break, často 2–6 týdnů před overt crisis. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **rozpoznání early warning signs relapsu po EA-recovery** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
 
-> **Epistemický status**: Protokol integruje evidence-based postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
 
 ## 2. Bezprostřední intervence (5 kroků)
 
 1. **Identifikuj individual relapse signature** — pro každého pacienta unikátní kombinace symptomů (sleep, appetite, social withdrawal).
 2. **Trénuj support network v rozpoznání** — partneři, rodiče, blízcí přátelé znají signatures, ne jen pacient sám.
-3. **Use objektivní markers** — sleep tracking, mood diary, weight, fyzická aktivita; ne pouze subjektivní self-report.
+3. **Use objektivní markers** — sleep tracking, mood diary, weight, fyzická aktivita; ne pouze subjektivní [self-report](@/glossary/self-report.md).
 4. **Stanov ranný response plán** — co dělat při red flags před akutním crisis (extra session, medication review, peer support).
 5. **Pravidelný relapse plan review** — minimálně každé 3 měsíce update s novými trigger info a coping skills.
 

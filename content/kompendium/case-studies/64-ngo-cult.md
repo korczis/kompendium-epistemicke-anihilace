@@ -133,7 +133,7 @@ s prvky protokolu pro [zdravotníky a pomáhající profese](@/kompendium/techni
   utrpení; mapa míst, kde organizace přeměňovala soucit v povinnost.
 - **S2 – Externalizace introjektů:** pojmenování vět „únava je sobeckost“ a „klienti nemají
   volno“ jako hlasu organizace; [rozpoznání emočního dluhu](@/kompendium/self-defense-guides/20-emotional-debt-recognition.md).
-- **S3 – Rekonstrukce metakognice:** obnova schopnosti vnímat vlastní potřeby jako informaci,
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** obnova schopnosti vnímat vlastní potřeby jako informaci,
   ne jako selhání.
 - **S4 – Hermeneutická obnova:** nové porozumění vlastnímu povolání – pomoc jako profese
   s hranicemi, nikoli oběť; skupina pro bývalé humanitární pracovníky.

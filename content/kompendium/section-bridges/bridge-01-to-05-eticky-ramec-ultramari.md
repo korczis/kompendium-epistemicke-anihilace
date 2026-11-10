@@ -30,8 +30,8 @@ Ultramarinní techniky operují na **hraně bezpečné aplikace** — jsou to ne
 - **Témata moci a manipulace** — Předmluva je tematizuje, ultramari je provokuje.
 - **Doprovod (companion presence)** — etický požadavek dvojí kontroly se v ultramari stává nepodkročitelným.
 - **Předem definované exit body** — ultramari nedovolí improvizaci ukončení.
-- **Informed consent jako iterativní akt** — souhlas se obnovuje v každé fázi, ne jednou.
-- **Doctrine NMND** — žádné kompromisy v bezpečnostním řetězci.
+- **[Informed consent](@/glossary/informed-consent.md) jako iterativní akt** — souhlas se obnovuje v každé fázi, ne jednou.
+- **[Doctrine](@/glossary/doctrine.md) NMND** — žádné kompromisy v bezpečnostním řetězci.
 - **Post-session integrace** — etický rámec definuje, ultramari operacionalizuje.
 
 ## 3. Doporučená čtenářská trajektorie

@@ -19,7 +19,7 @@ toc = true
 
 John Searle ve své známé eseji *Minds, Brains, and Programs* (*Behavioral and Brain Sciences*, 1980) formuluje **Argument čínského pokoje** (*Chinese Room Argument*) — myšlenkový experiment proti **silné AI** (silver AI: počítač **rozumí**) ve prospěch **slabé AI** (počítač **simuluje** rozumění).
 
-Pro kompendium EA poskytuje Searleho argument nástroj pro **kritickou analýzu nároků** velkých jazykových modelů (LLMs) a algoritmické EA — proti naivní inflaci AI rozumění.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Searleho argument nástroj pro **kritickou analýzu nároků** velkých jazykových modelů (LLMs) a algoritmické EA — proti naivní inflaci AI rozumění.
 
 ## 1. Argument čínského pokoje
 
@@ -74,7 +74,7 @@ Searle (*The Construction of Social Reality*, 1995): **institucionální fakta**
 
 Pro EA z toho plyne:
 
-- **Institucionální fakta jsou strukturálně zranitelná**: pokud kolektivní intencionalita kolabuje, instituce kolabují.
+- **Institucionální fakta jsou strukturálně zranitelná**: pokud kolektivní [intencionalita](@/glossary/intentionalita.md) kolabuje, instituce kolabují.
 - **Útok na kolektivní intencionalitu**: techniky, jež **rozkládají** sdílenou kapacitu pro institucionální fakta, strukturálně **anihilují** institucionální realitu.
 - **Klinický korelát**: subjekt, jenž **nedůvěřuje** institucionálním faktům (penězům, kontrolám, soudům), vykazuje **strukturální paranoid** — strukturální analog Davidsonovské krize charity ([viz 7.25](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md)).
 
@@ -100,7 +100,7 @@ Pro EA z toho plyne:
 | Antropomorfizace AI | AI marketing | EA-1.5 |
 | Inflace silné AI | Pseudo-AI rozumění | Strukturální |
 | Útok na background | Sensorická deprivace | Klinický |
-| Útok na kolektivní intencionalitu | Delegitimizace institucí | EA-3.x |
+| Útok na kolektivní intencionalitu | [Delegitimizace](@/glossary/delegitimizace.md) institucí | EA-3.x |
 | Pseudo-syntaxe jako sémantika | Algoritmická imitace | Strukturální |
 
 ## 7. Klinický význam

@@ -39,11 +39,11 @@ Tato architektura je **fundamentální inovací** ve vztahu k tradičnímu model
 
 | Komponenta | Funkce vzhledem ke kompendiu |
 |------------|------------------------------|
-| **Decision Engine** | Empirické testování indikátorů manipulace |
+| **[Decision Engine](@/glossary/decision-engine.md)** | Empirické testování indikátorů manipulace |
 | **NABLA Infinity** | Modelování epistemické struktury argumentů |
 | **OSINT Framework** | Sběr dat z reálných manipulativních operací |
 | **Color Teams** | Operacionalizace bezpečnostních protokolů |
-| **PrismaticDD** | Due diligence aplikace taxonomie |
+| **PrismaticDD** | [Due diligence](@/glossary/due-diligence.md) aplikace taxonomie |
 | **Mycelial Intelligence** | Distribuovaná detekce vzorců napříč případy |
 | **Audit Log** | Materializace etického dohledu |
 
@@ -93,7 +93,7 @@ NABLA Infinity formalizuje to, co kompendium popisuje narativně:
 
 - **Axiomatická vrstva** — explicitní reprezentace epistemických předpokladů
 - **Inferenční pravidla** — formální zachycení argumentačních kroků
-- **Meta-inference** — reprezentace argumentů o argumentech (úroveň, na které operuje epistemická anihilace)
+- **Meta-inference** — reprezentace argumentů o argumentech (úroveň, na které operuje [epistemická anihilace](@/glossary/epistemicka-anihilace.md))
 
 Mnoho technik kompendia **nelze adekvátně popsat** bez meta-inferenčního aparátu. Příklad: technika [imunizace proti falsifikaci (EA-1.3.1)](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) operuje na meta-úrovni — modifikuje pravidla, podle kterých se hodnotí evidence, nikoli evidenci samotnou. NABLA Infinity poskytuje formalismus pro exaktní zachycení tohoto rozdílu.
 
@@ -137,9 +137,9 @@ OSINT data umožňují **kalibraci taxonomických tvrzení** proti empirické re
 
 | Team | Funkce | Vztah ke kompendiu |
 |------|--------|---------------------|
-| **Red Team** | Adversariální testování | Aplikuje techniky kompendia v kontrolovaném prostředí |
-| **Blue Team** | Defenzivní operace | Detekuje a neutralizuje útoky podle kompendia |
-| **Purple Team** | Integrace Red+Blue | Iterativní zlepšování detekce |
+| **[Red Team](@/glossary/red-team.md)** | Adversariální testování | Aplikuje techniky kompendia v kontrolovaném prostředí |
+| **[Blue Team](@/glossary/blue-team.md)** | Defenzivní operace | Detekuje a neutralizuje útoky podle kompendia |
+| **[Purple Team](@/glossary/purple-team.md)** | Integrace Red+Blue | Iterativní zlepšování detekce |
 | **Yellow Team** | Vývoj nástrojů | Implementuje detekční pravidla |
 | **Green Team** | Compliance + audit | Validuje etické dodržování |
 

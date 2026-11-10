@@ -1,7 +1,6 @@
 {
  "content/about.md": [
-  "related",
-  "links-out"
+  "related"
  ],
  "content/galerie.md": [
   "related"
@@ -380,9 +379,6 @@
   "description",
   "czech",
   "related"
- ],
- "content/glossary/traumatic-bonding.md": [
-  "links-out"
  ],
  "content/glossary/trinity-gate.md": [
   "czech",
@@ -1768,24 +1764,6 @@
  "content/kompendium/techniques/ea-4-4-9-narrative-reconstruction.md": [
   "not-orphan"
  ],
- "content/kompendium/techniques/ea-5-3-16-fenomenologicka-rekonstituce.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-5-3-17-existencialni-rekonfigurace.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-5-3-26-core-self-fraktura.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-5-3-27-ego-skeletalni-redukce.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-5-3-5-temporalne-vyvojova-inverze.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-5-3-6-rekurzivni-hypertransformace.md": [
-  "not-orphan"
- ],
  "content/kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md": [
   "description"
  ],
@@ -1900,18 +1878,6 @@
  "content/kompendium/techniques/ea-7-3-10-tononi-iit.md": [
   "description"
  ],
- "content/kompendium/techniques/ea-8-1-6-betrayal-trauma-inventory.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-8-2-8-aprw-attachment-trauma.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-8-3-1-foundational-readings.md": [
-  "not-orphan"
- ],
  "content/kompendium/techniques/ea-8-3-10-information-warfare-literature.md": [
   "czech"
  ],
@@ -1919,21 +1885,10 @@
   "not-orphan"
  ],
  "content/kompendium/techniques/ea-8-3-3-philosophical-canon.md": [
-  "czech",
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-8-3-4-empirical-research-base.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-8-3-6-contemporary-cases.md": [
-  "not-orphan"
+  "czech"
  ],
  "content/kompendium/techniques/ea-8-3-7-interdisciplinary-anthology.md": [
-  "czech",
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md": [
-  "not-orphan"
+  "czech"
  ],
  "content/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md": [
   "related"
@@ -2170,13 +2125,11 @@
  ],
  "content/philosophy/boundary-ethics.md": [
   "czech",
-  "related",
-  "links-out"
+  "related"
  ],
  "content/philosophy/epistemic-integrity.md": [
   "czech",
-  "related",
-  "links-out"
+  "related"
  ],
  "content/philosophy/intellectual-sovereignty.md": [
   "czech",

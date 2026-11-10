@@ -27,7 +27,7 @@ Předmluva ustavuje **etický rámec a varování** pro celou knihu. Úvod tento
 
 - **Etika čtenáře vs. etika konceptu** — Předmluva varuje čtenáře, Úvod definuje, co se může pokazit.
 - **Triggers a kontraindikace** — Předmluva uvádí varování, Úvod ukazuje, na co konkrétně varovat.
-- **Doctrine NMND/NWB** — Předmluva implicitně vyžaduje absolutní přístup, Úvod ho institucionalizuje.
+- **[Doctrine](@/glossary/doctrine.md) NMND/NWB** — Předmluva implicitně vyžaduje absolutní přístup, Úvod ho institucionalizuje.
 - **Bezpečnostní protokol jako čtenářský kontrakt** — vstup do EA je akt souhlasu, ne pasivního čtení.
 - **Rozsah aplikace** — Předmluva nastavuje hranice, Úvod je formálně specifikuje.
 - **Vztah autor–čtenář** — Předmluva ho otevírá důvěrou, Úvod ho strukturuje pravidly.
@@ -48,7 +48,7 @@ Začněte Předmluvou jako prahem (threshold reading). Nepřeskakujte. Až poté
 
 ## 5. Specifické techniky / koncepty
 
-Klíčové koncepty na rozhraní: **threshold reading**, **informed consent**, **contraindication map**, **readiness assessment**, **author–reader contract**. V kompendiu se promítají do bezpečnostních protokolů (sekce 04) a klinických aplikací (sekce 06).
+Klíčové koncepty na rozhraní: **threshold reading**, **[informed consent](@/glossary/informed-consent.md)**, **contraindication map**, **readiness assessment**, **author–reader contract**. V kompendiu se promítají do bezpečnostních protokolů (sekce 04) a klinických aplikací (sekce 06).
 
 ## 6. Související
 

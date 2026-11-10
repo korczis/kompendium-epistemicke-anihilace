@@ -18,7 +18,7 @@ type = "educational-scenario"
 > **Úroveň**: Foundation
 > **Učební cíl**: Hierarchizovat důkazy podle síly a vědět, kdy hierarchie neplatí
 > **Doporučená délka**: 90 minut
-> **Pro koho**: kliničtí pracovníci, právníci, vyšetřovatelé, analytici due diligence
+> **Pro koho**: kliničtí pracovníci, právníci, vyšetřovatelé, analytici [due diligence](@/glossary/due-diligence.md)
 
 Známá pyramida důkazů – randomizované kontrolované studie (RCT) nad observačními studiemi a
 ty nad kazuistikami a anekdotami – je užitečná pro otázky typu „funguje tato léčba?“.

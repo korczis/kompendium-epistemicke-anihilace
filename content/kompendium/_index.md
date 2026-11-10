@@ -48,7 +48,7 @@ Kompendium je určeno **výhradně** pro:
 - Kvalifikované **psychiatry a klinické psychology**
 - **Filozofy** specializující se na epistemologii a filozofii mysli
 - **Výzkumníky** v oblasti kognitivních věd a sociální psychologie
-- **Bezpečnostní analytiky** zaměřené na epistemickou bezpečnost a informační operace
+- **Bezpečnostní analytiky** zaměřené na epistemickou bezpečnost a [informační operace](@/glossary/info-ops.md)
 - Odborníky s **adekvátním vzděláním a etickým závazkem k profesi**
 
 > ⚠️ **Důležité upozornění**: Kompendium obsahuje detailní popis potenciálně destruktivních technik. Není určeno pro širokou veřejnost a vyžaduje odpovědné zacházení. Veškerý obsah slouží **defenzivnímu**, **diagnostickému** a **edukativnímu** účelu — nikoliv návodu k aplikaci.
@@ -59,7 +59,7 @@ Kompendium je určeno **výhradně** pro:
 |---|-------|------|-------|
 | **01** | [Předmluva](@/kompendium/01-predmluva/_index.md) | ✓ kompletní | Účel, cílová skupina, etika, metodika |
 | **02** | [Úvod do epistemické anihilace](@/kompendium/02-uvod/_index.md) | ✓ kompletní | Definice, historický kontext, teoretické základy |
-| **03** | [Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) | ✓ kompletní | Akademické techniky, delegitimizace, edukativní implementace, 3 scénáře |
+| **03** | [Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) | ✓ kompletní | Akademické techniky, [delegitimizace](@/glossary/delegitimizace.md), [edukativní implementace](@/glossary/edukativni-implementace.md), 3 scénáře |
 | **04** | [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) | ✓ kompletní | 9 článků: konceptuální/identitní/institucionální dekonstrukce, screening, monitoring, rekonstituce |
 | **05** | [Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | ◐ částečně publikováno | 5 narativních kapitol (6–10) + 100/150 detailních technik (5.1.\* + 5.2.\* + 5.4.\*) |
 | **06** | [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) | ✓ kompletní | 10 článků: diagnostika, terapie, rekonstrukce, vulnerabilní populace, kazuistiky |
@@ -72,10 +72,10 @@ Kompendium je určeno **výhradně** pro:
 | **13** | [Section Bridges](@/kompendium/section-bridges/_index.md) | ✓ 30 můstků | Cross-link můstky mezi sekcemi kompendia (1↔3, 2↔4, atd.) |
 | **14** | [Recovery Protocols](@/kompendium/recovery-protocols/_index.md) | ✓ 30 protokolů | Strukturované postupy zotavení po expozici technikám |
 | **15** | [Emergency Protocols](@/kompendium/emergency-protocols/_index.md) | ✓ 40 protokolů | Akutní intervenční postupy pro krizové situace |
-| **16** | [AIAD Integration](@/kompendium/aiad-integration/_index.md) | ✓ 25 integračních článků | Propojení kompendia s AIAD agenty a doctrine pillars |
+| **16** | [AIAD Integration](@/kompendium/aiad-integration/_index.md) | ✓ 25 integračních článků | Propojení kompendia s AIAD agenty a [doctrine](@/glossary/doctrine.md) pillars |
 | **17** | [Cross-Domain](@/kompendium/cross-domain/_index.md) | ✓ 30 cross-doménových | OSINT/DD/HR/forenzní/legal aplikace technik |
 | **18** | [Educational Scenarios](@/kompendium/educational-scenarios/_index.md) | ✓ 30 scénářů | Edukativní výukové scénáře pro tréninky |
-| **19** | [Historical Cases](@/kompendium/historical-cases/_index.md) | ✓ 40 historických | Historické případy aplikace technik (sekta, totalitní režimy, propaganda) |
+| **19** | [Historical Cases](@/kompendium/historical-cases/_index.md) | ✓ 40 historických | Historické případy aplikace technik (sekta, totalitní režimy, [propaganda](@/glossary/propaganda.md)) |
 | **20** | [Detection Signatures](@/kompendium/detection-signatures/_index.md) | ✓ 30 signatur | Strojově čitelné detekční signatury pro automatizaci |
 | **21** | [Vizualizace](@/kompendium/visualizations/_index.md) | ✓ 6 interaktivních | Chart.js / Three.js / p5.js: distribuce, severity, 3D graf, trajektorie zotavení, simulace |
 
@@ -155,7 +155,7 @@ EA-X.Y.Z-α
 Kompendium není izolovaný akademický artefakt — je propojeno s Prismatic platformou skrze:
 
 - **[Epistemic Pipeline](@/glossary/epistemic-pipeline.md)**: některé techniky odpovídají selhání nebo útokům na konkrétní úrovně L0–L13 NABLA Infinity.
-- **[Color Teams](@/glossary/color-teams.md)**: detekční markery z kompendia jsou používány Red Team agenty pro epistemic adversarial simulation.
+- **[Color Teams](@/glossary/color-teams.md)**: detekční markery z kompendia jsou používány [Red Team](@/glossary/red-team.md) agenty pro epistemic adversarial simulation.
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}**: kalibrace důvěry využívá indikátory epistemické manipulace jako negativní signály.
 - **[Glossary](@/glossary/_index.md)**: každý klíčový termín má samostatné glosářové heslo s cross-referencí.
 

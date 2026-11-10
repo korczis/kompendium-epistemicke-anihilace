@@ -61,7 +61,7 @@ Co prožívá subjekt **uvnitř** techniky:
 |------|-------|
 | **Mizení sense-of-mineness** | Zkušenosti probíhají, ale nejsou prožívané jako 'moje' |
 | **Cizota vlastních činů** | Subjekt prožívá vlastní jednání jako 'cizí' |
-| **Kvazi-mystická interpretace** | Manipulátor poskytuje doktrinální rámec ('rozpuštění ega') |
+| **Kvazi-mystická interpretace** | Manipulátor poskytuje doktrinální rámec ('[rozpuštění ega](@/glossary/ego-death.md)') |
 | **Závislost na manipulátorově rámci pro existenciální orientaci** | Subjekt je funkčně závislý na manipulátorovi pro tuto vrstvu zkušenosti |
 
 ## Detekční markery (pohled pozorovatele)
@@ -92,7 +92,7 @@ Co může vidět vnější pozorovatel:
 
 ### Sister UM techniky (subkategorie 5.3 Hypertransformativní protokoly)
 
-EA-5.3.24 (proto-self rozklad), EA-5.3.26 (core-self fraktura)
+[EA-5.3.24](@/kompendium/techniques/ea-5-3-24-proto-self-rozklad.md) (proto-self rozklad), [EA-5.3.26](@/kompendium/techniques/ea-5-3-26-core-self-fraktura.md) (core-self fraktura)
 
 ### Cross-categorical references
 
@@ -131,10 +131,10 @@ Zahaviho **minimal self** (*Self-Awareness and Alterity*, 1999) — pre-reflekti
 
 Empirický výzkum identitárně manipulativních technik se opírá o několik klíčových linií:
 
-- **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
-- **Hassan, S.** (2018). *Combating Cult Mind Control* — BITE model (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
+- **Lifton, R. J.** (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
+- **Hassan, S.** (2018). *Combating Cult Mind Control* — [BITE model](@/glossary/bite-model.md) (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
 - **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
-- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie disociace, terapeutické důsledky.
+- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie [disociace](@/glossary/disociace.md), terapeutické důsledky.
 
 ## Diferenciální diagnostika
 

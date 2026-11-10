@@ -35,16 +35,16 @@ Zatímco sekce [02 — Úvod](@/kompendium/02-uvod/_index.md) buduje konceptuál
 
 | # | Kapitola | Zaměření | Klíčové postavy |
 |---|----------|----------|-----------------|
-| **7.1** | [Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md) | Power-knowledge, instrumentální rozum, sféry, komunikativní racionalita | Foucault, Adorno, Sloterdijk, Habermas |
-| **7.2** | [Vztah k epistemickému traumatu — empirická literatura](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md) | Komplexní trauma, betrayal trauma, prediktivní zpracování, neuroplasticita | Herman, Freyd, van der Kolk, Brewin |
-| **7.3** | [Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) | Veritism, hermeneutická a testimoniální nespravedlnost, kritický kontextový empirismus | Goldman, Fricker, Longino, Anderson |
-| **7.4** | [EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md) | Rozpad metanarativů, simulakra, dekonstrukce | Lyotard, Baudrillard, Derrida |
+| **7.1** | [Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md) | Power-knowledge, [instrumentální rozum](@/glossary/instrumental-reason.md), sféry, [komunikativní racionalita](@/glossary/communicative-rationality.md) | Foucault, Adorno, Sloterdijk, Habermas |
+| **7.2** | [Vztah k epistemickému traumatu — empirická literatura](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md) | [Komplexní trauma](@/glossary/complex-trauma.md), [betrayal trauma](@/glossary/betrayal-trauma.md), [prediktivní zpracování](@/glossary/predictive-processing.md), neuroplasticita | Herman, Freyd, van der Kolk, Brewin |
+| **7.3** | [Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) | Veritism, hermeneutická a [testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md), kritický kontextový empirismus | Goldman, Fricker, Longino, Anderson |
+| **7.4** | [EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md) | Rozpad metanarativů, [simulakra](@/glossary/simulacra.md), dekonstrukce | Lyotard, Baudrillard, Derrida |
 
 ## Proč separátní teoretická sekce
 
 Kompendium **není** atemporální klasifikační schéma — je to **historicky a teoreticky situovaný** výzkumný program ve smyslu Imre Lakatose ([viz glosář](@/glossary/lakatos-vyzkumny-program.md)). Tento program má své **tvrdé jádro** (strukturální realismus o epistemických procesech, multidimenzionální klasifikace, princip kompoziční analýzy — viz [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)) a **ochrannou vrstvu** revizibilních hypotéz. Sekce 07 zviditelňuje **jak jádro tak vrstvu** — explicitně vyznačuje, které předpoklady jsou pro kompendium konstitutivní a které jsou empiricky či konceptuálně otevřené revizi.
 
-Bez tohoto sebereflexivního momentu by kompendium reprodukovalo to, co samo kritizuje: **imunizaci proti falsifikaci** (technika EA-1.3.1) — situaci, v níž teoretický rámec implicitně pohlcuje veškerou kontradiktorní evidenci a stává se neporazitelným. Sekce 07 záměrně podkopává tuto možnost otevřením kompendia kritickému dialogu se čtyřmi velkými tradicemi.
+Bez tohoto sebereflexivního momentu by kompendium reprodukovalo to, co samo kritizuje: **imunizaci proti falsifikaci** (technika [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)) — situaci, v níž teoretický rámec implicitně pohlcuje veškerou kontradiktorní evidenci a stává se neporazitelným. Sekce 07 záměrně podkopává tuto možnost otevřením kompendia kritickému dialogu se čtyřmi velkými tradicemi.
 
 ## Vztah k jiným sekcím
 
@@ -83,8 +83,8 @@ Sekce 07 zaujímá **post-fundacionalistickou** pozici: odmítá jak naivní poz
 | **Fricker** | Epistemická nespravedlnost, hermeneutické deficity | Kvantitativní reliabilismus |
 | **Longino** | Kritický kontextový empirismus, sociální kalibrace | Individuální fenomenologie |
 | **Lyotard** | Rozpad metanarativů, jazykové hry | Empirická validace |
-| **Baudrillard** | Hyperrealita, simulakra, mediální patologie | Tradiční epistemická normativita |
-| **Derrida** | Dekonstrukce, différance, marginalita | Pozitivní klasifikační programy |
+| **Baudrillard** | [Hyperrealita](@/glossary/hyperreality.md), simulakra, mediální patologie | Tradiční epistemická normativita |
+| **Derrida** | Dekonstrukce, [différance](@/glossary/differance.md), marginalita | Pozitivní klasifikační programy |
 
 ## Rizika teoretizace
 

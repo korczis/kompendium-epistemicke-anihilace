@@ -19,7 +19,7 @@ toc = true
 
 danah boyd (programově píše s malými písmeny) — americká sociální badatelka, zakladatelka Data & Society Research Institute — formuluje v knize *It's Complicated* (2014) a v četných esejích **sociotechnickou** analýzu mladých uživatelů sociálních médií a dezinformací.
 
-Pro kompendium EA poskytuje boydova práce nástroj pro pochopení **EA jako emergentního sociotechnického fenoménu** — nikoli pouze jako úmyslné manipulace.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje boydova práce nástroj pro pochopení **EA jako emergentního sociotechnického fenoménu** — nikoli pouze jako úmyslné manipulace.
 
 ## 1. Networked publics
 

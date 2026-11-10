@@ -28,7 +28,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 | Pole | Hodnota |
 |------|---------|
 | **EA kód** | `EA-3.2.6` |
-| **Kategorie** | 3. Edukativní implementace |
+| **Kategorie** | 3. [Edukativní implementace](@/glossary/edukativni-implementace.md) |
 | **Subkategorie** | 3.2 Supervizorské techniky |
 | **Přístupová úroveň** | L1 (volný přístup, etická governance vyžadována) |
 | **Riziková úroveň** | Nízká až střední — primárně edukativní, iatrogenní rizika při nesprávné implementaci |
@@ -95,7 +95,7 @@ Specificky:
 - **Krizové situace** — technika není akutní intervencí; vyžaduje stabilní baseline.
 - **Nedostatek institucionální infrastruktury** — bez adekvátní podpory technika selhává a může poškozovat.
 - **Kulturně necitlivá implementace** — technika musí být adaptována pro local context, nikoli mechanicky importována.
-- **Power asymmetry** — implementace v kontextu coercive control (nedobrovolná účast) je eticky problematická.
+- **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
 
 ## Vztah k jiným technikám
 
@@ -126,10 +126,10 @@ Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
 
 Tato edukativní technika je integrovatelná s několika komponentami Prismatic platformy:
 
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — evaluační metriky a kompetenční assessmenty mohou využívat decision engine pro tracking longitudinálního vývoje studentů s confidence calibration.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — evaluační metriky a kompetenční assessmenty mohou využívat [decision engine](@/glossary/decision-engine.md) pro tracking longitudinálního vývoje studentů s confidence calibration.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemický framework poskytuje teoretický základ pro metakognitivní moduly.
-- **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii (Red Team challenges, Blue Team defenses) pro praktická cvičení.
-- **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink (EA-3.1.6) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
+- **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
+- **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink ([EA-3.1.6](@/kompendium/techniques/ea-3-1-6-recognition-training.md)) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
 ## Související
 

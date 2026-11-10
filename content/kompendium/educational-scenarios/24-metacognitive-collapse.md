@@ -64,7 +64,7 @@ vyšetřovací baterii, (3) navrhnou první čtyři týdny intervence.
 
 ## Signály, kterých si všimnout
 
-- **Disociace výkonu a jistoty** – správné odpovědi s jistotou blízkou nule; jádro obrazu.
+- **[Disociace](@/glossary/disociace.md) výkonu a jistoty** – správné odpovědi s jistotou blízkou nule; jádro obrazu.
   Viz [epistemická kalibrace](@/kompendium/detection-signatures/epistemicka-kalibrace.md).
 - **Kontrolní chování bez úlevy** – opakované ověřování nepřináší jistotu.
 - **Zevnitř převzatý hlas** – „bývalý manžel by řekl…“; vnitřní měřítko nahradil cizí.

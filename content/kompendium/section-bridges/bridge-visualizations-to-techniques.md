@@ -63,7 +63,7 @@ Klíčové koncepty: **kognitivní lešení**, **vizualizace jako reference**, *
 
 ## 7. Meta-poznámka: vizualizace jako epistemický akt
 
-Vizualizace v EA kompendiu nejsou ilustrace — jsou **epistemické akty**, které rozhodují, co je vidět a co je skryto. Decision tree zvýrazňuje větvení a marginalizuje uzlový obsah. Network graph zvýrazňuje vztahy a marginalizuje atributy. State machine zvýrazňuje přechody a marginalizuje obsah stavu. Bridge upozorňuje, že **každá vizualizace má svou ztrátu** — to, co diagram zjednodušuje, technický text musí kompenzovat. Praktické pravidlo: pokud vizualizace neodkazuje zpět na text, je to estetika; pokud text neodkazuje na vizualizaci, je to akademická hustota. Funguje pouze recipročně. NCLB doctrine vyžaduje, aby každý vizualizační artefakt měl evidence-link na zdrojovou techniku.
+Vizualizace v EA kompendiu nejsou ilustrace — jsou **epistemické akty**, které rozhodují, co je vidět a co je skryto. Decision tree zvýrazňuje větvení a marginalizuje uzlový obsah. Network graph zvýrazňuje vztahy a marginalizuje atributy. State machine zvýrazňuje přechody a marginalizuje obsah stavu. Bridge upozorňuje, že **každá vizualizace má svou ztrátu** — to, co diagram zjednodušuje, technický text musí kompenzovat. Praktické pravidlo: pokud vizualizace neodkazuje zpět na text, je to estetika; pokud text neodkazuje na vizualizaci, je to akademická hustota. Funguje pouze recipročně. NCLB [doctrine](@/glossary/doctrine.md) vyžaduje, aby každý vizualizační artefakt měl evidence-link na zdrojovou techniku.
 
 ## 8. Vizualizační konzistence napříč kompendiem
 

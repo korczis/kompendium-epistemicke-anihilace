@@ -68,7 +68,7 @@ Vzorce vázané na dyadický nebo trojúhelníkový vztah mezi konkrétními oso
 Vzorce vázané na hierarchické organizační struktury:
 
 - **Mobbing** — Systematická skupinová devalvace jednotlivce v pracovním kolektivu (Leymann 1990).
-- **Akademická delegitimizace** — Vzorec kombinující [sealioning](@/glossary/sealioning.md), JAQing off, citation-stacking a peer-review sabotáž. Popsáno v [Sekci 03.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md).
+- **Akademická [delegitimizace](@/glossary/delegitimizace.md)** — Vzorec kombinující [sealioning](@/glossary/sealioning.md), JAQing off, citation-stacking a peer-review sabotáž. Popsáno v [Sekci 03.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md).
 - **Workplace gaslighting** — Institucionální verze gaslightingu s asymetrií moci na straně managementu, často kombinovaná s dokumentační manipulací (HR records).
 
 ### Digitální a algoritmické vzorce
@@ -95,8 +95,8 @@ Každý vzorec je rozložitelný na konkrétní techniky z [taxonomie základní
 |--------|-------------------|
 | **Coercive control** | [DARVO](@/glossary/darvo.md), [gaslighting](@/glossary/gaslighting.md), izolace, ekonomická kontrola, smear campaign |
 | **Akademická delegitimizace** | [sealioning](@/glossary/sealioning.md), JAQing off, motte-and-bailey, citation manipulation |
-| **Kultovní indoktrinace** | Love bombing, milieu control, sacred science, demand for purity, mystical manipulation |
-| **Dezinformační kaskáda** | False flag, gish gallop, Brandoliniho zákon, source laundering |
+| **Kultovní indoktrinace** | [Love bombing](@/glossary/love-bombing.md), [milieu control](@/glossary/milieu-control.md), sacred science, demand for purity, mystical manipulation |
+| **Dezinformační kaskáda** | False flag, [gish gallop](@/glossary/gish-gallop.md), Brandoliniho zákon, source laundering |
 
 Per-technique hloubkové popisy najdete v [Techniques](@/kompendium/techniques/_index.md).
 

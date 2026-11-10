@@ -101,7 +101,7 @@ Charakteristická výpověď: „Vím, že mi to ostatní řekli, ale taky vím,
 Modální dezorientace se odlišuje od:
 
 - **Psychotické konfuze** — psychóza generuje **pozitivní symptomy** (halucinace, bludy); dezorientace má **negativní strukturu** (chybějící marker), bez paroxysmu.
-- **Dissociace** — disociace má kvalitu **odpojení**; dezorientace má kvalitu **rovnoměrné spojenosti** všech obsahů na stejné úrovni.
+- **Dissociace** — [disociace](@/glossary/disociace.md) má kvalitu **odpojení**; dezorientace má kvalitu **rovnoměrné spojenosti** všech obsahů na stejné úrovni.
 - **Kreativní imaginativní práce** — kreativní pracovník má **explicitní rámec** „teď tvořím“; dezorientovaný subjekt rámec nemá.
 - **Filosofického skepticismu** — skeptik teoreticky **uvažuje o** rozdílu skutečné/zdání; dezorientovaný subjekt **nemá přístup** k aktivnímu rozlišení.
 
@@ -148,7 +148,7 @@ Pravidelné kladení otázky *„stalo se to, ano nebo ne?“* — bez tolerance
 |-----------|--------------|
 | **Forenzní protokoly** | Striktní oddělení **rekapitulace** a **imaginativní rekonstrukce** ve výslechu |
 | **Klinické rámce** | Imaginativní techniky **vždy** uzavřeny návratovým mostem k realitnímu testování |
-| **Mediální gramotnost** | Schopnost rozpoznat **deepfake** a syntetický obsah jako veřejná dovednost |
+| **Mediální gramotnost** | Schopnost rozpoznat **[deepfake](@/glossary/deepfake.md)** a syntetický obsah jako veřejná dovednost |
 | **Edukace o modálních pastích** | Veřejná osvěta o rozdílu mezi *kreativní imaginací* a *modální dezorientací* |
 
 ## Případové studie

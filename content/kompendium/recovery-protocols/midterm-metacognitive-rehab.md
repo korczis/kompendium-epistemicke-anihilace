@@ -16,7 +16,7 @@ phase = "midterm"
 
 # Středně-dobá metakognitivní rehabilitace
 
-> **Status**: Klinicky strukturovaný longitudinální protokol — integrace evidence-based modalit s diagnostickou optikou kompendia.
+> **Status**: Klinicky strukturovaný longitudinální protokol — integrace [evidence-based](@/glossary/evidence-based.md) modalit s diagnostickou optikou kompendia.
 > **Fáze**: `midterm`
 > **Cílový rámec**: Měsíce 3–12.
 
@@ -41,7 +41,7 @@ Měsíce 3–12. Intenzita: týdně, postupně 1× za 14 dní u stabilizovaných
 1. **Komprehenzivní reassessment (měsíc 3–4)**: Re-administrace baseline instrumentů. Identifikace **reziduálních deficitů** vs. nově se objevujících potřeb.
 2. **Metakognitivní trénink (měsíce 4–8)**: Specifický program (např. **Metacognitive Reflection and Insight Therapy** — MERIT). Cíl: obnovení kapacity reflektovat vlastní procesy myšlení.
 3. **Hermeneutický reset (měsíce 4–8)**: Strukturovaná práce s interpretačními rámci — identifikace internalizovaných pachatelových rámců, jejich oddělení, konstrukce vlastního.
-4. **Identitní rekonstrukce (měsíce 4–10)**: Práce s **possible selves** (Markus & Nurius), narativní identita (McAdams), values clarification. Postupné budování koherentního self-konceptu.
+4. **Identitní rekonstrukce (měsíce 4–10)**: Práce s **possible selves** (Markus & Nurius), [narativní identita](@/glossary/narativni-identita.md) (McAdams), values clarification. Postupné budování koherentního self-konceptu.
 5. **Kompetence a vokace (měsíce 6–12)**: Praktický skill-building — finanční gramotnost, profesní rekvalifikace, vzdělávání. Návrat na trh práce nebo studia.
 6. **Reintegrace vztahů (měsíce 6–12)**: Obnovení vztahů s rodinou (kde bezpečné), budování nových vztahů s **detekčním filtrem** — schopnost rozpoznat varovné signály při novém vztahu.
 
@@ -59,7 +59,7 @@ Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vys
 
 - **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
 - **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **Coercive control / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
+- **[Coercive control](@/glossary/coercive-control.md) / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
 - **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
 - **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
 

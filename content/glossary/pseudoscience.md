@@ -64,7 +64,7 @@ Pseudověda je častým vstupním bodem do uzavřených skupin a zdrojem dlouhod
 - **Pro profesionála:** zesměšnění posiluje identitu „pronásledovaného zasvěcence“. Účinnější je respektovat potřebu, kterou nauka naplňovala (smysl, kontrola, společenství), a postupně obnovovat důvěru v ověřitelné poznání.
 - **Prevence:** [mediální gramotnost](@/kompendium/prevention-resilience/6-media-literacy-prevention.md) a [kurikulum kritického myšlení](@/kompendium/prevention-resilience/8-critical-thinking-curriculum.md).
 
-Meze: hranice mezi pseudovědou a nevyzrálou vědou není ostrá. Označení „pseudověda“ samo může sloužit jako nástroj delegitimizace oprávněného nesouhlasu; je proto třeba ho opírat o konkrétní znaky.
+Meze: hranice mezi pseudovědou a nevyzrálou vědou není ostrá. Označení „pseudověda“ samo může sloužit jako nástroj [delegitimizace](@/glossary/delegitimizace.md) oprávněného nesouhlasu; je proto třeba ho opírat o konkrétní znaky.
 
 ## Literatura
 

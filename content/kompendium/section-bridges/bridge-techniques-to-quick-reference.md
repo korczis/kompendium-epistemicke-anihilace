@@ -63,7 +63,7 @@ Klíčové koncepty: **pojmová karta**, **step-by-step karta**, **kontraindika�
 
 ## 7. Meta-poznámka: kdy QR nestačí
 
-Quick Reference je **nebezpečně lákavá** — při rutinní práci stačí, ale při neobvyklém případu vede k chybnému zjednodušení. Bridge varuje: **QR nikdy při prvním kontaktu, nikdy při supervizi, nikdy při auditu, nikdy při ultramari**. Pokud čtenář cítí, že QR „dává smysl", ale technika v sekci 03+ vypadá komplikovaně, je to indikátor, že QR je nedostatečně bohatá pro daný case — nikoli že technika je zbytečně složitá. NCLB doctrine: QR musí mít vždy evidence-link na zdrojovou techniku a glossary entry.
+Quick Reference je **nebezpečně lákavá** — při rutinní práci stačí, ale při neobvyklém případu vede k chybnému zjednodušení. Bridge varuje: **QR nikdy při prvním kontaktu, nikdy při supervizi, nikdy při auditu, nikdy při ultramari**. Pokud čtenář cítí, že QR „dává smysl", ale technika v sekci 03+ vypadá komplikovaně, je to indikátor, že QR je nedostatečně bohatá pro daný case — nikoli že technika je zbytečně složitá. NCLB [doctrine](@/glossary/doctrine.md): QR musí mít vždy evidence-link na zdrojovou techniku a glossary entry.
 
 ## 8. QR jako klinický artefakt
 

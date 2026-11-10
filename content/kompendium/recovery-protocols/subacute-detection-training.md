@@ -16,13 +16,13 @@ phase = "subacute"
 
 # Subakutní detekční trénink
 
-> **Status**: Klinicky strukturovaný longitudinální protokol — integrace evidence-based modalit s diagnostickou optikou kompendia.
+> **Status**: Klinicky strukturovaný longitudinální protokol — integrace [evidence-based](@/glossary/evidence-based.md) modalit s diagnostickou optikou kompendia.
 > **Fáze**: `subacute`
 > **Cílový rámec**: Měsíce 1–3 po dosažení akutní stabilizace.
 
 ## 1. Cílová populace
 
-Klienti připraveni přejít z reaktivní do proaktivní fáze — schopní snést psychoedukaci o manipulativních technikách bez retraumatizace. Typicky 2.–3. měsíc po extrakci. Cílem je obnovit [epistemickou agentnost](@/glossary/epistemicka-agentnost.md) skrze rozpoznání vzorců, kterými byli zasaženi.
+Klienti připraveni přejít z reaktivní do proaktivní fáze — schopní snést psychoedukaci o manipulativních technikách bez [retraumatizace](@/glossary/retraumatizace.md). Typicky 2.–3. měsíc po extrakci. Cílem je obnovit [epistemickou agentnost](@/glossary/epistemicka-agentnost.md) skrze rozpoznání vzorců, kterými byli zasaženi.
 
 ## 2. Časový rámec
 
@@ -59,7 +59,7 @@ Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vys
 
 - **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
 - **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **Coercive control / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
+- **[Coercive control](@/glossary/coercive-control.md) / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
 - **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
 - **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
 

@@ -42,7 +42,7 @@ Subtype: PTSD with Dissociative Features (depersonalization/derealization). Spec
 
 ## Aplikace v EA kontextu
 
-Hlavní diagnostický rámec v US/CZ klinické praxi. Vstupní pro **EA-6.x klinické aplikace**. Diagnostická infrastruktura pro evidence-based intervence (CPT, PE, EMDR).
+Hlavní diagnostický rámec v US/CZ klinické praxi. Vstupní pro **EA-6.x klinické aplikace**. Diagnostická infrastruktura pro [evidence-based](@/glossary/evidence-based.md) intervence (CPT, PE, EMDR).
 
 ## Validační status
 
@@ -54,7 +54,7 @@ Categorical model — méně senzitivní pro spectrum/dimensional approaches. Th
 
 ## Vztah k jiným zdrojům
 
-Komplementární k **EA-8.2.6 ICD-11 Complex Trauma**. Operacionalizováno v **EA-8.1.8 Traumatic Stress Screen**.
+Komplementární k **[EA-8.2.6](@/kompendium/techniques/ea-8-2-6-icd-11-complex-trauma.md) ICD-11 [Complex Trauma](@/glossary/complex-trauma.md)**. Operacionalizováno v **[EA-8.1.8](@/kompendium/techniques/ea-8-1-8-traumatic-stress-screen.md) Traumatic Stress Screen**.
 
 ## Cross-linky
 

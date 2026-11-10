@@ -18,7 +18,7 @@ modality = "linguistic"
 
 Hustota žargonu je neobvykle vysoká koncentrace odborných, ezoterických nebo skupinově specifických výrazů v poměru k běžnému slovníku – vyšší, než vyžaduje téma, publikum a účel komunikace. Signaturou se stává teprve tehdy, když žargon **neplní funkci přesnosti**, ale funkci bariéry: posluchač nedokáže obsah ověřit, protože mu chybí přístup k významu slov, a mluvčí mu tento přístup aktivně neposkytuje.
 
-Signatura odpovídá technice [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) a často se pojí s [iluzorní komplexitou](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md). V uzavřených skupinách ji Robert J. Lifton (1961) popsal jako *loading the language* – „nabitý jazyk“, jehož hutné, snadno zapamatovatelné formule nahrazují samostatné uvažování.
+Signatura odpovídá technice [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) a často se pojí s [iluzorní komplexitou](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md). V uzavřených skupinách ji Robert J. Lifton (1961) popsal jako *[loading the language](@/glossary/loading-the-language.md)* – „nabitý jazyk“, jehož hutné, snadno zapamatovatelné formule nahrazují samostatné uvažování.
 
 ## Co signatura indikuje
 

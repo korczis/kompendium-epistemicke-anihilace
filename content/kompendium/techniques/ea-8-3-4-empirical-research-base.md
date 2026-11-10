@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/08-prilohy/"
 
 ## Charakteristika zdroje
 
-Almendros, Carrobles & Rodríguez-Carballeira (2011) post-cult symptoms N=320. Felitti et al. (1998) ACE study N=17337. Hamberger et al. (2017) coercive control N=412. Goldsmith, Freyd & DePrince (2012) betrayal trauma N=362+185. Brewin et al. (2017) ITQ validation N=1051.
+Almendros, Carrobles & Rodríguez-Carballeira (2011) post-cult symptoms N=320. Felitti et al. (1998) ACE study N=17337. Hamberger et al. (2017) [coercive control](@/glossary/coercive-control.md) N=412. Goldsmith, Freyd & DePrince (2012) [betrayal trauma](@/glossary/betrayal-trauma.md) N=362+185. Brewin et al. (2017) ITQ validation N=1051.
 
 ## Klíčové komponenty
 
@@ -42,7 +42,7 @@ Pět klíčových studií pokrývajících doménu (post-cult, ACE, coercive con
 
 ## Aplikace v EA kontextu
 
-Empirická validace pro EA-8.1.x diagnostické nástroje a EA-8.2.x referenční rámce. Quantitative backbone pro evidence-based EA practice.
+Empirická validace pro EA-8.1.x diagnostické nástroje a EA-8.2.x referenční rámce. Quantitative backbone pro [evidence-based](@/glossary/evidence-based.md) EA practice.
 
 ## Validační status
 
@@ -50,11 +50,11 @@ Almendros — Cronbachova α=0.91. Felitti — landmark ACE study, 5000+ replica
 
 ## Limitace
 
-Većinou cross-sectional designs. Limited longitudinal data. Western/clinical sample bias. Replikační krize ovlivňuje některé findings.
+Većinou cross-sectional designs. Limited longitudinal data. Western/clinical sample bias. [Replikační krize](@/glossary/replication-crisis.md) ovlivňuje některé findings.
 
 ## Vztah k jiným zdrojům
 
-Empirická báze pro **EA-8.1.x diagnostické nástroje** a **EA-8.2.x referenční rámce**. Komplementární s **EA-8.3.6 Contemporary Cases**.
+Empirická báze pro **EA-8.1.x diagnostické nástroje** a **EA-8.2.x referenční rámce**. Komplementární s **[EA-8.3.6](@/kompendium/techniques/ea-8-3-6-contemporary-cases.md) Contemporary Cases**.
 
 ## Cross-linky
 

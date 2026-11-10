@@ -50,11 +50,11 @@ Validační studie: Brewin et al. (2017) ITQ validation, N=1051. Sensitivity 85%
 
 ## Limitace
 
-Diagnostická hierarchy (CPTSD trumps PTSD) může vyloučit pacienty z PTSD-specific evidence-based therapies. Méně dostupné kódování v US systému (DSM-5-TR alternative).
+Diagnostická hierarchy (CPTSD trumps PTSD) může vyloučit pacienty z PTSD-specific [evidence-based](@/glossary/evidence-based.md) therapies. Méně dostupné kódování v US systému (DSM-5-TR alternative).
 
 ## Vztah k jiným zdrojům
 
-Doplňuje **EA-8.2.7 DSM-5-TR Trauma**. Konceptuálně provázaný s **EA-8.1.5 Epistemic Trust Scale** a **EA-8.1.6 Betrayal Trauma Inventory**.
+Doplňuje **[EA-8.2.7](@/kompendium/techniques/ea-8-2-7-dsm-5-tr-trauma.md) DSM-5-TR Trauma**. Konceptuálně provázaný s **[EA-8.1.5](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md) Epistemic Trust Scale** a **[EA-8.1.6](@/kompendium/techniques/ea-8-1-6-betrayal-trauma-inventory.md) [Betrayal Trauma](@/glossary/betrayal-trauma.md) Inventory**.
 
 ## Cross-linky
 

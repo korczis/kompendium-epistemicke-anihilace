@@ -227,7 +227,7 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
 ### Eskaluje do
 
 - **EA-1.6.2 Vzorec „Epistemický trojský kůň“** — iluzorní komplexita poskytuje fasádu sofistikace pro vpašování problematických prvků.
-- **Strukturální delegitimizace pole** ([Scénář F](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — kolektivní iluzorní komplexita odbourává epistemickou autoritu konsensuálních závěrů.
+- **Strukturální [delegitimizace](@/glossary/delegitimizace.md) pole** ([Scénář F](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — kolektivní iluzorní komplexita odbourává epistemickou autoritu konsensuálních závěrů.
 
 ### Hraniční / podobné
 
@@ -237,7 +237,7 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine factor hierarchization** — explicitní strukturální obrana: každé rozhodnutí ukládá **factor hierarchy** s kvantifikovanými kausálními vazbami.
+- **[Decision Engine](@/glossary/decision-engine.md) factor hierarchization** — explicitní strukturální obrana: každé rozhodnutí ukládá **factor hierarchy** s kvantifikovanými kausálními vazbami.
 - **NABLA Infinity confidence calibration** — pokud kandidátní decision suspenduje úsudek navzdory robustní evidenci, system flagguje anomálii.
 - **OSINT investigation closure protocols** — strukturální deadlines proti infinite-regress investigation.
 

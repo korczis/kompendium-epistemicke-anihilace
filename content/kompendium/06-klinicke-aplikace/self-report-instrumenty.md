@@ -102,7 +102,7 @@ Specifická obtíž EA self-reportu: pacient s pokročilou [metakognitivní dest
 
 | Self-report vzorec | Interpretace |
 |--------------------|--------------|
-| Konzistentně vysoké self-confidence + EMA volatilita | Disociace mezi prezentací a žitou zkušeností |
+| Konzistentně vysoké self-confidence + EMA volatilita | [Disociace](@/glossary/disociace.md) mezi prezentací a žitou zkušeností |
 | Nemožnost odpovědět na otevřené otázky | Klastr A (metakognitivní destrukce) |
 | Repetitivní in-group lexikon | Klastr C (sociálně-epistemické markery) |
 | Hyperinterpretace vlastních pocitů | Klastr B (hermeneutické zhroucení) |

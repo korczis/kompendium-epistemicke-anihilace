@@ -54,7 +54,7 @@ podle [longitudinálních rekonstruktivních protokolů](@/kompendium/recovery-p
   začátek, intenzita, typ vzorců (izolace, kontrola informací, zpochybňování vnímání –
   viz [BITE model](@/glossary/bite-model.md)) a konec.
 - **Výsledky na více úrovních:** subjektivní jistota v úsudku, funkce v práci a vztazích,
-  symptomy traumatu ([C-PTSD](@/glossary/c-ptsd.md)), disociace, důvěra v instituce
+  symptomy traumatu ([C-PTSD](@/glossary/c-ptsd.md)), [disociace](@/glossary/disociace.md), důvěra v instituce
   a v blízké, schopnost [testovat realitu](@/glossary/reality-testing.md).
 - **Modifikátory:** sociální síť, předchozí trauma, dostupnost pomoci, životní události.
 - **Frekvence měření** musí odpovídat dynamice. Zotavení je nelineární – časté jsou návraty
@@ -74,7 +74,7 @@ kontaktní kanály, souhlas s kontaktem přes důvěryhodnou osobu, možnost př
 manipulativního vztahu, nikoli jeho důsledkem. Kohorta, která měří až po expozici, tyto dvě
 cesty neodliší.
 
-**Časově proměnlivé zkreslení.** Sociální izolace je zároveň důsledkem expozice i příčinou
+**Časově proměnlivé zkreslení.** [Sociální izolace](@/glossary/socialni-izolace.md) je zároveň důsledkem expozice i příčinou
 dalšího poškození. Běžná regrese, která ji „kontroluje“, odstraní část skutečného účinku.
 Řešení popisuje článek o [kauzální inferenci](@/kompendium/research-methodology/causal-inference-EA.md)
 (orientované acyklické grafy, marginální strukturní modely).

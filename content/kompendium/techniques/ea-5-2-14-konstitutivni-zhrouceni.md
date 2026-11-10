@@ -107,7 +107,7 @@ Konstitutivní zhroucení je odlišitelné od:
 1. **Strukturní synthetická cvičení** — vědomé pozorování věci ze tří úhlů s explicitním tematizováním identity.
 2. **Horizontová obnova** — anticipační cvičení (*„jak by tato věc vypadala zezadu?“*).
 3. **Manipulační rutina** — fyzická práce s objekty obnovuje konstitutivní syntézu.
-4. **Korektní husserlovská hermeneutika** — výklad fenomenologických textů, jež explicitně tematizují konstituci.
+4. **Korektní husserlovská [hermeneutika](@/glossary/hermeneutika.md)** — výklad fenomenologických textů, jež explicitně tematizují konstituci.
 
 ### Institucionální
 
@@ -132,8 +132,8 @@ Konstitutivní zhroucení je odlišitelné od:
 
 ## Vztah k Prismatic platformě
 
-- **Entity Resolution** — explicitní entitní identita napříč zdroji obnovuje konstitutivní syntézu.
-- **NABLA Infinity referenční stabilita** — epistemická provenience vyžaduje stabilní reference.
+- **[Entity Resolution](@/glossary/entity-resolution.md)** — explicitní entitní identita napříč zdroji obnovuje konstitutivní syntézu.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) referenční stabilita** — epistemická provenience vyžaduje stabilní reference.
 - **OSINT cross-source matching** — strukturní práce s identitou napříč zdroji kompenzuje fragmentaci.
 
 ## Související

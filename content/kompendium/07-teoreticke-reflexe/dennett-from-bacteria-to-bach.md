@@ -19,7 +19,7 @@ toc = true
 
 Daniel Dennett v knize *From Bacteria to Bach and Back: The Evolution of Minds* (2017) syntetizuje svou celoživotní práci v **evoluční teorii vědomí**: vědomí není **dar** ani **mysterium**, je strukturálně **kumulativní evoluční úspěch** — od **bakteriálních** kompetencí po **Bachovy fugy**.
 
-Pro kompendium EA poskytuje Dennettova syntéza nástroj pro pochopení **strukturální historie kognitivních kapacit** — co je strukturálně **starší**, **fundamentálnější**, **strukturálně robustní** vůči EA a co je **novější**, **fragilní**, **zranitelnější**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Dennettova syntéza nástroj pro pochopení **strukturální historie kognitivních kapacit** — co je strukturálně **starší**, **fundamentálnější**, **strukturálně robustní** vůči EA a co je **novější**, **fragilní**, **zranitelnější**.
 
 ## 1. Free-floating rationales
 
@@ -56,7 +56,7 @@ Dennettova teze: **lidský jazyk a kultura** jsou strukturálně **nástroji**, 
 
 Pro EA má tato perspektiva **specifický význam**:
 
-- **Útok na slova**: techniky, jež **manipulují** slovní zásobu (newspeak, korumpování pojmů), strukturálně manipulují **mysli** subjektů.
+- **Útok na slova**: techniky, jež **manipulují** slovní zásobu ([newspeak](@/glossary/newspeak.md), korumpování pojmů), strukturálně manipulují **mysli** subjektů.
 - **Kulturní EA**: zničení kulturních artefaktů strukturálně anihiluje **kompenzátorské** kapacity.
 
 ## 4. Evoluce vědomí
@@ -76,7 +76,7 @@ Pro EA z toho plyne:
 - **Mapping EA podle vrstev**:
   - Reaktivní: somatické trauma
   - Senzorické: deprivace, multimédia
-  - Reflexivní: gaslighting, narrative manipulation
+  - Reflexivní: [gaslighting](@/glossary/gaslighting.md), narrative manipulation
   - Symbolické: jazyková manipulace
   - Kulturní: institucionální manipulace
 

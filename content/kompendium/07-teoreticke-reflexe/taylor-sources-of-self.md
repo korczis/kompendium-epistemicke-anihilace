@@ -19,7 +19,7 @@ toc = true
 
 Charles Taylor v monumentálním *Sources of the Self* (1989) předkládá **hermeneutickou genealogii** moderní identity — analýzu **morálních zdrojů**, z nichž současný subjekt čerpá své **závazky**, **ideály** a **smysl pro vlastní hodnotu**.
 
-Pro kompendium EA poskytuje Taylorova analýza **strukturální mapping** zdrojů, na něž EA techniky útočí — a způsobů, jak je možné je **rezilientně** posílit.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Taylorova analýza **strukturální mapping** zdrojů, na něž EA techniky útočí — a způsobů, jak je možné je **rezilientně** posílit.
 
 ## 1. Hermeneutická epistemologie
 

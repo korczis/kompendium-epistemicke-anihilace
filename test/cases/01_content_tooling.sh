@@ -67,9 +67,14 @@ title = "Odkazy"
 +++
 
 Gaslighting je vzorec. Gaslighting se opakuje. Viz také EA-1.6.1 a zase EA-1.6.1.
+
+Odkaz přes konec řádku: [Doktrína o
+gaslighting vlivu](@/kompendium/forensic-legal/gaslighting-test.md) zůstane nedotčen.
 PAGE
 python3 scripts/link-terms.py content/kompendium/case-01-links >/dev/null
 grep -c '](@/glossary/gaslighting.md)' content/kompendium/case-01-links/page.md | grep -x 1 >/dev/null
+grep -x 'gaslighting vlivu](@/kompendium/forensic-legal/gaslighting-test.md) zůstane nedotčen.' \
+  content/kompendium/case-01-links/page.md >/dev/null   # a wrapped link is never relinked
 grep -c '](@/kompendium/techniques/ea-1-6-1-' content/kompendium/case-01-links/page.md | grep -x 1 >/dev/null
 python3 scripts/link-terms.py --check content/kompendium/case-01-links >/dev/null
 rm -r content/kompendium/case-01-links

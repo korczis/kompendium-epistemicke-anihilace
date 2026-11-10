@@ -199,9 +199,9 @@ do parasociálního vztahu s tisíci adeptů.
 ## Literatura
 
 - Weber, M. (1922). *Wirtschaft und Gesellschaft* – charismatické panství jako typ autority.
-- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*.
 - Herman, J. L. (1992). *Trauma and Recovery*.
-- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*.
+- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*.
 - Stark, E. (2007). *Coercive Control*.
 
 ## Související

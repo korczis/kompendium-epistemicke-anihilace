@@ -32,7 +32,7 @@ Klíčové diagnostické rysy C-PTSD podle Herman:
 | Doména | Manifestace | Vztah k EA |
 |--------|-------------|------------|
 | **Afektivní regulace** | Chronická dysregulace, hyperarousal, numbing | Důsledek opakované epistemické destabilizace |
-| **Vědomí** | Disociativní symptomy, depersonalizace, časová distorze | Korelát selhání meta-kognitivního monitoringu |
+| **Vědomí** | Disociativní symptomy, [depersonalizace](@/glossary/depersonalizace.md), časová distorze | Korelát selhání meta-kognitivního monitoringu |
 | **Self-percepce** | Chronický pocit viny, defektivnosti, stigma | Internalizace delegitimizujících narativů |
 | **Vztah k pachateli** | Idealizace, paradoxní vděčnost, identifikace | Stockholm-syndromová epistemická vazba |
 | **Vztahy k druhým** | Nedůvěra, izolace, opakovaná viktimizace | Generalizace traumatické nedůvěry |
@@ -62,14 +62,14 @@ Pro EA ([sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)) je tento model 
 
 ### 2.1 Jennifer Freyd a betrayal trauma
 
-Freydova **betrayal trauma theory** (BTT, *Betrayal Trauma*, 1996) představuje pro EA klíčový teoretický a empirický příspěvek. Klíčová teze:
+Freydova **[betrayal trauma](@/glossary/betrayal-trauma.md) theory** (BTT, *Betrayal Trauma*, 1996) představuje pro EA klíčový teoretický a empirický příspěvek. Klíčová teze:
 
 > *Trauma způsobená osobou, na níž je oběť závislá pro přežití nebo blaho, je systematicky a adaptivně zpracovávána způsobem, jenž zachovává vztah na úkor přesné percepce traumatu samotného.*
 
 Mechanismus betrayal blindness:
 
 - **Vědomí** zrady by ohrozilo **vazebnou** strukturu, na níž oběť závisí
-- **Adaptivní** odpovědí je **systematické nevidění** zrady — disociace, amnézie, racionalizace
+- **Adaptivní** odpovědí je **systematické nevidění** zrady — [disociace](@/glossary/disociace.md), amnézie, racionalizace
 - Tento mechanismus má **vývojové** kořeny v dětské zranitelnosti, ale operuje i v dospělých závislostních vztazích
 
 ### 2.2 Empirická validace BTT
@@ -103,7 +103,7 @@ BTT má pro klinickou aplikaci **fundamentální** důsledky:
 
 ### 3.1 Bayesovský mozek a active inference
 
-V poslední dekádě dominantní paradigma v kognitivních neurovědách — **prediktivní zpracování** (predictive processing, PP) — formulované zejména Karlem Fristonem, Andym Clarkem a Jakobem Hohwym, představuje pro EA **transformační** rámec.
+V poslední dekádě dominantní paradigma v kognitivních neurovědách — **[prediktivní zpracování](@/glossary/predictive-processing.md)** (predictive processing, PP) — formulované zejména Karlem Fristonem, Andym Clarkem a Jakobem Hohwym, představuje pro EA **transformační** rámec.
 
 Centrální teze PP:
 
@@ -163,7 +163,7 @@ V posledním desetiletí byl PP-trauma rámec empiricky testován zejména:
 | **Prefrontální kortex (PFC)** | Exekutivní funkce, kognitivní kontrola, metakognice | Hypofunkce → deficity v epistemickém monitoringu |
 | **Amygdala** | Detekce hrozby, emoční zpracování | Hyperreaktivita → emocionální vyšumění racionální evaluace |
 | **Hipokampus** | Episodická paměť, kontextuální vnímání | Volumetrická redukce → fragmentace narativní paměti |
-| **Default Mode Network (DMN)** | Autobiografická konstrukce, sebereflexe | Dysregulace → narušení narativního self |
+| **[Default Mode Network](@/glossary/default-mode-network.md) (DMN)** | Autobiografická konstrukce, sebereflexe | Dysregulace → narušení narativního self |
 | **Insula** | Interoceptivní vědomí | Hyperreaktivita → somatická úzkost interferující s kognicí |
 | **ACC (anterior cingulate)** | Detekce konfliktů, kognitivní kontrola | Dysfunkce → deficity v rozpoznávání kontradiktorní evidence |
 
@@ -176,7 +176,7 @@ Bessel van der Kolk v *The Body Keeps the Score* (2014) syntetizoval rozsáhlou 
 
 ### 4.3 Strukturální disociace osobnosti (van der Hart, Nijenhuis, Steele)
 
-V *The Haunted Self* (2006) van der Hart, Nijenhuis a Steele formulovali **teorii strukturální disociace osobnosti** (TSDP) — empiricky podloženou teorii, podle níž komplexní trauma vede k **strukturální fragmentaci** osobnosti na:
+V *The Haunted Self* (2006) van der Hart, Nijenhuis a Steele formulovali **teorii strukturální disociace osobnosti** (TSDP) — empiricky podloženou teorii, podle níž [komplexní trauma](@/glossary/complex-trauma.md) vede k **strukturální fragmentaci** osobnosti na:
 
 - **ANP** (Apparently Normal Part) — část fungující v běžném životě
 - **EP** (Emotional Part) — část nesoucí traumatickou zkušenost
@@ -266,7 +266,7 @@ Empirická literatura epistemického traumatu **přímo informuje** taxonomické
 |--------------|---------------------------|
 | **Akademické techniky** ([3.1](@/kompendium/03-zakladni-kategorie/_index.md)) | Janoff-Bulman shattered assumptions |
 | **Delegitimizace** ([3.5](@/kompendium/03-zakladni-kategorie/_index.md)) | Internalizace stigmatu, Herman C-PTSD |
-| **Edukativní implementace** ([3.6](@/kompendium/03-zakladni-kategorie/_index.md)) | Vývojové vzorce, Freyd betrayal |
+| **[Edukativní implementace](@/glossary/edukativni-implementace.md)** ([3.6](@/kompendium/03-zakladni-kategorie/_index.md)) | Vývojové vzorce, Freyd betrayal |
 | **Terminální protokoly** ([sekce 04](@/kompendium/04-terminalni-protokoly/_index.md)) | Strukturální disociace (TSDP) |
 | **Ultramární techniky** ([sekce 05](@/kompendium/05-ultramari-techniky/_index.md)) | Dual representation, neurobiologické extrémy |
 

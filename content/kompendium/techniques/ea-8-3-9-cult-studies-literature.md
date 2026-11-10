@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/08-prilohy/"
 
 ## Charakteristika zdroje
 
-Cultic Studies Review (ICSA peer-reviewed journal). Goldberg, Goldberg & Henry (2017) Cult Recovery: A Clinician's Guide. ICSA (International Cultic Studies Association) conference proceedings 1979-2024. Hassan (2020) Combating Cult Mind Control 30th Anniversary Edition. Lalich (2004) Bounded Choice.
+Cultic Studies Review (ICSA peer-reviewed journal). Goldberg, Goldberg & Henry (2017) Cult Recovery: A Clinician's Guide. ICSA (International Cultic Studies Association) conference proceedings 1979-2024. Hassan (2020) Combating Cult Mind Control 30th Anniversary Edition. Lalich (2004) [Bounded Choice](@/glossary/bounded-choice.md).
 
 ## Klíčové komponenty
 
@@ -54,7 +54,7 @@ Pole pole methodologically diverse (clinical, sociological, journalistic). Less 
 
 ## Vztah k jiným zdrojům
 
-Pole-specific kontext pro **EA-8.3.1 Foundational Readings**. Komplementární s **EA-8.3.5 Historical Cases** a **EA-8.3.6 Contemporary Cases**.
+Pole-specific kontext pro **[EA-8.3.1](@/kompendium/techniques/ea-8-3-1-foundational-readings.md) Foundational Readings**. Komplementární s **[EA-8.3.5](@/kompendium/techniques/ea-8-3-5-historical-cases.md) Historical Cases** a **[EA-8.3.6](@/kompendium/techniques/ea-8-3-6-contemporary-cases.md) Contemporary Cases**.
 
 ## Cross-linky
 

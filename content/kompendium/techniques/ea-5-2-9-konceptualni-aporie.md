@@ -93,7 +93,7 @@ Konceptuální aporie je odlišitelná od **legitimního filozofického aporetic
 - **Legitimní aporetické zkoumání** **udržuje funkční pojmovost** v každodenním životě.
 - **EA-5.2.9** ruší **funkční pojmovost** napříč doménami a **nepřináší** produktivní výstup.
 
-Hraniční případ: některé pozdní fáze pyrrhonského skepticismu a některé radikální pozice deconstructionu mohou strukturálně připomínat aporii. Filozofická literatura tematizuje toto riziko (Sextus Empiricus o *epoché*, Derrida o *différance* a její neredukovatelnosti).
+Hraniční případ: některé pozdní fáze pyrrhonského skepticismu a některé radikální pozice deconstructionu mohou strukturálně připomínat aporii. Filozofická literatura tematizuje toto riziko (Sextus Empiricus o *epoché*, Derrida o *[différance](@/glossary/differance.md)* a její neredukovatelnosti).
 
 ## Rizikové kontexty
 

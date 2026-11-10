@@ -19,7 +19,7 @@ toc = true
 
 Emmanuel Levinas (1906–1995) — litevský Žid, francouzský fenomenolog, přeživší šoa — formuluje v knihách *Totalité et Infini* (1961) a *Autrement qu'être* (1974) **radikální obrat** ve fenomenologii: **etika** není odvozenou disciplínou, je **první filozofií**. Vztah k **Jinému** (*l'Autre*) **předchází** ontologii.
 
-Pro kompendium EA poskytuje Levinas **etický fundament** odporu vůči manipulativním technikám, jež strukturálně operují skrze **redukci Jiného na Stejné**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Levinas **etický fundament** odporu vůči manipulativním technikám, jež strukturálně operují skrze **redukci Jiného na Stejné**.
 
 ## 1. Totalita a nekonečno
 

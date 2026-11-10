@@ -19,7 +19,7 @@ toc = true
 
 Alasdair MacIntyre v knize *After Virtue* (1981) formuluje **diagnostickou tezi**: moderní morální diskurz je strukturálně **rozpadlý** — operujeme s **fragmenty** předosvícenských morálních tradic, jejichž **sdílený fundament** byl ztracen. Výsledkem je **emotivismus** — pozice, podle níž morální tvrzení vyjadřují **pouze** emocionální postoje, nemohou být **racionálně** rozhodnuta.
 
-Pro kompendium EA poskytuje MacIntyrova analýza nástroj pro pochopení **EA jako strukturálního důsledku** ztráty sdíleného morálního jazyka.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje MacIntyrova analýza nástroj pro pochopení **EA jako strukturálního důsledku** ztráty sdíleného morálního jazyka.
 
 ## 1. Krize emotivismu
 

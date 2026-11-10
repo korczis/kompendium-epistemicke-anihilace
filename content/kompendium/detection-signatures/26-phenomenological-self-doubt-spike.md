@@ -71,7 +71,7 @@ Pozitivní při splnění všech čtyř bodů. Bez bodu 3 jde o sebepochybnost s
 - **Úzkostné poruchy**: obavy z chyby a z hodnocení.
 - **Fenomén podvodníka** (Clance & Imes 1978): přesvědčení, že vlastní úspěchy jsou nezasloužené; může být dlouhodobým rysem nebo může být vnějším působením zesílen.
 - **Počínající kognitivní porucha**: u starších osob je třeba vyloučit, že pochybnost o paměti má reálný základ v jejím úbytku – a zároveň nepřehlédnout, že pochybnost může být zneužita (srov. [elder abuse](@/glossary/elder-abuse.md)).
-- **PTSD a komplexní trauma**: narušený sebeobraz a pocit méněcennosti jsou součástí obrazu komplexní posttraumatické stresové poruchy podle MKN-11 (viz [EA-8.2.6](@/kompendium/techniques/ea-8-2-6-icd-11-complex-trauma.md)).
+- **PTSD a [komplexní trauma](@/glossary/complex-trauma.md)**: narušený sebeobraz a pocit méněcennosti jsou součástí obrazu komplexní posttraumatické stresové poruchy podle MKN-11 (viz [EA-8.2.6](@/kompendium/techniques/ea-8-2-6-icd-11-complex-trauma.md)).
 
 ## Riziko falešné pozitivity
 

@@ -31,7 +31,7 @@ Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 - **Sekce 03 — Mediální realita**: transition od reprezentace k simulaci
 - **Sekce 07 — Teoretické pozadí**: Baudrillard, Eco, Borges o mapování
 - **Per-technique: Provenance Tracking**: obrana před simulakrickou dominací
-- **Sekce 06 — Klinické aplikace**: depersonalizace v hypermediálním prostředí
+- **Sekce 06 — Klinické aplikace**: [depersonalizace](@/glossary/depersonalizace.md) v hypermediálním prostředí
 
 Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.
 

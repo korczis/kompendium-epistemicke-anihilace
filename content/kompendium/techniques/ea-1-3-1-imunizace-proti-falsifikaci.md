@@ -27,7 +27,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 |------|---------|
 | **EA kód** | `EA-1.3.1` |
 | **Kategorie** | 1. Akademické techniky intelektuální manipulace |
-| **Subkategorie** | 1.3 Narušení procesů revize a falsifikace |
+| **Subkategorie** | 1.3 Narušení procesů revize a [falsifikace](@/glossary/falsifikace.md) |
 | **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká — strukturální obrana před korekcí; bez detekce ireverzibilní |
 | **Reverzibilita** | Nízká, jakmile je vzorec konsolidován |
@@ -234,8 +234,8 @@ Intervence: Strukturální požadavek na pre-registered outcome criteria; advers
 
 ### Eskaluje do
 
-- **EA-1.6.1 Vzorec „Guru a adept“** — guru vede teorii v dlouhodobé imunizační dynamice.
-- **Strukturální delegitimizace pole** ([Scénář F](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — kolektivní imunizace odbourává epistemickou zdravost komunity.
+- **[EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) Vzorec „Guru a adept“** — guru vede teorii v dlouhodobé imunizační dynamice.
+- **Strukturální [delegitimizace](@/glossary/delegitimizace.md) pole** ([Scénář F](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — kolektivní imunizace odbourává epistemickou zdravost komunity.
 
 ### Hraniční / podobné
 
@@ -244,9 +244,9 @@ Intervence: Strukturální požadavek na pre-registered outcome criteria; advers
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine hypothesis registry** — explicitně ukládá **pre-registered falsifikační kritéria** pro každou hypotézu; reaktivní modifikace jsou **flagged**.
+- **[Decision Engine](@/glossary/decision-engine.md) hypothesis registry** — explicitně ukládá **pre-registered falsifikační kritéria** pro každou hypotézu; reaktivní modifikace jsou **flagged**.
 - **NABLA Infinity Lakatosian audit** — pravidelná evaluace progresivních vs. degenerativních shiftů v dlouhodobých investigation pipelines.
-- **Color Teams Red Team protocol** — explicitní mandát hledat **falsifikační scénáře** pro core platformové hypotézy.
+- **Color Teams [Red Team](@/glossary/red-team.md) protocol** — explicitní mandát hledat **falsifikační scénáře** pro core platformové hypotézy.
 
 ## Související
 

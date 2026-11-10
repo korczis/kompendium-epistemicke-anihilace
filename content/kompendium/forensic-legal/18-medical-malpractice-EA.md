@@ -131,7 +131,7 @@ dokumentace zachycuje spíše hodnocení pacientky než její obtíže, což zt�
 
 Právo posuzuje odbornou úroveň péče, nikoli kvalitu naslouchání; epistemická pochybení se
 proto do řízení dostávají jen tehdy, když vedou k prokazatelné zdravotní újmě. Pojem
-„medicínský gaslighting“, který se rozšířil v médiích, je užitečný pro pojmenování
+„medicínský [gaslighting](@/glossary/gaslighting.md)“, který se rozšířil v médiích, je užitečný pro pojmenování
 zkušenosti, ale právně neurčitý. Otevřenou otázkou je, jak systematicky měřit a snižovat
 nerovnost v tom, komu zdravotníci věří.
 

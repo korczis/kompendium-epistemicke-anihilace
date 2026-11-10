@@ -54,7 +54,7 @@ Hutsý abstract level — vyžaduje filosofické vzdělání. Kulturně specific
 
 ## Vztah k jiným zdrojům
 
-Teoretická báze pro **EA-7.x teoretické reflexe**. Komplementární k **EA-8.3.7 Interdisciplinary Anthology** a **EA-8.3.10 Information Warfare Literature**.
+Teoretická báze pro **EA-7.x teoretické reflexe**. Komplementární k **[EA-8.3.7](@/kompendium/techniques/ea-8-3-7-interdisciplinary-anthology.md) Interdisciplinary Anthology** a **[EA-8.3.10](@/kompendium/techniques/ea-8-3-10-information-warfare-literature.md) Information Warfare Literature**.
 
 ## Cross-linky
 

@@ -27,7 +27,7 @@ Posílit občanskou gramotnost jako prevenci politicky motivované EA (autoritar
 
 ## Klíčové komponenty
 
-Demokratické instituce, dělba moci, lidská práva, právní stát, pluralismus, kompromis, nenásilná komunikace, deliberativní demokracie.
+Demokratické instituce, dělba moci, lidská práva, právní stát, [pluralismus](@/glossary/pluralismus.md), kompromis, nenásilná komunikace, deliberativní demokracie.
 
 ---
 

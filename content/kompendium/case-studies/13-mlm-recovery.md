@@ -90,7 +90,7 @@ Intervence spojovala finanční a psychologickou práci:
   o ekonomice MLM bez moralizování.
 - **S2 – Externalizace introjektů:** věty jako „chudoba je volba“ nebo „úspěch je jen mindset“
   zapsány a vráceny zdroji, z něhož pocházejí.
-- **S3 – Rekonstrukce metakognice:** nácvik [verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md)
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** nácvik [verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md)
   – rozlišení mezi příběhem úspěchu a statistikou výsledků.
 - **S4 – Hermeneutická obnova:** nové čtení let v síti; uznání skutečných potřeb (komunita,
   smysl), které ji tam přivedly.

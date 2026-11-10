@@ -48,13 +48,13 @@ Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
 |---|---|---|
 | podtyp | Trauma | kategorie |
 | kontrastuje | PTSD (single-event) | etiologie |
-| souvisí | Betrayal trauma, attachment | patogeneze |
+| souvisí | [Betrayal trauma](@/glossary/betrayal-trauma.md), attachment | patogeneze |
 
 Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
 
 ## Klinicke a filosoficke implikace
 
-Klinicky C-PTSD vyžaduje phase-based léčbu (stabilizace → trauma processing → reintegrace), nikoliv okamžité exposure. Filosoficky problematizuje koncept self — chronická trauma narušuje narrative continuity osobnosti. V due diligence kontextu je rozpoznání C-PTSD u klíčové osoby relevantní pro behavioral risk assessment.
+Klinicky C-PTSD vyžaduje phase-based léčbu (stabilizace → trauma processing → reintegrace), nikoliv okamžité exposure. Filosoficky problematizuje koncept self — chronická trauma narušuje narrative continuity osobnosti. V [due diligence](@/glossary/due-diligence.md) kontextu je rozpoznání C-PTSD u klíčové osoby relevantní pro behavioral risk assessment.
 
 Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 

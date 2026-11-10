@@ -37,7 +37,7 @@ OSINT Agent je **slepý vůči closed-source pravdě** — pokud klíčové data
 
 ## Coordination
 
-Hlavní data zdroj pro **Czech ARES**, **DD Engine**, **Hawkeye**, **Black Team**; výstupy konzumuje **NABLA Infinity** a **Epistemic Pipeline**.
+Hlavní data zdroj pro **Czech ARES**, **DD Engine**, **Hawkeye**, **[Black Team](@/glossary/black-team.md)**; výstupy konzumuje **[NABLA Infinity](@/glossary/nabla-infinity.md)** a **[Epistemic Pipeline](@/glossary/epistemic-pipeline.md)**.
 
 ## Cross-linky
 

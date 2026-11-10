@@ -35,7 +35,7 @@ Supervizor v doméně klinické EA musí splňovat agregovaný kompetenční pro
 | Doména | Specifická kompetence |
 |--------|----------------------|
 | **Klinická** | Minimálně 5 let praxe v psychoterapii traumatu; certifikovaný terapeutický rámec (KBT, psychodynamický, narativní, EMDR, IFS) |
-| **Epistemologická** | Pracovní znalost taxonomie EA-1.* až EA-5.*, schopnost identifikovat techniky v klinickém materiálu |
+| **Epistemologická** | Pracovní znalost [taxonomie EA](@/glossary/taxonomie-ea.md)-1.* až EA-5.*, schopnost identifikovat techniky v klinickém materiálu |
 | **Etická** | Závazek k [etice hranic](@/philosophy/boundary-ethics.md), schopnost rozpoznat dual-use riziko vlastní kompetence |
 | **Metakognitivní** | Vlastní zkušenost s [metakognitivním](@/glossary/metakognice.md) monitoringem, schopnost detekovat sekundární destabilizaci u superizovaného |
 | **Hermeneutická** | Pracovní porozumění [hermeneutice](@/glossary/hermeneutika.md) a [fenomenologii](@/glossary/fenomenologie.md) na úrovni rozpoznání hraničních interpretací |
@@ -72,7 +72,7 @@ Cílená exploraci, zda klinik manifestuje sekundární destabilizaci: epistemic
 Společná formulace dalších kroků s explicitní artikulací **falsifikačních kritérií** („podle čeho poznáme, že intervence selhala?“). Cíl: prevence imunizace klinikova vlastního terapeutického rámce.
 
 ### Fáze 7 — Etický audit (5 min)
-Krátká reflexe etických aspektů: dual-use riziko, hranice, informovaný souhlas, dokumentace. Pokud detekce eticky problematického vzorce: aktivace eskalačního protokolu.
+Krátká reflexe etických aspektů: dual-use riziko, hranice, [informovaný souhlas](@/glossary/informed-consent.md), dokumentace. Pokud detekce eticky problematického vzorce: aktivace eskalačního protokolu.
 
 ### Fáze 8 — Uzavření a kotvy (5 min)
 Návrat k baseline. Klinik artikuluje **3 metakognitivní kotvy** (osobní reference, jež nebudou zpochybněny do další supervize). Supervizor potvrzuje plán další supervize.

@@ -43,7 +43,7 @@ V kontextu epistemické manipulace se ke zkreslením přidávají specifické vz
 
 - **Normalizace.** Člověk, kterému bylo dlouho tvrzeno, že jeho reakce jsou přehnané, své obtíže podhodnocuje; „nic zvláštního se nedělo“ je pak součástí obrazu, ne jeho vyvrácením.
 - **Převzatý slovník.** Člověk z uzavřené skupiny popisuje prožitky jazykem skupiny („to byla moje karma“, „to byl můj odpor“); výpověď je autentická, ale filtrovaná výkladem někoho jiného (viz [privátní jazyk](@/glossary/privatni-jazyk.md)).
-- **Mezery paměti a disociace.** U traumatu mohou chybět celé úseky ([disociativní amnézie](@/glossary/dissociativni-amnezie.md)) nebo se vybavují fragmentárně.
+- **Mezery paměti a [disociace](@/glossary/disociace.md).** U traumatu mohou chybět celé úseky ([disociativní amnézie](@/glossary/dissociativni-amnezie.md)) nebo se vybavují fragmentárně.
 - **Sebepochybnost o výpovědi samé.** Po [gaslightingu](@/glossary/gaslighting.md) člověk nevěří vlastní vzpomínce a odpovídá „nevím“ i tam, kde ví.
 - **Sugestibilita.** Opakované, návodné dotazování může vést k začlenění cizích prvků do výpovědi (viz [sugestibilita](@/kompendium/forensic-legal/5-suggestibility-assessment.md) a historický případ [hnutí znovuobjevené paměti](@/kompendium/historical-cases/37-recovered-memory.md)).
 

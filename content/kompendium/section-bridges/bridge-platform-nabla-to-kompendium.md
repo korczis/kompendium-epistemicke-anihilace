@@ -27,7 +27,7 @@ Nabla∞ je **epistemický framework platformy** — udržuje tvrzení, evidenci
 
 - **Nabla∞ tvrzení → kompendium claim.**
 - **Nabla∞ evidence → kompendium NCLB cross-reference.**
-- **Nabla∞ axiomy → kompendium doctrine.**
+- **Nabla∞ axiomy → kompendium [doctrine](@/glossary/doctrine.md).**
 - **Nabla∞ epistemic state → kompendium reflexe pole.**
 - **Nabla∞ confidence → kompendium klinický confidence interval.**
 - **Nabla∞ uncertainty → kompendium reflexe limitace.**

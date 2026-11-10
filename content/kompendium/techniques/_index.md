@@ -176,7 +176,7 @@ Celkem **40/40 článků v Kapitole 4**.
 | **EA-5.2.9** | [Konceptuální aporie](@/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md) | ✓ |
 | **EA-5.2.10** | [Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md) | ✓ |
 
-> **Pozn.** EA-5.2.11 — 5.2.30 jsou popsány v kompaktní taxonomické formě uvnitř narativní [Kapitoly 7](@/kompendium/05-ultramari-techniky/kapitola-7.md). Plné per-technique články jsou v etické supervizi (Wave 4).
+> **Pozn.** [EA-5.2.11](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md) — 5.2.30 jsou popsány v kompaktní taxonomické formě uvnitř narativní [Kapitoly 7](@/kompendium/05-ultramari-techniky/kapitola-7.md). Plné per-technique články jsou v etické supervizi (Wave 4).
 
 #### 5.3 Hypertransformativní protokoly (Kapitola 8)
 
@@ -297,14 +297,14 @@ EA-7.\* a EA-8.\* materiály jsou primárně publikovány jako narativní člán
 | **Fáze 7** | Per-technique EA-5.1.\* (epistemická singularita) | ✓ 30/30 |
 | **Fáze 8** | Per-technique EA-5.2.\* (metatranscendentální anihilace) | ✓ 30/30 |
 | **Fáze 9** | Per-technique EA-5.4.\* (paradoxální metaanihilace) | ✓ 60/60 |
-| **Fáze 10** | Per-technique EA-2.\* (akademická delegitimizace, 5 subkategorií) | ✓ 50/50 |
+| **Fáze 10** | Per-technique EA-2.\* (akademická [delegitimizace](@/glossary/delegitimizace.md), 5 subkategorií) | ✓ 50/50 |
 | **Fáze 11** | Case Studies (anonymizované kazuistiky) | ✓ 80 publikováno |
 | **Fáze 12** | Quick Reference karty | ✓ 123 publikováno |
 | **Fáze 13** | Glossary Bridges (cross-link můstky) | ✓ 102 publikováno |
 | **Fáze 14** | Vizualizace (Chart.js / Three.js / p5.js) | ✓ 6 interaktivních |
 | **Fáze 15** | Per-technique EA-5.3.\* (hypertransformativní protokoly) | ✓ 30/30 |
 | **Fáze 16** | Per-technique EA-5.5.\* (transkonceptuální mechanismy) | ✓ 30/30 |
-| **Fáze 17** | Per-technique EA-3.\* (edukativní implementace) | ✓ 30/30 |
+| **Fáze 17** | Per-technique EA-3.\* ([edukativní implementace](@/glossary/edukativni-implementace.md)) | ✓ 30/30 |
 | **Fáze 18** | Per-technique EA-4.\* (terminální protokoly) | ✓ 40/40 |
 | **Fáze 19** | Per-technique EA-6.\* (pokročilé klinické techniky) | ✓ 50/50 |
 | **Fáze 20** | Section/Recovery/Emergency/AIAD/Cross-Domain/Educational/Historical/Detection podknihovny | ✓ 257 publikováno |

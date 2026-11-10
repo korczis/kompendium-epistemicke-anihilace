@@ -51,7 +51,7 @@ Technika operuje v pěti krocích, jejichž cyklus je iterován s rostoucí inte
 
 ### Krok 1 — Etablování meta-kompetence manipulátora
 
-Manipulátor se etabluje jako **mistr metakognice**: ten, kdo „vidí, jak člověk myslí o myšlení“. Tato role je obvykle prezentována jako mentorská, terapeutická, nebo doktrinální. Klíčové je, že subjekt přijímá, že **on sám** v meta-úrovni operuje **méně kompetentně** než manipulátor.
+Manipulátor se etabluje jako **mistr [metakognice](@/glossary/metakognice.md)**: ten, kdo „vidí, jak člověk myslí o myšlení“. Tato role je obvykle prezentována jako mentorská, terapeutická, nebo doktrinální. Klíčové je, že subjekt přijímá, že **on sám** v meta-úrovni operuje **méně kompetentně** než manipulátor.
 
 ### Krok 2 — Indukce primárního paradoxu
 

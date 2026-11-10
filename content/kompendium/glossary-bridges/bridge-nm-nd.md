@@ -20,7 +20,7 @@ toc = false
 
 ## Definice z glossary
 
-[nm-nd](@/glossary/nm-nd.md) — NM/ND (No Mercy, No Doubts) je doktrína Prismatic platformy vyžadující nulovou toleranci ke zkratkám, placeholderům a nedokončeným implementacím v lib/ kódu. Současně požaduje rozhodnou exekuci bez zbytečné pochybnosti, jakmile je směr stanoven.
+[nm-nd](@/glossary/nm-nd.md) — NM/ND ([No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md)) je doktrína Prismatic platformy vyžadující nulovou toleranci ke zkratkám, placeholderům a nedokončeným implementacím v lib/ kódu. Současně požaduje rozhodnou exekuci bez zbytečné pochybnosti, jakmile je směr stanoven.
 
 Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 
@@ -30,7 +30,7 @@ Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 
 - **Sekce 08 — Doctrina**: jeden z 18 pilířů platformové ortodoxie
 - **Per-technique: Pre-commit Validation**: automatizovaná detekce porušení
-- **Sekce 09 — Session Discipline**: vztah k regression testům a continuous commitům
+- **Sekce 09 — [Session Discipline](@/glossary/session-discipline.md)**: vztah k regression testům a continuous commitům
 - **Sekce 10 — Quality Gates**: interakce s TACH, ZERO, SEAL pilíři
 
 Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.

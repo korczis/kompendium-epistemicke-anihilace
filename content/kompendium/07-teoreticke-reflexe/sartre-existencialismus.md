@@ -17,7 +17,7 @@ toc = true
 
 # 7.15 Sartre: Existencialismus, špatná víra a svoboda
 
-Jean-Paul Sartrovo *L'Être et le néant* (*Bytí a nicota*, 1943) představuje **fenomenologicko-existenciální analytiku** lidské svobody. Pro kompendium EA poskytuje Sartrova teorie nástroj pro pochopení **sebeklamných a sebepodřizujících struktur** — způsobů, jak subjekt **sám sebe** vystavuje EA technikám útěkem od vlastní svobody.
+Jean-Paul Sartrovo *L'Être et le néant* (*Bytí a nicota*, 1943) představuje **fenomenologicko-existenciální analytiku** lidské svobody. Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Sartrova teorie nástroj pro pochopení **sebeklamných a sebepodřizujících struktur** — způsobů, jak subjekt **sám sebe** vystavuje EA technikám útěkem od vlastní svobody.
 
 ## 1. *Pour-soi* a *en-soi*
 
@@ -66,7 +66,7 @@ Sartre analyzuje strukturální fenomén **pohledu druhého** (*le regard*): kdy
 
 Pro EA má pohled druhého **specifickou relevanci**:
 
-- **Panoptismus** Foucaulta ([viz 7.1 §1.2](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) je **internalizací** sartrovského pohledu — subjekt internalizuje pohled dohlížitele jako svůj vlastní.
+- **[Panoptismus](@/glossary/panopticism.md)** Foucaulta ([viz 7.1 §1.2](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) je **internalizací** sartrovského pohledu — subjekt internalizuje pohled dohlížitele jako svůj vlastní.
 - **Sociální média** strukturálně **multiplikují** pohled druhého — subjekt je permanentně objektivizován algoritmickým a peer-pohledem.
 - **Klinický korelát**: sociální úzkost, body dysmorphia, performativní self — vše může být interpretováno jako **patologie pohledu druhého**.
 

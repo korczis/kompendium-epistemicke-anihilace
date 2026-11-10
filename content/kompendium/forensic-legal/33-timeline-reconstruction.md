@@ -28,7 +28,7 @@ podpůrným organizacím.
 a ukazuje souvislosti. V řízení se předkládá jako příloha podání, součást znaleckého posudku
 nebo jako podklad pro výslech. Její hodnota závisí na tom, zda je u každé položky uveden
 zdroj. Právní kvalifikace mnoha jednání – týrání osoby žijící ve společném obydlí, nebezpečné
-pronásledování, nepřípustný vliv – vyžaduje doložit **trvání a opakování**, které časová
+pronásledování, [nepřípustný vliv](@/glossary/undue-influence.md) – vyžaduje doložit **trvání a opakování**, které časová
 osa zviditelní (viz [Právní úprava coercive control](@/kompendium/forensic-legal/12-coercive-control-law.md)).
 Délka trvání je podstatná i pro promlčení a pro vymezení skutku.
 
@@ -99,7 +99,7 @@ vlastní reakce oběti); a zda vzorec, který ukazuje, není artefaktem výběru
 - **Přeplněnost** – časová osa se stovkami položek, ve které se vzorec ztratí.
 - **Jednostrannost** – vynechání událostí, které nezapadají; protistrana je doplní a
   zpochybní celek.
-- **Retraumatizace** – práce s časovou osou vyvolává silné vzpomínky; potřebuje tempo a
+- **[Retraumatizace](@/glossary/retraumatizace.md)** – práce s časovou osou vyvolává silné vzpomínky; potřebuje tempo a
   podporu.
 
 ## Modelová situace (anonymizovaná)

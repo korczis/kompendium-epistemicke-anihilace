@@ -110,7 +110,7 @@ a [akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation
 
 Léčba proběhla v pěti fázích. Terapeutické jádro tvořil [protokol epistemické
 rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) se stupni S1 validace a
-mapování, S2 externalizace introjektů, S3 rekonstrukce metakognice, S4 hermeneutická obnova, S5
+mapování, S2 externalizace introjektů, S3 rekonstrukce [metakognice](@/glossary/metakognice.md), S4 hermeneutická obnova, S5
 konsolidace a transfer; fáze níže ukazují, jak byl zasazen do celého plánu:
 
 - **Fáze 1 – Stabilizace:** léčba deprese, [posouzení suicidálního rizika](@/kompendium/emergency-protocols/2-suicide-risk-EA.md),

@@ -78,7 +78,7 @@ Vstupní okno (typicky první ~15–25 % celkové délky) je charakterizováno *
 
 ### Fáze T2 — plateau anankastické saturace
 
-Centrální fáze (~50–70 % délky) je **stabilizovaná na úrovni těsně pod prahem disociace**. Tento bod je analytickým srdcem scénáře: subjekt je v [anankastickém režimu](@/glossary/anankasticky-rezim.md), tj. ve stavu, ve kterém každá další volba je doprovázena pocitem nucení a každé nucení je doprovázeno pocitem volby. V legitimním kontextu plateau slouží jako pedagogická laboratoř pro pozorování vlastních reakčních vzorců; v destruktivním kontextu plateau slouží jako fáze pro **instalaci nových struktur do destabilizovaného systému**.
+Centrální fáze (~50–70 % délky) je **stabilizovaná na úrovni těsně pod prahem [disociace](@/glossary/disociace.md)**. Tento bod je analytickým srdcem scénáře: subjekt je v [anankastickém režimu](@/glossary/anankasticky-rezim.md), tj. ve stavu, ve kterém každá další volba je doprovázena pocitem nucení a každé nucení je doprovázeno pocitem volby. V legitimním kontextu plateau slouží jako pedagogická laboratoř pro pozorování vlastních reakčních vzorců; v destruktivním kontextu plateau slouží jako fáze pro **instalaci nových struktur do destabilizovaného systému**.
 
 ### Fáze T3 — terminální zlomová zóna
 
@@ -90,8 +90,8 @@ Z perspektivy [Kapitoly 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md) �
 
 | Marker | Pozorovatelný projev | Závažnost |
 |--------|----------------------|-----------|
-| **Disociativní fragmentace** | Časová deformace, depersonalizace, ztráta autobiografické kontinuity | Kritická |
-| **Akutní psychotické symptomy** | Halucinace, paranoidní ideace, ztráta reality testing | Kritická |
+| **Disociativní fragmentace** | Časová deformace, [depersonalizace](@/glossary/depersonalizace.md), ztráta autobiografické kontinuity | Kritická |
+| **Akutní psychotické symptomy** | Halucinace, paranoidní ideace, ztráta [reality testing](@/glossary/reality-testing.md) | Kritická |
 | **Suicidální nebo sebepoškozující ideace** | Verbalizace, nonverbální markery, plánování | Kritická |
 | **Identitní kolaps** | Subjekt přestává odpovídat na vlastní jméno, ztrácí osobní historii | Velmi vysoká |
 | **Somatický kolaps** | Synkopa, hypotermie, akutní dehydratace, kardiovaskulární kompromitace | Velmi vysoká |
@@ -123,7 +123,7 @@ Dialekticko-behaviorální terapie zahrnuje protokoly tolerance distresu, které
 
 | Aspekt | Legitimní (SERE/Lotem/DBT) | Destruktivní terminální protokol |
 |--------|----------------------------|----------------------------------|
-| Informovaný souhlas | Explicitní, opakovaně potvrzovaný | Zdánlivý, manipulovaný, neúplný |
+| [Informovaný souhlas](@/glossary/informed-consent.md) | Explicitní, opakovaně potvrzovaný | Zdánlivý, manipulovaný, neúplný |
 | Safe word / ukončení | Funkční, respektovaný | Formální nebo absentní |
 | Klinická supervize | Aktivní, s pravomocí přerušit | Symbolická, bez reálné autority |
 | Reintegrace | Strukturovaná, časově dimenzovaná | Kosmetická, simulovaná |
@@ -147,7 +147,7 @@ Strukturální profil ultimátního scénáře je relevantní pro několik vrste
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — detekční heuristiky pro identifikaci protokolu v dokumentech (HR, intelligence, edukativní programy) využívají invariantní strukturální markery T1/T2/T3.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — formální reprezentace epistemických trajektorií umožňuje modelovat průběh subjektu skrz vrstvy A–D.
-- **[Color Teams](@/glossary/color-teams.md)** — Red Team simulace adversariálních protokolů; Blue Team detekce a defenze.
+- **[Color Teams](@/glossary/color-teams.md)** — [Red Team](@/glossary/red-team.md) simulace adversariálních protokolů; [Blue Team](@/glossary/blue-team.md) detekce a defenze.
 
 Pro klinickou intervenci po expozici viz [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md). Pro forward references na specifické techniky (EA-1.X.Y rodina) viz [Sekci 05](@/kompendium/05-ultramari-techniky/_index.md) a její per-technique rozpracování.
 

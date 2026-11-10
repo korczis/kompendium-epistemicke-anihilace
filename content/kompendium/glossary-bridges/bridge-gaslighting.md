@@ -32,7 +32,7 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
-- **Sekce 06 — Coercive control taktiky**: gaslighting v IPV kontextu
+- **Sekce 06 — [Coercive control](@/glossary/coercive-control.md) taktiky**: gaslighting v IPV kontextu
 - **Sekce 07 — Forms of gaslighting**: interpersonal, medical, institutional, racial
 - **Sekce 08 — Klinické dopady**: epistemic alienation, C-PTSD, dissociace
 - **Sekce 09 — Detection patterns**: screening tools, longitudinal observation
@@ -47,14 +47,14 @@ Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
 | Vztah | Cílový koncept | Typ vazby |
 |---|---|---|
 | instance | Coercive control | tactic |
-| souvisí | DARVO, betrayal trauma | rodina |
-| výsledek | Epistemická alienace | damage |
+| souvisí | DARVO, [betrayal trauma](@/glossary/betrayal-trauma.md) | rodina |
+| výsledek | [Epistemická alienace](@/glossary/epistemicka-alienace.md) | damage |
 
 Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
 
 ## Klinicke a filosoficke implikace
 
-Gaslighting je epistemic harm par excellence: cílem není fyzické zranění, ale kognitivní inkompetence oběti — neschopnost důvěřovat vlastnímu úsudku. Filosoficky reflektuje radikální zranitelnost subjektu vůči sociálnímu epistemickému uznání. Klinicky: léčba vyžaduje rebuild evidence-based self-trust, ne pouze cognitive restructuring obvyklý u CBT.
+Gaslighting je epistemic harm par excellence: cílem není fyzické zranění, ale kognitivní inkompetence oběti — neschopnost důvěřovat vlastnímu úsudku. Filosoficky reflektuje radikální zranitelnost subjektu vůči sociálnímu epistemickému uznání. Klinicky: léčba vyžaduje rebuild [evidence-based](@/glossary/evidence-based.md) self-trust, ne pouze cognitive restructuring obvyklý u CBT.
 
 Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 

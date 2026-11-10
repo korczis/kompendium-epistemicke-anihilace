@@ -76,7 +76,7 @@ Pro profesionála:
 
 ## Literatura
 
-- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*.
 - Hassan, S. (1988). *Combatting Cult Mind Control*.
 - Wegner, D. M. (1989). *White Bears and Other Unwanted Thoughts*.
 

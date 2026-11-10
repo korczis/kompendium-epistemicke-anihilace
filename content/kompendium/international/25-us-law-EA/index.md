@@ -49,7 +49,7 @@ sdělení postihnout. Silnou vrstvou je naopak **deliktní právo** – civilní
 
 - **Úmyslné způsobení citové újmy** – postihuje extrémní a pobuřující jednání, které
   způsobí vážnou citovou tíseň.
-- **Podvod** a **nepřípustný vliv** v dědickém a smluvním právu – typicky domněnka
+- **Podvod** a **[nepřípustný vliv](@/glossary/undue-influence.md)** v dědickém a smluvním právu – typicky domněnka
   nepřípustného vlivu při vztahu důvěry a podezřelých okolnostech, například když
   pečovatel nebo „poradce“ zprostředkuje změnu závěti ve svůj prospěch (viz
   [doktrína nepřípustného vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md)).

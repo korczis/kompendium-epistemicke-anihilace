@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/05-pokrocile-techniky/kapitola-6/"
 
 ## Definice
 
-**Kvazi-mystická anihilace** je technika, která **imituje strukturální rysy autentické mystické nebo spirituální zkušenosti** — pocit jednoty, transcendence, bezprostředního vhledu, sjednocení s vyšší realitou — za účelem **deaktivace racionálního hodnocení**. Subjekt prožívá stav, který interpretuje jako *vyšší modus poznání*, zatímco strukturálně jde o **regresivní epistemický kolaps**: ztrátu diferenciace, ztrátu falsifikovatelnosti, ztrátu schopnosti rozlišovat mezi vlastní zkušeností a externí realitou.
+**Kvazi-mystická anihilace** je technika, která **imituje strukturální rysy autentické mystické nebo spirituální zkušenosti** — pocit jednoty, transcendence, bezprostředního vhledu, sjednocení s vyšší realitou — za účelem **deaktivace racionálního hodnocení**. Subjekt prožívá stav, který interpretuje jako *vyšší modus poznání*, zatímco strukturálně jde o **regresivní epistemický kolaps**: ztrátu [diferenciace](@/glossary/diferenciace.md), ztrátu falsifikovatelnosti, ztrátu schopnosti rozlišovat mezi vlastní zkušeností a externí realitou.
 
 Klíčový rys techniky je **fenomenologická nerozlišitelnost** od autentické mystické zkušenosti. Mystické tradice samy o sobě **nejsou** epistemickou anihilací — sofistikované tradice (zen, vipassana, křesťanská mystika) obsahují propracované **diagnostické rámce** pro rozlišení autentického vhledu od *makyō* (zen), *zwischenstadium* (Eckhart) nebo psychospirituální iluze. **Kvazi-mystická anihilace** záměrně tyto diagnostické rámce **odstraňuje** a ponechává pouze fenomenologickou skořápku.
 
@@ -89,7 +89,7 @@ Co prožívá subjekt **uvnitř** kvazi-mystické anihilace:
 | Subjekt **odmítá racionální argumenty** jako "z nižší úrovně" | Strukturální imunizace |
 | Subjekt **opakovaně cituje** specifický slovník učitele/skupiny | Pre-instalovaný templát |
 | Subjekt **interpretuje náhodné události** jako potvrzení | Konfirmační hyperaktivita |
-| Subjekt **přerušil kontakty** s "nepochopujícími" lidmi | Sociální izolace |
+| Subjekt **přerušil kontakty** s "nepochopujícími" lidmi | [Sociální izolace](@/glossary/socialni-izolace.md) |
 | Subjekt **nedokáže artikulovat** falsifikační podmínky vlastní víry | Ztráta epistemické struktury |
 | Subjekt používá **jednotnou frázi** pro všechny otázky ("vše je jedno", "v lásce není strach") | Sémantický kolaps |
 | **Disproporcionální emoční reakce** na zpochybnění | Identifikace s rámcem |
@@ -139,7 +139,7 @@ Po intenzivní zkušenosti vyčkej **alespoň 3 měsíce** před přijetím záv
 
 | Strategie | Implementace |
 |-----------|--------------|
-| **Informed consent** | Účastníci transformačních seminářů jsou informováni o psychologických rizicích |
+| **[Informed consent](@/glossary/informed-consent.md)** | Účastníci transformačních seminářů jsou informováni o psychologických rizicích |
 | **Externí supervize** | Učitelé jsou pravidelně evaluováni nezávislými experty |
 | **Transparence financí** | Veřejné zveřejnění finančních toků v "spirituálních" organizacích |
 | **Anti-coercion regulace** | Zákaz spánkové deprivace, izolace, manipulativních technik v komerčních seminářích |
@@ -180,7 +180,7 @@ Klient absolvoval sérii ayahuasca seancí s „shamanem“ bez klinické superv
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemický monitor explicitně modeluje *unfalsifiable interpretive frames* jako kategorii rizika.
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — kalibrační logika penalizuje rozhodnutí, jejichž odůvodnění není redukovatelné na falsifikovatelná tvrzení.
-- **[Color Teams](@/glossary/color-teams.md)** — Red Team scénáře explicitně zahrnují kvazi-mystické vektory v hodnocení společenské manipulace.
+- **[Color Teams](@/glossary/color-teams.md)** — [Red Team](@/glossary/red-team.md) scénáře explicitně zahrnují kvazi-mystické vektory v hodnocení společenské manipulace.
 
 ## Související
 

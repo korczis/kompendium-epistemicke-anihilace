@@ -21,7 +21,7 @@ Martha Nussbaumová ve spolupráci s Amartyou Senem ([viz 7.34](@/kompendium/07-
 
 V knihách *Women and Human Development* (2000) a *Creating Capabilities* (2011) Nussbaumová formuluje **seznam centrálních lidských schopností** — strukturální mapping toho, co je **fundamentálně** vyžadováno pro **lidský rozkvět** (*human flourishing*).
 
-Pro kompendium EA poskytuje capabilities approach **strukturální mapping** schopností, na něž EA techniky útočí.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje capabilities approach **strukturální mapping** schopností, na něž EA techniky útočí.
 
 ## 1. Seznam centrálních schopností
 
@@ -45,7 +45,7 @@ Pro EA má seznam **diagnostickou hodnotu** — manipulativní techniky lze **ma
 | 4. Smysly, představivost, myšlení | Censura, dezinformace | EA-1.x |
 | 5. Emoce | Emocionální manipulace | EA-2.x, EA-4.x |
 | 6. Praktický rozum | Imunizace proti reflexi | EA-1.x, EA-2.x |
-| 7. Afilace | Izolace, gaslighting | EA-4.x |
+| 7. Afilace | Izolace, [gaslighting](@/glossary/gaslighting.md) | EA-4.x |
 | 10. Kontrola nad prostředím | Politická EA | EA-3.x |
 
 ## 2. Capabilities vs. Functionings

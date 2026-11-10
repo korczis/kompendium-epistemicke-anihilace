@@ -19,7 +19,7 @@ toc = true
 
 Evan Thompson v monumentálním *Mind in Life* (2007) a navazujícím *Waking, Dreaming, Being* (2014) formuluje **integrativní teorii** spojující **fenomenologii**, **kognitivní vědu** a **biologii**: mysl je strukturálně **kontinuální** s **životem** — autopoietický **organismus** je **prvotním** kognitivním systémem.
 
-Pro kompendium EA poskytuje Thompsonova teorie nástroj pro pochopení **EA jako narušení živého kognitivního systému** — nikoli pouze jako manipulace abstraktní mysli.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Thompsonova teorie nástroj pro pochopení **EA jako narušení živého kognitivního systému** — nikoli pouze jako manipulace abstraktní mysli.
 
 ## 1. Mind-Life Continuity Thesis
 
@@ -95,7 +95,7 @@ Thompson je strukturálně **skeptický** vůči **silné AI**:
 
 - AI postrádá **autopoietickou** strukturu — pouze imituje sense-making
 - **Kontinuita biologie/mysli**: pokud je mysl **biologická**, AI je strukturálně **distinct**
-- **Riziko antropomorfismu**: připisování AI strukturálně biologických kapacit je **kategoriální omyl**
+- **Riziko antropomorfismu**: připisování AI strukturálně biologických kapacit je **[kategoriální omyl](@/glossary/category-mistake.md)**
 
 Pro EA z toho plyne:
 
@@ -109,7 +109,7 @@ Pro EA z toho plyne:
 | Útok na autopoiesis | Chronický stres | Strukturální |
 | Manipulace sense-making | Frame manipulation | EA-1.x |
 | Spánková deprivace | EA technika | Strukturální |
-| Anti-fenomenologická redukce | DSM redukcionismus | Strukturální |
+| Anti-fenomenologická redukce | DSM [redukcionismus](@/glossary/redukcionismus.md) | Strukturální |
 | AI antropomorfismus | Pseudo-AI rozumění | Strukturální |
 
 ## 8. Klinický význam

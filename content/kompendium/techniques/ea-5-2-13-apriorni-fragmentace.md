@@ -87,7 +87,7 @@ Stav prostoročasové fragmentace je interpretován jako **probuzení mimo iluzi
 Apriorní fragmentace je odlišitelná od:
 
 - **Legitimní fenomenologické tematizace** prostoročasu (Husserl, Heidegger, Merleau-Ponty), která **explicitně** rozlišuje formální popis od prožitkové struktury a neničí funkční orientaci.
-- **Klinických disociačních poruch**, které mají odlišnou etiologii (trauma) a fenomenologii (depersonalizace, ne primárně prostoročasová fragmentace).
+- **Klinických disociačních poruch**, které mají odlišnou etiologii (trauma) a fenomenologii ([depersonalizace](@/glossary/depersonalizace.md), ne primárně prostoročasová fragmentace).
 - **Pokročilé buddhistické praxe**, jež může relativizovat časový zážitek, ale **udržuje praktickou orientaci**.
 
 ## Rizikové kontexty
@@ -98,7 +98,7 @@ Apriorní fragmentace je odlišitelná od:
 | **Psychedelické subkultury** | Akcelerace fragmentace bez integrace |
 | **Některé "biohackerské" extrémní experimenty** | Spánková deprivace + senzorická manipulace |
 | **Pseudo-fyzikální spirituální kruhy** | "Kvantové vědomí" jako legitimizační narativ |
-| **Trauma-induced disociace** *post-hoc* racionalizovaná | Maskování patologie spirituálním slovníkem |
+| **Trauma-induced [disociace](@/glossary/disociace.md)** *post-hoc* racionalizovaná | Maskování patologie spirituálním slovníkem |
 
 ## Neutralizace
 
@@ -132,8 +132,8 @@ Apriorní fragmentace je odlišitelná od:
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine timeline strukturalizace** — explicitní časové osy obnovují lineární orientaci.
-- **NABLA Infinity temporální axiom** — epistemická provenience pracuje s explicitními timestampy.
+- **[Decision Engine](@/glossary/decision-engine.md) timeline strukturalizace** — explicitní časové osy obnovují lineární orientaci.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) temporální axiom** — epistemická provenience pracuje s explicitními timestampy.
 - **OSINT chronologická rekonstrukce** — strukturní time-line práce kompenzuje fragmentaci.
 
 ## Související

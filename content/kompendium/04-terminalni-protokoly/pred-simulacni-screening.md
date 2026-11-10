@@ -91,7 +91,7 @@ Specifický nástroj: detailní biografický rozhovor s kvalifikovaným klinikem
 Komponenty:
 
 - explicitní artikulace **vlastní motivace** pro účast (oddělení od institucionálního tlaku),
-- screening na sekundární zisky (kariéra, finance, sociální status), které mohou kompromitovat informovaný souhlas,
+- screening na sekundární zisky (kariéra, finance, sociální status), které mohou kompromitovat [informovaný souhlas](@/glossary/informed-consent.md),
 - mapování očekávání subjektu vůči expozici (a jejich realismus),
 - explicitní informovaný souhlas s **konkrétní úrovní expozice**, nikoli generický,
 - explicitní *opt-out protokol* — subjekt obdrží pojmenovaný a procvičený způsob, jak ukončit účast,

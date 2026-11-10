@@ -21,7 +21,7 @@ status = "complete"
 
 # Etický kodex výzkumníka EA
 
-> **12-bodový kodex výzkumné a klinické etiky** pro doménu epistemické a kognitivní anihilace. Adaptováno ze standardů APA Ethics Code, Belmont Report (1979), Helsinské deklarace (rev. 2013) a institucionálních IRB norem. Slouží jako referenční rámec pro institucionální etický přezkum a pro samotné výzkumníky.
+> **12-bodový kodex výzkumné a klinické etiky** pro doménu epistemické a [kognitivní anihilace](@/glossary/kognitivni-anihilace.md). Adaptováno ze standardů APA Ethics Code, Belmont Report (1979), Helsinské deklarace (rev. 2013) a institucionálních IRB norem. Slouží jako referenční rámec pro institucionální etický přezkum a pro samotné výzkumníky.
 
 ## Preambule
 
@@ -59,7 +59,7 @@ Tento kodex operacionalizuje cestu mezi těmito riziky. Není to seznam pravidel
 **Operacionalizace**:
 
 - Souhlas je **dvoustupňový**: obecný (vstup do výzkumu) + specifický (každá rizikovější procedura).
-- U pacientů s narušenou kapacitou souhlasu (vážná disociace, psychotické symptomy) je výzkum **odložen** nebo prováděn **jen pro účely klinické péče**, ne pro výzkumné publikace.
+- U pacientů s narušenou kapacitou souhlasu (vážná [disociace](@/glossary/disociace.md), psychotické symptomy) je výzkum **odložen** nebo prováděn **jen pro účely klinické péče**, ne pro výzkumné publikace.
 - **Re-konsensus**: po stabilizaci pacient potvrzuje, že souhlasí se zveřejněním dat získaných během fáze, kdy mohl mít narušenou kapacitu.
 
 ### 3. Epistemická integrita subjektů
@@ -194,7 +194,7 @@ flowchart TD
 | Stupeň porušení | Sankce |
 |-----------------|--------|
 | **Drobné** (formální chyba, opomenutí v COI) | Erratum + edukativní intervence |
-| **Středně závažné** (nedostatečný informovaný souhlas) | Pozastavení výzkumu + IRB review |
+| **Středně závažné** (nedostatečný [informovaný souhlas](@/glossary/informed-consent.md)) | Pozastavení výzkumu + [IRB review](@/glossary/irb-review.md) |
 | **Závažné** (deceptivní postupy, ignorování adverse events) | Ukončení výzkumu + institucionální sankce |
 | **Kritické** (ofenzivní použití technik mimo výzkumný rámec) | Trestní oznámení + profesní zákaz |
 
@@ -218,9 +218,9 @@ Tento kodex je **kompatibilní s** a **rozšiřuje** následující rámce:
 
 ## Platformový kontext
 
-- [Color Teams](@/glossary/color-teams.md) — Red Team adversariální simulace operuje pod tímto kodexem.
+- [Color Teams](@/glossary/color-teams.md) — [Red Team](@/glossary/red-team.md) adversariální simulace operuje pod tímto kodexem.
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — kalibrace důvěry respektuje epistemické autonomie.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) — L11–L13 epistemic pipeline implementuje epistemic integrity.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — L11–L13 [epistemic pipeline](@/glossary/epistemic-pipeline.md) implementuje epistemic integrity.
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md) — filozofický základ tohoto kodexu.
 
 ## ⚡ Kritický krok

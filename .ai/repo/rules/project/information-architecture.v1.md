@@ -445,6 +445,19 @@ už při jejich zavedení (2026-11-10: `placeholder` 2, `technique-page` 6), po�
 smí jen snižovat a při nule položka zůstane s nulou (bez ní by šlo o běžný požadavek, který lze
 zapsat do základu). Opravují se v obsahu, nepřijímají se.
 
+## Kategorie a podkategorie
+
+Každá stránka má odvozený typ (`typ`: technika, pojem, most pojmu, kazuistika, krizový
+protokol …) a jednu nebo více oblastí (`oblasti`: klinická praxe, právo a forenzní praxe,
+filozofie a teorie, digitální prostředí …); stránky s kódem EA mají rodinu (`rodina`, EA-N) a
+podrodinu (`podrodina`, EA-N.M). Nic z toho se nepíše na stránku: typy a oblasti s českým
+názvem a popisem jsou v `data/categories.toml`, názvy rodin a podrodin v rejstříku technik
+(`## Kapitola N — …`, `### N.M …` a řádky `| \`EA-N.M\` | … |`), a `scripts/build-graph.py`
+je zapíše do uzlů `static/data/graph.json` spolu s rejstříkem `categories`, z něhož web staví
+rozcestníky kategorií a štítky stránek. Nový oddíl bez řádku `typ` sestavení zastaví
+(`build-graph.py` skončí chybou, a tím i `--check` a `verify-content.sh`); kategorie se tedy
+rozšiřuje přidáním řádku, ne úpravou stránek.
+
 # Verification
 
 ```sh

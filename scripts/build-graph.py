@@ -9,7 +9,13 @@ Writes three files that templates and scripts read and nobody edits by hand:
                             other technique pages carrying the same code)
                             and, on historical cases,
                             period_start, period_end (years; none when ongoing),
-                            ongoing, category and place
+                            ongoing, category and place;
+                            additive (2026-11-10): on every node `typ` and `oblasti`, on EA-coded
+                            nodes `rodina` (EA-N) and `podrodina` (EA-N.M), and a top-level
+                            `categories` index (typ, oblast, rodina, podrodina -> label,
+                            description, node ids) for the category hubs and page chips; the
+                            types and domains come from data/categories.toml, and a section with
+                            no `typ` row fails the build
   static/data/metrics.json  per-section and whole-book figures for the dashboards
   static/data/ia.json       per page: open IA violations by rule (scripts/check-ia.py), words,
                             language, in and out degree, for the editorial view
@@ -28,6 +34,7 @@ import pathlib
 import re
 import statistics
 import sys
+import tomllib
 
 sys.dont_write_bytecode = True  # no __pycache__ in the checkout
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
@@ -153,7 +160,9 @@ def build() -> dict:
         "terms_without_page": sorted(t["term"] for t in terms if not t["page"]),
         "sections": sections,
     }
-    graph = {"schema": SCHEMA, "nodes": nodes, "edges": edges, "families": families(pages)}
+    fams = families(pages)
+    graph = {"schema": SCHEMA, "nodes": nodes, "edges": edges, "families": fams,
+             "categories": categorise(pages, nodes, fams)}
     return {"graph.json": graph, "metrics.json": metrics, "ia.json": ia_report(pages)}
 
 
@@ -201,6 +210,80 @@ def ia_report(pages: list) -> dict:
     counts = collections.Counter(r for rules in open_now.values() for r in rules)
     return {"schema": "kompendium-ia/v1", "rules": dict(sorted(counts.items())),
             "terms_without_page": terms, "pages": rows}
+
+
+CATEGORIES = ROOT / "data" / "categories.toml"
+SUBFAMILY_HEADING = re.compile(r"^###\s+(\d+)\.(\d+)\s+(.+?)\s*$", re.M)
+SUBFAMILY_ROW = re.compile(r"^\|\s*`EA-(\d+)\.(\d+)`\s*\|\s*([^|]+?)\s*\|", re.M)
+CODED = re.compile(r"(?:kompendium/techniques/ea|kompendium/quick-reference/qr-ea)-(\d+)-(\d+)")
+
+
+def subfamily_names() -> dict:
+    """EA-N.M -> name, from the technique register: "### 1.1 Akvizice poznání" headings and
+    the "| `EA-9.1` | Jazykové modely: … |" rows of its group tables. No name is guessed."""
+    register = ROOT / "content" / "kompendium" / "08-prilohy" / "rejstrik-technik.md"
+    names = {}
+    if register.exists():
+        text = register.read_text(encoding="utf-8")
+        for regex in (SUBFAMILY_HEADING, SUBFAMILY_ROW):
+            for fam, sub, name in regex.findall(text):
+                names.setdefault(f"EA-{int(fam)}.{int(sub)}", re.sub(r"`", "", name).strip())
+    return names
+
+
+def categorise(pages: list, nodes: list, fams: dict) -> dict:
+    """Give every node its page type and domains (data/categories.toml) and every EA-coded
+    node its family and subfamily; return the index the category hubs read."""
+    spec = tomllib.loads(CATEGORIES.read_text(encoding="utf-8"))
+
+    def matches(section: str, prefixes: list) -> int:
+        best = -1
+        for pre in prefixes:
+            if section == pre or section.startswith(pre + "/"):
+                best = max(best, len(pre))
+        return best
+
+    index = {"typ": {}, "oblast": {}, "rodina": {}, "podrodina": {}}
+    for row in spec["typ"]:
+        index["typ"][row["slug"]] = {"label": row["label"], "description": row["description"],
+                                     "nodes": []}
+    for row in spec["oblast"]:
+        index["oblast"][row["slug"]] = {"label": row["label"], "description": row["description"],
+                                        "nodes": []}
+    subnames = subfamily_names()
+    untyped = set()
+    for page, node in zip(pages, nodes):
+        section = page["section"]
+        ranked = sorted(((matches(section, r["sections"]), r["slug"]) for r in spec["typ"]),
+                        reverse=True)
+        if not ranked or ranked[0][0] < 0:
+            untyped.add(section)
+            continue
+        node["typ"] = ranked[0][1]
+        index["typ"][node["typ"]]["nodes"].append(node["id"])
+        m = None if page["is_index"] else CODED.match(page["path"])
+        family = f"EA-{int(m.group(1))}" if m else None
+        if m:
+            sub = f"{family}.{int(m.group(2))}"
+            node["rodina"], node["podrodina"] = family, sub
+            index["rodina"].setdefault(family, {"label": fams.get(family, family), "nodes": []})
+            index["rodina"][family]["nodes"].append(node["id"])
+            index["podrodina"].setdefault(sub, {"label": subnames.get(sub, sub),
+                                                "family": family, "nodes": []})
+            index["podrodina"][sub]["nodes"].append(node["id"])
+        domains = [r["slug"] for r in spec["oblast"]
+                   if matches(section, r.get("sections", [])) >= 0
+                   or (family and family in r.get("families", []))]
+        node["oblasti"] = domains
+        for d in domains:
+            index["oblast"][d]["nodes"].append(node["id"])
+    if untyped:
+        raise SystemExit("build-graph: no `typ` row in data/categories.toml for section(s) "
+                         + ", ".join(sorted(untyped)) + "; add one there")
+    order = lambda kv: [int(x) for x in kv[0][3:].split(".")]  # noqa: E731
+    index["rodina"] = dict(sorted(index["rodina"].items(), key=order))
+    index["podrodina"] = dict(sorted(index["podrodina"].items(), key=order))
+    return index
 
 
 def serialise(data: dict) -> str:

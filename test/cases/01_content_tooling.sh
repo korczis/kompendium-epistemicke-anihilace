@@ -79,6 +79,17 @@ grep -c '](@/kompendium/techniques/ea-1-6-1-' content/kompendium/case-01-links/p
 python3 scripts/link-terms.py --check content/kompendium/case-01-links >/dev/null
 rm -r content/kompendium/case-01-links
 
+# merge-duplicate: the full page gains the stub's address as an alias, links follow, stub goes.
+mkdir -p content/kompendium/case-01-dup
+printf '+++\ntitle = "Stub"\n+++\n\nKrátký stub.\n' > content/kompendium/case-01-dup/x.md
+printf '+++\ntitle = "Plná"\nweight = 1\n\n[extra]\nk = 1\n+++\n\nPlná stránka.\n' > content/kompendium/case-01-dup/x-plna.md
+printf '+++\ntitle = "Odkaz"\n+++\n\nViz [stub](@/kompendium/case-01-dup/x.md#a).\n' > content/kompendium/case-01-dup/ref.md
+python3 scripts/merge-duplicate.py kompendium/case-01-dup/x.md kompendium/case-01-dup/x-plna.md >/dev/null
+[ ! -e content/kompendium/case-01-dup/x.md ]
+grep -x 'aliases = \["/kompendium/case-01-dup/x/"\]' content/kompendium/case-01-dup/x-plna.md >/dev/null
+grep -F '](@/kompendium/case-01-dup/x-plna.md#a)' content/kompendium/case-01-dup/ref.md >/dev/null
+rm -r content/kompendium/case-01-dup
+
 python3 scripts/build-graph.py >/dev/null
 python3 scripts/build-graph.py --check >/dev/null
 printf '\nEin [Link](@/kompendium/_index.md).\n' >> content/about.md

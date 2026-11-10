@@ -1100,9 +1100,6 @@
  "content/kompendium/critical-perspectives/30-buddhist-psychology-alt.md": [
   "description"
  ],
- "content/kompendium/cross-domain/1-ea-osint-source-credibility.md": [
-  "not-orphan"
- ],
  "content/kompendium/cross-domain/10-ea-dd-source-weighting.md": [
   "not-orphan"
  ],
@@ -1116,18 +1113,6 @@
   "not-orphan"
  ],
  "content/kompendium/cross-domain/14-ea-dd-narrative-warfare.md": [
-  "not-orphan"
- ],
- "content/kompendium/cross-domain/15-ea-dd-evidence-quality-assessment.md": [
-  "not-orphan"
- ],
- "content/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md": [
-  "not-orphan"
- ],
- "content/kompendium/cross-domain/17-ea-security-social-engineering.md": [
-  "not-orphan"
- ],
- "content/kompendium/cross-domain/18-ea-security-spear-phishing.md": [
   "not-orphan"
  ],
  "content/kompendium/cross-domain/2-ea-osint-czech-ares-validation.md": [
@@ -1145,9 +1130,6 @@
  "content/kompendium/cross-domain/26-ea-compliance-zkb-epistemic-integrity.md": [
   "not-orphan"
  ],
- "content/kompendium/cross-domain/28-ea-compliance-aml-pattern-recognition.md": [
-  "not-orphan"
- ],
  "content/kompendium/cross-domain/29-ea-compliance-kyc-narrative-validation.md": [
   "not-orphan"
  ],
@@ -1155,9 +1137,6 @@
   "not-orphan"
  ],
  "content/kompendium/cross-domain/4-ea-osint-sanctions-list-bias.md": [
-  "not-orphan"
- ],
- "content/kompendium/cross-domain/7-ea-osint-narrative-injection.md": [
   "not-orphan"
  ],
  "content/kompendium/cross-domain/9-ea-dd-investigation-bias.md": [
@@ -1292,138 +1271,6 @@
  "content/kompendium/detection-signatures/tom-kalibrace.md": [
   "description",
   "tags"
- ],
- "content/kompendium/educational-scenarios/1-basic-detection.md": [
-  "toml",
-  "description",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/10-paradigm-recognition.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/11-academic-manipulation.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/12-mentor-overreach.md": [
-  "toml",
-  "description",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/13-peer-review-bias.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/14-media-mob-recognition.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/15-narrative-injection.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/16-deepfake-detection.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/17-bot-coordination.md": [
-  "toml",
-  "description",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/18-cult-recruitment.md": [
-  "toml",
-  "description",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/19-gaslighting-pattern.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/2-cognitive-bias-recognition.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/20-darvo-recognition.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/21-ultramarine-recognition.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/22-hyperreflexivity-spot.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/23-ontological-attack.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/24-metacognitive-collapse.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/25-identity-fragmentation.md": [
-  "toml",
-  "description",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/26-recovery-trajectory.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/27-iatrogenic-risk.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/28-multi-target-coordination.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/29-emergent-pattern.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/3-information-curation.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/30-self-application.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/4-source-evaluation.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/5-claim-verification.md": [
-  "toml",
-  "description",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/6-falsification-design.md": [
-  "toml",
-  "description",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/7-evidence-weighting.md": [
-  "toml",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/8-contradiction-resolution.md": [
-  "toml",
-  "description",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/9-meta-evaluation.md": [
-  "toml",
-  "description",
-  "tags"
- ],
- "content/kompendium/educational-scenarios/_index.md": [
-  "toml"
  ],
  "content/kompendium/emergency-protocols/1-acute-decompensation-EA.md": [
   "related"
@@ -1718,8 +1565,7 @@
  ],
  "content/kompendium/forensic-legal/7-evidence-chain-of-custody.md": [
   "description",
-  "diacritics",
-  "not-orphan"
+  "diacritics"
  ],
  "content/kompendium/forensic-legal/8-witness-prep-EA.md": [
   "description",
@@ -3052,16 +2898,10 @@
  "content/kompendium/techniques/ea-4-2-10-emergency-extraction.md": [
   "not-orphan"
  ],
- "content/kompendium/techniques/ea-4-2-7-documentation-chain-custody.md": [
-  "not-orphan"
- ],
  "content/kompendium/techniques/ea-4-2-8-long-term-followup.md": [
   "not-orphan"
  ],
  "content/kompendium/techniques/ea-4-3-10-conceptual-rebuild-protocol.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-4-3-7-paradigmatic-fluidization.md": [
   "not-orphan"
  ],
  "content/kompendium/techniques/ea-4-3-8-hermeneutic-recursion.md": [
@@ -3580,9 +3420,6 @@
  "content/kompendium/techniques/ea-7-2-10-nagel-view-from-nowhere.md": [
   "not-orphan"
  ],
- "content/kompendium/techniques/ea-7-2-8-davidson-charity.md": [
-  "not-orphan"
- ],
  "content/kompendium/techniques/ea-7-2-9-williams-truthfulness.md": [
   "not-orphan"
  ],
@@ -3603,12 +3440,6 @@
   "not-orphan"
  ],
  "content/kompendium/techniques/ea-8-1-6-betrayal-trauma-inventory.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-8-1-9-metakognitivni-questionnaire.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-8-2-1-bite-framework.md": [
   "not-orphan"
  ],
  "content/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md": [
@@ -3685,12 +3516,10 @@
   "not-orphan"
  ],
  "content/kompendium/techniques/ea-9-1-7-synthetic-expertise-claim.md": [
-  "related",
-  "not-orphan"
+  "related"
  ],
  "content/kompendium/techniques/ea-9-1-8-llm-confabulation-amplification.md": [
-  "related",
-  "not-orphan"
+  "related"
  ],
  "content/kompendium/techniques/ea-9-1-9-multi-turn-narrative-shift.md": [
   "related",
@@ -3726,8 +3555,7 @@
   "not-orphan"
  ],
  "content/kompendium/techniques/ea-9-2-7-synthetic-witness-testimony.md": [
-  "related",
-  "not-orphan"
+  "related"
  ],
  "content/kompendium/techniques/ea-9-2-8-AI-eyewitness-fabrication.md": [
   "related",
@@ -3799,12 +3627,10 @@
   "related"
  ],
  "content/kompendium/techniques/ea-9-4-6-mass-comment-coordination.md": [
-  "related",
-  "not-orphan"
+  "related"
  ],
  "content/kompendium/techniques/ea-9-4-7-cross-platform-bot-cascade.md": [
-  "related",
-  "not-orphan"
+  "related"
  ],
  "content/kompendium/techniques/ea-9-4-8-real-time-bot-response.md": [
   "description",

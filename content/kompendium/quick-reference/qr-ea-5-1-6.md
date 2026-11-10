@@ -24,15 +24,15 @@ toc = false
 
 ## Definice
 
-**Kategorická transgrese** je technika, při níž manipulátor systematicky **překračuje a destabilizuje hranice kategorií**, na nichž subjekt staví orientaci ve světě (subjekt vs. objekt, příčina vs. následek, věc vs. vlastnost, fakt vs. hodnota, podstata vs. akcident). Útoky operují na **kategoriálním aparátu**, nikoli na konkrétních obsazích — subjektova schopnost rozhodnout, "co je to za druh věci", se eroduje. V terminálním stadiu subjekt přestává rozlišovat *kategoriální typy* zkušenosti (událost vs. trvalý stav, fyzická vs. psychická skutečnost, intencionalita vs. kauzalita), což znemožňuje formulovat smysluplnou interpretaci. Strukturálně připomíná ryle-ovskou *category mistake*, ale kultivovanou jako diskurzivní zbraň.
+**Kategorická transgrese** je technika, při níž manipulátor systematicky **překračuje a destabilizuje hranice kategorií**, na nichž subjekt staví orientaci ve světě (subjekt vs. objekt, příčina vs. následek, věc vs. vlastnost, fakt vs. hodnota, podstata vs. akcident). Útoky operují na **kategoriálním aparátu**, nikoli na konkrétních obsazích — subjektova schopnost rozhodnout, „co je to za druh věci“, se eroduje. V terminálním stadiu subjekt přestává rozlišovat *kategoriální typy* zkušenosti (událost vs. trvalý stav, fyzická vs. psychická skutečnost, intencionalita vs. kauzalita), což znemožňuje formulovat smysluplnou interpretaci. Strukturálně připomíná ryle-ovskou *category mistake*, ale kultivovanou jako diskurzivní zbraň.
 
 ## Operační modus (5 kroků)
 
-1. **Identifikace kategoriální infrastruktury** — manipulátor mapuje, jaké základní typové distinkce subjekt používá ("to je zase něco jiného než…").
-2. **Smíšené predikace** — výroky atribuující vlastnost jedné kategorie objektům z jiné ("tvoje rozhodnutí je vlhké", "tvůj úmysl je nezralý jako fyzický předmět").
+1. **Identifikace kategoriální infrastruktury** — manipulátor mapuje, jaké základní typové distinkce subjekt používá („to je zase něco jiného než…“).
+2. **Smíšené predikace** — výroky atribuující vlastnost jedné kategorie objektům z jiné („tvoje rozhodnutí je vlhké“, „tvůj úmysl je nezralý jako fyzický předmět“).
 3. **Kategoriální slipping** — opakovaný přechod mezi úrovněmi (deskriptivní výrok přechází bez upozornění do morálního, pak do estetického).
 4. **Hyperabstrakce / hyperkonkretizace** — abstraktní pojmy reifikované jako objekty, konkrétní situace prezentované jako abstraktní principy.
-5. **Kategoriální vakuum** — subjekt přestává mít k dispozici typové rozlišení, prožívá svět jako "směs všeho se vším".
+5. **Kategoriální vakuum** — subjekt přestává mít k dispozici typové rozlišení, prožívá svět jako „směs všeho se vším“.
 
 ## Fenomenologické znaky
 
@@ -54,13 +54,13 @@ toc = false
 
 ## Neutralizace
 
-- **Explicitní typové značení** — před každým výrokem identifikovat: "toto je deskriptivní/normativní/estetický výrok".
+- **Explicitní typové značení** — před každým výrokem identifikovat: „toto je deskriptivní/normativní/estetický výrok“.
 - **Aristotelská retabulace** — návrat k základnímu rozlišení: substance, kvalita, kvantita, vztah, místo, čas, poloha, držení, akce, trpění.
 - **Externí kategoriální audit** — kolega s filosofickou erudicí mapuje, kde se v debatě transgrese odehrávají.
 
 ## Klinický kontext
 
-Kategorická transgrese se vyskytuje v sektách s gnostickým holismem ("vše je spojeno"), v některých formách psychoterapie, jež reifikují metafory ("tvoje úzkost je toxická látka"), v intelektuálním diskurzu, který směšuje deskriptivní a normativní úrovně, a ve veřejné komunikaci, kde fakta a hodnoty splývají do morální paniky. Diferenciálně se odlišuje od **legitimní mezikategoriální analogie** (která je explicitně označena jako analogie a má heuristickou funkci) — transgrese predikuje **doslovně** napříč kategoriemi.
+Kategorická transgrese se vyskytuje v sektách s gnostickým holismem („vše je spojeno“), v některých formách psychoterapie, jež reifikují metafory („tvoje úzkost je toxická látka“), v intelektuálním diskurzu, který směšuje deskriptivní a normativní úrovně, a ve veřejné komunikaci, kde fakta a hodnoty splývají do morální paniky. Diferenciálně se odlišuje od **legitimní mezikategoriální analogie** (která je explicitně označena jako analogie a má heuristickou funkci) — transgrese predikuje **doslovně** napříč kategoriemi.
 
 ## Cross-linky
 

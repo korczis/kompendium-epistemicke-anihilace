@@ -36,12 +36,12 @@ Strukturální klíčový moment: tyto filtry **fungují** **bez** centrální k
 Pro EA z toho plyne:
 
 - **Strukturální EA bez konspirace**: corporate masmédia produkují bias **systémově**, nikoli intencionálně.
-- **"Liberal media bias" rétorika**: strukturálně **falešná** — Chomsky empiricky dokazuje pro-corporate bias.
+- **„Liberal media bias“ rétorika**: strukturálně **falešná** — Chomsky empiricky dokazuje pro-corporate bias.
 - **Algoritmická amplifikace filtrů**: digital media strukturálně **dál ukotvují** filtry skrze engagement-driven algoritmy.
 
 ## 2. Manufacturing consent
 
-Chomského centrální koncept (původně z Walter Lippmann, 1922): masová demokracie strukturálně **vyžaduje** mechanismy "**vyrábějící**" konsensus populace s elitními rozhodnutími.
+Chomského centrální koncept (původně z Walter Lippmann, 1922): masová demokracie strukturálně **vyžaduje** mechanismy „**vyrábějící**“ konsensus populace s elitními rozhodnutími.
 
 Strukturální mechanismus:
 
@@ -51,19 +51,19 @@ Strukturální mechanismus:
 
 Pro EA z toho plyne:
 
-- **Strukturální EA je strukturálně demokraticky-fungovatelná**: demokracie je **kompatibilní** s EA, pokud EA produkuje "souhlas".
+- **Strukturální EA je strukturálně demokraticky-fungovatelná**: demokracie je **kompatibilní** s EA, pokud EA produkuje „souhlas“.
 - **Counter-EA**: posílení **autentické** demokratické deliberace, **strukturální** dekoncentrace mediální moci.
 
 ## 3. Necessary illusions
 
-V knize *Necessary Illusions* (1989) Chomsky rozšiřuje analýzu: liberální demokracie strukturálně **vyžadují** "**nezbytné iluze**" — fikce, jež **udržují** systém **přes** jeho strukturální nespravedlnosti.
+V knize *Necessary Illusions* (1989) Chomsky rozšiřuje analýzu: liberální demokracie strukturálně **vyžadují** „**nezbytné iluze**“ — fikce, jež **udržují** systém **přes** jeho strukturální nespravedlnosti.
 
 Strukturální paralela s **Harariho** intersubjektivní realitou ([viz 7.52](@/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ.md)) a **MacIntyrovou** krizí morálního jazyka ([viz 7.31](@/kompendium/07-teoreticke-reflexe/macintyre-after-virtue.md)).
 
 Pro EA z toho plyne:
 
-- **Iluze "free press"**: strukturálně **falešná** — **press is free** pro ty, kdo **vlastní** press
-- **Iluze "rovných šancí"**: strukturálně **falešná** v kontextu strukturálních nerovností
+- **Iluze „free press“**: strukturálně **falešná** — **press is free** pro ty, kdo **vlastní** press
+- **Iluze „rovných šancí“**: strukturálně **falešná** v kontextu strukturálních nerovností
 - **Demaskování iluzí**: kritická epistemická aktivita
 
 ## 4. Kritika neoliberalismu
@@ -72,7 +72,7 @@ Chomského pozdní práce (*Profit over People*, 1999, *Hopes and Prospects*, 20
 
 Strukturální charakteristiky:
 
-- **TINA** ("There Is No Alternative") — strukturální anihilace alternativ
+- **TINA** („There Is No Alternative“) — strukturální anihilace alternativ
 - **Marketizace všeho** — vzdělávání, zdraví, kultura jsou strukturálně reduktovány na trhy
 - **Anti-public** — veřejné statky strukturálně **dezavovány**
 
@@ -92,7 +92,7 @@ Chomského teorie jazyka (Universal Grammar) je strukturálně relevantní pro E
 Pro EA má lingvistický rámec **specifický** význam:
 
 - **Manipulace pragmatiky**: hlavní vrstva politické EA
-- **Manipulace terminologie**: "kolaterální škody", "enhanced interrogation", "free trade"
+- **Manipulace terminologie**: „kolaterální škody“, „enhanced interrogation“, „free trade“
 
 ## 6. Mapping na EA techniky
 

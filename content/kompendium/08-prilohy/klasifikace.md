@@ -264,7 +264,6 @@ Aktuální verze taxonomie: **v1.0.0** (kanonický stav 2026-04-25).
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — kalibrace důvěry využívá EA klasifikační prostor jako feature space.
 - [3NL architektura](@/glossary/three-nested-loops.md) — dimenze strukturální/obsahová mapuje na L1/L3 rozdělení.
 
-
 ## ⚡ Kritický krok
 
 **Tato příloha je referenční nástroj** — není k četbě od začátku do konce.

@@ -32,7 +32,7 @@ Klíčové epistemické charakteristiky totalitarismu:
 1. **Ideologie jako totální vysvětlení** — Totalitarní ideologie aspiruje vysvětlit *všechno* skrze jeden interpretační klíč (rasový boj, třídní boj, dějinný osud). Tato totalizace eliminuje **epistemickou pluralitu** — jakákoli odlišná interpretace je nikoli alternativním názorem, ale **deformací reality**.
 2. **Logika izolovaná od reality** — Ideologie operuje jako uzavřený dedukční systém. Z premis derivuje závěry, ale premisy nejsou empiricky verifikovatelné. Vzniká **logická konzistence při ontologické nepravdivosti**.
 3. **Atomizace populace** — Totalitarismus systematicky destruuje horizontální sociální vazby (komunita, církev, profesní organizace), aby zabránil emergenci alternativních epistemických komunit. Jednotlivec je redukován na izolovaného konzumenta státní informační produkce.
-4. **Permanentní mobilizace** — Totalitarismus nedovoluje "normální" stav; vyžaduje kontinuální krizi, vnějšího nepřítele, vnitřního zrádce. Tato permanentní mobilizace **vyčerpává metakognitivní kapacitu** subjektů.
+4. **Permanentní mobilizace** — Totalitarismus nedovoluje „normální“ stav; vyžaduje kontinuální krizi, vnějšího nepřítele, vnitřního zrádce. Tato permanentní mobilizace **vyčerpává metakognitivní kapacitu** subjektů.
 5. **Loyalty over truth** — Klíčový epistemický posun: pravda přestává být cílem; cílem je **konzistentní loajalita**. Subjekty jsou hodnoceny nikoli podle správnosti tvrzení, ale podle souladu s aktuální stranickou linií.
 
 ### Havlova analýza — život v pravdě
@@ -41,7 +41,7 @@ Václav Havel (*Moc bezmocných*, 1978) doplňuje Arendtovu analýzu fenomenolog
 
 - **Post-totalitarismus** — Pozdně-socialistické režimy nejsou primárně represivní (jako stalinismus), ale **rituálně-kompliantní**. Občan není nucen *věřit* ideologii; je nucen *participovat* na rituálech ideologie.
 - **Žít v pravdě** — Havlův koncept odporu není politický v tradičním smyslu. Je epistemicko-existenciální: spočívá v **odmítnutí participace na rituální lži**.
-- **Plakát zelináře** — Slavný příklad: zelinář vyvěšuje ve výloze plakát "Proletáři všech zemí, spojte se!". Zelinář si nemyslí, že proletáři by se měli spojit; vyvěšuje plakát, protože "tak se to dělá". Tento rituál — kolektivní participace na výpovědi, kterou nikdo nebere doslovně — strukturuje epistemický prostor totalitarismu.
+- **Plakát zelináře** — Slavný příklad: zelinář vyvěšuje ve výloze plakát „Proletáři všech zemí, spojte se!“. Zelinář si nemyslí, že proletáři by se měli spojit; vyvěšuje plakát, protože „tak se to dělá“. Tento rituál — kolektivní participace na výpovědi, kterou nikdo nebere doslovně — strukturuje epistemický prostor totalitarismu.
 
 Havlova analýza odhaluje, že politická EA **nepotřebuje individuální přesvědčení**. Stačí strukturální tlak na rituální compliance. Tato compliance kumulativně produkuje **kolektivní halucinaci** — sdílený fiktivní svět, jehož fiktivnost je všem účastníkům implicitně známa, ale jehož explicitní destabilizace je tabuizovaná.
 
@@ -78,7 +78,7 @@ Z Ellulovy perspektivy je každá moderní masová společnost — totalitarní 
 Jason Stanley (*How Propaganda Works*, 2015) modernizuje analýzu propagandy v kontextu liberálních demokracií. Klíčová teze: propaganda je **rétorický prostředek**, jenž používá demokratické ideály (svoboda, rovnost, právo) **proti samotné demokracii**. Mechanismy:
 
 1. **Demagogický apel k demokratickým hodnotám** — Útočník mobilizuje rétoriku svobody a rovnosti k legitimizaci antidemokratických agend.
-2. **Code words** — Specifické termíny ("welfare queens", "inner cities", "globalisté") fungují jako kódy aktivující implicitní biasy bez explicitní manifestace.
+2. **Code words** — Specifické termíny („welfare queens“, „inner cities“, „globalisté“) fungují jako kódy aktivující implicitní biasy bez explicitní manifestace.
 3. **Flawed ideology** — Propaganda exploituje **strukturní nerovnosti** existující v společnosti; její efektivita je proporcionální k preexistujícímu stupni nerovnosti.
 
 Stanleyho analýza je relevantní pro pochopení EA v současných demokratických kontextech: propaganda v 21. století často nepřichází jako otevřená lež, ale jako **strategická exploitace existujících demokratických ideálů**.
@@ -89,19 +89,19 @@ Stanleyho analýza je relevantní pro pochopení EA v současných demokratický
 
 Populismus (definovaný např. Mudde, *Populism: A Very Short Introduction*, 2017) má specifickou epistemickou strukturu:
 
-- **People vs. elite dichotomie** — Strukturní polarizace na "pravý lid" a "korumpovanou elitu". Tato dichotomie je **epistemicky uzavřená**: jakákoli kritika populistického vůdce je interpretována jako manifestace elitistické zaujatosti.
+- **People vs. elite dichotomie** — Strukturní polarizace na „pravý lid“ a „korumpovanou elitu“. Tato dichotomie je **epistemicky uzavřená**: jakákoli kritika populistického vůdce je interpretována jako manifestace elitistické zaujatosti.
 - **Anti-pluralism** — Populismus aspiruje reprezentovat **jedinou pravou vůli lidu**, čímž delegitimizuje pluralistickou demokracii jako fragmentární a kompromisní.
 - **Anti-institucionalismus** — Strukturní nedůvěra k zprostředkujícím institucím (parlament, soudy, akademie, kvalitní žurnalistika), neboť tyto instituce stojí mezi vůdcem a lidem.
 
-Z epistemické perspektivy je populismus **systematickou delegitimizací epistemických autorit**. Tradiční zdroje epistemicky kvalifikované evaluace (vědci, soudci, ekonomové, novináři) jsou označeny jako součást "elity", a jejich evaluace je proto a priori nedůvěryhodná. Tato strukturní [delegitimizace](@/glossary/delegitimizace.md) ponechává prázdný prostor, jenž zaplňuje populistický vůdce sám.
+Z epistemické perspektivy je populismus **systematickou delegitimizací epistemických autorit**. Tradiční zdroje epistemicky kvalifikované evaluace (vědci, soudci, ekonomové, novináři) jsou označeny jako součást „elity“, a jejich evaluace je proto a priori nedůvěryhodná. Tato strukturní [delegitimizace](@/glossary/delegitimizace.md) ponechává prázdný prostor, jenž zaplňuje populistický vůdce sám.
 
 ### Post-pravda
 
-Termín "post-pravda" (Word of the Year 2016, Oxford Dictionaries) označuje stav, v němž **emocionální apel a osobní přesvědčení** převažují nad faktuální evidencí. Klíčové vlastnosti:
+Termín „post-pravda“ (Word of the Year 2016, Oxford Dictionaries) označuje stav, v němž **emocionální apel a osobní přesvědčení** převažují nad faktuální evidencí. Klíčové vlastnosti:
 
-- **Truth-relativismus** — "Moje pravda" jako legitimní epistemická pozice; objektivní pravda jako mocenská konstrukce.
+- **Truth-relativismus** — „Moje pravda“ jako legitimní epistemická pozice; objektivní pravda jako mocenská konstrukce.
 - **Kognitivní strategie** — Cherry-picking, [konfirmační bias](@/glossary/konfirmacni-bias.md), motivated reasoning jsou normalizovány a institucionálně racionalizovány.
-- **Faktická lhostejnost** — "Pravdivost" tvrzení politika přestává být politickým aktivem; ztráta důvěryhodnosti přestává mít politické důsledky.
+- **Faktická lhostejnost** — „Pravdivost“ tvrzení politika přestává být politickým aktivem; ztráta důvěryhodnosti přestává mít politické důsledky.
 - **Bullshit** v sense Frankfurta (*On Bullshit*, 2005) — Tvrzení, jehož mluvčí je **lhostejný** k pravdivosti; není ani lží (která je zaujata pravdou v negativní podobě), ani pravdou.
 
 Post-pravdivá politika strukturně koresponduje s [metakognitivní destrukcí](@/glossary/metakognitivni-destrukce.md) na kolektivní úrovni: kolektiv ztrácí schopnost rozlišovat mezi epistemicky kalibrovanými a nekalibrovanými výpověďmi.
@@ -169,7 +169,7 @@ Politická EA je doménou, kde [dual-use](@/glossary/dual-use-poznani.md) povaha
 - **Defenzivně** — ochrana populace před manipulací cizí mocnosti.
 - **Útočně** — manipulace populace vlastní mocností.
 - **Edukačně** — výchova kritického myšlení.
-- **Represívně** — instrumentalizace "boje proti dezinformacím" k potlačení legitimní opozice.
+- **Represívně** — instrumentalizace „boje proti dezinformacím“ k potlačení legitimní opozice.
 
 Hranice mezi těmito aplikacemi není daná samotnou taxonomií; vyžaduje **explicitní institucionální a etickou nadstavbu**. Kompendium poskytuje analytický rámec; rozhodnutí o jeho aplikaci je nevyhnutelně politickým aktem, jenž vyžaduje demokratickou legitimitu a [hermeneutickou](@/glossary/hermeneutika.md) reflexi historického kontextu.
 
@@ -211,7 +211,6 @@ Hranice mezi těmito aplikacemi není daná samotnou taxonomií; vyžaduje **exp
 - [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Glosář: Color Teams](@/glossary/color-teams.md)
 - [Glosář: Decision Core](@/glossary/decision-core.md)
-
 
 ## ⚡ Kritický krok
 

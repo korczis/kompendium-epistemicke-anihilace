@@ -60,7 +60,7 @@ The concept encompasses **authorial independence** (resistance to consensus-base
 
 ### The Commons Fallacy
 
-Modern software development operates under a fundamental misconception: that intellectual works improve through unrestricted collaborative modification. This "commons fallacy" assumes that:
+Modern software development operates under a fundamental misconception: that intellectual works improve through unrestricted collaborative modification. This “commons fallacy” assumes that:
 
 1. **Collective Intelligence Exceeds Individual Vision** - The assumption that groups produce better outcomes than individuals
 2. **Dilution Enhances Quality** - The belief that merging disparate perspectives always improves the result
@@ -103,6 +103,7 @@ While works may evolve, the direction and nature of that evolution rightfully be
 Intellectual sovereignty is not absolute authoritarianism. It operates within specific boundaries:
 
 **What Sovereignty Includes:**
+
 - Control over modifications and derivatives
 - Authority over official interpretations
 - Right to revoke permissions
@@ -110,6 +111,7 @@ Intellectual sovereignty is not absolute authoritarianism. It operates within sp
 - Determination of acceptable use cases
 
 **What Sovereignty Excludes:**
+
 - Control over legitimate criticism
 - Restriction of fair use or commentary
 - Prohibition of independent competing works
@@ -142,6 +144,7 @@ Users must engage in **[ceremonial computing](https://prismatic-reality-com.gith
 
 #### Authorial Interpretation Authority
 The GHL establishes the author as the final arbiter of:
+
 - What constitutes proper usage
 - Whether a derivative work is authorized
 - How the software should be interpreted
@@ -184,7 +187,7 @@ ghl_configuration:
 Intellectual sovereignty directly challenges several core assumptions of the open source movement:
 
 #### The Collaboration Myth
-**Open Source Assumption**: "Given enough eyeballs, all bugs are shallow" (Linus's Law)
+**Open Source Assumption**: “Given enough eyeballs, all bugs are shallow” (Linus's Law)
 **Sovereignty Response**: Quality emerges from coherent vision, not distributed attention. Multiple perspectives can identify issues, but resolution requires unified authority.
 
 #### The Access Rights Doctrine
@@ -201,6 +204,7 @@ Intellectual sovereignty suggests alternative models for understanding and creat
 
 #### The Preserved Vision Model
 Instead of value through aggregation, value through preservation:
+
 - **Coherent Architecture**: Single vision produces more coherent results than committee design
 - **Consistent Philosophy**: Unified worldview creates deeper intellectual artifacts
 - **Maintained Meaning**: Protected interpretation ensures long-term value retention
@@ -208,6 +212,7 @@ Instead of value through aggregation, value through preservation:
 
 #### The Conscious Consumption Model
 Instead of casual consumption, deliberate engagement:
+
 - **Ceremonial Awareness**: Users become conscious participants rather than passive consumers
 - **Relationship Building**: Software usage becomes a relationship between creator and user
 - **Responsibility Acceptance**: Users acknowledge their role in preserving meaning
@@ -220,18 +225,21 @@ Instead of casual consumption, deliberate engagement:
 Intellectual sovereignty offers creators:
 
 **Creative Protection**
+
 - Maintain control over how work is used and modified
 - Prevent semantic drift and meaning corruption
 - Ensure derivative works align with original vision
 - Protect against commercial exploitation without permission
 
 **Sustainable Development Models**
+
 - Build committed user communities through ceremony
 - Create revenue streams through license grants
 - Maintain quality through controlled evolution
 - Develop long-term relationships rather than anonymous usage
 
 **Philosophical Consistency**
+
 - Embed personal values and worldview in software
 - Resist pressure for changes that compromise vision
 - Maintain intellectual integrity across project lifetime
@@ -242,18 +250,21 @@ Intellectual sovereignty offers creators:
 Organizations benefit from intellectual sovereignty through:
 
 **Clear Boundaries**
+
 - Explicit permissions eliminate legal ambiguity
 - Controlled usage prevents unintended liability
 - Defined relationships reduce compliance risk
 - Protected IP creates competitive advantage
 
 **Quality Assurance**
+
 - Authorial control maintains software quality
 - Ceremonial usage creates committed user base
 - Controlled evolution prevents feature bloat
 - Semantic consistency reduces maintenance costs
 
 **Strategic Partnerships**
+
 - License grants create formal business relationships
 - Ceremonial compliance demonstrates commitment
 - Authorial consultation provides expert guidance
@@ -264,18 +275,21 @@ Organizations benefit from intellectual sovereignty through:
 The broader software ecosystem gains:
 
 **Diversity of Models**
+
 - Alternative to one-size-fits-all open source
 - Recognition of different creative approaches
 - Support for various business models
 - Respect for authorial preferences
 
 **Innovation Through Protection**
+
 - Protected creators can take greater risks
 - Long-term vision becomes more viable
 - Quality focus rather than feature quantity
 - Sustainable development practices
 
 **Conscious Technology Culture**
+
 - More thoughtful relationships with software
 - Recognition of human creators behind technology
 - Ethical consumption of intellectual works
@@ -285,15 +299,15 @@ The broader software ecosystem gains:
 
 ### Common Objections
 
-#### "This Restricts Innovation"
+#### “This Restricts Innovation”
 **Criticism**: Intellectual sovereignty limits innovation by restricting access and modification.
 **Response**: True innovation requires deep understanding and coherent vision, not unrestricted access. Sovereignty protects the conditions that enable genuine innovation rather than superficial modification.
 
-#### "This Creates Information Silos"
+#### “This Creates Information Silos”
 **Criticism**: Sovereignty fragments the software ecosystem and reduces knowledge sharing.
 **Response**: Sovereignty preserves meaning and enables genuine knowledge transfer. Shared access without shared understanding creates the illusion of knowledge transfer while actually degrading information quality.
 
-#### "This is Elitist and Anti-Democratic"
+#### “This is Elitist and Anti-Democratic”
 **Criticism**: Sovereignty privileges creators over users and concentrates power inappropriately.
 **Response**: Creators bear the responsibility and risk of creation. Democratic processes work for governance but not for creative works, where vision and coherence matter more than consensus.
 

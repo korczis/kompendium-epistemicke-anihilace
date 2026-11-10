@@ -51,7 +51,7 @@ Tento scénář ilustruje **A-consciousness bez P-consciousness**.
 
 Pro EA má super-blindsight strukturální význam:
 
-- **Algoritmické "vidění"**: AI systémy strukturálně **mají** A-consciousness (funkční přístup k informacím), **postrádají** P-consciousness.
+- **Algoritmické „vidění“**: AI systémy strukturálně **mají** A-consciousness (funkční přístup k informacím), **postrádají** P-consciousness.
 - **Manipulativní imitace P-consciousness**: marketing AI systémů strukturálně **klame**, že systémy mají subjektivní prožitek.
 
 ## 3. Phenomenal overflow
@@ -114,9 +114,9 @@ Blockova distinkce má politické implications:
 
 ## 9. Primární literatura
 
-- Block, N. (1995). "On a Confusion about a Function of Consciousness". *Behavioral and Brain Sciences* 18.
-- Block, N. (2007). "Consciousness, Accessibility, and the Mesh". *Behavioral and Brain Sciences* 30.
-- Block, N. (2011). "Perceptual Consciousness Overflows Cognitive Access". *Trends in Cognitive Sciences* 15.
+- Block, N. (1995). „On a Confusion about a Function of Consciousness“. *Behavioral and Brain Sciences* 18.
+- Block, N. (2007). „Consciousness, Accessibility, and the Mesh“. *Behavioral and Brain Sciences* 30.
+- Block, N. (2011). „Perceptual Consciousness Overflows Cognitive Access“. *Trends in Cognitive Sciences* 15.
 - Block, N., Flanagan, O. & Güzeldere, G. (eds.) (1997). *The Nature of Consciousness*. MIT Press.
 
 ## Související

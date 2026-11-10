@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 **Solipsistická dekompozice** je ultramarinní technika, jejímž cílem je systematicky **rozkládat vazby** mezi epistemickým systémem subjektu a **vnějšími referenty** — fyzickou realitou, druhými lidmi, společenskými institucemi, vědeckým konsensem, historickou pamětí. Výsledkem je **solipsistické uzavření**, ve kterém subjekt prožívá pouze své vlastní myšlenky jako **reálné** a vše ostatní jako **konstrukce** vlastní mysli, **iluze**, **interpretaci**, **diskurz**.
 
-Termín "dekompozice" (oproti pouhé "izolaci") podtrhuje, že technika nepůsobí pouhým **odříznutím** od vnějšího světa, ale **rozkladem** epistemických vazeb, které normálně vážou subjekta k realitě: percepce, paměť, svědectví druhých, institucionální evidence, vědecký konsensus, kauzální interakce. Každá vazba je systematicky **rozložena** filozofickou nebo terapeutickou rétorikou.
+Termín „dekompozice“ (oproti pouhé „izolaci“) podtrhuje, že technika nepůsobí pouhým **odříznutím** od vnějšího světa, ale **rozkladem** epistemických vazeb, které normálně vážou subjekta k realitě: percepce, paměť, svědectví druhých, institucionální evidence, vědecký konsensus, kauzální interakce. Každá vazba je systematicky **rozložena** filozofickou nebo terapeutickou rétorikou.
 
 Tato technika je **terminálním** stupněm v epistemické singularitě: zatímco [EA-5.1.16 inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) zastavuje pohyb a [EA-5.1.17 tautologická imploze](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md) vyprazdňuje obsah, **solipsistická dekompozice** odřezává subjekta od světa, vůči kterému by mohl něco vyvozovat nebo o čem by mohl něco vědět.
 
@@ -51,38 +51,38 @@ Manipulátor zavádí **klasický epistemologický skepticismus**: Descartův d�
 
 ### Krok 2 — Dekompozice percepce
 
-Manipulátor systematicky redukuje percepci na **subjektivní konstrukci**: "Vše, co vnímáš, je tvůj mozek, ne svět." Subjekt přijímá, že **percept** ≠ **objekt**, a začíná zacházet s každým vjemem jako s **interpretací** spíše než **kontaktem** se světem.
+Manipulátor systematicky redukuje percepci na **subjektivní konstrukci**: „Vše, co vnímáš, je tvůj mozek, ne svět.“ Subjekt přijímá, že **percept** ≠ **objekt**, a začíná zacházet s každým vjemem jako s **interpretací** spíše než **kontaktem** se světem.
 
 ### Krok 3 — Dekompozice svědectví
 
-Druhých lidí: "Nemůžeš si být jist, že druzí mají vědomí jako ty. Jejich slova jsou pouze tvé interpretace zvuků." Subjekt postupně přestává přijímat **svědectví** jako epistemický zdroj. Druhý člověk přestává být **zdrojem** poznání a stává se **objektem** konstruovaným v subjektově mysli.
+Druhých lidí: „Nemůžeš si být jist, že druzí mají vědomí jako ty. Jejich slova jsou pouze tvé interpretace zvuků.“ Subjekt postupně přestává přijímat **svědectví** jako epistemický zdroj. Druhý člověk přestává být **zdrojem** poznání a stává se **objektem** konstruovaným v subjektově mysli.
 
 ### Krok 4 — Dekompozice paměti
 
-"Paměť je rekonstruována, nikoli reprodukována. Proč věřit svým vzpomínkám?" Subjekt přijímá, že paměť je **nedůvěryhodná**, a začíná zacházet s vlastní minulostí jako s **konstrukcí**. Spojení s historickými událostmi se rozpouští.
+„Paměť je rekonstruována, nikoli reprodukována. Proč věřit svým vzpomínkám?“ Subjekt přijímá, že paměť je **nedůvěryhodná**, a začíná zacházet s vlastní minulostí jako s **konstrukcí**. Spojení s historickými událostmi se rozpouští.
 
 ### Krok 5 — Dekompozice institucionální evidence
 
-Vědecký konsensus, právní rozhodnutí, historický záznam jsou prezentovány jako **diskurzivní konstrukce**, **mocenské dispozitivy**, **narativní výrobky**. Subjekt ztrácí epistemickou důvěru v **kolektivní** zdroje poznání. Vše je "pouze interpretace".
+Vědecký konsensus, právní rozhodnutí, historický záznam jsou prezentovány jako **diskurzivní konstrukce**, **mocenské dispozitivy**, **narativní výrobky**. Subjekt ztrácí epistemickou důvěru v **kolektivní** zdroje poznání. Vše je „pouze interpretace“.
 
 ### Krok 6 — Dekompozice kauzální struktury
 
-"Kauzalita není přirozená. Je to způsob, jakým mysl organizuje data." Subjekt přijímá, že kauzální vztahy jsou **subjektivní organizační princip**. Spojení mezi jeho akcí a důsledkem se rozpouští — proč by jeho akce měla mít důsledek ve "světě", který je sám konstrukcí?
+„Kauzalita není přirozená. Je to způsob, jakým mysl organizuje data.“ Subjekt přijímá, že kauzální vztahy jsou **subjektivní organizační princip**. Spojení mezi jeho akcí a důsledkem se rozpouští — proč by jeho akce měla mít důsledek ve „světě“, který je sám konstrukcí?
 
 ### Krok 7 — Konsolidace v solipsistickém klidu
 
-Konečný stav: subjekt **prožívá** pouze své vlastní myšlenky jako reálné. Cítí **klid** z této pozice — nikdo ho nemůže zranit, protože nikdo "skutečně" neexistuje. Zároveň ztrácí **schopnost jednat** smysluplně, protože jednání předpokládá svět, na který se jedná.
+Konečný stav: subjekt **prožívá** pouze své vlastní myšlenky jako reálné. Cítí **klid** z této pozice — nikdo ho nemůže zranit, protože nikdo „skutečně“ neexistuje. Zároveň ztrácí **schopnost jednat** smysluplně, protože jednání předpokládá svět, na který se jedná.
 
 ## Fenomenologické znaky
 
 Co prožívá subjekt **uvnitř** solipsistické dekompozice:
 
-- **Pocit "filozofické hloubky"** — subjekt si myslí, že rozumí podstatě reality
+- **Pocit „filozofické hloubky“** — subjekt si myslí, že rozumí podstatě reality
 - **Emocionální plochost** — události vnějšího světa přestávají vyvolávat reakci
-- **Derealizace** — vnější svět se prožívá jako "ne zcela skutečný", jako "film"
-- **Depersonalizace druhých** — druzí lidé jsou prožíváni jako "postavy", ne jako vědomé bytosti
+- **Derealizace** — vnější svět se prožívá jako „ne zcela skutečný“, jako „film“
+- **Depersonalizace druhých** — druzí lidé jsou prožíváni jako „postavy“, ne jako vědomé bytosti
 - **Ztráta epistemické pokory vůči vnějším zdrojům** — subjekt přestává konzultovat experty, knihy, instituce
-- **Falešná autonomie** — pocit "konečně samostatného myšlení" maskuje izolaci
+- **Falešná autonomie** — pocit „konečně samostatného myšlení“ maskuje izolaci
 - **Vyhasínání agencie** — schopnost jednat ve světě se snižuje
 - **Existenciální chlad** — vztahy s druhými ztrácejí význam
 
@@ -153,7 +153,7 @@ Studuj **§§243-315 Filozofických zkoumání** o privátním jazyce: solipsism
 
 #### 7. Moorovský důkaz
 
-G. E. Moore: *"Zde je ruka. Zde je druhá ruka. Tedy existují vnější objekty."* Argument vyhrává **certitudou premis** nad **certitudou skeptických závěrů**: víme s **vyšší jistotou**, že máme ruce, než **jakákoli filozofická teze** o tom, že je nemáme.
+G. E. Moore: *„Zde je ruka. Zde je druhá ruka. Tedy existují vnější objekty.“* Argument vyhrává **certitudou premis** nad **certitudou skeptických závěrů**: víme s **vyšší jistotou**, že máme ruce, než **jakákoli filozofická teze** o tom, že je nemáme.
 
 ### Institucionální
 
@@ -169,15 +169,15 @@ G. E. Moore: *"Zde je ruka. Zde je druhá ruka. Tedy existují vnější objekty
 
 ### Případ 1 — PhD ve filozofii vědomí
 
-Doktorand 5 let pracoval na disertaci o "iluzornosti vnějšího světa". Postupně se izoloval, přestal se stýkat s rodinou, derealizace se projevila po 4 letech. Klinická intervence: psychiatrické vyšetření, antidepresivum + psychoterapie + návrat k těleseně-zakořeněné praxi (lezení). Dokončení disertace bylo **přepsáno** do akademické formy bez prožitkové investice.
+Doktorand 5 let pracoval na disertaci o „iluzornosti vnějšího světa“. Postupně se izoloval, přestal se stýkat s rodinou, derealizace se projevila po 4 letech. Klinická intervence: psychiatrické vyšetření, antidepresivum + psychoterapie + návrat k těleseně-zakořeněné praxi (lezení). Dokončení disertace bylo **přepsáno** do akademické formy bez prožitkové investice.
 
 ### Případ 2 — Online radikalizace
 
-35letý muž v konspiračních fórech postupně přijal pozici, že "vše mimo komunitu je psyop". Přestal důvěřovat lékařům, odmítl léčbu somatické nemoci, zhoršení stavu. Intervence: rodinná intervence, fyzická hospitalizace, postupné obnovení důvěry v institucionální medicínu skrze konkrétní lékaře, kteří **prokázali** kompetenci.
+35letý muž v konspiračních fórech postupně přijal pozici, že „vše mimo komunitu je psyop“. Přestal důvěřovat lékařům, odmítl léčbu somatické nemoci, zhoršení stavu. Intervence: rodinná intervence, fyzická hospitalizace, postupné obnovení důvěry v institucionální medicínu skrze konkrétní lékaře, kteří **prokázali** kompetenci.
 
 ### Případ 3 — Komerční spirituální kruh
 
-40letá žena v guruistickém kruhu postupně přijala, že "rodina je iluze, vědomí je vše". Opustila děti. Po dvou letech prožila psychotickou epizodu. Klinická léčba + soudní spor o péči vedl k postupné re-integraci. Solipsistická dekompozice byla rozpoznána jako **manipulačně indukovaný** klinický stav.
+40letá žena v guruistickém kruhu postupně přijala, že „rodina je iluze, vědomí je vše“. Opustila děti. Po dvou letech prožila psychotickou epizodu. Klinická léčba + soudní spor o péči vedl k postupné re-integraci. Solipsistická dekompozice byla rozpoznána jako **manipulačně indukovaný** klinický stav.
 
 ## Vztah k jiným technikám
 
@@ -186,13 +186,13 @@ Doktorand 5 let pracoval na disertaci o "iluzornosti vnějšího světa". Postup
 - **[EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md)** — neschopnost vyvozovat o vnějším světě umožňuje jeho dekompozici
 - **[EA-5.1.17 Tautologická imploze](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md)** — vyprázdněný slovník nepomáhá kotvit ve světě
 - **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — filtrace zdrojů schopných solipsismus rozbít
-- **EA-1.6.1 Vzorec "Guru a adept"** — guru produkuje solipsistické uzavření jako kontrolní mechanismus
+- **EA-1.6.1 Vzorec „Guru a adept“** — guru produkuje solipsistické uzavření jako kontrolní mechanismus
 
 ### Eskaluje do
 
 - **Klinická derealizace / depersonalizace** — psychiatrický syndrom
 - **Schizoidní stažení** — totální sociální izolace
-- **Sebevražedná dispozice** — pokud "svět není reálný", smrt je "jen konec iluze"
+- **Sebevražedná dispozice** — pokud „svět není reálný“, smrt je „jen konec iluze“
 
 ### Alternativy / podobné, ale **distinktivní**
 
@@ -237,7 +237,6 @@ Solipsistická dekompozice je strukturálním motivem pro nejvyšší obrannou l
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

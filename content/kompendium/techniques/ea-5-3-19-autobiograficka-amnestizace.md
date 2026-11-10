@@ -123,7 +123,6 @@ Technika **autobiografická amnestizace** představuje strukturální výzvu pro
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Ricoeurova **mémoire de soi** (*La mémoire, l'histoire, l'oubli*) — paměť na sebe — je systematicky umlčována. Husserlovy **dlouhodobé retence** ztrácejí přístup. Damasiův **autobiografický self** je deprimován pod prahový práh integrace. Bergsonova **mémoire pure** se stává nedostupnou. Levinasova **anamnesis** druhého (vzpomínka jako etický vztah k minulosti) je narušena. Heideggerovo **Gewesenheit** (bývalost jako struktura temporalitní existence) ztrácí přístupnost — subjekt 'už nebyl tím, kým bývalý'. Foucault: paměť jako pole **bojů** a **moci** — manipulátor instaluje cenzurní vrstvu. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

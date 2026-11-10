@@ -39,13 +39,13 @@ parent_chapter = "/kompendium/05-pokrocile-techniky/kapitola-6/"
 
 Klíčový rys techniky je **fenomenologická nerozlišitelnost** od autentické mystické zkušenosti. Mystické tradice samy o sobě **nejsou** epistemickou anihilací — sofistikované tradice (zen, vipassana, křesťanská mystika) obsahují propracované **diagnostické rámce** pro rozlišení autentického vhledu od *makyō* (zen), *zwischenstadium* (Eckhart) nebo psychospirituální iluze. **Kvazi-mystická anihilace** záměrně tyto diagnostické rámce **odstraňuje** a ponechává pouze fenomenologickou skořápku.
 
-Technika je strukturálním vrcholem [EA-5.1 epistemické singularity](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), protože subjekt v jejím závěrečném stadiu **nemůže být přesvědčen externí evidencí** — interpretuje ji jako důkaz vlastní transcendence ("oni tomu nerozumí, jsou stále v dualitě").
+Technika je strukturálním vrcholem [EA-5.1 epistemické singularity](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), protože subjekt v jejím závěrečném stadiu **nemůže být přesvědčen externí evidencí** — interpretuje ji jako důkaz vlastní transcendence („oni tomu nerozumí, jsou stále v dualitě“).
 
 ## Operační modus
 
 ### Krok 1 — Etablování spirituálně-autoritativního rámce
 
-Manipulátor (učitel, guru, "transformační" coach, online sangha) se etabluje jako **zprostředkovatel transcendentního poznání**. Klíčová slova: *probuzení*, *transformace*, *vyšší vědomí*, *dimenzionální posun*, *kvantová transcendence*. Slovník je deliberativně **odolný vůči falsifikaci** — kdokoli zpochybní rámec, je interpretován jako "stále spící".
+Manipulátor (učitel, guru, „transformační“ coach, online sangha) se etabluje jako **zprostředkovatel transcendentního poznání**. Klíčová slova: *probuzení*, *transformace*, *vyšší vědomí*, *dimenzionální posun*, *kvantová transcendence*. Slovník je deliberativně **odolný vůči falsifikaci** — kdokoli zpochybní rámec, je interpretován jako „stále spící“.
 
 ### Krok 2 — Indukce alterovaného stavu
 
@@ -53,33 +53,33 @@ Pomocí dechových technik, deprivace spánku, repetitivního zpěvu, postních 
 
 ### Krok 3 — Pre-instalace interpretačního templátu
 
-**Před** indukcí stavu je subjektovi předložen **interpretační templát**: "až prožiješ X, pochopíš, že realita je Y, že já jsem Z, že naše komunita je W". Když stav nastane, subjekt **automaticky aplikuje předinstalovaný templát** — protože alterovaný stav inhibuje tvorbu nezávislých interpretací. Vědecká paralela: **set and setting** (Leary, Metzner) prokázaně determinují fenomenologický obsah psychedelické zkušenosti.
+**Před** indukcí stavu je subjektovi předložen **interpretační templát**: „až prožiješ X, pochopíš, že realita je Y, že já jsem Z, že naše komunita je W“. Když stav nastane, subjekt **automaticky aplikuje předinstalovaný templát** — protože alterovaný stav inhibuje tvorbu nezávislých interpretací. Vědecká paralela: **set and setting** (Leary, Metzner) prokázaně determinují fenomenologický obsah psychedelické zkušenosti.
 
 ### Krok 4 — Anihilace diferenciace
 
 V samotném vrcholném prožitku je systematicky **rozpouštěna diferenciace**:
 
-- mezi subjektem a manipulátorem ("jsme jedno")
-- mezi vlastní myšlenkou a "vyšším zdrojem" ("já jen kanalizuji")
-- mezi pravdou a chybou ("v jednotě není dualita")
-- mezi falsifikací a potvrzením ("oboje je pravda na jiné úrovni")
-- mezi pozorovatelem a pozorovaným ("rozpustil jsem ego")
+- mezi subjektem a manipulátorem („jsme jedno“)
+- mezi vlastní myšlenkou a „vyšším zdrojem“ („já jen kanalizuji“)
+- mezi pravdou a chybou („v jednotě není dualita“)
+- mezi falsifikací a potvrzením („oboje je pravda na jiné úrovni“)
+- mezi pozorovatelem a pozorovaným („rozpustil jsem ego“)
 
 ### Krok 5 — Konsolidace skrze nepřenositelnost
 
-Po návratu ze stavu je instalován **nepřenositelnostní** rámec: *"Co jsem zažil, nelze vyjádřit slovy. Kdo to nezažil, nemůže pochopit."* Tento rámec je **strukturálně imunizační** — eliminuje každou externí kritiku jako *kategorickou chybu* (kritik nemá oprávnění mluvit). Subjekt nyní operuje v režimu, v němž **racionální argumentace je sama symptomem nepochopení**.
+Po návratu ze stavu je instalován **nepřenositelnostní** rámec: *„Co jsem zažil, nelze vyjádřit slovy. Kdo to nezažil, nemůže pochopit.“* Tento rámec je **strukturálně imunizační** — eliminuje každou externí kritiku jako *kategorickou chybu* (kritik nemá oprávnění mluvit). Subjekt nyní operuje v režimu, v němž **racionální argumentace je sama symptomem nepochopení**.
 
 ## Fenomenologické znaky
 
 Co prožívá subjekt **uvnitř** kvazi-mystické anihilace:
 
 - **Jednota** s manipulátorem nebo komunitou prožívaná jako kosmická pravda
-- **Transcendence racionality** — pocit, že racionální myšlení je "nižší modus" překonaný
+- **Transcendence racionality** — pocit, že racionální myšlení je „nižší modus“ překonaný
 - **Bezprostřední vhled** — pravda je *zřejmá*, nemusí být argumentována
 - **Synchronicity** — náhodné události jsou interpretovány jako kosmická potvrzení
-- **Imunita vůči pochybnostem** — pochybnost sama je symptom "ega"
+- **Imunita vůči pochybnostem** — pochybnost sama je symptom „ega“
 - **Nepřenositelnost** — pocit, že běžný jazyk je nedostatečný
-- **Privilegovanost** — pocit, že subjekt je součástí menšiny "probuzených"
+- **Privilegovanost** — pocit, že subjekt je součástí menšiny „probuzených“
 - **Misie** — pocit povinnosti přivést ostatní k stejné zkušenosti
 
 ## Detekční markery (pohled pozorovatele)
@@ -100,7 +100,7 @@ Kvazi-mystická anihilace je odlišitelná od **autentické spirituální praxe*
 
 - **Autentická tradice** explicitně uznává možnost klamu (*makyō*, falešné světlo, ego-inflace) a poskytuje **diagnostické nástroje** pro jeho rozlišení.
 - **Autentický učitel** vystavuje vlastní nároky externí kritice a uznává limity vlastního poznání.
-- **Manipulativní rámec** veškerou kritiku **interpretuje jako symptom** a všechny vnitřní pochybnosti jako "test".
+- **Manipulativní rámec** veškerou kritiku **interpretuje jako symptom** a všechny vnitřní pochybnosti jako „test“.
 
 Hraniční případ: **dobře míněný učitel** s autentickou zkušeností může kvazi-mystickou anihilaci provádět **neintencionálně**, pokud postrádá diagnostické rámce vlastní tradice.
 
@@ -125,7 +125,7 @@ Studuj **propracované** mystické tradice (zen, advaita, křesťanská apophati
 
 #### 2. **Test falsifikovatelnosti**
 
-Po každé "transformační" zkušenosti se ptej: *Existuje pozorování, které by mohlo prokázat, že interpretace mé zkušenosti je chybná?* Pokud odpověď je "ne", **rámec je strukturálně manipulativní** bez ohledu na obsah.
+Po každé „transformační“ zkušenosti se ptej: *Existuje pozorování, které by mohlo prokázat, že interpretace mé zkušenosti je chybná?* Pokud odpověď je „ne“, **rámec je strukturálně manipulativní** bez ohledu na obsah.
 
 #### 3. **Externí epistemická triangulace**
 
@@ -148,28 +148,28 @@ Po intenzivní zkušenosti vyčkej **alespoň 3 měsíce** před přijetím záv
 
 ### Případ 1 — Transformační seminář
 
-Účastník 7-denního "probuzení" prošel kombinací dechových technik a skupinových rituálů. Po návratu opustil zaměstnání, vyplatil úspory na další semináře a přerušil kontakt s rodinou. Diagnóza: kvazi-mystická anihilace s plnou konsolidací.
+Účastník 7-denního „probuzení“ prošel kombinací dechových technik a skupinových rituálů. Po návratu opustil zaměstnání, vyplatil úspory na další semináře a přerušil kontakt s rodinou. Diagnóza: kvazi-mystická anihilace s plnou konsolidací.
 
 ### Případ 2 — Online sangha
 
-Členové uzavřené online komunity sdíleli stále stejný slovník a interpretovali nesouhlas jako "nízkou vibraci". Externí intervence rodiny byla interpretována jako "strach z probuzení". Zlomem bylo, když jeden z členů zaznamenal **finanční toky** do soukromého účtu vůdce.
+Členové uzavřené online komunity sdíleli stále stejný slovník a interpretovali nesouhlas jako „nízkou vibraci“. Externí intervence rodiny byla interpretována jako „strach z probuzení“. Zlomem bylo, když jeden z členů zaznamenal **finanční toky** do soukromého účtu vůdce.
 
 ### Případ 3 — Psychedelický coaching
 
-Klient absolvoval sérii ayahuasca seancí s "shamanem" bez klinické supervize. Po sérii vyvinul přesvědčení, že je "vybraný" pro misi. Klinické vyšetření odhalilo **psychospirituální krizi** zaměnitelnou s prodromálními příznaky psychotického spektra.
+Klient absolvoval sérii ayahuasca seancí s „shamanem“ bez klinické supervize. Po sérii vyvinul přesvědčení, že je „vybraný“ pro misi. Klinické vyšetření odhalilo **psychospirituální krizi** zaměnitelnou s prodromálními příznaky psychotického spektra.
 
 ## Vztah k jiným technikám
 
 ### Sesterská UM (úroveň 5)
 
-- **[EA-5.1.20 Holografická redukce](@/kompendium/techniques/ea-5-1-20-holograficka-redukce.md)** — kvazi-mystická anihilace často využívá holografickou redukci jako svůj **interpretační templát** ("vše je v jednom").
-- **[EA-5.1.21 Sebe-referenční paradox](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md)** — kvazi-mystický rámec systematicky využívá paradoxů ("forma je prázdnota") k inhibici racionální analýzy.
+- **[EA-5.1.20 Holografická redukce](@/kompendium/techniques/ea-5-1-20-holograficka-redukce.md)** — kvazi-mystická anihilace často využívá holografickou redukci jako svůj **interpretační templát** („vše je v jednom“).
+- **[EA-5.1.21 Sebe-referenční paradox](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md)** — kvazi-mystický rámec systematicky využívá paradoxů („forma je prázdnota“) k inhibici racionální analýzy.
 
 ### Vztah k základním (EA-1.X.Y) technikám
 
 - **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — emocionální stav je nutným prerekvizitem.
 - **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — strukturální jádro nepřenositelnostního rámce.
-- **[EA-1.6.1 Vzorec "Guru a adept"](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)** — typická sociální architektura.
+- **[EA-1.6.1 Vzorec „Guru a adept“](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)** — typická sociální architektura.
 
 ### Eskaluje do
 
@@ -199,7 +199,6 @@ Klient absolvoval sérii ayahuasca seancí s "shamanem" bez klinické supervize.
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

@@ -17,7 +17,7 @@ toc = true
 
 > **Bucket:** Operativní · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
 
-EA aktéři využívají "informální" kanály k obejití formálních záznamů — politika musí kanonizovat audit trail.
+EA aktéři využívají „informální“ kanály k obejití formálních záznamů — politika musí kanonizovat audit trail.
 
 ## 1. Organizační kontext
 
@@ -58,10 +58,10 @@ v navazujících sekcích kompendia.
 
 Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
 
-- Klíčová rozhodnutí v telefonátech, mizející Signal zprávy, "to jsme řešili na obědě".
+- Klíčová rozhodnutí v telefonátech, mizející Signal zprávy, „to jsme řešili na obědě“.
 - Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
 - Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v "černé díře" bez odpovědi v rozumné lhůtě
+- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
 - Externí auditoři dostávají omezený přístup k datům nebo lidem
 
 Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
@@ -100,4 +100,3 @@ Email/ticket-based decisions, retention policy, mandatory CC pro key stakeholder
 - **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
-

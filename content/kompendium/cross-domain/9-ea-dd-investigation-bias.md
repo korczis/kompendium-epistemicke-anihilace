@@ -48,7 +48,7 @@ Tyto metody jsou implementovány v Prismatic Platform jako kombinace determinist
 
 - Pre-mortem workshop (předpokládejme deal selhal — proč?)
 - Falsification-required findings (každá teze musí mít attempted refutation)
-- Bias-checklist na review (12 standard biases — confirmation, anchoring, sunk-cost...)
+- Bias-checklist na review (12 standard biases — confirmation, anchoring, sunk-cost…)
 - Independent shadow-DD (parallel team without access to primary findings)
 
 Obranné mechanismy nejsou jen reaktivní — proaktivně **změny architekturu rozhodování** tak, aby manipulace byla detekovatelná **před** tím, než ovlivní akci. Cílem není blokovat všechny manipulace (nemožné), ale **redukovat blast radius** úspěšné manipulace pod akceptovatelný práh.
@@ -62,7 +62,6 @@ DD target acquired despite 14 red flags — pre-mortem analýza ex-post ukázala
 ### Scénář 2
 
 Reverse DD: tým instruován prokázat 'deal je špatný' — found 7 issues missed by original DD
-
 
 Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
 
@@ -78,7 +77,6 @@ Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, kte
 - [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
 - [Case studies](@/kompendium/case-studies/_index.md)
 - [Quick reference](@/kompendium/quick-reference/_index.md)
-
 
 ## Connect
 

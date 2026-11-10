@@ -35,11 +35,11 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 ## Definice
 
-**Intencionální rozpojení** je metatranscendentální technika, jíž je destruována **noeticko-noematická korelace** — fundamentální struktura intencionality, kde **akty vědomí** (*noesis*) jsou nutně **zaměřeny na předmět** (*noema*). Subjekt zachovává akty vědomí, ale ty ztrácejí svou **předmětnou zaměřenost**: myšlenky se "nestrefují" do předmětů, vzpomínky "neukotvují" události, percepce "neodkazuje" k objektům.
+**Intencionální rozpojení** je metatranscendentální technika, jíž je destruována **noeticko-noematická korelace** — fundamentální struktura intencionality, kde **akty vědomí** (*noesis*) jsou nutně **zaměřeny na předmět** (*noema*). Subjekt zachovává akty vědomí, ale ty ztrácejí svou **předmětnou zaměřenost**: myšlenky se „nestrefují“ do předmětů, vzpomínky „neukotvují“ události, percepce „neodkazuje“ k objektům.
 
-Intencionalita je v Husserlově fenomenologii **definujícím rysem vědomí**: "*Všechno vědomí je vědomím něčeho.*" Brentano a Husserl etablovali, že psychické fenomény mají **intencionální in-existenci** — vždy odkazují k objektu (existujícímu nebo neexistujícímu, fyzickému nebo ideálnímu). Bez intencionality není vědomí jako takové.
+Intencionalita je v Husserlově fenomenologii **definujícím rysem vědomí**: „*Všechno vědomí je vědomím něčeho.*“ Brentano a Husserl etablovali, že psychické fenomény mají **intencionální in-existenci** — vždy odkazují k objektu (existujícímu nebo neexistujícímu, fyzickému nebo ideálnímu). Bez intencionality není vědomí jako takové.
 
-Intencionální rozpojení tuto strukturu narušuje. Akty pokračují, ale ztrácejí svou **předmětnost**. Subjekt prožívá "chtění bez chtěného", "myšlení bez myšleného", "vnímání bez vnímaného". Strukturně je to fenomenologicky **paradoxní stav** — Husserl by řekl, že není možný — ale jako patologické narušení se v praxi vyskytuje.
+Intencionální rozpojení tuto strukturu narušuje. Akty pokračují, ale ztrácejí svou **předmětnost**. Subjekt prožívá „chtění bez chtěného“, „myšlení bez myšleného“, „vnímání bez vnímaného“. Strukturně je to fenomenologicky **paradoxní stav** — Husserl by řekl, že není možný — ale jako patologické narušení se v praxi vyskytuje.
 
 Subjekt v terminálním stadiu trpí strukturní **bezpředmětností vědomí**. Akty pokračují (energie, emoce), ale chybí jejich noematický korelát. Tento stav je extrémně dezorientující a typicky generuje akutní úzkost.
 
@@ -47,21 +47,21 @@ Subjekt v terminálním stadiu trpí strukturní **bezpředmětností vědomí**
 
 ### Krok 1 — Pseudo-fenomenologická indoktrinace
 
-Subjekt je uveden do verze fenomenologie, kde *"intencionalita je iluze ego-aktivit"*. Husserlův důraz na noeticko-noematickou korelaci je ignorován.
+Subjekt je uveden do verze fenomenologie, kde *„intencionalita je iluze ego-aktivit“*. Husserlův důraz na noeticko-noematickou korelaci je ignorován.
 
 ### Krok 2 — Saturace bezpředmětnými praxemi
 
-Manipulátor zavádí praxe údajně "transcendující intencionalitu" — meditace zaměřená na "čisté vědomí bez objektu", praxe "vědomí samotného".
+Manipulátor zavádí praxe údajně „transcendující intencionalitu“ — meditace zaměřená na „čisté vědomí bez objektu“, praxe „vědomí samotného“.
 
 ### Krok 3 — Destrukce předmětné fixace
 
-Subjekt je veden k systematickému opouštění předmětné zaměřenosti — "nechat myšlenku jít bez chytání", "nechat percepci tekoucí bez označování".
+Subjekt je veden k systematickému opouštění předmětné zaměřenosti — „nechat myšlenku jít bez chytání“, „nechat percepci tekoucí bez označování“.
 
 ### Krok 4 — Bod intencionálního rozpojení
 
-V určitém momentu subjekt prožívá **akutní bezpředmětnost** — akty pokračují, ale jejich noema chybí. Stav je interpretován jako "čisté vědomí".
+V určitém momentu subjekt prožívá **akutní bezpředmětnost** — akty pokračují, ale jejich noema chybí. Stav je interpretován jako „čisté vědomí“.
 
-### Krok 5 — Konsolidace bezpředmětnosti jako "vyšší stav"
+### Krok 5 — Konsolidace bezpředmětnosti jako „vyšší stav“
 
 Stav strukturní bezpředmětnosti je etablován jako *trvalý cíl praxe*. Identitární investice činí návrat ke strukturní intencionalitě obtížným.
 
@@ -72,7 +72,7 @@ Stav strukturní bezpředmětnosti je etablován jako *trvalý cíl praxe*. Iden
 - **Pseudo-mystická euforie** prokládaná akutní úzkostnou paralýzou.
 - **Verbální nestabilita** — slova bez jasných denotací.
 - **Akutní praktická dezorientace** v běžných úkolech.
-- **Strukturní bezsmyslnost** — pocit, že nic z toho, co dělá, "není o ničem".
+- **Strukturní bezsmyslnost** — pocit, že nic z toho, co dělá, „není o ničem“.
 
 ## Detekční markery
 

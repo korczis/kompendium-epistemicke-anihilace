@@ -134,19 +134,23 @@ s reálnými daty platí pravidla ochrany osobních údajů a minimalizace.
 ## Související
 
 **Navazující scénáře**
+
 - [Injekce narativu](@/kompendium/educational-scenarios/15-narrative-injection.md) – obsahová stopa téhož jevu.
 - [Rozpoznání mediální smečky](@/kompendium/educational-scenarios/14-media-mob-recognition.md) – přenos do tradičních médií.
 - [Emergentní vzorec](@/kompendium/educational-scenarios/29-emergent-pattern.md) – agregace jako metoda.
 
 **Techniky**
+
 - [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md) – koordinovaná amplifikace.
 - [EA-9.4.5 Troll Farm](@/kompendium/techniques/ea-9-4-5-troll-farm-EA.md) – lidmi ovládané sítě.
 
 **Detekční signatury**
+
 - [Bot coordination](@/kompendium/detection-signatures/20-network-bot-coordination.md) – kritéria a validace.
 - [Platformní koordinace](@/kompendium/detection-signatures/21-network-platform-coordination.md) – koordinace napříč platformami.
 
 **Glosář a metodologie**
+
 - [OSINT](@/glossary/osint.md) – rámec otevřených zdrojů.
 - [Časové řady v EA monitoringu](@/kompendium/research-methodology/time-series-EA.md) – metodický základ časové analýzy.
 

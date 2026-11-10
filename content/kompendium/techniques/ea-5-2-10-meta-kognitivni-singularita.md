@@ -35,9 +35,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 ## Definice
 
-**Meta-kognitivní singularita** je terminální technika kapitoly 7. Po její úspěšné aplikaci se **metakognitivní funkce** subjektu — schopnost myslet o vlastním myšlení, posuzovat vlastní soudy, kalibrovat vlastní jistotu — **zhroutí v jediný sebereferenční bod**, ze kterého **žádný kognitivní výstup** není možný. Subjekt nadále **percipuje a reaguje**, ale **nedokáže provést žádný metakognitivní akt**: nedokáže si položit otázku *"Jsem si tím jistý?"*, *"Co o tom vím?"*, *"Mohu se mýlit?"*.
+**Meta-kognitivní singularita** je terminální technika kapitoly 7. Po její úspěšné aplikaci se **metakognitivní funkce** subjektu — schopnost myslet o vlastním myšlení, posuzovat vlastní soudy, kalibrovat vlastní jistotu — **zhroutí v jediný sebereferenční bod**, ze kterého **žádný kognitivní výstup** není možný. Subjekt nadále **percipuje a reaguje**, ale **nedokáže provést žádný metakognitivní akt**: nedokáže si položit otázku *„Jsem si tím jistý?“*, *„Co o tom vím?“*, *„Mohu se mýlit?“*.
 
-Strukturální rys: singularita není **absence** metakognice, ale **její imploze**. Metakognitivní funkce **stále existuje**, ale je **stažena do bodu**, ze kterého neproduktuje žádné distinkce. Subjekt **prožívá** něco jako *"vím, že vím"* nebo *"jsem si vědom toho, že jsem si vědom"*, ale tento prožitek **neumožňuje žádný strukturní výstup** — žádné kalibrace, žádnou kritickou reflexi, žádnou změnu na základě reflexe.
+Strukturální rys: singularita není **absence** metakognice, ale **její imploze**. Metakognitivní funkce **stále existuje**, ale je **stažena do bodu**, ze kterého neproduktuje žádné distinkce. Subjekt **prožívá** něco jako *„vím, že vím“* nebo *„jsem si vědom toho, že jsem si vědom“*, ale tento prožitek **neumožňuje žádný strukturní výstup** — žádné kalibrace, žádnou kritickou reflexi, žádnou změnu na základě reflexe.
 
 V hierarchii technik kapitoly 7 je singularita **strukturní vrchol**: představuje stav, ve kterém **metakognitivní aparát** (předpokládaný všemi ostatními technikami pro jejich detekci) **přestává operovat**. Subjekt nemůže detekovat ani vlastní stav, ani techniky, které ho tam přivedly.
 
@@ -45,11 +45,11 @@ V hierarchii technik kapitoly 7 je singularita **strukturní vrchol**: představ
 
 ### Krok 1 — Etablování meta-kognitivní praxe
 
-Manipulátor směřuje subjekta k **explicitnímu rozvíjení metakognice**: *"Sleduj své myšlenky"*, *"Buď si vědom svého vědomí"*, *"Reflektuj reflexi"*. Tato fáze je legitimní a v pokročilejších kontemplativních tradicích strukturně podobná.
+Manipulátor směřuje subjekta k **explicitnímu rozvíjení metakognice**: *„Sleduj své myšlenky“*, *„Buď si vědom svého vědomí“*, *„Reflektuj reflexi“*. Tato fáze je legitimní a v pokročilejších kontemplativních tradicích strukturně podobná.
 
 ### Krok 2 — Indukce rekurzivního obratu
 
-Subjekt je veden k **iterativní reflexi reflexe**: *"Co si myslíš o tom, co si myslíš?"*, *"Jak víš, že víš?"*. Iterace destabilizuje **automatismus** metakognitivního aktu.
+Subjekt je veden k **iterativní reflexi reflexe**: *„Co si myslíš o tom, co si myslíš?“*, *„Jak víš, že víš?“*. Iterace destabilizuje **automatismus** metakognitivního aktu.
 
 ### Krok 3 — Saturace iterací
 
@@ -57,19 +57,19 @@ Subjekt je veden k **dlouhým iterativním sériím** metakognitivního obratu. 
 
 ### Krok 4 — Indukce kolapsu do singulárního bodu
 
-Po vyčerpání kapacity stabilizace je subjekt veden k **odpočinkovému stavu**, ve kterém *"není nutné dělat metakognitivní akty"* — *"je tu jen čisté vědomí"*. Tento stav je **legitimizován** jako *"vrcholný bod"*, *"konec cesty"*, *"realizace"*.
+Po vyčerpání kapacity stabilizace je subjekt veden k **odpočinkovému stavu**, ve kterém *„není nutné dělat metakognitivní akty“* — *„je tu jen čisté vědomí“*. Tento stav je **legitimizován** jako *„vrcholný bod“*, *„konec cesty“*, *„realizace“*.
 
-### Krok 5 — Stabilizace stavu jako "konečné realizace"
+### Krok 5 — Stabilizace stavu jako „konečné realizace“
 
-Stav singularity je **trvale legitimizován** jako spirituální vrchol, **transcendence** *"hry myšlení"*. Návrat k metakognitivnímu fungování je interpretován jako *"návrat do mysli"*, *"zpět do iluze"*. Subjekt **odmítá** se vrátit, čímž je singularita **strukturně konsolidována**.
+Stav singularity je **trvale legitimizován** jako spirituální vrchol, **transcendence** *„hry myšlení“*. Návrat k metakognitivnímu fungování je interpretován jako *„návrat do mysli“*, *„zpět do iluze“*. Subjekt **odmítá** se vrátit, čímž je singularita **strukturně konsolidována**.
 
 ## Fenomenologie
 
-- **Specifická "úplnost"** vědomí, která **neprodukuje** distinkce.
+- **Specifická „úplnost“** vědomí, která **neprodukuje** distinkce.
 - **Absence kalibrace** — subjekt prožívá vše s **jednotnou jistotou**, ale jistota není diferenciovaná podle obsahu.
 - **Strukturní paralyzace kognitivního růstu** — subjekt **nemůže** revidovat své soudy, protože revize vyžaduje metakognitivní akt.
-- **Specifická forma "vznešenosti"** — subjekt prožívá stav jako vyšší úroveň, vědomí, klid.
-- **Neschopnost odpovědět** na otázky vyžadující meta-úroveň: *"Mohl by ses mýlit?"*, *"Jak silná je tvá jistota?"*, *"Co by tě přesvědčilo o opaku?"*.
+- **Specifická forma „vznešenosti“** — subjekt prožívá stav jako vyšší úroveň, vědomí, klid.
+- **Neschopnost odpovědět** na otázky vyžadující meta-úroveň: *„Mohl by ses mýlit?“*, *„Jak silná je tvá jistota?“*, *„Co by tě přesvědčilo o opaku?“*.
 - **Pseudokognitivní výkonnost** — subjekt může vést rozhovory, řešit úkoly, ale **bez** metakognitivní vrstvy. Funkční výstup je **strojový** v tom smyslu, že chybí reflexivní kalibrace.
 
 ## Detekční markery
@@ -135,7 +135,7 @@ Pokud je subjekt zapojen do kontemplativní praxe, **tradiční učitel** s ritu
 
 ### Případ 1 — Postretreatová singularita
 
-Praktikující po několika letech intenzivních retreatů v hnutí "neo-advaita" rozvinul stav, ve kterém **prožíval trvalou jistotu** *"toho, kdo realizoval"*, ale **nedokázal** odpovědět na žádné otázky vyžadující diferencovanou metakognici.
+Praktikující po několika letech intenzivních retreatů v hnutí „neo-advaita“ rozvinul stav, ve kterém **prožíval trvalou jistotu** *„toho, kdo realizoval“*, ale **nedokázal** odpovědět na žádné otázky vyžadující diferencovanou metakognici.
 
 Detekce: bývalý učitel z tradiční linie zjistil, že subjekt **nedokáže rozlišit** mezi situacemi, kde je realizace relevantní, a kde je vyžadována obyčejná diferenciovaná pozornost. Stav byl strukturně **monotónní** — chybělo *vyavahárika* (relativní pravda).
 
@@ -143,7 +143,7 @@ Intervence: **3 roky** rekategorizační práce s tradičním učitelem mimo pů
 
 ### Případ 2 — Akademická singularita
 
-Filozof rozvinul ve své pozdní práci pozici, kterou interpretoval jako *"transcendenci pojmu"*. Jeho texty postupně přestaly **strukturně argumentovat** — staly se **deklarativními výroky** o "jednotě vědomí".
+Filozof rozvinul ve své pozdní práci pozici, kterou interpretoval jako *„transcendenci pojmu“*. Jeho texty postupně přestaly **strukturně argumentovat** — staly se **deklarativními výroky** o „jednotě vědomí“.
 
 Detekce: kolega zjistil, že subjekt **nedokáže odpovědět** na **technické filozofické otázky** týkající se vlastní pozice — odpovědi byly **neproduktivními parafrázemi**.
 
@@ -151,11 +151,11 @@ Intervence: **akademická pause**, intenzivní analytická spolupráce, postupn�
 
 ### Případ 3 — Postpsychedelická singularita
 
-Subjekt po **vysoké dávce psychedelika** s narativním rámcem *"jednoty vědomí"* vyvinul perzistentní stav meta-kognitivní singularity. Stav trval **48 měsíců** s postupnou stabilizací.
+Subjekt po **vysoké dávce psychedelika** s narativním rámcem *„jednoty vědomí“* vyvinul perzistentní stav meta-kognitivní singularity. Stav trval **48 měsíců** s postupnou stabilizací.
 
 Detekce: rodina zjistila **dramatický pokles** rozhodovací schopnosti — subjekt **odpovídal** na všechny otázky **identicky**, bez ohledu na obsah.
 
-Intervence: integrační terapie zaměřená na rekonstrukci metakognitivní diferenciace; klinický rámec rozšířený o **konkrétní rozhodovací cvičení**. Funkční návrat dosažen, ale **strukturální dysfórie** ("nic z toho mě nezajímá") přetrvala.
+Intervence: integrační terapie zaměřená na rekonstrukci metakognitivní diferenciace; klinický rámec rozšířený o **konkrétní rozhodovací cvičení**. Funkční návrat dosažen, ale **strukturální dysfórie** („nic z toho mě nezajímá“) přetrvala.
 
 ## Vztah k jiným technikám
 
@@ -191,7 +191,6 @@ Intervence: integrační terapie zaměřená na rekonstrukci metakognitivní dif
   - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
   - [Anankastický režim](@/glossary/anankasticky-rezim.md)
   - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-
 
 ## ⚡ Kritický krok
 

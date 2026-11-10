@@ -152,6 +152,7 @@ Následující pravidla představují **doporučené (nikoliv mandatorní) klini
 ### Pravidlo R4: Diferenciální vyloučení
 
 **Před** diagnózou EA musí být systematicky **vyloučeny**:
+
 - Organické příčiny (delirium, demence, intoxikace);
 - Psychotické poruchy (zejména první epizoda schizofrenie);
 - Disociativní poruchy s rozsáhlým postižením;
@@ -165,7 +166,7 @@ EA diagnostika musí respektovat princip [**dual-use poznání**](@/glossary/dua
 
 ## Markery podle taxonomie
 
-Pro detail per-technique markerů odkazujeme na [techniques](@/kompendium/techniques/_index.md) — každá technika má samostatnou sekci "Detekční markery". Příklady:
+Pro detail per-technique markerů odkazujeme na [techniques](@/kompendium/techniques/_index.md) — každá technika má samostatnou sekci „Detekční markery“. Příklady:
 
 - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — markery: monokultura zdrojů, defenzivní reakce na alternativní data;
 - [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — markery: binárnost myšlení, neschopnost generovat třetí alternativu;
@@ -198,7 +199,6 @@ Klinický {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} 
 - [Glossary: Gaslighting](@/glossary/gaslighting.md)
 - [Glossary: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - [Glossary: Anankastický režim](@/glossary/anankasticky-rezim.md)
-
 
 ## ⚡ Kritický krok
 

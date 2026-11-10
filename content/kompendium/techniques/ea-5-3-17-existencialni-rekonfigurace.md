@@ -123,7 +123,6 @@ Technika **existenciální rekonfigurace** představuje strukturální výzvu pr
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Heideggerova **vlastní možnost** (eigenste Möglichkeit, *Sein und Zeit*) — bytí k vlastní smrti jako autentická projekce — je nahrazena cizí projekcí. **Entwurf** (rozvrh) je vyměněn. Sartrova **fundamentální volba** (*L'Être et le néant*) — projekce, kterou subjekt definuje sebe — je manipulátorem programována. Kierkegaardův **stavovský přechod** (estetický → etický → náboženský, *Either/Or*, *Concluding Unscientific Postscript*) je instrumentalizován jako rétorický nástroj k legitimizaci přechodu. Ricoeurova **promise** (slib jako jádro ipse-identity) je redirected. Levinasova **mort de l'autre** (smrt druhého jako moje odpovědnost) je obrácena. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

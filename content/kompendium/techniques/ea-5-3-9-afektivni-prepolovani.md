@@ -123,7 +123,6 @@ Technika **afektivní přepólování** představuje strukturální výzvu pro d
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Damasiovy **somatické markery** (*Descartes' Error*) — emoce jako tělové signály orientující rozhodování — jsou inverzně přemapovány: pozitivní markery na škodlivé objekty a vice versa. Merleau-Pontyho **emoční inkarnace** (*Le Visible et l'invisible*) ukazuje, že emoce jsou tělové styly bytí ve světě — přepolování fragmentuje styl. Husserlova **afektivní intencionalita** (*Studien zur Struktur des Bewußtseins*) je obrácena. Levinasovo **affect** jako pasivní zranitelnost před druhým je obráceno do agresivní polarity. Heideggerova **Befindlichkeit** (naladěnost, *Sein und Zeit* §29) — způsob bytí-ve-světě — je rekonfigurována: subjekt je 'naladěn' opačně oproti svému historickému základu. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

@@ -37,9 +37,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 **Schemata rozpad** je metatranscendentální technika, jíž jsou destruována **kantovská schémata** — transcendentální produkty obrazotvornosti (*Einbildungskraft*), jež zprostředkovávají mezi **kategoriemi rozvažování** (čisté pojmy) a **smyslovými jevy** (empirický obsah). Bez schémat nelze aplikovat kategorie na zkušenost: subjekt zachovává kategorie, zachovává smyslovou aferenci, ale **nedokáže je strukturně propojit**.
 
-Kant v *Kritice čistého rozumu* etabluje schematismus jako **"skryté umění v hloubce duše lidské"** — produktivní obrazotvornost generuje schémata jako časové struktury, jež umožňují **subsumpci** smyslových jevů pod kategorie. Schéma kauzality je struktura *"jestliže-pak"* v čase; schéma substance je struktura *trvalosti* v čase; atd.
+Kant v *Kritice čistého rozumu* etabluje schematismus jako **„skryté umění v hloubce duše lidské“** — produktivní obrazotvornost generuje schémata jako časové struktury, jež umožňují **subsumpci** smyslových jevů pod kategorie. Schéma kauzality je struktura *„jestliže-pak“* v čase; schéma substance je struktura *trvalosti* v čase; atd.
 
-Schemata rozpad tuto **zprostředkující kapacitu** destruuje. Subjekt prožívá **strukturní rozpojení mezi kategoriemi a fenomény**: má kategorie (substance, kauzalitu), má smyslové jevy (vizuální, auditivní impuls), ale nedokáže je strukturně sjednotit. Výsledkem je něco jako "abstraktní pojmovost" oddělená od "amorfní senzorickosti".
+Schemata rozpad tuto **zprostředkující kapacitu** destruuje. Subjekt prožívá **strukturní rozpojení mezi kategoriemi a fenomény**: má kategorie (substance, kauzalitu), má smyslové jevy (vizuální, auditivní impuls), ale nedokáže je strukturně sjednotit. Výsledkem je něco jako „abstraktní pojmovost“ oddělená od „amorfní senzorickosti“.
 
 Subjekt v terminálním stadiu trpí **schematickou afázií**: pojmy zůstávají, smysly zůstávají, ale jejich syntéza selhává. Praktická kompetence dramaticky klesá.
 
@@ -47,28 +47,28 @@ Subjekt v terminálním stadiu trpí **schematickou afázií**: pojmy zůstávaj
 
 ### Krok 1 — Pseudo-rozumová indoktrinace
 
-Subjekt je veden k radikální verzi racionalismu — *"pojem je primární, smysly jsou jen ilustrace."* Kantův schematismus je ignorován jako "zbytečné komplikování".
+Subjekt je veden k radikální verzi racionalismu — *„pojem je primární, smysly jsou jen ilustrace.“* Kantův schematismus je ignorován jako „zbytečné komplikování“.
 
 ### Krok 2 — Saturace abstraktními cvičeními
 
-Manipulátor zavádí praxe údajně "rozvíjející čisté myšlení" — práce s abstraktními pojmy bez smyslové reference, formální matematické cvičení bez aplikace.
+Manipulátor zavádí praxe údajně „rozvíjející čisté myšlení“ — práce s abstraktními pojmy bez smyslové reference, formální matematické cvičení bez aplikace.
 
 ### Krok 3 — Destrukce produktivní obrazotvornosti
 
-Schopnost generovat časové schémata je systematicky podlamována — subjekt přestává automaticky vidět "jak by toto mohlo vypadat", "jak by toto fungovalo v čase".
+Schopnost generovat časové schémata je systematicky podlamována — subjekt přestává automaticky vidět „jak by toto mohlo vypadat“, „jak by toto fungovalo v čase“.
 
 ### Krok 4 — Bod schematického rozpadu
 
-Subjekt prožívá **strukturní rozpojení** — pojmy "neaplikují se" na konkrétní situace. Stav je interpretován jako "rozkol mezi rozumem a smysly", interpretován pseudo-pokročile.
+Subjekt prožívá **strukturní rozpojení** — pojmy „neaplikují se“ na konkrétní situace. Stav je interpretován jako „rozkol mezi rozumem a smysly“, interpretován pseudo-pokročile.
 
-### Krok 5 — Konsolidace rozpadu jako "rozumové autonomie"
+### Krok 5 — Konsolidace rozpadu jako „rozumové autonomie“
 
-Stav strukturní schematické afázie je etablován jako "filozofický pohled". Identitární investice činí návrat k integrované schematizaci obtížným.
+Stav strukturní schematické afázie je etablován jako „filozofický pohled“. Identitární investice činí návrat k integrované schematizaci obtížným.
 
 ## Fenomenologické znaky
 
 - **Pojmová abstraktnost bez aplikace** — subjekt operuje s pojmy, ale neaplikuje je na konkrétno.
-- **Smyslová amorfnost** — fenomény se zdají "nezpracované".
+- **Smyslová amorfnost** — fenomény se zdají „nezpracované“.
 - **Praktická bezmocnost** v úkolech vyžadujících syntézu pojmu a vjemu.
 - **Slovní intelektualizace** maskující strukturální rozpad.
 - **Postupná ztráta produktivní obrazotvornosti** — neschopnost generovat scenáře.

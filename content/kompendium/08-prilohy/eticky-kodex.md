@@ -44,6 +44,7 @@ Tento kodex operacionalizuje cestu mezi těmito riziky. Není to seznam pravidel
 > **Především neškodit.** Žádný výzkum, žádná intervence, žádná publikace, která by mohla pacientovi/subjektu/čtenáři způsobit *předvídatelnou* škodu, nesmí být provedena. Pokud existuje pochybnost, převažuje princip neškození.
 
 **Operacionalizace**:
+
 - Pre-registr výzkumu zahrnuje **risk assessment** s explicitními kategoriemi rizik.
 - Každá publikace prochází **dual-review** — vědecký + etický recenzent.
 - Per-technique články kompendia obsahují **defensive framing** (detekce, ne návod).
@@ -53,6 +54,7 @@ Tento kodex operacionalizuje cestu mezi těmito riziky. Není to seznam pravidel
 > **Plné porozumění a dobrovolný souhlas** všech zúčastněných. Souhlas musí být explicitní, písemný, kdykoliv odvolatelný, a musí pokrývat: účel výzkumu, použité metody, předvídatelná rizika, alternativy, právo na odstoupení bez následků.
 
 **Operacionalizace**:
+
 - Souhlas je **dvoustupňový**: obecný (vstup do výzkumu) + specifický (každá rizikovější procedura).
 - U pacientů s narušenou kapacitou souhlasu (vážná disociace, psychotické symptomy) je výzkum **odložen** nebo prováděn **jen pro účely klinické péče**, ne pro výzkumné publikace.
 - **Re-konsensus**: po stabilizaci pacient potvrzuje, že souhlasí se zveřejněním dat získaných během fáze, kdy mohl mít narušenou kapacitu.
@@ -62,6 +64,7 @@ Tento kodex operacionalizuje cestu mezi těmito riziky. Není to seznam pravidel
 > **Ochrana kognitivních kapacit a autonomie** subjektů výzkumu. Výzkum *o manipulaci* nesmí *manipulovat*. Žádné deceptivní elementy, žádné indukce kognitivních biasů, žádné induced state experimenty bez nezávislé etické revize.
 
 **Operacionalizace**:
+
 - **Zákaz indukčních experimentů** mimo přísně kontrolované adversariální simulace ([Color Teams](@/glossary/color-teams.md)) s placebo-kontrolou a okamžitou debrífáží.
 - Pokud je deception nezbytný (vzácné, vyžaduje IRB schválení): **debriefing** musí být úplný, okamžitý, a doprovázený nabídkou klinické podpory.
 
@@ -70,7 +73,8 @@ Tento kodex operacionalizuje cestu mezi těmito riziky. Není to seznam pravidel
 > **Explicitní hranice** legitimního využití. Výzkumník musí znát a komunikovat limity svých závěrů: vzorek, metoda, kontext, kulturně-specifické faktory. Žádná univerzalizace bez evidence.
 
 **Operacionalizace**:
-- Každá publikace obsahuje sekci **"Limitations"** s minimálně 5 explicitními limitacemi.
+
+- Každá publikace obsahuje sekci **„Limitations“** s minimálně 5 explicitními limitacemi.
 - Per-technique články uvádějí **kontextovou validitu** (kde technika působí, kde ne).
 
 ### 5. Defenzivní orientace publikace
@@ -78,6 +82,7 @@ Tento kodex operacionalizuje cestu mezi těmito riziky. Není to seznam pravidel
 > **Veškeré publikované poznání slouží defenzivnímu, diagnostickému a edukativnímu účelu** — nikoliv jako návod k aplikaci. Tento princip není rétorický — je strukturální. Texty jsou psány s důrazem na **detekci**, **neutralizaci** a **rezilienci**, ne na **provedení**.
 
 **Operacionalizace**:
+
 - Každá technika obsahuje **detekční markery** (≥ 3) a **neutralizační strategie** (≥ 2).
 - Per-technique články obsahují **diagnostické indikátory**, ne **operační návody**.
 - Technika je publikována, **až když** je publikována i její neutralizace.
@@ -87,6 +92,7 @@ Tento kodex operacionalizuje cestu mezi těmito riziky. Není to seznam pravidel
 > **Plná anonymizace** všech klinických a výzkumných případů. Identifikační údaje (jméno, lokace, charakteristické biografické detaily) nahrazeny pseudonymy nebo agregovány. Souhlas s publikací jednotlivého případu vyžaduje **revoluční stupeň souhlasu** a periodické re-konzensus.
 
 **Operacionalizace**:
+
 - Datová pipeline využívá **k-anonymity** (k ≥ 5) a **differential privacy** technik.
 - Případové studie kombinují více reálných případů do **prototypických scénářů**, které jsou klinicky pravdivé, ale nereferují k jednotlivci.
 
@@ -95,6 +101,7 @@ Tento kodex operacionalizuje cestu mezi těmito riziky. Není to seznam pravidel
 > **Plné disclosure** finančních, institucionálních a osobních konfliktů zájmů. Žádný výzkumník s aktivní vazbou na high-control skupinu nebo na komerční zájem na výsledku nesmí být primárním investigatorem v souvisejícím výzkumu.
 
 **Operacionalizace**:
+
 - COI deklarace je součástí každé publikace.
 - Granty a financování explicitně uvedeny.
 - Recenzenti deklarují potenciální COI před přijetím recenzního závazku.
@@ -104,6 +111,7 @@ Tento kodex operacionalizuje cestu mezi těmito riziky. Není to seznam pravidel
 > **Respekt k osobnostní integritě** subjektů. Pacient/subjekt není **datový bod** — je osoba s vlastní biografií, hodnotami, vztahy. Výzkum nesmí redukovat osobu na proměnné.
 
 **Operacionalizace**:
+
 - Klinický výzkum vyžaduje **kvalitativní složku** (interview, narativ) doprovázející kvantitativní data.
 - Pacient má právo na **kopii vlastních dat** a na vysvětlení interpretace.
 - **Restorativní kontakt**: Po skončení výzkumu pacient dostává shrnutí ve čtenářsky srozumitelné formě.
@@ -113,6 +121,7 @@ Tento kodex operacionalizuje cestu mezi těmito riziky. Není to seznam pravidel
 > **Spravedlivý výběr** subjektů — žádné nadměrné zatížení zranitelných populací. Nábor se nesoustředí na jediný demografický segment, pokud výzkumná otázka neodůvodňuje opak.
 
 **Operacionalizace**:
+
 - Stratifikované sampling rámce.
 - Dokumentace procesu náboru a důvody pro inkluzi/exkluzi.
 - Periodický audit demografického profilu studovaných populací.
@@ -122,6 +131,7 @@ Tento kodex operacionalizuje cestu mezi těmito riziky. Není to seznam pravidel
 > **Externí etický dohled** institucionální revizní komisí (IRB / Etický komitét). Výzkumník nemůže být sám sobě etickým arbitrem. Veškerý výzkum přesahující rutinní klinickou praxi vyžaduje **prospektivní** IRB schválení a **periodický** monitoring.
 
 **Operacionalizace**:
+
 - IRB protokol pre-registrován.
 - Adverse events nahlášeny do **48 hodin** od zjištění.
 - **Roční review** všech aktivních protokolů.
@@ -132,6 +142,7 @@ Tento kodex operacionalizuje cestu mezi těmito riziky. Není to seznam pravidel
 > **Odpovědnost přesahuje publikaci.** Výzkumník nese odpovědnost za to, jak je jeho práce čtena, citována a používána. To zahrnuje aktivní práci s rizikem dezinterpretace.
 
 **Operacionalizace**:
+
 - **Press release** doprovázející publikaci je formulován s důrazem na defenzivní rámec.
 - **Erratum** publikováno v případě zneužití nebo dezinterpretace.
 - **Public engagement** (přednášky, vzdělávání) doplňuje pasivní zveřejnění.
@@ -141,6 +152,7 @@ Tento kodex operacionalizuje cestu mezi těmito riziky. Není to seznam pravidel
 > **Permanentní sebereflexe.** Výzkumník epistemické anihilace zkoumá fenomén, kterého **sám není imunní**. Vlastní paradigma, instituce, identifikace — vše může být vektor zkreslení. Pokora je strukturní podmínka tohoto výzkumu, ne ozdoba.
 
 **Operacionalizace**:
+
 - **Peer supervision** (≥ měsíčně) s nezávislým kolegou.
 - **Reflexivní deník** výzkumníka jako součást metodologie.
 - **Ochota k revizi**: výzkumník publikuje **změny vlastního názoru** s plnou transparentností.
@@ -207,7 +219,6 @@ Tento kodex je **kompatibilní s** a **rozšiřuje** následující rámce:
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — kalibrace důvěry respektuje epistemické autonomie.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) — L11–L13 epistemic pipeline implementuje epistemic integrity.
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md) — filozofický základ tohoto kodexu.
-
 
 ## ⚡ Kritický krok
 

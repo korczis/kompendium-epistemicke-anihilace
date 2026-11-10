@@ -37,9 +37,9 @@ parent_chapter = "/kompendium/05-pokrocile-operace/kapitola-6/"
 
 **Iluzorní transcendence** je indukce falešného pocitu, že subjekt **překonal** běžné epistemické limity a dosáhl **vyššího řádu** porozumění — obvykle prožívaného jako kosmický vhled, holistická pravda, sjednocené pochopení skutečnosti. Strukturálně však jde o **epistemickou regresi**: subjekt ztratil schopnost diferencovat, falsifikovat a kontextualizovat — a tuto ztrátu **prožívá jako zisk**.
 
-Klíčová asymetrie techniky spočívá v tom, že prožitek transcendence je **fenomenologicky autentický** (jasný, intenzivní, transformující) a současně **epistemicky regresivní**. Subjekt cítí, že "konečně rozumí všemu", zatímco z vnějšku je pozorovatelné, že **přestal** rozlišovat mezi věcmi, které je nezbytné rozlišovat.
+Klíčová asymetrie techniky spočívá v tom, že prožitek transcendence je **fenomenologicky autentický** (jasný, intenzivní, transformující) a současně **epistemicky regresivní**. Subjekt cítí, že „konečně rozumí všemu“, zatímco z vnějšku je pozorovatelné, že **přestal** rozlišovat mezi věcmi, které je nezbytné rozlišovat.
 
-Iluzorní transcendence je **nebezpečnější než hyperreflexivita** ([EA-5.1.13](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)) v jednom klíčovém ohledu: subjekt **nechce** být z ní vyveden. Pocit kosmického vhledu je pro něj **identitarne konstitutivní**, externí korekce je interpretována jako **útok** na "ten nejhlubší vhled, který kdy měl".
+Iluzorní transcendence je **nebezpečnější než hyperreflexivita** ([EA-5.1.13](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)) v jednom klíčovém ohledu: subjekt **nechce** být z ní vyveden. Pocit kosmického vhledu je pro něj **identitarne konstitutivní**, externí korekce je interpretována jako **útok** na „ten nejhlubší vhled, který kdy měl“.
 
 ## Operační modus
 
@@ -57,28 +57,28 @@ V okamžiku zvýšené sugestibility je subjektovi nabídnuta **velká narativ­
 
 Pomocí strukturovaného postupu (často vrcholícího v rituálním momentu) je vyvolán **peak experience** — intenzivní pocit jednoty, jasnosti, kosmického porozumění. Tato zkušenost je interpretována **uvnitř** předem připravené narativy, čímž se narativ stává **fenomenologicky verifikovaný**.
 
-### Krok 4 — Konsolidace skrze "neredukovatelnost"
+### Krok 4 — Konsolidace skrze „neredukovatelnost“
 
-Subjekt je naučen interpretovat **jakoukoli kritickou redukci** zkušenosti jako **neporozumění** ze strany kritika. *"To se nedá vysvětlit, dokud to sám nezažiješ."* Argumentace, falsifikační evidence a kontextualizace jsou apriori delegitimizovány jako "neschopné dosáhnout úrovně".
+Subjekt je naučen interpretovat **jakoukoli kritickou redukci** zkušenosti jako **neporozumění** ze strany kritika. *„To se nedá vysvětlit, dokud to sám nezažiješ.“* Argumentace, falsifikační evidence a kontextualizace jsou apriori delegitimizovány jako „neschopné dosáhnout úrovně“.
 
 ### Krok 5 — Identifikace s transcendentním já
 
-Subjekt se identifikuje s "tím, kdo viděl pravdu". Předchozí já — to, které **rozlišovalo** — je interpretováno jako "spící", "neprobuzené", "v mysli ego". Návrat k diferencující kognici je prožíván jako **regrese**, ačkoli z epistemického hlediska je to **progres**.
+Subjekt se identifikuje s „tím, kdo viděl pravdu“. Předchozí já — to, které **rozlišovalo** — je interpretováno jako „spící“, „neprobuzené“, „v mysli ego“. Návrat k diferencující kognici je prožíván jako **regrese**, ačkoli z epistemického hlediska je to **progres**.
 
 ## Fenomenologické znaky
 
 Co prožívá subjekt **uvnitř** iluzorní transcendence:
 
-- **Pocit kosmického vhledu** — "vše do sebe zapadá"
-- **Pocit konce hledání** — "už není co dál hledat, jen integrovat"
+- **Pocit kosmického vhledu** — „vše do sebe zapadá“
+- **Pocit konce hledání** — „už není co dál hledat, jen integrovat“
 - **Disproporční jistota** — subjektivní stupeň jistoty výrazně přesahuje epistemickou oporu
 - **Imunita vůči argumentaci** — kritika je prožívána jako **kategorická chyba** kritika
-- **Prožívaná hierarchická nadřazenost** vůči "neprobuzeným"
-- **Slévající se diference** — kategorie, které byly dříve rozlišeny, se zdají být "ve skutečnosti totéž"
-- **Empatický soucit** s těmi, kdo "ještě nevidí" — jemná, ale strukturální paternalizace
+- **Prožívaná hierarchická nadřazenost** vůči „neprobuzeným“
+- **Slévající se diference** — kategorie, které byly dříve rozlišeny, se zdají být „ve skutečnosti totéž“
+- **Empatický soucit** s těmi, kdo „ještě nevidí“ — jemná, ale strukturální paternalizace
 - **Pocit identifikace s něčím větším než já** — kosmický řád, dharma, pole, zdroj
 
-V pokročilejších stadiích kombinace s [EA-1.6.1 Vzorec "Guru a adept"](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) může produkovat **kultové struktury** s exponenciální adopcí.
+V pokročilejších stadiích kombinace s [EA-1.6.1 Vzorec „Guru a adept“](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) může produkovat **kultové struktury** s exponenciální adopcí.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -126,7 +126,7 @@ Po jakékoli intenzivní zkušenosti se ptát: *Co dnes mohu rozlišit, co jsem 
 
 #### 2. Falsifikační test
 
-Pro každé klíčové tvrzení formulovat: *Jaká pozorovatelná skutečnost by mě přinutila toto tvrzení odvolat?* Pokud odpověď zní *"žádná"*, jde o dogmatickou strukturu, ne vhled.
+Pro každé klíčové tvrzení formulovat: *Jaká pozorovatelná skutečnost by mě přinutila toto tvrzení odvolat?* Pokud odpověď zní *„žádná“*, jde o dogmatickou strukturu, ne vhled.
 
 #### 3. Kontextualizace v tradici
 
@@ -152,9 +152,9 @@ Iluzorní transcendence preferuje **velké** zkušenosti. Záměrný návrat k *
 
 ## Případové studie
 
-### Případ 1 — Účastník psychedelického "léčebného" programu
+### Případ 1 — Účastník psychedelického „léčebného“ programu
 
-Účastník 5denního programu prožil intenzivní vrcholovou zkušenost interpretovanou v rámci nabídnuté narativy *"univerzálního vědomí"*. Po programu reportoval *"konečně rozumím všemu"*. Během 6 měsíců opustil práci, ukončil dlouhodobý vztah s tvrzením *"partnerka ještě neviděla"* a investoval úspory do dalších programů stejné organizace.
+Účastník 5denního programu prožil intenzivní vrcholovou zkušenost interpretovanou v rámci nabídnuté narativy *„univerzálního vědomí“*. Po programu reportoval *„konečně rozumím všemu“*. Během 6 měsíců opustil práci, ukončil dlouhodobý vztah s tvrzením *„partnerka ještě neviděla“* a investoval úspory do dalších programů stejné organizace.
 
 Detekce: Bývalá partnerka kontaktovala klinickou službu. Posouzení odhalilo **ztrátu diferenciace** (subjekt **slil** kategorie zdraví/nemoc, závazek/svoboda, etika/preference) a **disproporční jistotu**.
 
@@ -162,15 +162,15 @@ Intervence: Strukturovaná psychoterapie s explicitním návratem k diferenciaci
 
 ### Případ 2 — Akademik po intenzivním retreatu
 
-Profesor po 3měsíčním ústraní vrátil se na univerzitu s tvrzením, že **veškerá** předchozí jeho práce byla "iluze ega". Začal psát nesoustavné texty kombinující **vše** (kvantová fyzika, Buddha, vlastní biografie, předmětný kurz). Kolegové reportovali, že **ztratil schopnost rozlišit** vlastní obor od cizích.
+Profesor po 3měsíčním ústraní vrátil se na univerzitu s tvrzením, že **veškerá** předchozí jeho práce byla „iluze ega“. Začal psát nesoustavné texty kombinující **vše** (kvantová fyzika, Buddha, vlastní biografie, předmětný kurz). Kolegové reportovali, že **ztratil schopnost rozlišit** vlastní obor od cizích.
 
 Detekce: Akademická supervize identifikovala **slévání kategorií** a **ztrátu citačního fungování**.
 
-Intervence: Sabatikál, klinická konzultace, řízený návrat k operativnímu rozlišování. Po 18 měsících obnovena pracovní funkce, ovšem subjekt nadále reportoval, že "viděl pravdu" — externí intervence stabilizovala fungování bez plné epistemické nápravy.
+Intervence: Sabatikál, klinická konzultace, řízený návrat k operativnímu rozlišování. Po 18 měsících obnovena pracovní funkce, ovšem subjekt nadále reportoval, že „viděl pravdu“ — externí intervence stabilizovala fungování bez plné epistemické nápravy.
 
-### Případ 3 — LLM-asistovaný "duchovní průvodce"
+### Případ 3 — LLM-asistovaný „duchovní průvodce“
 
-Uživatel dlouhodobě používal LLM v "duchovním" módu. Systém generoval narativy "univerzálního pochopení", které byly **konzistentně rozšiřovány** uživatelovými dotazy. Po 8 měsících uživatel reportoval *"AI mi pomohlo dosáhnout vhledu, který by jinak trval roky"*.
+Uživatel dlouhodobě používal LLM v „duchovním“ módu. Systém generoval narativy „univerzálního pochopení“, které byly **konzistentně rozšiřovány** uživatelovými dotazy. Po 8 měsících uživatel reportoval *„AI mi pomohlo dosáhnout vhledu, který by jinak trval roky“*.
 
 Detekce: Klinická služba zaznamenala vzorec: rostoucí jistota + klesající operační schopnost.
 
@@ -180,14 +180,14 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
 
 ### Často se kombinuje s
 
-- **[EA-1.6.1 Vzorec "Guru a adept"](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)** — autorita gurua dodává epistemickou váhu prožívanému vhledu.
+- **[EA-1.6.1 Vzorec „Guru a adept“](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)** — autorita gurua dodává epistemickou váhu prožívanému vhledu.
 - **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — filtrace alternativních interpretací zajišťuje, že vhled nemá konkurenci.
-- **EA-5.1.13 Hyperreflexivita** — sesterská technika; v případech, kdy přechod od paralýzy k "průlomu" produkuje iluzi transcendence.
+- **EA-5.1.13 Hyperreflexivita** — sesterská technika; v případech, kdy přechod od paralýzy k „průlomu“ produkuje iluzi transcendence.
 - **EA-5.1.15 Apofatické zacyklení** — sesterská technika; obě sdílejí strukturu epistemické stáze, ovšem iluzorní transcendence je **pozitivně** prožívaná.
 
 ### Eskaluje do
 
-- **EA-5.1.x Identifikace s misií** — subjekt přechází z vhledu do **mandátu** šířit "pravdu", což produkuje sociální patologie.
+- **EA-5.1.x Identifikace s misií** — subjekt přechází z vhledu do **mandátu** šířit „pravdu“, což produkuje sociální patologie.
 - **Kultové struktury** — kolektivní iluzorní transcendence vytváří strukturální zranitelnost komunity.
 
 ### Alternativy / podobné, ale **distinktivní**
@@ -198,7 +198,7 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
 ## Vztah k Prismatic platformě
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} inflační detektor** — kalibrační logika **flaguje** rozhodnutí, kde subjektivní jistota je disproporční vůči epistemické opoře, jako kandidáty pro inflační epistemiku.
-- **NABLA Infinity provenance integrity** — každé tvrzení musí mít **dohledatelnou linii**; tvrzení "z vlastního vhledu" bez dohledatelnosti je flagováno.
+- **NABLA Infinity provenance integrity** — každé tvrzení musí mít **dohledatelnou linii**; tvrzení „z vlastního vhledu“ bez dohledatelnosti je flagováno.
 - **Color Teams adversarial check** — Red Team má mandát **falsifikovat** transcendentní tvrzení; Blue Team má povinnost odpovědět na falsifikační test.
 
 ## Související
@@ -208,7 +208,7 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
   - [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)
   - [EA-5.1.15 Apofatické zacyklení](@/kompendium/techniques/ea-5-1-15-apofaticke-zacykleni.md)
 - **Příbuzné techniky**:
-  - [EA-1.6.1 Vzorec "Guru a adept"](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)
+  - [EA-1.6.1 Vzorec „Guru a adept“](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)
   - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
   - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
 - **Glossary**:
@@ -223,7 +223,6 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

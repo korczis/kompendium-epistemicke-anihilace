@@ -200,7 +200,6 @@ Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–8 + Ph
 
 *Poznámka: Toto kompendium obsahuje specializované odborné informace s potenciálně rizikovým obsahem. Materiál vyžaduje odpovědné zacházení ze strany kvalifikovaných odborníků. Není a nikdy nebude dostupný jako návod či manuál — jeho účel je výhradně **defenzivní**, **diagnostický** a **edukativní**.*
 
-
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:

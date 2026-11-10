@@ -28,10 +28,10 @@ toc = false
 
 ## Operační modus (5 kroků)
 
-1. **Mapování referenčních kotev** — manipulátor identifikuje pojmy, kolem nichž subjekt buduje smysluplnou strukturu ("důvěra", "kompetence", "pravda").
+1. **Mapování referenčních kotev** — manipulátor identifikuje pojmy, kolem nichž subjekt buduje smysluplnou strukturu („důvěra“, „kompetence“, „pravda“).
 2. **Hyperdefinice a expanze** — pojem je opakovaně předefinováván stále jemnějšími distinkcemi až do bodu, kdy subjekt nedokáže určit jeho hranice.
-3. **Kontextová inverze** — manipulátor používá pojem v kontextech, které jeho původní význam **invertují**, ale prezentuje to jako "hlubší pochopení".
-4. **Meta-otázka jako paralýza** — každý subjektův pokus o použití pojmu spouští otázku "ale co tím opravdu myslíš?", která eroduje pragmatickou kompetenci.
+3. **Kontextová inverze** — manipulátor používá pojem v kontextech, které jeho původní význam **invertují**, ale prezentuje to jako „hlubší pochopení“.
+4. **Meta-otázka jako paralýza** — každý subjektův pokus o použití pojmu spouští otázku „ale co tím opravdu myslíš?“, která eroduje pragmatickou kompetenci.
 5. **Konceptuální vakuace** — pojem se vyprázdní, subjekt přestává mít k dispozici kategoriální nástroje pro formulaci vlastní zkušenosti.
 
 ## Fenomenologické znaky
@@ -60,7 +60,7 @@ toc = false
 
 ## Klinický kontext
 
-Manifestuje se v intelektualizujících sektách, akademických prostředích s "kritickým" diskurzem ad absurdum, v partnerských vztazích s gaslightingem operujícím na konceptuální úrovni a v některých formách filosofické psychoterapie, jež zaměňují fenomenologickou redukci s operativní destabilizací. Diferenciální distinkce: **legitimní pojmová analýza** posouvá pojem k větší přesnosti a vrací ho do praktického užívání; **konceptuální nihilace** pojem destabilizuje a nikdy nevrací zpět do pragmatické funkce.
+Manifestuje se v intelektualizujících sektách, akademických prostředích s „kritickým“ diskurzem ad absurdum, v partnerských vztazích s gaslightingem operujícím na konceptuální úrovni a v některých formách filosofické psychoterapie, jež zaměňují fenomenologickou redukci s operativní destabilizací. Diferenciální distinkce: **legitimní pojmová analýza** posouvá pojem k větší přesnosti a vrací ho do praktického užívání; **konceptuální nihilace** pojem destabilizuje a nikdy nevrací zpět do pragmatické funkce.
 
 ## Cross-linky
 

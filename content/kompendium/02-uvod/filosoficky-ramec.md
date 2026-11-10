@@ -81,8 +81,9 @@ Pro taxonomii je Husserl klíčový vhledem, že **anihilace nemusí cílit na o
 Maurice Merleau-Ponty (*Fénoménologie de la perception*, 1945) demonstruje, že kognice je **vtělená** (*incarnée*) — že tělo není pouhým objektem ve světě, ale **konstitutivním médiem** přístupu ke světu.
 
 Implikace pro taxonomii:
+
 - **Tělesné techniky manipulace** (EA-1.5.x) operují na strukturní úrovni, kterou klasický kognitivismus přehlíží
-- **Spánková deprivace, fyziologická vyčerpanost, izolace** mají **přímý** efekt na epistemickou kapacitu — nikoli pouze nepřímý prostřednictvím "vlivu na mysl"
+- **Spánková deprivace, fyziologická vyčerpanost, izolace** mají **přímý** efekt na epistemickou kapacitu — nikoli pouze nepřímý prostřednictvím „vlivu na mysl“
 - **Habitualizace** v dlouhodobých manipulativních prostředích vytváří **tělesnou paměť** epistemicky distortní praxe, jež je obtížně odstranitelná čistě kognitivními intervencemi
 
 ### Heidegger a autenticita
@@ -101,7 +102,7 @@ Hans-Georg Gadamer (*Wahrheit und Methode*, 1960) zavádí **hermeneutický kruh
 - **Vorurteile** (předsudky) — pre-strukturní rámce, jež umožňují **jakékoli** porozumění; nelze je odstranit, lze pouze reflektovat
 - **Horizontverschmelzung** (splynutí horizontů) — porozumění jinému je strukturní splynutí horizontu interpreta a horizontu interpretovaného
 
-Pro taxonomii je Gadamerovo přínosem **realistická akceptace, že žádný subjekt nemá "neutrální" výchozí pozici** — všichni operují s předporozuměním. Otázkou není, jak předporozumění odstranit (to je nemožné), ale jak je **reflexivně zpřístupnit**. Manipulativní systémy operují skrze **systematickou suspenzi reflexivity** — udržují předporozumění aktivní, ale nedostupná pro vědomé hodnocení.
+Pro taxonomii je Gadamerovo přínosem **realistická akceptace, že žádný subjekt nemá „neutrální“ výchozí pozici** — všichni operují s předporozuměním. Otázkou není, jak předporozumění odstranit (to je nemožné), ale jak je **reflexivně zpřístupnit**. Manipulativní systémy operují skrze **systematickou suspenzi reflexivity** — udržují předporozumění aktivní, ale nedostupná pro vědomé hodnocení.
 
 ### Ricoeur: hermeneutika podezření
 
@@ -182,7 +183,6 @@ Tyto závazky nejsou apriori prokázány — jsou **regulativními východisky**
 - [Glosář: Color Teams](@/glossary/color-teams.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-
 
 ## ⚡ Kritický krok
 

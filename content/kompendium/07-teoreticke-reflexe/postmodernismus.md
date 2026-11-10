@@ -27,13 +27,13 @@ Tato kapitola se s touto výzvou **vědomě konfrontuje** a nabízí **diferenco
 
 Lyotardova kniha *La condition postmoderne* (1979) představuje pro postmoderní filozofii **kanonický** text. Centrální teze:
 
-> *Postmoderna je definována jako "nedůvěra vůči metanarativům" (incrédulité à l'égard des métarécits).*
+> *Postmoderna je definována jako „nedůvěra vůči metanarativům“ (incrédulité à l'égard des métarécits).*
 
 **Metanarativy** (osvícenství, hegelovský pokrok, marxistická emancipace, vědecký pozitivismus) jsou velké kolektivní příběhy, jež **legitimizovaly** vědění a **organizovaly** sociální praxi. Postmoderna tyto příběhy nedokáže již s důvěrou udržovat — jsou rozpoznány jako historicky kontingentní, ideologicky zabarvené a vyloučitelné z mocenských vztahů.
 
 ### 1.2 Jazykové hry a fragmentace legitimace
 
-Místo metanarativu nastupuje **mnohost jazykových her** (přejato z Wittgensteina): vědecká, narativní, etická, politická, estetická, religiózní... Každá hra má **vlastní** pravidla legitimace. Žádná **metahra** (přesahující všechny ostatní) neexistuje.
+Místo metanarativu nastupuje **mnohost jazykových her** (přejato z Wittgensteina): vědecká, narativní, etická, politická, estetická, religiózní… Každá hra má **vlastní** pravidla legitimace. Žádná **metahra** (přesahující všechny ostatní) neexistuje.
 
 Pro EA má tato perspektiva **trojí význam**:
 
@@ -53,11 +53,11 @@ EA techniky **prosperují** v tomto prostředí — protože **podmínky** pro j
 
 ### 1.4 Performativita a její patologie
 
-Lyotardův pojem **performativity** — kritérium "co dělá rozdíl ve výkonu systému" nahrazuje "co je pravdivé" — je pro EA **diagnosticky klíčový**. V performativním režimu:
+Lyotardův pojem **performativity** — kritérium „co dělá rozdíl ve výkonu systému“ nahrazuje „co je pravdivé“ — je pro EA **diagnosticky klíčový**. V performativním režimu:
 
 - Argument je validní, **pokud** funguje (přesvědčuje, mobilizuje, prodává)
 - Pravdivost se stává **sekundární** dimenzí
-- Manipulace ztrácí **kvalitativní rozdíl** vůči legitimní argumentaci — všechny formy přesvědčování jsou "jen" performance
+- Manipulace ztrácí **kvalitativní rozdíl** vůči legitimní argumentaci — všechny formy přesvědčování jsou „jen“ performance
 
 Toto je strukturní prostředí, v němž **falešná ekvivalence** ([3.5](@/kompendium/03-zakladni-kategorie/_index.md)), **iluzorní komplexita** a **terminologická mystifikace** nejen že fungují, ale stávají se **dominantní** rétorickou normou.
 
@@ -79,7 +79,7 @@ Tento redukovaný metanarativ:
 Jean Baudrillard v *Simulacres et simulation* (1981) formuluje teorii **simulakra** — znaků, jež **odkazují** primárně na jiné znaky, nikoli na realitu, již by reprezentovaly. V postmoderním stavu:
 
 - Mapa **předchází** území (ve smyslu, který Borges parodoval, ale který se v digitálním věku stává empirickou realitou)
-- **Hyperrealita** — stav, v němž simulace je "reálnější" než realita sama
+- **Hyperrealita** — stav, v němž simulace je „reálnější“ než realita sama
 - **Implozion** sociálního, ve kterém médium pohlcuje obsah
 
 ### 2.2 Tři řády simulakra
@@ -112,7 +112,7 @@ Baudrillardova teorie poskytuje fundamentální **diagnostický rámec** pro por
 - **Hyperreálná dezinformace** **operuje v prostoru, kde distinkce pravdivé/falešné je strukturálně rozostřená**
 - Důsledkem je, že **vyvrácení** dezinformace **nepomáhá** — protože kategorie vyvrácení sama předpokládá referenční rámec, jenž v hyperrealitě nefunguje
 
-EA kategorie **falešné ekvivalence** a **simulované debaty** (kdy "obě strany" jsou orchestrované simulakry) jsou paradigmatickými projevy Baudrillardovy diagnózy.
+EA kategorie **falešné ekvivalence** a **simulované debaty** (kdy „obě strany“ jsou orchestrované simulakry) jsou paradigmatickými projevy Baudrillardovy diagnózy.
 
 ### 2.5 Kritická odbočka: kompendium proti Baudrillardovu radikálnímu nihilismu
 
@@ -134,8 +134,8 @@ Jacques Derrida v *De la grammatologie* (1967), *L'écriture et la différence* 
 
 Klíčové komponenty:
 
-- **Logocentrismus** — privilegium "logosu" (mluveného slova jako přítomnosti významu) v západní tradici
-- **Différance** — neologismus kombinující "diferenciaci" a "odložení"; význam není **přítomný**, ale vzniká **odkazováním** na další znaky
+- **Logocentrismus** — privilegium „logosu“ (mluveného slova jako přítomnosti významu) v západní tradici
+- **Différance** — neologismus kombinující „diferenciaci“ a „odložení“; význam není **přítomný**, ale vzniká **odkazováním** na další znaky
 - **Trace** — každý znak nese stopy svých opozic, jež dekonstrukce odhaluje
 - **Aporia** — nerozhodnutelná napětí, jež dekonstrukce identifikuje uvnitř textů
 
@@ -149,13 +149,13 @@ Manipulátor často operuje jako **logocentrická autorita** — subjekt, jehož
 
 - Tato autorita je **konstruována** retorickými a institucionálními praktikami
 - Význam manipulátorovy mluvy **závisí** na rozdílu od (a potlačování) jiných hlasů
-- "Autoritativní" diskurz nese **stopy** vlastních podkopávajících protichůdů
+- „Autoritativní“ diskurz nese **stopy** vlastních podkopávajících protichůdů
 
 Tato dekonstruktivní operace je strukturálně analogická tomu, co kompendium nazývá **delegitimizace pseudoautority** — diagnostické rozpoznání, že prosodicky dominantní subjekt nemusí být epistemicky legitimní.
 
 **B) Aporia v manipulativních narativech**
 
-Dekonstrukce **identifikuje aporie** — místa nerozhodnutelného napětí — uvnitř manipulativních narativů. EA techniky často operují skrze **současné nárokování** kontradiktorních pozic (např. "buďte poslušní expertizy" + "expertiza je elitářská konspirace"). Dekonstrukce tato napětí **odhaluje** a tím **podkopává** jejich manipulační účinnost.
+Dekonstrukce **identifikuje aporie** — místa nerozhodnutelného napětí — uvnitř manipulativních narativů. EA techniky často operují skrze **současné nárokování** kontradiktorních pozic (např. „buďte poslušní expertizy“ + „expertiza je elitářská konspirace“). Dekonstrukce tato napětí **odhaluje** a tím **podkopává** jejich manipulační účinnost.
 
 ### 3.3 Aplikace na EA: kritická stránka
 
@@ -165,8 +165,8 @@ Dekonstrukce má však **dvojí** kritickou výzvu vůči kompendiu:
 
 Kompendium operuje s **binárními** opozicemi (pravdivé/manipulativní, autonomní/manipulované, integrované/anihilované, atd.). Dekonstruktivní čtení by tyto opozice **podkopávalo** — ukazovalo by, že:
 
-- "Pravdivé" tvrzení vždy nese stopy "manipulativního"
-- "Autonomní" subjekt vždy nese stopy "manipulovaného"
+- „Pravdivé“ tvrzení vždy nese stopy „manipulativního“
+- „Autonomní“ subjekt vždy nese stopy „manipulovaného“
 - Žádné dělení není **čisté**, **stabilní**, **neproblematické**
 
 Kompendium **akceptuje** tuto kritickou výzvu a **transparentně** přiznává:
@@ -177,7 +177,7 @@ Kompendium **akceptuje** tuto kritickou výzvu a **transparentně** přiznává:
 
 **B) Riziko dekonstruktivního kvietismu**
 
-Pokud je dekonstrukce **radikalizována**, může vést ke **kvietismu**: každý normativní nárok je dekonstruovatelný, každá kategorie nestabilní, každá intervence problematizovatelná. V důsledku **žádná** klinická, etická ani epistemická intervence není "čistě" legitimní.
+Pokud je dekonstrukce **radikalizována**, může vést ke **kvietismu**: každý normativní nárok je dekonstruovatelný, každá kategorie nestabilní, každá intervence problematizovatelná. V důsledku **žádná** klinická, etická ani epistemická intervence není „čistě“ legitimní.
 
 Kompendium **odmítá** tuto radikalizaci. Místo toho zaujímá **post-dekonstruktivní** pozici:
 
@@ -267,7 +267,6 @@ Tato pozice **není** pre-postmoderní (nelze se vrátit do bezproblémové afir
 - [Glosář: Decision Core](@/glossary/decision-core.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

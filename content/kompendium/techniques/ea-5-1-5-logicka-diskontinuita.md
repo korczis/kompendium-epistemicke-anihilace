@@ -35,11 +35,11 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 ## Definice
 
-**Logická diskontinuita** je indukovaná neschopnost subjektu **udržet logické řetězce** přes více inferenciálních kroků. Každý dílčí krok působí v izolaci **validně**, avšak řetězec jako celek **nekomponuje** — z premis A → B → C → D, kde každý šíp je akceptován, subjekt **nedospívá** k závěru "A → D" a ani k jeho negaci. Inference se "rozpadá" mezi kroky.
+**Logická diskontinuita** je indukovaná neschopnost subjektu **udržet logické řetězce** přes více inferenciálních kroků. Každý dílčí krok působí v izolaci **validně**, avšak řetězec jako celek **nekomponuje** — z premis A → B → C → D, kde každý šíp je akceptován, subjekt **nedospívá** k závěru „A → D“ a ani k jeho negaci. Inference se „rozpadá“ mezi kroky.
 
 Klíčový distinktivní znak — logická diskontinuita není pouhá iracionalita. Subjekt v každý jednotlivý okamžik **provádí** logické úvahy. Problém je strukturální: **kompoziční** krok, který spojuje dílčí inference do uceleného argumentu, je systematicky narušený. Subjekt **vidí** krok 1, **vidí** krok 2, ale **nedrží** současně oba dostatečně dlouho na to, aby je **složil**.
 
-Technika exploituje pracovní paměť a sekvenční kapacity vědomí: dlouhodobá expozice fragmentaci, distrakci, nárazovým "insight" zážitkům a paradoxním afirmacím destabilizuje schopnost mentálně **udržet** komplexní řetězec dostatečně dlouho na jeho **vyhodnocení**.
+Technika exploituje pracovní paměť a sekvenční kapacity vědomí: dlouhodobá expozice fragmentaci, distrakci, nárazovým „insight“ zážitkům a paradoxním afirmacím destabilizuje schopnost mentálně **udržet** komplexní řetězec dostatečně dlouho na jeho **vyhodnocení**.
 
 Logická diskontinuita je [ultramární technikou](@/kompendium/05-ultramari-techniky/_index.md) kategorie [epistemická singularita](@/glossary/epistemicka-anihilace.md), kde je **inferenciální schopnost** sama předmětem destrukce.
 
@@ -47,13 +47,13 @@ Logická diskontinuita je [ultramární technikou](@/kompendium/05-ultramari-tec
 
 Technika operuje v pěti krocích, typicky v dlouhodobém rámci:
 
-### Krok 1 — Saturace nárazovými "insight" zážitky
+### Krok 1 — Saturace nárazovými „insight“ zážitky
 
-Subjekt je opakovaně exponován **krátkým**, **emocionálně silným** prožitkům "pochopení" — typicky paradoxních výroků, koánu, mystických formulací. Každý jednotlivý zážitek je prezentován jako **úplné** pochopení, které **nepotřebuje** být zařazeno do širší struktury.
+Subjekt je opakovaně exponován **krátkým**, **emocionálně silným** prožitkům „pochopení“ — typicky paradoxních výroků, koánu, mystických formulací. Každý jednotlivý zážitek je prezentován jako **úplné** pochopení, které **nepotřebuje** být zařazeno do širší struktury.
 
 ### Krok 2 — Devalvace dlouhých argumentů
 
-Manipulátor systematicky **devalvuje** dlouhé inferenciální řetězce: "to je jen myšlenkový konstrukt", "logika je past ega", "skutečnost se nemůže dokázat", "intelektualizace zatemňuje porozumění". Subjekt je naveden, že **dlouhý argument je sám o sobě podezřelý**.
+Manipulátor systematicky **devalvuje** dlouhé inferenciální řetězce: „to je jen myšlenkový konstrukt“, „logika je past ega“, „skutečnost se nemůže dokázat“, „intelektualizace zatemňuje porozumění“. Subjekt je naveden, že **dlouhý argument je sám o sobě podezřelý**.
 
 ### Krok 3 — Fragmentace pozornosti
 
@@ -61,21 +61,21 @@ Subjekt je vystaven systematické fragmentaci kognitivního pole — rychlé tem
 
 ### Krok 4 — Trénink přijetí lokálně-validních, globálně-rozporných inferencí
 
-Manipulátor systematicky předkládá kombinace tvrzení, kde každý jednotlivý krok je validní, ale celkový závěr je s některou z premis ve sporu. Subjekt je naveden přijmout všechny kroky **a současně** akceptovat, že "rozpor je pouze zdánlivý" / "vyšší pravda".
+Manipulátor systematicky předkládá kombinace tvrzení, kde každý jednotlivý krok je validní, ale celkový závěr je s některou z premis ve sporu. Subjekt je naveden přijmout všechny kroky **a současně** akceptovat, že „rozpor je pouze zdánlivý“ / „vyšší pravda“.
 
 ### Krok 5 — Generalizovaná diskontinuita
 
-Po dostatečné expozici subjekt **generalizuje** vzorec: nepokouší se již komponovat řetězce. Argumentaci vnímá **lokálně** — spokojí se s tím, že jednotlivé kroky "dávají smysl". Ztrácí schopnost detekovat, že **celek** může být nekoherentní.
+Po dostatečné expozici subjekt **generalizuje** vzorec: nepokouší se již komponovat řetězce. Argumentaci vnímá **lokálně** — spokojí se s tím, že jednotlivé kroky „dávají smysl“. Ztrácí schopnost detekovat, že **celek** může být nekoherentní.
 
 ## Fenomenologické znaky
 
 Co prožívá subjekt **uvnitř** logické diskontinuity:
 
-- **Mentální únava** při pokusu o dlouhý argument — "zamotám se, ztratím se"
-- **Insight bez retence** — dojem, že právě "pochopil", ale následně nedokáže rekonstruovat **co**
+- **Mentální únava** při pokusu o dlouhý argument — „zamotám se, ztratím se“
+- **Insight bez retence** — dojem, že právě „pochopil“, ale následně nedokáže rekonstruovat **co**
 - **Lokální komfort, globální nejistota** — každý jednotlivý krok je akceptovatelný, celek je ale **nějak špatně**, aniž by uměl identifikovat kde
-- **Aversie vůči formálním systémům** — logika, matematika, formální argumentace prožívána jako "tlačivé", "redukující"
-- **Pseudo-mystická legitimace** — pocit, že rozpor je projev "vyšší pravdy", nikoli vady úvahy
+- **Aversie vůči formálním systémům** — logika, matematika, formální argumentace prožívána jako „tlačivé“, „redukující“
+- **Pseudo-mystická legitimace** — pocit, že rozpor je projev „vyšší pravdy“, nikoli vady úvahy
 - **Externalizace inference** — pasivní akceptace argumentů od autorit, protože vlastní **vyhodnocování** je vyčerpávající
 - **Anti-rekurzivita** — neschopnost reflektovat vlastní inference; zaznamenat, že jsem **právě** přijal A i ¬A
 
@@ -126,11 +126,11 @@ Pravidelně se vrať k **explicitně formální** úloze: matematický důkaz, l
 
 #### 3. **Dvojkrokový test**
 
-Pravidelně si pokládej otázku: *Tvrzením A jsem právě přijal. Tvrzením B jsem přijal před hodinou. Jsou A i B konzistentní?* Pokud zjistíš, že nejsou, **nereinterpretuj** rozpor jako "vyšší pravdu" — to je **alarm**, ne insight.
+Pravidelně si pokládej otázku: *Tvrzením A jsem právě přijal. Tvrzením B jsem přijal před hodinou. Jsou A i B konzistentní?* Pokud zjistíš, že nejsou, **nereinterpretuj** rozpor jako „vyšší pravdu“ — to je **alarm**, ne insight.
 
 #### 4. **Argumentační deník**
 
-Veď deník klíčových přesvědčení s **explicitním** odůvodněním: "Věřím v X, protože Y a Z". Pravidelně reviduj. Pokud Y nebo Z přestaly být validní, X by mělo být revidováno také.
+Veď deník klíčových přesvědčení s **explicitním** odůvodněním: „Věřím v X, protože Y a Z“. Pravidelně reviduj. Pokud Y nebo Z přestaly být validní, X by mělo být revidováno také.
 
 #### 5. **Restorativní spánek a kognitivní hygiena**
 
@@ -149,15 +149,15 @@ Pracovní paměť je biologicky závislá na spánku. Strukturální diskontinui
 
 ### Případ 1 — Pokročilý retreat kontext
 
-Účastník 30denního programu s minimálním spánkem reportoval po skončení, že "konečně pochopil". Po měsíci nedokázal rekonstruovat **co**. Při explicitní konfrontaci přijímal vzájemně rozporné metafyzické pozice ("vědomí je pouze konstruktem ega" **a** "vědomí je primárně danost"). Detekce: terapeut formálního zázemí identifikoval logickou diskontinuitu po požadavku na strukturovaný argument. Reverzace: 6 měsíců strukturovaného **psaní** argumentů ve formálním rámci.
+Účastník 30denního programu s minimálním spánkem reportoval po skončení, že „konečně pochopil“. Po měsíci nedokázal rekonstruovat **co**. Při explicitní konfrontaci přijímal vzájemně rozporné metafyzické pozice („vědomí je pouze konstruktem ega“ **a** „vědomí je primárně danost“). Detekce: terapeut formálního zázemí identifikoval logickou diskontinuitu po požadavku na strukturovaný argument. Reverzace: 6 měsíců strukturovaného **psaní** argumentů ve formálním rámci.
 
 ### Případ 2 — Akademický kontext
 
-PhD kandidát po 4 letech v post-strukturalistickém proudu nedokázal udržet vlastní argument z disertace v jediném sezení. Akceptoval, že kapitola 2 vyvozuje X, kapitola 4 vyvozuje ¬X, a tvrdil, že "obě jsou pravdivé z jiných pozic". Při požadavku rekonstrukce premis-inference-závěr v rámci jediné teze docházelo k mentálnímu vyčerpání. Detekce: externí komise. Reverzace: 12 měsíců formální logiky a explicitního přepisu disertace.
+PhD kandidát po 4 letech v post-strukturalistickém proudu nedokázal udržet vlastní argument z disertace v jediném sezení. Akceptoval, že kapitola 2 vyvozuje X, kapitola 4 vyvozuje ¬X, a tvrdil, že „obě jsou pravdivé z jiných pozic“. Při požadavku rekonstrukce premis-inference-závěr v rámci jediné teze docházelo k mentálnímu vyčerpání. Detekce: externí komise. Reverzace: 12 měsíců formální logiky a explicitního přepisu disertace.
 
 ### Případ 3 — Coaching kontext
 
-Klient po 18 měsících intenzivního programu spontánně přijímal výroky typu "musíš si stanovit hranice" **a současně** "hranice jsou ego-konstrukt, který musíš překročit", aniž by identifikoval rozpor. Při explikaci reagoval, že "obojí je pravda na různých úrovních". Detekce: psychoterapeut po 3 sezeních, kdy nebyl schopen klienta provést jednoduchým 3-krokovým argumentem.
+Klient po 18 měsících intenzivního programu spontánně přijímal výroky typu „musíš si stanovit hranice“ **a současně** „hranice jsou ego-konstrukt, který musíš překročit“, aniž by identifikoval rozpor. Při explikaci reagoval, že „obojí je pravda na různých úrovních“. Detekce: psychoterapeut po 3 sezeních, kdy nebyl schopen klienta provést jednoduchým 3-krokovým argumentem.
 
 ## Vztah k jiným technikám
 
@@ -214,7 +214,6 @@ Logická diskontinuita je strukturálním motivem pro několik defenzivních mec
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

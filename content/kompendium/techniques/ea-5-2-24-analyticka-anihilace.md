@@ -37,37 +37,37 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 **Analytická anihilace** je metatranscendentální technika komplementární k [EA-5.2.23 syntetické paralýze](@/kompendium/techniques/ea-5-2-23-synteticka-paralyza.md). Destruuje subjektovu schopnost vytvářet **analytické soudy** — rozkládat pojem na své obsažené komponenty a pracovat s definicemi. Subjekt ztrácí kapacitu pro **pojmovou analýzu** a propadá strukturní pojmové neurčitosti, kde žádná definice nedrží.
 
-Analytické soudy v Kantově terminologii **rozkládají** pojem subjektu (*"Tělo je rozprostraněné."* — rozprostraněnost je již obsažena v pojmu těla). Analytická soudnost je **podmínkou pojmového myšlení**: bez ní pojmy nemají stabilní obsah a komunikace selhává.
+Analytické soudy v Kantově terminologii **rozkládají** pojem subjektu (*„Tělo je rozprostraněné.“* — rozprostraněnost je již obsažena v pojmu těla). Analytická soudnost je **podmínkou pojmového myšlení**: bez ní pojmy nemají stabilní obsah a komunikace selhává.
 
 Analytická anihilace tuto kapacitu destruuje skrze systematické rozpouštění pojmových definic. Subjekt je veden k pochybnosti o jakémkoli analytickém vztahu — výsledkem je strukturní pojmová proměnlivost, kde slova přetrvávají, ale jejich obsah je strukturně labilní.
 
-Subjekt v terminálním stadiu trpí **pojmovou afázií** s pseudo-filozofickou racionalizací: žádná definice "neudržuje", každý pojem se rozpouští v kontextu. Komunikace zaniká nebo přechází v pseudo-poetickou neurčitost.
+Subjekt v terminálním stadiu trpí **pojmovou afázií** s pseudo-filozofickou racionalizací: žádná definice „neudržuje“, každý pojem se rozpouští v kontextu. Komunikace zaniká nebo přechází v pseudo-poetickou neurčitost.
 
 ## Operační modus
 
 ### Krok 1 — Pseudo-Wittgensteinovská indoktrinace
 
-Subjekt je veden do radikální verze "language games" — *"význam je jen použití, žádná definice nedrží."* Wittgensteinův nuancovaný argument je redukován na strukturní popření pojmové stability.
+Subjekt je veden do radikální verze „language games“ — *„význam je jen použití, žádná definice nedrží.“* Wittgensteinův nuancovaný argument je redukován na strukturní popření pojmové stability.
 
 ### Krok 2 — Saturace dekonstrukcí
 
-Manipulátor systematicky **dekonstruuje** každou subjektovu definici — *"Co přesně myslíš tímto slovem? A tím? A tím?"* Regrese je nekonečná.
+Manipulátor systematicky **dekonstruuje** každou subjektovu definici — *„Co přesně myslíš tímto slovem? A tím? A tím?“* Regrese je nekonečná.
 
 ### Krok 3 — Pojmová eroze
 
-Subjekt postupně ztrácí důvěru v jakoukoli pojmovou stabilitu. Definice se zdají "vždy neúplné" nebo "kontextově proměnlivé".
+Subjekt postupně ztrácí důvěru v jakoukoli pojmovou stabilitu. Definice se zdají „vždy neúplné“ nebo „kontextově proměnlivé“.
 
 ### Krok 4 — Bod analytického kolapsu
 
-Subjekt prožívá **akutní pojmovou afázii** — neschopnost stabilizovat významy slov. Komunikace selhává. Stav je interpretován jako "překonání pojmové strnulosti".
+Subjekt prožívá **akutní pojmovou afázii** — neschopnost stabilizovat významy slov. Komunikace selhává. Stav je interpretován jako „překonání pojmové strnulosti“.
 
-### Krok 5 — Konsolidace neurčitosti jako "post-strukturní kreativity"
+### Krok 5 — Konsolidace neurčitosti jako „post-strukturní kreativity“
 
-Stav strukturní pojmové afázie je etablován jako "literární cnost" nebo "post-strukturalistický postoj". Identitární investice činí návrat k pojmové stabilitě obtížným.
+Stav strukturní pojmové afázie je etablován jako „literární cnost“ nebo „post-strukturalistický postoj“. Identitární investice činí návrat k pojmové stabilitě obtížným.
 
 ## Fenomenologické znaky
 
-- **Chronická pojmová neurčitost** — slova přetrvávají, ale významy "tečou".
+- **Chronická pojmová neurčitost** — slova přetrvávají, ale významy „tečou“.
 - **Komunikační selhání** — partneři přestávají rozumět.
 - **Akutní afatické epizody** v formálních kontextech.
 - **Slovní intelektualizace** maskující strukturální afázii.

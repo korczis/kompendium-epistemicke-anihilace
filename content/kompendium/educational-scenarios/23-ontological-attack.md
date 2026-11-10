@@ -138,21 +138,26 @@ Odkažte na [rodinnou reintegraci](@/kompendium/prevention-resilience/26-family-
 ## Související
 
 **Navazující scénáře**
+
 - [Rozpoznání ultramárních technik](@/kompendium/educational-scenarios/21-ultramarine-recognition.md) – ontologický útok jako vrstva kombinace.
 - [Fragmentace identity](@/kompendium/educational-scenarios/25-identity-fragmentation.md) – co se děje se sebepojetím, když chybí kotvy.
 - [Rozpoznání paradigmatu](@/kompendium/educational-scenarios/10-paradigm-recognition.md) – jak rozpoznat rámec, který chce nahradit všechny ostatní.
 
 **Techniky**
+
 - [EA-5.1.29 Ontologická exfoliace](@/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md) – postupné odlupování kategorií.
 - [EA-5.1.14 Iluzorní transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md) – slib „prozření“.
 
 **Detekční signatury**
+
 - [Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md) – vnitřní stopa útoku.
 
 **Zotavení**
+
 - [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md) – první kroky obnovy.
 
 **Glosář**
+
 - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) – pojem a mechanismus.
 - [Spiritual bypassing](@/glossary/spiritual-bypassing.md) – zneužití duchovního jazyka k obcházení reality.
 

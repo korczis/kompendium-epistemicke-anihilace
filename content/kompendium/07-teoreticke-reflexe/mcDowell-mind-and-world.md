@@ -17,21 +17,21 @@ toc = true
 
 # 7.24 McDowell: Mind and World a otevřenost vůči realitě
 
-John McDowell ve svém magisterském díle *Mind and World* (1994) řeší **základní napětí** moderní epistemologie: jak může mysl být **přiměřeně** ve styku s realitou? Mezi **Scyllou koherentismu** (mysl je uzavřená v síti přesvědčení bez kontaktu se světem) a **Charybdou daného** (smyslové vjemy jsou pre-konceptuální "data", jež mysl má "interpretovat") McDowell formuluje **konceptualistickou** pozici: konceptuální schopnosti jsou **přítomny** už v samotné receptivitě.
+John McDowell ve svém magisterském díle *Mind and World* (1994) řeší **základní napětí** moderní epistemologie: jak může mysl být **přiměřeně** ve styku s realitou? Mezi **Scyllou koherentismu** (mysl je uzavřená v síti přesvědčení bez kontaktu se světem) a **Charybdou daného** (smyslové vjemy jsou pre-konceptuální „data“, jež mysl má „interpretovat“) McDowell formuluje **konceptualistickou** pozici: konceptuální schopnosti jsou **přítomny** už v samotné receptivitě.
 
 Pro kompendium EA poskytuje McDowellův rámec nástroj pro pochopení EA jako **narušení primární otevřenosti** subjektu vůči empirickému světu.
 
 ## 1. *Myth of the Given* (Mýtus daného)
 
-McDowell přebírá od Sellarse kritiku **mýtu daného** — pozice, podle níž existují **pre-konceptuální** smyslové vjemy ("daná" data), jež mysl posléze **interpretuje** pomocí konceptů.
+McDowell přebírá od Sellarse kritiku **mýtu daného** — pozice, podle níž existují **pre-konceptuální** smyslové vjemy („daná“ data), jež mysl posléze **interpretuje** pomocí konceptů.
 
 Sellarsův argument: **pre-konceptuální** entitu nelze vůbec **citovat** v ospravedlňování empirických tvrzení — neboť ospravedlňování operuje v prostoru důvodů, a prostor důvodů je strukturálně **konceptuální**.
 
 Pro EA má kritika mýtu daného **trojí relevanci**:
 
-1. **Naivní empirismus jako EA-zranitelná pozice**: subjekt věřící v "čistá data" je strukturálně **manipulovatelný** — útočník může podsouvat **kontaminovaná data** jako "objektivní fakta".
-2. **Algoritmické "data-driven" rétoriky**: pojem "data driven decision making" často skrývá **konceptuální** předpoklady ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)).
-3. **Klinická aplikace**: pacient přemýšlející v termínech "objektivních faktů" vs. "subjektivních pocitů" je strukturálně **zranitelný** vůči gaslightingu.
+1. **Naivní empirismus jako EA-zranitelná pozice**: subjekt věřící v „čistá data“ je strukturálně **manipulovatelný** — útočník může podsouvat **kontaminovaná data** jako „objektivní fakta“.
+2. **Algoritmické „data-driven“ rétoriky**: pojem „data driven decision making“ často skrývá **konceptuální** předpoklady ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)).
+3. **Klinická aplikace**: pacient přemýšlející v termínech „objektivních faktů“ vs. „subjektivních pocitů“ je strukturálně **zranitelný** vůči gaslightingu.
 
 ## 2. Konceptualismus a otevřenost
 
@@ -91,7 +91,7 @@ Pro EA z toho plyne:
 
 Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
-- **Obnovení otevřenosti** jako klinický cíl — nikoli pouze "stabilizace symptomů".
+- **Obnovení otevřenosti** jako klinický cíl — nikoli pouze „stabilizace symptomů“.
 - **Pedagogická dimenze terapie**: terapeut jako **kultivátor** druhé přirozenosti pacienta.
 - **Empirická revize** jako klinická schopnost — pacient se učí **revidovat** přesvědčení pod tlakem evidence.
 

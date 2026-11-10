@@ -123,7 +123,6 @@ Technika **morální osy inverze** představuje strukturální výzvu pro defenz
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Schelerova **rangordnung der Werte** (hierarchie hodnot) — od vitálních přes duchovní k posvátným — je inverzována. Levinasova **éthique** jako první filosofie (precedence druhého před self) je zaměněna se sebezáchovnou egoitou. Kantův **kategorický imperativ** (*Grundlegung*) je formálně zachován při obrácení obsahu. Ricoeurova **estime de soi → sollicitude → justice** sekvence je rozpojena. Damasiovy **sociální emoce** (vina, stud, indignace) ztrácejí svou orientační funkci. Foucaultovy **morale** vs. **éthique** distinkce jsou instrumentalizovány k delegitimizaci pre-manipulační etiky jako pouhé 'morality'. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

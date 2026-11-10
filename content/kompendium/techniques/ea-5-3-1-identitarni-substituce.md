@@ -123,7 +123,6 @@ Technika **identitární substituce** představuje strukturální výzvu pro def
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Ricoeurova **narativní identita** (*Soi-même comme un autre*, 1990) — self je narativní syntéza idem (totožnosti) a ipse (sebství). Substituce zasahuje obě osy: implantát rozkládá idem-kontinuitu a falsifikuje ipse-závazek. Husserlova **pasivní syntéza** (*Analysen zur passiven Synthesis*) ukazuje, jak vrstvení retencí konstituuje self-trvání — útok cílí na pasivní vrstvu. Levinasova **substituce** (*Autrement qu'être*) tu funguje obráceně: namísto etické responzibility za druhého je subjekt nucen převzít druhého jako sebe. Damasiův **autobiografický self** (*The Feeling of What Happens*, 1999) je strukturně závislý na somatických markerech minulých voleb — jejich devalvace eroduje neurální korelát kontinuity. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

@@ -22,7 +22,7 @@ toc = false
 
 ## Operační modus (3 kroky)
 
-1. Postupné dosazování spojenců do rozhodovacích orgánů (vedení katedry, ediční rady, grantové komise) skrze rotace, doplňovací volby, "konsenzuální" jmenování
+1. Postupné dosazování spojenců do rozhodovacích orgánů (vedení katedry, ediční rady, grantové komise) skrze rotace, doplňovací volby, „konsenzuální“ jmenování
 2. Při dosažení většiny — modifikace pravidel (kvórum, hlasovací prahy, mandatorní externí supervize) tak, aby další obměna byla blokována
 3. Konsolidace skrze obsazení key gatekeeper rolí (předseda, secretary); nesouhlas se stane procedurálně neuskutečnitelný
 
@@ -40,7 +40,7 @@ toc = false
 
 ## Příklad
 
-Edicni rada čipového odborného časopisu měla 12 členů z 8 zemí. Během 4 let nový šéfredaktor doplnil 6 míst všemi spolupracovníky z jeho kruhu. Přijímací rate článků kritických k jeho výzkumné linii spadla na 3 %, ostatních zůstala 30 %. Fakta jsou ověřitelná, ale "nepřípustně podsouvají politizaci".
+Edicni rada čipového odborného časopisu měla 12 členů z 8 zemí. Během 4 let nový šéfredaktor doplnil 6 míst všemi spolupracovníky z jeho kruhu. Přijímací rate článků kritických k jeho výzkumné linii spadla na 3 %, ostatních zůstala 30 %. Fakta jsou ověřitelná, ale „nepřípustně podsouvají politizaci“.
 
 ## Cross-linky
 

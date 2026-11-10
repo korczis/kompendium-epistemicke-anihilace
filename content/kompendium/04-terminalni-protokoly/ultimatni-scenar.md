@@ -56,7 +56,7 @@ Tělo subjektu je zatíženo kombinací deprivace (spánek, voda, jídlo, termor
 
 ### Vrstva B — kognitivní zahlcení
 
-Subjekt je vystaven informačnímu vstupu, který strukturálně **přesahuje kapacitu pracovní paměti** (typicky 7±2 chunks): souběžné úkoly, kontradiktorní instrukce, časové tlaky, šum, jazykové obtíže. Cílem je vyčerpání metakognitivních zdrojů a indukce stavu, v němž subjekt nemůže monitorovat vlastní kognitivní procesy. Tento mechanismus přímo souvisí s [metakognitivní destrukcí](@/glossary/metakognitivni-destrukce.md) — subjekt ztrácí přístup k druhořádovému poznání ("vím, že vím / nevím").
+Subjekt je vystaven informačnímu vstupu, který strukturálně **přesahuje kapacitu pracovní paměti** (typicky 7±2 chunks): souběžné úkoly, kontradiktorní instrukce, časové tlaky, šum, jazykové obtíže. Cílem je vyčerpání metakognitivních zdrojů a indukce stavu, v němž subjekt nemůže monitorovat vlastní kognitivní procesy. Tento mechanismus přímo souvisí s [metakognitivní destrukcí](@/glossary/metakognitivni-destrukce.md) — subjekt ztrácí přístup k druhořádovému poznání („vím, že vím / nevím“).
 
 ### Vrstva C — emocionálně-sociální izolace
 
@@ -178,7 +178,6 @@ Ukončení je vždy doprovázeno aktivací klinické intervence, debriefingem s 
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
 - Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
 - Platforma: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} · [NABLA Infinity](@/glossary/nabla-infinity.md) · [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

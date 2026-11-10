@@ -145,7 +145,7 @@ OSINT data umožňují **kalibraci taxonomických tvrzení** proti empirické re
 
 ### Operacionalizace defensivních protokolů
 
-Color Teams **operacionalizují** preventivní a intervenční strategie z kompendia. Každá strategie (např. "epistemická triangulace") má konkrétní implementaci v podobě:
+Color Teams **operacionalizují** preventivní a intervenční strategie z kompendia. Každá strategie (např. „epistemická triangulace“) má konkrétní implementaci v podobě:
 
 - Operačního playbook pro Blue Team
 - Detekčních pravidel pro Yellow Team
@@ -174,7 +174,7 @@ Tento cyklus zajišťuje, že taxonomie **nezaostává za empirickou realitou**.
 DD aplikace taxonomie zahrnuje:
 
 - Detekci manipulativní rétoriky v korporátních prezentacích
-- Identifikaci "narrative inconsistencies" mezi různými zdroji
+- Identifikaci „narrative inconsistencies“ mezi různými zdroji
 - Verifikaci tvrzení proti veřejně dostupným důkazům
 - Forenzní analýzu komunikačních vzorců
 
@@ -182,7 +182,7 @@ Tato doména poskytuje kompendiu **velmi specifické empirické výzvy** — pra
 
 ## Mycelial Intelligence
 
-Mycelial Intelligence je **distribuovaný systém detekce vzorců** napříč případy a doménami. Funguje jako "imunitní systém" platformy:
+Mycelial Intelligence je **distribuovaný systém detekce vzorců** napříč případy a doménami. Funguje jako „imunitní systém“ platformy:
 
 - Identifikuje vzorce, které se opakují napříč zdánlivě nesouvisejícími případy
 - Detekuje koordinované operace skrze cross-reference
@@ -263,7 +263,6 @@ Tyto limitace jsou explicitně reportovány v každém Taxonomy Health Report.
 - [Glossary: Color Teams](@/glossary/color-teams.md)
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
-
 
 ## ⚡ Kritický krok
 

@@ -128,19 +128,23 @@ Domluvte předem, že mohou zvolit roli pozorovatele.
 ## Související
 
 **Navazující scénáře**
+
 - [Řešení rozporů](@/kompendium/educational-scenarios/8-contradiction-resolution.md) – rozpory vznikající z rámců.
 - [Akademická manipulace](@/kompendium/educational-scenarios/11-academic-manipulation.md) – začátek řady Intermediate.
 - [Ontologický útok](@/kompendium/educational-scenarios/23-ontological-attack.md) – útok na samotné kategorie rámce.
 
 **Techniky**
+
 - [EA-7.2.5 Kuhn: Paradigmatický posun](@/kompendium/techniques/ea-7-2-5-kuhn-paradigm-shift.md) – teoretický základ.
 - [EA-4.3.7 Paradigmatic fluidization](@/kompendium/techniques/ea-4-3-7-paradigmatic-fluidization.md) – rozkolísání rámce jako útočný vzorec.
 
 **Sebe-obrana**
+
 - [Pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md) – praktické cvičení.
 - [Kognitivní flexibilita](@/kompendium/self-defense-guides/8-cognitive-flexibility.md) – přepínání mezi rámci.
 
 **Glosář**
+
 - [Kuhnova revoluce](@/glossary/kuhnova-revoluce.md) – pojem a jeho meze.
 - [Hermeneutický kruh](@/glossary/hermeneuticky-kruh.md) – porozumění vždy z předporozumění.
 - [Pluralismus](@/glossary/pluralismus.md) – legitimní mnohost perspektiv.

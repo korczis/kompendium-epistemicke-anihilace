@@ -123,7 +123,6 @@ Technika **temporálně-vývojová inverze** představuje strukturální výzvu 
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Husserlovo **fenomenologie času** (*Vorlesungen zur Phänomenologie des inneren Zeitbewußtseins*) — retenční-přítomné-protenční vědomí konstituuje proudění. Inverze otáčí vektor protence proti retencím. Heideggerova **eksistenciální temporalita** (*Sein und Zeit* §65) — Zukunft jako bytí-k-vlastní-možnosti — je manipulátorem zaplněna cizí možností. Ricoeurova **kruhová temporalita** narativní identity (*Temps et récit III*) — minulost se konstituuje skrze projektovanou budoucnost — je instrumentalizována k retroaktivní falsifikaci. Bergsonova **durée** (*Essai sur les données immédiates*) ztrácí kvalitativní heterogenitu, kolabuje do iterativního opakování. Damasiův **autobiografický self** ztrácí temporální anchor. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

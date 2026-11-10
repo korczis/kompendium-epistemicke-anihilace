@@ -35,6 +35,7 @@ Protokol **Collateral Interview Protokol** se aplikuje v rámci širší klinick
 ## Hodnotící kritéria
 
 Klinický postup **Collateral Interview Protokol** používá tyto výsledkové měřítka:
+
 - Standardní sebepopulační škály (PHQ-9, GAD-7, IES-R) — týdenní kadence
 - Working Alliance Inventory (WAI) — měsíční kadence
 - Strukturované klinické rozhovory — kvartální kadence
@@ -43,6 +44,7 @@ Klinický postup **Collateral Interview Protokol** používá tyto výsledkové 
 ## Kontraindikace
 
 Před zahájením **Collateral Interview Protokol** vylučte:
+
 - Aktivní psychóza nezvládnutá medikamentózně
 - Akutní suicidalita vyžadující hospitalizaci
 - Akutní intoxikace
@@ -50,7 +52,6 @@ Před zahájením **Collateral Interview Protokol** vylučte:
 
 Pro detailní postup viz parent index a sourozenecké klinické články.
 <!-- EXPANDED:PHASE11 -->
-
 
 ## See Also
 
@@ -64,7 +65,6 @@ Pro detailní postup viz parent index a sourozenecké klinické články.
 ## Manažerské shrnutí
 
 **Collateral Interview Protokol** je aktivní uzel taxonomického grafu sekce `kompendium/06-klinicke-aplikace` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
-
 
 ## Koncepční síť
 

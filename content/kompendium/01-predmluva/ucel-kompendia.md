@@ -53,7 +53,7 @@ Klasické nozologické systémy (DSM-5-TR, ICD-11) **nezachycují** většinu fe
 
 ### 1. Identifikace subtilních forem epistemického traumatu
 
-Mnoho forem epistemické manipulace zůstává **nezachyceno v běžné klinické praxi**, přestože může mít devastující následky pro kognitivní integritu a psychické zdraví jedince. [Anankastický režim](@/glossary/anankasticky-rezim.md) je typickým příkladem — stav charakterizovaný extrémní rigiditou myšlení, který postupně vede k epistemické izolaci a ztrátě kontaktu s realitou. Bez systematické taxonomie zůstávají tyto stavy diagnostikovány jako "úzkostná porucha", "obsedantně-kompulzivní porucha" nebo "atypická deprese" — popisy, které **přehlížejí specifický epistemický rozměr** patologie a vedou k neadekvátní intervenci.
+Mnoho forem epistemické manipulace zůstává **nezachyceno v běžné klinické praxi**, přestože může mít devastující následky pro kognitivní integritu a psychické zdraví jedince. [Anankastický režim](@/glossary/anankasticky-rezim.md) je typickým příkladem — stav charakterizovaný extrémní rigiditou myšlení, který postupně vede k epistemické izolaci a ztrátě kontaktu s realitou. Bez systematické taxonomie zůstávají tyto stavy diagnostikovány jako „úzkostná porucha“, „obsedantně-kompulzivní porucha“ nebo „atypická deprese“ — popisy, které **přehlížejí specifický epistemický rozměr** patologie a vedou k neadekvátní intervenci.
 
 ### 2. Pochopení strukturálních invariant
 
@@ -121,7 +121,6 @@ Na rozdíl od klasických nozologických manuálů kompendium **explicitně odm�
 - [Glossary: Anankastický režim](@/glossary/anankasticky-rezim.md)
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-
 
 ## ⚡ Kritický krok
 

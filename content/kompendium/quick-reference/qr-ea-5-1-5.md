@@ -24,15 +24,15 @@ toc = false
 
 ## Definice
 
-**Logická diskontinuita** je technika opakovaného **přerušování logických řetězců** subjektu nesouvislými, nesouměřitelnými nebo retroaktivně přerámovanými výroky, dokud subjekt přestane prožívat logickou koherenci jako přístupný cíl. Manipulátor systematicky vkládá *non sequitur*, retroaktivně mění premisy, vyměňuje úrovně diskurzu (deskriptivní → normativní → estetický) bez signalizace a používá *informal moves* jako "ale to je úplně jiné", aniž by ozřejmil rozdíl. Subjekt v terminálním stadiu přestává argumentovat — logika přestala být použitelným nástrojem orientace v jeho doméně. Strukturálně blízké *gish gallop* a Frankfurtově *bullshit*, ale specificky cílené na logický aparát.
+**Logická diskontinuita** je technika opakovaného **přerušování logických řetězců** subjektu nesouvislými, nesouměřitelnými nebo retroaktivně přerámovanými výroky, dokud subjekt přestane prožívat logickou koherenci jako přístupný cíl. Manipulátor systematicky vkládá *non sequitur*, retroaktivně mění premisy, vyměňuje úrovně diskurzu (deskriptivní → normativní → estetický) bez signalizace a používá *informal moves* jako „ale to je úplně jiné“, aniž by ozřejmil rozdíl. Subjekt v terminálním stadiu přestává argumentovat — logika přestala být použitelným nástrojem orientace v jeho doméně. Strukturálně blízké *gish gallop* a Frankfurtově *bullshit*, ale specificky cílené na logický aparát.
 
 ## Operační modus (5 kroků)
 
 1. **Akceptace premisy** — manipulátor v debatě převzata subjektovu premisu jako sdílenou.
 2. **Skok napříč úrovněmi** — odpověď je formulována na úrovni, která **není navazující** (deskriptivní otázka → normativní odpověď, faktická otázka → emocionální výtka).
-3. **Retroaktivní revize premis** — když subjekt poukáže na nesouvislost, manipulátor "ale jsem nemyslel/a, že…" mění premisu zpětně.
+3. **Retroaktivní revize premis** — když subjekt poukáže na nesouvislost, manipulátor „ale jsem nemyslel/a, že…“ mění premisu zpětně.
 4. **Multiplikace os debaty** — místo jedné koherentní disputace pět paralelních témat, každá s vlastní (ne)logikou.
-5. **Vyhasnutí logické iniciativy** — subjekt přestává argumentovat, přijímá závěr "není to o logice".
+5. **Vyhasnutí logické iniciativy** — subjekt přestává argumentovat, přijímá závěr „není to o logice“.
 
 ## Fenomenologické znaky
 

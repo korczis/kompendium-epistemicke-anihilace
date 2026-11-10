@@ -111,12 +111,14 @@ Během aktivní expozice (simulativní nebo terapeutické) musí být zaveden mu
 Real-time systém musí mít **explicitně specifikovaná** trigger criteria pro:
 
 **Level 1 — Enhanced monitoring** (zvýšená pozornost, ale expozice pokračuje):
+
 - HRV pokles > 20% baseline
 - Subjektivní stres VAS > 8/10 přetrvávající > 5 min
 - Mírná dezorientace
 - Verbalizace hraniční disociace
 
 **Level 2 — Pause and assess** (pauza, klinické zhodnocení):
+
 - HR > 90% maximum predicted age-adjusted
 - Subjektivní stres VAS = 10/10 přetrvávající > 2 min
 - Středně silná disociativní symptomatologie (DES > 30)
@@ -124,6 +126,7 @@ Real-time systém musí mít **explicitně specifikovaná** trigger criteria pro
 - Silná autonomní dysregulace
 
 **Level 3 — Immediate abort** (okamžité ukončení):
+
 - Suicidální ideace s plánem
 - Akutní psychotická symptomatologie
 - Život ohrožující kardiovaskulární událost
@@ -200,6 +203,7 @@ Cíl: regulace autonomního systému; resolution somatických sekvel; rekonstruk
 Standardní IRB nepostačuje. Pro práci s terminálními protokoly je nezbytný **specializovaný review board** s následující strukturou:
 
 **Povinné role:**
+
 - Klinický psycholog nebo psychiatr s expertízou v trauma a [epistemické anihilaci](@/glossary/epistemicka-anihilace.md)
 - Etik specializovaný na výzkumnou etiku v high-risk oblastech
 - Právní expert v oblasti výzkumné etiky a informovaného souhlasu
@@ -208,6 +212,7 @@ Standardní IRB nepostačuje. Pro práci s terminálními protokoly je nezbytný
 - Expert v relevantní subject area (vojenský, klinický, intelligence)
 
 **Procedurální požadavky:**
+
 - Prospektivní review každého protokolu před zahájením
 - Ongoing review v pravidelných intervalech (typicky kvartálně)
 - Adverse event review do 24 hodin
@@ -252,6 +257,7 @@ Pro adresování problematických praktik uvnitř výzkumného programu:
 ## 6. Dokumentační požadavky a chain of custody
 
 Robustní dokumentace je nezbytná pro:
+
 - Etickou accountability
 - Forenzní potřeby (pokud dojde k adverse event)
 - Reprodukovatelnost výzkumu
@@ -283,6 +289,7 @@ Pro citlivé data (zejména video/audio recordings, identifikovatelné psychiatr
 ### Audit logs
 
 Standardní auditní log musí zachycovat:
+
 - Kdo přistupoval k datům
 - Kdy
 - Z jaké lokace
@@ -332,18 +339,21 @@ I při dokonale designovaném programu může dojít k akutní dekompenzaci subj
 ### Klasifikace failure modes
 
 **Acute decompensation:**
+
 - Akutní psychotická epizoda
 - Suicidální krize
 - Disociativní stav
 - Život ohrožující somatická událost
 
 **Sub-acute decompensation:**
+
 - Vznikající PTSD symptomatologie
 - Disociativní symptomy přetrvávající > 24h
 - Major depressive episode
 - Substance use jako coping
 
 **Chronic decompensation:**
+
 - Komplexní PTSD
 - Maladaptivní coping mechanismy
 - Profesionální dysfunkce
@@ -428,7 +438,6 @@ Návaznost: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/
 - [Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — evidence-based hodnocení rozhodnutí
-
 
 ## ⚡ Kritický krok
 

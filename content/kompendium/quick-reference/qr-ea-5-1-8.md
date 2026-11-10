@@ -24,14 +24,14 @@ toc = false
 
 ## Definice
 
-**Konceptuální fragmentace** rozštěpí jednotný pojem subjektu na **nesouvisející části**, z nichž každá je legitimní, ale celek se rozpadá. Na rozdíl od konceptuální nihilace (která pojem ruší) fragmentace **zachovává** všechny prvky, ale **odstraňuje strukturální vazby** mezi nimi. Subjekt se ocitá ve stavu, v němž "víš všechno o lásce, ale nedokážeš lásku poznat", "rozumíš odpovědnosti po částech, ale celek se rozpadá při pokusu jednat". Strukturálně je technika modelovatelná jako *graph cut*: koncept = graf, kde uzly přežijí, ale hrany jsou rozříznuty. V terminálním stadiu nastává *integrative collapse* — subjekt nemůže provést jednotnou akci, protože nedokáže pojem-celek udržet.
+**Konceptuální fragmentace** rozštěpí jednotný pojem subjektu na **nesouvisející části**, z nichž každá je legitimní, ale celek se rozpadá. Na rozdíl od konceptuální nihilace (která pojem ruší) fragmentace **zachovává** všechny prvky, ale **odstraňuje strukturální vazby** mezi nimi. Subjekt se ocitá ve stavu, v němž „víš všechno o lásce, ale nedokážeš lásku poznat“, „rozumíš odpovědnosti po částech, ale celek se rozpadá při pokusu jednat“. Strukturálně je technika modelovatelná jako *graph cut*: koncept = graf, kde uzly přežijí, ale hrany jsou rozříznuty. V terminálním stadiu nastává *integrative collapse* — subjekt nemůže provést jednotnou akci, protože nedokáže pojem-celek udržet.
 
 ## Operační modus (5 kroků)
 
 1. **Mapování konceptuálního pole** — manipulátor identifikuje strukturální komponenty pojmu (důvěra = předvídatelnost + spolehlivost + dobrá vůle + transparentnost).
 2. **Postupné izolování komponent** — každá komponenta je zvlášť zpochybněna nebo redefinována.
-3. **Anti-syntéza** — návrh na "sjednocení" je systematicky blokován ("ale to není totéž!").
-4. **Komparativní rozštěp** — komponenty jsou prezentovány jako vzájemně neslučitelné ("buď chceš spolehlivost, nebo dobrou vůli").
+3. **Anti-syntéza** — návrh na „sjednocení“ je systematicky blokován („ale to není totéž!“).
+4. **Komparativní rozštěp** — komponenty jsou prezentovány jako vzájemně neslučitelné („buď chceš spolehlivost, nebo dobrou vůli“).
 5. **Integrativní paralýza** — subjekt přestává pojem aplikovat v praxi, protože nedokáže komponenty složit.
 
 ## Fenomenologické znaky
@@ -60,7 +60,7 @@ toc = false
 
 ## Klinický kontext
 
-Konceptuální fragmentace se vyskytuje v hyperakademických prostředích, jež "operacionalizují" vše do měřitelných subkomponent (čímž rozkládají integrativní pojmy ctnosti, vztahu, péče), v některých formách kognitivně-behaviorální terapie, jež dělí emoce na komponenty bez rekonstrukce, a v korporátních prostředích, kde "kompetence" jsou rozštěpeny do KPI matrice. Diferenciálně se odlišuje od **legitimní analytické dekompozice** (která vždy předpokládá rekonstrukci celku) — fragmentace **neumí** komponenty složit zpět.
+Konceptuální fragmentace se vyskytuje v hyperakademických prostředích, jež „operacionalizují“ vše do měřitelných subkomponent (čímž rozkládají integrativní pojmy ctnosti, vztahu, péče), v některých formách kognitivně-behaviorální terapie, jež dělí emoce na komponenty bez rekonstrukce, a v korporátních prostředích, kde „kompetence“ jsou rozštěpeny do KPI matrice. Diferenciálně se odlišuje od **legitimní analytické dekompozice** (která vždy předpokládá rekonstrukci celku) — fragmentace **neumí** komponenty složit zpět.
 
 ## Cross-linky
 

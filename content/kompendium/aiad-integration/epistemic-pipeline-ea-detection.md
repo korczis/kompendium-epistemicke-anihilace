@@ -25,7 +25,7 @@ Epistemic Pipeline implementuje 14 axiomů z [07-teoreticke-reflexe/](@/kompendi
 
 ## Detection mechanisms
 
-Detekce: **claim-level granularita** — každý jednotlivý výrok prochází 14 stages (extract, normalize, weight, cross-reference, contradiction-check, ...) s aggregovaným epistemic-integrity skóre.
+Detekce: **claim-level granularita** — každý jednotlivý výrok prochází 14 stages (extract, normalize, weight, cross-reference, contradiction-check, …) s aggregovaným epistemic-integrity skóre.
 
 ## Operational protocols
 

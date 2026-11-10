@@ -45,11 +45,11 @@ EA-5.2.5 systematicky narušuje funkci těchto principů. Subjekt nadále **perc
 
 ### Krok 1 — Mapování konstitutivních automatismů
 
-Manipulátor zkoumá, jakými **automatickými konstitutivními akty** subjekt operuje — jak se mu věci ukazují jako věci, lidé jako lidé, slova jako slova. Mapování je často skryto v dlouhodobých rozhovorech o "podivnosti zkušenosti".
+Manipulátor zkoumá, jakými **automatickými konstitutivními akty** subjekt operuje — jak se mu věci ukazují jako věci, lidé jako lidé, slova jako slova. Mapování je často skryto v dlouhodobých rozhovorech o „podivnosti zkušenosti“.
 
 ### Krok 2 — Indukce reflexivního obratu
 
-Manipulátor systematicky **přesměrovává pozornost** subjektu z **noematu** (toho, co se ukazuje) na **noesis** (akt ukazování). *"Všimni si, že to není ten strom — je to akt, kterým ho jako strom konstruuješ."* Tato fáze je zpočátku **legitimní fenomenologickou prací** a stává se patologickou až s rostoucí intenzitou a izolací.
+Manipulátor systematicky **přesměrovává pozornost** subjektu z **noematu** (toho, co se ukazuje) na **noesis** (akt ukazování). *„Všimni si, že to není ten strom — je to akt, kterým ho jako strom konstruuješ.“* Tato fáze je zpočátku **legitimní fenomenologickou prací** a stává se patologickou až s rostoucí intenzitou a izolací.
 
 ### Krok 3 — Saturace meta-aktem
 
@@ -59,16 +59,16 @@ Subjekt je veden k **trvalé reflexi konstitutivního aktu**, dokud se **automat
 
 Po destrukci časové syntézy se rozšiřuje destrukce na další konstitutivní akty: **prostorovou organizaci**, **kategoriální syntézu** (subjekt nedokáže přiřadit věci k její kategorii), **vlastnostní apercepci** (vlastnost se neukazuje jako vlastnost něčeho).
 
-### Krok 5 — Stabilizace stavu jako "vyšší úrovně"
+### Krok 5 — Stabilizace stavu jako „vyšší úrovně“
 
-Stav rozpadu je **legitimizován** jako *"přímý kontakt s realitou"*, *"viděním před konstitucí"*. Tato legitimizace je strukturálně podobná EA-5.2.2 (transcendentální iluze), ale operuje na úrovni rozpadu, ne na úrovni iluzorního překročení.
+Stav rozpadu je **legitimizován** jako *„přímý kontakt s realitou“*, *„viděním před konstitucí“*. Tato legitimizace je strukturálně podobná EA-5.2.2 (transcendentální iluze), ale operuje na úrovni rozpadu, ne na úrovni iluzorního překročení.
 
 ## Fenomenologie
 
 - **Proud bez předmětů** — subjekt vidí barvy, slyší zvuky, ale **chybí věci**.
 - **Časová desyntéza** — okamžiky se neorganizují do plynulého toku; každý okamžik je **fragment**, který se nepřipojuje k předchozímu.
-- **Aperspektivní pole** — chybí *"odsud-tam"* organizace zkušenosti.
-- **Cizota známých objektů** — vlastní byt vypadá jako *"shluk barev a tvarů"*, který subjekt **rozpozná**, ale **neprožije** jako svůj byt.
+- **Aperspektivní pole** — chybí *„odsud-tam“* organizace zkušenosti.
+- **Cizota známých objektů** — vlastní byt vypadá jako *„shluk barev a tvarů“*, který subjekt **rozpozná**, ale **neprožije** jako svůj byt.
 - **Specifická forma odcizení**, která se liší od depersonalizace tím, že **chybí Já**, vůči kterému by zkušenost byla cizí.
 - **Vyhasnutí motivace** — bez konstitucí předmětů chybí to, na co by motivace mířila.
 
@@ -114,7 +114,7 @@ Pokud je subjekt zapojen do meditační praxe nebo fenomenologického cvičení,
 
 #### 2. Senzorická reukotvenění
 
-Cvičení strukturované senzorické pozornosti k běžným předmětům, doprovázené **explicitní noematickou apercepcí**: *"Toto je hrnek, který drží kávu, kterou piju, abych se probudil."* Cíl: **reaktivovat konstitutivní automatismus**.
+Cvičení strukturované senzorické pozornosti k běžným předmětům, doprovázené **explicitní noematickou apercepcí**: *„Toto je hrnek, který drží kávu, kterou piju, abych se probudil.“* Cíl: **reaktivovat konstitutivní automatismus**.
 
 #### 3. Sociální rekontextualizace
 
@@ -144,7 +144,7 @@ Intervence: 18 měsíců strukturované klinické práce s fenomenologicky vzdě
 
 ### Případ 2 — Akademická amplifikace
 
-PhD kandidát ve fenomenologii rozvinul perzistentní reflexivní obrat — během dvou let výzkumné práce přestal **přirozeně konstituovat** sociální situace. Schůze, hovory, jídlo prožíval jako *"mechanizmus, na který se musí soustředit"*.
+PhD kandidát ve fenomenologii rozvinul perzistentní reflexivní obrat — během dvou let výzkumné práce přestal **přirozeně konstituovat** sociální situace. Schůze, hovory, jídlo prožíval jako *„mechanizmus, na který se musí soustředit“*.
 
 Detekce: kolegové zaznamenali, že subjekt **přestává reagovat** na sociální podněty způsobem, který by odpovídal jejich obsahu.
 
@@ -154,7 +154,7 @@ Intervence: změna výzkumného tématu, supervize klinickým fenomenologem, pos
 
 Subjekt po vysoké dávce psychedelika bez integračního rámce vyvinul perzistentní rozpad konstitutivních principů. Stav trval **18 měsíců** s postupnou stabilizací.
 
-Detekce: partner subjektu zjistil, že subjekt **prožívá běžné prostředí** jako *"zvláštní a vzdálené"* po několika měsících od zážitku.
+Detekce: partner subjektu zjistil, že subjekt **prožívá běžné prostředí** jako *„zvláštní a vzdálené“* po několika měsících od zážitku.
 
 Intervence: integrační terapie zaměřená na rekonstrukci konstitutivních syntéz; klinický rámec rozšířený o **somatické techniky** ukotvení.
 
@@ -189,7 +189,6 @@ Intervence: integrační terapie zaměřená na rekonstrukci konstitutivních sy
   - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
   - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-
 
 ## ⚡ Kritický krok
 

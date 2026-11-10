@@ -12,7 +12,6 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 
 **369 položek**, seřazených podle autora.
 
-
 ## A
 
 - Abbey, R. (2000). *Charles Taylor*. Acumen.  
@@ -31,7 +30,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [7.18 Arendt: Banalita zla a krize úsudku](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md), [7.19 Arendt: Myšlení jako etická aktivita](@/kompendium/07-teoreticke-reflexe/hannah-arendt-myslení.md)</small>
 - Arendtová, H. (1963/2006). *Eichmann v Jeruzalémě*. Mladá fronta.  
   <small>Citováno: [7.18 Arendt: Banalita zla a krize úsudku](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)</small>
-- Arendtová, H. (1971). "Thinking and Moral Considerations". *Social Research* 38(3).  
+- Arendtová, H. (1971). „Thinking and Moral Considerations“. *Social Research* 38(3).  
   <small>Citováno: [7.19 Arendt: Myšlení jako etická aktivita](@/kompendium/07-teoreticke-reflexe/hannah-arendt-myslení.md)</small>
 - Arendtová, H. (1978/2017). *Život ducha*. Aurora.  
   <small>Citováno: [7.18 Arendt: Banalita zla a krize úsudku](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md), [7.19 Arendt: Myšlení jako etická aktivita](@/kompendium/07-teoreticke-reflexe/hannah-arendt-myslení.md)</small>
@@ -48,7 +47,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Historický případ: Deep state narativ](@/kompendium/historical-cases/30-deep-state-narrative.md)</small>
 - Barkun, M. (2003). *A Culture of Conspiracy: Apocalyptic Visions in Contemporary America*.  
   <small>Citováno: [Historický případ: QAnon](@/kompendium/historical-cases/28-qanon.md)</small>
-- Bechara, A., Damasio, H., Tranel, D. & Damasio, A. (1997). "Deciding Advantageously Before Knowing the Advantageous Strategy". *Science* 275.  
+- Bechara, A., Damasio, H., Tranel, D. & Damasio, A. (1997). „Deciding Advantageously Before Knowing the Advantageous Strategy“. *Science* 275.  
   <small>Citováno: [7.45 Damasio: Somatic Marker a vtělené emoce](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md)</small>
 - Benkler, Y., Faris, R., & Roberts, H. (2018). *Network Propaganda: Manipulation,  
   <small>Citováno: [Historický případ: Pizzagate](@/kompendium/historical-cases/29-pizzagate.md)</small>
@@ -68,11 +67,11 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [7.50 Dawkins: Mem a kulturní replikátory](@/kompendium/07-teoreticke-reflexe/dawkins-meme.md)</small>
 - Blackmore, S. (2017). *Consciousness: An Introduction*. Routledge.  
   <small>Citováno: [7.42 Metzinger: Ego Tunnel a fenomenální self-model](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md)</small>
-- Block, N. (1995). "On a Confusion about a Function of Consciousness". *Behavioral and Brain Sciences* 18.  
+- Block, N. (1995). „On a Confusion about a Function of Consciousness“. *Behavioral and Brain Sciences* 18.  
   <small>Citováno: [7.38 Block: Phenomenal vs. Access Consciousness](@/kompendium/07-teoreticke-reflexe/block-phenomenal-vs-access.md)</small>
-- Block, N. (2007). "Consciousness, Accessibility, and the Mesh". *Behavioral and Brain Sciences* 30.  
+- Block, N. (2007). „Consciousness, Accessibility, and the Mesh“. *Behavioral and Brain Sciences* 30.  
   <small>Citováno: [7.38 Block: Phenomenal vs. Access Consciousness](@/kompendium/07-teoreticke-reflexe/block-phenomenal-vs-access.md)</small>
-- Block, N. (2011). "Perceptual Consciousness Overflows Cognitive Access". *Trends in Cognitive Sciences* 15.  
+- Block, N. (2011). „Perceptual Consciousness Overflows Cognitive Access“. *Trends in Cognitive Sciences* 15.  
   <small>Citováno: [7.38 Block: Phenomenal vs. Access Consciousness](@/kompendium/07-teoreticke-reflexe/block-phenomenal-vs-access.md)</small>
 - Block, N., Flanagan, O. & Güzeldere, G. (eds.) (1997). *The Nature of Consciousness*. MIT Press.  
   <small>Citováno: [7.38 Block: Phenomenal vs. Access Consciousness](@/kompendium/07-teoreticke-reflexe/block-phenomenal-vs-access.md)</small>
@@ -111,7 +110,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [7.15 Sartre: Existencialismus, špatná víra a svoboda](@/kompendium/07-teoreticke-reflexe/sartre-existencialismus.md)</small>
 - Ceci, S. J., Bruck, M. (1995). *Jeopardy in the Courtroom*.  
   <small>Citováno: [Historický případ: Satanská panika](@/kompendium/historical-cases/38-satanic-panic.md)</small>
-- Chalmers, D. (1995). "Facing Up to the Problem of Consciousness". *Journal of Consciousness Studies* 2.  
+- Chalmers, D. (1995). „Facing Up to the Problem of Consciousness“. *Journal of Consciousness Studies* 2.  
   <small>Citováno: [7.37 Chalmers: Hard Problem of Consciousness](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md)</small>
 - Chalmers, D. (1996). *The Conscious Mind*. Oxford UP.  
   <small>Citováno: [7.37 Chalmers: Hard Problem of Consciousness](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md)</small>
@@ -141,7 +140,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [7.49 Clark: Natural-Born Cyborgs a hluboká integrace s technologiemi](@/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs.md), [7.41 Clark: Rozšířená mysl a kognitivní artefakty](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)</small>
 - Clark, A. (2016). *Surfing Uncertainty*. Oxford UP.  
   <small>Citováno: [7.49 Clark: Natural-Born Cyborgs a hluboká integrace s technologiemi](@/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs.md), [7.41 Clark: Rozšířená mysl a kognitivní artefakty](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)</small>
-- Clark, A. & Chalmers, D. (1998). "The Extended Mind". *Analysis* 58.  
+- Clark, A. & Chalmers, D. (1998). „The Extended Mind“. *Analysis* 58.  
   <small>Citováno: [7.37 Chalmers: Hard Problem of Consciousness](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md), [7.49 Clark: Natural-Born Cyborgs a hluboká integrace s technologiemi](@/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs.md), [7.41 Clark: Rozšířená mysl a kognitivní artefakty](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)</small>
 - Close, F. (1991). *Too Hot to Handle: The Race for Cold Fusion*.  
   <small>Citováno: [Historický případ: Studená fúze](@/kompendium/historical-cases/36-cold-fusion.md)</small>
@@ -178,7 +177,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [7.35 Dennett: Intentional Stance a vrstvy interpretace](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md)</small>
 - Dennett, D. (1991). *Consciousness Explained*. Little, Brown.  
   <small>Citováno: [7.51 Dennett: From Bacteria to Bach a evoluční vědomí](@/kompendium/07-teoreticke-reflexe/dennett-from-bacteria-to-bach.md), [7.35 Dennett: Intentional Stance a vrstvy interpretace](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md)</small>
-- Dennett, D. (1991). "Real Patterns". *Journal of Philosophy* 88.  
+- Dennett, D. (1991). „Real Patterns“. *Journal of Philosophy* 88.  
   <small>Citováno: [7.35 Dennett: Intentional Stance a vrstvy interpretace](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md)</small>
 - Dennett, D. (1995). *Darwin's Dangerous Idea*. Simon & Schuster.  
   <small>Citováno: [7.51 Dennett: From Bacteria to Bach a evoluční vědomí](@/kompendium/07-teoreticke-reflexe/dennett-from-bacteria-to-bach.md), [7.35 Dennett: Intentional Stance a vrstvy interpretace](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md)</small>
@@ -244,13 +243,13 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Historický případ: Studie v Tuskegee](@/kompendium/historical-cases/32-tuskegee.md)</small>
 - **Fricker, M.** (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford: Oxford University Press. — Testimoniální a hermeneutická nespravedlnost.  
   <small>Citováno: [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)</small>
-- Friston, K. (2010). "The free-energy principle: a unified brain theory?". *Nature Reviews Neuroscience* 11.  
+- Friston, K. (2010). „The free-energy principle: a unified brain theory?“. *Nature Reviews Neuroscience* 11.  
   <small>Citováno: [7.40 Friston: Active Inference a free energy principle](@/kompendium/07-teoreticke-reflexe/friston-active-inference.md)</small>
-- Friston, K. (2013). "Life as we know it". *Journal of the Royal Society Interface* 10.  
+- Friston, K. (2013). „Life as we know it“. *Journal of the Royal Society Interface* 10.  
   <small>Citováno: [7.40 Friston: Active Inference a free energy principle](@/kompendium/07-teoreticke-reflexe/friston-active-inference.md)</small>
-- Friston, K., FitzGerald, T., Rigoli, F., Schwartenbeck, P. & Pezzulo, G. (2017). "Active Inference: A Process Theory". *Neural Computation* 29.  
+- Friston, K., FitzGerald, T., Rigoli, F., Schwartenbeck, P. & Pezzulo, G. (2017). „Active Inference: A Process Theory“. *Neural Computation* 29.  
   <small>Citováno: [7.40 Friston: Active Inference a free energy principle](@/kompendium/07-teoreticke-reflexe/friston-active-inference.md)</small>
-- Funtowicz, S. & Ravetz, J. (1993). "Science for the Post-Normal Age". *Futures* 25(7).  
+- Funtowicz, S. & Ravetz, J. (1993). „Science for the Post-Normal Age“. *Futures* 25(7).  
   <small>Citováno: [7.11 Kuhn: Paradigmatické revoluce a inkomensurabilita](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md)</small>
 
 ## G
@@ -338,9 +337,9 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)</small>
 - Hutchins, E. (1995). *Cognition in the Wild*. MIT Press.  
   <small>Citováno: [7.48 Hutchins: Distribuovaná kognice a kulturní artefakty](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md)</small>
-- Hutchins, E. (1995). "How a Cockpit Remembers Its Speeds". *Cognitive Science* 19.  
+- Hutchins, E. (1995). „How a Cockpit Remembers Its Speeds“. *Cognitive Science* 19.  
   <small>Citováno: [7.48 Hutchins: Distribuovaná kognice a kulturní artefakty](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md)</small>
-- Hutchins, E. (2014). "The Cultural Ecosystem of Human Cognition". *Philosophical Psychology* 27.  
+- Hutchins, E. (2014). „The Cultural Ecosystem of Human Cognition“. *Philosophical Psychology* 27.  
   <small>Citováno: [7.48 Hutchins: Distribuovaná kognice a kulturní artefakty](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md)</small>
 - Hutto, D. & Myin, E. (2013). *Radicalizing Enactivism*. MIT Press.  
   <small>Citováno: [7.44 Varela: Enaktivismus a embodied cognition](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)</small>
@@ -503,7 +502,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [7.42 Metzinger: Ego Tunnel a fenomenální self-model](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md)</small>
 - Metzinger, T. (2018). *Suffering* in *Philosophie und Wissenschaft*. Klostermann.  
   <small>Citováno: [7.42 Metzinger: Ego Tunnel a fenomenální self-model](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md)</small>
-- Metzinger, T. (2021). "Artificial Suffering: An Argument for a Global Moratorium on Synthetic Phenomenology". *Journal of Artificial Intelligence and Consciousness* 8.  
+- Metzinger, T. (2021). „Artificial Suffering: An Argument for a Global Moratorium on Synthetic Phenomenology“. *Journal of Artificial Intelligence and Consciousness* 8.  
   <small>Citováno: [7.42 Metzinger: Ego Tunnel a fenomenální self-model](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md)</small>
 - Michaels, D. (2008). *Doubt Is Their Product*.  
   <small>Citováno: [Historický případ: Manipulace tabákovým průmyslem](@/kompendium/historical-cases/25-tobacco-doubt.md)</small>
@@ -522,7 +521,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 
 - Nagel, T. (1970). *The Possibility of Altruism*. Princeton UP.  
   <small>Citováno: [7.29 Nagel: View from Nowhere a paradox objektivity](@/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere.md)</small>
-- Nagel, T. (1974). "What Is It Like to Be a Bat?". *The Philosophical Review* 83(4).  
+- Nagel, T. (1974). „What Is It Like to Be a Bat?“. *The Philosophical Review* 83(4).  
   <small>Citováno: [7.29 Nagel: View from Nowhere a paradox objektivity](@/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere.md)</small>
 - Nagel, T. (1979). *Mortal Questions*. Cambridge UP.  
   <small>Citováno: [7.29 Nagel: View from Nowhere a paradox objektivity](@/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere.md)</small>
@@ -574,7 +573,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Historický případ: Pizzagate](@/kompendium/historical-cases/29-pizzagate.md)</small>
 - Polanyi, M. (1958/1998). *Personal Knowledge: Towards a Post-Critical Philosophy*. Routledge.  
   <small>Citováno: [7.13 Polanyi: Tichá znalost a osobní poznání](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)</small>
-- Polanyi, M. (1962). "The Republic of Science: Its Political and Economic Theory". *Minerva* 1.  
+- Polanyi, M. (1962). „The Republic of Science: Its Political and Economic Theory“. *Minerva* 1.  
   <small>Citováno: [7.13 Polanyi: Tichá znalost a osobní poznání](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)</small>
 - Polanyi, M. (1966). *The Tacit Dimension*. University of Chicago Press.  
   <small>Citováno: [7.13 Polanyi: Tichá znalost a osobní poznání](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)</small>
@@ -607,7 +606,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 
 ## Q
 
-- Quine, W. V. O. (1951). "Two Dogmas of Empiricism". *Philosophical Review* 60.  
+- Quine, W. V. O. (1951). „Two Dogmas of Empiricism“. *Philosophical Review* 60.  
   <small>Citováno: [7.26 Quine: Síť přesvědčení a holismus](@/kompendium/07-teoreticke-reflexe/quine-web-of-belief.md)</small>
 - **Quine, W. V. O.** (1951). *Two Dogmas of Empiricism*. *Philosophical Review*, 60(1), 20–43. — Holistická revize, neúčinnost analyticko-syntetické distinkce.  
   <small>Citováno: [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)</small>
@@ -663,7 +662,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [7.15 Sartre: Existencialismus, špatná víra a svoboda](@/kompendium/07-teoreticke-reflexe/sartre-existencialismus.md)</small>
 - Sartre, J.-P. (1946/2004). *Existencialismus je humanismus*. Vyšehrad.  
   <small>Citováno: [7.15 Sartre: Existencialismus, špatná víra a svoboda](@/kompendium/07-teoreticke-reflexe/sartre-existencialismus.md)</small>
-- Searle, J. (1980). "Minds, Brains, and Programs". *Behavioral and Brain Sciences* 3.  
+- Searle, J. (1980). „Minds, Brains, and Programs“. *Behavioral and Brain Sciences* 3.  
   <small>Citováno: [7.36 Searle: Čínský pokoj a kritika silné AI](@/kompendium/07-teoreticke-reflexe/searle-chinese-room.md)</small>
 - Searle, J. (1992). *The Rediscovery of the Mind*. MIT Press.  
   <small>Citováno: [7.36 Searle: Čínský pokoj a kritika silné AI](@/kompendium/07-teoreticke-reflexe/searle-chinese-room.md)</small>
@@ -730,7 +729,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [7.32 Taylor: Sources of Self a moderní identita](@/kompendium/07-teoreticke-reflexe/taylor-sources-of-self.md)</small>
 - Taylor, C. (1991/1992). *The Ethics of Authenticity*. Harvard UP.  
   <small>Citováno: [7.32 Taylor: Sources of Self a moderní identita](@/kompendium/07-teoreticke-reflexe/taylor-sources-of-self.md)</small>
-- Taylor, C. (1992). "The Politics of Recognition". In: *Multiculturalism*. Princeton UP.  
+- Taylor, C. (1992). „The Politics of Recognition“. In: *Multiculturalism*. Princeton UP.  
   <small>Citováno: [7.32 Taylor: Sources of Self a moderní identita](@/kompendium/07-teoreticke-reflexe/taylor-sources-of-self.md)</small>
 - Taylor, C. (2007). *A Secular Age*. Belknap Press.  
   <small>Citováno: [7.32 Taylor: Sources of Self a moderní identita](@/kompendium/07-teoreticke-reflexe/taylor-sources-of-self.md)</small>
@@ -740,15 +739,15 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [7.43 Thompson: Mind in Life a kontinuita biologie/mysli](@/kompendium/07-teoreticke-reflexe/thompson-mind-in-life.md)</small>
 - Thompson, E. (2020). *Why I Am Not a Buddhist*. Yale UP.  
   <small>Citováno: [7.43 Thompson: Mind in Life a kontinuita biologie/mysli](@/kompendium/07-teoreticke-reflexe/thompson-mind-in-life.md)</small>
-- Tononi, G. (2004). "An Information Integration Theory of Consciousness". *BMC Neuroscience* 5.  
+- Tononi, G. (2004). „An Information Integration Theory of Consciousness“. *BMC Neuroscience* 5.  
   <small>Citováno: [7.39 Tononi: Integrated Information Theory (IIT)](@/kompendium/07-teoreticke-reflexe/tononi-iit.md)</small>
-- Tononi, G. (2008). "Consciousness as Integrated Information". *Biological Bulletin* 215.  
+- Tononi, G. (2008). „Consciousness as Integrated Information“. *Biological Bulletin* 215.  
   <small>Citováno: [7.39 Tononi: Integrated Information Theory (IIT)](@/kompendium/07-teoreticke-reflexe/tononi-iit.md)</small>
 - Tononi, G. (2012). *Phi: A Voyage from the Brain to the Soul*. Pantheon.  
   <small>Citováno: [7.39 Tononi: Integrated Information Theory (IIT)](@/kompendium/07-teoreticke-reflexe/tononi-iit.md)</small>
 - Tononi, G. (2018). *The Feeling of Life Itself*. MIT Press.  
   <small>Citováno: [7.39 Tononi: Integrated Information Theory (IIT)](@/kompendium/07-teoreticke-reflexe/tononi-iit.md)</small>
-- Tononi, G. & Koch, C. (2015). "Consciousness: Here, There and Everywhere?". *Phil. Trans. R. Soc. B* 370.  
+- Tononi, G. & Koch, C. (2015). „Consciousness: Here, There and Everywhere?“. *Phil. Trans. R. Soc. B* 370.  
   <small>Citováno: [7.39 Tononi: Integrated Information Theory (IIT)](@/kompendium/07-teoreticke-reflexe/tononi-iit.md)</small>
 - Tufekci, Z. (2017). *Twitter and Tear Gas*. Yale UP.  
   <small>Citováno: [7.57 Boyd: danah boyd a sociotechnická analýza dezinformací](@/kompendium/07-teoreticke-reflexe/boyd-disinformation-age.md)</small>
@@ -762,7 +761,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 
 ## V
 
-- Varela, F. (1996). "Neurophenomenology: A Methodological Remedy for the Hard Problem". *Journal of Consciousness Studies* 3.  
+- Varela, F. (1996). „Neurophenomenology: A Methodological Remedy for the Hard Problem“. *Journal of Consciousness Studies* 3.  
   <small>Citováno: [7.44 Varela: Enaktivismus a embodied cognition](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)</small>
 - Varela, F., Thompson, E. & Rosch, E. (1991/2017). *The Embodied Mind*. MIT Press (revised ed.).  
   <small>Citováno: [7.44 Varela: Enaktivismus a embodied cognition](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)</small>
@@ -775,9 +774,9 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 
 - Walker, L. E. (1979). *The Battered Woman*. Harper & Row.  
   <small>Citováno: [Traumatic Bonding](@/glossary/traumatic-bonding.md)</small>
-- Wardle, C. (2017). "Fake News. It's Complicated.". First Draft.  
+- Wardle, C. (2017). „Fake News. It's Complicated.“. First Draft.  
   <small>Citováno: [7.58 Wardle: Typologie dezinformačního ekosystému](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)</small>
-- Wardle, C. (2019). "Misinformation Has Created a New World Disorder". *Scientific American* 321.  
+- Wardle, C. (2019). „Misinformation Has Created a New World Disorder“. *Scientific American* 321.  
   <small>Citováno: [7.58 Wardle: Typologie dezinformačního ekosystému](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)</small>
 - Wardle, C. & Derakhshan, H. (2017). *Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making*. Council of Europe.  
   <small>Citováno: [7.58 Wardle: Typologie dezinformačního ekosystému](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)</small>
@@ -795,7 +794,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [7.30 Williams: Truth and Truthfulness — přesnost a pravdivost](@/kompendium/07-teoreticke-reflexe/williams-truth-and-truthfulness.md)</small>
 - Williams, B. (2002). *Truth and Truthfulness: An Essay in Genealogy*. Princeton UP.  
   <small>Citováno: [7.30 Williams: Truth and Truthfulness — přesnost a pravdivost](@/kompendium/07-teoreticke-reflexe/williams-truth-and-truthfulness.md)</small>
-- Wineburg, S. & McGrew, S. (2019). "Lateral Reading and the Nature of Expertise". *Teachers College Record* 121.  
+- Wineburg, S. & McGrew, S. (2019). „Lateral Reading and the Nature of Expertise“. *Teachers College Record* 121.  
   <small>Citováno: [7.58 Wardle: Typologie dezinformačního ekosystému](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)</small>
 - Wittgenstein, L. (1953/1999). *Filozofická zkoumání*. Praha: Filosofia.  
   <small>Citováno: [7.10 Wittgenstein: Jazykové hry a forma života](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)</small>
@@ -817,13 +816,13 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)</small>
 - Zuboff, S. (1988). *In the Age of the Smart Machine*. Basic Books.  
   <small>Citováno: [7.56 Zuboff: Surveillance Capitalism a behavioral futures](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)</small>
-- Zuboff, S. (2015). "Big Other: Surveillance Capitalism and the Prospects of an Information Civilization". *Journal of Information Technology* 30.  
+- Zuboff, S. (2015). „Big Other: Surveillance Capitalism and the Prospects of an Information Civilization“. *Journal of Information Technology* 30.  
   <small>Citováno: [7.56 Zuboff: Surveillance Capitalism a behavioral futures](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)</small>
 - Zuboff, S. (2019). *The Age of Surveillance Capitalism*.  
   <small>Citováno: [Historický případ: Cambridge Analytica](@/kompendium/historical-cases/23-cambridge-analytica.md)</small>
 - Zuboff, S. (2019). *The Age of Surveillance Capitalism*. PublicAffairs.  
   <small>Citováno: [7.56 Zuboff: Surveillance Capitalism a behavioral futures](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)</small>
-- Zuboff, S. (2022). "Surveillance Capitalism or Democracy?". *New Labor Forum* 31.  
+- Zuboff, S. (2022). „Surveillance Capitalism or Democracy?“. *New Labor Forum* 31.  
   <small>Citováno: [7.56 Zuboff: Surveillance Capitalism a behavioral futures](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)</small>
 
 ## Prameny této edice

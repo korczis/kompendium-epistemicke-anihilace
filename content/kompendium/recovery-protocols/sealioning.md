@@ -37,6 +37,7 @@ Implementace **Sealioning** se opírá o standardní strukturu recovery protokol
 ## Hodnotící kritéria
 
 Protokol **Sealioning** používá týdenní self-report (PHQ-9, GAD-7, IES-R) a milníky závislé na fázi:
+
 - Subjektivní stabilita
 - Spánková kontinuita (cíl: 6+ hodin, sleep latency <30 min)
 - Suicidalita (žádné aktivní ideace)
@@ -46,11 +47,11 @@ Protokol **Sealioning** používá týdenní self-report (PHQ-9, GAD-7, IES-R) a
 ## Sesterské protokoly
 
 **Sealioning** se aplikuje v koordinaci s ostatními protokoly téže fáze:
+
 - [Recovery protocols index](@/kompendium/recovery-protocols/_index.md) — celkový rámec
 - [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — diagnostické pozadí
 - [Detection signatures](@/kompendium/detection-signatures/_index.md) — markery pro identifikaci dominantního EA typu
 <!-- EXPANDED:PHASE11 -->
-
 
 ## See Also
 
@@ -64,7 +65,6 @@ Protokol **Sealioning** používá týdenní self-report (PHQ-9, GAD-7, IES-R) a
 ## Manažerské shrnutí
 
 **Sealioning** je aktivní uzel taxonomického grafu sekce `kompendium/recovery-protocols` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
-
 
 ## Koncepční síť
 

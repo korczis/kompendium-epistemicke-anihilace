@@ -26,7 +26,7 @@ Tato kapitola **uzavírá vertikální gradient destrukce** sekce 05. Po [Kapito
 
 Předkonceptuální vrstva je v fenomenologické tradici dlouho dokumentována pod různými jmény: **pre-predikativní zkušenost** (Husserl — *Erfahrung und Urteil*), **lebenswelt** (Husserl — Krise), **chair-tělo** (Merleau-Ponty), **Stimmung/atmosféra** (Heidegger), **gestalt-zázemí** (Kurt Goldstein, Aron Gurwitsch), **bytí-mezi** (Maldiney), **field-consciousness** (William James — *fringe*), **non-conceptual content** (Gareth Evans, Christopher Peacocke — analytická tradice).
 
-Tato vrstva je **strukturálně rezistentní vůči konceptualizaci** — pokus ji uchopit pojmově ji nutně transformuje na konceptuální obsah, který už není pre-konceptuální. Techniky kapitoly 10 exploitují právě tento strukturální fakt: zasahují vrstvu, kterou subjekt nedokáže zachytit pojmovým aparátem, a tedy ani **artikulovat** to, co se s ním děje. Klinické popisy syndromů z této kapitoly mají charakteristickou kvalitu *ne-vyslovitelnosti* — subjekt cítí "něco zásadního se změnilo", ale není schopen specifikovat co.
+Tato vrstva je **strukturálně rezistentní vůči konceptualizaci** — pokus ji uchopit pojmově ji nutně transformuje na konceptuální obsah, který už není pre-konceptuální. Techniky kapitoly 10 exploitují právě tento strukturální fakt: zasahují vrstvu, kterou subjekt nedokáže zachytit pojmovým aparátem, a tedy ani **artikulovat** to, co se s ním děje. Klinické popisy syndromů z této kapitoly mají charakteristickou kvalitu *ne-vyslovitelnosti* — subjekt cítí „něco zásadního se změnilo“, ale není schopen specifikovat co.
 
 ## Strukturální mapa: 30 technik EA-5.5.* v šesti klastrech
 
@@ -41,7 +41,7 @@ Tato vrstva je **strukturálně rezistentní vůči konceptualizaci** — pokus 
 
 ## Klastr A — Pre-predikativní destabilizace (EA-5.5.1 až 5.5.5)
 
-Klastr cílí na **pole zkušenosti před aktem predikace** — vrstvu, na níž je něco "dáno" před tím, než je o tom cokoli řečeno.
+Klastr cílí na **pole zkušenosti před aktem predikace** — vrstvu, na níž je něco „dáno“ před tím, než je o tom cokoli řečeno.
 
 | Kód | Název | Kompaktní deskripce |
 |-----|-------|---------------------|
@@ -53,7 +53,7 @@ Klastr cílí na **pole zkušenosti před aktem predikace** — vrstvu, na níž
 
 ## Klastr B — Somato-fenomenologická inverze (EA-5.5.6 až 5.5.10)
 
-Klastr zasahuje **chair-tělo** Merleau-Pontyho — tělesnou zkušenost před jejím rozčleněním na "moje tělo" a "věci".
+Klastr zasahuje **chair-tělo** Merleau-Pontyho — tělesnou zkušenost před jejím rozčleněním na „moje tělo“ a „věci“.
 
 | Kód | Název | Kompaktní deskripce |
 |-----|-------|---------------------|
@@ -116,11 +116,11 @@ Poslední klastr je **integrativní a finální** — uzavírá nejen kapitolu, 
 Subjekt v expozici technikám EA-5.5.* vykazuje:
 
 - **Ne-vyslovitelnost** — neschopnost artikulovat, co se s ním děje
-- **Pre-konceptuální vakuum** — pocit, že "základní vrstva chybí"
+- **Pre-konceptuální vakuum** — pocit, že „základní vrstva chybí“
 - **Atmosférická dezorientace** — ztráta orientace v kvalitativní tonalitě pole
 - **Gestalt-fragmentace** — perceptuální pole nedospívá k stabilní organizaci
 - **Pre-temporální dezorientace** — formální časové vědomí intaktní, ztráta hloubky
-- **Reziduum nemyslitelnosti** — persistentní pocit, že některé vrstvy zkušenosti se "vymykají"
+- **Reziduum nemyslitelnosti** — persistentní pocit, že některé vrstvy zkušenosti se „vymykají“
 
 ## Diferenciální diagnostika
 
@@ -174,7 +174,6 @@ V navazující [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md) jsou spec
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Dual-use poznání](@/glossary/dual-use-poznani.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Fenomenologie](@/glossary/fenomenologie.md), [Hermeneutika](@/glossary/hermeneutika.md), [Kompendium EA](@/glossary/kompendium-ea.md)
 - Platforma: [NABLA Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md), {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

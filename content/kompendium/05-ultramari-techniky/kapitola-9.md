@@ -134,7 +134,7 @@ Subjekt v expozici technikám EA-5.4.* vykazuje:
 
 Sebevztažné paradoxy jsou zvláště citlivé:
 
-- **Vysoká fascinanční hodnota** — subjekty mohou být přitahováni k expozici dobrovolně, považujíc ji za "intelektuální výzvu". Operační detaily jsou proto restriktivní.
+- **Vysoká fascinanční hodnota** — subjekty mohou být přitahováni k expozici dobrovolně, považujíc ji za „intelektuální výzvu“. Operační detaily jsou proto restriktivní.
 - **Klinická náročnost rekonstrukce** — paradoxalní destrukce vyžaduje strukturní intervenci na rovině typové hierarchie subjektova evaluačního aparátu, často s adjuvantní logickou terapií.
 - **Riziko v akademickém prostředí** — studenti filozofie a logiky jsou disproporcionálně exponováni klasickým paradoxům jako legitimní pedagogické materii. Klinická literatura dokumentuje vzácné, ale dobře popsané případy patologické reakce na pedagogickou expozici.
 
@@ -168,7 +168,6 @@ V následující [Kapitole 10](@/kompendium/05-ultramari-techniky/kapitola-10.md
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Dual-use poznání](@/glossary/dual-use-poznani.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Fenomenologie](@/glossary/fenomenologie.md), [Hermeneutika](@/glossary/hermeneutika.md), [Kompendium EA](@/glossary/kompendium-ea.md)
 - Platforma: [NABLA Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md), {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

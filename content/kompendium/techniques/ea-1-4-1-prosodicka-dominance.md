@@ -45,11 +45,11 @@ Strukturálně exploituje **automatické sociální interpretace** prosodických
 
 Manipulátor používá prosodii signalizující **autoritu**:
 
-- **Nižší frekvenci** hlasu (hluboké, "rozhodné" tóny)
+- **Nižší frekvenci** hlasu (hluboké, „rozhodné“ tóny)
 - **Klesající kadence** na konci vět (declarative, ne interrogative)
 - **Stabilní tempo** bez váhání
 - **Plnou hlasitost** bez slábnutí
-- **Strategické pauzy** signalizující "důležitost"
+- **Strategické pauzy** signalizující „důležitost“
 - **Plynulost** bez rytmických přerušení
 
 ### Krok 2 — Konzistence napříč obsahem
@@ -61,8 +61,8 @@ Prosodická autorita je udržována **konzistentně**, **nezávisle** na epistem
 Prosodická dominance **strukturálně** inhibuje kritické otázky:
 
 - Subjekt prožívá **subtilní sociální tlak** k akceptaci propozic
-- **Dotaz** by působil "neoprávněně" v kontextu autoritativní prezentace
-- **Resistance** je interpretována (i samotným subjektem) jako "naive" nebo "ignorantní"
+- **Dotaz** by působil „neoprávněně“ v kontextu autoritativní prezentace
+- **Resistance** je interpretována (i samotným subjektem) jako „naive“ nebo „ignorantní“
 
 ### Krok 4 — Modulace pro specifické cíle
 
@@ -142,7 +142,7 @@ Tato disciplinovaná evaluace dramaticky snižuje vliv prosodie.
 
 Při detekci prosodické dominance **explicitně** ji jmenuj:
 
-> *"Vaše prezentace je velmi přesvědčivá, ale chci se zaměřit na substantivní claim. Můžete prosím explicitně formulovat svůj argument?"*
+> *„Vaše prezentace je velmi přesvědčivá, ale chci se zaměřit na substantivní claim. Můžete prosím explicitně formulovat svůj argument?“*
 
 Meta-úroveň přerušuje strukturální vzorec.
 
@@ -150,7 +150,7 @@ Meta-úroveň přerušuje strukturální vzorec.
 
 Vyžaduj **písemnou** verzi klíčových argumentů:
 
-> *"Mohli byste prosím poslat tento argument písemně?"*
+> *„Mohli byste prosím poslat tento argument písemně?“*
 
 Písemný formát **strukturálně** odolává prosodické dominanci. Pokud písemná verze je **slabší** než verbal, je to **diagnostický** indikátor.
 
@@ -186,6 +186,7 @@ Pokud informace silně závisí na **specifickém řečníkovi**, je to **silný
 Highly-rated TED talk získal milióny views. Substance byl **později** kritizován academic community jako **fundamentálně chybný**.
 
 Detekce: Externí akademický review identifikoval, že:
+
 - Speaker prezentoval s **excellent prosodie**
 - Substantivně tvrzení byla **selektivní** a **kvantitativně nepodložená**
 - Žádné peer review backing
@@ -198,7 +199,8 @@ Intervence: TED guidelines požadují **academic verification** klíčových fac
 Startup CEO získal $50M funding na základě **highly persuasive** pitch. 18 měsíců později investors recognized, že underlying business model was **structurally invalid**.
 
 Detekce: Post-mortem identifikoval, že:
-- CEO byl trained in "executive presence" — prosodie optimalizovaná
+
+- CEO byl trained in „executive presence“ — prosodie optimalizovaná
 - Due diligence bylo **superficial** — investors **defaulted** na prosodic confidence
 - Written business plan byl **vague** v klíčových aspektech
 
@@ -218,12 +220,12 @@ Intervence: Klinické protokoly — **mandatorní** written treatment options, *
 
 - **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — sourozenecká paralingvistická; prosodie + emocionální modulace synergují.
 - **[EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)** — neverbální + paralingvistická = total domination signaling.
-- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — komplexní jazyk + prosodická autorita = "**unfraktovatelná**" prezentace.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — komplexní jazyk + prosodická autorita = „**unfraktovatelná**“ prezentace.
 - **[EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)** — rychlé tempo s autoritativní prosodií.
 
 ### Eskaluje do
 
-- **EA-1.6.1 Vzorec "Guru a adept"** — guru typically má vysoce trained prosodii; **klíčový** mechanism establishment autority.
+- **EA-1.6.1 Vzorec „Guru a adept“** — guru typically má vysoce trained prosodii; **klíčový** mechanism establishment autority.
 - **Kolektivní prosodická norma** — strukturální dominance v institucionálním měřítku (např. **executive culture**).
 
 ### Hraniční / podobné
@@ -255,7 +257,6 @@ Intervence: Klinické protokoly — **mandatorní** written treatment options, *
 - **Související platformové koncepty**:
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

@@ -122,8 +122,8 @@ Pro Prismatic má Hutchinsova teorie **specifickou** relevanci:
 ## 10. Primární literatura
 
 - Hutchins, E. (1995). *Cognition in the Wild*. MIT Press.
-- Hutchins, E. (1995). "How a Cockpit Remembers Its Speeds". *Cognitive Science* 19.
-- Hutchins, E. (2014). "The Cultural Ecosystem of Human Cognition". *Philosophical Psychology* 27.
+- Hutchins, E. (1995). „How a Cockpit Remembers Its Speeds“. *Cognitive Science* 19.
+- Hutchins, E. (2014). „The Cultural Ecosystem of Human Cognition“. *Philosophical Psychology* 27.
 - Salomon, G. (ed.) (1993). *Distributed Cognitions*. Cambridge UP.
 - Suchman, L. (2007). *Human-Machine Reconfigurations*. Cambridge UP.
 

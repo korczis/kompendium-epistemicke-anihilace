@@ -54,16 +54,16 @@ V *Homo Deus* (2015) Harari formuluje provokativní tezi: vznikající **datové
 
 Strukturální charakteristiky:
 
-- **Posvátnost dat**: data jsou strukturálně "svatá", neoddělitelně spjatá s pravdou
+- **Posvátnost dat**: data jsou strukturálně „svatá“, neoddělitelně spjatá s pravdou
 - **Algoritmus jako autorita**: rozhodnutí algoritmu je **lepší** než lidské
 - **Posuzování individua**: subjekt je strukturálně **měřitelný** datovými metrikami
 - **Anti-humanismus**: lidskost je **obsoletní** — algoritmy zvládnou věci lépe
 
 Pro EA má datové náboženství **strukturální význam**:
 
-- **Pseudo-objektivní rétorika**: data presentována jako "neutrální" jsou strukturálně **zatížena** ideologií ([rezonuje s Putnam, viz 7.27](@/kompendium/07-teoreticke-reflexe/putnam-internal-realism.md)).
+- **Pseudo-objektivní rétorika**: data presentována jako „neutrální“ jsou strukturálně **zatížena** ideologií ([rezonuje s Putnam, viz 7.27](@/kompendium/07-teoreticke-reflexe/putnam-internal-realism.md)).
 - **Algoritmická anihilace lidskosti**: redukce lidské zkušenosti na měřitelné metriky.
-- **Counter-EA**: vědomí, že "data" nejsou strukturálně neutrální.
+- **Counter-EA**: vědomí, že „data“ nejsou strukturálně neutrální.
 
 ## 4. Algoritmy a budoucnost svobody
 

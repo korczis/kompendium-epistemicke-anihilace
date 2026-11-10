@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 **Iluzorní komplexita** je prezentace fundamentálně **jasného** nebo **rozřešeného** problému jako **vysoce komplexního**, **kontroverzního** nebo **nerozřešitelného**. Strukturálně **inverzní** vůči [EA-1.2.2 Falešné ekvivalenci](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) — falešná ekvivalence inflouje **paritu pozic**, iluzorní komplexita inflouje **náročnost problému**.
 
-Účel: indukce **suspendovaného úsudku** ("nedostatek jasnosti pro rozhodnutí") tam, kde úsudek je **dostupný a opodstatněný**. Subjekt se vzdá rozhodnutí "**dokud nebude problém vyřešen**" — což u uměle inflovaných problémů **nikdy nenastane**.
+Účel: indukce **suspendovaného úsudku** („nedostatek jasnosti pro rozhodnutí“) tam, kde úsudek je **dostupný a opodstatněný**. Subjekt se vzdá rozhodnutí „**dokud nebude problém vyřešen**“ — což u uměle inflovaných problémů **nikdy nenastane**.
 
 Klíčový mechanismus: **strategická introdukce irelevantních faktorů**, **marginálních nuancí** a **pseudo-technických detailů**, které vytvářejí **iluzi**, že problém je **mnohem komplexnější**, než ve skutečnosti je.
 
@@ -57,9 +57,9 @@ Do diskuse jsou **systematicky** zavedeny faktory, které:
 
 Příklady:
 
-- "Klimatologie je komplexní — nezapomeňte na cosmic ray modulation, mid-Holocene optimum, urban heat island..."
-- "Bezpečnost vakcín je komplexní — preservatives, adjuvants, cold chain, batch-to-batch variability..."
-- "Tato právní otázka je komplexní — common law tradition, civil law tradition, comparative jurisprudence..."
+- „Klimatologie je komplexní — nezapomeňte na cosmic ray modulation, mid-Holocene optimum, urban heat island…“
+- „Bezpečnost vakcín je komplexní — preservatives, adjuvants, cold chain, batch-to-batch variability…“
+- „Tato právní otázka je komplexní — common law tradition, civil law tradition, comparative jurisprudence…“
 
 Každý jednotlivý faktor je **technicky validní** — kombinovaně vytvářejí **iluzi nerozřešitelnosti**.
 
@@ -75,11 +75,11 @@ Tyto detaily jsou **legitimní**, ale jejich relevance je **strategicky nafouknu
 
 ### Krok 4 — Indukce epistemické skromnosti
 
-Subjekt, vystaven **kaskádě** faktorů a detailů, prožívá **epistemickou skromnost**: "asi to není tak jasné, jak jsem si myslel". Tato pokora je **legitimní** v kontextu skutečně komplexních problémů, **patologická** v kontextu uměle inflovaných.
+Subjekt, vystaven **kaskádě** faktorů a detailů, prožívá **epistemickou skromnost**: „asi to není tak jasné, jak jsem si myslel“. Tato pokora je **legitimní** v kontextu skutečně komplexních problémů, **patologická** v kontextu uměle inflovaných.
 
 ### Krok 5 — Suspendace úsudku
 
-Konečný outcome: subjekt **suspenduje úsudek** "dokud problém nebude vyřešen". V uměle inflovaných problémech **vyřešení nikdy nenastane** — strategicky introdukované faktory generují **infinite regress** dotazování. Suspendovaný úsudek se stává **trvalým epistemickým stavem**.
+Konečný outcome: subjekt **suspenduje úsudek** „dokud problém nebude vyřešen“. V uměle inflovaných problémech **vyřešení nikdy nenastane** — strategicky introdukované faktory generují **infinite regress** dotazování. Suspendovaný úsudek se stává **trvalým epistemickým stavem**.
 
 ## Fenomenologické znaky
 
@@ -137,7 +137,7 @@ Iluzorní komplexita vs. **legitimní komplexita**:
 
 Při kaskádě faktorů aktivně **se vrátíš** k **centrálnímu** problému:
 
-> *"Vraťme se k jádru: [koncentrovaná otázka]. Vaše argumenty výše se týkají faktorů, které jsou marginal vůči této centrální otázce — a centrální otázka **má** stabilní odpověď."*
+> *„Vraťme se k jádru: [koncentrovaná otázka]. Vaše argumenty výše se týkají faktorů, které jsou marginal vůči této centrální otázce — a centrální otázka **má** stabilní odpověď.“*
 
 #### 2. **Identifikace irelevantních komplikujících faktorů**
 
@@ -178,7 +178,7 @@ Iluzorní komplexita strukturálně **vylučuje** tuto hierarchizaci.
 
 Tam, kde stabilní závěr existuje, **explicitně** ho artikuluj:
 
-> *"V této oblasti existuje vědecký konsensus, že [závěr]. Vaše introdukce faktorů X, Y, Z je technicky validní, ale **nemění** centrální závěr."*
+> *„V této oblasti existuje vědecký konsensus, že [závěr]. Vaše introdukce faktorů X, Y, Z je technicky validní, ale **nemění** centrální závěr.“*
 
 ### Institucionální
 
@@ -198,21 +198,21 @@ Zájmová skupina opakovaně introdukuje **technické faktory** (cosmic ray flux
 
 Detekce: IPCC konsolidace explicitně ukazuje, že každý z těchto faktorů je **kvantifikován** a **integrován** do mainstream modelů — žádný z nich **nemění** centrální závěr.
 
-Intervence: Strukturální zviditelnění hierarchizace v public communication; "**deniers introdukují technicky validní, ale kvantitativně marginální faktory**".
+Intervence: Strukturální zviditelnění hierarchizace v public communication; „**deniers introdukují technicky validní, ale kvantitativně marginální faktory**“.
 
-### Případ 2 — Tobacco industry "doubt"
+### Případ 2 — Tobacco industry „doubt“
 
-Klasická případová studie (Oreskes & Conway, *Merchants of Doubt*). Tobacco industry strategy "**doubt is our product**" — strategická introdukce technických nejistot navzdory existujícímu konsensu o karcinogenitě.
+Klasická případová studie (Oreskes & Conway, *Merchants of Doubt*). Tobacco industry strategy „**doubt is our product**“ — strategická introdukce technických nejistot navzdory existujícímu konsensu o karcinogenitě.
 
 Detekce: Externí historiografická analýza po desetiletích.
 
-Intervence: Strukturální regulace; **kvalifikované odmítnutí** "doubt manufacturing" jako legitimního science komunikace.
+Intervence: Strukturální regulace; **kvalifikované odmítnutí** „doubt manufacturing“ jako legitimního science komunikace.
 
 ### Případ 3 — Pacientský skepticism
 
-Pacient odkládá léčbu chronicky onemocnění s argumentem "**čekám, dokud nebude víc dat**" — navzdory existující standardní intervenci s robustní evidence base.
+Pacient odkládá léčbu chronicky onemocnění s argumentem „**čekám, dokud nebude víc dat**“ — navzdory existující standardní intervenci s robustní evidence base.
 
-Detekce: Klinik identifikoval, že pacient **opakovaně** introdukuje **marginal** faktory ("ale co když mám rare allergic response"), které jsou **kvantifikovány** v existujícím výzkumu jako extrémně nepravděpodobné.
+Detekce: Klinik identifikoval, že pacient **opakovaně** introdukuje **marginal** faktory („ale co když mám rare allergic response“), které jsou **kvantifikovány** v existujícím výzkumu jako extrémně nepravděpodobné.
 
 Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance vs. iluzorní komplexity; **active assertion** centrálního závěru s kontextualizací marginal risks.
 
@@ -226,7 +226,7 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
 
 ### Eskaluje do
 
-- **EA-1.6.2 Vzorec "Epistemický trojský kůň"** — iluzorní komplexita poskytuje fasádu sofistikace pro vpašování problematických prvků.
+- **EA-1.6.2 Vzorec „Epistemický trojský kůň“** — iluzorní komplexita poskytuje fasádu sofistikace pro vpašování problematických prvků.
 - **Strukturální delegitimizace pole** ([Scénář F](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — kolektivní iluzorní komplexita odbourává epistemickou autoritu konsensuálních závěrů.
 
 ### Hraniční / podobné
@@ -253,7 +253,6 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
 - **Související platformové koncepty**:
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
-
 
 ## ⚡ Kritický krok
 

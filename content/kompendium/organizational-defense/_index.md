@@ -19,6 +19,7 @@ nebo se stávají jejich nástrojem či obětí. Tato sekce kompendia mapuje **4
 kontrolních mechanismů** napříč čtyřmi pilíři: **governance, HR & kultura, operativa, krizová reakce**.
 
 Každá kapitola obsahuje:
+
 1. Organizační kontext (proč to záleží)
 2. Klíčové prvky obrany
 3. Konkrétní implementační postup
@@ -38,7 +39,7 @@ Každá kapitola obsahuje:
 - **[Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md)** — Klasický finanční audit nezachytí EA — výbor musí mít explicitní mandát na behaviorální a kulturní rizika.
 - **[Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)** — Ombudsman je neformální, důvěrný kanál — jeho ztráta nezávislosti je bod, kdy obrana selhala.
 - **[Mandát etického ředitele](@/kompendium/organizational-defense/7-ethics-officer-mandate.md)** — Bez vykonávacích pravomocí je etický ředitel pouze dekorativní funkcí — EA toto rozpozná a zneužije.
-- **[Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)** — Zastaralé politiky vytvářejí mezery, kterými EA proniká — "podle pravidel z roku 2015" je červená vlajka.
+- **[Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)** — Zastaralé politiky vytvářejí mezery, kterými EA proniká — „podle pravidel z roku 2015“ je červená vlajka.
 - **[Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md)** — Minoritní akcionáři jsou často první obětí EA na úrovni vlastnické struktury (squeeze-out, dilution attacks).
 - **[Zapojení stakeholderů](@/kompendium/organizational-defense/10-stakeholder-engagement.md)** — Izolace organizace od stakeholderů je preludium k EA — vnější pohled je první obrana proti vnitřnímu tunelovému vidění.
 
@@ -59,11 +60,11 @@ Každá kapitola obsahuje:
 
 - **[Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)** — Bez sledovatelnosti není odpovědnost — EA aktéři systematicky rozmlží auditní stopu rozhodnutí, aby unikli důsledkům.
 - **[Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md)** — Nestrukturovaná jednání jsou ideální prostředí pro manipulaci — bez agendy, minutes a action items se realita rozpadá.
-- **[Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md)** — EA aktéři využívají "informální" kanály k obejití formálních záznamů — politika musí kanonizovat audit trail.
+- **[Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md)** — EA aktéři využívají „informální“ kanály k obejití formálních záznamů — politika musí kanonizovat audit trail.
 - **[Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)** — Špatná dokumentace = oslabená obrana — nemůžete bránit, co neumíte popsat ani najít.
 - **[Řízení dodavatelů s EA fokusem](@/kompendium/organizational-defense/25-vendor-management-EA.md)** — Dodavatelé jsou často infiltrační vektor — relationship capture vede k institucionální závislosti a EA propagaci.
 - **[Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)** — Externí kontraktoři jsou často využíváni jako proxy pro EA aktivity — slabší KYC než zaměstnanci.
-- **[Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)** — Bez klasifikace nelze chránit — EA aktéři exfiltrují citlivé informace přes "public" kanály díky absenci taggingu.
+- **[Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)** — Bez klasifikace nelze chránit — EA aktéři exfiltrují citlivé informace přes „public“ kanály díky absenci taggingu.
 - **[Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)** — Privilege creep je tichý nepřítel — uživatelé akumulují práva léta, vytváří se super-admins, kteří uniknou kontrole.
 - **[Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)** — Bez segregation of duties (SoD) může jedna osoba transakci iniciovat, schválit i auditovat — to je EA dream scenario.
 - **[Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)** — Stagnace v kritické roli koncentruje moc a know-how — ideální podmínky pro EA i fraud (auditor's nightmare).
@@ -80,7 +81,6 @@ Každá kapitola obsahuje:
 - **[Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md)** — Když je top management zachycen, nemůže se sám reformovat — externí intervence je často jediná cesta ven.
 - **[Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md)** — Po EA krizi nestačí vyměnit lidi — kultura, která EA umožnila, musí být systematicky reformována, jinak se vzor vrátí.
 - **[Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)** — Bez systematického post-mortemu organizace opakuje stejné chyby — EA má tendenci se vracet stejnými vektory.
-
 
 ## Doctrína obrany
 
@@ -107,4 +107,3 @@ Tato sekce je postavena na **6 doktrinálních principech** odvozených z analý
 - **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
-

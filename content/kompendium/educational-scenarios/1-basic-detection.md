@@ -138,18 +138,22 @@ před skupinou a nabídněte rozhovor po skončení. Debriefing se řídí
 ## Související
 
 **Navazující scénáře**
+
 - [Rozpoznání kognitivních zkreslení](@/kompendium/educational-scenarios/2-cognitive-bias-recognition.md) – proč apel na status funguje i na zkušené lidi.
 - [Verifikace tvrzení](@/kompendium/educational-scenarios/5-claim-verification.md) – ověřování jako systematický postup.
 
 **Detekční signatury**
+
 - [Vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md) – kritéria a validační test.
 - [Odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md) – eskalace jako odpověď na dotaz.
 
 **Sebe-obrana**
+
 - [Časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md) – technika odkladu rozhodnutí.
 - [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) – jak zachytit vlastní „něco nesedí“.
 
 **Pojmy a souvislosti**
+
 - [Epistemic security](@/glossary/epistemic-security.md) – rámec, do něhož základní detekce patří.
 - [Rozpoznání varovných signálů](@/kompendium/prevention-resilience/12-warning-sign-recognition.md) – preventivní perspektiva.
 - [Sociální inženýrství](@/kompendium/cross-domain/17-ea-security-social-engineering.md) – tentýž vzorec v bezpečnostní praxi.

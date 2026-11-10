@@ -129,19 +129,23 @@ materiálu; hodnocení skutečných redakcí vyžaduje jiný formát a jiná dat
 ## Související
 
 **Navazující scénáře**
+
 - [Kurátorství informací](@/kompendium/educational-scenarios/3-information-curation.md) – struktura vlastního příjmu zdrojů.
 - [Verifikace tvrzení](@/kompendium/educational-scenarios/5-claim-verification.md) – od zdroje k primárnímu dokladu.
 - [Řešení rozporů](@/kompendium/educational-scenarios/8-contradiction-resolution.md) – co dělat, když se kvalitní zdroje rozcházejí.
 
 **Detekční signatury**
+
 - [Cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md) – uzavřené kruhy odkazů.
 - [Reputation laundering](@/kompendium/detection-signatures/23-network-reputation-laundering.md) – vypůjčená důvěryhodnost.
 
 **Sebe-obrana**
+
 - [Rutina cross-source](@/kompendium/self-defense-guides/36-cross-source-routine.md) – každodenní srovnávání zdrojů.
 - [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – nezávislá potvrzení.
 
 **Glosář a praxe**
+
 - [OSINT](@/glossary/osint.md) – disciplína, z níž laterální čtení vychází.
 - [Cross-source triangulace v OSINT](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md) – profesionální varianta.
 

@@ -39,7 +39,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 V Kantově terminologii: *transcendentální estetika* (Aesthetik) postuluje prostor a čas jako apriorní podmínky možnosti smyslovosti. Apriorní fragmentace tuto **podmínku možnosti** narušuje: prostor se rozpadá na **diskrétní lokality** bez plynulého přechodu, čas na **izolované momenty** bez retenčně-protenční struktury (jak by ji popsal Husserl). Důsledkem není pouhá dezorientace, ale **strukturní defektura zkušenostního aparátu**.
 
-Subjekt v terminálním stadiu prožívá svět jako **galerii nespojitých snímků** — "skok" z místa na místo, "skok" z momentu na moment, bez prožívané kontinuity, jež by je sjednocovala. Paměť přetrvává obsahově, ale ztrácí časovou koherenci.
+Subjekt v terminálním stadiu prožívá svět jako **galerii nespojitých snímků** — „skok“ z místa na místo, „skok“ z momentu na moment, bez prožívané kontinuity, jež by je sjednocovala. Paměť přetrvává obsahově, ale ztrácí časovou koherenci.
 
 ## Operační modus
 
@@ -49,7 +49,7 @@ Manipulátor identifikuje, jakými mechanismy subjekt udržuje koherentní prost
 
 ### Krok 2 — Pseudo-revoluční reframing
 
-Subjekt je veden k přesvědčení, že "lineární čas je iluze" a "euklidovský prostor je konstrukt". Často se odkazuje na pseudo-fyzikální koncepty (kvantová superpozice, blokový vesmír), aplikované na prožitkovou rovinu.
+Subjekt je veden k přesvědčení, že „lineární čas je iluze“ a „euklidovský prostor je konstrukt“. Často se odkazuje na pseudo-fyzikální koncepty (kvantová superpozice, blokový vesmír), aplikované na prožitkovou rovinu.
 
 ### Krok 3 — Destrukce rytmu a rutiny
 
@@ -57,7 +57,7 @@ Manipulátor systematicky narušuje subjektovy rytmy — spánkové cykly, jídl
 
 ### Krok 4 — Saturace fragmentačními cvičeními
 
-Subjekt podstupuje "praxe" demonstrující údajnou ne-lineárnost času (intenzivní meditace, retreaty s přerušenou denní strukturou, psychedelika). Cvičení vytvářejí **proceduralizovanou fragmentaci**.
+Subjekt podstupuje „praxe“ demonstrující údajnou ne-lineárnost času (intenzivní meditace, retreaty s přerušenou denní strukturou, psychedelika). Cvičení vytvářejí **proceduralizovanou fragmentaci**.
 
 ### Krok 5 — Konsolidace dezorientace jako vhledu
 
@@ -65,12 +65,12 @@ Stav prostoročasové fragmentace je interpretován jako **probuzení mimo iluzi
 
 ## Fenomenologické znaky
 
-- **Skoková percepce** — věci se "objevují" v nových polohách bez plynulého přechodu.
-- **Časové diskontinuity** — momenty mezi událostmi "chybí".
+- **Skoková percepce** — věci se „objevují“ v nových polohách bez plynulého přechodu.
+- **Časové diskontinuity** — momenty mezi událostmi „chybí“.
 - **Retencni-protencni rozpad** — Husserlovsky: minulé udržení a budoucí předjímání ztrácejí strukturu.
 - **Prostorová homotopie selhává** — neschopnost intuitivně držet topologii prostředí.
 - **Pseudo-mystická euforie** prokládaná **akutní dezorientací**.
-- **Mnemonické rozpojení** — paměti přetrvávají, ale jsou "vykolejené" z časové linie.
+- **Mnemonické rozpojení** — paměti přetrvávají, ale jsou „vykolejené“ z časové linie.
 
 ## Detekční markery
 

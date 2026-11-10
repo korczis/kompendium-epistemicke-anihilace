@@ -37,6 +37,7 @@ Implementace **Sekvence** se opírá o standardní strukturu recovery protokolů
 ## Hodnotící kritéria
 
 Protokol **Sekvence** používá týdenní self-report (PHQ-9, GAD-7, IES-R) a milníky závislé na fázi:
+
 - Subjektivní stabilita
 - Spánková kontinuita (cíl: 6+ hodin, sleep latency <30 min)
 - Suicidalita (žádné aktivní ideace)
@@ -46,11 +47,11 @@ Protokol **Sekvence** používá týdenní self-report (PHQ-9, GAD-7, IES-R) a m
 ## Sesterské protokoly
 
 **Sekvence** se aplikuje v koordinaci s ostatními protokoly téže fáze:
+
 - [Recovery protocols index](@/kompendium/recovery-protocols/_index.md) — celkový rámec
 - [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — diagnostické pozadí
 - [Detection signatures](@/kompendium/detection-signatures/_index.md) — markery pro identifikaci dominantního EA typu
 <!-- EXPANDED:PHASE11 -->
-
 
 ## See Also
 
@@ -64,7 +65,6 @@ Protokol **Sekvence** používá týdenní self-report (PHQ-9, GAD-7, IES-R) a m
 ## Manažerské shrnutí
 
 **Sekvence** je aktivní uzel taxonomického grafu sekce `kompendium/recovery-protocols` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
-
 
 ## Koncepční síť
 

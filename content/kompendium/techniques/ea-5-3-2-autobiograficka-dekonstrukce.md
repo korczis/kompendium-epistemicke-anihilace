@@ -123,7 +123,6 @@ Technika **autobiografická dekonstrukce** představuje strukturální výzvu pr
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Ricoeurova **trojí mimésis** (*Temps et récit*) — prefigurace, konfigurace, refigurace životního příběhu — je systematicky rozkládána. Husserlova **vnitřní časová vědomí** (retenční-protenční struktura) ztrácí horizontální kontinuitu. Merleau-Pontyho **chair** jako historicky sedimentovaná tělesnost (*Le Visible et l'invisible*) odhaluje, že dekonstrukce autobiografie zasahuje i pre-reflektivní tělové schéma. Damasiova **proto-self/core-self/autobiographical self** hierarchie identifikuje autobiografickou vrstvu jako nejvyšší, ale i nejzranitelnější. Levinasovo **dia-chronie** ukazuje, že čas druhého narušuje uzavřenou autobiografii — manipulátor využívá tuto otevřenost destruktivně. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

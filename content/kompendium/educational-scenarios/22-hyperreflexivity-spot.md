@@ -135,22 +135,27 @@ uzemňovací techniku na konci sezení; viz [uzemňovací techniky](@/kompendium
 ## Související
 
 **Navazující scénáře**
+
 - [Rozpoznání ultramárních technik](@/kompendium/educational-scenarios/21-ultramarine-recognition.md) – hyperreflexivita jako první vrstva kombinace.
 - [Metakognitivní kolaps](@/kompendium/educational-scenarios/24-metacognitive-collapse.md) – kam smyčka vede, když se nepřeruší.
 - [Iatrogenní riziko](@/kompendium/educational-scenarios/27-iatrogenic-risk.md) – když škodí samotná pomáhající intervence.
 
 **Techniky**
+
 - [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) – mechanismus.
 - [EA-2.5.8 Recursive Doubt Spiral](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md) – spirála pochybnosti.
 
 **Klinický rámec**
+
 - [EA-6.2.4 Metacognitive therapy](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md) – práce se vztahem k myšlení.
 
 **Sebe-obrana**
+
 - [Somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md) – návrat k tělu jako kotvě.
 - [Řízení kognitivní zátěže](@/kompendium/self-defense-guides/10-cognitive-load-management.md) – omezení zátěže.
 
 **Glosář**
+
 - [Rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md) – výsledný stav.
 - [Před-reflexivní vědomí](@/glossary/predreflexivni-vedomi.md) – co hyperreflexivita narušuje.
 

@@ -169,7 +169,6 @@ Bibliografie je propojena s běžícími systémy:
 - [NABLA Infinity](@/glossary/nabla-infinity.md) — epistemický rámec L0–L13 čerpá z Husserla, Habermase, Frickerové.
 - [Color Teams](@/glossary/color-teams.md) — Red Team adversariální simulace operacionalizuje Liftonova kritéria.
 
-
 ## ⚡ Kritický krok
 
 **Tato příloha je referenční nástroj** — není k četbě od začátku do konce.

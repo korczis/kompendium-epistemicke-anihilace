@@ -145,19 +145,23 @@ krátkou reflexi, jak se cítili při čtení kazuistiky, a připomeňte význam
 ## Související
 
 **Navazující scénáře**
+
 - [Detekce hyperreflexivity](@/kompendium/educational-scenarios/22-hyperreflexivity-spot.md) – první vrstva podrobně.
 - [Ontologický útok](@/kompendium/educational-scenarios/23-ontological-attack.md) – druhá vrstva podrobně.
 - [Metakognitivní kolaps](@/kompendium/educational-scenarios/24-metacognitive-collapse.md) – pozdní důsledek.
 
 **Techniky**
+
 - [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) – mechanismus první vrstvy.
 - [EA-5.1.18 Solipsistická dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md) – rozpouštění vztahů v ontologické tezi.
 
 **Klinický rámec a signatury**
+
 - [Diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md) – nejdůležitější rozlišení.
 - [Kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md) – fenomenologický marker.
 
 **Zotavení a glosář**
+
 - [Vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md) – obnova vnější kalibrace.
 - [Epistemická singularita](@/glossary/epistemicka-singularita.md) – pojem konvergence vrstev.
 

@@ -61,7 +61,7 @@ Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl
 - Mentor = boss, nucené pairings, žádný opt-out, mentor má veto na promotion.
 - Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
 - Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v "černé díře" bez odpovědi v rozumné lhůtě
+- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
 - Externí auditoři dostávají omezený přístup k datům nebo lidem
 
 Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
@@ -100,4 +100,3 @@ Cross-departmental matching, neutral mentor coordinator, anonymous mentee feedba
 - **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
-

@@ -49,8 +49,8 @@ Tato distinkce **nemá** žádný empirický fundament v **závažnosti** utrpen
 Pro EA z toho plyne:
 
 - **Mediální EA produkuje hierarchii utrpení**: některá utrpení jsou strukturálně **více vidět** než jiná.
-- **Klinický korelát**: oběti "unworthy" kategorií zažívají **dvojí** trauma — **původní** zranění + **strukturální** ignorování.
-- **Counter-EA**: aktivní dokumentace "**unworthy**" obětí.
+- **Klinický korelát**: oběti „unworthy“ kategorií zažívají **dvojí** trauma — **původní** zranění + **strukturální** ignorování.
+- **Counter-EA**: aktivní dokumentace „**unworthy**“ obětí.
 
 ## 3. Dehumanizace nepřátel
 
@@ -59,7 +59,7 @@ Herman a Chomsky empiricky dokumentují **strukturální** mediální **dehumani
 - **Stripping** lidské specifičnosti — útoky **na masu**, nikoli na **konkrétní** lidi
 - **Demonizace** vůdců — strukturálně **karikaturní** zobrazení
 - **Eliminace kontextu** — útoky bez **historické** nebo **politické** kontextualizace
-- **Statistical erasure** — civilní oběti jako "**collateral damage**", bez tváří, bez jmen
+- **Statistical erasure** — civilní oběti jako „**collateral damage**“, bez tváří, bez jmen
 
 Strukturální paralela s **Levinasem** ([viz 7.20](@/kompendium/07-teoreticke-reflexe/levinas-jiny.md)) — anihilace tváře.
 
@@ -85,7 +85,7 @@ Pro EA z toho plyne:
 
 Herman pokračuje v empirické analýze:
 
-- **The Politics of Genocide** (2010, s David Peterson): kritika "humanitárního intervencionismu"
+- **The Politics of Genocide** (2010, s David Peterson): kritika „humanitárního intervencionismu“
 - **Pokrytí Bosny, Rwandy, Sýrie**: empirická **paired examples**
 - **Web Hermanovy analýzy**: monthlyreview.org, peněžní komerční zájmy v žurnalistice
 
@@ -117,7 +117,7 @@ Pro Prismatic platformu má Hermanova metodologie **specifickou** relevanci:
 Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Mediální gramotnost**: pacient se učí identifikovat propagandistické vzorce
-- **Restituce "unworthy victim" zkušenosti**: pacient, jehož trauma bylo strukturálně **ignorováno**, vyžaduje specifickou klinickou pozornost
+- **Restituce „unworthy victim“ zkušenosti**: pacient, jehož trauma bylo strukturálně **ignorováno**, vyžaduje specifickou klinickou pozornost
 - **Re-humanizace**: jako klinický cíl
 
 ## 9. Primární literatura

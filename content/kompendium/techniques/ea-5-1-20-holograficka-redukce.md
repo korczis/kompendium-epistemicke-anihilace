@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/05-pokrocile-techniky/kapitola-6/"
 
 **Holografická redukce** je technika, která vynucuje u subjektu **interpretační režim**, podle něhož **každý fragment zkušenosti obsahuje kompletní vzorec celku** — analogicky tomu, jak holografická deska obsahuje v každém svém bodu redukovaný obraz celé scény. Subjekt tak ztrácí schopnost **perspektivální diferenciace**: nedokáže rozlišit, co je *celek*, co je *část*, a co je pouze *jedna možná interpretace*.
 
-Výsledkem je **pseudo-totalitní pohled na svět**, v němž **veškerá evidence je interpretována jako potvrzující** centrální tezi. Náhodný rozhovor v autobusu, výsledek sportovního zápasu, počasí, ekonomická data, gesta druhých — všechno je čteno jako "fraktální projev" centrálního vzorce. Subjekt prožívá **enormní explanační moc** svého rámce, zatímco strukturálně tato moc pochází z **eliminace falsifikačních podmínek**.
+Výsledkem je **pseudo-totalitní pohled na svět**, v němž **veškerá evidence je interpretována jako potvrzující** centrální tezi. Náhodný rozhovor v autobusu, výsledek sportovního zápasu, počasí, ekonomická data, gesta druhých — všechno je čteno jako „fraktální projev“ centrálního vzorce. Subjekt prožívá **enormní explanační moc** svého rámce, zatímco strukturálně tato moc pochází z **eliminace falsifikačních podmínek**.
 
 Holografická redukce je **strukturálně příbuzná** klasickým konspiračním rámcům, ale **kvalitativně sofistikovanější**: zatímco klasická konspirace operuje na úrovni *všechno spolu souvisí prostřednictvím skryté agentury*, holografická redukce operuje na úrovni *všechno je topologickou projekcí téhož vzorce*, čímž obchází kritiku absence kauzálního mechanismu.
 
@@ -45,20 +45,20 @@ Holografická redukce je **strukturálně příbuzná** klasickým konspirační
 
 ### Krok 1 — Etablování centrálního vzorce
 
-Manipulátor předkládá **vysoce abstraktní centrální vzorec** — obvykle s pseudovědeckou nebo pseudo-spirituální fasádou: *"vše je vibrace na různých frekvencích"*, *"každá realita je fraktálně sebepodobná"*, *"kvantová informace je přítomna v každém bodě"*, *"struktura DNA odpovídá struktuře galaxie"*. Vzorec je **dostatečně abstraktní**, aby byl aplikovatelný na cokoli, a **dostatečně specifický**, aby zněl jako poznání.
+Manipulátor předkládá **vysoce abstraktní centrální vzorec** — obvykle s pseudovědeckou nebo pseudo-spirituální fasádou: *„vše je vibrace na různých frekvencích“*, *„každá realita je fraktálně sebepodobná“*, *„kvantová informace je přítomna v každém bodě“*, *„struktura DNA odpovídá struktuře galaxie“*. Vzorec je **dostatečně abstraktní**, aby byl aplikovatelný na cokoli, a **dostatečně specifický**, aby zněl jako poznání.
 
 ### Krok 2 — Trénink interpretačního refleksu
 
 Subjekt je systematicky trénován **interpretovat každou událost** v termínech centrálního vzorce. Trénink probíhá:
 
-- **explicitními cvičeními** ("vidíš ten vzorec? co vidíš v této události?")
+- **explicitními cvičeními** („vidíš ten vzorec? co vidíš v této události?“)
 - **modelováním** (učitel demonstruje aplikaci vzorce na náhodné události)
-- **pozitivním zpevněním** (subjektovy "průlomové" interpretace jsou oceňovány)
-- **negativním zpevněním** (interpretace mimo vzorec jsou označovány jako "stále lineární myšlení")
+- **pozitivním zpevněním** (subjektovy „průlomové“ interpretace jsou oceňovány)
+- **negativním zpevněním** (interpretace mimo vzorec jsou označovány jako „stále lineární myšlení“)
 
 ### Krok 3 — Eliminace perspektivální diferenciace
 
-Klíčový operační moment: **rozdíl mezi makroúrovní a mikroúrovní je systematicky popírán**. Vědecká pozice "DNA má jinou strukturální logiku než galaxie, jakkoli mohou existovat povrchní podobnosti" je redukována na "stále myslíš v lineárních kategoriích". Subjekt ztrácí schopnost rozlišit:
+Klíčový operační moment: **rozdíl mezi makroúrovní a mikroúrovní je systematicky popírán**. Vědecká pozice „DNA má jinou strukturální logiku než galaxie, jakkoli mohou existovat povrchní podobnosti“ je redukována na „stále myslíš v lineárních kategoriích“. Subjekt ztrácí schopnost rozlišit:
 
 - **strukturální podobnost** vs. **strukturální izomorfismus**
 - **metaforu** vs. **identitu**
@@ -67,7 +67,7 @@ Klíčový operační moment: **rozdíl mezi makroúrovní a mikroúrovní je sy
 
 ### Krok 4 — Saturace konfirmační evidence
 
-Protože vzorec je dostatečně abstraktní, **každá** událost ho potvrzuje. Subjekt prožívá **každodenní život jako kontinuální proud potvrzení**. Toto je fenomenologicky enormně silné — subjekt **opakovaně zažívá** "důkaz" rámce, čímž se rámec stává psychologicky neodstranitelným.
+Protože vzorec je dostatečně abstraktní, **každá** událost ho potvrzuje. Subjekt prožívá **každodenní život jako kontinuální proud potvrzení**. Toto je fenomenologicky enormně silné — subjekt **opakovaně zažívá** „důkaz“ rámce, čímž se rámec stává psychologicky neodstranitelným.
 
 ### Krok 5 — Konsolidace skrze pseudo-totalitu
 
@@ -75,7 +75,7 @@ Subjekt nyní operuje s rámcem, který:
 
 - **vysvětlí všechno** (a tedy nic specificky)
 - **není falsifikovatelný** (není událost, která by ho mohla zpochybnit)
-- **eliminuje perspektivu** (neexistuje "mimo rámec")
+- **eliminuje perspektivu** (neexistuje „mimo rámec“)
 - **redukuje druhé** na fraktální projevy téhož
 
 V této fázi subjekt **nemůže** plně diskutovat s nikým, kdo rámec nesdílí — nikoli z arogance, ale protože **strukturálně ztratil koncepci jiné perspektivy**.
@@ -87,8 +87,8 @@ V této fázi subjekt **nemůže** plně diskutovat s nikým, kdo rámec nesdíl
 - **Synchronicity hyperaktivita** — náhodné události jsou intenzivně významné
 - **Plochost diferenciace** — rozdíl mezi kontexty se ztrácí
 - **Univerzální applicability** — rámec lze aplikovat na cokoli
-- **Pocit "průlomu"** — subjekt cítí, že "konečně vidí, jak to celé funguje"
-- **Frustrace z těch, kdo "stále nevidí"**
+- **Pocit „průlomu“** — subjekt cítí, že „konečně vidí, jak to celé funguje“
+- **Frustrace z těch, kdo „stále nevidí“**
 - **Misijní impulz** — touha sdílet rámec s ostatními
 
 ## Detekční markery (pohled pozorovatele)
@@ -127,7 +127,7 @@ Holografická redukce je odlišitelná od **legitimních systemic-thinking pří
 
 #### 1. **Test specificity**
 
-Po každém "vhledu" se ptej: *Co konkrétně by mě tento rámec přinutil predikovat? Co konkrétně by ho vyvrátilo?* Pokud rámec nepředpovídá nic specifického a nic ho nemůže vyvrátit, **neposkytuje informaci** — pouze interpretační šablonu.
+Po každém „vhledu“ se ptej: *Co konkrétně by mě tento rámec přinutil predikovat? Co konkrétně by ho vyvrátilo?* Pokud rámec nepředpovídá nic specifického a nic ho nemůže vyvrátit, **neposkytuje informaci** — pouze interpretační šablonu.
 
 #### 2. **Doménová disciplína**
 
@@ -139,7 +139,7 @@ Pravidelně si pokládej otázku: *Jakými různými, vzájemně nekompatibilní
 
 #### 4. **Konkrétní empirické testy**
 
-Pokud rámec tvrdí univerzální platnost, zkonstruuj **konkrétní empirický test**. Když rámec test odmítne ("to nelze měřit", "to je za rámcem materialismu"), je to detekční marker.
+Pokud rámec tvrdí univerzální platnost, zkonstruuj **konkrétní empirický test**. Když rámec test odmítne („to nelze měřit“, „to je za rámcem materialismu“), je to detekční marker.
 
 ### Institucionální
 
@@ -153,38 +153,38 @@ Pokud rámec tvrdí univerzální platnost, zkonstruuj **konkrétní empirický 
 
 ### Případ 1 — Pseudo-vědecká kniha
 
-Bestseller deklaruje, že "kvantová mechanika potvrzuje, že vědomí tvoří realitu". Čtenáři aplikují tezi na vlastní život, vztahy, finance. Diagnóza: holografická redukce. Kvantová mechanika operuje v rozsahu subatomárních interakcí; aplikace na makroskopické vědomí je metaforou prezentovanou jako identita.
+Bestseller deklaruje, že „kvantová mechanika potvrzuje, že vědomí tvoří realitu“. Čtenáři aplikují tezi na vlastní život, vztahy, finance. Diagnóza: holografická redukce. Kvantová mechanika operuje v rozsahu subatomárních interakcí; aplikace na makroskopické vědomí je metaforou prezentovanou jako identita.
 
 ### Případ 2 — Korporátní transformační konzultant
 
-Konzultant tvrdí, že "každý problém v organizaci je fraktálním projevem stejné centrální dynamiky". Reálné technické, finanční, právní problémy jsou redukovány na "vibrace kultury". Kritická intervence selhala, protože konzultant interpretoval kritiku jako "součást fraktálního vzorce odporu".
+Konzultant tvrdí, že „každý problém v organizaci je fraktálním projevem stejné centrální dynamiky“. Reálné technické, finanční, právní problémy jsou redukovány na „vibrace kultury“. Kritická intervence selhala, protože konzultant interpretoval kritiku jako „součást fraktálního vzorce odporu“.
 
-### Případ 3 — Komunita "synchronicity"
+### Případ 3 — Komunita „synchronicity“
 
-Online komunita sdílí "synchronicity" události — ekonomické zprávy, gesta osobností, počasí — interpretované jako součást globálního vzorce. Členové prožívají enormní subjektivní koherenci. Externí analytik dokumentoval, že **stejné události** by se daly stejně dobře interpretovat **jakýmkoli alternativním** rámcem.
+Online komunita sdílí „synchronicity“ události — ekonomické zprávy, gesta osobností, počasí — interpretované jako součást globálního vzorce. Členové prožívají enormní subjektivní koherenci. Externí analytik dokumentoval, že **stejné události** by se daly stejně dobře interpretovat **jakýmkoli alternativním** rámcem.
 
 ## Vztah k jiným technikám
 
 ### Sesterská UM (úroveň 5)
 
 - **[EA-5.1.19 Kvazi-mystická anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md)** — holografická redukce slouží jako **interpretační templát** kvazi-mystických zkušeností.
-- **[EA-5.1.21 Sebe-referenční paradox](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md)** — když se holografický rámec aplikuje sám na sebe, generuje paradoxy, které jsou interpretovány jako "důkaz hloubky".
+- **[EA-5.1.21 Sebe-referenční paradox](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md)** — když se holografický rámec aplikuje sám na sebe, generuje paradoxy, které jsou interpretovány jako „důkaz hloubky“.
 
 ### Vztah k základním (EA-1.X.Y) technikám
 
 - **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — strukturální základ.
 - **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — pseudovědecký slovník (kvantum, fraktál, vibrace).
-- **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — když je rámec konfrontován, diskuse je přesměrována na "vyšší úroveň".
+- **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — když je rámec konfrontován, diskuse je přesměrována na „vyšší úroveň“.
 
 ### Eskaluje do
 
 - **Kolektivní pseudo-totalitní rámce** — celé hnutí operuje v holografické redukci.
-- **Pseudo-vědecké instituce** — "univerzity" a "akademie" institucionalizující rámec.
+- **Pseudo-vědecké instituce** — „univerzity“ a „akademie“ institucionalizující rámec.
 
 ## Vztah k Prismatic platformě
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemic monitor flaguje claims s univerzální applicability bez doménové specifikace.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — vyžaduje **specifická falsifikační kritéria** pro každé rozhodnutí; rámce typu "vše je projev X" jsou strukturálně odmítnuty.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — vyžaduje **specifická falsifikační kritéria** pro každé rozhodnutí; rámce typu „vše je projev X“ jsou strukturálně odmítnuty.
 - **{{ <cross_link path="/osint/toolbox" text="OSINT framework" /> }}** — vyžaduje **konkrétní zdrojovou evidenci** pro každý claim, eliminuje pseudo-totalitní generalizace.
 
 ## Související
@@ -204,7 +204,6 @@ Online komunita sdílí "synchronicity" události — ekonomické zprávy, gesta
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

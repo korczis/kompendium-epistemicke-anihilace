@@ -22,6 +22,7 @@ quality_score = 80
 ## Mechanismus
 
 Populačně-měřítkové útoky využívají:
+
 - Asymetrii informačního dosahu (masmédia vs. individuální oběť)
 - Síťové efekty (kaskády, echo chambers, polarizace)
 - Institucionální legitimitu (obhajitelnost neodůvodněných tvrzení skrze institucionální rámec)
@@ -38,12 +39,12 @@ Analýza populačně-měřítkových jevů přechází z klinické do politické
 ## Operační aplikace
 
 V práci Prismatic Platform se **Propaganda** aplikuje skrze:
+
 - OSINT monitoring (perimeter, threat-intel)
 - Compliance frameworks (NIS2, ZKB)
 - Educational outreach (Academy)
 - Multi-stakeholder reporting (CER reports)
 <!-- EXPANDED:PHASE11 -->
-
 
 ## See Also
 
@@ -57,7 +58,6 @@ V práci Prismatic Platform se **Propaganda** aplikuje skrze:
 ## Manažerské shrnutí
 
 **Propaganda** je aktivní uzel taxonomického grafu sekce `kompendium/07-populacni` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
-
 
 ## Koncepční síť
 

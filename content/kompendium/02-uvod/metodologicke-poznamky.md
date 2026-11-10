@@ -33,13 +33,13 @@ Každá taxonomická jednotka (technika) musí být **strukturálně distinktivn
 > - Falešné dilema vyžaduje **artificiální polarizaci** (binární redukce kontinua)
 > - Falešná ekvivalence vyžaduje **artificiální symetrii** (vyrovnání asymetrických entit)
 >
-> Povrchově obojí "uměle deformuje strukturu volby", ale mechanismy jsou odlišné.
+> Povrchově obojí „uměle deformuje strukturu volby“, ale mechanismy jsou odlišné.
 
 ### Princip kompoziční úplnosti
 
 Taxonomie musí být **kompozičně úplná** — komplexní techniky lze popsat jako kombinaci základních jednotek; obráceně, ze základních jednotek lze rekonstruovat komplexní techniky.
 
-> **Příklad**: *Vzorec "Guru a adept"* (EA-1.6.1) je kompozicí:
+> **Příklad**: *Vzorec „Guru a adept“* (EA-1.6.1) je kompozicí:
 > - EA-1.5.2 (dominantní tělesné hieroglyfy)
 > - EA-1.4.1 (prosodická dominance)
 > - EA-1.3.3 (tematická diverze při kritice)
@@ -48,7 +48,7 @@ Taxonomie musí být **kompozičně úplná** — komplexní techniky lze popsat
 
 ### Princip operační specifikace
 
-Každá technika musí mít **explicitní operační modus** — popis mechanismu na úrovni umožňující detekci a neutralizaci. Pouhý fenomenologický popis ("subjekt cítí zmatek") neposkytuje operační oporu pro klasifikaci ani intervenci.
+Každá technika musí mít **explicitní operační modus** — popis mechanismu na úrovni umožňující detekci a neutralizaci. Pouhý fenomenologický popis („subjekt cítí zmatek“) neposkytuje operační oporu pro klasifikaci ani intervenci.
 
 ### Princip fenomenologické validace
 
@@ -328,7 +328,7 @@ Každý specifický fenomén v taxonomii je identifikován prostřednictvím pri
 
 Kde:
 
-- **EA** — označuje "epistemická anihilace" (pro fenomény kognitivní anihilace se používá "KA")
+- **EA** — označuje „epistemická anihilace“ (pro fenomény kognitivní anihilace se používá „KA“)
 - **X** — numerický identifikátor primární kategorie (1-5, odpovídající pěti hlavním částem)
 - **Y** — numerický identifikátor subkategorie v rámci dané kategorie
 - **Z** — numerický identifikátor specifického fenoménu v rámci subkategorie
@@ -384,7 +384,7 @@ Taxonomie nevyhnutelně reflektuje současný stav poznání a je limitována ex
 
 - **Limitovaná empirická báze** pro některé postulované fenomény, zejména v jejich vzácnějších a extrémnějších formách
 - **Nerovnoměrná hloubka porozumění** různým aspektům epistemické anihilace napříč disciplínami
-- **Potenciální "bílá místa"** reprezentující dosud neidentifikované nebo nekonceptualizované fenomény
+- **Potenciální „bílá místa“** reprezentující dosud neidentifikované nebo nekonceptualizované fenomény
 - **Reflexivní limitace** vyplývající z neschopnosti plně transcendovat vlastní epistemické předpoklady
 
 ### Metodologické trade-offs
@@ -506,7 +506,6 @@ Taxonomie **není** dokončený artefakt — je **živý systém**. Klíčové o
 - [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Glosář: Epistemic Pipeline](@/glossary/epistemic-pipeline.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-
 
 ## ⚡ Kritický krok
 

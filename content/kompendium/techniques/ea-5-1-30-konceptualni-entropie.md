@@ -84,12 +84,12 @@ V terminálním stavu subjekt **sám aktivně reprodukuje** konceptuální blato
 
 Co prožívá subjekt **uvnitř** konceptuální entropie:
 
-- **Difúzní pocit hlubokého porozumění** — subjekt prožívá rozmazání jako "překonání umělých hranic"
+- **Difúzní pocit hlubokého porozumění** — subjekt prožívá rozmazání jako „překonání umělých hranic“
 - **Kognitivní únava při pokusu o klasifikaci** — třídění, definice, srovnávání působí *namáhavě*
-- **Lingvistická insuficience** — slova, která dříve fungovala, "už neznamenají to, co měla znamenat"
+- **Lingvistická insuficience** — slova, která dříve fungovala, „už neznamenají to, co měla znamenat“
 - **Emocionální dezorientace** — subjekt nedokáže přesně pojmenovat, co cítí, protože pocity, které dříve rozlišoval, se prolnuly
-- **Paradoxní pocit "hlubšího náhledu"** — subjekt prožívá ztrátu rozlišování jako *zisk* (často s estetickou kvalitou)
-- **Nárůst pasivity v kognitivních úkolech** — subjekt přestává argumentovat, protože "argumentace předpokládá rozlišení, které nemám"
+- **Paradoxní pocit „hlubšího náhledu“** — subjekt prožívá ztrátu rozlišování jako *zisk* (často s estetickou kvalitou)
+- **Nárůst pasivity v kognitivních úkolech** — subjekt přestává argumentovat, protože „argumentace předpokládá rozlišení, které nemám“
 - **Komunikační selhání** — subjekt nedokáže vysvětlit ostatním, *o čem* mluví, protože jeho koncepty nemají stabilní reference
 - **Hermeneutická volatilita** ([viz hermeneutika](@/glossary/hermeneutika.md)) — interpretace situací se neustále mění, protože interpretační koncepty samy oscilují
 
@@ -136,7 +136,7 @@ Subjekt periodicky provede inventarizaci **klíčových distinkcí**: u každéh
 
 #### 2. **Strukturní jazyková disciplína**
 
-Volba **přesných termínů** namísto mlhavých syntagmat. Cvičení: vyhýbat se *"jakoby"*, *"v jistém smyslu"*, *"nějak"* a místo nich artikulovat **konkrétní** distinkci.
+Volba **přesných termínů** namísto mlhavých syntagmat. Cvičení: vyhýbat se *„jakoby“*, *„v jistém smyslu“*, *„nějak“* a místo nich artikulovat **konkrétní** distinkci.
 
 #### 3. **Externí konceptuální triangulace**
 
@@ -167,25 +167,25 @@ Skupina doktorandů v interdisciplinárním programu po 4 letech vykazovala nesc
 
 ### Případ 2 — Komunitní jazykový rejstřík
 
-Online wellness komunita po 2 letech vyvinula vnitřní rejstřík ("energie", "frequence", "alignment"), v němž 60 % účastníků nedokázalo rozlišit mezi prožívaným strachem a prožívanou úzkostí, mezi reflexí a ruminací, mezi empatií a splynutím. Detekce: terapeutický audit členů odhalil systematickou konceptuální entropii. Intervence: postupné opouštění interního rejstříku, re-etablování klinických distinkcí.
+Online wellness komunita po 2 letech vyvinula vnitřní rejstřík („energie“, „frequence“, „alignment“), v němž 60 % účastníků nedokázalo rozlišit mezi prožívaným strachem a prožívanou úzkostí, mezi reflexí a ruminací, mezi empatií a splynutím. Detekce: terapeutický audit členů odhalil systematickou konceptuální entropii. Intervence: postupné opouštění interního rejstříku, re-etablování klinických distinkcí.
 
 ### Případ 3 — Korporátní jazykový kolaps
 
-Vrcholový tým velké organizace po dlouhodobém používání korporátního "value language" ("transparence", "agile", "lidé na prvním místě") nedokázal v krizové situaci provést **základní rozhodnutí**, protože všechny klíčové termíny ztratily distinktivitu. Detekce: externí audit zjistil, že stejný termín byl v různých dokumentech používán protichůdně. Intervence: lingvistický redesign s explicitními definicemi.
+Vrcholový tým velké organizace po dlouhodobém používání korporátního „value language“ („transparence“, „agile“, „lidé na prvním místě“) nedokázal v krizové situaci provést **základní rozhodnutí**, protože všechny klíčové termíny ztratily distinktivitu. Detekce: externí audit zjistil, že stejný termín byl v různých dokumentech používán protichůdně. Intervence: lingvistický redesign s explicitními definicemi.
 
 ## Vztah k jiným technikám
 
 ### Často se kombinuje s
 
-- **[EA-5.1.28 Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md)** — sesterská technika; standardní sekvence E→S: entropie destruuje stávající strukturu (rozmaže hranice), singularita pak vyplní vzniklý chaos jediným atraktorem ("uprostřed šumu zůstává jen jedna jistota").
+- **[EA-5.1.28 Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md)** — sesterská technika; standardní sekvence E→S: entropie destruuje stávající strukturu (rozmaže hranice), singularita pak vyplní vzniklý chaos jediným atraktorem („uprostřed šumu zůstává jen jedna jistota“).
 - **[EA-5.1.29 Ontologická exfoliace](@/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md)** — sesterská technika; exfoliace odstraňuje koncepty, entropie odstraňuje strukturu mezi nimi. Komplementární.
 - **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — terminologická mystifikace zavádí *nový* mlhavý slovník; entropie destruuje *existující* distinkce.
-- **[EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)** — falešné dilema potřebuje *jasné* binární distinkce; entropie tyto distinkce *rozmazává*. Operátor často kombinuje: nejprve etabluje binární distinkci, pak ji "překonává".
+- **[EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)** — falešné dilema potřebuje *jasné* binární distinkce; entropie tyto distinkce *rozmazává*. Operátor často kombinuje: nejprve etabluje binární distinkci, pak ji „překonává“.
 
 ### Eskaluje do
 
 - **[Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)** — terminální stav, v němž subjekt ztrácí schopnost provést kognitivní operace vyžadující distinkci.
-- **Anankastický režim](@/glossary/anankasticky-rezim.md)** — paradoxně subjekt v entropickém stavu může vyvinout kompulzivní lpění na **jednom** mlhavém termínu jako jediném "smysluplném" výrazu.
+- **Anankastický režim](@/glossary/anankasticky-rezim.md)** — paradoxně subjekt v entropickém stavu může vyvinout kompulzivní lpění na **jednom** mlhavém termínu jako jediném „smysluplném“ výrazu.
 - **Kognitivní anti-rekurzivita** ([viz kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)) — neschopnost reflektovat vlastní pojmový aparát, čímž se entropie stává sebeudržující.
 
 ### Alternativy / podobné, ale **distinktivní**
@@ -224,7 +224,6 @@ Vrcholový tým velké organizace po dlouhodobém používání korporátního "
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

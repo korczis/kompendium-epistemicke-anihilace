@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Konceptuální nihilace** je ultramární technika, jejímž cílem je **systematická destrukce kategoriálních struktur**, prostřednictvím nichž subjekt organizuje zkušenost. Nejde o pouhou změnu obsahu jednotlivých přesvědčení (jak by mohla působit běžná argumentační manipulace), ale o **erozi samotných pojmů**, na nichž subjektova kognitivní aparatura stojí: pravda, evidence, identita, agency, čas, kauzalita, intencionalita.
 
-Po nasazení techniky není subjekt schopen klást otázku *"Co je pravda?"* — protože pojem **pravda** byl destabilizován do té míry, že ztratil operační obsah. Stejně tak otázky *"Kdo jsem?"*, *"Co dělám?"*, *"Co mám dělat?"* ztrácejí formulovatelnost, protože pojmy *já*, *jednání*, *povinnost* byly fragmentovány a vyprázdněny.
+Po nasazení techniky není subjekt schopen klást otázku *„Co je pravda?“* — protože pojem **pravda** byl destabilizován do té míry, že ztratil operační obsah. Stejně tak otázky *„Kdo jsem?“*, *„Co dělám?“*, *„Co mám dělat?“* ztrácejí formulovatelnost, protože pojmy *já*, *jednání*, *povinnost* byly fragmentovány a vyprázdněny.
 
 Strukturálně připomíná konceptuální nihilace **filozofickou skepsi**, ale liší se v zásadním rysu: filozofická skepse je **operatorem** (nástrojem k revizi přesvědčení v kontrolovaném rámci), kdežto konceptuální nihilace je **stavem**, do něhož je subjekt uveden bez možnosti návratu k operativnímu používání pojmů. Subjekt **přestává mít k dispozici** kategorie, které dříve používal — nikoli proto, že je revidoval, ale proto, že je **vyprázdnily**.
 
@@ -55,9 +55,9 @@ Manipulátor identifikuje **nosné pojmy** subjektova kognitivního rámce — t
 
 Pro každý nosný pojem je systematicky předkládán **diskurz, který činí pojem ambivalentní**:
 
-- *"Co vlastně myslíš slovem 'evidence'? Není evidence vždy už interpretovaná?"*
-- *"Když říkáš 'já', kdo to říká? To 'já' z včerejška, nebo to dnešní?"*
-- *"'Pravda' v jakém smyslu? Pragmatickém, korespondenčním, koherenčním? A která z nich je 'opravdu' pravda o pravdě?"*
+- *„Co vlastně myslíš slovem 'evidence'? Není evidence vždy už interpretovaná?“*
+- *„Když říkáš 'já', kdo to říká? To 'já' z včerejška, nebo to dnešní?“*
+- *„'Pravda' v jakém smyslu? Pragmatickém, korespondenčním, koherenčním? A která z nich je 'opravdu' pravda o pravdě?“*
 
 Otázky **jsou filozoficky validní** a izolovaně by představovaly legitimní pojmovou analýzu. Manipulátor je však předkládá **systematicky, simultánně** napříč všemi nosnými pojmy a **bez nabídky operativního zakončení** — ambiguace zůstává **otevřená**, nedořešená, zavěšená.
 
@@ -65,9 +65,9 @@ Otázky **jsou filozoficky validní** a izolovaně by představovaly legitimní 
 
 Když se subjekt pokusí pojem **rekonstruovat** (operativně předefinovat, zvolit jednu z analýz, pragmaticky se rozhodnout pro pracovní definici), manipulátor zavádí **další úroveň destabilizace**:
 
-- *"To je velmi pragmatické. Ale není pragmatismus sám předmětem stejné analýzy?"*
-- *"Vybíráš si definici. Co tě vede k tomu výběru? Není ten 'výběr' také konstrukcí?"*
-- *"Říkáš 'pracovní definice' — ale 'pracovní' v jakém rámci? Ten rámec sám potřebuje analýzu."*
+- *„To je velmi pragmatické. Ale není pragmatismus sám předmětem stejné analýzy?“*
+- *„Vybíráš si definici. Co tě vede k tomu výběru? Není ten 'výběr' také konstrukcí?“*
+- *„Říkáš 'pracovní definice' — ale 'pracovní' v jakém rámci? Ten rámec sám potřebuje analýzu.“*
 
 Subjekt není schopen **uzavřít** žádnou kategorii, protože každý pokus o uzavření je rozevřen na meta-úrovni. Vzniká **regresivní spirála** směrem k pojmovému kolapsu.
 
@@ -100,7 +100,7 @@ Co prožívá subjekt **uvnitř** konceptuální nihilace:
 | **Toxická vděčnost za rámec** | Když manipulátor poskytne **jakoukoli** kategoriální oporu, subjekt prožívá intenzivní úlevu — i když je rámec evidentně problematický |
 | **Filozofický exhibitionismus** | V raných stadiích subjekt často **demonstruje** ambiguaci jako svou novou sofistikaci, aniž by si všiml, že ztrácí operativní kapacitu |
 
-V pokročilých stadiích kombinace s [epistemickou kanibalizací](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) způsobuje, že subjekt **přijímá manipulátorovy** kategorie jako jediné, které "fungují".
+V pokročilých stadiích kombinace s [epistemickou kanibalizací](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) způsobuje, že subjekt **přijímá manipulátorovy** kategorie jako jediné, které „fungují“.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -172,7 +172,7 @@ Subjekt aktivně testuje, zda manipulátor je schopen použít pojmy **operativn
 
 ### Případ 1 — Anonymizovaný akademický kontext
 
-Doktorand/ka v kontinentální filozofii pracuje pod supervizí, která systematicky problematizuje pojmy *argument*, *evidence*, *teze*. Po dvou letech kandidát/ka není schopen/schopna napsat tezi disertace — formulační pokus je vždy "naivní".
+Doktorand/ka v kontinentální filozofii pracuje pod supervizí, která systematicky problematizuje pojmy *argument*, *evidence*, *teze*. Po dvou letech kandidát/ka není schopen/schopna napsat tezi disertace — formulační pokus je vždy „naivní“.
 
 Detekce: Externí komise zjistila, že kandidát/ka vykazuje pojmovou plynulost, ale nemá **žádný produktivní výstup**. Při rozhovoru s nezávislým filozofem v jiné tradici kandidát/ka prožila intenzivní úlevu při setkání s **operativní pojmovou prací**.
 
@@ -180,9 +180,9 @@ Intervence: Změna supervize, povinný kurz analytické metodologie, terapeutick
 
 ### Případ 2 — High-control komunita
 
-Komunita se duchovní orientací systematicky problematizuje pojmy *láska*, *rodina*, *přátelství* mimo komunitní kontext. Členové prožívají externí vztahy jako "iluzorní" a interní jako "jediné autentické".
+Komunita se duchovní orientací systematicky problematizuje pojmy *láska*, *rodina*, *přátelství* mimo komunitní kontext. Členové prožívají externí vztahy jako „iluzorní“ a interní jako „jediné autentické“.
 
-Detekce: Bývalí členové po výstupu reportovali, že jim **trvalo 12–18 měsíců** než byli schopni používat pojem *přítel* o lidech mimo komunitu bez vnitřního pochybování o "skutečnosti" tohoto vztahu.
+Detekce: Bývalí členové po výstupu reportovali, že jim **trvalo 12–18 měsíců** než byli schopni používat pojem *přítel* o lidech mimo komunitu bez vnitřního pochybování o „skutečnosti“ tohoto vztahu.
 
 Intervence: Podpůrná síť pro bývalé členy s explicitní pojmovou rehabilitací; veřejná deklarace komunity jako struktury produkující konceptuální nihilaci.
 
@@ -238,7 +238,6 @@ Konceptuální nihilace je **strukturálním motivem** pro několik defenzivníc
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

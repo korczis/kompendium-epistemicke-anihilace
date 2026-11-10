@@ -24,15 +24,15 @@ toc = false
 
 ## Definice
 
-**Noumenální redukce** je technika, při níž manipulátor vnese do subjektova diskurzu **nárok na přímý "noumenální" přístup** k věci o sobě, mimo jakékoli zprostředkování. Současně **rétoricky popírá**, že fenomenální zkušenost (smyslová, racionální, koncepční) má epistemický status — vše je "iluze, závoj, povrch". Subjekt postupně operuje s "absolutními pravdami" bez kontaktu s reálným světem; pozice je strukturně **nedosažitelná pro empirickou kontraargumentaci**, protože každá empirická námitka je rámována jako "fenomenální iluze". V terminálním stadiu praktické chyby (špatné investice, špatná diagnóza, špatná volba partnera) jsou systematicky vykládány jako "fenomenální iluze"; korekce je strukturálně vyloučena. Noumenální redukce **invertuje** Kantovo schéma: u Kanta je noumenum *myslitelné, ale nepoznatelné*; v technice je noumenum prezentováno jako *přímo poznatelné*, a fenomenální vrstva je deflační.
+**Noumenální redukce** je technika, při níž manipulátor vnese do subjektova diskurzu **nárok na přímý „noumenální“ přístup** k věci o sobě, mimo jakékoli zprostředkování. Současně **rétoricky popírá**, že fenomenální zkušenost (smyslová, racionální, koncepční) má epistemický status — vše je „iluze, závoj, povrch“. Subjekt postupně operuje s „absolutními pravdami“ bez kontaktu s reálným světem; pozice je strukturně **nedosažitelná pro empirickou kontraargumentaci**, protože každá empirická námitka je rámována jako „fenomenální iluze“. V terminálním stadiu praktické chyby (špatné investice, špatná diagnóza, špatná volba partnera) jsou systematicky vykládány jako „fenomenální iluze“; korekce je strukturálně vyloučena. Noumenální redukce **invertuje** Kantovo schéma: u Kanta je noumenum *myslitelné, ale nepoznatelné*; v technice je noumenum prezentováno jako *přímo poznatelné*, a fenomenální vrstva je deflační.
 
 ## Operační modus (5 kroků)
 
-1. **Etablování noumenálního nároku** — manipulátor vnese ideu, že subjekt může "přímo vědět" věc o sobě.
-2. **Diskreditace fenomenální vrstvy** — empirie je označena za "iluzi" či "závoj".
+1. **Etablování noumenálního nároku** — manipulátor vnese ideu, že subjekt může „přímo vědět“ věc o sobě.
+2. **Diskreditace fenomenální vrstvy** — empirie je označena za „iluzi“ či „závoj“.
 3. **Rituální stabilizace** — meditační nebo doktrinální praxe upevňuje pozici.
-4. **Imunizace** — empirický test je rámován jako "kategorizační chyba".
-5. **Praktická konsolidace** — rozhodnutí jsou činěna na "noumenálním" základě, korekce je vyloučena.
+4. **Imunizace** — empirický test je rámován jako „kategorizační chyba“.
+5. **Praktická konsolidace** — rozhodnutí jsou činěna na „noumenálním“ základě, korekce je vyloučena.
 
 ## Fenomenologické znaky
 
@@ -54,13 +54,13 @@ toc = false
 
 ## Neutralizace
 
-- **Operacionální Kantův test** — pro každý nárok na "noumenální" poznání vyžadovat fenomenální verifikaci; podle samotného Kanta noumena nelze poznat, jen myslet.
+- **Operacionální Kantův test** — pro každý nárok na „noumenální“ poznání vyžadovat fenomenální verifikaci; podle samotného Kanta noumena nelze poznat, jen myslet.
 - **Empirická konfrontace** — strukturované rozhodovací úlohy s objektivně měřitelným výsledkem.
 - **Filosofická supervize** — kompetentní filosof artikuluje, kde subjektova rétorika přestává být kantovsky koherentní.
 
 ## Klinický kontext
 
-Noumenální redukce se vyskytuje typicky v alternativně-medicínských tradicích ("vidím podstatu nemoci"), v některých formách esoterické psychologie, ve filosofických tradicích, jež zaměňují kantovský transcendentalismus s gnostickým mysticismem, a v některých spirituálních školách s "přímým věděním". **Klasický případ**: léčitelka tvrdí "přímý přístup k podstatě nemoci, mimo iluzi laboratorních testů". Při strukturované zkoušce (slepá identifikace 20 pacientů) má úspěšnost 50 % — náhodu. Reakce: "vědecká metodologie nedokáže měřit noumenální dimenzi". Pozice je strukturně neselsifikovatelná. Klinické riziko: pacienti nedostávají odpovídající léčbu, ekonomické a zdravotní škody jsou významné.
+Noumenální redukce se vyskytuje typicky v alternativně-medicínských tradicích („vidím podstatu nemoci“), v některých formách esoterické psychologie, ve filosofických tradicích, jež zaměňují kantovský transcendentalismus s gnostickým mysticismem, a v některých spirituálních školách s „přímým věděním“. **Klasický případ**: léčitelka tvrdí „přímý přístup k podstatě nemoci, mimo iluzi laboratorních testů“. Při strukturované zkoušce (slepá identifikace 20 pacientů) má úspěšnost 50 % — náhodu. Reakce: „vědecká metodologie nedokáže měřit noumenální dimenzi“. Pozice je strukturně neselsifikovatelná. Klinické riziko: pacienti nedostávají odpovídající léčbu, ekonomické a zdravotní škody jsou významné.
 
 ## Cross-linky
 

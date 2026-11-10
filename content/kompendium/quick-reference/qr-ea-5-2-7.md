@@ -24,15 +24,15 @@ toc = false
 
 ## Operační modus (3 kroky)
 
-1. Vnesení doktrín, které relativizují konkrétní transcendentální kategorii ("kauzalita je iluze", "substance neexistuje", "jednota je sociální konstrukt")
+1. Vnesení doktrín, které relativizují konkrétní transcendentální kategorii („kauzalita je iluze“, „substance neexistuje“, „jednota je sociální konstrukt“)
 2. Praktická rituální praxe (meditace, kontemplace, drogová expozice), která posiluje afektivní zkušenost rozpouštění kategorie
-3. Konsolidace ve stavu, kde subjekt operuje bez kategorialního rámce — což formálně možno není, takže ho nahrazuje prázdným prožitím "rozpuštění"
+3. Konsolidace ve stavu, kde subjekt operuje bez kategorialního rámce — což formálně možno není, takže ho nahrazuje prázdným prožitím „rozpuštění“
 
 ## Detekční markery (3 nejvýraznější)
 
-- Subjekt formuluje "ne nic neexistuje, ale také nic není" jako legitimní pozici, nikoli jako rozpor
+- Subjekt formuluje „ne nic neexistuje, ale také nic není“ jako legitimní pozici, nikoli jako rozpor
 - Praktická rozhodování trpí strukturální nejistotou — chybí kategoriální opora pro identifikaci predmětu rozhodnutí
-- Při klinickém rozhovoru subjekt užívá kategorie "substance / kauzalita / jednota" lingvisticky, ale jejich kognitivní funkce kolabuje
+- Při klinickém rozhovoru subjekt užívá kategorie „substance / kauzalita / jednota“ lingvisticky, ale jejich kognitivní funkce kolabuje
 
 ## Neutralizační strategie (3 nejúčinnější)
 
@@ -42,7 +42,7 @@ toc = false
 
 ## Příklad
 
-Účastník dvou intenzivních ayahuasca retreatů reportuje "viděl jsem, že kauzalita neexistuje, vše se děje samo". Při návratu řídí auto a ohrožuje sebe i jiné, protože "kauzalita brzdy" se mu rozpustila. Lékař, který ho ošetřuje po havárii, stojí před technicky složitým případem indukované kategoriální disoluce.
+Účastník dvou intenzivních ayahuasca retreatů reportuje „viděl jsem, že kauzalita neexistuje, vše se děje samo“. Při návratu řídí auto a ohrožuje sebe i jiné, protože „kauzalita brzdy“ se mu rozpustila. Lékař, který ho ošetřuje po havárii, stojí před technicky složitým případem indukované kategoriální disoluce.
 
 ## Cross-linky
 

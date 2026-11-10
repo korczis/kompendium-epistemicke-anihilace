@@ -22,25 +22,25 @@ toc = false
 
 ## Operační modus (3 kroky)
 
-1. Útok na formální oprávnění — "ten není MD, jen PhD", "to není akreditovaná instituce", "tu cenu udělila pochybná komise"
-2. Posun debaty z meritu argumentu na "kdo má právo to říct"; obsah se stává druhořadým
+1. Útok na formální oprávnění — „ten není MD, jen PhD“, „to není akreditovaná instituce“, „tu cenu udělila pochybná komise“
+2. Posun debaty z meritu argumentu na „kdo má právo to říct“; obsah se stává druhořadým
 3. Selektivní aplikace credentialingu — stejně kvalifikovaní spojenci nejsou napadáni, ačkoli mají identické formální zázemí
 
 ## Detekční markery (3 nejvýraznější)
 
-- Útok cílí konzistentně credential, nikdy obsah; subjekt nemůže odpovědět "ano, ale data ukazují...", protože debata je o legitimitě jeho hlasu
+- Útok cílí konzistentně credential, nikdy obsah; subjekt nemůže odpovědět „ano, ale data ukazují…“, protože debata je o legitimitě jeho hlasu
 - Asymetrická aplikace — stejný typ credentials je u jiných lidí (s preferovanými závěry) přijímán bez výhrad
 - Útočník nepovažuje credentialing za rozhodující v jiných kontextech — jen tam, kde to vyhovuje agendě
 
 ## Neutralizační strategie (3 nejúčinnější)
 
-- Reframe na obsah — "i kdyby autor neměl žádné formální vzdělání, je tvrzení X pravdivé, ano či ne?"
+- Reframe na obsah — „i kdyby autor neměl žádné formální vzdělání, je tvrzení X pravdivé, ano či ne?“
 - Vystavení asymetrie — viditelně ukázat, že stejné credentials u jiných nejsou napadány; přesouvá náklad na útočníka
-- Multipl credential triangulace — k validaci najít experta s "neútočitelnými" credentials, ať je závěr stejný
+- Multipl credential triangulace — k validaci najít experta s „neútočitelnými“ credentials, ať je závěr stejný
 
 ## Příklad
 
-Praktická lékařka s 25 lety zkušeností v terénu publikuje empirickou observaci. Akademický establishment ji zamítne s "není výzkumnice, je jen praktička". Stejný empirický pozorovací design u akademika by byl publikovatelný — útok je na credentials, nikoli na metodu.
+Praktická lékařka s 25 lety zkušeností v terénu publikuje empirickou observaci. Akademický establishment ji zamítne s „není výzkumnice, je jen praktička“. Stejný empirický pozorovací design u akademika by byl publikovatelný — útok je na credentials, nikoli na metodu.
 
 ## Cross-linky
 

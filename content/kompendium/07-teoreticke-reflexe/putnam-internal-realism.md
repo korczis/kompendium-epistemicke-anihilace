@@ -17,19 +17,19 @@ toc = true
 
 # 7.27 Putnam: Vnitřní realismus a faktové hodnoty
 
-Hilary Putnam (1926–2016) — pozoruhodný "filozof, jenž často změnil názor" — prošel během svého života několika fundamentálními pozicemi. V *Reason, Truth and History* (1981) formuloval **vnitřní realismus** (*internal realism*), v *The Collapse of the Fact/Value Dichotomy* (2002) demontoval distinkci faktů a hodnot.
+Hilary Putnam (1926–2016) — pozoruhodný „filozof, jenž často změnil názor“ — prošel během svého života několika fundamentálními pozicemi. V *Reason, Truth and History* (1981) formuloval **vnitřní realismus** (*internal realism*), v *The Collapse of the Fact/Value Dichotomy* (2002) demontoval distinkci faktů a hodnot.
 
-Pro kompendium EA poskytuje Putnamova trajektorie nástroj pro pochopení **EA technik operujících skrze pseudoneutrální fakta** — pojem "fakt" sám není **strukturálně neutrální**.
+Pro kompendium EA poskytuje Putnamova trajektorie nástroj pro pochopení **EA technik operujících skrze pseudoneutrální fakta** — pojem „fakt“ sám není **strukturálně neutrální**.
 
 ## 1. Mozek v kádi (*brain in a vat*)
 
-Putnamův klasický myšlenkový experiment z *Reason, Truth and History* (1981): představte si, že jste **mozek v kádi**, jenž je elektricky stimulován, aby zažíval iluzi vnějšího světa. Můžete **smysluplně tvrdit**, že "jsem mozek v kádi"?
+Putnamův klasický myšlenkový experiment z *Reason, Truth and History* (1981): představte si, že jste **mozek v kádi**, jenž je elektricky stimulován, aby zažíval iluzi vnějšího světa. Můžete **smysluplně tvrdit**, že „jsem mozek v kádi“?
 
-Putnamův argument: **NE**. Pojem "mozek v kádi" má smysl pouze v **referenčně bohatém** kontextu, kde má slovo "mozek" kontakt se skutečnými mozky. Pokud bych byl mozkem v kádi, mé slovo "mozek" by referovalo k **simulovaným mozkům** — a tudíž by tvrzení "jsem mozek v kádi" bylo **nepravdivé** (neboť jsem **simulovaný**, nikoli "skutečný" mozek).
+Putnamův argument: **NE**. Pojem „mozek v kádi“ má smysl pouze v **referenčně bohatém** kontextu, kde má slovo „mozek“ kontakt se skutečnými mozky. Pokud bych byl mozkem v kádi, mé slovo „mozek“ by referovalo k **simulovaným mozkům** — a tudíž by tvrzení „jsem mozek v kádi“ bylo **nepravdivé** (neboť jsem **simulovaný**, nikoli „skutečný“ mozek).
 
 Pro EA má tento argument **strukturální význam**:
 
-- **Pseudo-skeptické EA**: techniky, jež **systematicky podkopávají** kontakt subjektu s realitou ("nevěř ničemu, co vidíš"), strukturálně **anihilují** referenci slov.
+- **Pseudo-skeptické EA**: techniky, jež **systematicky podkopávají** kontakt subjektu s realitou („nevěř ničemu, co vidíš“), strukturálně **anihilují** referenci slov.
 - **Klinický korelát**: subjekt vystaven dlouhodobému gaslightingu vykazuje **strukturální desreferenci** — slova ztrácí pevnou vazbu na svět.
 
 ## 2. Vnitřní realismus
@@ -44,22 +44,22 @@ Vnitřní realismus tvrdí:
 
 Pro EA z toho plyne:
 
-- **Naivní realismus jako EA-zranitelná pozice**: subjekt věřící v "objektivní fakta mimo všechna schemata" je **strukturálně manipulovatelný**.
-- **Naivní idealismus jako EA-otevřená pozice**: subjekt věřící, že "vše je konstrukce", strukturálně **odmítá** disciplínu reality.
+- **Naivní realismus jako EA-zranitelná pozice**: subjekt věřící v „objektivní fakta mimo všechna schemata“ je **strukturálně manipulovatelný**.
+- **Naivní idealismus jako EA-otevřená pozice**: subjekt věřící, že „vše je konstrukce“, strukturálně **odmítá** disciplínu reality.
 - **Vnitřní realismus jako epistemická rezilience**: vyvážená pozice, jež udržuje **disciplínu** světa **bez** naivní jistoty.
 
 ## 3. Kolaps fakt/hodnoty distinkce
 
 Putnam v *The Collapse of the Fact/Value Dichotomy* (2002) demontuje tradiční distinkci:
 
-- **Tlusté pojmy** (*thick concepts*) — pojmy, jež **současně popisují** a **hodnotí** ("krutý", "statečný", "korupční"). Nelze je rozdělit na "deskriptivní složku" + "normativní složku".
-- **Vědecké pojmy** často mají strukturálně **hodnotovou** dimenzi ("zdravý", "racionální", "vědecký").
+- **Tlusté pojmy** (*thick concepts*) — pojmy, jež **současně popisují** a **hodnotí** („krutý“, „statečný“, „korupční“). Nelze je rozdělit na „deskriptivní složku“ + „normativní složku“.
+- **Vědecké pojmy** často mají strukturálně **hodnotovou** dimenzi („zdravý“, „racionální“, „vědecký“).
 - **Hodnoty** mají strukturálně **kognitivní** dimenzi — lze o nich **uvažovat**, hledat **důvody**, **revidovat** postoje.
 
 Pro EA má kolaps fakt/hodnoty **klíčovou diagnostickou hodnotu**:
 
-- **Pseudoneutrální "fakta"**: techniky, jež předkládají hodnotově nabité tvrzení jako "čistě faktická", strukturálně **manipulují**.
-- **"Just the facts" rétorika** je často **maskou** pro hodnotové operace.
+- **Pseudoneutrální „fakta“**: techniky, jež předkládají hodnotově nabité tvrzení jako „čistě faktická“, strukturálně **manipulují**.
+- **„Just the facts“ rétorika** je často **maskou** pro hodnotové operace.
 - **Klinický korelát**: subjekti vystaveni této rétorice mohou **ztrácet** kapacitu rozeznat hodnotovou dimenzi tvrzení.
 
 ## 4. Mnohonásobné realizovatelnosti a anti-redukcionismus
@@ -71,7 +71,7 @@ Pozdější Putnam tuto pozici **reviduje** — neboť funkcionalistická redukc
 Pro EA z toho plyne:
 
 - **AI/ML systémy** ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)) operují s **funkcionalistickými** předpoklady — co je **identita** lidského a AI rozhodování?
-- **Riziko inflace funkcionalismu**: tvrzení "AI rozumí" jsou často založena na příliš **slabém** funkcionalistickém kritériu.
+- **Riziko inflace funkcionalismu**: tvrzení „AI rozumí“ jsou často založena na příliš **slabém** funkcionalistickém kritériu.
 
 ## 5. Mapping na EA techniky
 
@@ -88,7 +88,7 @@ Pro EA z toho plyne:
 Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Restituce vnitřně realistické pozice** jako klinický cíl — pacient se učí udržet **disciplínu světa** **bez** naivní jistoty.
-- **Rozpoznání hodnotové dimenze**: pacient se učí **identifikovat** hodnotové předpoklady "faktů", jež mu byly předkládány.
+- **Rozpoznání hodnotové dimenze**: pacient se učí **identifikovat** hodnotové předpoklady „faktů“, jež mu byly předkládány.
 
 ## 7. Putnamova trajektorie jako filozofická lekce
 

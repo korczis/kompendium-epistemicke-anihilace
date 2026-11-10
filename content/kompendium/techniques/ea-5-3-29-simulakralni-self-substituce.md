@@ -123,7 +123,6 @@ Technika **simulakrální self-substituce** představuje strukturální výzvu p
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Baudrillardova **simulakrum** (*Simulacres et simulation*) — kopie bez originálu — je instalována na úrovni self. Subjekt prožívá sebe jako simulakrum, které nemá referenta. Ricoeurova **mimésis** ztrácí vazbu na prefiguraci (na žitou skutečnost). Sartrova **mauvaise foi** se prohlubuje na ontologickou úroveň: subjekt si je vědom simulakrality, ale nemá přístup k 'pravému' self (které neexistuje). Lyotardova **postmoderní** podmínka je zradikalizována. Heideggerova **alétheia** je permanentně zastřena: žádné 'odkrývání' není možné. Levinasovo **jinak než bytí** je odstraněno — bytí jako simulakrum je všeudo. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

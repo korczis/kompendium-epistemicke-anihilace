@@ -36,11 +36,11 @@ V due-diligence praxi a klinickém poradenství se **Delegitimizace** používá
 ## Detekční vztah
 
 Pro praktickou detekci konzultujte:
+
 - [Detection signatures](@/kompendium/detection-signatures/_index.md) — diagnostické markery
 - [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — terapeutické použití
 - [Recovery protocols](@/kompendium/recovery-protocols/_index.md) — rekonstruktivní intervence
 <!-- EXPANDED:PHASE11 -->
-
 
 ## See Also
 
@@ -54,7 +54,6 @@ Pro praktickou detekci konzultujte:
 ## Manažerské shrnutí
 
 **Delegitimizace** je aktivní uzel taxonomického grafu sekce `kompendium/03-zakladni-kategorie` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
-
 
 ## Koncepční síť
 

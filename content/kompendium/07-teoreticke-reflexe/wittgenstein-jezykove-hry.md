@@ -29,9 +29,9 @@ Tato teze přesouvá analýzu významu z **denotace** na **praxi**. Slova nejsou
 
 Pro EA má tato perspektiva **trojí důsledek**:
 
-1. **Manipulace slov je manipulace praxí.** Když útočník mění význam termínu (například "demokracie", "svoboda", "věda") tím, že mění kontexty jeho užití, manipuluje **samotnou hru**, v níž slovo funguje.
+1. **Manipulace slov je manipulace praxí.** Když útočník mění význam termínu (například „demokracie“, „svoboda“, „věda“) tím, že mění kontexty jeho užití, manipuluje **samotnou hru**, v níž slovo funguje.
 2. **Význam je veřejný, ne soukromý.** Argument proti soukromému jazyku (PU §§243–315) ukazuje, že významy nejsou subjektivní reprezentace, ale **interpersonální regulativy**. Útok na sdílené významy je tedy útokem na **sociální tkáň** samotnou.
-3. **Pravidla jsou normativní.** Sledování pravidla (*Regelfolgen*, PU §§185–242) je **veřejně kontrolovatelná** praxe. Manipulace pravidel — předstírání, že "pravidlo říká X", když ve skutečnosti říká Y — je strukturální technika EA.
+3. **Pravidla jsou normativní.** Sledování pravidla (*Regelfolgen*, PU §§185–242) je **veřejně kontrolovatelná** praxe. Manipulace pravidel — předstírání, že „pravidlo říká X“, když ve skutečnosti říká Y — je strukturální technika EA.
 
 ## 2. Jazykové hry (*Sprachspiele*)
 
@@ -39,13 +39,13 @@ Pojem **jazykové hry** Wittgenstein zavádí pro **kontextuálně vázané soub
 
 Pro taxonomii EA z toho plyne:
 
-- **Hra falešného konsensu** ([EA-2.4 Falešný konsensus](@/kompendium/techniques/ea-2-4-falesny-konsensus.md)) operuje skrze **importování** pravidel z jedné hry (akademická diskuze, kde konsensus znamená shodu po kritické argumentaci) do hry jiné (politická manipulace, kde "konsensus" je předem fabrikovaný).
+- **Hra falešného konsensu** ([EA-2.4 Falešný konsensus](@/kompendium/techniques/ea-2-4-falesny-konsensus.md)) operuje skrze **importování** pravidel z jedné hry (akademická diskuze, kde konsensus znamená shodu po kritické argumentaci) do hry jiné (politická manipulace, kde „konsensus“ je předem fabrikovaný).
 - **Terminologická mystifikace** ([EA-1.5](@/kompendium/techniques/ea-1-5-terminologicka-mystifikace.md)) je **hrou na expertizu** prováděnou bez pravidel expertizy — řečník užívá expertní termíny mimo expertní hru.
 - **Falešná ekvivalence** je **smíchání her**, jež mají různá kritéria validity (například etická vs. statistická hra).
 
 ## 3. Forma života (*Lebensform*)
 
-Jazykové hry nejsou izolovány — jsou **vsazeny** v širších **formách života**, jež zahrnují přesvědčení, hodnoty, instituce, rituály, tělesné praktiky a sdílené reakce. "*Co je třeba přijmout, dané, jsou — jak by se dalo říci — formy života.*" (PU II.xi)
+Jazykové hry nejsou izolovány — jsou **vsazeny** v širších **formách života**, jež zahrnují přesvědčení, hodnoty, instituce, rituály, tělesné praktiky a sdílené reakce. „*Co je třeba přijmout, dané, jsou — jak by se dalo říci — formy života.*“ (PU II.xi)
 
 Pro kompendium EA má tato kategorie **zásadní význam**:
 
@@ -55,14 +55,14 @@ Pro kompendium EA má tato kategorie **zásadní význam**:
 
 ## 4. Sledování pravidla a paradox interpretace
 
-Wittgensteinovo známé "paradox sledování pravidla" (PU §§201–202): pravidlo samo o sobě **nedeterminuje** žádnou specifickou aplikaci, neboť každou aplikaci lze interpretovat jako (ne)konzistentní s nekonečně mnoha pravidly. Co tedy konstituuje "správné" sledování pravidla?
+Wittgensteinovo známé „paradox sledování pravidla“ (PU §§201–202): pravidlo samo o sobě **nedeterminuje** žádnou specifickou aplikaci, neboť každou aplikaci lze interpretovat jako (ne)konzistentní s nekonečně mnoha pravidly. Co tedy konstituuje „správné“ sledování pravidla?
 
-Wittgensteinova odpověď: **shoda v praktikách komunity** (*Übereinstimmung in der Lebensform*, PU §241). Pravidlo "platí", protože sdílíme reakce, korekce a sankce.
+Wittgensteinova odpověď: **shoda v praktikách komunity** (*Übereinstimmung in der Lebensform*, PU §241). Pravidlo „platí“, protože sdílíme reakce, korekce a sankce.
 
 Pro EA z toho plyne:
 
-- **Manipulace interpretací pravidel** je strukturální technikou. Útočník tvrdí: "Pravidlo X přece říká Y!" — ačkoli komunitní praxe říká Z. Bez fixní interpretační instance je tato manipulace **strukturálně možná**.
-- **Kripke-Wittgensteinův paradox** (Kripke 1982, *Wittgenstein on Rules and Private Language*) radikalizuje tuto pozici: bez komunitního ukotvení nelze rozlišit "sledování pravidla" od "interpretace pravidla v daném okamžiku".
+- **Manipulace interpretací pravidel** je strukturální technikou. Útočník tvrdí: „Pravidlo X přece říká Y!“ — ačkoli komunitní praxe říká Z. Bez fixní interpretační instance je tato manipulace **strukturálně možná**.
+- **Kripke-Wittgensteinův paradox** (Kripke 1982, *Wittgenstein on Rules and Private Language*) radikalizuje tuto pozici: bez komunitního ukotvení nelze rozlišit „sledování pravidla“ od „interpretace pravidla v daném okamžiku“.
 - Algoritmické systémy operující bez komunitní zpětné vazby ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)) představují **systémové implementace** Kripke-Wittgensteinova paradoxu.
 
 ## 5. Argument proti soukromému jazyku
@@ -71,7 +71,7 @@ Wittgensteinův argument proti soukromému jazyku (PU §§243–315) ukazuje, ž
 
 Pro epistemické trauma ([viz 7.2](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)) má toto argumentaci **klinický význam**:
 
-- **Gaslighting** je systematickým **rozpojováním** subjektu od veřejných kritérií jeho vlastních zážitků. "Ne, to jsi necítil/a." "To se ti zdálo." Subjekt je strukturálně odřezáván od jazykové komunity, jež jediná může jeho zážitkům dát význam.
+- **Gaslighting** je systematickým **rozpojováním** subjektu od veřejných kritérií jeho vlastních zážitků. „Ne, to jsi necítil/a.“ „To se ti zdálo.“ Subjekt je strukturálně odřezáván od jazykové komunity, jež jediná může jeho zážitkům dát význam.
 - **Klinická intervence** musí znovuzavázat subjekt do jazykové hry, v níž jeho zážitky mají interpretovatelnou tvář.
 
 ## 6. Relevance pro taxonomii EA

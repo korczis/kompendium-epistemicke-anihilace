@@ -38,7 +38,7 @@ GES měří čtyři domény: (1) **kompliance** (tlak na konformitu), (2) **expl
 **Autoři**: Follingstad et al. (2015).
 **Konstrukt**: psychické týrání v intimních vztazích.
 **Délka**: 50 položek, 7 subskal.
-**EA-relevantní subskóre**: "Reality Denial" (10 položek) — měří gaslighting.
+**EA-relevantní subskóre**: „Reality Denial“ (10 položek) — měří gaslighting.
 
 Subškála Reality Denial je nejpřímější psychometrický prediktor [gaslightingu](@/glossary/gaslighting.md) (EA-2.x.x). Skóre ≥3.5 z 5 indikuje kliniky relevantní úroveň. Důležité: PEAS lze použít i retrospektivně (na ukončené vztahy), což je užitečné pro pacienty se strukturální EA navázanou na bývalého partnera.
 
@@ -56,7 +56,7 @@ GPA pokrývá čtyři faktory: kompliance, exploatace, vědomí mysli, emoční 
 **Autoři**: Stark & Hester (2019).
 **Konstrukt**: vzorce kontrolního chování v párových vztazích.
 **Délka**: 38 položek, 5 domén.
-**EA-relevantní domény**: "Mind manipulation" + "Reality denial".
+**EA-relevantní domény**: „Mind manipulation“ + „Reality denial“.
 
 CCB je nejvhodnější pro detekci EA-2.x.x (gaslighting) a EA-3.x.x (autorita-závislost) v partnerských vztazích. Skóre ≥80 (z 190) klinicky signifikantní; ≥120 indikuje **akutní coercive control**, vyžaduje krizovou intervenci a zvážení ochrany oběti (viz [krizová intervence](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/06-klinicke-aplikace/crisis-intervention-EA/)).
 
@@ -65,9 +65,9 @@ CCB je nejvhodnější pro detekci EA-2.x.x (gaslighting) a EA-3.x.x (autorita-z
 **Autoři**: Wells & Cartwright-Hatton (2004).
 **Konstrukt**: dysfunkční metakognitivní přesvědčení.
 **Délka**: 30 položek, 5 subskal.
-**EA-relevantní subskály**: "Negative beliefs about uncontrollability" + "Cognitive self-consciousness".
+**EA-relevantní subskály**: „Negative beliefs about uncontrollability“ + „Cognitive self-consciousness“.
 
-MCQ-30 nepřímo měří poškození [metakognice](@/glossary/metakognice.md). U EA pacientů typicky **vysoké skóre** v "Negative beliefs" (nedůvěra ve vlastní myšlení) a **nízké** v "Cognitive self-consciousness" (snížená reflexe). Tento "obrácený profil" je diferenciální oproti generalizované úzkosti.
+MCQ-30 nepřímo měří poškození [metakognice](@/glossary/metakognice.md). U EA pacientů typicky **vysoké skóre** v „Negative beliefs“ (nedůvěra ve vlastní myšlení) a **nízké** v „Cognitive self-consciousness“ (snížená reflexe). Tento „obrácený profil“ je diferenciální oproti generalizované úzkosti.
 
 ### DES-II — Dissociative Experiences Scale
 
@@ -123,7 +123,6 @@ Celkový čas administrace: 90–120 minut, doporučeno rozdělit do 2 setkání
 - [Glossary: Gaslighting](@/glossary/gaslighting.md)
 - [Glossary: Metakognice](@/glossary/metakognice.md)
 - [Glossary: c-PTSD](@/glossary/c-ptsd.md)
-
 
 ## ⚡ Kritický krok
 

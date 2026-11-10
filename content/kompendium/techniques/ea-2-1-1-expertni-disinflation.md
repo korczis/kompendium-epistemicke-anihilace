@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 **Expertní disinflace** je systematické snižování (deflace) vnímané kompetence cílového experta prostřednictvím selektivní rekontextualizace jeho prací, kvalifikací nebo institucionálních afiliací. Technika neútočí na obsah expertízy přímo — místo toho podkopává **legitimní kontext**, ze kterého expert čerpá svou autoritu, a tím inflované hodnoty (vědecké uznání, peer reputation, citace) převádí do delegitimizovaného rámce.
 
-Kritický rys: cílem není vyvrátit konkrétní tvrzení, ale **rozpustit pozadí**, na kterém je expertní výrok srozumitelný jako autoritativní. Expert pak působí jako "samozvanec", "kontroverzní postava" nebo "okrajový hlas" — bez nutnosti adresovat samotnou substanci jeho práce.
+Kritický rys: cílem není vyvrátit konkrétní tvrzení, ale **rozpustit pozadí**, na kterém je expertní výrok srozumitelný jako autoritativní. Expert pak působí jako „samozvanec“, „kontroverzní postava“ nebo „okrajový hlas“ — bez nutnosti adresovat samotnou substanci jeho práce.
 
 ## Operační modus
 
@@ -49,16 +49,16 @@ Kritický rys: cílem není vyvrátit konkrétní tvrzení, ale **rozpustit poza
 
 Každý prvek pozadí je převyprávěn ve **redukující perspektivě**:
 
-- "PhD z X" → "X má kontroverzní pověst v Y"
-- "Mentor byl Z" → "Z byl spojen s W"
-- "Publikoval v J" → "J má nízký impact factor / problematickou recenzi"
-- "Pracoval na K" → "K bylo financováno L"
+- „PhD z X“ → „X má kontroverzní pověst v Y“
+- „Mentor byl Z“ → „Z byl spojen s W“
+- „Publikoval v J“ → „J má nízký impact factor / problematickou recenzi“
+- „Pracoval na K“ → „K bylo financováno L“
 
 Žádná z rekontextualizací není přímou lží — je to **selektivní akcentace** jedné strany komplexní reality.
 
 ### Krok 3 — Agregace do narativu
 
-Jednotlivé rekontextualizace jsou agregovány do **konzistentního příběhu**: "X není respektovaný expert, ale produkt problematické sítě". Narativ je strukturovaný tak, aby každá nová informace o expertovi byla **interpretována** v jeho rámci.
+Jednotlivé rekontextualizace jsou agregovány do **konzistentního příběhu**: „X není respektovaný expert, ale produkt problematické sítě“. Narativ je strukturovaný tak, aby každá nová informace o expertovi byla **interpretována** v jeho rámci.
 
 ### Krok 4 — Distribuční kampaň
 
@@ -110,7 +110,7 @@ Co prožívá oběť expertní disinflace:
 2. **Kontextová reaktivace** — když se objeví dekontextualizovaný výňatek, **publikuj plný kontext** s odkazem na primární zdroj.
 3. **Aliance** — udržuj vztahy s **jinými experty**, kteří mohou autentizovat tvou pozici nezávisle na delegitimizační síti.
 4. **Záznam komunikace** — uchovávej e-maily, recenzní posudky, formální korespondenci — v krizi slouží jako důkaz pozadí.
-5. **Refuse the frame** — neodpovídej obhajobou *"jsem legitimní expert"*; odpovídej **substancí**: "k bodu X mám tato data; pokud máte jinou evidenci, předložte ji".
+5. **Refuse the frame** — neodpovídej obhajobou *„jsem legitimní expert“*; odpovídej **substancí**: „k bodu X mám tato data; pokud máte jinou evidenci, předložte ji“.
 
 ### Institucionální
 
@@ -156,7 +156,6 @@ Co prožívá oběť expertní disinflace:
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

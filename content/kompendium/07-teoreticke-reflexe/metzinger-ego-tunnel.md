@@ -17,7 +17,7 @@ toc = true
 
 # 7.42 Metzinger: Ego Tunnel a fenomenální self-model
 
-Thomas Metzinger v knize *Being No One* (2003) a populárnější *The Ego Tunnel* (2009) formuluje **radikální** teorii subjektu: žádné **substanční self** neexistuje — to, čemu **říkáme "já"**, je strukturálně **fenomenální self-model** (PSM, *phenomenal self-model*) generovaný mozkem.
+Thomas Metzinger v knize *Being No One* (2003) a populárnější *The Ego Tunnel* (2009) formuluje **radikální** teorii subjektu: žádné **substanční self** neexistuje — to, čemu **říkáme „já“**, je strukturálně **fenomenální self-model** (PSM, *phenomenal self-model*) generovaný mozkem.
 
 Pro kompendium EA poskytuje Metzingerova teorie nástroj pro pochopení **strukturální iluzornosti subjektu** a EA technik manipulujících **self-model**.
 
@@ -51,7 +51,7 @@ Pro EA má ego tunel **specifickou diagnostickou hodnotu**:
 
 ## 3. Žádné self (No-Self)
 
-Metzingerova **radikální** teze: **žádné substanční self neexistuje**. To, čemu říkáme "já", je strukturálně **proces**, nikoli **entita**.
+Metzingerova **radikální** teze: **žádné substanční self neexistuje**. To, čemu říkáme „já“, je strukturálně **proces**, nikoli **entita**.
 
 Tato pozice strukturálně rezonuje s:
 
@@ -62,7 +62,7 @@ Tato pozice strukturálně rezonuje s:
 Pro EA z toho plyne:
 
 - **Anti-substanční pozice**: techniky, jež **fixují** subjektivitu na **pevnou** identitu (idem-identita Ricoeurova, [viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)), jsou strukturálně **falsifikující**.
-- **Riziko dehumanizace**: pokud "žádné self", **etické** závazky vůči subjektu jsou **zranitelnější**. Metzinger to **uznává** — trvá na **prozumělé** etické pozici.
+- **Riziko dehumanizace**: pokud „žádné self“, **etické** závazky vůči subjektu jsou **zranitelnější**. Metzinger to **uznává** — trvá na **prozumělé** etické pozici.
 
 ## 4. Etika subjektivity
 
@@ -119,7 +119,7 @@ Metzingerovy nedávné práce se zabývají **etikou AI**:
 - Metzinger, T. (2003). *Being No One*. MIT Press.
 - Metzinger, T. (2009). *The Ego Tunnel*. Basic Books.
 - Metzinger, T. (2018). *Suffering* in *Philosophie und Wissenschaft*. Klostermann.
-- Metzinger, T. (2021). "Artificial Suffering: An Argument for a Global Moratorium on Synthetic Phenomenology". *Journal of Artificial Intelligence and Consciousness* 8.
+- Metzinger, T. (2021). „Artificial Suffering: An Argument for a Global Moratorium on Synthetic Phenomenology“. *Journal of Artificial Intelligence and Consciousness* 8.
 - Blackmore, S. (2017). *Consciousness: An Introduction*. Routledge.
 
 ## Související

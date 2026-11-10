@@ -38,8 +38,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 **Syntetická paralýza** je metatranscendentální technika, jíž je destruována schopnost subjektu vytvářet **syntetické soudy** — soudy, jež **spojují** subjekt s predikátem, který v subjektu **není analyticky obsažen**. V Kantově terminologii: subjekt ztrácí kapacitu pro **rozšiřující soudy** a propadá tautologické paralýze, kde každý soud zůstává analytický (jen rozkládá to, co je již v pojmu).
 
 Kant rozlišuje:
-- **Analytické soudy** — predikát je obsažen v subjektu (*"Tělo je rozprostraněné."*).
-- **Syntetické soudy** — predikát rozšiřuje subjekt (*"Tělo je těžké."*).
+
+- **Analytické soudy** — predikát je obsažen v subjektu (*„Tělo je rozprostraněné.“*).
+- **Syntetické soudy** — predikát rozšiřuje subjekt (*„Tělo je těžké.“*).
 
 Syntetická soudnost je **podmínkou empirického poznání** a **rozšiřujícího myšlení**. Bez ní zkušenost zaniká v tautologii.
 
@@ -49,23 +50,23 @@ Syntetická paralýza tuto kapacitu destruuje skrze systematické zpochybňován
 
 ### Krok 1 — Pseudo-rigorózní indoktrinace
 
-Subjekt je uveden do hyperskeptické verze epistemologie, kde *"každý syntetický soud je nedostatečně podložený"*. Hume je zneužit jako autorita.
+Subjekt je uveden do hyperskeptické verze epistemologie, kde *„každý syntetický soud je nedostatečně podložený“*. Hume je zneužit jako autorita.
 
 ### Krok 2 — Saturace pochybnostmi
 
-Manipulátor systematicky zpochybňuje každý subjektův syntetický soud — *"Jak víš, že to platí? Co když je to jen tvá konstrukce?"*
+Manipulátor systematicky zpochybňuje každý subjektův syntetický soud — *„Jak víš, že to platí? Co když je to jen tvá konstrukce?“*
 
 ### Krok 3 — Tautologická retreat
 
-Subjekt postupně omezuje své tvrzení na analytické soudy ("víc tautologie, méně rizika"). Empirické generalizace mizí.
+Subjekt postupně omezuje své tvrzení na analytické soudy („víc tautologie, méně rizika“). Empirické generalizace mizí.
 
 ### Krok 4 — Bod paralýzy
 
-Subjekt prožívá **akutní neschopnost rozšiřovat poznání**. Každý nový soud se zdá nepodložený. Stav je interpretován jako "intelektuální poctivost".
+Subjekt prožívá **akutní neschopnost rozšiřovat poznání**. Každý nový soud se zdá nepodložený. Stav je interpretován jako „intelektuální poctivost“.
 
-### Krok 5 — Konsolidace paralýzy jako "skepse"
+### Krok 5 — Konsolidace paralýzy jako „skepse“
 
-Stav strukturní syntetické paralýzy je etablován jako "filozofická ctnost". Identitární investice činí návrat k syntetické kompetenci obtížným.
+Stav strukturní syntetické paralýzy je etablován jako „filozofická ctnost“. Identitární investice činí návrat k syntetické kompetenci obtížným.
 
 ## Fenomenologické znaky
 
@@ -74,7 +75,7 @@ Stav strukturní syntetické paralýzy je etablován jako "filozofická ctnost".
 - **Akutní úzkost při tlaku na rozšiřující soudy** — paralýza se aktivuje.
 - **Slovní intelektualizace** maskující strukturální paralýzu.
 - **Praktická dezorientace** v doménách vyžadujících syntetickou kompetenci (věda, etika, plánování).
-- **Pseudo-skeptická melancholie** — pocit, že "nic se opravdu neví".
+- **Pseudo-skeptická melancholie** — pocit, že „nic se opravdu neví“.
 
 ## Detekční markery
 
@@ -108,7 +109,7 @@ Syntetická paralýza je odlišitelná od:
 ### Individuální
 
 1. **Kantovská transcendentální obnova** — výklad syntetického a priori.
-2. **Pragmatistická korekce** — Jamesovo a Deweyovo "fungující věření".
+2. **Pragmatistická korekce** — Jamesovo a Deweyovo „fungující věření“.
 3. **Strukturní syntetická cvičení** — vynucené generalizace s tematizováním rozšíření.
 4. **Bayesovská epistemologie** — strukturní rámec pro graduální syntézu.
 

@@ -101,7 +101,7 @@ Středovou cestou je **stratifikovaný přístup**, kde každá úroveň balancu
 
 **Požadavky na výcvik**:
 
-- Specializovaný kurz "Epistemická psychopatologie v klinické praxi" (16 hodin)
+- Specializovaný kurz „Epistemická psychopatologie v klinické praxi“ (16 hodin)
 - Etický modul advanced (8 hodin)
 - Diferenciální diagnostický modul (8 hodin)
 - Roční rekvalifikační seminář (8 hodin)
@@ -137,7 +137,7 @@ Středovou cestou je **stratifikovaný přístup**, kde každá úroveň balancu
 
 **Požadavky na výcvik**:
 
-- Specializovaný kurz "Pokročilá taxonomie a intervenční strategie" (40 hodin)
+- Specializovaný kurz „Pokročilá taxonomie a intervenční strategie“ (40 hodin)
 - Hands-on praktikum pod supervizí L4 specialisty (40 hodin)
 - Etický modul expert (16 hodin)
 - Pololetní rekvalifikace (16 hodin)
@@ -202,6 +202,7 @@ Středovou cestou je **stratifikovaný přístup**, kde každá úroveň balancu
 7. **Aktivace přístupu** — provisioning na platformě s logováním
 
 Celá procedura typicky trvá:
+
 - L1: 1–2 měsíce
 - L2: 3–4 měsíce
 - L3: 6–9 měsíců
@@ -291,7 +292,6 @@ Detailní sankční rámec odpovídá kategorizaci v [Etických aspektech](@/kom
 - [Glossary: Color Teams](@/glossary/color-teams.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-
 
 ## ⚡ Kritický krok
 

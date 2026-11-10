@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 ## Definice
 
-**Asymptotická dezintegrace** je pomalý pohyb k totálnímu epistemickému kolapsu, jehož každý **jednotlivý** krok je malý — pod prahem afektivní i reflexivní detekce — ale jehož **kumulativní** trajektorie směřuje k destrukci epistemické integrity subjektu. Klíčová charakteristika: **neexistuje** identifikovatelný bod, kdy by subjekt mohl říci "toto je už příliš".
+**Asymptotická dezintegrace** je pomalý pohyb k totálnímu epistemickému kolapsu, jehož každý **jednotlivý** krok je malý — pod prahem afektivní i reflexivní detekce — ale jehož **kumulativní** trajektorie směřuje k destrukci epistemické integrity subjektu. Klíčová charakteristika: **neexistuje** identifikovatelný bod, kdy by subjekt mohl říci „toto je už příliš“.
 
 Označení **asymptotická** odkazuje k matematické metafoře: trajektorie se k epistemickému zničení **přibližuje** spojitě, takže v žádném okamžiku není destrukce přítomna jako diskrétní událost; je rozprostřena do pomalého spádu, jehož směr je destruktivní, ale jehož kroky jsou pod prahem rozhodnosti.
 
@@ -69,11 +69,11 @@ V terminálním stadiu subjekt postrádá **referenční bod**, vůči kterému 
 
 ## Fenomenologické znaky
 
-- **Absence krize** — žádný okamžik není prožíván jako "toto je teď zlomové"
+- **Absence krize** — žádný okamžik není prožíván jako „toto je teď zlomové“
 - **Postupná akceptace** stavů, jež by **na začátku** byly odmítnuty
 - **Subjektivní racionalizace** — každý jednotlivý krok je pociťován jako rozumný či nutný
 - **Ztráta paměti počátku** — vzpomínka na **původní** pozici slábne nebo je reinterpretována
-- **Pocit kontinuity** — "byl jsem to celou dobu já"
+- **Pocit kontinuity** — „byl jsem to celou dobu já“
 - Při retrospektivní konfrontaci s počátečním stavem **šok** ze vzdálenosti, jež se zdá nemožně velká
 - V pokročilém stadiu **inkapacita** rekonstruovat trajektorii, jež k současnému stavu vedla
 
@@ -122,11 +122,11 @@ Udržuj kontakt s lidmi, kteří tě znají dlouhodobě a mají **vlastní pamě
 
 #### 3. **Cvičení v retrospektivě**
 
-Periodicky se ptej: **"Co bych před pěti lety řekl o tom, co dnes držím?"** Imaginativní rekonstrukce dřívějšího já odhaluje vzdálenost trajektorie.
+Periodicky se ptej: **„Co bych před pěti lety řekl o tom, co dnes držím?“** Imaginativní rekonstrukce dřívějšího já odhaluje vzdálenost trajektorie.
 
 #### 4. **Pravidlo diskrétního rozhodnutí**
 
-U klíčových epistemických závazků trvej na tom, aby případná **změna** byla učiněna jako **diskrétní rozhodnutí**, nikoli jako akumulace mikroposunů. Vědomé "měním pozici X na Y, protože Z" je odolné vůči asymptotické dezintegraci; spojitý posun nikoli.
+U klíčových epistemických závazků trvej na tom, aby případná **změna** byla učiněna jako **diskrétní rozhodnutí**, nikoli jako akumulace mikroposunů. Vědomé „měním pozici X na Y, protože Z“ je odolné vůči asymptotické dezintegraci; spojitý posun nikoli.
 
 #### 5. **Externí trajektoriální audit**
 
@@ -145,7 +145,7 @@ Periodicky předkládej třetí straně **současný** stav a **původní** stav
 
 ### Případ 1 — Compliance drift v finanční instituci
 
-Audit po sedmi letech odhalil, že interní compliance praxe se postupně odchýlila od **původního** standardu — žádné jednotlivé rozhodnutí nebylo extrémní, ale kumulativní posun byl významný. Zaměstnanci popisovali současný stav jako "vždy takový".
+Audit po sedmi letech odhalil, že interní compliance praxe se postupně odchýlila od **původního** standardu — žádné jednotlivé rozhodnutí nebylo extrémní, ale kumulativní posun byl významný. Zaměstnanci popisovali současný stav jako „vždy takový“.
 
 ### Případ 2 — Akademická radikalizace
 
@@ -153,7 +153,7 @@ Doktorand v průběhu pěti let postupně přijímal stále silnější verze te
 
 ### Případ 3 — Vztahová dynamika
 
-Pacientka v terapii objevila, že akceptuje partnerovo chování, jež by **na začátku** vztahu nepřijala. Rekonstrukce trajektorie odhalila série drobných posunů; každý byl racionalizován jako "drobnost", ale jejich kumulativní efekt byl významný.
+Pacientka v terapii objevila, že akceptuje partnerovo chování, jež by **na začátku** vztahu nepřijala. Rekonstrukce trajektorie odhalila série drobných posunů; každý byl racionalizován jako „drobnost“, ale jejich kumulativní efekt byl významný.
 
 ## Vztah k jiným technikám
 
@@ -195,7 +195,6 @@ Pacientka v terapii objevila, že akceptuje partnerovo chování, jež by **na z
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

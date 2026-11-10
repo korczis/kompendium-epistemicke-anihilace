@@ -39,7 +39,7 @@ Pro EA z toho plyne:
 
 ## 2. Sense-making
 
-Thompson rozvíjí pojem **sense-making**: autopoietický systém **interpretuje** environment v rámci své **vlastní** struktury. Žádný "objektivní" environment **neexistuje** — pouze environment **pro daný systém**.
+Thompson rozvíjí pojem **sense-making**: autopoietický systém **interpretuje** environment v rámci své **vlastní** struktury. Žádný „objektivní“ environment **neexistuje** — pouze environment **pro daný systém**.
 
 Tato pozice je strukturálně **enaktivistická** — kompatibilní s Varelou ([viz 7.45](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)).
 

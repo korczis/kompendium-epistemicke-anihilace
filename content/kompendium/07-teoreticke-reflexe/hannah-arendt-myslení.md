@@ -21,7 +21,7 @@ Tato kapitola navazuje na [7.18 Arendt: Banalita zla](@/kompendium/07-teoreticke
 
 ## 1. Myšlení jako vnitřní dialog
 
-Arendtové centrální teze (*The Life of the Mind*, 1978): **myšlení** není primárně **kognitivní operace** ani **kalkulace** — je to **vnitřní dialog**, "**dva-v-jednom**" (*two-in-one*), strukturální **sokratovská figurace** subjektu, jenž je **současně** mluvčím a posluchačem, dotazovatelem a dotazovaným.
+Arendtové centrální teze (*The Life of the Mind*, 1978): **myšlení** není primárně **kognitivní operace** ani **kalkulace** — je to **vnitřní dialog**, „**dva-v-jednom**“ (*two-in-one*), strukturální **sokratovská figurace** subjektu, jenž je **současně** mluvčím a posluchačem, dotazovatelem a dotazovaným.
 
 Tato struktura má **dva strukturální důsledky**:
 
@@ -36,7 +36,7 @@ Pro EA z toho plyne:
 
 ## 2. Sokratovský paradox
 
-Arendtová interpretuje Sokratův postoj v *Apologii*: "*Lépe je trpět nespravedlností než ji konat.*" Toto není **morální principe**, ale **strukturální nutnost** myslícího subjektu — subjekt, jenž koná nespravedlnost, **ztrácí možnost spolu se sebou žít**, **rozdvojuje se proti sobě**, ničí podmínky vlastního myšlení.
+Arendtová interpretuje Sokratův postoj v *Apologii*: „*Lépe je trpět nespravedlností než ji konat.*“ Toto není **morální principe**, ale **strukturální nutnost** myslícího subjektu — subjekt, jenž koná nespravedlnost, **ztrácí možnost spolu se sebou žít**, **rozdvojuje se proti sobě**, ničí podmínky vlastního myšlení.
 
 Sokratovský paradox má pro EA **klíčovou diagnostickou hodnotu**:
 
@@ -46,7 +46,7 @@ Sokratovský paradox má pro EA **klíčovou diagnostickou hodnotu**:
 
 ## 3. Myšlení a *common sense*
 
-Arendtová rozlišuje **myšlení** od **common sense** (*koinos noûs*, "společný smysl"):
+Arendtová rozlišuje **myšlení** od **common sense** (*koinos noûs*, „společný smysl“):
 
 - **Common sense** je **socializovaný** smysl — to, co všichni v dané kultuře **bezprostředně chápou**.
 - **Myšlení** je **kritické** — vystupuje z common sense, **dotazuje** ho, **destabilizuje** automatické samozřejmosti.
@@ -54,7 +54,7 @@ Arendtová rozlišuje **myšlení** od **common sense** (*koinos noûs*, "spole�
 Pro EA má toto rozlišení **trojí relevanci**:
 
 1. **Manipulace common sense**: techniky, jež **kontaminují** vrstvu společné samozřejmosti — virální memetika, algoritmická amplifikace.
-2. **Pseudo-myšlení**: imitace kritické aktivity, jež však zůstává v rámci common sense (například "skeptický" diskurz, jenž jen reprodukuje opačná klišé).
+2. **Pseudo-myšlení**: imitace kritické aktivity, jež však zůstává v rámci common sense (například „skeptický“ diskurz, jenž jen reprodukuje opačná klišé).
 3. **Myšlení jako rezilience**: schopnost **vystoupit** z common sense, **dotazovat ho**, je strukturální zdroj rezilience vůči EA.
 
 ## 4. Soudnost a *sensus communis*
@@ -102,7 +102,7 @@ Pro EA má tato analýza **specifickou relevanci**:
 
 - Arendtová, H. (1978/2017). *Život ducha*. Aurora.
 - Arendtová, H. (1982). *Lectures on Kant's Political Philosophy*. University of Chicago Press.
-- Arendtová, H. (1971). "Thinking and Moral Considerations". *Social Research* 38(3).
+- Arendtová, H. (1971). „Thinking and Moral Considerations“. *Social Research* 38(3).
 - Arendtová, H. (1958/2007). *Vita activa*. Oikoymenh.
 - Bernstein, R. J. (1996). *Hannah Arendt and the Jewish Question*. MIT Press.
 - d'Entrèves, M. P. (1994). *The Political Philosophy of Hannah Arendt*. Routledge.

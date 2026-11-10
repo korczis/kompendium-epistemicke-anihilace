@@ -125,18 +125,22 @@ stočí k vlastním dětem, uznejte obavu a vraťte se k metodě; cvičení nepo
 ## Související
 
 **Navazující scénáře**
+
 - [Evaluace zdrojů](@/kompendium/educational-scenarios/4-source-evaluation.md) – hodnocení nosiče tvrzení.
 - [Design falsifikace](@/kompendium/educational-scenarios/6-falsification-design.md) – co by tvrzení vyvrátilo.
 - [Vážení důkazů](@/kompendium/educational-scenarios/7-evidence-weighting.md) – kam se studie řadí v hierarchii důkazů.
 
 **Techniky**
+
 - [EA-1.3.2 Pseudo-empirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md) – vědecký vzhled bez vědecké opory.
 - [EA-9.1.8 LLM Confabulation Amplification](@/kompendium/techniques/ea-9-1-8-llm-confabulation-amplification.md) – vymyšlené zdroje v oběhu.
 
 **Sebe-obrana**
+
 - [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) – postup krok za krokem.
 
 **Glosář**
+
 - [Evidence-based](@/glossary/evidence-based.md) – co znamená opírat se o důkazy.
 - [Pseudoscience](@/glossary/pseudoscience.md) – rozlišení vědy a jejího napodobení.
 - [Replikační krize](@/glossary/replication-crisis.md) – proč jedna studie nestačí.

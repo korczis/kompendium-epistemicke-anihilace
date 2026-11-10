@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Perspektivistický kolaps** je metatranscendentální technika, jejímž cílem je rozpustit u subjektu **schopnost zaujímat perspektivu** jako takovou. Po kolapsu subjekt **neprožívá** zkušenost *z perspektivy* — chybí *odsud-tam* organizace, *moje verze* versus *jejich verze*, *zde a teď* jako referenční bod. Stav je strukturálně odlišný od běžné dezorientace nebo depersonalizace; jde o **rozpad transcendentální struktury**, která vůbec umožňuje, aby zkušenost měla *bod, ze kterého* se ukazuje.
 
-Perspektiva v transcendentálním smyslu (Husserl, Merleau-Ponty) není pouze **epistemická pozice** ("z mého pohledu"), ale strukturní vlastnost zkušenosti, která činí možnou **horizontalitu fenoménu** (každý fenomén má pohled, který se ukazuje, a horizont, který se neukazuje). Perspektivistický kolaps tuto strukturu rozpouští: fenomén už **není perspektivně organizován**.
+Perspektiva v transcendentálním smyslu (Husserl, Merleau-Ponty) není pouze **epistemická pozice** („z mého pohledu“), ale strukturní vlastnost zkušenosti, která činí možnou **horizontalitu fenoménu** (každý fenomén má pohled, který se ukazuje, a horizont, který se neukazuje). Perspektivistický kolaps tuto strukturu rozpouští: fenomén už **není perspektivně organizován**.
 
 EA-5.2.8 je odlišná od **změny perspektivy** (přijetí jiného pohledu) a od **multi-perspektivismu** (uznání mnoha pohledů). V obou těchto případech **schopnost** zaujímat perspektivu zůstává intaktní. EA-5.2.8 destruuje samotnou schopnost.
 
@@ -47,11 +47,11 @@ V kontrastu s [EA-5.2.16 aperspektivistickou saturací](@/kompendium/05-ultramar
 
 ### Krok 1 — Zviditelnění perspektivnosti
 
-Manipulátor směřuje subjekta k **explicitní reflexi** perspektivy: *"Všimni si, že se ti vše ukazuje jen z tvého úhlu pohledu."* Tato fáze je legitimní filozofickou prací.
+Manipulátor směřuje subjekta k **explicitní reflexi** perspektivy: *„Všimni si, že se ti vše ukazuje jen z tvého úhlu pohledu.“* Tato fáze je legitimní filozofickou prací.
 
 ### Krok 2 — Indukce perspektivního přesouvání
 
-Subjekt je veden k **opakovanému střídání** perspektiv — vlastní, jiné osoby, kosmické, atemporální. Cvičení v *"přijetí jiného úhlu pohledu"*, *"viděním z perspektivy věčnosti"*, *"přijímáním pohledu adversáře"*.
+Subjekt je veden k **opakovanému střídání** perspektiv — vlastní, jiné osoby, kosmické, atemporální. Cvičení v *„přijetí jiného úhlu pohledu“*, *„viděním z perspektivy věčnosti“*, *„přijímáním pohledu adversáře“*.
 
 ### Krok 3 — Saturace a vyčerpání
 
@@ -59,20 +59,20 @@ Cvičení jsou prováděna **iterativně a intenzivně**. Subjekt je nucen **ryc
 
 ### Krok 4 — Indukce **a-perspektivního** stavu
 
-Po vyčerpání je subjekt veden k **odpočinkovému stavu**, ve kterém *"není potřeba zaujímat žádnou perspektivu"*. Tento stav je legitimizován jako *"vyšší úroveň"*, *"viděním sub specie aeternitatis"*, *"objektivitou"*, *"transcendencí ega"*.
+Po vyčerpání je subjekt veden k **odpočinkovému stavu**, ve kterém *„není potřeba zaujímat žádnou perspektivu“*. Tento stav je legitimizován jako *„vyšší úroveň“*, *„viděním sub specie aeternitatis“*, *„objektivitou“*, *„transcendencí ega“*.
 
-### Krok 5 — Stabilizace stavu jako "vyšší"
+### Krok 5 — Stabilizace stavu jako „vyšší“
 
-Aperspektivní stav je **trvale legitimizován**. Návrat k perspektivě je interpretován jako *"návrat do iluze"*, *"snižování úrovně"*. Subjekt se **odmítá vrátit** do perspektivního fungování, čímž je kolaps **strukturálně konsolidován**.
+Aperspektivní stav je **trvale legitimizován**. Návrat k perspektivě je interpretován jako *„návrat do iluze“*, *„snižování úrovně“*. Subjekt se **odmítá vrátit** do perspektivního fungování, čímž je kolaps **strukturálně konsolidován**.
 
 ## Fenomenologie
 
-- **Specifická "viditelnost odnikud"** — vše se ukazuje, ale **bez bodu**, ze kterého by se ukazovalo.
-- **Ztráta indexikální stability** — *"zde"*, *"teď"*, *"já"* přestávají fungovat jako referenční body.
+- **Specifická „viditelnost odnikud“** — vše se ukazuje, ale **bez bodu**, ze kterého by se ukazovalo.
+- **Ztráta indexikální stability** — *„zde“*, *„teď“*, *„já“* přestávají fungovat jako referenční body.
 - **Specifická forma odcizení**, která se liší od depersonalizace tím, že **chybí Já**, vůči kterému by zkušenost byla cizí.
-- **Etická dezorientace** — bez perspektivy chybí *"můj"* zájem, *"moje"* hodnota, *"moje"* odpovědnost.
+- **Etická dezorientace** — bez perspektivy chybí *„můj“* zájem, *„moje“* hodnota, *„moje“* odpovědnost.
 - **Sociální paralyzace** — subjekt nedokáže navazovat běžné vztahy, protože vztah strukturálně vyžaduje perspektivu *odsud-k-tobě*.
-- **Časová desorientace** — *"teď"* nemá strukturální stabilitu.
+- **Časová desorientace** — *„teď“* nemá strukturální stabilitu.
 
 ## Detekční markery
 
@@ -109,7 +109,7 @@ Hraniční případ: některé pokročilé kontemplativní stavy (specifické *a
 
 #### 1. Indexikální rehabilitace
 
-Cvičení v explicitní indexikální mluvě — *"Já tady teď cítím, že..."*, *"Z mého pohledu..."*. Cíl: rekonstrukce perspektivního ukotvení skrze jazyk.
+Cvičení v explicitní indexikální mluvě — *„Já tady teď cítím, že…“*, *„Z mého pohledu…“*. Cíl: rekonstrukce perspektivního ukotvení skrze jazyk.
 
 #### 2. Vztahová rekonstrukce
 
@@ -117,7 +117,7 @@ Pravidelný vztahový kontakt s lidmi, kteří **vyžadují** perspektivní odpo
 
 #### 3. Etická konkretizace
 
-Cvičení v formulaci **konkrétních hodnocení** specifických situací. *"Toto považuji za špatné"*, *"Mám zájem na..."*. Cíl: rekonstrukce perspektivního etického ukotvení.
+Cvičení v formulaci **konkrétních hodnocení** specifických situací. *„Toto považuji za špatné“*, *„Mám zájem na…“*. Cíl: rekonstrukce perspektivního etického ukotvení.
 
 #### 4. Klinická supervize
 
@@ -137,7 +137,7 @@ Pokud kolaps trvá déle než 4 týdny, **specializovaná klinická konzultace**
 
 Praktikující po dlouhodobém retreatu zaměřeném na *anatta* (ne-Já) vyvinul perzistentní stav, ve kterém **nedokázal formulovat vlastní názor** ani na běžné otázky.
 
-Detekce: rodina zjistila, že subjekt **odpovídá** *"to záleží z čího pohledu"* na všechny otázky, včetně osobních (jak se cítíš, co chceš).
+Detekce: rodina zjistila, že subjekt **odpovídá** *„to záleží z čího pohledu“* na všechny otázky, včetně osobních (jak se cítíš, co chceš).
 
 Intervence: 18 měsíců strukturované práce s tradičním učitelem v rámci tradice; rituální návrat k *vyavahárika* (relativní pravdě) v každodenním fungování. Návrat **funkčně dosažen**, s zachováním **kontemplativního insightu** v rituálním kontextu.
 
@@ -145,13 +145,13 @@ Intervence: 18 měsíců strukturované práce s tradičním učitelem v rámci 
 
 Filozof rozvinul ve své pozdní práci radikálně aperspektivistickou pozici. Jeho schopnost formulovat **vlastní** filozofické stanovisko se postupně rozpadla — každý jeho text byl analýzou jiných pozic, nikdy vlastního argumentu.
 
-Detekce: kolega zjistil, že subjekt **nemůže** odpovědět na otázku *"Co si o tom myslíš?"*, ne kvůli neznalosti, ale kvůli **strukturální nemožnosti** formulovat vlastní stanovisko.
+Detekce: kolega zjistil, že subjekt **nemůže** odpovědět na otázku *„Co si o tom myslíš?“*, ne kvůli neznalosti, ale kvůli **strukturální nemožnosti** formulovat vlastní stanovisko.
 
 Intervence: terapeutická rekonstrukce perspektivního ukotvení; akademická produkce **dramaticky modifikována**.
 
 ### Případ 3 — Etická paralyzace
 
-Manažer po několikaletém koučovacím programu zaměřeném na "viděním z všech perspektiv" rozvinul **strukturální etickou paralyzaci**. V krizových situacích, vyžadujících rychlé etické rozhodnutí, **uvázl** v perspektivním přesouvání.
+Manažer po několikaletém koučovacím programu zaměřeném na „viděním z všech perspektiv“ rozvinul **strukturální etickou paralyzaci**. V krizových situacích, vyžadujících rychlé etické rozhodnutí, **uvázl** v perspektivním přesouvání.
 
 Detekce: organizace zjistila, že subjekt **systematicky odmítal** rozhodnutí, která vyžadovala formulaci vlastní pozice.
 
@@ -189,7 +189,6 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
   - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
-
 
 ## ⚡ Kritický krok
 

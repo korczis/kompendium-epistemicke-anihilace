@@ -29,8 +29,8 @@ Kuhn pracuje s pojmem **paradigmatu** (*paradigm*) ve dvou hlavních významech 
 Pro EA má pojem paradigmatu **trojí relevanci**:
 
 - **Paradigmatická pevnost** je strukturální zdroj epistemické **rezilience**: komunita s pevným paradigmatem má zabudované obranné mechanismy proti manipulaci.
-- **Paradigmatický rozpad** je strukturální stav **zranitelnosti**: během krize jsou epistemické komunity nejvíce náchylné k manipulativním operacím (apel na "alternativní fakta", pseudo-revoluce, falešné paradigmatické nároky).
-- **Falešný paradigmatický nárok** ([EA-1.6](@/kompendium/techniques/ea-1-6-falesny-paradigmaticky-narok.md)) je **strukturální technikou** manipulace: deklarace, že "starý paradigma kolabuje" a "nový paradigma přichází", aniž by k tomu byly skutečné důvody.
+- **Paradigmatický rozpad** je strukturální stav **zranitelnosti**: během krize jsou epistemické komunity nejvíce náchylné k manipulativním operacím (apel na „alternativní fakta“, pseudo-revoluce, falešné paradigmatické nároky).
+- **Falešný paradigmatický nárok** ([EA-1.6](@/kompendium/techniques/ea-1-6-falesny-paradigmaticky-narok.md)) je **strukturální technikou** manipulace: deklarace, že „starý paradigma kolabuje“ a „nový paradigma přichází“, aniž by k tomu byly skutečné důvody.
 
 ## 2. Normální věda vs. revoluční věda
 
@@ -46,23 +46,23 @@ Kuhn rozlišuje dvě fáze vědecké aktivity:
 
 Pro EA z toho plyne:
 
-- **Manipulace fáze**: Útočník může předstírat, že obor je v "krizi" a vyžaduje "revoluci" (například popírání klimatické vědy jako "paradigmatický kolaps"), zatímco ve skutečnosti je obor ve stavu zdravé normální vědy.
-- **Falešné anomálie**: Cherry-picking dat může vytvořit **iluzi anomálií**, jež "vyžadují" paradigmatický posun. Ve skutečnosti jsou to artefakty výběru.
-- **Pseudoexempláře**: Vytváření falešných "exemplárních případů" (například jednoho zfalšovaného experimentu) jako základu nového "paradigmatu".
+- **Manipulace fáze**: Útočník může předstírat, že obor je v „krizi“ a vyžaduje „revoluci“ (například popírání klimatické vědy jako „paradigmatický kolaps“), zatímco ve skutečnosti je obor ve stavu zdravé normální vědy.
+- **Falešné anomálie**: Cherry-picking dat může vytvořit **iluzi anomálií**, jež „vyžadují“ paradigmatický posun. Ve skutečnosti jsou to artefakty výběru.
+- **Pseudoexempláře**: Vytváření falešných „exemplárních případů“ (například jednoho zfalšovaného experimentu) jako základu nového „paradigmatu“.
 
 ## 3. Inkomensurabilita
 
-Kuhnův nejkontroverznější koncept: konkurující paradigmata jsou **inkomensurabilní** (*incommensurable*) — nemají sdílené měřítko, podle něhož by mohlo být objektivně rozhodnuto, které je "lepší".
+Kuhnův nejkontroverznější koncept: konkurující paradigmata jsou **inkomensurabilní** (*incommensurable*) — nemají sdílené měřítko, podle něhož by mohlo být objektivně rozhodnuto, které je „lepší“.
 
 Inkomensurabilita má **tři dimenze**:
 
-1. **Sémantická** — termíny mají v různých paradigmatech různé významy ("hmota" v Newtonově vs. Einsteinově fyzice).
+1. **Sémantická** — termíny mají v různých paradigmatech různé významy („hmota“ v Newtonově vs. Einsteinově fyzice).
 2. **Metodologická** — co se počítá jako platný důkaz, je paradigmaticky určeno.
-3. **Perceptuální** — vědci různých paradigmatů "vidí" svět odlišně (gestaltové posuny).
+3. **Perceptuální** — vědci různých paradigmatů „vidí“ svět odlišně (gestaltové posuny).
 
 Pro EA má inkomensurabilita **dvojí relevanci**:
 
-- **Defenzivní zneužití**: Manipulátor se může schovávat za "inkomensurabilitu" a odmítat racionální debatu ("vy a já mluvíme z různých paradigmatů, není o čem diskutovat").
+- **Defenzivní zneužití**: Manipulátor se může schovávat za „inkomensurabilitu“ a odmítat racionální debatu („vy a já mluvíme z různých paradigmatů, není o čem diskutovat“).
 - **Postmoderní inflace**: Inkomensurabilita byla v postmoderní recepci ([viz 7.4](@/kompendium/07-teoreticke-reflexe/postmodernismus.md)) inflačně rozšířena z vědeckých paradigmat na všechny lidské diskurzy, což vede k epistemickému relativismu — kompendium tuto inflaci kriticky reflektuje.
 
 ## 4. Pre-paradigmatická a postnormální věda
@@ -90,7 +90,7 @@ Pro kompendium EA z toho plyne:
 - Kuhn, T. S. (2000). *The Road Since Structure*. University of Chicago Press.
 - Lakatos, I. & Musgrave, A. (eds.) (1970). *Criticism and the Growth of Knowledge*. Cambridge UP.
 - Hoyningen-Huene, P. (1993). *Reconstructing Scientific Revolutions*. University of Chicago Press.
-- Funtowicz, S. & Ravetz, J. (1993). "Science for the Post-Normal Age". *Futures* 25(7).
+- Funtowicz, S. & Ravetz, J. (1993). „Science for the Post-Normal Age“. *Futures* 25(7).
 
 ## 7. Otevřené otázky
 

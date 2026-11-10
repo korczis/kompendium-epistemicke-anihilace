@@ -66,6 +66,7 @@ existují jiné záznamy téže události, zda odpovídá kalendář, počasí, 
 ## Signály, kterých si všimnout
 
 **Technické (pomocné, ne rozhodující):**
+
 - nesoulad pohybu rtů a zvuku, neobvyklá plynulost nebo „mrtvost“ mimiky;
 - nekonzistentní osvětlení a stíny mezi tváří a okolím;
 - artefakty na hranách obličeje, vlasů, brýlí, zubů;
@@ -73,6 +74,7 @@ existují jiné záznamy téže události, zda odpovídá kalendář, počasí, 
   [klonování hlasu](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)).
 
 **Kontextové (robustnější):**
+
 - první výskyt na účtu bez historie, žádný jiný záznam téže události;
 - nesoulad s doloženými údaji (kalendář, místo, počasí);
 - obsah ideálně „zapadá“ do probíhajícího sporu a přichází v kritickém čase;
@@ -136,19 +138,23 @@ případy ve skupině.
 ## Související
 
 **Navazující scénáře**
+
 - [Verifikace tvrzení](@/kompendium/educational-scenarios/5-claim-verification.md) – obecný postup ověřování.
 - [Koordinace botů](@/kompendium/educational-scenarios/17-bot-coordination.md) – jak se syntetický obsah šíří.
 
 **Techniky**
+
 - [EA-2.3.7 Deepfake personalní](@/kompendium/techniques/ea-2-3-7-deepfake-personalni.md) – útok na konkrétní osobu.
 - [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md) – syntetická persona.
 - [EA-9.2.7 Synthetic Witness Testimony](@/kompendium/techniques/ea-9-2-7-synthetic-witness-testimony.md) – vyrobená svědectví.
 
 **Sebe-obrana**
+
 - [Detekce AI obsahu](@/kompendium/self-defense-guides/40-ai-content-detection.md) – praktický návod.
 - [Časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md) – nezveřejnit dřív, než je ověřeno.
 
 **Glosář a teorie**
+
 - [Deepfake](@/glossary/deepfake.md) – definice a typy.
 - [EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) – širší kontext generativní AI.
 

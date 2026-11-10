@@ -47,7 +47,7 @@ Manipulátor opakovaně vyvolává specifické vzpomínky v emocionálně intenz
 
 ### Krok 2 — Sugestivní reframování
 
-Při retrievalu jsou implantovány nové detaily nebo interpretace ('vzpomínáš si, jak ti tehdy říkali...').
+Při retrievalu jsou implantovány nové detaily nebo interpretace ('vzpomínáš si, jak ti tehdy říkali…').
 
 ### Krok 3 — Konsolidace přepsané verze
 
@@ -122,7 +122,6 @@ Technika **mnemonická rekonfigurace** představuje strukturální výzvu pro de
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## Teoretické zázemí
 

@@ -78,7 +78,7 @@ Frickerová rozlišuje **dva** centrální typy epistemické nespravedlnosti:
 
 Komponenty:
 
-- **Identitní předsudek** (gender, rasa, třída, věk, zdravotní stav, akademická hierarchie...)
+- **Identitní předsudek** (gender, rasa, třída, věk, zdravotní stav, akademická hierarchie…)
 - **Systematická diskontace důvěryhodnosti** podle této identity
 - **Strukturální** charakter — testimoniální nespravedlnost není individuální chybou, ale **vzorcem** napříč interakcemi
 
@@ -95,7 +95,7 @@ Příklady:
 
 > *Hermeneutická nespravedlnost** nastává, když chybějí **konceptuální zdroje** k artikulaci určité zkušenosti — typicky proto, že dominantní hermeneutické zdroje byly formovány v zájmech mocenských skupin.*
 
-Klasický příklad Frickerové: **sexuální harassment** byl strukturální zkušeností desítky let, **dříve** než pro něj existovala konceptuální kategorie. Oběti tedy nemohly **artikulovat** svou zkušenost jako specifickou formu nespravedlnosti — zůstávala v hermeneutické "tmě".
+Klasický příklad Frickerové: **sexuální harassment** byl strukturální zkušeností desítky let, **dříve** než pro něj existovala konceptuální kategorie. Oběti tedy nemohly **artikulovat** svou zkušenost jako specifickou formu nespravedlnosti — zůstávala v hermeneutické „tmě“.
 
 ### 2.4 Direktní vztah k EA
 
@@ -162,7 +162,7 @@ Architektura **[Color Teams](@/glossary/color-teams.md)** v Prismatic platformě
 
 Longino kriticky revidoval pojem **hodnotové neutrality** vědy. Argumentuje, že **neutralita** je nedosažitelná — všechny vědecké rámce nutně vtělují **hodnotové předpoklady**. Klíčem není neutralita, ale **transparentnost** těchto předpokladů a **otevřenost** ke kritice.
 
-Pro kompendium EA to má fundamentální důsledek: **kompendium samotné** vtěluje hodnotové předpoklady (závazek k epistemické integritě, k autonomii subjektu, k otevřené komunikaci). Tyto předpoklady jsou **explicitně deklarovány** ([2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md), [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)) — nikoli skryté pod fasádou "neutrality".
+Pro kompendium EA to má fundamentální důsledek: **kompendium samotné** vtěluje hodnotové předpoklady (závazek k epistemické integritě, k autonomii subjektu, k otevřené komunikaci). Tyto předpoklady jsou **explicitně deklarovány** ([2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md), [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)) — nikoli skryté pod fasádou „neutrality“.
 
 ## 4. Elizabeth Anderson — demokratická epistemologie
 
@@ -248,7 +248,6 @@ Sociálně-epistemologické rámce jsou v kompendiu integrovány **napříč**:
 - [Glosář: Decision Core](@/glossary/decision-core.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

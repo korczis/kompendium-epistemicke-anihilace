@@ -43,7 +43,7 @@ Mechanismy:
 - **Asymetrické zpochybňování** — chyby instituce jsou intenzivně publikovány, úspěchy jsou ignorovány nebo redefinovány.
 - **Strukturální skepticismus** — procedury instituce jsou předkládány jako rituály bez epistemického obsahu.
 - **Personální kontaminace** — selhání jednotlivých členů jsou generalizována na celou instituci.
-- **Kontrafaktuální narativy** — alternativní instituce nebo procedury jsou předkládány jako "to, co by bylo, kdyby [destruktivní cíl]".
+- **Kontrafaktuální narativy** — alternativní instituce nebo procedury jsou předkládány jako „to, co by bylo, kdyby [destruktivní cíl]“.
 
 Bod oblákovitě analytický: legitimní kritika instituce je nezbytnou součástí epistemicky zdravé společnosti. Strukturálně destruktivní delegitimizace se odlišuje **asymetrií** (kritika bez konstruktivní alternativy), **mírou** (cílem je rozpuštění, nikoli reforma) a **intencí** (instrumentální zájem operátora, nikoli zájem o lepší fungování instituce).
 
@@ -166,7 +166,6 @@ Z perspektivy ochrany institucí jsou relevantní následující implikace:
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
 - Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
 - Platforma: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} · [NABLA Infinity](@/glossary/nabla-infinity.md) · [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

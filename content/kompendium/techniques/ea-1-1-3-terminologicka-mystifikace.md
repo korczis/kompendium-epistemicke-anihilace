@@ -47,11 +47,11 @@ Klíčová asymetrie: **legitimní technická terminologie** zvyšuje preciznost
 
 ### Krok 1 — Etablování expertní fasády
 
-Manipulátor prezentuje doménu jako **technicky náročnou**, vyžadující **specifický slovník**, který "**nelze jednoduše parafrázovat**". Klíčové formulace:
+Manipulátor prezentuje doménu jako **technicky náročnou**, vyžadující **specifický slovník**, který „**nelze jednoduše parafrázovat**“. Klíčové formulace:
 
-- "To je technicky komplexní, vyžaduje to přesné termíny."
-- "Pokud bych to formuloval jednodušeji, ztratila by se podstata."
-- "Tento termín nemá ekvivalent v běžném jazyce."
+- „To je technicky komplexní, vyžaduje to přesné termíny.“
+- „Pokud bych to formuloval jednodušeji, ztratila by se podstata.“
+- „Tento termín nemá ekvivalent v běžném jazyce.“
 
 Někdy jsou tato tvrzení **pravdivá** (řada legitimních technických termínů skutečně nemá běžné ekvivalenty). Mystifikace nastává, když jsou aplikována na termíny, **které je mají**.
 
@@ -59,9 +59,9 @@ Někdy jsou tato tvrzení **pravdivá** (řada legitimních technických termín
 
 Komplexní fakta jsou **zformulována** zbytečně komplexně:
 
-- *"X je více obecný než Y"* → *"X manifestuje superordinátní pozici v ontologické hierarchii vůči Y"*
-- *"To není dobrý test"* → *"Inferenční validita této metodologické intervence nesplňuje epistemicky robustní kritéria pro kausální atribuci"*
-- *"Zákazník to nekupuje"* → *"Konverzní funnel demonstruje suboptimální alokaci prospekčních zdrojů na poslední fázi nákupního cyklu"*
+- *„X je více obecný než Y“* → *„X manifestuje superordinátní pozici v ontologické hierarchii vůči Y“*
+- *„To není dobrý test“* → *„Inferenční validita této metodologické intervence nesplňuje epistemicky robustní kritéria pro kausální atribuci“*
+- *„Zákazník to nekupuje“* → *„Konverzní funnel demonstruje suboptimální alokaci prospekčních zdrojů na poslední fázi nákupního cyklu“*
 
 Klíčová charakteristika — **strukturální asymetrie**: prosté tvrzení v komplexním jazyce, **ne** komplexní obsah v komplexním jazyce.
 
@@ -69,19 +69,19 @@ Klíčová charakteristika — **strukturální asymetrie**: prosté tvrzení v 
 
 Subjekt, který nerozumí, je **strukturálně směrován k self-attribution**:
 
-- "Asi nemám dostatečný background"
-- "Měl bych si nastudovat víc literatury"
-- "Toto pole je opravdu komplexní"
+- „Asi nemám dostatečný background“
+- „Měl bych si nastudovat víc literatury“
+- „Toto pole je opravdu komplexní“
 
-Atribuce **nikdy** nesměřuje k legitimnímu **"manipulátor je nepřesný / neprecizní"**.
+Atribuce **nikdy** nesměřuje k legitimnímu **„manipulátor je nepřesný / neprecizní“**.
 
 ### Krok 4 — Inhibice požadavku na vyjasnění
 
 Žádost o definice / parafráze / příklady je **strukturálně inhibována**:
 
-- **Sociální cena**: vypadat jako "ne-expert"
-- **Status threat**: ve formálních kontextech (peer review, doktorské obhajoby) request o vyjasnění může být kódován jako "naivní"
-- **Reframing**: "Pokud chcete, můžeme se k základům vrátit, ale to nás zbytečně zdrží" → request demaskován jako neefektivnost
+- **Sociální cena**: vypadat jako „ne-expert“
+- **Status threat**: ve formálních kontextech (peer review, doktorské obhajoby) request o vyjasnění může být kódován jako „naivní“
+- **Reframing**: „Pokud chcete, můžeme se k základům vrátit, ale to nás zbytečně zdrží“ → request demaskován jako neefektivnost
 
 ### Krok 5 — Internalizace
 
@@ -143,7 +143,7 @@ Legitimní technická terminologie vs. mystifikace:
 
 > Pokaždé, když narazíš na termín, který **plně nechápeš**, **explicitně** požadej:
 >
-> *"Mohli byste prosím definovat **X** v kontextu, ve kterém ho používáte?"*
+> *„Mohli byste prosím definovat **X** v kontextu, ve kterém ho používáte?“*
 
 Sociální cena této otázky je **strukturálně přeceňovaná**. Většina kvalifikovaných expertů ochotně vysvětlí. **Resistence** vůči vysvětlení je **silný indikátor** mystifikace.
 
@@ -151,7 +151,7 @@ Sociální cena této otázky je **strukturálně přeceňovaná**. Většina kv
 
 Po prezentaci komplexního výroku **přeformuluj** ho v prostém jazyce a **explicitně** ověř s mluvčím:
 
-> *"Pokud správně rozumím, říkáte, že [parafráze]. Je to přesné?"*
+> *„Pokud správně rozumím, říkáte, že [parafráze]. Je to přesné?“*
 
 Pokud parafráze odhalí trivialitu, byla terminologie inflovaná. Pokud parafráze ztratí podstatu, byla terminologie legitimní.
 
@@ -161,7 +161,7 @@ Sleduj **pattern**: pokud více osob v komunitě formuluje **prosté myšlenky**
 
 #### 4. **Evaluace substantivního obsahu**
 
-Zaměř se **výhradně** na propoziční obsah, **ignoruj** terminologickou fasádu. Otázka: *"Co toto tvrzení skutečně tvrdí?"* Odpověď často odhalí, že tvrzení je **buď** triviální, **nebo** falešné, **nebo** prázdné.
+Zaměř se **výhradně** na propoziční obsah, **ignoruj** terminologickou fasádu. Otázka: *„Co toto tvrzení skutečně tvrdí?“* Odpověď často odhalí, že tvrzení je **buď** triviální, **nebo** falešné, **nebo** prázdné.
 
 #### 5. **Cizojazyčný test**
 
@@ -193,15 +193,15 @@ Konzultantská firma prezentovala 80stránkovou strategii s **excesivně komplex
 
 Detekce: CEO zadal **interní demystifikační** review nezávislému týmu.
 
-Intervence: Strategická restrukturalizace vztahu s konzultantskou firmou; mandát na "10-page maximum" pro budoucí dodávky.
+Intervence: Strategická restrukturalizace vztahu s konzultantskou firmou; mandát na „10-page maximum“ pro budoucí dodávky.
 
 ### Případ 3 — Filozofická škola
 
-Akademická tradice po dvě generace používala specifickou idiosynkratickou terminologii **bez** explicitních definic, předpokládajíc "**internalizovaný** smysl". Externí filozof přeložil klíčové teze do standardního filozofického jazyka — a ukázal, že 60 % tezí buď bylo **trivální**, **chybné**, nebo **identicky řečeno** v jiných tradicích.
+Akademická tradice po dvě generace používala specifickou idiosynkratickou terminologii **bez** explicitních definic, předpokládajíc „**internalizovaný** smysl“. Externí filozof přeložil klíčové teze do standardního filozofického jazyka — a ukázal, že 60 % tezí buď bylo **trivální**, **chybné**, nebo **identicky řečeno** v jiných tradicích.
 
 Detekce: Externí kritická monografie.
 
-Intervence: Část tradice provedla autocritique a sebepředefinovala. Druhá část zatvrdla a označila externího filozofa za "**nesprávně chápajícího**" — typický markerové reakce strukturální mystifikace.
+Intervence: Část tradice provedla autocritique a sebepředefinovala. Druhá část zatvrdla a označila externího filozofa za „**nesprávně chápajícího**“ — typický markerové reakce strukturální mystifikace.
 
 ## Vztah k jiným technikám
 
@@ -210,11 +210,11 @@ Intervence: Část tradice provedla autocritique a sebepředefinovala. Druhá č
 - **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — filtrovaný korpus s mystifikační terminologií činí externí materiály **lingvisticky nepřístupné**, posilujíc filtraci.
 - **[EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)** — komplexní terminologie znásobuje kognitivní náklad přetížení.
 - **[EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)** — autoritativní prosodický signál + mystifikace = inhibovaná epistemická vigilance.
-- **[EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)** — kombinace s neverbální dominancí signalizuje "expert" status nezávisle na obsahu.
+- **[EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)** — kombinace s neverbální dominancí signalizuje „expert“ status nezávisle na obsahu.
 
 ### Eskaluje do
 
-- **EA-1.6.1 Vzorec "Guru a adept"** — gurova mystifikační terminologie etabluje hierarchii a inhibuje adeptovo nezávislé zpracování.
+- **EA-1.6.1 Vzorec „Guru a adept“** — gurova mystifikační terminologie etabluje hierarchii a inhibuje adeptovo nezávislé zpracování.
 - **Strukturální mystifikace pole** — celé disciplíny mohou být **kolektivně mystifikované**, vyžadujíc vnější intervenci.
 
 ### Hraniční / podobné
@@ -240,7 +240,6 @@ Intervence: Část tradice provedla autocritique a sebepředefinovala. Druhá č
 - **Související platformové koncepty**:
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
-
 
 ## ⚡ Kritický krok
 

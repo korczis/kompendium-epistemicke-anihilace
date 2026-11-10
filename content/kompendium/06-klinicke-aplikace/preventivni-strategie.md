@@ -73,7 +73,7 @@ Institucionální prevence překračuje individuální kompetenci — etabluje *
 
 ### Peer review reformy
 
-Tradiční peer review je strukturálně vulnerabilní vůči [imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) (kritika je zamítnuta jako "non-rigorózní") a [tematické diverzi](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md). Reformy:
+Tradiční peer review je strukturálně vulnerabilní vůči [imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) (kritika je zamítnuta jako „non-rigorózní“) a [tematické diverzi](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md). Reformy:
 
 - **Adversarial collaboration** — povinná koautorská spolupráce s **oponentní pozicí** pro prestižní publikační formáty
 - **Open peer review** — transparentní recenzní proces s atribucí
@@ -125,7 +125,7 @@ Strukturální prevence [Guru/adept vzorce](@/kompendium/03-zakladni-kategorie/k
 - **Anti-monopoly normy** — žádný mentor nemá více než N (typicky 4-6) souběžných mentees v dané instituci
 - **Cross-institutional rotace** — povinné rotace mezi mentory pro doktorandy a postdoktorandy
 - **Mentor-mentee evaluace** — vzájemná strukturovaná evaluace s formální autoritou pro odvolání
-- **Metaboloicky odlišné mentorské profily** — instituce aktivně udržují diverzitu mentorských stylů, ne homogenní "school"
+- **Metaboloicky odlišné mentorské profily** — instituce aktivně udržují diverzitu mentorských stylů, ne homogenní „school“
 
 ## III. Kulturní úroveň
 
@@ -218,7 +218,6 @@ Auditovatelnost je strukturální kondicí **integrity prevence** — bez ní se
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Gaslighting](@/glossary/gaslighting.md), [Delegitimizace](@/glossary/delegitimizace.md), [Dual-use poznání](@/glossary/dual-use-poznani.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Metakognice](@/glossary/metakognice.md), [Hermeneutika](@/glossary/hermeneutika.md), [Fenomenologie](@/glossary/fenomenologie.md)
 - Platforma: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}, [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md), [Boundary Ethics](@/philosophy/boundary-ethics.md)
-
 
 ## ⚡ Kritický krok
 

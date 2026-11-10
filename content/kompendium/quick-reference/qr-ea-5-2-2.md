@@ -20,19 +20,19 @@ toc = false
 
 > WARNING: Přístupová úroveň L4. Pouze pro kvalifikované výzkumníky pod IRB.
 
-**Doména**: Metatranscendentální anihilace — indukce přesvědčení, že subjekt "viděl" něco za hranicí možného poznání (Kantovo *Ding-an-sich*, "absolutní pravdu").
+**Doména**: Metatranscendentální anihilace — indukce přesvědčení, že subjekt „viděl“ něco za hranicí možného poznání (Kantovo *Ding-an-sich*, „absolutní pravdu“).
 
 ## Definice
 
-**Transcendentální iluze** je technika, jež v subjektu vyvolá **strukturální kategoriální omyl**: dojem, že přímo "viděl" obsah, který je dle samé Kantovy transcendentální analytiky **principálně nepoznatelný** (věc o sobě, "čistý" obsah mimo formy smyslovosti, "absolutní pravdu" mimo kategorie rozumu). Tato iluze není psychotická epizoda v klasickém smyslu — subjekt zůstává funkční v běžném životě — ale **strukturní**: identita se buduje kolem "viděného", které není komunikovatelné v žádném jazyce bez metaforické deflace, přitom subjekt trvá na jeho **literalitě**. Komunita kolem subjekta validuje obsah ("ano, on viděl, my taky"), čímž se iluze stabilizuje sociální sítí. Klinicky důležitá distinkce od skutečné psychózy: u transcendentální iluze zůstává *run-time* funkčnost intaktní.
+**Transcendentální iluze** je technika, jež v subjektu vyvolá **strukturální kategoriální omyl**: dojem, že přímo „viděl“ obsah, který je dle samé Kantovy transcendentální analytiky **principálně nepoznatelný** (věc o sobě, „čistý“ obsah mimo formy smyslovosti, „absolutní pravdu“ mimo kategorie rozumu). Tato iluze není psychotická epizoda v klasickém smyslu — subjekt zůstává funkční v běžném životě — ale **strukturní**: identita se buduje kolem „viděného“, které není komunikovatelné v žádném jazyce bez metaforické deflace, přitom subjekt trvá na jeho **literalitě**. Komunita kolem subjekta validuje obsah („ano, on viděl, my taky“), čímž se iluze stabilizuje sociální sítí. Klinicky důležitá distinkce od skutečné psychózy: u transcendentální iluze zůstává *run-time* funkčnost intaktní.
 
 ## Operační modus (5 kroků)
 
 1. **Indukce mimo-kategoriálního prožitku** — kontemplativní, rituální nebo psychedelická praxe, jež produkuje afektivně přesvědčivý zážitek.
 2. **Stabilizace iluze rituální praxí** — opakování zážitku v komunitním rámci.
 3. **Komunitní validace** — sociální skupina potvrzuje obsah jako sdílenou realitu.
-4. **Konstrukce identity okolo "viděného"** — subjekt se stává "tím, kdo viděl".
-5. **Imunita k argumentaci** — racionální argument je rámován jako "z této strany hranice".
+4. **Konstrukce identity okolo „viděného“** — subjekt se stává „tím, kdo viděl“.
+5. **Imunita k argumentaci** — racionální argument je rámován jako „z této strany hranice“.
 
 ## Fenomenologické znaky
 
@@ -60,7 +60,7 @@ toc = false
 
 ## Klinický kontext
 
-Transcendentální iluze se vyskytuje v ezoterických skupinách s rituální iniciací, v psychedelických komunitách bez integrativního rámce, v některých formách kontemplativní tradice na Západě (oddělené od kulturně-doktrinálního pozadí) a v některých případech "duchovní krize" v psychoterapii. **Klasický případ**: adept v esoterické skupině reportuje "vystoupení mimo čas — viděl jsem, jak jsou všechny mé inkarnace propojené". Při klinickém rozhovoru je orientován v běžném čase, plánuje budoucí akce. Tvrzení o "mimo-časovosti" funguje jako identitní fakt, ne jako kognitivní stav. Léčba: filosoficky kvalifikovaná psychoterapie, postupné rozlišení mezi *prožitkem* a jeho *interpretací*.
+Transcendentální iluze se vyskytuje v ezoterických skupinách s rituální iniciací, v psychedelických komunitách bez integrativního rámce, v některých formách kontemplativní tradice na Západě (oddělené od kulturně-doktrinálního pozadí) a v některých případech „duchovní krize“ v psychoterapii. **Klasický případ**: adept v esoterické skupině reportuje „vystoupení mimo čas — viděl jsem, jak jsou všechny mé inkarnace propojené“. Při klinickém rozhovoru je orientován v běžném čase, plánuje budoucí akce. Tvrzení o „mimo-časovosti“ funguje jako identitní fakt, ne jako kognitivní stav. Léčba: filosoficky kvalifikovaná psychoterapie, postupné rozlišení mezi *prožitkem* a jeho *interpretací*.
 
 ## Cross-linky
 

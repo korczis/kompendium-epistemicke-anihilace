@@ -34,7 +34,7 @@ Decision Engine je 10-stage deterministická pipeline operující nad NABLA-konf
 9. **Recommend** — doporučení akce s podmíněnými variantami
 10. **Explain** — generování vysvětlitelné reasoning trace
 
-Každý stage je **auditovatelný** — výstup obsahuje plnou traceability nazpět ke vstupním signálům. Tato traceabilita je strukturní obrana proti **EA-1.3.3 Tematické diverzi**: rozhodnutí musí být dohledatelné na konkrétní evidenci, nikoli "vyplynou z celkového dojmu".
+Každý stage je **auditovatelný** — výstup obsahuje plnou traceability nazpět ke vstupním signálům. Tato traceabilita je strukturní obrana proti **EA-1.3.3 Tematické diverzi**: rozhodnutí musí být dohledatelné na konkrétní evidenci, nikoli „vyplynou z celkového dojmu“.
 
 ## Confidence Calibration jako defenzivní mechanismus
 
@@ -42,13 +42,14 @@ Každý stage je **auditovatelný** — výstup obsahuje plnou traceability nazp
 
 ### Obrana proti false certainty
 Decision Engine vynucuje **explicitní confidence skóre** na každém klíčovém výstupu. Score je dekomponováno na:
+
 - **Epistemická nejistota** — neurčitost vyplývající z **omezené evidence** (lze redukovat sběrem dat)
 - **Aleatorická nejistota** — neurčitost vyplývající z **inherentní stochasticity** procesu (nelze redukovat dalším sběrem)
 
 Toto rozlišení je strukturně klíčové: subjekty zranitelné vůči manipulaci typicky **kompresují obě nejistoty** do jednoho skóre, což otvírá prostor pro útoky exploitující mezeru. Decision Engine udržuje obě explicitně oddělené.
 
 ### Obrana proti analysis paralysis
-Confidence score je **monotónní akumulační funkce** evidence. Pokud evidence dosáhne kalibrované thresholdové hodnoty (typicky 0.95 pro kritická rozhodnutí), systém přechází z exploration phase do execution phase. Tento mechanismus předchází **EA-1.3.1 Imunizaci proti falsifikaci** v opačném směru: subjekt nemůže donekonečna odkládat rozhodnutí požadováním "ještě více evidence".
+Confidence score je **monotónní akumulační funkce** evidence. Pokud evidence dosáhne kalibrované thresholdové hodnoty (typicky 0.95 pro kritická rozhodnutí), systém přechází z exploration phase do execution phase. Tento mechanismus předchází **EA-1.3.1 Imunizaci proti falsifikaci** v opačném směru: subjekt nemůže donekonečna odkládat rozhodnutí požadováním „ještě více evidence“.
 
 ### Brier Score a kalibrační loop
 Decision Engine kontinuálně monitoruje **Brier score** — kvadratickou odchylku predikované konfidence od realizovaného výsledku. Brier score umožňuje detekci **systematických miscalibrations** — situací, kdy systém je systematicky příliš sebejistý nebo příliš nejistý. Tento feedback loop neutralizuje **EA-1.3.2 Strategickou reinterpretaci** — konfidenční tvrzení nelze zpětně reinterpretovat, jsou kontinuálně testována proti realitě.
@@ -78,6 +79,7 @@ Source diversity je **kritický mechanismus** v due-diligence kontextech. Manipu
 Audit log je strukturální obrana proti **EA-1.3.3 Tematické diverzi**. Každé rozhodnutí má **plnou provenance chain** — neporušený řetěz odkazů na evidenci, inferenční pravidla a raw data, jež k němu vedly.
 
 Provenance chain umožňuje:
+
 - **Audit** — externí reviewer může každé rozhodnutí vystopovat zpět ke zdrojovým datům
 - **Debugging** — když je rozhodnutí špatné, provenance identifikuje, který krok selhal
 - **Accountability** — provenance establishes, kdo (či který agent) produkoval každou komponentu reasoning chain
@@ -139,13 +141,15 @@ Tato sedmivrstvá architektura představuje **strukturní operační doktrínu**
 
 ### Case 1: Beneficial Ownership Analysis
 Subjekt due-diligence analýzy systematicky maskuje vlastnickou strukturu skrze nominee shareholders, offshore vrstvy a komplexní sub-entitní vztahy (EA-1.2.3 Iluzorní komplexita). Decision Engine reaguje:
-- Source diversity check identifikuje, že "nezávislé" zdroje (corporate registries, news, sanctions lists) sdílí společné chybějící informace
+
+- Source diversity check identifikuje, že „nezávislé“ zdroje (corporate registries, news, sanctions lists) sdílí společné chybějící informace
 - Pattern Detection (L5) identifikuje strukturní podpis komplexitního maskingu
 - Multiple hypotézy se generují (legitimní komplexnost vs. úmyslné maskování)
 - Falsifikační kritéria specifikují, jaké další signály by hypotézu maskingu vyvrátily
 
 ### Case 2: Sanctions Evasion Detection
 Adresát se snaží evadovat sankce skrze rebranding, intermediate entities a falešnou substituci kontrolního subjektu (EA-1.3.2 Strategická reinterpretace v doméně identity). Decision Engine reaguje:
+
 - Provenance tracking identifikuje rebranding events s timestamps
 - Time decay penalizuje evidenci pre-rebranding
 - Contradiction Preservation udržuje obě verze identity v grafu
@@ -153,6 +157,7 @@ Adresát se snaží evadovat sankce skrze rebranding, intermediate entities a fa
 
 ### Case 3: Information Operations Detection
 Mediální landscape obsahuje koordinovanou disinformační kampaň využívající techniky EA-1.1.1 (selektivní expozice) + EA-1.2.2 (falešná ekvivalence) + EA-1.4.x (emocionální modulace). Decision Engine reaguje:
+
 - Source independence verification odhaluje koordinovaný origin
 - Pattern Detection identifikuje signature koordinované kampaně
 - Confidence scoring penalizuje signály s nízkou independence
@@ -195,7 +200,6 @@ Tato reflexivní symbióza je jádrem **evolučního charakteru** integrovaného
 - [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine LiveView" /> }}
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-
 
 ## ⚡ Kritický krok
 

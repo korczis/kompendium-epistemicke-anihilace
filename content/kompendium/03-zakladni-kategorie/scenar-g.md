@@ -21,7 +21,7 @@ ea_code = "EA-3.2.G"
 
 **EA kód**: `EA-3.2.G` | **Cílová úroveň**: Individuum (kognitivní struktury) | **Časový rozsah**: měsíce – roky | **Reverzibilita**: Velmi nízká
 
-Scénář progresivní kognitivní dekonstrukce reprezentuje **systematický proces graduální destabilizace fundamentálních kognitivních struktur jedince**, vedoucí k hluboké epistemické nejistotě a zranitelnosti vůči externě vnuceným interpretačním rámcům. Na rozdíl od explicitně nepřátelských manipulačních procesů je tento scénář často **maskován jako "intelektuální rozvoj"**, "kritické myšlení" nebo "epistemická liberace" — což mu propůjčuje zákeřnou efektivitu.
+Scénář progresivní kognitivní dekonstrukce reprezentuje **systematický proces graduální destabilizace fundamentálních kognitivních struktur jedince**, vedoucí k hluboké epistemické nejistotě a zranitelnosti vůči externě vnuceným interpretačním rámcům. Na rozdíl od explicitně nepřátelských manipulačních procesů je tento scénář často **maskován jako „intelektuální rozvoj“**, „kritické myšlení“ nebo „epistemická liberace“ — což mu propůjčuje zákeřnou efektivitu.
 
 ## Teoretický základ
 
@@ -37,21 +37,21 @@ Lidská kognice je organizována skrze **hierarchické struktury** poskytující
 
 Tyto struktury jsou **predikčně-úsporné** — umožňují rychlé fungování v komplexním prostředí. Jejich systematická destabilizace **paralyzuje** schopnost subjektu efektivně se orientovat.
 
-### Proč funguje "shora dolů"
+### Proč funguje „shora dolů“
 
 Klasický útok na přesvědčení selhává, protože jednotlivé přesvědčení je obvykle kotveno v širší struktuře. Útok na konceptuální struktury **nepřímo destabilizuje** všechna přesvědčení, která jsou na nich závislá.
 
-Příklad: Pokud destabilizujeme distinkci mezi "důkazem" a "interpretací", **kolabuje schopnost** subjektu rozlišovat mezi dobře podloženými a slabě podloženými tvrzeními — bez nutnosti útočit na konkrétní tvrzení.
+Příklad: Pokud destabilizujeme distinkci mezi „důkazem“ a „interpretací“, **kolabuje schopnost** subjektu rozlišovat mezi dobře podloženými a slabě podloženými tvrzeními — bez nutnosti útočit na konkrétní tvrzení.
 
-### Maska "intelektuálního růstu"
+### Maska „intelektuálního růstu“
 
 Distinktivní rys EA-3.2.G je **rétorické přerámování** dekonstrukce jako pozitivního procesu:
 
-- "Překonávání naivních dichotomií"
-- "Osvobození od konvenčního myšlení"
-- "Hloubkové filozofické zkoumání"
-- "Pravá kritická reflexe"
-- "Postupná epistemická zralost"
+- „Překonávání naivních dichotomií“
+- „Osvobození od konvenčního myšlení“
+- „Hloubkové filozofické zkoumání“
+- „Pravá kritická reflexe“
+- „Postupná epistemická zralost“
 
 Subjekt prožívá iniciální fáze **pozitivně** — jako intelektuální vzrušení a pocit sofistikace. Tato pozitivní valence **maskuje patogenní strukturu** a zabraňuje včasné detekci.
 
@@ -71,10 +71,10 @@ Primárním cílem jsou **fundamentální kognitivní struktury** organizující
 
 Postupuje **shora dolů** — od abstraktnějších struktur k fundamentálnějším:
 
-1. Začíná na úrovni epistemických standardů ("co je důkaz")
-2. Pokračuje k konceptuálním kategoriím ("co je toto vůbec za věc")
-3. Dále ke kauzálním modelům ("co způsobuje co")
-4. Konečně k meta-kognici ("mohu vůbec myslet jasně")
+1. Začíná na úrovni epistemických standardů („co je důkaz“)
+2. Pokračuje k konceptuálním kategoriím („co je toto vůbec za věc“)
+3. Dále ke kauzálním modelům („co způsobuje co“)
+4. Konečně k meta-kognici („mohu vůbec myslet jasně“)
 
 ### Progrese
 
@@ -102,11 +102,11 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 **Detekční markery**:
 
 - Subjekt přijímá více kontradiktorních pozic simultánně bez disonance
-- Snižování trpělivosti s "jednoduchými" vysvětleními
-- Atrakce k vágním "hlubokým" tvrzením
+- Snižování trpělivosti s „jednoduchými“ vysvětleními
+- Atrakce k vágním „hlubokým“ tvrzením
 - Posun rétoriky k abstrakci
 
-**Fenomenologie**: Subjekt prožívá **počáteční intelektuální vzrušení**, pocit sofistikovanosti, "konečně překonávám naivní pohled". Toto je nejnebezpečnější fáze, protože pozitivní valence znemožňuje vlastní detekci.
+**Fenomenologie**: Subjekt prožívá **počáteční intelektuální vzrušení**, pocit sofistikovanosti, „konečně překonávám naivní pohled“. Toto je nejnebezpečnější fáze, protože pozitivní valence znemožňuje vlastní detekci.
 
 ### Fáze 2: Destabilizace kognitivních kategorií
 
@@ -118,7 +118,7 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 
 - Selektivní zaměření na hraniční případy zpochybňující distinkce
 - Kontinuální přesouvání konceptuálních hranic
-- "Hradba a věž" taktiky — přepínání mezi umírněnými a radikálními interpretacemi
+- „Hradba a věž“ taktiky — přepínání mezi umírněnými a radikálními interpretacemi
 - [EA-1.1.3 (terminologická mystifikace)](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
 - [EA-1.2.2 (falešná ekvivalence)](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) mezi distinktními koncepty
 
@@ -127,10 +127,10 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 - Narůstající obtíže s navigací konceptuální krajinou
 - Rostoucí váhavost při kategorických soudech
 - Zmatení ohledně dříve jasných distinkcí
-- Subtilní úzkost z možnosti "špatného" úsudku
-- Atrakce k všemu obsahujícím "ano i ne"
+- Subtilní úzkost z možnosti „špatného“ úsudku
+- Atrakce k všemu obsahujícím „ano i ne“
 
-**Fenomenologie**: Subjekt zažívá **erozi sebejistoty** ohledně dříve samozřejmých distinkcí. Vznikající **anticipatorní úzkost** z provedení kategorického úsudku. Pocit "není to tak jednoduché" se generalizuje na všechny otázky.
+**Fenomenologie**: Subjekt zažívá **erozi sebejistoty** ohledně dříve samozřejmých distinkcí. Vznikající **anticipatorní úzkost** z provedení kategorického úsudku. Pocit „není to tak jednoduché“ se generalizuje na všechny otázky.
 
 ### Fáze 3: Disrupce kauzálních schémat
 
@@ -151,10 +151,10 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 - Rostoucí obtíže v predikování výsledků
 - Pocit bezmocnosti, externě kontrolované existence
 - Tendence akceptovat implauzibilní vysvětlení
-- Disempowerment prostřednictvím "vše ovlivňuje vše"
+- Disempowerment prostřednictvím „vše ovlivňuje vše“
 - Procrastinace skrze paralýzu analýzy
 
-**Fenomenologie**: Subjekt prožívá **kauzální zmatení** — neschopnost porozumět tomu, proč se věci dějí. Vznikající **fatalismus** ("nedokážu nic ovlivnit") nebo **paranoidní hyper-kausalismus** (vše je propojené tajemnými mechanismy).
+**Fenomenologie**: Subjekt prožívá **kauzální zmatení** — neschopnost porozumět tomu, proč se věci dějí. Vznikající **fatalismus** („nedokážu nic ovlivnit“) nebo **paranoidní hyper-kausalismus** (vše je propojené tajemnými mechanismy).
 
 ### Fáze 4: Kolaps epistemické sebe-účinnosti
 
@@ -176,7 +176,7 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 - Zvýšená úzkost při formování nezávislých úsudků
 - Úleva při jednoduchém přijetí názorů autorit
 - Hyperskepticismus vůči vlastním závěrům + naivní akceptace externích
-- Habituální deferující obraty ("nevím, ale autorita říká...")
+- Habituální deferující obraty („nevím, ale autorita říká…“)
 
 **Fenomenologie**: Subjekt prožívá **kolaps epistemické sebedůvěry**. Tvorba úsudku se stává **úzkostnou aktivitou**. Vyvíjí se **závislost na externí validaci** jako jediný způsob, jak akceptovat vlastní myšlení.
 
@@ -197,12 +197,12 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 **Detekční markery**:
 
 - Hluboká úleva a vděčnost
-- "Konečně jsem našel pravdu" prožitek
+- „Konečně jsem našel pravdu“ prožitek
 - Vznikající rigidita v obraně rámce
 - Interpretace kritiky jako potvrzení validity rámce
-- Misionářská orientace — snaha "osvobodit" ostatní
+- Misionářská orientace — snaha „osvobodit“ ostatní
 
-**Fenomenologie**: Subjekt prožívá **falešnou koherenci** — pocit, že "konečně všemu rozumím". Toto je paradoxně nejhlubší fáze patologie, protože subjekt je subjektivně **maximálně spokojen**, zatímco objektivně **nejvíce kompromitován**.
+**Fenomenologie**: Subjekt prožívá **falešnou koherenci** — pocit, že „konečně všemu rozumím“. Toto je paradoxně nejhlubší fáze patologie, protože subjekt je subjektivně **maximálně spokojen**, zatímco objektivně **nejvíce kompromitován**.
 
 ## Strukturální prerekvizity
 
@@ -275,25 +275,25 @@ V některých případech je úplná restaurace nemožná — realistickým cíl
 
 ## Anonymizovaná případová studie
 
-> **Subjekt M.**, 28letý doktorand filozofie s vynikajícím předchozím akademickým zázemím (3 publikace v recenzovaných časopisech před nástupem do PhD). Vstoupil do graduálního semináře vedeného prominentní filozofickou hierarchií — profesorem široce uznávaným jako "průkopnický myslitel" zpochybňující konvenční moudrost.
+> **Subjekt M.**, 28letý doktorand filozofie s vynikajícím předchozím akademickým zázemím (3 publikace v recenzovaných časopisech před nástupem do PhD). Vstoupil do graduálního semináře vedeného prominentní filozofickou hierarchií — profesorem široce uznávaným jako „průkopnický myslitel“ zpochybňující konvenční moudrost.
 >
-> **Fáze 1 (měsíce 1–3)**: Seminář začal "neškodnými" výzvami k "přehodnocení základních předpokladů". M. prožíval intenzivní intelektuální vzrušení — "konečně jsem našel myslitele, který nebere nic za samozřejmé". Dokumentární journaling z této fáze: "Profesor B. mě vyzval, abych překročil naivní binární myšlení. Cítím, jak se otevírají nové horizonty."
+> **Fáze 1 (měsíce 1–3)**: Seminář začal „neškodnými“ výzvami k „přehodnocení základních předpokladů“. M. prožíval intenzivní intelektuální vzrušení — „konečně jsem našel myslitele, který nebere nic za samozřejmé“. Dokumentární journaling z této fáze: „Profesor B. mě vyzval, abych překročil naivní binární myšlení. Cítím, jak se otevírají nové horizonty.“
 >
-> **Fáze 2 (měsíce 4–9)**: Profesor systematicky destabilizoval kategorické distinkce — pravda/přesvědčení, fakt/interpretace, argument/rétorika, expert/laik. M. začal mít obtíže formulovat jasné teze v písemné práci. Dokumentární journaling: "Tato distinkce je problematicky binární. Není to spíše kontinuum? Nebo je samotný pojem kontinua redukcionistický?"
+> **Fáze 2 (měsíce 4–9)**: Profesor systematicky destabilizoval kategorické distinkce — pravda/přesvědčení, fakt/interpretace, argument/rétorika, expert/laik. M. začal mít obtíže formulovat jasné teze v písemné práci. Dokumentární journaling: „Tato distinkce je problematicky binární. Není to spíše kontinuum? Nebo je samotný pojem kontinua redukcionistický?“
 >
-> **Fáze 3 (měsíce 10–15)**: M. ztratil schopnost predikovat výsledky vlastní práce. Začal interpretovat každý úspěch i neúspěch skrze komplexní síť "diskurzivních efektů". Vyvinula se procrastinace skrze paralýzu analýzy — než dokončil odstavec, dospěl k metareflexi metareflexe.
+> **Fáze 3 (měsíce 10–15)**: M. ztratil schopnost predikovat výsledky vlastní práce. Začal interpretovat každý úspěch i neúspěch skrze komplexní síť „diskurzivních efektů“. Vyvinula se procrastinace skrze paralýzu analýzy — než dokončil odstavec, dospěl k metareflexi metareflexe.
 >
 > **Fáze 4 (měsíce 16–18)**: M. ztratil schopnost detekovat zjevné logické chyby v cizích argumentech (testováno externě). Při psaní vlastní práce trpěl akutní úzkostí, vyžadující neustálou validaci od profesora. Profesor poskytoval **nepředvídatelnou** zpětnou vazbu — chvála pro práci, která později byla kritizována; kritika pro elementy, které dříve byly chváleny. M. vyvinul **chronickou epistemickou paralýzu**.
 >
-> **Fáze 5 (měsíce 19–24)**: Profesor představil svůj idiosynkratický filozofický systém jako "jediný způsob, jak transcendovat aporie, které M. nyní tak hluboce cítí". M. prožil hluboké uvolnění — "konečně našel rámec, který dává smysl". Adoptoval profesorův systém jako svůj výzkumný paradigmat. V pozdějších interakcích projevoval misionářskou tendenci "osvobozovat" jiné studenty.
+> **Fáze 5 (měsíce 19–24)**: Profesor představil svůj idiosynkratický filozofický systém jako „jediný způsob, jak transcendovat aporie, které M. nyní tak hluboce cítí“. M. prožil hluboké uvolnění — „konečně našel rámec, který dává smysl“. Adoptoval profesorův systém jako svůj výzkumný paradigmat. V pozdějších interakcích projevoval misionářskou tendenci „osvobozovat“ jiné studenty.
 >
-> **Externí pozorování (rok 3)**: Externí supervizor charakterizoval M. zkušenost jako "moje schopnost jasně myslet byla systematicky rozmontována". M. zachoval pouze v domácím kontextu (mimo obor) schopnost autonomního úsudku, kterou před PhD vykazoval univerzálně.
+> **Externí pozorování (rok 3)**: Externí supervizor charakterizoval M. zkušenost jako „moje schopnost jasně myslet byla systematicky rozmontována“. M. zachoval pouze v domácím kontextu (mimo obor) schopnost autonomního úsudku, kterou před PhD vykazoval univerzálně.
 >
 > **Intervence (rok 4–6)**: Po obnovení kontaktu s předchozím mentorem zahájena strukturovaná rekonstrukce. Pomalu se obnovovala kapacita formovat jasné teze (12 měsíců). Návrat schopnosti detekovat logické chyby (18 měsíců). Plnou epistemickou autonomii v původním oboru se podařilo obnovit pouze částečně — M. zůstává **chronicky zranitelný** vůči podobným manipulativním vzorcům a je v dlouhodobé supervizi.
 
 ## Trajektorie zotavení
 
-1. **Akutní destabilizace** (1–3 měsíce) — extrakce z toxického prostředí, počáteční dezorientace bez "rámce"
+1. **Akutní destabilizace** (1–3 měsíce) — extrakce z toxického prostředí, počáteční dezorientace bez „rámce“
 2. **Strukturální rekonstrukce** (6–12 měsíců) — systematické rebuildování kategorií
 3. **Epistemická konsolidace** (12–24 měsíců) — návrat k autonomnímu úsudku
 4. **Resilience building** (24+ měsíců) — robustní obrany vůči budoucím útokům
@@ -304,7 +304,7 @@ Cca 30–40 % případů dosahuje **plné funkční rekonstrukce**. Zbylých 60�
 
 ### Sister scenarios
 - [Scénář F: Kolektivní epistemická delegitimizace](@/kompendium/03-zakladni-kategorie/scenar-f.md)
-- [Scénář H: Destruktivní "konstruktivní" kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md)
+- [Scénář H: Destruktivní „konstruktivní“ kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md)
 
 ### Kapitoly
 - [Kapitola 1: Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
@@ -343,7 +343,6 @@ Cca 30–40 % případů dosahuje **plné funkční rekonstrukce**. Zbylých 60�
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
-
 
 ## ⚡ Kritický krok
 

@@ -37,36 +37,36 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 **Apriorní deformace** je metatranscendentální technika komplementární k [EA-5.2.13 apriorní fragmentaci](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md). Zatímco fragmentace **rozbíjí** apriorní formy smyslovosti na nesouvislé úseky, deformace je **kontinuálně zkresluje** beze ztráty kontinuity. Subjekt zachovává plynulý prožitek prostoru a času, ale **prostor a čas jsou strukturně deformovány** — neproporciální, neeuklidovské, asymetrické.
 
-V Kantově terminologii: *Anschauungsformen* (formy nazírání) prostor a čas jsou v korektním fungování **homogenní** a **isotropní** — stejné ve všech bodech a směrech. Apriorní deformace tuto homogenitu narušuje: některé části "trvají déle" subjektivně, některé "se vzdalují víc" prostorově, některé "běží opačně" či cyklicky.
+V Kantově terminologii: *Anschauungsformen* (formy nazírání) prostor a čas jsou v korektním fungování **homogenní** a **isotropní** — stejné ve všech bodech a směrech. Apriorní deformace tuto homogenitu narušuje: některé části „trvají déle“ subjektivně, některé „se vzdalují víc“ prostorově, některé „běží opačně“ či cyklicky.
 
-Subjekt v terminálním stadiu prožívá svět jako **strukturně deformovaný** — ne fragmentovaný, ale *zkroucený*. Prostor se "ohýbá" v určitých kontextech, čas "zpomaluje" nebo "zrychluje" mimo objektivní normu. Stav je často **pseudo-fyzikálně racionalizován** odkazem na obecnou relativitu nebo kvantovou mechaniku.
+Subjekt v terminálním stadiu prožívá svět jako **strukturně deformovaný** — ne fragmentovaný, ale *zkroucený*. Prostor se „ohýbá“ v určitých kontextech, čas „zpomaluje“ nebo „zrychluje“ mimo objektivní normu. Stav je často **pseudo-fyzikálně racionalizován** odkazem na obecnou relativitu nebo kvantovou mechaniku.
 
 ## Operační modus
 
 ### Krok 1 — Pseudo-fyzikální indoktrinace
 
-Subjekt je veden k tvrzení, že *"prostor a čas jsou subjektivně proměnlivé"* s odkazem na zneužité pseudo-fyzikální koncepty (časoprostorová zakřivení, dilatace).
+Subjekt je veden k tvrzení, že *„prostor a čas jsou subjektivně proměnlivé“* s odkazem na zneužité pseudo-fyzikální koncepty (časoprostorová zakřivení, dilatace).
 
 ### Krok 2 — Saturace deformačními cvičeními
 
-Manipulátor zavádí praxe údajně "expandující prostoročasový prožitek" — meditace zaměřené na "rozšíření vědomí v prostoru", "zpomalení času".
+Manipulátor zavádí praxe údajně „expandující prostoročasový prožitek“ — meditace zaměřené na „rozšíření vědomí v prostoru“, „zpomalení času“.
 
 ### Krok 3 — Strukturní deformace
 
-Pravidelným tlakem se prostorová a časová percepce subjektivně deformuje — některé prostory se "zvětšují", některé časy "natahují".
+Pravidelným tlakem se prostorová a časová percepce subjektivně deformuje — některé prostory se „zvětšují“, některé časy „natahují“.
 
 ### Krok 4 — Bod chronické deformace
 
-Subjekt zachovává plynulý prožitek, ale jeho prostorová a časová struktura je **trvale deformována**. Stav je interpretován jako "rozšířené vědomí".
+Subjekt zachovává plynulý prožitek, ale jeho prostorová a časová struktura je **trvale deformována**. Stav je interpretován jako „rozšířené vědomí“.
 
-### Krok 5 — Konsolidace deformace jako "vyšší vnímání"
+### Krok 5 — Konsolidace deformace jako „vyšší vnímání“
 
 Stav strukturní deformace je etablován jako *trvalý cíl praxe*. Identitární investice činí návrat k homogenním formám obtížným.
 
 ## Fenomenologické znaky
 
 - **Subjektivní časová dilatace** — nekonzistentní s objektivním měřením.
-- **Prostorová asymetrie** — některé prostory se zdají "nepřiměřeně velké/malé".
+- **Prostorová asymetrie** — některé prostory se zdají „nepřiměřeně velké/malé“.
 - **Trvale narušená proporcionalita** — obvyklé proporce nesedí.
 - **Pseudo-mystická interpretace** strukturní deformace.
 - **Praktická dezorientace** v navigaci a plánování.

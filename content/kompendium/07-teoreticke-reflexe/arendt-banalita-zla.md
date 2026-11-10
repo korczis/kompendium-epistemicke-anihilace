@@ -25,7 +25,7 @@ Pro kompendium EA je Arendtové analýza **strukturálně klíčová**: ukazuje,
 
 Arendtové reportáž z procesu s Adolfem Eichmannem (1961) odhalila šokující diagnostiku: Eichmann nebyl **monstrum** ani **fanatik** ani **patologický sadista**. Byl to **byrokrat**, **klišé-mluvčí**, jenž **nedokázal myslet** — nedokázal se postavit na pozici druhého, nedokázal **soudit** mimo dané administrativní rámce.
 
-"*Větší zlo na světě je dílo nikoho* — *tj. dělané lidskými bytostmi, jež odmítají být osobami.*" (*The Life of the Mind*, 1978)
+„*Větší zlo na světě je dílo nikoho* — *tj. dělané lidskými bytostmi, jež odmítají být osobami.*“ (*The Life of the Mind*, 1978)
 
 Pro EA z toho plyne **trojí**:
 
@@ -37,11 +37,11 @@ Pro EA z toho plyne **trojí**:
 
 V *The Life of the Mind* (posmrtně 1978) Arendtová rozlišuje tři **fakulty mysli**:
 
-- **Myšlení** (*thinking*) — vnitřní dialog, "dva-v-jednom" Sokratovy povahy
+- **Myšlení** (*thinking*) — vnitřní dialog, „dva-v-jednom“ Sokratovy povahy
 - **Vůle** (*willing*) — schopnost iniciativy, **počátku něčeho nového**
 - **Úsudek** (*judging*) — schopnost reflektovat na partikulárním bez subsumpce pod obecná pravidla
 
-Krize úsudku — Arendtové centrální diagnóza moderního totalitarismu — je strukturálním rozpadem **třetí** fakulty: subjekty přestávají **soudit** partikulárně a uchýlí se k **algoritmické subsumpci** pod kategorie ("oni jsou teroristé", "oni jsou nepřátelé", "oni jsou nehumánní").
+Krize úsudku — Arendtové centrální diagnóza moderního totalitarismu — je strukturálním rozpadem **třetí** fakulty: subjekty přestávají **soudit** partikulárně a uchýlí se k **algoritmické subsumpci** pod kategorie („oni jsou teroristé“, „oni jsou nepřátelé“, „oni jsou nehumánní“).
 
 Pro EA má krize úsudku **specifickou relevanci**:
 
@@ -49,7 +49,7 @@ Pro EA má krize úsudku **specifickou relevanci**:
 - **Klasifikační aparáty** EA samotné mohou být **rizikem**: pokud taxonomie EA technik je užívána bez **úsudku**, stává se **algoritmickým razítkováním**.
 - Kompendium proto **opakovaně zdůrazňuje**, že taxonomie je **nástroj úsudku**, nikoli **náhražka** úsudku.
 
-## 3. Pluralita a "spolu-bytí"
+## 3. Pluralita a „spolu-bytí“
 
 Arendtové centrální politická teze (*Vita Activa*, 1958): lidská existence je strukturálně **pluralitní** — *amor mundi*, láska ke světu, vzniká z **různých** lidí, jež **spolu jednají** a **spolu mluví**.
 
@@ -71,7 +71,7 @@ Arendtové esej *Lying in Politics* (1971) — analýza Pentagon Papers — form
 Pro EA má toto rozlišení **diagnostickou hodnotu**:
 
 - **Disinformační kampaně** ([viz 7.49 Wardle](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)) jsou **moderními organizovanými lžemi** v arendtovském smyslu.
-- **Post-truth politika** je strukturálně **eliminací** kategorie pravdy — nikoli pouze "lhaní více", ale **strukturální anihilací** pravdivostního nároku.
+- **Post-truth politika** je strukturálně **eliminací** kategorie pravdy — nikoli pouze „lhaní více“, ale **strukturální anihilací** pravdivostního nároku.
 - **Klinický korelát**: subjekty vystavené dlouhodobé organizované lži vykazují **specifické** epistemické symptomy — neschopnost rozlišovat informaci od dezinformace, **epistemická únava** ([viz 7.2](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)).
 
 ## 5. Mapping na EA techniky
@@ -88,7 +88,7 @@ Pro EA má toto rozlišení **diagnostickou hodnotu**:
 
 Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)) a politickou EA ([viz 7.8](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)):
 
-- **Restituce schopnosti úsudku** jako klinický cíl — nikoli pouze "stabilizace symptomů".
+- **Restituce schopnosti úsudku** jako klinický cíl — nikoli pouze „stabilizace symptomů“.
 - **Politická vzdělanost** jako prevence: schopnost **myslet samostatně**, **soudit partikulárně**, **jednat s druhými**.
 - **Hannah Arendt Center** a podobné iniciativy jako modelové **antropotechniky** rezilience.
 

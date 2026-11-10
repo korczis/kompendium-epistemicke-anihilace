@@ -136,19 +136,23 @@ a [akutní second opinion](@/kompendium/emergency-protocols/38-second-opinion-em
 ## Související
 
 **Navazující scénáře**
+
 - [Detekce hyperreflexivity](@/kompendium/educational-scenarios/22-hyperreflexivity-spot.md) – iatrogenní potenciál pomáhajících profesí.
 - [Trajektorie zotavení](@/kompendium/educational-scenarios/26-recovery-trajectory.md) – plán, který s riziky počítá.
 - [Design falsifikace](@/kompendium/educational-scenarios/6-falsification-design.md) – jak testovat vlastní hypotézu o klientovi.
 
 **Kritické perspektivy**
+
 - [Iatrogenní účinky EA intervencí](@/kompendium/critical-perspectives/11-iatrogenic-overreach.md) – kritika zevnitř rámce.
 - [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md) – důsledky přehnané detekce.
 
 **Techniky a klinický rámec**
+
 - [EA-3.2.9 Hodnocení iatrogenního rizika](@/kompendium/techniques/ea-3-2-9-iatrogenic-risk-assessment.md) – strukturovaný postup.
 - [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) – hlavní pojistka.
 
 **Sebe-obrana a glosář**
+
 - [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) – i vůči pomáhajícím.
 - [Iatrogenic harm](@/glossary/iatrogenic-harm.md) – definice.
 - [Retraumatizace](@/glossary/retraumatizace.md) – nejčastější podoba poškození.

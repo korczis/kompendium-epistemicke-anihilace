@@ -23,7 +23,7 @@ toc = false
 ## Operační modus (3 kroky)
 
 1. Strukturální izolace mentee od peer skupiny — výlučná spolupráce 1:1, blokace mezilaboratorní komunikace
-2. Negativní rámování externích kontaktů ("ti z X jsou neseriózní", "ona je politická aktivistka, nikoli vědkyně")
+2. Negativní rámování externích kontaktů („ti z X jsou neseriózní“, „ona je politická aktivistka, nikoli vědkyně“)
 3. Vytvoření závislosti — mentee dostává všechno (data, prostředky, autorství) skrze mentor; ztráta vztahu = ztráta kariéry
 
 ## Detekční markery (3 nejvýraznější)

@@ -17,7 +17,7 @@ toc = true
 
 # 7.12 Feyerabend: Anti-Method a epistemický anarchismus
 
-Paul Feyerabendova *Against Method* (1975) představuje **nejradikálnější výzvu** epistemologii pravidel: žádná univerzální vědecká metoda neexistuje, a každý pokus o její formulaci se v dějinách vědy ukazuje jako **kontrafaktický**. Feyerabendova teze "*anything goes*" není normativní doporučení, ale **dějinný diagnostický nález**: vědecký pokrok byl historicky podmíněn **porušováním** všech metodologických pravidel.
+Paul Feyerabendova *Against Method* (1975) představuje **nejradikálnější výzvu** epistemologii pravidel: žádná univerzální vědecká metoda neexistuje, a každý pokus o její formulaci se v dějinách vědy ukazuje jako **kontrafaktický**. Feyerabendova teze „*anything goes*“ není normativní doporučení, ale **dějinný diagnostický nález**: vědecký pokrok byl historicky podmíněn **porušováním** všech metodologických pravidel.
 
 Pro kompendium EA představuje Feyerabend **produktivní napětí**: ohrožuje samotnou možnost **normativního měřítka** pro odlišení legitimní inovace od manipulace.
 
@@ -27,12 +27,12 @@ Feyerabend systematicky demontuje hlavní metodologické principy:
 
 - **Falsifikacionismus** (Popper): Galileo by jím byl odmítnut. Nové teorie zpočátku **odporují faktům** — fakta samotná jsou paradigmaticky kontaminována.
 - **Konzistence**: Bohrův atomový model byl **inkonzistentní** s Maxwellovou elektrodynamikou — a přesto byl produktivní.
-- **Empirický základ**: "Pozorování" jsou teoreticky napojená — neexistují **neutrální data**.
+- **Empirický základ**: „Pozorování“ jsou teoreticky napojená — neexistují **neutrální data**.
 - **Komensurabilita**: Konkurující teorie nesdílejí měřítko (Kuhnův odkaz, ale radikalizovaný).
 
 Pro EA má tato dekonstrukce **dvojí relevanci**:
 
-1. **Defenzivní**: Útočník může použít Feyerabenda k **obraně každé pseudovědecké pozice**: "Žádná metoda není univerzální, takže má pozice je legitimní jako kterákoli jiná."
+1. **Defenzivní**: Útočník může použít Feyerabenda k **obraně každé pseudovědecké pozice**: „Žádná metoda není univerzální, takže má pozice je legitimní jako kterákoli jiná.“
 2. **Konstruktivní**: Kompendium se musí vystříhat **metodologického fundamentalismu** — jeho taxonomie EA musí počítat s historickou proměnlivostí epistemických norem.
 
 ## 2. Kontrainductive principle
@@ -41,7 +41,7 @@ Feyerabend formuluje **kontrainduktivní princip**: *vyvíjej hypotézy, jež js
 
 Pro EA z toho plyne:
 
-- **Pseudo-kontrainduktivita** je manipulativní technika: deklarace "já jsem revoluční" jako maska pro **pseudovědu**.
+- **Pseudo-kontrainduktivita** je manipulativní technika: deklarace „já jsem revoluční“ jako maska pro **pseudovědu**.
 - **Kritérium odlišení**: skutečná kontrainduktivita předkládá **novou pozitivní heuristiku**, falešná pouze **negativní destrukci** existujících teorií.
 
 ## 3. Věda jako jedna z mnoha tradic
@@ -59,7 +59,7 @@ Pro kompendium EA je tato pozice **kriticky problematická**:
 Pro taxonomii EA má Feyerabend trojí produktivní napětí:
 
 1. **Heuristická hodnota**: Připomíná, že **jakákoli operacionalizace EA** musí být historicky a kulturně reflektovaná — co je manipulací v jedné formě života, může být legitimní inovací v jiné.
-2. **Detektor falešné jistoty**: Manipulátoři často operují s **přehnanou jistotou** ("věda jasně dokazuje X"). Feyerabendovská skepse je nástroj proti takové jistotě.
+2. **Detektor falešné jistoty**: Manipulátoři často operují s **přehnanou jistotou** („věda jasně dokazuje X“). Feyerabendovská skepse je nástroj proti takové jistotě.
 3. **Sebereflexivní moment**: Kompendium samotné musí být schopno **sebekritiky** svých metodologických závazků — Feyerabend je interní hlas této sebekritiky.
 
 ## 5. Mapping na EA techniky

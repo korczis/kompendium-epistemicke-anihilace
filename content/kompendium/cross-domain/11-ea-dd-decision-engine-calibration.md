@@ -63,7 +63,6 @@ DD analyst týmu A: ECE 0.18 (poor), týmu B: 0.04 (well-calibrated) — review 
 
 Sektor 'tech': over-confidence v growth predikcích, ECE 0.22 — adjusted confidence bands narrower
 
-
 Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
 
 ## Cross-linky
@@ -78,7 +77,6 @@ Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, kte
 - [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
 - [Case studies](@/kompendium/case-studies/_index.md)
 - [Quick reference](@/kompendium/quick-reference/_index.md)
-
 
 ## Connect
 

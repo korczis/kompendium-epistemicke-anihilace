@@ -141,19 +141,23 @@ se o vlastní vnímání: deník událostí, vnější kotvy, obnovené vztahy. 
 ## Související
 
 **Navazující scénáře**
+
 - [Rozpoznání DARVO](@/kompendium/educational-scenarios/20-darvo-recognition.md) – co se děje, když klientka vzorec pojmenuje.
 - [Akademická manipulace](@/kompendium/educational-scenarios/11-academic-manipulation.md) – týž vzorec v profesním jazyce.
 - [Metakognitivní kolaps](@/kompendium/educational-scenarios/24-metacognitive-collapse.md) – pokročilý důsledek dlouhodobého zpochybňování.
 
 **Detekční signatury**
+
 - [Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – kritéria a validace.
 - [Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md) – vnitřní stopa.
 
 **Sebe-obrana a zotavení**
+
 - [Paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md) – vnější paměť jako kotva.
 - [Uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md) – stabilizace v akutní nejistotě.
 
 **Glosář**
+
 - [Gaslighting](@/glossary/gaslighting.md) – definice a historie pojmu.
 - [Coercive control](@/glossary/coercive-control.md) – širší rámec kontroly ve vztahu.
 - [Epistemické trauma](@/glossary/epistemicke-trauma.md) – dlouhodobé následky.

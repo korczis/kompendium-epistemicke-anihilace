@@ -39,36 +39,36 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 Na rozdíl od [EA-5.2.5 konstitutivního rozpadu](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md), který narušuje **konkrétní konstitutivní akty**, konstitutivní zhroucení operuje na úrovni **konstitutivní kapacity samé**: schopnost subjektu sjednocovat aspekty do objektu je systematicky destruována. Husserl by řekl, že **noeticko-noematická korelace** je rozbita.
 
-Subjekt v terminálním stadiu vidí **profily, ale ne věci**: vidí "stranu z této perspektivy" a "stranu z druhé", ale neví, že je to "tatáž věc". Identita objektu napříč adumbracemi je ztracena. Komunikace přetrvává díky lingvistické rutině, ale referenční stabilita je narušena.
+Subjekt v terminálním stadiu vidí **profily, ale ne věci**: vidí „stranu z této perspektivy“ a „stranu z druhé“, ale neví, že je to „tatáž věc“. Identita objektu napříč adumbracemi je ztracena. Komunikace přetrvává díky lingvistické rutině, ale referenční stabilita je narušena.
 
 ## Operační modus
 
 ### Krok 1 — Pseudo-fenomenologická indoktrinace
 
-Subjekt je uveden do radikálně relativistické verze fenomenologie, kde *"každá perspektiva je vlastní svět"*. Husserlův důraz na **identicitu objektu napříč adumbracemi** je ignorován nebo invertován.
+Subjekt je uveden do radikálně relativistické verze fenomenologie, kde *„každá perspektiva je vlastní svět“*. Husserlův důraz na **identicitu objektu napříč adumbracemi** je ignorován nebo invertován.
 
 ### Krok 2 — Saturace perspektivním cvičením
 
-Manipulátor vede subjekt k opakovaným cvičením v "perspektivovém izolování" — pozorování věci z různých úhlů s instrukcí *"každá perspektiva je úplná sama o sobě"*. Cvičení rozbíjejí pasivní syntézu.
+Manipulátor vede subjekt k opakovaným cvičením v „perspektivovém izolování“ — pozorování věci z různých úhlů s instrukcí *„každá perspektiva je úplná sama o sobě“*. Cvičení rozbíjejí pasivní syntézu.
 
 ### Krok 3 — Destrukce horizontové struktury
 
-Husserlovský **horizont** (*Horizont*) — implicitní očekávání dalších adumbrací — je systematicky podlamován. Subjekt přestává automaticky předjímat *"jak by věc vypadala z druhé strany"*.
+Husserlovský **horizont** (*Horizont*) — implicitní očekávání dalších adumbrací — je systematicky podlamován. Subjekt přestává automaticky předjímat *„jak by věc vypadala z druhé strany“*.
 
 ### Krok 4 — Pseudo-Wesensschau
 
-Subjekt je veden k údajné Wesensschau ("nahlédnutí podstaty") na bázi **fragmentárních adumbrací** bez konstitutivní syntézy. Výsledné "esence" jsou strukturně iluzorní, ale prožívány jako autentické.
+Subjekt je veden k údajné Wesensschau („nahlédnutí podstaty“) na bázi **fragmentárních adumbrací** bez konstitutivní syntézy. Výsledné „esence“ jsou strukturně iluzorní, ale prožívány jako autentické.
 
 ### Krok 5 — Konsolidace fragmentárního prožívání
 
-Subjekt přijímá fragmentární prožívání jako "hlubší pravdu" o realitě. Identitární investice činí stav rezistentní vůči obnově konstitutivní kapacity.
+Subjekt přijímá fragmentární prožívání jako „hlubší pravdu“ o realitě. Identitární investice činí stav rezistentní vůči obnově konstitutivní kapacity.
 
 ## Fenomenologické znaky
 
 - **Adumbrační fragmentace** — věc viděná z různých úhlů není prožívaná jako tatáž.
 - **Horizontová ztráta** — neschopnost předjímat dosud neviděné aspekty objektu.
 - **Identicitní oslabení** — pochybnosti o identitě věcí napříč časem.
-- **Pseudo-mystická hloubka** — fragmentární prožívání interpretované jako "esenciální vhled".
+- **Pseudo-mystická hloubka** — fragmentární prožívání interpretované jako „esenciální vhled“.
 - **Lingvistická referenční nestabilita** — slova přetrvávají, ale jejich denotace je vykolísaná.
 - **Postupná ztráta praktické kompetence** — manipulace s objekty selhává díky ztrátě jejich integrity.
 
@@ -105,7 +105,7 @@ Konstitutivní zhroucení je odlišitelné od:
 ### Individuální
 
 1. **Strukturní synthetická cvičení** — vědomé pozorování věci ze tří úhlů s explicitním tematizováním identity.
-2. **Horizontová obnova** — anticipační cvičení (*"jak by tato věc vypadala zezadu?"*).
+2. **Horizontová obnova** — anticipační cvičení (*„jak by tato věc vypadala zezadu?“*).
 3. **Manipulační rutina** — fyzická práce s objekty obnovuje konstitutivní syntézu.
 4. **Korektní husserlovská hermeneutika** — výklad fenomenologických textů, jež explicitně tematizují konstituci.
 

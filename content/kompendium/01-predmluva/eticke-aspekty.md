@@ -42,7 +42,7 @@ Tato charakteristika **fundamentálně mění kalkulus rizika**. Tradiční mode
 
 ### Neviditelnost poškození
 
-Destruktivní účinky epistemické anihilace mohou být **subjektivně nerozpoznatelné** pro postiženého jedince — fenomén [epistemické slepoty](@/glossary/epistemicka-slepota.md). To zásadně komplikuje včasnou detekci zneužití a fundamentálně mění etickou kalkulaci. Klasický liberální princip "informovaný souhlas dospělé osoby legitimizuje její volbu" zde **selhává**, protože samotná schopnost informovaného souhlasu může být obětí manipulace.
+Destruktivní účinky epistemické anihilace mohou být **subjektivně nerozpoznatelné** pro postiženého jedince — fenomén [epistemické slepoty](@/glossary/epistemicka-slepota.md). To zásadně komplikuje včasnou detekci zneužití a fundamentálně mění etickou kalkulaci. Klasický liberální princip „informovaný souhlas dospělé osoby legitimizuje její volbu“ zde **selhává**, protože samotná schopnost informovaného souhlasu může být obětí manipulace.
 
 ### Dlouhodobá kumulativní povaha škod
 
@@ -199,7 +199,6 @@ Tato distribuovaná odpovědnost je explicitním záměrem — žádná centrali
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - [Glossary: Color Teams](@/glossary/color-teams.md)
 - [Glossary: Epistemická slepota](@/glossary/epistemicka-slepota.md)
-
 
 ## ⚡ Kritický krok
 

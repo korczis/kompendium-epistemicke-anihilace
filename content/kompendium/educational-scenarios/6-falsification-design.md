@@ -139,18 +139,22 @@ oběti, a zvyšuje váhu závěru, který obstojí. K souvislostem viz
 ## Související
 
 **Navazující scénáře**
+
 - [Verifikace tvrzení](@/kompendium/educational-scenarios/5-claim-verification.md) – ověření dokladů, z nichž predikce vycházejí.
 - [Vážení důkazů](@/kompendium/educational-scenarios/7-evidence-weighting.md) – jakou váhu dát jednotlivým pozorováním.
 - [Meta-evaluace](@/kompendium/educational-scenarios/9-meta-evaluation.md) – zpětné hodnocení vlastních závěrů.
 
 **Techniky a signatury**
+
 - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – útočná verze téže chyby.
 - [Nefalsifikovatelná tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md) – jazykový marker.
 
 **Sebe-obrana**
+
 - [Falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) – každodenní praxe.
 
 **Glosář a kritika**
+
 - [Falsifikace](@/glossary/falsifikace.md) – základní pojem.
 - [Nepřípustný vliv](@/glossary/undue-influence.md) – právní a klinický rámec modelového případu.
 - [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md) – proč na falsifikaci záleží.

@@ -43,11 +43,7 @@ Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
 
 ### Krok 1 — Postupná aplikace všech EA-5.5 technik
 
-
-
 ### Krok 2 — Konvergence efektů v singularitě
-
-
 
 ### Krok 3 — Konsolidace terminálního stavu
 
@@ -104,12 +100,11 @@ EA-5.5.6 (konvergentní pre-konceptuální), EA-5.5.29 (multimodální konvergen
 
 Technika **konvergentní singularita transkonceptuální** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.5.30.
 
-
 ## Teoretické zázemí
 
-Tato technika operuje na úrovni **pre-predikativní zkušenosti** v Husserlově fenomenologii — vrstva před tím, než se konstituuje predikativní soud "S je P". Husserl v *Erfahrung und Urteil* (1939) ukazuje, že každý vědomý soud je založen na pasivní syntéze pre-predikativních dat: vjemy jsou již před verbalizací strukturovány retencemi (právě uplynulé) a protencemi (anticipovanými). Technika **konvergentní singularita transkonceptuální** cílí přesně na tuto vrstvu — narušuje pasivní syntézu před tím, než subjekt může artikulovat, co se mu vlastně děje.
+Tato technika operuje na úrovni **pre-predikativní zkušenosti** v Husserlově fenomenologii — vrstva před tím, než se konstituuje predikativní soud „S je P“. Husserl v *Erfahrung und Urteil* (1939) ukazuje, že každý vědomý soud je založen na pasivní syntéze pre-predikativních dat: vjemy jsou již před verbalizací strukturovány retencemi (právě uplynulé) a protencemi (anticipovanými). Technika **konvergentní singularita transkonceptuální** cílí přesně na tuto vrstvu — narušuje pasivní syntézu před tím, než subjekt může artikulovat, co se mu vlastně děje.
 
-Merleau-Ponty v *Phénoménologie de la perception* (1945) doplňuje koncept **body schema** (schéma corporel) — pre-reflexivní tělesné vědomí, které předchází kartesiánskému kogitujícímu subjektu. "Já mohu" (je peux) předbíhá "já myslím" (je pense). Tato technika narušuje body schema na úrovni proprioceptivně-kinestetické integrace, čímž se subjekt ocitá v stavu, kdy jeho tělesný "já mohu" přestává fungovat jako transparentní médium světa.
+Merleau-Ponty v *Phénoménologie de la perception* (1945) doplňuje koncept **body schema** (schéma corporel) — pre-reflexivní tělesné vědomí, které předchází kartesiánskému kogitujícímu subjektu. „Já mohu“ (je peux) předbíhá „já myslím“ (je pense). Tato technika narušuje body schema na úrovni proprioceptivně-kinestetické integrace, čímž se subjekt ocitá v stavu, kdy jeho tělesný „já mohu“ přestává fungovat jako transparentní médium světa.
 
 Damasio v *The Feeling of What Happens* (1999) konceptualizuje **core consciousness** jako kontinuální mapping organism-objekt vztahu, který předchází extended consciousness s autobiografickou pamětí. Technika cílí na core consciousness vrstvu — produkuje narušení kontinuálního self-mappingu, čímž subjekt ztrácí pre-reflexivní jistotu vlastní situovanosti ve světě.
 
@@ -125,7 +120,7 @@ Klinická diferenciace techniky **konvergentní singularita transkonceptuální*
 
 **vs. Disociativní poruchy** (F44): Disociace zahrnuje narušení integrace vědomí, paměti a identity (DSM-5 dissociation subscale >10). EA-5.5.30 produkuje narušení *pre-reflexivní* vrstvy, zatímco disociace operuje na úrovni autobiografické paměti a identity. Diagnostický marker: Dissociative Experiences Scale (DES-II) skore >30 indikuje disociační poruchu, ne EA stav.
 
-**vs. Mystická zkušenost** (Stace 1960; Hood Mysticism Scale): Mystické zážitky obsahují pozitivní afekt, sense of unity a ineffability. EA-5.5.30 produkuje *negativní* fenomenologii — rozpadnutí, ne sjednocení. Hood M-Scale skore <40 v kombinaci s anxietou diferencuje EA od mystické zkušenosti. James (*Varieties of Religious Experience*, 1902) by EA-5.5.30 klasifikoval jako "anti-mystical" stav.
+**vs. Mystická zkušenost** (Stace 1960; Hood Mysticism Scale): Mystické zážitky obsahují pozitivní afekt, sense of unity a ineffability. EA-5.5.30 produkuje *negativní* fenomenologii — rozpadnutí, ne sjednocení. Hood M-Scale skore <40 v kombinaci s anxietou diferencuje EA od mystické zkušenosti. James (*Varieties of Religious Experience*, 1902) by EA-5.5.30 klasifikoval jako „anti-mystical“ stav.
 
 **vs. Depersonalizace/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.30 je akutní *induced* stav s definovaným počátkem a koncem. Cambridge Depersonalisation Scale (CDS) skore >70 v posledních 6 měsících indikuje DPDR; akutní EA-5.5.30 se obvykle resolvuje do 24–72h.
 
@@ -135,7 +130,7 @@ Pro **objektivní detekci** aplikace techniky **konvergentní singularita transk
 
 - **Primární marker**: EEG fronto-parietální koherence v gamma >0.8 + globální deaktivace mPFC fMRI — neurobiologický korelát ego-dissolution.
 - **Sekundární markery**:
-  - Subjektivní self-report s typickým narativním vzorcem ("nemůžu to popsat", "bylo to mimo slova", "ztratil jsem se v sobě")
+  - Subjektivní self-report s typickým narativním vzorcem („nemůžu to popsat“, „bylo to mimo slova“, „ztratil jsem se v sobě“)
   - Behavioral observation: zvýšená self-touching frequency (>15/min) + reduced eye contact (<30% času)
   - Vegetativní indikátory: HRV pokles (RMSSD <25ms) + pupilární dilatace (>5mm baseline)
 - **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
@@ -182,7 +177,6 @@ Pro **objektivní detekci** aplikace techniky **konvergentní singularita transk
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

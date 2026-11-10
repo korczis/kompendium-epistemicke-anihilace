@@ -29,7 +29,7 @@ Detekce: kontextuálně senzitivní — **multi-perspective scoring** (legitimac
 
 ## Operational protocols
 
-Provoz: per-case deliberativní review. Výstup: **rozšířená taxonomie** s gradient-labels (např. "legitimate-with-warning") namísto hard rejekce. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](@/kompendium/aiad-integration/quality-monitor-ea-tracking.md)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
+Provoz: per-case deliberativní review. Výstup: **rozšířená taxonomie** s gradient-labels (např. „legitimate-with-warning“) namísto hard rejekce. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](@/kompendium/aiad-integration/quality-monitor-ea-tracking.md)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
 
 ## Limitations
 

@@ -54,7 +54,7 @@ Supervizor **nesmí** převzít supervizi případu, pokud:
 Standardní supervizní hodina v klinické praxi EA má **osmifázovou strukturu**, která zaručuje, že každá fáze klinického procesu je adresována:
 
 ### Fáze 1 — Otevření (5 min)
-Metakognitivní check-in supervizovaného: "Jak jste **teď**, **těsně před** referencí případu?" Cíl: detekce baseline před expozicí materiálu.
+Metakognitivní check-in supervizovaného: „Jak jste **teď**, **těsně před** referencí případu?“ Cíl: detekce baseline před expozicí materiálu.
 
 ### Fáze 2 — Referát případu (15 min)
 Strukturovaná prezentace s explicitními kategoriemi: kontext, anamnéza, manifestované techniky (s **EA kódy**), terapeutické intervence, otevřené otázky. Doporučený formát: písemný protokol s anonymizací.
@@ -69,7 +69,7 @@ Klinik artikuluje **konkurující hypotézy** o operující dynamice. Supervizor
 Cílená exploraci, zda klinik manifestuje sekundární destabilizaci: epistemická saturace, ztráta vlastních referencí, identifikace s materiálem, **fascinace** technikou. Tato fáze je **non-negotiable** a nesmí být zkrácena.
 
 ### Fáze 6 — Intervenční plánování (10 min)
-Společná formulace dalších kroků s explicitní artikulací **falsifikačních kritérií** ("podle čeho poznáme, že intervence selhala?"). Cíl: prevence imunizace klinikova vlastního terapeutického rámce.
+Společná formulace dalších kroků s explicitní artikulací **falsifikačních kritérií** („podle čeho poznáme, že intervence selhala?“). Cíl: prevence imunizace klinikova vlastního terapeutického rámce.
 
 ### Fáze 7 — Etický audit (5 min)
 Krátká reflexe etických aspektů: dual-use riziko, hranice, informovaný souhlas, dokumentace. Pokud detekce eticky problematického vzorce: aktivace eskalačního protokolu.
@@ -175,7 +175,6 @@ Supervizní rámec je integrován s vzdělávací architekturou kompendia ([sekc
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Gaslighting](@/glossary/gaslighting.md), [Delegitimizace](@/glossary/delegitimizace.md), [Dual-use poznání](@/glossary/dual-use-poznani.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Metakognice](@/glossary/metakognice.md), [Hermeneutika](@/glossary/hermeneutika.md), [Fenomenologie](@/glossary/fenomenologie.md)
 - Platforma: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}, [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md), [Boundary Ethics](@/philosophy/boundary-ethics.md)
-
 
 ## ⚡ Kritický krok
 

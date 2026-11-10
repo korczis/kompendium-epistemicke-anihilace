@@ -123,7 +123,6 @@ Technika **mentalizační disrupce** představuje strukturální výzvu pro defe
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Fonagyho **mentalizace** (*Affect Regulation, Mentalization, and the Development of the Self*, 2002) — kapacita reflektovat mentální stavy — je systematicky narušena. Damasiova **theory of mind** sítě jsou desynchronizovány. Husserlova **přivlastnění mentálních aktů** (Ich-perspektiva) ztrácí self-attribuční jasnost. Ricoeurova **reflexivita self** je rozpojena: subjekt nemůže reflektovat sebe ze sebe. Levinasova **proximité** vůči sobě (vlastní tělo jako první druhý) je narušena. Schelerova **Selbstwahrnehmung** vs. **Eindfühlung** ztrácí distinkci: subjekt 'vciťuje se' do sebe jako do druhého. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

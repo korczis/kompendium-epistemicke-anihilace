@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 **Singulární narativní kolaps** je technika vynucené konsolidace mnohočetných narativních linií subjektova života — biografických, profesních, vztahových, ideologických — do **jediného dominantního narativu** dodaného manipulátorem, který se stává **výhradním organizujícím rámcem** významu osobní zkušenosti. Subjekt po proběhlém kolapsu **nedokáže rekonstruovat** alternativní narativní linie, které do té doby koexistovaly, a prožívá svou minulost jako **monoteleologický příběh** směřující k aktuální pozici definované manipulátorem.
 
-Klíčový rozdíl proti běžnému narativnímu vlivu spočívá v **eliminaci perspektivální plurality**: zatímco obvyklé biografické vyprávění připouští souběh více čteních téhož životního úseku (např. "to byla zároveň krize i růst"), kolaps redukuje tuto polysémii na **jediný kanonický výklad**.
+Klíčový rozdíl proti běžnému narativnímu vlivu spočívá v **eliminaci perspektivální plurality**: zatímco obvyklé biografické vyprávění připouští souběh více čteních téhož životního úseku (např. „to byla zároveň krize i růst“), kolaps redukuje tuto polysémii na **jediný kanonický výklad**.
 
 Singulární narativní kolaps je strukturálním předkladem pro [EA-5.1.27 meta-epistemická redukce](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md) — narativní monismus tvoří fenomenologickou půdu pro epistemický monismus.
 
@@ -54,11 +54,11 @@ Mezi narativními liniemi se vyhledává ta, která je:
 - Nejvíce **emocionálně investovaná** (subjekt o ní mluví s největší afektivitou)
 - Nejméně **integrovaná** s ostatními (vlastní vnitřní rozpory)
 - Spojená s **nedořešenými** otázkami identity nebo smyslu
-- **Otevřená** vůči externí re-interpretaci (subjekt sám projevuje pochybnost o "správné" interpretaci)
+- **Otevřená** vůči externí re-interpretaci (subjekt sám projevuje pochybnost o „správné“ interpretaci)
 
 ### Krok 3 — Re-templátování přes interpretační rámec
 
-Manipulátor nabízí **integrující interpretaci**, která zranitelnou linii **vysvětluje** a zároveň ji propojuje s ostatními liniemi do koherentního celku. Klíčová slova: *"teprve teď chápeš, proč…"*, *"všechno to směřovalo k tomuto…"*, *"tvoje cesta byla vždycky o…"*.
+Manipulátor nabízí **integrující interpretaci**, která zranitelnou linii **vysvětluje** a zároveň ji propojuje s ostatními liniemi do koherentního celku. Klíčová slova: *„teprve teď chápeš, proč…“*, *„všechno to směřovalo k tomuto…“*, *„tvoje cesta byla vždycky o…“*.
 
 Nabízený narativ **nemusí být lživý** — naopak, jeho síla spočívá v tom, že **vysvětluje** evidenci, která dosud zůstávala nevysvětlená. Problém není ve faktické nesprávnosti, ale v **monopolu na interpretaci**.
 
@@ -66,15 +66,15 @@ Nabízený narativ **nemusí být lživý** — naopak, jeho síla spočívá v 
 
 Jak se nový narativ konsoliduje, alternativní linie jsou systematicky **delegitimizovány**:
 
-- *"To byl jen způsob, jakým ses bránil/a vidět pravdu."*
-- *"Tehdy jsi to ještě nemohl/a chápat."*
-- *"To byla fáze, ze které jsi musel/a vyrůst."*
+- *„To byl jen způsob, jakým ses bránil/a vidět pravdu.“*
+- *„Tehdy jsi to ještě nemohl/a chápat.“*
+- *„To byla fáze, ze které jsi musel/a vyrůst.“*
 
 Každá alternativa je **subsumována** pod dominantní narativ jako jeho **nezralá forma**.
 
 ### Krok 5 — Konsolidace skrze biografickou re-narrativizaci
 
-Subjekt sám začíná **přepisovat** svou biografii v souladu s dominantním narativem. Vyprávění o minulosti se mění: dříve uváděné motivy mizí, nové se objevují. Subjekt prožívá tuto změnu **nikoli jako revizi**, ale jako *"konečně skutečné porozumění"*.
+Subjekt sám začíná **přepisovat** svou biografii v souladu s dominantním narativem. Vyprávění o minulosti se mění: dříve uváděné motivy mizí, nové se objevují. Subjekt prožívá tuto změnu **nikoli jako revizi**, ale jako *„konečně skutečné porozumění“*.
 
 V pokročilém stadiu subjekt **nedokáže rekonstruovat** vlastní dřívější interpretace — jsou pro něj nedostupné nikoli pamětí, ale fenomenologicky: nedávají smysl, působí cize.
 
@@ -82,9 +82,9 @@ V pokročilém stadiu subjekt **nedokáže rekonstruovat** vlastní dřívějš�
 
 Co prožívá subjekt **uvnitř** narativního kolapsu:
 
-- **Pocit konečné koherence** — *"teď konečně všechno dává smysl"*
+- **Pocit konečné koherence** — *„teď konečně všechno dává smysl“*
 - **Retrospektivní teleologie** — minulé události se jeví jako kroky vedoucí k aktuální pozici
-- **Diskvalifikace alternativ** — dřívější interpretace působí *"naivně"*, *"nezrale"*, *"obraně"*
+- **Diskvalifikace alternativ** — dřívější interpretace působí *„naivně“*, *„nezrale“*, *„obraně“*
 - **Narativní jednotnost** napříč kontexty — subjekt vypráví **stejný** příběh v práci, v partnerství, terapeuticky
 - **Cizota vůči vlastní minulosti** — staré deníky, fotografie, zápisy působí, jako by patřily někomu jinému
 - **Závislost na vypravěči** — manipulátor je vnímán jako **klíč** k porozumění vlastnímu životu
@@ -106,7 +106,7 @@ Co prožívá subjekt **uvnitř** narativního kolapsu:
 
 Singulární narativní kolaps je odlišitelný od **legitimní biografické integrace**:
 
-- **Legitimní integrace** udržuje vědomí **kontingence** ("mohlo to dopadnout jinak") a **plurality** ("byly i jiné motivace").
+- **Legitimní integrace** udržuje vědomí **kontingence** („mohlo to dopadnout jinak“) a **plurality** („byly i jiné motivace“).
 - **Patologický kolaps** prezentuje aktuální narativ jako **nutný** a **úplný**, alternativy jako **iluzorní**.
 
 ## Rizikové kontexty
@@ -134,7 +134,7 @@ Diskutovat klíčové biografické momenty s **více lidmi z různých období**
 
 #### 3. Strategická pluralizace
 
-Pravidelně si pokládat otázku: *"Jak by tento moment vyprávěl někdo, kdo měl tehdy konkurenční zájem?"* — strukturně to obnovuje narativní pluralitu.
+Pravidelně si pokládat otázku: *„Jak by tento moment vyprávěl někdo, kdo měl tehdy konkurenční zájem?“* — strukturně to obnovuje narativní pluralitu.
 
 #### 4. Ochrana narativních artefaktů
 
@@ -152,15 +152,15 @@ Fyzická i digitální ochrana starých textů, fotografií, e-mailů. V high-co
 
 ### Případ 1 — Charismatická skupina
 
-Konvertita po třech letech v duchovní komunitě prezentuje svůj život jako *"hledání, které vždy směřovalo k Mistrovi"*. Při externí intervenci konfrontován s vlastními deníky z období před vstupem zjistil, že tehdy vyjadřoval **explicitní skepsi** vůči přesně tomu typu duchovních autorit, k nimž později přistoupil. Rekonstrukce této epistemické diskontinuity trvala 14 měsíců terapie.
+Konvertita po třech letech v duchovní komunitě prezentuje svůj život jako *„hledání, které vždy směřovalo k Mistrovi“*. Při externí intervenci konfrontován s vlastními deníky z období před vstupem zjistil, že tehdy vyjadřoval **explicitní skepsi** vůči přesně tomu typu duchovních autorit, k nimž později přistoupil. Rekonstrukce této epistemické diskontinuity trvala 14 měsíců terapie.
 
 ### Případ 2 — Transformační koučink
 
-Klientka po dvouletém intenzivním programu vypráví svou kariéru jako *"přípravu na vědomé podnikání"*. Externí audit korespondence s rodinou zjistil, že její dřívější profesní rozhodnutí byla motivována **různorodými** a místy **protichůdnými** důvody — nikoli teleologickým směřováním.
+Klientka po dvouletém intenzivním programu vypráví svou kariéru jako *„přípravu na vědomé podnikání“*. Externí audit korespondence s rodinou zjistil, že její dřívější profesní rozhodnutí byla motivována **různorodými** a místy **protichůdnými** důvody — nikoli teleologickým směřováním.
 
 ### Případ 3 — High-control vztah
 
-Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze partnerův výklad: *"předtím jsem žil/a jako loutka rodičů"*. Po rozchodu trvalo dva roky obnovit pluralitní biografii zahrnující vztahy a rozhodnutí, která partner systematicky delegitimizoval.
+Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze partnerův výklad: *„předtím jsem žil/a jako loutka rodičů“*. Po rozchodu trvalo dva roky obnovit pluralitní biografii zahrnující vztahy a rozhodnutí, která partner systematicky delegitimizoval.
 
 ## Vztah k jiným technikám
 
@@ -204,7 +204,6 @@ Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze pa
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

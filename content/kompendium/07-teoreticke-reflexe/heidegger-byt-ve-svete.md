@@ -39,13 +39,13 @@ Pro EA z toho plyne:
 
 Heidegger rozlišuje dva fundamentálně **odlišné** mody, jak nám věci jsou:
 
-- **Zuhandenheit** ("příručnost") — věci, jež **užíváme** v praktickém zacházení (kladivo při tlučení hřebíku). Mizí v užívání samém.
-- **Vorhandenheit** ("předruční bytí") — věci jako **objekty** teoretického pohledu (kladivo jako fyzický předmět s vlastnostmi).
+- **Zuhandenheit** („příručnost“) — věci, jež **užíváme** v praktickém zacházení (kladivo při tlučení hřebíku). Mizí v užívání samém.
+- **Vorhandenheit** („předruční bytí“) — věci jako **objekty** teoretického pohledu (kladivo jako fyzický předmět s vlastnostmi).
 
 Pro EA má toto rozlišení **trojí relevanci**:
 
 1. **EA často nutí subjekt přejít z příručnosti k předruční reflexi** — paralyzuje to, co subjekt jindy **plynule užívá**. Strukturální analog Polanyiho indwelling-narušení ([viz 7.13](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)).
-2. **Iluzorní komplexita** ([EA-1.7](@/kompendium/techniques/ea-1-7-iluzorni-komplexita.md)) strukturálně **reifikuje** věc, jež dosud byla příručná — předstírá, že "kladivo" vyžaduje detailní teorii dříve, než s ním může být tlučeno.
+2. **Iluzorní komplexita** ([EA-1.7](@/kompendium/techniques/ea-1-7-iluzorni-komplexita.md)) strukturálně **reifikuje** věc, jež dosud byla příručná — předstírá, že „kladivo“ vyžaduje detailní teorii dříve, než s ním může být tlučeno.
 3. **Algoritmické rozhraní** často **sklouzne** mezi dva mody nedeterministickým způsobem — uživatel neví, zda **užívá** nástroj nebo je **objektem** datafikace.
 
 ## 3. *Sorge* (Starost)
@@ -58,19 +58,19 @@ Pobyt je strukturálně **starostí** — bytím, jež se **zaobírá** vlastní
 
 Pro EA z toho plyne:
 
-- **Útok na projektivitu**: techniky, jež **paralyzují** schopnost projektovat budoucnost ("není žádná budoucnost", fatalistický framing). Strukturálně související s **anhedonií** a **depresivními stavy**.
-- **Útok na fakticitu**: gaslighting jako **falsifikace minulosti** — "to se nestalo".
-- **Útok na angažmá**: cynismus jako **rozpojení** od jsoucího — vše je "pouze hra", nic skutečně neuvazuje.
+- **Útok na projektivitu**: techniky, jež **paralyzují** schopnost projektovat budoucnost („není žádná budoucnost“, fatalistický framing). Strukturálně související s **anhedonií** a **depresivními stavy**.
+- **Útok na fakticitu**: gaslighting jako **falsifikace minulosti** — „to se nestalo“.
+- **Útok na angažmá**: cynismus jako **rozpojení** od jsoucího — vše je „pouze hra“, nic skutečně neuvazuje.
 
 ## 4. *Verfallenheit* (Upadlost) a *das Man*
 
-Heidegger popisuje **modus neautentického pobývání** — *Verfallenheit*, "upadlost" do anonymní konformity *das Man* ("ono se říká"). Subjekt přestává být **vlastní**, stává se **funkcionářem** kolektivních klišé.
+Heidegger popisuje **modus neautentického pobývání** — *Verfallenheit*, „upadlost“ do anonymní konformity *das Man* („ono se říká“). Subjekt přestává být **vlastní**, stává se **funkcionářem** kolektivních klišé.
 
 Pro EA má tato analýza **specifickou diagnostickou hodnotu**:
 
-- **Falešný konsensus** ([EA-2.4](@/kompendium/techniques/ea-2-4-falesny-konsensus.md)) operuje strukturálně skrze *das Man*: "to se říká", "tak se to dělá", "všichni přece vědí".
-- **Algoritmická amplifikace** sociálních sítí strukturálně **amplifikuje** *das Man* — virální klišé jsou předkládána jako "kolektivní hlas".
-- Heideggerovo *Gerede* ("tlachání") přesně popisuje současnou pozornostní ekonomii — povrchní, neanalyzovaná řeč, jež se **šíří**, aniž by **něco skutečně sdělovala**.
+- **Falešný konsensus** ([EA-2.4](@/kompendium/techniques/ea-2-4-falesny-konsensus.md)) operuje strukturálně skrze *das Man*: „to se říká“, „tak se to dělá“, „všichni přece vědí“.
+- **Algoritmická amplifikace** sociálních sítí strukturálně **amplifikuje** *das Man* — virální klišé jsou předkládána jako „kolektivní hlas“.
+- Heideggerovo *Gerede* („tlachání“) přesně popisuje současnou pozornostní ekonomii — povrchní, neanalyzovaná řeč, jež se **šíří**, aniž by **něco skutečně sdělovala**.
 
 ## 5. *Eigentlichkeit* (Vlastnost) a úzkost
 
@@ -98,7 +98,7 @@ Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.
 Kompendium absorbuje Heideggerovy diagnostické nástroje, ale **odbočuje** od něho ve **třech bodech**:
 
 1. **Politická kompromitovanost**: Heideggerovo členství v NSDAP a *Černé sešity* odkrývají strukturální propojení jeho filozofie s antisemitismem. Kompendium tuto historii **nezamlčuje** a kriticky reflektuje, jak Heideggerova kritika *das Man* mohla být zneužita pro autoritářský projekt.
-2. **Rezignace na normativitu**: Heideggerovo odmítnutí etiky jako "metafyzické" zanechává prostor pro autoritářskou volbu. Kompendium se vrací k **Habermasovskému** normativnímu kritériu ([viz 7.1 §4](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)).
+2. **Rezignace na normativitu**: Heideggerovo odmítnutí etiky jako „metafyzické“ zanechává prostor pro autoritářskou volbu. Kompendium se vrací k **Habermasovskému** normativnímu kritériu ([viz 7.1 §4](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)).
 3. **Antimoderní gesto**: Heideggerova kritika techniky (*Die Frage nach der Technik*, 1953) je v pozdní recepci antimoderní. Kompendium technologii ne **zatracuje**, ale **kriticky reformuje**.
 
 ## 8. Primární literatura

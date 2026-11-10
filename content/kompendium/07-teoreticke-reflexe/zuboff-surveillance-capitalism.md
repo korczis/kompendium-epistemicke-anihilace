@@ -97,7 +97,7 @@ Zuboff popisuje **apatický pakt** (*deal with the devil*): uživatelé struktur
 Strukturální mechanismus:
 
 - **Asymetrie informací**: uživatel **neví**, co platforma sbírá
-- **Asymetrie moci**: i pokud věděl, **nemohl by** smysluplně **odmítnout** ("take it or leave it")
+- **Asymetrie moci**: i pokud věděl, **nemohl by** smysluplně **odmítnout** („take it or leave it“)
 - **Strukturální dependence**: digital platforms se staly strukturálně **nutné** pro fungování v moderní společnosti
 
 Pro EA z toho plyne:
@@ -135,8 +135,8 @@ Zuboff má **silnou** politickou pozici:
 
 - Zuboff, S. (2019). *The Age of Surveillance Capitalism*. PublicAffairs.
 - Zuboff, S. (1988). *In the Age of the Smart Machine*. Basic Books.
-- Zuboff, S. (2015). "Big Other: Surveillance Capitalism and the Prospects of an Information Civilization". *Journal of Information Technology* 30.
-- Zuboff, S. (2022). "Surveillance Capitalism or Democracy?". *New Labor Forum* 31.
+- Zuboff, S. (2015). „Big Other: Surveillance Capitalism and the Prospects of an Information Civilization“. *Journal of Information Technology* 30.
+- Zuboff, S. (2022). „Surveillance Capitalism or Democracy?“. *New Labor Forum* 31.
 
 ## Související
 
@@ -158,4 +158,5 @@ Zuboff má **silnou** politickou pozici:
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis)** | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+
 - [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -31,11 +31,11 @@ Záznam **Dual Use** se vztahuje k širším etickým a metodologickým otázká
 ## Cross-reference
 
 Pro praktické použití **Dual Use** konzultujte:
+
 - [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) (pokud je relevantní)
 - [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Detection signatures](@/kompendium/detection-signatures/_index.md)
 <!-- EXPANDED:PHASE11 -->
-
 
 ## See Also
 
@@ -49,7 +49,6 @@ Pro praktické použití **Dual Use** konzultujte:
 ## Manažerské shrnutí
 
 **Dual Use** je aktivní uzel taxonomického grafu sekce `kompendium/08-prilohy` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
-
 
 ## Koncepční síť
 

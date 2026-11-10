@@ -38,42 +38,43 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 **Husserlovská redukce — perverze** je metatranscendentální technika, jíž je legitimní fenomenologická operace **epoché** (uzávorkování přirozeného postoje) zneužita ke generaci **trvalé derealizace** subjektu. Husserlova *epoché* je metodologickým nástrojem k odhalení **intencionálních struktur**; perverze tuto operaci redukuje na **fenomenologickou paralýzu**, kde uzávorkování se stává trvalým modem zkušenosti, nikoli reflexivním nástrojem.
 
 Husserl explicitně rozlišoval:
+
 - *Phaenomenologische Reduktion* — metodologický akt odložení existenciální teze přirozeného postoje.
 - *Lebenswelt* — předreflexivní svět praktické zkušenosti, k němuž se vždy navracíme.
 
 Korektní *epoché* je **dočasná** — slouží k odhalení struktury a po jejím odhalení se vědomí vrací k integrovanému praktickému fungování. Perverzní redukce **udržuje uzávorkování permanentně**, takže přirozený postoj se rozpadá a subjekt zůstává v stavu strukturní derealizace.
 
-Subjekt v terminálním stadiu prožívá svět skrze chronické "závorky" — věci se nezobrazují jako *jsoucí*, ale jako *zdánlivé*, *konstruované*, *uzávorkované*. Praktická angažovanost selhává, protože každý akt je předem "zredukován" před samotným jednáním.
+Subjekt v terminálním stadiu prožívá svět skrze chronické „závorky“ — věci se nezobrazují jako *jsoucí*, ale jako *zdánlivé*, *konstruované*, *uzávorkované*. Praktická angažovanost selhává, protože každý akt je předem „zredukován“ před samotným jednáním.
 
 ## Operační modus
 
 ### Krok 1 — Pseudo-fenomenologická indoktrinace
 
-Subjekt je uveden do husserlovské terminologie s **chybějícím důrazem na metodologický status epoché**. *Epoché* je prezentována jako "spirituální praxe" nebo "trvalý modus" místo jako reflexivní nástroj.
+Subjekt je uveden do husserlovské terminologie s **chybějícím důrazem na metodologický status epoché**. *Epoché* je prezentována jako „spirituální praxe“ nebo „trvalý modus“ místo jako reflexivní nástroj.
 
 ### Krok 2 — Permanentní uzávorkování
 
-Subjekt je veden k **trvalému provádění epoché** — ke každé zkušenosti přistupovat se "závorkami". Klíčová instrukce: *"Nikdy nevěř existenciální tezi přirozeného postoje."*
+Subjekt je veden k **trvalému provádění epoché** — ke každé zkušenosti přistupovat se „závorkami“. Klíčová instrukce: *„Nikdy nevěř existenciální tezi přirozeného postoje.“*
 
 ### Krok 3 — Destrukce Lebenswelt
 
-Husserlův pozdní koncept *životního světa* — předreflexivního pole praktické zkušenosti — je systematicky podlamován. Subjekt přestává prožívat svět **jako svůj domov** (Heimwelt) a vidí jej jako "konstrukt".
+Husserlův pozdní koncept *životního světa* — předreflexivního pole praktické zkušenosti — je systematicky podlamován. Subjekt přestává prožívat svět **jako svůj domov** (Heimwelt) a vidí jej jako „konstrukt“.
 
 ### Krok 4 — Pseudo-Wesensschau
 
-Subjekt je veden k údajné Wesensschau ("nahlédnutí podstaty") na bázi **trvale uzávorkované zkušenosti**. Výsledné "esence" jsou strukturně iluzorní.
+Subjekt je veden k údajné Wesensschau („nahlédnutí podstaty“) na bázi **trvale uzávorkované zkušenosti**. Výsledné „esence“ jsou strukturně iluzorní.
 
-### Krok 5 — Konsolidace derealizace jako "filozofického vhledu"
+### Krok 5 — Konsolidace derealizace jako „filozofického vhledu“
 
-Stav permanentní derealizace je etablován jako **"vyšší fenomenologický postoj"**. Identitární investice činí návrat ke přirozenému postoji psychologicky obtížným.
+Stav permanentní derealizace je etablován jako **„vyšší fenomenologický postoj“**. Identitární investice činí návrat ke přirozenému postoji psychologicky obtížným.
 
 ## Fenomenologické znaky
 
-- **Chronická derealizace** — věci jsou prožívány jako "zdánlivé", "uzávorkované".
-- **Praktická paralýza** — neschopnost angažovaně jednat, protože každý akt je "zredukován".
-- **Pseudo-fenomenologická melancholie** — pocit, že "skutečný svět je ztracen".
+- **Chronická derealizace** — věci jsou prožívány jako „zdánlivé“, „uzávorkované“.
+- **Praktická paralýza** — neschopnost angažovaně jednat, protože každý akt je „zredukován“.
+- **Pseudo-fenomenologická melancholie** — pocit, že „skutečný svět je ztracen“.
 - **Slovní intelektualizace** maskující strukturální derealizaci.
-- **Lingvistická referenční nestabilita** — slova přetrvávají, ale referují k "uzávorkovaným" jevům.
+- **Lingvistická referenční nestabilita** — slova přetrvávají, ale referují k „uzávorkovaným“ jevům.
 - **Postupná ztráta lebensweltové orientace** — domácí prostředí přestává být domácí.
 
 ## Detekční markery
@@ -110,7 +111,7 @@ Husserlovská redukce — perverze je odlišitelná od:
 
 1. **Korektní husserlovská hermeneutika** — výklad metodologického statusu epoché.
 2. **Lebensweltová obnova** — explicitní praxe návratu k praktickému postoji.
-3. **Pragmatistická korekce** — Jamesovo a Deweyovo "ponoření do žitého světa".
+3. **Pragmatistická korekce** — Jamesovo a Deweyovo „ponoření do žitého světa“.
 4. **Tělesná zakotvenost** — Merleau-Pontyovská *chair* jako antidotum derealizace.
 
 ### Institucionální

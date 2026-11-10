@@ -31,7 +31,7 @@ Enaktivistická pozice: organismus **konstruuje** smysluplný svět **skrze akti
 
 Pro EA z toho plyne:
 
-- **Anti-reprezentacionalismus**: techniky operující skrze **manipulaci reprezentací** (například propaganda jako "obrázky v hlavě") jsou strukturálně **redukcionistické**.
+- **Anti-reprezentacionalismus**: techniky operující skrze **manipulaci reprezentací** (například propaganda jako „obrázky v hlavě“) jsou strukturálně **redukcionistické**.
 - **EA jako strukturální narušení interakce**: techniky, jež **omezují** subjektovu kapacitu **aktivního zacházení** s environmentem, strukturálně podkopávají kognici.
 - **Filter bubbles** strukturálně narušují enaktivistickou interakci — uživatel **nemůže** plně **enactovat** smysluplný svět, neboť environment je předem **kurátorovaný**.
 
@@ -116,9 +116,9 @@ Pro Prismatic platformu má enaktivismus **specifickou** relevanci:
 ## 9. Primární literatura
 
 - Varela, F., Thompson, E. & Rosch, E. (1991/2017). *The Embodied Mind*. MIT Press (revised ed.).
-- Varela, F. (1996). "Neurophenomenology: A Methodological Remedy for the Hard Problem". *Journal of Consciousness Studies* 3.
+- Varela, F. (1996). „Neurophenomenology: A Methodological Remedy for the Hard Problem“. *Journal of Consciousness Studies* 3.
 - Maturana, H. & Varela, F. (1980). *Autopoiesis and Cognition*. Reidel.
-- De Jaegher, H. & Di Paolo, E. (2007). "Participatory Sense-Making". *Phenomenology and the Cognitive Sciences* 6.
+- De Jaegher, H. & Di Paolo, E. (2007). „Participatory Sense-Making“. *Phenomenology and the Cognitive Sciences* 6.
 - Hutto, D. & Myin, E. (2013). *Radicalizing Enactivism*. MIT Press.
 
 ## Související

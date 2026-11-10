@@ -44,7 +44,7 @@ Pro EA má toto rozlišení **trojí relevanci**:
 
 ## 3. *Chair* (Maso)
 
-Pozdní Merleau-Ponty (*Le Visible et l'Invisible*, posmrtně 1964) rozvíjí pojem **chair** ("maso") jako **ontologickou kategorii**: maso není **substance**, ale **textura** prolínání **vidoucího a viděného**, **dotýkajícího a dotýkaného**, **vlastního a cizího**.
+Pozdní Merleau-Ponty (*Le Visible et l'Invisible*, posmrtně 1964) rozvíjí pojem **chair** („maso“) jako **ontologickou kategorii**: maso není **substance**, ale **textura** prolínání **vidoucího a viděného**, **dotýkajícího a dotýkaného**, **vlastního a cizího**.
 
 Maso je strukturální **otevřenost** subjektu vůči světu — ani plné rozlišení, ani plná identita. Vidoucí oko je **současně** viditelné, dotýkající se ruka je **současně** dotýkaná.
 
@@ -56,7 +56,7 @@ Pro EA má pojem chair **specifický význam**:
 
 ## 4. Intersubjektivita a *style*
 
-Merleau-Ponty popisuje intersubjektivitu jako **původní vzájemné** zapuštění subjektů do sdíleného **stylu** chování, mluvení, vnímání. Druhý člověk **není** primárně objektem inference ("jak vím, že má vědomí?"), ale **stylem**, jejž bezprostředně **rozumím**.
+Merleau-Ponty popisuje intersubjektivitu jako **původní vzájemné** zapuštění subjektů do sdíleného **stylu** chování, mluvení, vnímání. Druhý člověk **není** primárně objektem inference („jak vím, že má vědomí?“), ale **stylem**, jejž bezprostředně **rozumím**.
 
 Pro EA z toho plyne:
 
@@ -88,7 +88,7 @@ Pro EA má tělesné schéma **diagnostickou hodnotu**:
 
 Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
-- **Somatický fundament** terapie: žádná čistě "kognitivní" terapie nemůže zacházet s traumatem bez ohledu na tělo.
+- **Somatický fundament** terapie: žádná čistě „kognitivní“ terapie nemůže zacházet s traumatem bez ohledu na tělo.
 - **Dýchání, pohyb, dotek** jako primární terapeutické modality (zejména pro pre-verbální trauma).
 - **Klinická pozornost** k tělesnému schématu pacienta — jak obývá vlastní tělo? jak se pohybuje v prostoru? jaké je jeho napětí?
 

@@ -76,7 +76,7 @@ Tyto tři zdroje jsou **strukturálně napjaté** — v moderní subjektivitě *
 
 Pro EA z toho plyne:
 
-- **Manipulace skrze konflikt zdrojů**: techniky, jež **amplifikují** konflikt mezi zdroji ("věda vs. víra", "racionalita vs. intuice"), strukturálně **destabilizují** identitu.
+- **Manipulace skrze konflikt zdrojů**: techniky, jež **amplifikují** konflikt mezi zdroji („věda vs. víra“, „racionalita vs. intuice“), strukturálně **destabilizují** identitu.
 - **Riziko inflace jednoho zdroje**: scientistická redukce ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)), spirituální regrese, romantický eskapismus — všechny strukturálně **nedostatečné**.
 
 ## 5. Politika rozpoznání
@@ -120,7 +120,7 @@ V *A Secular Age* (2007) Taylor rozšiřuje analýzu na **podmínky** moderního
 
 - Taylor, C. (1989/2001). *Sources of the Self: The Making of the Modern Identity*. Harvard UP.
 - Taylor, C. (1991/1992). *The Ethics of Authenticity*. Harvard UP.
-- Taylor, C. (1992). "The Politics of Recognition". In: *Multiculturalism*. Princeton UP.
+- Taylor, C. (1992). „The Politics of Recognition“. In: *Multiculturalism*. Princeton UP.
 - Taylor, C. (2007). *A Secular Age*. Belknap Press.
 - Abbey, R. (2000). *Charles Taylor*. Acumen.
 

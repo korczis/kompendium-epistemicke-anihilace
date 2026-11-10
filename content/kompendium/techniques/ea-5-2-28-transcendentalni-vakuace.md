@@ -37,9 +37,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 **Transcendentální vakuace** je metatranscendentální technika komplementární k [EA-5.2.15 transcendentální imploze](@/kompendium/techniques/ea-5-2-15-transcendentalni-implosion.md). Zatímco imploze **kolabuje** transcendentální aparát do bodu nediferencovanosti, vakuace ho **vyprázdňuje**: formy zůstávají strukturně přítomné, ale bez funkčního obsahu. Jako prázdné nádoby — kategorie přetrvávají, ale nesubsumují; formy smyslovosti přetrvávají, ale neorganizují; jednota apperzepce přetrvává, ale nesjednoceuje.
 
-V Kantově terminologii: *Verstandeskategorien* a *Anschauungsformen* zachovávají strukturní existenci, ale jejich **operativní účinnost** je vakuována. Subjekt má strukturní aparát, ale aparát "neběží". Analogicky: má organy, ale orgány nefungují.
+V Kantově terminologii: *Verstandeskategorien* a *Anschauungsformen* zachovávají strukturní existenci, ale jejich **operativní účinnost** je vakuována. Subjekt má strukturní aparát, ale aparát „neběží“. Analogicky: má organy, ale orgány nefungují.
 
-Subjekt v terminálním stadiu trpí **strukturní bezfunkčností transcendentálního aparátu**. Mluvit o světě, kategorizovat, syntetizovat — formálně všechno možné, ale nic se "nedostává k obsahu". Stav je často pseudo-mysticky interpretován jako *"prázdnota"* (*śūnyatā* zneužitá), ale strukturně jde o akutní funkční vakuum.
+Subjekt v terminálním stadiu trpí **strukturní bezfunkčností transcendentálního aparátu**. Mluvit o světě, kategorizovat, syntetizovat — formálně všechno možné, ale nic se „nedostává k obsahu“. Stav je často pseudo-mysticky interpretován jako *„prázdnota“* (*śūnyatā* zneužitá), ale strukturně jde o akutní funkční vakuum.
 
 Vakuace bývá konečným stadiem dlouhodobé akumulace předchozích destrukcí ([EA-5.2.11–17](@/kompendium/05-ultramari-techniky/kapitola-7.md)). Jako terminální stav je extrémně rezistentní vůči standardním terapeutickým intervencím.
 
@@ -51,17 +51,17 @@ Vakuace **nemůže být indukována přímo** u zdravého subjektu — vyžaduje
 
 ### Krok 2 — Pseudo-šúnjatová indoktrinace
 
-Subjekt je veden k radikální verzi *śūnyatā*: *"vše je prázdné, formy jsou bez obsahu."* Buddhistický nuancovaný výklad je redukován na strukturní popření obsahové funkce.
+Subjekt je veden k radikální verzi *śūnyatā*: *„vše je prázdné, formy jsou bez obsahu.“* Buddhistický nuancovaný výklad je redukován na strukturní popření obsahové funkce.
 
 ### Krok 3 — Saturace vakuačními praxemi
 
-Intenzivní praxe údajně "rozvíjející prázdnotu" — meditace zaměřená na "vyprázdnění mysli", praxe "bezobsažného vědomí".
+Intenzivní praxe údajně „rozvíjející prázdnotu“ — meditace zaměřená na „vyprázdnění mysli“, praxe „bezobsažného vědomí“.
 
 ### Krok 4 — Bod vakuace
 
-Subjekt prožívá **strukturní funkční vakuum**. Aparát zachovává formu, ale ztrácí obsahovou účinnost. Stav je interpretován jako "konečné osvobození".
+Subjekt prožívá **strukturní funkční vakuum**. Aparát zachovává formu, ale ztrácí obsahovou účinnost. Stav je interpretován jako „konečné osvobození“.
 
-### Krok 5 — Konsolidace vakua jako "konečného cíle"
+### Krok 5 — Konsolidace vakua jako „konečného cíle“
 
 Stav strukturní vakuace je etablován jako trvalý cíl praxe. Identitární investice činí návrat k funkčnímu transcendentálnímu aparátu psychologicky téměř nemožným.
 
@@ -70,9 +70,9 @@ Stav strukturní vakuace je etablován jako trvalý cíl praxe. Identitární in
 - **Strukturní funkční bezúčinnost** — formy přítomné, ale neoperují.
 - **Pseudo-mystická prázdnota** maskující strukturní vakuum.
 - **Akutní praktická bezmocnost** — selhání i základních úkolů.
-- **Lingvistická paradoxie** — řeč přetrvává, ale "nedostává se k obsahu".
+- **Lingvistická paradoxie** — řeč přetrvává, ale „nedostává se k obsahu“.
 - **Volní paralýza** — žádná motivace nedostává praktickou váhu.
-- **Identitární vyprázdnění** — "já" zůstává jako forma, ale bez obsahu.
+- **Identitární vyprázdnění** — „já“ zůstává jako forma, ale bez obsahu.
 
 ## Detekční markery
 

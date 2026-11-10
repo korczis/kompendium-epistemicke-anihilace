@@ -123,7 +123,6 @@ Technika **axiologická inverze** představuje strukturální výzvu pro defenzi
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Schelerova **fenomenologie hodnot** (*Der Formalismus in der Ethik und die materiale Wertethik*) — hierarchie hodnot je dána materiálně, nikoli formálně — je systematicky převrácena. Levinasova **éthique comme philosophie première** identifikuje hodnotu druhého jako pre-ontologickou — manipulátor instrumentalizuje tuto pasivní pre-ontologii. Ricoeurova **éthique-morale-sagesse** trojvrstva (*Soi-même comme un autre*) je ne-koherentně přepojena. Heideggerovo **Sorge** (*Sein und Zeit*) jako základní strukturní rys péče je oddělen od svého ontologického základu. Damasiovy **sociální emoce** (stud, vina, hrdost) ztrácejí kalibraci. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

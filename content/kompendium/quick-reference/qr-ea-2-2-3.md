@@ -23,14 +23,14 @@ toc = false
 ## Operační modus (3 kroky)
 
 1. Mentor postupně přesouvá tematické směřování dizertace tak, aby výsledek primárně sloužil jeho vlastní agendě (granty, publikační linie, politické pozice)
-2. Modifikace jsou prezentovány jako "vědecká rada", odmítnutí jako "neporozumění oboru"; mentee ztrácí ownership tématu
+2. Modifikace jsou prezentovány jako „vědecká rada“, odmítnutí jako „neporozumění oboru“; mentee ztrácí ownership tématu
 3. Po obhajobě je mentee držen v projektu pokračujícím v zachycené linii; vlastní výzkumná identita zaniká
 
 ## Detekční markery (3 nejvýraznější)
 
-- Téma na začátku doktorátu a téma při obhajobě mají odlišný objekt zkoumání, přitom mentee popisuje proces jako "zrání"
+- Téma na začátku doktorátu a téma při obhajobě mají odlišný objekt zkoumání, přitom mentee popisuje proces jako „zrání“
 - Citace v dizertaci jsou převážně z mentorovy laboratoře — výzkumný horizont mentee zúžen
-- Mentee neumí formulovat "co je MOJE specifická kontribuce", odpovídá obecně "rozšířili jsme..."
+- Mentee neumí formulovat „co je MOJE specifická kontribuce“, odpovídá obecně „rozšířili jsme…“
 
 ## Neutralizační strategie (3 nejúčinnější)
 
@@ -40,7 +40,7 @@ toc = false
 
 ## Příklad
 
-Doktorand začínal s tématem "behavioral ecology of urban birds", po čtyřech letech obhajuje "telomere length in passerines under stress" — mentorovo téma s grantem. Klade si otázku, kdy se ztratil, ale nemá záznam, žádný checkpoint, kde by změna byla explicitní.
+Doktorand začínal s tématem „behavioral ecology of urban birds“, po čtyřech letech obhajuje „telomere length in passerines under stress“ — mentorovo téma s grantem. Klade si otázku, kdy se ztratil, ale nemá záznam, žádný checkpoint, kde by změna byla explicitní.
 
 ## Cross-linky
 

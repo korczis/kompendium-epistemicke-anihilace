@@ -75,9 +75,9 @@ V terminálním stadiu operátor nabízí **strukturu**, jež zaplní vakuum: id
 
 ## Fenomenologické znaky
 
-- **Pocit hlubokého vhledu** v raných fázích — "konečně jsem prohlédl"
-- **Závrať** v středních fázích — "nic není pevné"
-- **Únava** v pozdních fázích — "už nemohu pochybovat dál"
+- **Pocit hlubokého vhledu** v raných fázích — „konečně jsem prohlédl“
+- **Závrať** v středních fázích — „nic není pevné“
+- **Únava** v pozdních fázích — „už nemohu pochybovat dál“
 - **Subjektivní vděk** vůči nabízené struktuře v terminálním stadiu
 - **Inkapacita** kriticky vyhodnotit nabízenou strukturu — chybí nástroje
 - **Estetizace stavu** — vakuum prožíváno jako moudrost, ne jako porucha
@@ -127,7 +127,7 @@ Periodicky reflektuj: **na čem stavím?** Explicitní katalog vlastních episte
 
 #### 2. **Pravidlo nepřenášení autority**
 
-Pokud jediný zdroj systematicky podkopává **všechny ostatní** zdroje, je to detekční marker. **Zdrojová** epistemologie ("důvěřuj zejména mně") je sama o sobě podezřelá.
+Pokud jediný zdroj systematicky podkopává **všechny ostatní** zdroje, je to detekční marker. **Zdrojová** epistemologie („důvěřuj zejména mně“) je sama o sobě podezřelá.
 
 #### 3. **Externí epistemická triangulace**
 
@@ -139,7 +139,7 @@ Ptej se: zpochybňuje současný diskurz **všechny** základny **rovnoměrně**
 
 #### 5. **Princip provizorní funkčnosti**
 
-I uvnitř filosofické pochybnosti drž minimální **funkční** epistemiku: "nevím, jestli mé smysly jsou principiálně spolehlivé, ale **provizorně** s nimi pracuji jako kdyby byly". Princip provizornosti uchovává operativní nástroje i během reflexivní krize.
+I uvnitř filosofické pochybnosti drž minimální **funkční** epistemiku: „nevím, jestli mé smysly jsou principiálně spolehlivé, ale **provizorně** s nimi pracuji jako kdyby byly“. Princip provizornosti uchovává operativní nástroje i během reflexivní krize.
 
 ### Institucionální
 
@@ -154,11 +154,11 @@ I uvnitř filosofické pochybnosti drž minimální **funkční** epistemiku: "n
 
 ### Případ 1 — Sektářská konverze
 
-Subjekt po dvouletém kontaktu s charismatickou skupinou popsal proces: "Postupně mi došlo, že rodiče i učitelé i knihy lhali. Pak mi došlo, že mé vlastní vzpomínky jsou nepřesné. Pak že intuice klamou. Pak že vědci jsou v zajetí paradigmatu. Pak — najednou — bylo jen Učení a Mistr." Po vystoupení trvala rekonstrukce epistemických základen čtyři roky.
+Subjekt po dvouletém kontaktu s charismatickou skupinou popsal proces: „Postupně mi došlo, že rodiče i učitelé i knihy lhali. Pak mi došlo, že mé vlastní vzpomínky jsou nepřesné. Pak že intuice klamou. Pak že vědci jsou v zajetí paradigmatu. Pak — najednou — bylo jen Učení a Mistr.“ Po vystoupení trvala rekonstrukce epistemických základen čtyři roky.
 
 ### Případ 2 — Online radikalizace
 
-Mladý muž po roce intenzivní konzumace radikálního obsahu nedovedl pojmenovat, **na čem** zakládá své současné pozice — odpovídal pouze, že "konvenční zdroje jsou kompromitované". Bez pevných základen byl ochoten akceptovat jakékoli další tvrzení odpovídající ideologickému rámci.
+Mladý muž po roce intenzivní konzumace radikálního obsahu nedovedl pojmenovat, **na čem** zakládá své současné pozice — odpovídal pouze, že „konvenční zdroje jsou kompromitované“. Bez pevných základen byl ochoten akceptovat jakékoli další tvrzení odpovídající ideologickému rámci.
 
 ### Případ 3 — Akademický postmoderní extrém
 
@@ -169,7 +169,7 @@ PhD studentka po dlouhodobém vystavení radikální variantě postmoderní teor
 ### Často se kombinuje s
 
 - **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — afektivní vazba k operátorovi je psychologickým motorem akceptace nabízené struktury.
-- **[EA-1.6.1 Vzorec "Guru a adept"](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)** — vakuace produkuje strukturální vakuum, jež guru zaplní.
+- **[EA-1.6.1 Vzorec „Guru a adept“](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)** — vakuace produkuje strukturální vakuum, jež guru zaplní.
 - **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — externí zdroje, jež by destabilizaci kompenzovaly, jsou ze subjektova horizontu odstraněny.
 
 ### Návazné techniky
@@ -206,7 +206,6 @@ PhD studentka po dlouhodobém vystavení radikální variantě postmoderní teor
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

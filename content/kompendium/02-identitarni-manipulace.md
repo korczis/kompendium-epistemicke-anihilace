@@ -28,7 +28,6 @@ V kontextu Prismatic Platform se **02 Identitarni Manipulace** používá ve spo
 Pro detailní informace konzultujte cross-link síť (sekce *Související pojmy* a *Navigace* níže).
 <!-- EXPANDED:PHASE11 -->
 
-
 ## See Also
 
 - [Parent section](@/kompendium/_index.md)
@@ -41,7 +40,6 @@ Pro detailní informace konzultujte cross-link síť (sekce *Související pojmy
 ## Manažerské shrnutí
 
 **02 Identitarni Manipulace** je aktivní uzel taxonomického grafu sekce `kompendium` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
-
 
 ## Koncepční síť
 

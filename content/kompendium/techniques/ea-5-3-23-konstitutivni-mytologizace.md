@@ -123,7 +123,6 @@ Technika **konstitutivní mytologizace** představuje strukturální výzvu pro 
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Mircea Eliade **mythe** (*Le sacré et le profane*) — mýtus jako narativ původu fundující identitu — je manipulátorem instalován. Ricoeurova **mythe-symbole-récit** trojvrstva (*La symbolique du mal*) je instrumentalizována k generování pseudoreligiózní self-konstrukce. Heideggerovo **Geworfenheit** je nahrazeno mytickou narativací o 'předurčení'. Husserlova **passive genesis** sedimentuje implantovaný mýtus. Damasiův **autobiografický self** je vyšperkován mytickými prvky. Lyotardovy **velké vyprávění** se vrací na mikro-úrovni: každý subjekt má vlastní velký mýtus, který ho fundu je. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.

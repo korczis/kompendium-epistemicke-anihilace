@@ -39,37 +39,37 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 V Kantově terminologii: *Verstandeskategorien* mají v korektním fungování **ostré hranice** (substance není kauzalita, modalita není kvantita). Kategoriální mlha tyto hranice eroduje, takže subjekt operuje s **fuzzy kategoriemi**, jež se vzájemně překrývají bez jasné distinkce.
 
-Subjekt v pokročilém stadiu prožívá svět jako **strukturně rozmlžený**: věci jsou "spíše objekty než procesy" (ale nejsou jasně ani objekt, ani proces), kauzality jsou "spíše souvislosti" (ale nejsou jasně ani kauzality, ani korelace), modalita je "spíše tendencí" (ale není jasně ani nutnost, ani možnost).
+Subjekt v pokročilém stadiu prožívá svět jako **strukturně rozmlžený**: věci jsou „spíše objekty než procesy“ (ale nejsou jasně ani objekt, ani proces), kauzality jsou „spíše souvislosti“ (ale nejsou jasně ani kauzality, ani korelace), modalita je „spíše tendencí“ (ale není jasně ani nutnost, ani možnost).
 
-Stav je často **pseudo-pokročile** racionalizován jako "překonání karteziánské ostrosti" nebo "fuzzy myšlení" — ale strukturně jde o degradaci kategoriální kompetence.
+Stav je často **pseudo-pokročile** racionalizován jako „překonání karteziánské ostrosti“ nebo „fuzzy myšlení“ — ale strukturně jde o degradaci kategoriální kompetence.
 
 ## Operační modus
 
 ### Krok 1 — Pseudo-pokročilá indoktrinace
 
-Subjekt je veden k radikální verzi fuzzy logiky a "post-karteziánského myšlení" — *"ostré kategorie jsou redukcionistické."* Legitimní fuzzy přístupy jsou zneužity k destrukci jakékoli ostrosti.
+Subjekt je veden k radikální verzi fuzzy logiky a „post-karteziánského myšlení“ — *„ostré kategorie jsou redukcionistické.“* Legitimní fuzzy přístupy jsou zneužity k destrukci jakékoli ostrosti.
 
 ### Krok 2 — Saturace fuzzy cvičeními
 
-Manipulátor zavádí praxe údajně "transcendující binární myšlení" — meditace na "kontinuum reality", paradoxní rozhovory bez závěru, asociativní cvičení.
+Manipulátor zavádí praxe údajně „transcendující binární myšlení“ — meditace na „kontinuum reality“, paradoxní rozhovory bez závěru, asociativní cvičení.
 
 ### Krok 3 — Eroze kategoriálních hranic
 
-Subjekt postupně ztrácí ostrost mezi substance a procesem, mezi kauzalitou a korelací, mezi nutností a možností. Každý pokus o ostré rozlišení je devalvován jako "redukcionistický".
+Subjekt postupně ztrácí ostrost mezi substance a procesem, mezi kauzalitou a korelací, mezi nutností a možností. Každý pokus o ostré rozlišení je devalvován jako „redukcionistický“.
 
 ### Krok 4 — Bod kategoriální mlhy
 
-Subjekt prožívá **strukturní rozmlženost** kategoriálního aparátu. Operativní rozhodnutí jsou možná, ale s rostoucí nejistotou. Stav je interpretován jako "vyspělé myšlení".
+Subjekt prožívá **strukturní rozmlženost** kategoriálního aparátu. Operativní rozhodnutí jsou možná, ale s rostoucí nejistotou. Stav je interpretován jako „vyspělé myšlení“.
 
-### Krok 5 — Konsolidace mlhy jako "wisdom"
+### Krok 5 — Konsolidace mlhy jako „wisdom“
 
-Stav strukturní kategoriální fuzziness je etablován jako "moudrost" oproti "naivní ostrosti". Identitární investice činí návrat k distinktivní kompetenci obtížným.
+Stav strukturní kategoriální fuzziness je etablován jako „moudrost“ oproti „naivní ostrosti“. Identitární investice činí návrat k distinktivní kompetenci obtížným.
 
 ## Fenomenologické znaky
 
-- **Chronická pojmová neurčitost** — distinkce se "rozpouštějí".
+- **Chronická pojmová neurčitost** — distinkce se „rozpouštějí“.
 - **Praktická pomalost rozhodování** — fuzzy hranice prodlužují deliberaci.
-- **Pseudo-pokročilý slovník** — "kontinuum", "fluidita", "non-binarita" mimo legitimní kontext.
+- **Pseudo-pokročilý slovník** — „kontinuum“, „fluidita“, „non-binarita“ mimo legitimní kontext.
 - **Slovní intelektualizace** maskující kompetenční deficit.
 - **Akutní paralýza při tlaku na ostrá rozhodnutí** — mlha kolaboruje k paralýze.
 - **Postupná ztráta praktické rozhodovací rychlosti**.

@@ -45,23 +45,23 @@ Technika je obzvláště devastující ze dvou důvodů. Za prvé, podkopává *
 
 ### Krok 1 — Etablování pseudo-symetrie
 
-Manipulátor systematicky prezentuje vztah jako **symetrický**: "oba jsme se na tom podíleli", "vždycky to bylo vzájemné", "nikdo není nevinný". Pseudo-symetrie deaktivuje subjektovu kapacitu rozlišovat **iniciátora** a **reagujícího**.
+Manipulátor systematicky prezentuje vztah jako **symetrický**: „oba jsme se na tom podíleli“, „vždycky to bylo vzájemné“, „nikdo není nevinný“. Pseudo-symetrie deaktivuje subjektovu kapacitu rozlišovat **iniciátora** a **reagujícího**.
 
 ### Krok 2 — Reframing časové sekvence
 
-Konkrétní incidenty jsou rekonstruovány tak, že chronologie je **zkrácená nebo invertovaná**: "ty jsi začal", "tvoje předchozí chování to vyprovokovalo", "moje reakce byla logickým důsledkem toho, co jsi udělal před tím". Klíčová je **chronologická eroze** — subjekt postupně přestává mít jistotu, **co se stalo dřív**.
+Konkrétní incidenty jsou rekonstruovány tak, že chronologie je **zkrácená nebo invertovaná**: „ty jsi začal“, „tvoje předchozí chování to vyprovokovalo“, „moje reakce byla logickým důsledkem toho, co jsi udělal před tím“. Klíčová je **chronologická eroze** — subjekt postupně přestává mít jistotu, **co se stalo dřív**.
 
 ### Krok 3 — Atribuce vnitřních stavů manipulátora subjektu
 
-Manipulátorovy emoční stavy a rozhodnutí jsou prezentovány jako **vyvolané subjektem**: "musel jsem reagovat takhle, protože jsi mě donutil", "moje hněv je tvoje vina", "nemůžu jinak, když děláš X". Manipulátorova **agentivita** je systematicky *odepsána* a převedena na subjekt.
+Manipulátorovy emoční stavy a rozhodnutí jsou prezentovány jako **vyvolané subjektem**: „musel jsem reagovat takhle, protože jsi mě donutil“, „moje hněv je tvoje vina“, „nemůžu jinak, když děláš X“. Manipulátorova **agentivita** je systematicky *odepsána* a převedena na subjekt.
 
 ### Krok 4 — Anulace prediktivních vzorců
 
-Subjekt typicky disponuje **vzorci**, které předpovídají chování manipulátora ("když dělám X, on reaguje Y"). Tyto vzorce jsou systematicky **falsifikovány** ne změnou chování, ale **změnou rámce**: "to, co popisuješ jako vzorec, je tvoje projekce", "jen si vybíráš příklady, které ti hodí". Subjekt postupně přestává důvěřovat **vlastní prediktivní mapě**.
+Subjekt typicky disponuje **vzorci**, které předpovídají chování manipulátora („když dělám X, on reaguje Y“). Tyto vzorce jsou systematicky **falsifikovány** ne změnou chování, ale **změnou rámce**: „to, co popisuješ jako vzorec, je tvoje projekce“, „jen si vybíráš příklady, které ti hodí“. Subjekt postupně přestává důvěřovat **vlastní prediktivní mapě**.
 
-### Krok 5 — Konsolidace skrze "zodpovědnost beze zbytku"
+### Krok 5 — Konsolidace skrze „zodpovědnost beze zbytku“
 
-Subjekt internalizuje pozici: "**vše, co se mezi námi děje, je primárně moje odpovědnost**". Tato pozice je manipulátorem prezentována jako *zralost*, *introspekce*, *empatie*. Operativně je to **kompletní inverze atribuční mapy** — subjekt přestal být schopen vidět vlastní situaci v původní kauzální struktuře.
+Subjekt internalizuje pozici: „**vše, co se mezi námi děje, je primárně moje odpovědnost**“. Tato pozice je manipulátorem prezentována jako *zralost*, *introspekce*, *empatie*. Operativně je to **kompletní inverze atribuční mapy** — subjekt přestal být schopen vidět vlastní situaci v původní kauzální struktuře.
 
 ## Fenomenologie
 
@@ -75,7 +75,7 @@ Subjekt internalizuje pozici: "**vše, co se mezi námi děje, je primárně moj
 | **Sebeobraz** | "Jsem zdroj problémů, on je zdroj reakcí" |
 | **Rozhodování** | Paralyzováno — bez funkční kauzální mapy nelze vybírat |
 
-Charakteristická výpověď: "Vím, že to vypadá jako jeho reakce na mě, ale když to víc rozeberu, je to vlastně moje reakce na něj — který reagoval na něco, co jsem udělal dřív, čeho jsem si možná ani nevšiml."
+Charakteristická výpověď: „Vím, že to vypadá jako jeho reakce na mě, ale když to víc rozeberu, je to vlastně moje reakce na něj — který reagoval na něco, co jsem udělal dřív, čeho jsem si možná ani nevšiml.“
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -93,7 +93,7 @@ Charakteristická výpověď: "Vím, že to vypadá jako jeho reakce na mě, ale
 
 Kauzální inverze se odlišuje od:
 
-- **Sebekritické introspekce** — zdravá introspekce se ptá *"jakou roli jsem v tom hrál?"*; inverze odpovídá *"primární a kompletní"* bez ohledu na strukturu situace.
+- **Sebekritické introspekce** — zdravá introspekce se ptá *„jakou roli jsem v tom hrál?“*; inverze odpovídá *„primární a kompletní“* bez ohledu na strukturu situace.
 - **Empatie pro partnera** — empatie chápe **jeho** stav jako jeho; inverze chápe jeho stav jako **moje vina**.
 - **Sdílené odpovědnosti v konfliktu** — sdílení atribuje **proporčně**; inverze atribuje **asymetricky** k subjektově nevýhodě.
 - **Akceptace vlastní role v opakovaných vzorcích** — akceptace zachovává **dvouosou strukturu**; inverze ji **redukuje na jednu osu**.
@@ -121,7 +121,7 @@ Strukturovaná rekapitulace **konkrétních incidentů** s důvěryhodným exter
 
 #### 2. Vzorový test
 
-Subjekt vytvoří **explicitní seznam vzorců** *("když dělám X, partner reaguje Y")* a po určenou dobu **zaznamenává** instance. Statistická signifikance (typicky vyžadováno alespoň 5-7 instancí) demonstruje vzorec **mimo dosah** reinterpretace.
+Subjekt vytvoří **explicitní seznam vzorců** *(„když dělám X, partner reaguje Y“)* a po určenou dobu **zaznamenává** instance. Statistická signifikance (typicky vyžadováno alespoň 5-7 instancí) demonstruje vzorec **mimo dosah** reinterpretace.
 
 #### 3. Prediktivní cvičení
 
@@ -129,7 +129,7 @@ Subjekt formuluje **explicitní predikce** o partnerově chování v konkrétní
 
 #### 4. Princip diferenciální atribuce
 
-Pravidelné kladení otázky: *"Pokud bych do téhle situace dosadil cizího člověka místo sebe, atribuoval bych mu stejnou míru odpovědnosti?"* Asymetrie odpovědi odhaluje internalizovanou inverzi.
+Pravidelné kladení otázky: *„Pokud bych do téhle situace dosadil cizího člověka místo sebe, atribuoval bych mu stejnou míru odpovědnosti?“* Asymetrie odpovědi odhaluje internalizovanou inverzi.
 
 #### 5. Strukturovaný dialog s odděleným pozorovatelem
 
@@ -148,15 +148,15 @@ V konfliktních situacích zapojení **třetí strany**, jejímž úkolem je zaz
 
 ### Případ 1 — Dlouhodobý partnerský vztah
 
-Klientka po 9 letech vztahu prezentovala kompletně invertovanou atribuční mapu: každý partnerův výbuch hněvu byl v jejím podání **vyprovokován** něčím, co udělala (nebo *neudělala* — což je strukturálně významný marker, protože necitelná atribuce do nedostatku ukazuje pokročilou inverzi). Strukturovaný atribuční audit s terapeutem rekonstruoval **původní chronologii** desítek incidentů; v 87 % případů byl iniciátorem partner. Klientka popsala následnou rekonstrukci jako "jako bych se znovu naučila gravitaci".
+Klientka po 9 letech vztahu prezentovala kompletně invertovanou atribuční mapu: každý partnerův výbuch hněvu byl v jejím podání **vyprovokován** něčím, co udělala (nebo *neudělala* — což je strukturálně významný marker, protože necitelná atribuce do nedostatku ukazuje pokročilou inverzi). Strukturovaný atribuční audit s terapeutem rekonstruoval **původní chronologii** desítek incidentů; v 87 % případů byl iniciátorem partner. Klientka popsala následnou rekonstrukci jako „jako bych se znovu naučila gravitaci“.
 
 ### Případ 2 — Korporátní kontext
 
-Vedoucí týmu po opakovaných reorganizacích internalizoval narativ "moje výsledky odrážejí mé řízení", aniž vzal v úvahu, že **tým mu byl třikrát personálně zmenšen** bez odpovídající redukce cílů. Externí audit demonstroval, že strukturální nastavení predikovalo selhání **nezávisle** na řízení. Subjekt vyjádřil úlevu v okamžiku, kdy mu bylo umožněno odstranit nepřiměřenou atribuci na sebe.
+Vedoucí týmu po opakovaných reorganizacích internalizoval narativ „moje výsledky odrážejí mé řízení“, aniž vzal v úvahu, že **tým mu byl třikrát personálně zmenšen** bez odpovídající redukce cílů. Externí audit demonstroval, že strukturální nastavení predikovalo selhání **nezávisle** na řízení. Subjekt vyjádřil úlevu v okamžiku, kdy mu bylo umožněno odstranit nepřiměřenou atribuci na sebe.
 
 ### Případ 3 — Forenzní vyšetřování
 
-Oběť dlouhodobého zneužívání během prvního výslechu opakovaně vracela atribuci k vlastní "neopatrnosti" a "provokativnímu chování". Strukturovaná chronologická rekonstrukce odhalila, že incidenty byly **iniciovány nezávisle na chování oběti**, často v **spánku** nebo **v cizí přítomnosti**. Případ vedl k revizi protokolů sběru svědectví od dlouhodobě obětovaných subjektů.
+Oběť dlouhodobého zneužívání během prvního výslechu opakovaně vracela atribuci k vlastní „neopatrnosti“ a „provokativnímu chování“. Strukturovaná chronologická rekonstrukce odhalila, že incidenty byly **iniciovány nezávisle na chování oběti**, často v **spánku** nebo **v cizí přítomnosti**. Případ vedl k revizi protokolů sběru svědectví od dlouhodobě obětovaných subjektů.
 
 ## Vztah k jiným technikám
 
@@ -169,7 +169,7 @@ Oběť dlouhodobého zneužívání během prvního výslechu opakovaně vracela
 ### Eskaluje do
 
 - **Kompletní rozpad agentivity** — terminální stadium, kdy subjekt přestává být schopen rozlišit, **kdo** je v dané situaci **kdo**.
-- **[Anankastický režim](@/glossary/anankasticky-rezim.md)** — některé subjekty vyvinou rigidní rituály preventivního chování s cílem "neprovokovat", což manipulátor využívá k další eskalaci.
+- **[Anankastický režim](@/glossary/anankasticky-rezim.md)** — některé subjekty vyvinou rigidní rituály preventivního chování s cílem „neprovokovat“, což manipulátor využívá k další eskalaci.
 
 ### Distinktivní
 
@@ -201,7 +201,6 @@ Oběť dlouhodobého zneužívání během prvního výslechu opakovaně vracela
 - **Platformové koncepty**:
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
-
 
 ## ⚡ Kritický krok
 

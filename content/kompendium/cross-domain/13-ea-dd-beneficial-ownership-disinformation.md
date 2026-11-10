@@ -63,7 +63,6 @@ Czech s.r.o.: ARES říká UBO X, ale FAÚ má record Y, Cyprus filing má Z —
 
 DD target: 'simple' 2-vrstvá ownership, ale Sayari graph odhalil 7-vrstvou chain skrz 4 jurisdikce, end UBO sanctioned
 
-
 Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
 
 ## Cross-linky
@@ -78,7 +77,6 @@ Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, kte
 - [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
 - [Case studies](@/kompendium/case-studies/_index.md)
 - [Quick reference](@/kompendium/quick-reference/_index.md)
-
 
 ## Connect
 

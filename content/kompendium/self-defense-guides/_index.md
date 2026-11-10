@@ -96,7 +96,6 @@ Správa narativu, vztahových kotev, paměťového archivu, hodnot a osobní myt
 9. [Časové sešívání já](@/kompendium/self-defense-guides/49-temporal-self-stitching.md)
 10. [Obrana osobní mytologie](@/kompendium/self-defense-guides/50-personal-mythology-defense.md)
 
-
 ## Jak používat
 
 1. **Začni od jednoho pilíře.** Nezačínejte všech 50 najednou. Vyberte si pilíř, kde cítíte největší zranitelnost.

@@ -61,7 +61,7 @@ Pro EA má heterofenomenologie **klinickou hodnotu**:
 
 - **Pacient jako heterofenomenologický subjekt**: terapeut **bere vážně** výpovědi, ale **interpretuje** je heterofenomenologicky.
 - **Riziko nadinterpretace**: pacientovy výpovědi nejsou **přímým přístupem** ke skutečnosti — vyžadují klinickou interpretaci.
-- **Riziko podinterpretace**: gaslighting strukturálně **odmítá** heterofenomenologickou serioznost — pacientovy výpovědi jsou **odmítány** jako "iluze".
+- **Riziko podinterpretace**: gaslighting strukturálně **odmítá** heterofenomenologickou serioznost — pacientovy výpovědi jsou **odmítány** jako „iluze“.
 
 ## 4. Mémetický evolucionismus
 
@@ -107,7 +107,7 @@ Kompendium absorbuje Dennettovu strukturální analýzu, ale **odbočuje** v ně
 - Dennett, D. (1991). *Consciousness Explained*. Little, Brown.
 - Dennett, D. (1995). *Darwin's Dangerous Idea*. Simon & Schuster.
 - Dennett, D. (2017). *From Bacteria to Bach and Back*. W.W. Norton.
-- Dennett, D. (1991). "Real Patterns". *Journal of Philosophy* 88.
+- Dennett, D. (1991). „Real Patterns“. *Journal of Philosophy* 88.
 
 ## Související
 

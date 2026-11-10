@@ -145,14 +145,16 @@ The GHL rests on several philosophical foundations that distinguish it from both
 #### Explicit vs. Implicit Permission
 
 Traditional licenses operate through **implicit permission** models:
-- MIT: "You may use this software for any purpose"
-- GPL: "You may use and modify if you share source"
-- Apache: "You may use with attribution requirements"
+
+- MIT: “You may use this software for any purpose”
+- GPL: “You may use and modify if you share source”
+- Apache: “You may use with attribution requirements”
 
 The GHL operates through **explicit permission** models:
-- "You may not use this software without written grant"
-- "All usage requires sworn oath and ritual compliance"
-- "Modifications require separate authorization"
+
+- “You may not use this software without written grant”
+- “All usage requires sworn oath and ritual compliance”
+- “Modifications require separate authorization”
 
 #### Authorial Preservation vs. Collaborative Commons
 

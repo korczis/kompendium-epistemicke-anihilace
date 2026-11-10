@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 ## Definice
 
-**Dominantní tělesné hieroglyfy** je systematické **využívání** tělesné **posturality**, **gestiky** a **faciální exprese** k **establishment neverbální epistemické hierarchie**. Termín "*hieroglyfy*" zdůrazňuje, že tělesné konfigurace fungují jako **znakový systém** — každá konfigurace **kóduje** specifický význam, který je **automaticky dekódován** vnímatelem.
+**Dominantní tělesné hieroglyfy** je systematické **využívání** tělesné **posturality**, **gestiky** a **faciální exprese** k **establishment neverbální epistemické hierarchie**. Termín „*hieroglyfy*“ zdůrazňuje, že tělesné konfigurace fungují jako **znakový systém** — každá konfigurace **kóduje** specifický význam, který je **automaticky dekódován** vnímatelem.
 
 Klíčový mechanismus: **exploitace evoluční předispozice** k interpretaci specifických tělesných konfigurací jako signálů **dominance**, **jistoty** a **epistemické autority**. Tato interpretace je **automatická** — operuje pod prahem vědomé deliberace a je jen **omezeně** modulovatelná explicitní reflexí.
 
@@ -207,10 +207,11 @@ Po klíčových prezentacích **explicitně** přečti substantivní transcript 
 Investment committee approved $30M deal po **highly charismatic** in-person pitch. 12 měsíců later business model revealed structural flaws.
 
 Detekce: Post-mortem identifikoval, že:
+
 - Pitch deck (written) byl **less convincing** than in-person
 - CEO had professional body language coaching
 - Due diligence focused na presentation, ne na substance
-- "Gut feeling" pro CEO byl based primarily na body language
+- „Gut feeling“ pro CEO byl based primarily na body language
 
 Intervence: VC firm redesigned process — required **written-first** evaluation, video-removed re-review, explicit body language deweighting.
 
@@ -224,7 +225,7 @@ Intervence: Defense protocol redesign — increased weighting na written assessm
 
 ### Případ 3 — Klinická konzultace
 
-Patient reported "**feeling reassured**" by physician's confident demeanor at high-stakes diagnosis. Treatment recommendation accepted **bez** explicit informed consent process.
+Patient reported „**feeling reassured**“ by physician's confident demeanor at high-stakes diagnosis. Treatment recommendation accepted **bez** explicit informed consent process.
 
 Detekce: Patient advocate noted pattern — high-confidence physicians achieved high acceptance rates **regardless** substantive accuracy of recommendations.
 
@@ -237,11 +238,11 @@ Intervence: Klinické protokoly — written treatment options requirement, manda
 - **[EA-1.5.1 Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md)** — sourozenecká: hieroglyfy + proxemika = comprehensive spatial-kinetic dominance.
 - **[EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)** — multimodální dominance (auditory + visual + spatial).
 - **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — body language jako medium pro emocionální indukci.
-- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — komplexní jazyk + dominantní body language = "**unfraktovatelná**" prezentace.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — komplexní jazyk + dominantní body language = „**unfraktovatelná**“ prezentace.
 
 ### Eskaluje do
 
-- **EA-1.6.1 Vzorec "Guru a adept"** — guru typically má high-trained body language; **klíčový** establishment mechanism.
+- **EA-1.6.1 Vzorec „Guru a adept“** — guru typically má high-trained body language; **klíčový** establishment mechanism.
 - **Coercive presence** — strukturální body language patterns v abusive dynamics.
 
 ### Hraniční / podobné
@@ -274,7 +275,6 @@ Intervence: Klinické protokoly — written treatment options requirement, manda
 - **Související platformové koncepty**:
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

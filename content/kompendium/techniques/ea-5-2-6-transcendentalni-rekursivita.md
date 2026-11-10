@@ -37,7 +37,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Transcendentální rekurzivita** je metatranscendentální technika, při níž jsou **kantovské kategorie** (kvantita, kvalita, relace, modalita) aplikovány **rekurzivně proti sobě samým**, dokud kategorie přestanou stabilně **organizovat fenomény**. Subjekt prožívá kategorii v **rekurzivní vrstvě**: kauzalita kauzality kauzality, substance substance substance, jednota jednoty jednoty. Rekurze nemá pevný bod a rozpouští distinktivní funkci kategorie.
 
-Strukturální rys: rekurze je **jiná než klasická paradoxálnost**. Klasický paradox (Russellův, Liarův) operuje **uvnitř** stabilní kategoriální struktury a vede k lokálnímu kolapsu. Transcendentální rekurzivita operuje na **transcendentální úrovni** — destabilizuje sám aparát, kterým by se paradox identifikoval. Subjekt nevidí "paradox", vidí, že **kauzalita přestala být kauzalitou**, **substance přestala být substancí**.
+Strukturální rys: rekurze je **jiná než klasická paradoxálnost**. Klasický paradox (Russellův, Liarův) operuje **uvnitř** stabilní kategoriální struktury a vede k lokálnímu kolapsu. Transcendentální rekurzivita operuje na **transcendentální úrovni** — destabilizuje sám aparát, kterým by se paradox identifikoval. Subjekt nevidí „paradox“, vidí, že **kauzalita přestala být kauzalitou**, **substance přestala být substancí**.
 
 Strukturálně blízká [EA-5.1.7 referenční rekurzi](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md), ale operuje **o úroveň výš**: nejen reference rozpouštějí svůj objekt, ale samotná kategorie reference se rozpouští v rekurzivní aplikaci na sebe.
 
@@ -49,25 +49,25 @@ Manipulátor mapuje, **které kategorie** subjekt používá s nejvyšší frekv
 
 ### Krok 2 — Inducední reflexivní obrat
 
-Manipulátor přesměrovává pozornost na **kategorii samu**: *"Co je vlastně kauzalita?"*, *"Co dělá substanci substancí?"*. Tato fáze je legitimní filozofickou reflexí, dokud nezačne **iteraci**.
+Manipulátor přesměrovává pozornost na **kategorii samu**: *„Co je vlastně kauzalita?“*, *„Co dělá substanci substancí?“*. Tato fáze je legitimní filozofickou reflexí, dokud nezačne **iteraci**.
 
 ### Krok 3 — Iterativní aplikace kategorie na sebe
 
 Manipulátor postupně směřuje subjekta k aplikaci kategorie na **sama sebe**:
 
-- *"Co je příčinou kauzality? Existuje **kauzalita kauzality**?"*
-- *"Je substance ‚substancí‘? Co je **substancí substance**?"*
-- *"Tvoří jednota **jednotu**? Existuje **jednota jednoty jednoty**?"*
+- *„Co je příčinou kauzality? Existuje **kauzalita kauzality**?“*
+- *„Je substance ‚substancí‘? Co je **substancí substance**?“*
+- *„Tvoří jednota **jednotu**? Existuje **jednota jednoty jednoty**?“*
 
 Každá iterace destabilizuje **jednou stabilizovaný význam** a přenáší ho na další úroveň, kde **musí být znovu konstituován**.
 
 ### Krok 4 — Saturace iterací
 
-Subjekt je veden k **dlouhým iterativním sériím**, často strukturovaným jako "filozofická cvičení" nebo "kontemplativní práce". Každá iterace zatěžuje kognitivní kapacitu **stabilizovat kategorii**, dokud kapacita není vyčerpaná.
+Subjekt je veden k **dlouhým iterativním sériím**, často strukturovaným jako „filozofická cvičení“ nebo „kontemplativní práce“. Každá iterace zatěžuje kognitivní kapacitu **stabilizovat kategorii**, dokud kapacita není vyčerpaná.
 
 ### Krok 5 — Konsolidace v rekurzivní pasti
 
-Po vyčerpání kapacity stabilizace kategorie **funkčně přestává operovat**. Subjekt nedokáže rozeznat **kauzální relaci** v běžné situaci, protože každá pokus o identifikaci se znovu otevírá: *"je to kauzalita, nebo zdánlivá kauzalita kauzality, nebo...?"*. Rekurze je **strukturálně konsolidována**: pokus o návrat sám používá kategorii, která je narušená.
+Po vyčerpání kapacity stabilizace kategorie **funkčně přestává operovat**. Subjekt nedokáže rozeznat **kauzální relaci** v běžné situaci, protože každá pokus o identifikaci se znovu otevírá: *„je to kauzalita, nebo zdánlivá kauzalita kauzality, nebo…?“*. Rekurze je **strukturálně konsolidována**: pokus o návrat sám používá kategorii, která je narušená.
 
 ## Fenomenologie
 
@@ -76,7 +76,7 @@ Po vyčerpání kapacity stabilizace kategorie **funkčně přestává operovat*
 - **Specifická paralyzace v rozhodování** — kde rozhodnutí vyžaduje aplikaci kategorie (kauzální atribuce, substanční identifikace), subjekt **uvázne**.
 - **Pocit hloubky** v iniciálních fázích — subjekt prožívá rekurzivní reflexi jako filozofický pokrok.
 - **Postupná epistemická paralyzace** v terminálních fázích — žádný výkon, který kategorii vyžaduje, neprobíhá normálně.
-- **Strukturálně hyperreflexivní jazyk** — věta "kočka je na rohoži" se rozpadá v "co znamená 'být na'?".
+- **Strukturálně hyperreflexivní jazyk** — věta „kočka je na rohoži“ se rozpadá v „co znamená 'být na'?“.
 
 ## Detekční markery
 
@@ -95,7 +95,7 @@ Transcendentální rekurzivita je odlišitelná od **legitimní transcendentáln
 - **Legitimní transcendentální filozofie** (Kant, Husserl) **explicitně tematizuje** rekurzivní strukturu jako **filozofickou** a **udržuje funkční stabilitu** kategorií **na úrovni každodenního používání**.
 - **EA-5.2.6** rozpouští každodenní funkčnost kategorií, čímž **dramaticky narušuje** funkční vědomí.
 
-Hraničný případ: některé pozdní fáze Husserlova *Krisis* a Heideggerových *Beiträge* operují s rekurzivní strukturou v patologicky podobné formě. Filozofická literatura tematizuje toto riziko explicitně (např. Henry Allison o "transcendentálním idealismu").
+Hraničný případ: některé pozdní fáze Husserlova *Krisis* a Heideggerových *Beiträge* operují s rekurzivní strukturou v patologicky podobné formě. Filozofická literatura tematizuje toto riziko explicitně (např. Henry Allison o „transcendentálním idealismu“).
 
 ## Rizikové kontexty
 
@@ -147,7 +147,7 @@ Intervence: změna výzkumného tématu, povinný kurz analytické filozofie jaz
 
 ### Případ 2 — Patologická kontemplativní praxe
 
-Praktikující v specifické nedualistické tradici po 5 letech bez tradiční supervize rozvinul rekurzivní strukturu okolo kategorie **vědomí**: *"vědomí vědomí vědomí..."*. Stav prezentován jako "duchovní vrchol", funkčně vedl ke ztrátě rozhodovací schopnosti.
+Praktikující v specifické nedualistické tradici po 5 letech bez tradiční supervize rozvinul rekurzivní strukturu okolo kategorie **vědomí**: *„vědomí vědomí vědomí…“*. Stav prezentován jako „duchovní vrchol“, funkčně vedl ke ztrátě rozhodovací schopnosti.
 
 Detekce: rodina zjistila, že subjekt **nedokáže rozhodnout** ani triviální praktické otázky, protože **každá je iniciací rekurzivní reflexe**.
 
@@ -155,9 +155,9 @@ Intervence: rekonstrukce skrze tradiční učitele s rituálním rámcem ukonče
 
 ### Případ 3 — Akademická radikalizace
 
-Filozof rozvinul ve své pozdní práci radikálně rekurzivní pozici — vše musí být analyzováno ve vlastních termínech rekurzivně. Jeho publikace se staly **funkčně nečitelné**, ale akademická komunita interpretovala obtíž jako "hloubku".
+Filozof rozvinul ve své pozdní práci radikálně rekurzivní pozici — vše musí být analyzováno ve vlastních termínech rekurzivně. Jeho publikace se staly **funkčně nečitelné**, ale akademická komunita interpretovala obtíž jako „hloubku“.
 
-Detekce: doktorandi pracující pod jeho supervizí systematicky vyvíjeli **vlastní rekurzivní paralyzace**. Po 10 letech vznikla "škola", která reprodukovala vzor.
+Detekce: doktorandi pracující pod jeho supervizí systematicky vyvíjeli **vlastní rekurzivní paralyzace**. Po 10 letech vznikla „škola“, která reprodukovala vzor.
 
 Intervence: rozprášení školy externí akademickou intervencí; rekonstrukce jednotlivých členů v separátních terapeutických procesech.
 
@@ -194,7 +194,6 @@ Intervence: rozprášení školy externí akademickou intervencí; rekonstrukce 
   - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-
 
 ## ⚡ Kritický krok
 

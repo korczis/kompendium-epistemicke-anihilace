@@ -55,11 +55,11 @@ jobs:
         uses: actions/upload-pages-artifact@v5
         with:
           path: site
-      # Pages při synchronizaci souborů kolísá: úspěšná nasazení 23–45 s, jedno 514 s; neúspěšná
-      # visí ve stavu finished_file_sync (běhy 42750395044, 42756308971). actions/deploy-pages
-      # strop `timeout` neposouvá: MAX_TIMEOUT = 600000 v src/internal/deployment.js, vyšší
-      # hodnota se tiše ořízne. Proto limit 600 s, error_count 30 a dva další pokusy nad týmž
-      # artefaktem; 42756308971 selhal v obou ze dvou pokusů.
+      # Pages při synchronizaci souborů kolísá: úspěšná nasazení trvají 7–15 s, neúspěšná visí ve
+      # stavu finished_file_sync až do limitu (deploy-pages ho ořízne na MAX_TIMEOUT = 600000).
+      # Měřeno na běhu 42764915790 a devíti předchozích: opakování nad TÝMŽ artefaktem neuspělo
+      # ani jednou (5 z 5 selhalo), další běh s nově nahraným artefaktem téže velikosti uspěl
+      # pokaždé. Proto každý další pokus nahraje web znovu jako nový artefakt a nasadí ten.
       - name: Deploy
         id: deployment
         continue-on-error: true
@@ -67,19 +67,33 @@ jobs:
         with:
           timeout: 600000
           error_count: 30
+      - name: Upload Pages artifact (druhý pokus)
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+          name: github-pages-2
       - name: Deploy (druhý pokus)
         id: deployment_retry
         if: steps.deployment.outcome == 'failure'
         continue-on-error: true
         uses: actions/deploy-pages@v5
         with:
+          artifact_name: github-pages-2
           timeout: 600000
           error_count: 30
+      - name: Upload Pages artifact (třetí pokus)
+        if: steps.deployment.outcome == 'failure' && steps.deployment_retry.outcome == 'failure'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+          name: github-pages-3
       - name: Deploy (třetí pokus)
         id: deployment_retry2
         if: steps.deployment.outcome == 'failure' && steps.deployment_retry.outcome == 'failure'
         uses: actions/deploy-pages@v5
         with:
+          artifact_name: github-pages-3
           timeout: 600000
           error_count: 30
 

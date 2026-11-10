@@ -10,27 +10,12 @@
   var basePath = base.replace(/^https?:\/\/[^/]+/, '');
   var cache = {};
 
-  // Kategorická paleta (dostatečný kontrast na bílé i na gray-900), pořadí je stabilní.
-  var PALETTE = ['#4f46e5', '#0ea5e9', '#10b981', '#f59e0b', '#ef4444', '#a855f7', '#14b8a6',
-    '#f97316', '#ec4899', '#84cc16', '#6366f1', '#06b6d4', '#eab308', '#8b5cf6', '#22c55e', '#64748b'];
-
-  function isDark() {
-    return document.documentElement.classList.contains('dark');
-  }
-
-  function theme() {
-    var dark = isDark();
-    return {
-      dark: dark,
-      text: dark ? '#e5e7eb' : '#111827',
-      muted: dark ? '#9ca3af' : '#6b7280',
-      grid: dark ? '#374151' : '#e5e7eb',
-      surface: dark ? '#1f2937' : '#ffffff',
-      edge: dark ? '#4b5563' : '#cbd5e1',
-      primary: '#4f46e5',
-      accent: '#ef4444',
-    };
-  }
+  // Barvy tématu a kategorická paleta mají jediný zdroj: komponentovou vrstvu (vrstva.js,
+  // načtená synchronně v <head> každé stránky).
+  var L = window.KompendiumVrstva;
+  var PALETTE = L.PALETTE;
+  var isDark = L.isDark;
+  var theme = L.theme;
 
   function loadScript(name) {
     if (cache['js:' + name]) return cache['js:' + name];

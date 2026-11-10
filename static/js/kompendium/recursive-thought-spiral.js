@@ -1,22 +1,14 @@
 // Rekurzivní spirála myšlení — p5.js (model, ne data). Pásma hloubky rekurze nesou jména
 // technik, které jmenuje text nad simulací (kódy EA / odkazy, v pořadí zmínky), s názvy
-// z grafu knihy; pod plátno se přidají odkazy na jejich stránky.
+// z grafu knihy; pod plátno se přidají odkazy na jejich stránky. Plátno zakládá komponentová
+// vrstva (vrstva.js): šířka podle hostitele, výška z poměru stran; poloměry spirál se škálují
+// kratší stranou plátna, takže se spirála vejde i na telefon.
 (function () {
   'use strict';
-  var SRC = document.currentScript && document.currentScript.src;
+  if (typeof window.p5 === 'undefined') return;
 
-  function kniha() {
-    if (!window.__kniha) {
-      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
-        var s = document.createElement('script');
-        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
-        s.onload = ok;
-        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
-        document.head.appendChild(s);
-      })).then(function () { return window.KompendiumKniha.ready(); });
-    }
-    return window.__kniha;
-  }
+  // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
+  var kniha = window.KompendiumVrstva.kniha;
 
   // Techniky, na které odkazuje text nad simulací (odkazy a kódy EA-x.y.z); pod plátno
   // přidá odkazy na jejich stránky. Vrací je v pořadí zmínky.
@@ -24,7 +16,7 @@
     return kniha().then(function (K) {
       var ts = K.contextNodes(host).map(K.technique).filter(Boolean);
       if (ts.length) {
-        var p = K.h('p', 'mt-1 text-sm text-slate-400', 'Simulace ilustruje: ');
+        var p = K.h('p', 'mt-1 text-sm text-gray-500 dark:text-gray-400', 'Simulace ilustruje: ');
         ts.forEach(function (t, i) {
           if (i) p.appendChild(document.createTextNode(', '));
           p.appendChild(K.link(t.node, K.techniqueText(t)));
@@ -39,138 +31,182 @@
   }
 
   var host = document.getElementById('recursive-thought-spiral');
+  if (!host) return;
   // pásma 5–6 a 7–9 patří první a druhé technice z textu; dokud data nejsou, zůstávají popisná
   var named = ['Hyperreflexní pásmo', 'Rekurzivní pásmo'];
-  if (host) techniquesNear(host).then(function (ts) {
+  techniquesNear(host).then(function (ts) {
     ts.slice(0, 2).forEach(function (t, i) { named[i] = t.code + ' ' + t.label; });
   });
 
-new p5((p) => {
-  let depth = 5;            // recursion depth (1-12), set by mouse Y
-  let phase = 0;            // animation phase
-  let fragments = [];       // detached spiral fragments
-  let fragTimer = 0;
-  let label = '';
 
-  function depthLabel(d) {
-    if (d <= 2) return 'Funkční reflexe';
-    if (d <= 4) return 'Sebe-monitoring';
-    if (d <= 6) return named[0];
-    if (d <= 9) return named[1];
-    return 'Metakognitivní paralýza';
-  }
+  window.KompendiumVrstva.p5(host, function (p, k) {
+    var depth = 5;            // hloubka rekurze (1–12), řídí ji svislá poloha myši
+    var phase = 0;            // fáze animace
+    var fragments = [];       // odtržené úlomky spirál
+    var fragTimer = 0;
+    var label = '';
+    var TOP = 40;             // nahoře volno: pravý horní roh patří tlačítku Pozastavit z vrstvy
+    // Textový pruh dole: na úzkém plátně se hloubka a pásmo píší na dva řádky.
+    function bottom() { return p.width < 480 ? 90 : 64; }
 
-  p.setup = function() {
-    const c = p.createCanvas(host ? Math.min(800, host.clientWidth || 800) : 800, 500);
-    const target = document.getElementById('recursive-thought-spiral');
-    if (target) c.parent('recursive-thought-spiral');
-    p.angleMode(p.RADIANS);
-    label = depthLabel(depth);
-  };
-
-  p.draw = function() {
-    p.background(15, 23, 42, 25);
-    phase += 0.012;
-
-    // Mouse Y → recursion depth (1..12). Higher mouse = deeper spiral
-    if (p.mouseX > 0 && p.mouseY > 0 && p.mouseX < p.width && p.mouseY < p.height) {
-      const norm = 1 - (p.mouseY / p.height);
-      depth = Math.max(1, Math.min(12, Math.floor(norm * 12) + 1));
+    function depthLabel(d) {
+      if (d <= 2) return 'Funkční reflexe';
+      if (d <= 4) return 'Sebe-monitoring';
+      if (d <= 6) return named[0];
+      if (d <= 9) return named[1];
+      return 'Metakognitivní paralýza';
     }
-    label = depthLabel(depth);
 
-    const cx = p.width / 2;
-    const cy = p.height / 2;
+    // Střed a měřítko spirály v ploše mezi textovými pruhy (vejde se i na úzké plátno).
+    function frame() {
+      var avail = Math.max(120, p.height - TOP - bottom());
+      return {
+        cx: p.width / 2,
+        cy: TOP + avail / 2,
+        s: Math.min(1, Math.min(p.width - 16, avail) / 270),
+      };
+    }
 
-    // Title and indicator
-    p.noStroke();
-    p.fill(241, 245, 249);
-    p.textSize(14);
-    p.text('Hloubka rekurze: ' + depth + '/12 — ' + label, 16, 24);
-    p.fill(148, 163, 184);
-    p.textSize(11);
-    p.text('Pohni myší vertikálně (nahoru = hlubší rekurze)', 16, 44);
+    function inside() {
+      return p.mouseX > 0 && p.mouseY > 0 && p.mouseX < p.width && p.mouseY < p.height;
+    }
 
-    // Recursive spiral — each layer is a thought reflecting on the previous
-    p.noFill();
-    for (let layer = 0; layer < depth; layer++) {
-      const layerPhase = phase + layer * 0.8;
-      const radiusBase = 20 + layer * 18;
-      const collapseFactor = layer > 6 ? Math.pow(0.85, layer - 6) : 1;
-      const r = radiusBase * collapseFactor;
+    p.setup = function () {
+      k.canvas();
+      p.angleMode(p.RADIANS);
+      label = depthLabel(depth);
+      // stopy kreslí průsvitné pozadí; první vrstva musí být plná, jinak je plátno průhledné
+      p.background(15, 23, 42);
+    };
 
-      // Color shifts from teal (functional) → red (paralysis)
-      const tDeep = layer / 12;
-      const rC = p.lerp(99, 239, tDeep);
-      const gC = p.lerp(102, 68, tDeep);
-      const bC = p.lerp(241, 68, tDeep);
-      const alpha = 200 - layer * 12;
+    p.draw = function () {
+      p.background(15, 23, 42, 25);
+      phase += 0.012;
 
-      p.stroke(rC, gC, bC, Math.max(60, alpha));
-      p.strokeWeight(layer < 4 ? 2 : 1.5);
-
-      // Spiral path
-      p.beginShape();
-      const turns = 2.5 + layer * 0.3;
-      const steps = 80;
-      for (let i = 0; i <= steps; i++) {
-        const t = i / steps;
-        const angle = t * turns * p.TWO_PI + layerPhase;
-        const radius = r * t;
-        const fragJitter = layer > 5 ? p.random(-2, 2) * (layer / 12) : 0;
-        const x = cx + Math.cos(angle) * radius + fragJitter;
-        const y = cy + Math.sin(angle) * radius + fragJitter;
-        p.vertex(x, y);
+      // Svislá poloha myši → hloubka rekurze (1..12); výš = hlubší spirála
+      if (inside()) {
+        var norm = 1 - (p.mouseY / p.height);
+        depth = Math.max(1, Math.min(12, Math.floor(norm * 12) + 1));
       }
-      p.endShape();
-    }
+      label = depthLabel(depth);
 
-    // Fragmentation when depth >= 7 — spirals shed pieces
-    fragTimer++;
-    if (depth >= 7 && fragTimer > Math.max(2, 10 - depth)) {
-      fragTimer = 0;
-      const angle = p.random(p.TWO_PI);
-      const r = 40 + p.random(80);
-      fragments.push({
-        x: cx + Math.cos(angle) * r,
-        y: cy + Math.sin(angle) * r,
-        vx: Math.cos(angle) * (1 + (depth - 6) * 0.5),
-        vy: Math.sin(angle) * (1 + (depth - 6) * 0.5),
-        life: 100,
-        size: 3 + p.random(4)
+      var f = frame();
+      var cx = f.cx;
+      var cy = f.cy;
+      var s = f.s;
+
+      // Rekurzivní spirála — každá vrstva je myšlenka, která reflektuje tu předchozí
+      p.noFill();
+      for (var layer = 0; layer < depth; layer++) {
+        var layerPhase = phase + layer * 0.8;
+        var radiusBase = (20 + layer * 18) * s;
+        var collapseFactor = layer > 6 ? Math.pow(0.85, layer - 6) : 1;
+        var r = radiusBase * collapseFactor;
+
+        // Barva přechází od indiga (funkční) k červené (paralýza)
+        var tDeep = layer / 12;
+        var rC = p.lerp(99, 239, tDeep);
+        var gC = p.lerp(102, 68, tDeep);
+        var bC = p.lerp(241, 68, tDeep);
+        var alpha = 200 - layer * 12;
+
+        p.stroke(rC, gC, bC, Math.max(60, alpha));
+        p.strokeWeight(layer < 4 ? 2 : 1.5);
+
+        // Dráha spirály
+        p.beginShape();
+        var turns = 2.5 + layer * 0.3;
+        var steps = 80;
+        for (var i = 0; i <= steps; i++) {
+          var t = i / steps;
+          var angle = t * turns * p.TWO_PI + layerPhase;
+          var radius = r * t;
+          var fragJitter = layer > 5 ? p.random(-2, 2) * (layer / 12) : 0;
+          p.vertex(cx + Math.cos(angle) * radius + fragJitter,
+            cy + Math.sin(angle) * radius + fragJitter);
+        }
+        p.endShape();
+      }
+
+      // Fragmentace od hloubky 7 — spirály ztrácejí úlomky
+      fragTimer++;
+      if (depth >= 7 && fragTimer > Math.max(2, 10 - depth)) {
+        fragTimer = 0;
+        var a = p.random(p.TWO_PI);
+        var fr = (40 + p.random(80)) * s;
+        fragments.push({
+          x: cx + Math.cos(a) * fr,
+          y: cy + Math.sin(a) * fr,
+          vx: Math.cos(a) * (1 + (depth - 6) * 0.5) * s,
+          vy: Math.sin(a) * (1 + (depth - 6) * 0.5) * s,
+          life: 100,
+          size: 3 + p.random(4),
+        });
+        if (fragments.length > 200) fragments.shift();
+      }
+
+      // Vykreslení a posun úlomků
+      fragments.forEach(function (fg) {
+        fg.x += fg.vx;
+        fg.y += fg.vy;
+        fg.life -= 1;
+        p.noStroke();
+        p.fill(239, 68, 68, (fg.life / 100) * 220);
+        p.ellipse(fg.x, fg.y, fg.size, fg.size);
       });
-      if (fragments.length > 200) fragments.shift();
-    }
+      fragments = fragments.filter(function (fg) {
+        return fg.life > 0 && fg.x > 0 && fg.x < p.width && fg.y > 0 && fg.y < p.height;
+      });
 
-    // Render and update fragments
-    fragments.forEach((f) => {
-      f.x += f.vx;
-      f.y += f.vy;
-      f.life -= 1;
-      const alpha = (f.life / 100) * 220;
+      // Střed „já“ — s hloubkou se rozpadá
+      var deep = depth >= 9;
+      var eyeSize = deep ? 4 + p.random(-2, 2) : 8;
       p.noStroke();
-      p.fill(239, 68, 68, alpha);
-      p.ellipse(f.x, f.y, f.size, f.size);
-    });
-    fragments = fragments.filter((f) => f.life > 0 && f.x > 0 && f.x < p.width && f.y > 0 && f.y < p.height);
+      if (deep) p.fill(239, 68, 68); else p.fill(99, 102, 241);
+      p.ellipse(cx, cy, eyeSize, eyeSize);
 
-    // Center "I" — collapses with depth
-    const eyeSize = depth >= 9 ? 4 + p.random(-2, 2) : 8;
-    const eyeR = depth >= 9 ? 239 : 99;
-    const eyeG = depth >= 9 ? 68 : 102;
-    const eyeB = depth >= 9 ? 68 : 241;
-    p.noStroke();
-    p.fill(eyeR, eyeG, eyeB);
-    p.ellipse(cx, cy, eyeSize, eyeSize);
+      // Textový pruh dole kreslí plné pozadí, aby stopy spirál nesnižovaly kontrast textu
+      var B = bottom();
+      var y0 = p.height - B;
+      p.noStroke();
+      p.fill(15, 23, 42);
+      p.rect(0, y0 + 4, p.width, B - 4);
+      p.textAlign(p.LEFT, p.BASELINE);
+      p.fill(241, 245, 249);
+      var narrow = p.width < 480;
+      p.textSize(narrow ? 12 : 14);
+      var y = y0 + 20;
+      if (narrow) {
+        p.text('Hloubka rekurze: ' + depth + '/12', 16, y);
+        p.text(label, 16, y += 15);
+      } else {
+        p.text('Hloubka rekurze: ' + depth + '/12 — ' + label, 16, y);
+      }
+      p.fill(148, 163, 184);
+      p.textSize(11);
+      p.text('Pohni myší vertikálně (nahoru = hlubší rekurze)', 16, y += 16);
 
-    // Paralysis warning at extreme depths
-    if (depth >= 10) {
-      p.fill(239, 68, 68);
-      p.textSize(12);
-      p.textAlign(p.CENTER);
-      p.text('⚠ paralýza — myšlení reflektuje samo sebe bez ukotvení', cx, p.height - 20);
-      p.textAlign(p.LEFT);
-    }
-  };
-}, 'recursive-thought-spiral');
+      // Varování při extrémní hloubce
+      if (depth >= 10) {
+        p.fill(248, 113, 113);
+        p.textSize(narrow ? 11 : 12);
+        p.text('⚠ paralýza — myšlení reflektuje samo sebe bez ukotvení', 16, y += 18);
+      }
+    };
+
+    // Pozastavená animace: pohyb myši nad plátnem přesto ukáže zvolenou hloubku.
+    p.mouseMoved = function () {
+      if (!p.isLooping() && inside()) p.redraw();
+    };
+
+    // Nová velikost plátna: úlomky staré geometrie zmizí, pozadí se vykreslí znovu celé.
+    p.resized = function () {
+      fragments = [];
+      p.background(15, 23, 42);
+    };
+  }, {
+    aspect: 0.625, minHeight: 340, maxHeight: 500,
+    label: 'Simulace rekurzivní spirály myšlení: svislá poloha ukazatele řídí hloubku rekurze ' +
+      'od 1 do 12; s rostoucí hloubkou se spirálové dráhy trhají a střed se rozpadá.',
+  });
 })();

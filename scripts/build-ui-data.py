@@ -197,13 +197,20 @@ def search_index(pages: list) -> dict:
 
 
 def viz_deps() -> dict:
-    """Which vendored library each visualisation script calls, read from its source."""
-    probes = {"chart": re.compile(r"\bnew Chart\b|\bChart\.|window\.Chart\b"),
-              "p5": re.compile(r"\bnew p5\b|\bp5\.|window\.p5\b"),
-              "three": re.compile(r"\bTHREE\.")}
+    """Which vendored library each visualisation script calls, read from its code.
+
+    Comments are stripped first (a comment naming "Chart.js" is no call). The calls are the
+    component layer's (K.chart, KompendiumVrstva.p5 / .three, see scripts/check-viz-layer.py)
+    and the libraries' own globals.
+    """
+    probes = {"chart": re.compile(r"\bK\.chart\(|\bnew Chart\b|\bChart\.|\bwindow\.Chart\b|"
+                                  r"\btypeof Chart\b"),
+              "p5": re.compile(r"\.p5\(|\bnew p5\b|\bp5\.|\bwindow\.p5\b"),
+              "three": re.compile(r"\.three\(|\bTHREE\.")}
+    comments = re.compile(r"/\*.*?\*/|(^|\s)//[^\n]*", re.S)
     deps = {}
     for f in sorted(VIZ.glob("*.js")):
-        text = f.read_text(encoding="utf-8")
+        text = comments.sub(r"\1", f.read_text(encoding="utf-8"))
         deps[f.name] = [lib for lib, rx in probes.items() if rx.search(text)]
     return {"schema": "kompendium-viz-deps/v1", "scripts": deps}
 
@@ -220,7 +227,16 @@ def serialise(data: dict) -> str:
 
 
 def main() -> int:
-    check = "--check" in sys.argv[1:]
+    args = sys.argv[1:]
+    if any(a in ("-h", "--help") for a in args):
+        print(__doc__.strip())
+        return 0
+    unknown = [a for a in args if a != "--check"]
+    if unknown:
+        # An unknown option must never fall through to write mode.
+        print(f"build-ui-data: unknown argument {unknown[0]}; see --help", file=sys.stderr)
+        return 2
+    check = "--check" in args
     stale = []
     for name, data in build().items():
         target, text = OUT / name, serialise(data)

@@ -1,0 +1,162 @@
+{#- Slot úvodní stránky pod upozorněním a nad kartami kapitol: rizika, úvod (co kniha je
+    a jak ji číst), karusel (partials/landing-carousel.html) a přehled knihy s hledáním.
+    Každý blok končí dvojicí akcí z content/_index.md (hlavní a vedlejší tlačítko Flowbite).
+
+    Próza úvodu je tělo content/_index.md, texty rozhraní jsou v jeho [extra.landing]; názvy,
+    popisy a počty se odvozují z cílových stránek, ze static/data/nav.json a z grafu odkazů.
+    Každá karta je právě jeden odkaz (nebo jedno tlačítko) a vede jen na rozpracovanou stránku:
+    rozhoduje static/data/ia.json (scripts/build-graph.py z pravidel scripts/check-ia.py), kde
+    stránka s porušením „detail“ nebo „generated“ ještě rozpracovaná není. Seznam takových
+    stránek (ia_weak) používá i karusel. -#}
+{%- set L = section.extra.landing -%}
+{%- set forms_s = section.extra.plural.stranka -%}
+{%- set forms_t = section.extra.plural.technika -%}
+{%- set i_nav = load_data(path="static/data/nav.json") -%}
+{%- set i_graph = load_data(path="static/data/graph.json") -%}
+{%- set i_ia = load_data(path="static/data/ia.json") -%}
+{%- set_global ia_weak = "|" -%}
+{%- for p in i_ia.pages -%}{%- if "detail" in p.violations or "generated" in p.violations %}{% set_global ia_weak = ia_weak ~ p.path ~ "|" %}{% endif -%}{%- endfor -%}
+{%- set btn_primary = "inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" -%}
+{%- set btn_secondary = "inline-flex items-center justify-center rounded-lg border border-gray-300 bg-white px-5 py-2.5 text-center text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-primary-700 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700" -%}
+<div class="space-y-4 px-4 pt-6">
+  {#- Rizika: každé riziko je karta, která vede na stránku s podrobným výkladem. -#}
+  <section class="rounded-lg bg-white p-4 shadow sm:p-6 xl:p-8 dark:bg-gray-800" aria-labelledby="rizika-title" data-landing-block>
+    <p class="mb-2 text-sm font-semibold uppercase tracking-wide text-primary-700 dark:text-primary-400">{{ L.risks_kicker }}</p>
+    <h2 id="rizika-title" class="mb-2 text-2xl font-bold leading-tight text-gray-900 sm:text-3xl dark:text-white">{{ L.risks_title }}</h2>
+    <p class="mb-5 max-w-4xl text-base text-gray-600 dark:text-gray-300">{{ L.risks_text }}</p>
+    <ul class="grid gap-4 md:grid-cols-2 xl:grid-cols-3" data-landing-cards>
+      {%- for r in L.risks %}
+      {%- if ("|" ~ r.path ~ "|") not in ia_weak %}
+      {%- if r.path is ending_with(pat="_index.md") %}{% set rt = get_section(path=r.path, metadata_only=true) %}{% else %}{% set rt = get_page(path=r.path) %}{% endif %}
+      <li>
+        <a href="{{ rt.permalink }}" data-landing-card class="group flex h-full flex-col rounded-lg border border-gray-200 bg-white p-4 hover:border-primary-300 hover:bg-primary-50 focus:outline-none focus:ring-4 focus:ring-primary-300 sm:p-5 dark:border-gray-700 dark:bg-gray-800 dark:hover:border-primary-700 dark:hover:bg-gray-700 dark:focus:ring-primary-800">
+          <span class="flex items-center gap-3">
+            <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary-100 text-sm font-semibold text-primary-800 dark:bg-primary-900 dark:text-primary-300" aria-hidden="true">{{ loop.index }}</span>
+            <span class="text-base font-semibold text-gray-900 group-hover:text-primary-700 dark:text-white dark:group-hover:text-primary-300">{{ r.title }}</span>
+          </span>
+          <span class="mt-3 block text-sm text-gray-600 dark:text-gray-300">{{ r.text }}</span>
+          <span class="mt-auto inline-flex items-center gap-1 pt-3 text-sm font-medium text-primary-700 group-hover:underline dark:text-primary-400">{{ L.risks_more }}: {{ rt.title }} <svg class="h-4 w-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></span>
+        </a>
+      </li>
+      {%- endif %}
+      {%- endfor %}
+    </ul>
+    <div class="mt-6 flex flex-wrap gap-3" data-landing-actions>
+      {%- for a in L.risks_actions %}{% if ("|" ~ a.path ~ "|") not in ia_weak %}<a href="{{ get_url(path='@/' ~ a.path) }}" class="{% if loop.first %}{{ btn_primary }}{% else %}{{ btn_secondary }}{% endif %}">{{ a.label }}</a>{% endif %}{% endfor %}
+    </div>
+  </section>
+
+  {#- Úvod: próza z těla content/_index.md a doporučené pořadí čtení. -#}
+  <section class="rounded-lg bg-white p-4 shadow sm:p-6 xl:p-8 dark:bg-gray-800" aria-labelledby="uvod-title" data-landing-block>
+    <p class="mb-2 text-sm font-semibold uppercase tracking-wide text-primary-700 dark:text-primary-400">{{ L.intro_kicker }}</p>
+    <h2 id="uvod-title" class="mb-4 text-2xl font-bold leading-tight text-gray-900 sm:text-3xl dark:text-white">{{ L.intro_title }}</h2>
+    <div class="grid gap-6 lg:grid-cols-12">
+      <div class="format format-sm sm:format-base format-blue max-w-none lg:col-span-7 dark:format-invert">
+        {{ section.content | safe }}
+      </div>
+      <nav class="lg:col-span-5" aria-labelledby="poradi-title">
+        <h3 id="poradi-title" class="mb-3 text-lg font-semibold text-gray-900 dark:text-white">{{ L.steps_title }}</h3>
+        <ol class="space-y-3" data-landing-cards>
+          {%- for path in L.steps %}
+          {%- if path is ending_with(pat="_index.md") %}{% set t = get_section(path=path, metadata_only=true) %}{% else %}{% set t = get_page(path=path) %}{% endif %}
+          {%- set n = i_nav.sections[path] | default(value={"total": 0}) %}
+          {%- if ("|" ~ path ~ "|") not in ia_weak %}
+          <li>
+            <a href="{{ t.permalink }}" data-landing-card class="group flex gap-4 rounded-lg border border-gray-200 bg-white p-4 hover:border-primary-300 hover:bg-primary-50 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:border-primary-700 dark:hover:bg-gray-700 dark:focus:ring-primary-800">
+              <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary-100 text-sm font-semibold text-primary-800 dark:bg-primary-900 dark:text-primary-300" aria-hidden="true">{{ loop.index }}</span>
+              <span class="min-w-0">
+                <span class="sr-only">{{ L.steps_label }} {{ loop.index }}: </span>
+                <span class="flex flex-wrap items-center gap-x-2 gap-y-1">
+                  <span class="text-base font-semibold text-gray-900 group-hover:text-primary-700 dark:text-white dark:group-hover:text-primary-300">{{ t.title }}</span>
+                  {%- if n.total > 0 %}
+                  {%- if n.total == 1 %}{% set w = forms_s[0] %}{% elif n.total >= 2 and n.total <= 4 %}{% set w = forms_s[1] %}{% else %}{% set w = forms_s[2] %}{% endif %}
+                  <span class="rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700 dark:bg-gray-700 dark:text-gray-300">{{ n.total | num_format }} {{ w }}</span>
+                  {%- endif %}
+                </span>
+                {%- if t.description %}<span class="mt-1 line-clamp-2 block text-sm text-gray-600 dark:text-gray-300">{{ t.description }}</span>{% endif %}
+              </span>
+            </a>
+          </li>
+          {%- endif %}
+          {%- endfor %}
+        </ol>
+      </nav>
+    </div>
+    <div class="mt-6 flex flex-wrap gap-3" data-landing-actions>
+      {%- for a in L.intro_actions %}{% if ("|" ~ a.path ~ "|") not in ia_weak %}<a href="{{ get_url(path='@/' ~ a.path) }}" class="{% if loop.first %}{{ btn_primary }}{% else %}{{ btn_secondary }}{% endif %}">{{ a.label }}</a>{% endif %}{% endfor %}
+    </div>
+  </section>
+
+  {% include "partials/landing-carousel.html" %}
+
+  {#- Přehled knihy: plošný graf (static/js/viz/prehled.js, ECharts) nad týmiž odkazy, které
+      níže tvoří seznam; seznam je textová alternativa grafu i jeho jediný zdroj dat. -#}
+  {%- set e_root = get_section(path="kompendium/_index.md", metadata_only=true) -%}
+  {%- set e_tech = get_section(path="kompendium/techniques/_index.md", metadata_only=true) -%}
+  {%- set e_nodes = i_graph.nodes -%}
+  <section class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800" aria-labelledby="prehled-title" data-landing-block data-prehled data-prehled-selected="{{ L.explore_selected }}" data-prehled-error="{{ L.explore_error }}">
+    <div class="mb-4">
+      <h2 id="prehled-title" class="text-xl font-bold leading-tight text-gray-900 sm:text-2xl dark:text-white">{{ L.explore_title }}</h2>
+      <p class="mt-1 text-sm text-gray-600 dark:text-gray-300">{{ L.explore_text }}</p>
+    </div>
+    <div class="grid gap-4 xl:grid-cols-3">
+      <figure class="xl:col-span-2">
+        <div data-prehled-chart tabindex="0" role="img" aria-label="{{ L.explore_chart_label }}" class="flex h-80 w-full items-center justify-center rounded-lg border border-gray-200 text-sm text-gray-500 focus:outline-none focus:ring-4 focus:ring-primary-300 sm:h-96 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-primary-800">{{ L.explore_loading }}</div>
+        <figcaption data-prehled-current aria-live="polite" class="mt-2 min-h-5 text-sm font-medium text-gray-900 dark:text-white"></figcaption>
+      </figure>
+      <div class="flex flex-col gap-4">
+        {#- Rychlý vstup do hledání: tlačítko otevře existující paletu (⌘K / Ctrl K). -#}
+        <div class="rounded-lg border border-gray-200 p-4 dark:border-gray-700">
+          <h3 class="text-base font-semibold text-gray-900 dark:text-white">{{ L.search_title }}</h3>
+          <p class="mt-1 text-sm text-gray-600 dark:text-gray-300">{{ L.search_text }}</p>
+          <button type="button" data-paleta-open aria-haspopup="dialog" aria-controls="paleta" aria-expanded="false" class="mt-3 flex w-full items-center gap-2 rounded-lg border border-gray-300 bg-gray-50 px-3 py-2.5 text-left text-sm text-gray-600 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-primary-800">
+            <svg class="h-4 w-4 shrink-0" fill="none" viewBox="0 0 20 20" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/></svg>
+            <span class="flex-1">{{ L.search_button }}</span>
+            <kbd data-paleta-shortcut class="rounded-lg border border-gray-200 bg-white px-1.5 py-0.5 text-xs font-semibold text-gray-800 dark:border-gray-500 dark:bg-gray-600 dark:text-gray-100">Ctrl K</kbd>
+          </button>
+        </div>
+        {#- Rodiny technik: počet technik a nejodkazovanější rozpracovaná technika. -#}
+        <div>
+          <h3 id="prehled-rodiny" class="mb-2 text-base font-semibold text-gray-900 dark:text-white">{{ L.explore_families }}</h3>
+          <ul class="space-y-1" aria-labelledby="prehled-rodiny" data-landing-cards>
+            {%- for code, name in i_graph.families %}
+            {%- set_global e_count = 0 %}
+            {%- for n in e_nodes %}{% if n.ea_code is defined and n.ea_code is starting_with(pat=code ~ ".") %}{% set_global e_count = e_count + 1 %}{% endif %}{% endfor %}
+            {%- if e_count > 0 %}
+            {%- if e_count == 1 %}{% set w = forms_t[0] %}{% elif e_count >= 2 and e_count <= 4 %}{% set w = forms_t[1] %}{% else %}{% set w = forms_t[2] %}{% endif %}
+            <li>
+              <a href="{{ e_tech.permalink }}?rodina={{ code }}" data-prehled-item data-group="{{ L.explore_families }}" data-value="{{ e_count }}" data-landing-card class="flex items-center justify-between gap-2 rounded-lg px-2 py-1.5 text-sm text-gray-900 hover:bg-primary-50 hover:text-primary-700 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:text-white dark:hover:bg-gray-700 dark:hover:text-primary-300 dark:focus:ring-primary-800">
+                <span class="min-w-0 truncate"><span class="font-mono text-xs text-gray-500 dark:text-gray-400">{{ code }}</span> <span data-prehled-title>{{ name }}</span></span>
+                <span data-prehled-count class="shrink-0 rounded-full bg-primary-100 px-2 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300">{{ e_count }} {{ w }}</span>
+              </a>
+            </li>
+            {%- endif %}
+            {%- endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    {#- Oddíly knihy: každý rozpracovaný oddíl kompendia a glosář, s počtem stránek. -#}
+    <h3 id="prehled-oddily" class="mb-2 mt-6 text-base font-semibold text-gray-900 dark:text-white">{{ L.explore_sections }}</h3>
+    <ul class="grid gap-1 sm:grid-cols-2 xl:grid-cols-3" aria-labelledby="prehled-oddily" data-landing-cards>
+      {%- for path in (e_root.subsections | sort | join(sep="|") ~ "|glossary/_index.md") | split(pat="|") %}
+      {%- set s = get_section(path=path, metadata_only=true) %}
+      {%- set n = i_nav.sections[path] | default(value={"total": 0}) %}
+      {%- if ("|" ~ path ~ "|") not in ia_weak and n.total > 0 %}
+      {%- if n.total == 1 %}{% set w = forms_s[0] %}{% elif n.total >= 2 and n.total <= 4 %}{% set w = forms_s[1] %}{% else %}{% set w = forms_s[2] %}{% endif %}
+      <li>
+        <a href="{{ s.permalink }}" data-prehled-item data-group="{{ L.explore_sections }}" data-value="{{ n.total }}" data-landing-card class="flex items-center justify-between gap-2 rounded-lg px-2 py-1.5 text-sm text-gray-900 hover:bg-primary-50 hover:text-primary-700 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:text-white dark:hover:bg-gray-700 dark:hover:text-primary-300 dark:focus:ring-primary-800">
+          <span data-prehled-title class="min-w-0 truncate">{{ s.title }}</span>
+          <span data-prehled-count class="shrink-0 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700 dark:bg-gray-700 dark:text-gray-300">{{ n.total | num_format }} {{ w }}</span>
+        </a>
+      </li>
+      {%- endif %}
+      {%- endfor %}
+    </ul>
+    <div class="mt-6 flex flex-wrap gap-3" data-landing-actions>
+      {%- for a in L.explore_actions %}{% if ("|" ~ a.path ~ "|") not in ia_weak %}<a href="{{ get_url(path='@/' ~ a.path) }}" class="{% if loop.first %}{{ btn_primary }}{% else %}{{ btn_secondary }}{% endif %}">{{ a.label }}</a>{% endif %}{% endfor %}
+    </div>
+  </section>
+</div>
+<script src="{{ get_url(path='js/viz/kompendium-viz.js', cachebust=true) }}" defer></script>
+<script src="{{ get_url(path='js/viz/prehled.js', cachebust=true) }}" defer></script>

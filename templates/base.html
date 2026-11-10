@@ -19,7 +19,7 @@
 {#- SEO, all derived from the page or section; nothing is typed per page. og_image is the one
     place the sharing image is chosen: the image of the page's top-level section
     (kompendium/<section>, glossary, philosophy, kompendium itself), rendered by
-    scripts/render-section-graphics.py into img/generated/og-<slug>.png; img/og.png when the
+    scripts/render-graphics.py into img/generated/og-<slug>.png; img/og.png when the
     page has no such section (the home page, root pages) or its image does not exist. -#}
 {%- set_global og_image = get_url(path="img/og.png") -%}
 {%- if ctx.relative_path is defined -%}

@@ -262,6 +262,65 @@
     if (pre.scrollWidth > pre.clientWidth) { pre.setAttribute('tabindex', '0'); pre.setAttribute('role', 'region'); pre.setAttribute('aria-label', 'Ukázka kódu'); }
   });
 
+  // --- Reading aids: current heading in the outline, heading links, progress, back to top -----
+  var article = document.querySelector('article .format');
+  if (article) {
+    var heads = Array.prototype.slice.call(article.querySelectorAll('h2[id], h3[id]'));
+    var tocLinks = Array.prototype.slice.call(document.querySelectorAll('[data-toc] a[href^="#"]'));
+    heads.forEach(function (h) {
+      var a = document.createElement('a');
+      a.href = '#' + h.id;
+      a.className = 'kea-anchor ml-2 text-gray-500 no-underline opacity-0 transition-opacity group-hover:opacity-100 focus:opacity-100 dark:text-gray-400';
+      a.setAttribute('aria-label', 'Odkaz na oddíl ' + h.textContent.trim());
+      a.textContent = '#';
+      a.addEventListener('click', function () {
+        try { navigator.clipboard.writeText(location.href.split('#')[0] + '#' + h.id); } catch (err) { /* optional */ }
+      });
+      h.classList.add('group', 'scroll-mt-24');
+      h.appendChild(a);
+    });
+    if (tocLinks.length && 'IntersectionObserver' in window) {
+      var byId = {};
+      tocLinks.forEach(function (l) { byId[decodeURIComponent(l.getAttribute('href').slice(1))] = l; });
+      var visibleHeads = {};
+      var spy = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) { visibleHeads[en.target.id] = en.isIntersecting; });
+        var currentId = null;
+        for (var i = 0; i < heads.length; i++) {
+          if (heads[i].getBoundingClientRect().top < 140) currentId = heads[i].id;
+        }
+        tocLinks.forEach(function (l) {
+          var on = byId[currentId] === l;
+          l.classList.toggle('font-semibold', on);
+          l.classList.toggle('text-primary-700', on);
+          l.classList.toggle('dark:text-primary-400', on);
+          if (on) l.setAttribute('aria-current', 'location'); else l.removeAttribute('aria-current');
+        });
+      }, { rootMargin: '-80px 0px -60% 0px', threshold: [0, 1] });
+      heads.forEach(function (h) { spy.observe(h); });
+    }
+    var bar = document.querySelector('[data-reading-progress]');
+    var topBtn = document.querySelector('[data-back-to-top]');
+    var ticking = false;
+    window.addEventListener('scroll', function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () {
+        var rect = article.getBoundingClientRect();
+        var total = rect.height - window.innerHeight * 0.6;
+        var done = Math.min(1, Math.max(0, -rect.top / (total > 0 ? total : 1)));
+        if (bar) bar.style.transform = 'scaleX(' + done + ')';
+        if (topBtn) topBtn.classList.toggle('hidden', window.scrollY < 800);
+        ticking = false;
+      });
+    }, { passive: true });
+    if (topBtn) topBtn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+      var main = document.getElementById('main');
+      if (main) main.focus({ preventScroll: true });
+    });
+  }
+
   // --- Mermaid: Zola emits <pre><code data-lang="mermaid"> with highlight spans -------------
   var mermaidBlocks = document.querySelectorAll('pre code[data-lang="mermaid"], pre code.language-mermaid');
 

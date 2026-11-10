@@ -1,0 +1,19 @@
+{#- The page outline below xl, where the right rail is hidden: a Flowbite collapse over the same
+    Zola TOC data as partials/toc.html (no second, hand-kept outline). -#}
+{%- set items = doc.toc -%}
+{%- if items | length == 1 and items[0].children -%}{%- set items = items[0].children -%}{%- endif -%}
+{%- if items | length > 2 %}
+<div class="mb-6 rounded-lg border border-gray-200 xl:hidden dark:border-gray-700">
+  <h2 class="m-0">
+    <button type="button" class="flex w-full items-center justify-between rounded-lg px-4 py-3 text-left text-sm font-semibold text-gray-900 hover:bg-gray-50 focus:ring-4 focus:ring-gray-200 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700" data-collapse-toggle="toc-mobile" aria-controls="toc-mobile" aria-expanded="false">
+      <span>Na této stránce</span>
+      <svg class="h-4 w-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+    </button>
+  </h2>
+  <ul id="toc-mobile" class="hidden space-y-1 border-t border-gray-200 px-4 py-3 text-sm dark:border-gray-700">
+    {%- for h in items %}
+    <li><a href="{{ h.permalink | safe }}" class="block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">{{ h.title }}</a></li>
+    {%- endfor %}
+  </ul>
+</div>
+{%- endif %}

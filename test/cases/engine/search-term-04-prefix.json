@@ -1,0 +1,139 @@
+{
+  "category": "term",
+  "expected": {
+    "code": null,
+    "hits": [
+      {
+        "code": null,
+        "in": 325,
+        "kind": "Pojem",
+        "path": "glossary/color-teams.md",
+        "tier": 4,
+        "title": "Color Teams (barevné týmy)",
+        "url": "/glossary/color-teams/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 29,
+        "kind": "Kapitola",
+        "path": "kompendium/02-uvod/vztah-k-decision-engine.md",
+        "tier": 5,
+        "title": "2.7 Vztah ke Decision Engine a Color Teams",
+        "url": "/kompendium/02-uvod/vztah-k-decision-engine/",
+        "why": "title_word"
+      },
+      {
+        "code": "EA-2.3.2",
+        "in": 28,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-2-3-2-context-collapse.md",
+        "tier": 5,
+        "title": "EA-2.3.2 Kolaps kontextu (context collapse)",
+        "url": "/kompendium/techniques/ea-2-3-2-context-collapse/",
+        "why": "title_word"
+      },
+      {
+        "code": "EA-6.1.3",
+        "in": 17,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-6-1-3-collateral-interview.md",
+        "tier": 5,
+        "title": "EA-6.1.3 Collateral interview (rozhovor s blízkými)",
+        "url": "/kompendium/techniques/ea-6-1-3-collateral-interview/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 15,
+        "kind": "Pojem",
+        "path": "glossary/metanarrative-collapse.md",
+        "tier": 5,
+        "title": "Metanarrative collapse (rozpad velkých vyprávění)",
+        "url": "/glossary/metanarrative-collapse/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 6,
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-color-teams.md",
+        "tier": 5,
+        "title": "Bridge: Color Teams (barevné týmy)",
+        "url": "/kompendium/glossary-bridges/bridge-color-teams/",
+        "why": "title_word"
+      },
+      {
+        "code": "EA-9.5.8",
+        "in": 6,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-9-5-8-meme-context-collapse.md",
+        "tier": 5,
+        "title": "EA-9.5.8 Meme Context Collapse",
+        "url": "/kompendium/techniques/ea-9-5-8-meme-context-collapse/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 5,
+        "kind": "Pojem",
+        "path": "glossary/integrative-collapse.md",
+        "tier": 5,
+        "title": "Integrative collapse (integrativní kolaps)",
+        "url": "/glossary/integrative-collapse/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 2,
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-metanarrative-collapse.md",
+        "tier": 5,
+        "title": "Bridge: Metanarrative collapse (rozpad velkých vyprávění)",
+        "url": "/kompendium/glossary-bridges/bridge-metanarrative-collapse/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 84,
+        "kind": "Pojem",
+        "path": "glossary/blue-team.md",
+        "tier": 6,
+        "title": "Blue Team",
+        "url": "/glossary/blue-team/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 53,
+        "kind": "Pojem",
+        "path": "glossary/black-team.md",
+        "tier": 6,
+        "title": "Black Team",
+        "url": "/glossary/black-team/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 35,
+        "kind": "Kapitola",
+        "path": "kompendium/01-predmluva/vztah-k-platforme.md",
+        "tier": 6,
+        "title": "1.6 Vztah ke Prismatic Platformě",
+        "url": "/kompendium/01-predmluva/vztah-k-platforme/",
+        "why": "description"
+      }
+    ],
+    "limit": 12,
+    "normalised": "col",
+    "ok": true,
+    "op": "search",
+    "query": "Col",
+    "schema": "kompendium-engine/v1",
+    "total": 14
+  },
+  "input": {
+    "op": "search",
+    "query": "Col"
+  }
+}

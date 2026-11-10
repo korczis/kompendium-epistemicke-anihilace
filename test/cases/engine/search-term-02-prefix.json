@@ -1,0 +1,139 @@
+{
+  "category": "term",
+  "expected": {
+    "code": null,
+    "hits": [
+      {
+        "code": null,
+        "in": 397,
+        "kind": "Pojem",
+        "path": "glossary/nabla-infinity.md",
+        "tier": 4,
+        "title": "NABLA Infinity (∇∞)",
+        "url": "/glossary/nabla-infinity/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 14,
+        "kind": "Kapitola",
+        "path": "kompendium/aiad-integration/nabla-infinity-ea-pipeline.md",
+        "tier": 4,
+        "title": "NABLA Infinity a detekce technik EA",
+        "url": "/kompendium/aiad-integration/nabla-infinity-ea-pipeline/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 14,
+        "kind": "Kapitola",
+        "path": "kompendium/forensic-legal/48-religious-exemption-EA.md",
+        "tier": 4,
+        "title": "Náboženské výjimky",
+        "url": "/kompendium/forensic-legal/48-religious-exemption-ea/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 13,
+        "kind": "Kapitola",
+        "path": "kompendium/international/17-religious-minority-EA/index.md",
+        "tier": 4,
+        "title": "Náboženské menšiny — EA",
+        "url": "/kompendium/international/17-religious-minority-ea/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 37,
+        "kind": "Kapitola",
+        "path": "kompendium/07-teoreticke-reflexe/computational-epistemology.md",
+        "tier": 5,
+        "title": "7.6 Computational epistemology a NABLA",
+        "url": "/kompendium/07-teoreticke-reflexe/computational-epistemology/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 32,
+        "kind": "Pojem",
+        "path": "glossary/nabla-axioms.md",
+        "tier": 5,
+        "title": "Axiomy NABLA",
+        "url": "/glossary/nabla-axioms/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 27,
+        "kind": "Kapitola",
+        "path": "kompendium/02-uvod/vztah-k-nabla.md",
+        "tier": 5,
+        "title": "2.6 Vztah ke Prismatic NABLA Infinity (∇∞)",
+        "url": "/kompendium/02-uvod/vztah-k-nabla/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 13,
+        "kind": "Kazuistika",
+        "path": "kompendium/case-studies/26-religiozni-fanatismus-exit.md",
+        "tier": 5,
+        "title": "Případ 26: Odchod z vysoce kontrolujícího náboženského společenství",
+        "url": "/kompendium/case-studies/26-religiozni-fanatismus-exit/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 13,
+        "kind": "Kapitola",
+        "path": "kompendium/educational-scenarios/18-cult-recruitment.md",
+        "tier": 5,
+        "title": "Vzdělávací scénář: Náborové techniky kultu",
+        "url": "/kompendium/educational-scenarios/18-cult-recruitment/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 12,
+        "kind": "Kazuistika",
+        "path": "kompendium/case-studies/49-religious-leadership.md",
+        "tier": 5,
+        "title": "Případ 49: Duchovní totalizace pod autoritou náboženského vedoucího",
+        "url": "/kompendium/case-studies/49-religious-leadership/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 6,
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-nabla-infinity.md",
+        "tier": 5,
+        "title": "Bridge: NABLA Infinity (∇∞)",
+        "url": "/kompendium/glossary-bridges/bridge-nabla-infinity/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 4,
+        "kind": "Kapitola",
+        "path": "kompendium/section-bridges/bridge-platform-nabla-to-kompendium.md",
+        "tier": 5,
+        "title": "Most: NABLA Infinity platformy → Kompendium",
+        "url": "/kompendium/section-bridges/bridge-platform-nabla-to-kompendium/",
+        "why": "title_word"
+      }
+    ],
+    "limit": 12,
+    "normalised": "nab",
+    "ok": true,
+    "op": "search",
+    "query": "NAB",
+    "schema": "kompendium-engine/v1",
+    "total": 41
+  },
+  "input": {
+    "op": "search",
+    "query": "NAB"
+  }
+}

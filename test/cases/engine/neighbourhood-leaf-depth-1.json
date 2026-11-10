@@ -1,0 +1,109 @@
+{
+  "category": "neighbourhood",
+  "expected": {
+    "depth": 1,
+    "edges": [
+      {
+        "from": "mapa.md",
+        "kind": "link",
+        "to": "kompendium/_index.md"
+      },
+      {
+        "from": "mapa.md",
+        "kind": "link",
+        "to": "matice.md"
+      },
+      {
+        "from": "mapa.md",
+        "kind": "link",
+        "to": "stav.md"
+      },
+      {
+        "from": "matice.md",
+        "kind": "link",
+        "to": "mapa.md"
+      },
+      {
+        "from": "matice.md",
+        "kind": "link",
+        "to": "stav.md"
+      },
+      {
+        "from": "stav.md",
+        "kind": "link",
+        "to": "about.md"
+      },
+      {
+        "from": "stav.md",
+        "kind": "link",
+        "to": "kompendium/_index.md"
+      },
+      {
+        "from": "stav.md",
+        "kind": "link",
+        "to": "mapa.md"
+      },
+      {
+        "from": "stav.md",
+        "kind": "link",
+        "to": "references.md"
+      }
+    ],
+    "limit": 28,
+    "nodes": [
+      {
+        "class": "root",
+        "distance": 0,
+        "in": 2,
+        "path": "stav.md",
+        "title": "Stav knihy"
+      },
+      {
+        "class": "kompendium",
+        "distance": 1,
+        "in": 119,
+        "path": "kompendium/_index.md",
+        "title": "Kompendium epistemické a kognitivní anihilace"
+      },
+      {
+        "class": "root",
+        "distance": 1,
+        "in": 4,
+        "path": "mapa.md",
+        "title": "Mapa knihy"
+      },
+      {
+        "class": "root",
+        "distance": 1,
+        "in": 4,
+        "path": "references.md",
+        "title": "Reference"
+      },
+      {
+        "class": "root",
+        "distance": 1,
+        "in": 3,
+        "path": "about.md",
+        "title": "O projektu"
+      },
+      {
+        "class": "root",
+        "distance": 1,
+        "in": 1,
+        "path": "matice.md",
+        "title": "Případy × techniky"
+      }
+    ],
+    "ok": true,
+    "op": "neighbourhood",
+    "path": "stav.md",
+    "schema": "kompendium-engine/v1",
+    "total": 5,
+    "truncated": false
+  },
+  "input": {
+    "depth": 1,
+    "op": "neighbourhood",
+    "path": "stav.md"
+  }
+}

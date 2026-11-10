@@ -40,27 +40,15 @@ Subjekt zasažený technikou nadále zná datum, dokáže rekonstruovat sekvenci
 
 Technika se odlišuje od běžné dezinformace o čase i od klasických [memorních manipulací](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md) tím, že nezasahuje obsah vzpomínek — atakuje **strukturální syntézu**, která z nich dělá biografii.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování paralelních referenčních rámců
+Temporální dekoherence se pozorovateli ukáže jako životní příběh bez společné časové osy. Obsah vzpomínek je dostupný, chybí jejich syntéza: subjekt mění chronologii téže události napříč rozhovory, aniž by si změny byl vědom. Vědomí času přitom stojí na spojení zadrženého a očekávaného, ne na úplnosti vzpomínek (Husserl, 1991).
 
-Subjekt je systematicky vystavován **vícero nekonzistentním** chronologiím téže biografie: pracovní timeline ≠ rodinná timeline ≠ terapeutická timeline ≠ právní timeline. Každý rámec je sám o sobě konzistentní; kolektivně se však **nikdy nesjednocují**. Subjekt postupně přestává mít jediný master-narativ.
+V retrospektivě se znaky objevují v tomto sledu: rozpad jednotné časové linie, afekty bez lokalizovatelného zdroje v čase, mluvení o sobě v minulosti jako o někom jiném a nakonec rozhodnutí činěná v úzkém přítomném okně. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Opakované rekonstrukce téže události přitom samy mění její podobu v paměti (Loftus & Pickrell, 1995).
 
-### Krok 2 — Rozpojení afektu od události
+Diferenciální znak uvedený na této stránce zní, že přirozená dekoherence po velkém životním zlomu se s časem reorganizuje, kdežto indukovaná postupuje. Herman (1992) popisuje tento rozdíl v trajektorii jako klíčový pro odlišení následků jednorázové události od následků trvalého tlaku prostředí.
 
-Konkrétní afektivní stavy (úzkost, hanba, úleva) jsou opakovaně vázány na *jinou* než původní událost — typicky cestou interpretačních reformulací: „to, co cítíš, není o X, je to vlastně o Y, které se stalo dřív/později“. Postupně se afekty stávají **mobilními** a přestávají sloužit jako kotvy biografické paměti.
-
-### Krok 3 — Neutralizace prediktivní hodnoty minulosti
-
-Manipulátor systematicky podkopává **kauzální linkování** mezi minulými vzorci a současným chováním subjektu: „to bylo tehdy, ty už nejsi tehdejší ty“, případně opačně „ty jsi pořád ten, kým jsi byl, dnešní ty je iluze“. Obě strategie produkují tentýž efekt — minulost přestává **predikovat** přítomnost a budoucnost.
-
-### Krok 4 — Indukce protentivního rozkladu
-
-Plánování budoucnosti je systematicky narušováno: každý plán je rekonstextualizován tak, že subjekt přestává vnímat **kontinuitu agenta**, který plán uskuteční. Otázky typu „Kdo přesně to udělá? Ten, kým jsi teď, nebo ten, kým budeš?“ nejsou metafyzicky bezzubé — opakovaně aplikované rozpadají subjektivní jistotu, že existuje jeden agent, který minulé záměry promění v budoucí činy.
-
-### Krok 5 — Konsolidace skrze „věčnou přítomnost“
-
-Subjekt se postupně stahuje do **úzkého teď** zbaveného retence i protence. Tento stav je manipulátorem prezentován jako *osvobození*, *autenticita*, *přítomnost-bez-zátěže*. Ve skutečnosti je to projev pokročilé temporální dekoherence — subjekt přestal být schopen unést **integrované Já napříč časem** a redukoval se na sérii nekontinuálních epizod.
+*Interpretace knihy*: vzorec je zde popsán proto, aby ho klinik a vyšetřovatel rozpoznali u svědků a pacientů, ne aby ho kdokoli navozoval. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Fenomenologie
 
@@ -180,6 +168,13 @@ Vedoucí pracovník po sérii reorganizací prožíval „kariérní biografii�
 - **NABLA Infinity provenance tracking** — každé tvrzení časově kotveno, takže narrativní drift lze detekovat algoritmicky.
 - **Investigative protocols** — [forenzní výslech](@/glossary/dual-use-poznani.md) v Prismatic explicitně chrání před indukcí dekoherence opakovanými rekonstrukcemi.
 
+## Literatura
+
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Husserl, E. (1991). *On the Phenomenology of the Consciousness of Internal Time*. Kluwer.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Loftus, E. F., & Pickrell, J. E. (1995). The formation of false memories. *Psychiatric Annals*, 25(12), 720–725.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/_index.md)
@@ -201,9 +196,9 @@ Vedoucí pracovník po sérii reorganizací prožíval „kariérní biografii�
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -214,8 +209,10 @@ Vedoucí pracovník po sérii reorganizací prožíval „kariérní biografii�
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

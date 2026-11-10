@@ -40,24 +40,15 @@ Tento článek **nemá operační charakter**: jeho účelem je výhradně **def
 
 Mechanismus, kterým technika operuje uvnitř supervidovaného rámce, spočívá v: dlouhodobé monitorování stability sebepojetí, opakované re-validační body a strukturovaná podpůrná síť v post-protokolové fázi. Tento popis slouží jako **referenční rámec pro detekci**, nikoliv jako návod k provedení.
 
-## Operační modus (z hlediska supervize)
+## Struktura vzorce
 
-Technika prochází pěti supervizními fázemi, z nichž každá vyžaduje explicitní [souhlas subjektu](@/glossary/informed-consent.md), [IRB](@/glossary/irb-review.md) přezkum a doložitelnou kvalifikaci supervizora.
+Stabilizace identity je obnovovací cíl, a rozpoznatelným vzorcem je proto stav, kdy se jí nedosáhne a kdy je nestabilita vykládána jako vlastnost člověka. Pozorovatel vidí sebepopis, který se mění podle toho, kdo je právě přítomen, a člověka, který to o sobě ví a považuje to za svou povahu. Identita se přitom tvoří a udržuje ve vztazích, nikoli izolovaně (Neisser, 1988).
 
-### Fáze 1 — Indikační audit
-Identifikace, zda u konkrétního subjektu existuje legitimní indikace pro vstup do protokolu, a vyloučení známých kontraindikací (komorbidní psychiatrické poruchy, akutní krize, nedostatečná podpůrná síť).
+Retrospektivně se znaky objevují v tomto sledu: ztráta stabilního sebepopisu, pokus o jeho nahrazení rolí nabídnutou prostředím, krátkodobá úleva a opětovný rozpad při změně prostředí. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Zotavení z takového stavu probíhá ve fázích a jeho předpokladem je bezpečí, ne další expozice (Herman, 1992).
 
-### Fáze 2 — Pre-expoziční stabilizace
-Etablování stabilní baseline psychofyzické kapacity subjektu, vytvoření individualizované [risk map](@/glossary/individual-risk-map.md) a explicitní dohoda o termincích zastavení.
+Zasažený člověk referuje, že „je s každým někdo jiný“, a tuto zkušenost popisuje se studem. Klinické markery této stránky — změny narativní koherence napříč konzultacemi — zachycují totéž z vnějšku.
 
-### Fáze 3 — Řízená expozice
-Postupná expozice s nepřetržitým monitoringem, eskalačními prahy a předem definovanými exit kritérii. Každý krok je dokumentován a podléhá supervizní validaci.
-
-### Fáze 4 — Stabilizace a integrace
-Sjednocení expoziční zkušenosti do koherentní sebestruktury subjektu pod klinickou supervizí.
-
-### Fáze 5 — Dlouhodobé sledování
-Monitorování po dobu nejméně 24 měsíců s předem definovanými kontrolními body a dostupnou eskalační cestou.
+*Interpretace knihy*: tato stránka popisuje cíl, podle kterého se pozná jeho nepřítomnost, nikoli postup prováděný na člověku. Čtenářskou pozici kompendia vymezuje [jak kompendium používat](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 ## Bezpečnostní rámec
 
@@ -115,17 +106,17 @@ Technika **EA-4.4.10** se historicky vyvinula z konvergence několika klinickýc
 
 Aplikace techniky **EA-4.4.10** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), zkrácená sezení (30-45 min vs. 60-90 min standard), vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (model TF-CBT), zkrácená sezení proti dospělému standardu, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
 **Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
 
 **Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci (atypická antipsychotika), úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise (≥ 90 dní), poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+**Komorbidní substance use disorders**: doporučená sekvence — primární léčba závislosti do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training 12-24 týdnů) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (nácvik dovedností DBT) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence do 6 měsíců post-partum.
+**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; v těhotenství a v poporodním období jsou preferovány sensorimotorické a stabilizační intervence.
 
 ## Outcome měření
 
@@ -135,18 +126,18 @@ Validace efektivity techniky vyžaduje multidimenzionální outcome battery apli
 
 | Instrument | Doména | Klinicky významná změna |
 |------------|--------|--------------------------|
-| **PCL-5** | PTSD symptomy (DSM-5) | ≥ 10-bodová redukce, sub-threshold < 33 |
-| **ITQ** | ICD-11 PTSD/CPTSD | DSO klinicky pod prahem, redukce ≥ 30% |
-| **CAPS-5** | Klinicián-administrovaná PTSD | ≥ 30% redukce celkového skóru |
-| **DERS** | Emoční regulace | g ≥ 0.5 pre-post |
-| **WHODAS 2.0** | Funkční disabilita | ≥ 5-bodová redukce |
+| **PCL-5** | PTSD symptomy (DSM-5) | redukce a pokles pod klinický práh podle manuálu nástroje |
+| **ITQ** | ICD-11 PTSD/CPTSD | doména DSO pod klinickým prahem |
+| **CAPS-5** | Klinicián-administrovaná PTSD | redukce celkového skóru podle manuálu nástroje |
+| **DERS** | Emoční regulace | zlepšení emoční regulace proti baseline |
+| **WHODAS 2.0** | Funkční disabilita | pokles funkční disability proti baseline |
 
 **Sekundární outcome**:
 
-- **PHQ-9** (depresivní symptomatologie, target < 10)
-- **GAD-7** (úzkostná symptomatologie, target < 10)
-- **DES-II** (disociativní symptomatologie, target < 30)
-- **WAI-SR** (terapeutická aliance, target ≥ 25. percentil)
+- **PHQ-9** (depresivní symptomatologie)
+- **GAD-7** (úzkostná symptomatologie)
+- [DES-II](@/glossary/des-ii.md) (disociativní symptomatologie)
+- **WAI-SR** (terapeutická aliance)
 - **CGI-S** (klinické globální zhodnocení)
 - **PSQI** (kvalita spánku)
 
@@ -154,8 +145,8 @@ Validace efektivity techniky vyžaduje multidimenzionální outcome battery apli
 
 - **Reliable Change Index (RCI)** > 1.96 na PCL-5 (Jacobson & Truax, 1991)
 - **Clinical Significance**: post-treatment skór v rámci 1 SD nontraumatizované normy
-- **Functional Recovery**: WHODAS 2.0 skór ≤ percentil 75 srovnatelné populace
-- **Sustained Remission**: udržení nad RCI prahem v 12měsíčním FU
+- **Functional Recovery**: skór WHODAS 2.0 v pásmu srovnatelné nontraumatizované populace
+- **Sustained Remission**: udržení nad prahem RCI v ročním follow-up
 
 ## Vztah k jiným technikám
 
@@ -179,6 +170,7 @@ Validace efektivity techniky vyžaduje multidimenzionální outcome battery apli
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
 - McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*.
+- Neisser, U. (1988). Five kinds of self-knowledge. *Philosophical Psychology*, 1(1), 35–59.
 
 ## Související
 
@@ -199,12 +191,15 @@ Validace efektivity techniky vyžaduje multidimenzionální outcome battery apli
 - [Identity destruction](@/glossary/identity-destruction.md) – co stabilizace napravuje.
 - [Sebe-obrana: Časové sešívání já](@/kompendium/self-defense-guides/49-temporal-self-stitching.md) – kontinuita já v čase.
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před jakoukoliv prací s touto technikou** (i v rámci čistě diagnostické konzultace) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L2 = doložená kvalifikace + supervize).
 - Máš funkční [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) na úrovni odpovídající rizikovému profilu techniky.
 - Pokud diagnostikuješ na sobě nebo na blízkém kontaktu, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně, IRB rámce a klinické supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický a defenzivní popis pro detekci.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).

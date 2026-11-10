@@ -40,42 +40,15 @@ Na rozdíl od běžné akademické **přivlastňovací krádeže** (plagiátu) o
 
 Technika je strukturálně blízká [epistemické alienaci](@/glossary/epistemicka-alienace.md) (subjekt se odcizuje vlastnímu poznání), ale jde dále: nejen že subjekt **nedůvěřuje** vlastnímu poznání, ale postupně **přestává prožívat vlastní poznání jako vlastní**. V terminálních stadiích vede k stavu, který literatura označuje jako *epistemický autoplagiát* — subjekt cituje vlastní myšlenku jako cizí, protože ji vnímá jako pocházející od manipulátora.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích, jejichž posloupnost je iterativní (cyklus se opakuje s rostoucí intenzitou):
+Epistemická kanibalizace se pozorovateli neohlašuje jako krádež, ale jako postupné mizení autorské stopy jedné strany ve prospěch druhé. Pozorovatel slyší od manipulátora myšlenky, které dříve slyšel od subjekta, a vidí, že subjekt je přijímá jako cizí. Nejde přitom jen o upřený kredit: poškozena je schopnost být vůbec uznán za zdroj poznání (Fricker, 2007).
 
-### Krok 1 — Etablování asymetrické intelektuální blízkosti
+Retrospektivně se znaky objevují v tomto pořadí: asymetricky intenzivní intelektuální blízkost, pohlcení a reframování subjektovy formulace, zpětná devalvace jeho rané produkce a nakonec citační inverze, kdy subjekt cituje jako cizí to, co sám formuloval. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Prostředí, v němž je jediná osoba zdrojem všeho relevantního poznání, popisuje Lifton (1961).
 
-Manipulátor vstupuje do **dlouhodobého intelektuálního vztahu** se subjektem (mentor–student, supervizor–doktorand, terapeut–klient, charizmatický vůdce–následovník, intimní intelektuální partner). Vztah je etablován jako **bezpečný prostor** pro sdílení rozpracovaných myšlenek — subjekt je explicitně povzbuzován, aby formuloval **rané, nehotové, spekulativní** vhledy. Klíčová je **asymetrie viditelnosti**: subjekt sdílí, manipulátor naslouchá a syntetizuje.
+Zasažený člověk referuje vděčnost rostoucí s mírou pohlcení a paniku při představě intelektuální samostatnosti. Diferenciální znak uvedený na této stránce — symetrie versus asymetrie prospěchu — odlišuje kanibalizaci od konvergentního vývoje mezi spolupracovníky; Herman (1992) popisuje tutéž asymetrii u vztahů s mocenským spádem.
 
-### Krok 2 — Tichá akumulace subjektovy produkce
-
-Manipulátor **systematicky zaznamenává** subjektovy formulace — někdy explicitně (poznámky, nahrávky, transkripty terapeutických sezení), častěji implicitně (mentální archivace charakteristických metafor, struktur argumentů, originálních pozorování). Akumulace je **neviditelná** pro subjekt: probíhá pod značkou pozornosti a péče. V této fázi není ještě nic pohlceno.
-
-### Krok 3 — Reframování a reatribuce
-
-Po **temporálním odstupu** (týdny, měsíce, někdy roky) manipulátor formuluje subjektovu produkci v **reframovaném tvaru** a prezentuje ji:
-
-- Subjektu samému, jako **vlastní vhled** manipulátora („napadlo mě, že…“)
-- Třetím stranám, jako součást manipulátorova publikovaného korpusu
-- Komunitě, jako manipulátorovu **signaturní pozici**
-
-Reframování je obvykle dostatečné, aby subjekt nerozpoznal pohlcení jako přímou krádež, ale **dostatečně blízké**, aby v subjektu rezonoval pocit důvěrnosti — a aby se subjekt ztotožnil s manipulátorovou pozicí jako „správnou“, protože v ní rozeznává vlastní rané intuice (které již ale nedokáže lokalizovat jako vlastní).
-
-### Krok 4 — Kapacitní devalvace zdroje
-
-Paralelně s pohlcováním manipulátor **systematicky devalvuje** subjektovu epistemickou kapacitu: jeho rané formulace jsou označovány za „zajímavé, ale nehotové“, „dobrá intuice, ale chybějící rigor“, „máš na to talent, ale potřebuješ vedení“. Tato devalvace **legitimizuje pohlcení**: pokud je subjekt epistemicky nezralý, je manipulátorovo „dotvoření“ jeho idejí přínosem, nikoli krádeží.
-
-### Krok 5 — Konsolidace epistemické závislosti
-
-Subjekt se postupně dostává do stavu, v němž:
-
-- **Nedůvěřuje** vlastním vhledům, dokud nejsou validovány manipulátorem
-- **Připisuje** manipulátorovi i ty ideje, které byly evidentně subjektovými
-- **Reprodukuje** manipulátorovu pozici, aniž by si byl vědom, že je to recyklace vlastního dřívějšího myšlení
-- **Cítí se vděčný** za manipulátorovu „stimulaci“, která je ve skutečnosti recyklací subjektova vlastního výkonu
-
-V terminálním stadiu subjekt **nedokáže produkovat** epistemické výstupy bez manipulátorovy validace — autorská kapacita byla **kanibalizována zevnitř**.
+*Interpretace knihy*: rozhodující není podobnost myšlenek, ale to, zda zůstává dohledatelné, kdo je formuloval první. Rámec, v němž kompendium tuto otázku klade, popisují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Fenomenologické znaky
 
@@ -206,6 +179,13 @@ Epistemická kanibalizace je **strukturálním motivem** pro několik defenzivn�
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) authorship invariants** — epistemický pipeline zachovává atribuci napříč všemi transformacemi; ztráta atribuce je flagována jako anomálie.
 - **[Color Teams](@/glossary/color-teams.md) red-team protocol** — periodická revize asymetrických intelektuálních vztahů v rámci Prismatic operací s explicitní detekcí kanibalizačních vzorců.
 
+## Literatura
+
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*, 5(2), 100–122.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
@@ -231,9 +211,9 @@ Epistemická kanibalizace je **strukturálním motivem** pro několik defenzivn�
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -244,8 +224,10 @@ Epistemická kanibalizace je **strukturálním motivem** pro několik defenzivn�
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

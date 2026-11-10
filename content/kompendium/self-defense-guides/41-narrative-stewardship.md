@@ -1,6 +1,6 @@
 +++
 title = "Sebe-obrana: Správa narativu"
-description = "Praktický návod sebe-obrany — správa narativu."
+description = "Jak si udržet vlastní příběh o tom, kdo jste, a nenechat ho přepsat partnerem, skupinou či veřejnou kampaní – návod pro ochranu identity."
 weight = 41
 
 [taxonomies]
@@ -8,66 +8,102 @@ tags = ["kompendium", "self-defense-guide", "identity"]
 categories = ["academic", "practical"]
 
 [extra]
-related_terms = ["4-claim-verification", "40-ai-content-detection", "42-relational-anchors", "43-memory-archive"]
+related_terms = ["42-relational-anchors", "43-memory-archive", "45-life-story-integration", "49-temporal-self-stitching"]
 parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
 # Sebe-obrana: Správa narativu
 
+Každý člověk nosí v sobě příběh o tom, kdo je: odkud přišel, čím prošel, čeho si cení, kam směřuje. Psychologie mluví o [narativní identitě](@/glossary/narativni-identita.md) – identitě, kterou si skládáme a vyprávíme. Tento příběh je zároveň místem, kam manipulace míří nejhlouběji. Kontrolující partner přepisuje minulost („vždycky jsi byl neschopný“), skupina dává nový příběh se zlomem („před námi jsi byl ztracený“), veřejná kampaň vytváří o člověku obraz, který s ním nemá nic společného. Správa narativu znamená vědomě pečovat o vlastní příběh – nenechat ho zatuhnout, ale ani ho nechat psát někým jiným.
+
+## Pro koho je návod
+
+- Pro člověka, kterému někdo opakovaně říká, „jaký doopravdy je“, a on tomu začíná věřit.
+- Pro ty, kdo vycházejí ze skupiny, která jejich život rozdělila na „před“ a „po obrácení“.
+- Pro lidi, o nichž se veřejně nebo v komunitě šíří zkreslený příběh.
+
+## Situace, ve kterých pomáhá
+
+Pomáhá ve vztazích, kde se minulost neustále přepisuje ([gaslighting](@/glossary/gaslighting.md)); ve skupinách, které vyžadují „svědectví“ o tom, jak zlý byl život před vstupem; po rozvodu, kdy bývalý partner šíří svou verzi; při pracovní kampani proti člověku; a po odchodu z manipulativního prostředí, kdy je potřeba příběh znovu převzít. Kniha popisuje, jak se narativ může rozpadnout ([fragmentace narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md)) a jak ho lze rekonstruovat ([narativní rekonstrukce](@/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md)).
+
+## Varovné signály
+
+- Svůj život vyprávíte slovy, která vám dal někdo jiný.
+- Minulost, na kterou jste byli hrdí, se vám zdá „falešná“ nebo „hříšná“.
+- Když se vás někdo zeptá, kdo jste, nevíte, co odpovědět.
+- Druzí o vás mluví tak, že se v tom nepoznáváte – a vy se přestáváte bránit.
+- Zlom v příběhu („do té doby jsem byl nic“) je spojen se vstupem do vztahu nebo skupiny.
+
+## Modelová situace
+
+Žena po patnácti letech v náboženské komunitě vyprávěla svůj život jako „temné období hříchu“, po němž přišlo „vysvobození“. Když komunitu opustila, zjistila, že o svém dětství a dospívání neumí mluvit jinak. S terapeutkou si rozdělila život do kapitol a každé dala vlastní název. Kapitola „Gymnázium a první divadlo“ byla plná radosti, kterou komunita označovala za „marnost“. Příběh si tak postupně vzala zpět. (Anonymizovaný kompozit.)
+
 ## Cíl dovednosti
 
-Aktivně formovat a udržovat příběh o tom, kdo jste, místo aby ho psali jiní nebo náhoda.
+Aktivně formovat a udržovat vlastní příběh o tom, kdo jste, rozpoznávat cizí verze, které se vám vnucují, a umět je odmítnout – a přitom příběh nechat otevřený změně a pravdě.
 
 ## Pět praktických cvičení
 
 ### 1. Kapitoly života
 
-Rozdělte svůj život na 5-7 kapitol. Pojmenujte každou. Co byla témata, výzvy, lekce? Vlastní kanonický příběh.
+Rozdělte svůj život do pěti až sedmi kapitol a každou pojmenujte. Jaká byla témata, výzvy, lidé, radosti, naučené věci? Pište vlastními slovy. Pokud se vám do názvů vkrádá slovník skupiny nebo osoby, která vás ovládala, zkuste ho nahradit.
 
-### 2. Tří přídavných jmen
+### 2. Tři slova
 
-Najděte 3 přídavná jména, která definují, kým chcete být (např. zvědavý, laskavý, odvážný). Ráno si je připomeňte.
+Najděte tři slova, která vystihují, kým chcete být (například zvědavý, laskavý, odvážný). Připomínejte si je ráno. Slouží jako kompas, ne jako hodnocení.
 
-### 3. Editor cizích narativů
+### 3. Oprava cizího příběhu
 
-Když vám někdo říká, kdo jste ('jsi takový/á…'), aktivně zhodnoťte: souhlasím? Pokud ne, ústně koregujte: 'Tak se nevidím. Vidím se jako…'
+Když vám někdo říká, kdo jste („ty jsi prostě takový…“), zastavte se a v duchu se zeptejte: Souhlasím? Pokud ne, můžete – kde je to bezpečné – klidně odpovědět: „Tak se nevidím.“ Kde to bezpečné není, stačí si opravu zapsat.
 
-### 4. Týdenní inkrement
+### 4. Týdenní přírůstek
 
-Každý týden přidejte k narativu 1 konkrétní událost, která potvrzuje, kým chcete být. Stavíte historii.
+Každý týden zapište jednu konkrétní událost, která odpovídá tomu, kým jste nebo chcete být. Příběh se buduje z drobných, doložených kroků.
 
 ### 5. Roční přepis
 
-Konec roku 2 hodiny: přepište svůj narativ s tím, co rok přidal. Co je teď příběh? Kam jde?
+Na konci roku si vyhraďte dvě hodiny na přepsání svého příběhu s tím, co rok přinesl. Co se změnilo? Kam příběh směřuje? Přepis není popírání minulosti, ale její začlenění.
 
-## Časový rámec
+## Jak si vést záznam
 
-Týdenní 15 minut + roční hluboká revize 2 hodiny; ranní 1minutové připomenutí.
+Kapitoly života a týdenní přírůstky uchovávejte v sešitu nebo souboru, ke kterému nemá přístup nikdo jiný. Pokud někdo šíří zkreslený příběh o vás (pomluvy, kampaň), uchovávejte doklady o tom, co skutečně proběhlo – e-maily, dokumenty, svědky –, odděleně od svého osobního příběhu. Osobní záznamy slouží vám; doklady slouží případnému řízení.
 
-## Indikátory pokroku
+## Časový rámec a indikátory pokroku
 
-Větší pocit kontinuity; klesající identitní mlha; jasnější rozhodování ve shodě se sebou.
+Týdně čtvrt hodiny, ráno krátké připomenutí, jednou ročně hlubší přepis. Pokrok poznáte podle většího pocitu souvislosti života, menší „mlhy“ v otázce, kdo jste, a jasnějších rozhodnutí v souladu se sebou. Dobrým znamením je, že dokážete o svém životě vyprávět bez slovníku těch, kdo vás ovládali.
 
-## Limitace
+## Kdy a koho požádat o pomoc
 
-Narativ může zatuhnout v sebeklam. Pravidelně ho konfrontujte s realitou cizích pohledů.
+- Pokud je váš příběh rozbitý natolik, že nevíte, kdo jste, nebo se objevují pocity odcizení vlastnímu já, vyhledejte psychologa či psychoterapeuta; vhodná je například [narativní terapie](@/glossary/narativni-terapie.md).
+- Pokud se o vás šíří nepravdivé informace, které vám škodí, poraďte se s advokátem.
+- Při krizi identity s beznadějí nebo myšlenkami na sebepoškození volejte Linku první psychické pomoci 116 123; v akutním ohrožení 112 nebo 155.
 
-## Cross-linky
+## Čeho se vyvarovat
 
-- [Vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md) — sebe-obrana (identitní)
-- [Paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md) — sebe-obrana (identitní)
-- [Vyjasnění hodnot](@/kompendium/self-defense-guides/44-axiology-clarification.md) — sebe-obrana (identitní)
-- [Integrace životního příběhu](@/kompendium/self-defense-guides/45-life-story-integration.md) — sebe-obrana (identitní)
-- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
-- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
-- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
-- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- Nekonfrontujte osobu, která váš příběh přepisuje, pokud je nebezpečná; váš příběh nepotřebuje její souhlas.
+- Nevyměňujte jeden vnucený příběh za jiný (například „jsem jen oběť“), pokud vám nesedí.
+- Nepoužívejte vlastní příběh k popírání odpovědnosti za skutečné chyby.
 
-## Connect
+## Meze svépomoci
 
-- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
-- [Kompendium epistemické anihilace](@/kompendium/_index.md)
-- [Akademie Prismatic](https://prismatic-platform.com/academy)
-- [GitHub: kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+Narativ může zatuhnout v sebeklam; pravidelně ho porovnávejte s pohledem lidí, kterým důvěřujete, a s doklady. Po dlouhodobé manipulaci bývá příběh přerušen traumatem a jeho rekonstrukce je úkol pro terapii, ne jen pro deník ([středně-dobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md)).
+
+## Související
+
+**Návody pilíře identity**
+
+- [Paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md) – doklady, o které se příběh opírá.
+- [Integrace životního příběhu](@/kompendium/self-defense-guides/45-life-story-integration.md) – propojení fragmentů.
+- [Vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md) – lidé, kteří znají váš příběh.
+- [Časové sešívání já](@/kompendium/self-defense-guides/49-temporal-self-stitching.md) – minulé a budoucí já.
+
+**Pojmy a teorie**
+
+- [Narativní identita (Narrative Identity)](@/glossary/narativni-identita.md) – identita jako příběh.
+- [Narrative Trauma](@/glossary/narrative-trauma.md) – trauma, které příběh trhá.
+- [Ricoeur: Trojí mimésis a narativní identita](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md) – filozofické zázemí.
+
+**Protokoly**
+
+- [Subakutní narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md) – oddělení problému od člověka.

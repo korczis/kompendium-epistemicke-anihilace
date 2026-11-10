@@ -1,6 +1,6 @@
 +++
 title = "Sebe-obrana: Zapojení do komunity"
-description = "Praktický návod sebe-obrany — zapojení do komunity."
+description = "Jak patřit do živých komunit se skutečnou interakcí a sdílenou odpovědností a rozpoznat komunitu, která místo opory začíná ovládat."
 weight = 28
 
 [taxonomies]
@@ -8,66 +8,103 @@ tags = ["kompendium", "self-defense-guide", "social"]
 categories = ["academic", "practical"]
 
 [extra]
-related_terms = ["26-isolation-prevention", "27-mentor-evaluation", "29-conflict-resolution", "3-source-triangulation"]
+related_terms = ["25-network-diversification", "26-isolation-prevention", "27-mentor-evaluation", "29-conflict-resolution"]
 parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
 # Sebe-obrana: Zapojení do komunity
 
+Komunita – spolek, sbor, sportovní oddíl, sousedská skupina, profesní společenství – dává člověku místo, roli a lidi, kteří ho znají. To je silná ochrana: kdo patří do zdravé komunity, má kde porovnat své vnímání a kam se obrátit. Ale komunita může být i nástrojem kontroly. Skupiny s vysokou mírou kontroly nabízejí právě to, co lidé hledají – přijetí, smysl, rodinu – a za to požadují poslušnost a odpojení od ostatních. Tento návod učí, jak se zapojit do komunit, které posilují, a jak poznat tu, která začíná ovládat ([high control group](@/glossary/high-control-group.md)).
+
+## Pro koho je návod
+
+- Pro člověka, který se cítí osamělý a hledá místo, kam patřit.
+- Pro ty, kdo jsou silně zapojeni v jedné komunitě a chtějí si ověřit, že je zdravá.
+- Pro lidi po odchodu ze skupiny, kteří se bojí nového zapojení, ale komunitu potřebují.
+
+## Situace, ve kterých pomáhá
+
+Pomáhá po přestěhování, odchodu do důchodu, rozvodu nebo ztrátě práce; při hledání duchovního nebo hodnotového společenství; u mladých lidí, které oslovují online komunity s intenzivní identitou; a po odchodu z uzavřené skupiny, kdy hrozí, že si člověk najde jinou, stejně uzavřenou ([vzdělávací scénář náborových technik](@/kompendium/educational-scenarios/18-cult-recruitment.md)).
+
+## Varovné signály nezdravé komunity
+
+- Velmi rychlé a intenzivní přijetí, po kterém přicházejí rostoucí požadavky.
+- Odrazování od vztahů a informací mimo komunitu.
+- Kritika vedení se trestá; pochybnosti jsou „slabostí“.
+- Odchod je spojen s hrozbou ztráty všech přátel nebo s duchovními tresty.
+- Neprůhledné finance a stále rostoucí příspěvky.
+- Komunita vyžaduje stále víc času, až nezbývá na nic jiného.
+
+## Modelová situace
+
+Žena po odchodu do důchodu ztratila každodenní kontakt s lidmi. Zapojila se do pěveckého sboru, do knihovního čtenářského kroužku a pomáhala v místním spolku. Když ji později oslovila skupina, která nabízela „duchovní rodinu“ a brzy chtěla, aby přestala chodit do sboru, měla s kým o tom mluvit. Přátelé ze sboru jí pomohli vidět, že skupina chce její čas a peníze, a ona zůstala tam, kde jí bylo dobře. (Anonymizovaný kompozit.)
+
 ## Cíl dovednosti
 
-Patřit do živých komunit s reálnou interakcí a sdílenou zodpovědností, nejen virtuálně.
+Patřit do živých komunit se skutečnou interakcí a sdílenou odpovědností – nejen virtuálně – a umět rozpoznat komunitu, která místo opory začíná kontrolovat.
 
 ## Pět praktických cvičení
 
-### 1. 3 komunity pravidlo
+### 1. Více komunit
 
-Buďte aktivně součástí minimálně 3 různých komunit (profesní, hobby, hodnotová). Žádná závislost na jediné.
+Buďte součástí několika různých komunit – například pracovní, zájmové a hodnotové. Žádná by neměla být jedinou. Pokud jedna z nich vyžaduje, abyste ostatní opustili, je to varovný signál.
 
-### 2. Příspěvek vs. konzumace
+### 2. Dávat i brát
 
-V každé komunitě sledujte poměr toho, co dáváte/berete. Cíl 60:40 ve prospěch dávání.
+V každé komunitě sledujte, co dáváte a co dostáváte. Zdravá komunita má vyváženost: přispíváte, ale také dostáváte podporu. Pokud jen dáváte – čas, peníze, práci – a podpora se objevuje jen, když posloucháte, zbystřete.
 
 ### 3. Skutečná setkání
 
-Online komunity dobré, fyzická setkání nezbytná. Najděte alespoň 1 fyzickou komunitu se setkáními minimálně měsíčně.
+Online komunity mohou být dobré, ale osobní setkávání je nenahraditelné. Najděte alespoň jednu komunitu, kde se lidé vídají osobně a pravidelně.
 
-### 4. Závazek role
+### 4. Role
 
-Převezměte v komunitě konkrétní roli (organizátor, mentor, archivář). Role přitahuje k pravidelnosti.
+Převezměte v komunitě konkrétní, ohraničenou roli (organizátor, pokladník, archivář, průvodce nováčků). Role dává pravidelnost a smysl. Dbejte, aby role měla jasné hranice a dala se předat.
 
-### 5. Diverzifikace
+### 5. Vnitřní rozmanitost
 
-Vyhněte se komunitám, kde všichni myslí stejně. Hledejte skupinu s respektovanou vnitřní pluralitou.
+Vyhledávejte komunity, kde se o věcech diskutuje a kde je nesouhlas respektován. Komunita, ve které všichni myslí stejně, je pohodlná, ale méně odolná.
 
-## Časový rámec
+## Jak si vést záznam
 
-Měsíční účast minimum, týdenní mikrokontakt; půlroční hodnocení kvality komunit.
+Pokud máte pochybnosti o komunitě, zapisujte si: kolik času a peněz jí věnujete, jaké požadavky přibyly, jak se mluví o lidech mimo komunitu a o těch, kdo odešli, jak se reaguje na otázky. Po několika měsících uvidíte, zda se požadavky zvyšují. Záznamy uchovávejte mimo prostor komunity.
 
-## Indikátory pokroku
+## Časový rámec a indikátory pokroku
 
-Vyšší pocit smyslu; sociální kapitál; menší existenciální úzkost.
+Alespoň jednou měsíčně osobní účast, každý týden drobný kontakt; jednou za půl roku zhodnocení kvality komunit. Pokrok poznáte podle vyššího pocitu smyslu, sociálního zázemí, menší existenciální úzkosti – a podle toho, že vám žádná komunita nebrání v ostatních vztazích.
 
-## Limitace
+## Kdy a koho požádat o pomoc
 
-Zapojení vyžaduje čas a kompromis. Hyperaktivita ve více komunitách může vést k povrchnosti.
+- Pokud máte podezření, že komunita, ve které jste vy nebo váš blízký, má znaky manipulativní skupiny, poraďte se s psychologem nebo specializovanou poradnou pro oběti sekt a manipulativních skupin.
+- Pokud odchod ze skupiny provázejí výhrůžky, poraďte se s policií (158) nebo s linkou 116 006.
+- Při psychické krizi po odchodu volejte Linku první psychické pomoci 116 123; v akutním ohrožení 112 nebo 155 ([emergency pro bývalé členy](@/kompendium/emergency-protocols/28-ex-cult-emergency.md)).
 
-## Cross-linky
+## Čeho se vyvarovat
 
-- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
-- [Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) — sebe-obrana (sociální)
-- [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) — sebe-obrana (sociální)
-- [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) — sebe-obrana (sociální)
-- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
-- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
-- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
-- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
+- Neoznamujte odchod ze skupiny, která trestá odpadlíky, dřív, než máte zajištěné bydlení, finance a lidi mimo skupinu.
+- Nepřebírejte v nové komunitě hned velké závazky.
+- Nedovolte, aby jedna komunita určovala, s kým se smíte stýkat.
 
-## Connect
+## Meze svépomoci
 
-- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
-- [Kompendium epistemické anihilace](@/kompendium/_index.md)
-- [Akademie Prismatic](https://prismatic-platform.com/academy)
-- [GitHub: kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+Zapojení vyžaduje čas a kompromisy; přílišná aktivita ve více komunitách může vést k povrchnosti a vyčerpání. Lidé po traumatické zkušenosti ze skupiny mohou mít z nových komunit silné obavy; tam je vhodné postupovat pomalu, třeba s podporou terapeuta nebo svépomocné skupiny bývalých členů.
+
+## Související
+
+**Návody**
+
+- [Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md) – více komunit jako ochrana.
+- [Prevence izolace](@/kompendium/self-defense-guides/26-isolation-prevention.md) – komunita jako protiváha samoty.
+- [Hodnocení mentorů](@/kompendium/self-defense-guides/27-mentor-evaluation.md) – posouzení vedení komunity.
+- [Ochrana existenciálního smyslu](@/kompendium/self-defense-guides/48-existential-meaning-protection.md) – smysl, který komunita může dát i vzít.
+
+**Pojmy**
+
+- [High Control Group](@/glossary/high-control-group.md) – znaky skupin s vysokou mírou kontroly.
+- [BITE Model](@/glossary/bite-model.md) – model kontroly chování, informací, myšlení a emocí.
+
+**Prevence a protokoly**
+
+- [Komunitní reziliencie](@/kompendium/prevention-resilience/4-community-resilience-EA.md) – co dělá komunitu odolnou.
+- [Komunitní reintegrace](@/kompendium/prevention-resilience/27-community-reintegration-prevention.md) – návrat do komunity po manipulaci.

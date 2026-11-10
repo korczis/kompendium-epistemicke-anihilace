@@ -1,6 +1,6 @@
 +++
 title = "Sebe-obrana: Řízení kognitivní zátěže"
-description = "Praktický návod sebe-obrany — řízení kognitivní zátěže."
+description = "Jak odlehčit pracovní paměti, poznat přetížení a nerozhodovat pod záplavou – obrana proti zahlcení, které oslabuje úsudek."
 weight = 10
 
 [taxonomies]
@@ -8,66 +8,102 @@ tags = ["kompendium", "self-defense-guide", "cognitive"]
 categories = ["academic", "practical"]
 
 [extra]
-related_terms = ["1-metacognitive-monitoring", "11-emotional-regulation", "12-trigger-recognition", "13-somatic-awareness"]
+related_terms = ["1-metacognitive-monitoring", "9-attention-management", "11-emotional-regulation", "13-somatic-awareness"]
 parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
 # Sebe-obrana: Řízení kognitivní zátěže
 
+Pracovní paměť udrží v jednu chvíli jen několik prvků. Když je přeplněná – starostmi, úkoly, protichůdnými informacemi, strachem –, úsudek se zhoršuje: člověk volí zkratky, snáz přijme cizí závěr a hůř si všimne rozporu. Zahlcení je proto jedním z nejčastějších průvodních jevů epistemické manipulace. Kniha ho popisuje jako techniku [informačního přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md): záplava požadavků, změn a „naléhavých“ věcí, v níž na vlastní uvažování nezbývá kapacita. Tento návod učí zátěž snižovat a poznat chvíli, kdy je lepší nerozhodovat.
+
+## Pro koho je návod
+
+- Pro člověka, který žije nebo pracuje v trvalém chaosu a cítí, že „nestíhá myslet“.
+- Pro ty, po nichž někdo chce zásadní rozhodnutí v době, kdy jsou vyčerpaní, nemocní nebo v šoku.
+- Pro pečující, lidi v rozvodu, v soudním sporu nebo v jiné dlouhodobé zátěži.
+
+## Situace, ve kterých pomáhá
+
+Pomáhá, když se zadání neustále mění a vy nevíte, co platí; když vám někdo předkládá smlouvy nebo dokumenty k podpisu „hned“; když vás skupina zaměstnává tak, že nemáte čas přemýšlet; a když se po sérii konfliktů nedokážete soustředit ani na jednoduché věci. Pomáhá i v obdobích po odchodu z manipulativního vztahu, kdy praktických úkolů (bydlení, peníze, úřady) přibývá právě v čase největší únavy.
+
+## Varovné signály
+
+- „Mlha v hlavě“, zapomínání jednoduchých věcí, pocit, že nevíte, kde začít.
+- Podrážděnost, napětí v šíji a čelisti, mělký dech.
+- Sklon souhlasit, jen aby byl klid.
+- Rozhodnutí děláte pozdě večer nebo po hádce.
+- Druhá strana vás zahlcuje mnoha požadavky současně a trvá na rychlé odpovědi ([vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md)).
+
+## Modelová situace
+
+Matka dvou dětí v rozvodovém sporu dostala od bývalého partnera pozdě večer návrh dohody o majetku s poznámkou, že platí jen do rána. Byla po celém dni vyčerpaná. Použila pravidlo „přetížený nerozhoduje“: odepsala, že se vyjádří do týdne, a ráno dokument odnesla do bezplatné právní poradny. Ukázalo se, že dohoda obsahovala body, které by ji výrazně poškodily. (Anonymizovaný kompozit.)
+
 ## Cíl dovednosti
 
-Naučit se řídit kapacitu pracovní paměti a vědomě snižovat zbytečnou kognitivní zátěž.
+Naučit se šetřit kapacitu pracovní paměti, vědomě snižovat zbytečnou zátěž a rozpoznat stav přetížení dřív, než v něm uděláte rozhodnutí, které by vás mohlo poškodit.
 
 ## Pět praktických cvičení
 
-### 1. Externalizace
+### 1. Vynést to z hlavy
 
-Vše, co lze, ven z hlavy: úkoly do todo systému, myšlenky do deníku, fakta do druhého mozku (Notion, Obsidian).
+Co jde, zapište mimo hlavu: úkoly do seznamu, starosti do deníku, termíny do kalendáře, důležitá fakta do jednoho souboru nebo sešitu. Hlava je k přemýšlení, ne ke skladování. Externí záznam je navíc oporou paměti, kterou nelze tak snadno zpochybnit.
 
-### 2. Pravidlo 3 prioritních úkolů
+### 2. Tři priority dne
 
-Každé ráno určete max. 3 prioritní úkoly dne. Vše ostatní je sekundární. Zabíjí to falešnou multitaskovou nadprodukci.
+Každé ráno určete nejvýše tři věci, které musí být hotové. Vše ostatní je druhořadé. Tento jednoduchý filtr chrání před pocitem, že musíte zvládnout všechno najednou.
 
-### 3. Bloky bez rozhodování
+### 3. Méně drobných rozhodnutí
 
-Vytvořte 2hodinové bloky, kdy nepřijímáte žádné rozhodnutí (Steve Jobs uniforma; pevný oběd). Šetří glukózu.
+Opakující se drobná rozhodnutí (co jíst, co obléct, kdy vyřizovat poštu) převeďte na pevné zvyklosti. Ušetřený čas a klid věnujte rozhodnutím, na kterých záleží.
 
-### 4. Ranní dump
+### 4. Ranní výpis
 
-Prvních 20 minut dne: vypište vše, co máte v hlavě, na papír. Třiďte. Mozek se uvolní pro tvorbu.
+Prvních patnáct až dvacet minut dne vypište na papír všechno, co máte v hlavě, a roztřiďte: udělat dnes, naplánovat, delegovat, pustit. Uvolní to místo pro soustředění.
 
-### 5. Detekce přetížení
+### 5. Pravidlo „přetížený nerozhoduje“
 
-Naučte se rozpoznat tělesné signály přetížení (napětí v krku, mlhavé myšlení, podrážděnost) a okamžitě udělejte 5minutovou pauzu.
+Naučte se poznat tělesné a myšlenkové znaky přetížení a zaveďte si pravidlo: v tomto stavu nepodepisuji, neslibuji a nerozhoduji o ničem zásadním. Řekněte „ozvu se zítra“ a udělejte si pauzu. Je to jedno z nejsilnějších obranných pravidel vůbec.
 
-## Časový rámec
+## Jak si vést záznam
 
-Ranní dump 20 minut, 3 prioritní úkoly; pravidelné kontroly přetížení každé 2 hodiny.
+Mějte jedno místo – sešit nebo soubor –, kam zapisujete úkoly, termíny a důležité rozhovory. U požadavků od osoby, která vás zahlcuje, zapisujte datum, obsah a požadovaný termín. Po několika týdnech bude vidět, zda jde o běžnou zátěž, nebo o vzorec. U dokumentů, které máte podepsat, si vždy ponechte kopii a poznamenejte, kdy a za jakých okolností vám byly předloženy.
 
-## Indikátory pokroku
+## Časový rámec a indikátory pokroku
 
-Pokles pocitu zahlcení; vyšší kvalita rozhodnutí pozdě odpoledne; lepší spánek.
+Denně ranní výpis a tři priority, během dne krátké kontroly stavu zhruba každé dvě hodiny. Pokrok poznáte podle menšího pocitu zahlcení, lepší kvality odpoledních rozhodnutí, lepšího spánku a podle toho, že dokážete říct „teď ne“ bez výčitek. Dobrým znakem je, že ubývá rozhodnutí, kterých druhý den litujete.
 
-## Limitace
+## Kdy a koho požádat o pomoc
 
-Externalizace přesouvá zátěž ven, ale udržování systému samo o sobě stojí kapacitu. Hledejte rovnováhu.
+- U dokumentů s právními a finančními důsledky (smlouvy, úvěry, dohody o majetku a dětech) se před podpisem poraďte s advokátem nebo bezplatnou právní poradnou.
+- Pokud zahlcení trvá týdny a přidávají se poruchy spánku, ztráta chuti k jídlu nebo beznaděj, obraťte se na lékaře nebo psychologa.
+- V akutní krizi volejte Linku první psychické pomoci 116 123; při ohrožení života 112 nebo 155 ([akutní kognitivní paralýza](@/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md)).
 
-## Cross-linky
+## Čeho se vyvarovat
 
-- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
-- [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) — sebe-obrana (kognitivní)
-- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) — sebe-obrana (kognitivní)
-- [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) — sebe-obrana (kognitivní)
-- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
-- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
-- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
-- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
+- Nepodepisujte nic pod časovým tlakem a v únavě, ani když druhá strana tvrdí, že „jinak bude pozdě“.
+- Nesnažte se zátěž zvládnout výkonem navíc; zahlcení se neřeší rychlostí, ale ubíráním.
+- Nehodnoťte vlastní zmatek jako důkaz neschopnosti – je to předvídatelný důsledek přetížení.
 
-## Connect
+## Meze svépomoci
 
-- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
-- [Kompendium epistemické anihilace](@/kompendium/_index.md)
-- [Akademie Prismatic](https://prismatic-platform.com/academy)
-- [GitHub: kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+Vynášení věcí z hlavy přesouvá zátěž ven, ale i údržba systému stojí kapacitu; hledejte jednoduchost, ne dokonalost. Kognitivní zátěž nelze snížit pod určitou mez, pokud je jejím zdrojem trvale chaotické nebo nepřátelské prostředí. Pak je cílem prostředí změnit nebo opustit – s pomocí druhých a bezpečně.
+
+## Související
+
+**Návody**
+
+- [Řízení pozornosti](@/kompendium/self-defense-guides/9-attention-management.md) – kam kapacitu směřovat.
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) – sebepozorování, které potřebuje volnou hlavu.
+- [Somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md) – tělesné znaky přetížení.
+- [Informační dieta](@/kompendium/self-defense-guides/33-information-diet.md) – jak omezit příliv informací.
+
+**Techniky a signatury**
+
+- [Gish Gallop](@/glossary/gish-gallop.md) – zahlcení množstvím tvrzení v rozhovoru.
+- [Detekční signatura: Kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md) – jak se přetížení prožívá.
+
+**Pojmy a protokoly**
+
+- [Paralysis by Analysis](@/glossary/paralysis-by-analysis.md) – když přemýšlení samo zahltí.
+- [Akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) – první kroky při vážném zahlcení.

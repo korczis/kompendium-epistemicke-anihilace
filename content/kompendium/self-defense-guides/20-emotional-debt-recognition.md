@@ -1,6 +1,6 @@
 +++
 title = "Sebe-obrana: Rozpoznání emočního dluhu"
-description = "Praktický návod sebe-obrany — rozpoznání emočního dluhu."
+description = "Jak poznat nahromaděné nezpracované emoce z minulosti, které ovlivňují přítomnost a usnadňují manipulaci, a jak je postupně a bezpečně zpracovat."
 weight = 20
 
 [taxonomies]
@@ -8,66 +8,102 @@ tags = ["kompendium", "self-defense-guide", "emotional"]
 categories = ["academic", "practical"]
 
 [extra]
-related_terms = ["19-fear-processing", "2-evidence-evaluation", "21-boundary-setting", "22-relationship-audit"]
+related_terms = ["12-trigger-recognition", "19-fear-processing", "21-boundary-setting", "22-relationship-audit"]
 parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
 # Sebe-obrana: Rozpoznání emočního dluhu
 
+„Emoční dluh“ je v tomto návodu pracovní metafora pro nahromaděné nezpracované zkušenosti – ztráty, křivdy, strachy, ponížení –, které nebyly v pravý čas prožity, pojmenovány ani uzavřeny. Nejde o klinickou diagnózu, ale o užitečný způsob, jak si všimnout, proč některé situace bolí víc, než by odpovídalo přítomnosti. Pro sebe-obranu je důležitý ze dvou důvodů. Nezpracovaná zkušenost dělá člověka zranitelnějším: kdo slibuje zaplnění staré prázdnoty (uznání, rodinu, smysl), získává snadný přístup. A po manipulativní zkušenosti se dluh často zvětšuje – vztek, smutek a stud, které nesměly být vyjádřeny, čekají.
+
+## Pro koho je návod
+
+- Pro člověka, který opakovaně reaguje přehnaně na drobnosti a neví proč.
+- Pro ty, kdo si všimli, že je k manipulativním lidem nebo skupinám přitahuje stále stejná potřeba.
+- Pro lidi po odchodu z kontrolujícího prostředí, kteří cítí, že „něco nezpracovali“.
+
+## Situace, ve kterých pomáhá
+
+Pomáhá, když vás v nových vztazích pravidelně okouzlí lidé, kteří nabízejí přesně to, co vám v dětství chybělo; když skupina „dává rodinu“ a vy si nedokážete představit ji ztratit; když se po rozchodu nebo odchodu objevuje smutek, který neodpovídá jen té jedné ztrátě; a když se cítíte unavení, aniž byste věděli, z čeho.
+
+## Varovné signály
+
+- Reakce nepřiměřené spouštěči – drobnost vyvolá slzy nebo vztek.
+- Pocit, že bez jedné osoby nebo skupiny ztratíte smysl i identitu.
+- Opakující se vzorec: stejný typ vztahu, stejné zklamání.
+- Silná potřeba kontrolovat okolí, aby se „to“ nevrátilo.
+- Tělesné napětí bez zjevné příčiny (čelist, šíje, hrudník).
+
+## Modelová situace
+
+Muž, kterému v dětství zemřel otec a o smutku se v rodině nemluvilo, se v dospělosti připojil ke koučovací skupině s charismatickým vedoucím, který se stal jeho „mentorem i otcem“. Když vedoucí začal požadovat stále víc peněz a času, muž nedokázal odejít. Až při sepisování emočně náročných událostí si uvědomil, jak silně se v tomto vztahu ozývá stará ztráta. Odchod pak zvládl s terapeutem, který mu pomohl smutek po otci konečně prožít. (Anonymizovaný kompozit.)
+
 ## Cíl dovednosti
 
-Identifikovat nahromaděné nezpracované emoce z minulosti, které tiše ovlivňují přítomnost, a začít je systematicky splácet.
+Identifikovat nahromaděné nezpracované emoce, které tiše ovlivňují přítomnost a zvyšují zranitelnost vůči manipulaci, a začít je postupně, bezpečně a s podporou zpracovávat.
 
 ## Pět praktických cvičení
 
-### 1. Audit nedokončeného
+### 1. Soupis nedokončeného
 
-Sepište 10 nejvýraznějších emočně náročných událostí posledních 5 let. U každé: cítím to ještě? Je to zpracované?
+Sepište deset nejvýraznějších emočně náročných událostí z posledních let (nebo celého života). U každé si položte otázku: Cítím to ještě? Mluvil jsem o tom s někým? Je to uzavřené? Pokud už sepisování vyvolá silnou bolest, zastavte se a pokračujte s podporou.
 
-### 2. Reakce nepřiměřené spouštěči
+### 2. Na co skutečně reaguji?
 
-Když reagujete přehnaně na malou věc, položte si otázku: 'Na co skutečně reaguji?' Často tam leží starý dluh.
+Když reagujete přehnaně, zeptejte se: Na co doopravdy reaguji? Na tohle, nebo na něco starého, co mi to připomíná? Odpověď si zapište.
 
 ### 3. Tělesná inventura
 
-Skenujte tělo: kde sídlí staré napětí? Krk, čelist, hrudník? Každé místo často nese specifickou kategorii nezpracovaných emocí.
+Projděte pozorností tělo: kde sídlí staré napětí? Nehledejte jednoznačné výklady („v krku je nevyslovené“) – sledujte jen, kde se napětí objevuje a kdy.
 
-### 4. Splátkový kalendář
+### 4. Jedna splátka měsíčně
 
-Vyberte 1 starý dluh měsíčně. Věnujte mu fokus: terapie, rituál, dopis (i nezaslaný), tělesná práce. Nesnažte se vše najednou.
+Vyberte si jednu starou zkušenost měsíčně a věnujte jí pozornost: rozhovor v terapii, dopis (i neodeslaný), návštěva místa, tělesná práce. Nesnažte se zpracovat vše najednou.
 
-### 5. Rituální uzavření
+### 5. Rituál uzavření
 
-Pro symbolicky uzavřené události vytvořte rituál (spálení dopisu, sázení stromu, návštěva místa). Tělo potřebuje konec.
+Pro události, které chcete symbolicky uzavřít, vytvořte malý rituál – spálení dopisu, zasazení stromu, setkání s přáteli. Rituály pomáhají tělu i mysli přijmout konec.
 
-## Časový rámec
+## Jak si vést záznam
 
-Měsíční audit 2 hodiny + 1 splátka měsíčně; průběžné rozpoznávání nepřiměřených reakcí.
+Veďte si soukromý seznam: událost, rok, co cítím dnes (intenzita 1–10), co by pomohlo, co jsem udělal. Pravidelně ho aktualizujte. Pomůže vám vidět pokrok a připravit se na rozhovor s terapeutem. U zkušeností s manipulací přidejte poznámku, kterou potřebu ta osoba nebo skupina naplňovala – to je klíčová informace pro ochranu do budoucna.
 
-## Indikátory pokroku
+## Časový rámec a indikátory pokroku
 
-Pokles emocionálního zaplavení v přítomnosti; větší pocit lehkosti; menší potřeba kontrolovat okolí.
+Jednou měsíčně zhruba dvě hodiny na soupis a jednu splátku; průběžně všímání si nepřiměřených reakcí. Pokrok poznáte podle menšího zaplavování emocemi v přítomnosti, pocitu lehkosti, menší potřeby kontrolovat okolí – a podle toho, že sliby zaplnění staré prázdnoty na vás přestávají fungovat.
 
-## Limitace
+## Kdy a koho požádat o pomoc
 
-Splácení dluhu boří iluze a může dočasně zhoršit pohodu. Plánujte si podporu na náročnější fáze.
+- Zpracování těžkých zkušeností (zneužívání, ztráty, trauma) je vhodné vést s psychoterapeutem; kontakty získáte přes praktického lékaře, zdravotní pojišťovnu nebo profesní sdružení terapeutů.
+- Pokud se při práci s minulostí objeví silná krize, beznaděj nebo myšlenky na sebepoškození, volejte Linku první psychické pomoci 116 123; v akutním ohrožení 112 nebo 155.
+- Pokud některá stará zkušenost zahrnuje trestný čin, můžete se poradit s linkou 116 006.
 
-## Cross-linky
+## Čeho se vyvarovat
 
-- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
-- [Rozpoznávání spouštěčů](@/kompendium/self-defense-guides/12-trigger-recognition.md) — sebe-obrana (emocionální)
-- [Somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md) — sebe-obrana (emocionální)
-- [Uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md) — sebe-obrana (emocionální)
-- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
-- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
-- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
-- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
+- Neotevírejte všechny staré rány najednou a o samotě.
+- Nehledejte zaplnění starých potřeb u lidí a skupin, které za ně žádají poslušnost, peníze nebo izolaci.
+- Nevyhledávejte „rychlé“ terapie, které slibují vyčištění minulosti za víkend.
 
-## Connect
+## Meze svépomoci
 
-- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
-- [Kompendium epistemické anihilace](@/kompendium/_index.md)
-- [Akademie Prismatic](https://prismatic-platform.com/academy)
-- [GitHub: kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+Zpracování starých zkušeností boří iluze a může dočasně zhoršit pohodu; naplánujte si na náročnější období podporu. Metafora dluhu je pomůcka, ne diagnóza; za trvalými obtížemi může být deprese, posttraumatická stresová porucha nebo [komplexní trauma](@/glossary/complex-trauma.md), které patří do rukou odborníka.
+
+## Související
+
+**Návody**
+
+- [Rozpoznávání spouštěčů](@/kompendium/self-defense-guides/12-trigger-recognition.md) – spouštěč jako stopa staré zkušenosti.
+- [Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) – které vztahy na staré potřebě stojí.
+- [Integrace životního příběhu](@/kompendium/self-defense-guides/45-life-story-integration.md) – zpracované zkušenosti jako součást příběhu.
+- [Zpracování strachu](@/kompendium/self-defense-guides/19-fear-processing.md) – strachy, které zůstaly z minulosti.
+
+**Pojmy**
+
+- [Narrative Trauma](@/glossary/narrative-trauma.md) – trauma, které narušuje vlastní příběh.
+- [Charisma](@/glossary/charisma.md) – přitažlivost, která často míří na nenaplněné potřeby.
+
+**Případy a protokoly**
+
+- [Případ: Coach coercion](@/kompendium/case-studies/17-coach-coercion.md) – kontrola skrze roli mentora.
+- [Subakutní rekonstrukce smyslu](@/kompendium/recovery-protocols/subacute-meaning-reconstruction.md) – vedená práce se ztrátou.

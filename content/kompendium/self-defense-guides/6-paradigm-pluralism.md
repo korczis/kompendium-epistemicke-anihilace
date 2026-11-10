@@ -19,9 +19,7 @@ Paradigma je rámec, kterým se díváme na svět: určuje, co považujeme za d�
 
 ## Pro koho je návod
 
-- Pro člověka, který si všiml, že na všechno má „stejnou odpověď“ – a že ji převzal od někoho jiného.
-- Pro ty, kdo odcházejí z ideologicky uzavřeného prostředí (náboženského, politického, firemního) a cítí se bez jeho výkladu ztraceni.
-- Pro profesionály, kteří chtějí chránit sebe i klienty před zúžením pohledu.
+Návod je pro člověka, který si všiml, že na všechno má „stejnou odpověď“ – a že ji převzal od někoho jiného. Pomůže i těm, kdo odcházejí z ideologicky uzavřeného prostředí (náboženského, politického, firemního) a cítí se bez jeho výkladu ztraceni, a profesionálům, kteří chtějí chránit sebe i klienty před zúžením pohledu, k němuž vede každá dlouhá práce v jednom oboru.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,10 +27,9 @@ Typicky když skupina nabízí jediný klíč ke všemu („všechno je energie�
 
 ## Varovné signály
 
-- Na otázky z různých oblastí života dáváte odpověď ze stejného slovníku.
-- Lidé mimo skupinu vám připadají „nepochopitelní“ nebo „nevědomí“.
-- Jiný výklad téže věci ve vás vyvolá úzkost nebo vztek, ne zvědavost.
-- Ve skupině se používá vlastní jazyk, který jinde nikdo nerozumí, a překlad do běžné řeči je odrazován.
+Zúžení na jediný rámec se pozná podle toho, že na otázky z různých oblastí života – zdraví, vztahy, peníze, politika – dáváte odpověď ze stejného slovníku. Lidé mimo skupinu vám připadají „nepochopitelní“ nebo „nevědomí“ a jiný výklad téže věci ve vás vyvolá úzkost nebo vztek, ne zvědavost. Emoční reakce na odlišný pohled je dobrým měřítkem: rámec, který snese srovnání, nepotřebuje obranu hněvem.
+
+Typickým znakem je i vlastní jazyk skupiny, kterému jinde nikdo nerozumí, a odrazování od překladu do běžné řeči. Lifton (1961) popsal tento rys totalistického prostředí jako „nabíjení jazyka“: složité otázky se zhušťují do krátkých, definitivně znějících frází, které ukončují přemýšlení dřív, než začne. Kdo umí totéž říct jinými slovy, zjistí, zda za frází stojí myšlenka, nebo jen příslušnost.
 
 ## Modelová situace
 
@@ -41,6 +38,14 @@ Typicky když skupina nabízí jediný klíč ke všemu („všechno je energie�
 ## Cíl dovednosti
 
 Záměrně udržovat ve vědomí více alternativních výkladových rámců pro tutéž skutečnost, umět mezi nimi přecházet a vybrat si ten, který nejlépe odpovídá dokladům – ne ten, který vám někdo předepsal.
+
+## Odborné východisko
+
+Pojem paradigma zpopularizoval Kuhn (1962) v rozboru vědeckých revolucí: paradigma je sdílený rámec, který určuje, jaké problémy jsou legitimní, jaké metody platí a jak se čtou výsledky. Kuhn ukázal, že uvnitř jednoho paradigmatu se anomálie dlouho přehlížejí nebo vykládají jako chyby měření, a že teprve srovnání s jiným rámcem je zviditelní. Totéž platí v malém měřítku pro rodinu, firmu nebo skupinu: to, co jeden výklad nedokáže pojmout, se v něm neprojeví jako rozpor, ale jako „šum“.
+
+Výzkum expertního úsudku nabízí empirickou oporu pro pluralitu. Tetlock (2005) dlouhodobě sledoval předpovědi expertů a zjistil, že ti, kdo kombinovali více výkladových rámců a ochotně je přizpůsobovali – v návaznosti na Berlinovu metaforu (Berlin 1953) je nazval „lišky“ –, předpovídali přesněji než „ježci“, kteří vše vykládali jednou velkou teorií. Pluralita tedy není nerozhodnost, ale lepší kalibrace.
+
+Filozofie vědy dodává, že objektivita nevzniká v hlavě jednotlivce, ale ve společenství, které připouští kritiku z různých stanovisek (Longino 1990). Prostředí, které jiné pohledy umlčuje, tím ztrácí právě mechanismus, jímž se omyly opravují. Cvičení v tomto návodu proto nevedou k tomu, abyste svůj rámec opustili, ale abyste ho dokázali postavit vedle jiných a porovnat.
 
 ## Pět praktických cvičení
 
@@ -80,13 +85,21 @@ Měsíčně několik hodin četby mimo obor, týdně půl hodiny na nejsilnějš
 
 ## Čeho se vyvarovat
 
-- Nevyměňujte jeden uzavřený rámec za jiný stejně uzavřený – například odchod ze sekty do konspirační komunity.
-- Nepoužívejte pluralitu jako výmluvu k tomu, abyste se nikdy nerozhodli.
-- Nediskutujte o „jiných pohledech“ s vůdcem nebo partnerem, který vás za ně trestá; cvičte je v bezpečí.
+Nevyměňujte jeden uzavřený rámec za jiný stejně uzavřený – například odchod ze sekty do konspirační komunity. Takový přechod se zprvu cítí jako osvobození, ale struktura zůstává stejná: jedna pravda, jasní nepřátelé, trest za pochybnost.
+
+Nepoužívejte pluralitu ani jako výmluvu k tomu, abyste se nikdy nerozhodli. A nediskutujte o „jiných pohledech“ s vůdcem nebo partnerem, který vás za ně trestá; cvičte je v bezpečí, s lidmi, u nichž odlišný názor neohrožuje vztah.
 
 ## Meze svépomoci
 
 Pluralita bez závazku se může zvrhnout v paralyzující relativismus, v němž je vše stejně platné a nic nelze udělat. Nakonec je třeba rozhodnout a jednat – podle dokladů a hodnot, ne podle cizího předpisu. U lidí, kteří zažili hluboký rozpad světového názoru, je vhodné postupovat podle [středně-dobého hermeneutického resetu](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md) s odborným doprovodem.
+
+## Literatura
+
+- Berlin, I. (1953). *The Hedgehog and the Fox: An Essay on Tolstoy's View of History*. Weidenfeld & Nicolson.
+- Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Longino, H. E. (1990). *Science as Social Knowledge: Values and Objectivity in Scientific Inquiry*. Princeton University Press.
+- Tetlock, P. E. (2005). *Expert Political Judgment: How Good Is It? How Can We Know?* Princeton University Press.
 
 ## Související
 

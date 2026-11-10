@@ -19,9 +19,7 @@ Asertivita je způsob komunikace, při němž člověk vyjadřuje své potřeby,
 
 ## Pro koho je návod
 
-- Pro člověka, který mlčí, aby nevyvolal konflikt, a pak je mu vyčítáno, že „neřekl, co chce“.
-- Pro ty, kdo se v rozhovorech nechávají zahltit argumenty a souhlasí, aby rozhovor skončil.
-- Pro lidi, kteří chtějí jasně komunikovat v práci, ve škole nebo s úřady.
+Návod je pro člověka, který mlčí, aby nevyvolal konflikt, a pak je mu vyčítáno, že „neřekl, co chce“. Pomůže i těm, kdo se v rozhovorech nechávají zahltit argumenty a souhlasí, aby rozhovor skončil, a lidem, kteří chtějí jasně komunikovat v práci, ve škole nebo s úřady.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá při rozhovorech s nadřízeným, který mění zadání a pak viní v�
 
 ## Varovné signály
 
-- Po rozhovoru si nejste jistí, na čem jste se dohodli.
-- Vaše „ne“ je bráno jako začátek vyjednávání.
-- Druhá strana mluví v náznacích a pak tvrdí, že „nic takového neřekla“.
-- Na otázku o upřesnění reaguje podrážděně nebo odbíhá ([odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md)).
-- Máte strach říct, co si myslíte.
+Manipulativní komunikace zanechává mlhu. Po rozhovoru si nejste jistí, na čem jste se dohodli; vaše „ne“ je bráno jako začátek vyjednávání; druhá strana mluví v náznacích a pak tvrdí, že „nic takového neřekla“. Evansová (1992) popsala v rozboru verbálně zneužívajících vztahů řadu takových vzorců – zadržování informací a reakcí, soustavné odporování, zlehčování pocitů druhého a odvádění od tématu –, jejichž společným rysem je, že znemožňují jasnou domluvu.
+
+Typickým signálem je reakce na žádost o upřesnění: druhá strana reaguje podrážděně nebo odbíhá ([odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md)). Kde jasnost vyvolává nevoli, slouží nejasnost někomu jako nástroj. Vnitřním signálem je pak strach říct, co si myslíte – pokud se objevuje jen u jedné osoby, vypovídá spíše o vztahu než o vaší povaze.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Doktorandka dostávala od školitele ústní pokyny, které se po týdnu měnily
 ## Cíl dovednosti
 
 Vyjadřovat potřeby, názory a hranice jasně a s respektem, bez pasivity i agrese, a vědět, kdy je přímá komunikace bezpečná a kdy je lepší komunikovat písemně, přes prostředníka, nebo vůbec.
+
+## Odborné východisko
+
+Pojem asertivity rozpracovali Alberti a Emmons (1970) jako třetí cestu mezi pasivitou a agresí: vyjádřit, co chci a co nechci, přímo, upřímně a s respektem k druhému. Smith (1975) k tomu doplnil praktické techniky, mezi nimi klidné opakování vlastního stanoviska („porouchaná deska“), které je zvlášť užitečné tam, kde se druhá strana snaží odmítnutí rozmělnit argumenty nebo výčitkami. Asertivita v tomto pojetí není povahový rys, ale soubor naučitelných dovedností.
+
+Nenásilná komunikace Marshalla Rosenberga rozkládá jasné sdělení na čtyři kroky: popsat pozorování bez hodnocení, pojmenovat pocit, vyjádřit potřebu a formulovat konkrétní prosbu (Rosenberg 2003). Pro sebe-obranu je nejcennější první krok – oddělit to, co se stalo, od výkladu. Manipulace často žije právě ve výkladu („zase mě ignoruješ“), kdežto popis („včera jsi neodpověděl na tři zprávy“) lze ověřit.
+
+Dialekticko-behaviorální terapie nabízí strukturovaný postup žádosti a odmítnutí, který spojuje popis situace, vyjádření, jasnou žádost a posílení, s důrazem na udržení klidu a ochotu vyjednávat tam, kde to dává smysl (Linehan 2015). Všechny tyto přístupy ale počítají s partnerem, který o domluvu stojí. Kde druhá strana nechce dohodu, ale kontrolu, asertivita nepomáhá vyhrát – pomáhá jen jasněji vidět, že dohoda není možná.
 
 ## Pět praktických cvičení
 
@@ -81,13 +85,23 @@ Denně jedno až tři asertivní sdělení, týdně čtvrthodinová reflexe. Pok
 
 ## Čeho se vyvarovat
 
-- Nepoužívejte asertivitu tam, kde zvyšuje riziko násilí; autoritářské a násilné prostředí si žádá jinou strategii – bezpečnost, plán, pomoc zvenčí.
-- Nevstupujte do nekonečných diskusí; máte právo rozhovor ukončit.
-- Nezaměňujte asertivitu za „vyhrát“; cílem je jasnost, ne porážka druhého.
+Nepoužívejte asertivitu tam, kde zvyšuje riziko násilí; autoritářské a násilné prostředí si žádá jinou strategii – bezpečnost, plán, pomoc zvenčí. Nevstupujte ani do nekonečných diskusí; máte právo rozhovor ukončit a vrátit se k němu písemně nebo za přítomnosti třetí osoby.
+
+Nezaměňujte asertivitu za „vyhrát“: cílem je jasnost, ne porážka druhého. Kdo chce v rozhovoru zvítězit, snadno sklouzne do agrese a dá druhé straně záminku k převrácení rolí.
 
 ## Meze svépomoci
 
 Asertivita v autoritářském nebo násilném prostředí může být riskantní; intenzitu přizpůsobte kontextu. Komunikační dovednosti nevyřeší vztah, v němž druhá strana nechce dohodu, ale kontrolu. Tam je cílem bezpečí a případně odchod.
+
+Evansová (1992) popisuje, že v takových vztazích se oběť často snaží vysvětlovat stále jasněji v naději, že ji druhý konečně pochopí – a že tato snaha selhává, protože druhá strana nereaguje na nedorozumění, ale na ohrožení své převahy. Když se tento vzorec opakuje, není to důkaz, že komunikujete špatně, ale signál, že problém leží jinde než v komunikaci. Otevřenou otázkou zůstává, jak asertivitu učit lidi, kteří byli za vyjádření vlastních potřeb dlouhodobě trestáni; u nich bývá nutné nejprve obnovit pocit bezpečí, teprve potom trénovat slova.
+
+## Literatura
+
+- Alberti, R. E., & Emmons, M. L. (1970). *Your Perfect Right: A Guide to Assertive Behavior*. Impact.
+- Evans, P. (1992). *The Verbally Abusive Relationship: How to Recognize It and How to Respond*. Bob Adams.
+- Linehan, M. M. (2015). *DBT Skills Training Manual* (2nd ed.). Guilford Press.
+- Rosenberg, M. B. (2003). *Nonviolent Communication: A Language of Life* (2nd ed.). PuddleDancer Press.
+- Smith, M. J. (1975). *When I Say No, I Feel Guilty*. Dial Press.
 
 ## Související
 

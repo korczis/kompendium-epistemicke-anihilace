@@ -19,9 +19,7 @@ Identitní odolnost je schopnost zůstat sám sebou, i když přijde kritika, ne
 
 ## Pro koho je návod
 
-- Pro člověka, kterého kritika nebo neúspěch rozhodí tak, že neví, kdo je.
-- Pro ty, kdo chtějí předejít tomu, aby je ztráta práce nebo vztahu zcela zlomila.
-- Pro lidi, kteří zvažují kurz nebo komunitu nabízející „transformaci osobnosti“ a chtějí poznat varovné signály.
+Návod je určen člověku, kterého kritika nebo neúspěch rozhodí tak, že neví, kdo je, a těm, kdo chtějí předejít tomu, aby je ztráta práce nebo vztahu zcela zlomila. Pomůže i lidem, kteří zvažují kurz nebo komunitu nabízející „transformaci osobnosti“ a chtějí poznat varovné signály dřív, než se zavážou.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá v životních přechodech (ztráta práce, rozchod, nemoc, odchod do d�
 
 ## Varovné signály vnějšího rozkládání identity
 
-- Kurz nebo skupina vás tlačí k „vzdání se ega“ a vlastní úsudek označuje za překážku.
-- Program kombinuje nedostatek spánku, jídla a soukromí s intenzivními emocemi.
-- Pochybnosti jsou vykládány jako „odpor“, který je třeba zlomit.
-- Po programu se cítíte bez sebe a jedinou oporou je skupina.
-- Nemůžete program kdykoli přerušit bez sankce nebo ztráty peněz.
+Rozkládající program se pozná podle toho, co od účastníka žádá. Tlačí ho k „vzdání se ega“ a vlastní úsudek označuje za překážku; pochybnosti vykládá jako „odpor“, který je třeba zlomit. Zvlášť varovná je kombinace nedostatku spánku, jídla a soukromí s intenzivními emocemi. Lifton (1961) popsal v rozboru myšlenkové reformy sled, který začínal útokem na identitu a pocitem viny a vedl přes zlom k „znovuzrození“ v podobě, kterou určila skupina; fyzické vyčerpání tento proces urychlovalo.
+
+Další signály se týkají výsledku a svobody. Po programu se cítíte bez sebe a jedinou oporou je skupina; program nemůžete kdykoli přerušit bez sankce nebo ztráty peněz. Zdravý rozvojový program naopak počítá s tím, že účastník může odejít, a výsledek měří tím, jak dobře člověk funguje ve svém vlastním životě, ne tím, jak pevně se váže ke skupině.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Muž absolvoval intenzivní víkendový seminář, kde lektor veřejně zesměš
 ## Cíl dovednosti
 
 Postupně a dobrovolně posilovat jádro identity, aby v krizi neprasklo, ale ohnulo se a vrátilo – a umět rozpoznat praktiky, které identitu pod záminkou „růstu“ rozkládají.
+
+## Odborné východisko
+
+Erikson (1968) popsal identitu jako pocit vnitřní stejnosti a kontinuity, který druzí rozpoznávají a potvrzují, a dospívání jako období, kdy se identita formuje v napětí mezi závazkem a hledáním. Marcia (1966) z jeho práce odvodil stavy identity podle toho, zda člověk prošel obdobím zkoumání a zda učinil závazek. Pro sebe-obranu je zvlášť podstatný stav, který Marcia označil jako „předčasné uzavření“: závazek převzatý bez vlastního zkoumání. Identita převzatá od skupiny bez možnosti ji prověřit bývá navenek pevná, ale křehká při prvním vážném otřesu.
+
+Výzkum odolnosti ukazuje, že schopnost zvládnout těžké události je běžnější, než se dříve předpokládalo. Mastenová (2001) ji nazvala „obyčejnou magií“: odolnost vyrůstá z běžných lidských zdrojů, jako jsou vztahy, schopnost regulace a smysl pro vlastní kompetenci. Bonanno (2004) doložil, že po ztrátě nebo traumatu velká část lidí vykazuje stabilní fungování, a odlišil odolnost od pouhého zotavení. Identitní odolnost tedy není výjimečný dar, ale soubor zdrojů, které lze posilovat.
+
+Klinickým modelem postupného posilování je trénink očkování proti stresu: člověk se nejprve učí zvládací dovednosti a pak je zkouší v dávkách zátěže, které jsou zvládnutelné, a postupně je zvyšuje (Meichenbaum 1985). Tento princip – dobrovolnost, dávkování, možnost kdykoli přestat – je přesně tím, co odlišuje zdravý trénink od rozkládajících praktik popsaných výše.
 
 ## Pět praktických cvičení
 
@@ -81,13 +85,23 @@ Drobné zkoušky průběžně, jednou měsíčně vědomý test, jednou ročně 
 
 ## Čeho se vyvarovat
 
-- Nepodstupujte „transformační“ programy, které kombinují vyčerpání, izolaci a veřejné zahanbování.
-- Netrénujte odolnost v období akutní krize; nejprve stabilizace.
-- Nedělejte zkoušky identity tak intenzivní, že vás rozkládají; odolnost roste z dávek, které unesete.
+Nepodstupujte „transformační“ programy, které kombinují vyčerpání, izolaci a veřejné zahanbování; rozkládají identitu, místo aby ji posilovaly (Lifton 1961). Netrénujte odolnost v období akutní krize; nejprve stabilizace (Herman 1992).
+
+A nedělejte zkoušky identity tak intenzivní, že vás rozkládají. Odolnost roste z dávek, které unesete (Meichenbaum 1985), ne z toho, co vás zlomí.
 
 ## Meze svépomoci
 
 Příliš agresivní testy mohou vést k disociaci nebo depresivním fázím; postupujte pomalu a s oporou. Lidé, kteří prošli rozkládajícími praktikami, potřebují spíš stabilizaci a obnovu než další „trénink“. Identitní odolnost se buduje i ve vztazích – sama o sobě nestačí.
+
+## Literatura
+
+- Bonanno, G. A. (2004). Loss, trauma, and human resilience: Have we underestimated the human capacity to thrive after extremely aversive events? *American Psychologist*, 59(1), 20–28.
+- Erikson, E. H. (1968). *Identity: Youth and Crisis*. W. W. Norton.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Marcia, J. E. (1966). Development and validation of ego-identity status. *Journal of Personality and Social Psychology*, 3(5), 551–558.
+- Masten, A. S. (2001). Ordinary magic: Resilience processes in development. *American Psychologist*, 56(3), 227–238.
+- Meichenbaum, D. (1985). *Stress Inoculation Training*. Pergamon Press.
 
 ## Související
 

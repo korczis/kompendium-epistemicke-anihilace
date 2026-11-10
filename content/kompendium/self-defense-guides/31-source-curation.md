@@ -19,9 +19,7 @@ Většina lidí si nevybírá, odkud čerpá informace – vybírají je za ně 
 
 ## Pro koho je návod
 
-- Pro člověka, jehož informace pocházejí převážně ze sociálních sítí a doporučených videí.
-- Pro ty, kterým skupina nebo blízká osoba určuje, co smějí číst a sledovat.
-- Pro rodiče a pedagogy, kteří chtějí dětem pomoci sestavit zdravý informační jídelníček.
+Návod je určen člověku, jehož informace pocházejí převážně ze sociálních sítí a doporučených videí, a těm, kterým skupina nebo blízká osoba určuje, co smějí číst a sledovat. Pomůže i rodičům a pedagogům, kteří chtějí dětem pomoci sestavit zdravý informační jídelníček a naučit je, že výběr zdrojů je rozhodnutí, ne náhoda.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá, když si všimnete, že se vaše informační prostředí postupně ra
 
 ## Varovné signály
 
-- Nedokážete vyjmenovat, odkud jste se dozvěděli to, co „víte“.
-- Všechny vaše zdroje mají stejné nepřátele a stejné hrdiny ([monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md)).
-- Někdo vám zakazuje určité zdroje nebo kontroluje, co čtete.
-- Doporučený obsah je čím dál extrémnější.
-- Nedůvěřujete žádnému zdroji, a proto věříte tomu, kdo mluví nejjistěji.
+Prvním signálem je ztráta stopy: nedokážete vyjmenovat, odkud jste se dozvěděli to, co „víte“. Druhým je stejnorodost – všechny vaše zdroje mají stejné nepřátele a stejné hrdiny ([monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md)) – a třetím posun: doporučený obsah je čím dál extrémnější. Pariser (2011) popsal, jak personalizace obsahu vytváří „filtrační bublinu“, v níž člověk vidí stále víc toho, co už zná a s čím souhlasí, aniž by o vynechaném věděl.
+
+Závažnější jsou signály aktivní kontroly: někdo vám zakazuje určité zdroje nebo kontroluje, co čtete. Filozof C. Thi Nguyen (2020) rozlišuje epistemickou bublinu, v níž jiné hlasy prostě chybějí, od ozvěnové komory, v níž jsou vnější zdroje soustavně zdiskreditovány a členové se je naučili nedůvěřovat. Na druhý typ ukazuje i poslední signál: nedůvěřujete žádnému zdroji, a proto věříte tomu, kdo mluví nejjistěji. Plošná nedůvěra není opatrnost, ale stav, v němž rozhoduje sebejistota místo spolehlivosti.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Mladý muž během pandemie trávil večery sledováním videí, která mu nabí
 ## Cíl dovednosti
 
 Aktivně vybírat, z jakých zdrojů přijímáte informace, a pravidelně je revidovat, místo aby rozhodovaly algoritmy, impulz nebo cizí autorita.
+
+## Odborné východisko
+
+Každý člověk je ve většině oblastí epistemicky závislý na druhých: nemůže sám ověřit lékařský výzkum, ekonomická data ani zprávy z jiných zemí. Hardwig (1985) ukázal, že taková závislost není selháním rozumu, ale jeho nutnou podmínkou – racionální je spoléhat na ty, kdo mají lepší přístup k dokladům. Otázka tedy nezní, zda důvěřovat zdrojům, ale *kterým* a proč. Goldman (2001) navrhl, podle čeho může laik posuzovat odborníky, kterým nerozumí: podle argumentů, které dokáže sledovat, podle shody s dalšími nezávislými odborníky, podle hodnocení jejich odbornosti třetími stranami, podle možných zájmů a předsudků a podle dosavadní spolehlivosti.
+
+Kognitivní věda popisuje přirozenou schopnost lidí hodnotit, komu a čemu věřit, jako epistemickou ostražitost: posuzujeme kompetenci a záměry zdroje i soudržnost sdělení s tím, co už víme (Sperber et al. 2010). Tato ostražitost dobře funguje v přímém kontaktu, ale je snadno obejitelná v prostředí, kde je původ sdělení skrytý a kde je výběr obsahu svěřen algoritmům nebo autoritě skupiny. Kurátorství zdrojů je způsob, jak ji vrátit do hry: zdroje si vybírám sám, znám jejich původce a pravidelně kontroluji, zda si důvěru stále zaslouží.
+
+Nguyen (2020) upozorňuje, že epistemickou bublinu lze protrhnout vystavením se chybějícím hlasům, kdežto ozvěnová komora vyžaduje obnovu důvěry, kterou skupina podkopala. Proto cvičení pracují s oběma rovinami – s rozšířením zdrojů i s kritérii, podle nichž jim důvěřovat.
 
 ## Pět praktických cvičení
 
@@ -81,13 +85,21 @@ Týdně půl hodiny na revizi, jednou měsíčně důkladnější audit. Pokrok 
 
 ## Čeho se vyvarovat
 
-- Neměňte informační návyky okázale, pokud vás skupina nebo partner za čtení „zakázaných“ zdrojů trestá; vaše bezpečí je přednější.
-- Nesestavujte si tak úzkou „čistou“ sadu, že se uzavřete do nové bubliny.
-- Nepovažujte zdroj za spolehlivý jen proto, že se s ním shodnete.
+Neměňte informační návyky okázale, pokud vás skupina nebo partner za čtení „zakázaných“ zdrojů trestá; vaše bezpečí je přednější. Čtěte z bezpečného zařízení a místa a historii si chraňte.
+
+Nesestavujte si ani tak úzkou „čistou“ sadu, že se uzavřete do nové bubliny. A nepovažujte zdroj za spolehlivý jen proto, že se s ním shodnete: spolehlivost se pozná podle postupů, odpovědnosti a ochoty opravovat chyby, ne podle souhlasu.
 
 ## Meze svépomoci
 
 Příliš úzká kurátorská bublina vede k epistemické uzavřenosti; vědomě pouštějte i kvalitní zdroje s jiným pohledem. Kurátorství nevyřeší situaci, kdy je informační kontrola součástí vztahu nebo skupiny – tam je problémem kontrola, ne vaše volba zdrojů. Po dlouhém pobytu v uzavřeném informačním prostředí pomůže postup [akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md).
+
+## Literatura
+
+- Goldman, A. I. (2001). Experts: Which ones should you trust? *Philosophy and Phenomenological Research*, 63(1), 85–110.
+- Hardwig, J. (1985). Epistemic dependence. *The Journal of Philosophy*, 82(7), 335–349.
+- Nguyen, C. T. (2020). Echo chambers and epistemic bubbles. *Episteme*, 17(2), 141–161.
+- Pariser, E. (2011). *The Filter Bubble: What the Internet Is Hiding from You*. Penguin Press.
+- Sperber, D., Clément, F., Heintz, C., Mascaro, O., Mercier, H., Origgi, G., & Wilson, D. (2010). Epistemic vigilance. *Mind & Language*, 25(4), 359–393.
 
 ## Související
 

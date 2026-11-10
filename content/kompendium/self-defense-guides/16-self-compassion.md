@@ -19,9 +19,7 @@ Sebesoucit znamená zacházet se sebou v těžké chvíli tak, jak bychom zachá
 
 ## Pro koho je návod
 
-- Pro člověka, jehož vnitřní hlas zní podobně jako hlas osoby, která mu ubližovala.
-- Pro ty, kdo se po odchodu z manipulativního vztahu nebo skupiny obviňují, že „to neviděli dřív“.
-- Pro perfekcionisty, kteří jakoukoli chybu prožívají jako důkaz vlastní bezcennosti.
+Návod je určen člověku, jehož vnitřní hlas zní podobně jako hlas osoby, která mu ubližovala, a těm, kdo se po odchodu z manipulativního vztahu nebo skupiny obviňují, že „to neviděli dřív“. Pomůže i perfekcionistům, kteří jakoukoli chybu prožívají jako důkaz vlastní bezcennosti a kteří proto snadno přijmou kritiku, i když je nespravedlivá.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,10 +27,9 @@ Pomáhá, když si vyčítáte, že jste zůstali ve vztahu příliš dlouho; kd
 
 ## Varovné signály
 
-- Ve vnitřní řeči používáte slova, která byste nikdy neřekli nikomu jinému („jsem úplně neschopná“, „jsem odpad“).
-- Chybu prožíváte týdny a vracíte se k ní.
-- Laskavost od druhých vám je nepříjemná nebo jí nevěříte.
-- Vnitřní kritik zní jako konkrétní člověk z vašeho života.
+Nejsnáze rozpoznatelným signálem je dvojí metr: ve vnitřní řeči používáte slova, která byste nikdy neřekli nikomu jinému („jsem úplně neschopná“, „jsem odpad“). Dalším je délka – chybu prožíváte týdny a vracíte se k ní, místo abyste z ní vyvodili poučení a pustili ji. Neffová (2003) odlišuje sebesoucit právě od takového sebeodsuzování i od sebelítosti, v níž člověk splývá s vlastním utrpením a ztrácí perspektivu.
+
+Výmluvné je i to, když je vám laskavost od druhých nepříjemná nebo jí nevěříte. Gilbert et al. (2011) popsali „strach ze soucitu“ – obavu přijímat laskavost od druhých i od sebe –, který souvisí s vyšší sebekritikou a horším duševním zdravím. Nejvíce vypovídá signál, že vnitřní kritik zní jako konkrétní člověk z vašeho života: pak nejde o vaši povahu, ale o hlas, který jste převzali.
 
 ## Modelová situace
 
@@ -41,6 +38,14 @@ Muž po rozchodu s partnerkou, která ho dlouhodobě kontrolovala, si opakoval, 
 ## Cíl dovednosti
 
 Vyvinout vůči sobě stejnou laskavost a porozumění, jakou byste prokazovali blízkému člověku v nesnázích – a odlišit vlastní hlas od převzatého hlasu kritika.
+
+## Odborné východisko
+
+Neffová (2003) vymezila sebesoucit jako postoj ke svému utrpení, který spojuje laskavost k sobě, vědomí, že selhání a bolest patří k lidskému údělu, a všímavé držení bolestných pocitů bez potlačování i bez přehánění. Na rozdíl od sebevědomí nezávisí sebesoucit na tom, zda se člověku daří, a nepotřebuje srovnání s druhými; proto zůstává k dispozici právě ve chvílích selhání, kdy ho člověk nejvíc potřebuje. Metaanalýza zjistila středně silnou souvislost mezi vyšším sebesoucitem a nižší mírou deprese, úzkosti a stresu (MacBeth a Gumley 2012).
+
+Gilbert (2009) vychází z evoluční perspektivy a popisuje vnitřní kritiku jako projev systému ohrožení: člověk se „hlídá“ a trestá, aby předešel odmítnutí. U lidí, kteří vyrůstali nebo žili s přísnou či zneužívající autoritou, může být tento systém trvale aktivní, a vnitřní hlas pak doslova opakuje hlas autority. Terapie zaměřená na soucit proto nepracuje jen s obsahem kritiky, ale s posilováním zklidňujícího systému, který dovoluje cítit se v bezpečí.
+
+Častou námitkou je obava, že laskavost k sobě povede k lenosti. Experimenty ukázaly opak: lidé vedení k sebesoucitnému postoji po selhání byli ochotnější se zlepšovat a více se připravovali na další pokus než lidé vedení k podpoře sebevědomí (Breines a Chen 2012). Program všímavého sebesoucitu, který Neffová a Germer (2013) ověřili v randomizované studii, pak ukazuje, že sebesoucit lze cíleně trénovat.
 
 ## Pět praktických cvičení
 
@@ -80,13 +85,22 @@ Denně deset minut formální praxe (dopis, meditace laskavosti, sešit dvou hla
 
 ## Čeho se vyvarovat
 
-- Nezaměňujte sebesoucit se sebeshovívavostí: laskavost neznamená ignorovat, co je potřeba změnit.
-- Nenahrazujte sebesoucitem vlastní bezpečí – laskavost k sobě zahrnuje i rozhodnutí odejít z prostředí, které vám ubližuje.
-- Nepoužívejte cvičení k přesvědčování sebe, že „to vlastně nebylo tak zlé“.
+Nezaměňujte sebesoucit se sebeshovívavostí: laskavost neznamená ignorovat, co je potřeba změnit, a s převzetím odpovědnosti za vlastní chyby je slučitelná (Breines a Chen 2012). Nenahrazujte sebesoucitem ani vlastní bezpečí – laskavost k sobě zahrnuje i rozhodnutí odejít z prostředí, které vám ubližuje.
+
+A nepoužívejte cvičení k přesvědčování sebe, že „to vlastně nebylo tak zlé“. Sebesoucit uznává bolest v její skutečné velikosti; zlehčování je jen jiná forma popření.
 
 ## Meze svépomoci
 
 Sebesoucit není sebeshovívavost; někdy laskavost k sobě znamená udělat těžké rozhodnutí. U lidí s hlubokým studem po dlouhodobém zneužívání mohou být cvičení laskavosti zpočátku bolestná nebo vyvolávat odpor – to je známý jev, ne selhání. V takovém případě je vhodné pracovat s terapeutem.
+
+## Literatura
+
+- Breines, J. G., & Chen, S. (2012). Self-compassion increases self-improvement motivation. *Personality and Social Psychology Bulletin*, 38(9), 1133–1143.
+- Gilbert, P. (2009). *The Compassionate Mind*. Constable.
+- Gilbert, P., McEwan, K., Matos, M., & Rivis, A. (2011). Fears of compassion: Development of three [self-report](@/glossary/self-report.md) measures. *Psychology and Psychotherapy: Theory, Research and Practice*, 84(3), 239–255.
+- MacBeth, A., & Gumley, A. (2012). Exploring compassion: A meta-analysis of the association between self-compassion and psychopathology. *Clinical Psychology Review*, 32(6), 545–552.
+- Neff, K. D. (2003). Self-compassion: An alternative conceptualization of a healthy attitude toward oneself. *Self and Identity*, 2(2), 85–101.
+- Neff, K. D., & Germer, C. K. (2013). A pilot study and randomized controlled trial of the mindful self-compassion program. *Journal of Clinical Psychology*, 69(1), 28–44.
 
 ## Související
 

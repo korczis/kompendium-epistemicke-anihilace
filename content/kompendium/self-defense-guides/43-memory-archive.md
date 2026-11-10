@@ -19,9 +19,7 @@ Lidská paměť není záznamové zařízení. Vzpomínky se při každém vybav
 
 ## Pro koho je návod
 
-- Pro člověka, kterému blízká osoba opakovaně popírá jeho vzpomínky.
-- Pro ty, kdo prožívají období zmatku a nevědí, co se kdy stalo.
-- Pro lidi po odchodu ze skupiny, která přepisovala jejich minulost.
+Návod je pro člověka, kterému blízká osoba opakovaně popírá jeho vzpomínky, pro ty, kdo prožívají období zmatku a nevědí, co se kdy stalo, a pro lidi po odchodu ze skupiny, která přepisovala jejich minulost. Všem dává vnější oporu, o kterou se mohou opřít, když vlastní paměť přestává stačit.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,10 +27,9 @@ Pomáhá v kontrolujících vztazích, kde se o minulosti vede trvalý spor („
 
 ## Varovné signály
 
-- Nejste si jistí, co se skutečně stalo, protože vám to někdo podává jinak.
-- Vaše staré deníky, fotografie nebo zprávy „zmizely“ nebo vám byly vzaty.
-- Ztrácíte pojem o tom, kdy se co stalo.
-- Někdo vás odrazuje od zapisování („k čemu si to píšeš, nevěříš mi?“).
+Prvním signálem je nejistota, která má vnější původ: nejste si jistí, co se skutečně stalo, protože vám to někdo podává jinak. Sweet (2019) ukazuje, že popírání vzpomínek oběti patří k typickým strategiím gaslightingu a že jeho účinnost roste s mocenskou nerovností mezi stranami. Druhým signálem je časová dezorientace – ztrácíte pojem o tom, kdy se co stalo.
+
+Nejzávažnější jsou signály, které ukazují na aktivní zásah do vaší paměti: staré deníky, fotografie nebo zprávy „zmizely“ nebo vám byly vzaty, a někdo vás odrazuje od zapisování („k čemu si to píšeš, nevěříš mi?“). Kdo se brání tomu, abyste si vedli záznam, má zpravidla důvod, proč nechce, aby existoval.
 
 ## Modelová situace
 
@@ -41,6 +38,14 @@ Pomáhá v kontrolujících vztazích, kde se o minulosti vede trvalý spor („
 ## Cíl dovednosti
 
 Systematicky uchovávat stopy vlastního života – zápisy, fotografie, dopisy, záznamy –, aby měla paměť vnější oporu a minulost se nedala snadno přepsat; a přitom chápat, co archiv dokáže a co ne.
+
+## Odborné východisko
+
+Rekonstruktivní povahu paměti popsal již Bartlett (1932), který ukázal, že lidé si příběhy z cizí kultury pamatují tak, že je postupně přizpůsobují vlastním očekáváním. Loftusová a Palmer (1974) pak experimentálně doložili, že pouhá změna slovesa v otázce („narazila“ versus „rozbila se“) ovlivnila, jak rychle účastníci odhadovali jízdu aut, a že část z nich si později „vybavila“ rozbité sklo, které ve filmu nebylo. Loftusová (2005) shrnula třicet let výzkumu: zavádějící informace podané po události mohou vzpomínku změnit a za určitých podmínek lze lidem vštípit i vzpomínky na události, které se nestaly.
+
+Schacter (2001) zařadil sugestibilitu a chybné přiřazení zdroje mezi „hříchy paměti“ – běžné chyby, které jsou vedlejším produktem jinak užitečných vlastností paměti. Pro sebe-obranu z toho plynou dva závěry. Zaprvé, pokud vám někdo opakovaně podává jinou verzi události, vaše paměť se může skutečně posunout, aniž byste byli „slabí“. Zadruhé, záznam pořízený v době události je méně náchylný ke změně než vzpomínka vybavená po měsících tlaku – proto archiv.
+
+Výzkum paměti ale varuje i opačným směrem. Loftusová (1993) upozornila, že sugestivní postupy používané k „odhalování“ údajně potlačených vzpomínek mohou vytvořit vzpomínky nepravdivé. Paměťový archiv proto slouží k uchování toho, co se děje a co je zachyceno v dobových záznamech, ne k rekonstrukci dávné minulosti bez odborného vedení.
 
 ## Pět praktických cvičení
 
@@ -80,13 +85,22 @@ Týdně čtvrt hodiny deníku, průběžně fotografie, jednou ročně dopis, dv
 
 ## Čeho se vyvarovat
 
-- Nepoužívejte archiv k „odhalování“ potlačených vzpomínek; cílem je uchovat to, co se děje, ne rekonstruovat dávnou minulost bez odborného vedení.
-- Neukazujte archiv osobě, s níž je spor, a nepoužívejte ho ke konfrontaci.
-- Neutápějte se v dokumentaci; archiv má sloužit životu, ne ho nahrazovat.
+Nepoužívejte archiv k „odhalování“ potlačených vzpomínek; cílem je uchovat to, co se děje, ne rekonstruovat dávnou minulost bez odborného vedení (Loftus 1993). Neukazujte archiv osobě, s níž je spor, a nepoužívejte ho ke konfrontaci; konfrontace s manipulující osobou situaci zpravidla zhorší a archiv může přijít o svou hodnotu, pokud ho druhá strana zničí.
+
+Neutápějte se ani v dokumentaci; archiv má sloužit životu, ne ho nahrazovat. Krátký, pravidelný záznam má větší hodnotu než vyčerpávající popis, který po několika týdnech vzdáte.
 
 ## Meze svépomoci
 
 Archiv je opora, ne nezpochybnitelný důkaz; i vlastní zápisy jsou výklad. Paměť a záznamy se vzájemně doplňují. Pokud jsou mezery v paměti spojeny s traumatem, patří jejich zpracování do terapie, kde se postupuje opatrně, aby nevznikaly vzpomínky nové a nepravdivé.
+
+## Literatura
+
+- Bartlett, F. C. (1932). *Remembering: A Study in Experimental and Social Psychology*. Cambridge University Press.
+- Loftus, E. F. (1993). The reality of repressed memories. *American Psychologist*, 48(5), 518–537.
+- Loftus, E. F. (2005). Planting misinformation in the human mind: A 30-year investigation of the malleability of memory. *Learning & Memory*, 12(4), 361–366.
+- Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. *Journal of Verbal Learning and Verbal Behavior*, 13(5), 585–589.
+- Schacter, D. L. (2001). *The Seven Sins of Memory: How the Mind Forgets and Remembers*. Houghton Mifflin.
+- Sweet, P. L. (2019). The sociology of gaslighting. *American Sociological Review*, 84(5), 851–875.
 
 ## Související
 

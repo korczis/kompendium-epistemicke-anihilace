@@ -19,9 +19,7 @@ Lidé kolem nás nejsou jen zdrojem citové opory; jsou také „čidly reality�
 
 ## Pro koho je návod
 
-- Pro člověka, jehož přátelé jsou téměř všichni z jedné skupiny, práce nebo komunity.
-- Pro ty, kdo po stěhování, rozvodu nebo odchodu z organizace ztratili většinu kontaktů najednou.
-- Pro lidi, kteří chtějí předejít tomu, aby je jedna ztráta připravila o celý svět.
+Návod je určen člověku, jehož přátelé jsou téměř všichni z jedné skupiny, práce nebo komunity, a těm, kdo po stěhování, rozvodu nebo odchodu z organizace ztratili většinu kontaktů najednou. Pomůže i lidem, kteří chtějí předejít tomu, aby je jediná ztráta připravila o celý svět.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,10 +27,9 @@ Pomáhá, když jste součástí intenzivní komunity (náboženské, sportovní
 
 ## Varovné signály
 
-- Všichni vaši blízcí se navzájem znají a sdílejí stejný názor na většinu věcí.
-- Odchod z práce nebo skupiny by znamenal ztrátu téměř všech přátel.
-- Lidé „zvenku“ jsou ve vašem okolí popisováni jako nebezpeční nebo méněcenní.
-- Nemáte nikoho, s kým byste mohli probrat pochybnost o vlastní skupině.
+Na příliš úzkou síť upozorňuje stejnorodost: všichni vaši blízcí se navzájem znají a sdílejí stejný názor na většinu věcí. Druhým signálem je závislost – odchod z práce nebo skupiny by znamenal ztrátu téměř všech přátel, a tím i ztrátu míst, kde by se dalo o odchodu přemýšlet nahlas. Putnam (2000) rozlišuje sociální kapitál „spojující“, který posiluje soudržnost uvnitř skupiny, a „přemosťující“, který propojuje lidi z různých prostředí; síť složená jen z prvního druhu je pevná, ale uzavřená.
+
+Další signály se týkají hranice mezi „námi“ a „jimi“. Lidé „zvenku“ jsou ve vašem okolí popisováni jako nebezpeční nebo méněcenní a nemáte nikoho, s kým byste mohli probrat pochybnost o vlastní skupině. Klasické experimenty se skupinovým tlakem ukázaly, jak velkou roli hraje i jediný spojenec: když byl ve skupině alespoň jeden člověk, který se od většiny odlišil, ochota podřídit se zjevně chybnému úsudku výrazně klesla (Asch 1956). Kdo nemá ani jednoho takového člověka, je vůči tlaku mnohem zranitelnější.
 
 ## Modelová situace
 
@@ -41,6 +38,14 @@ Programátor pracoval sedm let ve startupu, kde se celý tým stýkal i po prác
 ## Cíl dovednosti
 
 Budovat vztahovou síť napříč obory, generacemi, prostředími a názory, aby žádná jednotlivá ztráta nebyla devastující a žádný jednotlivý vliv nemohl ovládnout váš obraz světa.
+
+## Odborné východisko
+
+Granovetter (1973) ve své slavné studii o „síle slabých vazeb“ ukázal, že nové informace – například o pracovních příležitostech – přicházejí častěji od známých než od nejbližších přátel, protože známí se pohybují v jiných okruzích a vidí věci, které vlastní okruh nevidí. Pro sebe-obranu je to podstatné: slabé vazby jsou mosty do jiných výkladů reality, a proto je manipulativní prostředí často přerušuje jako první.
+
+Sociální psychologie zdraví přidává k témuž poznatku další rozměr. Výzkum takzvaného sociálního léku ukazuje, že členství ve více skupinách, s nimiž se člověk identifikuje, souvisí s lepším duševním zdravím a s větší odolností při životních změnách; kdo ztratí jednu skupinu, má kde stát (Jetten, Haslam a Haslam 2012). Z toho plyne praktická zásada: síť je odolnější, když se skládá z několika nezávislých okruhů – rodiny, práce, zájmů, sousedství –, které se navzájem nepřekrývají.
+
+Diverzifikace přitom neznamená co nejvíc kontaktů. Rozhodující je nezávislost okruhů a to, že alespoň v některém z nich lze bezpečně vyslovit pochybnost. Jediný důvěryhodný člověk mimo dosah skupiny může mít pro schopnost vidět situaci realisticky větší váhu než desítky povrchních známostí (Asch 1956).
 
 ## Pět praktických cvičení
 
@@ -80,13 +85,20 @@ Jednou ročně zhruba dvě hodiny na mapu sítě, jednou měsíčně jedna nová
 
 ## Čeho se vyvarovat
 
-- Nebudujte nové vztahy tajně, pokud by odhalení mohlo vést k násilí; nejprve si zajistěte bezpečí.
-- Nehledejte náhradu za uzavřenou skupinu v jiné stejně uzavřené skupině.
-- Nepovažujte počet kontaktů za kvalitu.
+Nebudujte nové vztahy tajně, pokud by odhalení mohlo vést k násilí; nejprve si zajistěte bezpečí a o postupu se poraďte s intervenčním centrem. Nehledejte náhradu za uzavřenou skupinu v jiné stejně uzavřené skupině – nová komunita, která po vás brzy chce výlučnost, opakuje starý vzorec.
+
+A nepovažujte počet kontaktů za kvalitu. Síť se měří tím, kolik nezávislých světů propojuje a komu v ní můžete říct pravdu, ne počtem jmen v telefonu.
 
 ## Meze svépomoci
 
 Diverzifikace bez hloubky vede k povrchním vztahům; několik hlubokých vztahů je důležitějších než široká, ale mělká síť. Budování sítě vyžaduje čas a energii, které v krizi chybějí; tehdy je vhodnější opřít se o několik spolehlivých lidí a o profesionální podporu.
+
+## Literatura
+
+- Asch, S. E. (1956). Studies of independence and conformity: I. A minority of one against a unanimous majority. *Psychological Monographs: General and Applied*, 70(9), 1–70.
+- Granovetter, M. S. (1973). The strength of weak ties. *American Journal of Sociology*, 78(6), 1360–1380.
+- Jetten, J., Haslam, C., & Haslam, S. A. (Eds.). (2012). *The Social Cure: Identity, Health and Well-being*. Psychology Press.
+- Putnam, R. D. (2000). *Bowling Alone: The Collapse and Revival of American Community*. Simon & Schuster.
 
 ## Související
 

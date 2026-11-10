@@ -19,9 +19,7 @@ Falsifikační myšlení vychází z myšlenky Karla Poppera, že tvrzení o sv�
 
 ## Pro koho je návod
 
-- Pro člověka ve skupině nebo vztahu, kde je „pravda“ vždy na jedné straně a pochybnost vždy vaší vinou.
-- Pro ty, kdo se vracejí z konspiračního nebo pseudovědeckého prostředí a hledají způsob, jak znovu poměřovat tvrzení.
-- Pro každého, kdo chce, aby jeho vlastní přesvědčení zůstala živá a opravitelná.
+Návod je určen člověku ve skupině nebo vztahu, kde je „pravda“ vždy na jedné straně a pochybnost vždy jeho vinou. Pomůže i těm, kdo se vracejí z konspiračního nebo pseudovědeckého prostředí a hledají způsob, jak znovu poměřovat tvrzení, a každému, kdo chce, aby jeho vlastní přesvědčení zůstala živá a opravitelná.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,10 +27,9 @@ Pomáhá u výkladů, které pokrývají vše: když se předpověď skupiny nes
 
 ## Varovné signály
 
-- Na otázku „co by tě přesvědčilo, že se mýlíš?“ neexistuje odpověď, nebo vede ke zlosti.
-- Nesplněná předpověď se nikdy nepočítá jako omyl.
-- Pojmy se předefinují vždy tak, aby výklad vyšel ([cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md)).
-- Pochybnost je pojmenována jako nemoc, hřích nebo „ego“.
+Uzavřený systém prozradí především jeho vztah k možnosti omylu. Na otázku „co by tě přesvědčilo, že se mýlíš?“ neexistuje odpověď, nebo vede ke zlosti; nesplněná předpověď se nikdy nepočítá jako omyl; pojmy se předefinují vždy tak, aby výklad vyšel ([cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md)). Popper (1963) uváděl jako příklad teorie, které dokázaly „vysvětlit“ jakékoli chování, a upozorňoval, že taková všestrannost není jejich silou, ale slabinou: co vysvětlí všechno, nevylučuje nic.
+
+Klasická terénní studie skupiny očekávající konec světa popsala, co se může stát, když předpověď selže: místo opuštění přesvědčení část členů svou víru posílila a začala ji horlivěji šířit (Festinger, Riecken a Schachter 1956). Čtvrtým signálem je proto jazyk, kterým se zachází s pochybností – je-li pojmenována jako nemoc, hřích nebo „ego“, přestává být nástrojem poznání a stává se proviněním. Lifton (1961) tento rys totalistického prostředí popsal jako nadřazení doktríny nad osobní zkušenost.
 
 ## Modelová situace
 
@@ -41,6 +38,14 @@ Muž strávil několik let ve skupině, která předpovídala blízkou celosvět
 ## Cíl dovednosti
 
 Zvyknout si formulovat vlastní hypotézy tak, aby byly vyvratitelné, aktivně hledat doklady proti nim a rozpoznat výklad, který vyvrátit nejde.
+
+## Odborné východisko
+
+Popperova *Logika vědeckého zkoumání* (Popper 1959) vychází z asymetrie: žádný počet potvrzujících případů nemůže obecné tvrzení definitivně dokázat, kdežto jediný dobře doložený protipříklad ho může vyvrátit. Z toho Popper odvodil kritérium, jímž odlišoval empirická tvrzení od tvrzení, která se zkušenosti vyhýbají – tvrzení je empirické, pokud lze předem říct, jaké pozorování by s ním bylo v rozporu. Pro osobní život je tato myšlenka užitečná hlavně jako otázka, ne jako metoda: ptát se, co by daný výklad vyloučil, je rychlý test jeho poctivosti.
+
+Psychologie ukazuje, proč je to obtížné. V Wasonově experimentu s posloupností čísel většina účastníků testovala svou hypotézu jen příklady, které ji mohly potvrdit, a zřídka zkusila případ, který by ji mohl vyvrátit (Wason 1960). Tato tendence, později shrnutá jako konfirmační zkreslení, je běžnou vlastností lidského myšlení, ne vadou jednotlivce (Nickerson 1998). Manipulativní prostředí ji však soustavně posiluje tím, že hledání protipříkladů trestá.
+
+Lakatos (1970) Popperovu myšlenku zpřesnil: i dobrá teorie se zprvu brání protipříkladům pomocnými hypotézami, a rozhodující je, zda tato obrana vede k novým, ověřitelným předpovědím, nebo jen dodatečně zalátává díry. Totéž rozlišení se hodí pro posouzení výkladu, který slyšíte ve vztahu nebo ve skupině: vysvětlení, které po každém selhání jen přibude o další výjimku, je známkou degenerujícího programu.
 
 ## Pět praktických cvičení
 
@@ -79,13 +84,23 @@ Měsíčně zhruba dvě hodiny na registr a seznam opuštěných názorů; před
 
 ## Čeho se vyvarovat
 
-- Nepokoušejte se „usvědčit“ vůdce nebo skupinu z nefalsifikovatelnosti přímo; uzavřený systém má na takovou výzvu připravenou odpověď a vy se můžete stát terčem.
-- Nepoužívejte falsifikaci na všechno: hodnoty, láska nebo smysl života nejsou empirické hypotézy a nemusí se testovat.
-- Neodhazujte celý svůj světový názor najednou; přestavba je postupná.
+Nepokoušejte se „usvědčit“ vůdce nebo skupinu z nefalsifikovatelnosti přímo; uzavřený systém má na takovou výzvu připravenou odpověď a vy se můžete stát terčem. Falsifikační otázky si klaďte sami pro sebe nebo s důvěryhodným člověkem mimo systém.
+
+Nepoužívejte falsifikaci ani na všechno: hodnoty, láska nebo smysl života nejsou empirické hypotézy a nemusí se testovat. A neodhazujte celý svůj světový názor najednou; přestavba je postupná a to, co v něm obstojí, si můžete ponechat.
 
 ## Meze svépomoci
 
 Naivní falsifikace přehlíží, že i vědecké teorie po dlouhou dobu odolávají jednotlivým protipříkladům pomocí pomocných hypotéz, a není mechanickou procedurou (srov. [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md)). Pokud jste byli v uzavřeném systému dlouho, může být rozpad dosavadního výkladu krizí identity; to je situace pro odborné doprovázení, ne pro samostatné „ladění“ myšlení.
+
+## Literatura
+
+- Festinger, L., Riecken, H. W., & Schachter, S. (1956). *When Prophecy Fails*. University of Minnesota Press.
+- Lakatos, I. (1970). Falsification and the methodology of scientific research programmes. In I. Lakatos & A. Musgrave (Eds.), *Criticism and the Growth of Knowledge* (pp. 91–196). Cambridge University Press.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. Hutchinson.
+- Popper, K. R. (1963). *Conjectures and Refutations: The Growth of Scientific Knowledge*. Routledge & Kegan Paul.
+- Wason, P. C. (1960). On the failure to eliminate hypotheses in a conceptual task. *Quarterly Journal of Experimental Psychology*, 12(3), 129–140.
 
 ## Související
 

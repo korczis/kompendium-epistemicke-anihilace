@@ -19,9 +19,7 @@ Dobrý mentor, kouč, školitel nebo duchovní průvodce dokáže člověka posu
 
 ## Pro koho je návod
 
-- Pro studenty, doktorandy a začínající profesionály ve vztahu se školitelem nebo nadřízeným.
-- Pro klienty koučů, terapeutů, trenérů a lektorů osobního rozvoje.
-- Pro členy náboženských a duchovních společenství ve vztahu k vůdci či průvodci.
+Návod je určen studentům, doktorandům a začínajícím profesionálům ve vztahu se školitelem nebo nadřízeným, klientům koučů, terapeutů, trenérů a lektorů osobního rozvoje a členům náboženských a duchovních společenství ve vztahu k vůdci či průvodci. Ve všech těchto vztazích je nerovnost moci legitimní a často užitečná – a právě proto stojí za to umět ji posoudit.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,12 +27,9 @@ Pomáhá, když mentor rozhoduje i o věcech mimo svou roli (vztahy, peníze, by
 
 ## Varovné signály
 
-- Mentor nesnese nesouhlas; kritika je vykládána jako nevděk, pýcha nebo „odpor ega“.
-- Vztah vyžaduje stále víc času, peněz nebo osobních služeb.
-- Mentor odrazuje od jiných zdrojů vedení („ostatní tomu nerozumějí“).
-- Bývalí svěřenci jsou buď kopiemi mentora, nebo „zrádci“.
-- Mentor zná vaše tajemství a připomíná je ve chvílích, kdy se bráníte.
-- Ekonomika vztahu je neprůhledná.
+Nejvýmluvnějším signálem je vztah k nesouhlasu: mentor nesnese nesouhlas a kritika je vykládána jako nevděk, pýcha nebo „odpor ega“. S tím obvykle souvisí výlučnost – mentor odrazuje od jiných zdrojů vedení („ostatní tomu nerozumějí“) – a rostoucí nároky, kdy vztah vyžaduje stále víc času, peněz nebo osobních služeb, přičemž ekonomika vztahu zůstává neprůhledná. Lifton (1961) popsal v totalistickém prostředí „posvátnou vědu“: učení, které je nad kritikou a jehož zpochybnění je zpochybněním člověka samého.
+
+Užitečné je podívat se i na ty, kdo vztahem prošli. Bývalí svěřenci jsou buď kopiemi mentora, nebo „zrádci“ – zdravé vedení naproti tomu zanechává samostatné lidi, kteří se od mentora liší. Nejzávažnějším signálem je, když mentor zná vaše tajemství a připomíná je ve chvílích, kdy se bráníte; důvěrná informace se tím mění v páku.
 
 ## Modelová situace
 
@@ -43,6 +38,14 @@ Klientka kouče osobního rozvoje platila nejprve měsíční program, pak „mi
 ## Cíl dovednosti
 
 Kriticky posuzovat kvalitu lidí, kteří nás formálně či neformálně vedou, a včas rozpoznat, kdy vedení přerůstá v závislost, kontrolu nebo zneužití moci.
+
+## Odborné východisko
+
+Výzkum mentoringu v organizacích popsal dvě funkce dobrého mentora: kariérní (otevírat příležitosti, chránit, učit řemeslu) a psychosociální (podporovat identitu, sebedůvěru a profesní sebepojetí svěřence) (Kram 1985). Kramová zároveň ukázala, že zdravý mentorský vztah má fáze a že k jeho přirozenému vývoji patří i oddělení a proměna ve vztah rovnocennějších kolegů. Mentor, který tuto fázi znemožňuje a vyžaduje trvalou závislost, tím neplní svou funkci, ale obrací ji.
+
+Milgramovy experimenty s poslušností vůči autoritě ukázaly, jak daleko jsou běžní lidé ochotni jít na pokyn osoby, kterou vnímají jako legitimní autoritu, a jak klesá jejich ochota, když autorita ztrácí legitimitu nebo když se objeví někdo, kdo odmítne (Milgram 1974). Pro hodnocení mentora z toho plyne, že poslušnost není důkazem jeho moudrosti a že pochybnost svěřence je normální, ne podezřelá.
+
+Lalichová (2004) na rozboru charismatických skupin popsala „ohraničenou volbu“: člověk má pocit, že se rozhoduje svobodně, ale volí jen mezi možnostmi, které připouští rámec vůdce, a odchod se mu jeví jako nemyslitelný. Singerová (1995) upozorňovala, že takový vliv nepředpokládá zvláštní naivitu svěřence – vzniká postupně a s jeho vlastní ochotou. Cvičení v tomto návodu proto nesledují osobnost mentora, ale strukturu vztahu: kam vede, co vylučuje a zda z něj lze bez trestu odejít.
 
 ## Pět praktických cvičení
 
@@ -83,13 +86,21 @@ Jednou za půl roku hlubší hodnocení mentora (zhruba tři hodiny), průběžn
 
 ## Čeho se vyvarovat
 
-- Nekonfrontujte mentora, na němž závisí vaše bydlení, vízum, studium nebo bezpečí, bez plánu a opory.
-- Neodcházejte o samotě, pokud mentor stojí v čele skupiny, která odchody trestá.
-- Nepřenášejte zklamání na všechny autority; dobrý mentor je vzácný, ale existuje.
+Nekonfrontujte mentora, na němž závisí vaše bydlení, vízum, studium nebo bezpečí, bez plánu a opory; nejprve si zajistěte alternativy a poraďte se s nezávislou institucí (studijní oddělení, ombudsman, odborová organizace, poradna). Neodcházejte o samotě, pokud mentor stojí v čele skupiny, která odchody trestá.
+
+Nepřenášejte ani zklamání na všechny autority. Dobrý mentor je vzácný, ale existuje, a zkušenost se zneužitím vztahu se dá využít k tomu, abyste dalšího vybírali pozorněji.
 
 ## Meze svépomoci
 
 Příliš tvrdá kritika může poškodit cenný vztah; hledejte rovnováhu mezi důvěrou a ostražitostí. Pokud byl vztah s mentorem dlouhý a intenzivní, odchod může znamenat ztrátu identity a komunity; v takovém případě je vhodný doprovod psychologa a postup podle [protokolu kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md).
+
+## Literatura
+
+- Kram, K. E. (1985). *Mentoring at Work: Developmental Relationships in Organizational Life*. Scott, Foresman.
+- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Milgram, S. (1974). *Obedience to Authority: An Experimental View*. Harper & Row.
+- Singer, M. T. (1995). *Cults in Our Midst*. Jossey-Bass.
 
 ## Související
 

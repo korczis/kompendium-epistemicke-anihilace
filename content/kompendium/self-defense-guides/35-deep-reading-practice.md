@@ -19,9 +19,7 @@ Hluboké čtení je pomalé, soustředěné čtení souvislého textu, při kter
 
 ## Pro koho je návod
 
-- Pro člověka, který si všiml, že „už nedokáže číst knihy“ a že se po pár odstavcích ztrácí.
-- Pro ty, kdo odcházejí z prostředí, kde se četly jen texty schválené skupinou a jen jedním způsobem.
-- Pro studenty a profesionály, jejichž práce vyžaduje porozumění složitým textům.
+Návod je určen člověku, který si všiml, že „už nedokáže číst knihy“ a že se po pár odstavcích ztrácí, a těm, kdo odcházejí z prostředí, kde se četly jen texty schválené skupinou a jen jedním způsobem. Pomůže i studentům a profesionálům, jejichž práce vyžaduje porozumění složitým textům.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá při čtení smluv, úředních dopisů a podmínek, kde rozhodují det
 
 ## Varovné signály
 
-- Po několika minutách čtení sáhnete po telefonu.
-- Čtete jen titulky a shrnutí a věříte jim.
-- Texty vaší skupiny čtete jen s jejich oficiálním výkladem.
-- Složitý text ve vás vyvolává úzkost nebo vztek, ne zvědavost.
-- Nedokážete po přečtení říct, co text tvrdil.
+Oslabení hlubokého čtení se ohlašuje netrpělivostí: po několika minutách čtení sáhnete po telefonu, čtete jen titulky a shrnutí a věříte jim. Carr (2010) popisuje, jak se s převahou rychlého, přerušovaného čtení na internetu mění čtenářské návyky a jak mnozí čtenáři zjišťují, že souvislý text vyžaduje úsilí, které dřív nevnímali. Ztráta trpělivosti tedy nemusí být osobním selháním, ale důsledkem prostředí.
+
+Další signály se týkají vztahu k obsahu. Texty své skupiny čtete jen s jejich oficiálním výkladem; složitý text ve vás vyvolává úzkost nebo vztek, ne zvědavost; a po přečtení nedokážete říct, co text tvrdil. Poslední znak je nejpraktičtějším testem: kdo neumí argument shrnout vlastními slovy, nemůže ho ani posoudit.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Bývalý člen náboženské komunity léta četl posvátné texty výhradně s 
 ## Cíl dovednosti
 
 Obnovit schopnost hlubokého, soustředěného čtení dlouhých textů a používat ji k samostatnému posuzování toho, co text skutečně tvrdí.
+
+## Odborné východisko
+
+Maryanne Wolfová, která se zabývá neurovědou čtení, popisuje, že čtení není vrozená schopnost, ale kulturní vynález, pro který si mozek musí vybudovat nové propojení; hluboké čtení – s vyvozováním, analogiemi, kritickou analýzou a vcítěním – je jeho nejnáročnější podobou (Wolf 2007). Ve své pozdější knize upozorňuje, že tyto procesy potřebují čas a že návyk rychlého přelétání je může oslabit, pokud je neudržujeme (Wolf 2018). Pro sebe-obranu je podstatné, že právě kritická analýza a vyvozování jsou procesy, které odhalují posunuté pojmy a chybějící argumenty.
+
+Empirický výzkum srovnání čtení na papíře a na obrazovce přinesl střízlivější, ale užitečné výsledky. Mangen, Walgermo a Brønnick (2013) zjistili, že žáci, kteří četli texty na papíře, v testech porozumění dopadli lépe než ti, kdo četli tytéž texty v PDF na počítači. Metaanalýza Delgada et al. (2018) potvrdila mírnou výhodu papíru pro porozumění, zvláště u informačních textů a při časovém tlaku. Z toho neplyne, že obrazovka je špatná, ale že u důležitých textů se vyplatí zvolit prostředí, které méně rozptyluje.
+
+Adler a Van Doren (1972) rozlišili úrovně čtení od základního přes orientační až po analytické a srovnávací, při kterém čtenář klade několik textů na totéž téma vedle sebe. Cvičení v tomto návodu pracují hlavně s analytickou úrovní: zjistit, co text tvrdí, jak to dokládá, a teprve potom, zda s ním souhlasím.
 
 ## Pět praktických cvičení
 
@@ -81,13 +85,22 @@ Denně půl hodiny čtení, týdně hodina hlubší reflexe, měsíčně jedna d
 
 ## Čeho se vyvarovat
 
-- Nečtěte texty, které vás traumatizují, bez opory a bez možnosti přestat.
-- Nepovažujte délku textu za záruku kvality.
-- Netrestejte se za to, že čtení zpočátku nejde; schopnost se vrací postupně.
+Nečtěte texty, které vás traumatizují – například materiály bývalé skupiny nebo zprávy o vlastním případu –, bez opory a bez možnosti přestat. Nepovažujte ani délku textu za záruku kvality; i dlouhý text může být jen rozvláčným opakováním jedné tvrzené jistoty.
+
+A netrestejte se za to, že čtení zpočátku nejde. Schopnost se vrací postupně, podobně jako kondice, a krátké pravidelné úseky jsou účinnější než jednorázové pokusy o celou knihu.
 
 ## Meze svépomoci
 
 Hluboké čtení jde proti tempu doby; v profesích, které vyžadují rychlost, je potřeba si pro ně vyhradit volný čas. Potíže se čtením mohou mít i zdravotní příčinu (dyslexie, poruchy pozornosti, deprese, zrakové vady), kterou cvičení nevyřeší.
+
+## Literatura
+
+- Adler, M. J., & Van Doren, C. (1972). *How to Read a Book* (Rev. ed.). Simon & Schuster.
+- Carr, N. (2010). *The Shallows: What the Internet Is Doing to Our Brains*. W. W. Norton.
+- Delgado, P., Vargas, C., Ackerman, R., & Salmerón, L. (2018). Don't throw away your printed books: A meta-analysis on the effects of reading media on reading comprehension. *Educational Research Review*, 25, 23–38.
+- Mangen, A., Walgermo, B. R., & Brønnick, K. (2013). Reading linear texts on paper versus computer screen: Effects on reading comprehension. *International Journal of Educational Research*, 58, 61–68.
+- Wolf, M. (2007). *Proust and the Squid: The Story and Science of the Reading Brain*. HarperCollins.
+- Wolf, M. (2018). *Reader, Come Home: The Reading Brain in a Digital World*. Harper.
 
 ## Související
 

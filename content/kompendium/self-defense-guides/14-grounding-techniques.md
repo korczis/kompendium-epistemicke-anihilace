@@ -19,9 +19,7 @@ Uzemnění (anglicky *grounding*) je soubor jednoduchých postupů, které pomá
 
 ## Pro koho je návod
 
-- Pro člověka, který zažívá záchvaty paniky, flashbacky nebo stavy „odpojení“.
-- Pro ty, kdo se po konfliktu dlouho nemohou vrátit do sebe.
-- Pro blízké a pomáhající, kteří chtějí vědět, jak druhému v akutní chvíli pomoci.
+Návod je určen člověku, který zažívá záchvaty paniky, flashbacky nebo stavy „odpojení“, a těm, kdo se po konfliktu dlouho nemohou vrátit do sebe. Slouží i blízkým a pomáhajícím, kteří chtějí vědět, jak druhému v akutní chvíli pomoci, aniž by situaci zhoršili.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,10 +27,9 @@ Pomáhá při panice po hádce, při náhlém vybavení traumatické vzpomínky,
 
 ## Varovné signály
 
-- Bušení srdce, zrychlený dech, pocit, že „se něco strašného stane“.
-- Okolí se zdá vzdálené, nereálné, jako za sklem.
-- Ztrácíte pojem o čase nebo si nevybavíte, jak jste se někam dostali ([disociace](@/glossary/disociace.md)).
-- Vzpomínka se vrací tak živě, že ji prožíváte, jako by se děla teď.
+Stav, v němž se uzemnění hodí, má dvě podoby. Při přebuzení se objevuje bušení srdce, zrychlený dech a pocit, že „se něco strašného stane“. Při opačné reakci se okolí zdá vzdálené, nereálné, jako za sklem, a člověk ztrácí pojem o čase nebo si nevybaví, jak se někam dostal ([disociace](@/glossary/disociace.md)). Siegel (1999) obě podoby popisuje jako vybočení z „okna tolerance“ – nad něj do přebuzení, nebo pod ně do útlumu – a obě znamenají, že v tu chvíli nelze dobře myslet ani rozhodovat.
+
+Třetím signálem je vzpomínka, která se vrací tak živě, že ji prožíváte, jako by se děla teď. Uzemnění v takové chvíli nemá vzpomínku vymazat, ale pomoci mysli odlišit „tehdy“ od „teď“ – vrátit pozornost k přítomným smyslovým vjemům, které potvrzují, kde a kdy se člověk nachází.
 
 ## Modelová situace
 
@@ -41,6 +38,14 @@ Muž, který odešel z prostředí s vysokou kontrolou, měl jít svědčit k so
 ## Cíl dovednosti
 
 Mít k dispozici rychlé, předem nacvičené způsoby návratu do přítomnosti, které fungují i tehdy, když myšlení selhává – a vědět, kdy už nestačí a je třeba přivolat pomoc.
+
+## Odborné východisko
+
+Uzemnění jako samostatnou dovednost rozpracoval program Seeking Safety, určený lidem s traumatem a souběžnými obtížemi; rozlišuje uzemnění mentální (pojmenovávání věcí kolem, počítání), tělesné (kontakt chodidel s podlahou, držení předmětu) a uklidňující (laskavá slova k sobě, vybavení bezpečného místa) a doporučuje jeho nácvik v klidu, aby bylo dostupné v krizi (Najavits 2002). Stejný princip – nacvičit dovednost dřív, než ji budu potřebovat – stojí za dovednostmi tolerance tísně v dialekticko-behaviorální terapii, které zahrnují rychlé tělesné postupy ke snížení vzrušení, například studenou vodu na obličej nebo intenzivní krátký pohyb (Linehan 2015).
+
+Senzomotorická psychoterapie vysvětluje, proč uzemnění funguje přes tělo: v akutním stavu je verbální, úvahové zpracování omezené, kdežto smyslové a pohybové podněty zůstávají dostupné a mohou pomoci vrátit vzrušení do snesitelného pásma (Ogden, Minton a Pain 2006). Proto techniky začínají u smyslů a pohybu, ne u přemýšlení.
+
+Užitečné je znát i paradoxní reakci. Klinický výzkum popsal úzkost vyvolanou relaxací: u části lidí, zejména úzkostných, mohou relaxační a dechová cvičení zpočátku úzkost zesílit, protože pozornost obrácená k tělu přináší nepříjemné pocity (Heide a Borkovec 1983). Není to selhání; je to důvod zvolit jiný typ uzemnění.
 
 ## Pět praktických cvičení
 
@@ -80,13 +85,21 @@ Techniky procvičujte denně mimo krizi – stačí pár minut –, aby byly v k
 
 ## Čeho se vyvarovat
 
-- Nezůstávejte v uzemnění tam, kde vám hrozí nebezpečí; nejprve odejděte na bezpečné místo.
-- Nenahrazujte uzemněním léčbu opakovaných stavů.
-- Netlačte na druhého člověka v krizi, aby „se uklidnil“; nabídněte techniku klidně, jako možnost.
+Nezůstávejte v uzemnění tam, kde vám hrozí nebezpečí; nejprve odejděte na bezpečné místo a teprve potom se zklidňujte. Uzemnění je nástroj pro chvíli, kdy hrozba je minulá nebo vnitřní, ne náhrada útěku před skutečnou hrozbou.
+
+Nenahrazujte uzemněním léčbu opakovaných stavů. A netlačte na druhého člověka v krizi, aby „se uklidnil“; nabídněte techniku klidně, jako možnost, mluvte pomalu a nechte mu kontrolu nad tím, zda ji přijme.
 
 ## Meze svépomoci
 
 Uzemnění tlumí příznak, ale neřeší příčinu. Pokud se krize opakují, je to signál, že je potřeba hlubší terapeutická práce s traumatem nebo se situací, která krize vyvolává. U některých lidí mohou dechová cvičení zpočátku úzkost zesilovat; pak je vhodné zvolit techniky smyslové nebo pohybové.
+
+## Literatura
+
+- Heide, F. J., & Borkovec, T. D. (1983). Relaxation-induced anxiety: Paradoxical anxiety enhancement due to relaxation training. *Journal of Consulting and Clinical Psychology*, 51(2), 171–182.
+- Linehan, M. M. (2015). *DBT Skills Training Manual* (2nd ed.). Guilford Press.
+- Najavits, L. M. (2002). *Seeking Safety: A Treatment Manual for PTSD and Substance Abuse*. Guilford Press.
+- Ogden, P., Minton, K., & Pain, C. (2006). *Trauma and the Body: A Sensorimotor Approach to Psychotherapy*. W. W. Norton.
+- Siegel, D. J. (1999). *The Developing Mind: Toward a Neurobiology of Interpersonal Experience*. Guilford Press.
 
 ## Související
 

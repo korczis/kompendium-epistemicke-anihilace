@@ -19,9 +19,7 @@ Hodnocení důkazů se ptá, *jak silný* je doklad; verifikace se ptá, *zda tv
 
 ## Pro koho je návod
 
-- Pro každého, kdo dostává zprávy, které ho rozruší nebo vyděsí („podívej, co o tobě píše…“, „tohle ti tají“).
-- Pro lidi, proti nimž někdo šíří pomluvy nebo upravené snímky konverzací.
-- Pro ty, kdo nechtějí nedopatřením šířit nepravdu ve své rodině, práci nebo komunitě.
+Návod je určen každému, kdo dostává zprávy, které ho rozruší nebo vyděsí („podívej, co o tobě píše…“, „tohle ti tají“), a zvlášť lidem, proti nimž někdo šíří pomluvy nebo upravené snímky konverzací. Slouží i těm, kdo nechtějí nedopatřením šířit nepravdu ve své rodině, práci nebo komunitě – kdo přeposílá neověřené, stává se nechtěně součástí cizí kampaně.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Verifikace pomáhá u řetězových zpráv a „uniklých dokumentů“, u citá
 
 ## Varovné signály
 
-- Zpráva vyvolá silnou emoci a vybízí ke sdílení nebo k okamžité reakci.
-- Chybí autor, datum, místo nebo odkaz na původní zdroj.
-- Číslo je uvedeno bez jednotky, vzorku či definice („tisíce případů“, „90 % lidí“).
-- Snímek konverzace se nedá porovnat s originálem, protože originál „byl smazán“.
-- Ten, kdo vám zprávu přinesl, vás odrazuje od ověření („nemáš čas, jednej“).
+Podezřelá zpráva mívá rozpoznatelný tvar. Vyvolá silnou emoci a vybízí ke sdílení nebo k okamžité reakci; chybí jí autor, datum, místo nebo odkaz na původní zdroj; číslo je uvedeno bez jednotky, vzorku či definice („tisíce případů“, „90 % lidí“). Analýza šíření zpráv na sociální síti ukázala, že nepravdivé zprávy se v průměru šířily rychleji a dál než pravdivé a že k tomu přispívala jejich novost a emoční náboj (Vosoughi, Roy a Aral 2018). Silná emoce je proto signálem ke zpomalení, ne k akci.
+
+U osobních obvinění přistupují další znaky: snímek konverzace se nedá porovnat s originálem, protože originál „byl smazán“, a ten, kdo vám zprávu přinesl, vás od ověření odrazuje („nemáš čas, jednej“). Naléhání na rychlost samo o sobě nic nedokazuje, ale u pravdivé informace bývá zbytečné – pravda zpravidla vydrží i hodinu ověřování.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Studentce přišel od spolužáka snímek údajné konverzace, v níž o ní nej
 ## Cíl dovednosti
 
 Vybudovat reflexivní návyk ověřit konkrétní tvrzení – čísla, fakta, citáty, obrázky – dřív, než jim uvěříte, než podle nich jednáte nebo než je pošlete dál.
+
+## Odborné východisko
+
+Výzkum dezinformací opakovaně ukazuje, že náchylnost k nepravdivým zprávám souvisí méně s ideologickou zaujatostí a více s tím, zda si člověk dopřeje chvíli úvahy. Pennycook a Rand (2019) zjistili, že lidé s vyšší tendencí k reflexivnímu myšlení lépe rozlišovali pravdivé a nepravdivé titulky bez ohledu na to, zda odpovídaly jejich politickým postojům. Pro sebe-obranu z toho plyne povzbudivý závěr: verifikace není otázkou inteligence ani názoru, ale návyku krátce se zastavit.
+
+Druhý poznatek se týká toho, co se děje po odhalení nepravdy. Přehledová studie o korekci dezinformací popisuje efekt přetrvávajícího vlivu: i opravená informace dál ovlivňuje úsudek, zvlášť pokud oprava nenabídne jiné vysvětlení, které by vzniklou mezeru zaplnilo (Lewandowsky et al. 2012). Proto se vyplatí ověřovat *před* uvěřením, ne až potom, a při opravě pomluvy nestačí říct „není to pravda“, ale je dobré doložit, co se skutečně stalo.
+
+Praktickou podobu těchto poznatků shrnuli Caulfield a Wineburg (2023) do jednoduchého sledu: zastavit se, prověřit zdroj, najít lepší pokrytí téže věci a dohledat tvrzení, citát či obrázek k původnímu kontextu. Pět cvičení níže tento sled převádí do osobních situací – na pomluvu, snímek konverzace nebo poplašné číslo.
 
 ## Pět praktických cvičení
 
@@ -81,13 +85,20 @@ Pět minut na každou důležitou zprávu před sdílením, půl hodiny týdně 
 
 ## Čeho se vyvarovat
 
-- Nereagujte veřejně a ve vzteku na pomluvu; vystavujete se další eskalaci a útočník získává pozornost ([detekční signatura injekce narativu](@/kompendium/detection-signatures/22-network-narrative-injection.md)).
-- Nekontaktujte sami toho, kdo obsah šíří, pokud je to člověk, který vás už dříve ohrožoval.
-- Nevěřte automaticky „detektorům“, které slibují stoprocentní odhalení podvrhu.
+Nereagujte veřejně a ve vzteku na pomluvu; vystavujete se další eskalaci a útočník získává pozornost, o kterou mu jde ([detekční signatura injekce narativu](@/kompendium/detection-signatures/22-network-narrative-injection.md)). Nekontaktujte sami toho, kdo obsah šíří, pokud je to člověk, který vás už dříve ohrožoval; v takovém případě obsah zdokumentujte a obraťte se na policii, intervenční centrum nebo advokáta.
+
+Nevěřte ani automaticky „detektorům“, které slibují stoprocentní odhalení podvrhu. Takové nástroje se mýlí oběma směry a jejich výsledek je jen jedním dokladem mezi ostatními, nikoli rozsudkem.
 
 ## Meze svépomoci
 
 Verifikace zpomaluje a v komunitách rychlého obsahu může být sociálně nákladná – kdo neodpovídá okamžitě, působí vlažně. Některá tvrzení nelze ověřit vůbec; pak je poctivé říct „nevím“ a jednat opatrně. U sofistikovaných padělků dokumentů nebo nahrávek je potřeba odborné posouzení (viz [AI Document Forgery](@/kompendium/techniques/ea-9-2-9-AI-document-forgery.md)).
+
+## Literatura
+
+- Caulfield, M., & Wineburg, S. (2023). *Verified: How to Think Straight, Get Duped Less, and Make Better Decisions about What to Believe Online*. University of Chicago Press.
+- Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012). Misinformation and its correction: Continued influence and successful debiasing. *Psychological Science in the Public Interest*, 13(3), 106–131.
+- Pennycook, G., & Rand, D. G. (2019). Lazy, not biased: Susceptibility to partisan fake news is better explained by lack of reasoning than by motivated reasoning. *Cognition*, 188, 39–50.
+- Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science*, 359(6380), 1146–1151.
 
 ## Související
 

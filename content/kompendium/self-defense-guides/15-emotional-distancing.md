@@ -19,9 +19,7 @@ Emoční odstup je schopnost podívat se na vlastní prožívání jakoby o krok
 
 ## Pro koho je návod
 
-- Pro člověka, jehož rozhodnutí jsou opakovaně vedena okamžitou emocí, kterou vyvolal někdo jiný.
-- Pro ty, kdo se v konfliktu „ztratí“ a pak nevědí, co řekli.
-- Pro lidi, kteří chtějí s emocemi pracovat, ale bojí se, že je zaplaví.
+Návod je pro člověka, jehož rozhodnutí jsou opakovaně vedena okamžitou emocí, kterou vyvolal někdo jiný, a pro ty, kdo se v konfliktu „ztratí“ a pak nevědí, co řekli. Pomůže i lidem, kteří chtějí s emocemi pracovat, ale bojí se, že je zaplaví – odstup jim dává bezpečnou vzdálenost, z níž se dá emoci podívat do tváře.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,10 +27,9 @@ Pomáhá, když druhá strana záměrně stupňuje napětí, aby vás vyprovokov
 
 ## Varovné signály
 
-- Po silné emoci si nedokážete vybavit, co jste řekli nebo udělali.
-- „Jsem úzkost“ místo „cítím úzkost“ – emoce se stává identitou.
-- Rozhodnutí, která děláte ve vypjaté chvíli, se pravidelně obracejí proti vám.
-- Opačný signál: dlouhodobě necítíte nic a odstup se změnil v prázdnotu.
+Na splynutí s emocí ukazuje především ztráta pozorovatele: po silné emoci si nedokážete vybavit, co jste řekli nebo udělali. Výmluvný je i jazyk, kterým o sobě mluvíte – „jsem úzkost“ místo „cítím úzkost“; emoce se tím stává identitou a přestává být stavem, který přichází a odchází. Praktickým signálem je opakování: rozhodnutí, která děláte ve vypjaté chvíli, se pravidelně obracejí proti vám.
+
+Opačný signál je stejně důležitý: dlouhodobě necítíte nic a odstup se změnil v prázdnotu. Teasdale et al. (2002) odlišují zdravé metakognitivní uvědomění – schopnost vnímat myšlenky a pocity jako přechodné mentální události – od potlačení či vyhýbání. Zdravý odstup pocit vidí; nezdravý ho přestane vidět vůbec.
 
 ## Modelová situace
 
@@ -41,6 +38,14 @@ Pomáhá, když druhá strana záměrně stupňuje napětí, aby vás vyprovokov
 ## Cíl dovednosti
 
 Naučit se zaujmout k vlastním emocím zdravou pozorovatelskou perspektivu – dost blízko, abyste je cítili a rozuměli jim, a dost daleko, abyste jimi nebyli řízeni.
+
+## Odborné východisko
+
+Výzkum sebedistancování ukazuje, že způsob, jakým se člověk dívá na vlastní bolestnou zkušenost, mění její dopad. Kross a Ayduk (2011) shrnují experimenty, v nichž lidé, kteří si událost vybavovali z pozice pozorovatele („jako bych se viděl zvenčí“) a ptali se, *proč* se cítili, jak se cítili, dokázali zkušenost lépe pochopit a méně se do ní znovu ponořovali než ti, kdo ji znovu prožívali z vlastní perspektivy. Kross (2021) popisuje i jazykovou podobu odstupu: oslovovat se při přemýšlení o obtížné situaci ve druhé nebo třetí osobě či vlastním jménem.
+
+Neurovědní výzkum regulace emocí ukazuje, že přehodnocení situace – její nový výklad – zapojuje kontrolní oblasti prefrontální kůry a tlumí reaktivitu oblastí spojených s emočním hodnocením (Ochsner a Gross 2005). Odstup tedy není pouhá vůle „nebrat si to“, ale kognitivní změna rámce, ze kterého se na situaci dívám.
+
+Terapie přijetí a závazku přidává pojem kognitivní defuze: myšlenka „jsem k ničemu“ se neodstraňuje ani nevyvrací, ale člověk se učí vnímat ji jako myšlenku, ne jako fakt („všímám si, že mám myšlenku, že jsem k ničemu“) (Hayes, Strosahl a Wilson 1999). Pro sebe-obranu je to zvlášť užitečné u vin a obvinění, které vyslovil někdo jiný a které se postupně staly vnitřním hlasem.
 
 ## Pět praktických cvičení
 
@@ -80,13 +85,21 @@ Používejte v reálných situacích; k tomu pět až deset minut denně reflexe
 
 ## Čeho se vyvarovat
 
-- Nepoužívejte odstup k tomu, abyste si „rozmluvili“ skutečné nebezpečí; strach ve vztahu s násilím je oprávněný.
-- Nepředstírejte klid tam, kde potřebujete odejít nebo požádat o pomoc.
-- Neodsuzujte se za to, že odstup ve vypjaté chvíli nefungoval; je to dovednost, ne zkouška.
+Nepoužívejte odstup k tomu, abyste si „rozmluvili“ skutečné nebezpečí; strach ve vztahu s násilím je oprávněný a odstup má sloužit k jasnějšímu rozhodnutí, jak se ochránit, ne k jeho odkládání.
+
+Nepředstírejte klid tam, kde potřebujete odejít nebo požádat o pomoc. A neodsuzujte se za to, že odstup ve vypjaté chvíli nefungoval; je to dovednost, ne zkouška, a pod silným tlakem selhává každému.
 
 ## Meze svépomoci
 
 Příliš velký odstup hraničí s [disociací](@/glossary/disociace.md) a s emocionálním otupením, které je samo o sobě znakem přetížení ([detekční signatura emocionálního otupení](@/kompendium/detection-signatures/27-phenomenological-emotional-numbing.md)). Cílem je odstup s kontaktem, ne místo kontaktu. Lidé s traumatickou zkušeností mohou mít odpojení naučené jako ochranu; tam patří práce s terapeutem.
+
+## Literatura
+
+- Hayes, S. C., Strosahl, K. D., & Wilson, K. G. (1999). *Acceptance and Commitment Therapy: An Experiential Approach to Behavior Change*. Guilford Press.
+- Kross, E. (2021). *Chatter: The Voice in Our Head, Why It Matters, and How to Harness It*. Crown.
+- Kross, E., & Ayduk, O. (2011). Making meaning out of negative experiences by self-distancing. *Current Directions in Psychological Science*, 20(3), 187–191.
+- Ochsner, K. N., & Gross, J. J. (2005). The cognitive control of emotion. *Trends in Cognitive Sciences*, 9(5), 242–249.
+- Teasdale, J. D., Moore, R. G., Hayhurst, H., Pope, M., Williams, S., & Segal, Z. V. (2002). Metacognitive awareness and prevention of relapse in depression: Empirical evidence. *Journal of Consulting and Clinical Psychology*, 70(2), 275–287.
 
 ## Související
 

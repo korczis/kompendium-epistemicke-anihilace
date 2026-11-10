@@ -19,9 +19,7 @@ Po dlouhodobé manipulaci lidé často popisují svůj život jako rozbitý na k
 
 ## Pro koho je návod
 
-- Pro člověka, který své období v manipulativním vztahu nebo skupině vnímá jako „ztracené roky“.
-- Pro ty, kdo si nedokážou vysvětlit, jak se „to“ mohlo stát právě jim.
-- Pro lidi v životním přechodu, kteří hledají souvislost mezi tím, kým byli a kým jsou.
+Návod je pro člověka, který své období v manipulativním vztahu nebo skupině vnímá jako „ztracené roky“, a pro ty, kdo si nedokážou vysvětlit, jak se „to“ mohlo stát právě jim. Pomůže také lidem v životním přechodu, kteří hledají souvislost mezi tím, kým byli a kým jsou.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá po odchodu ze sekty nebo z kontrolujícího vztahu ([případ cult reco
 
 ## Varovné signály
 
-- Části svého života nedokážete vyprávět, nebo jen slovy někoho jiného.
-- Jedno období vám připadá, jako by ho prožil jiný člověk.
-- Pocit, že „všechno bylo k ničemu“.
-- Vyhýbáte se místům, lidem a věcem, které vám připomínají určité období.
-- Opakuje se pocit, že život je řada nesouvisejících epizod ([fragmentace identity](@/kompendium/detection-signatures/30-phenomenological-identity-fragmentation.md)).
+Rozpad příběhu se pozná podle mezer a cizosti. Části svého života nedokážete vyprávět, nebo jen slovy někoho jiného; jedno období vám připadá, jako by ho prožil jiný člověk; opakuje se pocit, že život je řada nesouvisejících epizod ([fragmentace identity](@/kompendium/detection-signatures/30-phenomenological-identity-fragmentation.md)). Habermas a Bluck (2000) popsali, že soudržný životní příběh drží pohromadě časová posloupnost, příčinné souvislosti a společná témata; kde chybějí, vypráví se život jako výčet, ne jako příběh.
+
+Další signály jsou emoční a behaviorální: pocit, že „všechno bylo k ničemu“, a vyhýbání se místům, lidem a věcem, které připomínají určité období. Vyhýbání je pochopitelné a krátkodobě chrání, ale dlouhodobě udržuje období v izolaci, odkud ho nelze zapojit do celku.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Muž strávil deset let ve skupině, kterou opustil ve čtyřiceti. Ty roky zprv
 ## Cíl dovednosti
 
 Propojit roztříštěné zkušenosti – včetně bolestných a manipulací poznamenaných období – do soudržného příběhu, který dává smysl a slouží jako pevný základ identity.
+
+## Odborné východisko
+
+McAdams (2001) shrnul výzkum životních příběhů a ukázal, že způsob, jakým lidé vyprávějí svůj život, souvisí s jejich pohodou: příběhy, v nichž se těžká zkušenost proměňuje v něco smysluplného, provází v průměru vyšší spokojenost a angažovanost. Habermas a Bluck (2000) popsali autobiografické uvažování – schopnost propojovat jednotlivé události mezi sebou a se svým já –, které se rozvíjí v dospívání a umožňuje vytvořit soudržný životní příběh. Integrace v tomto návodu je cvičením téže schopnosti po období, které ji narušilo.
+
+Longitudinální studie lidí v psychoterapii zjistila, že zlepšení duševního zdraví předcházel nárůst pocitu vlastního jednání (agency) v příbězích, které klienti o sobě vyprávěli; lidé nejdřív začali vyprávět, že mohou svůj život ovlivňovat, a teprve potom se cítili lépe (Adler 2012). Pro sebe-obranu je to povzbudivé: přepsat příběh tak, aby v něm člověk nebyl jen předmětem cizího jednání, není kosmetika, ale cesta k uzdravení.
+
+Herman (1992) popisuje vzpomínání a truchlení jako druhou fázi zotavení z traumatu: bolestné období se vypráví celé, včetně ztrát, a teprve tím se může stát minulostí. Pennebaker (1997) shrnul studie, v nichž psaní o těžkých zkušenostech pomáhalo zejména tehdy, když lidé postupně nacházeli souvislosti a příčiny. Opatrnost je však na místě u představy, že z každého utrpení musí vzejít růst: posttraumatický růst je skutečný jev, ale není povinností ani měřítkem úspěchu (Tedeschi a Calhoun 2004).
 
 ## Pět praktických cvičení
 
@@ -80,13 +84,22 @@ Jednou měsíčně zhruba hodina, jednou ročně hlubší revize. Pokrok poznát
 
 ## Čeho se vyvarovat
 
-- Nezačínejte nejbolestnějšími obdobími a o samotě.
-- Netlačte na sebe, aby příběh „dával smysl“ okamžitě; integrace trvá roky.
-- Nepřebírejte hotový výklad – ani od skupiny, ani od nikoho jiného, kdo vám řekne, „co to všechno znamenalo“.
+Nezačínejte nejbolestnějšími obdobími a o samotě; začněte obdobími, která jsou bezpečná, a k těžkým se vracejte postupně, ideálně s oporou (Herman 1992). Netlačte na sebe, aby příběh „dával smysl“ okamžitě; integrace trvá roky.
+
+A nepřebírejte hotový výklad – ani od skupiny, ani od nikoho jiného, kdo vám řekne, „co to všechno znamenalo“. Smysl, který si najdete sami, unese pochybnosti; smysl převzatý se při první z nich rozpadne.
 
 ## Meze svépomoci
 
 Příliš pevný příběh může bránit dalšímu vývoji; buďte ochotni vyprávět ho znovu, jinak. Po komplexním traumatu může být příběh rozbitý tak, že ho nelze složit bez odborné pomoci ([narativní terapie](@/glossary/narativni-terapie.md), práce s traumatem). Integrace také neznamená smíření s tím, kdo vám ublížil; to je jiná otázka.
+
+## Literatura
+
+- Adler, J. M. (2012). Living into the story: Agency and coherence in a longitudinal study of [narrative identity](@/glossary/narativni-identita.md) development and mental health over the course of psychotherapy. *Journal of Personality and Social Psychology*, 102(2), 367–389.
+- Habermas, T., & Bluck, S. (2000). Getting a life: The emergence of the life story in adolescence. *Psychological Bulletin*, 126(5), 748–769.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*, 5(2), 100–122.
+- Pennebaker, J. W. (1997). Writing about emotional experiences as a therapeutic process. *Psychological Science*, 8(3), 162–166.
+- Tedeschi, R. G., & Calhoun, L. G. (2004). Posttraumatic growth: Conceptual foundations and empirical evidence. *Psychological Inquiry*, 15(1), 1–18.
 
 ## Související
 

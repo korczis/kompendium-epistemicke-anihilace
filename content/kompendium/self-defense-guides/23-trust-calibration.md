@@ -19,9 +19,7 @@ Důvěra je předpoklad každého vztahu, učení i spolupráce; bez ní nelze �
 
 ## Pro koho je návod
 
-- Pro člověka, který opakovaně věří příliš rychle a pak je zklamán.
-- Pro ty, kdo po zradě nedokážou věřit nikomu.
-- Pro lidi, kteří vstupují do nových vztahů, komunit, pracovních míst nebo online seznámení.
+Návod je určen člověku, který opakovaně věří příliš rychle a pak je zklamán, i těm, kdo po zradě nedokážou věřit nikomu. Pomůže také lidem, kteří vstupují do nových vztahů, komunit, pracovních míst nebo online seznámení a chtějí si důvěru budovat postupně a podle skutečného chování druhých.
 
 ## Situace, ve kterých pomáhá
 
@@ -29,11 +27,9 @@ Pomáhá při online seznámení, kde nový známý brzy mluví o lásce a pak o
 
 ## Varovné signály
 
-- Velmi rychlá blízkost a idealizace („nikdy jsem nikoho jako ty nepotkal“), viz [love bombing](@/glossary/love-bombing.md).
-- Požadavek na tajemství („o nás nikomu neříkej“).
-- Žádost o peníze, doklady, hesla nebo intimní fotografie brzy po seznámení.
-- Nesoulad mezi slovy a činy, který je vysvětlován, místo aby byl napraven.
-- Tlak na důvěru („kdybys mi věřil, neptal by ses“).
+Urychlená důvěra mívá typický průběh. Začíná velmi rychlou blízkostí a idealizací („nikdy jsem nikoho jako ty nepotkal“), viz [love bombing](@/glossary/love-bombing.md), pokračuje požadavkem na tajemství („o nás nikomu neříkej“) a brzy po seznámení přichází žádost o peníze, doklady, hesla nebo intimní fotografie. Whittyová a Buchanan (2012) popsali tento vzorec u online romantických podvodů, kde pachatel nejprve buduje intenzivní citový vztah a teprve poté předkládá „naléhavou“ finanční potřebu.
+
+Další signály se týkají vztahu slov a činů. Nesoulad mezi tím, co člověk říká a co dělá, je vysvětlován, místo aby byl napraven, a otázky jsou odráženy tlakem na důvěru („kdybys mi věřil, neptal by ses“). Taková věta obrací logiku důvěry naruby: důvěra, která nesmí klást otázky, je ve skutečnosti požadavkem poslušnosti.
 
 ## Modelová situace
 
@@ -42,6 +38,14 @@ Vdova v šedesáti letech se na seznamce sblížila s mužem, který se předsta
 ## Cíl dovednosti
 
 Naučit se dávat důvěru v odstupňovaných dávkách podle prokázané zkušenosti, ne podle pocitu, slibů nebo tlaku – a umět ji po zklamání upravit bez úplné ztráty schopnosti důvěřovat.
+
+## Odborné východisko
+
+Filozofka Annette Baierová popsala důvěru jako přijatou zranitelnost: kdo důvěřuje, svěřuje druhému něco, na čem mu záleží, a spoléhá na jeho dobrou vůli (Baier 1986). Proto je důvěra zneužitelná – a proto ji nelze nahradit kontrolou, aniž by vztah ztratil svou hodnotu. Onora O'Neillová (2002) k tomu dodala, že rozumným cílem není „víc důvěry“, ale lepší úsudek o tom, kdo je důvěryhodný, v čem a do jaké míry; důvěra má sledovat důvěryhodnost, ne ji předbíhat.
+
+Organizační psychologie nabízí užitečné rozložení důvěryhodnosti na tři složky: schopnost (dokáže to?), benevolenci (chce mi dobře?) a integritu (drží se zásad, které uznávám?) (Mayer, Davis a Schoorman 1995). Člověk může být schopný, ale ne benevolentní, nebo laskavý, ale nespolehlivý. Kalibrace důvěry znamená posuzovat každou složku zvlášť a podle opakovaného chování, ne podle prvního dojmu.
+
+Zajímavý je i poznatek, že vysoká důvěra nemusí znamenat naivitu. Yamagishi, Kikuchi a Kosugi (1999) zjistili, že lidé s vyšší obecnou důvěrou byli v některých úlohách citlivější na informace naznačující nedůvěryhodnost druhých než lidé s nízkou důvěrou. Cílem tedy není nevěřit, ale věřit pozorně. Po zradě v blízkém vztahu je kalibrace navíc ztížena tím, co Freyd (1996) nazvala zaslepeností vůči zradě: kdo na druhém závisí, má silný důvod zradu nevidět.
 
 ## Pět praktických cvičení
 
@@ -81,13 +85,22 @@ Průběžně při všech důležitých setkáních, jednou měsíčně půlhodin
 
 ## Čeho se vyvarovat
 
-- Neověřujte podezření konfrontací s člověkem, který by mohl být nebezpečný; ověřujte nezávisle.
-- Neposílejte peníze, doklady, hesla ani intimní fotografie lidem, které jste nepotkali osobně.
-- Nevinte se, že jste důvěřovali; podvodné a manipulativní strategie jsou navrženy tak, aby fungovaly na laskavé a otevřené lidi.
+Neověřujte podezření konfrontací s člověkem, který by mohl být nebezpečný; ověřujte nezávisle – přes veřejné zdroje, společné známé nebo poradnu. Neposílejte peníze, doklady, hesla ani intimní fotografie lidem, které jste nepotkali osobně, ať je příběh jakkoli naléhavý.
+
+A nevinte se, že jste důvěřovali. Podvodné a manipulativní strategie jsou navrženy tak, aby fungovaly na laskavé a otevřené lidi; odpovědnost nese ten, kdo důvěru zneužil (Whitty a Buchanan 2012).
 
 ## Meze svépomoci
 
 Příliš opatrná kalibrace brání hlubokým vztahům; někdy je třeba riskovat dřív, než je doklad úplný. Po [zradě v blízkém vztahu](@/glossary/betrayal-trauma.md) bývá důvěra narušena hluboko a obnovuje se pomalu, často s pomocí terapeuta.
+
+## Literatura
+
+- Baier, A. (1986). Trust and antitrust. *Ethics*, 96(2), 231–260.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Mayer, R. C., Davis, J. H., & Schoorman, F. D. (1995). An integrative model of organizational trust. *Academy of Management Review*, 20(3), 709–734.
+- O'Neill, O. (2002). *A Question of Trust: The BBC Reith Lectures 2002*. Cambridge University Press.
+- Whitty, M. T., & Buchanan, T. (2012). The online romance scam: A serious cybercrime. *Cyberpsychology, Behavior, and Social Networking*, 15(3), 181–183.
+- Yamagishi, T., Kikuchi, M., & Kosugi, M. (1999). Trust, gullibility, and social intelligence. *Asian Journal of Social Psychology*, 2(1), 145–161.
 
 ## Související
 

@@ -1,26 +1,21 @@
-// Generativní grafika kompendia (p5.js, instance mode).
-// Každý prvek <div data-p5="nazev"> dostane vlastní skicu. Barvy sledují světlý/tmavý režim,
-// při prefers-reduced-motion se vykreslí jeden statický snímek.
+// Generativní grafika kompendia (p5.js, instance mode) nad komponentovou vrstvou (vrstva.js).
+// Každý prvek <div data-p5="nazev"> dostane vlastní skicu. Plátno, jeho velikost (poměr stran
+// data-ratio, pod lg data-ratio-narrow; CSS rezervuje týž poměr, bez posunu), popisek, pauzu
+// mimo obrazovku, tlačítko Pozastavit a překreslení při změně tématu zajišťuje vrstva; při
+// prefers-reduced-motion skica vykreslí jeden statický snímek.
 (function () {
   'use strict';
 
   var INDIGO = ['#312e81', '#3730a3', '#4338ca', '#4f46e5', '#6366f1', '#818cf8', '#a5b4fc'];
   var ACCENT = '#ef4444';
-  var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-  function isDark() {
-    return document.documentElement.classList.contains('dark');
-  }
+  var L = window.KompendiumVrstva;
+  var reduced = L.reducedMotion();
+  var isDark = L.isDark;
 
   function palette() {
     return isDark()
       ? { bg: '#111827', node: INDIGO[6], edge: INDIGO[5], dim: INDIGO[3], text: '#e5e7eb', muted: '#9ca3af' }
       : { bg: '#ffffff', node: INDIGO[3], edge: INDIGO[4], dim: INDIGO[6], text: '#111827', muted: '#6b7280' };
-  }
-
-  // Přestavět jen při změně šířky: na mobilu mění výšku okna adresní lišta při scrollování.
-  function widthChanged(el, dims) {
-    return Math.max(280, el.clientWidth || 600) !== dims.w;
   }
 
   // Poměr stran: data-ratio, pod lg (1024 px) případně nižší data-ratio-narrow, aby obrázek
@@ -29,11 +24,6 @@
     var narrow = el.getAttribute('data-ratio-narrow');
     if (narrow && window.innerWidth < 1024) return parseFloat(narrow);
     return parseFloat(el.getAttribute('data-ratio') || fallback);
-  }
-
-  function size(el, ratio) {
-    var w = Math.max(280, el.clientWidth || 600);
-    return { w: w, h: Math.round(w * ratio) };
   }
 
   // Deterministický pseudonáhodný generátor, aby snímky pro README byly opakovatelné.
@@ -49,7 +39,7 @@
   // Pravidelná síť pojmů; ohnisko rozkladu putuje (nebo sleduje myš), hrany se trhají, uzly
   // se odchylují a rudnou. Mimo ohnisko se síť vrací do původního tvaru: rozklad a obnova.
   function rozpad(el) {
-    return function (p) {
+    return function (p, k) {
       var nodes = [];
       var edges = [];
       var dims;
@@ -93,10 +83,8 @@
       }
 
       p.setup = function () {
-        dims = size(el, ratioOf(el, '0.62'));
-        var cnv = p.createCanvas(dims.w, dims.h);
-        cnv.elt.setAttribute('role', 'img');
-        cnv.elt.setAttribute('aria-label', el.getAttribute('data-label') || 'Síť pojmů, která se rozpadá a znovu obnovuje.');
+        var cnv = k.canvas();
+        dims = { w: p.width, h: p.height };
         p.pixelDensity(Math.min(2, window.devicePixelRatio || 1));
         build();
         focus.x = dims.w * 0.55;
@@ -108,10 +96,8 @@
         }
       };
 
-      p.windowResized = function () {
-        if (!widthChanged(el, dims)) return;
-        dims = size(el, ratioOf(el, '0.62'));
-        p.resizeCanvas(dims.w, dims.h);
+      p.resized = function () {
+        dims = { w: p.width, h: p.height };
         build();
       };
 
@@ -169,7 +155,7 @@
     var WORDS = ['pravda', 'paměť', 'důvěra', 'význam', 'úsudek', 'realita', 'identita', 'svědectví',
       'kontext', 'souvislost', 'jistota', 'vztah', 'jazyk', 'zkušenost', 'smysl', 'autonomie'];
     var GLYPHS = 'abcdefghijklmnopqrstuvwxyzáčďéěíňóřšťúůýž·:;/\\|-_';
-    return function (p) {
+    return function (p, k) {
       var dims;
       var items = [];
       var rand = rng(5);
@@ -192,20 +178,16 @@
       }
 
       p.setup = function () {
-        dims = size(el, ratioOf(el, '0.5'));
-        var cnv = p.createCanvas(dims.w, dims.h);
-        cnv.elt.setAttribute('role', 'img');
-        cnv.elt.setAttribute('aria-label', 'Slova jako pravda, paměť a důvěra, jejichž písmena se postupně rozpadají a obnovují.');
+        var cnv = k.canvas();
+        dims = { w: p.width, h: p.height };
         p.textFont('Inter, system-ui, sans-serif');
         p.textAlign(p.CENTER, p.CENTER);
         build();
         if (reduced) { items.forEach(function (it, i) { it.decay = (i % 5) / 5; }); p.noLoop(); }
       };
 
-      p.windowResized = function () {
-        if (!widthChanged(el, dims)) return;
-        dims = size(el, ratioOf(el, '0.5'));
-        p.resizeCanvas(dims.w, dims.h);
+      p.resized = function () {
+        dims = { w: p.width, h: p.height };
         build();
       };
 
@@ -245,7 +227,7 @@
   // Rozptýlené fragmenty se pomalu skládají zpět do koherentního kruhu vztahů. Kliknutí je
   // znovu rozptýlí; obnova je pomalejší než rozpad.
   function rekonstituce(el) {
-    return function (p) {
+    return function (p, k) {
       var dims;
       var pts = [];
       var rand = rng(23);
@@ -276,19 +258,15 @@
       }
 
       p.setup = function () {
-        dims = size(el, ratioOf(el, '0.6'));
-        var cnv = p.createCanvas(dims.w, dims.h);
-        cnv.elt.setAttribute('role', 'img');
-        cnv.elt.setAttribute('aria-label', 'Rozptýlené body se pomalu skládají zpět do soustředných kruhů propojených vztahy.');
+        var cnv = k.canvas();
+        dims = { w: p.width, h: p.height };
         build();
         cnv.mousePressed(scatter);
         if (reduced) { pts.forEach(function (q) { q.x = q.hx; q.y = q.hy; }); p.noLoop(); }
       };
 
-      p.windowResized = function () {
-        if (!widthChanged(el, dims)) return;
-        dims = size(el, ratioOf(el, '0.6'));
-        p.resizeCanvas(dims.w, dims.h);
+      p.resized = function () {
+        dims = { w: p.width, h: p.height };
         build();
       };
 
@@ -335,13 +313,25 @@
     };
   }
 
-  var SKETCHES = { rozpad: rozpad, eroze: eroze, rekonstituce: rekonstituce };
+  // Skica, výchozí poměr stran a popisek plátna (data-label ho přepíše).
+  var SKETCHES = {
+    rozpad: [rozpad, '0.62', 'Síť pojmů, která se rozpadá a znovu obnovuje.'],
+    eroze: [eroze, '0.5', 'Slova jako pravda, paměť a důvěra, jejichž písmena se postupně ' +
+      'rozpadají a obnovují.'],
+    rekonstituce: [rekonstituce, '0.6', 'Rozptýlené body se pomalu skládají zpět do soustředných ' +
+      'kruhů propojených vztahy.'],
+  };
 
   function mount() {
     if (typeof window.p5 === 'undefined') return;
     document.querySelectorAll('[data-p5]').forEach(function (el) {
-      var make = SKETCHES[el.getAttribute('data-p5')];
-      if (make && !el.__p5) el.__p5 = new window.p5(make(el), el);
+      var spec = SKETCHES[el.getAttribute('data-p5')];
+      if (!spec || el.__p5) return;
+      el.__p5 = L.p5(el, spec[0](el), {
+        aspect: function () { return ratioOf(el, spec[1]); },
+        minHeight: 0, maxHeight: 4000,
+        label: el.getAttribute('data-label') || spec[2],
+      });
     });
   }
 

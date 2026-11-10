@@ -6,22 +6,11 @@
 // Klik na bod → signatura, její skupina a odkaz na stránku.
 (function () {
   'use strict';
-  var SRC = document.currentScript && document.currentScript.src;
   // Zdroj dat: rejstřík oddílu detekčních signatur (cesta v grafu knihy).
   var SOURCE = 'kompendium/detection-signatures/_index.md';
 
-  function kniha() {
-    if (!window.__kniha) {
-      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
-        var s = document.createElement('script');
-        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
-        s.onload = ok;
-        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
-        document.head.appendChild(s);
-      })).then(function () { return window.KompendiumKniha.ready(); });
-    }
-    return window.__kniha;
-  }
+  // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
+  var kniha = window.KompendiumVrstva.kniha;
 
   function failed(el, e) {
     if (window.console) console.warn('vizualizace knihy:', e);
@@ -50,9 +39,9 @@
           if (!detail) return;
           var gr = tracks[pt.gi].group;
           K.clear(detail);
-          detail.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', pt.n.title));
-          detail.appendChild(K.h('p', 'text-slate-400 text-sm', gr.title + ' • odkazuje sem ' + pt.n.in + ' stránek knihy'));
-          if (gr.text) detail.appendChild(K.h('p', 'text-slate-300 mt-2', gr.text));
+          detail.appendChild(K.h('h3', 'text-lg font-bold text-gray-900 dark:text-white', pt.n.title));
+          detail.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 text-sm', gr.title + ' • odkazuje sem ' + pt.n.in + ' stránek knihy'));
+          if (gr.text) detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-2', gr.text));
           var p = K.h('p', 'mt-2 text-sm');
           p.appendChild(K.link(pt.n, '→ stránka signatury'));
           detail.appendChild(p);

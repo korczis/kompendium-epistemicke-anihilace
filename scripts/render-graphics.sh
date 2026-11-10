@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# Renders the SVG graphics, then rasterises the social card and the README banner to PNG.
+# Renders the SVG graphics (and, through render-graphics.py, the section graphics and their
+# og:image PNGs in static/img/generated/), then rasterises the social card, the README banner
+# and the cover to PNG.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 python3 scripts/render-graphics.py

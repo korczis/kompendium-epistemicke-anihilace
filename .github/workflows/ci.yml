@@ -71,8 +71,12 @@ jobs:
         run: python3 scripts/build-graph.py --check
       - name: Shell data (navigation, terms, search, viz libraries) is current
         run: python3 scripts/build-ui-data.py --check
+      - name: Graphics (lattice SVG, section SVG and OG images) are current
+        run: python3 scripts/render-graphics.py --check
       - name: README scope table is current
         run: python3 scripts/build-readme.py --check
+      - name: Every visualisation goes through the component layer
+        run: python3 scripts/check-viz-layer.py
       - name: Front matter is normalised
         run: python3 scripts/normalize-front-matter.py --check
       - name: Markdown is polished

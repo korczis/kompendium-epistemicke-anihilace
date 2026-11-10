@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-predpoklady", "nlp-princip", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-predpoklady"
 toc = true
 risk_level = "high"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "druckman-swets-1988", "
 nlp_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
 nlp_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973"]
 nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "witkowski-2010"]
-nlp_citations = 14
-nlp_words = 1177
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

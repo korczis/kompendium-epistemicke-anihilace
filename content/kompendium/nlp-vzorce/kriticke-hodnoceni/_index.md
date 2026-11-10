@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-kriticke-hodnoceni"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Kritické hodnocení NLP", "Critical appraisal of NLP", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Critical appraisal of NLP"
 nlp_size = 14
 nlp_members = ["stav-dukazu-nlp", "vyzkum-preferovaneho-systemu", "vyzkum-ocnich-signalu", "nlp-jako-pseudoveda", "delfska-studie", "systematicky-prehled-zdravi", "databaze-vyzkumu-nlp", "hodnoceni-narodni-rady-pro-vyzkum", "nlp-v-koucinku-vyzkum", "falzifikovatelnost-nlp", "historie-nlp", "koreny-nlp", "kargokultovni-psychologie", "jak-cist-tvrzeni-nlp"]
 nlp_types = ["concept"]
-nlp_words = 1168
 nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1979", "druckman-swets-1988", "heap-1988", "lilienfeld-2015", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
 +++
 

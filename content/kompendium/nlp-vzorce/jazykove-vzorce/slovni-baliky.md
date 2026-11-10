@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-jazykove-vzorce", "nlp-vzorec", "nlp-uziti-vliv"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-jazykove-vzorce"
 toc = true
 risk_level = "high"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975", "charvet-1997", "hassan-1988", "kahneman-
 nlp_sources_primary = ["bandler-grinder-1975", "charvet-1997"]
 nlp_sources_roots = []
 nlp_sources_critical = ["hassan-1988", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "petty-cacioppo-1986", "rogers-1951", "singer-lalich-1995", "tversky-kahneman-1981", "witkowski-2010"]
-nlp_citations = 22
-nlp_words = 1266
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

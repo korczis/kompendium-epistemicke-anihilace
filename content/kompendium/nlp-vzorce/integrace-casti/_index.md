@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-integrace-casti"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Práce s částmi", "Parts work", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Parts work"
 nlp_size = 9
 nlp_members = ["integrace-casti", "vizualni-squash", "jadrova-transformace", "vyjednavani-casti", "sekvencni-inkongruence", "simultanni-inkongruence", "elicitace-pozitivniho-zameru", "integrace-polarit", "stepeni-ja-v-manipulaci"]
 nlp_types = ["concept", "pattern"]
-nlp_words = 1391
 nlp_sources = ["andreas-andreas-1994", "bandler-grinder-1982", "dilts-delozier-2000", "festinger-1957", "grinder-bandler-1976", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "miller-rollnick-2013", "passmore-rowson-2019", "perls-1969", "satir-1972", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
 +++
 

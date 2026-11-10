@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-reframing", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-reframing"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["beck-1976", "erickson-rossi-1979", "hassan-1988", "kirsch-lynn-1
 nlp_sources_primary = ["oconnor-seymour-1990"]
 nlp_sources_roots = ["erickson-rossi-1979"]
 nlp_sources_critical = ["beck-1976", "hassan-1988", "kirsch-lynn-1995", "loftus-palmer-1974", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
-nlp_citations = 15
-nlp_words = 1172
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

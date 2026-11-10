@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-disociace-a-trauma", "nlp-vzorec", "nlp-uziti-terapie"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-disociace-a-trauma"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["andreas-andreas-1989", "bandler-1985", "bandler-grinder-1979", "
 nlp_sources_primary = ["andreas-andreas-1989", "bandler-1985", "bandler-grinder-1979"]
 nlp_sources_roots = []
 nlp_sources_critical = ["cialdini-2009", "herman-1992", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "shapiro-1989", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_citations = 19
-nlp_words = 1216
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1
@@ -230,7 +226,7 @@ doložené cesty. Souvislosti s komplexním traumatem rozvádí heslo o
 
 **Příbuzné vzorce**
 
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation)
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
 - [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – příbuzný vzorec (Submodality, Movie theatre technique)
 - [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzný vzorec (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))
 - [Dvojitá disociace](@/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md) – příbuzný vzorec (Disociace, fobie a trauma, Double dissociation)

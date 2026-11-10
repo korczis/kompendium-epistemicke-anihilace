@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-submodality", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-submodality"
 toc = true
 risk_level = "high"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["andreas-andreas-1987", "bandler-1985", "beck-1976", "dilts-1990"
 nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "dilts-1990", "dilts-hallbom-smith-1990"]
 nlp_sources_roots = []
 nlp_sources_critical = ["beck-1976", "ellis-1962", "festinger-1957", "herman-1992", "kahneman-2011", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
-nlp_citations = 16
-nlp_words = 1219
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

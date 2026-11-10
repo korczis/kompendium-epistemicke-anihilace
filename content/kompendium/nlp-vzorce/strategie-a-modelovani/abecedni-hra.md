@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-strategie-a-modelovani", "nlp-vzorec", "nlp-uziti-terapie"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-strategie-a-modelovani"
 toc = true
 risk_level = "low"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975b", "druckman-swets-1988", "gilovich-1991", 
 nlp_sources_primary = ["bandler-grinder-1975b", "grinder-bostic-2001", "grinder-delozier-1987"]
 nlp_sources_roots = []
 nlp_sources_critical = ["druckman-swets-1988", "gilovich-1991", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "roderique-davies-2009", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_citations = 15
-nlp_words = 1241
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

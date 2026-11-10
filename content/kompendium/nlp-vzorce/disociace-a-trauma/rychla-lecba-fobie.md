@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-disociace-a-trauma", "nlp-vzorec", "nlp-uziti-terapie"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-disociace-a-trauma"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["andreas-andreas-1989", "bandler-1985", "bandler-grinder-1979", "
 nlp_sources_primary = ["andreas-andreas-1989", "bandler-1985", "bandler-grinder-1979"]
 nlp_sources_roots = []
 nlp_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "lilienfeld-2015", "norcross-2006", "shapiro-1989", "sharpley-1987", "sturt-2012", "wolpe-1958"]
-nlp_citations = 20
-nlp_words = 1382
-nlp_reading_minutes = 7
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1
@@ -69,7 +65,7 @@ nlp_catalogue = "data/nlp/disociace-a-trauma.toml"
 | **Druh** | vzorec |
 | **Anglicky** | Fast phobia cure (V-K dissociation) |
 | **Jiné názvy** | vizuálně-kinestetická disociace, V-K disociace, léčba fobie za jedno sezení |
-| **Obecnější vzorec** | [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) |
+| **Obecnější vzorec** | [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) |
 | **Užití** | převážně terapeutické |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
@@ -238,13 +234,13 @@ expozice vedená odborníkem (Wolpe 1958).
 **Rodina a hierarchie**
 
 - [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
 - [Technika přetáčení](@/kompendium/nlp-vzorce/disociace-a-trauma/rewind.md) – zvláštní případ tohoto vzorce
 
 **Příbuzné vzorce**
 
 - [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – příbuzný vzorec (Základní pojmy NLP, Submodalities (concept))
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation)
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
 - [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – příbuzný vzorec (Kotvení, Collapsing anchors)
 - [Nechtěné kotvy a spouštěče](@/kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md) – příbuzný vzorec (Kotvení, Unintended anchors and triggers)
 - [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – příbuzný vzorec (Submodality, Movie theatre technique)

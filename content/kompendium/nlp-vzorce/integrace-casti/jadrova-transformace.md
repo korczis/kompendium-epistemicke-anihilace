@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-integrace-casti", "nlp-vzorec", "nlp-uziti-terapie"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-integrace-casti"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["andreas-andreas-1989", "andreas-andreas-1994", "andreas-andreas-
 nlp_sources_primary = ["andreas-andreas-1989", "andreas-andreas-1994", "andreas-andreas-1987", "bandler-grinder-1982"]
 nlp_sources_roots = []
 nlp_sources_critical = ["herman-1992", "lifton-1961", "rogers-1951", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_citations = 15
-nlp_words = 1284
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

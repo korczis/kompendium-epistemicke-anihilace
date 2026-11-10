@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-submodality", "nlp-vzorec", "nlp-uziti-terapie"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-submodality"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["andreas-andreas-1987", "bandler-1985", "haley-1973", "miller-rol
 nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
 nlp_sources_roots = ["haley-1973", "pavlov-1927", "watzlawick-1974"]
 nlp_sources_critical = ["miller-rollnick-2013", "norcross-2006", "roderique-davies-2009", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "wolpe-1958"]
-nlp_citations = 17
-nlp_words = 1258
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

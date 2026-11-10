@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-strategie-a-modelovani", "nlp-vzorec", "nlp-uziti-vliv"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-strategie-a-modelovani"
 toc = true
 risk_level = "high"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["cameron-bandler-1978", "dilts-1980", "herman-1992", "miller-gala
 nlp_sources_primary = ["cameron-bandler-1978", "dilts-1980"]
 nlp_sources_roots = ["miller-galanter-pribram-1960", "satir-1972"]
 nlp_sources_critical = ["herman-1992", "sharpley-1984", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
-nlp_citations = 14
-nlp_words = 1180
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

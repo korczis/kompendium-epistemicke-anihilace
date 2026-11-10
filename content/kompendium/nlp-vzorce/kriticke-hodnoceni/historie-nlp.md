@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-kriticke-hodnoceni", "nlp-pojem", "nlp-uziti-zadne"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-kriticke-hodnoceni"
 toc = true
 risk_level = "low"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1975", "
 nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grinder-1975", "bandler-grinder-1975b", "bandler-grinder-1979", "bandler-grinder-1982", "cameron-bandler-1978", "charvet-1997", "dilts-1990", "dilts-1999", "dilts-1980", "dilts-hallbom-smith-1990", "gordon-1978", "grinder-bandler-1976", "grinder-bandler-1981", "grinder-bostic-2001", "grinder-delozier-1987", "grinder-delozier-bandler-1977", "hall-bodenhamer-1997", "james-woodsmall-1988", "lankton-1980", "oconnor-seymour-1990"]
 nlp_sources_roots = ["chomsky-1965", "erickson-rossi-rossi-1976", "haley-1973"]
 nlp_sources_critical = ["druckman-swets-1988", "gilovich-1991", "heap-1988", "kirsch-lynn-1995", "lilienfeld-2015", "passmore-rowson-2019", "sharpley-1984", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_citations = 42
-nlp_words = 1220
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Etapy vývoje", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

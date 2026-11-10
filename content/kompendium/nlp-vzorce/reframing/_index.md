@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-reframing"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Reframing a rámce", "Reframing and frames", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Reframing and frames"
 nlp_size = 17
 nlp_members = ["reframing", "kontextovy-reframing", "obsahovy-reframing", "sestikrokovy-reframing", "ramec-souhlasu", "ramec-jako-by", "ramec-vysledku", "ramec-ekologie", "ramec-zpetneho-shrnuti", "kontrastni-ramec", "vyzva-k-relevanci", "otevreny-ramec", "ramec-dukazu", "predramcovani", "dodatecne-ramcovani", "deframing", "selhani-jako-zpetna-vazba-vzorec"]
 nlp_types = ["pattern"]
-nlp_words = 1231
 nlp_sources = ["bandler-grinder-1982", "bateson-1972", "beck-1976", "cialdini-2009", "dilts-1999", "druckman-swets-1988", "ellis-1962", "herman-1992", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "watzlawick-1967", "watzlawick-1974", "witkowski-2010", "van-der-linden-2023"]
 +++
 

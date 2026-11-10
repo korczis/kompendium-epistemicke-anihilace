@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-kriticke-hodnoceni", "nlp-pojem", "nlp-uziti-zadne"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-kriticke-hodnoceni"
 toc = true
 risk_level = "low"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["cialdini-2009", "druckman-swets-1988", "gilovich-1991", "heap-19
 nlp_sources_primary = []
 nlp_sources_roots = []
 nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "gilovich-1991", "heap-1988", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "sharpley-1984", "sharpley-1987", "sturt-2012", "witkowski-2010", "van-der-linden-2023"]
-nlp_citations = 17
-nlp_words = 1157
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

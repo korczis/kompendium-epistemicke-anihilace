@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-predpoklady"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Předpoklady NLP", "NLP presuppositions", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "NLP presuppositions"
 nlp_size = 21
 nlp_members = ["mapa-neni-uzemi", "vyznam-komunikace-je-reakce", "neni-selhani-jen-zpetna-vazba", "pozitivni-zamer-chovani", "lide-maji-potrebne-zdroje", "mysl-a-telo-jeden-system", "zakon-pozadovane-variety", "respekt-k-modelu-sveta", "clovek-neni-sve-chovani", "nejlepsi-dostupna-volba", "odpor-jako-nedostatek-raportu", "kdyz-to-nefunguje-udelej-neco-jineho", "modelovatelnost-excelence", "nelze-nekomunikovat", "volba-je-lepsi-nez-zadna-volba", "zkusenost-ma-strukturu", "zkusenost-je-kodovana-smysly", "komunikace-vedoma-a-nevedoma", "ekologie-zmeny", "predpoklady-jako-pracovni-hypotezy", "odpovednost-za-komunikaci"]
 nlp_types = ["principle"]
-nlp_words = 1305
 nlp_sources = ["bandler-grinder-1975", "bateson-1972", "dilts-delozier-2000", "haley-1973", "herman-1992", "korzybski-1933", "lifton-1961", "lilienfeld-2015", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "satir-1972", "sharpley-1987", "stark-2007", "sturt-2012", "tosey-mathison-2009", "watzlawick-1967", "witkowski-2010", "van-der-linden-2023"]
 +++
 

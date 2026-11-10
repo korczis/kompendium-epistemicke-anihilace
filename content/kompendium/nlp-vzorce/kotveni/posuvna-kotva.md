@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-kotveni", "nlp-vzorec", "nlp-uziti-terapie"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-kotveni"
 toc = true
 risk_level = "low"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["andreas-andreas-1987", "bandler-1985", "beck-1976", "heap-1988",
 nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
 nlp_sources_roots = ["pavlov-1927"]
 nlp_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_citations = 16
-nlp_words = 1238
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Varianty", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

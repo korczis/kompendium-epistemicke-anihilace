@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-disociace-a-trauma"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Disociace, fobie a trauma", "Dissociation, phobia and trauma patterns", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Dissociation, phobia and trauma patterns"
 nlp_size = 11
 nlp_members = ["rychla-lecba-fobie", "dvojita-disociace", "reimprinting", "zmena-osobni-historie", "alergicky-vzorec", "vzorec-zalu", "vzorec-odpusteni", "reakce-na-kritiku", "sebepojeti", "trauma-a-falesne-vzpominky", "rewind"]
 nlp_types = ["concept", "pattern"]
-nlp_words = 1227
 nlp_sources = ["andreas-andreas-1989", "andreas-andreas-1987", "bandler-1985", "bandler-grinder-1979", "dilts-1990", "dilts-hallbom-smith-1990", "erickson-rossi-rossi-1976", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "shapiro-1989", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 +++
 

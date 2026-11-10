@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-vliv-a-zneuziti", "nlp-pojem", "nlp-uziti-vliv"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-vliv-a-zneuziti"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["dilts-1980", "gilovich-1991", "langer-1978", "lifton-1961", "lil
 nlp_sources_primary = ["dilts-1980", "oconnor-seymour-1990"]
 nlp_sources_roots = []
 nlp_sources_critical = ["gilovich-1991", "langer-1978", "lifton-1961", "lilienfeld-2015", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "wiseman-2012", "witkowski-2010"]
-nlp_citations = 18
-nlp_words = 1275
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

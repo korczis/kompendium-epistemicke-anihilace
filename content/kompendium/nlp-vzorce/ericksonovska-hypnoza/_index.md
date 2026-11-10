@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-ericksonovska-hypnoza"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Ericksonovská hypnóza", "Ericksonian hypnosis", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Ericksonian hypnosis"
 nlp_size = 28
 nlp_members = ["ericksonovska-hypnoza", "utilizace", "konfuzni-technika", "preruseni-vzorce", "indukce-podanim-ruky", "levitace-ruky", "vnorene-smycky", "seeding", "predepsani-symptomu", "paradoxni-intervence", "posthypnoticka-sugesce", "vekova-regrese", "pseudoorientace-v-case", "muj-pritel-john", "technika-prolozeni", "vrstveni-realit", "terapeuticka-dvojna-vazba", "vedome-nevedoma-dvojna-vazba", "dvojita-disociativni-vazba", "apozice-protikladu", "slozena-sugesce", "implikovane-direktivum", "otevrena-sugesce", "sugesce-pokryvajici-vsechny-moznosti", "ideomotoricka-signalizace", "frakcionace", "indukce-pretizenim", "amnezie-sugesci"]
 nlp_types = ["pattern"]
-nlp_words = 1216
 nlp_sources = ["bandler-grinder-1975b", "druckman-swets-1988", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "grinder-bandler-1981", "grinder-delozier-bandler-1977", "haley-1973", "hassan-1988", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "mcguire-1964", "norcross-2006", "petty-cacioppo-1986", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "watzlawick-1974", "witkowski-2010"]
 +++
 

@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-strategie-a-modelovani", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-strategie-a-modelovani"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-delozier-2000", "
 nlp_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "grinder-bostic-2001", "grinder-delozier-1987"]
 nlp_sources_roots = []
 nlp_sources_critical = ["cialdini-2009", "druckman-swets-1988", "gilovich-1991", "herman-1992", "kirsch-lynn-1995", "mcguire-1964", "passmore-rowson-2019", "witkowski-2010", "wolpe-1958"]
-nlp_citations = 17
-nlp_words = 1311
-nlp_reading_minutes = 7
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

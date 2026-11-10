@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-cile-a-vysledky"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Cíle a výsledky", "Outcomes", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Outcomes"
 nlp_size = 10
 nlp_members = ["dobre-formulovany-vysledek", "pozitivni-formulace-cile", "smyslove-dukazy-cile", "cil-pod-vlastni-kontrolou", "kontext-cile", "zdroje-cile", "ekologie-cile", "dukazni-procedura", "otazky-vysledku", "od-problemu-k-vysledku"]
 nlp_types = ["concept", "pattern"]
-nlp_words = 1255
 nlp_sources = ["bandler-grinder-1975", "cialdini-2009", "dilts-delozier-2000", "festinger-1957", "freedman-fraser-1966", "haley-1973", "hassan-1988", "herman-1992", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "miller-galanter-pribram-1960", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "singer-lalich-1995", "stark-2007", "sturt-2012", "watzlawick-1974", "witkowski-2010"]
 +++
 

@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-raport-a-kalibrace"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Raport a kalibrace", "Rapport and calibration", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Rapport and calibration"
 nlp_size = 16
 nlp_members = ["zrcadleni", "krizove-zrcadleni", "pacing-a-leading", "shoda-predikatu", "sladeni-dechu", "sladeni-hlasu-a-tempa", "zpetne-shrnuti", "kalibrace-ano-ne", "vedeni-v-raportu", "preruseni-raportu", "raport-se-skupinou", "sladeni-hodnot", "raport-jako-nastroj-vlivu", "detekce-lzi-v-nlp", "cteni-reci-tela", "pseudoempatie"]
 nlp_types = ["concept", "pattern"]
-nlp_words = 1173
 nlp_sources = ["bandler-grinder-1975b", "bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "grinder-bandler-1981", "haley-1973", "hassan-1988", "heap-1988", "herman-1992", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 +++
 

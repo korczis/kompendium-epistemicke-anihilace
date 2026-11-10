@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-zakladni-pojmy", "nlp-pojem", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-zakladni-pojmy"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975b", "dilts-delozier-2000", "gordon-1978", "g
 nlp_sources_primary = ["bandler-grinder-1975b", "dilts-delozier-2000", "gordon-1978"]
 nlp_sources_roots = ["grice-1975"]
 nlp_sources_critical = ["hassan-1988", "herman-1992", "langer-1978", "lifton-1961", "petty-cacioppo-1986", "roderique-davies-2009", "witkowski-2010"]
-nlp_citations = 14
-nlp_words = 1239
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

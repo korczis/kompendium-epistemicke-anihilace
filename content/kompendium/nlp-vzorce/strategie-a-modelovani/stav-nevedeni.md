@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-strategie-a-modelovani", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-strategie-a-modelovani"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bateson-1972", "beck-1976", "gilovich-1991", "grinder-bostic-200
 nlp_sources_primary = ["grinder-bostic-2001", "grinder-delozier-1987"]
 nlp_sources_roots = ["bateson-1972"]
 nlp_sources_critical = ["beck-1976", "gilovich-1991", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
-nlp_citations = 15
-nlp_words = 1206
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

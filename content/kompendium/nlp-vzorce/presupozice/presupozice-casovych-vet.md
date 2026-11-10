@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-presupozice", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-presupozice"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975b", "cialdini-2009", "erickson-rossi-rossi-1
 nlp_sources_primary = ["bandler-grinder-1975b"]
 nlp_sources_roots = ["erickson-rossi-rossi-1976", "levinson-1983"]
 nlp_sources_critical = ["cialdini-2009", "heap-1988", "mcguire-1964", "miller-rollnick-2013", "singer-lalich-1995", "witkowski-2010"]
-nlp_citations = 17
-nlp_words = 1290
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Varianty", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

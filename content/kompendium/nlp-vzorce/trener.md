@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-trener"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce"
 toc = false
 +++
 

@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-zakladni-pojmy", "nlp-pojem", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-zakladni-pojmy"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["cialdini-2009", "ekman-2003", "grinder-bandler-1976", "rogers-19
 nlp_sources_primary = ["grinder-bandler-1976"]
 nlp_sources_roots = ["satir-1972", "watzlawick-1967"]
 nlp_sources_critical = ["cialdini-2009", "ekman-2003", "rogers-1951", "vrij-2008", "witkowski-2010"]
-nlp_citations = 14
-nlp_words = 1243
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Kongruence, raport a důvěra", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1
@@ -151,7 +147,7 @@ Základní obranou je oddělit dojem z mluvčího od hodnocení tvrzení. Užite
 
 **V katalogu**
 
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – předchozí vzorec rodiny
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – předchozí vzorec rodiny
 - [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – další vzorec rodiny
 - [Trenér rozpoznávání NLP vzorců](@/kompendium/nlp-vzorce/trener.md) – procvičení rozpoznání tohoto vzorce na příkladech výroků
 

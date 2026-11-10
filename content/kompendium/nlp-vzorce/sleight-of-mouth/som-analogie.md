@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-sleight-of-mouth", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-sleight-of-mouth"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["beck-1976", "dilts-1999", "gordon-1978", "kahneman-2011", "lakof
 nlp_sources_primary = ["dilts-1999", "gordon-1978"]
 nlp_sources_roots = ["rosen-1982"]
 nlp_sources_critical = ["beck-1976", "kahneman-2011", "lakoff-johnson-1980", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
-nlp_citations = 20
-nlp_words = 1326
-nlp_reading_minutes = 7
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

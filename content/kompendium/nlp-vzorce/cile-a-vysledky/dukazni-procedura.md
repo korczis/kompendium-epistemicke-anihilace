@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-cile-a-vysledky", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-cile-a-vysledky"
 toc = true
 risk_level = "high"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["cameron-bandler-1978", "charvet-1997", "cialdini-2009", "dilts-1
 nlp_sources_primary = ["cameron-bandler-1978", "charvet-1997", "dilts-1980", "oconnor-seymour-1990"]
 nlp_sources_roots = ["miller-galanter-pribram-1960"]
 nlp_sources_critical = ["cialdini-2009", "herman-1992", "langer-1978", "sharpley-1984", "stark-2007", "sturt-2012", "vrij-2008", "witkowski-2010"]
-nlp_citations = 13
-nlp_words = 1255
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

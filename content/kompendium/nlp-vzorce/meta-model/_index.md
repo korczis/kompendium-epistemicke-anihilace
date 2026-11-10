@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-meta-model"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Meta-model", "Meta Model", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Meta Model"
 nlp_size = 17
 nlp_members = ["meta-model", "nominalizace", "nespecifikovane-sloveso", "nespecifikovany-referencni-index", "prosta-delece", "srovnavaci-delece", "ztraceny-performativ", "univerzalni-kvantifikator", "modalni-operator-nutnosti", "modalni-operator-moznosti", "cteni-myslenek", "pricina-a-nasledek", "komplexni-ekvivalence", "presupozice-v-meta-modelu", "hierarchie-otazek-meta-modelu", "meta-model-jako-vyslychaci-nastroj", "poruseni-selekcnich-omezeni-meta"]
 nlp_types = ["concept", "pattern"]
-nlp_words = 1243
 nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "beck-1976", "chomsky-1965", "druckman-swets-1988", "ellis-1962", "grice-1975", "heap-1988", "herman-1992", "korzybski-1933", "levinson-1983", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "perls-1969", "petty-cacioppo-1986", "satir-1972", "sharpley-1987", "sturt-2012", "watzlawick-1967", "witkowski-2010", "van-der-linden-2023"]
 +++
 

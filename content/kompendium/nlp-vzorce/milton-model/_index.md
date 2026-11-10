@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-milton-model"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Milton-model", "Milton Model", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Milton Model"
 nlp_size = 30
 nlp_members = ["milton-model", "vlozene-prikazy", "vlozene-otazky", "analogove-znaceni", "konverzacni-postulaty", "pripojene-otazky", "truismy", "ano-sada", "citace", "poruseni-selekcnich-omezeni", "fonologicka-dvojznacnost", "syntakticka-dvojznacnost", "rozsahova-dvojznacnost", "interpunkcni-dvojznacnost", "umyslna-vagnost", "cteni-myslenek-milton", "ztraceny-performativ-milton", "spojky-a-implikovana-pricinnost", "komplexni-ekvivalence-milton", "univerzalni-kvantifikatory-milton", "modalni-operatory-milton", "nominalizace-milton", "nespecifikovana-slovesa-milton", "nespecifikovany-index-milton", "iluze-volby", "negativni-prikazy", "pacing-aktualni-zkusenosti", "retezeni-sugesci", "srovnavaci-delece-milton", "presupozice-milton"]
 nlp_types = ["pattern"]
-nlp_words = 1153
 nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "druckman-swets-1988", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "freedman-fraser-1966", "grice-1975", "grinder-bandler-1981", "grinder-delozier-bandler-1977", "haley-1973", "heap-1988", "herman-1992", "kirsch-lynn-1995", "levinson-1983", "loftus-palmer-1974", "mcguire-1964", "norcross-2006", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 +++
 

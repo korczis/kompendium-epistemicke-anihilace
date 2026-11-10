@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-zakladni-pojmy", "nlp-pojem", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-zakladni-pojmy"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["andreas-andreas-1987", "bandler-1985", "beck-1976", "dilts-1980"
 nlp_sources_primary = ["andreas-andreas-1987", "bandler-1985", "dilts-1980", "oconnor-seymour-1990"]
 nlp_sources_roots = []
 nlp_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
-nlp_citations = 16
-nlp_words = 1336
-nlp_reading_minutes = 7
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1
@@ -130,7 +126,7 @@ Základní obranou je trvat na tom, že o změně vlastních citů rozhoduje čl
 
 - [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
 - [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – zvláštní případ tohoto vzorce
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – zvláštní případ tohoto vzorce
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – zvláštní případ tohoto vzorce
 - [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – zvláštní případ tohoto vzorce
 - [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – zvláštní případ tohoto vzorce
 - [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – zvláštní případ tohoto vzorce
@@ -146,7 +142,7 @@ Základní obranou je trvat na tom, že o změně vlastních citů rozhoduje čl
 - [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – příbuzný vzorec (Základní pojmy NLP, Representational systems)
 - [Čichový a chuťový systém](@/kompendium/nlp-vzorce/zakladni-pojmy/olfaktorni-a-gustatorni-system.md) – příbuzný vzorec (Základní pojmy NLP, Olfactory and gustatory systems)
 - [Synestezie v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/synestezie.md) – příbuzný vzorec (Základní pojmy NLP, Synaesthesia (NLP sense))
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation)
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
 - [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – příbuzný vzorec (Submodality, Eliciting submodalities)
 - [Kritické submodality](@/kompendium/nlp-vzorce/submodality/kriticke-submodality.md) – příbuzný vzorec (Submodality, Critical (driver) submodalities)
 - [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – příbuzný vzorec (Submodality, Swish pattern)

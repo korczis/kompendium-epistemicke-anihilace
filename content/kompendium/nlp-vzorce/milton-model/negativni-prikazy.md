@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-milton-model", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-milton-model"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975b", "erickson-rossi-1979", "heap-1988", "her
 nlp_sources_primary = ["bandler-grinder-1975b"]
 nlp_sources_roots = ["erickson-rossi-1979", "watzlawick-1974"]
 nlp_sources_critical = ["heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "witkowski-2010"]
-nlp_citations = 12
-nlp_words = 1223
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

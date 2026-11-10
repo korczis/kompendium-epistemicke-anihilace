@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-disociace-a-trauma", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-disociace-a-trauma"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-1985", "bandler-grinder-1979", "beck-1976", "erickson-ro
 nlp_sources_primary = ["bandler-1985", "bandler-grinder-1979"]
 nlp_sources_roots = ["erickson-rossi-rossi-1976"]
 nlp_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "sturt-2012", "witkowski-2010"]
-nlp_citations = 19
-nlp_words = 1204
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1
@@ -69,7 +65,7 @@ nlp_catalogue = "data/nlp/disociace-a-trauma.toml"
 | **Druh** | vzorec |
 | **Anglicky** | Double dissociation |
 | **Jiné názvy** | divák sledující diváka, disociace druhého řádu |
-| **Obecnější vzorec** | [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) |
+| **Obecnější vzorec** | [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) |
 | **Užití** | terapeutické i vlivové |
 | **Riziko zneužití** | střední |
 | **Vazba na Vaknin 2008** | odvozená: obsah knihy nebyl ověřen |
@@ -222,12 +218,12 @@ příběhu, ve kterém mají jeho emoce své místo (Beck 1976; Herman 1992).
 **Rodina a hierarchie**
 
 - [Disociace, fobie a trauma](@/kompendium/nlp-vzorce/disociace-a-trauma/_index.md) – rodina, do níž vzorec patří, s přehledem všech jejích vzorců
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – obecnější vzorec, jehož je tento vzorec zvláštním případem
 
 **Příbuzné vzorce**
 
 - [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – příbuzný vzorec (Základní pojmy NLP, Meta-position)
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation)
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
 - [Dvojitá disociativní vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md) – příbuzný vzorec (Ericksonovská hypnóza, Double dissociation double bind)
 - [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – příbuzný vzorec (Submodality, Movie theatre technique)
 - [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – příbuzný vzorec (Disociace, fobie a trauma, Fast phobia cure (V-K dissociation))

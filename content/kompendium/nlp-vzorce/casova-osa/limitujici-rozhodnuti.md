@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-casova-osa", "nlp-vzorec", "nlp-uziti-terapie"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-casova-osa"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["beck-1976", "dilts-1990", "ellis-1962", "gilovich-1991", "herman
 nlp_sources_primary = ["dilts-1990", "james-woodsmall-1988"]
 nlp_sources_roots = []
 nlp_sources_critical = ["beck-1976", "ellis-1962", "gilovich-1991", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "loftus-palmer-1974", "passmore-rowson-2019", "witkowski-2010"]
-nlp_citations = 16
-nlp_words = 1189
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Rozhodnutí, nebo přizpůsobení", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

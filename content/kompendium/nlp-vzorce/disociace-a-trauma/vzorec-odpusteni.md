@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-disociace-a-trauma", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-disociace-a-trauma"
 toc = true
 risk_level = "high"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1982", "grinder-delozier-1987", "hassan-1988", "
 nlp_sources_primary = ["bandler-grinder-1982", "grinder-delozier-1987"]
 nlp_sources_roots = []
 nlp_sources_critical = ["hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "rogers-1951", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
-nlp_citations = 16
-nlp_words = 1183
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

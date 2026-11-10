@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-metaprogramy"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Metaprogramy", "Meta-programs", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Meta-programs"
 nlp_size = 23
 nlp_members = ["k-cili-a-od-problemu", "vnitrni-a-vnejsi-reference", "moznosti-a-postupy", "obecne-a-specificke", "shoda-a-rozdil", "proaktivni-a-reaktivni", "kriteria", "kanal-presvedceni", "rezim-presvedceni", "ja-a-druzi", "reakce-na-stres", "pracovni-styl", "lide-a-veci", "struktura-pravidel", "casova-orientace", "emocni-zvladani", "hodnoty-pri-koupi", "odpovednost", "duvera", "filozoficky-smer", "adaptace", "metaprogramy-v-naboru", "metaprogramy-v-marketingu"]
 nlp_types = ["concept", "pattern"]
-nlp_words = 1302
 nlp_sources = ["charvet-1997", "cialdini-2009", "freedman-fraser-1966", "gilovich-1991", "hall-bodenhamer-1997", "herman-1992", "james-woodsmall-1988", "mcguire-1964", "oconnor-seymour-1990", "passmore-rowson-2019", "petty-cacioppo-1986", "rogers-1951", "sharpley-1987", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 +++
 

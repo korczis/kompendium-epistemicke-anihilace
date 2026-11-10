@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-vliv-a-zneuziti"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Vliv a zneužití NLP", "Influence and misuse of NLP", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Influence and misuse of NLP"
 nlp_size = 20
 nlp_members = ["konverzacni-hypnoza", "nlp-v-prodeji", "predpokladovy-zaver", "alternativni-zaver", "budouci-prehravani-v-prodeji", "nlp-v-komunite-svadeni", "nlp-v-sektach", "nlp-ve-vyslechu", "nlp-v-politicke-reci", "nlp-v-reklame", "nlp-v-koucinku", "trh-certifikaci-nlp", "guru-efekt", "velke-seminare", "falesne-zrcadleni-v-podvodech", "manipulativni-reframing-ve-vztazich", "hypnoticky-jazyk-online", "neuro-zargon", "obrana-proti-vlivovym-vzorcum", "rozpoznani-nlp-praktiky"]
 nlp_types = ["concept", "pattern"]
-nlp_words = 1238
 nlp_sources = ["charvet-1997", "cialdini-2009", "druckman-swets-1988", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "oconnor-seymour-1990", "petty-cacioppo-1986", "sharpley-1987", "singer-lalich-1995", "tosey-mathison-2009", "tversky-kahneman-1974", "tversky-kahneman-1981", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
 +++
 

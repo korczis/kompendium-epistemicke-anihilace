@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "kompendium"]
 categories = ["academic", "reference"]
-parent = "kompendium"
 section_icon = "🗣️"
 toc = true
 nlp_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bateson-1972", "cialdini-2009", "dilts-1999", "druckman-swets-1988", "erickson-rossi-rossi-1976", "grice-1975", "heap-1988", "korzybski-1933", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "petty-cacioppo-1986", "satir-1972", "sharpley-1984", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "vaknin-2008", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]

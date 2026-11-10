@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-urovne-a-pozice", "nlp-vzorec", "nlp-uziti-terapie"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-urovne-a-pozice"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["dilts-delozier-2000", "grinder-delozier-1987", "herman-1992", "k
 nlp_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987"]
 nlp_sources_roots = ["perls-1969", "satir-1972"]
 nlp_sources_critical = ["herman-1992", "kahneman-2011", "passmore-rowson-2019", "rogers-1951", "stark-2007", "sturt-2012", "witkowski-2010"]
-nlp_citations = 17
-nlp_words = 1255
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

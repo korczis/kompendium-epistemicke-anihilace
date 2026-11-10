@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-ericksonovska-hypnoza", "nlp-vzorec", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-ericksonovska-hypnoza"
 toc = true
 risk_level = "low"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975b", "erickson-rossi-rossi-1976", "gilovich-1
 nlp_sources_primary = ["bandler-grinder-1975b"]
 nlp_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973"]
 nlp_sources_critical = ["gilovich-1991", "kirsch-lynn-1995", "loftus-palmer-1974", "mcguire-1964", "rogers-1951", "singer-lalich-1995", "vrij-2008", "witkowski-2010"]
-nlp_citations = 20
-nlp_words = 1237
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Odlišení od příbuzných jevů", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1

@@ -1,5 +1,5 @@
 +++
-title = "Disociace"
+title = "Disociace v NLP"
 description = "Pojem NLP pro prožívání situace zvenčí, z pozice diváka: jak se liší od klinické disociace, kde chrání před zahlcením a kde odpojuje člověka od varovných emocí."
 weight = 24
 insert_anchor_links = "right"
@@ -9,11 +9,10 @@ tags = ["nlp", "nlp-zakladni-pojmy", "nlp-pojem", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-zakladni-pojmy"
 toc = true
 risk_level = "high"
 lang = "cs"
-keywords = ["Disociace", "Dissociation", "disociovaný stav", "pohled zvenčí", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
+keywords = ["Disociace v NLP", "Dissociation (NLP sense)", "disociovaný stav", "pohled zvenčí", "Základní pojmy NLP", "NLP", "neurolingvistické programování"]
 schema_type = "DefinedTerm"
 nlp_schema = 1
 nlp_id = "NLP-02.24"
@@ -25,7 +24,7 @@ nlp_family_en = "Core NLP concepts"
 nlp_part = "zakladni-pojmy.c"
 nlp_type = "concept"
 nlp_type_cs = "pojem"
-nlp_en = "Dissociation"
+nlp_en = "Dissociation (NLP sense)"
 nlp_aliases = ["disociovaný stav", "pohled zvenčí"]
 nlp_use = "dvoji"
 nlp_use_cs = "terapeutické i vlivové"
@@ -47,9 +46,6 @@ nlp_sources = ["andreas-andreas-1989", "bandler-1985", "erickson-rossi-rossi-197
 nlp_sources_primary = ["andreas-andreas-1989", "bandler-1985"]
 nlp_sources_roots = ["erickson-rossi-rossi-1976"]
 nlp_sources_critical = ["herman-1992", "lilienfeld-2015", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
-nlp_citations = 17
-nlp_words = 1297
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1
@@ -58,7 +54,7 @@ nlp_review = "agent"
 nlp_catalogue = "data/nlp/zakladni-pojmy.c.toml"
 +++
 
-# Disociace
+# Disociace v NLP
 
 <!-- kompendium:nlp-hlavicka:begin (scripts/nlp-catalog.py; neupravovat ručně) -->
 
@@ -67,7 +63,7 @@ nlp_catalogue = "data/nlp/zakladni-pojmy.c.toml"
 | **Identifikátor** | `NLP-02.24` |
 | **Rodina** | [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) |
 | **Druh** | pojem |
-| **Anglicky** | Dissociation |
+| **Anglicky** | Dissociation (NLP sense) |
 | **Jiné názvy** | disociovaný stav, pohled zvenčí |
 | **Obecnější vzorec** | [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) |
 | **Užití** | terapeutické i vlivové |

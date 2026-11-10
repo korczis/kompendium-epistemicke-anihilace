@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-jazykove-vzorce", "nlp-pojem", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-jazykove-vzorce"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1975", "grinder-bandler-1976", "kahneman-2011", 
 nlp_sources_primary = ["bandler-grinder-1975", "grinder-bandler-1976", "oconnor-seymour-1990"]
 nlp_sources_roots = ["satir-1972"]
 nlp_sources_critical = ["kahneman-2011", "lifton-1961", "miller-rollnick-2013", "rogers-1951", "sharpley-1987", "tosey-mathison-2009", "vrij-2008", "witkowski-2010"]
-nlp_citations = 16
-nlp_words = 1209
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1
@@ -142,7 +138,7 @@ Pro člověka, který u sebe superrozumný postoj rozpozná, je cestou k vyrovna
 **Příbuzné vzorce**
 
 - [Auditivně digitální systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md) – příbuzný vzorec (Základní pojmy NLP, Auditory digital system)
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation)
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
 - [Rozptylovač](@/kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md) – příbuzný vzorec (Jazykové vzorce, Distracter)
 - [Vyrovnaný](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md) – příbuzný vzorec (Jazykové vzorce, Leveller)
 - [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzný vzorec (Vliv a zneužití NLP, Neuro-jargon)

@@ -9,7 +9,6 @@ tags = ["nlp", "nlp-metaprogramy", "nlp-pojem", "nlp-uziti-dvoji"]
 categories = ["academic"]
 
 [extra]
-parent = "kompendium-nlp-vzorce-metaprogramy"
 toc = true
 risk_level = "moderate"
 lang = "cs"
@@ -47,9 +46,6 @@ nlp_sources = ["bandler-grinder-1979", "beck-1976", "hall-bodenhamer-1997", "has
 nlp_sources_primary = ["bandler-grinder-1979", "hall-bodenhamer-1997"]
 nlp_sources_roots = ["satir-1972"]
 nlp_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "rogers-1951", "sturt-2012", "vrij-2008", "witkowski-2010"]
-nlp_citations = 14
-nlp_words = 1247
-nlp_reading_minutes = 6
 nlp_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 nlp_trainer_items = 2
 nlp_trainer_benign = 1
@@ -224,7 +220,7 @@ přijetí prožitku bez hodnocení je podmínkou změny, nikoli její překážk
 **Příbuzné vzorce**
 
 - [Asociace](@/kompendium/nlp-vzorce/zakladni-pojmy/asociace.md) – příbuzný vzorec (Základní pojmy NLP, Association)
-- [Disociace](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation)
+- [Disociace v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md) – příbuzný vzorec (Základní pojmy NLP, Dissociation (NLP sense))
 - [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – příbuzný vzorec (Metaprogramy, Self and other)
 - [Reakce na stres](@/kompendium/nlp-vzorce/metaprogramy/reakce-na-stres.md) – příbuzný vzorec (Metaprogramy, Stress response)
 

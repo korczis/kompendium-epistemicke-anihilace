@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-submodality"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Submodality", "Submodalities", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Submodalities"
 nlp_size = 20
 nlp_members = ["elicitace-submodalit", "vizualni-submodality", "auditivni-submodality", "kinesteticke-submodality", "kriticke-submodality", "kontrastni-analyza", "mapovani-napric", "swish", "kinesteticky-swish", "auditivni-swish", "vyhozeni-kompulze", "vzorec-godiva", "od-libosti-k-nechuti", "zmena-presvedceni-submodalitami", "prahovy-vzorec", "zmena-vnitrniho-hlasu", "filmova-technika", "prostorove-umisteni-obrazu", "submodality-v-reklame", "zmena-kriticke-sebeprezentace"]
 nlp_types = ["concept", "pattern"]
-nlp_words = 1196
 nlp_sources = ["andreas-andreas-1987", "bandler-1985", "dilts-1990", "dilts-1980", "druckman-swets-1988", "herman-1992", "james-woodsmall-1988", "kirsch-lynn-1995", "lakoff-johnson-1980", "lifton-1961", "mcguire-1964", "norcross-2006", "oconnor-seymour-1990", "passmore-rowson-2019", "roderique-davies-2009", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 +++
 

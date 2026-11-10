@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["nlp", "nlp-strategie-a-modelovani"]
 categories = ["academic"]
-parent = "kompendium-nlp-vzorce"
 toc = true
 lang = "cs"
 keywords = ["Strategie a modelování", "Strategies and modelling", "NLP"]
@@ -22,7 +21,6 @@ nlp_en = "Strategies and modelling"
 nlp_size = 20
 nlp_members = ["elicitace-strategie", "pravopisna-strategie", "rozhodovaci-strategie", "motivacni-strategie", "presvedcovaci-strategie", "strategie-uceni", "strategie-reality", "strategie-lasky", "strategie-geniality", "modelovani-excelence", "novy-kod", "stav-vysokeho-vykonu", "abecedni-hra", "stav-nevedeni", "periferni-videni", "instalace-strategie", "utilizace-strategie", "generator-noveho-chovani", "smyckove-strategie", "modelovani-nevedomim"]
 nlp_types = ["concept", "pattern"]
-nlp_words = 1254
 nlp_sources = ["bandler-grinder-1975", "chartrand-bargh-1999", "cialdini-2009", "dilts-1994", "dilts-1980", "druckman-swets-1988", "grinder-bostic-2001", "grinder-delozier-1987", "kahneman-2011", "miller-galanter-pribram-1960", "petty-cacioppo-1986", "sharpley-1984", "tosey-mathison-2009", "witkowski-2010"]
 +++
 

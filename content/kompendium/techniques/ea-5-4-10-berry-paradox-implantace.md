@@ -40,33 +40,15 @@ Na rozdíl od technik **epistemické singularity** ([5.1](@/kompendium/technique
 
 Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje **uvnitř** klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích, jejichž cyklus je iterativní s rostoucí intenzitou paradoxního napětí:
+Pozorovatel slyší, že každý pokus o stručný popis sebe sama se v okamžiku vyslovení prodlužuje a nikdy nekončí; člověk popisuje, že se topí v popisech popisů. Zvenčí jde o opakované selhání u úkolu, který vypadá triviálně. Komunikační pole, v němž je každá odpověď předem znehodnocena, je popsáno jako dvojná vazba (Bateson et al., 1956).
 
-### Krok 1 — Etablování paradoxního pole
+Retrospektivně se sled znaků jeví takto: nejprve prostředí, kde je legitimní hledat „nejstručnější pravdivý popis“, pak posun od technické hříčky k popisu vlastní mysli, a nakonec neschopnost vynést jakýkoli hodnotící soud bez cizí pomoci. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Paradoxy tohoto druhu vznikají z nehlídaného míšení úrovní jazyka, nikoli z vlastnosti mluvčího (Russell, 1908).
 
-Manipulátor vytváří **bezpečně vyhlížející diskurzivní rámec** (filozofický seminář, hluboká introspektivní konverzace, terapeutická session, mystagogická výuka), v němž je legitimní zkoumat hraniční otázky o pravdě, sebe-reference a logických základech.
+Zvenčí je doložitelné zejména obracení se na jednu osobu s otázkami, které člověk dříve řešil sám, a zúžení řeči na poznámky o nemožnosti se vyjádřit. Oddělení objektového jazyka od metajazyka, jež paradox v logice odstraňuje, tu zůstává nedostupné (Tarski, 1944).
 
-### Krok 2 — Indukce paradoxního jádra
-
-V druhém kroku manipulátor vyzývá subjekt k formulaci „nejstručnějšího pravdivého popisu sebe sama“ — popis automaticky generuje paradox. Manipulátor přitom úzkostlivě dbá, aby paradox **nebyl prezentován jako technický problém** (který by subjekt mohl uchopit metalogicky), ale jako **existenciální fakt** subjektovy mysli.
-
-### Krok 3 — Eliminace úniků
-
-Každá subjektova strategie úniku z paradoxu (rozlišení úrovní, kontextový posun, pragmatická redukce) je manipulátorem **prezentována jako další podoba téhož paradoxu**. Subjekt cítí, že žádný únik není dostupný — paradox je univerzální.
-
-### Krok 4 — Fenomenologická internalizace
-
-Paradox přechází z roviny *přemýšleného problému* do roviny *zakoušeného stavu*. Subjekt jej již nereflektuje — *prožívá* jej. Subjekt se topí v meta-popisné regresi; každá zkratka se v okamžiku formulace stává delší.
-
-### Krok 5 — Konsolidace evaluativní paralýzy
-
-V terminálním stadiu se subjekt nachází v stavu, v němž:
-
-- Nedokáže vynést **žádný** evaluativní soud bez toho, aby se nedostal do paradoxního napětí
-- Přijímá **manipulátorovy** sondy a interpretace jako jediné výpovědi imunní vůči paradoxu (manipulátor působí jako „mimo-paradoxní“ instance)
-- Obrací se na manipulátora pro každé základní rozhodnutí, neboť vlastní rozhodovací aparát je strukturálně paralyzován
+*Interpretace knihy*: logické hádanky jsou legitimní a stručný sebepopis je běžné cvičení. Odlišuje až to, že odstup mezi úlohou a řešitelem zmizel a že výsledkem je odkázanost na jediného vykladače. Trvalé napětí bez možnosti úniku patří do klinického posouzení, které začíná bezpečím (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -153,6 +135,13 @@ Paradoxální metaanihilační protokoly jsou **strukturálním motivem** pro de
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} paradoxologický monitor** — provenance ledger detekuje výroky, jejichž pravdivostní hodnota je strukturálně rekurzivní, a označuje je k externí typové kontrole.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) typová hierarchie** — epistemický pipeline pracuje se **stratifikovanými** výroky; pokus o smíchání úrovní generuje invarianční chybu.
 - **[Color Teams](@/glossary/color-teams.md) red-team protokol** — periodická revize manipulativních paradoxizačních vzorců v akademických a klinických relacích kolem Prismatic operací.
+
+## Literatura
+
+- Bateson, G., Jackson, D. D., Haley, J., & Weakland, J. (1956). Toward a theory of schizophrenia. *Behavioral Science*, 1(4).
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Russell, B. (1908). Mathematical logic as based on the theory of types. *American Journal of Mathematics*, 30(3).
+- Tarski, A. (1944). The semantic conception of truth and the foundations of semantics. *Philosophy and Phenomenological Research*, 4(3).
 
 ## Související
 

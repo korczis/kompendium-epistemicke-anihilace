@@ -36,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Somatická rekodifikace přiděluje **manipulátorem definované významy** tělesným stavům. Tetelelnost, závrať, somatická úzkost jsou označeny za 'duchovní zkušenosti', 'pohyb energie', 'znamení transformace'. Subjekt ztrácí schopnost interpretovat tělesné signály bez manipulátorova rámce.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel nevidí zásah do těla, nýbrž posun ve slovníku, jímž člověk o těle mluví. Únava, závrať nebo tělesná úzkost jsou popisovány výrazy, které nepocházejí z jeho vlastní zkušenosti ani z lékařského jazyka, a při popisu je jmenovitě citována jedna osoba nebo jedno učení. Tělesný rozměr následků dlouhodobého vztahového tlaku i jeho jazyková podoba patří k dobře popsaným jevům (van der Kolk, 2014).
 
-### Krok 1 — Reinterpretace běžných tělesných signálů
+V anamnéze se znaky obvykle objeví v tomto pořadí: nejprve se mění výklad běžných tělesných signálů, pak se významnými stávají stavy vázané na rituál nebo skupinu, a nakonec se vytrácí schopnost rozpoznat hlad, únavu či nemoc bez cizího rámce. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Prostředí, které si nárokuje výklad i nejvšednějších vnitřních stavů, odpovídá popisu totalitního prostředí (Lifton, 1961).
 
-Únava je 'odpor proti práci', tělesná úzkost je 'duchovní krize'.
+Detekční markery uvedené na této stránce ukazují konvergenci, kterou lze doložit zvenčí: přibývající somatizované obtíže vedle aktivního odmítání lékařského vyšetření, bolest popisovaná jako znamení pokroku a citace cizího výkladu namísto vlastního popisu. Kontrola nad výkladem tělesných a emočních stavů patří mezi popsané měřitelné dimenze vztahové kontroly (Hassan, 2018).
 
-### Krok 2 — Rituálně asociované somatické stavy
-
-Specifické tělesné stavy jsou indukovány a označeny za 'transformační'.
-
-### Krok 3 — Konsolidace cizí somatické gramatiky
-
-Subjekt nedokáže interpretovat tělesné stavy bez manipulátorova rámce.
+*Interpretace knihy*: rozhodující není, že člověk tělesným stavům přikládá význam — to dělá každá somatická tradice i klinická praxe. Rozhodující je, že zmizela výchozí schopnost rozpoznat nemoc nezávisle na cizím výkladu. Obnova bezpečí a tělesná stabilizace předcházejí jakékoli práci s vyprávěním (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -102,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **somatická rekodifikace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.14.
+
+## Literatura
+
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- van der Kolk, B. A. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma*. Viking.
 
 ## Související
 
@@ -188,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

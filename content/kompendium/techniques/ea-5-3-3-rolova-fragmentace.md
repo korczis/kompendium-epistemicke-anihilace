@@ -36,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Rolová fragmentace** rozkládá schopnost subjekta **integrovat různé životní role** (profesionální, rodinné, intimní, společenské) do koherentního self. Manipulátor systematicky vytváří situace, v nichž jsou role prezentovány jako vzájemně neslučitelné, vedoucí k self-fragmentaci.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí radikálně odlišné chování v různých prostředích bez spojujícího vyprávění a úzkost při přechodech mezi nimi. Lidé běžně hrají různé role podle publika a samo o sobě to není znakem ničeho (Goffman, 1959).
 
-### Krok 1 — Vyostření rolových rozporů
+Retrospektivně blízcí popisují sled: nejprve rostou vnímané rozpory mezi rolemi, pak přibývají situace, v nichž je nutné mezi nimi volit, a nakonec zbývá jediné prostředí, v němž se role „spojují“. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Řízené odpojování od ostatních vazeb patří mezi popsané dimenze vztahové kontroly (Hassan, 2018).
 
-Manipulátor zveličuje vnímané konflikty mezi rolemi — 'tvoje rodina nikdy nepochopí, kdo doopravdy jsi'.
+Zvenčí je doložitelné zejména to, že jednotlivé okruhy života jsou aktivně drženy odděleně a že jediná osoba má přístup ke všem. Izolace a kontrola nad kontakty jsou popsaným jádrem donucovací kontroly v blízkých vztazích (Stark, 2007).
 
-### Krok 2 — Loyalty testy mezi rolemi
-
-Subjekt je nucen volit mezi rolemi v situacích konstruovaných tak, aby integrace nebyla možná.
-
-### Krok 3 — Konsolidace fragmentace
-
-Subjekt operuje v izolovaných rolových modech bez integrující meta-perspektivy; manipulátor se stává jediným kontextem, v němž 'všechny role konvergují'.
+*Interpretace knihy*: role se běžně nedají sladit a konflikt mezi prací, rodinou a blízkostí je obvyklý. Odlišuje až to, že integrace je soustavně znemožňována a že z jejího znemožnění má prospěch jedna strana. Obnova vede přes obnovení přerušených vazeb, nikoli přes konfrontaci (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -102,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **rolová fragmentace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.3.
+
+## Literatura
+
+- Goffman, E. (1959). *The Presentation of Self in Everyday Life*. Doubleday.
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 
@@ -188,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -36,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Core-self fraktura **rozkládá** narativně-temporální self, které integruje subjektovu minulost, přítomnost a budoucnost do koherentního 'já'. Po fraktuře subjekt prožívá temporální self-fragmentaci — 'já-včera', 'já-teď', 'já-zítra' nejsou prožívány jako tatáž osoba.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí, že člověk nedokáže formulovat plán, který by sahal za přítomný vztah, a že o svém včerejšku a zítřku mluví, jako by šlo o jiné lidi. Narativní identita, která tyto časové úseky spojuje, se v psychologickém popisu utváří a udržuje vyprávěním (McAdams, 1993).
 
-### Krok 1 — Cílené devalvace temporálních self-fragmentů
+Retrospektivně blízcí popisují sled: nejprve je znehodnoceno dřívější i budoucí já, pak je jako jediné skutečné označeno „teď“ v přítomnosti jedné osoby, a nakonec je vlastní život prožíván jako řada nespojených úseků. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Časová diskontinuita sebeprožívání patří k popsaným následkům dlouhodobého vztahového traumatu (Herman, 1992).
 
-Manipulátor systematicky devalvuje subjektovy minulé a budoucí self ('to nejsi ty').
+Zvenčí je doložitelné zejména to, že dřívější sebepopisy jsou systematicky znehodnocovány, zatímco nezávislé záznamy z téhož období ukazují souvislou osobu. Vnější archiv kontinuity je proto v klinické práci doporučovaným opěrným bodem (van der Kolk, 2014).
 
-### Krok 2 — Implantace permanent-now rámce
-
-'Pravé já' je pouze v okamžiku interakce s manipulátorem.
-
-### Krok 3 — Konsolidace fraktury
-
-Subjekt prožívá vlastní život jako sled nezpojených self-fragmentů.
+*Interpretace knihy*: pocit, že je člověk dnes někdo jiný než před lety, je běžný a sám o sobě není znakem ničeho. Odlišuje až to, že jediným spojujícím bodem zůstává jedna osoba. Nárok takového bodu na výklad celého života odpovídá doktríně nadřazené osobě (Lifton, 1961).
 
 ## Fenomenologické znaky
 
@@ -102,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **core-self fraktura** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.26.
+
+## Literatura
+
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- McAdams, D. P. (1993). *The Stories We Live By: Personal Myths and the Making of the Self*. William Morrow.
+- van der Kolk, B. A. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma*. Viking.
 
 ## Související
 
@@ -188,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

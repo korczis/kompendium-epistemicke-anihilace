@@ -36,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Morální osy inverze obrací subjektovu **morální orientaci**. Co bylo morálně samozřejmé (čestnost, loajalita, péče), je reframováno jako 'naivita'; co bylo morálně odmítané (klam, oddělení, sebezahleděnost), je reframováno jako 'duchovní pokrok'.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí, že jednání, které člověk dříve dlouhodobě obhajoval, je nyní popisováno jako naivita, a jednání, které odmítal, jako pokrok. Porušení vlastních dřívějších norem doprovází hrdost. Selektivní vyřazení morálních zábran pomocí přejmenování a ospravedlnění je popsáno jako morální odpojení (Bandura, 1999).
 
-### Krok 1 — Devalvace baseline morálky
+Retrospektivně se dá rozlišit sled: nejprve je dosavadní morálka popsána jako iluze, pak se objeví opačné normy jako „duchovně pravé“, a nakonec člověk jedná proti svým dřívějším zásadám s pocitem převahy. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Nárok jediné nauky na to, co je dobré, odpovídá popisu doktríny nadřazené osobě (Lifton, 1961).
 
-'Konvenční morálka je iluze.'
+Zvenčí je nejlépe doložitelné to, že obrácené jednání systematicky prospívá téže osobě nebo skupině a že pohrdání se obrací proti lidem, kteří u dřívějších norem zůstali. Kontrola nad tím, co smí být považováno za správné, patří mezi popsané dimenze vztahové kontroly (Hassan, 2018).
 
-### Krok 2 — Implantace inverzních morálních norem
-
-Manipulátor předvádí inverzní normy jako 'duchovně pravé'.
-
-### Krok 3 — Konsolidace inverze
-
-Subjekt aktivně jedná proti baseline normám s pocitem morální nadřazenosti.
+*Interpretace knihy*: morální vývoj i zásadní změna přesvědčení jsou legitimní a kritika konvenční morálky má svou tradici. Odlišuje až adresát: nové normy slouží jednomu zájmu a poškozují svého nositele. Bezpečí předchází jakékoli morální konfrontaci (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -102,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **morální osy inverze** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.22.
+
+## Literatura
+
+- Bandura, A. (1999). Moral disengagement in the perpetration of inhumanities. *Personality and Social Psychology Review*, 3(3).
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 
 ## Související
 
@@ -188,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

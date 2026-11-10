@@ -36,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Ego-skeletální redukce **redukuje** subjektovo self na minimální funkční strukturu — 'ego-skeleton' — která je dostatečná pro provoz každodenních úkolů, ale nedostatečná pro autonomní self-utváření. Manipulátor poskytuje 'maso' okolo skeletonu.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí funkční povrch a prázdnotu pod ním: člověk zvládá běžné úkoly, ale popisuje, že uvnitř nic není, a nedokáže formulovat vlastní záměr bez cizího vstupu. Takto popisovaná prázdnota patří k dokumentovaným následkům dlouhodobé vztahové traumatizace (Herman, 1992).
 
-### Krok 1 — Systematický rozklad self-vrstev
+Retrospektivně se sled znaků jeví takto: nejprve ubývá vrstev, jimiž člověk sám sebe popisoval, pak chybějící části doplňuje cizí struktura, a nakonec je samostatné utváření sebe bez této struktury nemožné. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Zúžení prostoru vlastní volby až na možnosti dané jedním systémem je popsaným rysem vysoce kontrolujících skupin (Lalich, 2004).
 
-Postupné snížení self na minimum.
+Zvenčí je nejlépe doložitelné to, že pokus o odstup vede k funkčnímu propadu, a že vlastní záměry vznikají až po cizím vstupu. Závislost tohoto typu patří mezi popsané dimenze vztahové kontroly (Hassan, 2018).
 
-### Krok 2 — Etablování závislosti na manipulátorovi pro 'doplnění'
-
-Manipulátor poskytuje funkční self-strukturu nad skeleton.
-
-### Krok 3 — Konsolidace skeletální redukce
-
-Subjekt funkčně operuje, ale autonomní self-utváření je nemožné.
+*Interpretace knihy*: pocit prázdnoty i závislost na blízkém člověku mají mnoho příčin a samy o sobě nic neindikují. Odlišuje až jednostrannost: doplňující struktura pochází od jediného zdroje, který z ní má prospěch. Obnova probíhá v pořadí bezpečí, stabilizace a teprve potom práce s obsahem (van der Kolk, 2014).
 
 ## Fenomenologické znaky
 
@@ -102,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **ego-skeletální redukce** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.27.
+
+## Literatura
+
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
+- van der Kolk, B. A. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma*. Viking.
 
 ## Související
 
@@ -188,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

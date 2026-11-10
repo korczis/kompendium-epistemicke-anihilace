@@ -51,7 +51,8 @@ zola build --base-url "http://127.0.0.1:$port/kompendium-epistemicke-anihilace" 
 (cd "$root" && exec python3 -m http.server "$port" --bind 127.0.0.1 >/dev/null 2>&1) &
 server=$!
 for _ in $(seq 1 50); do curl -fs -o /dev/null "http://127.0.0.1:$port/kompendium-epistemicke-anihilace/" && break; sleep 0.2; done
-BASE_URL="http://127.0.0.1:$port/kompendium-epistemicke-anihilace/" node test/e2e/surfaces.cjs
+BASE_URL="http://127.0.0.1:$port/kompendium-epistemicke-anihilace/" \
+  SITE_DIR="$root/kompendium-epistemicke-anihilace" node test/e2e/surfaces.cjs
 
 step "Přístupnost, rozvržení a odkazy (axe-core WCAG 2.2 AA, CLS, přetečení, interní odkazy)"
 BASE_URL="http://127.0.0.1:$port/kompendium-epistemicke-anihilace/" node scripts/audit-ui.cjs

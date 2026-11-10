@@ -3,7 +3,8 @@
 // vykreslují (ne jen že stránka vrací 200), že nejsou chyby v konzoli a že na telefonu
 // (390 px) nic nepřetéká do šířky. Prázdný graf je chyba, ne úspěch.
 //
-// Použití: BASE_URL=http://127.0.0.1:18790/ [ONLY=<regexp cesty>] node test/e2e/surfaces.cjs
+// Použití: BASE_URL=http://127.0.0.1:18790/ [SITE_DIR=<sestavený web>] [ONLY=<regexp cesty>]
+//          node test/e2e/surfaces.cjs
 // (web sestavený s --base-url na tutéž adresu). Playwright: PLAYWRIGHT=<cesta k playwright-core>.
 //
 // Jako modul (bez prohlížeče): require('./test/e2e/surfaces.cjs') vrací { FIXED, derived,
@@ -442,7 +443,10 @@ async function check(browser, s, viewport, scheme) {
 
 async function main() {
   const { chromium } = require(process.env.PLAYWRIGHT || 'playwright-core');
-  SURFACES = FIXED.concat(await derived());
+  // SITE_DIR=<sestavený web>: odvozené scénáře čte z disku, ne přes HTTP. Smyčka přes stránky
+  // (hledání Mermaid) tak nedělá stovky požadavků na http.server; jeden z nich v CI shodil
+  // Node (undici: assert(!this.paused), běh 42810123032).
+  SURFACES = FIXED.concat(await derived(process.env.SITE_DIR ? fromDir(process.env.SITE_DIR) : undefined));
   // ONLY=<regexp cesty>: jen vybrané plochy (ladění; gate běží bez něj).
   if (process.env.ONLY) SURFACES = SURFACES.filter((s) => new RegExp(process.env.ONLY).test('/' + s.path));
   const browser = await chromium.launch();

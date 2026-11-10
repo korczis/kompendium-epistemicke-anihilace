@@ -104,7 +104,8 @@ jobs:
           zola build --base-url http://127.0.0.1:18790/kompendium-epistemicke-anihilace --output-dir "$root/kompendium-epistemicke-anihilace"
           (cd "$root" && python3 -m http.server 18790 --bind 127.0.0.1 > /dev/null 2>&1 &)
           sleep 2
-          BASE_URL=http://127.0.0.1:18790/kompendium-epistemicke-anihilace/ npm run --silent test:surfaces
+          BASE_URL=http://127.0.0.1:18790/kompendium-epistemicke-anihilace/ \
+            SITE_DIR="$root/kompendium-epistemicke-anihilace" npm run --silent test:surfaces
       - name: Accessibility, layout and links (axe-core WCAG 2.2 AA, CLS, overflow, internal links)
         run: BASE_URL=http://127.0.0.1:18790/kompendium-epistemicke-anihilace/ npm run --silent test:audit
       - name: Upload the site

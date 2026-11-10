@@ -450,7 +450,7 @@ zapsat do základu). Opravují se v obsahu, nepřijímají se.
 Každá stránka má odvozený typ (`typ`: technika, pojem, most pojmu, kazuistika, krizový
 protokol …) a jednu nebo více oblastí (`oblasti`: klinická praxe, právo a forenzní praxe,
 filozofie a teorie, digitální prostředí …); stránky s kódem EA mají rodinu (`rodina`, EA-N) a
-podrodinu (`podrodina`, EA-N.M). Nic z toho se nepíše na stránku: typy a oblasti s českým
+podrodinu (`podrodina`, EA-N.M). Každá stránka má navíc průřezové dimenze `publikum` (komu slouží: klinik, vyšetřovatel, právník, výzkumník, pedagog, zasažený, obecný) a `pilíř` (jakou obrannou funkci plní: rozpoznání, odlišení, obrana, zotavení, prevence, teorie, kontext), odvozené z typu, takže web propojuje stránky napříč sekcemi i podle publika a funkce. Nic z toho se nepíše na stránku: typy a oblasti s českým
 názvem a popisem jsou v `data/categories.toml`, názvy rodin a podrodin v rejstříku technik
 (`## Kapitola N — …`, `### N.M …` a řádky `| \`EA-N.M\` | … |`), a `scripts/build-graph.py`
 je zapíše do uzlů `static/data/graph.json` spolu s rejstříkem `categories`, z něhož web staví

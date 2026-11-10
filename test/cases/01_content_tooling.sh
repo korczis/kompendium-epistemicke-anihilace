@@ -257,6 +257,23 @@ python3 scripts/strip-generated-blocks.py --check >/dev/null || true
 
 python3 scripts/build-graph.py >/dev/null
 python3 scripts/build-graph.py --check >/dev/null
+# categories: a technique node carries typ/rodina/podrodina and the derived cross-cutting
+# dimensions publikum (audience) and pilir (function); a new typeless section fails the build.
+python3 - <<'PY'
+import json
+g = json.load(open("static/data/graph.json")); c = g["categories"]
+for dim in ("typ", "oblast", "rodina", "podrodina", "publikum", "pilir"):
+    assert dim in c and c[dim], dim
+t = [n for n in g["nodes"] if n["path"].startswith("kompendium/techniques/ea-1-1-1")][0]
+assert t["typ"] == "technika" and t["rodina"] == "EA-1" and t["podrodina"] == "EA-1.1", t
+assert "klinik" in t["publikum"] and t["pilir"] == "rozpoznani", t
+PY
+mkdir -p content/case-01-beztypu
+printf '+++\ntitle = "X"\n+++\n\nText.\n' > content/case-01-beztypu/x.md
+if python3 scripts/build-graph.py >/dev/null 2>&1; then
+  echo "build-graph accepted a section with no typ row"; exit 1
+fi
+rm -r content/case-01-beztypu
 printf '\nEin [Link](@/kompendium/_index.md).\n' >> content/about.md
 if python3 scripts/build-graph.py --check >/dev/null 2>&1; then
   echo "build-graph --check missed a content change"; exit 1

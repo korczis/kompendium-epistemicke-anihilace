@@ -17,7 +17,7 @@ ea_subcategory = "5.1 Epistemická singularita"
 section_icon = "🌀"
 toc = true
 access_level = "L5"
-risk_level = "kritická"
+risk_level = "critical"
 parent_chapter = "/kompendium/05-ultramari-techniky/"
 +++
 

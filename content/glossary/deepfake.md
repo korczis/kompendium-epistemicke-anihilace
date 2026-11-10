@@ -165,3 +165,11 @@ i mezilidskou důvěru.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) – křížová kontrola napříč modalitami na
   platformě.
 - [Kompendium](@/kompendium/_index.md) – celá taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: deepfake](@/kompendium/glossary-bridges/bridge-deepfake.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

@@ -486,3 +486,11 @@ vzorce kvality), *Consciousness Traits*, *Self-Healing*, *Quality Gates*, *Quali
 - [AutoEvolve: evoluce vzorců EA](@/kompendium/aiad-integration/autoevolve-ea-pattern-evolution.md)
   – jak systém sleduje měnící se vzorce manipulace.
 - [Metakognice](@/glossary/metakognice.md) – lidský protějšek sebesledování.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: autoevolve](@/kompendium/glossary-bridges/bridge-autoevolve.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

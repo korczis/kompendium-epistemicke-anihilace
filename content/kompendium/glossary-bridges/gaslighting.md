@@ -1,88 +1,61 @@
 +++
-title = "Gaslighting"
+title = "Gaslighting – stručný most"
 weight = 50
-description = "Manipulation technique systematically eroding victim's perception of reality, memory, and self-trust."
+description = "Stručný most mezi heslem gaslighting a knihou: definice, zařazení v taxonomii, hlavní detekční znaky a cesty k technikám, detekci a zotavení."
 
 [taxonomies]
-tags = ["glossary-bridge", "psychology", "interactive"]
+tags = ["glossary-bridge", "psychology", "cross-link", "manipulace"]
 
 [extra]
 category = "psychology"
-related_terms = [
-  "delegitimizace",
-  "epistemicke-trauma",
-  "bridge-nclb",
-  "konceptualni-anihilace",
-]
+related_terms = ["gaslighting", "bridge-gaslighting", "coercive-control", "darvo", "reality-testing", "epistemicke-trauma"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 +++
 
-## Definition
+# Gaslighting – stručný most
 
-[Gaslighting](@/glossary/gaslighting.md) je manipulační technika systematicky erodující vnímání reality, paměti a důvěry v sebe samého oběti. Klasický příklad [coercive control](@/glossary/coercive-control.md) patternu — manipulátor opakovaně popírá události, mění dohody, a zpochybňuje oběťovo vnímání. Psychologický dopad: epistemická dezorientace, hypervigilance, ztráta self-trust. V Prismatic Kompendiu mapováno na EA-1-3-2 (indukovaná pochybnost) a EA-1-6 (pseudoempatická vazba). Detection: paradox between victim's documented experience vs manipulator's narrative.
+> Stručná vstupní stránka. Podrobný most mezi heslem a knihou je
+> [Bridge: Gaslighting](@/kompendium/glossary-bridges/bridge-gaslighting.md); definici podává heslo
+> [Gaslighting](@/glossary/gaslighting.md).
 
-## See Also
+## Definice
 
-- [Kompendium Glossary Bridges Index](@/kompendium/glossary-bridges/_index.md)
-- [Delegitimizace](@/kompendium/glossary-bridges/delegitimizace.md)
-- [Epistemicke Trauma](@/kompendium/glossary-bridges/epistemicke-trauma.md)
-- [Bridge Nclb](@/kompendium/glossary-bridges/bridge-nclb/_index.md)
-- [Konceptualni Anihilace](@/glossary/konceptualni-anihilace.md)
+**Gaslighting** je vzorec, v němž jedna osoba soustavně podkopává druhé osobě důvěru ve vlastní
+vnímání, paměť a úsudek – popíráním událostí, které se staly, převracením dohod, zlehčováním reakcí
+(„přeháníš“, „to si vymýšlíš“) a využíváním závislosti na svém uznání. Název pochází z divadelní hry
+Patricka Hamiltona *Gas Light* (1938) a jejího filmového zpracování (1944). Typicky se objevuje jako
+součást [coercive control](@/glossary/coercive-control.md).
 
----
+## Zařazení v knize
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Kniha gaslighting chápe jako epistemickou škodu v nejčistší podobě: cílem není fyzické zranění, ale
+ztráta důvěry ve vlastní poznávání. V taxonomii se s ním pojí zejména
+[Indukovaná pochybnost](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md),
+[Memorní rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md) a kapitola
+[Gaslighting (EA-4.1)](@/kompendium/techniques/ea-4-1-gaslighting.md).
 
-## Manažerské shrnutí
+## Hlavní detekční znaky
 
-**Gaslighting** je aktivní uzel taxonomického grafu sekce `kompendium/glossary-bridges` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+- Rozpor mezi zdokumentovanou zkušeností zasaženého a výkladem působícího.
+- Opakované popírání drobných, ověřitelných faktů.
+- Zasažený se omlouvá za vlastní vzpomínky a ověřuje si je u druhých.
+- Viz signaturu [Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md).
 
-## Koncepční síť
+## Obrana a zotavení
 
-Vizualizace propojení **Gaslighting** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+Základem je obnova důvěry ve vlastní vnímání pomocí vnějších kotev (záznamy, svědci) a
+[testování reality](@/glossary/reality-testing.md) jako sdílené dovednosti; viz protokol
+[Důvěra](@/kompendium/recovery-protocols/duvera.md).
 
-```mermaid
-graph TD
-    C0["Gaslighting"]
-    N1["Bridge: agent-registry"]
-    N2["Bridge: bounded-context"]
-    N3["Bridge: anankasticky-rezim"]
-    N4["Bridge: agent"]
-    N5["Bridge: betrayal-trauma"]
-    N6["Bridge: aiad"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+## Související
 
-## Související pojmy
-
-- [Bridge: agent-registry](@/kompendium/glossary-bridges/bridge-agent-registry.md) — slug `bridge-agent-registry`
-- [Bridge: bounded-context](@/kompendium/glossary-bridges/bridge-bounded-context.md) — slug `bridge-bounded-context`
-- [Bridge: anankasticky-rezim](@/kompendium/glossary-bridges/bridge-anankasticky-rezim.md) — slug `bridge-anankasticky-rezim`
-- [Bridge: agent](@/kompendium/glossary-bridges/bridge-agent.md) — slug `bridge-agent`
-- [Bridge: betrayal-trauma](@/kompendium/glossary-bridges/bridge-betrayal-trauma.md) — slug `bridge-betrayal-trauma`
-- [Bridge: aiad](@/kompendium/glossary-bridges/bridge-aiad.md) — slug `bridge-aiad`
-
-## Navigace
-
-- **Nadřazená sekce**: [kompendium/glossary-bridges](@/kompendium/glossary-bridges/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Bridge: 3nl](@/kompendium/glossary-bridges/bridge-3nl.md)
-  - [Bridge: adapter-pattern](@/kompendium/glossary-bridges/bridge-adapter-pattern.md)
-  - [Bridge: agent-registry](@/kompendium/glossary-bridges/bridge-agent-registry.md)
-  - [Bridge: agent-tier](@/kompendium/glossary-bridges/bridge-agent-tier.md)
-  - [Bridge: agent](@/kompendium/glossary-bridges/bridge-agent.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+- [Bridge: Gaslighting](@/kompendium/glossary-bridges/bridge-gaslighting.md) – podrobný most.
+- [Gaslighting (heslo)](@/glossary/gaslighting.md) – definice pojmu.
+- [Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – detekční signatura.
+- [Vzdělávací scénář: Vzorec gaslightingu](@/kompendium/educational-scenarios/19-gaslighting-pattern.md) – výukový modul.
+- [Případ: Partnerský gaslighting](@/kompendium/case-studies/08-gaslighting-partnersky.md) – kazuistika.
+- [Delegitimizace – stručný most](@/kompendium/glossary-bridges/delegitimizace.md) – příbuzný vzorec.
+- [Epistemické trauma – stručný most](@/kompendium/glossary-bridges/epistemicke-trauma.md) – následek.

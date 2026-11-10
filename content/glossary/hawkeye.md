@@ -578,3 +578,11 @@ HAWKEYE je technický pojem platformy, v knize slouží jako příklad dvou věc
 - [prismatic_tracking](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_tracking/README.md) – infrastruktura behaviorálního sledování.
 - [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) – bezpečnostní architektura platformy.
 - [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) – přehled bezpečnostních a zpravodajských schopností.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: hawkeye](@/kompendium/glossary-bridges/bridge-hawkeye.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

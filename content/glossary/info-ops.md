@@ -99,3 +99,11 @@ Informační operace jsou **realistickým protivníkem**, vůči němuž musí b
 - [Ruská IRA](@/kompendium/historical-cases/22-russian-ira.md) – doložená kampaň.
 - [Obrana proti dezinformacím](@/kompendium/cross-domain/19-ea-security-disinformation-defense.md) – organizační obrana.
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – ústřední pojem Kompendia.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: info-ops](@/kompendium/glossary-bridges/bridge-info-ops.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

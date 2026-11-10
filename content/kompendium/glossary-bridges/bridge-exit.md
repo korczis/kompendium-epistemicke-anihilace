@@ -1,82 +1,102 @@
 +++
-title = "Bridge: Exit Protocols"
+title = "Bridge: Odchod (exit)"
 weight = 100
-description = "Bridge entry for exit protocols across kompendium recovery and intervention domains."
+description = "Most mezi pojmem odchodu z manipulativního prostředí a knihou: fáze odchodu, dobrovolné exit counseling vs. nucené „deprogramování“, akutní protokoly a zotavení."
 
 [taxonomies]
-tags = ["glossary-bridge", "kompendium", "interactive"]
+tags = ["glossary-bridge", "kompendium", "cross-link", "klinicke"]
 
 [extra]
 category = "kompendium-bridge"
-related_terms = ["bridge-agent", "bridge-aiad", "bridge-autoheal", "bridge-3nl", "bridge-autoevolve", "bridge-blue-team"]
+related_terms = ["high-control-group", "sektarska-konverze", "bite-model", "recovery-cult-extraction-protocol", "bridge-companion", "bridge-readiness"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 +++
 
-## Definition
+# Bridge: Odchod (exit)
 
-Bridge entry for exit protocols across kompendium recovery and intervention domains. This bridge entry is a structurally complete stub created during the
-2026-05-03 NLLB Phase 7 sweep — full integration with kompendium taxonomy
-and cross-domain references is part of ongoing knowledge-base buildout.
+> **Most** spojuje pojem odchodu (*exit*) s místy knihy, kde se odchod z manipulativního prostředí
+> připravuje, provádí a zpracovává. Přehled mostů je v rejstříku
+> [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 
-## See Also
+## Pojem
 
-- [Kompendium Glossary Bridges](@/kompendium/glossary-bridges/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+**Odchodem** kniha rozumí opuštění [vysoce kontrolující skupiny](@/glossary/high-control-group.md),
+manipulativního vztahu nebo organizace s totální kulturou. Odchod není jednorázový akt, ale proces
+se třemi vrstvami:
 
----
+- **fyzickou a praktickou** – bydlení, příjem, doklady, přerušení kontaktu;
+- **vztahovou** – ztráta komunity, přátel, někdy rodiny, která ve skupině zůstala;
+- **epistemickou** – opuštění rámce, jímž člověk léta vykládal svět. Tato vrstva trvá nejdéle
+  a často pokračuje roky po fyzickém odchodu.
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Výzkum odchodů z nových náboženských hnutí ukazuje, že naprostá většina lidí odchází **sama**,
+bez vnějšího zásahu; kniha proto chápe pomoc jako podporu procesu, ne jako „vytržení“.
 
-## Manažerské shrnutí
+## Dobrovolné a nucené formy pomoci
 
-**Bridge: Exit Protocols** je aktivní uzel taxonomického grafu sekce `kompendium/glossary-bridges` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+Historicky se v USA v 70. a 80. letech rozšířilo **nucené deprogramování** – únos a zadržení člena
+skupiny s cílem ho „přeprogramovat“. Praxe byla eticky i právně odsouzena a soudy ji opakovaně
+posuzovaly jako protiprávní omezení svobody. Na její místo nastoupily **dobrovolné** přístupy (*exit
+counseling*, *[thought reform](@/glossary/thought-reform.md) consultation*), v nichž člověk o rozhovoru ví a souhlasí s ním.
+Steven Hassan (*Combating Cult Mind Control*, 1988) popsal přístup, který staví na respektu,
+otázkách a obnově vlastního úsudku. Kniha stojí výhradně na dobrovolných formách; právní rozbor je
+v oddílu [Právní aspekty deprogramování](@/kompendium/forensic-legal/13-cult-deprogramming-legal.md).
 
-## Koncepční síť
+## Kde se pojem v knize vyskytuje
 
-Vizualizace propojení **Bridge: Exit Protocols** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+- **Akutní fáze** – [Akutní extrakce z kultu](@/kompendium/emergency-protocols/8-emergency-extraction-cult.md),
+  [Aktivní kult emergency](@/kompendium/emergency-protocols/27-active-cult-emergency.md) a
+  [Ex-cult member emergency](@/kompendium/emergency-protocols/28-ex-cult-emergency.md).
+- **Zotavení** – [Protokol kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md),
+  [Žitý svět](@/kompendium/recovery-protocols/lifeworld.md) a [Paradigma](@/kompendium/recovery-protocols/paradigm.md).
+- **Kazuistiky** – [Sektářské vycházení](@/kompendium/case-studies/10-sektarske-vychazeni.md) a
+  [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md).
+- **Organizace** – odchod zaměstnance z firmy s totální kulturou a [Exit interview s EA fokusem](@/kompendium/organizational-defense/13-exit-interview-EA.md).
 
-```mermaid
-graph TD
-    C0["Bridge: Exit Protocols"]
-    N1["Bridge: agent"]
-    N2["Bridge: aiad"]
-    N3["Bridge: autoheal"]
-    N4["Bridge: 3nl"]
-    N5["Bridge: autoevolve"]
-    N6["Bridge: blue-team"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+## Sémantický vztah
 
-## Související pojmy
+| Vztah | Cílový pojem | Typ vazby |
+|---|---|---|
+| opak | [Sektářská konverze](@/glossary/sektarska-konverze.md) | vstup, který odchod zrcadlí |
+| měřítko | [BITE Model](@/glossary/bite-model.md) | čeho se kontrola týkala a co se obnovuje |
+| následek | [Epistemická bezdomovost](@/glossary/epistemicka-bezdomovost.md) | stav po ztrátě rámce |
+| podpora | [Bridge: Doprovodná osoba](@/kompendium/glossary-bridges/bridge-companion.md) | role blízkých |
 
-- [Bridge: agent](@/kompendium/glossary-bridges/bridge-agent.md) — slug `bridge-agent`
-- [Bridge: aiad](@/kompendium/glossary-bridges/bridge-aiad.md) — slug `bridge-aiad`
-- [Bridge: autoheal](@/kompendium/glossary-bridges/bridge-autoheal.md) — slug `bridge-autoheal`
-- [Bridge: 3nl](@/kompendium/glossary-bridges/bridge-3nl.md) — slug `bridge-3nl`
-- [Bridge: autoevolve](@/kompendium/glossary-bridges/bridge-autoevolve.md) — slug `bridge-autoevolve`
-- [Bridge: blue-team](@/kompendium/glossary-bridges/bridge-blue-team.md) — slug `bridge-blue-team`
+## Klinické a praktické implikace
 
-## Navigace
+1. **Bezpečí první** – plán odchodu, finance, doklady, kontakt s dětmi; u násilných vztahů
+   bezpečnostní plán.
+2. **Žádné přesvědčování** – argumenty proti skupině před odchodem posilují vazbu ke skupině;
+   účinnější je udržovat vztah a klást otázky.
+3. **Očekávat ambivalenci** – stesk po komunitě, vina, strach z trestu, návraty; nejsou selháním.
+4. **Respektovat tempo** – epistemická vrstva odchodu trvá dlouho; viz
+   [Bridge: Readiness](@/kompendium/glossary-bridges/bridge-readiness.md).
+5. **Pozor na novou uzavřenou skupinu** – i komunity bývalých členů mohou převzít totalizující rysy.
 
-- **Nadřazená sekce**: [kompendium/glossary-bridges](@/kompendium/glossary-bridges/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Bridge: 3nl](@/kompendium/glossary-bridges/bridge-3nl.md)
-  - [Bridge: adapter-pattern](@/kompendium/glossary-bridges/bridge-adapter-pattern.md)
-  - [Bridge: agent-registry](@/kompendium/glossary-bridges/bridge-agent-registry.md)
-  - [Bridge: agent-tier](@/kompendium/glossary-bridges/bridge-agent-tier.md)
-  - [Bridge: agent](@/kompendium/glossary-bridges/bridge-agent.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## Časté omyly
+
+- Odchod je „konec“ problému – ve skutečnosti často začíná nejtěžší část zotavení.
+- Kdo se vrátí, „selhal“ – návraty jsou běžné a nevylučují pozdější trvalý odchod.
+- Všechny skupiny jsou stejné – odchod z malé terapeutické skupiny a z mezinárodního hnutí se liší
+  rozsahem ztrát i rizik.
+
+## Související
+
+**Sesterské mosty**
+
+- [Bridge: Doprovodná osoba](@/kompendium/glossary-bridges/bridge-companion.md) – kdo stojí po boku.
+- [Bridge: Readiness](@/kompendium/glossary-bridges/bridge-readiness.md) – připravenost na odchod a na další kroky.
+- [Bridge: Kontraindikace](@/kompendium/glossary-bridges/bridge-kontraindikace.md) – kdy určité kroky nedělat.
+
+**Protokoly a právo**
+
+- [Protokol kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md) – zotavení po odchodu ze skupiny.
+- [Akutní extrakce z kultu](@/kompendium/emergency-protocols/8-emergency-extraction-cult.md) – akutní situace.
+- [Právní aspekty deprogramování](@/kompendium/forensic-legal/13-cult-deprogramming-legal.md) – proč nucené formy neplatí.
+
+**Glosář**
+
+- [High control group](@/glossary/high-control-group.md) – prostředí, z něhož se odchází.

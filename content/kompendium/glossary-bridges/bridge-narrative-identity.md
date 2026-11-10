@@ -29,7 +29,7 @@ Glossary entry slouží jako kanonický referenční bod platformy; bridge člá
 Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 
 - **Sekce 05 — Narativní analýza**: diagnostické rozhovory zaměřené na životní příběh
-- **Sekce 06 — Klinické aplikace**: narativní terapie a rekonstrukce identity po traumatu
+- **Sekce 06 — Klinické aplikace**: [narativní terapie](@/glossary/narativni-terapie.md) a rekonstrukce identity po traumatu
 - **Per-technique: Life Story Interview**: McAdamsova metodologie
 - **Sekce 07 — Teoretické pozadí**: Ricoeur o trojí mimésis
 
@@ -66,3 +66,11 @@ V trauma-informed praxi je obnova narativní identity primárním cílem dříve
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
 - [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Narrative identity (narativní identita – filosofické pojetí)](@/glossary/narrative-identity.md) – heslo glosáře, které tento most propojuje s knihou
+
+<!-- kompendium:odvozene-vazby:end -->

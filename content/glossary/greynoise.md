@@ -303,3 +303,11 @@ GreyNoise patří do technického kontextu platformy. Jeho princip má však v k
 - [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) – architektura pipeline obohacování EASM.
 - [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) – aplikace Prismatic Perimeter.
 - [OSINT](https://prismatic-reality-com.github.io/prismatic-promo/osint/) – metodika sběru [zpravodajství z otevřených zdrojů](@/glossary/osint.md).
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: greynoise](@/kompendium/glossary-bridges/bridge-greynoise.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

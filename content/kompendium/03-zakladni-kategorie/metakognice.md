@@ -1,103 +1,133 @@
 +++
-title = "Metakognice"
+title = "Metakognice – myšlení o myšlení jako kategorie analýzy"
 weight = 100
-description = "Metakognice — pojem v sekci kompendium/03-zakladni-kategorie znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Metakognice jako analytická kategorie knihy: jak manipulace narušuje schopnost sledovat a hodnotit vlastní poznávání a jak tuto schopnost obnovit."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "psychology", "cognitive", "manipulace"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["fenomenologie", "kapitola-3", "scenar-h", "falsifikovatelnost", "kapitola-1", "delegitimizace"]
+related_terms = ["metakognice", "metakognitivni-destrukce", "metakognitivni-deficit", "rekurzivni-paralyza", "midterm-metacognitive-rehab", "kognitivni-bias"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Definice
+# Metakognice – myšlení o myšlení jako kategorie analýzy
 
-**[Metakognice](@/glossary/metakognice.md)** je filozoficko-epistemický pojem zařazený v sekci `03-zakladni-kategorie` Prismatic Kompendia jako základní kategorie pro analýzu manipulativních technik. Pojem představuje strukturální optiku, kterou Prismatic používá při klasifikaci a detekci epistemických útoků (EA-techniques) a při návrhu rekonstruktivních protokolů.
+> **Pozice v knize**: interpretační kategorie sekce 03. Definici podává heslo
+> [Metakognice](@/glossary/metakognice.md); tato stránka popisuje, jak kniha pojem používá k analýze
+> technik, které útočí na schopnost člověka **sledovat a hodnotit vlastní poznávání**.
 
-{% <callout type="note"> %}
-Filozofické kategorie v sekci 03 nejsou samostatné koncepty — slouží jako *interpretační rámce* pro analýzu konkrétních EA-technik (sekce 04–05) a klinických aplikací (sekce 06).
-{% </callout> %}
+## Vymezení
 
-## Filozofický kontext
+Pojem metakognice zavedl do vývojové psychologie John H. Flavell (článek *Metacognition and
+Cognitive Monitoring*, 1979). Označuje poznání o vlastním poznávání a jeho řízení. Obvykle se
+rozlišují dvě složky:
 
-Koncept **Metakognice** se v Prismatic Kompendiu vztahuje k širšímu rámci epistemologie a fenomenologie zaměřené na to, jak agenti konstituují, validují a obhajují svá tvrzení. Pojem není používán deskriptivně, ale **operativně**: každá EA-technika dokumentovaná v Kompendiu je analyzována z hlediska toho, jak ovlivňuje tento konkrétní filozofický rozměr poznávání.
+- **metakognitivní znalost** – co vím o tom, jak myslím, kde chybuji, co mi jde;
+- **metakognitivní monitorování a regulace** – průběžné sledování, zda rozumím, zda jsem si jistý
+  oprávněně, a úprava postupu (vrátit se, ověřit, zeptat se).
 
-Vazby na klasické zdroje (Popper, Lakatos, Husserl, Heidegger, Wittgenstein, Habermas dle pojmu) jsou explicitní v sourozeneckých souborech sekce — viz cross-link síť níže pro nejbližší pojmy stejného rámce.
+V klinické psychologii rozpracoval metakognitivní model úzkosti a deprese Adrian Wells: obtíže
+udržuje nejen obsah myšlenek, ale přesvědčení *o* myšlenkách („musím se starat, jinak se stane
+něco zlého“, „své myšlenky nemohu ovládat“). Z jeho práce vychází metakognitivní terapie i dotazník
+MCQ-30.
 
-## Klinická a operační relevance
+## Proč je to kategorie analýzy
 
-V due-diligence praxi a klinickém poradenství se **Metakognice** používá jako diagnostický filtr: analytik nebo terapeut hodnotí, zda subjektova tvrzení respektují, narušují nebo systematicky obcházejí tento epistemický rozměr. Operační detekce probíhá skrze [detection-signatures](@/kompendium/detection-signatures/_index.md) sekci, kde jsou kalibrační markery pro každou kategorii vypracovány.
+Metakognice je **imunitní systém poznávání**: díky ní si člověk všimne, že se mýlí, že je ovlivňován
+nebo že mu něco nedává smysl. Proto je i častým cílem. Kniha rozlišuje tři roviny zásahu:
 
-## Detekční vztah
+1. **Zkreslení kalibrace** – člověk se naučí přisuzovat nízkou jistotu vlastnímu úsudku a vysokou
+   jistotu autoritě. Viz [Self-doubt cultivation](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md)
+   a [Pseudo-pokora internalizace](@/kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md).
+2. **Přetížení monitorování** – informační zahlcení a časový tlak vyčerpají kapacitu, kterou
+   monitorování potřebuje; viz [Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)
+   a signaturu [Vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md).
+3. **Rekurzivní obrácení** – reflexe se obrátí proti sobě: pochybnost o pochybnosti, kontrola
+   kontroly, až člověk ztratí schopnost jednat. Kniha tento stav popisuje jako
+   [metakognitivní destrukci](@/glossary/metakognitivni-destrukce.md); příbuzné jsou
+   [Recursive doubt spiral](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md) a
+   [Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md).
 
-Pro praktickou detekci konzultujte:
+## Jak se narušení metakognice projevuje
 
-- [Detection signatures](@/kompendium/detection-signatures/_index.md) — diagnostické markery
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — terapeutické použití
-- [Recovery protocols](@/kompendium/recovery-protocols/_index.md) — rekonstruktivní intervence
-<!-- EXPANDED:PHASE11 -->
+- „Nevím, jestli si to myslím, nebo mi to řekli.“
+- Rovnoměrně nízká jistota ve všech oblastech, i tam, kde má člověk doklady a zkušenost.
+- Nebo naopak nepřiměřená jistota v převzatých tvrzeních; viz signaturu
+  [Nepřiměřená sebejistota](@/kompendium/detection-signatures/9-behavioral-disproportionate-confidence.md).
+- Neschopnost všimnout si rozporu, který je pozorovateli zřejmý.
+- Ruminace o vlastním myšlení, která nevede k rozhodnutí; viz [Rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md).
+- Vyhýbání se situacím, kde by se vlastní úsudek mohl ukázat jako mylný.
 
-## See Also
+## Odlišení
 
-- [Parent section](@/kompendium/03-zakladni-kategorie/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+- **[Metakognitivní deficit](@/glossary/metakognitivni-deficit.md)** jako součást klinických
+  stavů (schizofrenie, některé neurokognitivní poruchy, intoxikace) – vzniká jinou cestou a
+  vyžaduje vlastní diagnostiku; podrobně [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
+- **Úzkostná a obsedantní ruminace** – podobná rekurzivní struktura, ale bez vazby na konkrétní
+  vztah nebo prostředí; obě se mohou kombinovat.
+- **Běžné meze sebepoznání** – každý člověk podléhá [kognitivním biasům](@/glossary/kognitivni-bias.md)
+  a nevidí je. To není poškození, ale výchozí stav, s nímž počítá i obrana.
+- **Vývojová stadia** – u dětí a dospívajících se metakognice teprve utváří; jejich zranitelnost
+  je proto vyšší.
 
----
+## Klinický a praktický význam
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+V diagnostice pomáhá modul metakognitivní kapacity
+[Semi-strukturovaného klinického rozhovoru](@/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol.md)
+a [Metakognitivní functional assessment](@/kompendium/techniques/ea-6-1-9-metakognitivni-functional-assessment.md);
+z dotazníků se užívá MCQ-30 (viz [Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md)).
+V léčbě je metakognice cílem středně-dobé fáze: kalibrační cvičení, práce s přesvědčeními o
+myšlení, postupné vracení jistoty tam, kam patří. Podrobně
+[Středně-dobá metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md)
+a [Pokora](@/kompendium/recovery-protocols/pokora.md).
 
-## Manažerské shrnutí
+## Příklad (anonymizovaný kompozit)
 
-**Metakognice** je aktivní uzel taxonomického grafu sekce `kompendium/03-zakladni-kategorie` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+Analytička v poradenské firmě dostává od nadřízeného každý den desítky změn zadání s poznámkou, že
+„by to měla vidět sama“. Po roce si přestane věřit i v jednoduchých výpočtech, kontroluje každé
+číslo třikrát a večer v duchu přehrává, co mohla udělat špatně. Metakognitivní pohled ukáže, že
+problém není v její kompetenci, ale ve vyčerpání monitorování a v naučené nízké kalibraci. Po
+změně týmu a kalibračních cvičeních (odhad – výsledek – porovnání) se ukáže, že její odhady jsou
+přesnější než průměr týmu.
 
-## Koncepční síť
+## Obrana
 
-Vizualizace propojení **Metakognice** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+- **Kalibrovat**: u drobných předpovědí si zapsat míru jistoty a porovnat s výsledkem.
+- **Oddělovat zdroj**: zapisovat si, co jsem zjistil sám a co mi bylo řečeno.
+- **Chránit kapacitu**: rozhodovat odpočatý, odkládat důležitá rozhodnutí pod tlakem; viz
+  [Časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md).
+- **Ukončovat smyčky**: rozpoznat, kdy reflexe přestala pomáhat, a obrátit se k činnosti.
+- Opora: [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md)
+  a [Osobní audit zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md).
 
-```mermaid
-graph TD
-    C0["Metakognice"]
-    N1["Fenomenologie"]
-    N2["3.3 Pokročilá edukativní implementace"]
-    N3["3.2.H Scénář H: Destruktivní 'konstruktivní' kritika"]
-    N4["Falsifikovatelnost"]
-    N5["3.1 Akademické techniky intelektuální manipulace"]
-    N6["Delegitimizace"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+## Meze a otevřené otázky
 
-## Související pojmy
+Metakognice je dobře zkoumána ve vzdělávání a v klinické psychologii, ale její záměrné poškozování
+v manipulativních vztazích systematicky měřeno není; kniha zde extrapoluje z obecných poznatků.
+Otevřená je otázka, kolik metakognitivní kontroly je zdravé – i nadměrné sebesledování škodí a
+obrana nesmí vést k hyperreflexivitě, proti níž má chránit.
 
-- [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md) — slug `fenomenologie`
-- [3.3 Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) — slug `kapitola-3`
-- [3.2.H Scénář H: Destruktivní 'konstruktivní' kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md) — slug `scenar-h`
-- [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) — slug `falsifikovatelnost`
-- [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — slug `kapitola-1`
-- [Delegitimizace](@/kompendium/03-zakladni-kategorie/delegitimizace.md) — slug `delegitimizace`
+## Související
 
-## Navigace
+**Sesterské kategorie**
 
-- **Nadřazená sekce**: [kompendium/03-zakladni-kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Delegitimizace](@/kompendium/03-zakladni-kategorie/delegitimizace.md)
-  - [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md)
-  - [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md)
-  - [Hermeneutika](@/kompendium/03-zakladni-kategorie/hermeneutika.md)
-  - [Intencionalita](@/kompendium/03-zakladni-kategorie/intencionalita.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+- [Konfirmační bias](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md) – zkreslení, které metakognice musí kompenzovat.
+- [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) – vědět, co by mě přesvědčilo o omylu.
+- [Intencionalita](@/kompendium/03-zakladni-kategorie/intencionalita.md) – zaměřenost vědomí, kterou metakognice sleduje.
+
+**Glosář**
+
+- [Metakognice (heslo)](@/glossary/metakognice.md) – definice pojmu.
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – krajní podoba zásahu.
+- [Bridge: Metakognice](@/kompendium/glossary-bridges/bridge-metakognice.md) – propojení hesla s knihou.
+
+**Klinika**
+
+- [Středně-dobá metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md) – protokol obnovy.
+- [Metacognitive therapy protokol](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md) – terapeutický postup.
+- [Vzdělávací scénář: Metakognitivní kolaps](@/kompendium/educational-scenarios/24-metacognitive-collapse.md) – výukový modul.

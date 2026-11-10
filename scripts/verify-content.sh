@@ -7,7 +7,10 @@
 #
 #   scripts/verify-content.sh            check the staged tree; exit 1 on the first failing gate
 #   scripts/verify-content.sh --fix      also regenerate the derived files from the staged tree,
-#                                        shrink the IA baseline and stage them
+#                                        shrink the IA baseline and stage them; and link new
+#                                        terms across the whole book (link-terms), staging each
+#                                        relinked page: in the working tree when it is clean
+#                                        there, as an index-only blob when someone is editing it
 #   scripts/verify-content.sh --help     this text
 #
 # Gates: migrate-content, normalize-front-matter, polish-markdown, link-terms, check-ia,
@@ -31,6 +34,25 @@ if [ -f static/css/app.css ]; then mkdir -p "$work/static/css"; cp static/css/ap
 step() { printf '%-28s ' "$1"; shift; if out=$("$@" 2>&1); then echo "ok"; else echo "FAIL"; printf '%s\n' "$out" | tail -15; exit 1; fi; }
 
 cd "$work"
+if [ "$fix" = --fix ]; then
+  # A new glossary entry extends the dictionary, so pages anywhere may gain a link.
+  python3 scripts/link-terms.py >/dev/null
+  relinked=0
+  while IFS= read -r -d '' f; do
+    rel=${f#./}
+    if [ ! -f "$root/$rel" ] || ! git -C "$root" ls-files --error-unmatch -- "$rel" >/dev/null 2>&1; then continue; fi
+    staged=$(git -C "$root" rev-parse ":$rel")
+    if [ "$(git hash-object "$rel")" = "$staged" ]; then continue; fi
+    if git -C "$root" diff --quiet -- "$rel"; then
+      cp "$rel" "$root/$rel" && git -C "$root" add -- "$rel"           # clean: worktree too
+    else
+      blob=$(git -C "$root" hash-object -w "$work/$rel")                # being edited: index only
+      git -C "$root" update-index --cacheinfo "100644,$blob,$rel"
+    fi
+    relinked=$((relinked + 1))
+  done < <(find content -name '*.md' -print0)
+  echo "verify-content: link-terms relinked $relinked staged page(s)"
+fi
 step "migrate-content --check"    python3 scripts/migrate-content.py --check
 step "normalize-front-matter"     python3 scripts/normalize-front-matter.py --check
 step "polish-markdown"            python3 scripts/polish-markdown.py --check

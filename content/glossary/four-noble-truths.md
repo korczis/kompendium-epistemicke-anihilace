@@ -101,3 +101,11 @@ Pro klinika i pro dotčeného může čtyřkroková struktura sloužit jako kont
 - [Rámce zotavení](@/kompendium/recovery-protocols/ramce.md) – srovnání tradic.
 - [Buddhistická psychologie jako alternativa](@/kompendium/critical-perspectives/30-buddhist-psychology-alt.md) – kritická perspektiva.
 - [Kompendium](@/kompendium/_index.md) – úplná taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: four-noble-truths](@/kompendium/glossary-bridges/bridge-four-noble-truths.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

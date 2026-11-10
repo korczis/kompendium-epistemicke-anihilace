@@ -110,3 +110,11 @@ Postoj Kompendia je jednoznačný: zásah při zotavení z EA, který **aktivně
 - [Iatrogenní přesah](@/kompendium/critical-perspectives/11-iatrogenic-overreach.md) – kritika rámce samotného.
 - [Zdravotnický iatrogen](@/kompendium/case-studies/15-zdravotnicky-iatrogen.md) – kazuistika.
 - [Obnovené vzpomínky](@/kompendium/historical-cases/37-recovered-memory.md) – historické poučení.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: iatrogenic-harm](@/kompendium/glossary-bridges/bridge-iatrogenic-harm.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

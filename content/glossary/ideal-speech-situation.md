@@ -94,3 +94,11 @@ Pro jednotlivce je mřížka nástrojem pojmenování: „nemohla jsem mluvit“
 - [Habermas: komunikativní jednání](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md) – teoretický výklad.
 - [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – teoretické základy.
 - [Psychologické bezpečí](@/kompendium/organizational-defense/16-psychological-safety.md) – uplatnění v organizaci.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: ideal-speech-situation](@/kompendium/glossary-bridges/bridge-ideal-speech-situation.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

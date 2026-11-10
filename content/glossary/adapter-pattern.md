@@ -609,3 +609,11 @@ a Redis (distribuovaná mezipaměť).
 - [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) –
   lidský protějšek jednotného ověřování různých zdrojů.
 - [Glosář](@/glossary/_index.md) – rejstřík hesel.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: adapter-pattern](@/kompendium/glossary-bridges/bridge-adapter-pattern.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

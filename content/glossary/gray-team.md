@@ -417,3 +417,11 @@ Gray Team je technický pojem platformy, ale jeho logika má v knize přímou ob
 - [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) – přehled architektury platformy.
 - [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) – technologický zásobník.
 - [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) – agenti AIAD včetně členů šedého týmu.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: gray-team](@/kompendium/glossary-bridges/bridge-gray-team.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

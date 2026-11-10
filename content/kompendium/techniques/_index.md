@@ -294,7 +294,7 @@ EA-7.\* a EA-8.\* materiály jsou primárně publikovány jako narativní člán
 | **Fáze 4** | Sekce 07 — Teoretické reflexe (9 článků) | ✓ kompletní |
 | **Fáze 5** | Sekce 08 — Přílohy (7 článků) | ✓ kompletní |
 | **Fáze 6** | Sekce 05 narativy — 5 kapitol (6–10) | ✓ kompletní |
-| **Fáze 7** | Per-technique EA-5.1.\* (epistemická singularita) | ✓ 30/30 |
+| **Fáze 7** | Per-technique EA-5.1.\* ([epistemická singularita](@/glossary/epistemicka-singularita.md)) | ✓ 30/30 |
 | **Fáze 8** | Per-technique EA-5.2.\* (metatranscendentální anihilace) | ✓ 30/30 |
 | **Fáze 9** | Per-technique EA-5.4.\* (paradoxální metaanihilace) | ✓ 60/60 |
 | **Fáze 10** | Per-technique EA-2.\* (akademická [delegitimizace](@/glossary/delegitimizace.md), 5 subkategorií) | ✓ 50/50 |

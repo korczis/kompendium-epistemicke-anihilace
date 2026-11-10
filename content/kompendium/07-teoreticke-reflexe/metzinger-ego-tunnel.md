@@ -25,7 +25,7 @@ Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Metzingerova teorie n
 
 Metzingerova centrální teze: **mozek konstruuje** **self-model** — strukturální reprezentaci sebe sama, jež **obsahuje**:
 
-- **Tělesné schéma** (rezonuje s Merleau-Ponty, [viz 7.16](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md))
+- **[Tělesné schéma](@/glossary/body-schema.md)** (rezonuje s Merleau-Ponty, [viz 7.16](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md))
 - **Časovou kontinuitu** (paměť, anticipace)
 - **Agenturu** (pocit, že jsem **já**, kdo jedná)
 - **Perspectivu** (egocentrický pohled)

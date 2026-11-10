@@ -557,3 +557,11 @@ neshod Shodanu a Censysu) a *Knowledge Graph* (grafová databáze korelovaných 
   ověřování otevřených zdrojů s ohledem na manipulaci.
 - [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – lidský
   protějšek plurality signálů.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: censys](@/kompendium/glossary-bridges/bridge-censys.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

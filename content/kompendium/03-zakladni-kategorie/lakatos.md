@@ -1,103 +1,134 @@
 +++
-title = "Lakatos"
+title = "Lakatos – výzkumné programy jako kategorie analýzy"
 weight = 100
-description = "Lakatos — pojem v sekci kompendium/03-zakladni-kategorie znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Lakatosova metodologie výzkumných programů jako analytická kategorie knihy: tvrdé jádro, ochranný pás a rozlišení progresivního a degenerujícího rámce."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "philosophy", "epistemologie", "manipulace"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["fenomenologie", "falsifikovatelnost", "kapitola-1", "somaticke-vektory", "lebenswelt", "intencionalita"]
+related_terms = ["lakatos-vyzkumny-program", "falsifikovatelnost", "popperianismus", "kuhnova-revoluce", "falsifikace", "pseudoscience"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Definice
+# Lakatos – výzkumné programy jako kategorie analýzy
 
-**Lakatos** je filozoficko-epistemický pojem zařazený v sekci `03-zakladni-kategorie` Prismatic Kompendia jako základní kategorie pro analýzu manipulativních technik. Pojem představuje strukturální optiku, kterou Prismatic používá při klasifikaci a detekci epistemických útoků (EA-techniques) a při návrhu rekonstruktivních protokolů.
+> **Pozice v knize**: filozofické kategorie sekce 03 nejsou samostatná témata, ale **interpretační
+> nástroje** pro analýzu technik v [kapitole 3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
+> a v sekcích 04–06. Tato stránka popisuje, k čemu kniha Lakatosův rámec používá; definice pojmu
+> je v hesle [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md).
 
-{% <callout type="note"> %}
-Filozofické kategorie v sekci 03 nejsou samostatné koncepty — slouží jako *interpretační rámce* pro analýzu konkrétních EA-technik (sekce 04–05) a klinických aplikací (sekce 06).
-{% </callout> %}
+## Vymezení
 
-## Filozofický kontext
+Imre Lakatos (1922–1974) rozvinul v eseji *Falsification and the Methodology of Scientific Research
+Programmes* (1970) odpověď na spor mezi Popperem a Kuhnem. Jednotkou hodnocení podle něj není
+jednotlivá teorie, ale **výzkumný program**: posloupnost teorií sdílejících
 
-Koncept **Lakatos** se v Prismatic Kompendiu vztahuje k širšímu rámci epistemologie a fenomenologie zaměřené na to, jak agenti konstituují, validují a obhajují svá tvrzení. Pojem není používán deskriptivně, ale **operativně**: každá EA-technika dokumentovaná v Kompendiu je analyzována z hlediska toho, jak ovlivňuje tento konkrétní filozofický rozměr poznávání.
+- **tvrdé jádro** – základní předpoklady, které program nevystavuje přímému vyvrácení;
+- **ochranný pás** – pomocné hypotézy, které se při rozporu s pozorováním upravují;
+- **negativní heuristiku** – pravidlo, že se rozpor neobrací proti jádru;
+- **pozitivní heuristiku** – plán, jak program rozvíjet.
 
-Vazby na klasické zdroje (Popper, Lakatos, Husserl, Heidegger, Wittgenstein, Habermas dle pojmu) jsou explicitní v sourozeneckých souborech sekce — viz cross-link síť níže pro nejbližší pojmy stejného rámce.
+Program je **progresivní**, když úpravy ochranného pásu vedou k novým, ověřitelným předpovědím, které
+se potvrzují. Je **degenerující**, když úpravy jen dodatečně vysvětlují selhání a nic nového
+nepředpovídají.
 
-## Klinická a operační relevance
+## Proč je to kategorie analýzy
 
-V due-diligence praxi a klinickém poradenství se **Lakatos** používá jako diagnostický filtr: analytik nebo terapeut hodnotí, zda subjektova tvrzení respektují, narušují nebo systematicky obcházejí tento epistemický rozměr. Operační detekce probíhá skrze [detection-signatures](@/kompendium/detection-signatures/_index.md) sekci, kde jsou kalibrační markery pro každou kategorii vypracovány.
+[Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) sama nestačí: i
+legitimní věda chrání své jádro a vysvětluje anomálie pomocnými hypotézami. Lakatosův rámec umožňuje
+rozlišit **oprávněnou ochranu jádra** od **imunizace**. Kniha ho používá na tři otázky:
 
-## Detekční vztah
+1. Vede úprava výkladu po neúspěchu k nové, testovatelné předpovědi – nebo jen k vysvětlení, proč
+   neúspěch „vlastně potvrzuje“ původní tvrzení?
+2. Je ochranný pás veřejný a revidovatelný, nebo ho mění jediná autorita podle potřeby?
+3. Přináší program v čase víc nových poznatků, nebo víc výmluv?
 
-Pro praktickou detekci konzultujte:
+## Jak se vzorec projevuje v manipulativních systémech
 
-- [Detection signatures](@/kompendium/detection-signatures/_index.md) — diagnostické markery
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — terapeutické použití
-- [Recovery protocols](@/kompendium/recovery-protocols/_index.md) — rekonstruktivní intervence
-<!-- EXPANDED:PHASE11 -->
+Uzavřené ideologické skupiny, pseudovědecké školy i manipulativní vztahy často fungují jako
+**degenerující program s nedotknutelným jádrem**. Strukturálně je lze rozpoznat:
 
-## See Also
+- **Dodatečné vysvětlení každého selhání**: nenaplněné proroctví „bylo zkouškou víry“, neúčinná
+  léčba „ukázala nedostatek odhodlání“. Pomocné hypotézy přibývají, předpovědi ne.
+- **Přesun viny do ochranného pásu, který tvoří člověk sám**: selhání programu se vykládá jako
+  selhání jednotlivce („nepraktikoval jsi správně“). Tento přesun popisuje technika
+  [Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md).
+- **Uzavření jádra vůči kritice**: námitka proti základům je označena za útok nebo nemoc; srov.
+  [Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md).
+- **Napodobení progresivity**: program se chlubí „novými objevy“, které ale nejsou nezávisle
+  ověřitelné nebo jsou formulovány tak vágně, že je nelze vyvrátit.
 
-- [Parent section](@/kompendium/03-zakladni-kategorie/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+## Detekční znaky
 
----
+Pozorovatel – terapeut, výzkumník, vyšetřovatel – si může klást konkrétní otázky:
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+- Kolik předpovědí systém za posledních několik let učinil a kolik se jich ověřilo?
+- Jak systém reagoval na nejvýraznější neúspěch? Přinesl novou testovatelnou hypotézu, nebo výmluvu?
+- Kdo smí měnit ochranný pás? Je to otevřený proces, nebo rozhodnutí jedné osoby?
+- Existuje v systému výsledek, který by jeho stoupenci přijali jako vyvrácení?
 
-## Manažerské shrnutí
+Na úrovni jazyka pomáhají signatury [Nefalsifikovatelná tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md)
+a [Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md).
 
-**Lakatos** je aktivní uzel taxonomického grafu sekce `kompendium/03-zakladni-kategorie` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Odlišení
 
-## Koncepční síť
+- **Legitimní věda v krizi**: i progresivní program může dočasně stagnovat. Lakatos výslovně
+  připouštěl, že degenerující program se může znovu stát progresivním; jde o trend, ne o jeden
+  okamžik.
+- **Paradigmatická změna podle Kuhna**: přechod mezi rámci není sám o sobě manipulací; viz
+  [Kuhnova revoluce](@/glossary/kuhnova-revoluce.md). Manipulací je, když se prožitek prozření
+  vydává za doklad – vzorec [Falešný paradigmatický nárok](@/kompendium/techniques/ea-1-6-falesny-paradigmaticky-narok.md).
+- **Osobní přesvědčení a víra**: hodnotové a náboženské postoje nejsou vědeckými programy a není
+  namístě je měřit stejným metrem. Lakatosova optika se týká tvrzení, která se sama vydávají za
+  empirická.
 
-Vizualizace propojení **Lakatos** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+## Klinický a praktický význam
 
-```mermaid
-graph TD
-    C0["Lakatos"]
-    N1["Fenomenologie"]
-    N2["Falsifikovatelnost"]
-    N3["3.1 Akademické techniky intelektuální manipulace"]
-    N4["Somaticke Vektory"]
-    N5["Lebenswelt"]
-    N6["Intencionalita"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+V terapii lidí po odchodu z uzavřené skupiny Lakatosův rámec pomáhá **bez konfrontace**: klient sám
+mapuje, jak systém reagoval na selhání, a vidí opakující se strukturu výmluv. Tento postup
+používá protokol [Paradigma](@/kompendium/recovery-protocols/paradigm.md). Ve forenzním a
+due-diligence kontextu slouží k hodnocení tvrzení, která se opírají o pseudoodbornost (viz
+[Pseudoscience](@/glossary/pseudoscience.md)), a ve výzkumu ke kritice vlastního rámce knihy.
 
-## Související pojmy
+## Obrana
 
-- [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md) — slug `fenomenologie`
-- [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) — slug `falsifikovatelnost`
-- [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — slug `kapitola-1`
-- [Somaticke Vektory](@/kompendium/03-zakladni-kategorie/somaticke-vektory.md) — slug `somaticke-vektory`
-- [Lebenswelt](@/kompendium/03-zakladni-kategorie/lebenswelt.md) — slug `lebenswelt`
-- [Intencionalita](@/kompendium/03-zakladni-kategorie/intencionalita.md) — slug `intencionalita`
+- Ptát se na **předpovědi**, ne na vysvětlení: dobré vysvětlení po události je laciné.
+- Sledovat **trend**: zlepšuje se systém v předpovídání, nebo jen ve vysvětlování?
+- Mít vlastní seznam podmínek, za nichž bych změnil názor – [Falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md).
+- Pravidelně revidovat vlastní přesvědčení – [Revize přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md).
 
-## Navigace
+## Meze a otevřené otázky
 
-- **Nadřazená sekce**: [kompendium/03-zakladni-kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Delegitimizace](@/kompendium/03-zakladni-kategorie/delegitimizace.md)
-  - [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md)
-  - [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md)
-  - [Hermeneutika](@/kompendium/03-zakladni-kategorie/hermeneutika.md)
-  - [Intencionalita](@/kompendium/03-zakladni-kategorie/intencionalita.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+Lakatos nedal přesné kritérium, kdy se má degenerující program opustit; hodnocení je vždy
+retrospektivní a vyžaduje úsudek. Kniha proto jeho rámec používá jako heuristiku pozorovatele, ne
+jako test, který by „usvědčil“ systém. Platí to i pro samotnou taxonomii knihy: i ona musí být
+schopna přinášet nové, ověřitelné poznatky, jinak by sama degenerovala – tuto výhradu rozvíjí
+[Kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md).
+
+## Související
+
+**Sesterské kategorie**
+
+- [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) – Popperovo kritérium, které Lakatos rozvíjí.
+- [Konfirmační bias](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md) – psychologická síla, která udržuje degenerující programy.
+- [Metakognice](@/kompendium/03-zakladni-kategorie/metakognice.md) – schopnost hodnotit vlastní rámec zvenčí.
+
+**Glosář a teorie**
+
+- [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) – definice pojmu.
+- [Lakatos research program (EA-7.2.4)](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md) – teoretický rozbor v rámci taxonomie.
+- [Kuhn: Paradigmatické revoluce](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md) – druhý pól sporu, na nějž Lakatos odpovídá.
+
+**Techniky**
+
+- [Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – ochrana jádra proti vyvrácení.
+- [Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – dodatečné vysvětlování selhání.
+
+**Praxe**
+
+- [Paradigma](@/kompendium/recovery-protocols/paradigm.md) – protokol archeologie rámce.

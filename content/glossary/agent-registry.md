@@ -437,3 +437,11 @@ v registru) a *Supervisor* (supervize OTP, která spravuje procesy registrovaný
 
 - [AIAD integrace a detekce EA](@/kompendium/aiad-integration/_index.md) – jak agenti
   platformy uplatňují taxonomii knihy.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: agent-registry](@/kompendium/glossary-bridges/bridge-agent-registry.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

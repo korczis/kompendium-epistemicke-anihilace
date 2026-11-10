@@ -20,7 +20,7 @@ toc = false
 
 > WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
 
-**Doména**: Epistemická singularita — paralýza schopnosti reflektovat vlastní situaci skrze paradoxní strukturu metaúrovní.
+**Doména**: [Epistemická singularita](@/glossary/epistemicka-singularita.md) — paralýza schopnosti reflektovat vlastní situaci skrze paradoxní strukturu metaúrovní.
 
 ## Definice
 

@@ -1,10 +1,10 @@
 +++
-title = "Pseudoempathic Bond / Pseudoempatická vazba"
+title = "Pseudoempatická vazba"
 weight = 50
-description = "Manipulative bond mimicking empathy without genuine attunement."
+description = "Vazba, v níž přesné porozumění druhému slouží jeho využití, ne jeho dobru; vypadá jako výjimečná empatie, ale chybí jí naladění na skutečné potřeby druhého."
 
 [taxonomies]
-tags = ["glossary", "psychology", "interactive"]
+tags = ["glossary", "kompendium", "psychology", "coercive-control", "behavioral"]
 
 [extra]
 category = "psychology"
@@ -12,75 +12,142 @@ related_terms = [
   "love-bombing",
   "discard",
   "trauma-bonding",
+  "theory-of-mind",
+  "secure-attachment",
+  "coercive-control",
 ]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 +++
 
-## Definition
+## Definice
 
-Pseudoempatická vazba (anglicky pseudoempathic bond) je manipulativní vazebný vzorec ve kterém zdánlivá empatie maskuje exploatativní motivaci. Charakteristická pro coercive-control vztahy, kult-rekrutaci a profesionální exploataci. Distinguishes from healthy attachment by absence of attunement to actual needs of the bonded party. See also [coercive control](@/glossary/coercive-control.md) and trauma-bonding patterns.
+**Pseudoempatická vazba** (angl. *pseudoempathic bond*) je vztahový vzorec, v němž zdánlivá
+empatie – výjimečné porozumění, „vidění do duše“, přesné pojmenování potřeb a ran – slouží
+**zájmům toho, kdo ji projevuje**, a ne dobru druhého. Navenek se podobá hlubokému a vzácnému
+vztahu. Uvnitř chybí to, co zdravou vazbu definuje: **naladění na skutečné potřeby druhého**,
+včetně potřeby samostatnosti, hranic a vztahů s jinými lidmi.
 
-## See Also
+Klíčem k pochopení je rozlišení dvou složek empatie, které psychologie běžně dělá:
 
-- [Glossary index](@/glossary/_index.md)
-- [Love Bombing](@/glossary/love-bombing.md)
-- [Discard](@/glossary/discard.md)
-- [Trauma Bonding](@/glossary/trauma-bonding.md)
+- **kognitivní empatie** – schopnost porozumět, co druhý cítí a myslí (blízká pojmu
+  [Theory of Mind](@/glossary/theory-of-mind.md));
+- **afektivní a pečující empatie** – spoluprožívání a ohled na dobro druhého.
 
----
+Pseudoempatická vazba stojí na první bez druhé: člověk je přesně „přečten“, ale porozumění
+se používá k tomu, aby se k němu lépe přistoupilo, ne aby se mu lépe dařilo.
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+## Původ a kontext pojmu
 
-## Manažerské shrnutí
+Termín je pracovním pojmem Kompendia. Navazuje na klinická pozorování vztahů s výrazně
+narcistickými a kontrolujícími lidmi, na literaturu o [coercive control](@/glossary/coercive-control.md)
+(Stark 2007) a o náboru do kultů (Singer a Lalich 1995), kde se opakovaně popisuje, že oběti
+zpětně mluví o „člověku, který mi rozuměl jako nikdo“. Psychologický rozbor rozdílu mezi
+kognitivní a afektivní empatií je v odborné literatuře dobře zavedený; Kompendium z něj
+vyvozuje pojmenování vztahového vzorce, nikoli diagnózu osoby.
 
-**Pseudoempathic Bond / Pseudoempatická vazba** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+Teoretické pozadí zneužití porozumění druhému rozebírá oddíl [ToM exploitation](@/kompendium/03-zakladni-kategorie/tom-exploitation.md).
 
-## Koncepční síť
+## Jak se projevuje
 
-Vizualizace propojení **Pseudoempathic Bond / Pseudoempatická vazba** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+- **Až neuvěřitelné porozumění.** Druhý přesně ví, co člověka trápí, co potřebuje slyšet,
+  na co je citlivý – často velmi brzy.
+- **Asymetrie odhalení.** Postižený sdílí stále víc, druhý o sobě prozrazuje málo nebo jen
+  příběhy, které vzbuzují soucit ([Asymetrické odhalování](@/kompendium/detection-signatures/15-behavioral-asymmetric-disclosure.md)).
+- **Porozumění jako páka.** Sdílené zranitelnosti se později objevují jako argumenty,
+  výčitky nebo hrozby („vím, jak jsi na tom, beze mě to nezvládneš“).
+- **Slepota vůči „ne“.** Empatie zmizí, když člověk projeví potřebu, která je v rozporu se
+  zájmem druhého – odstup, jiné vztahy, odchod.
+- **Zúžení světa.** Vztah je prezentován jako jediný, kde je člověk opravdu pochopen
+  ([love bombing](@/glossary/love-bombing.md)).
+- **Kalibrovaná reakce.** Projevy citu přicházejí přesně ve chvílích, kdy člověk váhá – jako
+  by byly načasovány (srov. [Kalibrace ToM](@/kompendium/detection-signatures/tom-kalibrace.md)).
 
-```mermaid
-graph TD
-    C0["Pseudoempathic Bond / Pseudoempatická vazba"]
-    N1["Adversarial Architecture"]
-    N2["Accuracy"]
-    N3["Adapter Pattern"]
-    N4["Academy"]
-    N5["Adversarial Drift"]
-    N6["ACID Transactions"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+## Mechanismus
 
-## Související pojmy
+Strukturálně se pseudoempatická vazba udržuje **třemi prvky**:
 
-- [Adversarial Architecture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-architecture/) — slug `adversarial-architecture`
-- [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/) — slug `accuracy`
-- [Adapter Pattern](@/glossary/adapter-pattern.md) — slug `adapter-pattern`
-- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/) — slug `academy`
-- [Adversarial Drift](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-drift/) — slug `adversarial-drift`
-- [ACID Transactions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/acid-transactions/) — slug `acid-transactions`
+1. **Informační asymetrie** – jeden ví o druhém mnohem víc než naopak, a proto dokáže
+   předvídat jeho reakce.
+2. **Podmíněnost** – porozumění a péče jsou poskytovány, dokud člověk slouží zájmům vztahu,
+   a odnímány, když ne. Střídání vytváří silnou vazbu ([trauma bonding](@/glossary/trauma-bonding.md)).
+3. **Výlučnost** – vztah je stylizován jako nenahraditelný; jiné vztahy, které by mohly
+   nabídnout srovnání, slábnou.
 
-## Navigace
+Epistemický dopad spočívá v tom, že postižený přestává rozlišovat **být pochopen** a **být
+dobře zacházen**. Protože se cítí pochopen, pochybuje o vlastním vnímání, když s ním je
+zacházeno špatně. Vazba končí často [odvržením](@/glossary/discard.md), kdy je porozumění
+obráceno proti němu.
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+Ve **profesionálních vztazích** – terapie, koučink, duchovní doprovod, mentorství – je vzorec
+obzvlášť škodlivý, protože důvěrnost a asymetrie informací jsou zde legitimní součástí role
+a hranice mezi péčí a zneužitím se snadno ztrácí ([Psychoterapeut totalizace](@/kompendium/case-studies/16-psychoterapeut-totalizace.md),
+[Coach coercion](@/kompendium/case-studies/17-coach-coercion.md)).
+
+## Odlišení
+
+- **Od [bezpečné vazby](@/glossary/secure-attachment.md):** v bezpečné vazbě je porozumění
+  spojeno s respektem k samostatnosti; druhý snese „ne“, podporuje jiné vztahy a nechá odejít.
+- **Od profesionální empatie:** terapeut také rozumí klientovi a ví o něm víc než klient o něm;
+  rozdíl je v etickém rámci, hranicích, supervizi a v tom, že cílem je klientova samostatnost.
+- **Od neobratné nebo nejisté lásky:** partner, který se bojí ztráty, může být kontrolující
+  bez kalkulu; vzorec se posuzuje podle dopadu i podle schopnosti změny.
+- **Od diagnózy osoby:** pojem popisuje vztah, ne člověka. Neslouží k „diagnostikování“
+  partnera na dálku (srov. [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)).
+
+## Význam pro Kompendium
+
+Pseudoempatická vazba je **vztahovým podkladem** mnoha technik: vysvětluje, proč jsou lidé
+v nátlakových vztazích loajální, proč se vracejí a proč se stydí. Pro forenzní a profesní
+oblast je důležitá při posuzování [nepřípustného vlivu](@/glossary/undue-influence.md)
+a [profesního pochybení](@/kompendium/forensic-legal/19-professional-misconduct-EA.md).
+V případě dětí odpovídá vzorci, který popisuje [Child Grooming](@/glossary/child-grooming.md).
+
+**Obecný příklad (anonymizovaný kompozit).** Klientka kouče oceňovala, že „vidí věci, které
+jsem nikomu neřekla“. Během několika měsíců jí kouč doporučil omezit kontakt se sestrou, která
+„brzdí její růst“, a navýšit počet sezení. Když klientka zmínila finanční potíže, kouč
+odpověděl, že „pochybnosti o investici do sebe jsou staré vzorce“. Přesné porozumění
+sloužilo k udržení vztahu, ne k jejímu prospěchu.
+
+## Obrana a zotavení
+
+**Pro postiženého:**
+
+- Ptát se ne „rozumí mi?“, ale „jak se mi v tomto vztahu daří – a co se stane, když řeknu ne?“
+- Sledovat symetrii: kolik o sobě sdílím já, kolik druhý ([Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md)).
+- Udržovat vztahy mimo jednu vazbu ([Prevence izolace](@/kompendium/self-defense-guides/26-isolation-prevention.md)).
+
+**Pro profesionála:**
+
+- Pomoci klientovi oddělit zkušenost porozumění (která mohla být skutečná a cenná) od zacházení,
+  které následovalo; tím se zmenšuje stud.
+- Obnovovat schopnost číst druhé a kalibrovat důvěru ([Středně-dobé obnovení
+  kompetencí](@/kompendium/recovery-protocols/midterm-skill-rebuilding.md),
+  [Subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md)).
+
+## Literatura
+
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*.
+- Singer, M. T., Lalich, J. (1995). *Cults in Our Midst*.
+
+## Související
+
+**Cyklus vazby**
+
+- [Love bombing](@/glossary/love-bombing.md) – úvodní zaplavení náklonností.
+- [Discard](@/glossary/discard.md) – odvržení, kterým vazba často končí.
+- [Trauma bonding](@/glossary/trauma-bonding.md) – proč podmíněnost vazbu posiluje.
+
+**Porozumění a jeho zneužití**
+
+- [Theory of Mind](@/glossary/theory-of-mind.md) – kognitivní schopnost, o kterou se vzorec opírá.
+- [ToM exploitation](@/kompendium/03-zakladni-kategorie/tom-exploitation.md) – zneužití
+  porozumění druhému jako kategorie.
+- [Bezpečná vazba](@/glossary/secure-attachment.md) – zdravý protějšek.
+
+**Rámce**
+
+- [Coercive control](@/glossary/coercive-control.md) – kontrola ve vztazích.
+- [Undue influence](@/glossary/undue-influence.md) – právní pojem nepřípustného vlivu.

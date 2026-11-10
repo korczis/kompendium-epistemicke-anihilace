@@ -96,3 +96,11 @@ Pro klinika a organizační praxi z toho plyne prostá otázka, kterou lze polo�
 - [EA-7.1.3 Adorno: instrumentální rozum](@/kompendium/techniques/ea-7-1-3-adorno-instrumental-reason.md) – podrobný teoretický výklad.
 - [EA-9.3.2 Optimalizace zapojení](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md) – instrumentální rozum v algoritmech.
 - [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – teoretické základy.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: instrumental-reason](@/kompendium/glossary-bridges/bridge-instrumental-reason.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

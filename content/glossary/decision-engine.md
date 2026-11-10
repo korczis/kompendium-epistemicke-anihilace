@@ -87,3 +87,11 @@ mají platit cesty k odborné pomoci, nikoli automatizované závěry.
 - [Decision Engine: kalibrace EA](@/kompendium/aiad-integration/decision-engine-ea-calibration.md)
   – kalibrace důvěry s ohledem na techniky EA.
 - [Glosář](@/glossary/_index.md) – rejstřík hesel.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: decision-engine](@/kompendium/glossary-bridges/bridge-decision-engine.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

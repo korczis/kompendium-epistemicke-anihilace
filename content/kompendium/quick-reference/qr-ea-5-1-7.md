@@ -20,7 +20,7 @@ toc = false
 
 > WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
 
-**Doména**: Epistemická singularita — uvěznění subjektovy referenční kapacity v nekonečné rekurzi, kde každý odkaz vede pouze k dalšímu odkazu.
+**Doména**: [Epistemická singularita](@/glossary/epistemicka-singularita.md) — uvěznění subjektovy referenční kapacity v nekonečné rekurzi, kde každý odkaz vede pouze k dalšímu odkazu.
 
 ## Definice
 

@@ -154,3 +154,11 @@ vzpomínání a truchlení, opětovné spojení s běžným životem.
 - [Akutní stabilizace](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) –
   první fáze zotavení.
 - [Kompendium](@/kompendium/_index.md) – celá taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: c-ptsd](@/kompendium/glossary-bridges/bridge-c-ptsd.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

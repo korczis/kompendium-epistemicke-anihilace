@@ -94,7 +94,7 @@ oběti EA patologizuje adaptivní reakce a může vyvolat destabilizaci.
 
 Další odlišení:
 
-- **Psychóza** – disociace obvykle nezahrnuje bludy v pravém smyslu; testování reality je
+- **Psychóza** – disociace obvykle nezahrnuje bludy v pravém smyslu; [testování reality](@/glossary/reality-testing.md) je
   mimo epizody zachováno (viz [EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
 - **Simulace** – disociativní výpověď má typické mezery a nespojitosti, které samy o sobě
   nesvědčí o nepravdivosti (viz [Detekce simulace](@/kompendium/forensic-legal/4-malingering-detection.md)).
@@ -159,3 +159,11 @@ lhaní; u podezření na EA nejprve zmapovat prostředí, v němž člověk žij
 - [Akutní disociace](@/kompendium/emergency-protocols/4-acute-dissociation-EA.md) – krizový
   postup.
 - [Kompendium](@/kompendium/_index.md) – celá taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: disociace](@/kompendium/glossary-bridges/bridge-disociace.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

@@ -1028,3 +1028,11 @@ mechanismus implementace kontextů) a *Saga Pattern* (koordinace postupů např�
   v argumentaci.
 - [Sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md) –
   detekce nevyslovené změny významu.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: bounded-context](@/kompendium/glossary-bridges/bridge-bounded-context.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

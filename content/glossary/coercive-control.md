@@ -177,3 +177,11 @@ strukturu**: jediný pachatel může v soukromí dvojice zavést totalitní rež
 - [Prevence izolace](@/kompendium/self-defense-guides/26-isolation-prevention.md) – obrana
   proti hlavnímu vektoru kontroly.
 - [Kompendium](@/kompendium/_index.md) – celá taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: coercive-control](@/kompendium/glossary-bridges/bridge-coercive-control.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

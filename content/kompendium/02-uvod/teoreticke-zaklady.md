@@ -82,7 +82,7 @@ Taxonomie identifikuje spektrum fenoménů narušujících epistemickou autonomi
 
 **Epistemická rekurzivita** označuje kapacitu poznávacích procesů reflektovat samy sebe a operovat na vlastních výstupech. Tento princip je fundamentální pro meta-kognitivní fungování, které umožňuje subjektu monitorovat a regulovat vlastní poznávací procesy.
 
-Taxonomie identifikuje specifické formy narušení epistemické rekurzivity, od oslabení meta-kognitivních kapacit až po fenomény jako „epistemická slepota“ (inability detekovat vlastní epistemické deficity) nebo „kognitivní anti-rekurzivita“ (aktivní blokování rekurzivních poznávacích operací).
+Taxonomie identifikuje specifické formy narušení epistemické rekurzivity, od oslabení meta-kognitivních kapacit až po fenomény jako „[epistemická slepota](@/glossary/epistemicka-slepota.md)“ (inability detekovat vlastní epistemické deficity) nebo „kognitivní anti-rekurzivita“ (aktivní blokování rekurzivních poznávacích operací).
 
 ### Princip epistemické sociality
 
@@ -111,7 +111,7 @@ Předpokládáme, že **epistemický subjekt** disponuje:
 - **Kognitivními kapacitami** (paměť, pozornost, exekutivní funkce)
 - **Epistemickými dispozicemi** (kritické myšlení, interpretační flexibilita, metareflexe)
 - **Strukturálními předpoklady** (kategorie, schémata, narativní rámce)
-- **Sociální vsazeností** (epistemická komunita, autorita, zdroje)
+- **Sociální vsazeností** ([epistemická komunita](@/glossary/epistemicka-komunita.md), autorita, zdroje)
 
 Anihilace cílí selektivně na **různé úrovně** této struktury. Útok na sociální vsazenost (izolace) může destabilizovat i robustní jednotlivce; útok na strukturální předpoklady (lingvistická redefinice) je obtížnější a má hlubší efekt; útok na epistemické dispozice (systematická diskreditace kritického myšlení) má efekt nejhlubší a nejtrvalejší.
 
@@ -187,7 +187,7 @@ Taxonomie identifikuje klíčové neuronální systémy asociované s různými 
 1. **Prefrontální kortikální sítě** — Zodpovědné za exekutivní funkce, včetně kognitivní kontroly, pracovní paměti a abstraktního myšlení.
 2. **Temporoparietální junkce** — Klíčová pro theorii mysli, atribuce intencí a sociálně-epistemické procesy.
 3. **Hipokampální formace** — Esenciální pro episodickou paměť a kontextuální učení, které jsou fundamentální pro temporální kontinuitu epistemického já.
-4. **Insulární kortex** — Zapojený do interocepce, zpracování pocitů a subjektivní jistoty, které jsou klíčové pro fenomenologické aspekty poznávání.
+4. **Insulární kortex** — Zapojený do [interocepce](@/glossary/interocepce.md), zpracování pocitů a subjektivní jistoty, které jsou klíčové pro fenomenologické aspekty poznávání.
 5. **[Default mode network](@/glossary/default-mode-network.md)** — Asociovaná s introspektivními procesy, autobiografickým myšlením a konstrukcí self-narativu.
 
 ### Neurobiologie stresu a traumatu

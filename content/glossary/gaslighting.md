@@ -118,3 +118,11 @@ Zotavení obvykle vyžaduje **obnovu nezávislých svědků** (záznamy, třetí
 - [EA-4.1 Gaslighting](@/kompendium/techniques/ea-4-1-gaslighting.md) – samostatné zpracování techniky.
 - [Vzorec gaslightingu](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) – detekční signatura.
 - [Gaslighting v partnerském vztahu](@/kompendium/case-studies/08-gaslighting-partnersky.md) – kazuistika.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: gaslighting](@/kompendium/glossary-bridges/bridge-gaslighting.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

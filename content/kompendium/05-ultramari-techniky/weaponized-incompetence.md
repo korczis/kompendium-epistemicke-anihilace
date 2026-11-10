@@ -1,111 +1,147 @@
 +++
-title = "Weaponized Incompetence"
+title = "Weaponized incompetence – zneužitá předstíraná neschopnost"
 weight = 100
-description = "Weaponized Incompetence — pojem v sekci kompendium/05-ultramari-techniky znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Weaponized incompetence v sekci 05: selektivní předstíraná neschopnost nebo nepochopení, které přesouvá práci, odpovědnost a kognitivní zátěž; znaky, odlišení a obrana."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "ultramari", "manipulace", "psychology"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["narrativni-trauma", "kapitola-6", "kapitola-8", "sealioning", "kapitola-7", "kapitola-9"]
+related_terms = ["weaponized-incompetence", "blame-shifting", "darvo", "coercive-control", "emocionalni-terorismus", "double-bind"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Definice
+# Weaponized incompetence – zneužitá předstíraná neschopnost
 
-**[Weaponized Incompetence](@/glossary/weaponized-incompetence.md)** patří mezi **ultramari techniky** (sekce 05 Prismatic Kompendia) — kategorii high-severity epistemických útoků, které kombinují více útočných vektorů současně a vyžadují koordinovanou víceúrovňovou obranu. Ultramari techniky překračují individuální epistemické útoky a pracují na úrovni celé interakce, narativu nebo identity oběti.
+> **Pozice v sekci 05**: [ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) působí
+> na podmínky poznávání. Weaponized incompetence sem patří ve své epistemické podobě: předstírané
+> nepochopení dlouhodobě přesouvá na druhého veškerou **kognitivní práci** – vysvětlování,
+> plánování, připomínání, dokazování – až vyčerpá jeho kapacitu i důvěru ve vlastní měřítko
+> férovosti. Definice pojmu je v hesle [Weaponized incompetence](@/glossary/weaponized-incompetence.md).
 
-{% <callout type="warning"> %}
-Ultramari techniky mají **severity = HIGH**. Klinická konzultace je doporučena při dlouhodobé expozici. Recovery protokoly v sekci `recovery-protocols/` jsou navrženy pro extrakci z těchto vzorců.
-{% </callout> %}
+## Vymezení
 
-## Anatomie útoku
+*Weaponized incompetence* (doslova „zbraňová neschopnost“) je vzorec, v němž člověk selektivně
+„neumí“, „zapomíná“ nebo „nerozumí“ a tím dosahuje toho, že úkol, rozhodnutí nebo odpovědnost
+převezme druhý. Pojem se rozšířil v populární psychologii a v debatách o rozdělení neplacené práce
+v domácnosti; odborná literatura ho zatím systematicky nezkoumá a kniha ho používá jako popis
+vzorce, ne jako diagnózu.
 
-Mechanismus **Weaponized Incompetence** typicky zahrnuje tři fáze:
+Kniha rozlišuje dvě podoby:
 
-1. **Setup phase** — útočník etabluje rámec, který činí standardní obranné mechanismy oběti irelevantními nebo invertuje jejich smysl
-2. **Eskalační fáze** — útočník vystupňuje tlak nebo nejednoznačnost, dokud oběť nezačne pochybovat o vlastním úsudku
-3. **Konsolidační fáze** — útočník upevní novou epistemickou pozici jako „normální“ nebo „samozřejmou“, takže návrat k původnímu stavu vyžaduje externí intervenci
+- **praktickou** – neschopnost v úkolech (domácnost, péče o děti, administrativa, týmová práce);
+- **epistemickou** – předstírané nepochopení argumentu, požadavku nebo hranice, které nutí druhého
+  vysvětlovat znovu a znovu a nakonec ustoupit, protože „to stejně nemá cenu“.
 
-Detailní analýza jednotlivých fází je dokumentována v technique-level článcích (`techniques/ea-X-X-X.md`) a v detection-signature záznamech.
+## Mechanismus (strukturální popis)
 
-## Detekční signatura
+- **Selektivita**: neschopnost se projevuje tam, kde by úkol přinesl nepohodlí, a mizí tam, kde jde
+  o vlastní zájem.
+- **Přesun nákladů**: kdo neumí, šetří čas a energii; kdo umí, nese dvojnásobek a navíc kontroluje.
+- **Morální inverze**: nositel zátěže je vylíčen jako kontrolující, puntičkářský nebo nevděčný;
+  viz [Blame shifting](@/glossary/blame-shifting.md) a [DARVO](@/glossary/darvo.md).
+- **Dvojná vazba**: když nositel zátěže úkol nepřevezme, vznikne škoda (zanedbané dítě, propadlý
+  termín); když ho převezme, posílí vzorec. Strukturu popisuje [Double bind](@/glossary/double-bind.md).
+- **Epistemická eroze**: opakované „nechápu, co po mně chceš“ vede nositele k pochybnosti, zda jeho
+  požadavky dávají smysl, a k postupnému vzdání se jejich formulace.
 
-Operační detekce **Weaponized Incompetence** se opírá o behaviorální a lingvistické markery dokumentované v [detection-signatures/](@/kompendium/detection-signatures/_index.md). Analytik hledá diskrepance mezi:
+## Fáze průběhu
 
-- explicitním obsahem výroku a implicitním rámcem (motte-bailey vzorec)
-- rychlostí přechodu mezi pozicemi ([sealioning](@/glossary/sealioning.md) timing)
-- asymetrií v důkazních standardech mezi vlastními a oponentovými tvrzeními
+1. **Drobné selhání** – jednorázová nešikovnost, která je přijata s pochopením.
+2. **Opakování a selektivita** – selhání se opakuje právě v nepříjemných úkolech.
+3. **Převzetí** – druhý úkoly přebírá, protože je to rychlejší a bezpečnější.
+4. **Normalizace** – rozdělení je vnímáno jako přirozené; protest je označen za útok.
+5. **Vyčerpání** – nositel zátěže je přetížen, ztrácí vlastní zdroje a měřítko.
 
-## Counter-protokol
+## Detekční znaky
 
-Ochrana proti **Weaponized Incompetence** vyžaduje:
+- Neschopnost je **konzistentně selektivní** a nezlepšuje se ani po opakovaném vysvětlení.
+- Tatáž osoba zvládá srovnatelně náročné úkoly v jiném kontextu (práce, koníčky).
+- Na upozornění reaguje uraženě, útokem nebo nadsázkou („tak to dělej sám, když jsi tak dokonalý“).
+- Nositel zátěže vede v hlavě nepřetržitý seznam úkolů za oba.
+- V týmech: termíny „nestíhá“ vždy tentýž člověk, a vždy tehdy, když úkol převezme někdo jiný;
+  viz [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md).
 
-- **Externalizaci epistemických procesů** — peer review, dokumentační stopy, časové razítko
-- **Strukturní přerušení interakce** — stop-pravidla, time-outs, externí mediace
-- **Rekonstruktivní práci po expozici** — viz [recovery-protocols/](@/kompendium/recovery-protocols/_index.md), zejména protokoly orientované na narativ a paradigm-rebuilding
-<!-- EXPANDED:PHASE11 -->
+## Odlišení
 
-## See Also
+- **Skutečný deficit**: ADHD, deprese, úzkost, kognitivní porucha, chronická nemoc nebo chybějící
+  dovednost. Projevuje se **konzistentně** napříč oblastmi a člověk obvykle sám usiluje o změnu.
+- **Naučené role**: kulturně a genderově předávané rozdělení práce bez vědomé strategie; řeší se
+  dohodou a učením, ne obviněním.
+- **Vzájemná dynamika nadfunkce a podfunkce**: obě strany se na vzorci podílejí; změna jedné strany
+  mění systém.
+- **Vzdor a pasivní agrese**: příbuzné vzorce s jiným motivem (odpor proti kontrole), často
+  v asymetrických vztazích.
 
-- [Parent section](@/kompendium/05-ultramari-techniky/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+Odlišení musí stát na konkrétních situacích a na srovnání napříč oblastmi; nálepka bez odlišení
+poškozuje vztah i důvěryhodnost obrany.
 
----
+## Klinický a právní rámec
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+U nositelů zátěže se objevuje chronická únava, poruchy spánku, podrážděnost a vina, později ztráta
+vlastních zájmů a kompetencí. V kombinaci s dalšími prvky kontroly (finanční závislost, izolace,
+sledování) může být weaponized incompetence součástí [coercive control](@/glossary/coercive-control.md);
+pak je nutné posoudit bezpečí a postupovat podle oddílu [Právo o coercive control](@/kompendium/forensic-legal/12-coercive-control-law.md).
+V pracovním prostředí jde o organizační problém, který řeší jasné rozdělení odpovědností a
+dokumentace dohod.
 
-## Manažerské shrnutí
+## Obrana
 
-**Weaponized Incompetence** je aktivní uzel taxonomického grafu sekce `kompendium/05-ultramari-techniky` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+**Individuální**
 
-## Koncepční síť
+- **Inventura**: po několik týdnů zapisovat, co kdo dělá; zrcadlo pro sebe, ne obžaloba.
+- **Konkrétní dohody**: kdo, co, do kdy – písemně, bez vágních formulací.
+- **Zastavení nadfunkce**: přestat přebírat vybrané úkoly a snést nepohodlí, které to přinese.
+- **Externí měřítko**: ověřit si u důvěryhodných lidí, co je spravedlivé.
+- Opora: [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) a
+  [Rozpoznání emočního dluhu](@/kompendium/self-defense-guides/20-emotional-debt-recognition.md).
 
-Vizualizace propojení **Weaponized Incompetence** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+**Institucionální**
 
-```mermaid
-graph TD
-    C0["Weaponized Incompetence"]
-    N1["Narrativni Trauma"]
-    N2["Kapitola 6: Epistemická singularita"]
-    N3["Kapitola 8: Hypertransformativní protokoly"]
-    N4["Sealioning"]
-    N5["Kapitola 7: Metatranscendentální anihilace"]
-    N6["Kapitola 9: Paradoxální metaanihilační protokoly"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+- Jasné rozdělení rolí, písemné zadání, sledovatelnost úkolů; viz
+  [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md).
+- Hodnocení podle výsledků, ne podle toho, kdo nejhlasitěji „nestíhá“.
 
-## Související pojmy
+## Zotavení
 
-- [Narrativni Trauma](@/kompendium/05-ultramari-techniky/narrativni-trauma.md) — slug `narrativni-trauma`
-- [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) — slug `kapitola-6`
-- [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md) — slug `kapitola-8`
-- [Sealioning](@/kompendium/05-ultramari-techniky/sealioning.md) — slug `sealioning`
-- [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) — slug `kapitola-7`
-- [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md) — slug `kapitola-9`
+Zotavení se týká především toho, kdo zátěž nesl: obnova odpočinku, měřítka férovosti, práva na
+požadavky a ztracených kompetencí. Podrobně protokol
+[Incompetence – zotavení po zneužité neschopnosti](@/kompendium/recovery-protocols/incompetence.md).
 
-## Navigace
+## Kazuistika (anonymizovaný kompozit)
 
-- **Nadřazená sekce**: [kompendium/05-ultramari-techniky](@/kompendium/05-ultramari-techniky/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Kapitola 10: Transkonceptuální mechanismy](@/kompendium/05-ultramari-techniky/kapitola-10.md)
-  - [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)
-  - [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)
-  - [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md)
-  - [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+Žena pracující na plný úvazek pečuje o dvě děti a domácnost; partner „neumí“ objednat děti k lékaři
+a „zapomíná“ vyzvednout je ze školy, ale bez potíží organizuje víkendové akce s přáteli. Když
+požádá o pomoc, slyší, že je „hysterická“ a „všechno chce mít pod kontrolou“. Inventura ukáže, že
+nese většinu úkolů. Po písemné dohodě a zastavení nadfunkce partner nejprve protestuje, pak část
+úkolů převezme. Klientka sama popisuje hlavní změnu jako návrat jistoty, že její požadavky jsou
+rozumné.
+
+## Meze a otevřené otázky
+
+Úmysl nelze z vnějšku spolehlivě prokázat a kniha to nevyžaduje: pracuje se vzorcem a jeho
+dopadem. Empirický výzkum pojmu chybí; kniha proto staví na obecných poznatcích o rozdělení práce,
+o vyčerpání a o vztahové kontrole.
+
+## Související
+
+**Pojmy**
+
+- [Weaponized incompetence (heslo)](@/glossary/weaponized-incompetence.md) – definice a odlišení.
+- [Bridge: Weaponized incompetence](@/kompendium/glossary-bridges/bridge-weaponized-incompetence.md) – propojení hesla s knihou.
+- [Double bind](@/glossary/double-bind.md) – dvojná vazba, v níž se nositel zátěže ocitá.
+- [Emocionální terorismus](@/glossary/emocionalni-terorismus.md) – tlak vedený přes vinu.
+
+**Příbuzné vzorce v sekci 05**
+
+- [Sealioning](@/kompendium/05-ultramari-techniky/sealioning.md) – vyčerpání otázkami.
+- [Motte and bailey](@/kompendium/05-ultramari-techniky/motte-bailey.md) – posun tvrzení.
+
+**Zotavení a obrana**
+
+- [Protokol Incompetence](@/kompendium/recovery-protocols/incompetence.md) – zotavení nositele zátěže.
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) – praktická obrana.

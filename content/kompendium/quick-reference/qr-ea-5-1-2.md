@@ -20,7 +20,7 @@ toc = false
 
 > WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
 
-**Doména**: Epistemická singularita — destrukce stability konceptuálních referencí, na nichž subjekt buduje smysluplné poznávání.
+**Doména**: [Epistemická singularita](@/glossary/epistemicka-singularita.md) — destrukce stability konceptuálních referencí, na nichž subjekt buduje smysluplné poznávání.
 
 ## Definice
 

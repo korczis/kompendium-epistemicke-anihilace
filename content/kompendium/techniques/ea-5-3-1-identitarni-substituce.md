@@ -96,7 +96,7 @@ Co může vidět vnější pozorovatel:
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — identitární substituce často kombinovaná s epistemickou kanibalizací
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — identitární substituce často kombinovaná s epistemickou kanibalizací
 - **EA-5.5.* (Transkonceptuální mechanismy)** — pre-konceptuální vrstva podpírá identitární substituci
 - **EA-1.6.* (Charizmatické vedení)** — guru-adept dynamika je strukturálním rámcem hypertransformace
 
@@ -125,7 +125,7 @@ Technika **identitární substituce** představuje strukturální výzvu pro def
 
 ## Teoretické zázemí
 
-Ricoeurova **[narativní identita](@/glossary/narativni-identita.md)** (*Soi-même comme un autre*, 1990) — self je narativní syntéza idem (totožnosti) a ipse (sebství). Substituce zasahuje obě osy: implantát rozkládá idem-kontinuitu a falsifikuje ipse-závazek. Husserlova **pasivní syntéza** (*Analysen zur passiven Synthesis*) ukazuje, jak vrstvení retencí konstituuje self-trvání — útok cílí na pasivní vrstvu. Levinasova **substituce** (*Autrement qu'être*) tu funguje obráceně: namísto etické responzibility za druhého je subjekt nucen převzít druhého jako sebe. Damasiův **autobiografický self** (*The Feeling of What Happens*, 1999) je strukturně závislý na somatických markerech minulých voleb — jejich devalvace eroduje neurální korelát kontinuity. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+Ricoeurova **[narativní identita](@/glossary/narativni-identita.md)** (*Soi-même comme un autre*, 1990) — self je narativní syntéza idem (totožnosti) a ipse (sebství). Substituce zasahuje obě osy: implantát rozkládá idem-kontinuitu a falsifikuje ipse-závazek. Husserlova **[pasivní syntéza](@/glossary/pasivni-synteza.md)** (*Analysen zur passiven Synthesis*) ukazuje, jak vrstvení retencí konstituuje self-trvání — útok cílí na pasivní vrstvu. Levinasova **substituce** (*Autrement qu'être*) tu funguje obráceně: namísto etické responzibility za druhého je subjekt nucen převzít druhého jako sebe. Damasiův **autobiografický self** (*The Feeling of What Happens*, 1999) je strukturně závislý na somatických markerech minulých voleb — jejich devalvace eroduje neurální korelát kontinuity. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
 
 ## Empirická literatura
 

@@ -95,3 +95,11 @@ Mereologická rekonstrukce je **charakteristickým konstruktivním přínosem** 
 - [Epistemická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) – klinický výklad.
 - [Stabilizační fáze](@/kompendium/techniques/ea-6-3-1-stabilizacni-faze-protokol.md) – první fáze protokolu.
 - [Narativní rekonstrukce](@/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md) – závěrečná fáze.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: mereologicka-rekonstrukce](@/kompendium/glossary-bridges/bridge-mereologicka-rekonstrukce.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

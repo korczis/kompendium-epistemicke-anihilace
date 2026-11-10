@@ -39,6 +39,7 @@ Sekce 06 slouží **třem hlavním cílům**:
 | 6.3 | [Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) | Trauma-focused, narrativní rekonstrukce, epistemická rehabilitace | Psychoterapeuti, klinici |
 | 6.4 | [Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) | Pětistupňový protokol obnovy poznávací autonomie | Pokročilí terapeuti, výzkumníci |
 | 6.5 | [Práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) | Děti, post-kult, uprchlíci, oběti dlouhodobého trauma | Krizoví pracovníci, sociální služby |
+| 6.6 | [Klinická cesta zotavení – interaktivní diagram](@/kompendium/06-klinicke-aplikace/visualizations.md) | Assessment → diagnostika → intervence → monitoring → zotavení, s technikami EA-6 v každé fázi | Klinici, supervizoři, výuka |
 
 Plánované rozšíření sekce zahrnuje navíc kapitoly o klinických případových studiích (06.6), prevenci v populační rovině (06.7), institucionálních aplikacích (06.8–11) — viz [hub kompendia](@/kompendium/_index.md) pro aktuální stav.
 

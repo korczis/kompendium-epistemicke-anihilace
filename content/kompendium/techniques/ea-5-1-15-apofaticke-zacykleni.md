@@ -27,7 +27,7 @@ parent_chapter = "/kompendium/05-pokrocile-operace/kapitola-6/"
 |------|---------|
 | **EA kód** | `EA-5.1.15` |
 | **Kategorie** | 5. Pokročilé operace |
-| **Subkategorie** | 5.1 Epistemická singularita |
+| **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
 | **Přístupová úroveň** | L4 (kritická — riziko trvalého poškození) |
 | **Riziková úroveň** | Kritická — produkuje totální epistemickou stázi, která je strukturálně rezistentní |
 | **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukci pozitivně-tvrzecích kapacit |

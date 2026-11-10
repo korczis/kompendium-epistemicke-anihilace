@@ -126,3 +126,11 @@ Zotavení obvykle vyžaduje **obnovu vztahu k sobě**, ne opravu jednotlivých p
 - [Obnova důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) – subakutní fáze.
 - [Epistemická reintegrace](@/glossary/epistemicka-reintegrace.md) – cíl zotavení.
 - [Kompendium](@/kompendium/_index.md) – úplná taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: epistemicka-alienace](@/kompendium/glossary-bridges/bridge-epistemicka-alienace.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

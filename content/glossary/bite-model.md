@@ -160,3 +160,11 @@ předchází podrobnější taxonomické analýze.
 - [Doktrína nepřiměřeného vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md)
   – právní využití popisu kontroly.
 - [Kompendium](@/kompendium/_index.md) – celá taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: bite-model](@/kompendium/glossary-bridges/bridge-bite-model.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

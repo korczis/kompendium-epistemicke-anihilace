@@ -1,86 +1,154 @@
 +++
-title = "Secure Attachment"
+title = "Bezpečná vazba (secure attachment)"
 weight = 50
-description = "Healthy attachment style characterized by mutual attunement and stable trust."
+description = "Vztahový vzorec založený na vzájemném naladění, předvídatelné odezvě a stabilní důvěře; měřítko zdravého vztahu a pravděpodobný ochranný faktor proti nátlakovému vlivu."
 
 [taxonomies]
-tags = ["glossary", "psychology", "interactive"]
+tags = ["glossary", "kompendium", "psychology", "trauma", "rezilience"]
 
 [extra]
 category = "psychology"
 related_terms = [
   "pseudoempaticka-vazba",
   "trauma-bonding",
-  "co-regulation",
+  "love-bombing",
+  "polyvagalni-teorie",
+  "c-ptsd",
+  "theory-of-mind",
 ]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 +++
 
-## Definition
+## Definice
 
-Secure attachment is the healthy attachment style characterized by mutual attunement, predictable responsiveness, and stable trust. Contrasts with [pseudoempathic bonds](@/glossary/pseudoempaticka-vazba.md) and disorganized attachment patterns. Resilience marker against coercive influence: securely-attached individuals show measurably stronger resistance to [identity destruction](@/glossary/identity-destruction.md) techniques.
+**Bezpečná vazba** (*secure attachment*) je vzorec citového pouta, v němž se člověk může
+spolehnout, že blízká osoba bude na jeho potřeby **dostupná, citlivá a předvídatelná**.
+U dítěte se projevuje tím, že pečující osobu používá jako „bezpečnou základnu“: z ní
+prozkoumává svět a k ní se vrací, když je v nouzi. U dospělých se projevuje schopností být
+blízko i samostatně, říct si o pomoc a přijmout ji, snést konflikt bez ohrožení vztahu
+a respektovat hranice druhého.
 
-## See Also
+Teorie vazby rozlišuje vedle bezpečné vazby několik nejistých vzorců: **úzkostně-ambivalentní**,
+**vyhýbavý** a **dezorganizovaný**. Dezorganizovaná vazba vzniká typicky tam, kde je zdroj
+bezpečí zároveň zdrojem strachu – dítě nemá žádnou soudržnou strategii, jak se ke vztahu
+postavit. Tento rys má přímou paralelu v nátlakových vztazích dospělých.
 
-- [Glossary index](@/glossary/_index.md)
-- [Pseudoempaticka Vazba](@/glossary/pseudoempaticka-vazba.md)
-- [Trauma Bonding](@/glossary/trauma-bonding.md)
-- [Co Regulation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/co-regulation/)
+V Kompendiu slouží bezpečná vazba jako **měřítko zdravého vztahu**, s nímž se srovnávají
+[pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md) a [trauma
+bonding](@/glossary/trauma-bonding.md).
 
----
+## Původ a kontext pojmu
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Teorii vazby založil britský psychiatr **John Bowlby** (trilogie *Attachment and Loss*,
+první svazek *Attachment*, 1969), který popsal vazbu jako biologicky zakotvený systém
+zajišťující blízkost k ochránci. **Mary Ainsworthová** a spolupracovníci (*Patterns of
+Attachment*, 1978) vyvinuli pozorovací metodu „cizí situace“ a popsali bezpečný a nejisté
+vzorce; **Mary Mainová a Judith Solomonová** doplnily kategorii dezorganizované vazby.
+**Cindy Hazanová a Phillip Shaver** (1987) přenesli teorii do oblasti partnerských vztahů
+dospělých.
 
-## Manažerské shrnutí
+Významným pojmem pro zotavení je **„získaná bezpečnost“** (*earned security*): lidé
+s nejistou zkušeností z dětství mohou bezpečné vztahové vzorce rozvinout později, díky
+opravným vztahům a terapii. Kompendium tyto poznatky shrnuje v [EA-8.2.8 Rámci attachmentu
+a traumatu](@/kompendium/techniques/ea-8-2-8-aprw-attachment-trauma.md).
 
-**Secure Attachment** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Jak se projevuje
 
-## Koncepční síť
+Ve vztahu dospělých se bezpečná vazba pozná podle **toho, co vztah snese**:
 
-Vizualizace propojení **Secure Attachment** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+- **„Ne“ neohrožuje vztah.** Odmítnutí nebo nesouhlas vedou k rozhovoru, ne k trestu.
+- **Opravitelnost.** Po konfliktu přichází smíření a oprava, nikoli mlčení nebo pomsta.
+- **Předvídatelnost.** Náklonnost nekolísá podle toho, zda člověk slouží zájmům druhého.
+- **Prostor pro jiné vztahy.** Přátelé, rodina a vlastní zájmy jsou vítány, ne podezírány.
+- **Tempo, které si určují oba.** Blízkost se buduje postupně, bez nátlaku na rychlá
+  rozhodnutí (srov. [love bombing](@/glossary/love-bombing.md)).
+- **Pravdivost bez strachu.** Člověk může říct, co si myslí a co cítí, bez obavy, že bude
+  zpochybněno jeho vnímání.
 
-```mermaid
-graph TD
-    C0["Secure Attachment"]
-    N1["Adversarial Architecture"]
-    N2["Adapter"]
-    N3["Addiction Recovery"]
-    N4["Adapter Pattern"]
-    N5["Accreditation"]
-    N6["3NL"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+## Mechanismus
 
-## Související pojmy
+Strukturálně působí bezpečná vazba jako **regulační a epistemická opora**. Regulační proto,
+že přítomnost bezpečné osoby pomáhá nervovému systému vrátit se ze stavu ohrožení do klidu
+(Kompendium to popisuje v rámci [polyvagální teorie](@/glossary/polyvagalni-teorie.md)).
+Epistemická proto, že bezpečný vztah je místem, kde lze vlastní vnímání **ověřit a potvrdit**,
+aniž by šlo o loajalitu.
 
-- [Adversarial Architecture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-architecture/) — slug `adversarial-architecture`
-- [Adapter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adapter/) — slug `adapter`
-- [Addiction Recovery](@/glossary/addiction-recovery.md) — slug `addiction-recovery`
-- [Adapter Pattern](@/glossary/adapter-pattern.md) — slug `adapter-pattern`
-- [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/) — slug `accreditation`
-- [3NL](@/glossary/3nl.md) — slug `3nl`
+Z toho plyne pravděpodobný ochranný účinek: kdo má bezpečné vztahy, má vnější „zrcadlo“, které
+nátlakovému prostředí uniká, a nepotřebuje tolik náhradní blízkost, kterou nabízí love bombing.
+Kompendium to formuluje jako **klinicky dobře podloženou hypotézu**, nikoli jako změřený
+účinek; souvislost mezi vazbou a odolností vůči konkrétním technikám nebyla v knize
+kvantifikována. Nátlakové vztahy naopak strukturálně napodobují dezorganizovanou vazbu:
+zdroj bezpečí a zdroj ohrožení splývají.
 
-## Navigace
+## Odlišení
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+- **Od [pseudoempatické vazby](@/glossary/pseudoempaticka-vazba.md):** obě mohou nabízet
+  silný pocit porozumění; bezpečná vazba ale respektuje samostatnost a snese odchod.
+- **Od [trauma bondingu](@/glossary/trauma-bonding.md):** síla pouta neznamená bezpečí;
+  trauma bonding je silný právě kvůli nepředvídatelnosti.
+- **Od závislosti:** bezpečně vázaný člověk se spoléhá na druhého, ale dokáže fungovat i bez
+  něj; závislost znamená, že bez druhého nefunguje.
+- **Od diagnózy:** styl vazby není duševní porucha. Klinické poruchy vazby u dětí mají vlastní
+  diagnostická kritéria a posuzuje je odborník.
+
+## Význam pro Kompendium
+
+Bezpečná vazba je v Kompendiu **cílem i nástrojem obnovy**. Cílem, protože zotavení po
+nátlakovém vztahu zahrnuje schopnost znovu navazovat bezpečné vztahy ([Subakutní relační
+restrukturalizace](@/kompendium/recovery-protocols/subacute-relational-restructuring.md),
+[EA-6.3.8 Relační restaurace](@/kompendium/techniques/ea-6-3-8-relacni-restaurace.md)).
+Nástrojem, protože terapeutický vztah sám funguje jako opravná zkušenost bezpečné vazby. V
+prevenci je budování bezpečných vztahů v dětství a v rodině základem odolnosti ([Budování
+dětské reziliencie](@/kompendium/prevention-resilience/1-childhood-resilience-foundation.md),
+[Rodinná reziliencie](@/kompendium/prevention-resilience/3-family-resilience-EA.md)).
+
+**Obecný příklad (anonymizovaný kompozit).** Muž, který vyrostl v rodině s nepředvídatelným,
+střídavě vřelým a krutým otcem, se v dospělosti opakovaně ocital ve vztazích, kde „velká láska“
+přecházela v kontrolu. V dlouhodobé terapii poprvé zažil vztah, v němž jeho nesouhlas nevedl
+k odmítnutí. Postupně podle této zkušenosti začal rozpoznávat, které vztahy jsou mu bezpečné.
+
+## Obrana a zotavení
+
+**Pro jednotlivce:**
+
+- Pěstovat několik spolehlivých vztahů jako „kotvy“ ([Vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md)).
+- U nových vztahů testovat bezpečí malými kroky: hranice, nesouhlas, pomalejší tempo
+  ([Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md)).
+- Vědět, že bezpečná vazba je dovednost, kterou lze získat i v dospělosti.
+
+**Pro profesionála:**
+
+- Nabízet předvídatelnost, transparentnost a respekt k autonomii – to je samo o sobě intervence.
+- Pracovat s dezorganizovanými vzorci trpělivě; klient může testovat vztah, protože bezpečí
+  dosud zažil jen jako předehru ohrožení.
+
+## Literatura
+
+- Bowlby, J. (1969). *Attachment and Loss, Vol. 1: Attachment*.
+- Ainsworth, M. D. S., Blehar, M. C., Waters, E., Wall, S. (1978). *Patterns of Attachment*.
+- Hazan, C., Shaver, P. (1987). Romantic love conceptualized as an attachment process.
+  *Journal of Personality and Social Psychology*.
+
+## Související
+
+**Kontrastní vzorce**
+
+- [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md) – zdánlivá blízkost bez naladění.
+- [Trauma bonding](@/glossary/trauma-bonding.md) – silné pouto vzniklé nepředvídatelností.
+- [Love bombing](@/glossary/love-bombing.md) – rychlá a podmíněná blízkost.
+- [Discard](@/glossary/discard.md) – odvržení, které bezpečná vazba vylučuje.
+
+**Regulace a trauma**
+
+- [Polyvagální teorie](@/glossary/polyvagalni-teorie.md) – koregulace v bezpečném vztahu.
+- [C-PTSD](@/glossary/c-ptsd.md) – důsledek dlouhodobého zranění ve vztazích.
+
+**Obnova a prevence**
+
+- [EA-8.2.8 Rámec attachmentu a traumatu](@/kompendium/techniques/ea-8-2-8-aprw-attachment-trauma.md)
+  – teoretický rámec v Kompendiu.
+- [Subakutní relační restrukturalizace](@/kompendium/recovery-protocols/subacute-relational-restructuring.md)
+  – obnova vztahových vzorců.

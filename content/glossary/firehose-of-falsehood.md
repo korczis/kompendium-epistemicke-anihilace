@@ -104,3 +104,11 @@ Pro knihu je pojem mostem mezi individuální a společenskou rovinou EA: popisu
 - [Ruská IRA](@/kompendium/historical-cases/22-russian-ira.md) – doložený případ trollí farmy.
 - [Obrana proti dezinformacím](@/kompendium/cross-domain/19-ea-security-disinformation-defense.md) – architektonická obrana.
 - [Kompendium](@/kompendium/_index.md) – úplná taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: firehose-of-falsehood](@/kompendium/glossary-bridges/bridge-firehose-of-falsehood.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

@@ -1,80 +1,153 @@
 +++
-title = "Epistemicka Staze"
+title = "Epistemická stáze"
 weight = 100
-description = "Epistemicka Staze — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie psychology."
+description = "Zablokování epistemického pohybu: pozice existují, ale nelze mezi nimi rozhodnout, nic potvrdit ani popřít, a proto se poznání ani jednání nehýbe z místa."
 
 [taxonomies]
-tags = ["glossary", "psychology", "interactive"]
+tags = ["glossary", "kompendium", "psychology", "epistemic", "paradox"]
 
 [extra]
-category = "psychology"
-related_terms = ["3nl", "adapter-pattern", "adversarial-conditions", "access-control", "adaptive-learning", "adversarial-drift"]
+category = "epistemic"
+related_terms = ["apofaticky-modus", "kognitivni-stagnace", "rekurzivni-paralyza", "paralysis-by-analysis", "double-bind", "heat-death"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 ref_count_at_creation = 1
 +++
 
-## Definition
+## Definice
 
-**Epistemicka Staze** je termín z oblasti psychologie a fenomenologie používaný v Prismatic Kompendiu pro analýzu manipulačních vzorců, identitních dynamik a epistemických procesů. Tato položka je strukturálním stub zápisem — plná definice, klinické příklady a integrace do EA taxonomie jsou součástí probíhající kompendiální výstavby.
+**Epistemická stáze** (z řec. *stasis*, „stání, zastavení“) je stav, v němž se zastaví
+celý [epistemický proces](@/glossary/epistemic-pipeline.md) – nejen učení z nové zkušenosti, ale i tázání, vážení důvodů
+a rozhodování. Pozice, mezi nimiž by šlo volit, **stále existují a jsou rozlišitelné**,
+ale žádnou nelze přijmout ani odmítnout. Každé tvrzení je zablokováno protitvrzením, každé
+rozhodnutí podmínkou, kterou nelze splnit. Výsledkem je klid, který není klidem, ale
+ochrnutím: nic se nepotvrzuje, nic se nepopírá, a proto se nic nemění.
 
-## See Also
+Kompendium pojem používá k odlišení několika podobných stavů. Stáze je **zablokování
+pohybu**; [kognitivní stagnace](@/glossary/kognitivni-stagnace.md) je zastavení revize
+přesvědčení při zachovaném jednání; [tepelná smrt](@/glossary/heat-death.md) je stav, kdy
+pozice ztratily rozlišitelnost úplně.
 
-- [Glossary index](@/glossary/_index.md)
+## Původ a kontext pojmu
 
----
+Termín je pracovním pojmem Kompendia. Slovo *stasis* má ve filozofii a medicíně dlouhou
+historii (v řecké politické teorii např. označovalo vnitřní rozpor obce, v medicíně
+zastavení toku). Kompendium přebírá obraz **zastaveného toku**.
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Filozoficky se stáze vymezuje proti legitimnímu **zdržení se soudu**. Antický pyrrhonismus,
+jak ho podává Sextus Empeirikos (*Nástin pyrrhonismu*), doporučoval *epoché* – zdržet se
+soudu tam, kde mají protichůdné důvody stejnou váhu – s cílem dosáhnout klidu duše
+([Pyrrhonismus](@/glossary/pyrrhonismus.md)). Pyrrhonik ale dál jednal podle zvyklostí
+a zjevů; jeho suspenze měla mez. Epistemická stáze je suspenzí bez meze a bez úlevy.
+Fenomenologickou [epoché](@/glossary/epoche.md) je třeba odlišit rovněž: ta je metodickým
+krokem, ne stavem.
 
-## Manažerské shrnutí
+Psychologicky má stáze blízko k popisům dvojné vazby (Bateson a spolupracovníci, 1956;
+viz [double bind](@/glossary/double-bind.md)), v níž každá možná odpověď vede k trestu.
 
-**Epistemicka Staze** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Jak se projevuje
 
-## Koncepční síť
+- **Neuzavíratelné vážení.** Člověk dokáže přesně vyjmenovat argumenty pro i proti, ale
+  nedokáže se rozhodnout ani tehdy, kdy to situace vyžaduje.
+- **Každé ano s podmínkou.** „Ano, ale jen kdyby…“ – a podmínka je nesplnitelná.
+- **Prázdný klid.** Stav je popisován jako „zamrznutí“, „nic se neděje“, ne jako vyrovnanost.
+- **Odkládání života.** Léčba, změna práce, odchod z vazby se odkládají „až bude jasno“.
+- **Metaúroveň bez východu.** I otázka „proč se nerozhodnu?“ se stává dalším předmětem
+  nekonečného vážení ([rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md)).
+- **Závislost na vnějším rozhodnutí.** Úlevu přináší jen to, když rozhodne někdo jiný –
+  často ten, kdo stázi udržuje.
 
-Vizualizace propojení **Epistemicka Staze** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+## Mechanismus
 
-```mermaid
-graph TD
-    C0["Epistemicka Staze"]
-    N1["3NL"]
-    N2["Adapter Pattern"]
-    N3["Adversarial Conditions"]
-    N4["Access Control"]
-    N5["Adaptive Learning"]
-    N6["Adversarial Drift"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+Strukturálně vzniká stáze **vyrovnáním všech vah**. V běžném myšlení některé důvody
+převáží a umožní pohyb. Ve stázi je každému důvodu přiřazen stejně silný protidůvod – buď
+prostředím (autorita odpovídá na každý návrh námitkou), nebo naučeným vnitřním vzorcem.
 
-## Související pojmy
+Kompendium rozlišuje tři typické cesty:
 
-- [3NL](@/glossary/3nl.md) — slug `3nl`
-- [Adapter Pattern](@/glossary/adapter-pattern.md) — slug `adapter-pattern`
-- [Adversarial Conditions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-conditions/) — slug `adversarial-conditions`
-- [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/) — slug `access-control`
-- [Adaptive Learning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adaptive-learning/) — slug `adaptive-learning`
-- [Adversarial Drift](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-drift/) — slug `adversarial-drift`
+1. **Apofatická** – každá kladná pozice je negována a negace také
+   ([apofatický modus](@/glossary/apofaticky-modus.md), [EA-5.1.15 Apofatické
+   zacyklení](@/kompendium/techniques/ea-5-1-15-apofaticke-zacykleni.md)).
+2. **Inferenční** – každý závěr vyžaduje další premisu, kterou je třeba zdůvodnit
+   ([EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md),
+   [infinitní regres](@/glossary/infinitni-regress.md)).
+3. **Paradoxní** – volba je postavena tak, že každá možnost porušuje jinou závaznou normu
+   ([EA-5.4.30 Totální paradox volby](@/kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md)).
 
-## Navigace
+Stáze je pro toho, kdo ji udržuje, výhodná: člověk, který se nerozhodne, zůstává
+v dosavadním vztahu, skupině či roli.
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## Odlišení
+
+- **Od [kognitivní stagnace](@/glossary/kognitivni-stagnace.md):** stagnující člověk jedná
+  podle starých přesvědčení; člověk ve stázi nemůže jednat podle žádných.
+- **Od [paralysis by analysis](@/glossary/paralysis-by-analysis.md):** přeanalyzování je
+  běžná, situační potíž, která povolí s časovým tlakem nebo s pomocí. Stáze přetrvává
+  i tam, kde by rozhodnutí bylo snadné.
+- **Od rozumného čekání na informace:** odložit rozhodnutí, dokud nepřijdou výsledky
+  vyšetření, je moudré; stáze čeká na jistotu, která nepřijde.
+- **Od klinických stavů:** depresivní ambivalence, obsedantně-kompulzivní pochybování,
+  katatonní příznaky nebo kognitivní pokles mohou vypadat podobně. Klinik posoudí průběh,
+  kontext a odpověď na léčbu; viz [Akutní kognitivní
+  paralýza](@/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md) pro akutní
+  situace.
+
+## Význam pro Kompendium
+
+Stáze je společným výsledným stavem několika řad technik v [Kapitole 6: Epistemická
+singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) a v [Kapitole 9: Paradoxální
+metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md). Pro praxi je
+pojem důležitý tím, že vysvětluje paradox: člověk ve stázi může působit klidně, rozumně
+a „vyrovnaně“, a přitom být v hlubokém ohrožení – jeho život se zastavil.
+
+**Obecný příklad (anonymizovaný kompozit).** Žena v pozdní fázi kontrolujícího vztahu
+několik let „zvažovala“ odchod. Na každý důvod odejít měla připravený protidůvod, který
+partner kdysi vyslovil: děti, peníze, vlastní „nestabilita“, kterou jí připisoval. Když se
+v podpůrné skupině naučila rozlišit, které protidůvody jsou její a které převzala, rozhodla
+se během několika týdnů.
+
+## Obrana a zotavení
+
+**Pro postiženého:**
+
+- Rozhodovat nejprve malé a vratné věci, u nichž chyba nic nestojí; obnovit zkušenost, že
+  rozhodnutí je možné.
+- Stanovit si lhůtu a postačující kritérium („rozhodnu se podle toho, co vím v pátek“)
+  ([Časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md)).
+- Zjistit, odkud pocházejí protidůvody – zda jsou vlastní, nebo převzaté.
+
+**Pro profesionála:**
+
+- Nevstupovat do nekonečného vážení s klientem; pracovat s tělem, s konkrétní situací
+  a s malými kroky.
+- Nepřebírat rozhodnutí za klienta (to by stázi jen přesunulo), ale pomáhat mu snášet
+  nejistotu rozhodnutí ([Kognitivní flexibilita](@/kompendium/self-defense-guides/8-cognitive-flexibility.md),
+  [EA-6.3.3 Metakognitivní rehabilitace](@/kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md)).
+
+## Literatura
+
+- Sextus Empeirikos. *Nástin pyrrhonismu* (*Pyrrhōneioi hypotypōseis*).
+- Bateson, G., Jackson, D. D., Haley, J., Weakland, J. (1956). Toward a Theory of
+  Schizophrenia. *Behavioral Science*.
+
+## Související
+
+**Odlišované stavy**
+
+- [Kognitivní stagnace](@/glossary/kognitivni-stagnace.md) – zastavení učení, ne jednání.
+- [Heat death](@/glossary/heat-death.md) – terminální stav, kdy pozice splynou.
+- [Rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md) – pochybnost o pochybnosti.
+- [Paralysis by analysis](@/glossary/paralysis-by-analysis.md) – běžná, situační obdoba.
+
+**Cesty ke stázi**
+
+- [Apofatický modus](@/glossary/apofaticky-modus.md) – negace rozšířená na všechno.
+- [Double bind](@/glossary/double-bind.md) – volba, v níž každá odpověď vede k trestu.
+- [EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md)
+  – nekonečné zdůvodňování.
+
+**Rozlišení**
+
+- [Pyrrhonismus](@/glossary/pyrrhonismus.md) – legitimní zdržení se soudu, které má mez.

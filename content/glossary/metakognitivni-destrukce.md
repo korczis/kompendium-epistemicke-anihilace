@@ -110,3 +110,11 @@ Zotavení vyžaduje **podepřenou metakognitivní rehabilitaci** – znovuzavede
 - [Metakognitivní kolaps](@/kompendium/educational-scenarios/24-metacognitive-collapse.md) – výukový scénář.
 - [Metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md) – střednědobý protokol.
 - [Kompendium](@/kompendium/_index.md) – úplná taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: metakognitivni-destrukce](@/kompendium/glossary-bridges/bridge-metakognitivni-destrukce.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

@@ -145,7 +145,7 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní filozofická paradoxologie** — zachovává distancí mezi zkoumajícím a zkoumaným, vede k pojmové jemnosti.
 - **Sokratovská elenchos** — destabilizuje **specifická** přesvědčení s cílem rekonstrukce, nikoli evaluativního aparátu jako takového.
 
-Klíčové pojmové kotvy techniky: **modální logika, Kripke, kontrafaktická sémantika**.
+Klíčové pojmové kotvy techniky: **[modální logika](@/glossary/modalni-logika.md), Kripke, kontrafaktická sémantika**.
 
 ## Vztah k Prismatic platformě
 

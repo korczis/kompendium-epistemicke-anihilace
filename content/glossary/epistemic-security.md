@@ -154,3 +154,11 @@ spojuje jinak nesourodé subsystémy:
   rozměr.
 - [Prevence mediální gramotností](@/kompendium/prevention-resilience/6-media-literacy-prevention.md)
   – společenská obrana.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: epistemic-security](@/kompendium/glossary-bridges/bridge-epistemic-security.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

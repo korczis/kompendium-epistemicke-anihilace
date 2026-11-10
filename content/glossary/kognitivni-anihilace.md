@@ -109,3 +109,11 @@ Pojem umožňuje oddělit dvě otázky, které se v praxi slévají: *jak dobře
 - [Definice](@/kompendium/02-uvod/definice.md) – úplná definice s diagnostickými kritérii.
 - [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) – odlišení od klinických stavů.
 - [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md) – první krok zotavení.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: kognitivni-anihilace](@/kompendium/glossary-bridges/bridge-kognitivni-anihilace.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

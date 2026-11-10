@@ -74,3 +74,11 @@ Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teor
 ---
 
 **Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Firehose of Falsehood (palba lží)](@/glossary/firehose-of-falsehood.md) – heslo glosáře, které tento most propojuje s knihou
+
+<!-- kompendium:odvozene-vazby:end -->

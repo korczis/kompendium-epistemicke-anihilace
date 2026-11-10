@@ -20,7 +20,7 @@ toc = false
 
 > WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled. Detailní operační rámec je v plném článku.
 
-**Doména**: Epistemická singularita — destrukce schopnosti rozlišit vlastní epistemickou produkci od epistemické produkce manipulátora.
+**Doména**: [Epistemická singularita](@/glossary/epistemicka-singularita.md) — destrukce schopnosti rozlišit vlastní epistemickou produkci od epistemické produkce manipulátora.
 
 ## Definice
 

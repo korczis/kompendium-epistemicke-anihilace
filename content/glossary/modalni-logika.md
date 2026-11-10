@@ -1,80 +1,152 @@
 +++
-title = "Modalni Logika"
+title = "Modální logika"
 weight = 100
-description = "Modalni Logika — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie psychology."
+description = "Logika nutnosti, možnosti, vědění, povinnosti a času; v Kompendiu nástroj, jak rozpoznat manipulativní záměnu „může být“ za „je“ a „mohl bys“ za „musíš“."
 
 [taxonomies]
-tags = ["glossary", "psychology", "interactive"]
+tags = ["glossary", "kompendium", "philosophy", "epistemic", "mathematics"]
 
 [extra]
-category = "psychology"
-related_terms = ["3nl", "adapter-pattern", "adaptive-learning", "access-control", "acid-transactions", "academy"]
+category = "philosophy"
+related_terms = ["logicka-koherence", "inference", "logic-prolog", "trinity-gate", "tautologie", "self-reference"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 ref_count_at_creation = 1
 +++
 
-## Definition
+## Definice
 
-**Modalni Logika** je termín z oblasti psychologie a fenomenologie používaný v Prismatic Kompendiu pro analýzu manipulačních vzorců, identitních dynamik a epistemických procesů. Tato položka je strukturálním stub zápisem — plná definice, klinické příklady a integrace do EA taxonomie jsou součástí probíhající kompendiální výstavby.
+**Modální logika** je obor logiky, který zkoumá výroky obsahující **modality** – způsoby,
+jimiž je něco pravdivé. Klasická logika pracuje s tím, zda výrok platí, nebo neplatí. Modální
+logika rozlišuje, zda něco platí **nutně**, nebo jen **možná**; a v rozšířeních i to, zda
+to **víme**, zda to **má** platit, nebo zda to platí **vždy** či **někdy**.
 
-## See Also
+Základními operátory jsou nutnost (□, „je nutné, že“) a možnost (◇, „je možné, že“), které
+jsou vzájemně propojeny: něco je nutné právě tehdy, když není možné, aby to neplatilo.
 
-- [Glossary index](@/glossary/_index.md)
+| druh modality | typický výraz | příklad |
+|---|---|---|
+| aletická (logická, metafyzická) | nutně, možná | „Je možné, že prší.“ |
+| epistemická | vím, je jisté, nevylučuji | „Nevím, že neprší.“ |
+| deontická | musíš, smíš, nesmíš | „Měl bys zůstat.“ |
+| temporální | vždy, někdy, už nikdy | „Vždycky to tak bude.“ |
+| doxastická | věřím, domnívám se | „Věřím, že přijde.“ |
 
----
+Pro Kompendium je modální logika užitečná hlavně jako **diagnostický slovník**: umožňuje
+přesně popsat, kdy se v řeči nenápadně mění druh nebo síla modality.
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+## Původ a kontext pojmu
 
-## Manažerské shrnutí
+Úvahy o nutnosti a možnosti sahají k Aristotelovi. Moderní modální logiku založil **C. I.
+Lewis** systémy striktní implikace (*Symbolic Logic*, s C. H. Langfordem, 1932). Rozhodující
+sémantiku „možných světů“ vypracoval **Saul Kripke** (od roku 1959): výrok je nutný, platí-li
+ve všech světech dostupných z daného světa, a možný, platí-li aspoň v jednom. **Georg Henrik
+von Wright** položil základy deontické logiky („Deontic Logic“, 1951), **Jaakko Hintikka**
+logiky epistemické (*Knowledge and Belief*, 1962) a **Arthur Prior** logiky temporální.
 
-**Modalni Logika** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+V Prismatic Platform, z níž Kompendium vzešlo, se formální logika uplatňuje při ověřování
+tvrzení ([Trinity Gate](@/glossary/trinity-gate.md), [Logic Prolog](@/glossary/logic-prolog.md));
+pro knihu je podstatná především její schopnost zpřesnit, co přesně kdo tvrdí.
 
-## Koncepční síť
+## Jak se projevuje
 
-Vizualizace propojení **Modalni Logika** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+V knize nejde o projevy logiky samotné, ale o **modální posuny** v řeči, které lze pozorovat:
 
-```mermaid
-graph TD
-    C0["Modalni Logika"]
-    N1["3NL"]
-    N2["Adapter Pattern"]
-    N3["Adaptive Learning"]
-    N4["Access Control"]
-    N5["ACID Transactions"]
-    N6["Academy"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+- **Z možnosti na skutečnost.** „Mohl by tě zradit“ → „zradí tě“ → „zradil tě“, bez nového důkazu.
+- **Z nevědění na vědění.** „Nemůžeš vědět, že to tak nebylo“ je použito jako důkaz, že to
+  tak bylo.
+- **Z doporučení na povinnost.** „Bylo by dobré…“ se během rozhovoru stane „musíš“, a
+  odmítnutí je pak vykládáno jako porušení.
+- **Z jednou na vždy.** „Tentokrát jsi selhal“ → „vždycky selžeš“; temporální zobecnění
+  vytváří bezvýchodnost.
+- **Nutnost bez důvodu.** „Tak to prostě je“, „jinak to být nemůže“ – nutnost je tvrzena
+  tam, kde jde o volbu nebo konvenci.
+- **Rozmazání modalit.** Řeč se pohybuje mezi „možná“, „určitě“ a „musí“ tak rychle, že
+  posluchač ztrácí přehled, co bylo vlastně řečeno.
 
-## Související pojmy
+## Mechanismus
 
-- [3NL](@/glossary/3nl.md) — slug `3nl`
-- [Adapter Pattern](@/glossary/adapter-pattern.md) — slug `adapter-pattern`
-- [Adaptive Learning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adaptive-learning/) — slug `adaptive-learning`
-- [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/) — slug `access-control`
-- [ACID Transactions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/acid-transactions/) — slug `acid-transactions`
-- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/) — slug `academy`
+Strukturálně modální posuny působí proto, že běžná řeč modality **neoznačuje přesně**.
+Posluchač doplňuje sílu tvrzení z tónu, kontextu a autority mluvčího. Kde autorita
+soustavně posouvá modalitu směrem k nutnosti a povinnosti, vzniká svět, v němž je méně
+možností, než ve skutečnosti existuje.
 
-## Navigace
+Kompendium popisuje dva vzorce. [EA-5.1.11 Modální dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md)
+narušuje schopnost rozlišit skutečné, možné a nutné – člověk pak nedokáže posoudit,
+co se opravdu stalo a co jen mohlo nastat. [EA-5.4.23 Aplikace modálního
+paradoxu](@/kompendium/techniques/ea-5-4-23-modalni-paradox-aplikace.md) staví člověka před
+požadavky, které nemohou být současně splnitelné. Obojí souvisí s [logickou
+koherencí](@/glossary/logicka-koherence.md): kde se modality mísí, mohou vedle sebe stát
+tvrzení, která by si při přesném čtení odporovala.
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## Odlišení
+
+- **Od běžné nepřesnosti řeči:** všichni občas přeháníme („vždycky přijdeš pozdě“); posun
+  se stává vzorcem, když je soustavný, jednosměrný a slouží kontrole.
+- **Od legitimního odhadu rizika:** říct „je možné, že se nemoc vrátí“ je poctivé; problém
+  nastává, když se z možnosti vyvozuje povinnost nebo vina.
+- **Od úzkostného myšlení:** katastrofizace („co kdyby…“) mění možnost v jistotu i bez
+  vnějšího vlivu; je předmětem kognitivně-behaviorální terapie.
+- **Od paranoidních stavů:** posun od možnosti k jistotě u bludů má klinický charakter
+  a vyžaduje psychiatrické posouzení.
+
+## Význam pro Kompendium
+
+Modální logika dává čtenáři **přesné otázky**: Je to nutné, nebo možné? Víme to, nebo to jen
+nelze vyloučit? Je to povinnost, nebo doporučení? Platí to vždy, nebo tentokrát? Tyto otázky
+lze použít v rozhovoru s klientem, při analýze výpovědí ([Posuzování
+věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md)) i při čtení
+manipulativních textů. Pojem se uplatňuje v kartě [EA-5.1.11](@/kompendium/quick-reference/qr-ea-5-1-11.md)
+a souvisí s řadou paradoxů v [Kapitole 9](@/kompendium/05-ultramari-techniky/kapitola-9.md).
+
+**Obecný příklad (anonymizovaný kompozit).** V rozhovorech s vedoucím týmu se pracovník
+postupně dozvídal, že „by mohl ztratit důvěru“, pak že „ji ztrácí“ a nakonec že „ji ztratil
+už dávno“. Žádná konkrétní událost se nestala. Když si s poradkyní rozepsal výroky podle
+modality, poprvé viděl, že tvrzení zesilovalo samo, bez důvodů.
+
+## Obrana a zotavení
+
+**Pro jednotlivce:**
+
+- Přepsat si důležitá tvrzení a u každého označit modalitu: *je / může být / musí / vím / věřím*.
+- Ptát se: „Jak víš, že to *musí* být takhle?“ a „Co by se stalo, kdybych *nemusel*?“
+- Hledat, co by tvrzení vyvrátilo ([Falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md),
+  [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md)).
+
+**Pro profesionála:**
+
+- V terapii vracet modality na jejich místo: z „vždycky“ na „tentokrát“, z „musím“ na „chci /
+  nechci“. Tento postup je blízký kognitivní restrukturalizaci.
+- Při forenzní práci zaznamenávat modalitu výpovědí doslovně; posun mezi „možná“ a „určitě“
+  je důležitým údajem.
+
+## Literatura
+
+- Lewis, C. I., Langford, C. H. (1932). *Symbolic Logic*.
+- von Wright, G. H. (1951). Deontic Logic. *Mind*.
+- Hintikka, J. (1962). *Knowledge and Belief*.
+
+## Související
+
+**Logika a argumentace**
+
+- [Logická koherence](@/glossary/logicka-koherence.md) – soudržnost tvrzení, kterou modální
+  posuny narušují.
+- [Inference](@/glossary/inference.md) – vyvozování, při němž modality hrají roli.
+- [Tautologie](@/glossary/tautologie.md) – výrok nutně pravdivý z formy.
+- [Self reference](@/glossary/self-reference.md) – sebe-vztažnost, zdroj modálních paradoxů.
+
+**Techniky**
+
+- [EA-5.1.11 Modální dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md)
+  – narušení rozlišení skutečného, možného a nutného.
+- [EA-5.4.23 Aplikace modálního paradoxu](@/kompendium/techniques/ea-5-4-23-modalni-paradox-aplikace.md)
+  – nesplnitelné požadavky.
+
+**Platforma a ověřování**
+
+- [Trinity Gate](@/glossary/trinity-gate.md) – formální ověřování tvrzení v Prismatic Platform.
+- [Sebe-obrana: Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md)
+  – praktické ověření, co je skutečně doloženo.

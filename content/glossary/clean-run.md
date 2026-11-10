@@ -483,3 +483,11 @@ Coverage*, *Property-Based Testing* a *Quality Gates*.
   – lidská podoba šumu, v němž zaniká signál.
 - [Řízení pozornosti](@/kompendium/self-defense-guides/9-attention-management.md) – péče
   o poměr signálu a šumu v každodenním životě.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: clean-run](@/kompendium/glossary-bridges/bridge-clean-run.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

@@ -10,70 +10,14 @@
   "related",
   "detail"
  ],
- "content/glossary/body-schema.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/core-consciousness.md": [
-  "detail",
-  "generated"
- ],
  "content/glossary/decision-core.md": [
   "detail"
  ],
  "content/glossary/decision-engine.md": [
   "detail"
  ],
- "content/glossary/ding-an-sich.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/discard.md": [
-  "detail",
-  "generated"
- ],
  "content/glossary/doctrine.md": [
   "detail"
- ],
- "content/glossary/epistemicka-agentnost.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/epistemicka-bezdomovost.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/epistemicka-komunita.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/epistemicka-monokultura.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/epistemicka-regrese.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/epistemicka-reintegrace.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/epistemicka-singularita.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/epistemicka-slepota.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/epistemicka-staze.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/epistemicke-zakladny.md": [
-  "detail",
-  "generated"
  ],
  "content/glossary/fllm.md": [
   "detail"
@@ -81,55 +25,19 @@
  "content/glossary/gitl.md": [
   "detail"
  ],
- "content/glossary/hermeneuticka-eroze.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/hermeneuticky-outsourcing.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/husserl-retence.md": [
-  "detail",
-  "generated"
- ],
  "content/glossary/intencionalita.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/interocepce.md": [
   "detail",
   "generated"
  ],
  "content/glossary/know.md": [
   "detail"
  ],
- "content/glossary/konceptualni-anihilace.md": [
-  "detail",
-  "generated"
- ],
  "content/glossary/lakatos.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/love-bombing.md": [
   "detail",
   "generated"
  ],
  "content/glossary/m5m.md": [
   "detail"
- ],
- "content/glossary/modalni-logika.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/narativni-terapie.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/narativni-topologie.md": [
-  "detail",
-  "generated"
  ],
  "content/glossary/nclb.md": [
   "detail"
@@ -137,54 +45,17 @@
  "content/glossary/nwb.md": [
   "detail"
  ],
- "content/glossary/pasivni-synteza.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/polyvagalni-teorie.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/pseudoempaticka-vazba.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/reality-testing.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/retraumatizace.md": [
-  "detail",
-  "generated"
- ],
  "content/glossary/seal.md": [
   "detail"
  ],
- "content/glossary/secure-attachment.md": [
-  "detail",
-  "generated"
- ],
- "content/glossary/strukturalni-trauma.md": [
-  "detail",
-  "generated"
- ],
  "content/glossary/tach.md": [
   "detail"
- ],
- "content/glossary/three-nested-loops.md": [
-  "detail",
-  "generated"
  ],
  "content/glossary/zero.md": [
   "detail"
  ],
  "content/kompendium/01-predmluva/_index.md": [
   "detail"
- ],
- "content/kompendium/02-identitarni-manipulace.md": [
-  "links-out",
-  "detail",
-  "generated"
  ],
  "content/kompendium/02-uvod/_index.md": [
   "detail"
@@ -196,50 +67,6 @@
   "detail",
   "generated"
  ],
- "content/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/03-zakladni-kategorie/delegitimizace.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/03-zakladni-kategorie/falsifikovatelnost.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/03-zakladni-kategorie/fenomenologie.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/03-zakladni-kategorie/hermeneutika.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/03-zakladni-kategorie/intencionalita.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/03-zakladni-kategorie/lakatos.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/03-zakladni-kategorie/lebenswelt.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/03-zakladni-kategorie/metakognice.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/03-zakladni-kategorie/somaticke-vektory.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/03-zakladni-kategorie/tom-exploitation.md": [
-  "detail",
-  "generated"
- ],
  "content/kompendium/03-zakladni-kategorie/visualizations.md": [
   "not-orphan",
   "detail"
@@ -248,42 +75,10 @@
   "not-orphan",
   "detail"
  ],
- "content/kompendium/05-ultramari-techniky/motte-bailey.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/05-ultramari-techniky/narrativni-trauma.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/05-ultramari-techniky/sealioning.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/05-ultramari-techniky/weaponized-incompetence.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/06-klinicke-aplikace/observational-assessment.md": [
-  "detail",
-  "generated"
- ],
  "content/kompendium/06-klinicke-aplikace/visualizations.md": [
   "detail"
  ],
  "content/kompendium/07-populacni/_index.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/07-populacni/propaganda.md": [
   "detail",
   "generated"
  ],
@@ -292,10 +87,6 @@
  ],
  "content/kompendium/08-prilohy/diagnosticke-nastroje.md": [
   "related"
- ],
- "content/kompendium/08-prilohy/dual-use.md": [
-  "detail",
-  "generated"
  ],
  "content/kompendium/08-prilohy/eticky-kodex.md": [
   "related"
@@ -803,7 +594,6 @@
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-censys.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-clean-run.md": [
@@ -813,215 +603,162 @@
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-color-teams.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-communicative-rationality.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-companion.md": [
-  "czech",
-  "detail",
-  "generated"
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-darvo.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-decision-engine.md": [
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-deepfake.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-delegitimizace.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-deplatforming.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-differance.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-disociace.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-dual-use-poznani.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-easm.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-embodied-cognition.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-entity-resolution.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemic-bubble.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemic-pipeline.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemic-security.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicka-alienace.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicka-anihilace.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicka-injustice.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicka-pokora.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemicke-trauma.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-epoche.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-eticky-ramec.md": [
-  "detail",
-  "generated"
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-exit.md": [
-  "czech",
-  "detail",
-  "generated"
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-falsifikace.md": [
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-fenomenologie.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-firehose-of-falsehood.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-four-noble-truths.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-gaslighting.md": [
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-gestalt-shift.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-gish-gallop.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-gray-team.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-greynoise.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-hawkeye.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-hermeneutika.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-hyperreality.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-iatrogenic-harm.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-ideal-speech-situation.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-info-ops.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-instrumental-reason.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-intelligence-fusion.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-intentionalita.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-kognitivni-anihilace.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-kognitivni-anti-rekurzivita.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-kompendium-ea.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-kontraindikace.md": [
-  "czech",
-  "detail",
-  "generated"
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-lakatos-vyzkumny-program.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-lebenswelt.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-mereologicka-rekonstrukce.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-metakognice.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-metakognitivni-destrukce.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-metanarrative-collapse.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-motte-and-bailey.md": [
@@ -1031,161 +768,121 @@
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-narrative-identity.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-narrative-trauma.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-nm-nd.md": [
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-ontologicka-anihilace.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-osint.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-panopticism.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-power-knowledge.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-predictive-processing.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-propaganda.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-purple-team.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-qdp.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-qeve.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-quality-debt.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-readiness.md": [
-  "czech",
-  "detail",
-  "generated"
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-red-team.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-regression-test.md": [
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-replication-crisis.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-risk-score.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-sanctions-screening.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-sealioning.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-session-discipline.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-shodan.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-simulacra.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-strategic-command.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-supreme-commander.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-tactical-execution.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-taxonomie-ea.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-theory-of-mind.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-threshold.md": [
-  "czech",
-  "detail",
-  "generated"
+  "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-trinity-gate.md": [
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-violation-protocol.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-weaponized-incompetence.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-white-team.md": [
-  "diacritics",
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/bridge-zero-warning-policy.md": [
-  "diacritics",
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/glossary-bridges/delegitimizace.md": [
-  "detail",
-  "generated"
+  "detail"
  ],
  "content/kompendium/glossary-bridges/epistemicke-trauma.md": [
-  "detail",
-  "generated"
+  "detail"
  ],
  "content/kompendium/glossary-bridges/falsifikace.md": [
-  "detail",
-  "generated"
+  "detail"
  ],
  "content/kompendium/glossary-bridges/gaslighting.md": [
-  "detail",
-  "generated"
+  "detail"
  ],
  "content/kompendium/glossary-bridges/taxonomie-ea.md": [
-  "detail",
-  "generated"
+  "detail"
  ],
  "content/kompendium/organizational-defense/1-board-resilience.md": [
   "description",
@@ -1637,7 +1334,6 @@
   "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-3-9.md": [
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/quick-reference/qr-ea-2-4-1.md": [
@@ -1866,18 +1562,6 @@
   "related",
   "detail"
  ],
- "content/kompendium/recovery-protocols/duvera.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/recovery-protocols/incompetence.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/recovery-protocols/lifeworld.md": [
-  "detail",
-  "generated"
- ],
  "content/kompendium/recovery-protocols/longterm-altruistic-channeling.md": [
   "related",
   "detail"
@@ -1926,22 +1610,6 @@
   "related",
   "detail"
  ],
- "content/kompendium/recovery-protocols/narativ.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/recovery-protocols/paradigm.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/recovery-protocols/pokora.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/recovery-protocols/ramce.md": [
-  "detail",
-  "generated"
- ],
  "content/kompendium/recovery-protocols/recovery-adolescent-protocol.md": [
   "related",
   "detail"
@@ -1966,14 +1634,6 @@
   "related",
   "detail"
  ],
- "content/kompendium/recovery-protocols/sealioning.md": [
-  "detail",
-  "generated"
- ],
- "content/kompendium/recovery-protocols/sekvence.md": [
-  "detail",
-  "generated"
- ],
  "content/kompendium/recovery-protocols/subacute-axiological-restoration.md": [
   "related",
   "detail"
@@ -1997,10 +1657,6 @@
  "content/kompendium/recovery-protocols/subacute-trust-rebuilding.md": [
   "related",
   "detail"
- ],
- "content/kompendium/recovery-protocols/trauma.md": [
-  "detail",
-  "generated"
  ],
  "content/kompendium/research-methodology/IPA-EA.md": [
   "detail"
@@ -2104,12 +1760,10 @@
  ],
  "content/kompendium/section-bridges/bridge-01-to-04-eticky-ramec-protokoly.md": [
   "related",
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/section-bridges/bridge-01-to-05-eticky-ramec-ultramari.md": [
   "related",
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/section-bridges/bridge-02-to-03-uvod-zakladni-kategorie.md": [
@@ -2190,12 +1844,10 @@
  ],
  "content/kompendium/section-bridges/bridge-case-studies-to-glossary-bridges.md": [
   "related",
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/section-bridges/bridge-glossary-bridges-to-philosophy.md": [
   "related",
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/section-bridges/bridge-platform-decision-engine-to-kompendium.md": [
@@ -2210,7 +1862,6 @@
  ],
  "content/kompendium/section-bridges/bridge-quick-reference-to-glossary.md": [
   "related",
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/section-bridges/bridge-techniques-to-case-studies.md": [
@@ -2220,7 +1871,6 @@
  ],
  "content/kompendium/section-bridges/bridge-techniques-to-glossary.md": [
   "related",
-  "not-orphan",
   "detail"
  ],
  "content/kompendium/section-bridges/bridge-techniques-to-quick-reference.md": [
@@ -2625,9 +2275,6 @@
  "content/kompendium/techniques/ea-4-1-10-debriefing-cascade.md": [
   "not-orphan"
  ],
- "content/kompendium/techniques/ea-4-1-7-termination-criteria.md": [
-  "not-orphan"
- ],
  "content/kompendium/techniques/ea-4-1-8-supervisor-rotation.md": [
   "not-orphan"
  ],
@@ -2644,9 +2291,6 @@
   "not-orphan"
  ],
  "content/kompendium/techniques/ea-4-4-7-moral-self-suspension.md": [
-  "not-orphan"
- ],
- "content/kompendium/techniques/ea-4-4-9-narrative-reconstruction.md": [
   "not-orphan"
  ],
  "content/kompendium/techniques/ea-5-1-26.md": [

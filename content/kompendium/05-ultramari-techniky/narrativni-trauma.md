@@ -1,111 +1,148 @@
 +++
-title = "Narrativni Trauma"
+title = "Narativní trauma – poškození životního příběhu"
 weight = 100
-description = "Narrativni Trauma — pojem v sekci kompendium/05-ultramari-techniky znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Narativní trauma v sekci 05: jak dlouhodobá manipulace rozkládá a přepisuje životní příběh člověka, jak to rozpoznat, odlišit od klinických stavů a jak příběh obnovit."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "ultramari", "trauma", "identity"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["kapitola-10", "motte-bailey", "kapitola-6", "kapitola-8", "kapitola-9", "weaponized-incompetence"]
+related_terms = ["narrative-trauma", "narrative-identity", "narativni-identita", "internalizovany-pachatel", "narativni-terapie", "c-ptsd"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Definice
+# Narativní trauma – poškození životního příběhu
 
-**Narrativni Trauma** patří mezi **ultramari techniky** (sekce 05 Prismatic Kompendia) — kategorii high-severity epistemických útoků, které kombinují více útočných vektorů současně a vyžadují koordinovanou víceúrovňovou obranu. Ultramari techniky překračují individuální epistemické útoky a pracují na úrovni celé interakce, narativu nebo identity oběti.
+> **Pozice v sekci 05**: [ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) zasahují
+> podmínky poznávání. Narativní trauma sem patří, protože nezasahuje jednotlivou vzpomínku, ale
+> **strukturu, v níž člověk své zkušenosti spojuje v souvislý příběh** – a tím i identitu poznávajícího.
+> Definice pojmu je v hesle [Narrative trauma](@/glossary/narrative-trauma.md); terapeutickou cestu
+> popisuje protokol [Narativ](@/kompendium/recovery-protocols/narativ.md).
 
-{% <callout type="warning"> %}
-Ultramari techniky mají **severity = HIGH**. Klinická konzultace je doporučena při dlouhodobé expozici. Recovery protokoly v sekci `recovery-protocols/` jsou navrženy pro extrakci z těchto vzorců.
-{% </callout> %}
+## Vymezení
 
-## Anatomie útoku
+Člověk rozumí sám sobě skrze příběh: odkud přichází, co prožil, proč se rozhodoval tak, jak se
+rozhodoval, a kam směřuje. Psychologie tento rozměr nazývá [narativní identitou](@/glossary/narativni-identita.md)
+(Dan P. McAdams), filozofie ho rozpracovala zejména u Paula Ricoeura. **Narativním traumatem**
+kniha označuje poškození této struktury: příběh se rozpadne na fragmenty, je přepsán cizím výkladem,
+nebo ztratí kontinuitu, takže člověk sám sobě přestane rozumět.
 
-Mechanismus **Narrativni Trauma** typicky zahrnuje tři fáze:
+Narativní trauma může vzniknout i po jediné drtivé události. Kniha se zabývá jeho **indukovanou**
+podobou, kdy manipulativní prostředí příběh soustavně rozkládá a nahrazuje.
 
-1. **Setup phase** — útočník etabluje rámec, který činí standardní obranné mechanismy oběti irelevantními nebo invertuje jejich smysl
-2. **Eskalační fáze** — útočník vystupňuje tlak nebo nejednoznačnost, dokud oběť nezačne pochybovat o vlastním úsudku
-3. **Konsolidační fáze** — útočník upevní novou epistemickou pozici jako „normální“ nebo „samozřejmou“, takže návrat k původnímu stavu vyžaduje externí intervenci
+## Mechanismus (strukturální popis)
 
-Detailní analýza jednotlivých fází je dokumentována v technique-level článcích (`techniques/ea-X-X-X.md`) a v detection-signature záznamech.
+Kniha rozlišuje čtyři strukturální procesy, které se obvykle kombinují:
 
-## Detekční signatura
+1. **Rozklad** – vazby mezi událostmi jsou přerušeny; minulost je předkládána jako řada izolovaných
+   selhání bez souvislosti. Terminální podobu popisuje [Narrative disassembly (EA-4.4.1)](@/kompendium/techniques/ea-4-4-1-narrative-disassembly.md).
+2. **Rekontextualizace** – tytéž události dostanou nový smysl: dětství jako „doba temnoty“, přátelství
+   jako „závislost“, vlastní úspěchy jako „pýcha“; viz [Biographical recontextualization](@/kompendium/techniques/ea-4-4-4-biographical-recontextualization.md).
+3. **Časové rozpojení** – přerušení kontinuity mezi „dříve“ a „nyní“; člověk nemá přístup k tomu,
+   kým byl; viz [Temporal self-disruption](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md)
+   a [Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md).
+4. **Náhrada** – vlastní příběh je nahrazen příběhem skupiny nebo partnera, v němž je člověk jen
+   postavou; krajní podobou je [Singulární narativní kolaps](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md).
 
-Operační detekce **Narrativni Trauma** se opírá o behaviorální a lingvistické markery dokumentované v [detection-signatures/](@/kompendium/detection-signatures/_index.md). Analytik hledá diskrepance mezi:
+Výsledný cizí výklad se často usadí jako vnitřní hlas – v knize [internalizovaný pachatel](@/glossary/internalizovany-pachatel.md).
 
-- explicitním obsahem výroku a implicitním rámcem (motte-bailey vzorec)
-- rychlostí přechodu mezi pozicemi ([sealioning](@/glossary/sealioning.md) timing)
-- asymetrií v důkazních standardech mezi vlastními a oponentovými tvrzeními
+## Fáze průběhu
 
-## Counter-protokol
+1. **Idealizace nového příběhu** – skupina nebo partner nabídne příběh, v němž má život smysl.
+2. **Znehodnocení starého** – minulost je postupně přepisována jako omyl.
+3. **Monopol výkladu** – jen autorita smí určit, co události znamenají.
+4. **Fragmentace** – při rozporech (zrada, odchod, selhání slibu) se nový příběh rozpadne a starý
+   už není dostupný.
 
-Ochrana proti **Narrativni Trauma** vyžaduje:
+## Detekční znaky
 
-- **Externalizaci epistemických procesů** — peer review, dokumentační stopy, časové razítko
-- **Strukturní přerušení interakce** — stop-pravidla, time-outs, externí mediace
-- **Rekonstruktivní práci po expozici** — viz [recovery-protocols/](@/kompendium/recovery-protocols/_index.md), zejména protokoly orientované na narativ a paradigm-rebuilding
-<!-- EXPANDED:PHASE11 -->
+- Vyprávění v útržcích, bez přechodů a časové orientace; viz
+  [Fragmentace narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md).
+- Minulost před expozicí chybí nebo je popsaná jen negativně a slovníkem skupiny.
+- Vlastní život je vyprávěn ve třetí osobě nebo v „my“; viz
+  [Inverze zájmen](@/kompendium/detection-signatures/5-linguistic-pronoun-inversion.md).
+- Klient neví, „proč“ udělal zásadní rozhodnutí, nebo uvádí důvody, které mu byly vnuknuty.
+- [Temporální dezorientace](@/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md)
+  a [Fragmentace identity](@/kompendium/detection-signatures/30-phenomenological-identity-fragmentation.md).
 
-## See Also
+## Odlišení
 
-- [Parent section](@/kompendium/05-ultramari-techniky/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+- **Posttraumatická stresová porucha a komplexní PTSD**: fragmentace traumatických vzpomínek je
+  jejich známou součástí. Narativní trauma v pojetí knihy se týká celého životního příběhu a jeho
+  výkladu, nejen traumatických událostí; obě se často kombinují (viz [C-PTSD](@/glossary/c-ptsd.md)).
+- **Disociativní poruchy**: amnézie a fragmentace identity vyžadují odbornou diagnostiku; viz
+  [Disociativní amnézie](@/glossary/dissociativni-amnezie.md).
+- **Legitimní přehodnocení minulosti**: terapie, konverze nebo zrání mohou vést k novému výkladu
+  vlastního života. Rozdíl je v tom, zda nový výklad je vlastní, zda zachovává kontinuitu a zda
+  připouští revizi.
+- **Neurokognitivní poruchy**: ztráta autobiografické paměti z organických příčin.
 
----
+## Klinický a forenzní rámec
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+V klinické praxi se narativní trauma zjišťuje rozhovorem o životní historii a časové ose; metodiku
+popisuje [Biographical timeline rekonstrukce](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md).
+Léčba stojí na stabilizaci, rekonstrukci chronologie s oporou v dokladech, externalizaci cizího
+výkladu a zpracování traumatických scén ověřenými metodami; viz [Narrative therapy protokol](@/kompendium/techniques/ea-6-2-5-narrative-therapy-protokol.md).
 
-## Manažerské shrnutí
+Ve forenzním kontextu má narativní trauma dvojí význam: fragmentovaná výpověď **není sama o sobě
+známkou nevěrohodnosti** a zároveň je nutné chránit výpověď před sugescí během terapie. Viz
+[Disociace ve forenzní praxi](@/kompendium/forensic-legal/3-dissociation-forensic.md) a
+[Rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md).
 
-**Narrativni Trauma** je aktivní uzel taxonomického grafu sekce `kompendium/05-ultramari-techniky` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Obrana
 
-## Koncepční síť
+- Udržovat **vlastní záznamy** – deník, fotografie, dopisy – jako kotvy kontinuity; viz
+  [Paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md).
+- Udržovat **vztahy s lidmi, kteří znají mou minulost**.
+- Všímat si, **kdo vykládá** můj život a zda mohu výklad odmítnout.
+- Opora: [Obrana osobní mytologie](@/kompendium/self-defense-guides/50-personal-mythology-defense.md)
+  a [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md).
 
-Vizualizace propojení **Narrativni Trauma** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+## Zotavení
 
-```mermaid
-graph TD
-    C0["Narrativni Trauma"]
-    N1["Kapitola 10: Transkonceptuální mechanismy"]
-    N2["Motte Bailey"]
-    N3["Kapitola 6: Epistemická singularita"]
-    N4["Kapitola 8: Hypertransformativní protokoly"]
-    N5["Kapitola 9: Paradoxální metaanihilační protokoly"]
-    N6["Weaponized Incompetence"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+Cílem není nový „správný“ příběh, ale příběh **vlastní, souvislý a revidovatelný**, v němž je období
+expozice jednou kapitolou. Podrobně protokol [Narativ](@/kompendium/recovery-protocols/narativ.md),
+fázový modul [Subakutní narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md)
+a technika [Narrative reconstruction (EA-4.4.9)](@/kompendium/techniques/ea-4-4-9-narrative-reconstruction.md).
 
-## Související pojmy
+## Kazuistika (anonymizovaný kompozit)
 
-- [Kapitola 10: Transkonceptuální mechanismy](@/kompendium/05-ultramari-techniky/kapitola-10.md) — slug `kapitola-10`
-- [Motte Bailey](@/kompendium/05-ultramari-techniky/motte-bailey.md) — slug `motte-bailey`
-- [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) — slug `kapitola-6`
-- [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md) — slug `kapitola-8`
-- [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md) — slug `kapitola-9`
-- [Weaponized Incompetence](@/kompendium/05-ultramari-techniky/weaponized-incompetence.md) — slug `weaponized-incompetence`
+Muž po patnácti letech v náboženské komunitě, kterou opustil po rozpadu manželství, nedokáže
+vyprávět o svém životě souvisle: dětství označuje jako „dobu před probuzením“, o které „nemá smysl
+mluvit“, a období v komunitě jako řadu „zkoušek“. Při práci s časovou osou se objeví fotografie
+z vojny, z prvního zaměstnání a z doby, kdy hrál fotbal. Postupně dokáže vyprávět příběh, v němž
+komunita je dlouhou, ale ohraničenou kapitolou – a v němž je on sám autorem rozhodnutí, ne postavou
+cizího scénáře.
 
-## Navigace
+## Meze a otevřené otázky
 
-- **Nadřazená sekce**: [kompendium/05-ultramari-techniky](@/kompendium/05-ultramari-techniky/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Kapitola 10: Transkonceptuální mechanismy](@/kompendium/05-ultramari-techniky/kapitola-10.md)
-  - [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)
-  - [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)
-  - [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md)
-  - [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+Narativní trauma není samostatnou diagnózou v MKN ani DSM; je to analytický pojem knihy. Narativní
+soudržnost se nerovná pravdivosti a terapie musí chránit před vznikem sugerovaných vzpomínek
+(srov. [Hnutí znovuobjevených vzpomínek](@/kompendium/historical-cases/37-recovered-memory.md)).
+
+## Související
+
+**Pojmy**
+
+- [Narrative trauma (heslo)](@/glossary/narrative-trauma.md) – definice pojmu.
+- [Narrative identity](@/glossary/narrative-identity.md) – identita jako příběh.
+- [Bridge: Narrative trauma](@/kompendium/glossary-bridges/bridge-narrative-trauma.md) – propojení hesla s knihou.
+
+**Techniky**
+
+- [Narrative disassembly (EA-4.4.1)](@/kompendium/techniques/ea-4-4-1-narrative-disassembly.md) – rozklad příběhu.
+- [Self-narrative replacement](@/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md) – náhrada vlastního příběhu.
+
+**Příbuzné vzorce a přehledy**
+
+- [Identitární manipulace](@/kompendium/02-identitarni-manipulace.md) – přehled tématu identity.
+- [Motte and bailey](@/kompendium/05-ultramari-techniky/motte-bailey.md) – nestabilita významů, která výklad podkopává.
+
+**Zotavení**
+
+- [Narativ](@/kompendium/recovery-protocols/narativ.md) – protokol rekonstrukce příběhu.
+- [Integrace životního příběhu](@/kompendium/self-defense-guides/45-life-story-integration.md) – svépomocná práce.

@@ -197,7 +197,7 @@ Scénář kolektivní epistemické delegitimizace reprezentuje systematický pro
 
 #### Strukturální charakteristiky F
 
-- **Cíl**: Epistemická komunita, tj. skupina sdílející společné standardy, praktiky a autority
+- **Cíl**: [Epistemická komunita](@/glossary/epistemicka-komunita.md), tj. skupina sdílející společné standardy, praktiky a autority
 - **Vektor**: Simultánně „zvenčí“ (externí diskreditace) a „zevnitř“ (vyvolaný interní nesoulad)
 - **Progrese**: Od periferie (vulnerabilní členové) směrem k jádru (etablované autority)
 - **Charakteristický efekt**: Fragmentace na kompetitivní epistemické frakce

@@ -1,103 +1,136 @@
 +++
-title = "Somaticke Vektory"
+title = "Somatické vektory – tělo jako kanál epistemického vlivu"
 weight = 100
-description = "Somaticke Vektory — pojem v sekci kompendium/03-zakladni-kategorie znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Somatické vektory jako analytická kategorie knihy: jak tělesný stav, spánek, vyčerpání a prostorová dynamika ovlivňují úsudek a jak tento vliv rozpoznat."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "psychology", "cognitive", "manipulace"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["fenomenologie", "metakognice", "kapitola-1", "kapitola-2", "kapitola-3", "falsifikovatelnost"]
+related_terms = ["embodied-cognition", "interocepce", "body-schema", "polyvagalni-teorie", "bite-model", "fenomenologie"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Definice
+# Somatické vektory – tělo jako kanál epistemického vlivu
 
-**Somaticke Vektory** je filozoficko-epistemický pojem zařazený v sekci `03-zakladni-kategorie` Prismatic Kompendia jako základní kategorie pro analýzu manipulativních technik. Pojem představuje strukturální optiku, kterou Prismatic používá při klasifikaci a detekci epistemických útoků (EA-techniques) a při návrhu rekonstruktivních protokolů.
+> **Pozice v knize**: interpretační kategorie sekce 03. Kniha jako **somatické vektory** označuje
+> cesty, jimiž tělesný stav a tělesná interakce ovlivňují poznávání a úsudek. Kategorie
+> podkládá paralingvistické a proxemické techniky [kapitoly 3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
+> a tělesné techniky sekce 05.
 
-{% <callout type="note"> %}
-Filozofické kategorie v sekci 03 nejsou samostatné koncepty — slouží jako *interpretační rámce* pro analýzu konkrétních EA-technik (sekce 04–05) a klinických aplikací (sekce 06).
-{% </callout> %}
+## Vymezení
 
-## Filozofický kontext
+Poznávání není činnost oddělená od těla. Tradice [vtělené kognice](@/glossary/embodied-cognition.md)
+(Francisco Varela, Evan Thompson a Eleanor Roschová, *The Embodied Mind*, 1991) a fenomenologie těla
+(Maurice Merleau-Ponty, *Fenomenologie vnímání*, 1945) ukazují, že vnímání a myšlení jsou
+spoluutvářeny tělesným schématem, pohybem a smyslovou zkušeností. Antonio Damasio (*Descartesův
+omyl*, 1994) popsal hypotézu **somatických markerů**: tělesné signály spojené s emocemi předem
+„značkují“ možnosti volby a usměrňují rozhodování.
 
-Koncept **Somaticke Vektory** se v Prismatic Kompendiu vztahuje k širšímu rámci epistemologie a fenomenologie zaměřené na to, jak agenti konstituují, validují a obhajují svá tvrzení. Pojem není používán deskriptivně, ale **operativně**: každá EA-technika dokumentovaná v Kompendiu je analyzována z hlediska toho, jak ovlivňuje tento konkrétní filozofický rozměr poznávání.
+Z toho plyne praktický důsledek: kdo ovlivňuje tělesný stav člověka – spánek, výživu, únavu,
+napětí, prostorovou blízkost – ovlivňuje i jeho úsudek, aniž by musel cokoli tvrdit. Tento vliv
+kniha sleduje ve čtyřech vektorech.
 
-Vazby na klasické zdroje (Popper, Lakatos, Husserl, Heidegger, Wittgenstein, Habermas dle pojmu) jsou explicitní v sourozeneckých souborech sekce — viz cross-link síť níže pro nejbližší pojmy stejného rámce.
+## Čtyři vektory
 
-## Klinická a operační relevance
+1. **Vyčerpání a deprivace** – nedostatek spánku, nepravidelné jídlo, extrémní pracovní zátěž,
+   nepřetržitý program. Snižují kapacitu kritického hodnocení a zvyšují sugestibilitu. Model
+   [BITE](@/glossary/bite-model.md) Stevena Hassana řadí kontrolu spánku, stravy a času do složky
+   kontroly chování; kontrolu prostředí jako kritérium myšlenkové reformy popsal Lifton (1961).
+2. **Prostorová a tělesná dominance** – postavení v prostoru, blízkost, výška, dotek, kontrola
+   pohybu v místnosti. Popisují je [Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md)
+   a [Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md).
+3. **Hlas a rytmus** – tempo, hlasitost, pauzy a intonace, které řídí, kdo mluví a jak dlouho;
+   viz [Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md).
+4. **Interoceptivní nejistota** – zpochybňování vlastních tělesných signálů („nemůžeš být unavený“,
+   „ten strach je jen tvoje ego“). Člověk ztrácí důvěru v [interocepci](@/glossary/interocepce.md),
+   tedy ve vnímání vnitřního stavu těla, a s ní jeden ze zdrojů úsudku. Nejhlubší podoby popisuje
+   [Somatická rekodifikace](@/kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md).
 
-V due-diligence praxi a klinickém poradenství se **Somaticke Vektory** používá jako diagnostický filtr: analytik nebo terapeut hodnotí, zda subjektova tvrzení respektují, narušují nebo systematicky obcházejí tento epistemický rozměr. Operační detekce probíhá skrze [detection-signatures](@/kompendium/detection-signatures/_index.md) sekci, kde jsou kalibrační markery pro každou kategorii vypracovány.
+## Jak se somatický vliv projevuje
 
-## Detekční vztah
+- Rozhodnutí, která člověk později nechápe, padla v noci, ve vyčerpání nebo po dlouhém programu.
+- Chronická únava a nespavost v kontextu vztahu nebo skupiny, které se v odstupu zlepšují.
+- Tělesné napětí, sevření nebo „zamrznutí“ v přítomnosti určité osoby.
+- Neschopnost pojmenovat, co cítí v těle; vlastní signály jsou popisovány slovníkem autority.
+- Na rovině interakce: zúžený prostor, blokovaný odchod, nečekané změny vzdálenosti, mluvení
+  přes druhého.
 
-Pro praktickou detekci konzultujte:
+## Odlišení
 
-- [Detection signatures](@/kompendium/detection-signatures/_index.md) — diagnostické markery
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — terapeutické použití
-- [Recovery protocols](@/kompendium/recovery-protocols/_index.md) — rekonstruktivní intervence
-<!-- EXPANDED:PHASE11 -->
+- **Somatická onemocnění**: únava, nespavost a napětí mají řadu tělesných příčin (štítná žláza,
+  anémie, spánková apnoe, chronická bolest). Vyšetření praktickým lékařem musí předcházet
+  výkladu ve smyslu manipulace.
+- **Úzkostné a traumatické reakce**: tělesná ztuhlost a hyperarousal jsou součástí posttraumatické
+  symptomatiky, i bez aktuální manipulace.
+- **Kulturní normy blízkosti a doteku**: proxemika je kulturně podmíněná; rozhoduje změna oproti
+  normě a asymetrie mezi stranami.
+- **Legitimní náročné prostředí**: výcvik, směnná práce nebo péče o malé dítě přinášejí deprivaci
+  bez manipulace. Problém nastává, když je deprivace udržována a využívána k omezení úsudku.
 
-## See Also
+## Klinický a praktický význam
 
-- [Parent section](@/kompendium/03-zakladni-kategorie/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+Pro kliniky plyne jednoduchá zásada: **nejprve tělo**. Bez obnovy spánku, výživy a základní
+regulace nemá smysl očekávat, že klient bude kriticky hodnotit svou situaci. Proto akutní fáze
+zotavení začíná regulací; viz [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md).
+Tělově orientované postupy jsou užitečné, ale v akutní fázi mohou vyvolat zaplavení; podrobně
+[Somatic experiencing protokol](@/kompendium/techniques/ea-6-2-8-somatic-experiencing-protokol.md).
+Polyvagální teorie, často používaná ke klinickému výkladu tělesných reakcí, je v odborné literatuře
+sporná; kniha ji používá jako popisný jazyk, ne jako ověřený mechanismus (viz
+[Polyvagal Theory](@/glossary/polyvagalni-teorie.md)).
 
----
+Pro vyšetřovatele a organizace: harmonogram schůzek v pozdních hodinách, dlouhá jednání bez
+přestávky a fyzická dominance v místnosti jsou pozorovatelné a dokumentovatelné okolnosti, které
+mají váhu při posuzování, zda bylo rozhodnutí svobodné; viz [Undue influence](@/glossary/undue-influence.md).
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+## Příklad (anonymizovaný kompozit)
 
-## Manažerské shrnutí
+Muž v rámci víkendového „rozvojového“ semináře spí čtyři hodiny denně, jí nepravidelně a celý den
+sedí v přeplněném sále s hlasitou hudbou. Třetí noc podepíše smlouvu na drahý navazující program.
+Doma nedokáže vysvětlit, proč to udělal. Somatická analýza nehledá „trik“ v jednotlivé větě, ale
+ukáže podmínky: deprivace, hluk, skupinový tlak a rozhodnutí v noci. Tyto okolnosti pak mají
+význam i pro posouzení odstoupení od smlouvy.
 
-**Somaticke Vektory** je aktivní uzel taxonomického grafu sekce `kompendium/03-zakladni-kategorie` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Obrana
 
-## Koncepční síť
+- Nerozhodovat o důležitých věcech **unavený, hladový, v noci** nebo pod časovým tlakem.
+- Mít **vlastní tělo za zdroj informací**: napětí a únava jsou údaje, ne slabost.
+- Hlídat **možnost odchodu** z místnosti, ze setkání, z programu.
+- Opora: [Somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md),
+  [Uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md) a
+  [Řízení kognitivní zátěže](@/kompendium/self-defense-guides/10-cognitive-load-management.md).
 
-Vizualizace propojení **Somaticke Vektory** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+## Meze a otevřené otázky
 
-```mermaid
-graph TD
-    C0["Somaticke Vektory"]
-    N1["Fenomenologie"]
-    N2["Metakognice"]
-    N3["3.1 Akademické techniky intelektuální manipulace"]
-    N4["3.2 Scénáře epistemické delegitimizace"]
-    N5["3.3 Pokročilá edukativní implementace"]
-    N6["Falsifikovatelnost"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+Vliv spánkové deprivace a vyčerpání na úsudek je dobře doložen, ale přenos na konkrétní situaci
+manipulace vyžaduje opatrnost: tělesné podmínky zvyšují zranitelnost, samy o sobě neprokazují
+nátlak. Otevřená je otázka, jak spolehlivě hodnotit interoceptivní nejistotu – nástroje pro její
+měření jsou zatím převážně výzkumné.
 
-## Související pojmy
+## Související
 
-- [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md) — slug `fenomenologie`
-- [Metakognice](@/kompendium/03-zakladni-kategorie/metakognice.md) — slug `metakognice`
-- [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — slug `kapitola-1`
-- [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) — slug `kapitola-2`
-- [3.3 Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) — slug `kapitola-3`
-- [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) — slug `falsifikovatelnost`
+**Sesterské kategorie**
 
-## Navigace
+- [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md) – tělesná rovina zkušenosti.
+- [Lebenswelt](@/kompendium/03-zakladni-kategorie/lebenswelt.md) – denní rytmus jako součást žitého světa.
+- [Tom exploitation](@/kompendium/03-zakladni-kategorie/tom-exploitation.md) – čtení tělesných signálů druhých.
 
-- **Nadřazená sekce**: [kompendium/03-zakladni-kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Delegitimizace](@/kompendium/03-zakladni-kategorie/delegitimizace.md)
-  - [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md)
-  - [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md)
-  - [Hermeneutika](@/kompendium/03-zakladni-kategorie/hermeneutika.md)
-  - [Intencionalita](@/kompendium/03-zakladni-kategorie/intencionalita.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+**Glosář a teorie**
+
+- [Embodied cognition](@/glossary/embodied-cognition.md) – vtělené poznávání.
+- [Interocepce](@/glossary/interocepce.md) – vnímání vnitřního stavu těla.
+- [Damasio: Somatic marker](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md) – tělo a rozhodování.
+
+**Techniky**
+
+- [Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) – prostorová dominance.
+- [Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) – hlas a rytmus.
+- [Somatická rekodifikace](@/kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md) – hluboký zásah do tělesného sebevnímání.
+
+**Klinika**
+
+- [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md) – první krok zotavení.

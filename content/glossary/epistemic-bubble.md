@@ -147,3 +147,11 @@ expoziční protokoly, zotavení z komory na opravu struktury důvěry.
   detekční signatura.
 - [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) – svépomocná
   obrana.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: epistemic-bubble](@/kompendium/glossary-bridges/bridge-epistemic-bubble.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

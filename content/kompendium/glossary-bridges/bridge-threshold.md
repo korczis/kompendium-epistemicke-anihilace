@@ -1,82 +1,95 @@
 +++
-title = "Bridge: Thresholds & Triggers"
+title = "Bridge: Práh (threshold)"
 weight = 100
-description = "Bridge entry for threshold and trigger semantics across detection and recovery domains."
+description = "Most mezi pojmem prahu a knihou: prahy pro detekci, eskalaci, oznámení a přerušení intervence, jejich nastavení a rizika falešně pozitivních i negativních závěrů."
 
 [taxonomies]
-tags = ["glossary-bridge", "kompendium", "interactive"]
+tags = ["glossary-bridge", "kompendium", "cross-link", "diagnostika"]
 
 [extra]
 category = "kompendium-bridge"
-related_terms = ["bridge-agent", "bridge-3nl", "bridge-autoheal", "bridge-aiad", "bridge-autoevolve", "bridge-anankasticky-rezim"]
+related_terms = ["risk-score", "bridge-kontraindikace", "bridge-readiness", "decision-engine", "pattern-evidence", "screening-instrumenty-detail"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 +++
 
-## Definition
+# Bridge: Práh (threshold)
 
-Bridge entry for threshold and trigger semantics across detection and recovery domains. This bridge entry is a structurally complete stub created during the
-2026-05-03 NLLB Phase 7 sweep — full integration with kompendium taxonomy
-and cross-domain references is part of ongoing knowledge-base buildout.
+> **Most** spojuje pojem prahu s místy knihy, kde se z pozorování stává rozhodnutí: kdy považovat
+> vzorec za manipulaci, kdy eskalovat k akutní péči, kdy oznámit, kdy intervenci přerušit. Přehled
+> mostů je v rejstříku [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 
-## See Also
+## Pojem
 
-- [Kompendium Glossary Bridges](@/kompendium/glossary-bridges/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+**Práh** je hodnota nebo kombinace znaků, při jejímž dosažení se mění postup. V klinické praxi jde
+například o hraniční skóre dotazníku, v právu o podmínky povinnosti oznámit, v detekci o počet a
+sílu znaků, při nichž pozorovatel považuje vzorec za doložený.
 
----
+Každý práh je **kompromisem mezi dvěma chybami**: příliš nízký vede k falešně pozitivním závěrům
+(nálepkování, zbytečné zásahy, stigmatizace), příliš vysoký k falešně negativním (přehlédnutá
+manipulace, pozdní pomoc). Volba prahu proto není technická, ale etická otázka: kterou chybu jsme
+v dané situaci ochotni riskovat víc?
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+## Typy prahů v knize
 
-## Manažerské shrnutí
+| Typ prahu | Co spouští | Kde je popsán |
+|---|---|---|
+| Detekční | závěr, že jde o vzorec techniky | [Detekční signatury EA technik](@/kompendium/detection-signatures/_index.md) |
+| Screeningový | doporučení podrobného vyšetření | [Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md) |
+| Eskalační | přechod k akutní péči | [Akutní intervenční protokoly](@/kompendium/emergency-protocols/_index.md) |
+| Oznamovací | povinnost nebo oprávnění informovat úřady | [Povinné oznámení v kontextu EA](@/kompendium/emergency-protocols/9-mandatory-reporting-EA.md) |
+| Ukončovací | přerušení cvičení nebo intervence | [Termination criteria](@/kompendium/techniques/ea-4-1-7-termination-criteria.md) |
+| Důkazní | váha vzorce v řízení | [Pattern důkaz](@/kompendium/forensic-legal/38-pattern-evidence.md) |
 
-**Bridge: Thresholds & Triggers** je aktivní uzel taxonomického grafu sekce `kompendium/glossary-bridges` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Sémantický vztah
 
-## Koncepční síť
+| Vztah | Cílový pojem | Typ vazby |
+|---|---|---|
+| kvantifikuje | [Risk Score](@/glossary/risk-score.md) | skóre, k němuž se práh vztahuje |
+| rozhoduje o | [Bridge: Readiness](@/kompendium/glossary-bridges/bridge-readiness.md) | kdy začít |
+| rozhoduje o | [Bridge: Kontraindikace](@/kompendium/glossary-bridges/bridge-kontraindikace.md) | kdy nezačínat nebo přerušit |
+| opírá se o | [Pattern evidence](@/glossary/pattern-evidence.md) | vzorec místo jednotlivé události |
 
-Vizualizace propojení **Bridge: Thresholds & Triggers** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+## Klinické a praktické implikace
 
-```mermaid
-graph TD
-    C0["Bridge: Thresholds & Triggers"]
-    N1["Bridge: agent"]
-    N2["Bridge: 3nl"]
-    N3["Bridge: autoheal"]
-    N4["Bridge: aiad"]
-    N5["Bridge: autoevolve"]
-    N6["Bridge: anankasticky-rezim"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+1. **Vzorec, ne jednotlivost** – jednotlivý znak práh nepřekračuje; rozhoduje kombinace, opakování
+   v čase a vazba na prostředí.
+2. **Asymetrie podle závažnosti** – u rizika pro život (suicidalita, násilí, ohrožení dítěte) se
+   práh pro jednání posouvá níž; u nálepkování vztahu jako „manipulativního“ výš.
+3. **Prahy nástrojů nejsou diagnózy** – hraniční skóre dotazníku vede k dalšímu vyšetření, ne
+   k závěru.
+4. **Dokumentovat zdůvodnění** – proč byl práh považován za překročený nebo nepřekročený.
+5. **Revidovat** – prahy je třeba ověřovat na zkušenosti a upravovat; viz
+   [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md).
 
-## Související pojmy
+## Vztah k platformě
 
-- [Bridge: agent](@/kompendium/glossary-bridges/bridge-agent.md) — slug `bridge-agent`
-- [Bridge: 3nl](@/kompendium/glossary-bridges/bridge-3nl.md) — slug `bridge-3nl`
-- [Bridge: autoheal](@/kompendium/glossary-bridges/bridge-autoheal.md) — slug `bridge-autoheal`
-- [Bridge: aiad](@/kompendium/glossary-bridges/bridge-aiad.md) — slug `bridge-aiad`
-- [Bridge: autoevolve](@/kompendium/glossary-bridges/bridge-autoevolve.md) — slug `bridge-autoevolve`
-- [Bridge: anankasticky-rezim](@/kompendium/glossary-bridges/bridge-anankasticky-rezim.md) — slug `bridge-anankasticky-rezim`
+Na platformě Prismatic, z níž kniha vzešla, se prahy používají při převodu signálů na skóre rizika
+a doporučení v rozhodovacím modulu; viz [Decision Engine](@/glossary/decision-engine.md). V knize
+mají prahy stejnou logiku, ale vždy podléhají klinickému nebo právnímu úsudku člověka.
 
-## Navigace
+## Časté omyly
 
-- **Nadřazená sekce**: [kompendium/glossary-bridges](@/kompendium/glossary-bridges/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Bridge: 3nl](@/kompendium/glossary-bridges/bridge-3nl.md)
-  - [Bridge: adapter-pattern](@/kompendium/glossary-bridges/bridge-adapter-pattern.md)
-  - [Bridge: agent-registry](@/kompendium/glossary-bridges/bridge-agent-registry.md)
-  - [Bridge: agent-tier](@/kompendium/glossary-bridges/bridge-agent-tier.md)
-  - [Bridge: agent](@/kompendium/glossary-bridges/bridge-agent.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+- „Pevný práh je objektivní“ – každý práh v sobě nese hodnotové rozhodnutí o tom, kterou chybu
+  preferujeme.
+- „Pod prahem není nic“ – podprahové znaky jsou důvodem ke sledování, ne k nečinnosti.
+
+## Související
+
+**Sesterské mosty**
+
+- [Bridge: Kontraindikace](@/kompendium/glossary-bridges/bridge-kontraindikace.md) – prahy pro nezahájení a přerušení.
+- [Bridge: Readiness](@/kompendium/glossary-bridges/bridge-readiness.md) – prahy pro zahájení.
+
+**Klinika a detekce**
+
+- [Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md) – hraniční skóre a rozhodovací pravidla.
+- [Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) – kombinace znaků.
+- [Observační hodnocení](@/kompendium/06-klinicke-aplikace/observational-assessment.md) – sledování ukazatelů v čase.
+
+**Kritika a právo**
+
+- [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md) – cena nízkého prahu.
+- [Pattern důkaz](@/kompendium/forensic-legal/38-pattern-evidence.md) – práh v řízení.

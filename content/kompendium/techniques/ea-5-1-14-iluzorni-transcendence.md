@@ -27,7 +27,7 @@ parent_chapter = "/kompendium/05-pokrocile-operace/kapitola-6/"
 |------|---------|
 | **EA kód** | `EA-5.1.14` |
 | **Kategorie** | 5. Pokročilé operace |
-| **Subkategorie** | 5.1 Epistemická singularita |
+| **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
 | **Přístupová úroveň** | L4 (kritická — riziko trvalého poškození) |
 | **Riziková úroveň** | Kritická — extrémně rezistentní vůči externí korekci kvůli vnitřní jistotě subjektu |
 | **Reverzibilita** | Velmi nízká — subjekt aktivně **odmítá** redukci své transcendentní zkušenosti |

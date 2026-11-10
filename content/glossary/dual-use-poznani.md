@@ -152,3 +152,11 @@ Pro čtenáře a odborníky z rámce plyne několik pravidel:
 - [Bezpečnostní klasifikace](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md) – úrovně
   citlivosti materiálu.
 - [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) – závazky uživatelů Kompendia.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: dual-use-poznani](@/kompendium/glossary-bridges/bridge-dual-use-poznani.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

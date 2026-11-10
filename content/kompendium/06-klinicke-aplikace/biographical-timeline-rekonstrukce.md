@@ -1,114 +1,152 @@
 +++
-title = "Biographical Timeline Rekonstrukce"
+title = "Rekonstrukce biografické časové osy"
 weight = 100
-description = "Biographical Timeline Rekonstrukce — pojem v sekci kompendium/06-klinicke-aplikace znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Klinický postup rekonstrukce životní časové osy u klientů po epistemické anihilaci: obnova chronologie s oporou v dokladech, bez sugesce, s ohledem na forenzní využití."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "klinicke-aplikace", "diagnostika", "identity"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["epistemicka-rekonstrukce", "pripad-doktorat", "supervizni-ramce", "observational-assessment", "terapeuticke-pristupy", "diagnosticke-indikatory"]
+related_terms = ["narrative-trauma", "narativni-identita", "forensic-interview", "dissociativni-amnezie", "collateral-interview-protokol", "semi-structured-interview-protokol"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Definice a cíl
+# Rekonstrukce biografické časové osy
 
-**Biographical Timeline Rekonstrukce** je klinický protokol z sekce 06 Prismatic Kompendia (klinické aplikace), který poskytuje strukturovaný rámec pro hodnocení, intervenci nebo dokumentaci epistemických škod u klientů s historií expozice manipulativním vzorcům (EA — epistemic attack patterns).
+> **Pro koho**: klinické pracovníky s odpovídajícím vzděláním (psychoterapie, klinická psychologie,
+> psychiatrie) pod supervizí. Nejde o svépomocný nástroj. Postup patří do sekce
+> [06. Klinické aplikace a diagnostika](@/kompendium/06-klinicke-aplikace/_index.md).
 
-{% <callout type="note"> %}
-Protokoly sekce 06 jsou určené pro **klinické pracovníky** s odpovídajícím vzděláním (psychoterapie, klinická psychologie, krizová intervence). Nejedná se o self-help nástroje — vyžadují diagnostický kontext a profesionální supervizi.
-{% </callout> %}
+## Účel a klinická pozice
 
-## Implementační rámec
+Rekonstrukce biografické časové osy je strukturovaný postup, jímž klient s klinikem sestaví
+chronologii svého života: místa, vztahy, události, rozhodnutí a období expozice manipulativnímu
+prostředí. Slouží třem účelům:
 
-Protokol **Biographical Timeline Rekonstrukce** se aplikuje v rámci širší klinické cesty popsané v [klinických aplikacích](@/kompendium/06-klinicke-aplikace/_index.md):
+1. **Diagnostickému** – ukazuje, kdy a jak se měnilo fungování, vztahy a sebepojetí, a pomáhá odlišit
+   změny vázané na expozici od dlouhodobých rysů a od jiných příčin.
+2. **Terapeutickému** – obnovuje kontinuitu příběhu, která bývá po [narativním traumatu](@/kompendium/05-ultramari-techniky/narrativni-trauma.md)
+   rozpadlá, a vrací klientovi přístup k minulosti před expozicí.
+3. **Dokumentačnímu** – poskytuje přehled, o který se může opřít další péče, a v odůvodněných
+   případech i forenzní posouzení.
 
-1. **Diagnostická fáze** — viz [diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-2. **Diferenciální diagnostika** — odlišení od PTSD, dissociativních poruch, hraniční organizace osobnosti
-3. **Volba intervence** — kompatibilní recovery protokol z [recovery-protocols/](@/kompendium/recovery-protocols/_index.md)
-4. **Dokumentace a follow-up** — strukturované záznamy pro multidisciplinární tým
+Postup navazuje na [Semi-strukturovaný klinický rozhovor](@/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol.md)
+a doplňuje se [Kolaterálním rozhovorem](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md).
 
-## Hodnotící kritéria
+## Podmínky a příprava
 
-Klinický postup **Biographical Timeline Rekonstrukce** používá tyto výsledkové měřítka:
+- **Stabilizace**: klient není v akutní krizi, má bezpečné bydlení a základní denní rytmus. Jinak
+  má přednost [akutní stabilizace](@/kompendium/recovery-protocols/acute-stabilization-protocol.md).
+- **Informovaný souhlas**: klient ví, k čemu osa slouží, kdo ji uvidí a že může kdykoli přestat;
+  viz [Informed consent](@/glossary/informed-consent.md).
+- **Forenzní kontext**: pokud běží nebo hrozí soudní řízení, je třeba předem zvážit, zda a jak bude
+  osa použita, a koordinovat postup s právním zástupcem, aby terapeutická práce neovlivnila výpověď.
+- **Materiály**: klient může přinést fotografie, dopisy, deníky, zprávy, dokumenty ze školy a
+  zaměstnání. Nic z toho není podmínkou.
 
-- Standardní sebepopulační škály (PHQ-9, GAD-7, IES-R) — týdenní kadence
-- Working Alliance Inventory (WAI) — měsíční kadence
-- Strukturované klinické rozhovory — kvartální kadence
-- Specifické indikátory dle dominantního EA typu
+## Postup
+
+### Modul 1 – kostra
+
+Velké orientační body: bydliště, škola, zaměstnání, vztahy, narození dětí, úmrtí, stěhování. Cílem
+je hrubá chronologie, ne podrobnosti. Klinik se ptá otevřeně („co se dělo potom?“), ne návodně.
+
+### Modul 2 – období expozice
+
+Kdy a jak začal kontakt se skupinou, partnerem nebo prostředím; jak se měnil denní program, vztahy,
+slovník, zdraví a finance; kdy a jak kontakt skončil. Klinik sleduje změny v **přístupu
+k informacím**, ve **vztazích mimo prostředí** a v **sebepopisu**. Tyto oblasti odpovídají modulům
+semi-strukturovaného rozhovoru.
+
+### Modul 3 – minulost před expozicí
+
+Klient se vrací k dovednostem, zájmům, vztahům a hodnotám, které měl dřív. Tento modul má
+terapeutickou hodnotu sám o sobě: často odhalí zdroje, na něž klient zapomněl.
+
+### Modul 4 – opora v dokladech
+
+Ke klíčovým bodům se přiřazují doklady (fotografie, zprávy, výpovědi blízkých). Mezery se
+**označují jako mezery** a nevyplňují se domněnkami. Rozpory mezi vzpomínkou a dokladem se
+zapisují bez hodnocení.
+
+### Modul 5 – dvě vrstvy
+
+U zásadních událostí se zapisuje zvlášť, **co se stalo**, a **jak to bylo vykládáno** (klientem
+tehdy, prostředím, klientem dnes). Rozlišení vrstev je základem externalizace cizího výkladu; viz
+protokol [Narativ](@/kompendium/recovery-protocols/narativ.md).
+
+## Co sledovat
+
+- Náhlé zlomy ve fungování, vztazích a sebepojetí a jejich souvislost s expozicí.
+- Postupné vymizení kontaktů a činností mimo prostředí.
+- Změny slovníku v sebepopisu.
+- Úseky, o nichž klient nedokáže mluvit, nebo které popisuje jen slovy autority.
+- Fragmentaci a časovou dezorientaci; viz [Fragmentace narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md).
+
+## Interpretace a odlišení
+
+Časová osa nedokazuje manipulaci; ukazuje **průběh**. Je nutné odlišit:
+
+- změny vázané na jiné životní okolnosti (nemoc, ztráta, migrace, ekonomická krize);
+- dlouhodobé rysy a poruchy, které předcházely expozici;
+- disociativní mezery, které vyžadují samostatné vyšetření (viz [Disociativní amnézie](@/glossary/dissociativni-amnezie.md));
+- organické příčiny výpadků paměti.
+
+Podrobný rámec odlišení podává [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
+
+## Dokumentace
+
+Osa se vede jako pracovní dokument v klinické dokumentaci. Zapisují se zdroje každého údaje
+(klient, doklad, třetí osoba), mezery a rozpory. Pro forenzní využití platí přísnější pravidla –
+viz [Klinická dokumentace](@/kompendium/forensic-legal/31-clinical-documentation-EA.md) a
+[Rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md).
+
+## Etické limity a rizika
+
+- **Sugesce**: klinik nesmí navrhovat obsahy, které klient nepopsal, ani interpretovat mezery jako
+  „potlačené“ události. Historie [hnutí znovuobjevených vzpomínek](@/kompendium/historical-cases/37-recovered-memory.md)
+  ukazuje, jak sugestivní postupy vytvářejí falešné vzpomínky.
+- **[Retraumatizace](@/glossary/retraumatizace.md)**: nejtěžší události se neprobírají podrobně v rámci osy; zpracovávají se
+  zvlášť, ověřenými metodami a v tempu klienta.
+- **Nová autorita**: klinik nevynáší verdikty o tom, „jak to bylo“; osa patří klientovi.
 
 ## Kontraindikace
 
-Před zahájením **Biographical Timeline Rekonstrukce** vylučte:
+Akutní suicidalita, psychotická dekompenzace, aktivní kontakt s pachatelem bez bezpečnostního
+plánu, těžká disociativní symptomatika bez stabilizace.
 
-- Aktivní psychóza nezvládnutá medikamentózně
-- Akutní suicidalita vyžadující hospitalizaci
-- Akutní intoxikace
-- Aktivní kontakt s pachatelem (vyžaduje napřed safety planning)
+## Příklad (anonymizovaný kompozit)
 
-Pro detailní postup viz parent index a sourozenecké klinické články.
-<!-- EXPANDED:PHASE11 -->
+Klientka po deseti letech v podnikatelské „rodině“ prodejní sítě si nedokáže vybavit, kdy přerušila
+kontakt se sestrou a proč. Kostra osy ukáže, že k přerušení došlo půl roku po vstupu, v době, kdy
+skupina zavedla „uzavřená setkání“. Doklady (zprávy sestře, fotografie) potvrdí, že vztah byl do té
+doby blízký. Ve vrstvě výkladu klientka zjistí, že důvod přerušení („sestra mi nepřeje úspěch“)
+převzala od vedoucí skupiny. Osa jí umožní kontakt se sestrou obnovit s vlastním vysvětlením.
 
-## See Also
+## Meze a otevřené otázky
 
-- [Parent section](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+Postup je klinicky odůvodněný, ale jako specifická metoda nebyl validován ve studiích; opírá se o
+obecné principy narativní práce a forenzního rozhovoru. Otevřené zůstává, jak pracovat s klienty,
+kteří v uzavřeném prostředí vyrostli a nemají „minulost před expozicí“.
 
----
+## Související
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+**Klinické postupy sekce 06**
 
-## Manažerské shrnutí
+- [Semi-strukturovaný klinický rozhovor](@/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol.md) – výchozí vyšetření.
+- [Kolaterální rozhovor](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md) – doplnění osy pohledem blízkých.
+- [Observační hodnocení](@/kompendium/06-klinicke-aplikace/observational-assessment.md) – pozorování v průběhu péče.
 
-**Biographical Timeline Rekonstrukce** je aktivní uzel taxonomického grafu sekce `kompendium/06-klinicke-aplikace` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+**Zotavení a teorie**
 
-## Koncepční síť
+- [Narativ](@/kompendium/recovery-protocols/narativ.md) – protokol rekonstrukce příběhu.
+- [Narativní trauma](@/kompendium/05-ultramari-techniky/narrativni-trauma.md) – co osa pomáhá napravit.
 
-Vizualizace propojení **Biographical Timeline Rekonstrukce** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+**Forenzní rámec**
 
-```mermaid
-graph TD
-    C0["Biographical Timeline Rekonstrukce"]
-    N1["6.4 Protokoly epistemické rekonstrukce"]
-    N2["6.8 Případová studie: Doktorské vedení (anonymizovaná)"]
-    N3["6.6 Supervizní rámce v klinické praxi EA"]
-    N4["Observational Assessment"]
-    N5["6.3 Terapeutické přístupy — přehled"]
-    N6["6.1 Diagnostické indikátory a markery EA"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
-
-## Související pojmy
-
-- [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) — slug `epistemicka-rekonstrukce`
-- [6.8 Případová studie: Doktorské vedení (anonymizovaná)](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md) — slug `pripad-doktorat`
-- [6.6 Supervizní rámce v klinické praxi EA](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) — slug `supervizni-ramce`
-- [Observational Assessment](@/kompendium/06-klinicke-aplikace/observational-assessment.md) — slug `observational-assessment`
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) — slug `terapeuticke-pristupy`
-- [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) — slug `diagnosticke-indikatory`
-
-## Navigace
-
-- **Nadřazená sekce**: [kompendium/06-klinicke-aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Collateral Interview Protokol](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md)
-  - [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  - [6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-  - [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-  - [6.10 Kolektivní/institucionální intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+- [Rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md) – forenzní varianta postupu.
+- [Forensic interview](@/glossary/forensic-interview.md) – zásady rozhovoru bez sugesce.

@@ -79,7 +79,7 @@ Co může vidět vnější pozorovatel:
 
 ### Individuální
 
-1. Strukturovaná narativní terapie zaměřená na re-konstrukci temporálně-koherentního self
+1. Strukturovaná [narativní terapie](@/glossary/narativni-terapie.md) zaměřená na re-konstrukci temporálně-koherentního self
 2. Životní línie cvičení: detailní mapování self-kontinuity
 3. Trauma-informed therapy pro re-etablování core-self struktury
 
@@ -96,7 +96,7 @@ Co může vidět vnější pozorovatel:
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — identitární substituce často kombinovaná s epistemickou kanibalizací
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — identitární substituce často kombinovaná s epistemickou kanibalizací
 - **EA-5.5.* (Transkonceptuální mechanismy)** — pre-konceptuální vrstva podpírá identitární substituci
 - **EA-1.6.* (Charizmatické vedení)** — guru-adept dynamika je strukturálním rámcem hypertransformace
 

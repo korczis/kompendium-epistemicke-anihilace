@@ -1,114 +1,143 @@
 +++
-title = "Paradigm"
+title = "Paradigma – protokol archeologie rámce"
 weight = 100
-description = "Paradigm — pojem v sekci kompendium/recovery-protocols znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Protokol zotavení po vnuceném paradigmatu: archeologie rámce rozkládá převzatý světonázor na složky a odděluje doklad od sugesce."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "recovery-protocol", "klinicke", "epistemologie"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["duvera", "acute-information-curation", "longterm-altruistic-channeling", "longterm-resilience-cultivation", "longterm-meaning-deepening", "acute-safety-establishment"]
+related_terms = ["paradigm-shift", "gestalt-shift", "kuhnova-revoluce", "paradigmaticka-bezdomovina", "midterm-hermeneutic-reset", "lakatos-vyzkumny-program"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Cílová populace a fáze
+# Paradigma – protokol archeologie rámce
 
-**Paradigm** je rekonstruktivní protokol ze sekce `recovery-protocols/` Prismatic Kompendia. Protokol je určen klientům po extrakci z epistemicky toxického prostředí (EA expozice — kult, high-conflict relationship, [coercive control](@/glossary/coercive-control.md), [gaslighting](@/glossary/gaslighting.md)) v specifické fázi obnovy.
+> **Status**: tematický rekonstruktivní protokol k vnucenému nebo náhle převzatému rámci výkladu světa.
+> **Fáze**: středně-dobá; navazuje na stabilizaci a obnovu žitého světa.
+> **Zásada**: nerozbíjet rámec zvenčí, ale **rozložit ho s klientem na složky** a ke každé dohledat původ.
 
-{% <callout type="note"> %}
-Protokoly recovery jsou *fázově sekvenční*: akutní (týdny 1–4) → subakutní (měsíce 2–3) → midterm (měsíce 4–6) → longterm (měsíce 7+). Použití mimo cílovou fázi může způsobit retraumatizaci nebo neefektivitu intervence.
-{% </callout> %}
+## 1. Účel
 
-## Implementace
+Thomas Kuhn popsal ve *Struktuře vědeckých revolucí* (1962) změnu paradigmatu jako přechod mezi
+rámci, které určují, co se počítá za problém, doklad a řešení. Pojmy
+[paradigm shift](@/glossary/paradigm-shift.md) a [gestalt shift](@/glossary/gestalt-shift.md)
+popisují, že se svět po přechodu „vidí jinak“ celý najednou.
 
-Implementace **Paradigm** se opírá o standardní strukturu recovery protokolů:
+Manipulativní prostředí tento mechanismus napodobuje: nabídne rámec, v němž do sebe vše náhle
+zapadne, a prožitek náhlého prozření vydává za doklad pravdivosti. Kniha tento vzorec popisuje
+jako [falešný paradigmatický nárok](@/kompendium/techniques/ea-1-6-falesny-paradigmaticky-narok.md).
+Rámec bývá navíc chráněn proti vyvrácení: každá námitka se vykládá jako potvrzení (srov.
+[Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)).
 
-1. **Krizové hodnocení** — strukturovaný klinický rozhovor + safety mapping
-2. **Stabilizační intervence** — frequency dle fáze (akutní = denní, longterm = týdenní/měsíční)
-3. **Bezpečné prostředí** — fyzická, finanční, právní separace od pachatele
-4. **Somatická regulace** — krátká cvičení, vyhnout se intenzivním tělově-orientovaným technikám v akutní fázi
-5. **Sociální opora** — identifikace bezpečných kontaktů + krizová síť
-6. **Spánkový režim** — sleep hygiene jako externalizovaný kontejner
+Po odchodu člověk často zjistí, že rámec dál běží „sám“: interpretuje události, hodnotí lidi,
+generuje strach. Jeho prosté odmítnutí nepomáhá – zanechává prázdno, které kniha nazývá
+[paradigmatickou bezdomovinou](@/glossary/paradigmaticka-bezdomovina.md). Protokol proto rámec
+neodstraňuje naráz, ale archeologicky rozebírá.
 
-## Hodnotící kritéria
+## 2. Klinický obraz
 
-Protokol **Paradigm** používá týdenní [self-report](@/glossary/self-report.md) (PHQ-9, GAD-7, IES-R) a milníky závislé na fázi:
+- Události jsou automaticky vykládány v pojmech skupiny („to je zkouška“, „to je útok zvenčí“).
+- Klient ví, že rámec opustil, ale „cítí“, že má pravdu; rozpor vyvolává úzkost.
+- Střídání totálního přijetí a totálního odmítnutí: z jednoho absolutního rámce do druhého
+  (např. z ezoterického do militantně skeptického).
+- Neschopnost snést nejistotu; potřeba okamžité odpovědi na každou otázku.
 
-- Subjektivní stabilita
-- Spánková kontinuita (cíl: 6+ hodin, sleep latency <30 min)
-- Suicidalita (žádné aktivní ideace)
-- Safety milestones (separace, finance, právní status)
-- Working Alliance Inventory (WAI) ≥ 5/7
+## 3. Cíle protokolu
 
-## Sesterské protokoly
+1. Zviditelnit rámec jako **rámec** – soubor předpokladů, ne jako samotnou realitu.
+2. Rozložit ho na **složky** (tvrzení, hodnoty, pravidla výkladu, emoční vazby).
+3. Ke každé složce dohledat **původ** a **doklady**.
+4. Ponechat to, co obstojí, odložit to, co neobstojí, a snést, co zůstává nejisté.
+5. Vybudovat **pluralitu rámců** jako trvalou ochranu proti návratu totálního výkladu.
 
-**Paradigm** se aplikuje v koordinaci s ostatními protokoly téže fáze:
+## 4. Postup
 
-- [Recovery protocols index](@/kompendium/recovery-protocols/_index.md) — celkový rámec
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — diagnostické pozadí
-- [Detection signatures](@/kompendium/detection-signatures/_index.md) — markery pro identifikaci dominantního EA typu
-<!-- EXPANDED:PHASE11 -->
+### Krok 1 – inventura rámce
 
-## See Also
+Klient sepíše hlavní přesvědčení, která si ze skupiny nebo vztahu odnesl, včetně pravidel
+výkladu („když se mi daří, je to odměna; když ne, je to trest za pochybnost“). Terapeut
+nehodnotí, jen pomáhá formulovat přesně.
 
-- [Parent section](@/kompendium/recovery-protocols/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+### Krok 2 – stratigrafie
 
----
+Ke každé položce se ptáme: Kdy jsem to poprvé slyšel? Od koho? Co jsem tehdy prožíval? Jaký
+doklad mi byl předložen? Ukazuje se, které složky přišly s dokladem, které se sugescí v době
+vyčerpání nebo krize, a které klient přinesl s sebou ještě před vstupem.
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+### Krok 3 – zkouška
 
-## Manažerské shrnutí
+Pro složky, které jsou testovatelné, klient formuluje, co by je vyvrátilo, a hledá to v
+nezávislých zdrojích. Pomáhá postup [Falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md)
+a pojmový rámec kapitoly [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md).
+U netestovatelných složek (hodnoty, víra) nejde o vyvrácení, ale o otázku, zda je klient přijímá
+**svobodně**.
 
-**Paradigm** je aktivní uzel taxonomického grafu sekce `kompendium/recovery-protocols` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+### Krok 4 – třídění
 
-## Koncepční síť
+Výsledkem jsou tři hromádky: co obstálo a klient si to ponechá (mnoho lidí si ze skupiny odnese
+i hodnotné věci), co neobstálo, a co zůstává otevřené. Třetí hromádka je terapeuticky důležitá –
+učí snášet nejistotu bez nového absolutního rámce.
 
-Vizualizace propojení **Paradigm** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+### Krok 5 – pluralita
 
-```mermaid
-graph TD
-    C0["Paradigm"]
-    N1["Duvera"]
-    N2["Akutní informační kurace"]
-    N3["Dlouhodobé altruistické kanalizování"]
-    N4["Dlouhodobá kultivace resilience"]
-    N5["Dlouhodobé prohlubování smyslu"]
-    N6["Akutní zajištění bezpečnosti"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+Klient se seznamuje s více způsoby výkladu téže zkušenosti (psychologickým, filozofickým,
+náboženským, sociologickým) a učí se mezi nimi přecházet. Opora:
+[Pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md) a
+[Středně-dobý hermeneutický reset](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md).
 
-## Související pojmy
+## 5. Hodnocení průběhu
 
-- [Duvera](@/kompendium/recovery-protocols/duvera.md) — slug `duvera`
-- [Akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md) — slug `acute-information-curation`
-- [Dlouhodobé altruistické kanalizování](@/kompendium/recovery-protocols/longterm-altruistic-channeling.md) — slug `longterm-altruistic-channeling`
-- [Dlouhodobá kultivace resilience](@/kompendium/recovery-protocols/longterm-resilience-cultivation.md) — slug `longterm-resilience-cultivation`
-- [Dlouhodobé prohlubování smyslu](@/kompendium/recovery-protocols/longterm-meaning-deepening.md) — slug `longterm-meaning-deepening`
-- [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md) — slug `acute-safety-establishment`
+- Klient mluví o rámci jako o něčem, co „si myslel“, ne co „je“.
+- Umí ke klíčovým přesvědčením uvést původ a doklady.
+- Snáší otevřené otázky bez akutní úzkosti.
+- Nepřešel do opačného absolutního rámce; je schopen přiznat skupině dílčí pravdu i omyl.
 
-## Navigace
+## 6. Kontraindikace a rizika
 
-- **Nadřazená sekce**: [kompendium/recovery-protocols](@/kompendium/recovery-protocols/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md)
-  - [Akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md)
-  - [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md)
-  - [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md)
-  - [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+- Před stabilizací a obnovou žitého světa je protokol předčasný; viz
+  [Žitý svět](@/kompendium/recovery-protocols/lifeworld.md).
+- Terapeut nesmí nahradit rámec skupiny vlastním světonázorem; i racionalismus podaný jako
+  dogma opakuje strukturu.
+- U náboženských klientů: cílem není víru odstranit, ale oddělit ji od kontrolních pravidel
+  skupiny; vhodná je spolupráce s duchovním mimo skupinu, pokud si to klient přeje.
+
+## 7. Kazuistika (anonymizovaný kompozit)
+
+Muž po letech v hnutí, které vše vysvětlovalo skrytým spiknutím, odejde, když se proroctví
+nenaplní. Dál ale každou zprávu automaticky čte jako manipulaci „systému“. V inventuře sepíše
+dvacet přesvědčení; stratigrafie ukáže, že většina přišla v období ztráty zaměstnání, kdy trávil
+noci na fórech. Při zkoušce některé složky obstojí (nedůvěra k určité firmě měla reálný základ),
+jiné ne. Po půl roce popisuje změnu: „Už nemám jedno vysvětlení na všechno. Mám otázky, a to je
+úleva.“
+
+## 8. Meze a otevřené otázky
+
+Kuhnův pojem paradigmatu byl vytvořen pro vědecká společenství; jeho přenos na osobní světonázor
+je analogie, ne teorie. Archeologie rámce předpokládá dostatečnou kognitivní kapacitu a
+stabilitu; u těžce traumatizovaných klientů je nutné postupovat pomaleji a s menším důrazem na
+analýzu.
+
+## Související
+
+**Pojmy**
+
+- [Paradigm shift](@/glossary/paradigm-shift.md) – Kuhnův pojem a jeho zneužití.
+- [Paradigmatická bezdomovina](@/glossary/paradigmaticka-bezdomovina.md) – prázdno po ztrátě rámce.
+- [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) – rozlišení progresivního a degenerujícího rámce.
+
+**Techniky**
+
+- [Falešný paradigmatický nárok](@/kompendium/techniques/ea-1-6-falesny-paradigmaticky-narok.md) – vzorec, po němž protokol následuje.
+- [Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – jak se rámec chrání proti námitkám.
+
+**Sesterské protokoly a praxe**
+
+- [Středně-dobý hermeneutický reset](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md) – obnova schopnosti výkladu.
+- [Rámce zotavení](@/kompendium/recovery-protocols/ramce.md) – srovnání tradic, které nabízejí smysluplné rámce.
+- [Pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md) – svépomocná ochrana.
+- [Vzdělávací scénář: Rozpoznání paradigmatu](@/kompendium/educational-scenarios/10-paradigm-recognition.md) – výukový modul.

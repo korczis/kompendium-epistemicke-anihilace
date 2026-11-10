@@ -61,7 +61,7 @@ Klastr zasahuje **chair-tělo** Merleau-Pontyho — tělesnou zkušenost před j
 | **EA-5.5.7** | Somato-fenomenologická inverze | Vynucené prožití těla "zvenčí" — z perspektivy věci, na kterou je směřováno, ne z perspektivy intencionálního aktu. Klinický obraz: kompletní inverze tělesné perspektivality. |
 | **[EA-5.5.8](@/kompendium/techniques/ea-5-5-8-korporealni-schema-rozklad.md)** | Pre-kinestetická paralýza | Tělesná [intencionalita](@/glossary/intentionalita.md) (Merleau-Pontyho "schopnost-k") destabilizována pod prahem motorické artikulace. Subjekt zachová motoriku, ale ztratí *smyslový horizont* svých pohybových možností. |
 | **[EA-5.5.9](@/kompendium/techniques/ea-5-5-9-kinesteticka-deformace.md)** | Synaestetická konfuze | Manipulace s implicitními cross-modálními vazbami zkušenosti (zvuk-barva, dotek-prostor). Generuje persistentní synaestetickou dezorientaci, distinktní od běžné synestézie. |
-| **[EA-5.5.10](@/kompendium/techniques/ea-5-5-10-proprioceptivni-confusion.md)** | Tělesné schéma evakuace | Dekompozice "tělesného schématu" (corporal schema, Schilder) bez nahrazujícího rámce. Klinicky velmi vzácné, dokumentováno pouze v laboratorních kontextech. |
+| **[EA-5.5.10](@/kompendium/techniques/ea-5-5-10-proprioceptivni-confusion.md)** | [Tělesné schéma](@/glossary/body-schema.md) evakuace | Dekompozice "tělesného schématu" (corporal schema, Schilder) bez nahrazujícího rámce. Klinicky velmi vzácné, dokumentováno pouze v laboratorních kontextech. |
 
 ## Klastr C — Atmosférická anihilace (EA-5.5.11 až 5.5.15)
 

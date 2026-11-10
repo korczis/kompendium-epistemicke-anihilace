@@ -261,3 +261,11 @@ a *RBAC* (řízení přístupu podle rolí, obdoba správy agentů podle úrovn�
 
 - [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md) –
   lidská obdoba přiměřeného oprávnění.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: agent-tier](@/kompendium/glossary-bridges/bridge-agent-tier.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

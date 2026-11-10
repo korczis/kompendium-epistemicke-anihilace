@@ -297,3 +297,11 @@ osvědčila v architektuře úložiště platformy s více adaptéry.
   architekturu platformy.
 - [Vztah k NABLA](@/kompendium/02-uvod/vztah-k-nabla.md) – jak je taxonomie EA zapojena do
   epistemického procesu platformy.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: 3nl](@/kompendium/glossary-bridges/bridge-3nl.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

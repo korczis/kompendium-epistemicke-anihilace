@@ -147,3 +147,11 @@ nejprve se obnovuje tělesná regulace, teprve na ní se staví práce s přesv�
   protokol.
 - [Varela: enaktivismus](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md) –
   teoretická kapitola.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: embodied-cognition](@/kompendium/glossary-bridges/bridge-embodied-cognition.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

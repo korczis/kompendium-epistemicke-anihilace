@@ -175,3 +175,11 @@ inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md).
 - [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
   – institucionální ochrana.
 - [Kompendium](@/kompendium/_index.md) – celá taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: darvo](@/kompendium/glossary-bridges/bridge-darvo.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

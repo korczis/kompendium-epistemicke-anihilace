@@ -1,114 +1,152 @@
 +++
-title = "Trauma"
+title = "Trauma – protokol zotavení z epistemického traumatu"
 weight = 100
-description = "Trauma — pojem v sekci kompendium/recovery-protocols znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Protokol zotavení z epistemického traumatu: obnova schopnosti poznávat, hodnotit doklady a věřit vlastnímu vnímání, s obnovou struktury před obsahem."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "recovery-protocol", "klinicke", "trauma"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["longterm-altruistic-channeling", "longterm-relapse-prevention", "duvera", "acute-information-curation", "acute-stabilization-protocol", "acute-safety-establishment"]
+related_terms = ["epistemicke-trauma", "c-ptsd", "betrayal-trauma", "retraumatizace", "sekvence", "duvera"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Cílová populace a fáze
+# Trauma – protokol zotavení z epistemického traumatu
 
-**Trauma** je rekonstruktivní protokol ze sekce `recovery-protocols/` Prismatic Kompendia. Protokol je určen klientům po extrakci z epistemicky toxického prostředí (EA expozice — kult, high-conflict relationship, [coercive control](@/glossary/coercive-control.md), [gaslighting](@/glossary/gaslighting.md)) v specifické fázi obnovy.
+> **Status**: tematický rekonstruktivní protokol k pojmu [epistemické trauma](@/glossary/epistemicke-trauma.md).
+> **Fáze**: subakutní až středně-dobá, po stabilizaci a obnově žitého světa.
+> **Zásada**: obnova **struktury** poznávání předchází práci s **obsahem** konkrétních přesvědčení.
 
-{% <callout type="note"> %}
-Protokoly recovery jsou *fázově sekvenční*: akutní (týdny 1–4) → subakutní (měsíce 2–3) → midterm (měsíce 4–6) → longterm (měsíce 7+). Použití mimo cílovou fázi může způsobit retraumatizaci nebo neefektivitu intervence.
-{% </callout> %}
+## 1. Co je epistemické trauma
 
-## Implementace
+Kniha užívá pojem epistemické trauma pro poškození schopností, jimiž člověk poznává: získávat
+informace, hodnotit doklady, tvořit a revidovat přesvědčení, testovat realitu a důvěřovat vlastnímu
+vnímání. Na rozdíl od traumatu v užším klinickém smyslu (posttraumatická stresová porucha podle
+MKN-11 a DSM-5-TR) nejde primárně o reakci na ohrožující událost, ale o **dlouhodobé narušení
+poznávací kapacity** – typicky po [gaslightingu](@/glossary/gaslighting.md),
+[hermeneutickém outsourcingu](@/glossary/hermeneuticky-outsourcing.md) nebo institucionální
+[delegitimizaci](@/glossary/delegitimizace.md). Teoretický rozbor je v kapitole
+[Vztah k epistemickému traumatu](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md).
 
-Implementace **Trauma** se opírá o standardní strukturu recovery protokolů:
+Obě podoby se často kombinují: u člověka po letech v [coercive control](@/glossary/coercive-control.md)
+lze najít jak příznaky [komplexní PTSD](@/glossary/c-ptsd.md), tak specificky epistemické obtíže.
+Protokol pracuje s epistemickou složkou a předpokládá, že klinická traumatická symptomatika je
+léčena souběžně ověřenými postupy.
 
-1. **Krizové hodnocení** — strukturovaný klinický rozhovor + safety mapping
-2. **Stabilizační intervence** — frequency dle fáze (akutní = denní, longterm = týdenní/měsíční)
-3. **Bezpečné prostředí** — fyzická, finanční, právní separace od pachatele
-4. **Somatická regulace** — krátká cvičení, vyhnout se intenzivním tělově-orientovaným technikám v akutní fázi
-5. **Sociální opora** — identifikace bezpečných kontaktů + krizová síť
-6. **Spánkový režim** — sleep hygiene jako externalizovaný kontejner
+## 2. Klinický obraz
 
-## Hodnotící kritéria
+- **Kognitivní mlha**: obtíže soustředit se, přemýšlet souvisle, rozhodnout se; viz
+  [Kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md).
+- **Nejistota o realitě**: „nevím, co je skutečné“; viz
+  [Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md).
+- **Hypervigilance vůči informacím**: každý zdroj je podezřelý, nebo naopak žádný.
+- **Delegace úsudku**: potřeba, aby někdo řekl, co si myslet.
+- **Rekurzivní pochybnost**: pochybnost o pochybnosti, z níž nevede cesta ven; srov.
+  [Recursive doubt spiral](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md).
+- **Vyhýbání se poznávacím situacím**: čtení zpráv, odborné práci, diskusím.
 
-Protokol **Trauma** používá týdenní [self-report](@/glossary/self-report.md) (PHQ-9, GAD-7, IES-R) a milníky závislé na fázi:
+## 3. Odlišení
 
-- Subjektivní stabilita
-- Spánková kontinuita (cíl: 6+ hodin, sleep latency <30 min)
-- Suicidalita (žádné aktivní ideace)
-- Safety milestones (separace, finance, právní status)
-- Working Alliance Inventory (WAI) ≥ 5/7
+- **Psychotická porucha**: u epistemického traumatu je zachováno [testování reality](@/glossary/reality-testing.md) v běžných
+  situacích a obtíže mají souvislost s expozicí; podrobně
+  [Diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md).
+- **Deprese** s kognitivními příznaky: podobný obraz, ale bez specifické vazby na důvěru ve
+  vlastní vnímání; může se kombinovat.
+- **Disociativní poruchy**: derealizace a amnézie vyžadují vlastní diagnostiku.
+- **Neurokognitivní porucha**: u starších klientů a po úrazech hlavy je nutné neurologické vyšetření.
 
-## Sesterské protokoly
+## 4. Cíle protokolu
 
-**Trauma** se aplikuje v koordinaci s ostatními protokoly téže fáze:
+1. Obnovit **kapacitu** pozornosti a uvažování (regulace, odpočinek, snížení zátěže).
+2. Obnovit **důvěru ve vlastní vnímání** pomocí externích kotev.
+3. Obnovit **dovednosti hodnocení dokladů** v bezpečném, neosobním materiálu.
+4. Teprve potom pracovat s **obsahem** přesvědčení spojených s expozicí.
+5. Obnovit **epistemickou komunitu** – lidi, s nimiž lze poznávat společně.
 
-- [Recovery protocols index](@/kompendium/recovery-protocols/_index.md) — celkový rámec
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — diagnostické pozadí
-- [Detection signatures](@/kompendium/detection-signatures/_index.md) — markery pro identifikaci dominantního EA typu
-<!-- EXPANDED:PHASE11 -->
+## 5. Postup
 
-## See Also
+### Fáze 1 – kapacita
 
-- [Parent section](@/kompendium/recovery-protocols/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+Spánek, pravidelnost, omezení informačního zahlcení; viz
+[Akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md) a
+[Informační dieta](@/kompendium/self-defense-guides/33-information-diet.md). Kognitivní mlha se v
+této fázi často sama zmírní.
 
----
+### Fáze 2 – externí kotvy
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Datované záznamy, fotografie, svědectví blízkých. Klient zjišťuje, že jeho vnímání je spolehlivé.
+Postup je podrobně popsán v protokolu [Důvěra](@/kompendium/recovery-protocols/duvera.md).
 
-## Manažerské shrnutí
+### Fáze 3 – neutrální trénink
 
-**Trauma** je aktivní uzel taxonomického grafu sekce `kompendium/recovery-protocols` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+Hodnocení dokladů se nacvičuje na tématech, která s expozicí nesouvisejí (zpráva o počasí, recenze
+výrobku, populárně-vědecký článek). Klient trénuje otázky: kdo to tvrdí, podle čeho, co by to
+vyvrátilo. Opora: [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) a
+[Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md). Neutrální materiál
+umožní obnovit dovednost bez aktivace traumatu.
 
-## Koncepční síť
+### Fáze 4 – obsah
 
-Vizualizace propojení **Trauma** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+Dovednosti se přenášejí na přesvědčení spojená s expozicí, po malých krocích a podle tempa klienta.
+Terapeut neposkytuje verdikty, ale pomáhá vážit doklady. Navazuje protokol
+[Paradigma](@/kompendium/recovery-protocols/paradigm.md).
 
-```mermaid
-graph TD
-    C0["Trauma"]
-    N1["Dlouhodobé altruistické kanalizování"]
-    N2["Dlouhodobá prevence relapsu"]
-    N3["Duvera"]
-    N4["Akutní informační kurace"]
-    N5["Akutní stabilizační protokol"]
-    N6["Akutní zajištění bezpečnosti"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+### Fáze 5 – epistemická komunita
 
-## Související pojmy
+Klient buduje okruh lidí, s nimiž sdílí poznávání: odborný tým, studijní skupina, přátelé, s nimiž
+lze mluvit o zprávách. Viz [Epistemická komunita](@/glossary/epistemicka-komunita.md) a
+[Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md).
 
-- [Dlouhodobé altruistické kanalizování](@/kompendium/recovery-protocols/longterm-altruistic-channeling.md) — slug `longterm-altruistic-channeling`
-- [Dlouhodobá prevence relapsu](@/kompendium/recovery-protocols/longterm-relapse-prevention.md) — slug `longterm-relapse-prevention`
-- [Duvera](@/kompendium/recovery-protocols/duvera.md) — slug `duvera`
-- [Akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md) — slug `acute-information-curation`
-- [Akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) — slug `acute-stabilization-protocol`
-- [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md) — slug `acute-safety-establishment`
+## 6. Hodnocení průběhu
 
-## Navigace
+- Klient zvládá číst a hodnotit informace bez výrazné úzkosti.
+- Rozhoduje se v běžných věcech sám a s přiměřenou jistotou.
+- Dokáže odlišit spolehlivé a nespolehlivé zdroje a zdůvodnit to.
+- Klinické příznaky traumatu sledované standardními nástroji (např. PCL-5, ITQ) se zmírňují; viz
+  [Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md).
 
-- **Nadřazená sekce**: [kompendium/recovery-protocols](@/kompendium/recovery-protocols/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md)
-  - [Akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md)
-  - [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md)
-  - [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md)
-  - [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## 7. Kontraindikace a rizika
+
+- Před stabilizací a obnovou bezpečí protokol nezahajovat; viz [Sekvence](@/kompendium/recovery-protocols/sekvence.md).
+- Předčasná práce s obsahem vede k [retraumatizaci](@/glossary/retraumatizace.md).
+- Aktivní psychotické příznaky, těžká [disociace](@/glossary/disociace.md) nebo suicidalita mají přednost.
+- Terapeut nesmí nahradit klientův úsudek vlastním; to by byla nová podoba hermeneutického outsourcingu.
+
+## 8. Kazuistika (anonymizovaný kompozit)
+
+Programátor po třech letech ve firmě se silně kontrolující kulturou, kde mu vedoucí soustavně
+zpochybňoval každé hodnocení („tvoje data jsou špatně, tvůj dojem je mylný“), přestává číst zprávy
+a nedokáže se rozhodnout ani o nákupu. Po stabilizaci si vede záznamy, které ukazují, že jeho
+technické odhady byly převážně správné. Ve fázi neutrálního tréninku hodnotí recenze a články;
+dovednost se rychle vrací. Teprve potom s terapeutem prochází hodnocení, která dostával. Po roce
+pracuje v novém týmu a popisuje: „Zase vím, jak se dívat. A když nevím, umím se zeptat.“
+
+## 9. Meze a otevřené otázky
+
+Epistemické trauma není samostatnou diagnózou v MKN ani v DSM; je to analytický pojem knihy, který
+pomáhá popsat specifickou složku obtíží. Jeho vymezení vůči komplexní PTSD a vůči depresi zůstává
+předmětem výzkumu; viz [Otevřené výzkumné otázky](@/kompendium/07-teoreticke-reflexe/otevrene-otazky.md).
+
+## Související
+
+**Pojmy**
+
+- [Epistemické trauma (heslo)](@/glossary/epistemicke-trauma.md) – definice pojmu.
+- [Bridge: Epistemické trauma](@/kompendium/glossary-bridges/bridge-epistemicke-trauma.md) – propojení hesla s knihou.
+- [Vztah k epistemickému traumatu](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md) – teoretický rozbor.
+- [C-PTSD](@/glossary/c-ptsd.md) – klinická diagnóza, s níž se epistemické trauma často kombinuje.
+
+**Sesterské protokoly**
+
+- [Sekvence](@/kompendium/recovery-protocols/sekvence.md) – pořadí kroků.
+- [Důvěra](@/kompendium/recovery-protocols/duvera.md) – obnova důvěry ve vlastní vnímání.
+- [Narativ](@/kompendium/recovery-protocols/narativ.md) – integrace traumatu do životního příběhu.
+
+**Klinika**
+
+- [Trauma history protokol](@/kompendium/techniques/ea-6-1-7-trauma-history-protokol.md) – strukturované mapování historie traumatu.
+- [Diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md) – klíčové odlišení.

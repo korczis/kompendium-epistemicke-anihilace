@@ -1,98 +1,124 @@
 +++
-title = "Dual Use"
+title = "Dual use – dvojí použitelnost poznání o manipulaci"
 weight = 100
-description = "Dual Use — pojem v sekci kompendium/08-prilohy znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Příloha k problému dvojí použitelnosti: proč znalost manipulace může chránit i škodit, jak s tím kniha zachází a jaká pravidla platí pro čtenáře, výzkum a výuku."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "prilohy", "ethics", "reference"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["zkratky", "eticky-kodex", "index-pojmu", "klasifikace", "bibliografie", "diagnosticke-nastroje"]
+related_terms = ["dual-use-poznani", "eticky-kodex", "informed-consent", "irb-review", "iatrogenic-harm", "bezpecnostni-klasifikace"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Domain a kontext
+# Dual use – dvojí použitelnost poznání o manipulaci
 
-**Dual Use** je referenční záznam ze sekce 08 Prismatic Kompendia (přílohy). Sekce 08 obsahuje rejstříky, glossáře, etické kodexy, diagnostické nástroje a další referenční materiály, které se prolínají sekcemi 01–07.
+> **Pozice v knize**: referenční příloha sekce [08. Přílohy](@/kompendium/08-prilohy/_index.md).
+> Shrnuje, jak kniha zachází s tím, že popis manipulativních technik může sloužit obraně i útoku.
+> Pojem vykládá heslo [Dual-use poznání](@/glossary/dual-use-poznani.md); etická pravidla stanoví
+> [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md).
 
-## Etický a operační rámec
+## Vymezení
 
-Záznam **Dual Use** se vztahuje k širším etickým a metodologickým otázkám manipulace EA-technikami v platformě Prismatic. Specifické vodítko zahrnuje:
+Pojem *dual use* (dvojí užití) pochází z kontroly vývozu a z bezpečnostní politiky, kde označuje
+zboží a technologie použitelné k civilním i vojenským účelům. V biologických vědách se ustálil
+pojem *dual-use research of concern* pro výzkum, jehož výsledky lze zneužít k vážné škodě;
+k jeho rozšíření přispěla zpráva amerických národních akademií *Biotechnology Research in an Age
+of Terrorism* (2004), známá jako Finkova zpráva.
 
-- **Dual-use problematika** — některé techniky lze použít defensivně i ofenzivně
-- **Konsent a klinická transparence** — [informovaný souhlas](@/glossary/informed-consent.md) v terapeutických kontextech
-- **Reportingové standardy** — GDPR, klient-terapeut privilegium, multidisciplinární komunikace
-- **Vědecká metodologie** — [falsifikovatelnost](@/glossary/falsifikovatelnost.md), peer review, replikovatelnost
+Kniha pojem přenáší na **poznání o manipulaci**. Popis toho, jak manipulace funguje, je nezbytný
+pro rozpoznání, prevenci a léčbu – a zároveň by v určité podobě mohl posloužit k tomu, aby někdo
+manipuloval účinněji. Tento rozpor nelze odstranit, lze ho jen řídit.
 
-## Cross-reference
+## Proč kniha nemůže mlčet
 
-Pro praktické použití **Dual Use** konzultujte:
+Kdo nezná vzorec, nepozná ho. Oběti [coercive control](@/glossary/coercive-control.md), členové uzavřených skupin i jejich terapeuti
+dlouho neměli jazyk, jímž by zkušenost pojmenovali – stav, který Miranda Fricker (2007) nazývá
+hermeneutickou nespravedlností; viz [Epistemická injustice](@/glossary/epistemicka-injustice.md).
+Mlčení o mechanismech chrání především ty, kdo je už používají: ti se je naučí praxí, zatímco
+zasažení zůstávají bez pojmů. Proto kniha mechanismy popisuje.
 
-- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) (pokud je relevantní)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Detection signatures](@/kompendium/detection-signatures/_index.md)
-<!-- EXPANDED:PHASE11 -->
+## Jak kniha riziko řídí
 
-## See Also
+1. **Úroveň popisu**: mechanismus je popsán jako **strukturální vzorec**, který pozorovatel pozná –
+   co je vidět, jak to probíhá, co to s člověkem dělá. Kniha nepodává skripty, postupy „krok za
+   krokem“, rady k výběru cíle, k zesílení účinku ani k zakrytí stop.
+2. **Párování s obranou**: každý popis techniky je doprovázen detekčními znaky, odlišením od
+   neškodných jevů a od klinických stavů, obranou a cestou k zotavení.
+3. **Přístupové úrovně**: nejcitlivější části (terminální protokoly, ultramární techniky) jsou
+   určeny kvalifikovaným čtenářům; viz [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md).
+4. **Etický rámec**: pravidla pro autory, výzkumníky a pedagogy; viz
+   [Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md).
+5. **Anonymizace**: kazuistiky jsou kompozity bez identifikačních detailů.
 
-- [Parent section](@/kompendium/08-prilohy/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+## Pravidla pro čtenáře a uživatele
 
----
+- **Klinici** používají popisy k diagnostice a psychoedukaci v řízené dávce; nadměrná psychoedukace
+  může klienta zahltit nebo vést k sebeobviňování.
+- **Pedagogové** v simulačních a výukových cvičeních pracují s rozpoznáváním, ne s nácvikem
+  provádění, a dodržují bezpečnostní protokoly; viz [Bezpečnostní protokoly pro simulační cvičení v kapitole 3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
+  a [Před-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md).
+- **Výzkumníci** podléhají etickému posouzení projektu a informovanému souhlasu; viz
+  [IRB Review](@/glossary/irb-review.md) a [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md).
+- **Organizace** používají poznatky k ochraně zaměstnanců a ke kontrolním mechanismům, ne k
+  ovlivňování vlastních lidí; viz [Organizační obrana](@/kompendium/organizational-defense/_index.md).
+- **Laický čtenář** používá popisy k rozpoznání a k vyhledání pomoci; svépomocné návody jsou
+  v oddílu [Praktické návody sebe-obrany](@/kompendium/self-defense-guides/_index.md).
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+## Znaky zneužití
 
-## Manažerské shrnutí
+Signálem, že poznání slouží opačnému účelu, je zejména:
 
-**Dual Use** je aktivní uzel taxonomického grafu sekce `kompendium/08-prilohy` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+- zájem o „účinnost“ technik bez zájmu o detekci a obranu;
+- používání pojmů knihy k obviňování nebo umlčování druhých („to je [gaslighting](@/glossary/gaslighting.md)“ jako zbraň ve
+  sporu, bez doložení vzorce);
+- diagnostikování lidí na dálku a nálepkování;
+- použití terapeutických postupů ke kontrole klienta.
 
-## Koncepční síť
+Na riziko, že taxonomie sama může sloužit moci, upozorňuje [EA jako mocenský nástroj](@/kompendium/critical-perspectives/18-EA-as-power-tool.md)
+a [Stigmatizace skrze EA kategorie](@/kompendium/critical-perspectives/12-EA-stigma-risk.md).
 
-Vizualizace propojení **Dual Use** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+## Iatrogenní rozměr
 
-```mermaid
-graph TD
-    C0["Dual Use"]
-    N1["Zkratky a notace"]
-    N2["Etický kodex výzkumníka EA"]
-    N3["Index pojmů (CS-EN bilingual)"]
-    N4["Klasifikační schéma a taxonomie — meta-úroveň"]
-    N5["Bibliografie a primární literatura"]
-    N6["Diagnostické dotazníky a nástroje"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+Dvojí použitelnost se týká i pomoci: intervence, která má chránit, může škodit, pokud nahradí jednu
+autoritu druhou, pokud tlačí na rychlé „odhalení pravdy“ nebo pokud označí za manipulaci něco, co
+manipulací není. Viz [Iatrogenic harm](@/glossary/iatrogenic-harm.md) a
+[Iatrogenní účinky EA intervencí](@/kompendium/critical-perspectives/11-iatrogenic-overreach.md).
 
-## Související pojmy
+## Příklad (anonymizovaný kompozit)
 
-- [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) — slug `zkratky`
-- [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md) — slug `eticky-kodex`
-- [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md) — slug `index-pojmu`
-- [Klasifikační schéma a taxonomie — meta-úroveň](@/kompendium/08-prilohy/klasifikace.md) — slug `klasifikace`
-- [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md) — slug `bibliografie`
-- [Diagnostické dotazníky a nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) — slug `diagnosticke-nastroje`
+V kurzu pro studenty psychologie se probírá vzorec [love bombing](@/glossary/love-bombing.md).
+Jeden účastník se ptá, „jak to udělat, aby si toho druhý nevšiml“. Vyučující otázku věcně odmítne,
+vysvětlí rámec kurzu a vrátí diskusi k tomu, jak vzorec rozpoznat a jak podpořit člověka, který ho
+zažívá. Situaci zapíše a probere s garantem programu. Ukazuje to, že řízení dvojího užití není jen
+věcí textu, ale i praxe těch, kdo s ním pracují.
 
-## Navigace
+## Meze a otevřené otázky
 
-- **Nadřazená sekce**: [kompendium/08-prilohy](@/kompendium/08-prilohy/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)
-  - [Diagnostické dotazníky a nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md)
-  - [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md)
-  - [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md)
-  - [Klasifikační schéma a taxonomie — meta-úroveň](@/kompendium/08-prilohy/klasifikace.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+Žádná úroveň popisu nezaručí, že poznání nebude zneužito; kniha volí kompromis mezi užitečností pro
+obranu a omezením rizika. Otevřená zůstává otázka, jak hodnotit veřejnou dostupnost knihy oproti
+výhodě, kterou přináší zasaženým, a jak postupovat s novými technikami (např. v prostředí umělé
+inteligence), u nichž zatím chybí ověřené obranné postupy.
+
+## Související
+
+**Etika a pravidla**
+
+- [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md) – závazná pravidla.
+- [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md) – přístupové úrovně.
+- [Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md) – etický rámec předmluvy.
+
+**Glosář**
+
+- [Dual-use poznání](@/glossary/dual-use-poznani.md) – definice pojmu.
+- [Bridge: Dual-use poznání](@/kompendium/glossary-bridges/bridge-dual-use-poznani.md) – propojení hesla s knihou.
+- [Iatrogenic harm](@/glossary/iatrogenic-harm.md) – škoda způsobená pomocí.
+
+**Kritika a výzkum**
+
+- [EA jako mocenský nástroj](@/kompendium/critical-perspectives/18-EA-as-power-tool.md) – riziko zneužití taxonomie.
+- [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md) – výzkumná etika.

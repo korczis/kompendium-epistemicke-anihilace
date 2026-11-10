@@ -96,7 +96,7 @@ Co může vidět vnější pozorovatel:
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — identitární substituce často kombinovaná s epistemickou kanibalizací
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — identitární substituce často kombinovaná s epistemickou kanibalizací
 - **EA-5.5.* (Transkonceptuální mechanismy)** — pre-konceptuální vrstva podpírá identitární substituci
 - **EA-1.6.* (Charizmatické vedení)** — guru-adept dynamika je strukturálním rámcem hypertransformace
 
@@ -125,7 +125,7 @@ Technika **tělesná disociace** představuje strukturální výzvu pro defenziv
 
 ## Teoretické zázemí
 
-Merleau-Pontyho **corps propre** vs. **corps objet** (*Phénoménologie de la perception*) — disociace nutí subjekt prožívat vlastní tělo jako objekt. **Chair** (chiastní propletení smyslujícího a smyslovaného) je narušena: smyslující ztrácí kontakt se smyslovaným. Husserlova **kinestetická konstituce** (*Ideen II*) — pasivní syntéza tělových vjemů — je rozpojena. Damasiovy **somatické markery** ztrácejí emocionální významovou hodnotu. Sartreovo **être-pour-soi** vůči vlastnímu tělu jako **être-en-soi** (*L'Être et le néant*) je radikalizováno do patologické podoby. Levinasova **sensibilité** jako pasivita zasažitelnosti je manipulátorem instrumentalizována jako bod průniku. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+Merleau-Pontyho **corps propre** vs. **corps objet** (*Phénoménologie de la perception*) — disociace nutí subjekt prožívat vlastní tělo jako objekt. **Chair** (chiastní propletení smyslujícího a smyslovaného) je narušena: smyslující ztrácí kontakt se smyslovaným. Husserlova **kinestetická konstituce** (*Ideen II*) — [pasivní syntéza](@/glossary/pasivni-synteza.md) tělových vjemů — je rozpojena. Damasiovy **somatické markery** ztrácejí emocionální významovou hodnotu. Sartreovo **être-pour-soi** vůči vlastnímu tělu jako **être-en-soi** (*L'Être et le néant*) je radikalizováno do patologické podoby. Levinasova **sensibilité** jako pasivita zasažitelnosti je manipulátorem instrumentalizována jako bod průniku. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
 
 ## Empirická literatura
 

@@ -81,7 +81,7 @@ Co může vidět vnější pozorovatel:
 
 1. Externí biografická archivace — datované deníky, fotografie, korespondence — uchovávané mimo manipulátorův dosah
 2. Triangulace s nezávislými svědky biografických událostí (rodina, dlouholetí přátelé)
-3. Terapeutická rekonstrukce autobiografického self skrze strukturované vyprávění (narativní terapie)
+3. Terapeutická rekonstrukce autobiografického self skrze strukturované vyprávění ([narativní terapie](@/glossary/narativni-terapie.md))
 
 ### Institucionální
 
@@ -96,7 +96,7 @@ Co může vidět vnější pozorovatel:
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — identitární substituce často kombinovaná s epistemickou kanibalizací
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — identitární substituce často kombinovaná s epistemickou kanibalizací
 - **EA-5.5.* (Transkonceptuální mechanismy)** — pre-konceptuální vrstva podpírá identitární substituci
 - **EA-1.6.* (Charizmatické vedení)** — guru-adept dynamika je strukturálním rámcem hypertransformace
 

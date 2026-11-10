@@ -161,3 +161,11 @@ od případu.
 - [Kaskáda deplatformingu](@/kompendium/detection-signatures/24-network-deplatforming-cascade.md)
   – jak ji rozpoznat.
 - [Kompendium](@/kompendium/_index.md) – celá taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: deplatforming](@/kompendium/glossary-bridges/bridge-deplatforming.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

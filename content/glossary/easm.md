@@ -313,3 +313,11 @@ i na dokumentaci aplikací platformy (`prismatic_perimeter`, `prismatic_osint_co
 - [Perimetr: útočná plocha a EA](@/kompendium/aiad-integration/perimeter-ea-attack-surface.md)
   – vnější plocha v souvislosti s technikami EA.
 - [Color Teams](@/glossary/color-teams.md) – epistemická útočná plocha vedle technické.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: easm](@/kompendium/glossary-bridges/bridge-easm.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

@@ -32,7 +32,7 @@ Sekce sestává z **pěti kapitol**, každá obsahující **30 technik**, což d
 
 | Kapitola | Operační režim | Rozsah kódů | Fokus destrukce |
 |----------|----------------|-------------|------------------|
-| **[Kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md)** | Epistemická singularita | [EA-5.1.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) — 5.1.30 | Kolaps reflexivních struktur a sebeprůzkumných smyček |
+| **[Kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md)** | [Epistemická singularita](@/glossary/epistemicka-singularita.md) | [EA-5.1.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) — 5.1.30 | Kolaps reflexivních struktur a sebeprůzkumných smyček |
 | **[Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)** | Metatranscendentální anihilace | [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) — 5.2.30 | Suspenze transcendentálních podmínek poznání |
 | **[Kapitola 8](@/kompendium/05-ultramari-techniky/kapitola-8.md)** | Hypertransformativní protokoly | [EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) — 5.3.30 | Vynucená rekurzivní transformace identity poznávajícího |
 | **[Kapitola 9](@/kompendium/05-ultramari-techniky/kapitola-9.md)** | Paradoxální metaanihilační protokoly | [EA-5.4.1](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md) — 5.4.30 | Sebevztažné paradoxy destabilizující rámce evaluace |

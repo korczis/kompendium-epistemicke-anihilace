@@ -42,27 +42,15 @@ Subjekt v terminálním stadiu trpí strukturní ztrátou hranic: pociťuje se j
 
 Tento stav bývá pseudo-mysticky interpretován jako „splynutí s vesmírem“ nebo „překonání duality“, ale strukturně jde o ztrátu subjekt-objektové struktury, jež je **podmínkou možnosti** koherentního vědomí.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Pseudo-mystická indoktrinace
+Pozorovatel vidí člověka, jehož hranice vůči druhým přestaly fungovat: osobní informace sdílí bez rozvahy, emoce okolí prožívá jako vlastní a vůči vůdčí osobě skupiny nedokáže zaujmout odstup. Splývání se vykládá jako překonání oddělenosti a jakákoli hranice jako projev ega. Požadavek úplné průhlednosti vůči skupině patří mezi kritéria totalistického prostředí (Lifton, 1961) a mezi měřitelné dimenze kontroly chování a informací (Hassan, 2018).
 
-Subjekt je veden k radikální verzi non-duality — *„subjekt-objekt distinkce je iluze.“* Klíčová formulace: *„Skutečnost je jediná; oddělení je vinou ega.“*
+Postižení popisují, že nevědí, kde končí oni a začíná druhý; že se ztotožňují s postavami, které sledují; že po setkání se skupinou nejsou schopni odlišit, co chtěli oni a co jim bylo předloženo. Pravidelně následuje bezbrannost vůči dalšímu nátlaku. Trvalé podřízení v asymetrickém vztahu jako samostatný vzorec, odlišný od jednotlivých incidentů, popisuje (Stark, 2007).
 
-### Krok 2 — Saturace splývacími praxemi
+Zpětně se znaky skládají takto: nejprve nauka o nedvojnosti, pak praxe a rituály podporující splývání, pak ztráta soukromí vůči skupině a nakonec stav, v němž postižený nerozpozná vlastní zájem. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Nepříznivé průběhy intenzivní praxe včetně rozpadu hranic prožívání dokládají (Lindahl et al., 2017).
 
-Manipulátor zavádí intenzivní praxe údajně „překonávající dualitu“ — meditace zaměřená na splývání s objektem, identifikační praktiky, kolektivní rituály.
-
-### Krok 3 — Destrukce hranic Já-Ty
-
-Sociální hranice jsou systematicky podlamovány: subjekt je veden k „úplné otevřenosti“, „transparentnosti“, „splynutí s komunitou“.
-
-### Krok 4 — Bod fúzie
-
-V určitém momentu subjekt prožívá **akutní splynutí** — pociťuje se identický s objektem (postavou, komunitou, partnerem, médiem). Stav je interpretován jako „průlom“.
-
-### Krok 5 — Konsolidace fúzie jako „vyšší skutečnosti“
-
-Stav strukturní fúzie je etablován jako trvalý modus. Identitární investice činí návrat k subjekt-objektové diferenciaci obtížným.
+*Interpretace knihy*: odlišit legitimní zkušenost sounáležitosti od tohoto vzorce lze podle toho, zda po ní člověku zůstává vlastní stanovisko. Obnovení bezpečí a hranic jako prvního kroku zotavení popisuje (Herman, 1992); závislost na jediné vztahové figuře odkazuje k rámci (Bowlby, 1969).
 
 ## Fenomenologické znaky
 
@@ -77,10 +65,10 @@ Stav strukturní fúzie je etablován jako trvalý modus. Identitární investic
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt **systematicky popírá hranice mezi sebou a ostatními** | Krok 3 destrukce |
-| **Mediální fúzie** — silná identifikace s postavami nebo influencery | Krok 4 fúzie |
+| Subjekt **systematicky popírá hranice mezi sebou a ostatními** | Fáze — destrukce |
+| **Mediální fúzie** — silná identifikace s postavami nebo influencery | Fáze — fúzie |
 | **Pseudo-empatická paralýza** — neschopnost regulace emocí ostatních | Strukturální dopad |
-| **Pseudo-mystický slovník** ("splynutí", "non-dualita") | Krok 5 konsolidace |
+| **Pseudo-mystický slovník** ("splynutí", "non-dualita") | Fáze — konsolidace |
 | **Akutní zranitelnost vůči manipulaci** | Strukturální dopad |
 
 ## Diferenciální detekce
@@ -139,21 +127,32 @@ Klíčový diferenciál: **autentický non-dualista funguje s druhými**; subjek
 - **OSINT vyšetřovatel-cíl distance** — strukturní oddělení udržuje epistemickou integritu.
 - **[Decision Engine](@/glossary/decision-engine.md) accountability** — vlastnictví rozhodnutí vyžaduje strukturní subjekt.
 
+## Literatura
+
+- Bowlby, J. (1969). *Attachment and Loss I: Attachment*. London: Hogarth Press.
+- Hassan, S. (2018). *Combating Cult Mind Control*. 3. vyd. Newton: Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K. & Britton, W. B. (2017). The varieties of contemplative experience. *PLoS ONE*, 12(5), e0176239.
+- Simeon, D. & Abugel, J. (2006). *Feeling Unreal: Depersonalization Disorder and the Loss of the Self*. New York: Oxford University Press.
+- Singer, M. T. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
+- Stark, E. (2007). *Coercive Control*. New York: Oxford University Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
-- Pokud diagnostikuješ na sobě, konzultuj se supervizí.
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L4 — kosmická, výhradně doktrinální analýza).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

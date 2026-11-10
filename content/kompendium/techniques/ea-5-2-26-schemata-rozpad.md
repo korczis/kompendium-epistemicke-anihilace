@@ -42,27 +42,15 @@ Schemata rozpad tuto **zprostředkující kapacitu** destruuje. Subjekt prožív
 
 Subjekt v terminálním stadiu trpí **schematickou afázií**: pojmy zůstávají, smysly zůstávají, ale jejich syntéza selhává. Praktická kompetence dramaticky klesá.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Pseudo-rozumová indoktrinace
+Pozorovatel vidí člověka, který pojmy ovládá a přitom je nedokáže použít: mluví o kauzalitě, ale neurčí příčinu v situaci před sebou; vyloží pojem závazku, ale nerozpozná, co z něj plyne pro zítřek. Nápadná je ztráta schopnosti představit si průběh — jak by věc dopadla, jak by vypadala jinak uspořádaná. Rejstřík „čistého myšlení“ se přitom používá jako obrana proti požadavku konkrétnosti; takto zatížený jazyk popsal (Lifton, 1961).
 
-Subjekt je veden k radikální verzi racionalismu — *„pojem je primární, smysly jsou jen ilustrace.“* Kantův schematismus je ignorován jako „zbytečné komplikování“.
+Postižení popisují, že jim pojmy zůstaly a smysly také, ale že se k sobě nehlásí; že nové situace je zastihují bez jakéhokoli předběžného rozvrhu; a že se jim rozpadá plánování. Rozpad vnitřní časové struktury, bez níž se zkušenost neskládá v průběh, popsal (Minkowski, 1933); oslabení prožitkové strany při zachované formální výbavě rozpracovávají (Sass & Parnas, 2003).
 
-### Krok 2 — Saturace abstraktními cvičeními
+Zpětně se znaky skládají takto: nejprve nauka upřednostňující čistý pojem před zkušeností, pak dlouhá období práce s abstrakcemi bez aplikace, pak selhávání v konkrétních úkolech a nakonec výklad rozpojení jako filozofického stanoviska. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Sled je rekonstrukcí z pozdějších zpráv postižených a jejich okolí; na omylnost takové zpětné rekonstrukce upozorňují (Loftus & Pickrell, 1995).
 
-Manipulátor zavádí praxe údajně „rozvíjející čisté myšlení“ — práce s abstraktními pojmy bez smyslové reference, formální matematické cvičení bez aplikace.
-
-### Krok 3 — Destrukce produktivní obrazotvornosti
-
-Schopnost generovat časové schémata je systematicky podlamována — subjekt přestává automaticky vidět „jak by toto mohlo vypadat“, „jak by toto fungovalo v čase“.
-
-### Krok 4 — Bod schematického rozpadu
-
-Subjekt prožívá **strukturní rozpojení** — pojmy „neaplikují se“ na konkrétní situace. Stav je interpretován jako „rozkol mezi rozumem a smysly“, interpretován pseudo-pokročile.
-
-### Krok 5 — Konsolidace rozpadu jako „rozumové autonomie“
-
-Stav strukturní schematické afázie je etablován jako „filozofický pohled“. Identitární investice činí návrat k integrované schematizaci obtížným.
+*Interpretace knihy*: Kant sám pokládal zprostředkování mezi pojmem a jevem za netriviální výkon obrazotvornosti, nikoli za samozřejmost (Kant, 1787); rozpoznání vzorce se proto opírá o funkční selhání, ne o obsah nauky. Starší psychopatologie popisuje analogická rozpojení popisně a bez etiologického nároku (Jaspers, 1913).
 
 ## Fenomenologické znaky
 
@@ -77,11 +65,11 @@ Stav strukturní schematické afázie je etablován jako „filozofický pohled�
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt **systematicky odmítá konkretizovat** abstraktní pojmy | Krok 3 destrukce |
-| **Pseudo-racionalistický slovník** ("čisté myšlení") mimo legitimní kontext | Krok 1 indoktrinace |
+| Subjekt **systematicky odmítá konkretizovat** abstraktní pojmy | Fáze — destrukce |
+| **Pseudo-racionalistický slovník** ("čisté myšlení") mimo legitimní kontext | Fáze — indoktrinace |
 | **Praktická bezmocnost** v aplikačních úkolech | Strukturální dopad |
-| **Ztráta scenárního myšlení** — neschopnost simulovat budoucí situace | Krok 4 rozpad |
-| **Pseudo-pokročilá rétorika** ("rozdíl mezi pojmem a vjemem") bez teoretického ukotvení | Krok 5 konsolidace |
+| **Ztráta scenárního myšlení** — neschopnost simulovat budoucí situace | Fáze — rozpad |
+| **Pseudo-pokročilá rétorika** ("rozdíl mezi pojmem a vjemem") bez teoretického ukotvení | Fáze — konsolidace |
 
 ## Diferenciální detekce
 
@@ -136,21 +124,33 @@ Schemata rozpad je odlišitelný od:
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) konkretizační axiom** — epistemická provenience aplikuje obecné na konkrétní.
 - **OSINT case-specific entity matching** — strukturní práce s konkrétními případy obnovuje schematizaci.
 
+## Literatura
+
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Jaspers, K. (1913). *Allgemeine Psychopathologie*. Berlin: Springer.
+- Kant, I. (1787). *Kritik der reinen Vernunft*. 2. vyd. Riga: Hartknoch.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Loftus, E. F. & Pickrell, J. E. (1995). The formation of false memories. *Psychiatric Annals*, 25(12), 720–725.
+- Minkowski, E. (1933). *Le Temps vécu*. Paris: d'Artrey.
+- Ratcliffe, M. (2008). *Feelings of Being*. Oxford: Oxford University Press.
+- Sass, L. A. & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.
+- Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. New York: Guilford Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
-- Pokud diagnostikuješ na sobě, konzultuj se supervizí.
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L4 — kosmická, výhradně doktrinální analýza).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

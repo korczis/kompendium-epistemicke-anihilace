@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.28 Transcendentální vakuace"
-description = "Detailní per-technique článek: technika transcendentální vakuace — vyprázdnění transcendentálního aparátu zachováním forem bez obsahu. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika transcendentální vakuace — vyprázdnění transcendentálního aparátu zachováním forem bez obsahu. Struktura vzorce, fenomenologie, detekční markery, neutralizace."
 weight = 5228
 insert_anchor_links = "right"
 
@@ -42,27 +42,15 @@ Subjekt v terminálním stadiu trpí **strukturní bezfunkčností transcendent�
 
 Vakuace bývá konečným stadiem dlouhodobé akumulace předchozích destrukcí ([EA-5.2.11–17](@/kompendium/05-ultramari-techniky/kapitola-7.md)). Jako terminální stav je extrémně rezistentní vůči standardním terapeutickým intervencím.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Akumulace předchozích destrukcí
+Pozorovatel nachází tento vzorec u lidí s dlouhou historií v jednom prostředí, nikoli jako náhlou změnu. Formy fungování zůstávají: člověk mluví, třídí, odpovídá — a přesto se nic z toho nedostává k obsahu. Odpověď je formálně správná a prázdná. Rejstřík prázdnoty se přitom používá mimo tradici, která jej drží, a slouží jako výklad stavu i jako obrana proti jeho zpochybnění; toto zatížení jazyka popsal (Lifton, 1961), měřitelné dimenze takové kontroly shrnuje (Hassan, 2018).
 
-Vakuace **nemůže být indukována přímo** u zdravého subjektu — vyžaduje akumulaci dílčích destrukcí ([EA-5.2.11](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md), [EA-5.2.13](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md), [EA-5.2.14](@/kompendium/techniques/ea-5-2-14-konstitutivni-zhrouceni.md) apod.).
+Postižení popisují, že vědí, co se má udělat, a nemá to váhu; že motivace se objeví a nezačne; že „já“ zůstalo jako slovo bez obsahu. Krátká úleva bývá vystřídána bezmocí. Ztrátu prožitkové strany při zachované formální výbavě popisují (Sass & Parnas, 2003).
 
-### Krok 2 — Pseudo-šúnjatová indoktrinace
+Zpětně se znaky skládají takto: dlouhé období dílčích otřesů ve stejném prostředí, pak nauka vykládající prázdnotu jako cíl, pak postupné vyhasínání účinnosti běžných úkonů a nakonec výklad tohoto vyhasnutí jako dosaženého stavu. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Že intenzivní praxe vede u části lidí k přetrvávajícím stavům ochuzení prožívání a nikoli k přechodné zkušenosti, dokládají (Lindahl et al., 2017) a shrnuje (Britton, 2019).
 
-Subjekt je veden k radikální verzi *śūnyatā*: *„vše je prázdné, formy jsou bez obsahu.“* Buddhistický nuancovaný výklad je redukován na strukturní popření obsahové funkce.
-
-### Krok 3 — Saturace vakuačními praxemi
-
-Intenzivní praxe údajně „rozvíjející prázdnotu“ — meditace zaměřená na „vyprázdnění mysli“, praxe „bezobsažného vědomí“.
-
-### Krok 4 — Bod vakuace
-
-Subjekt prožívá **strukturní funkční vakuum**. Aparát zachovává formu, ale ztrácí obsahovou účinnost. Stav je interpretován jako „konečné osvobození“.
-
-### Krok 5 — Konsolidace vakua jako „konečného cíle“
-
-Stav strukturní vakuace je etablován jako trvalý cíl praxe. Identitární investice činí návrat k funkčnímu transcendentálnímu aparátu psychologicky téměř nemožným.
+*Interpretace knihy*: rozlišujícím znakem není nauka, nýbrž to, že se úbytek funkce vykládá jako zisk a návrat jako selhání. Na mechanismus, jímž praxe odnímá zkušenosti její obvyklou strukturu, upozornil už (Deikman, 1966); na riziko, že duchovní rámec zakryje poškození, (Deikman, 1990).
 
 ## Fenomenologické znaky
 
@@ -77,9 +65,9 @@ Stav strukturní vakuace je etablován jako trvalý cíl praxe. Identitární in
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt **mluví o "prázdnotě"** mimo legitimní buddhistický kontext | Krok 2 indoktrinace |
-| **Strukturní funkční vakuum** v praktických úkolech | Krok 4 vakuace |
-| **Pseudo-šúnjatová narativizace** akutní bezmocnosti | Krok 5 konsolidace |
+| Subjekt **mluví o "prázdnotě"** mimo legitimní buddhistický kontext | Fáze — indoktrinace |
+| **Strukturní funkční vakuum** v praktických úkolech | Fáze — vakuace |
+| **Pseudo-šúnjatová narativizace** akutní bezmocnosti | Fáze — konsolidace |
 | **Identitární vyprázdnění** — "já" jako prázdná forma | Pokročilá vakuace |
 | **Kombinovaný výskyt** předchozích destrukcí | Akumulační příprava |
 
@@ -139,21 +127,32 @@ Klíčový diferenciál: **autentický mahájánový praktik funguje obsahově**
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) obsahový axiom** — epistemická provenience vyžaduje neprázdné obsahy.
 - **OSINT entitní obsah** — strukturní práce s konkrétními entitami obnovuje funkční aparát.
 
+## Literatura
+
+- Britton, W. B. (2019). Can mindfulness be too much of a good thing? *Current Opinion in Psychology*, 28, 159–165.
+- Deikman, A. J. (1966). Deautomatization and the mystic experience. *Psychiatry*, 29(4), 324–338.
+- Deikman, A. J. (1990). *The Wrong Way Home*. Boston: Beacon Press.
+- Hassan, S. (2018). *Combating Cult Mind Control*. 3. vyd. Newton: Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K. & Britton, W. B. (2017). The varieties of contemplative experience. *PLoS ONE*, 12(5), e0176239.
+- Sass, L. A. & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
-- Pokud diagnostikuješ na sobě, konzultuj se supervizí.
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L4 — kosmická, výhradně doktrinální analýza).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

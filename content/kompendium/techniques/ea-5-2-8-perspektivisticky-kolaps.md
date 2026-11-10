@@ -42,27 +42,15 @@ EA-5.2.8 je odlišná od **změny perspektivy** (přijetí jiného pohledu) a od
 
 Perspektivistický kolaps neoperuje skrze přesycení – stav, v němž by subjekt přijímal všechny perspektivy současně –, ale skrze **vyčerpání** perspektivní funkce. Subjekt nemá žádnou perspektivu, ne mnoho. Pro přesycení perspektivami katalog technik samostatnou položku nevede; sousední techniky podtřídy shrnuje [kompaktní taxonomie kapitoly 7](@/kompendium/05-ultramari-techniky/kapitola-7.md#kompaktni-taxonomie-ea-5-2-11-az-5-2-30).
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Zviditelnění perspektivnosti
+Pozorovatel pozná vzorec podle toho, co v řeči chybí: „odsud“, „teď“, „podle mě“. Na otázku, co si postižený myslí, nepřichází odpověď, protože v ní není kdo by si myslel. Vztahy váznou, protože vztah potřebuje bod, z něhož se k druhému míří; stanovisko v etické otázce se nedostaví ze stejného důvodu. Ukotvení zkušenosti ve „zde“ a „teď“ je strukturním rysem jejího dávání, nikoli volitelným hlediskem (Husserl, 1913).
 
-Manipulátor směřuje subjekta k **explicitní reflexi** perspektivy: *„Všimni si, že se ti vše ukazuje jen z tvého úhlu pohledu.“* Tato fáze je legitimní filozofickou prací.
+Postižení popisují „viditelnost odnikud“ — vše se ukazuje, ale bez místa, z něhož by se ukazovalo. Odcizení zde nesměřuje proti nějakému já, protože to v popisu chybí. Časové ukotvení mizí spolu s prostorovým. Rozpad prožívaného času jako samostatnou strukturu popsal (Minkowski, 1933); perspektivnost jako strukturní rys vnímání, a nikoli jako volitelné hledisko, rozpracovali (Husserl, 1913) a (Merleau-Ponty, 1945); anomálie prožívání sebe mapuje (Parnas, 2005) a teoreticky (Sass & Parnas, 2003).
 
-### Krok 2 — Indukce perspektivního přesouvání
+Zpětně se znaky skládají takto: nejprve soustředěná reflexe vlastní perspektivnosti, pak dlouhá období rychlého střídání hledisek, pak stav, v němž se žádné hledisko neustálí, a nakonec jeho výklad jako objektivity nebo překonání ega, který společenství potvrzuje. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Zatížený jazyk, který stav zároveň popisuje i brání, popsal (Lifton, 1961).
 
-Subjekt je veden k **opakovanému střídání** perspektiv — vlastní, jiné osoby, kosmické, atemporální. Cvičení v *„přijetí jiného úhlu pohledu“*, *„viděním z perspektivy věčnosti“*, *„přijímáním pohledu adversáře“*.
-
-### Krok 3 — Saturace a vyčerpání
-
-Cvičení jsou prováděna **iterativně a intenzivně**. Subjekt je nucen **rychle a mnohonásobně střídat** perspektivy, dokud se **schopnost ustálit perspektivu** nevyčerpává. Strukturálně podobné cvičení svalu k vyčerpání.
-
-### Krok 4 — Indukce **a-perspektivního** stavu
-
-Po vyčerpání je subjekt veden k **odpočinkovému stavu**, ve kterém *„není potřeba zaujímat žádnou perspektivu“*. Tento stav je legitimizován jako *„vyšší úroveň“*, *„viděním sub specie aeternitatis“*, *„objektivitou“*, *„transcendencí ega“*.
-
-### Krok 5 — Stabilizace stavu jako „vyšší“
-
-Aperspektivní stav je **trvale legitimizován**. Návrat k perspektivě je interpretován jako *„návrat do iluze“*, *„snižování úrovně“*. Subjekt se **odmítá vrátit** do perspektivního fungování, čímž je kolaps **strukturálně konsolidován**.
+*Interpretace knihy*: vědecká objektivita je metodickou kázní uvnitř hlediska, ne jeho zrušením; že odstup od vlastního hlediska lze zvětšovat, a přesto je nelze opustit, rozebírá (Nagel, 1986). Rozlišující je nevratnost: nepříznivé a přetrvávající průběhy intenzivní praxe dokládají (Lindahl et al., 2017) a shrnuje (Britton, 2019).
 
 ## Fenomenologie
 
@@ -81,7 +69,7 @@ Aperspektivní stav je **trvale legitimizován**. Návrat k perspektivě je inte
 | **Indexikální dezorganizace** — *"zde"*, *"teď"*, *"já"* nejsou ukotvené | Rozpad perspektivního aparátu |
 | **Etická paralyzace** — subjekt nedokáže formulovat **vlastní** stanovisko | Absence perspektivního ukotvení |
 | **Sociální dezorganizace** — neschopnost běžně reagovat na vztahové situace | Funkční důsledek kolapsu |
-| Subjekt **legitimizuje stav** jako duchovní pokrok / objektivitu | Krok 5 stabilizace |
+| Subjekt **legitimizuje stav** jako duchovní pokrok / objektivitu | Fáze — stabilizace |
 | **Časová desorientace** | Bez perspektivy chybí *teď* |
 
 ### Diferenciální detekce
@@ -173,6 +161,19 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
 - **OSINT framework** strukturálně rozlišuje **vlastní pozorování** od **pozorování zdroje** — perspektivnost je vynucená.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) provenance** vyžaduje **autorství** každého epistemického aktu; absence perspektivy by byla typová chyba.
 
+## Literatura
+
+- Britton, W. B. (2019). Can mindfulness be too much of a good thing? *Current Opinion in Psychology*, 28, 159–165.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Husserl, E. (1913). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie I*. Halle: Niemeyer.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K. & Britton, W. B. (2017). The varieties of contemplative experience. *PLoS ONE*, 12(5), e0176239.
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Paris: Gallimard.
+- Minkowski, E. (1933). *Le Temps vécu*. Paris: d'Artrey.
+- Nagel, T. (1986). *The View from Nowhere*. New York: Oxford University Press.
+- Parnas, J., Møller, P., Kircher, T., Thalbitzer, J., Jansson, L., Handest, P. & Zahavi, D. (2005). EASE: Examination of Anomalous Self-Experience. *Psychopathology*, 38(5), 236–258.
+- Sass, L. A. & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
@@ -185,21 +186,15 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
   - [Fenomenologie](@/glossary/fenomenologie.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L3 — omezený doktrinální rámec).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

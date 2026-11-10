@@ -42,27 +42,15 @@ Intencionální rozpojení tuto strukturu narušuje. Akty pokračují, ale ztrá
 
 Subjekt v terminálním stadiu trpí strukturní **bezpředmětností vědomí**. Akty pokračují (energie, emoce), ale chybí jejich noematický korelát. Tento stav je extrémně dezorientující a typicky generuje akutní úzkost.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Pseudo-fenomenologická indoktrinace
+Pozorovatel vidí člověka, který mluví o „čistém vědomí bez předmětu“ mimo jakýkoli odborný nebo tradiční rámec a který zároveň přestává zvládat běžné úkoly. Nápadná je neurčitost jeho zpráv: hledá, ale neumí říci co; usiluje, ale nikoli o něco. Husserl pokládal zaměřenost na předmět za rys, bez něhož se o vědomí nedá mluvit (Husserl, 1913), takže stav popisovaný jako vědomí bez předmětu je zprávou o poruše, ne o dosaženém stupni.
 
-Subjekt je uveden do verze fenomenologie, kde *„intencionalita je iluze ego-aktivit“*. Husserlův důraz na noeticko-noematickou korelaci je ignorován.
+Postižení popisují tíseň, v níž emoce i napětí pokračují, ale nemají k čemu se vztáhnout; vzpomínky bez konkrétních událostí; slova bez jasných významů; pocit, že nic z toho, co dělají, není o ničem. Prožitek světa jako ztrácejícího hloubku a vyzvání k jednání popisuje (Ratcliffe, 2008); příbuzný rozpad prožívaného času a jeho zaměřenosti rozpracoval (Minkowski, 1933).
 
-### Krok 2 — Saturace bezpředmětnými praxemi
+Zpětně se znaky skládají takto: nejprve nauka znevažující zaměřenost na předměty, pak dlouhá období praxe bez supervize, pak akutní bezpředmětnost a nakonec její výklad jako cíle. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Že taková praxe u části lidí vyústí v přetrvávající stavy a nikoli v přechodnou zkušenost, dokládají (Lindahl et al., 2017) a shrnuje (Britton, 2019).
 
-Manipulátor zavádí praxe údajně „transcendující intencionalitu“ — meditace zaměřená na „čisté vědomí bez objektu“, praxe „vědomí samotného“.
-
-### Krok 3 — Destrukce předmětné fixace
-
-Subjekt je veden k systematickému opouštění předmětné zaměřenosti — „nechat myšlenku jít bez chytání“, „nechat percepci tekoucí bez označování“.
-
-### Krok 4 — Bod intencionálního rozpojení
-
-V určitém momentu subjekt prožívá **akutní bezpředmětnost** — akty pokračují, ale jejich noema chybí. Stav je interpretován jako „čisté vědomí“.
-
-### Krok 5 — Konsolidace bezpředmětnosti jako „vyšší stav“
-
-Stav strukturní bezpředmětnosti je etablován jako *trvalý cíl praxe*. Identitární investice činí návrat ke strukturní intencionalitě obtížným.
+*Interpretace knihy*: diagnosticky nerozhoduje obsah nauky, nýbrž to, že chybí rámec návratu a že se úbytek funkce vykládá jako zisk. Hyperreflexi provázenou oslabeným prožitkem sebe popisují (Sass & Parnas, 2003).
 
 ## Fenomenologické znaky
 
@@ -77,10 +65,10 @@ Stav strukturní bezpředmětnosti je etablován jako *trvalý cíl praxe*. Iden
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt mluví o **"čistém vědomí"** mimo legitimní fenomenologický kontext | Krok 1 indoktrinace |
-| **Bezpředmětnost** v subjektivních zprávách ("hledám, ale nevím co") | Krok 4 rozpojení |
+| Subjekt mluví o **"čistém vědomí"** mimo legitimní fenomenologický kontext | Fáze — indoktrinace |
+| **Bezpředmětnost** v subjektivních zprávách ("hledám, ale nevím co") | Fáze — rozpojení |
 | **Akutní úzkost** prokládaná pseudo-mystickou euforií | Strukturální dopad |
-| **Praktická dezorientace** s pseudo-filozofickou racionalizací | Krok 5 konsolidace |
+| **Praktická dezorientace** s pseudo-filozofickou racionalizací | Fáze — konsolidace |
 | **Lingvistická referenční nestabilita** | Strukturní intencionální narušení |
 
 ## Diferenciální detekce
@@ -139,21 +127,32 @@ Klíčový diferenciál: **autentický kontemplativec funguje intencionálně mi
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) intencionální axiom** — epistemická provenience operuje s explicitními předměty.
 - **[Decision Engine](@/glossary/decision-engine.md) konkrétní rozhodnutí** — vynucování konkrétního výstupu blokuje bezpředmětnost.
 
+## Literatura
+
+- Britton, W. B. (2019). Can mindfulness be too much of a good thing? *Current Opinion in Psychology*, 28, 159–165.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Husserl, E. (1913). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie I*. Halle: Niemeyer.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K. & Britton, W. B. (2017). The varieties of contemplative experience. *PLoS ONE*, 12(5), e0176239.
+- Minkowski, E. (1933). *Le Temps vécu*. Paris: d'Artrey.
+- Parnas, J., Møller, P., Kircher, T., Thalbitzer, J., Jansson, L., Handest, P. & Zahavi, D. (2005). EASE: Examination of Anomalous Self-Experience. *Psychopathology*, 38(5), 236–258.
+- Ratcliffe, M. (2008). *Feelings of Being*. Oxford: Oxford University Press.
+- Sass, L. A. & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
-- Pokud diagnostikuješ na sobě, konzultuj se supervizí.
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L4 — kosmická, výhradně doktrinální analýza).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

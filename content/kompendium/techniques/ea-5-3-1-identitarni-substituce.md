@@ -36,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Identitární substituce** je hypertransformativní technika, při níž manipulátor postupně **nahrazuje** subjektivní self-model alternativní identitární strukturou — formulovanou tak, aby působila jako 'pravější' nebo 'plnější' verze subjekta. Cílem není modifikace, ale **výměna** narativní identity.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí člověka, jehož sebepopis se proměnil bez odpovídající životní změny. Mluví o sobě obraty, metaforami a hodnoceními, které okolí rozpozná jako slovník jedné konkrétní osoby nebo skupiny. Vlastní minulost líčí jako dobu nepravosti; vztahy, které k ní patřily, sám ukončuje. Rodina a dlouholetí přátelé shodně hlásí, že ho nepoznávají. Jazykové zatížení, v němž převzatý rejstřík zároveň vykládá zkušenost a odmítá námitku, i nadřazení doktríny vlastní zkušenosti popsal jako znaky totalistického prostředí (Lifton, 1961); do měřitelných dimenzí je převádí (Hassan, 2018).
 
-### Krok 1 — Etablování self-deficitu
+Postižení popisují dvojí sebepojetí, mezi nimiž nedokážou rozhodnout; vděčnost vůči tomu, kdo jim „odhalil pravé já“; a paniku při představě návratu k dřívější podobě sebe. Vzpomínky na dřívější období jsou dostupné, ale vyprávějí se plochým tónem a bez podrobností. Že identita je narativní výkon, nikoli hotová danost, rozpracoval (Ricoeur, 1990); že její kontinuita je nesena i tělesnými markery dřívějších voleb, (Damasio, 1999). Narušení identity jako znak dlouhodobé traumatizace popisuje (Herman, 1992).
 
-Manipulátor systematicky identifikuje a zveličuje slabiny aktuální identitární konfigurace subjekta — 'nejsi naplno sám sebou', 'tohle není tvoje pravé já'.
+Zpětně se znaky skládají takto: nejprve soustavné zveličování nedostatků dosavadního sebepojetí, pak nabídka hotového alternativního popisu a jeho opakované stvrzování, pak převzetí tohoto popisu jako autentičtějšího a nakonec rozchod se vztahy, které by jej zpochybnily. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Sled je rekonstrukcí z pozdějších zpráv postižených a jejich okolí; na omylnost takové zpětné rekonstrukce upozorňují (Loftus & Pickrell, 1995).
 
-### Krok 2 — Implantace alternativní identity
-
-Postupné zavádění nové self-reprezentace skrze opakované narativy, ritualizované sebe-popisy, identitární značení.
-
-### Krok 3 — Konsolidace substituce
-
-Subjekt internalizuje implantát jako autentičtější self; původní identitární struktura je marginalizována a označena za 'falešné já'.
+*Interpretace knihy*: rozlišujícím znakem oproti běžnému zrání není rychlost, ale původ a směr — zdroj popisu leží vně a výhoda z proměny připadá jemu. Trvalé podřízení v asymetrickém vztahu jako vzorec, nikoli sled incidentů, popisuje (Stark, 2007).
 
 ## Fenomenologické znaky
 
@@ -102,6 +96,19 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **identitární substituce** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.1.
+
+## Literatura
+
+- Damasio, A. R. (1999). *The Feeling of What Happens*. New York: Harcourt Brace.
+- Hassan, S. (2018). *Combating Cult Mind Control*. 3. vyd. Newton: Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Loftus, E. F. & Pickrell, J. E. (1995). The formation of false memories. *Psychiatric Annals*, 25(12), 720–725.
+- Ricoeur, P. (1990). *Soi-même comme un autre*. Paris: Seuil.
+- SAMHSA (2014). *TIP 57: Trauma-Informed Care in Behavioral Health Services*. Rockville: SAMHSA.
+- Singer, M. T. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
+- Stark, E. (2007). *Coercive Control*. New York: Oxford University Press.
+- van der Kolk, B. (2014). *The Body Keeps the Score*. New York: Viking.
 
 ## Související
 
@@ -188,15 +195,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L3 — omezený doktrinální rámec).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

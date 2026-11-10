@@ -40,27 +40,15 @@ V Kantově terminologii: *Anschauungsformen* (formy nazírání) prostor a čas 
 
 Subjekt v terminálním stadiu prožívá svět jako **strukturně deformovaný** — ne fragmentovaný, ale *zkroucený*. Prostor se „ohýbá“ v určitých kontextech, čas „zpomaluje“ nebo „zrychluje“ mimo objektivní normu. Stav je často **pseudo-fyzikálně racionalizován** odkazem na obecnou relativitu nebo kvantovou mechaniku.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Pseudo-fyzikální indoktrinace
+Pozorovatel vidí člověka, který soustavně chybuje v odhadu trvání a vzdálenosti a tyto chyby obhajuje odkazem na fyzikální pojmy, které v daném kontextu nic neznamenají — dilatace, zakřivení. Dezorientace se objevuje i ve známém prostředí; plánování selhává, protože odhad času neodpovídá. Rejstřík, který stav zároveň popisuje i chrání před námitkou, odpovídá popisu zatížení jazyka u (Lifton, 1961).
 
-Subjekt je veden k tvrzení, že *„prostor a čas jsou subjektivně proměnlivé“* s odkazem na zneužité pseudo-fyzikální koncepty (časoprostorová zakřivení, dilatace).
+Postižení popisují, že čas se jim netrhá, ale „natahuje“ a „smršťuje“ bez vztahu k tomu, co se děje; že některé prostory působí nepřiměřeně velké; a že obvyklé proporce přestaly sedět. Prožívaný čas jako samostatnou strukturu, jejíž porucha nemusí doprovázet žádnou poruchu obsahu myšlení, popsal (Minkowski, 1933); popisný rámec pro takové anomálie bez etiologického nároku poskytuje (Jaspers, 1913). Klinicky se obraz překrývá s chronickou derealizací (Simeon & Abugel, 2006).
 
-### Krok 2 — Saturace deformačními cvičeními
+Zpětně se znaky skládají takto: nejprve nauka o subjektivní proměnlivosti prostoru a času, pak praxe cílené na „rozšíření“ prožitku, pak trvalý rozpor mezi odhadem a měřením a nakonec výklad tohoto rozporu jako vyššího vnímání. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Nepříznivé a dlouhodobé průběhy intenzivní praxe včetně změn prožívání času dokládají (Lindahl et al., 2017).
 
-Manipulátor zavádí praxe údajně „expandující prostoročasový prožitek“ — meditace zaměřené na „rozšíření vědomí v prostoru“, „zpomalení času“.
-
-### Krok 3 — Strukturní deformace
-
-Pravidelným tlakem se prostorová a časová percepce subjektivně deformuje — některé prostory se „zvětšují“, některé časy „natahují“.
-
-### Krok 4 — Bod chronické deformace
-
-Subjekt zachovává plynulý prožitek, ale jeho prostorová a časová struktura je **trvale deformována**. Stav je interpretován jako „rozšířené vědomí“.
-
-### Krok 5 — Konsolidace deformace jako „vyšší vnímání“
-
-Stav strukturní deformace je etablován jako *trvalý cíl praxe*. Identitární investice činí návrat k homogenním formám obtížným.
+*Interpretace knihy*: prostor a čas jsou u Kanta formami, v nichž se zkušenost vůbec dává (Kant, 1787); jejich trvalé zkreslení proto není obohacením zkušenosti, ale poškozením jejího rámce.
 
 ## Fenomenologické znaky
 
@@ -75,10 +63,10 @@ Stav strukturní deformace je etablován jako *trvalý cíl praxe*. Identitárn�
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt **systematicky chybně odhaduje** trvání a vzdálenost | Krok 3 deformace |
-| **Pseudo-fyzikální slovník** ("dilatace", "zakřivení") mimo legitimní kontext | Krok 1 indoktrinace |
+| Subjekt **systematicky chybně odhaduje** trvání a vzdálenost | Fáze — deformace |
+| **Pseudo-fyzikální slovník** ("dilatace", "zakřivení") mimo legitimní kontext | Fáze — indoktrinace |
 | **Praktická navigační dezorientace** ve známém prostředí | Strukturální dopad |
-| **Pseudo-mystická interpretace** chybných odhadů | Krok 5 konsolidace |
+| **Pseudo-mystická interpretace** chybných odhadů | Fáze — konsolidace |
 | **Trvalá nesoulad** subjektivní a objektivní temporální/spatiální normy | Pokročilá deformace |
 
 ## Diferenciální detekce
@@ -134,21 +122,32 @@ Apriorní deformace je odlišitelná od:
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) timestamp axiom** — epistemická provenience pracuje s explicitními časy.
 - **OSINT timeline reconstruction** — strukturní časová rekonstrukce kompenzuje deformaci.
 
+## Literatura
+
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Jaspers, K. (1913). *Allgemeine Psychopathologie*. Berlin: Springer.
+- Kant, I. (1787). *Kritik der reinen Vernunft*. 2. vyd. Riga: Hartknoch.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K. & Britton, W. B. (2017). The varieties of contemplative experience. *PLoS ONE*, 12(5), e0176239.
+- Minkowski, E. (1933). *Le Temps vécu*. Paris: d'Artrey.
+- Ratcliffe, M. (2008). *Feelings of Being*. Oxford: Oxford University Press.
+- Simeon, D. & Abugel, J. (2006). *Feeling Unreal: Depersonalization Disorder and the Loss of the Self*. New York: Oxford University Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
-- Pokud diagnostikuješ na sobě, konzultuj se supervizí.
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L4 — kosmická, výhradně doktrinální analýza).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

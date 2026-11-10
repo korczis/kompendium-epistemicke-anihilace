@@ -16,73 +16,180 @@ date_modified = "2026-11-10"
 
 ## Definice
 
-**Sektářská konverze** je proces, jímž člověk přijímá pohled na svět, normy a identitu skupiny s vysokou mírou kontroly ([high-control group](@/glossary/high-control-group.md)) tak, že dosavadní vztahy, hodnoty a zdroje poznání ztrácejí váhu a skupina se stává hlavním či jediným rámcem výkladu reality. Nejde o jednorázové rozhodnutí, ale o **postupnou přestavbu**: z návštěvníka se stává sympatizant, z něj člen, z člena člověk, jehož životopis se začíná vyprávět jako „před“ a „po“.
+Sektářská konverze je proces, jímž člověk přijímá pohled na svět, normy a identitu skupiny
+s vysokou mírou kontroly ([high-control group](@/glossary/high-control-group.md)) tak, že
+dosavadní vztahy, hodnoty a zdroje poznání ztrácejí váhu a skupina se stává hlavním nebo
+jediným rámcem výkladu skutečnosti. Nejde o jednorázové rozhodnutí, ale o postupnou
+přestavbu: z návštěvníka se stává sympatizant, z něj člen, a z člena člověk, jehož životopis
+se vypráví jako „před“ a „po“. Sociologie konverze tuto fázovitost popisuje shodně napříč
+tradicemi (Rambo, 1993).
 
-Pojem „sektářská“ zde neoznačuje náboženský obsah – stejný proces se objevuje v politických, terapeutických, obchodních, wellness i online skupinách. Rozhodující je **struktura kontroly**, nikoli víra.
+Přídavné jméno „sektářská“ zde neoznačuje náboženský obsah. Stejný proces se objevuje
+v politických, terapeutických, obchodních, wellness i online skupinách; rozhodující je
+struktura kontroly chování, informací, myšlení a emocí, nikoli obsah víry (Hassan, 1988).
+Rámec pro posouzení této struktury rozvádí heslo [BITE model](@/glossary/bite-model.md).
 
-## Původ a kontext pojmu
+## Co drží ustálená literatura
 
-Sociologie náboženství zkoumá konverzi od 60. let 20. století. John Lofland a Rodney Stark (1965) na základě pozorování malé apokalyptické skupiny formulovali model, podle něhož ke konverzi vede souběh dlouhodobého napětí, hledačství, životního zlomu, **citových vazeb na členy** a **oslabení vazeb mimo skupinu**, završený intenzivní interakcí. Lewis Rambo (*Understanding Religious Conversion*, 1993) popsal konverzi jako proces o několika fázích – kontext, krize, hledání, setkání, interakce, závazek, důsledky. Eileen Barker (*The Making of a Moonie*, 1984) ukázala, že naprostá většina účastníků náborových seminářů se ke skupině nepřidala, a zpochybnila tím jednoduchou představu „vymývání mozků“.
+Sociologie náboženství zkoumá konverzi soustavně od 60. let. John Lofland a Rodney Stark na
+základě pozorování malé apokalyptické skupiny formulovali model, v němž se ke konverzi sbíhá
+dlouhodobé napětí, hledačství, životní zlom, citové vazby na členy a oslabení vazeb mimo
+skupinu, završené intenzivní interakcí (Lofland a Stark, 1965). Lewis Rambo pak popsal
+konverzi jako proces o několika fázích – kontext, krize, hledání, setkání, interakce, závazek
+a důsledky – který je u náboženské i nenáboženské konverze obdobný (Rambo, 1993).
 
-Psychiatrická a psychologická tradice naopak zdůraznila strukturální rysy prostředí: Robert J. Lifton (1961) popsal osm kritérií ideologického totalismu, Steven Hassan (1988) model [BITE](@/glossary/bite-model.md) – kontrolu chování, informací, myšlení a emocí. Obě tradice se dnes doplňují: konverze je aktivní volba člověka, ale činěná za podmínek, které skupina řídí.
+Druhým zjištěním je omezená účinnost náboru. Eileen Barkerová ve longitudinálním výzkumu
+britské Církve sjednocení zjistila, že naprostá většina účastníků náborových seminářů se ke
+skupině nepřidala a velká část těch, kdo vstoupili, ji během prvních let opustila; tím
+zpochybnila představu neodolatelného „vymývání mozků“ (Barker, 1984). Téhož směru je kritika
+pasivního modelu konvertity: David Snow a Richard Machalek shrnuli, že konverze je aktivní
+rekonstrukce vlastního životopisu, ne pouhé přijetí nových tvrzení (Snow a Machalek, 1984),
+a James Richardson ukázal, že aktivní model odpovídá datům lépe než pasivní (Richardson,
+1985).
+
+Psychiatrická a psychologická tradice naopak zdůraznila rysy prostředí. Robert Lifton popsal
+osm kritérií ideologického totalismu, mezi nimi ovládání prostředí, nárok doktríny na
+přednost před zkušeností a kult vyznávání (Lifton, 1961). Steven Hassan tyto poznatky převedl
+do posuzovacího rámce BITE (Hassan, 1988). Marc Galanter doložil, že vstup do charismatické
+skupiny bývá provázen rychlým poklesem úzkosti, který sám působí jako odměna udržující
+příslušnost (Galanter, 1989).
+
+Obě tradice se dnes doplňují: konverze je volbou člověka, ale činěnou za podmínek, které
+skupina řídí (Rambo, 1993). Co doloženo není, jsou osobnostní profily „typu, který se dá
+zlomit“; Barkerová ani Galanter takové profily nenašli (Barker, 1984).
 
 ## Jak se projevuje
 
-Pozorovatelné znaky u konvertujícího člověka a v jeho okolí:
+Prvním pozorovatelným znakem je rychlá výměna slovníku: nová slova pro staré věci a uzavřený
+skupinový jazyk, který postupně znemožňuje popsat zkušenost mimo rámec skupiny. Lifton tento
+rys pojmenoval jako zatěžování jazyka (Lifton, 1961); kniha mu věnuje hesla [loading the
+language](@/glossary/loading-the-language.md) a [privátní
+jazyk](@/glossary/privatni-jazyk.md).
 
-- **rychlá výměna slovníku** – nová slova pro staré věci, uzavřený skupinový jazyk (viz [privátní jazyk](@/glossary/privatni-jazyk.md));
-- **přepsání životopisu** – minulost se líčí jako prázdná, zmatená nebo „nevědomá“;
-- **zúžení vztahů** na členy skupiny, oslabení kontaktu s rodinou a přáteli;
-- **rostoucí čas, peníze a energie** věnované skupině;
-- **odmítání vnějších informací** jako „nižší úrovně“ nebo „útoků“;
-- **euforie a pocit smyslu** v počáteční fázi, později únava, úzkost a skrývané pochybnosti;
-- **neschopnost mluvit o pochybnostech** bez pocitu viny.
+Druhým znakem je přepsání životopisu, v němž se minulost líčí jako prázdná, zmatená nebo
+nevědomá. Snow a Machalek označili právě tuto biografickou rekonstrukci za nejspolehlivější
+projev dokončené konverze, protože se objevuje nezávisle na doktríně (Snow a Machalek, 1984).
+Třetím znakem je zúžení vztahů na členy skupiny a oslabení kontaktu s rodinou a přáteli,
+tedy složka, kterou Lofland a Stark zařadili mezi podmínky konverze (Lofland a Stark, 1965);
+jeho důsledky popisuje heslo [sociální izolace](@/glossary/socialni-izolace.md).
+
+Čtvrtým znakem je rostoucí objem času, peněz a energie věnovaný skupině, provázený odmítáním
+vnějších informací jako „nižší úrovně“ nebo útoku (Lifton, 1961). Pátým je afektivní průběh:
+euforie a pocit smyslu v počáteční fázi, později únava, úzkost a skrývané pochybnosti, jež
+nelze vyslovit bez pocitu viny (Galanter, 1989).
 
 ## Mechanismus
 
-Strukturálně se v konverzi do uzavřené skupiny dají rozpoznat tři vrstvy.
+Strukturně lze v konverzi do uzavřené skupiny rozpoznat tři vrstvy. Vztahovou vrstvou je
+intenzivní přijetí a pozornost, které vytvoří vazbu dřív, než člověk zná doktrínu; rozhodnutí
+zůstat je pak rozhodnutím o vztazích, ne o myšlenkách, a odpovídá tomu, co Lofland a Stark
+označili za citové vazby na členy (Lofland a Stark, 1965). V knize jí odpovídá heslo [love
+bombing](@/glossary/love-bombing.md).
 
-1. **Vztahová vrstva.** Intenzivní přijetí a pozornost ([love bombing](@/glossary/love-bombing.md)) vytvoří vazbu dřív, než člověk zná doktrínu. Rozhodnutí zůstat je pak rozhodnutím o vztazích, ne o myšlenkách.
-2. **Epistemická vrstva.** Skupina nabídne výklad, který vysvětluje všechno, a zároveň znevýhodní všechny ostatní zdroje. Vzorec [guru a adept (EA-1.6.1)](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) ustaví jednoho nositele pravdy; [iluzorní transcendence (EA-5.1.14)](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md) slibuje vyšší úroveň vědomí dosažitelnou jen uvnitř.
-3. **Identitní vrstva.** Postupné závazky, veřejná svědectví a přerušení mostů ven dělají návrat nákladným. Člověk nejen věří, ale „je“ členem; pochybnost se pak prožívá jako ohrožení sebe.
+Epistemickou vrstvou je výklad, který vysvětluje všechno a zároveň znevýhodní všechny ostatní
+zdroje poznání; Lifton ji popisuje jako nárok doktríny na přednost před osobní zkušeností
+(Lifton, 1961). V taxonomii knihy jí odpovídají vzorce [guru a adept
+(EA-1.6.1)](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md), který ustaví jednoho
+nositele pravdy, a [iluzorní transcendence
+(EA-5.1.14)](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md), která slibuje vyšší
+úroveň dostupnou jen uvnitř.
 
-Konverze je zpravidla nejrychlejší v životních zlomech – po ztrátě, rozchodu, přestěhování, nemoci – kdy je potřeba smyslu a společenství nejvyšší.
+Identitní vrstvou jsou postupné závazky, veřejná svědectví a přerušení mostů ven, které činí
+návrat nákladným; člověk nejen věří, ale je členem, a pochybnost se potom prožívá jako
+ohrožení sebe (Galanter, 1989). Konverze je přitom nejrychlejší v životních zlomech, po
+ztrátě, rozchodu, přestěhování nebo nemoci, kdy je potřeba smyslu a společenství nejvyšší
+(Rambo, 1993).
 
 ## Odlišení
 
-- **Náboženská nebo světonázorová konverze.** Může být hluboká a celoživotní, ale zachovává vztahy mimo společenství, umožňuje pochybnosti a odchod bez trestu.
-- **[Transformativní zkušenost](@/glossary/transformative-experience.md).** Zásadní změna perspektivy (rodičovství, nemoc, studium) bez vnější kontroly informací a vztahů.
-- **[Mystický prožitek](@/glossary/mysticky-prozitek.md) a [ego death](@/glossary/ego-death.md).** Prožitek sám není konverzí; problémem je, když ho skupina monopolizuje a vykládá.
-- **Psychotická epizoda s náboženským obsahem.** Přesvědčení nejsou sdílená skupinou, objevují se další příznaky; vyžaduje psychiatrické vyšetření.
-- **Radikalizace.** Příbuzný proces s politickým cílem a často s přijetím násilí; viz [online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md).
+Náboženská nebo světonázorová konverze může být hluboká a celoživotní, ale zachovává vztahy
+mimo společenství, umožňuje pochybnost a dovoluje odchod bez trestu; Rambo zdůrazňuje, že
+proces je formálně týž a rozlišují je až podmínky, v nichž probíhá (Rambo, 1993). Od
+[transformativní zkušenosti](@/glossary/transformative-experience.md) se liší tím, že zásadní
+změna perspektivy může nastat i bez vnější kontroly informací a vztahů (Snow a Machalek,
+1984).
+
+[Mystický prožitek](@/glossary/mysticky-prozitek.md) a [ego
+death](@/glossary/ego-death.md) nejsou konverzí; problémem je až to, když prožitek monopolizuje
+a vykládá skupina (Galanter, 1989). Psychotická epizoda s náboženským obsahem se odlišuje
+tím, že přesvědčení nejsou sdílená skupinou a provázejí je další příznaky; vyžaduje
+psychiatrické vyšetření (Lifton, 1961). Radikalizace je příbuzný proces s politickým cílem
+a často s přijetím násilí, viz kazuistika [online
+radikalizace](@/kompendium/case-studies/22-online-radikalizace.md) (Rambo, 1993).
+
+## Klinický a etický rámec
+
+Konverze sama není diagnózou a nepatologizuje se; klinicky relevantní jsou až její důsledky,
+tedy úzkost, deprese, posttraumatické příznaky po odchodu nebo ztráta schopnosti rozhodovat
+se za sebe (Galanter, 1989). Nátlakové „deprogramování“ je eticky i právně problematické
+a v knize mu je věnována kapitola [právní aspekty
+deprogramování](@/kompendium/forensic-legal/13-cult-deprogramming-legal.md); Barkerová patří
+k autorům, jejichž data tuto praxi zpochybnila (Barker, 1984).
+
+Pro práci s člověkem, který ve skupině je, platí respekt k autonomii a přednost dobrovolného
+poradenství; pro práci s tím, kdo odešel, platí posloupnost zotavení z dlouhodobého podřízení:
+nejprve bezpečí, potom vyprávění, nakonec obnova vztahů (Herman, 1992). V knize k tomu vedou
+[post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md), [protokol
+kultovní
+extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md) a pro krizové
+situace [emergency u bývalého
+člena](@/kompendium/emergency-protocols/28-ex-cult-emergency.md).
 
 ## Význam pro Kompendium
 
-Sektářská konverze je vstupní branou do většiny dlouhodobých forem epistemické anihilace. Historické případy [Moonies](@/kompendium/historical-cases/19-moonies.md), [NXIVM](@/kompendium/historical-cases/18-nxivm.md) a [Scientologie](@/kompendium/historical-cases/16-scientology-fair-game.md) ukazují rozdílné podoby téže struktury; kazuistiky [sektářské vycházení](@/kompendium/case-studies/10-sektarske-vychazeni.md) a [LGAT](@/kompendium/case-studies/27-secular-cult-exit.md) zachycují cestu zpět. Rozpoznávání nácviku slouží scénář [náborové techniky](@/kompendium/educational-scenarios/18-cult-recruitment.md), epidemiologický rámec přináší [incidence expozice kultům](@/kompendium/population-health/03-incidence-cult-exposure.md).
+Sektářská konverze je v knize vstupní branou do většiny dlouhodobých forem epistemické
+anihilace: teprve uvnitř skupiny mají jednotlivé techniky dostatek času a dostatek kontroly
+nad informacemi, aby se jejich účinek složil (*interpretace knihy*, navazující na Lifton,
+1961). Historické případy [Moonies](@/kompendium/historical-cases/19-moonies.md),
+[NXIVM](@/kompendium/historical-cases/18-nxivm.md) a [Scientologie](@/kompendium/historical-cases/16-scientology-fair-game.md)
+ukazují rozdílné podoby téže struktury.
+
+Kazuistiky [sektářské vycházení](@/kompendium/case-studies/10-sektarske-vychazeni.md)
+a [secular cult exit](@/kompendium/case-studies/27-secular-cult-exit.md) zachycují cestu zpět;
+rozpoznávání nácviku slouží scénář [náborové
+techniky](@/kompendium/educational-scenarios/18-cult-recruitment.md) a epidemiologický rámec
+přináší [incidence expozice
+kultům](@/kompendium/population-health/03-incidence-cult-exposure.md) (Barker, 1984).
 
 ## Obrana a zotavení
 
-Prevence a pro blízké:
+Nejdůležitější prevencí je udržený vztah s blízkými, který přežije nesouhlas; ultimáta
+a výsměch skupině jsou neúčinné, protože posilují právě tu vazbu, kterou mají oslabit
+(Barker, 1984). Druhou oporou je posouzení struktury místo posuzování víry: zda lze odejít
+bez trestu, zda je dovoleno čtení kritiky a kdo kontroluje vedoucího; k tomu slouží [model
+BITE](@/kompendium/techniques/ea-8-1-1-bite-model-detail.md) (Hassan, 1988). Třetí je odklad
+velkých a nevratných závazků, například převodu majetku nebo ukončení studia, o pevně danou
+dobu (Galanter, 1989).
 
-- **Udržet most.** Nejdůležitější ochranou je vztah s blízkými, který přežije nesouhlas; ultimáta a výsměch skupině nepomáhají.
-- **Klást otázky na strukturu, ne na víru:** Mohu odejít bez trestu? Smím číst kritiku? Kdo kontroluje vedoucího? Užitečný je [model BITE](@/kompendium/techniques/ea-8-1-1-bite-model-detail.md).
-- **Odložit velké závazky** (majetek, ukončení studia či vztahů) o pevně danou dobu.
+Pro profesionála je účinnější pracovat s potřebami, které skupina naplnila – smysl,
+příslušnost, struktura – než s doktrínou samotnou, protože potřeby zůstanou i po odchodu
+(Galanter, 1989). Po odchodu patří k zotavení obnova vlastního výkladu minulosti, kterou
+Hermanová řadí do prostřední fáze, až po stabilizaci (Herman, 1992).
 
-Pro profesionála:
+## Meze pojmu a kritika
 
-- Pracovat s potřebami, které skupina naplnila (smysl, příslušnost, struktura), a s identitou, ne jen s doktrínou.
-- Respektovat autonomii: nátlakové „deprogramování“ je eticky i právně problematické ([právní aspekty deprogramování](@/kompendium/forensic-legal/13-cult-deprogramming-legal.md)); preferovat dobrovolné poradenství.
-- Po odchodu využít [post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) a [protokol kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md); v krizi [emergency u bývalého člena](@/kompendium/emergency-protocols/28-ex-cult-emergency.md).
+Pojem je zatížen sporem o samotné slovo „sekta“. Barkerová i další sociologové upozorňují, že
+nálepka předjímá závěr a že řada skupin označených za sekty nesplňuje kritéria uzavřené
+kontroly, zatímco některé respektované instituce je splňují (Barker, 1984). Kniha proto váže
+pojem na strukturu kontroly, ne na obsah nebo společenskou pověst skupiny.
 
-Meze: konverze nelze předpovídat podle osobnostních rysů; ohroženy jsou spíše lidé v přechodných životních situacích než „slabé povahy“.
+Druhou mezí je nemožnost predikce: konverzi nelze předpovědět z osobnostních rysů a ohroženi
+jsou spíš lidé v přechodných životních situacích než „slabé povahy“ (Barker, 1984; Rambo,
+1993). Třetí mezí je retrospektivní zkreslení výpovědí po odchodu: vyprávění bývalých členů
+je samo rekonstrukcí, a jeho detaily se proto mohou proměňovat podle rámce, který člověk
+nalezl po odchodu (Snow a Machalek, 1984).
 
 ## Literatura
 
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*.
-- Lofland, J., Stark, R. (1965). Becoming a World-Saver: A Theory of Conversion to a Deviant Perspective. *American Sociological Review*, 30.
-- Barker, E. (1984). *The Making of a Moonie: Choice or Brainwashing?*
-- Hassan, S. (1988). *Combatting Cult Mind Control*.
-- Rambo, L. R. (1993). *Understanding Religious Conversion*.
+- Barker, E. (1984). *The Making of a Moonie: Choice or Brainwashing?*. Blackwell.
+- Galanter, M. (1989). *Cults: Faith, Healing, and Coercion*. Oxford University Press.
+- Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. Norton.
+- Lofland, J., & Stark, R. (1965). *Becoming a world-saver: A theory of conversion to a deviant perspective*. American Sociological Review.
+- Rambo, L. R. (1993). *Understanding Religious Conversion*. Yale University Press.
+- Richardson, J. T. (1985). *The active vs. passive convert: Paradigm conflict in conversion/recruitment research*. Journal for the Scientific Study of Religion.
+- Snow, D. A., & Machalek, R. (1984). *The sociology of conversion*. Annual Review of Sociology.
 
 ## Související
 
@@ -91,7 +198,10 @@ Meze: konverze nelze předpovídat podle osobnostních rysů; ohroženy jsou sp�
 - [High-control group](@/glossary/high-control-group.md) – prostředí, do něhož konverze vede.
 - [BITE model](@/glossary/bite-model.md) – rámec pro posouzení kontroly.
 - [Love bombing](@/glossary/love-bombing.md) – vztahová vrstva náboru.
-- [Thought-stopping](@/glossary/thought-stopping.md) – udržování konverze potlačením pochybností.
+- [Thought reform](@/glossary/thought-reform.md) – Liftonův rámec ideologického totalismu.
+- [Loading the language](@/glossary/loading-the-language.md) – zatížený skupinový jazyk.
+- [Sociální izolace](@/glossary/socialni-izolace.md) – oslabení vazeb mimo skupinu.
+- [Spiritual bypassing](@/glossary/spiritual-bypassing.md) – výklad, který bolest přeznačí na lekci.
 
 **Techniky**
 

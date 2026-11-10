@@ -1,4 +1,4 @@
-// Graf pojmů teoretické reflexe (templates/page.html, oddíl 07-teoreticke-reflexe): stránka
+// Graf pojmů stránky nebo koncového rozcestníku číslované kapitoly (partials/pohled-stranky.html): stránka
 // uprostřed, v prvním kruhu související pojmy z její hlavičky (extra.related_terms, přeložené na
 // stránky přes static/data/terms.json), ve druhém stránky, na které odkazuje v textu, a mezi všemi
 // odkazy z grafu knihy (static/data/graph.json). Na rozdíl od „Okolí stránky“ ukazuje i vazby mezi

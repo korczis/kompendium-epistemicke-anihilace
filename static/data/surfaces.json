@@ -34,6 +34,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -106,7 +107,8 @@
     "chart-inline": 1,
     "mermaid": 1,
     "viz/glosar": 1,
-    "viz/kontext": 311
+    "viz/kontext": 311,
+    "viz/teorie-pojmy": 1
    }
   },
   "kompendium": {
@@ -145,6 +147,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -200,7 +203,8 @@
    },
    "views": {
     "chart-inline": 1,
-    "viz/oddil-prehled": 1
+    "viz/oddil-prehled": 1,
+    "viz/teorie-pojmy": 1
    }
   },
   "kompendium/01-predmluva": {
@@ -208,7 +212,7 @@
     "cross_link"
    ],
    "covered_views": [
-    "viz/oddil-prehled"
+    "viz/teorie-pojmy"
    ],
    "data": [
     "static/data/graph.json",
@@ -236,6 +240,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -249,13 +254,13 @@
    "scenarios": [
     {
      "covers": [
-      "viz/oddil-prehled"
+      "viz/teorie-pojmy"
      ],
-     "note": "třída kompendium/01-predmluva: pohled oddil-prehled",
+     "note": "třída kompendium/01-predmluva: pohled teorie-pojmy",
      "origin": "derived",
-     "page": "kompendium/01-predmluva/_index.md",
+     "page": "kompendium/01-predmluva/eticke-aspekty.md",
      "painted": 1,
-     "path": "kompendium/01-predmluva/"
+     "path": "kompendium/01-predmluva/eticke-aspekty/"
     }
    ],
    "scripts": [
@@ -289,7 +294,8 @@
     "section.html": 2
    },
    "views": {
-    "viz/oddil-prehled": 2
+    "viz/oddil-prehled": 2,
+    "viz/teorie-pojmy": 10
    }
   },
   "kompendium/01-zaklady-manipulace": {
@@ -313,6 +319,7 @@
     "partials/nav.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -359,12 +366,15 @@
     "section.html": 1
    },
    "views": {
-    "mermaid": 1
+    "mermaid": 1,
+    "viz/teorie-pojmy": 1
    }
   },
   "kompendium/02-doktrinalni-ramec": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/teorie-pojmy"
+   ],
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json"
@@ -381,6 +391,7 @@
     "partials/nav.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -388,7 +399,18 @@
     "partials/subnav.html",
     "partials/toc.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/teorie-pojmy"
+     ],
+     "note": "třída kompendium/02-doktrinalni-ramec: pohled teorie-pojmy",
+     "origin": "derived",
+     "page": "kompendium/02-doktrinalni-ramec/_index.md",
+     "painted": 1,
+     "path": "kompendium/02-doktrinalni-ramec/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -410,11 +432,13 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "covered",
    "templates": {
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/teorie-pojmy": 1
+   }
   },
   "kompendium/02-uvod": {
    "components": [
@@ -451,6 +475,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -506,13 +531,15 @@
    },
    "views": {
     "viz/kostka": 1,
-    "viz/oddil-prehled": 1
+    "viz/oddil-prehled": 1,
+    "viz/teorie-pojmy": 8
    }
   },
   "kompendium/03-manipulacni-vzorce": {
    "components": [],
    "covered_views": [
-    "mermaid"
+    "mermaid",
+    "viz/teorie-pojmy"
    ],
    "data": [
     "static/data/nav.json",
@@ -530,6 +557,7 @@
     "partials/nav.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -540,13 +568,13 @@
    "scenarios": [
     {
      "covers": [
-      "mermaid"
+      "mermaid",
+      "viz/teorie-pojmy"
      ],
-     "mermaid": 2,
-     "note": "třída kompendium/03-manipulacni-vzorce: diagramy Mermaid (2)",
+     "note": "třída kompendium/03-manipulacni-vzorce: pohled teorie-pojmy",
      "origin": "derived",
      "page": "kompendium/03-manipulacni-vzorce/_index.md",
-     "painted": 0,
+     "painted": 1,
      "path": "kompendium/03-manipulacni-vzorce/"
     }
    ],
@@ -576,7 +604,8 @@
     "section.html": 1
    },
    "views": {
-    "mermaid": 1
+    "mermaid": 1,
+    "viz/teorie-pojmy": 1
    }
   },
   "kompendium/03-zakladni-kategorie": {
@@ -585,7 +614,7 @@
     "viz_script"
    ],
    "covered_views": [
-    "viz/oddil-prehled"
+    "viz/teorie-pojmy"
    ],
    "data": [
     "static/data/graph.json",
@@ -615,6 +644,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -628,13 +658,13 @@
    "scenarios": [
     {
      "covers": [
-      "viz/oddil-prehled"
+      "viz/teorie-pojmy"
      ],
-     "note": "třída kompendium/03-zakladni-kategorie: pohled oddil-prehled",
+     "note": "třída kompendium/03-zakladni-kategorie: pohled teorie-pojmy",
      "origin": "derived",
-     "page": "kompendium/03-zakladni-kategorie/_index.md",
+     "page": "kompendium/03-zakladni-kategorie/kapitola-2.md",
      "painted": 1,
-     "path": "kompendium/03-zakladni-kategorie/"
+     "path": "kompendium/03-zakladni-kategorie/kapitola-2/"
     }
    ],
    "scripts": [
@@ -671,121 +701,14 @@
    },
    "views": {
     "kompendium/section-03-progression": 1,
-    "viz/oddil-prehled": 2
+    "viz/oddil-prehled": 2,
+    "viz/teorie-pojmy": 20
    }
   },
   "kompendium/04-klinika": {
    "components": [],
-   "covered_views": [],
-   "data": [
-    "static/data/nav.json",
-    "static/data/viz-deps.json"
-   ],
-   "generic_views": {},
-   "libraries": [],
-   "pages": 1,
-   "partials": [
-    "partials/explorer-glossary.html",
-    "partials/explorer-historical.html",
-    "partials/explorer-techniques.html",
-    "partials/footer.html",
-    "partials/header.html",
-    "partials/nav.html",
-    "partials/paleta.html",
-    "partials/pohled-graf.html",
-    "partials/section-overview.html",
-    "partials/sidebar.html",
-    "partials/sidebar_pages.html",
-    "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
-   ],
-   "scenarios": [],
-   "scripts": [
-    "js/p5/grafika.js",
-    "js/site.js",
-    "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
-    "js/vendor/flowbite.min.js",
-    "js/vendor/mermaid-11.min.js",
-    "js/vendor/p5-1.7.0.min.js",
-    "js/vendor/three-0.160.min.js",
-    "js/viz/casova-osa.js",
-    "js/viz/glosar.js",
-    "js/viz/jadro.js",
-    "js/viz/kompendium-viz.js",
-    "js/viz/kostka.js",
-    "js/viz/oddil-prehled.js",
-    "js/viz/oddil.js",
-    "js/viz/paleta.js",
-    "js/viz/techniky-rozptyl.js",
-    "js/viz/techniky.js",
-    "js/viz/vrstva.js"
-   ],
-   "status": "no-view",
-   "templates": {
-    "section.html": 1
-   },
-   "views": {}
-  },
-  "kompendium/04-operacni-principy": {
-   "components": [],
-   "covered_views": [],
-   "data": [
-    "static/data/nav.json",
-    "static/data/viz-deps.json"
-   ],
-   "generic_views": {},
-   "libraries": [],
-   "pages": 1,
-   "partials": [
-    "partials/explorer-glossary.html",
-    "partials/explorer-historical.html",
-    "partials/explorer-techniques.html",
-    "partials/footer.html",
-    "partials/header.html",
-    "partials/nav.html",
-    "partials/paleta.html",
-    "partials/pohled-graf.html",
-    "partials/section-overview.html",
-    "partials/sidebar.html",
-    "partials/sidebar_pages.html",
-    "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/toc.html"
-   ],
-   "scenarios": [],
-   "scripts": [
-    "js/p5/grafika.js",
-    "js/site.js",
-    "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
-    "js/vendor/flowbite.min.js",
-    "js/vendor/mermaid-11.min.js",
-    "js/vendor/p5-1.7.0.min.js",
-    "js/vendor/three-0.160.min.js",
-    "js/viz/casova-osa.js",
-    "js/viz/glosar.js",
-    "js/viz/jadro.js",
-    "js/viz/kompendium-viz.js",
-    "js/viz/kostka.js",
-    "js/viz/oddil-prehled.js",
-    "js/viz/oddil.js",
-    "js/viz/paleta.js",
-    "js/viz/techniky-rozptyl.js",
-    "js/viz/techniky.js",
-    "js/viz/vrstva.js"
-   ],
-   "status": "no-view",
-   "templates": {
-    "section.html": 1
-   },
-   "views": {}
-  },
-  "kompendium/04-pokrocile-fenomeny": {
-   "components": [],
    "covered_views": [
-    "mermaid"
+    "viz/teorie-pojmy"
    ],
    "data": [
     "static/data/nav.json",
@@ -803,6 +726,7 @@
     "partials/nav.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -813,13 +737,154 @@
    "scenarios": [
     {
      "covers": [
-      "mermaid"
+      "viz/teorie-pojmy"
      ],
-     "mermaid": 1,
-     "note": "třída kompendium/04-pokrocile-fenomeny: diagramy Mermaid (1)",
+     "note": "třída kompendium/04-klinika: pohled teorie-pojmy",
+     "origin": "derived",
+     "page": "kompendium/04-klinika/_index.md",
+     "painted": 1,
+     "path": "kompendium/04-klinika/"
+    }
+   ],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/jadro.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "covered",
+   "templates": {
+    "section.html": 1
+   },
+   "views": {
+    "viz/teorie-pojmy": 1
+   }
+  },
+  "kompendium/04-operacni-principy": {
+   "components": [],
+   "covered_views": [
+    "viz/teorie-pojmy"
+   ],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [],
+   "pages": 1,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/teorie-pojmy"
+     ],
+     "note": "třída kompendium/04-operacni-principy: pohled teorie-pojmy",
+     "origin": "derived",
+     "page": "kompendium/04-operacni-principy/_index.md",
+     "painted": 1,
+     "path": "kompendium/04-operacni-principy/"
+    }
+   ],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/jadro.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "covered",
+   "templates": {
+    "section.html": 1
+   },
+   "views": {
+    "viz/teorie-pojmy": 1
+   }
+  },
+  "kompendium/04-pokrocile-fenomeny": {
+   "components": [],
+   "covered_views": [
+    "mermaid",
+    "viz/teorie-pojmy"
+   ],
+   "data": [
+    "static/data/nav.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {},
+   "libraries": [],
+   "pages": 1,
+   "partials": [
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/nav.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/toc.html"
+   ],
+   "scenarios": [
+    {
+     "covers": [
+      "mermaid",
+      "viz/teorie-pojmy"
+     ],
+     "note": "třída kompendium/04-pokrocile-fenomeny: pohled teorie-pojmy",
      "origin": "derived",
      "page": "kompendium/04-pokrocile-fenomeny/_index.md",
-     "painted": 0,
+     "painted": 1,
      "path": "kompendium/04-pokrocile-fenomeny/"
     }
    ],
@@ -849,7 +914,8 @@
     "section.html": 1
    },
    "views": {
-    "mermaid": 1
+    "mermaid": 1,
+    "viz/teorie-pojmy": 1
    }
   },
   "kompendium/04-terminalni-protokoly": {
@@ -888,6 +954,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -943,12 +1010,15 @@
    },
    "views": {
     "kompendium/section-04-decision-tree": 1,
-    "viz/oddil-prehled": 1
+    "viz/oddil-prehled": 1,
+    "viz/teorie-pojmy": 10
    }
   },
   "kompendium/05-diagnostika": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/teorie-pojmy"
+   ],
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json"
@@ -965,6 +1035,7 @@
     "partials/nav.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -972,7 +1043,18 @@
     "partials/subnav.html",
     "partials/toc.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/teorie-pojmy"
+     ],
+     "note": "třída kompendium/05-diagnostika: pohled teorie-pojmy",
+     "origin": "derived",
+     "page": "kompendium/05-diagnostika/_index.md",
+     "painted": 1,
+     "path": "kompendium/05-diagnostika/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -994,15 +1076,19 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "covered",
    "templates": {
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/teorie-pojmy": 1
+   }
   },
   "kompendium/05-kolektivni-rozmer": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/teorie-pojmy"
+   ],
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json"
@@ -1019,6 +1105,7 @@
     "partials/nav.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1026,7 +1113,18 @@
     "partials/subnav.html",
     "partials/toc.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/teorie-pojmy"
+     ],
+     "note": "třída kompendium/05-kolektivni-rozmer: pohled teorie-pojmy",
+     "origin": "derived",
+     "page": "kompendium/05-kolektivni-rozmer/_index.md",
+     "painted": 1,
+     "path": "kompendium/05-kolektivni-rozmer/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -1048,15 +1146,19 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "covered",
    "templates": {
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/teorie-pojmy": 1
+   }
   },
   "kompendium/05-pokrocile-operace": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/teorie-pojmy"
+   ],
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json"
@@ -1073,6 +1175,7 @@
     "partials/nav.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1080,7 +1183,18 @@
     "partials/subnav.html",
     "partials/toc.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/teorie-pojmy"
+     ],
+     "note": "třída kompendium/05-pokrocile-operace: pohled teorie-pojmy",
+     "origin": "derived",
+     "page": "kompendium/05-pokrocile-operace/kapitola-6/_index.md",
+     "painted": 1,
+     "path": "kompendium/05-pokrocile-operace/kapitola-6/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -1102,15 +1216,19 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "covered",
    "templates": {
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/teorie-pojmy": 1
+   }
   },
   "kompendium/05-pokrocile-techniky": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/teorie-pojmy"
+   ],
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json"
@@ -1127,6 +1245,7 @@
     "partials/nav.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1134,7 +1253,18 @@
     "partials/subnav.html",
     "partials/toc.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/teorie-pojmy"
+     ],
+     "note": "třída kompendium/05-pokrocile-techniky: pohled teorie-pojmy",
+     "origin": "derived",
+     "page": "kompendium/05-pokrocile-techniky/kapitola-6/_index.md",
+     "painted": 1,
+     "path": "kompendium/05-pokrocile-techniky/kapitola-6/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -1156,15 +1286,19 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "covered",
    "templates": {
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/teorie-pojmy": 1
+   }
   },
   "kompendium/05-pre-konceptualni-rozklad": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/teorie-pojmy"
+   ],
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json"
@@ -1181,6 +1315,7 @@
     "partials/nav.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1188,7 +1323,18 @@
     "partials/subnav.html",
     "partials/toc.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/teorie-pojmy"
+     ],
+     "note": "třída kompendium/05-pre-konceptualni-rozklad: pohled teorie-pojmy",
+     "origin": "derived",
+     "page": "kompendium/05-pre-konceptualni-rozklad/ea-5-5-konvergentni/_index.md",
+     "painted": 1,
+     "path": "kompendium/05-pre-konceptualni-rozklad/ea-5-5-konvergentni/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -1210,11 +1356,13 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "covered",
    "templates": {
     "section.html": 2
    },
-   "views": {}
+   "views": {
+    "viz/teorie-pojmy": 1
+   }
   },
   "kompendium/05-ultramari-techniky": {
    "components": [
@@ -1249,6 +1397,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -1302,12 +1451,15 @@
     "section.html": 1
    },
    "views": {
-    "viz/oddil-prehled": 1
+    "viz/oddil-prehled": 1,
+    "viz/teorie-pojmy": 9
    }
   },
   "kompendium/06-epistemicka-singularita": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/teorie-pojmy"
+   ],
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json"
@@ -1324,6 +1476,7 @@
     "partials/nav.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1331,7 +1484,18 @@
     "partials/subnav.html",
     "partials/toc.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/teorie-pojmy"
+     ],
+     "note": "třída kompendium/06-epistemicka-singularita: pohled teorie-pojmy",
+     "origin": "derived",
+     "page": "kompendium/06-epistemicka-singularita/_index.md",
+     "painted": 1,
+     "path": "kompendium/06-epistemicka-singularita/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -1353,16 +1517,19 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "covered",
    "templates": {
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/teorie-pojmy": 1
+   }
   },
   "kompendium/06-intervence-a-obrana": {
    "components": [],
    "covered_views": [
-    "mermaid"
+    "mermaid",
+    "viz/teorie-pojmy"
    ],
    "data": [
     "static/data/nav.json",
@@ -1380,6 +1547,7 @@
     "partials/nav.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1390,13 +1558,13 @@
    "scenarios": [
     {
      "covers": [
-      "mermaid"
+      "mermaid",
+      "viz/teorie-pojmy"
      ],
-     "mermaid": 2,
-     "note": "třída kompendium/06-intervence-a-obrana: diagramy Mermaid (2)",
+     "note": "třída kompendium/06-intervence-a-obrana: pohled teorie-pojmy",
      "origin": "derived",
      "page": "kompendium/06-intervence-a-obrana/_index.md",
-     "painted": 0,
+     "painted": 1,
      "path": "kompendium/06-intervence-a-obrana/"
     }
    ],
@@ -1426,7 +1594,8 @@
     "section.html": 1
    },
    "views": {
-    "mermaid": 1
+    "mermaid": 1,
+    "viz/teorie-pojmy": 1
    }
   },
   "kompendium/06-klinicke-aplikace": {
@@ -1465,6 +1634,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -1521,12 +1691,15 @@
    },
    "views": {
     "kompendium/section-06-recovery-flow": 1,
-    "viz/oddil-prehled": 1
+    "viz/oddil-prehled": 1,
+    "viz/teorie-pojmy": 18
    }
   },
   "kompendium/06-obrana": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/teorie-pojmy"
+   ],
    "data": [
     "static/data/nav.json",
     "static/data/viz-deps.json"
@@ -1543,6 +1716,7 @@
     "partials/nav.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1550,7 +1724,18 @@
     "partials/subnav.html",
     "partials/toc.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/teorie-pojmy"
+     ],
+     "note": "třída kompendium/06-obrana: pohled teorie-pojmy",
+     "origin": "derived",
+     "page": "kompendium/06-obrana/_index.md",
+     "painted": 1,
+     "path": "kompendium/06-obrana/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -1572,11 +1757,13 @@
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "covered",
    "templates": {
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/teorie-pojmy": 1
+   }
   },
   "kompendium/07-populacni": {
    "components": [],
@@ -1609,6 +1796,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -1662,7 +1850,8 @@
     "kompendium/section.html": 1
    },
    "views": {
-    "viz/oddil-prehled": 1
+    "viz/oddil-prehled": 1,
+    "viz/teorie-pojmy": 1
    }
   },
   "kompendium/07-teoreticke-reflexe": {
@@ -1700,6 +1889,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -1756,7 +1946,7 @@
    "views": {
     "kompendium/section-07-framework-map": 1,
     "viz/oddil-prehled": 1,
-    "viz/teorie-pojmy": 60
+    "viz/teorie-pojmy": 61
    }
   },
   "kompendium/08-prilohy": {
@@ -1764,7 +1954,8 @@
     "cross_link"
    ],
    "covered_views": [
-    "viz/rejstrik"
+    "viz/rejstrik",
+    "viz/teorie-pojmy"
    ],
    "data": [
     "static/data/graph.json",
@@ -1792,6 +1983,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -1809,7 +2001,8 @@
       2
      ],
      "covers": [
-      "viz/rejstrik"
+      "viz/rejstrik",
+      "viz/teorie-pojmy"
      ],
      "interact": "rejstrik",
      "note": "interaktivní rejstřík pojmů (ECharts)",
@@ -1852,7 +2045,8 @@
    "views": {
     "mermaid": 1,
     "viz/oddil-prehled": 1,
-    "viz/rejstrik": 1
+    "viz/rejstrik": 1,
+    "viz/teorie-pojmy": 8
    }
   },
   "kompendium/aiad-integration": {
@@ -1886,6 +2080,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -1975,6 +2170,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -2101,6 +2297,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -2188,6 +2385,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -2275,6 +2473,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -2362,6 +2561,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -2450,6 +2650,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -2548,6 +2749,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -2635,6 +2837,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -2721,6 +2924,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -2809,6 +3013,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -2886,6 +3091,7 @@
     "partials/nav.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -2966,6 +3172,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -3053,6 +3260,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -3140,6 +3348,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -3227,6 +3436,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -3314,6 +3524,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -3401,6 +3612,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -3488,6 +3700,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -3575,6 +3788,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -3662,6 +3876,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -3753,6 +3968,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -3890,6 +4106,7 @@
     "partials/nav.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -4021,6 +4238,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
@@ -4113,6 +4331,7 @@
     "partials/pager.html",
     "partials/paleta.html",
     "partials/pohled-graf.html",
+    "partials/pohled-stranky.html",
     "partials/pokracovat.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -4238,18 +4457,7 @@
    }
   }
  },
- "gaps": [
-  "kompendium/02-doktrinalni-ramec",
-  "kompendium/04-klinika",
-  "kompendium/04-operacni-principy",
-  "kompendium/05-diagnostika",
-  "kompendium/05-kolektivni-rozmer",
-  "kompendium/05-pokrocile-operace",
-  "kompendium/05-pokrocile-techniky",
-  "kompendium/05-pre-konceptualni-rozklad",
-  "kompendium/06-epistemicka-singularita",
-  "kompendium/06-obrana"
- ],
+ "gaps": [],
  "generic_views": {
   "viz/oddil": "obecný přehled každého oddílu (partials/section-overview.html)",
   "viz/okoli": "graf okolí pod každou stránkou (page.html)"

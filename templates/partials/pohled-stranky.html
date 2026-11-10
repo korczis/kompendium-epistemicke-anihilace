@@ -1,0 +1,34 @@
+{#- Odvozený pohled stránky nebo rozcestníku (static/js/viz/<pohled>.js). Vybírá se podle dat,
+    ne podle seznamu oddílů:
+      protokol-tok   obsah má tabulku „Rozhodovací body“ (nadpis id rozhodovaci-body);
+      pripad-faze    kazuistika (oddíl case-studies) s tabulkou fází nebo stupni S1–S5;
+      teorie-pojmy   stránka nebo koncový rozcestník (bez podstránek) číslované kapitoly
+                     (oddíl, jehož název začíná číslicí): pojmy z hlavičky a odkazy z textu.
+    Vstup: doc (stránka nebo oddíl), proměnná nastavená v page.html i section.html. Kostra
+    plochy je partials/pohled-graf.html. -#}
+{%- set_global pv = "" -%}
+{%- set pv_part = doc.components[1] | default(value="") -%}
+{%- set pv_digit = pv_part | truncate(length=1, end="") -%}
+{%- set pv_leaf = doc.pages is not defined or (doc.pages | length == 0 and doc.subsections | length == 0) -%}
+{%- if '<h2 id="rozhodovaci-body' in doc.content %}
+{%- set_global pv = "protokol-tok" %}{% set_global pv_h = "Rozhodovací body jako tok" %}
+{%- set_global pv_d = "Každý řádek tabulky rozhodovacích bodů je jedna dvojice: situace vlevo, postup vpravo a stránky, na které postup odkazuje. Řádky jsou souběžné možnosti, ne pořadí kroků. Klepnutím nebo klávesou Enter přejdete na řádek tabulky nebo otevřete navazující stránku; z klávesnice graf vyberte tabulátorem a procházejte šipkami." %}
+{%- set_global pv_c = "h-[30rem] sm:h-96" %}
+{%- elif pv_part == "case-studies" and ("<th>Fáze</th>" in doc.content or "<strong>S1 " in doc.content) %}
+{%- set_global pv = "pripad-faze" %}{% set_global pv_h = "Fáze případu" %}
+{%- set_global pv_d = "Fáze tak, jak je kazuistika uvádí: fáze expozice z tabulky časové osy, nebo stupně intervence S1–S5. Osa je pořadí, ne kalendář; trvání je převzaté z textu. Klepnutím nebo klávesou Enter přejdete na místo v textu; z klávesnice graf vyberte tabulátorem a procházejte šipkami." %}
+{%- set_global pv_c = "h-80" %}
+{%- elif pv_leaf and pv_digit in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] %}
+{%- set_global pv = "teorie-pojmy" %}{% set_global pv_h = "Pojmy a vazby této stránky" %}
+{%- set_global pv_d = "Uprostřed je tato stránka, v prvním kruhu související pojmy z její hlavičky, ve druhém stránky, na které odkazuje v textu. Čáry mezi nimi jsou odkazy z grafu knihy. Klepnutím nebo klávesou Enter stránku otevřete; z klávesnice graf vyberte tabulátorem a procházejte šipkami." %}
+{%- set_global pv_c = "h-96 sm:h-[28rem]" %}
+{%- endif %}
+{%- if pv %}
+<section data-js data-pohled="{{ pv }}" data-pohled-stranka="{{ doc.relative_path }}" data-pohled-pojmy="{{ doc.extra.related_terms | default(value=[]) | join(sep=' ') }}" class="mt-8 border-t border-gray-200 pt-6 dark:border-gray-700" aria-labelledby="pohled-h">
+  <h2 id="pohled-h" class="mb-1 text-sm font-semibold uppercase tracking-wide text-gray-900 dark:text-white">{{ pv_h }}</h2>
+  <p id="pohled-d" class="mb-3 text-sm text-gray-500 dark:text-gray-400">{{ pv_d }}</p>
+  {%- set pg = {"label": pv_h, "desc": "pohled-d", "cls": pv_c ~ " border border-gray-200 bg-gray-50 dark:border-gray-700 dark:bg-gray-900"} %}
+  {% include "partials/pohled-graf.html" %}
+</section>
+<script src="{{ get_url(path='js/viz/' ~ pv ~ '.js', cachebust=true) }}" defer></script>
+{%- endif %}

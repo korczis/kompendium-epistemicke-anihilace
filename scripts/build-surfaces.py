@@ -62,18 +62,7 @@ SITE_DATA = ("graph.json", "search.json")
 
 # Classes whose pages render no view covered by a scenario on one of their own pages. Ratchet:
 # a new gap fails, and an entry that is covered (or gone) fails until it is removed here.
-KNOWN_GAPS = (
-    "kompendium/02-doktrinalni-ramec",
-    "kompendium/04-klinika",
-    "kompendium/04-operacni-principy",
-    "kompendium/05-diagnostika",
-    "kompendium/05-kolektivni-rozmer",
-    "kompendium/05-pokrocile-operace",
-    "kompendium/05-pokrocile-techniky",
-    "kompendium/05-pre-konceptualni-rozklad",
-    "kompendium/06-epistemicka-singularita",
-    "kompendium/06-obrana",
-)
+KNOWN_GAPS = ()
 
 # On every page of its kind, so they say nothing about a class: the neighbourhood graph under
 # every page.html page and the generic overview of every section with pages.

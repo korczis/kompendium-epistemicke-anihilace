@@ -8,12 +8,12 @@ tags = ["kompendium"]
 
 [extra]
 toc = false
-entries = 3911
+entries = 3912
 +++
 
 Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotlivých stránkách kompendia a glosáře; ručně se needituje.
 
-**3911 položek**, seřazených podle autora.
+**3912 položek**, seřazených podle autora.
 
 ## A
 
@@ -2829,7 +2829,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [EA-8.1.6 Měření traumatu ze zrady (Freyd a spolupracovníci)](@/kompendium/techniques/ea-8-1-6-betrayal-trauma-inventory.md)</small>
 - Goldsmith, R. E., Freyd, J. J., & DePrince, A. P. (2012). [Betrayal Trauma](@/glossary/betrayal-trauma.md). *Journal of  
   <small>Citováno: [EA-8.3.4 Empirická výzkumná báze](@/kompendium/techniques/ea-8-3-4-empirical-research-base.md)</small>
-- Golebiewski, M., a boyd, d. (2019). *Data Voids: Where Missing Data Can Easily Be Exploited*. Data & Society.  
+- Golebiewski, M., a boyd, d. (2018). *Data Voids: Where Missing Data Can Easily Be Exploited*. Data & Society (aktualizováno 2019).  
   <small>Citováno: [7.57 Boyd: danah boyd a sociotechnická analýza dezinformací](@/kompendium/07-teoreticke-reflexe/boyd-disinformation-age.md)</small>
 - Golebiewski, M., boyd, d. (2019). *Data Voids: Where Missing Data Can Easily Be Exploited.*  
   <small>Citováno: [OSINT: injekce narativu do informačního prostředí](@/kompendium/cross-domain/7-ea-osint-narrative-injection.md)</small>
@@ -5926,6 +5926,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Detekční signatura: Emocionální otupení](@/kompendium/detection-signatures/27-phenomenological-emotional-numbing.md)</small>
 - Price, P. C., & Stone, E. R. (2004). Intuitive evaluation of likelihood judgment producers: Evidence for a confidence heuristic. *Journal of Behavioral Decision Making*, 17(1), 39–57.  
   <small>Citováno: [Detekční signatura: Nepřiměřená sebejistota](@/kompendium/detection-signatures/9-behavioral-disproportionate-confidence.md)</small>
+- Pring, G. W. (1989). SLAPPs: Strategic lawsuits against public participation. *Pace  
+  <small>Citováno: [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)</small>
 - Pring, G. W., a Canan, P. (1996). *SLAPPs: Getting Sued for Speaking Out*. Temple University Press.  
   <small>Citováno: [Pomluva v kontextu EA](@/kompendium/forensic-legal/14-defamation-EA.md)</small>
 - Pring, G. W., & Canan, P. (1996). *SLAPPs: Getting Sued for Speaking Out*. Temple University  

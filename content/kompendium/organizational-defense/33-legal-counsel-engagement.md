@@ -57,9 +57,9 @@ službách. Ve veřejné správě jde o odpovědnost úředních osob a o žádo
 Na univerzitě jde o disciplinární řízení a akademické svobody, v médiích o tiskové právo a
 riziko žalob za [pomluvu](@/kompendium/forensic-legal/14-defamation-EA.md), v neziskové
 organizaci o odpovědnost vůči dárcům. Zvláštním rizikem je strategické zastrašování kritiků
-žalobami, které nemají vést k rozhodnutí, ale k umlčení. Pring a Canan (1996) pro tento jev
-zavedli označení SLAPP (strategic lawsuits against public participation) a Evropská unie mu
-čelí směrnicí (EU) 2024/1069 o ochraně osob, které se zapojují do veřejné debaty, před zjevně
+žalobami, které nemají vést k rozhodnutí, ale k umlčení. Pro tento jev se ujalo označení SLAPP
+(strategic lawsuits against public participation; Pring, 1989; Pring a Canan, 1996) a Evropská
+unie mu v přeshraničních věcech čelí směrnicí (EU) 2024/1069 o ochraně osob, které se zapojují do veřejné debaty, před zjevně
 neopodstatněnými nároky nebo zneužívajícími soudními řízeními. Organizace, která by takové
 žaloby proti vlastním kritikům podávala, by sama prováděla epistemický útok.
 
@@ -181,6 +181,8 @@ organizací zajistit nezávislou právní podporu za únosnou cenu.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Kantor, J., & Twohey, M. (2019). *She Said: Breaking the Sexual Harassment Story That Helped
   Ignite a Movement*. Penguin Press.
+- Pring, G. W. (1989). SLAPPs: Strategic lawsuits against public participation. *Pace
+  Environmental Law Review*, 7(1).
 - Pring, G. W., & Canan, P. (1996). *SLAPPs: Getting Sued for Speaking Out*. Temple University
   Press.
 - Smith, C. P., & Freyd, J. J. (2014). Institutional betrayal. *American Psychologist*, 69(6).

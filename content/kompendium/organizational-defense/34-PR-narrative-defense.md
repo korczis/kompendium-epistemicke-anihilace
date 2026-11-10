@@ -113,7 +113,7 @@ monitoruje prostředí.
 orgán schvaluje zásadní sdělení. Všichni ostatní zaměstnanci odkazují média na mluvčího. Právní rámec tvoří zákon č. 46/2000 Sb., tiskový zákon, který dává dotčené osobě právo na
 odpověď a na dodatečné sdělení ve vymezených případech, zákon č. 89/2012 Sb., občanský
 zákoník, s ochranou osobnosti a dobré pověsti, a nařízení (EU) 2016/679, které omezuje
-zveřejňování osobních údajů dotčených. U obsahu na velkých platformách upravuje postup pro
+zveřejňování osobních údajů dotčených. U hostingových služeb a online platforem upravuje postup pro
 oznámení nezákonného obsahu nařízení (EU) 2022/2065 (akt o digitálních službách); jeho
 uplatnění na konkrétní případ je třeba posoudit s právníkem.
 

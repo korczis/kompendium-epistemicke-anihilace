@@ -50,7 +50,7 @@ transparentnost, možnost diskutovat o etických otázkách a sankcionovatelnost
 
 Ve firmách je typickým paradoxem tým s nejvyšším skóre angažovanosti a zároveň nejvyšší
 fluktuací. Na univerzitách jde o výzkumnou skupinu, kde všichni hodnotí školitele výborně, a
-přitom polovina doktorandů nedokončí. V nemocnicích jde o oddělení s minimem hlášených
+přitom řada doktorandů nedokončí. V nemocnicích jde o oddělení s minimem hlášených
 nežádoucích událostí, což může znamenat bezpečnost, ale i strach je hlásit; Westrum (2004) by
 takové oddělení musel zařadit podle toho, jak zachází s posly, ne podle počtu hlášení.
 

@@ -36,7 +36,7 @@ Spolu s Crawfordovou formulovala boydová kritické otázky k velkým datům: da
 
 V eseji o „hackování ekonomiky pozornosti“ boydová popsala, jak se skupiny na okraji internetové kultury naučily využívat mechaniky platforem a slabiny zpravodajství k tomu, aby jejich témata převzala hlavní média (boyd, 2017). Marwick a Lewis (2017) tentýž jev rozpracovali ve zprávě o mediální manipulaci a ukázali, že zesílení často nevzniká záměrem novinářů, ale tím, že redakce reagují na to, co se na sítích už šíří.
 
-Golebiewski a boyd (2019) zavedli pojem datových prázdných míst (*data voids*): témata nebo hledané výrazy, k nimž existuje jen málo důvěryhodného obsahu, takže výsledky vyhledávání snadno ovládne obsah zavádějící. Autoři rozlišují několik typů, například nově vzniklé výrazy, zastaralé termíny nebo náhlé zpravodajské události, kdy kvalitní zdroje teprve vznikají. Pro tuto stránku je podstatné, že jde o strukturální zranitelnost informačního prostředí, nikoli o selhání jednotlivého uživatele.
+Golebiewski a boyd (2018, aktualizováno 2019) zavedli pojem datových prázdných míst (*data voids*): témata nebo hledané výrazy, k nimž existuje jen málo důvěryhodného obsahu, takže výsledky vyhledávání snadno ovládne obsah zavádějící. Autoři rozlišují několik typů, například nově vzniklé výrazy, zastaralé termíny nebo náhlé zpravodajské události, kdy kvalitní zdroje teprve vznikají. Pro tuto stránku je podstatné, že jde o strukturální zranitelnost informačního prostředí, nikoli o selhání jednotlivého uživatele.
 
 ## Kritika mediální gramotnosti a strategického mlčení
 
@@ -48,21 +48,21 @@ Donovan a boyd (2021) se zabývali otázkou, kdy mají novináři o manipulativn
 
 Sociotechnický přístup bývá kritizován z několika stran. Benkler, Faris a Roberts (2018) na rozsáhlé analýze amerického mediálního prostoru ukázali, že rozhodující roli v šíření dezinformací hrála asymetrická polarizace a tradiční média, nikoli jen platformy a jejich algoritmy; důraz na technické vlastnosti tak může podcenit politickou a institucionální rovinu. Tufekci (2017) zároveň připomíná, že tytéž vlastnosti sítí umožňují rychlou mobilizaci občanských hnutí, takže hodnocení platforem nemůže být jednostranné.
 
-Další meze se týkají metody. Etnografická práce s dospívajícími poskytuje hluboký vhled, ale neumožňuje kvantitativní zobecnění, a zprávy o datových prázdnech jsou spíše konceptuální rámce než měření účinku na přesvědčení uživatelů (Golebiewski a boyd, 2019). Boydová sama upozorňuje, že technologie neurčuje výsledek a že totéž prostředí lze využít různě; kniha proto její pojmy používá jako rozpoznávací rámec, nikoli jako kauzální model (boyd, 2014).
+Další meze se týkají metody. Etnografická práce s dospívajícími poskytuje hluboký vhled, ale neumožňuje kvantitativní zobecnění, a zprávy o datových prázdnech jsou spíše konceptuální rámce než měření účinku na přesvědčení uživatelů (Golebiewski a boyd, 2018). Boydová sama upozorňuje, že technologie neurčuje výsledek a že totéž prostředí lze využít různě; kniha proto její pojmy používá jako rozpoznávací rámec, nikoli jako kauzální model (boyd, 2014).
 
 ## Interpretace pro epistemickou anihilaci
 
 Následující oddíl je interpretací této knihy, nikoli tvrzením boydové. Kniha z jejího díla přebírá především tezi, že k rozkladu poznávání nemusí docházet jen cíleným působením na jednotlivce, ale i vlastnostmi prostředí, které informace trvale uchovává, vytrhává z kontextu a zesiluje. Kolaps kontextu tak může posloužit ke zpochybnění člověka sdělením vytrženým z jiné situace; krajní podobou zneužití trvalosti a vyhledatelnosti je zveřejnění osobních údajů, které popisuje heslo [doxing](@/glossary/doxing.md) (Marwick a boyd, 2011).
 
-Druhá interpretace se týká informačních bublin. Pojem [epistemic bubble](@/glossary/epistemic-bubble.md) v knize označuje prostředí, v němž člověku chybějí jiné hlasy; datová prázdna ukazují, že takové prostředí nemusí vzniknout jen vlastní volbou, ale i tím, že k určitému tématu prostě neexistuje dostupný důvěryhodný obsah (Golebiewski a boyd, 2019). Kniha proto tyto jevy řadí k [informačním operacím](@/glossary/info-ops.md) jen tehdy, je-li doložen koordinovaný záměr; jinak jde o zranitelnost prostředí.
+Druhá interpretace se týká informačních bublin. Pojem [epistemic bubble](@/glossary/epistemic-bubble.md) v knize označuje prostředí, v němž člověku chybějí jiné hlasy; datová prázdna ukazují, že takové prostředí nemusí vzniknout jen vlastní volbou, ale i tím, že k určitému tématu prostě neexistuje dostupný důvěryhodný obsah (Golebiewski a boyd, 2018). Kniha proto tyto jevy řadí k [informačním operacím](@/glossary/info-ops.md) jen tehdy, je-li doložen koordinovaný záměr; jinak jde o zranitelnost prostředí.
 
 Třetí interpretace se týká obrany. Boydové kritika mediální gramotnosti varuje, že obrana, která stojí jen na podezíravosti, může sama přispět k rozkladu důvěry, kterou kniha popisuje na stránce [7.7 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md). Odolnost proto kniha nespojuje s plošnou nedůvěrou, ale se schopností rozlišovat důvěryhodné instituce a s vazbami na lidi, s nimiž lze zkušenost sdílet (boyd, 2018).
 
 ## Rozpoznání, obrana a institucionální rámec
 
-Rozpoznávacími znaky z této perspektivy jsou náhlý výskyt nového výrazu, ke kterému vyhledávání vrací téměř jen obsah jednoho tábora, sdělení koncipovaná tak, aby je hlavní média převzala jako „kontroverzi“, a opakované vytrhávání starých příspěvků z původního kontextu. Žádný z těchto znaků sám neprokazuje koordinaci; jde o podnět k ověření zdroje, data a původního kontextu (Golebiewski a boyd, 2019; Wardle a Derakhshan, 2017).
+Rozpoznávacími znaky z této perspektivy jsou náhlý výskyt nového výrazu, ke kterému vyhledávání vrací téměř jen obsah jednoho tábora, sdělení koncipovaná tak, aby je hlavní média převzala jako „kontroverzi“, a opakované vytrhávání starých příspěvků z původního kontextu. Žádný z těchto znaků sám neprokazuje koordinaci; jde o podnět k ověření zdroje, data a původního kontextu (Golebiewski a boyd, 2018; Wardle a Derakhshan, 2017).
 
-Obrana má podle literatury institucionální povahu: redakce mohou volit strategické zesílení, provozovatelé vyhledávačů a platforem mohou včas doplňovat důvěryhodný obsah k novým tématům a výzkumné instituce mohou nezávisle auditovat doporučovací systémy (Donovan a boyd, 2021). V evropském právním rámci tuto roli posiluje nařízení (EU) 2022/2065 o digitálních službách, které ukládá velmi velkým platformám posuzovat systémová rizika; podrobnosti ponecháváme specializovaným stránkám knihy. Pro jednotlivce, včetně klientů v terapii, je ochranou obnova sítě důvěryhodných vztahů a zdrojů, nikoli izolace od informací (boyd, 2018).
+Obrana má podle literatury institucionální povahu: redakce mohou volit strategické zesílení, provozovatelé vyhledávačů a platforem mohou včas doplňovat důvěryhodný obsah k novým tématům (Donovan a boyd, 2021). V evropském právním rámci tuto roli posiluje nařízení (EU) 2022/2065 o digitálních službách, které ukládá velmi velkým platformám posuzovat systémová rizika; podrobnosti ponecháváme specializovaným stránkám knihy. Pro jednotlivce, včetně klientů v terapii, je ochranou obnova sítě důvěryhodných vztahů a zdrojů, nikoli izolace od informací (boyd, 2018).
 
 ## Otevřené otázky
 
@@ -77,7 +77,7 @@ Otevřené zůstává, jak měřit dopad datových prázdných míst na skutečn
 - boyd, d. (2018). You think you want media literacy… do you? *Data & Society: Points*.
 - boyd, d., a Crawford, K. (2012). Critical questions for big data. *Information, Communication & Society*, 15(5).
 - Donovan, J., a boyd, d. (2021). Stop the presses? Moving from strategic silence to strategic amplification in a networked media ecosystem. *American Behavioral Scientist*, 65(2).
-- Golebiewski, M., a boyd, d. (2019). *Data Voids: Where Missing Data Can Easily Be Exploited*. Data & Society.
+- Golebiewski, M., a boyd, d. (2018). *Data Voids: Where Missing Data Can Easily Be Exploited*. Data & Society (aktualizováno 2019).
 - Marwick, A. E., a boyd, d. (2011). I tweet honestly, I tweet passionately: Twitter users, context collapse, and the imagined audience. *New Media & Society*, 13(1).
 - Marwick, A., a Lewis, R. (2017). *Media Manipulation and Disinformation Online*. Data & Society.
 - Tufekci, Z. (2017). *Twitter and Tear Gas: The Power and Fragility of Networked Protest*. Yale University Press.

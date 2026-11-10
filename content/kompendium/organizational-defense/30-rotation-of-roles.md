@@ -81,7 +81,8 @@ neschopnost, aby se práci vyhnul; oba vzorce podle výkladu knihy spojuje kontr
 
 Základem je seznam kritických rolí s určeným a zaučeným zástupcem pro každou z nich a test
 zástupcem: jednou ročně převezme zástupce roli na souvislé období s plnými právy a držitel role v
-té době do práce nezasahuje (ACFE, 2024). Zákoník práce, zákon č. 262/2006 Sb., počítá s tím, že
+té době do práce nezasahuje; tento test je návrhem knihy, ne postupem, který by ACFE
+předepisovala. Zákoník práce, zákon č. 262/2006 Sb., počítá s tím, že
 čerpá-li zaměstnanec dovolenou v částech, jedna část se zpravidla čerpá vcelku v délce nejméně
 dvou týdnů, nedohodnou-li se strany jinak; organizace může tohoto pravidla využít k plánování
 zastoupení.

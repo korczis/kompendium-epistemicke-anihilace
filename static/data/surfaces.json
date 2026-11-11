@@ -4299,6 +4299,7 @@
     "p5/grafika",
     "viz/mapa",
     "viz/matice",
+    "viz/osy",
     "viz/prehled",
     "viz/redakce",
     "viz/stav"
@@ -4316,7 +4317,7 @@
     "viz/okoli": 3
    },
    "libraries": [],
-   "pages": 7,
+   "pages": 8,
    "partials": [
     "partials/connections.html",
     "partials/footer.html",
@@ -4398,6 +4399,16 @@
      "path": "matice/"
     },
     {
+     "covers": [
+      "viz/osy"
+     ],
+     "note": "osy knihy: publikum × pilíř (ECharts)",
+     "origin": "fixed",
+     "page": "osy.md",
+     "painted": 1,
+     "path": "osy/"
+    },
+    {
      "count": [
       "#stav-kpi > *",
       8
@@ -4429,6 +4440,7 @@
     "js/viz/mapa.js",
     "js/viz/matice.js",
     "js/viz/okoli.js",
+    "js/viz/osy.js",
     "js/viz/paleta.js",
     "js/viz/prehled.js",
     "js/viz/redakce.js",
@@ -4442,6 +4454,7 @@
     "index.html": 1,
     "mapa.html": 1,
     "matice.html": 1,
+    "osy.html": 1,
     "page.html": 3,
     "stav.html": 1
    },
@@ -4449,6 +4462,7 @@
     "p5/grafika": 2,
     "viz/mapa": 1,
     "viz/matice": 1,
+    "viz/osy": 1,
     "viz/prehled": 1,
     "viz/redakce": 1,
     "viz/stav": 1
@@ -4462,6 +4476,16 @@
  },
  "schema": "kompendium-surfaces/v1",
  "unmapped_scenarios": [
+  {
+   "count": [
+    "[data-osy-seznam] a[href]",
+    1
+   ],
+   "note": "osy knihy: výběr z adresy vypíše stránky průniku",
+   "origin": "fixed",
+   "painted": 1,
+   "path": "osy/?publikum=klinik&pilir=rozpoznani"
+  },
   {
    "note": "štítky (treemap)",
    "origin": "fixed",

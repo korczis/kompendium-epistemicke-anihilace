@@ -1,7 +1,7 @@
 +++
 title = "Inference (inference modelu AI)"
 weight = 36
-description = "Spuštění natrénovaného modelu umělé inteligence, které z nových vstupů vytváří výstupy; na platformě Prismatic lokální inference přes Ollama. Odlišení od inference jako usuzování."
+description = "Spuštění natrénovaného modelu umělé inteligence, které z nových vstupů vytváří výstupy. Odlišení od inference jako usuzování."
 
 [taxonomies]
 tags = ["glossary", "technology", "inference", "AI"]
@@ -12,10 +12,10 @@ related_terms = ["ollama", "beam", "telemetry", "observability", "rate-limiting"
 author = "Tomas Korcak (korczis)"
 date_created = "2026-02-23"
 date_modified = "2026-11-10"
-keywords = ["Inference", "Executing", "glossary", "technology", "Prismatic Platform", "README", "Cache"]
+keywords = ["Inference", "Executing", "glossary", "technology", "README", "Cache"]
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "Inference – platforma Prismatic"
+image_alt = "Inference"
 +++
 
 ## Definice

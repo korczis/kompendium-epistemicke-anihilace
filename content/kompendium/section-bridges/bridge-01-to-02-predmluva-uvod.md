@@ -39,7 +39,6 @@ Předmluva je krátký, ale normativní oddíl. Její stránky odpovídají na o
 - [Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md) skládají interdisciplinární rámec – epistemologii, psychologii traumatu, sociální teorii.
 - [Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md) vysvětlují klasifikační principy, validační kritéria a notaci kódů EA.
 - [Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md) ukotvuje taxonomii ve [fenomenologii](@/glossary/fenomenologie.md) a [hermeneutice](@/glossary/hermeneutika.md).
-- [Vztah k Decision Engine](@/kompendium/02-uvod/_index.md) ukazují, jak se taxonomie promítá do epistemického procesu platformy.
 
 ## Proč číst Předmluvu před Úvodem
 

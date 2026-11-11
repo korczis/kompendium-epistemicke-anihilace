@@ -38,8 +38,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 **Partialní hospitalizace** je Partial Hospitalization Program (PHP) — denní intenzivní program 5-6 hodin/den 5 dní/týden — jako step-down z inpatient nebo step-up z outpatient pro EA-trauma klienty potřebující intenzivnější než ambulantní péči.
 
-Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
-
 ## Indikace
 
 Technika je primárně indikována v následujících klinických kontextech:

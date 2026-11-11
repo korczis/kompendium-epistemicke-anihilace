@@ -38,8 +38,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 **Metakognitivní functional assessment** je specializované vyšetření metakognitivních schopností — sebemonitorování myšlení, kalibrace jistoty, detekce vlastních kognitivních zkreslení, mentální flexibility — s důrazem na deficity vznikající po expozici epistemickým útokům (EA-5).
 
-Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
-
 ## Indikace
 
 Technika je primárně indikována v následujících klinických kontextech:

@@ -185,9 +185,6 @@
  "bold:foa-e-b-et-al-2018": [
   "bold-candidate"
  ],
- "bold:forma": [
-  "bold-candidate"
- ],
  "bold:formalni-infrastrukturu": [
   "bold-candidate"
  ],
@@ -852,9 +849,6 @@
   "bold-candidate"
  ],
  "bold:vyklad": [
-  "bold-candidate"
- ],
- "bold:vyznam": [
   "bold-candidate"
  ],
  "bold:vzdy": [
@@ -1729,9 +1723,6 @@
  ],
  "content/kompendium/01-predmluva/_index.md": [
   "citations"
- ],
- "content/kompendium/01-predmluva/bezpecnostni-klasifikace.md": [
-  "bullets"
  ],
  "content/kompendium/01-predmluva/eticke-aspekty.md": [
   "bullets",
@@ -6149,22 +6140,6 @@
   "citations"
  ],
  "content/matice.md": [
-  "citations"
- ],
- "content/philosophy/_index.md": [
-  "bullets",
-  "citations"
- ],
- "content/philosophy/boundary-ethics.md": [
-  "bullets",
-  "citations"
- ],
- "content/philosophy/epistemic-integrity.md": [
-  "bullets",
-  "citations"
- ],
- "content/philosophy/intellectual-sovereignty.md": [
-  "bullets",
   "citations"
  ],
  "content/stav.md": [

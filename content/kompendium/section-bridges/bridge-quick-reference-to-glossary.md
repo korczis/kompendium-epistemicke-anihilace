@@ -67,7 +67,7 @@ Druhým omylem je **hledat ke každé kartě jedno heslo**. Vztah mezi technikam
 
 Třetím omylem je **číst glosář až v krizi**. V krizi je čas na kartu; glosář patří do přípravy, výcviku a supervize.
 
-Čtvrtým omylem je **považovat platformové pojmy glosáře za techniky**. Hesla jako NABLA nebo QEVE popisují prostředí platformy; karty se k nim vztahují jen nepřímo, přes obecné principy ověřování.
+Čtvrtým omylem je **považovat každé heslo glosáře za techniku**. Glosář nese i pojmy, které techniku nepopisují — filozofické, klinické i právní —, a karty se k nim vztahují jen nepřímo, přes obecné principy ověřování.
 
 ## Meze a otevřené otázky
 

@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 368,
+        "in": 319,
         "kind": "Pojem",
         "path": "glossary/taxonomie-ea.md",
         "tier": 4,
@@ -15,7 +15,7 @@
       },
       {
         "code": null,
-        "in": 135,
+        "in": 136,
         "kind": "Kapitola",
         "path": "kompendium/02-uvod/metodologicke-poznamky.md",
         "tier": 5,
@@ -65,7 +65,7 @@
       },
       {
         "code": null,
-        "in": 310,
+        "in": 312,
         "kind": "Kapitola",
         "path": "kompendium/01-predmluva/eticke-aspekty.md",
         "tier": 6,
@@ -105,7 +105,7 @@
       },
       {
         "code": null,
-        "in": 88,
+        "in": 89,
         "kind": "Kapitola",
         "path": "kompendium/_index.md",
         "tier": 6,

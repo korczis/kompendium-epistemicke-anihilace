@@ -10,7 +10,7 @@ tags = ["glossary", "epistemic", "philosophy", "phenomenology", "fenomenologie"]
 
 [extra]
 category = "epistemic"
-related_terms = ["epistemicka-anihilace", "lebenswelt", "embodied-cognition", "metakognice", "kognitivni-anihilace", "epistemic-pipeline"]
+related_terms = ["epistemicka-anihilace", "lebenswelt", "embodied-cognition", "metakognice", "kognitivni-anihilace"]
 author = "Tomáš Korcak (korczis)"
 date_created = "2026-04-25"
 date_modified = "2026-11-10"

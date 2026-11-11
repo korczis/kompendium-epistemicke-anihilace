@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 602,
+        "in": 603,
         "kind": "Pojem",
         "path": "glossary/epistemicka-anihilace.md",
         "tier": 4,
@@ -45,11 +45,11 @@
       },
       {
         "code": null,
-        "in": 128,
+        "in": 129,
         "kind": "Filozofie",
         "path": "philosophy/epistemic-integrity.md",
         "tier": 4,
-        "title": "Epistemická integrita a uchování významu",
+        "title": "Epistemická integrita knihy",
         "url": "/philosophy/epistemic-integrity/",
         "why": "title_prefix"
       },
@@ -85,7 +85,7 @@
       },
       {
         "code": null,
-        "in": 55,
+        "in": 56,
         "kind": "Pojem",
         "path": "glossary/epistemicka-pokora.md",
         "tier": 4,
@@ -95,7 +95,7 @@
       },
       {
         "code": null,
-        "in": 35,
+        "in": 36,
         "kind": "Pojem",
         "path": "glossary/epistemic-security.md",
         "tier": 4,
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "Epi",
     "schema": "kompendium-engine/v1",
-    "total": 390
+    "total": 389
   },
   "input": {
     "op": "search",

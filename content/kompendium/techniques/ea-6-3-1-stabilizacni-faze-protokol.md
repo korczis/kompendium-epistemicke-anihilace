@@ -38,8 +38,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 **Stabilizační fáze protokol** je první fáze tří-fázového trauma-treatment modelu (Herman, van der Kolk) zaměřená na bezpečí, stabilizaci symptomů, budování self-regulation kapacity a terapeutické aliance před přechodem k trauma-procesovým intervencím.
 
-Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
-
 ## Indikace
 
 Technika je primárně indikována v následujících klinických kontextech:

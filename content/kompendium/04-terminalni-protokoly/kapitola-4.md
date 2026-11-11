@@ -225,7 +225,7 @@ Extrémní výcvikové sekvence — i když dokonale legitimní — nesou inhere
 | **Psychologická stabilita** | Absence akutních a dlouhodobých psychiatrických symptomů | Strukturované klinické interview, PCL-5, BDI-II |
 | **Kognitivní integrita** | Zachování baseline kognitivních funkcí | Neuropsychologické testování |
 | **Sociální funkce** | Zachování interpersonálních vztahů | Sociometrie, kvalita života questionnaires |
-| **Epistemická autonomie** | Schopnost kritického myšlení vůči vlastní zkušenosti i programu | Strukturované interview, NABLA Infinity epistemic profile |
+| **Epistemická autonomie** | Schopnost kritického myšlení vůči vlastní zkušenosti i programu | Strukturované interview |
 
 ### Failure modes a kritéria předčasného ukončení
 

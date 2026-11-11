@@ -50,7 +50,7 @@ Foucaultova analýza biopolitiky (*Naissance de la biopolitique*, přednášky 1
 
 Kompendium odbočuje od Foucaulta v **třech bodech**:
 
-1. **Normativní afirmace.** Foucault (zejména pozdní) odmítá privilegované normativní stanovisko. Kompendium naopak deklaruje **explicitní normativní závazek** k epistemické integritě (viz [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)). Tato pozice je sice slabší než klasický fundacionalismus, ale silnější než foucaultovský diskurzivní deskriptivismus.
+1. **Normativní afirmace.** Foucault (zejména pozdní) odmítá privilegované normativní stanovisko. Kompendium naopak deklaruje **explicitní normativní závazek** k epistemické integritě (viz [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)). Tato pozice je sice slabší než klasický fundacionalismus, ale silnější než foucaultovský diskurzivní deskriptivismus.
 2. **Klinická intervenovatelnost.** Foucault skepticky pohlíží na „osvobozující“ projekty (kritická psychiatrie). Kompendium naopak připouští, že **terapeutická intervence** je možná a etická, byť pouze v rámcích explicitně definovaných v sekci 06.
 3. **Strukturální realismus.** Foucault je často interpretován jako antirealisticky orientovaný diskurzivní konstruktivista. Kompendium zaujímá stanovisko **kritického realismu** ([2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)) — epistemické patologie mají **strukturální vlastnosti**, jež nejsou redukovatelné na diskurzivní efekty.
 
@@ -223,7 +223,7 @@ Filosofický rámec kompendia **není** uzavřený. Otevřené teoretické body,
 - [Glosář: Dual-use poznání](@/glossary/dual-use-poznani.md)
 - [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+- [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
 
 ## Kritický krok
 

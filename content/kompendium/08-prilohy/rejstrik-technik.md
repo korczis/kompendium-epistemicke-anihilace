@@ -244,7 +244,7 @@ Třicet hesel ve třech skupinách. Každé popisuje myšlenku autora, to, co z 
 | 7.3 | [Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) | Svědectví, důvěra a epistemická nespravedlnost (Goldman, Fricker, Longino, Anderson). |
 | 7.4 | [EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md) | Lyotard, Baudrillard, Derrida: kde kritika metanarativů končí a začíná rozklad poznání. |
 | 7.5 | [Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) | Duální systém, [prediktivní zpracování](@/glossary/predictive-processing.md), [vtělená kognice](@/glossary/embodied-cognition.md) jako vysvětlení zranitelnosti. |
-| 7.6 | [Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md) | Formální modely přesvědčení a jejich vztah k platformě. |
+| 7.6 | [7.6 Computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md) | Formální modely přesvědčení a jejich vztah k platformě. |
 | 7.7 | [EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) | Algoritmy, generativní modely a *deepfakes* jako nové prostředí starých vzorců. |
 | 7.8 | [Politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) | Totalitní systémy, [propaganda](@/glossary/propaganda.md) a populismus jako kolektivní rovina jevu. |
 | 7.9 | [Otevřené výzkumné otázky](@/kompendium/07-teoreticke-reflexe/otevrene-otazky.md) | Co taxonomie zatím neumí vysvětlit nebo změřit. |

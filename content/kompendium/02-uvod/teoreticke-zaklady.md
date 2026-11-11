@@ -462,8 +462,6 @@ Teoretický rámec je **dynamickou architekturou**, otevřenou kontinuální rev
 - [2.2 Historický kontext](@/kompendium/02-uvod/historicky-kontext.md)
 - [2.4 Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)
 - [2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md)
-- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md)
-- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md)
 - [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
 - [Glosář: Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
 - [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)

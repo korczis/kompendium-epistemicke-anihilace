@@ -79,6 +79,36 @@
         {%- endfor %}
       </ul>
     </nav>
+    {#- Katalogy: dlaždice pro každý blok [[catalog]] v data/catalogs.toml (ikona, název, anglický
+        název, popis sekce a počet hesel z front matter jejího rejstříku, extra.catalog_size, který
+        odvozuje scripts/catalogs.py). Nový katalog = nová dlaždice bez zásahu sem. -#}
+    {%- set kat = load_data(path="data/catalogs.toml", required=false) -%}
+    {%- if kat and kat.catalog %}
+    <nav class="lg:col-span-12" aria-labelledby="katalogy">
+      <h2 id="katalogy" class="mb-3 text-lg font-bold text-gray-900 dark:text-white">Katalogy</h2>
+      <ul class="grid gap-3 sm:grid-cols-2">
+        {%- for c in kat.catalog | sort(attribute="weight") %}
+        {%- set ks = get_section(path=c.section ~ "/_index.md", metadata_only=true, allow_missing=true) %}
+        {%- if ks %}
+        {%- set kn = ks.extra.catalog_size | default(value=0) %}
+        <li>
+          <a href="{{ ks.permalink }}" class="group flex h-full gap-3 rounded-lg border border-gray-200 bg-white p-4 hover:border-primary-300 hover:bg-primary-50 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:border-primary-700 dark:hover:bg-gray-700 dark:focus:ring-primary-800">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary-100 text-xl dark:bg-primary-900" aria-hidden="true">{{ c.icon | default(value="📚") }}</span>
+            <span class="min-w-0">
+              <span class="flex items-center justify-between gap-2">
+                <span class="text-base font-semibold text-gray-900 group-hover:text-primary-700 dark:text-white dark:group-hover:text-primary-300">{{ c.title }}</span>
+                {%- if kn %}<span class="shrink-0 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700 dark:bg-gray-700 dark:text-gray-300">{{ kn }} {% if kn == 1 %}heslo{% elif kn >= 2 and kn <= 4 %}hesla{% else %}hesel{% endif %}</span>{% endif %}
+              </span>
+              {%- if c.en %}<span class="block text-xs text-gray-500 dark:text-gray-400" lang="en">{{ c.en }}</span>{% endif %}
+              {%- if ks.description %}<span class="mt-1 line-clamp-2 block text-sm text-gray-600 dark:text-gray-300">{{ ks.description }}</span>{% endif %}
+            </span>
+          </a>
+        </li>
+        {%- endif %}
+        {%- endfor %}
+      </ul>
+    </nav>
+    {%- endif %}
   </div>
 </section>
 

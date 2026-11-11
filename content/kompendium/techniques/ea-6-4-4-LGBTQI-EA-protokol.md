@@ -38,8 +38,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 **LGBTQI EA-protokol** je specializovaný protokol pro LGBTQI klienty exponované EA-trauma — koercivní 'konverzní' terapie, religiózní homofobní systémy, internalizovaná homofobie/transfobie, minority stress, queer-specific betrayal trauma.
 
-Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
-
 ## Indikace
 
 Technika je primárně indikována v následujících klinických kontextech:

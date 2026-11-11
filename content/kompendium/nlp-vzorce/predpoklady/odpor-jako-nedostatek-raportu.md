@@ -235,7 +235,7 @@ pokračovat proti vůli druhého.
 
 **V kompendiu**
 
-- [Etika hranic a filozofie ochrany](@/philosophy/boundary-ethics.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Etika popisu újmy](@/philosophy/boundary-ethics.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**

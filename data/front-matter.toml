@@ -104,7 +104,6 @@ keys = [
   { where = "extra", key = "acronym", type = "str", classes = "glossary" },
   { where = "extra", key = "citation_style", type = "str", classes = "page section" },
   { where = "extra", key = "difficulty_rating", type = "int|str", classes = "glossary" },
-  { where = "extra", key = "doi_placeholder", type = "str", classes = "page section" },
   { where = "extra", key = "domain_category", type = "str", classes = "glossary" },
   { where = "extra", key = "external_resources", type = "list", classes = "glossary" },
   { where = "extra", key = "implementation_status", type = "str", classes = "glossary" },

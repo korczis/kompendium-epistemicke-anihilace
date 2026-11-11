@@ -183,7 +183,7 @@ Tato distribuovaná odpovědnost je explicitním záměrem — žádná centrali
 - [Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Filozofie: Boundary Ethics](@/philosophy/boundary-ethics.md)
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+- [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
 - [Glossary: Epistemická slepota](@/glossary/epistemicka-slepota.md)
 
 ## Kritický krok

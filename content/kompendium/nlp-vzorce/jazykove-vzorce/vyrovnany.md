@@ -147,7 +147,7 @@ V terapii je vyrovnaná komunikace spíše výsledkem než prostředkem. Člově
 **V kompendiu**
 
 - [EA-7.1.4 Habermas: komunikativní jednání](@/kompendium/techniques/ea-7-1-4-habermas-communicative-action.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
-- [Etika hranic a filozofie ochrany](@/philosophy/boundary-ethics.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Etika popisu újmy](@/philosophy/boundary-ethics.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [Obrana a kalibrace: obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**

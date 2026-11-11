@@ -234,8 +234,6 @@ V následujících kapitolách budou detailně rozpracovány specifické manifes
 - [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
 - [2.4 Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)
 - [2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md)
-- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md)
-- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 
 ## Kritický krok

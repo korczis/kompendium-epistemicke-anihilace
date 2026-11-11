@@ -38,8 +38,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 **Farmakoterapie jako adjuvant** je racionálně-založená farmakoterapie jako podpůrná intervence v rámci komplexního EA-trauma léčebného plánu — zejména SSRI/SNRI pro afektivní složku, prazosin pro nightmares, krátkodobé benzodiazepiny pro akutní krizi, low-dose atypická antipsychotika pro disociativní symptomy.
 
-Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
-
 ## Indikace
 
 Technika je primárně indikována v následujících klinických kontextech:
@@ -52,7 +50,7 @@ Sekundárně může být zvažována jako adjunktivní intervence v rámci kompl
 
 Aplikace techniky je **kontraindikována** v následujících situacích:
 
-Známé alergie, gravidita (relativní), těžká hepatální/renální dysfunkce, lékové interakce, klient odmítá farmakoterapii (NWB respekt k autonomii).
+Známé alergie, gravidita (relativní), těžká hepatální/renální dysfunkce, lékové interakce, klient odmítá farmakoterapii (jeho rozhodnutí je respektováno).
 
 Identifikace kontraindikací je integrální součástí každého iniciálního assessment a vyžaduje opakované re-evaluation v průběhu intervence — zejména v případě dynamicky se měnícího klinického obrazu.
 

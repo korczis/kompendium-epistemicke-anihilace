@@ -181,7 +181,7 @@
       {
         "class": "kompendium",
         "distance": 1,
-        "in": 88,
+        "in": 89,
         "path": "kompendium/_index.md",
         "title": "Kompendium epistemické a kognitivní anihilace"
       },
@@ -209,7 +209,7 @@
       {
         "class": "glossary",
         "distance": 2,
-        "in": 602,
+        "in": 603,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
       },
@@ -219,13 +219,6 @@
         "in": 445,
         "path": "kompendium/nlp-vzorce/_index.md",
         "title": "NLP vzorce"
-      },
-      {
-        "class": "glossary",
-        "distance": 2,
-        "in": 368,
-        "path": "glossary/taxonomie-ea.md",
-        "title": "Taxonomie EA"
       },
       {
         "class": "kompendium/06-klinicke-aplikace",
@@ -240,6 +233,13 @@
         "in": 325,
         "path": "glossary/_index.md",
         "title": "Glosář"
+      },
+      {
+        "class": "glossary",
+        "distance": 2,
+        "in": 319,
+        "path": "glossary/taxonomie-ea.md",
+        "title": "Taxonomie EA"
       },
       {
         "class": "glossary",

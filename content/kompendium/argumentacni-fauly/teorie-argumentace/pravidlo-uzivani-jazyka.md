@@ -229,7 +229,7 @@ výklad a ověří si ho otázkou, místo aby zvolil výklad, který se nejsnáz
 
 - [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [EA-5.4.24 Past epistemické vágnosti](@/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
-- [Epistemická integrita a uchování významu](@/philosophy/epistemic-integrity.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [Epistemická integrita knihy](@/philosophy/epistemic-integrity.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 

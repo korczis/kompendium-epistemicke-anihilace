@@ -27,12 +27,18 @@ odhalí jen prohlížeč.
   - scénáře v `test/e2e/surfaces.cjs`: každá třída stránek se načte bez chyby JS a sítě; Mermaid,
     Okolí stránky, Mapa, Stav, vizualizace, filtr a fasety glosáře, podstromy sidebaru,
     vyhledávání (Ctrl+K, šipky, Enter, kód EA na prvním místě) a mobilní drawer (fokus
-    dovnitř a zpět, zavřený drawer `inert`) fungují;
+    dovnitř a zpět, zavřený drawer `inert`, `aria-expanded` na tlačítku, viditelný backdrop
+    pod sidebarem, odkazy a skupiny v otevřeném draweru přijímají ťuknutí, ťuknutí mimo něj
+    drawer zavře) fungují;
   - `scripts/audit-ui.cjs`: žádné porušení axe-core WCAG 2.2 AA (375 a 1440 px, světlý i
     tmavý režim), žádná chyba konzole či sítě, žádné vodorovné přetečení (320–1920 px),
     CLS nejvýše 0,1.
 - Nová interaktivní funkce dostane scénář v `test/e2e/surfaces.cjs`; nová třída stránek
   řádek v seznamu stránek auditu i scénářů.
+- Překryvná vrstva (drawer, modal, dropdown, paleta) se testuje skutečným ťuknutím na prvky,
+  které má zpřístupnit, ne jen fokusem a klávesnicí: fokus projde i pod průhledným backdropem
+  (`.ai/repo/knowledge/curated/mobile-drawer-stacking.md`). Vrstvy používají stupnici Pro
+  admin shellu: navigační lišta `z-30` > sidebar `z-20` > backdrop sidebaru `z-10`.
 - Interaktivní komponenty řídí Flowbite JS; projektový JS jen doplňuje stav přístupnosti
   nebo funkce, které Flowbite nemá (vyhledávání, grafy, vizualizace).
 - Vizualizační knihovny se načítají jen tam, kde je skript stránky volá

@@ -487,8 +487,6 @@ Taxonomie **není** dokončený artefakt — je **živý systém**. Klíčové o
 - [2.2 Historický kontext](@/kompendium/02-uvod/historicky-kontext.md)
 - [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
 - [2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md)
-- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md)
-- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md)
 - [Glosář: Taxonomie EA](@/glossary/taxonomie-ea.md)
 - [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)

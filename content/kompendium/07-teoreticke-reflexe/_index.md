@@ -112,7 +112,7 @@ Sekce 07 explicitně **rozpoznává** dvě teoretická rizika:
 - [Glosář: Gaslighting](@/glossary/gaslighting.md)
 - [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+- [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
 
 ## Kritický krok
 

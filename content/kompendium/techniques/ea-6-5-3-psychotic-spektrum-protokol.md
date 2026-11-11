@@ -38,8 +38,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 **Psychotic-spektrum protokol** je diferenciálně-diagnostický a krizový protokol pro klienty s psychotickými symptomy v EA-trauma kontextu — odlišení trauma-induced psychotic features, dissociative features s [reality testing](@/glossary/reality-testing.md) problémy, primary psychosis, religious cult-induced experiences.
 
-Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
-
 ## Indikace
 
 Technika je primárně indikována v následujících klinických kontextech:

@@ -256,11 +256,17 @@ async function landing(page, browser, viewport, failures) {
 }
 
 // Mobilní drawer: zavřený je inert, otevření přesune fokus dovnitř, Escape ho zavře a vrátí
-// fokus na tlačítko.
+// fokus na tlačítko. Ovládá se skutečným ťuknutím, ne jen klávesnicí: 2026-11-11 ležel
+// backdrop Flowbite Draweru (z-30) nad sidebarem (z-20) a každé ťuknutí na odkaz drawer jen
+// zavřelo, zatímco test fokusu a Escape procházel (.ai/repo/knowledge/curated/
+// mobile-drawer-stacking.md). Proto: backdrop je viditelný a leží POD sidebarem, odkazy a
+// přepínače skupin v otevřeném draweru přijímají ťuknutí (Playwright trial click hlásí
+// „intercepts pointer events“), ťuknutí na skupinu drawer nezavře a ťuknutí mimo něj ano.
 async function drawer(page, failures) {
   const state = () => page.evaluate(() => {
     const sb = document.getElementById('sidebar');
-    return { inert: sb.hasAttribute('inert'), inside: sb.contains(document.activeElement), focus: document.activeElement && document.activeElement.id };
+    const t = document.getElementById('toggleSidebarMobile');
+    return { inert: sb.hasAttribute('inert'), inside: sb.contains(document.activeElement), focus: document.activeElement && document.activeElement.id, expanded: t && t.getAttribute('aria-expanded') };
   });
   if (!(await state()).inert) failures.push('zavřený drawer není inert');
   await page.locator('#toggleSidebarMobile').click();
@@ -268,11 +274,46 @@ async function drawer(page, failures) {
   const open = await state();
   if (open.inert) failures.push('otevřený drawer zůstal inert');
   if (!open.inside) failures.push('otevření draweru nepřesune fokus dovnitř');
+  if (open.expanded !== 'true') failures.push(`otevřený drawer: tlačítko má aria-expanded="${open.expanded}"`);
+  const stack = await page.evaluate(() => {
+    const bd = document.querySelector('[drawer-backdrop]');
+    if (!bd) return null;
+    const z = (el) => parseInt(getComputedStyle(el).zIndex, 10) || 0;
+    const bg = getComputedStyle(bd).backgroundColor;
+    return { backdrop: z(bd), sidebar: z(document.getElementById('sidebar')), transparent: bg === 'rgba(0, 0, 0, 0)' || bg === 'transparent' };
+  });
+  if (!stack) failures.push('otevřený drawer nemá backdrop');
+  else {
+    if (stack.backdrop >= stack.sidebar) failures.push(`backdrop (z ${stack.backdrop}) leží nad sidebarem (z ${stack.sidebar}): ťuknutí v draweru ho jen zavře`);
+    if (stack.transparent) failures.push('backdrop draweru je průhledný (barva se nevygenerovala)');
+  }
+  const targets = page.locator('#sidebar a[href]:visible, #sidebar [data-collapse-toggle]:visible');
+  const n = Math.min(await targets.count(), 6);
+  for (let i = 0; i < n; i++) {
+    const err = await targets.nth(i).click({ trial: true, timeout: 2000 }).then(() => null, (e) => e.message.split('\n').find((l) => /intercepts|Timeout/.test(l)) || 'nedostupný');
+    if (err) { failures.push(`prvek ${i + 1} v otevřeném draweru nepřijme ťuknutí: ${err.trim()}`); break; }
+  }
+  const group = page.locator('#sidebar [data-collapse-toggle]:visible').first();
+  if (await group.count()) {
+    const before = await group.getAttribute('aria-expanded');
+    await group.click({ timeout: 2000 }).catch(() => {});
+    await page.waitForTimeout(300);
+    if ((await group.getAttribute('aria-expanded')) === before) failures.push('ťuknutí na skupinu v draweru ji nerozbalí ani nesbalí');
+    if ((await state()).inert) failures.push('ťuknutí na skupinu v draweru drawer zavřelo');
+    await group.click({ timeout: 2000 }).catch(() => {});
+  }
+  const vw = page.viewportSize();
+  await page.mouse.click(vw.width - 10, Math.round(vw.height / 2));
+  await page.waitForTimeout(500);
+  if (!(await state()).inert) failures.push('ťuknutí na backdrop drawer nezavře');
+  await page.locator('#toggleSidebarMobile').click();
+  await page.waitForTimeout(500);
   await page.keyboard.press('Escape');
   await page.waitForTimeout(500);
   const closed = await state();
   if (!closed.inert) failures.push('drawer zavřený klávesou Escape není inert');
   if (closed.focus !== 'toggleSidebarMobile') failures.push(`po zavření draweru je fokus na „${closed.focus}“, ne na tlačítku`);
+  if (closed.expanded !== 'false') failures.push(`zavřený drawer: tlačítko má aria-expanded="${closed.expanded}"`);
 }
 
 // Vyhledávání v horní liště (ARIA combobox): kód EA dá svou techniku na první místo, šipka ji

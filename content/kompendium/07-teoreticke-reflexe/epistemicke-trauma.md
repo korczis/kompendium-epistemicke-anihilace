@@ -291,7 +291,7 @@ Empirická literatura epistemického traumatu **přímo informuje** taxonomické
 - [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
 - [Glosář: Metakognice](@/glossary/metakognice.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+- [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
 
 ## Kritický krok
 

@@ -38,8 +38,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 **Externalizační fáze protokol** je druhá fáze tří-fázového modelu zaměřená na zpracování traumatických vzpomínek a externalizaci internalizovaného manipulátora/cult-self/abuser-narativu — specificky pro EA-trauma kde 'pachatel' je zinternalizován jako součást self.
 
-Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
-
 ## Indikace
 
 Technika je primárně indikována v následujících klinických kontextech:

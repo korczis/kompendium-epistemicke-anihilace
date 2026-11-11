@@ -25,7 +25,7 @@ status = "in-progress"
 total_techniques_planned = 400
 techniques_published = 363
 notation = "EA-X.Y.Z-α"
-related_articles = ["epistemic-integrity", "boundary-ethics", "intellectual-sovereignty", "epistemic-pipeline", "nabla-infinity"]
+related_articles = ["epistemic-integrity", "boundary-ethics", "intellectual-sovereignty"]
 keywords = ["epistemická anihilace", "kognitivní anihilace", "intelektuální manipulace", "epistemic security", "kognitivní biasy", "akademická manipulace", "taxonomie manipulace"]
 image = "/images/sections/kompendium.png"
 image_alt = "Kompendium epistemické a kognitivní anihilace"
@@ -170,7 +170,6 @@ Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–8 + Ph
 - **Section Bridges**: 30 můstků mezi sekcemi
 - **Recovery Protocols**: 30 strukturovaných postupů zotavení
 - **Emergency Protocols**: 40 akutních intervenčních postupů
-- **AIAD Integration**: 25 integračních článků s platformou
 - **Cross-Domain**: 30 cross-doménových aplikací (OSINT/DD/HR/legal/forenzní)
 - **Educational Scenarios**: 30 výukových scénářů pro tréninky
 - **Historical Cases**: 40 historických případových studií

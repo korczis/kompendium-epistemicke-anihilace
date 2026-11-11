@@ -38,8 +38,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 **Metacognitive therapy protokol** je Wells-ův metakognitivní model adaptovaný pro EA-trauma — fokusuje se na meta-cognitive beliefs (pozitivní i negativní o ruminaci/worry), Cognitive Attentional Syndrome (CAS) a detached mindfulness; specificky účinný u epistemických traumat (EA-5).
 
-Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
-
 ## Indikace
 
 Technika je primárně indikována v následujících klinických kontextech:

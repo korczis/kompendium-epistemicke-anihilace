@@ -144,7 +144,7 @@ mírou kontroly měla vždy „pravdu“ o významu svých slov (srov. Kripke, 1
 a Hackera, podle něhož je pravidlo zakotveno v praxi s vlastními kritérii a ne v pouhé
 většině, ponechává prostor pro kritiku praxe zevnitř i zvenčí (Baker a Hacker, 1984). Podobná otázka
 se klade u algoritmických systémů, které jazyk „užívají“ bez účasti na praxi, v níž se pravidla
-opravují; rozebírá ji kapitola [7.6 Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md).
+opravují; rozebírá ji kapitola [7.6 Computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md).
 Rozklad pravidla jako techniku popisuje karta [EA-5.4.5 Wittgensteinovský rozklad
 pravidla](@/kompendium/techniques/ea-5-4-5-wittgenstein-pravidlo-rozklad.md).
 

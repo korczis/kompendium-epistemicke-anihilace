@@ -107,4 +107,4 @@ Otevřené zůstává, jak model přenést do prostředí digitálních platfore
 
 **Praxe**
 
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md) – etický rámec epistemické integrity.
+- [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md) – etický rámec epistemické integrity.

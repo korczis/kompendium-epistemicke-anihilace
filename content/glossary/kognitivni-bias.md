@@ -9,7 +9,7 @@ tags = ["glossary", "epistemic", "cognitive", "decision", "kompendium"]
 
 [extra]
 category = "epistemic"
-related_terms = ["konfirmacni-bias", "epistemicka-anihilace", "metakognice", "taxonomie-ea", "kognitivni-anihilace", "decision-engine"]
+related_terms = ["konfirmacni-bias", "epistemicka-anihilace", "metakognice", "taxonomie-ea", "kognitivni-anihilace"]
 author = "Tomáš Korcak (korczis)"
 date_created = "2026-04-25"
 date_modified = "2026-11-10"

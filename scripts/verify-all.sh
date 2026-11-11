@@ -55,6 +55,7 @@ BASE_URL="http://127.0.0.1:$port/kompendium-epistemicke-anihilace/" \
   SITE_DIR="$root/kompendium-epistemicke-anihilace" node test/e2e/surfaces.cjs
 
 step "Přístupnost, rozvržení a odkazy (axe-core WCAG 2.2 AA, CLS, přetečení, interní odkazy)"
-BASE_URL="http://127.0.0.1:$port/kompendium-epistemicke-anihilace/" node scripts/audit-ui.cjs
+BASE_URL="http://127.0.0.1:$port/kompendium-epistemicke-anihilace/" \
+  SITE_DIR="$root/kompendium-epistemicke-anihilace" node scripts/audit-ui.cjs
 
 printf '\nverify: všechny gaty prošly\n'

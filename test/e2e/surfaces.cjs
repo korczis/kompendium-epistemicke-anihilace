@@ -57,6 +57,24 @@ const fromBase = (p) => fetch(BASE + p).then((r) => {
 const fromDir = (dir) => (p) => fs.promises.readFile(
   path.join(dir, p === '' || p.endsWith('/') ? p + 'index.html' : p), 'utf8');
 
+// Stav adresy webu (200/404). Se SITE_DIR z disku: Node fetch proti http.server v CI shazoval
+// proces (undici assert(!this.paused), běhy 42810123032 a 2842943b), kontrola odkazů úvodu
+// dělala požadavek za každý odkaz.
+const BASE_PATH = new URL(BASE).pathname;
+async function siteStatus(absUrl) {
+  if (process.env.SITE_DIR) {
+    const u = new URL(absUrl);
+    let rel = decodeURIComponent(u.pathname);
+    rel = rel.startsWith(BASE_PATH) ? rel.slice(BASE_PATH.length) : rel.replace(/^\//, '');
+    const file = path.join(process.env.SITE_DIR, rel === '' || rel.endsWith('/') ? rel + 'index.html' : rel);
+    return fs.existsSync(file) ? 200 : 404;
+  }
+  return (await fetch(absUrl)).status;
+}
+const siteJson = async (rel) => (process.env.SITE_DIR
+  ? JSON.parse(fs.readFileSync(path.join(process.env.SITE_DIR, rel), 'utf8'))
+  : (await fetch(BASE + rel)).json());
+
 async function derived(load = fromBase) {
   const g = JSON.parse(await load('data/graph.json'));
   const page = (n) => zolaPath(n.url);
@@ -156,7 +174,7 @@ function weakUrls(g) {
 // otevře; tlačítko hledání otevře paletu.
 async function landing(page, browser, viewport, failures) {
   const basePath = new URL(BASE).pathname.replace(/\/$/, '');
-  const g = await (await fetch(BASE + 'data/graph.json')).json();
+  const g = await siteJson('data/graph.json');
   const weak = weakUrls(g);
   // Karty a akce: jeden ovládací prvek, žádný vnořený, cíl existuje a není rozpracovaný.
   const cards = await page.$$eval('[data-landing-cards] > li, [data-landing-card], [data-landing-actions] > a', (els) => els.map((el) => {
@@ -178,8 +196,8 @@ async function landing(page, browser, viewport, failures) {
     if (weak.has(rel)) failures.push(`odkaz „${text}“ vede na nerozpracovanou stránku ${rel}`);
     if (seen.has(u.pathname)) continue;
     seen.add(u.pathname);
-    const r = await fetch(u.origin + u.pathname);
-    if (r.status !== 200) failures.push(`odkaz „${text}“: ${r.status} ${u.pathname}`);
+    const status = await siteStatus(u.origin + u.pathname);
+    if (status !== 200) failures.push(`odkaz „${text}“: ${status} ${u.pathname}`);
   }
   // Karusel: statický (bez automatického posunu), jeden viditelný snímek, ovládání ho mění.
   const car = page.locator('[data-landing-carousel]');

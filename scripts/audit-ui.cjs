@@ -60,7 +60,7 @@ const zolaPath = (url) => url.split('/').filter(Boolean)
   .map((s) => s + '/').join('');
 
 async function derived() {
-  const g = await (await fetch(BASE + 'data/graph.json')).json();
+  const g = await siteJson('data/graph.json');
   const deg = inDegree(g);
   const url = (n) => zolaPath(n.url);
   const pages = g.nodes.filter((n) => !/_index\.md$/.test(n.path));
@@ -143,6 +143,17 @@ const LINKS = new Map();  // adresa bez fragmentu -> stránka, kde se našla
 const LINK_FAILURES = [];
 const fail = (m) => { if (!LINK_FAILURES.includes(m)) LINK_FAILURES.push(m); };
 const BASE_PATH = new URL(BASE).pathname;
+// SITE_DIR=<sestavený web>: stav odkazů a data čte z disku. Tisíce požadavků HEAD (16 souběžně)
+// proti http.server jsou v CI riziko pádu Node (undici assert(!this.paused)); stejný soubor
+// na disku je stejný důkaz, že adresa existuje.
+function siteFile(absUrl) {
+  let rel = decodeURIComponent(new URL(absUrl).pathname);
+  rel = rel.startsWith(BASE_PATH) ? rel.slice(BASE_PATH.length) : rel.replace(/^\//, '');
+  return path.join(process.env.SITE_DIR, rel === '' || rel.endsWith('/') ? rel + 'index.html' : rel);
+}
+const siteJson = async (rel) => (process.env.SITE_DIR
+  ? JSON.parse(fs.readFileSync(path.join(process.env.SITE_DIR, rel), 'utf8'))
+  : (await fetch(BASE + rel)).json());
 
 function collect(r) {
   const origin = new URL(BASE).origin;
@@ -161,7 +172,7 @@ function collect(r) {
 }
 
 async function checkLinks() {
-  const idx = await (await fetch(BASE + 'data/search.json')).json();
+  const idx = await siteJson('data/search.json');
   const urlField = idx.fields.indexOf('url');
   idx.entries.forEach((e) => {
     const u = new URL(BASE_PATH.replace(/\/$/, '') + e[urlField], BASE).href;
@@ -171,7 +182,9 @@ async function checkLinks() {
   async function worker() {
     while (queue.length) {
       const [url, from] = queue.shift();
-      const res = await fetch(url, { method: 'HEAD' }).catch((e) => ({ status: 0, statusText: e.message }));
+      const res = process.env.SITE_DIR
+        ? { status: fs.existsSync(siteFile(url)) ? 200 : 404 }
+        : await fetch(url, { method: 'HEAD' }).catch((e) => ({ status: 0, statusText: e.message }));
       if (res.status >= 400 || res.status === 0) fail(`${res.status} ${url} (odkaz z ${from})`);
     }
   }

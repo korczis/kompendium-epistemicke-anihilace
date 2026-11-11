@@ -17,7 +17,7 @@ access_level = "L2"
 
 # 6.8 Případová studie: Doktorské vedení (anonymizovaná)
 
-> **Etická poznámka**: Tato kazuistika je **plně anonymizovaná** s úplnou modifikací identifikačních znaků. Některé prvky jsou syntézou. Publikováno se souhlasem klienta po terapeutickém uzavření a 18měsíčním odstupu. Doplňuje [případ K.](@/kompendium/06-klinicke-aplikace/pripad-akademie.md) o **distinktní strukturální vzorec** (Salami + Trojan vs. Guru/adept), aby ilustrovalo různorodost manifestací v podobném kontextu.
+> **Etická poznámka**: Tato kazuistika je **kompozit**: není záznamem o jednom klientovi a žádný konkrétní člověk v ní není popsán. Odpovídá tím standardu, který pro celý oddíl stanoví [kazuistiky](@/kompendium/case-studies/_index.md). Doplňuje [případ K.](@/kompendium/06-klinicke-aplikace/pripad-akademie.md) o **distinktní strukturální vzorec** (Salami + Trojan vs. Guru/adept), aby ilustrovalo různorodost manifestací v podobném kontextu.
 
 ## Kontext
 
@@ -25,7 +25,7 @@ M. (28 let, muž, doktorand v technicky orientovaném oboru — výpočetní lin
 
 | Pole | Hodnota |
 |------|---------|
-| **Kód případu** | M-2024-D (anonymizovaný) |
+| **Povaha případu** | kompozit, nikoli záznam o jednom klientovi |
 | **Doména** | Doktorský program, technický obor |
 | **Trvání expozice** | 4 roky (1.→4. ročník PhD) |
 | **Trvání terapie** | 14 měsíců |

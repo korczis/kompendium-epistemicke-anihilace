@@ -310,7 +310,7 @@ Reverzibilita je obvykle **vyšší než EA-3.2.G** (kognitivní dekonstrukce), 
 4. **Profesní reintegrace** (12–24 měsíců) — návrat k autonomní práci
 5. **Resilience building** (24+ měsíců) — robustní obrany vůči podobným vzorcům
 
-Cca 50–60 % případů dosahuje **plné funkční rekonstrukce**. Další 30–40 % zůstává v různé míře zranitelných. Cca 10 % vykazuje chronické trauma vyžadující dlouhodobou terapeutickou podporu.
+Část případů dosahuje plné funkční rekonstrukce, část zůstává v různé míře zranitelná a část vykazuje chronické trauma vyžadující dlouhodobou podporu. **Podíly kniha neuvádí**: dřívější verze tu měla procenta bez zdroje a žádná taková data pro tento scénář nemá.
 
 ## Související
 

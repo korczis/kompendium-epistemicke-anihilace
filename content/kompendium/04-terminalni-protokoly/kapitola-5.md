@@ -103,7 +103,7 @@ Během aktivní expozice (simulativní nebo terapeutické) musí být zaveden mu
 | **Verbální** | Strukturované check-in, lingvistická analýza | 5–15 min intervaly |
 | **Kognitivní** | Krátké kognitivní probes (working memory, attention) | 30–60 min intervaly |
 | **Emocionální** | [Self-report](@/glossary/self-report.md) VAS, observer rating | 15–30 min intervaly |
-| **Disociativní** | DES-mini, observer rating | 30 min intervaly + on-demand |
+| **Disociativní** | validovaná krátká forma DES (DES-T, DES-B), observer rating | podle protokolu pracoviště |
 
 ### Trigger criteria pro intervenci
 
@@ -111,16 +111,16 @@ Real-time systém musí mít **explicitně specifikovaná** trigger criteria pro
 
 **Level 1 — Enhanced monitoring** (zvýšená pozornost, ale expozice pokračuje):
 
-- HRV pokles > 20% baseline
-- Subjektivní stres VAS > 8/10 přetrvávající > 5 min
+- měřitelný pokles variability srdeční frekvence proti výchozí hodnotě
+- přetrvávající vysoký subjektivní stres
 - Mírná dezorientace
 - Verbalizace hraniční [disociace](@/glossary/disociace.md)
 
 **Level 2 — Pause and assess** (pauza, klinické zhodnocení):
 
-- HR > 90% maximum predicted age-adjusted
-- Subjektivní stres VAS = 10/10 přetrvávající > 2 min
-- Středně silná disociativní symptomatologie (DES > 30)
+- výrazné zvýšení srdeční frekvence
+- subjektivní stres na horní hranici škály
+- středně silná disociativní symptomatologie
 - Verbalizace suicidální ideace bez plánu
 - Silná autonomní dysregulace
 

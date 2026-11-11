@@ -56,7 +56,7 @@ Edukativní cíl není **změna chování** v behaviorálním smyslu, ale **kult
 
 ## Předpoklady
 
-Dokončený předmět z metodologie kvalitativního výzkumu; baseline metakognitivní stabilita ověřená MAAS-I; podepsaný [informovaný souhlas](@/glossary/informed-consent.md) L1.
+Dokončený předmět z metodologie kvalitativního výzkumu; baseline metakognitivní stabilita ověřená MAAS; podepsaný [informovaný souhlas](@/glossary/informed-consent.md) L1.
 
 Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale **strukturální podmínky** efektivity intervence.
 
@@ -76,7 +76,7 @@ Implementace je **iterativní** — každý cyklus generuje data informující �
 
 | Kritérium | Měřítko |
 |-----------|---------|
-| Kohortní rezilience | MAAS-I post >= MAAS-I pre |
+| Kohortní rezilience | MAAS post >= MAAS pre |
 | Distribuce reakcí | <10 % v zóně signalizace stresu |
 | Konceptuální retence | >80 % na delayed post-test (2 týdny) |
 | [Self-report](@/glossary/self-report.md) integrace | Kvalitativní reflektivní eseje

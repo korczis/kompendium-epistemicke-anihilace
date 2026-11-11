@@ -21,82 +21,177 @@ image_alt = "Gish Gallop – glosář"
 
 ## Definice
 
-**Gish Gallop** (česky volně *Gishův cval*) je rétorický vzorec, při němž mluvčí přednese rychlý sled slabých, fakticky sporných nebo technicky zavádějících argumentů – tolik, že je v dostupném čase nelze zodpovědět – a zneužívá tak nepoměr mezi cenou **tvrzení** a cenou **vyvrácení**. Termín zavedla antropoložka Eugenie Scottová s odkazem na kreacionistu Duana Gishe, jehož styl v debatách spočíval v tom, že do úvodního vystoupení vměstnal desítky argumentů proti evoluci, které žádný oponent nemohl v časovém limitu formátu soustavně vyvrátit.
+**Gish Gallop** (volně *Gishův cval*) je pojmenování pro vzorec, v němž mluvčí přednese rychlý
+sled slabých, fakticky sporných nebo technicky zavádějících tvrzení v takovém počtu, že je
+v dostupném čase nelze jednotlivě vyvrátit. Jméno není termínem argumentační teorie: zavedla
+je antropoložka Eugenie C. Scottová, dlouholetá ředitelka americké organizace sledující výuku
+evoluce, s odkazem na debatní styl kreacionisty Duana Gishe, jenž do úvodního vystoupení
+vměstnal desítky námitek proti evoluci (Scott, 2004). Z prostředí skeptické obce se nálepka
+rozšířila do obecné publicistiky; v odborné literatuře o argumentaci se pod tímto jménem
+nevyskytuje.
 
-Technika využívá specifickou epistemologickou asymetrii, dnes známou jako **Brandoliniho zákon** (*bullshit asymmetry principle*): „energie potřebná k vyvrácení nesmyslu je o řád větší než energie potřebná k jeho vytvoření.“ Tvrzení typu „druhý termodynamický zákon vyvrací evoluci“ potřebuje k vyslovení jednu větu a k řádnému vyvrácení pečlivý desetiminutový výklad. Naskládejte dvacet takových tvrzení do pětiminutového úvodu a vyvrácení se stane strukturálně nemožným – každé jednotlivé nevyvrácené tvrzení pak publikum vnímá jako „nezodpovězené“, a proto předběžně platné.
-
-Účinnost techniky nezávisí na přesvědčení oponenta, ale na **účinku na publikum**: třetí strany bez odborných znalostí zaměňují nevyvrácená tvrzení za věrohodná. Gish Gallop je proto v jádru útokem **epistemického znečištění**, ne nástrojem rozvažování.
+Samotný manévr však popsán je, a to na třech místech. Jako porušení pravidel kritické rozpravy,
+protože účastník znemožňuje druhé straně obhájit stanovisko (van Eemeren a Grootendorst, 2004);
+jako nesprávné zacházení s důkazním břemenem, neboť nevyvrácené tvrzení se počítá ve prospěch
+toho, kdo je vyslovil (Walton, 2014); a jako využití toho, že se posuzovaná síla pozice odvíjí
+od počtu argumentů, ne od jejich kvality (Petty a Cacioppo, 1984).
 
 ## Původ a kontext pojmu
 
-Pojem vznikl v 90. letech v prostředí amerických debat o výuce evoluce a rozšířil se do obecné teorie argumentace a do diskusí o online komunikaci. Brandoliniho zákon zformuloval italský programátor Alberto Brandolini v roce 2013. Příbuzné jevy popisuje teorie argumentačních klamů; v Kompendiu navazuje na [Toulminův model](@/glossary/toulmin-model.md), který ukazuje, z čeho se poctivý argument skládá, a tím i co v cvalu chybí.
+Pojem vznikl v devadesátých letech v americkém sporu o výuku evoluce. Scottová popisuje, že
+formát veřejné debaty je pro odborníka nevýhodný právě proto, že klade stejnou cenu na
+vyslovení i na doložení tvrzení, a doporučuje jej nahradit formáty, které dovolují tvrzení
+jednotlivě projít (Scott, 2004). Toto doporučení je starší než samotná nálepka a týká se
+formátu, ne osoby.
+
+S pojmem se často uvádí „Brandoliniho zákon“, podle něhož je energie potřebná k vyvrácení
+nesmyslu řádově větší než energie potřebná k jeho vytvoření. Jde o aforismus, který roku 2013
+zveřejnil italský programátor Alberto Brandolini; není to zákon ani měřený poznatek, a kniha
+jej uvádí jako výstižnou formulaci, ne jako doklad (*interpretace knihy*). Měřitelně je
+nákladová asymetrie podchycena jinde, totiž v literatuře o setrvalém vlivu dezinformace, podle
+níž oprava nepravdivého tvrzení jeho účinek zpravidla nesmaže úplně (Lewandowsky a kol., 2012).
+
+Pojmové zázemí pro to, co ve cvalu chybí, dává Toulminova analýza argumentu. Toulmin rozložil
+argument na tvrzení, data, oprávnění a podmínky, za nichž platí, a ukázal, že bez oprávnění
+není vztah mezi daty a tvrzením vůbec posouditelný (Toulmin, 1958); kniha ji vede v hesle
+[Toulminův model](@/glossary/toulmin-model.md).
 
 ## Jak se projevuje
 
-- vysoká **hustota tvrzení** na minutu nebo na odstavec;
-- tvrzení jsou **různorodá** (statistika, citát, anekdota, „všichni vědí“), takže je nelze vyvrátit jedním protiargumentem;
-- mluvčí se **nevrací** k žádnému tvrzení, které bylo vyvráceno, a přechází k dalším;
-- po vyvrácení jednoho bodu následuje „a co ostatních devatenáct?“;
-- formát nedovoluje písemnou odpověď ani čas na ověření.
+Prvním znakem je hustota tvrzení, tedy jejich počet na minutu nebo na odstavec, při současné
+absenci dokladů u kteréhokoli z nich (Walton, 2014). Druhým je různorodost: statistika, citát,
+anekdota a odkaz na obecné mínění se střídají, takže je nelze vyvrátit jedním protiargumentem
+(van Eemeren a Grootendorst, 2004).
 
-Gish Gallop je **závislý na formátu**: funguje v časově omezené ústní debatě, ve vláknech odpovědí na sociálních sítích a v televizních panelových diskusích. Selhává v písemné výměně, kde mají oponenti čas, v dlouhých podcastech a ve formátech *adversarial collaboration*, kde musí být každé tvrzení jednotlivě potvrzeno nebo odmítnuto.
+Třetím znakem je zacházení s vyvrácenými body. Mluvčí se k vyvrácenému tvrzení nevrací
+a pokračuje dalšími, případně se dotáže, co je s ostatními; tím se z každého nevyvráceného
+tvrzení stává předběžně platné, ačkoli nebylo nikdy doloženo (Walton, 2014). Čtvrtým znakem je
+závislost na formátu: vzorec funguje v časově omezené ústní rozpravě, ve vláknech odpovědí
+a v televizních panelech, kdežto v písemné výměně, v dlouhém rozhovoru nebo ve formátu, kde
+se každé tvrzení potvrzuje zvlášť, selhává (Scott, 2004).
+
+Účinnost nezávisí na přesvědčení oponenta, nýbrž na účinku na publikum. Petty a Cacioppo
+ukázali, že při nízké osobní zainteresovanosti posuzují lidé sílu pozice podle počtu
+argumentů, zatímco při vysoké zainteresovanosti rozhoduje jejich kvalita (Petty a Cacioppo,
+1984). Opakování navíc zvyšuje subjektivní věrohodnost tvrzení, a to i u tvrzení, o nichž
+člověk ví, že jsou sporná (Hasher a kol., 1977; Fazio a kol., 2015).
 
 ## Mechanismus
 
-V [Kompendiu](@/kompendium/_index.md) je Gish Gallop zařazen pod **EA-1.1.2** (delegitimizace zdroje ve spojení se zneužitím kognitivního přetížení) – viz [EA-1.1.2](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) a [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md). Je rétorickou obdobou [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md), která působí v měřítku populace.
+Strukturně jde o přesun důkazního břemene. Kdo tvrdí, má dokládat; ve cvalu se povinnost
+obrací a nezodpovězené tvrzení se počítá ve prospěch mluvčího, přičemž počet tvrzení zaručuje,
+že nezodpovězených bude vždy dost (Walton, 2014). Druhou složkou je záměna objemu za sílu,
+doložená v literatuře o přesvědčování (Petty a Cacioppo, 1984).
 
-Strukturálně jde o **přesun důkazního břemene**. Kdo tvrdí, má dokládat; v cvalu se povinnost obrací – oponent musí vyvracet a každé nevyvrácené tvrzení se počítá ve prospěch mluvčího. Druhou složkou je **zaměnění objemu za sílu**: publikum odhaduje sílu pozice podle množství argumentů, ne podle jejich kvality. Třetí složkou je **vyčerpání**: kdo se pokusí odpovědět na vše, působí zdlouhavě a defenzivně.
+Třetí složkou je vyčerpání. Kdo se pokusí odpovědět na vše, působí zdlouhavě a defenzivně,
+a jeho odpověď se navíc rozptýlí do detailů, které si publikum nezapamatuje; Lewandowsky
+a kol. upozorňují, že opakování nepravdivého tvrzení v rámci jeho opravy může jeho dostupnost
+v paměti dokonce podpořit, pokud korekce nenabídne náhradní vysvětlení (Lewandowsky a kol.,
+2012).
+
+Čtvrtou složkou je vztah k pravdivosti. *Interpretace knihy*: cílem není přesvědčit o jedné
+verzi, nýbrž zanechat dojem nerozhodnutelnosti, a proto je vzorec blíž znečištění než
+usuzování; setrvalý vliv tvrzení i po jeho opravě tento účinek podporuje (Lewandowsky a kol.,
+2012). Kniha jej vede u techniky [informačního
+přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) a na úrovni populace
+jako [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md).
 
 ## Odlišení
 
-- **Od bohaté argumentace:** i poctivý odborník může mít mnoho argumentů; rozdíl je v tom, že je dokáže jednotlivě doložit a přijme vyvrácení kteréhokoli z nich.
-- **Od [sealioningu](@/glossary/sealioning.md):** sealioning zahlcuje *otázkami* a požadavky na doklady; cval zahlcuje *tvrzeními*.
-- **Od [motte and bailey](@/glossary/motte-and-bailey.md):** tam se střídají dvě verze jednoho tvrzení; v cvalu jde o množství různých tvrzení.
-- **Od [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md):** stejný princip asymetrie, jiné měřítko – jednotlivá debata versus informační prostředí.
+Od bohaté argumentace se cval liší ochotou nést břemeno: i poctivý odborník může mít mnoho
+argumentů, dokáže je však jednotlivě doložit a přijme vyvrácení kteréhokoli z nich (van Eemeren
+a Grootendorst, 2004). Od [sealioningu](@/glossary/sealioning.md) se liší směrem zátěže:
+sealioning zahlcuje otázkami a požadavky na doklady, cval tvrzeními.
+
+Od [motte and bailey](@/glossary/motte-and-bailey.md) se liší počtem pozic: tam se střídají
+dvě verze jednoho tvrzení, zde jde o množství různých tvrzení (Walton, 2014). Od [Firehose of
+Falsehood](@/glossary/firehose-of-falsehood.md) se liší měřítkem – jednotlivá rozprava proti
+celému informačnímu prostředí –, nikoli principem.
+
+Od oprávněného výčtu námitek nelze cval odlišit podle jedné výměny; rozhoduje, zda mluvčí
+nabídne doklad, když je o něj požádán, a zda vyvrácené tvrzení opustí (Scott, 2004). Nálepku
+samu lze totiž uplatnit na kohokoli, kdo má více námitek, a stává se tak nástrojem
+[delegitimizace](@/glossary/delegitimizace.md) (*interpretace knihy*).
 
 ## Význam pro Kompendium
 
-Na platformě Prismatic, z níž kniha vzešla:
+Pro knihu je cval příkladem útoku, který nemíří na obsah, ale na kapacitu. Rozpoznání vzorce
+je proto předpokladem každého uspořádání, které zpracovává nepřátelský vstup: bez něj lze
+obranu vyčerpat pouhým objemem, aniž by kdokoli musel tvrdit něco doložitelného (*interpretace
+knihy*); nezodpovězené tvrzení přitom samo o sobě není dokladem (Walton, 2014). Zařazení do taxonomie vede heslo [taxonomie EA](@/glossary/taxonomie-ea.md), širší
+oborový rámec heslo [Epistemic Security](@/glossary/epistemic-security.md).
 
-- [Decision Engine](@/glossary/decision-engine.md) zavádí odolnost vůči cvalu **účetnictvím tvrzení po jednom**: každé vstupní tvrzení se zaregistruje, vyhodnotí a buď potvrdí, nebo označí jako otevřené; nevyhodnocená tvrzení se nestávají předběžně pravdivými jen proto, že jich je mnoho a nikdo je nevyvrátil.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) vyžaduje u tvrzení výslovné značky falzifikovatelnosti – vstup typu Gish Gallop má charakteristicky vysokou hustotu tvrzení a nízkou falzifikovatelnost jednotlivých tvrzení, což pipeline snižuje na váze.
-- Výcvik [Red Team](@/glossary/red-team.md) v rámci [Color Teams](@/glossary/color-teams.md) zahrnuje scénáře, v nichž musí [Blue Team](@/glossary/blue-team.md) rozlišit produktivní zapojení od pasti formátu.
-- Širší kontext dávají hesla [Info-Ops](@/glossary/info-ops.md), [Epistemic Security](@/glossary/epistemic-security.md) a [Delegitimizace](@/glossary/delegitimizace.md).
-
-Rozpoznání cvalu je **předpokladem** každého systému, který zpracovává nepřátelský vstup – bez něj lze obranné systémy vyčerpat pouhým objemem. Pro čtenáře knihy má pojem i osobní rozměr: stejný vzorec se objevuje v hádkách v kontrolujících vztazích, kde jedna strana zahlcuje výčtem výtek, a v akademickém prostředí, kde se kritika odbude záplavou citací ([EA-2.1.1 Expertní disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md)).
+Osobní rozměr pojmu je stejně podstatný jako veřejný. Týž vzorec se objevuje v hádkách
+v kontrolujících vztazích, kde jedna strana předloží dlouhý výčet výtek, k nimž se nelze
+jednotlivě vyjádřit, a v akademickém prostředí, kde se kritika odbyde záplavou citací;
+druhý případ kniha vede jako [expertní
+disinflaci](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md). V obou je rozhodující
+pozorovatelný znak stejný: tvrzení se nedokládají a vyvrácená se neopouštějí (Walton, 2014).
 
 ## Obrana a zotavení
 
-Obrany uváděné v literatuře:
+Literatura nabízí čtyři obrany, které se netýkají obsahu, nýbrž uspořádání rozpravy. První je
+nevstupovat do vyvracení bod po bodu, protože právě to je forma, kterou vzorec potřebuje
+(Scott, 2004). Druhou je pojmenovat vzorec před publikem, tedy přesunout pozornost od
+jednotlivých tvrzení k tomu, že se nedokládají; v pragmaticko-dialektickém rámci jde o námitku
+proti porušení pravidla rozpravy, ne o útok na osobu (van Eemeren a Grootendorst, 2004).
 
-1. **odmítnout hru** – nevstupovat do vyvracení bod po bodu;
-2. **pojmenovat techniku** (*meta-naming*) – upozornit publikum, že jde o vzorec, ne o argumentaci;
-3. **vybrat jedno prokazatelně nepravdivé tvrzení** a důkladně je vyvrátit jako reprezentativní vzorek;
-4. **změnit formát** – požádat o písemné podklady, o jednotlivé zodpovězení, o čas.
+Třetí obranou je vybrat jedno prokazatelně nepravdivé tvrzení a vyvrátit je důkladně jako
+reprezentativní vzorek, s náhradním vysvětlením, protože korekce bez náhrady působí slabě
+(Lewandowsky a kol., 2012). Čtvrtou je změna formátu: požádat o písemné podklady, o čas na
+ověření nebo o uspořádání, v němž se každé tvrzení potvrzuje zvlášť (Scott, 2004).
 
-Literatura zmiňuje i „cval nazpět“ (*galloping back*) – protiútok vlastní hustou sadou argumentů. Kompendium jej nedoporučuje: přispívá ke stejnému znečištění, které technika působí.
+Odpověď stejnými prostředky, tedy vlastní hustou sadou argumentů, kniha nedoporučuje: přispívá
+k témuž znečištění, které vzorec působí, a ponechává nedotčený jeho mechanismus, totiž
+obrácené důkazní břemeno (Walton, 2014). Pro jednotlivce je použitelné [řízení kognitivní
+zátěže](@/kompendium/self-defense-guides/10-cognitive-load-management.md) a [ověřování
+tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md); pro instituce uspořádání
+porad, které vyžaduje doložení každého tvrzení ([struktura
+porad](@/kompendium/organizational-defense/22-meeting-structure.md)).
 
-Pro jednotlivce platí i [řízení kognitivní zátěže](@/kompendium/self-defense-guides/10-cognitive-load-management.md) a [ověřování tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md); pro moderátory debat a instituce struktura, která vyžaduje doložení každého tvrzení ([struktura porad](@/kompendium/organizational-defense/22-meeting-structure.md)).
+## Meze a kritika pojmu
+
+První mezí je nepřesnost nálepky. Vznikla v polemické praxi, nemá definici s rozlišovacími
+znaky a lze ji uplatnit na kohokoli, kdo má mnoho námitek; odborné rámce proto pracují
+s porušením konkrétního pravidla rozpravy nebo s nesprávným zacházením s břemenem, ne
+s označením osoby (van Eemeren a Grootendorst, 2004).
+
+Druhou mezí je chybějící měření. O účinku tohoto konkrétního vzorce neexistují samostatná
+data; dostupné doklady se týkají obecnějších jevů, totiž vlivu počtu argumentů na posuzovanou
+sílu pozice (Petty a Cacioppo, 1984) a vlivu opakování na věrohodnost (Fazio a kol., 2015).
+Třetí mezí je nepozorovatelnost záměru: rychlý výčet námitek může pocházet od člověka, který
+je skutečně považuje za silné, a rozlišit lze jen podle toho, zda doklady předloží, když je
+o ně požádán (Walton, 2014).
 
 ## Literatura
 
-- Eugenie C. Scott: *Evolution vs. Creationism: An Introduction* (2004).
+- Fazio, L. K., Brashier, N. M., Payne, B. K., & Marsh, E. J. (2015). *Knowledge does not protect against illusory truth*. Journal of Experimental Psychology: General.
+- Hasher, L., Goldstein, D., & Toppino, T. (1977). *Frequency and the conference of referential validity*. Journal of Verbal Learning and Verbal Behavior.
+- Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012). *Misinformation and its correction: Continued influence and successful debiasing*. Psychological Science in the Public Interest.
+- Petty, R. E., & Cacioppo, J. T. (1984). *The effects of involvement on responses to argument quantity and quality*. Journal of Personality and Social Psychology.
+- Scott, E. C. (2004). *Evolution vs. Creationism: An Introduction*. Greenwood Press.
+- Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge University Press.
+- van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge University Press.
+- Walton, D. (2014). *Burden of Proof, Presumption and Argumentation*. Cambridge University Press.
 
 ## Související
 
 **Pojmy**
 
-- [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) – příbuzný jev v měřítku populace.
-- [Info-Ops](@/glossary/info-ops.md) – širší operační kategorie.
-- [Epistemic Security](@/glossary/epistemic-security.md) – rámec na úrovni oboru.
+- [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) – tentýž princip v měřítku populace.
 - [Sealioning](@/glossary/sealioning.md) – zahlcení otázkami místo tvrzení.
-- [Delegitimizace](@/glossary/delegitimizace.md) – sousední rodina technik.
-- [Taxonomie EA](@/glossary/taxonomie-ea.md) – katalog včetně EA-1.1.2.
+- [Motte and Bailey](@/glossary/motte-and-bailey.md) – střídání dvou verzí jednoho tvrzení.
+- [Toulminův model](@/glossary/toulmin-model.md) – z čeho se skládá poctivý argument.
+- [Info-Ops](@/glossary/info-ops.md) – širší operační kategorie.
+- [Epistemic Security](@/glossary/epistemic-security.md) – oborový rámec.
+- [Delegitimizace](@/glossary/delegitimizace.md) – riziko účelového použití nálepky.
 
 **Kniha**
 
 - [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) – technika, pod kterou je cval zařazen.
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) – katalog zařazení.
 - [Ověřování tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) – obrana jednotlivce.
+- [Struktura porad](@/kompendium/organizational-defense/22-meeting-structure.md) – institucionální obrana.
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – ústřední pojem Kompendia.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->

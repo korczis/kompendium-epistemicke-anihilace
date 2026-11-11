@@ -132,6 +132,7 @@ keys = [
   { where = "extra", key = "tier", type = "str", classes = "glossary" },
   { where = "extra", key = "academic_paper", type = "bool", classes = "section" },
   { where = "extra", key = "acronyms", type = "list", classes = "glossary" },
+  { where = "extra", key = "aliases", type = "list", classes = "glossary" },
   { where = "extra", key = "agent_count", type = "int", classes = "glossary" },
   { where = "extra", key = "beam_related", type = "bool", classes = "glossary" },
   { where = "extra", key = "complexity_level", type = "str", classes = "glossary" },

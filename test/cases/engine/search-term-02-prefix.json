@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 390,
+        "in": 380,
         "kind": "Pojem",
         "path": "glossary/nabla-infinity.md",
         "tier": 4,
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "NAB",
     "schema": "kompendium-engine/v1",
-    "total": 60
+    "total": 61
   },
   "input": {
     "op": "search",

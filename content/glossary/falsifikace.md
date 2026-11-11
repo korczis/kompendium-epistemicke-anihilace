@@ -2,7 +2,7 @@
 title = "Falsifikace"
 weight = 60
 
-description = "Popperovo demarkační kritérium: teorie je vědecky obsažná, jen když předem říká, co by ji vyvrátilo. Útočná plocha techniky EA-1.3.1 imunizace proti falzifikaci."
+description = "Popperovo kritérium: teorie je obsažná jen tehdy, když předem říká, co by ji vyvrátilo. Logika, kritika kritéria, klinické odlišení a využití v knize."
 
 [taxonomies]
 tags = ["glossary", "epistemic", "philosophy", "science", "kompendium"]
@@ -21,77 +21,181 @@ image_alt = "Falsifikace – glosář"
 
 ## Definice
 
-**Falsifikace** (*falsification*; související vlastnost teorie se nazývá [falsifikovatelnost](@/glossary/falsifikovatelnost.md), *falsifiability*) je kritérium vědecké demarkace, které zavedl Karl Popper v *Logik der Forschung* (1934) a rozvinul v *The Logic of Scientific Discovery*: teorie je vědecky smysluplná jen tehdy, když **předem určuje, jaká pozorování by ji vyvrátila**. Tvrzení, které se nemůže v ničem mýlit, není silně pravdivé – je **obsahově prázdné**.
+**Falsifikace** (*falsification*) je vyvrácení tvrzení pozorováním, které s ním není
+slučitelné; odpovídající vlastnost teorie se nazývá
+[falsifikovatelnost](@/glossary/falsifikovatelnost.md). Kritérium zavedl Karl Popper v *Logice
+vědeckého zkoumání*: teorie je empiricky obsažná jen tehdy, když předem určuje, jaká pozorování
+by ji vyvrátila (Popper, 1934). Tvrzení, které se nemůže v ničem mýlit, není proto silně
+pravdivé, nýbrž obsahově prázdné.
 
-Popperova asymetrie plyne z elementární logiky: žádný konečný počet potvrzujících pozorování nemůže deduktivně dokázat univerzální tvrzení, ale jediný skutečný protipříklad je může vyvrátit. Věda proto postupuje **domněnkami a vyvráceními**, ne hromaděním potvrzení.
+Logický základ je asymetrie mezi potvrzením a vyvrácením: žádný konečný počet potvrzujících
+případů nedokazuje univerzální tvrzení, zatímco jediný skutečný protipříklad je vyvrací
+(Popper, 1934). Věda proto podle tohoto výkladu postupuje domněnkami a jejich vyvracením, a ne
+hromaděním potvrzení (Popper, 1963).
 
-V [Kompendiu epistemické a kognitivní anihilace](@/kompendium/_index.md) se falsifikace chápe jako **základní strukturní obrana** proti manipulaci poháněné [konfirmačním biasem](@/glossary/konfirmacni-bias.md) a její absence jako diagnostický znak.
+Popper zároveň odlišil falsifikovatelnost jako logickou vlastnost tvrzení od falsifikace jako
+rozhodnutí vědců považovat teorii za vyvrácenou; druhá vždy zahrnuje úsudek o tom, zda je
+protipříklad dostatečně spolehlivý (Popper, 1934). Kniha z kritéria činí základní strukturní
+obranu proti manipulaci poháněné [konfirmačním biasem](@/glossary/konfirmacni-bias.md) –
+*interpretace knihy*, opřená o Popperovu tezi, že neomylné tvrzení nic neříká (Popper, 1963).
 
 ## Původ a kontext pojmu
 
-Popper formuloval kritérium v polemice s logickým pozitivismem Vídeňského kroužku, který hledal kritérium smysluplnosti v ověřitelnosti. Zároveň mířil na teorie, které považoval za pseudovědecké, protože dokázaly vysvětlit jakýkoli výsledek. Pozdější filozofie vědy kritérium zjemnila: [Lakatos](@/glossary/lakatos-vyzkumny-program.md) je přenesl z jednotlivých hypotéz na výzkumné programy, Kuhn ukázal, jak vědecká praxe pracuje s anomáliemi uvnitř paradigmatu ([Kuhnova revoluce](@/glossary/kuhnova-revoluce.md)). Kompendium vykládá Poppera v [EA-7.2.3 Popper: falzifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md) a v kapitole [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md).
+Popper formuloval kritérium v polemice s logickým pozitivismem Vídeňského kroužku, který hledal
+kritérium smysluplnosti v ověřitelnosti; jeho vlastní otázka nebyla, co je smysluplné, ale co
+je empirické (Popper, 1934). Zároveň mířil na teorie, které podle něj dokázaly vysvětlit
+jakýkoli výsledek, a proto nepodstupovaly žádné riziko (Popper, 1963).
+
+Pozdější filozofie vědy kritérium podstatně zjemnila. Kuhn ukázal, že vědecká praxe anomálie
+nevyvracením neodstraňuje, ale po většinu času je zpracovává uvnitř paradigmatu (Kuhn, 1962);
+heslo [Kuhnova revoluce](@/glossary/kuhnova-revoluce.md) tuto linii rozvádí. Lakatos přenesl
+hodnocení z jednotlivých hypotéz na výzkumné programy a nabídl kritérium, které rozlišuje
+progresivní a degenerativní posun (Lakatos, 1970); viz [Lakatosův výzkumný
+program](@/glossary/lakatos-vyzkumny-program.md).
+
+Kniha vykládá Poppera v kartě [EA-7.2.3 Popper:
+falzifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md) a v kapitole
+[Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md).
 
 ## Jak se projevuje
 
-Ztrátu falzifikační dispozice lze pozorovat v řeči i v jednání:
+Ztrátu falzifikační dispozice lze pozorovat v řeči. Prvním znakem je přerámování protidůkazu
+na další potvrzení („tají to, protože je to pravda“); druhým je proměna chybějícího důkazu
+v důkaz („samozřejmě že nic nenajdeš, tak mocní jsou“); třetím je předběžná [delegitimizace](@/glossary/delegitimizace.md)
+každého vyvracejícího zdroje. Všechny tři odpovídají tomu, co Popper označil za postupy, jimiž
+se teorie zachraňuje za cenu ztráty obsahu (Popper, 1963).
 
-- **protidůkaz se automaticky přerámuje jako další potvrzení** („tají to, protože je to pravda“);
-- **chybějící důkaz se stává potvrzujícím** („samozřejmě že důkaz nenajdeš, tak mocní jsou“);
-- **každý vyvracející zdroj je předem delegitimizován** („to říkají jen ti, kdo jsou součástí systému“);
-- na otázku „co by tě přesvědčilo o opaku?“ člověk nedokáže odpovědět, nebo odpověď označí za útok;
-- lingvistická signatura [nevyvratitelných tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md).
+Čtvrtým znakem je, že na otázku „co by tě přesvědčilo o opaku?“ člověk nedokáže odpovědět,
+nebo otázku samu označí za útok; právě schopnost odpovědět je podle Popperova kritéria
+známkou, že tvrzení něco říká (Popper, 1934). Jazykovou stránku zachycuje signatura
+[nevyvratitelných
+tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md).
 
 ## Mechanismus
 
-Technika Kompendia, která na tuto obranu útočí nejpříměji, je **EA-1.3.1 imunizace proti falzifikaci**, popsaná v [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) (anglická verze: [Immunization against falsification](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)). EA-1.3.1 vštěpuje myšlenkové kroky, které činí soustavu přesvědčení v praxi nefalzifikovatelnou – právě tři vzorce uvedené výše.
+Diagnostickým principem je zachování struktury tváří v tvář protidůkazu: soustava přesvědčení,
+která se bez ohledu na vstup vrací do stejného stavu, nepodstupuje žádné riziko, a proto
+o světě nic netvrdí (Popper, 1934). To platí nezávisle na tom, zda jsou výchozí tvrzení
+pravdivá; i pravdivé tvrzení držené v nevyvratitelné podobě ukazuje na porušený [epistemický
+proces](@/glossary/epistemic-pipeline.md) – *interpretace knihy*, opřená o Popperovo oddělení
+obsahu od pravdivosti (Popper, 1963).
 
-Diagnostickým principem je **zachování identity tváří v tvář protidůkazu**: soustava přesvědčení, která se bez ohledu na vstup vrací do stejné struktury, nefunguje epistemicky. To platí nezávisle na tom, zda jsou výchozí tvrzení pravdivá – i pravdivá tvrzení, zastávaná v nefalzifikovatelné podobě, ukazují na narušený [epistemický proces](@/glossary/epistemic-pipeline.md).
+Falsifikace má přitom známé meze, které jsou pro praxi stejně důležité jako kritérium samo.
+Duhem upozornil, že fyzikální hypotéza se nikdy netestuje izolovaně, protože každý test
+zahrnuje pomocné předpoklady (Duhem, 1906), a Quine tuto tezi zobecnil na celou soustavu
+přesvědčení, v níž lze revizi provést na mnoha místech (Quine, 1951). Vyvrácena je tedy vždy
+konjunkce hypotézy a pomocných předpokladů; souvislost rozebírají heslo
+[holismus](@/glossary/holismus.md) a karta [Quine: síť
+přesvědčení](@/kompendium/techniques/ea-7-2-7-quine-web-belief.md).
 
-Falsifikace má známé meze. Quineův-Duhemův [holismus](@/glossary/holismus.md) ukazuje, že žádná hypotéza se netestuje izolovaně: vyvrácena je vždy konjunkce hypotézy a pomocných předpokladů ([Quine: síť přesvědčení](@/kompendium/techniques/ea-7-2-7-quine-web-belief.md)). Kompendium proto rozlišuje **principiální zpřesnění pomocných hypotéz** (legitimní, obsah zvyšující) od **ad hoc záchrany** (nelegitimní, obsah snižující). Zevnitř vypadají obě jako „záchrana teorie“; epistemicky obhajitelná je jen jedna. Úplné rozlišení podává [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md).
+Z Duhemovy a Quineovy teze plyne praktický rozdíl, který kniha považuje za klíčový: zpřesnění
+pomocné hypotézy, jež zvyšuje empirický obsah programu, je legitimní, zatímco úprava, která
+obsah jen zachraňuje, je ad hoc. Zevnitř vypadají oba kroky stejně; kritérium jejich rozlišení
+podává teorie výzkumných programů (Lakatos, 1970).
 
 ## Odlišení
 
-- **Od skepticismu:** falsifikace neznamená pochybovat o všem, ale říct, za jakých podmínek bych změnil názor.
-- **Od [pseudovědy](@/glossary/pseudoscience.md):** nefalzifikovatelnost je jedním z jejích znaků, ne jediným.
-- **Od zdravé vytrvalosti:** držet se teorie navzdory jednotlivé anomálii může být rozumné; nerozumné je, když teorie *nemůže* narazit na žádnou anomálii.
-- **Od klinických stavů:** bludné přesvědčení je rovněž odolné vůči protidůkazu, ale vzniká jinak; [diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) zkoumá, zda imunizace vznikla v sociálním prostředí, které ji pěstovalo.
+Od skepticismu se falzifikační postoj liší tím, že nežádá pochybnost o všem, ale předběžné
+určení podmínek, za nichž by člověk změnil názor (Popper, 1963).
+
+Od [pseudovědy](@/glossary/pseudoscience.md) nelze falsifikovatelností hranici vést sama;
+nevyvratitelnost je jedním ze znaků, ne definicí, a Laudan dokonce argumentoval, že úloha
+demarkace je ve své klasické podobě neřešitelná (Laudan, 1983).
+
+Od rozumné vytrvalosti se nerozumné držení teorie liší tím, že vytrvalost navzdory jednotlivé
+anomálii může program posouvat dopředu, kdežto teorie, která na žádnou anomálii narazit
+*nemůže*, se vyvíjet nemá jak (Lakatos, 1970).
+
+Od klinických stavů je třeba odlišit zvlášť pečlivě: blud je přesvědčení udržované navzdory
+protidůkazu, ale vzniká jinak než sociálně pěstovaná imunizace, a diagnostická kritéria je
+popisují samostatně (APA, 2022). Postup rozlišení popisuje kapitola [diferenciální
+diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
+
+## Kritika kritéria
+
+Kritérium je dnes v původní podobě odmítáno ve třech bodech. Zaprvé jej oslabuje Duhemova
+a Quineova teze: protože se testuje konjunkce, lze vyvrácení vždy nasměrovat na pomocný
+předpoklad (Duhem, 1906; Quine, 1951). Zadruhé Kuhn doložil, že praxe vědy se Popperovu obrazu
+nepodobá, protože anomálie jsou po většinu času zpracovávány uvnitř paradigmatu, a ne brány
+jako vyvrácení (Kuhn, 1962).
+
+Zatřetí Popperovo kritérium nevysvětluje, proč bychom měli dávat přednost teorii, která zatím
+vyvrácena nebyla, pokud korroborace není druhem potvrzení; na tuto nesrovnalost upozornil
+Putnam, podle něhož se o teorie v praxi opíráme při předpovědích, a to vyžaduje víc než
+nevyvrácenost (Putnam, 1974). Mayo proto Popperovu intuici přeformulovala jako požadavek
+*přísného testu*: na teorii se lze opřít do té míry, do jaké prošla testem, který by ji
+pravděpodobně odhalil, kdyby byla nesprávná (Mayo, 1996).
+
+Kniha z těchto výhrad nevyvozuje, že by kritérium bylo bezcenné, ale že je nástrojem rozboru,
+a ne rozhodovacím pravidlem: otázka „co by to vyvrátilo?“ zůstává užitečná i tam, kde
+demarkace neobstojí – *interpretace knihy*, v souladu s tím, že Mayo nahrazuje demarkaci
+posouzením přísnosti testu (Mayo, 1996).
 
 ## Význam pro Kompendium
 
-Na platformě Prismatic, z níž kniha vzešla, je falsifikace převedena do **povinného vstupu rozhodovacího jádra**:
+Vzorec, který na tuto obranu útočí nejpříměji, vede kniha jako [EA-1.3.1 Imunizaci proti
+falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md): jde o vštípení
+myšlenkových kroků, které soustavu přesvědčení v praxi zbavují falzifikovatelnosti, tedy
+o kroky odpovídající Popperovu popisu záchrany teorie za cenu obsahu (Popper, 1963).
 
-- [Decision Engine](@/glossary/decision-engine.md) vyžaduje, aby každé tvrzení s vysokou jistotou bylo spárováno s výslovnou **falzifikační klauzulí** – pozorováním nebo důkazem, který by jistotu snížil. Přesvědčení bez falzifikační klauzule se v kalibračním hodnocení automaticky snižuje, bez ohledu na počet podpůrných zdrojů.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) sleduje **registraci predikcí**: tvrzení o jistotě musí být učiněna před pozorováním výsledku, ne po něm. Racionalizace ex post je strukturně vyloučena, protože záznam predikce je neměnný.
-- [Red Team](@/glossary/red-team.md) v rámci [Color Teams](@/glossary/color-teams.md) staví scénáře, které ověřují, zda lze usuzování platformy **imunizovat** proti protidůkazu – tedy zda požadavek falzifikační klauzule není jen kosmetický.
-- Kontrast s [Lakatosovými výzkumnými programy](@/glossary/lakatos-vyzkumny-program.md) je provozní: legitimní zavedení pomocné hypotézy empirický obsah programu *zvyšuje* (progresivní posun); imunizace EA-1.3.1 jej *snižuje* (degenerativní posun). Decision Engine toto rozlišení sleduje hodnocením změny obsahu.
+Na platformě, z níž kniha vzešla, je kritérium převedeno do povinného vstupu: [Decision
+Engine](@/glossary/decision-engine.md) vyžaduje u tvrzení s vysokou jistotou výslovnou
+falzifikační klauzuli, tedy pozorování, které by jistotu snížilo, a bez takové klauzule jistotu
+automaticky snižuje. [NABLA Infinity](@/glossary/nabla-infinity.md) k tomu vede registraci
+předpovědí před pozorováním výsledku, takže racionalizaci po události brání neměnný záznam.
+Obojí je *interpretace knihy* přenášející do postupu Popperův požadavek předem určeného
+vyvrácení (Popper, 1934), doplněný Mayové kritériem přísnosti testu (Mayo, 1996).
+
+Cvičení [Red Teamu](@/glossary/red-team.md) v rámci [Color Teams](@/glossary/color-teams.md)
+mají ověřit, zda lze usuzování platformy proti protidůkazu imunizovat, tedy zda není požadavek
+falzifikační klauzule jen formální. Rozdíl mezi progresivním a degenerativním posunem se
+přitom sleduje změnou empirického obsahu (Lakatos, 1970).
 
 ## Obrana a zotavení
 
-Obranou je **falzifikační myšlení** jako návyk: u každého důležitého přesvědčení si zapsat, co by je oslabilo, a pravidelně to zkoumat. Postup popisuje [falzifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md), výuku [návrh falzifikace](@/kompendium/educational-scenarios/6-falsification-design.md). V terapii s lidmi po odchodu z uzavřených skupin se nezačíná vyvracením obsahu, ale obnovou schopnosti klást otázku „podle čeho bych poznal, že se mýlím?“ – nejdřív u neutrálních témat, teprve potom u přesvědčení skupiny.
+Obranou je falzifikační myšlení jako návyk: u každého důležitého přesvědčení si předem zapsat,
+co by je oslabilo, a toto zapsané kritérium pravidelně zkoumat (Popper, 1963). Postup popisuje
+[falzifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) a výuku
+[návrh falzifikace](@/kompendium/educational-scenarios/6-falsification-design.md).
+
+V práci s lidmi po odchodu z uzavřených skupin se nezačíná vyvracením obsahu, ale obnovou
+schopnosti klást otázku, podle čeho by člověk poznal, že se mýlí – nejprve u neutrálních témat,
+teprve potom u přesvědčení skupiny. Důvodem je, že schopnost takovou otázku zodpovědět je
+podmínkou obsažnosti tvrzení (Popper, 1934), nikoli souhlasu s jeho popřením.
 
 ## Literatura
 
-- Karl R. Popper: *Logik der Forschung* (1934); angl. *The Logic of Scientific Discovery* (1959).
-- Karl R. Popper: *Conjectures and Refutations* (1963).
-- Imre Lakatos, Alan Musgrave (eds.): *Criticism and the Growth of Knowledge* (1970).
+- APA (2022). *Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR)*. American Psychiatric Association.
+- Duhem, P. (1906). *La théorie physique: son objet et sa structure*. Chevalier & Rivière.
+- Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
+- Lakatos, I. (1970). *Falsification and the methodology of scientific research programmes*. In: Criticism and the Growth of Knowledge. Cambridge University Press.
+- Laudan, L. (1983). *The demise of the demarcation problem*. In: Physics, Philosophy and Psychoanalysis. Reidel.
+- Mayo, D. G. (1996). *Error and the Growth of Experimental Knowledge*. University of Chicago Press.
+- Popper, K. R. (1934). *Logik der Forschung*. Springer. (Angl. *The Logic of Scientific Discovery*, 1959.)
+- Popper, K. R. (1963). *Conjectures and Refutations*. Routledge.
+- Putnam, H. (1974). *The „corroboration“ of theories*. In: The Philosophy of Karl Popper. Open Court.
+- Quine, W. V. O. (1951). *Two dogmas of empiricism*. The Philosophical Review.
 
 ## Související
 
 **Pojmy**
 
-- [Falsifikovatelnost](@/glossary/falsifikovatelnost.md) – vlastnost teorie, kterou falsifikace prověřuje.
-- [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) – rozlišuje legitimní pomocné kroky od degenerativní záchrany.
-- [Konfirmační bias](@/glossary/konfirmacni-bias.md) – zkreslení, proti němuž falsifikace působí.
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – nadřazený model hrozby.
-- [Taxonomie EA](@/glossary/taxonomie-ea.md) – zejména EA-1.3.1 imunizace.
+- [Falsifikovatelnost](@/glossary/falsifikovatelnost.md) – vlastnost teorie, kterou kritérium prověřuje.
+- [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) – progresivní a degenerativní posun.
+- [Kuhnova revoluce](@/glossary/kuhnova-revoluce.md) – paradigma a anomálie.
+- [Holismus](@/glossary/holismus.md) – Duhemova a Quineova teze o testování soustavy.
+- [Konfirmační bias](@/glossary/konfirmacni-bias.md) – zkreslení, proti němuž kritérium působí.
+- [Pseudoscience](@/glossary/pseudoscience.md) – kde demarkace naráží.
+- [Epistemic pipeline](@/glossary/epistemic-pipeline.md) – epistemický proces platformy.
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) – zařazení vzorce EA-1.3.1.
 - [Hermeneutika](@/glossary/hermeneutika.md) – legitimní alternativní výkladový rámec.
-- [Fenomenologie](@/glossary/fenomenologie.md) – metodický doplněk z první osoby.
 
 **Kniha**
 
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – technika, která falsifikaci vyřazuje.
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – vzorec, který kritérium vyřazuje.
+- [EA-7.2.3 Popper: falzifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md) – referenční karta.
 - [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) – kapitola základních kategorií.
-- [Kompendium](@/kompendium/_index.md) – úplná taxonomie.
+- [Falzifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) – obranný průvodce.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

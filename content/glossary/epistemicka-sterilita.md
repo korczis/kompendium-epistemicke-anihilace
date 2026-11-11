@@ -8,6 +8,7 @@ description = "Vlastní pojem knihy z původní taxonomie (2025): ztráta schopn
 tags = ["glossary", "kompendium", "epistemic", "science"]
 
 [extra]
+aliases = ["Absolutní epistemická sterilita"]
 category = "epistemic"
 related_terms = ["epistemicka-nekroza", "epistemicka-hyperinflace", "kognitivni-stagnace", "normalni-veda", "epistemicka-anihilace", "epistemicka-fragmentace"]
 author = "Tomáš Korcak (korczis)"

@@ -21,142 +21,188 @@ image_alt = "Replikační krize (replication crisis) – glosář"
 
 ## Definice
 
-**Replikační krize** (*replication crisis*) je empiricky doložené systémové selhání
-publikovaných výzkumných nálezů – v psychologii, biomedicíně, ekonomii a dalších oborech –,
-které se při opakování podle stejných protokolů nepodaří zopakovat. Určujícím empirickým
-milníkem byla studie Open Science Collaboration „Estimating the reproducibility of
-psychological science“ (*Science* 349, č. 6251, 2015), která se pokusila zopakovat 100 studií
-ze tří předních psychologických časopisů. Podle zvoleného kritéria se původní efekt podařilo
-reprodukovat jen ve 36–47 % případů a průměrné velikosti efektů byly zhruba poloviční oproti
-originálům.
+**Replikační krize** (*replication crisis*, též krize reprodukovatelnosti) je empiricky
+doložené zjištění, že značná část publikovaných výzkumných nálezů se při opakování podle
+stejných protokolů nepotvrdí. Určujícím milníkem byl koordinovaný pokus zopakovat sto studií
+ze tří předních psychologických časopisů, v němž se podle zvoleného kritéria původní efekt
+podařilo reprodukovat ve 36 až 47 procentech případů a průměrné velikosti efektů byly zhruba
+poloviční proti originálům (Open Science Collaboration, 2015).
 
-Krize se neomezuje na psychologii. Navazující práce doložily podobná nebo horší selhání
-v biologii nádorů (C. Glenn Begley a Lee M. Ellis, 2012: ve firmě Amgen se podařilo
-reprodukovat asi 11 % – 6 z 53 – přelomových preklinických výsledků), v ekonomii (Colin
-Camerer a kol., 2016: přibližně 61 % laboratorních experimentů z předních časopisů) a jinde.
-Metavýzkum ukazuje na strukturní příčiny: **publikační zkreslení** (pozitivní výsledky se
-publikují, negativní končí v šuplíku), **p-hacking** (využívání analytické volnosti, dokud
-p neklesne pod 0,05), **HARKing** (formulování hypotéz až po známých výsledcích), nízkou
-statistickou sílu a chybějící předregistraci.
+Krize se neomezuje na psychologii. V preklinické onkologii se v jedné farmaceutické
+laboratoři podařilo reprodukovat šest z padesáti tří přelomových výsledků (Begley a Ellis,
+2012); v experimentální ekonomii se potvrdilo přibližně jednašedesát procent laboratorních
+experimentů z předních časopisů (Camerer a kol., 2016). Pojem tedy neoznačuje jednotlivé
+pochybení, nýbrž vlastnost systému, který nálezy vybírá a publikuje (Ioannidis, 2005).
 
 ## Původ a kontext pojmu
 
-Varování předcházela samotné krizi – vlivný byl zejména článek Johna P. A. Ioannidise „Why
-Most Published Research Findings Are False“ (2005) a pojem HARKing, který zavedl Norbert Kerr
-(1998). Kolem roku 2011–2012 přibyly v sociální psychologii neúspěšné replikace známých efektů
-a kauzy zfalšovaných dat, které debatu urychlily. Krize vyvolala program metodologických
-reforem: předregistrace, registrované zprávy (*registered reports*), replikační konsorcia více
-laboratoří, otevřená data, transparentní analytické postupy a výslovné uvádění velikostí efektů
-s intervaly spolehlivosti místo dichotomické „signifikance“.
+Varování předcházela samotné krizi. Rosenthal pojmenoval problém šuplíku, tedy skutečnost, že
+studie s nulovým výsledkem se nepublikují, takže publikovaná literatura je zkreslenou částí
+provedeného výzkumu (Rosenthal, 1979). Kerr popsal formulování hypotéz až po známých
+výsledcích a ukázal, že tento postup vytváří teorie, které nemají žádnou předpovědní hodnotu,
+ač se jako předpovědi prezentují (Kerr, 1998). Ioannidis z předpokladů o síle studií
+a o podílu pravdivých hypotéz v daném oboru dovodil, že u mnoha výzkumných polí je
+pravděpodobnost pravdivosti publikovaného pozitivního nálezu nižší než jedna polovina
+(Ioannidis, 2005).
+
+Rozhodující krok k pochopení příčin přinesla analýza analytické volnosti. Simmons a kol.
+ukázali, že nepříliš nápadná rozhodnutí při zpracování dat – kdy sběr ukončit, které
+proměnné zahrnout, které účastníky vyřadit – stačí k tomu, aby podíl falešně pozitivních
+výsledků výrazně překročil nominální hladinu, aniž by autor musel cokoli zamlčet (Simmons
+a kol., 2011). Gelman a Loken k tomu dodali, že tento jev nevyžaduje úmysl ani opakované
+zkoušení: stačí, že by výzkumník při jiných datech zvolil jinou analýzu (Gelman a Loken,
+2014).
+
+Druhou příčinou je nízká statistická síla. Button a kol. doložili, že typická velikost vzorku
+v neurovědních studiích vede k síle, při níž se skutečné efekty často nenajdou a nalezené
+efekty jsou nadhodnocené (Button a kol., 2013). Třetí příčinou jsou pobídky: tlak na
+publikační výstup souvisí s vyšším podílem pozitivních výsledků v dané zemi i v daném oboru
+(Fanelli, 2010).
+
+Krize vyvolala program reforem. Patří k nim předregistrace, registrované zprávy, u nichž
+časopis rozhoduje o přijetí podle protokolu ještě před sběrem dat (Chambers, 2013),
+replikační konsorcia více laboratoří (Klein a kol., 2014), požadavky na otevřená data
+a analytické postupy (Nosek a kol., 2015) a souhrnně formulovaný program reprodukovatelné
+vědy (Munafò a kol., 2017).
 
 ## Jak se projevuje
 
-- jediná působivá studie se cituje jako „vědecky dokázáno“;
-- efekt se při opakování zmenšuje nebo mizí;
-- populární knihy a kurzy stavějí na výsledcích, které se nepodařilo zopakovat;
-- argument „je to recenzované“ nahrazuje otázku po velikosti vzorku, předregistraci
-  a replikacích;
-- naopak cynická reakce: „věda je stejně jen názor“.
+Pro čtenáře mimo akademii se krize projevuje nejprve na způsobu, jak se výsledky citují.
+Jediná působivá studie se uvádí jako „vědecky dokázáno“, efekt se při opakování zmenšuje nebo
+mizí a populární knihy i kurzy stavějí na nálezech, které se zopakovat nepodařilo (Open
+Science Collaboration, 2015). Druhým znakem je nahrazení otázky po síle dokladu odkazem na
+formu: argument „je to recenzované“ zastoupí otázku po velikosti vzorku, předregistraci
+a replikacích (Munafò a kol., 2017).
+
+Třetím, zrcadlovým znakem je cynická reakce, podle níž je „věda jen názor“. Tento závěr
+z dat neplyne: nižší podíl replikovaných nálezů znamená, že jediná studie unese menší posun
+důvěry, ne že nelze vědět nic (Ioannidis, 2005). Právě tento rozdíl bývá v praxi zneužíván
+(*interpretace knihy*).
 
 ## Mechanismus
 
-Epistemický důsledek pro poznávání mimo akademii je rozhodující, ale neintuitivní: **status
-recenzované publikace sám o sobě není dostatečnou zárukou** pro přijetí tvrzení. Neznamená to
-nihilismus – recenzovaná publikace zůstává *lepší* zárukou než žádná recenze. Znamená to však,
-že kalibraci je třeba upravit: jediná pozitivní publikovaná studie nemá vést k tak velkému
-posunu důvěry, jaký by vyvodil naivní čtenář.
+Strukturně jde o selekci. Publikovaná literatura není vzorkem provedeného výzkumu, nýbrž
+vzorkem výsledků, které prošly filtrem novosti a statistické významnosti; filtr přitom
+nadhodnocuje právě ty efekty, které jsou slabé a nejisté (Rosenthal, 1979). Výsledkem je
+soustava, v níž se jednotlivé články chovají správně podle pravidel oboru, a přesto souhrn
+systematicky zkresluje (Ioannidis, 2005).
 
-Pro práci s [epistemickou anihilací](@/glossary/epistemicka-anihilace.md) je krize důležitá,
-protože **publikovaný výzkum je sám vektorem**: nálezy s nízkou mírou replikace lze v technikách
-EA citovat jako rozhodující důkaz a využít asymetrii mezi společenskou autoritou
-„recenzovaného“ a skutečnou důkazní spolehlivostí (srov. [EA-2.1.1 Expertní
-disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) a [pseudovědu](@/glossary/pseudoscience.md)).
+Druhou složkou je nepoměr mezi silou dokladu a jeho společenským signálem. Status recenzované
+publikace je silný signál, jenž je přitom na jednotlivé studii téměř nezávislý na
+replikovatelnosti oboru i na síle konkrétního designu (Button a kol., 2013). *Interpretace
+knihy*: tím se publikovaný výzkum stává přenosným nástrojem autority – nálezy s nízkou mírou
+replikace lze předložit jako rozhodující doklad a opřít o ně nárok, který by vlastními silami
+neobstál. Kniha tento vzorec vede u [expertní
+disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) a u
+[pseudovědy](@/glossary/pseudoscience.md).
+
+Třetí složkou je kalibrace. Z replikační literatury neplyne jednotný opravný koeficient, ale
+plyne z ní, že očekávaná velikost efektu je nižší než publikovaná a že obor, design
+a předregistrace jsou pro posouzení podstatnější než prestiž časopisu (Open Science
+Collaboration, 2015). Postupy, jimiž kniha tento rozdíl zpracovává, popisuje stránka
+[epistemická kalibrace](@/kompendium/detection-signatures/epistemicka-kalibrace.md).
 
 ## Odlišení
 
-- **Od podvodu ve vědě** – většina nereplikovaných nálezů není podvod, ale důsledek nízké
-  statistické síly, flexibility analýzy a publikačních pobídek.
-- **Od popírání vědy** – replikační krize je sebeoprava vědy jejími vlastními metodami; kdo ji
-  používá jako důkaz, že „vědě nelze věřit vůbec“, dělá opačnou chybu než naivní čtenář.
-- **Od přirozené nejistoty** – i dobře provedená studie může náhodou dát falešně pozitivní
-  výsledek; problémem je systém, který takové výsledky selektivně zesiluje.
-- **Od [falzifikace](@/glossary/falsifikace.md)** – neúspěšná replikace sama o sobě původní
-  hypotézu nevyvrací; ukazuje, že důkaz pro ni byl slabší, než se zdálo.
+Od podvodu ve vědě je nutné krizi odlišit zřetelně. Většina nereplikovaných nálezů není
+výsledkem falšování, nýbrž nízké síly, analytické volnosti a publikačních pobídek, které
+působí i u bezúhonných autorů (Simmons a kol., 2011). Případy falšování dat existují a mají
+vlastní režim, ale vysvětlují jen malou část problému (Fanelli, 2010).
+
+Od popírání vědy se liší směrem, odkud zjištění přišlo: replikační krize byla popsána
+a vyčíslena vědeckými metodami a vedla ke změně postupů, takže ji nelze použít jako doklad
+toho, že vědě nelze věřit (Nosek a kol., 2015). Od přirozené nejistoty se liší tím, že
+jednotlivý falešně pozitivní výsledek je očekávanou vlastností statistického usuzování, kdežto
+krize popisuje systém, který takové výsledky selektivně zesiluje (Rosenthal, 1979).
+
+Od [falsifikace](@/glossary/falsifikace.md) se liší důkazní váhou: neúspěšná replikace
+původní hypotézu sama nevyvrací, ukazuje však, že doklad pro ni byl slabší, než se zdálo, a že
+rozhodnout lze až souborem replikací (Klein a kol., 2014).
 
 ## Význam pro Kompendium
 
-V Prismatic Platform literatura o replikační krizi přímo vstupuje do kalibračního modelu
-[Decision Engine](@/glossary/decision-engine.md). Posuny důvěry na základě publikovaného výzkumu
-se škálují podle **apriorní třídy replikovatelnosti** oboru, z něhož zdroj pochází: jediná
-studie z oboru s nízkou replikovatelností (např. psychologie sociálního primingu) vyvolá menší
-posun důvěry než jediná studie z oboru s vysokou replikovatelností (např. randomizované
-kontrolované studie léčiv s potvrzením ve více centrech), i když obě vyšly ve stejně prestižních
-časopisech. Popis této implementace je na stránce [epistemická
-kalibrace](@/kompendium/detection-signatures/epistemicka-kalibrace.md).
+Pro knihu má krize dvojí význam. Prvním je vodítko pro práci s doklady: posun důvěry na
+základě jediné publikované studie má být menší v oborech s doloženě nízkou replikovatelností
+a větší tam, kde je nález potvrzen více pracovišti a předregistrovanými protokoly (Klein
+a kol., 2014). Rámec, jímž kniha kvalitu zdrojů váží, vedou hesla [NABLA
+Infinity](@/glossary/nabla-infinity.md) a [Epistemic
+Pipeline](@/glossary/epistemic-pipeline.md).
 
-Pipeline [NABLA Infinity](@/glossary/nabla-infinity.md) podporuje značení kvality zdrojů, v němž
-se „recenzovaná publikace“ rozkládá na apriorní replikovatelnost oboru, stav předregistrace,
-velikost vzorku a historii replikací konkrétního výsledku. Vzniká tak kalibrace věrná skutečné
-důkazní struktuře, ne společenskému signálu.
-
-Krize se týká i Kompendia samého: kniha se opírá o empirickou literaturu o traumatu,
-manipulaci a kultech, jejíž část má malé vzorky a málo replikací. Na to upozorňuje kritická
-kapitola [Reprodukční krize a EA výzkum](@/kompendium/critical-perspectives/7-replication-EA-research.md).
+Druhým významem je sebeomezení. Kniha se opírá o empirickou literaturu o traumatu,
+manipulaci a skupinách s vysokou kontrolou, jejíž část má malé vzorky, obtížně replikovatelné
+designy a chybějící předregistraci (Munafò a kol., 2017). Dopad na samotnou taxonomii rozebírá
+kritická kapitola [Reprodukční krize a EA
+výzkum](@/kompendium/critical-perspectives/7-replication-EA-research.md); postoj, který z toho
+plyne, vede heslo [epistemická pokora](@/glossary/epistemicka-pokora.md).
 
 ## Obrana a zotavení
 
-- **Pro čtenáře a klienty**: ptát se, kolik studií tvrzení podporuje, jak velké byly vzorky, zda
-  byla studie předregistrovaná a zda ji někdo nezávisle zopakoval; rozlišovat „jedna studie
-  ukázala“ od „výzkum opakovaně ukazuje“.
-- **Pro profesionály**: u doporučení klientům preferovat metody s replikovanou oporou
-  a komunikovat nejistotu otevřeně (srov. [epistemická pokora](@/glossary/epistemicka-pokora.md)
-  a [evidence-based](@/glossary/evidence-based.md)).
-- **V zotavení**: zotavovací práce v oddílu [rekonstruktivních
-  protokolů](@/kompendium/recovery-protocols/_index.md) se výslovně věnuje lidem, jejichž
-  epistemické poškození bylo zprostředkováno citacemi výzkumu s nízkou replikovatelností –
-  například když manipulativní kouč nebo skupina opírala své nároky o „vědecky prokázané“
-  efekty. Pomáhá společně dohledat původní zdroje a jejich status bez zesměšňování.
+Pro čtenáře a klienty je použitelným nástrojem několik otázek, jimiž lze posoudit sílu
+dokladu bez odborné přípravy: kolik studií tvrzení podporuje, jak velké byly vzorky, zda byla
+studie předregistrována a zda ji nezávisle zopakoval někdo jiný (Munafò a kol., 2017). Rozdíl
+mezi formulací „jedna studie ukázala“ a „výzkum opakovaně ukazuje“ je přitom větší než rozdíl
+mezi časopisy (Open Science Collaboration, 2015); nácvik vede návod [hodnocení
+důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md).
+
+Pro profesionály z krize plyne přednost metod s replikovanou oporou a povinnost komunikovat
+nejistotu otevřeně, protože zamlčená nejistota se později stává argumentem proti celému oboru
+(Nosek a kol., 2015). Pro zotavení je podstatné, že část lidí byla poškozena právě citacemi
+výzkumu: skupina nebo kouč opírali nárok o „vědecky prokázané“ efekty, které se nepotvrdily.
+Společné dohledání původních zdrojů a jejich dnešního stavu je v takovém případě účinnější než
+zesměšnění dřívější důvěry (*interpretace knihy*); zařazení do fází obnovy vedou
+[rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md).
+
+## Meze a kritika pojmu
+
+Samotná interpretace replikačních projektů je předmětem odborné rozpravy. Gilbert a kol.
+namítli, že replikace v největším psychologickém projektu se v části případů metodicky
+odchylovaly od originálů a že při zohlednění výběru studií a chyby měření je odhad podílu
+nereplikovaných nálezů příliš pesimistický (Gilbert a kol., 2016); autoři projektu tuto
+námitku odmítli a rozprava o správné metrice úspěšné replikace pokračuje (Open Science
+Collaboration, 2015).
+
+Druhou mezí je přenositelnost. Podíl úspěšných replikací se mezi obory a mezi typy designu
+výrazně liší, takže jediné číslo pro „vědu“ neexistuje a jeho citování je samo nepřesností
+(Camerer a kol., 2016). Třetí mezí je účelové použití: výsledky replikačních projektů se dají
+předložit jako doklad bezcennosti celého oboru, a takové použití je v rozporu s tím, co z nich
+plyne (Ioannidis, 2005).
 
 ## Literatura
 
-- Open Science Collaboration: „Estimating the reproducibility of psychological science“,
-  *Science* 349 (6251), 2015.
-- John P. A. Ioannidis: „Why Most Published Research Findings Are False“, *PLoS Medicine*, 2005.
-- C. Glenn Begley, Lee M. Ellis: „Raise standards for preclinical cancer research“, *Nature*,
-  2012.
-- Colin F. Camerer a kol.: „Evaluating replicability of laboratory experiments in economics“,
-  *Science*, 2016.
-- Norbert L. Kerr: „HARKing: Hypothesizing After the Results are Known“, *Personality and
-  Social Psychology Review*, 1998.
+- Begley, C. G., & Ellis, L. M. (2012). *Raise standards for preclinical cancer research*. Nature.
+- Button, K. S., et al. (2013). *Power failure: Why small sample size undermines the reliability of neuroscience*. Nature Reviews Neuroscience.
+- Camerer, C. F., et al. (2016). *Evaluating replicability of laboratory experiments in economics*. Science.
+- Chambers, C. D. (2013). *Registered reports: A new publishing initiative at Cortex*. Cortex.
+- Fanelli, D. (2010). *Do pressures to publish increase scientists' bias? An empirical support from US States data*. PLoS ONE.
+- Gelman, A., & Loken, E. (2014). *The statistical crisis in science*. American Scientist.
+- Gilbert, D. T., King, G., Pettigrew, S., & Wilson, T. D. (2016). *Comment on „Estimating the reproducibility of psychological science“*. Science.
+- Ioannidis, J. P. A. (2005). *Why most published research findings are false*. PLoS Medicine.
+- Kerr, N. L. (1998). *HARKing: Hypothesizing after the results are known*. Personality and Social Psychology Review.
+- Klein, R. A., et al. (2014). *Investigating variation in replicability: A „many labs“ replication project*. Social Psychology.
+- Munafò, M. R., et al. (2017). *A manifesto for reproducible science*. Nature Human Behaviour.
+- Nosek, B. A., et al. (2015). *Promoting an open research culture*. Science.
+- Open Science Collaboration (2015). *Estimating the reproducibility of psychological science*. Science.
+- Rosenthal, R. (1979). *The file drawer problem and tolerance for null results*. Psychological Bulletin.
+- Simmons, J. P., Nelson, L. D., & Simonsohn, U. (2011). *False-positive psychology: Undisclosed flexibility in data collection and analysis allows presenting anything as significant*. Psychological Science.
 
 ## Související
 
 **Pojmy**
 
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – rámec hrozeb.
-- [Epistemická pokora](@/glossary/epistemicka-pokora.md) – oprávněná pokora vůči selhání
-  replikací.
-- [Kompendium EA](@/glossary/kompendium-ea.md) – úplná taxonomická reference.
+- [Epistemická pokora](@/glossary/epistemicka-pokora.md) – postoj úměrný stavu dokladů.
+- [Pseudověda](@/glossary/pseudoscience.md) – kde slabý doklad přechází v nauku bez samoopravy.
+- [Falsifikace](@/glossary/falsifikace.md) – vztah neúspěšné replikace k vyvrácení.
+- [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) – hodnocení programu podle přírůstku obsahu.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – vážení kvality zdrojů.
 - [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – epistemická architektura platformy.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) – engine kalibrace podle kvality zdrojů.
-- [Pseudoscience](@/glossary/pseudoscience.md) – kde slabé důkazy přecházejí v pseudovědu.
-- [Epistemic Confidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-confidence/) –
-  kalibrační rámec platformy (mimo tuto knihu).
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – rámec hrozeb.
 
 **Kniha**
 
-- [Reprodukční krize a EA výzkum](@/kompendium/critical-perspectives/7-replication-EA-research.md) –
-  dopad krize na samotnou taxonomii.
-- [Kompendium](@/kompendium/_index.md) – celá česká taxonomie.
-
----
-
-## Autor a zapojení
-
-**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Reprodukční krize a EA výzkum](@/kompendium/critical-perspectives/7-replication-EA-research.md) – dopad na samotnou taxonomii.
+- [Epistemická kalibrace](@/kompendium/detection-signatures/epistemicka-kalibrace.md) – posuzování síly dokladu.
+- [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) – nácvik pro jednotlivce.
+- [Kompendium EA](@/glossary/kompendium-ea.md) – úplná taxonomická reference.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

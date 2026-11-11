@@ -7,6 +7,7 @@ description = "Návrat k vývojově jednodušším způsobům poznávání – �
 tags = ["glossary", "kompendium", "psychology", "epistemic", "cognitive"]
 
 [extra]
+aliases = ["Absolutní kognitivní retrogeneze"]
 category = "epistemic"
 related_terms = ["kognitivni-stagnace", "epistemicka-staze", "asymptoticky-kolaps", "kognitivni-zplosteni", "metakognice", "epistemicka-agentnost"]
 author = "Tomas Korcak (korczis)"

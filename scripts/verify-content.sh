@@ -88,6 +88,14 @@ fi
 if [ -f scripts/build-readme.py ]; then
   step "build-readme --check"     python3 scripts/build-readme.py --check
 fi
+# The section graphics and their og:image PNGs are derived from the pages, so a content wave makes
+# them stale. Only the check runs here: the generator writes binary PNGs this export cannot carry
+# back, so a stale graphic is reported and the author runs scripts/render-graphics.sh in the
+# worktree. Until this step existed the staleness was first seen in CI (run 42924486450, red on a
+# tree this script had just passed).
+if [ -f scripts/render-graphics.py ]; then
+  step "render-graphics --check"  python3 scripts/render-graphics.py --check
+fi
 step "zola build"                 zola build --force -o "$work/.out"
 # The catalogue of interactive surfaces reads the built site (dev-31's and 2e's gate in CI).
 if [ "$fix" = --fix ]; then

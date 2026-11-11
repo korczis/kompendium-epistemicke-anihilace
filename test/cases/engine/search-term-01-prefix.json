@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 604,
+        "in": 606,
         "kind": "Pojem",
         "path": "glossary/epistemicka-anihilace.md",
         "tier": 4,
@@ -15,7 +15,7 @@
       },
       {
         "code": null,
-        "in": 176,
+        "in": 181,
         "kind": "Pojem",
         "path": "glossary/epistemicke-trauma.md",
         "tier": 4,
@@ -35,6 +35,16 @@
       },
       {
         "code": null,
+        "in": 130,
+        "kind": "Pojem",
+        "path": "glossary/epistemicka-injustice.md",
+        "tier": 4,
+        "title": "Epistemická injustice",
+        "url": "/glossary/epistemicka-injustice/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
         "in": 129,
         "kind": "Filozofie",
         "path": "philosophy/epistemic-integrity.md",
@@ -45,17 +55,7 @@
       },
       {
         "code": null,
-        "in": 128,
-        "kind": "Pojem",
-        "path": "glossary/epistemicka-injustice.md",
-        "tier": 4,
-        "title": "Epistemická injustice",
-        "url": "/glossary/epistemicka-injustice/",
-        "why": "title_prefix"
-      },
-      {
-        "code": null,
-        "in": 98,
+        "in": 102,
         "kind": "Pojem",
         "path": "glossary/epistemicka-alienace.md",
         "tier": 4,
@@ -65,7 +65,7 @@
       },
       {
         "code": null,
-        "in": 76,
+        "in": 78,
         "kind": "Pojem",
         "path": "glossary/epistemic-bubble.md",
         "tier": 4,
@@ -75,7 +75,7 @@
       },
       {
         "code": null,
-        "in": 65,
+        "in": 66,
         "kind": "Pojem",
         "path": "glossary/epistemicka-pokora.md",
         "tier": 4,
@@ -85,7 +85,7 @@
       },
       {
         "code": null,
-        "in": 56,
+        "in": 57,
         "kind": "Pojem",
         "path": "glossary/epistemicka-monokultura.md",
         "tier": 4,
@@ -95,7 +95,7 @@
       },
       {
         "code": null,
-        "in": 44,
+        "in": 43,
         "kind": "Pojem",
         "path": "glossary/epistemic-pipeline.md",
         "tier": 4,
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "Epi",
     "schema": "kompendium-engine/v1",
-    "total": 407
+    "total": 408
   },
   "input": {
     "op": "search",

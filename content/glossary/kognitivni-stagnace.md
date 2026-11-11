@@ -7,6 +7,7 @@ description = "Kognitivní stagnace: dlouhodobé zastavení revize přesvědčen
 tags = ["glossary", "kompendium", "psychology", "cognitive"]
 
 [extra]
+aliases = ["Absolutní kognitivní anti-revizibilita"]
 category = "psychology"
 related_terms = ["epistemicka-staze", "epistemicka-monokultura", "epistemic-bubble", "konfirmacni-bias", "metakognitivni-deficit", "kognitivni-zplosteni"]
 author = "Tomas Korcak (korczis)"

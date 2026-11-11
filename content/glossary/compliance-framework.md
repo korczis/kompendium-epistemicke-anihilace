@@ -1,7 +1,7 @@
 +++
 title = "Compliance Framework (rámec souladu)"
 weight = 59
-description = "Strukturovaný soubor regulatorních požadavků a kontrolních opatření, které musí organizace splnit (GDPR, NIS2, ISO 27001…); na platformě základ posouzení souladu."
+description = "Strukturovaný soubor regulatorních požadavků a kontrolních opatření, které musí organizace splnit (GDPR, NIS2, ISO 27001); a jeho stinná stránka, soulad na papíře."
 
 [taxonomies]
 tags = ["glossary", "security", "compliance", "prismatic", "legal"]
@@ -13,365 +13,200 @@ author = "Tomas Korcak (korczis)"
 date_modified = "2026-11-10"
 +++
 
-## Definice a přehled
+## Definice
 
-**Rámec souladu** (*compliance framework*) je strukturovaný soubor pokynů, předpisů
-a kontrolních opatření, které musí organizace zavést, aby splnila zákonné, regulatorní nebo
-oborové požadavky. Rámce určují, jaká bezpečnostní opatření jsou potřeba, jak je zavést a jak
-se soulad posuzuje. K běžným rámcům patří GDPR (ochrana osobních údajů), NIS2 (bezpečnost sítí
-a informací), ISO 27001 (řízení bezpečnosti informací), SOC 2 (kontroly servisních
-organizací) a PCI DSS (odvětví platebních karet).
+**Compliance framework**, česky rámec souladu, je strukturovaný soubor požadavků, pravidel
+a kontrolních opatření, která musí organizace zavést a doložit, aby splnila zákonnou,
+regulatorní nebo smluvní povinnost. Rámec převádí obecně formulovaný cíl zákonodárce na
+soubor konkrétních opatření a na způsob, jak se jejich zavedení prokazuje; tím vzniká
+auditovatelný standard, podle něhož lze stav organizace posuzovat zvenčí (Power, 1997).
+K nejčastěji uplatňovaným rámcům patří evropské nařízení o ochraně osobních údajů, směrnice
+o bezpečnosti sítí a informací, norma pro systémy řízení bezpečnosti informací
+(ISO/IEC 27001, 2022) a dobrovolný rámec amerického normalizačního institutu (NIST, 2018).
 
-Rámce souladu spojují abstraktní bezpečnostní cíle s konkrétními, měřitelnými opatřeními.
-Převádějí záměr zákonodárce („organizace musí chránit osobní údaje“) na konkrétní technické
-a organizační požadavky („šifrovat data v klidu i při přenosu, uchovávat přístupové logy
-12 měsíců, jednou ročně provádět penetrační test“). Tento převod je zásadní, protože dává
-jasný, auditovatelný standard, podle něhož lze bezpečnostní stav organizace měřit.
+Pojem patří do kontextu bezpečnostní a regulatorní praxe, z níž tato kniha vzešla; pro
+samotné Kompendium je podstatná jeho druhá, méně přívětivá stránka. Rámec souladu je
+nástrojem důkazu, a každý nástroj důkazu lze napodobit: organizace může mít úplnou
+dokumentaci, certifikát a čistý auditní nález, a přitom nemít ochranu, kterou tyto artefakty
+slibují (Krawiec, 2003). Kniha tento rozdíl mezi prokázaným souladem a skutečnou odolností
+pokládá za epistemický problém, ne za technický nedostatek, a popisuje ho v hesle [Scam
+Compliance](@/glossary/scam-compliance.md).
 
-Prostředí souladu je s rozšiřováním digitální regulace stále složitější. Organizace působící
-ve více jurisdikcích musí současně splnit více překrývajících se rámců – GDPR pro ochranu
-údajů v EU, NIS2 pro kybernetickou bezpečnost, místní předpisy jako český zákon
-o kybernetické bezpečnosti a oborové standardy jako ISO 27001. Tato realita vyžaduje
-automatizované nástroje, které umějí přiřadit technická zjištění k více regulatorním
-požadavkům současně; to je úkolem modulu Prismatic Perimeter (viz [EASM](@/glossary/easm.md)).
+## Původ a kontext pojmu
 
-**Vztah ke knize:** pojem patří do kontextu platformy, z níž Kompendium vzešlo. Pro knihu je
-důležitá jeho stinná stránka – soulad „na papíře“, který vytváří zdání kontroly bez skutečné
-ochrany (viz [Scam Compliance](@/glossary/scam-compliance.md)). Regulatorní screening
-s ohledem na techniky EA popisuje stránka [Compliance: regulatorní
-screening](@/kompendium/aiad-integration/compliance-ea-regulatory-screening.md); organizační
-obranu kapitola [Organizační obrana](@/kompendium/organizational-defense/_index.md).
+Historicky vyrůstá rámec souladu ze dvou linií. První je sociologie organizací: Meyer
+a Rowan ukázali, že organizace přijímají formální struktury nejen pro jejich účinnost, ale
+také proto, že jsou v okolí považovány za legitimní, a že se tyto struktury mohou od
+skutečného provozu oddělit (Meyer a Rowan, 1977). Druhou linií je regulatorní teorie, v níž
+Ayres a Braithwaite popsali odstupňované vynucování: stát nejprve spoléhá na vlastní
+kontrolní mechanismy regulovaného subjektu a tvrdší nástroje nasazuje teprve tam, kde tyto
+mechanismy selžou (Ayres a Braithwaite, 1992).
 
-## Technický rozbor
+Spojení obou linií vysvětluje, proč rámce souladu vznikly a proč současně nesou vlastní
+riziko. Stát nemá kapacitu kontrolovat každý systém každé organizace, a proto přenáší část
+dohledu na organizaci samu a na auditora, který její doklady ověří. Power tento posun popsal
+jako vznik „auditní společnosti“, v níž objem kontroly roste a kontrola se zároveň vzdaluje
+od věci, kterou má posuzovat, protože se posuzují zprávy o činnosti, nikoli činnost sama
+(Power, 1997).
 
-### Taxonomie rámců
+Edelman na materiálu amerického antidiskriminačního práva doložila, že organizace si samy
+vytvářejí výklad toho, co zákon vyžaduje, a že soudy tento výklad časem přejímají jako
+měřítko souladu; vzniká tak symbolický soulad, který je právně uznán, aniž by prokazatelně
+chránil ty, o něž šlo (Edelman, 2016). Totéž zjištění lze přenést na bezpečnostní rámce: co
+se stane standardem, je soubor dokladů, jejichž předložení auditor očekává.
 
-| Kategorie | Příklady | Vynucení | Sankce |
-|----------|---------|-------------|-----------|
-| regulatorní (povinné) | GDPR, NIS2, zákon o kybernetické bezpečnosti, HIPAA | zákonná povinnost | pokuty až 2–4 % celosvětového obratu |
-| oborový standard | PCI DSS, SOC 2 | smluvní povinnost | ztráta obchodních vztahů |
-| dobrovolný standard | ISO 27001, NIST CSF | dobrovolně přijatý | ztráta certifikace |
-| vnitřní politika | bezpečnostní politiky firmy | organizační | kázeňská opatření |
+## Jak se projevuje
 
-### Kategorie kontrolních opatření
+Rámec souladu se v organizaci projevuje jako soustava dokumentů, rolí a periodických
+činností: bezpečnostní politika, posouzení rizik, evidence aktiv, plán zvládání incidentů,
+plán obnovy, hodnocení dodavatelů a záznamy, které mají dokládat, že se vše uvedené
+skutečně děje. Anderson upozornil, že bezpečnostní opatření se v organizacích rozdělují podle
+toho, kdo nese náklady a kdo riziko, takže opatření snadno skončí tam, kde je dobře vidět,
+a ne tam, kde je nejvíc potřeba (Anderson, 2001).
 
-| Kategorie | Popis | Příklady opatření |
-|----------|-------------|-----------------|
-| řízení (governance) | organizační struktura a odpovědnost | bezpečnostní politika, role a odpovědnosti, řízení rizik |
-| řízení přístupu | kdo smí k čemu přistupovat | autentizace, autorizace, správa oprávnění |
-| ochrana dat | důvěrnost a integrita dat | šifrování, zálohy, klasifikace dat |
-| síťová bezpečnost | ochrana síťové infrastruktury | firewally, segmentace, detekce průniku |
-| reakce na incidenty | zvládání bezpečnostních incidentů | detekce, omezení, oznámení, obnova |
-| kontinuita provozu | zachování činnosti při narušení | plánování obnovy, redundance, převzetí služeb |
-| monitoring | sledování a záznam činnosti systémů | logování, výstrahy, auditní stopy |
-| dodavatelský řetězec | řízení rizik třetích stran | posuzování dodavatelů, smluvní požadavky |
+Pozorovatelným znakem zdravého rámce je, že se jeho artefakty mění, když se mění provoz:
+posouzení rizik reaguje na nový systém, evidence aktiv odpovídá tomu, co je skutečně
+nasazeno, a zkoušky obnovy mají zaznamenané výsledky včetně neúspěchů. Znakem rámce
+vyprázdněného je naopak dokumentace, která zůstává beze změny, zatímco infrastruktura se
+proměnila, a nálezy, jež se každý rok opakují se stejnou formulací o plánované nápravě
+(Power, 1997).
 
-### Úrovně vyspělosti
+Vaughan na rozboru rozhodování před havárií raketoplánu Challenger popsala, jak se odchylka
+od vlastního standardu postupně stane normou, protože se opakovaně obejde bez následku
+a organizace si ji vyloží jako přijatelnou; formální proces přitom běží dál a odchylku
+zaznamená jako schválenou (Vaughan, 1996). Pro posuzování souladu z toho plyne, že samotná
+existence procesu nevypovídá o tom, co proces propouští.
 
-| Úroveň | Název | Popis |
-|-------|------|-------------|
-| 1 | počáteční | nahodilá opatření, bez formálního rámce |
-| 2 | rozvíjející se | rámec zvolen, opatření se zavádějí |
-| 3 | definovaná | opatření zdokumentována a důsledně uplatňována |
-| 4 | řízená | opatření měřena a sledována metrikami |
-| 5 | optimalizující | průběžné zlepšování podle metrik a zpravodajství o hrozbách |
+## Mechanismus
 
-### Směrnice NIS2 (EU 2022/2555)
+Strukturně stojí rámec souladu na převodu nejistoty na seznam. Obecný cíl – „organizace musí
+chránit osobní údaje“ – se rozloží na opatření, která lze zavést a doložit; tím se stane
+posuzovatelným, ale také konečným. Co na seznam nepatří, přestane být předmětem pozornosti,
+i když k původnímu cíli patří. Krawiec tento posun nazval kosmetickým souladem: organizace
+investuje do té části opatření, která je viditelná pro kontrolora, protože právě ta snižuje
+její právní riziko (Krawiec, 2003).
 
-Směrnice o bezpečnosti sítí a informací 2 (NIS2) je hlavním předpisem EU v oblasti
-kybernetické bezpečnosti a nahrazuje původní směrnici NIS:
+Druhou složkou je přenos důvěryhodnosti. Certifikát i auditní nález jsou tvrzení
+o organizaci, které třetí strana přijímá, aniž by měla přístup k podkladům; funkce těchto
+dokladů je tedy epistemická, ne technická (Power, 1997). *Interpretace knihy*: tam, kde
+doklad nese důvěryhodnost místo skutečnosti, vzniká povrch, na který lze zaútočit týmiž
+prostředky jako na kterýkoli jiný zdroj důvěry – předložením dokladu, který formální podmínky
+splňuje a obsahové nikoli. Regulatorní screening s ohledem na techniky popsané v knize
+rozebírá stránka [Compliance: regulatorní
+screening](@/kompendium/aiad-integration/compliance-ea-regulatory-screening.md).
 
-| Hledisko | Podrobnost |
-|--------|--------|
-| rozsah | základní a důležité subjekty v 18 odvětvích |
-| požadavky | řízení rizik, hlášení incidentů, bezpečnost dodavatelského řetězce |
-| hlášení | významné incidenty: včasné varování do 24 hodin, oznámení do 72 hodin |
-| sankce | u základních subjektů až 10 milionů EUR nebo 2 % celosvětového obratu |
-| účinnost | lhůta pro transpozici členskými státy do října 2024 |
-| klíčové články | čl. 21 (opatření k řízení rizik), čl. 23 (hlášení incidentů) |
+Třetí složkou je zahlcení. Organizace působící v několika jurisdikcích plní několik
+překrývajících se rámců současně a část kapacity spotřebuje na mapování jednoho rámce na
+druhý. Ayres a Braithwaite ukázali, že odstupňované vynucování předpokládá funkční vnitřní
+kontrolu; kde ji přetížení formální agendou oslabí, zbyde z celé konstrukce jen vrchní vrstva
+dokladů (Ayres a Braithwaite, 1992).
 
-### Český zákon o kybernetické bezpečnosti (ZKB)
+## Právní rámec
 
-Česká transpozice NIS2 s dalšími národními požadavky; platforma ji vede pod označením
-„ZKB 264/2025 Sb.“ (číslo předpisu je údajem platformy, nikoli ověřenou citací této knihy):
+Evropské nařízení o ochraně osobních údajů (nařízení (EU) 2016/679) stanoví u nejtěžších
+porušení správní pokuty ve výši až 4 % celkového celosvětového ročního obratu, u méně
+závažných až 2 %; směrnice o opatřeních k zajištění vysoké společné úrovně kybernetické
+bezpečnosti (směrnice (EU) 2022/2555, NIS2) ukládá subjektům v určených odvětvích povinnost
+řídit rizika a hlásit významné incidenty, s horní hranicí pokut deset milionů eur nebo 2 %
+celosvětového obratu u základních subjektů. Právě tato konstrukce vysvětluje, proč organizace
+investují do prokazatelnosti: sankce se odvozuje nejen od škody, ale i od toho, zda organizace
+dokáže doložit přijatá opatření (Power, 1997).
 
-| Hledisko | Podrobnost |
-|--------|--------|
-| rozsah | kritická infrastruktura, základní služby, důležité subjekty |
-| dozorový orgán | NÚKIB (Národní úřad pro kybernetickou a informační bezpečnost) |
-| požadavky | bezpečnostní dokumentace, posouzení rizik, zvládání incidentů |
-| hlášení | v souladu s lhůtami NIS2 a se zvláštními požadavky NÚKIB |
-| jazyk | dokumentace v češtině |
-| audit | pravidelné audity |
+| Kategorie rámce | Čím je vynucen | Co nese riziko při nedodržení |
+|---|---|---|
+| regulatorní povinnost | zákon nebo přímo použitelné nařízení | správní sankce a dozorové opatření |
+| oborový standard | smlouva s odběratelem nebo platební sítí | ztráta obchodního vztahu |
+| dobrovolná norma | certifikace a periodický audit | odnětí certifikátu |
+| vnitřní politika | rozhodnutí vedení organizace | vnitřní odpovědnost a pracovněprávní důsledky |
 
-## Architektura a implementace
+V České republice je výchozím předpisem zákon č. 181/2014 Sb., o kybernetické bezpečnosti,
+který zavedl povinnosti pro správce informačních systémů kritické informační infrastruktury
+a významných informačních systémů a svěřil dozor Národnímu úřadu pro kybernetickou
+a informační bezpečnost. Transpozice směrnice NIS2 do českého práva proběhla novou úpravou;
+tato kniha neuvádí číslo tohoto předpisu, protože bylo převzato z nástroje platformy
+a nebylo pro účely knihy ověřeno (*interpretace knihy*). Při citování povinností je proto
+namístě vycházet z platného znění předpisu, ne z přehledové tabulky nástroje.
 
-### Engine posouzení souladu
+## Odlišení
 
-```elixir
-defmodule PrismaticPerimeter.Compliance.Engine do
-  @moduledoc """
-  Multi-framework compliance assessment engine.
-  Evaluates discovered assets against framework requirements
-  and maps technical findings to regulatory controls.
-  """
+Rámec souladu je třeba odlišit od bezpečnosti. Soulad je tvrzení o tom, že organizace splnila
+stanovené požadavky; bezpečnost je vlastnost systému vůči skutečnému útočníkovi. Obě se mohou
+rozcházet v obou směrech: organizace může být v souladu a zranitelná, nebo odolná a formálně
+nevyhovující, protože zvolila jiné, rovnocenné opatření (Anderson, 2001).
 
-  @frameworks [:nis2, :zkb, :iso27001, :gdpr]
+Od auditu se rámec liší tím, že audit je činnost posuzování, zatímco rámec je měřítko, proti
+němuž se posuzuje; ztotožnění obou vede k tomu, že se za bezpečnost považuje to, co auditor
+umí zkontrolovat (Power, 1997). Od řízení rizik se rámec liší zdrojem priorit: řízení rizik
+vychází z modelu hrozby dané organizace, rámec z normativního seznamu, který je pro celé
+odvětví stejný (NIST, 2018).
 
-  @spec assess(String.t(), [atom()]) :: {:ok, map()} | {:error, term()}
-  def assess(target, frameworks \\ [:nis2, :zkb]) do
-    with {:ok, assets} <- PrismaticPerimeter.discover(target),
-         {:ok, findings} <- analyze_security_posture(assets) do
-      assessments = Enum.map(frameworks, fn framework ->
-        {framework, assess_framework(framework, findings)}
-      end)
+Od předstíraného souladu, který kniha popisuje jako [Scam
+Compliance](@/glossary/scam-compliance.md), se legitimní rámec liší tím, že jeho artefakty
+odpovídají skutečnému provozu a že organizace nese důsledky, když neodpovídají. Rozdíl není
+v kvalitě dokumentace, ale v tom, zda dokumentace něco popisuje (Krawiec, 2003).
 
-      {:ok, %{
-        target: target,
-        assessed_at: DateTime.utc_now(),
-        frameworks: Map.new(assessments),
-        overall_status: calculate_overall_status(assessments)
-      }}
-    end
-  end
+## Organizační obrana
 
-  defp assess_framework(:nis2, findings) do
-    controls = PrismaticPerimeter.Compliance.NIS2.controls()
+Pro organizaci, která chce mít soulad i ochranu, vyplývá z literatury několik souběžných
+požadavků. Doklady mají být získávány ze systémů samých, a ne vytvářeny pro audit, protože
+ručně sestavovaný důkaz zastarává dřív, než je předložen, a popisuje stav v okamžiku, který už
+neplatí (Anderson, 2001). Nálezy mají být sledovány do uzavření, včetně těch, které se
+opakují, protože opakovaný nález bez nápravy je přesně tím místem, kde se podle Vaughan
+odchylka normalizuje (Vaughan, 1996).
 
-    Enum.map(controls, fn control ->
-      evidence = evaluate_control(control, findings)
-      %{
-        article: control.article,
-        requirement: control.description,
-        status: evidence.status,
-        evidence: evidence.details,
-        remediation: if(evidence.status == :fail, do: control.remediation)
-      }
-    end)
-  end
+Rozhodující je, kdo smí posoudit, že je požadavek splněn. Edelman doložila, že výklad
+požadavku si organizace tvoří sama a že tento výklad se časem stane standardem; obranou je
+proto oddělení toho, kdo opatření zavádí, od toho, kdo posuzuje jeho dostatečnost, a doložená
+nezávislost druhé role (Edelman, 2016). Širší organizační opatření, včetně revizních cyklů
+politik, popisuje kapitola [Organizační
+obrana](@/kompendium/organizational-defense/_index.md) a stránka [Cykly revize
+politik](@/kompendium/organizational-defense/8-policy-review-cycles.md).
 
-  defp assess_framework(:zkb, findings) do
-    controls = PrismaticPerimeter.Compliance.ZKB.controls()
-    Enum.map(controls, fn control ->
-      evaluate_control(control, findings)
-    end)
-  end
-end
-```
-### Mapování kontrolních opatření
+## Meze a kritika
 
-```elixir
-defmodule PrismaticPerimeter.Compliance.NIS2 do
-  @moduledoc """
-  NIS2 Directive control definitions and assessment logic.
-  Maps Article 21 requirements to technical checks.
-  """
+Pojem má dvě známé meze. První je záměna měřitelného za podstatné: rámce vybírají požadavky,
+které lze posoudit jednotně napříč organizacemi, a tato jednotnost je jejich přednost i jejich
+slabina, protože model hrozby konkrétní organizace do seznamu nevstupuje (NIST, 2018). Druhou
+mezí je sklon rámců k růstu: čím více rámců organizace plní, tím větší podíl kapacity padne na
+správu souladu samého, a Power upozorňuje, že tento nárůst se obvykle neměří, protože měřit by
+ho musel týž aparát, který roste (Power, 1997).
 
-  def controls do
-    [
-      %{
-        article: "Art. 21(2)(a)",
-        description: "Policies on risk analysis and information system security",
-        checks: [:security_policy, :risk_assessment, :asset_inventory],
-        remediation: "Implement documented security policy and risk assessment process"
-      },
-      %{
-        article: "Art. 21(2)(b)",
-        description: "Incident handling",
-        checks: [:incident_response_plan, :detection_capability, :notification_process],
-        remediation: "Establish incident response procedures with 24h notification capability"
-      },
-      %{
-        article: "Art. 21(2)(c)",
-        description: "Business continuity and crisis management",
-        checks: [:backup_strategy, :dr_plan, :bcp_testing],
-        remediation: "Implement and test business continuity and disaster recovery plans"
-      },
-      %{
-        article: "Art. 21(2)(d)",
-        description: "Supply chain security",
-        checks: [:vendor_assessment, :dependency_scanning, :third_party_monitoring],
-        remediation: "Assess and monitor supply chain security including dependencies"
-      },
-      %{
-        article: "Art. 21(2)(e)",
-        description: "Security in network and information systems acquisition",
-        checks: [:secure_development, :vulnerability_management, :patch_management],
-        remediation: "Implement secure development lifecycle and vulnerability management"
-      },
-      %{
-        article: "Art. 21(2)(h)",
-        description: "Policies and procedures regarding use of cryptography and encryption",
-        checks: [:tls_configuration, :certificate_management, :key_management],
-        remediation: "Deploy strong cryptography with proper key and certificate management"
-      },
-      %{
-        article: "Art. 21(2)(j)",
-        description: "Use of multi-factor authentication and continuous authentication",
-        checks: [:mfa_deployment, :authentication_strength, :session_management],
-        remediation: "Deploy MFA for all administrative and critical system access"
-      }
-    ]
-  end
-end
-```
-### Generování zprávy o souladu
+Kritika pojmu z pozice knihy je užší: rámec souladu je dobrý nástroj důkazu a špatný nástroj
+důvěry. Kde se z certifikátu stane důvod nedívat se dál, nahradí doklad poznání, a to je
+struktura, kterou kniha rozebírá u [epistemické
+anihilace](@/glossary/epistemicka-anihilace.md) obecně (*interpretace knihy*). Zda existuje
+rámec, který by této záměně odolal, je otevřená otázka; dostupná literatura o symbolickém
+souladu zatím ukazuje, že záměna je spíše pravidlem než výjimkou (Edelman, 2016).
 
-```elixir
-defmodule PrismaticPerimeter.Compliance.Report do
-  @moduledoc """
-  Generates compliance assessment reports for regulatory submission.
-  """
+## Literatura
 
-  @spec generate(map(), atom()) :: {:ok, String.t()}
-  def generate(assessment, format \\ :markdown) do
-    report = """
-    # Compliance Assessment Report
-    ## Target: #{assessment.target}
-    ## Date: #{DateTime.to_iso8601(assessment.assessed_at)}
-
-    ## Executive Summary
-    #{executive_summary(assessment)}
-
-    ## Framework Assessments
-    #{framework_details(assessment.frameworks)}
-
-    ## Gap Analysis
-    #{gap_analysis(assessment)}
-
-    ## Remediation Roadmap
-    #{remediation_roadmap(assessment)}
-
-    ## Evidence Inventory
-    #{evidence_inventory(assessment)}
-    """
-
-    {:ok, report}
-  end
-
-  defp executive_summary(assessment) do
-    total_controls = count_controls(assessment.frameworks)
-    passing = count_passing(assessment.frameworks)
-    percentage = Float.round(passing / max(total_controls, 1) * 100, 1)
-
-    """
-    Overall compliance score: #{percentage}% (#{passing}/#{total_controls} controls passing)
-    Status: #{assessment.overall_status}
-    Frameworks assessed: #{Map.keys(assessment.frameworks) |> Enum.join(", ")}
-    """
-  end
-end
-```
-## Použití v Prismatic Platform
-
-Prismatic Perimeter implementuje posouzení souladu pro rámce NIS2 a ZKB s možností rozšíření
-o další rámce.
-
-### Dashboard souladu
-
-Posouzení souladu je dostupné přes Phoenix LiveView na adrese `/perimeter/compliance`:
-
-```elixir
-defmodule PrismaticPerimeterWeb.ComplianceLive do
-  use PrismaticPerimeterWeb, :live_view
-
-  @impl true
-  def mount(_params, _session, socket) do
-    {:ok, assign(socket,
-      frameworks: [:nis2, :zkb],
-      assessment: nil,
-      loading: false
-    )}
-  end
-
-  @impl true
-  def handle_event("assess", %{"target" => target}, socket) do
-    {:ok, assessment} = PrismaticPerimeter.assess_compliance(
-      target,
-      socket.assigns.frameworks
-    )
-
-    {:noreply, assign(socket, assessment: assessment, loading: false)}
-  end
-end
-```
-### Integrace přes API
-
-```bash
-# Assess compliance via REST API
-curl -X POST http://localhost:4004/api/v1/perimeter/assess_compliance \
-  -H "Content-Type: application/json" \
-  -d '{"domain": "example.com", "frameworks": ["nis2", "zkb"]}'
-
-# Response:
-# {
-#   "target": "example.com",
-#   "overall_status": "partial_compliance",
-#   "nis2": {"passing": 5, "failing": 2, "total": 7},
-#   "zkb": {"passing": 4, "failing": 1, "total": 5}
-# }
-```
-### Zasazení bezpečnostního hodnocení do kontextu
-
-Bezpečnostní hodnocení (A–F, viz [Risk Score](@/glossary/risk-score.md)) se vykládá ve vztahu
-ke konkrétním rámcům souladu:
-
-| Hodnocení | Význam pro NIS2 | Význam pro ZKB |
-|--------|-----------------|-----------------|
-| A (850–900) | očekávaný plný soulad | očekávaný plný soulad |
-| B (700–849) | drobné mezery, pravděpodobně v souladu | drobné mezery, doporučena náprava |
-| C (550–699) | podstatné mezery, částečný soulad | podstatné mezery, riziko přezkumu NÚKIB |
-| D (400–549) | významné mezery, nesoulad | významné mezery, riziko vynucovacích opatření |
-| F (300–399) | kritické mezery, vynucení pravděpodobné | kritické mezery, nutný okamžitý zásah |
-
-## Osvědčené postupy
-
-1. **Posuzovat více rámců současně** – organizace mají obvykle více povinností; zjištění se
-   v jednom průchodu přiřadí ke všem použitelným rámcům.
-2. **Automatizovat sběr důkazů** – ruční sběr je pomalý, chybový a v době auditu už
-   zastaralý. Ověřování technických opatření je třeba automatizovat.
-3. **Udržovat průběžný soulad** – jednorázová posouzení vytvářejí falešný pocit bezpečí.
-   Průběžné sledování odhalí posun mezi formálními posouzeními.
-4. **Převádět technická zjištění na byznysové riziko** – mezery v souladu sdělovat jazykem
-   regulatorního rizika (pokuty, vynucovací opatření), ne jen technických nedostatků.
-5. **Verzovat politiky** – dokumentace souladu má být verzována, pravidelně revidována
-   a aktualizována při změně předpisů (srov. [Cykly revize
-   politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)).
-6. **Počítat s vývojem rámců** – předpisy se mění. Engine souladu má být rozšiřitelný, aby
-   šlo přidávat nové rámce a požadavky bez změny architektury.
-
-## Časté chyby
-
-- **Soulad „na odškrtnutí“:** opatření zavedená kvůli auditu, ne kvůli skutečné ochraně.
-  Vytvářejí falešný pocit bezpečí a selhávají při skutečných hrozbách. V krajní podobě jde
-  o předstíraný soulad, který kniha popisuje jako [Scam Compliance](@/glossary/scam-compliance.md).
-- **Bujení rámců:** snaha vyhovět příliš mnoha rámcům najednou bez jednotného mapování
-  opatření. Doporučuje se hlavní rámec (např. NIST CSF), na který se ostatní mapují.
-- **Zastaralá posouzení:** brát jednorázové posouzení jako trvalý stav. Infrastruktura
-  i hrozby se mění průběžně; posouzení se musí opakovat.
-- **Chybějící důkazy:** opatření existují, ale není doloženo, že fungují. Auditoři vyžadují
-  důkaz, ne tvrzení (srov. [Chain of custody](@/glossary/chain-of-custody.md)).
-- **Nevymezený rozsah:** nejasné, které systémy a data spadají pod který rámec. Přílišné
-  rozšíření i zúžení rozsahu vytvářejí rizika.
-
-## Související pojmy
-
-Bez vlastního hesla v glosáři knihy: *GDPR*, *NIS2*, *ZKB*, *Security Rating* a *CVE*.
-Plné znění směrnice NIS2 je dostupné na [EUR-Lex](https://eur-lex.europa.eu/eli/dir/2022/2555).
+- Anderson, R. (2001). *Why Information Security is Hard: An Economic Perspective*. Proceedings of the Annual Computer Security Applications Conference.
+- Ayres, I., & Braithwaite, J. (1992). *Responsive Regulation: Transcending the Deregulation Debate*. Oxford University Press.
+- Edelman, L. B. (2016). *Working Law: Courts, Corporations, and Symbolic Civil Rights*. University of Chicago Press.
+- ISO/IEC 27001 (2022). *Information security, cybersecurity and privacy protection — Information security management systems — Requirements*.
+- Krawiec, K. D. (2003). *Cosmetic Compliance and the Failure of Negotiated Governance*. Washington University Law Quarterly.
+- Meyer, J. W., & Rowan, B. (1977). *Institutionalized Organizations: Formal Structure as Myth and Ceremony*. American Journal of Sociology.
+- NIST (2018). *Framework for Improving Critical Infrastructure Cybersecurity, Version 1.1*. National Institute of Standards and Technology.
+- Nařízení (EU) 2016/679 (2016). *Obecné nařízení o ochraně osobních údajů (GDPR)*.
+- Power, M. (1997). *The Audit Society: Rituals of Verification*. Oxford University Press.
+- Směrnice (EU) 2022/2555 (2022). *O opatřeních k zajištění vysoké společné úrovně kybernetické bezpečnosti v Unii (NIS2)*.
+- Vaughan, D. (1996). *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. University of Chicago Press.
+- Zákon č. 181/2014 Sb. (2014). *Zákon o kybernetické bezpečnosti*.
 
 ## Související
 
 **Platforma**
 
-- [EASM](@/glossary/easm.md) – správa vnější útočné plochy, která dodává data pro soulad.
-- [Risk Score](@/glossary/risk-score.md) – skóre rizika vykládané ve vztahu k rámcům.
+- [EASM](@/glossary/easm.md) – správa vnější útočné plochy, která dodává technická zjištění.
+- [Risk Score](@/glossary/risk-score.md) – souhrnné skóre rizika a jeho výklad.
 - [Due Diligence](@/glossary/due-diligence.md) – prověrka, v níž je soulad jedním z hledisek.
 - [Sanctions Screening](@/glossary/sanctions-screening.md) – příbuzná regulatorní kontrola.
+- [Chain of custody](@/glossary/chain-of-custody.md) – doložitelnost důkazu jako vlastnost procesu.
 
 **Kompendium**
 
 - [Scam Compliance](@/glossary/scam-compliance.md) – předstíraný soulad jako nástroj klamu.
-- [Compliance: regulatorní screening](@/kompendium/aiad-integration/compliance-ea-regulatory-screening.md)
-  – soulad s ohledem na techniky EA.
-- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – instituce odolné
-  vůči manipulaci.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – rámec, do něhož kniha záměnu dokladu za poznání zařazuje.
+- [Compliance: regulatorní screening](@/kompendium/aiad-integration/compliance-ea-regulatory-screening.md) – soulad s ohledem na techniky knihy.
+- [Organizační obrana](@/kompendium/organizational-defense/_index.md) – instituce odolné vůči manipulaci.
+- [Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md) – údržba dokumentace, která má odpovídat provozu.

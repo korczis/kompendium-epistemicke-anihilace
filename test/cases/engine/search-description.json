@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 604,
+        "in": 606,
         "kind": "Pojem",
         "path": "glossary/epistemicka-anihilace.md",
         "tier": 6,
@@ -16,26 +16,6 @@
       {
         "code": null,
         "in": 178,
-        "kind": "Pojem",
-        "path": "glossary/kognitivni-anihilace.md",
-        "tier": 6,
-        "title": "Kognitivní anihilace",
-        "url": "/glossary/kognitivni-anihilace/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 174,
-        "kind": "Kapitola",
-        "path": "kompendium/03-zakladni-kategorie/kapitola-2.md",
-        "tier": 6,
-        "title": "3.2 Scénáře epistemické delegitimizace",
-        "url": "/kompendium/03-zakladni-kategorie/kapitola-2/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 170,
         "kind": "Kapitola",
         "path": "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
         "tier": 6,
@@ -45,7 +25,27 @@
       },
       {
         "code": null,
-        "in": 169,
+        "in": 175,
+        "kind": "Pojem",
+        "path": "glossary/kognitivni-anihilace.md",
+        "tier": 6,
+        "title": "Kognitivní anihilace",
+        "url": "/glossary/kognitivni-anihilace/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 173,
+        "kind": "Kapitola",
+        "path": "kompendium/03-zakladni-kategorie/kapitola-2.md",
+        "tier": 6,
+        "title": "3.2 Scénáře epistemické delegitimizace",
+        "url": "/kompendium/03-zakladni-kategorie/kapitola-2/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 167,
         "kind": "Kapitola",
         "path": "kompendium/04-terminalni-protokoly/_index.md",
         "tier": 6,
@@ -55,7 +55,7 @@
       },
       {
         "code": "EA-1.3.2",
-        "in": 117,
+        "in": 115,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
         "tier": 6,

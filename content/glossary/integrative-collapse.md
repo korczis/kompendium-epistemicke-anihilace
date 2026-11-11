@@ -7,6 +7,7 @@ description = "Integrativní kolaps: stav, kdy člověk zná jednotlivé prvky p
 tags = ["glossary", "kompendium", "epistemic", "psychology"]
 
 [extra]
+aliases = ["Absolutní epistemická anti-integrovatelnost"]
 category = "epistemic"
 related_terms = ["konceptualni-anihilace", "pragmaticka-kompetence", "holismus", "disociace", "kognitivni-zplosteni", "epistemicka-reintegrace"]
 author = "Tomas Korcak (korczis)"

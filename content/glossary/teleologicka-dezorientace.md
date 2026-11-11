@@ -8,6 +8,7 @@ description = "Ztráta schopnosti stanovit si cíl a účel vlastního myšlení
 tags = ["glossary", "epistemic", "kompendium", "smysl", "motivace"]
 
 [extra]
+aliases = ["Absolutní kognitivní anti-teleologie"]
 category = "epistemic"
 related_terms = ["hodnotova-destrukce", "intentionalita", "epistemicka-staze", "kognitivni-bludisteni", "destruktivni-cirkularita", "metakognice"]
 author = "Tomáš Korcak (korczis)"

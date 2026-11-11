@@ -46,17 +46,7 @@
       {
         "from": "glossary/taxonomie-ea.md",
         "kind": "link",
-        "to": "glossary/_index.md"
-      },
-      {
-        "from": "glossary/taxonomie-ea.md",
-        "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "glossary/taxonomie-ea.md",
-        "kind": "link",
-        "to": "kompendium/06-klinicke-aplikace/_index.md"
       },
       {
         "from": "glossary/taxonomie-ea.md",
@@ -191,7 +181,7 @@
       {
         "class": "glossary",
         "distance": 1,
-        "in": 381,
+        "in": 376,
         "path": "glossary/taxonomie-ea.md",
         "title": "Taxonomie EA"
       },
@@ -205,7 +195,7 @@
       {
         "class": "kompendium/techniques",
         "distance": 1,
-        "in": 45,
+        "in": 44,
         "path": "kompendium/techniques/_index.md",
         "title": "Techniques — detailní per-technique články"
       },
@@ -233,37 +223,37 @@
       {
         "class": "glossary",
         "distance": 2,
-        "in": 604,
+        "in": 606,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
       },
       {
         "class": "glossary",
         "distance": 2,
-        "in": 390,
+        "in": 380,
         "path": "glossary/nabla-infinity.md",
         "title": "NABLA Infinity (∇∞)"
       },
       {
-        "class": "kompendium/06-klinicke-aplikace",
-        "distance": 2,
-        "in": 331,
-        "path": "kompendium/06-klinicke-aplikace/_index.md",
-        "title": "06. Klinické aplikace a diagnostika"
-      },
-      {
         "class": "glossary",
         "distance": 2,
-        "in": 330,
+        "in": 329,
         "path": "glossary/_index.md",
         "title": "Glosář"
+      },
+      {
+        "class": "kompendium/06-klinicke-aplikace",
+        "distance": 2,
+        "in": 329,
+        "path": "kompendium/06-klinicke-aplikace/_index.md",
+        "title": "06. Klinické aplikace a diagnostika"
       }
     ],
     "ok": true,
     "op": "neighbourhood",
     "path": "matice.md",
     "schema": "kompendium-engine/v1",
-    "total": 553,
+    "total": 549,
     "truncated": true
   },
   "input": {

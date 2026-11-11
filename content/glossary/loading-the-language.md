@@ -1,7 +1,7 @@
 +++
 title = "Loading the language"
 weight = 100
-description = "Liftonovo kritérium totalismu (nabíjení jazyka): složité otázky se zhušťují do klišé, která ukončují myšlení. Znaky, mechanismus, odlišení a obrana."
+description = "Liftonovo kritérium totalismu (nabíjení jazyka): složité otázky se zhušťují do klišé, která ukončují myšlení. Znaky, mechanismus, odlišení, obrana a kritika pojmu."
 
 [taxonomies]
 tags = ["glossary", "kompendium", "psychology", "linguistics", "manipulace"]
@@ -14,57 +14,139 @@ keywords = ["loading the language", "nabíjení jazyka", "thought-terminating cl
 
 ## Definice
 
-**Loading the language** (česky volně *nabíjení jazyka* nebo *zatížení jazyka*) je šesté z osmi kritérií ideologického totalismu, která popsal psychiatr Robert Jay Lifton v knize *Thought Reform and the Psychology of Totalism* (1961). Označuje prostředí, v němž se jazyk zhušťuje do **krátkých, absolutních a hodnotově nabitých formulí**. Nejsložitější lidské otázky se v nich zredukují na stručné, snadno zapamatovatelné fráze, které Lifton nazval **„klišé ukončující myšlení“** (*thought-terminating cliché*). Taková fráze se stane počátkem i koncem každé analýzy: jakmile zazní, není o čem dál přemýšlet.
+Loading the language (česky volně *nabíjení jazyka*) je šesté z osmi kritérií ideologického
+totalismu, která popsal psychiatr Robert Jay Lifton: prostředí, v němž se jazyk zhušťuje do
+krátkých, absolutních a hodnotově nabitých formulí, takže nejsložitější lidské otázky se
+redukují na stručné, snadno zapamatovatelné fráze (Lifton, 1961). Takovou frázi Lifton nazval
+„klišé ukončujícím myšlení“ (*thought-terminating cliché*): jakmile zazní, je počátkem i koncem
+analýzy a není o čem dál uvažovat (Lifton, 1961).
+
+Jde o popis prostředí, ne o diagnózu člověka. Lifton svá kritéria formuloval jako škálu
+přítomnosti a intenzity, tedy jako způsob, jak posoudit míru totalismu v daném prostředí, ne
+jako test, jímž by se někdo označil za „zmanipulovaného“ (Lifton, 1999).
 
 ## Původ a kontext pojmu
 
-Lifton vycházel z rozhovorů se západními i čínskými lidmi, kteří prošli programy „reformy myšlení“ v Číně na počátku 50. let. Popsal osm znaků prostředí, které nazval totalistickým: [milieu control](@/glossary/milieu-control.md), mystickou manipulaci, požadavek čistoty, kult zpovědi, posvátnou vědu, nabíjení jazyka, nadřazení doktríny nad člověka a rozhodování o tom, kdo má právo na existenci. Lifton zdůrazňoval, že čím víc znaků je přítomno a čím silněji, tím totalističtější prostředí je; kritéria se dodnes používají k rozpoznání skupin s vysokou mírou kontroly (viz [thought reform](@/glossary/thought-reform.md) a referenční kartu [EA-8.2.2](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md)).
+Lifton vycházel z rozhovorů se západními i čínskými lidmi, kteří prošli programy „reformy
+myšlení“ v Číně na počátku 50. let, a popsal osm znaků prostředí, které nazval totalistickým:
+[milieu control](@/glossary/milieu-control.md), mystickou manipulaci, požadavek čistoty, kult
+zpovědi, posvátnou vědu, nabíjení jazyka, nadřazení doktríny nad člověka a rozhodování o tom,
+kdo má právo na existenci (Lifton, 1961). Jazyk takového prostředí označil za „jazyk
+ne-myšlení“ (*language of non-thought*) a sám k němu po desítkách let vrátil při analýze
+dalších uzavřených skupin (Lifton, 1999). Rámec rozvádí heslo [thought
+reform](@/glossary/thought-reform.md) a referenční karta
+[EA-8.2.2](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md).
 
-Lifton nazval jazyk takového prostředí „jazykem ne-myšlení“ (*language of non-thought*). Literární obdobu představuje [Newspeak](@/glossary/newspeak.md) z Orwellova románu *1984* (1949); historicky doloženým příkladem je jazyk nacistického Německa, který analyzoval Victor Klemperer (viz [LTI](@/glossary/lti-lingua-tertii-imperii.md)).
+Literární obdobou je Newspeak z Orwellova románu, v němž je slovník zužován záměrně, aby
+nežádoucí myšlenka neměla jak být vyslovena (Orwell, 1949); srov. heslo
+[Newspeak](@/glossary/newspeak.md). Historicky doloženým případem je jazyk nacistického
+Německa, který z pozice filologa zaznamenával Victor Klemperer a popsal na něm, jak se
+opakováním několika obratů mění myšlení uživatelů (Klemperer, 1947); viz
+[LTI](@/glossary/lti-lingua-tertii-imperii.md). Pozdější literatura o skupinách s vysokou mírou
+kontroly zařadila nabitý jazyk mezi složky kontroly myšlení (Hassan, 1988).
 
 ## Jak se projevuje
 
-- skupina používá vlastní slovník, v němž mají běžná slova nový, vnitřní význam;
-- otázka nebo pochybnost je ukončena frází („to je jen tvoje ego“, „důvěřuj procesu“, „to je negativita“), na kterou nelze věcně odpovědět;
-- členové mluví o sobě i o světě v ustálených formulích a mají potíž popsat zkušenost vlastními slovy;
-- slova jsou ostře rozdělena na „naše“ (dobrá, pravdivá) a „jejich“ (zkažená, nebezpečná);
-- vnější posluchač rozumí jednotlivým slovům, ale nerozumí, co se říká;
-- po odchodu ze skupiny se fráze vracejí jako vnitřní hlas, který zastaví myšlenku dřív, než se dokončí.
+Nejzřetelnějším znakem je vlastní slovník, v němž mají běžná slova nový vnitřní význam,
+dostupný jen uvnitř; posluchač zvenčí rozumí jednotlivým slovům, a přesto nerozumí, co se
+říká (Lifton, 1961). Druhým znakem je ukončení otázky frází („to je jen tvoje ego“,
+„důvěřuj procesu“, „to je negativita“), na kterou nelze věcně odpovědět, protože neobsahuje
+tvrzení, jež by šlo posoudit (Lifton, 1961).
 
-## Mechanismus
+Třetím znakem je ostré rozdělení slov na „naše“ a „jejich“, tedy na dobrá a zkažená, které
+předem rozhoduje o hodnocení dřív, než se věc popíše; na tomto rysu je založen i Klempererův
+rozbor (Klemperer, 1947). Čtvrtým je obtíž popsat vlastní zkušenost jinak než ustálenou
+formulí, což platí i o lidech, kteří prostředí opustili: fráze se vracejí jako vnitřní hlas,
+který zastaví myšlenku dřív, než se dokončí (Hassan, 1988).
 
-Strukturně nabíjení jazyka funguje na třech úrovních. **Zúžení** – slovník skupiny nemá pojmy pro zkušenosti, které by mohly vést k pochybnosti, takže je nelze ani myslet. **Nabití** – vybraná slova nesou silný emoční náboj (vina, hrdost, strach), takže jejich užití spouští reakci dřív, než proběhne úsudek. **Ukončení** – klišé nahrazuje argument; kdo se ho dovolá, nemusí nic vysvětlovat, a kdo by pokračoval v otázkách, se staví mimo skupinu.
+## Mechanismus, jak jej zdroje podporují
 
-Výsledkem je, že kontrola myšlení se přesouvá z vnější autority do **vlastního jazyka člena**. Proto patří nabíjení jazyka k nejtrvalejším následkům pobytu v takovém prostředí. Souvisí s technikou [zastavování myšlenek](@/glossary/thought-stopping.md) a s technikami [terminologické mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) a [sémantické imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md).
+Strukturně působí nabíjení jazyka na třech úrovních. Zúžení znamená, že slovník nemá pojmy pro
+zkušenosti, které by vedly k pochybnosti; blízkým pojmem je hermeneutická nespravedlnost, tedy
+stav, kdy chybějící pojmy znemožňují vlastní zkušenost pojmenovat i sobě (Fricker, 2007).
+Nabití znamená, že vybraná slova nesou silný citový náboj – vinu, hrdost, strach – takže jejich
+užití vyvolá reakci dřív, než proběhne úsudek (Klemperer, 1947).
 
-## Odlišení
+Ukončení znamená, že klišé nahrazuje argument: kdo se ho dovolá, nemusí nic vysvětlovat, a kdo
+by v otázkách pokračoval, staví se tím mimo skupinu (Lifton, 1961). Výsledkem je, že se
+kontrola myšlení přesouvá z vnější autority do vlastního jazyka člena, a právě proto patří
+nabitý jazyk k nejtrvalejším následkům pobytu v takovém prostředí (Hassan, 1988).
 
-- **Odborný žargon** zpřesňuje komunikaci a jeho termíny lze rozložit a vysvětlit; nabitý jazyk komunikaci uzavírá.
-- **Skupinový slang** a vtipy posilují soudržnost, ale nebrání pochybnosti ani kontaktu s okolím.
-- **Rituální formule** v náboženství nebo v právu mají své místo v rámci, který je zná jako formuli; nabitý jazyk nahrazuje formulí veškeré přemýšlení.
-- **[Newspeak](@/glossary/newspeak.md)** je literární model; loading the language je empiricky popsaný rys reálných prostředí.
+Jazyková teorie k tomu dodává, že ustálené obrazné výrazy nejsou ozdobou, ale organizují
+uvažování o tématu, takže volba metafory rozhoduje o tom, co se jeví jako samozřejmé (Lakoff
+a Johnson, 1980). Kniha z toho vyvozuje, že nabitý slovník nepůsobí přesvědčováním, ale tím,
+co učiní nemyslitelným (*interpretace knihy*). Souvisí s technikou [zastavování
+myšlenek](@/glossary/thought-stopping.md) a se stránkami [terminologická
+mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) a [sémantická
+imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md).
 
-## Význam pro Kompendium
+## Odlišení od běžného a od sousedních jevů
 
-Kritérium je praktickým detekčním znakem v rozhovoru s člověkem ze skupiny nebo po odchodu z ní: výskyt klišé ukončujících myšlení a neschopnost přeložit je do běžné řeči. Souvisí s detekčními signaturami [hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) a [sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md) a s [hermeneutickou marginalizací](@/glossary/hermeneuticka-marginalizace.md), kterou vytváří uvnitř skupiny.
+Odborný žargon zpřesňuje komunikaci a jeho termíny lze rozložit a vysvětlit; nabitý jazyk ji
+naopak uzavírá, protože formuli nelze převést do běžné řeči bez ztráty její funkce (Lifton,
+1961). Skupinový slang a vtipy posilují soudržnost, ale nebrání pochybnosti ani kontaktu
+s okolím, a proto samy znakem totalismu nejsou (Lifton, 1999).
+
+Rituální formule v náboženství nebo v právu mají své místo v rámci, který je zná jako formuli,
+a jejich užití nevylučuje současné uvažování o věci; rozdíl je ve funkci, ne ve slovech
+(Klemperer, 1947). Od literárního Newspeaku se jev odlišuje tím, že Newspeak je konstrukce
+románu, kdežto nabíjení jazyka je empiricky popsaný rys skutečných prostředí (Orwell, 1949).
+
+## Jak se znak uplatňuje v knize
+
+Kritérium je praktickým detekčním vodítkem v rozhovoru s člověkem ze skupiny nebo po odchodu
+z ní: pozoruje se výskyt klišé ukončujících myšlení a schopnost převést je do běžné řeči
+(Lifton, 1961). Kniha k tomu vede signatury [hustota
+žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) a [sémantická
+eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md).
+
+Anonymizovaný kompozit: žena po odchodu z komunity, která se prezentovala jako
+seberozvojová, vypráví, že se dlouho nedokázala na nic zeptat sama sebe, protože kdykoli ji
+napadlo, že se jí ve skupině neděje dobře, ozvala se v ní fráze „to mluví tvůj strach“
+a myšlenka skončila. Slova jako „otevřenost“, „odpor“ nebo „energie“ měla ve skupině přesný
+vnitřní význam, který venku nikdo nechápal; v terapii si vedle každého z nich napsala, co
+ve skutečnosti popisovalo – „odpor“ se ukázal jako obyčejný nesouhlas (srov. Lifton, 1961).
 
 ## Obrana a zotavení
 
-Pro člověka po odchodu: sepsat si slovník skupiny a ke každému výrazu najít běžný ekvivalent; všimnout si, kdy fráze zastaví myšlenku, a myšlenku dokončit; číst a mluvit v prostředí, kde se slova používají obvykle. Pro terapeuta: nepřebírat slovník skupiny, ale ptát se, co výraz znamená; trpělivě nabízet alternativní pojmy, aniž by je vnucoval. Prevence spočívá v otázce, kterou lze položit každé frázi: „A co to přesně znamená?“
+Pro člověka po odchodu je nosné převádět slovník skupiny do běžné řeči a všímat si okamžiků,
+kdy fráze zastaví myšlenku, a tu myšlenku dokončit; návrat k obvyklému užívání slov podporuje
+čtení a mluvení v prostředí, které slovník skupiny nepoužívá (Hassan, 1988). Postup rozvádějí
+[metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md)
+a [post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md).
 
-## Obecný příklad
+Pro terapeuta platí, že slovník skupiny nepřebírá, ale ptá se, co výraz znamená, a alternativní
+pojmy nabízí, místo aby je vnucoval; jinak se v terapii zopakuje tatáž struktura, v níž význam
+určuje autorita (Lifton, 1961). Prevence spočívá v jediné otázce, kterou lze položit každé
+frázi: a co to přesně znamená (Fricker, 2007).
 
-Anonymizovaný kompozit: Žena po odchodu z komunity, která se prezentovala jako seberozvojová, vypráví, že se dlouho nedokázala na nic zeptat sama sebe. Kdykoli ji napadlo, že se jí ve skupině neděje dobře, ozvala se v ní fráze „to mluví tvůj strach“ – a myšlenka skončila. Slova jako „otevřenost“, „odpor“ nebo „energie“ měla ve skupině přesný vnitřní význam, který venku nikdo nechápal. V terapii si sestavila vlastní slovník: vedle každého výrazu skupiny napsala, co ve skutečnosti popisoval. „Odpor“ se ukázal jako obyčejný nesouhlas, „otevřenost“ jako souhlas s vedením. Tento jednoduchý postup jí vrátil schopnost myšlenku dokončit.
+## Meze pojmu a jeho kritika
 
-## Meze a otevřené otázky
+Každá skupina má vlastní jazyk a ne každá frazeologie je totalistická; hranice mezi slangem
+a nabitým jazykem je otázkou funkce a míry, ne seznamu výrazů (Lifton, 1999). Chybí přitom
+validované měřítko, které by nabitost jazyka kvantifikovalo, a detekční signatury knihy jsou
+pracovním návrhem, ne nástrojem (*interpretace knihy*).
 
-Každá skupina má vlastní jazyk a ne každá frazeologie je totalistická. Hranice mezi společenským slangem a nabitým jazykem je otázkou funkce a míry, ne seznamu výrazů. Chybí validovaná měřítka, která by nabitost jazyka kvantifikovala; detekční signatury knihy jsou zatím pracovním návrhem.
+Vážnější námitka míří na předpoklad, že odstranění slova odstraní myšlenku. Jazykovědná kritika
+silné verze jazykového determinismu ukazuje, že myšlení není na slovníku závislé tak úzce, jak
+Orwellova konstrukce předpokládá, a že lidé si pro nové zkušenosti pojmy tvoří (Pinker, 1994).
+Sociologický výzkum náboženských hnutí zároveň doložil, že většina oslovených do skupin
+nevstupuje a velká část členů z nich sama odchází, takže obraz jazykem ovládaného člena nelze
+zobecňovat (Barker, 1984). Kniha proto nabitý jazyk popisuje jako rys prostředí, který zvyšuje
+náklady na pochybnost, ne jako mechanismus, který myšlení vypíná; kritiku rámce rozvádí
+kapitola [Přesah rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
 
 ## Literatura
 
-- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. W. W. Norton.
-- Orwell, G. (1949). *Nineteen Eighty-Four*. Secker & Warburg.
+- Barker, E. (1984). *The Making of a Moonie: Choice or Brainwashing?*. Blackwell.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
 - Klemperer, V. (1947). *LTI – Notizbuch eines Philologen*. Aufbau.
+- Lakoff, G., & Johnson, M. (1980). *Metaphors We Live By*. University of Chicago Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. Norton.
+- Lifton, R. J. (1999). *Destroying the World to Save It*. Metropolitan Books.
+- Orwell, G. (1949). *Nineteen Eighty-Four*. Secker & Warburg.
+- Pinker, S. (1994). *The Language Instinct*. William Morrow.
 
 ## Související
 
@@ -75,9 +157,11 @@ Každá skupina má vlastní jazyk a ne každá frazeologie je totalistická. Hr
 - [Thought-stopping](@/glossary/thought-stopping.md) – zastavování myšlenek.
 - [Newspeak](@/glossary/newspeak.md) – literární model.
 - [LTI (Lingua Tertii Imperii)](@/glossary/lti-lingua-tertii-imperii.md) – historický příklad.
+- [Hermeneutická marginalizace](@/glossary/hermeneuticka-marginalizace.md) – chybějící pojmy pro vlastní zkušenost.
 
 **Techniky a detekce**
 
 - [EA-8.2.2 Liftonova kritéria](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md) – referenční karta.
-- [Terminologická mystifikace (EA-1.1.3)](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – příbuzná technika.
-- [Detekční signatura: hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) – jak znak měřit.
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – příbuzná technika.
+- [Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) – jak znak pozorovat.
+- [EA-6.4.2 Post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) – práce po odchodu ze skupiny.

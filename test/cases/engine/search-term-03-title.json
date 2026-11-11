@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 381,
+        "in": 376,
         "kind": "Pojem",
         "path": "glossary/taxonomie-ea.md",
         "tier": 2,
@@ -85,7 +85,7 @@
       },
       {
         "code": null,
-        "in": 6,
+        "in": 10,
         "kind": "Kapitola",
         "path": "kompendium/puvodni-taxonomie/_index.md",
         "tier": 6,

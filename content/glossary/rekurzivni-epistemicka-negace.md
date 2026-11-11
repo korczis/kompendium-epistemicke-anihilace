@@ -8,6 +8,7 @@ description = "Vlastní pojem knihy z původní taxonomie (2025): smyčka, v ní
 tags = ["glossary", "kompendium", "epistemic", "self-reference"]
 
 [extra]
+aliases = ["Absolutní epistemická rekurzivní negace"]
 category = "epistemic"
 related_terms = ["rekurzivni-paralyza", "liaruv-paradox", "pyrrhonismus", "self-reference", "implozivni-rekurze", "epistemologicka-paralyza"]
 author = "Tomáš Korcak (korczis)"

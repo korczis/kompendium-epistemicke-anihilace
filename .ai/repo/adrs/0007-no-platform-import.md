@@ -190,3 +190,29 @@ Odpověď doslovně: **„Drop Developer Portal only (Recommended)“**.
 Odkazy na dřívější veřejné vydání knihy zůstávají jako doložený původ. Položka „Developer
 Portal“ zmizí ze všech patiček a `content/about.md` se upraví tak, aby popisoval, co web
 skutečně dělá.
+
+## Amendment 2026-11-11 (6): oddíl filozofie a kapitola výpočetní epistemologie
+
+Dvě otázky vlastníkovi (AskUserQuestion, session `5d49a595-d035-4bbe-b04a-d12695922860`,
+2026-11-11), doslovně:
+
+> „The Kompendium's philosophy section (content/philosophy/: _index, epistemic-integrity,
+> intellectual-sovereignty, boundary-ethics) is framed as the Prismatic platform's software
+> philosophy and the reasoning behind the GHL licence ("filozofické základy, jimiž se řídí vývoj
+> platformy Prismatic": code ownership, ceremonial computing, intellectual sovereignty under
+> GHL), not the book's subject. What should happen to it?“
+
+Možnosti: „Reframe to the book (Recommended)“, „Remove with redirects“, „Keep as licence
+rationale“. Odpověď doslovně: **„Reframe to the book (Recommended)“**.
+
+> „The theory chapter "Computational epistemology a NABLA"
+> (07-teoreticke-reflexe/computational-epistemology.md), referenced from about 6 theory pages,
+> ties a general topic to the platform's NABLA framework. What should happen?“
+
+Možnosti: „Relabel and rewrite (Recommended)“, „Remove with redirect“. Odpověď doslovně:
+**„Relabel and rewrite (Recommended)“**.
+
+Oddíl `philosophy/` zůstane a přepíše se jako vlastní etika knihy a zdůvodnění, proč vychází
+pod GHL v1.0 (epistemická integrita jako obrana čtenáře), bez vývojové filozofie platformy.
+Kapitola výpočetní epistemologie ztratí v názvu „a NABLA“ a části vázané na platformu; obecné
+téma a odkazy na ni zůstanou.

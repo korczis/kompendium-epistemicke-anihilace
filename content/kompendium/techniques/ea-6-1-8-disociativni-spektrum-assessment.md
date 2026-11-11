@@ -38,8 +38,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 **Disociativní spektrum assessment** je diferenciálně-diagnostické vyšetření zaměřené na celé spektrum disociativních fenoménů — od běžné absorpce a [depersonalizace](@/glossary/depersonalizace.md) přes disociativní amnesii až po DID — s důrazem na disociaci jako adaptivní odpověď na EA-trauma.
 
-Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
-
 ## Indikace
 
 Technika je primárně indikována v následujících klinických kontextech:

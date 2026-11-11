@@ -38,8 +38,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 **Trauma-focused CBT protokol** je [evidence-based](@/glossary/evidence-based.md) protokol kognitivně-behaviorální terapie adaptovaný pro EA-trauma, kombinující psychoedukaci, kognitivní restrukturalizaci, expoziční komponenty a behaviorální aktivaci s explicitním zaměřením na epistemická a hermeneutická zkreslení vzniklá manipulativní expozicí.
 
-Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
-
 ## Indikace
 
 Technika je primárně indikována v následujících klinických kontextech:

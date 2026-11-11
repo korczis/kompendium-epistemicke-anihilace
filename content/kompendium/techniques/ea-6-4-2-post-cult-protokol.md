@@ -38,8 +38,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 **Post-cult protokol** je specializovaný protokol pro klienty po opuštění totalizujících skupin (náboženské kulty, MLM, politické kulty, terapeutické kulty) zohledňující specifika cult-induced PTSD, identity reconstruction po cult-self a dlouhodobou reintegraci.
 
-Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
-
 ## Indikace
 
 Technika je primárně indikována v následujících klinických kontextech:

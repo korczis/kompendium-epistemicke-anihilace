@@ -38,8 +38,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 **Mindfulness-based trauma intervention** je trauma-senzitivní adaptace MBSR/MBCT modelu zaměřená na rozvoj nehodnotící pozornosti, present-moment awareness a decentered relationship k myšlenkám; specificky upravená pro EA-trauma s pozorností na potenciální triggery.
 
-Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
-
 ## Indikace
 
 Technika je primárně indikována v následujících klinických kontextech:

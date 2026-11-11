@@ -224,13 +224,6 @@
         "title": "Epistemická anihilace"
       },
       {
-        "class": "glossary",
-        "distance": 2,
-        "in": 368,
-        "path": "glossary/taxonomie-ea.md",
-        "title": "Taxonomie EA"
-      },
-      {
         "class": "kompendium/06-klinicke-aplikace",
         "distance": 2,
         "in": 328,
@@ -243,6 +236,13 @@
         "in": 325,
         "path": "glossary/_index.md",
         "title": "Glosář"
+      },
+      {
+        "class": "glossary",
+        "distance": 2,
+        "in": 318,
+        "path": "glossary/taxonomie-ea.md",
+        "title": "Taxonomie EA"
       },
       {
         "class": "kompendium/06-klinicke-aplikace",

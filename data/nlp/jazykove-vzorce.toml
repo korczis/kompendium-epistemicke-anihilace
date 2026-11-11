@@ -1,0 +1,331 @@
+# Rodina NLP-20: Jazykové vzorce (pravidlo project.content-catalogs; schéma v scripts/catalogs.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+# Tento soubor nese záznamy NLP-20.01 až NLP-20.10; další záznamy rodiny jsou v dílčích souborech.
+
+[[pattern]]
+id = "NLP-20.01"
+slug = "hierarchie-idei"
+type = "concept"
+cs = "Hierarchie myšlenek"
+en = "Hierarchy of ideas"
+aliases = ["hierarchie idejí", "žebříček abstrakce"]
+use = "dvoji"
+risk = "stredni"
+broader = "chunking"
+related = ["chunking-nahoru", "chunking-dolu", "lateralni-chunking", "obecne-a-specificke", "logicke-urovne-pojem", "meta-model"]
+kompendium = [
+  "kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md",
+  "kompendium/techniques/ea-5-4-2-russell-typ-violace.md",
+  "kompendium/02-uvod/filosoficky-ramec.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jde tu o bezpečnost firmy, a kdo chce bezpečnou firmu, ten přece souhlasí s tím, že budeme číst soukromou poštu všech zaměstnanců."
+context = "Vedoucí na poradě obhajuje plošné sledování zaměstnanců."
+benign = false
+marker = "Souhlas s obecnou hodnotou (bezpečnost) se bez jakéhokoli srovnání alternativ převádí na jeden konkrétní prostředek, jako by z hodnoty nutně plynul."
+response = "Oddělit cíl od prostředku: přijmout hodnotu jako společnou a ptát se, jaké jiné prostředky k ní vedou a čím je navržený prostředek lepší než ostatní."
+
+[[pattern.trainer]]
+utterance = "Všichni chceme, aby děti chodily do školy bezpečně. Dobře, a teď si projděme, jaké možnosti máme: přechod, semafor, nebo jinou trasu, a co která stojí."
+context = "Starostka vede veřejné setkání o dopravě u školy."
+benign = true
+marker = "Mluvčí výslovně pojmenuje úroveň hodnoty, na níž je shoda, a otevřeně sestupuje k několika konkrétním variantám, které nechává posoudit."
+response = "Legitimní užití: shoda nahoře slouží jako výchozí bod a konkrétní řešení zůstávají předmětem srovnání a rozhodnutí účastníků."
+
+[[pattern]]
+id = "NLP-20.02"
+slug = "chunking-nahoru"
+type = "pattern"
+cs = "Chunking nahoru"
+en = "Chunking up"
+aliases = ["zobecňování v rozhovoru", "přesun k obecnějšímu"]
+use = "dvoji"
+risk = "vysoke"
+broader = "hierarchie-idei"
+related = ["som-zobecneni", "umyslna-vagnost", "milton-model", "nominalizace", "slovni-baliky", "chunking-dolu"]
+kompendium = [
+  "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ptáte se, kolik ten kurz stojí, ale o tom to vůbec není. Jde o to, jestli chcete svobodu, nebo chcete zůstat tam, kde jste."
+context = "Organizátor osobnostního semináře odpovídá zájemci na dotaz po ceně."
+benign = false
+marker = "Konkrétní otázka po ceně je přesunuta na úroveň obecných hodnot (svoboda), kde na ni nelze odpovědět a kde se odmítnutí jeví jako odmítnutí hodnoty."
+response = "Trvat na odpovědi na úrovni otázky: požádat o částku, podmínky a možnost odstoupení a teprve potom zvažovat, k čemu by kurz byl."
+
+[[pattern.trainer]]
+utterance = "Než se pohádáme o konkrétní rozvrh, co je pro každého z nás na tom víkendu vlastně důležité? Odpočinek, čas s dětmi, nebo něco jiného?"
+context = "Partner navrhuje rozhovor o tom, jak rozdělit víkend."
+benign = true
+marker = "Přesun k účelu je ohlášený a symetrický: obě strany jsou tázány na své hodnoty a rozhovor se pak má vrátit ke konkrétnímu plánu."
+response = "Legitimní užití: hledání společného zájmu před řešením detailů; hodnoty nejsou použity k vynucení jednoho konkrétního řešení."
+
+[[pattern]]
+id = "NLP-20.03"
+slug = "chunking-dolu"
+type = "pattern"
+cs = "Chunking dolů"
+en = "Chunking down"
+aliases = ["konkretizace", "přesun ke konkrétnímu"]
+use = "dvoji"
+risk = "stredni"
+broader = "hierarchie-idei"
+related = ["som-rozlozeni", "meta-model", "nespecifikovane-sloveso", "meta-model-jako-vyslychaci-nastroj", "chunking-nahoru"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md",
+  "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md",
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Říkáš, že na tebe křičím. Kdy přesně? V kolik hodin? Jakou hlasitostí? Kolik decibelů? Když to nevíš přesně, tak se to asi nestalo."
+context = "Partner reaguje na stížnost druhého na opakované křičení."
+benign = false
+marker = "Požadavek na stále jemnější detail se používá jako nesplnitelné kritérium důkazu, takže obecně pravdivá zkušenost je odmítnuta pro chybějící přesnost."
+response = "Uvést několik konkrétních příkladů, které si člověk pamatuje, a odmítnout kritérium, podle něhož by zkušenost bez měřitelných údajů neplatila."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že se v práci cítíte přehlcená. Mohla byste popsat jeden konkrétní den minulý týden, kdy to bylo nejhorší, co se ten den dělo?"
+context = "Psycholožka při úvodním rozhovoru s klientkou."
+benign = true
+marker = "Otázka po konkrétním příkladu slouží k porozumění obecné stížnosti, nezpochybňuje její platnost a nechává klientce volbu příkladu."
+response = "Legitimní užití: konkretizace zpřesňuje obraz problému; obecná zkušenost klientky přitom zůstává uznaná."
+
+[[pattern]]
+id = "NLP-20.04"
+slug = "lateralni-chunking"
+type = "pattern"
+cs = "Laterální chunking"
+en = "Lateral chunking"
+aliases = ["chunking do stran", "přesun k jinému případu téže třídy"]
+use = "dvoji"
+risk = "stredni"
+broader = "hierarchie-idei"
+related = ["som-analogie", "terapeuticka-metafora", "izomorfni-metafora", "chunking-nahoru"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md",
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+  "kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vytýkáte nám, že jsme zatajili ztráty? Banky dělají totéž, politici taky, a vlastně i vy, když doma neřeknete všechno. Tak o čem se bavíme?"
+context = "Mluvčí firmy odpovídá novináři na otázku po zatajených ztrátách."
+benign = false
+marker = "Mluvčí vystoupá k široké kategorii (něco neříkat) a sestoupí k jiným, nesrovnatelným případům, aby konkrétní pochybení rozpustil ve všeobecném jevu."
+response = "Vrátit rozhovor k původnímu případu a ptát se, v čem se srovnávané případy liší rozsahem, odpovědností a důsledky."
+
+[[pattern.trainer]]
+utterance = "Učit se nový jazyk je trochu jako učit se plavat: zpočátku máte pocit, že se topíte, a pak najednou zjistíte, že vás voda nese."
+context = "Lektorka povzbuzuje začínající studenty jazykového kurzu."
+benign = true
+marker = "Analogie mezi dvěma případy učení je otevřeně podaná jako přirovnání, slouží k pochopení zkušenosti a nenese žádný požadavek."
+response = "Benigní užití: přirovnání osvětluje zkušenost; je však dobré si všimnout, že analogie nic nedokazuje, jen ilustruje."
+
+[[pattern]]
+id = "NLP-20.05"
+slug = "kategorie-satirove"
+type = "concept"
+cs = "Komunikační kategorie Virginie Satirové"
+en = "Satir categories"
+aliases = ["komunikační postoje Satirové", "stresové komunikační postoje", "Satir categories"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["koreny-nlp", "kongruence", "inkongruence", "raport", "percepcni-pozice-pojem"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty jsi typický usmiřovatel, to je tvůj vzorec. Takže když se ti zdá, že tě šéf ponižuje, je to jen tvoje projekce, ne jeho chování."
+context = "Kolega s kurzem NLP komentuje stížnost spolupracovnice na nadřízeného."
+benign = false
+marker = "Komunikační kategorie se mění v nálepku osobnosti a slouží k tomu, aby se zkušenost člověka vysvětlila jeho typem místo posouzení chování druhé strany."
+response = "Odmítnout typologii jako argument o faktech: kategorie popisuje postoj ve stresu, nerozhoduje o tom, co nadřízený skutečně dělal."
+
+[[pattern.trainer]]
+utterance = "Když se doma hádáte, všimněte si, jestli spíš ustupujete, obviňujete, mluvíte jako z učebnice, nebo měníte téma. Nikdo z nás není jen jedno."
+context = "Rodinná terapeutka představuje rodině Satirové postoje."
+benign = true
+marker = "Kategorie jsou podány jako proměnlivé reakce na stres, které se týkají všech, a slouží k sebepozorování, ne k označkování druhého."
+response = "Legitimní užití: postoje pomáhají rodině pojmenovat, co se v konfliktu děje, a nechávají každému odpovědnost za vlastní popis."
+
+[[pattern]]
+id = "NLP-20.06"
+slug = "smirovatel"
+type = "concept"
+cs = "Usmiřovatel"
+en = "Placater"
+aliases = ["usmiřující postoj", "placating"]
+use = "dvoji"
+risk = "stredni"
+broader = "kategorie-satirove"
+related = ["obvinovatel", "vyrovnany", "inkongruence", "ramec-souhlasu"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md",
+  "kompendium/techniques/ea-2-5-7-self-cancelation.md",
+  "kompendium/techniques/ea-8-1-4-coercive-control-scale.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Promiň, máš úplnou pravdu, je to moje chyba, já vím, že jsem nemožná. Udělám cokoli, jen se prosím nezlob."
+context = "Partnerka reaguje na výbuch vzteku partnera kvůli drobnosti."
+benign = false
+marker = "Okamžité převzetí viny, sebepodceňování a slib čehokoli bez ohledu na skutečný podíl na situaci, typicky ve vztahu, kde nesouhlas přináší trest."
+response = "Číst výrok jako možný znak strachu, ne jako přiznání: zjišťovat bezpečí ve vztahu a podporovat schopnost říct vlastní pohled bez trestu."
+
+[[pattern.trainer]]
+utterance = "Máš pravdu, ten termín jsem nestihl a mrzí mě to. Zároveň ti říkám, že mi to zadání přišlo až ve čtvrtek, a to bych příště potřeboval dřív."
+context = "Zaměstnanec odpovídá vedoucí na výtku kvůli zpoždění."
+benign = true
+marker = "Omluva je přiměřená skutečnému podílu a je doplněna vlastním pohledem a požadavkem, tedy chybí sebepodceňování typické pro usmiřující postoj."
+response = "Benigní kontrast: přiměřená omluva s vyjádřením vlastních potřeb odpovídá vyrovnané komunikaci, ne usmiřování."
+
+[[pattern]]
+id = "NLP-20.07"
+slug = "obvinovatel"
+type = "concept"
+cs = "Obviňovatel"
+en = "Blamer"
+aliases = ["obviňující postoj", "blaming"]
+use = "dvoji"
+risk = "stredni"
+broader = "kategorie-satirove"
+related = ["smirovatel", "vyrovnany", "inkongruence", "kalibrace"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+  "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md",
+  "kompendium/03-zakladni-kategorie/scenar-h.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty nikdy nic neuděláš pořádně. Kdybys aspoň jednou myslel, nemuseli bychom teď tohle řešit. Všechno je zase kvůli tobě."
+context = "Rodič na dospívajícího syna po zapomenutém nákupu."
+benign = false
+marker = "Univerzální kvantifikátory (nikdy, všechno), přenesení celé odpovědnosti na druhého a útok na osobu místo popisu konkrétního chování."
+response = "Nepřijímat celkovou vinu, vrátit rozhovor ke konkrétní události a jejím důsledkům a pojmenovat, že útok na osobu problém neřeší."
+
+[[pattern.trainer]]
+utterance = "Jsem naštvaná, že jsi zase zapomněl na nákup, protože jsem s ním počítala na večeři. Můžeme se domluvit, jak to příště zařídit?"
+context = "Partnerka mluví s partnerem o zapomenutém nákupu."
+benign = true
+marker = "Hněv je vyjádřen otevřeně, ale vztahuje se ke konkrétnímu chování a jeho důsledku a končí návrhem na společné řešení, ne útokem na osobu."
+response = "Benigní kontrast: vyjádřit nesouhlas a hněv není obviňování; chybí zobecnění na osobu a snaha druhého ponížit."
+
+[[pattern]]
+id = "NLP-20.08"
+slug = "pocitac"
+type = "concept"
+cs = "Počítač"
+en = "Computer (super-reasonable)"
+aliases = ["superrozumný postoj", "přehnaně rozumový postoj", "super-reasonable"]
+use = "dvoji"
+risk = "stredni"
+broader = "kategorie-satirove"
+related = ["rozptylovac", "vyrovnany", "disociace", "neuro-zargon", "auditivne-digitalni-system"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/detection-signatures/1-linguistic-jargon-density.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje emoce jsou v této diskusi irelevantní. Z racionálního hlediska je zřejmé, že rozhodnutí bylo optimální, a kdo cítí opak, myslí nelogicky."
+context = "Manžel odpovídá manželce, která je rozrušená jeho rozhodnutím o společných penězích."
+benign = false
+marker = "Neosobní, abstraktní jazyk vyřazuje city druhého z rozhovoru jako nepatřičné a racionalita slouží k umlčení, ne k vysvětlení."
+response = "Trvat na tom, že pocity jsou legitimní informace o tom, jak rozhodnutí dopadá, a žádat konkrétní zdůvodnění místo odkazu na racionalitu."
+
+[[pattern.trainer]]
+utterance = "Výsledky vyšetření ukazují, že léčba zabírá jen částečně. Vím, že to není zpráva, kterou jste chtěli slyšet. Projdeme spolu, jaké máme možnosti."
+context = "Onkolog sděluje pacientce a její sestře výsledky."
+benign = true
+marker = "Věcné a přesné sdělení faktů je doplněno uznáním citového dopadu, takže chybí emocionální odpojení typické pro postoj počítače."
+response = "Benigní kontrast: věcnost není superrozumnost, pokud mluvčí bere v úvahu city posluchače i vlastní účast."
+
+[[pattern]]
+id = "NLP-20.09"
+slug = "rozptylovac"
+type = "concept"
+cs = "Rozptylovač"
+en = "Distracter"
+aliases = ["rozptylující postoj", "irelevantní postoj", "distracting"]
+use = "dvoji"
+risk = "nizke"
+broader = "kategorie-satirove"
+related = ["pocitac", "vyrovnany", "inkongruence", "umyslna-vagnost"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+  "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ptáte se na ty chybějící peníze z pokladny? Mimochodem, viděli jste ten nový automat na kávu? A neprší venku? Měli bychom jít na oběd."
+context = "Pokladník odpovídá na přímou otázku kontrolní komise."
+benign = false
+marker = "Odpovědi bez vztahu k položené otázce, rychlé přeskakování témat a vyhýbání se pohledu i obsahu, takže otázka zůstává nezodpovězena."
+response = "Klidně a opakovaně vracet rozhovor k původní otázce, zaznamenat, že na ni nebylo odpovězeno, a nenechat se strhnout novými tématy."
+
+[[pattern.trainer]]
+utterance = "Počkej, než budeme pokračovat: všiml jsem si, že se v tom zase točíme dokola. Dáme si deset minut pauzu a pak se k tomu vrátíme?"
+context = "Kolega během vyhroceného sporu na pracovní schůzce."
+benign = true
+marker = "Přerušení je ohlášené, mluvčí pojmenuje jeho důvod a navrhne návrat k tématu, takže nejde o únik, ale o regulaci konfliktu."
+response = "Benigní kontrast: otevřená pauza se slibem návratu není rozptylování; rozhodující je, zda se k tématu skutečně vrátí."
+
+[[pattern]]
+id = "NLP-20.10"
+slug = "vyrovnany"
+type = "concept"
+cs = "Vyrovnaný"
+en = "Leveller"
+aliases = ["vyrovnaná komunikace", "kongruentní postoj", "leveling"]
+use = "terapie"
+risk = "nizke"
+broader = "kategorie-satirove"
+related = ["kongruence", "smirovatel", "obvinovatel", "pocitac", "rozptylovac", "meta-pozice"]
+kompendium = [
+  "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md",
+  "philosophy/boundary-ethics.md",
+  "kompendium/06-obrana/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Já jsem s tebou úplně upřímný a otevřený, mluvím vyrovnaně, jak učí Satirová. Takže když nesouhlasíš, chyba musí být na tvé straně."
+context = "Účastník kurzu komunikace během sporu s partnerkou."
+benign = false
+marker = "Vyrovnanost se vydává za status, který mluvčímu dává pravdu, místo aby šlo o shodu slov, tónu a těla, která nesouhlas druhého unese."
+response = "Rozlišovat formu od nároku: otevřenost mluvčího nedokazuje správnost jeho stanoviska a nesouhlas druhého je legitimní součást rozhovoru."
+
+[[pattern.trainer]]
+utterance = "Je mi líto, že jsem tě ráno okřikl. Byl jsem pod tlakem, ale to není tvoje vina. Mám ale strach, že ten termín nestihneme, a potřebuju s tím pomoct."
+context = "Otec mluví s dospívající dcerou večer po ranní hádce."
+benign = true
+marker = "Slova, omluva a vyjádřený strach odpovídají situaci; mluvčí bere v úvahu sebe, druhou osobu i okolnosti a nikoho neobviňuje ani se neponižuje."
+response = "Legitimní užití: příklad vyrovnané komunikace v duchu Satirové, kde jsou vlastní pocity, potřeby i odpovědnost vyjádřeny otevřeně."

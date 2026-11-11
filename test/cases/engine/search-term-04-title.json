@@ -5,135 +5,135 @@
     "hits": [
       {
         "code": null,
-        "in": 269,
+        "in": 274,
         "kind": "Pojem",
-        "path": "glossary/gaslighting.md",
+        "path": "glossary/disociace.md",
         "tier": 2,
-        "title": "Gaslighting",
-        "url": "/glossary/gaslighting/",
+        "title": "Disociace",
+        "url": "/glossary/disociace/",
         "why": "exact_title"
       },
       {
         "code": null,
-        "in": 33,
-        "kind": "Kazuistika",
-        "path": "kompendium/case-studies/08-gaslighting-partnersky.md",
+        "in": 23,
+        "kind": "Kapitola",
+        "path": "kompendium/forensic-legal/3-dissociation-forensic.md",
+        "tier": 4,
+        "title": "Disociace ve forenzní praxi",
+        "url": "/kompendium/forensic-legal/3-dissociation-forensic/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 15,
+        "kind": "Kapitola",
+        "path": "kompendium/nlp-vzorce/disociace-a-trauma/_index.md",
+        "tier": 4,
+        "title": "Disociace, fobie a trauma",
+        "url": "/kompendium/nlp-vzorce/disociace-a-trauma/",
+        "why": "title_prefix"
+      },
+      {
+        "code": "EA-5.3.4",
+        "in": 28,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-5-3-4-telesna-disociace.md",
         "tier": 5,
-        "title": "Případ 08: Partnerský gaslighting",
-        "url": "/kompendium/case-studies/08-gaslighting-partnersky/",
+        "title": "EA-5.3.4 Tělesná disociace",
+        "url": "/kompendium/techniques/ea-5-3-4-telesna-disociace/",
         "why": "title_word"
       },
       {
         "code": null,
-        "in": 31,
-        "kind": "Detekce",
-        "path": "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+        "in": 8,
+        "kind": "Kapitola",
+        "path": "kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md",
         "tier": 5,
-        "title": "Detekční signatura: Gaslighting vzorec",
-        "url": "/kompendium/detection-signatures/12-behavioral-gaslighting-pattern/",
+        "title": "Dvojitá disociace",
+        "url": "/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace/",
         "why": "title_word"
       },
       {
-        "code": "EA-4.1",
-        "in": 20,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-4-1-gaslighting.md",
+        "code": null,
+        "in": 7,
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-disociace.md",
         "tier": 5,
-        "title": "EA-4.1 Gaslighting",
-        "url": "/kompendium/techniques/ea-4-1-gaslighting/",
+        "title": "Bridge: Disociace",
+        "url": "/kompendium/glossary-bridges/bridge-disociace/",
         "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 54,
+        "kind": "Pojem",
+        "path": "glossary/body-schema.md",
+        "tier": 6,
+        "title": "Tělesné schéma (body schema)",
+        "url": "/glossary/body-schema/",
+        "why": "description"
       },
       {
         "code": null,
         "in": 17,
-        "kind": "Kazuistika",
-        "path": "kompendium/case-studies/03-pedagogicke-gaslighting.md",
-        "tier": 5,
-        "title": "Případ 03: Pedagogické gaslighting",
-        "url": "/kompendium/case-studies/03-pedagogicke-gaslighting/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 14,
         "kind": "Kapitola",
-        "path": "kompendium/educational-scenarios/19-gaslighting-pattern.md",
-        "tier": 5,
-        "title": "Vzdělávací scénář: Vzorec gaslightingu",
-        "url": "/kompendium/educational-scenarios/19-gaslighting-pattern/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 13,
-        "kind": "Most",
-        "path": "kompendium/glossary-bridges/bridge-gaslighting.md",
-        "tier": 5,
-        "title": "Bridge: Gaslighting",
-        "url": "/kompendium/glossary-bridges/bridge-gaslighting/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 4,
-        "kind": "Pojem",
-        "path": "glossary/intelektualni-gaslighting.md",
-        "tier": 5,
-        "title": "Intelektuální gaslighting",
-        "url": "/glossary/intelektualni-gaslighting/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 100,
-        "kind": "Pojem",
-        "path": "glossary/reality-testing.md",
+        "path": "kompendium/forensic-legal/28-courtroom-decompensation.md",
         "tier": 6,
-        "title": "Testování reality (reality testing)",
-        "url": "/glossary/reality-testing/",
+        "title": "Dekompenzace u soudu",
+        "url": "/kompendium/forensic-legal/28-courtroom-decompensation/",
         "why": "description"
       },
       {
-        "code": null,
-        "in": 60,
-        "kind": "Sebeobrana",
-        "path": "kompendium/self-defense-guides/1-metacognitive-monitoring.md",
-        "tier": 6,
-        "title": "Sebe-obrana: Metakognitivní monitoring",
-        "url": "/kompendium/self-defense-guides/1-metacognitive-monitoring/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 29,
-        "kind": "Krizový protokol",
-        "path": "kompendium/emergency-protocols/7-acute-cognitive-paralysis.md",
-        "tier": 6,
-        "title": "Akutní protokol: Akutní kognitivní paralýza",
-        "url": "/kompendium/emergency-protocols/7-acute-cognitive-paralysis/",
-        "why": "description"
-      },
-      {
-        "code": "EA-6.1.7",
-        "in": 15,
+        "code": "EA-8.1.7",
+        "in": 14,
         "kind": "Technika",
-        "path": "kompendium/techniques/ea-6-1-7-trauma-history-protokol.md",
+        "path": "kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md",
         "tier": 6,
-        "title": "EA-6.1.7 Trauma history protokol",
-        "url": "/kompendium/techniques/ea-6-1-7-trauma-history-protokol/",
+        "title": "EA-8.1.7 Škála disociativních zážitků DES-II (Carlson, Putnam)",
+        "url": "/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 11,
+        "kind": "Kapitola",
+        "path": "kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md",
+        "tier": 6,
+        "title": "Navozená amnézie",
+        "url": "/kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 10,
+        "kind": "Kapitola",
+        "path": "kompendium/international/36-clinical-terminology-WHO/index.md",
+        "tier": 6,
+        "title": "WHO klinická terminologie EA",
+        "url": "/kompendium/international/36-clinical-terminology-who/",
+        "why": "description"
+      },
+      {
+        "code": "EA-6.5.3",
+        "in": 4,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-6-5-3-psychotic-spektrum-protokol.md",
+        "tier": 6,
+        "title": "EA-6.5.3 Psychotic-spektrum protokol",
+        "url": "/kompendium/techniques/ea-6-5-3-psychotic-spektrum-protokol/",
         "why": "description"
       }
     ],
     "limit": 12,
-    "normalised": "gaslighting",
+    "normalised": "disociace",
     "ok": true,
     "op": "search",
-    "query": "Gaslighting",
+    "query": "Disociace",
     "schema": "kompendium-engine/v1",
-    "total": 14
+    "total": 12
   },
   "input": {
     "op": "search",
-    "query": "Gaslighting"
+    "query": "Disociace"
   }
 }

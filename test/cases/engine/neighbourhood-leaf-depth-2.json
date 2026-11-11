@@ -6,11 +6,6 @@
       {
         "from": "glossary/_index.md",
         "kind": "link",
-        "to": "glossary/coercive-control.md"
-      },
-      {
-        "from": "glossary/_index.md",
-        "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
@@ -22,31 +17,6 @@
         "from": "glossary/_index.md",
         "kind": "link",
         "to": "kompendium/_index.md"
-      },
-      {
-        "from": "glossary/coercive-control.md",
-        "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "glossary/coercive-control.md",
-        "kind": "link",
-        "to": "glossary/taxonomie-ea.md"
-      },
-      {
-        "from": "glossary/coercive-control.md",
-        "kind": "link",
-        "to": "kompendium/06-klinicke-aplikace/_index.md"
-      },
-      {
-        "from": "glossary/coercive-control.md",
-        "kind": "link",
-        "to": "kompendium/_index.md"
-      },
-      {
-        "from": "glossary/epistemicka-anihilace.md",
-        "kind": "link",
-        "to": "glossary/coercive-control.md"
       },
       {
         "from": "glossary/epistemicka-anihilace.md",
@@ -86,11 +56,6 @@
       {
         "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
         "kind": "link",
-        "to": "glossary/coercive-control.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
-        "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
@@ -107,6 +72,16 @@
         "from": "kompendium/_index.md",
         "kind": "link",
         "to": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"
+      },
+      {
+        "from": "kompendium/_index.md",
+        "kind": "link",
+        "to": "kompendium/nlp-vzorce/_index.md"
+      },
+      {
+        "from": "kompendium/nlp-vzorce/_index.md",
+        "kind": "link",
+        "to": "kompendium/_index.md"
       },
       {
         "from": "mapa.md",
@@ -191,7 +166,7 @@
       {
         "class": "kompendium",
         "distance": 1,
-        "in": 87,
+        "in": 89,
         "path": "kompendium/_index.md",
         "title": "Kompendium epistemické a kognitivní anihilace"
       },
@@ -219,9 +194,16 @@
       {
         "class": "glossary",
         "distance": 2,
-        "in": 602,
+        "in": 603,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
+      },
+      {
+        "class": "kompendium/nlp-vzorce",
+        "distance": 2,
+        "in": 438,
+        "path": "kompendium/nlp-vzorce/_index.md",
+        "title": "NLP vzorce"
       },
       {
         "class": "kompendium/06-klinicke-aplikace",
@@ -247,23 +229,16 @@
       {
         "class": "kompendium/06-klinicke-aplikace",
         "distance": 2,
-        "in": 290,
+        "in": 299,
         "path": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
         "title": "6.1 Diagnostické indikátory a markery EA"
-      },
-      {
-        "class": "glossary",
-        "distance": 2,
-        "in": 283,
-        "path": "glossary/coercive-control.md",
-        "title": "Coercive control (donucující kontrola)"
       }
     ],
     "ok": true,
     "op": "neighbourhood",
     "path": "osy.md",
     "schema": "kompendium-engine/v1",
-    "total": 119,
+    "total": 121,
     "truncated": true
   },
   "input": {

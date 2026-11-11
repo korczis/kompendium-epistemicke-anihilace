@@ -1,0 +1,263 @@
+# Rodina NLP-07: Sleight of Mouth (pravidlo project.content-catalogs; schéma v scripts/catalogs.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+# Tento soubor nese záznamy NLP-07.01 až NLP-07.08.
+
+[[pattern]]
+id = "NLP-07.01"
+slug = "sleight-of-mouth"
+type = "pattern"
+cs = "Sleight of Mouth"
+en = "Sleight of Mouth"
+aliases = ["jazykové vzorce změny přesvědčení", "konverzační přerámování přesvědčení"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["struktura-presvedceni-som", "reframing", "obsahovy-reframing", "komplexni-ekvivalence", "pricina-a-nasledek", "obrana-proti-vlivovym-vzorcum"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/06-obrana/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Říkáš, že ti ten kurz nepomohl? To jen ukazuje, jak hluboko je tvůj blok. A kdo nemá odvahu se změnit, vždycky najde důvod, proč to nejde."
+context = "Lektor seminářů osobního rozvoje odpovídá účastníkovi, který chce odstoupit od dalšího stupně kurzu."
+benign = false
+marker = "Námitka se během dvou vět přerámuje několikrát za sebou (z výsledku na symptom, ze symptomu na charakter), aniž by se kdokoli zabýval tím, zda kurz skutečně pomohl."
+response = "Vrátit rozhovor k původní otázce: jaký měřitelný výsledek kurz sliboval a zda nastal. Rychlé střídání rámců je důvod zpomalit, ne ustoupit."
+
+[[pattern.trainer]]
+utterance = "Myslíte si, že kdo jednou selže, už to nedokáže. Znáte někoho, komu se něco nepovedlo napoprvé a později to zvládl? A co by to přesvědčení znamenalo pro vaše děti?"
+context = "Psychoterapeutka v rozhovoru s klientem po ztrátě zaměstnání, který o sobě mluví jako o neschopném."
+benign = true
+marker = "Otázky nabízejí protipříklad a důsledek, ale nechávají klientovi prostor odpovědět jinak a zkoumají jeho vlastní přesvědčení, ne přesvědčení terapeutky."
+response = "Benigní užití: přesvědčení se zkoumá spolu s klientem, cílem je jeho úleva a klient může nabídnutý výklad odmítnout bez následků."
+
+[[pattern]]
+id = "NLP-07.02"
+slug = "struktura-presvedceni-som"
+type = "concept"
+cs = "Struktura přesvědčení v Sleight of Mouth"
+en = "Belief structure in Sleight of Mouth"
+aliases = ["přesvědčení jako spojení X a Y"]
+use = "zadne"
+risk = "stredni"
+broader = "sleight-of-mouth"
+related = ["komplexni-ekvivalence", "pricina-a-nasledek", "presvedceni-o-pricine", "presvedceni-o-vyznamu", "limitujici-presvedceni", "som-zobecneni"]
+kompendium = [
+  "kompendium/techniques/ea-7-2-7-quine-web-belief.md",
+  "kompendium/detection-signatures/2-linguistic-circular-definitions.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když ses mi neozval hned, znamená to, že ti na mně nezáleží. A protože ti na mně nezáleží, budu ti muset kontrolovat zprávy."
+context = "Partner vysvětluje, proč požaduje přístup k telefonu druhého."
+benign = false
+marker = "Přesvědčení má dvě spojky: chování se ztotožní s významem (neozval se = nezáleží mu) a z významu se vyvodí oprávnění ke kontrole; obě spojky se podávají jako samozřejmé."
+response = "Rozlišit, co se stalo (zpráva přišla později), od výkladu a od nároku, který se z výkladu vyvozuje; kontrola cizího telefonu z žádného výkladu nevyplývá."
+
+[[pattern.trainer]]
+utterance = "Všimla jsem si, že říkáte, že když se nervózně zakoktáte, znamená to, že jste neschopný. Odkud se vám to spojení vzalo?"
+context = "Logopedka v rozhovoru s dospělým klientem, který se připravuje na pracovní pohovor."
+benign = true
+marker = "Spojení mezi chováním (zakoktání) a významem (neschopnost) se pojmenuje a vrátí klientovi k prozkoumání, nic se mu nevnucuje."
+response = "Benigní užití: pojmenování struktury přesvědčení dává klientovi možnost posoudit ho sám; logopedka nenabízí vlastní výklad jako jediný správný."
+
+[[pattern]]
+id = "NLP-07.03"
+slug = "som-zamer"
+type = "pattern"
+cs = "Záměr"
+en = "Intention"
+aliases = ["přerámování na pozitivní záměr"]
+use = "dvoji"
+risk = "vysoke"
+broader = "sleight-of-mouth"
+related = ["pozitivni-zamer-chovani", "elicitace-pozitivniho-zameru", "manipulativni-reframing-ve-vztazich", "som-dusledek", "clovek-neni-sve-chovani"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vím, že tě ta slova ranila, ale on to tak nemyslel. Chce pro tebe jen to nejlepší, proto je na tebe tak přísný."
+context = "Matka vysvětluje dospívající dceři otcovy ponižující poznámky."
+benign = false
+marker = "Pozornost se přesouvá od dopadu chování (zranění) k domnělému dobrému úmyslu, který se nedá ověřit a který chování omlouvá."
+response = "Trvat na tom, že dopad je skutečný bez ohledu na úmysl; dobrý úmysl neruší nárok na to, aby ponižování skončilo."
+
+[[pattern.trainer]]
+utterance = "Rozumím, že kontrolujete domácí úkoly každý večer, protože chcete, aby to syn ve škole zvládl. Co si myslíte, že to kontrolování dělá s ním?"
+context = "Školní psycholog v konzultaci s rodičem."
+benign = true
+marker = "Záměr rodiče se uzná, ale hned se otevírá otázka dopadu na dítě; záměr nic neomlouvá a chování zůstává předmětem posouzení."
+response = "Benigní užití: uznání záměru snižuje obranu rodiče a vede k posouzení účinků, ne k jejich zakrytí."
+
+[[pattern]]
+id = "NLP-07.04"
+slug = "som-redefinice"
+type = "pattern"
+cs = "Redefinice"
+en = "Redefine"
+aliases = ["přejmenování", "záměna slova v přesvědčení"]
+use = "dvoji"
+risk = "vysoke"
+broader = "sleight-of-mouth"
+related = ["obsahovy-reframing", "slovni-baliky", "nominalizace", "komplexni-ekvivalence", "som-zobecneni"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/detection-signatures/2-linguistic-circular-definitions.md",
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tomu, čemu říkáš izolace, já říkám ochrana. Neodřízl jsem tě od rodiny, jen jsem tě uchránil před lidmi, kteří tě stahují dolů."
+context = "Partner reaguje na výčitku, že druhému brání ve stycích s příbuznými."
+benign = false
+marker = "Slovo označující škodu (izolace) se nahradí slovem s podobným rozsahem, ale opačným hodnocením (ochrana), a s novým slovem se tiše mění i to, kdo je viníkem."
+response = "Popsat, co se konkrétně děje (kdo s kým nesmí mluvit a co hrozí, když to udělá); o tom, zda jde o ochranu, rozhoduje ten, koho se omezení týká."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že jste v práci selhal. Mohl byste to popsat i jako projekt, který nevyšel? Co se změní, když to nazvete takhle?"
+context = "Kouč v rozhovoru s manažerem po neúspěšném projektu."
+benign = true
+marker = "Alternativní pojmenování se nabízí jako otázka, klient srovnává oba popisy a sám rozhoduje, který lépe odpovídá skutečnosti."
+response = "Benigní užití: přejmenování nezakrývá fakta (projekt nevyšel), jen odděluje událost od celkového soudu o člověku."
+
+[[pattern]]
+id = "NLP-07.05"
+slug = "som-dusledek"
+type = "pattern"
+cs = "Důsledek"
+en = "Consequence"
+aliases = ["přerámování na důsledek"]
+use = "dvoji"
+risk = "stredni"
+broader = "sleight-of-mouth"
+related = ["budouci-prehravani", "pricina-a-nasledek", "ramec-vysledku", "som-zamer", "som-protipriklad"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md",
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Klidně si dál mysli, že máš právo na vlastní názor. Jen počítej s tím, že lidi s takovým přístupem tady dlouho nevydrží a nikde jinde je nikdo nevezme."
+context = "Vedoucí skupiny odpovídá členovi, který zpochybnil rozhodnutí vedení."
+benign = false
+marker = "Pozornost se přesouvá od obsahu názoru k údajným důsledkům jeho zastávání; „předpověď“ důsledků je ve skutečnosti skrytá hrozba, kterou mluvčí sám může naplnit."
+response = "Oddělit předpověď od hrozby: zeptat se, kdo by ty důsledky způsobil a podle jakého pravidla. Hrozbu dokumentovat a hledat oporu mimo skupinu."
+
+[[pattern.trainer]]
+utterance = "Když budete dál věřit, že s nikým nemáte mluvit o tom, co se stalo, co to podle vás udělá s vaší únavou a se spánkem za půl roku?"
+context = "Praktická lékařka v rozhovoru s pacientkou po traumatické události."
+benign = true
+marker = "Otázka po důsledku se týká vlastního zdraví pacientky a nechává odpověď na ní; lékařka nic nehrozí a nic nepodmiňuje."
+response = "Benigní užití: zkoumání důsledků přesvědčení pomáhá rozhodnout se, zda ho člověk chce dál držet; rozhodnutí zůstává jeho."
+
+[[pattern]]
+id = "NLP-07.06"
+slug = "som-rozlozeni"
+type = "pattern"
+cs = "Rozložení na části"
+en = "Chunk down"
+aliases = ["chunking dolů v Sleight of Mouth"]
+use = "dvoji"
+risk = "stredni"
+broader = "sleight-of-mouth"
+related = ["chunking-dolu", "chunking", "meta-model", "som-zobecneni", "nespecifikovane-sloveso"]
+kompendium = [
+  "kompendium/techniques/ea-2-3-3-quote-mining.md",
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tak dobře, říkáš, že na tebe křičím. Ale v pondělí jsem jen zvýšil hlas, ve středu jsem mluvil normálně a v pátek jsem byl unavený. Kde je tedy to křičení?"
+context = "Partner reaguje na výčitku, že se ve vztahu opakovaně objevuje křik."
+benign = false
+marker = "Opakovaný vzorec se rozloží na jednotlivé epizody, každá se zvlášť zlehčí nebo omluví a celek, na který si druhý stěžoval, ze stolu zmizí."
+response = "Trvat na posouzení vzorce jako celku: kolikrát se to stalo, jak dlouho to trvá a co to dělá. Jednotlivé omluvy nemění opakování."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že studium nezvládnete. Která část vám připadá nejtěžší, zkoušky, psaní práce, nebo to, jak to skloubit s prací?"
+context = "Studijní poradkyně na konzultaci se studentem dálkového studia."
+benign = true
+marker = "Celkové přesvědčení se rozkládá na konkrétní části, aby se dalo posoudit, kde je skutečný problém; nic se tím nezlehčuje ani neomlouvá."
+response = "Benigní užití: rozložení pomáhá najít, co lze změnit, a celkovou obavu studenta bere vážně."
+
+[[pattern]]
+id = "NLP-07.07"
+slug = "som-zobecneni"
+type = "pattern"
+cs = "Zobecnění"
+en = "Chunk up"
+aliases = ["chunking nahoru v Sleight of Mouth"]
+use = "dvoji"
+risk = "vysoke"
+broader = "sleight-of-mouth"
+related = ["chunking-nahoru", "hierarchie-idei", "zobecnovani", "som-rozlozeni", "som-redefinice", "univerzalni-kvantifikator"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nejde přece o to, že jsem ti vzal výplatu. Jde o to, jestli věříš naší rodině. A kdo nevěří rodině, nevěří vlastně ničemu."
+context = "Manžel odpovídá manželce, která chce mít přístup k vlastnímu účtu."
+benign = false
+marker = "Konkrétní a ověřitelná stížnost (výplata) se povýší na abstraktní hodnotu (důvěra v rodinu) a dál na soud o celé osobě; konkrétní čin z rozhovoru zmizí."
+response = "Vrátit rozhovor ke konkrétnímu činu a jeho důsledkům; souhlas s hodnotou rodiny nevyžaduje vzdát se kontroly nad vlastními penězi."
+
+[[pattern.trainer]]
+utterance = "Tvrdíte, že jste nevyšel s jedním kolegou, a proto nemáte na vedení týmu. Co pro vás vedení týmu znamená obecně a jakou roli v tom hraje jeden konflikt?"
+context = "Supervizor v rozhovoru s nově jmenovaným vedoucím."
+benign = true
+marker = "Zobecnění vede k tomu, aby si klient vyjasnil, o jakou hodnotu mu jde, a aby jeden konflikt viděl v širší souvislosti; konkrétní fakt se nepopírá."
+response = "Benigní užití: pohyb k obecnější rovině slouží orientaci klienta a nevede k soudu nad ním; ke konkrétnímu konfliktu se lze vrátit."
+
+[[pattern]]
+id = "NLP-07.08"
+slug = "som-protipriklad"
+type = "pattern"
+cs = "Protipříklad"
+en = "Counter-example"
+aliases = ["výjimka z pravidla"]
+use = "dvoji"
+risk = "stredni"
+broader = "sleight-of-mouth"
+related = ["univerzalni-kvantifikator", "zobecnovani", "som-dusledek", "som-zobecneni", "limitujici-presvedceni"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-1-selektivni-expozice.md",
+  "kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvrdíš, že na tebe pořád křičí? A co loni na Vánoce, kdy ti koupil ty náušnice a celý večer byl milý? To přece nevypadá jako člověk, který ubližuje."
+context = "Kamarádka odpovídá ženě, která popisuje opakované ponižování ze strany partnera."
+benign = false
+marker = "Jediná příjemná výjimka se staví proti opakovanému vzorci a má vyvrátit celý popis zkušenosti; v kontrolujících vztazích jsou takové výjimky součástí vzorce, ne jeho vyvrácením."
+response = "Rozlišit, že jedna výjimka nevyvrací opakování; posuzovat četnost, trvání a dopad chování a brát vážně popis toho, kdo ho zažívá."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že nikdy nic nedokončíte. Jak to bylo s tím kurzem šití, o kterém jste mluvila minule? Ten jste dokončila?"
+context = "Terapeut v kognitivně-behaviorální terapii s klientkou s depresivními myšlenkami."
+benign = true
+marker = "Protipříklad se hledá ve vlastní zkušenosti klientky a testuje absolutní tvrzení „nikdy“; nepopírá se tím, že klientka má s dokončováním potíže."
+response = "Benigní užití: výjimka z absolutního pravidla oslabuje přehnané zobecnění a klientka sama posoudí, co z ní plyne."

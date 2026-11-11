@@ -1,0 +1,275 @@
+# Rodina AF-01: Formální klamy, část 1 (AF-01.01 až AF-01.07); pravidlo project.content-catalogs,
+# schéma v scripts/catalogs.py. Pořadí záznamů je pořadí identifikátorů; identifikátor se po
+# zveřejnění nemění.
+
+[[pattern]]
+id = "AF-01.01"
+slug = "formalni-klam"
+type = "concept"
+cs = "Formální klam"
+en = "Formal fallacy"
+aliases = ["logický klam", "deduktivní klam", "neplatný úsudek"]
+use = "zadne"
+risk = "nizke"
+broader = ""
+related = ["potvrzeni-dusledku", "nerozlozeny-stredni-termin", "ctyri-terminy", "klam-klamu", "pravidlo-platnosti", "som-protipriklad"]
+kompendium = [
+  "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/02-uvod/metodologicke-poznamky.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Každý, kdo zfalšoval ten výkaz, musel mít přístup do účetního systému. Kolegyně z fakturace do systému přístup má, takže výkaz zfalšovala ona."
+context = "Vedoucí oddělení na poradě shrnuje interní šetření."
+benign = false
+marker = "Závěr stojí jen na znaku, který s hledaným pachatelem sdílí každý, kdo má přístup; stavba úsudku závěr nezaručuje ani při pravdivých premisách."
+response = "Ukázat stejnou formu s jiným obsahem, kde premisy platí a závěr zjevně ne, a žádat doklad, který odliší pachatele od ostatních lidí s přístupem."
+
+[[pattern.trainer]]
+utterance = "Ten argument je postavený na logické chybě, takže jeho závěr je nepravdivý a o návrhu už nemusíme jednat."
+context = "Člen komise reaguje na návrh, jehož zdůvodnění obsahovalo neplatný úsudek."
+benign = false
+marker = "Z neplatnosti jednoho zdůvodnění se vyvozuje nepravdivost závěru; neplatný úsudek však závěr jen nechává nedoloženým, nevyvrací ho."
+response = "Oddělit hodnocení zdůvodnění od hodnocení závěru: vadné zdůvodnění odmítnout a zeptat se, zda pro návrh existují jiné, platné důvody."
+
+[[pattern.trainer]]
+utterance = "Kdyby byl výkaz zfalšovaný tímto způsobem, musel by se lišit od bankovního výpisu. Neliší se od něj, takže tímto způsobem zfalšovaný není."
+context = "Auditor vysvětluje výsledek porovnání dokladů."
+benign = true
+marker = "Úsudek popírá důsledek podmínky, a ne její předchůdce; tato forma je platná a sporná může být jen pravdivost samotné podmínky."
+response = "Jde o platný úsudek: pokud podmínka i zjištění obstojí, závěr plyne. Diskutovat lze jen o tom, zda podmínka nepřehlíží jiný způsob falšování."
+
+[[pattern]]
+id = "AF-01.02"
+slug = "potvrzeni-dusledku"
+type = "formal"
+cs = "Potvrzení důsledku"
+en = "Affirming the consequent"
+aliases = ["afirmace konsekventu", "klam důsledku"]
+use = "dvoji"
+risk = "stredni"
+broader = "formalni-klam"
+related = ["popreni-predchudce", "klam-zalobce", "zanedbani-zakladni-miry", "post-hoc", "pricina-a-nasledek", "argumentacni-schemata"]
+kompendium = [
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdo něco skrývá, ten se při výslechu vyhýbá pohledu do očí. Svědek se celou dobu díval do stolu, takže je jasné, že něco skrývá."
+context = "Vyšetřovatel shrnuje dojem z podání vysvětlení."
+benign = false
+marker = "Z tvrzení, že skrývání vede k uhýbání pohledem, se usuzuje obráceně; uhýbání pohledem však mohou způsobit i stres, stud nebo kulturní zvyklost."
+response = "Zeptat se, jak často se týž znak objevuje u lidí, kteří nic neskrývají; znak, který vzniká i bez hledané příčiny, ji sám nedokládá."
+
+[[pattern.trainer]]
+utterance = "Kdyby ten přípravek opravdu působil, pacientům by se během měsíce ulevilo. Ulevilo se jim, takže přípravek funguje."
+context = "Příspěvek v diskusi o doplňku stravy pro lidi s chronickou bolestí."
+benign = false
+marker = "Úleva je důsledkem, který by nastal i při přirozeném kolísání obtíží, očekávání nebo současné léčbě; její výskyt předchůdce nepotvrzuje."
+response = "Ptát se, co by se stalo bez přípravku: srovnávací skupina nebo jiný doklad musí vyloučit ostatní cesty k úlevě."
+
+[[pattern.trainer]]
+utterance = "Tyto nálezy by odpovídaly zánětu, ale stejně tak dvěma jiným příčinám. Zánět je zatím nejpravděpodobnější, zítra ho ověříme krevním testem."
+context = "Lékařka vysvětluje pacientovi předběžnou diagnózu."
+benign = true
+marker = "Úsudek od nálezu k příčině je podán jako pravděpodobnostní hypotéza, výslovně se zvažují jiné příčiny a následuje ověření, ne jako dedukce."
+response = "Legitimní úsudek k nejlepšímu vysvětlení: nepředstírá jistotu, jmenuje alternativy a nechává se opravit dalším testem."
+
+[[pattern]]
+id = "AF-01.03"
+slug = "popreni-predchudce"
+type = "formal"
+cs = "Popření předchůdce"
+en = "Denying the antecedent"
+aliases = ["negace antecedentu", "klam předchůdce"]
+use = "chyba"
+risk = "nizke"
+broader = "formalni-klam"
+related = ["potvrzeni-dusledku", "nedovoleny-vetsi-termin", "odvolani-na-nevedomost", "jedina-pricina", "modalni-operator-nutnosti"]
+kompendium = [
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+  "kompendium/06-obrana/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdyby tě uhodil, bylo by to násilí. Jenže on tě nikdy neuhodil, takže to, co doma dělá, žádné násilí není."
+context = "Známá komentuje vztah, v němž partner kontroluje peníze, telefon a kontakty druhé osoby."
+benign = false
+marker = "Z toho, že úder k závěru stačí, se vyvozuje, že bez úderu závěr neplatí; násilí však může mít i jiné podoby, například kontrolu a izolaci."
+response = "Zeptat se, zda je uvedená podmínka jedinou cestou k závěru; nátlakovou kontrolu lze popsat a doložit i bez fyzického napadení."
+
+[[pattern.trainer]]
+utterance = "Když máte lékařskou zprávu s diagnózou, náleží vám úprava pracovní doby. Zprávu s diagnózou nemáte, takže vám žádná úprava nepřísluší."
+context = "Personalista odpovídá zaměstnankyni, která pečuje o nemocného rodiče."
+benign = false
+marker = "Jeden důvod nároku se vydává za jediný možný; z jeho nesplnění se usuzuje na neexistenci nároku, přestože pravidla mohou znát i jiné důvody."
+response = "Ověřit, zda je podmínka v pravidlech uvedena jako postačující, nebo jako nutná; jen nutná podmínka dovoluje z jejího nesplnění něco vyvodit."
+
+[[pattern.trainer]]
+utterance = "Do laboratoře smí jen ten, kdo absolvoval bezpečnostní školení. Školení jste zatím neabsolvoval, takže vás dovnitř pustit nemůžeme."
+context = "Vedoucí laboratoře mluví s novým kolegou."
+benign = true
+marker = "Podmínka je formulována jako nutná („jen ten, kdo“); úsudek z jejího nesplnění je proto platný a nejde o popření předchůdce."
+response = "Platný úsudek: nutná podmínka chybí, takže závěr plyne. Lze se nanejvýš ptát, zda pravidlo opravdu zní takto přísně."
+
+[[pattern]]
+id = "AF-01.04"
+slug = "nerozlozeny-stredni-termin"
+type = "formal"
+cs = "Nerozložený střední termín"
+en = "Undistributed middle"
+aliases = ["nedistribuovaný střední termín", "klam nerozloženého středu"]
+use = "dvoji"
+risk = "stredni"
+broader = "formalni-klam"
+related = ["vina-asociaci", "nedovoleny-vetsi-termin", "nedovoleny-mensi-termin", "potvrzeni-dusledku", "komplexni-ekvivalence"]
+kompendium = [
+  "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Extremisté kritizují nové bezpečnostní opatření. Vy to opatření kritizujete taky, takže jste jeden z nich."
+context = "Moderátor veřejné debaty reaguje na námitku člověka z publika."
+benign = false
+marker = "Společný znak (kritika opatření) sdílí extremisté i mnoho dalších lidí; střední termín není v žádné premise vztažen na všechny kritiky, takže spojení obou skupin neplyne."
+response = "Zeptat se, zda každý, kdo opatření kritizuje, je extremista; protože tak premisa nezní, závěr z ní nevyplývá a o námitce je třeba jednat věcně."
+
+[[pattern.trainer]]
+utterance = "Všichni podvodní správci, které jsme dosud odhalili, slibovali mimořádně vysoké výnosy. Tento správce slibuje vysoké výnosy, takže je to podvodník."
+context = "Analytik dozorového orgánu shrnuje první dojem z nabídky investičního fondu."
+benign = false
+marker = "Znak sdílený podvodníky i částí poctivých nabídek se vydává za doklad příslušnosti ke skupině; jako dedukce úsudek neplatí, nanejvýš jde o důvod k prověření."
+response = "Brát společný znak jako varovný signál, který odůvodňuje prověrku, a závěr o podvodu stavět až na znacích, které poctivé nabídky nemají."
+
+[[pattern.trainer]]
+utterance = "Každá látka na tomto seznamu je ve sportu zakázaná. Látka nalezená ve vzorku je na seznamu uvedena, takže je zakázaná."
+context = "Člen disciplinární komise vysvětluje závěr komise."
+benign = true
+marker = "Střední termín (látka na seznamu) je v první premise vztažen na všechny látky na seznamu, je tedy rozložený a závěr platně plyne."
+response = "Platný sylogismus: spor se může vést jen o pravdivost premis, tedy o správnost seznamu a o spolehlivost analýzy vzorku."
+
+[[pattern]]
+id = "AF-01.05"
+slug = "nedovoleny-vetsi-termin"
+type = "formal"
+cs = "Nedovolený větší termín"
+en = "Illicit major"
+aliases = ["nedovolené rozšíření většího termínu", "nedovolená distribuce většího termínu"]
+use = "chyba"
+risk = "nizke"
+broader = "formalni-klam"
+related = ["nedovoleny-mensi-termin", "nerozlozeny-stredni-termin", "popreni-predchudce", "vylucujici-premisy"]
+kompendium = [
+  "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Každý, kdo má přístup k serveru s osobními údaji, podepsal mlčenlivost. Brigádníci k serveru přístup nemají, takže žádný z nich mlčenlivost nepodepsal."
+context = "Správce systému odpovídá na otázku pověřence pro ochranu osobních údajů."
+benign = false
+marker = "Závěr se vyjadřuje o všech, kdo podepsali mlčenlivost, ale premisa mluví jen o těch s přístupem; mlčenlivost mohli podepsat i lidé bez přístupu."
+response = "Ověřit evidenci podpisů přímo; z premis plyne jen to, že brigádníci nejsou mezi lidmi s přístupem, ne nic o jejich podpisech."
+
+[[pattern.trainer]]
+utterance = "Všichni lékaři tohoto oddělení prošli kurzem resuscitace. Sanitáři lékaři nejsou, takže kurzem resuscitace neprošel nikdo z nich."
+context = "Diskuse o personálním zajištění noční služby."
+benign = false
+marker = "Termín „ti, kdo prošli kurzem“ je v závěru vztažen na všechny absolventy kurzu, kdežto v premise jen na lékaře; kurz mohli absolvovat i jiní."
+response = "Zjistit, kdo kurz skutečně absolvoval; z toho, kdo kurz povinně má, nelze vyvodit, kdo ho nemá."
+
+[[pattern.trainer]]
+utterance = "Každý, kdo podepsal mlčenlivost, má do archivu přístup. Žádný externista do archivu přístup nemá, takže mlčenlivost nepodepsal žádný externista."
+context = "Správce archivu vysvětluje stav evidence auditorovi."
+benign = true
+marker = "Termín „ti, kdo podepsali mlčenlivost“ je rozložený už v první premise, kde mluví o všech signatářích; závěr ho tedy rozšiřuje oprávněně."
+response = "Platný sylogismus: pokud obě premisy platí, závěr plyne. Ověřovat lze jen pravdivost premis, tedy úplnost evidence přístupů."
+
+[[pattern]]
+id = "AF-01.06"
+slug = "nedovoleny-mensi-termin"
+type = "formal"
+cs = "Nedovolený menší termín"
+en = "Illicit minor"
+aliases = ["nedovolené rozšíření menšího termínu", "nedovolená distribuce menšího termínu"]
+use = "chyba"
+risk = "stredni"
+broader = "formalni-klam"
+related = ["nedovoleny-vetsi-termin", "nerozlozeny-stredni-termin", "ukvapene-zobecneni", "prilis-siroke-zobecneni", "univerzalni-kvantifikator"]
+kompendium = [
+  "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Všechny případy, které kontrola letos odhalila, byly podvody. Všechny odhalené případy se týkaly žadatelů z jednoho kraje. Takže všichni žadatelé z toho kraje podvádějí."
+context = "Zastupitel komentuje výroční zprávu kontrolního odboru."
+benign = false
+marker = "Premisy mluví jen o odhalených případech, závěr o všech žadatelích z kraje; menší termín se v závěru rozšiřuje na celek, o němž premisy nic neříkají."
+response = "Zeptat se, kolik žadatelů z kraje bylo kontrolováno a jak se vybírali; z odhalených případů plyne nanejvýš to, že někteří žadatelé podváděli."
+
+[[pattern.trainer]]
+utterance = "Všechny oběti té série telefonických podvodů byly mimořádně důvěřivé. Všechny oběti byly senioři. Takže senioři jsou mimořádně důvěřiví."
+context = "Komentář v místním zpravodaji k sérii podvodů."
+benign = false
+marker = "Premisy popisují jen oběti, závěr všechny seniory; menší termín se v závěru vztahuje na celou skupinu, o jejíž většině premisy nic neříkají."
+response = "Zeptat se na seniory, kteří podvodníkům nenaletěli; z vlastností obětí plyne nanejvýš to, že někteří senioři byli důvěřiví, ne soud o celé generaci."
+
+[[pattern.trainer]]
+utterance = "Všechny případy odhalené letos byly podvody a všechny se týkaly žadatelů z jednoho kraje. Někteří žadatelé z toho kraje tedy podváděli; víc o nich z toho nevyplývá."
+context = "Analytička kontrolního odboru shrnuje výroční zprávu."
+benign = true
+marker = "Závěr je omezen na „některé“, což premisy o skutečně odhalených případech unesou; menší termín se nerozšiřuje na všechny žadatele."
+response = "Platný a opatrný úsudek: závěr nepřekračuje rozsah premis a výslovně odmítá zobecnění na celý kraj."
+
+[[pattern]]
+id = "AF-01.07"
+slug = "ctyri-terminy"
+type = "formal"
+cs = "Čtyři termíny"
+en = "Four terms"
+aliases = ["quaternio terminorum", "klam čtyř termínů"]
+use = "dvoji"
+risk = "stredni"
+broader = "formalni-klam"
+related = ["ekvivokace", "nerozlozeny-stredni-termin", "presvedcovaci-definice", "komplexni-ekvivalence", "nominalizace"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+  "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Terapie má být prostor, kde se nikdo nehodnotí. Vaše výtka k mému postupu je hodnocení, takže do terapie nepatří."
+context = "Terapeut odpovídá klientce, která si stěžuje na průběh sezení."
+benign = false
+marker = "Slovo „hodnocení“ znamená v první premise posuzování klienta, ve druhé zpětnou vazbu k práci terapeuta; úsudek má čtyři termíny místo tří."
+response = "Rozlišit oba významy: zásada nehodnotit klienta neříká nic o právu klienta posoudit postup odborníka a stížnost je třeba vyřídit věcně."
+
+[[pattern.trainer]]
+utterance = "Zákon chrání svobodný projev. Šíření smyšlených obvinění o sousedech je také projev, takže je zákonem chráněné."
+context = "Účastník sporu v obecní diskusní skupině."
+benign = false
+marker = "„Projev“ v první premise je právně vymezená svoboda s mezemi, ve druhé jakékoli sdělení; střední termín mění význam a závěr neplyne."
+response = "Zeptat se, v jakém smyslu se slovo užívá v každé premise; svoboda projevu v právním smyslu nezahrnuje vše, co je sdělením."
+
+[[pattern.trainer]]
+utterance = "Normální v lékařském smyslu znamená v rozmezí referenčních hodnot. Vaše hodnota v něm je, takže je v tomto smyslu normální; jak se cítíte, to ale neříká."
+context = "Lékař vysvětluje pacientce výsledek krevního testu."
+benign = true
+marker = "Klíčové slovo je výslovně definováno a v celém úsudku se užívá v jednom významu; mluvčí sám označí, co z úsudku neplyne."
+response = "Platný úsudek: termín si drží jeden význam a mluvčí odděluje laboratorní normu od prožívání pacientky."

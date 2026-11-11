@@ -1,0 +1,328 @@
+# Rodina NLP-04: Milton-model, část c (NLP-04.21 až NLP-04.30); pravidlo project.content-catalogs,
+# schéma v scripts/catalogs.py. Pořadí záznamů je pořadí identifikátorů.
+
+[[pattern]]
+id = "NLP-04.21"
+slug = "modalni-operatory-milton"
+type = "pattern"
+cs = "Modální operátory v Milton-modelu"
+en = "Modal operators (Milton Model)"
+aliases = ["permisivní modalita", "operátory nutnosti a možnosti v sugesci"]
+use = "dvoji"
+risk = "vysoke"
+broader = "milton-model"
+related = ["modalni-operator-nutnosti", "modalni-operator-moznosti", "presupozice-milton", "iluze-volby"]
+kompendium = [
+  "kompendium/techniques/ea-5-1-11-modalni-dezorientace.md",
+  "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md",
+  "kompendium/06-obrana/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tady prostě nemůžeš odejít dřív než ostatní a musíš pochopit, že pochybnosti si člověk na začátku nesmí dovolit."
+context = "Vedoucí uzavřené skupiny mluví s nováčkem po večerním setkání."
+benign = false
+marker = "Hromadí se operátory nutnosti a nemožnosti (nemůžeš, musíš, nesmí), které vymezují hranice jednání bez udání, kdo pravidlo stanovil a co by se stalo při jeho porušení."
+response = "Ptát se, kdo pravidlo určil, co přesně by se stalo při jeho porušení a zda jde o skutečnou nemožnost, nebo o požadavek; svou volbu odejít zachovat."
+
+[[pattern.trainer]]
+utterance = "Během cvičení můžete mít oči otevřené, nebo zavřené, a kdykoli můžete přestat, když vám to nebude příjemné."
+context = "Psycholog uvádí relaxační cvičení ve skupině, kde je účast dobrovolná."
+benign = true
+marker = "Operátory možnosti tu skutečně rozšiřují volbu: nabízejí obě alternativy i výslovné právo cvičení ukončit."
+response = "Jde o legitimní permisivní formulaci: rozhodnutí zůstává účastníkovi a právo přestat je uvedeno výslovně, ne jen naznačeno."
+
+[[pattern]]
+id = "NLP-04.22"
+slug = "nominalizace-milton"
+type = "pattern"
+cs = "Nominalizace v Milton-modelu"
+en = "Nominalisations (Milton Model)"
+aliases = ["zpodstatnělé procesy v sugesci"]
+use = "dvoji"
+risk = "vysoke"
+broader = "milton-model"
+related = ["nominalizace", "umyslna-vagnost", "nespecifikovana-slovesa-milton", "transderivacni-hledani"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/detection-signatures/1-linguistic-jargon-density.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje transformace už začala a tvoje rezistence je jen známka, že probuzení přichází. Odevzdanost ti přinese svobodu."
+context = "Lektor seberozvojového programu odpovídá účastníkovi, který vyjadřuje nejistotu."
+benign = false
+marker = "Abstraktní podstatná jména (transformace, rezistence, probuzení, odevzdanost, svoboda) stojí místo dějů bez účastníků, takže posluchač si jejich obsah dosadí sám a nemá co ověřit."
+response = "Převést každé slovo zpět na děj: kdo má co konkrétně dělat, co se změní a podle čeho se to pozná; bez odpovědi nic nepřijímat."
+
+[[pattern.trainer]]
+utterance = "Spolupráce v týmu se zlepšila: od března si předáváme rozpracované úkoly písemně a nikdo nečeká na odpověď déle než den."
+context = "Vedoucí oddělení shrnuje výsledek změny na poradě."
+benign = true
+marker = "Nominalizace spolupráce je hned rozvedena do konkrétních dějů a měřitelných změn, takže neslouží jako prázdná nádoba."
+response = "Jde o běžné a legitimní užití abstraktního slova: je doplněno o ověřitelný obsah, který posluchač může zkontrolovat."
+
+[[pattern]]
+id = "NLP-04.23"
+slug = "nespecifikovana-slovesa-milton"
+type = "pattern"
+cs = "Nespecifikovaná slovesa v Milton-modelu"
+en = "Unspecified verbs (Milton Model)"
+aliases = ["neurčitá slovesa v sugesci"]
+use = "dvoji"
+risk = "stredni"
+broader = "milton-model"
+related = ["nespecifikovane-sloveso", "nominalizace-milton", "umyslna-vagnost", "nespecifikovany-index-milton"]
+kompendium = [
+  "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Až to opravdu pocítíš a začneš se otevírat, pochopíš, proč se ti to děje a co se v tobě zpracovává."
+context = "Vedoucí víkendového semináře mluví k účastníkovi v emočně vypjaté chvíli."
+benign = false
+marker = "Slovesa pocítit, otevírat se, pochopit a zpracovávat se nesdělují, co se má stát, jak a s čím; posluchač si děj doplní z vlastní zkušenosti a připíše ho mluvčímu."
+response = "Žádat konkrétní popis: co přesně má člověk cítit nebo dělat a podle čeho by se poznalo, že se to neděje; vlastní prožitek nenechat interpretovat cizím rámcem."
+
+[[pattern.trainer]]
+utterance = "Zkuste si zapamatovat, co vám v rozhovoru pomohlo, a příště mi řekněte, jestli to šlo použít."
+context = "Terapeutka na konci sezení s dospělým klientem."
+benign = true
+marker = "Obecné sloveso pomoci je otevřené, ale obsah určuje klient a terapeutka se k němu výslovně vrací a ověřuje ho."
+response = "Jde o legitimní otevřenou formulaci: obsah zůstává klientovi a je následně společně pojmenován, ne dosazen autoritou."
+
+[[pattern]]
+id = "NLP-04.24"
+slug = "nespecifikovany-index-milton"
+type = "pattern"
+cs = "Nespecifikovaný referenční index v Milton-modelu"
+en = "Unspecified referential index (Milton Model)"
+aliases = ["chybějící referenční index v sugesci", "neurčitý podmět"]
+use = "dvoji"
+risk = "vysoke"
+broader = "milton-model"
+related = ["nespecifikovany-referencni-index", "muj-pritel-john", "citace", "nespecifikovana-slovesa-milton"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Lidé, kteří to s sebou myslí vážně, poznají, kdy je čas přestat se ptát a začít důvěřovat."
+context = "Prodejce drahého kurzu na prezentaci pro zájemce."
+benign = false
+marker = "Neurčití lidé, kteří to myslí vážně, nejsou nikým konkrétním; posluchač se do skupiny zařadí sám a přijme normu, kterou nikdo nevyslovil jako požadavek."
+response = "Zeptat se, o koho konkrétně jde a odkud to mluvčí ví; normu vrátit na úroveň výslovného požadavku, který lze odmítnout."
+
+[[pattern.trainer]]
+utterance = "Někteří lidé po porodu zažívají smutek, který neodezní ani po několika týdnech, a stojí za to o tom mluvit s lékařem."
+context = "Porodní asistentka na předporodním kurzu."
+benign = true
+marker = "Neurčitý podmět tu chrání soukromí a normalizuje zkušenost, ale nevede k žádnému skrytému závazku a odkazuje na ověřitelnou pomoc."
+response = "Jde o legitimní užití: obecná formulace usnadňuje přiznat potíž a směřuje k odborníkovi, ne k mluvčímu."
+
+[[pattern]]
+id = "NLP-04.25"
+slug = "iluze-volby"
+type = "pattern"
+cs = "Iluze volby"
+en = "Illusion of choice"
+aliases = ["falešná alternativa", "vazba srovnatelných alternativ"]
+use = "dvoji"
+risk = "vysoke"
+broader = "milton-model"
+related = ["terapeuticka-dvojna-vazba", "presupozice-nebo", "presupozice-milton", "sugesce-pokryvajici-vsechny-moznosti", "modalni-operatory-milton"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md",
+  "kompendium/06-obrana/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Smlouvu můžete podepsat hned dnes, nebo si ji odnést domů a podepsat do pátku, jak je vám to pohodlnější."
+context = "Obchodní zástupce na schůzce v domácnosti zákazníka."
+benign = false
+marker = "Obě nabízené možnosti předpokládají podpis; volba se týká jen času, kdežto možnost nepodepsat vůbec ve výroku nefiguruje."
+response = "Pojmenovat chybějící možnost (nepodepsat), oddělit otázku zda od otázky kdy a rozhodnutí odložit na dobu po konzultaci s někým nezávislým."
+
+[[pattern.trainer]]
+utterance = "Můžeme se dnes věnovat té hádce s bratrem, nebo něčemu jinému. Také můžeme jen mluvit o tom, jak se vám teď daří."
+context = "Psychoterapeut na začátku sezení."
+benign = true
+marker = "Nabídka zahrnuje i otevřenou alternativu mimo navržené možnosti, takže volba je skutečná a neskrývá předem daný výsledek."
+response = "Jde o legitimní nabídku voleb: výčet není uzavřený a klient může určit vlastní téma, včetně žádného z navržených."
+
+[[pattern]]
+id = "NLP-04.26"
+slug = "negativni-prikazy"
+type = "pattern"
+cs = "Záporné příkazy"
+en = "Negative commands"
+aliases = ["sugesce v záporu", "negativní sugesce"]
+use = "dvoji"
+risk = "stredni"
+broader = "milton-model"
+related = ["vlozene-prikazy", "analogove-znaceni", "paradoxni-intervence", "konverzacni-postulaty"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nemusíte se teď hned rozhodnout, že u nás zůstanete. Jen si nepředstavujte, jak by vám bylo, kdybyste tuhle šanci zahodil."
+context = "Náborář ve víceúrovňovém prodeji telefonuje váhajícímu zájemci."
+benign = false
+marker = "Zápor formálně ruší požadavek, ale obsah, který má posluchač odmítnout (rozhodnutí zůstat, představa ztráty), je přesto vyslovený a zaměřuje na něj pozornost."
+response = "Všimnout si, jaký obsah zápor přináší do hovoru, a odpovídat na výslovnou nabídku, ne na vnucenou představu; rozhodnutí odložit."
+
+[[pattern.trainer]]
+utterance = "Neběhej přes silnici, když svítí červená; počkej u přechodu, až naskočí zelená."
+context = "Rodič na chodníku s osmiletým dítětem."
+benign = true
+marker = "Zápor je hned doplněn o kladný popis žádoucího chování, takže výrok neslouží k nenápadnému vnesení obsahu, ale k jasnému pokynu."
+response = "Jde o běžný a legitimní pokyn: obsah i cíl jsou výslovné a nic se neskrývá za formou záporu."
+
+[[pattern]]
+id = "NLP-04.27"
+slug = "pacing-aktualni-zkusenosti"
+type = "pattern"
+cs = "Pacing aktuální zkušenosti"
+en = "Pacing current experience"
+aliases = ["popis aktuální zkušenosti", "smyslově ověřitelný pacing"]
+use = "dvoji"
+risk = "vysoke"
+broader = "milton-model"
+related = ["pacing-a-leading-pojem", "truismy", "ano-sada", "raport", "retezeni-sugesci"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+  "kompendium/06-obrana/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Sedíte tu, slyšíte můj hlas, cítíte opěradlo židle, a právě proto už víte, že to, co vám říkám, je pro vás pravda."
+context = "Řečník na motivační akci s velkým publikem."
+benign = false
+marker = "Řada nepochybných popisů přítomné chvíle (sedíte, slyšíte, cítíte) je bez opory spojena s tvrzením, které ověřit nelze; souhlas s vjemy se přenáší na obsah."
+response = "Oddělit ověřitelné popisy od tvrzení, které na ně navazuje: to, že sedím a slyším, nic neříká o pravdivosti sdělení."
+
+[[pattern.trainer]]
+utterance = "Vidím, že se díváte na hodinky a že vás ta čekárna unavila. Omlouvám se za zpoždění, výsledky už mám."
+context = "Lékař přichází za pacientem po dlouhém čekání."
+benign = true
+marker = "Popis aktuální zkušenosti druhého slouží k uznání jeho stavu a nenavazuje na něj žádné nepodložené tvrzení ani požadavek."
+response = "Jde o legitimní empatické zrcadlení: pozornost ke stavu druhého, po kterém následuje věcná informace, ne vedení k závazku."
+
+[[pattern]]
+id = "NLP-04.28"
+slug = "retezeni-sugesci"
+type = "pattern"
+cs = "Řetězení sugescí"
+en = "Linking suggestions"
+aliases = ["propojování sugescí", "řetěz sugescí"]
+use = "dvoji"
+risk = "vysoke"
+broader = "milton-model"
+related = ["spojky-a-implikovana-pricinnost", "slozena-sugesce", "ano-sada", "pacing-aktualni-zkusenosti"]
+kompendium = [
+  "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md",
+  "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Už jste přišli, už jste se zapsali a zaplatili zálohu, a čím víc se uvolňujete, tím jasněji cítíte, že další stupeň kurzu je pro vás."
+context = "Lektorka zakončuje první den placeného semináře."
+benign = false
+marker = "Ověřitelné kroky z minulosti a přítomnosti jsou spojkami a srovnávací konstrukcí čím-tím navázány na nový závazek, jako by z nich přirozeně vyplýval."
+response = "Rozpojit řetěz: každé tvrzení posoudit zvlášť a uvědomit si, že dosavadní účast ani uvolnění nejsou důvodem k dalšímu nákupu."
+
+[[pattern.trainer]]
+utterance = "Když se léky užívají pravidelně a k tomu se omezí sůl, tlak obvykle během několika týdnů klesá, a pak spolu upravíme dávku."
+context = "Praktická lékařka vysvětluje léčbu vysokého tlaku."
+benign = true
+marker = "Spojení dějů odpovídá skutečné, doložitelné souvislosti a podmínky jsou vysloveny otevřeně, takže řetěz lze zkontrolovat."
+response = "Jde o legitimní vysvětlení: souvislost mezi články je věcná, ověřitelná a pacient ji může zpochybnit nebo s ní nesouhlasit."
+
+[[pattern]]
+id = "NLP-04.29"
+slug = "srovnavaci-delece-milton"
+type = "pattern"
+cs = "Srovnávací vypuštění v Milton-modelu"
+en = "Comparative deletion (Milton Model)"
+aliases = ["neúplné srovnání v sugesci"]
+use = "dvoji"
+risk = "stredni"
+broader = "milton-model"
+related = ["srovnavaci-delece", "srovnavaci-presupozice", "umyslna-vagnost", "nominalizace-milton"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md",
+  "kompendium/techniques/ea-1-1-1-selektivni-expozice.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty bys přece měla chtít víc. Jiní v tvé pozici jsou mnohem dál a ty se pořád spokojuješ s méně."
+context = "Partner komentuje rozhodnutí druhé osoby zůstat v současném zaměstnání."
+benign = false
+marker = "Srovnání víc, dál a méně nemají uvedené měřítko ani konkrétní srovnávanou osobu; posluchač si dosadí vlastní nejhorší srovnání."
+response = "Žádat doplnění: víc čeho, dál než kdo a podle jakého měřítka; srovnání bez měřítka nepřijímat jako hodnocení vlastní volby."
+
+[[pattern.trainer]]
+utterance = "Ten druhý lék je pro vás šetrnější, protože méně zatěžuje ledviny než ten, který berete teď."
+context = "Lékař vysvětluje změnu medikace pacientovi s onemocněním ledvin."
+benign = true
+marker = "Srovnání má uvedený předmět i měřítko (zátěž ledvin oproti současnému léku), takže je úplné a lze ho ověřit."
+response = "Jde o legitimní srovnání: obě strany i kritérium jsou vysloveny a pacient se může doptat na podklady."
+
+[[pattern]]
+id = "NLP-04.30"
+slug = "presupozice-milton"
+type = "pattern"
+cs = "Presupozice v Milton-modelu"
+en = "Presuppositions (Milton Model)"
+aliases = ["předpoklady v sugesci"]
+use = "dvoji"
+risk = "vysoke"
+broader = "milton-model"
+related = ["jazykove-presupozice", "presupozice-v-meta-modelu", "otazky-s-presupozici", "iluze-volby", "modalni-operatory-milton"]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Až si konečně přiznáš, kolik ti ta tvoje rodina vlastně vzala, budeš se divit, že jsi to neviděla dřív."
+context = "Člen uzavřeného společenství mluví s nově příchozí ženou o jejích blízkých."
+benign = false
+marker = "Časová věta s až a slovesa přiznat si a divit se předpokládají jako hotovou věc, že rodina ženě škodila; sporné tvrzení se nevyslovuje, takže ho nelze přímo odmítnout."
+response = "Vyslovit skrytý předpoklad nahlas (rodina mi škodí) a posoudit ho jako samostatné tvrzení, které potřebuje doklady."
+
+[[pattern.trainer]]
+utterance = "Kdy jste v pondělí odcházel z práce a kudy jste šel domů?"
+context = "Policista vyslýchá svědka, o kterém je z docházkového systému doloženo, že v pondělí v práci byl."
+benign = true
+marker = "Otázka předpokládá jen to, co je již doloženo nezávislým záznamem, a nevnáší do výpovědi sporný obsah."
+response = "Jde o legitimní otázku: předpoklad je ověřený a otevřený, svědek ho může opravit a výpověď neřídí k určitému závěru."

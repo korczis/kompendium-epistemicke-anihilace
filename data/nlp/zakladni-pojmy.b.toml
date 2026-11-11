@@ -1,0 +1,362 @@
+# Rodina NLP-02: Základní pojmy NLP, část b (NLP-02.12 až NLP-02.22).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-02.12"
+slug = "submodality-pojem"
+type = "concept"
+cs = "Submodality"
+en = "Submodalities (concept)"
+aliases = ["kvality představ", "jemná rozlišení smyslových modalit"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["elicitace-submodalit", "kriticke-submodality", "swish", "reprezentacni-systemy", "submodality-v-reklame", "disociace"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ta vzpomínka na tvou rodinu je jen velký jasný obraz, který máš moc blízko. Až ho zmenšíš a dáš do šedi, uvidíš, že k nim vlastně nic necítíš."
+context = "Vedoucí skupiny mluví s novým členem, který se chce vrátit domů."
+benign = false
+marker = "Řeč o kvalitách představy (velikost, jas, barva, vzdálenost) slouží k oslabení citové vazby, kterou vedoucí chce přerušit; cíl změny určuje on, ne člověk sám."
+response = "Rozpoznat, že nejde o zpracování obtíže, ale o odpojení od blízkých; ponechat si právo na vlastní city a ověřit si vztah s rodinou přímým kontaktem."
+
+[[pattern.trainer]]
+utterance = "Když si na tu nehodu vzpomenete, je to pro vás spíš obraz, nebo spíš zvuk? A je blízko, nebo daleko? Ptám se jen proto, abych lépe rozuměla, jak to prožíváte."
+context = "Psycholožka při úvodním rozhovoru s klientem po dopravní nehodě."
+benign = true
+marker = "Otázky na kvality vzpomínky slouží porozumění prožitku klienta; terapeutka nic nenavrhuje měnit a cíl rozhovoru zůstává na klientovi."
+response = "Jde o neškodné zkoumání prožitku: klient může odpovědět, nebo odmítnout, a nic se mu nevnucuje."
+
+[[pattern]]
+id = "NLP-02.13"
+slug = "kalibrace"
+type = "concept"
+cs = "Kalibrace"
+en = "Calibration"
+aliases = ["kalibrování", "čtení individuálních signálů"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["smyslova-ostrost", "kalibrace-ano-ne", "detekce-lzi-v-nlp", "cteni-reci-tela", "ocni-pristupove-signaly", "raport"]
+kompendium = [
+  "kompendium/06-obrana/_index.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vidím na tobě, že lžeš. Znám každý tvůj pohled a každé zaváhání, takže mi nemusíš nic vysvětlovat, já tě přečtu líp než ty sám sebe."
+context = "Partner v kontrolujícím vztahu během hádky o to, kde druhý byl."
+benign = false
+marker = "Tvrzení o dokonalém čtení signálů druhého se staví nad jeho vlastní výpověď; pozorování se nepodává jako hypotéza, ale jako nezvratný důkaz."
+response = "Trvat na tom, že výraz tváře ani pohled neprokazují lež, a vracet rozhovor k ověřitelným faktům; výpověď člověka o sobě nelze nahradit čtením jeho těla."
+
+[[pattern.trainer]]
+utterance = "Všimla jsem si, že když mluvíme o práci, ztišíte se a díváte se k oknu. Možná to nic neznamená, ale chcete mi k tomu něco říct?"
+context = "Terapeutka na třetím sezení s klientkou."
+benign = true
+marker = "Pozorovaná změna se vztahuje k dřívějšímu chování téže osoby a podává se jako otevřená otázka, kterou klientka může odmítnout."
+response = "Jde o legitimní užití: pozorování zůstává hypotézou a výklad patří klientce."
+
+[[pattern]]
+id = "NLP-02.14"
+slug = "smyslova-ostrost"
+type = "concept"
+cs = "Smyslová ostrost"
+en = "Sensory acuity"
+aliases = ["smyslová bdělost", "jemné vnímání"]
+use = "dvoji"
+risk = "nizke"
+broader = ""
+related = ["kalibrace", "uptime-a-downtime", "periferni-videni", "cteni-reci-tela", "detekce-lzi-v-nlp"]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Po našem výcviku vidím na lidech věci, které ostatní nevidí. Stačí mi pár vteřin a vím, co si kdo myslí a jestli mi bude věřit."
+context = "Absolvent víkendového kurzu mluví s kolegy o svých nových schopnostech."
+benign = false
+marker = "Zbystřené vnímání se vydává za čtení myšlenek; z pozorovaných drobností se vyvozuje vnitřní obsah a jistota se opírá o kurz, ne o ověření."
+response = "Ptát se, jak byla jistota ověřena; pozorování drobných změn je možné, ale neříká, co si člověk myslí, a výzkum čtení klamu z neverbálních signálů ukazuje slabé výsledky."
+
+[[pattern.trainer]]
+utterance = "Během výslechu si zapisuji, kdy svědek změní tempo řeči, ale v protokolu to uvádím jen jako pozorování, ne jako známku, že lže."
+context = "Vyšetřovatel popisuje svůj postup kolegovi."
+benign = true
+marker = "Pozornost k jemným změnám se odděluje od výkladu; pozorování se zaznamená bez závěru o pravdivosti."
+response = "Jde o legitimní užití: zbystřené vnímání slouží záznamu, ne čtení myšlenek, a výklad zůstává otevřený."
+
+[[pattern]]
+id = "NLP-02.15"
+slug = "raport"
+type = "concept"
+cs = "Raport"
+en = "Rapport"
+aliases = ["rapport", "naladění", "vzájemné porozumění"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["zrcadleni", "pacing-a-leading-pojem", "raport-jako-nastroj-vlivu", "pseudoempatie", "odpor-jako-nedostatek-raportu", "kalibrace"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md",
+  "kompendium/case-studies/63-investor-cult.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Je neuvěřitelné, jak jsme si podobní, máme stejné tempo, stejné názory, stejné sny. Takové pochopení se nenajde dvakrát, proto by bylo škoda váhat s tou investicí."
+context = "Prodejce investičního produktu na druhé schůzce s klientem."
+benign = false
+marker = "Pocit souladu a podobnosti se výslovně převádí na důvod k rozhodnutí; raport se používá jako páka, ne jako základ porozumění."
+response = "Oddělit pocit sympatie od posouzení nabídky; rozhodnutí odložit, nechat si nabídku písemně a posoudit ji s někým mimo vztah."
+
+[[pattern.trainer]]
+utterance = "Mám dojem, že jsme se dnes trochu minuli. Řekněte mi, prosím, jestli jsem něco pochopil špatně, ať můžeme pokračovat na stejné vlně."
+context = "Sociální pracovník na konci schůzky s rodinou."
+benign = true
+marker = "Narušení vzájemného porozumění se pojmenuje otevřeně a náprava se nabízí jako společná věc, bez tlaku na rozhodnutí."
+response = "Jde o legitimní péči o pracovní vztah: druhá strana má prostor nesouhlasit a nic se od ní nežádá."
+
+[[pattern]]
+id = "NLP-02.16"
+slug = "stav"
+type = "concept"
+cs = "Stav"
+en = "State"
+aliases = ["vnitřní stav", "psychofyziologický stav", "stav mysli"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["zdrojovy-stav", "mysl-a-telo-jeden-system", "kotva-pojem", "asociace", "trans-pojem", "stav-vysokeho-vykonu"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Teď jsi v úžasném stavu, cítíš tu energii? V tomhle stavu se rozhoduje správně, tak se podepiš hned, než se z něj zase dostaneš do starých pochybností."
+context = "Lektor motivačního semináře u stolku s přihláškami do dražšího programu."
+benign = false
+marker = "Navozené vzrušení se označí za jediný správný stav k rozhodování a pochybnosti za stav, kterému je třeba uniknout; rozhodnutí se váže na chvilkové rozpoložení."
+response = "Brát vzrušení jako důvod k odkladu, ne k podpisu; rozhodovat se až v běžném rozpoložení a po přečtení podmínek."
+
+[[pattern.trainer]]
+utterance = "Jsem teď hodně rozrušená, takže o tom dnes nebudu rozhodovat. Ozvu se zítra, až budu klidnější."
+context = "Zaměstnankyně po vyhrocené poradě odpovídá vedoucímu."
+benign = true
+marker = "Člověk sám rozpozná, že jeho aktuální stav ovlivňuje úsudek, a odloží rozhodnutí; stav se nevyužívá, ale bere v úvahu."
+response = "Jde o zdravou regulaci: vědomí vlastního stavu chrání kvalitu rozhodnutí."
+
+[[pattern]]
+id = "NLP-02.17"
+slug = "zdrojovy-stav"
+type = "concept"
+cs = "Zdrojový stav"
+en = "Resource state"
+aliases = ["zdrojový prožitek", "stav se zdroji"]
+use = "terapie"
+risk = "nizke"
+broader = "stav"
+related = ["kotva-pojem", "prenos-zdroje", "lide-maji-potrebne-zdroje", "kruh-excelence", "zmena-osobni-historie"]
+kompendium = [
+  "kompendium/techniques/ea-6-3-1-stabilizacni-faze-protokol.md",
+  "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ten klid, který máš, když jsi se mnou, je tvůj jediný skutečný zdroj. Mimo naši skupinu ho nenajdeš, tak se k němu vracej jen tady."
+context = "Duchovní vůdce v rozhovoru s členkou, která zvažuje odchod."
+benign = false
+marker = "Zdroj se váže na osobu a skupinu mluvčího, ne na schopnosti člověka; myšlenka zdrojového stavu se obrací v závislost."
+response = "Připomenout si situace mimo skupinu, ve kterých byl člověk klidný a schopný; zdroj patří jemu, ne vztahu, a lze jej ověřit v jiném prostředí."
+
+[[pattern.trainer]]
+utterance = "Než se pustíme do toho těžkého tématu, můžeme si chvíli povídat o tom, kde se cítíte bezpečně? Kdykoli to bude moc, vrátíme se k tomu."
+context = "Terapeut ve stabilizační fázi práce s klientkou po traumatu."
+benign = true
+marker = "Opora v bezpečném prožitku se nabízí jako volitelná a slouží stabilizaci klientky; patří jí, ne terapeutovi."
+response = "Jde o legitimní stabilizační práci: klientka určuje tempo a zdroj zůstává jejím vlastním."
+
+[[pattern]]
+id = "NLP-02.18"
+slug = "strategie-pojem"
+type = "concept"
+cs = "Strategie"
+en = "Strategy (concept)"
+aliases = ["vnitřní strategie", "sekvence reprezentací"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["tote-model", "elicitace-strategie", "modelovani-pojem", "strategie-geniality", "instalace-strategie", "utilizace-strategie"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Už vím, jak se rozhoduješ: nejdřív si to představíš, pak potřebuješ slyšet, že to dělají i ostatní, a pak to cítíš. Takže teď ti povím, že to bere celý tým, a budeš to cítit stejně jako já."
+context = "Obchodní zástupce ke klientovi, kterého už potřetí navštěvuje."
+benign = false
+marker = "Domnělý popis vnitřního postupu rozhodování druhého se ohlásí a hned použije k vyvolání souhlasu; strategie se nezkoumá s ním, ale cílí se na ni."
+response = "Rozpoznat, že popis vlastního rozhodování od cizího člověka je hypotéza, ne mapa vaší mysli; posuzovat nabídku podle obsahu, ne podle toho, jak je podána."
+
+[[pattern.trainer]]
+utterance = "Když se učím nová slovíčka, nejdřív si je napíšu, pak je nahlas řeknu a nakonec si je zkusím vybavit bez papíru. Takhle mi to funguje nejlíp."
+context = "Student popisuje spolužákovi, jak se připravuje na zkoušku."
+benign = true
+marker = "Člověk sám popisuje pořadí svých kroků při učení; popis slouží jeho vlastnímu porozumění a nikdo ho nevyužívá."
+response = "Jde o neškodnou sebereflexi: povědomí o vlastním postupu může pomoci učení a nikoho neohrožuje."
+
+[[pattern]]
+id = "NLP-02.19"
+slug = "tote-model"
+type = "concept"
+cs = "Model TOTE"
+en = "TOTE model"
+aliases = ["Test-Operate-Test-Exit", "smyčka test–operace–test–výstup"]
+use = "zadne"
+risk = "nizke"
+broader = ""
+related = ["strategie-pojem", "smyckove-strategie", "elicitace-strategie", "kalibrace", "dobre-formulovany-vysledek"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje pochybnosti jsou jen chybná smyčka TOTE, která nikdy nedojde k výstupu. Já ti ji přeprogramuji a už se nebudeš muset ptát, jestli děláš správnou věc."
+context = "Kouč v rozhovoru s klientem, který zpochybňuje své zapojení do programu."
+benign = false
+marker = "Kognitivní model se používá jako odborně znějící nálepka pro pochybnosti a slibuje se jejich odstranění; otázka po správnosti jednání se prohlásí za poruchu."
+response = "Brát pochybnost jako legitimní kontrolu, ne jako chybu; ptát se, co přesně je předmětem pochybnosti, a posoudit to na faktech, bez odborného žargonu."
+
+[[pattern.trainer]]
+utterance = "Myšlenka smyčky test–operace–test je stará; plánované chování popisuje jako opakované porovnávání stavu s cílem, dokud se neshodují. NLP ji převzalo, ale nedokázalo, že ji umí měnit."
+context = "Vyučující na semináři kognitivní psychologie."
+benign = true
+marker = "Model se vykládá jako teoretický rámec s uvedeným původem a s odlišením od neověřených nároků NLP."
+response = "Jde o legitimní výklad: model se popisuje a jeho meze se pojmenují."
+
+[[pattern]]
+id = "NLP-02.20"
+slug = "logicke-urovne-pojem"
+type = "concept"
+cs = "Logické úrovně"
+en = "Logical levels (concept)"
+aliases = ["neurologické úrovně", "Diltsovy úrovně"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["zarovnani-logickych-urovni", "zamena-logickych-urovni", "uroven-identity", "clovek-neni-sve-chovani", "percepcni-pozice-pojem"]
+kompendium = [
+  "kompendium/techniques/ea-5-3-1-identitarni-substituce.md",
+  "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md",
+  "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nejde o to, že jsi udělal chybu v reportu. Problém je na úrovni identity: ty prostě nejsi člověk, který do tohohle týmu patří."
+context = "Vedoucí týmu při hodnoticím rozhovoru po jedné pracovní chybě."
+benign = false
+marker = "Jednotlivé chování se povýší na úroveň identity; konkrétní a opravitelná chyba se změní v soud o tom, kým člověk je."
+response = "Vrátit rozhovor na úroveň chování: co konkrétně bylo špatně a jak to opravit; soud o identitě z jedné chyby neplyne."
+
+[[pattern.trainer]]
+utterance = "Ten úkol se nepovedl, ale to vypovídá o postupu, ne o tobě. Pojďme se podívat, co v postupu chybělo."
+context = "Mentor s juniorním kolegou po neúspěšném projektu."
+benign = true
+marker = "Chyba se drží na úrovni chování a schopností a výslovně se odděluje od identity."
+response = "Jde o legitimní užití rozlišení úrovní: chrání sebehodnocení a vede k opravě postupu."
+
+[[pattern]]
+id = "NLP-02.21"
+slug = "percepcni-pozice-pojem"
+type = "concept"
+cs = "Percepční pozice"
+en = "Perceptual positions (concept)"
+aliases = ["vjemové pozice", "první, druhá a třetí pozice"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["prvni-pozice", "druha-pozice", "treti-pozice", "ctvrta-pozice", "troji-popis", "meta-zrcadlo"]
+kompendium = [
+  "kompendium/techniques/ea-5-3-10-perspektivni-substituce.md",
+  "kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md",
+  "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Zkus se konečně vžít do mě a vidět to mýma očima. Až to uděláš pořádně, pochopíš, že tvoje stížnost byla sobecká a měla bys ji stáhnout."
+context = "Nadřízený v rozhovoru se zaměstnankyní, která podala stížnost."
+benign = false
+marker = "Výzva k převzetí pohledu druhého je jednosměrná a má předem daný výsledek: vlastní pohled se má rozpustit v pohledu mluvčího."
+response = "Vžít se do druhého neznamená vzdát se vlastního pohledu; obě perspektivy lze držet současně a o stížnosti rozhodovat podle faktů."
+
+[[pattern.trainer]]
+utterance = "Zkusme se na ten spor podívat třikrát: jak ho vidíte vy, jak asi kolega a jak by ho popsal někdo nezúčastněný. Žádný pohled tím nemusí vyhrát."
+context = "Supervizorka v týmové supervizi pomáhajících profesí."
+benign = true
+marker = "Střídání perspektiv je symetrické a otevřené; žádná pozice se nepovyšuje nad ostatní a výsledek není předem daný."
+response = "Jde o legitimní užití: rozšíření pohledu bez nátlaku na změnu vlastního postoje."
+
+[[pattern]]
+id = "NLP-02.22"
+slug = "meta-pozice"
+type = "concept"
+cs = "Meta-pozice"
+en = "Meta-position"
+aliases = ["pozice pozorovatele", "pohled zvenčí"]
+use = "dvoji"
+risk = "stredni"
+broader = "percepcni-pozice-pojem"
+related = ["treti-pozice", "disociace", "meta-zrcadlo", "asociace"]
+kompendium = [
+  "kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md",
+  "kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md",
+  "kompendium/techniques/ea-5-3-4-telesna-disociace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvůj vztek je jen něco, co pozoruješ zvenčí. Opravdu vyspělý člověk se dívá z nadhledu a necítí nic, takže to, co ti udělali, se tě vlastně netýká."
+context = "Lektor seberozvojového kurzu k účastnici, která popisuje křivdu v práci."
+benign = false
+marker = "Pohled zvenčí se předepisuje jako trvalý stav bez citů a slouží k popření oprávněné reakce na křivdu; odstup se zaměňuje s otupěním."
+response = "Rozlišit dočasný odstup, který pomáhá přemýšlet, od nároku nic necítit; křivda zůstává křivdou a city na ni jsou informace, ne chyba."
+
+[[pattern.trainer]]
+utterance = "Když se na tu hádku dívám s odstupem pár dní, vidím, že jsme oba reagovali na únavu víc než na sebe. Pořád mě to mrzí, ale líp tomu rozumím."
+context = "Klient popisuje terapeutce, jak přemýšlel o konfliktu s partnerkou."
+benign = true
+marker = "Odstup je dobrovolný a dočasný, city zůstávají přítomné a pohled zvenčí slouží porozumění, ne popření."
+response = "Jde o zdravé reflektivní odstoupení: rozšiřuje porozumění, aniž by mazalo prožitek."

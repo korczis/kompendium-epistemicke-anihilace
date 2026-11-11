@@ -1,0 +1,192 @@
+# Rodina AF-06: Klamy jazyka a dvojznačnosti, část b (AF-06.08 až AF-06.13).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Pořadí záznamů je pořadí
+# identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "AF-06.08"
+slug = "presvedcovaci-definice"
+type = "informal"
+cs = "Přesvědčovací definice"
+en = "Persuasive definition"
+aliases = ["persvazivní definice", "přesvědčující definice"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["definicni-klam", "nabity-jazyk", "ekvivokace", "zadny-pravy-skot", "som-redefinice", "komplexni-ekvivalence"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md",
+  "kompendium/detection-signatures/2-linguistic-circular-definitions.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Skutečná loajalita k týmu znamená nikdy nezpochybňovat rozhodnutí vedoucího. Kdo se ptá, proč to děláme, ten loajální prostě není."
+context = "Vedoucí oddělení na poradě reaguje na kolegyni, která se zeptala na důvody reorganizace."
+benign = false
+marker = "Kladně zabarvené slovo „loajalita“ dostává nový, úzký obsah (bezpodmínečný souhlas), takže otázka se bez dalšího argumentu ocitá na straně nelojality."
+response = "Oddělit slovo od jeho nového obsahu: zeptat se, proč by loajalita měla vylučovat otázky, a připomenout běžný význam, v němž loajální člověk upozorňuje na problémy."
+
+[[pattern.trainer]]
+utterance = "Pro účely této studie označujeme jako pravidelné cvičení aspoň tři třicetiminutové tréninky týdně; ostatní respondenty řadíme do skupiny nepravidelně cvičících."
+context = "Metodická část výzkumné zprávy o pohybové aktivitě."
+benign = true
+marker = "Definice je výslovně ohlášená, omezená na účel studie a hodnotově neutrální; nikdo z ní nevyvozuje, že kdo cvičí méně, je horší člověk."
+response = "Jde o legitimní upřesňující definici: je zveřejněná předem, lze ji kritizovat a výsledky lze přepočítat při jiné hranici."
+
+[[pattern]]
+id = "AF-06.09"
+slug = "nabity-jazyk"
+type = "tactic"
+cs = "Nabitý jazyk"
+en = "Loaded language"
+aliases = ["emocionálně nabitý jazyk", "zabarvené výrazy", "nálepkování"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["eufemismus-a-dysfemismus", "presvedcovaci-definice", "sugestivni-otazka", "odvolani-na-emoce", "myslenkove-ukoncujici-klise", "nlp-v-politicke-reci"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Rada města dnes odsouhlasila další drancování veřejné pokladny, když její klika poslala peníze svým kamarádům z neziskovek."
+context = "Komentář na zpravodajském webu k rozhodnutí o grantech pro místní spolky."
+benign = false
+marker = "Slova „drancování“, „klika“ a „kamarádi“ předem vynášejí verdikt o nekalosti, aniž text uvádí jediný fakt o tom, kdo peníze dostal a podle jakých pravidel."
+response = "Přeložit sdělení do neutrálního popisu (rada schválila granty spolkům) a ptát se po faktech, která by teprve mohla oprávnit tvrzení o protekci nebo zneužití."
+
+[[pattern.trainer]]
+utterance = "Rada města schválila granty dvanácti spolkům. Tři z nich vede příbuzný radního, který o grantech hlasoval; podle jednacího řádu se měl hlasování zdržet."
+context = "Zpravodajský článek o témže rozhodnutí."
+benign = true
+marker = "Kritické hodnocení stojí na uvedených a ověřitelných faktech a na pravidle, které bylo porušeno; slova sama verdikt nenesou."
+response = "Legitimní kritika: obvinění ze střetu zájmů je doložené a čtenář může fakta i pravidlo nezávisle ověřit."
+
+[[pattern]]
+id = "AF-06.10"
+slug = "vyhybava-slova"
+type = "tactic"
+cs = "Vyhýbavá slova"
+en = "Weasel words"
+aliases = ["lasičí slova", "alibistické formulace"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["anonymni-autorita", "ztraceny-performativ", "nespecifikovany-referencni-index", "umyslna-vagnost", "nefalzifikovatelnost", "jen-se-ptam"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Řada odborníků se shoduje, že náš doplněk může přispět k podpoře imunity a pomáhá až o polovinu rychleji zvládat sezónní únavu."
+context = "Reklamní leták na doplněk stravy rozdávaný v lékárně."
+benign = false
+marker = "Nepojmenovaní „odborníci“, slovesa „může přispět“ a „pomáhá“ a horní mez „až o polovinu“ vytvářejí dojem silného účinku, ale netvrdí nic, co by šlo vyvrátit."
+response = "Ptát se, kdo přesně co zjistil, u kolika lidí a ve srovnání s čím; dokud chybí jméno studie a velikost účinku, výrok nedokládá žádný účinek."
+
+[[pattern.trainer]]
+utterance = "Dvě randomizované studie s celkem zhruba čtyřmi sty účastníky nenašly rozdíl oproti placebu; menší třetí studie malý účinek zaznamenala. Důkazy jsou zatím slabé."
+context = "Lékárnice odpovídá zákazníkovi na otázku po témže doplňku."
+benign = true
+marker = "Výhrada „zatím slabé“ je spojena s konkrétním popisem důkazů, takže nejistota je pojmenovaná, a ne využitá k zamlžení."
+response = "Legitimní opatrnost: zdrženlivé formulace tu přesně odpovídají kvalitě důkazů a lze je ověřit podle uvedených studií."
+
+[[pattern]]
+id = "AF-06.11"
+slug = "eufemismus-a-dysfemismus"
+type = "tactic"
+cs = "Eufemismus a dysfemismus"
+en = "Euphemism and dysphemism"
+aliases = ["eufemismus", "dysfemismus", "zjemňování a zhrubování"]
+use = "vliv"
+risk = "vysoke"
+broader = ""
+related = ["nabity-jazyk", "presvedcovaci-definice", "klam-duraznu", "nominalizace", "odvolani-na-emoce"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nešlo o žádné bití. Byla to jen výchovná korekce, když se syn choval nepřijatelně, a ty modřiny vznikly spíš nešťastnou souhrou okolností."
+context = "Otec vysvětluje sociální pracovnici modřiny na těle dítěte."
+benign = false
+marker = "Zjemňující výrazy („výchovná korekce“, „nešťastná souhra okolností“) nahrazují popis jednání a z popisu mizí ten, kdo jednal, i to, co dítě utrpělo."
+response = "Vrátit se k popisu jednání: kdo co udělal, čím a s jakým následkem; posouzení se má opírat o lékařský nález a výpověď dítěte, ne o zvolené pojmenování."
+
+[[pattern.trainer]]
+utterance = "Je mi líto, váš otec dnes v noci zemřel. Odešel klidně, sestra u něj byla a bolesti neměl."
+context = "Lékař na oddělení oznamuje úmrtí pacienta jeho dceři."
+benign = true
+marker = "Zjemňující slovo „odešel“ následuje až po jasném sdělení „zemřel“, takže ohleduplnost nic nezastírá a fakta zůstávají úplná."
+response = "Legitimní užití: šetrné vyjádření slouží citu příjemce, ale nezakrývá skutečnost, kterou má člověk znát."
+
+[[pattern]]
+id = "AF-06.12"
+slug = "vytrzeni-z-kontextu"
+type = "tactic"
+cs = "Vytržení z kontextu"
+en = "Quoting out of context"
+aliases = ["citace vytržená z kontextu", "těžba citátů", "kontextomie"]
+use = "vliv"
+risk = "vysoke"
+broader = "klam-duraznu"
+related = ["slameny-panak", "vyber-tresnicek", "zamlceni-dukazu", "pravidlo-stanoviska", "princip-shovivavosti", "kontextovy-reframing"]
+kompendium = [
+  "kompendium/techniques/ea-2-3-3-quote-mining.md",
+  "kompendium/techniques/ea-2-3-1-clip-takeout.md",
+  "kompendium/techniques/ea-2-3-2-context-collapse.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Sama ředitelka nemocnice na konferenci řekla: „Tahle léčba pacientům škodí.“ Víc k tomu snad není co dodat."
+context = "Příspěvek na sociální síti; v záznamu ředitelka pokračovala: „…pokud se podává bez předchozího vyšetření ledvin, a proto ho zavádíme povinně.“"
+benign = false
+marker = "Citát končí uprostřed věty a vynechává podmínku, která obrací jeho smysl; z varování před chybným postupem se stává odmítnutí léčby."
+response = "Vyhledat celý záznam nebo přepis, číst větu až do konce a posuzovat, co mluvčí tvrdil v celém kontextu, ne v nejkratším úryvku."
+
+[[pattern.trainer]]
+utterance = "Ředitelka uvedla, že léčba „pacientům škodí, pokud se podává bez předchozího vyšetření ledvin“, a nemocnice proto vyšetření zavádí povinně. Celý záznam je v odkazu."
+context = "Zpráva regionálního zpravodajství o téže konferenci."
+benign = true
+marker = "Citát zachovává podmínku, uvádí, k čemu se vztahuje, a odkazuje na úplný zdroj, takže čtenář může shodu ověřit."
+response = "Legitimní zkrácení: krácení citátu je v pořádku, dokud nemění smysl výroku a zdroj je dostupný ke kontrole."
+
+[[pattern]]
+id = "AF-06.13"
+slug = "definicni-klam"
+type = "informal"
+cs = "Definiční klam"
+en = "Definist fallacy"
+aliases = ["definistický klam", "klam definicí"]
+use = "dvoji"
+risk = "nizke"
+broader = ""
+related = ["naturalisticky-klam", "presvedcovaci-definice", "je-a-ma-byt", "kruhovy-argument", "ekvivokace"]
+kompendium = [
+  "kompendium/techniques/ea-5-4-16-kruhove-definice-implantace.md",
+  "kompendium/detection-signatures/2-linguistic-circular-definitions.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Spravedlivé je prostě to, co schválí většina. Tenhle zákon schválila většina, takže otázka, jestli je spravedlivý, nedává smysl."
+context = "Diskuse studentů práv o zákoně, který omezuje práva menšiny."
+benign = false
+marker = "Hodnotový pojem „spravedlivé“ je ztotožněn s jinou vlastností (schválením většinou), čímž se otázka po spravedlnosti zákona předem uzavírá."
+response = "Zeptat se, zda dává smysl otázka „je spravedlivé všechno, co schválí většina?“; když ano, obě vlastnosti nejsou totéž a spravedlnost zákona je třeba teprve doložit."
+
+[[pattern.trainer]]
+utterance = "Navrhuji, abychom v posudku pod pojmem „dostupnost péče“ rozuměli dojezdové době do třiceti minut; je to jen jedno měřítko a neříká nic o kvalitě péče."
+context = "Člen pracovní skupiny ministerstva navrhuje ukazatel pro analýzu sítě nemocnic."
+benign = true
+marker = "Pracovní definice je výslovně omezená, nepředstírá, že vyčerpává obsah pojmu, a ponechává otevřené hodnocení, které měřítko nepostihuje."
+response = "Legitimní operacionalizace: měřítko se zavádí otevřeně jako zjednodušení, které lze kritizovat a doplnit jinými ukazateli."

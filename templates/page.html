@@ -20,6 +20,7 @@
     {% include "partials/page-context.html" %}
     {% include "partials/connections.html" %}
     {% if page.relative_path == "kompendium/08-prilohy/index-pojmu.md" %}{% include "partials/index-pojmu.html" %}{% endif %}
+    {% include "partials/katalog-heslo.html" %}
     <section class="mt-8 border-t border-gray-200 pt-6 dark:border-gray-700" aria-labelledby="okoli-title">
       <div class="mb-3 flex flex-wrap items-baseline justify-between gap-2">
         <h2 id="okoli-title" class="text-sm font-semibold uppercase tracking-wide text-gray-900 dark:text-white">Okolí stránky</h2>
@@ -44,4 +45,7 @@
 {% block page_scripts %}
 <script src="{{ get_url(path='js/viz/kompendium-viz.js', cachebust=true) }}" defer></script>
 <script src="{{ get_url(path='js/viz/okoli.js', cachebust=true) }}" defer></script>
+{%- if page.extra.catalog is defined %}
+<script src="{{ get_url(path='js/viz/katalog-ilustrace.js', cachebust=true) }}" defer></script>
+{%- endif %}
 {% endblock page_scripts %}

@@ -5,102 +5,102 @@
     "hits": [
       {
         "code": null,
-        "in": 263,
+        "in": 269,
         "kind": "Pojem",
-        "path": "glossary/delegitimizace.md",
+        "path": "glossary/gaslighting.md",
         "tier": 4,
-        "title": "Delegitimizace",
-        "url": "/glossary/delegitimizace/",
+        "title": "Gaslighting",
+        "url": "/glossary/gaslighting/",
         "why": "title_prefix"
-      },
-      {
-        "code": null,
-        "in": 9,
-        "kind": "Kapitola",
-        "path": "kompendium/03-zakladni-kategorie/delegitimizace.md",
-        "tier": 4,
-        "title": "Delegitimizace – odnětí epistemického postavení",
-        "url": "/kompendium/03-zakladni-kategorie/delegitimizace/",
-        "why": "title_prefix"
-      },
-      {
-        "code": null,
-        "in": 170,
-        "kind": "Kapitola",
-        "path": "kompendium/03-zakladni-kategorie/kapitola-2.md",
-        "tier": 5,
-        "title": "3.2 Scénáře epistemické delegitimizace",
-        "url": "/kompendium/03-zakladni-kategorie/kapitola-2/",
-        "why": "title_word"
-      },
-      {
-        "code": "EA-3.2.F",
-        "in": 37,
-        "kind": "Kapitola",
-        "path": "kompendium/03-zakladni-kategorie/scenar-f.md",
-        "tier": 5,
-        "title": "3.2.F Scénář F: Kolektivní epistemická delegitimizace",
-        "url": "/kompendium/03-zakladni-kategorie/scenar-f/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 6,
-        "kind": "Most",
-        "path": "kompendium/glossary-bridges/bridge-delegitimizace.md",
-        "tier": 5,
-        "title": "Bridge: Delegitimizace",
-        "url": "/kompendium/glossary-bridges/bridge-delegitimizace/",
-        "why": "title_word"
-      },
-      {
-        "code": "EA-7.1.7",
-        "in": 5,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-7-1-7-deleuze-rhizome.md",
-        "tier": 5,
-        "title": "EA-7.1.7 Deleuze a Guattari: rhizom",
-        "url": "/kompendium/techniques/ea-7-1-7-deleuze-rhizome/",
-        "why": "title_word"
-      },
-      {
-        "code": "EA-1.2.1",
-        "in": 66,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
-        "tier": 6,
-        "title": "EA-1.2.1 Falešné dilema",
-        "url": "/kompendium/techniques/ea-1-2-1-falesne-dilema/",
-        "why": "description"
       },
       {
         "code": null,
         "in": 65,
-        "kind": "Pojem",
-        "path": "glossary/love-bombing.md",
-        "tier": 6,
-        "title": "Love bombing",
-        "url": "/glossary/love-bombing/",
-        "why": "description"
+        "kind": "Detekce",
+        "path": "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+        "tier": 5,
+        "title": "Detekční signatura: Gaslighting vzorec",
+        "url": "/kompendium/detection-signatures/12-behavioral-gaslighting-pattern/",
+        "why": "title_word"
       },
       {
         "code": null,
-        "in": 31,
+        "in": 33,
+        "kind": "Kazuistika",
+        "path": "kompendium/case-studies/08-gaslighting-partnersky.md",
+        "tier": 5,
+        "title": "Případ 08: Partnerský gaslighting",
+        "url": "/kompendium/case-studies/08-gaslighting-partnersky/",
+        "why": "title_word"
+      },
+      {
+        "code": "EA-4.1",
+        "in": 20,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-4-1-gaslighting.md",
+        "tier": 5,
+        "title": "EA-4.1 Gaslighting",
+        "url": "/kompendium/techniques/ea-4-1-gaslighting/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 17,
+        "kind": "Kazuistika",
+        "path": "kompendium/case-studies/03-pedagogicke-gaslighting.md",
+        "tier": 5,
+        "title": "Případ 03: Pedagogické gaslighting",
+        "url": "/kompendium/case-studies/03-pedagogicke-gaslighting/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 14,
         "kind": "Kapitola",
-        "path": "kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md",
+        "path": "kompendium/educational-scenarios/19-gaslighting-pattern.md",
+        "tier": 5,
+        "title": "Vzdělávací scénář: Vzorec gaslightingu",
+        "url": "/kompendium/educational-scenarios/19-gaslighting-pattern/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 13,
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-gaslighting.md",
+        "tier": 5,
+        "title": "Bridge: Gaslighting",
+        "url": "/kompendium/glossary-bridges/bridge-gaslighting/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 4,
+        "kind": "Pojem",
+        "path": "glossary/intelektualni-gaslighting.md",
+        "tier": 5,
+        "title": "Intelektuální gaslighting",
+        "url": "/glossary/intelektualni-gaslighting/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 100,
+        "kind": "Pojem",
+        "path": "glossary/reality-testing.md",
         "tier": 6,
-        "title": "7.18 Arendt: Banalita zla a krize úsudku",
-        "url": "/kompendium/07-teoreticke-reflexe/arendt-banalita-zla/",
+        "title": "Testování reality (reality testing)",
+        "url": "/glossary/reality-testing/",
         "why": "description"
       },
       {
         "code": null,
-        "in": 29,
-        "kind": "Pojem",
-        "path": "glossary/power-knowledge.md",
+        "in": 60,
+        "kind": "Sebeobrana",
+        "path": "kompendium/self-defense-guides/1-metacognitive-monitoring.md",
         "tier": 6,
-        "title": "Moc-vědění (power-knowledge, pouvoir-savoir)",
-        "url": "/glossary/power-knowledge/",
+        "title": "Sebe-obrana: Metakognitivní monitoring",
+        "url": "/kompendium/self-defense-guides/1-metacognitive-monitoring/",
         "why": "description"
       },
       {
@@ -114,26 +114,26 @@
         "why": "description"
       },
       {
-        "code": null,
-        "in": 24,
-        "kind": "Kapitola",
-        "path": "kompendium/critical-perspectives/9-essentialism-critique.md",
+        "code": "EA-6.1.7",
+        "in": 18,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-6-1-7-trauma-history-protokol.md",
         "tier": 6,
-        "title": "Esencialistický klam v kategoriích EA",
-        "url": "/kompendium/critical-perspectives/9-essentialism-critique/",
+        "title": "EA-6.1.7 Trauma history protokol",
+        "url": "/kompendium/techniques/ea-6-1-7-trauma-history-protokol/",
         "why": "description"
       }
     ],
     "limit": 12,
-    "normalised": "del",
+    "normalised": "gas",
     "ok": true,
     "op": "search",
-    "query": "Del",
+    "query": "Gas",
     "schema": "kompendium-engine/v1",
-    "total": 33
+    "total": 14
   },
   "input": {
     "op": "search",
-    "query": "Del"
+    "query": "Gas"
   }
 }

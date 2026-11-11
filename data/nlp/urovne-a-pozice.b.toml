@@ -1,0 +1,301 @@
+# Rodina NLP-13: Logické úrovně a percepční pozice, část b (NLP-13.09 až NLP-13.16).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-13.09"
+slug = "prvni-pozice"
+type = "concept"
+cs = "První pozice"
+en = "First position"
+aliases = ["vlastní pozice", "pozice já"]
+use = "dvoji"
+risk = "stredni"
+broader = "percepcni-pozice-pojem"
+related = ["druha-pozice", "treti-pozice", "troji-popis", "asociace", "kongruence"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/techniques/ea-5-3-10-perspektivni-substituce.md",
+  "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jak to vidíš ty, je vedlejší. Rozhoduje, jak se při tom cítím já, a já se cítím uražený, takže jsi mě urazila."
+context = "Partner ukončuje spor o společné výdaje."
+benign = false
+marker = "Mluvčí uvízl v první pozici a vlastní pocit prohlašuje za jediné měřítko i za důkaz o jednání druhého; pohled druhé strany vylučuje předem."
+response = "Uznat, že pocit dotčení je skutečný, a zároveň odlišit pocit od důkazu: projednat, co se konkrétně stalo, a trvat na tom, že platí i pohled druhé strany."
+
+[[pattern.trainer]]
+utterance = "Pořád jen mluvíš o tom, co cítíš a co potřebuješ ty. Zralý člověk se na sebe nedívá, ten vidí jen to, co potřebuje společenství."
+context = "Vedoucí komunity k člence, která upozorňuje na vyčerpání."
+benign = false
+marker = "Vlastní pozice druhého se zakazuje jako nezralost a nahrazuje se hlediskem skupiny, takže vlastní potřeby ztrácejí oprávnění být vysloveny."
+response = "Trvat na tom, že vlastní vnímání vyčerpání je platná informace; potřeby jednotlivce a skupiny se nevylučují a o rozsahu závazků lze jednat."
+
+[[pattern.trainer]]
+utterance = "Než se dostaneme k tomu, jak to asi viděla kolegyně, zajímá mě, co jste v té chvíli prožíval vy a co jste sám potřeboval."
+context = "Supervizor s terapeutem po náročném sezení."
+benign = true
+marker = "Vlastní pozice se nejprve uznává jako výchozí bod a teprve potom se otevírá pohled druhého, bez předem daného závěru."
+response = "Benigní užití: uznání první pozice je předpokladem bezpečného rozšíření perspektivy a nikdo nediktuje, k čemu má supervidovaný dojít."
+
+[[pattern]]
+id = "NLP-13.10"
+slug = "druha-pozice"
+type = "concept"
+cs = "Druhá pozice"
+en = "Second position"
+aliases = ["pozice druhého", "pozice ty"]
+use = "dvoji"
+risk = "vysoke"
+broader = "percepcni-pozice-pojem"
+related = ["prvni-pozice", "treti-pozice", "raport-jako-nastroj-vlivu", "pseudoempatie", "cteni-myslenek", "zrcadleni"]
+kompendium = [
+  "kompendium/techniques/ea-5-3-10-perspektivni-substituce.md",
+  "kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdyby ses opravdu vžila do mé situace, pochopila bys, proč jsem musel křičet. Podívej se na to ještě jednou mýma očima."
+context = "Partner po hádce, ve které byl agresivní."
+benign = false
+marker = "Vcítění do mluvčího má předem daný výsledek, totiž omluvit jeho chování, a jiný výsledek se vykládá jako nedostatečné vcítění."
+response = "Odlišit porozumění od omluvy: lze chápat, co druhý prožíval, a přesto trvat na tom, že křik byl nepřijatelný; vcítění je vzájemné, ne jednostranná povinnost."
+
+[[pattern.trainer]]
+utterance = "Přesně vím, jak se teď cítíte, byl jsem na vašem místě. A právě proto vím, že tuhle smlouvu potřebujete víc, než si sám přiznáte."
+context = "Prodejce finančního produktu na schůzce s klientem."
+benign = false
+marker = "Nárok na druhou pozici se vydává za jistý přístup k prožívání klienta a slouží jako důkaz, že prodejce ví lépe, co klient potřebuje."
+response = "Druhá pozice je vždy odhad; rozhodnutí o smlouvě opřít o vlastní kritéria, písemné podmínky a nezávislé srovnání, ne o tvrzené porozumění."
+
+[[pattern.trainer]]
+utterance = "Chci si ověřit, jestli tomu rozumím: z vašeho pohledu to vypadalo, že vás kolegové odstrčili. Je to tak, nebo to vidím špatně?"
+context = "Mediátor shrnuje pohled jedné ze stran pracovního sporu."
+benign = true
+marker = "Představa o pohledu druhého se podává jako hypotéza k ověření a dotyčný ji může opravit; mediátor totéž nabízí i druhé straně."
+response = "Benigní užití: druhá pozice slouží porozumění a mediátor si z ní nebere právo rozhodnout, co druhý cítí nebo potřebuje."
+
+[[pattern]]
+id = "NLP-13.11"
+slug = "treti-pozice"
+type = "concept"
+cs = "Třetí pozice"
+en = "Third position"
+aliases = ["pozice pozorovatele", "pozice nezúčastněného"]
+use = "dvoji"
+risk = "stredni"
+broader = "percepcni-pozice-pojem"
+related = ["prvni-pozice", "druha-pozice", "ctvrta-pozice", "meta-pozice", "disociace"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md",
+  "kompendium/techniques/ea-5-3-4-telesna-disociace.md",
+  "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Podívej se na to zvenku, nezaujatě, tak jako já: vidíš dva lidi, kteří se hádají, a jeden z nich zbytečně přehání. Ty."
+context = "Rodič ve sporu s dospívajícím dítětem."
+benign = false
+marker = "Účastník sporu si přivlastňuje pozici nezaujatého pozorovatele a z ní vynáší verdikt, který se má přijmout jako objektivní."
+response = "Upozornit, že kdo je součástí konfliktu, nemůže být jeho rozhodčím; vrátit se ke konkrétnímu popisu událostí nebo přizvat skutečně nezúčastněnou osobu."
+
+[[pattern.trainer]]
+utterance = "Na vašem místě bych se na to díval s odstupem, jako na film. Emoce do toho netahejte, ty vám jen kalí úsudek o tom, co se stalo."
+context = "Nadřízený odpovídá zaměstnanci, který si stěžuje na ponižování."
+benign = false
+marker = "Odstup třetí pozice se požaduje jako podmínka, aby byla stížnost brána vážně, a citová reakce na skutečnou křivdu se odbývá jako zkreslení."
+response = "Emoce jsou součástí informace o tom, co se stalo; trvat na projednání faktů stížnosti a odmítnout podmínku, že vážně se bere jen stížnost bez emocí."
+
+[[pattern.trainer]]
+utterance = "Zkusme se na tu poradu chvíli podívat jako na záznam: kdo co řekl a jak na to ostatní reagovali. Potom se vrátíme k tomu, jak to vnímáte vy."
+context = "Koučka s klientkou po napjaté poradě."
+benign = true
+marker = "Odstup je dočasný, slouží k utřídění pozorování a výslovně se počítá s návratem k vlastnímu prožitku klientky."
+response = "Benigní užití: třetí pozice doplňuje vlastní pohled, nenahrazuje ho a koučka z ní nevynáší verdikt."
+
+[[pattern]]
+id = "NLP-13.12"
+slug = "ctvrta-pozice"
+type = "concept"
+cs = "Čtvrtá pozice"
+en = "Fourth position"
+aliases = ["pozice my", "systémová pozice"]
+use = "dvoji"
+risk = "vysoke"
+broader = "percepcni-pozice-pojem"
+related = ["treti-pozice", "prvni-pozice", "troji-popis", "uroven-poslani", "nlp-v-sektach"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/05-kolektivni-rozmer/_index.md",
+  "kompendium/case-studies/61-corporate-leadership-cult.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tady nejde o to, co chceš ty. Z pohledu celého hnutí je tvoje pochybnost jen sobectví, které nás všechny brzdí."
+context = "Vedoucí skupiny ke členovi, který zvažuje odchod."
+benign = false
+marker = "Pohled celku předem vykládá vedení a staví ho nad individuální pochybnost, která se přejmenuje na sobectví; nikdo jiný k pohledu celku nemá přístup."
+response = "Pohled celku nikdo nevlastní; vlastní pochybnost je legitimní údaj, který je třeba posoudit samostatně, s lidmi mimo skupinu a bez časového tlaku."
+
+[[pattern.trainer]]
+utterance = "Firma jsme my všichni. Kdo teď mluví o přesčasech, nemyslí na celek, a takové lidi tu na palubě nepotřebujeme."
+context = "Ředitel na celofiremní poradě během restrukturalizace."
+benign = false
+marker = "Hledisko „my“ slouží k tomu, aby se legitimní zájem jednotlivců vyřadil z rozhovoru a jeho vyslovení se spojilo s hrozbou vyloučení."
+response = "Rozlišit zájem organizace od zájmu vedení a trvat na tom, že pracovní podmínky jsou součástí celku; námitky lze vznést kolektivně nebo přes zástupce zaměstnanců."
+
+[[pattern.trainer]]
+utterance = "Podívejme se na rozpis služeb jako celé oddělení: co potřebují pacienti, co potřebuje každý z nás a kde se to dnes střetává."
+context = "Vrchní sestra na poradě o rozpisu směn."
+benign = true
+marker = "Pohled celku výslovně zahrnuje potřeby jednotlivců a hledá jejich střet, nikoli jejich potlačení ve jménu skupiny."
+response = "Benigní užití: systémový pohled rozšiřuje úvahu a individuální potřeby v něm zůstávají viditelné a projednatelné."
+
+[[pattern]]
+id = "NLP-13.13"
+slug = "troji-popis"
+type = "pattern"
+cs = "Trojí popis"
+en = "Triple description"
+aliases = ["popis ze tří pozic", "triple description"]
+use = "dvoji"
+risk = "stredni"
+broader = "percepcni-pozice-pojem"
+related = ["prvni-pozice", "druha-pozice", "treti-pozice", "novy-kod", "meta-zrcadlo"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
+  "kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md",
+  "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Teď jsi to viděl svýma očima, mýma očima i zvenku. Všechny tři pohledy se shodují, že ses mýlil, takže to můžeme uzavřít."
+context = "Lektor semináře osobního rozvoje k účastníkovi po skupinovém cvičení."
+benign = false
+marker = "Trojí popis se předvádí jako procedura s předem daným verdiktem a shoda všech tří pozic se vydává za důkaz, ač všechny popisy vznikly pod vedením mluvčího."
+response = "Tři popisy vytvořil týž člověk pod vedením lektora, nejde tedy o tři nezávislé zdroje; jejich shoda nic nedokazuje a závěr zůstává na účastníkovi."
+
+[[pattern.trainer]]
+utterance = "Popsal jste, jak jste to prožíval vy a jak to asi viděla kolegyně. Zajímalo by mě, jestli by si někdo třetí všiml něčeho, co oběma unikalo."
+context = "Supervizor v případové supervizi."
+benign = true
+marker = "Tři popisy se kladou vedle sebe jako zdroj otázek a rozdílů, bez předem určeného závěru a bez nároku na objektivitu."
+response = "Benigní užití: trojí popis rozšiřuje úvahu supervidovaného a závěr nechává na něm."
+
+[[pattern]]
+id = "NLP-13.14"
+slug = "model-score"
+type = "pattern"
+cs = "Model SCORE"
+en = "SCORE model"
+aliases = ["SCORE", "symptomy, příčiny, výsledek, zdroje, efekty"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["dobre-formulovany-vysledek", "od-problemu-k-vysledku", "tote-model", "zdrojovy-stav", "ramec-vysledku"]
+kompendium = [
+  "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md",
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Únava, hádky doma, nespavost: to všechno má jedinou příčinu, a to že si nevěříte. Náš roční program je přesně ten zdroj, který vám chybí."
+context = "Prodejce koučinkového programu na bezplatném úvodním semináři."
+benign = false
+marker = "Symptomy, příčinu, cíl i zdroj definuje prodávající, a to tak, aby jedinou příčinou byl rys osoby a jediným zdrojem jeho produkt."
+response = "Oddělit popis obtíží od nabízeného výkladu příčiny; únavu a nespavost posoudit s lékařem nebo psychologem, ne s tím, kdo prodává řešení."
+
+[[pattern.trainer]]
+utterance = "Popsala jste, co vás trápí a čeho chcete dosáhnout. Než začneme hledat, co by pomohlo, zajímá mě, čím to podle vás vzniká a co by změna ovlivnila kolem vás."
+context = "Psycholožka na úvodní konzultaci."
+benign = true
+marker = "Prvky problému a cíle pojmenovává klientka sama a příčina se formuluje jako otevřená otázka, ne jako hotový výklad."
+response = "Benigní užití: struktura pomáhá uspořádat rozhovor, výklad příčiny nevnucuje a nevede k předem zvolenému řešení."
+
+[[pattern]]
+id = "NLP-13.15"
+slug = "disneyova-strategie"
+type = "pattern"
+cs = "Disneyova strategie"
+en = "Disney strategy"
+aliases = ["snílek, realista, kritik", "Disney creativity strategy"]
+use = "dvoji"
+risk = "nizke"
+broader = "strategie-geniality"
+related = ["strategie-geniality", "modelovani-excelence", "prostorove-kotveni", "ctvrta-pozice", "troji-popis"]
+kompendium = [
+  "kompendium/03-zakladni-kategorie/scenar-h.md",
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/organizational-defense/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Teď jsme ve fázi snílků. Kdo začne mluvit o rozpočtu nebo o rizicích, kazí tým; na kritiku dojde, až bude rozhodnuto."
+context = "Ředitel firmy na workshopu o novém investičním projektu."
+benign = false
+marker = "Oddělení rolí slouží k tomu, aby se kritika odložila až za okamžik rozhodnutí, takže role kritika fakticky odpadne a námitky se spojí s nelojalitou."
+response = "Zeptat se, kdy a kým bude kritická fáze provedena a zda může projekt zastavit; bez této záruky jde o umlčení námitek, ne o tvůrčí metodu."
+
+[[pattern.trainer]]
+utterance = "Nápady si dnes jen zapisujeme bez hodnocení, zítra je propočítáme a ve čtvrtek je společně rozebereme z hlediska rizik, než cokoli schválíme."
+context = "Vedoucí týmu na začátku plánování nové služby."
+benign = true
+marker = "Všechny tři role mají vyhrazený čas a kritická fáze předchází rozhodnutí, takže námitky mají skutečný vliv na výsledek."
+response = "Benigní užití: oddělení fází chrání nápady i kritiku a nikdo není za námitky trestán."
+
+[[pattern]]
+id = "NLP-13.16"
+slug = "zamena-logickych-urovni"
+type = "pattern"
+cs = "Záměna logických úrovní"
+en = "Confusing logical levels"
+aliases = ["míchání logických úrovní", "level confusion"]
+use = "dvoji"
+risk = "vysoke"
+broader = "logicke-urovne-pojem"
+related = ["zarovnani-logickych-urovni", "uroven-identity", "uroven-chovani", "clovek-neni-sve-chovani", "komplexni-ekvivalence", "presvedceni-o-identite"]
+kompendium = [
+  "kompendium/techniques/ea-5-3-18-esencialisticka-redukce.md",
+  "kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md",
+  "kompendium/03-zakladni-kategorie/scenar-h.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Zase jsi zapomněl zavolat. To už není zapomnětlivost, to je prostě to, jaký jsi: člověk, kterému na nikom nezáleží."
+context = "Partnerka po zapomenutém telefonátu."
+benign = false
+marker = "Jednorázové chování se povyšuje na soud o identitě a hodnotách, takže ho další jednání už nemůže opravit."
+response = "Vrátit výrok na úroveň chování: projednat konkrétní zapomenutý telefonát a jeho dopad, soud o celé osobě odmítnout jako nepřiměřené zobecnění."
+
+[[pattern.trainer]]
+utterance = "Pokud jste skutečně jedním z nás, otázky o tom, kam jdou peníze ze sbírek, vás přece nemusí zajímat."
+context = "Vedoucí spirituální skupiny ke členovi, který se ptá na hospodaření."
+benign = false
+marker = "Otázka z úrovně prostředí a chování se odbude odkazem na identitu a poslání, které ji mají učinit nepatřičnou."
+response = "Otázka na peníze je legitimní na své vlastní úrovni; trvat na konkrétní odpovědi a odmítnutí odpovědět brát jako varovný signál."
+
+[[pattern.trainer]]
+utterance = "Ten report byl slabý, chyběla v něm data za poslední čtvrtletí. Neříkám nic o tom, jaký jste analytik, jen o tom, co je potřeba doplnit."
+context = "Vedoucí oddělení při zpětné vazbě k pracovnímu výstupu."
+benign = true
+marker = "Mluvčí výslovně drží kritiku na úrovni chování a odděluje ji od úrovně schopností a identity."
+response = "Benigní užití: zpětná vazba je konkrétní a opravitelná a nepřenáší se na hodnotu člověka."

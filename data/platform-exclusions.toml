@@ -1,0 +1,94 @@
+# What must never enter the book from prismatic-platform or the author's other sources.
+#
+# Read by scripts/catalogs.py --check, the one engine through which platform data may enter the
+# book (rule project.content-catalogs; ADR 0005; the platform-integration seams agreed between
+# the content lanes on 2026-11-10). Every catalogue's data directory, its pages, the catalogue
+# declaration and the shared bibliography are scanned; a match is an error, so the refusal
+# holds by rule, not by care.
+#
+# This file names classes, never contents: a path pattern, a file-name marker or a text marker.
+# Patterns are Python regular expressions, matched case-insensitively against each line.
+# Every rule says why it exists.
+
+schema = "kompendium-platform-exclusions/v1"
+
+# --- investigation, due-diligence and personal data ----------------------------------------
+
+[[exclude]]
+class = "investigation-data"
+because = "SQL exports of investigations and intelligence data from the platform"
+match = ['(?<![\w-])[\w-]*investigation[\w-]*\.sql\b', '(?<![\w-])add_intelligence_data\.sql\b']
+
+[[exclude]]
+class = "case-files"
+because = "case folders with named persons and companies (platform cases/, data/cases/)"
+match = ['(?<![\w-])data/cases/', '(?<![\w./-])cases/']
+
+[[exclude]]
+class = "due-diligence-evidence"
+because = "due-diligence evidence, including archived captures (priv/dd_cases)"
+match = ['\bdd_cases/']
+
+[[exclude]]
+class = "screening-reports"
+because = "HR screening and OSINT dossier reports"
+match = ['\bhr_screening/', '\bosint_dossier/', 'prismatic_cer/priv/reports']
+
+[[exclude]]
+class = "owner-personal"
+because = "the owner's personal files and contact data; e-mail addresses are also refused"
+match = ['/Users/[A-Za-z0-9._-]+/(Documents|Desktop|Downloads|Library)/', '~/(Documents|Desktop|Downloads)/',
+         '\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b']
+
+# --- offensive and out-of-frame material (rule project.content-defensive-frame) -------------
+
+[[exclude]]
+class = "personal-lexicon"
+because = "a lexicon that describes itself as psychological-warfare methodology"
+match = ['personal-lexicon', '\bARCHETYPY\.md\b']
+
+[[exclude]]
+class = "red-team"
+because = "red-team scenarios, agents and policies: offensive framing"
+match = ['red-team-scenarios', '\.aiad/agents/red-', '\bRED-EA-\d']
+
+[[exclude]]
+class = "offensive-variants"
+because = "the grey and black variants of the manipulation app"
+match = ['variants/(grey|black)\b', 'Variants\.(Grey|Black)\b']
+
+[[exclude]]
+class = "sexual-content"
+because = "the author's TECHNIKA_* pages are sexual content and never part of the book"
+match = ['\bTECHNIKA?_[A-Z]']
+
+[[exclude]]
+class = "self-assessment-series"
+because = "the AM_I_* series is personal material, not a source"
+match = ['\bAM_I_[A-Z]']
+
+[[exclude]]
+class = "biomanipulation"
+because = "out of the book's defensive frame"
+match = ['\bBiomanipulation\b']
+
+[[exclude]]
+class = "third-party-summary"
+because = "a summary of a third-party book (copyright)"
+match = ['\bKREML_\d']
+
+[[exclude]]
+class = "diverged-book-copy"
+because = "the platform's diverged copy of this book; the Kompendium is canonical"
+match = ['prismatic_web/priv/content/', 'sites/promo/content/']
+
+# --- machine text and appendix A ------------------------------------------------------------
+
+[[refuse_marker]]
+because = "platform machine text (knowledge record platform-artifacts-in-content)"
+match = ['NLLB-AUTO-BLOCK', '\bstructural stub\b', '\bstrukturální stub\b',
+         'znalostní báze Prismatic Platform']
+
+[[refuse_marker]]
+because = "appendix A of the original taxonomy (2025) is deliberately not reproduced (ADR 0005)"
+match = ['implementačními fázemi', 'implementační fáze a destruktivní účinky']

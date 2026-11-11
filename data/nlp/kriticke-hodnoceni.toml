@@ -1,0 +1,232 @@
+# Rodina NLP-22: Kritické hodnocení NLP (pravidlo project.content-catalogs; schéma v scripts/catalogs.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-22.01"
+slug = "stav-dukazu-nlp"
+type = "concept"
+cs = "Stav důkazů o NLP"
+en = "State of the evidence on NLP"
+aliases = ["empirická podpora NLP", "výzkum NLP"]
+use = "zadne"
+risk = "stredni"
+broader = ""
+related = ["nlp-jako-pseudoveda", "hodnoceni-narodni-rady-pro-vyzkum", "jak-cist-tvrzeni-nlp", "predpoklady-jako-pracovni-hypotezy"]
+kompendium = [
+  "kompendium/techniques/ea-8-3-4-empirical-research-base.md",
+  "kompendium/critical-perspectives/_index.md",
+  "kompendium/02-uvod/metodologicke-poznamky.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "NLP je vědecky prověřená metoda, používají ji vrcholoví sportovci, armáda i velké firmy, takže o účinku není co řešit."
+context = "Prodejce výcviku na úvodním semináři odpovídá na otázku účastníka."
+benign = false
+marker = "Na místě kontrolovaných studií stojí popularita a jména prestižních uživatelů; slovo „vědecky“ se užívá bez odkazu na jakýkoli výzkum."
+response = "Požádat o konkrétní kontrolované studie a vědět, že souhrnné přehledy výzkumu klíčová tvrzení NLP nepodpořily; rozšířenost metody není doklad jejího účinku."
+
+[[pattern.trainer]]
+utterance = "Kontrolované studie většinu tvrzení NLP nepodpořily, takže tohle cvičení nabízím jen jako trénink pozornosti v rozhovoru, ne jako léčbu."
+context = "Lektorka komunikačního kurzu vysvětluje, proč do programu zařadila jedno cvičení z NLP."
+benign = true
+marker = "Mluvčí uvádí stav důkazů otevřeně a sám omezuje, co si od cvičení slibovat; neprodává léčebný účinek."
+response = "Jde o legitimní užití: deklarovaná nejistota a vymezení účelu umožňují účastníkům informovanou volbu."
+
+[[pattern]]
+id = "NLP-22.02"
+slug = "vyzkum-preferovaneho-systemu"
+type = "concept"
+cs = "Výzkum preferovaného reprezentačního systému"
+en = "Research on the preferred representational system"
+aliases = ["výzkum PRS", "výzkum shody predikátů"]
+use = "zadne"
+risk = "nizke"
+broader = "stav-dukazu-nlp"
+related = ["preferovany-reprezentacni-system", "shoda-predikatu", "predikaty", "vyzkum-ocnich-signalu", "databaze-vyzkumu-nlp"]
+kompendium = [
+  "kompendium/techniques/ea-8-3-4-empirical-research-base.md",
+  "kompendium/techniques/ea-7-2-3-popper-falsification.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jste jednoznačně vizuální typ, poznala jsem to z vašich slov, a proto vám tenhle kurz sedne lépe než ostatním. Bez něj se nikdy pořádně neučíte."
+context = "Konzultantka vzdělávací agentury u vstupního pohovoru se zájemcem o drahý kurz."
+benign = false
+marker = "Diagnóza „typu“ z několika slov se podává jako hotový fakt a hned se z ní vyvozuje nutnost koupit konkrétní produkt; výzkum preferovaného systému tuto jistotu nepodporuje."
+response = "Vědět, že výzkum nenašel spolehlivý způsob, jak preferovaný systém určit, ani prospěch z přizpůsobení se mu; rozhodovat se podle obsahu a ceny kurzu, ne podle přiděleného typu."
+
+[[pattern.trainer]]
+utterance = "Všimla jsem si, že často mluvíte o tom, jak věci vidíte. Je to jen postřeh, výzkum žádné stálé typy nepotvrdil, tak mě opravte, jestli se pletu."
+context = "Terapeutka v supervizi popisuje, jak sdílela s klientem svůj dojem z jeho vyjadřování."
+benign = true
+marker = "Pozorování se podává jako hypotéza s výslovnou výhradou ke stavu výzkumu a s pozváním k opravě."
+response = "Jde o benigní užití: jazykový postřeh zůstává podnětem k rozhovoru, ne diagnózou ani základem pro nátlak."
+
+[[pattern]]
+id = "NLP-22.03"
+slug = "vyzkum-ocnich-signalu"
+type = "concept"
+cs = "Výzkum očních přístupových signálů"
+en = "Research on eye accessing cues"
+aliases = ["výzkum pohybů očí v NLP"]
+use = "zadne"
+risk = "stredni"
+broader = "stav-dukazu-nlp"
+related = ["ocni-pristupove-signaly", "detekce-lzi-v-nlp", "vedouci-system", "vyzkum-preferovaneho-systemu", "meta-model-jako-vyslychaci-nastroj"]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/techniques/ea-8-3-4-empirical-research-base.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když odpovídala, podívala se doprava nahoru, a to je podle NLP jasný znak, že si to vymýšlí. Její výpověď bych proto nebral vážně."
+context = "Člen interní vyšetřovací komise hodnotí rozhovor se zaměstnankyní, která podala stížnost."
+benign = false
+marker = "Směr pohledu se vykládá jako důkaz lži a slouží k odmítnutí výpovědi, ačkoli výzkum vztah mezi směrem pohledu a lhaním nenašel."
+response = "Odmítnout směr pohledu jako ukazatel věrohodnosti a posuzovat výpověď podle obsahu, konzistence a nezávislých dokladů; v posudku uvést, že tvrzení nemá empirickou oporu."
+
+[[pattern.trainer]]
+utterance = "Lidé při přemýšlení často uhýbají pohledem, ale co si právě vybavují, ani jestli mluví pravdu, se z toho podle výzkumu vyčíst nedá."
+context = "Lektor kurzu vedení rozhovorů pro sociální pracovníky odpovídá na dotaz účastnice."
+benign = true
+marker = "Výrok odděluje běžné pozorování, že lidé při přemýšlení odvracejí pohled, od nedoložených výkladů jeho směru."
+response = "Jde o benigní a věcně správné shrnutí výzkumu, které chrání před chybným hodnocením lidí."
+
+[[pattern]]
+id = "NLP-22.04"
+slug = "nlp-jako-pseudoveda"
+type = "concept"
+cs = "NLP jako pseudověda"
+en = "NLP as pseudoscience"
+aliases = ["pseudovědecký charakter NLP"]
+use = "zadne"
+risk = "stredni"
+broader = ""
+related = ["falzifikovatelnost-nlp", "kargokultovni-psychologie", "delfska-studie", "databaze-vyzkumu-nlp", "stav-dukazu-nlp"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-7-2-3-popper-falsification.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Akademici NLP nerozumějí, protože ho zkoumají v laboratoři. Funguje jen v rukou certifikovaného mistra, a kdo nemá výsledky, nedělal to správně."
+context = "Vedoucí výcvikového institutu odpovídá na článek, který shrnuje negativní výsledky výzkumu."
+benign = false
+marker = "Každý negativní výsledek se dodatečně vysvětlí chybou zkoumajícího nebo uživatele, takže tvrzení nelze vyvrátit; autorita certifikace nahrazuje ověření."
+response = "Rozpoznat imunizaci proti vyvrácení a žádat předem stanovené podmínky, za nichž by metoda neuspěla; nevyvratitelné tvrzení nic nevysvětluje."
+
+[[pattern.trainer]]
+utterance = "Některé myšlenky NLP jsou převzaté z uznávaných terapií, ale to, co NLP tvrdí navíc, se při testech nepotvrdilo, a tak to také prezentujeme."
+context = "Univerzitní pedagog v semináři kritického myšlení komentuje kurz, o který se studenti zajímají."
+benign = true
+marker = "Rozlišuje se mezi převzatými, jinde ověřenými prvky a vlastními tvrzeními NLP, která testy nepodpořily."
+response = "Jde o benigní, vyvážené hodnocení, které nepřehání ani kritiku, ani nároky metody."
+
+[[pattern]]
+id = "NLP-22.05"
+slug = "delfska-studie"
+type = "concept"
+cs = "Delfská studie zdiskreditovaných metod"
+en = "Delphi poll of discredited methods"
+aliases = ["Delphi poll", "delfský průzkum"]
+use = "zadne"
+risk = "nizke"
+broader = "stav-dukazu-nlp"
+related = ["systematicky-prehled-zdravi", "nlp-jako-pseudoveda", "rychla-lecba-fobie"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-8-3-4-empirical-research-base.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ta studie s experty je jen názor pár profesorů, kteří NLP nikdy nezažili. Nás drží tisíce spokojených klientů, a to je skutečný důkaz."
+context = "Praktik NLP na svém webu reaguje na zmínku o expertním hodnocení zdiskreditovaných metod."
+benign = false
+marker = "Kritika metody hodnocení se mění v odmítnutí veškerého hodnocení, zatímco jako protiváha se nabízí jen svědectví spokojených klientů."
+response = "Uznat, že expertní konsenzus není experiment, ale ptát se, kde jsou kontrolované studie, které by ho vyvrátily; spokojenost klientů neodlišuje účinek metody od placeba a přirozeného zlepšení."
+
+[[pattern.trainer]]
+utterance = "Expertní průzkum NLP zařadil mezi zdiskreditované přístupy. Je to shoda odborníků, ne experiment, ale v kombinaci s přehledy studií je to vážný signál."
+context = "Klinická psycholožka vysvětluje pacientovi, proč mu nedoporučuje terapii nabízenou na internetu."
+benign = true
+marker = "Výsledek průzkumu se uvádí přesně, včetně jeho povahy a meze, a kombinuje se s dalšími druhy důkazů."
+response = "Jde o benigní a korektní užití: expertní konsenzus je uveden jako jeden z podkladů, ne jako konečný důkaz."
+
+[[pattern]]
+id = "NLP-22.06"
+slug = "systematicky-prehled-zdravi"
+type = "concept"
+cs = "Systematický přehled účinků na zdraví"
+en = "Systematic review of health outcomes"
+aliases = ["Sturtův přehled", "NLP a zdravotní výsledky"]
+use = "zadne"
+risk = "stredni"
+broader = "stav-dukazu-nlp"
+related = ["presvedceni-a-zdravi", "rychla-lecba-fobie", "nlp-v-koucinku-vyzkum", "delfska-studie"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/population-health/_index.md",
+  "kompendium/techniques/ea-8-3-4-empirical-research-base.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Na úzkost i na chronickou bolest nepotřebujete léky ani dlouhou terapii. Jedno sezení NLP přeprogramuje nevědomí a obtíže zmizí natrvalo."
+context = "Inzerát soukromého praktika na sociální síti cílený na lidi s dlouhodobými zdravotními potížemi."
+benign = false
+marker = "Slib rychlého a trvalého vyléčení zdravotních obtíží spojený s odrazováním od standardní péče; systematický přehled pro takový účinek nenašel dostatečné důkazy."
+response = "Nepřerušovat léčbu a konzultovat lékaře nebo klinického psychologa; vědět, že souhrnný přehled studií nenašel dostatečné doklady o zlepšení zdraví po intervencích NLP."
+
+[[pattern.trainer]]
+utterance = "Přehled studií o NLP ve zdravotnictví našel jen málo prací a slabou kvalitu, takže jsme to do programu prevence nezařadili."
+context = "Koordinátor programu podpory zdraví zdůvodňuje rozhodnutí na poradě."
+benign = true
+marker = "Rozhodnutí se opírá o systematický přehled a jeho závěr se uvádí správně jako nedostatek kvalitních důkazů."
+response = "Jde o benigní užití: rozhodování podle souhrnného přehledu důkazů je správný postup v péči o zdraví."
+
+[[pattern]]
+id = "NLP-22.07"
+slug = "databaze-vyzkumu-nlp"
+type = "concept"
+cs = "Databáze výzkumu NLP"
+en = "NLP research database"
+aliases = ["NLP Research Data Base"]
+use = "zadne"
+risk = "nizke"
+broader = "stav-dukazu-nlp"
+related = ["nlp-jako-pseudoveda", "vyzkum-preferovaneho-systemu", "jak-cist-tvrzeni-nlp"]
+kompendium = [
+  "kompendium/techniques/ea-8-3-4-empirical-research-base.md",
+  "kompendium/02-uvod/metodologicke-poznamky.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Výzkumná databáze NLP obsahuje stovky prací, takže je metoda zdokumentovaná líp než většina psychoterapií."
+context = "Prezentace výcvikové školy na veletrhu vzdělávání."
+benign = false
+marker = "Počet záznamů v seznamu se vydává za sílu důkazů, aniž se rozlišuje, kolik z nich jsou empirické studie a co zjistily."
+response = "Ptát se, kolik záznamů jsou kontrolované studie a jaké mají výsledky; rozbor této databáze ukázal, že empirických prací je menšina a podpůrné výsledky v ní nepřevažují."
+
+[[pattern.trainer]]
+utterance = "Rozbor databáze, kterou sestavili sami zastánci NLP, ukázal, že většina záznamů nejsou empirické studie a že výsledky studií jsou převážně nepodpůrné."
+context = "Doktorandka shrnuje v rešerši literaturu o NLP."
+benign = true
+marker = "Rozlišuje počet záznamů od počtu a výsledků empirických studií a uvádí původ databáze."
+response = "Jde o benigní a metodologicky správné čtení: rozhoduje kvalita a výsledek studií, ne délka seznamu."

@@ -26,6 +26,9 @@ Requirements (id: what is checked):
                    @/ links, scripts are {{ <viz_script name="…" /> }}
   generated        no machine-generated text: no NLLB auto block, structural stub, placeholder
                    note or "pojem v sekci … znalostní báze Prismatic Platform" boilerplate
+  howto            no phrasing of an operational script: imperatives that steer a target
+                   person (lexicon HOWTO in ia_model.py), the floor of rule
+                   project.content-defensive-frame
   weak-link        every internal link leads to a page that meets `detail` and `generated`;
                    the debt lives on the TARGET (a thin page that other pages link), never on
                    the linking page: a link to a thin page is better than no link, and
@@ -124,7 +127,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
 # When a never-baselined requirement was introduced, these pages already failed it (listed by
 # `--list <rule>`); they are fixed in content, not accepted. Until then the gate fails only when
 # the count grows. The number may only go down, and the entry goes when it reaches 0.
-PENDING_ZERO = {"placeholder": 0, "technique-page": 5, "howto": 0, "drug-dose": 0,
+PENDING_ZERO = {"placeholder": 0, "technique-page": 4, "howto": 0, "drug-dose": 0,
                 "template-figure": 103, "platform-section": 0, "relative-link": 0,
                 "platform-label": 0, "platform-frontmatter": 0, "philosophy-frame": 0}  # 0 → never baselined
 BOLD_CANDIDATE_PAGES = 3  # a bold phrase on this many pages is a term and needs its own page

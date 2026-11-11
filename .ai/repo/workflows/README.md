@@ -25,3 +25,4 @@ and the workflows show when to apply them.
 | [`continuity.md`](continuity.md) | resuming after a session ended, or leaving work for one that has not begun |
 | [`content-wave.md`](content-wave.md) | vlna obsahu: rozvinout, přeložit a provázat stránky `content/` |
 | [`ui-development.md`](ui-development.md) | změna šablon, stylů nebo skriptů webu: Flowbite Pro, odvozená navigace, brána kvality |
+| [`catalogues.md`](catalogues.md) | katalogy knihy (NLP vzorce, argumentační fauly, …): založit katalog, přidat, upravit nebo zrecenzovat heslo |

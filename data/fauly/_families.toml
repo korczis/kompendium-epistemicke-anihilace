@@ -1,0 +1,60 @@
+# Rodiny katalogu argumentačních faulů (pravidlo project.content-catalogs; deklarace
+# data/catalogs.toml). Pořadí rodin je pořadí v tomto souboru; `code` je neměnná dvoumístná část
+# identifikátoru AF-FF.NN. Hesla rodiny jsou v data/fauly/<slug>.toml, stránky v
+# content/kompendium/argumentacni-fauly/<slug>/. Nic z toho se nepíše na stránky ručně.
+
+schema = 1
+
+[[family]]
+slug = "formalni"
+code = "01"
+title = "Formální klamy"
+en = "Formal fallacies"
+
+[[family]]
+slug = "relevance"
+code = "02"
+title = "Klamy relevance"
+en = "Fallacies of relevance"
+
+[[family]]
+slug = "predpoklady-argumentu"
+code = "03"
+title = "Klamy předpokladu"
+en = "Fallacies of presumption"
+
+[[family]]
+slug = "kauzalni"
+code = "04"
+title = "Kauzální klamy"
+en = "Causal fallacies"
+
+[[family]]
+slug = "statisticke"
+code = "05"
+title = "Statistické a pravděpodobnostní klamy"
+en = "Statistical and probabilistic fallacies"
+
+[[family]]
+slug = "jazykove-klamy"
+code = "06"
+title = "Klamy jazyka a dvojznačnosti"
+en = "Fallacies of language and ambiguity"
+
+[[family]]
+slug = "dialekticke-taktiky"
+code = "07"
+title = "Rétorické a dialogické taktiky"
+en = "Rhetorical and dialogical tactics"
+
+[[family]]
+slug = "hodnoty-a-veda"
+code = "08"
+title = "Klamy hodnot, přírody a vědy"
+en = "Fallacies of value, nature and science"
+
+[[family]]
+slug = "teorie-argumentace"
+code = "09"
+title = "Principy kritické diskuse a teorie argumentace"
+en = "Rules of critical discussion and argumentation theory"

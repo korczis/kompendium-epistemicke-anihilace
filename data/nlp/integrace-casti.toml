@@ -1,0 +1,293 @@
+# Rodina NLP-15: Práce s částmi (pravidlo project.content-catalogs; schéma v scripts/catalogs.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-15.01"
+slug = "integrace-casti"
+type = "pattern"
+cs = "Integrace částí"
+en = "Parts integration"
+aliases = ["práce s částmi", "parts work"]
+use = "terapie"
+risk = "stredni"
+broader = ""
+related = ["vizualni-squash", "vyjednavani-casti", "sestikrokovy-reframing", "inkongruence", "elicitace-pozitivniho-zameru", "stepeni-ja-v-manipulaci"]
+kompendium = [
+  "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje pochybnosti nejsi ty, to je jen stará zraněná část, která se bojí. Až ji integrujeme, budeš konečně celý a přestaneš kurzu odporovat."
+context = "Lektor osobního rozvoje odpovídá účastníkovi, který zpochybňuje cenu dalšího stupně kurzu."
+benign = false
+marker = "Kritický postoj člověka se přejmenuje na „část“, které se upírá platnost, a „integrace“ znamená její umlčení ve prospěch zájmu mluvčího."
+response = "Trvat na tom, že pochybnost je vlastní úsudek a ne porucha, posoudit ji věcně podle faktů o kurzu a rozhodnutí odložit mimo tlak skupiny."
+
+[[pattern.trainer]]
+utterance = "Slyším, že jedna vaše stránka chce změnu práce a druhá se bojí o jistotu. Obě dávají smysl. Jak byste je mohl vzít vážně zároveň?"
+context = "Psycholožka v poradně mluví s klientem, který se rozhoduje o změně zaměstnání."
+benign = true
+marker = "Řeč o „stránkách“ slouží jako popis ambivalence; obě strany se uznávají jako oprávněné a rozhodnutí zůstává klientovi."
+response = "Jde o neškodné užití: metafora částí pomáhá pojmenovat smíšené pocity, nikdo z nich nedělá nemoc a nikdo nevybírá vítěze za klienta."
+
+[[pattern]]
+id = "NLP-15.02"
+slug = "vizualni-squash"
+type = "pattern"
+cs = "Vizuální squash"
+en = "Visual squash"
+aliases = ["vizuální stlačení", "squash částí"]
+use = "terapie"
+risk = "stredni"
+broader = "integrace-casti"
+related = ["integrace-polarit", "kolaps-kotev", "simultanni-inkongruence", "vyjednavani-casti"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Teď ty dvě ruce spojíš a ten rozpor zmizí. Kdo z vás pak bude dál pochybovat o naší cestě, ukáže, že to nespojil doopravdy."
+context = "Vedoucí víkendového semináře před skupinou komentuje cvičení s rukama."
+benign = false
+marker = "Gesto spojení rukou se vydává za důkaz vyřešeného konfliktu a následná pochybnost se předem označuje za selhání účastníka."
+response = "Rozlišit tělesný rituál od skutečného rozhodnutí; pochybnost po cvičení je normální informace, ne doklad osobního selhání."
+
+[[pattern.trainer]]
+utterance = "To spojení rukou je jen obraz. Jestli vám pomohl uvidět, že obě strany chtějí něco dobrého, je to fajn, ale rozhodovat se budete až v klidu doma."
+context = "Terapeut po sezení vysvětluje klientce, co cvičení znamená a co ne."
+benign = true
+marker = "Cvičení se výslovně označuje za symbol bez zaručeného účinku a rozhodnutí se vrací klientce mimo sezení."
+response = "Jde o neškodné užití: obraz slouží jako pomůcka k reflexi, nevydává se za prokázaný mechanismus a nevytváří tlak na okamžitý výsledek."
+
+[[pattern]]
+id = "NLP-15.03"
+slug = "jadrova-transformace"
+type = "pattern"
+cs = "Jádrová transformace"
+en = "Core transformation"
+aliases = ["core transformation", "jádrové stavy"]
+use = "terapie"
+risk = "stredni"
+broader = "integrace-casti"
+related = ["elicitace-pozitivniho-zameru", "pozitivni-zamer-chovani", "sestikrokovy-reframing", "uroven-identity"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Pod tvým hněvem na vedení je ve skutečnosti touha po vnitřním míru. Ten ti dá jen naše komunita, takže hněv můžeš klidně pustit."
+context = "Starší člen spirituální skupiny mluví s nováčkem, který si stěžuje na finanční požadavky vedení."
+benign = false
+marker = "Řetěz záměrů se dovede k „jádrovému stavu“, který se pak spojí s jediným zdrojem, totiž se skupinou, a oprávněná výhrada se tím rozpustí."
+response = "Oddělit konkrétní stížnost od řeči o hlubokých stavech; finanční požadavky posoudit věcně a hledat informace mimo skupinu."
+
+[[pattern.trainer]]
+utterance = "Když se ptáte, o co vám tím přejídáním jde, a dojdete k potřebě klidu, je to zajímavé zjištění. Neznamená to ale, že problém zmizí sám."
+context = "Klinická psycholožka komentuje klientce zkušenost z koučinku, kde zkusila tuto metodu."
+benign = true
+marker = "Pojem hlubšího záměru se bere jako hypotéza k sebepoznání, bez slibu okamžité proměny a bez nároku nahradit léčbu."
+response = "Jde o neškodné užití: odbornice uznává hodnotu reflexe a zároveň drží realistické očekávání a návaznost na ověřenou péči."
+
+[[pattern]]
+id = "NLP-15.04"
+slug = "vyjednavani-casti"
+type = "pattern"
+cs = "Vyjednávání mezi částmi"
+en = "Parts negotiation"
+aliases = ["vyjednávání částí", "dohoda částí"]
+use = "dvoji"
+risk = "stredni"
+broader = "integrace-casti"
+related = ["sestikrokovy-reframing", "sekvencni-inkongruence", "ekologicka-kontrola", "elicitace-pozitivniho-zameru"]
+kompendium = [
+  "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ta tvoje část, co chce víkendy s dětmi, se přece může dohodnout s tou ambiciózní. Ambiciózní část už souhlasila, že projekt dotáhneš, ne?"
+context = "Manažer mluví s podřízeným, který odmítá další víkendové směny."
+benign = false
+marker = "Mluvčí sám rozhoduje, co která „část“ zaměstnance chce a s čím souhlasila, a vnitřní dohodu používá k prosazení vlastního požadavku."
+response = "Vrátit rozhovor k vnější dohodě: pracovní podmínky se vyjednávají mezi zaměstnancem a zaměstnavatelem, ne mezi domnělými částmi jedné osoby."
+
+[[pattern.trainer]]
+utterance = "Zní to, jako by ve vás jedna strana chtěla odpočívat a druhá stihnout všechno. Napadá vás, co by mohlo vyhovět oběma aspoň zčásti?"
+context = "Koučka s klientkou, která sama přinesla téma přetížení."
+benign = true
+marker = "Obě strany ambivalence formuluje klientka nebo s ní souhlasí a hledání kompromisu zůstává v jejích rukou."
+response = "Jde o neškodné užití: metafora vyjednávání podporuje vlastní řešení, koučka nepřisuzuje částem obsah ani nevnucuje výsledek."
+
+[[pattern]]
+id = "NLP-15.05"
+slug = "sekvencni-inkongruence"
+type = "concept"
+cs = "Sekvenční inkongruence"
+en = "Sequential incongruence"
+aliases = ["postupný nesoulad", "střídavá inkongruence"]
+use = "dvoji"
+risk = "stredni"
+broader = "inkongruence"
+related = ["simultanni-inkongruence", "vyjednavani-casti", "kongruence", "kalibrace", "integrace-polarit"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Minulý týden jsi chtěla odejít a dneska tu zase jsi. To dokazuje, že ta tvoje odcházející část nemá pravdu, jen tě občas přepadne."
+context = "Partner v kontrolujícím vztahu reaguje na opakované pokusy o odchod."
+benign = false
+marker = "Střídání postojů v čase se vykládá jednostranně: postoj, který vyhovuje mluvčímu, je „pravé já“, opačný jen přechodná porucha."
+response = "Brát opakovanou touhu odejít jako vážnou informaci, hledat za kolísáním vnější tlak a strach a obrátit se na pomoc mimo vztah."
+
+[[pattern.trainer]]
+utterance = "Všímám si, že ráno o studiu mluvíte nadšeně a večer ho chcete zrušit. Co se mezi tím děje? Může to být únava, ne nutně vaše skutečné přání."
+context = "Studijní poradkyně s posluchačem, který kolísá v rozhodnutí o pokračování."
+benign = true
+marker = "Kolísání v čase se popisuje jako pozorování a otevírá otázku po okolnostech, aniž by poradkyně jednu fázi prohlásila za pravou."
+response = "Jde o neškodné užití: časový nesoulad se zkoumá společně s posluchačem, jeho význam zůstává otevřený a rozhodnutí je na něm."
+
+[[pattern]]
+id = "NLP-15.06"
+slug = "simultanni-inkongruence"
+type = "concept"
+cs = "Simultánní inkongruence"
+en = "Simultaneous incongruence"
+aliases = ["současný nesoulad"]
+use = "dvoji"
+risk = "vysoke"
+broader = "inkongruence"
+related = ["sekvencni-inkongruence", "vizualni-squash", "detekce-lzi-v-nlp", "kongruence", "kalibrace"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Říkáš, že nechceš podepsat, ale přitom kýváš hlavou. Tvoje nevědomí už souhlasí, tak ho přestaň přehlušovat a podepiš."
+context = "Prodejce na prezentaci finančního produktu tlačí na váhajícího zájemce."
+benign = false
+marker = "Neverbální projev se staví nad výslovné odmítnutí a vykládá se jako skrytý souhlas, který má přednost před slovy."
+response = "Výslovné ne platí; nesoulad mezi slovy a gestem znamená nanejvýš nejistotu, a ta je důvodem rozhodnutí odložit, ne podepsat."
+
+[[pattern.trainer]]
+utterance = "Usmíváte se, ale říkáte, že je vám to líto. Nechci z toho nic vyvozovat, jen se ptám, jestli je tam víc pocitů najednou."
+context = "Terapeutka během sezení s klientem, který mluví o rozchodu."
+benign = true
+marker = "Současný nesoulad slov a mimiky se jen pojmenuje a vrací klientovi jako otázka, bez výkladu, který kanál „říká pravdu“."
+response = "Jde o neškodné užití: pozorování zůstává otázkou, klient má poslední slovo o tom, co prožívá, a nikdo nepřepisuje jeho sdělení."
+
+[[pattern]]
+id = "NLP-15.07"
+slug = "elicitace-pozitivniho-zameru"
+type = "pattern"
+cs = "Hledání pozitivního záměru části"
+en = "Eliciting a part's positive intention"
+aliases = ["pozitivní záměr části", "elicitace záměru"]
+use = "dvoji"
+risk = "vysoke"
+broader = "pozitivni-zamer-chovani"
+related = ["sestikrokovy-reframing", "jadrova-transformace", "vyjednavani-casti", "som-zamer", "manipulativni-reframing-ve-vztazich"]
+kompendium = [
+  "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md",
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když na tebe křičím, je to jen ta moje ochranitelská část, která tě chce uchránit před chybami. Měla bys ocenit, co tím myslí dobře."
+context = "Partner vysvětluje opakované ponižování v hádkách."
+benign = false
+marker = "Pozitivní záměr se hledá u chování, které poškozuje druhého, a slouží k tomu, aby poškozený chování přijal a ještě za ně byl vděčný."
+response = "Oddělit záměr od dopadu: deklarovaný dobrý úmysl nic nemění na tom, že křik a ponižování jsou škodlivé a nepřijatelné."
+
+[[pattern.trainer]]
+utterance = "Ta vaše opatrnost vás asi kdysi chránila před zklamáním. Možná stojí za to zjistit, jestli to dnes potřebujete stejně, nebo jinak."
+context = "Psycholog s klientkou, která sama popisuje, že se vyhýbá novým vztahům."
+benign = true
+marker = "Hledání záměru se týká vlastního chování klientky, ne škody působené druhým, a vede k jejímu vlastnímu přehodnocení."
+response = "Jde o neškodné užití: výklad chování jako dřívější ochrany zmírňuje sebeobviňování a nechává klientce volbu, co s ním udělá."
+
+[[pattern]]
+id = "NLP-15.08"
+slug = "integrace-polarit"
+type = "pattern"
+cs = "Integrace polarit"
+en = "Polarity integration"
+aliases = ["práce s polaritami", "hraní polarit"]
+use = "terapie"
+risk = "stredni"
+broader = "integrace-casti"
+related = ["vizualni-squash", "kolaps-kotev", "sekvencni-inkongruence", "koreny-nlp"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje slabá polovina tě drží v minulosti. Silná polovina, kterou tady pěstujeme, už ví, že rodina tě jen brzdí, tak ať převezme vedení."
+context = "Vedoucí uzavřené skupiny mluví s členem, který váhá nad přerušením styků s rodinou."
+benign = false
+marker = "Polarita se nerozvíjí ve prospěch celku, ale jedna strana se prohlásí za „silnou“ a ztotožní se se skupinou, druhá za slabost spojenou s vnějšími vztahy."
+response = "Brát vazby na rodinu a pochybnosti jako legitimní součást osobnosti a o přerušení vztahů nerozhodovat pod tlakem skupiny."
+
+[[pattern.trainer]]
+utterance = "Jedna vaše strana chce být nezávislá a druhá chce, aby se o ni někdo staral. Obě jsou lidské a nemusí jedna vyhrát nad druhou."
+context = "Terapeut v dlouhodobé terapii shrnuje klientovi téma, které se opakuje."
+benign = true
+marker = "Polarity se pojmenují jako dva rovnocenné aspekty, žádný se nepatologizuje a cílem není vítězství jednoho pólu."
+response = "Jde o neškodné užití: protiklad se drží jako přirozená ambivalence a klient sám hledá, jak obě potřeby vyvážit."
+
+[[pattern]]
+id = "NLP-15.09"
+slug = "stepeni-ja-v-manipulaci"
+type = "concept"
+cs = "Štěpení já v manipulativních skupinách"
+en = "Splitting of the self in manipulative groups"
+aliases = ["kultovní identita", "dvojí identita"]
+use = "zadne"
+risk = "vysoke"
+broader = ""
+related = ["integrace-casti", "nlp-v-sektach", "inkongruence", "sekvencni-inkongruence", "obrana-proti-vlivovym-vzorcum"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+  "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md",
+  "kompendium/techniques/ea-6-4-2-post-cult-protokol.md",
+  "kompendium/case-studies/10-sektarske-vychazeni.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "To, co teď říkáš o odchodu, nemluví tvoje pravé já, ale tvoje staré světské já. Pravé já patří sem a ví, že venku by ses ztratil."
+context = "Vedoucí buňky skupiny reaguje na člena, který vyslovil přání odejít."
+benign = false
+marker = "Osobnost se dělí na „pravé“ já ztotožněné se skupinou a „staré“ já, kterému se připisují všechny pochybnosti, takže kritika se předem odepisuje."
+response = "Uznat, že pochybnosti i přání odejít patří k vlastnímu já; hledat kontakt s lidmi mimo skupinu a informace, které skupina nekontroluje."
+
+[[pattern.trainer]]
+utterance = "Je normální, že po odchodu ze skupiny chvíli myslíte jejich slovníkem. Neznamená to, že tam patříte, jen že se ty dva světy ještě srovnávají."
+context = "Poradkyně pro lidi po odchodu z uzavřených skupin s klientem v prvních měsících."
+benign = true
+marker = "Rozpolcenost po odchodu se popisuje jako očekávaný přechodný jev, ne jako důkaz, že skupina měla pravdu."
+response = "Jde o neškodné užití: pojmenování rozštěpu normalizuje zkušenost a podporuje návrat k vlastní, souvislé identitě bez nátlaku."

@@ -1,0 +1,260 @@
+# Rodina AF-05: Statistické a pravděpodobnostní klamy, část b (AF-05.09 až AF-05.16).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Pořadí záznamů je pořadí
+# identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "AF-05.09"
+slug = "klam-obhajce"
+type = "informal"
+cs = "Klam obhájce"
+en = "Defence attorney's fallacy"
+aliases = ["klam obhajoby"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["klam-zalobce", "zanedbani-zakladni-miry", "relativni-a-absolutni-riziko", "bayesovske-pojeti-klamu", "irelevantni-zaver"]
+kompendium = [
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vzácnou krevní skupinu, kterou má vzorek z místa činu, sdílí v kraji tisíce lidí. Shoda s obžalovaným proto neznamená vůbec nic a soud ji má pominout."
+context = "Závěrečná řeč obhajoby v trestní věci, kde je krevní skupina jedním z několika důkazů."
+benign = false
+marker = "Z toho, že shoda sama neurčuje pachatele, se vyvozuje, že nemá žádnou důkazní hodnotu, a stopa se vytrhává z ostatních důkazů, s nimiž by se skládala."
+response = "Rozlišit dostatečnost od relevance: shoda zužuje okruh možných pachatelů a její váha se posuzuje spolu s ostatními důkazy, ne izolovaně."
+
+[[pattern.trainer]]
+utterance = "Shoda krevní skupiny okruh osob zužuje, ale sama neukazuje na jednoho člověka. Soud by měl posoudit, zda ji podporují i jiné, na ní nezávislé důkazy."
+context = "Znalec odpovídá na otázku soudu, jakou váhu má shoda krevní skupiny."
+benign = true
+marker = "Výrok přiznává shodě omezenou, ale nenulovou váhu a výslovně ji skládá s dalšími nezávislými důkazy."
+response = "Jde o platné vymezení: znalec nepřeceňuje ani nepopírá důkazní hodnotu stopy a ponechává hodnocení celku soudu."
+
+[[pattern]]
+id = "AF-05.10"
+slug = "ekologicky-klam"
+type = "informal"
+cs = "Ekologický klam"
+en = "Ecological fallacy"
+aliases = ["ekologická chyba", "klam ekologické korelace"]
+use = "chyba"
+risk = "stredni"
+broader = ""
+related = ["simpsonuv-paradox", "klam-deleni", "klam-skladani", "korelace-a-kauzalita", "prilis-siroke-zobecneni"]
+kompendium = [
+  "kompendium/population-health/_index.md",
+  "kompendium/07-populacni/_index.md",
+  "kompendium/02-uvod/metodologicke-poznamky.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "V okresech s vyšším podílem vysokoškoláků je vyšší i podíl voličů jedné strany, takže každý vysokoškolák v tom okrese tu stranu nejspíš volí."
+context = "Komentář k mapě výsledků voleb po okresech."
+benign = false
+marker = "Souvislost naměřená mezi okresy se bez dat o jednotlivcích přenáší na chování každého jednotlivce v okrese."
+response = "Upozornit, že stejný vzorec mezi okresy může vzniknout z různých individuálních vztahů, a ptát se po datech na úrovni jednotlivých voličů."
+
+[[pattern.trainer]]
+utterance = "Obce s vyšším průměrným příjmem mají v našich datech méně hospitalizací, ale z toho nevyvozujeme nic o konkrétních domácnostech, jen o obcích."
+context = "Autor zprávy o regionálním zdraví vymezuje, co jeho data umožňují tvrdit."
+benign = true
+marker = "Mluvčí výslovně drží závěr na úrovni, na které byla data sebrána, a nepřenáší ho na jednotlivce."
+response = "Jde o korektní vymezení: souvislost mezi obcemi se popisuje jako souvislost mezi obcemi."
+
+[[pattern]]
+id = "AF-05.11"
+slug = "simpsonuv-paradox"
+type = "concept"
+cs = "Simpsonův paradox"
+en = "Simpson's paradox"
+aliases = ["Yuleův–Simpsonův paradox", "zvrat při agregaci"]
+use = "zadne"
+risk = "stredni"
+broader = ""
+related = ["ekologicky-klam", "prehlizena-spolecna-pricina", "korelace-a-kauzalita", "zkresleny-vyber", "vyber-tresnicek"]
+kompendium = [
+  "kompendium/02-uvod/metodologicke-poznamky.md",
+  "kompendium/population-health/_index.md",
+  "kompendium/critical-perspectives/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Celkově se v naší nemocnici po novém postupu uzdravilo méně pacientů než po starém, takže nový postup je horší a máme se k starému vrátit."
+context = "Porada vedení nemocnice nad souhrnnými výsledky dvou léčebných postupů."
+benign = false
+marker = "Závěr se opírá jen o souhrnná čísla, ačkoli nový postup mohl dostávat jinak závažné pacienty než starý a souhrn pak míchá složení skupin s účinkem léčby."
+response = "Požadovat srovnání v jednotlivých vrstvách závažnosti a ptát se, podle čeho se o přidělení postupu rozhodovalo."
+
+[[pattern.trainer]]
+utterance = "Než oba postupy porovnáme, rozdělme pacienty podle závažnosti při přijetí, protože nový postup dostávali hlavně ti nejtěžší."
+context = "Statistik na téže poradě vedení nemocnice."
+benign = true
+marker = "Výrok jmenuje proměnnou, která souvisí s přidělením léčby i s výsledkem, a navrhuje srovnání uvnitř jejích vrstev."
+response = "Jde o metodicky správný krok: rozvrstvení podle zjevného zavádějícího faktoru brání tomu, aby se jeho vliv vydával za účinek léčby."
+
+[[pattern]]
+id = "AF-05.12"
+slug = "zavadejici-zivost"
+type = "informal"
+cs = "Zavádějící živost"
+en = "Misleading vividness"
+aliases = ["klam živého příkladu"]
+use = "dvoji"
+risk = "stredni"
+broader = "ukvapene-zobecneni"
+related = ["odvolani-na-anekdotu", "odvolani-na-emoce", "zanedbani-zakladni-miry", "odvolani-na-strach", "zakon-malych-cisel"]
+kompendium = [
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/techniques/ea-1-1-1-selektivni-expozice.md",
+  "kompendium/07-teoreticke-reflexe/digitalni-vek.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Studie říkají, že je ten lék bezpečný, ale já jsem viděla sousedku, jak po něm skončila na kapačkách. Tohle mi žádná tabulka nevymluví."
+context = "Diskuse rodičů o očkování nebo léčbě v online skupině."
+benign = false
+marker = "Jediný dramatický a osobně viděný případ se staví nad soustavná data o mnoha lidech, jako by živost zážitku nahrazovala jeho četnost."
+response = "Vzít případ vážně jako signál, ale ptát se, jak často k němu dochází a zda se vyskytuje častěji u léčených než u neléčených."
+
+[[pattern.trainer]]
+utterance = "Ten případ sousedky bychom měli nahlásit do systému hlášení nežádoucích účinků, aby se ukázalo, jestli se podobné reakce opakují i jinde."
+context = "Lékař odpovídá rodičům, kteří mu popsali reakci známé po léku."
+benign = true
+marker = "Živý případ se nebere jako důkaz o četnosti, ale jako podnět k ověření v systému, který sleduje mnoho případů."
+response = "Jde o platné užití: jednotlivý případ slouží jako hypotéza, kterou rozhodnou souhrnná data."
+
+[[pattern]]
+id = "AF-05.13"
+slug = "mcnamaruv-klam"
+type = "informal"
+cs = "McNamarův klam"
+en = "McNamara fallacy"
+aliases = ["kvantitativní klam", "klam měřitelného"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["zamlceni-dukazu", "posouvani-branek", "reifikace", "jedina-pricina", "zavadejici-graf"]
+kompendium = [
+  "kompendium/04-terminalni-protokoly/institucionalni-anihilace.md",
+  "kompendium/organizational-defense/_index.md",
+  "glossary/risk-score.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Počet uzavřených spisů na pracovníka vzrostl o třetinu, takže péče o ohrožené děti se zlepšila. Spokojenost rodin neměříme, takže ji nemá smysl řešit."
+context = "Výroční zpráva vedení sociálního odboru."
+benign = false
+marker = "Snadno spočitatelný ukazatel se vydává za cíl samotný a to, co se neměří, se prohlašuje za nedůležité."
+response = "Ptát se, co uzavřený spis vypovídá o bezpečí dítěte, a požadovat i jiné, třeba kvalitativní doklady o výsledku péče."
+
+[[pattern.trainer]]
+utterance = "Počet uzavřených spisů vzrostl, ale nevíme, zda to znamená lepší péči, nebo rychlejší uzavírání. Doplníme proto namátkové kontroly a rozhovory s rodinami."
+context = "Interní auditor komentuje totéž číslo ve zprávě pro vedení."
+benign = true
+marker = "Číslo se čte jako nepřímý ukazatel s více možnými výklady a doplňuje se o zdroje, které zachytí, co samo neměří."
+response = "Jde o legitimní užití metriky: auditor ji nepovyšuje na cíl a zajišťuje, aby neměřené stránky nezmizely z hodnocení."
+
+[[pattern]]
+id = "AF-05.14"
+slug = "hledani-jinde"
+type = "informal"
+cs = "Klam hledání jinde"
+en = "Look-elsewhere effect"
+aliases = ["problém mnohonásobného srovnávání", "efekt hledání jinde"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["texasky-strelec", "vyber-tresnicek", "zakon-malych-cisel", "jeden-studie", "zkresleny-vyber"]
+kompendium = [
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/critical-perspectives/_index.md",
+  "kompendium/02-uvod/metodologicke-poznamky.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Prošli jsme výskyt nemocí ve všech obcích kraje a v jedné je výskyt rakoviny nápadně vysoký. To nemůže být náhoda, musí za tím být ta nová skládka."
+context = "Občanská iniciativa prezentuje vlastní analýzu na veřejném zasedání."
+benign = false
+marker = "Nápadný výsledek se hodnotí, jako by byl jedinou testovanou možností, ačkoli vznikl prohledáním mnoha obcí a mnoha nemocí."
+response = "Ptát se, kolik obcí a diagnóz se prohledávalo a jak často by takový výkyv vznikl náhodou; hypotézu o skládce ověřit na nových, předem určených datech."
+
+[[pattern.trainer]]
+utterance = "Výkyv v jedné obci bereme jako podnět. Hypotézu o skládce zapíšeme předem a ověříme ji na údajích z dalších let, které jsme dosud neviděli."
+context = "Epidemiolog krajské hygienické stanice reaguje na tutéž analýzu."
+benign = true
+marker = "Výsledek nalezený prohledáváním se nepovažuje za potvrzení, ale za hypotézu, která se testuje na nezávislých datech."
+response = "Jde o platný postup: oddělení hledání od ověřování odstraňuje zkreslení, které vzniká z mnoha srovnání."
+
+[[pattern]]
+id = "AF-05.15"
+slug = "zavadejici-graf"
+type = "tactic"
+cs = "Zavádějící graf"
+en = "Misleading graph"
+aliases = ["zavádějící vizualizace", "useknutá osa"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["vyber-tresnicek", "relativni-a-absolutni-riziko", "zamlceni-dukazu", "vytrzeni-z-kontextu", "mcnamaruv-klam"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-1-selektivni-expozice.md",
+  "kompendium/07-teoreticke-reflexe/digitalni-vek.md",
+  "kompendium/06-obrana/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Podívejte se na ten graf: sloupec konkurence je sotva vidět a náš je třikrát vyšší. Svislá osa začíná až těsně pod hodnotami obou firem."
+context = "Reklamní leták srovnává spokojenost zákazníků dvou firem."
+benign = false
+marker = "Osa začíná těsně pod hodnotami, takže malý rozdíl v číslech vypadá jako mnohonásobný rozdíl ve výšce sloupců."
+response = "Číst čísla na ose, ne výšku sloupců, a přepočítat rozdíl na skutečný poměr hodnot; ptát se, proč osa nezačíná nulou."
+
+[[pattern.trainer]]
+utterance = "Osu teploty jsme nezačali nulou, protože nás zajímá změna o desetiny stupně; v popisku to uvádíme a vedle je stejný graf s plnou osou."
+context = "Autoři klimatologické zprávy vysvětlují volbu měřítka."
+benign = true
+marker = "Volba měřítka je zdůvodněná povahou veličiny, výslovně ohlášená a doplněná srovnávacím zobrazením."
+response = "Jde o legitimní zobrazení: u veličiny, kde nula nemá věcný význam, je zúžená osa oprávněná, pokud je zřetelně označená."
+
+[[pattern]]
+id = "AF-05.16"
+slug = "relativni-a-absolutni-riziko"
+type = "informal"
+cs = "Záměna relativního a absolutního rizika"
+en = "Relative versus absolute risk"
+aliases = ["klam relativního rizika", "zamlčený základ procent"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["zanedbani-zakladni-miry", "zavadejici-graf", "odvolani-na-strach", "klam-obhajce", "zamlceni-dukazu"]
+kompendium = [
+  "kompendium/population-health/_index.md",
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/06-klinicke-aplikace/preventivni-strategie.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nová studie: kdo pije každý den kávu, má o polovinu vyšší riziko vzácného nádoru. Odborníci varují, že jde o dramatický nárůst."
+context = "Titulek a perex zpravodajského článku."
+benign = false
+marker = "Uvádí se jen relativní změna rizika bez výchozí četnosti, takže čtenář nevidí, že u vzácné nemoci jde o malý absolutní rozdíl."
+response = "Ptát se, z kolika případů na kolik lidí riziko stoupá, tedy po absolutních číslech, a teprve podle nich posoudit význam zjištění."
+
+[[pattern.trainer]]
+utterance = "Lék snižuje riziko infarktu asi o čtvrtinu. U lidí jako vy to znamená, že ze sta léčených za deset let infarkt odvrátí přibližně u dvou."
+context = "Lékař vysvětluje pacientovi přínos preventivní léčby."
+benign = true
+marker = "Relativní údaj je doplněn o absolutní změnu v přirozených četnostech vztaženou k riziku konkrétního pacienta."
+response = "Jde o transparentní sdělení rizika: pacient dostává obě míry a může přínos porovnat s nežádoucími účinky a náklady."

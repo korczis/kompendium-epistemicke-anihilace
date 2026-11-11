@@ -1,0 +1,362 @@
+# Rodina NLP-01: Předpoklady NLP (pravidlo project.content-catalogs; schéma v scripts/catalogs.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-01.01"
+slug = "mapa-neni-uzemi"
+type = "principle"
+cs = "Mapa není území"
+en = "The map is not the territory"
+aliases = ["mapa a území"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = []
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/02-uvod/filosoficky-ramec.md",
+  "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "To, co si pamatuješ, je jen tvoje mapa. Moje mapa je přesnější, takže to, co se tehdy stalo, ti vysvětlím já."
+context = "Partner zpochybňuje vzpomínku druhého na konflikt."
+benign = false
+marker = "Princip o omezenosti každé mapy se uplatní jen na mapu druhého, kdežto vlastní mapa mluvčího se vydává za území."
+response = "Trvat na tom, že obě mapy jsou omezené, a ověřovat událost nezávislými stopami (zápisky, svědci), ne autoritou mluvčího."
+
+[[pattern.trainer]]
+utterance = "Možná to každý z nás vidí jinak. Zkusme si nejdřív říct, co přesně kdo viděl, a pak teprve, co si o tom myslíme."
+context = "Mediátor ve sporu dvou kolegů."
+benign = true
+marker = "Rozlišení mapy a území se vztahuje na obě strany stejně a vede k ověřování pozorování, ne k převzetí cizího výkladu."
+response = "Jde o legitimní užití: oddělit pozorování od interpretace a pokračovat ověřením faktů."
+
+[[pattern]]
+id = "NLP-01.02"
+slug = "vyznam-komunikace-je-reakce"
+type = "principle"
+cs = "Význam komunikace je reakce, kterou vyvolá"
+en = "The meaning of communication is the response you get"
+aliases = ["význam sdělení je odezva"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["odpovednost-za-komunikaci", "kalibrace", "nelze-nekomunikovat", "raport-jako-nastroj-vlivu", "mapa-neni-uzemi"]
+kompendium = [
+  "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md",
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Na tom, jestli bylo všechno, co jste zákazníkovi řekl, úplně přesné, nezáleží. Význam vaší komunikace je podpis, který jste získal."
+context = "Lektor prodejního kurzu hodnotí s účastníkem nahraný rozhovor."
+benign = false
+marker = "Odpovědnost za porozumění se mění v kritérium, podle něhož je dobrá každá komunikace, která vyvolá žádané jednání, bez ohledu na pravdivost a svobodu druhé strany."
+response = "Rozlišovat porozumění od poddajnosti: posoudit, zda byly informace pravdivé a úplné a zda druhá strana mohla bez následků odmítnout."
+
+[[pattern.trainer]]
+utterance = "Zdá se, že jsem to vysvětlil nejasně, když jste to pochopili jinak. Řeknu to ještě jednou a pak bych rád slyšel, jak tomu rozumíte vy."
+context = "Lékař vysvětluje pacientovi a jeho rodině průběh léčby."
+benign = true
+marker = "Mluvčí bere nedorozumění jako svou odpovědnost a ověřuje porozumění, ne souhlas nebo určité jednání."
+response = "Legitimní užití: princip slouží k opravě sdělení a ke kontrole porozumění; pacient může s návrhem dál nesouhlasit."
+
+[[pattern]]
+id = "NLP-01.03"
+slug = "neni-selhani-jen-zpetna-vazba"
+type = "principle"
+cs = "Neexistuje selhání, jen zpětná vazba"
+en = "There is no failure, only feedback"
+aliases = ["selhání jako zpětná vazba"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["selhani-jako-zpetna-vazba-vzorec", "kdyz-to-nefunguje-udelej-neco-jineho", "tote-model", "falzifikovatelnost-nlp", "guru-efekt"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Že se ti ani po třetím kurzu nic nezlepšilo, není selhání metody. Je to jen zpětná vazba, že jsi připravený na pokročilý stupeň."
+context = "Lektor seminářů osobního rozvoje odpovídá nespokojenému absolventovi."
+benign = false
+marker = "Neúspěch metody se překlápí ve zpětnou vazbu o nedostatku účastníka a vede k dalšímu nákupu; metoda tak nemůže selhat za žádných okolností."
+response = "Zeptat se, jaký výsledek by metodu vyvrátil, a hodnotit ji podle předem stanoveného kritéria, ne podle výkladu toho, kdo ji prodává."
+
+[[pattern.trainer]]
+utterance = "Pokus nevyšel podle plánu. Podíváme se, co přesně nefungovalo; když nepomůže ani úprava, budeme muset uznat, že tahle cesta je slepá."
+context = "Vedoucí výzkumného týmu na poradě po neúspěšném měření."
+benign = true
+marker = "Zpětná vazba vede ke změně postupu a výslovně připouští, že chybný může být samotný přístup."
+response = "Legitimní užití: neúspěch se rozebírá bez zahanbení a jeho výsledkem může být i opuštění metody."
+
+[[pattern]]
+id = "NLP-01.04"
+slug = "pozitivni-zamer-chovani"
+type = "principle"
+cs = "Každé chování má pozitivní záměr"
+en = "Every behaviour has a positive intention"
+aliases = ["pozitivní záměr"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["elicitace-pozitivniho-zameru", "sestikrokovy-reframing", "som-zamer", "clovek-neni-sve-chovani", "manipulativni-reframing-ve-vztazich", "jadrova-transformace"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+  "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když ti kontroluje telefon, dělá to z lásky. Každé chování má pozitivní záměr, tak se nezlob a hledej, co ti tím vlastně chce dát."
+context = "Známá odpovídá ženě, která si stěžuje na partnerovu kontrolu."
+benign = false
+marker = "Předpoklad o dobrém záměru se uplatní na kontrolující chování a přesouvá pozornost od jeho dopadu k domnělému úmyslu, čímž kontrolu omlouvá."
+response = "Oddělit záměr od dopadu: posuzovat kontrolu podle toho, co omezuje, a hledat oporu u lidí mimo vztah, ne výklad, který ji ospravedlňuje."
+
+[[pattern.trainer]]
+utterance = "Pití vám podle vašich slov pomáhá usnout po noční službě. Ta potřeba je srozumitelná; pojďme hledat cesty ke spánku, které by vám tolik neškodily."
+context = "Adiktolog v rozhovoru s pacientem."
+benign = true
+marker = "Záměr se uznává jako srozumitelná potřeba, ale chování se dál posuzuje podle škod a hledají se bezpečnější alternativy."
+response = "Legitimní užití: uznání potřeby snižuje stud a neomlouvá škodu; odpovědnost za změnu zůstává u pacienta a nikdo se nemá smiřovat s ubližováním."
+
+[[pattern]]
+id = "NLP-01.05"
+slug = "lide-maji-potrebne-zdroje"
+type = "principle"
+cs = "Lidé mají zdroje, které potřebují"
+en = "People have the resources they need"
+aliases = ["každý má potřebné zdroje"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["zdrojovy-stav", "prenos-zdroje", "zdroje-cile", "velke-seminare", "beznadej-bezmoc-nehodnost", "nlp-v-koucinku"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md",
+  "kompendium/case-studies/51-new-age-recovery.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Všechno, co k uzdravení potřebuješ, už v sobě máš. Když se ti nedaří, tvoje vůle se ještě nerozhodla, a prášky to jen oddalují."
+context = "Vedoucí kurzu osobní proměny mluví s účastnicí léčenou pro depresi."
+benign = false
+marker = "Předpoklad o vnitřních zdrojích nahrazuje odbornou péči a z neúspěchu činí vinu člověka, který pomoc potřebuje."
+response = "Trvat na tom, že posilování vlastních sil léčbu nevylučuje, a o jakékoli změně léčby rozhodovat jen s ošetřujícím lékařem."
+
+[[pattern.trainer]]
+utterance = "Zvládla jste už jedno velmi těžké období. Co vám tehdy pomohlo a co z toho by se dalo využít teď, vedle podpory, kterou spolu domluvíme?"
+context = "Psycholožka v poradně s klientkou v dlouhodobé zátěži."
+benign = true
+marker = "Dřívější schopnosti člověka se hledají jako doplněk podpory, ne jako náhrada péče nebo důkaz, že pomoc není potřeba."
+response = "Legitimní užití: orientace na zdroje posiluje sebedůvěru a zároveň uznává potřebu vnější pomoci."
+
+[[pattern]]
+id = "NLP-01.06"
+slug = "mysl-a-telo-jeden-system"
+type = "principle"
+cs = "Mysl a tělo tvoří jeden systém"
+en = "Mind and body are one system"
+aliases = ["jednota mysli a těla"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["presvedceni-a-zdravi", "stav", "kalibrace", "cteni-reci-tela", "alergicky-vzorec", "kongruence"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-9-van-der-kolk-trauma.md",
+  "kompendium/techniques/ea-6-2-9-body-oriented-therapy-protokol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje tělo tu nemoc vytvořilo, protože jsi nezpracovala staré přesvědčení. Až ho změníš, zmizí sama a operace bude zbytečná."
+context = "Lektor alternativního kurzu mluví s pacientkou, které lékaři doporučili operaci."
+benign = false
+marker = "Jednota mysli a těla se vykládá jako přímá příčinnost mezi přesvědčením a nemocí, z níž plyne vina pacientky a odklon od léčby."
+response = "Oddělit psychickou podporu od léčby: rozhodovat s ošetřujícím lékařem a tvrzení o vyléčení změnou přesvědčení brát jako nedoložené."
+
+[[pattern.trainer]]
+utterance = "Při dlouhém stresu se často zhorší spánek i trávení. Budeme sledovat obojí, ale potíže se žaludkem si nechte nejdřív vyšetřit u praktického lékaře."
+context = "Psychoterapeut v rozhovoru s klientem."
+benign = true
+marker = "Souvislost psychiky a těla se uvádí jako možný vliv, ne jako jediná příčina, a tělesné příznaky se nechávají lékařsky ověřit."
+response = "Legitimní užití: psychosomatický rámec doplňuje lékařské vyšetření a nenahrazuje ho."
+
+[[pattern]]
+id = "NLP-01.07"
+slug = "zakon-pozadovane-variety"
+type = "principle"
+cs = "Nejpružnější prvek řídí systém"
+en = "The law of requisite variety"
+aliases = ["zákon nezbytné rozmanitosti", "zákon požadované variety"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["kdyz-to-nefunguje-udelej-neco-jineho", "tote-model", "raport-jako-nastroj-vlivu", "nlp-v-komunite-svadeni", "neuro-zargon", "volba-je-lepsi-nez-zadna-volba"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kybernetika dokázala, že systém vždycky ovládá jeho nejpružnější prvek. Kdo se umí přizpůsobit komukoli, toho nakonec všichni poslechnou."
+context = "Řečník na motivačním semináři o vedení lidí."
+benign = false
+marker = "Kybernetický pojem se vydává za vědecký důkaz mezilidské nadvlády a pružnost se mění v nástroj kontroly druhých."
+response = "Ověřit, co původní zákon tvrdí (regulace poruch v řídicím systému), a jeho přenos na ovládání lidí odmítnout jako nedoložený."
+
+[[pattern.trainer]]
+utterance = "Naše linka má na jeden typ požadavku jediný postup, a když nesedí, lidé odcházejí bez pomoci. Potřebujeme víc možností reakce, aby se každý dostal k řešení."
+context = "Vedoucí zákaznické linky na poradě o procesech."
+benign = true
+marker = "Princip se užívá ve smyslu rozmanitosti odpovědí systému na rozmanitost požadavků, ne k ovládání lidí."
+response = "Legitimní užití: blízké původnímu kybernetickému smyslu; systém má zvládat různé situace, ne jedna strana převládnout nad druhou."
+
+[[pattern]]
+id = "NLP-01.08"
+slug = "respekt-k-modelu-sveta"
+type = "principle"
+cs = "Respekt k modelu světa druhého"
+en = "Respect for the other person's model of the world"
+aliases = ["respekt k mapě druhého"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["mapa-neni-uzemi", "pacing-a-leading", "pseudoempatie", "sladeni-hodnot", "som-model-sveta", "raport"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md",
+  "kompendium/techniques/ea-7-2-8-davidson-charity.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Respektuju tvůj model světa, tak respektuj i ten náš: v našem společenství se o rozhodnutích vedoucího nepochybuje."
+context = "Starší člen skupiny reaguje na nováčkovu kritickou otázku."
+benign = false
+marker = "Výzva k respektu slouží k vyřazení kritiky; respekt se žádá jednostranně a chrání nárok skupiny před ověřováním."
+response = "Rozlišit respekt k člověku od přijetí jeho tvrzení: odlišný pohled lze uznat a zároveň trvat na právu klást otázky a ověřovat."
+
+[[pattern.trainer]]
+utterance = "Chápu, že pro vás je na prvním místě rodina. Právě proto byste tu smlouvu měl podepsat ještě dnes, dokud je pro vaše blízké nejvýhodnější."
+context = "Finanční poradce v rozhovoru s klientem."
+benign = false
+marker = "Porozumění hodnotám druhého se okamžitě obrací v páku pro rozhodnutí pod časovým tlakem."
+response = "Oddělit uznání vlastních hodnot od rozhodnutí: vzít si čas, porovnat nabídky a požádat o nezávislý názor."
+
+[[pattern.trainer]]
+utterance = "Vidím, že to vnímáte jinak než já, a nechci vás přesvědčovat. Pomozte mi pochopit, z čeho váš pohled vychází."
+context = "Mediátorka mluví s jednou ze stran sporu."
+benign = true
+marker = "Respekt k modelu druhého slouží porozumění a není navázán na získání souhlasu nebo jednání."
+response = "Legitimní užití: zvídavost bez skrytého cíle; druhá strana může odpověď odmítnout a nic se jí tím nebere."
+
+[[pattern]]
+id = "NLP-01.09"
+slug = "clovek-neni-sve-chovani"
+type = "principle"
+cs = "Člověk není své chování"
+en = "People are not their behaviour"
+aliases = ["oddělení identity a chování"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["uroven-identity", "uroven-chovani", "pozitivni-zamer-chovani", "presvedceni-o-identite", "zamena-logickych-urovni"]
+kompendium = [
+  "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md",
+  "kompendium/techniques/ea-5-3-1-identitarni-substituce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "On není to, co ti udělal. Jeho pravé já je dobré, a když se k němu vrátíš a budeš v něm vidět to pravé já, přestane."
+context = "Příbuzný přemlouvá ženu, aby se vrátila k násilnému partnerovi."
+benign = false
+marker = "Oddělení člověka od chování slouží k vymazání odpovědnosti za opakované násilí a přenáší úkol změny na oběť."
+response = "Posuzovat bezpečí podle opakovaného chování, ne podle domnělého pravého já, a obrátit se na odbornou pomoc pro oběti násilí."
+
+[[pattern.trainer]]
+utterance = "Ta zpráva měla chyby ve výpočtech a je potřeba je opravit. Neznamená to, že jste špatný analytik; jde o tenhle konkrétní text."
+context = "Vedoucí dává zpětnou vazbu mladšímu kolegovi."
+benign = true
+marker = "Kritika míří na konkrétní výkon a výslovně se odlišuje od hodnocení osoby, přičemž odpovědnost za opravu zůstává."
+response = "Legitimní užití: oddělení chování od identity snižuje stud a odpovědnost nesnižuje."
+
+[[pattern]]
+id = "NLP-01.10"
+slug = "nejlepsi-dostupna-volba"
+type = "principle"
+cs = "Lidé volí nejlepší dostupnou volbu"
+en = "People make the best choice available to them"
+aliases = ["nejlepší dostupná volba"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["volba-je-lepsi-nez-zadna-volba", "pozitivni-zamer-chovani", "iluze-volby", "lide-maji-potrebne-zdroje", "mapa-neni-uzemi"]
+kompendium = [
+  "kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md",
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Zůstala jsi, protože to pro tebe byla nejlepší dostupná volba. Nikdo tě nenutil, tak teď netvrď, že jsi byla oběť."
+context = "Bývalý partner odpovídá ženě, která z kontrolujícího vztahu odešla."
+benign = false
+marker = "Předpoklad o nejlepší dostupné volbě se mění v důkaz svobodného souhlasu a zakrývá, jak úzce byly možnosti omezeny."
+response = "Pojmenovat podmínky, za nichž se volilo (závislost, výhrůžky, izolace), a nepřijímat, že volba v omezených možnostech znamená souhlas."
+
+[[pattern.trainer]]
+utterance = "Tehdy jste s tím, co jste věděl a co jste měl k dispozici, udělal, co se dalo. Teď víte víc a můžete zvážit i jiné možnosti."
+context = "Terapeut s klientem, který se obviňuje za dávné rozhodnutí."
+benign = true
+marker = "Princip mírní zpětné sebeobviňování a otevírá nové možnosti; omezení minulé situace nepopírá ani je neobrací proti člověku."
+response = "Legitimní užití: uznává omezené podmínky tehdejšího rozhodnutí a slouží úlevě, ne obhajobě toho, kdo možnosti omezoval."
+
+[[pattern]]
+id = "NLP-01.11"
+slug = "odpor-jako-nedostatek-raportu"
+type = "principle"
+cs = "Odpor jako znak chybějícího raportu"
+en = "Resistance indicates a lack of rapport"
+aliases = ["neexistují odolní klienti"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["raport", "utilizace", "pacing-a-leading", "nlp-v-prodeji", "nlp-v-komunite-svadeni", "raport-jako-nastroj-vlivu"]
+kompendium = [
+  "philosophy/boundary-ethics.md",
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jeho ne neberte vážně. Zákazník, který odmítá, vám jen ukazuje, že mezi vámi ještě není dost raportu."
+context = "Lektor prodejního kurzu komentuje rozhovor, v němž zákazník nabídku odmítl."
+benign = false
+marker = "Odmítnutí se nevykládá jako rozhodnutí, ale jako porucha vztahu, kterou má mluvčí překonat; souhlas druhého tím přestává být podmínkou."
+response = "Brát odmítnutí jako platné rozhodnutí; v roli zákazníka stačí ne zopakovat a rozhovor ukončit, bez povinnosti cokoli zdůvodňovat."
+
+[[pattern.trainer]]
+utterance = "Mám pocit, že jsem vás v posledních minutách přetlačoval. Jestli o tom teď mluvit nechcete, je to v pořádku; vrátit se k tomu můžeme, až budete chtít, nebo vůbec."
+context = "Terapeut reaguje na klientovo dlouhé mlčení."
+benign = true
+marker = "Napětí v rozhovoru se čte jako signál vztahu, za který terapeut přebírá podíl, a klientovo odmítnutí se respektuje."
+response = "Legitimní užití: odpor je informace o vztahu, ne překážka k odstranění; klient má právo neodpovědět."

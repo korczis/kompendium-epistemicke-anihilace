@@ -14,7 +14,7 @@
 #   scripts/verify-content.sh --help     this text
 #
 # Gates: migrate-content, normalize-front-matter (and its schema table), polish-markdown,
-# link-terms, check-ia, build-references, build-graph, build-ui-data, build-readme (when present),
+# link-terms, check-ia, catalogs, build-references, build-graph, build-ui-data, build-readme (when present),
 # zola build, build-surfaces, build-engine-fixtures, graph urls resolve, test/ staged,
 # test/run.sh. The export is
 # deleted afterwards.
@@ -66,6 +66,7 @@ step "front-matter schema doc"   python3 scripts/normalize-front-matter.py --doc
 step "polish-markdown"            python3 scripts/polish-markdown.py --check
 step "link-terms"                 python3 scripts/link-terms.py --check
 if [ "$fix" = --fix ]; then
+  step "catalogs"                 python3 scripts/catalogs.py
   step "build-references"         python3 scripts/build-references.py
   step "build-graph"              python3 scripts/build-graph.py
   step "polish-markdown (fix)"   python3 scripts/polish-markdown.py
@@ -77,6 +78,7 @@ if [ "$fix" = --fix ]; then
   if [ -f scripts/build-readme.py ]; then step "build-readme" python3 scripts/build-readme.py; fi
 fi
 step "check-ia"                   python3 scripts/check-ia.py
+step "catalogs --check"           python3 scripts/catalogs.py --check
 step "build-references --check"   python3 scripts/build-references.py --check
 step "build-graph --check"        python3 scripts/build-graph.py --check
 step "build-ui-data --check"      python3 scripts/build-ui-data.py --check
@@ -111,6 +113,13 @@ if [ "$fix" = --fix ]; then
   python3 scripts/check-ia.py --update-baseline >/dev/null
   cp scripts/ia-baseline.json "$root/scripts/ia-baseline.json"
   cp static/data/*.json "$root/static/data/"
+  if [ -d content/kompendium/nlp-vzorce ]; then
+    (cd content/kompendium/nlp-vzorce && find . -name '*.md' -print0) | while IFS= read -r -d '' f; do
+      cmp -s "content/kompendium/nlp-vzorce/$f" "$root/content/kompendium/nlp-vzorce/$f" \
+        || cp "content/kompendium/nlp-vzorce/$f" "$root/content/kompendium/nlp-vzorce/$f"
+    done
+    (cd "$root" && git add content/kompendium/nlp-vzorce)
+  fi
   cp content/references.md "$root/content/references.md"
   derived="scripts/ia-baseline.json static/data content/references.md"
   if [ -f scripts/build-engine-fixtures.py ]; then

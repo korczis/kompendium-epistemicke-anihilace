@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 602,
+        "in": 603,
         "kind": "Pojem",
         "path": "glossary/epistemicka-anihilace.md",
         "tier": 4,
@@ -45,7 +45,7 @@
       },
       {
         "code": null,
-        "in": 128,
+        "in": 129,
         "kind": "Filozofie",
         "path": "philosophy/epistemic-integrity.md",
         "tier": 4,
@@ -85,7 +85,7 @@
       },
       {
         "code": null,
-        "in": 55,
+        "in": 56,
         "kind": "Pojem",
         "path": "glossary/epistemicka-pokora.md",
         "tier": 4,

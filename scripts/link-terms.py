@@ -5,8 +5,22 @@ The dictionary is derived from the content, never written by hand:
 
   - every glossary entry, by its title and by the parts of a title like
     "Pseudověda (pseudoscience)" (both "Pseudověda" and "pseudoscience");
+  - every catalogue entry page (any catalogue of data/catalogs.toml: NLP patterns, fallacies,
+    …), by its title and its catalog_aliases – both written there by scripts/catalogs.py – in
+    two strengths. Everywhere in the book only a distinctive name links: a loanword title (the
+    Czech and English names agree: "Reframing", "Whataboutism") or a hyphenated one
+    ("Meta-model"); most catalogue labels are ordinary Czech ("časová osa" is also a timeline
+    of events). Inside the catalogue sections also the multi-word titles and aliases link.
+    A glossary entry wins over a catalogue page for the same term;
   - every technique page, by its code: "EA-1.1.1" links to the fullest page named
     content/kompendium/techniques/ea-1-1-1*.md (never a short-code stub when a full page exists).
+
+A term links to its page even when that page is still thin: the IA requirement `weak-link`
+charges the thin target, never the linking page (09eaf75f), because a link to a thin page is
+better than no link (term = page = link).
+
+Generated blocks (between <!-- kompendium:…:begin and <!-- kompendium:…:end -->) are skipped:
+their scripts own them.
 
 On each page the first plain-prose occurrence of a term is linked, unless the page already
 links that target or is that target. Never touched: front matter, fenced and inline code,
@@ -59,7 +73,7 @@ SECTION = re.compile(r"^#{1,2}\s")
 
 
 def dictionary(pages: list) -> tuple:
-    terms = {}
+    terms, local = {}, {}
     for page in pages:
         path = page["path"]
         if not path.startswith("glossary/") or page["is_index"] or not page["title"]:
@@ -74,6 +88,22 @@ def dictionary(pages: list) -> tuple:
             if not variant or (len(words) == 1 and (len(variant) < 8 or variant.lower() in STOP)):
                 continue
             terms.setdefault(variant.lower(), path)
+    for page in pages:
+        path = page["path"]
+        if not page.get("catalog_entry") or not page["title"]:
+            continue
+        en = fold(page.get("en", ""))
+        for variant in {page["title"].strip(), *[a.strip() for a in page.get("aliases", [])]}:
+            words = variant.split()
+            if not variant or variant.lower() in STOP or len(variant) < 5:
+                continue
+            # A loanword counts as distinctive only as the page title: an alias such as
+            # "root cause" is ordinary English in the rest of the book.
+            distinctive = "-" in variant or (variant == page["title"].strip() and fold(variant) == en)
+            if distinctive:
+                terms.setdefault(variant.lower(), path)
+            elif len(words) > 1:
+                local.setdefault(variant.lower(), path)
     codes = {}
     for page in pages:
         m = re.match(r"kompendium/techniques/ea-(\d+)-(\d+)-(\d+)(?:-.+)?\.md$", page["path"])
@@ -85,7 +115,17 @@ def dictionary(pages: list) -> tuple:
         if best is None or page["words"] > best["words"]:
             codes[code] = page
     codes = {code: page["path"] for code, page in codes.items()}
-    return terms, codes
+    local = {k: v for k, v in local.items() if k not in terms}
+    return terms, codes, local
+
+
+def fold(text: str) -> str:
+    import unicodedata
+    return unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode().lower().strip()
+
+
+GEN_BEGIN = re.compile(r"<!-- kompendium:[\w-]+:begin")
+GEN_END = re.compile(r"<!-- kompendium:[\w-]+:end -->")
 
 
 def link_bold(body: str, own: str, bold_terms: dict) -> tuple:
@@ -109,8 +149,15 @@ def link_page(text: str, own: str, links: set, terms: dict, codes: dict, pattern
     if bold_terms:
         body, linked = link_bold(body, own, bold_terms)
         done |= linked  # a term linked in bold needs no second link in the prose
-    out, in_code, in_bibliography = [], False, False
+    out, in_code, in_bibliography, in_generated = [], False, False, False
     for line in body.split("\n"):
+        if GEN_BEGIN.search(line):
+            in_generated = True
+        if in_generated:
+            out.append(line)
+            if GEN_END.search(line):
+                in_generated = False
+            continue
         if FENCE.match(line):
             in_code = not in_code
             out.append(line)
@@ -175,12 +222,18 @@ def main() -> int:
     check = "--check" in args
     pages = load_pages(with_body="--bold" in args)
     by_path = {p["path"]: p for p in pages}
-    terms, codes = dictionary(pages)
+    terms, codes, local = dictionary(pages)
     bold_terms = bold_term_index(pages) if "--bold" in args else None
-    ordered = sorted(terms, key=len, reverse=True)
-    pattern = re.compile(
-        r"(?<![\w])(" + "|".join(re.escape(t) for t in ordered) + r")(?![\w])", re.I
-    ) if ordered else None
+
+    def compile_terms(words: dict):
+        ordered = sorted(words, key=len, reverse=True)
+        return re.compile(
+            r"(?<![\w])(" + "|".join(re.escape(t) for t in ordered) + r")(?![\w])", re.I
+        ) if ordered else None
+
+    pattern = compile_terms(terms)
+    catalog_terms = {**local, **terms}
+    catalog_pattern = compile_terms(catalog_terms)
     targets = []
     for arg in (a for a in args if not a.startswith("-")):
         path = pathlib.Path(arg)
@@ -192,13 +245,18 @@ def main() -> int:
         if page is None or rel == "references.md":
             continue
         text = path.read_text(encoding="utf-8")
-        new = link_page(text, rel, set(page["links"]), terms, codes, pattern, bold_terms)
+        if page.get("catalog"):
+            new = link_page(text, rel, set(page["links"]), catalog_terms, codes, catalog_pattern,
+                            bold_terms)
+        else:
+            new = link_page(text, rel, set(page["links"]), terms, codes, pattern, bold_terms)
         if new != text:
             changed.append(path)
             if not check:
                 path.write_text(new, encoding="utf-8")
     verb = "would link" if check else "linked"
-    print(f"link-terms: {verb} {len(changed)} page(s); dictionary {len(terms)} terms, "
+    print(f"link-terms: {verb} {len(changed)} page(s); dictionary {len(terms)} terms "
+          f"(+{len(local)} inside catalogue sections), "
           f"{len(codes)} technique codes")
     return 1 if check and changed else 0
 

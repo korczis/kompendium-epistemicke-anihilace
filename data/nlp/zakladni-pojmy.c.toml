@@ -1,0 +1,333 @@
+# Rodina NLP-02: Základní pojmy NLP, část c (NLP-02.23 až NLP-02.32).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Pořadí záznamů je pořadí
+# identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-02.23"
+slug = "asociace"
+type = "concept"
+cs = "Asociace"
+en = "Association"
+aliases = ["asociovaný stav", "prožívání zevnitř"]
+use = "dvoji"
+risk = "stredni"
+broader = "submodality-pojem"
+related = ["disociace", "stav", "budouci-prehravani", "v-case-a-mimo-cas", "kotva-pojem"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "glossary/complex-trauma.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nepřemýšlejte o smlouvě, jen si představte, že jste za rok ve svém novém domě, cítíte tu vůni dřeva, slyšíte děti na zahradě. Tohle přece chcete, ne?"
+context = "Prodejce nemovitostí při jednání o podpisu smlouvy."
+benign = false
+marker = "Mluvčí vede k prožívání budoucí situace zevnitř, se smyslovými detaily a citem, právě ve chvíli, kdy se má rozhodovat o podmínkách."
+response = "Oddělit představu od rozhodnutí: vyžádat si podmínky písemně a rozhodnout až s odstupem, mimo emočně vyladěnou chvíli."
+
+[[pattern.trainer]]
+utterance = "Když na tu chvíli vzpomínáte, jste v ní znovu uvnitř, nebo ji spíš vidíte zpovzdálí? Ptám se jen proto, abych věděl, jak velká zátěž to pro vás teď je."
+context = "Terapeut při úvodním rozhovoru s klientem o obtížné vzpomínce."
+benign = true
+marker = "Otázka zjišťuje, jak člověk vzpomínku prožívá, nikoho nevtahuje do prožitku a výslovně slouží k odhadu zátěže."
+response = "Jde o legitimní užití: rozlišení perspektivy pomáhá dávkovat práci se vzpomínkou a chránit klienta před zahlcením."
+
+[[pattern]]
+id = "NLP-02.24"
+slug = "disociace"
+type = "concept"
+cs = "Disociace"
+en = "Dissociation"
+aliases = ["disociovaný stav", "pohled zvenčí"]
+use = "dvoji"
+risk = "vysoke"
+broader = "submodality-pojem"
+related = ["asociace", "dvojita-disociace", "rychla-lecba-fobie", "meta-pozice", "trauma-a-falesne-vzpominky"]
+canonical = "glossary/disociace.md"
+kompendium = [
+  "kompendium/techniques/ea-5-3-4-telesna-disociace.md",
+  "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
+  "kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "To, co cítíš, když na to myslíš, není skutečné. Podívej se na sebe zvenku jako na postavu ve filmu a uvidíš, že není proč se zlobit."
+context = "Vedoucí skupiny reaguje na člena, který popisuje křivdu ze strany skupiny."
+benign = false
+marker = "Odstup od vlastního prožitku se nabízí proto, aby se zneplatnila oprávněná emoce a varovný signál, ne aby se ulevilo zahlcení."
+response = "Pojmenovat, že emoce nese informaci o křivdě, a posoudit událost samotnou; odstup je volba dotčeného, ne povinnost uložená druhou stranou."
+
+[[pattern.trainer]]
+utterance = "Je v pořádku o tom mluvit z odstupu, jako byste to popisovala zvenčí. Kdykoli budete chtít přestat, zastavíme se."
+context = "Psycholožka při rozhovoru s klientkou o traumatické události."
+benign = true
+marker = "Odstup se nabízí jako ochrana před zahlcením, s výslovnou možností přerušit a bez popírání prožitku."
+response = "Jde o legitimní užití: regulace vzdálenosti od traumatického materiálu, kterou klientka ovládá sama."
+
+[[pattern]]
+id = "NLP-02.25"
+slug = "kongruence"
+type = "concept"
+cs = "Kongruence"
+en = "Congruence"
+aliases = ["souladnost", "shoda sdělení"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["inkongruence", "raport", "kalibrace", "vyrovnany", "guru-efekt"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+  "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Podívejte se na mě: mluvím klidně, dívám se vám do očí a nemám nejmenší pochybnost. Kdyby to nebyla pravda, poznali byste to na mně."
+context = "Lektor seminářů osobního rozvoje odpovídá na otázku po důkazech účinnosti."
+benign = false
+marker = "Souladný projev mluvčího se nabízí jako důkaz pravdivosti obsahu místo ověřitelných údajů."
+response = "Oddělit přesvědčivost projevu od pravdivosti tvrzení a trvat na důkazech, které nezávisí na tom, jak jistě mluvčí působí."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že je to v pořádku, ale hlas se vám u toho trochu zlomil. Chcete se k tomu ještě vrátit, nebo to necháme být?"
+context = "Poradkyně v rozhovoru s klientem po rozvodu."
+benign = true
+marker = "Rozdíl mezi slovy a projevem se pojmenuje jako pozorování a druhému se nechá volba, jak s ním naloží."
+response = "Jde o legitimní užití: postřeh je nabídnut jako otázka, ne jako výklad, a klient si sám určí, zda téma otevře."
+
+[[pattern]]
+id = "NLP-02.26"
+slug = "inkongruence"
+type = "concept"
+cs = "Inkongruence"
+en = "Incongruence"
+aliases = ["nesoulad sdělení"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["kongruence", "sekvencni-inkongruence", "simultanni-inkongruence", "integrace-casti", "detekce-lzi-v-nlp"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Říkáš ne, ale tvoje tělo říká ano. Viděl jsem, jak ses usmála. Nějaká tvoje část to chce, jen si to ještě nepřiznáš."
+context = "Muž naléhá na ženu, která odmítla pozvání."
+benign = false
+marker = "Nesoulad mezi slovy a výrazem se vykládá jako skrytý souhlas a tento výklad se staví nad výslovné odmítnutí."
+response = "Výslovné ne platí bez ohledu na výklad mimiky; nejasnost se řeší otázkou a respektem, nikdy přepisem odmítnutí na souhlas."
+
+[[pattern.trainer]]
+utterance = "Slyším, že s tím plánem souhlasíte, a přitom jste se zamračil. Je na něm něco, co vám nesedí?"
+context = "Vedoucí týmu na poradě."
+benign = true
+marker = "Nesoulad se pojmenuje a změní se v otevřenou otázku; výklad zůstává na člověku, kterého se týká."
+response = "Jde o legitimní užití: postřeh otevírá prostor pro námitku, místo aby ji předem vykládal."
+
+[[pattern]]
+id = "NLP-02.27"
+slug = "ekologicka-kontrola"
+type = "concept"
+cs = "Ekologická kontrola"
+en = "Ecology check"
+aliases = ["kontrola ekologie", "ověření ekologie"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["ekologie-zmeny", "ramec-ekologie", "ekologie-cile", "sestikrokovy-reframing", "integrace-casti"]
+kompendium = [
+  "kompendium/08-prilohy/eticky-kodex.md",
+  "kompendium/01-predmluva/eticke-aspekty.md",
+  "kompendium/techniques/ea-4-2-6-consent-withdrawal.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Udělali jsme ekologickou kontrolu a žádná tvoje část neprotestuje, takže je to pro tebe ekologické. Pochybnosti, které máš teď, jsou jen starý vzorec."
+context = "Kouč po intenzivním víkendovém kurzu odpovídá účastníkovi, který chce odstoupit od závazku."
+benign = false
+marker = "Proběhlé ověření se používá jako razítko, které předem zneplatňuje pozdější pochybnosti a námitky."
+response = "Pochybnost po rozhodnutí je platná informace; souhlas lze kdykoli přehodnotit a žádná dřívější procedura ho nezavazuje."
+
+[[pattern.trainer]]
+utterance = "Než se pro tu změnu rozhodnete, jak by se dotkla vaší rodiny a práce? A je něco, co byste jí ztratil?"
+context = "Poradce v rozhovoru o kariérní změně."
+benign = true
+marker = "Otázka obrací pozornost k širším důsledkům změny a nechává rozhodnutí na klientovi."
+response = "Jde o legitimní užití: zvážení dopadů na vztahy a hodnoty před rozhodnutím, bez tlaku na výsledek."
+
+[[pattern]]
+id = "NLP-02.28"
+slug = "ramec-pojem"
+type = "concept"
+cs = "Rámec"
+en = "Frame (concept)"
+aliases = ["rámování", "interpretační rámec"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["reframing", "predramcovani", "ramec-vysledku", "ramec-jako-by", "kontrastni-ramec", "deframing"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/techniques/ea-9-5-6-frame-war-coordination.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Než začneme, ať je jasno: tady se neptáme, jestli to funguje, ale jen jak rychle to u vás začne fungovat."
+context = "Lektor na začátku placeného semináře."
+benign = false
+marker = "Úvodní věta stanoví rámec, ve kterém otázka po účinnosti není přípustná, a ponechá jen otázku po tempu."
+response = "Vrátit vyloučenou otázku do hry: nejdřív se ptát, zda a podle čeho to funguje, a teprve potom, jak rychle."
+
+[[pattern.trainer]]
+utterance = "Můžeme se na ten výsledek podívat jako na selhání, nebo jako na první měření. Která z těch dvou optik vám přijde přesnější?"
+context = "Vedoucí výzkumné skupiny s doktorandem po neúspěšném experimentu."
+benign = true
+marker = "Rámce se nabízejí otevřeně jako alternativy a volba mezi nimi zůstává na druhém."
+response = "Jde o legitimní užití: rámec je pojmenován a podroben úsudku, ne nastaven skrytě."
+
+[[pattern]]
+id = "NLP-02.29"
+slug = "chunking"
+type = "concept"
+cs = "Chunking"
+en = "Chunking"
+aliases = ["velikost celku", "posun úrovně obecnosti"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["chunking-nahoru", "chunking-dolu", "lateralni-chunking", "hierarchie-idei", "meta-model", "umyslna-vagnost"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Chceš přece, aby tvoje děti měly lepší budoucnost, že? A kdo chce lepší budoucnost, ten dnes podepíše tuhle smlouvu."
+context = "Finanční zprostředkovatel při schůzce v domácnosti."
+benign = false
+marker = "Skok od obecné hodnoty, se kterou nelze nesouhlasit, ke konkrétnímu kroku, jako by z ní nutně plynul."
+response = "Oddělit hodnotu od prostředku: souhlas s cílem neznamená souhlas s touto smlouvou, ta se posuzuje podle vlastních podmínek."
+
+[[pattern.trainer]]
+utterance = "Shodneme se, že chceme bezpečnější přechod u školy. Teď pojďme konkrétně: co přesně by tam pomohlo a kolik by to stálo?"
+context = "Moderátorka schůze rodičů a zástupců obce."
+benign = true
+marker = "Posun od sdíleného cíle ke konkrétním variantám je otevřený a konkrétní varianty se teprve posuzují."
+response = "Jde o legitimní užití: obecná shoda slouží jako výchozí bod a konkrétní řešení zůstávají předmětem diskuse."
+
+[[pattern]]
+id = "NLP-02.30"
+slug = "casova-osa-pojem"
+type = "concept"
+cs = "Časová osa"
+en = "Timeline (concept)"
+aliases = ["linie času", "vnitřní reprezentace času"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["elicitace-casove-osy", "v-case-a-mimo-cas", "terapie-casove-osy", "korenova-pricina", "trauma-a-falesne-vzpominky"]
+kompendium = [
+  "kompendium/techniques/ea-4-4-5-temporal-self-disruption.md",
+  "kompendium/techniques/ea-4-4-4-biographical-recontextualization.md",
+  "kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Na své časové ose se vraťte až k první příčině. Nevadí, že si nic nepamatujete, vaše nevědomí to ví a to, co se objeví, je pravda."
+context = "Účastník kurzu vede jiného účastníka při „práci s časovou osou“."
+benign = false
+marker = "Obraz vzpomínky vzniklý v sugestivním rámci se předem prohlásí za pravdivý, přestože ho nic nedokládá."
+response = "Rozlišit představu od vzpomínky: obsah vzniklý pod sugescí není důkaz o minulosti a nemá být podkladem pro závěry o lidech."
+
+[[pattern.trainer]]
+utterance = "Když si představujete svůj příští rok, kde ho tak nějak vidíte, před sebou, nebo vedle sebe? Je to jen zajímavost, jak si lidé čas představují."
+context = "Lektorka kognitivní psychologie na semináři o metaforách času."
+benign = true
+marker = "Otázka mapuje prostorovou představu času jako jev, bez nároku na terapii nebo na pravdivost obsahu."
+response = "Jde o legitimní užití: popis toho, jak lidé čas prostorově reprezentují, bez sugesce a bez interpretace minulosti."
+
+[[pattern]]
+id = "NLP-02.31"
+slug = "metaprogramy-pojem"
+type = "concept"
+cs = "Metaprogramy"
+en = "Meta-programs (concept)"
+aliases = ["metaprogramové vzorce", "LAB profil"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["k-cili-a-od-problemu", "vnitrni-a-vnejsi-reference", "metaprogramy-v-naboru", "metaprogramy-v-marketingu", "preferovany-reprezentacni-system"]
+kompendium = [
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+  "kompendium/organizational-defense/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Podle toho, jak mluvíte, jste typ, který potřebuje slyšet, čemu se vyhne. Takže vám řeknu, o co všechno přijdete, když dnes neobjednáte."
+context = "Prodejce investičního produktu po krátkém úvodním rozhovoru."
+benign = false
+marker = "Z několika vět se odvodí „typ“ člověka a sdělení se mu přizpůsobí tak, aby zesílilo tlak na okamžité rozhodnutí."
+response = "Nabídku posuzovat podle obsahu, ne podle toho, jak přesně „sedí“; kdo ladí řeč na vaše obavy, odkládá rozhodnutí o faktech."
+
+[[pattern.trainer]]
+utterance = "Někdo se motivuje cílem, jiný spíš tím, čemu se chce vyhnout. Jak je to u vás? Klidně řekněte, že to tak jednoduše rozdělit nejde."
+context = "Kariérní poradkyně v úvodu rozhovoru o motivaci."
+benign = true
+marker = "Rozlišení se nabízí jako hrubá pomůcka k sebereflexi, s výslovnou možností ho odmítnout."
+response = "Jde o legitimní užití: popisná kategorie slouží rozhovoru a nevydává se za měření osobnosti."
+
+[[pattern]]
+id = "NLP-02.32"
+slug = "kotva-pojem"
+type = "concept"
+cs = "Kotva"
+en = "Anchor (concept)"
+aliases = ["kotvení", "spouštěč stavu"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["kotveni", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "kotveni-versus-ukotveni-odhadu", "stav", "zdrojovy-stav"]
+kompendium = [
+  "glossary/complex-trauma.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Pamatuješ, jak jsem ti tehdy jen položil ruku na rameno a hned ses uklidnila? Tak to funguje, beze mě se tak dobře cítit nebudeš."
+context = "Partner v kontrolujícím vztahu během hádky o samostatný výlet."
+benign = false
+marker = "Naučená vazba mezi gestem a úlevou se vydává za důkaz, že pohoda partnerky závisí na mluvčím."
+response = "Rozpoznat, že naučená asociace není závislost; zdroje klidu lze obnovit i jinde, s podporou blízkých nebo odborníka."
+
+[[pattern.trainer]]
+utterance = "Ta písnička mi pořád připomíná tátu. Kdykoli ji slyším, je mi smutno i hezky zároveň."
+context = "Žena v rozhovoru s kamarádkou rok po úmrtí otce."
+benign = true
+marker = "Běžná, spontánně vzniklá vazba mezi podnětem a stavem, kterou nikdo záměrně nevytvořil ani nevyužívá."
+response = "Jde o neškodný jev: běžné asociativní učení, které patří k přirozenému truchlení."

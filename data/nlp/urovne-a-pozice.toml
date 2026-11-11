@@ -1,0 +1,270 @@
+# Rodina NLP-13: Logické úrovně a percepční pozice (pravidlo project.content-catalogs; schéma v
+# scripts/catalogs.py). Tento soubor nese záznamy NLP-13.01 až NLP-13.08; další záznamy
+# rodiny jsou v částech data/nlp/urovne-a-pozice.<část>.toml.
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-13.01"
+slug = "zarovnani-logickych-urovni"
+type = "pattern"
+cs = "Zarovnání logických úrovní"
+en = "Logical level alignment"
+aliases = ["sladění neurologických úrovní", "alignment úrovní"]
+use = "dvoji"
+risk = "stredni"
+broader = "logicke-urovne-pojem"
+related = ["kongruence", "uroven-identity", "uroven-poslani", "ekologie-zmeny", "nlp-v-koucinku"]
+kompendium = [
+  "kompendium/techniques/ea-5-3-1-identitarni-substituce.md",
+  "kompendium/case-studies/61-corporate-leadership-cult.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když jsi teď prošel všemi úrovněmi až k poslání, víš, kým v téhle firmě jsi. A člověk s takovým posláním se o přesčasech a smlouvě nedohaduje."
+context = "Vedoucí po firemním workshopu rozhovor se zaměstnancem, který žádal o úpravu pracovní doby."
+benign = false
+marker = "Prožitek souladu úrovní se použije jako argument, že otázky prostředí a podmínek jsou pod úrovní poslání a nepatří se je vznášet."
+response = "Oddělit prožitek ze cvičení od pracovních podmínek: smlouva, čas a odměna se posuzují samostatně a jejich vznesení nevypovídá nic o loajalitě ani identitě."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že vám na rodině záleží nejvíc, a zároveň tři večery v týdnu pracujete. Nechci vám nic vnucovat, jen mě zajímá, jak to vedle sebe vidíte vy."
+context = "Psycholožka v konzultaci s klientem, který si stěžuje na vyčerpání."
+benign = true
+marker = "Rozpor mezi hodnotou a chováním se pojmenuje jako pozorování a klientovi zůstává, zda a jak ho chce řešit."
+response = "Benigní užití: nesoulad úrovní slouží jako otázka k reflexi, ne jako tlak na přijetí cizího poslání nebo konkrétního rozhodnutí."
+
+[[pattern]]
+id = "NLP-13.02"
+slug = "uroven-prostredi"
+type = "concept"
+cs = "Úroveň prostředí"
+en = "Environment level"
+aliases = ["úroveň kontextu", "kde a kdy"]
+use = "dvoji"
+risk = "nizke"
+broader = "logicke-urovne-pojem"
+related = ["uroven-chovani", "kontextovy-reframing", "kontext-cile", "zarovnani-logickych-urovni"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-2-mentee-isolation.md",
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Na tom, kde bydlíš a s kým se stýkáš, přece vůbec nezáleží. Skutečná změna se děje uvnitř, a ty starosti s bytem jsou jen únik od práce na sobě."
+context = "Vedoucí rozvojové skupiny reaguje na účastnici, která zvažuje, zda se nevrátit k rodině."
+benign = false
+marker = "Úroveň prostředí se prohlásí za nedůležitou právě ve chvíli, kdy by změna prostředí člověku vrátila oporu mimo skupinu."
+response = "Brát vnější podmínky vážně: kde člověk žije, s kým mluví a kdo má přístup k jeho času, rozhoduje o jeho svobodě víc než jakákoli práce na sobě."
+
+[[pattern.trainer]]
+utterance = "Než budeme mluvit o tom, co se v tobě děje, pojďme se podívat, kde a kdy se to stává. Jsou to pořád ty pozdní porady v pátek?"
+context = "Supervizor s mladým lékařem, který popisuje opakované chyby v dokumentaci."
+benign = true
+marker = "Obtíž se nejprve hledá v kontextu, tedy v čase, místě a podmínkách, a ne v osobě."
+response = "Benigní užití: úroveň prostředí brání předčasnému soudu o schopnostech nebo identitě a ukazuje změny, které jsou v moci organizace."
+
+[[pattern]]
+id = "NLP-13.03"
+slug = "uroven-chovani"
+type = "concept"
+cs = "Úroveň chování"
+en = "Behaviour level"
+aliases = ["co člověk dělá"]
+use = "dvoji"
+risk = "nizke"
+broader = "logicke-urovne-pojem"
+related = ["uroven-prostredi", "uroven-schopnosti", "clovek-neni-sve-chovani", "pozitivni-zamer-chovani", "generator-noveho-chovani"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+  "kompendium/techniques/ea-8-1-4-coercive-control-scale.md",
+  "kompendium/techniques/ea-2-2-6-time-control-academic.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jde jen o drobnosti: kdy vstáváš, co jíš, komu píšeš. To přece není nic velkého, a když to budeš dělat jako my, uvidíš, jak se změníš celá."
+context = "Starší členka skupiny vysvětluje nováčkovi pravidla soužití."
+benign = false
+marker = "Detailní regulace každodenního chování se líčí jako bezvýznamná, přestože právě ona postupně přetváří vyšší úrovně, tedy přesvědčení a identitu."
+response = "Sledovat rozsah pravidel, ne jejich jednotlivou velikost: souhrnná kontrola času, jídla a komunikace je znak donucující kontroly."
+
+[[pattern.trainer]]
+utterance = "Ta zpráva odešla klientovi bez kontroly druhým člověkem. Nemluvím o tom, jaký jsi pracovník, jen o tom, co se v tomhle případě stalo a co příště uděláme jinak."
+context = "Vedoucí týmu při rozboru chyby se členem týmu."
+benign = true
+marker = "Kritika zůstává na úrovni konkrétního chování a výslovně se odděluje od soudu o osobě."
+response = "Benigní užití: chování je opravitelné, a když se kritika drží této úrovně, nevyvolává globální sebeodsouzení."
+
+[[pattern]]
+id = "NLP-13.04"
+slug = "uroven-schopnosti"
+type = "concept"
+cs = "Úroveň schopností"
+en = "Capability level"
+aliases = ["úroveň dovedností", "jak"]
+use = "dvoji"
+risk = "stredni"
+broader = "logicke-urovne-pojem"
+related = ["uroven-chovani", "uroven-presvedceni-a-hodnot", "strategie-pojem", "modelovani-excelence", "tote-model"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md",
+  "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tohle zvládneš jen díky tomu, co ses naučila u nás. Bez naší metody bys to sama nedokázala, a venku by ti to nikdo neuznal."
+context = "Lektor dlouhodobého výcviku hovoří s absolventkou, která uvažuje o samostatné praxi."
+benign = false
+marker = "Schopnost se připíše výhradně skupině nebo metodě, takže odchod se jeví jako ztráta dovednosti."
+response = "Ověřit si schopnost mimo skupinu, u nezávislých lidí a v jiném prostředí; dovednost, kterou člověk ovládá, patří jemu."
+
+[[pattern.trainer]]
+utterance = "Ten text máš zatím slabší ve struktuře argumentu. To je dovednost, ne talent, a dá se nacvičit, když budeš psát osnovu dřív než odstavce."
+context = "Školitelka komentuje doktorandovi první verzi článku."
+benign = true
+marker = "Nedostatek se umístí na úroveň dovednosti, která je učitelná, a nepovyšuje se na soud o nadání nebo o osobě."
+response = "Benigní užití: rozlišení schopnosti od identity udržuje prostor pro učení a nevytváří naučenou bezmoc."
+
+[[pattern]]
+id = "NLP-13.05"
+slug = "uroven-presvedceni-a-hodnot"
+type = "concept"
+cs = "Úroveň přesvědčení a hodnot"
+en = "Beliefs and values level"
+aliases = ["proč", "úroveň motivace"]
+use = "dvoji"
+risk = "stredni"
+broader = "logicke-urovne-pojem"
+related = ["uroven-schopnosti", "uroven-identity", "limitujici-presvedceni", "kriteria", "som-hierarchie-kriterii", "cyklus-zmeny-presvedceni"]
+kompendium = [
+  "kompendium/techniques/ea-4-4-6-axiological-self-reset.md",
+  "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md",
+  "kompendium/techniques/ea-4-4-7-moral-self-suspension.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje stará hodnota poctivosti vůči rodině je jen omezující přesvědčení, které ti tam někdo nainstaloval. Skutečně svobodný člověk takové závazky nepotřebuje."
+context = "Kouč v dlouhodobém programu reaguje na klienta, který odmítá zamlčet rodině výši poplatků."
+benign = false
+marker = "Hodnota, která brání vlivu, se přeznačí na limitující přesvědčení, a tím se ospravedlní její odstranění."
+response = "Rozlišit, komu změna hodnoty prospívá: hodnota, jejímž opuštěním získává hlavně druhá strana, není překážka růstu, ale ochrana."
+
+[[pattern.trainer]]
+utterance = "Slyším, že pro vás je důležitá samostatnost a zároveň jistota. Co z toho by mělo při rozhodování o nové práci větší váhu, je na vás."
+context = "Kariérní poradce v rozhovoru s klientkou, která zvažuje změnu zaměstnání."
+benign = true
+marker = "Hodnoty klienta se pojmenují a ponechají se mu k vlastnímu zvážení, bez podsouvání pořadí."
+response = "Benigní užití: úroveň hodnot slouží k vyjasnění, rozhodnutí i jeho kritéria zůstávají klientce."
+
+[[pattern]]
+id = "NLP-13.06"
+slug = "uroven-identity"
+type = "concept"
+cs = "Úroveň identity"
+en = "Identity level"
+aliases = ["kdo", "úroveň sebepojetí"]
+use = "dvoji"
+risk = "vysoke"
+broader = "logicke-urovne-pojem"
+related = ["uroven-presvedceni-a-hodnot", "uroven-poslani", "presvedceni-o-identite", "clovek-neni-sve-chovani", "zamena-logickych-urovni"]
+kompendium = [
+  "kompendium/techniques/ea-5-3-1-identitarni-substituce.md",
+  "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md",
+  "kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md",
+  "kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Zase jsi zapomněl na tu schůzku. Ty prostě nejsi člověk, na kterého se dá spolehnout, a nikdy nebudeš."
+context = "Partner reaguje na zapomenutou schůzku v rodině."
+benign = false
+marker = "Jednotlivé chování se povýší na trvalý soud o identitě, který se nedá opravit dalším jednáním."
+response = "Vrátit výrok na úroveň chování: mluvit o konkrétní zapomenuté schůzce a o tom, co příště pomůže, a odmítnout globální nálepku."
+
+[[pattern.trainer]]
+utterance = "To, že ti zkouška nevyšla, z tebe nedělá špatnou studentku. Říká to jen, že tahle příprava nestačila, a tou se teď můžeme zabývat."
+context = "Studijní poradkyně mluví se studentkou po neúspěšné zkoušce."
+benign = true
+marker = "Výrok výslovně brání přesunu z neúspěchu na soud o identitě a vrací ho na úroveň chování a přípravy."
+response = "Benigní užití: ochrana identity před globálním odsouzením je doložený rys podpůrné zpětné vazby."
+
+[[pattern]]
+id = "NLP-13.07"
+slug = "uroven-poslani"
+type = "concept"
+cs = "Úroveň poslání"
+en = "Spiritual (purpose) level"
+aliases = ["duchovní úroveň", "úroveň za identitou", "úroveň vize"]
+use = "dvoji"
+risk = "vysoke"
+broader = "logicke-urovne-pojem"
+related = ["uroven-identity", "zarovnani-logickych-urovni", "nlp-v-sektach", "guru-efekt"]
+kompendium = [
+  "kompendium/case-studies/49-religious-leadership.md",
+  "kompendium/case-studies/50-spiritual-cult-recovery.md",
+  "kompendium/techniques/ea-8-2-3-singer-six-conditions.md",
+  "kompendium/case-studies/64-ngo-cult.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jsi součástí něčeho mnohem většího než ty sama. Kdo vidí poslání, ten se neptá na peníze ani na spánek, protože tohle je teď jeho život."
+context = "Zakladatel neziskové organizace mluví s dobrovolnicí, která požádala o volný víkend."
+benign = false
+marker = "Odkaz na vyšší poslání se užije k tomu, aby otázky odměny, odpočinku a hranic zněly jako nízké a nepatřičné."
+response = "Hodnotit poslání podle toho, jak skupina zachází s lidmi: smysluplný cíl nevyžaduje vzdát se spánku, peněz a vztahů mimo skupinu."
+
+[[pattern.trainer]]
+utterance = "Po té nemoci se ptáte, k čemu váš život vlastně směřuje. Na tu otázku nemusíte znát odpověď hned a nikdo vám ji nemá dávat."
+context = "Klinická psycholožka na onkologii v rozhovoru s pacientem po léčbě."
+benign = true
+marker = "Otázka smyslu se otevírá jako vlastní otázka pacienta, bez nabídky hotového poslání a bez nároku na loajalitu."
+response = "Benigní užití: práce se smyslem respektuje, že odpověď vytváří člověk sám, a nikomu nedává právo ji obsadit."
+
+[[pattern]]
+id = "NLP-13.08"
+slug = "meta-zrcadlo"
+type = "pattern"
+cs = "Meta-zrcadlo"
+en = "Meta-mirror"
+aliases = ["metazrcadlo", "meta mirror"]
+use = "terapie"
+risk = "stredni"
+broader = "percepcni-pozice-pojem"
+related = ["meta-pozice", "druha-pozice", "treti-pozice", "ctvrta-pozice", "troji-popis"]
+kompendium = [
+  "kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md",
+  "kompendium/techniques/ea-5-3-10-perspektivni-substituce.md",
+  "kompendium/06-obrana/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když se teď postavíš na jeho místo, uvidíš, jak moc tě potřebuje a jak tě svým způsobem miluje. Ty modřiny jsou jen jeho bolest, kterou nedokáže vyjádřit jinak."
+context = "Laický poradce na víkendovém kurzu vztahů hovoří s účastnicí, která popsala fyzické násilí."
+benign = false
+marker = "Vstup do pozice druhého se užije k tomu, aby perspektiva násilné osoby přehlušila vlastní zkušenost a bezpečí oběti."
+response = "Přednost má bezpečí a vlastní pozice: porozumění motivům druhého neruší odpovědnost za násilí a v takové situaci patří práce s perspektivou až za zajištění ochrany."
+
+[[pattern.trainer]]
+utterance = "Zkusme se na ten spor s kolegou podívat zvenku, jako byste byla někdo třetí. A pak mi řekněte, jestli z toho místa vidíte něco, co předtím ne."
+context = "Kouč v organizaci s manažerkou, která řeší dlouhodobý konflikt v týmu."
+benign = true
+marker = "Změna pozice je nabídnuta jako dobrovolný pohled zvenčí a závěr si klientka tvoří sama, bez předem daného výkladu."
+response = "Benigní užití: pozorovatelská pozice snižuje emoční zahlcení a rozšiřuje pohled; nesmí však sloužit k převzetí cizího výkladu."

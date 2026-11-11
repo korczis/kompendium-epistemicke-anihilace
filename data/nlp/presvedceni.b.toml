@@ -1,0 +1,234 @@
+# Rodina NLP-16: Přesvědčení, část b (NLP-16.08 až NLP-16.14).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Pořadí záznamů je pořadí
+# identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-16.08"
+slug = "beznadej-bezmoc-nehodnost"
+type = "concept"
+cs = "Beznaděj, bezmoc a pocit bezcennosti"
+en = "Hopelessness, helplessness, worthlessness"
+aliases = ["tři oblasti limitujících přesvědčení", "beznaděj, bezmoc, nehodnost"]
+use = "dvoji"
+risk = "vysoke"
+broader = "limitujici-presvedceni"
+related = ["presvedceni-o-identite", "uroven-presvedceni-a-hodnot", "cyklus-zmeny-presvedceni", "myslenkovy-virus", "presvedceni-a-zdravi"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+  "kompendium/techniques/ea-8-2-10-herman-recovery-stages.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Beze mě bys to nezvládla, to přece víš. A i kdyby se ti to nějak povedlo, zasloužila by sis to po tom všem, co jsi udělala?"
+context = "Partner v kontrolujícím vztahu reaguje na plán druhé strany najít si vlastní práci."
+benign = false
+marker = "Ve dvou větách se vkládá bezmoc (nezvládneš to sama) i bezcennost (nezasloužíš si to); cíl se nezpochybňuje věcně, ale přes schopnosti a hodnotu člověka."
+response = "Oddělit cíl od posouzení vlastní osoby, ověřit své schopnosti u lidí mimo vztah a brát opakované zpochybňování hodnoty jako znak kontroly, ne jako informaci o sobě."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že nemá smysl to zkoušet a že byste si zlepšení stejně nezasloužil. Můžeme se podívat, odkud ta dvě přesvědčení přišla a co pro ně a proti nim mluví?"
+context = "Psycholog v ambulanci při rozhovoru s pacientem s depresivními příznaky."
+benign = true
+marker = "Odborník pojmenovává beznaděj a pocit bezcennosti jako přesvědčení klienta a nabízí jejich společné zkoumání, nic nevnucuje."
+response = "Benigní užití: přesvědčení se zkoumají jako hypotézy s klientem, v rámci léčby s ověřenou účinností a s posouzením rizika."
+
+[[pattern]]
+id = "NLP-16.09"
+slug = "retezeni-presvedceni"
+type = "pattern"
+cs = "Řetězení přesvědčení"
+en = "Belief chaining"
+aliases = ["řetěz přesvědčení", "belief chaining"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["retezeni-kotev", "som-hierarchie-kriterii", "retezeni-sugesci", "cyklus-zmeny-presvedceni", "ano-sada"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-3-singer-six-conditions.md",
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Souhlasíš, že ti jde o rodinu. A kdo chce rodině to nejlepší, investuje do budoucnosti. A kdo investuje, nečeká, až bude pozdě, takže podepíšeš dnes."
+context = "Prodejce finančního produktu na schůzce v domácnosti klienta."
+benign = false
+marker = "Od obecné hodnoty, se kterou nelze nesouhlasit, vede řada malých kroků, z nichž každý vypadá jako logický důsledek předchozího, až ke konkrétnímu závazku bez času na rozmyšlenou."
+response = "Rozpojit řetěz: souhlas s hodnotou neznamená souhlas s produktem; každý článek posoudit zvlášť a rozhodnutí o podpisu odložit."
+
+[[pattern.trainer]]
+utterance = "Zatím věříte, že se nikdy nenaučíte mluvit před lidmi. Co by se muselo stát, abyste aspoň připustil, že malá porada je zvládnutelná?"
+context = "Kouč na sezení s klientem, který sám chce zmírnit trému."
+benign = true
+marker = "Mezi současným a žádoucím přesvědčením hledá mezilehlé, menší přesvědčení, které klient může sám zvážit a odmítnout."
+response = "Benigní užití: cíl si stanovil klient, kroky navrhuje on sám a každý mezistupeň může odmítnout bez tlaku."
+
+[[pattern]]
+id = "NLP-16.10"
+slug = "kartezske-otazky"
+type = "pattern"
+cs = "Kartézské otázky"
+en = "Cartesian questions"
+aliases = ["kartézské souřadnice", "Cartesian coordinates", "čtyři otázky rozhodování"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["ekologicka-kontrola", "ramec-ekologie", "ekologie-cile", "konfuzni-technika", "otazky-vysledku"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "A co by se nestalo, kdybyste tu smlouvu nepodepsal? Přesně, nezmizela by ta starost o rodinu, kterou cítíte už teď."
+context = "Pojišťovací poradce na schůzce s váhajícím klientem."
+benign = false
+marker = "Ze čtyř kombinací rozhodování se vybírá jen ta, která zdůrazní ztrátu při odmítnutí, a dvojitý zápor ztíží její rozbor; otázku hned zodpoví sám mluvčí."
+response = "Projít všechny čtyři možnosti sám a v klidu, vrátit otázkám kladnou podobu a porovnat nabídku s alternativami mimo rozhovor."
+
+[[pattern.trainer]]
+utterance = "Než se rozhodnete o přestěhování, zkuste si sepsat, co by se stalo, kdybyste šli, a co kdybyste zůstali, i to, co by se v obou případech nezměnilo."
+context = "Rodinná poradkyně při rozhovoru s párem zvažujícím stěhování za prací."
+benign = true
+marker = "Všechny kombinace se procházejí vyváženě, rozhodují sami klienti a poradkyně žádnou možnost neupřednostňuje."
+response = "Benigní užití: rozvaha pro a proti slouží úplnosti úvahy a nevede k předem zvolenému výsledku."
+
+[[pattern]]
+id = "NLP-16.11"
+slug = "myslenkovy-virus"
+type = "concept"
+cs = "Myšlenkový virus"
+en = "Thought virus"
+aliases = ["virus myšlení", "thought virus"]
+use = "dvoji"
+risk = "vysoke"
+broader = "limitujici-presvedceni"
+related = ["struktura-presvedceni-som", "sleight-of-mouth", "imprint", "presvedceni-a-zdravi", "beznadej-bezmoc-nehodnost"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/07-teoreticke-reflexe/digitalni-vek.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty otázky, které ti nasadila rodina, jsou myšlenkový virus. Čím víc o nich přemýšlíš, tím víc se šíří, takže je prostě nepouštěj do hlavy."
+context = "Starší člen uzavřené skupiny mluví s novým členem, který po návštěvě rodiny pochybuje."
+benign = false
+marker = "Pochybnosti a kritické otázky se označují za nákazu, kterou je třeba izolovat, místo aby se zodpověděly; metafora viru tak umlčuje přemýšlení."
+response = "Trvat na tom, že otázka se posuzuje podle obsahu, ne podle nálepky; probrat pochybnosti s lidmi mimo skupinu."
+
+[[pattern.trainer]]
+utterance = "To přesvědčení, že na matematiku nemáte hlavu, jste podle všeho převzala od učitelky na základní škole. Ověřme si, jestli pro ně dnes máte nějaký doklad."
+context = "Studijní poradce mluví se studentkou, která se vyhýbá povinnému předmětu."
+benign = true
+marker = "Metafora převzatého přesvědčení vede k ověření dokladů a nevylučuje, že přesvědčení může mít oporu; rozhodnutí zůstává studentce."
+response = "Benigní užití: přesvědčení se nevyhlašuje za nemoc, ale testuje se jako hypotéza vůči současné zkušenosti."
+
+[[pattern]]
+id = "NLP-16.12"
+slug = "presvedceni-a-zdravi"
+type = "concept"
+cs = "Přesvědčení a zdraví v NLP"
+en = "Beliefs and health in NLP"
+aliases = ["přesvědčení jako cesta ke zdraví", "beliefs and health"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["mysl-a-telo-jeden-system", "alergicky-vzorec", "systematicky-prehled-zdravi", "delfska-studie", "beznadej-bezmoc-nehodnost"]
+kompendium = [
+  "kompendium/population-health/_index.md",
+  "kompendium/case-studies/51-new-age-recovery.md",
+  "kompendium/06-klinicke-aplikace/vulnerabilni-populace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ta nemoc je jen vnější podoba vašeho přesvědčení. Až ho změníme na mém kurzu, chemoterapii už nebudete potřebovat."
+context = "Lektor seminářů osobního rozvoje při rozhovoru s účastnicí po onkologické diagnóze."
+benign = false
+marker = "Nemoc se vykládá jako výsledek přesvědčení a změna přesvědčení se nabízí jako náhrada léčby s ověřenou účinností; pacientce se tím zároveň přičítá vina za nemoc."
+response = "Nepřerušovat léčbu, vyžádat si doklady o účinnosti ze systematických přehledů a probrat nabídku s ošetřujícím lékařem; přesvědčení může ovlivnit prožívání, ne nahradit terapii."
+
+[[pattern.trainer]]
+utterance = "Vaše obavy z léčby jsou pochopitelné a je dobré o nich mluvit. Psychologická podpora vám může ulehčit snášení, ale léčbu sama nenahrazuje."
+context = "Onkologická sestra při edukaci pacienta před zahájením léčby."
+benign = true
+marker = "Psychologická stránka nemoci se uznává, ale je jasně oddělena od léčby a nepodává se jako její náhrada."
+response = "Benigní užití: podpora zvládání a očekávání je doplňkem léčby s ověřenou účinností, nikoli příslibem vyléčení."
+
+[[pattern]]
+id = "NLP-16.13"
+slug = "presvedceni-jako-mapa"
+type = "principle"
+cs = "Přesvědčení jako součást mapy"
+en = "Beliefs as part of the map"
+aliases = ["přesvědčení jsou zobecnění", "beliefs are generalizations"]
+use = "dvoji"
+risk = "stredni"
+broader = "mapa-neni-uzemi"
+related = ["limitujici-presvedceni", "zobecnovani", "uroven-presvedceni-a-hodnot", "respekt-k-modelu-sveta", "presvedceni-o-vyznamu"]
+kompendium = [
+  "kompendium/02-uvod/filosoficky-ramec.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Že ti nepřijde správné lhát zákazníkům, je jen omezující přesvědčení z tvé staré mapy. Úspěšní lidé mají mapy pružnější."
+context = "Vedoucí prodejního týmu při hodnocení nového zaměstnance."
+benign = false
+marker = "Morální přesvědčení a hranice se prohlašují za pouhou mapu, kterou je třeba změnit, zatímco přesvědčení mluvčího o tom, co je úspěch, se za mapu nepovažuje."
+response = "Uplatnit princip symetricky: i přesvědčení vedoucího je mapa; hodnoty se posuzují podle důsledků pro druhé, ne podle toho, komu brání v zisku."
+
+[[pattern.trainer]]
+utterance = "Když říkáš, že lidi tě vždycky zklamou, je to tvoje zobecnění z několika zkušeností. Napadají tě i lidé, kteří tě nezklamali?"
+context = "Terapeutka při sezení s klientem po rozpadu dlouhého přátelství."
+benign = true
+marker = "Přesvědčení se pojmenuje jako zobecnění a hledají se protipříklady v klientově vlastní zkušenosti; terapeutka nenabízí svou mapu jako správnou."
+response = "Benigní užití: rozlišení zkušenosti a zobecnění posiluje schopnost klienta testovat vlastní závěry."
+
+[[pattern]]
+id = "NLP-16.14"
+slug = "imprint"
+type = "concept"
+cs = "Imprint"
+en = "Imprint"
+aliases = ["vtištění", "formativní zážitek"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["reimprinting", "trauma-a-falesne-vzpominky", "korenova-pricina", "vekova-regrese", "presvedceni-o-identite", "myslenkovy-virus"]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/techniques/ea-8-3-8-trauma-recovery-literature.md",
+  "kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Takový blok musí mít kořen v nějakém imprintu z dětství. Že si nic nepamatuješ, jen dokazuje, jak hluboko je to zasuté, tak hledej dál."
+context = "Lektor zážitkového víkendového kurzu mluví s účastníkem, který si žádnou takovou událost nevybavuje."
+benign = false
+marker = "Existence formativní události se předpokládá dopředu a chybějící vzpomínka se vykládá jako důkaz jejího potlačení; tvrzení je nevyvratitelné a tlačí k vytváření vzpomínek."
+response = "Nepřijímat předpoklad skryté události; neurčité dojmy z hledání nepovažovat za vzpomínky a v případě potíží vyhledat odborníka, který se sugestivním dotazováním nepracuje."
+
+[[pattern.trainer]]
+utterance = "Zmínil jste, že od té doby, co vás ve škole vysmáli u tabule, nerad mluvíte před lidmi. Jak tu zkušenost vnímáte dnes?"
+context = "Psycholog při vstupním rozhovoru s dospělým klientem."
+benign = true
+marker = "Formativní zážitek přinesl klient sám, psycholog ho nepředpokládá ani nedotváří a ptá se otevřeně na jeho současný význam."
+response = "Benigní užití: práce s vlastním vyprávěním klienta bez sugestivních otázek a bez tvrzení o skrytých událostech."

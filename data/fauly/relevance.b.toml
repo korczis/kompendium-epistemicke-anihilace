@@ -1,0 +1,317 @@
+# Rodina AF-02: Klamy relevance, část b (AF-02.11 až AF-02.20); pravidlo project.content-catalogs,
+# schéma v scripts/catalogs.py. Pořadí záznamů je pořadí identifikátorů; identifikátor se po
+# zveřejnění nemění.
+
+[[pattern]]
+id = "AF-02.11"
+slug = "odvolani-na-tradici"
+type = "informal"
+cs = "Odvolání na tradici"
+en = "Appeal to tradition"
+aliases = ["argumentum ad antiquitatem", "argument zvykem"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["odvolani-na-novost", "odvolani-na-starobylost", "ad-populum", "chronologicky-snobismus", "genetic-klam", "odvolani-na-prirozenost"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Na tomhle oddělení se pacienti po operaci vždycky budili až druhý den ráno a nikdy se nic nestalo, takže žádné nové schéma tišení bolesti nepotřebujeme."
+context = "Porada ošetřujícího týmu o změně pooperačního režimu."
+benign = false
+marker = "Délka trvání praxe a absence zaznamenaných potíží se nabízejí jako důkaz, že praxe je správná, bez srovnání s alternativou."
+response = "Oddělit otázku, jak dlouho se něco dělá, od otázky, jak dobře to funguje, a žádat data o výsledcích obou postupů včetně komplikací, které se dosud nesledovaly."
+
+[[pattern.trainer]]
+utterance = "Tenhle postup kontroly dávek používáme patnáct let a máme k němu záznamy o chybách. Nový systém nejdřív vyzkoušíme souběžně, abychom měli s čím srovnávat."
+context = "Vedoucí lékárník reaguje na návrh nového softwaru."
+benign = true
+marker = "Tradice se neuvádí jako důvod pravdivosti, ale jako zdroj doložené zkušenosti, se kterou se novinka poměří."
+response = "Jde o rozumné užití: dlouhodobá praxe má evidenci výsledků a návrh nezakazuje změnu, jen ji podmiňuje srovnáním."
+
+[[pattern]]
+id = "AF-02.12"
+slug = "odvolani-na-novost"
+type = "informal"
+cs = "Odvolání na novost"
+en = "Appeal to novelty"
+aliases = ["argumentum ad novitatem"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["odvolani-na-tradici", "chronologicky-snobismus", "rozjety-vlak", "galileuv-gambit", "vedecky-zargon", "neuro-zargon"]
+kompendium = [
+  "kompendium/techniques/ea-7-2-5-kuhn-paradigm-shift.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Klasická psychoterapie je přežitek minulého století. Naše metoda je nejnovější průlom v neurovědě, a proto funguje lépe než všechno, co jste zkoušeli."
+context = "Propagační přednáška placeného výcvikového programu."
+benign = false
+marker = "Novost metody a slovo „průlom“ zastupují srovnávací doklad účinnosti; starší postupy jsou odmítnuty jen kvůli stáří."
+response = "Ptát se, s čím byla metoda srovnávána, na kom, s jakým výsledkem a kdo studii provedl; datum vzniku o účinnosti nic neříká."
+
+[[pattern.trainer]]
+utterance = "Novější verze směrnice vychází z randomizovaných studií, které v době původního doporučení neexistovaly, proto jsme dávkování upravili."
+context = "Klinický farmakolog vysvětluje změnu standardu."
+benign = true
+marker = "Za změnou stojí nová evidence, ne novost sama; mluvčí jmenuje druh dokladu, který se změnil."
+response = "Legitimní argument: novější doporučení je lepší proto, že opírá o silnější data, a to lze ověřit v uvedených studiích."
+
+[[pattern]]
+id = "AF-02.13"
+slug = "odvolani-na-emoce"
+type = "informal"
+cs = "Odvolání na emoce"
+en = "Appeal to emotion"
+aliases = ["argumentum ad passiones", "manipulace emocemi"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["odvolani-na-strach", "odvolani-na-soucit", "lichotka", "nabity-jazyk", "zavadejici-zivost", "motivovane-uvazovani"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdo se nad tou fotkou nerozplakal, nemá srdce. A kdo má srdce, ten přece nemůže hlasovat proti tomuhle zákonu."
+context = "Komentář pod příspěvkem k návrhu zákona na sociální síti."
+benign = false
+marker = "Silná emoce nad obrazem se staví na místo argumentu o obsahu zákona a nesouhlas se označuje za morální vadu."
+response = "Uznat, že situace na fotografii je skutečně tíživá, a zároveň se ptát, zda navrhovaný zákon právě tuto situaci řeší a s jakými dalšími dopady."
+
+[[pattern.trainer]]
+utterance = "Chápu, že vás to rozčiluje, mě taky. Ale podívejme se, co přesně v té smlouvě stojí, než se rozhodneme, jestli ji vypovědět."
+context = "Právník s klientem po obdržení nečekané faktury."
+benign = true
+marker = "Emoce je pojmenována a uznána, ale rozhodnutí se váže na obsah dokumentu, ne na sílu rozčilení."
+response = "Zdravé zacházení s emocí: emoce signalizuje, že na věci záleží, a rozhovor se vrací k ověřitelnému obsahu."
+
+[[pattern]]
+id = "AF-02.14"
+slug = "odvolani-na-strach"
+type = "informal"
+cs = "Odvolání na strach"
+en = "Appeal to fear"
+aliases = ["argumentum ad metum", "strašení"]
+use = "vliv"
+risk = "vysoke"
+broader = "odvolani-na-emoce"
+related = ["odvolani-na-silu", "odvolani-na-dusledky", "kluzky-svah", "falesne-dilema", "palba-nepravd"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+  "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md",
+  "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jestli ze skupiny odejdeš, ztratíš ochranu a všechno, co se ti v životě pokazí, bude důsledek toho, žes nás opustil. Nikdo, kdo odešel, nebyl šťastný."
+context = "Vedoucí uzavřené skupiny mluví s členem, který zvažuje odchod."
+benign = false
+marker = "Představa katastrofy po odchodu se nabízí místo důvodů pro setrvání; tvrzení o osudu odešlých nelze ověřit, protože kontakt s nimi je přerušen."
+response = "Rozpoznat, že strach nahrazuje důkaz, a hledat přímé informace od lidí, kteří skupinu opustili, případně od odborníků na odchod ze skupin."
+
+[[pattern.trainer]]
+utterance = "Při těchto příznacích hrozí do několika hodin nevratné poškození, proto doporučuji okamžitě jet na pohotovost. Pokud chcete, vysvětlím, proč si to myslím."
+context = "Praktický lékař po telefonu s pacientem, který popisuje náhlé příznaky."
+benign = true
+marker = "Obava je úměrná doložitelnému riziku, mluvčí uvádí důvod a nabízí vysvětlení, rozhodnutí zůstává pacientovi."
+response = "Oprávněné varování: hrozba je skutečná a relevantní pro rozhodnutí, a mluvčí z ní nevyvozuje nic, co by nesouviselo s jejím odvrácením."
+
+[[pattern]]
+id = "AF-02.15"
+slug = "odvolani-na-soucit"
+type = "informal"
+cs = "Odvolání na soucit"
+en = "Appeal to pity"
+aliases = ["argumentum ad misericordiam"]
+use = "dvoji"
+risk = "stredni"
+broader = "odvolani-na-emoce"
+related = ["lichotka", "odvolani-na-bohatstvi", "zavadejici-zivost", "odvolani-na-anekdotu", "pseudoempatie"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md",
+  "kompendium/forensic-legal/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Po tom všem, co jsem kvůli tobě obětoval, mi nemůžeš říct, že ta zpráva o mně je pravdivá. To by mě zničilo."
+context = "Kolega reaguje na výsledek interního auditu, který ho usvědčuje z chyb."
+benign = false
+marker = "Utrpení, které by pravda mluvčímu způsobila, se předkládá jako důvod, proč pravdou není; otázka pravdivosti a otázka ohleduplnosti splývají."
+response = "Oddělit, co se stalo, od toho, jak s výsledkem naložit: soucit může ovlivnit podobu nápravy, ne závěr o faktech."
+
+[[pattern.trainer]]
+utterance = "Obžalovaná se činu dopustila, to nezpochybňujeme. Žádáme ale, aby soud při ukládání trestu přihlédl k její nemoci a k péči o dvě malé děti."
+context = "Závěrečná řeč obhajoby ve fázi rozhodování o trestu."
+benign = true
+marker = "Okolnosti vzbuzující soucit se vztahují k otázce, pro kterou jsou relevantní (výměra trestu), ne k otázce viny."
+response = "Legitimní užití: soucit je zde relevantní premisa, protože právo počítá s polehčujícími okolnostmi při ukládání trestu."
+
+[[pattern]]
+id = "AF-02.16"
+slug = "odvolani-na-silu"
+type = "informal"
+cs = "Odvolání na sílu"
+en = "Appeal to force"
+aliases = ["argumentum ad baculum", "argument holí"]
+use = "vliv"
+risk = "vysoke"
+broader = ""
+related = ["odvolani-na-strach", "odvolani-na-dusledky", "pravidlo-svobody", "personalizace-sporu", "kontrola-tonu"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+  "kompendium/techniques/ea-2-2-5-recommendation-coercion.md",
+  "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvoje data jsou možná v pořádku, ale jestli ten článek pošleš s tímhle závěrem, doporučující dopis ode mě nedostaneš. Rozmysli si, jestli máš pravdu."
+context = "Školitel doktorandovi před odesláním rukopisu."
+benign = false
+marker = "Hrozba sankcí se objevuje na místě protiargumentu k datům; „rozmysli si, jestli máš pravdu“ spojuje pravdivost s osobními náklady."
+response = "Zaznamenat, že k obsahu závěru nezazněl žádný věcný důvod, a obrátit se na nezávislé konzultanty nebo etickou komisi instituce; hrozba je samostatný problém, ne argument."
+
+[[pattern.trainer]]
+utterance = "Pokud budete v laboratoři dál pracovat bez ochranných brýlí, budu to muset podle řádu nahlásit a přístup vám bude pozastaven."
+context = "Bezpečnostní technik upozorňuje zaměstnance na porušení předpisu."
+benign = true
+marker = "Sankce je předem známé pravidlo, vztahuje se k jednání, ne k pravdivosti názoru, a důvod předpisu je ověřitelný."
+response = "Nejde o klam: oznámení důsledku porušení pravidla nemá zastoupit argument o tom, co je pravda, ale vymáhat dohodnutou normu."
+
+[[pattern]]
+id = "AF-02.17"
+slug = "odvolani-na-prirozenost"
+type = "informal"
+cs = "Odvolání na přirozenost"
+en = "Appeal to nature"
+aliases = ["argumentum ad naturam", "co je přírodní, je dobré"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["naturalisticky-klam", "je-a-ma-byt", "odvolani-na-tradici", "moralisticky-klam", "odvolani-na-starobylost"]
+kompendium = [
+  "kompendium/population-health/_index.md",
+  "kompendium/critical-perspectives/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tenhle bylinný přípravek je čistě přírodní, takže nemůže mít žádné vedlejší účinky, na rozdíl od chemie, kterou vám předepsali."
+context = "Prodejce doplňků stravy mluví s pacientkou užívající léky na srdce."
+benign = false
+marker = "Původ látky v přírodě se vydává za záruku bezpečnosti a účinnosti; protiklad „přírodní – chemie“ nahrazuje údaje o dávce a interakcích."
+response = "Ptát se na složení, dávku, doložené účinky a interakce s užívanými léky, a ověřit je u lékaře nebo lékárníka; přírodní původ neznamená bezpečnost."
+
+[[pattern.trainer]]
+utterance = "Spánek v noci a pohyb přes den odpovídají tomu, jak je řízen náš biologický rytmus, a studie spánku ukazují, že jeho narušení zhoršuje soustředění."
+context = "Lékař pracovního lékařství vysvětluje doporučení ke směnnému provozu."
+benign = true
+marker = "Odkaz na přirozený rytmus je spojen s empirickými doklady o důsledcích; „přirozené“ neslouží jako samostatná hodnota."
+response = "Platná argumentace: hodnocení se opírá o doložené účinky na zdraví, ne o samotný fakt, že je něco přirozené."
+
+[[pattern]]
+id = "AF-02.18"
+slug = "odvolani-na-dusledky"
+type = "informal"
+cs = "Odvolání na důsledky"
+en = "Appeal to consequences"
+aliases = ["argumentum ad consequentiam"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["odvolani-na-strach", "motivovane-uvazovani", "kluzky-svah", "moralisticky-klam", "je-a-ma-byt", "odvolani-na-silu"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ta diagnóza nemůže být správná, protože kdyby byla, musel bych zavřít ordinaci a rodina by přišla o příjem."
+context = "Lékař odmítá výsledek vyšetření, které ukazuje jeho vlastní pracovní neschopnost."
+benign = false
+marker = "Nepříjemné důsledky tvrzení se předkládají jako důvod, proč tvrzení není pravdivé; otázka „co je pravda“ splývá s otázkou „co by se mi hodilo“."
+response = "Rozdělit dvě otázky: zda je diagnóza správná, rozhodují vyšetření a druhý názor; jak naložit s jejími důsledky, je další, oddělené rozhodnutí."
+
+[[pattern.trainer]]
+utterance = "Kdybychom ten lék stáhli, přišlo by o léčbu tisíce pacientů bez alternativy. Proto navrhuji nejdřív zúžit indikace a sbírat data o nežádoucích účincích."
+context = "Jednání odborné komise o léku s novým bezpečnostním signálem."
+benign = true
+marker = "Důsledky se posuzují u rozhodnutí, co dělat, ne u otázky, zda jsou nežádoucí účinky skutečné; jejich existence se nepopírá."
+response = "Legitimní praktický argument: u volby jednání jsou důsledky přímo relevantní, a mluvčí jimi nezpochybňuje fakta."
+
+[[pattern]]
+id = "AF-02.19"
+slug = "cerveny-sled"
+type = "informal"
+cs = "Červený sleď"
+en = "Red herring"
+aliases = ["odvedení pozornosti", "falešná stopa"]
+use = "vliv"
+risk = "stredni"
+broader = "irelevantni-zaver"
+related = ["whataboutism", "slameny-panak", "pravidlo-relevance", "odvedeni-k-procedure", "rozptylovac", "vyzva-k-relevanci"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+  "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ptáte se na nevyúčtované dotace, ale podívejte se, kolik nových míst jsme v kraji vytvořili a jak se zlepšila nezaměstnanost. Tohle lidi doopravdy zajímá."
+context = "Politik odpovídá novináři na otázku po zmizelých prostředcích."
+benign = false
+marker = "Odpověď se přesouvá k jinému, příjemnějšímu tématu, které s otázkou po vyúčtování nesouvisí, a nové téma se prohlašuje za důležitější."
+response = "Zaznamenat, že na původní otázku nezazněla odpověď, a zopakovat ji v přesné podobě; zásluhy v jiné oblasti nevysvětlují chybějící vyúčtování."
+
+[[pattern.trainer]]
+utterance = "Než odpovím na otázku po rozpočtu, musím upozornit, že čísla v podkladu jsou za jiný rok, než o kterém mluvíme. Pak se k té otázce vrátím."
+context = "Ředitel úřadu na veřejném zasedání zastupitelstva."
+benign = true
+marker = "Odbočka je ohlášená, týká se přesnosti podkladů k téže otázce a mluvčí se k původní otázce výslovně vrací."
+response = "Nejde o odvedení pozornosti: upozornění na vadný podklad je relevantní pro odpověď a otázka zůstává otevřená."
+
+[[pattern]]
+id = "AF-02.20"
+slug = "slameny-panak"
+type = "informal"
+cs = "Slaměný panák"
+en = "Straw man"
+aliases = ["argument slaměného panáka", "zkreslení stanoviska"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["ocelovy-panak", "princip-shovivavosti", "vytrzeni-z-kontextu", "pravidlo-stanoviska", "motte-and-bailey", "vybirani-podivinu"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/techniques/ea-2-3-10-viralni-misrepresentation.md",
+  "kompendium/techniques/ea-7-2-8-davidson-charity.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kolegyně navrhuje omezit přesčasy rezidentů. Takže podle ní mají pacienti v noci zůstat bez lékaře? To je přece nezodpovědné."
+context = "Diskuse na poradě nemocničního vedení."
+benign = false
+marker = "Návrh na omezení přesčasů se přepisuje na extrémní stanovisko „nechat pacienty bez lékaře“, které navrhovatelka nevyslovila, a vyvrací se místo původního."
+response = "Vrátit se k původnímu znění návrhu a požádat o námitky právě k němu; ptát se, zda kritik dokáže návrh shrnout tak, aby s tím navrhovatelka souhlasila."
+
+[[pattern.trainer]]
+utterance = "Jestli tomu rozumím správně, navrhujete omezit přesčasy a výpadek pokrýt najmutím dalších lékařů. Je to tak? Pak mám otázku k financování."
+context = "Ředitel nemocnice reaguje na návrh primářky."
+benign = true
+marker = "Kritik před námitkou shrne stanovisko a ověří si u autorky, že ho vystihl; námitka míří na skutečný návrh."
+response = "Platná argumentace: shrnutí je přesné, potvrzené autorkou a kritika se týká skutečné slabiny návrhu."

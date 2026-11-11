@@ -1,0 +1,263 @@
+# Rodina NLP-18: Raport a kalibrace (pravidlo project.content-catalogs; schéma v scripts/catalogs.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+# Tento soubor nese hesla NLP-18.01 až NLP-18.08; další části rodiny mají vlastní soubory.
+
+[[pattern]]
+id = "NLP-18.01"
+slug = "zrcadleni"
+type = "pattern"
+cs = "Zrcadlení"
+en = "Mirroring"
+aliases = ["matching", "přímé zrcadlení"]
+use = "dvoji"
+risk = "stredni"
+broader = "pacing-a-leading"
+related = ["raport", "kalibrace", "falesne-zrcadleni-v-podvodech", "raport-jako-nastroj-vlivu", "pseudoempatie"]
+kompendium = [
+  "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md",
+  "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md",
+  "kompendium/06-obrana/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Všiml jste si, že sedíme úplně stejně? Takhle rychle si rozumím málokdy. Myslím, že smlouvu můžeme podepsat rovnou dnes."
+context = "Obchodní zástupce na první schůzce s potenciálním klientem."
+benign = false
+marker = "Mluvčí sám upozorňuje na tělesnou shodu a hned ji použije jako důkaz porozumění, ze kterého plyne rozhodnutí bez odkladu."
+response = "Oddělit pocit souladu od obsahu nabídky: vyžádat si podmínky písemně a rozhodnout až po čase a s někým mimo rozhovor."
+
+[[pattern.trainer]]
+utterance = "Tohle muselo být hodně těžké. Nespěchejte, máme čas, a jestli se vám o něčem mluvit nechce, nemusíte."
+context = "Krizová pracovnice mluví tiše a pomalu s rozrušeným člověkem, který se k ní naklonil."
+benign = true
+marker = "Přizpůsobení tempa a postoje slouží zklidnění a je spojeno s výslovnou svobodou nemluvit; nenásleduje žádná žádost."
+response = "Benigní užití: naladění slouží bezpečí člověka, nesměřuje k cíli pomáhající a odmítnutí nemá následky."
+
+[[pattern]]
+id = "NLP-18.02"
+slug = "krizove-zrcadleni"
+type = "pattern"
+cs = "Křížové zrcadlení"
+en = "Cross-over mirroring"
+aliases = ["nepřímé zrcadlení", "cross-over matching"]
+use = "dvoji"
+risk = "stredni"
+broader = "zrcadleni"
+related = ["sladeni-dechu", "smyslova-ostrost", "konverzacni-hypnoza", "preruseni-raportu"]
+kompendium = [
+  "kompendium/techniques/ea-1-5-1-strategicka-proxemika.md",
+  "kompendium/techniques/ea-6-1-4-observational-assessment.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Na kurzu nás učili, že když druhý dýchá, můžete mu do rytmu poklepávat prstem, a on si toho nevšimne, ale bude vám víc věřit."
+context = "Absolvent víkendového kurzu vlivu líčí kolegovi, co se naučil."
+benign = false
+marker = "Provázení jednoho kanálu (dech) jiným kanálem (pohyb prstu) je výslovně popsáno jako skryté a určené ke zvýšení důvěry bez vědomí druhého."
+response = "Rozpoznat, že slib skrytého účinku je tvrzení kurzu bez doložení; posuzovat důvěru podle činů a obsahu, ne podle pocitu souladu."
+
+[[pattern.trainer]]
+utterance = "Když syn mluví překotně, zpomalím a jen mu rukou naznačím klidný rytmus. Neopičím se po něm, ale dám mu najevo, že ho vnímám."
+context = "Rodič popisuje v rodičovské skupině, jak mluví s dospívajícím synem."
+benign = true
+marker = "Rodič odpovídá na rytmus druhého jiným kanálem otevřeně a s cílem zklidnit, nikoli získat souhlas s něčím."
+response = "Benigní užití: přizpůsobení je viditelné, slouží regulaci napětí a syn může rozhovor kdykoli ukončit."
+
+[[pattern]]
+id = "NLP-18.03"
+slug = "pacing-a-leading"
+type = "pattern"
+cs = "Pacing a leading"
+en = "Pacing and leading"
+aliases = ["provázení a vedení", "pace and lead"]
+use = "dvoji"
+risk = "vysoke"
+broader = "pacing-a-leading-pojem"
+related = ["vedeni-v-raportu", "ano-sada", "pacing-aktualni-zkusenosti", "raport-jako-nastroj-vlivu", "nlp-v-prodeji"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md",
+  "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jste unavená, máte toho moc a cítíte, že takhle to dál nejde. A proto víte, že je načase udělat ten krok a přidat se k nám."
+context = "Náborářka skupiny osobního rozvoje mluví s ženou po přednášce."
+benign = false
+marker = "Řada pravdivých, ověřitelných popisů stavu druhé (provázení) je spojena slovem „a proto“ s cílem mluvčí, který z popisu nevyplývá (vedení)."
+response = "Oddělit popis vlastní situace, se kterým lze souhlasit, od závěru, který z něj nevyplývá; o vstupu rozhodnout zvlášť a s odstupem."
+
+[[pattern.trainer]]
+utterance = "Slyším, že vás bolí záda a že se bojíte operace. Můžeme probrat i jiné možnosti, nebo si to nejdřív nechat projít hlavou, jak chcete."
+context = "Lékař v ambulanci mluví s pacientem o dalším postupu."
+benign = true
+marker = "Lékař shrne zkušenost pacienta a nabídne několik cest včetně odkladu; vedení zůstává nabídkou, o níž rozhoduje pacient."
+response = "Benigní užití: provázení slouží porozumění a navazující návrh je otevřený, s výslovnou možností nesouhlasit."
+
+[[pattern]]
+id = "NLP-18.04"
+slug = "shoda-predikatu"
+type = "pattern"
+cs = "Shoda predikátů"
+en = "Predicate matching"
+aliases = ["sladění smyslových predikátů", "predicate tracking"]
+use = "dvoji"
+risk = "nizke"
+broader = "pacing-a-leading"
+related = ["predikaty", "preferovany-reprezentacni-system", "reprezentacni-systemy", "vyzkum-preferovaneho-systemu", "metaprogramy-v-marketingu"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vy jste vizuální typ, to je hned vidět. Proto vám to ukážu v obrazech, a až to uvidíte jasně, sám poznáte, že tahle investice je pro vás."
+context = "Finanční poradce na schůzce s klientem, kterého zná deset minut."
+benign = false
+marker = "Mluvčí z několika slov zařadí druhého do smyslového typu, opakuje zrakové predikáty a vydává sladění řeči za důvod, proč má nabídka sedět."
+response = "Rozpoznat, že typologie podle predikátů není doložená; posoudit investici podle čísel a rizik, ne podle toho, jak je podaná."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že vám to celé nesedí a že to neumíte uchopit. Co přesně vám na tom nesedí? Zkusím to říct jinými slovy."
+context = "Učitelka mluví se studentem, který nerozumí zadání."
+benign = true
+marker = "Převzetí slov studenta slouží k upřesnění, co mu brání v porozumění, a vede k otázce, ne k závěru."
+response = "Benigní užití: převzetí výrazu je běžné aktivní naslouchání a ověřuje porozumění; nic se tím neprodává."
+
+[[pattern]]
+id = "NLP-18.05"
+slug = "sladeni-dechu"
+type = "pattern"
+cs = "Sladění dechu"
+en = "Breathing matching"
+aliases = ["provázení dechu", "breath pacing"]
+use = "dvoji"
+risk = "stredni"
+broader = "zrcadleni"
+related = ["sladeni-hlasu-a-tempa", "pacing-aktualni-zkusenosti", "konverzacni-hypnoza", "trans-pojem", "stav"]
+kompendium = [
+  "kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Všechno, co říkám, říkám ve chvíli, kdy vydechujete. A s každým výdechem se vám líp a líp poslouchá, co vám nabízím."
+context = "Prodejce na semináři rychlého zbohatnutí mluví k jednomu z účastníků."
+benign = false
+marker = "Řeč se výslovně váže na rytmus dechu druhého a uvolnění při výdechu se spojuje s přijetím nabídky mluvčího."
+response = "Vnímat, že uvolnění při výdechu je přirozené a nic neříká o hodnotě nabídky; vrátit pozornost k obsahu a odejít, pokud je tlak trvalý."
+
+[[pattern.trainer]]
+utterance = "Všímám si, že dýcháte rychle. Můžeme chvíli nic neříkat a jen dýchat pomaleji, já to zkusím s vámi, pokud chcete."
+context = "Terapeutka v sezení s klientem při záchvatu úzkosti."
+benign = true
+marker = "Terapeutka nahlas pojmenuje, co dělá, nabídne společné zpomalení dechu a nechá klientovi volbu; cílem je regulace úzkosti."
+response = "Benigní užití: dechová regulace je otevřená, dobrovolná a slouží zklidnění, ne vlivu na rozhodnutí."
+
+[[pattern]]
+id = "NLP-18.06"
+slug = "sladeni-hlasu-a-tempa"
+type = "pattern"
+cs = "Sladění hlasu a tempa"
+en = "Voice and tempo matching"
+aliases = ["vokální zrcadlení", "matching hlasu"]
+use = "dvoji"
+risk = "stredni"
+broader = "zrcadleni"
+related = ["shoda-predikatu", "auditivni-kotvy", "konverzacni-hypnoza", "nlp-v-prodeji"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ano… přesně tak… mluvíte stejně rozvážně jako já. Takoví lidé jako my se rozhodují s rozvahou, a proto víte, že tohle je správná volba."
+context = "Telefonní prodejce, který zpomalil řeč na tempo volaného seniora."
+benign = false
+marker = "Mluvčí přizpůsobí tempo a hlasitost volanému, zdůrazní tuto podobnost jako společnou identitu a odvodí z ní souhlas s nabídkou."
+response = "Ukončit hovor bez rozhodnutí, nabídku si vyžádat písemně a probrat ji s blízkým; podobnost hlasu není argument."
+
+[[pattern.trainer]]
+utterance = "Promiňte, mluvím asi moc rychle. Zpomalím a řeknu to znovu, a kdyby vám něco nebylo jasné, klidně mě zastavte."
+context = "Úřednice na přepážce vysvětluje starší klientce postup vyřízení žádosti."
+benign = true
+marker = "Úřednice otevřeně upraví tempo podle potřeby druhé, aby bylo sdělení srozumitelné, a nabídne možnost přerušit ji."
+response = "Benigní užití: přizpůsobení hlasu slouží srozumitelnosti a je vysloveno, nikoli skryto."
+
+[[pattern]]
+id = "NLP-18.07"
+slug = "zpetne-shrnuti"
+type = "pattern"
+cs = "Zpětné shrnutí"
+en = "Backtracking"
+aliases = ["backtrack", "zpětné zrcadlení slov"]
+use = "dvoji"
+risk = "nizke"
+broader = "pacing-a-leading"
+related = ["ramec-zpetneho-shrnuti", "ramec-souhlasu", "ano-sada", "shoda-predikatu", "nlp-ve-vyslechu"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-6-1-1-screening-strukturalni-rozhovor.md",
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Takže shrnu, co jste řekl: chcete jistotu, chcete klid pro rodinu a nechcete nic riskovat. A přesně proto podepíšete tuhle pojistku ještě dnes."
+context = "Pojišťovací zprostředkovatel na konci schůzky v domácnosti klienta."
+benign = false
+marker = "Shrnutí vybírá a přeskupuje slova klienta tak, aby z nich zdánlivě vyplýval závěr mluvčího, a hned na ně navazuje výzvou k okamžitému podpisu."
+response = "Opravit shrnutí vlastními slovy, říct nahlas, co v něm chybí, a od závěru se distancovat: shrnutí přání není souhlas s produktem."
+
+[[pattern.trainer]]
+utterance = "Ověřím si, jestli vám rozumím: nejvíc vás trápí, že v práci nikdo neví, co dělá ten druhý. Je to tak, nebo jsem něco vynechal?"
+context = "Mediátor na začátku jednání s týmem, který řeší spory o rozdělení práce."
+benign = true
+marker = "Shrnutí je nabídnuto ke kontrole a výslovně připouští opravu; nepřechází v žádný závěr mluvčího."
+response = "Benigní užití: zpětné shrnutí ověřuje porozumění a předává druhému právo shrnutí opravit."
+
+[[pattern]]
+id = "NLP-18.08"
+slug = "kalibrace-ano-ne"
+type = "pattern"
+cs = "Kalibrace souhlasu a nesouhlasu"
+en = "Yes/no calibration"
+aliases = ["kalibrace ano/ne", "neverbální ano a ne"]
+use = "dvoji"
+risk = "vysoke"
+broader = "kalibrace"
+related = ["smyslova-ostrost", "detekce-lzi-v-nlp", "cteni-reci-tela", "ocni-pristupove-signaly", "vyzkum-ocnich-signalu", "kongruence"]
+kompendium = [
+  "kompendium/techniques/ea-6-1-4-observational-assessment.md",
+  "kompendium/techniques/ea-7-3-1-kahneman-system12.md",
+  "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ústy říkáš ne, ale tvoje tělo říká ano. Viděl jsem to jasně, tak si nenalhávej, že to nechceš."
+context = "Partner trvá na svém přání proti výslovnému odmítnutí druhého."
+benign = false
+marker = "Domnělé „přečtení“ neverbálního souhlasu je postaveno nad výslovné odmítnutí a slouží k jeho popření."
+response = "Trvat na tom, že platí vyslovené ne; žádné čtení těla nemá přednost před výslovným nesouhlasem, a opakovaný nátlak je varovným znakem."
+
+[[pattern.trainer]]
+utterance = "Když jsem se zeptala na pondělí, trochu jste se zamračil. Je s tím termínem nějaký problém? Klidně řekněte, když se vám nehodí."
+context = "Vedoucí týmu domlouvá s kolegou termín odevzdání práce."
+benign = true
+marker = "Všimnutý neverbální signál je vyslovený jako dotaz a druhý dostává prostor potvrdit nebo opravit jeho výklad."
+response = "Benigní užití: pozorování se nepovažuje za čtení myšlenek, ale za podnět k otázce; rozhoduje odpověď člověka."

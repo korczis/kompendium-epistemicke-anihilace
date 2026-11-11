@@ -28,6 +28,16 @@ GENERATED_MARKERS = re.compile(
 # to pages are @/ links and scripts are {{ <viz_script name="…" /> }}.
 HARDCODED = re.compile(r"""(?:src|href)=["']/kompendium-epistemicke-anihilace/"""
                        r"|https?://korczis\.github\.io/kompendium-epistemicke-anihilace/")
+# Phrasing of an operational script (rule project.content-defensive-frame): imperatives that
+# steer a target person. A heuristic floor under the reviewer, not a substitute; ordinary
+# self-help advice ("řekněte jim, za co se stydíte") stays out of it on purpose.
+# scripts/catalogs.py applies the same lexicon to every catalogue page and its example utterances.
+HOWTO = re.compile(
+    r"\b(?:[Nn]avoďte|[Pp]řimějte|[Uu]kotvěte|[Vv]nuťte|[Zz]manipulujte|[Oo]vládněte)"
+    r"\s+(?:mu|jí|jim|ho|ji|je)\b"
+    r"|\b(?:[Řř]ekněte|[Vv]ložte|[Nn]avoďte|[Pp]řimějte|[Uu]kotvěte|[Vv]nuťte|[Zz]manipulujte)"
+    r"\s+(?:cíli|oběti|cílové\s+osobě|klientovi|klientce|cílovou\s+osobu|oběť|cíl)\b",
+)
 RELATED_HEADING = re.compile(r"^##\s+(Související|Cross-linky|Související stránky)\b", re.M | re.I)
 
 
@@ -67,12 +77,25 @@ def url_of(rel: pathlib.PurePosixPath) -> str:
     return "/" + "/".join(parts) + ("/" if parts else "")
 
 
+def _catalogue_classes() -> list:
+    """The page classes of the catalogue sections, derived from data/catalogs.toml (the
+    declaration scripts/catalogs.py reads): a new [[catalog]] block is a new section of the
+    classes catalog-index / catalog, and its pages need no new schema row."""
+    path = ROOT / "data" / "catalogs.toml"
+    if not path.is_file():
+        return []
+    decl = tomllib.loads(path.read_text(encoding="utf-8"))
+    sections = "|".join(re.escape(c["section"]) for c in decl.get("catalog", []))
+    out = []
+    if sections:
+        out.append(("catalog-index", re.compile(rf"^(?:{sections})/(?:.+/)?_index\.md$")))
+        out.append(("catalog", re.compile(rf"^(?:{sections})/.+\.md$")))
+    return out
+
+
 # Page classes, inferred from the path only (first match wins). The front-matter schema of
 # scripts/normalize-front-matter.py says which keys each class carries.
-PAGE_CLASSES = [
-    ("nlp-index", re.compile(r"^kompendium/nlp-vzorce/(?:.+/)?_index\.md$")),
-    ("nlp-trainer", re.compile(r"^kompendium/nlp-vzorce/trener\.md$")),
-    ("nlp", re.compile(r"^kompendium/nlp-vzorce/.+\.md$")),
+PAGE_CLASSES = _catalogue_classes() + [
     ("section", re.compile(r"(?:^|/)_index\.md$")),
     ("glossary", re.compile(r"^glossary/")),
     ("technique", re.compile(r"^kompendium/techniques/")),
@@ -145,7 +168,14 @@ def load_pages(with_body: bool = False) -> list:
             "template": str(front.get("template", "")),
             "has_definition": bool(re.search(r"^##\s+Definice\b", body, re.M)),
             "hardcoded": bool(HARDCODED.search(body)),
+            "howto": bool(HOWTO.search(prose)),
             "ea_category": str(extra.get("ea_category", "")) if isinstance(extra, dict) else "",
+            # Catalogue pages (scripts/catalogs.py) carry their names under catalog_*.
+            "catalog": str(extra.get("catalog", "")) if isinstance(extra, dict) else "",
+            "catalog_entry": bool(isinstance(extra, dict) and extra.get("catalog_id")),
+            "en": str(extra.get("catalog_en", "")) if isinstance(extra, dict) else "",
+            "aliases": [str(x) for x in extra.get("catalog_aliases", [])]
+            if isinstance(extra, dict) and isinstance(extra.get("catalog_aliases"), list) else [],
             "links": [m.group(1) for m in AT_LINK.finditer(body)],
         })
         if with_body:

@@ -116,7 +116,7 @@ Klíčové strategie:
 | Strategie | Mechanismus |
 |-----------|-------------|
 | **[Firehose of falsehood](@/glossary/firehose-of-falsehood.md)** | Vysoký objem + multi-kanálová distribuce; rychlost > konzistence |
-| **Whataboutism** | Deflektivní tematická diverze |
+| **[Whataboutism](@/kompendium/argumentacni-fauly/relevance/whataboutism.md)** | Deflektivní tematická diverze |
 | **False equivalence** | Příjmaní legitimních zdrojů s manipulačními |
 | **Doubt amplification** | Nikoli "naše verze je pravdivá", ale "žádná verze není pravdivá" |
 | **Useful idiots** | Mobilizace nevědomých amplifikátorů na cílové straně |

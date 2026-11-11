@@ -1,0 +1,321 @@
+# Rodina AF-09: Principy kritické diskuse a teorie argumentace, část teorie-argumentace
+# (pravidlo project.content-catalogs; schéma v scripts/catalogs.py). Hesla AF-09.01 až AF-09.10:
+# deset pravidel kritické diskuse pragma-dialektiky. Pořadí záznamů je pořadí identifikátorů;
+# identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "AF-09.01"
+slug = "pravidlo-svobody"
+type = "concept"
+cs = "Pravidlo svobody"
+en = "Freedom rule"
+aliases = ["první pravidlo kritické diskuse"]
+use = "zadne"
+risk = "stredni"
+broader = "pragma-dialektika"
+related = ["ad-hominem", "odvolani-na-silu", "odvolani-na-soucit", "otraveni-studny", "tu-quoque", "kontrola-tonu"]
+kompendium = [
+  "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md",
+  "kompendium/techniques/ea-2-5-7-self-cancelation.md",
+  "kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "O tomhle se v našem týmu diskutovat nebude. Kdo zpochybňuje rozhodnutí vedení, ukazuje jen, že sem nepatří, a podle toho se to projeví při hodnocení."
+context = "Vedoucí odpovídá na námitku kolegyně k metodice projektu."
+benign = false
+marker = "Stanovisko se prohlašuje za nedotknutelné a pochybnost se trestá hrozbou, takže druhá strana nemůže námitku vůbec vznést."
+response = "Oddělit otázku, zda je rozhodnutí správné, od otázky, kdo smí pochybovat, a trvat na tom, že námitka se posuzuje podle důvodů, ne podle postavení mluvčího."
+
+[[pattern.trainer]]
+utterance = "Tuhle námitku dnes na poradě neprobereme, nemáme na ni podklady. Zapíšu ji a příští týden ji otevřeme jako první bod."
+context = "Předsedající pracovní schůze reaguje na otázku, na kterou chybějí data."
+benign = true
+marker = "Odklad se týká načasování a je spojen se závazkem k projednání, takže právo námitku vznést zůstává zachováno."
+response = "Jde o legitimní řízení diskuse: pochybnost se nepotlačuje, jen se přesouvá do chvíle, kdy ji lze posoudit na podkladech."
+
+[[pattern]]
+id = "AF-09.02"
+slug = "pravidlo-dukazniho-bremene"
+type = "concept"
+cs = "Pravidlo důkazního břemene"
+en = "Burden-of-proof rule"
+aliases = ["pravidlo povinnosti obhajoby", "druhé pravidlo kritické diskuse"]
+use = "zadne"
+risk = "stredni"
+broader = "pragma-dialektika"
+related = ["presun-dukazniho-bremene", "dokaz-tvrzenim", "odvolani-na-nevedomost", "nefalzifikovatelnost", "sealioning"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-2-3-9-sealioning-medialni.md",
+  "kompendium/forensic-legal/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvrdím, že ten doplněk stravy léčí únavový syndrom. Jestli si myslíte opak, dokažte mi, že nefunguje. Do té doby platí moje slovo."
+context = "Prodejce odpovídá na dotaz lékařky v odborné diskusi."
+benign = false
+marker = "Kdo předložil stanovisko, odmítá ho obhájit a povinnost důkazu přenáší na toho, kdo jen vyjádřil pochybnost."
+response = "Připomenout, že břemeno nese ten, kdo tvrzení předložil, a že pochybnost sama žádné opačné stanovisko netvoří; žádat doklady pro původní tvrzení."
+
+[[pattern.trainer]]
+utterance = "Navrhuji změnit dávkování. Podklady jsou ve dvou kontrolovaných studiích, pošlu je všem a na dotazy k nim odpovím na příští schůzce."
+context = "Klinický farmaceut předkládá návrh komisi."
+benign = true
+marker = "Navrhovatel přijímá povinnost své stanovisko obhájit a sám nabízí doklady k přezkoumání."
+response = "Jde o řádné převzetí důkazního břemene: tvrzení je podloženo a otevřeno otázkám, takže diskuse může pokračovat k posouzení podkladů."
+
+[[pattern]]
+id = "AF-09.03"
+slug = "pravidlo-stanoviska"
+type = "concept"
+cs = "Pravidlo stanoviska"
+en = "Standpoint rule"
+aliases = ["třetí pravidlo kritické diskuse"]
+use = "zadne"
+risk = "nizke"
+broader = "pragma-dialektika"
+related = ["slameny-panak", "vytrzeni-z-kontextu", "motte-and-bailey", "princip-shovivavosti", "ocelovy-panak"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/techniques/ea-2-3-3-quote-mining.md",
+  "kompendium/techniques/ea-2-3-10-viralni-misrepresentation.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kolega navrhuje zkrátit čekací lhůty na vyšetření. Takže podle něj máme vyšetřovat ledabyle a pacienty odbavovat na běžícím pásu. To přece nemůžeme podpořit."
+context = "Diskuse v nemocniční radě o organizaci ambulance."
+benign = false
+marker = "Kritika míří na zveličenou verzi, kterou původní mluvčí nikdy nepředložil, a vyvrácení této verze se vydává za vyvrácení jeho návrhu."
+response = "Vrátit se ke skutečnému znění návrhu a požádat, aby se námitka vztahovala k němu: kde přesně zkrácení lhůt podle kritika ohrožuje kvalitu vyšetření."
+
+[[pattern.trainer]]
+utterance = "Jestli tomu rozumím správně, navrhujete zkrátit lhůty tím, že část kontrol převezmou sestry. Je to tak? Pak mám obavu hlavně o návaznost dokumentace."
+context = "Člen rady reaguje na tentýž návrh."
+benign = true
+marker = "Mluvčí si nejprve ověřuje, jak stanovisko zní, a teprve pak ho kritizuje v podobě, kterou protistrana potvrdila."
+response = "Jde o korektní kritiku: námitka se týká skutečně předloženého stanoviska a jeho autor má možnost výklad opravit."
+
+[[pattern]]
+id = "AF-09.04"
+slug = "pravidlo-relevance"
+type = "concept"
+cs = "Pravidlo relevance"
+en = "Relevance rule"
+aliases = ["čtvrté pravidlo kritické diskuse"]
+use = "zadne"
+risk = "nizke"
+broader = "pragma-dialektika"
+related = ["irelevantni-zaver", "cerveny-sled", "odvolani-na-emoce", "ad-populum", "whataboutism"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ptáte se, jestli firma dodržela emisní limity. Podívejte se raději, kolik peněz dáváme na dětská hřiště a kolik rodin u nás má práci."
+context = "Mluvčí podniku odpovídá novinářce na dotaz k inspekční zprávě."
+benign = false
+marker = "Místo důvodů k otázce dodržení limitů přichází jiné téma s emočním nábojem, které se stanoviskem nesouvisí."
+response = "Uznat, že sponzoring a zaměstnanost mohou být pravdivé, a připomenout, že k otázce limitů neříkají nic; vrátit se k údajům z inspekční zprávy."
+
+[[pattern.trainer]]
+utterance = "K limitům: měření za poslední rok jsou v příloze. Dva měsíce jsme limit překročili, příčinu jsme dohledali v poruše filtru a opravu doložíme."
+context = "Tatáž tisková konference, jiný mluvčí."
+benign = true
+marker = "Odpověď předkládá důvody, které se přímo vztahují ke sporné otázce, včetně těch nepříznivých."
+response = "Jde o relevantní argumentaci: důvody se týkají právě toho stanoviska, o kterém se vede spor, a dají se ověřit."
+
+[[pattern]]
+id = "AF-09.05"
+slug = "pravidlo-nevyslovene-premisy"
+type = "concept"
+cs = "Pravidlo nevyslovené premisy"
+en = "Unexpressed-premise rule"
+aliases = ["pravidlo implicitní premisy", "páté pravidlo kritické diskuse"]
+use = "zadne"
+risk = "nizke"
+broader = "pragma-dialektika"
+related = ["slameny-panak", "jen-se-ptam", "cteni-myslenek", "vyhybava-slova", "princip-shovivavosti"]
+kompendium = [
+  "kompendium/techniques/ea-2-3-2-context-collapse.md",
+  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Řekl jsem jen, že v té čtvrti je víc přestupků a že tam bydlí hodně cizinců. Že by to spolu souviselo, jsem netvrdil, to si domýšlíte vy."
+context = "Zastupitel v debatě o rozpočtu městské policie."
+benign = false
+marker = "Mluvčí staví úvahu na premise, kterou nechal nevyslovenou, a když je pojmenována, odmítá za ni nést odpovědnost."
+response = "Pojmenovat premisu, bez níž by vedle sebe postavená tvrzení nedávala smysl pro závěr, a zeptat se, zda ji mluvčí zastává; pokud ne, závěr padá."
+
+[[pattern.trainer]]
+utterance = "Váš argument zní: lék je drahý, tedy by se neměl hradit. Předpokládám, že tam chybí premisa o rozpočtovém stropu. Myslel jste to takhle, nebo jinak?"
+context = "Oponent v hodnotící komisi zdravotní pojišťovny."
+benign = true
+marker = "Nevyslovená premisa se doplňuje v nejvěrnější podobě, kterou lze z kontextu odůvodnit, a autor ji může potvrdit nebo opravit."
+response = "Jde o korektní rekonstrukci: doplnění neodchází od toho, k čemu se mluvčí zavázal, a nechává mu poslední slovo."
+
+[[pattern]]
+id = "AF-09.06"
+slug = "pravidlo-vychodiska"
+type = "concept"
+cs = "Pravidlo východiska"
+en = "Starting-point rule"
+aliases = ["pravidlo společných východisek", "šesté pravidlo kritické diskuse"]
+use = "zadne"
+risk = "stredni"
+broader = "pragma-dialektika"
+related = ["kruhovy-argument", "slozena-otazka", "sugestivni-otazka", "falesne-dilema", "otazky-s-presupozici"]
+kompendium = [
+  "kompendium/techniques/ea-5-4-16-kruhove-definice-implantace.md",
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když už víme, že jste tu smlouvu podepsal pod tlakem, řekněte nám, kdo vás k tomu donutil a kdy přesně to bylo."
+context = "Otázka v neformálním rozhovoru se svědkem v občanskoprávním sporu."
+benign = false
+marker = "Otázka vydává sporné tvrzení o tlaku za již přijaté východisko a odpověď na ni by je potvrdila, ať zní jakkoli."
+response = "Oddělit předpoklad od otázky: nejdřív se zjišťuje, zda tlak vůbec byl, a teprve pak se lze ptát, kdo a kdy."
+
+[[pattern.trainer]]
+utterance = "Shodli jsme se, že vycházíme z auditní zprávy z března. Podle ní chybí v pokladně dvě položky. Souhlasíte, že tohle je náš výchozí stav?"
+context = "Úvod jednání dvou stran o vyrovnání účtů."
+benign = true
+marker = "Výchozí bod se výslovně vymezuje a druhá strana je dotázána, zda ho přijímá, než se na něm začne stavět."
+response = "Jde o legitimní ustavení společného východiska: přijetí je výslovné, takže pozdější argumentace na něm může stát."
+
+[[pattern]]
+id = "AF-09.07"
+slug = "pravidlo-argumentacniho-schematu"
+type = "concept"
+cs = "Pravidlo argumentačního schématu"
+en = "Argument-scheme rule"
+aliases = ["sedmé pravidlo kritické diskuse"]
+use = "zadne"
+risk = "nizke"
+broader = "pragma-dialektika"
+related = ["argumentacni-schemata", "odvolani-na-autoritu", "ukvapene-zobecneni", "post-hoc", "kluzky-svah", "falesna-ekvivalence"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-2-1-3-credentialing-attack.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ten postup doporučuje slavný herec, který s ním má výborné zkušenosti, a v jeho pořadu to potvrdily tisíce diváků. Víc důkazů snad netřeba."
+context = "Příspěvek v diskusi o léčbě chronické bolesti."
+benign = false
+marker = "Užívá se schéma autority a většiny, ale autorita nemá v otázce odbornost a souhlas publika nevypovídá o účinnosti."
+response = "Položit kritické otázky schématu: je zdroj odborníkem právě v této věci a jsou zkušenosti diváků srovnatelné s kontrolovaným pozorováním?"
+
+[[pattern.trainer]]
+utterance = "Toxikologický ústav, který tu látku zkoumá dvacet let, v posledním přehledu uvádí, že v běžných dávkách riziko nenašel. Opírám se o jeho závěr."
+context = "Odborný posudek pro správní řízení."
+benign = true
+marker = "Schéma autority je použito správně: zdroj je odborníkem v dané věci, závěr je dohledatelný a nesporný v rámci oboru."
+response = "Jde o přiměřené užití argumentu autoritou: jeho kritické otázky mají dobré odpovědi, a proto může stanovisko podepřít."
+
+[[pattern]]
+id = "AF-09.08"
+slug = "pravidlo-platnosti"
+type = "concept"
+cs = "Pravidlo platnosti"
+en = "Validity rule"
+aliases = ["pravidlo logické platnosti", "osmé pravidlo kritické diskuse"]
+use = "zadne"
+risk = "nizke"
+broader = "pragma-dialektika"
+related = ["formalni-klam", "potvrzeni-dusledku", "popreni-predchudce", "klam-skladani", "klam-deleni"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/02-uvod/filosoficky-ramec.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdo lže, vyhýbá se očnímu kontaktu. Obviněný se při výslechu díval do stolu. Je tedy jasné, že lže."
+context = "Úvaha v neodborném komentáři k soudnímu procesu."
+benign = false
+marker = "Z podmínky „kdo lže, uhýbá pohledem“ se usuzuje opačným směrem z důsledku na předchůdce, což tato podmínka nedovoluje."
+response = "Ukázat, že i kdyby podmínka platila, uhýbání pohledem má mnoho jiných příčin; z důsledku nelze bez dalšího usoudit na jedinou příčinu."
+
+[[pattern.trainer]]
+utterance = "Každý lék z této skupiny je při selhání ledvin kontraindikován. Pacientka má selhání ledvin. Tento lék tedy dostat nesmí."
+context = "Konzilium na interním oddělení."
+benign = true
+marker = "Úsudek má platnou formu: z obecného pravidla a zjištěného případu plyne závěr nutně."
+response = "Jde o platné usuzování; zbývá jen ověřit pravdivost premis, tedy pravidlo kontraindikace a diagnózu."
+
+[[pattern]]
+id = "AF-09.09"
+slug = "pravidlo-uzavreni"
+type = "concept"
+cs = "Pravidlo uzavření"
+en = "Closure rule"
+aliases = ["pravidlo závěru diskuse", "deváté pravidlo kritické diskuse"]
+use = "zadne"
+risk = "stredni"
+broader = "pragma-dialektika"
+related = ["odvolani-na-nevedomost", "klam-klamu", "posouvani-branek", "nefalzifikovatelnost", "presun-dukazniho-bremene"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Přiznávám, že ty studie vyšly proti mně. Ale to nic nemění, já svůj názor neměním a v příští diskusi ho budu hájit stejně."
+context = "Účastník odborného panelu po předložení výsledků kontrolovaných studií."
+benign = false
+marker = "Obhajoba stanoviska selhala a mluvčí to sám uznává, přesto stanovisko nestáhne ani neoznačí za otevřené."
+response = "Připomenout, k čemu se strany zavázaly: pokud obhajoba selhala, stanovisko se stahuje nebo se aspoň uvádějí nové důvody; pouhé setrvání spor neřeší."
+
+[[pattern.trainer]]
+utterance = "Moje námitky jste vyvrátil, ty nové analýzy jsou přesvědčivé. Svou pochybnost beru zpět a souhlasím, abychom postup zavedli."
+context = "Oponent na závěr metodického semináře."
+benign = true
+marker = "Úspěšná obhajoba vede k tomu, že protistrana výslovně stahuje pochybnost, takže spor je řádně uzavřen."
+response = "Jde o řádné uzavření diskuse: výsledek obhajoby se promítá do postojů obou stran a dál se netvrdí víc, než bylo obhájeno."
+
+[[pattern]]
+id = "AF-09.10"
+slug = "pravidlo-uzivani-jazyka"
+type = "concept"
+cs = "Pravidlo užívání jazyka"
+en = "Usage rule"
+aliases = ["pravidlo jasnosti", "desáté pravidlo kritické diskuse"]
+use = "zadne"
+risk = "stredni"
+broader = "pragma-dialektika"
+related = ["ekvivokace", "amfibolie", "vyhybava-slova", "presvedcovaci-definice", "nominalizace", "neuro-zargon"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+  "philosophy/epistemic-integrity.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Náš program je přirozený, a co je přirozené, nemůže uškodit. Ostatně i zemětřesení je přirozené, takže vidíte, jak silná je příroda."
+context = "Leták alternativního léčebného pobytu."
+benign = false
+marker = "Slovo „přirozený“ mění v průběhu textu význam a úsudek stojí na tom, že čtenář posun nezaznamená."
+response = "Zeptat se, v jakém smyslu je slovo použito v každé větě; když se významy rozejdou, úsudek ztrácí oporu."
+
+[[pattern.trainer]]
+utterance = "Než budeme pokračovat: když říkáte „zásah“, myslíte operaci, nebo i konzervativní léčbu? Podle toho se liší, co ty údaje ukazují."
+context = "Diskuse dvou lékařů nad výsledky registru."
+benign = true
+marker = "Mluvčí upozorňuje na možnou dvojznačnost klíčového výrazu dřív, než se na něm začne stavět."
+response = "Jde o legitimní upřesnění: vyjasnění významu slouží tomu, aby obě strany posuzovaly totéž tvrzení."

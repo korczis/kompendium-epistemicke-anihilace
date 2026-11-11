@@ -61,7 +61,7 @@ Kritéria 1–3 jsou nutná; kritérium 4 určuje závažnost.
 
 Lidé běžně mění výklad událostí, když získají nové informace nebo odstup. **Legitimní přehodnocení** se od signatury liší tím, že je přiznáno: mluvčí řekne, že na věc dnes pohlíží jinak, a dokáže pojmenovat důvod. Signatura naopak předpokládá, že nový rámec je podán, jako by platil odjakživa.
 
-Zvláštním případem je **terapeutické přerámování** (*reframing*), které Watzlawick, Weakland a Fisch (1974) popsali jako záměrnou změnu pojmového či emočního kontextu situace, jež mění její význam, aniž by se změnila fakta. V terapii se ale rámec mění transparentně a ve prospěch klienta; klient o změně ví, může ji odmítnout a nový rámec mu rozšiřuje možnosti jednání, místo aby je zužoval.
+Zvláštním případem je **terapeutické přerámování** (*[reframing](@/kompendium/nlp-vzorce/reframing/reframing.md)*), které Watzlawick, Weakland a Fisch (1974) popsali jako záměrnou změnu pojmového či emočního kontextu situace, jež mění její význam, aniž by se změnila fakta. V terapii se ale rámec mění transparentně a ve prospěch klienta; klient o změně ví, může ji odmítnout a nový rámec mu rozšiřuje možnosti jednání, místo aby je zužoval.
 
 Dále je třeba odlišit **rozdílné perspektivy**: dva účastníci téže události ji legitimně vidí různě. Signatura se týká posunu *u jednoho zdroje* v čase nebo podle publika, nikoli rozdílu mezi dvěma svědky. Konečně **žurnalistická a právní praxe** volí rámec vždy, protože žádné sdělení se bez něj neobejde (Goffman, 1974); podstatné je, zda zachovává identifikovatelnost aktérů a ověřitelnost faktů.
 

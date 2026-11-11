@@ -5,135 +5,135 @@
     "hits": [
       {
         "code": null,
-        "in": 269,
+        "in": 274,
         "kind": "Pojem",
-        "path": "glossary/gaslighting.md",
+        "path": "glossary/disociace.md",
         "tier": 4,
-        "title": "Gaslighting",
-        "url": "/glossary/gaslighting/",
+        "title": "Disociace",
+        "url": "/glossary/disociace/",
         "why": "title_prefix"
       },
       {
         "code": null,
-        "in": 33,
-        "kind": "Kazuistika",
-        "path": "kompendium/case-studies/08-gaslighting-partnersky.md",
-        "tier": 5,
-        "title": "Případ 08: Partnerský gaslighting",
-        "url": "/kompendium/case-studies/08-gaslighting-partnersky/",
-        "why": "title_word"
+        "in": 25,
+        "kind": "Pojem",
+        "path": "glossary/dissociativni-amnezie.md",
+        "tier": 4,
+        "title": "Disociativní amnézie",
+        "url": "/glossary/dissociativni-amnezie/",
+        "why": "title_prefix"
       },
       {
         "code": null,
-        "in": 31,
-        "kind": "Detekce",
-        "path": "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
-        "tier": 5,
-        "title": "Detekční signatura: Gaslighting vzorec",
-        "url": "/kompendium/detection-signatures/12-behavioral-gaslighting-pattern/",
-        "why": "title_word"
-      },
-      {
-        "code": "EA-4.1",
-        "in": 20,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-4-1-gaslighting.md",
-        "tier": 5,
-        "title": "EA-4.1 Gaslighting",
-        "url": "/kompendium/techniques/ea-4-1-gaslighting/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 17,
-        "kind": "Kazuistika",
-        "path": "kompendium/case-studies/03-pedagogicke-gaslighting.md",
-        "tier": 5,
-        "title": "Případ 03: Pedagogické gaslighting",
-        "url": "/kompendium/case-studies/03-pedagogicke-gaslighting/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 14,
+        "in": 23,
         "kind": "Kapitola",
-        "path": "kompendium/educational-scenarios/19-gaslighting-pattern.md",
-        "tier": 5,
-        "title": "Vzdělávací scénář: Vzorec gaslightingu",
-        "url": "/kompendium/educational-scenarios/19-gaslighting-pattern/",
-        "why": "title_word"
+        "path": "kompendium/forensic-legal/3-dissociation-forensic.md",
+        "tier": 4,
+        "title": "Disociace ve forenzní praxi",
+        "url": "/kompendium/forensic-legal/3-dissociation-forensic/",
+        "why": "title_prefix"
       },
       {
         "code": null,
-        "in": 13,
-        "kind": "Most",
-        "path": "kompendium/glossary-bridges/bridge-gaslighting.md",
-        "tier": 5,
-        "title": "Bridge: Gaslighting",
-        "url": "/kompendium/glossary-bridges/bridge-gaslighting/",
-        "why": "title_word"
+        "in": 21,
+        "kind": "Kapitola",
+        "path": "kompendium/forensic-legal/6-trauma-disclosure.md",
+        "tier": 4,
+        "title": "Disclosure traumatu",
+        "url": "/kompendium/forensic-legal/6-trauma-disclosure/",
+        "why": "title_prefix"
       },
       {
         "code": null,
-        "in": 4,
-        "kind": "Pojem",
-        "path": "glossary/intelektualni-gaslighting.md",
-        "tier": 5,
-        "title": "Intelektuální gaslighting",
-        "url": "/glossary/intelektualni-gaslighting/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 100,
-        "kind": "Pojem",
-        "path": "glossary/reality-testing.md",
-        "tier": 6,
-        "title": "Testování reality (reality testing)",
-        "url": "/glossary/reality-testing/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 60,
-        "kind": "Sebeobrana",
-        "path": "kompendium/self-defense-guides/1-metacognitive-monitoring.md",
-        "tier": 6,
-        "title": "Sebe-obrana: Metakognitivní monitoring",
-        "url": "/kompendium/self-defense-guides/1-metacognitive-monitoring/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 29,
-        "kind": "Krizový protokol",
-        "path": "kompendium/emergency-protocols/7-acute-cognitive-paralysis.md",
-        "tier": 6,
-        "title": "Akutní protokol: Akutní kognitivní paralýza",
-        "url": "/kompendium/emergency-protocols/7-acute-cognitive-paralysis/",
-        "why": "description"
-      },
-      {
-        "code": "EA-6.1.7",
         "in": 15,
+        "kind": "Kapitola",
+        "path": "kompendium/nlp-vzorce/disociace-a-trauma/_index.md",
+        "tier": 4,
+        "title": "Disociace, fobie a trauma",
+        "url": "/kompendium/nlp-vzorce/disociace-a-trauma/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 9,
+        "kind": "Pojem",
+        "path": "glossary/diskursivni-formace.md",
+        "tier": 4,
+        "title": "Diskursivní formace",
+        "url": "/glossary/diskursivni-formace/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 8,
+        "kind": "Kapitola",
+        "path": "kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md",
+        "tier": 4,
+        "title": "Disneyova strategie",
+        "url": "/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 8,
+        "kind": "Kapitola",
+        "path": "kompendium/research-methodology/discourse-analysis-EA.md",
+        "tier": 4,
+        "title": "Diskurzivní analýza",
+        "url": "/kompendium/research-methodology/discourse-analysis-ea/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 7,
+        "kind": "Pojem",
+        "path": "glossary/discard.md",
+        "tier": 4,
+        "title": "Discard (fáze odvržení)",
+        "url": "/glossary/discard/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 5,
+        "kind": "Pojem",
+        "path": "glossary/diskurzivni-anihilace.md",
+        "tier": 4,
+        "title": "Diskurzivní anihilace",
+        "url": "/glossary/diskurzivni-anihilace/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 177,
+        "kind": "Kapitola",
+        "path": "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
+        "tier": 5,
+        "title": "6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy",
+        "url": "/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/",
+        "why": "title_word"
+      },
+      {
+        "code": "EA-2.1.1",
+        "in": 51,
         "kind": "Technika",
-        "path": "kompendium/techniques/ea-6-1-7-trauma-history-protokol.md",
-        "tier": 6,
-        "title": "EA-6.1.7 Trauma history protokol",
-        "url": "/kompendium/techniques/ea-6-1-7-trauma-history-protokol/",
-        "why": "description"
+        "path": "kompendium/techniques/ea-2-1-1-expertni-disinflation.md",
+        "tier": 5,
+        "title": "EA-2.1.1 Expertní disinflace",
+        "url": "/kompendium/techniques/ea-2-1-1-expertni-disinflation/",
+        "why": "title_word"
       }
     ],
     "limit": 12,
-    "normalised": "gas",
+    "normalised": "dis",
     "ok": true,
     "op": "search",
-    "query": "Gas",
+    "query": "Dis",
     "schema": "kompendium-engine/v1",
-    "total": 14
+    "total": 110
   },
   "input": {
     "op": "search",
-    "query": "Gas"
+    "query": "Dis"
   }
 }

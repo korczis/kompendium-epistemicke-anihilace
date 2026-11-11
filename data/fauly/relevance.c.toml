@@ -1,0 +1,259 @@
+# Rodina AF-02: Klamy relevance, část c (AF-02.21 až AF-02.28; pravidlo project.content-catalogs;
+# schéma v scripts/catalogs.py). Pořadí záznamů je pořadí identifikátorů; identifikátor se po
+# zveřejnění nemění.
+
+[[pattern]]
+id = "AF-02.21"
+slug = "whataboutism"
+type = "informal"
+cs = "Whataboutism"
+en = "Whataboutism"
+aliases = ["a co vy", "protiotázka a co tamto"]
+use = "vliv"
+risk = "stredni"
+broader = "tu-quoque"
+related = ["dve-kriva-jedno-pravo", "cerveny-sled", "falesna-ekvivalence", "irelevantni-zaver", "som-aplikace-na-sebe"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+  "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kritizujete naše vedení za zatajení havárie ve skladu? A co vaše radnice a ta zpráva o kanalizaci, kterou jste před lety také nezveřejnili?"
+context = "Mluvčí podniku odpovídá zastupiteli na otázku k nezveřejněné havárii."
+benign = false
+marker = "Na otázku po konkrétním selhání se neodpovídá; místo toho se vytáhne jiné, nesouvisející selhání tazatele, jako by tím otázka zanikla."
+response = "Připustit, že druhý případ lze projednat zvlášť, a vrátit se k původní otázce: co se ve skladu stalo, kdo o tom věděl a proč to nebylo zveřejněno."
+
+[[pattern.trainer]]
+utterance = "Navrhujete nám za tuto chybu pokutu, ale loni jste stejné porušení u jiného dodavatele řešili jen napomenutím. Chceme vědět, podle jakého měřítka se rozhoduje."
+context = "Dodavatel v řízení u dozorového orgánu namítá nerovné zacházení."
+benign = true
+marker = "Srovnání s jiným případem se nepoužívá k popření vlastní chyby, ale k otázce po jednotném měřítku, což je k projednávané věci relevantní."
+response = "Jde o legitimní námitku konzistence: chyba se nepopírá a srovnatelnost případů je věcná otázka, na kterou má orgán odpovědět zdůvodněním."
+
+[[pattern]]
+id = "AF-02.22"
+slug = "odvolani-na-nevedomost"
+type = "informal"
+cs = "Odvolání na nevědomost"
+en = "Appeal to ignorance"
+aliases = ["argumentum ad ignorantiam", "argument z nevědomosti"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["presun-dukazniho-bremene", "nefalzifikovatelnost", "argument-z-mlceni", "pravidlo-dukazniho-bremene", "falzifikovatelnost-nlp"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/techniques/ea-7-2-3-popper-falsification.md",
+  "kompendium/forensic-legal/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nikdo zatím neprokázal, že ten doplněk stravy nefunguje, takže je zřejmé, že funguje, a pochybnosti jsou jen předsudek odborníků."
+context = "Prodejce obhajuje výrobek na spotřebitelském fóru."
+benign = false
+marker = "Z toho, že chybí doklad o neúčinnosti, se vyvozuje účinnost, a důkazní břemeno se přesouvá na ty, kdo pochybují."
+response = "Upozornit, že účinnost dokládá ten, kdo ji tvrdí, a zeptat se, zda byla vůbec provedena studie, která by neúčinnost mohla odhalit."
+
+[[pattern.trainer]]
+utterance = "V protokolu o kontrole kotelny za celé topné období není jediný záznam o úniku plynu a čidla byla podle revize funkční, takže únik v tomto období je nepravděpodobný."
+context = "Technik vyhodnocuje provozní záznamy budovy."
+benign = true
+marker = "Z nepřítomnosti záznamu se usuzuje jen proto, že existoval spolehlivý způsob, jak by se únik zaznamenal, a závěr je formulován jako pravděpodobnost."
+response = "Jde o rozumný závěr z negativního nálezu: hledání proběhlo citlivým nástrojem, takže chybějící záznam je skutečný doklad, nikoli pouhé nevědění."
+
+[[pattern]]
+id = "AF-02.23"
+slug = "lichotka"
+type = "informal"
+cs = "Lichotka"
+en = "Appeal to flattery"
+aliases = ["odvolání na lichotku", "lichocení jako argument"]
+use = "vliv"
+risk = "stredni"
+broader = "odvolani-na-emoce"
+related = ["ad-populum", "pseudoempatie", "raport-jako-nastroj-vlivu", "guru-efekt"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vy jako zkušená investorka přece hned vidíte, že tahle příležitost je výjimečná; průměrní lidé to nepochopí, ale vy na to máte."
+context = "Zprostředkovatel nabízí klientce investici bez prospektu."
+benign = false
+marker = "Místo údajů o investici se nabízí obraz klientky jako výjimečné osoby a přijetí nabídky se spojuje s potvrzením tohoto obrazu."
+response = "Oddělit pochvalu od rozhodnutí a žádat podklady: prospekt, rizika, poplatky a historii výnosů, které by přesvědčily kohokoli, ne jen 'výjimečné' lidi."
+
+[[pattern.trainer]]
+utterance = "Vaše analýza nákladů je velmi pečlivá a právě proto bych ji rád použil i pro druhý projekt; k tomu ale potřebuji ještě doplnit čísla za loňský rok."
+context = "Vedoucí týmu hodnotí podklad kolegyně."
+benign = true
+marker = "Uznání se týká konkrétní, ověřitelné kvality práce a nenahrazuje žádný argument; žádost o doplnění stojí samostatně."
+response = "Jde o věcnou zpětnou vazbu: pochvala popisuje doložitelnou vlastnost podkladu a o návrhu se rozhoduje podle čísel, ne podle pochvaly."
+
+[[pattern]]
+id = "AF-02.24"
+slug = "odvolani-na-bohatstvi"
+type = "informal"
+cs = "Odvolání na bohatství nebo chudobu"
+en = "Appeal to wealth or poverty"
+aliases = ["argumentum ad crumenam", "argumentum ad lazarum"]
+use = "dvoji"
+risk = "nizke"
+broader = ""
+related = ["odvolani-na-autoritu", "ad-hominem", "genetic-klam", "okolnostni-ad-hominem", "guru-efekt"]
+kompendium = [
+  "kompendium/case-studies/63-investor-cult.md",
+  "kompendium/techniques/ea-2-1-3-credentialing-attack.md",
+  "kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ten člověk vydělal na kryptoměnách miliardy, takže když říká, že inflace příští rok zmizí, asi ví, o čem mluví."
+context = "Diskuse v ekonomickém podcastu o makroekonomické prognóze."
+benign = false
+marker = "Majetek mluvčího se bere jako doklad pravdivosti tvrzení z oboru, ke kterému jeho úspěch nemá vztah."
+response = "Ptát se, na čem prognóza stojí: jaké údaje a jaký model ji podpírají, a jak se v minulosti dařilo podobným předpovědím tohoto mluvčího."
+
+[[pattern.trainer]]
+utterance = "Firma, která za deset let vybudovala tři zisková pobočková centra, má k plánu rozšíření více relevantních zkušeností než začínající konkurent bez jediné pobočky."
+context = "Hodnotící komise srovnává dvě nabídky na provoz poboček."
+benign = true
+marker = "Úspěch se posuzuje jako doklad schopnosti právě v té činnosti, o kterou jde, a ne jako obecný znak pravdivosti."
+response = "Jde o relevantní doklad: dosavadní výsledky v téže činnosti vypovídají o kompetenci, i když samy o sobě nezaručují úspěch nového plánu."
+
+[[pattern]]
+id = "AF-02.25"
+slug = "chronologicky-snobismus"
+type = "informal"
+cs = "Chronologický snobismus"
+en = "Chronological snobbery"
+aliases = ["klam zastaralosti"]
+use = "chyba"
+risk = "nizke"
+broader = ""
+related = ["odvolani-na-novost", "odvolani-na-tradici", "genetic-klam", "odvolani-na-starobylost"]
+kompendium = [
+  "kompendium/techniques/ea-7-2-5-kuhn-paradigm-shift.md",
+  "kompendium/02-uvod/historicky-kontext.md",
+  "kompendium/07-teoreticke-reflexe/postmodernismus.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tenhle princip lékařské etiky formulovali lidé, kteří ještě nevěděli nic o genetice, takže pro dnešní medicínu nemůže mít žádný význam."
+context = "Debata o etice nových terapií na studentském semináři."
+benign = false
+marker = "Stáří myšlenky a nevědomost jejích autorů v jiných věcech se berou jako vyvrácení, aniž by se ukázalo, v čem je princip mylný."
+response = "Ptát se, které předpoklady principu novější poznání skutečně zpochybnilo, a odlišit zastaralé faktické údaje od úvahy, která na nich nezávisí."
+
+[[pattern.trainer]]
+utterance = "Učebnice z padesátých let uvádí tuto dávku léku, ale pozdější klinické studie ukázaly vážné nežádoucí účinky, proto se dnes doporučuje nižší dávka."
+context = "Lékárník vysvětluje studentovi rozdíl mezi starým a novým doporučením."
+benign = true
+marker = "Starší tvrzení se neodmítá pro své stáří, ale proto, že ho novější doklady konkrétně vyvrátily."
+response = "Jde o platné odmítnutí: rozhoduje obsah pozdějších dokladů, nikoli datum vzniku starší učebnice."
+
+[[pattern]]
+id = "AF-02.26"
+slug = "dve-kriva-jedno-pravo"
+type = "informal"
+cs = "Dvě křivdy dávají právo"
+en = "Two wrongs make a right"
+aliases = ["dvě křivdy", "odplata jako ospravedlnění"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["tu-quoque", "whataboutism", "odvolani-na-dusledky", "falesna-ekvivalence", "zvlastni-vyjimka"]
+kompendium = [
+  "kompendium/01-predmluva/eticke-aspekty.md",
+  "kompendium/techniques/ea-7-1-5-arendt-banality-evil.md",
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ano, četl jsem jí bez dovolení zprávy v telefonu, ale ona mi minulý měsíc taky zatajila, kolik utratila, takže jsem na to měl právo."
+context = "Partner v párové terapii vysvětluje porušení soukromí."
+benign = false
+marker = "Vlastní jednání se neobhajuje jeho povahou, ale tím, že druhá strana se dříve dopustila jiného provinění."
+response = "Oddělit obě jednání a posuzovat každé zvlášť: zatajení výdajů je téma k rozhovoru, ale nečiní tajné čtení zpráv přijatelným."
+
+[[pattern.trainer]]
+utterance = "Soused nám bez souhlasu přestavěl společný plot na naší straně, proto podáváme žalobu a žádáme soud o obnovení původního stavu."
+context = "Vlastník pozemku popisuje právní postup."
+benign = true
+marker = "Na křivdu se reaguje cestou, která je sama přípustná a podléhá nezávislému posouzení, ne vlastní odvetou."
+response = "Jde o legitimní reakci: provinění druhého zakládá nárok na nápravu v řízení, nikoli ospravedlnění vlastního provinění."
+
+[[pattern]]
+id = "AF-02.27"
+slug = "kontrola-tonu"
+type = "tactic"
+cs = "Kontrola tónu"
+en = "Tone policing"
+aliases = ["tone policing", "výtka tónu"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["odvolani-na-emoce", "cerveny-sled", "irelevantni-zaver", "pravidlo-svobody", "personalizace-sporu", "vyzva-k-relevanci"]
+kompendium = [
+  "kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md",
+  "kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce.md",
+  "kompendium/techniques/ea-7-1-4-habermas-communicative-action.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Dokud budete mluvit takhle rozčileně, nemá smysl se vaší stížností na šikanu na oddělení vůbec zabývat. Přijďte, až se uklidníte."
+context = "Personalista odpovídá zaměstnankyni, která podává stížnost."
+benign = false
+marker = "Projednání obsahu stížnosti se podmiňuje emocí, s jakou je podána, a pobouření se bere jako důvod stížnost neposuzovat."
+response = "Trvat na oddělení obsahu od formy: stížnost má být posouzena podle skutečností, které uvádí, a forma se dá dohodnout bez odkladu jejího projednání."
+
+[[pattern.trainer]]
+utterance = "Rozumím, že vás to rozzlobilo, a stížnost přijímám. Prosím jen, abychom se na jednání nepřekřikovali, ať můžu zapsat všechny body, které uvádíte."
+context = "Předsedkyně komise vede jednání o stížnosti."
+benign = true
+marker = "Požadavek na formu se týká průběhu jednání a nepodmiňuje přijetí ani posouzení obsahu."
+response = "Jde o legitimní procesní pravidlo: forma se upravuje proto, aby obsah mohl být slyšen celý, a stížnost se projednává bez ohledu na emoci."
+
+[[pattern]]
+id = "AF-02.28"
+slug = "irelevantni-zaver"
+type = "informal"
+cs = "Irelevantní závěr"
+en = "Ignoratio elenchi"
+aliases = ["ignoratio elenchi", "minutí se tématem", "missing the point"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["cerveny-sled", "slameny-panak", "pravidlo-relevance", "whataboutism", "vyzva-k-relevanci"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+  "kompendium/forensic-legal/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Obžalovaný se dopustil hrozného činu a rodina oběti si zaslouží spravedlnost, a proto je zřejmé, že vinu nese právě on."
+context = "Závěrečná řeč v trestní věci, kde je sporná totožnost pachatele."
+benign = false
+marker = "Premisy dokládají závažnost činu a nárok obětí na spravedlnost, ale závěr se týká něčeho jiného: kdo čin spáchal."
+response = "Upozornit, že závažnost činu nikdo nezpochybňuje a že sporná otázka je totožnost pachatele, ke které je třeba předložit doklady."
+
+[[pattern.trainer]]
+utterance = "Navrhovaná dálnice zkrátí dojezd do krajské nemocnice o dvacet minut, a protože časová dostupnost péče je hlavním kritériem zadání, plán tomu kritériu vyhovuje."
+context = "Projektant obhajuje variantu trasy před komisí."
+benign = true
+marker = "Premisa se přímo týká kritéria, podle kterého se o závěru rozhoduje, a závěr netvrdí víc, než premisa unese."
+response = "Jde o relevantní argument: spojení mezi důvodem a závěrem je výslovné a dá se ověřit, i když k celkovému rozhodnutí mohou být potřeba další kritéria."

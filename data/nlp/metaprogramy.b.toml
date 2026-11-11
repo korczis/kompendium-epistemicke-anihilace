@@ -1,0 +1,358 @@
+# Rodina NLP-17: Metaprogramy, část b (NLP-17.13 až NLP-17.23; pravidlo project.content-catalogs;
+# schéma v scripts/catalogs.py). Pořadí záznamů je pořadí identifikátorů.
+
+[[pattern]]
+id = "NLP-17.13"
+slug = "lide-a-veci"
+type = "concept"
+cs = "Lidé a věci"
+en = "Person and thing"
+aliases = ["orientace na lidi a na úkoly", "organizace pozornosti"]
+use = "dvoji"
+risk = "nizke"
+broader = "metaprogramy-pojem"
+related = ["ja-a-druzi", "pracovni-styl", "metaprogramy-v-naboru", "raport"]
+kompendium = [
+  "kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md",
+  "kompendium/case-studies/61-corporate-leadership-cult.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vy jste prostě člověk na věci, ne na lidi. Proto vás na vedení týmu nenavrhneme a nemusíme to s vámi dál probírat."
+context = "Vedoucí oddělení při hodnoticím pohovoru se zaměstnancem."
+benign = false
+marker = "Popisná kategorie z praxe NLP se použije jako trvalá nálepka a jako důvod k rozhodnutí o kariéře, bez doložení a bez možnosti námitky."
+response = "Žádat, podle jakých doložených výkonových kritérií se rozhodlo, a odmítnout, aby neověřená typologie nahradila hodnocení skutečné práce."
+
+[[pattern.trainer]]
+utterance = "Když popisujete minulý projekt, mluvíte hlavně o lidech v týmu. Je to pro vás podstatné, nebo to jen tak vyšlo?"
+context = "Kariérní poradce v rozhovoru s klientem o volbě pracovního místa."
+benign = true
+marker = "Pozorování o tom, kam směřuje řeč, se nabízí jako otázka a klient je může potvrdit, upřesnit nebo odmítnout."
+response = "Jde o legitimní užití: postřeh slouží sebereflexi klienta a nestává se nálepkou ani podkladem rozhodnutí o něm."
+
+[[pattern]]
+id = "NLP-17.14"
+slug = "struktura-pravidel"
+type = "concept"
+cs = "Struktura pravidel"
+en = "Rule structure"
+aliases = ["moje pravidla a pravidla pro druhé"]
+use = "dvoji"
+risk = "stredni"
+broader = "metaprogramy-pojem"
+related = ["vnitrni-a-vnejsi-reference", "ja-a-druzi", "odpovednost", "kriteria"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+  "kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty přece nemáš žádná vlastní pravidla, tak se budeš řídit mými. Je to pro tebe tak lepší, sám bys to nezvládl."
+context = "Partner v blízkém vztahu při sporu o to, jak trávit volný čas."
+benign = false
+marker = "Druhému se upírá schopnost mít vlastní pravidla a jeho chování se podřizuje pravidlům mluvčího, která se vydávají za péči."
+response = "Trvat na tom, že pravidla vlastního života určuje každý sám, a sledovat, zda se počet takových pravidel a kontrol v čase nezvyšuje."
+
+[[pattern.trainer]]
+utterance = "Já si to v kanceláři dělám takhle, ale chápu, že vy můžete mít jiný postup. Domluvme jen to, co musíme mít společné."
+context = "Vedoucí malé kanceláře s novou kolegyní při zaučování."
+benign = true
+marker = "Mluvčí odlišuje vlastní pravidla od pravidel pro druhé a výslovně omezuje společná pravidla na nezbytné minimum."
+response = "Jde o legitimní užití: rozdíl mezi osobním a sdíleným pravidlem je pojmenován a druhý má prostor pro vlastní postup."
+
+[[pattern]]
+id = "NLP-17.15"
+slug = "casova-orientace"
+type = "concept"
+cs = "Časová orientace"
+en = "Time orientation"
+aliases = ["orientace na minulost, přítomnost a budoucnost"]
+use = "dvoji"
+risk = "stredni"
+broader = "metaprogramy-pojem"
+related = ["v-case-a-mimo-cas", "casova-perspektiva", "casova-osa-pojem", "k-cili-a-od-problemu", "budouci-prehravani-v-prodeji"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-6-time-control-academic.md",
+  "kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vy jste typ, co žije budoucností, tak se nezdržujme tím, co bylo. Podepište to dnes a za rok se tomu budete smát."
+context = "Poradce finančního produktu s klientem, který se ptá na minulé výsledky fondu."
+benign = false
+marker = "Údajná časová orientace klienta slouží jako důvod, proč neprobírat minulá data, a pozornost se přesouvá do představované budoucnosti."
+response = "Vrátit rozhovor k ověřitelné minulosti produktu: výsledkům, poplatkům a podmínkám, bez ohledu na to, jaký „typ“ člověk údajně je."
+
+[[pattern.trainer]]
+utterance = "Někdo při rozhodování víc vychází z toho, co už zažil, jiný z toho, kam chce dojít. Co z toho je teď pro vás užitečnější?"
+context = "Terapeutka v rozhovoru s klientem, který zvažuje změnu bydliště."
+benign = true
+marker = "Rozlišení časového zaměření se nabízí jako otázka a obě perspektivy se uznávají jako oprávněné zdroje rozhodování."
+response = "Jde o legitimní užití: rozlišení pomáhá klientovi uvidět vlastní perspektivu a nevede ho k zanedbání žádného časového rozměru."
+
+[[pattern]]
+id = "NLP-17.16"
+slug = "emocni-zvladani"
+type = "concept"
+cs = "Emoční zvládání"
+en = "Emotional coping"
+aliases = ["styl zvládání emocí"]
+use = "dvoji"
+risk = "stredni"
+broader = "metaprogramy-pojem"
+related = ["reakce-na-stres", "asociace", "disociace", "ja-a-druzi"]
+kompendium = [
+  "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty se vždycky hned rozbrečíš, to je tvůj vzorec. Takže o tom, co se stalo, budu rozhodovat já, ty to emočně nezvládáš."
+context = "Starší sourozenec ve sporu o rodinné záležitosti."
+benign = false
+marker = "Emoční reakce druhého se označí za stálý vzorec a slouží jako důvod, proč mu upřít podíl na rozhodnutí a na výkladu události."
+response = "Oddělit emoci od schopnosti úsudku: silný pocit neznamená, že člověk nemůže rozhodovat, a rozhovor lze odložit, ne převzít."
+
+[[pattern.trainer]]
+utterance = "Všímám si, že když mluvíte o té hádce, mluvíte o sobě jakoby zvenku. Je to pro vás teď bezpečnější?"
+context = "Psycholožka v krizovém centru s klientkou po konfliktu."
+benign = true
+marker = "Odstup od emoce se pojmenuje jako pozorování a klientka sama posoudí, zda a proč jej potřebuje."
+response = "Jde o legitimní užití: pojmenování stylu zvládání respektuje potřebu odstupu a nevyužívá ho k tlaku ani k rozhodování za klientku."
+
+[[pattern]]
+id = "NLP-17.17"
+slug = "hodnoty-pri-koupi"
+type = "concept"
+cs = "Hodnoty při koupi"
+en = "Value buying"
+aliases = ["nákupní kritéria", "cena, pohodlí, kvalita, čas"]
+use = "vliv"
+risk = "stredni"
+broader = "metaprogramy-pojem"
+related = ["metaprogramy-v-marketingu", "kriteria", "nlp-v-prodeji", "rezim-presvedceni"]
+kompendium = [
+  "kompendium/techniques/ea-9-3-3-feed-personalization-bias.md",
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Pro vás přece rozhoduje kvalita, ne cena, to jsem hned poznal. Takže se nebudeme bavit o slevách a vezmeme rovnou tu nejvyšší řadu."
+context = "Prodejce v obchodě s elektronikou po krátkém rozhovoru se zákazníkem."
+benign = false
+marker = "Zákazníkovi se přisoudí jediné nákupní kritérium a to se použije k vyřazení cenového srovnání z rozhovoru."
+response = "Trvat na tom, že cena i kvalita se posuzují společně, a vyžádat si srovnání několika řad s cenou a parametry vedle sebe."
+
+[[pattern.trainer]]
+utterance = "Co je pro vás u pračky nejdůležitější: cena, spotřeba, nebo spolehlivost? Ukážu vám u každé možnosti, jak si v tom vede."
+context = "Prodavačka v obchodě se spotřebiči."
+benign = true
+marker = "Kritéria se zjišťují otevřeně, zákazník je volí sám a nabídka se srovnává podle všech, ne jen podle jednoho."
+response = "Jde o legitimní užití: otázka na kritéria slouží informovanému výběru a zákazník vidí i možnosti, které prodejci nevynášejí nejvíc."
+
+[[pattern]]
+id = "NLP-17.18"
+slug = "odpovednost"
+type = "concept"
+cs = "Odpovědnost"
+en = "Responsibility"
+aliases = ["přílišná a nedostatečná odpovědnost"]
+use = "dvoji"
+risk = "stredni"
+broader = "metaprogramy-pojem"
+related = ["ja-a-druzi", "struktura-pravidel", "duvera", "odpovednost-za-komunikaci"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty jsi přece ten zodpovědný, ty to vždycky vyřešíš. Když teď odejdeš, celý tým se rozpadne a bude to na tobě."
+context = "Ředitel malé firmy k zaměstnanci, který podal výpověď."
+benign = false
+marker = "Sklon člověka přebírat odpovědnost se pojmenuje jako jeho podstata a hned se obrátí v odpovědnost za důsledky, které mu nepatří."
+response = "Rozlišit, co člověk skutečně může ovlivnit, a vrátit odpovědnost za chod týmu tomu, kdo jej řídí; rozhodnutí odejít tím nezaniká."
+
+[[pattern.trainer]]
+utterance = "Zdá se mi, že na sebe berete i věci, které nemáte v rukou. Můžeme spolu projít, co z toho opravdu patří vám?"
+context = "Supervizor v rozhovoru se sociální pracovnicí, která je přetížená."
+benign = true
+marker = "Sklon k přílišné odpovědnosti se pojmenuje jako hypotéza a vede k věcnému rozlišení vlastních a cizích povinností."
+response = "Jde o legitimní užití: pojmenování snižuje přetížení, protože vrací hranice odpovědnosti, místo aby je dál posouvalo."
+
+[[pattern]]
+id = "NLP-17.19"
+slug = "duvera"
+type = "concept"
+cs = "Důvěra"
+en = "Trust"
+aliases = ["důvěřivost a nedůvěřivost"]
+use = "dvoji"
+risk = "vysoke"
+broader = "metaprogramy-pojem"
+related = ["kanal-presvedceni", "rezim-presvedceni", "raport-jako-nastroj-vlivu", "falesne-zrcadleni-v-podvodech"]
+kompendium = [
+  "kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md",
+  "kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vy jste člověk, který lidem věří, a to je krásná vlastnost. Tak mi věřte i teď a nezdržujte se kontrolou smlouvy."
+context = "Zprostředkovatel investice při schůzce se starší klientkou."
+benign = false
+marker = "Důvěřivost člověka se pochválí jako ctnost a hned se použije jako důvod vynechat ověření, které by ji měla doprovázet."
+response = "Oddělit důvěru k člověku od ověření dokumentu: smlouvu si vzít domů, nechat ji posoudit třetí osobou a teprve pak rozhodnout."
+
+[[pattern.trainer]]
+utterance = "Je v pořádku, že mi zatím nevěříte. Tady jsou podklady a kontakt na nezávislé místo, kde si to můžete ověřit."
+context = "Pracovnice úřadu při jednání s občanem, který je podezíravý."
+benign = true
+marker = "Nedůvěra se uznává jako oprávněná a mluvčí sám nabízí cestu k nezávislému ověření, místo aby důvěru vyžadoval."
+response = "Jde o legitimní užití: respekt k potřebě ověřit si informace posiluje epistemickou samostatnost a nezakládá závislost na mluvčím."
+
+[[pattern]]
+id = "NLP-17.20"
+slug = "filozoficky-smer"
+type = "concept"
+cs = "Proč a jak"
+en = "Philosophical direction"
+aliases = ["filozofický směr", "původ a řešení"]
+use = "dvoji"
+risk = "nizke"
+broader = "metaprogramy-pojem"
+related = ["moznosti-a-postupy", "obecne-a-specificke", "k-cili-a-od-problemu"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+  "kompendium/02-uvod/filosoficky-ramec.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Proč se to stalo, je otázka pro filozofy, a vy jste přece praktik. Bavme se jen o tom, jak to teď vyřešíme bez vyšetřování."
+context = "Manažer k zaměstnanci, který chce vědět, proč došlo k úrazu na pracovišti."
+benign = false
+marker = "Otázka po příčině se označí za neužitečný styl myšlení a přesměruje se k řešení, čímž se zablokuje zjištění odpovědnosti."
+response = "Trvat na tom, že zjištění příčiny je podmínkou dobrého řešení, a požadovat řádné vyšetření události bez ohledu na „styl“ tazatele."
+
+[[pattern.trainer]]
+utterance = "Chcete se nejdřív bavit o tom, proč to tak dopadlo, nebo rovnou o dalších krocích? Obojí dává smysl, jen to udělejme postupně."
+context = "Facilitátorka na poradě po neúspěšném projektu."
+benign = true
+marker = "Obě orientace, na příčinu i na řešení, se uznávají jako oprávněné a domlouvá se jen jejich pořadí."
+response = "Jde o legitimní užití: rozlišení strukturuje poradu a žádná z otázek se neodsouvá jako méně hodnotná."
+
+[[pattern]]
+id = "NLP-17.21"
+slug = "adaptace"
+type = "concept"
+cs = "Usuzování a vnímání"
+en = "Adaptation (judging and perceiving)"
+aliases = ["adaptace", "uzavírání a otevřenost"]
+use = "dvoji"
+risk = "nizke"
+broader = "metaprogramy-pojem"
+related = ["moznosti-a-postupy", "struktura-pravidel", "pracovni-styl"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/02-uvod/metodologicke-poznamky.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vy jste typ, který se potřebuje rozhodnout hned, jinak vás to trápí. Tak to uzavřeme teď, ať to máte z hlavy."
+context = "Realitní makléř při prohlídce bytu se zájemcem."
+benign = false
+marker = "Přisouzená potřeba uzavírat se obrátí v časový tlak a odklad rozhodnutí se líčí jako nepohodlí, ne jako rozumná opatrnost."
+response = "Rozhodnutí o velké koupi odložit bez ohledu na údajný typ; nepohodlí z otevřené otázky je menší cena než chybné rozhodnutí."
+
+[[pattern.trainer]]
+utterance = "Já mám rád jasný plán, ty raději necháváš věci otevřené. Domluvme se, co potřebujeme rozhodnout teď a co může počkat."
+context = "Dva kolegové plánující společnou konferenci."
+benign = true
+marker = "Rozdíl v potřebě uzavírat a nechávat otevřené se pojmenuje symetricky a vede k dohodě o tom, co je nutné rozhodnout."
+response = "Jde o legitimní užití: rozlišení slouží koordinaci a ani jeden styl se nevydává za nadřazený nebo za důvod tlaku."
+
+[[pattern]]
+id = "NLP-17.22"
+slug = "metaprogramy-v-naboru"
+type = "pattern"
+cs = "Metaprogramy v náboru a řízení"
+en = "Meta-programs in recruitment and management"
+aliases = ["profil LAB v personalistice"]
+use = "vliv"
+risk = "vysoke"
+broader = "metaprogramy-pojem"
+related = ["lide-a-veci", "pracovni-styl", "vnitrni-a-vnejsi-reference", "proaktivni-a-reaktivni", "nlp-v-koucinku"]
+kompendium = [
+  "kompendium/techniques/ea-9-6-6-AI-hiring-narrative.md",
+  "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md",
+  "kompendium/case-studies/61-corporate-leadership-cult.md",
+  "kompendium/organizational-defense/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Z vašich odpovědí je jasné, že máte vnější referenci, takže na samostatnou pozici nejste vhodný. Výsledky z praxe tu nehrají roli."
+context = "Personalista sděluje uchazeči důvod zamítnutí po strukturovaném pohovoru."
+benign = false
+marker = "Neověřený profil odvozený z řeči nahrazuje doložené pracovní výsledky jako kritérium výběru a uchazeč nemá možnost jej zpochybnit."
+response = "Žádat písemné zdůvodnění, podle jakých kritérií se rozhodlo, a zda je jejich souvislost s výkonem v dané práci doložena."
+
+[[pattern.trainer]]
+utterance = "Ptám se vás, jak rád pracujete, jen abychom se líp domluvili na zaučení. Na výběr to vliv nemá, ten už je rozhodnutý."
+context = "Vedoucí týmu při prvním rozhovoru s nově přijatou zaměstnankyní."
+benign = true
+marker = "Otázka na pracovní styl je oddělena od rozhodování o člověku a její účel je výslovně sdělen."
+response = "Jde o legitimní užití: informace slouží domluvě o spolupráci a nestává se skrytým kritériem výběru ani hodnocení."
+
+[[pattern]]
+id = "NLP-17.23"
+slug = "metaprogramy-v-marketingu"
+type = "pattern"
+cs = "Metaprogramy v marketingu"
+en = "Meta-programs in marketing"
+aliases = ["ladění sdělení podle profilu zákazníka"]
+use = "vliv"
+risk = "vysoke"
+broader = "metaprogramy-pojem"
+related = ["nlp-v-reklame", "hodnoty-pri-koupi", "k-cili-a-od-problemu", "presupozice-v-reklame", "kotvy-v-reklame", "nlp-v-prodeji"]
+kompendium = [
+  "kompendium/techniques/ea-9-3-3-feed-personalization-bias.md",
+  "kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md",
+  "kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nechcete přece riskovat, že vaše rodina zůstane bez ochrany. Lidé jako vy, kteří předvídají problémy, se rozhodují ještě dnes."
+context = "Reklamní e-mail pojišťovny cílený na skupinu příjemců podle dřívějšího chování na webu."
+benign = false
+marker = "Sdělení je laděno na vyhýbání se ztrátě u příjemce zařazeného do profilu a spojuje obavu s okamžitým rozhodnutím."
+response = "Oddělit obavu od nabídky: srovnat pojistku s jinými podle krytí a ceny a nenechat se tlačit lhůtou, kterou si určil odesílatel."
+
+[[pattern.trainer]]
+utterance = "Tady najdete, co pojistka kryje a co ne, a vedle toho tři srovnatelné nabídky. Na rozhodnutí máte tolik času, kolik potřebujete."
+context = "Informační stránka nezávislé spotřebitelské poradny."
+benign = true
+marker = "Sdělení nabízí úplné informace všem stejně, včetně omezení a alternativ, a výslovně nevytváří časový tlak."
+response = "Jde o legitimní užití: informace jsou podány tak, aby umožnily srovnání, a nejsou laděny na obavy konkrétního profilu příjemce."

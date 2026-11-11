@@ -1,0 +1,266 @@
+# Rodina NLP-18: Raport a kalibrace, část b (NLP-18.09 až NLP-18.16; pravidlo project.content-catalogs).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-18.09"
+slug = "vedeni-v-raportu"
+type = "pattern"
+cs = "Vedení v raportu"
+en = "Leading in rapport"
+aliases = ["test vedení", "leading"]
+use = "dvoji"
+risk = "stredni"
+broader = "pacing-a-leading"
+related = ["raport", "pacing-a-leading-pojem", "zrcadleni", "kalibrace", "retezeni-sugesci", "pacing-aktualni-zkusenosti"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+  "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vidíte, už sedíte stejně jako já a dýcháte stejně klidně. Takže teď už jen podepíšeme, na čem jsme se vlastně shodli, i když jsme to ještě neřekli nahlas."
+context = "Prodejce finančních produktů na konci schůzky v domácnosti klienta."
+benign = false
+marker = "Tělesné souznění se vykládá jako souhlas s obsahem a slouží jako most k rozhodnutí, o kterém se dosud nemluvilo."
+response = "Oddělit pohodu rozhovoru od rozhodnutí: požádat o písemné podklady, odložit podpis a posoudit nabídku bez přítomnosti prodejce."
+
+[[pattern.trainer]]
+utterance = "Zdá se, že jsme oba trochu unavení. Navrhuji krátkou pauzu a pak se vrátíme k tomu, co vám dělá největší starost, pokud budete chtít."
+context = "Psycholožka po dlouhém úvodním sezení s klientem."
+benign = true
+marker = "Návrh změny je vyslovený nahlas, týká se rámce rozhovoru a klient ho může odmítnout; nic se nepřenáší skrytě."
+response = "Benigní užití: odbornice otevřeně navrhuje další krok a nechává rozhodnutí na klientovi, bez tvrzení o skrytém souhlasu."
+
+[[pattern]]
+id = "NLP-18.10"
+slug = "preruseni-raportu"
+type = "pattern"
+cs = "Přerušení raportu"
+en = "Breaking rapport"
+aliases = ["mismatching", "záměrné nesladění"]
+use = "dvoji"
+risk = "stredni"
+broader = "raport"
+related = ["raport", "zrcadleni", "preruseni-vzorce", "kalibrace", "odpor-jako-nedostatek-raportu", "kotveni-v-kontrolujicich-vztazich"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md",
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+  "kompendium/06-obrana/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když jsi takhle kritická, nemám ti co říct. Ozvu se, až zase budeš ta milá holka, kterou jsem poznal."
+context = "Partner ve vztahu, kde se střídá vřelost a chlad, po námitce druhé strany."
+benign = false
+marker = "Náhlé stažení vřelosti a pozornosti je podmíněné námitkou a návrat blízkosti je slíben jen za návrat k poddajnosti."
+response = "Pojmenovat podmíněnost: náklonnost, která mizí s každou námitkou, je nástroj kontroly; námitku držet a opřít se o lidi mimo vztah."
+
+[[pattern.trainer]]
+utterance = "Rád bych to s vámi probral, ale teď opravdu musím odejít. Domluvme si jiný termín, kdy na to budu mít klid."
+context = "Kolega ukončuje chodbový rozhovor, který se protahuje."
+benign = true
+marker = "Rozhovor se ukončuje otevřeně a s nabídkou pokračování; vztah se nepodmiňuje ničím a nic se netrestá."
+response = "Benigní užití: jde o běžné a zdvořilé ukončení rozhovoru, ne o odnímání náklonnosti jako trest."
+
+[[pattern]]
+id = "NLP-18.11"
+slug = "raport-se-skupinou"
+type = "pattern"
+cs = "Raport se skupinou"
+en = "Group rapport"
+aliases = ["raport s publikem", "skupinový raport"]
+use = "vliv"
+risk = "vysoke"
+broader = "raport"
+related = ["raport", "guru-efekt", "velke-seminare", "kotveni-ve-skupine", "pacing-aktualni-zkusenosti", "nlp-v-sektach"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-8-2-3-singer-six-conditions.md",
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Všichni tady v sále cítíme totéž, tu energii, kterou nikdo zvenčí nepochopí. Kdo z vás chce tuhle sílu mít každý den, zvedne teď ruku a půjde dál s námi."
+context = "Řečník na víkendovém motivačním semináři před nabídkou dražšího programu."
+benign = false
+marker = "Sdílený tělesný a citový stav sálu se vydává za společný názor a zvednutá ruka v davu se mění ve veřejný závazek ke koupi."
+response = "Oddělit atmosféru od rozhodnutí: nic nepodepisovat ani neplatit v sále, nabídku si nechat poslat písemně a promyslet ji s odstupem."
+
+[[pattern.trainer]]
+utterance = "Vidím, že po obědě jsou v sále unavené tváře, takže dáme deset minut na otázky a pak teprve pokračujeme dalším tématem."
+context = "Přednášející na odborné konferenci."
+benign = true
+marker = "Přizpůsobení se stavu publika slouží srozumitelnosti výkladu a nevede k žádnému rozhodnutí ani závazku posluchačů."
+response = "Benigní užití: vnímavost k únavě publika zlepšuje výuku a posluchači zůstávají plně svobodní v tom, co si z výkladu vezmou."
+
+[[pattern]]
+id = "NLP-18.12"
+slug = "sladeni-hodnot"
+type = "pattern"
+cs = "Sladění hodnot"
+en = "Value matching"
+aliases = ["sladění kritérií", "zrcadlení hodnot"]
+use = "vliv"
+risk = "stredni"
+broader = "raport"
+related = ["kriteria", "som-hierarchie-kriterii", "hodnoty-pri-koupi", "slovni-baliky", "uroven-presvedceni-a-hodnot", "raport-jako-nastroj-vlivu"]
+kompendium = [
+  "kompendium/techniques/ea-5-3-11-axiologicka-inverze.md",
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Říkala jste, že pro vás je nejdůležitější svoboda a rodina. Přesně proto vznikla naše komunita: svoboda a rodina, nic jiného tu nehledáme."
+context = "Náborář nové spirituální skupiny při druhém setkání se zájemkyní."
+benign = false
+marker = "Mluvčí vrací zájemkyni její vlastní hodnotová slova doslovně a připíná je ke skupině, o jejímž skutečném fungování nic konkrétního neříká."
+response = "Ptát se na konkrétní pravidla, peníze, čas a možnost odejít; hodnotová slova, která zní jako ozvěna vlastních, jsou důvod k ověřování, ne k důvěře."
+
+[[pattern.trainer]]
+utterance = "Než vám něco doporučím, potřebuji vědět, co je pro vás při výběru školy rozhodující: vzdálenost, zaměření, nebo cena?"
+context = "Školní poradkyně v rozhovoru s rodiči žáka."
+benign = true
+marker = "Hodnoty se zjišťují otevřeně, slouží k výběru vhodné možnosti a doporučení se pak dá ověřit podle skutečných vlastností škol."
+response = "Benigní užití: poradkyně zjišťuje kritéria, aby jim nabídku přizpůsobila pravdivě, ne aby jejich slova připnula k předem dané nabídce."
+
+[[pattern]]
+id = "NLP-18.13"
+slug = "raport-jako-nastroj-vlivu"
+type = "pattern"
+cs = "Raport jako nástroj vlivu"
+en = "Rapport as an influence tool"
+aliases = ["instrumentální raport", "budování raportu za účelem vlivu"]
+use = "vliv"
+risk = "vysoke"
+broader = "raport"
+related = ["raport", "nlp-v-prodeji", "falesne-zrcadleni-v-podvodech", "pseudoempatie", "obrana-proti-vlivovym-vzorcum", "vedeni-v-raportu"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md",
+  "kompendium/techniques/ea-8-1-1-bite-model-detail.md",
+  "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Mám pocit, že si rozumíme jako málokdo, jste mi tak blízký. Proto vám tuhle příležitost nabízím jen vám a jen dnes, jinde byste ji nedostal."
+context = "Neznámý člověk několik dní po navázání kontaktu přes seznamovací aplikaci."
+benign = false
+marker = "Rychle vybudovaná blízkost se v krátkém čase převádí na výjimečnou nabídku s časovým tlakem; vztah slouží jako záruka, kterou nic jiného nepodpírá."
+response = "Hodnotit nabídku odděleně od vztahu, ověřit ji u nezávislého zdroje a vnímat spojení rychlé blízkosti s peněžní žádostí jako typický znak podvodu."
+
+[[pattern.trainer]]
+utterance = "Je mi s vámi dobře a jsem rád, že se vídáme. Kdybyste ale chtěl smlouvu zrušit, řeknu vám, jak to udělat, a nic se tím mezi námi nezmění."
+context = "Pojišťovací poradce, který klienta zná léta, při výroční schůzce."
+benign = true
+marker = "Vztah se výslovně odděluje od obchodu a odmítnutí nemá žádnou vztahovou cenu."
+response = "Benigní užití: poradce nepoužívá blízkost jako páku a sám otevírá cestu k odmítnutí."
+
+[[pattern]]
+id = "NLP-18.14"
+slug = "detekce-lzi-v-nlp"
+type = "concept"
+cs = "Detekce lži v NLP"
+en = "Lie detection claims in NLP"
+aliases = ["oční pohyby a lež", "čtení lži z očí"]
+use = "zadne"
+risk = "vysoke"
+broader = "ocni-pristupove-signaly"
+related = ["ocni-pristupove-signaly", "vyzkum-ocnich-signalu", "cteni-reci-tela", "kalibrace", "nlp-ve-vyslechu", "meta-model-jako-vyslychaci-nastroj"]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/techniques/ea-6-1-4-observational-assessment.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když jsem se tě ptal, kde jsi byla, podívala ses nahoru doprava. To je oblast konstrukce, takže si to vymýšlíš, a nesnaž se mi tvrdit opak."
+context = "Žárlivý partner při výslechu druhé strany po pozdním návratu."
+benign = false
+marker = "Směr pohledu se vydává za spolehlivý důkaz lži a slouží k umlčení druhé strany, ačkoli výzkum takový vztah nepotvrdil."
+response = "Odmítnout směr pohledu jako důkaz: kontrolované studie spojení očních pohybů se lží nenašly; o pravdivosti rozhodují ověřitelná fakta."
+
+[[pattern.trainer]]
+utterance = "Podle výzkumu se lež z pohybů očí poznat nedá, takže se budu spíš ptát na podrobnosti, které můžeme ověřit v dokumentech."
+context = "Vyšetřovatel interní kontroly při rozhovoru se zaměstnancem."
+benign = true
+marker = "Mluvčí výslovně odmítá tělesné znaky jako test pravdivosti a přesouvá se k ověřitelným údajům."
+response = "Benigní užití: postup odpovídá výzkumu klamání, který doporučuje opírat se o ověřitelný obsah výpovědi, ne o domnělé tělesné signály."
+
+[[pattern]]
+id = "NLP-18.15"
+slug = "cteni-reci-tela"
+type = "concept"
+cs = "Čtení řeči těla v NLP"
+en = "Body-language reading in NLP"
+aliases = ["čtení neverbálních signálů", "čtení lidí"]
+use = "dvoji"
+risk = "stredni"
+broader = "kalibrace"
+related = ["kalibrace", "smyslova-ostrost", "ocni-pristupove-signaly", "detekce-lzi-v-nlp", "kongruence", "zrcadleni"]
+kompendium = [
+  "kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md",
+  "kompendium/techniques/ea-6-1-4-observational-assessment.md",
+  "kompendium/techniques/ea-1-5-1-strategicka-proxemika.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Máte zkřížené ruce a díváte se stranou, takže uvnitř už souhlasíte, jen si to ještě nechcete přiznat. Tělo nelže."
+context = "Lektor osobního rozvoje při veřejné ukázce s účastníkem semináře."
+benign = false
+marker = "Jednotlivé postoje se vykládají jako jednoznačný znak skrytého vnitřního stavu a výklad mluvčího se staví nad slova člověka samého."
+response = "Trvat na tom, že o svém stavu rozhoduje člověk sám: postoj těla má mnoho příčin a jeho výklad je hypotéza, kterou je třeba ověřit otázkou."
+
+[[pattern.trainer]]
+utterance = "Všimla jsem si, že když mluvíme o práci, zatínáte ruce. Je to jen můj dojem, nebo se tam děje něco, o čem byste chtěl mluvit?"
+context = "Psychoterapeutka v průběhu sezení."
+benign = true
+marker = "Pozorování se vrací klientovi jako otázka, výklad zůstává na něm a terapeutka svůj dojem výslovně označuje za dojem."
+response = "Benigní užití: neverbální pozorování slouží k otevření tématu, ne k tvrzení o tom, co klient skutečně cítí."
+
+[[pattern]]
+id = "NLP-18.16"
+slug = "pseudoempatie"
+type = "pattern"
+cs = "Předstíraná empatie"
+en = "Simulated empathy"
+aliases = ["pseudoempatie", "strategická empatie"]
+use = "vliv"
+risk = "vysoke"
+broader = "raport-jako-nastroj-vlivu"
+related = ["raport-jako-nastroj-vlivu", "zrcadleni", "zpetne-shrnuti", "falesne-zrcadleni-v-podvodech", "nlp-v-komunite-svadeni", "sladeni-hodnot"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Úplně cítím, jak moc vás to bolí, prožil jsem přesně totéž. Proto vím, že vám pomůže jen náš kurz, a proto byste se měla rozhodnout ještě dnes."
+context = "Prodejce rozvojového programu při telefonátu s ženou krátce po rozvodu."
+benign = false
+marker = "Projevy porozumění jsou náhle a silné, mluvčí si nárokuje stejnou zkušenost a soucit ústí v jediné řešení, které sám prodává, s časovým tlakem."
+response = "Rozlišit soucit od nabídky: skutečné porozumění nevede k jedinému placenému řešení dnes; rozhodnutí odložit a probrat s někým blízkým."
+
+[[pattern.trainer]]
+utterance = "Nevím, jaké to pro vás je, a nechci předstírat, že ano. Řeknete mi, co z toho je teď nejtěžší?"
+context = "Sociální pracovnice při prvním setkání s rodinou v krizi."
+benign = true
+marker = "Mluvčí nepředstírá shodnou zkušenost, uznává hranice svého porozumění a empatie nevede k žádné žádosti."
+response = "Benigní užití: jde o skutečnou empatii, která se ptá a naslouchá a nic za ni nežádá."

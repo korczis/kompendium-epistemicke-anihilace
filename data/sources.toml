@@ -1,0 +1,621 @@
+# Ověřená bibliografie všech katalogů knihy (pravidlo project.content-catalogs, project.content-sources-verifiable).
+#
+# Stránka katalogu smí citovat jen díla odsud; `group` je primary (NLP), roots (zdroje, z nichž NLP čerpá) nebo critical (výzkum a hodnocení). `cite` je podoba citace v textu (autor–rok), jak ji
+# brána hledá v próze; `entry` je položka oddílu Literatura, kterou generátor píše na stránku a
+# kterou scripts/build-references.py sbírá do content/references.md.
+# Nový zdroj se přidává jen tehdy, když je jisté, že dílo existuje a říká to, co mu text připisuje.
+
+# --- Primární literatura NLP ---------------------------------------------------------------
+
+[bandler-grinder-1975]
+group = "primary"
+cite = "Bandler a Grinder 1975"
+entry = "Bandler, R., & Grinder, J. (1975). *The Structure of Magic I: A Book about Language and Therapy*. Palo Alto: Science and Behavior Books."
+
+[grinder-bandler-1976]
+group = "primary"
+cite = "Grinder a Bandler 1976"
+entry = "Grinder, J., & Bandler, R. (1976). *The Structure of Magic II: A Book about Communication and Change*. Palo Alto: Science and Behavior Books."
+
+[bandler-grinder-1975b]
+group = "primary"
+cite = "Bandler a Grinder 1975b"
+entry = "Bandler, R., & Grinder, J. (1975b). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1*. Cupertino: Meta Publications."
+
+[grinder-delozier-bandler-1977]
+group = "primary"
+cite = "Grinder, DeLozier a Bandler 1977"
+entry = "Grinder, J., DeLozier, J., & Bandler, R. (1977). *Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 2*. Cupertino: Meta Publications."
+
+[bandler-grinder-1979]
+group = "primary"
+cite = "Bandler a Grinder 1979"
+entry = "Bandler, R., & Grinder, J. (1979). *Frogs into Princes: Neuro Linguistic Programming*. Moab: Real People Press."
+
+[grinder-bandler-1981]
+group = "primary"
+cite = "Grinder a Bandler 1981"
+entry = "Grinder, J., & Bandler, R. (1981). *Trance-formations: Neuro-Linguistic Programming and the Structure of Hypnosis*. Moab: Real People Press."
+
+[bandler-grinder-1982]
+group = "primary"
+cite = "Bandler a Grinder 1982"
+entry = "Bandler, R., & Grinder, J. (1982). *Reframing: Neuro-Linguistic Programming and the Transformation of Meaning*. Moab: Real People Press."
+
+[dilts-1980]
+group = "primary"
+cite = "Dilts a kol. 1980"
+entry = "Dilts, R., Grinder, J., Bandler, R., & DeLozier, J. (1980). *Neuro-Linguistic Programming: Volume I. The Study of the Structure of Subjective Experience*. Cupertino: Meta Publications."
+
+[bandler-1985]
+group = "primary"
+cite = "Bandler 1985"
+entry = "Bandler, R. (1985). *Using Your Brain—for a Change*. Moab: Real People Press."
+
+[cameron-bandler-1978]
+group = "primary"
+cite = "Cameron-Bandler 1978"
+entry = "Cameron-Bandler, L. (1978). *They Lived Happily Ever After: A Book about Achieving Happy Endings in Coupling*. Cupertino: Meta Publications."
+
+[andreas-andreas-1987]
+group = "primary"
+cite = "Andreas a Andreas 1987"
+entry = "Andreas, S., & Andreas, C. (1987). *Change Your Mind—and Keep the Change: Advanced NLP Submodalities Interventions*. Moab: Real People Press."
+
+[andreas-andreas-1989]
+group = "primary"
+cite = "Andreas a Andreas 1989"
+entry = "Andreas, C., & Andreas, S. (1989). *Heart of the Mind: Engaging Your Inner Power to Change with Neuro-Linguistic Programming*. Moab: Real People Press."
+
+[andreas-andreas-1994]
+group = "primary"
+cite = "Andreas a Andreas 1994"
+entry = "Andreas, C., & Andreas, T. (1994). *Core Transformation: Reaching the Wellspring Within*. Moab: Real People Press."
+
+[dilts-1990]
+group = "primary"
+cite = "Dilts 1990"
+entry = "Dilts, R. (1990). *Changing Belief Systems with NLP*. Cupertino: Meta Publications."
+
+[dilts-hallbom-smith-1990]
+group = "primary"
+cite = "Dilts, Hallbom a Smith 1990"
+entry = "Dilts, R., Hallbom, T., & Smith, S. (1990). *Beliefs: Pathways to Health and Well-Being*. Portland: Metamorphous Press."
+
+[dilts-1994]
+group = "primary"
+cite = "Dilts 1994"
+entry = "Dilts, R. (1994). *Strategies of Genius, Volume I: Aristotle, Sherlock Holmes, Walt Disney, Wolfgang Amadeus Mozart*. Capitola: Meta Publications."
+
+[dilts-1999]
+group = "primary"
+cite = "Dilts 1999"
+entry = "Dilts, R. (1999). *Sleight of Mouth: The Magic of Conversational Belief Change*. Capitola: Meta Publications."
+
+[dilts-delozier-2000]
+group = "primary"
+cite = "Dilts a DeLozier 2000"
+entry = "Dilts, R., & DeLozier, J. (2000). *Encyclopedia of Systemic Neuro-Linguistic Programming and NLP New Coding*. Scotts Valley: NLP University Press."
+
+[grinder-delozier-1987]
+group = "primary"
+cite = "Grinder a DeLozier 1987"
+entry = "Grinder, J., & DeLozier, J. (1987). *Turtles All the Way Down: Prerequisites to Personal Genius*. Scotts Valley: Grinder & Associates."
+
+[grinder-bostic-2001]
+group = "primary"
+cite = "Grinder a Bostic St. Clair 2001"
+entry = "Grinder, J., & Bostic St. Clair, C. (2001). *Whispering in the Wind*. Scotts Valley: J & C Enterprises."
+
+[james-woodsmall-1988]
+group = "primary"
+cite = "James a Woodsmall 1988"
+entry = "James, T., & Woodsmall, W. (1988). *Time Line Therapy and the Basis of Personality*. Cupertino: Meta Publications."
+
+[charvet-1997]
+group = "primary"
+cite = "Charvet 1997"
+entry = "Charvet, S. R. (1997). *Words That Change Minds: Mastering the Language of Influence* (2. vyd.). Dubuque: Kendall/Hunt."
+
+[hall-bodenhamer-1997]
+group = "primary"
+cite = "Hall a Bodenhamer 1997"
+entry = "Hall, L. M., & Bodenhamer, B. G. (1997). *Figuring Out People: Design Engineering with Meta-Programs*. Carmarthen: Crown House Publishing."
+
+[lankton-1980]
+group = "primary"
+cite = "Lankton 1980"
+entry = "Lankton, S. (1980). *Practical Magic: A Translation of Basic Neuro-Linguistic Programming into Clinical Psychotherapy*. Cupertino: Meta Publications."
+
+[gordon-1978]
+group = "primary"
+cite = "Gordon 1978"
+entry = "Gordon, D. (1978). *Therapeutic Metaphors: Helping Others through the Looking Glass*. Cupertino: Meta Publications."
+
+[oconnor-seymour-1990]
+group = "primary"
+cite = "O'Connor a Seymour 1990"
+entry = "O'Connor, J., & Seymour, J. (1990). *Introducing Neuro-Linguistic Programming: Psychological Skills for Understanding and Influencing People*. London: Thorsons."
+
+[vaknin-2008]
+group = "primary"
+cite = "Vaknin 2008"
+entry = "Vaknin, S. (2008). *The Big Book of NLP Techniques: 200+ Patterns, Methods & Strategies of Neuro Linguistic Programming*. North Charleston: BookSurge Publishing."
+
+# --- Kořeny, z nichž NLP čerpá --------------------------------------------------------------
+
+[erickson-rossi-rossi-1976]
+group = "roots"
+cite = "Erickson, Rossi a Rossi 1976"
+entry = "Erickson, M. H., Rossi, E. L., & Rossi, S. I. (1976). *Hypnotic Realities: The Induction of Clinical Hypnosis and Forms of Indirect Suggestion*. New York: Irvington."
+
+[erickson-rossi-1979]
+group = "roots"
+cite = "Erickson a Rossi 1979"
+entry = "Erickson, M. H., & Rossi, E. L. (1979). *Hypnotherapy: An Exploratory Casebook*. New York: Irvington."
+
+[haley-1973]
+group = "roots"
+cite = "Haley 1973"
+entry = "Haley, J. (1973). *Uncommon Therapy: The Psychiatric Techniques of Milton H. Erickson, M.D.* New York: W. W. Norton."
+
+[rosen-1982]
+group = "roots"
+cite = "Rosen 1982"
+entry = "Rosen, S. (Ed.) (1982). *My Voice Will Go with You: The Teaching Tales of Milton H. Erickson*. New York: W. W. Norton."
+
+[bateson-1972]
+group = "roots"
+cite = "Bateson 1972"
+entry = "Bateson, G. (1972). *Steps to an Ecology of Mind*. San Francisco: Chandler."
+
+[bateson-1956]
+group = "roots"
+cite = "Bateson a kol. 1956"
+entry = "Bateson, G., Jackson, D. D., Haley, J., & Weakland, J. (1956). Toward a theory of schizophrenia. *Behavioral Science*, 1(4), 251–264."
+
+[watzlawick-1967]
+group = "roots"
+cite = "Watzlawick, Beavin a Jackson 1967"
+entry = "Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. New York: W. W. Norton."
+
+[watzlawick-1974]
+group = "roots"
+cite = "Watzlawick, Weakland a Fisch 1974"
+entry = "Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). *Change: Principles of Problem Formation and Problem Resolution*. New York: W. W. Norton."
+
+[satir-1972]
+group = "roots"
+cite = "Satir 1972"
+entry = "Satir, V. (1972). *Peoplemaking*. Palo Alto: Science and Behavior Books."
+
+[korzybski-1933]
+group = "roots"
+cite = "Korzybski 1933"
+entry = "Korzybski, A. (1933). *Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics*. Lancaster: International Non-Aristotelian Library."
+
+[miller-galanter-pribram-1960]
+group = "roots"
+cite = "Miller, Galanter a Pribram 1960"
+entry = "Miller, G. A., Galanter, E., & Pribram, K. H. (1960). *Plans and the Structure of Behavior*. New York: Holt, Rinehart and Winston."
+
+[miller-1956]
+group = "roots"
+cite = "Miller 1956"
+entry = "Miller, G. A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. *Psychological Review*, 63(2), 81–97."
+
+[chomsky-1965]
+group = "roots"
+cite = "Chomsky 1965"
+entry = "Chomsky, N. (1965). *Aspects of the Theory of Syntax*. Cambridge, MA: MIT Press."
+
+[pavlov-1927]
+group = "roots"
+cite = "Pavlov 1927"
+entry = "Pavlov, I. P. (1927). *Conditioned Reflexes: An Investigation of the Physiological Activity of the Cerebral Cortex*. London: Oxford University Press."
+
+[perls-1969]
+group = "roots"
+cite = "Perls 1969"
+entry = "Perls, F. S. (1969). *Gestalt Therapy Verbatim*. Lafayette: Real People Press."
+
+[grice-1975]
+group = "roots"
+cite = "Grice 1975"
+entry = "Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (pp. 41–58). New York: Academic Press."
+
+[levinson-1983]
+group = "roots"
+cite = "Levinson 1983"
+entry = "Levinson, S. C. (1983). *Pragmatics*. Cambridge: Cambridge University Press."
+
+# --- Kritický výzkum a hodnocení NLP --------------------------------------------------------
+
+[sharpley-1984]
+group = "critical"
+cite = "Sharpley 1984"
+entry = "Sharpley, C. F. (1984). Predicate matching in NLP: A review of research on the preferred representational system. *Journal of Counseling Psychology*, 31(2), 238–248."
+
+[sharpley-1987]
+group = "critical"
+cite = "Sharpley 1987"
+entry = "Sharpley, C. F. (1987). Research findings on neurolinguistic programming: Nonsupportive data or an untestable theory? *Journal of Counseling Psychology*, 34(1), 103–107."
+
+[heap-1988]
+group = "critical"
+cite = "Heap 1988"
+entry = "Heap, M. (1988). Neurolinguistic programming: An interim verdict. In M. Heap (Ed.), *Hypnosis: Current Clinical, Experimental and Forensic Practices* (pp. 268–280). London: Croom Helm."
+
+[druckman-swets-1988]
+group = "critical"
+cite = "Druckman a Swets 1988"
+entry = "Druckman, D., & Swets, J. A. (Eds.) (1988). *Enhancing Human Performance: Issues, Theories, and Techniques*. Washington, DC: National Academy Press."
+
+[witkowski-2010]
+group = "critical"
+cite = "Witkowski 2010"
+entry = "Witkowski, T. (2010). Thirty-five years of research on neuro-linguistic programming. NLP research data base. State of the art or pseudoscientific decoration? *Polish Psychological Bulletin*, 41(2), 58–66."
+
+[sturt-2012]
+group = "critical"
+cite = "Sturt a kol. 2012"
+entry = "Sturt, J., Ali, S., Robertson, W., Metcalfe, D., Grove, A., Bourne, C., & Bridle, C. (2012). Neurolinguistic programming: A systematic review of the effects on health outcomes. *British Journal of General Practice*, 62(604), e757–e764."
+
+[passmore-rowson-2019]
+group = "critical"
+cite = "Passmore a Rowson 2019"
+entry = "Passmore, J., & Rowson, T. S. (2019). Neuro-linguistic programming: A critical review of NLP research and the application of NLP in coaching. *International Coaching Psychology Review*, 14(1), 57–69."
+
+[wiseman-2012]
+group = "critical"
+cite = "Wiseman a kol. 2012"
+entry = "Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., & Rankin, C. (2012). The eyes don't have it: Lie detection and neuro-linguistic programming. *PLoS ONE*, 7(7), e40259."
+
+[roderique-davies-2009]
+group = "critical"
+cite = "Roderique-Davies 2009"
+entry = "Roderique-Davies, G. (2009). Neuro-linguistic programming: Cargo cult psychology? *Journal of Applied Research in Higher Education*, 1(2), 58–63."
+
+[norcross-2006]
+group = "critical"
+cite = "Norcross, Koocher a Garofalo 2006"
+entry = "Norcross, J. C., Koocher, G. P., & Garofalo, A. (2006). Discredited psychological treatments and tests: A Delphi poll. *Professional Psychology: Research and Practice*, 37(5), 515–522."
+
+[tosey-mathison-2009]
+group = "critical"
+cite = "Tosey a Mathison 2009"
+entry = "Tosey, P., & Mathison, J. (2009). *Neuro-Linguistic Programming: A Critical Appreciation for Managers and Developers*. Basingstoke: Palgrave Macmillan."
+
+[lilienfeld-2015]
+group = "critical"
+cite = "Lilienfeld, Lynn a Lohr 2015"
+entry = "Lilienfeld, S. O., Lynn, S. J., & Lohr, J. M. (Eds.) (2015). *Science and Pseudoscience in Clinical Psychology* (2. vyd.). New York: Guilford Press."
+
+[kirsch-lynn-1995]
+group = "critical"
+cite = "Kirsch a Lynn 1995"
+entry = "Kirsch, I., & Lynn, S. J. (1995). The altered state of hypnosis: Changes in the theoretical landscape. *American Psychologist*, 50(10), 846–858."
+
+[chartrand-bargh-1999]
+group = "critical"
+cite = "Chartrand a Bargh 1999"
+entry = "Chartrand, T. L., & Bargh, J. A. (1999). The chameleon effect: The perception–behavior link and social interaction. *Journal of Personality and Social Psychology*, 76(6), 893–910."
+
+[loftus-palmer-1974]
+group = "critical"
+cite = "Loftus a Palmer 1974"
+entry = "Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. *Journal of Verbal Learning and Verbal Behavior*, 13(5), 585–589."
+
+[langer-1978]
+group = "critical"
+cite = "Langer, Blank a Chanowitz 1978"
+entry = "Langer, E. J., Blank, A., & Chanowitz, B. (1978). The mindlessness of ostensibly thoughtful action: The role of \"placebic\" information in interpersonal interaction. *Journal of Personality and Social Psychology*, 36(6), 635–642."
+
+[tversky-kahneman-1974]
+group = "critical"
+cite = "Tversky a Kahneman 1974"
+entry = "Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131."
+
+[tversky-kahneman-1981]
+group = "critical"
+cite = "Tversky a Kahneman 1981"
+entry = "Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481), 453–458."
+
+[cialdini-2009]
+group = "critical"
+cite = "Cialdini 2009"
+entry = "Cialdini, R. B. (2009). *Influence: Science and Practice* (5. vyd.). Boston: Pearson."
+
+[festinger-1957]
+group = "critical"
+cite = "Festinger 1957"
+entry = "Festinger, L. (1957). *A Theory of Cognitive Dissonance*. Stanford: Stanford University Press."
+
+[petty-cacioppo-1986]
+group = "critical"
+cite = "Petty a Cacioppo 1986"
+entry = "Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer."
+
+[mcguire-1964]
+group = "critical"
+cite = "McGuire 1964"
+entry = "McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology* (Vol. 1, pp. 191–229). New York: Academic Press."
+
+[freedman-fraser-1966]
+group = "critical"
+cite = "Freedman a Fraser 1966"
+entry = "Freedman, J. L., & Fraser, S. C. (1966). Compliance without pressure: The foot-in-the-door technique. *Journal of Personality and Social Psychology*, 4(2), 195–202."
+
+[lifton-1961]
+group = "critical"
+cite = "Lifton 1961"
+entry = "Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of \"Brainwashing\" in China*. New York: W. W. Norton."
+
+[singer-lalich-1995]
+group = "critical"
+cite = "Singer a Lalich 1995"
+entry = "Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass."
+
+[hassan-1988]
+group = "critical"
+cite = "Hassan 1988"
+entry = "Hassan, S. (1988). *Combatting Cult Mind Control*. Rochester: Park Street Press."
+
+[herman-1992]
+group = "critical"
+cite = "Herman 1992"
+entry = "Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books."
+
+[stark-2007]
+group = "critical"
+cite = "Stark 2007"
+entry = "Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press."
+
+[shapiro-1989]
+group = "critical"
+cite = "Shapiro 1989"
+entry = "Shapiro, F. (1989). Efficacy of the eye movement desensitization procedure in the treatment of traumatic memories. *Journal of Traumatic Stress*, 2(2), 199–223."
+
+[wolpe-1958]
+group = "critical"
+cite = "Wolpe 1958"
+entry = "Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press."
+
+[beck-1976]
+group = "critical"
+cite = "Beck 1976"
+entry = "Beck, A. T. (1976). *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press."
+
+[ellis-1962]
+group = "critical"
+cite = "Ellis 1962"
+entry = "Ellis, A. (1962). *Reason and Emotion in Psychotherapy*. New York: Lyle Stuart."
+
+[rogers-1951]
+group = "critical"
+cite = "Rogers 1951"
+entry = "Rogers, C. R. (1951). *Client-Centered Therapy*. Boston: Houghton Mifflin."
+
+[miller-rollnick-2013]
+group = "critical"
+cite = "Miller a Rollnick 2013"
+entry = "Miller, W. R., & Rollnick, S. (2013). *Motivational Interviewing: Helping People Change* (3. vyd.). New York: Guilford Press."
+
+[lakoff-johnson-1980]
+group = "critical"
+cite = "Lakoff a Johnson 1980"
+entry = "Lakoff, G., & Johnson, M. (1980). *Metaphors We Live By*. Chicago: University of Chicago Press."
+
+[kahneman-2011]
+group = "critical"
+cite = "Kahneman 2011"
+entry = "Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux."
+
+[ekman-2003]
+group = "critical"
+cite = "Ekman 2003"
+entry = "Ekman, P. (2003). *Emotions Revealed: Recognizing Faces and Feelings to Improve Communication and Emotional Life*. New York: Times Books."
+
+[vrij-2008]
+group = "critical"
+cite = "Vrij 2008"
+entry = "Vrij, A. (2008). *Detecting Lies and Deceit: Pitfalls and Opportunities* (2. vyd.). Chichester: Wiley."
+
+[gilovich-1991]
+group = "critical"
+cite = "Gilovich 1991"
+entry = "Gilovich, T. (1991). *How We Know What Isn't So: The Fallibility of Human Reason in Everyday Life*. New York: Free Press."
+
+[van-der-linden-2023]
+group = "critical"
+cite = "van der Linden 2023"
+entry = "van der Linden, S. (2023). *Foolproof: Why Misinformation Infects Our Minds and How to Build Immunity*. London: 4th Estate."
+
+# --- Teorie argumentace a klamů -------------------------------------------------------------
+
+[hamblin-1970]
+group = "primary"
+cite = "Hamblin 1970"
+entry = "Hamblin, C. L. (1970). *Fallacies*. London: Methuen."
+
+[walton-1995]
+group = "primary"
+cite = "Walton 1995"
+entry = "Walton, D. N. (1995). *A Pragmatic Theory of Fallacy*. Tuscaloosa: University of Alabama Press."
+
+[walton-2008]
+group = "primary"
+cite = "Walton 2008"
+entry = "Walton, D. N. (2008). *Informal Logic: A Pragmatic Approach* (2. vyd.). Cambridge: Cambridge University Press."
+
+[walton-reed-macagno-2008]
+group = "primary"
+cite = "Walton, Reed a Macagno 2008"
+entry = "Walton, D., Reed, C., & Macagno, F. (2008). *Argumentation Schemes*. Cambridge: Cambridge University Press."
+
+[eemeren-grootendorst-1992]
+group = "primary"
+cite = "van Eemeren a Grootendorst 1992"
+entry = "van Eemeren, F. H., & Grootendorst, R. (1992). *Argumentation, Communication, and Fallacies: A Pragma-Dialectical Perspective*. Hillsdale: Lawrence Erlbaum."
+
+[eemeren-grootendorst-2004]
+group = "primary"
+cite = "van Eemeren a Grootendorst 2004"
+entry = "van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge: Cambridge University Press."
+
+[toulmin-1958]
+group = "primary"
+cite = "Toulmin 1958"
+entry = "Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press."
+
+[copi-cohen-mcmahon-2014]
+group = "primary"
+cite = "Copi, Cohen a McMahon 2014"
+entry = "Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson."
+
+[damer-2009]
+group = "primary"
+cite = "Damer 2009"
+entry = "Damer, T. E. (2009). *Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments* (6. vyd.). Belmont: Wadsworth."
+
+[tindale-2007]
+group = "primary"
+cite = "Tindale 2007"
+entry = "Tindale, C. W. (2007). *Fallacies and Argument Appraisal*. Cambridge: Cambridge University Press."
+
+[govier-2010]
+group = "primary"
+cite = "Govier 2010"
+entry = "Govier, T. (2010). *A Practical Study of Argument* (7. vyd.). Belmont: Wadsworth."
+
+[johnson-blair-1977]
+group = "primary"
+cite = "Johnson a Blair 1977"
+entry = "Johnson, R. H., & Blair, J. A. (1977). *Logical Self-Defense*. Toronto: McGraw-Hill Ryerson."
+
+[woods-walton-1989]
+group = "primary"
+cite = "Woods a Walton 1989"
+entry = "Woods, J., & Walton, D. (1989). *Fallacies: Selected Papers 1972–1982*. Dordrecht: Foris."
+
+[bentham-1824]
+group = "roots"
+cite = "Bentham 1824"
+entry = "Bentham, J. (1824). *The Book of Fallacies*. London: John and H. L. Hunt."
+
+[whately-1826]
+group = "roots"
+cite = "Whately 1826"
+entry = "Whately, R. (1826). *Elements of Logic*. London: J. Mawman."
+
+[mill-1843]
+group = "roots"
+cite = "Mill 1843"
+entry = "Mill, J. S. (1843). *A System of Logic, Ratiocinative and Inductive*. London: John W. Parker."
+
+[moore-1903]
+group = "roots"
+cite = "Moore 1903"
+entry = "Moore, G. E. (1903). *Principia Ethica*. Cambridge: Cambridge University Press."
+
+[popper-1959]
+group = "roots"
+cite = "Popper 1959"
+entry = "Popper, K. R. (1959). *The Logic of Scientific Discovery*. London: Hutchinson."
+
+# --- Empirický výzkum uvažování a obrany ----------------------------------------------------
+
+[hahn-oaksford-2007]
+group = "critical"
+cite = "Hahn a Oaksford 2007"
+entry = "Hahn, U., & Oaksford, M. (2007). The rationality of informal argumentation: A Bayesian approach to reasoning fallacies. *Psychological Review*, 114(3), 704–732."
+
+[tversky-kahneman-1983]
+group = "critical"
+cite = "Tversky a Kahneman 1983"
+entry = "Tversky, A., & Kahneman, D. (1983). Extensional versus intuitive reasoning: The conjunction fallacy in probability judgment. *Psychological Review*, 90(4), 293–315."
+
+[tversky-kahneman-1971]
+group = "critical"
+cite = "Tversky a Kahneman 1971"
+entry = "Tversky, A., & Kahneman, D. (1971). Belief in the law of small numbers. *Psychological Bulletin*, 76(2), 105–110."
+
+[gilovich-vallone-tversky-1985]
+group = "critical"
+cite = "Gilovich, Vallone a Tversky 1985"
+entry = "Gilovich, T., Vallone, R., & Tversky, A. (1985). The hot hand in basketball: On the misperception of random sequences. *Cognitive Psychology*, 17(3), 295–314."
+
+[arkes-blumer-1985]
+group = "critical"
+cite = "Arkes a Blumer 1985"
+entry = "Arkes, H. R., & Blumer, C. (1985). The psychology of sunk cost. *Organizational Behavior and Human Decision Processes*, 35(1), 124–140."
+
+[kunda-1990]
+group = "critical"
+cite = "Kunda 1990"
+entry = "Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin*, 108(3), 480–498."
+
+[nickerson-1998]
+group = "critical"
+cite = "Nickerson 1998"
+entry = "Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220."
+
+[mercier-sperber-2011]
+group = "critical"
+cite = "Mercier a Sperber 2011"
+entry = "Mercier, H., & Sperber, D. (2011). Why do humans reason? Arguments for an argumentative theory. *Behavioral and Brain Sciences*, 34(2), 57–74."
+
+[cook-lewandowsky-ecker-2017]
+group = "critical"
+cite = "Cook, Lewandowsky a Ecker 2017"
+entry = "Cook, J., Lewandowsky, S., & Ecker, U. K. H. (2017). Neutralizing misinformation through inoculation: Exposing misleading argumentation techniques reduces their influence. *PLoS ONE*, 12(5), e0175799."
+
+[roozenbeek-2022]
+group = "critical"
+cite = "Roozenbeek a kol. 2022"
+entry = "Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. *Science Advances*, 8(34), eabo6254."
+
+[thompson-schumann-1987]
+group = "critical"
+cite = "Thompson a Schumann 1987"
+entry = "Thompson, W. C., & Schumann, E. L. (1987). Interpretation of statistical evidence in criminal trials: The prosecutor's fallacy and the defense attorney's fallacy. *Law and Human Behavior*, 11(3), 167–187."
+
+[robinson-1950]
+group = "critical"
+cite = "Robinson 1950"
+entry = "Robinson, W. S. (1950). Ecological correlations and the behavior of individuals. *American Sociological Review*, 15(3), 351–357."
+
+[simpson-1951]
+group = "critical"
+cite = "Simpson 1951"
+entry = "Simpson, E. H. (1951). The interpretation of interaction in contingency tables. *Journal of the Royal Statistical Society, Series B*, 13(2), 238–241."
+
+[huff-1954]
+group = "critical"
+cite = "Huff 1954"
+entry = "Huff, D. (1954). *How to Lie with Statistics*. New York: W. W. Norton."
+
+[gigerenzer-2002]
+group = "critical"
+cite = "Gigerenzer 2002"
+entry = "Gigerenzer, G. (2002). *Calculated Risks: How to Know When Numbers Deceive You*. New York: Simon & Schuster."
+
+[paul-matthews-2016]
+group = "critical"
+cite = "Paul a Matthews 2016"
+entry = "Paul, C., & Matthews, M. (2016). *The Russian \"Firehose of Falsehood\" Propaganda Model*. Santa Monica: RAND Corporation."
+
+[hasher-1977]
+group = "critical"
+cite = "Hasher, Goldstein a Toppino 1977"
+entry = "Hasher, L., Goldstein, D., & Toppino, T. (1977). Frequency and the conference of referential validity. *Journal of Verbal Learning and Verbal Behavior*, 16(1), 107–112."
+
+[boykoff-boykoff-2004]
+group = "critical"
+cite = "Boykoff a Boykoff 2004"
+entry = "Boykoff, M. T., & Boykoff, J. M. (2004). Balance as bias: Global warming and the US prestige press. *Global Environmental Change*, 14(2), 125–136."
+
+[stanovich-west-2000]
+group = "critical"
+cite = "Stanovich a West 2000"
+entry = "Stanovich, K. E., & West, R. F. (2000). Individual differences in reasoning: Implications for the rationality debate? *Behavioral and Brain Sciences*, 23(5), 645–665."

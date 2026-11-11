@@ -1,0 +1,327 @@
+# Rodina NLP-05: Ericksonovská hypnóza, část A (NLP-05.01 až NLP-05.10).
+# Schéma a pravidla: scripts/catalogs.py (pravidlo project.content-catalogs).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-05.01"
+slug = "ericksonovska-hypnoza"
+type = "pattern"
+cs = "Ericksonovská hypnóza"
+en = "Ericksonian hypnosis"
+aliases = ["nepřímá hypnóza", "permisivní hypnóza"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["milton-model", "utilizace", "trans-pojem", "konverzacni-hypnoza", "koreny-nlp", "stav-dukazu-nlp"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/01-predmluva/eticke-aspekty.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tohle není obyčejná přednáška. Vaše nevědomí si odsud vezme přesně to, co potřebuje, i když vědomě nebudete vědět co, a proto o tom potom nemusíte s nikým mluvit."
+context = "Lektor víkendového semináře osobního rozvoje oslovuje publikum."
+benign = false
+marker = "Odvolání na „nevědomí“, které jedná mimo vědomou kontrolu, spojené s odrazováním od pozdějšího probírání zážitku s jinými lidmi."
+response = "Trvat na tom, že zážitek je možné a vhodné reflektovat s kýmkoli, a požadovat od lektora jasný popis toho, co se na semináři děje a proč."
+
+[[pattern.trainer]]
+utterance = "Než začneme, vysvětlím vám, co hypnóza je a co není. Budete po celou dobu při vědomí a kdykoli můžete říct, že chcete přestat."
+context = "Klinický psycholog před sezením hypnoterapie u pacienta s chronickou bolestí."
+benign = true
+marker = "Předem vysvětlený postup, výslovně zachovaná možnost kdykoli přestat a hypnóza zasazená do léčebného plánu se souhlasem pacienta."
+response = "Jde o legitimní klinické užití: informovaný souhlas, transparentnost a zachovaná kontrola pacienta nad průběhem."
+
+[[pattern]]
+id = "NLP-05.02"
+slug = "utilizace"
+type = "pattern"
+cs = "Utilizace"
+en = "Utilisation"
+aliases = ["utilizační přístup", "využití toho, co klient přináší"]
+use = "dvoji"
+risk = "stredni"
+broader = "ericksonovska-hypnoza"
+related = ["pacing-a-leading", "odpor-jako-nedostatek-raportu", "predepsani-symptomu", "raport-jako-nastroj-vlivu"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "To, že o mně pochybuješ, je přesně ono. Tvoje pochybnosti jsou znamení, že se v tobě už něco mění, takže čím víc pochybuješ, tím líp to funguje."
+context = "Vedoucí uzavřené skupiny odpovídá členovi, který zpochybňuje její praktiky."
+benign = false
+marker = "Každá reakce druhého, včetně nesouhlasu, se okamžitě přeznačí na doklad účinku, takže námitka nemá kudy projít."
+response = "Pojmenovat, že tvrzení nejde vyvrátit žádnou možnou reakcí, a vrátit se k samotnému obsahu pochybnosti a k ověřitelným faktům."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že se vám při relaxaci honí hlavou myšlenky. To je v pořádku, nemusíme je zahánět; můžeme si všímat, o čem jsou."
+context = "Terapeutka v úvodu nácviku relaxace s úzkostnou klientkou."
+benign = true
+marker = "Terapeutka přijímá zkušenost klientky místo boje s ní, ale nepřeznačuje ji na důkaz své autority a nechává klientce kontrolu."
+response = "Benigní užití: přijetí zkušenosti snižuje tlak na výkon a klientka zůstává rovnocenným partnerem rozhovoru."
+
+[[pattern]]
+id = "NLP-05.03"
+slug = "konfuzni-technika"
+type = "pattern"
+cs = "Konfuzní technika"
+en = "Confusion technique"
+aliases = ["technika zmatení", "konfuze"]
+use = "dvoji"
+risk = "vysoke"
+broader = "ericksonovska-hypnoza"
+related = ["preruseni-vzorce", "indukce-pretizenim", "umyslna-vagnost", "indukce-podanim-ruky", "technika-prolozeni"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md",
+  "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ta smlouva platí od zítřka, který je vlastně dneškem příštího týdne, a protože včera bylo po termínu, který ještě nenastal, nejjednodušší je to prostě podepsat hned teď."
+context = "Podomní prodejce energií u dveří staršího člověka."
+benign = false
+marker = "Záměrně nesrozumitelná, časově zamotaná věta, po které hned následuje jednoduchý a jasný pokyn k rozhodnutí."
+response = "Zmatek brát jako signál k zastavení: nic nepodepisovat, požádat o písemné podklady a rozhodnout se později s někým důvěryhodným."
+
+[[pattern.trainer]]
+utterance = "Omlouvám se, to jsem řekl zbytečně složitě. Zkusím to znovu a jednodušeji: smlouva začíná platit prvního příštího měsíce."
+context = "Úředník při vysvětlování smlouvy klientovi."
+benign = true
+marker = "Mluvčí si všimne zmatku a sám ho odstraní, místo aby ho využil k urychlení rozhodnutí."
+response = "Benigní: zmatek je chyba komunikace, kterou mluvčí opravuje, a prostor pro otázky a rozmyšlenou zůstává."
+
+[[pattern]]
+id = "NLP-05.04"
+slug = "preruseni-vzorce"
+type = "pattern"
+cs = "Přerušení vzorce"
+en = "Pattern interrupt"
+aliases = ["pattern interrupt", "přerušení stavu"]
+use = "dvoji"
+risk = "stredni"
+broader = "ericksonovska-hypnoza"
+related = ["indukce-podanim-ruky", "konfuzni-technika", "stav", "kdyz-to-nefunguje-udelej-neco-jineho"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+  "kompendium/techniques/ea-1-5-1-strategicka-proxemika.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Počkej, stop, podívej se na mě. Přesně tenhle tvůj tón je ten problém, a dokud ho nezměníš, o tom, co jsem udělal, mluvit nebudeme."
+context = "Partner náhle přeruší druhého, který mu vyčítá konkrétní čin."
+benign = false
+marker = "Náhlé přerušení vede k přesunu pozornosti z obsahu výtky na formu projevu a téma, které bylo pro mluvčího nepříjemné, zmizí."
+response = "Nechat přerušení doznít a klidně se vrátit k původnímu tématu: o tónu je možné mluvit potom, ale nejprve o tom, co se stalo."
+
+[[pattern.trainer]]
+utterance = "Všímám si, že se točíme v kruhu a oba jsme čím dál víc rozčilení. Dáme si deset minut pauzu a pak se k tomu vrátíme."
+context = "Kolega v napjaté pracovní poradě."
+benign = true
+marker = "Přerušení je ohlášené, zdůvodněné a vede k návratu k tématu, ne k jeho odklonu."
+response = "Benigní: jde o deeskalaci, kterou obě strany vidí a mohou odmítnout, a obsah sporu zůstává na stole."
+
+[[pattern]]
+id = "NLP-05.05"
+slug = "indukce-podanim-ruky"
+type = "pattern"
+cs = "Indukce podáním ruky"
+en = "Handshake induction"
+aliases = ["přerušené podání ruky", "handshake interrupt"]
+use = "dvoji"
+risk = "vysoke"
+broader = "preruseni-vzorce"
+related = ["konfuzni-technika", "levitace-ruky", "ideomotoricka-signalizace", "konverzacni-hypnoza"]
+kompendium = [
+  "kompendium/techniques/ea-1-5-1-strategicka-proxemika.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Viděli jste, jak rychle šla do transu, sotva jsem jí podal ruku? Přesně tohle se naučíte i vy a nikdo si toho ani nevšimne."
+context = "Lektor placeného kurzu „skryté hypnózy“ po předvedení na pódiu."
+benign = false
+marker = "Pódiové předvedení se vydává za důkaz moci nad člověkem a prodává se jako dovednost použitelná bez vědomí druhého."
+response = "Vidět v tom jevištní demonstraci s vybraným a ochotným dobrovolníkem, ne doklad účinku, a odmítnout jakoukoli praxi, která má fungovat bez souhlasu."
+
+[[pattern.trainer]]
+utterance = "Než si podáme ruce, upozorním vás, že na workshopu uvidíte ukázku pódiové hypnózy. Dobrovolníci se hlásí sami a kdykoli mohou odejít."
+context = "Organizátor odborného semináře o historii hypnózy."
+benign = true
+marker = "Demonstrace je předem ohlášená, účast dobrovolná a kontext je výukový, ne skrytý."
+response = "Benigní: transparentní ukázka s dobrovolníky, u níž mohou přítomní posoudit, co vidí, a kdykoli se odmítnout účastnit."
+
+[[pattern]]
+id = "NLP-05.06"
+slug = "levitace-ruky"
+type = "pattern"
+cs = "Levitace ruky"
+en = "Hand levitation"
+aliases = ["levitace paže", "ideomotorická levitace"]
+use = "terapie"
+risk = "nizke"
+broader = "ericksonovska-hypnoza"
+related = ["ideomotoricka-signalizace", "indukce-podanim-ruky", "trans-pojem", "terapeuticka-dvojna-vazba"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vidíte, ruka se vám zvedla sama. To je důkaz, že vaše nevědomí už se mnou souhlasí, takže teď už nemusíte nic zvažovat."
+context = "Vedoucí semináře „hlubinné proměny“ k účastníkovi před skupinou."
+benign = false
+marker = "Ideomotorický pohyb se vykládá jako souhlas „nevědomí“ s mluvčím a používá se k ukončení vlastního uvažování účastníka."
+response = "Vědět, že mimovolní pohyb vzniká z očekávání a soustředění a nic nevypovídá o souhlasu; o tom, s čím souhlasím, rozhoduji vědomě."
+
+[[pattern.trainer]]
+utterance = "Někdy se při uvolnění stane, že se ruka sama trochu pohne. Je to běžné, nic to neznamená a kdykoli ji můžete položit zpátky."
+context = "Hypnoterapeut v nemocnici vysvětluje pacientovi, co může při sezení zažít."
+benign = true
+marker = "Jev je vysvětlen předem, zbaven tajemnosti a výslovně se nespojuje s žádným souhlasem ani rozhodnutím."
+response = "Benigní: informace snižuje úzkost z neznámého a pacient si uchovává kontrolu nad svým tělem i výkladem zážitku."
+
+[[pattern]]
+id = "NLP-05.07"
+slug = "vnorene-smycky"
+type = "pattern"
+cs = "Vnořené smyčky"
+en = "Nested loops"
+aliases = ["vícenásobně vnořená metafora", "otevřené smyčky"]
+use = "dvoji"
+risk = "stredni"
+broader = "ericksonovska-hypnoza"
+related = ["terapeuticka-metafora", "muj-pritel-john", "vlozene-prikazy", "amnezie-sugesci", "seeding"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md",
+  "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Než vám povím, jak to s tou firmou dopadlo, musím odbočit k jednomu klientovi, který také váhal, a ten mi připomněl příběh, který mi kdysi vyprávěl můj učitel."
+context = "Prodejce investičního produktu na prezentaci pro drobné investory."
+benign = false
+marker = "Příběhy se otevírají jeden v druhém a žádný se neuzavírá; pozornost visí na nedokončených liniích, zatímco se mezi ně vkládá prodejní sdělení."
+response = "Požádat o dokončení původní linie a o fakta o produktu odděleně od příběhů; rozhodovat jen podle písemných a ověřitelných údajů."
+
+[[pattern.trainer]]
+utterance = "Tohle je odbočka, vrátím se k ní za chvíli. Nejdřív dokončím, co jsem začal: výsledky studie byly smíšené."
+context = "Přednášející na univerzitním semináři."
+benign = true
+marker = "Odbočka je výslovně ohlášená, mluvčí ji drží pod kontrolou a uzavírá linie, místo aby je nechával otevřené."
+response = "Benigní: struktura výkladu je posluchačům viditelná a pozornost se nevyužívá k vložení skrytého sdělení."
+
+[[pattern]]
+id = "NLP-05.08"
+slug = "seeding"
+type = "pattern"
+cs = "Zasévání myšlenky"
+en = "Seeding"
+aliases = ["seeding", "předznamenání", "zasévání"]
+use = "dvoji"
+risk = "stredni"
+broader = "ericksonovska-hypnoza"
+related = ["vnorene-smycky", "predramcovani", "terapeuticka-metafora", "presupozice-milton", "technika-prolozeni"]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/techniques/ea-1-1-1-selektivni-expozice.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Spousta lidí si na podobné věci z dětství vzpomene až po několika sezeních, většinou nejdřív ve snech, takže si všímejte, co se vám bude zdát."
+context = "Neodborný „terapeut“ v prvním rozhovoru s klientkou, která přišla kvůli únavě."
+benign = false
+marker = "Předem vložené očekávání určitého druhu „vzpomínky“ a cesty, kterou se má vynořit, dřív než klientka sama cokoli takového uvedla."
+response = "Odmítnout předem nabídnutý výklad, chtít od odborníka vysvětlení, z čeho vychází, a vyhledat klinika, který pracuje bez sugestivních očekávání."
+
+[[pattern.trainer]]
+utterance = "Na konci kurzu budeme probírat i rozpočty. Teď o nich mluvit nebudeme, ale je dobré vědět, že tohle téma přijde."
+context = "Lektor v úvodu kurzu projektového řízení."
+benign = true
+marker = "Budoucí téma je ohlášeno otevřeně jako součást programu, bez skrytého směřování k určitému závěru."
+response = "Benigní: posluchači vědí, co a proč přijde, a mohou se na to připravit nebo to zpochybnit."
+
+[[pattern]]
+id = "NLP-05.09"
+slug = "predepsani-symptomu"
+type = "pattern"
+cs = "Předepsání symptomu"
+en = "Symptom prescription"
+aliases = ["preskripce symptomu", "paradoxní předpis"]
+use = "terapie"
+risk = "stredni"
+broader = "paradoxni-intervence"
+related = ["utilizace", "terapeuticka-dvojna-vazba", "pozitivni-zamer-chovani"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když tě to tak trápí, tak se trap pořádně. Klidně celý večer, ať vidíš, kam tě to dovede, a pak mi přijď poděkovat."
+context = "Nadřízený k zaměstnanci, který si stěžuje na nepřiměřené nároky."
+benign = false
+marker = "Paradoxní „předpis“ bez léčebného rámce a bez souhlasu, který zesměšňuje stížnost a přesouvá odpovědnost za problém na druhého."
+response = "Nepřijmout výsměch jako odpověď a vrátit rozhovor ke konkrétním nárokům a možnostem jejich úpravy, případně za účasti třetí strany."
+
+[[pattern.trainer]]
+utterance = "Navrhuji, abychom tento týden zkusili něco neobvyklého, a vysvětlím vám proč. Pokud vám to nebude dávat smysl, uděláme to jinak."
+context = "Psychoterapeut v pokročilé fázi terapie nespavosti, po dohodě s klientem."
+benign = true
+marker = "Paradoxní prvek je zasazený do dohodnutého léčebného plánu, vysvětlený a klient má možnost ho odmítnout."
+response = "Benigní: intervence je transparentní, odůvodněná a klient o ní spolurozhoduje."
+
+[[pattern]]
+id = "NLP-05.10"
+slug = "paradoxni-intervence"
+type = "pattern"
+cs = "Paradoxní intervence"
+en = "Paradoxical intervention"
+aliases = ["paradoxní direktiva", "terapeutický paradox"]
+use = "terapie"
+risk = "stredni"
+broader = ""
+related = ["terapeuticka-dvojna-vazba", "reframing", "kdyz-to-nefunguje-udelej-neco-jineho", "utilizace"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Klidně odejdi, nikdo tě tu nedrží. Ale oba víme, že se vrátíš, protože beze mě to nezvládneš, a to, že teď odcházíš, to jen dokazuje."
+context = "Partner v kontrolujícím vztahu reaguje na oznámení o rozchodu."
+benign = false
+marker = "Zdánlivé svolení k odchodu je zabalené tak, že odchod i setrvání potvrzují výklad mluvčího; paradox slouží k udržení kontroly."
+response = "Rozpoznat, že žádná volba nemá v tomto rámci šanci vyznít jako svobodná, a opřít rozhodnutí o vnější podporu, ne o výklad druhé strany."
+
+[[pattern.trainer]]
+utterance = "Možná by stálo za to přestat se tolik snažit usnout. Vím, že to zní zvláštně, proto vám nejdřív vysvětlím, proč to někomu pomáhá."
+context = "Klinický psycholog v ambulanci spánkové medicíny."
+benign = true
+marker = "Paradoxní doporučení je otevřeně vysvětlené, vychází z popsaného mechanismu výkonové úzkosti a klient o něm rozhoduje."
+response = "Benigní: paradox je transparentní nástroj léčby se souhlasem klienta, ne past, z níž nevede žádná svobodná volba."

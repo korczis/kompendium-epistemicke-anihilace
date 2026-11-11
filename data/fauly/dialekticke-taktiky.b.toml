@@ -1,0 +1,261 @@
+# Rodina AF-07: Rétorické a dialogické taktiky, část b (AF-07.09 až AF-07.16).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Identifikátor se po
+# zveřejnění nemění.
+
+[[pattern]]
+id = "AF-07.09"
+slug = "falesna-vyvazenost"
+type = "tactic"
+cs = "Falešná vyváženost"
+en = "False balance"
+aliases = ["vyváženost jako zkreslení", "bothsidesismus"]
+use = "dvoji"
+risk = "vysoke"
+broader = "falesna-ekvivalence"
+related = ["falesny-kompromis", "klam-rovnovahy-dukazu", "odvolani-na-autoritu", "vyber-tresnicek", "galileuv-gambit"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md",
+  "kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md",
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "V dnešní debatě o bezpečnosti očkování dostane stejný prostor imunoložka z fakultní nemocnice i autor populárního videa, aby si diváci mohli udělat názor sami."
+context = "Moderátor uvádí televizní diskusi o tématu, k němuž existuje široká shoda odborné literatury."
+benign = false
+marker = "Stejný čas pro obě strany vytváří dojem rovnocenného sporu, ačkoli váha důkazů a odbornosti na obou stranách rovnocenná není."
+response = "Ptát se, jak je rozložena shoda v odborné literatuře, a žádat, aby rámec pořadu tento stav sdělil dřív, než se strany střídají u mikrofonu."
+
+[[pattern.trainer]]
+utterance = "O tom, zda nový zákon sníží byrokracii, se ekonomové skutečně přou, proto jsme pozvali dva odborníky s opačným závěrem a oba uvedou data, ze kterých vycházejí."
+context = "Redakce připravuje rozhovor k otázce, kde se odborná literatura opravdu rozchází."
+benign = true
+marker = "Vyváženost odpovídá skutečnému stavu odborného sporu a obě strany předkládají ověřitelné podklady."
+response = "Jde o legitimní vyvážení: rozdělení prostoru odráží rozdělení odborné obce, ne pouhou existenci dvou názorů."
+
+[[pattern]]
+id = "AF-07.10"
+slug = "vybirani-podivinu"
+type = "tactic"
+cs = "Vybírání podivínů"
+en = "Nutpicking"
+aliases = ["nutpicking", "nejslabší zástupce"]
+use = "dvoji"
+risk = "stredni"
+broader = "slameny-panak"
+related = ["ukvapene-zobecneni", "vyber-tresnicek", "vina-asociaci", "zavadejici-zivost", "otraveni-studny"]
+kompendium = [
+  "kompendium/techniques/ea-2-3-3-quote-mining.md",
+  "kompendium/techniques/ea-2-3-10-viralni-misrepresentation.md",
+  "kompendium/techniques/ea-2-3-1-clip-takeout.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Stačí se podívat, co píše ten anonym pod článkem o cyklostezkách: chce zakázat auta ve všech městech. Takhle prostě uvažují zastánci cyklistiky."
+context = "Komentátor místního zpravodaje píše o návrhu nové cyklostezky."
+benign = false
+marker = "Výrok jednoho výstředního a neoznačeného diskutujícího se vydává za typický postoj celé skupiny, jejíž skutečné argumenty zůstanou stranou."
+response = "Ptát se, kdo skupinu skutečně zastupuje a co tvrdí její oficiální návrh, a posuzovat ten, ne nejextrémnější hlas, který šlo najít."
+
+[[pattern.trainer]]
+utterance = "Ukázky extrémních komentářů z obou táborů uvádíme jako ilustraci tónu diskuse, ne jako vzorek názorů; ty měří průzkum, jehož výsledky jsou v příloze."
+context = "Výzkumná zpráva o polarizaci online diskuse."
+benign = true
+marker = "Extrémní příklady jsou výslovně označeny jako netypické a reprezentativnost se opírá o samostatné měření."
+response = "Jde o poctivé užití: autor odděluje ilustraci od zobecnění a rozložení názorů dokládá daty, ne vybranými citáty."
+
+[[pattern]]
+id = "AF-07.11"
+slug = "predstirana-starost"
+type = "tactic"
+cs = "Předstíraná starost"
+en = "Concern trolling"
+aliases = ["concern trolling", "starost jako zástěrka"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["kontrola-tonu", "odvolani-na-dusledky", "odvolani-na-strach", "otraveni-studny", "jen-se-ptam"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/techniques/ea-9-4-3-sock-puppet-network.md",
+  "kompendium/techniques/ea-2-5-7-self-cancelation.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jsem úplně na vaší straně, ale opravdu si myslíte, že zveřejnit ty nálezy teď je dobrý nápad? Lidé vám přestanou věřit a celé věci to spíš uškodí."
+context = "Neznámý účet v diskusi pod oznámením výzkumníka, že zveřejní zjištění o nesrovnalostech v datech."
+benign = false
+marker = "Deklarovaná sounáležitost slouží jako vstupenka a obava vždy směřuje k mlčení nebo odkladu, bez konkrétního rizika a bez alternativy."
+response = "Posoudit obavu podle obsahu, ne podle prohlášené loajality, a ptát se, jaké konkrétní riziko a jaký lepší postup mluvčí navrhuje."
+
+[[pattern.trainer]]
+utterance = "Podporuji zveřejnění, jen bych doporučila nejdřív dát univerzitě deset dní na vyjádření, jak to žádá její řád; jinak by mohla napadnout postup místo obsahu."
+context = "Kolegyně s prokazatelnou historií spolupráce komentuje plán na zveřejnění zjištění."
+benign = true
+marker = "Obava je konkrétní, opírá se o ověřitelné pravidlo a nabízí cestu, jak cíle dosáhnout, ne důvod se ho vzdát."
+response = "Jde o skutečnou starost: má adresu, zdroj a konstruktivní návrh a nemíří k tomu, aby věc zůstala nevyslovena."
+
+[[pattern]]
+id = "AF-07.12"
+slug = "argument-z-mlceni"
+type = "informal"
+cs = "Argument z mlčení"
+en = "Argument from silence"
+aliases = ["argumentum ex silentio", "mlčení jako souhlas"]
+use = "dvoji"
+risk = "stredni"
+broader = "odvolani-na-nevedomost"
+related = ["zamlceni-dukazu", "presun-dukazniho-bremene", "nefalzifikovatelnost", "bayesovske-pojeti-klamu"]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/techniques/ea-2-1-5-citation-suppression.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdyby se to opravdu stalo, řekla by to už tehdy. Mlčela dva roky, takže si to nejspíš vymyslela."
+context = "Kolega komentuje opožděné oznámení obtěžování na pracovišti."
+benign = false
+marker = "Z toho, že se o události dlouho nemluvilo, se vyvozuje, že nenastala, aniž by se zvážilo, proč by svědek mohl mlčet."
+response = "Ptát se, zda by za daných okolností bylo okamžité oznámení pravděpodobné, a posuzovat oznámení podle dostupných stop, ne podle jeho načasování."
+
+[[pattern.trainer]]
+utterance = "Celní záznamy přístavu jsou pro to období úplné a vedly se denně; o lodi toho jména v nich není ani zmínka, takže tvrzení, že tu tehdy kotvila, je málo pravděpodobné."
+context = "Historik posuzuje legendu o příjezdu lodi do přístavu."
+benign = true
+marker = "Mlčení pochází ze zdroje, který by událost s vysokou pravděpodobností zaznamenal, a úplnost zdroje je doložena."
+response = "Jde o oprávněný úsudek: síla argumentu z mlčení roste s tím, jak pravděpodobně by zdroj událost zachytil, a závěr je formulován opatrně."
+
+[[pattern]]
+id = "AF-07.13"
+slug = "galileuv-gambit"
+type = "informal"
+cs = "Galileův gambit"
+en = "Galileo gambit"
+aliases = ["Galileův argument", "argument pronásledovaného génia"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["odvolani-na-autoritu", "nefalzifikovatelnost", "falesna-vyvazenost", "ad-populum", "vedecky-zargon"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "glossary/paradigm-shift.md",
+  "kompendium/techniques/ea-7-2-4-lakatos-research-program.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Všechny časopisy můj článek o léčbě magnety odmítly. Přesně tak to ale dopadlo s každým, kdo přinesl převratný objev, a právě to dokazuje, že mám pravdu."
+context = "Autor alternativní léčebné metody reaguje na odmítnutí rukopisu."
+benign = false
+marker = "Odmítnutí odbornou obcí se vydává za doklad pravdivosti, protože ho prý zažili i průkopníci, ačkoli ho zažila i většina omylů."
+response = "Oddělit otázku odmítnutí od otázky důkazů: ptát se, jaká data tvrzení podporují a jak obstojí v nezávislém ověření."
+
+[[pattern.trainer]]
+utterance = "Moje hypotéza jde proti převažujícímu názoru, a proto jsem data zveřejnila celá a navrhla pokus, který by ji mohl jednoznačně vyvrátit."
+context = "Výzkumnice prezentuje neobvyklý výsledek na odborné konferenci."
+benign = true
+marker = "Menšinové postavení se netvrdí jako důkaz; autorka nabízí cestu k vyvrácení a přenechává rozhodnutí datům."
+response = "Jde o legitimní nesouhlas s konsenzem: vědecká změna vychází z testovatelných předpovědí, ne z odkazu na vlastní pronásledování."
+
+[[pattern]]
+id = "AF-07.14"
+slug = "palba-nepravd"
+type = "tactic"
+cs = "Palba nepravd"
+en = "Firehose of falsehood"
+aliases = ["firehose of falsehood", "hasičská hadice nepravd"]
+use = "vliv"
+risk = "vysoke"
+broader = ""
+related = ["argument-opakovanim", "gish-gallop", "dokaz-tvrzenim", "jen-se-ptam", "falesna-vyvazenost"]
+kompendium = [
+  "kompendium/historical-cases/21-soviet-active-measures.md",
+  "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md",
+  "kompendium/techniques/ea-9-4-5-troll-farm-EA.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ráno to byla nehoda, odpoledne sabotáž ze zahraničí, večer se prý nic nestalo a zítra už nikdo nebude vědět, čemu věřit. Tak co vlastně chcete vyvracet?"
+context = "Shrnutí sledu protichůdných verzí jedné události, které během dne šířila síť propojených kanálů."
+benign = false
+marker = "Množství, rychlost a vzájemná nekonzistence verzí nemají přesvědčit o jedné z nich, ale zahltit a vyvolat rezignaci na rozlišování."
+response = "Nevyvracet každou verzi zvlášť, ale pojmenovat vzorec, sledovat jeho zdroje a opřít se o několik ověřených bodů, které se nemění."
+
+[[pattern.trainer]]
+utterance = "Během prvních hodin po výbuchu jsme opravili tři údaje, protože se změnily informace hasičů; každou opravu jsme označili a ponechali původní znění viditelné."
+context = "Zpravodajský server vysvětluje čtenářům změny v průběžném zpravodajství o neštěstí."
+benign = true
+marker = "Změny výpovědi jsou přiznané, zdůvodněné a dohledatelné, takže nesměřují ke zmatení, ale k přesnosti."
+response = "Jde o běžnou korekci: průběžné zpravodajství se mění s novými fakty a transparentní oprava je znakem důvěryhodnosti, ne palby nepravd."
+
+[[pattern]]
+id = "AF-07.15"
+slug = "odvedeni-k-procedure"
+type = "tactic"
+cs = "Útěk k proceduře"
+en = "Procedural diversion"
+aliases = ["procedurální odvedení", "formalistický únik"]
+use = "vliv"
+risk = "vysoke"
+broader = "cerveny-sled"
+related = ["irelevantni-zaver", "kontrola-tonu", "posouvani-branek", "pragma-dialektika", "pravidlo-relevance"]
+kompendium = [
+  "kompendium/04-terminalni-protokoly/institucionalni-anihilace.md",
+  "kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md",
+  "kompendium/organizational-defense/_index.md",
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vaše stížnost na šikanu v laboratoři nebyla podána na formuláři platném od září, proto ji komise nemůže projednat. Doporučujeme podat ji znovu v příštím semestru."
+context = "Odpověď fakultní komise na třetí opakovanou stížnost doktorandky."
+benign = false
+marker = "Formální vada se stává důvodem neprojednat obsah, oprava se odkládá a nikdo nepřevezme odpovědnost za samotné tvrzení."
+response = "Žádat písemně, aby komise vadu konkrétně označila, umožnila ji odstranit v přiměřené lhůtě a mezitím se zabývala doloženými skutečnostmi."
+
+[[pattern.trainer]]
+utterance = "Než začneme hlasovat o rozpočtu, upozorňuji, že podklady nebyly členům rozeslány v termínu daném jednacím řádem; navrhuji odložit bod o týden, aby je všichni mohli přečíst."
+context = "Člen zastupitelstva na začátku zasedání."
+benign = true
+marker = "Procedurální námitka chrání možnost věcného posouzení, má konkrétní nápravu a krátký termín."
+response = "Jde o legitimní procedurální argument: pravidlo existuje, aby se o věci rozhodovalo informovaně, a návrh k věcné debatě vede, ne od ní."
+
+[[pattern]]
+id = "AF-07.16"
+slug = "personalizace-sporu"
+type = "tactic"
+cs = "Personalizace sporu"
+en = "Personalising the dispute"
+aliases = ["přenesení sporu na osoby", "z věci osobní spor"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["ad-hominem", "bulverismus", "otraveni-studny", "tu-quoque", "pravidlo-svobody", "dialektika-a-eristika"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-3-credentialing-attack.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/organizational-defense/_index.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tady nejde o žádné chyby ve výkazech. Jde o to, že mi kolegyně od začátku nemůže přijít na jméno a teď si hledá záminku."
+context = "Vedoucí oddělení reaguje na upozornění auditorky na nesrovnalosti v účetnictví."
+benign = false
+marker = "Otázka, zda jsou ve výkazech chyby, se nahrazuje otázkou vztahu a motivů osob, takže se tvrzení přestane posuzovat."
+response = "Vrátit rozhovor k ověřitelnému předmětu: které položky jsou sporné a co o nich říkají doklady, bez ohledu na vztahy mezi lidmi."
+
+[[pattern.trainer]]
+utterance = "Váš návrh je podle mě nákladný a důvody uvedu v tabulce; zároveň oznamuji, že jsem s jeho autorem v příbuzenském vztahu, a proto se zdržím hlasování."
+context = "Člen hodnoticí komise při projednání grantového návrhu."
+benign = true
+marker = "Osobní vztah se zmiňuje jako střet zájmů, který se procedurálně ošetří, a věcná kritika zůstává oddělena a doložena."
+response = "Jde o poctivé zacházení s osobní rovinou: vztah se pojmenuje, aby neovlivnil rozhodnutí, místo aby nahradil věcné důvody."

@@ -92,6 +92,8 @@ jobs:
         run: python3 scripts/link-terms.py --check
       - name: Information architecture does not regress
         run: python3 scripts/check-ia.py
+      - name: Catalogues, their pages, exports and trainer agree
+        run: python3 scripts/catalogs.py --check
       - name: Content tooling tests
         run: bash test/run.sh
       - name: Build (internal links are errors)

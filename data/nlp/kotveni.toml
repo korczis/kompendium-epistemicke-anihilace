@@ -1,0 +1,326 @@
+# Rodina NLP-09: Kotvení (pravidlo project.content-catalogs; schéma v scripts/catalogs.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-09.01"
+slug = "kotveni"
+type = "pattern"
+cs = "Kotvení"
+en = "Anchoring"
+aliases = ["ukotvení stavu", "podmiňování stavu podnětem"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["kotva-pojem", "stav", "zdrojovy-stav", "kalibrace", "nechtene-kotvy", "kotveni-versus-ukotveni-odhadu"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/techniques/ea-5-3-14-somaticka-rekodifikace.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Cítíte to nadšení? Přesně tohle pocítíte pokaždé, když uvidíte naše logo, a budete vědět, že jste se rozhodli správně."
+context = "Řečník na prodejní akci ve chvíli, kdy sál tleská."
+benign = false
+marker = "Vrchol vyvolaného nadšení se výslovně spojuje s podnětem (logem) a ten se zároveň vydává za doklad správnosti rozhodnutí."
+response = "Oddělit pocit od rozhodnutí: nadšení v sále nic neříká o kvalitě nabídky; rozhodovat až mimo akci podle ověřitelných údajů."
+
+[[pattern.trainer]]
+utterance = "Všimla jsem si, že vás uklidňuje, když si před zkouškou sednete k oknu. Je to váš způsob, jak se zklidnit, a můžete ho využívat, kdy sama chcete."
+context = "Studijní poradkyně ve škole mluví se studentkou o trémě."
+benign = true
+marker = "Spojení místa a klidu pochází z vlastní zkušenosti studentky, poradkyně ho jen pojmenuje a ponechá v její moci."
+response = "Benigní užití: nejde o vytvoření spouštěče jinou osobou, ale o uvědomění vlastní strategie zklidnění, kterou má člověk pod kontrolou."
+
+[[pattern]]
+id = "NLP-09.02"
+slug = "samokotveni"
+type = "pattern"
+cs = "Samokotvení"
+en = "Self-anchoring"
+aliases = ["vlastní kotva", "sebekotvení"]
+use = "terapie"
+risk = "nizke"
+broader = "kotveni"
+related = ["zdrojovy-stav", "kruh-excelence", "kinesteticke-kotvy", "prenos-zdroje"]
+kompendium = [
+  "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md",
+  "kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md",
+  "kompendium/06-obrana/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Svůj klid máš teď spojený s naším heslem. Kdykoli budeš mít pochybnosti, zopakuj si ho, a pokud nepomůže, je to znamení, že ses vzdálil od skupiny."
+context = "Vedoucí uzavřené skupiny mluví s novým členem o jeho úzkostech."
+benign = false
+marker = "Vlastní zklidňující podnět člověka se nahrazuje heslem skupiny a jeho selhání se vykládá jako vina jednotlivce vůči skupině."
+response = "Rozlišit vlastní zdroje uklidnění od rituálů, které zavedla skupina; pochybnost brát jako informaci, ne jako příznak, který je třeba umlčet."
+
+[[pattern.trainer]]
+utterance = "Než jdu na sál, vždycky si sepnu ruce a dvakrát pomalu vydechnu. Připomíná mi to, že jsem připravená."
+context = "Chirurgická sestra popisuje kolegyni svůj zvyk před operací."
+benign = true
+marker = "Člověk si sám zvolil podnět spojený s připraveností a používá ho z vlastní vůle jako krátký regulační rituál."
+response = "Benigní užití: samoregulační zvyk, o kterém člověk rozhoduje a který nikoho jiného nezavazuje ani neovládá."
+
+[[pattern]]
+id = "NLP-09.03"
+slug = "retezeni-kotev"
+type = "pattern"
+cs = "Řetězení kotev"
+en = "Chaining anchors"
+aliases = ["řetěz stavů", "kotvení v řetězci"]
+use = "dvoji"
+risk = "stredni"
+broader = "kotveni"
+related = ["stohovani-kotev", "kolaps-kotev", "pacing-a-leading", "stav"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nejdřív jste byl naštvaný, pak zvědavý, teď cítíte, jak se to ve vás otevírá, a další přirozený krok je podpis. Ten pocit vás tam dovede sám."
+context = "Obchodník na konci dlouhé prezentace finančního produktu."
+benign = false
+marker = "Mluvčí pojmenovává sled stavů jako nevyhnutelnou řadu a poslední článek řady ztotožňuje s rozhodnutím, které od posluchače chce."
+response = "Zastavit sled: stav, ve kterém se člověk nachází, není rozhodnutí; požádat o písemné podklady a čas na rozmyšlenou."
+
+[[pattern.trainer]]
+utterance = "Z paniky se do klidu hned nedostanete, a to je v pořádku. Mezi tím bývá ještě únava a pak teprve úleva, jak jste to sám popsal minule."
+context = "Terapeut mluví s klientem o průběhu jeho záchvatů úzkosti."
+benign = true
+marker = "Sled stavů se popisuje podle zkušenosti klienta a slouží k porozumění jejich průběhu, ne k vedení k cizímu cíli."
+response = "Benigní užití: pojmenování přirozené posloupnosti stavů zvyšuje předvídatelnost a pocit kontroly klienta."
+
+[[pattern]]
+id = "NLP-09.04"
+slug = "kolaps-kotev"
+type = "pattern"
+cs = "Kolaps kotev"
+en = "Collapsing anchors"
+aliases = ["integrace kotev", "souběžné spuštění kotev"]
+use = "dvoji"
+risk = "stredni"
+broader = "kotveni"
+related = ["rychla-lecba-fobie", "integrace-polarit", "zmena-osobni-historie", "testovani-kotvy", "kotveni-v-kontrolujicich-vztazich"]
+kompendium = [
+  "kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md",
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "To sevření, které cítíš, když přijde řeč na jeho výbuchy, je jen stará kotva. Spojíme ji s tím dobrým, co s ním máš, a ten nepříjemný pocit zmizí."
+context = "Přítel oběti, který prošel kurzem NLP, reaguje na její strach z partnera."
+benign = false
+marker = "Ochranný strach z konkrétního chování partnera se vykládá jako chybná kotva, kterou je třeba neutralizovat, místo aby se zkoumalo, před čím varuje."
+response = "Brát strach jako signál o skutečném nebezpečí: nejdřív posoudit bezpečí a chování partnera, nikoli měnit reakci na něj."
+
+[[pattern.trainer]]
+utterance = "U výtahu se vám pořád sevře žaludek. Tak budeme dál pracovat s postupným přibližováním, jak jsme se dohodli, a vy určujete tempo."
+context = "Psychoterapeut v rámci léčby fobie z uzavřených prostor."
+benign = true
+marker = "Nepříjemná reakce se oslabuje dohodnutým, postupným a klientem řízeným postupem u reakce, která nechrání před skutečným nebezpečím."
+response = "Benigní užití: jde o ověřený princip protipodmiňování u fobie, s informovaným souhlasem a kontrolou tempa na straně klienta."
+
+[[pattern]]
+id = "NLP-09.05"
+slug = "stohovani-kotev"
+type = "pattern"
+cs = "Vrstvení kotev"
+en = "Stacking anchors"
+aliases = ["stohování kotev", "skládání kotev"]
+use = "dvoji"
+risk = "stredni"
+broader = "kotveni"
+related = ["zdrojovy-stav", "kotveni-ve-skupine", "velke-seminare", "kruh-excelence"]
+kompendium = [
+  "kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Každý večer tohohle týdne končí stejnou písní a stejným gestem. Až ji uslyšíte doma, vrátí se vám všechno, co jste tu prožili, a pochopíte, kam patříte."
+context = "Moderátor vícedenního motivačního semináře na konci druhého večera."
+benign = false
+marker = "Opakované vrcholné zážitky se záměrně vážou na týž podnět, který má později vyvolat celé jejich nahromaděné vyznění a příslušnost ke skupině."
+response = "Rozpoznat, že síla pocitu vychází z nahromadění atmosféry, ne z obsahu; rozhodnutí o další účasti dělat s odstupem a mimo vliv hudby."
+
+[[pattern.trainer]]
+utterance = "Když si vzpomenete na chvíle, kdy jste zvládla těžký rozhovor, je jich víc, než jste čekala. Ta zkušenost je vaše a můžete se o ni opřít."
+context = "Koučka shrnuje s klientkou její dosavadní zkušenosti před důležitým jednáním."
+benign = true
+marker = "Více vlastních zkušeností se shrne do jednoho přehledu, který posiluje sebedůvěru, aniž by se vázal na osobu koučky nebo na skupinu."
+response = "Benigní užití: připomenutí doložených vlastních úspěchů je běžný podpůrný postup a nezakládá závislost na jiné osobě."
+
+[[pattern]]
+id = "NLP-09.06"
+slug = "prostorove-kotveni"
+type = "pattern"
+cs = "Prostorové kotvení"
+en = "Spatial anchoring"
+aliases = ["kotvení místem", "prostorové značení"]
+use = "dvoji"
+risk = "stredni"
+broader = "kotveni"
+related = ["kotvy-v-prezentaci", "casova-osa-pojem", "percepcni-pozice-pojem", "pruchod-casovou-osou"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tady vlevo stojí všechno, co vás drží zpátky: vaše rodina, vaše pochybnosti, váš starý život. A tady u mě stojí to, čím se můžete stát."
+context = "Lektor na pódiu přechází mezi dvěma místy při náborové přednášce."
+benign = false
+marker = "Dvě místa pódia se trvale spojují s protikladnými hodnoceními a blízcí lidé posluchače se umisťují na místo spojené s neúspěchem."
+response = "Všímat si, kam mluvčí co umisťuje; vrátit rodinu a pochybnosti z „levé strany“ zpět do vlastního úsudku a posoudit je nezávisle."
+
+[[pattern.trainer]]
+utterance = "Když mluvím o rizicích léčby, stojím u tabule s grafem, a když o přínosech, u téhož grafu. Chci, abyste obojí viděli na jednom místě."
+context = "Lékařka vysvětluje skupině pacientů možnosti léčby."
+benign = true
+marker = "Mluvčí vědomě nepřiřazuje rizikům a přínosům odlišná místa a tím se vyhýbá prostorovému zvýhodnění jedné strany."
+response = "Benigní užití: prostor slouží k přehlednosti a vyváženosti, nikoli k vytváření hodnotících spojení."
+
+[[pattern]]
+id = "NLP-09.07"
+slug = "kruh-excelence"
+type = "pattern"
+cs = "Kruh excelence"
+en = "Circle of excellence"
+aliases = ["kruh výkonnosti"]
+use = "terapie"
+risk = "nizke"
+broader = "prostorove-kotveni"
+related = ["samokotveni", "stohovani-kotev", "zdrojovy-stav", "guru-efekt"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/06-obrana/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdo dnes do kruhu nevstoupí před ostatními, ten nikdy nezmění život. Všichni vám fandí, tak se nenechte zastavit vlastním strachem."
+context = "Trenér osobního rozvoje na velkém semináři vybízí účastníky před plným sálem."
+benign = false
+marker = "Cvičení se mění ve veřejnou zkoušku loajality: odmítnutí se vykládá jako selhání a skupinový tlak nahrazuje dobrovolnost."
+response = "Účast na cvičení je volba; odmítnout lze bez vysvětlení. Tlak publika není důkaz, že cvičení člověku prospěje."
+
+[[pattern.trainer]]
+utterance = "Před koncertem si představuji kruh na podlaze za oponou a vstoupím do něj, jako bych vstupovala do klidu. Nikdo o tom neví, je to jen můj zvyk."
+context = "Houslistka v rozhovoru o trémě."
+benign = true
+marker = "Člověk používá představu kruhu soukromě a dobrovolně jako vlastní rituál přípravy na výkon."
+response = "Benigní užití: osobní rituál zvládání trémy, který nikdo jiný neřídí a jehož účinek se nevydává za vědecky prokázaný."
+
+[[pattern]]
+id = "NLP-09.08"
+slug = "posuvna-kotva"
+type = "pattern"
+cs = "Posuvná kotva"
+en = "Sliding anchor"
+aliases = ["stupňovaná kotva", "kotva s regulací intenzity"]
+use = "terapie"
+risk = "nizke"
+broader = "kotveni"
+related = ["kinesteticke-kotvy", "kriticke-submodality", "kalibrace", "testovani-kotvy"]
+kompendium = [
+  "kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md",
+  "kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Čím víc přitisknu prst na vaše zápěstí, tím silněji cítíte, že mi můžete věřit. Ještě kousek a budete si úplně jistá."
+context = "Samozvaný kouč při individuálním sezení s klientkou, kterou se snaží získat pro dražší program."
+benign = false
+marker = "Stupňovaný dotek se výslovně spojuje s rostoucí důvěrou k mluvčímu; regulace intenzity slouží jeho zájmu, ne zájmu klientky."
+response = "Odmítnout dotek a oddělit důvěru od tělesného podnětu: důvěru zakládají ověřitelné informace a čas, ne síla stisku."
+
+[[pattern.trainer]]
+utterance = "Ukažte mi na pravítku od nuly do deseti, jak silná je ta úzkost teď. A teď po dýchání? Jsme na šestce, to je posun."
+context = "Psycholožka měří s klientem intenzitu úzkosti během sezení."
+benign = true
+marker = "Škála intenzity slouží k sebepozorování a měření změny, kterou klient sám hodnotí; nejde o podnět, který by stav vyvolával."
+response = "Benigní užití: subjektivní škála intenzity je běžný nástroj sebemonitorování a nikoho neovládá."
+
+[[pattern]]
+id = "NLP-09.09"
+slug = "auditivni-kotvy"
+type = "pattern"
+cs = "Auditivní a tonální kotvy"
+en = "Auditory and tonal anchors"
+aliases = ["tonální kotva", "zvuková kotva", "hlasová kotva"]
+use = "dvoji"
+risk = "stredni"
+broader = "kotveni"
+related = ["auditivni-system", "slovni-baliky", "nechtene-kotvy", "kotvy-v-reklame", "vizualni-kotvy"]
+kompendium = [
+  "kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce.md",
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Víš, co znamená, když řeknu tvoje jméno takhle tiše. Nemusím nic dalšího vysvětlovat, stačí, když se zastavíš."
+context = "Partner v kontrolujícím vztahu během společenské návštěvy."
+benign = false
+marker = "Určitý tón hlasu funguje jako naučený signál hrozby, jehož význam zná jen druhá osoba; pouhý zvuk vyvolá ztuhnutí a poslušnost."
+response = "Pojmenovat signál jako součást vzorce kontroly, ne jako běžnou komunikaci; zaznamenávat situace a hledat bezpečnou oporu mimo vztah."
+
+[[pattern.trainer]]
+utterance = "Když na konci hodiny zazní gong, víme všichni, že končíme a můžeme v klidu odejít. Je to dohoda, ne žádné kouzlo."
+context = "Lektorka jógy vysvětluje novým účastníkům průběh lekce."
+benign = true
+marker = "Zvukový signál je otevřeně dohodnutý, jeho význam znají všichni a slouží orientaci v čase, ne vyvolání stavu ve prospěch lektorky."
+response = "Benigní užití: transparentní signál organizace společné činnosti, který lze kdykoli pominout."
+
+[[pattern]]
+id = "NLP-09.10"
+slug = "vizualni-kotvy"
+type = "pattern"
+cs = "Vizuální kotvy"
+en = "Visual anchors"
+aliases = ["zraková kotva", "obrazová kotva"]
+use = "dvoji"
+risk = "stredni"
+broader = "kotveni"
+related = ["vizualni-system", "kotvy-v-prezentaci", "kotvy-v-reklame", "submodality-v-reklame", "auditivni-kotvy"]
+kompendium = [
+  "kompendium/techniques/ea-9-5-2-symbolic-hijacking.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ten symbol na zdi vám od dnešního dne připomene noc, kdy jste se konečně cítili svobodní. Nosíme ho všichni, a kdo ho sundá, ten se vrací do tmy."
+context = "Vůdce skupiny po intenzivním nočním setkání nových členů."
+benign = false
+marker = "Vizuální symbol se váže na vrcholný zážitek a zároveň na hrozbu ztráty: odložení symbolu se líčí jako návrat do špatného stavu."
+response = "Rozlišit symbol od zážitku a od skutečné svobody; vzpomínka na silný zážitek nezávisí na tom, zda člověk nosí odznak skupiny."
+
+[[pattern.trainer]]
+utterance = "Na každém snímku je vpravo nahoře barevný proužek kapitoly, abyste věděli, kde v přednášce jsme. Barvy nic dalšího neznamenají."
+context = "Vyučující na začátku semestru vysvětluje strukturu svých prezentací."
+benign = true
+marker = "Vizuální značka je otevřeně vysvětlena a slouží orientaci, nikoli vyvolání emočního stavu nebo hodnocení obsahu."
+response = "Benigní užití: transparentní vizuální navigace bez skrytého emočního spojení."

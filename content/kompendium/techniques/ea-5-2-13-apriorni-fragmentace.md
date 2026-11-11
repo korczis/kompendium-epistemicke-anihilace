@@ -65,7 +65,7 @@ Detekční markery zachycené na této stránce odpovídají téže struktuře: 
 |--------|----------|
 | Subjekt **nedokáže rekonstruovat sled** událostí dne | Časová fragmentace |
 | **Prostorová dezorientace** v dobře známém prostředí | Prostorová fragmentace |
-| Pseudo-fyzikální slovník o "blokovém čase" mimo legitimní filozofický kontext | reframing |
+| Pseudo-fyzikální slovník o "blokovém čase" mimo legitimní filozofický kontext | [reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) |
 | **Disociační epizody** s narativizací jako "vhled" | Pokročilá fragmentace |
 | **Akutní rytmické rozpojení** — spánek, jídlo, prostorová rutina rozbitá | destrukce |
 

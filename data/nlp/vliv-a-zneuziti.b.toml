@@ -1,0 +1,337 @@
+# Rodina NLP-21: Vliv a zneužití NLP, část b (NLP-21.11 až NLP-21.20).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Pořadí záznamů je pořadí
+# identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-21.11"
+slug = "nlp-v-koucinku"
+type = "pattern"
+cs = "NLP v koučinku a rozvoji"
+en = "NLP in coaching"
+aliases = ["NLP koučink", "rozvojové programy s NLP"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["nlp-v-koucinku-vyzkum", "trh-certifikaci-nlp", "dobre-formulovany-vysledek", "guru-efekt", "modelovatelnost-excelence"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
+  "kompendium/case-studies/61-corporate-leadership-cult.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když se ti po třech sezeních nic nezměnilo, znamená to jen, že se pořád bráníš. Kouč za výsledek neodpovídá, odpovídá za něj tvoje nevědomí."
+context = "Kouč reaguje na klientku, která chce spolupráci ukončit."
+benign = false
+marker = "Neúspěch metody se přičítá odporu klienta, takže tvrzení o účinnosti nelze vyvrátit a odchod ze spolupráce se líčí jako selhání klienta."
+response = "Trvat na tom, že nedostatek výsledku je informace o metodě i o spolupráci, a mít právo spolupráci ukončit bez obhajoby."
+
+[[pattern.trainer]]
+utterance = "Než budeme pokračovat, shrňme si, co se za poslední měsíc změnilo podle vašich vlastních měřítek, a co ne. Pokud nic, probereme, jestli vám tahle forma vůbec vyhovuje."
+context = "Koučka na pravidelném vyhodnocení spolupráce."
+benign = true
+marker = "Výsledek se posuzuje podle kritérií klienta a možnost ukončit spolupráci je otevřeně nabídnuta."
+response = "Jde o legitimní praxi: hodnocení je společné, kritéria patří klientovi a odchod není trestán."
+
+[[pattern]]
+id = "NLP-21.12"
+slug = "trh-certifikaci-nlp"
+type = "concept"
+cs = "Trh certifikací NLP"
+en = "The NLP certification market"
+aliases = ["NLP Practitioner a Master Practitioner", "certifikační žebříček NLP"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["nlp-v-koucinku", "guru-efekt", "velke-seminare", "nlp-jako-pseudoveda", "kargokultovni-psychologie"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-10-credentials-rekonfigurace.md",
+  "kompendium/case-studies/63-investor-cult.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Practitioner je jen začátek. Skutečně to pochopíte až na úrovni Master a Trainer, a kdo přestane v polovině, ztratí všechno, co do sebe investoval."
+context = "Lektor na závěr základního kurzu nabízí navazující stupeň."
+benign = false
+marker = "Hodnota již zaplaceného stupně se podmiňuje koupí dalšího a odchod se rámuje jako ztráta investice, tedy tlak přes utopené náklady."
+response = "Posoudit každý stupeň samostatně: co konkrétně umím teď, kdo certifikát uznává a jaké nezávislé důkazy existují pro obsah dalšího kurzu."
+
+[[pattern.trainer]]
+utterance = "Tenhle certifikát není akreditovaná kvalifikace a za obsah kurzu neexistuje jednotná odborná záruka. Zaměstnavatelé ho obvykle neuznávají jako odborné vzdělání."
+context = "Personalistka vysvětluje uchazeči, jak posuzuje certifikáty z kurzů NLP."
+benign = true
+marker = "Certifikát se popisuje jako doklad o absolvování kurzu, ne jako odborná kvalifikace, a jeho mez je řečena otevřeně."
+response = "Jde o legitimní, přesný popis: odlišuje doklad o účasti od kvalifikace ověřené nezávislou institucí."
+
+[[pattern]]
+id = "NLP-21.13"
+slug = "guru-efekt"
+type = "pattern"
+cs = "Efekt guru na seminářích"
+en = "Guru effect in seminars"
+aliases = ["kult lektora", "charismatický trenér"]
+use = "vliv"
+risk = "vysoke"
+broader = ""
+related = ["velke-seminare", "trh-certifikaci-nlp", "nlp-v-sektach", "umyslna-vagnost", "neuro-zargon", "kotveni-ve-skupine"]
+kompendium = [
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/detection-signatures/1-linguistic-jargon-density.md",
+  "kompendium/case-studies/63-investor-cult.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jestli tomu teď nerozumíte, je to dobře. Vaše vědomá mysl to ani pochopit nemá, nevědomí už ví, co si odnést. Otázky si nechte na příští běh."
+context = "Lektor odpovídá účastníkovi, který se ptá na důkaz pro tvrzení ze semináře."
+benign = false
+marker = "Nesrozumitelnost se vydává za znak hloubky, otázka po důkazu se odkládá a porozumění se přesouvá do nevědomí, které nelze ověřit."
+response = "Trvat na srozumitelném vysvětlení a na zdroji tvrzení; co nejde vysvětlit ani ověřit, nelze považovat za doložené."
+
+[[pattern.trainer]]
+utterance = "Tohle je moje zkušenost z praxe, nikoli výsledek výzkumu. Pokud vás zajímá, co k tomu říkají studie, uvedu vám přehledy, které tu metodu hodnotí kriticky."
+context = "Lektor workshopu odpovídá na dotaz po důkazech."
+benign = true
+marker = "Lektor odlišuje osobní zkušenost od ověřeného poznatku a sám odkazuje na kritické zdroje."
+response = "Jde o legitimní postoj: autorita se nevydává za důkaz a posluchač dostává možnost tvrzení ověřit."
+
+[[pattern]]
+id = "NLP-21.14"
+slug = "velke-seminare"
+type = "pattern"
+cs = "Velké motivační semináře"
+en = "Large-group seminars"
+aliases = ["velkoskupinové tréninky", "motivační show"]
+use = "vliv"
+risk = "vysoke"
+broader = ""
+related = ["guru-efekt", "kotveni-ve-skupine", "raport-se-skupinou", "budouci-prehravani-v-prodeji", "nlp-v-sektach", "trh-certifikaci-nlp"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-3-singer-six-conditions.md",
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/case-studies/51-new-age-recovery.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Všichni kolem vás se právě rozhodli změnit svůj život. Místa v programu na příští rok jsou jen dnes za tuhle cenu a stůl s přihláškami je hned u vchodu."
+context = "Moderátor na konci třetího dne vícedenního motivačního semináře."
+benign = false
+marker = "Nabídka přichází v okamžiku únavy a vzrušení, opírá se o sociální důkaz celého sálu a o časový nedostatek, takže brání rozvážení."
+response = "Žádné finanční rozhodnutí na místě; odložit ho o několik dní, probrat s někým mimo akci a přečíst si smluvní podmínky v klidu."
+
+[[pattern.trainer]]
+utterance = "Přihlášky na navazující kurz přijímáme až od příštího týdne, abyste měli čas si to rozmyslet. Do čtrnácti dnů lze od přihlášky bez udání důvodu odstoupit."
+context = "Pořadatel konference o osobním rozvoji v závěrečném oznámení."
+benign = true
+marker = "Rozhodnutí se záměrně odděluje od emočního vrcholu akce a odstoupení je jednoduché."
+response = "Jde o legitimní praxi: pořadatel ponechává čas na rozvážení a nespoléhá na vzrušení sálu."
+
+[[pattern]]
+id = "NLP-21.15"
+slug = "falesne-zrcadleni-v-podvodech"
+type = "pattern"
+cs = "Zrcadlení v podvodech"
+en = "Mirroring in scams"
+aliases = ["falešná spřízněnost", "zrcadlení v romantických podvodech"]
+use = "vliv"
+risk = "vysoke"
+broader = "zrcadleni"
+related = ["raport-jako-nastroj-vlivu", "pseudoempatie", "sladeni-hodnot", "nlp-v-prodeji", "rozpoznani-nlp-praktiky"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md",
+  "kompendium/techniques/ea-7-3-1-kahneman-system12.md",
+  "kompendium/06-klinicke-aplikace/preventivni-strategie.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Je neuvěřitelné, jak moc jsme si podobní. Taky jsem přišel o ženu, taky miluju hory a taky nesnáším lidi, kteří mluví jen o penězích. Nikdy jsem nikoho takového nepotkal."
+context = "Neznámý člověk po týdnu psaní na seznamovací platformě."
+benign = false
+marker = "Podobnost je úplná, rychlá a přesně kopíruje to, co oběť o sobě dříve napsala, včetně ztráty; spřízněnost předbíhá jakékoli ověření identity."
+response = "Brát nápadnou shodu jako varovný znak, ověřit identitu nezávisle (videohovor, veřejné stopy) a nikdy neposílat peníze ani doklady člověku známému jen online."
+
+[[pattern.trainer]]
+utterance = "Taky mám rád hory, i když tam teď jezdím málo. Na co jsi tam naposled lezla? Já se pořád bojím exponovaných míst."
+context = "Dva lidé se poznávají na schůzce turistického oddílu."
+benign = true
+marker = "Shoda je částečná, s rozdíly a vlastní nejistotou, vzniká při osobním setkání a nevede k žádosti o peníze ani o utajení."
+response = "Jde o běžné hledání společné řeči; podobnost je přirozená a nesouvisí s žádným nárokem."
+
+[[pattern]]
+id = "NLP-21.16"
+slug = "manipulativni-reframing-ve-vztazich"
+type = "pattern"
+cs = "Manipulativní reframing v blízkých vztazích"
+en = "Manipulative reframing in close relationships"
+aliases = ["přerámování kontroly na péči", "přepis významu v partnerském vztahu"]
+use = "vliv"
+risk = "vysoke"
+broader = "reframing"
+related = ["obsahovy-reframing", "kotveni-v-kontrolujicich-vztazich", "mapa-neni-uzemi", "pozitivni-zamer-chovani", "dodatecne-ramcovani"]
+kompendium = [
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md",
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nekontroluju ti telefon, protože ti nevěřím. Dělám to, protože mi na tobě záleží víc než komukoli jinému. Kdyby ti to vadilo, znamenalo by to, že něco skrýváš."
+context = "Partner reaguje na námitku, že mu prochází zprávy."
+benign = false
+marker = "Kontrolní chování se přejmenuje na péči a námitka proti němu se přerámuje na důkaz viny, takže jakýkoli odpor potvrzuje výklad kontrolujícího."
+response = "Posuzovat chování, ne jeho nálepku: sledování zpráv omezuje soukromí bez ohledu na deklarovaný motiv; mluvit o tom s někým mimo vztah a případně s poradnou."
+
+[[pattern.trainer]]
+utterance = "Možná jsem tvou poznámku slyšel jako výčitku, i když jsi to tak nemyslela. Řekneš mi, co jsi tím chtěla říct? A já ti povím, jak to na mě zapůsobilo."
+context = "Partner ve vztahu po drobné hádce."
+benign = true
+marker = "Nový výklad se nabízí jako otázka, týká se vlastního vnímání a druhá strana má stejné právo na svůj popis."
+response = "Jde o legitimní přerámování: je symetrické, otevřené a nikoho nezbavuje práva na vlastní zkušenost."
+
+[[pattern]]
+id = "NLP-21.17"
+slug = "hypnoticky-jazyk-online"
+type = "pattern"
+cs = "Hypnotický jazyk v online obsahu"
+en = "Hypnotic language in online content"
+aliases = ["hypnotický copywriting", "trance obsah na sociálních sítích"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["milton-model", "umyslna-vagnost", "vlozene-prikazy", "konverzacni-hypnoza", "nlp-v-reklame", "budouci-prehravani-v-prodeji"]
+kompendium = [
+  "kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md",
+  "kompendium/07-teoreticke-reflexe/digitalni-vek.md",
+  "kompendium/techniques/ea-9-3-1-algorithmic-amplification.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Možná už teď cítíš, že tohle video není náhoda. Část tebe ví, že jsi připravená na změnu, a čím déle se díváš, tím jasněji chápeš, proč se ozvat ještě dnes."
+context = "Úvod placeného videa nabízejícího kurz „manifestace“ na sociální síti."
+benign = false
+marker = "Vágní tvrzení o vnitřním stavu diváka, rozdělení na části a spojení sledování s rozhodnutím vytvářejí dojem, že výzva k nákupu vychází z diváka samého."
+response = "Pojmenovat, že jde o reklamu, oddělit pocit vyvolaný videem od rozhodnutí a hledat konkrétní a ověřitelné informace o nabídce."
+
+[[pattern.trainer]]
+utterance = "Tahle nahrávka je relaxační cvičení. Nemá léčebný účinek a nic neprodává. Pokud se ti během ní udělá špatně, můžeš ji kdykoli vypnout."
+context = "Popis nahrávky řízené relaxace na webu poradny."
+benign = true
+marker = "Obsah otevřeně říká, čím je a čím není, a ponechává posluchači kontrolu nad ukončením."
+response = "Jde o legitimní užití: zklidňující jazyk je deklarovaný, bez skrytého cíle a bez prodejní výzvy."
+
+[[pattern]]
+id = "NLP-21.18"
+slug = "neuro-zargon"
+type = "concept"
+cs = "Neurožargon"
+en = "Neuro-jargon"
+aliases = ["neurobláboly", "neurovědecký nátěr"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["nlp-jako-pseudoveda", "kargokultovni-psychologie", "guru-efekt", "trh-certifikaci-nlp", "mysl-a-telo-jeden-system"]
+kompendium = [
+  "kompendium/detection-signatures/1-linguistic-jargon-density.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Na tomhle kurzu přeprogramujete své neuronové dráhy a vymažete staré vzorce z amygdaly. Je to čistá neurověda, proto to funguje u každého."
+context = "Text na prodejní stránce kurzu osobního rozvoje."
+benign = false
+marker = "Neurovědecké pojmy se používají bez vazby na měření či studii a slouží jako záruka účinnosti, která se navíc vztahuje na každého."
+response = "Ptát se, jaká konkrétní studie a s jakým výsledkem tvrzení podporuje; obecný odkaz na mozek není důkaz účinku kurzu."
+
+[[pattern.trainer]]
+utterance = "Víme, že učení mění mozek, ale z toho neplyne, že tenhle kurz funguje. Na to by byla potřeba srovnávací studie, kterou zatím nemáme."
+context = "Neurovědkyně v rozhlasové debatě o kurzech osobního rozvoje."
+benign = true
+marker = "Obecný neurovědecký fakt se odlišuje od tvrzení o účinku konkrétní metody a chybějící důkaz se přizná."
+response = "Jde o přesné užití odborného jazyka: neurovědecký pojem nenahrazuje důkaz a jeho mez je pojmenována."
+
+[[pattern]]
+id = "NLP-21.19"
+slug = "obrana-proti-vlivovym-vzorcum"
+type = "pattern"
+cs = "Obrana proti vlivovým vzorcům"
+en = "Defence against influence patterns"
+aliases = ["inokulace proti vlivu", "odolnost vůči přesvědčování"]
+use = "zadne"
+risk = "nizke"
+broader = ""
+related = ["rozpoznani-nlp-praktiky", "jak-cist-tvrzeni-nlp", "raport-jako-nastroj-vlivu", "meta-model", "deframing", "nlp-v-prodeji"]
+kompendium = [
+  "kompendium/06-obrana/_index.md",
+  "kompendium/06-klinicke-aplikace/preventivni-strategie.md",
+  "kompendium/population-health/_index.md",
+  "kompendium/organizational-defense/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tohle nemusíš nikomu ukazovat ani to s nikým probírat. Rozhodni se sám, teď, podle svého srdce. Rada zvenku by tě stejně jen zmátla."
+context = "Prodejce investičního produktu v osobním rozhovoru s klientem."
+benign = false
+marker = "Rozhodnutí se izoluje od vnějších názorů a od času na rozvážení, tedy právě od dvou podmínek, za nichž obrana proti vlivu funguje nejlépe."
+response = "Rozhodnutí, které nesnese radu zvenku a odklad, je důvod k odmítnutí; nabídku si vzít písemně a probrat ji s nezávislým člověkem."
+
+[[pattern.trainer]]
+utterance = "Ukážu vám tři triky, kterými se prodejci snaží urychlit podpis, a pak si je zkusíme najít v reálné reklamě. Až je potkáte, poznáte je dřív, než zaberou."
+context = "Lektorka kurzu finanční gramotnosti pro seniory."
+benign = true
+marker = "Oslabená ukázka manipulační techniky spolu s jejím rozborem odpovídá principu psychologické inokulace."
+response = "Jde o legitimní obranné vzdělávání: ukazuje strukturu techniky, aby ji posluchači poznali, a nikoho jí neovlivňuje."
+
+[[pattern]]
+id = "NLP-21.20"
+slug = "rozpoznani-nlp-praktiky"
+type = "pattern"
+cs = "Rozpoznání praktiky NLP v rozhovoru"
+en = "Recognising NLP practice in conversation"
+aliases = ["detekce NLP v komunikaci"]
+use = "zadne"
+risk = "nizke"
+broader = ""
+related = ["obrana-proti-vlivovym-vzorcum", "zrcadleni", "vlozene-prikazy", "ocni-pristupove-signaly", "konverzacni-hypnoza", "presupozice-milton"]
+kompendium = [
+  "kompendium/detection-signatures/_index.md",
+  "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+  "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "A zatímco tu sedíte a posloucháte mě, můžete si všimnout, jak se vám pomalu uvolňují ramena, a s tím uvolněním přichází i jistota, že tohle rozhodnutí je správné."
+context = "Obchodní zástupce v jednání o smlouvě, nikoli v terapii."
+benign = false
+marker = "Popis aktuálního prožitku se řetězí s implikovanou příčinností k závěru o rozhodnutí; hypnotický jazyk se objevuje v kontextu, kde nemá co dělat."
+response = "Vrátit rozhovor k obsahu: co přesně smlouva obsahuje, jaké jsou podmínky a proč by uvolnění mělo souviset s kvalitou nabídky."
+
+[[pattern.trainer]]
+utterance = "Všiml jsem si, že jsme oba za chvíli seděli úplně stejně. To se mezi lidmi, kteří spolu dobře mluví, děje samo, nemusí za tím být žádná technika."
+context = "Supervizor rozebírá s kolegou záznam běžné porady."
+benign = true
+marker = "Spontánní shoda držení těla se pozná jako běžný jev a není z ní vyvozován úmysl."
+response = "Jde o správné rozlišení: samotné napodobování je přirozené a teprve shluk znaků v kontextu tlaku může svědčit o praktice."

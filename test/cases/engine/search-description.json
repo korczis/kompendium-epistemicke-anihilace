@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 602,
+        "in": 603,
         "kind": "Pojem",
         "path": "glossary/epistemicka-anihilace.md",
         "tier": 6,
@@ -15,7 +15,17 @@
       },
       {
         "code": null,
-        "in": 170,
+        "in": 177,
+        "kind": "Kapitola",
+        "path": "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
+        "tier": 6,
+        "title": "6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy",
+        "url": "/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 173,
         "kind": "Pojem",
         "path": "glossary/kognitivni-anihilace.md",
         "tier": 6,
@@ -25,22 +35,12 @@
       },
       {
         "code": null,
-        "in": 170,
+        "in": 172,
         "kind": "Kapitola",
         "path": "kompendium/03-zakladni-kategorie/kapitola-2.md",
         "tier": 6,
         "title": "3.2 Scénáře epistemické delegitimizace",
         "url": "/kompendium/03-zakladni-kategorie/kapitola-2/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 163,
-        "kind": "Kapitola",
-        "path": "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
-        "tier": 6,
-        "title": "6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy",
-        "url": "/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/",
         "why": "description"
       },
       {
@@ -54,6 +54,16 @@
         "why": "description"
       },
       {
+        "code": "EA-1.3.2",
+        "in": 105,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+        "tier": 6,
+        "title": "EA-1.3.2 Strategická reinterpretace",
+        "url": "/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/",
+        "why": "description"
+      },
+      {
         "code": "EA-5.2.1",
         "in": 76,
         "kind": "Technika",
@@ -64,13 +74,23 @@
         "why": "description"
       },
       {
-        "code": "EA-1.3.2",
-        "in": 70,
+        "code": "EA-1.3.3",
+        "in": 69,
         "kind": "Technika",
-        "path": "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+        "path": "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
         "tier": 6,
-        "title": "EA-1.3.2 Strategická reinterpretace",
-        "url": "/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/",
+        "title": "EA-1.3.3 Tematická diverze",
+        "url": "/kompendium/techniques/ea-1-3-3-tematicka-diverze/",
+        "why": "description"
+      },
+      {
+        "code": "EA-1.4.1",
+        "in": 61,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+        "tier": 6,
+        "title": "EA-1.4.1 Prosodická dominance",
+        "url": "/kompendium/techniques/ea-1-4-1-prosodicka-dominance/",
         "why": "description"
       },
       {
@@ -84,16 +104,6 @@
         "why": "description"
       },
       {
-        "code": "EA-1.3.3",
-        "in": 47,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
-        "tier": 6,
-        "title": "EA-1.3.3 Tematická diverze",
-        "url": "/kompendium/techniques/ea-1-3-3-tematicka-diverze/",
-        "why": "description"
-      },
-      {
         "code": null,
         "in": 45,
         "kind": "Pojem",
@@ -104,23 +114,13 @@
         "why": "description"
       },
       {
-        "code": "EA-1.4.1",
-        "in": 45,
+        "code": "EA-7.3.2",
+        "in": 43,
         "kind": "Technika",
-        "path": "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+        "path": "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
         "tier": 6,
-        "title": "EA-1.4.1 Prosodická dominance",
-        "url": "/kompendium/techniques/ea-1-4-1-prosodicka-dominance/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 32,
-        "kind": "Pojem",
-        "path": "glossary/kognitivni-bias.md",
-        "tier": 6,
-        "title": "Kognitivní bias",
-        "url": "/glossary/kognitivni-bias/",
+        "title": "EA-7.3.2 Tversky a Kahneman: Heuristiky",
+        "url": "/kompendium/techniques/ea-7-3-2-tversky-heuristics/",
         "why": "description"
       }
     ],

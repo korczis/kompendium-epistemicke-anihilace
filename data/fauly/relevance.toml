@@ -1,0 +1,325 @@
+# Rodina AF-02: Klamy relevance (pravidlo project.content-catalogs; schéma v scripts/catalogs.py).
+# Pořadí záznamů je pořadí identifikátorů; identifikátor se po zveřejnění nemění.
+# Část "relevance": hesla AF-02.01 až AF-02.10.
+
+[[pattern]]
+id = "AF-02.01"
+slug = "ad-hominem"
+type = "informal"
+cs = "Útok na osobu"
+en = "Ad hominem"
+aliases = ["argumentum ad hominem", "útok na člověka", "urážlivý útok na osobu"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["okolnostni-ad-hominem", "tu-quoque", "otraveni-studny", "vina-asociaci", "genetic-klam", "personalizace-sporu"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-3-credentialing-attack.md",
+  "kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md",
+  "kompendium/techniques/ea-2-1-8-reputation-laundering-inverze.md",
+  "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Rozbor rozpočtu nemá cenu číst. Napsal ho člověk, který neudržel v pořádku ani vlastní firmu a jehož manželství se rozpadlo."
+context = "Zastupitel reaguje v debatě na kritickou analýzu městského rozpočtu, kterou předložil opoziční kolega."
+benign = false
+marker = "Místo čísel a výpočtů rozboru se hodnotí soukromý život a neúspěchy autora, které s věcnou správností rozpočtu nesouvisejí."
+response = "Oddělit autora od textu: požádat o konkrétní položku rozboru, která je chybná, a o důvod, proč je chybná, bez ohledu na to, kdo ji napsal."
+
+[[pattern.trainer]]
+utterance = "Svědek tvrdí, že viděl řidiče z dvaceti metrů, ale podle lékařské zprávy má neléčený šedý zákal a brýle ten den neměl."
+context = "Obhájce zpochybňuje u soudu výpověď očitého svědka dopravní nehody."
+benign = true
+marker = "Zpochybňuje se vlastnost osoby, která přímo souvisí se spolehlivostí jejího svědectví, a to doloženým údajem."
+response = "Platná úvaha: u svědectví je schopnost vnímat součástí důvodu, proč tvrzení věřit, takže námitka míří na premisu, ne vedle ní."
+
+[[pattern]]
+id = "AF-02.02"
+slug = "okolnostni-ad-hominem"
+type = "informal"
+cs = "Okolnostní útok na osobu"
+en = "Circumstantial ad hominem"
+aliases = ["ad hominem circumstantiae", "námitka zájmu", "útok poukazem na zájem"]
+use = "dvoji"
+risk = "stredni"
+broader = "ad-hominem"
+related = ["ad-hominem", "tu-quoque", "genetic-klam", "otraveni-studny", "bulverismus"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-6-funding-attack.md",
+  "kompendium/techniques/ea-2-1-3-credentialing-attack.md",
+  "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jeho výpočet emisí je bezcenný už proto, že pracuje pro dopravní firmu. Nic dalšího k tomu není třeba dodávat."
+context = "Účastník veřejného projednání odmítá posudek, který předložil zaměstnanec dopravce."
+benign = false
+marker = "Zájem autora se předkládá jako dostatečný důvod k zamítnutí výpočtu, aniž by se ukázalo, kde v něm je chyba."
+response = "Zájem je důvod výpočet zkontrolovat, ne ho odmítnout: lze požádat o nezávislé přepočítání a o zveřejnění vstupních dat."
+
+[[pattern.trainer]]
+utterance = "Studii financoval výrobce léku, proto bych chtěla, aby výsledky potvrdila nezávislá skupina, než je zařadíme do doporučení."
+context = "Členka odborné komise posuzuje podklady pro klinické doporučené postupy."
+benign = true
+marker = "Střet zájmů vede k požadavku na ověření, nikoli k závěru, že výsledky jsou nepravdivé."
+response = "Platná úvaha: zájem zvyšuje nárok na důkaz a nezávislou replikaci, ale tvrzení se nezamítá jen kvůli zdroji financování."
+
+[[pattern]]
+id = "AF-02.03"
+slug = "tu-quoque"
+type = "informal"
+cs = "Ty taky"
+en = "Tu quoque"
+aliases = ["argument pokrytectvím", "ty sám", "obrácení výtky"]
+use = "dvoji"
+risk = "stredni"
+broader = "ad-hominem"
+related = ["dve-kriva-jedno-pravo", "whataboutism", "okolnostni-ad-hominem", "ad-hominem", "som-aplikace-na-sebe"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ty mi budeš vyčítat, že piju? Sám jsi loni na oslavě nevěděl, jak se jmenuješ, takže o tom se bavit nebudeme."
+context = "Partnerka upozorňuje partnera na každodenní pití před dětmi."
+benign = false
+marker = "Upozornění se odmítá poukazem na jednorázové chování toho, kdo ho vyslovil, místo aby se posoudilo, zda je upozornění pravdivé."
+response = "Připustit, že výtka může být oprávněná, a přesto trvat na původním tématu: zda je současné pití problém, nezávisí na tom, kdo ho zmínil."
+
+[[pattern.trainer]]
+utterance = "Ministr dnes kritizuje státní dluh, ale za jeho vlády rostl rychleji. Jeho kritika tedy není nepravdivá, jen se nehodí hodnotit ho jako nestranného soudce."
+context = "Komentátor hodnotí projev bývalého ministra financí."
+benign = true
+marker = "Nekonzistence mluvčího se použije k hodnocení jeho důvěryhodnosti jako soudce, ne k vyvrácení obsahu kritiky."
+response = "Platná úvaha: poukaz na nekonzistenci je legitimní, pokud se výslovně odděluje od otázky, zda je kritika věcně správná."
+
+[[pattern]]
+id = "AF-02.04"
+slug = "genetic-klam"
+type = "informal"
+cs = "Genetický klam"
+en = "Genetic fallacy"
+aliases = ["klam původu", "argument z původu"]
+use = "chyba"
+risk = "stredni"
+broader = ""
+related = ["ad-hominem", "vina-asociaci", "etymologicky-klam", "odvolani-na-tradici", "som-meta-ramec", "bulverismus"]
+kompendium = [
+  "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md",
+  "kompendium/02-uvod/filosoficky-ramec.md",
+  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Ta metoda vznikla v armádě, takže do školy nepatří a její výsledky mě nezajímají."
+context = "Rodič na třídní schůzce odmítá výukovou metodu, kterou škola zavádí."
+benign = false
+marker = "Hodnota metody se odvozuje jen z místa, kde vznikla, a o jejích výsledcích ve škole se odmítá mluvit."
+response = "Původ metody nevypovídá o tom, zda funguje: na místě je otázka, jaké výsledky má ve školním prostředí a jaká jsou její rizika."
+
+[[pattern.trainer]]
+utterance = "Ten citát koluje po sítích, ale jeho původ se nedá dohledat a poprvé se objevil na webu, který vymýšlí výroky politiků. Bez ověření bych ho nepoužíval."
+context = "Redaktor zpravodajského webu posuzuje citát, který má být součástí článku."
+benign = true
+marker = "Původ tvrzení se posuzuje jako důkaz o jeho pravdivosti tam, kde jiný důkaz chybí a zdroj má doloženou historii výmyslů."
+response = "Platná úvaha: u svědectví a citátu je původ součástí důkazu, a závěr je opatrný, totiž neověřeno, ne nepravda."
+
+[[pattern]]
+id = "AF-02.05"
+slug = "otraveni-studny"
+type = "informal"
+cs = "Otrávení studny"
+en = "Poisoning the well"
+aliases = ["předem zdiskreditovat", "preventivní diskreditace"]
+use = "vliv"
+risk = "vysoke"
+broader = "ad-hominem"
+related = ["ad-hominem", "vina-asociaci", "kafkapast", "predramcovani", "myslenkove-ukoncujici-klise"]
+kompendium = [
+  "kompendium/techniques/ea-2-2-2-mentee-isolation.md",
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+  "kompendium/03-zakladni-kategorie/scenar-f.md",
+  "kompendium/techniques/ea-2-1-8-reputation-laundering-inverze.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Až ti rodiče budou říkat, že se ti tu něco děje, pamatuj, že lidé zvenčí nikdy nepochopí, co tady prožíváme. Jejich obavy jsou jen důkaz, jak jsou daleko."
+context = "Vedoucí uzavřené skupiny mluví s novým členem před jeho návštěvou u rodiny."
+benign = false
+marker = "Ještě před rozhovorem se každé budoucí varování z vnějšku předem prohlašuje za projev nepochopení, takže žádný jeho obsah už nemůže nic znamenat."
+response = "Všimnout si, že výrok předem znehodnocuje celou skupinu zdrojů: obsah konkrétních obav je na místě vyslechnout a posoudit samostatně."
+
+[[pattern.trainer]]
+utterance = "Než si poslechnete dalšího řečníka, upozorňuji, že je konzultantem firmy, o jejíž zakázce jednáme. Neznamená to, že nemá pravdu, jen to berte v úvahu."
+context = "Předsedající jednání zastupitelstva uvádí vystoupení externího odborníka."
+benign = true
+marker = "Upozornění na střet zájmů je věcné, ověřitelné a výslovně nepředjímá, zda bude obsah vystoupení správný."
+response = "Platná úvaha: zveřejnění zájmu je legitimní informace, a protože nevylučuje posouzení obsahu, studnu neotravuje."
+
+[[pattern]]
+id = "AF-02.06"
+slug = "vina-asociaci"
+type = "informal"
+cs = "Vina asociací"
+en = "Guilt by association"
+aliases = ["vina spojením", "reductio ad Hitlerum"]
+use = "dvoji"
+risk = "vysoke"
+broader = "ad-hominem"
+related = ["genetic-klam", "otraveni-studny", "vybirani-podivinu", "ukvapene-zobecneni", "ad-hominem"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+  "kompendium/techniques/ea-2-3-2-context-collapse.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Návrh na zkrácení pracovní doby podporují i extremisté z okrajové strany. Kdo ho podpoří, jde s nimi."
+context = "Poslanec reaguje v rozpravě na návrh kolegy z jiné frakce."
+benign = false
+marker = "Návrh se hodnotí podle toho, kdo další ho podporuje, a jeho vlastnosti se z debaty vytrácejí."
+response = "Shoda s nepopulární skupinou v jednom bodě nic neříká o kvalitě návrhu: lze se vrátit k jeho dopadům a nákladům."
+
+[[pattern.trainer]]
+utterance = "Firma, která nám nabízí audit, sdílí vedení a sídlo se společností, kterou jsme právě auditovali. Nezávislost auditu tedy nemůže být zaručena."
+context = "Člen dozorčí rady posuzuje nabídky na nezávislý audit."
+benign = true
+marker = "Spojení je doložené a přímo souvisí s vlastností, o kterou jde, totiž s nezávislostí posuzovatele."
+response = "Platná úvaha: personální propojení je relevantní pro nezávislost, takže nejde o vinu asociací, ale o věcný důvod."
+
+[[pattern]]
+id = "AF-02.07"
+slug = "odvolani-na-autoritu"
+type = "informal"
+cs = "Odvolání na nepatřičnou autoritu"
+en = "Appeal to authority"
+aliases = ["argumentum ad verecundiam", "argument autoritou", "nepatřičná autorita"]
+use = "dvoji"
+risk = "vysoke"
+broader = ""
+related = ["anonymni-autorita", "ad-populum", "vedecky-zargon", "galileuv-gambit", "guru-efekt", "neuro-zargon"]
+kompendium = [
+  "kompendium/techniques/ea-9-1-7-synthetic-expertise-claim.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md",
+  "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Očkování dětí je zbytečné riziko, to říká i profesor jaderné fyziky, který o tom napsal knihu. Takový vědec přece ví, o čem mluví."
+context = "Rodič sdílí v rodičovské skupině odkaz na rozhovor s fyzikem."
+benign = false
+marker = "Odbornost v jednom oboru se přenáší na tvrzení z jiného oboru a o shodě odborníků v příslušném oboru se nemluví."
+response = "Zeptat se, zda je mluvčí odborníkem právě v epidemiologii a imunologii a co o otázce říká převažující názor tohoto oboru a jeho data."
+
+[[pattern.trainer]]
+utterance = "Podle národního doporučení, které připravila odborná společnost na základě přehledu studií, je tento lék první volbou. Zdroj i data jsou v příloze."
+context = "Lékařka vysvětluje pacientovi navrhovanou léčbu."
+benign = true
+marker = "Autorita je příslušná oboru, opírá se o přezkoumatelná data a je uvedena tak, aby se dala ověřit."
+response = "Platná úvaha: odvolání na relevantní odborný konsenzus je rozumný důvod, pokud je dohledatelný a otevřený další kontrole."
+
+[[pattern]]
+id = "AF-02.08"
+slug = "anonymni-autorita"
+type = "informal"
+cs = "Anonymní autorita"
+en = "Appeal to anonymous authority"
+aliases = ["„odborníci tvrdí“", "„studie ukazují“", "nejmenovaný zdroj"]
+use = "dvoji"
+risk = "stredni"
+broader = "odvolani-na-autoritu"
+related = ["odvolani-na-autoritu", "vyhybava-slova", "ad-populum", "argument-opakovanim", "neuro-zargon"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/techniques/ea-9-1-6-llm-source-attribution-bypass.md",
+  "kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vědci už dávno prokázali, že tento doplněk stravy zlepšuje paměť o polovinu. Odborníci se na tom shodnou, jen se o tom nemluví."
+context = "Reklamní text na stránce internetového obchodu s doplňky stravy."
+benign = false
+marker = "Tvrzení se opírá o nejmenované vědce a nespecifikovanou shodu, takže nelze dohledat, kdo co a na jakých datech zjistil."
+response = "Požadovat konkrétní studii, autora a místo publikace; bez nich zůstává tvrzení neověřené bez ohledu na to, jak sebejistě zní."
+
+[[pattern.trainer]]
+utterance = "Informaci potvrdily dva na sobě nezávislé zdroje z ministerstva, které požádaly o anonymitu. Ministerstvo se k ní zatím nevyjádřilo."
+context = "Zpravodajský článek o připravované změně zákona."
+benign = true
+marker = "Anonymita je přiznaná a zdůvodněná, uvádí se počet a nezávislost zdrojů a nejistota zůstává otevřeně vyznačena."
+response = "Přijatelné užití: redakce ručí za ověření a čtenář ví, jakou váhu tvrzení má; závěr se drží jako předběžný."
+
+[[pattern]]
+id = "AF-02.09"
+slug = "ad-populum"
+type = "informal"
+cs = "Odvolání na většinu"
+en = "Appeal to popularity"
+aliases = ["argumentum ad populum", "argument většinou", "consensus gentium"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["rozjety-vlak", "odvolani-na-autoritu", "odvolani-na-tradici", "argument-opakovanim", "anonymni-autorita"]
+kompendium = [
+  "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+  "kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tuhle léčbu rakoviny bylinami používají statisíce lidí po celém světě. Tolik lidí se přece nemůže mýlit."
+context = "Diskuse pod článkem o alternativní léčbě onkologických onemocnění."
+benign = false
+marker = "Počet uživatelů se předkládá jako důkaz účinnosti, ačkoli o tom, zda léčba funguje, rozhodují kontrolovaná srovnání, ne obliba."
+response = "Oddělit rozšířenost od účinku: zeptat se na srovnání výsledků léčených a neléčených pacientů, ne na počet zájemců."
+
+[[pattern.trainer]]
+utterance = "Většina obyvatel ve veřejném hlasování podpořila stavbu parku místo parkoviště, a protože jde o veřejný prostor, rada by se měla řídit jejich volbou."
+context = "Radní zdůvodňuje rozhodnutí o využití městského pozemku."
+benign = true
+marker = "Většina se uvádí jako důvod pro rozhodnutí o preferenci společenství, ne jako důkaz o faktické pravdě."
+response = "Platná úvaha: u otázek, co si společenství přeje, je mínění většiny přímo relevantní; klamem by bylo vydávat ho za důkaz o faktech."
+
+[[pattern]]
+id = "AF-02.10"
+slug = "rozjety-vlak"
+type = "informal"
+cs = "Rozjetý vlak"
+en = "Bandwagon"
+aliases = ["efekt rozjetého vlaku", "bandwagon", "naskočit do vlaku"]
+use = "vliv"
+risk = "stredni"
+broader = "ad-populum"
+related = ["ad-populum", "odvolani-na-novost", "argument-opakovanim", "palba-nepravd", "odvolani-na-strach"]
+kompendium = [
+  "kompendium/techniques/ea-9-3-10-trend-manipulation-EA.md",
+  "kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md",
+  "kompendium/techniques/ea-2-3-4-mob-coordination.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Do tohohle projektu už vstoupilo osm tisíc lidí jen za poslední týden. Kdo nenaskočí teď, bude za rok litovat, že u toho nebyl."
+context = "Propagační video investiční platformy, která slibuje vysoké zhodnocení."
+benign = false
+marker = "Rychle rostoucí počet účastníků a hrozba, že člověk zůstane pozadu, nahrazují informace o riziku a o tom, z čeho výnos plyne."
+response = "Zpomalit rozhodnutí a hledat to, co chybí: kdo projekt provozuje, z čeho mají plynout výnosy a co tvrdí nezávislý regulátor."
+
+[[pattern.trainer]]
+utterance = "Většina nemocnic v regionu už přešla na nový systém hlášení nežádoucích událostí. Než ho zavedeme, zeptejme se jich, jaké s ním mají zkušenosti."
+context = "Ředitel nemocnice na poradě vedení."
+benign = true
+marker = "Rozšířenost změny je podnět ke zjištění zkušeností, ne důvod k přijetí bez posouzení."
+response = "Platná úvaha: to, že ostatní něco dělají, je užitečná informace o proveditelnosti, pokud se dál posuzují výsledky."

@@ -15,7 +15,7 @@
       },
       {
         "code": null,
-        "in": 116,
+        "in": 136,
         "kind": "Kapitola",
         "path": "kompendium/02-uvod/metodologicke-poznamky.md",
         "tier": 5,
@@ -65,7 +65,7 @@
       },
       {
         "code": null,
-        "in": 301,
+        "in": 311,
         "kind": "Kapitola",
         "path": "kompendium/01-predmluva/eticke-aspekty.md",
         "tier": 6,
@@ -105,7 +105,7 @@
       },
       {
         "code": null,
-        "in": 87,
+        "in": 89,
         "kind": "Kapitola",
         "path": "kompendium/_index.md",
         "tier": 6,

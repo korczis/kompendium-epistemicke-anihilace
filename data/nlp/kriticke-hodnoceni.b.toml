@@ -1,0 +1,231 @@
+# Rodina NLP-22: Kritické hodnocení NLP, část b (NLP-22.08 až NLP-22.14).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py.
+
+[[pattern]]
+id = "NLP-22.08"
+slug = "hodnoceni-narodni-rady-pro-vyzkum"
+type = "concept"
+cs = "Hodnocení Národní rady pro výzkum USA"
+en = "US National Research Council appraisal"
+aliases = ["zpráva Enhancing Human Performance", "hodnocení pro americkou armádu"]
+use = "zadne"
+risk = "nizke"
+broader = "stav-dukazu-nlp"
+related = ["vyzkum-preferovaneho-systemu", "nlp-jako-pseudoveda", "databaze-vyzkumu-nlp", "preferovany-reprezentacni-system", "jak-cist-tvrzeni-nlp"]
+kompendium = [
+  "kompendium/techniques/ea-8-3-4-empirical-research-base.md",
+  "kompendium/critical-perspectives/_index.md",
+  "kompendium/02-uvod/metodologicke-poznamky.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Naši metodu kdysi zkoumala i americká armáda, takže je to vědecky ověřené a nemusíte to dál řešit."
+context = "Lektor semináře odpovídá účastníkovi, který se ptá na výzkum."
+benign = false
+marker = "Skutečnost, že metodu někdo posuzoval, se vydává za doklad účinnosti, ačkoli hodnocení pro armádu dospělo k opačnému závěru."
+response = "Zeptat se, co přesně hodnocení zjistilo, a vyhledat jeho závěr; posouzení není totéž co potvrzení."
+
+[[pattern.trainer]]
+utterance = "Panel Národní rady pro výzkum na konci osmdesátých let nenašel pro předpoklady NLP oporu; od té doby se obraz podstatně nezměnil."
+context = "Přednášející v semináři metodologie psychologického výzkumu."
+benign = true
+marker = "Mluvčí uvádí, kdo hodnocení provedl a k jakému závěru došel, a odlišuje ho od pozdějšího výzkumu."
+response = "Legitimní užití: přesné převyprávění závěru nezávislého panelu, které posluchač může ověřit v publikované zprávě."
+
+[[pattern]]
+id = "NLP-22.09"
+slug = "nlp-v-koucinku-vyzkum"
+type = "concept"
+cs = "Výzkum NLP v koučinku"
+en = "Research on NLP in coaching"
+aliases = ["NLP a psychologie koučování"]
+use = "zadne"
+risk = "stredni"
+broader = "stav-dukazu-nlp"
+related = ["nlp-v-koucinku", "trh-certifikaci-nlp", "guru-efekt", "databaze-vyzkumu-nlp", "jak-cist-tvrzeni-nlp"]
+kompendium = [
+  "kompendium/organizational-defense/_index.md",
+  "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md",
+  "kompendium/techniques/ea-8-3-4-empirical-research-base.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Certifikovaný NLP kouč vám zaručí výsledky, které běžný kouč nedokáže, to potvrzují stovky spokojených klientů."
+context = "Nabídka koučovací služby na webu firmy."
+benign = false
+marker = "Výsledek se dokládá počtem spokojených klientů a certifikátem, ne srovnávací studií; slib zaručeného výsledku překračuje to, co výzkum koučinku umí doložit."
+response = "Ptát se po kontrolovaných studiích, oddělit spokojenost od účinku a ověřit, kdo certifikát vydal a podle jakých standardů."
+
+[[pattern.trainer]]
+utterance = "Některé techniky z kurzu NLP používám, ale klientům říkám otevřeně, že jejich účinnost výzkum nepotvrdil a že pracujeme s jejich vlastními cíli."
+context = "Kouč v úvodním rozhovoru s novým klientem."
+benign = true
+marker = "Kouč odděluje vlastní zkušenost od důkazů a sděluje klientovi stav výzkumu dřív, než začne spolupráce."
+response = "Legitimní užití: informovaný souhlas a pravdivé tvrzení o důkazech nechávají klientovi volbu."
+
+[[pattern]]
+id = "NLP-22.10"
+slug = "falzifikovatelnost-nlp"
+type = "concept"
+cs = "Falzifikovatelnost NLP"
+en = "Falsifiability of NLP"
+aliases = ["nevyvratitelnost NLP", "testovatelnost NLP"]
+use = "zadne"
+risk = "stredni"
+broader = "nlp-jako-pseudoveda"
+related = ["neni-selhani-jen-zpetna-vazba", "kdyz-to-nefunguje-udelej-neco-jineho", "predpoklady-jako-pracovni-hypotezy", "kargokultovni-psychologie", "jak-cist-tvrzeni-nlp"]
+kompendium = [
+  "kompendium/techniques/ea-7-2-3-popper-falsification.md",
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/quick-reference/qr-ea-1-3-1.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když technika nezabrala, neprovedl ji výzkumník správně nebo nebyl klient připravený. Samotná metoda selhat nemůže."
+context = "Trenér NLP reaguje na otázku po negativních studiích."
+benign = false
+marker = "Každý neúspěch se připíše provedení nebo osobě, nikdy metodě, takže žádné pozorování nemůže tvrzení vyvrátit."
+response = "Požádat o předem stanovené podmínky, za kterých by trenér uznal, že technika nefunguje; bez nich nejde o empirické tvrzení."
+
+[[pattern.trainer]]
+utterance = "Pokud lidé s údajně vizuální preferencí nebudou na vizuální slova reagovat lépe než ostatní, budeme muset hypotézu opustit."
+context = "Výzkumník představuje návrh studie na katedře psychologie."
+benign = true
+marker = "Výrok předem určuje výsledek, který by hypotézu vyvrátil, a tím ji činí testovatelnou."
+response = "Legitimní užití: falzifikační kritérium je stanoveno předem a nezávisí na tom, jak výsledek dopadne."
+
+[[pattern]]
+id = "NLP-22.11"
+slug = "historie-nlp"
+type = "concept"
+cs = "Historie NLP"
+en = "History of NLP"
+aliases = ["vznik NLP", "dějiny neurolingvistického programování"]
+use = "zadne"
+risk = "nizke"
+broader = ""
+related = ["koreny-nlp", "modelovani-excelence", "meta-model", "milton-model", "novy-kod", "trh-certifikaci-nlp"]
+kompendium = [
+  "kompendium/02-uvod/historicky-kontext.md",
+  "kompendium/techniques/ea-8-3-1-foundational-readings.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "NLP vzniklo v laboratořích jako výsledek desítek let neurovědeckého výzkumu mozku, proto má v názvu neuro."
+context = "Úvodní prezentace komerčního kurzu osobního rozvoje."
+benign = false
+marker = "Původ oboru se přepisuje na vědeckou tradici, kterou nemá; ve skutečnosti vzešel z modelování několika terapeutů na začátku sedmdesátých let."
+response = "Ověřit historii v primární literatuře zakladatelů; vznik z pozorování terapeutů je doložen, neurovědecký výzkum jako zdroj není."
+
+[[pattern.trainer]]
+utterance = "NLP založili Richard Bandler a John Grinder v Santa Cruz na začátku sedmdesátých let, když se snažili popsat, co dělají úspěšní terapeuti."
+context = "Úvod do přednášky o dějinách psychoterapeutických směrů."
+benign = true
+marker = "Mluvčí uvádí doložené základní údaje o vzniku a nepřidává k nim tvrzení o vědeckém potvrzení."
+response = "Legitimní užití: věcný historický popis, který neslouží jako argument pro účinnost metody."
+
+[[pattern]]
+id = "NLP-22.12"
+slug = "koreny-nlp"
+type = "concept"
+cs = "Kořeny NLP: Satirová, Perls, Erickson"
+en = "Roots of NLP: Satir, Perls, Erickson"
+aliases = ["zdroje NLP", "modelovaní terapeuti"]
+use = "zadne"
+risk = "nizke"
+broader = "historie-nlp"
+related = ["kategorie-satirove", "ericksonovska-hypnoza", "milton-model", "meta-model", "modelovani-pojem", "kargokultovni-psychologie"]
+kompendium = [
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+  "kompendium/02-uvod/teoreticke-zaklady.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Máme to nejlepší ze Satirové, Perlse i Ericksona v jednom víkendovém kurzu, takže jejich výcvik už nepotřebujete."
+context = "Reklama na víkendový kurz NLP."
+benign = false
+marker = "Jména uznávaných terapeutů slouží jako záruka kvality zkráceného kurzu, který s jejich výcvikem, supervizí a klinickým rámcem nemá nic společného."
+response = "Odlišit inspiraci od kvalifikace: zeptat se, kdo kurz vede, jakou má klinickou přípravu a jak dlouhý je výcvik, na který se odvolává."
+
+[[pattern.trainer]]
+utterance = "Bandler a Grinder se inspirovali rodinnou terapií Satirové, gestaltem Perlse a hypnózou Ericksona; o účinnosti NLP to samo nic neříká."
+context = "Vyučující v kurzu dějin psychoterapie."
+benign = true
+marker = "Mluvčí uvádí zdroje oboru a výslovně odděluje původ od otázky důkazů."
+response = "Legitimní užití: historická souvislost bez argumentu z autority."
+
+[[pattern]]
+id = "NLP-22.13"
+slug = "kargokultovni-psychologie"
+type = "concept"
+cs = "NLP jako kargokultovní psychologie"
+en = "NLP as cargo-cult psychology"
+aliases = ["kargokultovní věda", "cargo cult psychology"]
+use = "zadne"
+risk = "stredni"
+broader = "nlp-jako-pseudoveda"
+related = ["neuro-zargon", "falzifikovatelnost-nlp", "koreny-nlp", "stav-dukazu-nlp", "trh-certifikaci-nlp"]
+kompendium = [
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/detection-signatures/1-linguistic-jargon-density.md",
+  "kompendium/techniques/ea-7-2-4-lakatos-research-program.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Pracujeme s neurologickými programy a submodalitami, přesně podle modelu mozku; skeptici tomu prostě nerozumějí."
+context = "Praktik NLP na firemním workshopu odpovídá na pochybnosti."
+benign = false
+marker = "Odborné a neurovědní termíny vytvářejí vnější podobu vědy, ale chybí měření, kontrolní skupina i otevřenost kritice; kritika se odbude jako neporozumění."
+response = "Žádat, aby mluvčí termíny definoval a doložil publikovaným výzkumem; přítomnost odborného slovníku nic nedokazuje."
+
+[[pattern.trainer]]
+utterance = "Ten kurz používá slovník psychologie, ale publikované studie k jeho technikám jsem nenašla, takže ho zatím beru jako nevědecký."
+context = "Psycholožka hodnotí pro kolegy nabídku vzdělávacího kurzu."
+benign = true
+marker = "Hodnotitelka rozlišuje formu (odborný slovník) od obsahu (ověřené výsledky) a soud zakládá na dostupných důkazech."
+response = "Legitimní užití: podoba vědy se odlišuje od vědecké praxe a závěr zůstává otevřený novým datům."
+
+[[pattern]]
+id = "NLP-22.14"
+slug = "jak-cist-tvrzeni-nlp"
+type = "concept"
+cs = "Jak číst tvrzení NLP"
+en = "How to read NLP claims"
+aliases = ["kritické čtení NLP", "hodnocení tvrzení NLP"]
+use = "zadne"
+risk = "nizke"
+broader = "stav-dukazu-nlp"
+related = ["falzifikovatelnost-nlp", "kargokultovni-psychologie", "neuro-zargon", "predpoklady-jako-pracovni-hypotezy", "rozpoznani-nlp-praktiky", "obrana-proti-vlivovym-vzorcum"]
+kompendium = [
+  "kompendium/06-obrana/_index.md",
+  "kompendium/techniques/ea-8-3-4-empirical-research-base.md",
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tahle technika funguje u každého a okamžitě, viděli jste to tu na pódiu sami na vlastní oči."
+context = "Řečník na velkém motivačním semináři po předváděcí ukázce."
+benign = false
+marker = "Univerzální a okamžitý účinek se dokládá jedinou předváděcí ukázkou před publikem, bez kontroly, výběru účastníků a sledování."
+response = "Ptát se, jak byl dobrovolník vybrán, co se dělo před ukázkou a zda existuje studie s kontrolní skupinou a pozdějším sledováním."
+
+[[pattern.trainer]]
+utterance = "Tvrzení o shodě predikátů je testovatelné a testováno bylo; tvrzení, že mapa není území, je filozofické východisko, ne empirický výsledek."
+context = "Lektorka kurzu kritického myšlení pro zdravotníky."
+benign = true
+marker = "Mluvčí třídí tvrzení podle druhu a každému přiřazuje odpovídající měřítko důkazu."
+response = "Legitimní užití: rozlišení filozofických předpokladů, empirických hypotéz a slibů výsledku."

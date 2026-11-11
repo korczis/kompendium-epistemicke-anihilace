@@ -4,7 +4,7 @@
 {% include "partials/header.html" %}
 <div class="grid grid-cols-1 gap-4 px-4 pt-6 xl:grid-cols-4">
   <div class="min-w-0 space-y-4 xl:col-span-3">
-    {%- set explorer = section.path in ["/kompendium/techniques/", "/glossary/", "/kompendium/historical-cases/"] %}
+    {%- set explorer = section.path in ["/kompendium/techniques/", "/glossary/", "/kompendium/historical-cases/"] or section.extra.catalog is defined %}
     {#- Průzkumník se ukáže, až naběhne Alpine; jeho místo (kea-explorer-slot, app.css) je od
         začátku aspoň na výšku okna, takže text pod ním neposkočí (CLS). -#}
     {%- if explorer %}
@@ -15,6 +15,8 @@
     {% include "partials/explorer-glossary.html" %}
     {%- elif section.path == "/kompendium/historical-cases/" %}
     {% include "partials/explorer-historical.html" %}
+    {%- elif section.extra.catalog is defined %}
+    {% include "partials/explorer-katalog.html" %}
     {%- endif %}
     </div>
     {%- endif %}

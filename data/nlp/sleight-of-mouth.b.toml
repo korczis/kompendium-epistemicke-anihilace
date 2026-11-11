@@ -1,0 +1,260 @@
+# Rodina NLP-07: Sleight of Mouth, část b (NLP-07.09 až NLP-07.16).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py.
+
+[[pattern]]
+id = "NLP-07.09"
+slug = "som-analogie"
+type = "pattern"
+cs = "Analogie"
+en = "Analogy"
+aliases = ["metafora v Sleight of Mouth", "analogie nebo metafora"]
+use = "dvoji"
+risk = "stredni"
+broader = "sleight-of-mouth"
+related = ["izomorfni-metafora", "terapeuticka-metafora", "som-protipriklad", "som-redefinice", "obsahovy-reframing"]
+kompendium = [
+  "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md",
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Pochybnosti o firmě jsou jako strach z létání: letadlo je statisticky nejbezpečnější, a stejně tak náš investiční program. Kdo se bojí, jen nerozumí číslům."
+context = "Prodejce investičního produktu na prezentaci pro drobné střadatele."
+benign = false
+marker = "Přirovnání k jiné oblasti, v níž je strach prokazatelně iracionální, se nabízí místo údajů o samotném produktu; podobnost obou situací se nedokládá, jen předpokládá."
+response = "Oddělit přirovnání od tvrzení a žádat údaje o produktu samém: auditované výsledky, rizika, poplatky a regulační dohled, ne o bezpečnosti letadel."
+
+[[pattern.trainer]]
+utterance = "Možná je to trochu jako učit se na kole: první týdny padáte a neznamená to, že na to nemáte. Ale jestli to tak u vás je, posoudíte sama."
+context = "Terapeutka s klientkou, která po měsíci v nové práci pochybuje o svých schopnostech."
+benign = true
+marker = "Analogie se nabízí jako jedna z možných perspektiv, mluvčí výslovně nechává posouzení její přiléhavosti na adresátce a netvrdí, že z ní něco plyne."
+response = "Jde o legitimní užití: přirovnání rozšiřuje pohled, ale nenahrazuje důkaz a adresátka ho může odmítnout bez následků."
+
+[[pattern]]
+id = "NLP-07.10"
+slug = "som-jiny-vysledek"
+type = "pattern"
+cs = "Jiný výsledek"
+en = "Another outcome"
+aliases = ["přesun cíle", "jiný cíl"]
+use = "dvoji"
+risk = "stredni"
+broader = "sleight-of-mouth"
+related = ["ramec-vysledku", "vyzva-k-relevanci", "som-zamer", "som-hierarchie-kriterii"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+  "kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Jestli vám za ty přesčasy zaplatíme, teď vůbec není otázka. Otázka je, jestli chcete patřit k lidem, kteří tým v těžké chvíli nenechají ve štychu."
+context = "Vedoucí odpovídá zaměstnanci, který se ptá na proplacení přesčasů."
+benign = false
+marker = "Konkrétní a oprávněná otázka (odměna) se prohlásí za nepodstatnou a nahradí se jiným cílem (loajalita), na který už původní námitka nedosahuje."
+response = "Vrátit rozhovor k původní otázce a trvat na odpovědi na ni; nový cíl lze probrat zvlášť, ale nesmí nahradit odpověď na to, na co se člověk ptal."
+
+[[pattern.trainer]]
+utterance = "Rozumím, že chcete tu zkoušku hlavně udělat. Stálo by za to se také zeptat, co si z předmětu chcete odnést, ale o tom, co je pro vás důležitější, rozhodujete vy."
+context = "Studijní poradkyně se studentem před opravným termínem."
+benign = true
+marker = "Nový cíl se nabízí vedle původního, ne místo něj, a volba mezi nimi zůstává výslovně na adresátovi."
+response = "Jde o legitimní užití: rozšíření úvahy o další cíl bez zpochybnění původní otázky a bez tlaku na její opuštění."
+
+[[pattern]]
+id = "NLP-07.11"
+slug = "som-model-sveta"
+type = "pattern"
+cs = "Model světa"
+en = "Model of the world"
+aliases = ["jiný model světa", "relativizace přesvědčení"]
+use = "dvoji"
+risk = "stredni"
+broader = "sleight-of-mouth"
+related = ["mapa-neni-uzemi", "respekt-k-modelu-sveta", "som-strategie-reality", "som-meta-ramec"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md",
+  "kompendium/07-teoreticke-reflexe/socialni-epistemologie.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "To, že ti to připadá jako ponižování, je jen tvůj model světa. V mé rodině se takhle normálně mluvilo a nikomu to nevadilo."
+context = "Partner reaguje na výtku, že se k druhému chová ponižujícím způsobem."
+benign = false
+marker = "Zkušenost druhého se relativizuje jako „pouhý model světa“, zatímco mluvčího vlastní model se předkládá jako norma; relativizace slouží k odmítnutí výtky, ne k porozumění."
+response = "Trvat na tom, že odlišné modely nemění dopad chování, a hodnotit ho podle toho, co se stalo a co to s člověkem dělá, ne podle toho, co bylo zvykem jinde."
+
+[[pattern.trainer]]
+utterance = "Vy to vnímáte jako selhání. Znám lidi, kteří by stejnou situaci popsali jako první pokus. Nemusíte s nimi souhlasit, jen mě zajímá, jestli vám to něco říká."
+context = "Psycholog s klientem, který se obviňuje z neúspěšného podnikání."
+benign = true
+marker = "Jiný model světa se nabízí jako možnost k posouzení, zkušenost klienta se nepopírá a souhlas se výslovně nevyžaduje."
+response = "Jde o legitimní užití: rozšíření perspektivy, v němž zůstává klientova zkušenost platná a rozhodnutí o jejím výkladu u něj."
+
+[[pattern]]
+id = "NLP-07.12"
+slug = "som-strategie-reality"
+type = "pattern"
+cs = "Strategie reality"
+en = "Reality strategy"
+aliases = ["zpochybnění způsobu, jak to víte"]
+use = "dvoji"
+risk = "vysoke"
+broader = "sleight-of-mouth"
+related = ["strategie-reality", "presvedcovaci-strategie", "som-model-sveta", "som-meta-ramec"]
+kompendium = [
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/techniques/ea-4-3-5-evidential-criteria-modification.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "A jak víš, že jsem to opravdu řekl? Vybavuješ si ten obraz, nebo jen pocit? Pocity si přece mozek dotváří, to je dokázané."
+context = "Partner zpochybňuje vzpomínku druhého na urážku během hádky."
+benign = false
+marker = "Otázka nesměřuje k ověření události, ale k rozkladu důvěry ve vlastní paměť: zpochybňuje se způsob vybavování, a to selektivně jen u vzpomínky nepříjemné mluvčímu."
+response = "Neodpovídat rozborem vlastních vnitřních procesů, ale navrhnout ověření nezávislými stopami (zprávy, svědci, zápisky) a vlastní záznam vést průběžně."
+
+[[pattern.trainer]]
+utterance = "Ten článek tvrdí, že lék způsobuje neplodnost. Podle čeho poznáváte, že je zpráva spolehlivá, a podle čeho byste poznala opak?"
+context = "Lékárnice s pacientkou, která se kvůli článku na sociální síti bojí užívat předepsaný lék."
+benign = true
+marker = "Otázka po kritériích spolehlivosti se uplatňuje na zdroj informace, ne na paměť nebo vnímání člověka, a vede k samostatnému ověřování."
+response = "Jde o legitimní užití: podpora mediální gramotnosti, při níž si adresátka sama vyjasní, jak informace posuzuje, a může je ověřit u odborníka."
+
+[[pattern]]
+id = "NLP-07.13"
+slug = "som-hierarchie-kriterii"
+type = "pattern"
+cs = "Hierarchie kritérií"
+en = "Hierarchy of criteria"
+aliases = ["vyšší hodnota", "přebití kritériem"]
+use = "dvoji"
+risk = "vysoke"
+broader = "sleight-of-mouth"
+related = ["kriteria", "sladeni-hodnot", "uroven-presvedceni-a-hodnot", "som-jiny-vysledek", "som-zamer"]
+kompendium = [
+  "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md",
+  "kompendium/techniques/ea-5-3-11-axiologicka-inverze.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Chápu, že je to drahé. Ale opravdu chcete šetřit zrovna na bezpečí svých dětí? Na tom přece cena nehraje roli."
+context = "Prodejce zabezpečovacího systému reaguje na námitku rodiče, že je nabídka příliš drahá."
+benign = false
+marker = "Námitka podle jednoho kritéria (cena) se přebíjí kritériem, které adresát nemůže veřejně odmítnout (bezpečí dětí), aniž by se dokládalo, že produkt to vyšší kritérium vůbec naplňuje."
+response = "Rozlišit hodnotu od produktu: bezpečí je důležité, ale otázka zní, zda právě tato nabídka k němu přispívá víc než levnější varianty; rozhodnutí odložit a srovnat."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že vás ta práce baví, a zároveň, že nemáte čas na rodinu. Co je pro vás teď důležitější? Nemusíte odpovídat hned."
+context = "Koučka s klientem, který zvažuje změnu pracovního úvazku."
+benign = true
+marker = "Kritéria pojmenovává sám klient a mluvčí jen zviditelňuje jejich střet; pořadí hodnot neurčuje a nechává klientovi čas."
+response = "Jde o legitimní užití: vyjasnění vlastních priorit adresáta bez podsouvání kritéria zvenku a bez časového tlaku."
+
+[[pattern]]
+id = "NLP-07.14"
+slug = "som-aplikace-na-sebe"
+type = "pattern"
+cs = "Aplikace na sebe"
+en = "Apply to self"
+aliases = ["obrácení přesvědčení proti sobě"]
+use = "dvoji"
+risk = "stredni"
+broader = "sleight-of-mouth"
+related = ["som-meta-ramec", "som-protipriklad", "som-model-sveta"]
+kompendium = [
+  "kompendium/techniques/ea-5-4-19-self-undermining-claim.md",
+  "kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Říkáš, že na tebe tlačím. Ale teď na mě tlačíš ty, abych přestal. Takže kdo tady koho manipuluje?"
+context = "Partner odpovídá na prosbu druhého, aby přestal naléhat na rychlé rozhodnutí."
+benign = false
+marker = "Výtka se obrátí na toho, kdo ji vyslovil, a samotné vyslovení stížnosti se prohlásí za stejné jednání, jaké popisuje; obsah výtky zůstane neprověřen."
+response = "Oddělit výtku od jejího vyslovení: prosba o prostor není nátlak stejného druhu a otázka, zda k naléhání docházelo, se posuzuje podle chování, ne podle obratu."
+
+[[pattern.trainer]]
+utterance = "Tvrdíte, že se na žádné studie nedá spolehnout. Opíráte to o nějakou studii? Pokud ano, platí ta výhrada i pro ni."
+context = "Vyučující metodologie v semináři diskutuje se studentem tvrzení, že všechny výzkumy jsou zmanipulované."
+benign = true
+marker = "Kritérium tvrzení se uplatní na tvrzení samo, aby se ukázala jeho nekonzistence, a diskuse pokračuje k tomu, jaké rozlišení mezi studiemi je rozumné."
+response = "Jde o legitimní užití: test vnitřní konzistence obecného tvrzení v akademické diskusi, který nesměřuje k zesměšnění mluvčího, ale k přesnější formulaci."
+
+[[pattern]]
+id = "NLP-07.15"
+slug = "som-meta-ramec"
+type = "pattern"
+cs = "Meta-rámec"
+en = "Meta frame"
+aliases = ["přesvědčení o přesvědčení", "psychologizace námitky"]
+use = "dvoji"
+risk = "vysoke"
+broader = "sleight-of-mouth"
+related = ["som-aplikace-na-sebe", "som-model-sveta", "som-strategie-reality", "meta-pozice"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md",
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Že máš o naší skupině pochybnosti, není nic jiného než tvoje stará zranění z dětství. Ty pochybnosti mluví z tvé bolesti, ne z reality."
+context = "Vedoucí duchovní skupiny odpovídá členovi, který zpochybňuje finanční požadavky skupiny."
+benign = false
+marker = "Obsah námitky se neposuzuje; místo toho se vysvětlí jako příznak osobní historie mluvčího, takže každá další pochybnost se stává dalším dokladem jeho „zranění“."
+response = "Trvat na tom, že původ pochybnosti nerozhoduje o její oprávněnosti, a žádat odpověď na věcnou otázku (kam jdou peníze, kdo o nich rozhoduje), případně ji ověřit mimo skupinu."
+
+[[pattern.trainer]]
+utterance = "Všímám si, že pokaždé, když mluvíme o otci, rychle přejdete k tomu, že to bylo v pořádku. Můžeme se na ten přechod chvíli podívat, pokud chcete?"
+context = "Terapeut s klientkou v dlouhodobé psychoterapii."
+benign = true
+marker = "Pozorování o vztahu klientky k vlastnímu tvrzení se nabízí jako hypotéza ke společnému prozkoumání, nepoužívá se k odmítnutí jejího výkladu a klientka může nabídku odmítnout."
+response = "Jde o legitimní užití: terapeutická reflexe v bezpečném vztahu, v níž výrok o přesvědčení neruší jeho obsah a rozhodnutí o pokračování zůstává klientce."
+
+[[pattern]]
+id = "NLP-07.16"
+slug = "som-zmena-velikosti-ramce"
+type = "pattern"
+cs = "Změna velikosti rámce"
+en = "Change frame size"
+aliases = ["změna časového rámce", "zvětšení nebo zmenšení rámce"]
+use = "dvoji"
+risk = "stredni"
+broader = "sleight-of-mouth"
+related = ["chunking", "som-zobecneni", "som-rozlozeni", "kontextovy-reframing", "som-dusledek"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/techniques/ea-4-4-4-biographical-recontextualization.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Za deset let si na tuhle hádku ani nevzpomeneš. V celém našem vztahu je to jen drobnost, tak proč z toho děláš problém?"
+context = "Partner reaguje na stížnost druhého, že ho opakovaně zesměšňuje před přáteli."
+benign = false
+marker = "Časový a vztahový rámec se zvětší natolik, že konkrétní a opakované jednání vypadá jako zanedbatelná epizoda; opakování, na které stížnost míří, ze zvětšeného rámce zmizí."
+response = "Vrátit se k rámci, ve kterém se jednání děje: jde o opakovaný vzorec, ne o jednu hádku, a jeho dopad se posuzuje v přítomnosti, ne z představy budoucnosti."
+
+[[pattern.trainer]]
+utterance = "Dnešní den vypadal jako katastrofa. Když se ale podíváte na celý rok léčby, jsou tam i týdny, kdy se vám dařilo. Obojí je pravda."
+context = "Fyzioterapeutka s pacientem po úrazu, který po špatném dni chce rehabilitaci vzdát."
+benign = true
+marker = "Zvětšení časového rámce doplňuje dnešní zkušenost, nepopírá ji („obojí je pravda“), a opírá se o skutečný průběh, který pacient zná."
+response = "Jde o legitimní užití: změna rámce slouží k realistickému pohledu na průběh léčby, ne k odbytí aktuální obtíže."

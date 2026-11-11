@@ -128,7 +128,7 @@ Obrana spočívá v otázce, kterou nabízí sama teorie: *co tato metafora zvý
 Postup rozvádějí příručky [Pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md)
 a [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md).
 
-V terapii se s rámci pracuje dávno před Lakoffem. Přerámování (*reframing*) popsali Watzlawick,
+V terapii se s rámci pracuje dávno před Lakoffem. Přerámování (*[reframing](@/kompendium/nlp-vzorce/reframing/reframing.md)*) popsali Watzlawick,
 Weakland a Fisch (1974) jako změnu pojmového a emočního kontextu situace, která mění její význam,
 aniž mění fakta; kognitivní terapie pracuje s identifikací a přezkoumáním interpretací, jimiž
 člověk rozumí své zkušenosti (Beck, 1976). Kniha upozorňuje, že tytéž nástroje lze zneužít:

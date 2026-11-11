@@ -1,0 +1,315 @@
+# Rodina NLP-03: Meta-model, část b (NLP-03.10 až NLP-03.17; pravidlo project.content-catalogs;
+# schéma v scripts/catalogs.py). Pořadí záznamů je pořadí identifikátorů; identifikátor se
+# po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-03.10"
+slug = "modalni-operator-moznosti"
+type = "pattern"
+cs = "Modální operátor možnosti"
+en = "Modal operator of possibility"
+aliases = ["operátor možnosti", "nemohu", "nejde to"]
+use = "dvoji"
+risk = "stredni"
+broader = "meta-model"
+related = [
+  "modalni-operator-nutnosti",
+  "univerzalni-kvantifikator",
+  "modalni-operatory-milton",
+  "limitujici-presvedceni",
+  "beznadej-bezmoc-nehodnost",
+]
+kompendium = [
+  "kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md",
+  "kompendium/techniques/ea-5-1-11-modalni-dezorientace.md",
+  "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Odejít od nás prostě nemůžeš. Venku by ses neuživil a nikdo by tě nevzal, to přece víš sám."
+context = "Vedoucí uzavřené skupiny mluví se členem, který zvažuje odchod."
+benign = false
+marker = "Hranice možného jednání („nemůžeš“) je podána jako fakt, bez udání, co přesně brání a podle čeho to mluvčí ví; nemožnost slouží udržení člověka ve skupině."
+response = "Oddělit nemožnost od obavy: ptát se, co konkrétně by odchodu bránilo, a ověřit to u lidí mimo skupinu, kteří odchodem prošli."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že s tím nemůžete nic udělat. Co by se podle vás muselo změnit, aby to aspoň trochu šlo?"
+context = "Terapeutka v rozhovoru s klientem, který popisuje bezvýchodnou situaci."
+benign = true
+marker = "Operátor možnosti v řeči klienta je zachycen a vrácen otázkou, která otevírá podmínky možného, nikoli tlakem na rozhodnutí."
+response = "Jde o legitimní užití: otázka zkoumá, co klient prožívá jako překážku, a nechává na něm, zda a jak hranici přehodnotí."
+
+[[pattern]]
+id = "NLP-03.11"
+slug = "cteni-myslenek"
+type = "pattern"
+cs = "Čtení myšlenek"
+en = "Mind reading"
+aliases = ["domnělé čtení myšlenek", "připisování vnitřních stavů"]
+use = "dvoji"
+risk = "stredni"
+broader = "meta-model"
+related = [
+  "cteni-myslenek-milton",
+  "ztraceny-performativ",
+  "komplexni-ekvivalence",
+  "kalibrace",
+  "pseudoempatie",
+]
+kompendium = [
+  "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
+  "kompendium/techniques/ea-5-3-15-mentalizacni-disrupce.md",
+  "kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nemusíš nic říkat, vidím na tobě, že ve skutečnosti chceš zůstat. Jen si to zatím nepřiznáš."
+context = "Partner reaguje na oznámení druhého, že chce vztah ukončit."
+benign = false
+marker = "Mluvčí tvrdí, že zná vnitřní stav druhého lépe než on sám, neuvádí, z čeho to usuzuje, a jeho výklad přebíjí výslovné sdělení druhého."
+response = "Trvat na tom, že o vlastním přání rozhoduje ten, kdo ho má; vlastní výrok zopakovat a nenechat ho přepsat cizím výkladem."
+
+[[pattern.trainer]]
+utterance = "Připadá mi, že vás ta zpráva rozladila, mýlím se? Klidně mě opravte."
+context = "Vedoucí týmu po poradě, na níž kolegyně ztichla."
+benign = true
+marker = "Domněnka o vnitřním stavu je výslovně označena jako dojem a podána k ověření; druhý má poslední slovo."
+response = "Jde o benigní užití: hypotéza o pocitech druhého je otevřená opravě a nenahrazuje jeho vlastní popis."
+
+[[pattern]]
+id = "NLP-03.12"
+slug = "pricina-a-nasledek"
+type = "pattern"
+cs = "Příčina a následek"
+en = "Cause and effect"
+aliases = ["příčina–následek", "ty mě nutíš"]
+use = "dvoji"
+risk = "stredni"
+broader = "meta-model"
+related = [
+  "spojky-a-implikovana-pricinnost",
+  "komplexni-ekvivalence",
+  "presvedceni-o-pricine",
+  "protoze",
+  "cteni-myslenek",
+]
+kompendium = [
+  "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md",
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+  "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdybys mě pořád neprovokovala, nemusel bych křičet. Ty mě k tomu dovedeš pokaždé."
+context = "Partner po hádce, v níž se choval agresivně."
+benign = false
+marker = "Vlastní jednání mluvčího je podáno jako nutný následek chování druhého; odpovědnost se přesouvá na adresáta a mechanismus spojení se neuvádí."
+response = "Oddělit spouštěč od volby: jednání člověka je jeho odpovědností, i když reaguje na cizí chování; vztah s takto opakovaným vzorcem posoudit s odborníkem."
+
+[[pattern.trainer]]
+utterance = "Když jsi tu zprávu přeposlal bez kontextu, cítil jsem se v té diskusi zaskočený. Příště bych o ní rád věděl dřív."
+context = "Kolega mluví s kolegou o nedorozumění v práci."
+benign = true
+marker = "Mluvčí spojuje událost s vlastním prožitkem, ale prožitek si ponechává jako svůj a připojuje konkrétní prosbu místo obvinění."
+response = "Jde o benigní užití: vztah mezi událostí a pocitem je popsán bez tvrzení, že druhý pocit způsobil a odpovídá za něj."
+
+[[pattern]]
+id = "NLP-03.13"
+slug = "komplexni-ekvivalence"
+type = "pattern"
+cs = "Komplexní ekvivalence"
+en = "Complex equivalence"
+aliases = ["X znamená Y", "rovnítko významu"]
+use = "dvoji"
+risk = "stredni"
+broader = "meta-model"
+related = [
+  "komplexni-ekvivalence-milton",
+  "pricina-a-nasledek",
+  "presvedceni-o-vyznamu",
+  "obsahovy-reframing",
+  "som-redefinice",
+]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md",
+  "kompendium/detection-signatures/2-linguistic-circular-definitions.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Když máš pochybnosti o vedení, znamená to jen, že ještě nejsi dost oddaný. Kdo opravdu věří, ten se neptá."
+context = "Starší člen skupiny odpovídá nováčkovi na kritickou otázku."
+benign = false
+marker = "Pozorovatelné chování (pochybnost, otázka) je ztotožněno s vnitřní vadou (nedostatek oddanosti); rovnítko je podáno jako samozřejmost a kritika se tím mění v symptom."
+response = "Rozpojit rovnítko: zeptat se, podle čeho přesně pochybnost znamená nedostatek oddanosti, a trvat na tom, že otázka je otázka, ne diagnóza."
+
+[[pattern.trainer]]
+utterance = "Pro účely tohoto projektu budeme za hotový úkol považovat to, co prošlo testy a revizí. Souhlasíte s takovou definicí?"
+context = "Vedoucí vývojového týmu na úvodní schůzce."
+benign = true
+marker = "Spojení pozorovatelného znaku s významem („hotové“) je výslovně dohodnuto, omezeno na kontext a otevřeno ke schválení."
+response = "Jde o benigní užití: operační definice je viditelná, sdílená a změnitelná, nevydává se za skrytou pravdu o lidech."
+
+[[pattern]]
+id = "NLP-03.14"
+slug = "presupozice-v-meta-modelu"
+type = "pattern"
+cs = "Presupozice v meta-modelu"
+en = "Presuppositions (Meta Model)"
+aliases = ["předpoklady výroku", "skryté předpoklady"]
+use = "dvoji"
+risk = "vysoke"
+broader = "meta-model"
+related = [
+  "jazykove-presupozice",
+  "otazky-s-presupozici",
+  "presupozice-milton",
+  "presupozice-ve-vyslechu",
+  "nominalizace",
+]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Než se zase začneš vymlouvat jako minule, řekni mi rovnou, proč jsi to zkazil."
+context = "Nadřízený otevírá rozhovor s podřízeným o nepovedeném úkolu."
+benign = false
+marker = "Věta předpokládá jako dané, že se adresát vymlouvá, že to dělal už dřív a že úkol zkazil právě on; otázka „proč“ nechává k diskusi jen důvod, ne samotný fakt."
+response = "Pojmenovat předpoklady jeden po druhém a oddělit je od otázky: nejdřív ověřit, co se stalo a kdo za co odpovídal, teprve pak hledat důvody."
+
+[[pattern.trainer]]
+utterance = "Říkáte, že se zase budete stydět. Co vás vede k předpokladu, že se to bude opakovat?"
+context = "Psycholožka v rozhovoru s klientkou před důležitým vystoupením."
+benign = true
+marker = "Odbornice zachytí presupozici v řeči klientky („zase“) a vrací ji k prozkoumání, místo aby na ni stavěla."
+response = "Jde o legitimní užití: skrytý předpoklad se zviditelní a klientka sama posoudí, zda platí."
+
+[[pattern]]
+id = "NLP-03.15"
+slug = "hierarchie-otazek-meta-modelu"
+type = "concept"
+cs = "Pořadí otázek meta-modelu"
+en = "Order of Meta Model challenges"
+aliases = ["hierarchie výzev meta-modelu", "pořadí výzev"]
+use = "dvoji"
+risk = "nizke"
+broader = "meta-model"
+related = [
+  "meta-model-jako-vyslychaci-nastroj",
+  "raport",
+  "chunking-dolu",
+  "zpetne-shrnuti",
+  "univerzalni-kvantifikator",
+]
+kompendium = [
+  "kompendium/techniques/ea-6-1-1-screening-strukturalni-rozhovor.md",
+  "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md",
+  "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Kdo konkrétně? Kdy přesně? Jak přesně? Podle čeho to víš? Co tě nutí? Takže vlastně nevíš nic, že?"
+context = "Kouč na skupinovém semináři „rozebírá“ výrok účastnice před ostatními."
+benign = false
+marker = "Otázky meta-modelu přicházejí v rychlém sledu bez ohledu na odpovědi a vyústí v závěr, který znevažuje mluvčí; pořadí slouží tlaku, ne porozumění."
+response = "Zpomalit a odmítnout veřejný výslech: odpovídat po jedné otázce, nebo rozhovor přesunout do soukromí a mimo hodnocení skupiny."
+
+[[pattern.trainer]]
+utterance = "Zmínil jste, že to v týmu nikdy nefunguje. Můžete mi popsat jednu konkrétní situaci, kdy to tak bylo?"
+context = "Organizační psycholog v individuálním rozhovoru se zaměstnancem."
+benign = true
+marker = "Jedna otázka po zobecnění („nikdy“) vychází z odpovědi mluvčího, nechává mu čas a směřuje k doplnění konkrétní zkušenosti."
+response = "Jde o legitimní užití: tempo a pořadí se řídí tím, co mluvčí sděluje, a cílem je porozumět, ne ho přistihnout."
+
+[[pattern]]
+id = "NLP-03.16"
+slug = "meta-model-jako-vyslychaci-nastroj"
+type = "concept"
+cs = "Meta-model jako výslechový nástroj"
+en = "Meta Model as an interrogation tool"
+aliases = ["meta-model ve vyšetřování", "precizní dotazování"]
+use = "dvoji"
+risk = "vysoke"
+broader = "meta-model"
+related = [
+  "nlp-ve-vyslechu",
+  "presupozice-ve-vyslechu",
+  "detekce-lzi-v-nlp",
+  "hierarchie-otazek-meta-modelu",
+  "nespecifikovany-referencni-index",
+]
+kompendium = [
+  "kompendium/forensic-legal/1-forensic-interview-protocol.md",
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/techniques/ea-2-3-9-sealioning-medialni.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Řekl jste, že jste tam byl jen chvíli. Jak přesně dlouho je chvíle? Na minutu přesně. Nevíte? Tak proč tvrdíte, že to byla chvíle?"
+context = "Vyslýchající u podání vysvětlení svědka, který si nepamatuje podrobnosti."
+benign = false
+marker = "Požadavek na přesnost přesahuje to, co si člověk může pamatovat, a nepřesnost se vykládá jako známka lži; otázka po specifikaci se mění v nátlak."
+response = "Mít právo říct „nevím“ a „nepamatuji si“; vyhýbat se odhadům vynuceným tlakem a trvat na zaznamenání, že jde o odhad."
+
+[[pattern.trainer]]
+utterance = "Popsal jste, že „oni“ vás z místnosti vyvedli. Pamatujete si, kdo to byl, nebo jak vypadali?"
+context = "Vyšetřovatel v otevřeném rozhovoru s oznamovatelem incidentu."
+benign = true
+marker = "Otázka cílí na nespecifikovaný referenční index, je otevřená a výslovně připouští, že si člověk podrobnost pamatovat nemusí."
+response = "Jde o legitimní užití: doplnění údaje bez sugesce odpovědi a bez trestání nejistoty."
+
+[[pattern]]
+id = "NLP-03.17"
+slug = "poruseni-selekcnich-omezeni-meta"
+type = "pattern"
+cs = "Porušení selekčních omezení"
+en = "Selectional restriction violation (Meta Model)"
+aliases = ["sémantická anomálie", "připsání jednání neživému"]
+use = "dvoji"
+risk = "nizke"
+broader = "meta-model"
+related = [
+  "poruseni-selekcnich-omezeni",
+  "nominalizace",
+  "nespecifikovany-referencni-index",
+  "ztraceny-performativ",
+  "hluboka-a-povrchova-struktura",
+]
+kompendium = [
+  "kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md",
+  "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tohle rozhodnutí není moje, to si žádá systém. Systém nemá rád výjimky a vaše žádost ho uráží."
+context = "Úředník odmítá žádost klienta na přepážce."
+benign = false
+marker = "Neživé entitě („systém“) se připisuje vůle, nechuť a uraženost; skutečný rozhodovatel z věty mizí a s ním i adresát námitky."
+response = "Zeptat se, kdo konkrétně o věci rozhodl a podle jakého pravidla, a požádat o písemné odůvodnění s podpisem odpovědné osoby."
+
+[[pattern.trainer]]
+utterance = "Ta stará zahrada mi dnes šeptala o dětství, když jsem se jí procházela."
+context = "Autorka čte vlastní báseň na literárním večeru."
+benign = true
+marker = "Personifikace je zřejmá jako básnický obraz v uměleckém kontextu; nikomu nepřipisuje rozhodnutí ani nezakrývá odpovědnost."
+response = "Jde o benigní užití: metafora je otevřeně umělecká a posluchač ji tak čte, nevyvozuje z ní tvrzení o světě."

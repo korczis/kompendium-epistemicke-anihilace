@@ -104,19 +104,10 @@ jobs:
         run: printf '%s\n' "$GITHUB_SHA" > public/revision.txt
       - name: Interactive surfaces render (charts, components, no console errors, phone width)
         run: |
-          # Závislosti z apt (hlavně písma) jsou na zrcadlech Ubuntu, která runnerům občas
-          # nejdou přeložit (DNS, běhy 43035599922 a 43036996699, dva pokusy po sobě). Prohlížeč sám
-          # se stáhne z CDN Playwrightu. Tři pokusy s odstupem; pak jen prohlížeč a viditelné
-          # varování — chybí-li opravdu knihovna, gate selže na ní, ne na resolveru.
-          ok=0
-          for attempt in 1 2 3; do
-            if npx playwright-core install --with-deps chromium; then ok=1; break; fi
-            echo "playwright install --with-deps: pokus $attempt selhal, čekám 45 s"; sleep 45
-          done
-          if [ "$ok" != 1 ]; then
-            echo "::warning title=Playwright deps::apt závislosti se nepodařilo nainstalovat ani na 3. pokus; instaluji jen prohlížeč"
-            npx playwright-core install chromium
-          fi
+          # Jen prohlížeč z CDN Playwrightu, bez apt závislostí: běh 43044986995 (605a87c5) je
+          # nenainstaloval ani na třetí pokus (zrcadla Ubuntu nešla přeložit) a celá sada včetně
+          # auditu přesto prošla, takže je nepotřebuje. Chybí-li někdy knihovna, gate selže na ní.
+          npx playwright-core install chromium
           root="$RUNNER_TEMP/e2e"
           zola build --base-url http://127.0.0.1:18790/kompendium-epistemicke-anihilace --output-dir "$root/kompendium-epistemicke-anihilace"
           (cd "$root" && python3 -m http.server 18790 --bind 127.0.0.1 > /dev/null 2>&1 &)

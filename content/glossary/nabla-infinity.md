@@ -44,7 +44,7 @@ přísností, jakou typové systémy vnášejí do správnosti softwaru – poru
 Pro Kompendium je NABLA Infinity výchozím bodem: kniha vznikla v kontextu této platformy
 a její obranná logika – trvat na více nezávislých zdrojích, zachovat si rozpor, smět říct
 „nevím“ – je lidským protějškem těchto axiomů (viz [2.6 Vztah ke Prismatic NABLA
-Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)).
+Infinity](@/kompendium/02-uvod/_index.md)).
 
 ## Sedm axiomů
 
@@ -368,7 +368,7 @@ tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md
 
 **Kniha**
 
-- [2.6 Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) – jak rámec
+- [2.6 Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/_index.md) – jak rámec
   vstupuje do [taxonomie EA](@/glossary/taxonomie-ea.md).
 - [NABLA Infinity a detekce EA](@/kompendium/aiad-integration/nabla-infinity-ea-pipeline.md) –
   pipeline aplikovaná na signály epistemického útoku.

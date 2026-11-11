@@ -113,16 +113,6 @@ Druhým rizikovým kontextem je povinná skupinová forma. Plošně podaná podp
 | [EA 1 5 1 STRATEGICKA PROXEMIKA](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) | Stránka ze stejného okruhu knihy. |
 | [EA 5 1 1 EPISTEMICKA KANIBALIZACE](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) | Stránka ze stejného okruhu knihy. |
 
-## Vztah k Prismatic platformě
-
-[Color Teams Black Team](@/glossary/color-teams.md) — [Black Team](@/glossary/black-team.md) je dedikovaná detekční jednotka pro markery terminálních protokolů.
-
-[NABLA Infinity](@/glossary/nabla-infinity.md) — epistemický pipeline obsahuje invarianty, které identifikují strukturální vzorce odpovídající této technice v textových a behaviorálních datech.
-
-{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — provenance ledger poskytuje auditní stopu, která činí pozdější detekci a forenzní rekonstrukci proveditelnou.
-
-[Compliance framework](@/glossary/compliance-framework.md) — interní compliance zachycuje pokusy o aplikaci technik mimo supervizní rámec a eskaluje je k etickému přezkumu.
-
 ## Literatura
 
 - Emanuel, E. J., Wendler, D., & Grady, C. (2000). What makes clinical research ethical? *JAMA*.

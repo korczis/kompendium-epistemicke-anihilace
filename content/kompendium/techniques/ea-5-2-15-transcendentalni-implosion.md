@@ -119,12 +119,6 @@ Klíčový diferenciální rys: **autentický mystik se vrací**; subjekt po imp
 
 - **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — eskalační následek imploze.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) differentiation requirement** — strukturní vynucování diferenciace v rozhodnutích.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) diferenciační axiom** — epistemická provenience vyžaduje strukturní diferenciaci.
-- **OSINT entitní distinkce** — explicitní práce s rozlišnými entitami obnovuje diferencovanou kompetenci.
-
 ## Literatura
 
 - Britton, W. B. (2019). Can mindfulness be too much of a good thing? *Current Opinion in Psychology*, 28, 159–165.

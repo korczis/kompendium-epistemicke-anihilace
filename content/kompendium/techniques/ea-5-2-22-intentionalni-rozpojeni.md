@@ -121,12 +121,6 @@ Klíčový diferenciál: **autentický kontemplativec funguje intencionálně mi
 
 - **[EA-5.1.* Ontologické rozpouštění](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — eskalační následek.
 
-## Vztah k Prismatic platformě
-
-- **OSINT clear target requirement** — strukturní vynucování zaměřenosti na konkrétní cíl.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) intencionální axiom** — epistemická provenience operuje s explicitními předměty.
-- **[Decision Engine](@/glossary/decision-engine.md) konkrétní rozhodnutí** — vynucování konkrétního výstupu blokuje bezpředmětnost.
-
 ## Literatura
 
 - Britton, W. B. (2019). Can mindfulness be too much of a good thing? *Current Opinion in Psychology*, 28, 159–165.

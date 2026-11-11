@@ -162,12 +162,6 @@ Klientka po pětiletém vztahu hlásí: „Nevím, co se vlastně stalo a co mi 
 
 - **[Hermeneutika](@/glossary/hermeneutika.md)** je *legitimní* praxe interpretace, jejíž výsledek je explicitně označen jako *interpretace*; dezorientace je její patologická fixace bez označení.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} source modality check** — explicitně rozlišuje *fakt* / *hypotézu* / *kontrafaktuál* / *imaginaci* v evidenčním řetězci a vyžaduje, aby každý vstup nesl modální označení.
-- **NABLA Infinity provenance tracking** — každé tvrzení označeno typem zdroje (přímé pozorování / nepřímé / spekulace), čímž **algoritmicky** udržuje modální distinkci.
-- **OSINT framework's „evidence vs. hypothesis“ gate** — výstupy investigací nesmí mísit ověřená fakta s hypotézami bez explicitního označení.
-
 ## Literatura
 
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.

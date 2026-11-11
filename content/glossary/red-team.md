@@ -614,7 +614,7 @@ na tuto rozšířenou útočnou plochu odpovídá pěti primitivy a taxonomií o
 
 - [Red Team a detekce EA](@/kompendium/aiad-integration/red-team-ea-detection.md) – útočná
   simulace jako nástroj rozpoznání EA.
-- [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md) –
+- [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md) –
   jak barevné týmy vstupují do knihy.
 
 ---

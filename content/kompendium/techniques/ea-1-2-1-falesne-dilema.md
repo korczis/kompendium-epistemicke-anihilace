@@ -195,12 +195,6 @@ Intervence: Mandatorní **multi-disciplinary tumor board** review pro všechny k
 - **Skutečné binární volby** — některé volby skutečně **jsou** binární (bool, on/off rozhodnutí). Kritérium: argumentační podloženost vyčerpávajícnosti.
 - **EA-1.2.3 Iluzorní komplexita** — strukturálně **inverzní**: falešné dilema redukuje skutečně komplexní problém; iluzorní komplexita inflouje skutečně jednoduchý.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) multi-hypothesis tracking** — explicitní strukturální obrana: každé rozhodnutí ukládá **multiple hypotézy**, ne pouze „best vs. rest“.
-- **NABLA Infinity epistemic divergence detection** — pokud kandidátní rozhodnutí konverguje na binární rámec přes nuancovanou evidenci, system **flagguje** anomálii.
-- **Color Teams Devil's Advocate role** — [Red Team](@/glossary/red-team.md) agenty mají strukturální mandát zpochybnit binární rámce.
-
 ## Literatura
 
 - Hamblin, C. L. (1970). *Fallacies*. Methuen.

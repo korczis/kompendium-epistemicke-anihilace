@@ -174,14 +174,6 @@ Intervence: Změna supervize na pragmatičtěji orientovaného mentora, povinné
 - **Legitimní studium paradoxů** — chrání operativní rovinu skrze typovou teorii a pragmatický bracketing.
 - **Klinická hyperintrospekce** — fenomenologicky podobná, ale není doprovázená externím meta-arbitrem; rehabilituje se redukcí intenzity reflexe.
 
-## Vztah k Prismatic platformě
-
-Reflexivní paradoxie je **strukturálním motivem** pro několik defenzivních mechanismů Prismatic:
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} hierarchical typing** — rozhodovací logika operuje na **explicitně typovaných úrovních**, které brání rekurzivním zhroucením; meta-validace je oddělená od operativních rozhodnutí.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) anti-recursion safeguards** — epistemický pipeline detekuje pokusy o nekonečnou regresi v reflexivních operacích a uzavírá je explicitním pragmatickým rozhodnutím.
-- **[Color Teams](@/glossary/color-teams.md) blue-team metakognitive review** — pravidelná revize, zda interní procesy Prismatic neprodukují metakognitivní paralýzu u operátorů, zejména v doktrinálních a tréninkových kontextech.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)

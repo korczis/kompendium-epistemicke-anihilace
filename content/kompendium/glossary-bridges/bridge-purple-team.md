@@ -61,7 +61,7 @@ Jak fialový tým platformy propojuje nálezy obou stran a proč má výhradní 
 stránka [Purple Team a EA](@/kompendium/aiad-integration/purple-team-ea-synthesis.md). Strany, mezi nimiž
 zprostředkuje, přibližují stránky [Red Team a EA](@/kompendium/aiad-integration/red-team-ea-detection.md)
 a [Blue Team a EA](@/kompendium/aiad-integration/blue-team-ea-defense.md); celkový rámec kapitola
-[Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md).
+[Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md).
 
 Lidskou obdobu – uzavírání stížností a incidentů až po ověřené nápravě – rozebírají kapitoly organizační
 obrany [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md),

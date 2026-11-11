@@ -14,7 +14,7 @@ related_terms = [
   "ontologicka-anihilace",
   "kognitivni-zplosteni",
   "hermeneuticka-eroze",
-  "delegitimizace",
+  "delegitimizace"
 ]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"

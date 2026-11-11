@@ -173,12 +173,6 @@ Intervence: redakční intervence, povinný kurz **investigativní metodologie**
 - **[EA-5.2.5 Konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md)** — rozpad principů, kterými se konstituují předměty.
 - **[EA-5.2.8 Perspektivistický kolaps](@/kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md)** — ztráta perspektivy jako takové.
 
-## Vztah k Prismatic platformě
-
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** explicitně udržuje **dvě úrovně tvrzení**: fenomenologickou (*systém zaznamenal X*) a propoziční (*X je skutečnost*) s odlišnou kalibrační logikou.
-- **OSINT framework** strukturálně rozlišuje **observation** od **inference** — distinkce strojově vynucovaná.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** vyžaduje explicitní formulaci hypotéz **a** evidenční podpory, čímž brání kolapsu obou rovin do jediné.
-
 ## Literatura
 
 - Festinger, L., Riecken, H. W. & Schachter, S. (1956). *When Prophecy Fails*. Minneapolis: University of Minnesota Press.

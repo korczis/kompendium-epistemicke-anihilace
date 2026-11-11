@@ -199,12 +199,6 @@ Intervence: Klinické protokoly — strukturální ujištění, že každý paci
 - **Legitimní rozšíření kontextu** — strukturálně podobné, ale **explicitně** acknowledged a s plánovaným návratem.
 - **Conversational drift** — neintencionální posun, distinkce na úrovni intencionality.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) audit log** — explicitní záznam **každé** otázky v decision pipeline; unaddressed otázky jsou strukturálně tracked.
-- **NABLA Infinity provenance tracking** — každé tvrzení má **explicit context lineage**; tematická diverze je detekovatelná jako **discontinuity** v lineage.
-- **OSINT investigation pipeline** — pre-defined investigation queries strukturálně chrání proti scope creep.
-
 ## Literatura
 
 - Hamblin, C. L. (1970). *Fallacies*. Methuen.

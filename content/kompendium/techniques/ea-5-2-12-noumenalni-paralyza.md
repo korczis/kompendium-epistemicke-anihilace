@@ -118,12 +118,6 @@ Také odlišitelná od **klinické deprese** — depresivní pacient netvrdí, �
 
 - **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — paralýza eskaluje do existenciálního vakua.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) actionable outputs** — strukturní vynucování praktických výstupů obnovuje fenomenální angažmá.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) finitistický axiom** — epistemická provenience odmítá nepoznatelná noumena jako legitimní zdroje.
-- **OSINT operacionalita** — explicitní práce s fenomenální evidencí udržuje praktickou kompetenci.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)

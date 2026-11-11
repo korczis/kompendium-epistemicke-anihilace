@@ -158,12 +158,6 @@ Intervence: integrační terapie zaměřená na rekonstrukci konstitutivních sy
 - **[EA-5.2.20 Apperceptivní rozklad](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-20-apperceptivni-rozklad)** — narušení transcendentální jednoty apercepce.
 - **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-konvergentni-meta-singularita)** — terminální stav podtřídy 5.2, v němž se sbíhají dílčí poškození [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) až [EA-5.2.29](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md).
 
-## Vztah k Prismatic platformě
-
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** explicitně modeluje **konstitutivní akty** v epistemickém pipeline jako diskrétní krok od **observation** k **identification** — pokud [konstitutivní akt](@/glossary/konstitutivni-akt.md) selže, je to viditelné v auditní stopě.
-- **OSINT framework** vyžaduje **explicitní entitní rezoluci** — konstituce předmětu jako entity je strukturně exteriorizovaná a sledovatelná.
-- **[Decision Engine](@/glossary/decision-engine.md)** vyžaduje **objektifikované hypotézy** — bez konstituovaných předmětů systém odmítá vyhodnocovat.
-
 ## Literatura
 
 - Blankenburg, W. (1971). *Der Verlust der natürlichen Selbstverständlichkeit*. Stuttgart: Enke.

@@ -139,14 +139,6 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 
 Klíčové pojmové kotvy techniky: **Yablo paradox, Curry paradox, hierarchie paradoxů**.
 
-## Vztah k Prismatic platformě
-
-Paradoxální metaanihilační protokoly jsou **strukturálním motivem** pro defenzivní mechanismy Prismatic:
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} paradoxologický monitor** — provenance ledger detekuje výroky, jejichž pravdivostní hodnota je strukturálně rekurzivní, a označuje je k externí typové kontrole.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) typová hierarchie** — epistemický pipeline pracuje se **stratifikovanými** výroky; pokus o smíchání úrovní generuje invarianční chybu.
-- **[Color Teams](@/glossary/color-teams.md) red-team protokol** — periodická revize manipulativních paradoxizačních vzorců v akademických a klinických relacích kolem Prismatic operací.
-
 ## Literatura
 
 - Curry, H. B. (1942). The inconsistency of certain formal logics. *The Journal of Symbolic Logic*, 7(3), 115–117.

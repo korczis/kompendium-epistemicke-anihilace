@@ -309,16 +309,6 @@ Strukturovaná příprava:
 
 Detailněji v [6.5](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md).
 
-## Vztah k platformě Prismatic
-
-Protokol epistemické rekonstrukce může být podporován nástroji platformy:
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — kalibrace klientovy důvěry během S3 (trénink hodnocení důkazů);
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** — mapování klientových epistemických zranění do framework L0–L13;
-- **Glosář a kompendium** — psychoedukační nástroje pro S1.
-
-> **Etická poznámka**: Použití technologických nástrojů musí respektovat klientovu autonomii. Nástroje **podporují** terapeutickou práci, **nenahrazují** dialog mezi klientem a terapeutem.
-
 ## Limity a kontraindikace
 
 | Situace | Postup |

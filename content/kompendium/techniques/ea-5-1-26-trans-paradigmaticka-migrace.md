@@ -160,12 +160,6 @@ Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kri
 - **EA-5.1.27 Meta-epistemická redukce** — paradigmatická bezdomovina jako prekursor pro [epistemický monismus](@/glossary/epistemicky-monismus.md).
 - **Doktrinální submisivita** — subjekt přijímá zdroj rámce jako epistemickou autoritu bez kritické kapacity.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} paradigm-stability check** — audituje rozhodovací rámce klientů na sekvenční eskalaci.
-- **NABLA Infinity multi-paradigm provenance** — uchovává historii rámců, detekuje vynucenou supresi.
-- **Color Teams paradigmatic adversarial review** — [Red Team](@/glossary/red-team.md) protokol pro detekci sekvenční eskalace v coaching/training pipeline.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)

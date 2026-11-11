@@ -190,14 +190,6 @@ Intervence: Strukturní oddělení od partnera bylo prerekvizitou jakékoliv dal
 - **Legitimní identitní rozvoj** — integruje, neničí; prochází kontinuitou, neproráží ji.
 - **Spirituální transformace** v autentických tradicích — strukturovaná, kontinuativní, s integrovaným supervizním rámcem.
 
-## Vztah k Prismatic platformě
-
-Identitní dezintegrace má v Prismatic platformě tři hlavní defenzivní mapování:
-
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) narrative integrity check** — provenance graf každého subjektově-relevantního tvrzení je analyzován na **kontinuitu** s předchozími tvrzeními téhož aktéra; náhlé diskontinuity jsou flagovány.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} self-model audit** — rozhodnutí týkající se vlastní identity (kariérní, vztahové, hodnotové) jsou validována proti dlouhodobému self-model snapshotu; extrémní deviace vyžaduje **dvojí potvrzení**.
-- **[Color Teams](@/glossary/color-teams.md) identity defense protocol** — *[Blue Team](@/glossary/blue-team.md)* aktivně monitoruje high-risk kontexty (mentoring, terapeutické vztahy, intenzivní formace) na markery dezintegrace.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)

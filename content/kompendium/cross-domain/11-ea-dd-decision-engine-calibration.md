@@ -15,7 +15,7 @@ toc = true
 Prověrky protistran, screening klientů i hodnocení rizik se stále častěji opírají
 o rozhodovací systémy – modely, které z dat vypočítají skóre rizika a doporučí postup.
 Kniha vznikla v prostředí platformy, která takový systém obsahuje (viz
-[Decision Engine](@/glossary/decision-engine.md) a [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md)).
+[Decision Engine](@/glossary/decision-engine.md) a [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md)).
 Tato stránka se nezabývá konkrétní implementací, ale obecnou otázkou: kdy lze číslu
 z rozhodovacího systému věřit, jak to ověřit a jak zabránit tomu, aby se z pomůcky stala
 autorita, které se nikdo neodváží odporovat.
@@ -146,7 +146,7 @@ stále víc.
 **Kontext platformy**
 
 - [Decision Engine & EA detection](@/kompendium/aiad-integration/decision-engine-ea-calibration.md) – kalibrace v platformě.
-- [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md) – vztah knihy k systému.
+- [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md) – vztah knihy k systému.
 
 **Pojmy**
 

@@ -14,7 +14,7 @@ related_terms = [
   "predreflexivni-vedomi",
   "ipseita",
   "identity-destruction",
-  "narativni-identita",
+  "narativni-identita"
 ]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"

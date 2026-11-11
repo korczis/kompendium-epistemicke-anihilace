@@ -149,13 +149,6 @@ Klinický kontext **EA-4.4.6** připouští následující dokumentované adapta
 - **[EA 2 1 1 EXPERTNI DISINFLATION](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md)** — související vstupní mechanismus.
 - **[EA 5 1 3 REFLEXIVNI PARADOXIE](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)** — ultramární technika strukturálně příbuzná, vyžadující ostřejší distinktivní detekci.
 
-## Vztah k Prismatic platformě
-
-- **[Color Teams Black Team](@/glossary/color-teams.md)** — [Black Team](@/glossary/black-team.md) operuje jako dedikovaná detekční jednotka pro markery terminálních protokolů ve forenzních a klinických materiálech zpracovávaných platformou.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemický pipeline obsahuje invarianty, které identifikují strukturální vzorce odpovídající této technice v textových a behaviorálních datech.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — provenance ledger poskytuje auditní stopu, která činí pozdější detekci a forenzní rekonstrukci proveditelnou.
-- **[Compliance framework](@/glossary/compliance-framework.md)** — interní compliance zachycuje pokusy o aplikaci technik mimo supervizní rámec a eskaluje je k etickému přezkumu.
-
 ## Literatura
 
 - Bandura, A. (1999). Moral disengagement in the perpetration of inhumanities. *Personality and Social Psychology Review*, 3(3), 193–209.

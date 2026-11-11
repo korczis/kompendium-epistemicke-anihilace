@@ -77,14 +77,6 @@ Sekce 06.5 se těmto rizikům věnuje detailně.
 | **Sekce 07 (Teoretické reflexe)** | Filozofické a epistemologické důsledky klinické praxe |
 | **Techniques** | [Per-technique](@/kompendium/techniques/_index.md) detekční markery použité jako diagnostické nástroje |
 
-## Vztah k platformě Prismatic
-
-Klinické aplikace kompendia jsou propojeny s platformou Prismatic skrze tři hlavní integrační body:
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}**: kalibrace klinické důvěry využívá indikátory epistemické manipulace jako negativní signály — pomáhá klinikovi rozpoznat, kdy data od pacienta byla pravděpodobně formována vnějším útokem.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)**: úrovně L0–L13 epistemické pipeline odpovídají vývojovým fázím poznávacího aparátu, jejichž poškození lze mapovat do diagnostické osy.
-- **[Color Teams](@/glossary/color-teams.md)**: defenzivní agenti využívají markery z této sekce pro detekci epistemických útoků v reálném čase v institucionálních kontextech.
-
 ## Bezpečnostní úroveň přístupu
 
 | Úroveň | Sekce | Cílová skupina |

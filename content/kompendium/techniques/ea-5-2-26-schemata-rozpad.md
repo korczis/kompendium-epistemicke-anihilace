@@ -118,12 +118,6 @@ Schemata rozpad je odlišitelný od:
 
 - **[EA-5.1.* Ontologické rozpouštění](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — eskalační následek.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) konkrétní case application** — strukturní vynucování aplikace pojmů na konkrétní rozhodnutí.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) konkretizační axiom** — epistemická provenience aplikuje obecné na konkrétní.
-- **OSINT case-specific entity matching** — strukturní práce s konkrétními případy obnovuje schematizaci.
-
 ## Literatura
 
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.

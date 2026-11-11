@@ -186,12 +186,6 @@ Intervence: Procedurální reforma — pre-decision meta-evaluation kvalitativn�
 - **Skutečná parita pozic** — některé debaty skutečně mají paritní pozice. Kritérium: distribuce expertizy + kvalita evidence + metodologická rigoróznost.
 - **EA-1.2.3 Iluzorní komplexita** — sourozenecká, ale strukturálně odlišná: iluzorní komplexita inflouje **náročnost problému**, falešná ekvivalence inflouje **paritu pozic**.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) source weighting** — explicitní kvantifikace kvality zdrojů; falešně ekvivalentní zdroje jsou strukturálně penalizovány.
-- **OSINT investigation framework** — Triple-verification protocol vyžaduje **kvalitativně srovnatelné** zdroje, nejen „two opinions“.
-- **NABLA Infinity confidence calibration** — pokud kandidátní decision přiřazuje paritní confidence asymetricky-supported hypotézám, system flagguje anomálii.
-
 ## Literatura
 
 - Boykoff, M. T., & Boykoff, J. M. (2004). Balance as bias: Global warming and the US prestige press. *Global Environmental Change*, 14(2).

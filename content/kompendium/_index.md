@@ -150,15 +150,6 @@ EA-X.Y.Z-α
 | **L3 — Specializovaný** | + 05 | Kvalifikovaní psychiatři, výzkumníci s etickou supervizí |
 | **L4 — Výzkumný** | kompletní + případové studie | Institucionálně zařazení vědci pod IRB protokolem |
 
-## Vztah k platformě Prismatic
-
-Kompendium není izolovaný akademický artefakt — je propojeno s Prismatic platformou skrze:
-
-- **[Epistemic Pipeline](@/glossary/epistemic-pipeline.md)**: některé techniky odpovídají selhání nebo útokům na konkrétní úrovně L0–L13 NABLA Infinity.
-- **[Color Teams](@/glossary/color-teams.md)**: detekční markery z kompendia jsou používány [Red Team](@/glossary/red-team.md) agenty pro epistemic adversarial simulation.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}**: kalibrace důvěry využívá indikátory epistemické manipulace jako negativní signály.
-- **[Glossary](@/glossary/_index.md)**: každý klíčový termín má samostatné glosářové heslo s cross-referencí.
-
 ## Inkrementální publikace
 
 Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–8 + Phase 7–11 dokončeno):

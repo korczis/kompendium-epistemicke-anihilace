@@ -152,12 +152,6 @@ Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze pa
 - **EA-5.1.27 Meta-epistemická redukce** — z narativního monismu k epistemickému monismu.
 - **Kolektivní biografická re-narrativizace** — narativní kolaps na úrovni komunity.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} narrative-diversity check** — audituje rozhodnutí založená na **jediné biografické interpretaci** subjektu.
-- **NABLA Infinity provenance tracking** — udržuje historii interpretací, umožňuje detekci diskontinuity narativu.
-- **Color Teams biographical audit** — [Red Team](@/glossary/red-team.md) protokol pro detekci narativního monismu v high-stakes kontextech.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)

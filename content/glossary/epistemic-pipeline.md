@@ -59,7 +59,7 @@ přímo souvisí s jejím obsahem. Je strojovou podobou toho, co kniha požaduje
 poznávání: nepřijímat tvrzení bez původu, hledat nezávislé zdroje, zachovávat rozpory místo
 jejich potlačení a připustit „nevím“. Jak se v procesu odhalují techniky EA, popisuje stránka
 [Epistemický proces: detekce EA](@/kompendium/aiad-integration/epistemic-pipeline-ea-detection.md);
-vztah knihy k rámci NABLA vysvětluje kapitola [Vztah k NABLA](@/kompendium/02-uvod/vztah-k-nabla.md).
+vztah knihy k rámci NABLA vysvětluje kapitola [Vztah k NABLA](@/kompendium/02-uvod/_index.md).
 Úrovně procesu se mapují na architekturu [3NL](@/glossary/3nl.md) (L0–L4 na 3NL L3, L5–L9
 na 3NL L2, L10–L13 a Meta na 3NL L1).
 
@@ -382,7 +382,7 @@ Decay*, *Provenance Mandatory*, *Cherry-Picking* (zakázaný antivzor), *Formal 
 
 - [Epistemický proces: detekce EA](@/kompendium/aiad-integration/epistemic-pipeline-ea-detection.md)
   – odhalování technik EA v procesu.
-- [Vztah k NABLA](@/kompendium/02-uvod/vztah-k-nabla.md) – vztah knihy k epistemickému rámci
+- [Vztah k NABLA](@/kompendium/02-uvod/_index.md) – vztah knihy k epistemickému rámci
   platformy.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->

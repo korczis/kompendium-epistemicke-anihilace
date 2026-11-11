@@ -121,12 +121,6 @@ Klíčový diferenciál: **autentický non-dualista funguje s druhými**; subjek
 
 - **[EA-2.* Manipulace identit](@/kompendium/02-identitarni-manipulace.md)** — nižší varianta na úrovni identity.
 
-## Vztah k Prismatic platformě
-
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) subjekt-objekt distinkce** — epistemická provenience strukturně rozlišuje pozorovatele a pozorovaný.
-- **OSINT vyšetřovatel-cíl distance** — strukturní oddělení udržuje epistemickou integritu.
-- **[Decision Engine](@/glossary/decision-engine.md) accountability** — vlastnictví rozhodnutí vyžaduje strukturní subjekt.
-
 ## Literatura
 
 - Bowlby, J. (1969). *Attachment and Loss I: Attachment*. London: Hogarth Press.

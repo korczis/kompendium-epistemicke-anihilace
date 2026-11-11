@@ -121,12 +121,6 @@ Klíčový diferenciál: **autentický buddhista funguje**; subjekt po appercept
 
 - **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — eskalační následek subjektové destrukce.
 
-## Vztah k Prismatic platformě
-
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) subjektový axiom** — epistemická provenience operuje s identifikovatelným subjektem.
-- **[Decision Engine](@/glossary/decision-engine.md) accountability** — strukturní vlastnictví rozhodnutí obnovuje funkční subjektivitu.
-- **OSINT investigator continuity** — kontinuální vlastnictví case file kompenzuje rozklad.
-
 ## Literatura
 
 - Britton, W. B. (2019). Can mindfulness be too much of a good thing? *Current Opinion in Psychology*, 28, 159–165.

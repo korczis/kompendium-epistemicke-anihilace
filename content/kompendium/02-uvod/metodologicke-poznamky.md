@@ -9,7 +9,7 @@ tags = ["kompendium", "uvod", "metodologie", "klasifikace", "validace"]
 categories = ["academic", "methodology"]
 
 [extra]
-related_terms = ["filosoficky-ramec", "historicky-kontext", "teoreticke-zaklady", "vztah-k-decision-engine"]
+related_terms = ["filosoficky-ramec", "historicky-kontext", "teoreticke-zaklady" ]
 section_icon = "🧬"
 toc = true
 +++
@@ -470,16 +470,6 @@ Taxonomie podléhá **semverové disciplíně**:
 
 Aktuální verze: **v0.1.0** (počáteční publikace, taxonomie v aktivní expanzi).
 
-## Vztah k Prismatic Decision Engine
-
-Metodologické principy popsané v této kapitole slouží jako vstupní specifikace pro algoritmickou implementaci v rámci Prismatic [Decision Engine](@/glossary/decision-engine.md). Notační systém `EA-X.Y.Z-α` je strojově parsovatelný a umožňuje:
-
-- **Automatizovanou klasifikaci** vstupních fenoménů
-- **Strukturní porovnání** případů napříč klasifikačním stromem
-- **Algoritmickou kompozici** komplexních technik z elementárních jednotek
-
-Implementační detaily viz [Vztah k Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md).
-
 ## Otevřená otázka
 
 Taxonomie **není** dokončený artefakt — je **živý systém**. Klíčové otevřené otázky:
@@ -497,8 +487,8 @@ Taxonomie **není** dokončený artefakt — je **živý systém**. Klíčové o
 - [2.2 Historický kontext](@/kompendium/02-uvod/historicky-kontext.md)
 - [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
 - [2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md)
-- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
-- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)
+- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md)
+- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md)
 - [Glosář: Taxonomie EA](@/glossary/taxonomie-ea.md)
 - [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)

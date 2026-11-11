@@ -14,7 +14,7 @@ related_terms = [
   "epistemicka-agentnost",
   "epistemicka-singularita",
   "gaslighting",
-  "delegitimizace",
+  "delegitimizace"
 ]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"

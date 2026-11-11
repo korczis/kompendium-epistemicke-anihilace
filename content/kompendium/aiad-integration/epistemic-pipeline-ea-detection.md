@@ -18,7 +18,7 @@ toc = true
 
 ## Agent v kostce
 
-Kapitola [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) popisuje jednotlivé úrovně: příjem surových signálů, extrakci signálů, jejich validaci, atribuci zdrojů, korelaci signálů, detekci vzorců, identifikaci rozporů, výpočet důvěry, tvorbu hypotéz, syntézu důkazů, integraci vědění, podporu rozhodování, doporučení akce a integrované vědění; nad nimi sebehodnocení procesu a vrcholovou úroveň. Každá úroveň uplatňuje stále propracovanější analytické, validační a syntetické operace a do každé jsou vetkány [axiomy NABLA](@/glossary/nabla-axioms.md).
+Kapitola [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md) popisuje jednotlivé úrovně: příjem surových signálů, extrakci signálů, jejich validaci, atribuci zdrojů, korelaci signálů, detekci vzorců, identifikaci rozporů, výpočet důvěry, tvorbu hypotéz, syntézu důkazů, integraci vědění, podporu rozhodování, doporučení akce a integrované vědění; nad nimi sebehodnocení procesu a vrcholovou úroveň. Každá úroveň uplatňuje stále propracovanější analytické, validační a syntetické operace a do každé jsou vetkány [axiomy NABLA](@/glossary/nabla-axioms.md).
 
 Původní verze této stránky zdůrazňuje, že proces pracuje s granularitou jednotlivých tvrzení a je výpočetně náročný; proto se v plné hloubce používá pro tvrzení, která byla jinými vrstvami označena jako podezřelá, a ne pro veškerý provoz. Výstupem je „obálka“ se skóre jednotlivých kroků a výsledným hodnocením epistemické integrity tvrzení.
 
@@ -81,6 +81,6 @@ Kniha k tomu dodává, že ani nejlepší proces ověřování nenahradí lidsko
 
 **Kniha**
 
-- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) – popis jednotlivých úrovní.
+- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md) – popis jednotlivých úrovní.
 - [Computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md) – teoretické zasazení.
 - [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) – rozklad tvrzení v lidské praxi.

@@ -5,22 +5,12 @@
     "hits": [
       {
         "code": null,
-        "in": 605,
+        "in": 603,
         "kind": "Pojem",
         "path": "glossary/epistemicka-anihilace.md",
         "tier": 6,
         "title": "Epistemická anihilace",
         "url": "/glossary/epistemicka-anihilace/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 172,
-        "kind": "Pojem",
-        "path": "glossary/kognitivni-anihilace.md",
-        "tier": 6,
-        "title": "Kognitivní anihilace",
-        "url": "/glossary/kognitivni-anihilace/",
         "why": "description"
       },
       {
@@ -31,6 +21,16 @@
         "tier": 6,
         "title": "3.2 Scénáře epistemické delegitimizace",
         "url": "/kompendium/03-zakladni-kategorie/kapitola-2/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 170,
+        "kind": "Pojem",
+        "path": "glossary/kognitivni-anihilace.md",
+        "tier": 6,
+        "title": "Kognitivní anihilace",
+        "url": "/glossary/kognitivni-anihilace/",
         "why": "description"
       },
       {
@@ -55,7 +55,7 @@
       },
       {
         "code": "EA-1.3.2",
-        "in": 80,
+        "in": 78,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
         "tier": 6,
@@ -74,16 +74,6 @@
         "why": "description"
       },
       {
-        "code": "EA-1.3.3",
-        "in": 55,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
-        "tier": 6,
-        "title": "EA-1.3.3 Tematická diverze",
-        "url": "/kompendium/techniques/ea-1-3-3-tematicka-diverze/",
-        "why": "description"
-      },
-      {
         "code": "EA-2.1.1",
         "in": 53,
         "kind": "Technika",
@@ -91,6 +81,16 @@
         "tier": 6,
         "title": "EA-2.1.1 Expertní disinflace",
         "url": "/kompendium/techniques/ea-2-1-1-expertni-disinflation/",
+        "why": "description"
+      },
+      {
+        "code": "EA-1.3.3",
+        "in": 52,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+        "tier": 6,
+        "title": "EA-1.3.3 Tematická diverze",
+        "url": "/kompendium/techniques/ea-1-3-3-tematicka-diverze/",
         "why": "description"
       },
       {

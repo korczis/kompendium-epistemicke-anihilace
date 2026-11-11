@@ -246,15 +246,6 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 
 Předchází [EA-6.1.2 self-report instrumentu](@/kompendium/techniques/ea-6-1-2-self-report-instrument.md), připravuje [EA-6.1.3 collateral interview](@/kompendium/techniques/ea-6-1-3-collateral-interview.md), navazuje [EA-6.2.1 trauma-focused CBT protokol](@/kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md).
 
-## Vztah k Prismatic platformě
-
-Technika je integrována do širšího ekosystému platformy Prismatic prostřednictvím:
-
-- **Prismatic Nabla** — epistemický engine umožňuje kvantifikaci epistemicko-afektivního poškození jako vstup do klinického assessmentu a výstup z monitoring intervence
-- **[Decision Engine](@/glossary/decision-engine.md)** — kalibrace klinického rozhodování o indikaci/modifikaci/ukončení techniky s explicitními Brierův skór metrikami
-- **OSINT toolbox** — pre-klinické forenzní DD klientů s anamnézou expozice manipulativním systémům, validizace anamnestických údajů
-- **Akademie** — interaktivní vzdělávací moduly pro klinickou populaci a peer-support komunity
-
 ## Související
 
 ### Sesterské techniky (6.1 Diagnostické techniky)

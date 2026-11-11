@@ -64,7 +64,7 @@ prožitek, patří k nejtěžším problémům filozofie mysli – viz kapitola
 Jak se v procesu odhalují stopy technik EA a co z jeho stavby plyne pro lidské poznávání, popisuje
 stránka [Epistemic Pipeline a EA](@/kompendium/aiad-integration/epistemic-pipeline-ea-detection.md).
 Strukturní mapování [taxonomie EA](@/glossary/taxonomie-ea.md) na jednotlivé úrovně vysvětluje kapitola
-[Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md); filozofické zázemí
+[Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/_index.md); filozofické zázemí
 výpočetní epistemologie kapitola [Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md).
 
 Lidskou podobu jednotlivých kroků rozvádějí návody [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md),
@@ -168,7 +168,7 @@ tomu, koho se týká.
 **Kniha**
 
 - [Epistemic Pipeline a EA](@/kompendium/aiad-integration/epistemic-pipeline-ea-detection.md) – detekce technik v procesu.
-- [Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) – mapování taxonomie na úrovně.
+- [Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/_index.md) – mapování taxonomie na úrovně.
 - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) – zásah na úrovni vstupu.
 - [Časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md) – nepřeskakovat kontroly.
 

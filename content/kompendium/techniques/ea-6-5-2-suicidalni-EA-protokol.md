@@ -246,15 +246,6 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 
 Kompatibilní s [EA-6.2.10 farmakoterapií](@/kompendium/techniques/ea-6-2-10-pharmacotherapy-adjuvant.md), [EA-6.5.6 inpatient stabilizací](@/kompendium/techniques/ea-6-5-6-inpatient-stabilizace.md), [EA-6.4.5 veteránskými](@/kompendium/techniques/ea-6-4-5-vetersko-protokol.md) protokoly.
 
-## Vztah k Prismatic platformě
-
-Technika je integrována do širšího ekosystému platformy Prismatic prostřednictvím:
-
-- **Prismatic Nabla** — epistemický engine umožňuje kvantifikaci epistemicko-afektivního poškození jako vstup do klinického assessmentu a výstup z monitoring intervence
-- **[Decision Engine](@/glossary/decision-engine.md)** — kalibrace klinického rozhodování o indikaci/modifikaci/ukončení techniky s explicitními Brierův skór metrikami
-- **OSINT toolbox** — pre-klinické forenzní DD klientů s anamnézou expozice manipulativním systémům, validizace anamnestických údajů
-- **Akademie** — interaktivní vzdělávací moduly pro klinickou populaci a peer-support komunity
-
 ## Související
 
 ### Sesterské techniky (6.5 Krizové intervence)

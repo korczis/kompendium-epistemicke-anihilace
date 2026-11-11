@@ -171,10 +171,6 @@ Pro detail per-technique markerů odkazujeme na [techniques](@/kompendium/techni
 - [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — markery: binárnost myšlení, neschopnost generovat třetí alternativu;
 - [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) — markery: ztráta autonomního tonálního výrazu.
 
-## Vztah k platformě Prismatic
-
-Klinický {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} může klinika podpořit při interpretaci nejasných klastrů — využívá kalibraci důvěry založenou na markerech epistemické manipulace jako negativní signály ve vyhodnocení. Pro institucionální kontexty (ochrana vulnerabilních populací, vzdělávací prostředí) je k dispozici integrace s [Color Teams](@/glossary/color-teams.md) defenzivními agenty.
-
 ## Limity diagnostiky
 
 | Limit | Popis |

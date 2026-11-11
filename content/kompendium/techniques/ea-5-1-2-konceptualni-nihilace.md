@@ -171,14 +171,6 @@ Intervence: Podpůrná síť pro bývalé členy s explicitní pojmovou rehabili
 - **Legitimní filozofická revize** — pojmová analýza s rekonstruktivním závěrem, posiluje operativní kapacitu.
 - **EA-1.2.x Argumentační oslabení** — operuje na úrovni jednotlivých argumentů, nikoli kategorií.
 
-## Vztah k Prismatic platformě
-
-Konceptuální nihilace je **strukturálním motivem** pro několik defenzivních mechanismů Prismatic:
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} operational definitions** — všechny rozhodovací proměnné mají **operativní, machine-checkable** definice, které nemohou být diskurzivně rozkývány.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) categorial invariants** — epistemický pipeline udržuje stabilní kategorialní topologii napříč transformacemi; pokus o destabilizaci základních kategorií je flagován.
-- **[Color Teams](@/glossary/color-teams.md) blue-team protocol** — defenzivní validace, že interní diskurz Prismatic neprodukuje konceptuální nihilaci u operátorů (zejména v dlouhodobých výcvikových rámcích).
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)

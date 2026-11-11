@@ -113,8 +113,7 @@
   },
   "kompendium": {
    "components": [
-    "chart_inline",
-    "cross_link"
+    "chart_inline"
    ],
    "covered_views": [
     "chart-inline",
@@ -442,7 +441,6 @@
   },
   "kompendium/02-uvod": {
    "components": [
-    "cross_link",
     "model_eskalace",
     "vrstvy_anihilace"
    ],
@@ -458,10 +456,10 @@
    ],
    "generic_views": {
     "viz/oddil": 1,
-    "viz/okoli": 8
+    "viz/okoli": 6
    },
    "libraries": [],
-   "pages": 9,
+   "pages": 7,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -526,13 +524,13 @@
    ],
    "status": "covered",
    "templates": {
-    "kompendium/page.html": 8,
+    "kompendium/page.html": 6,
     "section.html": 1
    },
    "views": {
     "viz/kostka": 1,
     "viz/oddil-prehled": 1,
-    "viz/teorie-pojmy": 8
+    "viz/teorie-pojmy": 6
    }
   },
   "kompendium/03-manipulacni-vzorce": {

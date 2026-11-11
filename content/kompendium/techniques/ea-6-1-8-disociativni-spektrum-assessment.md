@@ -246,15 +246,6 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 
 Komplementární k [EA-6.1.7 trauma history](@/kompendium/techniques/ea-6-1-7-trauma-history-protokol.md), připravuje [EA-6.2.3 IFS](@/kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md), informuje [EA-6.5.4 disociativní akutní protokol](@/kompendium/techniques/ea-6-5-4-disociativni-akutni-protokol.md).
 
-## Vztah k Prismatic platformě
-
-Technika je integrována do širšího ekosystému platformy Prismatic prostřednictvím:
-
-- **Prismatic Nabla** — epistemický engine umožňuje kvantifikaci epistemicko-afektivního poškození jako vstup do klinického assessmentu a výstup z monitoring intervence
-- **[Decision Engine](@/glossary/decision-engine.md)** — kalibrace klinického rozhodování o indikaci/modifikaci/ukončení techniky s explicitními Brierův skór metrikami
-- **OSINT toolbox** — pre-klinické forenzní DD klientů s anamnézou expozice manipulativním systémům, validizace anamnestických údajů
-- **Akademie** — interaktivní vzdělávací moduly pro klinickou populaci a peer-support komunity
-
 ## Související
 
 ### Sesterské techniky (6.1 Diagnostické techniky)

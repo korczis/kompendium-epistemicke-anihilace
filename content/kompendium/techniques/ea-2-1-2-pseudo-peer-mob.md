@@ -114,12 +114,6 @@ Co prožívá oběť pseudo-peer mob:
 - **[EA-2.4.4 Leadership capture](@/kompendium/techniques/ea-2-4-4-leadership-capture.md)** — když mob získá institucionální autoritu.
 - **[Scénář B](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — pedagogická koercion na komunitní úrovni.
 
-## Vztah k Prismatic platformě
-
-- **OSINT framework koordinační detekce** — pipelines analyzují **synchronizované publikační vzory** napříč sociálními sítěmi a flagují koordinované kampaně.
-- **NABLA Infinity** epistemická citační síť rozlišuje **nezávislé** od **kolinearních** zdrojů.
-- **[Decision Engine](@/glossary/decision-engine.md)** — penalizuje rozhodnutí založená na zdrojích s vysokou interní korelací (proxy pro koordinaci).
-
 ## Literatura
 
 - Asch, S. E. (1956). Studies of independence and conformity: A minority of one against a unanimous majority. *Psychological Monographs: General and Applied*, 70(9).

@@ -113,16 +113,6 @@ Druhým rizikovým kontextem je vnější tlak — bezpečnostní, komerční ne
 | [EA 1 2 1 FALESNE DILEMA](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) | Stránka ze stejného okruhu knihy. |
 | [EA 5 1 2 KONCEPTUALNI NIHILACE](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md) | Stránka ze stejného okruhu knihy. |
 
-## Vztah k Prismatic platformě
-
-[Color Teams Black Team](@/glossary/color-teams.md) — [Black Team](@/glossary/black-team.md) je dedikovaná detekční jednotka pro markery terminálních protokolů.
-
-[NABLA Infinity](@/glossary/nabla-infinity.md) — epistemický pipeline obsahuje invarianty, které identifikují strukturální vzorce odpovídající této technice v textových a behaviorálních datech.
-
-{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — provenance ledger poskytuje auditní stopu, která činí pozdější detekci a forenzní rekonstrukci proveditelnou.
-
-[Compliance framework](@/glossary/compliance-framework.md) — interní compliance zachycuje pokusy o aplikaci technik mimo supervizní rámec a eskaluje je k etickému přezkumu.
-
 ## Literatura
 
 - Beecher, H. K. (1966). Ethics and clinical research. *New England Journal of Medicine*.

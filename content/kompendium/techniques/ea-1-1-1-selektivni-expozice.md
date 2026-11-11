@@ -193,14 +193,6 @@ Intervence: Manuální **deduplikace** zdrojů, přihlášení k **antagonistick
 - **Legitimní kurátorství** — strukturálně podobné, ale **explicitně transparentní** o vyloučení a alternativách.
 - **EA-1.1.2 Informační přetížení** — opačná strategie: ne filtrace, ale **excesivní množství** materiálu inhibující kritické zpracování. Někdy se kombinují (informačně přetížený, ale tematicky filtrovaný materiál).
 
-## Vztah k Prismatic platformě
-
-Selektivní expozice je **strukturálním motivem** pro několik defenzivních mechanismů Prismatic:
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} source diversity check** — kalibrační logika explicitně penalizuje rozhodnutí založená na zdrojích z **úzkého okruhu** ([EA-1.1.1 detekční marker](#detekcni-markery-pohled-pozorovatele) implementovaný algoritmicky).
-- **OSINT framework's multi-source default** — všechny investigation pipelines defaultují na **multiple nezávislé zdroje** a flagují případy, kdy je výsledek závislý na jediném zdroji.
-- **NABLA Infinity provenance tracking** — každé tvrzení v epistemickém pipeline má dohledatelnou linii zdrojů, což umožňuje identifikaci **strukturálních filtrací** v dlouhodobém sledování.
-
 ## Literatura
 
 - Festinger, L. (1957). *A Theory of Cognitive Dissonance*. Stanford University Press.

@@ -352,10 +352,6 @@ Pro maximální benefit z práce s kompendiem doporučujeme následující obecn
 
 Kompendium epistemické a [kognitivní anihilace](@/glossary/kognitivni-anihilace.md) nepředstavuje uzavřený a definitivní korpus vědění, ale spíše systematizovaný základ pro další výzkum, klinickou praxi a vzdělávání v této oblasti. Jeho účinné využití proto předpokládá aktivní, kritický a eticky reflektovaný přístup ze strany všech uživatelů.
 
-## Vztah k Prismatic Decision Engine
-
-Kompendium není pouhým statickým akademickým textem — je integrováno s {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} platformy Prismatic, který umožňuje **empirické testování taxonomických hypotéz** v reálných případech. Detekční markery jednotlivých fenoménů lze operacionalizovat do detekčních pravidel, která Decision Engine aplikuje na vstupní data, čímž vzniká zpětná vazba mezi taxonomií a její validací v praxi.
-
 ## Související
 
 - [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md)

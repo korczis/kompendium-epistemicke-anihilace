@@ -198,12 +198,6 @@ Intervence: Leadership coaching; **structural** safe space for substantive criti
 - **Legitimní emocionální komunikace** — strukturálně podobná, ale **transparentní** o emocionálním obsahu a **bez asymetrické exploitation**.
 - **Therapeutic emotional engagement** — vyžaduje [informed consent](@/glossary/informed-consent.md) a explicit ethical framework.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) emotional context flagging** — kalibrace explicitně penalizuje rozhodnutí přijatá v identifikovaném emocionálním distress.
-- **[Color Teams](@/glossary/color-teams.md) [Black Team](@/glossary/black-team.md) protocols** — explicit threat modeling pro emocionální adversarial scenarios.
-- **OSINT investigator wellness protocols** — strukturální obrana proti vicarious emocionální manipulaci dlouhodobou exposure k manipulativním materiálům.
-
 ## Literatura
 
 - Forgas, J. P. (1995). Mood and judgment: The affect infusion model (AIM). *Psychological Bulletin*, 117(1).

@@ -119,12 +119,6 @@ Merleau-Pontyovská deformace je odlišitelná od:
 
 - **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — eskalační následek tělesné disociace.
 
-## Vztah k Prismatic platformě
-
-- **OSINT field investigation** — fyzická přítomnost obnovuje tělesnou intencionalitu.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) embodied epistemic axiom** — epistemická provenience pracuje s tělem v terénu.
-- **[Decision Engine](@/glossary/decision-engine.md) kinestetický feedback** — tělesné signály jsou součást rozhodovacího procesu.
-
 ## Literatura
 
 - Fuchs, T. (2005). Corporealized and disembodied minds. *Philosophy, Psychiatry, & Psychology*, 12(2), 95–107.

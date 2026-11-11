@@ -79,7 +79,7 @@ Přímo se ke 3NL vztahují kapitoly, které vysvětlují vznik knihy a její na
 Kapitola [1.6 Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md)
 popisuje, jak se taxonomie technik promítá do detekčních pravidel a kalibračních smyček;
 kapitoly [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md) a
-[2.6 Vztah k NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) ukazují, na které úrovni
+[2.6 Vztah k NABLA Infinity](@/kompendium/02-uvod/_index.md) ukazují, na které úrovni
 epistemický proces platformy pracuje s axiomy, inferencemi a meta-inferencemi.
 
 Pro čtenáře, který chce vidět platformní stranu, je výchozím bodem oddíl
@@ -181,7 +181,7 @@ diagnostické kritérium.
 **Kniha**
 
 - [1.6 Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) – co kniha z platformy přebírá.
-- [2.6 Vztah k NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) – axiomy, inference a meta-inference.
+- [2.6 Vztah k NABLA Infinity](@/kompendium/02-uvod/_index.md) – axiomy, inference a meta-inference.
 - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – typická technika meta-úrovně.
 - [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) – postup obnovy zdola.
 

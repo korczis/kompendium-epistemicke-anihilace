@@ -14,7 +14,7 @@ related_terms = [
   "body-schema",
   "disociace",
   "c-ptsd",
-  "embodied-cognition",
+  "embodied-cognition"
 ]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"

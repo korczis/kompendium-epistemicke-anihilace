@@ -126,12 +126,6 @@ Klíčový diferenciál: **autentický Heidegger vede k otevřenosti druhým**; 
 
 - **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — primární eskalační doména.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) angažovanost** — strukturní vynucování praktického *Sorge* o konkrétní rozhodnutí.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) Mitwelt axiom** — epistemická provenience pracuje s druhými, nikoli izolovaně.
-- **OSINT komunitní validace** — cross-source vetting kompenzuje izolaci.
-
 ## Literatura
 
 - Frankl, V. E. (1946). *…trotzdem Ja zum Leben sagen*. Wien: Verlag für Jugend und Volk.

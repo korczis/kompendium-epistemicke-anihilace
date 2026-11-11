@@ -188,12 +188,6 @@ Intervence: Část tradice provedla autocritique a sebepředefinovala. Druhá č
 - **Legitimní technický jazyk** — obsahem identický, **odlišný** v ochotě vysvětlit a v existence parafráze.
 - **[EA-1.2.3](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) Iluzorní komplexita** — sourozenecká technika, ale strukturálně odlišná: mystifikace inflouje **jazyk**, iluzorní komplexita inflouje **konceptuální strukturu**.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) glossary requirement** — klíčové termíny v decision context **musí** mít explicitní definice, jinak je důvěra penalizována.
-- **API documentation standards** — Prismatic API standardy vyžadují **plain-language descriptions** pro všechny endpointy, **doplňované** technicky preciznímmi specifikacemi.
-- **OSINT report templates** — templáty obsahují **explicit glossary** sekci pro non-expert konzumenty.
-
 ## Literatura
 
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.

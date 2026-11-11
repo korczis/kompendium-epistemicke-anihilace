@@ -246,15 +246,6 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 
 Integruje [EA-6.3.6 narativní](@/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md) + [EA-6.3.7 identitní](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md) + [EA-6.3.9 axiologickou](@/kompendium/techniques/ea-6-3-9-axiologicka-restaurace.md) rekonstrukci, finalizuje [EA-6.3.5 konsolidaci](@/kompendium/techniques/ea-6-3-5-konsolidace-protokol.md).
 
-## Vztah k Prismatic platformě
-
-Technika je integrována do širšího ekosystému platformy Prismatic prostřednictvím:
-
-- **Prismatic Nabla** — epistemický engine umožňuje kvantifikaci epistemicko-afektivního poškození jako vstup do klinického assessmentu a výstup z monitoring intervence
-- **[Decision Engine](@/glossary/decision-engine.md)** — kalibrace klinického rozhodování o indikaci/modifikaci/ukončení techniky s explicitními Brierův skór metrikami
-- **OSINT toolbox** — pre-klinické forenzní DD klientů s anamnézou expozice manipulativním systémům, validizace anamnestických údajů
-- **Akademie** — interaktivní vzdělávací moduly pro klinickou populaci a peer-support komunity
-
 ## Související
 
 ### Sesterské techniky (6.3 Rekonstrukční protokoly)

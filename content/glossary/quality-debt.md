@@ -178,7 +178,7 @@ defmodule Prismatic.Quality.DebtDetector do
 
   defp scan_for_n_plus_one_queries do
     # Detect potential N+1 query patterns in contexts
-    scan_files_for_pattern(~r/Enum\.map\([^,]+,\s*fn[^}]*Repo\.(get|all)/, :potential_n_plus_one, 3)
+    scan_files_for_pattern(~r/Enum\.map\([^]+,\s*fn[^}]*Repo\.(get|all)/, :potential_n_plus_one, 3)
   end
 
   defp find_unspecced_public_functions do

@@ -196,7 +196,15 @@
   // the same index; the navbar combobox is reached by Tab or by a click.
 
   // --- Sidebar: Flowbite Drawer owns open/close, Escape, backdrop and body scroll. ------------
-  // This bridge only keeps the accessibility state right: on the desktop shell (lg) the sidebar
+  // Flowbite creates the Drawer from data-drawer-* on the toggle (window load). Its default
+  // backdrop ("fixed inset-0 z-30", sized for drawers at z-40) lies ABOVE the Pro admin sidebar
+  // (z-20) and swallowed every tap inside the open drawer: a link or a group toggle only closed
+  // it. The Pro admin shell stacks navbar z-30 > sidebar z-20 > backdrop z-10; DRAWER_BACKDROP
+  // is that backdrop, set on the instance before it is first shown (the backdrop is created on
+  // each show from these options). test/e2e/surfaces.cjs (drawer) hit-tests the open drawer
+  // with real taps; .ai/repo/knowledge/curated/mobile-drawer-stacking.md records the incident.
+  var DRAWER_BACKDROP = 'fixed inset-0 z-10 bg-gray-900/50 dark:bg-gray-900/90';
+  // This bridge also keeps the accessibility state right: on the desktop shell (lg) the sidebar
   // is always visible, so it must not be aria-hidden; on mobile a closed drawer is inert (its
   // links leave the tab order) and opening it moves focus in, closing returns focus to the
   // toggle. Owners: this bridge writes only aria-hidden, inert and focus on #sidebar; the inline
@@ -214,6 +222,8 @@
   function syncSidebar() {
     if (!sidebar) return;
     if (desktopMq.matches) {
+      // A drawer left open while the window grows past lg would keep its backdrop over the page.
+      if (drawer && drawer.isVisible()) drawer.hide();
       setAttr('aria-hidden', null);
       setAttr('inert', null);
     } else {
@@ -222,12 +232,20 @@
       if (closed) setAttr('aria-hidden', 'true');
     }
   }
+  var drawer = null;
+  // Registered after flowbite.min.js registered its own load handler, so it runs after initDrawers.
+  window.addEventListener('load', function () {
+    var registry = window.FlowbiteInstances;
+    drawer = registry && registry.getInstance('Drawer', 'sidebar');
+    if (drawer && drawer._options) drawer._options.backdropClasses = DRAWER_BACKDROP;
+  });
   if (sidebar) {
     var wasOpen = false;
     new MutationObserver(function () {
       syncSidebar();
       if (desktopMq.matches) return;
       var open = !sidebar.hasAttribute('inert');
+      if (sidebarToggle) sidebarToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
       if (open && !wasOpen) {
         var first = sidebar.querySelector('#mobile-search, a[href]');
         if (first && document.activeElement !== document.getElementById('mobile-search')) first.focus();

@@ -38,8 +38,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 **EMDR protokol** je Eye Movement Desensitization and Reprocessing — strukturovaná osmifázová terapie využívající bilaterální stimulaci k aktivaci adaptivního zpracování traumatických vzpomínek; specificky adaptovaná pro EA-trauma s důrazem na epistemická a relační traumata.
 
-Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
-
 ## Indikace
 
 Technika je primárně indikována v následujících klinických kontextech:

@@ -38,8 +38,6 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 
 **Děti — vývojově-senzitivní protokol** je vývojově-upravený EA-trauma protokol pro děti a adolescenty (5-17 let) zohledňující vývojovou úroveň, integraci rodičovského systému, školní kontext a specifické projevy EA-trauma v dětství (regrese, somatizace, school refusal).
 
-Technika je součástí systematické klinické [taxonomie EA](@/glossary/taxonomie-ea.md)-trauma intervenčního portfolia (EA-6) a její validizovaná aplikace předpokládá L2-kvalifikovaného klinika obeznámeného s EA-konceptuálním rámcem, doctrinou bezpečné aplikace (NMND/NWB pro klinický kontext) a etickými hranicemi reverzibility.
-
 ## Indikace
 
 Technika je primárně indikována v následujících klinických kontextech:

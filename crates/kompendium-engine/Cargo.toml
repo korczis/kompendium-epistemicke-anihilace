@@ -1,0 +1,19 @@
+[package]
+name = "kompendium-engine"
+version = "1.0.0"
+edition = "2024"
+description = "kompendium-engine/v1 (docs/engine/kompendium-engine-v1.md) for wasm32: JSON in, JSON out"
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+serde_json = { version = "1", default-features = false, features = ["std"] }
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true

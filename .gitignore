@@ -9,3 +9,5 @@
 /static/js/vendor/alpine.min.js
 .DS_Store
 __pycache__/
+/static/wasm/
+/crates/*/target/

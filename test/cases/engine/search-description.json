@@ -37,20 +37,20 @@
         "code": null,
         "in": 163,
         "kind": "Kapitola",
-        "path": "kompendium/04-terminalni-protokoly/_index.md",
-        "tier": 6,
-        "title": "04. Terminální protokoly",
-        "url": "/kompendium/04-terminalni-protokoly/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 163,
-        "kind": "Kapitola",
         "path": "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
         "tier": 6,
         "title": "6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy",
         "url": "/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 162,
+        "kind": "Kapitola",
+        "path": "kompendium/04-terminalni-protokoly/_index.md",
+        "tier": 6,
+        "title": "04. Terminální protokoly",
+        "url": "/kompendium/04-terminalni-protokoly/",
         "why": "description"
       },
       {

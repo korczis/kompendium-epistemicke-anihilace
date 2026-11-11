@@ -30,9 +30,15 @@ jednu citaci — celé `06-klinicke-aplikace` (11), celé `04-terminalni-protoko
 `03-zakladni-kategorie` a 5 stránek `05-ultramari-techniky`.
 
 Oddíl `04-terminalni-protokoly` popisuje postupy řízené dekonstrukce identity s monitorováním
-a kritérii přerušení. Obranný rámec (`project.content-defensive-frame`, brána `howto`) se dosud
-uplatňoval na stránky technik, ne na tento oddíl; proto mohl nést intervaly monitorování a
-kritéria přerušení.
+a kritérii přerušení. Brána obranného rámce `howto` (`scripts/check-ia.py`) tyto stránky měří
+a propouští je. Na každé stránce hledá nadpisy „Operační modus/postup/sekvence“ a „Forensní
+markery“ a obrat „před aplikací … techniky“; „Krok N“ v nadpisu nebo buňce tabulky jen na
+stránkách technik. Terminální protokoly píší postup v jiných tvarech: `### Trigger criteria pro
+intervenci`, `## Šest fází rekonstrukčního protokolu`, `### Hard exclusion criteria`,
+`### Response protokoly` a eskalace `Level 1 — Enhanced monitoring` / `Level 2 — Pause and
+assess` / `Level 3 — Immediate abort`. Je to posloupnost kroků bez slova „Krok“, a proto prošla.
+Brána, která propustí postup psaný anglickými podstatnými jmény, nedokládá, že na stránce postup
+není.
 
 ## Decision
 
@@ -69,8 +75,12 @@ Z toho plyne:
 
 ## Consequences
 
-- Obranný rámec platí poprvé i pro `04-terminalni-protokoly`. Pořadí je: obsah se změní, potom
-  brána `howto` (`scripts/check-ia.py`) dostane tyto stránky do svého dosahu a doloží výsledek.
+- Obranný rámec se na `04-terminalni-protokoly` uplatní obsahem: oddíl se přerámuje na
+  rozpoznání. Pořadí je: obsah se změní, potom vlákno brány (f3) rozšíří vzory `howto` o
+  strukturní tvary postupu (tabulky a nadpisy fází, `Fáze N`, eskalace `Level N`, nadpisy
+  „… criteria“). Rozšíření nejspíš zasáhne i stránky mimo těchto deset, proto se nejdřív změří
+  na celé knize a zapne se, až když jeho nálezy jsou vyřešené nebo zapsané v ratchetu
+  `PENDING_ZERO`.
 - Vlnu dělá vlákno obsahu (2e) až po vyprázdnění fronty slučování (katalogy, oprava mobilního
   draweru, řez `vymyslena-klinika`, EA-1.6.2, osy katalogu, oprava brány šablonových čísel, B9),
   aby přistála na známém základu.

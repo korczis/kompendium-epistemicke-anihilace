@@ -10,3 +10,4 @@ tags = ["kompendium", "informacni-architektura", "navigace"]
 [extra]
 toc = false
 +++
+

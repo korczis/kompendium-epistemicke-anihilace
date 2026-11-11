@@ -114,12 +114,6 @@ Co prožívá oběť expertní disinflace:
 - **[EA-2.1.7 Institucionální vyloučení](@/kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md)** — disinflace dosáhne kritického masu a vyvolá institucionální distancování.
 - **[EA-2.5.2 Imposter syndrome amplifikace](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md)** — internalizovaná verze.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} source-credibility tracking** — Prismatic explicitně oddělí *substanční* a *kontextuální* kritiku zdroje a flaguje případy, kdy kritika cílí výhradně na kontext bez věcného protiargumentu.
-- **NABLA Infinity provenance** — citační síť expertů je dohledatelná, což ztěžuje **selektivní rekontextualizaci**.
-- **OSINT framework** — multi-source default detekuje koordinovanou kampaň disinflace prostřednictvím vzorové synchronizace publikací.
-
 ## Literatura
 
 - Nichols, T. (2017). *The Death of Expertise: The Campaign Against Established Knowledge and Why It Matters*. Oxford University Press.

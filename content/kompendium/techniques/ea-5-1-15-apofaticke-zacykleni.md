@@ -185,12 +185,6 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
 - **Filosofická skepse** — má **strukturovanou metodu** a **explicitní kritéria**, není plošná.
 - **EA-1.3.1 Imunizace proti falsifikaci** — strukturní příbuznost; apofatické zacyklení je **bohatší** verze imunizace, kde je imunizovaný **každý** možný obsah.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} tvrzecí integrita** — kalibrační logika **vyžaduje** explicitní pozitivní formulaci hypotézy; rozhodnutí formulovaná **výlučně** v negativní formě jsou flagována jako kandidáti pro apofatickou paralýzu.
-- **NABLA Infinity kataphatická povinnost** — každá inference v pipeline musí mít **pozitivně formulovaný výstup**; čistě negativní výstupy spouštějí intervenci.
-- **Color Teams operační closure** — [Red Team](@/glossary/red-team.md) má mandát identifikovat negativní zacyklení, [Blue Team](@/glossary/blue-team.md) má povinnost formulovat **pracovní hypotézu** v pozitivní formě.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md)

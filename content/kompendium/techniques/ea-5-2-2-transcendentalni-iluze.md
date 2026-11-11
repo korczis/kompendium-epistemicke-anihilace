@@ -161,12 +161,6 @@ Intervence: pomalá deradikalizace prostřednictvím individuálních vztahovýc
 
 - **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — pseudo-transcendence se zhroutí do sebereferenčního bodu.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** odmítá rozhodnutí založená výhradně na **fenomenologické jistotě** bez korespondující evidenční stopy.
-- **OSINT framework** vyžaduje **multiple nezávislé zdroje** pro extraordinární tvrzení, čímž neutralizuje pseudo-transcendentní jednotlivý „vhled“.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** odděluje **konfidenci** (kalibrovanou pravděpodobnost) od **subjektivního pocitu jistoty**.
-
 ## Literatura
 
 - Deikman, A. J. (1966). Deautomatization and the mystic experience. *Psychiatry*, 29(4), 324–338.

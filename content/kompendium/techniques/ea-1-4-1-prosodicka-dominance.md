@@ -204,12 +204,6 @@ Intervence: Klinické protokoly — **mandatorní** written treatment options, *
 - **Legitimní pedagogická prosodie** — strukturálně podobná, ale **modulovaná** vůči epistemické robustnosti.
 - **Charismatic teaching** — kvalifikovaná prosodie kombinovaná se substantivním obsahem.
 
-## Vztah k Prismatic platformě
-
-- **Source weighting in OSINT/[Decision Engine](@/glossary/decision-engine.md)** — explicitní strukturální obrana: kvalita zdroje není měřena prosodií, ale dokumentovanou track record + methodological standards.
-- **Written-first decision protocol** — klíčová rozhodnutí Prismatic platformy musí mít **written justification** předem, **before** verbal deliberation.
-- **Multi-modal verification** — žádné rozhodnutí nezávisí výhradně na verbal source.
-
 ## Literatura
 
 - Hall, J. A., Coats, E. J., & Smith LeBeau, L. (2005). Nonverbal behavior and the vertical dimension of social relations: A meta-analysis. *Psychological Bulletin*, 131(6).

@@ -162,12 +162,6 @@ Vedoucí pracovník po sérii reorganizací prožíval „kariérní biografii�
 
 - **[Hermeneutika](@/glossary/hermeneutika.md) reinterpretace** je legitimní; dekoherence je její **patologická eskalace** bez ochranných mechanismů.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} temporal coherence check** — flagsuje rozhodnutí, jejichž zdrojová biografie obsahuje **nekonzistentní chronologie**.
-- **NABLA Infinity provenance tracking** — každé tvrzení časově kotveno, takže narrativní drift lze detekovat algoritmicky.
-- **Investigative protocols** — [forenzní výslech](@/glossary/dual-use-poznani.md) v Prismatic explicitně chrání před indukcí dekoherence opakovanými rekonstrukcemi.
-
 ## Literatura
 
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.

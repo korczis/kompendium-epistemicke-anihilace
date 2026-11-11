@@ -157,12 +157,6 @@ Uživatel internetové subkultury „od-iluze-osvobozený“ reportoval po 18 m�
 - **[EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)** — falešné dilema *redukuje* prostor možností v rámci dané ontologie; exfoliace odstraňuje *ontologii samu*.
 - **Autentická duchovní praxe** — zachovává operativní rámec; exfoliace ho destruuje.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} ontology stability check** — kalibrační logika monitoruje **stabilitu ontologických referencí** napříč rozhodovacími sekvencemi; progresivní odlupování je flagováno.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) ontological ground tracking** — každý epistemický inferenční řetězec má dohledatelnou ontologickou bázi; ztráta báze bez rekonstrukčního kroku je strukturálně blokována.
-- **[Color Teams](@/glossary/color-teams.md) reality-check protocol** — institucionální mechanismy pro periodické ověřování ontologické integrity.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 5 — Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md)

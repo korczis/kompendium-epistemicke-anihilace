@@ -111,16 +111,6 @@ Druhým rizikovým kontextem je prostředí pod vnějším tlakem — bezpečnos
 | [EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | Stránka ze stejného okruhu knihy. |
 | [EA-5 Kognitivní anihilace](@/kompendium/04-terminalni-protokoly/kapitola-5.md) | Stránka ze stejného okruhu knihy. |
 
-## Vztah k Prismatic platformě
-
-{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — evaluační metriky a kompetenční assessmenty mohou využívat [decision engine](@/glossary/decision-engine.md) pro tracking longitudinálního vývoje studentů s confidence calibration.
-
-[NABLA Infinity](@/glossary/nabla-infinity.md) — epistemický framework poskytuje teoretický základ pro metakognitivní moduly.
-
-{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }} — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
-
-{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }} — recognition trénink ([EA-3.1.6](@/kompendium/techniques/ea-3-1-6-recognition-training.md)) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
-
 ## Literatura
 
 - Beauchamp, T. L., & Childress, J. F. (2019). *Principles of Biomedical Ethics* (8. vyd.). Oxford University Press.

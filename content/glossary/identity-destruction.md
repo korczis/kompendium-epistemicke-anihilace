@@ -12,7 +12,7 @@ related_terms = [
   "love-bombing",
   "discard",
   "trauma-bonding",
-  "secure-attachment",
+  "secure-attachment"
 ]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"

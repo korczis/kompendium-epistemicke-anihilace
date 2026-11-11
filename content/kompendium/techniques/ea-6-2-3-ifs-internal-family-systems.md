@@ -246,15 +246,6 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 
 Komplementární k [EA-6.1.8 disociativní spektrum](@/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md), připravuje [EA-6.3.7 identitní rekonstituci](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md), integrovatelná s [EA-6.2.5 narrative therapy](@/kompendium/techniques/ea-6-2-5-narrative-therapy-protokol.md).
 
-## Vztah k Prismatic platformě
-
-Technika je integrována do širšího ekosystému platformy Prismatic prostřednictvím:
-
-- **Prismatic Nabla** — epistemický engine umožňuje kvantifikaci epistemicko-afektivního poškození jako vstup do klinického assessmentu a výstup z monitoring intervence
-- **[Decision Engine](@/glossary/decision-engine.md)** — kalibrace klinického rozhodování o indikaci/modifikaci/ukončení techniky s explicitními Brierův skór metrikami
-- **OSINT toolbox** — pre-klinické forenzní DD klientů s anamnézou expozice manipulativním systémům, validizace anamnestických údajů
-- **Akademie** — interaktivní vzdělávací moduly pro klinickou populaci a peer-support komunity
-
 ## Související
 
 ### Sesterské techniky (6.2 Terapeutické intervence)

@@ -5,135 +5,135 @@
     "hits": [
       {
         "code": null,
-        "in": 380,
+        "in": 375,
         "kind": "Pojem",
-        "path": "glossary/nabla-infinity.md",
+        "path": "glossary/taxonomie-ea.md",
         "tier": 4,
-        "title": "NABLA Infinity (∇∞)",
-        "url": "/glossary/nabla-infinity/",
+        "title": "Taxonomie EA",
+        "url": "/glossary/taxonomie-ea/",
         "why": "title_prefix"
       },
       {
         "code": null,
-        "in": 14,
+        "in": 132,
         "kind": "Kapitola",
-        "path": "kompendium/aiad-integration/nabla-infinity-ea-pipeline.md",
-        "tier": 4,
-        "title": "NABLA Infinity a detekce technik EA",
-        "url": "/kompendium/aiad-integration/nabla-infinity-ea-pipeline/",
-        "why": "title_prefix"
+        "path": "kompendium/02-uvod/metodologicke-poznamky.md",
+        "tier": 5,
+        "title": "2.4 Metodologické poznámky k taxonomii",
+        "url": "/kompendium/02-uvod/metodologicke-poznamky/",
+        "why": "title_word"
       },
       {
         "code": null,
-        "in": 14,
+        "in": 21,
         "kind": "Kapitola",
-        "path": "kompendium/argumentacni-fauly/jazykove-klamy/nabity-jazyk.md",
-        "tier": 4,
-        "title": "Nabitý jazyk",
-        "url": "/kompendium/argumentacni-fauly/jazykove-klamy/nabity-jazyk/",
-        "why": "title_prefix"
+        "path": "kompendium/08-prilohy/klasifikace.md",
+        "tier": 5,
+        "title": "Klasifikační schéma a taxonomie — meta-úroveň",
+        "url": "/kompendium/08-prilohy/klasifikace/",
+        "why": "title_word"
       },
       {
         "code": null,
-        "in": 14,
+        "in": 10,
         "kind": "Kapitola",
-        "path": "kompendium/forensic-legal/48-religious-exemption-EA.md",
-        "tier": 4,
-        "title": "Náboženské výjimky",
-        "url": "/kompendium/forensic-legal/48-religious-exemption-ea/",
-        "why": "title_prefix"
+        "path": "kompendium/puvodni-taxonomie/_index.md",
+        "tier": 5,
+        "title": "Původní taxonomie (2025)",
+        "url": "/kompendium/puvodni-taxonomie/",
+        "why": "title_word"
       },
       {
         "code": null,
-        "in": 14,
+        "in": 3,
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-taxonomie-ea.md",
+        "tier": 5,
+        "title": "Bridge: Taxonomie EA",
+        "url": "/kompendium/glossary-bridges/bridge-taxonomie-ea/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 329,
         "kind": "Kapitola",
-        "path": "kompendium/international/17-religious-minority-EA/index.md",
-        "tier": 4,
-        "title": "Náboženské menšiny — EA",
-        "url": "/kompendium/international/17-religious-minority-ea/",
-        "why": "title_prefix"
+        "path": "kompendium/06-klinicke-aplikace/_index.md",
+        "tier": 6,
+        "title": "06. Klinické aplikace a diagnostika",
+        "url": "/kompendium/06-klinicke-aplikace/",
+        "why": "description"
       },
       {
         "code": null,
-        "in": 32,
+        "in": 312,
+        "kind": "Kapitola",
+        "path": "kompendium/01-predmluva/eticke-aspekty.md",
+        "tier": 6,
+        "title": "1.3 Etické aspekty a upozornění",
+        "url": "/kompendium/01-predmluva/eticke-aspekty/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 190,
         "kind": "Pojem",
-        "path": "glossary/nabla-axioms.md",
-        "tier": 5,
-        "title": "Axiomy NABLA",
-        "url": "/glossary/nabla-axioms/",
-        "why": "title_word"
+        "path": "glossary/ontologicka-anihilace.md",
+        "tier": 6,
+        "title": "Ontologická anihilace",
+        "url": "/glossary/ontologicka-anihilace/",
+        "why": "description"
       },
       {
         "code": null,
-        "in": 27,
+        "in": 102,
+        "kind": "Pojem",
+        "path": "glossary/epistemicka-alienace.md",
+        "tier": 6,
+        "title": "Epistemická alienace",
+        "url": "/glossary/epistemicka-alienace/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 96,
+        "kind": "Pojem",
+        "path": "glossary/kompendium-ea.md",
+        "tier": 6,
+        "title": "Kompendium EA",
+        "url": "/glossary/kompendium-ea/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 90,
         "kind": "Kapitola",
-        "path": "kompendium/02-uvod/vztah-k-nabla.md",
-        "tier": 5,
-        "title": "2.6 Vztah ke Prismatic NABLA Infinity (∇∞)",
-        "url": "/kompendium/02-uvod/vztah-k-nabla/",
-        "why": "title_word"
+        "path": "kompendium/_index.md",
+        "tier": 6,
+        "title": "Kompendium epistemické a kognitivní anihilace",
+        "url": "/kompendium/",
+        "why": "description"
       },
       {
         "code": null,
-        "in": 23,
+        "in": 64,
         "kind": "Kapitola",
-        "path": "kompendium/07-teoreticke-reflexe/computational-epistemology.md",
-        "tier": 5,
-        "title": "7.6 Computational epistemology a NABLA",
-        "url": "/kompendium/07-teoreticke-reflexe/computational-epistemology/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 22,
-        "kind": "Kapitola",
-        "path": "kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md",
-        "tier": 5,
-        "title": "Hodnotově nabitá slova",
-        "url": "/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 14,
-        "kind": "Kapitola",
-        "path": "kompendium/educational-scenarios/18-cult-recruitment.md",
-        "tier": 5,
-        "title": "Vzdělávací scénář: Náborové techniky kultu",
-        "url": "/kompendium/educational-scenarios/18-cult-recruitment/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 13,
-        "kind": "Kazuistika",
-        "path": "kompendium/case-studies/26-religiozni-fanatismus-exit.md",
-        "tier": 5,
-        "title": "Případ 26: Odchod z vysoce kontrolujícího náboženského společenství",
-        "url": "/kompendium/case-studies/26-religiozni-fanatismus-exit/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 13,
-        "kind": "Kazuistika",
-        "path": "kompendium/case-studies/49-religious-leadership.md",
-        "tier": 5,
-        "title": "Případ 49: Duchovní totalizace pod autoritou náboženského vedoucího",
-        "url": "/kompendium/case-studies/49-religious-leadership/",
-        "why": "title_word"
+        "path": "kompendium/03-zakladni-kategorie/_index.md",
+        "tier": 6,
+        "title": "03. Základní kategorie epistemických manipulací",
+        "url": "/kompendium/03-zakladni-kategorie/",
+        "why": "description"
       }
     ],
     "limit": 12,
-    "normalised": "nab",
+    "normalised": "tax",
     "ok": true,
     "op": "search",
-    "query": "NAB",
+    "query": "Tax",
     "schema": "kompendium-engine/v1",
-    "total": 61
+    "total": 57
   },
   "input": {
     "op": "search",
-    "query": "NAB"
+    "query": "Tax"
   }
 }

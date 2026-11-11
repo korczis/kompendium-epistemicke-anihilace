@@ -163,12 +163,6 @@ Vrcholový tým velké organizace po dlouhodobém používání korporátního �
 - **Wittgensteinská kritika rigidních definic** — Wittgenstein zachovává **používání** konceptů jako fungující praxi; entropie destruuje praxi samu.
 - **Pluralistická konceptuální tolerance** — pluralismus zachovává distinkce *uvnitř* různých rámců; entropie je destruuje.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} conceptual stability check** — kalibrační logika monitoruje **stabilitu pojmových distinkcí** v rozhodovacích sekvencích; rozmazávání klíčových termínů je flagováno.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) taxonomic integrity** — každý epistemický inferenční řetězec má dohledatelný taxonomický rámec; randomizace vztahů je strukturálně blokována.
-- **[Color Teams](@/glossary/color-teams.md) conceptual rigor protocol** — institucionální mechanismy pro periodické vyžadování pojmové preciznosti.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 5 — Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md)

@@ -93,10 +93,6 @@ Co může vidět vnější pozorovatel:
 - **EA-5.3.* (Hypertransformativní protokoly)** — pre-konceptuální rekonfigurace umožňuje identitární substituci
 - **EA-1.5.* (Somatické techniky)** — pre-konceptuální manipulace často kombinovaná s somatickými technikami
 
-## Vztah k Prismatic platformě
-
-Technika **somato-fenomenologická disrupce** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.5.2.
-
 ## Teoretické zázemí
 
 Tato technika operuje na úrovni **pre-predikativní zkušenosti** v Husserlově fenomenologii — vrstva před tím, než se konstituuje predikativní soud „S je P“. Husserl v *Erfahrung und Urteil* (1939) ukazuje, že každý vědomý soud je založen na pasivní syntéze pre-predikativních dat: vjemy jsou již před verbalizací strukturovány retencemi (právě uplynulé) a protencemi (anticipovanými). Technika **somato-fenomenologická disrupce** cílí přesně na tuto vrstvu — narušuje pasivní syntézu před tím, než subjekt může artikulovat, co se mu vlastně děje.

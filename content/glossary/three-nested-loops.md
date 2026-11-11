@@ -14,7 +14,7 @@ related_terms = [
   "epistemic-pipeline",
   "aiad",
   "nm-nd",
-  "session-discipline",
+  "session-discipline"
 ]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
@@ -100,7 +100,7 @@ k závěru.
 Pro obsah knihy nemá 3NL přímý význam – nepopisuje žádný jev epistemické anihilace. Kompendium
 ho uvádí kvůli **transparentnosti původu**: oddíl [Vztah ke Prismatic
 Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) a kapitola [Vztah k
-NABLA](@/kompendium/02-uvod/vztah-k-nabla.md) vysvětlují, jak se taxonomie EA zapojuje do
+NABLA](@/kompendium/02-uvod/_index.md) vysvětlují, jak se taxonomie EA zapojuje do
 procesů platformy. Napojení na detekci EA rozebírá oddíl [AIAD Integration & EA
 detection](@/kompendium/aiad-integration/_index.md); propojení s knihou shrnuje [Bridge:
 3nl](@/kompendium/glossary-bridges/bridge-3nl.md).

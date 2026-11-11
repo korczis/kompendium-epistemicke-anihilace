@@ -39,7 +39,7 @@ Předmluva je krátký, ale normativní oddíl. Její stránky odpovídají na o
 - [Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md) skládají interdisciplinární rámec – epistemologii, psychologii traumatu, sociální teorii.
 - [Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md) vysvětlují klasifikační principy, validační kritéria a notaci kódů EA.
 - [Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md) ukotvuje taxonomii ve [fenomenologii](@/glossary/fenomenologie.md) a [hermeneutice](@/glossary/hermeneutika.md).
-- [Vztah k NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) a [Vztah k Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md) ukazují, jak se taxonomie promítá do epistemického procesu platformy.
+- [Vztah k NABLA Infinity](@/kompendium/02-uvod/_index.md) a [Vztah k Decision Engine](@/kompendium/02-uvod/_index.md) ukazují, jak se taxonomie promítá do epistemického procesu platformy.
 
 ## Proč číst Předmluvu před Úvodem
 
@@ -60,7 +60,7 @@ Následující dvojice stránek se čtou nejlépe společně. U každé je uvede
 | [Etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) | [Historický kontext](@/kompendium/02-uvod/historicky-kontext.md) | Etické směrnice dostanou historické zdůvodnění: poznatky o ovlivňování mysli byly opakovaně zneužity institucemi i režimy. |
 | [Jak používat](@/kompendium/01-predmluva/jak-pouzivat.md) | [Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md) | Navigační pokyny se opřou o pojmový rámec, který drží celou knihu pohromadě. |
 | [Bezpečnostní klasifikace](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md) | [Definice – odstupňování](@/kompendium/02-uvod/definice.md) | Přístupové úrovně kopírují závažnost jevů; čtenář chápe, proč hlubší vrstvy vyžadují více opatrnosti. |
-| [Vztah k platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) | [Vztah k NABLA](@/kompendium/02-uvod/vztah-k-nabla.md) | Obecné konstatování původu se změní v konkrétní mapování taxonomie na [epistemický proces](@/glossary/epistemic-pipeline.md) platformy. |
+| [Vztah k platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) | [Vztah k NABLA](@/kompendium/02-uvod/_index.md) | Obecné konstatování původu se změní v konkrétní mapování taxonomie na [epistemický proces](@/glossary/epistemic-pipeline.md) platformy. |
 
 Zpětná cesta – z Úvodu do Předmluvy – je stejně důležitá. Kdo při čtení Definic narazí na pojem, jehož použití v praxi mu není jasné (například zda smí klientovi říct, že „prošel epistemickou anihilací“), najde odpověď v Etických aspektech, ne v dalších definicích.
 

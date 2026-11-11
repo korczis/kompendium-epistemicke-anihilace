@@ -161,18 +161,6 @@ Porušení etických směrnic může vést k:
 
 Sankční rámec je **kalibrován tak**, aby byl úměrný riziku, nikoli pouze prokázané škodě. To reflektuje kumulativní a temporálně rozšířenou povahu epistemického poškození.
 
-## Vztah k Prismatic Decision Engine
-
-Etické principy kompendia jsou **strukturálně propojeny** s {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} Prismatic platformy:
-
-- **Confidence calibration** explicitně počítá s indikátory epistemické manipulace jako negativními signály
-- **Source diversity check** je technickou implementací principu epistemické triangulace
-- **Audit log** každého rozhodnutí materializuje princip transparentní dokumentace
-- **Boundary detection** automaticky identifikuje překročení etických limitů v argumentační struktuře
-- **Color Teams** [protokoly](@/glossary/color-teams.md) operacionalizují systematický defenzivní přístup
-
-Detailní rozbor vzájemného vztahu mezi etickými principy kompendia a platformovými mechanismy je uveden v dokumentu [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md).
-
 ## Etická role uživatele
 
 Uživatel kompendia není pouze pasivním příjemcem informací. Přijetím přístupu se stává:

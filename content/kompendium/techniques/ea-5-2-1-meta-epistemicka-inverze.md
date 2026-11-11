@@ -165,12 +165,6 @@ Intervence: deplatformizace a rozprášení komunity — rekonstrukce standardů
 - **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — terminální stav, kdy meta-reflexe se zhroutí v jediný sebereferenční bod.
 - **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-konvergentni-meta-singularita)** — terminální stav podtřídy 5.2, v němž se sbíhají dílčí poškození EA-5.2.1 až [EA-5.2.29](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md).
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} calibration loop** — kalibrační smyčka explicitně testuje **meta-pravidla** rozhodování proti externí evidenci, čímž detekuje inverzi.
-- **OSINT framework's source-quality matrix** — strukturovaná hodnotící mřížka brání idiosynkratickému převrácení reliability.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) epistemic provenance** — každý epistemický akt má dohledatelnou strukturu, takže inverze meta-pravidel je viditelná v auditní stopě.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)

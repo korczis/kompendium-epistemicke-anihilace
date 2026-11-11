@@ -18,7 +18,7 @@ Kniha vznikla v prostředí Prismatic Platform, softwarové platformy pro rozhod
 
 Oddíl nemá čtenáře naučit pracovat se softwarem. Má ukázat, že obranné zásady, které kniha doporučuje lidem – trvat na více nezávislých zdrojích, zachovat si rozpor, smět říct „nevím“, uzavírat problém až po ověřené nápravě, nesvěřovat neomezenou moc nikomu bez auditu –, lze formulovat tak přesně, že je dokáže vynucovat i stroj. Srovnání má dvojí užitek. Ukazuje, že obrany knihy nejsou intuitivní rady, ale ověřitelné postupy. A ukazuje i to, kde strojová analogie končí: člověk vystavený manipulaci často ví, co by měl ověřit, ale nemůže si to „dovolit“, protože zdrojem informací je někdo, na kom závisí (Freyd 1996). Kniha proto ke každé strojové zásadě dodává to, co platforma nepotřebuje – bezpečí, vztahy a péči.
 
-Druhým důvodem je poctivost vůči původu knihy. Předmluva v kapitole [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) a Úvod v kapitolách [Vztah k NABLA](@/kompendium/02-uvod/vztah-k-nabla.md) a [Vztah k Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md) popisují, jak se taxonomie promítá do platformy. Tento oddíl jde o krok dál – k jednotlivým agentům.
+Druhým důvodem je poctivost vůči původu knihy. Předmluva v kapitole [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) a Úvod v kapitolách [Vztah k NABLA](@/kompendium/02-uvod/_index.md) a [Vztah k Decision Engine](@/kompendium/02-uvod/_index.md) popisují, jak se taxonomie promítá do platformy. Tento oddíl jde o krok dál – k jednotlivým agentům.
 
 ## Barevné týmy
 
@@ -84,8 +84,8 @@ Popisy agentů vycházejí z dokumentace platformy, jak ji zachycují glosář a
 ## Související
 
 - [1.6 Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) – původ knihy v prostředí platformy.
-- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) – mapování taxonomie na [epistemický proces](@/glossary/epistemic-pipeline.md).
-- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md) – kalibrace a hypotézy.
+- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md) – mapování taxonomie na [epistemický proces](@/glossary/epistemic-pipeline.md).
+- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md) – kalibrace a hypotézy.
 - [Color Teams](@/glossary/color-teams.md) – architektura barevných týmů.
 - [AIAD](@/glossary/aiad.md) – standard definic agentů.
 - [Detekční signatury](@/kompendium/detection-signatures/_index.md) – stopy technik, které agenti i lidé zachytávají.

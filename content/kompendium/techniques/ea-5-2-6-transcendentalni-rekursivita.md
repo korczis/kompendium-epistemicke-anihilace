@@ -155,12 +155,6 @@ Intervence: rozprášení školy externí akademickou intervencí; rekonstrukce 
 
 - **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — meta-úroveň se zhroutí v rekurzivní bod.
 
-## Vztah k Prismatic platformě
-
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** operuje s **explicitními kategoriálními predikáty**, jejichž stabilita je vynucena typovým systémem — rekurzivní destabilizace by byla zachycena jako typová chyba.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} terminační logika** — rozhodnutí má hard-coded depth limit pro kategoriální analýzu, čímž brání nezakončené iteraci.
-- **OSINT pipeline** odděluje **identifikaci** od **klasifikace** — rekurzivní destabilizace klasifikace by nezasáhla identifikační vrstvu.
-
 ## Literatura
 
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.

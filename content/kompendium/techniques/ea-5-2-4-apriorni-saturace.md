@@ -161,12 +161,6 @@ Intervence: zavedení **explicitních empirických metrik** efektivity, formaliz
 
 - **[EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)** — kategorie samá se rozpouští, když je saturována nesouladnými falešnými apriori.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** vyžaduje **explicitní formulaci předpokladů** každého rozhodnutí, čímž apriorní saturaci učiní viditelnou.
-- **OSINT pipeline auditovaná [NABLA Infinity](@/glossary/nabla-infinity.md)** rozlišuje **observation** od **assumption**, takže vsazená apriori nemohou figurovat jako evidence.
-- **Methodological adversarial review** — interní praxe Prismatic je strukturováním kritického posouzení napříč paradigmaty.
-
 ## Literatura
 
 - Festinger, L., Riecken, H. W. & Schachter, S. (1956). *When Prophecy Fails*. Minneapolis: University of Minnesota Press.

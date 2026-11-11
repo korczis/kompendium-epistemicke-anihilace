@@ -9,7 +9,7 @@ tags = ["kompendium", "uvod", "teorie", "konceptualni-ramec", "interdisciplinari
 categories = ["academic", "theory"]
 
 [extra]
-related_terms = ["historicky-kontext", "metodologicke-poznamky", "vztah-k-decision-engine", "vztah-k-nabla"]
+related_terms = ["historicky-kontext", "metodologicke-poznamky" ]
 section_icon = "🏛️"
 toc = true
 +++
@@ -445,21 +445,6 @@ Je důležité zdůraznit, že zde prezentovaný teoretický rámec není pouze 
 
 V následujících kapitolách budou prezentovány konkrétní taxonomické kategorie, diagnostické indikátory a terapeutické přístupy, které jsou přímo odvozeny z tohoto teoretického rámce a reprezentují jeho praktickou operacionalizaci.
 
-## Vztah k Prismatic Decision Engine
-
-Teoretický rámec není čistě akademický — strukturálně koreluje s **architekturou** Prismatic [Decision Engine](@/glossary/decision-core.md) a [NABLA Infinity](@/glossary/nabla-infinity.md):
-
-- **Hypotézy + falsifikační kritéria** = mechanismus proti [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) imunizaci
-- **Source diversity check** = strukturální obrana proti [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) selektivní expozici
-- **Confidence calibration** = explicitní reprezentace epistemické nejistoty
-- **Audit log** = mechanismus proti [EA-1.3.3](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) tematické diverzi
-- **Contradiction Preservation** (NABLA Axiom 2) = strukturální imunita vůči cherry-pickingu
-- **Time Decay** (NABLA Axiom 4) = ochrana proti zneužití zastaralých dat
-- **Provenance Mandatory** (NABLA Axiom 7) = traceabilita proti epistemické amnézii
-- **Color Teams** = adversariální testování taxonomicky popsaných útoků v provozním prostředí
-
-Detailní rozpracování těchto strukturních vztahů viz [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) a [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md).
-
 ## Mez teoretického rámce
 
 Žádný teoretický rámec **nemůže** být kompletní. Tato taxonomie:
@@ -477,8 +462,8 @@ Teoretický rámec je **dynamickou architekturou**, otevřenou kontinuální rev
 - [2.2 Historický kontext](@/kompendium/02-uvod/historicky-kontext.md)
 - [2.4 Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)
 - [2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md)
-- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
-- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)
+- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md)
+- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md)
 - [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md) — teoretický substrát platform
 - [Glosář: Epistemic Pipeline](@/glossary/epistemic-pipeline.md) — 16 úrovní (L0–L13 + Meta + Consciousness)
 - [Glosář: 3NL](@/glossary/3nl.md) — Three-Nested-Loops architektura

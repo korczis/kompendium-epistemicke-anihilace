@@ -60,10 +60,11 @@ jobs:
   validate:
     name: Validate and build
     runs-on: ubuntu-latest
-    # Měřeno: gate ploch 104 kontrol trvá lokálně 597 s, v CI dřív ~10 s na kontrolu (~17 min);
-    # celý job tak ~30 min. Běh 42814054658 visel v gate ploch 51 min bez konce; výchozí limit
-    # je 6 h a zdržel by i bezpečnostní nasazení. Limit ukončí zaseknutý běh s čitelným logem.
-    timeout-minutes: 45
+    # Měřeno: běh 42814054658 visel v gate ploch 51 min (opraveno: smyčka průjezdu stránkou).
+    # Běh 43014704735 (větev katalogů, +559 stránek) byl useknut na 45 min bez jediné chyby:
+    # testy nástrojů 21:21, plochy 14:06, audit ještě běžel. Limit = naměřený běh + rezerva;
+    # zaseknutý běh i tak skončí s čitelným logem, ne po výchozích 6 h.
+    timeout-minutes: 70
     steps:
       - uses: actions/checkout@v7
       - uses: ./.github/actions/setup

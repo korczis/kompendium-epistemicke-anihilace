@@ -14,7 +14,7 @@ related_terms = [
   "epistemicke-zakladny",
   "trinity-gate",
   "epistemic-pipeline",
-  "signal-plurality",
+  "signal-plurality"
 ]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"

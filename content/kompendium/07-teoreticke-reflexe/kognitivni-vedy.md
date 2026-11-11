@@ -134,14 +134,6 @@ Tři kognitivně-vědecká paradigmata nejsou alternativami, ale **komplementár
 
 Sofistikovaný manipulační útok operuje **napříč všemi třemi úrovněmi simultánně**: cílí na System 1 heuristiky, kontaminuje prediktivní priors a strukturuje embodied prostředí. Adekvátní obrana proto nemůže být lokalizována na jediné úrovni — vyžaduje multi-level intervenci.
 
-## Vztah k platformě Prismatic
-
-[NABLA Infinity](@/glossary/nabla-infinity.md) implementuje strukturní obranu napříč třemi úrovněmi:
-
-- **Duální systém**: NABLA L0–L4 explicitně oddělují rychlé heuristické zpracování od pomalé analytické evaluace, čímž implementují nucenou aktivaci „System 2“ pro epistemicky kritické operace.
-- **Prediktivní kódování**: Axiom Contradiction Preservation (NABLA Axiom 2) brání systematickou supresi prediction errors; Provenance Mandatory (Axiom 7) udržuje dohledatelnost prior shaping.
-- **Embodied / enaktivní**: Kolektivní operace jsou strukturovány skrze [Color Teams](@/glossary/color-teams.md) — dialogická adversariální architektura, jež kompenzuje individuální zranitelnosti distributed cognition modelem.
-
 ## Související
 
 - [7.1 Filozofické tradice](@/kompendium/07-teoreticke-reflexe/filozoficke-tradice/_index.md)
@@ -150,8 +142,8 @@ Sofistikovaný manipulační útok operuje **napříč všemi třemi úrovněmi 
 - [7.4 Politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
 - [Sekce 07 — Teoretické reflexe (úvod)](@/kompendium/07-teoreticke-reflexe/_index.md)
 - [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
-- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
-- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)
+- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md)
+- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 - [Sekce 04 — Klinika](@/kompendium/04-klinika/_index.md)
 - [Sekce 05 — Kolektivní rozměr](@/kompendium/05-kolektivni-rozmer/_index.md)

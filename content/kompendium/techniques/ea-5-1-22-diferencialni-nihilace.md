@@ -158,12 +158,6 @@ V postgraduálním programu byl studentům prezentován výklad, podle něhož �
 
 - **Legitimní teoretická integrace** — sjednocuje, ale **dělí jemněji**, zatímco nihilace **přestává dělit**.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} granularity check** — kalibrační logika sleduje, zda subjektova rozhodnutí používají **konzistentně** stejné kategorie nebo zda dochází k jejich kolapsu v čase.
-- **NABLA Infinity distinction tracking** — provenance záznamy fixují, jaké distinkce byly v původní formulaci tvrzení aktivní; jejich pozdější absence je flagována.
-- **Glossary auto-audit** — periodická kontrola, zda se v platformovém diskurzu zachovává původní rozsah termínů.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)

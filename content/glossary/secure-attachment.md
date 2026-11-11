@@ -14,7 +14,7 @@ related_terms = [
   "love-bombing",
   "polyvagalni-teorie",
   "c-ptsd",
-  "theory-of-mind",
+  "theory-of-mind"
 ]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"

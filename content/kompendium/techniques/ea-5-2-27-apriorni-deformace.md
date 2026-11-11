@@ -116,12 +116,6 @@ Apriorní deformace je odlišitelná od:
 
 - **[EA-5.1.* Ontologické rozpouštění](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — eskalační následek.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) timestamp validation** — strukturní časomíra obnovuje homogenitu.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) timestamp axiom** — epistemická provenience pracuje s explicitními časy.
-- **OSINT timeline reconstruction** — strukturní časová rekonstrukce kompenzuje deformaci.
-
 ## Literatura
 
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.

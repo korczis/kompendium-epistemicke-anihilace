@@ -117,12 +117,6 @@ Apriorní fragmentace je odlišitelná od:
 
 - **[EA-5.1.* Ontologické rozpouštění](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — fragmentace eskaluje do ontologického rozpadu.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) timeline strukturalizace** — explicitní časové osy obnovují lineární orientaci.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) temporální axiom** — epistemická provenience pracuje s explicitními timestampy.
-- **OSINT chronologická rekonstrukce** — strukturní time-line práce kompenzuje fragmentaci.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)

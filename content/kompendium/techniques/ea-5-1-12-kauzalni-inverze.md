@@ -162,12 +162,6 @@ Oběť dlouhodobého zneužívání během prvního výslechu opakovaně vracela
 
 - **Legitimní sdílení odpovědnosti** v konfliktu zachovává **proporcionalitu** vůči struktuře situace; inverze ji systematicky narušuje.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} attribution checks** — kalibrační logika explicitně modeluje **kauzální graf** a flagsuje rozhodnutí, jejichž předpoklady obsahují atribuční asymetrie nezávisle podpořené evidencí.
-- **NABLA Infinity provenance tracking** — každé tvrzení v decision pipeline obsahuje **kauzální atribuci** s explicitně označeným zdrojem; subjekt může v post-hoc analýze rekonstruovat **původní** atribuční strukturu.
-- **OSINT framework's actor-action graphs** — investigations rozlišují *agenta* a *reagujícího* na úrovni datové struktury, což znemožňuje implicitní inverzi v reportování.
-
 ## Literatura
 
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.

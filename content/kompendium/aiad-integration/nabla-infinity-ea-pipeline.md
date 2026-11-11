@@ -24,7 +24,7 @@ Původní verze této stránky popisuje použití NABLA v detekci jako práci s 
 
 ## Proč se týká technik EA
 
-Kapitola [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) výslovně páruje axiomy s technikami: [pluralita signálů](@/glossary/signal-plurality.md) chrání proti [selektivní expozici](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md), zachování rozporu proti vybírání příznivých údajů a [imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), informativní absence proti [informačnímu přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md), které chybějící důkazy zakrývá, nezávislost zdrojů proti zdánlivé pluralitě a povinná provenience proti [tematické diverzi](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md). Původní stránka dodává, že NABLA je klíčovým nástrojem i pro hlubší vrstvy taxonomie – pro jevy, které nemají povrchovou signaturu, a proto unikají filtrům [Blue Teamu](@/kompendium/aiad-integration/blue-team-ea-defense.md).
+Kapitola [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md) výslovně páruje axiomy s technikami: [pluralita signálů](@/glossary/signal-plurality.md) chrání proti [selektivní expozici](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md), zachování rozporu proti vybírání příznivých údajů a [imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), informativní absence proti [informačnímu přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md), které chybějící důkazy zakrývá, nezávislost zdrojů proti zdánlivé pluralitě a povinná provenience proti [tematické diverzi](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md). Původní stránka dodává, že NABLA je klíčovým nástrojem i pro hlubší vrstvy taxonomie – pro jevy, které nemají povrchovou signaturu, a proto unikají filtrům [Blue Teamu](@/kompendium/aiad-integration/blue-team-ea-defense.md).
 
 ## Jak pracuje
 
@@ -81,5 +81,5 @@ NABLA pracuje se strukturou přesvědčení, nikoli s jejich pravdivostí, a pro
 
 **Kniha**
 
-- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) – podrobné mapování axiomů na techniky.
+- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md) – podrobné mapování axiomů na techniky.
 - [Most: NABLA → Kompendium](@/kompendium/section-bridges/bridge-platform-nabla-to-kompendium.md) – axiomy jako lidské obrany.

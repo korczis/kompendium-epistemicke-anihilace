@@ -121,12 +121,6 @@ Klíčový diferenciál: **autentický mahájánový praktik funguje obsahově**
 
 - **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — eskalační následek.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) actionable verdict** — strukturní vynucování obsahových výstupů.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) obsahový axiom** — epistemická provenience vyžaduje neprázdné obsahy.
-- **OSINT entitní obsah** — strukturní práce s konkrétními entitami obnovuje funkční aparát.
-
 ## Literatura
 
 - Britton, W. B. (2019). Can mindfulness be too much of a good thing? *Current Opinion in Psychology*, 28, 159–165.

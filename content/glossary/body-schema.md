@@ -14,7 +14,7 @@ related_terms = [
   "embodied-cognition",
   "depersonalizace",
   "disociace",
-  "polyvagalni-teorie",
+  "polyvagalni-teorie"
 ]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"

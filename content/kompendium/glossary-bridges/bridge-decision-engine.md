@@ -38,7 +38,7 @@ meze, k nimž se most vrací níže.
 ## Rozhodovací engine očima knihy
 
 Kniha s rozhodovacím enginem zachází ve dvou rovinách. První je **operacionalizace taxonomie**: kapitola
-[Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md) popisuje, jak
+[Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md) popisuje, jak
 se poznatky o technikách EA převádějí do pravidel hodnocení zdrojů – na hypotézy, kalibrovanou důvěru a
 kritéria, která by hypotézu vyvrátila. Druhou rovinou je **engine jako model lidského úsudku**: co
 engine dělá výslovně (zapisuje zdroje, ověřuje jejich nezávislost, vyznačuje nejistotu), může člověk
@@ -165,7 +165,7 @@ odpovídá za hodnotová rozhodnutí skrytá ve vahách, když je model převzat
 
 **Kniha**
 
-- [Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md) – operacionalizace taxonomie.
+- [Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md) – operacionalizace taxonomie.
 - [Decision Engine a EA](@/kompendium/aiad-integration/decision-engine-ea-calibration.md) – kalibrace důvěry.
 - [EA-9.6.2 Praní úsudku přes AI](@/kompendium/techniques/ea-9-6-2-AI-judgment-laundering.md) – odpovědnost skrytá za strojem.
 - [Epistemická kalibrace](@/kompendium/detection-signatures/epistemicka-kalibrace.md) – lidská obdoba kalibrace.

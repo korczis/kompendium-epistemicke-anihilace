@@ -14,7 +14,7 @@ toc = true
 
 # Decision Engine a kalibrace rozhodování o EA
 
-[Decision Engine](@/glossary/decision-engine.md) (rozhodovací engine) je součástí Prismatic Platform, softwarové platformy, z níž kniha vzešla, která slučuje vícefaktorové vstupy do strukturovaného rozhodnutí s vyjádřenou mírou důvěry. Kapitola [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md) jej popisuje jako deterministický proces o deseti krocích – od normalizace vstupu přes extrakci signálů, atribuci zdrojů, anomálie, modelování aktérů, skórování a rozklad nejistoty až po hypotézy, doporučení a vysvětlení. Ve vztahu k taxonomii epistemických útoků (EA) není engine primárním detektorem, ale **agregátorem**: skládá signály ostatních agentů do rozhodnutí, které je kalibrované a zpětně dohledatelné. Stránka popisuje tuto roli a vysvětluje, proč je kalibrace důvěry jednou z nejdůležitějších obran, které kniha doporučuje i lidem.
+[Decision Engine](@/glossary/decision-engine.md) (rozhodovací engine) je součástí Prismatic Platform, softwarové platformy, z níž kniha vzešla, která slučuje vícefaktorové vstupy do strukturovaného rozhodnutí s vyjádřenou mírou důvěry. Kapitola [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md) jej popisuje jako deterministický proces o deseti krocích – od normalizace vstupu přes extrakci signálů, atribuci zdrojů, anomálie, modelování aktérů, skórování a rozklad nejistoty až po hypotézy, doporučení a vysvětlení. Ve vztahu k taxonomii epistemických útoků (EA) není engine primárním detektorem, ale **agregátorem**: skládá signály ostatních agentů do rozhodnutí, které je kalibrované a zpětně dohledatelné. Stránka popisuje tuto roli a vysvětluje, proč je kalibrace důvěry jednou z nejdůležitějších obran, které kniha doporučuje i lidem.
 
 ## Agent v kostce
 
@@ -79,6 +79,6 @@ Engine je agregátorem a jeho rozhodnutí jsou jen tak dobrá jako vstupní sign
 
 **Kniha**
 
-- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md) – podrobný popis enginu.
+- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md) – podrobný popis enginu.
 - [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) – lidská obdoba.
 - [Most: Decision Engine → Kompendium](@/kompendium/section-bridges/bridge-platform-decision-engine-to-kompendium.md) – vztah enginu a knihy.

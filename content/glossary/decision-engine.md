@@ -118,7 +118,7 @@ Podrobně tyto zásady rozvádějí stránky [Decision Engine: kalibrace
 EA](@/kompendium/aiad-integration/decision-engine-ea-calibration.md) a [DD engine: vážení
 zdrojů](@/kompendium/aiad-integration/dd-engine-ea-source-weighting.md); vztah knihy
 k enginu vysvětluje kapitola [Vztah k Decision
-Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md).
+Engine](@/kompendium/02-uvod/_index.md).
 
 Asymetrie u výpovědí traumatizovaných osob je pro knihu zásadní. Kdyby engine považoval
 fragmentovanou, časově nesouvislou nebo emočně zabarvenou výpověď za méně spolehlivou,
@@ -166,7 +166,7 @@ Obranně lze principy enginu použít i bez softwaru: zapsat si zdroje tvrzení,
 
 **Kompendium**
 
-- [Vztah k Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md) – jak kniha
+- [Vztah k Decision Engine](@/kompendium/02-uvod/_index.md) – jak kniha
   s enginem souvisí.
 - [Decision Engine: kalibrace EA](@/kompendium/aiad-integration/decision-engine-ea-calibration.md)
   – kalibrace důvěry s ohledem na techniky EA.

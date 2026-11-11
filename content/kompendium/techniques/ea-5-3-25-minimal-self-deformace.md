@@ -93,10 +93,6 @@ Co může vidět vnější pozorovatel:
 - **EA-5.5.* (Transkonceptuální mechanismy)** — pre-konceptuální vrstva podpírá identitární substituci
 - **EA-1.6.* (Charizmatické vedení)** — guru-adept dynamika je strukturálním rámcem hypertransformace
 
-## Vztah k Prismatic platformě
-
-Technika **minimal-self deformace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.25.
-
 ## Literatura
 
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.

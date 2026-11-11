@@ -5,35 +5,35 @@
     "hits": [
       {
         "code": null,
-        "in": 306,
+        "in": 303,
         "kind": "Pojem",
-        "path": "glossary/color-teams.md",
+        "path": "glossary/coercive-control.md",
         "tier": 2,
-        "title": "Color Teams (barevné týmy)",
-        "url": "/glossary/color-teams/",
+        "title": "Coercive control (donucující kontrola)",
+        "url": "/glossary/coercive-control/",
         "why": "exact_title"
       },
       {
         "code": null,
-        "in": 6,
+        "in": 12,
         "kind": "Most",
-        "path": "kompendium/glossary-bridges/bridge-color-teams.md",
+        "path": "kompendium/glossary-bridges/bridge-coercive-control.md",
         "tier": 5,
-        "title": "Bridge: Color Teams (barevné týmy)",
-        "url": "/kompendium/glossary-bridges/bridge-color-teams/",
+        "title": "Bridge: Coercive control (donucující kontrola)",
+        "url": "/kompendium/glossary-bridges/bridge-coercive-control/",
         "why": "title_word"
       }
     ],
     "limit": 12,
-    "normalised": "color teams (barevne tymy)",
+    "normalised": "coercive control (donucujici kontrola)",
     "ok": true,
     "op": "search",
-    "query": "color teams (barevne tymy)",
+    "query": "coercive control (donucujici kontrola)",
     "schema": "kompendium-engine/v1",
     "total": 2
   },
   "input": {
     "op": "search",
-    "query": "color teams (barevne tymy)"
+    "query": "coercive control (donucujici kontrola)"
   }
 }

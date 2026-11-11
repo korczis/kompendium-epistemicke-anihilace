@@ -303,24 +303,14 @@ Tento vývoj byl charakterizován několika klíčovými trendy:
 
 Současný taxonomický systém je kulminací této trajektorie — zároveň však spíše začátkem než koncem systematického studia. Porozumění historickému kontextu není akademickým cvičením, ale nezbytným předpokladem pro adekvátní interpretaci a aplikaci taxonomie a pro reflexi etických dimenzí studia fenoménů, které mají potenciál fundamentálně narušit lidskou kognici a subjektivitu.
 
-## Vztah k Prismatic Decision Engine
-
-Prismatic Platform staví na popsané historické trajektorii a transformuje akumulované poznatky do **operační implementace**:
-
-- **NABLA Infinity (∇∞)** — formalizace epistemického aparátu jako rekursivní reflexe nad přesvědčeními, čerpající z Kantovy distinkce obsahové vs. strukturální úrovně poznání.
-- **Color Teams** — strukturní imitace kontradiktorních epistemických procesů ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defends, [Purple Team](@/glossary/purple-team.md) integrates), navazující na tradici dialektické verifikace od Sokrata po moderní adversariální testování.
-- **[Decision Engine](@/glossary/decision-engine.md)** — integrující rámec, jenž kombinuje cognitive bias detection (Kahneman/Tversky), social epistemology (Frickerová), digital epistemic security (Pariser/DiResta) a clinical trauma framework (Hermanová/Van der Kolk).
-
-Detailní vztah k Decision Engine je rozpracován v sekci [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md); rozšíření o NABLA Infinity v [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md).
-
 ## Související
 
 - [2.1 Definice](@/kompendium/02-uvod/definice.md)
 - [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
 - [2.4 Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)
 - [2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md)
-- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
-- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)
+- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md)
+- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md)
 - [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
 - [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)

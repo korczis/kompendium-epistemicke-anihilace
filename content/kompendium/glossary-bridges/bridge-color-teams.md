@@ -64,7 +64,7 @@ plyne, že role „protivníka“ musí mít skutečnou váhu, jinak se z ní st
 [Gray Team a EA](@/kompendium/aiad-integration/gray-team-ea-edge-cases.md) a
 [Black Team a EA](@/kompendium/aiad-integration/black-team-ea-modeling.md). Teoretický rámec,
 v němž barevné týmy slouží jako adversariální test taxonomie, vysvětluje kapitola
-[Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md).
+[Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md).
 
 Lidskou podobu oddělení funkcí rozebírají kapitoly organizační obrany
 [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md) a
@@ -160,7 +160,7 @@ mělo smysl.
 
 **Kniha**
 
-- [Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md) – adversariální test taxonomie.
+- [Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md) – adversariální test taxonomie.
 - [Red Team a EA](@/kompendium/aiad-integration/red-team-ea-detection.md) – simulace útoků z knihy.
 - [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md) – lidská obdoba oddělených rolí.
 - [Před-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md) – meze cvičení na lidech.

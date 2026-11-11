@@ -180,12 +180,6 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
 - **Autentický vhled** — strukturálně podobný, ale **falsifikovatelný**, **specifický**, **integrovatelný**.
 - **EA-1.3.1 Imunizace proti falsifikaci** — strukturní příbuznost; iluzorní transcendence je **fenomenologicky bohatší** verze imunizace.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} inflační detektor** — kalibrační logika **flaguje** rozhodnutí, kde subjektivní jistota je disproporční vůči epistemické opoře, jako kandidáty pro inflační epistemiku.
-- **NABLA Infinity provenance integrity** — každé tvrzení musí mít **dohledatelnou linii**; tvrzení „z vlastního vhledu“ bez dohledatelnosti je flagováno.
-- **Color Teams adversarial check** — [Red Team](@/glossary/red-team.md) má mandát **falsifikovat** transcendentní tvrzení; [Blue Team](@/glossary/blue-team.md) má povinnost odpovědět na falsifikační test.
-
 ## Literatura
 
 - Deikman, A. J. (1990). *The Wrong Way Home: Uncovering the Patterns of Cult Behavior*. Beacon Press.

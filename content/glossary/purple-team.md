@@ -599,7 +599,7 @@ end
 
 - [Purple Team a detekce EA](@/kompendium/aiad-integration/purple-team-ea-synthesis.md) –
   syntéza zjištění o epistemických útocích.
-- [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md) –
+- [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md) –
   jak barevné týmy vstupují do knihy.
 
 ---

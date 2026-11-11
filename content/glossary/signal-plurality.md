@@ -531,20 +531,6 @@ end
 | kontrola reputace | více reputačních databází | [GreyNoise](@/glossary/greynoise.md) + AbuseIPDB |
 | posouzení souladu | více kontrol souladu | nezávislá posouzení NIS2 a ZKB |
 
-## Vztah k ostatním axiomům NABLA
-
-Pluralita signálů nepůsobí izolovaně. S ostatními šesti axiomy NABLA interaguje konkrétními
-způsoby:
-
-| Axiom | Vztah k pluralitě signálů |
-|-------|----------------------------------|
-| **[Zachování rozporu](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)** | když si plurální signály odporují, zachovají se oba |
-| **Informativní absence** | chybějící druhý signál je sám údajem – šetří se jako možná mezera |
-| **[Časový rozpad](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/)** | plurální signály musí být časově aktuální; staré signály ztrácejí váhu |
-| **Platnost neznáma** | „nedostatek signálů“ je platný stav; pluralita se nesmí vymýšlet |
-| **Nezávislost zdrojů** | vážení zvýhodňuje nezávislé zdroje; sdílený zdroj proti proudu snižuje důvěru |
-| **[Povinná provenience](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)** | ověření nezávislosti vyžaduje provenienci; signály bez ní se odmítají |
-
 ## Osvědčené postupy
 
 **Navrhovat sběr dat pro pluralitu od začátku**: nestavět systémy s jediným zdrojem a nesnažit
@@ -624,7 +610,7 @@ ne jako požadavek „dvou svědků“ pro každou vzpomínku:
 
 - [EA × OSINT: triangulace napříč zdroji](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md) –
   pluralita v investigativní praxi.
-- [2.6 Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) – jak axiomy
+- [2.6 Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/_index.md) – jak axiomy
   vstupují do knihy.
 
 ---

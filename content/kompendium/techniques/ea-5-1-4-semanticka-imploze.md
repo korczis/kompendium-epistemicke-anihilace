@@ -161,15 +161,6 @@ Klient po 18 měsících intenzivního programu nebyl schopen popsat, co znamen�
 
 - **Filosofická skepse vůči jazyku** (Wittgenstein, Derrida) — explicitní, reflexivní, **udržuje** schopnost rozlišovat. Sémantická imploze je naopak **strukturální deficit**.
 
-## Vztah k Prismatic platformě
-
-Sémantická imploze je strukturálním motivem pro několik defenzivních mechanismů Prismatic:
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} operational definitions check** — rozhodovací logika vyžaduje, aby klíčové pojmy v rozhodovacích rámcích měly **operacionalizovanou** definici. Kruhové nebo prázdné pojmy jsou flagovány jako epistemická červená vlajka.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) sémantická stabilita** — provenance tracking sleduje stabilitu definic klíčových termínů napříč epistemickou pipeline; významový posun je auditovatelný.
-- **[Color Teams](@/glossary/color-teams.md) lingvistická forenzika** — [Red Team](@/glossary/red-team.md) explicitně testuje sémantickou stabilitu argumentačních rámců; imploudované termíny jsou triggerem pro hlubší audit.
-- **Glossary jako referenční kotva** — platformový [glosář](@/glossary/_index.md) udržuje **explicitní, verzované** definice klíčových termínů jako institucionální obranu proti imploznímu drift.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)

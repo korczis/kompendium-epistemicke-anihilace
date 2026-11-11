@@ -164,12 +164,6 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *„c
 - **Legitimní intelektuální deference** — udržuje paralelní kritéria, autorita je v principu přehodnotitelná.
 - **Profesní specializace** — důvěra v doménového experta s **explicitními** hranicemi domény, mimo které platí jiné autority.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} epistemic-pluralism check** — auditní vrstva ověřující, že rozhodovací proces zahrnuje **více než jeden** epistemický standard a že jakýkoli použitý meta-standard je **falsifikovatelně formulovaný**.
-- **NABLA Infinity [falsifiability](@/glossary/falsifikovatelnost.md) tracking** — každé tvrzení v epistemickém pipeline má dohledatelnou **falsifikační podmínku**; tvrzení bez ní jsou flagována.
-- **Color Teams adversarial epistemology** — [Red Team](@/glossary/red-team.md) protokol povinné konfrontace meta-standardů s **alternativními** epistemickými rámci.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)

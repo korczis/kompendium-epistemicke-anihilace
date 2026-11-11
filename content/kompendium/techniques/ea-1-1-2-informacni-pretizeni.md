@@ -185,12 +185,6 @@ Intervence: Redesign — méně článků, více integračních seminářů, exp
 - **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — přetížený subjekt nemá kapacitu udržet **původní** otázku napříč diverzí.
 - **Kolektivní informační přetížení** v institucionálním měřítku — postupné erodování kapacity organizace pro deliberaci.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) confidence calibration** — explicitně penalizuje rozhodnutí učiněná pod time pressure / s objem materiálu disproprociálně velkým vzhledem k času evaluace.
-- **NABLA Infinity 16-level pipeline** — strukturální obrana proti rapid acceptance: **každá** úroveň generuje **explicitní intermediate verifikaci** s časovým labelingem.
-- **OSINT Investigation Pipeline** — defaultně rozkládá komplexní queries na **menší kroky**, aby žádný analytik nemusel pracovat s celkovým objemem najednou.
-
 ## Literatura
 
 - Cowan, N. (2001). The magical number 4 in short-term memory: A reconsideration of mental storage capacity. *Behavioral and Brain Sciences*, 24(1).

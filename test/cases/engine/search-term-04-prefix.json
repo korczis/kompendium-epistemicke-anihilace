@@ -5,135 +5,95 @@
     "hits": [
       {
         "code": null,
-        "in": 306,
+        "in": 303,
         "kind": "Pojem",
-        "path": "glossary/color-teams.md",
+        "path": "glossary/coercive-control.md",
         "tier": 4,
-        "title": "Color Teams (barevné týmy)",
-        "url": "/glossary/color-teams/",
+        "title": "Coercive control (donucující kontrola)",
+        "url": "/glossary/coercive-control/",
         "why": "title_prefix"
       },
       {
-        "code": "EA-2.3.2",
-        "in": 34,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-2-3-2-context-collapse.md",
+        "code": null,
+        "in": 49,
+        "kind": "Kapitola",
+        "path": "kompendium/forensic-legal/12-coercive-control-law.md",
         "tier": 5,
-        "title": "EA-2.3.2 Kolaps kontextu (context collapse)",
-        "url": "/kompendium/techniques/ea-2-3-2-context-collapse/",
+        "title": "Právní úprava coercive control",
+        "url": "/kompendium/forensic-legal/12-coercive-control-law/",
+        "why": "title_word"
+      },
+      {
+        "code": "EA-8.2.5",
+        "in": 42,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+        "tier": 5,
+        "title": "EA-8.2.5 Starkův rámec coercive control",
+        "url": "/kompendium/techniques/ea-8-2-5-stark-coercive-control/",
+        "why": "title_word"
+      },
+      {
+        "code": "EA-8.1.4",
+        "in": 16,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-8-1-4-coercive-control-scale.md",
+        "tier": 5,
+        "title": "EA-8.1.4 Měření coercive control (škály a dotazníky)",
+        "url": "/kompendium/techniques/ea-8-1-4-coercive-control-scale/",
         "why": "title_word"
       },
       {
         "code": null,
-        "in": 29,
-        "kind": "Kapitola",
-        "path": "kompendium/02-uvod/vztah-k-decision-engine.md",
+        "in": 12,
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-coercive-control.md",
         "tier": 5,
-        "title": "2.7 Vztah ke Decision Engine a Color Teams",
-        "url": "/kompendium/02-uvod/vztah-k-decision-engine/",
-        "why": "title_word"
-      },
-      {
-        "code": "EA-6.1.3",
-        "in": 17,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-6-1-3-collateral-interview.md",
-        "tier": 5,
-        "title": "EA-6.1.3 Collateral interview (rozhovor s blízkými)",
-        "url": "/kompendium/techniques/ea-6-1-3-collateral-interview/",
+        "title": "Bridge: Coercive control (donucující kontrola)",
+        "url": "/kompendium/glossary-bridges/bridge-coercive-control/",
         "why": "title_word"
       },
       {
         "code": null,
         "in": 15,
-        "kind": "Pojem",
-        "path": "glossary/metanarrative-collapse.md",
-        "tier": 5,
-        "title": "Metanarrative collapse (rozpad velkých vyprávění)",
-        "url": "/glossary/metanarrative-collapse/",
-        "why": "title_word"
+        "kind": "Kapitola",
+        "path": "kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md",
+        "tier": 6,
+        "title": "Manipulativní reframing v blízkých vztazích",
+        "url": "/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich/",
+        "why": "description"
       },
       {
-        "code": null,
-        "in": 9,
-        "kind": "Pojem",
-        "path": "glossary/integrative-collapse.md",
-        "tier": 5,
-        "title": "Integrative collapse (integrativní kolaps)",
-        "url": "/glossary/integrative-collapse/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 6,
-        "kind": "Most",
-        "path": "kompendium/glossary-bridges/bridge-color-teams.md",
-        "tier": 5,
-        "title": "Bridge: Color Teams (barevné týmy)",
-        "url": "/kompendium/glossary-bridges/bridge-color-teams/",
-        "why": "title_word"
-      },
-      {
-        "code": "EA-9.5.8",
-        "in": 6,
+        "code": "EA-8.3.1",
+        "in": 8,
         "kind": "Technika",
-        "path": "kompendium/techniques/ea-9-5-8-meme-context-collapse.md",
-        "tier": 5,
-        "title": "EA-9.5.8 Meme Context Collapse",
-        "url": "/kompendium/techniques/ea-9-5-8-meme-context-collapse/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 2,
-        "kind": "Most",
-        "path": "kompendium/glossary-bridges/bridge-metanarrative-collapse.md",
-        "tier": 5,
-        "title": "Bridge: Metanarrative collapse (rozpad velkých vyprávění)",
-        "url": "/kompendium/glossary-bridges/bridge-metanarrative-collapse/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 79,
-        "kind": "Pojem",
-        "path": "glossary/blue-team.md",
+        "path": "kompendium/techniques/ea-8-3-1-foundational-readings.md",
         "tier": 6,
-        "title": "Blue Team",
-        "url": "/glossary/blue-team/",
+        "title": "EA-8.3.1 Základní literatura",
+        "url": "/kompendium/techniques/ea-8-3-1-foundational-readings/",
         "why": "description"
       },
       {
         "code": null,
-        "in": 53,
-        "kind": "Pojem",
-        "path": "glossary/black-team.md",
+        "in": 6,
+        "kind": "Kapitola",
+        "path": "kompendium/international/27-australian-law-EA/index.md",
         "tier": 6,
-        "title": "Black Team",
-        "url": "/glossary/black-team/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 40,
-        "kind": "Pojem",
-        "path": "glossary/replication-crisis.md",
-        "tier": 6,
-        "title": "Replikační krize (replication crisis)",
-        "url": "/glossary/replication-crisis/",
+        "title": "Austrálie — EA právní rámec",
+        "url": "/kompendium/international/27-australian-law-ea/",
         "why": "description"
       }
     ],
     "limit": 12,
-    "normalised": "col",
+    "normalised": "coe",
     "ok": true,
     "op": "search",
-    "query": "Col",
+    "query": "Coe",
     "schema": "kompendium-engine/v1",
-    "total": 14
+    "total": 8
   },
   "input": {
     "op": "search",
-    "query": "Col"
+    "query": "Coe"
   }
 }

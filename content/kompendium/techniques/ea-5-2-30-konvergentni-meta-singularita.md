@@ -133,12 +133,6 @@ Konvergentní meta-singularita **kumuluje a sjednocuje** všechny předchozí te
 - **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — primární doména eskalace pro biologickou rovinu.
 - **[EA-5.1.* Ontologické rozpouštění](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — paralelní ontologická destrukce.
 
-## Vztah k Prismatic platformě
-
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) terminální alarm** — epistemická provenience musí dokázat detekovat akumulaci destrukcí dříve, než dojde ke konvergenci.
-- **[Decision Engine](@/glossary/decision-engine.md) emergency protocol** — strukturní eskalace k klinické intervenci při detekci 5+ kombinovaných destrukcí.
-- **OSINT psychiatric red flag** — strukturální markery konvergentní meta-singularity v investigativní práci s informátory nebo klienty.
-
 ## Literatura
 
 - Britton, W. B. (2019). Can mindfulness be too much of a good thing? *Current Opinion in Psychology*, 28, 159–165.

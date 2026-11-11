@@ -178,12 +178,6 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
 - **Zdravá metakognice** — strukturálně podobná, ale **nástrojová** a **časově ohraničená**.
 - **[EA-1.3.4](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md) Indukovaná pochybnost** — opačná strategie: ne rekurze nad kognicí, ale **destabilizace** kognitivních základů. Často kombinovány.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} operační uzávěrka** — kalibrační logika obsahuje **time-boxed** reflexi s povinným přechodem k rozhodnutí; rozhodnutí, která čekají na „dostatečnou jistotu“, jsou flagována jako rekurzivně paralyzovaná.
-- **NABLA Infinity reflective depth limit** — epistemický pipeline má **maximální hloubku** sebepoukazu; po dosažení limitu se aktivuje operační rozhodnutí na základě nejlepšího aktuálního stavu.
-- **Color Teams reflexivní rotace** — [Red Team](@/glossary/red-team.md) má mandát **zastavit** [Blue Team](@/glossary/blue-team.md) v rekurzivní reflexi, pokud paralyzuje rozhodování.
-
 ## Literatura
 
 - Gadamer, H.-G. (1960). *Wahrheit und Methode*. J. C. B. Mohr.

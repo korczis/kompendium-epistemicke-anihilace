@@ -14,7 +14,7 @@ related_terms = [
   "trauma-bonding",
   "darvo",
   "coercive-control",
-  "betrayal-trauma",
+  "betrayal-trauma"
 ]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"

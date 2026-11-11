@@ -157,12 +157,6 @@ Intervence: integrační terapie zaměřená na rekonstrukci metakognitivní dif
 
 - **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-konvergentni-meta-singularita)** — terminální stav podtřídy 5.2 a celé kapitoly 7.
 
-## Vztah k Prismatic platformě
-
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) calibration** — celá platforma je založena na **diferenciované** metakognici (kalibrované konfidenci); singularita by byla zachycena jako **strukturní porucha** kalibrace.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} outcome processor** — pravidelná **konfrontace** předpovědí s realitou vynucuje metakognitivní revizi.
-- **OSINT framework's source-confidence matrix** — strukturní vyžadování **diferencované** jistoty napříč zdroji.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)

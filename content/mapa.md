@@ -21,6 +21,7 @@ Přehled rozsahu a toho, co v knize ještě chybí, je na stránce [Stav knihy](
 ## Související
 
 - [Stav knihy](@/stav.md): rozsah a provázanost knihy v číslech a grafech.
+- [Osy knihy](@/osy.md): stránky podle publika a pilíře, s průniky obou os.
 - [Případy × techniky](@/matice.md): které techniky se opakují napříč kazuistikami a historickými
   případy.
 - [Obsah kompendia](@/kompendium/_index.md): kapitoly a kolekce jako strom.

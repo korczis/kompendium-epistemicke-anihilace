@@ -92,15 +92,6 @@ Sekce 07 explicitně **rozpoznává** dvě teoretická rizika:
 1. **Hypertheorizace** — situace, v níž teoretický aparát překrývá empirický předmět natolik, že přestává být kritérium pro testovatelnost. Kompendium se brání udržováním tvrdé vazby na klasifikované techniky a klinické observace.
 2. **Politická kooptace** — riziko, že kritická teorie EA bude sama instrumentalizována pro epistemicky problematické účely (např. delegitimizace politických oponentů jako „epistemicky anihilujících“). Kompendium se brání důslednou metakognitivní transparentností a explicitními etickými hranicemi (viz [01 — Předmluva](@/kompendium/01-predmluva/_index.md)).
 
-## Vztah k platformě Prismatic
-
-Teoretické rámce této sekce **strukturálně rezonují** s architekturou platformy:
-
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** Axiom 2 (Contradiction Preservation) ↔ Adornova negativní dialektika (zachování nesmiřitelných napětí)
-- **[Color Teams](@/glossary/color-teams.md)** ↔ Habermasova ideální komunikační situace (adversariální testování argumentů)
-- **[Decision Engine](@/glossary/decision-core.md)** kalibrace důvěry ↔ Goldmanův sociální reliabilismus (váhování zdrojů podle prokázané spolehlivosti)
-- **[3NL architektura](@/glossary/3nl.md)** L1+L2+L3 ↔ Sloterdijkova sférická imunologie (vrstvené ochranné struktury)
-
 ## Související
 
 - [Sekce 02 — Úvod](@/kompendium/02-uvod/_index.md)

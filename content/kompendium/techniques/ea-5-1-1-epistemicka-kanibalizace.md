@@ -171,14 +171,6 @@ Intervence: Veřejné svědectví, deklarace komunity jako kanibalizační struk
 - **Legitimní mentorská kontribuce** — mentor přidává kontextualizaci, metodologickou rigorozitu a explicitně připisuje subjektovi autorství raných idejí.
 - **Plagiát v úzkém slova smyslu** — krádež bez dlouhodobého vztahu; kanibalizace operuje **uvnitř** vztahu a **mění** subjektovu autorskou paměť.
 
-## Vztah k Prismatic platformě
-
-Epistemická kanibalizace je **strukturálním motivem** pro několik defenzivních mechanismů Prismatic:
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} provenance ledger** — každé tvrzení v rozhodovacím procesu má **kryptograficky podepsanou** linii autorství s timestampy, což činí retrospektivní reframování technicky neproveditelným.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) authorship invariants** — epistemický pipeline zachovává atribuci napříč všemi transformacemi; ztráta atribuce je flagována jako anomálie.
-- **[Color Teams](@/glossary/color-teams.md) red-team protocol** — periodická revize asymetrických intelektuálních vztahů v rámci Prismatic operací s explicitní detekcí kanibalizačních vzorců.
-
 ## Literatura
 
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.

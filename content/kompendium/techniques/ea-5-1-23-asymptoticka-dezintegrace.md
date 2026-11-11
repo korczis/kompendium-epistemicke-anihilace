@@ -156,12 +156,6 @@ Pacientka v terapii objevila, že akceptuje partnerovo chování, jež by **na z
 
 - **Pomalé legitimní učení** — také operuje v malých krocích, ale směřuje k **vyšší** integraci a zachovává schopnost retrospektivně rekonstruovat trajektorii.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} drift detector** — sleduje, zda **kalibrace** rozhodovacích parametrů u uživatele driftuje konzistentním směrem mimo původní baseline.
-- **NABLA Infinity trajectory tracking** — uchovává časovou řadu pozic, jež subjekt zastával, a flaguje kumulativní posuny pod prahem afektivní detekce.
-- **Color Teams retrospective audit** — [Red Team](@/glossary/red-team.md) operuje s explicitním protokolem pro retrospektivní audit driftu kultury bezpečnostního týmu.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)

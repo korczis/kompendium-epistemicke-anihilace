@@ -299,8 +299,8 @@
   },
   "og-philosophy.png": {
    "height": 630,
-   "sha256": "36579e215c059c801eea98c53a635d70ffc09ea6f0072f6c5033c0827226422c",
-   "source_sha256": "424a100730f78495623525f0011f31150c52c5a68c9e3768d11819fb3340d323",
+   "sha256": "348b6cceb6d8ec1f577b97f5161e649798652aae19be3fa084fb1be7fda97160",
+   "source_sha256": "e2fb4d074a6d64a7d5bc549126b65aea591711a519b01ee7a602e2c8edffd1a8",
    "width": 1200
   },
   "section-glossary.svg": {
@@ -439,7 +439,7 @@
    "sha256": "c28c84a4b851f5a6778bc2ea8fa6d34d60b448d9472358634d8fa3e24f1f7437"
   },
   "section-philosophy.svg": {
-   "sha256": "dc474292cf3cbb149c0b0f003661040c977973cac75f46dde6b5159b9cbfddae"
+   "sha256": "7e4f9ec39ff4b5f686d53585ad126c9f17ca0b9731f6606bc3f1bc8ba0941cca"
   }
  },
  "generator": "scripts/render-graphics.py",

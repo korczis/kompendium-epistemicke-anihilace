@@ -186,7 +186,6 @@ Z výše uvedených otázek vyplývá **konkrétní pracovní program** na nadch
 | **WP5: Cross-cultural** | Mezinárodní komparativní program | 2027–2032 |
 | **WP6: Dual-use etika** | Profesní standardizace | 2026–2027 |
 | **WP7: AI integrace** | Hybridní subjekty, adversariální ML | 2026–2030 |
-| **WP8: Architektonická obrana** | NABLA evolution, Color Teams expansion | průběžně |
 
 ## Konceptuální horizont
 
@@ -202,12 +201,11 @@ Otevřenost výzkumných otázek **není slabostí** kompendia, ale jeho **struk
 
 - [7.1 Filozofické tradice](@/kompendium/07-teoreticke-reflexe/filozoficke-tradice/_index.md)
 - [7.2 Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
-- [7.3 Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [7.6 Computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
 - [7.4 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
 - [7.5 Politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
 - [Sekce 07 — Teoretické reflexe (úvod)](@/kompendium/07-teoreticke-reflexe/_index.md)
 - [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
-- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md)
 - [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 - [Sekce 04 — Klinika](@/kompendium/04-klinika/_index.md)

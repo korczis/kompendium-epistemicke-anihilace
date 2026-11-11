@@ -234,7 +234,7 @@
       {
         "class": "glossary",
         "distance": 0,
-        "in": 601,
+        "in": 602,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
       },
@@ -262,7 +262,7 @@
       {
         "class": "kompendium/01-predmluva",
         "distance": 1,
-        "in": 299,
+        "in": 301,
         "path": "kompendium/01-predmluva/eticke-aspekty.md",
         "title": "1.3 Etické aspekty a upozornění"
       },
@@ -313,7 +313,7 @@
     "op": "neighbourhood",
     "path": "glossary/epistemicka-anihilace.md",
     "schema": "kompendium-engine/v1",
-    "total": 612,
+    "total": 613,
     "truncated": true
   },
   "input": {

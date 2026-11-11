@@ -1,14 +1,14 @@
 +++
-title = "Epistemická integrita a uchování významu"
-description = "Jak platforma Prismatic uchovává význam, pravdivost a integritu poznání napříč časem a kontextem pomocí epistemických rámců a ověřovacích protokolů."
+title = "Epistemická integrita knihy"
+description = "Standard, který si kniha ukládá pro vlastní tvrzení: každé tvrzení nese zdroj, každý termín znamená jednu věc a vlastní pojmy jsou označeny jako vlastní. Včetně míst, kde kniha standard porušila."
 weight = 25
 
 [taxonomies]
-tags = ["philosophy", "epistemology", "integrity", "ghl"]
+tags = ["philosophy", "epistemology", "integrity", "ghl", "ethics"]
 
 [extra]
 # Taxonomies moved to extra section for section files
-keywords = ["epistemic integrity", "meaning preservation", "knowledge integrity", "truth preservation", "semantic consistency", "epistemic framework"]
+keywords = ["epistemická integrita", "citační standard", "provenience tvrzení", "terminologická konzistence", "vlastní pojmy knihy", "oprava chyb"]
 categories = ["foundations"]
 
 # Core metadata
@@ -19,372 +19,236 @@ color = "amber"
 
 # SEO & Social
 image = "/images/philosophy/epistemic-integrity.png"
-image_alt = "Epistemická integrita a uchování významu v softwaru"
+image_alt = "Epistemická integrita knihy: tvrzení se zdrojem, jeden význam termínu, označené vlastní pojmy"
 og_type = "article"
 twitter_card = "summary_large_image"
 
 # Academic metadata
 academic_tier = "foundational"
 citation_style = "IEEE"
-doi_placeholder = "10.prismatic/philosophy/epistemic-integrity"
 peer_reviewed = false
 
 # Content classification
-content_version = "1.0.0"
-last_enhanced = "2026-02-23"
+content_version = "2.0.0"
+last_enhanced = "2026-11-11"
 
 # Cross-references
-related_articles = ["ghl-framework", "intellectual-sovereignty", "ceremonial-computing", "boundary-ethics"]
-glossary_terms = ["epistemic-integrity", "meaning-preservation"]
-see_also = ["capabilities", "about/author"]
+related_articles = ["intellectual-sovereignty", "boundary-ethics"]
+glossary_terms = ["epistemicka-anihilace", "epistemicka-pokora"]
+see_also = ["about", "kompendium/02-uvod/metodologicke-poznamky"]
 
 # Category-specific metadata
 philosophy_level = "foundational"
 date_created = "2026-02-23"
-date_updated = "2026-02-23"
-date_modified = "2026-02-23"
+date_updated = "2026-11-11"
+date_modified = "2026-11-11"
 +++
 
-> **Vztah ke knize.** Esej patří do [filozofických základů](@/philosophy/_index.md) platformy
-> Prismatic, z níž Kompendium vzešlo; popisuje, jak platforma chrání význam a provenienci
-> informací v softwaru. Kniha zkoumá opačný směr – jak se ničí schopnost člověka poznávat
-> (viz [epistemická anihilace](@/glossary/epistemicka-anihilace.md)) – a principy uvedené
-> zde, zejména pluralita signálů a uchování rozporů, jsou v ní obrannými protiváhami.
+> **Vztah ke knize.** Tato stránka je druhým ze tří závazků vlastní etiky knihy. Nepopisuje
+> vlastnost softwaru ani ideál poznání obecně, nýbrž standard, kterým se kniha sama řídí
+> a podle kterého ji lze kritizovat: tvrzení nese svůj zdroj, termín znamená v celé knize jednu
+> věc a pojmy, které si kniha vymyslela, jsou označené jako její vlastní. Část stránky je
+> věnována místům, kde kniha tento standard porušila.
 
 ## Abstrakt
 
-Epistemická integrita je filozofický závazek **uchovávat pravdivostní hodnotu, význam
-a provenienci poznání** napříč časem, kontextem a výkladem. V platformě Prismatic se
-projevuje jako přísný rámec, který zajišťuje, aby si informace udržela zamýšlený význam od
-vzniku až po užití, aby se rozpory uchovávaly, a ne potlačovaly, a aby každé tvrzení šlo
-vystopovat k jeho důkazním základům.
-
-## Krize významu v softwaru
-
-### Problém eroze
-
-Softwarové systémy zpracovávají, přetvářejí a přenášejí informace v nebývalém rozsahu. Tytéž
-mechanismy, které tento rozsah umožňují, však vytvářejí podmínky pro **soustavnou erozi
-významu**:
-
-1. **Ztrátová transformace:** každý krok zpracování může sémantický obsah změnit nebo
-   zahodit.
-2. **Odstranění kontextu:** informace oddělená od kontextu svého vzniku ztrácí význam.
-3. **Rozcházení výkladů:** různí příjemci vykládají tatáž data různě.
-4. **Časový drift:** význam se mění s proměnou okolního kontextu.
-5. **Zkreslení agregací:** spojování zdrojů informací vnáší nová zkreslení.
-
-### Výzva specifická pro software
-
-Software obecnou epistemickou výzvu znásobuje svými zvláštními vlastnostmi:
-
-- **Vrstvy abstrakce:** každá abstrakce může význam proměnit.
-- **Distribuované zpracování:** význam se tříští přes hranice sítě.
-- **Množení verzí:** různé verze nesou současně různé pravdy.
-- **Automatizační zkreslení** (*automation bias*): automatizované procesy mohou chyby
-  udržovat ve velkém měřítku.
-- **Zesílení měřítkem:** drobné chyby ve významu se mohou rozšířit až k obrovskému dopadu.
-
-### Proč na tom záleží
-
-Ve světě, který je stále víc zprostředkován softwarem, není epistemická integrita
-filozofickým přepychem, ale **praktickou nutností**. Zkreslený význam v softwarových
-systémech může vést k:
-
-- **chybným rozhodnutím:** vadná data vedou k vadným rozhodnutím,
-- **úpadku důvěry:** nespolehlivé informace podkopávají důvěru v instituce,
-- **systémovému riziku:** šířící se chyby vyvolávají kaskádová selhání,
-- **erozi demokracie:** zmanipulované informace podkopávají
-  [informovaný souhlas](@/glossary/informed-consent.md).
-
-## Základní principy epistemické integrity
-
-### 1. Uchování významu
-
-První princip vyžaduje, aby si informace zachovala zamýšlený význam při všech
-transformacích.
-
-#### Sémantická konzistence
-
-Každá operace s informací musí zachovat její **základní sémantický obsah**:
-
-```yaml
-semantic_preservation:
-  requirements:
-    - "Transformations must be meaning-preserving"
-    - "Lossy operations must be explicitly marked"
-    - "Original meaning must be recoverable or acknowledged as lost"
-    - "Context must travel with content"
-
-  violations:
-    - "Silent data truncation"
-    - "Implicit type coercion that changes meaning"
-    - "Context-free aggregation"
-    - "Unmarked interpretation changes"
-```
-
-Požadavky tedy zní: transformace musejí zachovávat význam, ztrátové operace musejí být
-výslovně označeny, původní význam musí jít obnovit nebo musí být přiznáno, že se ztratil,
-a kontext musí putovat spolu s obsahem. Za porušení se považuje tiché oříznutí dat, implicitní
-převod typu, který mění význam, agregace bez kontextu a neoznačené změny výkladu.
-
-#### Sledování provenience
-
-Každá informace musí nést dohledatelnou provenienci:
-
-- **Původ:** kde byla informace poprvé vytvořena nebo pozorována.
-- **Transformace:** každá operace, která informaci změnila.
-- **Výklady:** jak byla informace v jednotlivých fázích vyložena.
-- **Jistota:** míra jistoty, která se k informaci váže.
-
-### 2. Uchování rozporů
-
-Druhý princip vyžaduje, aby se rozpory uchovávaly, a ne předčasně řešily.
-
-#### Závislost na konzistenci
-
-Lidské poznávání má silnou potřebu rozpory odstraňovat, i když to vyžaduje zahodit platné
-důkazy. Na tento sklon odpovídá zásada uchování rozporů:
-
-- **Obě strany zachovány:** protichůdné signály se uchovávají současně.
-- **Žádné předčasné rozhodnutí:** rozpory se neřeší, dokud není dost důkazů.
-- **Pluralita důkazů:** rozhodnutí vyžaduje více nezávislých zdrojů.
-- **Přiznání nejistoty:** „nevím“ je legitimní epistemický stav.
-
-#### Praktické provedení
-
-```yaml
-contradiction_handling:
-  policy: "preserve_both_sides"
-  resolution_threshold: 0.95  # Jistota potřebná k rozhodnutí rozporu
-  minimum_sources: 2          # Nezávislé zdroje pro vznik přesvědčení
-
-  forbidden_actions:
-    - "cherry_picking"         # Výběr jen podpůrných důkazů
-    - "false_certainty"        # Tvrzení bez přiměřeného důkazu
-    - "contradiction_burial"   # Ukrývání nepohodlných rozporů
-    - "single_source_truth"    # Přesvědčení bez plurality zdrojů
-```
-
-Zakázané jsou tedy čtyři praktiky, které kniha zná i z manipulace lidským úsudkem:
-selektivní výběr důkazů (srov. [konfirmační zkreslení](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md)),
-falešná jistota, pohřbívání rozporů a pravda z jediného zdroje.
-
-### 3. Průhlednost uvažování
-
-Třetí princip požaduje, aby každé uvažování bylo dohledatelné a ověřitelné.
-
-#### Řetězce uvažování
-
-Každý závěr musí být se svými premisami spojen výslovným uvažováním:
-
-- **Dokumentace premis:** všechny výchozí předpoklady jasně uvedeny.
-- **Pravidla vyvozování:** logické kroky výslovně označeny.
-- **Šíření nejistoty:** nejistota se řetězci šíří správně.
-- **Alternativní cesty:** konkurenční řetězce uvažování se uchovávají.
-
-### 4. Časové vědomí
-
-Čtvrtý princip uznává, že význam existuje v čase a musí být chráněn i přes časové hranice.
-
-#### Přesvědčení s časovou značkou
-
-Každé přesvědčení nese časová metadata:
-
-- **Čas vzniku:** kdy přesvědčení poprvé vzniklo.
-- **Čas důkazů:** kdy byly shromážděny podpůrné důkazy.
-- **Rychlost úbytku:** jak rychle spolehlivost přesvědčení klesá.
-- **Požadavky na obnovení:** kdy je třeba přesvědčení znovu ověřit.
-
-#### Historická integrita
-
-Minulé stavy musí být možné uchovat a odlišit od současných:
-
-- **Historie verzí:** úplný záznam toho, jak se přesvědčení vyvíjela.
-- **Sledování oprav:** jasná dokumentace chyb a jejich oprav.
-- **Uchování kontextu:** historický kontext se uchovává spolu s historickými přesvědčeními.
-- **Žádný revizionismus:** minulé chyby se přiznávají, neopravují se potichu.
-
-## Epistemická integrita v praxi
-
-### Software jako artefakt poznání
-
-Kód není jen funkční, ale představuje **krystalizované poznání**:
-
-- **Názvy proměnných:** kódují pojmové modely a porozumění doméně.
-- **Architektura:** ztělesňuje strukturní poznání o problémových doménách.
-- **Komentáře:** nesou vysvětlující poznání a uvažování.
-- **Testy:** kódují očekávání a předpoklady o chování.
-- **Dokumentace:** uchovává kontextové poznání a záměr.
-
-Každá z těchto dimenzí poznání potřebuje ochranu před zkreslením a driftem.
-
-### Autor jako epistemická autorita
-
-Rámec [intelektuální suverenity](@/philosophy/intellectual-sovereignty.md) ustavuje autora
-jako primární epistemickou autoritu nad jeho dílem:
-
-- **Znalost záměru:** autor má nejúplnější znalost svého záměru.
-- **Znalost kontextu:** autor rozumí celému kontextu vzniku.
-- **Znalost kompromisů:** autor ví, které alternativy zvažoval a zamítl.
-- **Znalost vývoje:** autor rozumí tomu, jak se má dílo dál vyvíjet.
-
-### Ceremoniální ověřování
-
-Rámec [ceremoniální práce se softwarem](https://prismatic-reality-com.github.io/prismatic-promo/philosophy/ceremonial-computing/)
-podporuje epistemickou integritu prostřednictvím:
-
-- **Vědomého zapojení:** uživatelé musejí aktivně potvrdit, že rozumějí.
-- **Přísežného závazku:** přísaha správného výkladu a užívání.
-- **Komunitního ověření:** svědci potvrzují porozumění a dodržení pravidel.
-- **Trvalé odpovědnosti:** průběžná odpovědnost za udržování integrity.
-
-## Ohrožení epistemické integrity
-
-### Vnitřní ohrožení
-
-#### Kognitivní zkreslení
-
-Lidské uvažování podléhá soustavným [kognitivním zkreslením](@/kompendium/03-zakladni-kategorie/biasy/_index.md),
-která epistemickou integritu ohrožují:
-
-- **Konfirmační zkreslení:** hledání důkazů, které podporují stávající přesvědčení.
-- **Efekt ukotvení:** přeceňování první informace, s níž se člověk setká.
-- **[Heuristika](@/glossary/heuristika.md) dostupnosti:** přeceňování informací, které se snadno vybavují.
-- **Dunningův–Krugerův efekt:** přeceňování vlastní kompetence v neznámých oblastech.
-
-#### Organizační tlaky
-
-Instituce mohou na jednotlivce tlačit, aby epistemickou integritu obětovali:
-
-- **Časový tlak:** nedostatek času na řádné ověření.
-- **Tlak ke konformitě:** sociální tlak připojit se k závěrům skupiny.
-- **Obchodní tlak:** finanční pobídky ke zkreslování zjištění.
-- **Politický tlak:** mocenská dynamika, která potlačuje nepohodlné pravdy.
-
-### Vnější ohrožení
-
-#### Záměrná manipulace
-
-Aktéři se zlým úmyslem mohou epistemickou integritu záměrně napadat:
-
-- **Dezinformace:** záměrné vytváření nepravdivých informací.
-- **Otrávení dat** (*data poisoning*): vnášení zkreslených dat do důvěryhodných zdrojů.
-- **Manipulace kontextem:** podání přesných informací v zavádějícím kontextu.
-- **Zneužití důvěry:** využití zavedené důvěry k šíření nepravd.
-
-Tyto vzorce na úrovni lidí a společností rozebírá kniha v oddílech o
-[populačním dopadu dezinformací](@/kompendium/population-health/04-disinformation-population-impact.md)
-a v technice [RAG Context Poisoning](@/kompendium/techniques/ea-9-1-4-rag-context-poisoning.md).
-
-#### Systémová degradace
-
-I bez zlého úmyslu systémy epistemickou integritu přirozeně oslabují:
-
-- **Informační entropie:** význam se zpracováním přirozeně degraduje.
-- **Efekty měřítka:** velké systémy zesilují drobné chyby.
-- **Zatemnění složitostí:** složité systémy ztěžují ověřování.
-- **Časový drift:** měnící se kontext mění význam statických informací.
-
-## Epistemická integrita a GHL
-
-### Licence jako epistemická ochrana
-
-[General Honest License](https://prismatic-reality-com.github.io/prismatic-promo/philosophy/ghl-framework/)
-slouží jako mechanismus epistemické ochrany:
-
-- **Kontrola úprav:** brání neoprávněným změnám, které by mohly zkreslit význam.
-- **Interpretační autorita:** zajišťuje, že se uchová autorem zamýšlený význam.
-- **Omezení odvozených děl:** brání odvozeným dílům, která by zkreslila původní záměr.
-- **Pravomoc odvolání:** umožňuje nápravu, když je integrita narušena.
-
-### Přísaha jako epistemický závazek
-
-Přísaha GHL zahrnuje epistemické závazky:
-
-- **Závazek porozumění:** ten, kdo přísahá, se zavazuje porozumět účelu softwaru.
-- **Uchování významu:** závazek uchovat při užívání zamýšlený význam.
-- **Poctivé hlášení:** povinnost poctivě hlásit problémy s integritou.
-- **Podpora komunity:** závazek pomáhat ostatním udržet správné porozumění.
-
-## Směry dalšího vývoje
-
-### Automatizované ověřování integrity
-
-Vývoj automatizovaných systémů pro epistemickou integritu:
-
-- **Sémantická analýza:** detekce driftu významu s pomocí AI.
-- **Ověřování provenience:** automatizované sledování provenience informací.
-- **Detekce rozporů:** soustavné vyhledávání nekonzistencí.
-- **Kalibrace jistoty:** automatizované posouzení spolehlivosti tvrzení.
-
-### Začlenění formální epistemologie
-
-Hlubší začlenění formální epistemologie:
-
-- **Bayesovské sítě:** pravděpodobnostní uvažování pro aktualizaci přesvědčení.
-- **Dempsterova–Shaferova teorie:** kombinace důkazů v nejistotě.
-- **Parakonzistentní logika:** formální zacházení s rozpory.
-- **Dynamická epistemická logika:** modelování změn poznání v čase.
-
-### Uplatnění v jiných oblastech
-
-Rozšíření principů epistemické integrity mimo software:
-
-- **Vědecký výzkum:** ochrana integrity výzkumu ve výpočetní vědě.
-- **Žurnalistika:** udržení pravdivosti v algoritmické distribuci zpráv.
-- **Správa věcí veřejných:** zajištění integrity výpočetních systémů správy.
-- **Vzdělávání:** uchování integrity vzdělávání v digitálním učení.
-
-## Závěr
-
-### Imperativ integrity
-
-Ve světě zprostředkovaném informacemi není epistemická integrita volitelná. Jak softwarové
-systémy stále víc zprostředkovávají náš vztah k poznání, stává se uchování významu
-**základní etickou povinností**. Závazek platformy Prismatic k epistemické integritě
-představuje ucelený přístup k této povinnosti.
-
-### Výzva k epistemické odpovědnosti
-
-Epistemická integrita vyžaduje úsilí všech účastníků softwarového ekosystému:
-
-- **Tvůrci** musejí význam pečlivě kódovat a chránit jej vhodnými mechanismy.
-- **Uživatelé** musejí se systémy poznání zacházet poctivě a respektovat jejich meze.
-- **Organizace** musejí vytvářet kulturu, která si cení pravdy víc než pohodlí.
-- **Komunity** musejí jedna druhou volat k odpovědnosti za dodržování epistemických
-  standardů.
-
-### Cesta vpřed
-
-Budoucnost epistemické integrity spočívá ve spojení filozofických principů s technickým
-provedením. Budováním systémů, které ztělesňují epistemické hodnoty – průhlednost,
-provenienci, uchování rozporů a časové vědomí –, můžeme vytvořit důvěryhodnější informační
-prostředí pro všechny.
-
-Alternativa – svět zkresleného významu, ztracené provenience a potlačených rozporů – je
-příliš nebezpečná, než abychom ji přijali. Epistemická integrita není jen filozofický ideál,
-ale **praktická nutnost** pro každou společnost, jejíž fungování závisí na přesných
-informacích.
+Kniha popisuje, jak se poškozuje schopnost poznávat
+([epistemická anihilace](@/glossary/epistemicka-anihilace.md)). Text o tomto předmětu je
+zvlášť zranitelný vůči vlastní nekázni: čtenář, který knize uvěří kvůli jejímu tónu, se naučil
+přesně to, co se naučit neměl. Pennycook a kolegové doložili, že plynulý a abstraktní jazyk je
+přijímán jako hluboký i tam, kde nenese žádný obsah, a že schopnost takový text odhalit se mezi
+lidmi výrazně liší (Pennycook a kol., 2015).
+
+Epistemická integrita je proto v této knize provozní požadavek, ne hodnota k vyznávání. Má tři
+nároky a jednu veřejnou povinnost: nárok na provenienci tvrzení, nárok na jediný význam
+termínu, nárok na poctivé označení vlastních pojmů – a povinnost přiznat, kde se to nepovedlo.
+Frankfurt rozlišil lháře a mluvku: lhář se o pravdu stará, protože ji chce obejít, zatímco
+mluvka je k ní lhostejný, a právě tato lhostejnost je pro odborný text nebezpečnější
+(Frankfurt, 2005).
+
+## Nárok první: tvrzení nese svůj zdroj
+
+Požadavek, aby každý věcný bod byl souvislý odstavec opřený o doložitelnou práci, není
+formalita. Merton popsal jako jednu z norem vědy organizovanou skepsi – závazek podrobit
+tvrzení přezkoumání bez ohledu na to, kdo je vyslovil (Merton, 1973). Citace je technickou
+podmínkou této skepse: bez ní nelze tvrzení přezkoumat, jen přijmout nebo odmítnout.
+
+Historicky vznikl tento požadavek jako řešení problému vzdáleného svědka. Shapin a Schaffer
+popsali na sporu o vzduchovou pumpu, jak experimentální zpráva vytváří „virtuální svědectví“:
+popsána je tak, aby čtenář, který u pokusu nebyl, mohl soudit, jako by u něj byl (Shapin
+a Schaffer, 1985). Odstavec bez zdroje tuto možnost čtenáři odebírá a nahrazuje ji důvěrou
+v autora.
+
+Současná podoba téhož nároku je institucionalizovaná. Nosek a kolegové formulovali pro
+odborné časopisy osm standardů průhlednosti, z nichž první je právě citační standard: tvrzení
+se váže na dohledatelný zdroj a zdroj je uveden tak, aby jej šlo najít (Nosek a kol., 2015).
+Wilkinson a kolegové týž požadavek vztáhli na data: údaj má být dohledatelný, přístupný,
+propojitelný a znovu použitelný, s provenienci jako povinnou součástí (Wilkinson a kol.,
+2016).
+
+## Nárok druhý: termín znamená jednu věc
+
+Kuhn ukázal, že tatáž slova mohou v různých rámcích znamenat různé pojmy – „hmotnost“
+u Newtona a u Einsteina není totéž, přestože výraz je stejný (Kuhn, 1962). V knize, která
+obsahuje stovky hesel a technik, je tento posun snadný a nenápadný: stejné slovo použité ve
+dvou kapitolách ve dvou významech vytvoří zdánlivou souvislost tam, kde žádná není.
+
+Opačným selháním je přejímání odborné terminologie do metaforické role. Sokal a Bricmont
+rozebrali případy, kdy jsou pojmy z matematiky a fyziky použity mimo svůj obor bez toho, aby
+nesly svůj obsah, a výsledkem je text, který vypadá přesně a není (Sokal a Bricmont, 1998).
+Část dědictví této knihy pochází z takto psaných textů a dnes platí pravidlo, že pojem
+z jiného oboru se použije jen s uvedením, co se z jeho původního významu zachovává
+(viz [Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md),
+výzva terminologické preciznosti).
+
+Z toho plyne i pravidlo „pojem = stránka = odkaz“, které kniha vymáhá strojově
+(*interpretace knihy*): každý termín
+má jedinou stránku, na které je definován, a každé jeho tučné užití je odkaz na tuto stránku.
+Důvodem je tentýž Kuhnův problém: jediné místo definice je jediná obrana proti tomu, aby se
+význam na různých místech rozešel (Kuhn, 1962).
+
+## Nárok třetí: vlastní pojmy jsou označené jako vlastní
+
+Řada pojmů této knihy je jejím vlastním výtvorem – [hermeneutický outsourcing](@/glossary/hermeneuticky-outsourcing.md), epistemická
+disoluční komora a desítky dalších. Pro jejich zavedení existuje legitimní důvod:
+Frickerová popsala hermeneutickou nespravedlnost jako stav, kdy lidem chybí pojmy, jimiž by
+svou zkušenost pojmenovali, a tvorba nových pojmů je přímou odpovědí na tuto mezeru (Fricker,
+2007).
+
+Zavedení pojmu však není neutrální úkon. Hacking ukázal, že klasifikace lidí má zpětnou
+smyčku: pojmenování mění ty, kdo jsou pojmenováni, i to, jak sami sebe chápou (Hacking, 1995).
+Pojem vydávaný za zavedený proto působí silněji než pojem přiznaně nový, a právě proto se
+v knize každé vlastní heslo označuje v oddílu o původu pojmu a interpretační tvrzení nese
+kurzivní značku *interpretace knihy*.
+
+## Kde kniha tento standard porušila
+
+Dřívější verze této knihy nesly vymyšlená čísla. Stránky populačního zdraví uváděly
+prevalence, velikosti vzorku, intervaly spolehlivosti, Cohenovo *d* a NNT, které nepocházely
+z žádné studie, protože vznikly jako šablonová výplň; týž vzorec se opakoval u krizových
+protokolů včetně dávek látek. Tato čísla byla z knihy odstraněna a nahrazena popisem toho, co
+je a co není doloženo. Fanelli v metaanalýze průzkumů doložil, že otevřenou fabrikaci
+přiznává jen malá část výzkumníků, zatímco sporné praktiky s daty přiznává podstatně větší
+část – samotná fabrikace tedy nebývá zdrojem většiny nespolehlivosti, ale zde šlo přesně o ni
+(Fanelli, 2009).
+
+Druhým porušením byly citace, které svou větu nepodpíraly. Nezávislá recenze obsahu našla
+místa, kde byl pod vlastní větou knihy uveden klasik oboru jako dekorace – nejčastěji Lifton
+u tvrzení, která u něj nestojí, a na jiném místě Stark u tvrzení o jiném jevu, než jaký
+popisuje. Takové citace byly odstraněny nebo nahrazeny prací, která tvrzení skutečně nese;
+s nimi zmizely i osiřelé položky v seznamech literatury. Gilbert popsal referencování jako
+nástroj přesvědčování, nikoli jen odkazování, a dekorativní citace je právě tímto užitím
+(Gilbert, 1977).
+
+Třetí porušení bylo mechanické. Velká část textu vznikala generováním a generovaný text je
+plynulý bez ohledu na to, zda za ním něco stojí; Bender a kolegové upozornili, že jazykové
+modely produkují souvislou formu bez vazby na význam a že nedostatek dokumentace zdrojů tento
+problém prohlubuje (Bender a kol., 2021). Z toho plyne důsledek, který kniha přijala: plynulost
+textu není v této knize dokladem ničeho a kontrola se dělá proti zdrojům, ne proti dojmu.
+
+Tyto případy nejsou vyčerpávající výčet, nýbrž ty, které byly nalezeny a zaznamenány
+v historii repozitáře. Kniha netvrdí, že je dnes bez chyb; tvrdí, že nalezenou chybu opravuje
+viditelně a nepřepisuje potichu
+(viz [Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)).
+
+## Jak se standard vymáhá
+
+Standard není prohlášení, ale sada automatických kontrol, které běží nad celým obsahem před
+každým zápisem. Kontroly odmítnou odstavec delší než dvacet slov bez citace, citovaná
+příjmení, která nejsou v seznamu literatury, stránku kratší než dvě strany A4, zástupný text,
+dávku léku v prózovém textu a číselný blok, který stojí shodně na třech a více stránkách –
+tedy přesně ta selhání, která byla v knize nalezena
+(viz [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md), bod o transparentních
+limitacích).
+
+Výjimka z citačního požadavku je úmyslně úzká: odstavec, který pouze vyslovuje rámec knihy,
+smí místo citace odkázat na jednu ze čtyř metodických stránek, a nejvýš třikrát na stránce.
+Smysl tohoto omezení je zabránit tomu, aby se výjimka stala náhradou dokladu
+(viz [Jak knihu používat](@/kompendium/01-predmluva/jak-pouzivat.md)).
+
+## Námitky proti tomuto standardu
+
+Nejvážnější námitka míří na citaci na odstavec. Pravidlo, které vyžaduje referenci u každého
+odstavce, vytváří tlak připojit referenci i tam, kde věta patří autorovi, a výsledkem je
+právě dekorativní citace popsaná výše; Gilbert ukázal, že referencování slouží mimo jiné
+k budování autority textu, a formální kvóta tuto funkci posiluje (Gilbert, 1977). Kniha na to
+odpovídá jen tím, že pro vlastní rámec zavedla výslovnou výjimku a kurzivní značku; že tím
+problém zmizel, netvrdí.
+
+Druhá námitka míří na samotné pojetí norem. Mitroff na materiálu z výzkumu lunárních vzorků
+doložil, že vedle Mertonových norem působí v reálné vědě i protinormy – oddanost vlastní
+hypotéze a emocionální investice do ní – a že právě ty část výzkumu pohánějí (Mitroff, 1974).
+Kdo tuto námitku přijme, bude standard této stránky číst jako ideál, který popisuje, jak se
+o textu vypráví, ne jak vzniká.
+
+Třetí námitka je obecnější a knihu zasahuje nejtvrději. Ioannidis argumentoval, že většina
+publikovaných výzkumných zjištění je nepravdivá, a replikační projekt v psychologii doložil,
+že se původní výsledek podařilo zopakovat u menšiny studií (Ioannidis, 2005; Open Science
+Collaboration, 2015). Citace tedy sama neposkytuje záruku pravdivosti: zajišťuje jen
+dohledatelnost, a kniha z ní víc vyvozovat nesmí. Proto je u sporných tvrzení uváděn stav
+sporu, a ne vítěz.
+
+## Integrita a licence GHL
+
+Obsah knihy vychází pod licencí General Honest License (GHL) v1.0, která užití neudílí předem
+a vyžaduje výslovné svolení autora – tedy v režimu, který Lessig popsal jako „kulturu povolení“
+(Lessig, 2004); podrobnosti jsou v [O projektu](@/about.md). Pro
+epistemickou integritu z toho plyne jedna výhoda: odvozené vydání, které z textu odstraní
+zdroje, značky vlastních pojmů nebo přiznané limitace, je porušením licence, a autor má tedy
+nástroj proti vydání, jež by si zachovalo tvrzení a zahodilo jejich oporu.
+
+Námitka proti této volbě je ale přímo epistemická a tato stránka ji vyslovuje. Přezkoumání
+tvrzení vyžaduje možnost text přebírat, citovat v rozsahu a znovu uspořádat, a licence, která
+to podmiňuje svolením, tuto možnost zužuje; Merton počítá organizovanou skepsi mezi normy
+vědy právě proto, že musí být proveditelná kýmkoli, nejen tím, komu to autor dovolí (Merton,
+1973). Kniha zde volí ochranu rámce před snadností přezkumu a tuto cenu uvádí, místo aby ji
+zamlčela.
+
+## Literatura
+
+- Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? *Proceedings of FAccT '21*. ACM.
+- Fanelli, D. (2009). How many scientists fabricate and falsify research? A systematic review and meta-analysis of survey data. *PLoS ONE*, 4(5).
+- Frankfurt, H. G. (2005). *On Bullshit*. Princeton University Press.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Gilbert, G. N. (1977). Referencing as persuasion. *Social Studies of Science*, 7(1).
+- Hacking, I. (1995). The looping effects of human kinds. In D. Sperber, D. Premack, & A. J. Premack (Eds.), *Causal Cognition: A Multidisciplinary Debate*. Oxford University Press.
+- Ioannidis, J. P. A. (2005). Why most published research findings are false. *PLoS Medicine*, 2(8).
+- Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
+- Lessig, L. (2004). *Free Culture*. Penguin Press.
+- Merton, R. K. (1973). *The Sociology of Science: Theoretical and Empirical Investigations*. University of Chicago Press.
+- Mitroff, I. I. (1974). Norms and counter-norms in a select group of the Apollo moon scientists. *American Sociological Review*, 39(4).
+- Nosek, B. A., Alter, G., Banks, G. C., et al. (2015). Promoting an open research culture. *Science*, 348(6242).
+- Open Science Collaboration (2015). Estimating the reproducibility of psychological science. *Science*, 349(6251).
+- Pennycook, G., Cheyne, J. A., Barr, N., Koehler, D. J., & Fugelsang, J. A. (2015). On the reception and detection of pseudo-profound bullshit. *Judgment and Decision Making*, 10(6).
+- Shapin, S., & Schaffer, S. (1985). *Leviathan and the Air-Pump: Hobbes, Boyle, and the Experimental Life*. Princeton University Press.
+- Sokal, A., & Bricmont, J. (1998). *Fashionable Nonsense: Postmodern Intellectuals' Abuse of Science*. Picador.
+- Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data*, 3.
 
 ## Související
 
 **Eseje tohoto oddílu**
 
-- [Filozofické základy a filozofie licencování](@/philosophy/_index.md) – rámec GHL, v němž
-  je epistemická integrita jednou ze tří oblastí.
-- [Etika hranic a filozofie ochrany](@/philosophy/boundary-ethics.md) – pojmové a časové
-  hranice, které uchování významu zajišťují.
-- [Intelektuální suverenita a autorská nezávislost](@/philosophy/intellectual-sovereignty.md)
-  – autor jako epistemická autorita nad dílem.
+- [Vlastní etika knihy](@/philosophy/_index.md) – tři závazky knihy a důvod jejího vydání pod
+  GHL v1.0.
+- [Intelektuální suverenita čtenáře](@/philosophy/intellectual-sovereignty.md) – autorita
+  čtenáře nad výkladem vlastní zkušenosti.
+- [Etika hranic](@/philosophy/boundary-ethics.md) – komu je text určen a co odmítá vyslovit.
 
-**Kniha**
+**Pojmy**
 
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – jev, proti němuž kniha
-  staví podobné principy na úrovni člověka.
-- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – zkreslení
-  z oddílu o vnitřních ohroženích, rozebraná podrobně.
-- [Vzdělávací scénář: Řešení rozporů](@/kompendium/educational-scenarios/8-contradiction-resolution.md)
-  – uchování rozporů jako cvičení úsudku.
-- [Populační dopad dezinformací](@/kompendium/population-health/04-disinformation-population-impact.md)
-  – vnější ohrožení integrity na úrovni společnosti.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – předmět knihy, kvůli němuž
+  je tento standard nutný.
+- [Epistemická pokora](@/glossary/epistemicka-pokora.md) – přiznaná nejistota jako
+  epistemická ctnost.
+- [Konfirmační zkreslení](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md) –
+  mechanismus, kvůli němuž selektivní citace vzniká i bez zlého úmyslu.
+
+**Metoda a etika knihy**
+
+- [Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md) – taxonomické
+  principy, terminologická preciznost a přiznané limitace.
+- [Jak knihu používat](@/kompendium/01-predmluva/jak-pouzivat.md) – čtení po vzorcích
+  a hranice výjimky pro vlastní rámec.
+- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) – transparentní limitace
+  a odpovědnost za zveřejnění.
+- [O projektu](@/about.md) – původ edice, způsob sestavení a licence.

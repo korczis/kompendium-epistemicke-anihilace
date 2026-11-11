@@ -68,5 +68,5 @@ Na předmluvu přirozeně navazuje [02. Úvod do epistemické anihilace](@/kompe
 - [Proč tato kniha není pro každého](@/kompendium/01-predmluva/neni-pro-kazdeho/_index.md) – komu je kniha určena, kdy ji nečíst a kde hledat pomoc.
 - [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md) – závazná pravidla v příloze.
 - [Dual use](@/kompendium/08-prilohy/dual-use.md) – riziko zneužití a jeho řízení.
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md) – filozofické zázemí integrity poznání.
+- [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md) – filozofické zázemí integrity poznání.
 - [Filozofie: Boundary Ethics](@/philosophy/boundary-ethics.md) – etika hranic v práci s citlivým materiálem.

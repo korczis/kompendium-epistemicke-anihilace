@@ -8,7 +8,7 @@ tags = ["glossary", "compliance", "osint", "due-diligence"]
 
 [extra]
 category = "osint"
-related_terms = ["osint", "intelligence-fusion", "nis2", "easm", "entity-resolution", "security-rating", "threat-intelligence", "compliance-framework", "gdpr"]
+related_terms = ["osint", "intelligence-fusion", "nis2", "entity-resolution", "security-rating", "threat-intelligence", "compliance-framework", "gdpr"]
 keywords = ["sanctions screening automation", "OFAC SDN list checking", "EU sanctions compliance", "fuzzy name matching", "entity resolution deduplication", "AML KYC screening", "sanctions list management", "PEP screening", "Elixir parallel screening", "regulatory compliance automation"]
 platform_integration = "deep"
 related_app = "prismatic_intel"

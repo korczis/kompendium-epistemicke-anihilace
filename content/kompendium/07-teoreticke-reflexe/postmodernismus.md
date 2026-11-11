@@ -62,7 +62,7 @@ Toto je strukturní prostředí, v němž **falešná ekvivalence** ([3.5](@/kom
 
 ### 1.5 Kritická odbočka: kompendium odmítá radikální Lyotardovu pozici
 
-Kompendium **akceptuje** Lyotardovu diagnózu fragmentovaného epistemického prostředí, **ale odmítá** radikální tezi, že **žádný** metanarativ není možný. Naopak: kompendium **vědomě formuluje** redukovaný metanarativ — narativ **epistemické integrity** ([Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)) — nikoli jako totalizující osvícenský projekt, ale jako **explicitně reflektovaný**, **revizibilní** a **otevřený** rámec.
+Kompendium **akceptuje** Lyotardovu diagnózu fragmentovaného epistemického prostředí, **ale odmítá** radikální tezi, že **žádný** metanarativ není možný. Naopak: kompendium **vědomě formuluje** redukovaný metanarativ — narativ **epistemické integrity** ([Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)) — nikoli jako totalizující osvícenský projekt, ale jako **explicitně reflektovaný**, **revizibilní** a **otevřený** rámec.
 
 Tento redukovaný metanarativ:
 
@@ -182,7 +182,7 @@ Kompendium **odmítá** tuto radikalizaci. Místo toho zaujímá **post-dekonstr
 
 - **Akceptuje** dekonstruktivní vhled, že kategorie jsou kontingentní a destabilizovatelné
 - **Trvá** na pragmatickém **závazku** k normativním rozhodnutím — i v podmínkách kontingence
-- Tento závazek je sám **explicitně** reflektovaný a otevřený revizi (viz [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md))
+- Tento závazek je sám **explicitně** reflektovaný a otevřený revizi (viz [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md))
 
 ### 3.4 Marges a marginalita
 
@@ -262,7 +262,7 @@ Tato pozice **není** pre-postmoderní (nelze se vrátit do bezproblémové afir
 - [Glosář: Gaslighting](@/glossary/gaslighting.md)
 - [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+- [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
 
 ## Kritický krok
 

@@ -46,10 +46,7 @@
   // („…/12-EA-stigma-risk/“), kterou by GitHub Pages (rozlišuje velikost písmen) neobsloužil.
   // Stejné pravidlo má scripts/build-ui-data.py (slug).
   function pageUrl(url) {
-    var parts = String(url || '').split('/').filter(Boolean).map(function (seg) {
-      return seg.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
-        .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-    });
+    var parts = String(url || '').split('/').filter(Boolean).map(window.KompendiumVrstva.slug);
     return '/' + parts.join('/') + (parts.length ? '/' : '');
   }
 

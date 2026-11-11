@@ -7,7 +7,7 @@
   var V = window.KompendiumViz;
 
   function fold(s) {
-    return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    return window.KompendiumJadro.normalise(String(s || ''));
   }
 
   function size(deg, min, max) {

@@ -9,7 +9,7 @@
   var V = window.KompendiumViz;
 
   function fold(s) {
-    return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    return window.KompendiumJadro.normalise(String(s || ''));
   }
 
   window.kompendiumKatalog = function (dataPath, fixedFamily) {

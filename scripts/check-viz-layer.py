@@ -10,6 +10,18 @@ The layer is a fixed set of files, one owner per library:
   static/js/kompendium/kniha.js    Chart.js charts over the book's data
   static/js/site.js                Mermaid diagrams and the chart_inline component (Chart.js)
 
+Computation over the book's data has one owner too (ADR 0011, rule project.site-zola-engine):
+
+  static/js/viz/jadro.js           kompendium-engine/v1: search, neighbourhood and the text
+                                   folding they use (normalise); a WASM build replaces it once
+                                   it reproduces test/cases/engine/
+  static/js/viz/vrstva.js          the Zola-shaped URL slug (slug)
+
+so text folding (`.normalize('NFD'/'NFKD')`) outside those two is a finding: a filter or a
+ranking with its own folding answers differently from the search in the header. Loading the
+derived data (fetch) is limited to the existing loaders, so a new script reads through
+KompendiumVrstva.kniha, KompendiumViz or the engine instead of fetching static/data itself.
+
 A script anywhere else under static/js/ (vendor excluded) that constructs one of those
 libraries, creates a canvas, or carries its own copy of the book-data loader is a finding:
 it would size, theme, pause and label its canvas on its own, which is how the duplicates and
@@ -47,6 +59,10 @@ RULES = [
     ("Mermaid setup", r"\bmermaid\.(?:initialize|run|render)\s*\(", {"site.js"}),
     ("own book-data loader", r"\bfunction\s+kniha\s*\(", {"viz/vrstva.js"}),
     ("own categorical palette", r"PALETTE_(?:LIGHT|DARK)\s*=", {"viz/vrstva.js"}),
+    ("own text folding (use KompendiumJadro.normalise or KompendiumVrstva.slug)",
+     r"\.normalize\(\s*['\"]NFK?D['\"]\s*\)", {"viz/jadro.js", "viz/vrstva.js"}),
+    ("own data fetch (read through KompendiumVrstva.kniha, KompendiumViz or the engine)",
+     r"\bfetch\s*\(", {"kompendium/kniha.js", "viz/kompendium-viz.js", "site.js", "viz/paleta.js"}),
 ]
 
 

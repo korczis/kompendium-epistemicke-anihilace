@@ -23,7 +23,7 @@
   var HEAD_FONT = '600 12px Inter, system-ui, sans-serif';
 
   function fold(s) {
-    return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    return window.KompendiumJadro.normalise(String(s || ''));
   }
 
   function readJson(id, fallback) {

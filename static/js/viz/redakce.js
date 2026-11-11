@@ -42,7 +42,7 @@
   function $(id) { return document.getElementById(id); }
 
   function fold(s) {
-    return String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    return window.KompendiumJadro.normalise(String(s || ''));
   }
 
   // České tvary: 1 stránka, 2–4 stránky, 5 a víc stránek.

@@ -15,7 +15,7 @@
       },
       {
         "code": null,
-        "in": 177,
+        "in": 176,
         "kind": "Pojem",
         "path": "glossary/epistemicke-trauma.md",
         "tier": 4,
@@ -35,22 +35,22 @@
       },
       {
         "code": null,
-        "in": 130,
-        "kind": "Pojem",
-        "path": "glossary/epistemicka-injustice.md",
-        "tier": 4,
-        "title": "Epistemická injustice",
-        "url": "/glossary/epistemicka-injustice/",
-        "why": "title_prefix"
-      },
-      {
-        "code": null,
         "in": 129,
         "kind": "Filozofie",
         "path": "philosophy/epistemic-integrity.md",
         "tier": 4,
         "title": "Epistemická integrita a uchování významu",
         "url": "/philosophy/epistemic-integrity/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 128,
+        "kind": "Pojem",
+        "path": "glossary/epistemicka-injustice.md",
+        "tier": 4,
+        "title": "Epistemická injustice",
+        "url": "/glossary/epistemicka-injustice/",
         "why": "title_prefix"
       },
       {

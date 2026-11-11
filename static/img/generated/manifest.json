@@ -53,8 +53,8 @@
   },
   "og-kompendium-02-uvod.png": {
    "height": 630,
-   "sha256": "8a25b5eadb498c2e25c8cad061dd0c399ea9894e90002c159b3a2c50d95e8525",
-   "source_sha256": "6b31ab6b277af0e84f2b3d7fd7c9c09bfbf5eca76d9908851abb52cebe9ab6e7",
+   "sha256": "e449613e95b54f48e8900ba44282a786d286d07b98096f6efe675f62ec8d4219",
+   "source_sha256": "ceaf4fdfe3dc98278cd1e3b315048dce4f039288949135ee92e44fb366de03c4",
    "width": 1200
   },
   "og-kompendium-03-manipulacni-vzorce.png": {
@@ -65,8 +65,8 @@
   },
   "og-kompendium-03-zakladni-kategorie.png": {
    "height": 630,
-   "sha256": "29306a524b116ea55b0bb964eda5d6a77bf21ec19f0a38f0f0fd15ba34b52f26",
-   "source_sha256": "7fe8ad678adb3a9e6cf574e23600f1bf2fe1b2ab52f26215bb1a5ee1d1882113",
+   "sha256": "0040907a8fa4ef175a6959d9c2ab51934a24a8ec2e8450c500ee329c9c40bc26",
+   "source_sha256": "369bfddae90248b1c5ce510ee1e4929ad6991d9c3df6ed37fddba0afdbef0195",
    "width": 1200
   },
   "og-kompendium-04-klinika.png": {
@@ -113,8 +113,8 @@
   },
   "og-kompendium-05-ultramari-techniky.png": {
    "height": 630,
-   "sha256": "ef913165adb76c35d8503a1756ed221b72478868853524392fc64a3413030783",
-   "source_sha256": "7fc648f35c623fcf91904c50b8aff0cd2242058bcaf05c86703b3433fe7a1d13",
+   "sha256": "3f42c22a33d28c5919c5f564d435443c5a1d055e79fc4b9c36c725422e9d17a9",
+   "source_sha256": "f6c2f10eec9a15d13858b4a15939ad364e6cbb4916e240da1d4d2713814ab9c6",
    "width": 1200
   },
   "og-kompendium-06-epistemicka-singularita.png": {
@@ -131,8 +131,8 @@
   },
   "og-kompendium-06-klinicke-aplikace.png": {
    "height": 630,
-   "sha256": "e1866013d1a7019798427fcc72556bb71b5b98299e5063fd935014ac2d4fb0d0",
-   "source_sha256": "ecb5d5f2cfb9f496b316147940e9f377d44b8a39ef9f18c341d1f8500e40229b",
+   "sha256": "6b70d22e2be9e4eb9200e6b487a61db4339f17ff383d30efee86c34f1de96ec0",
+   "source_sha256": "0106f25303321afeb8c5ae92e6910df0c7c292d7be52df0642071c1a2fafebca",
    "width": 1200
   },
   "og-kompendium-06-obrana.png": {
@@ -143,8 +143,8 @@
   },
   "og-kompendium-07-populacni.png": {
    "height": 630,
-   "sha256": "183aaa3966e89ad7414534d0b151e314144ec7f4bb9bec83772f5f861334369c",
-   "source_sha256": "533e81772e05657df07bf8205871bd7533cdbd59db96e95e7d863bc753c51873",
+   "sha256": "7ee29f681dfddcd141a4f2ba74b11359c8788b716c83b7cece52ac8b9e833230",
+   "source_sha256": "222428b1d9e7bd5f8ba504f8dc611db9b2b053ff52f05b8ff0121049dc94337e",
    "width": 1200
   },
   "og-kompendium-07-teoreticke-reflexe.png": {
@@ -155,8 +155,8 @@
   },
   "og-kompendium-08-prilohy.png": {
    "height": 630,
-   "sha256": "cf226e99686fc62dd9e5aa5e91e7ff21509b144f459e510ffc964a44e7012cb5",
-   "source_sha256": "8b8be3ab825d4fd6aa44e0f2ad53ab632b9c0f424e9a0628a2014830870a8227",
+   "sha256": "c50c2e2293e4cd2098939b2aab3f3e1cec9941d55cdb40e968686d4871f2792d",
+   "source_sha256": "a95ecce24ea41b184f13a09ab4e616e53996d9a4e1d20d30e8c85f4365032a33",
    "width": 1200
   },
   "og-kompendium-aiad-integration.png": {
@@ -167,8 +167,8 @@
   },
   "og-kompendium-argumentacni-fauly.png": {
    "height": 630,
-   "sha256": "ffb1f53bbcfaac381cdb04cee4beff386fd303d59555a33ba9c92391871af4ef",
-   "source_sha256": "be229836ec3620302eebb64fb1f70c4d45daec7d746f63f6ebe03d11d10e8dac",
+   "sha256": "cb81c7a94db572eeb4e47a29891b64ba4f230b4b79fc2d93736e1403fe1b0b50",
+   "source_sha256": "19705428ddfb9c28f395a10c2fb05f7c125ff89496aaaa38998c86ba443bbc42",
    "width": 1200
   },
   "og-kompendium-case-studies.png": {
@@ -197,8 +197,8 @@
   },
   "og-kompendium-educational-scenarios.png": {
    "height": 630,
-   "sha256": "132d1a7d1014fcfd754e0ab6aa89eec6fe7b6b1c00814100816f5bada7c28524",
-   "source_sha256": "a58f2d85f600afbb58d7dcf12dece33862a9744bd081b5fe78e3046320f83dab",
+   "sha256": "d46f8f7d1234a1dfa58d460009781a8e381fd006ab5c6d20406cd15bdbf6c2a3",
+   "source_sha256": "175b6f8f0513bd0364f26e24c91976f42d445c66ddc02271f702ad7ebe98e645",
    "width": 1200
   },
   "og-kompendium-emergency-protocols.png": {
@@ -239,8 +239,8 @@
   },
   "og-kompendium-nlp-vzorce.png": {
    "height": 630,
-   "sha256": "d0b0ab1187ea16e29f4aadab4dbcab6244f70f0b6efdc979ac7a330c68347c80",
-   "source_sha256": "a9a53e504c88b5011e483b8165c8ebdd7a2df189eee5008c4f43290ffefa4990",
+   "sha256": "f3a132648e32899a9fd46e10e06a1f3e1bed54353ba80542d197ef7e9285130c",
+   "source_sha256": "88152bb5ceb0bc4c18bdf21dd3ccc97614f24818c5c99807ceaa452b2e56d2d1",
    "width": 1200
   },
   "og-kompendium-organizational-defense.png": {
@@ -251,14 +251,14 @@
   },
   "og-kompendium-population-health.png": {
    "height": 630,
-   "sha256": "f1b3bca5a744841853af0f7d5ac5a29c6dd6ae1b6f4f1a8f80507fb0c9a8bcc8",
-   "source_sha256": "88492dd7563d2b9730df722ea34f5406004567e8808345dfa8461cabd1393c23",
+   "sha256": "94253a7e7c592b1b7b4dc7c839f754a1f95bdaf536b1ade72ee2ae2023dc3203",
+   "source_sha256": "2ad03c089726838e86ddd57909ed6c53a92cc481390f4f669f3697050701caea",
    "width": 1200
   },
   "og-kompendium-prevention-resilience.png": {
    "height": 630,
-   "sha256": "94c7c3c6d82c5697ababb690cdf80cbbf572deba1638d778245b639f976ebdb2",
-   "source_sha256": "494c84b790ab641af4fb7e59da6a64600e63a2c629809440f3c68f0554e089bd",
+   "sha256": "67112b6cfd3b8436ffc4087d0b670ad69c98734fbb9ce6998fd4928fd5e76fef",
+   "source_sha256": "c3c01ff28621eb7f63484dd89570a47e4e4be1b388657d3574cd4abc8d10e7c2",
    "width": 1200
   },
   "og-kompendium-puvodni-taxonomie.png": {
@@ -275,8 +275,8 @@
   },
   "og-kompendium-recovery-protocols.png": {
    "height": 630,
-   "sha256": "9b1ad2ef077d600a0b5ebec4fbca2d0fa8c1085a18fd42281994fbd04164a5dd",
-   "source_sha256": "f86759a8e33a2f04ac1619d1c7a1c5d45b4d69a07be7727875528d376feecb3d",
+   "sha256": "7f9300a41aa505dc7bf6532c416dd222bdf887a6d0b6e83020b2501b1bb7ea5f",
+   "source_sha256": "6a1c2d2cc69fdb168054e469f3aa65265043e89fa9b464889bfcb8b0b8b835c6",
    "width": 1200
   },
   "og-kompendium-research-methodology.png": {
@@ -311,8 +311,8 @@
   },
   "og-kompendium.png": {
    "height": 630,
-   "sha256": "70d71bf4af73e52e26916edbf6fce0186158d13d5c04e336eea13dbce12d8c09",
-   "source_sha256": "4d7fcd36cf2aeac2a5829760b2cded7d5fc6d8bb763542a2ef71895c263624aa",
+   "sha256": "7f3dc21b2459c1870ef9719d72a5f87c4bf8f9947e53e2e6adaba1125572a266",
+   "source_sha256": "80d3dde95dd2543b7711be17c45e682b149310d803e635c3d543cc017548cb71",
    "width": 1200
   },
   "og-philosophy.png": {
@@ -334,13 +334,13 @@
    "sha256": "3c3cd5ac8bd953183b7bafcd3db1e4b79ce47bea99fc09377aeb602a99a5a5c8"
   },
   "section-kompendium-02-uvod.svg": {
-   "sha256": "2c4ed75055cf174e0922560b5174cfd03eabc3a7eac216366b6849217591b54e"
+   "sha256": "484cdd98051155508a4f99f4716e30aa58e8ca4e8da64494997256e2b4caad57"
   },
   "section-kompendium-03-manipulacni-vzorce.svg": {
    "sha256": "d53221395c54510f460e8b38b1467f831c789bb01f32c7365d00fd40a68c2bab"
   },
   "section-kompendium-03-zakladni-kategorie.svg": {
-   "sha256": "87af95868fdda00f07d565f37f68efba50e9f8641a869a7017989e7b26715213"
+   "sha256": "b337ec09a1912f7780697049728ed9163a77c31a6301438ea2ce60b052445bd5"
   },
   "section-kompendium-04-klinika.svg": {
    "sha256": "605dc34f0e4bfc6effcd0797f1462150ad8ca85c20263cc4c1efaacb6bfc1ec1"
@@ -364,7 +364,7 @@
    "sha256": "ed6cbb84689d6b0c1e9bbd26a5b155694aa5e9b66647ad8c53571f6996b00430"
   },
   "section-kompendium-05-ultramari-techniky.svg": {
-   "sha256": "76c75fe9dbd3c02aca34da470491ad63d57680493ad662693daf5a49167ff5e1"
+   "sha256": "8379857c1d53ade66ac3d661bda0b1d9ef8990be6bc525965710c8b29d352a9c"
   },
   "section-kompendium-06-epistemicka-singularita.svg": {
    "sha256": "176ec5a333fa1fbd9eb1d093a769f4b7145bb36e83b8d4ae4c16cd93a7c0ecc5"
@@ -373,25 +373,25 @@
    "sha256": "f7996877eb94b8ae5b9131814d2b96a001396f1907a5e20e21c5692a7c633062"
   },
   "section-kompendium-06-klinicke-aplikace.svg": {
-   "sha256": "3a573174e8a8eda3655dfc28a6c27abcb23e07b794873b8afd8ef27e3c5effd3"
+   "sha256": "d7adfa350070b248cecd0dd89df7858591b038d15c8d031a1f65ceeb19a4bc28"
   },
   "section-kompendium-06-obrana.svg": {
    "sha256": "cdf56c1f02cfb12f4a5b9eefb76e9c6cdeb4019958daf15cf3368b07bd35a2cf"
   },
   "section-kompendium-07-populacni.svg": {
-   "sha256": "16cb1e6050442b5bfe77818dcdf8494199dcdd84a6f4edcbe7b05d47d31960db"
+   "sha256": "87d32d5e90ea875c7cae46cd4ec93565279e8ae1a208520ab18f56a9dcf2a4c3"
   },
   "section-kompendium-07-teoreticke-reflexe.svg": {
    "sha256": "fdc36a91eb07e4a45a23ec09e561d852ead7f2cf995d49c031ca7727cbb6e98f"
   },
   "section-kompendium-08-prilohy.svg": {
-   "sha256": "f78f2d72b91e90cef62788dfdc951476245ebc1640f8c001b514d596b390d281"
+   "sha256": "89f425d8a011e1dc9ee03ace3afa822f45b04bed289f8a92480ccac476a0fe66"
   },
   "section-kompendium-aiad-integration.svg": {
    "sha256": "89e90ee3280938cedfde2d54e7360a0af31f6001007dca9b2767c76965423045"
   },
   "section-kompendium-argumentacni-fauly.svg": {
-   "sha256": "7fc5d90bab7e1ee106b60a583648f9b3acb60fb9934b9fe9c99745c8e5762cb1"
+   "sha256": "635e29623133df9da53dc879ff7dd3878db5890c55fdf01e194f95a478232b74"
   },
   "section-kompendium-case-studies.svg": {
    "sha256": "62c09121cf2c1260161e72dab91857170d77b87306f94758d6b3b557ea40def1"
@@ -406,7 +406,7 @@
    "sha256": "53d39dce37f05d088cd889a9dbdc1552f464bf18146b8e6b7aa8450d0dccc9d9"
   },
   "section-kompendium-educational-scenarios.svg": {
-   "sha256": "e0f9a2a63b04892f2adeeb5064ff7c739ed9951ad94f5a397d555f62ea28ab87"
+   "sha256": "18b1930630a23b9a3cf6363d3d67ea613ec9108440f1078ba1012b7fe14f1a8b"
   },
   "section-kompendium-emergency-protocols.svg": {
    "sha256": "90f98c4b26e91ae3522b0577cbda6a5b2858215774ed5e09ad3f235d3ee7d0e1"
@@ -427,16 +427,16 @@
    "sha256": "ef4af9346f3ccf9fea37595ea145ef6feb07d125762062956e5dae3e51213101"
   },
   "section-kompendium-nlp-vzorce.svg": {
-   "sha256": "6290a0f1945d59aa3f517365bb7037b6d3aa869523bf8400413519e2015e4ac5"
+   "sha256": "a1131f22c16e3d10df451baa1e9174783fe62c7c42cb66ab9c60a32d71d9cf59"
   },
   "section-kompendium-organizational-defense.svg": {
    "sha256": "6f7a4d39815d5a355cd2d7cff385c6476e9625ffbfbe780fb3a3604323bc0ddb"
   },
   "section-kompendium-population-health.svg": {
-   "sha256": "44935d3fbff9e6fa0abeeb4ae4d8c8459dd12c197daa95d25d5b50357febfc5e"
+   "sha256": "1945b79ec33d899de4273b3295ffe64efbffb75266135747b8cb6b5223a22ea4"
   },
   "section-kompendium-prevention-resilience.svg": {
-   "sha256": "269b8016dc71ede271e4f739e697b289e94919f8ce8cc3ebf9eaaad27868b8af"
+   "sha256": "00dce2a4a5edea664222f78c09dfc653511c3be1dfc1d93ad18b53593013cf9e"
   },
   "section-kompendium-puvodni-taxonomie.svg": {
    "sha256": "b68361bcf436841aff750116a9ef826ab9b209ac06c9f81323145ba170bfaa86"
@@ -445,7 +445,7 @@
    "sha256": "81ba35877db4f50d7f4f3c81e06eb81b1f69b6aadd574129b9ffc28e0e0466d6"
   },
   "section-kompendium-recovery-protocols.svg": {
-   "sha256": "a9528c6d8a4941677cf4efa641df517f5bbd90008644b1451b6ce98124c259c5"
+   "sha256": "ba3d84b6e54852ad684458637193f73e8b993f65de239b5715e96127aa313dbf"
   },
   "section-kompendium-research-methodology.svg": {
    "sha256": "157d5782822c30ec0e2865f03aa2c374b0cef9bfa238f2c37e415593ec657a85"
@@ -463,7 +463,7 @@
    "sha256": "7cd757b434f79d93ff190d7cbfa0ca8674801010963f0c75a96d06a0b0bf249a"
   },
   "section-kompendium.svg": {
-   "sha256": "c41fc98966666635c5534ac552bad1ef03a8c2df9782d836565065181bee8357"
+   "sha256": "91700995eb6c402acf5c823275bb955ce7c6043fffca038a16fe74810a85400b"
   },
   "section-philosophy.svg": {
    "sha256": "dc474292cf3cbb149c0b0f003661040c977973cac75f46dde6b5159b9cbfddae"

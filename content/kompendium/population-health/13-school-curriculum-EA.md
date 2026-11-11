@@ -23,20 +23,25 @@ toc = true
 Cílem kurikula není naučit žáky seznam manipulačních technik, ale rozvíjet **epistemické
 dovednosti**: ptát se, odkud informace pochází; rozlišit tvrzení, důkaz a názor; všimnout si,
 když na ně někdo tlačí emocemi nebo časem; snést nejistotu; měnit názor na základě důkazů
-a nesouhlasit bez ztráty vztahu. Tyto dovednosti chrání před dezinformací, před náborem do
+a nesouhlasit bez ztráty vztahu. Durlak a kol. (2011) v metaanalýze programů sociálně-emočního
+učení doložili, že se takové dovednosti dají ve škole systematicky rozvíjet a že se promítají
+do chování i školní úspěšnosti; tytéž dovednosti chrání před dezinformací, před náborem do
 skupin s vysokou kontrolou i před manipulativními vztahy.
 
 V českém prostředí na kurikulum navazují rámcové vzdělávací programy, kde je mediální výchova
-průřezovým tématem a kde se posilují digitální kompetence. Program EA prevence proto nemusí
-být novým předmětem; může prohloubit existující témata a propojit je s výchovou ke zdraví
-a občanskou výchovou ([vzdělávací politika](@/kompendium/population-health/26-educational-policy-EA.md)).
+průřezovým tématem a kde se posilují digitální kompetence. Program EA prevence proto nemusí být
+novým předmětem; může prohloubit existující témata a propojit je s výchovou ke zdraví a občanskou
+výchovou ([vzdělávací politika](@/kompendium/population-health/26-educational-policy-EA.md)).
+Rose (1992) připomíná, že právě takové univerzální, celou populaci zasahující programy mívají
+větší souhrnný účinek než intervence cílené na rizikové jednotlivce.
 
 ## Úroveň prevence a cílová populace
 
-Jde o **univerzální primární prevenci** pro všechny žáky. Selektivní prvky (posílená podpora,
-práce se třídou) míří na školy a třídy, kde se objeví konkrétní problém – šikana, nábor, šíření
-konspiračního obsahu. Indikovaná péče o jednotlivé žáky patří školnímu psychologovi
-a odborným službám, ne do kurikula.
+Jde o **univerzální primární prevenci** pro všechny žáky, která podle Rose (1992) posouvá celé
+rozdělení dovedností, nikoli jen jeho okraj. Selektivní prvky (posílená podpora, práce se třídou)
+míří na školy a třídy, kde se objeví konkrétní problém – šikana, nábor, šíření konspiračního
+obsahu. Indikovaná péče o jednotlivé žáky patří školnímu psychologovi a odborným službám, ne do
+kurikula.
 
 ## Obsah podle věku
 
@@ -47,78 +52,94 @@ a odborným službám, ne do kurikula.
 | Střední škola | Argumentace a klamy, [kognitivní biasy](@/glossary/kognitivni-bias.md), algoritmy, dezinformační kampaně, rozpoznání vysoké kontroly ve skupinách a vztazích | [Vzdělávací scénář: evaluace zdrojů](@/kompendium/educational-scenarios/4-source-evaluation.md), [verifikace tvrzení](@/kompendium/educational-scenarios/5-claim-verification.md) |
 | Vysoká škola | Metodologie, [falsifikovatelnost](@/glossary/falsifikovatelnost.md), akademická integrita, moc v hierarchiích, ochrana před akademickými formami EA | [Design falsifikace](@/kompendium/educational-scenarios/6-falsification-design.md), seminář o vztahu školitel–student |
 
-Sekvence odpovídá vývoji: malé děti potřebují bezpečné vztahy a jazyk pro to, co se jim
-děje; dospívající potřebují nástroje pro informační prostředí a vrstevnický tlak; dospělí
-studenti potřebují rozumět institucionální moci.
+Sekvence odpovídá vývoji, který Durlak a kol. (2011) kladou do základu účinných programů: malé
+děti potřebují bezpečné vztahy a jazyk pro to, co se jim děje; dospívající potřebují nástroje pro
+informační prostředí a vrstevnický tlak; dospělí studenti potřebují rozumět institucionální moci.
 
 ## Didaktika
 
-- **Aktivní učení místo výkladu.** Dovednosti se trénují na konkrétním materiálu; výklad
-  o „nebezpečí manipulace“ bez nácviku má malý účinek.
-- **Inokulace.** Krátké vystavení oslabené podobě manipulačního vzorce s rozborem posiluje
-  odolnost; vychází z inokulační teorie Williama McGuira z 60. let
-  ([programy mediální gramotnosti](@/kompendium/population-health/15-media-literacy-program.md)).
-- **[Metakognice](@/glossary/metakognice.md).** Žák se učí sledovat vlastní myšlení – co cítím, proč tomu chci věřit
-  ([metakognitivní kultivace](@/kompendium/techniques/ea-3-1-3-metacognitive-cultivation.md),
-  [reflektivní žurnálování](@/kompendium/techniques/ea-3-1-10-reflective-journaling.md)).
-- **Bezpečné klima.** Žáci musí mít možnost nesouhlasit s učitelem; jinak kurikulum o kritickém
-  myšlení učí opak.
-- **Spolupráce s rodiči.** Informace pro rodiče o tom, co se děti učí a jak doma mluvit
-  o online obsahu, zvyšuje přenos do života.
+Základní zásadou je **aktivní učení místo výkladu**: dovednosti se trénují na konkrétním
+materiálu, protože výklad o „nebezpečí manipulace“ bez nácviku má podle Durlaka a kol. (2011) malý
+účinek. Důležitá je **inokulace** – krátké vystavení oslabené podobě manipulačního vzorce
+s rozborem posiluje odolnost; tento princip formuloval McGuire (1964) jako inokulační teorii
+a dnes jej rozvíjejí programy mediální gramotnosti
+([programy mediální gramotnosti](@/kompendium/population-health/15-media-literacy-program.md)).
+Žák se dále učí **[metakognici](@/glossary/metakognice.md)**, tedy sledovat vlastní myšlení – co
+cítím a proč tomu chci věřit
+([metakognitivní kultivace](@/kompendium/techniques/ea-3-1-3-metacognitive-cultivation.md),
+[reflektivní žurnálování](@/kompendium/techniques/ea-3-1-10-reflective-journaling.md)).
+
+Nezbytné je **bezpečné klima**: žáci musí mít možnost nesouhlasit s učitelem, jinak kurikulum
+o kritickém myšlení učí pravý opak toho, co hlásá. Durlak a kol. (2011) také zdůrazňují **spolupráci
+s rodiči**: informace pro rodiče o tom, co se děti učí a jak doma mluvit o online obsahu, zvyšuje
+přenos dovedností do života mimo školu.
 
 ## Rizika a nežádoucí účinky
 
-- **Cynismus.** Výuka, která ukazuje jen klamy, může vést k závěru „nic není pravda, všichni
-  lžou“ – což je samo cílem mnoha dezinformačních strategií
-  ([radikální relativismus](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md)).
-  Proto se vždy učí i to, jak důvěru *kalibrovat*, nejen jak ji odepřít.
-- **Indoktrinace.** Pokud kurikulum označuje konkrétní politické postoje nebo náboženství za
-  „manipulaci“, stává se samo epistemickým útokem; výuka se musí zaměřit na strukturu, ne
-  na obsah názorů.
-- **Kapturace kurikula.** Vzdělávací obsah může být přebrán zájmovou skupinou
-  ([curriculum capture](@/kompendium/techniques/ea-2-4-9-curriculum-capture.md)); prevencí je
-  transparentní tvorba a odborná recenze materiálů.
-- **Neúčinné nebo škodlivé programy.** Historie prevence zná programy, které měly malý účinek
-  (například evaluace školního protidrogového programu D.A.R.E.), i programy, které škodily
-  – přehled Cochrane o programech typu „Scared Straight“ zjistil spíš zvýšení delikvence
-  než pokles. Dobrý úmysl nenahrazuje evaluaci.
-- **[Retraumatizace](@/glossary/retraumatizace.md).** Některé děti mají přímou zkušenost s manipulativním prostředím; učitel
-  musí vědět, jak reagovat a kam dítě odkázat
-  ([protokol pro děti](@/kompendium/recovery-protocols/recovery-children-protocol.md)).
+Prvním rizikem je **cynismus**: výuka, která ukazuje jen klamy, může vést k závěru „nic není
+pravda, všichni lžou“, což je samo cílem mnoha dezinformačních strategií
+([radikální relativismus](@/kompendium/techniques/ea-2-5-4-radical-relativism-internalize.md)) –
+proto se podle McGuira (1964) vždy učí i to, jak důvěru *kalibrovat*, nejen jak ji odepřít. Druhým
+je **indoktrinace**: označuje-li kurikulum konkrétní politické postoje nebo náboženství za
+„manipulaci“, stává se samo epistemickým útokem, a výuka se proto musí zaměřit na strukturu, ne
+na obsah názorů. Třetím je **kapturace kurikula** zájmovou skupinou
+([curriculum capture](@/kompendium/techniques/ea-2-4-9-curriculum-capture.md)), jíž předchází
+transparentní tvorba a odborná recenze materiálů.
+
+Čtvrté riziko je nejzávažnější: **neúčinné nebo škodlivé programy**. Historie prevence zná
+programy s malým účinkem – metaanalýza školního protidrogového programu D.A.R.E. od Westa
+a O'Neala (2004) nenašla významný dopad na užívání návykových látek – i programy, které přímo
+škodily: Cochrane přehled Petrosina, Turpin-Petrosinové a Buehlera (2003) zjistil, že programy
+typu „Scared Straight“ delikvenci spíš zvyšovaly. Dobrý úmysl tedy nenahrazuje evaluaci. Pátým
+rizikem je **[retraumatizace](@/glossary/retraumatizace.md)**: některé děti mají přímou zkušenost
+s manipulativním prostředím a učitel musí vědět, jak reagovat a kam dítě odkázat
+([protokol pro děti](@/kompendium/recovery-protocols/recovery-children-protocol.md)).
 
 ## Evaluace
 
-- **Design**: klastrově randomizované studie (randomizují se školy nebo třídy), případně
-  kvaziexperimentální srovnání se školami, které program zavádějí později.
-- **Výsledky**: měřit dovednosti (úspěšnost v rozpoznání upravených či zavádějících
-  materiálů, kvalitu argumentace), nejen postoje a sebehodnocení; sledovat i nežádoucí účinek
-  – pokles důvěry v důvěryhodné zdroje.
-- **Trvání**: účinky inokulace slábnou; potřebné je měření s odstupem měsíců a opakované
-  „posilovací“ dávky.
-- **Implementace**: věrnost provedení v reálných třídách bývá nižší než v pilotu.
+Metodologicky nejsilnějším designem jsou **klastrově randomizované studie**, které randomizují
+školy nebo třídy, případně kvaziexperimentální srovnání se školami zavádějícími program později;
+Durlak a kol. (2011) na nich postavili svou metaanalýzu. Výsledky je třeba měřit jako
+dovednosti – úspěšnost v rozpoznání upravených či zavádějících materiálů a kvalitu argumentace –,
+nikoli jen jako postoje a sebehodnocení, a zároveň sledovat nežádoucí účinek v podobě poklesu
+důvěry ve spolehlivé zdroje. Důležité je **trvání**: účinky inokulace podle McGuira (1964)
+slábnou, takže je potřebné měření s odstupem měsíců a opakované „posilovací“ dávky. Konečně je
+nutné sledovat **věrnost implementace**, která bývá v reálných třídách nižší než v pilotu – což
+West a O'Neal (2004) uvádějí jako jeden z důvodů selhání plošně zaváděných programů.
 
 ## Modelová situace
 
-Gymnázium zavede do druhého ročníku modul o informačním prostředí v rámci společenských věd.
-Žáci ve skupinách rozebírají skutečné virální příspěvky, hledají původní zdroj a diskutují,
-proč je obsah sdílený. Učitelka záměrně volí příklady z různých politických stran. Na konci
-pololetí škola porovná výsledky praktického testu s paralelní třídou, která modul absolvuje
-až v dalším roce, a zjišťuje i to, zda se žáci nezačali stavět nedůvěřivě ke všem zdrojům.
+Gymnázium zavede do druhého ročníku modul o informačním prostředí v rámci společenských věd. Žáci
+ve skupinách rozebírají skutečné virální příspěvky, hledají původní zdroj a diskutují, proč je
+obsah sdílený. Učitelka záměrně volí příklady z různých politických stran. Na konci pololetí škola
+v duchu doporučení Durlaka a kol. (2011) porovná výsledky praktického testu s paralelní třídou,
+která modul absolvuje až v dalším roce, a zjišťuje i to, zda se žáci nezačali stavět nedůvěřivě ke
+všem zdrojům.
 
 ## Kontrolní otázky pro praxi
 
-- Trénují žáci dovednosti na reálném materiálu, nebo jen poslouchají výklad?
-- Jsou příklady voleny symetricky napříč politickými a světonázorovými tábory?
-- Učí program kalibrovat důvěru, nebo jen odepírat?
-- Ví učitel, jak reagovat, když žák popíše vlastní zkušenost s manipulací?
-- Měří evaluace dovednosti a možný nárůst cynismu?
+V duchu inokulační logiky (McGuire 1964) a evaluačních nároků (Durlak a kol. 2011) se u programu
+ptáme: Trénují žáci dovednosti na reálném materiálu, nebo jen poslouchají výklad? Jsou příklady
+voleny symetricky napříč politickými a světonázorovými tábory? Učí program kalibrovat důvěru, nebo
+jen odepírat? Ví učitel, jak reagovat, když žák popíše vlastní zkušenost s manipulací? A měří
+evaluace dovednosti i možný nárůst cynismu?
 
 ## Limitace a otevřené otázky
 
-- Kapacita učitelů a hodinové dotace jsou omezené; nový obsah soutěží s jiným.
-- Přenos dovedností ze školy do soukromého online života je nejistý.
-- Otevřená otázka: kdy a jak učit o skupinách s vysokou kontrolou, aniž by výuka stigmatizovala
-  náboženské a kulturní menšiny?
+Kapacita učitelů a hodinové dotace jsou omezené a nový obsah soutěží s jiným, takže plošné
+zavedení naráží na věrnost implementace, kterou West a O'Neal (2004) označili za slabé místo
+preventivních programů. Přenos dovedností ze školy do soukromého online života je navíc nejistý.
+Otevřenou otázkou zůstává, kdy a jak učit o skupinách s vysokou kontrolou, aniž by výuka
+stigmatizovala náboženské a kulturní menšiny – riziko, které u školních programů připomínají
+i Durlak a kol. (2011) v souvislosti s citlivostí k rozmanitosti tříd.
+
+## Literatura
+
+- Durlak, J. A. a kol. „The Impact of Enhancing Students' Social and Emotional Learning: A Meta-Analysis of School-Based Universal Interventions.“ *Child Development*, 2011.
+- McGuire, W. J. „Inducing Resistance to Persuasion: Some Contemporary Approaches.“ In *Advances in Experimental Social Psychology*, 1964.
+- Petrosino, A.; Turpin-Petrosino, C.; Buehler, J. „Scared Straight and Other Juvenile Awareness Programs for Preventing Juvenile Delinquency.“ *The Cochrane Database of Systematic Reviews*, 2003.
+- Rose, G. *The Strategy of Preventive Medicine.* Oxford University Press, 1992.
+- West, S. L.; O'Neal, K. K. „Project D.A.R.E. Outcome Effectiveness Revisited.“ *American Journal of Public Health*, 2004.
 
 ## Související
 

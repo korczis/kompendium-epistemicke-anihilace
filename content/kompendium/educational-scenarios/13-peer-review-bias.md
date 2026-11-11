@@ -21,112 +21,120 @@ type = "educational-scenario"
 > **Pro koho**: redaktoři a recenzenti odborných časopisů, členové grantových panelů, doktorandi
 
 Recenzní řízení je základní pojistkou vědeckého poznání, ale vykonávají ho lidé, kteří mají
-reputaci, konkurenty a teoretické loajality. Většina zkreslení v recenzích není úmyslná:
-jsou to [konfirmační bias](@/glossary/konfirmacni-bias.md) a halo efekt ze scénáře
-[Rozpoznání kognitivních zkreslení](@/kompendium/educational-scenarios/2-cognitive-bias-recognition.md),
-jen přenesené do instituce. Kniha však popisuje i situace, kdy se recenze stává nástrojem –
+reputaci, konkurenty a teoretické loajality. Většina zkreslení v recenzích není úmyslná: jde
+o [konfirmační bias](@/glossary/konfirmacni-bias.md) a halo efekt, jen přenesené do instituce, a
+jejich existenci v recenzním procesu doložily už klasické experimentální studie, v nichž titíž
+recenzenti hodnotili rukopis odlišně podle toho, zda potvrzoval, nebo vyvracel jejich očekávání
+(Mahoney, 1977). Kniha však popisuje i situace, kdy se recenze stává nástrojem –
 [publikační blokace](@/kompendium/techniques/ea-2-1-4-publikacni-blokace.md) nebo
-[ovládnutí recenzního procesu](@/kompendium/techniques/ea-2-4-6-peer-review-capture.md).
-Scénář učí obojí rozpoznat podle textu posudků.
+[ovládnutí recenzního procesu](@/kompendium/techniques/ea-2-4-6-peer-review-capture.md). Scénář
+učí obojí rozpoznat podle textu posudků, tedy posunout pozornost od autority recenzenta k tomu,
+co posudek skutečně tvrdí a dokládá.
 
-## Učební cíle
+## Učební cíle a jejich zdůvodnění
 
-Účastník po cvičení:
-
-1. rozliší v posudku tvrzení o metodě, o výsledcích, o novosti a o autorovi;
-2. pozná markery zkreslení: argument ad hominem, nesouměřitelné nároky, požadavky citací
-   vlastních prací recenzenta, odmítnutí kvůli rozporu s dominantním modelem;
-3. odliší přísnou, ale věcnou recenzi od recenze, která rukopis blokuje bez zdůvodnění;
-4. navrhne procesní pojistky redakce (anonymizace, třetí recenzent, odpověď autora, vyvážení
-   konfliktu zájmů).
+Cvičení směřuje k tomu, aby účastník v posudku rozlišil tvrzení o metodě, o výsledcích, o novosti
+a o autorovi a aby poznal markery zkreslení: argument ad hominem, nesouměřitelné nároky, požadavek
+citovat vlastní práce recenzenta a odmítnutí kvůli rozporu s dominantním modelem. Toto rozlišení
+je nezbytné proto, že nejzávažnější deformace nevzniká z přísnosti, ale z asymetrie: zavedené
+výklady jsou posuzovány mírněji než výklady, které je zpochybňují, což soustavně nadhodnocuje
+potvrzující nálezy (Ioannidis, 2005). Dalším cílem je odlišit přísnou, ale věcnou recenzi od
+recenze, která rukopis blokuje bez zdůvodnění, a navrhnout procesní pojistky redakce –
+anonymizaci, třetího recenzenta, právo autora odpovědět a ošetření střetu zájmů. Mertonova
+analýza vědeckých norem ukazuje, proč jsou tyto pojistky nutné: organizovaná skepse a
+nestrannost nejsou osobní ctnosti, nýbrž institucionální pravidla, která je třeba chránit
+strukturou, ne spoléháním na charakter (Merton, 1973).
 
 ## Scénář
 
-Účastníci jsou členy redakční rady fiktivního oborového časopisu. Na stole mají rukopis
-mladé autorky, který na nových datech zpochybňuje rozšířený výklad jednoho jevu, a tři posudky:
+Účastníci jsou členy redakční rady fiktivního oborového časopisu a mají na stole rukopis mladé
+autorky, který na nových datech zpochybňuje rozšířený výklad jednoho jevu, spolu se třemi posudky.
+První posudek je krátký a pozitivní, chválí „odvahu“ a doporučuje přijetí, ale neobsahuje jedinou
+věcnou poznámku k metodě. Druhý posudek je dlouhý a ostrý: tvrdí, že práce „není původní“, že
+„protiřečí zavedenému poznání“ a že autorka „zjevně nezná literaturu“, a uvádí šest titulů,
+z nichž pět je od téhož autora; k metodě má jedinou poznámku, totiž že vzorek je malý. Třetí
+posudek je středně dlouhý a kritický, upozorňuje na dvě konkrétní slabiny analýzy, navrhuje
+doplňkovou kontrolní analýzu a doporučuje velkou revizi. Redaktor dodává, že recenzent 2 je
+autorem výkladu, který rukopis zpochybňuje, a že rukopis s velmi podobnými daty, podepsaný
+renomovaným spoluautorem, vyšel v jiném časopise bez větších výhrad. Skupina má rozhodnout, jak
+s posudky naložit, a sepsat zdůvodnění pro autorku. Zápletka s týmiž daty hodnocenými jinak podle
+podpisu je úmyslnou ozvěnou experimentu, který reputační asymetrii recenzního řízení doložil
+(Peters & Ceci, 1982).
 
-- **Posudek 1:** krátký, pozitivní, chválí „odvahu“ a doporučuje přijetí. Neobsahuje jedinou
-  věcnou poznámku k metodě.
-- **Posudek 2:** dlouhý, ostrý. Tvrdí, že práce „není původní“, že „protiřečí zavedenému
-  poznání“ a že autorka „zjevně nezná literaturu“ – a uvádí šest titulů, z nichž pět je od
-  téhož autora. K metodě má jednu poznámku: vzorek je malý.
-- **Posudek 3:** středně dlouhý, kritický. Upozorňuje na dvě konkrétní slabiny analýzy,
-  navrhuje doplňkovou kontrolní analýzu a doporučuje velkou revizi.
+## Jak se vzorec pozná
 
-Redaktor dodává, že recenzent 2 je autorem výkladu, který rukopis zpochybňuje. V zadání je
-také poznámka, že rukopis s velmi podobnými daty, podepsaný renomovaným spoluautorem, vyšel
-v jiném časopise bez větších výhrad.
+Nejnápadnějším markerem je hodnocení osoby místo práce – „zjevně nezná literaturu“ bez konkrétního
+doložení – a vedle něj citační politika, tedy požadavek citovat práce recenzenta, který patří mezi
+dobře zdokumentované deformace vytvářející umělé [cirkulární citační sítě](@/kompendium/detection-signatures/18-network-citation-circularity.md).
+Dalším markerem je konzervativní obrana, v níž „protiřečí zavedenému“ slouží jako argument sám o
+sobě; rozpor s dominantním modelem je přitom důvodem ke zvýšené pečlivosti, nikoli k odmítnutí, a
+historie vědy ukazuje, že odpor vůči anomáliím je pravidlem, nikoli výjimkou
+(Kuhn, 1962; srovnej [Kuhnova revoluce](@/glossary/kuhnova-revoluce.md)). Následuje nepřiměřená
+[jistota při tenkém zdůvodnění](@/kompendium/detection-signatures/9-behavioral-disproportionate-confidence.md),
+prázdná chvála (posudek 1 je také zkreslený, jen v opačném směru) a asymetrie podle reputace, kdy
+jsou stejná data hodnocena jinak podle podpisu. Právě tuto reputační asymetrii doložil klasický
+experiment, v němž již publikované práce předložené znovu pod méně prestižní afiliací procházely
+recenzí výrazně hůře (Peters & Ceci, 1982). Posledním a klíčovým markerem je nezveřejněný střet
+zájmů: recenzent posuzuje práci, která zpochybňuje jeho vlastní.
 
-Skupina má rozhodnout, jak s posudky naložit, a sepsat zdůvodnění pro autorku.
+## Odlišení legitimní přísnosti od blokace
 
-## Signály, kterých si všimnout
+Poznámka o malém vzorku je věcná a autorka na ni má odpovědět, zatímco tvrzení o nepůvodnosti a
+neznalosti literatury bez konkrétního zdůvodnění věcná nejsou; seznam vlastních prací recenzenta
+je třeba posoudit podle relevance, nikoli automaticky převzít. Rozlišujícím testem je, zda posudek
+nabízí cestu: legitimní konzervativismus žádá silnější důkazy a navrhuje, jak je získat (jako
+posudek 3), kdežto blokace odmítá bez návrhu cesty a argumentuje autoritou
+([EA-2.1.1 Expertní disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md)).
+Střet zájmů recenzenta 2 není důvodem jeho posudek ignorovat, nýbrž vážit s vědomím střetu a
+oddělit věcné poznámky od hodnotících. Důležité je nepropadnout dvěma zrcadlovým chybám:
+průměrování posudků (jeden pozitivní, jeden negativní a jeden kritický neznamená „průměrně dobrý
+rukopis“) ani odmítnutí kritiky jako celku, protože zjištění zkreslení v posudku 2 neruší platnost
+poznámky o vzorku. Spolehlivým korektivem celého systému je nezávislá replikace, jejíž nízká
+úspěšnost odhalila, jak málo samotná recenze zaručuje (Open Science Collaboration, 2015).
 
-- **Hodnocení osoby místo práce** – „zjevně nezná literaturu“.
-- **Citační politika** – požadavek citovat práce recenzenta; viz
-  [cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md).
-- **Konzervativní obrana** – „protiřečí zavedenému“ jako argument. Rozpor s dominantním
-  modelem je důvodem ke zvýšené pečlivosti, ne k odmítnutí; srovnej [Kuhnova revoluce](@/glossary/kuhnova-revoluce.md).
-- **Nepřiměřená jistota** při tenkém zdůvodnění, viz
-  [signatura](@/kompendium/detection-signatures/9-behavioral-disproportionate-confidence.md).
-- **Prázdná chvála** – posudek 1 je také zkreslený, jen v opačném směru.
-- **Asymetrie podle reputace** – stejná data jinak hodnocená podle podpisu.
-- **Nezveřejněný střet zájmů** – recenzent posuzuje práci, která zpochybňuje jeho vlastní.
+## Obrana a zotavení
 
-## Diskusní otázky
-
-1. Které části posudku 2 jsou věcné a oprávněné? Které ne?
-2. Má posudek 1 pro redakci nějakou hodnotu?
-3. Je střet zájmů recenzenta 2 důvodem jeho posudek ignorovat?
-4. Jak odlišit legitimní konzervativismus vědy od blokace nového výkladu?
-5. Co sdělit autorce, aby dostala použitelnou zpětnou vazbu a nebyla poškozena zkreslením?
-6. Jaké změny procesu by tomuto typu zkreslení předcházely?
-
-## Modelové odpovědi
-
-- **K otázce 1.** Poznámka o malém vzorku je věcná a autorka na ni má odpovědět. Tvrzení
-  o nepůvodnosti a neznalosti literatury bez konkrétního zdůvodnění věcné nejsou; seznam
-  vlastních prací recenzenta je třeba posoudit podle relevance, ne převzít.
-- **K otázce 2.** Malou: říká, že recenzent rukopis četl a líbil se mu, ale neposkytuje
-  podklad pro rozhodnutí. Redakce by neměla posudek 1 použít k vyvážení posudku 2.
-- **K otázce 3.** Ne nutně ignorovat, ale vážit s vědomím střetu a oddělit věcné poznámky od
-  hodnotících. Do budoucna má redakce střety zjišťovat dřív, než recenzenta osloví.
-- **K otázce 4.** Legitimní konzervativismus žádá silnější důkazy a navrhuje, jak je získat
-  (jako posudek 3). Blokace odmítá bez návrhu cesty a argumentuje autoritou. Viz
-  [EA-2.1.1 Expertní disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md).
-- **K otázce 5.** Rozhodnutí „velká revize“ s jasným výčtem: odpovědět na poznámky posudku 3
-  a na poznámku o vzorku z posudku 2; požadavek dalších citací ponechat na úvaze autorky
-  s ohledem na relevanci.
-- **K otázce 6.** Dvojitě anonymní řízení, kde je to možné; povinné prohlášení o střetu
-  zájmů recenzentů; právo autora odpovědět; zveřejňování posudků; třetí recenzent při
-  extrémně rozdílných posudcích; viz [publikační etika](@/kompendium/research-methodology/publication-ethics-EA.md).
-
-## Časté chyby
-
-- **Průměrování posudků.** Jeden pozitivní, jeden negativní a jeden kritický neznamená
-  „průměrně dobrý rukopis“.
-- **Odmítnutí kritiky jako celku.** Zjištění zkreslení v posudku 2 neznamená, že poznámka
-  o vzorku neplatí.
-- **Personalizace.** Debata o tom, zda je recenzent 2 „zlý člověk“, odvádí od procesu.
-- **Přeceňování anonymizace.** V malých oborech autory často poznáme podle tématu a dat;
-  anonymizace pomáhá, ale nestačí.
+Obranou na úrovni rozhodnutí je „velká revize“ s jasným výčtem: autorka má odpovědět na poznámky
+posudku 3 a na poznámku o vzorku z posudku 2, zatímco požadavek dalších citací se ponechá na její
+úvaze s ohledem na relevanci. Na úrovni procesu jsou obranou pojistky, které deformacím předcházejí
+systémově – dvojitě anonymní řízení tam, kde je možné, povinné prohlášení o střetu zájmů
+recenzentů, právo autora odpovědět, zveřejňování posudků a třetí recenzent při extrémně rozdílných
+posudcích; tyto pojistky popisuje [publikační etika](@/kompendium/research-methodology/publication-ethics-EA.md).
+Je ovšem třeba nepřeceňovat anonymizaci, protože v malých oborech autory často poznáme podle tématu
+a dat. Zotavení poškozené autorky spočívá v tom, že dostane použitelnou zpětnou vazbu oddělenou od
+zkreslení a že její práce není odmítnuta kvůli tomu, že zpochybňuje mocensky chráněný výklad; tím
+se brání nejen jednotlivci, ale i samotné sebeopravné funkci vědy, jejíž ochranou proti falešným
+nálezům je právě nezávislé posouzení a opakování (Ioannidis, 2005).
 
 ## Debriefing pro facilitátora
 
-Akademičtí účastníci mají s recenzemi často bolestivou zkušenost. Dejte prostor krátkým
-sdílením, ale vraťte debatu k textu posudků a k návrhům procesu. Zdůrazněte, že účastníci
-jsou zároveň autoři i recenzenti: pojistky chrání je samotné v obou rolích.
-
-Na závěr se zeptejte: který z markerů by našli ve vlastních posudcích? Kdo odpoví upřímně,
+Akademičtí účastníci mají s recenzemi často bolestivou zkušenost, takže facilitátor dá prostor
+krátkým sdílením, ale vrátí debatu k textu posudků a k návrhům procesu a zdůrazní, že účastníci
+jsou zároveň autoři i recenzenti, takže pojistky chrání je samotné v obou rolích. Je třeba hlídat
+personalizaci – debata o tom, zda je recenzent 2 „zlý člověk“, odvádí od procesu k charakteru, což
+je přesně to, co mertonovské pojetí vědy jako systému norem odmítá (Merton, 1973). Na závěr se
+facilitátor zeptá, který z markerů by účastníci našli ve vlastních posudcích; kdo odpoví upřímně,
 udělal hlavní krok scénáře.
 
-## Rozšiřující úkoly
+## Meze a otevřené otázky
 
-1. **Audit vlastních posudků.** Projděte tři posudky, které jste napsali, a označte tvrzení
-   o osobě, o metodě a o novosti.
-2. **Návrh politiky.** Napište pro redakci nebo grantový panel jednostránkovou politiku
-   střetu zájmů recenzentů.
-3. **Případová studie.** Přečtěte si [případ vědecké disinflace](@/kompendium/case-studies/05-vedecka-disinflation.md)
-   a určete, kde v něm selhal recenzní proces.
+Scénář trénuje čtení jednotlivého řízení a nenahrazuje systémovou reformu publikování ani
+posouzení konkrétního sporu redakcí. Otevřenou otázkou zůstává hranice mezi legitimním vysokým
+nárokem na novost a reputační asymetrií, protože obojí vede k přísnějšímu posouzení neznámých
+autorů a liší se až v odůvodnění. Diskutovat je rovněž třeba meze otevřeného recenzování, které
+sice omezuje anonymní zneužití, zároveň však může potlačit upřímnou kritiku ze strachu z odvety –
+napětí, jež nemá jednoznačné řešení a vyžaduje volbu podle oboru a kontextu. Žádná procesní pojistka
+přitom nenahradí institucionální závazek k nestrannosti a organizované skepsi, bez něhož se i
+formálně bezvadné řízení zvrhne (Merton, 1973).
+
+## Literatura
+
+- Ioannidis, J. P. A. (2005). Why Most Published Research Findings Are False. *PLoS Medicine*, 2(8).
+- Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
+- Mahoney, M. J. (1977). Publication Prejudices: An Experimental Study of Confirmatory Bias in the Peer Review System. *Cognitive Therapy and Research*, 1(2).
+- Merton, R. K. (1973). *The Sociology of Science: Theoretical and Empirical Investigations*. University of Chicago Press.
+- Open Science Collaboration (2015). Estimating the Reproducibility of Psychological Science. *Science*, 349(6251).
+- Peters, D. P., & Ceci, S. J. (1982). Peer-Review Practices of Psychological Journals: The Fate of Published Articles, Submitted Again. *Behavioral and Brain Sciences*, 5(2).
 
 ## Související
 

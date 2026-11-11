@@ -20,120 +20,47 @@ type = "educational-scenario"
 > **Doporučená délka**: 120–150 minut
 > **Pro koho**: kliničtí psychologové, psychiatři, neuropsychologové, psychoterapeuti; navazuje na scénáře 9, 19 a 21
 
-[Metakognice](@/glossary/metakognice.md) je schopnost sledovat vlastní poznávání: vědět, že
-něco vím, odhadnout, jak spolehlivě, a poznat, kdy hádám. Ve scénáři
-[Meta-evaluace](@/kompendium/educational-scenarios/9-meta-evaluation.md) se trénovala jako
-dovednost. Zde je narušená. **Metakognitivní kolaps** znamená, že člověk ztratil vnitřní
-měřítko jistoty: neví, zda si něco pamatuje, nebo to vymýšlí; zda rozumí, nebo jen opakuje;
-zda má pravdu, nebo se mýlí. Kniha jej popisuje jako pozdní důsledek dlouhodobého zpochybňování
-reality (viz [vzorec gaslightingu](@/kompendium/educational-scenarios/19-gaslighting-pattern.md))
-nebo kombinace ultramárních vzorců. Pro kliniky je obtížný proto, že sebe-výpověď – hlavní
-nástroj vyšetření – je zasažena právě tím, co se vyšetřuje.
+[Metakognice](@/glossary/metakognice.md) je schopnost sledovat vlastní poznávání – vědět, že něco vím, odhadnout, jak spolehlivě, a poznat, kdy hádám – a Flavell (1979) ji zavedl jako monitorování a řízení vlastních kognitivních procesů. Ve scénáři [Meta-evaluace](@/kompendium/educational-scenarios/9-meta-evaluation.md) se trénovala jako dovednost; zde je narušená. Metakognitivní kolaps znamená, že člověk ztratil vnitřní měřítko jistoty: neví, zda si něco pamatuje, nebo to vymýšlí, zda rozumí, nebo jen opakuje, zda má pravdu, nebo se mýlí – tedy přesně rozpad těch funkcí monitorování paměti, které popsali Nelson a Narens (1990) jako samostatnou úroveň nad vlastním poznáním. Kniha jej popisuje jako pozdní důsledek dlouhodobého zpochybňování reality (viz [vzorec gaslightingu](@/kompendium/educational-scenarios/19-gaslighting-pattern.md)) nebo kombinace ultramárních vzorců. Pro kliniky je obtížný proto, že sebe-výpověď, hlavní nástroj vyšetření, je zasažena právě tím, co se vyšetřuje.
 
 ## Učební cíle
 
-Účastník po cvičení:
-
-1. popíše fenomenologii metakognitivního kolapsu a odliší ji od poruch paměti, pozornosti
-   a nálady;
-2. sestaví diferenciální rozvahu (depresivní porucha, PTSD a komplexní PTSD, disociativní
-   poruchy, neurokognitivní porucha, psychotické spektrum);
-3. zvolí vyšetřovací nástroje a vysvětlí jejich meze – mimo jiné proč screening deprese
-   nestačí a jak interpretovat sebe-posuzovací škály, když je metakognice narušena;
-4. navrhne první kroky externí kalibrace, které obnovují důvěru ve vlastní úsudek po malých
-   ověřitelných krocích.
+Po cvičení účastník popíše fenomenologii metakognitivního kolapsu a odliší ji od poruch paměti, pozornosti a nálady, protože porucha monitorování je odlišitelná od poruchy samotného výkonu (Nelson a Narens, 1990). Sestaví diferenciální rozvahu zahrnující depresivní poruchu, posttraumatickou a komplexní posttraumatickou poruchu, disociativní poruchy, neurokognitivní poruchu a psychotické spektrum, přičemž u dlouhodobého vztahového traumatu je namístě zvážit komplexní obraz popsaný Hermanovou (Herman, 1992). Zvolí vyšetřovací nástroje a vysvětlí jejich meze, mimo jiné proč screening deprese nestačí a jak interpretovat sebe-posuzovací škály, je-li narušena právě metakognice; dotazník PHQ-9 je validovaný nástroj pro depresivní symptomatiku, nikoli pro monitorovací funkci (Kroenke, Spitzer a Williams, 2001). Nakonec navrhne první kroky externí kalibrace, které obnovují důvěru ve vlastní úsudek po malých ověřitelných krocích, v duchu metakognitivní terapie zaměřené na vztah k vlastnímu myšlení (Wells, 2009).
 
 ## Scénář
 
-Ambulantní vyšetření, smyšlená a anonymizovaná kazuistika. Klientka (45), účetní, přichází po
-odchodu z dvanáctiletého manželství, které popisuje jako „život, kde se všechno, co jsem
-řekla, ukázalo jako špatně“. Odešla před rokem s pomocí sestry. Uvádí:
-
-- *„Když mi kolegyně řekne číslo, nevím, jestli si ho pamatuju, nebo jestli si to jen myslím.
-  Kontroluju všechno třikrát a pak stejně nevím.“*
-- *„Když mluvím, mám pocit, že to, co říkám, může být úplně mimo. Tak radši mlčím.“*
-- *„Nevím, jestli to, co vám teď vyprávím, se opravdu stalo. Bývalý manžel by řekl, že ne.“*
-
-Při vyšetření: orientovaná, pozornost a pracovní paměť v testech v normě, výkon v testech
-paměti průměrný. Výrazný rozdíl je mezi výkonem a sebehodnocením: klientka po každé úloze
-odhaduje, že selhala, i když odpověděla správně. Nálada snížená, spánek narušený, bez
-psychotických příznaků.
-
-Účastníci ve trojicích (1) formulují pracovní hypotézu a diferenciální rozvahu, (2) navrhnou
-vyšetřovací baterii, (3) navrhnou první čtyři týdny intervence.
+Jde o smyšlenou, anonymizovanou ambulantní kazuistiku. Klientka (45), účetní, přichází po odchodu z dvanáctiletého manželství, které popisuje jako „život, kde se všechno, co jsem řekla, ukázalo jako špatně“; odešla před rokem s pomocí sestry. Uvádí, že když jí kolegyně řekne číslo, neví, zda si ho pamatuje, nebo si to jen myslí, a kontroluje vše třikrát, a přesto si není jistá; že když mluví, má pocit, že to, co říká, může být úplně mimo, a tak raději mlčí; a že neví, zda se to, co právě vypráví, opravdu stalo, protože „bývalý manžel by řekl, že ne“. Při vyšetření je orientovaná, pozornost a pracovní paměť v testech v normě a výkon v testech paměti průměrný, přičemž výrazný rozdíl je mezi výkonem a sebehodnocením: po každé úloze odhaduje, že selhala, i když odpověděla správně – tedy přesně disociace mezi výkonem a jeho monitorováním (Nelson a Narens, 1990). Nálada je snížená, spánek narušený, bez psychotických příznaků. Účastníci ve trojicích formulují pracovní hypotézu a diferenciální rozvahu, navrhnou vyšetřovací baterii a naplánují první čtyři týdny intervence, přičemž vycházejí z toho, že narušena je monitorovací funkce, nikoli výkon (Wells, 2009).
 
 ## Signály, kterých si všimnout
 
-- **[Disociace](@/glossary/disociace.md) výkonu a jistoty** – správné odpovědi s jistotou blízkou nule; jádro obrazu.
-  Viz [epistemická kalibrace](@/kompendium/detection-signatures/epistemicka-kalibrace.md).
-- **Kontrolní chování bez úlevy** – opakované ověřování nepřináší jistotu.
-- **Zevnitř převzatý hlas** – „bývalý manžel by řekl…“; vnitřní měřítko nahradil cizí.
-- **Mlčení jako ochrana** – stažení z komunikace ze strachu, že jakýkoli výrok bude mylný.
-- **Pochybnost o vlastní výpovědi** – i v bezpečném prostředí; viz
-  [skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md).
-- **Kognitivní mlha** při subjektivně náročných situacích, nikoli plošně; srovnej
-  [kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md).
+Prvním signálem je [disociace](@/glossary/disociace.md) výkonu a jistoty, kdy správné odpovědi provází jistota blízká nule; tento rozpor mezi úrovní poznání a jeho monitorováním je jádrem obrazu (Nelson a Narens, 1990), viz [epistemická kalibrace](@/kompendium/detection-signatures/epistemicka-kalibrace.md). Druhým je kontrolní chování bez úlevy, kdy opakované ověřování nepřináší jistotu, což odpovídá dysfunkčnímu vztahu k vlastnímu myšlení v modelu metakognitivní terapie (Wells, 2009). Třetím je zevnitř převzatý hlas, kdy vnitřní měřítko nahradil cizí („bývalý manžel by řekl…“), tedy internalizace vztahové kontroly typická pro dlouhodobé trauma (Herman, 1992). Čtvrtým je mlčení jako ochrana, stažení z komunikace ze strachu, že jakýkoli výrok bude mylný. Pátým je pochybnost o vlastní výpovědi i v bezpečném prostředí; viz [skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md). Šestým je kognitivní mlha v subjektivně náročných situacích, nikoli plošně; srovnej [kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md).
 
 ## Diskusní otázky
 
-1. Proč je rozdíl mezi výkonem a sebehodnocením diagnosticky klíčový?
-2. Co v obrazu mluví pro a proti depresivní poruše, komplexnímu PTSD a neurokognitivní poruše?
-3. Jakou hodnotu má screening deprese (např. PHQ-9) a co nezachytí?
-4. Jak interpretovat sebe-posuzovací dotazník metakognice u klientky, která nevěří vlastním
-   odpovědím?
-5. Proč je riskantní začít terapii tím, že klientce „vrátíme“ její verzi minulosti?
-6. Jak by mohla vypadat externí kalibrace v prvních týdnech?
+Diskuse se zaměří na to, proč je rozdíl mezi výkonem a sebehodnocením diagnosticky klíčový, co v obrazu mluví pro a proti depresivní poruše, komplexnímu PTSD a neurokognitivní poruše a jakou hodnotu má screening deprese a co nezachytí; PHQ-9 měří depresivní symptomatiku, nikoli metakognitivní monitorování (Kroenke, Spitzer a Williams, 2001). Dále se zvažuje, jak interpretovat sebe-posuzovací dotazník metakognice u klientky, která nevěří vlastním odpovědím, proč je riskantní začít terapii „vrácením“ její verze minulosti a jak by mohla vypadat externí kalibrace v prvních týdnech, přičemž cílem je obnovit vlastní měřítko, nikoli nahradit jedno vnější jiným (Wells, 2009).
 
 ## Modelové odpovědi
 
-- **K otázce 1.** Ukazuje, že problém neleží v paměti nebo pozornosti (výkon je v normě),
-  ale v monitorovací funkci. To odlišuje obraz od neurokognitivní poruchy a směruje intervenci
-  k metakognici, ne k tréninku paměti.
-- **K otázce 2.** Pro depresi mluví snížená nálada a sebepodceňování; ta však obvykle zasahuje
-  hodnocení obecně, nikoli specificky jistotu vlastního poznání. Pro [komplexní PTSD](@/glossary/c-ptsd.md)
-  mluví dlouhodobý vztahový kontext a obraz sebe; diagnózy se mohou překrývat. Neurokognitivní
-  poruchu výkon v testech spíše nepodporuje, ale u přetrvávání obtíží je namístě kontrola.
-  Viz [6.2 Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
-- **K otázce 3.** PHQ-9 zachytí depresivní symptomatiku a je užitečný pro sledování nálady
-  a rizika, ale metakognitivní kolaps neměří. Použije se jako součást baterie, ne jako
-  hlavní nástroj.
-- **K otázce 4.** Jako údaj o prožívání, ne jako přesné měření: nízké skóre jistoty je samo
-  nálezem. Doplnit o behaviorální měření (odhad jistoty po úlohách) a kolaterální informace;
-  srovnej [metakognitivní funkční assessment](@/kompendium/techniques/ea-6-1-9-metakognitivni-functional-assessment.md)
-  a [self-report instrumenty](@/kompendium/06-klinicke-aplikace/self-report-instrumenty.md).
-- **K otázce 5.** Terapeut by se stal novou autoritou nad realitou – strukturálně stejnou
-  pozicí, jakou zastával bývalý manžel, jen s opačným obsahem. Cílem je obnovit klientčino
-  vlastní měřítko, ne nahradit jedno vnější jiným.
-- **K otázce 6.** Malé, ověřitelné úsudky s odhadem jistoty (co bude zítra v kalendáři, co
-  řekne kolegyně, kolik stojí nákup), zapsané a druhý den zkontrolované s ní, ne za ni. Postupně
-  od neutrálních k osobním tématům. Viz [metakognitivní rehabilitace](@/kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md).
+Rozdíl mezi výkonem a sebehodnocením je klíčový, protože ukazuje, že problém neleží v paměti nebo pozornosti, které jsou v normě, ale v monitorovací funkci, což odlišuje obraz od neurokognitivní poruchy a směruje intervenci k metakognici, nikoli k tréninku paměti (Nelson a Narens, 1990). Pro depresi mluví snížená nálada a sebepodceňování, to však obvykle zasahuje hodnocení obecně, nikoli specificky jistotu vlastního poznání, zatímco pro [komplexní PTSD](@/glossary/c-ptsd.md) svědčí dlouhodobý vztahový kontext a narušený obraz sebe, přičemž diagnózy se mohou překrývat (Herman, 1992); neurokognitivní poruchu výkon v testech spíše nepodporuje, ale u přetrvávání obtíží je namístě kontrola, viz [6.2 Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md). PHQ-9 zachytí depresivní symptomatiku a je užitečný pro sledování nálady a rizika, ale metakognitivní kolaps neměří, a použije se tedy jako součást baterie, nikoli jako hlavní nástroj (Kroenke, Spitzer a Williams, 2001). Sebe-posuzovací dotazník metakognice je třeba číst jako údaj o prožívání, ne jako přesné měření, protože nízké skóre jistoty je samo nálezem, a doplnit jej o behaviorální měření (odhad jistoty po úlohách) a kolaterální informace; srovnej [metakognitivní funkční assessment](@/kompendium/techniques/ea-6-1-9-metakognitivni-functional-assessment.md) a [self-report instrumenty](@/kompendium/06-klinicke-aplikace/self-report-instrumenty.md). Začít terapii „vrácením“ verze minulosti je riskantní proto, že by se terapeut stal novou autoritou nad realitou, strukturálně stejnou pozicí, jakou zastával bývalý manžel, jen s opačným obsahem (Herman, 1992). Externí kalibrace v prvních týdnech spočívá v malých, ověřitelných úsudcích s odhadem jistoty (co bude zítra v kalendáři, co řekne kolegyně, kolik stojí nákup), zapsaných a druhý den zkontrolovaných s klientkou, nikoli za ni, postupně od neutrálních k osobním tématům (Wells, 2009), viz [metakognitivní rehabilitace](@/kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md).
 
 ## Časté chyby
 
-- **Ujišťování.** „Pamatujete si to dobře“ – nepomáhá, protože klientka neví, proč by měla
-  věřit terapeutovi víc než sobě.
-- **Jen screening nálady.** Přehlédnutí specifické metakognitivní poruchy.
-- **Rychlá práce s traumatem.** Expozice traumatickým vzpomínkám dřív, než klientka umí
-  posoudit vlastní jistotu, může zhoršit zmatek.
-- **Paměťový trénink.** Cílí na funkci, která není narušená.
+Nejčastější chybou je ujišťování („pamatujete si to dobře“), které nepomáhá, protože klientka neví, proč by měla věřit terapeutovi víc než sobě, a jen přesouvá autoritu nad realitou jinam (Herman, 1992). Druhou je jen screening nálady, při němž se přehlédne specifická metakognitivní porucha, kterou PHQ-9 nezachytí (Kroenke, Spitzer a Williams, 2001). Třetí je rychlá práce s traumatem, tedy expozice traumatickým vzpomínkám dřív, než klientka umí posoudit vlastní jistotu, což může zhoršit zmatek (Herman, 1992). Čtvrtou je paměťový trénink, který cílí na funkci, jež není narušená, místo na monitorování (Nelson a Narens, 1990).
 
 ## Debriefing pro facilitátora
 
-Nechte trojice porovnat navržené baterie a zaměřte se na otázku 5: kolik návrhů obsahovalo
-krok, v němž terapeut „potvrzuje“ realitu? Jde o nejčastější a nejméně viditelnou chybu.
-Připomeňte, že metakognitivní kolaps se obnovuje pomalu a že první úspěchy jsou drobné.
-
-U kliniků se může objevit frustrace z pomalého postupu. Zmiňte význam supervize a odkažte na
-[středně-dobou metakognitivní rehabilitaci](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md)
-jako realistický časový rámec.
+Facilitátor nechá trojice porovnat navržené baterie a zaměří se na otázku, kolik návrhů obsahovalo krok, v němž terapeut „potvrzuje“ realitu, protože jde o nejčastější a nejméně viditelnou chybu, která reprodukuje strukturu vnější autority nad poznáním (Herman, 1992). Připomene, že metakognitivní kolaps se obnovuje pomalu a že první úspěchy jsou drobné, v souladu s postupností metakognitivní práce (Wells, 2009). U kliniků se může objevit frustrace z pomalého postupu, a proto je vhodné zmínit význam supervize a odkázat na [středně-dobou metakognitivní rehabilitaci](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md) jako realistický časový rámec.
 
 ## Rozšiřující úkoly
 
-1. **Kalibrační deník pro klienty.** Upravte šablonu deníku ze scénáře 9 pro klienty
-   s narušenou metakognicí (méně záznamů, neutrální témata, vizuální zpětná vazba).
-2. **Nástroje.** Prostudujte [Metacognitions Questionnaire](@/kompendium/techniques/ea-8-1-9-metakognitivni-questionnaire.md)
-   a určete, co měří a co ne.
-3. **Diagnostické indikátory.** Porovnejte případ s [diagnostickými indikátory EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md).
+Jako přenos lze upravit šablonu kalibračního deníku ze scénáře 9 pro klienty s narušenou metakognicí (méně záznamů, neutrální témata, vizuální zpětná vazba), čímž se nástroj přizpůsobí oslabené monitorovací funkci (Nelson a Narens, 1990). Dalším úkolem je prostudovat [Metacognitions Questionnaire](@/kompendium/techniques/ea-8-1-9-metakognitivni-questionnaire.md) a určit, co měří a co ne, tedy posoudit jeho vztah k modelu dysfunkčních metakognitivních přesvědčení (Wells, 2009). Posledním je porovnat případ s [diagnostickými indikátory EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a zvážit, které z nich obraz naplňuje.
+
+## Literatura
+
+- Herman, J. L. (1992). *Trauma and Recovery: The Aftermath of Violence*. New York: Basic Books.
+- Flavell, J. H. (1979). Metacognition and Cognitive Monitoring. *American Psychologist*, 34(10), 906–911.
+- Kroenke, K., Spitzer, R. L., & Williams, J. B. W. (2001). The PHQ-9: Validity of a Brief Depression Severity Measure. *Journal of General Internal Medicine*, 16(9), 606–613.
+- Nelson, T. O., & Narens, L. (1990). Metamemory: A Theoretical Framework and New Findings. *Psychology of Learning and Motivation*, 26, 125–173.
+- Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. New York: Guilford Press.
 
 ## Související
 

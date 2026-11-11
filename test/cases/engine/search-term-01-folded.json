@@ -15,7 +15,7 @@
       },
       {
         "code": null,
-        "in": 1,
+        "in": 2,
         "kind": "Kapitola",
         "path": "kompendium/02-uvod/v-kostce.md",
         "tier": 4,
@@ -45,7 +45,7 @@
       },
       {
         "code": null,
-        "in": 4,
+        "in": 5,
         "kind": "Kapitola",
         "path": "kompendium/07-populacni/propaganda.md",
         "tier": 5,

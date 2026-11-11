@@ -20,115 +20,121 @@ type = "educational-scenario"
 > **Doporučená délka**: 120 minut (práce v týmech s časovou osou)
 > **Pro koho**: analytici médií, tiskoví mluvčí, právníci v oblasti ochrany osobnosti, krizoví komunikátoři, novináři
 
-Když o jednom člověku nebo instituci během dvou dnů napíše desítka médií téměř stejně, může
-jít o tři různé věci: o skutečně významnou zprávu, kterou všichni převzali od agentury;
-o „smečkovou“ novinařinu, kdy redakce jen přebírají rámec nejrychlejšího; nebo o
-[koordinovanou kampaň](@/kompendium/techniques/ea-2-3-4-mob-coordination.md). Zvenčí
-vypadají všechny tři podobně. Scénář učí je odlišit podle **časové osy, původu a rámování** –
-a ukazuje, proč na rozlišení záleží pro obranu i pro poctivost analytika.
+Když o jednom člověku nebo instituci během dvou dnů napíše desítka médií téměř stejně, může jít
+o tři různé věci: o skutečně významnou zprávu převzatou od agentury, o „smečkovou“ novinařinu,
+kdy redakce jen přebírají rámec nejrychlejšího, nebo o
+[koordinovanou kampaň](@/kompendium/techniques/ea-2-3-4-mob-coordination.md). Zvenčí vypadají
+všechny tři podobně, protože rozhodující není obsah zpráv, nýbrž shodný **rámec** – soubor výběrů,
+který určuje, co je na události podstatné, kdo je viník a jaké hodnocení se nabízí jako
+samozřejmé (Entman, 1993). Scénář učí tyto tři možnosti odlišit podle časové osy, původu a
+rámování a ukazuje, proč na rozlišení záleží pro obranu i pro poctivost analytika.
 
-## Učební cíle
+## Učební cíle a jejich zdůvodnění
 
-Účastník po cvičení:
-
-1. sestaví časovou osu publikací a příspěvků a identifikuje první výskyt rámce;
-2. rozliší převzetí faktů od převzetí rámce (stejné formulace, stejné vynechání, stejné citáty
-   vytržené ze stejného místa);
-3. pozná markery koordinace v síťové vrstvě (synchronní nástup účtů, shodné hashtagy, asymetrie
-   amplifikace);
-4. formuluje závěr s přiznanou mírou jistoty a navrhne obrannou reakci úměrnou zjištění.
+Cvičení směřuje k tomu, aby účastník sestavil časovou osu publikací a příspěvků a identifikoval
+první výskyt rámce, aby rozlišil převzetí faktů od převzetí rámce (stejné formulace, stejná
+vynechání, stejné citáty vytržené ze stejného místa) a aby poznal markery koordinace v síťové
+vrstvě. Důraz na rámec místo na jednotlivá fakta vychází z poznatku, že účinnou silou mediální
+vlny není pravdivost jednotlivých tvrzení, ale opakování téhož výběru napříč zdroji, které
+vytváří dojem potvrzené skutečnosti; strukturální homogenitu zpravodajství vysvětluje klasická
+analýza mediální ekonomiky a filtrů, jimiž zprávy procházejí (Herman & Chomsky, 1988). Posledním
+cílem je formulovat závěr s přiznanou mírou jistoty a navrhnout obrannou reakci úměrnou zjištění,
+protože nadhodnocení i podhodnocení koordinace má vlastní rizika.
 
 ## Scénář
 
-Fiktivní případ. Ředitelka regionální nemocnice vystoupila na odborné konferenci s
-dvacetiminutovou přednáškou o přetížení urgentních příjmů. Během 48 hodin:
+Fiktivní případ: ředitelka regionální nemocnice vystoupila na odborné konferenci s dvacetiminutovou
+přednáškou o přetížení urgentních příjmů. V nulté hodině se na anonymním účtu objeví patnáctivteřinový
+výstřih, v němž říká „někteří pacienti na urgentní příjem nepatří“, přičemž chybí kontext, že věta
+pokračovala slovy „…protože jim chybí praktický lékař, a to je selhání systému, ne jejich“. Během
+následujících dvou až šesti hodin sdílí výstřih několik set účtů, mnohé založené v posledních
+měsících, se shodným doprovodným textem a hashtagem. V osmé hodině publikuje první zpravodajský web
+článek „Ředitelka: pacienti na urgent nepatří“ a v hodinách deset až třicet přidává dalších
+jedenáct médií; osm z nich používá stejný titulek nebo jeho variantu a sedm cituje tutéž
+„rozhořčenou pacientku“, jejíž účet vznikl před týdnem, zatímco tři média uvádějí plné znění věty
+i kontext. Ve třicáté šesté hodině se objevují výzvy k odvolání, petice a výhrůžky. Týmy dostanou
+soubor fiktivních článků, snímků příspěvků a metadat účtů a jejich úkolem je sestavit časovou osu,
+určit původ rámce a napsat analytickou poznámku pro správní radu nemocnice. Pořadí vrstev v případu
+– sociální síť nejprve, zpravodajství až poté – odráží doloženou skutečnost, že pobuřující výstřižky
+se v síti šíří rychleji a dál než jejich pozdější uvedení na pravou míru (Vosoughi, Roy & Aral, 2018).
 
-- **Hodina 0:** na anonymním účtu na sociální síti se objeví 15sekundový výstřih, v němž
-  ředitelka říká „někteří pacienti na urgentní příjem nepatří“. Kontext (věta pokračuje
-  „…protože jim chybí praktický lékař, a to je selhání systému, ne jejich“) chybí.
-- **Hodina 2–6:** výstřih sdílí několik set účtů, mnohé založené v posledních měsících, se
-  shodným doprovodným textem a hashtagem.
-- **Hodina 8:** první zpravodajský web publikuje článek „Ředitelka: pacienti na urgent nepatří“.
-- **Hodina 10–30:** dalších jedenáct médií publikuje články. Osm z nich používá stejný titulek
-  nebo jeho variantu, sedm cituje tutéž „rozhořčenou pacientku“, jejíž účet vznikl před týdnem.
-  Tři média uvádějí plné znění věty a kontext.
-- **Hodina 36:** objevují se výzvy k odvolání a petice; ředitelka dostává výhrůžky.
+## Jak se vzorec pozná
 
-Týmy dostanou soubor (fiktivních) článků, snímků příspěvků a metadat účtů. Úkolem je sestavit
-časovou osu, určit původ rámce a napsat analytickou poznámku pro správní radu nemocnice.
+Prvním vodítkem je výstřih jako výchozí bod: zpráva nevzniká z přednášky, ale z jejího zkrácení
+([EA-2.3.1 Clip Takeout](@/kompendium/techniques/ea-2-3-1-clip-takeout.md),
+[EA-2.3.3 Quote Mining](@/kompendium/techniques/ea-2-3-3-quote-mining.md)), s čímž souvisí ztráta
+kontextu, kdy je věta vytržena z odborného prostředí a přenesena do obecného
+([context collapse](@/kompendium/techniques/ea-2-3-2-context-collapse.md)). Druhým je uspořádání
+vrstev, v němž sdílení začíná dříve než zpravodajství a od účtů se shodnými znaky
+([platformní koordinace](@/kompendium/detection-signatures/21-network-platform-coordination.md));
+právě sociální vrstva zpravidla rozhoduje o dosahu, neboť nepravdivé a pobuřující zprávy se šíří
+rychleji a dál než jejich opravy (Vosoughi, Roy & Aral, 2018). Třetím markerem je shodný refrén –
+identické titulky a týž „svědek“ v jinak nezávislých redakcích – a čtvrtým asymetrie amplifikace,
+tedy malý počet původních zdrojů proti velkému dosahu
+([signatura](@/kompendium/detection-signatures/19-network-amplification-asymmetry.md)). Doplňuje je
+opravná vrstva (tři média s kontextem a jejich poměrný dosah) a eskalace k osobě, tedy přechod od
+kritiky výroku k výhrůžkám. Tento přechod od sporu o věc k trestání člověka je charakteristický
+pro moderní podobu veřejného zahanbení, které se na sítích obnovilo s nebývalou rychlostí a silou
+(Ronson, 2015).
 
-## Signály, kterých si všimnout
+## Odlišení koordinace od organické vlny
 
-- **Výstřih jako výchozí bod** – zpráva nevzniká z přednášky, ale z jejího zkrácení; viz
-  [EA-2.3.1 Clip Takeout](@/kompendium/techniques/ea-2-3-1-clip-takeout.md) a
-  [EA-2.3.3 Quote Mining](@/kompendium/techniques/ea-2-3-3-quote-mining.md).
-- **Ztráta kontextu** – věta vytržená z odborného prostředí a přenesená do obecného;
-  [context collapse](@/kompendium/techniques/ea-2-3-2-context-collapse.md).
-- **Sociální vrstva před mediální** – sdílení začíná dřív než zpravodajství a od účtů se
-  shodnými znaky; srovnej [platformní koordinace](@/kompendium/detection-signatures/21-network-platform-coordination.md).
-- **Shodný refrén** – identické titulky a týž „svědek“ v nezávislých redakcích.
-- **Asymetrie amplifikace** – malý počet původních zdrojů, velký dosah; viz
-  [signatura](@/kompendium/detection-signatures/19-network-amplification-asymmetry.md).
-- **Opravná vrstva** – tři média s kontextem; jejich dosah ve srovnání s ostatními.
-- **Eskalace k osobě** – přechod od kritiky výroku k výhrůžkám.
+Pro koordinaci svědčí synchronní nástup nových účtů se shodným textem a týž nedávno založený
+„svědek“ v několika redakcích; s běžnou dynamikou je naopak slučitelné přebírání titulků mezi
+redakcemi, které se děje i bez koordinace, když redakce opisují od nejrychlejšího. Analýza má obě
+vrstvy oddělit, protože síťová koordinace může být pravděpodobná, zatímco mediální smečka zůstává
+organická. Rozlišení je důležité i eticky: označit každou mediální vlnu za koordinovanou je stejně
+nepoctivé jako koordinaci přehlížet, a navíc to oslabuje důvěryhodnost obránce. Dobře vedená
+analýza proto zřetelně rozliší, co dokládají data, co je hypotéza a co nelze z veřejných zdrojů
+rozhodnout; takové třídění odpovídá rozlišení mis-, dis- a malinformace, které zavádí rámec
+informačního nepořádku (Wardle & Derakhshan, 2017). Spekulace o objednateli bez dat do analýzy
+nepatří.
 
-## Diskusní otázky
+## Obrana a zotavení
 
-1. Kde na časové ose vznikl rámec „ředitelka pohrdá pacienty“?
-2. Které znaky ukazují na koordinaci a které jsou slučitelné s běžným přebíráním zpráv?
-3. Jak byste vysvětlili, že osm redakcí použilo téměř stejný titulek?
-4. Co by vaši analýzu vyvrátilo?
-5. Jakou reakci doporučíte nemocnici a co by naopak vlnu posílilo?
-6. Jaká je odpovědnost redakcí, které převzaly výstřih bez ověření?
-
-## Modelové odpovědi
-
-- **K otázce 1.** Na anonymním účtu v hodině 0, nikoli v přednášce a ani v prvním článku.
-  To je klíčové zjištění: mediální vlna převzala rámec ze sociální vrstvy.
-- **K otázce 2.** Pro koordinaci svědčí synchronní nástup nových účtů se shodným textem a
-  týž nedávno založený „svědek“ v několika redakcích. S běžnou dynamikou je slučitelné
-  přebírání titulků mezi redakcemi – to se děje i bez koordinace, když redakce opisují od
-  nejrychlejšího. Analýza má obě vrstvy oddělit: síťová koordinace je pravděpodobná, mediální
-  smečka může být organická.
-- **K otázce 3.** Nejčastěji převzetím od prvního článku; méně často sdíleným podkladem.
-  Bez dalších dat nelze rozhodnout – a poctivá poznámka to uvede.
-- **K otázce 4.** Pokud by původní účet patřil skutečnému účastníkovi konference bez vazeb
-  na ostatní účty a nástup sdílení odpovídal běžné křivce, zůstalo by vysvětlení „virální
-  nepochopení“ bez koordinace.
-- **K otázce 5.** Zveřejnit plný záznam přednášky s časovou značkou, krátké věcné vyjádření,
-  neútočit na média ani na sdílející, zajistit bezpečnost ředitelky a dokumentovat výhrůžky.
-  Vlnu posiluje emotivní reakce, plošné obvinění „kampaně“ bez doložení a mazání obsahu.
-  Viz [PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md).
-- **K otázce 6.** Ověřit kontext u primárního zdroje, když je dostupný; publikovat opravu se
-  stejnou viditelností jako původní článek.
-
-## Časté chyby
-
-- **Kampaň všude.** Označit každou mediální vlnu za koordinovanou je stejně nepoctivé jako
-  koordinaci přehlížet. Navíc oslabuje důvěryhodnost obránce.
-- **Analýza jen médií.** Bez síťové vrstvy chybí místo vzniku rámce.
-- **Zaměření na obsah sporu.** Debata o tom, zda ředitelka měla pravdu, je jiná otázka než
-  to, jak se rámec šířil.
-- **Přehlédnutí bezpečnosti.** Výhrůžky vyžadují okamžitou reakci bez ohledu na výsledek
-  analýzy.
+Doporučená obrana nemocnice spočívá v tom, že zveřejní plný záznam přednášky s časovou značkou,
+vydá krátké věcné vyjádření, neútočí na média ani na sdílející, zajistí bezpečnost ředitelky a
+dokumentuje výhrůžky; vlnu naopak posiluje emotivní reakce, plošné obvinění „kampaně“ bez doložení
+a mazání obsahu ([PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md)).
+Klíčové je, že obrana míří na rámec, nikoli na jednotlivé tvrzení, protože dokud platí rámec
+„ředitelka pohrdá pacienty“, prohrává i pravdivé upřesnění; změnit lze teprve výběr, který rámec
+tvoří (Entman, 1993). Zotavení poškozené osoby má kromě reputační také bezpečnostní a psychickou
+rovinu – výhrůžky vyžadují okamžitou reakci nezávisle na výsledku analýzy – a opírá se o vědomí,
+že intenzita odsouzení nevypovídá o míře provinění, nýbrž o dynamice davu, který hledá srozumitelného
+viníka (Ronson, 2015).
 
 ## Debriefing pro facilitátora
 
-Porovnejte časové osy týmů a nechte je obhájit, kde určily vznik rámce. Ocenitelné je
-rozlišení mezi síťovou koordinací a mediální smečkou a poctivé „nevíme“ tam, kde data nestačí.
-Vraťte se ke všem třem vysvětlením z úvodu a ukažte, že žádné nevylučuje ostatní.
+Facilitátor porovná časové osy týmů a nechá je obhájit, kde určily vznik rámce; ocenitelné je
+rozlišení mezi síťovou koordinací a mediální smečkou a poctivé „nevíme“ tam, kde data nestačí. Vrátí
+se ke třem vysvětlením z úvodu a ukáže, že žádné nevylučuje ostatní. Je třeba hlídat časté chyby:
+vidět kampaň všude, analyzovat jen média bez síťové vrstvy, stočit debatu k tomu, zda měla ředitelka
+pravdu (to je jiná otázka než šíření rámce), a přehlédnout bezpečnost. Mechanismus, který dává
+mediální vlně sílu, přitom působí i mimo koordinaci: jakmile se zdá, že „takhle to vidí všichni“,
+lidé s odlišným názorem mlčí, čímž se zdánlivá jednomyslnost sama posiluje (Noelle-Neumann, 1984).
+Účastníkům z médií facilitátor zdůrazní, že cílem je popsat strukturu využívanou i jinými aktéry a
+že tři redakce v případu fungovaly jako opravná vrstva.
 
-Účastníci z médií mohou scénář vnímat jako kritiku své profese. Zdůrazněte, že cílem je
-popsat strukturu, kterou využívají i jiní aktéři, a že tři redakce v případu fungovaly jako
-opravná vrstva.
+## Meze a otevřené otázky
 
-## Rozšiřující úkoly
+Scénář pracuje s dobře připraveným souborem dat; v praxi bývají metadata neúplná a hranice mezi
+koordinací a organickým přebíráním je často nerozhodnutelná z veřejných zdrojů. Otevřenou otázkou
+zůstává, jak silný důkaz koordinace opravňuje veřejné tvrzení o kampani, aniž by obránce sám sklouzl
+k delegitimizaci oponentů nálepkou „boti“. Diskutovat je rovněž třeba odpovědnost redakcí, které
+převzaly výstřih bez ověření kontextu u primárního zdroje, a otázku, zda a jak publikovat opravu se
+stejnou viditelností jako původní článek – tedy jak zacházet s tím typem škody, který rámec
+informačního nepořádku označuje za malinformaci, pravdivou informaci zasazenou do škodlivého
+kontextu (Wardle & Derakhshan, 2017).
 
-1. **Reálná časová osa.** Vyberte veřejně dostupnou mediální vlnu a sestavte časovou osu
-   prvních 48 hodin; zaznamenejte, co nelze z veřejných dat rozhodnout.
-2. **Krizový plán.** Navrhněte pro organizaci postup „prvních šesti hodin“ při mediální vlně
-   postavené na výstřihu.
-3. **Případová studie.** Porovnejte scénář s [případem mediálního mob útoku](@/kompendium/case-studies/04-medialni-mob-attack.md).
+## Literatura
+
+- Cohen, S. (1972). *Folk Devils and Moral Panics: The Creation of the Mods and Rockers*. MacGibbon & Kee.
+- Entman, R. M. (1993). Framing: Toward Clarification of a Fractured Paradigm. *Journal of Communication*, 43(4).
+- Herman, E. S., & Chomsky, N. (1988). *Manufacturing Consent: The Political Economy of the Mass Media*. Pantheon Books.
+- Noelle-Neumann, E. (1984). *The Spiral of Silence: Public Opinion – Our Social Skin*. University of Chicago Press.
+- Ronson, J. (2015). *So You've Been Publicly Shamed*. Riverhead Books.
+- Vosoughi, S., Roy, D., & Aral, S. (2018). The Spread of True and False News Online. *Science*, 359(6380).
+- Wardle, C., & Derakhshan, H. (2017). *Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making*. Council of Europe.
 
 ## Související
 

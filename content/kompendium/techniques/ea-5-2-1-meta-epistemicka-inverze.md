@@ -73,7 +73,7 @@ Co může vidět vnější pozorovatel:
 | Argumentační kvalita protistrany **zvyšuje** subjektovo odmítnutí, ne snižuje | Inverze kritéria síly důkazu |
 | Subjekt používá **akademický slovník** rigoru, ale aplikuje ho v převrácené struktuře | Pseudo-rigor následující po pseudo-meta-úrovni |
 | Subjekt **invalidizuje konsenzus** jako automaticky podezřelý | Inverze kritéria konsensuální podpory |
-| **Identitární obrana** převrácených standardů — argumenty proti standardům jsou prožívány jako útoky na osobu | Krok 5 konsolidace |
+| **Identitární obrana** převrácených standardů — argumenty proti standardům jsou prožívány jako útoky na osobu | konsolidace |
 | Subjekt **nedokáže formulovat falsifikační podmínky** vlastních přesvědčení (a interpretuje to jako sílu) | Strukturální iracionalita prezentovaná jako epistemická ctnost |
 
 ### Diferenciální detekce

@@ -22,99 +22,127 @@ date_modified = "2026-11-10"
 
 ## Vymezení
 
-Konfirmační bias je sklon **hledat, vykládat, pamatovat si a vážit** informace tak, aby potvrzovaly
-to, co si člověk už myslí. Peter C. Wason ukázal v úloze 2-4-6 (1960), že lidé testují hypotézy
-převážně příklady, které by je potvrdily, a jen výjimečně příklady, které by je mohly vyvrátit.
-Raymond S. Nickerson v přehledové studii *Confirmation Bias: A Ubiquitous Phenomenon in Many Guises*
-(1998) shrnul, že jev se projevuje v laickém uvažování, v odborném rozhodování i ve vědě.
+Konfirmační bias je sklon hledat, vykládat, pamatovat si a vážit informace tak, aby potvrzovaly
+dosavadní přesvědčení. Peter Wason (1960) ukázal na úloze 2–4–6, že lidé testují hypotézy
+přednostně příklady, které by je potvrdily, a jen zřídka příklady, které by je mohly vyvrátit;
+tento sklon k pozitivnímu testování později zpřesnili Klayman a Ha (1987), kteří upozornili, že
+nejde o prostou iracionalitu, nýbrž o strategii, jež v mnoha prostředích funguje dobře a selhává
+právě tam, kde je nutné hledat protipříklad. Raymond Nickerson (1998) ve své přehledové studii
+shrnul, že se jev projevuje stejně v laickém uvažování, v odborném rozhodování i ve vědě, a že se
+týká nejen vyhledávání dokladů, ale i jejich výkladu a zapamatování.
 
-Bias působí na několika místech poznávání:
-
-- **výběr informací** – čteme zdroje, které s námi souhlasí;
-- **výklad** – nejednoznačné údaje čteme ve prospěch svého názoru;
-- **paměť** – lépe si pamatujeme potvrzující případy;
-- **vážení** – rozporné doklady podrobujeme přísnější kontrole než souhlasné.
-
-Konfirmační bias není chyba hloupých lidí. Je to obecná vlastnost lidského poznávání, často
-užitečná (šetří kapacitu), ale zranitelná.
+Bias zasahuje poznávání na několika místech současně. Při výběru informací čteme zdroje, které
+s námi souhlasí; při výkladu čteme nejednoznačné údaje ve prospěch svého názoru; v paměti si lépe
+uchováváme potvrzující případy a na rozporné doklady klademe přísnější nároky než na souhlasné.
+Lord, Ross a Lepper (1979) tuto asymetrii doložili experimentálně: titíž lidé hodnotili stejně
+kvalitní studii jako přesvědčivou, pokud podpořila jejich postoj, a jako chybnou, pokud mu
+odporovala, takže konfrontace s obojstrannými doklady jejich názory spíše polarizovala, než
+sblížila. Konfirmační bias proto není chybou nevzdělaných lidí, nýbrž obecnou vlastností
+poznávání, kterou podle Kahnemana (2011) nelze prostým odhodláním „být objektivní“ vypnout.
 
 ## Proč je to základní kategorie
 
-Manipulace nemusí bias vytvářet – stačí ho **využít a uzavřít**. Kniha sleduje tři mechanismy:
+Manipulace nemusí bias vytvářet; stačí jej využít a uzavřít. Kniha sleduje tři mechanismy, jimiž
+se z běžné vlastnosti poznávání stává zbraň. Prvním je uzavření informačního prostředí: dostává-li
+člověk jen potvrzující informace, bias se nemá o co zarazit a prostředí samo odstraní podněty,
+které by jej mohly vyvážit. Festinger (1957) popsal, že lidé aktivně vyhledávají souhlasné zdroje
+a vyhýbají se rozporu, aby snížili kognitivní disonanci; strukturálně to odpovídá
+[Selektivní expozici](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md),
+[epistemické bublině](@/glossary/epistemic-bubble.md) a signatuře
+[Monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md).
 
-1. **Uzavření informačního prostředí** – když člověk dostává jen potvrzující informace, bias se
-   nemá o co zarazit. Strukturálně [Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md),
-   [epistemická bublina](@/glossary/epistemic-bubble.md) a signatura
-   [Monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md).
-2. **Předběžné zarámování** – dříve než člověk narazí na rozporný doklad, je mu vysvětleno, že
-   takové doklady existují a jsou „lživé“ nebo „zkouškou“. Rozpor pak paradoxně potvrzuje rámec;
-   srov. [Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md).
-3. **Osobní investice** – čím víc člověk do přesvědčení vložil (čas, peníze, vztahy, identitu),
-   tím silněji ho chrání. Postupné zvyšování závazku tak bias posiluje; kompoziční vzorec
-   „salámové techniky“ popisuje [kapitola 3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md).
+Druhým mechanismem je předběžné zarámování. Dřív než člověk narazí na rozporný doklad, je mu
+vysvětleno, že takové doklady existují a jsou „lživé“ nebo „zkouškou“; rozpor pak paradoxně rámec
+potvrzuje. Lifton (1961) tento vzorec popsal jako součást uzavřených systémů, které každou námitku
+předem interpretují jako útok, a kniha jej sleduje v technice
+[Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md).
+Třetím mechanismem je osobní investice: čím víc člověk do přesvědčení vložil, tím silněji je chrání.
+Festinger (1957) doložil na studii apokalyptické skupiny, že nenaplněné proroctví přívržence často
+neoslabí, nýbrž posílí, protože odvolání by znehodnotilo vše, co obětovali; kompoziční „salámový“
+vzorec postupného zvyšování závazku rozebírá [kapitola 3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md).
 
-Bias se nevyhýbá ani těm, kdo manipulaci zkoumají: vyšetřovatel, terapeut nebo analytik, který
-„ví“, že jde o manipulaci, hledá potvrzení a přehlíží rozpory. Proto je kategorie stejně důležitá
-pro obranu profesionálů.
+Bias se přitom nevyhýbá ani těm, kdo manipulaci zkoumají. Vyšetřovatel, terapeut nebo analytik,
+který „ví“, že jde o manipulaci, hledá potvrzení a přehlíží rozpory stejně jako kdokoli jiný;
+Nickerson (1998) zdůrazňuje, že odborná sebejistota riziko spíše zvyšuje. Kategorie je proto
+stejně důležitá pro obranu profesionálů jako pro porozumění zasaženým.
 
 ## Jak se projevuje
 
-U zasaženého člověka:
-
-- Všechny zdroje, které čte, vedou k témuž závěru; rozporné odmítá bez čtení.
-- Na protiargumenty odpovídá okamžitě a hotově, často slovníkem skupiny.
-- Pamatuje si naplněné předpovědi, nenaplněné zapomíná nebo vysvětluje.
-- Rozpor vyvolává podráždění nebo úzkost, ne zvědavost.
-
-U profesionála:
-
-- Hypotéza je stanovena v prvním rozhovoru a další informace ji jen „doplňují“.
-- Dokumentace obsahuje hlavně potvrzující údaje.
-- Alternativní vysvětlení nejsou zapsána.
+U zasaženého člověka vede bias k tomu, že všechny zdroje, které čte, směřují k témuž závěru,
+zatímco rozporné odmítá bez čtení. Na protiargumenty odpovídá okamžitě a hotově, často slovníkem
+skupiny, pamatuje si naplněné předpovědi a nenaplněné zapomíná nebo vysvětluje, a rozpor v něm
+vyvolává podráždění nebo úzkost místo zvědavosti. Tyto projevy odpovídají tomu, co Lord, Ross a
+Lepper (1979) nazvali zaujatou asimilací: nová informace se automaticky třídí podle toho, zda se
+hodí. U profesionála se bias projeví tím, že hypotéza je stanovena v prvním rozhovoru a další údaje
+ji jen „doplňují“, dokumentace obsahuje hlavně potvrzující záznamy a alternativní vysvětlení nejsou
+vůbec zapsána; Nickerson (1998) proto doporučuje zapisovat konkurenční hypotézy dřív, než se sběr
+dat rozběhne.
 
 ## Odlišení
 
-- **Oprávněná důvěra v dobře doložené přesvědčení**: kdo odmítá tvrzení, že Země je plochá,
-  netrpí biasem – má silné doklady. Bias se týká asymetrie zacházení s doklady, ne pevnosti názoru.
-- **Motivované uvažování** a **perseverance přesvědčení** jsou příbuzné jevy s jinými akcenty;
-  v praxi se prolínají.
-- **Klinické stavy**: blud je pevné přesvědčení nepřístupné korekci a nesdílené kulturním okolím;
-  konfirmační bias je obecný jev u zdravých lidí. Odlišení viz
-  [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
+Konfirmační bias je třeba odlišit od oprávněné důvěry v dobře doložené přesvědčení. Kdo odmítá
+tvrzení, že Země je plochá, netrpí biasem, nýbrž se opírá o silné doklady; bias se týká asymetrie
+v zacházení s doklady, ne pevnosti názoru (Nickerson, 1998). Od motivovaného uvažování a od
+perseverance přesvědčení se liší akcentem, nikoli ostrou hranicí, a v praxi se tyto jevy prolínají
+(Kahneman, 2011). Zásadní je rozdíl oproti klinickým stavům: blud je pevné přesvědčení nepřístupné
+korekci a nesdílené kulturním okolím, kdežto konfirmační bias je obecný jev u zdravých lidí; rozlišení
+podrobně rozebírá [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
 
 ## Klinický a praktický význam
 
-V terapii lidí po odchodu z uzavřeného prostředí se bias neotevírá konfrontací (ta ho posiluje),
-ale **rozšiřováním informačního pole** a cvičením v hledání vyvracejících příkladů na neutrálních
-tématech. V profesní praxi chrání postupy, které nutí zapsat alternativní hypotézy a aktivně hledat
-vyvracející údaje; v [due diligence](@/glossary/due-diligence.md) viz [Systemic confirmation bias prevention](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md)
-a [Confirmation bias v investigaci](@/kompendium/cross-domain/9-ea-dd-investigation-bias.md).
-Kritickou výhradu vůči samotné taxonomii knihy rozvádí [Kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md).
+V terapii lidí po odchodu z uzavřeného prostředí se bias neotevírá konfrontací, která jej posiluje,
+nýbrž rozšiřováním informačního pole a cvičením v hledání vyvracejících příkladů na neutrálních
+tématech; to odpovídá Wasonovu (1960) poznatku, že schopnost hledat protipříklad je dovednost,
+kterou lze trénovat. V profesní praxi chrání postupy, které nutí zapsat alternativní hypotézy a
+aktivně vyhledávat vyvracející údaje (Nickerson, 1998); v [due diligence](@/glossary/due-diligence.md)
+tuto logiku rozpracovává [Systemic confirmation bias prevention](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md)
+a [Confirmation bias v investigaci](@/kompendium/cross-domain/9-ea-dd-investigation-bias.md). Kritickou
+výhradu vůči samotné taxonomii knihy, totiž že i detekce EA může podlehnout vlastnímu biasu, rozvádí
+[Kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md).
 
 ## Příklad (anonymizovaný kompozit)
 
 Investorka se přidá do online komunity kolem jednoho finančního produktu. Moderátoři zveřejňují
-každý den „důkazy“ o růstu a předem varují, že kritické články „platí konkurence“. Když produkt
-ztrácí, komunita to vykládá jako „otřesení slabých rukou“. Investorka čte jen komunitní kanál
-a kritické analýzy přeskakuje. Bias zde nebyl vytvořen – byl uzavřen: prostředí odstranilo všechny
-podněty, které by ho mohly vyvážit. Obrat přichází, když si na radu přítele zapíše, jaký vývoj by
-ji přesvědčil o omylu, a zjistí, že nastal už před měsíci.
+denně „důkazy“ o růstu a předem varují, že kritické články „platí konkurence“; když produkt ztrácí,
+komunita to vykládá jako „otřesení slabých rukou“. Investorka čte jen komunitní kanál a kritické
+analýzy přeskakuje. Bias zde nebyl vytvořen, nýbrž uzavřen: prostředí odstranilo všechny podněty,
+které by jej mohly vyvážit, přesně v duchu Festingerova (1957) popisu vyhýbání se disonanci. Obrat
+přichází, když si na radu přítele předem zapíše, jaký vývoj by ji přesvědčil o omylu, a zjistí, že
+takový vývoj nastal už před měsícem; tím obrátí Wasonovu (1960) logiku a začne hledat vyvrácení
+místo potvrzení.
 
 ## Obrana
 
-- **Předem zapsat**, co by mě přesvědčilo o opaku – [Falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md).
-- **Diverzifikovat zdroje** – [Rutina cross-source](@/kompendium/self-defense-guides/36-cross-source-routine.md)
-  a [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md).
-- **Hledat nejlepší verzi opačného názoru**, ne nejslabší.
-- **Pravidelný audit** vlastních přesvědčení – [Osobní audit zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md).
-- Pro týmy: přiřadit roli „ďáblova advokáta“ a zapisovat alternativní hypotézy.
+Nejúčinnější obranou je předem si zapsat, co by mě přesvědčilo o opaku, a tím převést Popperovu
+(1963) zásadu [falsifikace](@/glossary/falsifikace.md) do každodenní praxe; k tomu slouží
+[Falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md). Diverzifikace
+zdrojů podle principu triangulace oslabuje uzavření prostředí (Nickerson, 1998); návod dávají
+[Rutina cross-source](@/kompendium/self-defense-guides/36-cross-source-routine.md) a
+[Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md). Platí přitom, že
+hledat je třeba nejlepší verzi opačného názoru, ne nejslabší, protože jen silný protiargument bias
+skutečně prověří (Lord, Ross a Lepper, 1979). Pravidelný audit vlastních přesvědčení
+([Osobní audit zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md)) a v týmech
+přiřazení role „ďáblova advokáta“ s povinností zapsat alternativní hypotézy jsou institucionální
+obdobou téže zásady (Kahneman, 2011).
 
 ## Meze a otevřené otázky
 
-Odborná literatura se neshoduje, jak velký je vliv biasu v různých situacích a nakolik ho lze
-tréninkem snížit; prostá znalost biasu ho podle řady autorů neodstraní. Kniha proto klade důraz na
-strukturální opatření (prostředí, postupy, pluralita zdrojů) víc než na individuální „odhodlání
-být objektivní“.
+Odborná literatura se neshoduje na tom, jak velký je vliv biasu v různých situacích a nakolik jej
+lze tréninkem snížit; Kahneman (2011) upozorňuje, že prostá znalost biasu jej u sebe samého
+zpravidla neodstraní. Kniha proto klade důraz na strukturální opatření — prostředí, postupy a
+pluralitu zdrojů — víc než na individuální odhodlání být objektivní, a sama se tím vystavuje
+falsifikaci: kdyby se taková opatření ukázala jako neúčinná, bylo by třeba kategorii revidovat.
+
+## Literatura
+
+- Festinger, L. (1957). *A Theory of Cognitive Dissonance.* Stanford: Stanford University Press.
+- Kahneman, D. (2011). *Thinking, Fast and Slow.* New York: Farrar, Straus and Giroux.
+- Klayman, J., & Ha, Y.-W. (1987). Confirmation, disconfirmation, and information in hypothesis testing. *Psychological Review*, 94(2), 211–228.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism.* New York: Norton.
+- Lord, C. G., Ross, L., & Lepper, M. R. (1979). Biased assimilation and attitude polarization. *Journal of Personality and Social Psychology*, 37(11), 2098–2109.
+- Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
+- Popper, K. R. (1963). *Conjectures and Refutations.* London: Routledge.
+- Wason, P. C. (1960). On the failure to eliminate hypotheses in a conceptual task. *Quarterly Journal of Experimental Psychology*, 12(3), 129–140.
 
 ## Související
 

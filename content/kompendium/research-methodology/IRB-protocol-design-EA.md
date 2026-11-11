@@ -58,7 +58,7 @@ Protokol pro etickou komisi by měl obsahovat:
 5. **Přínosy** – pro účastníky (pokud vůbec) a pro společnost; přínos se nemá nadsazovat.
 6. **[Informovaný souhlas](@/glossary/informed-consent.md)** – text, postup, ověření porozumění, odstoupení
    ([informovaný souhlas](@/kompendium/research-methodology/informed-consent-EA-research.md)).
-7. **Ochrana dat** – co se sbírá, jak se ukládá, kdo má přístup, kdy se maže
+7. Ochrana dat – co se sbírá, jak se ukládá, kdo má přístup, kdy se maže
    ([datová bezpečnost](@/kompendium/research-methodology/data-security-EA-research.md),
    [anonymizace](@/kompendium/research-methodology/anonymization-EA-research.md)).
 8. **Postup při distresu a odhalení rizika** – kdo, kdy a jak zasáhne; hranice mlčenlivosti.

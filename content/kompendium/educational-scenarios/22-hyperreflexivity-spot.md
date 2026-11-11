@@ -20,117 +20,120 @@ type = "educational-scenario"
 > **Doporučená délka**: 120 minut
 > **Pro koho**: psychoterapeuti, kouči a supervizoři koučů, HR, psychiatři; navazuje na scénář 21
 
-Sebereflexe je jedním z nejcennějších nástrojů obrany – celá řada Foundation ji trénuje.
-Hyperreflexivita je její karikatura: reflexe, která se nesmí zastavit. Každá myšlenka musí být
-prověřena, každé prověření prověřeno znovu, a jednání se odkládá, dokud regres neskončí –
-což se nestane. Člověk ztrácí spontánnost i schopnost rozhodnout se v drobnostech a zároveň
-cítí, že „pracuje na sobě“. V tomto scénáři se jedná o vzorec vnucený zvenčí, jak ho kniha
-popisuje jako [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md).
-Pojem se ve fenomenologické psychopatologii používá i jinak – pro změny sebeprožívání
-u schizofrenie (Sass a Parnas); diferenciální rozvaha je proto součástí cvičení.
+Sebereflexe je jedním z nejcennějších nástrojů obrany a celá řada Foundation ji trénuje; schopnost
+sledovat a hodnotit vlastní poznávání patří k jádru [metakognice](@/glossary/metakognice.md) (Flavell, 1979). Hyperreflexivita je
+její karikatura: reflexe, která se nesmí zastavit. Každá myšlenka musí být prověřena, každé prověření
+prověřeno znovu, a jednání se odkládá, dokud regres neskončí – což se nestane. Člověk ztrácí
+spontánnost i schopnost rozhodnout se v drobnostech a zároveň cítí, že „pracuje na sobě“. V tomto
+scénáři jde o vzorec vnucený zvenčí, jak jej kniha popisuje jako
+[EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md). Pojem se ve
+fenomenologické psychopatologii používá i jinak, totiž pro změny sebeprožívání u schizofrenie, kde
+hyperreflexivita označuje nutkavé uvědomování jevů, které normálně zůstávají v pozadí prožitku
+(Sass & Parnas, 2003); diferenciální rozvaha je proto součástí cvičení.
 
-## Učební cíle
+## Učební cíle a jejich zdůvodnění
 
-Účastník po cvičení:
-
-1. popíše strukturu hyperreflexivní smyčky (podnět → povinná reflexe → reflexe reflexe →
-   odklad jednání → vina za odklad → další reflexe);
-2. odliší užitečnou sebereflexi od hyperreflexivity podle tří kritérií: má konec, vede k jednání,
-   lze ji odmítnout bez trestu;
-3. rozpozná vnější zdroj vzorce (kdo vyžaduje reflexi, jak reaguje na její odmítnutí);
-4. navrhne první intervence, které nepoužívají další reflexi jako lék.
+Cvičení směřuje k tomu, aby účastník popsal strukturu hyperreflexivní smyčky (podnět → povinná reflexe
+→ reflexe reflexe → odklad jednání → vina za odklad → další reflexe) a aby odlišil užitečnou sebereflexi
+od hyperreflexivity podle tří kritérií: zda má konec, zda vede k jednání a zda ji lze odmítnout bez
+trestu. Tato kritéria vycházejí z poznatku, že škodlivé není přemýšlení o sobě jako takové, nýbrž jeho
+neukončitelnost a odpojení od jednání; právě setrvalé, opakované obracení pozornosti k vlastnímu
+rozpoložení prodlužuje a prohlubuje úzkost a skleslost, místo aby je řešilo (Nolen-Hoeksema, 1991).
+Dalším cílem je rozpoznat vnější zdroj vzorce – kdo reflexi vyžaduje a jak reaguje na její odmítnutí –
+a navrhnout první intervence, které nepoužívají další reflexi jako lék.
 
 ## Scénář
 
-Fiktivní případ, pohled HR partnerky a později psycholožky. Vedoucí oddělení (41) dostal od
-firmy roční koučink „rozvoje vědomého leadershipu“. Po devíti měsících:
+Jde o fiktivní případ nahlížený očima HR partnerky a později psycholožky. Jednačtyřicetiletý vedoucí
+oddělení dostal od firmy roční koučink „rozvoje vědomého leadershipu“ a po devíti měsících nedokáže na
+poradách uzavřít rozhodnutí: když tým navrhne řešení, odpovídá, že si „musí nejdřív ujasnit, proč má
+k tomu odpor, a pak proč má odpor k tomu odporu“. Kouč na sezeních reaguje na každé rozhodnutí otázkou
+„A co je pod tím?“ a na odpověď znovu; když vedoucí jednou řekl „Prostě jsem se tak rozhodl“, kouč
+odpověděl, že „prostě“ je „obrana ego-struktury“ a že „lídr, který nezná své motivy, je pro tým
+nebezpečný“. Vedoucí vede deník, kde u každé schůzky analyzuje své motivy na několika úrovních, spí
+pět hodin a říká, že má pocit, „jako by sledoval sám sebe zvenku a nemohl přestat“. Na otázku HR, zda
+koučink pomáhá, odpoví: „Nevím, jestli mi pomáhá, ale vím, že bych se neměl ptát, jestli mi pomáhá,
+protože to je vyhýbání se práci.“ Účastníci ve dvojicích analyzují strukturu smyčky, roli kouče,
+diferenciální možnosti a navrhnou první kroky HR a psycholožky. Případ ilustruje, jak se nutkavé
+přemítání samo udržuje a nelze je ukončit dalším přemýšlením o něm (Wells, 2009).
 
-- Na poradách nedokáže uzavřít rozhodnutí. Když tým navrhne řešení, odpovídá: „Musím si
-  nejdřív ujasnit, proč mám k tomu odpor, a pak proč mám odpor k tomu odporu.“
-- Kouč na sezeních na každé rozhodnutí reaguje otázkou „A co je pod tím?“ a na odpověď
-  znovu. Když vedoucí jednou řekl „Prostě jsem se tak rozhodl“, kouč odpověděl, že „prostě“
-  je „obrana ego-struktury“ a že „lídr, který nezná své motivy, je pro tým nebezpečný“.
-- Vedoucí vede deník, kde u každé schůzky analyzuje své motivy na několika úrovních. Spí
-  pět hodin. Říká, že má pocit, jako by „sledoval sám sebe zvenku a nemohl přestat“.
-- Na otázku HR, zda koučink pomáhá, odpoví: „Nevím, jestli mi pomáhá, ale vím, že bych
-  se neměl ptát, jestli mi pomáhá, protože to je vyhýbání se práci.“
+## Jak se vzorec pozná
 
-Účastníci ve dvojicích analyzují (1) strukturu smyčky, (2) roli kouče, (3) diferenciální
-možnosti a (4) navrhnou první kroky HR a psycholožky.
+Prvním markerem je regres bez konce, kdy reflexe generuje další reflexi
+([infinitní regres](@/glossary/infinitni-regress.md),
+[EA-5.4.17 Implantace nekonečného regresu](@/kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md)),
+a s ním odložené jednání, kdy rozhodnutí čekají na dokončení analýzy
+([paralysis by analysis](@/glossary/paralysis-by-analysis.md)). Druhým je patologizace spontánnosti,
+kdy je „prostě“ označeno za obranu a přímé jednání se stává podezřelým, a imunizace metody, v níž je
+otázka po užitečnosti vtažena do metody jako „vyhýbání se“. Třetím markerem je ztráta předreflexivního,
+tedy pocit sledování sebe zvenčí a ztráta samozřejmosti, kterou fenomenologie popisuje jako
+[předreflexivní vědomí](@/glossary/predreflexivni-vedomi.md); běžné prožívání totiž normálně probíhá
+v nereflektovaném, implicitním sebevědomí, a teprve jeho nucené zpředmětnění vytváří odcizující pocit
+odstupu od sebe (Zahavi, 2005). Doplňují je tělesné stopy v podobě zkráceného spánku, napětí a únavy
+([kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md)). Jádrem
+patologie je přitom to, že nadměrné zaměření pozornosti na sebe sama je spojeno s řadou poruch a samo
+udržuje jejich bludný kruh (Ingram, 1990).
 
-## Signály, kterých si všimnout
+## Odlišení od užitečné reflexe a od poruch
 
-- **Regres bez konce** – reflexe generuje další reflexi; viz
-  [infinitní regres](@/glossary/infinitni-regress.md) a
-  [EA-5.4.17 Implantace nekonečného regresu](@/kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md).
-- **Odložené jednání** – rozhodnutí čekají na dokončení analýzy; srovnej
-  [paralysis by analysis](@/glossary/paralysis-by-analysis.md).
-- **Patologizace spontánnosti** – „prostě“ je označeno za obranu; přímé jednání se stává
-  podezřelým.
-- **Imunizace metody** – otázka po užitečnosti je vtažena do metody jako „vyhýbání se“.
-- **Ztráta před-reflexivního** – pocit sledování sebe zvenčí; ztráta samozřejmosti, kterou
-  fenomenologie popisuje jako [před-reflexivní vědomí](@/glossary/predreflexivni-vedomi.md).
-- **Tělesné stopy** – zkrácený spánek, napětí, únava; viz
-  [kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md).
+Užitečná reflexe se od hyperreflexivity liší tím, že má bod zastavení („Tohle stačí, rozhodnu se a
+uvidím“), vede k jednání a lze ji beztrestně odmítnout; hyperreflexivita vznikla v okamžiku, kdy
+odmítnutí reflexe přestalo být možné bez trestu a kdy reflexe přestala vést k jednání. Diferenciálně
+je třeba obraz odlišit od depresivní ruminace, která se obvykle točí kolem viny a ztráty a nebývá
+vázána na konkrétní metodu (Nolen-Hoeksema, 1991), od obsedantně-kompulzivní poruchy, kde jsou
+myšlenky prožívány jako nechtěné a vtíravé, a od změn sebeprožívání v rámci psychotického spektra, kde
+hledáme poruchy vnímání, ztrátu náhledu a změny sebeprožívání bez souvislosti s vnějším zdrojem
+(Sass, 1992). Zde je naproti tomu vzorec převzatý, nese jazyk kouče a začal s koučinkem; diagnózy se
+však nevylučují a vyšetření psychiatrem je na místě tam, kde obraz není jasný
+([6.2 Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)).
 
-## Diskusní otázky
+## Obrana a zotavení
 
-1. Kde přesně se užitečná reflexe změnila v hyperreflexivitu?
-2. Může kouč jednat v dobré víře? Mění to něco na tom, co je třeba udělat?
-3. Jak odlišit tento obraz od depresivní ruminace, od obsedantně-kompulzivní poruchy a od
-   změn sebeprožívání v rámci psychotického onemocnění?
-4. Proč nepomůže, když psycholožka vedoucímu „vysvětlí“, že přehnaně reflektuje?
-5. Jakou roli má firma, která koučink objednala?
-6. Jak by vypadala sebereflexe, která chrání, a ne paralyzuje?
-
-## Modelové odpovědi
-
-- **K otázce 1.** V okamžiku, kdy odmítnutí reflexe přestalo být možné bez trestu („obrana
-  ego-struktury“, „nebezpečný pro tým“) a reflexe přestala vést k jednání. Zdravá reflexe má
-  bod zastavení: „Tohle stačí, rozhodnu se a uvidím.“
-- **K otázce 2.** Ano, kouč může metodu považovat za hloubkovou práci. Pro intervenci je
-  rozhodující funkce a dopad. Úmysl ovlivní, jak s koučem mluvit, ne zda koučink pozastavit.
-- **K otázce 3.** Ruminace u deprese se obvykle točí kolem viny a ztráty a nebývá vázaná
-  na konkrétní metodu; u OCD jsou myšlenky prožívány jako nechtěné a vtíravé; u psychotického
-  spektra hledáme poruchy vnímání, ztrátu náhledu a změny sebeprožívání bez souvislosti
-  s vnějším zdrojem. Zde je vzorec převzatý, s jazykem kouče, a začal s koučinkem. Diagnózy
-  se nevylučují; vyšetření psychiatrem je na místě, viz [6.2 Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
-- **K otázce 4.** Vysvětlení je další podnět k reflexi („proč přehnaně reflektuji?“). Smyčka
-  se nepřeruší dalším obsahem, ale změnou vztahu k myšlení – například postupy
-  [metakognitivní terapie](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md),
-  které pracují s pozorností a odstupem od myšlenek, ne s jejich obsahem.
-- **K otázce 5.** Pozastavit koučink, zajistit nezávislé posouzení, revidovat výběr a supervizi
-  dodavatelů rozvojových programů; neobviňovat vedoucího z výkonu, který je důsledkem.
-- **K otázce 6.** Ohraničená v čase, směřující k rozhodnutí, s možností říct „dost“ a se
-  zpětnou vazbou od jednání, ne jen od další reflexe; viz
-  [metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md).
-
-## Časté chyby
-
-- **Další reflexe jako lék.** „Zkuste se zamyslet, proč to děláte“ – posílí smyčku.
-- **Posouzení podle obsahu.** Zda jsou motivy vedoucího „správné“, je pro intervenci
-  nepodstatné.
-- **Přehlédnutí somatiky.** Spánek a tělesná regulace jsou první intervence, ne doplněk.
-- **Démonizace koučinku.** Problémem je konkrétní vzorec, ne obor.
+Nepomůže, když psycholožka vedoucímu „vysvětlí“, že přehnaně reflektuje, protože vysvětlení je další
+podnět k reflexi („proč přehnaně reflektuji?“). Smyčka se nepřeruší dalším obsahem, nýbrž změnou
+vztahu k myšlení: postupy [metakognitivní terapie](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md)
+pracují s pozorností a odstupem od myšlenek, nikoli s jejich obsahem, a cílí přímo na nutkavé,
+neukončitelné přemítání jako udržující mechanismus (Wells, 2009). Prvními intervencemi jsou proto
+somatická stabilizace – spánek a tělesná regulace nejsou doplněk, ale východisko – a obnova schopnosti
+jednat bez dokončené analýzy. Role firmy je přitom nezanedbatelná: je namístě koučink pozastavit,
+zajistit nezávislé posouzení a revidovat výběr a supervizi dodavatelů rozvojových programů, a přitom
+neobviňovat vedoucího z výkonu, který je důsledkem vzorce, nikoli jeho příčinou. Zdravá sebereflexe,
+k níž se má vedoucí vrátit, je ohraničená v čase, směřuje k rozhodnutí, lze ji ukončit slovem „dost“
+a dostává zpětnou vazbu od jednání, nikoli jen od další reflexe
+([metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md)).
 
 ## Debriefing pro facilitátora
 
-Účastníci z pomáhajících profesí často sami pracují s reflexí a mohou se ve scénáři cítit
-kritizováni. Zdůrazněte rozlišení podle tří kritérií (konec, jednání, odmítnutelnost)
-a nechte je aplikovat na vlastní praxi: kdy jejich otázky klienty posouvají a kdy je drží
-v kruhu?
+Účastníci z pomáhajících profesí často sami pracují s reflexí a mohou se ve scénáři cítit kritizováni,
+proto facilitátor zdůrazní rozlišení podle tří kritérií (konec, jednání, odmítnutelnost) a nechá je
+aplikovat na vlastní praxi: kdy jejich otázky klienty posouvají a kdy je drží v kruhu. Je třeba hlídat
+čtyři časté chyby: další reflexi jako lék („zkuste se zamyslet, proč to děláte“), posouzení podle
+obsahu (zda jsou motivy vedoucího „správné“), přehlédnutí somatiky a démonizaci koučinku, neboť
+problémem je konkrétní vzorec, nikoli obor. Protože nadměrné sebezaměření samo udržuje bludný kruh,
+patří k dobrému vedení i hlídání toho, aby skupinová reflexe nesklouzla do téhož regresu, který
+analyzuje (Ingram, 1990). Pokud někdo popíše vlastní zkušenost s nekonečným sebezpytováním, facilitátor
+nabídne jednoduchou [uzemňovací techniku](@/kompendium/self-defense-guides/14-grounding-techniques.md).
 
-Pokud někdo popíše vlastní zkušenost s nekonečným sebezpytováním, nabídněte jednoduchou
-uzemňovací techniku na konci sezení; viz [uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md).
+## Meze a otevřené otázky
 
-## Rozšiřující úkoly
+Scénář pracuje s čitelným případem, v němž je vnější zdroj (kouč) zřetelný; v praxi může vzorec vzejít
+i z vlastní dispozice nebo z kombinace obojího, takže určení „vstupního vektoru“ bývá nejednoznačné.
+Otevřenou otázkou zůstává, jak odlišit hyperreflexivitu navozenou zvenčí od primárně klinické poruchy
+sebeprožívání, když se oba obrazy fenomenologicky překrývají a mohou se vyskytovat současně. Diskutovat
+je rovněž třeba hranici mezi legitimní náročnou reflexivní praxí (supervize, hloubková psychoterapie,
+kontemplativní cvičení) a jejím zneužitím, protože i prospěšné postupy mohou dočasně prohloubit
+sebezaměření, a liší se až tím, zda vedou zpět k jednání a autonomii, nebo zda nutkavé zpředmětnění
+prožitku upevňují jako trvalý rys (Sass & Parnas, 2003).
 
-1. **Test tří kritérií.** Aplikujte kritéria na tři reflexivní praxe, které používáte nebo
-   doporučujete (deník, supervize, meditace).
-2. **Akutní stav.** Prostudujte [akutní kognitivní paralýzu](@/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md)
-   a určete, kdy by vedoucí potřeboval akutní péči.
-3. **Teorie.** Porovnejte hyperreflexivitu s [rekurzivní paralýzou](@/glossary/rekurzivni-paralyza.md)
-   a s [EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md).
+## Literatura
+
+- Flavell, J. H. (1979). Metacognition and Cognitive Monitoring. *American Psychologist*, 34(10).
+- Ingram, R. E. (1990). Self-Focused Attention in Clinical Disorders: Review and a Conceptual Model. *Psychological Bulletin*, 107(2).
+- Nolen-Hoeksema, S. (1991). Responses to Depression and Their Effects on the Duration of Depressive Episodes. *Journal of Abnormal Psychology*, 100(4).
+- Sass, L. A. (1992). *Madness and Modernism: Insanity in the Light of Modern Art, Literature, and Thought*. Basic Books.
+- Sass, L. A., & Parnas, J. (2003). Schizophrenia, Consciousness, and the Self. *Schizophrenia Bulletin*, 29(3).
+- Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. Guilford Press.
+- Zahavi, D. (2005). *Subjectivity and Selfhood: Investigating the First-Person Perspective*. MIT Press.
 
 ## Související
 
@@ -157,4 +160,4 @@ uzemňovací techniku na konci sezení; viz [uzemňovací techniky](@/kompendium
 **Glosář**
 
 - [Rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md) – výsledný stav.
-- [Před-reflexivní vědomí](@/glossary/predreflexivni-vedomi.md) – co hyperreflexivita narušuje.
+- [Předreflexivní vědomí](@/glossary/predreflexivni-vedomi.md) – co hyperreflexivita narušuje.

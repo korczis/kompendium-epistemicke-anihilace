@@ -20,109 +20,119 @@ type = "educational-scenario"
 > **Doporučená délka**: 120 minut (práce s datovým souborem)
 > **Pro koho**: moderátoři diskusí, analytici, pracovníci samospráv, výzkumníci veřejného mínění
 
-Narativ není jednotlivé tvrzení, ale **rámec, který určuje, jak se o věci mluví**: kdo je
-oběť, kdo viník, co je „zdravý rozum“ a co je „[propaganda](@/glossary/propaganda.md)“. Injekce narativu znamená, že
-takový rámec vstupuje do diskuse zvenčí, připravený a ve více kopiích, a tváří se jako
-spontánní názor místních lidí. Účinek nespočívá v přesvědčení jednotlivce, ale ve vytvoření
-dojmu, že „takhle to vidí všichni“ – tedy v [pseudo-konsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md).
+Narativ není jednotlivé tvrzení, ale **rámec, který určuje, jak se o věci mluví**: kdo je oběť,
+kdo viník, co je „zdravý rozum“ a co je „[propaganda](@/glossary/propaganda.md)“. Rámcování
+přitom nepůsobí tím, že by lhalo, ale tím, co vybírá do popředí a co nechává mimo zorné pole, a
+tak předurčuje závěr ještě dříve, než začne spor o fakta (Entman, 1993). Injekce narativu znamená,
+že takový rámec vstupuje do diskuse zvenčí, připravený a ve více kopiích, a tváří se jako spontánní
+názor místních lidí. Účinek nespočívá v přesvědčení jednotlivce, ale ve vytvoření dojmu, že „takhle
+to vidí všichni“ – tedy v [pseudo-konsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md).
 Scénář navazuje na [mediální smečku](@/kompendium/educational-scenarios/14-media-mob-recognition.md)
 a zaměřuje se na textovou a časovou stopu.
 
-## Učební cíle
+## Učební cíle a jejich zdůvodnění
 
-Účastník po cvičení:
-
-1. extrahuje z diskuse opakující se fráze, rámce a argumentační šablony;
-2. propojí jazykové markery s časovými údaji a metadaty účtů;
-3. zmapuje, na jaké zdroje komentáře odkazují, a zda se odkazy sbíhají;
-4. rozliší připravený narativ od přirozeného šíření úspěšné formulace v komunitě;
-5. navrhne reakci moderátora, která chrání diskusi a nepoškodí skutečné občany.
+Cvičení směřuje k tomu, aby účastník z diskuse extrahoval opakující se fráze, rámce a argumentační
+šablony, propojil jazykové markery s časovými údaji a metadaty účtů a zmapoval, na jaké zdroje
+komentáře odkazují a zda se odkazy sbíhají. Zaměření na dojem jednomyslnosti je zvoleno proto, že
+hlavní silou injektovaného narativu je zdánlivý konsenzus: jakmile se zdá, že převládá jeden názor,
+lidé s odlišným míněním se stahují do mlčení a zdánlivá většina se sama posiluje, i kdyby byla ve
+skutečnosti menšinou (Noelle-Neumann, 1984). Dalším cílem je odlišit připravený narativ od
+přirozeného šíření úspěšné formulace v komunitě a navrhnout reakci moderátora, která chrání diskusi
+a nepoškodí skutečné občany.
 
 ## Scénář
 
-Fiktivní obec projednává záměr postavit na okraji katastru solární park. Na obecním webu je
-otevřená diskuse. Moderátorka si všimne změny: během tří dnů přibylo přes 400 komentářů,
-dříve jich bylo kolem dvaceti týdně.
+Fiktivní obec projednává záměr postavit na okraji katastru solární park a na obecním webu je
+otevřená diskuse. Moderátorka si všimne změny: během tří dnů přibylo přes čtyři sta komentářů,
+zatímco dříve jich bývalo kolem dvaceti týdně. Týmy dostanou anonymizovaný export (text, čas,
+přezdívka, datum registrace účtu, uvedené odkazy) a při práci najdou několik nápadných rysů.
+Jedenašedesát komentářů obsahuje frázi „nikdo se nás neptal, rozhodli to za nás v Praze“, často
+i s toutéž interpunkcí, a to v jinak různorodých textech; tři argumentační šablony – zdraví, ceny
+pozemků a „cizí investor“ – se střídají v pevném pořadí; velká část komentářů vznikla ve dvou
+časových oknech po přibližně čtyřiceti minutách; sedmdesát procent účtů bylo registrováno
+v posledních deseti dnech a nikdy předtím nediskutovalo; odkazy vedou převážně na dva weby bez
+tiráže, které vznikly v posledním měsíci. Vedle toho existuje skupina starších účtů místních lidí,
+jejichž obavy jsou věcné, rozdílné a často převzaly jednu z frází prostě proto, že se jim „líbila“.
+Úkolem je rozhodnout, co z toho svědčí o připravené kampani a co o přirozeném ohlasu. Právě
+kombinace mladých účtů, časových shluků a sbíhajících se odkazů je typickým otiskem
+poloautomatizovaných sítí, jejichž odhalení z metadat je samo samostatným výzkumným problémem
+(Ferrara et al., 2016).
 
-Týmy dostanou anonymizovaný export (text, čas, přezdívka, datum registrace účtu, uvedené
-odkazy). Při práci najdou například:
+## Jak se vzorec pozná
 
-- 61 komentářů obsahuje frázi „nikdo se nás neptal, rozhodli to za nás v Praze“, často
-  i s toutéž interpunkcí; v jinak různorodých textech;
-- tři argumentační šablony (zdraví, ceny pozemků, „cizí investor“) se střídají v pevném pořadí;
-- velká část komentářů vznikla ve dvou časových oknech po přibližně čtyřiceti minutách;
-- 70 % účtů bylo registrováno v posledních deseti dnech a nikdy předtím nediskutovalo;
-- odkazy vedou převážně na dva weby bez tiráže, které vznikly v posledním měsíci;
-- vedle toho existuje skupina starších účtů místních lidí s obavami, které jsou věcné,
-  rozdílné a často převzaly jednu z frází, protože se jim „líbila“.
+Nejsilnějším markerem je lexikální otisk, tedy shodné fráze včetně chyb a interpunkce u údajně
+nezávislých autorů
+([signatura injekce narativu](@/kompendium/detection-signatures/22-network-narrative-injection.md)),
+doplněný o šablonu argumentace se stejným pořadím argumentů a stejnou stavbou odstavců. Druhým jsou
+časové shluky, tedy komentáře v krátkých oknech neodpovídajících běžnému rytmu diskuse, spolu
+s mladými účty bez historie ([EA-9.4.3 Sock Puppet Network](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md));
+koordinaci tohoto typu dnes umožňují i poloautomatizované sítě účtů, jejichž rozpoznání je samo
+předmětem výzkumu (Ferrara et al., 2016). Třetím markerem jsou sbíhající se odkazy (mnoho komentářů,
+málo zdrojů, zdroje bez autora) a posun rámce, kdy se debata přesouvá od solárního parku k „nám“
+proti „nim“ ([posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md));
+právě budování rámce „my versus oni“ pomocí opakovaných jazykových vzorců je klasickým nástrojem
+politického rámcování (Lakoff, 2004). Posledním vodítkem je syntetická variabilita, kdy se texty
+liší povrchně, ale ne obsahem – možný otisk
+[syntetického textu](@/kompendium/techniques/ea-9-2-3-synthetic-text-narrative.md). Žádný marker
+sám o sobě není důkaz; síla závěru plyne ze sbíhání nezávislých indicií, jak zdůrazňuje rámec
+informačního nepořádku, který odlišuje obsah, tvůrce a způsob šíření (Wardle & Derakhshan, 2017).
 
-## Signály, kterých si všimnout
+## Odlišení připraveného narativu od přirozeného ohlasu
 
-- **Lexikální otisk** – shodné fráze včetně chyb a interpunkce u nezávislých autorů; viz
-  [signatura injekce narativu](@/kompendium/detection-signatures/22-network-narrative-injection.md).
-- **Šablona argumentace** – stejné pořadí argumentů, stejná struktura odstavců.
-- **Časové shluky** – komentáře v krátkých oknech, neodpovídajících běžnému rytmu diskuse.
-- **Mladé účty bez historie** – srovnej [EA-9.4.3 Sock Puppet Network](@/kompendium/techniques/ea-9-4-3-sock-puppet-network.md).
-- **Sbíhající se odkazy** – mnoho komentářů, málo zdrojů, zdroje bez autora.
-- **Posun rámce** – debata se přesouvá od solárního parku k „nám“ proti „nim“; viz
-  [posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md).
-- **Syntetická variabilita** – texty se liší povrchně, ale ne obsahem; možný otisk
-  [syntetického textu](@/kompendium/techniques/ea-9-2-3-synthetic-text-narrative.md).
+Místního občana, který převzal úspěšnou frázi, poznáme od účtu zapojeného do kampaně podle historie
+(starší účet, jiná témata), variability (fráze je zasazena do vlastního textu) a interakce (reaguje
+na protiargumenty). Přirozené šíření formulace je normální součástí komunikace; sdílený příběh
+komunity se tak tvoří i bez manipulace. Zásadní je, že odhalení kampaně nemění nic na legitimitě
+věcných obav místních lidí – naopak, jednou z největších škod koordinované injekce je, že skutečné
+hlasy po jejím odhalení snadno zapadnou jako „boti“, čímž se umlčí právě ti, jejichž účast je
+autentická. Tím se spirála mlčení uzavírá podruhé, zvenčí (Noelle-Neumann, 1984). Odlišení je proto
+nejen analytický, ale i etický úkol: označit nesouhlasné hlasy za boty je samo epistemickým útokem.
+Hypotéza o injekci se považuje za vyvrácenou, pokud se ukáže, že nové účty patří obyvatelům
+registrovaným po společné schůzi a odkazované weby provozuje dohledatelný místní spolek.
 
-## Diskusní otázky
+## Obrana a zotavení
 
-1. Které markery jsou silné samy o sobě a které jen v kombinaci?
-2. Jak odlišit místního občana, který převzal úspěšnou frázi, od účtu, který je součástí kampaně?
-3. Mění zjištění kampaně něco na legitimitě věcných obav místních lidí?
-4. Co by vaši hypotézu o injekci vyvrátilo?
-5. Jak by měla moderátorka reagovat – a co by bylo kontraproduktivní?
-6. Kdo má prospěch z toho, že diskuse vypadá jednomyslně? Je ta otázka pro analýzu nezbytná?
-
-## Modelové odpovědi
-
-- **K otázce 1.** Silné samostatně jsou shodné fráze s identickými chybami a časové shluky
-  mladých účtů. Šablona argumentace nebo stejné odkazy samy o sobě mohou vzniknout i
-  organicky (komunita sdílí jeden leták). Síla závěru plyne ze sbíhání nezávislých markerů.
-- **K otázce 2.** Podle historie (starší účet, jiná témata), variability (fráze je zasazena do
-  vlastního textu) a interakce (odpovídá ostatním, reaguje na protiargumenty). Přirozené šíření
-  formulace je normální součástí komunikace; sdílený příběh komunity se tak tvoří i bez
-  manipulace.
-- **K otázce 3.** Ne. Obavy místních lidí jsou legitimní nezávisle na tom, že je někdo
-  zesiluje. Jednou z největších škod kampaně je, že skutečné hlasy po jejím odhalení snadno
-  zapadnou jako „boti“.
-- **K otázce 4.** Pokud by se ukázalo, že nové účty patří obyvatelům, kteří se registrovali po
-  společné schůzi, a odkazované weby provozuje místní spolek s dohledatelnými členy.
-- **K otázce 5.** Zveřejnit pravidla diskuse (ověření bydliště pro hlasování, ne pro komentování),
-  shrnout věcné argumenty obou stran, oddělit diskusi od rozhodování. Kontraproduktivní je
-  hromadné mazání, veřejné obvinění konkrétních lidí nebo uzavření diskuse.
-- **K otázce 6.** Otázka je užitečná pro hypotézy, ale analýza struktury nezávisí na tom, zda
-  na ni známe odpověď. Spekulace o objednateli bez dat poškozuje důvěryhodnost analýzy.
-
-## Časté chyby
-
-- **„Boti“ jako nálepka.** Označit nesouhlasné hlasy za boty je samo epistemickým útokem.
-- **Jediný marker.** Shodná fráze bez dalších indicií nestačí.
-- **Hodnocení obsahu.** Zda je solární park dobrý nápad, s analýzou šíření nesouvisí.
-- **Opomenutí bezpečnosti dat.** Export obsahuje osobní údaje; práce s ním vyžaduje
-  anonymizaci a omezení přístupu.
+Moderátorka chrání diskusi tím, že zveřejní její pravidla (ověření bydliště pro hlasování, nikoli
+pro komentování), shrne věcné argumenty obou stran a oddělí diskusi od rozhodování; kontraproduktivní
+je naopak hromadné mazání, veřejné obvinění konkrétních lidí nebo uzavření diskuse. Smyslem obrany
+není zvítězit v jednotlivém sporu, ale obnovit podmínky, za nichž je skutečný rozptyl názorů opět
+viditelný, protože injektovaný narativ škodí hlavně tím, že falešně zužuje spektrum toho, co se zdá
+přijatelné říci (Entman, 1993). Zotavení komunity spočívá ve [správě narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md)
+– v trpělivém obnovování důvěry a v tom, že se autentickým, byť menšinovým hlasům vrátí váha. Je
+také třeba dbát na bezpečnost dat, protože export obsahuje osobní údaje a vyžaduje anonymizaci a
+omezený přístup.
 
 ## Debriefing pro facilitátora
 
-Nechte týmy prezentovat nejsilnější a nejslabší marker, který našly. Zaměřte se na skupinu
-starších účtů: kolik týmů je omylem zařadilo do kampaně? Tato chyba je nejpoučnější. Uzavřete
-otázkou, jak by se skuteční občané cítili, kdyby je moderátorka označila za součást kampaně.
+Facilitátor nechá týmy prezentovat nejsilnější a nejslabší marker, který našly, a zaměří se na
+skupinu starších účtů: kolik týmů je omylem zařadilo do kampaně? Tato chyba je nejpoučnější, protože
+ukazuje, jak snadno se obrana zvrhne v nové umlčování. Je třeba hlídat čtyři časté chyby: nálepku
+„boti“ na nesouhlasné hlasy, spoléhání na jediný marker, hodnocení obsahu sporu (zda je solární
+park dobrý nápad) místo struktury šíření a opomenutí bezpečnosti dat. Facilitátor uzavře otázkou,
+jak by se skuteční občané cítili, kdyby je moderátorka označila za součást kampaně, a připomene,
+že opakování téže formulace samo zvyšuje její vnímanou pravdivost bez ohledu na pravdivostní
+hodnotu, takže i poctivý účastník může šířit cizí rámec nevědomky (Fazio et al., 2015).
 
-Lokální témata mohou být ve skupině politicky citlivá. Případ je proto zvolen jako smyšlený
-a neutrální; pokud se debata stočí k obsahu sporu, vraťte ji k metodě.
+## Meze a otevřené otázky
 
-## Rozšiřující úkoly
+Scénář pracuje s relativně čitelným souborem; reálné exporty bývají neúplné, metadata účtů lze
+falšovat a hranice mezi organickým a koordinovaným šířením je často nerozhodnutelná. Otevřenou
+otázkou zůstává, jak nastavit moderaci tak, aby omezila vliv koordinovaných účtů, a přitom
+nevylučovala nové, autentické účastníky, kteří se k tématu připojili poprvé. Diskutovat je rovněž
+třeba rostoucí roli jazykových modelů, které dokážou vytvořit povrchně rozmanité, ale obsahově
+jednotné texty, čímž oslabují spolehlivost lexikálního otisku jako markeru a posouvají těžiště
+analýzy od obsahu ke způsobu šíření a k tvůrci, jak doporučuje rámec informačního nepořádku
+(Wardle & Derakhshan, 2017).
 
-1. **Frázový slovník.** U skutečné veřejné diskuse si zapisujte opakující se fráze a sledujte,
-   odkud pocházejí.
-2. **Pravidla moderace.** Navrhněte pravidla, která omezí vliv koordinovaných účtů, aniž by
-   vylučovala nové účastníky.
-3. **OSINT přenos.** Projděte [narrative injection v OSINT](@/kompendium/cross-domain/7-ea-osint-narrative-injection.md)
-   a porovnejte metody s tímto scénářem.
+## Literatura
+
+- Entman, R. M. (1993). Framing: Toward Clarification of a Fractured Paradigm. *Journal of Communication*, 43(4).
+- Fazio, L. K., Brashier, N. M., Payne, B. K., & Marsh, E. J. (2015). Knowledge Does Not Protect Against Illusory Truth. *Journal of Experimental Psychology: General*, 144(5).
+- Ferrara, E., Varol, O., Davis, C., Menczer, F., & Flammini, A. (2016). The Rise of Social Bots. *Communications of the ACM*, 59(7).
+- Lakoff, G. (2004). *Don't Think of an Elephant! Know Your Values and Frame the Debate*. Chelsea Green.
+- Noelle-Neumann, E. (1984). *The Spiral of Silence: Public Opinion – Our Social Skin*. University of Chicago Press.
+- Wardle, C., & Derakhshan, H. (2017). *Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making*. Council of Europe.
 
 ## Související
 

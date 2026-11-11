@@ -12,7 +12,7 @@ Writes three files that templates and scripts read and nobody edits by hand:
                             ongoing, category and place;
                             additive (2026-11-10): on every node `typ` and `oblasti`, on EA-coded
                             nodes `rodina` (EA-N) and `podrodina` (EA-N.M), and a top-level
-                            `categories` index (typ, oblast, rodina, podrodina -> label,
+                            `categories` index (typ, oblast, rodina, podrodina, publikum, pilir -> label,
                             description, node ids) for the category hubs and page chips; the
                             types and domains come from data/categories.toml, and a section with
                             no `typ` row fails the build
@@ -243,7 +243,20 @@ def categorise(pages: list, nodes: list, fams: dict) -> dict:
                 best = max(best, len(pre))
         return best
 
-    index = {"typ": {}, "oblast": {}, "rodina": {}, "podrodina": {}}
+    index = {"typ": {}, "oblast": {}, "rodina": {}, "podrodina": {}, "publikum": {}, "pilir": {}}
+    # typ slug -> audiences that serve it, and -> its single defensive function
+    aud_of = {}
+    for row in spec.get("publikum", []):
+        index["publikum"][row["slug"]] = {"label": row["label"],
+                                          "description": row["description"], "nodes": []}
+        for t in row["types"]:
+            aud_of.setdefault(t, []).append(row["slug"])
+    pilir_of = {}
+    for row in spec.get("pilir", []):
+        index["pilir"][row["slug"]] = {"label": row["label"],
+                                       "description": row["description"], "nodes": []}
+        for t in row["types"]:
+            pilir_of[t] = row["slug"]
     for row in spec["typ"]:
         index["typ"][row["slug"]] = {"label": row["label"], "description": row["description"],
                                      "nodes": []}
@@ -277,6 +290,12 @@ def categorise(pages: list, nodes: list, fams: dict) -> dict:
         node["oblasti"] = domains
         for d in domains:
             index["oblast"][d]["nodes"].append(node["id"])
+        node["publikum"] = aud_of.get(node["typ"], [])
+        for a in node["publikum"]:
+            index["publikum"][a]["nodes"].append(node["id"])
+        if node["typ"] in pilir_of:
+            node["pilir"] = pilir_of[node["typ"]]
+            index["pilir"][node["pilir"]]["nodes"].append(node["id"])
     if untyped:
         raise SystemExit("build-graph: no `typ` row in data/categories.toml for section(s) "
                          + ", ".join(sorted(untyped)) + "; add one there")

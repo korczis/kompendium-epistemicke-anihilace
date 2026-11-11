@@ -130,7 +130,7 @@
     "op": "search",
     "query": "Epi",
     "schema": "kompendium-engine/v1",
-    "total": 404
+    "total": 408
   },
   "input": {
     "op": "search",

@@ -297,7 +297,7 @@ V některých případech je úplná restaurace nemožná — realistickým cíl
 3. **Epistemická konsolidace** (12–24 měsíců) — návrat k autonomnímu úsudku
 4. **Resilience building** (24+ měsíců) — robustní obrany vůči budoucím útokům
 
-Cca 30–40 % případů dosahuje **plné funkční rekonstrukce**. Zbylých 60–70 % zůstává v různé míře kompromitováno, často s reziduální úzkostí v doménách bývalé dekonstrukce.
+Část případů dosahuje plné funkční rekonstrukce a část zůstává v různé míře kompromitována, často s reziduální úzkostí v doménách bývalé dekonstrukce. **Podíl kniha neuvádí**: dřívější verze tu měla procenta bez zdroje a žádná taková data pro tento scénář nemá.
 
 ## Související
 

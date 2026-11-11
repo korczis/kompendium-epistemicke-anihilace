@@ -71,7 +71,7 @@ Plná specifikace v [Klasifikačním schématu](@/kompendium/08-prilohy/klasifik
 | **CBT** | Cognitive Behavioral Therapy | Terapie |
 | **BITE** | Behavior, Information, Thought, Emotional control | Hassanův model → [Diagnostika](@/kompendium/08-prilohy/diagnosticke-nastroje.md) |
 | **BFI-2** | Big Five Inventory–2 | Osobnostní dotazník → [Diagnostika](@/kompendium/08-prilohy/diagnosticke-nastroje.md) |
-| **ECRI** | Ex-Cult Recovery Instrument | Recovery instrument |
+| **ECRI** | Ex-Cult Recovery Instrument | zkratka z dřívějších verzí; nástroj se nepodařilo doložit (viz heslo) |
 | **IES-R** | Impact of Event Scale–Revised | PTSD screening |
 | **DES-II** | Dissociative Experiences Scale–II | [Disociace](@/glossary/disociace.md) screening |
 

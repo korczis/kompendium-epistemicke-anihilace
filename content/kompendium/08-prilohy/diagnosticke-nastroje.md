@@ -1,6 +1,6 @@
 +++
 title = "Diagnostické dotazníky a nástroje"
-description = "Adaptované klinické instrumenty pro detekci a měření expozice technikám epistemické anihilace — BITE Model, BFI-2, ECRI, IES-R, DES-II — s poznámkami k použití, skórování, interpretaci a etice."
+description = "Adaptované klinické instrumenty pro detekci a měření expozice technikám epistemické anihilace — BITE Model, BFI-2, IES-R, DES-II — s poznámkami k použití, skórování, interpretaci a etice."
 weight = 4
 sort_by = "weight"
 
@@ -40,7 +40,7 @@ Použití bez kvalifikace je v rozporu s [Etickým kodexem](@/kompendium/08-pril
 
 ### Účel
 
-**[BITE Model](@/glossary/bite-model.md)** (Hassan, 1988; rev. 2015) je strukturovaný analytický rámec pro hodnocení **stupně psychologické kontroly** v high-control prostředích. Není to dotazník v klasickém psychometrickém smyslu, ale **diagnostická rastra** s 56 položkami rozdělenými do 4 dimenzí.
+**[BITE Model](@/glossary/bite-model.md)** (Hassan, 1988; rev. 2015) je strukturovaný analytický rámec pro hodnocení **stupně psychologické kontroly** v high-control prostředích. Není to dotazník v klasickém psychometrickém smyslu, ale **popisný rastr** rozdělený do čtyř dimenzí (chování, informace, myšlení, emoce). Počet položek kniha neuvádí: autor model v průběhu let revidoval a pro konkrétní počet nemá ověřitelný zdroj.
 
 ### Struktura
 
@@ -57,9 +57,9 @@ BITE Model nemá normalizovanou bodovou škálu — používá se **kvalitativn�
 
 1. Vyplnit BITE rastra pro analyzovanou skupinu/vztah.
 2. Identifikovat **počet pozitivních položek** v každé dimenzi.
-3. Hodnotit **kumulativní intenzitu**: 0–10 = nízká, 11–25 = střední, 26+ = vysoká.
+3. Hodnotit **kumulativní intenzitu** popisně, nikoli číselně: model nemá normovanou škálu, takže součet položek není skóre a hranice mezi nízkou, střední a vysokou intenzitou je úsudek posuzovatele, který má být v záznamu zdůvodněn.
 
-> **Klinické pozorování**: Vysoké skóre (>26) v 2+ dimenzích současně silně koreluje s prostředím vykazujícím charakteristiky [terminálních protokolů EA-4.x.x](@/kompendium/04-terminalni-protokoly/_index.md).
+> **Klinické pozorování**: souběh vysoké intenzity ve více dimenzích bývá nápadnější než vysoká hodnota v jedné; kniha pro to neuvádí korelaci, protože model, o němž je řeč, normovanou škálu nemá.
 
 ### Adaptace pro EA výzkum
 
@@ -112,36 +112,17 @@ Soto, C. J., & John, O. P. (2017). The Next Big Five Inventory (BFI-2). *Journal
 
 ---
 
-## 3. ECRI (Ex-Cult Recovery Instrument)
+## 3. Co tato příloha neuvádí: ECRI
 
-### Účel
+Dřívější verze této přílohy popisovala **ECRI (Ex-Cult Recovery Instrument)** jako strukturovaný
+nástroj se šesti doménami, počty položek a cut-offem a řadila jej jako krok doporučené
+diagnostické baterie. Takový publikovaný a validovaný nástroj se doložit nepodařilo; podrobně to
+rozebírá heslo [ECRI](@/glossary/ecri.md). Sborník Langone (1993) je editovaná kniha, nikoli
+testový manuál, a měřicí nástroj, který ICSA skutečně dokumentuje, je Group Psychological Abuse
+Scale (Chambers, Langone, Dole a Grice, 1994).
 
-**ECRI** je strukturovaný interview-based instrument pro hodnocení **post-expozičních potíží** u jedinců opouštějících high-control skupiny. Pokrývá 6 oblastí: identitární rekonstrukce, kognitivní funkce, sociální reintegrace, emoční regulace, somatické symptomy, spirituální/existenciální orientace.
-
-### Struktura
-
-| Doména | Počet položek | Hlavní fokus |
-|--------|---------------|--------------|
-| **Identita** | ~10 | Pocit „kdo jsem“, kontinuita s pre-expozičním self. |
-| **Kognice** | ~8 | Schopnost kritického myšlení, rozhodování, paměť. |
-| **Sociální** | ~10 | Vztahy s rodinou, přáteli, novými známými. |
-| **Emoce** | ~8 | Úzkost, deprese, výbuchy hněvu, emoční otupělost. |
-| **Soma** | ~6 | Spánek, chuť k jídlu, somatizace. |
-| **Spiritualita** | ~6 | Vztah k smyslu, transcendentnu, existenciální orientace. |
-
-### Skórování
-
-Podle podverze: 5-bodová nebo 7-bodová Likertova. Celkové skóre + sub-skóre per doména. Cut-off pro klinickou pozornost obvykle v horních 25% rozdělení.
-
-### Aplikace v EA výzkumu
-
-ECRI je primární instrument pro hodnocení **úspěchu třífázové terapeutické sekvence** (`EA-6.2.1` Stabilizace → Rekonstrukce → Reintegrace). Měření opakováno na vstupu, po 3 měsících, po 6 měsících, po 12 měsících.
-
-### Primární zdroj
-
-Langone, M. D. (Ed.). (1993). *Recovery from Cults*. New York: Norton. Aktuální verze ECRI distribuovány skrze [International Cultic Studies Association (ICSA)](https://www.icsahome.com/). → [Bibliografie §VIII](@/kompendium/08-prilohy/bibliografie.md).
-
----
+Oddíl zůstává v příloze záměrně: čtenář, který se o ECRI dočetl zde, má na témže místě najít, že
+to byl nedoložený údaj, a nikoli ho hledat marně.
 
 ## 4. IES-R (Impact of Event Scale–Revised)
 
@@ -236,11 +217,11 @@ Pro standardizované klinické nebo výzkumné posouzení doporučujeme následu
 3. **BITE Model rastra** — environment-level analýza.
 4. **BFI-2** — osobnostní profil pre/post.
 
-### Fáze 3 — Recovery monitoring (opakované, 60 min každé)
+### Fáze 3 — Sledování v čase
 
-5. **ECRI** — vstup, +3 měsíce, +6 měsíců, +12 měsíců.
-
-> **Celkový čas administrace baterie: 4–5 hodin** rozdělených do 2–3 sezení.
+Pro opakované měření zotavení příloha žádný nástroj nedoporučuje: ten, který zde dříve stál,
+se doložit nepodařilo. Volba nástroje a intervalů zůstává na klinikovi a na tom, co je pro danou
+populaci validované.
 
 ## Etické a procedurální poznámky
 
@@ -288,4 +269,4 @@ Místo lineární četby:
 
 - [BITE model](@/glossary/bite-model.md) – Hassanův rámec kontroly chování, informací, myšlení a emocí.
 - [DES-II](@/glossary/des-ii.md) a [IES-R](@/glossary/ies-r.md) – hesla k nejčastěji používaným škálám.
-- [ECRI](@/glossary/ecri.md) – nástroj pro sledování zotavení po odchodu ze skupiny.
+- [ECRI](@/glossary/ecri.md) – proč se tento nástroj nepodařilo doložit.

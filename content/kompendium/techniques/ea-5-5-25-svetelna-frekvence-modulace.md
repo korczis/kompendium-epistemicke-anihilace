@@ -105,7 +105,7 @@ Damasio v *The Feeling of What Happens* (1999) konceptualizuje **core consciousn
 
 ## Neurobiologické koreláty
 
-Světelná frekvence (40Hz gamma stimulace, fotosenzitivní oscilace) ovlivňuje thalamokortikální entrainment. 40Hz audiovisuální stimulace (Iaccarino 2016) snižuje amyloid v animal modelech. Naopak 8–13Hz stroboskop produkuje epileptogenní rizika u 5% populace. Default mode network je modulována light-induced melanopsin signalingem.
+Světelná frekvence (40Hz gamma stimulace, fotosenzitivní oscilace) ovlivňuje thalamokortikální entrainment. 40Hz audiovisuální stimulace (Iaccarino 2016) snižuje amyloid v animal modelech. Stroboskopická stimulace nese u fotosenzitivních osob riziko vyvolání záchvatu; nejprovokativnější je podle přehledu pro Epilepsy Foundation pásmo kolem patnácti až pětadvaceti hertzů a fotosenzitivita je v populaci vzácná (Fisher et al., 2005). Dřívější verze této stránky uváděla pásmo 8–13 Hz a riziko u pěti procent populace; obojí bylo chybné a kniha vlastní číslo neuvádí, protože pro ně nemá zdroj. Default mode network je modulována light-induced melanopsin signalingem.
 
 ## Diferenciální diagnostika
 

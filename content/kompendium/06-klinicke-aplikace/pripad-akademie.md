@@ -17,7 +17,7 @@ access_level = "L2"
 
 # 6.7 Případová studie: Akademický kontext (anonymizovaná)
 
-> **Etická poznámka**: Tato kazuistika je **plně anonymizovaná**. Identifikační znaky byly modifikovány tak, aby byla zachována **klinická pravdivost** struktury a současně **vyloučena rekonstrukce konkrétního subjektu**. Některé prvky jsou syntézou z multiplicitních srovnatelných případů. Kazuistika je publikována v souladu s etickými standardy a se souhlasem klienta po terapeutickém uzavření a dvouletém odstupu.
+> **Etická poznámka**: Tato kazuistika je **kompozit**: není záznamem o jednom klientovi a žádný konkrétní člověk v ní není popsán. Odpovídá tím standardu, který pro celý oddíl stanoví [kazuistiky](@/kompendium/case-studies/_index.md).
 
 ## Kontext
 
@@ -25,7 +25,7 @@ K. (32 let, žena, postgraduální výzkumnice v oboru sociálních věd) byla r
 
 | Pole | Hodnota |
 |------|---------|
-| **Kód případu** | K-2024-A (anonymizovaný) |
+| **Povaha případu** | kompozit, nikoli záznam o jednom klientovi |
 | **Doména** | Akademický kontext, postgraduální výzkum |
 | **Trvání expozice** | 4 roky (3. ročník PhD → druhý rok post-PhD) |
 | **Trvání terapie** | 18 měsíců |

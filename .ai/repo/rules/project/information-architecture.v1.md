@@ -203,7 +203,6 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `doctrine` | glossary | autorský | str |  |
 | extra | `documentation_quality` | glossary | autorský | str |  |
 | extra | `documentation_required` | glossary | autorský | bool |  |
-| extra | `doi_placeholder` | page, section | autorský | str |  |
 | extra | `domain` | glossary | autorský | str |  |
 | extra | `domain_category` | glossary | autorský | str |  |
 | extra | `domains` | glossary | autorský | str |  |

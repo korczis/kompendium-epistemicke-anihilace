@@ -142,7 +142,6 @@ Sofistikovaný manipulační útok operuje **napříč všemi třemi úrovněmi 
 - [7.4 Politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
 - [Sekce 07 — Teoretické reflexe (úvod)](@/kompendium/07-teoreticke-reflexe/_index.md)
 - [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
-- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 - [Sekce 04 — Klinika](@/kompendium/04-klinika/_index.md)
 - [Sekce 05 — Kolektivní rozměr](@/kompendium/05-kolektivni-rozmer/_index.md)

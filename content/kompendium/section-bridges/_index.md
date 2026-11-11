@@ -48,55 +48,55 @@ Každý section bridge článek obsahuje:
 
 | Bridge | Z → Do | Typ |
 |---|---|---|
-| [01 → 02](bridge-01-to-02-predmluva-uvod/) | Předmluva → Úvod | etika ↔ definice |
-| [01 → 04](bridge-01-to-04-eticky-ramec-protokoly/) | Etický rámec → Terminální protokoly | etika ↔ operativa |
-| [01 → 05](bridge-01-to-05-eticky-ramec-ultramari/) | Etický rámec → Ultramari | etika ↔ intenzivní praxe |
-| [02 → 03](bridge-02-to-03-uvod-zakladni-kategorie/) | Úvod → Základní kategorie | definice ↔ taxonomie |
-| [02 → 07](bridge-02-to-07-uvod-teoreticke/) | Úvod → Teoretické reflexe | definice ↔ kritika |
+| [01 → 02](@/kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md) | Předmluva → Úvod | etika ↔ definice |
+| [01 → 04](@/kompendium/section-bridges/bridge-01-to-04-eticky-ramec-protokoly.md) | Etický rámec → Terminální protokoly | etika ↔ operativa |
+| [01 → 05](@/kompendium/section-bridges/bridge-01-to-05-eticky-ramec-ultramari.md) | Etický rámec → Ultramari | etika ↔ intenzivní praxe |
+| [02 → 03](@/kompendium/section-bridges/bridge-02-to-03-uvod-zakladni-kategorie.md) | Úvod → Základní kategorie | definice ↔ taxonomie |
+| [02 → 07](@/kompendium/section-bridges/bridge-02-to-07-uvod-teoreticke.md) | Úvod → Teoretické reflexe | definice ↔ kritika |
 
 ### B. Vazby z Základních kategorií (5)
 
 | Bridge | Z → Do | Typ |
 |---|---|---|
-| [03 → 04](bridge-03-to-04-zakladni-terminalni/) | Kategorie → Terminální | typologie ↔ exit |
-| [03 → 05](bridge-03-to-05-zakladni-ultramari/) | Kategorie → Ultramari | typologie ↔ ultramari |
-| [03 → 06](bridge-03-to-06-techniky-klinika/) | Techniky → Klinika | abstrakce ↔ aplikace |
-| [03 → 07](bridge-03-to-07-techniky-teorie/) | Techniky → Teorie | praxe ↔ kritika |
+| [03 → 04](@/kompendium/section-bridges/bridge-03-to-04-zakladni-terminalni.md) | Kategorie → Terminální | typologie ↔ exit |
+| [03 → 05](@/kompendium/section-bridges/bridge-03-to-05-zakladni-ultramari.md) | Kategorie → Ultramari | typologie ↔ ultramari |
+| [03 → 06](@/kompendium/section-bridges/bridge-03-to-06-techniky-klinika.md) | Techniky → Klinika | abstrakce ↔ aplikace |
+| [03 → 07](@/kompendium/section-bridges/bridge-03-to-07-techniky-teorie.md) | Techniky → Teorie | praxe ↔ kritika |
 | (k 02 viz výše) | | |
 
 ### C. Vazby z Terminálních protokolů a Ultramari (5)
 
 | Bridge | Z → Do | Typ |
 |---|---|---|
-| [04 → 05](bridge-04-to-05-terminalni-ultramari/) | Terminální → Ultramari | bezpečnostní síť ↔ ultramari |
-| [04 → 06](bridge-04-to-06-terminalni-klinika/) | Terminální → Klinika | protokol ↔ SOP |
-| [04 → 07](bridge-04-to-07-terminalni-teorie/) | Terminální → Teorie | protokol ↔ kritika |
-| [05 → 06](bridge-05-to-06-ultramari-klinika/) | Ultramari → Klinika | technika ↔ klinický vzor |
-| [05 → 07](bridge-05-to-07-ultramari-teorie/) | Ultramari → Teorie | intenzita ↔ filozofie |
+| [04 → 05](@/kompendium/section-bridges/bridge-04-to-05-terminalni-ultramari.md) | Terminální → Ultramari | bezpečnostní síť ↔ ultramari |
+| [04 → 06](@/kompendium/section-bridges/bridge-04-to-06-terminalni-klinika.md) | Terminální → Klinika | protokol ↔ SOP |
+| [04 → 07](@/kompendium/section-bridges/bridge-04-to-07-terminalni-teorie.md) | Terminální → Teorie | protokol ↔ kritika |
+| [05 → 06](@/kompendium/section-bridges/bridge-05-to-06-ultramari-klinika.md) | Ultramari → Klinika | technika ↔ klinický vzor |
+| [05 → 07](@/kompendium/section-bridges/bridge-05-to-07-ultramari-teorie.md) | Ultramari → Teorie | intenzita ↔ filozofie |
 
 ### D. Vazby do Příloh a Teorie (3)
 
 | Bridge | Z → Do | Typ |
 |---|---|---|
-| [05 → 08](bridge-05-to-08-ultramari-prilohy/) | Ultramari → Přílohy | technika ↔ operativní artefakt |
-| [06 → 07](bridge-06-to-07-klinika-teorie/) | Klinika → Teorie | praxe ↔ reflexe |
-| [06 → 08](bridge-06-to-08-klinika-prilohy/) | Klinika → Přílohy | klinika ↔ klinický balíček |
-| [07 → 08](bridge-07-to-08-teorie-prilohy/) | Teorie → Přílohy | reflexe ↔ referenční aparát |
+| [05 → 08](@/kompendium/section-bridges/bridge-05-to-08-ultramari-prilohy.md) | Ultramari → Přílohy | technika ↔ operativní artefakt |
+| [06 → 07](@/kompendium/section-bridges/bridge-06-to-07-klinika-teorie.md) | Klinika → Teorie | praxe ↔ reflexe |
+| [06 → 08](@/kompendium/section-bridges/bridge-06-to-08-klinika-prilohy.md) | Klinika → Přílohy | klinika ↔ klinický balíček |
+| [07 → 08](@/kompendium/section-bridges/bridge-07-to-08-teorie-prilohy.md) | Teorie → Přílohy | reflexe ↔ referenční aparát |
 
 ### E. Transverzální vrstvy (8)
 
 | Bridge | Z → Do | Typ |
 |---|---|---|
-| [Techniques → Case Studies](bridge-techniques-to-case-studies/) | preskripce ↔ narativa |
-| [Techniques → Quick Reference](bridge-techniques-to-quick-reference/) | hluboké ↔ lookup |
-| [Techniques → Glossary](bridge-techniques-to-glossary/) | technika ↔ definice |
-| [Techniques → Visualizations](bridge-techniques-to-visualizations/) | text ↔ vizualizace |
-| [Case Studies → Klinika](bridge-case-studies-to-clinical/) | narativa ↔ systém |
-| [Case Studies → Glossary Bridges](bridge-case-studies-to-glossary-bridges/) | terminologie ↔ kotvy |
-| [Quick Reference → Glossary](bridge-quick-reference-to-glossary/) | lookup ↔ definice |
-| [Visualizations → Techniques](bridge-visualizations-to-techniques/) | reference ↔ technika |
-| [Visualizations → Klinika](bridge-visualizations-to-clinical/) | vizualizace ↔ klinický artefakt |
-| [Glossary Bridges → Filozofie](bridge-glossary-bridges-to-philosophy/) | naming ↔ power act |
+| [Techniques → Case Studies](@/kompendium/section-bridges/bridge-techniques-to-case-studies.md) | preskripce ↔ narativa |
+| [Techniques → Quick Reference](@/kompendium/section-bridges/bridge-techniques-to-quick-reference.md) | hluboké ↔ lookup |
+| [Techniques → Glossary](@/kompendium/section-bridges/bridge-techniques-to-glossary.md) | technika ↔ definice |
+| [Techniques → Visualizations](@/kompendium/section-bridges/bridge-techniques-to-visualizations.md) | text ↔ vizualizace |
+| [Case Studies → Klinika](@/kompendium/section-bridges/bridge-case-studies-to-clinical.md) | narativa ↔ systém |
+| [Case Studies → Glossary Bridges](@/kompendium/section-bridges/bridge-case-studies-to-glossary-bridges.md) | terminologie ↔ kotvy |
+| [Quick Reference → Glossary](@/kompendium/section-bridges/bridge-quick-reference-to-glossary.md) | lookup ↔ definice |
+| [Visualizations → Techniques](@/kompendium/section-bridges/bridge-visualizations-to-techniques.md) | reference ↔ technika |
+| [Visualizations → Klinika](@/kompendium/section-bridges/bridge-visualizations-to-clinical.md) | vizualizace ↔ klinický artefakt |
+| [Glossary Bridges → Filozofie](@/kompendium/section-bridges/bridge-glossary-bridges-to-philosophy.md) | naming ↔ power act |
 
 ## Vztah ke glossary bridges
 
@@ -118,4 +118,4 @@ Obě vrstvy jsou **komplementární** — glossary bridges drží přesnost na �
 
 ## Údržba section bridges
 
-Section bridges jsou **NCLB-validovány** — každý bridge má evidence-link na obě propojené sekce. Pokud se změní sekce, příslušný bridge se reviduje. Viz [Doctrine NCLB](../glossary-bridges/bridge-nclb/).
+Každý section bridge má evidence-link na obě propojené sekce; pokud se některá sekce změní, příslušný bridge se reviduje.

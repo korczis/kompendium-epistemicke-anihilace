@@ -219,10 +219,16 @@ HOWTO_STEP_CELL = re.compile(r"^\s*\|.*\bKrok\s*\d", re.M | re.I)
 DRUG_DOSE = re.compile(r"\d[\d.,]*\s*(?:[–-]|až)?\s*\d*\s*(?:mg|µg|μg|mcg|IU)\b", re.I)
 BIBLIO_HEADING = re.compile(r"^#{1,3}\s+(?:Literatura|Bibliografie|Reference|Zdroje|Prameny)\b", re.I)
 # A "Vztah k/ke <Prismatic component>" heading ties the book to the Prismatic platform. ADR 0007
-# (owner, 2026-11-11: do not import; strip) removed every such section and the two pages that were
-# only this; the gate refuses any reintroduction. Headings only, so it cannot over-match prose.
+# (owner, 2026-11-11: do not import; strip) removed every such section and the pages that were
+# only this; the gate refuses any reintroduction. Headings only, so it cannot over-match prose. The
+# optional number prefix catches a chapter heading like "# 1.6 Vztah ke Prismatic Platformě"
+# (amendment 4), where the section number sits between the # and "Vztah".
 PLATFORM_HEADING = re.compile(
-    r"^#{1,6}\s+Vztah\s+ke?\s+.*(?:Prismatic|Decision\s+Engine|NABLA|Nabla|∇∞)", re.M)
+    r"^#{1,6}\s+(?:[\d.]+\s+)?Vztah\s+ke?\s+.*(?:Prismatic|Decision\s+Engine|NABLA|Nabla|∇∞)", re.M)
+# Platform-hub markers the book must never carry (amendment 5 / dev-31): the cross_link shortcode
+# wrote "Prismatic Platform: /hub/dd/…" into page attributes on ~274 pages, and the platform's
+# internal hub paths leak the private deployment. These are removed; the gate refuses their return.
+PLATFORM_MARKER = re.compile(r"\{\{[^}]*\bcross_link\b|/hub/|/osint/toolbox/")
 TITLE_CODE = re.compile(r"^\s*EA-\d+\.\d+\.\d+\s*[—–:.-]?\s*")
 
 
@@ -296,7 +302,9 @@ def analyse(pages: list) -> dict:
         page["howto"] = bool(HOWTO_HEADING.search(prose) or HOWTO_APPLIER.search(prose)
                              or (technique and (HOWTO_STEP.search(prose) or HOWTO_STEP_CELL.search(prose))))
         page["drug_dose"] = has_drug_dose(prose)
-        page["platform_section"] = [m.group(0).strip() for m in PLATFORM_HEADING.finditer(prose)]
+        page["platform_section"] = (
+            [m.group(0).strip() for m in PLATFORM_HEADING.finditer(prose)]
+            + sorted({m.group(0) for m in PLATFORM_MARKER.finditer(body)}))
         for line in figure_lines(prose) if technique else ():
             figures[line].add(page["path"])
         page["bold_unlinked"] = []

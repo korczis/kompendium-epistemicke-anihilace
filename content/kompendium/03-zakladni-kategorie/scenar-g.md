@@ -313,7 +313,7 @@ Cca 30–40 % případů dosahuje **plné funkční rekonstrukce**. Zbylých 60�
 ### Předmluva
 - [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md)
 - [Etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)
-- [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md)
+- [Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md)
 
 ### Související techniky (cross-link)
 - [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
@@ -336,10 +336,8 @@ Cca 30–40 % případů dosahuje **plné funkční rekonstrukce**. Zbylých 60�
 - [Anankastický režim](@/glossary/anankasticky-rezim.md)
 - [Epistemická alienace](@/glossary/epistemicka-alienace.md)
 - [Anihilační fenomény](@/glossary/anihilacni-fenomeny.md)
-- [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 ### Platforma
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
 

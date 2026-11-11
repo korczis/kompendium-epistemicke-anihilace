@@ -80,6 +80,16 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Rozpoznání sebevyvracejících se popisů prožitku nezakládá diagnózu ani neprokazuje, že dvojnou vazbu
+někdo zavedl úmyslně: Bateson et al. (1956) ji popsali jako vlastnost komunikačního pole, do něhož
+jsou zapojeni všichni účastníci. Neprokazuje ani to, že popsané city nejsou skutečné — nedostupné je
+jejich hodnocení, nikoli jejich prožívání.
+
+Od legitimní reflexe vlastních stavů v terapii se vzorec odlišuje tím, že reflexi zbývá kam
+ustoupit: Herman (1992) klade bezpečí před zkoumání, zde chybí obojí. Od [implantace Berryho paradoxu](@/kompendium/techniques/ea-5-4-10-berry-paradox-implantace.md)
+jej odlišuje nosič paradoxu — tam definovatelnost popisu, zde predikát vztažený na vlastní prožitek,
+který nelze zevnitř odmítnout (Watzlawick et al., 1967).
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |
@@ -157,11 +167,6 @@ Klíčové pojmové kotvy techniky: **Grelling-Nelson, kvalia, fenomenologická 
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
-
 ---
 
 ## Connect & Contribute

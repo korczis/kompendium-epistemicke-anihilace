@@ -50,12 +50,6 @@ EA techniky lze **operacionalizovat** jako sociální praktiky se **systematicky
 
 Goldman dále rozvíjí **bayesovský** model sociální epistemologie: agent updateuje svá přesvědčení podle pravděpodobností přiřazených zdrojům informací. Spolehlivý zdroj generuje silnější update; nespolehlivý slabší.
 
-Pro [Decision Engine](@/glossary/decision-core.md) Prismatic platformy je tento rámec **přímo aplikovatelný**:
-
-- **Source diversity check** ↔ Goldmanova analýza, že agregace více nezávislých zdrojů zvyšuje veritistickou hodnotu
-- **Confidence calibration** ↔ Goldmanův princip váženého update podle reliability zdroje
-- **Provenance Mandatory** ([NABLA](@/glossary/nabla-infinity.md) Axiom 7) ↔ Goldmanova analýza, že **traceabilita** je nutnou podmínkou rationálního update
-
 ### 1.4 Limity Goldmanova rámce pro EA
 
 Veritistická perspektiva má **dvě signifikantní** limity:
@@ -148,15 +142,6 @@ Longino poskytuje kompendiu **strukturální** kritérium pro identifikaci patol
 | Imunizace proti falsifikaci | Responsivita + veřejné standardy |
 | Algoritmické filtrace | Veřejná dostupnost kanálů |
 
-### 3.3 Color Teams jako Longino-implementation
-
-Architektura **[Color Teams](@/glossary/color-teams.md)** v Prismatic platformě **přímo implementuje** Longino podmínky:
-
-- **[Red Team](@/glossary/red-team.md)** zajišťuje veřejnou dostupnost kanálů kritiky (institucionalizovaná adversariální role)
-- **[Blue Team](@/glossary/blue-team.md)** zajišťuje responsivitu (povinnost reagovat na Red Team kritiku)
-- **[Purple Team](@/glossary/purple-team.md)** zajišťuje sdílené standardy (synthetizující meta-evaluaci)
-- Symetrická struktura zajišťuje zmocněnou rovnost
-
 ### 3.4 Hodnotová neutralita: kritická revize
 
 Longino kriticky revidoval pojem **hodnotové neutrality** vědy. Argumentuje, že **neutralita** je nedosažitelná — všechny vědecké rámce nutně vtělují **hodnotové předpoklady**. Klíčem není neutralita, ale **transparentnost** těchto předpokladů a **otevřenost** ke kritice.
@@ -198,7 +183,6 @@ Pro EA to má klíčový význam: **institucionální delegitimizace whistleblow
 | **Centrální pojem** | Veritistická hodnota | Epistemická nespravedlnost | Kritický kontextový empirismus | Demokratická epistemologie |
 | **Hlavní přínos pro EA** | Kvantitativní hodnocení EA technik | Identifikace strukturálních asymetrií | Strukturální podmínky integrity | Společenský horizont integrace |
 | **Slabina** | Slepota k mocenským asymetriím | Limitovaná operacionalizace | Idealizovaná představa vědy | Limitovaná implementace |
-| **Architektonická implementace v Prismatic** | [Decision Engine](@/glossary/decision-engine.md) source weighting | Hermeneutický aparát kompendia | Color Teams | Cross-team collaboration |
 
 ## 6. Limity sociální epistemologie
 
@@ -213,9 +197,8 @@ Sociální epistemologie samotná **není dostačující** pro pokrytí fenomén
 Sociálně-epistemologické rámce jsou v kompendiu integrovány **napříč**:
 
 - **Notační systém EA-X.Y.Z** ↔ Frickerová hermeneutický akt
-- **Decision Engine** ↔ Goldman veritism + bayesovský update
-- **Color Teams** ↔ Longino strukturální podmínky integrity
-- **Cross-team collaboration** ↔ Anderson demokratická epistemologie
+- **Kritéria vážení zdrojů** ↔ Goldman veritism + bayesovský update
+- **Strukturální podmínky epistemické integrity** ↔ Longino
 - **Klasifikace technik delegitimizace** (3.5) ↔ Frickerová testimoniální nespravedlnost
 
 ## Související
@@ -242,9 +225,6 @@ Sociálně-epistemologické rámce jsou v kompendiu integrovány **napříč**:
 - [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
 - [Glosář: Gaslighting](@/glossary/gaslighting.md)
 - [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
-- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Glosář: Color Teams](@/glossary/color-teams.md)
-- [Glosář: Decision Core](@/glossary/decision-core.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 

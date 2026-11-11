@@ -167,19 +167,15 @@ reflexivní kapacita nic neříká o pravdivosti konkrétního tvrzení (Fricker
 ## Význam pro Kompendium
 
 Kniha s metakognicí pracuje jako s tím, co její předmět poškozuje, a zároveň jako s hlavní
-obranou. Na platformě, z níž kniha vzešla, je proto metakognice řešena strukturou, ne výzvou
-k větší pozornosti: [Decision Engine](@/glossary/decision-engine.md) vyžaduje u rozhodnutí
-s vysokou sázkou zaznamenanou předpověď, falzifikační klauzuli a vyjádřenou míru jistoty, tedy
-právě ty operace, které monitorování podle Nelsonova a Narensova modelu obvykle vynechává
-(Nelson a Narens, 1990). Kalibrační smyčka platformy pak měří metakognitivní přesnost tak, jak
-ji měří výzkum: srovnáním hlášené jistoty se skutečnou úspěšností (Koriat, 1997).
+obranou. Proto k ní vede strukturou, ne výzvou k větší pozornosti: u rozhodnutí s vysokou
+sázkou zaznamenanou předpovědí, falzifikační klauzulí a vyjádřenou mírou jistoty, tedy právě
+těmi operacemi, které monitorování podle Nelsonova a Narensova modelu obvykle vynechává
+(Nelson a Narens, 1990). Metakognitivní přesnost se pak měří tak, jak ji měří výzkum:
+srovnáním hlášené jistoty se skutečnou úspěšností (Koriat, 1997).
 
-[NABLA Infinity](@/glossary/nabla-infinity.md) vede metakognitivní pozorování jako samostatný
-proud záznamů oddělený od přesvědčení na objektové úrovni; architektura
-[3NL](@/glossary/3nl.md) a cvičení [Red Teamu](@/glossary/red-team.md) v rámci [Color
-Teams](@/glossary/color-teams.md) mají tuto vrstvu zatěžovat. Že lze takto nahradit část lidské
-reflexe vnějším záznamem, je *interpretace knihy*; opřít ji lze o doklad, že introspektivní
-zpráva není přímým pozorováním procesu (Nisbett a Wilson, 1977). Rozměr první osoby doplňuje
+Že lze část lidské reflexe nahradit vnějším záznamem, je *interpretace knihy*; opřít ji lze
+o doklad, že introspektivní zpráva není přímým pozorováním procesu (Nisbett a Wilson, 1977).
+Rozměr první osoby doplňuje
 [fenomenologie](@/glossary/fenomenologie.md), zkreslení, která neporušená metakognice zachytí,
 popisuje [kognitivní bias](@/glossary/kognitivni-bias.md), a výsledný stav odcizení od
 vlastního úsudku [epistemická alienace](@/glossary/epistemicka-alienace.md).

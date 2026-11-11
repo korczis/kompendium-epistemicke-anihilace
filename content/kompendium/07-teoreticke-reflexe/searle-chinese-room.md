@@ -201,7 +201,6 @@ připisováním porozumění tam, kde jeho přítomnost nelze ověřit (Weizenba
 - [Intencionalita](@/glossary/intentionalita.md) – zaměřenost mentálních stavů, kterou syntax nevysvětlí.
 - [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md) – vztah k systému, který porozumění jen simuluje.
 - [Delegitimizace](@/glossary/delegitimizace.md) – útok na kolektivní uznání institucí.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec platformy, z níž kniha vzešla, s požadavkem ověřitelného původu tvrzení.
 
 **Filozofie knihy**
 

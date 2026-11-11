@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.4 Bot networks
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -75,6 +74,8 @@ Hranice mezi koordinovanou advokacií a neautentickým chováním není vždy os
 Zprávy platforem o odstraněných sítích jsou důležitým zdrojem, ale nelze je nezávisle ověřit; kniha je proto uvádí jako zdroj s omezeními.
 
 Otevřenou otázkou zůstává i to, jak sítě rozpoznat včas.
+
+Rozpoznání sítě přitom nedokládá dvě věci, které se mu často připisují. Nedokládá, že šířený obsah byl nepravdivý – kategorie je definována klamem o aktérovi, nikoli o sdělení –, ani že kampaň měla účinek; odstranění sítě není měřením toho, co stihla změnit. Wardle a Derakhshan (2017) proto doporučují posuzovat aktéra, sdělení a interpreta odděleně, a tato stránka se drží prvního z nich. Benkler, Faris a Roberts (2018) navíc upozorňují, že soustředění na koordinované sítě může odvést pozornost od domácích mediálních mechanismů, které obsahu dávají skutečný dosah. *Interpretace knihy*: vysvětlení „byla to síť“ bývá přijato jako úplné, přitom teprve otevírá otázku, proč se obsah uchytil.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

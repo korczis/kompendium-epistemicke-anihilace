@@ -20,7 +20,7 @@ keywords = ["informed consent", "consent form", "voluntary consent", "capacity",
 key_takeaway = "Informed consent has three irreducible elements: capacity (the ability to understand and decide), voluntariness (absence of coercion or undue influence), and adequate disclosure of material information. A consent missing any of the three is no consent at all, regardless of what the document says."
 see_also = ["irb-review", "individual-risk-map", "transformative-experience"]
 image = "/images/sections/glossary.png"
-image_alt = "Informed Consent - Prismatic Platform"
+image_alt = "Informed Consent"
 +++
 
 ## Definice
@@ -153,7 +153,7 @@ přehlédnout ochranu (Grisso a Appelbaum, 1998).
 
 ## Význam pro Kompendium
 
-Na platformě Prismatic, z níž kniha vzešla, se princip uplatňoval v klinickém výzkumu,
+Ve vývojovém kontextu, z něhož kniha vzešla, se princip uplatňoval v klinickém výzkumu,
 behaviorálních studiích, výzkumu AI na lidských datech, v operacích [OSINT](@/glossary/osint.md)
 (tam, kde je souhlas subjektu relevantní) a v kontextu [due diligence](@/glossary/due-diligence.md)
 při rozhovorech se zaměstnanci cílové firmy a dalšími respondenty; tam se souhlas týká

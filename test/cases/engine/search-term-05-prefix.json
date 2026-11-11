@@ -5,85 +5,135 @@
     "hits": [
       {
         "code": null,
-        "in": 288,
+        "in": 263,
         "kind": "Pojem",
-        "path": "glossary/coercive-control.md",
+        "path": "glossary/delegitimizace.md",
         "tier": 4,
-        "title": "Coercive control (donucující kontrola)",
-        "url": "/glossary/coercive-control/",
+        "title": "Delegitimizace",
+        "url": "/glossary/delegitimizace/",
         "why": "title_prefix"
       },
       {
         "code": null,
-        "in": 49,
+        "in": 9,
         "kind": "Kapitola",
-        "path": "kompendium/forensic-legal/12-coercive-control-law.md",
-        "tier": 5,
-        "title": "Právní úprava coercive control",
-        "url": "/kompendium/forensic-legal/12-coercive-control-law/",
-        "why": "title_word"
-      },
-      {
-        "code": "EA-8.2.5",
-        "in": 17,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
-        "tier": 5,
-        "title": "EA-8.2.5 Starkův rámec coercive control",
-        "url": "/kompendium/techniques/ea-8-2-5-stark-coercive-control/",
-        "why": "title_word"
-      },
-      {
-        "code": "EA-8.1.4",
-        "in": 13,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-8-1-4-coercive-control-scale.md",
-        "tier": 5,
-        "title": "EA-8.1.4 Měření coercive control (škály a dotazníky)",
-        "url": "/kompendium/techniques/ea-8-1-4-coercive-control-scale/",
-        "why": "title_word"
+        "path": "kompendium/03-zakladni-kategorie/delegitimizace.md",
+        "tier": 4,
+        "title": "Delegitimizace – odnětí epistemického postavení",
+        "url": "/kompendium/03-zakladni-kategorie/delegitimizace/",
+        "why": "title_prefix"
       },
       {
         "code": null,
-        "in": 12,
-        "kind": "Most",
-        "path": "kompendium/glossary-bridges/bridge-coercive-control.md",
+        "in": 170,
+        "kind": "Kapitola",
+        "path": "kompendium/03-zakladni-kategorie/kapitola-2.md",
         "tier": 5,
-        "title": "Bridge: Coercive control (donucující kontrola)",
-        "url": "/kompendium/glossary-bridges/bridge-coercive-control/",
+        "title": "3.2 Scénáře epistemické delegitimizace",
+        "url": "/kompendium/03-zakladni-kategorie/kapitola-2/",
         "why": "title_word"
       },
       {
-        "code": "EA-8.3.1",
-        "in": 7,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-8-3-1-foundational-readings.md",
-        "tier": 6,
-        "title": "EA-8.3.1 Základní literatura",
-        "url": "/kompendium/techniques/ea-8-3-1-foundational-readings/",
-        "why": "description"
+        "code": "EA-3.2.F",
+        "in": 37,
+        "kind": "Kapitola",
+        "path": "kompendium/03-zakladni-kategorie/scenar-f.md",
+        "tier": 5,
+        "title": "3.2.F Scénář F: Kolektivní epistemická delegitimizace",
+        "url": "/kompendium/03-zakladni-kategorie/scenar-f/",
+        "why": "title_word"
       },
       {
         "code": null,
         "in": 6,
-        "kind": "Kapitola",
-        "path": "kompendium/international/27-australian-law-EA/index.md",
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-delegitimizace.md",
+        "tier": 5,
+        "title": "Bridge: Delegitimizace",
+        "url": "/kompendium/glossary-bridges/bridge-delegitimizace/",
+        "why": "title_word"
+      },
+      {
+        "code": "EA-7.1.7",
+        "in": 5,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-7-1-7-deleuze-rhizome.md",
+        "tier": 5,
+        "title": "EA-7.1.7 Deleuze a Guattari: rhizom",
+        "url": "/kompendium/techniques/ea-7-1-7-deleuze-rhizome/",
+        "why": "title_word"
+      },
+      {
+        "code": "EA-1.2.1",
+        "in": 66,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-1-2-1-falesne-dilema.md",
         "tier": 6,
-        "title": "Austrálie — EA právní rámec",
-        "url": "/kompendium/international/27-australian-law-ea/",
+        "title": "EA-1.2.1 Falešné dilema",
+        "url": "/kompendium/techniques/ea-1-2-1-falesne-dilema/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 65,
+        "kind": "Pojem",
+        "path": "glossary/love-bombing.md",
+        "tier": 6,
+        "title": "Love bombing",
+        "url": "/glossary/love-bombing/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 31,
+        "kind": "Kapitola",
+        "path": "kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md",
+        "tier": 6,
+        "title": "7.18 Arendt: Banalita zla a krize úsudku",
+        "url": "/kompendium/07-teoreticke-reflexe/arendt-banalita-zla/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 29,
+        "kind": "Pojem",
+        "path": "glossary/power-knowledge.md",
+        "tier": 6,
+        "title": "Moc-vědění (power-knowledge, pouvoir-savoir)",
+        "url": "/glossary/power-knowledge/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 29,
+        "kind": "Krizový protokol",
+        "path": "kompendium/emergency-protocols/7-acute-cognitive-paralysis.md",
+        "tier": 6,
+        "title": "Akutní protokol: Akutní kognitivní paralýza",
+        "url": "/kompendium/emergency-protocols/7-acute-cognitive-paralysis/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 24,
+        "kind": "Kapitola",
+        "path": "kompendium/critical-perspectives/9-essentialism-critique.md",
+        "tier": 6,
+        "title": "Esencialistický klam v kategoriích EA",
+        "url": "/kompendium/critical-perspectives/9-essentialism-critique/",
         "why": "description"
       }
     ],
     "limit": 12,
-    "normalised": "coe",
+    "normalised": "del",
     "ok": true,
     "op": "search",
-    "query": "Coe",
+    "query": "Del",
     "schema": "kompendium-engine/v1",
-    "total": 7
+    "total": 33
   },
   "input": {
     "op": "search",
-    "query": "Coe"
+    "query": "Del"
   }
 }

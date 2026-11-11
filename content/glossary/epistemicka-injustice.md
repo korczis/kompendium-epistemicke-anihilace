@@ -158,9 +158,9 @@ Kniha svou českou taxonomii chápe jako rozšíření hermeneutického zdroje p
 zasažené; v tomto smyslu je sama nápravným zásahem – *interpretace knihy*, opřená o Frickerové
 tezi, že náprava hermeneutické nespravedlnosti vyžaduje vytvoření chybějících pojmů
 (Fricker, 2007). Část [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) tento
-krok rozebírá. Na platformě, z níž kniha vzešla, se váhy důvěryhodnosti zdrojů v [Decision
-Engine](@/glossary/decision-engine.md) kontrolují na vzorce snižování podle identity, tedy
-právě na to, co Medina popisuje jako poměrné hodnocení důvěryhodnosti (Medina, 2011).
+krok rozebírá. Posuzování důvěryhodnosti je proto třeba kontrolovat na vzorce snižování podle
+identity – právě na to, co Medina popisuje jako poměrné hodnocení důvěryhodnosti
+(Medina, 2011).
 
 ## Obrana a náprava
 

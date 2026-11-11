@@ -5,7 +5,7 @@ weight = 110
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "due-diligence"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["10-ea-dd-source-weighting", "4-ea-osint-sanctions-list-bias", "6-ea-osint-bot-detection", "15-ea-dd-evidence-quality-assessment"]
@@ -14,9 +14,7 @@ toc = true
 
 Prověrky protistran, screening klientů i hodnocení rizik se stále častěji opírají
 o rozhodovací systémy – modely, které z dat vypočítají skóre rizika a doporučí postup.
-Kniha vznikla v prostředí platformy, která takový systém obsahuje (viz
-[Decision Engine](@/glossary/decision-engine.md) a [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md)).
-Tato stránka se nezabývá konkrétní implementací, ale obecnou otázkou: kdy lze číslu
+Tato stránka se nezabývá konkrétní implementací takového systému, ale obecnou otázkou: kdy lze číslu
 z rozhodovacího systému věřit, jak to ověřit a jak zabránit tomu, aby se z pomůcky stala
 autorita, které se nikdo neodváží odporovat.
 
@@ -81,7 +79,7 @@ s pravidlem, že posuzovatel musí uvést vlastní důvody, nikoli jen potvrdit 
 je **sledování míry přepsání**: příliš nízká míra signalizuje automation bias, příliš
 vysoká nedůvěru nebo špatný model. Čtvrtým je **vysvětlitelnost** – schopnost říct
 dotčené osobě, které faktory rozhodly. Pátým je **red teaming systému** – záměrné hledání
-způsobů, jak by šlo systém obejít nebo zmást (viz [Red Team & EA detection](@/kompendium/aiad-integration/red-team-ea-detection.md)).
+způsobů, jak by šlo systém obejít nebo zmást.
 Šestým je **audit dat**, z nichž se systém učí, na přítomnost historických zkreslení.
 
 ## Lidský rozměr a zotavení
@@ -122,15 +120,24 @@ nevěděli a nemohli se mu bránit.
 ## Meze a otevřené otázky
 
 Kalibraci lze měřit jen tam, kde se výsledek dozvíme; u odmítnutých klientů nevíme, jak
-by se zachovali, takže systém se může „potvrzovat“ sám. Otevřenou otázkou je, jak tuto
-mezeru zmenšit a jak udržet profesní úsudek analytiků v prostředí, kde systémy rozhodují
-stále víc.
+by se zachovali, takže systém se může „potvrzovat“ sám. Lakkaraju a kol. (2017) tuto
+překážku pojmenovali jako problém selektivních značek: hodnotí-li se model na datech, která
+sama vznikla rozhodováním podle téhož nebo podobného pravidla, chybějí výsledky u případů,
+které byly odmítnuty, a zkresleno je i srovnání systému s lidským posuzovatelem.
+
+Druhé omezení je výkladové. Dobře kalibrované skóre je tvrzením o souboru případů, ne
+o jednom klientovi. Z toho, že se u případů s určitým skóre ukáže problém v odpovídajícím
+podílu, o konkrétním člověku nevyplývá nic víc než to, že patří do skupiny, v níž se to
+stává; skóre proto nenahrazuje důvod rozhodnutí a nestává se jím ani tehdy, je-li kalibrace
+bezchybná. Otevřenou otázkou zůstává, jak mezeru v datech zmenšit a jak udržet profesní
+úsudek analytiků v prostředí, kde systémy rozhodují stále víc.
 
 ## Literatura
 
 - Brier, G. W. (1950). Verification of forecasts expressed in terms of probability.
 - Dietvorst, B. J., Simmons, J. P., Massey, C. (2015). Algorithm aversion: People erroneously avoid algorithms after seeing them err.
 - Kahneman, D., Sibony, O., Sunstein, C. R. (2021). *Noise: A Flaw in Human Judgment.*
+- Lakkaraju, H., Kleinberg, J., Leskovec, J., Ludwig, J., Mullainathan, S. (2017). The selective labels problem: Evaluating algorithmic predictions in the presence of unobservables. In *Proceedings of KDD 2017*.
 - Parasuraman, R., Manzey, D. H. (2010). Complacency and bias in human use of automation.
 - Tetlock, P. E., Gardner, D. (2015). *Superforecasting: The Art and Science of Prediction.*
 - Nařízení (EU) 2016/679 (GDPR), čl. 22; nařízení (EU) 2024/1689 o umělé inteligenci.
@@ -142,11 +149,6 @@ stále víc.
 - [Vážení zdrojů](@/kompendium/cross-domain/10-ea-dd-source-weighting.md) – vstupy rozhodovacího systému.
 - [Sankční seznamy a falešné shody](@/kompendium/cross-domain/4-ea-osint-sanctions-list-bias.md) – automatizovaný screening.
 - [Detekce botů](@/kompendium/cross-domain/6-ea-osint-bot-detection.md) – skóre jako hypotéza.
-
-**Kontext platformy**
-
-- [Decision Engine & EA detection](@/kompendium/aiad-integration/decision-engine-ea-calibration.md) – kalibrace v platformě.
-- [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md) – vztah knihy k systému.
 
 **Pojmy**
 

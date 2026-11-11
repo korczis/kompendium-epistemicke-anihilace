@@ -109,10 +109,6 @@ Konkrétně:
 - Kapitola [7. Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) chápe Baudrillarda
   jako diagnostický aparát pro **pozdní stadia** prostředí EA, v nichž moderní obrany založené na
   korespondenci nestačí.
-- Výslovné **sledování provenience** a **audit rozmanitosti zdrojů** v [Decision
-  Engine](@/glossary/decision-engine.md) jsou protisimulakrální architektonické závazky:
-  odmítají pracovat jen s vnitřní soudržností a vyžadují ukotvení ve vnějších kontrolách reality
-  (viz [Axiomy NABLA](@/glossary/nabla-axioms.md)).
 - Klinické aplikace v oddílu [06. Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
   popisují intervence určené k novému ukotvení pacientů, kteří dlouho žili v simulakrálních
   prostředích třetího nebo čtvrtého stupně.

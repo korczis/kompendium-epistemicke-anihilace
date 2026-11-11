@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.3 Sociální platformy
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -77,6 +76,8 @@ Otevřené zůstává i to, kdy má být kampaň veřejně označena za koordino
 Pro výzkumníky je klíčový přístup k datům více platforem, bez něhož koordinaci nelze spolehlivě doložit.
 
 Kniha proto doporučuje opatrnost v obou směrech.
+
+Současný výskyt na více platformách sám neprokazuje jediného organizátora. Stejný obraz vytvoří i několik nezávislých skupin, které reagují na tentýž podnět, nebo jeden virální příspěvek převzatý napříč prostředími; koordinaci dokládá teprve shoda ve věcech, které se spontánně neopakují – totožné formulace, pořadí publikace, sdílená infrastruktura účtů. Z doložené kampaně navíc neplyne, že lidé, kteří se k ní přidali, jsou neautentičtí: Starbird, Arif a Wilson (2019) popisují zapojení přesvědčených uživatelů jako pravidlo, nikoli výjimku. Označit účastníka za součást operace je proto jiný a mnohem silnější závěr než popsat samu operaci, a kniha jej od popisu vzorce důsledně odděluje.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

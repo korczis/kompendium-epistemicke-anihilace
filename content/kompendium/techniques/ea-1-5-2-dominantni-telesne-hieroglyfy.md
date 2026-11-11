@@ -227,9 +227,6 @@ Intervence: Klinické protokoly — written treatment options requirement, manda
 - **Forward-references**:
   - [Sekce 04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Sekce 05 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [Color Teams](@/glossary/color-teams.md)
 
 ## Co ověřit před čtením
 

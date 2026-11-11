@@ -179,10 +179,6 @@ Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signa
   - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
 
 ## Co ověřit před čtením
 

@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.3 Sociální platformy
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -73,6 +72,14 @@ Dva sourozenci se pohádají o tom, zda „všichni“ v jejich městě podporuj
 Rozsah filtračních bublin je předmětem sporu: část výzkumů ukazuje, že lidé online potkávají víc různorodého obsahu, než se předpokládalo, a že výběr vlastních zdrojů hraje větší roli než algoritmus. Kniha proto neoznačuje každou personalizaci za agresi, ale jen cílené využití profilu ke zkreslení obrazu světa.
 
 Další otázkou je, jak měřit rozmanitost obsahu, který uživatelé skutečně vidí.
+
+Jednostranný feed neprokazuje, že profil uživatele někdo cíleně využil: tentýž obraz vzniká
+z vlastních voleb a ze sledovaných účtů (Kozyreva, Lewandowsky a Hertwig 2020). Rozpoznání vzorce
+navíc nedokládá změnu postojů; to, že někdo jiné hlasy nevidí, neznamená, že by je odmítl.
+
+*Interpretace knihy*: praktickým rozlišovacím kritériem je dostupnost jiného pohledu, nikoli jeho
+výskyt ve feedu. Nguyenovo (2020) rozlišení bubliny a ozvěnové komory má zde přímý důsledek: kde
+jiné hlasy jen chybějí, pomáhá jejich doplnění, kde jsou zdiskreditovány, nepomáhá.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

@@ -1,5 +1,6 @@
 +++
 title = "Epistemic security (epistemická bezpečnost)"
+aliases = ["/glossary/addiction-recovery/"]
 weight = 60
 
 description = "Mezioborové pole, které studuje systémové hrozby pro kolektivní i individuální poznávání: dezinformace, manipulovaná média, správu platforem a integritu poznávacích procesů."
@@ -9,7 +10,7 @@ tags = ["glossary", "security", "epistemic", "kompendium"]
 
 [extra]
 category = "security"
-related_terms = ["info-ops", "deepfake", "deplatforming", "firehose-of-falsehood", "epistemicka-anihilace", "nabla-infinity"]
+related_terms = ["info-ops", "deepfake", "deplatforming", "firehose-of-falsehood", "epistemicka-anihilace"]
 author = "Tomáš Korcak (korczis)"
 date_created = "2026-04-25"
 date_modified = "2026-11-10"
@@ -130,9 +131,7 @@ a prevence](@/kompendium/population-health/_index.md).
 Vlastním přínosem knihy je převod oborových pojmů na úroveň jediného vztahu: co zpráva Alan
 Turing Institute popisuje jako poškození společenské infrastruktury, popisuje kniha jako
 poškození jednoho člověka, u něhož je infrastrukturou okruh lidí, jimž může věřit
-(*interpretace knihy*, navazující na Seger a kol., 2020). Pojmy platformy, z níž kniha vzešla, jsou k témuž rámci připojeny
-v heslech [NABLA Infinity](@/glossary/nabla-infinity.md) a
-[Decision Engine](@/glossary/decision-engine.md).
+(*interpretace knihy*, navazující na Seger a kol., 2020).
 
 ## Obrana a zotavení
 

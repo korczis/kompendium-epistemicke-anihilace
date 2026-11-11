@@ -71,9 +71,6 @@
  "bold:continuous-adjustment": [
   "bold-candidate"
  ],
- "bold:contradiction-preservation": [
-  "bold-candidate"
- ],
  "bold:defenzivni-rozpoznani": [
   "bold-candidate"
  ],
@@ -461,9 +458,6 @@
  "bold:nez-prejdes-ke-konkretnim-kategoriim": [
   "bold-candidate"
  ],
- "bold:nezavislost-zdroju": [
-  "bold-candidate"
- ],
  "bold:nizka": [
   "bold-candidate"
  ],
@@ -614,9 +608,6 @@
  "bold:prostredi": [
   "bold-candidate"
  ],
- "bold:provenance-mandatory": [
-  "bold-candidate"
- ],
  "bold:proverit-ucty": [
   "bold-candidate"
  ],
@@ -660,9 +651,6 @@
   "bold-candidate"
  ],
  "bold:reverzibilni": [
-  "bold-candidate"
- ],
- "bold:revizi": [
   "bold-candidate"
  ],
  "bold:rozsiruje": [
@@ -758,9 +746,6 @@
  "bold:strukturalni-podminky": [
   "bold-candidate"
  ],
- "bold:strukturne-izomorfni": [
-  "bold-candidate"
- ],
  "bold:strukturni": [
   "bold-candidate"
  ],
@@ -798,9 +783,6 @@
   "bold-candidate"
  ],
  "bold:terminologicka-mystifikace": [
-  "bold-candidate"
- ],
- "bold:time-decay": [
   "bold-candidate"
  ],
  "bold:transcendentalni-iluze": [
@@ -887,9 +869,6 @@
  "bold:y": [
   "bold-candidate"
  ],
- "bold:zachovani-rozporu": [
-  "bold-candidate"
- ],
  "bold:zadny": [
   "bold-candidate"
  ],
@@ -930,37 +909,12 @@
   "weak-link",
   "citations"
  ],
- "content/glossary/3nl.md": [
-  "bullets",
-  "citations"
- ],
  "content/glossary/_index.md": [
   "bullets",
   "citations",
   "bold-term"
  ],
- "content/glossary/adapter-pattern.md": [
-  "citations"
- ],
- "content/glossary/addiction-recovery.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/agent-registry.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/agent-tier.md": [
-  "bullets",
-  "citations"
- ],
  "content/glossary/agent.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/aiad.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
@@ -1000,10 +954,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/archer-supreme.md": [
-  "bullets",
-  "citations"
- ],
  "content/glossary/aristotelovy-kategorie.md": [
   "detail",
   "weak-link",
@@ -1016,21 +966,9 @@
   "bullets",
   "citations"
  ],
- "content/glossary/autoevolve.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/autoheal.md": [
-  "bullets",
-  "citations"
- ],
  "content/glossary/banalita-zla.md": [
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/black-team.md": [
   "bullets",
   "citations"
  ],
@@ -1044,19 +982,9 @@
   "bullets",
   "citations"
  ],
- "content/glossary/bounded-context.md": [
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
  "content/glossary/category-mistake.md": [
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/censys.md": [
   "bullets",
   "citations"
  ],
@@ -1078,14 +1006,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/clean-run.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/color-teams.md": [
-  "bullets",
-  "citations"
- ],
  "content/glossary/communicative-rationality.md": [
   "detail",
   "weak-link",
@@ -1103,14 +1023,6 @@
   "bullets",
   "citations",
   "bold-term"
- ],
- "content/glossary/decision-core.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/decision-engine.md": [
-  "bullets",
-  "citations"
  ],
  "content/glossary/demarkacni-problem.md": [
   "detail",
@@ -1161,24 +1073,13 @@
   "bullets",
   "citations"
  ],
- "content/glossary/doctrine.md": [
-  "bullets",
-  "citations"
- ],
  "content/glossary/doubling.md": [
   "detail",
   "weak-link",
   "bullets",
   "citations"
  ],
- "content/glossary/dual-use-poznani.md": [
-  "citations"
- ],
  "content/glossary/due-diligence.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/easm.md": [
   "bullets",
   "citations"
  ],
@@ -1195,13 +1096,7 @@
   "citations"
  ],
  "content/glossary/entity-resolution.md": [
-  "bullets",
-  "citations",
-  "bold-term"
- ],
- "content/glossary/epistemic-pipeline.md": [
-  "citations",
-  "bold-term"
+  "citations"
  ],
  "content/glossary/epistemicka-agentnost.md": [
   "detail",
@@ -1276,11 +1171,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/fllm.md": [
-  "bullets",
-  "citations",
-  "citation-unresolved"
- ],
  "content/glossary/forensic-interview.md": [
   "detail",
   "weak-link",
@@ -1305,10 +1195,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/gitl.md": [
-  "bullets",
-  "citations"
- ],
  "content/glossary/godeluv-teorem.md": [
   "detail",
   "weak-link",
@@ -1319,22 +1205,9 @@
   "bullets",
   "citations"
  ],
- "content/glossary/gray-team.md": [
-  "citations"
- ],
- "content/glossary/greynoise.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/habitus.md": [
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/hawkeye.md": [
   "bullets",
   "citations"
  ],
@@ -1480,10 +1353,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/know.md": [
-  "bullets",
-  "citations"
- ],
  "content/glossary/kognitivni-bias.md": [
   "detail",
   "weak-link",
@@ -1563,10 +1432,6 @@
   "citations",
   "bold-term"
  ],
- "content/glossary/m5m.md": [
-  "bullets",
-  "citations"
- ],
  "content/glossary/mereologicka-rekonstrukce.md": [
   "detail",
   "weak-link",
@@ -1605,15 +1470,6 @@
   "citations",
   "citation-unresolved"
  ],
- "content/glossary/nabla-axioms.md": [
-  "bullets",
-  "citations",
-  "bold-term"
- ],
- "content/glossary/nabla-infinity.md": [
-  "bullets",
-  "citations"
- ],
  "content/glossary/narativni-topologie.md": [
   "detail",
   "weak-link",
@@ -1626,20 +1482,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/nclb.md": [
-  "bullets",
-  "citations",
-  "bold-term"
- ],
- "content/glossary/nm-nd.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/no-mercy-no-doubts.md": [
-  "bullets",
-  "citations",
-  "bold-term"
- ],
  "content/glossary/normalni-veda.md": [
   "detail",
   "weak-link",
@@ -1649,10 +1491,6 @@
  "content/glossary/noumenum.md": [
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/nwb.md": [
   "bullets",
   "citations"
  ],
@@ -1765,25 +1603,7 @@
   "bullets",
   "citations"
  ],
- "content/glossary/qdp.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/qeve.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/quality-debt.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/red-team.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/regression-test.md": [
   "bullets",
   "citations"
  ],
@@ -1808,10 +1628,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/seal.md": [
-  "bullets",
-  "citations"
- ],
  "content/glossary/secure-attachment.md": [
   "detail",
   "weak-link",
@@ -1831,22 +1647,6 @@
   "citations",
   "citation-unresolved"
  ],
- "content/glossary/session-discipline.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/shodan.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/signal-plurality.md": [
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
  "content/glossary/simulacra.md": [
   "detail",
   "weak-link",
@@ -1859,17 +1659,9 @@
   "bullets",
   "citations"
  ],
- "content/glossary/strategic-command.md": [
-  "bullets",
-  "citations"
- ],
  "content/glossary/strukturalni-trauma.md": [
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/supreme-commander.md": [
   "bullets",
   "citations"
  ],
@@ -1886,22 +1678,7 @@
   "bullets",
   "citations"
  ],
- "content/glossary/tach.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/tactical-execution.md": [
-  "bullets",
-  "citations",
-  "bold-term"
- ],
  "content/glossary/tautologie.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/three-nested-loops.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -1920,10 +1697,6 @@
   "citations",
   "bibliography"
  ],
- "content/glossary/trinity-gate.md": [
-  "bullets",
-  "citations"
- ],
  "content/glossary/verejna-sfera.md": [
   "detail",
   "weak-link",
@@ -1933,10 +1706,6 @@
  "content/glossary/via-negativa.md": [
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/violation-protocol.md": [
   "bullets",
   "citations"
  ],
@@ -1952,21 +1721,9 @@
   "bullets",
   "citations"
  ],
- "content/glossary/white-team.md": [
-  "bullets",
-  "citations"
- ],
  "content/glossary/zenon-paradox.md": [
   "detail",
   "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/zero-warning-policy.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/zero.md": [
   "bullets",
   "citations"
  ],
@@ -1990,7 +1747,6 @@
   "citations"
  ],
  "content/kompendium/01-predmluva/vztah-k-platforme.md": [
-  "bullets",
   "citations"
  ],
  "content/kompendium/01-zaklady-manipulace/_index.md": [
@@ -2263,8 +2019,7 @@
  ],
  "content/kompendium/07-teoreticke-reflexe/computational-epistemology.md": [
   "bullets",
-  "citations",
-  "bold-term"
+  "citations"
  ],
  "content/kompendium/07-teoreticke-reflexe/digitalni-vek.md": [
   "bullets",
@@ -2348,96 +2103,12 @@
  ],
  "content/kompendium/08-prilohy/zkratky.md": [
   "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
+  "citations"
  ],
  "content/kompendium/_index.md": [
   "bullets",
   "citations",
   "bold-term"
- ],
- "content/kompendium/aiad-integration/_index.md": [
-  "bullets",
-  "citations"
- ],
- "content/kompendium/aiad-integration/archer-supreme-ea-orchestration.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/autoevolve-ea-pattern-evolution.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/autoheal-ea-regression-repair.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/black-team-ea-modeling.md": [
-  "detail",
-  "weak-link",
-  "citations",
-  "bold-term"
- ],
- "content/kompendium/aiad-integration/blue-team-ea-defense.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/compliance-ea-regulatory-screening.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/czech-ares-ea-screening.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/dd-engine-ea-source-weighting.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/decision-engine-ea-calibration.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/epistemic-pipeline-ea-detection.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/gray-team-ea-edge-cases.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/hawkeye-ea-visitor-intelligence.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/nabla-infinity-ea-pipeline.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/operational-execution-ea-deployment.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/osint-ea-source-validation.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/perimeter-ea-attack-surface.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/purple-team-ea-synthesis.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/qeve-ea-quality-validation.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/quality-monitor-ea-tracking.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/red-team-ea-detection.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/strategic-command-ea-coordination.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/supreme-commander-ea-strategy.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/tactical-execution-ea-operations.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/trinity-gate-ea-verification.md": [
-  "citations"
- ],
- "content/kompendium/aiad-integration/white-team-ea-verification.md": [
-  "citations"
  ],
  "content/kompendium/case-studies/79-discord-server-cult.md": [
   "citations"
@@ -2716,34 +2387,10 @@
  "content/kompendium/glossary-bridges/_index.md": [
   "citations"
  ],
- "content/kompendium/glossary-bridges/bridge-3nl.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-adapter-pattern.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-agent-registry.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-agent-tier.md": [
-  "citations"
- ],
  "content/kompendium/glossary-bridges/bridge-agent.md": [
   "citations"
  ],
- "content/kompendium/glossary-bridges/bridge-aiad.md": [
-  "citations"
- ],
  "content/kompendium/glossary-bridges/bridge-anankasticky-rezim.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-archer-supreme.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-autoevolve.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-autoheal.md": [
   "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-betrayal-trauma.md": [
@@ -2754,30 +2401,15 @@
   "bullets",
   "citations"
  ],
- "content/kompendium/glossary-bridges/bridge-black-team.md": [
-  "citations"
- ],
  "content/kompendium/glossary-bridges/bridge-blue-team.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-bounded-context.md": [
   "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-c-ptsd.md": [
   "bullets",
   "citations"
  ],
- "content/kompendium/glossary-bridges/bridge-censys.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-clean-run.md": [
-  "citations"
- ],
  "content/kompendium/glossary-bridges/bridge-coercive-control.md": [
   "bullets",
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-color-teams.md": [
   "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-communicative-rationality.md": [
@@ -2788,9 +2420,6 @@
  ],
  "content/kompendium/glossary-bridges/bridge-darvo.md": [
   "bullets",
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-decision-engine.md": [
   "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-deepfake.md": [
@@ -2812,9 +2441,6 @@
  "content/kompendium/glossary-bridges/bridge-dual-use-poznani.md": [
   "citations"
  ],
- "content/kompendium/glossary-bridges/bridge-easm.md": [
-  "citations"
- ],
  "content/kompendium/glossary-bridges/bridge-embodied-cognition.md": [
   "citations"
  ],
@@ -2824,9 +2450,6 @@
  "content/kompendium/glossary-bridges/bridge-epistemic-bubble.md": [
   "citations",
   "citation-unresolved"
- ],
- "content/kompendium/glossary-bridges/bridge-epistemic-pipeline.md": [
-  "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-epistemic-security.md": [
   "citations"
@@ -2878,15 +2501,6 @@
   "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-gish-gallop.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-gray-team.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-greynoise.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-hawkeye.md": [
   "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-hermeneutika.md": [
@@ -2948,23 +2562,10 @@
  "content/kompendium/glossary-bridges/bridge-motte-and-bailey.md": [
   "citations"
  ],
- "content/kompendium/glossary-bridges/bridge-nabla-infinity.md": [
-  "citations"
- ],
  "content/kompendium/glossary-bridges/bridge-narrative-identity.md": [
   "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-narrative-trauma.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-nclb/_index.md": [
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved",
-  "bold-term"
- ],
- "content/kompendium/glossary-bridges/bridge-nm-nd.md": [
   "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-ontologicka-anihilace.md": [
@@ -2989,22 +2590,10 @@
  "content/kompendium/glossary-bridges/bridge-purple-team.md": [
   "citations"
  ],
- "content/kompendium/glossary-bridges/bridge-qdp.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-qeve.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-quality-debt.md": [
-  "citations"
- ],
  "content/kompendium/glossary-bridges/bridge-readiness.md": [
   "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-red-team.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-regression-test.md": [
   "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-replication-crisis.md": [
@@ -3019,22 +2608,7 @@
  "content/kompendium/glossary-bridges/bridge-sealioning.md": [
   "citations"
  ],
- "content/kompendium/glossary-bridges/bridge-session-discipline.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-shodan.md": [
-  "citations"
- ],
  "content/kompendium/glossary-bridges/bridge-simulacra.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-strategic-command.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-supreme-commander.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-tactical-execution.md": [
   "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-taxonomie-ea.md": [
@@ -3044,12 +2618,6 @@
   "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-threshold.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-trinity-gate.md": [
-  "citations"
- ],
- "content/kompendium/glossary-bridges/bridge-violation-protocol.md": [
   "citations"
  ],
  "content/kompendium/glossary-bridges/bridge-weaponized-incompetence.md": [
@@ -4072,12 +3640,6 @@
   "citations"
  ],
  "content/kompendium/section-bridges/bridge-glossary-bridges-to-philosophy.md": [
-  "citations"
- ],
- "content/kompendium/section-bridges/bridge-platform-decision-engine-to-kompendium.md": [
-  "citations"
- ],
- "content/kompendium/section-bridges/bridge-platform-nabla-to-kompendium.md": [
   "citations"
  ],
  "content/kompendium/section-bridges/bridge-quick-reference-to-glossary.md": [

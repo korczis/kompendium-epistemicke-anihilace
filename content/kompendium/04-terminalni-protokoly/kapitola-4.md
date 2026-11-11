@@ -289,11 +289,8 @@ Pro výzkumníky, klinickou praxi a institucionální governance z toho vyplýv�
 - [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
 - [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
 - [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
-- [Glosář: Color Teams](@/glossary/color-teams.md) — strukturovaná evaluace rizikového profilu
-- [NABLA Infinity Framework](@/glossary/nabla-infinity.md) — formální reprezentace epistemických trajektorií
 - [Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — [evidence-based](@/glossary/evidence-based.md) hodnocení rizikového profilu
 
 ## Kritický krok
 

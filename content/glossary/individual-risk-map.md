@@ -20,7 +20,7 @@ keywords = ["individual risk map", "personalized risk", "risk profile", "persona
 key_takeaway = "Populační statistika rizika zřídka odpovídá riziku, jemuž čelí konkrétní člověk. Mapa individuálních rizik spojuje populační výchozí stav se situací, anamnézou a zranitelností daného subjektu do obhajitelného a rozhodnutelného posudku, který s člověkem zachází jako s osobou, ne jako s položkou v souhrnu."
 see_also = ["irb-review", "informed-consent", "risk-assessment"]
 image = "/images/sections/glossary.png"
-image_alt = "Individual Risk Map - Prismatic Platform"
+image_alt = "Individual Risk Map"
 +++
 
 ## Definice

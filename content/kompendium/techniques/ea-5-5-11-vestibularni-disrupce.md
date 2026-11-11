@@ -164,10 +164,6 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **vestibulární d
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Embodied cognition](@/glossary/embodied-cognition.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
 
 ## Co ověřit před čtením
 

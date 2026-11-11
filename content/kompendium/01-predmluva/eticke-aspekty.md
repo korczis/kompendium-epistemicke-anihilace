@@ -178,13 +178,12 @@ Tato distribuovaná odpovědnost je explicitním záměrem — žádná centrali
 - [Pro koho je určeno](@/kompendium/01-predmluva/pro-koho-je-urceno.md)
 - [Jak používat toto kompendium](@/kompendium/01-predmluva/jak-pouzivat.md)
 - [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md)
-- [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md)
+- [Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md)
 - [Definice epistemické a kognitivní anihilace](@/kompendium/02-uvod/definice.md)
 - [Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Filozofie: Boundary Ethics](@/philosophy/boundary-ethics.md)
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-- [Glossary: Color Teams](@/glossary/color-teams.md)
 - [Glossary: Epistemická slepota](@/glossary/epistemicka-slepota.md)
 
 ## Kritický krok

@@ -20,7 +20,7 @@ keywords = ["forensic interview", "investigative interview", "witness interview"
 key_takeaway = "A forensic interview is not a casual conversation — it is a documented procedure with a defined protocol, recording requirements, and rules against suggestion, designed so that the resulting account can withstand cross-examination and expert challenge in adversarial proceedings."
 see_also = ["chain-of-custody", "expert-witness", "pattern-evidence"]
 image = "/images/sections/glossary.png"
-image_alt = "Forensic Interview - Prismatic Platform"
+image_alt = "Forensic Interview"
 +++
 
 ## Definice
@@ -74,7 +74,7 @@ Proč protokol chrání: lidská paměť je rekonstruktivní a citlivá na suges
 
 U obětí EA je forenzní rozhovor zvlášť náročný: výpověď může být nesouvislá, sebeobviňující, s mezerami, a oběť může stále chránit pachatele ([trauma bonding](@/glossary/trauma-bonding.md)). Pro výslechy zranitelných osob – dětí, obětí traumatu, lidí v traumatické vazbě – jsou nutné specializované protokoly. Kompendium postup podrobně popisuje v [protokolu forenzního rozhovoru](@/kompendium/forensic-legal/1-forensic-interview-protocol.md); navazují [posuzování věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md) a [disociace ve forenzním kontextu](@/kompendium/forensic-legal/3-dissociation-forensic.md). Klinickou obdobu nabízí [polostrukturovaný rozhovor](@/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol.md).
 
-Na platformě Prismatic, z níž kniha vzešla, jsou forenzní rozhovory relevantní v operacích [due diligence](@/glossary/due-diligence.md) (rozhovory se zaměstnanci cílové firmy, oznamovateli, oběťmi), ve vyšetřováních compliance (interní šetření po podezření na podvod) a při setkáních se zdroji v rámci [OSINT](@/glossary/osint.md). Při due diligence u fúzí a akvizic přinášejí strukturované rozhovory s vedením cílové společnosti, klíčovými zákazníky a odcházejícími zaměstnanci doklady o kultuře, nezveřejněných závazcích a integračních rizicích, které finanční prověrka nezachytí. Tazatelé mají otázky naplánovat předem, nahrávat (se souhlasem), začít neutrálními otázkami na pozadí, používat terminologii svědka a vyhnout se zpětné vazbě naznačující žádoucí odpovědi.
+Ve vývojovém kontextu, z něhož kniha vzešla, jsou forenzní rozhovory relevantní v operacích [due diligence](@/glossary/due-diligence.md) (rozhovory se zaměstnanci cílové firmy, oznamovateli, oběťmi), ve vyšetřováních compliance (interní šetření po podezření na podvod) a při setkáních se zdroji v rámci [OSINT](@/glossary/osint.md). Při due diligence u fúzí a akvizic přinášejí strukturované rozhovory s vedením cílové společnosti, klíčovými zákazníky a odcházejícími zaměstnanci doklady o kultuře, nezveřejněných závazcích a integračních rizicích, které finanční prověrka nezachytí. Tazatelé mají otázky naplánovat předem, nahrávat (se souhlasem), začít neutrálními otázkami na pozadí, používat terminologii svědka a vyhnout se zpětné vazbě naznačující žádoucí odpovědi.
 
 V kontextu oznamovatelů a interních šetření musí před věcnými otázkami zaznít tzv. *Upjohn warning* (USA – upozornění, že právník zastupuje společnost, ne vyslýchaného) a obdobná upozornění podle českých advokátních pravidel o střetu zájmů. V operacích OSINT platí kázeň forenzního rozhovoru i pro setkání se zdroji: připravené otázky, současně pořizované poznámky, okamžité sepsání a [chain of custody](@/glossary/chain-of-custody.md) pro všechny přijaté dokumenty.
 

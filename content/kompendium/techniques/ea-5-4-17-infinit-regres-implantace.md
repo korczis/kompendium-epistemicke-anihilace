@@ -92,6 +92,16 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Rozpoznání regresní otázky samo nedokazuje nic o postoji toho, kdo ji klade: Albertovo trilemma
+(Albert, 1968) platí i pro zdůvodnění pozorovatele, takže z přítomnosti otázky „a proč to?“ nelze
+odvodit ani [skepticismus](@/glossary/skepticismus.md), ani manipulativní záměr. Antické tropy byly navíc obráceny tazatelem na
+sebe, nikoli proti druhému (Annas & Barnes, 1985); rozlišující není regres, nýbrž to, komu je
+vyhrazeno jej zastavit.
+
+Od běžné filozofické výuky se vzorec pozná podle toho, že se zastavovací podmínka přiznává jen
+jedné straně, zatímco Wittgenstein (1953) ji přiznává každému mluvčímu. Od [implantace kruhových definic](@/kompendium/techniques/ea-5-4-16-kruhove-definice-implantace.md)
+se liší směrem vady: tam se řetěz uzavírá příliš brzy do sebe, zde se neuzavírá vůbec.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |
@@ -170,11 +180,6 @@ Klíčové pojmové kotvy techniky: **münchhausenovo trilemma, regres zdůvodn�
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
-
 ---
 
 ## Connect & Contribute

@@ -8,7 +8,7 @@ tags = ["glossary", "epistemic", "philosophy", "kompendium"]
 
 [extra]
 category = "epistemic"
-related_terms = ["pluralismus", "epistemicka-monokultura", "epistemic-bubble", "signal-plurality", "kult-osobnosti", "epistemicka-komunita"]
+related_terms = ["pluralismus", "epistemicka-monokultura", "epistemic-bubble", "kult-osobnosti", "epistemicka-komunita"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
@@ -37,7 +37,7 @@ rozmanitosti hledisek pro spolehlivost poznání. Viz [Sociální epistemologie
 EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md).
 
 V psychologii totalitních systémů popsal Robert J. Lifton (1961) související kritéria
-„posvátné vědy“ (*sacred science*) a „nadřazenosti doktríny nad osobou“ (*[doctrine](@/glossary/doctrine.md) over
+„posvátné vědy“ (*sacred science*) a „nadřazenosti doktríny nad osobou“ (*doctrine over
 person*): učení skupiny je konečnou pravdou a zkušenost jednotlivce, která s ním
 nesouhlasí, je chybou jednotlivce. Kompendium používá „epistemický monismus“ jako pracovní
 pojem pro tuto strukturu bez ohledu na to, zda je měřítkem náboženská autorita, politická

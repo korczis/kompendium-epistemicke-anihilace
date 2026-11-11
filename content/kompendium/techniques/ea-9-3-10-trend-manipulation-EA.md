@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.3 Sociální platformy
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -75,6 +74,8 @@ Rychlá, koordinovaná reakce skutečných lidí (např. fanouškovských komuni
 Otevřenou otázkou je i to, jak by měly platformy informovat o trendech, u nichž zjistily manipulaci: tiché odstranění z přehledu chrání před dalším zesílením, ale neučí veřejnost vzorec rozpoznat. Kniha se kloní k transparentnosti, ale připouští, že každé zveřejnění manipulace jí může dodat další pozornost.
 
 Otevřenou otázkou zůstává i to, jak vysvětlovat vyrobené trendy veřejnosti bez dalšího zesílení.
+
+Z vyrobeného trendu neplyne, co si veřejnost myslí – ale neplyne z něj ani opak. Zjištění, že téma do přehledu dostala malá skupina účtů, nevypovídá o rozšířenosti postoje, který téma nese; ten může být mezi lidmi běžný i vzácný a trend o tom neříká nic ani v jednom směru. Druhou mezí je určení účtů: Ferrara et al. (2016) popisují odlišení automatizovaných účtů od lidských jako úlohu s chybou v obou směrech, takže podíl „botů“ v trendu je odhadem metody, ne zjištěným faktem. Pro firmu nebo politika, který zvažuje reakci, je proto užitečnější otázka než číslo: komu by trend sloužil, kdyby nikdo nereagoval.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

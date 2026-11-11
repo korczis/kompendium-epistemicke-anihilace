@@ -187,9 +187,6 @@ Klientka po pětiletém vztahu hlásí: „Nevím, co se vlastně stalo a co mi 
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Dual-use poznání](@/glossary/dual-use-poznani.md)
-- **Platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 ## Co ověřit před čtením
 

@@ -4,7 +4,7 @@ weight = 36
 description = "Spuštění natrénovaného modelu umělé inteligence, které z nových vstupů vytváří výstupy; na platformě Prismatic lokální inference přes Ollama. Odlišení od inference jako usuzování."
 
 [taxonomies]
-tags = ["glossary", "technology", "inference", "prismatic", "AI"]
+tags = ["glossary", "technology", "inference", "AI"]
 
 [extra]
 category = "technology"
@@ -107,128 +107,6 @@ Při autoregresivním generování věnuje každý nový token pozornost všem p
 | **průběžné dávkování** | dynamické přidávání a dokončování | střední | nejvyšší | produkční obsluha |
 | **spekulativní dávkování** | návrhový model generuje, hlavní model ověřuje | nízká | vysoká | generování citlivé na latenci |
 
-## Implementace na platformě Prismatic
-
-Platforma Prismatic, z níž kniha vzešla, spouští inferenční úlohy přes lokální infrastrukturu AI Ollama; agent Ollama Coordinator spravuje životní cyklus modelů, přidělování prostředků a sledování výkonu:
-
-```elixir
-defmodule PrismaticAgents.InferenceCoordinator do
-  @moduledoc """
-  Coordinates AI inference requests across local Ollama runtime
-  and cloud fallback providers with backpressure and rate limiting.
-  """
-
-  use GenServer
-
-  alias PrismaticAgents.OllamaClient
-  alias PrismaticAgents.CloudFallback
-
-  @max_concurrent_local 4
-  @local_timeout_ms 30_000
-  @memory_limit_bytes 8 * 1024 * 1024 * 1024  # 8GB
-
-  @type inference_request :: %{
-    model: String.t(),
-    prompt: String.t(),
-    max_tokens: pos_integer(),
-    temperature: float()
-  }
-
-  @type inference_result :: %{
-    output: String.t(),
-    tokens_generated: pos_integer(),
-    latency_ms: non_neg_integer(),
-    provider: :local | :cloud
-  }
-
-  @spec infer(inference_request()) :: {:ok, inference_result()} | {:error, term()}
-  def infer(request) do
-    GenServer.call(__MODULE__, {:infer, request}, @local_timeout_ms)
-  end
-
-  @impl GenServer
-  def handle_call({:infer, request}, _from, state) do
-    start_time = System.monotonic_time(:millisecond)
-
-    result =
-      if state.active_requests < @max_concurrent_local and
-           state.memory_usage < @memory_limit_bytes do
-        execute_local(request, start_time)
-      else
-        execute_cloud_fallback(request, start_time)
-      end
-
-    emit_inference_telemetry(result)
-    {:reply, result, update_state(state, result)}
-  end
-
-  defp execute_local(request, start_time) do
-    case OllamaClient.generate(request) do
-      {:ok, response} ->
-        latency = System.monotonic_time(:millisecond) - start_time
-
-        {:ok, %{
-          output: response.text,
-          tokens_generated: response.eval_count,
-          latency_ms: latency,
-          provider: :local
-        }}
-
-      {:error, :timeout} ->
-        CloudFallback.generate(request, start_time)
-    end
-  end
-
-  defp emit_inference_telemetry({:ok, result}) do
-    :telemetry.execute(
-      [:prismatic, :inference, :complete],
-      %{
-        latency_ms: result.latency_ms,
-        tokens: result.tokens_generated
-      },
-      %{provider: result.provider}
-    )
-  end
-end
-```
-
-### Konfigurace modelů
-
-```elixir
-defmodule PrismaticAgents.InferenceConfig do
-  @moduledoc "Inference model configuration and selection."
-
-  @models %{
-    "qwen3-coder" => %{
-      parameters: "7B",
-      response_time: "< 3s",
-      memory: "< 4GB",
-      use_case: :code_generation
-    },
-    "gpt-oss:20b" => %{
-      parameters: "20B",
-      response_time: "< 5s",
-      memory: "< 8GB",
-      use_case: :general_reasoning
-    },
-    "deepseek-coder" => %{
-      parameters: "6.7B",
-      response_time: "< 3s",
-      memory: "< 4GB",
-      use_case: :code_analysis
-    }
-  }
-
-  @spec select_model(atom()) :: {:ok, map()} | {:error, :no_suitable_model}
-  def select_model(use_case) do
-    case Enum.find(@models, fn {_name, config} -> config.use_case == use_case end) do
-      {name, config} -> {:ok, Map.put(config, :name, name)}
-      nil -> {:error, :no_suitable_model}
-    end
-  end
-end
-```
-
 ## Srovnání s alternativami
 
 | rozměr | lokální inference (Ollama) | cloudové API (Claude/GPT) | inference na okraji sítě | vlastní trénink |
@@ -251,11 +129,9 @@ end
 
 ## Případy užití
 
-- **Rozhodování agentů:** agenti [AIAD](@/glossary/aiad.md) (v době zápisu 434) používají inferenci k plánování úloh, analýze kódu, hodnocení kvality a rozhodování; každý agent volí model podle své specializace a složitosti úlohy.
 - **Generování a analýza kódu:** inference pohání generování kódu pro vývoj platformy, návrhy oprav kvality a detekci vzorů. Modely jako qwen3-coder a deepseek-coder jsou optimalizovány pro porozumění kódu v Elixiru a jeho generování.
 - **Analýza OSINT:** inference zpracování přirozeného jazyka extrahuje entity, vztahy a sentiment z nestrukturovaných dat [OSINT](@/glossary/osint.md) a předává strukturované zpravodajství do znalostního grafu.
 - **Bezpečnostní klasifikace:** modely klasifikují bezpečnostní hrozby, hodnotí závažnost zranitelností a vytvářejí popisy rizik pro bezpečnostní hodnocení Prismatic Perimeter.
-- **Vývoj kvality:** systém [AutoEvolve](@/glossary/autoevolve.md) používá inferenci k hledání příležitostí ke zlepšení, navrhování refaktoringu a hodnocení dopadu navržených změn napříč aplikacemi umbrella projektu (v době zápisu 90).
 
 ## Význam pro Kompendium
 
@@ -263,10 +139,8 @@ Pro knihu je inference modelů AI podstatná proto, že výstupy jazykových mod
 
 ## Související
 
-**Platforma**
+**Kde se pojem v knize potkává s praxí**
 
-- [AIAD](@/glossary/aiad.md) – agenti, kteří inferenci používají k rozhodování.
-- [AutoEvolve](@/glossary/autoevolve.md) – systém vývoje kvality využívající inferenci.
 - [OSINT](@/glossary/osint.md) – oblast, v níž inference extrahuje entity a vztahy.
 
 **Kniha**

@@ -93,10 +93,9 @@ omezením.
 
 ## Význam pro Kompendium
 
-[Decision Engine](@/glossary/decision-engine.md) platformy považuje zprávy o vzorcové neschopnosti
-v kontextech opakované interakce za kalibrační signál: kalibrační přehled označuje osoby, které
-uvádějí trvalou mezeru mezi přisuzovanou kompetencí a předváděným výkonem v blízkých vztazích nebo
-v hierarchických pracovních kontextech. V knize pojem vysvětluje část kazuistik partnerského
+Zprávy o vzorcové neschopnosti v kontextech opakované interakce jsou kalibračním signálem:
+ukazují trvalou mezeru mezi přisuzovanou kompetencí a předváděným výkonem v blízkých vztazích
+nebo v hierarchických pracovních kontextech. V knize pojem vysvětluje část kazuistik partnerského
 a pracovního vyčerpání a souvisí se zásadou, že epistemická škoda nemusí vzniknout lží, ale
 i soustavným „nedokážu“.
 

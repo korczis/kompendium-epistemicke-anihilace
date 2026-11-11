@@ -56,21 +56,18 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 
 | CS termín | EN ekvivalent | Lokace | Glosa |
 |-----------|---------------|--------|-------|
-| **Color Teams** | Color Teams [=] | [Glossary](@/glossary/color-teams.md) | Red/Blue/Purple/Green týmy pro epistemickou adversariální simulaci. |
 | **[Cynický rozum](@/glossary/cynicky-rozum.md)** | Cynical reason [=] | [Bibliografie §IV](@/kompendium/08-prilohy/bibliografie.md) | Sloterdijkův pojem: vědomě falešné vědomí. |
 
 ## D
 
 | CS termín | EN ekvivalent | Lokace | Glosa |
 |-----------|---------------|--------|-------|
-| **[Decision Engine](@/glossary/decision-engine.md)** | Decision Engine [=] | {{ <cross_link path="/hub/dd/decisions/" text="Hub DD" /> }} | Platformový subsystém pro strukturované epistemicky kalibrované rozhodování. |
 | **[Delegitimizace](@/glossary/delegitimizace.md)** | Delegitimization [=] | [Sekce 03](@/kompendium/03-zakladni-kategorie/_index.md) | Sytematický útok na epistemickou důvěryhodnost zdroje. |
 | **[Demarkační problém](@/glossary/demarkacni-problem.md)** | Demarcation problem [=] | [Bibliografie §I](@/kompendium/08-prilohy/bibliografie.md) | Popperovský problém rozlišení vědy od pseudovědy. |
 | **[DES-II](@/glossary/des-ii.md)** | Dissociative Experiences Scale [=] | [Diagnostika](@/kompendium/08-prilohy/diagnosticke-nastroje.md) | Carlson-Putnamův dotazník disociativních zkušeností. |
 | **Diferenciální nihilace** | Differential nihilation [≈] | [`EA-5.1.22`](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md) | Eliminace schopnosti rozlišovat — vše splývá. |
 | **[Disociace](@/glossary/disociace.md)** | Dissociation [=] | [Bibliografie §IX](@/kompendium/08-prilohy/bibliografie.md) | Klinický termín: rozštěpení vědomí, paměti, identity. |
 | **[Diskursivní formace](@/glossary/diskursivni-formace.md)** | Discursive formation [=] | [Bibliografie §III](@/kompendium/08-prilohy/bibliografie.md) | Foucaultův pojem: pravidly řízený systém produkce výpovědí. |
-| **[Doctrine](@/glossary/doctrine.md)** | Doctrine [=] | [CLAUDE.md](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/CLAUDE.md) | 18-pillar enforcement systém platformy. |
 | **Dominantní tělesné hieroglyfy** | Dominant bodily hieroglyphs [≈] | [`EA-1.5.2`](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) | Posturální dominance jako neverbální argument. |
 | **[Doubling](@/glossary/doubling.md)** | Doubling [=] | [Bibliografie §IV](@/kompendium/08-prilohy/bibliografie.md) | Liftonův pojem: profesionální štěpení self. |
 
@@ -86,7 +83,6 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 | **Epistemická integrita** | Epistemic integrity [=] | [Philosophy](@/philosophy/epistemic-integrity.md) | Koherence a autonomie poznávacích procesů. |
 | **Epistemická kanibalizace** | Epistemic cannibalization [≈] | [`EA-5.1.1`](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) | Subjekt používá vlastní poznávací nástroje k vlastní destrukci. |
 | **[Epistemická nespravedlnost](@/glossary/epistemicka-injustice.md)** | Epistemic injustice [=] | [Bibliografie §VI](@/kompendium/08-prilohy/bibliografie.md) · [Glossary](@/glossary/epistemicka-injustice.md) | Frickerová: testimoniální + hermeneutická křivda. |
-| **Epistemic Pipeline** | Epistemic Pipeline [=] | [Glossary](@/glossary/epistemic-pipeline.md) | Platformový pipeline NABLA Infinity L0–L13. |
 | **Existenciální derealizace** | Existential derealization [=] | `EA-5.1.15` | Ztráta pocitu reality vlastní existence. |
 
 ## F
@@ -97,14 +93,12 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 | **Falešné dilema** | False dilemma [=] | [`EA-1.2.1`](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) | Redukce komplexního problému na binární volbu. |
 | **[Falsifikovatelnost](@/glossary/falsifikovatelnost.md)** | Falsifiability [=] | [Bibliografie §I](@/kompendium/08-prilohy/bibliografie.md) | Popperovo demarkační kritérium. |
 | **Fenomenologie** | Phenomenology [=] | [Bibliografie §II](@/kompendium/08-prilohy/bibliografie.md) | Husserlova metoda zkoumání struktur vědomí. |
-| **[FLLM](@/glossary/fllm.md)** | FLLM (Flowbite LLM) [=] | [Zkratky](@/kompendium/08-prilohy/zkratky.md) | Platformová doctrine: CSS hygiena, Tailwind utility. |
 | **[Fúze horizontů](@/glossary/fuze-horizontu.md)** | Fusion of horizons [=] | [Bibliografie §II](@/kompendium/08-prilohy/bibliografie.md) | Gadamerův pojem: hermeneutické setkání. |
 
 ## G
 
 | CS termín | EN ekvivalent | Lokace | Glosa |
 |-----------|---------------|--------|-------|
-| **[GITL](@/glossary/gitl.md)** | GITL (GitLab Integration Linkage) [=] | [Zkratky](@/kompendium/08-prilohy/zkratky.md) | Doctrine pro commit-issue traceability. |
 
 ## H
 
@@ -132,7 +126,6 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 | CS termín | EN ekvivalent | Lokace | Glosa |
 |-----------|---------------|--------|-------|
 | **[Jazyková hra](@/glossary/jazykova-hra.md)** | Language game [=] | [Bibliografie §X](@/kompendium/08-prilohy/bibliografie.md) | Wittgensteinův pojem: kontextově vázaná pravidla použití. |
-| **[KNOW](@/glossary/know.md)** | KNOW (Knowledge Coverage) [=] | [Zkratky](@/kompendium/08-prilohy/zkratky.md) | Platformová doctrine: glossary coverage pro nové moduly. |
 | **Kognitivní anihilace (KA)** | Cognitive annihilation [=] | [Glossary](@/glossary/kognitivni-anihilace.md) | Narušení základních kognitivních struktur a procesů. |
 | **Kognitivní anti-rekurzivita** | Cognitive anti-recursivity [=] | [Glossary](@/glossary/kognitivni-anti-rekurzivita.md) | Blokování rekurzivního sebevztahu poznání. |
 | **[Konfabulace](@/glossary/konfabulace.md)** | Confabulation [=] | [Bibliografie §V](@/kompendium/08-prilohy/bibliografie.md) | Konstrukce post-hoc narativu o vlastním rozhodování. |
@@ -151,7 +144,6 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 
 | CS termín | EN ekvivalent | Lokace | Glosa |
 |-----------|---------------|--------|-------|
-| **[M5M](@/glossary/m5m.md)** | M5M (Max 5 Minutes) [=] | [Zkratky](@/kompendium/08-prilohy/zkratky.md) | Platformová doctrine: granulární exekuce. |
 | **Metakognitivní destrukce** | Metacognitive destruction [=] | [Glossary](@/glossary/metakognitivni-destrukce.md) | Útok na schopnost poznávat vlastní poznání. |
 | **[Milieu control](@/glossary/milieu-control.md)** | Milieu control [=] | [Bibliografie §IV](@/kompendium/08-prilohy/bibliografie.md) | Liftonovo kritérium: kontrola informačního prostředí. |
 
@@ -159,11 +151,7 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 
 | CS termín | EN ekvivalent | Lokace | Glosa |
 |-----------|---------------|--------|-------|
-| **NABLA Infinity (∇∞)** | NABLA Infinity [=] | [Glossary](@/glossary/nabla-infinity.md) | Epistemický rámec L0–L13 platformy Prismatic. |
-| **[NCLB](@/glossary/nclb.md)** | NCLB (No Claim Left Behind) [=] | [Zkratky](@/kompendium/08-prilohy/zkratky.md) | Doctrine: [evidence-based](@/glossary/evidence-based.md) platform integrity. |
-| **[NMND](@/glossary/nm-nd.md)** | NMND ([No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md)) [=] | [Zkratky](@/kompendium/08-prilohy/zkratky.md) · [Glossary](@/glossary/nm-nd.md) | Doctrine: zero tolerance + decisive execution. |
 | **[Normální věda](@/glossary/normalni-veda.md)** | Normal science [=] | [Bibliografie §I](@/kompendium/08-prilohy/bibliografie.md) | Kuhn: paradigmatická problem-solving fáze. |
-| **[NWB](@/glossary/nwb.md)** | NWB (No Way Back) [=] | [Zkratky](@/kompendium/08-prilohy/zkratky.md) | Doctrine: permanentní řešení. |
 
 ## O–P
 
@@ -181,7 +169,6 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 
 | CS termín | EN ekvivalent | Lokace | Glosa |
 |-----------|---------------|--------|-------|
-| **[Red Team](@/glossary/red-team.md)** | Red Team [=] | [Glossary](@/glossary/color-teams.md) | Adversariální tým simulující epistemické útoky. |
 | **Referenční rekurze** | Referential recursion [=] | [`EA-5.1.7`](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md) | Nekonečná smyčka odkazů bez dosažení referentu. |
 | **Reflexivní inverze** | Reflexive inversion [=] | `EA-5.1.2` | Obrácení reflexe proti reflexi samotné. |
 
@@ -189,7 +176,6 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 
 | CS termín | EN ekvivalent | Lokace | Glosa |
 |-----------|---------------|--------|-------|
-| **[SEAL](@/glossary/seal.md)** | SEAL (Security Enforcement Absolute Lock) [=] | [Zkratky](@/kompendium/08-prilohy/zkratky.md) | Doctrine: SQL injection, secrets, code eval prevence. |
 | **Selektivní expozice** | Selective exposure [=] | [`EA-1.1.1`](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) | Strategický výběr informačních pramenů. |
 | **Sémantická imploze** | Semantic implosion [=] | [`EA-5.1.4`](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md) | Kolaps významu pojmů zevnitř, bez vnějšího odporu. |
 | **Singulární narativní kolaps** | Singular narrative collapse [=] | [`EA-5.1.25`](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md) | Jediný narativ konzumuje všechny ostatní. |
@@ -201,12 +187,10 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 
 | CS termín | EN ekvivalent | Lokace | Glosa |
 |-----------|---------------|--------|-------|
-| **[TACH](@/glossary/tach.md)** | TACH (Total Assurance Comprehensive Hardened) [=] | [Zkratky](@/kompendium/08-prilohy/zkratky.md) | Doctrine: testovací rámec platformy. |
 | **Tematická diverze** | Thematic diversion [=] | [`EA-1.3.3`](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) | Přesměrování diskuse od kritického bodu. |
 | **Temporální dekoherence** | Temporal decoherence [=] | [`EA-5.1.10`](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) | Rozbití koherentního vnímání plynutí času. |
 | **Terminologická mystifikace** | Terminological mystification [=] | [`EA-1.1.3`](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) | Konstrukce odborně znějících termínů bez denotativního obsahu. |
 | **[Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md)** | Testimonial injustice [=] | [Bibliografie §VI](@/kompendium/08-prilohy/bibliografie.md) | Frickerová: snížený kredit kvůli identitárnímu předsudku. |
-| **Three-Nested-Loops (3NL)** | Three-Nested-Loops [=] | [Glossary](@/glossary/three-nested-loops.md) | Architektura: L1 logika ↔ L2 neurální ↔ L3 lingvistika. |
 | **[Thought reform](@/glossary/thought-reform.md)** | Thought reform [=] | [Bibliografie §IV](@/kompendium/08-prilohy/bibliografie.md) | Liftonův pojem: 8-kriteriální systém totalitní reformy. |
 
 ## V–Z
@@ -214,7 +198,6 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 | CS termín | EN ekvivalent | Lokace | Glosa |
 |-----------|---------------|--------|-------|
 | **[Veřejná sféra](@/glossary/verejna-sfera.md)** | Public sphere [=] | [Bibliografie §III](@/kompendium/08-prilohy/bibliografie.md) | Habermasův pojem: prostor racionální kritické debaty. |
-| **[ZERO](@/glossary/zero.md)** | ZERO (Zero Error Runtime Operations) [=] | [Zkratky](@/kompendium/08-prilohy/zkratky.md) | Doctrine: žádné bare rescue, String.to_atom. |
 | **[Životní svět (Lebenswelt)](@/glossary/lebenswelt.md)** | Life-world [=] | [Bibliografie §II](@/kompendium/08-prilohy/bibliografie.md) · [Glossary](@/glossary/lebenswelt.md) | Husserl: pre-teoretická vrstva každodenní zkušenosti. |
 
 ---
@@ -226,13 +209,10 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 - [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) — metodologie kanonizace termínů.
 - [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) — formální notační konvence (EA, KA, NABLA, NMND aj.).
 
-## Platformový kontext
+## Kam odkazy vedou
 
 - [Glossary](@/glossary/_index.md) — kanonické zdrojové glosářové hesla pro všechny zde uvedené termíny.
-- [Philosophy](@/philosophy/_index.md) — filozofická vrstva platformy.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) — epistemický rámec L0–L13.
-- [Color Teams](@/glossary/color-teams.md) — adversariální simulace.
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — operativní použití termínů v běžícím systému.
+- [Philosophy](@/philosophy/_index.md) — filozofická vrstva knihy.
 
 ## Kritický krok
 

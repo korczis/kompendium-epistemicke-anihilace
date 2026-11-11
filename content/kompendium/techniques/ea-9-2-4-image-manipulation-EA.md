@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.2 Generativní média
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -71,6 +70,8 @@ V opatrovnickém sporu předloží jeden z rodičů fotografii, na níž má dru
 Forenzní analýza obrazu dává pravděpodobnosti, ne jistoty, a s vývojem nástrojů se znaky úprav zmenšují. Proto roste význam původu snímku a nezávislých záznamů. Otevřené zůstává, jak zacházet s pravými snímky, jejichž autenticitu kdokoli zpochybní jako „AI“.
 
 Otevřenou otázkou zůstává také to, jak se změní práce soudů a opatrovnických orgánů, až budou upravené snímky běžné a jejich odhalení drahé: hrozí, že se fotografie přestanou jako důkaz používat vůbec, nebo naopak, že se bude nekriticky přijímat cokoli, co forenzní nástroj neoznačí.
+
+Rozpoznání úpravy samo neurčuje, kdo ji provedl ani s jakým záměrem. Forenzní nález konstatuje, že obraz byl zpracován, nikoli že ho zpracoval ten, kdo jej předložil; mezi autorem úpravy a šiřitelem bývá řada rukou a šiřitel mohl snímek přijmout v dobré víře. Stejně tak negativní nález nic nedokládá: metoda, která úpravu nenajde, snímek neověřuje jako autentický, protože Farid (2016) uvádí, že jednotlivé postupy obrazové forenziky dávají indicie, ne průkaz. Pro posouzení je proto podstatné oddělit tři otázky, které se v praxi slévají: zda byl obraz upraven, kdo jej upravil a co o tom věděl ten, kdo jej použil jako důkaz.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

@@ -9,7 +9,7 @@ tags = ["glossary", "science", "research-methodology", "epistemic", "evidence", 
 
 [extra]
 category = "epistemic"
-related_terms = ["epistemicka-anihilace", "epistemic-confidence", "epistemicka-pokora", "kompendium-ea", "epistemic-pipeline", "nabla-infinity"]
+related_terms = ["epistemicka-anihilace", "epistemic-confidence", "epistemicka-pokora", "kompendium-ea"]
 author = "Tomáš Korcak (korczis)"
 date_created = "2026-04-25"
 date_modified = "2026-11-10"
@@ -124,9 +124,7 @@ rozhodnout lze až souborem replikací (Klein a kol., 2014).
 Pro knihu má krize dvojí význam. Prvním je vodítko pro práci s doklady: posun důvěry na
 základě jediné publikované studie má být menší v oborech s doloženě nízkou replikovatelností
 a větší tam, kde je nález potvrzen více pracovišti a předregistrovanými protokoly (Klein
-a kol., 2014). Rámec, jímž kniha kvalitu zdrojů váží, vedou hesla [NABLA
-Infinity](@/glossary/nabla-infinity.md) a [Epistemic
-Pipeline](@/glossary/epistemic-pipeline.md).
+a kol., 2014).
 
 Druhým významem je sebeomezení. Kniha se opírá o empirickou literaturu o traumatu,
 manipulaci a skupinách s vysokou kontrolou, jejíž část má malé vzorky, obtížně replikovatelné
@@ -193,8 +191,6 @@ plyne (Ioannidis, 2005).
 - [Pseudověda](@/glossary/pseudoscience.md) – kde slabý doklad přechází v nauku bez samoopravy.
 - [Falsifikace](@/glossary/falsifikace.md) – vztah neúspěšné replikace k vyvrácení.
 - [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) – hodnocení programu podle přírůstku obsahu.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) – vážení kvality zdrojů.
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – epistemická architektura platformy.
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – rámec hrozeb.
 
 **Kniha**

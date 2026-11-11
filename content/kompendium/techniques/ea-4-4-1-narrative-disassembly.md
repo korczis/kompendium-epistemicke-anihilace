@@ -180,11 +180,6 @@ Klinický kontext **EA-4.4.1** připouští následující dokumentované adapta
 - **Forward-references**:
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - [Color Teams](@/glossary/color-teams.md)
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [Compliance framework](@/glossary/compliance-framework.md)
 
 ## Co ověřit před čtením
 

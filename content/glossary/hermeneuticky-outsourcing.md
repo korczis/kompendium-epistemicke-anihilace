@@ -9,7 +9,6 @@ tags = ["glossary", "kompendium", "psychology", "hermeneutika", "epistemic"]
 [extra]
 category = "psychology"
 related_terms = [
-  "signal-plurality",
   "hermeneuticka-eroze",
   "epistemicka-agentnost",
   "epistemicka-singularita",
@@ -32,8 +31,8 @@ skupiny nebo technického systému.
 Výsledkem je stav, kdy člověk na otázku „jak to vnímáš?“ nedokáže odpovědět bez
 prostředníka. Vlastní zkušenost má, ale její smysl mu „přiděluje“ někdo jiný.
 
-V terminologii, kterou Kompendium převzalo z Prismatic Platform, jde o selhání
-[signal plurality](@/glossary/signal-plurality.md): hermeneutickému prostoru dominuje jediný
+Jde o selhání plurality signálů, na níž spolehlivost poznání stojí (viz [fúze
+zpravodajství](@/glossary/intelligence-fusion.md)): hermeneutickému prostoru dominuje jediný
 interpretační zdroj.
 
 ## Původ a kontext pojmu
@@ -133,8 +132,6 @@ kdy naposledy sám přemýšlel o tom, co ve vztahu chce.
 
 **Příbuzné pojmy**
 
-- [Signal plurality](@/glossary/signal-plurality.md) – princip, jehož selhání outsourcing
-  představuje.
 - [Hermeneutická eroze](@/glossary/hermeneuticka-eroze.md) – ztráta jistoty ve vlastních
   slovech, která outsourcing usnadňuje.
 - [Epistemická agentnost](@/glossary/epistemicka-agentnost.md) – schopnost, kterou outsourcing

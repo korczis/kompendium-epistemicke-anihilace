@@ -84,6 +84,5 @@ Jako přenos lze zadat mapu původu: pro tři témata, o nichž účastník běh
 
 **Glosář a prevence**
 
-- [Signal plurality](@/glossary/signal-plurality.md) – princip vícenásobných nezávislých signálů.
 - [Mediální gramotnost](@/kompendium/prevention-resilience/6-media-literacy-prevention.md) – preventivní rámec.
 - [Digitální hygiena](@/kompendium/prevention-resilience/7-digital-hygiene-prevention.md) – návyky v digitálním prostředí.

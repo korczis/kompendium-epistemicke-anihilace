@@ -106,7 +106,6 @@ relativismus, který znemožní rozpoznat manipulaci jako manipulaci.
   racionalitou](@/glossary/communicative-rationality.md) a s [ideální řečovou
   situací](@/glossary/ideal-speech-situation.md) jako normativním doplňkem: différance
   uznána na rovině popisu, nároky na platnost hájeny na rovině normy.
-- Na platformě, z níž kniha vzešla, odpovídá [Decision Engine](@/glossary/decision-engine.md)
   na zneužitou neurčitost architektonicky: strukturovanými protokoly ukotvení významu
   (formální definice, operační proměnné, dohodnuté typy důkazů), které v rámci analýzy
   nedovolí nekonečný odklad, a přitom uznávají, že význam mimo tento rámec zůstává

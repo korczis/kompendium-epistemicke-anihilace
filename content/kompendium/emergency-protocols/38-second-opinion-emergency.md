@@ -270,7 +270,6 @@ Strasburger, Gutheil a Brodsky (1997).
 
 **Pojmy**
 
-- [Signal plurality](@/glossary/signal-plurality.md) – proč je víc nezávislých hlasů bezpečnější.
 - [Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) – snížená věrohodnost
   pacientovy výpovědi.
 - [Informed consent](@/glossary/informed-consent.md) – souhlas s předáním podkladů.

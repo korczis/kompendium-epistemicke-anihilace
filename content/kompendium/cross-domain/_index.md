@@ -16,7 +16,7 @@ obraz reality. Tytéž mechanismy – řízení toho, co člověk vidí, vytvá�
 přesouvání důvěry na vnější autoritu, obracení viny, zahlcení a časový tlak – se ale
 uplatňují i v profesních doménách, kde se rozhoduje o lidech, firmách a rizicích. Tato
 sekce je mostem mezi taxonomií knihy a čtyřmi doménami, z nichž kniha historicky vzešla
-(srov. [1.6 Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md)):
+(srov. [1.6 Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md)):
 zpravodajstvím z otevřených zdrojů, [due diligence](@/glossary/due-diligence.md), kybernetickou bezpečností a compliance.
 
 ## Proč mosty
@@ -92,8 +92,7 @@ Detekční signatury, na něž stránky odkazují, shrnuje sekce [Detekční sig
 organizační opatření sekce [Organizační obrana](@/kompendium/organizational-defense/_index.md);
 právní souvislosti sekce [Forenzní a právní rozměr](@/kompendium/forensic-legal/_index.md).
 Metody, jimiž lze tvrzení těchto stránek empiricky ověřovat, popisuje sekce
-[Výzkumná metodologie](@/kompendium/research-methodology/_index.md). Kontext platformy, z níž
-kniha vzešla, popisuje sekce [AIAD Integration](@/kompendium/aiad-integration/_index.md).
+[Výzkumná metodologie](@/kompendium/research-methodology/_index.md).
 
 ## Literatura
 

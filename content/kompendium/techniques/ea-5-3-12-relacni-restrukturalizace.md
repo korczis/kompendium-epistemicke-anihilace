@@ -121,10 +121,6 @@ Co může vidět vnější pozorovatel:
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Narrative identity](@/glossary/narrative-identity.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
 
 ## Teoretické zázemí
 
@@ -188,9 +184,6 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [Glossary: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
 - [Glossary: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - [Glossary: Taxonomie EA](@/glossary/taxonomie-ea.md)
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-- [NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Color Teams](@/glossary/color-teams.md)
 
 ## Co ověřit před čtením
 

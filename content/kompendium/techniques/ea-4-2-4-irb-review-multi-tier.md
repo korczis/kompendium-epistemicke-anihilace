@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 
-Rámec stanoví [doktrína platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+Rámec stanoví [doktrinální rámec knihy](@/kompendium/02-doktrinalni-ramec/_index.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ## Struktura vzorce
 
@@ -99,6 +99,10 @@ Rizikovým kontextem je komise bez rozpočtu a bez vlastního personálu. Závis
 
 Druhým rizikovým kontextem je vnější tlak — bezpečnostní, komerční nebo politický. Právě v něm se etický rámec ohýbá nejdřív a nejvíc (Hoffman a kol., 2015).
 
+## Co nález o přezkumu neurčuje
+
+Schválení funkční komise neurčuje, co se účastníkům skutečně dělo. Beecher (1966) založil svou kritiku právě na studiích, které formální cestou prošly; přezkum posuzuje záměr v dokumentaci, ne provedení v čase, a souhlas komise proto není dokladem o průběhu. Opačný úsudek je stejně nespolehlivý: chybějící zápis bývá známkou nepořádku v evidenci, nikoli nutně zajatého přezkumu, a malá komise může mít málo zamítnutí prostě proto, že k ní přichází málo podání. Rozlišení vyžaduje srovnání v čase, ne jediný výřez. A nic z toho neurčuje odpovědnost jednotlivých členů – Hoffman a kol. (2015) ji dohledali až rekonstrukcí korespondence.
+
 ## Vztah k jiným technikám
 
 | Stránka | Vztah |
@@ -147,11 +151,6 @@ Druhým rizikovým kontextem je vnější tlak — bezpečnostní, komerční ne
 - **Forward-references**:
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - [Color Teams](@/glossary/color-teams.md)
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [Compliance framework](@/glossary/compliance-framework.md)
 
 ## Co ověřit před čtením
 

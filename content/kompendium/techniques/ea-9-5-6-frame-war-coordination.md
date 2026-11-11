@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.5 Memetická válka
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -71,6 +70,8 @@ Po požáru v ubytovně se během hodiny šíří dva protichůdné rámce: podl
 Každá událost se nějak rámuje, a výklad je nutný. Problémem je koordinované a předčasné vnucení výkladu. Otevřené zůstává, jak mohou instituce reagovat rychle bez spekulace, a jak se dá rámec „přepsat“ poté, co se usadil.
 
 Výzkum kolektivního výkladu krizí je bohatý na případové studie, ale obtížně srovnatelný; každá událost má vlastní dynamiku.
+
+Vzorec se od pouhé rychlé interpretace odlišuje tím, že rámec je hotový dřív než událost: je formulován pro celou třídu událostí a na konkrétní případ se jen dosadí, takže se k jeho podrobnostem nevyjadřuje a odolává jejich opravě. Entman (1993) je v tomto bodě pojmovým vyjasněním, ne měřením; Starbird, Arif a Wilson (2019) dokládají účast mnoha aktérů na utváření výkladu, nikoli to, jak dlouho usazený rámec vydrží. Lewandowsky, Ecker a Cook (2017) shrnují, že oprava zřídka beze zbytku odstraní působení původního sdělení; že totéž platí pro kolektivní výklad celé události, je *interpretace knihy*, podložená případovými studiemi, ne srovnávacím měřením.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

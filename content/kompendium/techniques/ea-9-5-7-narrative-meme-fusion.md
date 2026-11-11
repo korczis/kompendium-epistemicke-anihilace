@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.5 Memetická válka
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -107,6 +106,8 @@ Odolnost stojí na toleranci nejistoty – schopnosti přijmout, že některé j
 Psychologie narativu ukazuje, že lidé rozumějí sobě i světu prostřednictvím příběhů s postavami, záměry a příčinami (McAdams 2001). Příběh s jasným viníkem uspokojuje potřebu porozumět a mít kontrolu; nejistota a mnohočetné příčiny jsou naopak nepříjemné. Narativní mem tuto potřebu obsluhuje v nejkratší možné formě. Výzkum oprav dezinformací ukazuje, že vyvrátit takový příběh je obtížné, pokud oprava nenabídne alternativní příčinný výklad – lidé raději ponechají chybný příběh, než aby zůstali s mezerou (Lewandowsky, Ecker a Cook 2017).
 
 Shifman (2014) popisuje, že úspěšné memy spojují jednoduchou formu s otevřeností pro obměny, a proto se jeden příběh může šířit v desítkách vizuálních variant, které se navzájem posilují. Efekt iluzorní pravdy navíc vysvětluje, proč opakované setkání s týmž příběhem zvyšuje jeho přesvědčivost i u lidí, kteří by ho jinak odmítli (Fazio et al. 2015).
+
+Praktickým rozlišovacím krokem je rozepsání memu do větné podoby: jakmile se obraz přeloží na tvrzení, vyjdou najevo premisy, které nebyly nikdy vysloveny a které by v textu vyžadovaly důkaz. Shifman (2014) rozlišuje u memu formu, obsah a postoj; fúze využívá právě rozpor mezi těmito vrstvami – kauzální tvrzení leží v obsahu, zatímco postoj hlásí „je to vtip“, a kritika obsahu se tak míjí s tím, čím se mem hájí. Omezení důkazů je přitom zřetelné: Fazio a kolektiv (2015) prokázali efekt iluzorní pravdy na opakovaných výrokových tvrzeních, ne na obrazech sdílených v sociální síti. Přenos jejich závěru na memy je *interpretace knihy*, nikoli změřený výsledek.
 
 ## Souvislosti pro praxi
 

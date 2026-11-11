@@ -184,10 +184,6 @@ Vrcholový tým velké organizace po dlouhodobém používání korporátního �
   - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
 
 ## Co ověřit před čtením
 

@@ -9,7 +9,7 @@ categories = ["academic", "reference"]
 
 [extra]
 category = "kompendium-bridge"
-related_terms = ["epistemic-bubble", "epistemic-security", "epistemic-pipeline", "signal-plurality", "bridge-anankasticky-rezim", "bridge-epistemic-security"]
+related_terms = ["epistemic-bubble", "epistemic-security", "intelligence-fusion", "bridge-anankasticky-rezim", "bridge-epistemic-security"]
 glossary_target = "epistemic-bubble"
 toc = false
 +++
@@ -68,9 +68,9 @@ která řídí, k jakým informacím se člověk dostane. Pozorovatelné projevy
 [Cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md).
 Digitální rozměr rozvádějí kapitola [7.7 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
 a stránka [EA × OSINT: Sociální sítě jako EA bojiště](@/kompendium/cross-domain/5-ea-osint-social-media-manipulation.md).
-Na platformě, z níž kniha vzešla, odpovídá obraně proti bublině hodnocení rozmanitosti zdrojů v
-[Epistemic Pipeline](@/glossary/epistemic-pipeline.md) a princip [Signal Plurality](@/glossary/signal-plurality.md):
-rozhodnutí opřené o jednolitý okruh zdrojů dostává nižší míru jistoty.
+Obraně proti bublině odpovídá hodnocení rozmanitosti zdrojů, které kniha popisuje jako
+[fúzi zpravodajství](@/glossary/intelligence-fusion.md): tvrzení opřené o jednolitý okruh zdrojů
+si zaslouží nižší míru jistoty.
 
 ## Od pojmu k praxi
 
@@ -157,8 +157,6 @@ epistemickým problémem.
 **Glosář**
 
 - [Epistemic bubble](@/glossary/epistemic-bubble.md) – heslo, které tento most propojuje s knihou.
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – hodnocení rozmanitosti zdrojů na platformě.
-- [Signal Plurality](@/glossary/signal-plurality.md) – princip více nezávislých signálů.
 
 **Kniha**
 

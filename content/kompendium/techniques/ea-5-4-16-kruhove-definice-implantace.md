@@ -90,6 +90,16 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Rozpoznání uzavřeného slovníku neprokazuje, že jsou pojmy prázdné, ani že je někdo zavedl se
+záměrem. Gupta a Belnap (1993) ukazují, že kruh v definici lze formálně zvládnout, je-li přiznán, a
+odborné jazyky se o vlastní termíny opírají legitimně, dokud k nim vede operační cesta (Bridgman,
+1927).
+
+Od zasvěcování do oboru se vzorec odlišuje dostupností převodu: student se postupně učí mluvit o
+téže věci i jinými slovy, zde se tato možnost ztrácí a výklad zůstává vyhrazen tomu, kdo pojmy
+zavedl (Lifton, 1961). Od [implantace nekonečného regresu](@/kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md)
+jej odlišuje tvar vady: tam řetěz důvodů nekončí, zde se po několika krocích vrací k výchozímu bodu.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |
@@ -167,11 +177,6 @@ Klíčové pojmové kotvy techniky: **kruhová definice, operacionalizace, Bridg
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
-
 ---
 
 ## Connect & Contribute

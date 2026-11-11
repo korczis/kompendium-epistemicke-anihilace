@@ -107,11 +107,9 @@ platnost**, které komunikace implicitně obsahuje:
 - [7. Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) chápou Habermasův
   rámec jako **normativní pilíř** [taxonomie EA](@/glossary/taxonomie-ea.md): dodává kritérium, podle něhož lze manipulaci
   rozpoznat jako manipulaci.
-- Na platformě, z níž kniha vzešla, je [Decision Engine](@/glossary/decision-engine.md)
   navržen tak, aby porušení nároků na platnost sledoval jako **rizikové faktory kalibrace**:
   když zdroj soustavně porušuje jeden nebo více nároků, důvěra v závěry z něj odvozené se
   přiměřeně snižuje.
-- Praxe Blue Teamu v rámci [Color Teams](@/glossary/color-teams.md) je výslovně
   modelována podle norem komunikativního jednání: porady probíhají za podmínek, které se
   co nejvíce blíží [ideální řečové situaci](@/glossary/ideal-speech-situation.md) jako
   pragmatickému pracovnímu ideálu.

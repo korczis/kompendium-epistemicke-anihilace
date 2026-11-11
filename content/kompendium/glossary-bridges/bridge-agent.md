@@ -1,6 +1,6 @@
 +++
 title = "Bridge: Agent"
-description = "Most mezi heslem agenta a knihou: softwarový agent platformy, smyčka vnímání–rozhodnutí–akce a lidská agentnost, kterou manipulace oslabuje."
+description = "Most mezi heslem agenta a knihou: softwarový agent, smyčka vnímání–rozhodnutí–akce–zpětná vazba a lidská agentnost, kterou manipulace oslabuje."
 weight = 1
 
 [taxonomies]
@@ -9,7 +9,7 @@ categories = ["academic", "reference"]
 
 [extra]
 category = "kompendium-bridge"
-related_terms = ["agent", "agent-registry", "agent-tier", "aiad", "bridge-agent-registry", "bridge-tactical-execution"]
+related_terms = ["agent", "bridge-embodied-cognition"]
 glossary_target = "agent"
 toc = false
 +++
@@ -22,13 +22,10 @@ toc = false
 
 ## Pojem
 
-[Agent](@/glossary/agent.md) je na platformě Prismatic, z níž kniha vzešla, autonomní softwarová
-entita s formálně popsanými vstupy, výstupy, oprávněními a doménou. Každý agent má úroveň
-oprávnění L1 až L5 (viz [Agent Tier](@/glossary/agent-tier.md)), je zapsán v
-[registru agentů](@/glossary/agent-registry.md) a běží jako proces pod supervizí. Heslo glosáře
-zdůrazňuje rozdíl oproti běžnému významu slova v umělé inteligenci: agentem tu není jazykový
-model s přístupem k nástrojům, ale proces s pevně vymezenými hranicemi, jehož výstupy ověřují
-další brány.
+[Agent](@/glossary/agent.md) je autonomní softwarová entita s formálně popsanými vstupy,
+výstupy, oprávněními a doménou. Heslo glosáře zdůrazňuje rozdíl oproti běžnému významu slova
+v umělé inteligenci: agentem tu není jazykový model s přístupem k nástrojům, ale proces
+s pevně vymezenými hranicemi, jehož výstupy se ověřují.
 
 Glosář popisuje práci agenta jako smyčku **vnímání – rozhodnutí – akce – zpětná vazba**. Kniha
 z ní přebírá analogii: stejnou smyčku lze rozpoznat v lidském jednání a manipulace ji může
@@ -40,12 +37,9 @@ rozhoduje, nebo zpochybněním toho, co se z výsledků svého jednání dozvíd
 V informatice se agentem rozumí systém, který vnímá své prostředí prostřednictvím senzorů a
 působí na ně prostřednictvím akčních členů (Russell a Norvig 1995). Wooldridge a Jennings (1995)
 doplnili, že o *inteligentním* agentovi má smysl mluvit tehdy, je-li autonomní, reaguje na
-změny prostředí, sleduje vlastní cíle a komunikuje s jinými agenty. Model agentů platformy
-k tomu přidává tradici modelu aktorů, v němž výpočet probíhá jako výměna zpráv mezi nezávislými
-jednotkami (Hewitt, Bishop a Steiger 1973), a principy supervize z prostředí Erlang/OTP, kde
-selhání jednoho procesu nemá strhnout celek (Armstrong 2003).
+změny prostředí, sleduje vlastní cíle a komunikuje s jinými agenty.
 
-Důležité je, že autonomie agenta platformy je **ohraničená**: rozhoduje sám, ale jen v rozsahu
+Důležité je, že autonomie takového agenta je **ohraničená**: rozhoduje sám, ale jen v rozsahu
 svého oprávnění, a jeho výstupy procházejí kontrolou. Tato dvojice – vlastní rozhodování a
 vnější ověřování – je i jádrem lidské analogie.
 
@@ -69,10 +63,6 @@ jednání nezáleží. Kniha mu odpovídá technikou
 
 ## Kde se pojem v knize vyskytuje
 
-Platformní stranu pojmu popisuje oddíl [AIAD integrace a detekce EA](@/kompendium/aiad-integration/_index.md):
-agenti barevných týmů, strategičtí a doménoví agenti tam uplatňují taxonomii knihy v obranných
-úlohách, například [Red Team a detekce EA](@/kompendium/aiad-integration/red-team-ea-detection.md)
-nebo [Blue Team a obrana proti EA](@/kompendium/aiad-integration/blue-team-ea-defense.md).
 Úvahy o umělých agentech jako aktérech, kteří mohou poznávání lidí podporovat i ohrožovat,
 rozvádí kapitola [7.7 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md).
 
@@ -122,11 +112,28 @@ s postupným rozšiřováním okruhu, v němž klient rozhoduje sám – viz
 ## Časté omyly
 
 Prvním omylem je ztotožnit softwarového agenta s lidskou osobou. Analogie popisuje strukturu
-smyčky, nikoli vědomí, odpovědnost či morální status. Druhým omylem je převzít z platformy
-představu, že dobrý agent je ten, kdo poslušně plní příkazy vyšší úrovně; u lidí je naopak
+smyčky, nikoli vědomí, odpovědnost či morální status. Druhým omylem je přenést na člověka
+představu, že dobrý agent je ten, kdo poslušně plní příkazy nadřízené úrovně; u lidí je naopak
 schopnost odmítnout příkaz, který odporuje vlastnímu úsudku, znakem zdravé agentnosti. Třetím
 omylem je číst ztrátu agentnosti jako slabost charakteru: kniha ji popisuje jako předvídatelný
 výsledek prostředí, které soustavně trestá samostatné rozhodování.
+
+## Co analogie nedokazuje
+
+Přisoudit procesu vnímání, rozhodování a cíle je podle Dennetta (1987) zaujetí intencionálního
+postoje: strategie, která se vyplácí, protože dovoluje chování předpovídat, nikoli nález o tom, že
+popisovaná entita něco chce nebo ví. Pro tento most z toho plynou dvě omezení. Za prvé: rozpoznat
+v lidském jednání smyčku vnímání – rozhodnutí – akce – zpětná vazba neznamená prokázat, že se tak
+jednání skutečně uskutečňuje; smyčka je popisný rastr, který ukazuje, kde se dá hledat, a jeho
+hodnota je diagnostická, ne kauzální. Za druhé: zjištění, že je některý článek smyčky narušen,
+nedokazuje, že jej někdo narušil záměrně. Tytéž projevy — zúžené vstupy, zkreslená kritéria,
+nedostupná zpětná vazba — mohou vzniknout nemocí, chudobou, prostředím s malou nabídkou voleb
+nebo i dobře míněnou nadměrnou péčí. Třetí omezení je terapeutické: z toho, že se smyčka
+dá na papíře rozložit na čtyři články, nevyplývá, že se dá u člověka po článcích opravovat.
+U softwarového agenta jsou vstupy, kritéria a zpětná vazba oddělené součásti; u člověka se
+proměňují společně — zkušenost, že rozhodnutí má následek, mění i to, čeho si člověk příště
+všimne. *Interpretace knihy*: tvrzení o záměru je samostatné tvrzení a potřebuje samostatné
+důkazy; most je pomůckou pro čtení struktury a tím jeho pravomoc končí.
 
 ## Příklad (anonymizovaný kompozit)
 
@@ -148,10 +155,9 @@ s umělými agenty, kteří za člověka stále častěji vybírají a doporuču
 
 ## Literatura
 
-- Armstrong, J. (2003). *Making Reliable Distributed Systems in the Presence of Software Errors* (disertační práce). Royal Institute of Technology (KTH), Stockholm.
 - Bandura, A. (2001). Social cognitive theory: An agentic perspective. *Annual Review of Psychology*, 52, 1–26.
+- Dennett, D. C. (1987). *The Intentional Stance*. MIT Press.
 - Haggard, P. (2017). Sense of agency in the human brain. *Nature Reviews Neuroscience*, 18(4), 196–207.
-- Hewitt, C., Bishop, P., & Steiger, R. (1973). A universal modular ACTOR formalism for artificial intelligence. In *Proceedings of the 3rd International Joint Conference on Artificial Intelligence* (pp. 235–245).
 - Russell, S., & Norvig, P. (1995). *Artificial Intelligence: A Modern Approach*. Prentice Hall.
 - Seligman, M. E. P. (1975). *Helplessness: On Depression, Development, and Death*. W. H. Freeman.
 - Wooldridge, M., & Jennings, N. R. (1995). Intelligent agents: Theory and practice. *The Knowledge Engineering Review*, 10(2), 115–152.
@@ -161,8 +167,6 @@ s umělými agenty, kteří za člověka stále častěji vybírají a doporuču
 **Glosář**
 
 - [Agent](@/glossary/agent.md) – heslo, které tento most propojuje s knihou.
-- [Agent Tier](@/glossary/agent-tier.md) – úrovně oprávnění agentů.
-- [Agent Registry](@/glossary/agent-registry.md) – evidence agentů a jejich identity.
 
 **Kniha**
 
@@ -172,9 +176,6 @@ s umělými agenty, kteří za člověka stále častěji vybírají a doporuču
 - [Středně-dobá metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md) – obnova schopnosti úsudku.
 
 **Sesterské mosty**
-
-- [Bridge: Agent Registry](@/kompendium/glossary-bridges/bridge-agent-registry.md) – kdo mluví a s jakým oprávněním.
-- [Bridge: Tactical Execution](@/kompendium/glossary-bridges/bridge-tactical-execution.md) – specialista v mezích své domény.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

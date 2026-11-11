@@ -5,7 +5,7 @@ weight = 120
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "due-diligence"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["9-ea-dd-investigation-bias", "14-ea-dd-narrative-warfare", "15-ea-dd-evidence-quality-assessment", "13-ea-dd-beneficial-ownership-disinformation"]

@@ -23,8 +23,8 @@ toc = true
 **Komunitní resilience** je schopnost místního společenství (obce, čtvrti, spolku, farnosti,
 online komunity) rozpoznat ohrožení, přizpůsobit se mu a obnovit se; Norris a kol. (2008) ji
 popisují jako soubor vzájemně provázaných schopností, nikoli jako vlastnost jednotlivce. Ve
-vztahu k EA plní tři funkce. První je **pluralita** – udržet v komunitě více nezávislých zdrojů
-informací a vztahů ([signal plurality](@/glossary/signal-plurality.md)) –, kterou Putnam (2000)
+vztahu k EA plní tři funkce. První je **pluralita** – udržet v komunitě [více nezávislých zdrojů](@/glossary/intelligence-fusion.md)
+informací a vztahů –, kterou Putnam (2000)
 spojuje s přemosťujícím sociálním kapitálem. Druhou je **všímavost**, tedy to, že si lidé všimnou,
 když se někdo izoluje, mění jazyk nebo mizí; Sampson, Raudenbush a Earls (1997) ji řadí pod
 kolektivní účinnost. Třetí je **návratová cesta** – ten, kdo z manipulativního vztahu nebo skupiny

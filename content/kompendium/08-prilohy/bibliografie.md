@@ -73,7 +73,6 @@ Empirický rámec pro [terminální protokoly](@/kompendium/04-terminalni-protok
 - **Arendt, H.** (1951/1973). *The Origins of Totalitarianism* (3rd ed.). New York: Harcourt. — Atomizace, ideologická logika, spojení ideologie a teroru.
 - **Arendt, H.** (1963). *Eichmann in Jerusalem: A Report on the Banality of Evil*. New York: Viking. — [Banalita zla](@/glossary/banalita-zla.md), mizení reflexivity v byrokratickém aparátu.
 - **Klemperer, V.** (1947). *LTI — [Lingua Tertii Imperii](@/glossary/lti-lingua-tertii-imperii.md): Notizbuch eines Philologen*. Berlin: Aufbau. — Manipulace jazyka jako základ totalitního režimu, sémantická přestavba.
-- **Lifton, R. J.** (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: Norton. — Osm kritérií totalitní reformy myšlení ([milieu control](@/glossary/milieu-control.md), mystical manipulation, demand for purity, confession, sacred science, [loading the language](@/glossary/loading-the-language.md), [doctrine](@/glossary/doctrine.md) over person, dispensing of existence).
 - **Lifton, R. J.** (1986). *The Nazi Doctors*. New York: Basic Books. — [Doubling](@/glossary/doubling.md), profesionální štěpení.
 - **Hassan, S.** (1988/2015). *Combating Cult Mind Control* (rev. ed.). Newton, MA: Freedom of Mind Press. — [BITE Model](@/glossary/bite-model.md) (Behavior, Information, Thought, Emotional control). → [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md).
 - **Sloterdijk, P.** (1983). *Kritik der zynischen Vernunft* (sv. 1–2). Frankfurt: Suhrkamp. — [Cynický rozum](@/glossary/cynicky-rozum.md), osvícenství v rozkladu.
@@ -184,11 +183,9 @@ Místo lineární četby:
 - [EA-8.3.3 Filozofický kánon](@/kompendium/techniques/ea-8-3-3-philosophical-canon.md) – normativní pojmy z Arendtové, Foucaulta, Habermase a Frickerové.
 - [EA-8.3.9 Cult Studies Literature](@/kompendium/techniques/ea-8-3-9-cult-studies-literature.md) – specializovaná literatura k oddílu VIII.
 
-**Platformový kontext**
+**Kam bibliografie vede**
 
-Bibliografie je propojena s běžícími systémy:
+Bibliografie je propojena s ostatními částmi knihy:
 
 - [Glosář](@/glossary/_index.md) – každé glosářové heslo cituje primární prameny z této bibliografie.
 - [Filozofie](@/philosophy/_index.md) – filozofická vrstva platformy přímo navazuje na sekce I, II, III, X.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec L0–L13 čerpá z Husserla, Habermase, Frickerové.
-- [Color Teams](@/glossary/color-teams.md) – [Red Team](@/glossary/red-team.md) adversariální simulace operacionalizuje Liftonova kritéria.

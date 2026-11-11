@@ -5,7 +5,7 @@ weight = 230
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "security"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["24-ea-security-threat-intelligence-validation", "16-ea-dd-confirmation-bias-prevention", "22-ea-security-incident-response-narrative", "20-ea-security-insider-threat"]

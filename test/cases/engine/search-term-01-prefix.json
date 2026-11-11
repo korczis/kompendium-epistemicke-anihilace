@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 603,
+        "in": 601,
         "kind": "Pojem",
         "path": "glossary/epistemicka-anihilace.md",
         "tier": 4,
@@ -35,7 +35,7 @@
       },
       {
         "code": null,
-        "in": 130,
+        "in": 129,
         "kind": "Pojem",
         "path": "glossary/epistemicka-injustice.md",
         "tier": 4,
@@ -45,7 +45,7 @@
       },
       {
         "code": null,
-        "in": 128,
+        "in": 127,
         "kind": "Filozofie",
         "path": "philosophy/epistemic-integrity.md",
         "tier": 4,
@@ -65,22 +65,12 @@
       },
       {
         "code": null,
-        "in": 78,
+        "in": 75,
         "kind": "Pojem",
         "path": "glossary/epistemic-bubble.md",
         "tier": 4,
         "title": "Epistemic bubble (epistemická bublina)",
         "url": "/glossary/epistemic-bubble/",
-        "why": "title_prefix"
-      },
-      {
-        "code": null,
-        "in": 65,
-        "kind": "Pojem",
-        "path": "glossary/epistemicka-pokora.md",
-        "tier": 4,
-        "title": "Epistemická pokora",
-        "url": "/glossary/epistemicka-pokora/",
         "why": "title_prefix"
       },
       {
@@ -95,17 +85,17 @@
       },
       {
         "code": null,
-        "in": 40,
+        "in": 54,
         "kind": "Pojem",
-        "path": "glossary/epistemic-pipeline.md",
+        "path": "glossary/epistemicka-pokora.md",
         "tier": 4,
-        "title": "Epistemic Pipeline (epistemický proces)",
-        "url": "/glossary/epistemic-pipeline/",
+        "title": "Epistemická pokora",
+        "url": "/glossary/epistemicka-pokora/",
         "why": "title_prefix"
       },
       {
         "code": null,
-        "in": 36,
+        "in": 35,
         "kind": "Pojem",
         "path": "glossary/epistemic-security.md",
         "tier": 4,
@@ -122,6 +112,16 @@
         "title": "Epistemická agentnost",
         "url": "/glossary/epistemicka-agentnost/",
         "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 32,
+        "kind": "Pojem",
+        "path": "glossary/epistemicka-bezdomovost.md",
+        "tier": 4,
+        "title": "Epistemická bezdomovost",
+        "url": "/glossary/epistemicka-bezdomovost/",
+        "why": "title_prefix"
       }
     ],
     "limit": 12,
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "Epi",
     "schema": "kompendium-engine/v1",
-    "total": 407
+    "total": 390
   },
   "input": {
     "op": "search",

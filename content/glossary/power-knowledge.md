@@ -100,11 +100,6 @@ Konkrétně:
 
 ## Význam pro Kompendium
 
-- Rámec [Color Teams](@/glossary/color-teams.md) chápe samotnou platformu jako aparát
-  moci-vědění a podle toho ji audituje: které hlasy [Decision
-  Engine](@/glossary/decision-engine.md) zvýhodňuje? Čí kalibrace důvěry se stává
-  autoritativní? Závazky platformy k otevřenému zdrojovému kódu, auditovatelnosti
-  a vícejazyčnosti jsou výslovnými protitahy vůči moci-vědění.
 - Samo české Kompendium je intervencí moci-vědění: tím, že vytváří **odbornou taxonomii
   v češtině**, posouvá režim pravdy, v němž mohou česky mluvící přeživší pojmenovat svou
   zkušenost.

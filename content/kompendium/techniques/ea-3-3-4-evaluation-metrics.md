@@ -136,9 +136,6 @@ Druhým rizikovým kontextem je převod jemné kompetence na jediné číslo. Od
   - [Dual-use poznání](@/glossary/dual-use-poznani.md)
   - [Kompendium EA](@/glossary/kompendium-ea.md)
 - **Klinické aplikace**: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 

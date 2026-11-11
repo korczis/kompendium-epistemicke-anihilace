@@ -5,7 +5,7 @@ weight = 180
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "security"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["17-ea-security-social-engineering", "22-ea-security-incident-response-narrative", "20-ea-security-insider-threat", "6-ea-osint-bot-detection"]

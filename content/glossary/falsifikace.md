@@ -76,9 +76,9 @@ tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md
 Diagnostickým principem je zachování struktury tváří v tvář protidůkazu: soustava přesvědčení,
 která se bez ohledu na vstup vrací do stejného stavu, nepodstupuje žádné riziko, a proto
 o světě nic netvrdí (Popper, 1934). To platí nezávisle na tom, zda jsou výchozí tvrzení
-pravdivá; i pravdivé tvrzení držené v nevyvratitelné podobě ukazuje na porušený [epistemický
-proces](@/glossary/epistemic-pipeline.md) – *interpretace knihy*, opřená o Popperovo oddělení
-obsahu od pravdivosti (Popper, 1963).
+pravdivá; i pravdivé tvrzení držené v nevyvratitelné podobě ukazuje na porušený epistemický
+proces – *interpretace knihy*, opřená o Popperovo oddělení obsahu od pravdivosti
+(Popper, 1963).
 
 Falsifikace má přitom známé meze, které jsou pro praxi stejně důležité jako kritérium samo.
 Duhem upozornil, že fyzikální hypotéza se nikdy netestuje izolovaně, protože každý test
@@ -138,19 +138,6 @@ falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md): j
 myšlenkových kroků, které soustavu přesvědčení v praxi zbavují falzifikovatelnosti, tedy
 o kroky odpovídající Popperovu popisu záchrany teorie za cenu obsahu (Popper, 1963).
 
-Na platformě, z níž kniha vzešla, je kritérium převedeno do povinného vstupu: [Decision
-Engine](@/glossary/decision-engine.md) vyžaduje u tvrzení s vysokou jistotou výslovnou
-falzifikační klauzuli, tedy pozorování, které by jistotu snížilo, a bez takové klauzule jistotu
-automaticky snižuje. [NABLA Infinity](@/glossary/nabla-infinity.md) k tomu vede registraci
-předpovědí před pozorováním výsledku, takže racionalizaci po události brání neměnný záznam.
-Obojí je *interpretace knihy* přenášející do postupu Popperův požadavek předem určeného
-vyvrácení (Popper, 1934), doplněný Mayové kritériem přísnosti testu (Mayo, 1996).
-
-Cvičení [Red Teamu](@/glossary/red-team.md) v rámci [Color Teams](@/glossary/color-teams.md)
-mají ověřit, zda lze usuzování platformy proti protidůkazu imunizovat, tedy zda není požadavek
-falzifikační klauzule jen formální. Rozdíl mezi progresivním a degenerativním posunem se
-přitom sleduje změnou empirického obsahu (Lakatos, 1970).
-
 ## Obrana a zotavení
 
 Obranou je falzifikační myšlení jako návyk: u každého důležitého přesvědčení si předem zapsat,
@@ -186,7 +173,6 @@ podmínkou obsažnosti tvrzení (Popper, 1934), nikoli souhlasu s jeho popření
 - [Holismus](@/glossary/holismus.md) – Duhemova a Quineova teze o testování soustavy.
 - [Konfirmační bias](@/glossary/konfirmacni-bias.md) – zkreslení, proti němuž kritérium působí.
 - [Pseudoscience](@/glossary/pseudoscience.md) – kde demarkace naráží.
-- [Epistemic pipeline](@/glossary/epistemic-pipeline.md) – epistemický proces platformy.
 - [Taxonomie EA](@/glossary/taxonomie-ea.md) – zařazení vzorce EA-1.3.1.
 - [Hermeneutika](@/glossary/hermeneutika.md) – legitimní alternativní výkladový rámec.
 

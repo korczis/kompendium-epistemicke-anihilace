@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.3 Sociální platformy
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -71,6 +70,15 @@ Krátké video s provokativním tvrzením o školní reformě získá během hod
 ## 9. Meze a otevřené otázky
 
 Vnější pozorovatel nevidí, jak algoritmus přesně rozhoduje, a tak rozlišení cílené amplifikace od organického zájmu zůstává často pravděpodobnostní. Výzkum dopadu doporučovacích systémů na postoje přináší rozporné výsledky; kniha proto mluví o vzorci, ne o změřené velikosti účinku.
+
+Vysoký dosah sám neprokazuje cílené zesílení: Vosoughi, Roy a Aral (2018) zjistili, že nepravdivé
+zprávy se šíří rychleji především prostřednictvím lidí, takže i rychlý vzestup je slučitelný s
+organickým sdílením. Rozpoznání vzorce zároveň nevypovídá o obsahu — zesílený příspěvek může být
+pravdivý a zesílení přesto zkresluje váhu, kterou tématu publikum přisoudí.
+
+*Interpretace knihy*: bez přístupu k řazení zůstává úsudek pozorovatele nepřímý, a proto se tato
+stránka drží popisu znaků. Rozhodnutí o viditelnosti činí platforma (Gillespie, 2018), kdežto
+pozorovatel vidí jen jeho výsledek.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

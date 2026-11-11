@@ -86,7 +86,7 @@ U oborů, kde chybí ověřitelné výsledky – v umění, v hodnotových otáz
 
 ## Dokumentace v praxi
 
-Zaznamenat konkrétní tvrzení, míru jistoty (slovně nebo na škále), datum a výsledek. V organizacích vést u důležitých rozhodnutí záznam předpokladů a jejich pozdější vyhodnocení (viz [EA × Due Diligence: Decision Engine Calibration](@/kompendium/cross-domain/11-ea-dd-decision-engine-calibration.md) a [Decision Engine](@/glossary/decision-engine.md)).
+Zaznamenat konkrétní tvrzení, míru jistoty (slovně nebo na škále), datum a výsledek. V organizacích vést u důležitých rozhodnutí záznam předpokladů a jejich pozdější vyhodnocení (viz [kalibrace rozhodovacích systémů](@/kompendium/cross-domain/11-ea-dd-decision-engine-calibration.md)).
 
 ## Doporučený postup
 

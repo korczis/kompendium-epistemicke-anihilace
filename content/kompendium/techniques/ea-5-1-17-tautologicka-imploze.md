@@ -187,9 +187,6 @@ Kruh praktikující „vědomí čistého vědomí“. Adepti po letech reportov
   - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)

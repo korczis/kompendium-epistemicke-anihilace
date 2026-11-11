@@ -8,7 +8,7 @@ tags = ["glossary", "kompendium", "philosophy", "epistemic"]
 
 [extra]
 category = "philosophy"
-related_terms = ["pluralismus", "epistemicky-monismus", "evidence-based", "skepticismus", "epistemicka-pokora", "signal-plurality"]
+related_terms = ["pluralismus", "epistemicky-monismus", "evidence-based", "skepticismus", "epistemicka-pokora"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
@@ -100,8 +100,7 @@ důvodů zároveň.
 Metaepistemologie dává Kompendiu pojmový aparát pro nejabstraktnější úroveň technik – pro ty,
 které nemíří na to, *co* si člověk myslí, ale na to, *jak* rozhoduje, co si myslet.
 V [kartě EA-5.1.27](@/kompendium/quick-reference/qr-ea-5-1-27.md) je uvedena spolu s evidence-based
-a pluralismem. Prakticky souvisí se vzdělávacím scénářem [Meta-evaluace](@/kompendium/educational-scenarios/9-meta-evaluation.md)
-a s principem [signal plurality](@/glossary/signal-plurality.md).
+a pluralismem. Prakticky souvisí se vzdělávacím scénářem [Meta-evaluace](@/kompendium/educational-scenarios/9-meta-evaluation.md).
 
 ## Obrana a zotavení
 
@@ -127,7 +126,6 @@ a s principem [signal plurality](@/glossary/signal-plurality.md).
 - [Epistemický monismus](@/glossary/epistemicky-monismus.md) – výsledný stav meta-redukce.
 - [Pluralismus](@/glossary/pluralismus.md) – obranný protějšek.
 - [Evidence-based](@/glossary/evidence-based.md) – příklad legitimně omezeného metodologického nároku.
-- [Signal plurality](@/glossary/signal-plurality.md) – více nezávislých signálů jako princip.
 
 **Techniky**
 

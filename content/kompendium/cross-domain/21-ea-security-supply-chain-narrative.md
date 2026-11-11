@@ -5,7 +5,7 @@ weight = 210
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "security"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["24-ea-security-threat-intelligence-validation", "23-ea-security-attribution-bias", "25-ea-compliance-nis2-integrity", "12-ea-dd-counterparty-manipulation"]
@@ -163,4 +163,3 @@ rizika dodavatelů, kteří jsou zároveň jedinými dostupnými.
 
 - [Reputation laundering](@/kompendium/detection-signatures/23-network-reputation-laundering.md) – důvěryhodný kanál jako nosič.
 - [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) – nestejná rizika jako stejná.
-- [EASM](@/glossary/easm.md) – správa vnějšího útočného povrchu.

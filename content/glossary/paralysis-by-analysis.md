@@ -139,11 +139,9 @@ pokora](@/glossary/epistemicka-pokora.md) jako kalibrovanou, ne nulovou jistotu 
 
 Organizačně se pravidlo ukončení obvykle formuluje jako předběžný závazek: kritérium
 rozhodnutí se vysloví dříve, než se rozhoduje, takže v okamžiku volby už není co vyjednávat
-(Elster, 1979). V knize mu odpovídá výslovný přechod od zkoumání k závěru popsaný v hesle
-[NM/ND](@/glossary/nm-nd.md), v epistemické pipeline [NABLA
-Infinity](@/glossary/nabla-infinity.md) a funkce, která analýzu omezuje na relevantní
-signály, popsaná v hesle [reality testing](@/glossary/reality-testing.md) – to jsou
-*interpretace knihy*, ne nálezy rozhodovací teorie (Simon, 1957).
+(Elster, 1979). V knize mu odpovídá funkce, která analýzu omezuje na relevantní signály,
+popsaná v hesle [reality testing](@/glossary/reality-testing.md) – to je *interpretace knihy*,
+ne nález rozhodovací teorie (Simon, 1957).
 
 Eticky je třeba vyhnout se opačnému extrému. Zrychlené rozhodování bez prověření je
 v prostředích s vysokou sázkou samostatným rizikem, a pravidlo ukončení se proto stanovuje
@@ -198,7 +196,6 @@ tam, kde závažnost následků není předem známa (Gigerenzer a Selten, 2001)
 - [Gish Gallop](@/glossary/gish-gallop.md) – zahlcení, které paralýzu vyvolává zvenčí.
 - [Sealioning](@/glossary/sealioning.md) – vytrvalé požadavky na další doklady.
 - [Epistemická pokora](@/glossary/epistemicka-pokora.md) – kalibrovaná jistota místo úplné.
-- [NM/ND](@/glossary/nm-nd.md) – výslovný přechod od zkoumání k závěru.
 
 **Kniha**
 

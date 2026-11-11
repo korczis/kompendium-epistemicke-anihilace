@@ -99,8 +99,7 @@ vždy jako vzorec k rozpoznání a k ochraně, nikdy jako postup.
 
 Neurovědecký popis zde slouží jako **vysvětlující model**, nikoli jako diagnóza: z chování
 nelze usuzovat na stav sítě a ze zobrazení nelze usuzovat na kognitivní proces bez další
-evidence (Poldrack, 2006). *Interpretace knihy*: v rozhodovacím rámci [Decision
-Engine](@/glossary/decision-engine.md) proto výpověď člověka o narušení identity není
+evidence (Poldrack, 2006). *Interpretace knihy*: výpověď člověka o narušení identity proto není
 vstupem pro hodnocení jeho důvěryhodnosti, nýbrž důvodem k deeskalaci a k nasměrování
 k péči; v prověrkových kontextech, jako je [due diligence](@/glossary/due-diligence.md), se
 z takových údajů nevyvozují závěry o osobě (Poldrack, 2006).

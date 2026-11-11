@@ -178,10 +178,6 @@ Uživatel internetové subkultury „od-iluze-osvobozený“ reportoval po 18 m�
   - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
 
 ## Co ověřit před čtením
 

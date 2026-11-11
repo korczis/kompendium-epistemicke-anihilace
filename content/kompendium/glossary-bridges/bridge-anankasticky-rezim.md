@@ -164,7 +164,6 @@ stability přesvědčení je pro život nezbytná.
 **Glosář**
 
 - [Anankastický režim](@/glossary/anankasticky-rezim.md) – heslo, které tento most propojuje s knihou.
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – jak platforma odhaluje patologicky imunní přesvědčení.
 
 **Kniha**
 

@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.6 Algoritmická governance
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -69,6 +68,8 @@ Lékařka publikuje video vysvětlující, jak poznat příznaky sebepoškozová
 ## 9. Meze a otevřené otázky
 
 Bez automatizace by platformy nezvládly množství obsahu; otázkou je míra a nastavení, ne samotná automatizace. Otevřenou otázkou je, jak sladit rychlost odstraňování škodlivého obsahu s ochranou dokumentace a svědectví.
+
+Důkazy o rozsahu chybných zásahů jsou navíc nesymetricky dostupné. Chyba je viditelná jen tam, kde zasažený má postavení, dosah a jazyk, aby si veřejně stěžoval; dokumentace válečných zločinů nebo policejního násilí ale mizí z účtů lidí, kteří odvolání podat nedokážou. Pozorovaný obraz chybovosti proto její skutečný dopad spíše podhodnocuje, a to systematicky směrem od nejzranitelnějších. Gorwa, Binns a Katzenbach (2020) z toho dovozují, že automatizovanou moderaci nelze zvenčí nezávisle auditovat, a Suzor (2019) ukazuje, že chybějí procesní záruky, které by rozhodnutí učinily zpochybnitelným. *Interpretace knihy*: dokud není znám podíl chyb podle typu obsahu, zůstává nastavení klasifikátoru politickým rozhodnutím vydávaným za technické.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

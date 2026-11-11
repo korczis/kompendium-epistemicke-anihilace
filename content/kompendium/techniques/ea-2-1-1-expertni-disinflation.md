@@ -131,9 +131,6 @@ Co prožívá oběť expertní disinflace:
   - [Delegitimizace](@/glossary/delegitimizace.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 

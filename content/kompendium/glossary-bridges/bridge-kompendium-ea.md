@@ -100,10 +100,10 @@ výhrady k celému rámci. Otázku, jak psát o manipulaci, aby text nesloužil 
 
 ## Vztah k platformě
 
-Kompendium vzniklo v kontextu platformy Prismatic jako model hrozby a slovník pro její epistemické
+Kompendium vzniklo ve vývojovém kontextu, z něhož kniha vzešla, jako model hrozby a slovník pro její epistemické
 obrany a postupně se rozrostlo v samostatnou knihu. Heslo glosáře popisuje tři role, které na
 platformě plnilo: zdroj modelu hrozby, zdroj slovníku a provozní příručku. Kapitola
-[1.6 Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) vysvětluje, co
+[1.6 Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md) vysvětluje, co
 kniha z platformy přebírá – zejména zásadu, že taxonomická tvrzení mají být testovatelná a revidovatelná
 – a v čem se od ní liší: kniha je určena lidem a jejím měřítkem je klinická a etická použitelnost,
 ne technická výkonnost.

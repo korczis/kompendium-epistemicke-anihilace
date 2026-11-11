@@ -9,7 +9,6 @@ tags = ["glossary", "kompendium", "philosophy", "epistemic", "epistemicka-singul
 [extra]
 category = "philosophy"
 related_terms = [
-  "signal-plurality",
   "epistemicka-monokultura",
   "epistemicky-monismus",
   "hermeneuticky-outsourcing",
@@ -25,11 +24,11 @@ date_modified = "2026-11-10"
 
 **Epistemická singularita** je stav, v němž se poznávací systém člověka, skupiny nebo společnosti zhroutí do jediné dominantní interpretace. Ta vysvětluje všechno, nepřipouští konkurenční hypotézy ani jako myšlenkovou možnost a každý protidůkaz zpracuje tak, že ji ve výsledku potvrdí; pluralita zdrojů a výkladů, která běžně umožňuje opravovat omyly, mizí. Název je vlastním pojmem knihy převzatým z její původní taxonomie (2025), nikoli zavedeným odborným termínem, a pojmenovává vzorec, který literatura popisuje jako totalismus (Lifton 1961) a jako „ochromenou epistemologii“ (*crippled epistemology*) uzavřených skupin (Sunstein a Vermeule 2009).
 
-Kompendium ji chápe jako protipól principu [signal plurality](@/glossary/signal-plurality.md), podle něhož se má přesvědčení opírat aspoň o dva nezávislé signály. V singularitě je zdroj jen jeden, a i to, co se jeví jako nezávislé potvrzení, z něj ve skutečnosti vychází; shoda mnoha hlasů, které všechny opakují jednoho mluvčího, přitom nemá větší váhu než mluvčí sám (Goldman 2001). Výsledný stav, s nímž se setká kliník nebo blízký člověk, podrobně popisuje rozcestník [Epistemická singularita](@/kompendium/06-epistemicka-singularita/_index.md); techniky, které k němu vedou, rozebírá [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md).
+Kompendium ji chápe jako protipól [fúze zpravodajství](@/glossary/intelligence-fusion.md): spolehlivost poznání stojí na tom, že se přesvědčení opírá aspoň o dva nezávislé signály. V singularitě je zdroj jen jeden, a i to, co se jeví jako nezávislé potvrzení, z něj ve skutečnosti vychází; shoda mnoha hlasů, které všechny opakují jednoho mluvčího, přitom nemá větší váhu než mluvčí sám (Goldman 2001). Výsledný stav, s nímž se setká kliník nebo blízký člověk, podrobně popisuje rozcestník [Epistemická singularita](@/kompendium/06-epistemicka-singularita/_index.md); techniky, které k němu vedou, rozebírá [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md).
 
 ## Původ a kontext pojmu
 
-Termín je pracovním pojmem Kompendia a platformy Prismatic. Slovo „singularita“ je převzato z matematiky a fyziky, kde označuje bod, v němž model přestává platit a veličiny ztrácejí smysl. Analogie je omezená, ale výstižná v jednom ohledu: v singularitě přestávají fungovat běžná pravidla, podle nichž se poznání opravuje. Kniha přitom netvrdí, že je stav nevratný. Podle *pojetí knihy* z něj lidé vystupují spíše změnou prostředí, vztahů a času než argumentem; Hassan popisuje návrat z uzavřených skupin přes zachované vztahy, ne přes spor o doktrínu (Hassan 1988).
+Termín je pracovním pojmem Kompendia. Slovo „singularita“ je převzato z matematiky a fyziky, kde označuje bod, v němž model přestává platit a veličiny ztrácejí smysl. Analogie je omezená, ale výstižná v jednom ohledu: v singularitě přestávají fungovat běžná pravidla, podle nichž se poznání opravuje. Kniha přitom netvrdí, že je stav nevratný. Podle *pojetí knihy* z něj lidé vystupují spíše změnou prostředí, vztahů a času než argumentem; Hassan popisuje návrat z uzavřených skupin přes zachované vztahy, ne přes spor o doktrínu (Hassan 1988).
 
 Myšlenkově navazuje na tři dobře doložené linie. Lifton popsal v rámci [myšlenkové reformy](@/glossary/thought-reform.md) totalismus, tedy prostředí, kde kontrola komunikace, nadřazení doktríny osobě a nárok na výlučnou pravdu vytvářejí uzavřený svět (Lifton 1961). Festinger a spolupracovníci ukázali, že selhání předpovědi nemusí víru oslabit a u části členů skupiny ji naopak posílilo (Festinger a kol. 1956). Popper upozornil, že teorie, která vysvětluje cokoli, nevysvětluje nic, protože ji nelze vyvrátit (Popper 1963); viz heslo [falsifikovatelnost](@/glossary/falsifikovatelnost.md).
 
@@ -108,7 +107,6 @@ Pojem je metafora, a proto má meze: svádí k představě jediného bodu zlomu,
 
 **Protipóly a předstupně**
 
-- [Signal plurality](@/glossary/signal-plurality.md) – princip nezávislých signálů, opak singularity.
 - [Epistemická monokultura](@/glossary/epistemicka-monokultura.md) – jednotný zdroj jako předstupeň.
 - [Hermeneutický outsourcing](@/glossary/hermeneuticky-outsourcing.md) – předání výkladu vlastní zkušenosti rámci.
 

@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.1 LLM-mediated EA
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -71,6 +70,16 @@ Interní asistent velké nemocnice odpovídá zaměstnancům na dotazy o postupe
 Ne každé zkreslení odpovědi RAG systému je otrava – častější je špatná kvalita dokumentů nebo nevhodné vyhledávání. Otevřenou otázkou zůstává, jak auditovat velké báze průběžně, aniž by se z nich stala nepoužitelná byrokracie.
 
 Otevřenou otázkou je, jak auditovat báze, které se mění denně, a kdo má v organizaci nést odpovědnost za jejich obsah.
+
+Nález dokumentu bez doloženého původu neprokazuje, že jej někdo do báze vložil se zlým záměrem:
+tentýž stav vzniká běžným provozem, kde pracovní poznámka skončí vedle schváleného předpisu.
+Pasquale (2015) klade požadavek průhlednosti na správce systému, čímž zároveň naznačuje hranici
+takového zjištění — chybějící původ je vada správy, nikoli doklad o aktérovi.
+
+*Interpretace knihy*: změna odpovědi bez změny předpisu je proto důvodem k nahlédnutí do báze, ne
+závěrem o kontaminaci. Rozpoznání vzorce rovněž nevypovídá o tom, nakolik odpověď ovlivnila
+rozhodování; ochota přijímat výstup systému bez kontroly je doložena obecně (Parasuraman a Manzey
+2010), nikoli pro jednotlivý případ.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

@@ -64,10 +64,9 @@ jsou relevantní, ale autorství pojmu „narativní trauma“ se zde neuvádí 
 - obtížné události buď zcela chybějí, nebo pohlcují celé vyprávění;
 - nápadná ochota převzít jakýkoli nabídnutý výklad, který „konečně dává smysl“.
 
-Rozhodovací systém platformy ([Decision Engine](@/glossary/decision-engine.md)) považuje
-zprávy o takové narativní diskontinuitě za kalibrační výstrahu vysoké závažnosti; souvisí to
-s pojmem [epistemické trauma](@/glossary/epistemicke-trauma.md) a vstupuje to do sledování
-průběhu zotavení. V klinické praxi jde o signál k pečlivému vyšetření, ne o diagnózu.
+Taková narativní diskontinuita je výstrahou vysoké závažnosti; souvisí to s pojmem
+[epistemické trauma](@/glossary/epistemicke-trauma.md) a vstupuje to do sledování průběhu
+zotavení. V klinické praxi jde o signál k pečlivému vyšetření, ne o diagnózu.
 
 ## Mechanismus
 

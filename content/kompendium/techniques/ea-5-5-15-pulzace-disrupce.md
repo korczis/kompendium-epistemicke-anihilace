@@ -117,6 +117,16 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **pulzační disru
 
 **vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.15 je akutní *induced* stav s definovaným počátkem a koncem. Cambridge Depersonalisation Scale (CDS) skore >70 v posledních 6 měsících indikuje DPDR; akutní EA-5.5.15 se obvykle resolvuje do 24–72h.
 
+Rozpoznání plochosti neprokazuje, že ji vyvolalo prostředí, v němž člověk je. Lindahl et al. (2017)
+zaznamenali obtíže provázející kontemplativní praxi i u lidí, kteří ji vedli sami a bez nátlaku, a
+týž fenomenologický obraz tedy může vzniknout tam, kde nikdo plochost jako pokrok nevykládá. Nález
+rovněž nezakládá diagnózu: výše uvedené odlišení od psychotického spektra, disociace a
+depersonalizace má podobu vylučování, které patří do rukou klinika.
+
+*Interpretace knihy*: od ztišení, o němž mluví kontemplativní tradice, odlišuje tento stav to, co
+v něm chybí. Stace (1960) i James (1902) popisují zkušenost, k níž patří sjednocení a kterou
+člověk sám hodnotí jako cennou; zde zůstává hájená nehybnost bez obojího.
+
 ## Literatura
 
 - Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.
@@ -166,10 +176,6 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **pulzační disru
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Embodied cognition](@/glossary/embodied-cognition.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
 
 ## Co ověřit před čtením
 

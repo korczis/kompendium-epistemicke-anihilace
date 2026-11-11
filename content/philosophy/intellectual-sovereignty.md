@@ -500,12 +500,11 @@ lidského původu**.
 
 - [Paradigm Shift](@/glossary/paradigm-shift.md) – pojem, jímž esej popisuje odklon od
   modelu commons.
-- [Doctrine](@/glossary/doctrine.md) – doktrína platformy, k níž se licenční filozofie hlásí.
 - [Epistemická agentnost](@/glossary/epistemicka-agentnost.md) – suverenita poznávajícího
   člověka, kterou chrání obranná taxonomie knihy.
 
 **Kniha**
 
-- [1.6 Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) – proč
+- [1.6 Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md) – proč
   kniha vychází v rámci platformy a pod GHL.
 - [O projektu](@/about.md) – autor a licence knihy.

@@ -1,10 +1,10 @@
 +++
 title = "Paradigm shift (změna paradigmatu)"
 weight = 50
-description = "Kuhnův pojem změny paradigmatu použitý na softwarové inženýrství: od OOP k funkcionálnímu programování a procesnímu modelu OTP/BEAM v Prismatic Platform."
+description = "Kuhnův pojem změny paradigmatu použitý na softwarové inženýrství: od OOP k funkcionálnímu programování a procesnímu modelu OTP/BEAM; v knize změna rámce u člověka."
 
 [taxonomies]
-tags = ["glossary", "prismatic", "architecture", "science", "philosophy"]
+tags = ["glossary", "architecture", "science", "philosophy"]
 
 [extra]
 category = "core"
@@ -22,7 +22,7 @@ date_created = "2026-02-22"
 date_updated = "2026-02-22"
 version = "2.0.0"
 date_modified = "2026-11-10"
-keywords = ["Paradigm", "Shift", "Comprehensive", "OTPBEAM", "Prismatic", "Platform", "glossary", "core", "Prismatic Platform", "BEAM"]
+keywords = ["Paradigm", "Shift", "OTPBEAM", "glossary", "core", "BEAM", "změna paradigmatu"]
 image = "/images/sections/glossary.png"
 image_alt = "Paradigm shift (změna paradigmatu) – glosář"
 +++
@@ -47,8 +47,7 @@ v novém pojetí programu jako souboru spolupracujících objektů místo poslou
 Podobně přechod k funkcionálnímu programování nespočívá v přidání lambda výrazů do Javy, ale
 v novém pojetí výpočtu jako vyhodnocování matematických funkcí místo měnění stavu.
 
-Toto heslo pochází z technické dokumentace Prismatic Platform. Pro Kompendium je Kuhnův pojem
-důležitý jinak: změna paradigmatu u člověka (konverze, vystoupení ze skupiny) může být
+Pro Kompendium je Kuhnův pojem důležitý ještě v jiném smyslu: změna paradigmatu u člověka (konverze, vystoupení ze skupiny) může být
 zdravým vývojem i výsledkem manipulace, a kniha proto rozlišuje mezi svobodnou revizí
 rámce a vnuceným přepisem (viz [Gestalt Shift](@/glossary/gestalt-shift.md),
 [paradigmatická bezdomovina](@/glossary/paradigmaticka-bezdomovina.md)).
@@ -155,7 +154,7 @@ se spravuje na úrovni procesu rekurzivními smyčkami zpráv (GenServer), čím
 oddělení čistého výpočtu od stavové interakce.
 
 ```elixir
-defmodule Prismatic.ParadigmExample.SessionProcess do
+defmodule Example.SessionProcess do
   @moduledoc """
   Demonstrates the BEAM paradigm's process-oriented design.
 
@@ -254,7 +253,7 @@ defmodule Prismatic.ParadigmExample.SessionProcess do
   end
 
   defp via_tuple(user_id) do
-    {:via, Registry, {Prismatic.SessionRegistry, user_id}}
+    {:via, Registry, {Example.SessionRegistry, user_id}}
   end
 end
 ```
@@ -275,17 +274,10 @@ robustnější a zároveň jednodušší na uvažování než defenzivní progra
 
 ### Supervize jako architektura
 
-V paradigmatu BEAM není [supervizní
-strom](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/)
-implementačním detailem – je to architektura. Struktura supervizního stromu určuje domény
-selhání systému, pořadí inicializace a strategii zotavení každé komponenty. Návrh aplikace
+V paradigmatu BEAM není supervizní strom implementačním detailem – je to architektura.
+Struktura supervizního stromu určuje domény selhání systému, pořadí inicializace a strategii
+zotavení každé komponenty. Návrh aplikace
 na BEAM začíná návrhem supervizního stromu, ne hierarchie tříd ani struktury modulů.
-
-Umbrella Prismatic Platform (v době zápisu 115 aplikací) je uspořádána jako hierarchie
-supervizorů, v níž každá aplikace přispívá svým podstromem do celkového supervizního stromu
-platformy. Tato struktura zajišťuje, že selhání v jedné aplikaci (třeba adaptér
-[OSINT](@/glossary/osint.md), který narazí na neočekávanou odpověď API) zůstane izolované
-v podstromu dané aplikace a neovlivní zbytek platformy.
 
 ## Rozpoznání uvíznutí v paradigmatu
 
@@ -300,11 +292,6 @@ hierarchie procesů zrcadlící dědičnost tříd, sahání po měnitelném sta
 tam, kde by neměnné datové struktury byly jednodušší, a implementace návrhových vzorů z OOP,
 které ve funkcionálním programování nemají odpovídající potřebu (většina vzorů Gang of Four
 řeší problémy, které ve funkcionálních jazycích neexistují).
-
-Metapravidlo Prismatic Platform – „Kdyby šlo stejné řešení napsat identicky v Node.js, je
-ŠPATNĚ“ – je heuristikou pro odhalení uvíznutí v paradigmatu. Kód, který nevyužívá jedinečné
-schopnosti BEAM (izolaci procesů, supervizi, porovnávání se vzorem, neměnná data), je kód,
-který změnu paradigmatu nedokončil.
 
 Kompendium zná analogii u lidí: uvíznutí v rámci, který člověk převzal od skupiny, se
 projevuje tím, že každou novou zkušenost překládá do starého slovníku (srov. [Kognitivní
@@ -331,27 +318,6 @@ vnořených volání „zevnitř ven“ tokem „shora dolů“.
 **Algebraické datové typy** (v Elixiru označené n-tice jako `{:ok, value}` a
 `{:error, reason}`) nahrazují výjimky u očekávaných selhání, takže ošetření chyb je výslovně
 v signaturách funkcí, ne skryté v blocích try/catch.
-
-## Změny paradigmatu v Prismatic Platform
-
-Prismatic Platform ztělesňuje několik změn paradigmatu současně.
-
-**Od monolitu k umbrelle**: architektura umbrella (v době zápisu 115 aplikací) chápe aplikace
-jako nezávislé jednotky s výslovnými závislostmi, ne jako monolitickou kódovou základnu
-s implicitní provázaností (srov. [Bounded Context](@/glossary/bounded-context.md)).
-
-**Od REST k reálnému času**: Phoenix LiveView posouvá architekturu webových aplikací od cyklů
-požadavek–odpověď k trvalým spojením WebSocket se serverem vykreslovanými aktualizacemi,
-takže pro interaktivní funkce nejsou potřeba samostatné frontendové aplikace.
-
-**Od ručního k autonomnímu**: infrastruktura [AutoEvolve](@/glossary/autoevolve.md)
-a [AutoHeal](@/glossary/autoheal.md) posouvá řízení kvality od ručního code review
-k autonomnímu, průběžnému vynucování kvality, které problémy odhaluje a opravuje bez zásahu
-člověka.
-
-**Od statického k adaptivnímu**: rámec SEADF a Quality Floor Guardian posouvají provoz systému
-od statických konfigurací k adaptivním systémům, které měří vlastní chování a vyvíjejí vlastní
-standardy kvality.
 
 ## Kdy je změna paradigmatu oprávněná
 
@@ -383,11 +349,6 @@ používání vzorů OOP ve funkcionálním jazyce nebo stavba monolitických ar
 jako mikroslužby jsou příklady nedokončených změn, které zvyšují složitost, aniž by přinesly
 výhody kteréhokoli paradigmatu.
 
-Prismatic Platform se této pasti vyhýbá důsledným vynucováním vzorů vlastních paradigmatu:
-brány kvality odmítají kód, který nevyužívá vzory OTP, metapravidlo zachytí uvíznutí
-v paradigmatu a ekosystém agentů [AIAD](@/glossary/aiad.md) (v době zápisu 530 agentů) pracuje
-celý v pojmovém rámci paradigmatu BEAM.
-
 U lidí má „nedokončená změna“ jiný význam: člověk, který opustil jeden rámec a nový ještě
 nemá, prožívá [paradigmatickou bezdomovinu](@/glossary/paradigmaticka-bezdomovina.md), v níž je
 zvlášť zranitelný vůči nabídce hotového světonázoru. Postup zotavení popisuje protokol
@@ -401,32 +362,6 @@ zvlášť zranitelný vůči nabídce hotového světonázoru. Postup zotavení 
 - [Gestalt Shift](@/glossary/gestalt-shift.md) – percepční model náhlé změny rámce.
 - [Paradigmatická bezdomovina](@/glossary/paradigmaticka-bezdomovina.md) – stav mezi dvěma
   rámci u člověka.
-- [AutoEvolve](@/glossary/autoevolve.md) – autonomní vývoj kvality v platformě.
-
-**Hesla platformy mimo tuto knihu**
-
-- [BEAM VM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam-vm/),
-  [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/) (Bogdan/Björn's
-  Erlang Abstract Machine), [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/),
-  [Erlang](https://prismatic-reality-com.github.io/prismatic-promo/glossary/erlang/),
-  [Elixir](https://prismatic-reality-com.github.io/prismatic-promo/glossary/elixir/) –
-  virtuální stroj, framework a jazyky paradigmatu.
-- [Functional Programming Language](https://prismatic-reality-com.github.io/prismatic-promo/glossary/functional-programming-language/),
-  [Actor Model](https://prismatic-reality-com.github.io/prismatic-promo/glossary/actor-model/),
-  [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/),
-  [Supervision Tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/),
-  [Behaviour](https://prismatic-reality-com.github.io/prismatic-promo/glossary/behaviour/) –
-  funkcionální paradigma, model aktorů a hlavní abstrakce OTP.
-- [Architectural Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/architectural-pattern/),
-  [Autonomous Evolution](https://prismatic-reality-com.github.io/prismatic-promo/glossary/autonomous-evolution/) –
-  vzory napříč paradigmaty a samozdokonalující se systémy.
-
-**Kniha**
-
-- [7.11 Kuhn: Paradigmatické revoluce a inkomensurabilita](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md) –
-  Kuhnův rámec ve vztahu k EA.
-- [Protokol Paradigm](@/kompendium/recovery-protocols/paradigm.md) – zotavení po rozpadu
-  světonázoru.
 
 ---
 

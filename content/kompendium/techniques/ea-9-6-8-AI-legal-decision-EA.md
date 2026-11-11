@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.6 Algoritmická governance
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -69,6 +68,8 @@ Mladý muž je obviněn z drobné krádeže. Nástroj pro hodnocení rizika ho z
 ## 9. Meze a otevřené otázky
 
 Lidské rozhodování v justici je také zaujaté; nástroje mohou nekonzistenci snížit, pokud jsou transparentní a dobře navržené. Spor o COMPAS ukázal, že matematicky nelze splnit všechna kritéria spravedlnosti současně – volba je hodnotová a patří do veřejné debaty, ne do technické specifikace.
+
+Užitečné je oddělit, co je v tomto sporu matematické a co procesní. Chouldechova (2017) a Kleinberg, Mullainathan a Raghavan (2017) nezávisle na sobě dokázali, že některá kritéria spravedlnosti nemohou platit současně, pokud se základní míry mezi skupinami liší; jde o důsledek, který lepšími daty ani lepším modelem odstranit nelze, a spor po analýze, kterou zveřejnili Angwin a kolektiv (2016), proto nebylo možné rozhodnout měřením. Vedle toho stojí vada jiného druhu: skóre je svědectvím o záznamech zatčení, zachází se s ním však jako s posudkem o člověku, a obžalovaný nemá nástroj, jímž by je konfrontoval. Tato vada je procesní a trvala by i u modelu, který by všechna statistická kritéria splňoval.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

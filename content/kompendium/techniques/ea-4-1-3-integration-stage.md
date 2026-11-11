@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 
-Rámec stanoví [doktrína platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+Rámec stanoví [doktrinální rámec knihy](@/kompendium/02-doktrinalni-ramec/_index.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ## Struktura vzorce
 
@@ -99,6 +99,10 @@ Rizikovým kontextem je prostředí, které výklad zkušenosti poskytuje samo. 
 
 Druhým rizikovým kontextem je tlak na rychlé uzavření. Očekávání, že se zkušenost zpracuje v dohodnutém čase, vede k předčasnému příběhu, který drží jen potud, pokud ho prostředí potvrzuje (Janoff-Bulman, 1992).
 
+## Co nálezy neurčují
+
+Ustálený a soudržný příběh o těžké zkušenosti je také obvyklým výsledkem zdařilého zotavení, a sám tedy nálezem není. Herman (1992) popisuje obnovu vyprávění jako cíl, nikoli jako varovný znak; rozdíl, o němž tato stránka mluví, neleží v soudržnosti, ale v tom, zda člověk unese jinou verzi. Z uvedených markerů také neplyne jejich původ: dezorientace, kolísavý sebepopis i závislost na vnějším potvrzení mají mnoho příčin a u člověka po otřesu jsou očekávané bez ohledu na to, kdo ho ovlivňoval. A neplyne ani směr – zúžení výkladu může být následkem prostředí i způsobem, jímž se člověk sám chrání před nejistotou, kterou by širší výklad otevřel.
+
 ## Vztah k jiným technikám
 
 | Stránka | Vztah |
@@ -148,11 +152,6 @@ Druhým rizikovým kontextem je tlak na rychlé uzavření. Očekávání, že s
 - **Forward-references**:
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - [Color Teams](@/glossary/color-teams.md)
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [Compliance framework](@/glossary/compliance-framework.md)
 
 ## Co ověřit před čtením
 

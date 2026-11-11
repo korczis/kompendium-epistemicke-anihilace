@@ -635,7 +635,6 @@ Efektivní navigace komplexního epistemického terénu vyžaduje robustní poro
 - [Sekce 08 — Etika](@/kompendium/08-prilohy/_index.md)
 - [Techniques index](@/kompendium/techniques/_index.md) — všech 13 EA-1.* hloubkových článků
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
-- Platforma: {{ <cross_link path="/hub/dd/decisions/" text="DD Decisions" /> }}, [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## Kritický krok

@@ -5,7 +5,7 @@ weight = 170
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "security"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["18-ea-security-spear-phishing", "20-ea-security-insider-threat", "22-ea-security-incident-response-narrative", "12-ea-dd-counterparty-manipulation"]

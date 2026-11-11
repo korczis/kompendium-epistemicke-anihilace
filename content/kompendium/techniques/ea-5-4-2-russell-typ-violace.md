@@ -119,6 +119,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 | **Klinické rámce paradoxologie** | Terapeutická práce s paradoxy vyžaduje kvalifikaci v metalogice |
 | **Whistleblower kanály** | Anonymní hlášení manipulativní paradoxizace v akademickém a klinickém prostředí |
 
+## Meze formální analogie
+
+Russellův paradox je výsledek o množinách a Russell (1908) na něj odpověděl formálně, teorií typů: predikát se smysluplně vztahuje jen na objekty nižšího typu. Soubor něčích přesvědčení však není množina s ostrou příslušností a člověk nemá povinnost držet se jednoho jazyka, takže „kolaps typové vrstvy“ je zde analogie, nikoli důsledek. *Interpretace knihy* je, že právě proto bývá vzorec v praxi účinný: formální řešení existuje, ale pro zasaženého není dostupné jako prožitek. Z rozpoznání paradoxní sebepredikace tedy neplyne, že ji někdo zavedl úmyslně – stejnou smyčku vytvoří i vlastní upřímná snaha roztřídit si, kterým z vlastních přesvědčení věřit.
+
 ## Vztah k jiným technikám
 
 ### Často se kombinuje s
@@ -168,11 +172,6 @@ Klíčové pojmové kotvy techniky: **typová teorie, naivní teorie množin, ZF
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
-
 ---
 
 ## Connect & Contribute

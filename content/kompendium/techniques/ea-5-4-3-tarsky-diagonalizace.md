@@ -120,6 +120,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 | **Klinické rámce paradoxologie** | Terapeutická práce s paradoxy vyžaduje kvalifikaci v metalogice |
 | **Whistleblower kanály** | Anonymní hlášení manipulativní paradoxizace v akademickém a klinickém prostředí |
 
+## Co formální výsledek nedokazuje
+
+Tarski (1936) prokázal, že dostatečně bohatý formální jazyk nemůže obsahovat vlastní adekvátní predikát pravdivosti; řešením je hierarchie metajazyků, v níž se o pravdivosti vět jednoho jazyka mluví v jazyce vyšším. Přirozený jazyk takovou hierarchii ostře oddělenou nemá, mluvčí však z úrovně vystoupit umí – běžně rozlišujeme „řekl jsem“ a „je to tak“. Z formálního výsledku proto neplyne, že by sebehodnocení člověka bylo neprostupné, a neplyne z něj nic o zasaženém jednotlivci. *Interpretace knihy* je, že vzorec funguje tam, kde prostředí vystoupení z úrovně zakáže jako vytáčku: formálně dostupný krok se stane sociálně nedostupným.
+
 ## Vztah k jiným technikám
 
 ### Často se kombinuje s
@@ -170,11 +174,6 @@ Klíčové pojmové kotvy techniky: **Tarsky, metajazyk, T-schéma**.
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
-
 ---
 
 ## Connect & Contribute

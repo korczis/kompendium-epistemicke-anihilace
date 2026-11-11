@@ -5,7 +5,7 @@ weight = 130
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "due-diligence"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["2-ea-osint-czech-ares-validation", "28-ea-compliance-aml-pattern-recognition", "29-ea-compliance-kyc-narrative-validation", "12-ea-dd-counterparty-manipulation"]

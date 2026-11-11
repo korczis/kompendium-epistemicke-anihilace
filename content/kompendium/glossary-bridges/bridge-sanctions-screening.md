@@ -34,9 +34,8 @@ V Evropské unii se omezující opatření přijímají v rámci společné zahr
 (článek 29 Smlouvy o Evropské unii) a provádějí nařízeními podle článku 215 Smlouvy o fungování EU. Na
 národní úrovni se v České republice provádění mezinárodních sankcí řídí zákonem č. 69/2006 Sb., o
 provádění mezinárodních sankcí, a povinnosti povinných osob souvisejí se zákonem č. 253/2008 Sb.,
-o některých opatřeních proti legalizaci výnosů z trestné činnosti a financování terorismu. Na platformě,
-z níž Kompendium vzešlo, je sankční prověrka součástí subsystému prověrek. Heslo patří do kontextu
-platformy a compliance; kniha ho zařazuje mezi mosty kvůli jeho epistemickým rizikům.
+o některých opatřeních proti legalizaci výnosů z trestné činnosti a financování terorismu. Heslo patří
+do kontextu compliance; kniha ho zařazuje mezi mosty kvůli jeho epistemickým rizikům.
 
 ## Sankční prověrka očima knihy
 
@@ -64,9 +63,6 @@ Obě strany – chybná shoda i úspěšné skrytí – ukazují, že prověrka 
 
 ## Kde se pojem v knize vyskytuje
 
-Jak agent platformy přiřazuje zjištěné události k regulatorním povinnostem a proč je soulad „jen na
-papíře“ rizikem, popisuje stránka [Compliance a EA](@/kompendium/aiad-integration/compliance-ea-regulatory-screening.md);
-porovnávání rejstříkových údajů s dalšími zdroji stránka [Czech ARES a EA](@/kompendium/aiad-integration/czech-ares-ea-screening.md).
 Rozpoznávání vzorců za hranicí pravidel v boji proti praní peněz rozvádí kapitola
 [AML – Pattern Recognition Beyond Rules](@/kompendium/cross-domain/28-ea-compliance-aml-pattern-recognition.md)
 a ověřování narativu klienta kapitola [KYC – Narrative Validation Layer](@/kompendium/cross-domain/29-ea-compliance-kyc-narrative-validation.md).
@@ -95,8 +91,7 @@ jsou to opravné prostředky, které unijní právo k zápisu poskytuje.
 Když chybná shoda poškodí člověka – zablokuje platby, zpozdí výplatu, zmaří obchod –, náprava zahrnuje
 rychlé odblokování, opravu záznamu ve všech navazujících systémech a sdělení, co se stalo. Chybná shoda
 by se neměla opakovat při každé další prověrce; kniha doporučuje zaznamenat ověřenou neshodu, aby se
-z ní stala trvalá výjimka – obdoba regresního testu, viz
-[Bridge: Regression test](@/kompendium/glossary-bridges/bridge-regression-test.md).
+z ní stala trvalá výjimka.
 
 ### Rámec pro profesionály
 
@@ -159,7 +154,6 @@ k nápravě.
 **Kniha**
 
 - [Sankční seznamy a atribuční bias](@/kompendium/cross-domain/4-ea-osint-sanctions-list-bias.md) – chybné shody a jejich příčiny.
-- [Compliance a EA](@/kompendium/aiad-integration/compliance-ea-regulatory-screening.md) – soulad „jen na papíře“.
 - [UBO Disinformation Patterns](@/kompendium/cross-domain/13-ea-dd-beneficial-ownership-disinformation.md) – skrývání za prostředníky.
 - [AML – Pattern Recognition Beyond Rules](@/kompendium/cross-domain/28-ea-compliance-aml-pattern-recognition.md) – vzorce za hranicí pravidel.
 

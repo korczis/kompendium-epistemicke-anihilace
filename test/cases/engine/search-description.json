@@ -5,22 +5,12 @@
     "hits": [
       {
         "code": null,
-        "in": 603,
+        "in": 601,
         "kind": "Pojem",
         "path": "glossary/epistemicka-anihilace.md",
         "tier": 6,
         "title": "Epistemická anihilace",
         "url": "/glossary/epistemicka-anihilace/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 171,
-        "kind": "Kapitola",
-        "path": "kompendium/03-zakladni-kategorie/kapitola-2.md",
-        "tier": 6,
-        "title": "3.2 Scénáře epistemické delegitimizace",
-        "url": "/kompendium/03-zakladni-kategorie/kapitola-2/",
         "why": "description"
       },
       {
@@ -35,7 +25,17 @@
       },
       {
         "code": null,
-        "in": 167,
+        "in": 170,
+        "kind": "Kapitola",
+        "path": "kompendium/03-zakladni-kategorie/kapitola-2.md",
+        "tier": 6,
+        "title": "3.2 Scénáře epistemické delegitimizace",
+        "url": "/kompendium/03-zakladni-kategorie/kapitola-2/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 163,
         "kind": "Kapitola",
         "path": "kompendium/04-terminalni-protokoly/_index.md",
         "tier": 6,
@@ -45,22 +45,12 @@
       },
       {
         "code": null,
-        "in": 164,
+        "in": 163,
         "kind": "Kapitola",
         "path": "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
         "tier": 6,
         "title": "6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy",
         "url": "/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/",
-        "why": "description"
-      },
-      {
-        "code": "EA-1.3.2",
-        "in": 78,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
-        "tier": 6,
-        "title": "EA-1.3.2 Strategická reinterpretace",
-        "url": "/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/",
         "why": "description"
       },
       {
@@ -74,8 +64,18 @@
         "why": "description"
       },
       {
+        "code": "EA-1.3.2",
+        "in": 70,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+        "tier": 6,
+        "title": "EA-1.3.2 Strategická reinterpretace",
+        "url": "/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/",
+        "why": "description"
+      },
+      {
         "code": "EA-2.1.1",
-        "in": 53,
+        "in": 51,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-2-1-1-expertni-disinflation.md",
         "tier": 6,
@@ -85,22 +85,12 @@
       },
       {
         "code": "EA-1.3.3",
-        "in": 52,
+        "in": 47,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
         "tier": 6,
         "title": "EA-1.3.3 Tematická diverze",
         "url": "/kompendium/techniques/ea-1-3-3-tematicka-diverze/",
-        "why": "description"
-      },
-      {
-        "code": "EA-1.4.1",
-        "in": 46,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
-        "tier": 6,
-        "title": "EA-1.4.1 Prosodická dominance",
-        "url": "/kompendium/techniques/ea-1-4-1-prosodicka-dominance/",
         "why": "description"
       },
       {
@@ -114,8 +104,18 @@
         "why": "description"
       },
       {
+        "code": "EA-1.4.1",
+        "in": 45,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-1-4-1-prosodicka-dominance.md",
+        "tier": 6,
+        "title": "EA-1.4.1 Prosodická dominance",
+        "url": "/kompendium/techniques/ea-1-4-1-prosodicka-dominance/",
+        "why": "description"
+      },
+      {
         "code": null,
-        "in": 33,
+        "in": 32,
         "kind": "Pojem",
         "path": "glossary/kognitivni-bias.md",
         "tier": 6,

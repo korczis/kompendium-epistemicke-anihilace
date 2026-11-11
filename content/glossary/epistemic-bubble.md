@@ -9,7 +9,7 @@ tags = ["glossary", "epistemic", "kompendium", "manipulace", "digitalni"]
 
 [extra]
 category = "epistemic"
-related_terms = ["epistemicka-anihilace", "kompendium-ea", "taxonomie-ea", "epistemic-pipeline", "nabla-infinity", "epistemicka-alienace"]
+related_terms = ["epistemicka-anihilace", "kompendium-ea", "taxonomie-ea", "epistemicka-alienace"]
 author = "Tomáš Korcak (korczis)"
 date_created = "2026-04-25"
 date_modified = "2026-11-10"
@@ -125,15 +125,11 @@ je v bublině teprve tehdy, chybějí-li mu hlasy podstatné pro jeho úsudek (N
 Pro knihu je hlavním důsledkem Nguyenova rozlišení pravidlo, že obrana se volí podle
 mechanismu: tam, kde chybí vstup, pomáhá expozice, tam, kde je poškozena struktura důvěry,
 nikoli (Nguyen, 2020). Z téhož plyne doporučení měřit strukturální vlastnost zdrojové
-skladby, ne propoziční obsah jednotlivých tvrzení (*interpretace knihy*); souvislost
-s architekturou platformy, z níž kniha vzešla, popisují hesla [epistemic
-pipeline](@/glossary/epistemic-pipeline.md) a [NABLA
-Infinity](@/glossary/nabla-infinity.md).
+skladby, ne propoziční obsah jednotlivých tvrzení (*interpretace knihy*).
 
 Pro postupy [OSINT](@/glossary/osint.md) platí stejná logika: šetření, které stojí na jediné
 rodině zdrojů, se označuje jako méně spolehlivé i tehdy, jsou-li zdroje jednotlivě kvalitní,
-protože nezávislost a počet nejsou totéž (Flaxman a kol., 2016). Rozhodovací vrstvu popisuje
-heslo [decision engine](@/glossary/decision-engine.md).
+protože nezávislost a počet nejsou totéž (Flaxman a kol., 2016).
 
 ## Obrana a zotavení
 

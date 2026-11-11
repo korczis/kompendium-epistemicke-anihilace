@@ -68,7 +68,6 @@ místech; zde je stručná mapa:
 
 - proti **asymetrii** – rozdělení moci a možnost odvolání (organizační
   [oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md));
-- proti **kontrole prostředí** – pluralita zdrojů a vztahů, [signal plurality](@/glossary/signal-plurality.md);
 - proti **postupnosti** – záznam a pravidelné ohlédnutí;
 - proti **přerámování pochybnosti** – kultura, v níž je otázka legitimní
   ([psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md));

@@ -80,6 +80,16 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Rozpoznání nekončícího sebepopisu neprokazuje, že zasažený člověk selhává v úloze, která by jinak
+byla řešitelná: Berryho konstrukce není hádanka s odpovědí, nýbrž ukázka toho, co se stane, když se
+pojem definovatelnosti užije v jazyce, o němž sám mluví (Russell, 1908). Nedokazuje ani záměr druhé
+strany; stavbu paradoxu lze reprodukovat bez znalosti jeho logické historie.
+
+Od stylistického cvičení ve stručnosti se vzorec odlišuje tím, zda zůstává oddělen popisující od
+popisovaného — rozdíl, který v logice zajišťuje odlišení metajazyka od jazyka objektového (Tarski,
+1944). Od [heterologní self-aplikace](@/kompendium/techniques/ea-5-4-13-heterolog-self-aplikace.md)
+jej odlišuje to, co se nedaří: tam obstát před vlastním predikátem, zde dokončit popis vůbec.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |
@@ -157,11 +167,6 @@ Klíčové pojmové kotvy techniky: **Berry paradox, definovatelnost, Richardův
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
-
 ---
 
 ## Connect & Contribute

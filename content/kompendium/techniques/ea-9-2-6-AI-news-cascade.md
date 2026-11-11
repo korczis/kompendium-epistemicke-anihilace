@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.2 Generativní média
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -73,6 +72,8 @@ Ne každý web bez tiráže je součástí kaskády a malá nezávislá média m
 Výzkum má k dispozici převážně analýzy jednotlivých sítí; srovnávací data o tom, kolik takových sítí existuje a jak velký mají dosah, chybějí, a kniha proto neuvádí odhady. Otevřená zůstává i otázka, jak by agregátory a vyhledávače měly zacházet s weby, které nejsou zjevně falešné, ale nemají transparentní vlastnictví – plošné omezení by poškodilo i malá nezávislá média.
 
 Otevřená zůstává i role jazykových modelů, které mohou obsah kaskády převzít a dál ho šířit v odpovědích, což propojuje tento vzorec se smyčkou popsanou v [EA-9.1.10](@/kompendium/techniques/ea-9-1-10-llm-recursion-loop.md).
+
+Zjištění, že se zdroje citují v kruhu, vypovídá o jejich nezávislosti, nikoli o pravdivosti sdělení. Kaskáda může nést i tvrzení, které je náhodou nebo částečně pravdivé; cirkularita ruší jeho doloženost, ne jeho obsah, a ověřování proto musí pokračovat u primárního pramene, ne skončit odhalením sítě. Rovněž z ní neplyne, kdo síť provozuje: týž znak zanechá státní vlivová operace, obchodní zákazník i jediný provozovatel reklamních webů, a přiřazení aktéra vyžaduje jiné důkazy než obsahovou analýzu. A konečně mlčení zavedených médií není samostatným argumentem v žádném směru – o skutečné místní události mohou mlčet také.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

@@ -92,6 +92,16 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Rozpoznání tohoto rámce neprokazuje, že ten, kdo jej nabízí, fyzice nerozumí, ani že jej volí
+úmyslně. Tachyonový antitelefon je v literatuře argumentem proti existenci nadsvětelného signálu
+(Benford, Book & Newcomb, 1970); kdo jej uvádí jako doklad zpětného působení, obrací jeho smysl, a
+takový omyl je dostupný i bez zlé vůle.
+
+Od popularizace fyziky se vzorec odlišuje tím, čeho se tvrzení týká: popularizace mluví o
+časoprostoru, vzorec o rozhodování konkrétního člověka. Podmínka sebekonzistence (Friedman et al.,
+1990) je navíc tvrzením o možných dějinách, nikoli o vůli. Od [pasti retrokauzality](@/kompendium/techniques/ea-5-4-40-retrokauzalita-trap.md)
+jej odlišuje opěrný bod: tam reinterpretace vzpomínky, zde zapůjčená autorita fyzikální teorie.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |
@@ -168,11 +178,6 @@ Klíčové pojmové kotvy techniky: **retrokauzalita, block universe, Novikov co
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
-
 ---
 
 ## Connect & Contribute

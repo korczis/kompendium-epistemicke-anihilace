@@ -191,7 +191,6 @@ normativní otázku, kdy je změna přesvědčení oprávněná (Kim, 1988).
 - [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) – kritérium legitimní úpravy sítě.
 - [Falsifikace](@/glossary/falsifikace.md) – vyvratitelnost a její meze v holistickém obrazu.
 - [Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – zneužití holismu k ochraně doktríny.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec platformy, z níž kniha vzešla, pracující s celou sítí tvrzení a rozporů.
 
 **Filozofie knihy**
 

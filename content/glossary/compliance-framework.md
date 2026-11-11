@@ -4,7 +4,7 @@ weight = 59
 description = "Strukturovaný soubor regulatorních požadavků a kontrolních opatření, které musí organizace splnit (GDPR, NIS2, ISO 27001); a jeho stinná stránka, soulad na papíře."
 
 [taxonomies]
-tags = ["glossary", "security", "compliance", "prismatic", "legal"]
+tags = ["glossary", "security", "compliance", "legal"]
 
 [extra]
 category = "security"
@@ -91,9 +91,7 @@ o organizaci, které třetí strana přijímá, aniž by měla přístup k podkl
 dokladů je tedy epistemická, ne technická (Power, 1997). *Interpretace knihy*: tam, kde
 doklad nese důvěryhodnost místo skutečnosti, vzniká povrch, na který lze zaútočit týmiž
 prostředky jako na kterýkoli jiný zdroj důvěry – předložením dokladu, který formální podmínky
-splňuje a obsahové nikoli. Regulatorní screening s ohledem na techniky popsané v knize
-rozebírá stránka [Compliance: regulatorní
-screening](@/kompendium/aiad-integration/compliance-ea-regulatory-screening.md).
+splňuje a obsahové nikoli.
 
 Třetí složkou je zahlcení. Organizace působící v několika jurisdikcích plní několik
 překrývajících se rámců současně a část kapacity spotřebuje na mapování jednoho rámce na
@@ -195,9 +193,8 @@ souladu zatím ukazuje, že záměna je spíše pravidlem než výjimkou (Edelma
 
 ## Související
 
-**Platforma**
+**Příbuzné kontroly**
 
-- [EASM](@/glossary/easm.md) – správa vnější útočné plochy, která dodává technická zjištění.
 - [Risk Score](@/glossary/risk-score.md) – souhrnné skóre rizika a jeho výklad.
 - [Due Diligence](@/glossary/due-diligence.md) – prověrka, v níž je soulad jedním z hledisek.
 - [Sanctions Screening](@/glossary/sanctions-screening.md) – příbuzná regulatorní kontrola.
@@ -207,6 +204,5 @@ souladu zatím ukazuje, že záměna je spíše pravidlem než výjimkou (Edelma
 
 - [Scam Compliance](@/glossary/scam-compliance.md) – předstíraný soulad jako nástroj klamu.
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – rámec, do něhož kniha záměnu dokladu za poznání zařazuje.
-- [Compliance: regulatorní screening](@/kompendium/aiad-integration/compliance-ea-regulatory-screening.md) – soulad s ohledem na techniky knihy.
 - [Organizační obrana](@/kompendium/organizational-defense/_index.md) – instituce odolné vůči manipulaci.
 - [Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md) – údržba dokumentace, která má odpovídat provozu.

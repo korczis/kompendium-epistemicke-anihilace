@@ -5,7 +5,7 @@ weight = 260
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "compliance"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["25-ea-compliance-nis2-integrity", "21-ea-security-supply-chain-narrative", "22-ea-security-incident-response-narrative", "27-ea-compliance-gdpr-narrative-protection"]

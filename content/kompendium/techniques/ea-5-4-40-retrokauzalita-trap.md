@@ -91,6 +91,17 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+To, že se vzpomínka po pozdější informaci změnila, neprokazuje, že je nepravdivá, ani že ji někdo
+přepsal úmyslně. Loftus a Palmer (1974) doložili poddajnost výpovědi v pokusném uspořádání; z toho
+neplyne kritérium pro posouzení jedné konkrétní vzpomínky, a Schacter (2001) tutéž poddajnost řadí
+mezi běžné vlastnosti paměti, ne mezi známky poškození.
+
+Od legitimního přerámování se vzorec odlišuje tím, co se děje s nezávislými stopami: v terapeutické
+práci je nový výklad minulosti proti nim ověřitelný a je nabídnut, nikoli vynucen (Herman, 1992),
+zatímco zde přístup ke stopám ubývá. Od [tachyonové anti-kauzality](@/kompendium/techniques/ea-5-4-39-tachyon-anti-causality.md)
+jej odlišuje předmět nároku: tam jde o obrácený běh příčin, zde o otevřenost obsahu minulosti
+revizi.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |
@@ -169,11 +180,6 @@ Klíčové pojmové kotvy techniky: **retrocausation, block universe, presentism
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
-
 ---
 
 ## Connect & Contribute

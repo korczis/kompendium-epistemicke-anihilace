@@ -37,7 +37,7 @@ Třetím důvodem je **vztah teorie a taxonomie**. Klasifikační schéma ukazuj
 
 Čtvrtým důvodem je **etika výzkumu**. Teoretické hypotézy z oddílu 07 vedou k výzkumu s lidmi, často se zranitelnými. Etický kodex v přílohách vychází z ustálených zásad výzkumné etiky, jak je formulovala Belmontská zpráva (National Commission 1979) a Helsinská deklarace (World Medical Association 1964, v pozdějších revizích), a přizpůsobuje je specifikům oblasti.
 
-Pátým důvodem jsou **pojmy platformy**. Některé stránky oddílu 07, zejména [computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md), používají zkratky a pojmy z prostředí Prismatic Platform, z něhož kniha vzešla – například NABLA, QEVE nebo [Trinity Gate](@/glossary/trinity-gate.md). Bez [zkratek a notace](@/kompendium/08-prilohy/zkratky.md) a bez příslušných hesel glosáře se tyto pasáže čtou jako odborná terminologie filosofie, i když jde o názvy softwarových součástí. Pro teoretickou práci je důležité tento rozdíl udržet: pojmy platformy jsou inženýrskými modely epistemických požadavků, nikoli filosofickými tezemi, a v odborném textu je třeba je jako takové označit. Floridiho filosofie informace (Floridi 2014) nabízí rámec, v němž lze o vztahu obou rovin přemýšlet, ale nezakládá jejich totožnost.
+Pátým důvodem je **přerušení citačního řetězce**. Greenberg (2009) na analýze citační sítě jednoho biomedicínského tvrzení ukázal, jak tvrzení získává autoritu samotným opakováním: citace se přejímají z citujících prací, nikoli z původních dat, nepodložené tvrzení se tak šíří a práce, které je zpochybňují, zůstávají necitovány. Teoretický oddíl knihy je k tomuto vzorci obzvlášť zranitelný, protože pracuje s autory, jejichž pojmy kolují sekundární literaturou už po generace a bývají přejímány ve zjednodušené podobě. Bibliografie je nástrojem přerušení řetězce: donutí pisatele dojít až k místu, kde tvrzení poprvé vzniklo. Floridi (2014) pojmenovává prostředí, v němž se informace šíří rychleji, než je lze prověřit, jako infosféru; právě v takovém prostředí je návrat k originálu úkonem, který nelze delegovat na vyhledávač.
 
 ## Konkrétní cesty mezi oddíly
 
@@ -47,7 +47,6 @@ Pátým důvodem jsou **pojmy platformy**. Některé stránky oddílu 07, zejmé
 | Převést pojem do cizojazyčné literatury | [Index pojmů](@/kompendium/08-prilohy/index-pojmu.md) | Česko-anglický ekvivalent a místo výskytu. |
 | Spojit teorii s technikami | [Rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md), [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) | Kódy, na které teorie dopadá, a principy jejich zařazení. |
 | Navrhnout výzkum z [otevřených otázek](@/kompendium/07-teoreticke-reflexe/otevrene-otazky.md) | [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) | Pravidla pro výzkum s lidmi. |
-| Rozluštit platformové pojmy v [computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md) | [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) | Výklad zkratek knihy i platformy. |
 
 ## Příklad průchodu mostem
 
@@ -67,6 +66,12 @@ Třetím omylem je **předpokládat, že bibliografie je úplná**. Je výběrov
 
 ## Meze a otevřené otázky
 
+Aparát přitom nerozhoduje o pravdivosti. Úplný bibliografický údaj, správný ekvivalent v indexu
+a dohledaný kód techniky dokládají, odkud tvrzení pochází a jak je kniha pojmenovala; že je
+tvrzení pravdivé, z toho nevyplývá. Přesná citace nesprávného výkladu je stále nesprávným
+výkladem a dobře zařazená technika může být zařazena podle chybného kritéria. *Interpretace
+knihy*: přílohy slouží k tomu, aby bylo možné spor vést, ne aby ho rozhodly.
+
 Přílohy se vyvíjejí s knihou a mohou dočasně zaostávat za revizemi oddílu 07. Bibliografie neobsahuje všechna díla, na která autorské stránky odkazují, a některé stránky oddílu 07 samy upozorňují, že představují autora jen v jednom aspektu. Pro teoretickou práci z toho plyne zásada ověřovat dvakrát: proti originálu a proti současné sekundární literatuře.
 
 ## Literatura
@@ -74,6 +79,7 @@ Přílohy se vyvíjejí s knihou a mohou dočasně zaostávat za revizemi oddíl
 - Bowker, G. C., & Star, S. L. (1999). *Sorting Things Out: Classification and Its Consequences*. Cambridge, MA: MIT Press.
 - Floridi, L. (2014). *The Fourth Revolution: How the Infosphere is Reshaping Human Reality*. Oxford: Oxford University Press.
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford: Oxford University Press.
+- Greenberg, S. A. (2009). How citation distortions create unfounded authority: analysis of a citation network. *BMJ*.
 - Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. Chicago: University of Chicago Press.
 - Lyotard, J.-F. (1979). *La condition postmoderne: Rapport sur le savoir*. Paris: Minuit.
 - National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research (1979). *The Belmont Report*. Washington, DC: U.S. Department of Health, Education, and Welfare.

@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.4 Bot networks
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -113,6 +112,8 @@ Pro školy a knihovny je užitečné zařadit do mediální výchovy příklady 
 Činnost petrohradské Internet Research Agency patří k nejpodrobněji zdokumentovaným příkladům profesionalizované trollí operace; vyšetřovací zprávy v USA a akademické analýzy popsaly její organizaci, rozsah a cílení na obě strany politických konfliktů. Paul a Matthews (2016) popsali propagandistický model, který spoléhá na množství, rychlost a opakování a je lhostejný k pravdě i ke konzistenci; trollí farmy jsou jeho lidskou infrastrukturou. Woolley a Howard (2018) doložili, že podobné operace s placenými pracovníky provozují státy i soukromé firmy v řadě zemí.
 
 Benkler, Faris a Roberts (2018) upozornili, že vliv zahraničních operací na americké volby nelze oddělit od domácího mediálního prostředí, které jejich obsah přebíralo a zesilovalo; velikost samotného účinku trollí farem na postoje voličů zůstává sporná. Kniha proto zdůrazňuje cíl rozvratu – posilování konfliktů a cynismu – spíše než schopnost přesvědčit.
+
+Za pozornost stojí povaha samotných důkazů. Obraz petrohradské operace pochází z obžalob a parlamentních vyšetřovacích zpráv, tedy z dokumentů vzniklých pro určitý účel: dobře dokládají organizaci, financování a objem práce, ale o výsledném vlivu na voliče vypovídají málo. Paul a Matthews (2016) svůj model „firehose of falsehood“ formulovali jako popis doktríny a jejích předpokladů, nikoli jako měření přesvědčovacího účinku. Rozlišení od legitimní komunikační agentury proto nestojí na tom, jak ostrý obsah vzniká, ale na tom, zda je klient pojmenovatelný: agentura pracující pod jménem zadavatele nese reputační i právní odpovědnost, kterou farma s falešnými personami právě ruší. *Interpretace knihy*: výkonové ukazatele, jimiž se taková operace řídí, přitom odměňují objem, ne pravdivost.
 
 ## Souvislosti pro praxi
 

@@ -118,6 +118,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 | **Klinické rámce paradoxologie** | Terapeutická práce s paradoxy vyžaduje kvalifikaci v metalogice |
 | **Whistleblower kanály** | Anonymní hlášení manipulativní paradoxizace v akademickém a klinickém prostředí |
 
+## Co rozpoznání nedokazuje
+
+Mooreův paradox je jev běžné řeči: věta „prší, ale nevěřím, že prší“ není rozporná v tom, co tvrdí o světě, a přesto ji nelze upřímně vyslovit. Shoemaker (1995) z toho vyvozuje, že nesnáz leží v podmínkách sebepoznání, nikoli v logické formě. Z toho plyne mez této stránky: kdo u člověka rozpozná paradoxní [sebevýpověď](@/glossary/self-report.md), nezjistil tím, že na něj někdo působil, ani že má duševní poruchu – podobné formulace vznikají při každém upřímném pokusu mluvit o vlastní nejistotě. *Interpretace knihy* je, že škodlivý je až důsledek: prostředí, které člověku zakáže paradox pojmenovat a uzavřít, a tím ho v něm nechá uvíznout.
+
 ## Vztah k jiným technikám
 
 ### Často se kombinuje s
@@ -168,11 +172,6 @@ Klíčové pojmové kotvy techniky: **Mooreův paradox, asertion conditions, epi
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
-
 ---
 
 ## Connect & Contribute

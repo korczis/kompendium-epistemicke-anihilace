@@ -82,8 +82,6 @@ Eticky a právně je podstatné, že metakognitivní destrukce se nejčastěji o
 
 ## Význam pro Kompendium
 
-V obranných aplikacích platformy Prismatic, z níž kniha vzešla, je metakognitivní destrukce poplachem nejvyšší úrovně v monitoringu epistemické bezpečnosti. Úrovně metakognitivního ověřování v pipeline [NABLA Infinity](@/glossary/nabla-infinity.md) (L10–L13 a Meta) slouží zčásti jako detekční lešení: platforma může metakognitivní poškození u sledovaných osob zjistit pozorováním soustavných selhání napříč těmito úrovněmi ověřování. Princip odpovídá oddělení objektové úrovně a metaúrovně v modelu sledování a řízení (Nelson a Narens 1990).
-
 Pro klinika pojem vysvětluje, proč klient „nevidí“ to, co je okolí zřejmé, a proč samotné vysvětlování nepomáhá: chybí nástroj, kterým by vysvětlení mohl zpracovat. Proto metakognitivní přístupy v terapii pracují nejprve se vztahem k myšlení a teprve potom s jeho obsahem (Wells 2009).
 
 ## Obrana a zotavení

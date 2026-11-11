@@ -54,7 +54,7 @@ prostředí vykazuje a čím silněji, tím blíže má k [myšlenkové reformě
 6. **Nabitý jazyk** (*loading the language*) – klišé ukončující myšlení
    ([loading the language](@/glossary/loading-the-language.md)).
 7. **Doktrína nad osobou** – zkušenost, která odporuje doktríně, se přepíše nebo zamítne
-   ([doktrína](@/glossary/doctrine.md)).
+   (*doctrine over person*).
 8. **Rozhodování o existenci** (*dispensing of existence*) – skupina určuje, kdo má právo
    existovat jako plnohodnotný člověk; odpadlíci a nepřátelé ho nemají.
 

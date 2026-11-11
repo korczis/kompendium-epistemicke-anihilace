@@ -9,7 +9,7 @@ categories = ["academic", "reference"]
 
 [extra]
 category = "kompendium-bridge"
-related_terms = ["predictive-processing", "embodied-cognition", "gaslighting", "epistemic-pipeline", "bridge-embodied-cognition", "bridge-gaslighting"]
+related_terms = ["predictive-processing", "embodied-cognition", "gaslighting", "bridge-embodied-cognition", "bridge-gaslighting"]
 glossary_target = "predictive-processing"
 toc = false
 +++
@@ -68,9 +68,7 @@ Popis je strukturní: říká, co se v poznávání děje, nikoli jak to vyvolat
 Kromě kapitoly 7.5 a uvedených technik se rámec promítá do fenomenologických detekčních signatur
 [Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md) a
 [Skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md), které
-popisují prožitek člověka, jehož vlastní signály ztratily váhu. Na platformě, z níž kniha vzešla,
-odpovídá rámci [Epistemic Pipeline](@/glossary/epistemic-pipeline.md), která podle hesla glosáře
-výslovně sleduje apriorní očekávání, audituje přesnost a hledá patologicky imunní stavy přesvědčení.
+popisují prožitek člověka, jehož vlastní signály ztratily váhu.
 
 ## Od pojmu k praxi
 
@@ -150,7 +148,6 @@ vynucenou.
 **Glosář**
 
 - [Predictive processing](@/glossary/predictive-processing.md) – heslo, které tento most propojuje s knihou.
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – obrany platformy vědomé si PP.
 
 **Kniha**
 

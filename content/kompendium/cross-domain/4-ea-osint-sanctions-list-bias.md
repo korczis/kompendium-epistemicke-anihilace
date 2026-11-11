@@ -5,7 +5,7 @@ weight = 40
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "osint"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["3-ea-osint-justice-cz-screening", "28-ea-compliance-aml-pattern-recognition", "29-ea-compliance-kyc-narrative-validation", "11-ea-dd-decision-engine-calibration"]
@@ -84,8 +84,7 @@ u stejného klienta. Třetím je **sledování rozložení falešných poplachů
 klientů jako ukazatel systémového zkreslení. Čtvrtým je **kalibrace prahů** s vědomím
 nákladů obou druhů chyb. Pátým je **srozumitelná cesta k nápravě**: klient, kterému byla
 zablokována platba kvůli shodě, by měl vědět, jak doložit, že nejde o něj. Pro
-kontext automatizace viz [kalibrace rozhodovacího systému](@/kompendium/cross-domain/11-ea-dd-decision-engine-calibration.md)
-a stránku platformy [Compliance Agent & EA detection](@/kompendium/aiad-integration/compliance-ea-regulatory-screening.md).
+kontext automatizace viz [kalibrace rozhodovacího systému](@/kompendium/cross-domain/11-ea-dd-decision-engine-calibration.md).
 
 ## Lidský rozměr a zotavení
 
@@ -145,9 +144,8 @@ skutečně zmizelo i z odvozených databází.
 - [Kalibrace rozhodovacího systému](@/kompendium/cross-domain/11-ea-dd-decision-engine-calibration.md) – automatizace a její zkreslení.
 - [Prověrka v justice.cz a ISIR](@/kompendium/cross-domain/3-ea-osint-justice-cz-screening.md) – další úřední záznamy.
 
-**Kontext platformy a pojmy**
+**Pojmy**
 
-- [Compliance Agent & EA detection](@/kompendium/aiad-integration/compliance-ea-regulatory-screening.md) – automatizovaný screening.
 - [Sanctions screening](@/glossary/sanctions-screening.md) – heslo glosáře.
 - [Delegitimizace](@/glossary/delegitimizace.md) – nálepka bez možnosti obrany.
 

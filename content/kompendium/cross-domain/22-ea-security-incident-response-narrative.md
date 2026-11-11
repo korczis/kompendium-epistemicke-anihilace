@@ -5,7 +5,7 @@ weight = 220
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "security"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["19-ea-security-disinformation-defense", "23-ea-security-attribution-bias", "18-ea-security-spear-phishing", "26-ea-compliance-zkb-epistemic-integrity"]

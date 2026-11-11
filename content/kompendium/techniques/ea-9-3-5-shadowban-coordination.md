@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.3 Sociální platformy
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -77,6 +76,8 @@ Další otevřenou otázkou je, jak mají výzkumníci ověřovat tichá opatře
 Kniha neuvádí čísla o rozsahu tichých opatření, protože platformy je zveřejňují jen souhrnně a nezávislé ověření je omezené. Otevřené zůstává i to, zda by plná transparentnost opatření nepomohla těm, kdo pravidla obcházejí; kniha se přesto kloní k názoru, že postižený má právo vědět, že zásah proběhl.
 
 Pro výzkumníky je vzorec výzvou i metodicky, protože vyžaduje sledování dosahu v čase u mnoha účtů současně.
+
+Pokles dosahu neprokazuje ani zásah platformy, ani koordinovanou akci. Dosah se mění s denním rytmem publika, se změnou formátu i s tím, co autor publikoval předtím; a i tam, kde je omezení doloženo, zůstává otevřené, co je vyvolalo – hromadné nahlášení, samostatné rozhodnutí moderace, nebo automatický klasifikátor, který zareagoval na slovo v titulku. Z neprůhlednosti systému tedy neplyne, že za ztlumením někdo stojí; plyne z ní jen to, že postižený nemá jak odpovědět. Mlčení platformy proto není ani potvrzením, ani vyvrácením. Suzor (2019) z téhož důvodu žádá zdůvodnění jako nárok, nikoli jako laskavost: bez něj zůstává i pravdivé podezření nedoložitelné.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

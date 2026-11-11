@@ -35,7 +35,7 @@ Třetí skupinou je **poslušnost vůči autoritě a sociální důkaz**. Stanle
 
 ## Slepá skvrna a obrana
 
-Emily Pronin a spolupracovníci ukázali, že lidé snadno vidí zkreslení u druhých, ale u sebe je podceňují; nazvali to slepou skvrnou vůči biasu (Pronin, Lin a Ross 2002). Proto znalost biasů sama nechrání. Obranou jsou spíš strukturální opatření: zpomalit rozhodnutí, která se mají udělat „hned“, hledat informace, které by vlastní názor vyvrátily, ověřovat tvrzení u [nezávislých zdrojů](@/glossary/signal-plurality.md) a udržovat vztahy mimo prostředí, kde se tlak odehrává. Pro profesionály platí totéž: klinik, který o klientovi rychle utvoří závěr, je stejně náchylný ke konfirmačnímu zkreslení jako kdokoli jiný, a [diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) je v podstatě jeho institucionalizovanou korekcí.
+Emily Pronin a spolupracovníci ukázali, že lidé snadno vidí zkreslení u druhých, ale u sebe je podceňují; nazvali to slepou skvrnou vůči biasu (Pronin, Lin a Ross 2002). Proto znalost biasů sama nechrání. Obranou jsou spíš strukturální opatření: zpomalit rozhodnutí, která se mají udělat „hned“, hledat informace, které by vlastní názor vyvrátily, ověřovat tvrzení u [nezávislých zdrojů](@/glossary/intelligence-fusion.md) a udržovat vztahy mimo prostředí, kde se tlak odehrává. Pro profesionály platí totéž: klinik, který o klientovi rychle utvoří závěr, je stejně náchylný ke konfirmačnímu zkreslení jako kdokoli jiný, a [diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) je v podstatě jeho institucionalizovanou korekcí.
 
 ## Průvodce podsekcí
 

@@ -11,37 +11,37 @@
       {
         "from": "glossary/_index.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
+        "to": "glossary/taxonomie-ea.md"
       },
       {
         "from": "glossary/_index.md",
         "kind": "link",
+        "to": "kompendium/_index.md"
+      },
+      {
+        "from": "glossary/_index.md",
+        "kind": "link",
+        "to": "kompendium/konceptualni-mapa/_index.md"
+      },
+      {
+        "from": "glossary/epistemicka-anihilace.md",
+        "kind": "link",
         "to": "glossary/taxonomie-ea.md"
       },
       {
         "from": "glossary/epistemicka-anihilace.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
+        "to": "kompendium/01-predmluva/eticke-aspekty.md"
       },
       {
         "from": "glossary/epistemicka-anihilace.md",
         "kind": "link",
-        "to": "glossary/taxonomie-ea.md"
+        "to": "kompendium/_index.md"
       },
       {
         "from": "glossary/epistemicka-anihilace.md",
         "kind": "link",
         "to": "kompendium/techniques/_index.md"
-      },
-      {
-        "from": "glossary/nabla-infinity.md",
-        "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "glossary/nabla-infinity.md",
-        "kind": "link",
-        "to": "glossary/taxonomie-ea.md"
       },
       {
         "from": "glossary/taxonomie-ea.md",
@@ -51,37 +51,142 @@
       {
         "from": "glossary/taxonomie-ea.md",
         "kind": "link",
+        "to": "kompendium/01-predmluva/eticke-aspekty.md"
+      },
+      {
+        "from": "glossary/taxonomie-ea.md",
+        "kind": "link",
+        "to": "kompendium/_index.md"
+      },
+      {
+        "from": "glossary/taxonomie-ea.md",
+        "kind": "link",
         "to": "kompendium/techniques/_index.md"
       },
       {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
+        "from": "kompendium/01-predmluva/eticke-aspekty.md",
         "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
-        "kind": "link",
-        "to": "kompendium/techniques/_index.md"
-      },
-      {
-        "from": "kompendium/case-studies/_index.md",
+        "from": "kompendium/01-predmluva/eticke-aspekty.md",
         "kind": "link",
         "to": "kompendium/06-klinicke-aplikace/_index.md"
       },
       {
-        "from": "kompendium/case-studies/_index.md",
+        "from": "kompendium/01-zaklady-manipulace/_index.md",
         "kind": "link",
-        "to": "kompendium/historical-cases/_index.md"
+        "to": "glossary/_index.md"
       },
       {
-        "from": "kompendium/case-studies/_index.md",
+        "from": "kompendium/01-zaklady-manipulace/_index.md",
+        "kind": "link",
+        "to": "kompendium/_index.md"
+      },
+      {
+        "from": "kompendium/01-zaklady-manipulace/_index.md",
+        "kind": "link",
+        "to": "kompendium/konceptualni-mapa/_index.md"
+      },
+      {
+        "from": "kompendium/01-zaklady-manipulace/_index.md",
+        "kind": "link",
+        "to": "kompendium/section-bridges/_index.md"
+      },
+      {
+        "from": "kompendium/06-klinicke-aplikace/_index.md",
+        "kind": "link",
+        "to": "glossary/epistemicka-anihilace.md"
+      },
+      {
+        "from": "kompendium/06-klinicke-aplikace/_index.md",
+        "kind": "link",
+        "to": "kompendium/_index.md"
+      },
+      {
+        "from": "kompendium/06-klinicke-aplikace/_index.md",
         "kind": "link",
         "to": "kompendium/techniques/_index.md"
       },
       {
-        "from": "kompendium/historical-cases/_index.md",
+        "from": "kompendium/_index.md",
+        "kind": "link",
+        "to": "glossary/epistemicka-anihilace.md"
+      },
+      {
+        "from": "kompendium/_index.md",
+        "kind": "link",
+        "to": "kompendium/06-klinicke-aplikace/_index.md"
+      },
+      {
+        "from": "kompendium/_index.md",
+        "kind": "link",
+        "to": "kompendium/section-bridges/_index.md"
+      },
+      {
+        "from": "kompendium/_index.md",
         "kind": "link",
         "to": "kompendium/techniques/_index.md"
+      },
+      {
+        "from": "kompendium/konceptualni-mapa/_index.md",
+        "kind": "link",
+        "to": "glossary/_index.md"
+      },
+      {
+        "from": "kompendium/konceptualni-mapa/_index.md",
+        "kind": "link",
+        "to": "glossary/epistemicka-anihilace.md"
+      },
+      {
+        "from": "kompendium/konceptualni-mapa/_index.md",
+        "kind": "link",
+        "to": "kompendium/01-zaklady-manipulace/_index.md"
+      },
+      {
+        "from": "kompendium/konceptualni-mapa/_index.md",
+        "kind": "link",
+        "to": "kompendium/06-klinicke-aplikace/_index.md"
+      },
+      {
+        "from": "kompendium/konceptualni-mapa/_index.md",
+        "kind": "link",
+        "to": "kompendium/_index.md"
+      },
+      {
+        "from": "kompendium/konceptualni-mapa/_index.md",
+        "kind": "link",
+        "to": "kompendium/section-bridges/_index.md"
+      },
+      {
+        "from": "kompendium/konceptualni-mapa/_index.md",
+        "kind": "link",
+        "to": "kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md"
+      },
+      {
+        "from": "kompendium/konceptualni-mapa/_index.md",
+        "kind": "link",
+        "to": "kompendium/techniques/_index.md"
+      },
+      {
+        "from": "kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md",
+        "kind": "link",
+        "to": "glossary/epistemicka-anihilace.md"
+      },
+      {
+        "from": "kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md",
+        "kind": "link",
+        "to": "kompendium/01-predmluva/eticke-aspekty.md"
+      },
+      {
+        "from": "kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md",
+        "kind": "link",
+        "to": "kompendium/06-klinicke-aplikace/_index.md"
+      },
+      {
+        "from": "kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md",
+        "kind": "link",
+        "to": "kompendium/section-bridges/_index.md"
       },
       {
         "from": "kompendium/techniques/_index.md",
@@ -106,155 +211,105 @@
       {
         "from": "kompendium/techniques/_index.md",
         "kind": "link",
-        "to": "kompendium/case-studies/_index.md"
+        "to": "kompendium/_index.md"
       },
       {
         "from": "kompendium/techniques/_index.md",
         "kind": "link",
-        "to": "kompendium/historical-cases/_index.md"
-      },
-      {
-        "from": "mapa.md",
-        "kind": "link",
-        "to": "glossary/_index.md"
-      },
-      {
-        "from": "mapa.md",
-        "kind": "link",
-        "to": "matice.md"
-      },
-      {
-        "from": "mapa.md",
-        "kind": "link",
-        "to": "stav.md"
-      },
-      {
-        "from": "matice.md",
-        "kind": "link",
-        "to": "glossary/taxonomie-ea.md"
-      },
-      {
-        "from": "matice.md",
-        "kind": "link",
-        "to": "kompendium/case-studies/_index.md"
-      },
-      {
-        "from": "matice.md",
-        "kind": "link",
-        "to": "kompendium/historical-cases/_index.md"
-      },
-      {
-        "from": "matice.md",
-        "kind": "link",
-        "to": "kompendium/techniques/_index.md"
-      },
-      {
-        "from": "matice.md",
-        "kind": "link",
-        "to": "mapa.md"
-      },
-      {
-        "from": "matice.md",
-        "kind": "link",
-        "to": "stav.md"
-      },
-      {
-        "from": "stav.md",
-        "kind": "link",
-        "to": "mapa.md"
+        "to": "kompendium/section-bridges/_index.md"
       }
     ],
     "limit": 10,
     "nodes": [
       {
-        "class": "root",
+        "class": "kompendium/section-bridges",
         "distance": 0,
-        "in": 1,
-        "path": "matice.md",
-        "title": "Případy × techniky"
+        "in": 5,
+        "path": "kompendium/section-bridges/_index.md",
+        "title": "Section Bridges — propojení sekcí kompendia"
       },
       {
-        "class": "glossary",
+        "class": "kompendium",
         "distance": 1,
-        "in": 375,
-        "path": "glossary/taxonomie-ea.md",
-        "title": "Taxonomie EA"
-      },
-      {
-        "class": "kompendium/case-studies",
-        "distance": 1,
-        "in": 55,
-        "path": "kompendium/case-studies/_index.md",
-        "title": "Případové studie – anonymizované kompozity"
+        "in": 85,
+        "path": "kompendium/_index.md",
+        "title": "Kompendium epistemické a kognitivní anihilace"
       },
       {
         "class": "kompendium/techniques",
         "distance": 1,
-        "in": 44,
+        "in": 43,
         "path": "kompendium/techniques/_index.md",
         "title": "Techniques — detailní per-technique články"
       },
       {
-        "class": "kompendium/historical-cases",
+        "class": "kompendium/01-zaklady-manipulace",
         "distance": 1,
-        "in": 18,
-        "path": "kompendium/historical-cases/_index.md",
-        "title": "Historické případy"
+        "in": 6,
+        "path": "kompendium/01-zaklady-manipulace/_index.md",
+        "title": "Základy manipulace"
       },
       {
-        "class": "root",
+        "class": "kompendium/konceptualni-mapa",
         "distance": 1,
-        "in": 5,
-        "path": "mapa.md",
-        "title": "Mapa knihy"
+        "in": 4,
+        "path": "kompendium/konceptualni-mapa/_index.md",
+        "title": "Konceptuální mapa epistemické anihilace"
       },
       {
-        "class": "root",
+        "class": "kompendium/section-bridges",
         "distance": 1,
-        "in": 3,
-        "path": "stav.md",
-        "title": "Stav knihy"
+        "in": 4,
+        "path": "kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md",
+        "title": "Most: Předmluva → Úvod"
       },
       {
         "class": "glossary",
         "distance": 2,
-        "in": 603,
+        "in": 601,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
       },
       {
         "class": "glossary",
         "distance": 2,
-        "in": 344,
-        "path": "glossary/nabla-infinity.md",
-        "title": "NABLA Infinity (∇∞)"
+        "in": 368,
+        "path": "glossary/taxonomie-ea.md",
+        "title": "Taxonomie EA"
       },
       {
         "class": "kompendium/06-klinicke-aplikace",
         "distance": 2,
-        "in": 329,
+        "in": 328,
         "path": "kompendium/06-klinicke-aplikace/_index.md",
         "title": "06. Klinické aplikace a diagnostika"
       },
       {
         "class": "glossary",
         "distance": 2,
-        "in": 328,
+        "in": 325,
         "path": "glossary/_index.md",
         "title": "Glosář"
+      },
+      {
+        "class": "kompendium/01-predmluva",
+        "distance": 2,
+        "in": 299,
+        "path": "kompendium/01-predmluva/eticke-aspekty.md",
+        "title": "1.3 Etické aspekty a upozornění"
       }
     ],
     "ok": true,
     "op": "neighbourhood",
-    "path": "matice.md",
+    "path": "kompendium/section-bridges/_index.md",
     "schema": "kompendium-engine/v1",
-    "total": 548,
+    "total": 285,
     "truncated": true
   },
   "input": {
     "depth": 2,
     "limit": 10,
     "op": "neighbourhood",
-    "path": "matice.md"
+    "path": "kompendium/section-bridges/_index.md"
   }
 }

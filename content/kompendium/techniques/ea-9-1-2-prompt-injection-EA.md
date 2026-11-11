@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.1 LLM-mediated EA
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -69,6 +68,8 @@ Personalistka nechá AI asistenta shrnout desítky životopisů. Jeden dokument 
 ## 9. Meze a otevřené otázky
 
 Úplná ochrana proti vloženým pokynům zatím neexistuje; technická opatření snižují riziko, ale neodstraňují ho. Ne každá podivná odpověď asistenta je útok – častější je obyčejná chyba modelu. Proto je podstatné uchovat vstupy, aby bylo možné příčinu zpětně odlišit.
+
+Platí i obrácené omezení: výstup, který působí věcně a vyrovnaně, nevylučuje, že jeho směr určil text ve zpracovaném dokumentu. Vložený pokyn se poznává z načtených dat a z protokolu nástrojů, ne z tónu odpovědi, takže nepřítomnost nápadnosti není nálezem. Pro organizace z toho plyne, že bez uchovaných vstupů nelze obě možnosti po čase odlišit a incident se uzavře dohadem. Pro jednotlivce plyne něco mírnějšího: Parasuraman a Manzey (2010) popisují snížení kontroly nad obvykle fungujícím systémem jako důsledek vytížení, ne nedbalosti, takže doložená injekce nesvědčí o lehkovážnosti uživatele, nýbrž o uspořádání práce, které s potřebou kontroly nepočítalo.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

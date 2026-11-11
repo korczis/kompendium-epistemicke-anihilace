@@ -71,7 +71,7 @@ Rigidita sama o sobě nikoho neopravňuje k zásahu do přesvědčení druhého.
 
 ## Význam pro Kompendium
 
-V obranných aplikacích slouží režim jako negativní výsledkový ukazatel operací epistemické bezpečnosti (viz [Epistemic Security](@/glossary/epistemic-security.md)). Kalibrační složka [Decision Engine](@/glossary/decision-engine.md) považuje znaky uvažování ve stylu anankastického režimu ve zdrojových materiálech za silný negativní signál: zdroj, který vykazuje nutkavou rigiditu, pravděpodobně nebude spolehlivě revidovat svá tvrzení podle nových důkazů, bez ohledu na formální kvalifikaci. Odpovídá to měřítku, podle něhož tvrzení, které nic nemůže vyvrátit, ztrácí vypovídací hodnotu (Popper 1963).
+V obranných aplikacích slouží režim jako negativní výsledkový ukazatel operací epistemické bezpečnosti (viz [Epistemic Security](@/glossary/epistemic-security.md)). Znaky uvažování ve stylu anankastického režimu jsou ve zdrojových materiálech silným negativním signálem: zdroj, který vykazuje nutkavou rigiditu, pravděpodobně nebude spolehlivě revidovat svá tvrzení podle nových důkazů, bez ohledu na formální kvalifikaci. Odpovídá to měřítku, podle něhož tvrzení, které nic nemůže vyvrátit, ztrácí vypovídací hodnotu (Popper 1963).
 
 Pojem pomáhá i v klinické praxi. Vysvětluje, proč konfrontace argumenty selhává a proč obrana musí začít obnovou vztahů a bezpečí, nikoli přesvědčováním; je to jeden z cílových stavů, před nimiž varují [detekční signatury](@/kompendium/detection-signatures/9-behavioral-disproportionate-confidence.md) nepřiměřené jistoty. Literatura o odchodu z kontrolujících skupin dochází ke stejnému závěru: změnu přináší vztah a nové zkušenosti, ne spor o doktrínu (Hassan 1988).
 

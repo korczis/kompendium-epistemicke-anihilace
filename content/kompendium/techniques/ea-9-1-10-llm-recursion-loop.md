@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.1 LLM-mediated EA
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -69,6 +68,8 @@ Lokální historický spolek hledá údaje o budově z 19. století. Vyhledáva�
 ## 9. Meze a otevřené otázky
 
 Rozsah, v jakém generovaný obsah už dnes ovlivňuje trénovací data, není spolehlivě změřen, a odhady se liší. Otevřené zůstává, zda půjde o pozvolnou degradaci, nebo o problém, který zvládnou filtry a označování. Pro knihu je podstatné, že smyčka mění podmínky ověřování: primární pramen je stále cennější a stále hůř dohledatelný. Pro jednotlivce z toho plyne praktický závěr – uchovávat si vlastní ověřené zdroje a nespoléhat na to, že pravdivá verze bude vždy nejvýše ve vyhledávání.
+
+Smyčka je mezi technikami knihy výjimkou i v tom, co z ní nelze vyvodit: nepředpokládá aktéra, a proto z jejích následků neplyne, že někdo jednal. Zkreslení dohledané ve vyhledávači nebo v encyklopedii nesvědčí o kampani; svědčí o tom, že chybí evidence původu. Druhou mezí je přenos výsledku: Shumailov et al. (2024) pozorovali degradaci při opakovaném učení na vlastních výstupech za kontrolovaných podmínek, kde do dat nevstupuje nic lidského – otevřený web takovou podmínku nesplňuje, a kniha proto z jejich práce přejímá mechanismus, ne předpověď. Z toho plyne i to, co obrana může slíbit: udržet dohledatelnost pramene, nikoli zaručit, že nejpřesnější verze bude nejdostupnější.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

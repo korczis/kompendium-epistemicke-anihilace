@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.3 Sociální platformy
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -77,6 +76,16 @@ Kniha neuvádí čísla o rozdílech v moderaci mezi jazyky a skupinami, protož
 Otevřenou otázkou je i to, zda lze spravedlivě moderovat ve stovkách jazyků s rovnou kvalitou, a pokud ne, jak mají platformy o této nerovnosti informovat uživatele. Kniha považuje za minimum otevřené přiznání, kde moderace funguje hůř, aby uživatelé a regulátoři mohli jednat.
 
 Pro zasažené uživatele je užitečné vědět, že úspěšné odvolání není výjimkou a že má smysl ho podat.
+
+Jeden odstraněný příspěvek nedokládá zaujatost systému: klasifikátory chybují i bez jakéhokoli
+vzorce a jednotlivý zásah je slučitelný s náhodou (Gorwa, Binns a Katzenbach 2020). Rozpoznání
+nerovnosti rovněž neurčuje, kdo ji zavinil — nerovnoměrné pokrytí trénovacích dat není rozhodnutím
+člověka, který zásah potvrdil.
+
+*Interpretace knihy*: zjištěná nerovnost nevypovídá ani o oprávněnosti konkrétního zásahu a obojí
+je třeba posuzovat odděleně. Následek je přesto epistemický: komu je slovo odebíráno soustavně,
+ztrácí postavení svědka ve Frickerově (2007) smyslu, i kdyby byl každý jednotlivý zásah
+obhajitelný.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

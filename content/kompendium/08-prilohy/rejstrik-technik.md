@@ -326,14 +326,11 @@ vizualizací](@/kompendium/visualizations/_index.md) a síť technik [mapa knihy
 - [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — hranice studia a aplikace.
 - [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) — formální notační konvence.
 
-## Platformový kontext
+## Kam rejstřík vede
 
-Master rejstřík je propojen s běžícími systémy:
+Rejstřík je propojen s ostatními částmi knihy:
 
 - [Glosář](@/glossary/_index.md) — každý kanonizovaný název má glosářové heslo.
-- [Color Teams](@/glossary/color-teams.md) — [Red Team](@/glossary/red-team.md) scénáře čerpají z této taxonomie.
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — kalibrace důvěry využívá EA kódy jako negativní signály.
-- [3NL architektura](@/glossary/three-nested-loops.md) — tři vnořené úrovně řízení platformy (strategická, taktická, operační); s kapitolami knihy ji spojuje jen analogie, ne mapování technik.
 
 ## Jak rejstřík používat
 

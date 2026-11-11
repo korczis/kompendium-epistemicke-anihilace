@@ -75,9 +75,7 @@ Eticky je pro knihu klíčové, že popis vzorce nesmí sloužit jako argument p
 
 ## Význam pro Kompendium
 
-Na platformě, z níž kniha vzešla, je delegitimizace sledována jako samostatný signál hrozby oddělený od běžného konfliktu informací. [Decision Engine](@/glossary/decision-engine.md) označuje rozhodnutí, jejichž informační graf ukazuje zhroucení reputace dříve vysoce důvěryhodných vstupů, tedy vzorec typický pro aktivní delegitimizaci, nikoli pro běžnou revizi důkazů. Rozlišení navazuje na důraz na dosavadní výsledky zdroje (*track record*) jako na jedno z nejspolehlivějších vodítek důvěry (Goldman 2001).
-
-[Red Team](@/glossary/red-team.md) v rámci [Color Teams](@/glossary/color-teams.md) simuluje delegitimizační kampaně proti vnitřním autoritám platformy, jako jsou pracovníci compliance, auditní logy a kalibrační data, aby ověřil, že žádný jednotlivý vektor delegitimizace nemůže operátora oslepit. [NABLA Infinity](@/glossary/nabla-infinity.md) vede nezávislé záznamy o původu, takže i když je určitý zdroj delegitimizován, historický záznam o tom, kdy se shodoval s jinými zdroji, zůstává dohledatelný a vztahy důvěry nelze zpětně přepsat. Obě opatření uplatňují zásadu, že shoda zdrojů má váhu, jen když jsou zdroje na sobě nezávislé (Goldman 2001). V [Taxonomii EA](@/glossary/taxonomie-ea.md) jsou konkrétní delegitimizační techniky vedeny hlavně v řadě EA-2.
+Pro rozpoznání vzorce je podstatné odlišit aktivní delegitimizaci od běžné revize důkazů: u delegitimizace se hroutí reputace dříve vysoce důvěryhodných zdrojů bez nových důkazů, a právě dosavadní výsledky zdroje (*track record*) jsou jedním z nejspolehlivějších vodítek důvěry (Goldman 2001). Platí přitom, že shoda zdrojů má váhu, jen když jsou zdroje na sobě nezávislé (Goldman 2001). V [Taxonomii EA](@/glossary/taxonomie-ea.md) jsou konkrétní delegitimizační techniky vedeny hlavně v řadě EA-2.
 
 ## Obrana a zotavení
 

@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.1 LLM-mediated EA
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -71,6 +70,15 @@ Influencer zveřejní video, v němž položí pěti různým chatbotům otázku
 Shoda modelů může být i správná – u dobře zdokumentovaných faktů je to běžné. Problém nastává tam, kde shoda nahrazuje zdroj. Zatím chybí srozumitelný způsob, jak veřejnosti ukázat míru nezávislosti modelů a míru jejich nejistoty v konkrétní odpovědi.
 
 Pro výzkum je otevřené, jak publikum vnímá shodu modelů ve srovnání se shodou lidských expertů, a zda vysvětlení společného původu dat skutečně snižuje přesvědčivost „AI konsenzu“. Dostupné poznatky pocházejí převážně z obecného výzkumu sociálního důkazu a oprav dezinformací.
+
+Rozpoznání shody modelů navíc neříká nic o tom, kdo ji předložil: shromáždit několik podobných
+odpovědí může člověk v dobré víře, který předpoklad nezávislosti vůbec nezkoumal. Goldman (2001)
+formuluje podmínku nezávislosti jako požadavek na zdroje, nikoli jako soud o jejich uživateli, a
+z porušené podmínky proto neplyne ani záměr, ani nekompetence toho, kdo shodu uvádí.
+
+*Interpretace knihy*: předmětem této stránky není nepravdivost tvrzení, nýbrž záměna počtu hlasů za
+doklad. Proto zde vyvrácení konkrétního údaje nestačí a je třeba pojmenovat společný původ odpovědí
+(Lewandowsky et al. 2017).
 
 ## 10. Pohled zevnitř a práce s postiženým
 
@@ -127,4 +135,3 @@ Učitelé, lékaři a knihovníci se s „AI konsenzem“ setkávají v přímé
 
 - [Sebe-obrana: Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – ověření nezávislosti.
 - [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) – „AI konsenzus“ proti odbornému konsenzu.
-- [Pluralita signálů](@/glossary/signal-plurality.md) – proč je důležitá nezávislost zdrojů.

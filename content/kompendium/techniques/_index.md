@@ -276,7 +276,6 @@ EA-7.\* a EA-8.\* materiály jsou primárně publikovány jako narativní člán
 | **Section Bridges** | 30 můstků mezi sekcemi kompendia | [/kompendium/section-bridges/](@/kompendium/section-bridges/_index.md) |
 | **Recovery Protocols** | 30 strukturovaných postupů zotavení | [/kompendium/recovery-protocols/](@/kompendium/recovery-protocols/_index.md) |
 | **Emergency Protocols** | 40 akutních intervenčních postupů | [/kompendium/emergency-protocols/](@/kompendium/emergency-protocols/_index.md) |
-| **AIAD Integration** | 25 integračních článků s platformou | [/kompendium/aiad-integration/](@/kompendium/aiad-integration/_index.md) |
 | **Cross-Domain** | 30 cross-doménových aplikací (OSINT/DD/HR/legal) | [/kompendium/cross-domain/](@/kompendium/cross-domain/_index.md) |
 | **Educational Scenarios** | 30 výukových scénářů pro tréninky | [/kompendium/educational-scenarios/](@/kompendium/educational-scenarios/_index.md) |
 | **Historical Cases** | 40 historických případových studií | [/kompendium/historical-cases/](@/kompendium/historical-cases/_index.md) |

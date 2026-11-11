@@ -21,7 +21,7 @@ Signatura odpovídá glosářovému pojmu [epistemická monokultura](@/glossary/
 
 ## Co signatura indikuje
 
-Spolehlivost poznání stojí na [pluralitě signálů](@/glossary/signal-plurality.md): chyba jednoho zdroje je opravena jiným, nezávislým zdrojem. Monokultura tuto opravu odstraňuje. Pokud jediný zdroj chybuje nebo záměrně klame, chyba se nikde nezachytí. Navíc se monokultura sama posiluje: kdo dostává jen jeden výklad, považuje ho za samozřejmý, a odlišné zdroje mu připadají podezřelé.
+Spolehlivost poznání stojí na [pluralitě nezávislých zdrojů](@/glossary/intelligence-fusion.md): chyba jednoho zdroje je opravena jiným, nezávislým zdrojem. Monokultura tuto opravu odstraňuje. Pokud jediný zdroj chybuje nebo záměrně klame, chyba se nikde nezachytí. Navíc se monokultura sama posiluje: kdo dostává jen jeden výklad, považuje ho za samozřejmý, a odlišné zdroje mu připadají podezřelé.
 
 Pro manipulaci je monokultura **infrastrukturou**: umožňuje [injekci narativu](@/kompendium/detection-signatures/22-network-narrative-injection.md), protože není nikdo, kdo by ji zachytil, a činí [cirkularitu citací](@/kompendium/detection-signatures/18-network-citation-circularity.md) neviditelnou.
 
@@ -127,7 +127,6 @@ Algoritmicky řízené prostředí vytváří monokulturu i bez úmyslu konkrét
 
 - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) – řízení toho, co se člověk dozví.
 - [Epistemic Bubble](@/glossary/epistemic-bubble.md) – bublina a ozvěnová komora.
-- [Signal Plurality](@/glossary/signal-plurality.md) – princip nezávislých signálů.
 
 **Obrana a metodika**
 

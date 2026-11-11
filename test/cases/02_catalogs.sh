@@ -31,8 +31,9 @@ expect_fail() {
   git -C "$root" archive "$(git -C "$root" write-tree)" -- "$page" data | tar -x -C "$work"
   rm -f content/kompendium/nlp-vzorce/zakladni-pojmy/disociace.md
   rm -f content/kompendium/nlp-vzorce/predpoklady/seeded.md
-  python3 scripts/catalogs.py --check >/dev/null
 }
+# expect_fail restores the page and data the first --check above proved clean and removes the
+# seeded files, so the tree is not re-checked after each defect (~15 s per --check in CI).
 
 python3 - "$page" <<'PY'
 import pathlib, sys

@@ -20,9 +20,10 @@ if [ ! -f data/catalogs.toml ]; then echo "no catalogue declaration in this tree
 
 python3 scripts/catalogs.py --check >/dev/null
 
+# Restoring re-extracts the tree the first --check above proved clean, so it is not re-checked
+# (each --check costs ~15 s in CI; the case once ran it 13 times).
 restore() {
   git -C "$root" archive "$(git -C "$root" write-tree)" -- data content | tar -x -C "$work"
-  python3 scripts/catalogs.py --check >/dev/null
 }
 expect_fail() {
   local what=$1 want=$2 out

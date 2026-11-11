@@ -18,14 +18,12 @@
 
   // Porovnání bez diakritiky a velikosti písmen; úvodní # se ignoruje.
   function fold(s) {
-    return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '')
-      .toLowerCase().replace(/^#+/, '').trim();
+    return window.KompendiumJadro.normalise(String(s || '').replace(/^#+/, ''));
   }
 
   // Stejný tvar adresy jako Zola (slugify = "on"): ASCII, malá písmena, pomlčky.
   function slug(s) {
-    return String(s).normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase()
-      .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    return window.KompendiumVrstva.slug(s);
   }
 
   function plural(n, one, few, many) {

@@ -265,9 +265,17 @@
     return api;
   }
 
+  // Adresa ve tvaru Zoly (slugify = "on"): ASCII, malá písmena, pomlčky. Jediná kopie pro
+  // skripty; GitHub Pages rozlišuje velikost písmen, tak se odkaz skládá vždy stejně.
+  // Stejné pravidlo má scripts/build-ui-data.py (slug).
+  function slug(s) {
+    return String(s || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  }
+
   window.KompendiumVrstva = {
     PALETTE: PALETTE, paletteFor: paletteFor, theme: theme, isDark: isDark,
-    reducedMotion: reducedMotion,
+    reducedMotion: reducedMotion, slug: slug,
     kniha: kniha, p5: p5In, three: threeIn,
   };
 })();

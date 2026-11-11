@@ -155,7 +155,7 @@ Vrcholový tým velké organizace po dlouhodobém používání korporátního �
 ### Eskaluje do
 
 - **[Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)** — terminální stav, v němž subjekt ztrácí schopnost provést kognitivní operace vyžadující distinkci.
-- **Anankastický režim](@/glossary/anankasticky-rezim.md)** — paradoxně subjekt v entropickém stavu může vyvinout kompulzivní lpění na **jednom** mlhavém termínu jako jediném „smysluplném“ výrazu.
+- **[Anankastický režim](@/glossary/anankasticky-rezim.md)** — paradoxně subjekt v entropickém stavu může vyvinout kompulzivní lpění na **jednom** mlhavém termínu jako jediném „smysluplném“ výrazu.
 - **Kognitivní anti-rekurzivita** ([viz kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)) — neschopnost reflektovat vlastní pojmový aparát, čímž se entropie stává sebeudržující.
 
 ### Alternativy / podobné, ale **distinktivní**

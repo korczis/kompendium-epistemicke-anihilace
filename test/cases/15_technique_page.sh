@@ -23,13 +23,25 @@ mkdir -p "$d"
 page() { printf '+++\ntitle = "%s"\n+++\n\n' "$1" > "$d/$1.md"; cat >> "$d/$1.md"; }
 listed() { python3 scripts/check-ia.py --list "$1" > "$work/list"; }
 
-# What the committed book already owes and what the gate still allows, read from the gate.
+# What the committed book already owes and what the gate still allows. The cap comes from the
+# gate's own source, because the ratchet line disappears once the debt reaches zero — and zero is
+# the goal, so a case that needs that line dies exactly when the requirement is finally met.
+cap=$(python3 - <<'EOF'
+import importlib.util, sys
+spec = importlib.util.spec_from_file_location("cia", "scripts/check-ia.py")
+m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+print(m.PENDING_ZERO["technique-page"])
+EOF
+)
+[ -n "$cap" ] || { echo "cannot read PENDING_ZERO['technique-page'] from scripts/check-ia.py"; exit 1; }
 python3 scripts/check-ia.py > "$work/before.out" 2>&1 || true
 line=$(grep -m1 'technique-page is never baselined' "$work/before.out" || true)
-[ -n "$line" ] || { echo "the gate no longer reports the technique-page ratchet"; cat "$work/before.out"; exit 1; }
-live=$(printf '%s' "$line" | sed -n 's/.*must reach 0: \([0-9]*\) page(s).*/\1/p')
-cap=$(printf '%s' "$line" | sed -n 's/.*(at most \([0-9]*\)).*/\1/p')
-[ -n "$live" ] && [ -n "$cap" ] || { echo "cannot read live count and cap from: $line"; exit 1; }
+if [ -n "$line" ]; then
+  live=$(printf '%s' "$line" | sed -n 's/.*must reach 0: \([0-9]*\) page(s).*/\1/p')
+  [ -n "$live" ] || { echo "cannot read the live count from: $line"; exit 1; }
+else
+  live=0   # no ratchet line means the book owes nothing: the requirement is met
+fi
 need=$((cap - live + 1))
 [ "$need" -ge 1 ] || { echo "the cap ($cap) is already below the live count ($live)"; exit 1; }
 

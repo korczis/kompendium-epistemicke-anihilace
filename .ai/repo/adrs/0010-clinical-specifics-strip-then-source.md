@@ -20,14 +20,17 @@ provenance:
 Revize 2026-11-11 (vlákno obsahu, session 2e) našla na produkci vymyšlené a chybně připsané
 klinické údaje, které žádná brána nevidí, protože stojí v próze: výskyt fotosenzitivní epilepsie
 „u 5 % populace“ (skutečnost řádově 1 : 4000), tvrzený souhlas skutečného klienta u složených
-kazuistik, ECRI jako validovaný krok diagnostické baterie, prahy přerušení (HRV > 20 %, HR > 90 %
-predikovaného maxima, DES > 30) a neexistující nástroj „DES-mini“. Tyto jednotlivé případy
+kazuistik, ECRI jako validovaný krok diagnostické baterie, prahy přerušení protokolu (HRV > 20 %,
+HR > 90 % predikovaného maxima a skóre DES > 30 použité jako kritérium přerušení) a neexistující
+nástroj „DES-mini“. Screeningový práh DES-II kolem 30 sám je doložitelný (Carlson & Putnam 1993,
+`content/references.md`); vymyšlené bylo jeho použití jako kritéria přerušení a název nástroje
+(doplněk 1). Tyto jednotlivé případy
 opravuje řez `feature/vymyslena-klinika` podle platného pravidla `project.content-sources-verifiable`.
 
-Zbývá vrstva, kterou jednotlivé opravy nezasáhnou: 35 stránek nese klinické, diagnostické nebo
-protokolární podrobnosti (fáze terapie, trvání, prahy, rozhodovací pravidla) a nemá na sobě ani
-jednu citaci — celé `06-klinicke-aplikace` (11), celé `04-terminalni-protokoly` (10), části
-`03-zakladni-kategorie` a 5 stránek `05-ultramari-techniky`.
+Zbývá vrstva, kterou jednotlivé opravy nezasáhnou: stránky, které nesou klinické, diagnostické
+nebo protokolární podrobnosti (fáze terapie, trvání, prahy, rozhodovací pravidla) a nemají na sobě
+ani jednu citaci. Otázka vlastníkovi níže uvádí 35 stránek a „celé“ oddíly; přesný výčet opravuje
+doplněk 1 (34 stránek, oddíly 06 a 04 jen zčásti).
 
 Oddíl `04-terminalni-protokoly` popisuje postupy řízené dekonstrukce identity s monitorováním
 a kritérii přerušení. Brána obranného rámce `howto` (`scripts/check-ia.py`) tyto stránky měří
@@ -86,3 +89,30 @@ Z toho plyne:
   aby přistála na známém základu.
 - Řez `vymyslena-klinika` u každé opravy uvádí, co tam stálo a že to bylo chybné; vlna se drží
   téhož, aby čtenář odlišil opravu od mezery.
+
+## Doplněk 1 (2026-11-11): přesný výčet stránek a jeden příklad
+
+Rozbor vlny (vlákno obsahu 2e, ověřeno v integraci) opravil kontext; rozhodnutí vlastníka
+platí beze změny.
+
+- Stránek bez citace s klinickými podrobnostmi je **34**, ne 35. `03-zakladni-kategorie` jich má
+  7, ne 6: výčet v otázce vynechal `scenar-f.md` (0 citací, pět řádků `**Trvání**` s rozsahy
+  měsíců, jediný commit, který ho měnil, je odstranění platformy). Má týž tvar jako `scenar-g`
+  a `scenar-h`, jejichž procenta opravil řez `vymyslena-klinika`, a z původního výčtu by zůstal
+  jako jediný netknutý.
+- `06-klinicke-aplikace` není celý: z 18 stránek je 6 doložených (desítky citací) a jsou vzorem,
+  podle kterého se ostatní doplní. Ani `04-terminalni-protokoly` není celý: `visualizations.md`
+  citace má.
+- Příklad „DES > 30“ v kontextu: screeningový práh DES-II kolem 30 je doložitelný (Carlson &
+  Putnam 1993). Vymyšlený byl nástroj „DES-mini“ a použití prahu jako kritéria přerušení uvnitř
+  protokolu; řez `vymyslena-klinika` odstranil obojí, obsah je tedy správně, kontext byl
+  nepřesný.
+- Kritérium „ani jedna citace“ má blízkou třídu, kterou nezachytí: `03/kapitola-1.md` má pár
+  citací proti desítkám necitovaných odstavců. Vlna ji posoudí stejně, i když do výčtu nepatří.
+- Způsob osekání: řádek bez pramene nahrazuje oznamovací věta („Podíl kniha neuvádí: dřívější
+  verze tu měla procenta bez zdroje…“), jak to zavedl řez `vymyslena-klinika`. Je slovně
+  neutrální, takže žádná stránka neklesne pod práh rozsahu; nový doložený obsah potřebuje jen
+  `06/supervizni-ramce.md`.
+- Přerámování `04-terminalni-protokoly` na rozpoznání musí přistát dřív, než vlákno brány
+  rozšíří vzory `howto`, jinak brána odmítne oddíl dřív, než je obsah hotový. Vzorem je
+  `konceptualni-dekonstrukce.md`, psaná už v rejstříku rozpoznání.

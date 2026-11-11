@@ -8,12 +8,12 @@ tags = ["kompendium"]
 
 [extra]
 toc = false
-entries = 5144
+entries = 5154
 +++
 
 Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotlivých stránkách kompendia a glosáře; ručně se needituje.
 
-**5144 položek**, seřazených podle autora.
+**5154 položek**, seřazených podle autora.
 
 ## A
 
@@ -167,6 +167,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Případ 26: Odchod z vysoce kontrolujícího náboženského společenství](@/kompendium/case-studies/26-religiozni-fanatismus-exit.md)</small>
 - Altenmüller, E., a Jabusch, H.-C. (2010). Focal dystonia in musicians: Phenomenology,  
   <small>Citováno: [Případ 30: Nátlak na hudební konzervatoři](@/kompendium/case-studies/30-music-conservatory-coercion.md)</small>
+- Alter, A. L. a Oppenheimer, D. M. (2009). Uniting the tribes of fluency to form  
+  <small>Citováno: [EA-1.6.2 Vzorec epistemický trojský kůň](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)</small>
 - Althusser, L. (1971). Ideology and ideological state apparatuses. In *Lenin and Philosophy and Other Essays*. New Left Books.  
   <small>Citováno: [7.21 Butler: Performativita a politika identity](@/kompendium/07-teoreticke-reflexe/butler-performative.md)</small>
 - Altman, I., & Taylor, D. A. (1973). *Social Penetration: The Development of Interpersonal Relationships*. Holt, Rinehart & Winston.  
@@ -1096,6 +1098,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [7.50 Dawkins: Mem a kulturní replikátory](@/kompendium/07-teoreticke-reflexe/dawkins-meme.md)</small>
 - Boyer, E. W. a Shannon, M. (2005). The serotonin syndrome. *New England Journal of Medicine*, 352(11), 1112–1120.  
   <small>Citováno: [Akutní protokol: Akutní farmakoterapie v kontextu epistemické anihilace](@/kompendium/emergency-protocols/18-emergency-pharmacotherapy.md), [Akutní protokol: Lékové pohotovostní stavy u pacienta po epistemické anihilaci](@/kompendium/emergency-protocols/36-medication-emergency.md)</small>
+- Boykoff, M. T. a Boykoff, J. M. (2004). Balance as bias: Global warming and the US  
+  <small>Citováno: [EA-1.6.2 Vzorec epistemický trojský kůň](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)</small>
 - Boykoff, M. T., a Boykoff, J. M. (2004). Balance as bias: Global warming and the US prestige press. *Global Environmental Change*.  
   <small>Citováno: [Případ 68: Kult think-tanku](@/kompendium/case-studies/68-think-tank-cult.md)</small>
 - Boykoff, M. T., & Boykoff, J. M. (2004). Balance as bias: Global warming and the US  
@@ -1136,6 +1140,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Akutní protokol: Akutní disociativní stav po epistemické anihilaci](@/kompendium/emergency-protocols/4-acute-dissociation-EA.md)</small>
 - Brand, B. L., Sar, V., Stavropoulos, P., Krüger, C., Korzekwa, M., Martínez-Taboas, A., & Middleton, W. (2016). *Separating fact from fiction: An empirical examination of six myths about dissociative identity disorder*. Harvard Review of Psychiatry.  
   <small>Citováno: [Iatrogenic harm (iatrogenní újma)](@/glossary/iatrogenic-harm.md)</small>
+- Brandolini, A. (2013). Aforismus o nepoměru mezi cenou tvrzení a cenou jeho vyvrácení;  
+  <small>Citováno: [EA-1.6.2 Vzorec epistemický trojský kůň](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)</small>
 - Brandom, R. (1994). *Making It Explicit: Reasoning, Representing, and Discursive Commitment*. Harvard University Press.  
   <small>Citováno: [Motte and bailey (tvrz a předhradí)](@/glossary/motte-and-bailey.md)</small>
 - Brandom, R. B. (1994). *Making It Explicit: Reasoning, Representing, and Discursive Commitment*. Harvard University Press.  
@@ -2790,6 +2796,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Akutní protokol: Uprchlík v akutní situaci po epistemické anihilaci](@/kompendium/emergency-protocols/30-refugee-EA-emergency.md)</small>
 - Fazel, S., Singh, J. P., Doll, H., & Grann, M. (2012). *Use of risk assessment instruments to predict violence and antisocial behaviour in 73 samples involving 24 827 people*. BMJ.  
   <small>Citováno: [Individual risk map (mapa individuálních rizik)](@/glossary/individual-risk-map.md)</small>
+- Fazio, L. K., Brashier, N. M., Payne, B. K. a Marsh, E. J. (2015). Knowledge does not  
+  <small>Citováno: [EA-1.6.2 Vzorec epistemický trojský kůň](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)</small>
 - Fazio, L. K., Brashier, N. M., Payne, B. K., & Marsh, E. J. (2015). Knowledge Does Not Protect Against Illusory Truth. *Journal of Experimental Psychology: General*, 144(5).  
   <small>Citováno: [Firehose of Falsehood (palba lží)](@/glossary/firehose-of-falsehood.md), [Gish Gallop (Gishův cval)](@/glossary/gish-gallop.md), [Vzdělávací scénář: Injekce narativu](@/kompendium/educational-scenarios/15-narrative-injection.md) a 5 dalších</small>
 - Feeley, T. H., Anker, A. E., & Aloe, A. M. (2012). *The door-in-the-face persuasive message strategy: A meta-analysis of the first 35 years*. Communication Monographs.  
@@ -3289,7 +3297,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*.  
   <small>Citováno: [Epistemická agentnost](@/glossary/epistemicka-agentnost.md), [Hermeneutická eroze](@/glossary/hermeneuticka-eroze.md), [Hermeneutický outsourcing](@/glossary/hermeneuticky-outsourcing.md) a 15 dalších</small>
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford  
-  <small>Citováno: [EA-7.2.1 Fricker: Epistemická nespravedlnost](@/kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md)</small>
+  <small>Citováno: [EA-1.6.2 Vzorec epistemický trojský kůň](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md), [EA-7.2.1 Fricker: Epistemická nespravedlnost](@/kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md)</small>
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford: Oxford  
   <small>Citováno: [1.5 Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md), [Trauma-informované občanství](@/kompendium/prevention-resilience/30-trauma-informed-citizenship.md), [Dlouhodobé altruistické kanalizování](@/kompendium/recovery-protocols/longterm-altruistic-channeling.md) a 3 dalších</small>
 - **Fricker, M.** (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford: Oxford University Press. — Testimoniální a hermeneutická nespravedlnost.  
@@ -3789,6 +3797,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Argument z mlčení](@/kompendium/argumentacni-fauly/dialekticke-taktiky/argument-z-mlceni.md), [„Jen se ptám“](@/kompendium/argumentacni-fauly/dialekticke-taktiky/jen-se-ptam.md), [Vybírání podivínů](@/kompendium/argumentacni-fauly/dialekticke-taktiky/vybirani-podivinu.md) a 80 dalších</small>
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (s. 41–58). Academic Press.  
   <small>Citováno: [Detekční signatura: Odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md), [Detekční signatura: Fragmentace narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md)</small>
+- Grice, H. P. (1975). Logic and conversation. In *Syntax and Semantics 3: Speech Acts*.  
+  <small>Citováno: [EA-1.6.2 Vzorec epistemický trojský kůň](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)</small>
 - Grice, H. P. (1975). *Logic and conversation*. In Syntax and Semantics, vol. 3: Speech Acts. Academic Press.  
   <small>Citováno: [Paltering](@/glossary/paltering.md)</small>
 - Grice, H. P. a Strawson, P. F. (1956). In defense of a dogma. *The Philosophical Review*, 65(2).  
@@ -4084,6 +4094,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md)</small>
 - Haser, V. (2005). *Metaphor, Metonymy, and Experientialist Philosophy: Challenging Cognitive Semantics*. Mouton de Gruyter.  
   <small>Citováno: [7.47 Johnson: Body in Mind a estetika lidské zkušenosti](@/kompendium/07-teoreticke-reflexe/johnson-body-in-mind.md)</small>
+- Hasher, L., Goldstein, D. a Toppino, T. (1977). Frequency and the conference of referential  
+  <small>Citováno: [EA-1.6.2 Vzorec epistemický trojský kůň](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)</small>
 - Hasher, L., Goldstein, D., a Toppino, T. (1977). Frequency and the conference of referential validity. *Journal of Verbal Learning and Verbal Behavior*.  
   <small>Citováno: [Případ 75: Kult podcastu](@/kompendium/case-studies/75-podcast-cult.md)</small>
 - Hasher, L., Goldstein, D., & Toppino, T. (1977). Frequency and the conference of  
@@ -5868,6 +5880,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Double bind (dvojná vazba)](@/glossary/double-bind.md), [Edukativní implementace](@/glossary/edukativni-implementace.md), [Ego death (rozpuštění ega)](@/glossary/ego-death.md) a 24 dalších</small>
 - Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.  
   <small>Citováno: [BITE model](@/glossary/bite-model.md), [Bounded choice](@/glossary/bounded-choice.md), [Destruktivní sokratovská metoda](@/glossary/destruktivni-sokratovska-metoda.md) a 287 dalších</small>
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology  
+  <small>Citováno: [EA-1.6.2 Vzorec epistemický trojský kůň](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)</small>
 - **Lifton, R. J.** (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.  
   <small>Citováno: [Hermeneutická eroze](@/glossary/hermeneuticka-eroze.md), [Konceptuální anihilace](@/glossary/konceptualni-anihilace.md), [Privátní jazyk](@/glossary/privatni-jazyk.md) a 39 dalších</small>
 - Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism: A Study of „Brainwashing“ in China*. W. W. Norton.  
@@ -6647,6 +6661,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Hlášení incidentů](@/kompendium/forensic-legal/39-incident-reporting.md), [Pracovní právo](@/kompendium/forensic-legal/44-employment-law-EA.md), [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md) a 1 dalších</small>
 - Michaels, D. (2008). *Doubt Is Their Product*.  
   <small>Citováno: [EA-1.3.4 Indukovaná pochybnost](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md)</small>
+- Michaels, D. (2008). *Doubt Is Their Product: How Industry's Assault on Science Threatens  
+  <small>Citováno: [EA-1.6.2 Vzorec epistemický trojský kůň](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)</small>
 - Michaels, D. (2008). *Doubt Is Their Product: How Industry's Assault on Science Threatens Your  
   <small>Citováno: [Historický případ: Manipulace tabákovým průmyslem](@/kompendium/historical-cases/25-tobacco-doubt.md)</small>
 - Michaels, D. (2008). *Doubt Is Their Product: How Industry's Assault on Science Threatens Your Health*. Oxford University Press.  
@@ -7260,7 +7276,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Oreskes, N. (2019). *Why Trust Science?* Princeton University Press.  
   <small>Citováno: [7.12 Feyerabend: Anti-Method a epistemický anarchismus](@/kompendium/07-teoreticke-reflexe/feyerabend-anti-method.md)</small>
 - Oreskes, N., a Conway, E. M. (2010). *Merchants of Doubt*. Bloomsbury Press.  
-  <small>Citováno: [Případ 05: Vědecká disinflation](@/kompendium/case-studies/05-vedecka-disinflation.md), [Případ 68: Kult think-tanku](@/kompendium/case-studies/68-think-tank-cult.md)</small>
+  <small>Citováno: [Případ 05: Vědecká disinflation](@/kompendium/case-studies/05-vedecka-disinflation.md), [Případ 68: Kult think-tanku](@/kompendium/case-studies/68-think-tank-cult.md), [EA-1.6.2 Vzorec epistemický trojský kůň](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)</small>
 - Oreskes, N., & Conway, E. M. (2010). *Merchants of Doubt*.  
   <small>Citováno: [Due diligence: narativní válka kolem firem a transakcí](@/kompendium/cross-domain/14-ea-dd-narrative-warfare.md), [Compliance: rozpoznání regulatorního zajetí](@/kompendium/cross-domain/30-ea-compliance-regulatory-capture-detection.md), [OSINT: injekce narativu do informačního prostředí](@/kompendium/cross-domain/7-ea-osint-narrative-injection.md) a 8 dalších</small>
 - Oreskes, N., & Conway, E. M. (2010). *Merchants of Doubt*. Bloomsbury.  
@@ -7554,6 +7570,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Detekční signatura: Asymetrické odhalování](@/kompendium/detection-signatures/15-behavioral-asymmetric-disclosure.md)</small>
 - Pettigrew, R. (2016). *Transformative experience and decision theory*. Philosophy and Phenomenological Research.  
   <small>Citováno: [Transformative experience (transformativní zkušenost)](@/glossary/transformative-experience.md)</small>
+- Petty, R. E. a Cacioppo, J. T. (1986). *Communication and Persuasion: Central and  
+  <small>Citováno: [EA-1.6.2 Vzorec epistemický trojský kůň](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)</small>
 - Petty, R. E., & Cacioppo, J. T. (1984). *The effects of involvement on responses to argument quantity and quality*. Journal of Personality and Social Psychology.  
   <small>Citováno: [Gish Gallop (Gishův cval)](@/glossary/gish-gallop.md)</small>
 - Petty, R. E., & Cacioppo, J. T. (1986). *Communication and Persuasion: Central and Peripheral Routes to Attitude Change*. New York: Springer.  
@@ -8617,6 +8635,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Motte and bailey (tvrz a předhradí)](@/glossary/motte-and-bailey.md)</small>
 - Shackel, N. (2005). The vacuity of postmodernist methodology. *Metaphilosophy*, 36.  
   <small>Citováno: [Dekonstruktivní hyperkaskáda](@/glossary/dekonstruktivni-hyperkaskada.md)</small>
+- Shackel, N. (2005). The vacuity of postmodernist methodology. *Metaphilosophy*, 36(3).  
+  <small>Citováno: [EA-1.6.2 Vzorec epistemický trojský kůň](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)</small>
 - Shackel, N. (2005). The Vacuity of Postmodernist Methodology. *Metaphilosophy*, 36(3), 295–320.  
   <small>Citováno: [Motte and bailey – střídání obhajitelného a odvážného tvrzení](@/kompendium/05-ultramari-techniky/motte-bailey.md), [Detekční signatura: Odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md), [Detekční signatura: Motte and bailey](@/kompendium/detection-signatures/motte-bailey.md) a 2 dalších</small>
 - Shadish, W. R., Cook, T. D., Campbell, D. T. (2002). *Experimental and Quasi-Experimental Designs for Generalized Causal Inference.*  

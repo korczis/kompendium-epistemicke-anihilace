@@ -18,6 +18,10 @@ zpochybní celou knihu. Generovaný text má sklon zdroje dotvářet; proto je p
 
 # Required behaviour
 
+- Klinický údaj (trvání terapie, počet nebo podíl sezení, míra úspěšnosti či relapsu, práh
+  klinického skóre) stojí jen v odstavci, položce nebo řádku tabulky s citací autor–rok; bez
+  pramene ho nahradí oznamovací věta, že kniha údaj neuvádí (ADR 0010, ADR 0012). Hlídá to
+  požadavek `clinical-figure` v `scripts/check-ia.py` (`test/cases/24_clinical_figure.sh`).
 - Literatura: autor, rok a název jen u děl, o kterých je jisté, že existují a říkají to, co
   jim text připisuje (např. Lifton 1961, Herman 1992, Stark 2007, Fricker 2007, Freyd 1996).
 - Právo: číslo zákona nebo paragrafu jen tam, kde je jisté; jinak obecný popis institutu.

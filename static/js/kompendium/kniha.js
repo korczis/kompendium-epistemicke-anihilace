@@ -64,7 +64,7 @@
   }
 
   function fold(s) {
-    return String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    return window.KompendiumJadro.normalise(String(s || ''));
   }
 
   // Cesta tak, jak ji Zola zapíše na web (slugify: malá písmena, bez diakritiky, ostatní znaky

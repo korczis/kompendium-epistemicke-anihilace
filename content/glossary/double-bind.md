@@ -14,142 +14,186 @@ difficulty = "intermediate"
 importance = "high"
 date_updated = "2026-11-10"
 related_terms = ["gaslighting", "pragmaticka-kompetence", "epistemicke-trauma", "identity-destruction", "reality-testing"]
-keywords = ["double bind", "dvojná vazba", "Bateson", "skupina z Palo Alto", "schizofrenie", "manipulace", "bezvýchodná situace", "teorie komunikace"]
+keywords = ["double bind", "dvojná vazba", "Bateson", "skupina z Palo Alto", "metakomunikace", "teorie komunikace"]
 key_takeaway = "Dvojná vazba není jen rozpor – je to rozpor spolu se zákazem rozpor pojmenovat. Donucující síla pasti nepochází ze samotného konfliktu, ale z metapravidla, které brání úniku."
 +++
 
 ## Definice
 
-**Double bind** (česky *dvojná vazba* nebo *dvojná past*) je komunikační vzorec, který
-formulovali Gregory Bateson a skupina z Palo Alto (Bateson, Jackson, Haley, Weakland,
-1956). Má tyto strukturální znaky:
+**Double bind** (česky *dvojná vazba*) je komunikační vzorec, který formulovali Gregory Bateson
+a jeho spolupracovníci z Palo Alta. Jeho stavba má podle původní práce šest složek: dvě nebo
+více osob v citově důležitém vztahu; opakovanou, nikoli jednorázovou zkušenost; primární
+příkaz, obvykle slovní; sekundární příkaz na jiné logické úrovni, který je s prvním v rozporu a
+bývá neverbální; terciární příkaz, který zakazuje situaci opustit i rozpor komentovat; a konečně
+stav, kdy příjemce očekává dvojné vazby i tam, kde nejsou (Bateson a kol., 1956).
 
-1. dvě nebo více osob v citově důležitém vztahu;
-2. opakovaná zkušenost, nikoli jednorázová událost;
-3. **primární příkaz**, obvykle slovní („udělej X“);
-4. **sekundární příkaz** na jiné logické úrovni, který je s prvním v rozporu („nedělej X“),
-   často neverbální – tón, výraz obličeje, řeč těla;
-5. **terciární příkaz**, který zakazuje opustit situaci, včetně zákazu komentovat rozpor
-   („nevšímej si pasti“);
-6. časem si příjemce osvojí očekávání dvojných vazeb natolik, že je vnímá i tam, kde
-   nejsou.
+Rozhodující složkou je terciární příkaz. Lidé zvládají rozpory běžně tím, že je pojmenují;
+donucující sílu vytváří až zákaz pojmenování spolu se závislostí na vztahu, která brání odejít
+(Bateson a kol., 1956). Klasickým příkladem je výzva „buď spontánní!“, kterou lze splnit jen
+tím, že se nesplní (Watzlawick a kol., 1967).
+
+Pořadí složek popisuje stavbu vzorce tak, aby jej pozorovatel poznal; není postupem.
 
 ## Původ a kontext pojmu
 
-Bateson původně formuloval *teorii dvojné vazby jako příčiny schizofrenie* – hypotézu, že
-dlouhodobé vystavení dvojným vazbám v rodinném systému přispívá ke vzniku schizofrenie.
-Jako vysvětlení vzniku psychózy se hypotéza nepotvrdila a byla opuštěna. Klinické
-a komunikační uplatnění rámce však přetrvalo a rozšířilo se: na manipulativní vzorce
-v partnerských vztazích, na toxické vedení, na náboženské kulty (Hassan; Liftonova analýza
-myšlenkové reformy) a na dysfunkční firemní kultury a organizační obranné rutiny (Argyris
-1990). Teorii komunikace na ní vystavěli Watzlawick, Beavinová a Jackson (*Pragmatics of
-Human Communication*, 1967). Terapeutické využití rozvinula milánská škola rodinné terapie
-(Selvini Palazzoliová a kol., *Paradox and Counterparadox*, 1978).
+Bateson se spolupracovníky formulovali pojem v rámci hypotézy o vzniku schizofrenie:
+dlouhodobé vystavení dvojným vazbám v rodinném systému mělo přispívat k rozvoji nemoci
+(Bateson a kol., 1956). Jako etiologické vysvětlení se hypotéza nepotvrdila – Olson shrnul, že
+výzkum neposkytl oporu pro příčinný vztah a že pojem je nutné přeformulovat jako popis
+komunikace, nikoli jako teorii vzniku psychózy (Olson, 1972). Kniha proto pracuje jen s touto
+komunikační četbou pojmu.
+
+Komunikační linie se naopak udržela a rozvinula. Watzlawick, Beavinová a Jackson na ní
+vystavěli pragmatiku lidské komunikace a zavedli rozlišení obsahové a vztahové úrovně sdělení,
+na němž celý pojem stojí (Watzlawick a kol., 1967). Terapeutické využití rozpracovala milánská
+škola rodinné terapie, která na paradoxní uspořádání odpovídala promyšleným protiparadoxem
+(Selvini Palazzoli, 1978).
+
+Rámec se rozšířil i na prostředí mimo rodinu. Lifton popsal v totalistických prostředích
+uspořádání, v němž je vyžadována upřímnost a zároveň trestán nesouhlas (Lifton, 1961); na to
+navázala poradenská literatura o uzavřených skupinách (Hassan, 1988). Argyris popsal obdobné
+uspořádání v organizacích jako obranné rutiny, které zakazují mluvit o tom, co všichni vidí
+(Argyris, 1990).
 
 ## Jak se projevuje
 
-**Typické podoby:**
+Typickou podobou je rozpor mezi slovem a chováním u téhož člověka: rodič říká „mám tě rád“
+a při objetí se odtahuje, a když to dítě zmíní, je obviněno, že si vymýšlí. Watzlawick se
+spolupracovníky popsali právě tuto kombinaci obsahové a vztahové úrovně jako zdroj
+neřešitelnosti (Watzlawick a kol., 1967).
 
-- „Buď spontánní!“ – příkaz, který lze splnit jen tím, že se nesplní;
-- člen skupiny je veřejně chválen za nezávislé myšlení, ale v praxi trestán za nesouhlas
-  s vůdcem;
-- nadřízený vyzývá k odvážným návrhům, a když je někdo předloží, je vnímán jako hrozba;
-- rodič říká „mám tě rád“ a přitom se při objetí odtahuje; když to dítě zmíní, je
-  obviněno, že si vymýšlí.
+Druhou podobou je organizační varianta: nadřízený vyzývá k odvážným návrhům a toho, kdo je
+předloží, vnímá jako hrozbu. Argyris doložil, že takové rutiny jsou samy chráněny
+nevyslovitelností – mluvit o nich se stává dalším porušením pravidla (Argyris, 1990).
 
-**U zasaženého:**
+Třetí podobou je skupinová varianta: člen je veřejně chválen za nezávislé myšlení a v praxi
+trestán za nesouhlas s vůdcem. Lifton tento rozpor zařadil mezi znaky totalistického prostředí
+(Lifton, 1961).
 
-- ochromení, nejistota, jak se zachovat;
-- úzkost při jakékoli volbě; paradoxní úzkost ve chvíli, kdy dostane skutečnou svobodu
-  volby;
-- naučená bezmoc, stažení z komunikace;
-- pochybnosti o vlastním vnímání, protože rozpor nesmí být pojmenován.
+U zasaženého se objevuje ochromení, úzkost při jakékoli volbě, a paradoxně i úzkost ve chvíli,
+kdy dostane skutečnou volbu. Dlouhodobě se přidává stažení z komunikace a pokles snahy jednat,
+což odpovídá tomu, co Maier a Seligman popsali jako důsledek opakované zkušenosti
+nekontrolovatelnosti (Maier a Seligman, 1976).
 
-## Mechanismus
+Čtvrtým znakem je pochybnost o vlastním vnímání, protože rozpor nesmí být pojmenován. Abramson
+ukazuje, že tento účinek je jádrem gaslightingu: dotyčný přestává být z vlastního pohledu
+oprávněným mluvčím o tom, co se děje (Abramson, 2014).
 
-Dvojná vazba působí na **třech vrstvách současně**: propoziční obsah (co se říká),
-metakomunikační vrstva (jak se to říká – tón, formát, chování) a terciární pravidlo
-(zákaz mluvit o pasti). Donucující sílu nevytváří samotný rozpor; lidé zvládají rozpory
-běžně tím, že je pojmenují. Sílu vytváří **metapravidlo, které pojmenování znemožňuje**,
-spolu se závislostí na vztahu, která brání odejít. Zasažený tak nemůže ani vyhovět, ani
-odmítnout, ani situaci komentovat – a postupně ztrácí důvěru v to, že vnímá správně.
+## Mechanismus, jak jej zdroje nesou
 
-Detekce v komunikačních záznamech (chat, e-mail, přepis rozhovoru) proto vyžaduje analýzu
-všech tří vrstev současně. Kontrola jediné vrstvy (například pouze textového obsahu) vzorec
-soustavně přehlédne.
+Vzorec působí na třech vrstvách současně: na propozičním obsahu, na metakomunikační vrstvě, jíž
+je tón, formát a chování, a na terciárním pravidle, které mluvení o pasti zakazuje (Bateson
+a kol., 1956). Watzlawick se spolupracovníky z toho vyvodili praktický důsledek: nelze
+nekomunikovat a každé sdělení nese zároveň výpověď o vztahu, takže rozpor mezi vrstvami je
+sdělitelný i bez jediného nepravdivého slova (Watzlawick a kol., 1967).
+
+Z toho plyne i požadavek na detekci v záznamech komunikace. Rozbor, který se omezí na textový
+obsah, vzorec soustavně přehlédne, protože rozhodující část nese formát a sled jednání; že je
+proto nutné zkoumat všechny tři vrstvy zároveň, plyne přímo z původní formulace (Bateson a kol.,
+1956).
+
+Pro dlouhodobý následek nabízí nejlepší oporu literatura o nekontrolovatelnosti: tam, kde žádná
+odpověď nevede k předvídatelnému výsledku, snižuje se snaha odpovídat vůbec (Maier a Seligman,
+1976). Že právě tímto mechanismem přechází dvojná vazba v trvalou bezmoc, je *interpretace
+knihy*.
 
 ## Odlišení
 
-- **Běžný rozpor nebo nejasné zadání.** Lze o něm mluvit a vyjasnit jej; chybí terciární
-  zákaz a citová závislost.
-- **Dilema.** Volba mezi dvěma špatnými možnostmi; obě možnosti jsou ale na stejné logické
-  úrovni a o volbě lze mluvit.
-- **[Gaslighting](@/glossary/gaslighting.md).** Útočí přímo na vnímání reality; dvojná vazba
-  vytváří bezvýchodnou situaci. Často se kombinují.
-- **[Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md).** Argumentační
-  technika zúžení možností; dvojná vazba je vztahová struktura.
+Od běžného rozporu nebo nejasného zadání se dvojná vazba liší přítomností terciárního zákazu
+a citové závislosti: nejasné zadání lze vyjasnit otázkou, zde je otázka sama porušením pravidla
+(Bateson a kol., 1956).
 
-## Význam pro Kompendium
+Od dilematu se liší logickou úrovní. Dilema je volba mezi dvěma špatnými možnostmi na téže
+úrovni a o volbě lze mluvit; v dvojné vazbě jsou příkazy na různých úrovních a mluvit o nich
+nelze (Watzlawick a kol., 1967).
 
-Dvojná vazba je **strukturně diagnosticky klíčový manipulační vzorec** s vysokým výskytem
-v násilných vztazích, kultech, autoritářských pracovních prostředích a v některých
-rodinných systémech. Při prověrce organizace s vysokou mírou kontroly je rozpoznání dvojné
-vazby silným ukazatelem, že se podaří odhalit i strukturu [coercive
-control](@/glossary/coercive-control.md). Praktická uplatnění:
+Od [gaslightingu](@/glossary/gaslighting.md) se liší cílem: gaslighting útočí přímo na
+věrohodnost vnímání dotyčného (Abramson, 2014), kdežto dvojná vazba vytváří bezvýchodnou
+situaci; oba vzorce se často kombinují.
 
-1. **Analýza komunikace v podezřele kultovní organizaci** hledá vzorec veřejné chvály za
-   nezávislost a skrytého trestu za nesouhlas – klasickou dvojnou vazbu kombinující slovní
-   a behaviorální vrstvu (srov. [High Control Group](@/glossary/high-control-group.md)).
-2. **Hodnocení vedení v cílové firmě při akvizici:** dysfunkční vedoucí často působí
-   v režimu dvojné vazby; odhalí ji zpětná vazba 360° a rozhovory s kolegy.
-3. **Klinický rozhovor s ohledem na trauma:** u člověka po dlouhodobém vystavení dvojným
-   vazbám se projevuje naučená bezmoc; intervence vyžaduje pomalou obnovu vlastní
-   [epistemické agentnosti](@/glossary/epistemicka-agentnost.md).
-4. **Forenzní psycholingvistika:** textová analýza e-mailů a zpráv v případech domácího
-   násilí často odhalí soustavné vzorce dvojné vazby ze strany pachatele.
+Od [falešného dilematu](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) se liší povahou:
+falešné dilema je argumentační zúžení možností, dvojná vazba je vztahová struktura udržovaná
+v čase (Bateson a kol., 1956).
 
-Vzorec vysvětluje i [epistemické trauma](@/glossary/epistemicke-trauma.md) jako kumulativní
-poškození a oslabení [testování reality](@/glossary/reality-testing.md).
+## Význam pro Kompendium, klinický a etický rámec
+
+V knize je dvojná vazba vzorcem s vysokým výskytem v násilných vztazích, v uzavřených skupinách
+a v autoritářských pracovních prostředích. Pro posouzení prostředí je užitečná tím, že ukazuje
+na strukturu kontroly i tam, kde chybí jednotlivý zjevný útok – tedy na totéž, co Stark
+popisuje jako nátlakovou kontrolu postihující vzorec jednání, nikoli incidenty (Stark, 2007).
+
+V klinické práci je východiskem, že u člověka po dlouhodobém vystavení vzorci převládá bezmoc,
+a nikoli nedostatek porozumění; intervence proto začíná obnovou zkušenosti, že jednání má
+předvídatelný následek (Maier a Seligman, 1976). V knize na to navazuje pojem [epistemické
+agentnosti](@/glossary/epistemicka-agentnost.md).
+
+Eticky je podstatné, že pojem nelze vztahovat na každý rozpor v komunikaci. Právě přetažení
+pojmu bylo důvodem, pro nějž byla jeho etiologická verze odmítnuta (Olson, 1972); kniha jej
+proto užívá jen tam, kde lze ukázat i zákaz pojmenování. Vzorec dále vysvětluje [epistemické
+trauma](@/glossary/epistemicke-trauma.md) jako kumulativní poškození a oslabení [testování
+reality](@/glossary/reality-testing.md).
 
 ## Obrana a zotavení
 
-- **Pojmenovat past:** už samotné vyslovení „dostávám dva protichůdné pokyny“ porušuje
-  terciární pravidlo a vrací kontrolu (viz [Asertivní
-  komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md)).
-- **Vystoupit z rámce:** hledat třetí osobu mimo vztah, která potvrdí, co se děje.
-- **Pro terapeuta:** pracovat s [pragmatickou kompetencí](@/glossary/pragmaticka-kompetence.md)
-  – schopností rozlišit úrovně sdělení; milánská škola využívá terapeutický protiparadox.
-- **V organizaci:** jasná pravidla, bezpečné kanály pro nesouhlas, [psychologické
-  bezpečí](@/kompendium/organizational-defense/16-psychological-safety.md).
+Nejpřímější obranou je pojmenování pasti: už vyslovení „dostávám dvě protichůdná zadání“
+porušuje terciární pravidlo a vrací zasaženému postavení mluvčího (Watzlawick a kol., 1967).
+Praktickou podobu má [asertivní
+komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md).
+
+Druhou obranou je vystoupení z rámce – vyhledání člověka mimo vztah, který potvrdí, co se děje;
+odnětí tohoto vnějšího srovnání je v nátlakové kontrole rozhodující (Stark, 2007).
+
+Pro terapeuta je užitečná práce s [pragmatickou
+kompetencí](@/glossary/pragmaticka-kompetence.md), tedy se schopností rozlišit úrovně sdělení;
+milánská škola k tomu užívala terapeutický protiparadox, který klientovi odnímá nutnost volit
+mezi dvěma nemožnými odpověďmi (Selvini Palazzoli, 1978).
+
+V organizaci jsou doloženým opatřením jasná pravidla a bezpečné kanály pro nesouhlas.
+Edmondsonová prokázala, že psychologické bezpečí v týmu předpovídá ochotu mluvit o chybách
+a nesouhlasu (Edmondson, 1999); rámec rozvádí [psychologické
+bezpečí](@/kompendium/organizational-defense/16-psychological-safety.md).
+
+## Meze a kritika
+
+Hlavní výhradou je obtížná falzifikovatelnost. Vzorec se pozná až z opakování a z kontextu,
+takže téměř každý konflikt lze při dostatečné volnosti výkladu jako dvojnou vazbu popsat; právě
+tato pružnost vedla k odmítnutí etiologické verze (Olson, 1972).
+
+Druhou výhradou je přenositelnost. Původní popis vznikl v rodinném kontextu (Bateson a kol.,
+1956) a jeho rozšíření na organizace je analogií, jejíž oporou jsou pozorování obranných rutin
+(Argyris, 1990), nikoli srovnávací studie obou prostředí.
+
+Otevřenou otázkou zůstává, nakolik je dvojná vazba samostatným mechanismem, a nakolik
+popisným jménem pro součin nekontrolovatelnosti (Maier a Seligman, 1976) a zpochybňované
+věrohodnosti (Abramson, 2014).
 
 ## Literatura
 
-- Gregory Bateson, Don D. Jackson, Jay Haley, John Weakland: „Toward a Theory of
-  Schizophrenia“, *Behavioral Science* (1956).
-- Paul Watzlawick, Janet Beavin, Don D. Jackson: *Pragmatics of Human Communication* (1967).
-- Robert Jay Lifton: *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* (1961).
-- Steven Hassan: *Combatting Cult Mind Control* (1988; pozdější rozšířená vydání).
-- Mara Selvini Palazzoli a kol.: *Paradox and Counterparadox* (1978).
-- Chris Argyris: *Overcoming Organizational Defenses* (1990).
+- Abramson, K. (2014). *Turning up the lights on gaslighting*. Philosophical Perspectives.
+- Argyris, C. (1990). *Overcoming Organizational Defenses*. Allyn & Bacon.
+- Bateson, G., Jackson, D. D., Haley, J., & Weakland, J. (1956). *Toward a theory of schizophrenia*. Behavioral Science.
+- Edmondson, A. (1999). *Psychological safety and learning behavior in work teams*. Administrative Science Quarterly.
+- Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. Norton.
+- Maier, S. F., & Seligman, M. E. P. (1976). *Learned helplessness: Theory and evidence*. Journal of Experimental Psychology: General.
+- Olson, D. H. (1972). *Empirically unbinding the double bind: A review of research and conceptual reformulations*. Family Process.
+- Selvini Palazzoli, M., Boscolo, L., Cecchin, G., & Prata, G. (1978). *Paradox and Counterparadox*. Jason Aronson.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
+- Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. Norton.
 
 ## Související
 
 **Pojmy**
 
-- [Gaslighting](@/glossary/gaslighting.md) – příbuzný vzorec útočící na vnímání reality.
-- [Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md) – jazyková schopnost
-  potřebná k rozpoznání dvojné vazby.
-- [Epistemické trauma](@/glossary/epistemicke-trauma.md) – kumulativní poškození
-  z chronického vystavení.
-- [Identity Destruction](@/glossary/identity-destruction.md) – koercivní kontext, v němž
-  dvojná vazba působí.
-- [Reality Testing](@/glossary/reality-testing.md) – funkce, kterou dvojná vazba oslabuje.
-- [Coercive Control](@/glossary/coercive-control.md) – vztahový režim, v němž se vzorec
-  často objevuje.
+- [Gaslighting](@/glossary/gaslighting.md) – příbuzný vzorec útočící na věrohodnost vnímání.
+- [Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md) – schopnost rozlišit úrovně sdělení.
+- [Epistemické trauma](@/glossary/epistemicke-trauma.md) – kumulativní poškození z chronického vystavení.
+- [Identity destruction](@/glossary/identity-destruction.md) – koercivní kontext, v němž vzorec působí.
+- [Reality testing](@/glossary/reality-testing.md) – funkce, kterou vzorec oslabuje.
+- [Coercive control](@/glossary/coercive-control.md) – vztahový režim, v němž se vzorec objevuje.
+- [Epistemická agentnost](@/glossary/epistemicka-agentnost.md) – to, co je třeba obnovit.
 
 **Obrana**
 
-- [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md)
-  – jak past pojmenovat.
-- [Psychologické bezpečí](@/kompendium/organizational-defense/16-psychological-safety.md) –
-  prevence v organizacích.
+- [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) – jak past pojmenovat.
+- [Psychologické bezpečí](@/kompendium/organizational-defense/16-psychological-safety.md) – prevence v organizacích.

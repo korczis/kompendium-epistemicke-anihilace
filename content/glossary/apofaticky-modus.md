@@ -7,6 +7,7 @@ description = "Způsob mluvení a myšlení, který o předmětu vypovídá jen 
 tags = ["glossary", "philosophy", "epistemic", "kompendium"]
 
 [extra]
+aliases = ["Apofatie epistemická"]
 category = "philosophy"
 related_terms = ["apofatika", "via-negativa", "kataphasis", "epistemicka-staze", "mysticky-prozitek", "epistemicka-pokora"]
 author = "Tomas Korcak (korczis)"

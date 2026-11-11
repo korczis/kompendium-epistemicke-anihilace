@@ -25,7 +25,7 @@
       },
       {
         "code": "EA-5.1.13",
-        "in": 51,
+        "in": 52,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-13-hyperreflexivita.md",
         "tier": 4,
@@ -85,7 +85,7 @@
       },
       {
         "code": "EA-5.1.19",
-        "in": 18,
+        "in": 19,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md",
         "tier": 4,

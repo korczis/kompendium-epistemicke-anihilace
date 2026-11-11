@@ -8,6 +8,7 @@ description = "Narušení schopnosti reflektovat vlastní myšlení a řídit vl
 tags = ["glossary", "epistemic", "kompendium", "anihilacni-fenomeny"]
 
 [extra]
+aliases = ["Absolutní epistemická anti-reflexivita"]
 category = "epistemic"
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "kognitivni-anti-rekurzivita", "epistemicka-alienace", "metakognice", "kognitivni-depersonalizace"]
 author = "Tomáš Korcak (korczis)"

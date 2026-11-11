@@ -17,10 +17,10 @@
     "static/data/viz-deps.json"
    ],
    "generic_views": {
-    "viz/okoli": 311
+    "viz/okoli": 326
    },
    "libraries": [],
-   "pages": 312,
+   "pages": 327,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -100,14 +100,14 @@
    ],
    "status": "covered",
    "templates": {
-    "glossary/detail.html": 311,
+    "glossary/detail.html": 326,
     "glossary/list.html": 1
    },
    "views": {
     "chart-inline": 1,
     "mermaid": 1,
     "viz/glosar": 1,
-    "viz/kontext": 311,
+    "viz/kontext": 326,
     "viz/teorie-pojmy": 1
    }
   },

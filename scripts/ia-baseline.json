@@ -146,9 +146,6 @@
  "bold:dokumentovany-duvod": [
   "bold-candidate"
  ],
- "bold:dokumentovat": [
-  "bold-candidate"
- ],
  "bold:dostupnost": [
   "bold-candidate"
  ],
@@ -158,19 +155,10 @@
  "bold:dramaticky-pokles": [
   "bold-candidate"
  ],
- "bold:ea-x-y-z": [
-  "bold-candidate"
- ],
- "bold:eideticka-redukce": [
-  "bold-candidate"
- ],
  "bold:emdr": [
   "bold-candidate"
  ],
  "bold:epistemicke-singularity": [
-  "bold-candidate"
- ],
- "bold:epistemicky": [
   "bold-candidate"
  ],
  "bold:epistemologie": [
@@ -218,9 +206,6 @@
  "bold:gad-7": [
   "bold-candidate"
  ],
- "bold:globalni": [
-  "bold-candidate"
- ],
  "bold:gradualni-expozice": [
   "bold-candidate"
  ],
@@ -228,9 +213,6 @@
   "bold-candidate"
  ],
  "bold:hermeneuticka-nespravedlnost": [
-  "bold-candidate"
- ],
- "bold:horizont": [
   "bold-candidate"
  ],
  "bold:hranice": [
@@ -282,9 +264,6 @@
   "bold-candidate"
  ],
  "bold:interpretacni-ramec": [
-  "bold-candidate"
- ],
- "bold:intersubjektivita": [
   "bold-candidate"
  ],
  "bold:intervenci": [
@@ -339,9 +318,6 @@
   "bold-candidate"
  ],
  "bold:klinicke-nerozhodnosti": [
-  "bold-candidate"
- ],
- "bold:klise-ukoncujici-mysleni": [
   "bold-candidate"
  ],
  "bold:kognitivni-imploze": [
@@ -405,9 +381,6 @@
   "bold-candidate"
  ],
  "bold:l2-analyticke-porozumeni": [
-  "bold-candidate"
- ],
- "bold:legitimni": [
   "bold-candidate"
  ],
  "bold:legitimni-filozoficka-paradoxologie": [
@@ -674,9 +647,6 @@
  "bold:prostredi": [
   "bold-candidate"
  ],
- "bold:proto-self": [
-  "bold-candidate"
- ],
  "bold:provenance-mandatory": [
   "bold-candidate"
  ],
@@ -851,9 +821,6 @@
  "bold:supervidovana-intervence": [
   "bold-candidate"
  ],
- "bold:svedci": [
-  "bold-candidate"
- ],
  "bold:system-2": [
   "bold-candidate"
  ],
@@ -875,9 +842,6 @@
  "bold:terminalni-protokoly": [
   "bold-candidate"
  ],
- "bold:terminalni-stav": [
-  "bold-candidate"
- ],
  "bold:terminologicka-mystifikace": [
   "bold-candidate"
  ],
@@ -896,13 +860,7 @@
  "bold:triangulace": [
   "bold-candidate"
  ],
- "bold:tvrzeni": [
-  "bold-candidate"
- ],
  "bold:udrzuje": [
-  "bold-candidate"
- ],
- "bold:univerzalni": [
   "bold-candidate"
  ],
  "bold:unknown-valid": [
@@ -960,12 +918,6 @@
   "bold-candidate"
  ],
  "bold:vyklad": [
-  "bold-candidate"
- ],
- "bold:vyroba-pochybnosti": [
-  "bold-candidate"
- ],
- "bold:vyvraceni": [
   "bold-candidate"
  ],
  "bold:vyznam": [
@@ -1126,19 +1078,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/betrayal-trauma.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bold-term"
- ],
- "content/glossary/bite-model.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/black-team.md": [
   "bullets",
   "citations"
@@ -1153,23 +1092,11 @@
   "bullets",
   "citations"
  ],
- "content/glossary/body-schema.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/bounded-context.md": [
   "bullets",
   "citations",
   "bibliography",
   "citation-unresolved"
- ],
- "content/glossary/c-ptsd.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
  ],
  "content/glossary/category-mistake.md": [
   "detail",
@@ -1178,12 +1105,6 @@
   "citations"
  ],
  "content/glossary/censys.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/chain-of-custody.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
@@ -1224,18 +1145,6 @@
   "citations",
   "bold-term"
  ],
- "content/glossary/compliance-framework.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/core-consciousness.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/cynicky-rozum.md": [
   "detail",
   "weak-link",
@@ -1243,29 +1152,11 @@
   "citations",
   "bold-term"
  ],
- "content/glossary/darvo.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/decision-core.md": [
   "bullets",
   "citations"
  ],
  "content/glossary/decision-engine.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/deepfake.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/default-mode-network.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
@@ -1276,12 +1167,6 @@
   "citations",
   "bold-term"
  ],
- "content/glossary/depersonalizace.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/deplatforming.md": [
   "detail",
   "weak-link",
@@ -1289,12 +1174,6 @@
   "citations"
  ],
  "content/glossary/des-ii.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/diferenciace.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -1324,13 +1203,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/disociace.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bold-term"
- ],
  "content/glossary/dissociativni-amnezie.md": [
   "detail",
   "weak-link",
@@ -1341,19 +1213,7 @@
   "bullets",
   "citations"
  ],
- "content/glossary/double-bind.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/doubling.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/doxing.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -1376,30 +1236,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/edukativni-implementace.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/ego-death.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/elder-abuse.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/embodied-cognition.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/emocionalni-terorismus.md": [
   "detail",
   "weak-link",
@@ -1411,29 +1247,11 @@
   "citations",
   "bold-term"
  ],
- "content/glossary/epistemic-bubble.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/epistemic-pipeline.md": [
   "citations",
   "bold-term"
  ],
- "content/glossary/epistemic-security.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/epistemicka-agentnost.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/epistemicka-alienace.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -1445,25 +1263,7 @@
   "bullets",
   "citations"
  ],
- "content/glossary/epistemicka-injustice.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/epistemicka-komunita.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/epistemicka-monokultura.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/epistemicka-pokora.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -1493,13 +1293,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/epistemicke-trauma.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bold-term"
- ],
  "content/glossary/epistemicke-zakladny.md": [
   "detail",
   "weak-link",
@@ -1507,18 +1300,6 @@
   "citations"
  ],
  "content/glossary/epistemicky-monismus.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/epoche.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/evidence-based.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -1537,31 +1318,7 @@
   "citations",
   "bold-term"
  ],
- "content/glossary/falsifikace.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/falsifikovatelnost.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/fenomen.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/fenomenologie.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/firehose-of-falsehood.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -1590,19 +1347,7 @@
   "bullets",
   "citations"
  ],
- "content/glossary/gaslighting.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/gestalt-shift.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/gish-gallop.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -1673,12 +1418,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/hermeneutika.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/heuristika.md": [
   "detail",
   "weak-link",
@@ -1715,12 +1454,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/iatrogenic-harm.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/ideal-speech-situation.md": [
   "detail",
   "weak-link",
@@ -1739,23 +1472,11 @@
   "bullets",
   "citations"
  ],
- "content/glossary/individual-risk-map.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/inference.md": [
   "bullets",
   "citations"
  ],
  "content/glossary/infinitni-regress.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/info-ops.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -1777,24 +1498,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/intentionalita.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/internalizovany-pachatel.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/interocepce.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/introjekce.md": [
   "detail",
   "weak-link",
@@ -1802,12 +1505,6 @@
   "citations"
  ],
  "content/glossary/ipseita.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/irb-review.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -1835,18 +1532,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/kognitivni-anihilace.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/kognitivni-anti-rekurzivita.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/kognitivni-bias.md": [
   "detail",
   "weak-link",
@@ -1865,12 +1550,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/kompendium-ea.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/konceptualni-anihilace.md": [
   "detail",
   "weak-link",
@@ -1878,12 +1557,6 @@
   "citations"
  ],
  "content/glossary/konfabulace.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/konfirmacni-bias.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -1913,25 +1586,7 @@
   "bullets",
   "citations"
  ],
- "content/glossary/lakatos-vyzkumny-program.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/lebenswelt.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/liaruv-paradox.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/loading-the-language.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -1944,12 +1599,6 @@
   "citations"
  ],
  "content/glossary/logicka-koherence.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/love-bombing.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -1978,12 +1627,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/metakognice.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/metakognitivni-deficit.md": [
   "detail",
   "weak-link",
@@ -1997,19 +1640,7 @@
   "bullets",
   "citations"
  ],
- "content/glossary/milieu-control.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/modalni-logika.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/motte-and-bailey.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -2031,25 +1662,7 @@
   "bullets",
   "citations"
  ],
- "content/glossary/narativni-identita.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/narativni-terapie.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/narativni-topologie.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/narrative-identity.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -2065,12 +1678,6 @@
   "bullets",
   "citations",
   "bold-term"
- ],
- "content/glossary/newspeak.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
  ],
  "content/glossary/nm-nd.md": [
   "bullets",
@@ -2097,12 +1704,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/ontologicka-anihilace.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/operativni-artikulace.md": [
   "detail",
   "weak-link",
@@ -2110,12 +1711,6 @@
   "citations"
  ],
  "content/glossary/osint.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/panopticism.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
@@ -2129,19 +1724,7 @@
   "bullets",
   "citations"
  ],
- "content/glossary/paralysis-by-analysis.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/parental-alienation.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/pasivni-synteza.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -2166,12 +1749,6 @@
   "citations"
  ],
  "content/glossary/pluralismus.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/polyvagalni-teorie.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -2214,19 +1791,7 @@
   "bullets",
   "citations"
  ],
- "content/glossary/propaganda.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/pseudoempaticka-vazba.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/pseudoscience.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -2262,35 +1827,11 @@
   "bullets",
   "citations"
  ],
- "content/glossary/reality-testing.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/red-team.md": [
   "bullets",
   "citations"
  ],
- "content/glossary/redukcionismus.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/regression-test.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/rekurzivni-paralyza.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/replication-crisis.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
@@ -2319,31 +1860,13 @@
   "bullets",
   "citations"
  ],
- "content/glossary/sealioning.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/secure-attachment.md": [
   "detail",
   "weak-link",
   "bullets",
   "citations"
  ],
- "content/glossary/sektarska-konverze.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/self-reference.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/self-report.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -2378,26 +1901,7 @@
   "bullets",
   "citations"
  ],
- "content/glossary/skepticismus.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "citation-unresolved"
- ],
- "content/glossary/socialni-izolace.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/solipsismus.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/spiritual-bypassing.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -2445,24 +1949,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/taxonomie-ea.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/theory-of-mind.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/thought-stopping.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/three-nested-loops.md": [
   "detail",
   "weak-link",
@@ -2470,18 +1956,6 @@
   "citations"
  ],
  "content/glossary/toulmin-model.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/transformative-experience.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/trauma-bonding.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -2495,12 +1969,6 @@
   "bibliography"
  ],
  "content/glossary/trinity-gate.md": [
-  "bullets",
-  "citations"
- ],
- "content/glossary/undue-influence.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],

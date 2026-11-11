@@ -2,7 +2,7 @@
 title = "Epistemická injustice"
 weight = 60
 
-description = "Rámec Mirandy Frickerové: křivda páchaná na člověku jako na nositeli poznání, ve svědectví i ve výkladových zdrojích. Formy, znaky a význam pro Kompendium."
+description = "Rámec Mirandy Frickerové: křivda páchaná na člověku jako na nositeli poznání, ve svědectví i ve výkladových zdrojích. Formy, rozšíření, kritika a význam pro Kompendium."
 
 [taxonomies]
 tags = ["glossary", "epistemic", "kompendium", "philosophy"]
@@ -21,83 +21,210 @@ image_alt = "Epistemická injustice – glosář"
 
 ## Definice
 
-**Epistemická injustice** (*epistemic injustice*, česky též *epistemická nespravedlnost*) je pojem, který zavedla Miranda Frickerová v knize *Epistemic Injustice: Power and the Ethics of Knowing* (2007) pro křivdu, jež je člověku způsobena **právě v jeho roli nositele poznání** – toho, kdo ví, vypovídá a rozumí. Frickerová rozlišuje dvě základní formy.
+**Epistemická injustice** (*epistemic injustice*, česky též *epistemická nespravedlnost*) je
+pojem, který zavedla Miranda Frickerová v knize *Epistemic Injustice: Power and the Ethics of
+Knowing* pro křivdu způsobenou člověku právě v jeho roli nositele poznání – toho, kdo ví,
+vypovídá a rozumí (Fricker, 2007). Nejde o chybu v poznání, nýbrž o nespravedlnost: zasahuje
+schopnost být uznán jako někdo, jehož slovo a porozumění se počítají.
 
-**(1) Svědecká nespravedlnost** (*testimonial injustice*) nastává, když posluchač pod vlivem předsudku vůči identitě mluvčího přizná jeho slovu sníženou míru důvěryhodnosti. Klasickým příkladem je svědectví černošského svědka, které bílá porota podcení, nebo ženina zpráva o bolesti odbytá jako hysterie. Křivda má rozměr **epistemický** (poznání, které se mělo předat, se nepředá) i **etický** (mluvčímu je ukřivděno v jeho důstojnosti rozumné bytosti).
+Frickerová rozlišuje dvě základní formy. Testimoniální nespravedlnost nastává, když
+posluchač pod vlivem předsudku vůči identitě mluvčího přizná jeho výpovědi nižší
+důvěryhodnost, než jaká jí patří; vzniká deficit důvěryhodnosti, který nevychází z obsahu
+výpovědi, ale z toho, kým mluvčí je (Fricker, 2007). Podrobný výklad podává heslo
+[testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md).
 
-**(2) Hermeneutická nespravedlnost** (*hermeneutical injustice*) nastává, když člověku nebo skupině chybějí **pojmové či výkladové zdroje**, jimiž by porozuměli vlastní zkušenosti, protože dominantní kultura příslušné pojmy nevytvořila nebo je aktivně potlačila. Příkladem Frickerové je zkušenost sexuálního obtěžování v době, kdy pro ni ještě neexistovalo jméno: ženy křivdu prožívaly, ale nemohly ji pojmenovat, sdílet ani se domáhat nápravy, protože chyběl sdílený slovník. Křivda je strukturní: nespočívá v předsudku jednotlivého posluchače, ale v **kolektivním hermeneutickém zdroji**.
+Hermeneutická nespravedlnost nastává, když člověku nebo celé skupině chybějí pojmové
+a výkladové zdroje, jimiž by své zkušenosti rozuměli, protože dominantní kultura příslušné
+pojmy nevytvořila nebo je potlačila. Frickerová ji ilustruje zkušeností sexuálního obtěžování
+v době, kdy pro ně ještě neexistovalo jméno: křivda byla prožívána, ale nebyla pojmenovatelná,
+sdělitelná ani vymahatelná (Fricker, 2007). Křivda je zde strukturní, nikoli zaviněná
+jednotlivým posluchačem; podmínku jejího vzniku popisuje heslo [hermeneutická
+marginalizace](@/glossary/hermeneuticka-marginalizace.md).
 
-Navazující práce (José Medina, Kristie Dotsonová, Gaile Pohlhausová) rámec rozšířily o **přispěvatelskou nespravedlnost** (*contributory injustice* – odmítání použít dostupné alternativní pojmy), **umlčování** (*silencing* – udušení svědectví dřív, než zazní) a **úmyslnou hermeneutickou nevědomost** (*willful hermeneutical ignorance* – aktivní udržování výkladové slepoty privilegovanými).
+Obě formy mají podle Frickerové dvojí dopad: epistemický, protože poznání, které se mělo
+předat, se nepředá, a etický, protože mluvčímu je ukřivděno v něčem, co je pro člověka
+podstatné. Druhou, etickou křivdu považuje za primární (Fricker, 2007).
 
 ## Původ a kontext pojmu
 
-Pojem vznikl v analytické sociální epistemologii a feministické epistemologii. Spojuje dvě otázky, které se dříve zkoumaly odděleně: kdo smí vědět (otázka moci) a jak se poznání předává (otázka svědectví). Frickerová jej staví do kontrastu s klasickou epistemologií, která zkoumala jednotlivce izolovaného od sociálních vztahů. Kompendium jej přebírá ve výkladu [Fricker: epistemická nespravedlnost](@/kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md) a v [sociální epistemologii](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md).
+Pojem vznikl na rozhraní analytické sociální epistemologie a feministické epistemologie.
+Navazuje na filozofii svědectví, která od konce 20. století zdůrazňuje, že většinu svého
+vědění získáváme ze slov druhých, a že důvěra ve svědectví je proto základní epistemickou
+praxí (Coady, 1992). Frickerová k této tradici připojila otázku moci: kdo rozhoduje o tom,
+komu se věří, a jakými předsudky je toto rozhodování zatíženo (Fricker, 2007).
+
+Jako protilék Frickerová navrhuje ctnosti: testimoniální spravedlnost, tedy reflexivní
+ostražitost posluchače vůči vlastnímu předsudku, a hermeneutickou spravedlnost, tedy ochotu
+připustit, že mluvčí popisuje zkušenost, pro niž zatím nemá slovník (Fricker, 2007). Kompendium
+pojem přebírá ve výkladu [Fricker: epistemická
+nespravedlnost](@/kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md) a v kapitole
+[Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md).
+
+## Rozšíření rámce
+
+Rámec se po roce 2007 rychle rozvětvil. Kristie Dotsonová rozlišila utišení svědectví, kdy
+posluchač mluvčího neuzná jako vědoucího, a udušení svědectví, kdy mluvčí sám zkrátí nebo
+zamlčí výpověď, protože předpokládá, že nebude pochopen (Dotson, 2011). V další práci
+pojmenovala přispěvatelskou nespravedlnost, při níž posluchač odmítá užít dostupné alternativní
+pojmy, a upozornila, že samo Frickerové dělení může hlubší formy epistemického útlaku zakrývat
+(Dotson, 2012).
+
+Gaile Pohlhausová popsala úmyslnou hermeneutickou nevědomost: privilegovaní neužívají pojmy
+vytvořené marginalizovanými a tím udržují výkladovou mezeru, která jim slouží (Pohlhaus,
+2012). José Medina doplnil, že deficit důvěryhodnosti jednoho mluvčího bývá spojen s nadbytkem
+důvěryhodnosti jiného, a navrhl proto hodnotit důvěryhodnost poměrně (Medina, 2011). Současný
+stav oboru shrnuje příručka, kterou redigovali Kidd, Medina a Pohlhaus (Kidd et al., 2017).
 
 ## Jak se projevuje
 
-**Svědecká nespravedlnost:**
+Na straně posluchače a institucí je typickým znakem výpověď odbytá dřív, než je vyslechnuta,
+s odkazem na vlastnost mluvčího, a totéž tvrzení, které má odlišnou váhu podle toho, kdo je
+vysloví; od některých mluvčích se žádá vyšší míra důkazu než od ostatních (Fricker, 2007).
 
-- výpověď je odbyta dřív, než je vyslechnuta, s odkazem na vlastnost mluvčího („je přecitlivělá“, „byl v sektě, tak co čekáte“);
-- stejné tvrzení má odlišnou váhu podle toho, kdo je vysloví;
-- od mluvčího se vyžaduje vyšší míra důkazu než od ostatních.
+Na straně mluvčího se nespravedlnost projevuje opisem a omluvou tam, kde chybí pojem („nevím,
+jak to říct, asi to nic není“), zkrácením nebo zamlčením výpovědi v očekávání nepochopení
+(Dotson, 2011) a nápadnou úlevou po prvním setkání s pojmem, který zkušenost pojmenuje
+(Fricker, 2007).
 
-**Hermeneutická nespravedlnost:**
-
-- člověk popisuje zkušenost opisem, metaforou nebo omluvou („nevím, jak to říct, asi to nic není“);
-- instituce nemá kategorii, do které by stížnost zapadla, a proto ji neeviduje;
-- úleva po prvním setkání s pojmem, který zkušenost přesně pojmenuje („tak tohle má jméno“).
+Na straně institucí se projevuje chybějící kategorií: stížnost, pro niž systém nemá rubriku,
+se neeviduje, a tím ani nevstupuje do statistiky, z níž se usuzuje na rozsah jevu (Anderson,
+2012).
 
 ## Mechanismus
 
-Epistemická injustice dodává **strukturní a politický** slovník, který chybí čistě individuálně-patologickému výkladu [epistemické anihilace](@/glossary/epistemicka-anihilace.md). Kompendium chápe EA jako jev na několika úrovních: dyadické (manipulace v blízkém vztahu), institucionální (skupina, pracoviště, rodinný systém) a **společenské**. Na společenské úrovni jsou mechanismy právě ty, které popisuje Frickerová:
+Strukturně vzniká testimoniální nespravedlnost z toho, že posuzování důvěryhodnosti je rychlé
+a převážně intuitivní: posluchač se opírá o obecné představy o tom, jací lidé jsou spolehliví,
+a tyto představy nesou společenské stereotypy (Fricker, 2007). Nespravedlnost se přitom
+reprodukuje: komu se opakovaně nevěří, ten ztrácí jistotu ve vlastní poznání, vypovídá méně
+souvisle, a tím zdánlivě potvrzuje předsudek (Fricker, 2007).
 
-- **techniky delegitimizace EA-1.2.x** se na úrovni společnosti uskutečňují svědeckou nespravedlností – celé kategorie mluvčích (ženy, rasové menšiny, lidé s duševním onemocněním, i samotné oběti EA) čelí strukturnímu snižování důvěryhodnosti; viz [delegitimizace](@/glossary/delegitimizace.md);
-- **hermeneutická nespravedlnost** je makroformou [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md): oběť nerozumí tomu, co se děje, protože pojmy, kterými by tomu rozuměla, byly potlačeny nebo nikdy nevznikly.
+Hermeneutická forma působí jinak. Chybějící pojem není nedůvěra, ale prázdno; člověk nemá čím
+zkušenost uchopit ani pro sebe, takže ji nedokáže ani sdělit, ani proti ní argumentovat
+(Fricker, 2007). Obě formy se sčítají: kdo nemá slova, vypovídá neobratně; neobratná výpověď se
+snáz odbude; odbytá výpověď nevstoupí do sdíleného slovníku (Dotson, 2011).
 
-Obě formy se navzájem posilují. Kdo nemá slova pro svou zkušenost, vypovídá neobratně; neobratná výpověď se snáz odbude; odbytá výpověď nevstoupí do sdíleného slovníku.
+Kniha z tohoto rámce odvozuje vlastní tezi: že epistemická nespravedlnost dodává
+[epistemické anihilaci](@/glossary/epistemicka-anihilace.md) strukturní a politickou úroveň,
+kterou samotný popis manipulace v jednom vztahu nemá – *interpretace knihy*. Doloženo je
+přitom to, co tvrdí zdroje: že snížení důvěryhodnosti podle identity je systematické a sleduje
+mluvčího napříč oblastmi života (Fricker, 2007) a že marginalizovaní nesou náklady chybějícího
+slovníku (Pohlhaus, 2012). Na úrovni technik kniha s rámcem spojuje
+[delegitimizaci](@/glossary/delegitimizace.md) a jako makroformu chybějícího slovníku čte
+[metakognitivní destrukci](@/glossary/metakognitivni-destrukce.md).
 
 ## Odlišení
 
-- **Od běžného nesouhlasu:** posluchač, který výpověď vyslechne, zváží a odmítne z věcných důvodů, nespáchal křivdu. Injustice je snížení důvěryhodnosti z důvodu *identity*, ne obsahu.
-- **Od [epistemické alienace](@/glossary/epistemicka-alienace.md):** alienace je odcizení od vlastního úsudku; dlouhodobá svědecká nespravedlnost ji může vyvolat, ale nejsou totožné.
-- **Od [power-knowledge](@/glossary/power-knowledge.md):** Foucaultův rámec popisuje, jak moc vytváří samotné kategorie vědění; Frickerová se ptá, jak je v daných kategoriích konkrétní mluvčí ukřivděn.
-- **Od [gaslightingu](@/glossary/gaslighting.md):** gaslighting je záměrné jednání v konkrétním vztahu; epistemická injustice může být zcela bez úmyslu, nesená předsudkem nebo mezerou v jazyce.
+Běžný nesouhlas není křivdou: posluchač, který výpověď vyslechne, zváží a odmítne z věcných
+důvodů, nespáchal epistemickou nespravedlnost. Rozdíl nelze poznat z výsledku, ale z důvodu,
+který lze uvést a přezkoumat (Fricker, 2007).
+
+[Epistemická alienace](@/glossary/epistemicka-alienace.md) je odcizení od vlastního úsudku;
+dlouhodobá testimoniální nespravedlnost k ní může vést, ale pojmy nejsou totožné (Dotson,
+2011).
+
+[Power-knowledge](@/glossary/power-knowledge.md) je Foucaultův rámec popisující, jak moc
+vytváří samotné kategorie vědění; Frickerová se naproti tomu ptá, jak je v daných kategoriích
+ukřivděno konkrétnímu mluvčímu (Kidd et al., 2017).
+
+[Gaslighting](@/glossary/gaslighting.md) je jednání v konkrétním vztahu, které směřuje
+k podlomení důvěry oběti ve vlastní vnímání; epistemická nespravedlnost může být zcela bez
+úmyslu, nesená předsudkem nebo mezerou v jazyce (Fricker, 2007).
+
+## Klinický a právní rámec
+
+Carel a Kidd ukázali, že ve zdravotnictví jsou nemocní systematicky vystaveni deficitu
+důvěryhodnosti: jejich výpovědi o vlastním prožitku se podřizují měřením a výkladu odborníků
+i tam, kde pacient ví víc (Carel a Kidd, 2014). V psychiatrii je riziko vyšší, protože
+diagnóza sama může sloužit jako důvod nevěřit; Crichton a spolupracovníci vyzývají kliniky,
+aby posouzení obsahu výpovědi nezaměňovali s dojmem z diagnózy (Crichton et al., 2017).
+
+V českém právu se obdobné otázky řeší přes procesní záruky. Trestní řád, zákon č. 141/1961
+Sb., staví hodnocení důkazů na vnitřním přesvědčení založeném na pečlivém uvážení všech
+okolností; volnost hodnocení je pojistkou proti formalismu, ale i místem, kudy vstupuje
+předsudek (Fricker, 2007). Zákon č. 45/2013 Sb., o obětech trestných činů, k tomu přidává
+institut zvlášť zranitelné oběti a právo na ochranu před druhotnou újmou; jak taková újma
+vypadá, popisuje heslo [retraumatizace](@/glossary/retraumatizace.md).
 
 ## Význam pro Kompendium
 
-Samo Kompendium je **nápravným zásahem**: tím, že **buduje pojmovou taxonomii v češtině**, rozšiřuje hermeneutický zdroj dostupný česky mluvícím přeživším. Část [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) se na Frickerovou výslovně odvolává, když tvrdí, že vytváření taxonomie je samo aktem **nápravy epistemické spravedlnosti**.
+Pro forenzní a klinickou práci je rámec klíčový: kdo posuzuje výpovědi lidí po manipulaci,
+musí vědět, že zmatenost a nejistota nejsou známkou nepravdivosti (Fricker, 2007).
+[Posuzování věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md) má proto
+hlídat snížení důvěryhodnosti podle identity, a kapitola [Rizika obviňování
+oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md) ukazuje, že tatáž chyba
+se může objevit i v rámci samotné knihy.
 
-V praxi je pojem klíčový pro forenzní a klinickou práci: [posuzování věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md) má aktivně hlídat snížení důvěryhodnosti podle identity, a [rizika obviňování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md) ukazují, jak se tatáž chyba může objevit i v samotném rámci EA.
+Kniha svou českou taxonomii chápe jako rozšíření hermeneutického zdroje pro česky mluvící
+zasažené; v tomto smyslu je sama nápravným zásahem – *interpretace knihy*, opřená o Frickerové
+tezi, že náprava hermeneutické nespravedlnosti vyžaduje vytvoření chybějících pojmů
+(Fricker, 2007). Část [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) tento
+krok rozebírá. Na platformě, z níž kniha vzešla, se váhy důvěryhodnosti zdrojů v [Decision
+Engine](@/glossary/decision-engine.md) kontrolují na vzorce snižování podle identity, tedy
+právě na to, co Medina popisuje jako poměrné hodnocení důvěryhodnosti (Medina, 2011).
 
-Na platformě Prismatic, z níž kniha vzešla, začleňuje povědomí o svědecké nespravedlnosti do svých subsystémů pro sledování zkreslení [Decision Engine](@/glossary/decision-engine.md): váhy důvěryhodnosti zdrojů se výslovně kontrolují na vzorce snižování podle identity.
+## Obrana a náprava
 
-## Obrana a zotavení
+Pro dotčeného je první nápravou pojmenování: najít slovník – literaturu, komunitu lidí
+s obdobnou zkušeností, odbornou příručku –, který zkušenost uchopí, a zapisovat si události
+vlastními slovy dřív, než je převezme cizí výklad (Fricker, 2007). Opakovanou nedůvěru je
+důležité nevykládat jako důkaz vlastní nespolehlivosti (Dotson, 2011).
 
-**Pro dotčeného:** pojmenování je první náprava – najít slovník (literaturu, komunitu přeživších, Kompendium), který zkušenost uchopí. Pomáhá zapisovat si události vlastními slovy dřív, než je převezme cizí výklad.
+Pro profesionála a instituci platí: vyslechnout celou výpověď dřív, než se hodnotí, oddělit
+hodnocení obsahu od hodnocení osoby a vytvořit kategorie, do nichž lze zatím nepojmenovanou
+zkušenost zaznamenat (Anderson, 2012). Medina k tomu přidává požadavek vyhledávat epistemické
+tření, tedy kontakt s perspektivami, které vlastní předpoklady narušují (Medina, 2013).
+Postup výslechu omezující vliv předsudku popisuje heslo [forensic
+interview](@/glossary/forensic-interview.md).
 
-**Pro profesionála a instituci:** naslouchat celé výpovědi, než se hodnotí; oddělit hodnocení obsahu od hodnocení osoby; vytvořit kategorie, do kterých lze zatím nepojmenovanou zkušenost zaznamenat. Frickerová pro posluchače navrhuje ctnost **svědecké spravedlnosti** – vědomou opravu vlastního předsudku při přiznávání důvěryhodnosti.
+## Meze a kritika
+
+Rámec je kritizován ze dvou stran. Dotsonová namítá, že dělení na dvě formy může zakrývat
+hlubší, soustavnější formy epistemického útlaku, které se neprojevují ani nedůvěrou, ani
+chybějícím pojmem (Dotson, 2012). Anderson naopak tvrdí, že náprava opřená o ctnost
+jednotlivého posluchače je nedostatečná a že epistemická spravedlnost musí být vlastností
+institucí a jejich postupů (Anderson, 2012).
+
+Praktickou mezí je, že předsudek a oprávněnou pochybnost nelze v jednotlivém případě spolehlivě
+rozlišit, protože obojí se jeví jako nedůvěra (Medina, 2011). Pojem také nesmí vést k opačnému
+extrému, totiž k automatickému přijetí každé výpovědi bez prověření, které by bylo nespravedlivé
+vůči obviněnému (Kidd et al., 2017).
 
 ## Literatura
 
-- Miranda Fricker: *Epistemic Injustice: Power and the Ethics of Knowing* (2007).
-- José Medina: *The Epistemology of Resistance* (2013).
+- Anderson, E. (2012). *Epistemic justice as a virtue of social institutions*. Social Epistemology.
+- Carel, H., & Kidd, I. J. (2014). *Epistemic injustice in healthcare: A philosophical analysis*. Medicine, Health Care and Philosophy.
+- Coady, C. A. J. (1992). *Testimony: A Philosophical Study*. Oxford University Press.
+- Crichton, P., Carel, H., & Kidd, I. J. (2017). *Epistemic injustice in psychiatry*. BJPsych Bulletin.
+- Dotson, K. (2011). *Tracking epistemic violence, tracking practices of silencing*. Hypatia.
+- Dotson, K. (2012). *A cautionary tale: On limiting epistemic oppression*. Frontiers: A Journal of Women Studies.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Kidd, I. J., Medina, J., & Pohlhaus, G. (Eds.) (2017). *The Routledge Handbook of Epistemic Injustice*. Routledge.
+- Medina, J. (2011). *The relevance of credibility excess in a proportional view of epistemic injustice*. Social Epistemology.
+- Medina, J. (2013). *The Epistemology of Resistance*. Oxford University Press.
+- Pohlhaus, G. (2012). *Relational knowing and epistemic injustice: Toward a theory of willful hermeneutical ignorance*. Hypatia.
+- Zákon č. 141/1961 Sb. (1961). *Trestní řád*.
+- Zákon č. 45/2013 Sb. (2013). *Zákon o obětech trestných činů*.
 
 ## Související
 
 **Pojmy**
 
+- [Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) – první forma podrobně.
+- [Hermeneutická marginalizace](@/glossary/hermeneuticka-marginalizace.md) – podmínka druhé formy.
+- [Delegitimizace](@/glossary/delegitimizace.md) – útok na důvěryhodnost zdroje.
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – protějšek na úrovni jednotlivce.
-- [Epistemická alienace](@/glossary/epistemicka-alienace.md) – forma odcizení od sebe.
-- [Panopticism](@/glossary/panopticism.md) – Foucaultův rámec strukturního dohledu.
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) – odcizení od vlastního úsudku.
 - [Power-Knowledge](@/glossary/power-knowledge.md) – Foucault o epistemické moci.
+- [Panopticism](@/glossary/panopticism.md) – Foucaultův rámec strukturního dohledu.
+- [Gaslighting](@/glossary/gaslighting.md) – jednání v jednotlivém vztahu, ne struktura.
 - [Metanarrative collapse](@/glossary/metanarrative-collapse.md) – Lyotard o legitimizaci velkými vyprávěními.
 
 **Kniha**
 
-- [Fricker: epistemická nespravedlnost](@/kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md) – podrobný výklad v teoretické části.
-- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – teoretické základy.
+- [Fricker: epistemická nespravedlnost](@/kompendium/techniques/ea-7-2-1-fricker-epistemic-injustice.md) – referenční karta.
+- [Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) – zařazení rámce.
 - [Posuzování věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md) – forenzní praxe.
-- [Kompendium](@/kompendium/_index.md) – česká taxonomie.
+- [Rizika obviňování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md) – sebekritika rámce.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

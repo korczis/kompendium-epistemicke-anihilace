@@ -8,6 +8,7 @@ description = "Vlastní pojem knihy z původní taxonomie (2025): rozpad poznatk
 tags = ["glossary", "kompendium", "epistemic", "science"]
 
 [extra]
+aliases = ["Epistemická transverzální paralýza"]
 category = "epistemic"
 related_terms = ["integrative-collapse", "epistemicka-anihilace", "epistemicka-reintegrace", "disociace", "epistemic-bubble", "epistemicka-nekroza"]
 author = "Tomáš Korcak (korczis)"

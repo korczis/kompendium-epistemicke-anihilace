@@ -21,142 +21,191 @@ image_alt = "Sealioning (lachtaní dotazování) – glosář"
 
 ## Definice
 
-**Sealioning** je rétoricko-epistemická technika ve zlé víře, při níž aktér zaujme povrchový
-postoj zdvořilého, rozumného tázání – opakovaně žádá důkazy, definice, citace a vysvětlení –,
-zatímco *funkcí* dotazování je obtěžování, vyčerpání a konverzační „odepření služby“
-(*denial-of-service*). Termín pochází z webového komiksu Davida Malkiho *Wondermark* č. 1062
-„The Terrible Sea Lion“ (2014), v němž lachtan pronásleduje pár až domů a dožaduje se
-vysvětlení, proč ve svém životě nechtějí lachtany, přičemž každý protest rámuje jako
-nezodpovězenou otázku.
+**Sealioning** (volně *lachtaní dotazování*) označuje vzorec, v němž účastník rozpravy zaujme
+povrchový postoj zdvořilého a rozumného tázání – opakovaně žádá doklady, definice, citace
+a vysvětlení –, zatímco funkcí dotazování není získat odpověď, nýbrž zatížit druhou stranu.
+Název je internetový, nikoli odborný: vznikl z webového komiksu *Wondermark* č. 1062 „The
+Terrible Sea Lion“, v němž lachtan pronásleduje pár až domů a dožaduje se vysvětlení, proč
+ve svém životě nechtějí lachtany, přičemž každý projev nevole rámuje jako nezodpovězenou
+otázku (Malki, 2014). V argumentační teorii se pod tímto jménem žádný pojem nevyskytuje;
+samotný konverzační manévr však popsán je, a to jako porušení pravidel kritické rozpravy
+(van Eemeren a Grootendorst, 2004).
 
-Od legitimního tázání odlišují sealioning tři strukturní rysy:
-
-1. **asymetrie nákladů** – každá otázka je levná na položení a drahá na zodpovězení a tazatel
-   nemá povinnost předchozí odpovědi začlenit;
-2. **nekonečný regres** – každá odpověď je zodpovězena hlubší otázkou; dna se nikdy nedosáhne,
-   protože cílem není dna dosáhnout (srov. [infinitní regres](@/glossary/infinitni-regress.md));
-3. **zdvořilost jako brnění** – povrchní zdvořilost je sama součástí techniky, protože jakoukoli
-   frustrovanou reakci cíle lze citovat jako důkaz jeho nepřátelskosti („Jen se ptám, proč se tak
-   rozčilujete?“).
+Je proto třeba držet dvě vrstvy odděleně. Internetová nálepka je užitečná jako zkratka pro
+rozpoznatelný vzorec, ale nemá definici, kterou by bylo možné uplatnit v posudku; odborným
+základem je rozbor důkazního břemene a povinnosti obhajovat vlastní stanovisko (Walton, 2014).
+Kniha s nálepkou pracuje jako s popisem, nikoli jako s klasifikací (*interpretace knihy*).
 
 ## Původ a kontext pojmu
 
-Pojem se rozšířil v online diskusích po roce 2014, zejména v souvislosti s organizovaným
-obtěžováním na sociálních sítích. Souvisí s praktikou *JAQing off* („Just Asking Questions“ –
-„jen se ptám“), záměrně volnou formou, která naznačuje, aniž by se k čemukoli zavazovala. Obě
-sdílejí strukturní využití společenské ceny, kterou má odmítnutí zabývat se zdánlivě rozumným
-dotazem. V Kompendiu je fenomén rozpracován v kapitole [Sealioning](@/kompendium/05-ultramari-techniky/sealioning.md).
+Komiks vyšel v roce 2014 a slovo se rozšířilo v diskusích o organizovaném obtěžování na
+sociálních sítích (Malki, 2014). Souběžně se používá starší internetová zkratka „jen se ptám“
+(*just asking questions*), která označuje tvrzení vyslovené ve formě otázky, aby se mluvčí
+nemusel zavázat k jeho obhajobě. Obě nálepky vznikly mimo akademické prostředí a odborná
+literatura je zpravidla cituje jako lidový popis, k němuž dodává vlastní pojmový aparát
+(Marwick a Caplan, 2018).
+
+Odborné zázemí má tři linie. První je pragmaticko-dialektická teorie argumentace, podle níž je
+rozprava řízena pravidly: kdo vyslovil stanovisko, je povinen je obhájit, a nikdo nesmí druhé
+straně bránit v předložení či obhajobě stanoviska; klamy jsou v tomto pojetí definovány jako
+porušení těchto pravidel, ne jako chyby v logické formě (van Eemeren a Grootendorst, 2004).
+Druhou linií je rozbor důkazního břemene: Walton ukazuje, že kdo klade otázky, nenese
+automaticky nulové břemeno, protože i otázka může nést předpoklad, který je sám tvrzením
+(Walton, 2014).
+
+Třetí linií je teorie konverzační spolupráce. Grice popsal, že rozhovor se opírá o předpoklad
+spolupráce, tedy o očekávání, že účastník přispívá přiměřeně k účelu rozhovoru; manévry
+tohoto typu využívají právě tento předpoklad, protože jeho odepření se jeví jako nezdvořilost
+(Grice, 1975). Kniha fenomén rozpracovává v kapitole
+[Sealioning](@/kompendium/05-ultramari-techniky/sealioning.md).
+
+Čtvrtou, novější linií je literatura o epistemické zátěži. Berenstain zavedla pojem
+epistemického vykořisťování pro situaci, v níž je od člověka, jenž má zkušenost určitého
+znevýhodnění, opakovaně požadováno, aby ji vysvětloval a dokládal, přičemž tento požadavek je
+předkládán jako upřímný zájem o poznání (Berenstain, 2016). Dotson předtím popsala, že
+mluvčí v takovém prostředí často sám zkrátí nebo zamlčí výpověď, protože nepočítá
+s porozuměním (Dotson, 2011).
 
 ## Jak se projevuje
 
-Diagnosticky se sealioning pozná podle **znaků procesu, ne obsahu**: podle vzorce dotazů,
-podle vztahu tazatele k poskytnutým důkazům a podle asymetrie časových nákladů na straně
-tazatele a cíle. Užitečný test: začleňuje tazatel předchozí odpovědi do dalších otázek, nebo
-každá otázka předstírá, že předchozí odpovědi nikdy nezazněly? Skutečné tázání vykazuje první,
-sealioning druhé.
+Diagnosticky se vzorec pozná podle znaků procesu, nikoli podle obsahu otázek. Nejspolehlivějším
+znakem je vztah tazatele k již poskytnutým odpovědím: skutečné tázání odpovědi začleňuje
+a mění podle nich další otázky, kdežto zde každá otázka předstírá, že předchozí odpověď
+nezazněla (van Eemeren a Grootendorst, 2004). Druhým znakem je rostoucí standard dokládání,
+který tazatel na sebe sám neuplatňuje (Walton, 2014).
 
-Další znaky:
+Třetím znakem je přesun tématu od věci k metaotázce, totiž k tomu, zda má druhá strana
+„právo“ neodpovědět; v tomto okamžiku se předmětem rozpravy stává oprávněnost odmlčení, ne
+původní tvrzení (van Eemeren a Grootendorst, 2004). Čtvrtým znakem je kontext: dotazy
+přicházejí v nevhodné chvíli, v osobním prostoru nebo od více účtů současně, což Marwick
+a Caplan popsali jako síťové obtěžování, v němž jednotliví účastníci mohou jednat
+nezávisle a přesto vzniká soustředěný tlak (Marwick a Caplan, 2018).
 
-- tytéž otázky se vracejí v mírně jiné podobě;
-- tazatel sám nikdy nepředloží vlastní stanovisko ani důkazy;
-- žádá stále přísnější standard důkazu, který sám nesplňuje;
-- konverzace se přesouvá od věci k otázce, zda má cíl „právo“ neodpovědět;
-- dotazy přicházejí v nevhodné chvíli nebo v cizím prostoru (pod osobním příspěvkem, v
-  soukromých zprávách) a často od více účtů najednou.
+Na straně adresáta se projevuje vyčerpání a postupné zkracování výpovědi. Dotson tento
+výsledek popsala jako udušení svědectví, tedy jako sebeomezení mluvčího, který předpokládá,
+že nebude pochopen (Dotson, 2011); jeho obecnější podobu vede heslo [testimoniální
+nespravedlnost](@/glossary/testimonialni-nespravedlnost.md).
 
 ## Mechanismus
 
-V modelu hrozeb, z něhož kniha vychází, je sealioning katalogizován jako **doručovací
-mechanismus**, který se provozně spojuje se dvěma technikami Kompendia:
-[EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)
-(sealioning spotřebovává epistemické zdroje cíle a nenechává mu žádné na legitimní zkoumání;
-původní verze hesla tuto techniku nazývala „information starvation“)
-a [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)
-(sealioning přesouvá pozornost od věcných tvrzení k obhajobě metaotázky, zda smí člověk
-odmítnout odpovídat).
+Strukturně stojí vzorec na nákladové asymetrii. Položit otázku je levné, zodpovědět ji
+nákladné, a tato nerovnost nezávisí na tom, kdo má pravdu; proto lze samotným kladením otázek
+vyčerpat i stranu, která má doklady (Walton, 2014). *Interpretace knihy*: kniha pro tento
+důsledek používá obraz konverzačního odepření služby, tedy zahlcení kapacity, a vede jej
+spolu s technikou [informačního
+přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md).
 
-Technika se provozně páruje s [Motte and Bailey](@/glossary/motte-and-bailey.md) (sealioning
-„motte“ vyčerpává námitky proti „bailey“) a se zneužitou [epistemickou
-pokorou](@/glossary/epistemicka-pokora.md) („Jen se snažím pochopit…“). Příbuzné je i zahlcování
-množstvím tvrzení ([Gish Gallop](@/glossary/gish-gallop.md)).
+Druhou složkou je nekonečný regres. Každá odpověď může být zpochybněna hlubší otázkou
+a zdůvodnění nemá přirozený konec, pokud není dopředu dohodnuto, co bude stačit; Walton proto
+pokládá stanovení důkazního standardu za předběžnou otázku každé rozpravy, ne za její výsledek
+(Walton, 2014). Regresivní povahu zdůvodnění samu vede heslo [infinitní
+regres](@/glossary/infinitni-regress.md).
+
+Třetí složkou je zdvořilost jako ochrana. Forma dotazu je kooperativní, takže jakákoli
+nevole adresáta vypadá jako bezdůvodná agresivita a lze ji předložit jako doklad jeho
+nepřátelskosti; Grice ukázal, že právě dodržení povrchové formy spolupráce vytváří očekávání,
+jehož nesplnění je sankcionováno (Grice, 1975). Čtvrtou složkou je přesun od tvrzení
+k metaotázce, který kniha vede jako [tematickou
+diverzi](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md).
 
 ## Odlišení
 
-- **Od skutečné zvídavosti** – skutečný tazatel začleňuje odpovědi, mění otázky podle nich,
-  připouští, kdy je spokojen, a respektuje, když druhý nemá čas.
-- **Od kritické oponentury** – oponent vznáší konkrétní námitky a přijímá důkazní břemeno za
-  vlastní tvrzení; sealioner břemeno jen přesouvá.
-- **Od úzkostného ujišťování** – člověk s úzkostí se ptá opakovaně, ale kvůli vlastní potřebě
-  jistoty, ne aby druhého vyčerpal; reaguje na uklidnění, byť krátkodobě.
-- **Od pragmatických potíží** – opakované dotazy u člověka s oslabenou [pragmatickou
-  kompetencí](@/glossary/pragmaticka-kompetence.md) nemají funkci obtěžování.
+Od skutečné zvídavosti se vzorec liší tím, že zvídavý tazatel odpovědi začleňuje, připustí,
+kdy je spokojen, a respektuje omezený čas druhé strany (van Eemeren a Grootendorst, 2004). Od
+kritické oponentury se liší nesením břemene: oponent vznáší konkrétní námitku a odpovídá za
+vlastní tvrzení, kdežto zde se břemeno pouze přesouvá (Walton, 2014).
 
-## Význam pro Kompendium
+Od úzkostného ujišťování je třeba odlišit opakované dotazování, které vychází z vlastní
+potřeby jistoty. Takový člověk krátkodobě na uklidnění reaguje, i když mu úleva nevydrží,
+a jeho ověřování má rozpoznatelnou dynamiku nutkání, ne obtěžování (Rachman, 2002). Od
+pragmatických potíží se liší funkcí: u člověka s oslabenou [pragmatickou
+kompetencí](@/glossary/pragmaticka-kompetence.md) nemá opakované dotazování zatěžující účel
+a chybí mu i citlivost pro to, že zatěžuje (Grice, 1975).
 
-[Decision Engine](@/glossary/decision-engine.md) platformy odhaluje vzorce sealioningu pomocí
-**procesních metrik** počítaných nad záznamy konverzací: poměru nových otázek k začleněným
-odpovědím, konzistence tazatelem deklarovaného rámce v čase a přítomnosti či absence uznání
-důkazů ve vícekolových interakcích. Metriky napájejí příznak důvěry `BAD_FAITH_INQUIRY`, který
-snižuje váhu přiřazenou tvrzením tazatele v navazujícím zpracování. Pro klinickou a forenzní
-praxi kniha zdůrazňuje, že stejný vzorec se objevuje v akademickém prostředí (opakované
-„upřesňující“ požadavky školitele, které nikdy nekončí), v rodinných konfliktech i ve
-výsleších (viz [detekční signaturu Odpor
-k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md)).
+Od oprávněného požadavku na doklad se nelze odlišit podle jediné výměny. Rozhodnout lze až
+podle průběhu, a proto je každé označení konkrétní osoby třeba opřít o pozorovaný vzorec,
+nikoli o nepohodlnost otázky; nálepka sama je totiž použitelná i k vyřazení legitimní kritiky
+(Berenstain, 2016).
+
+## Klinický, forenzní a etický rámec
+
+Týž vzorec se objevuje mimo sociální sítě. V akademickém vedení má podobu „upřesňujících“
+požadavků, které nikdy nekončí; v rodinných konfliktech podobu opakovaného vyšetřování jedné
+události; ve výsleších podobu otázek, jejichž funkcí je vyčerpat, ne zjistit. Kniha k tomu
+vede detekční signaturu [odpor k
+upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md).
+Pro forenzní praxi platí, že vyčerpání vyslýchaného snižuje hodnotu výpovědi, takže jde
+o problém kvality důkazu, ne jen o problém zdvořilosti (Walton, 2014).
+
+Eticky je podstatné, že nikdo nemá epistemickou povinnost odpovídat na dotazování, které nemá
+kritérium ukončení; odmlčení není přiznáním slabosti tvrzení (van Eemeren a Grootendorst,
+2004). Berenstain k tomu dodává, že požadavek vysvětlování předkládaný jako zájem o poznání
+může být sám formou zátěže, kterou nese jedna strana (Berenstain, 2016).
 
 ## Obrana a zotavení
 
-Doktrína zotavení, popsaná v protokolu [Sealioning](@/kompendium/recovery-protocols/sealioning.md),
-zdůrazňuje **legitimitu odpojení**: cíl nemá epistemickou povinnost zabývat se dotazováním ve
-zlé víře donekonečna. Prakticky:
+Pro postiženého je nejúčinnějším krokem pojmenování vzorce a odkaz na již danou odpověď, bez
+pokračování v téže výměně; legitimita odpojení je v pragmaticko-dialektickém rámci dána tím,
+že povinnost obhajovat stanovisko neznamená povinnost obhajovat je opakovaně a bez konce (van
+Eemeren a Grootendorst, 2004). Druhým krokem je stanovení podmínek rozpravy, tedy požadavek,
+aby druhá strana předložila vlastní stanovisko a doklady (Walton, 2014). Protokol zotavení
+vede stránka [Sealioning](@/kompendium/recovery-protocols/sealioning.md).
 
-- **pojmenovat vzorec** – „Na tohle jsem už odpověděl/a, odpověď najdeš tady“ – a nepokračovat;
-- **stanovit podmínky** – „Jsem ochoten/ochotna diskutovat, pokud předložíš své stanovisko
-  a důkazy“;
-- **ukončit bez omlouvání** – odmítnutí není přiznání slabosti argumentu;
-- **sdílet zátěž** – v komunitách a organizacích moderovat, nenechat jednotlivce čelit
-  dotazům samotného (srov. [Doxing](@/glossary/doxing.md) jako možnou eskalaci obtěžování);
-- **pro profesionály** – u klientů, kteří takový tlak zažívají dlouhodobě (např. v akademickém
-  vedení), pracovat s vyčerpáním a s vnitřním hlasem „musím odpovědět na všechno“, který
-  technika zanechává.
+Pro komunity a organizace je podstatné rozdělení zátěže: moderace a zastoupení znamenají, že
+jednotlivec nečelí soustředěnému tlaku sám, což Marwick a Caplan uvádějí jako hlavní
+rozlišovací znak mezi zvládnutelným a nezvládnutelným obtěžováním (Marwick a Caplan, 2018).
+Eskalaci do zveřejnění osobních údajů vede heslo [Doxing](@/glossary/doxing.md).
+
+Pro profesionála platí, že u klientů, kteří takový tlak zažívají dlouhodobě, je terapeutickým
+předmětem vyčerpání a vnitřní požadavek „musím odpovědět na všechno“, nikoli obsah otázek;
+Dotson ukazuje, že dlouhodobé zkracování vlastní výpovědi má samostatné důsledky pro to, co
+člověk vůbec sdělí (Dotson, 2011). Stav vyčerpání vedou hesla [kognitivní
+anihilace](@/glossary/kognitivni-anihilace.md) a [paralysis by
+analysis](@/glossary/paralysis-by-analysis.md).
+
+## Meze a kritika pojmu
+
+První mezí je nepřesnost nálepky. Protože vznikla v internetové diskusi a nemá definici
+s rozlišovacími znaky, lze ji uplatnit na kohokoli, kdo se vytrvale ptá, a tím vyřadit
+oprávněnou kritiku z rozpravy; odborné rámce proto pracují s porušením konkrétního pravidla,
+ne s označením osoby (van Eemeren a Grootendorst, 2004).
+
+Druhou mezí je nepozorovatelnost záměru. Rozlišení dobré a zlé víry je ze vnějšku nedostupné
+a vzorec lze popsat jen podle průběhu, takže tvrzení o motivu zůstává nedoložené (Walton,
+2014). Třetí mezí je chybějící empirie: o rozsahu, průběhu a následcích tohoto vzorce existují
+převážně kvalitativní popisy z výzkumu online obtěžování, ne měření (Marwick a Caplan, 2018).
+Širší rámec hrozeb vede heslo [epistemická
+anihilace](@/glossary/epistemicka-anihilace.md).
 
 ## Literatura
 
-- David Malki: *Wondermark* č. 1062, „The Terrible Sea Lion“ (2014) – původ termínu.
+- Berenstain, N. (2016). *Epistemic exploitation*. Ergo.
+- Dotson, K. (2011). *Tracking epistemic violence, tracking practices of silencing*. Hypatia.
+- Grice, H. P. (1975). *Logic and Conversation*. In: Cole, P., & Morgan, J. L. (Eds.), *Syntax and Semantics 3: Speech Acts*. Academic Press.
+- Malki, D. (2014). *Wondermark č. 1062: The Terrible Sea Lion*.
+- Marwick, A. E., & Caplan, R. (2018). *Drinking male tears: Language, the manosphere, and networked harassment*. Feminist Media Studies.
+- Rachman, S. (2002). *A cognitive theory of compulsive checking*. Behaviour Research and Therapy.
+- van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge University Press.
+- Walton, D. (2014). *Burden of Proof, Presumption and Argumentation*. Cambridge University Press.
 
 ## Související
 
 **Pojmy**
 
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – nadřazený rámec hrozeb.
-- [Motte and Bailey](@/glossary/motte-and-bailey.md) – doprovodná rétorická technika.
-- [Epistemická pokora](@/glossary/epistemicka-pokora.md) – zneužitá pokora se se sealioningem
-  pojí.
-- [Gish Gallop](@/glossary/gish-gallop.md) – zahlcení množstvím tvrzení.
-- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – poškození kognitivních procesů
-  vyčerpáním.
-- [Paralysis by Analysis](@/glossary/paralysis-by-analysis.md) – stav, do něhož nekonečné
-  dotazování cíl přivádí.
+- [Motte and Bailey](@/glossary/motte-and-bailey.md) – doprovodný rétorický vzorec.
+- [Gish Gallop](@/glossary/gish-gallop.md) – zahlcení tvrzeními místo otázkami.
+- [Infinitní regres](@/glossary/infinitni-regress.md) – regresivní povaha zdůvodnění.
+- [Epistemická pokora](@/glossary/epistemicka-pokora.md) – ctnost, jejíž jazyk se zneužívá.
+- [Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) – nerovné rozdělení důvěryhodnosti.
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – vyčerpání kognitivních procesů.
+- [Paralysis by Analysis](@/glossary/paralysis-by-analysis.md) – stav, do něhož nekonečné dotazování vede.
+- [Doxing](@/glossary/doxing.md) – možná eskalace obtěžování.
 
 **Techniky a protokoly**
 
-- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – přesun
-  od věci k metaotázce.
-- [Protokol Sealioning](@/kompendium/recovery-protocols/sealioning.md) – zotavení a legitimita
-  odpojení.
-
-**Kniha**
-
-- [Taxonomie EA](@/glossary/taxonomie-ea.md) – klasifikace `EA-X.Y.Z-α`.
-- [Kompendium](@/kompendium/_index.md) – celá česká taxonomie.
-
----
-
-## Autor a zapojení
-
-**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) – spotřeba epistemické kapacity.
+- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – přesun od věci k metaotázce.
+- [Protokol Sealioning](@/kompendium/recovery-protocols/sealioning.md) – zotavení a legitimita odpojení.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

@@ -2,7 +2,7 @@
 title = "Epistemické trauma"
 weight = 60
 
-description = "Strukturní poškození důvěry ve vlastní poznání po epistemické anihilaci; překrývá se s PTSD a komplexní PTSD, ale zachycuje epistemické rozměry, které běžné diagnostiky míjejí."
+description = "Pracovní pojem knihy pro přetrvávající poškození důvěry ve vlastní poznání po dlouhodobé manipulaci; co o něm říká literatura o komplexním traumatu a co je výklad knihy."
 
 [taxonomies]
 tags = ["glossary", "epistemic", "clinical", "trauma", "kompendium"]
@@ -21,87 +21,202 @@ image_alt = "Epistemické trauma – glosář"
 
 ## Definice
 
-**Epistemické trauma** (*epistemic trauma*) je strukturní poškození schopnosti důvěřovat vlastnímu poznání, které přetrvává po vystavení [epistemické anihilaci](@/glossary/epistemicka-anihilace.md) nebo jiné dlouhodobé manipulaci. Klinicky se výrazně překrývá s **PTSD** (posttraumatickou stresovou poruchou) a zvláště s **komplexní PTSD** ([C-PTSD](@/glossary/c-ptsd.md)), která vzniká při dlouhodobém interpersonálním násilí. [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md) přesto udržuje samostatný termín, protože tradiční diagnostika traumatu míří na afektivní a behaviorální rozměry a epistemické rozměry popisuje nedostatečně.
+**Epistemické trauma** (*epistemic trauma*) je pracovní pojem [Kompendia epistemické
+a kognitivní anihilace](@/kompendium/_index.md) pro přetrvávající poškození schopnosti
+důvěřovat vlastnímu poznání po dlouhodobém vystavení [epistemické
+anihilaci](@/glossary/epistemicka-anihilace.md) nebo jiné soustavné manipulaci. Není to
+diagnóza: MKN-11 ani DSM-5-TR takovou jednotku neznají a nejbližší zavedenou kategorií je
+komplexní posttraumatická stresová porucha (World Health Organization, 2019; American
+Psychiatric Association, 2022). Kniha termín drží proto, že zavedená kritéria popisují
+afektivní, vztahové a behaviorální následky, zatímco následek na straně poznání v nich
+samostatně pojmenován není (*interpretace knihy*).
 
-Epistemické trauma odlišují od PTSD a komplexní PTSD tři strukturní znaky, a to i tam, kde se vyskytují současně:
+Prvním znakem, který kniha k pojmu váže, je narušení evidenční danosti: věci se člověku
+přestanou podávat *jako samy sebou*, takže běžné vnímání, vybavování a usuzování působí
+nejistě bez ohledu na to, jak jsou fakticky spolehlivé. Jde o rozměr, který lze popsat
+prostředky [fenomenologie](@/glossary/fenomenologie.md) a který ve zdravotnictví popsali
+Carel a Kidd jako znevěrohodnění vlastního prožitku pacienta (Carel a Kidd, 2014).
 
-1. **Narušení evidenční danosti** – jevy se už nepodávají *jako samy sebou* s obvyklou zřetelností. Běžné vnímání, vybavování vzpomínek a usuzování působí nejistě bez ohledu na to, jak jsou fakticky spolehlivé. Jde o fenomenologický rozměr; viz [fenomenologie](@/glossary/fenomenologie.md).
-2. **Metakognitivní dekalibrace** – hodnocení vlastní jistoty se soustavně rozchází se skutečnou přesností, a to oběma směry. Někteří lidé se stávají patologicky přehnaně jistými (kontrafobická kompenzace); častěji přetrvává celková podceněná jistota i u úloh, kde je kalibrace objektivně dosažitelná.
-3. **Zhroucení důvěry ve zdroje** – nad rámec traumatické nedůvěry ve vztazích jde o strukturní neochotu považovat *jakýkoli* zdroj, včetně vlastního pozorování z první osoby, za doklad. To je diagnostická signatura pokročilé [epistemické alienace](@/glossary/epistemicka-alienace.md) a klinicky nejodolnější rys.
+Druhým znakem je metakognitivní dekalibrace: hodnocení vlastní jistoty se rozchází se
+skutečnou přesností, a to oběma směry. [Metakognice](@/glossary/metakognice.md) je přitom měřitelná vlastnost — rozdíl mezi
+jistotou a výkonem lze zjišťovat psychofyzikálně (Fleming a Lau, 2014) a Nelson ji vymezil
+jako sledování a řízení vlastního poznávání (Nelson, 1996). Častější je celkově podceněná
+jistota, u části lidí naopak rigidní nadjistota jako obrana.
+
+Třetím znakem je zhroucení důvěry ve zdroje, které jde za vztahovou nedůvěru: člověk nepřijme
+jako doklad *žádný* zdroj, včetně vlastního pozorování z první osoby; je to krajní podoba
+ztráty postavení vědoucího, kterou Fricker popsala jako jádro epistemické křivdy (Fricker,
+2007). Tento rys kniha popisuje
+jako pokročilou [epistemickou alienaci](@/glossary/epistemicka-alienace.md) a bere ho za
+klinicky nejodolnější (*interpretace knihy*, viz [etické
+aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)).
 
 ## Původ a kontext pojmu
 
-Termín používá Kompendium jako pracovní pojem; nejde o diagnózu MKN-11 ani DSM-5-TR. Navazuje na klinickou tradici komplexního traumatu (Herman 1992), na teorii [traumatu ze zrady](@/glossary/betrayal-trauma.md) (Freyd 1996), která ukazuje, jak závislost na pachateli deformuje vnímání a paměť, a na pojem [epistemické nespravedlnosti](@/glossary/epistemicka-injustice.md). Teoretický rozbor je v kapitole [Epistemické trauma](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md); diagnostické rámce shrnují stránky [MKN-11: komplexní trauma](@/kompendium/techniques/ea-8-2-6-icd-11-complex-trauma.md) a [DSM-5-TR: trauma](@/kompendium/techniques/ea-8-2-7-dsm-5-tr-trauma.md).
+Pojem stojí na třech zavedených liniích. Herman popsala, že dlouhodobé zajetí v mezilidském
+vztahu nebo instituci mění sebepojetí a vztahy způsobem, který diagnóza PTSD nezachycuje, a na
+tomto základě navrhla [komplexní trauma](@/glossary/complex-trauma.md) jako samostatnou kategorii (Herman, 1992). Freyd
+ukázala, že závislost na osobě, která ubližuje, systematicky deformuje vnímání a paměť, protože
+plné uvědomění zrady by ohrozilo vazbu, na niž je člověk odkázán (Freyd, 1996).
+
+Třetí linií je epistemologie. Fricker popsala [testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) jako křivdu, při
+níž je člověku kvůli předsudku odepřena důvěryhodnost, a upozornila, že tato křivda zasahuje
+samu jeho roli vědoucího (Fricker, 2007). Kniha z toho přejímá tvrzení, že újma na postavení
+vědoucího je skutečná újma, nikoli metafora, a rozvíjí je v kapitole [Epistemické
+trauma](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md).
+
+Co je naopak vlastní výklad: spojení těchto tří linií do jednoho pojmu a tvrzení, že
+epistemické následky tvoří rozpoznatelný celek. Samostatný empirický výzkum pod tímto názvem
+neexistuje a heslo to uvádí přednostně, aby čtenář pojem nepřebíral jako doloženou klinickou
+jednotku; doložené zůstává jen to, co o komplexním traumatu shrnuje přehledová literatura
+(Brewin a kol., 2017).
 
 ## Jak se projevuje
 
-- opakované ověřování zcela běžných faktů („zamkla jsem? řekl to opravdu?“), které nepřináší úlevu;
-- neschopnost vypovídat o vlastní zkušenosti bez dodatku „ale možná si to špatně pamatuji“;
-- odmítání dokumentů a svědectví, která by člověku dala za pravdu – i ty jsou „nejisté“;
-- [časová dezorientace](@/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md) při rekonstrukci událostí;
-- [nejistota ohledně skutečnosti](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md) bez psychotických příznaků;
-- u části lidí opačný obraz: rigidní, nepřiměřená jistota jako obrana proti pocitu, že nic neplatí.
+Nejčastěji popisovaným projevem je opakované ověřování zcela běžných faktů, které nepřináší
+úlevu, a neschopnost vypovídat o vlastní zkušenosti bez dodatku o možné chybě paměti. Herman
+tento druh trvalé nejistoty o sobě řadí k následkům dlouhodobého zajetí (Herman, 1992).
+
+Nápadné je odmítání dokumentů a svědectví, která by člověku dala za pravdu: i ty jsou
+„nejisté“. Freydova teorie zrady vysvětluje, proč se nedůvěra obrací i proti dokladům ve
+vlastní prospěch, protože naučená nevšímavost k dokladům zrady zůstává i po jejím skončení
+(Freyd, 1996).
+
+Dalšími projevy jsou dezorientace při rekonstrukci časového průběhu událostí a nejistota
+o skutečnosti bez psychotických příznaků; v knize jim odpovídají signatury [časové
+dezorientace](@/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md)
+a [nejistoty ohledně
+skutečnosti](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md).
+Zavedená literatura tyto prožitky popisuje jako součást obrazu komplexního traumatu (Brewin
+a kol., 2017).
 
 ## Mechanismus
 
-Trauma vzniká, když dlouhodobé zpochybňování vnímání a paměti (typicky [gaslighting](@/glossary/gaslighting.md)) působí v situaci, kdy je člověk na zdroji zpochybňování závislý. Mozek a mysl se adaptují: přestanou dávat vlastním vjemům výchozí váhu, protože v daném prostředí to bylo bezpečnější. Po odchodu z prostředí adaptace přetrvá. Strukturním předpokladem bývá [delegitimizace](@/glossary/delegitimizace.md) náhradních zdrojů opory – přátel, rodiny, odborníků – takže člověk nemá s kým své vnímání porovnat.
+Jak daleko sahá doložené vysvětlení: dlouhodobé zpochybňování vnímání a paměti ze strany
+osoby, na níž je člověk závislý, je popsáno jako sociální vztah, ne jen jako řada výroků.
+Sweet na materiálu přeživších ukázala, že [gaslighting](@/glossary/gaslighting.md) je účinný
+tam, kde se opírá o nerovnost moci a o společenské stereotypy, které výpovědi oběti ubírají na
+váze (Sweet, 2019). Abramson k tomu dodává, že jeho cílem není jen omyl, ale podlomení
+postavení člověka jako někoho, kdo může vznášet námitky (Abramson, 2014).
+
+Adaptace na takové prostředí je sama o sobě přiměřená: nedávat vlastním vjemům výchozí váhu
+bylo v daném vztahu bezpečnější. Freyd popisuje právě takovou adaptaci jako logiku zapomínání
+ve vztazích závislosti (Freyd, 1996). Potíž začíná tím, že adaptace přetrvá i po odchodu
+z prostředí.
+
+Strukturním předpokladem bývá [delegitimizace](@/glossary/delegitimizace.md) náhradních zdrojů
+opory — přátel, rodiny, odborníků —, takže člověk nemá s kým své vnímání porovnat. Herman
+ukazuje, že izolace je u dlouhodobého zajetí pravidlem a že obnova vztahů je proto podmínkou
+zotavení, ne jeho vedlejším přínosem (Herman, 1992).
 
 ## Odlišení
 
-- **Od PTSD:** PTSD je definováno znovuprožíváním, vyhýbáním a pocitem trvalé hrozby; epistemické trauma může být přítomno i bez nich. Souběh je častý, ale nejde o totéž.
-- **Od komplexní PTSD:** narušení sebepojetí a vztahů v C-PTSD zahrnuje část epistemických rysů; epistemické trauma klade důraz na kritéria poznání, ne na afektivní regulaci.
-- **Od [disociace](@/glossary/disociace.md):** disociativní mezery v paměti jsou jiný mechanismus; epistemické trauma se týká důvěry v paměť, která může být neporušená.
-- **Od obsedantně-kompulzivní poruchy:** nutkavé ověřování je podobné; rozhoduje historie, kontext vzniku a to, zda se pochybnost týká hlavně událostí ve vztahu s konkrétní osobou.
-- **Od přirozeného zotavování:** epistemické trauma **není** důvod patologizovat veškerou zkušenost po EA. Mnoho lidí se zotaví spontánně, jakmile prostředí EA opustí, zvlášť pokud delegitimizace náhradních zdrojů opory nebyla úplná. Přetrvávající epistemické trauma obvykle ukazuje na pokročilou nebo dlouhodobou expozici; koncovým stavem zatvrdlého přesvědčení se zabývá [kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md). Viz též [riziko medikalizace](@/kompendium/critical-perspectives/1-medicalization-critique.md).
+Od PTSD se obraz liší tím, co v něm chybí nebo přebývá: PTSD je vymezena znovuprožíváním,
+vyhýbáním a pocitem trvalé hrozby, a epistemické následky mezi její kritéria nepatří (American
+Psychiatric Association, 2022). Souběh je častý, ale nejde o totéž.
 
-## Význam pro Kompendium
+Od komplexní PTSD se liší důrazem, ne předmětem. Diagnóza MKN-11 přidává k jádru PTSD tři
+okruhy poruch sebeorganizace — afektivní dysregulaci, negativní sebepojetí a narušené vztahy
+(World Health Organization, 2019) —, a část epistemických rysů do negativního sebepojetí
+spadá. Analýza latentních profilů potvrzuje, že komplexní PTSD a PTSD jsou odlišitelné obrazy
+(Cloitre a kol., 2013); kritéria poznání mezi nimi ale nerozhodují, a tam kniha svůj pojem
+umisťuje (*interpretace knihy*). Nejbližší diagnostický rámec popisuje heslo
+[C-PTSD](@/glossary/c-ptsd.md).
 
-Průběh zotavení z epistemického traumatu byl zkoumán méně soustavně než u PTSD a komplexní PTSD. Kompendium shrnuje dostupné poznatky a klinickou zkušenost do **předběžného stupňovitého modelu**:
+Od [disociace](@/glossary/disociace.md) je rozlišení mechanismem: disociativní mezery v paměti
+nejsou totéž jako nedůvěra k paměti, která může být neporušená (American Psychiatric
+Association, 2022). Od obsedantně kompulzivní poruchy odlišuje historie a kontext vzniku,
+protože nutkavé ověřování vypadá velmi podobně.
 
-| fáze | cíl |
-|---|---|
-| **stabilizace** | obnovit základní fungování a bezpečí |
-| **podepřená obnova důvěry** | postupně se vracet k důkazům s nízkou sázkou s výslovnou vnější oporou – písemnými záznamy, důvěryhodnými třetími osobami |
-| **oprava kalibrace** | záměrně trénovat na úlohách s objektivní zpětnou vazbou |
-| **integrace** | začlenit zkušenost EA do soudržného autobiografického vyprávění bez [retraumatizace](@/glossary/retraumatizace.md) |
+Od přirozeného doznívání je nutné odlišit stav, který sám ustupuje. Mnoho lidí se po opuštění
+prostředí zotaví bez zásahu, zvlášť nebyla-li delegitimizace náhradních zdrojů úplná, a dlouhé
+přetrvávání ukazuje na dlouhou nebo intenzivní expozici (Herman, 1992). Patologizovat každou
+nejistotu po takové zkušenosti je samostatné riziko, které rozebírá kritická perspektiva
+[medikalizace](@/kompendium/critical-perspectives/1-medicalization-critique.md).
 
-Kompendium výslovně varuje před předčasným **zásahem na úrovni obsahu**: dohadovat se o pravdivosti konkrétních tvrzení s člověkem, jehož schopnost epistemické důvěry je poškozena, často retraumatizuje místo pomoci. Obnova struktury musí předcházet obnově obsahu. Český výklad: [Trauma](@/kompendium/recovery-protocols/trauma.md).
+## Klinický, právní a etický rámec
 
-Na platformě Prismatic, z níž kniha vzešla, model zotavení ovlivňuje návrh platformy stejně jako nástroje pro uživatele:
+Klinicky se nediagnostikuje epistemické trauma, nýbrž to, co kritéria pokrývají; pojem slouží
+k popisu cíle práce. Konsenzuální doporučení pro komplexní trauma u dospělých staví na fázovém
+postupu, tedy na stabilizaci, zpracování traumatických vzpomínek a integraci (Cloitre a kol.,
+2012). Kniha z toho přejímá pořadí, nikoli nové kategorie.
 
-- [Decision Engine](@/glossary/decision-engine.md) je strukturně navržen pro **podepřenou obnovu důvěry**: výslovné vnější záznamy, kalibrační zpětná vazba a sledování rozmanitosti zdrojů jsou přesně to, co zotavení z epistemického traumatu potřebuje. Člověk v zotavení se může opírat o metakognitivní lešení platformy, zatímco se jeho vlastní [metakognice](@/glossary/metakognice.md) obnovuje.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) vede **neměnné záznamy pozorování**, které přežijí subjektivní pochybnost – zásadní vlastnost tam, kde byla poškozena důvěra ve vlastní paměť. Záznam existuje nezávisle na aktuálním epistemickém stavu člověka.
-- [Blue Team](@/glossary/blue-team.md) v rámci [Color Teams](@/glossary/color-teams.md) zahrnuje scénáře z doložených případů zotavení a ověřuje, že uživatelské rozhraní neúmyslně nereprodukuje vzorce blízké traumatu (náhlé tiché změny záznamů, nevysvětlené přerámování, potlačení událostí, které uživatel potvrdil).
+Zásadní je varování před předčasným zásahem na úrovni obsahu. Dohadovat se o pravdivosti
+jednotlivých tvrzení s člověkem, jehož schopnost epistemické důvěry je poškozena, zpravidla
+stav zhoršuje, protože opakuje strukturu původního vztahu (Abramson, 2014). Obnova struktury
+předchází obnově obsahu; odpovídající postup popisuje [protokol
+trauma](@/kompendium/recovery-protocols/trauma.md).
+
+Forenzně je podstatné, že fragmentovaná a nejistě podaná výpověď není obsahově méně
+spolehlivá. Právě předpoklad opačný je testimoniální nespravedlností, před níž Fricker varuje
+(Fricker, 2007), a praxi k tomu vede stránka o [hodnocení
+věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md).
 
 ## Obrana a zotavení
 
-**Pro dotčeného:** vést datovaný deník událostí a uchovávat originály zpráv ([paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md)); ověřovat drobnosti u lidí, kteří nejsou součástí původního prostředí; volit úlohy s jasnou zpětnou vazbou.
+Pro dotčeného je nejúčinnější vnější opora proti pochybnosti: datovaný záznam událostí
+a uchované originály zpráv, protože doklad existuje nezávisle na aktuální míře důvěry
+k vlastní paměti. Herman řadí obnovu bezpečí a vnějšího řádu do první fáze zotavení (Herman,
+1992); praktickou podobu má v [paměťovém
+archivu](@/kompendium/self-defense-guides/43-memory-archive.md).
 
-**Pro profesionála:** postupovat podle [stabilizačního protokolu](@/kompendium/recovery-protocols/acute-stabilization-protocol.md), teprve potom pracovat s [obnovou důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md); nehodnotit obsah vzpomínek dřív, než je obnovena schopnost s nimi pracovat; při forenzním využití dbát na [dokumentaci](@/kompendium/forensic-legal/31-clinical-documentation-EA.md).
+Dále pomáhá kalibrace na drobnostech: zapsat odhad a výsledek u úloh s jasnou zpětnou vazbou.
+Měření metakognice ukazuje, že rozdíl mezi jistotou a výkonem je zjistitelný a že se mu lze
+věnovat odděleně od obsahu přesvědčení (Fleming a Lau, 2014; Nelson, 1996). Navazuje na to
+[metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md).
+
+Pro profesionála platí pořadí stabilizace a teprve potom obnovy důvěry, s dokumentací vedenou
+slovy klienta (Cloitre a kol., 2012). Pro blízké osoby je užitečné vědět, že nejvíc pomáhá
+trpělivé potvrzování konkrétních faktů a obyčejný společný život, ne přesvědčování o celkové
+správnosti úsudku (Herman, 1992).
+
+## Meze a kritika
+
+Hlavní mezí je doloženost. Pojem spojuje jevy popsané v různých oborech, ale sám nebyl
+operacionalizován ani měřen, takže o jeho průběhu, výskytu a reverzibilitě nelze tvrdit nic
+nad to, co platí o komplexním traumatu (Brewin a kol., 2017). Kniha proto nepřebírá žádné
+tvrzení o nevratnosti.
+
+Druhou mezí je riziko záměny. Čím přesvědčivěji pojem zní, tím snáz se jím vysvětlí obyčejná
+nejistota nebo depresivní sebehodnocení; rozlišení patří klinikovi a opírá se o kritéria, ne
+o rámec knihy (American Psychiatric Association, 2022). Koncový stav zatvrdlého přesvědčení
+popisuje heslo [kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md).
 
 ## Literatura
 
-- Judith Lewis Herman: *Trauma and Recovery* (1992).
-- Jennifer J. Freyd: *Betrayal Trauma: The Logic of Forgetting Childhood Abuse* (1996).
-- Miranda Fricker: *Epistemic Injustice* (2007).
+- Abramson, K. (2014). *Turning up the lights on gaslighting*. Philosophical Perspectives.
+- American Psychiatric Association (2022). *Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR)*. American Psychiatric Publishing.
+- Brewin, C. R., Cloitre, M., Hyland, P., et al. (2017). *A review of current evidence regarding the ICD-11 proposals for diagnosing PTSD and complex PTSD*. Clinical Psychology Review.
+- Carel, H., & Kidd, I. J. (2014). *Epistemic injustice in healthcare: A philosophical analysis*. Medicine, Health Care and Philosophy.
+- Cloitre, M., Courtois, C. A., Ford, J. D., et al. (2012). *The ISTSS Expert Consensus Treatment Guidelines for Complex PTSD in Adults*. International Society for Traumatic Stress Studies.
+- Cloitre, M., Garvert, D. W., Brewin, C. R., Bryant, R. A., & Maercker, A. (2013). *Evidence for proposed ICD-11 PTSD and complex PTSD: A latent profile analysis*. European Journal of Psychotraumatology.
+- Fleming, S. M., & Lau, H. C. (2014). *How to measure metacognition*. Frontiers in Human Neuroscience.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Nelson, T. O. (1996). *Consciousness and metacognition*. American Psychologist.
+- Sweet, P. L. (2019). *The sociology of gaslighting*. American Sociological Review.
+- World Health Organization (2019). *International Classification of Diseases, 11th Revision (ICD-11)*, 6B41 Complex post-traumatic stress disorder.
 
 ## Související
 
 **Pojmy**
 
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – příčinný model hrozby.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – nadřazený model hrozby.
 - [Epistemická alienace](@/glossary/epistemicka-alienace.md) – úzce příbuzný fenomenologický stav.
-- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – často souběžná vrstva poškození.
-- [Gaslighting](@/glossary/gaslighting.md) – častý spouštěcí vzorec.
-- [Delegitimizace](@/glossary/delegitimizace.md) – strukturní předpoklad, který bývá přítomen.
-- [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) – koncový stav zatvrdlého přesvědčení.
-- [C-PTSD](@/glossary/c-ptsd.md) – nejbližší klinická diagnóza.
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – souběžná vrstva poškození.
+- [Gaslighting](@/glossary/gaslighting.md) – nejčastější vstupní vzorec.
+- [Delegitimizace](@/glossary/delegitimizace.md) – strukturní předpoklad izolace.
+- [C-PTSD](@/glossary/c-ptsd.md) – nejbližší diagnostická kategorie.
+- [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) – zatvrdlý koncový stav.
+- [Fenomenologie](@/glossary/fenomenologie.md) – metoda popisu změn danosti.
 
-**Kniha**
+**Klinika a zotavení**
 
 - [Epistemické trauma v teoretické části](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md) – rozšířený výklad.
 - [Trauma](@/kompendium/recovery-protocols/trauma.md) – protokol zotavení.
-- [Kompendium](@/kompendium/_index.md) – úplná taxonomie.
+- [Metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md) – práce s kalibrací.
+- [Paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md) – vnější opora proti pochybnosti.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

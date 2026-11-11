@@ -21,129 +21,184 @@ image_alt = "Epistemic bubble – glosář"
 
 ## Definice
 
-**Epistemická bublina** (angl. *epistemic bubble*) je podle C. Thi Nguyena („Echo Chambers
-and Epistemic Bubbles“, *Episteme*, 2020) strukturální epistemické prostředí, v němž
-**relevantní alternativní hlasy chybějí**. Rozhodujícím rysem je *nepřítomnost
-z výchozího stavu*: člověk v bublině není vystaven vyvracejícím důkazům ne proto, že by je
-odmítal, ale proto, že se k němu nikdy nedostanou. Mechanismem je **opomenutí**, nikoli
-**vyvracení**.
+Epistemická bublina (*epistemic bubble*) je podle C. Thi Nguyena strukturální epistemické
+prostředí, v němž relevantní alternativní hlasy chybějí. Rozhodujícím rysem je nepřítomnost
+z výchozího stavu: člověk v bublině není vystaven vyvracejícím dokladům ne proto, že by je
+odmítal, ale proto, že se k němu nedostanou; mechanismem je opomenutí, nikoli vyvracení
+(Nguyen, 2020).
 
-Nguyenovo rozlišení **bubliny** a **ozvěnové komory** (*echo chamber*) je pro praxi
-zásadní:
+Pojem má smysl jen ve dvojici s ozvěnovou komorou (*echo chamber*), kterou Nguyen vymezuje
+jako prostředí, jež vnější hlasy aktivně znevažuje, a to ještě dřív, než se objeví. Rozdíl
+není v míře uzavřenosti, ale v tom, kde je škoda a co proti ní zabírá (Nguyen, 2020):
 
 | | Epistemická bublina | Ozvěnová komora |
 |---|---|---|
-| Mechanismus | strukturální opomenutí protihlasů | aktivní diskreditace protihlasů |
-| Odolnost | *snadno se protrhne* – po předložení vyvracejícího důkazu člověk normálně reviduje | *odolává protržení* – vyvracející důkaz je preventivně označen za nedůvěryhodný, *dřív* než přijde |
+| Mechanismus | strukturální opomenutí protihlasů | aktivní znevážení protihlasů |
+| Odolnost | snadno se protrhne – po předložení dokladu člověk běžně reviduje | odolává protržení – doklad je předem označen za nedůvěryhodný |
 | Kde je škoda | v prostředí, ne uvnitř člověka | uvnitř, ve struktuře důvěry |
 | Co pomáhá | expozice | oprava struktury důvěry |
 
 ## Původ a kontext pojmu
 
-Nguyen navázal na diskuse o „filtrovacích bublinách“ algoritmických doporučení a ukázal, že
-se v nich mísí dva odlišné jevy. Bubliny se při expozici rozpouštějí; ozvěnové komory se při
-expozici posilují – protihlas byl *předpovězen* a jeho příchod potvrzuje vyprávění komory.
-Ozvěnová komora tak má blízko k [delegitimizaci](@/glossary/delegitimizace.md) a k imunizačním
-technikám.
+Nguyen navázal na starší diskusi o „filtrovacích bublinách“ algoritmických doporučení, v níž
+se tvrdilo, že personalizace odřízne uživatele od nepohodlných informací (Pariser, 2011).
+Jeho přínosem je rozlišení dvou jevů, které se v této diskusi mísily, a tvrzení, že jen
+druhý z nich je skutečně odolný: komora se expozicí posiluje, protože příchod protihlasu
+byl předpovězen a jeho výskyt potvrzuje vyprávění komory (Nguyen, 2020).
 
-V dnešní digitální infrastruktuře je hlavním mechanismem vzniku bublin **algoritmická
-kurace**: doporučovací systémy optimalizované na zapojení vytvářejí jednolitou informační
-stravu, aniž by alternativy záměrně vylučovaly. Bublina je emergentní, ne navržená. To
-komplikuje odpovědnost: neexistuje zlovolný aktér, ale epistemická škoda je skutečná.
+Teoretickým předchůdcem komory je popis uzavřených skupin s omezeným přístupem k informacím,
+které vytvářejí „ochromenou epistemologii“, v níž se přesvědčení nemohou korigovat (Sunstein
+a Vermeule, 2009). Politologický rozbor téhož jevu v digitálním prostředí popisuje, jak
+zužování vstupu oslabuje schopnost demokratické společnosti vést spor (Sunstein, 2017). Starší
+obhajobou téhož principu je argument, že pravda, která není vystavena námitce, se stává
+mrtvým dogmatem (Mill, 1859).
+
+Empirická část je méně jednoznačná, než se v populární debatě předpokládá. Měření skutečné
+spotřeby zpráv ukázalo, že většina uživatelů se s odlišnými názory potkává víc než v offline
+prostředí a že algoritmus snižuje rozmanitost méně než vlastní volba uživatele (Bakshy a kol.,
+2015; Flaxman a kol., 2016). Přehled k tématu proto varuje před přijetím silné verze teze
+o ozvěnových komorách (Guess a kol., 2018).
 
 ## Jak se projevuje
 
-- člověk o protichůdném názoru „nikdy neslyšel“, ale když se s ním setká, je ochoten jej
-  zvážit (bublina);
-- člověk protichůdný názor zná jen ve zkreslené podobě, kterou mu předložila vlastní
-  skupina, a předem ví, proč je „lživý“ (komora);
-- všechny zdroje, které člověk sleduje, pocházejí z jedné rodiny – i když jsou jednotlivě
-  kvalitní (viz detekční signatura [Monokultura
-  zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md));
-- překvapení z výsledků voleb, rozhodnutí nebo reakcí okolí, které „nikdo nečekal“.
+Bublinu pozná člověk podle toho, že o protichůdném názoru „nikdy neslyšel“, ale po setkání
+s ním je ochoten jej zvážit; právě tato ochota je podle Nguyenova vymezení rozdílem mezi
+bublinou a komorou (Nguyen, 2020). Komoru naopak pozná podle toho, že protichůdný názor zná
+jen ve zkreslené podobě, kterou mu předložila vlastní skupina, a předem ví, proč je lživý
+(Sunstein a Vermeule, 2009).
+
+Druhým znakem je jednota rodiny zdrojů: všechny zdroje, které člověk sleduje, mají společný
+původ, i když jsou jednotlivě kvalitní, a jejich počet proto nic nevypovídá o nezávislosti
+(Flaxman a kol., 2016). Detekční rovinu popisuje signatura [monokultury
+zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md).
+
+Třetím znakem je opakované překvapení zvenčí: výsledky voleb, rozhodnutí institucí nebo
+reakce okolí, které „nikdo nečekal“, ukazují, že chybějící vstup se projevil až v predikci
+(Sunstein, 2017). Vnitřní podoba téhož stavu, tedy ztráta důvěry v možnost poznání vůbec,
+patří už k [epistemické alienaci](@/glossary/epistemicka-alienace.md) a je následkem, ne
+znakem bubliny (*interpretace knihy*).
 
 ## Mechanismus
 
-Bublina působí **zúžením vstupu**, nikoli změnou zpracování. Proto je v modelu hrozeb
-chápána jako **výchozí podmínka** několika technik [epistemické
-anihilace](@/glossary/epistemicka-anihilace.md), nikoli jako EA v pravém smyslu.
-Konkrétně [EA-1.1.1 Selektivní
-expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) a [EA-1.1.2 Informační
-přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) působí tak, že již
-existující bublinu *prohlubují*, dokud se epistemické pole člověka nezhroutí na jediný
-zdroj (souhrnné heslo: [EA-1-1-1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)). Bublina, do níž
-někdo začne aktivně vkládat diskreditaci vnějších hlasů, se mění v komoru; z komory, která
-pohltí i sociální vztahy, se může stát [High Control Group](@/glossary/high-control-group.md).
+Bublina působí zúžením vstupu, nikoli změnou zpracování; proto je v modelu hrozeb knihy brána
+za výchozí podmínku některých technik [epistemické
+anihilace](@/glossary/epistemicka-anihilace.md), ne za epistemickou anihilaci samu
+(*interpretace knihy*). Rozlišení odpovídá Nguyenovu tvrzení, že u bubliny je poškozeno
+prostředí, a nikoli struktura důvěry člověka (Nguyen, 2020); metodické zásady uvádějí
+[metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
+
+Prohlubování bubliny popisuje kniha u dvou technik: [selektivní
+expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) a [informačního
+přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md). Obě využívají téhož
+mechanismu – omezené pozornosti, kterou lze buď odklonit, nebo vyčerpat, takže na prověření
+nezbude kapacita (Nguyen, 2020).
+
+V digitálním prostředí vzniká bublina často bez jakéhokoli záměru, jako emergentní výsledek
+doporučovacích systémů optimalizovaných na zapojení; odpovědnost je proto obtížně
+přiřaditelná, byť epistemická škoda je skutečná (Pariser, 2011). Měření však ukazují, že podíl
+vlastní volby je u tohoto zúžení větší než podíl algoritmu, takže čistě technické vysvětlení
+nestačí (Bakshy a kol., 2015).
+
+Bublina, do níž začne někdo aktivně vkládat znevážení vnějších hlasů, se mění v komoru,
+a komora, která pohltí i sociální vztahy, se může stát prostředím s vysokou kontrolou
+([high control group](@/glossary/high-control-group.md)); přechod odpovídá tomu, že uzavřené
+skupiny s omezeným vstupem si vytvářejí vlastní pravidla hodnocení dokladů (Sunstein
+a Vermeule, 2009).
 
 ## Odlišení
 
-- **Ozvěnová komora** – viz tabulka výše.
-- **[Epistemická monokultura](@/glossary/epistemicka-monokultura.md)** – stav celého
-  ekosystému (instituce, obor, společnost), nikoli jednotlivce.
-- **[Konfirmační bias](@/glossary/konfirmacni-bias.md)** – vnitřní sklon vybírat potvrzující
-  informace; bublina je vnější struktura, která tento sklon zesiluje.
-- **Specializace** – odborník, který čte jen literaturu svého oboru, je v bublině jen
-  tehdy, chybějí-li mu hlasy relevantní pro jeho úsudek.
+Od ozvěnové komory se bublina liší mechanismem i tím, co proti ní zabírá, jak uvádí tabulka
+výše; sloučení obou pojmů je nejčastější chybou v užívání termínu (Nguyen, 2020). Od
+[epistemické monokultury](@/glossary/epistemicka-monokultura.md) se liší rovinou: monokultura
+popisuje stav celého ekosystému, bublina informační okolí jednoho člověka (*interpretace
+knihy*), což odpovídá tomu, že Nguyen pojem zavádí na úrovni jednotlivého poznávajícího
+(Nguyen, 2020).
+
+Od [konfirmačního biasu](@/glossary/konfirmacni-bias.md) se liší umístěním: bias je vnitřní
+sklon vybírat potvrzující informace, bublina vnější struktura, která tento sklon zesiluje;
+právě proto se obě vysvětlení v empirických studiích obtížně oddělují (Flaxman a kol., 2016).
+Od odborné specializace se liší relevancí: odborník, který čte jen literaturu svého oboru,
+je v bublině teprve tehdy, chybějí-li mu hlasy podstatné pro jeho úsudek (Nguyen, 2020).
 
 ## Význam pro Kompendium
 
-Na platformě, z níž kniha vzešla, implementuje proces [NABLA
-Infinity](@/glossary/nabla-infinity.md) **hodnocení rozmanitosti zdrojů** jako
-strukturální obranu: příchozí signály jsou označeny původem a metrikami rozmanitosti;
-pokud skóre rozmanitosti v klouzavém okně klesne pod práh, [Decision
-Engine](@/glossary/decision-engine.md) uplatní na každé rozhodnutí čerpající z dat tohoto
-okna penalizaci důvěry `BUBBLE_RISK`. Tím se Nguyenovo doporučení převádí do provozu:
-*měřit strukturální vlastnost, nikoli propoziční obsah*. Souvislost s celkovou architekturou
-popisuje [Epistemic Pipeline](@/glossary/epistemic-pipeline.md).
+Pro knihu je hlavním důsledkem Nguyenova rozlišení pravidlo, že obrana se volí podle
+mechanismu: tam, kde chybí vstup, pomáhá expozice, tam, kde je poškozena struktura důvěry,
+nikoli (Nguyen, 2020). Z téhož plyne doporučení měřit strukturální vlastnost zdrojové
+skladby, ne propoziční obsah jednotlivých tvrzení (*interpretace knihy*); souvislost
+s architekturou platformy, z níž kniha vzešla, popisují hesla [epistemic
+pipeline](@/glossary/epistemic-pipeline.md) a [NABLA
+Infinity](@/glossary/nabla-infinity.md).
 
-Pro postupy [OSINT](@/glossary/osint.md) platí stejná logika: šetření, která stojí na
-jediné rodině zdrojů – i když jsou zdroje jednotlivě kvalitní –, se označují. Adaptéry
-zdrojů OSINT (v době zápisu jich platforma uváděla 128) jsou roztříděny podle rodin
-zdrojů právě proto, aby bylo možné automaticky auditovat rozmanitost napříč šetřeními.
+Pro postupy [OSINT](@/glossary/osint.md) platí stejná logika: šetření, které stojí na jediné
+rodině zdrojů, se označuje jako méně spolehlivé i tehdy, jsou-li zdroje jednotlivě kvalitní,
+protože nezávislost a počet nejsou totéž (Flaxman a kol., 2016). Rozhodovací vrstvu popisuje
+heslo [decision engine](@/glossary/decision-engine.md).
 
 ## Obrana a zotavení
 
-Rozlišení bubliny a komory určuje i odlišný postup v [protokolech
-zotavení](@/kompendium/recovery-protocols/_index.md): zotavení z bubliny klade důraz na
-expoziční protokoly, zotavení z komory na opravu struktury důvěry.
+U bubliny je prvním krokem vědomé rozšíření zdrojů a omezení algoritmických doporučení,
+protože u ní samotná expozice funguje (Nguyen, 2020). Praktickou podobu mají průvodci
+[kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) a [rutina napříč
+zdroji](@/kompendium/self-defense-guides/36-cross-source-routine.md); vlastní volba uživatele
+je přitom pákou s větším účinkem než nastavení platformy (Bakshy a kol., 2015).
 
-- **Bublina:** vědomě rozšiřovat zdroje (viz [Kurátorství
-  zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) a [Rutina napříč
-  zdroji](@/kompendium/self-defense-guides/36-cross-source-routine.md)); omezit algoritmická
-  doporučení.
-- **Komora:** expozice nestačí, může ji i posílit; nejdřív obnova důvěry k alespoň jednomu
-  vnějšímu člověku, pak postupné otevírání.
-- **Pro organizace:** do rozhodování záměrně zapojovat odlišné perspektivy, měřit
-  rozmanitost zdrojů v analýzách.
+U komory expozice nestačí a může stav zhoršit: experiment, v němž byli uživatelé po dobu
+několika týdnů vystaveni opačným politickým názorům, zjistil nárůst polarizace, nikoli její
+snížení (Bail a kol., 2018). Postupuje se proto nejprve obnovou důvěry k alespoň jednomu
+člověku zvenčí a teprve potom otevíráním obsahu; pořadí popisují [protokoly
+zotavení](@/kompendium/recovery-protocols/_index.md).
+
+Pro organizace platí, že odlišné perspektivy se do rozhodování zapojují záměrně a že
+rozmanitost zdrojů v analýzách je třeba měřit, protože bez měření se nedostatek vstupu pozná
+až na chybné predikci (Sunstein, 2017).
+
+## Meze pojmu a kritika
+
+Nguyenovo rozlišení je pojmové, ne empirické: neříká, jak častá která struktura je, a nelze je
+z jeho práce odvodit (Nguyen, 2020). Měření spotřeby zpráv navíc silnou verzi teze o bublinách
+oslabují, protože většina lidí čerpá z více rodin zdrojů, než se předpokládalo (Guess a kol.,
+2018). Pojem se proto nemá používat jako vysvětlení nesouhlasu druhé strany.
+
+Druhou mezí je obtížné měření. Rozmanitost zdrojů lze spočítat, nezávislost jejich původu však
+jen obtížně, zvlášť v prostředí, kde většina obsahu prochází několika velkými platformami
+(Flaxman a kol., 2016). Otevřenou otázkou zůstává, zda se dá hranice mezi bublinou a komorou
+u konkrétního člověka vůbec zjistit jinak než pokusem o expozici, u něhož hrozí zhoršení
+(Bail a kol., 2018).
 
 ## Literatura
 
-- C. Thi Nguyen: „Echo Chambers and Epistemic Bubbles“, *Episteme* (2020).
-- Eli Pariser: *The Filter Bubble* (2011).
+- Bail, C. A., Argyle, L. P., Brown, T. W., Bumpus, J. P., Chen, H., Hunzaker, M. B. F., Lee, J., Mann, M., Merhout, F., & Volfovsky, A. (2018). *Exposure to opposing views on social media can increase political polarization*. Proceedings of the National Academy of Sciences.
+- Bakshy, E., Messing, S., & Adamic, L. A. (2015). *Exposure to ideologically diverse news and opinion on Facebook*. Science.
+- Flaxman, S., Goel, S., & Rao, J. M. (2016). *Filter bubbles, echo chambers, and online news consumption*. Public Opinion Quarterly.
+- Guess, A., Nyhan, B., Lyons, B., & Reifler, J. (2018). *Avoiding the Echo Chamber about Echo Chambers*. Knight Foundation.
+- Mill, J. S. (1859). *On Liberty*. John W. Parker and Son.
+- Nguyen, C. T. (2020). *Echo chambers and epistemic bubbles*. Episteme.
+- Pariser, E. (2011). *The Filter Bubble*. Penguin Press.
+- Sunstein, C. R. (2017). *#Republic: Divided Democracy in the Age of Social Media*. Princeton University Press.
+- Sunstein, C. R., & Vermeule, A. (2009). *Conspiracy theories: Causes and cures*. Journal of Political Philosophy.
 
 ## Související
 
 **Pojmy**
 
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – nadřazený rámec hrozeb.
-- [Kompendium EA](@/glossary/kompendium-ea.md) – úplná taxonomická reference.
-- [Taxonomie EA](@/glossary/taxonomie-ea.md) – klasifikace `EA-X.Y.Z-α`.
-- [Epistemická alienace](@/glossary/epistemicka-alienace.md) – příbuzný jev odcizení.
-- [Epistemická monokultura](@/glossary/epistemicka-monokultura.md) – obdoba na úrovni
-  ekosystému.
+- [Epistemická monokultura](@/glossary/epistemicka-monokultura.md) – obdoba na úrovni ekosystému.
+- [Konfirmační bias](@/glossary/konfirmacni-bias.md) – vnitřní sklon, který bublina zesiluje.
+- [High control group](@/glossary/high-control-group.md) – komora, která pohltila i vztahy.
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) – následek na straně člověka.
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) – klasifikace technik knihy.
 
-**Platforma**
+**Techniky a detekce**
 
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – epistemická architektura
-  platformy.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) – měření rozmanitosti zdrojů.
+- [Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) – technika, která bublinu prohlubuje.
+- [Monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) – detekční signatura.
 
-**Detekce a obrana**
+**Obrana**
 
-- [Monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) –
-  detekční signatura.
-- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) – svépomocná
-  obrana.
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) – svépomocná obrana.
+- [Rutina napříč zdroji](@/kompendium/self-defense-guides/36-cross-source-routine.md) – pravidelné srovnávání zdrojů.
+- [Protokoly zotavení](@/kompendium/recovery-protocols/_index.md) – pořadí kroků u komory.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

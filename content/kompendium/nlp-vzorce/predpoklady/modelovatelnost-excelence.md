@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "dil
 catalog_sources_roots = ["miller-galanter-pribram-1960", "perls-1969", "satir-1972"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "gilovich-1991", "kahneman-2011", "lifton-1961", "lilienfeld-2015", "passmore-rowson-2019", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/predpoklady.b.toml"
@@ -252,6 +250,5 @@ dlouho to trvá a co přenést nelze, a neprezentovat vlastní úspěch jako dů
 
 - [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – předchozí heslo rodiny
 - [Nelze nekomunikovat](@/kompendium/nlp-vzorce/predpoklady/nelze-nekomunikovat.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1990"]
 catalog_sources_roots = ["bateson-1972", "korzybski-1933", "satir-1972"]
 catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "lifton-1961", "passmore-rowson-2019", "stark-2007", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/predpoklady.toml"
@@ -241,6 +239,5 @@ něco, co o nich „nevypovídá“.
 
 - [Respekt k modelu světa druhého](@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md) – předchozí heslo rodiny
 - [Lidé volí nejlepší dostupnou volbu](@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

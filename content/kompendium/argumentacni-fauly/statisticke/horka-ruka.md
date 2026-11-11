@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = []
 catalog_sources_critical = ["gilovich-1991", "gilovich-vallone-tversky-1985", "kahneman-2011", "nickerson-1998", "tversky-kahneman-1971"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/statisticke.toml"
 +++
@@ -228,6 +226,5 @@ nebo zdroje podle výkonu, pomáhá hodnotit výkon za delší období a s ohled
 
 - [Hráčský klam](@/kompendium/argumentacni-fauly/statisticke/hracsky-klam.md) – předchozí heslo rodiny
 - [Zkreslení přežitím](@/kompendium/argumentacni-fauly/statisticke/zkresleni-preziti.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

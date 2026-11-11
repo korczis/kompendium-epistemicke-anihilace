@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "oco
 catalog_sources_roots = ["erickson-rossi-rossi-1976", "levinson-1983", "popper-1959"]
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "ellis-1962", "hassan-1988", "herman-1992", "mcguire-1964", "sharpley-1987", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/milton-model.b.toml"
@@ -248,6 +246,5 @@ obnova spojení s ostatními je jeho nezbytnou součástí (Herman 1992).
 
 - [Komplexní ekvivalence v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/komplexni-ekvivalence-milton.md) – předchozí heslo rodiny
 - [Modální operátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/modalni-operatory-milton.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

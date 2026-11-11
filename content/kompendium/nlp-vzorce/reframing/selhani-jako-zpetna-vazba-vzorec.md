@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1990", "dilts-hallbom-smith-1990", "oconnor-se
 catalog_sources_roots = ["bateson-1972", "miller-galanter-pribram-1960", "popper-1959"]
 catalog_sources_critical = ["arkes-blumer-1985", "beck-1976", "ellis-1962", "festinger-1957", "herman-1992", "lifton-1961", "norcross-2006", "roderique-davies-2009", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/reframing.b.toml"
@@ -253,6 +251,5 @@ jeho vlastní metodě.
 **V katalogu**
 
 - [Rozrámcování](@/kompendium/nlp-vzorce/reframing/deframing.md) – předchozí heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

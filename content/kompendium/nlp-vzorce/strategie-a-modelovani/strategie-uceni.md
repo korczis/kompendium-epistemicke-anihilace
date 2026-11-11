@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-delozier-2000", "dilts-1980", "grinder-delozie
 catalog_sources_roots = ["bateson-1972", "miller-galanter-pribram-1960"]
 catalog_sources_critical = ["druckman-swets-1988", "heap-1988", "sharpley-1984", "sharpley-1987", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/strategie-a-modelovani.toml"
@@ -154,6 +152,5 @@ Základní obranou je vrátit neúspěch v učení do konkrétní roviny. Místo
 
 - [Strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md) – předchozí heslo rodiny
 - [Strategie reality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

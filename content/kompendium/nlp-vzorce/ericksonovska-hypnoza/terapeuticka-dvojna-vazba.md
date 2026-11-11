@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b"]
 catalog_sources_roots = ["bateson-1972", "bateson-1956", "erickson-rossi-rossi-1976", "haley-1973", "watzlawick-1967", "watzlawick-1974"]
 catalog_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "stark-2007", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/ericksonovska-hypnoza.b.toml"
@@ -248,6 +246,5 @@ vysvětlit bez ztráty smyslu, si zaslouží zvláštní etickou kontrolu.
 
 - [Vrstvení realit](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vrstveni-realit.md) – předchozí heslo rodiny
 - [Vědomě-nevědomá dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vedome-nevedoma-dvojna-vazba.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

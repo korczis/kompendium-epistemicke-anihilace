@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "charvet-1997", "dilts-1980"]
 catalog_sources_roots = []
 catalog_sources_critical = ["freedman-fraser-1966", "hassan-1988", "loftus-palmer-1974", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1984", "sharpley-1987", "vrij-2008", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/metaprogramy.toml"
@@ -240,6 +238,5 @@ posouzení. Kompendium popisuje příbuzné prostředí v kazuistice [investorsk
 
 - [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – předchozí heslo rodiny
 - [Režim přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/rezim-presvedceni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

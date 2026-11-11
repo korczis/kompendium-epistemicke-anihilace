@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1989", "andreas-andreas-1994", "andr
 catalog_sources_roots = []
 catalog_sources_critical = ["herman-1992", "lifton-1961", "rogers-1951", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/integrace-casti.toml"
@@ -143,6 +141,5 @@ Obranou je především rozlišovat mezi prožitkem a nárokem. Prožitek míru 
 
 - [Vizuální squash](@/kompendium/nlp-vzorce/integrace-casti/vizualni-squash.md) – předchozí heslo rodiny
 - [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

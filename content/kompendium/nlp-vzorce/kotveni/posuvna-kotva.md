@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
 catalog_sources_roots = ["pavlov-1927"]
 catalog_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Varianty", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/kotveni.toml"
@@ -246,6 +244,5 @@ jako doložená.
 
 - [Kruh excelence](@/kompendium/nlp-vzorce/kotveni/kruh-excelence.md) – předchozí heslo rodiny
 - [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

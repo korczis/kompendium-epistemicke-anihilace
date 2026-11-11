@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1994", "bandler-grinder-1975", "band
 catalog_sources_roots = ["korzybski-1933"]
 catalog_sources_critical = ["heap-1988", "kahneman-2011", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/jazykove-vzorce.toml"
@@ -161,6 +159,5 @@ Výzkum očkování proti přesvědčování naznačuje, že kdo předem zná st
 
 - [Hierarchie myšlenek](@/kompendium/nlp-vzorce/jazykove-vzorce/hierarchie-idei.md) – předchozí heslo rodiny
 - [Chunking dolů](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

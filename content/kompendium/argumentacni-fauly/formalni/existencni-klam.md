@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "hamblin-1970", "eemeren-g
 catalog_sources_roots = ["levinson-1983", "whately-1826"]
 catalog_sources_critical = ["kahneman-2011", "kunda-1990", "lifton-1961", "stanovich-west-2000"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/formalni.b.toml"
 +++
@@ -253,6 +251,5 @@ pravidlo?“, ztrácí sklon tiše doplňovat premisu, kterou mu nikdo nedoloži
 
 - [Čtyři termíny](@/kompendium/argumentacni-fauly/formalni/ctyri-terminy.md) – předchozí heslo rodiny
 - [Potvrzení disjunktu](@/kompendium/argumentacni-fauly/formalni/potvrzeni-disjunktu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
 catalog_sources_roots = ["pavlov-1927"]
 catalog_sources_critical = ["hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "miller-rollnick-2013", "singer-lalich-1995", "stark-2007", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/submodality.b.toml"
@@ -232,6 +230,5 @@ a znovu si vytvořit vztah k lidem na základě vlastní zkušenosti. Užitečn�
 
 - [Vzorec Godiva](@/kompendium/nlp-vzorce/submodality/vzorec-godiva.md) – předchozí heslo rodiny
 - [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

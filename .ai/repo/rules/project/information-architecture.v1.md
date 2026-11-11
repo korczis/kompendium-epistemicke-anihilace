@@ -106,15 +106,15 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | top | `page_template` | section | autorský | str |  |
 | top | `sort_by` | catalog-index | odvozený (`scripts/catalogs.py`) | str | `date`, `update_date`, `title`, `title_bytes`, `weight`, `slug`, `none` |
 | top | `sort_by` | page, section | autorský | str | `date`, `update_date`, `title`, `title_bytes`, `weight`, `slug`, `none` |
-| top | `template` | catalog-index, catalog-trainer | odvozený (`scripts/catalogs.py`) | str |  |
+| top | `template` | catalog-index | odvozený (`scripts/catalogs.py`) | str |  |
 | top | `template` | page, section | autorský | str |  |
 | top | `title` | všechny | autorský | str |  |
-| top | `title` | catalog, catalog-index, catalog-trainer | odvozený (`scripts/catalogs.py`) | str |  |
+| top | `title` | catalog, catalog-index | odvozený (`scripts/catalogs.py`) | str |  |
 | top | `weight` | všechny | autorský | int |  |
-| top | `weight` | catalog, catalog-index, catalog-trainer | odvozený (`scripts/catalogs.py`) | int |  |
-| taxonomies | `categories` | catalog, catalog-trainer | odvozený (`scripts/catalogs.py`) | list |  |
+| top | `weight` | catalog, catalog-index | odvozený (`scripts/catalogs.py`) | int |  |
+| taxonomies | `categories` | catalog | odvozený (`scripts/catalogs.py`) | list |  |
 | taxonomies | `categories` | page, technique, quick-reference | autorský | list |  |
-| taxonomies | `tags` | catalog, catalog-trainer | odvozený (`scripts/catalogs.py`) | list |  |
+| taxonomies | `tags` | catalog | odvozený (`scripts/catalogs.py`) | list |  |
 | taxonomies | `tags` | page, glossary, technique, quick-reference | autorský, chybí-li, doplní `scripts/normalize-front-matter.py` | list |  |
 | extra | `abbreviation` | glossary | autorský | str |  |
 | extra | `academic_paper` | section | autorský | bool |  |
@@ -150,11 +150,10 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `blocking_methods` | glossary | autorský | list |  |
 | extra | `bypass_mechanisms` | glossary | autorský | str |  |
 | extra | `call_sign` | glossary | autorský | str |  |
-| extra | `canonical` | catalog, catalog-index, catalog-trainer | odvozený (`scripts/catalogs.py`) | str |  |
+| extra | `canonical` | catalog, catalog-index | odvozený (`scripts/catalogs.py`) | str |  |
 | extra | `cascade_phases` | glossary | autorský | int |  |
-| extra | `catalog` | catalog, catalog-index, catalog-trainer | odvozený (`scripts/catalogs.py`) | str |  |
-| extra | `catalog_*` | catalog, catalog-index, catalog-trainer | odvozený (`scripts/catalogs.py`) | str, int, bool, list, table |  |
-| extra | `catalogs` | catalog-trainer | odvozený (`scripts/catalogs.py`) | list |  |
+| extra | `catalog` | catalog, catalog-index | odvozený (`scripts/catalogs.py`) | str |  |
+| extra | `catalog_*` | catalog, catalog-index | odvozený (`scripts/catalogs.py`) | str, int, bool, list, table |  |
 | extra | `categories` | catalog-index | odvozený (`scripts/catalogs.py`) | list |  |
 | extra | `categories` | page, section | autorský | list |  |
 | extra | `categories_count` | section | autorský | int |  |
@@ -403,7 +402,7 @@ Tabulka níže je z něj vygenerovaná (`--doc --fix`), ručně se neupravuje a
 | extra | `tier` | glossary | autorský | str |  |
 | extra | `tier_levels` | glossary | autorský | list |  |
 | extra | `time_to_learn` | glossary | autorský | str |  |
-| extra | `toc` | catalog, catalog-index, catalog-trainer | odvozený (`scripts/catalogs.py`) | bool |  |
+| extra | `toc` | catalog, catalog-index | odvozený (`scripts/catalogs.py`) | bool |  |
 | extra | `toc` | page, section, technique, quick-reference | autorský | bool |  |
 | extra | `tools` | glossary | autorský | list |  |
 | extra | `total_agents` | glossary | autorský | int, str |  |

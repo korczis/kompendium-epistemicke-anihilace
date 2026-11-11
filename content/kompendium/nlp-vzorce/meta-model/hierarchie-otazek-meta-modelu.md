@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "grinder-bandler-1976", "ocon
 catalog_sources_roots = []
 catalog_sources_critical = ["herman-1992", "loftus-palmer-1974", "miller-rollnick-2013", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/meta-model.b.toml"
@@ -246,6 +244,5 @@ terapeut sám se vyhýbá dotazování, které by připomínalo prožité výsle
 
 - [Presupozice v meta-modelu](@/kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md) – předchozí heslo rodiny
 - [Meta-model jako výslechový nástroj](@/kompendium/nlp-vzorce/meta-model/meta-model-jako-vyslychaci-nastroj.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

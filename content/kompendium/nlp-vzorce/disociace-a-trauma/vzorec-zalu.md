@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1989", "andreas-andreas-1987"]
 catalog_sources_roots = []
 catalog_sources_critical = ["herman-1992", "lifton-1961", "lilienfeld-2015", "rogers-1951", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/disociace-a-trauma.toml"
@@ -238,6 +236,5 @@ pocitu, že selhal, když ho technika neodstranila.
 
 - [Alergický vzorec](@/kompendium/nlp-vzorce/disociace-a-trauma/alergicky-vzorec.md) – předchozí heslo rodiny
 - [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

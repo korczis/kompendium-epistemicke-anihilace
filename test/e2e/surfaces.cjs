@@ -37,7 +37,6 @@ const FIXED = [
   { path: 'kompendium/nlp-vzorce/', painted: 1, note: 'průzkumník katalogu NLP (ECharts graf vazeb)' },
   { path: 'kompendium/nlp-vzorce/milton-model/', painted: 1, note: 'průzkumník rodiny katalogu s předvybranou rodinou' },
   { path: 'kompendium/argumentacni-fauly/', painted: 1, note: 'průzkumník katalogu argumentačních faulů' },
-  { path: 'kompendium/trener/', painted: 0, count: ['[data-trener-msg]', 2], note: 'trenér rozpoznávání nad všemi katalogy' },
 ];
 
 // Nejodkazovanější stránka oddílu: stabilní reprezentant, který se mění jen s obsahem.

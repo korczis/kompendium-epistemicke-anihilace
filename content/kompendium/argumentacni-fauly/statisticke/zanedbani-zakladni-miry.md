@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = []
 catalog_sources_critical = ["gigerenzer-2002", "hahn-oaksford-2007", "kahneman-2011", "stanovich-west-2000", "thompson-schumann-1987", "tversky-kahneman-1974"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/statisticke.toml"
 +++
@@ -240,6 +238,5 @@ na které znak sedí také, a přitom hledanou vlastnost nemají.
 **V katalogu**
 
 - [Klam konjunkce](@/kompendium/argumentacni-fauly/statisticke/klam-konjunkce.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

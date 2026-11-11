@@ -49,8 +49,6 @@ catalog_sources_primary = ["hamblin-1970", "walton-2008", "walton-reed-macagno-2
 catalog_sources_roots = []
 catalog_sources_critical = ["gigerenzer-2002", "hahn-oaksford-2007", "stanovich-west-2000", "thompson-schumann-1987", "tversky-kahneman-1974"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Vztah k technikám kompendia", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.b.toml"
 +++
@@ -235,6 +233,5 @@ formulací.
 
 - [Dialektika a eristika](@/kompendium/argumentacni-fauly/teorie-argumentace/dialektika-a-eristika.md) – předchozí heslo rodiny
 - [Motivované uvažování](@/kompendium/argumentacni-fauly/teorie-argumentace/motivovane-uvazovani.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

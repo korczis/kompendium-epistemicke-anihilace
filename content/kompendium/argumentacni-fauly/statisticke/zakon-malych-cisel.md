@@ -49,8 +49,6 @@ catalog_sources_primary = ["damer-2009", "govier-2010"]
 catalog_sources_roots = []
 catalog_sources_critical = ["gilovich-1991", "kahneman-2011", "tversky-kahneman-1971", "tversky-kahneman-1974"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/statisticke.toml"
 +++
@@ -240,6 +238,5 @@ podpořila.
 
 - [Zkreslený výběr](@/kompendium/argumentacni-fauly/statisticke/zkresleny-vyber.md) – předchozí heslo rodiny
 - [Klam žalobce](@/kompendium/argumentacni-fauly/statisticke/klam-zalobce.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "grinder-delozier-1987", "oco
 catalog_sources_roots = []
 catalog_sources_critical = ["druckman-swets-1988", "gilovich-1991", "herman-1992", "kahneman-2011", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.b.toml"
@@ -148,6 +146,5 @@ Obrana proti zneužití pojmu spočívá v trvání na oddělení vjemu a výkla
 
 - [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – předchozí heslo rodiny
 - [Raport](@/kompendium/nlp-vzorce/zakladni-pojmy/raport.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

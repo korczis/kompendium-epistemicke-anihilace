@@ -49,8 +49,6 @@ catalog_sources_primary = ["govier-2010", "walton-reed-macagno-2008"]
 catalog_sources_roots = ["bentham-1824"]
 catalog_sources_critical = ["freedman-fraser-1966", "hahn-oaksford-2007", "tversky-kahneman-1983"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/predpoklady-argumentu.b.toml"
 +++
@@ -234,6 +232,5 @@ stojí, a obrana proti nim začíná právě rozpoznáním prvního kroku.
 
 - [Argument z neuvěřitelnosti](@/kompendium/argumentacni-fauly/predpoklady-argumentu/argument-z-neuveritelnosti.md) – předchozí heslo rodiny
 - [Klam utopených nákladů](@/kompendium/argumentacni-fauly/predpoklady-argumentu/klam-utopenych-nakladu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

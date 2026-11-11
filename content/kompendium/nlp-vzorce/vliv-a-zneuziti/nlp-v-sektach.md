@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = []
 catalog_sources_critical = ["hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/vliv-a-zneuziti.toml"
@@ -242,6 +240,5 @@ postup popisuje stránka [post-cult protokol](@/kompendium/techniques/ea-6-4-2-p
 
 - [NLP v komunitě „umění svádění“](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-komunite-svadeni.md) – předchozí heslo rodiny
 - [NLP ve výslechu a vyjednávání](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-ve-vyslechu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

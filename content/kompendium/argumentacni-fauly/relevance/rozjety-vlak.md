@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "walton-2008
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "hasher-1977", "mercier-sperber-2011", "paul-matthews-2016", "tversky-kahneman-1981", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Vztah k příbuzným heslům", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.toml"
 +++
@@ -251,6 +249,5 @@ dospívají k lepším závěrům, když si vyměňují důvody, a ne když se j
 
 - [Odvolání na většinu](@/kompendium/argumentacni-fauly/relevance/ad-populum.md) – předchozí heslo rodiny
 - [Odvolání na tradici](@/kompendium/argumentacni-fauly/relevance/odvolani-na-tradici.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

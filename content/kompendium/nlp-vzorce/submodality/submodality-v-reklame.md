@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "hasher-1977", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "roderique-davies-2009", "roozenbeek-2022", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/submodality.b.toml"
@@ -250,6 +248,5 @@ inokulace ukazuje, že poučení o manipulativních technikách zlepšuje jejich
 
 - [Prostorové umístění představ](@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md) – předchozí heslo rodiny
 - [Vzorec vnitřního kritika](@/kompendium/nlp-vzorce/submodality/zmena-kriticke-sebeprezentace.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["govier-2010", "hamblin-1970", "toulmin-1958", "walto
 catalog_sources_roots = ["bentham-1824", "popper-1959"]
 catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "hahn-oaksford-2007", "lilienfeld-2015", "norcross-2006", "petty-cacioppo-1986"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Vztah k technikám kompendia", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.b.toml"
 +++
@@ -240,6 +238,5 @@ institucích pomáhá trvat na tom, aby nové i zavedené postupy podléhaly ste
 
 - [Odvolání na tradici](@/kompendium/argumentacni-fauly/relevance/odvolani-na-tradici.md) – předchozí heslo rodiny
 - [Odvolání na emoce](@/kompendium/argumentacni-fauly/relevance/odvolani-na-emoce.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

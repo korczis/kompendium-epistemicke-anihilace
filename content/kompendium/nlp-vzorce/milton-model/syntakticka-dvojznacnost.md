@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "cop
 catalog_sources_roots = ["chomsky-1965", "erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
 catalog_sources_critical = ["druckman-swets-1988", "herman-1992", "kahneman-2011", "mcguire-1964", "passmore-rowson-2019", "sharpley-1987", "stark-2007"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/milton-model.b.toml"
@@ -250,6 +248,5 @@ v kontaktu s takovým klientem má mluvit jednoznačně a ověřovat, jak byl po
 
 - [Fonologická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/fonologicka-dvojznacnost.md) – předchozí heslo rodiny
 - [Rozsahová dvojznačnost](@/kompendium/nlp-vzorce/milton-model/rozsahova-dvojznacnost.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

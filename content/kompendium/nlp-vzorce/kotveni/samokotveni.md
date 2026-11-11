@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
 catalog_sources_roots = ["pavlov-1927"]
 catalog_sources_critical = ["hassan-1988", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/kotveni.toml"
@@ -229,6 +227,5 @@ podnětu i stavu a nepřipisovat technice účinnost, kterou výzkum nedoložil.
 
 - [Kotvení](@/kompendium/nlp-vzorce/kotveni/kotveni.md) – předchozí heslo rodiny
 - [Řetězení kotev](@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

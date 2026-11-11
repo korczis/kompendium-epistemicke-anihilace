@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "grinder-delozier-bandler-19
 catalog_sources_roots = ["pavlov-1927", "watzlawick-1967"]
 catalog_sources_critical = ["cialdini-2009", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "sharpley-1987", "stark-2007", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od běžných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/kotveni.toml"
@@ -247,6 +245,5 @@ běžné a odpovídá tomu, co víme o vyhasínání podmíněných reakcí (Pav
 
 - [Posuvná kotva](@/kompendium/nlp-vzorce/kotveni/posuvna-kotva.md) – předchozí heslo rodiny
 - [Vizuální kotvy](@/kompendium/nlp-vzorce/kotveni/vizualni-kotvy.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

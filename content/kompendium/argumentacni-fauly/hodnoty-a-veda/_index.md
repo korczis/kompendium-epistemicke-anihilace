@@ -109,8 +109,7 @@ kompendium je zvlášť důležité, že svědectví člověka o tom, co zažil,
 události; klamem je teprve zobecnění, které z něj vyvozuje víc, než nese. Teorie argumentace řadí
 svědectví mezi presumptivně oprávněná argumentační schémata, jejichž síla závisí na odpovědích na
 [kritické otázky](@/kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md) (Walton, Reed a Macagno 2008). Každé heslo rodiny proto
-obsahuje oddíl, který odlišuje klam od platné argumentace, a příklady v trenéru vždy zahrnují i
-neškodný kontrast.
+obsahuje oddíl, který odlišuje klam od platné argumentace a uvádí i neškodný kontrast.
 
 ## Vztah k ostatním rodinám katalogu
 
@@ -178,7 +177,7 @@ poctivým vysvětlením, co z ní lze a nelze vyvodit. Pro čtenáře, který se
 němž se fakta podřizovala ideálu skupiny nebo v němž se autorita opírala o neověřitelné učení,
 může být užitečné vědět, že otázka „jak to víme?“ není projevem nedůvěry ani neúcty, ale základním
 nástrojem poznání, ke kterému má právo každý. Hesla rodiny ukazují, jak tuto otázku formulovat u
-jednotlivých klamů, a trenér rozpoznávání umožňuje procvičit ji na příkladech. Výzkum psychologické
+jednotlivých klamů, vždy vedle platné argumentace, která se jim podobá. Výzkum psychologické
 inokulace naznačuje, že předběžné seznámení s manipulativními technikami zlepšuje schopnost lidí je
 rozpoznat (Roozenbeek a kol. 2022).
 
@@ -260,6 +259,5 @@ flowchart LR
 - [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md) – celý katalog a jeho rodiny
 - [Rétorické a dialogické taktiky](@/kompendium/argumentacni-fauly/dialekticke-taktiky/_index.md) – předchozí rodina katalogu
 - [Principy kritické diskuse a teorie argumentace](@/kompendium/argumentacni-fauly/teorie-argumentace/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = []
 catalog_sources_critical = ["gigerenzer-2002", "hahn-oaksford-2007", "kahneman-2011", "thompson-schumann-1987", "tversky-kahneman-1974"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/statisticke.toml"
 +++
@@ -239,6 +237,5 @@ téhož selhání (Thompson a Schumann 1987).
 
 - [Zákon malých čísel](@/kompendium/argumentacni-fauly/statisticke/zakon-malych-cisel.md) – předchozí heslo rodiny
 - [Klam obhájce](@/kompendium/argumentacni-fauly/statisticke/klam-obhajce.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

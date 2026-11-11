@@ -49,8 +49,6 @@ catalog_sources_primary = ["walton-2008"]
 catalog_sources_roots = []
 catalog_sources_critical = ["huff-1954", "kahneman-2011", "kunda-1990"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/statisticke.b.toml"
 +++
@@ -227,6 +225,5 @@ nezachycují, a trvat na tom, aby se o kvalitě rozhodovalo z úplnějšího obr
 
 - [Zavádějící živost](@/kompendium/argumentacni-fauly/statisticke/zavadejici-zivost.md) – předchozí heslo rodiny
 - [Klam hledání jinde](@/kompendium/argumentacni-fauly/statisticke/hledani-jinde.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

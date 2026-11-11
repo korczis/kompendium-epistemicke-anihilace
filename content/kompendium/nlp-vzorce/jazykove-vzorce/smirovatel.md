@@ -49,8 +49,6 @@ catalog_sources_primary = ["grinder-bandler-1976"]
 catalog_sources_roots = ["perls-1969", "satir-1972", "watzlawick-1967"]
 catalog_sources_critical = ["beck-1976", "herman-1992", "stark-2007", "tosey-mathison-2009", "vrij-2008", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/jazykove-vzorce.toml"
@@ -155,6 +153,5 @@ V terapii se s usmiřováním pracuje tak, že člověk znovu získává příst
 
 - [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) – předchozí heslo rodiny
 - [Obviňovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

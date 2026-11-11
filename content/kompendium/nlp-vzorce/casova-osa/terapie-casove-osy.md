@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "james-woodsm
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "norcross-2006", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/casova-osa.toml"
@@ -155,6 +153,5 @@ Pro člověka, který o terapii časové osy uvažuje, je první obranou zeptat 
 
 - [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – předchozí heslo rodiny
 - [Uvolnění negativních emocí na časové ose](@/kompendium/nlp-vzorce/casova-osa/uvolneni-negativnich-emoci.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
 catalog_sources_roots = ["erickson-rossi-1979", "erickson-rossi-rossi-1976"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "freedman-fraser-1966", "hassan-1988", "mcguire-1964", "miller-rollnick-2013", "sharpley-1987", "singer-lalich-1995", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/milton-model.toml"
@@ -247,6 +245,5 @@ jejich vlastní slabostí (Hassan 1988).
 
 - [Truismy](@/kompendium/nlp-vzorce/milton-model/truismy.md) – předchozí heslo rodiny
 - [Citace](@/kompendium/nlp-vzorce/milton-model/citace.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

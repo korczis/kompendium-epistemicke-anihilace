@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = []
 catalog_sources_critical = ["druckman-swets-1988", "gilovich-1991", "heap-1988", "lilienfeld-2015", "mcguire-1964", "passmore-rowson-2019", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Seznam literatury jako argument", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/kriticke-hodnoceni.toml"
@@ -247,6 +245,5 @@ pseudověda](@/kompendium/nlp-vzorce/kriticke-hodnoceni/nlp-jako-pseudoveda.md).
 
 - [Systematický přehled účinků na zdraví](@/kompendium/nlp-vzorce/kriticke-hodnoceni/systematicky-prehled-zdravi.md) – předchozí heslo rodiny
 - [Hodnocení Národní rady pro výzkum USA](@/kompendium/nlp-vzorce/kriticke-hodnoceni/hodnoceni-narodni-rady-pro-vyzkum.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

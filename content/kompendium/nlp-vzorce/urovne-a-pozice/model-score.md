@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-delozier-2000", "dilts-1980"]
 catalog_sources_roots = ["miller-galanter-pribram-1960", "watzlawick-1974"]
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "miller-rollnick-2013", "passmore-rowson-2019", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/urovne-a-pozice.b.toml"
@@ -232,6 +230,5 @@ toho, kdo rozhovor vede (Miller a Rollnick 2013).
 
 - [Trojí popis](@/kompendium/nlp-vzorce/urovne-a-pozice/troji-popis.md) – předchozí heslo rodiny
 - [Disneyova strategie](@/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

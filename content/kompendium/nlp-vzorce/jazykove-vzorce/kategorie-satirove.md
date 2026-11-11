@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "grinder-bandler-1976", "ocon
 catalog_sources_roots = ["perls-1969", "satir-1972", "watzlawick-1967"]
 catalog_sources_critical = ["herman-1992", "norcross-2006", "stark-2007", "vrij-2008", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/jazykove-vzorce.toml"
@@ -156,6 +154,5 @@ V terapii se s postoji pracuje tak, že člověk znovu získává přístup k to
 
 - [Laterální chunking](@/kompendium/nlp-vzorce/jazykove-vzorce/lateralni-chunking.md) – předchozí heslo rodiny
 - [Usmiřovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

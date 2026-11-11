@@ -49,8 +49,6 @@ catalog_sources_primary = ["oconnor-seymour-1990"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973"]
 catalog_sources_critical = ["herman-1992", "lifton-1961", "lilienfeld-2015", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "stark-2007", "sturt-2012"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/predpoklady.toml"
@@ -252,6 +250,5 @@ nic dalšího nepotřebuje.
 
 - [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – předchozí heslo rodiny
 - [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

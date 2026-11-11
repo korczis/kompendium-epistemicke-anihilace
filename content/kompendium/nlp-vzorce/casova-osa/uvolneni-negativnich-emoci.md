@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-1985", "james-woodsmall-1988"]
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "herman-1992", "kirsch-lynn-1995", "shapiro-1989", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/casova-osa.toml"
@@ -146,6 +144,5 @@ Základní obranou je realistické očekávání. Emoce, které člověka prová
 
 - [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – předchozí heslo rodiny
 - [Limitující rozhodnutí](@/kompendium/nlp-vzorce/casova-osa/limitujici-rozhodnuti.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

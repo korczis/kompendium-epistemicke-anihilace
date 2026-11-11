@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "oconnor-seymour-1990"]
 catalog_sources_roots = ["grice-1975", "levinson-1983"]
 catalog_sources_critical = ["chartrand-bargh-1999", "kirsch-lynn-1995", "petty-cacioppo-1986", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/vliv-a-zneuziti.b.toml"
@@ -250,6 +248,5 @@ smlouvy, pokud je to možné.
 **V katalogu**
 
 - [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – předchozí heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

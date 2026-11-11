@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "govier-2010
 catalog_sources_roots = ["grice-1975", "levinson-1983"]
 catalog_sources_critical = ["herman-1992", "kahneman-2011", "stanovich-west-2000", "stark-2007"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/formalni.toml"
 +++
@@ -233,6 +231,5 @@ druhé straně, je [potvrzení důsledku](@/kompendium/argumentacni-fauly/formal
 
 - [Potvrzení důsledku](@/kompendium/argumentacni-fauly/formalni/potvrzeni-dusledku.md) – předchozí heslo rodiny
 - [Nerozložený střední termín](@/kompendium/argumentacni-fauly/formalni/nerozlozeny-stredni-termin.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

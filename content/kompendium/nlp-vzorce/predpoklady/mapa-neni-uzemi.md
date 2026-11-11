@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
 catalog_sources_roots = ["bateson-1972", "korzybski-1933", "watzlawick-1974"]
 catalog_sources_critical = ["beck-1976", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/predpoklady.toml"
@@ -237,6 +235,5 @@ vlastní metodu, jinak se ze symetrického předpokladu stává nástroj autorit
 **V katalogu**
 
 - [Význam komunikace je reakce, kterou vyvolá](@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

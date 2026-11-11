@@ -49,8 +49,6 @@ catalog_sources_primary = ["hamblin-1970", "toulmin-1958", "walton-1995", "walto
 catalog_sources_roots = []
 catalog_sources_critical = ["gilovich-1991", "hahn-oaksford-2007", "herman-1992", "kunda-1990", "mercier-sperber-2011", "nickerson-1998"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Vztah k technikám kompendia", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.b.toml"
 +++
@@ -244,6 +242,5 @@ poškozených, je třeba trvat na tom, aby se jejich výpověď posoudila podle 
 
 - [Odvolání na přirozenost](@/kompendium/argumentacni-fauly/relevance/odvolani-na-prirozenost.md) – předchozí heslo rodiny
 - [Červený sleď](@/kompendium/argumentacni-fauly/relevance/cerveny-sled.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

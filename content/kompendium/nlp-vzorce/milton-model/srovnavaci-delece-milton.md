@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "gilovich-1991", "heap-1988", "herman-1992", "mcguire-1964", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/milton-model.c.toml"
@@ -233,6 +231,5 @@ chtít měl (Herman 1992).
 
 - [Řetězení sugescí](@/kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md) – předchozí heslo rodiny
 - [Presupozice v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/presupozice-milton.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

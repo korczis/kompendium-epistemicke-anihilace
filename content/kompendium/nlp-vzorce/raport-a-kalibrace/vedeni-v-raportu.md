@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "grinder-bandler-1981", "ocon
 catalog_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973"]
 catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "hassan-1988", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/raport-a-kalibrace.b.toml"
@@ -243,6 +241,5 @@ situace, která omezovala čas, informace a možnost odejít (Hassan 1988).
 
 - [Kalibrace souhlasu a nesouhlasu](@/kompendium/nlp-vzorce/raport-a-kalibrace/kalibrace-ano-ne.md) – předchozí heslo rodiny
 - [Přerušení raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/preruseni-raportu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

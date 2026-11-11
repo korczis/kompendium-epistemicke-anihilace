@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grin
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "ekman-2003", "herman-1992", "norcross-2006", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/submodality.toml"
@@ -241,6 +239,5 @@ v kompendiu uvádí ověřené cesty, jak s tělesnými projevy úzkosti pracova
 
 - [Swish](@/kompendium/nlp-vzorce/submodality/swish.md) – předchozí heslo rodiny
 - [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

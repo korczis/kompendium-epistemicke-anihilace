@@ -49,8 +49,6 @@ catalog_sources_primary = ["govier-2010", "walton-reed-macagno-2008"]
 catalog_sources_roots = []
 catalog_sources_critical = ["boykoff-boykoff-2004", "cialdini-2009", "cook-lewandowsky-ecker-2017", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Vztah k technikám kompendia", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/dialekticke-taktiky.b.toml"
 +++
@@ -244,6 +242,5 @@ jejich kvality a počtu a připustit, že mnoho otázek nemá dvě rovnocenné o
 
 - [Bulverismus](@/kompendium/argumentacni-fauly/dialekticke-taktiky/bulverismus.md) – předchozí heslo rodiny
 - [Vybírání podivínů](@/kompendium/argumentacni-fauly/dialekticke-taktiky/vybirani-podivinu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

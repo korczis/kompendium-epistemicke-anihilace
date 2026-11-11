@@ -49,8 +49,6 @@ catalog_sources_primary = ["hamblin-1970", "walton-1995", "walton-2008", "walton
 catalog_sources_roots = []
 catalog_sources_critical = ["hahn-oaksford-2007", "petty-cacioppo-1986"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.b.toml"
 +++
@@ -230,6 +228,5 @@ nástroj kritické diskuse v další taktiku sporu.
 
 - [Pravidlo užívání jazyka](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-uzivani-jazyka.md) – předchozí heslo rodiny
 - [Toulminův model argumentu](@/kompendium/argumentacni-fauly/teorie-argumentace/toulminuv-model.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

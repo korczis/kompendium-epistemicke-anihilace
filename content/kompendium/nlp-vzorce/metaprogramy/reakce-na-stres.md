@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "charvet-1997"]
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "lilienfeld-2015", "norcross-2006", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/metaprogramy.toml"
@@ -230,6 +228,5 @@ odnesl, a ověřit je proti současné zkušenosti (Beck 1976).
 
 - [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – předchozí heslo rodiny
 - [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

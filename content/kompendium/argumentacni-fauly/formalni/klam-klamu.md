@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "hamblin-197
 catalog_sources_roots = []
 catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "hahn-oaksford-2007", "kunda-1990", "mercier-sperber-2011", "nickerson-1998", "roozenbeek-2022"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/formalni.b.toml"
 +++
@@ -248,6 +246,5 @@ přesunům diskuse od věci k terminologii se kniha zabývá v části o
 **V katalogu**
 
 - [Klam maskovaného muže](@/kompendium/argumentacni-fauly/formalni/klam-maskovaneho-muze.md) – předchozí heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
 catalog_sources_roots = ["erickson-rossi-1979", "popper-1959"]
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "gilovich-1991", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "mcguire-1964", "passmore-rowson-2019", "rogers-1951", "stark-2007", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/milton-model.b.toml"
@@ -252,6 +250,5 @@ je jádrem zotavení z dlouhodobé kontroly (Herman 1992).
 
 - [Spojky a implikovaná příčinnost](@/kompendium/nlp-vzorce/milton-model/spojky-a-implikovana-pricinnost.md) – předchozí heslo rodiny
 - [Univerzální kvantifikátory v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/univerzalni-kvantifikatory-milton.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

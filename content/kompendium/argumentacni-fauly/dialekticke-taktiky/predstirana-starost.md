@@ -49,8 +49,6 @@ catalog_sources_primary = ["walton-1995", "walton-reed-macagno-2008", "eemeren-g
 catalog_sources_roots = ["bentham-1824"]
 catalog_sources_critical = ["cialdini-2009", "petty-cacioppo-1986", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Varianty", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/dialekticke-taktiky.b.toml"
 +++
@@ -231,6 +229,5 @@ prohlášením (Cialdini 2009).
 
 - [Vybírání podivínů](@/kompendium/argumentacni-fauly/dialekticke-taktiky/vybirani-podivinu.md) – předchozí heslo rodiny
 - [Argument z mlčení](@/kompendium/argumentacni-fauly/dialekticke-taktiky/argument-z-mlceni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

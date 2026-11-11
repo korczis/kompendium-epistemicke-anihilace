@@ -115,8 +115,8 @@ Poslední otázka je důležitá i pro odborníky. Pragmatika ukazuje, že vypou
 vlastností dorozumívání: mluvčí říká tolik, kolik je pro účel rozhovoru potřeba, a posluchač
 zbytek dovozuje z kontextu (Grice 1975; Levinson 1983). Ne každá vágní věta je známkou
 manipulace nebo patologie. Hesla rodiny proto u každé kategorie uvádějí i benigní příklady, ve
-kterých vypuštění, zobecnění nebo neurčitost nikomu neškodí, a trenér rozpoznávání je obsahuje
-jako kontrastní položky.
+kterých vypuštění, zobecnění nebo neurčitost nikomu neškodí, jako kontrast k manipulativnímu
+užití.
 
 ## Stav důkazů
 
@@ -150,8 +150,8 @@ mohou sloužit jako vnitřní kontrolní seznam posluchače: kdo to říká, pod
 bezpečný a kde odpověď může něco změnit. Posouzení obsahu sdělení místo jeho tónu a sebejistoty
 mluvčího odpovídá tomu, co výzkum přesvědčování popisuje jako centrální cestu zpracování (Petty a
 Cacioppo 1986). Výzkum očkování proti přesvědčování ukazuje, že kdo rétorický vzorec zná předem,
-je vůči němu odolnější (McGuire 1964; van der Linden 2023), a právě k tomu jsou hesla a trenér
-rozpoznávání určeny.
+je vůči němu odolnější (McGuire 1964; van der Linden 2023), a právě k tomu jsou hesla rodiny
+určena.
 
 Proti meta-modelu použitému jako výslech je obranou pojmenování asymetrie a návrat k vlastnímu
 tempu: nárok na vyslyšení nezávisí na tom, zda člověk napoprvé najde dokonale přesná slova. V
@@ -282,6 +282,5 @@ flowchart LR
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Základní pojmy NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/_index.md) – předchozí rodina katalogu
 - [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
 <!-- kompendium:katalog-vazby:end -->

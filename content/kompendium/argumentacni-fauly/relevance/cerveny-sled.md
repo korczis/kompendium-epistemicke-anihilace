@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "johnson-bla
 catalog_sources_roots = ["grice-1975", "satir-1972", "watzlawick-1967", "whately-1826"]
 catalog_sources_critical = ["kahneman-2011", "mercier-sperber-2011", "petty-cacioppo-1986"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Vztah k technikám kompendia", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.b.toml"
 +++
@@ -252,6 +250,5 @@ důvěry, že jejich otázky byly oprávněné a že nezodpovězená otázka nen
 
 - [Odvolání na důsledky](@/kompendium/argumentacni-fauly/relevance/odvolani-na-dusledky.md) – předchozí heslo rodiny
 - [Slaměný panák](@/kompendium/argumentacni-fauly/relevance/slameny-panak.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

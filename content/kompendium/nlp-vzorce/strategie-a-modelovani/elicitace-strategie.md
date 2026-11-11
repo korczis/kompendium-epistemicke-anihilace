@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-delozier-2000", "dilts-1980", "oconnor-seymour
 catalog_sources_roots = ["miller-galanter-pribram-1960"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "kahneman-2011", "loftus-palmer-1974", "sharpley-1984", "sharpley-1987", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/strategie-a-modelovani.toml"
@@ -152,6 +150,5 @@ Základní obranou je rozpoznat, kdy rozhovor přestal být o věci a začal bý
 **V katalogu**
 
 - [Pravopisná strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/pravopisna-strategie.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

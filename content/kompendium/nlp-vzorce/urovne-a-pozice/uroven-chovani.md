@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "bandler-grinder-1982", "dilt
 catalog_sources_roots = ["miller-galanter-pribram-1960", "pavlov-1927"]
 catalog_sources_critical = ["beck-1976", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "herman-1992", "sharpley-1987", "stark-2007", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/urovne-a-pozice.toml"
@@ -243,6 +241,5 @@ schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md).
 
 - [Úroveň prostředí](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-prostredi.md) – předchozí heslo rodiny
 - [Úroveň schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

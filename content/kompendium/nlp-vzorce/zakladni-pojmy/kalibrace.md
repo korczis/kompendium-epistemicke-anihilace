@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "grinder-bandler-1981", "ocon
 catalog_sources_roots = ["haley-1973"]
 catalog_sources_critical = ["ekman-2003", "herman-1992", "lifton-1961", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.b.toml"
@@ -174,6 +172,5 @@ Základní obranou je trvat na prioritě vlastní výpovědi. Kdo slyší, že d
 
 - [Submodality](@/kompendium/nlp-vzorce/zakladni-pojmy/submodality-pojem.md) – předchozí heslo rodiny
 - [Smyslová ostrost](@/kompendium/nlp-vzorce/zakladni-pojmy/smyslova-ostrost.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

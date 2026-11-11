@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b"]
 catalog_sources_roots = ["bateson-1972", "erickson-rossi-rossi-1976", "watzlawick-1974"]
 catalog_sources_critical = ["hassan-1988", "kirsch-lynn-1995", "lakoff-johnson-1980", "lifton-1961", "lilienfeld-2015", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/ericksonovska-hypnoza.c.toml"
@@ -234,6 +232,5 @@ vazbu odmítnout; tím se sugesce mění v nabídku a ztrácí potenciál uzavř
 
 - [Dvojitá disociativní vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/dvojita-disociativni-vazba.md) – předchozí heslo rodiny
 - [Složená sugesce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/slozena-sugesce.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

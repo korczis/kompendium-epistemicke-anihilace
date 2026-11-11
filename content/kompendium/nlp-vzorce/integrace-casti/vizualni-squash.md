@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "grind
 catalog_sources_roots = ["perls-1969"]
 catalog_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "kirsch-lynn-1995", "miller-rollnick-2013", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/integrace-casti.toml"
@@ -145,6 +143,5 @@ Obrana začíná rozlišením mezi zážitkem a rozhodnutím. Pocit úlevy po cv
 
 - [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – předchozí heslo rodiny
 - [Jádrová transformace](@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

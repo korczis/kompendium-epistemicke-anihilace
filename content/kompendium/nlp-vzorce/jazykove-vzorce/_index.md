@@ -193,6 +193,5 @@ flowchart LR
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Cíle a výsledky](@/kompendium/nlp-vzorce/cile-a-vysledky/_index.md) – předchozí rodina katalogu
 - [Vliv a zneužití NLP](@/kompendium/nlp-vzorce/vliv-a-zneuziti/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
 <!-- kompendium:katalog-vazby:end -->

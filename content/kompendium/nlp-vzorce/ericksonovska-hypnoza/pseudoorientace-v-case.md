@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "james-woodsmall-1988"]
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lifton-1961", "loftus-palmer-1974", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/ericksonovska-hypnoza.b.toml"
@@ -243,6 +241,5 @@ bez vnější autority; obnova kontroly nad vlastním životem patří k jádru 
 
 - [Věková regrese](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vekova-regrese.md) – předchozí heslo rodiny
 - [Můj přítel John](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/muj-pritel-john.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

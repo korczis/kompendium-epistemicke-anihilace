@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "gordon-1978"]
 catalog_sources_roots = ["bateson-1972", "miller-1956", "rosen-1982", "watzlawick-1967"]
 catalog_sources_critical = ["cialdini-2009", "hassan-1988", "lifton-1961", "passmore-rowson-2019", "petty-cacioppo-1986", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/ericksonovska-hypnoza.b.toml"
@@ -236,6 +234,5 @@ strach naučený ve skupině od skutečných rizik (Hassan 1988).
 
 - [Technika proložení](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md) – předchozí heslo rodiny
 - [Terapeutická dvojná vazba](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/terapeuticka-dvojna-vazba.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

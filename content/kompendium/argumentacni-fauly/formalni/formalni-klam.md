@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "govier-2010
 catalog_sources_roots = ["mill-1843", "whately-1826"]
 catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "hahn-oaksford-2007", "kahneman-2011", "mercier-sperber-2011", "nickerson-1998", "stanovich-west-2000"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Vztah k technikám kompendia", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/formalni.toml"
 +++
@@ -285,6 +283,5 @@ výrokové úsudky, slouží k ověření v klidu, když je na posouzení čas (
 **V katalogu**
 
 - [Potvrzení důsledku](@/kompendium/argumentacni-fauly/formalni/potvrzeni-dusledku.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

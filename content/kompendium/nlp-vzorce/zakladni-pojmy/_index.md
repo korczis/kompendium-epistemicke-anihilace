@@ -373,6 +373,5 @@ flowchart LR
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Předpoklady NLP](@/kompendium/nlp-vzorce/predpoklady/_index.md) – předchozí rodina katalogu
 - [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
 <!-- kompendium:katalog-vazby:end -->

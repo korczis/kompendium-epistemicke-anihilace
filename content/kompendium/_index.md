@@ -78,8 +78,8 @@ Kompendium je určeno **výhradně** pro:
 | **19** | [Historical Cases](@/kompendium/historical-cases/_index.md) | ✓ 40 historických | Historické případy aplikace technik (sekta, totalitní režimy, [propaganda](@/glossary/propaganda.md)) |
 | **20** | [Detection Signatures](@/kompendium/detection-signatures/_index.md) | ✓ 30 signatur | Strojově čitelné detekční signatury pro automatizaci |
 | **21** | [Vizualizace](@/kompendium/visualizations/_index.md) | ✓ 6 interaktivních | Chart.js / Three.js / p5.js: distribuce, severity, 3D graf, trajektorie zotavení, simulace |
-| **22** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) | ✓ odvozený katalog | Vzorce, principy a pojmy neurolingvistického programování: struktura, detekce, stav důkazů, obrana; [trenér rozpoznávání](@/kompendium/trener.md) |
-| **23** | [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md) | ✓ odvozený katalog | Formální a neformální klamy, rétorické taktiky a pravidla kritické diskuse; společný trenér všech katalogů |
+| **22** | [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) | ✓ odvozený katalog | Vzorce, principy a pojmy neurolingvistického programování: struktura, detekce, stav důkazů, obrana |
+| **23** | [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md) | ✓ odvozený katalog | Formální a neformální klamy, rétorické taktiky a pravidla kritické diskuse |
 
 ### Detailní techniky
 

@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "gordon-1978"]
 catalog_sources_roots = ["grice-1975", "haley-1973", "rosen-1982", "watzlawick-1967"]
 catalog_sources_critical = ["lakoff-johnson-1980", "lifton-1961", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/jazykove-vzorce.b.toml"
@@ -247,6 +245,5 @@ podle toho, zda odpovídá výkladu terapeuta.
 
 - [Vyrovnaný](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md) – předchozí heslo rodiny
 - [Izomorfní metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

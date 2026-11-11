@@ -49,8 +49,6 @@ catalog_sources_primary = ["walton-1995", "eemeren-grootendorst-2004"]
 catalog_sources_roots = []
 catalog_sources_critical = ["hassan-1988", "kahneman-2011", "langer-1978", "lifton-1961", "singer-lalich-1995"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/dialekticke-taktiky.toml"
 +++
@@ -247,6 +245,5 @@ podstatné je obnovit schopnost položit si otázku a nechat ji otevřenou.
 
 - [Argument opakováním](@/kompendium/argumentacni-fauly/dialekticke-taktiky/argument-opakovanim.md) – předchozí heslo rodiny
 - [Kafkovská past](@/kompendium/argumentacni-fauly/dialekticke-taktiky/kafkapast.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "damer-2009", "hall-bodenhame
 catalog_sources_roots = ["watzlawick-1974"]
 catalog_sources_critical = ["heap-1988", "langer-1978", "lifton-1961", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/metaprogramy.b.toml"
@@ -230,6 +228,5 @@ lidmi, kteří na otázky neodpovídají diskvalifikací tazatele, ale argumenty
 
 - [Důvěra](@/kompendium/nlp-vzorce/metaprogramy/duvera.md) – předchozí heslo rodiny
 - [Usuzování a vnímání](@/kompendium/nlp-vzorce/metaprogramy/adaptace.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "gri
 catalog_sources_roots = ["erickson-rossi-rossi-1976"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "miller-rollnick-2013", "rogers-1951", "sharpley-1987", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/raport-a-kalibrace.toml"
@@ -259,6 +257,5 @@ událostí (Herman 1992).
 
 - [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) – předchozí heslo rodiny
 - [Shoda predikátů](@/kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "dilts-1980", "oconnor-seymou
 catalog_sources_roots = ["miller-galanter-pribram-1960", "watzlawick-1974"]
 catalog_sources_critical = ["cialdini-2009", "freedman-fraser-1966", "herman-1992", "miller-rollnick-2013", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/predpoklady.b.toml"
@@ -261,6 +259,5 @@ postupy v oddílu [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 
 - [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – předchozí heslo rodiny
 - [Co dokáže jeden, lze se naučit](@/kompendium/nlp-vzorce/predpoklady/modelovatelnost-excelence.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

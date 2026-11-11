@@ -49,8 +49,6 @@ catalog_sources_primary = ["walton-2008", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["hahn-oaksford-2007", "herman-1992", "kunda-1990", "lifton-1961", "nickerson-1998"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/dialekticke-taktiky.toml"
 +++
@@ -250,6 +248,5 @@ která podle Hermanové probíhá ve vztahu, kde je výpověď brána vážně (
 
 - [Myšlenkově ukončující klišé](@/kompendium/argumentacni-fauly/dialekticke-taktiky/myslenkove-ukoncujici-klise.md) – předchozí heslo rodiny
 - [Bulverismus](@/kompendium/argumentacni-fauly/dialekticke-taktiky/bulverismus.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

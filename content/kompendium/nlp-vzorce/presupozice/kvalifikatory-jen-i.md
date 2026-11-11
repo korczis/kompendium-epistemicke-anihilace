@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
 catalog_sources_roots = ["grice-1975", "levinson-1983"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "mcguire-1964", "passmore-rowson-2019", "singer-lalich-1995", "stark-2007"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Varianty", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/presupozice.toml"
@@ -241,6 +239,5 @@ návratu k samostatnému úsudku (Singer a Lalich 1995).
 
 - [Opakovací slova](@/kompendium/nlp-vzorce/presupozice/opakovaci-slova.md) – předchozí heslo rodiny
 - [Srovnávací presupozice](@/kompendium/nlp-vzorce/presupozice/srovnavaci-presupozice.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

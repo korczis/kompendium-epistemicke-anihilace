@@ -49,8 +49,6 @@ catalog_sources_primary = ["damer-2009", "johnson-blair-1977", "toulmin-1958", "
 catalog_sources_roots = ["mill-1843", "popper-1959"]
 catalog_sources_critical = ["gilovich-1991", "hahn-oaksford-2007", "kahneman-2011", "lifton-1961", "tversky-kahneman-1971", "tversky-kahneman-1974"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Vztah k technikám kompendia", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/predpoklady-argumentu.toml"
 +++
@@ -252,6 +250,5 @@ snáze v úsudcích druhých než ve vlastních (Kahneman 2011).
 
 - [Zvláštní výjimka](@/kompendium/argumentacni-fauly/predpoklady-argumentu/zvlastni-vyjimka.md) – předchozí heslo rodiny
 - [Příliš široké zobecnění](@/kompendium/argumentacni-fauly/predpoklady-argumentu/prilis-siroke-zobecneni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "cop
 catalog_sources_roots = ["bateson-1972", "bateson-1956", "watzlawick-1967"]
 catalog_sources_critical = ["chartrand-bargh-1999", "ekman-2003", "herman-1992", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/milton-model.toml"
@@ -241,6 +239,5 @@ slabosti klienta.
 
 - [Vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md) – předchozí heslo rodiny
 - [Konverzační postuláty](@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

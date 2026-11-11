@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-delozier-2000", "grinder-bostic-2001", "grinde
 catalog_sources_roots = ["bateson-1972", "erickson-rossi-rossi-1976"]
 catalog_sources_critical = ["druckman-swets-1988", "herman-1992", "kahneman-2011", "lifton-1961", "petty-cacioppo-1986", "rogers-1951", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/strategie-a-modelovani.b.toml"
@@ -155,6 +153,5 @@ První obranou je rozlišovat myšlenku od institucionální praxe, v níž se �
 
 - [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – předchozí heslo rodiny
 - [Stav vysokého výkonu](@/kompendium/nlp-vzorce/strategie-a-modelovani/stav-vysokeho-vykonu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

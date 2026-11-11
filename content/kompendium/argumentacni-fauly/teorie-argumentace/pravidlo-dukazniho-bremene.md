@@ -49,8 +49,6 @@ catalog_sources_primary = ["hamblin-1970", "walton-1995", "walton-2008", "eemere
 catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["gilovich-1991", "hahn-oaksford-2007", "kunda-1990", "lilienfeld-2015", "nickerson-1998"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty v odborné a institucionální praxi", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.toml"
 +++
@@ -232,6 +230,5 @@ která jeho otázku skutečně zodpoví; jinak se z obrany stává vlastní poru
 
 - [Pravidlo svobody](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-svobody.md) – předchozí heslo rodiny
 - [Pravidlo stanoviska](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-stanoviska.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

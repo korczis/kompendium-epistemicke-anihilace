@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "damer-2009"]
 catalog_sources_roots = ["erickson-rossi-1979", "watzlawick-1974"]
 catalog_sources_critical = ["heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/milton-model.c.toml"
@@ -234,6 +232,5 @@ rozlišit, co mluvčí řekl a co si posluchač domyslel.
 
 - [Iluze volby](@/kompendium/nlp-vzorce/milton-model/iluze-volby.md) – předchozí heslo rodiny
 - [Pacing aktuální zkušenosti](@/kompendium/nlp-vzorce/milton-model/pacing-aktualni-zkusenosti.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

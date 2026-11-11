@@ -49,8 +49,6 @@ catalog_sources_primary = ["grinder-bandler-1976"]
 catalog_sources_roots = ["bateson-1956", "satir-1972", "watzlawick-1967"]
 catalog_sources_critical = ["herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "stark-2007", "vrij-2008", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/jazykove-vzorce.toml"
@@ -156,6 +154,5 @@ V terapii je vyrovnaná komunikace spíše výsledkem než prostředkem. Člově
 
 - [Rozptylovač](@/kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md) – předchozí heslo rodiny
 - [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

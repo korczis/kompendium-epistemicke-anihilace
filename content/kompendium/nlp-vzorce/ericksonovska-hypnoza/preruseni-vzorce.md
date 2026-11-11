@@ -49,8 +49,6 @@ catalog_sources_primary = ["grinder-bandler-1981", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973", "watzlawick-1974"]
 catalog_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "langer-1978", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "sturt-2012"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/ericksonovska-hypnoza.toml"
@@ -251,6 +249,5 @@ dovedeno do konce, a obnovu důvěry, že vlastní stížnost je legitimní (Her
 
 - [Konfuzní technika](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md) – předchozí heslo rodiny
 - [Indukce podáním ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

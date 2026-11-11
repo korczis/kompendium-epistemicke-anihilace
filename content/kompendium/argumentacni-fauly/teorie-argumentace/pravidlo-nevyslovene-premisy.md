@@ -49,8 +49,6 @@ catalog_sources_primary = ["govier-2010", "eemeren-grootendorst-1992", "eemeren-
 catalog_sources_roots = ["grice-1975", "levinson-1983"]
 catalog_sources_critical = ["kunda-1990", "mercier-sperber-2011"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Vztah k technikám kompendia", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.toml"
 +++
@@ -229,6 +227,5 @@ zdají samozřejmé, protože právě samozřejmost bývá místem, kde se poslu
 
 - [Pravidlo relevance](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-relevance.md) – předchozí heslo rodiny
 - [Pravidlo východiska](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-vychodiska.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

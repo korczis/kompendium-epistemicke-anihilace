@@ -49,8 +49,6 @@ catalog_sources_primary = ["damer-2009", "walton-2008", "eemeren-grootendorst-19
 catalog_sources_roots = []
 catalog_sources_critical = ["boykoff-boykoff-2004", "cook-lewandowsky-ecker-2017", "kunda-1990", "mercier-sperber-2011"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Vztah k technikám kompendia", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.b.toml"
 +++
@@ -245,6 +243,5 @@ nerozumí sporu dost dobře na to, aby ho mohl rozhodnout.
 
 - [Princip shovívavosti](@/kompendium/argumentacni-fauly/teorie-argumentace/princip-shovivavosti.md) – předchozí heslo rodiny
 - [Pragma-dialektika](@/kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

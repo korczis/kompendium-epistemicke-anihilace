@@ -49,8 +49,6 @@ catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997", "oconnor-seym
 catalog_sources_roots = ["bateson-1972", "watzlawick-1974"]
 catalog_sources_critical = ["cialdini-2009", "festinger-1957", "kahneman-2011", "mcguire-1964", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/metaprogramy.toml"
@@ -229,6 +227,5 @@ rozvádí stránka o [režimu přesvědčení](@/kompendium/nlp-vzorce/metaprogr
 
 - [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md) – předchozí heslo rodiny
 - [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

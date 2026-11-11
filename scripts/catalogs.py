@@ -8,7 +8,7 @@ data/sources.toml. Per catalogue:
 
   <dir>/_families.toml      the families (order, immutable two-digit code, titles)
   <dir>/<family>.toml       the family's entries ([[pattern]]: id, slug, type, names, edges,
-                            links into the book, review state, trainer items); a large family
+                            links into the book, review state, example utterances); a large family
                             may add parts <dir>/<family>.<part>.toml, read in name order
 
 Writers own the prose of each page (from `## Definice` on) and its `description`. The engine
@@ -16,17 +16,20 @@ owns everything derivable and rewrites it on every run:
 
   - the front matter: title, weight, tags, [extra] `catalog` and every `catalog_*` field
     (identity, family, type, use, risk, hierarchy, mirrored relations, cited works, sections,
-    trainer, provenance, review, data file); `description` is kept;
+    provenance, review, data file); `description` is kept;
   - the H1 and the identification table under it (block kompendium:katalog-hlavicka);
   - the closing block (kompendium:katalog-vazby): `## Literatura` (exactly the works the prose
     cites) and `## Související`; on family and section indexes also the member tables;
-  - per catalogue its export (<slug>-katalog.json) and trainer data (<slug>-trener.json), and
-    the index of all catalogues (static/data/katalogy.json) that the one trainer and the
-    explorers read; the trainer page itself (kompendium/trener.md).
+  - per catalogue its export (<slug>-katalog.json), which the explorer and the illustration read.
+
+The example utterances of each entry (`trainer` items: a manipulative or fallacious one and a
+benign contrast) are validated source data and are published nowhere: ADR 0008 (owner,
+2026-11-11) rules out any public surface that takes text in and returns matching entries, so
+there is no trainer page, no trainer export and no utterance in any export.
 
 An entry with `canonical = "<path>"` is a term the book already has a page for (a glossary
 entry, a technique): it gets no page of its own – no duplicate – and the catalogue, its
-exports, the explorer and the trainer link the canonical page. Slugs are unique across all
+exports and the explorer link the canonical page. Slugs are unique across all
 catalogues, so `related` and `broader` may cross catalogues.
 
 --check fails (exit 1) on any of:
@@ -44,7 +47,7 @@ catalogues, so `related` and `broader` may cross catalogues.
               work, a citation of the unverified provenance source on an entry page
   frame       phrasing of an operational script (numbered steps; imperatives aimed at a
               target person – lexicon HOWTO in ia_model.py, rule project.content-defensive-frame)
-  freshness   any derived part (front matter, blocks, exports, trainer) differs from what the
+  freshness   any derived part (front matter, blocks, exports) differs from what the
               engine would write now
   exclusions  a line of the declaration, the bibliography, a catalogue's data or a catalogue
               page that matches data/platform-exclusions.toml (excluded platform material or a
@@ -192,7 +195,7 @@ class Catalog:
     """One block of data/catalogs.toml."""
 
     FIELDS = {"slug", "dir", "section", "title", "en", "id_prefix", "tag", "icon", "weight",
-              "noun", "noun_plural", "required", "evidence", "export", "trainer_data",
+              "noun", "noun_plural", "required", "evidence", "export",
               "types", "uses", "risks", "provenance"}
 
     def __init__(self, raw: dict, errors: list):
@@ -222,13 +225,36 @@ def load_declaration(errors: list) -> tuple:
     return decl, cats
 
 
-def load_sources() -> dict:
+class Sources(dict):
+    """The bibliography, with an index of each work's first cite word.
+
+    A work's citation regex matches its first word literally, so a text that does not contain
+    that word cannot cite it: `matches` tests the cheap substring first and runs a work's regex
+    only where the word occurs (about 3,300 works against 585 pages made the gate slow)."""
+
+    def __init__(self, raw: dict):
+        super().__init__(raw)
+        self.first = collections.defaultdict(list)
+        for key, src in self.items():
+            self.first[src["cite"].split()[0]].append(key)
+        self._cache = {}
+
+    def matches(self, text: str) -> frozenset:
+        hit = self._cache.get(text)
+        if hit is None:
+            hit = frozenset(k for word, keys in self.first.items() if word in text
+                            for k in keys if self[k]["re"].search(text))
+            self._cache[text] = hit
+        return hit
+
+
+def load_sources() -> Sources:
     sources = load_toml(SOURCES)
     for key, src in sources.items():
         words = [re.escape(w) for w in src["cite"].split()]
         src["re"] = re.compile(r"(?<![\w-])" + r"\s+".join(words) + r"(?![0-9a-z])")
         src["key"] = key
-    return sources
+    return Sources(sources)
 
 
 # --- catalogue data --------------------------------------------------------------------------
@@ -407,8 +433,7 @@ def link(path: str) -> str:
 
 
 def cited(prose: str, sources: dict) -> list:
-    return sorted({k for k, s in sources.items() if s["re"].search(prose)},
-                  key=lambda k: sources[k]["entry"])
+    return sorted(sources.matches(prose), key=lambda k: sources[k]["entry"])
 
 
 def literature(keys: list, sources: dict) -> list:
@@ -478,21 +503,15 @@ def entry_meta(ctx: dict, e: dict, prose: str, keys: list) -> dict:
         ("position", i + 1), ("family_size", len(siblings)),
         ("sources", keys), ("sources_primary", by_group["primary"]),
         ("sources_roots", by_group["roots"]), ("sources_critical", by_group["critical"]),
-        ("citations", sum(len(s["re"].findall(prose)) for s in sources.values())),
+        ("citations", sum(len(sources[k]["re"].findall(prose)) for k in keys)),
         ("words", n_words), ("reading_minutes", max(1, round(n_words / 200))),
         ("sections", [h for h, _ in sections_of(prose)]),
-        ("trainer_items", len(e["trainer"])),
-        ("trainer_benign", sum(1 for x in e["trainer"] if x["benign"])),
     ]
     if cat.provenance:
         fields.append(("provenance", e[cat.provenance["field"]]))
     fields += [("review", e["review"]), ("data", f"{cat.dir}/{e['part']}.toml")]
     keywords = [e["cs"], e["en"], *e["aliases"], fam["title"], cat.title]
     return {"fields": fields, "keywords": list(dict.fromkeys(keywords))}
-
-
-def trainer_link(ctx: dict, why: str) -> str:
-    return f"- [Trenér rozpoznávání]({link(ctx['trainer_page'])}) – {why}"
 
 
 def entry_page(ctx: dict, e: dict, prose: str, description: str) -> str:
@@ -554,7 +573,6 @@ def entry_page(ctx: dict, e: dict, prose: str, description: str) -> str:
     if i + 1 < len(siblings):
         n = siblings[i + 1]
         lines.append(f"- [{n['cs']}]({link(n['path'])}) – další heslo rodiny")
-    lines.append(trainer_link(ctx, "procvičení rozpoznání tohoto hesla na příkladech výroků"))
     lines += ["", END]
     return (front + "\n" + f"# {e['cs']}\n\n" + "\n".join(head) + "\n\n" + prose.strip()
             + "\n\n" + "\n".join(lit) + "\n" + "\n".join(lines) + "\n")
@@ -599,7 +617,6 @@ def family_page(ctx: dict, cat: Catalog, fam: dict, prose: str, description: str
         if 0 <= j < len(order) and cat.families[j]["entries"]:
             other = cat.families[j]
             lines.append(f"- [{other['title']}]({link(cat.family_index(other['slug']))}) – {why}")
-    lines.append(trainer_link(ctx, "procvičení rozpoznání hesel této rodiny"))
     lines += ["", END]
     return (front + "\n" + f"# {fam['title']}\n\n" + prose.strip() + "\n\n"
             + "\n".join(lines) + "\n")
@@ -657,33 +674,12 @@ def section_page(ctx: dict, cat: Catalog, prose: str, description: str, title: s
                  "katalog na ni odkazuje." if own < len(cat.entries) else "")
               + " Čísla odvozuje scripts/catalogs.py z katalogu při každém sestavení.", ""]
     lines += [END, ""] + literature(keys, sources) + [BEGIN, "", "## Související", ""]
-    lines.append(trainer_link(ctx, "interaktivní procvičení rozpoznání hesel všech katalogů"))
     for other in ctx["catalogs"]:
         if other is not cat:
             lines.append(f"- [{other.title}]({link(other.index)}) – další katalog knihy, "
                          "propojený s tímto vazbami mezi hesly")
     lines.append(f"- [Kompendium]({link('kompendium/_index.md')}) – celá kniha, do níž "
                  "katalog patří")
-    lines += ["", END]
-    return (front + "\n" + f"# {title}\n\n" + prose.strip() + "\n\n" + "\n".join(lines) + "\n")
-
-
-def trainer_page(ctx: dict, prose: str, description: str, title: str) -> str:
-    front = render_front(
-        [("title", title), ("description", description), ("weight", 999),
-         ("template", "kompendium/katalog-trener.html")],
-        [("taxonomies", [("tags", ["kompendium", "trener"] + [c.tag for c in ctx["catalogs"]]),
-                         ("categories", ["academic"])]),
-         ("extra", [("toc", False), ("catalogs", [c.slug for c in ctx["catalogs"]]),
-                    ("catalog_index", ctx["index_json"].split("static/", 1)[1])])])
-    lines = [BEGIN, "", "## Související", ""]
-    for cat in ctx["catalogs"]:
-        lines.append(f"- [{cat.title}]({link(cat.index)}) – katalog, z něhož trenér bere hesla "
-                     "i příklady")
-        for fam in cat.families:
-            if fam["entries"]:
-                lines.append(f"- [{fam['title']}]({link(cat.family_index(fam['slug']))}) – "
-                             f"rodina katalogu {cat.title}, {len(fam['entries'])} hesel")
     lines += ["", END]
     return (front + "\n" + f"# {title}\n\n" + prose.strip() + "\n\n" + "\n".join(lines) + "\n")
 
@@ -703,7 +699,7 @@ def catalogue_data(ctx: dict, cat: Catalog) -> str:
         record = dict(meta["fields"])
         record.update({"cs": e["cs"], "description": ctx["desc"].get(e["path"], ""),
                        "keywords": meta["keywords"], "path": "content/" + e["path"],
-                       "url": url(e), "own": e["own"], "trainer": e["trainer"]})
+                       "url": url(e), "own": e["own"]})
         entries.append(record)
         if e["broader"]:
             edges.append({"from": e["slug"], "to": e["broader"], "type": "broader"})
@@ -730,43 +726,12 @@ def catalogue_data(ctx: dict, cat: Catalog) -> str:
     return json.dumps(data, ensure_ascii=False, indent=1, sort_keys=True) + "\n"
 
 
-def trainer_data(ctx: dict, cat: Catalog) -> str:
-    patterns, items = [], []
-    for e in cat.entries:
-        patterns.append({"id": e["id"], "slug": e["slug"], "cs": e["cs"], "en": e["en"],
-                         "aliases": e["aliases"], "family": e["family"], "type": e["type"],
-                         "catalog": cat.slug, "url": url(e)})
-        for n, item in enumerate(e["trainer"], 1):
-            items.append({"id": f"{e['id']}-{n}", "pattern": e["id"], "utterance": item["utterance"],
-                          "context": item["context"], "benign": item["benign"],
-                          "marker": item["marker"], "response": item["response"]})
-    families = [{"slug": f["slug"], "code": f["code"], "title": f["title"]} for f in cat.families]
-    data = {"schema": SCHEMA, "catalog": cat.slug, "title": cat.title,
-            "source": f"{cat.dir} (scripts/catalogs.py)",
-            "note": "Derived, never edited by hand.",
-            "families": families, "patterns": patterns, "items": items}
-    return json.dumps(data, ensure_ascii=False, indent=1, sort_keys=True) + "\n"
-
-
-def index_data(ctx: dict) -> str:
-    cats = [{"slug": c.slug, "title": c.title, "en": c.en, "id_prefix": c.id_prefix,
-             "url": c.section + "/", "export": c.export.split("static/", 1)[1],
-             "trainer_data": c.trainer_data.split("static/", 1)[1], "entries": len(c.entries),
-             "families": len(c.families),
-             "items": sum(len(e["trainer"]) for e in c.entries)} for c in ctx["catalogs"]]
-    data = {"schema": SCHEMA, "source": "data/catalogs.toml (scripts/catalogs.py)",
-            "trainer": url_of(pathlib.PurePosixPath(ctx["trainer_page"])).lstrip("/"),
-            "note": "Derived, never edited by hand: the index the trainer and explorers read.",
-            "catalogs": cats}
-    return json.dumps(data, ensure_ascii=False, indent=1, sort_keys=True) + "\n"
-
-
 # --- content checks --------------------------------------------------------------------------
 
 def check_citations(prose: str, sources: dict, where: str, errors: list) -> None:
     for m in PAREN.finditer(prose):
         for segment in m.group(1).split(";"):
-            if YEAR.search(segment) and not any(s["re"].search(segment) for s in sources.values()):
+            if YEAR.search(segment) and not sources.matches(segment):
                 fail(errors, where, f"citation '({segment.strip()})' matches no work in "
                      "data/sources.toml")
     for m in NARRATIVE.finditer(prose):
@@ -807,10 +772,10 @@ def check_prose(ctx: dict, cat, prose: str, description: str, where: str, errors
         fail(errors, where, f"required sections in order {cat.required}; missing {missing}"
              if missing else "required sections out of order")
     for head, text in sections_of(prose):
-        if head in cat.required and not any(s["re"].search(text) for s in sources.values()):
+        if head in cat.required and not sources.matches(text):
             fail(errors, where, f"section '{head}' cites no work")
         if head == cat.evidence and not any(
-                s["re"].search(text) for s in sources.values() if s["group"] == "critical"):
+                sources[k]["group"] == "critical" for k in sources.matches(text)):
             fail(errors, where, f"section '{cat.evidence}' cites no critical work")
 
 
@@ -853,7 +818,6 @@ def build_context(errors: list, warnings: list, partial: bool) -> dict:
                     for k, v in related.items()},
         "narrower": {k: sorted(v, key=lambda x: x["id"]) for k, v in narrower.items()},
         "titles": titles, "sources": load_sources(),
-        "trainer_page": decl["trainer"], "index_json": decl["index"],
         "prose": {}, "desc": {},
     }
 
@@ -955,15 +919,6 @@ def main() -> int:
                             f"content/{cat.index}", errors)
                 planned[cat.index] = section_page(ctx, cat, prose, str(front.get("description", "")),
                                                   str(front.get("title", cat.title)))
-    if not partial:
-        rel = ctx["trainer_page"]
-        file = CONTENT / rel
-        if not file.exists():
-            fail(errors, f"content/{rel}", "missing")
-        else:
-            front, prose = split_page(file.read_text(encoding="utf-8"))
-            planned[rel] = trainer_page(ctx, prose, str(front.get("description", "")),
-                                        str(front.get("title", "")))
 
     stale = []
     for rel, text in sorted(planned.items()):
@@ -975,8 +930,6 @@ def main() -> int:
                 write_atomic(file, text)
     if not partial:
         outputs = [(ROOT / c.export, catalogue_data(ctx, c)) for c in cats]
-        outputs += [(ROOT / c.trainer_data, trainer_data(ctx, c)) for c in cats]
-        outputs.append((ROOT / ctx["index_json"], index_data(ctx)))
         for target, data in outputs:
             current = target.read_text(encoding="utf-8") if target.exists() else ""
             if current != data:

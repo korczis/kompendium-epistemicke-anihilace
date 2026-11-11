@@ -49,8 +49,6 @@ catalog_sources_primary = ["damer-2009", "toulmin-1958"]
 catalog_sources_roots = ["bentham-1824", "popper-1959"]
 catalog_sources_critical = ["kunda-1990", "lifton-1961", "nickerson-1998", "singer-lalich-1995"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Vztah k technikám kompendia", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.c.toml"
 +++
@@ -235,6 +233,5 @@ i když se jejich teoretický rámec změnil (Lifton 1961).
 
 - [Odvolání na bohatství nebo chudobu](@/kompendium/argumentacni-fauly/relevance/odvolani-na-bohatstvi.md) – předchozí heslo rodiny
 - [Dvě křivdy dávají právo](@/kompendium/argumentacni-fauly/relevance/dve-kriva-jedno-pravo.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

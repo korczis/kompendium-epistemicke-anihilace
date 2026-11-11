@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "hamblin-197
 catalog_sources_roots = ["bentham-1824", "whately-1826"]
 catalog_sources_critical = ["hahn-oaksford-2007", "hasher-1977", "kahneman-2011", "petty-cacioppo-1986", "roozenbeek-2022"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.toml"
 +++
@@ -253,6 +251,5 @@ kdy zazní dřív, než napadený vůbec promluví.
 **V katalogu**
 
 - [Okolnostní útok na osobu](@/kompendium/argumentacni-fauly/relevance/okolnostni-ad-hominem.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

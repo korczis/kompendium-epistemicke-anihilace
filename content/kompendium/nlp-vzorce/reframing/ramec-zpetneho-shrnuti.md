@@ -49,8 +49,6 @@ catalog_sources_primary = ["oconnor-seymour-1990"]
 catalog_sources_roots = ["grice-1975", "levinson-1983"]
 catalog_sources_critical = ["chartrand-bargh-1999", "herman-1992", "loftus-palmer-1974", "miller-rollnick-2013", "rogers-1951", "sharpley-1984", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Varianty", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/reframing.toml"
@@ -246,6 +244,5 @@ mluvčí opravil.
 
 - [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – předchozí heslo rodiny
 - [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

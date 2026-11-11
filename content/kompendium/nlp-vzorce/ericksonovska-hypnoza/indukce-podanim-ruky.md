@@ -49,8 +49,6 @@ catalog_sources_primary = ["grinder-bandler-1981"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "herman-1992", "kirsch-lynn-1995", "langer-1978", "lilienfeld-2015", "mcguire-1964", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/ericksonovska-hypnoza.toml"
@@ -242,6 +240,5 @@ nejlepší prevencí (McGuire 1964).
 
 - [Přerušení vzorce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md) – předchozí heslo rodiny
 - [Levitace ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/levitace-ruky.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

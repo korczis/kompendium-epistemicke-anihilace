@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1982", "grinder-delozier-1987"]
 catalog_sources_roots = []
 catalog_sources_critical = ["hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "rogers-1951", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/disociace-a-trauma.toml"
@@ -240,6 +238,5 @@ jeho zotavení se neměří tím, zda pachateli odpustil.
 
 - [Vzorec zpracování zármutku](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md) – předchozí heslo rodiny
 - [Reakce na kritiku](@/kompendium/nlp-vzorce/disociace-a-trauma/reakce-na-kritiku.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

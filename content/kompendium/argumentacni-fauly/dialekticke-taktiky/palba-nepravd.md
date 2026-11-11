@@ -49,8 +49,6 @@ catalog_sources_primary = ["eemeren-grootendorst-2004"]
 catalog_sources_roots = []
 catalog_sources_critical = ["hasher-1977", "kahneman-2011", "lifton-1961", "paul-matthews-2016", "roozenbeek-2022", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Vztah k technikám kompendia", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/dialekticke-taktiky.b.toml"
 +++
@@ -244,6 +242,5 @@ pouze jednotlivých nepravd.
 
 - [Galileův gambit](@/kompendium/argumentacni-fauly/dialekticke-taktiky/galileuv-gambit.md) – předchozí heslo rodiny
 - [Útěk k proceduře](@/kompendium/argumentacni-fauly/dialekticke-taktiky/odvedeni-k-procedure.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

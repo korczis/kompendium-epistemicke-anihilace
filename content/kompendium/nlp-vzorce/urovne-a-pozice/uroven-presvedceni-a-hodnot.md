@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1990", "dilts-1999", "dilts-delozier-2000", "d
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "ellis-1962", "festinger-1957", "herman-1992", "lifton-1961", "miller-rollnick-2013", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/urovne-a-pozice.toml"
@@ -243,6 +241,5 @@ Navazující úroveň popisuje heslo [úroveň identity](@/kompendium/nlp-vzorce
 
 - [Úroveň schopností](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-schopnosti.md) – předchozí heslo rodiny
 - [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

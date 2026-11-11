@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979"]
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "festinger-1957", "norcross-2006", "passmore-rowson-2019", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/vliv-a-zneuziti.b.toml"
@@ -249,6 +247,5 @@ osvědčilo v praxi, a oddělit to od tvrzení, která obstát nemohou.
 
 - [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – předchozí heslo rodiny
 - [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

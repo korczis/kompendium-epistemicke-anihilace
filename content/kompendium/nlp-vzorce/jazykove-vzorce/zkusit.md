@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b"]
 catalog_sources_roots = ["levinson-1983"]
 catalog_sources_critical = ["freedman-fraser-1966", "kirsch-lynn-1995", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/jazykove-vzorce.b.toml"
@@ -234,6 +232,5 @@ poctivé slovo, které se nemusí vymazávat.
 
 - [Slovo „zatím“](@/kompendium/nlp-vzorce/jazykove-vzorce/zatim.md) – předchozí heslo rodiny
 - [Výzva „představte si“](@/kompendium/nlp-vzorce/jazykove-vzorce/predstavte-si.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

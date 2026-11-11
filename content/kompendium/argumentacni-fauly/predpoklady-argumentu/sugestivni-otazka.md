@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "hamblin-1970", "walton-20
 catalog_sources_roots = ["levinson-1983"]
 catalog_sources_critical = ["hahn-oaksford-2007", "lifton-1961", "loftus-palmer-1974", "tversky-kahneman-1981"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Varianty", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/predpoklady-argumentu.toml"
 +++
@@ -244,6 +242,5 @@ totalitních skupin (Lifton 1961).
 
 - [Kruhový argument](@/glossary/cirkularni-argumentace.md) – předchozí heslo rodiny
 - [Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "herman-1992", "kahneman-2011", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "tosey-mathison-2009"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/submodality.b.toml"
@@ -236,6 +234,5 @@ vztahy, v nichž člověk znovu sám rozhoduje o svých cílech (Herman 1992).
 
 - [Rozbití kompulze](@/kompendium/nlp-vzorce/submodality/vyhozeni-kompulze.md) – předchozí heslo rodiny
 - [Od libosti k nechuti](@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

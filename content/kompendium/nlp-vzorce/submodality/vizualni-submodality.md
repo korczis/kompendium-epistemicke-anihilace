@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grin
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/submodality.toml"
@@ -249,6 +247,5 @@ užitečný jazyk pro popis prožitku, nikoli o doložený mechanismus.
 
 - [Elicitace submodalit](@/kompendium/nlp-vzorce/submodality/elicitace-submodalit.md) – předchozí heslo rodiny
 - [Auditivní submodality](@/kompendium/nlp-vzorce/submodality/auditivni-submodality.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

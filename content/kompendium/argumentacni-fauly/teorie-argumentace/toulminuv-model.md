@@ -49,8 +49,6 @@ catalog_sources_primary = ["damer-2009", "govier-2010", "johnson-blair-1977", "t
 catalog_sources_roots = []
 catalog_sources_critical = ["hahn-oaksford-2007", "petty-cacioppo-1986"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Vztah k technikám kompendia", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.b.toml"
 +++
@@ -229,6 +227,5 @@ stojí na oprávnění, které nikdy nevyslovil, a právě tam se nejčastěji u
 
 - [Argumentační schémata a kritické otázky](@/kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md) – předchozí heslo rodiny
 - [Princip shovívavosti](@/kompendium/argumentacni-fauly/teorie-argumentace/princip-shovivavosti.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

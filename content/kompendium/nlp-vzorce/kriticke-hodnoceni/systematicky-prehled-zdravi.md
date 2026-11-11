@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-1985", "dilts-hallbom-smith-1990"]
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "gilovich-1991", "heap-1988", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/kriticke-hodnoceni.toml"
@@ -246,6 +244,5 @@ přehled [terapeutických přístupů](@/kompendium/06-klinicke-aplikace/terapeu
 
 - [Delfská studie zdiskreditovaných metod](@/kompendium/nlp-vzorce/kriticke-hodnoceni/delfska-studie.md) – předchozí heslo rodiny
 - [Databáze výzkumu NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/databaze-vyzkumu-nlp.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

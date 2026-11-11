@@ -49,8 +49,6 @@ catalog_sources_primary = ["hamblin-1970", "walton-2008", "eemeren-grootendorst-
 catalog_sources_roots = ["grice-1975", "levinson-1983"]
 catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "loftus-palmer-1974", "roozenbeek-2022"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/dialekticke-taktiky.toml"
 +++
@@ -235,6 +233,5 @@ podezření, který otázky vyvolávají, od otázky, zda pro podezření existu
 
 - [Sealioning](@/glossary/sealioning.md) – předchozí heslo rodiny
 - [Argument opakováním](@/kompendium/argumentacni-fauly/dialekticke-taktiky/argument-opakovanim.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

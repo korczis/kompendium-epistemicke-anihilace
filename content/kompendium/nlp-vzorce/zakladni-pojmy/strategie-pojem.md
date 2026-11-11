@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1994", "dilts-1980", "oconnor-seymour-1990"]
 catalog_sources_roots = ["miller-galanter-pribram-1960"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "kahneman-2011", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.b.toml"
@@ -163,6 +161,5 @@ Základní obranou je vědět, že nikdo nemá přístup k vašemu rozhodování
 
 - [Zdrojový stav](@/kompendium/nlp-vzorce/zakladni-pojmy/zdrojovy-stav.md) – předchozí heslo rodiny
 - [Model TOTE](@/kompendium/nlp-vzorce/zakladni-pojmy/tote-model.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

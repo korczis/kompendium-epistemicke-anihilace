@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = ["bateson-1956", "haley-1973", "watzlawick-1967", "watzlawick-1974"]
 catalog_sources_critical = ["herman-1992", "lifton-1961", "miller-rollnick-2013", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/ericksonovska-hypnoza.toml"
@@ -235,6 +233,5 @@ jsou stížnosti brány vážně, a přes postupné obnovení práva na vlastní
 
 - [Zasévání myšlenky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/seeding.md) – předchozí heslo rodiny
 - [Paradoxní intervence](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/paradoxni-intervence.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

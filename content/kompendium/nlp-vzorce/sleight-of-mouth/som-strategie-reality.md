@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1999", "dilts-1980"]
 catalog_sources_roots = ["miller-galanter-pribram-1960"]
 catalog_sources_critical = ["beck-1976", "gilovich-1991", "herman-1992", "loftus-palmer-1974", "sharpley-1984", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/sleight-of-mouth.b.toml"
@@ -146,6 +144,5 @@ Základní obranou je nepřijmout rozbor vlastních vnitřních procesů jako m�
 
 - [Model světa](@/kompendium/nlp-vzorce/sleight-of-mouth/som-model-sveta.md) – předchozí heslo rodiny
 - [Hierarchie kritérií](@/kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

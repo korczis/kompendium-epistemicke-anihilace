@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
 catalog_sources_roots = ["mill-1843", "pavlov-1927", "whately-1826"]
 catalog_sources_critical = ["gilovich-1991", "hahn-oaksford-2007", "huff-1954", "kahneman-2011", "lilienfeld-2015", "nickerson-1998", "roozenbeek-2022", "tversky-kahneman-1971", "tversky-kahneman-1974"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Vztah k technikám kompendia", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/kauzalni.toml"
 +++
@@ -258,6 +256,5 @@ není jeho důsledkem (Kahneman 2011).
 **V katalogu**
 
 - [Záměna korelace a kauzality](@/kompendium/argumentacni-fauly/kauzalni/korelace-a-kauzalita.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

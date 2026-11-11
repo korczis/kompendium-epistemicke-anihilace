@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1994", "dilts-1980"]
 catalog_sources_roots = ["miller-galanter-pribram-1960"]
 catalog_sources_critical = ["druckman-swets-1988", "gilovich-1991", "mcguire-1964", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/strategie-a-modelovani.toml"
@@ -148,6 +146,5 @@ Základní obranou je rozlišovat mezi interpretací a důkazem. Pokud kurz nebo
 
 - [Strategie lásky](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-lasky.md) – předchozí heslo rodiny
 - [Modelování excelence](@/kompendium/nlp-vzorce/strategie-a-modelovani/modelovani-excelence.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

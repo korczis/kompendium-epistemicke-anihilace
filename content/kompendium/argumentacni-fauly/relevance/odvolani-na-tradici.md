@@ -49,8 +49,6 @@ catalog_sources_primary = ["damer-2009", "govier-2010", "hamblin-1970", "toulmin
 catalog_sources_roots = ["bentham-1824"]
 catalog_sources_critical = ["hahn-oaksford-2007", "hasher-1977", "kahneman-2011", "lifton-1961", "petty-cacioppo-1986"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Vztah k technikám kompendia", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.b.toml"
 +++
@@ -238,6 +236,5 @@ zkušenost s jejími selháními se do tradice nezapsala.
 
 - [Rozjetý vlak](@/kompendium/argumentacni-fauly/relevance/rozjety-vlak.md) – předchozí heslo rodiny
 - [Odvolání na novost](@/kompendium/argumentacni-fauly/relevance/odvolani-na-novost.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

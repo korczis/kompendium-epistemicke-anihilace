@@ -49,8 +49,6 @@ catalog_sources_primary = ["damer-2009", "toulmin-1958", "walton-1995", "walton-
 catalog_sources_roots = ["bentham-1824", "moore-1903"]
 catalog_sources_critical = ["festinger-1957", "kunda-1990", "nickerson-1998"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/hodnoty-a-veda.toml"
 +++
@@ -233,6 +231,5 @@ podle dokladů a vlastního ověření, aniž by ji předem podřídil ideálu p
 
 - [Problém „je“ a „má být“](@/kompendium/argumentacni-fauly/hodnoty-a-veda/je-a-ma-byt.md) – předchozí heslo rodiny
 - [Odvolání na starobylost](@/kompendium/argumentacni-fauly/hodnoty-a-veda/odvolani-na-starobylost.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

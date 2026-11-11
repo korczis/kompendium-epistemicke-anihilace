@@ -49,8 +49,6 @@ catalog_sources_primary = ["eemeren-grootendorst-2004"]
 catalog_sources_roots = []
 catalog_sources_critical = ["kahneman-2011", "kunda-1990", "mercier-sperber-2011", "nickerson-1998", "petty-cacioppo-1986", "stanovich-west-2000"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Vztah k technikám kompendia", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.b.toml"
 +++
@@ -225,6 +223,5 @@ diskuse (van Eemeren a Grootendorst 2004).
 **V katalogu**
 
 - [Inokulace proti klamům](@/kompendium/argumentacni-fauly/teorie-argumentace/inokulace-proti-klamum.md) – předchozí heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

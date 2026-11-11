@@ -49,8 +49,6 @@ catalog_sources_primary = ["govier-2010", "johnson-blair-1977"]
 catalog_sources_roots = ["mill-1843", "popper-1959"]
 catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "gilovich-1991", "hassan-1988", "huff-1954", "kahneman-2011", "kunda-1990", "nickerson-1998"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Vztah k technikám kompendia", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/predpoklady-argumentu.toml"
 +++
@@ -254,6 +252,5 @@ zkresleními kompendium uvádí v přehledu
 
 - [Příliš široké zobecnění](@/kompendium/argumentacni-fauly/predpoklady-argumentu/prilis-siroke-zobecneni.md) – předchozí heslo rodiny
 - [Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

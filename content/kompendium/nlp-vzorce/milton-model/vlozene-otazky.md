@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "grinder-delozier-bandler-19
 catalog_sources_roots = ["grice-1975", "levinson-1983"]
 catalog_sources_critical = ["heap-1988", "herman-1992", "loftus-palmer-1974", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/milton-model.toml"
@@ -235,6 +233,5 @@ němu vedla, je prvním krokem k tomu, aby se příště rozhodoval sám a s ods
 
 - [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – předchozí heslo rodiny
 - [Analogové značení](@/kompendium/nlp-vzorce/milton-model/analogove-znaceni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

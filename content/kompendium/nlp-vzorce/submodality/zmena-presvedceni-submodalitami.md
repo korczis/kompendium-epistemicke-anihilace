@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "dilts-1990",
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "ellis-1962", "festinger-1957", "herman-1992", "kahneman-2011", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/submodality.b.toml"
@@ -251,6 +249,5 @@ pocitem jistoty bez ohledu na obsah.
 
 - [Od libosti k nechuti](@/kompendium/nlp-vzorce/submodality/od-libosti-k-nechuti.md) – předchozí heslo rodiny
 - [Prahový vzorec](@/kompendium/nlp-vzorce/submodality/prahovy-vzorec.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

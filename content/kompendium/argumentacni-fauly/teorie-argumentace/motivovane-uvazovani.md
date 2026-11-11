@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = []
 catalog_sources_critical = ["festinger-1957", "gilovich-1991", "kunda-1990", "mercier-sperber-2011", "nickerson-1998", "stanovich-west-2000"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Varianty", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.b.toml"
 +++
@@ -245,6 +243,5 @@ zkreslení kompendium shrnuje v oddílu
 
 - [Bayesovské pojetí klamů](@/kompendium/argumentacni-fauly/teorie-argumentace/bayesovske-pojeti-klamu.md) – předchozí heslo rodiny
 - [Inokulace proti klamům](@/kompendium/argumentacni-fauly/teorie-argumentace/inokulace-proti-klamum.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

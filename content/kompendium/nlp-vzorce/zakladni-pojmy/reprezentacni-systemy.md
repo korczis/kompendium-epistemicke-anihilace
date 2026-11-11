@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-1985", "bandler-grinder-1975", "bandler-grin
 catalog_sources_roots = ["korzybski-1933", "miller-galanter-pribram-1960", "satir-1972"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "heap-1988", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k ostatním pojmům rodiny", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.toml"
@@ -265,6 +263,5 @@ jak člověk prožívá, místo aby mu sděloval, jak prožívat má.
 **V katalogu**
 
 - [Vizuální reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

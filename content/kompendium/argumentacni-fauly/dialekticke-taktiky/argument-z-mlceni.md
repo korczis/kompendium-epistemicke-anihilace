@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "walton-reed-macagno-2008"
 catalog_sources_roots = ["grice-1975"]
 catalog_sources_critical = ["hahn-oaksford-2007", "herman-1992", "vrij-2008"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Vztah k technikám kompendia", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/dialekticke-taktiky.b.toml"
 +++
@@ -233,6 +231,5 @@ jako jistota, a že jeho síla se odvozuje z citlivosti pramene (Hahn a Oaksford
 
 - [Předstíraná starost](@/kompendium/argumentacni-fauly/dialekticke-taktiky/predstirana-starost.md) – předchozí heslo rodiny
 - [Galileův gambit](@/kompendium/argumentacni-fauly/dialekticke-taktiky/galileuv-gambit.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

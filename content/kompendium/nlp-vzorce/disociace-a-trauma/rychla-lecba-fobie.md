@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1989", "bandler-1985", "bandler-grin
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "lilienfeld-2015", "norcross-2006", "shapiro-1989", "sharpley-1987", "sturt-2012", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/disociace-a-trauma.toml"
@@ -269,6 +267,5 @@ expozice vedená odborníkem (Wolpe 1958).
 **V katalogu**
 
 - [Dvojitá disociace](@/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

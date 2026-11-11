@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "grinder-bandler-1976", "ocon
 catalog_sources_roots = ["satir-1972", "watzlawick-1967"]
 catalog_sources_critical = ["kahneman-2011", "lifton-1961", "miller-rollnick-2013", "rogers-1951", "sharpley-1987", "tosey-mathison-2009", "vrij-2008", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/jazykove-vzorce.toml"
@@ -156,6 +154,5 @@ Pro člověka, který u sebe superrozumný postoj rozpozná, je cestou k vyrovna
 
 - [Obviňovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md) – předchozí heslo rodiny
 - [Rozptylovač](@/kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

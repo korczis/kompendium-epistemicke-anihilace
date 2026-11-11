@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1980"]
 catalog_sources_roots = ["miller-galanter-pribram-1960"]
 catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "festinger-1957", "freedman-fraser-1966", "hassan-1988", "heap-1988", "herman-1992", "mcguire-1964", "sharpley-1987", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/strategie-a-modelovani.b.toml"
@@ -151,6 +149,5 @@ První obranou je ptát se po kritériích. Když někdo nabízí nový způsob,
 
 - [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – předchozí heslo rodiny
 - [Využití strategie druhého](@/kompendium/nlp-vzorce/strategie-a-modelovani/utilizace-strategie.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

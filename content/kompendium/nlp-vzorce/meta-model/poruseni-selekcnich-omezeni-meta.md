@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
 catalog_sources_roots = ["chomsky-1965"]
 catalog_sources_critical = ["hassan-1988", "herman-1992", "kirsch-lynn-1995", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/meta-model.b.toml"
@@ -242,6 +240,5 @@ rozhodovali, místo k abstrakcím, se kterými se vyrovnat nelze (Herman 1992).
 **V katalogu**
 
 - [Meta-model jako výslechový nástroj](@/kompendium/nlp-vzorce/meta-model/meta-model-jako-vyslychaci-nastroj.md) – předchozí heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

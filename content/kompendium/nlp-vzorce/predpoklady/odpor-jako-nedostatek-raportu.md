@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973", "watzlawick-1967"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/predpoklady.toml"
@@ -244,6 +242,5 @@ pokračovat proti vůli druhého.
 
 - [Lidé volí nejlepší dostupnou volbu](@/kompendium/nlp-vzorce/predpoklady/nejlepsi-dostupna-volba.md) – předchozí heslo rodiny
 - [Když něco nefunguje, udělej něco jiného](@/kompendium/nlp-vzorce/predpoklady/kdyz-to-nefunguje-udelej-neco-jineho.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

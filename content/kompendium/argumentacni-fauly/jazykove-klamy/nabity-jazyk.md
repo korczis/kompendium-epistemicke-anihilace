@@ -49,8 +49,6 @@ catalog_sources_primary = ["govier-2010", "toulmin-1958", "eemeren-grootendorst-
 catalog_sources_roots = ["bentham-1824"]
 catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "hassan-1988", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "nickerson-1998", "petty-cacioppo-1986", "roozenbeek-2022", "tversky-kahneman-1981"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/jazykove-klamy.b.toml"
 +++
@@ -246,6 +244,5 @@ mechanismy emočního působení rozebírá kompendium u
 
 - [Přesvědčovací definice](@/kompendium/argumentacni-fauly/jazykove-klamy/presvedcovaci-definice.md) – předchozí heslo rodiny
 - [Vyhýbavá slova](@/kompendium/argumentacni-fauly/jazykove-klamy/vyhybava-slova.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

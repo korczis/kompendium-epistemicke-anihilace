@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-1985", "charvet-1997", "dilts-1980", "oconno
 catalog_sources_roots = ["miller-galanter-pribram-1960"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "kahneman-2011", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "sturt-2012", "tversky-kahneman-1981"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/strategie-a-modelovani.toml"
@@ -151,6 +149,5 @@ Základní obranou je rozpoznat, že obraz budoucnosti, který právě prožív�
 
 - [Rozhodovací strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md) – předchozí heslo rodiny
 - [Strategie přesvědčení o pravdivosti](@/kompendium/nlp-vzorce/strategie-a-modelovani/presvedcovaci-strategie.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

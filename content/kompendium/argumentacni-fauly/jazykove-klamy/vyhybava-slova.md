@@ -49,8 +49,6 @@ catalog_sources_primary = ["damer-2009", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["bentham-1824", "grice-1975", "levinson-1983", "popper-1959"]
 catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "gigerenzer-2002", "langer-1978", "petty-cacioppo-1986"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/jazykove-klamy.b.toml"
 +++
@@ -242,6 +240,5 @@ doslovnému znění (van Eemeren a Grootendorst 2004).
 
 - [Nabitý jazyk](@/kompendium/argumentacni-fauly/jazykove-klamy/nabity-jazyk.md) – předchozí heslo rodiny
 - [Eufemismus a dysfemismus](@/kompendium/argumentacni-fauly/jazykove-klamy/eufemismus-a-dysfemismus.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

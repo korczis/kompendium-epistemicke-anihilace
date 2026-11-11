@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "bandler-grinder-1982", "grin
 catalog_sources_roots = ["bateson-1956", "satir-1972", "watzlawick-1967"]
 catalog_sources_critical = ["cialdini-2009", "ekman-2003", "heap-1988", "herman-1992", "rogers-1951", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/integrace-casti.toml"
@@ -148,6 +146,5 @@ Základní obranou je pravidlo, že výslovné ne platí. Pokud někdo tvrdí, �
 
 - [Sekvenční inkongruence](@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md) – předchozí heslo rodiny
 - [Hledání pozitivního záměru části](@/kompendium/nlp-vzorce/integrace-casti/elicitace-pozitivniho-zameru.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

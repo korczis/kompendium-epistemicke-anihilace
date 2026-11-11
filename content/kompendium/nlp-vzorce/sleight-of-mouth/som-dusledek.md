@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "dilts-1999", "dilts-hallbom-
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "petty-cacioppo-1986", "stark-2007", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/sleight-of-mouth.toml"
@@ -235,6 +233,5 @@ důsledků k úmyslu, popisuje vzorec
 
 - [Redefinice](@/kompendium/nlp-vzorce/sleight-of-mouth/som-redefinice.md) – předchozí heslo rodiny
 - [Rozložení na části](@/kompendium/nlp-vzorce/sleight-of-mouth/som-rozlozeni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -133,8 +133,8 @@ její váhy, ne jejím použitím (Hahn a Oaksford 2007).
 Z toho plyne praktický důsledek pro čtenáře katalogu. Pojmenování klamu není vyvrácením.
 Kdo na každou námitku k osobě odpoví „to je ad hominem“, dopouští se vlastní chyby, protože
 přeskakuje otázku, zda je napadaná vlastnost relevantní. Hesla rodiny proto vždy obsahují
-oddíl o odlišení od platné argumentace a trenér vedle chybných výroků nabízí i neškodné
-kontrasty, které je třeba rozpoznat jako platné.
+oddíl o odlišení od platné argumentace, který vedle chybných tahů ukazuje i neškodné
+kontrasty, jež je třeba rozpoznat jako platné.
 
 ## Proč klamy relevance působí
 
@@ -342,6 +342,5 @@ flowchart LR
 - [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md) – celý katalog a jeho rodiny
 - [Formální klamy](@/kompendium/argumentacni-fauly/formalni/_index.md) – předchozí rodina katalogu
 - [Klamy předpokladu](@/kompendium/argumentacni-fauly/predpoklady-argumentu/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["toulmin-1958", "walton-2008", "walton-reed-macagno-2
 catalog_sources_roots = ["mill-1843"]
 catalog_sources_critical = ["boykoff-boykoff-2004", "cook-lewandowsky-ecker-2017", "hahn-oaksford-2007", "nickerson-1998", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/hodnoty-a-veda.toml"
 +++
@@ -239,6 +237,5 @@ nejjednodušší obranou hledat souhrnný přehled a podívat se, kam ukazuje ce
 
 - [Odvolání na anekdotu](@/kompendium/argumentacni-fauly/hodnoty-a-veda/odvolani-na-anekdotu.md) – předchozí heslo rodiny
 - [Klam placeba](@/kompendium/argumentacni-fauly/hodnoty-a-veda/klam-placebo.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

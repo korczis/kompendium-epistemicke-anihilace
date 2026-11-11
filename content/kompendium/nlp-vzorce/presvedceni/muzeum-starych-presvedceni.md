@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-1985", "dilts-1990", "dilts-delozier-2000", 
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "hassan-1988", "heap-1988", "herman-1992", "lifton-1961", "norcross-2006", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/presvedceni.toml"
@@ -250,6 +248,5 @@ chce mít jen jako vzpomínku na období, kterým prošel.
 
 - [Cyklus změny přesvědčení](@/kompendium/nlp-vzorce/presvedceni/cyklus-zmeny-presvedceni.md) – předchozí heslo rodiny
 - [Audit přesvědčení](@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979", "ocon
 catalog_sources_roots = ["bateson-1972", "grice-1975", "levinson-1983", "watzlawick-1967"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "herman-1992", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/predpoklady.toml"
@@ -255,6 +253,5 @@ jako oprávnění dosáhnout u druhého čehokoli, co „funguje“.
 
 - [Mapa není území](@/kompendium/nlp-vzorce/predpoklady/mapa-neni-uzemi.md) – předchozí heslo rodiny
 - [Neexistuje selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

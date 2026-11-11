@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "james-woodsmall-1988"]
 catalog_sources_roots = ["levinson-1983"]
 catalog_sources_critical = ["herman-1992", "lakoff-johnson-1980", "stark-2007", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/jazykove-vzorce.b.toml"
@@ -231,6 +229,5 @@ co se popisuje jako minulé, opravdu skončilo.
 **V katalogu**
 
 - [Hodnotově nabitá slova](@/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md) – předchozí heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

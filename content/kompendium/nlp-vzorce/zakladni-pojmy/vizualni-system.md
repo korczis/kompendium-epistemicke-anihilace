@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grin
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "lakoff-johnson-1980", "roderique-davies-2009", "sharpley-1984", "singer-lalich-1995", "tversky-kahneman-1974", "wiseman-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k technikám kompendia", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.toml"
@@ -245,6 +243,5 @@ a v [kritických perspektivách](@/kompendium/critical-perspectives/_index.md).
 
 - [Reprezentační systémy](@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md) – předchozí heslo rodiny
 - [Auditivní reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

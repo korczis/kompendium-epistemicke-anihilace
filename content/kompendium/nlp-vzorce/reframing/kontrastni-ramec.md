@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grin
 catalog_sources_roots = ["bateson-1972", "haley-1973", "watzlawick-1974"]
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "herman-1992", "kahneman-2011", "lifton-1961", "sharpley-1987", "stark-2007", "sturt-2012", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/reframing.b.toml"
@@ -260,6 +258,5 @@ z představy terapeuta o tom, k čemu má klient dojít.
 
 - [Rámec zpětného shrnutí](@/kompendium/nlp-vzorce/reframing/ramec-zpetneho-shrnuti.md) – předchozí heslo rodiny
 - [Výzva k relevanci](@/kompendium/nlp-vzorce/reframing/vyzva-k-relevanci.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

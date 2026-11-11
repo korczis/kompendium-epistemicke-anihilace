@@ -161,8 +161,6 @@ předem vysvětlená zavádějící technika ztrácí část své přesvědčivo
 klidně zpochybnit. U lidí, na které byl kauzální výklad dlouhodobě uplatňován k přesunu viny,
 je obrana zároveň součástí zotavení: znovu získat časovou osu událostí, oddělit vlastní reakce
 od jejich příčin a obnovit důvěru ve vlastní úsudek o tom, co co způsobilo (Herman 1992).
-Procvičit rozpoznávání jednotlivých hesel na příkladech výroků umožňuje [trenér
-rozpoznávání](@/kompendium/trener.md).
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
@@ -248,6 +246,5 @@ flowchart LR
 - [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md) – celý katalog a jeho rodiny
 - [Klamy předpokladu](@/kompendium/argumentacni-fauly/predpoklady-argumentu/_index.md) – předchozí rodina katalogu
 - [Statistické a pravděpodobnostní klamy](@/kompendium/argumentacni-fauly/statisticke/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
 <!-- kompendium:katalog-vazby:end -->

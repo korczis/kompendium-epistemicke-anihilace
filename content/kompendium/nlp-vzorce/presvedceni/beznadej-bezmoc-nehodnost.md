@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1990", "dilts-hallbom-smith-1990"]
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/presvedceni.b.toml"
@@ -240,6 +238,5 @@ problém je v klientovi, a ne v tom, co se mu děje.
 
 - [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – předchozí heslo rodiny
 - [Řetězení přesvědčení](@/kompendium/nlp-vzorce/presvedceni/retezeni-presvedceni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

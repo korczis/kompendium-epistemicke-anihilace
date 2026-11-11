@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-1985", "dilts-1980"]
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "ellis-1962", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.d.toml"
@@ -248,6 +246,5 @@ stane bezpečnou (Hassan 1988).
 
 - [Modelování](@/kompendium/nlp-vzorce/zakladni-pojmy/modelovani-pojem.md) – předchozí heslo rodiny
 - [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

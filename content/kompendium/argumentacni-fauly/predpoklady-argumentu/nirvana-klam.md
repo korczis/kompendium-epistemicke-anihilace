@@ -49,8 +49,6 @@ catalog_sources_primary = ["walton-reed-macagno-2008"]
 catalog_sources_roots = ["bentham-1824"]
 catalog_sources_critical = ["gigerenzer-2002", "kahneman-2011", "tversky-kahneman-1981"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/predpoklady-argumentu.b.toml"
 +++
@@ -225,6 +223,5 @@ stavu.
 
 - [Přesun důkazního břemene](@/kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene.md) – předchozí heslo rodiny
 - [Argument z neuvěřitelnosti](@/kompendium/argumentacni-fauly/predpoklady-argumentu/argument-z-neuveritelnosti.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

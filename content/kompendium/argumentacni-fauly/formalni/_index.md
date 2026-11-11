@@ -144,7 +144,7 @@ jen o části? Znamená klíčové slovo v obou větách totéž? Vyplývá ze z
 nepravdivost závěru? Hahn a Oaksford připomínají opačné riziko: mnohé úvahy, které tradice
 označuje za klamy, mohou být za určitých podmínek racionální, a mechanické označování klamů je
 proto samo chybou (Hahn a Oaksford 2007). Každé heslo rodiny proto obsahuje oddíl o odlišení od
-platné argumentace a každý příklad v trenéru má platný kontrast.
+platné argumentace, které ukazuje platný úsudek podobné formy.
 
 ## Obrana
 
@@ -153,9 +153,8 @@ o téma. Protipříklad stejné formy ukáže vadu úsudku, aniž by bylo třeba
 původním sporu pravdu. Vyslovení chybějící premisy přesune spor k věcnému tvrzení, které lze
 ověřit. Oddělení platnosti od pravdivosti brání tomu, aby se z odhalené chyby vyvodilo víc,
 než z ní plyne. Výzkum inokulace naznačuje, že předem poznaná struktura zavádějícího argumentu
-ztrácí část své přesvědčivosti (Cook, Lewandowsky a Ecker 2017), a trenér rozpoznávání, který
-je společný všem katalogům knihy, proto u každého hesla nabízí klamný příklad i platný
-kontrast.
+ztrácí část své přesvědčivosti (Cook, Lewandowsky a Ecker 2017), a stránka každého hesla proto
+popisuje strukturu klamu vedle platného úsudku, který se mu podobá.
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
@@ -254,6 +253,5 @@ flowchart LR
 
 - [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md) – celý katalog a jeho rodiny
 - [Klamy relevance](@/kompendium/argumentacni-fauly/relevance/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-1985", "bandler-grinder-1979", "dilts-1980",
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "chartrand-bargh-1999", "herman-1992", "lakoff-johnson-1980", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/predpoklady.b.toml"
@@ -242,6 +240,5 @@ po dlouhodobé kontrole (Herman 1992).
 
 - [Zkušenost má strukturu](@/kompendium/nlp-vzorce/predpoklady/zkusenost-ma-strukturu.md) – předchozí heslo rodiny
 - [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

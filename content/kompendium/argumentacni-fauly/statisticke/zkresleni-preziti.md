@@ -49,8 +49,6 @@ catalog_sources_primary = ["damer-2009"]
 catalog_sources_roots = []
 catalog_sources_critical = ["gilovich-1991", "huff-1954", "kahneman-2011"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/statisticke.toml"
 +++
@@ -233,6 +231,5 @@ případů, nejen těch, kteří se ozvou, je proto nejlepší ochranou i pro od
 
 - [Horká ruka](@/kompendium/argumentacni-fauly/statisticke/horka-ruka.md) – předchozí heslo rodiny
 - [Zkreslený výběr](@/kompendium/argumentacni-fauly/statisticke/zkresleny-vyber.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

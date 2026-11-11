@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973", "miller-1956"]
 catalog_sources_critical = ["beck-1976", "kirsch-lynn-1995", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/ericksonovska-hypnoza.toml"
@@ -258,6 +256,5 @@ a postupné vracení se k rozhodování vlastním tempem.
 
 - [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – předchozí heslo rodiny
 - [Přerušení vzorce](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/preruseni-vzorce.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

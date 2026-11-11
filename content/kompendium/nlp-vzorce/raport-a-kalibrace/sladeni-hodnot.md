@@ -49,8 +49,6 @@ catalog_sources_primary = ["charvet-1997", "dilts-1999", "hall-bodenhamer-1997"]
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "lifton-1961", "miller-rollnick-2013", "petty-cacioppo-1986", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/raport-a-kalibrace.b.toml"
@@ -236,6 +234,5 @@ tomu, že hodnoty patří člověku a ne skupině, která je spravuje (Lifton 19
 
 - [Raport se skupinou](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou.md) – předchozí heslo rodiny
 - [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

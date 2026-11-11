@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1982", "dilts-1999", "oconnor-seymou
 catalog_sources_roots = ["haley-1973"]
 catalog_sources_critical = ["herman-1992", "rogers-1951", "sharpley-1987", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/integrace-casti.toml"
@@ -147,6 +145,5 @@ Základní obranou je oddělit záměr od dopadu. I kdyby chování druhého sku
 
 - [Simultánní inkongruence](@/kompendium/nlp-vzorce/integrace-casti/simultanni-inkongruence.md) – předchozí heslo rodiny
 - [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

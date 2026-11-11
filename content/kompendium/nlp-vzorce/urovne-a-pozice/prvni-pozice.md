@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "dilts-delozier-2000", "grind
 catalog_sources_roots = ["perls-1969"]
 catalog_sources_critical = ["hassan-1988", "herman-1992", "kahneman-2011", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/urovne-a-pozice.b.toml"
@@ -260,6 +258,5 @@ ochrana první pozice.
 
 - [Meta-zrcadlo](@/kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md) – předchozí heslo rodiny
 - [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

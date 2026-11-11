@@ -49,8 +49,6 @@ catalog_sources_primary = ["govier-2010", "johnson-blair-1977", "walton-2008", "
 catalog_sources_roots = ["whately-1826"]
 catalog_sources_critical = ["mercier-sperber-2011", "nickerson-1998"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Vztah k technikám kompendia", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.toml"
 +++
@@ -236,6 +234,5 @@ z téhož důvodu vést vlastní záznam toho, co a kdy skutečně řekl.
 
 - [Pravidlo důkazního břemene](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-dukazniho-bremene.md) – předchozí heslo rodiny
 - [Pravidlo relevance](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-relevance.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

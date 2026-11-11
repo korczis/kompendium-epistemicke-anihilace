@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1990", "james-woodsmall-1988"]
 catalog_sources_roots = []
 catalog_sources_critical = ["gilovich-1991", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "lilienfeld-2015", "loftus-palmer-1974", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/casova-osa.toml"
@@ -155,6 +153,5 @@ Základní obranou je rozlišovat představu od vzpomínky. Obsah, který se vyb
 
 - [Vložení cíle do budoucnosti](@/kompendium/nlp-vzorce/casova-osa/vlozeni-budouciho-cile.md) – předchozí heslo rodiny
 - [Změna tvaru časové osy](@/kompendium/nlp-vzorce/casova-osa/zmena-tvaru-casove-osy.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

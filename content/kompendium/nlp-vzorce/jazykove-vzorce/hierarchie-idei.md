@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "cop
 catalog_sources_roots = ["bateson-1972", "korzybski-1933", "miller-1956", "miller-galanter-pribram-1960", "watzlawick-1974"]
 catalog_sources_critical = ["beck-1976", "lifton-1961", "mcguire-1964", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/jazykove-vzorce.toml"
@@ -165,6 +163,5 @@ U lidí, kteří byli dlouho vystaveni prostředí s obecnými hesly a vynucený
 **V katalogu**
 
 - [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

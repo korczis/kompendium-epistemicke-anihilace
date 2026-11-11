@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
 catalog_sources_roots = ["miller-galanter-pribram-1960", "popper-1959"]
 catalog_sources_critical = ["beck-1976", "gilovich-1991", "herman-1992", "lilienfeld-2015", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/reframing.b.toml"
@@ -250,6 +248,5 @@ důkaz může ukázat i neúspěch jeho vlastní metody.
 
 - [Otevřený rámec](@/kompendium/nlp-vzorce/reframing/otevreny-ramec.md) – předchozí heslo rodiny
 - [Předrámcování](@/kompendium/nlp-vzorce/reframing/predramcovani.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

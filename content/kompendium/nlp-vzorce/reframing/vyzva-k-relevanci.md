@@ -49,8 +49,6 @@ catalog_sources_primary = ["oconnor-seymour-1990", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["grice-1975", "levinson-1983", "watzlawick-1967"]
 catalog_sources_critical = ["herman-1992", "kunda-1990", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/reframing.b.toml"
@@ -249,6 +247,5 @@ neuplatňuje právě na témata, která jsou nepohodlná jemu samému.
 
 - [Kontrastní rámec](@/kompendium/nlp-vzorce/reframing/kontrastni-ramec.md) – předchozí heslo rodiny
 - [Otevřený rámec](@/kompendium/nlp-vzorce/reframing/otevreny-ramec.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

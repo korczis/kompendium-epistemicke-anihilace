@@ -49,8 +49,6 @@ catalog_sources_primary = ["walton-2008", "walton-reed-macagno-2008"]
 catalog_sources_roots = ["bentham-1824"]
 catalog_sources_critical = ["hahn-oaksford-2007", "hassan-1988", "herman-1992", "kahneman-2011", "lifton-1961", "roozenbeek-2022", "tversky-kahneman-1974", "tversky-kahneman-1981"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Vztah k technikám kompendia", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.b.toml"
 +++
@@ -249,6 +247,5 @@ které posiluje schopnost poznat ji v nové podobě (Roozenbeek a kol. 2022).
 
 - [Odvolání na emoce](@/kompendium/argumentacni-fauly/relevance/odvolani-na-emoce.md) – předchozí heslo rodiny
 - [Odvolání na soucit](@/kompendium/argumentacni-fauly/relevance/odvolani-na-soucit.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

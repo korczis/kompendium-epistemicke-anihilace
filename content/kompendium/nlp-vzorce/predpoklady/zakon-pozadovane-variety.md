@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-delozier-2000", "oconnor-seymour-1990"]
 catalog_sources_roots = ["bateson-1972", "miller-galanter-pribram-1960", "watzlawick-1967"]
 catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "lifton-1961", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/predpoklady.toml"
@@ -248,6 +246,5 @@ tyto autority ověřovat je proto důležitou součástí návratu k vlastnímu 
 
 - [Mysl a tělo tvoří jeden systém](@/kompendium/nlp-vzorce/predpoklady/mysl-a-telo-jeden-system.md) – předchozí heslo rodiny
 - [Respekt k modelu světa druhého](@/kompendium/nlp-vzorce/predpoklady/respekt-k-modelu-sveta.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

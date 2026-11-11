@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1982", "dilt
 catalog_sources_roots = ["haley-1973", "watzlawick-1974"]
 catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "ellis-1962", "festinger-1957", "herman-1992", "lifton-1961", "mcguire-1964", "norcross-2006", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/reframing.toml"
@@ -255,6 +253,5 @@ vlastní příběh vlastními slovy patří k prvním stadiím zotavení po trau
 
 - [Kontextový reframing](@/kompendium/nlp-vzorce/reframing/kontextovy-reframing.md) – předchozí heslo rodiny
 - [Šestikrokový reframing](@/kompendium/nlp-vzorce/reframing/sestikrokovy-reframing.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

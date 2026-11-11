@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1982", "oconnor-seymour-1990"]
 catalog_sources_roots = ["bateson-1972"]
 catalog_sources_critical = ["cialdini-2009", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Ekologická kontrola v koučinku a na seminářích", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.c.toml"
@@ -151,6 +149,5 @@ Základní obranou je nepovažovat žádnou proběhlou proceduru za závaznou. S
 
 - [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – předchozí heslo rodiny
 - [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

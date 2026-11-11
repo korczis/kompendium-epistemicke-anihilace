@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = ["grice-1975", "levinson-1983"]
 catalog_sources_critical = ["herman-1992", "lilienfeld-2015", "loftus-palmer-1974", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/presupozice.b.toml"
@@ -256,6 +254,5 @@ bezpečném vztahu (Herman 1992).
 **V katalogu**
 
 - [Presupozice v reklamě](@/kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md) – předchozí heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

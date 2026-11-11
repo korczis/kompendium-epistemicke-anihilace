@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b"]
 catalog_sources_roots = ["grice-1975", "levinson-1983"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "freedman-fraser-1966", "hassan-1988", "miller-rollnick-2013", "passmore-rowson-2019", "sharpley-1987", "singer-lalich-1995", "stark-2007"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Varianty", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/presupozice.toml"
@@ -243,6 +241,5 @@ by přijat nebyl, což zmenšuje sebeobviňování a pomáhá porozumět tomu, j
 
 - [Presupozice časových vět](@/kompendium/nlp-vzorce/presupozice/presupozice-casovych-vet.md) – předchozí heslo rodiny
 - [Presupozice spojky „nebo“](@/kompendium/nlp-vzorce/presupozice/presupozice-nebo.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

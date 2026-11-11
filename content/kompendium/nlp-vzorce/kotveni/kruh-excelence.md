@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987", "ocon
 catalog_sources_roots = ["pavlov-1927"]
 catalog_sources_critical = ["cialdini-2009", "kirsch-lynn-1995", "passmore-rowson-2019", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/kotveni.toml"
@@ -237,6 +235,5 @@ jím přípravu ani odbornou pomoc u vážnější úzkosti.
 
 - [Prostorové kotvení](@/kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md) – předchozí heslo rodiny
 - [Posuvná kotva](@/kompendium/nlp-vzorce/kotveni/posuvna-kotva.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

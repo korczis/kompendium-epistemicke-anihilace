@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grin
 catalog_sources_roots = ["chomsky-1965", "erickson-rossi-rossi-1976", "haley-1973"]
 catalog_sources_critical = ["druckman-swets-1988", "gilovich-1991", "heap-1988", "kirsch-lynn-1995", "lilienfeld-2015", "passmore-rowson-2019", "sharpley-1984", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Etapy vývoje", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/kriticke-hodnoceni.b.toml"
@@ -269,6 +267,5 @@ extrémy, slepým lpěním i úplným zavržením vlastní zkušenosti (Gilovich
 
 - [Falzifikovatelnost NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/falzifikovatelnost-nlp.md) – předchozí heslo rodiny
 - [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

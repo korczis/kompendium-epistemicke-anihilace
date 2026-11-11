@@ -49,8 +49,6 @@ catalog_sources_primary = ["james-woodsmall-1988"]
 catalog_sources_roots = ["miller-galanter-pribram-1960"]
 catalog_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "lifton-1961", "roderique-davies-2009", "singer-lalich-1995", "stark-2007", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/casova-osa.toml"
@@ -144,6 +142,5 @@ Základní obranou je chránit vlastní časovou perspektivu. Kdo si udržuje vz
 
 - [Budoucí přehrávání](@/kompendium/nlp-vzorce/casova-osa/budouci-prehravani.md) – předchozí heslo rodiny
 - [Procházení časové osy](@/kompendium/nlp-vzorce/casova-osa/pruchod-casovou-osou.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

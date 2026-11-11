@@ -49,8 +49,6 @@ catalog_sources_primary = ["charvet-1997", "oconnor-seymour-1990"]
 catalog_sources_roots = []
 catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "kahneman-2011", "petty-cacioppo-1986", "sharpley-1984", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/vliv-a-zneuziti.toml"
@@ -256,6 +254,5 @@ předvídatelný důsledek situace navržené tak, aby úvaha přišla až po ro
 
 - [Konverzační hypnóza](@/kompendium/nlp-vzorce/vliv-a-zneuziti/konverzacni-hypnoza.md) – předchozí heslo rodiny
 - [Předpokládané uzavření](@/kompendium/nlp-vzorce/vliv-a-zneuziti/predpokladovy-zaver.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

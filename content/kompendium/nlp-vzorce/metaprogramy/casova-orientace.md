@@ -49,8 +49,6 @@ catalog_sources_primary = ["hall-bodenhamer-1997", "james-woodsmall-1988"]
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "herman-1992", "kahneman-2011", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1981", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/metaprogramy.b.toml"
@@ -238,6 +236,5 @@ vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md).
 
 - [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – předchozí heslo rodiny
 - [Emoční zvládání](@/kompendium/nlp-vzorce/metaprogramy/emocni-zvladani.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

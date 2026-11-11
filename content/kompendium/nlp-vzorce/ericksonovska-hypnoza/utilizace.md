@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "oconnor-seymour-1990"]
 catalog_sources_roots = ["erickson-rossi-1979", "erickson-rossi-rossi-1976", "haley-1973", "watzlawick-1967", "watzlawick-1974"]
 catalog_sources_critical = ["cialdini-2009", "herman-1992", "lifton-1961", "miller-rollnick-2013", "rogers-1951", "sharpley-1987", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/ericksonovska-hypnoza.toml"
@@ -250,6 +248,5 @@ tehdy, kdyby mluvila proti jejich hypotéze.
 
 - [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ericksonovska-hypnoza.md) – předchozí heslo rodiny
 - [Konfuzní technika](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/konfuzni-technika.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

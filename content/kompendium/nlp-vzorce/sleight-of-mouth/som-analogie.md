@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1999", "gordon-1978"]
 catalog_sources_roots = ["rosen-1982"]
 catalog_sources_critical = ["beck-1976", "kahneman-2011", "lakoff-johnson-1980", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "sharpley-1987", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/sleight-of-mouth.b.toml"
@@ -149,6 +147,5 @@ Základní obranou je oddělit přirovnání od tvrzení. Užitečnou otázkou j
 
 - [Protipříklad](@/kompendium/nlp-vzorce/sleight-of-mouth/som-protipriklad.md) – předchozí heslo rodiny
 - [Jiný výsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-jiny-vysledek.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

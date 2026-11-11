@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "eemeren-gro
 catalog_sources_roots = ["grice-1975", "levinson-1983", "mill-1843"]
 catalog_sources_critical = ["hahn-oaksford-2007", "kahneman-2011", "lakoff-johnson-1980"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/jazykove-klamy.toml"
 +++
@@ -227,6 +225,5 @@ podstatě věci.
 
 - [Reifikace](@/kompendium/argumentacni-fauly/jazykove-klamy/reifikace.md) – předchozí heslo rodiny
 - [Přesvědčovací definice](@/kompendium/argumentacni-fauly/jazykove-klamy/presvedcovaci-definice.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -119,21 +119,21 @@ přístupovými signály nenašel žádnou souvislost mezi pohybem očí a lhan�
 2012). Odborníci oslovení v delfské studii označili NLP v léčbě závislostí za pravděpodobně
 zdiskreditovanou metodu (Norcross, Koocher a Garofalo 2006). Tento stav se v hesle u každého vzorce rozvádí konkrétně.
 
-## Obrana a trenér
+## Obrana a rozpoznání
 
 Nejúčinnější obranou proti vzorcům vlivu je rozpoznat je v okamžiku, kdy působí, a mít po
 ruce otázku, která vrací rozhovor k ověřitelným tvrzením. Výzkum odolnosti proti
 přesvědčování ukazuje, že předem poznaný postup ztrácí část své síly (McGuire 1964; van der
-Linden 2023). Proto k sekci patří trenér rozpoznávání: dialog, ve kterém čtenář posuzuje
-krátké výroky, určuje vzorec a hned vidí detekční znak a obrannou odpověď. Každý
-manipulativní příklad má vedle sebe neškodný kontrast, protože stejné jazykové prostředky
-se běžně vyskytují i v řeči, která nikoho neovlivňuje proti jeho zájmu.
+Linden 2023). Proto každé heslo sekce popisuje strukturu vzorce, jeho detekční znaky
+a obrannou odpověď a staví manipulativní užití vedle neškodného, protože stejné jazykové
+prostředky se běžně vyskytují i v řeči, která nikoho neovlivňuje proti jeho zájmu.
+Průzkumník a ilustrace katalogu ukazují, jak spolu vzorce souvisejí.
 
 ## Jak je sekce udržována
 
 Sekce je odvozená z katalogu v adresáři data/nlp. Pisatel hesla píše jen jeho text a krátký
 popis; identifikátory, tabulky, seznamy literatury, oddíly Související, výpisy rodin, počty
-v tomto rozcestníku i data trenéru vytváří skript při každém sestavení. Brána v
+v tomto rozcestníku i exporty pro průzkumník vytváří skript při každém sestavení. Brána v
 průběžné integraci odmítne heslo bez stránky, stránku bez hesla, citaci díla, které není v
 ověřené bibliografii, povinný oddíl bez citace, formulaci, která by se dala číst jako návod,
 i jakoukoli zastaralou odvozenou část. Vazby mezi hesly se zapisují jednou a skript je
@@ -211,7 +211,6 @@ Katalog má 414 hesel: 129 × pojem, 22 × princip, 263 × vzorec. 1 z nich má 
 
 ## Související
 
-- [Trenér rozpoznávání](@/kompendium/trener.md) – interaktivní procvičení rozpoznání hesel všech katalogů
 - [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md) – další katalog knihy, propojený s tímto vazbami mezi hesly
 - [Kompendium](@/kompendium/_index.md) – celá kniha, do níž katalog patří
 

@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = ["bateson-1972", "mill-1843", "watzlawick-1974"]
 catalog_sources_critical = ["hahn-oaksford-2007", "kahneman-2011", "kunda-1990", "lakoff-johnson-1980", "langer-1978", "lifton-1961", "petty-cacioppo-1986"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Vztah k technikám kompendia", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/kauzalni.toml"
 +++
@@ -242,6 +240,5 @@ inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md).
 
 - [Klam regrese](@/kompendium/argumentacni-fauly/kauzalni/klam-regrese.md) – předchozí heslo rodiny
 - [Magické myšlení](@/kompendium/argumentacni-fauly/kauzalni/magicke-mysleni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

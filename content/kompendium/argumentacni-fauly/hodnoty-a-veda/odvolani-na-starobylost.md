@@ -49,8 +49,6 @@ catalog_sources_primary = ["hamblin-1970", "toulmin-1958", "walton-2008", "walto
 catalog_sources_roots = ["bentham-1824", "popper-1959"]
 catalog_sources_critical = ["cialdini-2009", "gilovich-1991", "lilienfeld-2015"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/hodnoty-a-veda.toml"
 +++
@@ -234,6 +232,5 @@ otázku, co je pro člověka kulturně důležité, od otázky, co je prokazatel
 
 - [Moralistický klam](@/kompendium/argumentacni-fauly/hodnoty-a-veda/moralisticky-klam.md) – předchozí heslo rodiny
 - [Vědecký žargon jako argument](@/kompendium/argumentacni-fauly/hodnoty-a-veda/vedecky-zargon.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

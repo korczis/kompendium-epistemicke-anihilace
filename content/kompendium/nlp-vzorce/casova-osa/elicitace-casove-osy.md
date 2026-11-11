@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-grinder-1975", "jame
 catalog_sources_roots = ["levinson-1983"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "lakoff-johnson-1980", "tosey-mathison-2009", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/casova-osa.toml"
@@ -145,6 +143,5 @@ Základní obranou je vědět, že otázka na umístění času je vstupem do ur
 **V katalogu**
 
 - [„V čase“ a „mimo čas“](@/kompendium/nlp-vzorce/casova-osa/v-case-a-mimo-cas.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

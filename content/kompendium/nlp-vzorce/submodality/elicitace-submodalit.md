@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "dilts-1980",
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "hassan-1988", "herman-1992", "lifton-1961", "loftus-palmer-1974", "rogers-1951", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/submodality.toml"
@@ -252,6 +250,5 @@ na ni navazují, nemají prokázanou účinnost.
 **V katalogu**
 
 - [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

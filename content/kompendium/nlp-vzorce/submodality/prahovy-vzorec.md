@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
 catalog_sources_roots = ["watzlawick-1974"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "hassan-1988", "miller-rollnick-2013", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/submodality.b.toml"
@@ -230,6 +228,5 @@ schopnost vidět ve vztahu dobré i špatné, a teprve z ní vycházet při dal�
 
 - [Změna přesvědčení přes submodality](@/kompendium/nlp-vzorce/submodality/zmena-presvedceni-submodalitami.md) – předchozí heslo rodiny
 - [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

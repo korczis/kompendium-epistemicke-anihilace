@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "govier-2010
 catalog_sources_roots = ["watzlawick-1967"]
 catalog_sources_critical = ["festinger-1957", "herman-1992", "lifton-1961", "singer-lalich-1995", "stark-2007"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Vztah k technikám kompendia", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.b.toml"
 +++
@@ -243,6 +241,5 @@ oprávněný a že jeho cena nevypovídá o jeho správnosti.
 
 - [Odvolání na soucit](@/kompendium/argumentacni-fauly/relevance/odvolani-na-soucit.md) – předchozí heslo rodiny
 - [Odvolání na přirozenost](@/kompendium/argumentacni-fauly/relevance/odvolani-na-prirozenost.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

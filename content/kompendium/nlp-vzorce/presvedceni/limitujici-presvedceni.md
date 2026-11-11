@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "dilts-1990", "dilts-1999", "
 catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "ellis-1962", "gilovich-1991", "lilienfeld-2015", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/presvedceni.toml"
@@ -268,6 +266,5 @@ a v širším rámci kompendia heslo o
 
 - [Audit přesvědčení](@/kompendium/nlp-vzorce/presvedceni/audit-presvedceni.md) – předchozí heslo rodiny
 - [Přesvědčení o příčině](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-pricine.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

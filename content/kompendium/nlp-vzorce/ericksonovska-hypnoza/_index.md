@@ -328,6 +328,5 @@ flowchart LR
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Milton-model](@/kompendium/nlp-vzorce/milton-model/_index.md) – předchozí rodina katalogu
 - [Jazykové presupozice](@/kompendium/nlp-vzorce/presupozice/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
 <!-- kompendium:katalog-vazby:end -->

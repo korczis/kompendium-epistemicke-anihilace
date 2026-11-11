@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "hamblin-197
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "ekman-2003", "kahneman-2011", "petty-cacioppo-1986", "roozenbeek-2022", "tversky-kahneman-1981", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.b.toml"
 +++
@@ -249,6 +247,5 @@ iracionalitu, ale jako stopu působení, které se dá popsat a postupně odbour
 
 - [Odvolání na novost](@/kompendium/argumentacni-fauly/relevance/odvolani-na-novost.md) – předchozí heslo rodiny
 - [Odvolání na strach](@/kompendium/argumentacni-fauly/relevance/odvolani-na-strach.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

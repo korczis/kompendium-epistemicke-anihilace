@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981", "gri
 catalog_sources_roots = ["erickson-rossi-1979", "grice-1975"]
 catalog_sources_critical = ["druckman-swets-1988", "hassan-1988", "kahneman-2011", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1987", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/milton-model.toml"
@@ -252,6 +250,5 @@ bývalým členům přestat se obviňovat (Hassan 1988).
 
 - [Milton-model](@/kompendium/nlp-vzorce/milton-model/milton-model.md) – předchozí heslo rodiny
 - [Vložené otázky](@/kompendium/nlp-vzorce/milton-model/vlozene-otazky.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

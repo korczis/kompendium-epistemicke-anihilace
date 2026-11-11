@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
 catalog_sources_critical = ["heap-1988", "herman-1992", "loftus-palmer-1974", "mcguire-1964", "sturt-2012"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Varianty", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/presupozice.toml"
@@ -240,6 +238,5 @@ minulosti je jádrem zotavení po dlouhodobém nátlaku (Herman 1992).
 
 - [Komentářová příslovce a přídavná jména](@/kompendium/nlp-vzorce/presupozice/komentarova-adverbia.md) – předchozí heslo rodiny
 - [Opakovací slova](@/kompendium/nlp-vzorce/presupozice/opakovaci-slova.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

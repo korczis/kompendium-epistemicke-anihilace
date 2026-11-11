@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1990", "dilts-delozier-2000"]
 catalog_sources_roots = ["bateson-1972", "watzlawick-1967"]
 catalog_sources_critical = ["herman-1992", "lakoff-johnson-1980", "lifton-1961", "sharpley-1987", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/urovne-a-pozice.toml"
@@ -238,6 +236,5 @@ potom interpretovat jeho obtíže jako věc vnitřních obsahů. Navazující ú
 
 - [Zarovnání logických úrovní](@/kompendium/nlp-vzorce/urovne-a-pozice/zarovnani-logickych-urovni.md) – předchozí heslo rodiny
 - [Úroveň chování](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-chovani.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

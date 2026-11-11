@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "lankton-1980", "oconnor-seym
 catalog_sources_roots = ["haley-1973"]
 catalog_sources_critical = ["beck-1976", "hassan-1988", "norcross-2006", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/kotveni.b.toml"
@@ -237,6 +235,5 @@ ale vlastností člověka, kterou skupina jen přisvojila.
 
 - [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – předchozí heslo rodiny
 - [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

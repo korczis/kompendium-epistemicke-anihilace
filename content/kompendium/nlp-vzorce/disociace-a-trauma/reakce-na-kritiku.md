@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1989", "bandler-grinder-1975"]
 catalog_sources_roots = ["satir-1972"]
 catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "passmore-rowson-2019", "rogers-1951", "stark-2007", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/disociace-a-trauma.toml"
@@ -235,6 +233,5 @@ a souvislost se sebeobrazem rozebírá heslo
 
 - [Vzorec odpuštění](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-odpusteni.md) – předchozí heslo rodiny
 - [Vzorec sebepojetí](@/kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

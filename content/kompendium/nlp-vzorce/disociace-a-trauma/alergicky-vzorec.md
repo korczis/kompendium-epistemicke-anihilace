@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-hallbom-smith-1990"]
 catalog_sources_roots = ["pavlov-1927", "popper-1959"]
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "gilovich-1991", "herman-1992", "norcross-2006", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/disociace-a-trauma.toml"
@@ -252,6 +250,5 @@ Odborník by měl klientovi vysvětlit, že kolísání alergických příznaků
 
 - [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – předchozí heslo rodiny
 - [Vzorec zpracování zármutku](@/kompendium/nlp-vzorce/disociace-a-trauma/vzorec-zalu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

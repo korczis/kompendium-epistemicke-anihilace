@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1980", "oconnor-seymour-1990"]
 catalog_sources_roots = ["miller-galanter-pribram-1960", "watzlawick-1974"]
 catalog_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/reframing.toml"
@@ -234,6 +232,5 @@ co chce dál.
 
 - [Rámec „jako by“](@/kompendium/nlp-vzorce/reframing/ramec-jako-by.md) – předchozí heslo rodiny
 - [Rámec ekologie](@/kompendium/nlp-vzorce/reframing/ramec-ekologie.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

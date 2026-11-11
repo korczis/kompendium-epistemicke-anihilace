@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975"]
 catalog_sources_roots = ["bateson-1972", "mill-1843", "watzlawick-1967"]
 catalog_sources_critical = ["beck-1976", "herman-1992", "huff-1954", "kahneman-2011", "kunda-1990", "stark-2007"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Varianty", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/kauzalni.toml"
 +++
@@ -240,6 +238,5 @@ dvou rovnocenných stran (Stark 2007).
 
 - [Jediná příčina](@/kompendium/argumentacni-fauly/kauzalni/jedina-pricina.md) – předchozí heslo rodiny
 - [Přehlížená společná příčina](@/kompendium/argumentacni-fauly/kauzalni/prehlizena-spolecna-pricina.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

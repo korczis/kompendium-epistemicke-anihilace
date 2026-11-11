@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "govier-2010
 catalog_sources_roots = ["bentham-1824", "whately-1826"]
 catalog_sources_critical = ["hahn-oaksford-2007", "herman-1992", "kunda-1990", "mercier-sperber-2011", "petty-cacioppo-1986"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.toml"
 +++
@@ -249,6 +247,5 @@ podoby, kterou katalog popisuje jako
 
 - [Útok na osobu](@/kompendium/argumentacni-fauly/relevance/ad-hominem.md) – předchozí heslo rodiny
 - [Ty taky](@/kompendium/argumentacni-fauly/relevance/tu-quoque.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

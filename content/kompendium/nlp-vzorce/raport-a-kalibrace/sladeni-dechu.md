@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "gri
 catalog_sources_roots = ["erickson-rossi-rossi-1976"]
 catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "herman-1992", "kirsch-lynn-1995", "rogers-1951", "singer-lalich-1995", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/raport-a-kalibrace.toml"
@@ -246,6 +244,5 @@ zotavení z traumatu, které Herman popisuje jako návrat moci a spojení (Herma
 
 - [Shoda predikátů](@/kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md) – předchozí heslo rodiny
 - [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

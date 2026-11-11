@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "dilts
 catalog_sources_roots = ["miller-galanter-pribram-1960"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "gilovich-1991", "heap-1988", "sharpley-1984", "sharpley-1987", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/strategie-a-modelovani.toml"
@@ -158,6 +156,5 @@ Pro rodiče a učitele je hlavní obranou trvat na odborném posouzení. Obtíž
 
 - [Elicitace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/elicitace-strategie.md) – předchozí heslo rodiny
 - [Rozhodovací strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/rozhodovaci-strategie.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

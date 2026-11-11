@@ -49,8 +49,6 @@ catalog_sources_primary = ["toulmin-1958", "walton-2008", "eemeren-grootendorst-
 catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["hassan-1988", "kunda-1990", "lifton-1961", "mercier-sperber-2011", "nickerson-1998"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/predpoklady-argumentu.toml"
 +++
@@ -228,6 +226,5 @@ a ne podle dodatečně udělené či odepřené příslušnosti.
 
 - [Složená otázka](@/kompendium/argumentacni-fauly/predpoklady-argumentu/slozena-otazka.md) – předchozí heslo rodiny
 - [Zvláštní výjimka](@/kompendium/argumentacni-fauly/predpoklady-argumentu/zvlastni-vyjimka.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["cameron-bandler-1978", "charvet-1997", "dilts-1980",
 catalog_sources_roots = ["miller-galanter-pribram-1960"]
 catalog_sources_critical = ["cialdini-2009", "herman-1992", "langer-1978", "sharpley-1984", "stark-2007", "sturt-2012", "vrij-2008", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/cile-a-vysledky.toml"
@@ -249,6 +247,5 @@ popisuje obnovu autonomie a vlastního úsudku jako jádro zotavení z dlouhodob
 
 - [Ekologie cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/ekologie-cile.md) – předchozí heslo rodiny
 - [Otázky výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/otazky-vysledku.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

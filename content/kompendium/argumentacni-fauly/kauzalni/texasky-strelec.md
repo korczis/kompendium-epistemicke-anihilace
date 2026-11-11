@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["gilovich-1991", "gilovich-vallone-tversky-1985", "hahn-oaksford-2007", "kahneman-2011", "nickerson-1998", "tversky-kahneman-1971"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Vztah k technikám kompendia", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/kauzalni.toml"
 +++
@@ -235,6 +233,5 @@ pak ji porovnat s tím, co se skutečně stalo (Nickerson 1998).
 
 - [Přehlížená společná příčina](@/kompendium/argumentacni-fauly/kauzalni/prehlizena-spolecna-pricina.md) – předchozí heslo rodiny
 - [Klam regrese](@/kompendium/argumentacni-fauly/kauzalni/klam-regrese.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["damer-2009", "toulmin-1958", "eemeren-grootendorst-2
 catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["kunda-1990", "mercier-sperber-2011", "nickerson-1998", "stanovich-west-2000", "stark-2007"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/predpoklady-argumentu.toml"
 +++
@@ -230,6 +228,5 @@ přehled [kognitivních biasů](@/kompendium/03-zakladni-kategorie/biasy/_index.
 
 - [Žádný pravý Skot](@/kompendium/argumentacni-fauly/predpoklady-argumentu/zadny-pravy-skot.md) – předchozí heslo rodiny
 - [Ukvapené zobecnění](@/kompendium/argumentacni-fauly/predpoklady-argumentu/ukvapene-zobecneni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

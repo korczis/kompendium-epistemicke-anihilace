@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "tindale-200
 catalog_sources_roots = ["bentham-1824", "korzybski-1933", "whately-1826"]
 catalog_sources_critical = ["kahneman-2011", "lakoff-johnson-1980", "loftus-palmer-1974", "tversky-kahneman-1981"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/formalni.toml"
 +++
@@ -233,6 +231,5 @@ protože dvojznačný střední termín bývá zároveň nerozložený, a obecn�
 
 - [Nedovolený menší termín](@/kompendium/argumentacni-fauly/formalni/nedovoleny-mensi-termin.md) – předchozí heslo rodiny
 - [Existenční klam](@/kompendium/argumentacni-fauly/formalni/existencni-klam.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

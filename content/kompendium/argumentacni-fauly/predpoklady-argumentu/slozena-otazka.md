@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "hamblin-1970", "johnson-b
 catalog_sources_roots = []
 catalog_sources_critical = ["loftus-palmer-1974", "tversky-kahneman-1983"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Varianty", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/predpoklady-argumentu.toml"
 +++
@@ -235,6 +233,5 @@ dávají vypovídajícímu právo otázku odmítnout v podobě, v níž byla pol
 
 - [Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – předchozí heslo rodiny
 - [Žádný pravý Skot](@/kompendium/argumentacni-fauly/predpoklady-argumentu/zadny-pravy-skot.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["charvet-1997", "oconnor-seymour-1990"]
 catalog_sources_roots = ["miller-galanter-pribram-1960", "watzlawick-1967", "watzlawick-1974"]
 catalog_sources_critical = ["beck-1976", "herman-1992", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "sharpley-1987", "singer-lalich-1995", "tversky-kahneman-1981", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/cile-a-vysledky.toml"
@@ -236,6 +234,5 @@ nespokojenost je legitimní signál, a ne vada charakteru (Herman 1992).
 
 - [Dobře formulovaný výsledek](@/kompendium/nlp-vzorce/cile-a-vysledky/dobre-formulovany-vysledek.md) – předchozí heslo rodiny
 - [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

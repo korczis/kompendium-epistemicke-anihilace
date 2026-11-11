@@ -49,8 +49,6 @@ catalog_sources_primary = ["charvet-1997", "dilts-1999"]
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "festinger-1957", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "sturt-2012", "tversky-kahneman-1981", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/sleight-of-mouth.b.toml"
@@ -147,6 +145,5 @@ Nejúčinnější obranou je oddělit hodnotu od rozhodnutí. Lze souhlasit, že
 
 - [Strategie reality](@/kompendium/nlp-vzorce/sleight-of-mouth/som-strategie-reality.md) – předchozí heslo rodiny
 - [Aplikace na sebe](@/kompendium/nlp-vzorce/sleight-of-mouth/som-aplikace-na-sebe.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

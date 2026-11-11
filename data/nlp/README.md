@@ -14,9 +14,9 @@ katalogu: [`nlp-catalogue-provenance`](../../.ai/repo/knowledge/curated/nlp-cata
 
 Bibliografie je společná všem katalogům: [`data/sources.toml`](../sources.toml). Co z katalogu
 vzniká: front matter každé stránky (`catalog` a pole `catalog_*`), identifikační tabulka,
-oddíly Literatura a Související, výpisy a mapy rodin, souhrny sekce, data trenéru
-`static/data/nlp-trener.json`, úplný export `static/data/nlp-katalog.json` a společný index
-`static/data/katalogy.json`, který čte jeden trenér všech katalogů.
+oddíly Literatura a Související, výpisy a mapy rodin, souhrny sekce a úplný export
+`static/data/nlp-katalog.json`, který čte průzkumník a ilustrace. Příkladové výroky hesel
+(`trainer`) jsou ověřovaná zdrojová data a nikde se nezveřejňují (ADR 0008).
 
 ```sh
 python3 scripts/catalogs.py                    # zapsat vše odvozené (všechny katalogy)

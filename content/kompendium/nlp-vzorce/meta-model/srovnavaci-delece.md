@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
 catalog_sources_roots = ["grice-1975", "popper-1959"]
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "herman-1992", "mcguire-1964", "passmore-rowson-2019", "sharpley-1987", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/meta-model.toml"
@@ -244,6 +242,5 @@ druhý soustavně určoval hodnotu člověka, probíhá postupně, ve vztazích,
 
 - [Prosté vypuštění](@/kompendium/nlp-vzorce/meta-model/prosta-delece.md) – předchozí heslo rodiny
 - [Ztracený performativ](@/kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

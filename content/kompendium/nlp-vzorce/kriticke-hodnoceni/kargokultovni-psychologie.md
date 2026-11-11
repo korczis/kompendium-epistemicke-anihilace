@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1980"]
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "kahneman-2011", "langer-1978", "lilienfeld-2015", "norcross-2006", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "sturt-2012", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Proč forma vědy přesvědčuje", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/kriticke-hodnoceni.b.toml"
@@ -245,6 +243,5 @@ přesvědčování oslabuje jeho účinek (van der Linden 2023).
 
 - [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – předchozí heslo rodiny
 - [Jak číst tvrzení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = ["bateson-1972", "mill-1843", "watzlawick-1967", "watzlawick-1974"]
 catalog_sources_critical = ["hahn-oaksford-2007", "kahneman-2011", "kunda-1990", "mercier-sperber-2011", "nickerson-1998", "stark-2007"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Varianty", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/kauzalni.toml"
 +++
@@ -244,6 +242,5 @@ události v minulosti jako zdroji současných potíží.
 
 - [Záměna korelace a kauzality](@/kompendium/argumentacni-fauly/kauzalni/korelace-a-kauzalita.md) – předchozí heslo rodiny
 - [Obrácená kauzalita](@/kompendium/argumentacni-fauly/kauzalni/obracena-kauzalita.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

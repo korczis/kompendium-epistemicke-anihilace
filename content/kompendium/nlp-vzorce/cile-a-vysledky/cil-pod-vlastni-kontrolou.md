@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
 catalog_sources_roots = ["miller-galanter-pribram-1960", "satir-1972", "watzlawick-1974"]
 catalog_sources_critical = ["beck-1976", "herman-1992", "miller-rollnick-2013", "norcross-2006", "passmore-rowson-2019", "stark-2007", "sturt-2012"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/cile-a-vysledky.toml"
@@ -238,6 +236,5 @@ stranu nezastaví.
 
 - [Smyslové důkazy dosažení](@/kompendium/nlp-vzorce/cile-a-vysledky/smyslove-dukazy-cile.md) – předchozí heslo rodiny
 - [Kontext cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/kontext-cile.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

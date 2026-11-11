@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "dilts-1999", "oconnor-seymou
 catalog_sources_roots = ["chomsky-1965"]
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "freedman-fraser-1966", "herman-1992", "loftus-palmer-1974", "sharpley-1987", "stark-2007", "tosey-mathison-2009", "vrij-2008", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/jazykove-vzorce.toml"
@@ -161,6 +159,5 @@ V klinické práci s lidmi, kteří byli dlouho vystaveni zpochybňování vlast
 
 - [Chunking nahoru](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-nahoru.md) – předchozí heslo rodiny
 - [Laterální chunking](@/kompendium/nlp-vzorce/jazykove-vzorce/lateralni-chunking.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

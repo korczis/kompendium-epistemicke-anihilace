@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-1985", "bandler-grinder-1979", "dilts-1980"]
 catalog_sources_roots = ["pavlov-1927"]
 catalog_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "lakoff-johnson-1980", "sharpley-1984", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Vztah k technikám kompendia", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.toml"
@@ -232,6 +230,5 @@ spouštěče vzpomínek.
 
 - [Kinestetický reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/kinesteticky-system.md) – předchozí heslo rodiny
 - [Auditivně digitální systém](@/kompendium/nlp-vzorce/zakladni-pojmy/auditivne-digitalni-system.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

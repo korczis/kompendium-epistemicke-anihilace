@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "hamblin-197
 catalog_sources_roots = ["grice-1975", "levinson-1983"]
 catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "hasher-1977", "kunda-1990", "mercier-sperber-2011", "nickerson-1998"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/jazykove-klamy.b.toml"
 +++
@@ -243,6 +241,5 @@ mluvčí skutečně tvrdil, ne co lze z jeho slov vyrobit (van Eemeren a Grooten
 
 - [Eufemismus a dysfemismus](@/kompendium/argumentacni-fauly/jazykove-klamy/eufemismus-a-dysfemismus.md) – předchozí heslo rodiny
 - [Definiční klam](@/kompendium/argumentacni-fauly/jazykove-klamy/definicni-klam.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

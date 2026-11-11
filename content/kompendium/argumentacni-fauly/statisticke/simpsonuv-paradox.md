@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = ["mill-1843"]
 catalog_sources_critical = ["kahneman-2011", "robinson-1950", "simpson-1951"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/statisticke.b.toml"
 +++
@@ -230,6 +228,5 @@ přenos závěru z celků na jednotlivce (Robinson 1950).
 
 - [Ekologický klam](@/kompendium/argumentacni-fauly/statisticke/ekologicky-klam.md) – předchozí heslo rodiny
 - [Zavádějící živost](@/kompendium/argumentacni-fauly/statisticke/zavadejici-zivost.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

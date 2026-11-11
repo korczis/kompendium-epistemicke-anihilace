@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976"]
 catalog_sources_critical = ["ekman-2003", "gilovich-1991", "herman-1992", "kahneman-2011", "lifton-1961", "rogers-1951", "stark-2007", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/raport-a-kalibrace.toml"
@@ -252,6 +250,5 @@ a nechat klientovi poslední slovo.
 
 - [Zpětné shrnutí](@/kompendium/nlp-vzorce/raport-a-kalibrace/zpetne-shrnuti.md) – předchozí heslo rodiny
 - [Vedení v raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/vedeni-v-raportu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1982", "oconnor-seymour-1990"]
 catalog_sources_roots = ["bateson-1972", "levinson-1983", "satir-1972", "watzlawick-1967"]
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "druckman-swets-1988", "heap-1988", "herman-1992", "lifton-1961", "petty-cacioppo-1986", "stark-2007", "tversky-kahneman-1981", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/reframing.toml"
@@ -244,6 +242,5 @@ kterou utrpěl, byla jen nedorozuměním o kontextu (Beck 1976).
 
 - [Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) – předchozí heslo rodiny
 - [Významový reframing](@/kompendium/nlp-vzorce/reframing/obsahovy-reframing.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

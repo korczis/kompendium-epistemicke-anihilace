@@ -49,8 +49,6 @@ catalog_sources_primary = ["govier-2010", "johnson-blair-1977", "toulmin-1958", 
 catalog_sources_roots = []
 catalog_sources_critical = ["hasher-1977", "langer-1978", "lifton-1961", "paul-matthews-2016", "petty-cacioppo-1986", "roozenbeek-2022"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/predpoklady-argumentu.b.toml"
 +++
@@ -232,6 +230,5 @@ projevem uvažování, ne nedůvěry.
 **V katalogu**
 
 - [Klam utopených nákladů](@/kompendium/argumentacni-fauly/predpoklady-argumentu/klam-utopenych-nakladu.md) – předchozí heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

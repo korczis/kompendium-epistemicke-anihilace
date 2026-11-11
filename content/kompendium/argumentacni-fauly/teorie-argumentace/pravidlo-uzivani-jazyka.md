@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "walton-2008", "eemeren-gr
 catalog_sources_roots = ["bentham-1824", "grice-1975"]
 catalog_sources_critical = ["lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "tversky-kahneman-1981"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Vztah k technikám kompendia", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.toml"
 +++
@@ -235,6 +233,5 @@ výklad a ověří si ho otázkou, místo aby zvolil výklad, který se nejsnáz
 
 - [Pravidlo uzavření](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-uzavreni.md) – předchozí heslo rodiny
 - [Argumentační schémata a kritické otázky](@/kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

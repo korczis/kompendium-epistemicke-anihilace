@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "dilts-1999", "oconnor-seymou
 catalog_sources_roots = ["satir-1972"]
 catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "kahneman-2011", "langer-1978", "sharpley-1987", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/meta-model.b.toml"
@@ -249,6 +247,5 @@ přednost bezpečí a samostatná podpora ohrožené osoby, nikoli společná pr
 
 - [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – předchozí heslo rodiny
 - [Komplexní ekvivalence](@/kompendium/nlp-vzorce/meta-model/komplexni-ekvivalence.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

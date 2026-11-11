@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "dilts-1980"]
 catalog_sources_roots = ["pavlov-1927"]
 catalog_sources_critical = ["heap-1988", "herman-1992", "sharpley-1987", "singer-lalich-1995", "stark-2007", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.c.toml"
@@ -150,6 +148,5 @@ Základní obranou je pojmenovat vazbu. Kdo si všimne, že určitý podnět spo
 
 - [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – předchozí heslo rodiny
 - [Vypouštění](@/kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

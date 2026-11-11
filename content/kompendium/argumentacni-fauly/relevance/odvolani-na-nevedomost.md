@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "hamblin-1970", "walton-19
 catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["hahn-oaksford-2007", "lilienfeld-2015", "nickerson-1998"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.c.toml"
 +++
@@ -250,6 +248,5 @@ z nich ptáme, jak byl získán a co přesně dovoluje tvrdit.
 
 - [Whataboutism](@/kompendium/argumentacni-fauly/relevance/whataboutism.md) – předchozí heslo rodiny
 - [Lichotka](@/kompendium/argumentacni-fauly/relevance/lichotka.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

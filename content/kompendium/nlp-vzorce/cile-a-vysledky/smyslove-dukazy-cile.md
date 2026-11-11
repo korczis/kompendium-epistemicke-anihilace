@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1979", "ocon
 catalog_sources_roots = ["miller-galanter-pribram-1960", "popper-1959"]
 catalog_sources_critical = ["druckman-swets-1988", "gilovich-1991", "herman-1992", "kahneman-2011", "mcguire-1964", "sharpley-1984", "sharpley-1987", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/cile-a-vysledky.toml"
@@ -243,6 +241,5 @@ měřítek a o postupné vracení důvěry ve vlastní pozorování; v tomto bez
 
 - [Kladná formulace cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md) – předchozí heslo rodiny
 - [Cíl pod vlastní kontrolou](@/kompendium/nlp-vzorce/cile-a-vysledky/cil-pod-vlastni-kontrolou.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

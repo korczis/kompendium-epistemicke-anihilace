@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-delozier-2000", "dilts-1980", "oconnor-seymour
 catalog_sources_roots = ["miller-galanter-pribram-1960", "pavlov-1927"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "ekman-2003", "herman-1992", "petty-cacioppo-1986", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/kotveni.toml"
@@ -238,6 +236,5 @@ doklady chybějí.
 
 - [Samokotvení](@/kompendium/nlp-vzorce/kotveni/samokotveni.md) – předchozí heslo rodiny
 - [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

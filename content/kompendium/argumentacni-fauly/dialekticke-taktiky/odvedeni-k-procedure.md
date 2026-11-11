@@ -49,8 +49,6 @@ catalog_sources_primary = ["walton-1995", "eemeren-grootendorst-1992", "eemeren-
 catalog_sources_roots = ["bentham-1824"]
 catalog_sources_critical = ["herman-1992", "stark-2007"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Varianty", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/dialekticke-taktiky.b.toml"
 +++
@@ -244,6 +242,5 @@ zamýšleným účinkem taktiky (Herman 1992).
 
 - [Palba nepravd](@/kompendium/argumentacni-fauly/dialekticke-taktiky/palba-nepravd.md) – předchozí heslo rodiny
 - [Personalizace sporu](@/kompendium/argumentacni-fauly/dialekticke-taktiky/personalizace-sporu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

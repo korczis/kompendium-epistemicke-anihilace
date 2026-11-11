@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "dilts-1980"]
 catalog_sources_roots = []
 catalog_sources_critical = ["ekman-2003", "heap-1988", "sharpley-1987", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/raport-a-kalibrace.b.toml"
@@ -237,6 +235,5 @@ výklad jejich těla. Kompendium tuto souvislost s epistemickou kontrolou rozvá
 
 - [Raport jako nástroj vlivu](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-jako-nastroj-vlivu.md) – předchozí heslo rodiny
 - [Čtení řeči těla v NLP](@/kompendium/nlp-vzorce/raport-a-kalibrace/cteni-reci-tela.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

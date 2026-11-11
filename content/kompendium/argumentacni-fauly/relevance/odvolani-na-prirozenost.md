@@ -49,8 +49,6 @@ catalog_sources_primary = ["govier-2010", "toulmin-1958", "walton-1995"]
 catalog_sources_roots = ["moore-1903"]
 catalog_sources_critical = ["gilovich-1991", "hahn-oaksford-2007", "kahneman-2011", "lilienfeld-2015", "nickerson-1998"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Vztah k technikám kompendia", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.b.toml"
 +++
@@ -234,6 +232,5 @@ vyjadřuje oprávněnou nedůvěru nebo předchozí špatnou zkušenost (Gilovic
 
 - [Odvolání na sílu](@/kompendium/argumentacni-fauly/relevance/odvolani-na-silu.md) – předchozí heslo rodiny
 - [Odvolání na důsledky](@/kompendium/argumentacni-fauly/relevance/odvolani-na-dusledky.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

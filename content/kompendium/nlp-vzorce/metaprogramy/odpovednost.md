@@ -49,8 +49,6 @@ catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
 catalog_sources_roots = ["satir-1972"]
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "freedman-fraser-1966", "herman-1992", "lifton-1961", "passmore-rowson-2019", "stark-2007", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/metaprogramy.b.toml"
@@ -237,6 +235,5 @@ kontroly](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md).
 
 - [Hodnoty při koupi](@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md) – předchozí heslo rodiny
 - [Důvěra](@/kompendium/nlp-vzorce/metaprogramy/duvera.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

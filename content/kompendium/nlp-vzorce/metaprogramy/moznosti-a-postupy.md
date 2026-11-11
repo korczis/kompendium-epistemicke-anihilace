@@ -49,8 +49,6 @@ catalog_sources_primary = ["charvet-1997", "dilts-1980", "hall-bodenhamer-1997",
 catalog_sources_roots = []
 catalog_sources_critical = ["gilovich-1991", "langer-1978", "lilienfeld-2015", "passmore-rowson-2019", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/metaprogramy.toml"
@@ -237,6 +235,5 @@ kazuistika [kultu zakladatele startupu](@/kompendium/case-studies/62-startup-fou
 
 - [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – předchozí heslo rodiny
 - [Obecné a specifické](@/kompendium/nlp-vzorce/metaprogramy/obecne-a-specificke.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

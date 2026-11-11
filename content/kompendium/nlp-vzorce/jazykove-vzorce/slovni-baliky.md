@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "charvet-1997"]
 catalog_sources_roots = []
 catalog_sources_critical = ["hassan-1988", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "petty-cacioppo-1986", "rogers-1951", "singer-lalich-1995", "tversky-kahneman-1981", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/jazykove-vzorce.b.toml"
@@ -248,6 +246,5 @@ najít jeho vlastní výrazy.
 
 - [Otázky místo tvrzení](@/kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md) – předchozí heslo rodiny
 - [Časové posuny v jazyce](@/kompendium/nlp-vzorce/jazykove-vzorce/casove-presuny-v-jazyce.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

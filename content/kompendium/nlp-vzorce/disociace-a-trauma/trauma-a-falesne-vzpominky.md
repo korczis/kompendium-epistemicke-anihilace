@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1990", "james-woodsmall-1988"]
 catalog_sources_roots = []
 catalog_sources_critical = ["herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "shapiro-1989", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/disociace-a-trauma.toml"
@@ -269,6 +267,5 @@ je popsána v kapitole o
 
 - [Vzorec sebepojetí](@/kompendium/nlp-vzorce/disociace-a-trauma/sebepojeti.md) – předchozí heslo rodiny
 - [Technika přetáčení](@/kompendium/nlp-vzorce/disociace-a-trauma/rewind.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

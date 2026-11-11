@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "hamblin-197
 catalog_sources_roots = ["grice-1975", "whately-1826"]
 catalog_sources_critical = ["hahn-oaksford-2007", "petty-cacioppo-1986", "roozenbeek-2022"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Vztah k teorii přesvědčování", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.toml"
 +++
@@ -233,6 +231,5 @@ dříve než se vůbec začne zkoumat, zda jsou jeho premisy pravdivé (Damer 20
 
 - [Pravidlo stanoviska](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-stanoviska.md) – předchozí heslo rodiny
 - [Pravidlo nevyslovené premisy](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-nevyslovene-premisy.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

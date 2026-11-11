@@ -49,8 +49,6 @@ catalog_sources_primary = ["grinder-bandler-1976", "oconnor-seymour-1990"]
 catalog_sources_roots = ["satir-1972", "watzlawick-1967"]
 catalog_sources_critical = ["cialdini-2009", "ekman-2003", "rogers-1951", "vrij-2008", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Kongruence, raport a důvěra", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.c.toml"
@@ -153,6 +151,5 @@ Základní obranou je oddělit dojem z mluvčího od hodnocení tvrzení. Užite
 
 - [Disociace](@/glossary/disociace.md) – předchozí heslo rodiny
 - [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

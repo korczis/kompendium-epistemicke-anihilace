@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "govier-2010
 catalog_sources_roots = []
 catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "gilovich-1991", "hasher-1977", "huff-1954", "langer-1978", "petty-cacioppo-1986", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.toml"
 +++
@@ -246,6 +244,5 @@ je důvodem dohledat konkrétní práci, ne důvodem tvrzení přijmout (Walton 
 
 - [Odvolání na nepatřičnou autoritu](@/kompendium/argumentacni-fauly/relevance/odvolani-na-autoritu.md) – předchozí heslo rodiny
 - [Odvolání na většinu](@/kompendium/argumentacni-fauly/relevance/ad-populum.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

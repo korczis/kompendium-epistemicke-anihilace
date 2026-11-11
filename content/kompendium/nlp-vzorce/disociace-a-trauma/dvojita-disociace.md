@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-1985", "bandler-grinder-1979"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976"]
 catalog_sources_critical = ["beck-1976", "ekman-2003", "hassan-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/disociace-a-trauma.toml"
@@ -246,6 +244,5 @@ příběhu, ve kterém mají jeho emoce své místo (Beck 1976; Herman 1992).
 
 - [Rychlá léčba fobie](@/kompendium/nlp-vzorce/disociace-a-trauma/rychla-lecba-fobie.md) – předchozí heslo rodiny
 - [Reimprinting](@/kompendium/nlp-vzorce/disociace-a-trauma/reimprinting.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

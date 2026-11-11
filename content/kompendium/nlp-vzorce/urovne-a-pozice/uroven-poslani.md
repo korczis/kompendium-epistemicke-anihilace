@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1990", "dilts-delozier-2000"]
 catalog_sources_roots = ["bateson-1972"]
 catalog_sources_critical = ["hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "miller-rollnick-2013", "roderique-davies-2009", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/urovne-a-pozice.toml"
@@ -237,6 +235,5 @@ myšlenkové reformy](@/kompendium/techniques/ea-8-2-3-singer-six-conditions.md)
 
 - [Úroveň identity](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-identity.md) – předchozí heslo rodiny
 - [Meta-zrcadlo](@/kompendium/nlp-vzorce/urovne-a-pozice/meta-zrcadlo.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

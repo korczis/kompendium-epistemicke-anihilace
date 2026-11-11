@@ -49,8 +49,6 @@ catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "herman-1992", "kahneman-2011", "miller-rollnick-2013", "roderique-davies-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/metaprogramy.toml"
@@ -229,6 +227,5 @@ autonomie systematicky omezována (Herman 1992). Příbuzný vzorec, který se t
 
 - [Shoda a rozdíl](@/kompendium/nlp-vzorce/metaprogramy/shoda-a-rozdil.md) – předchozí heslo rodiny
 - [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

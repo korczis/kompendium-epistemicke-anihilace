@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1994", "bandler-grinder-1982", "ocon
 catalog_sources_roots = ["haley-1973", "satir-1972"]
 catalog_sources_critical = ["herman-1992", "lifton-1961", "miller-rollnick-2013", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/predpoklady.toml"
@@ -244,6 +242,5 @@ klient přijal ubližování od druhých jako projev dobré vůle.
 
 - [Neexistuje selhání, jen zpětná vazba](@/kompendium/nlp-vzorce/predpoklady/neni-selhani-jen-zpetna-vazba.md) – předchozí heslo rodiny
 - [Lidé mají zdroje, které potřebují](@/kompendium/nlp-vzorce/predpoklady/lide-maji-potrebne-zdroje.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

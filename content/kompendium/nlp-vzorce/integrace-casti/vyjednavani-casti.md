@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1982", "grinder-bandler-1976"]
 catalog_sources_roots = ["satir-1972", "watzlawick-1974"]
 catalog_sources_critical = ["heap-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "stark-2007", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/integrace-casti.toml"
@@ -144,6 +142,5 @@ Základní obranou je položit si otázku, mezi kým spor ve skutečnosti probí
 
 - [Jádrová transformace](@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md) – předchozí heslo rodiny
 - [Sekvenční inkongruence](@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

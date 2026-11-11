@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "hall-bodenhamer-1997"]
 catalog_sources_roots = ["satir-1972"]
 catalog_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "rogers-1951", "sturt-2012", "vrij-2008", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/metaprogramy.b.toml"
@@ -236,6 +234,5 @@ přijetí prožitku bez hodnocení je podmínkou změny, nikoli její překážk
 
 - [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – předchozí heslo rodiny
 - [Hodnoty při koupi](@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

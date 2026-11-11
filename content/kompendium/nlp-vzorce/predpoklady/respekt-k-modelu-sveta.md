@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975"]
 catalog_sources_roots = ["haley-1973", "satir-1972"]
 catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "hassan-1988", "lifton-1961", "mcguire-1964", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "singer-lalich-1995", "tosey-mathison-2009"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/predpoklady.toml"
@@ -248,6 +246,5 @@ posoudit nezávislou supervizí.
 
 - [Nejpružnější prvek řídí systém](@/kompendium/nlp-vzorce/predpoklady/zakon-pozadovane-variety.md) – předchozí heslo rodiny
 - [Člověk není své chování](@/kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

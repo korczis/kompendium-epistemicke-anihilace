@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b"]
 catalog_sources_roots = ["bateson-1956", "erickson-rossi-rossi-1976", "haley-1973", "watzlawick-1967"]
 catalog_sources_critical = ["cialdini-2009", "miller-rollnick-2013", "stark-2007", "sturt-2012", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/milton-model.c.toml"
@@ -244,6 +242,5 @@ zásadám obrany věnuje v oddílu
 
 - [Nespecifikovaný referenční index v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/nespecifikovany-index-milton.md) – předchozí heslo rodiny
 - [Záporné příkazy](@/kompendium/nlp-vzorce/milton-model/negativni-prikazy.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

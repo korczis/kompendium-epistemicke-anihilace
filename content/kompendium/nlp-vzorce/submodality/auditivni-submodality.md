@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "bandler-grin
 catalog_sources_roots = ["satir-1972", "watzlawick-1967"]
 catalog_sources_critical = ["beck-1976", "ekman-2003", "ellis-1962", "hassan-1988", "herman-1992", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "rogers-1951", "sharpley-1984", "sharpley-1987", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/submodality.toml"
@@ -255,6 +253,5 @@ práva na vlastní úsudek a vlastní slova (Herman 1992).
 
 - [Vizuální submodality](@/kompendium/nlp-vzorce/submodality/vizualni-submodality.md) – předchozí heslo rodiny
 - [Kinestetické submodality](@/kompendium/nlp-vzorce/submodality/kinesteticke-submodality.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "govier-2010", "hamblin-19
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "herman-1992", "mercier-sperber-2011", "petty-cacioppo-1986", "rogers-1951"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Vztah k technikám kompendia", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.b.toml"
 +++
@@ -243,6 +241,5 @@ institucích pomáhá jasné oddělení posuzování faktů od rozhodování o o
 
 - [Odvolání na strach](@/kompendium/argumentacni-fauly/relevance/odvolani-na-strach.md) – předchozí heslo rodiny
 - [Odvolání na sílu](@/kompendium/argumentacni-fauly/relevance/odvolani-na-silu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

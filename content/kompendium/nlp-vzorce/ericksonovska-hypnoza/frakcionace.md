@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = ["erickson-rossi-rossi-1976"]
 catalog_sources_critical = ["herman-1992", "kirsch-lynn-1995", "lifton-1961", "singer-lalich-1995", "stark-2007", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/ericksonovska-hypnoza.c.toml"
@@ -233,6 +231,5 @@ mechanismus, nikoli jako osobní slabost.
 
 - [Ideomotorická signalizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/ideomotoricka-signalizace.md) – předchozí heslo rodiny
 - [Indukce přetížením](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-pretizenim.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

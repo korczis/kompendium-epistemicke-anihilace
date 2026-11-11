@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-1985", "bandler-grinder-1975", "dilts-1980"]
 catalog_sources_roots = ["chomsky-1965", "miller-galanter-pribram-1960"]
 catalog_sources_critical = ["beck-1976", "ekman-2003", "ellis-1962", "gilovich-1991", "heap-1988", "herman-1992", "kahneman-2011", "lifton-1961", "lilienfeld-2015", "sharpley-1984", "sharpley-1987", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/predpoklady.b.toml"
@@ -246,6 +244,5 @@ kognitivní souvislosti v kapitole o
 
 - [Mít volbu je lepší než ji nemít](@/kompendium/nlp-vzorce/predpoklady/volba-je-lepsi-nez-zadna-volba.md) – předchozí heslo rodiny
 - [Zkušenost je kódována smysly](@/kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

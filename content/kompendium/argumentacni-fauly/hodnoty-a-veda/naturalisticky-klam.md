@@ -49,8 +49,6 @@ catalog_sources_primary = ["govier-2010", "hamblin-1970", "toulmin-1958", "walto
 catalog_sources_roots = ["mill-1843", "moore-1903"]
 catalog_sources_critical = ["hahn-oaksford-2007", "kunda-1990", "mercier-sperber-2011"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/hodnoty-a-veda.toml"
 +++
@@ -243,6 +241,5 @@ zdůvodnit zvlášť.
 **V katalogu**
 
 - [Problém „je“ a „má být“](@/kompendium/argumentacni-fauly/hodnoty-a-veda/je-a-ma-byt.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

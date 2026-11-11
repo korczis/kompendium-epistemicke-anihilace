@@ -49,8 +49,6 @@ catalog_sources_primary = ["grinder-bostic-2001", "grinder-delozier-1987"]
 catalog_sources_roots = ["bateson-1972"]
 catalog_sources_critical = ["beck-1976", "gilovich-1991", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/strategie-a-modelovani.b.toml"
@@ -150,6 +148,5 @@ Nejúčinnější obranou je položit si tři otázky, které odlišují legitim
 
 - [Abecední hra](@/kompendium/nlp-vzorce/strategie-a-modelovani/abecedni-hra.md) – předchozí heslo rodiny
 - [Periferní vidění](@/kompendium/nlp-vzorce/strategie-a-modelovani/periferni-videni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

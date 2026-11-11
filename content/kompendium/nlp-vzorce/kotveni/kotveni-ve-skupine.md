@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
 catalog_sources_roots = ["pavlov-1927"]
 catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "hassan-1988", "lifton-1961", "mcguire-1964", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Vztah k technikám kompendia", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/kotveni.b.toml"
@@ -250,6 +248,5 @@ například terapeuta se zkušeností s následky pobytu v manipulativních skup
 
 - [Testování kotvy](@/kompendium/nlp-vzorce/kotveni/testovani-kotvy.md) – předchozí heslo rodiny
 - [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

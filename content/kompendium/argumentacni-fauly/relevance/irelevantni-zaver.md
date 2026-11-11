@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "hamblin-1970", "toulmin-1
 catalog_sources_roots = ["grice-1975", "whately-1826"]
 catalog_sources_critical = ["kahneman-2011", "lifton-1961", "stanovich-west-2000"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Vztah k technikám kompendia", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.c.toml"
 +++
@@ -250,6 +248,5 @@ samostatné (van Eemeren a Grootendorst 2004).
 **V katalogu**
 
 - [Kontrola tónu](@/kompendium/argumentacni-fauly/relevance/kontrola-tonu.md) – předchozí heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

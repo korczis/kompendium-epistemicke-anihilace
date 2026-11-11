@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-1985", "oconnor-seymour-1990"]
 catalog_sources_roots = []
 catalog_sources_critical = ["herman-1992", "lilienfeld-2015", "norcross-2006", "shapiro-1989", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/submodality.b.toml"
@@ -244,6 +242,5 @@ nikoli jako samostatnou léčbu, a jejímu užití by mělo předcházet pečliv
 
 - [Změna vnitřního hlasu](@/kompendium/nlp-vzorce/submodality/zmena-vnitrniho-hlasu.md) – předchozí heslo rodiny
 - [Prostorové umístění představ](@/kompendium/nlp-vzorce/submodality/prostorove-umisteni-obrazu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

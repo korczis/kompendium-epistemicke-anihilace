@@ -284,6 +284,5 @@ flowchart LR
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – předchozí rodina katalogu
 - [Strategie a modelování](@/kompendium/nlp-vzorce/strategie-a-modelovani/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
 <!-- kompendium:katalog-vazby:end -->

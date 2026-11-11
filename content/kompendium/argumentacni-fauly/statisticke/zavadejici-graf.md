@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = []
 catalog_sources_critical = ["gigerenzer-2002", "huff-1954", "kahneman-2011", "roozenbeek-2022", "tversky-kahneman-1981"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Vztah k technikám kompendia", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/statisticke.b.toml"
 +++
@@ -233,6 +231,5 @@ plyne z téhož opačná povinnost: zobrazit data tak, aby první dojem odpovíd
 
 - [Klam hledání jinde](@/kompendium/argumentacni-fauly/statisticke/hledani-jinde.md) – předchozí heslo rodiny
 - [Záměna relativního a absolutního rizika](@/kompendium/argumentacni-fauly/statisticke/relativni-a-absolutni-riziko.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981", "gri
 catalog_sources_roots = ["bateson-1972", "erickson-rossi-rossi-1976", "haley-1973"]
 catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "hassan-1988", "heap-1988", "kahneman-2011", "kirsch-lynn-1995", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/predpoklady.b.toml"
@@ -247,6 +245,5 @@ skupinou, a že pochybnosti, které skupina potlačovala, byly často zdravou re
 
 - [Zkušenost je kódována smysly](@/kompendium/nlp-vzorce/predpoklady/zkusenost-je-kodovana-smysly.md) – předchozí heslo rodiny
 - [Změna má respektovat celek systému](@/kompendium/nlp-vzorce/predpoklady/ekologie-zmeny.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

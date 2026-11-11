@@ -49,8 +49,6 @@ catalog_sources_primary = ["grinder-bandler-1981"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976", "miller-1956"]
 catalog_sources_critical = ["hassan-1988", "kahneman-2011", "kirsch-lynn-1995", "mcguire-1964", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Odlišení od příbuzných jevů", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/ericksonovska-hypnoza.c.toml"
@@ -249,6 +247,5 @@ akcích.
 
 - [Frakcionace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md) – předchozí heslo rodiny
 - [Navozená amnézie](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/amnezie-sugesci.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

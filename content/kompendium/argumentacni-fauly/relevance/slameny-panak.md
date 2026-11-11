@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "govier-2010
 catalog_sources_roots = []
 catalog_sources_critical = ["gilovich-1991", "mercier-sperber-2011", "miller-rollnick-2013", "nickerson-1998"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Vztah k technikám kompendia", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.b.toml"
 +++
@@ -255,6 +253,5 @@ důvěry, že jejich vlastní znění platí.
 
 - [Červený sleď](@/kompendium/argumentacni-fauly/relevance/cerveny-sled.md) – předchozí heslo rodiny
 - [Whataboutism](@/kompendium/argumentacni-fauly/relevance/whataboutism.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1982", "cameron-bandler-1978", "dilt
 catalog_sources_roots = ["bateson-1972"]
 catalog_sources_critical = ["druckman-swets-1988", "festinger-1957", "hassan-1988", "kahneman-2011", "mcguire-1964", "miller-rollnick-2013", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/cile-a-vysledky.toml"
@@ -239,6 +237,5 @@ nebo zrušení cíle, pokládat za stejně platný jako výsledek, který cíl p
 
 - [Zdroje pro dosažení cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/zdroje-cile.md) – předchozí heslo rodiny
 - [Důkazní procedura](@/kompendium/nlp-vzorce/cile-a-vysledky/dukazni-procedura.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

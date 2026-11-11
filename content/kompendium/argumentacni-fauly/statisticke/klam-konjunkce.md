@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = ["grice-1975"]
 catalog_sources_critical = ["hahn-oaksford-2007", "kahneman-2011", "stanovich-west-2000", "tversky-kahneman-1974", "tversky-kahneman-1983"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/statisticke.toml"
 +++
@@ -236,6 +234,5 @@ je dovyprávěno, a ponechat dovyprávěné části otevřené jako hypotézy, n
 
 - [Zanedbání základní míry](@/kompendium/argumentacni-fauly/statisticke/zanedbani-zakladni-miry.md) – předchozí heslo rodiny
 - [Hráčský klam](@/kompendium/argumentacni-fauly/statisticke/hracsky-klam.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

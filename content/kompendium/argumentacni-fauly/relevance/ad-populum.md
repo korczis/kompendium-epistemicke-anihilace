@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "walton-2008
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "hahn-oaksford-2007", "hassan-1988", "lifton-1961", "mercier-sperber-2011", "paul-matthews-2016"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Vztah k technikám kompendia", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.toml"
 +++
@@ -245,6 +243,5 @@ jedním člověkem, se kterým lze názor otevřeně probrat bez obavy z vylouč
 
 - [Anonymní autorita](@/kompendium/argumentacni-fauly/relevance/anonymni-autorita.md) – předchozí heslo rodiny
 - [Rozjetý vlak](@/kompendium/argumentacni-fauly/relevance/rozjety-vlak.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

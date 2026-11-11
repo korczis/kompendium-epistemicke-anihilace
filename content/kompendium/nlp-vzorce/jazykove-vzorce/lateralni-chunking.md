@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "dilts-1999", "gordon-1978
 catalog_sources_roots = ["bateson-1972", "haley-1973", "rosen-1982"]
 catalog_sources_critical = ["gilovich-1991", "herman-1992", "lakoff-johnson-1980", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/jazykove-vzorce.toml"
@@ -158,6 +156,5 @@ U lidí, kteří se dlouho pohybovali ve skupině nebo ve vztahu, kde se každá
 
 - [Chunking dolů](@/kompendium/nlp-vzorce/jazykove-vzorce/chunking-dolu.md) – předchozí heslo rodiny
 - [Komunikační kategorie Virginie Satirové](@/kompendium/nlp-vzorce/jazykove-vzorce/kategorie-satirove.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

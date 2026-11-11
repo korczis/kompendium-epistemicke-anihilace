@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["gilovich-1991", "kahneman-2011", "nickerson-1998", "tversky-kahneman-1971"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/statisticke.b.toml"
 +++
@@ -234,6 +232,5 @@ souvislosti rozebírají
 
 - [McNamarův klam](@/kompendium/argumentacni-fauly/statisticke/mcnamaruv-klam.md) – předchozí heslo rodiny
 - [Zavádějící graf](@/kompendium/argumentacni-fauly/statisticke/zavadejici-graf.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

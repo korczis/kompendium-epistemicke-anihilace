@@ -49,8 +49,6 @@ catalog_sources_primary = ["oconnor-seymour-1990"]
 catalog_sources_roots = ["erickson-rossi-1979"]
 catalog_sources_critical = ["beck-1976", "hassan-1988", "kirsch-lynn-1995", "loftus-palmer-1974", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/reframing.toml"
@@ -232,6 +230,5 @@ skutečně stalo, a nevytvářejí se nové představy, které by staré nahradi
 
 - [Rámec souhlasu](@/kompendium/nlp-vzorce/reframing/ramec-souhlasu.md) – předchozí heslo rodiny
 - [Rámec výsledku](@/kompendium/nlp-vzorce/reframing/ramec-vysledku.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

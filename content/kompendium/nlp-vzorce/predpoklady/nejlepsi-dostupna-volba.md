@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975"]
 catalog_sources_roots = []
 catalog_sources_critical = ["festinger-1957", "herman-1992", "kahneman-2011", "lilienfeld-2015", "rogers-1951", "singer-lalich-1995", "stark-2007", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/predpoklady.toml"
@@ -239,6 +237,5 @@ kdo možnosti druhého omezoval.
 
 - [Člověk není své chování](@/kompendium/nlp-vzorce/predpoklady/clovek-neni-sve-chovani.md) – předchozí heslo rodiny
 - [Odpor jako znak chybějícího raportu](@/kompendium/nlp-vzorce/predpoklady/odpor-jako-nedostatek-raportu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

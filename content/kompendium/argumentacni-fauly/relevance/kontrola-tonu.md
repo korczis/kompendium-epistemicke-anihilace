@@ -49,8 +49,6 @@ catalog_sources_primary = ["govier-2010", "walton-1995", "eemeren-grootendorst-2
 catalog_sources_roots = ["grice-1975", "watzlawick-1967"]
 catalog_sources_critical = ["herman-1992", "kunda-1990", "petty-cacioppo-1986", "vrij-2008"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.c.toml"
 +++
@@ -240,6 +238,5 @@ námitku nesmí být podmíněno ničím, co nesouvisí s jejím obsahem (van Ee
 
 - [Dvě křivdy dávají právo](@/kompendium/argumentacni-fauly/relevance/dve-kriva-jedno-pravo.md) – předchozí heslo rodiny
 - [Irelevantní závěr](@/kompendium/argumentacni-fauly/relevance/irelevantni-zaver.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

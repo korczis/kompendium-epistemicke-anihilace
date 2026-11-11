@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "dilts-1990"]
 catalog_sources_roots = ["korzybski-1933"]
 catalog_sources_critical = ["beck-1976", "ellis-1962", "herman-1992", "lifton-1961", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/presvedceni.b.toml"
@@ -236,6 +234,5 @@ hodnot převzatých; Herman zdůrazňuje, že obnova vlastního úsudku probíh�
 
 - [Přesvědčení a zdraví v NLP](@/kompendium/nlp-vzorce/presvedceni/presvedceni-a-zdravi.md) – předchozí heslo rodiny
 - [Imprint](@/kompendium/nlp-vzorce/presvedceni/imprint.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["charvet-1997", "dilts-1999", "james-woodsmall-1988"]
 catalog_sources_roots = []
 catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "hassan-1988", "herman-1992", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/metaprogramy.toml"
@@ -233,6 +231,5 @@ sladění hodnot v rozhovoru rozvádí stránka o [sladění hodnot](@/kompendiu
 
 - [Proaktivní a reaktivní](@/kompendium/nlp-vzorce/metaprogramy/proaktivni-a-reaktivni.md) – předchozí heslo rodiny
 - [Kanál přesvědčení](@/kompendium/nlp-vzorce/metaprogramy/kanal-presvedceni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

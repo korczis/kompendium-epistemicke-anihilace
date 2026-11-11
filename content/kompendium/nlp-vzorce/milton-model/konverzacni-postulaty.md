@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "grinder-delozier-bandler-19
 catalog_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975", "levinson-1983", "watzlawick-1967"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "freedman-fraser-1966", "heap-1988", "langer-1978", "mcguire-1964", "stark-2007", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/milton-model.toml"
@@ -244,6 +242,5 @@ autonomie.
 
 - [Analogové značení](@/kompendium/nlp-vzorce/milton-model/analogove-znaceni.md) – předchozí heslo rodiny
 - [Připojené otázky](@/kompendium/nlp-vzorce/milton-model/pripojene-otazky.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

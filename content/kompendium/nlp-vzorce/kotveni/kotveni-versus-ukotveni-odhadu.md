@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979"]
 catalog_sources_roots = ["pavlov-1927"]
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "gilovich-1991", "kahneman-2011", "roderique-davies-2009", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Proč na rozlišení záleží", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/kotveni.b.toml"
@@ -241,6 +239,5 @@ druhý.
 **V katalogu**
 
 - [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – předchozí heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

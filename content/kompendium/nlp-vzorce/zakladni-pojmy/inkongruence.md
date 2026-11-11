@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1982", "grinder-bandler-1976"]
 catalog_sources_roots = ["bateson-1956", "satir-1972", "watzlawick-1967"]
 catalog_sources_critical = ["heap-1988", "herman-1992", "miller-rollnick-2013", "vrij-2008", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.c.toml"
@@ -149,6 +147,5 @@ Základní obranou je trvat na platnosti výslovného sdělení. Pokud někdo vy
 
 - [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – předchozí heslo rodiny
 - [Ekologická kontrola](@/kompendium/nlp-vzorce/zakladni-pojmy/ekologicka-kontrola.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

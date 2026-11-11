@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975"]
 catalog_sources_roots = ["korzybski-1933", "watzlawick-1967"]
 catalog_sources_critical = ["beck-1976", "ellis-1962", "gilovich-1991", "herman-1992", "lifton-1961", "loftus-palmer-1974", "sturt-2012", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.d.toml"
@@ -248,6 +246,5 @@ zkušenosti, jinak by mohly nechtěně posílit pochybnost, kterou do něj manip
 
 - [Vypouštění](@/kompendium/nlp-vzorce/zakladni-pojmy/vypousteni.md) – předchozí heslo rodiny
 - [Zobecňování](@/kompendium/nlp-vzorce/zakladni-pojmy/zobecnovani.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

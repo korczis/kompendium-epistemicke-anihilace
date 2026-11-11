@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "hamblin-1970", "walton-20
 catalog_sources_roots = ["korzybski-1933"]
 catalog_sources_critical = ["herman-1992", "kahneman-2011", "kunda-1990", "loftus-palmer-1974", "tversky-kahneman-1981"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/formalni.b.toml"
 +++
@@ -239,6 +237,5 @@ by měla obě podoby nechat vedle sebe, ne jednu z nich popírat (Herman 1992).
 
 - [Klam modálního rozsahu](@/kompendium/argumentacni-fauly/formalni/klam-modalniho-rozsahu.md) – předchozí heslo rodiny
 - [Klam klamu](@/kompendium/argumentacni-fauly/formalni/klam-klamu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

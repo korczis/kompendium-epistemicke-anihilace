@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "walton-2008
 catalog_sources_roots = ["grice-1975", "levinson-1983"]
 catalog_sources_critical = ["kahneman-2011", "kunda-1990", "nickerson-1998", "stark-2007"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/formalni.b.toml"
 +++
@@ -241,6 +239,5 @@ otevřenou otázku, kterou by potvrzení disjunktu předčasně uzavřelo.
 
 - [Existenční klam](@/kompendium/argumentacni-fauly/formalni/existencni-klam.md) – předchozí heslo rodiny
 - [Vylučující premisy](@/kompendium/argumentacni-fauly/formalni/vylucujici-premisy.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "grinder-bandler-1976", "ocon
 catalog_sources_roots = []
 catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "druckman-swets-1988", "heap-1988", "lakoff-johnson-1980", "loftus-palmer-1974", "miller-rollnick-2013", "rogers-1951", "sharpley-1984", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Varianty a příbuzné pojmy", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.toml"
@@ -247,6 +245,5 @@ vlastní slova smějí znamenat to, co jimi člověk myslí.
 
 - [Preferovaný reprezentační systém](@/kompendium/nlp-vzorce/zakladni-pojmy/preferovany-reprezentacni-system.md) – předchozí heslo rodiny
 - [Oční přístupové signály](@/kompendium/nlp-vzorce/zakladni-pojmy/ocni-pristupove-signaly.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

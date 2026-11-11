@@ -49,8 +49,6 @@ catalog_sources_primary = ["govier-2010", "johnson-blair-1977", "toulmin-1958", 
 catalog_sources_roots = ["mill-1843", "moore-1903"]
 catalog_sources_critical = ["kunda-1990", "mercier-sperber-2011", "stanovich-west-2000"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/hodnoty-a-veda.toml"
 +++
@@ -239,6 +237,5 @@ premisu za odmítnutí jakékoli normy a uniká tak skutečné diskusi o cílech
 
 - [Naturalistický klam](@/kompendium/argumentacni-fauly/hodnoty-a-veda/naturalisticky-klam.md) – předchozí heslo rodiny
 - [Moralistický klam](@/kompendium/argumentacni-fauly/hodnoty-a-veda/moralisticky-klam.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

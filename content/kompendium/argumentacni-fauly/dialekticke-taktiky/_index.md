@@ -120,8 +120,8 @@ tah porušuje.
 Rodina má nejvyšší riziko zneužití v celém katalogu, protože popisuje tahy, ne chyby, a tah
 lze teoreticky provést. Kompendium se tomu brání tím, že žádné heslo nepodává taktiku jako
 postup. Každé heslo popisuje strukturu, podle které ji pozorovatel pozná, detekční znaky,
-odlišení od legitimní argumentace a odpověď. Příklady v trenéru rozpoznávání jsou vždy
-dvojice: výrok, ve kterém taktika působí, a výrok, který se jí podobá, ale je legitimní. Tento
+odlišení od legitimní argumentace a odpověď. Odlišení vždy stojí na dvojici: tah, ve kterém
+taktika působí, a tah, který se mu podobá, ale je legitimní. Tento
 kontrast je podstatou defenzivního čtení. Téměř každá taktika této rodiny má poctivé dvojče:
 kontrolní dotaz je dvojčetem otázky „jen se ptám“, upozornění na střet zájmů dvojčetem
 bulverismu, připomenutí nevyřízené námitky dvojčetem argumentu opakováním, zúžení teze po kritice
@@ -282,6 +282,5 @@ flowchart LR
 - [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md) – celý katalog a jeho rodiny
 - [Klamy jazyka a dvojznačnosti](@/kompendium/argumentacni-fauly/jazykove-klamy/_index.md) – předchozí rodina katalogu
 - [Klamy hodnot, přírody a vědy](@/kompendium/argumentacni-fauly/hodnoty-a-veda/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
 <!-- kompendium:katalog-vazby:end -->

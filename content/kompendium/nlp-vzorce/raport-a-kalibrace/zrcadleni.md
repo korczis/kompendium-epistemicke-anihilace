@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "dilts-delozier-2000", "oconn
 catalog_sources_roots = ["haley-1973"]
 catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "heap-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1987", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/raport-a-kalibrace.toml"
@@ -265,6 +263,5 @@ podezíravosti vůči všem projevům blízkosti.
 **V katalogu**
 
 - [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

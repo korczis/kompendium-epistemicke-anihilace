@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1982"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976"]
 catalog_sources_critical = ["herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "sturt-2012", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Odlišení od příbuzných jevů", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/ericksonovska-hypnoza.c.toml"
@@ -247,6 +245,5 @@ mimovolních signálů, vyžaduje zvláštní opatrnost při hodnocení.
 
 - [Sugesce pokrývající všechny možnosti](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/sugesce-pokryvajici-vsechny-moznosti.md) – předchozí heslo rodiny
 - [Frakcionace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/frakcionace.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

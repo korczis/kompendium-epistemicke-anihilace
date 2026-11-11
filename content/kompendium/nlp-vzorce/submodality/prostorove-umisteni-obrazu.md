@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "james-woodsm
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "herman-1992", "lakoff-johnson-1980", "loftus-palmer-1974", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/submodality.b.toml"
@@ -242,6 +240,5 @@ využít jako jazyk rozhovoru, ale neměl by ho měnit bez výslovné dohody a b
 
 - [Filmová technika](@/kompendium/nlp-vzorce/submodality/filmova-technika.md) – předchozí heslo rodiny
 - [Submodality v reklamě a médiích](@/kompendium/nlp-vzorce/submodality/submodality-v-reklame.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

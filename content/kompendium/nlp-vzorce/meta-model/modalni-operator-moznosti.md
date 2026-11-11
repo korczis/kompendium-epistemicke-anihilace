@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
 catalog_sources_roots = ["chomsky-1965", "satir-1972"]
 catalog_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "miller-rollnick-2013", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/meta-model.b.toml"
@@ -247,6 +245,5 @@ byla nemožnost dlouhodobě vkládána, se proto v klinické praxi nepracuje s r
 
 - [Modální operátor nutnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md) – předchozí heslo rodiny
 - [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

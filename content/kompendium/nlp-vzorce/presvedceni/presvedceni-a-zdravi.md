@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1990", "dilts-hallbom-smith-1990"]
 catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["beck-1976", "lilienfeld-2015", "norcross-2006", "passmore-rowson-2019", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/presvedceni.b.toml"
@@ -235,6 +233,5 @@ slib nese ten, kdo ho dal, ne ten, kdo mu uvěřil.
 
 - [Myšlenkový virus](@/kompendium/nlp-vzorce/presvedceni/myslenkovy-virus.md) – předchozí heslo rodiny
 - [Přesvědčení jako součást mapy](@/kompendium/nlp-vzorce/presvedceni/presvedceni-jako-mapa.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

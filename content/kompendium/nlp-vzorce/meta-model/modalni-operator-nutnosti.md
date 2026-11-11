@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975"]
 catalog_sources_roots = ["perls-1969"]
 catalog_sources_critical = ["beck-1976", "ellis-1962", "hassan-1988", "heap-1988", "herman-1992", "passmore-rowson-2019", "sharpley-1987", "stark-2007", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/meta-model.toml"
@@ -239,6 +237,5 @@ být vysvětlena a dohodnuta, a ne uložena.
 
 - [Univerzální kvantifikátor](@/kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md) – předchozí heslo rodiny
 - [Modální operátor možnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

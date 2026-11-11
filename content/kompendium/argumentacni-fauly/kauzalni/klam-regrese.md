@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = ["mill-1843"]
 catalog_sources_critical = ["gilovich-1991", "kahneman-2011", "lilienfeld-2015", "tversky-kahneman-1971", "tversky-kahneman-1974"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Varianty", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/kauzalni.toml"
 +++
@@ -230,6 +228,5 @@ léčby stránka [terapeutické přístupy](@/kompendium/06-klinicke-aplikace/te
 
 - [Texaský střelec](@/kompendium/argumentacni-fauly/kauzalni/texasky-strelec.md) – předchozí heslo rodiny
 - [Zjednodušená kauzalita](@/kompendium/argumentacni-fauly/kauzalni/zjednodusena-kauzalita.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

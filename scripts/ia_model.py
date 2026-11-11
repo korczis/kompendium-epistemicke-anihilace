@@ -31,7 +31,7 @@ HARDCODED = re.compile(r"""(?:src|href)=["']/kompendium-epistemicke-anihilace/""
 # Phrasing of an operational script (rule project.content-defensive-frame): imperatives that
 # steer a target person. A heuristic floor under the reviewer, not a substitute; ordinary
 # self-help advice ("řekněte jim, za co se stydíte") stays out of it on purpose.
-# scripts/catalogs.py applies the same lexicon to every catalogue page and its trainer data.
+# scripts/catalogs.py applies the same lexicon to every catalogue page and its example utterances.
 HOWTO = re.compile(
     r"\b(?:[Nn]avoďte|[Pp]řimějte|[Uu]kotvěte|[Vv]nuťte|[Zz]manipulujte|[Oo]vládněte)"
     r"\s+(?:mu|jí|jim|ho|ji|je)\b"
@@ -87,8 +87,6 @@ def _catalogue_classes() -> list:
     decl = tomllib.loads(path.read_text(encoding="utf-8"))
     sections = "|".join(re.escape(c["section"]) for c in decl.get("catalog", []))
     out = []
-    if decl.get("trainer"):
-        out.append(("catalog-trainer", re.compile("^" + re.escape(decl["trainer"]) + "$")))
     if sections:
         out.append(("catalog-index", re.compile(rf"^(?:{sections})/(?:.+/)?_index\.md$")))
         out.append(("catalog", re.compile(rf"^(?:{sections})/.+\.md$")))

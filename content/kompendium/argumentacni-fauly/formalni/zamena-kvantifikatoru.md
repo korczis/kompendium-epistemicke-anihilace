@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "copi-cohen-mcmahon-2014", "w
 catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "gilovich-1991", "kahneman-2011", "tversky-kahneman-1983", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/formalni.b.toml"
 +++
@@ -249,6 +247,5 @@ zavádějícího argumentu a pak ji pozná i v nové podobě (van der Linden 202
 
 - [Vylučující premisy](@/kompendium/argumentacni-fauly/formalni/vylucujici-premisy.md) – předchozí heslo rodiny
 - [Klam modálního rozsahu](@/kompendium/argumentacni-fauly/formalni/klam-modalniho-rozsahu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

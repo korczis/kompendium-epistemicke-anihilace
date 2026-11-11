@@ -49,8 +49,6 @@ catalog_sources_primary = ["toulmin-1958", "eemeren-grootendorst-1992"]
 catalog_sources_roots = ["mill-1843", "popper-1959"]
 catalog_sources_critical = ["gilovich-1991", "kirsch-lynn-1995", "lilienfeld-2015", "norcross-2006", "sturt-2012", "tversky-kahneman-1971"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/hodnoty-a-veda.toml"
 +++
@@ -240,6 +238,5 @@ perspektivy](@/kompendium/critical-perspectives/_index.md).
 **V katalogu**
 
 - [Klam rovnováhy důkazů](@/kompendium/argumentacni-fauly/hodnoty-a-veda/klam-rovnovahy-dukazu.md) – předchozí heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

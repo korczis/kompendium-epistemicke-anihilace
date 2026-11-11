@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "hamblin-197
 catalog_sources_roots = ["mill-1843"]
 catalog_sources_critical = ["hahn-oaksford-2007", "kahneman-2011", "mercier-sperber-2011", "stanovich-west-2000"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/jazykove-klamy.toml"
 +++
@@ -230,6 +228,5 @@ mluvily o dvou různých věcech, a teprve pak lze vést skutečný spor.
 **V katalogu**
 
 - [Amfibolie](@/kompendium/argumentacni-fauly/jazykove-klamy/amfibolie.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

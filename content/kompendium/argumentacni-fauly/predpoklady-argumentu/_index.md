@@ -155,9 +155,8 @@ nerovných vztazích, ve výslechu, v terapii nebo v uzavřené skupině, je obr
 protože odmítnutí předpokladu může mít pro slabší stranu následky. Odpovědnost proto nese
 především ten, kdo rozhovor vede: tazatel, který neklade [sugestivní otázky](@/kompendium/nlp-vzorce/jazykove-vzorce/otazky-misto-tvrzeni.md), posuzovatel, který
 neuplatňuje skupinové zobecnění na jednotlivce, a autor přehledu, který stanoví kritéria výběru
-dřív, než zná výsledky. Trenér katalogu nabízí ke každému heslu příklady, na nichž lze
-rozpoznání a odpověď procvičit, vždy spolu s neškodným kontrastem, který ukazuje platné užití
-téhož tvaru.
+dřív, než zná výsledky. Stránka každého hesla popisuje rozpoznání a odpověď vždy spolu
+s neškodným kontrastem, který ukazuje platné užití téhož tvaru.
 
 <!-- kompendium:katalog-vazby:begin (scripts/catalogs.py; neupravovat ručně) -->
 
@@ -281,6 +280,5 @@ flowchart LR
 - [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md) – celý katalog a jeho rodiny
 - [Klamy relevance](@/kompendium/argumentacni-fauly/relevance/_index.md) – předchozí rodina katalogu
 - [Kauzální klamy](@/kompendium/argumentacni-fauly/kauzalni/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "johnson-bla
 catalog_sources_roots = ["grice-1975", "mill-1843"]
 catalog_sources_critical = ["gilovich-1991", "huff-1954", "kahneman-2011", "nickerson-1998", "vrij-2008"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Vztah k technikám kompendia", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/predpoklady-argumentu.b.toml"
 +++
@@ -245,6 +243,5 @@ přizpůsobit.
 
 - [Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) – předchozí heslo rodiny
 - [Falešný kompromis](@/kompendium/argumentacni-fauly/predpoklady-argumentu/falesny-kompromis.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

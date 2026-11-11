@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "govier-2010
 catalog_sources_roots = ["mill-1843", "whately-1826"]
 catalog_sources_critical = ["kahneman-2011", "mercier-sperber-2011", "roozenbeek-2022", "stanovich-west-2000", "tversky-kahneman-1974"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/formalni.toml"
 +++
@@ -235,6 +233,5 @@ které porušují rozložení krajních termínů.
 
 - [Popření předchůdce](@/kompendium/argumentacni-fauly/formalni/popreni-predchudce.md) – předchozí heslo rodiny
 - [Nedovolený větší termín](@/kompendium/argumentacni-fauly/formalni/nedovoleny-vetsi-termin.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

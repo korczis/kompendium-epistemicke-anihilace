@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "gri
 catalog_sources_roots = ["bateson-1972", "bateson-1956", "chomsky-1965", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "haley-1973", "korzybski-1933", "miller-galanter-pribram-1960", "perls-1969", "rosen-1982", "satir-1972", "watzlawick-1967", "watzlawick-1974"]
 catalog_sources_critical = ["herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "roderique-davies-2009", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Teoretické výpůjčky", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/kriticke-hodnoceni.b.toml"
@@ -258,6 +256,5 @@ vlastní zkušeností (Herman 1992).
 
 - [Historie NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/historie-nlp.md) – předchozí heslo rodiny
 - [NLP jako kargokultovní psychologie](@/kompendium/nlp-vzorce/kriticke-hodnoceni/kargokultovni-psychologie.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

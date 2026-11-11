@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973"]
 catalog_sources_critical = ["hassan-1988", "heap-1988", "herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "singer-lalich-1995"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Odlišení od klinických stavů", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.d.toml"
@@ -256,6 +254,5 @@ pozorností (Herman 1992).
 
 - [Uptime a downtime](@/kompendium/nlp-vzorce/zakladni-pojmy/uptime-a-downtime.md) – předchozí heslo rodiny
 - [Transderivační hledání](@/kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

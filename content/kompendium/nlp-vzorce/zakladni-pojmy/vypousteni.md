@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
 catalog_sources_roots = ["bateson-1972", "chomsky-1965", "miller-1956"]
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "gilovich-1991", "herman-1992", "loftus-palmer-1974", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.d.toml"
@@ -253,6 +251,5 @@ chrání.
 
 - [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – předchozí heslo rodiny
 - [Zkreslování](@/kompendium/nlp-vzorce/zakladni-pojmy/zkreslovani.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

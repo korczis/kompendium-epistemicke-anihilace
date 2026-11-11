@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1982", "dilts-1990", "dilts-delozier
 catalog_sources_roots = ["bateson-1972"]
 catalog_sources_critical = ["hassan-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/predpoklady.b.toml"
@@ -233,6 +231,5 @@ ekologie, která nikdy nevede k zastavení změny, není ekologií.
 
 - [Komunikace probíhá vědomě i nevědomě](@/kompendium/nlp-vzorce/predpoklady/komunikace-vedoma-a-nevedoma.md) – předchozí heslo rodiny
 - [Předpoklady jako pracovní hypotézy](@/kompendium/nlp-vzorce/predpoklady/predpoklady-jako-pracovni-hypotezy.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

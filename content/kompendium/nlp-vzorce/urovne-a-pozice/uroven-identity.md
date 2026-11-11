@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1990", "dilts-delozier-2000", "dilts-hallbom-s
 catalog_sources_roots = ["bateson-1972", "korzybski-1933"]
 catalog_sources_critical = ["beck-1976", "cialdini-2009", "ellis-1962", "hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "rogers-1951", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/urovne-a-pozice.toml"
@@ -246,6 +244,5 @@ popisuje heslo [úroveň poslání](@/kompendium/nlp-vzorce/urovne-a-pozice/urov
 
 - [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – předchozí heslo rodiny
 - [Úroveň poslání](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-poslani.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

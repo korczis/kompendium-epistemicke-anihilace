@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987"]
 catalog_sources_roots = ["perls-1969"]
 catalog_sources_critical = ["herman-1992", "kahneman-2011", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.b.toml"
@@ -158,6 +156,5 @@ Základní obranou je trvat na symetrii a na návratu. Kdo je vyzván, aby se v�
 
 - [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – předchozí heslo rodiny
 - [Meta-pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/meta-pozice.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

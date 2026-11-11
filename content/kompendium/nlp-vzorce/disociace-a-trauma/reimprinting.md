@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1990", "dilts-hallbom-smith-1990"]
 catalog_sources_roots = ["bateson-1972"]
 catalog_sources_critical = ["beck-1976", "herman-1992", "lilienfeld-2015", "loftus-palmer-1974", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/disociace-a-trauma.toml"
@@ -244,6 +242,5 @@ směru (Herman 1992).
 
 - [Dvojitá disociace](@/kompendium/nlp-vzorce/disociace-a-trauma/dvojita-disociace.md) – předchozí heslo rodiny
 - [Změna osobní historie](@/kompendium/nlp-vzorce/disociace-a-trauma/zmena-osobni-historie.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

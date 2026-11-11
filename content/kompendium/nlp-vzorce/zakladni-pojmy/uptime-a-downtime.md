@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-delozier-2000", "grinder-bandler-1981", "oconn
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "heap-1988", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "petty-cacioppo-1986", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.d.toml"
@@ -243,6 +241,5 @@ nad tím, kam jeho pozornost směřuje (Herman 1992).
 
 - [Vnitřní dialog](@/kompendium/nlp-vzorce/zakladni-pojmy/vnitrni-dialog.md) – předchozí heslo rodiny
 - [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

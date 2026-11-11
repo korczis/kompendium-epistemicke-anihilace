@@ -49,8 +49,6 @@ catalog_sources_primary = ["hamblin-1970", "walton-2008", "eemeren-grootendorst-
 catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["hahn-oaksford-2007", "lilienfeld-2015", "mercier-sperber-2011"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/predpoklady-argumentu.b.toml"
 +++
@@ -235,6 +233,5 @@ vysvětluje, proč tvrzení, které nelze testovat, nemůže být nikdy doložen
 
 - [Posouvání branek](@/kompendium/argumentacni-fauly/predpoklady-argumentu/posouvani-branek.md) – předchozí heslo rodiny
 - [Klam nirvány](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nirvana-klam.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

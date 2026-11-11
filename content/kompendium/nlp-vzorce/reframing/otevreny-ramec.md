@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1982", "oconnor-seymour-1990"]
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "hassan-1988", "herman-1992", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "singer-lalich-1995", "tosey-mathison-2009"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/reframing.b.toml"
@@ -240,6 +238,5 @@ by měl vždy předem říct, co se se sděleními stane, a dodržet to.
 
 - [Výzva k relevanci](@/kompendium/nlp-vzorce/reframing/vyzva-k-relevanci.md) – předchozí heslo rodiny
 - [Rámec důkazu](@/kompendium/nlp-vzorce/reframing/ramec-dukazu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

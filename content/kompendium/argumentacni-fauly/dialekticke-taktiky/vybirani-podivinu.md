@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "walton-2008", "eemeren-gr
 catalog_sources_roots = ["grice-1975"]
 catalog_sources_critical = ["gilovich-1991", "nickerson-1998", "tversky-kahneman-1974"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Varianty", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/dialekticke-taktiky.b.toml"
 +++
@@ -237,6 +235,5 @@ existují. Poctivá odpověď uzná, že takový hlas existuje, a ukáže, proč
 
 - [Falešná vyváženost](@/kompendium/argumentacni-fauly/dialekticke-taktiky/falesna-vyvazenost.md) – předchozí heslo rodiny
 - [Předstíraná starost](@/kompendium/argumentacni-fauly/dialekticke-taktiky/predstirana-starost.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

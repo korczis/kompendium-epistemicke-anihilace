@@ -49,8 +49,6 @@ catalog_sources_primary = ["hamblin-1970", "walton-2008", "eemeren-grootendorst-
 catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["kunda-1990", "mercier-sperber-2011", "nickerson-1998", "stark-2007"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/predpoklady-argumentu.b.toml"
 +++
@@ -236,6 +234,5 @@ nekonečné žádosti o další doklady slouží k vyčerpání protistrany.
 
 - [Nefalzifikovatelné tvrzení](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nefalzifikovatelnost.md) – předchozí heslo rodiny
 - [Přesun důkazního břemene](@/kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

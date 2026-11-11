@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = ["erickson-rossi-rossi-1976", "haley-1973"]
 catalog_sources_critical = ["herman-1992", "kahneman-2011", "lilienfeld-2015", "loftus-palmer-1974", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/ericksonovska-hypnoza.toml"
@@ -244,6 +242,5 @@ vzpomínky, které nejsou sporné, a uznání nejistoty tam, kde ji nelze odstra
 
 - [Vnořené smyčky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md) – předchozí heslo rodiny
 - [Předepsání symptomu](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/predepsani-symptomu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

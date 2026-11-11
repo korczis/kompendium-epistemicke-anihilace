@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "govier-2010", "walton-ree
 catalog_sources_roots = ["mill-1843"]
 catalog_sources_critical = ["gigerenzer-2002", "gilovich-1991", "kahneman-2011", "lilienfeld-2015", "tversky-kahneman-1974"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/hodnoty-a-veda.toml"
 +++
@@ -236,6 +234,5 @@ statistice.
 
 - [Argument jedinou studií](@/kompendium/argumentacni-fauly/hodnoty-a-veda/jeden-studie.md) – předchozí heslo rodiny
 - [Klam rovnováhy důkazů](@/kompendium/argumentacni-fauly/hodnoty-a-veda/klam-rovnovahy-dukazu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

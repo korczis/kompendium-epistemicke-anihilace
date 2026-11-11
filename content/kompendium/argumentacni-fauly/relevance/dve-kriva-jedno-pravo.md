@@ -49,8 +49,6 @@ catalog_sources_primary = ["damer-2009", "govier-2010", "johnson-blair-1977", "w
 catalog_sources_roots = ["watzlawick-1967"]
 catalog_sources_critical = ["festinger-1957", "herman-1992", "kunda-1990", "mercier-sperber-2011"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Vztah k technikám kompendia", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.c.toml"
 +++
@@ -234,6 +232,5 @@ odstraňuje potřebu ospravedlňovat se navzájem.
 
 - [Chronologický snobismus](@/kompendium/argumentacni-fauly/relevance/chronologicky-snobismus.md) – předchozí heslo rodiny
 - [Kontrola tónu](@/kompendium/argumentacni-fauly/relevance/kontrola-tonu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

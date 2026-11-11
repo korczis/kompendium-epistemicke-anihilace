@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "gri
 catalog_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975"]
 catalog_sources_critical = ["gilovich-1991", "hassan-1988", "herman-1992", "lifton-1961", "lilienfeld-2015", "passmore-rowson-2019", "petty-cacioppo-1986", "rogers-1951", "sharpley-1987", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/milton-model.b.toml"
@@ -268,6 +266,5 @@ vlastního výkladu zkušenosti je jádrem zotavení z dlouhodobé kontroly (Her
 
 - [Interpunkční dvojznačnost](@/kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md) – předchozí heslo rodiny
 - [Čtení myšlenek v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/cteni-myslenek-milton.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

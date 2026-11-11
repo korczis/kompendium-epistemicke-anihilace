@@ -49,8 +49,6 @@ catalog_sources_primary = ["damer-2009", "walton-reed-macagno-2008", "eemeren-gr
 catalog_sources_roots = ["bentham-1824"]
 catalog_sources_critical = ["herman-1992", "kahneman-2011", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "stark-2007", "tversky-kahneman-1981"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/jazykove-klamy.b.toml"
 +++
@@ -239,6 +237,5 @@ rozebírá kompendium v kapitole o
 
 - [Vyhýbavá slova](@/kompendium/argumentacni-fauly/jazykove-klamy/vyhybava-slova.md) – předchozí heslo rodiny
 - [Vytržení z kontextu](@/kompendium/argumentacni-fauly/jazykove-klamy/vytrzeni-z-kontextu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

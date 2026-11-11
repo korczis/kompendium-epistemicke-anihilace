@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
 catalog_sources_roots = ["chomsky-1965", "erickson-rossi-1979", "grice-1975", "haley-1973"]
 catalog_sources_critical = ["heap-1988", "herman-1992", "kirsch-lynn-1995", "lifton-1961", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1987", "tosey-mathison-2009", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/milton-model.b.toml"
@@ -265,6 +263,5 @@ hypnotickému a mnohoznačnému jazyku a mluvit tak, aby každá věta znamenala
 
 - [Porušení selekčních omezení v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/poruseni-selekcnich-omezeni.md) – předchozí heslo rodiny
 - [Syntaktická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/syntakticka-dvojznacnost.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

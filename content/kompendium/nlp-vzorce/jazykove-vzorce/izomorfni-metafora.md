@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1999", "gordon-1978"]
 catalog_sources_roots = ["bateson-1972", "bateson-1956", "grice-1975", "haley-1973", "rosen-1982", "watzlawick-1967"]
 catalog_sources_critical = ["herman-1992", "lakoff-johnson-1980", "passmore-rowson-2019", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/jazykove-vzorce.b.toml"
@@ -243,6 +241,5 @@ prostředí, kde se výklad předával příběhy, jejichž smysl směl znát je
 
 - [Terapeutická metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/terapeuticka-metafora.md) – předchozí heslo rodiny
 - [Záměna „ale“ za „a“](@/kompendium/nlp-vzorce/jazykove-vzorce/ale-a-a.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

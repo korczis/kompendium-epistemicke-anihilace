@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1982", "dilts-1999"]
 catalog_sources_roots = ["grice-1975", "korzybski-1933"]
 catalog_sources_critical = ["beck-1976", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "loftus-palmer-1974", "roderique-davies-2009", "stark-2007", "tversky-kahneman-1981", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/sleight-of-mouth.toml"
@@ -244,6 +242,5 @@ prvek přesvědčení, ale přesouvá ho do širší kategorie.
 
 - [Záměr](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zamer.md) – předchozí heslo rodiny
 - [Důsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-dusledek.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

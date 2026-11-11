@@ -59,7 +59,7 @@ uvažování (van Eemeren a Grootendorst 2004; Toulmin 1958; Kunda 1990).
 
 Několik hesel kniha už popisuje jinde, například falešné dilema, falešnou ekvivalenci nebo
 taktiku [Gish gallop](@/glossary/gish-gallop.md). Katalog pro ně nevytváří druhou stránku. Heslo v katalogu existuje,
-objevuje se v průzkumníku i v trenéru, ale vede na stránku, kterou kniha má, aby se odkazy a čtenáři
+objevuje se v průzkumníku i v ilustraci katalogu, ale vede na stránku, kterou kniha má, aby se odkazy a čtenáři
 nedělili mezi dvě stránky o témž. Jak se v knize pohybovat mezi katalogy, kapitolami a glosářem,
 popisuje stránka [jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
@@ -120,22 +120,22 @@ teorie uvažování navrhuje, že lidé jsou lepší v hodnocení cizích argume
 což vysvětluje, proč skupinová diskuse za dobrých podmínek chyby opravuje (Mercier a Sperber
 2011).
 
-## Trenér a průzkumník
+## Průzkumník a ilustrace
 
-K sekci patří průzkumník, který umožňuje hledat a filtrovat hesla podle rodiny, druhu,
-užití a rizika a ukazuje graf jejich vazeb, i jeden trenér rozpoznávání společný všem
-katalogům knihy. V trenéru čtenář posuzuje krátké výroky, rozhoduje, zda jde o klamavý,
-nebo platný argument, a určuje heslo; každý klamavý příklad má vedle sebe platný kontrast,
-protože podobná slova a struktury se objevují i v poctivé argumentaci. Výzkum inokulace
-naznačuje, že takové procvičení zvyšuje odolnost lépe než pouhá znalost seznamu (Roozenbeek
-a kol. 2022).
+K sekci patří průzkumník, který umožňuje hledat hesla podle názvu, kódu a aliasu, filtrovat
+je podle rodiny, druhu, užití a rizika a ukazuje graf jejich vazeb. Každá stránka hesla
+navíc ukazuje celý katalog jako souhvězdí rodin, v němž je dané heslo zvýrazněné spolu se
+svými obecnějšími, užšími a příbuznými hesly. Stránka hesla vždy staví detekční znaky klamu
+vedle platné argumentace, protože podobná slova a struktury se objevují i v poctivé
+diskusi. Výzkum inokulace naznačuje, že seznámení se strukturou techniky a jejími znaky
+zvyšuje odolnost lépe než pouhá znalost seznamu názvů (Roozenbeek a kol. 2022).
 
 ## Jak je sekce udržována
 
 Sekce je odvozená z dat. Hesla, rodiny a vazby jsou v adresáři data/fauly, bibliografie je
 společná všem katalogům knihy a jeden engine z nich zapisuje identifikační tabulky, seznamy
-literatury, oddíly Související, tabulky a mapy rodin, počty v tomto rozcestníku, exporty pro
-průzkumník a data trenéru. Brána v průběžné integraci odmítne heslo bez stránky, stránku bez
+literatury, oddíly Související, tabulky a mapy rodin, počty v tomto rozcestníku a exporty
+pro průzkumník a ilustraci. Brána v průběžné integraci odmítne heslo bez stránky, stránku bez
 hesla, druhou stránku pro pojem, který kniha už má, citaci díla mimo ověřenou bibliografii,
 povinný oddíl bez citace i formulaci, která by se dala číst jako návod. Vazby mezi hesly
 vedou i do katalogu NLP vzorců, protože mnohé jazykové vzorce NLP jsou z pohledu teorie
@@ -190,7 +190,6 @@ Katalog má 145 hesel: 13 × formální klam, 86 × neformální klam, 24 × poj
 
 ## Související
 
-- [Trenér rozpoznávání](@/kompendium/trener.md) – interaktivní procvičení rozpoznání hesel všech katalogů
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – další katalog knihy, propojený s tímto vazbami mezi hesly
 - [Kompendium](@/kompendium/_index.md) – celá kniha, do níž katalog patří
 

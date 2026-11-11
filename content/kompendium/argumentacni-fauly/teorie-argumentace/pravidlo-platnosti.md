@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "hamblin-1970", "eemeren-g
 catalog_sources_roots = ["whately-1826"]
 catalog_sources_critical = ["kahneman-2011", "stanovich-west-2000", "thompson-schumann-1987", "tversky-kahneman-1983"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Pravděpodobnostní obdoby", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.toml"
 +++
@@ -230,6 +228,5 @@ premisy platily.
 
 - [Pravidlo argumentačního schématu](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-argumentacniho-schematu.md) – předchozí heslo rodiny
 - [Pravidlo uzavření](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-uzavreni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

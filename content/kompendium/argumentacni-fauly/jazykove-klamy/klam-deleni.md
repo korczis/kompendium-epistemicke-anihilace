@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "hamblin-1970", "eemeren-g
 catalog_sources_roots = ["bentham-1824"]
 catalog_sources_critical = ["hahn-oaksford-2007", "kahneman-2011", "robinson-1950", "tversky-kahneman-1974"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/jazykove-klamy.toml"
 +++
@@ -239,6 +237,5 @@ popisuje, jak politická [propaganda](@/glossary/propaganda.md) tuto zkratku vyu
 
 - [Klam skládání](@/kompendium/argumentacni-fauly/jazykove-klamy/klam-skladani.md) – předchozí heslo rodiny
 - [Reifikace](@/kompendium/argumentacni-fauly/jazykove-klamy/reifikace.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

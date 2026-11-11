@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1980", "oconnor-seymour-1990"]
 catalog_sources_roots = []
 catalog_sources_critical = ["gilovich-1991", "langer-1978", "lifton-1961", "lilienfeld-2015", "roderique-davies-2009", "sharpley-1984", "sharpley-1987", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Odlišení od příbuzných jevů", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/vliv-a-zneuziti.b.toml"
@@ -258,6 +256,5 @@ k tomu nabízí přehled kritické literatury.
 
 - [Hypnotický jazyk v online obsahu](@/kompendium/nlp-vzorce/vliv-a-zneuziti/hypnoticky-jazyk-online.md) – předchozí heslo rodiny
 - [Obrana proti vlivovým vzorcům](@/kompendium/nlp-vzorce/vliv-a-zneuziti/obrana-proti-vlivovym-vzorcum.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

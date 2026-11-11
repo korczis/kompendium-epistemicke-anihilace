@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "oco
 catalog_sources_roots = ["miller-1956"]
 catalog_sources_critical = ["cialdini-2009", "freedman-fraser-1966", "lifton-1961", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.c.toml"
@@ -146,6 +144,5 @@ Základní obranou je oddělit souhlas s cílem od souhlasu s prostředkem. Poku
 
 - [Rámec](@/kompendium/nlp-vzorce/zakladni-pojmy/ramec-pojem.md) – předchozí heslo rodiny
 - [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["damer-2009", "govier-2010"]
 catalog_sources_roots = []
 catalog_sources_critical = ["gilovich-1991", "huff-1954", "kahneman-2011", "robinson-1950"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/statisticke.toml"
 +++
@@ -237,6 +235,5 @@ posoudit, zda vzorek zastupuje populaci v rysech, které by mohly výsledek ovli
 
 - [Zkreslení přežitím](@/kompendium/argumentacni-fauly/statisticke/zkresleni-preziti.md) – předchozí heslo rodiny
 - [Zákon malých čísel](@/kompendium/argumentacni-fauly/statisticke/zakon-malych-cisel.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["charvet-1997", "dilts-1980"]
 catalog_sources_roots = ["erickson-rossi-1979", "miller-galanter-pribram-1960"]
 catalog_sources_critical = ["cialdini-2009", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "sharpley-1984", "sharpley-1987", "tversky-kahneman-1974", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/strategie-a-modelovani.b.toml"
@@ -151,6 +149,5 @@ Hlavní obranou je oddělit formu od obsahu. Když nabídka „splní“ vlastn�
 
 - [Instalace strategie](@/kompendium/nlp-vzorce/strategie-a-modelovani/instalace-strategie.md) – předchozí heslo rodiny
 - [Generátor nového chování](@/kompendium/nlp-vzorce/strategie-a-modelovani/generator-noveho-chovani.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

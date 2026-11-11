@@ -49,8 +49,6 @@ catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997", "james-woodsm
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "gilovich-1991", "passmore-rowson-2019", "petty-cacioppo-1986", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.c.toml"
@@ -163,6 +161,5 @@ Základní obranou je posuzovat nabídku podle obsahu, ne podle toho, jak přesn
 
 - [Časová osa](@/kompendium/nlp-vzorce/zakladni-pojmy/casova-osa-pojem.md) – předchozí heslo rodiny
 - [Kotva](@/kompendium/nlp-vzorce/zakladni-pojmy/kotva-pojem.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

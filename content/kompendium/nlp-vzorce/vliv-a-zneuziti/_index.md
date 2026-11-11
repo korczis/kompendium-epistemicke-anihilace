@@ -117,8 +117,8 @@ osobní rozvoj nebo zdvořilý rozhovor. Stránky rodiny proto popisují struktu
 úrovni, která pozorovateli umožní poznat ho v rozhovoru, v záznamu nebo v textu, a vždy ji
 doplňují o detekční znaky, o odlišení od neškodných jevů, o stav výzkumu a o obranu. Žádná
 stránka neobsahuje formulace k použití, pořadí kroků ani rady, jak účinek zesílit nebo
-skrýt. Výroky, které stránky uvádějí v trenéru rozpoznávání, jsou krátké, obecné a vždy
-doplněné neškodným protějškem, aby čtenář viděl, že rozhoduje kontext, ne slova. Tento postup
+skrýt. Popis vzorce je vždy doplněný neškodným protějškem, aby čtenář viděl, že rozhoduje
+kontext, ne slova. Tento postup
 naplňuje princip primární defenzivnosti, který stanoví [etické
 aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) kompendia.
 
@@ -289,6 +289,5 @@ flowchart LR
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Jazykové vzorce](@/kompendium/nlp-vzorce/jazykove-vzorce/_index.md) – předchozí rodina katalogu
 - [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
 <!-- kompendium:katalog-vazby:end -->

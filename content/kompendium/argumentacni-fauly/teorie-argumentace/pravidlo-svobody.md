@@ -49,8 +49,6 @@ catalog_sources_primary = ["hamblin-1970", "walton-2008", "eemeren-grootendorst-
 catalog_sources_roots = ["bentham-1824"]
 catalog_sources_critical = ["hahn-oaksford-2007", "lifton-1961", "mercier-sperber-2011", "roozenbeek-2022"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Vztah k technikám kompendia", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.toml"
 +++
@@ -239,6 +237,5 @@ známkou shody, ale spíše známkou toho, že námitky nemají kudy zaznít (Li
 **V katalogu**
 
 - [Pravidlo důkazního břemene](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-dukazniho-bremene.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

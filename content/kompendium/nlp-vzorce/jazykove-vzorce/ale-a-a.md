@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b"]
 catalog_sources_roots = ["grice-1975", "levinson-1983", "watzlawick-1967"]
 catalog_sources_critical = ["miller-rollnick-2013", "stark-2007", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/jazykove-vzorce.b.toml"
@@ -231,6 +229,5 @@ a aby kritika, která má zaznít, zazněla jasně a byla zdůvodněna.
 
 - [Izomorfní metafora](@/kompendium/nlp-vzorce/jazykove-vzorce/izomorfni-metafora.md) – předchozí heslo rodiny
 - [Slovo „protože“](@/kompendium/nlp-vzorce/jazykove-vzorce/protoze.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

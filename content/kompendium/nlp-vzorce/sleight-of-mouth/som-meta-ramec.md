@@ -49,8 +49,6 @@ catalog_sources_primary = ["damer-2009", "dilts-1999"]
 catalog_sources_roots = ["bateson-1972", "watzlawick-1967"]
 catalog_sources_critical = ["beck-1976", "hassan-1988", "kahneman-2011", "lifton-1961", "lilienfeld-2015", "sharpley-1987", "singer-lalich-1995"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/sleight-of-mouth.b.toml"
@@ -149,6 +147,5 @@ Základní obranou je trvat na tom, že původ pochybnosti nerozhoduje o její o
 
 - [Aplikace na sebe](@/kompendium/nlp-vzorce/sleight-of-mouth/som-aplikace-na-sebe.md) – předchozí heslo rodiny
 - [Změna velikosti rámce](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zmena-velikosti-ramce.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

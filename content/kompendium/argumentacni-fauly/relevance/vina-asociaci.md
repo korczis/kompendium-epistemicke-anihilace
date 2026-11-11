@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "johnson-bla
 catalog_sources_roots = ["bentham-1824"]
 catalog_sources_critical = ["cialdini-2009", "hahn-oaksford-2007", "hasher-1977", "kahneman-2011", "nickerson-1998", "robinson-1950"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.toml"
 +++
@@ -247,6 +245,5 @@ vlastnostmi člověka, ne jeho okolím.
 
 - [Otrávení studny](@/kompendium/argumentacni-fauly/relevance/otraveni-studny.md) – předchozí heslo rodiny
 - [Odvolání na nepatřičnou autoritu](@/kompendium/argumentacni-fauly/relevance/odvolani-na-autoritu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

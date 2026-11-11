@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987"]
 catalog_sources_roots = ["bateson-1972", "watzlawick-1967"]
 catalog_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/urovne-a-pozice.b.toml"
@@ -244,6 +242,5 @@ příběhu je součástí zotavení po traumatu (Herman 1992). Odstup pak může
 
 - [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – předchozí heslo rodiny
 - [Čtvrtá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/ctvrta-pozice.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

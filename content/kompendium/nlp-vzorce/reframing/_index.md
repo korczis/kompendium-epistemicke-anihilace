@@ -275,6 +275,5 @@ flowchart LR
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Sleight of Mouth](@/kompendium/nlp-vzorce/sleight-of-mouth/_index.md) – předchozí rodina katalogu
 - [Kotvení](@/kompendium/nlp-vzorce/kotveni/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
 <!-- kompendium:katalog-vazby:end -->

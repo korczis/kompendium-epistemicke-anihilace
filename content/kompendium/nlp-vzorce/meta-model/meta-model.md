@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "gri
 catalog_sources_roots = ["chomsky-1965", "grice-1975", "korzybski-1933", "levinson-1983", "perls-1969", "satir-1972", "watzlawick-1967"]
 catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "heap-1988", "herman-1992", "miller-rollnick-2013", "petty-cacioppo-1986", "rogers-1951", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/meta-model.toml"
@@ -294,6 +292,5 @@ takové, aby klient zůstal autorem svého příběhu. Širší rámec obrany po
 **V katalogu**
 
 - [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

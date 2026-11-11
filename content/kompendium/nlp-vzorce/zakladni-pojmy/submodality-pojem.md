@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985", "dilts-1980",
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.b.toml"
@@ -167,6 +165,5 @@ Základní obranou je trvat na tom, že o změně vlastních citů rozhoduje čl
 
 - [Synestezie v NLP](@/kompendium/nlp-vzorce/zakladni-pojmy/synestezie.md) – předchozí heslo rodiny
 - [Kalibrace](@/kompendium/nlp-vzorce/zakladni-pojmy/kalibrace.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

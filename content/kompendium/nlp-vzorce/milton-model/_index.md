@@ -92,8 +92,8 @@ Mathison 2009); u Milton-modelu je tento rozpor zvlášť výrazný, protože vz
 
 Hesla této rodiny popisují strukturu vzorců tak, aby je pozorovatel poznal: co je v řeči
 slyšet, jak výrok funguje, co dělá s posluchačem a kde leží rozdíl mezi legitimním a
-manipulativním užitím. Neobsahují postupy ani formulace k použití a příklady výroků, které
-katalog uvádí v trenéru rozpoznávání, slouží k tréninku detekce, protože seznámení s oslabenou podobou vlivu posiluje odolnost vůči němu (McGuire 1964); toto omezení vychází z principu primární defenzivnosti, který vykládají [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Čtenář by měl mít na paměti tři zásady.
+manipulativním užitím. Neobsahují postupy ani formulace k použití a popis vzorce slouží
+k detekci, protože seznámení s oslabenou podobou vlivu posiluje odolnost vůči němu (McGuire 1964); toto omezení vychází z principu primární defenzivnosti, který vykládají [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md). Čtenář by měl mít na paměti tři zásady.
 
 První zásadou je, že žádný jednotlivý jazykový tvar sám o sobě nic nedokazuje. Nepřímé
 otázky, dovětky, citace, metafory i neurčitá slova jsou běžnou součástí zdvořilé a obrazné
@@ -153,7 +153,7 @@ Znalost vzorců je sama ochranná. Teorie očkování proti přesvědčování u
 seznámení s oslabenou podobou vlivu a s jeho vyvrácením posiluje odolnost (McGuire 1964), a
 novější výzkum předběžného vyvracení potvrzuje, že lidé, kteří znají typické manipulační
 techniky, je spolehlivěji rozpoznávají i v nových podobách (van der Linden 2023). K tomu
-slouží i trenér rozpoznávání, který katalog doprovází. Pro lidi, kteří prošli skupinou nebo
+slouží hesla katalogu a jejich detekční znaky. Pro lidi, kteří prošli skupinou nebo
 vztahem, kde se tento jazyk užíval soustavně, je součástí zotavení rekonstrukce toho, co jim
 bylo skutečně řečeno, a obnova důvěry ve vlastní úsudek a vlastní pochybnosti v bezpečném
 vztahu (Herman 1992). Na obecné úrovni na to navazuje oddíl kompendia o
@@ -332,6 +332,5 @@ flowchart LR
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Meta-model](@/kompendium/nlp-vzorce/meta-model/_index.md) – předchozí rodina katalogu
 - [Ericksonovská hypnóza](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "dilts-1999", "oconnor-seymou
 catalog_sources_roots = ["miller-1956"]
 catalog_sources_critical = ["beck-1976", "heap-1988", "herman-1992", "stark-2007", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/sleight-of-mouth.toml"
@@ -240,6 +238,5 @@ byla zkušenost dříve zpochybňována. Opačný pohyb, přechod od části k c
 
 - [Důsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-dusledek.md) – předchozí heslo rodiny
 - [Zobecnění](@/kompendium/nlp-vzorce/sleight-of-mouth/som-zobecneni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

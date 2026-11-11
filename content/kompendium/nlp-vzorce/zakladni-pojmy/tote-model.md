@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-delozier-2000", "dilts-1980"]
 catalog_sources_roots = ["bateson-1972", "miller-galanter-pribram-1960"]
 catalog_sources_critical = ["beck-1976", "druckman-swets-1988", "hassan-1988", "lifton-1961", "roderique-davies-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.b.toml"
@@ -154,6 +152,5 @@ První obranou je přeložit žargon do běžné řeči. Pokud někdo označí v
 
 - [Strategie](@/kompendium/nlp-vzorce/zakladni-pojmy/strategie-pojem.md) – předchozí heslo rodiny
 - [Logické úrovně](@/kompendium/nlp-vzorce/zakladni-pojmy/logicke-urovne-pojem.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["damer-2009", "walton-2008", "eemeren-grootendorst-19
 catalog_sources_roots = ["bentham-1824"]
 catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "hassan-1988", "herman-1992", "lifton-1961", "mcguire-1964", "petty-cacioppo-1986", "singer-lalich-1995"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.toml"
 +++
@@ -254,6 +252,5 @@ kompendium popisuje u
 
 - [Genetický klam](@/kompendium/argumentacni-fauly/relevance/genetic-klam.md) – předchozí heslo rodiny
 - [Vina asociací](@/kompendium/argumentacni-fauly/relevance/vina-asociaci.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

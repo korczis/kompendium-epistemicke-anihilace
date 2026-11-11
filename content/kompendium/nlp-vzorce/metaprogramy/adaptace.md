@@ -49,8 +49,6 @@ catalog_sources_primary = ["hall-bodenhamer-1997", "james-woodsmall-1988"]
 catalog_sources_roots = ["satir-1972"]
 catalog_sources_critical = ["cialdini-2009", "gilovich-1991", "kahneman-2011", "lilienfeld-2015", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/metaprogramy.b.toml"
@@ -234,6 +232,5 @@ je možné požádat o čas bez obav z nálepky. Obecným otázkám práce s tax
 
 - [Proč a jak](@/kompendium/nlp-vzorce/metaprogramy/filozoficky-smer.md) – předchozí heslo rodiny
 - [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

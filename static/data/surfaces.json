@@ -121,7 +121,8 @@
     "cross_link"
    ],
    "covered_views": [
-    "viz/katalog-trener"
+    "chart-inline",
+    "viz/oddil-prehled"
    ],
    "data": [
     "static/data/charts/kompendium-distribution.json",
@@ -136,7 +137,7 @@
     "viz/okoli": 1
    },
    "libraries": [],
-   "pages": 3,
+   "pages": 2,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -165,18 +166,15 @@
    ],
    "scenarios": [
     {
-     "count": [
-      "[data-trener-msg]",
-      2
-     ],
      "covers": [
-      "viz/katalog-trener"
+      "chart-inline",
+      "viz/oddil-prehled"
      ],
-     "note": "trenér rozpoznávání nad všemi katalogy",
-     "origin": "fixed",
-     "page": "kompendium/trener.md",
-     "painted": 0,
-     "path": "kompendium/trener/"
+     "note": "třída kompendium: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/_index.md",
+     "painted": 2,
+     "path": "kompendium/"
     }
    ],
    "scripts": [
@@ -192,7 +190,6 @@
     "js/viz/glosar.js",
     "js/viz/jadro.js",
     "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog-trener.js",
     "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
@@ -209,13 +206,11 @@
    ],
    "status": "covered",
    "templates": {
-    "kompendium/katalog-trener.html": 1,
     "kompendium/page.html": 1,
     "kompendium/section.html": 1
    },
    "views": {
     "chart-inline": 1,
-    "viz/katalog-trener": 1,
     "viz/oddil-prehled": 1,
     "viz/teorie-pojmy": 1
    }

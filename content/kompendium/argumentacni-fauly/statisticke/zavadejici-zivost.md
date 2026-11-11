@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014"]
 catalog_sources_roots = []
 catalog_sources_critical = ["gilovich-1991", "kahneman-2011", "roozenbeek-2022", "tversky-kahneman-1974"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Vztah k technikám kompendia", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/statisticke.b.toml"
 +++
@@ -240,6 +238,5 @@ popisuje [odvolání na anekdotu](@/kompendium/argumentacni-fauly/hodnoty-a-veda
 
 - [Simpsonův paradox](@/kompendium/argumentacni-fauly/statisticke/simpsonuv-paradox.md) – předchozí heslo rodiny
 - [McNamarův klam](@/kompendium/argumentacni-fauly/statisticke/mcnamaruv-klam.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

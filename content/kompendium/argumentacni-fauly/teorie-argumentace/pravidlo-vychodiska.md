@@ -49,8 +49,6 @@ catalog_sources_primary = ["hamblin-1970", "woods-walton-1989", "eemeren-grooten
 catalog_sources_roots = ["levinson-1983"]
 catalog_sources_critical = ["loftus-palmer-1974", "roozenbeek-2022", "tversky-kahneman-1981"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Vztah k technikám kompendia", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.toml"
 +++
@@ -229,6 +227,5 @@ této zásadě záleží (Loftus a Palmer 1974).
 
 - [Pravidlo nevyslovené premisy](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-nevyslovene-premisy.md) – předchozí heslo rodiny
 - [Pravidlo argumentačního schématu](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-argumentacniho-schematu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

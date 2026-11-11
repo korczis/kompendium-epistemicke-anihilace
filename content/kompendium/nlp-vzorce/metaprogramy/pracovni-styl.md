@@ -49,8 +49,6 @@ catalog_sources_primary = ["charvet-1997"]
 catalog_sources_roots = []
 catalog_sources_critical = ["druckman-swets-1988", "herman-1992", "lifton-1961", "singer-lalich-1995", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/metaprogramy.toml"
@@ -227,6 +225,5 @@ o [metaprogramech v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/me
 
 - [Reakce na stres](@/kompendium/nlp-vzorce/metaprogramy/reakce-na-stres.md) – předchozí heslo rodiny
 - [Lidé a věci](@/kompendium/nlp-vzorce/metaprogramy/lide-a-veci.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

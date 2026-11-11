@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-delozier-2000", "grinder-delozier-1987"]
 catalog_sources_roots = ["bateson-1972", "satir-1972"]
 catalog_sources_critical = ["hassan-1988", "herman-1992", "lifton-1961", "passmore-rowson-2019", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/urovne-a-pozice.b.toml"
@@ -240,6 +238,5 @@ znovu sloužit jako rozšíření úvahy, a ne jako její náhrada.
 
 - [Třetí pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/treti-pozice.md) – předchozí heslo rodiny
 - [Trojí popis](@/kompendium/nlp-vzorce/urovne-a-pozice/troji-popis.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

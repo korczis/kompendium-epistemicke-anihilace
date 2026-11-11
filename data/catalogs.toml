@@ -1,6 +1,6 @@
 # Katalogy knihy (pravidlo project.content-catalogs). Jeden engine, scripts/catalogs.py, z této
 # deklarace odvozuje každý katalog: jeho sekci, stránky hesel a rodin, front matter, vazby,
-# literaturu, exporty a data trenéru. Nový katalog = nový blok [[catalog]] a adresář s daty;
+# literaturu a exporty. Nový katalog = nový blok [[catalog]] a adresář s daty;
 # žádný nový skript, šablona ani brána. Bibliografie je společná: data/sources.toml.
 #
 # Pole bloku:
@@ -14,8 +14,6 @@
 #   provenance (volitelné)              vazba hesel na jednu knihu, která nebyla ověřena
 
 schema = 1
-trainer = "kompendium/trener.md"
-index = "static/data/katalogy.json"
 
 [[catalog]]
 slug = "nlp"
@@ -33,7 +31,6 @@ required = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční 
             "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
 evidence = "Stav důkazů"
 export = "static/data/nlp-katalog.json"
-trainer_data = "static/data/nlp-trener.json"
 
 [catalog.types]
 pattern = "vzorec"
@@ -74,7 +71,6 @@ required = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekčn
             "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
 evidence = "Stav poznání"
 export = "static/data/fauly-katalog.json"
-trainer_data = "static/data/fauly-trener.json"
 
 [catalog.types]
 formal = "formální klam"

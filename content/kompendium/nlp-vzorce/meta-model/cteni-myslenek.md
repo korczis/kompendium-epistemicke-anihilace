@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "oconnor-seymour-1990"]
 catalog_sources_roots = ["satir-1972", "watzlawick-1967"]
 catalog_sources_critical = ["beck-1976", "herman-1992", "kahneman-2011", "lifton-1961", "passmore-rowson-2019", "rogers-1951", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/meta-model.b.toml"
@@ -248,6 +246,5 @@ výkladech, které mohou být stejně mylné jako výklady, proti nimž se brán
 
 - [Modální operátor možnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md) – předchozí heslo rodiny
 - [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = ["mill-1843"]
 catalog_sources_critical = ["gigerenzer-2002", "hahn-oaksford-2007", "huff-1954", "kahneman-2011", "lifton-1961", "mercier-sperber-2011", "nickerson-1998", "robinson-1950", "simpson-1951", "tversky-kahneman-1974"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Vztah k technikám kompendia", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/kauzalni.toml"
 +++
@@ -245,6 +243,5 @@ zdravím rozebírá stránka [populační zdraví a prevence](@/kompendium/popul
 
 - [Obrácená kauzalita](@/kompendium/argumentacni-fauly/kauzalni/obracena-kauzalita.md) – předchozí heslo rodiny
 - [Texaský střelec](@/kompendium/argumentacni-fauly/kauzalni/texasky-strelec.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

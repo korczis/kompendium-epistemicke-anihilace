@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b"]
 catalog_sources_roots = ["bateson-1956", "erickson-rossi-rossi-1976", "grice-1975", "levinson-1983"]
 catalog_sources_critical = ["heap-1988", "kahneman-2011", "mcguire-1964", "miller-rollnick-2013", "tversky-kahneman-1981", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Varianty", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/presupozice.toml"
@@ -246,6 +244,5 @@ za rámec, který určil někdo jiný.
 
 - [Pořadové číslovky](@/kompendium/nlp-vzorce/presupozice/poradove-cislovky.md) – předchozí heslo rodiny
 - [Predikáty uvědomění](@/kompendium/nlp-vzorce/presupozice/predikaty-uvedomeni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = ["erickson-rossi-1979", "erickson-rossi-rossi-1976"]
 catalog_sources_critical = ["heap-1988", "herman-1992", "kahneman-2011", "kirsch-lynn-1995", "lilienfeld-2015", "singer-lalich-1995"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/ericksonovska-hypnoza.toml"
@@ -234,6 +232,5 @@ sezení ho s pacientem probrat.
 
 - [Indukce podáním ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md) – předchozí heslo rodiny
 - [Vnořené smyčky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/vnorene-smycky.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

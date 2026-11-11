@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "grinder-bandler-1981", "ocon
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "festinger-1957", "mcguire-1964", "petty-cacioppo-1986", "rogers-1951", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/raport-a-kalibrace.b.toml"
@@ -240,6 +238,5 @@ zpracovává v obranných a klinických kapitolách, včetně
 
 - [Přerušení raportu](@/kompendium/nlp-vzorce/raport-a-kalibrace/preruseni-raportu.md) – předchozí heslo rodiny
 - [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

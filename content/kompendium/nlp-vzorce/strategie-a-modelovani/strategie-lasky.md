@@ -49,8 +49,6 @@ catalog_sources_primary = ["cameron-bandler-1978", "dilts-1980"]
 catalog_sources_roots = ["miller-galanter-pribram-1960", "satir-1972"]
 catalog_sources_critical = ["herman-1992", "sharpley-1984", "stark-2007", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/strategie-a-modelovani.toml"
@@ -154,6 +152,5 @@ Základní obranou je posuzovat vztah podle jednání ve chvílích nesouhlasu, 
 
 - [Strategie reality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-reality.md) – předchozí heslo rodiny
 - [Strategie geniality](@/kompendium/nlp-vzorce/strategie-a-modelovani/strategie-geniality.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

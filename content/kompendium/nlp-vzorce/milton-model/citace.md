@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975", "bandler-grinder-1975b", "gri
 catalog_sources_roots = ["haley-1973", "levinson-1983", "rosen-1982"]
 catalog_sources_critical = ["cialdini-2009", "hassan-1988", "heap-1988", "herman-1992", "lakoff-johnson-1980", "lifton-1961", "passmore-rowson-2019", "petty-cacioppo-1986", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/milton-model.toml"
@@ -241,6 +239,5 @@ se kterými lze souhlasit nebo nesouhlasit.
 
 - [Řada souhlasů](@/kompendium/nlp-vzorce/milton-model/ano-sada.md) – předchozí heslo rodiny
 - [Porušení selekčních omezení v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/poruseni-selekcnich-omezeni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

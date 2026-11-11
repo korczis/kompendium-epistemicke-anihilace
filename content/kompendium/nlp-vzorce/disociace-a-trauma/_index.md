@@ -256,6 +256,5 @@ flowchart LR
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Submodality](@/kompendium/nlp-vzorce/submodality/_index.md) – předchozí rodina katalogu
 - [Časová osa](@/kompendium/nlp-vzorce/casova-osa/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
 <!-- kompendium:katalog-vazby:end -->

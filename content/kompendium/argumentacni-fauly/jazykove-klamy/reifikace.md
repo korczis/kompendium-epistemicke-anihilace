@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975"]
 catalog_sources_roots = ["bentham-1824", "korzybski-1933"]
 catalog_sources_critical = ["gilovich-1991", "hahn-oaksford-2007", "kahneman-2011", "lakoff-johnson-1980"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/jazykove-klamy.toml"
 +++
@@ -224,6 +222,5 @@ otázce, kdo jedná a kdo za jednání odpovídá (Kahneman 2011).
 
 - [Klam dělení](@/kompendium/argumentacni-fauly/jazykove-klamy/klam-deleni.md) – předchozí heslo rodiny
 - [Etymologický klam](@/kompendium/argumentacni-fauly/jazykove-klamy/etymologicky-klam.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

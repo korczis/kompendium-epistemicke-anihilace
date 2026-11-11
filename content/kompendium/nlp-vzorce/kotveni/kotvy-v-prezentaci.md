@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "kahneman-2011", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "roderique-davies-2009", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Vztah k technikám kompendia", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/kotveni.b.toml"
@@ -242,6 +240,5 @@ zpětné posouzení s odstupem je legitimní součástí zotavení.
 
 - [Kinestetické kotvy](@/kompendium/nlp-vzorce/kotveni/kinesteticke-kotvy.md) – předchozí heslo rodiny
 - [Přenos zdroje](@/kompendium/nlp-vzorce/kotveni/prenos-zdroje.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

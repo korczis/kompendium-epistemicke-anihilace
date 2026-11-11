@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976", "grice-1975"]
 catalog_sources_critical = ["cialdini-2009", "kahneman-2011", "kirsch-lynn-1995", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "sturt-2012"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/ericksonovska-hypnoza.c.toml"
@@ -201,7 +199,7 @@ složených sugescí bez dalšího úsilí. Pomáhá zpomalit tempo rozhovoru, p
 nebo o písemné podklady a odložit rozhodnutí. Princip očkování proti přesvědčování ukazuje,
 že lidé, kteří předem poznají strukturu argumentu a jeho slabiny, mu později lépe odolávají
 (McGuire 1964). Pro skupinové a výukové prostředí je proto užitečné učit rozpoznávání vzorce
-na neškodných příkladech, jak to dělá trenér rozpoznávání tohoto katalogu.
+na neškodných příkladech a ukazovat jeho strukturu vedle běžné řeči, která se mu podobá.
 Pro lidi, kteří delší dobu žili v prostředí, kde se drobné souhlasy systematicky
 proměňovaly v závazky, je součástí zotavení obnovení práva říct „ano“ jedné části věty a
 „ne“ druhé, aniž by to bylo vykládáno jako nekonzistence. Takové rozlišování podporuje i
@@ -249,6 +247,5 @@ které vzorec využívá.
 
 - [Apozice protikladů](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/apozice-protikladu.md) – předchozí heslo rodiny
 - [Implikované direktivum](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/implikovane-direktivum.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

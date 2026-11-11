@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["beck-1976", "festinger-1957", "gilovich-1991", "herman-1992", "lifton-1961", "lilienfeld-2015", "nickerson-1998", "singer-lalich-1995", "sturt-2012", "tversky-kahneman-1974"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Vztah k technikám kompendia", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/kauzalni.toml"
 +++
@@ -244,6 +242,5 @@ přesvědčení nese, a příčinným tvrzením, které by klientovi bránilo v 
 **V katalogu**
 
 - [Zjednodušená kauzalita](@/kompendium/argumentacni-fauly/kauzalni/zjednodusena-kauzalita.md) – předchozí heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

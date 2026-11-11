@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "james-woodsmall-1988"]
 catalog_sources_roots = []
 catalog_sources_critical = ["beck-1976", "gilovich-1991", "lakoff-johnson-1980", "passmore-rowson-2019", "sharpley-1987", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Rozlišení jako pracovní metafora", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/casova-osa.toml"
@@ -150,6 +148,5 @@ Základní obranou je chápat rozlišení jako metaforu, ne jako diagnózu. Poku
 
 - [Elicitace časové osy](@/kompendium/nlp-vzorce/casova-osa/elicitace-casove-osy.md) – předchozí heslo rodiny
 - [Terapie časové osy](@/kompendium/nlp-vzorce/casova-osa/terapie-casove-osy.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

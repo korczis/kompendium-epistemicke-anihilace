@@ -49,8 +49,6 @@ catalog_sources_primary = ["damer-2009", "johnson-blair-1977", "walton-2008", "e
 catalog_sources_roots = ["grice-1975"]
 catalog_sources_critical = ["herman-1992", "kunda-1990", "mercier-sperber-2011", "nickerson-1998"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Meze a zneužití principu", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.b.toml"
 +++
@@ -238,6 +236,5 @@ téma (Walton 2008).
 
 - [Toulminův model argumentu](@/kompendium/argumentacni-fauly/teorie-argumentace/toulminuv-model.md) – předchozí heslo rodiny
 - [Ocelový panák](@/kompendium/argumentacni-fauly/teorie-argumentace/ocelovy-panak.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1989", "andreas-andreas-1987", "band
 catalog_sources_roots = ["pavlov-1927"]
 catalog_sources_critical = ["beck-1976", "hassan-1988", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "singer-lalich-1995", "sturt-2012", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/submodality.toml"
@@ -252,6 +250,5 @@ ji místo léčby obtíží, pro které existují ověřené metody.
 
 - [Mapování napříč](@/kompendium/nlp-vzorce/submodality/mapovani-napric.md) – předchozí heslo rodiny
 - [Kinestetický swish](@/kompendium/nlp-vzorce/submodality/kinesteticky-swish.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

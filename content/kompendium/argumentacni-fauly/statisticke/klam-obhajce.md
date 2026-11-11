@@ -49,8 +49,6 @@ catalog_sources_primary = ["walton-2008"]
 catalog_sources_roots = []
 catalog_sources_critical = ["gigerenzer-2002", "hahn-oaksford-2007", "thompson-schumann-1987", "tversky-kahneman-1974"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/statisticke.b.toml"
 +++
@@ -234,6 +232,5 @@ a obecnější rámec nabízí
 
 - [Klam žalobce](@/kompendium/argumentacni-fauly/statisticke/klam-zalobce.md) – předchozí heslo rodiny
 - [Ekologický klam](@/kompendium/argumentacni-fauly/statisticke/ekologicky-klam.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

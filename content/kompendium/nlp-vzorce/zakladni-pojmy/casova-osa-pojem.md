@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "james-woodsmall-1988"]
 catalog_sources_roots = []
 catalog_sources_critical = ["hassan-1988", "herman-1992", "kirsch-lynn-1995", "lakoff-johnson-1980", "lilienfeld-2015", "loftus-palmer-1974", "passmore-rowson-2019", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Časová osa a budoucnost", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.c.toml"
@@ -157,6 +155,5 @@ Základní obranou je rozlišovat představu od vzpomínky. Obsah, který se vyb
 
 - [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – předchozí heslo rodiny
 - [Metaprogramy](@/kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

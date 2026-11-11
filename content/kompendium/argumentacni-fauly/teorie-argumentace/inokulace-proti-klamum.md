@@ -49,8 +49,6 @@ catalog_sources_primary = []
 catalog_sources_roots = []
 catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "mcguire-1964", "paul-matthews-2016", "roozenbeek-2022", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Vztah k technikám kompendia", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.b.toml"
 +++
@@ -181,8 +179,8 @@ proto řadí inokulaci k obraně na úrovni populace, které se věnuje oddíl
 
 Inokulace je sama obranou, a otázka proto zní, jak ji uplatňovat odpovědně. V osobní rovině
 je užitečné seznámit se s tvary nejčastějších klamů ještě před tím, než se s nimi člověk setká
-v napjaté situaci, kdy je na rozbor málo času; tomu slouží i hesla tohoto katalogu a cvičení
-v trenéru. V institucích, ve školách a ve zdravotnictví je účinné předem upozorňovat na
+v napjaté situaci, kdy je na rozbor málo času; tomu slouží i hesla tohoto katalogu, jejich
+detekční znaky a neškodné kontrasty. V institucích, ve školách a ve zdravotnictví je účinné předem upozorňovat na
 techniky, které se v dané oblasti opakují, například na falešné experty v debatách o očkování
 nebo na falešné dilema v politické kampani, a vysvětlovat jejich tvar, ne jen opravovat
 konkrétní tvrzení (Cook, Lewandowsky a Ecker 2017). Při tvorbě inokulačních materiálů je
@@ -228,6 +226,5 @@ rozebírá v oddílu [obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 
 - [Motivované uvažování](@/kompendium/argumentacni-fauly/teorie-argumentace/motivovane-uvazovani.md) – předchozí heslo rodiny
 - [Argumentační teorie uvažování](@/kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-teorie-uvazovani.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

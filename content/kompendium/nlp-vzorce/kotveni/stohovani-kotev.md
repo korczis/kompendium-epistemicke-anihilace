@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-delozier-2000", "oconnor-seymour-1990"]
 catalog_sources_roots = ["pavlov-1927"]
 catalog_sources_critical = ["cialdini-2009", "lifton-1961", "passmore-rowson-2019", "roderique-davies-2009", "singer-lalich-1995", "tosey-mathison-2009"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/kotveni.toml"
@@ -239,6 +237,5 @@ pomáhá budovat zdroje síly, které nejsou vázány na jednu osobu nebo skupin
 
 - [Kolaps kotev](@/kompendium/nlp-vzorce/kotveni/kolaps-kotev.md) – předchozí heslo rodiny
 - [Prostorové kotvení](@/kompendium/nlp-vzorce/kotveni/prostorove-kotveni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "charvet-1997", "oconnor-sey
 catalog_sources_roots = ["grice-1975", "pavlov-1927"]
 catalog_sources_critical = ["cialdini-2009", "kirsch-lynn-1995", "langer-1978", "mcguire-1964", "petty-cacioppo-1986", "sharpley-1984", "tversky-kahneman-1974", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/vliv-a-zneuziti.toml"
@@ -248,6 +246,5 @@ upravit si vlastní pravidla nakupování, například odkladem rozhodnutí o v�
 
 - [NLP v politické řeči](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-politicke-reci.md) – předchozí heslo rodiny
 - [NLP v koučinku a rozvoji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-koucinku.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "gordon-1978"]
 catalog_sources_roots = ["miller-1956", "rosen-1982"]
 catalog_sources_critical = ["lakoff-johnson-1980", "mcguire-1964", "passmore-rowson-2019", "petty-cacioppo-1986", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/ericksonovska-hypnoza.toml"
@@ -254,6 +252,5 @@ výslovná tvrzení a jejich ověřování (Singer a Lalich 1995).
 
 - [Levitace ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/levitace-ruky.md) – předchozí heslo rodiny
 - [Zasévání myšlenky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/seeding.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

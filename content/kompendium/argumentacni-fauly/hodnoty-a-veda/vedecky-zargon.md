@@ -49,8 +49,6 @@ catalog_sources_primary = ["walton-2008", "eemeren-grootendorst-1992"]
 catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["cialdini-2009", "lilienfeld-2015", "petty-cacioppo-1986", "roozenbeek-2022", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 3
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/hodnoty-a-veda.toml"
 +++
@@ -241,6 +239,5 @@ která slouží porozumění.
 
 - [Odvolání na starobylost](@/kompendium/argumentacni-fauly/hodnoty-a-veda/odvolani-na-starobylost.md) – předchozí heslo rodiny
 - [Argument jedinou studií](@/kompendium/argumentacni-fauly/hodnoty-a-veda/jeden-studie.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

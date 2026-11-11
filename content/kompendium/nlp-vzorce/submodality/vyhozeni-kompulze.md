@@ -49,8 +49,6 @@ catalog_sources_primary = ["andreas-andreas-1987", "bandler-1985"]
 catalog_sources_roots = ["haley-1973", "pavlov-1927", "watzlawick-1974"]
 catalog_sources_critical = ["gilovich-1991", "miller-rollnick-2013", "norcross-2006", "roderique-davies-2009", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "wolpe-1958"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/submodality.b.toml"
@@ -249,6 +247,5 @@ dokladem trvalé změny.
 
 - [Auditivní swish](@/kompendium/nlp-vzorce/submodality/auditivni-swish.md) – předchozí heslo rodiny
 - [Vzorec Godiva](@/kompendium/nlp-vzorce/submodality/vzorec-godiva.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

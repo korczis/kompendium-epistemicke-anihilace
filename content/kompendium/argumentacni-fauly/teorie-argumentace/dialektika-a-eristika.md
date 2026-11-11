@@ -49,8 +49,6 @@ catalog_sources_primary = ["hamblin-1970", "walton-1995", "walton-2008", "eemere
 catalog_sources_roots = []
 catalog_sources_critical = ["kunda-1990", "mercier-sperber-2011", "paul-matthews-2016", "petty-cacioppo-1986"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Vztah k technikám kompendia", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.b.toml"
 +++
@@ -232,6 +230,5 @@ je ochota uznat dobrý důvod, i když pochází od protivníka.
 
 - [Pragma-dialektika](@/kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md) – předchozí heslo rodiny
 - [Bayesovské pojetí klamů](@/kompendium/argumentacni-fauly/teorie-argumentace/bayesovske-pojeti-klamu.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

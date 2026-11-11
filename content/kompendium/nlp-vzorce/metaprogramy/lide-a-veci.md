@@ -49,8 +49,6 @@ catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997", "james-woodsm
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "druckman-swets-1988", "gilovich-1991", "herman-1992", "passmore-rowson-2019", "rogers-1951", "tosey-mathison-2009", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/metaprogramy.b.toml"
@@ -247,6 +245,5 @@ toho, co ho zajímá a co umí (Herman 1992).
 
 - [Pracovní styl](@/kompendium/nlp-vzorce/metaprogramy/pracovni-styl.md) – předchozí heslo rodiny
 - [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

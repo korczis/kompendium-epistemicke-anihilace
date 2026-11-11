@@ -49,8 +49,6 @@ catalog_sources_primary = ["walton-reed-macagno-2008"]
 catalog_sources_roots = []
 catalog_sources_critical = ["arkes-blumer-1985", "cialdini-2009", "festinger-1957", "kahneman-2011", "singer-lalich-1995", "tversky-kahneman-1981"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/predpoklady-argumentu.b.toml"
 +++
@@ -229,6 +227,5 @@ ztraceným časem, které je třeba umožnit, místo aby se z něj stal argument
 
 - [Kluzký svah](@/kompendium/argumentacni-fauly/predpoklady-argumentu/kluzky-svah.md) – předchozí heslo rodiny
 - [Důkaz tvrzením](@/kompendium/argumentacni-fauly/predpoklady-argumentu/dokaz-tvrzenim.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

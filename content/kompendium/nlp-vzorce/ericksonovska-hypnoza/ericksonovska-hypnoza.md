@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981", "gri
 catalog_sources_roots = ["bateson-1972", "erickson-rossi-1979", "erickson-rossi-rossi-1976", "haley-1973", "rosen-1982"]
 catalog_sources_critical = ["hassan-1988", "heap-1988", "kirsch-lynn-1995", "lilienfeld-2015", "mcguire-1964", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/ericksonovska-hypnoza.toml"
@@ -271,6 +269,5 @@ pseudovědeckých postupech v klinické psychologii (Lilienfeld, Lynn a Lohr 201
 **V katalogu**
 
 - [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

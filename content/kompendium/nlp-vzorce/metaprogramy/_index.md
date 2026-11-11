@@ -294,6 +294,5 @@ flowchart LR
 - [NLP vzorce](@/kompendium/nlp-vzorce/_index.md) – celý katalog a jeho rodiny
 - [Přesvědčení](@/kompendium/nlp-vzorce/presvedceni/_index.md) – předchozí rodina katalogu
 - [Raport a kalibrace](@/kompendium/nlp-vzorce/raport-a-kalibrace/_index.md) – další rodina katalogu
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání hesel této rodiny
 
 <!-- kompendium:katalog-vazby:end -->

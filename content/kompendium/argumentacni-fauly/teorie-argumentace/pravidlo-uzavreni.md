@@ -49,8 +49,6 @@ catalog_sources_primary = ["hamblin-1970", "eemeren-grootendorst-1992", "eemeren
 catalog_sources_roots = ["popper-1959"]
 catalog_sources_critical = ["boykoff-boykoff-2004", "festinger-1957", "hahn-oaksford-2007", "kunda-1990", "nickerson-1998"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Urovnání a vyřešení sporu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/teorie-argumentace.toml"
 +++
@@ -232,6 +230,5 @@ přezkoumat a nelze ho jen ignorovat.
 
 - [Pravidlo platnosti](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-platnosti.md) – předchozí heslo rodiny
 - [Pravidlo užívání jazyka](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-uzivani-jazyka.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

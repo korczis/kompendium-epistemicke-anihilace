@@ -49,8 +49,6 @@ catalog_sources_primary = ["walton-1995", "walton-2008", "eemeren-grootendorst-2
 catalog_sources_roots = []
 catalog_sources_critical = ["boykoff-boykoff-2004", "cook-lewandowsky-ecker-2017", "tversky-kahneman-1974"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Varianty", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/predpoklady-argumentu.b.toml"
 +++
@@ -240,6 +238,5 @@ trvá jen na tom, aby dialog o faktech zůstal dialogem o faktech.
 
 - [Zamlčení důkazů](@/kompendium/argumentacni-fauly/predpoklady-argumentu/zamlceni-dukazu.md) – předchozí heslo rodiny
 - [Nefalzifikovatelné tvrzení](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nefalzifikovatelnost.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

@@ -49,8 +49,6 @@ catalog_sources_primary = ["oconnor-seymour-1990"]
 catalog_sources_roots = ["bateson-1972", "miller-galanter-pribram-1960"]
 catalog_sources_critical = ["arkes-blumer-1985", "beck-1976", "festinger-1957", "gilovich-1991", "lifton-1961", "lilienfeld-2015", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/predpoklady.toml"
@@ -243,6 +241,5 @@ učení stává nástroj, který chrání autoritu před zpětnou vazbou.
 
 - [Význam komunikace je reakce, kterou vyvolá](@/kompendium/nlp-vzorce/predpoklady/vyznam-komunikace-je-reakce.md) – předchozí heslo rodiny
 - [Každé chování má pozitivní záměr](@/kompendium/nlp-vzorce/predpoklady/pozitivni-zamer-chovani.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

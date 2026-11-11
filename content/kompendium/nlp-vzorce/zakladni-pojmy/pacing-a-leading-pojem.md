@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "bandler-grinder-1979", "gri
 catalog_sources_roots = ["haley-1973"]
 catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "freedman-fraser-1966", "herman-1992", "miller-rollnick-2013", "passmore-rowson-2019", "rogers-1951", "sharpley-1984", "sharpley-1987", "singer-lalich-1995"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Vztah k technikám kompendia", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/zakladni-pojmy.d.toml"
@@ -251,6 +249,5 @@ porozumění terapeuta nikdy nepřecházelo v nenápadné vedení.
 **V katalogu**
 
 - [Transderivační hledání](@/kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md) – předchozí heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

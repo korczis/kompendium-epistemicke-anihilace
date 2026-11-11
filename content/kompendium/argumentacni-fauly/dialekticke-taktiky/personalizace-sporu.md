@@ -49,8 +49,6 @@ catalog_sources_primary = ["walton-1995", "walton-2008", "eemeren-grootendorst-2
 catalog_sources_roots = ["bentham-1824"]
 catalog_sources_critical = ["herman-1992", "kunda-1990", "mercier-sperber-2011"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Vztah k technikám kompendia", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/dialekticke-taktiky.b.toml"
 +++
@@ -239,6 +237,5 @@ je samo prvním krokem k jeho věcnému řešení (Walton 2008).
 **V katalogu**
 
 - [Útěk k proceduře](@/kompendium/argumentacni-fauly/dialekticke-taktiky/odvedeni-k-procedure.md) – předchozí heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

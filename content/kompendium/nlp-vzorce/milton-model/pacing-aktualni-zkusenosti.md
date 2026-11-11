@@ -49,8 +49,6 @@ catalog_sources_primary = ["bandler-grinder-1975b", "grinder-bandler-1981"]
 catalog_sources_roots = ["erickson-rossi-rossi-1976"]
 catalog_sources_critical = ["chartrand-bargh-1999", "kirsch-lynn-1995", "mcguire-1964", "miller-rollnick-2013", "petty-cacioppo-1986", "rogers-1951", "sharpley-1984", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/milton-model.c.toml"
@@ -241,6 +239,5 @@ v oddílu [Obrana a kalibrace](@/kompendium/06-obrana/_index.md).
 
 - [Záporné příkazy](@/kompendium/nlp-vzorce/milton-model/negativni-prikazy.md) – předchozí heslo rodiny
 - [Řetězení sugescí](@/kompendium/nlp-vzorce/milton-model/retezeni-sugesci.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

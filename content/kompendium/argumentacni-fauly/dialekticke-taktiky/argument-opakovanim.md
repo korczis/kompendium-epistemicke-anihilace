@@ -49,8 +49,6 @@ catalog_sources_primary = ["hamblin-1970", "eemeren-grootendorst-1992"]
 catalog_sources_roots = []
 catalog_sources_critical = ["cialdini-2009", "cook-lewandowsky-ecker-2017", "hahn-oaksford-2007", "hasher-1977", "kahneman-2011", "paul-matthews-2016"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Vztah k technikám kompendia", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/dialekticke-taktiky.toml"
 +++
@@ -248,6 +246,5 @@ potřebují prostředí, ve kterém mohou svou zkušenost ověřit u lidí mimo 
 
 - [„Jen se ptám“](@/kompendium/argumentacni-fauly/dialekticke-taktiky/jen-se-ptam.md) – předchozí heslo rodiny
 - [Myšlenkově ukončující klišé](@/kompendium/argumentacni-fauly/dialekticke-taktiky/myslenkove-ukoncujici-klise.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

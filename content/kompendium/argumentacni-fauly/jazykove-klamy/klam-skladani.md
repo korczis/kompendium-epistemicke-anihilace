@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "hamblin-197
 catalog_sources_roots = []
 catalog_sources_critical = ["hahn-oaksford-2007", "kahneman-2011", "robinson-1950", "simpson-1951"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Vztah ke klamu dělení a k příbuzným heslům", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/jazykove-klamy.toml"
 +++
@@ -237,6 +235,5 @@ souvisejí.
 
 - [Klam důrazu](@/kompendium/argumentacni-fauly/jazykove-klamy/klam-duraznu.md) – předchozí heslo rodiny
 - [Klam dělení](@/kompendium/argumentacni-fauly/jazykove-klamy/klam-deleni.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

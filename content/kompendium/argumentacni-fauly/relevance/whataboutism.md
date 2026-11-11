@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "govier-2010", "walton-199
 catalog_sources_roots = ["bentham-1824"]
 catalog_sources_critical = ["cook-lewandowsky-ecker-2017", "kunda-1990", "mercier-sperber-2011"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/relevance.c.toml"
 +++
@@ -237,6 +235,5 @@ pojmenování struktury je tentýž (Cook, Lewandowsky a Ecker 2017).
 
 - [Slaměný panák](@/kompendium/argumentacni-fauly/relevance/slameny-panak.md) – předchozí heslo rodiny
 - [Odvolání na nevědomost](@/kompendium/argumentacni-fauly/relevance/odvolani-na-nevedomost.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

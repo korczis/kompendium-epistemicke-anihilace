@@ -49,8 +49,6 @@ catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
 catalog_sources_roots = []
 catalog_sources_critical = ["chartrand-bargh-1999", "cialdini-2009", "herman-1992", "rogers-1951", "singer-lalich-1995", "vrij-2008", "wiseman-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/metaprogramy.b.toml"
@@ -237,6 +235,5 @@ nahradit porozuměním, že podvod byl navržen tak, aby obešel běžné mechan
 
 - [Odpovědnost](@/kompendium/nlp-vzorce/metaprogramy/odpovednost.md) – předchozí heslo rodiny
 - [Proč a jak](@/kompendium/nlp-vzorce/metaprogramy/filozoficky-smer.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

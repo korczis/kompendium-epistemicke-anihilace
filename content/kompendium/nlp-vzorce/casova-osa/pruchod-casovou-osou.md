@@ -49,8 +49,6 @@ catalog_sources_primary = ["dilts-1990", "dilts-hallbom-smith-1990"]
 catalog_sources_roots = ["perls-1969", "satir-1972"]
 catalog_sources_critical = ["herman-1992", "kirsch-lynn-1995", "lilienfeld-2015", "loftus-palmer-1974", "singer-lalich-1995", "sturt-2012", "witkowski-2010"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura vzorce", "Detekční znaky", "Legitimní a manipulativní užití", "Stav důkazů", "Obrana a zotavení"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_provenance = "inferred"
 catalog_review = "agent"
 catalog_data = "data/nlp/casova-osa.toml"
@@ -145,6 +143,5 @@ Základní obranou je mít a uplatňovat právo cvičení kdykoli přerušit. Po
 **V katalogu**
 
 - [Časová perspektiva](@/kompendium/nlp-vzorce/casova-osa/casova-perspektiva.md) – předchozí heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

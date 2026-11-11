@@ -49,8 +49,6 @@ catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "hamblin-197
 catalog_sources_roots = ["grice-1975", "levinson-1983"]
 catalog_sources_critical = ["gigerenzer-2002", "gilovich-1991", "huff-1954", "kahneman-2011", "loftus-palmer-1974", "tversky-kahneman-1981"]
 catalog_sections = ["Definice", "Původ a souvislosti", "Struktura argumentu", "Varianty", "Detekční znaky", "Odlišení od platné argumentace", "Stav poznání", "Obrana a odpověď"]
-catalog_trainer_items = 2
-catalog_trainer_benign = 1
 catalog_review = "agent"
 catalog_data = "data/fauly/jazykove-klamy.toml"
 +++
@@ -240,6 +238,5 @@ každému zvýraznění, ale v návyku vracet se k celku, než se z části vyvo
 
 - [Amfibolie](@/kompendium/argumentacni-fauly/jazykove-klamy/amfibolie.md) – předchozí heslo rodiny
 - [Klam skládání](@/kompendium/argumentacni-fauly/jazykove-klamy/klam-skladani.md) – další heslo rodiny
-- [Trenér rozpoznávání](@/kompendium/trener.md) – procvičení rozpoznání tohoto hesla na příkladech výroků
 
 <!-- kompendium:katalog-vazby:end -->

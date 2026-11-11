@@ -104,9 +104,15 @@ def load() -> list:
             m = EA_FILE.match(p["path"].rsplit("/", 1)[-1])
             code = "EA-" + ".".join(m.groups()) if m else ""
         category = extra.get("category", "")
+        # extra.aliases: names whose construct this page carries (data/front-matter.toml); the same
+        # declaration feeds linking and the bold-term gate (ia_model.bold_term_index) and search.
+        declared = extra.get("aliases", [])
+        declared = [a.strip() for a in declared if isinstance(a, str) and a.strip()] \
+            if isinstance(declared, list) else []
         pages.append({**p, "url": zola_url(p["url"]), "ea_code": code, "weight": int(front.get("weight", 0) or 0),
                       "sort_by": str(front.get("sort_by", "") or ""),
-                      "category": category if isinstance(category, str) else ""})
+                      "category": category if isinstance(category, str) else "",
+                      "aliases": declared})
     return pages
 
 
@@ -191,6 +197,7 @@ def search_index(pages: list) -> dict:
         m = ALIAS.match(p["title"])
         if m:
             aliases = [a for a in (m.group(1).strip(), m.group(2).strip()) if a]
+        aliases += [a for a in p["aliases"] if a not in aliases]
         entries.append([p["title"], p["description"][:DESCRIPTION_CHARS], p["url"], p["ea_code"],
                         kind, aliases, p["links_in"], file_kind(p["path"]), p["tags"]])
     used = {p["section"] for p in pages if p["title"]}

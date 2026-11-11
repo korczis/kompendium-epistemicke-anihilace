@@ -6,3 +6,12 @@ if ! command -v majordomus >/dev/null 2>&1; then
   exit 1
 fi
 majordomus finish --check || exit $?
+
+# Refuse a push whose DERIVED artifacts are stale: that is what turned the live Pages deploy red
+# three times on 2026-11-11 (graph.json twice, graphics once) — a commit pushed without running
+# scripts/verify-content.sh --fix. The gate runs the same fast derived --check steps CI runs, on
+# the commit being pushed (HEAD — this repo pushes the checked-out branch, one worktree per
+# branch), no zola/browser/tests. ~40s. See scripts/check-derived-currency.sh.
+if [ -f scripts/check-derived-currency.sh ] && git rev-parse --verify -q HEAD >/dev/null 2>&1; then
+  bash scripts/check-derived-currency.sh HEAD || exit $?
+fi

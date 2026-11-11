@@ -88,3 +88,28 @@ nejbližší obecné heslo nebo na glosář. Obecná hesla zůstanou a přepíš
 platformu. Jména Prismatic, Decision Engine a Nabla v textu nahradí neutrální znění. Seznam
 hesel „jen platforma“ versus „obecný pojem“ sestaví vlastník obsahu a předá ho k revizi před
 odstraněním.
+
+## Amendment 2026-11-11 (3): obecná hesla z importu platformy — jen ta, která kniha potřebuje
+
+Revize seznamu (session glosáře, 42 hesel pryč, 85 zůstává) otevřela otázku relevance, ne
+původu. Rozhodnutí revizora: heslo `decision-engine` jde pryč jako artefakt platformy podle
+doplňku 1 (přesměrování na /glossary/). Otázka vlastníkovi (AskUserQuestion, session
+`5d49a595-d035-4bbe-b04a-d12695922860`, 2026-11-11), doslovně:
+
+> „18 general entries came into the Kompendium glossary with the platform import and stay under
+> your platform rule, because their subject is general: Shodan, Censys, GreyNoise, EASM, OSINT,
+> sanctions screening, due diligence, entity resolution, intelligence fusion, graph theory, risk
+> score, inference, regression test, adapter pattern, bounded context, compliance framework,
+> pattern evidence (decision engine goes as a platform artefact). Separately from provenance:
+> should a compendium of epistemic and cognitive annihilation carry entries like Shodan or the
+> Adapter Pattern at all?“
+
+Nabídnuté možnosti: „Keep only book-relevant ones (Recommended)“ (ponechat hesla, která text
+knihy potřebuje, např. OSINT, intelligence fusion, due diligence, risk score, inference, přepsaná
+pro předmět knihy; čistě nástrojová a inženýrská hesla — Shodan, Censys, GreyNoise, EASM, adapter
+pattern, bounded context, regression test — odstranit s přesměrováním), „Keep all 18“, „Remove
+all 18“. Odpověď vlastníka doslovně: **„Keep only book-relevant ones (Recommended)“**.
+
+Měřítko je, zda heslo potřebuje text knihy (odkazy na heslo z obsahu a jeho role v obranném
+rámci), ne zda je pojem obecný. Seznam „ponechat / odstranit“ pro těchto 17 hesel sestaví
+vlastník glosáře podle počtu a povahy odkazů z obsahu a předá k revizi spolu s ostatními.

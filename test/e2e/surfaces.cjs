@@ -424,10 +424,19 @@ async function check(browser, s, viewport, scheme) {
     await page.keyboard.press('Escape');
   }
   if (s.interact === 'rejstrik') {
-    // Filtr textem: první slovo prvního hesla zúží seznam a stav to oznámí.
+    // Filtr textem: dotaz si test volí sám tak, aby zúžení šlo dokázat — nejdelší slovo (aspoň
+    // 4 písmena) prvního hesla, které takové má. Dřív bral první slovo prvního hesla; když glosář
+    // začal „A priori“, dotaz „A“ ukazoval všechna hesla a gate padl na obsahu, ne na filtru.
     const shown = () => page.locator('[data-rj-item]:visible').count();
     const all = await page.locator('[data-rj-item]').count();
-    const word = ((await page.locator('[data-rj-title]').first().textContent()) || '').trim().split(/\s+/)[0];
+    const word = await page.locator('[data-rj-title]').evaluateAll((els) => {
+      for (const el of els) {
+        const words = (el.textContent || '').trim().split(/[^\p{L}\p{N}]+/u).filter((w) => w.length >= 4);
+        if (words.length) return words.sort((a, b) => b.length - a.length)[0];
+      }
+      return '';
+    });
+    if (!word) failures.push('rejstřík: žádné heslo nemá slovo aspoň o 4 písmenech pro test filtru');
     await page.fill('#rj-q', word);
     const hit = await shown();
     const status = (await page.locator('[data-rj-status]').textContent()) || '';

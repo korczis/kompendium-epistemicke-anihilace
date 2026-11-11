@@ -106,7 +106,10 @@ jobs:
         run: printf '%s\n' "$GITHUB_SHA" > public/revision.txt
       - name: Interactive surfaces render (charts, components, no console errors, phone width)
         run: |
-          npx playwright-core install --with-deps chromium
+          # Jen prohlížeč z CDN Playwrightu, bez apt závislostí: běh 43044986995 (605a87c5) je
+          # nenainstaloval ani na třetí pokus (zrcadla Ubuntu nešla přeložit) a celá sada včetně
+          # auditu přesto prošla, takže je nepotřebuje. Chybí-li někdy knihovna, gate selže na ní.
+          npx playwright-core install chromium
           root="$RUNNER_TEMP/e2e"
           zola build --base-url http://127.0.0.1:18790/kompendium-epistemicke-anihilace --output-dir "$root/kompendium-epistemicke-anihilace"
           (cd "$root" && python3 -m http.server 18790 --bind 127.0.0.1 > /dev/null 2>&1 &)

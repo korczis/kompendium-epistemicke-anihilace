@@ -1,8 +1,40 @@
 #!/usr/bin/env bash
 # Majordomus supervision is mandatory in this repository: a push must satisfy the active task's finish contract.
 set -euo pipefail
+
+# git feeds a pre-push hook the ref updates on stdin, one per line:
+#   <local ref> <local sha> <remote ref> <remote sha>
+# Capture it before anything else reads stdin (majordomus does not need it). Skip the read on a
+# tty so a manual invocation does not block.
+refs=""
+[ -t 0 ] || refs=$(cat || true)
+
 if ! command -v majordomus >/dev/null 2>&1; then
   echo "pre-push: majordomus is required (https://majordomus.dev)" >&2
   exit 1
 fi
-majordomus finish --check || exit $?
+majordomus finish --check </dev/null || exit $?
+
+# Refuse a push whose DERIVED artifacts are stale: that is what turned the live Pages deploy red
+# three times on 2026-11-11 (graph.json twice, graphics once) — a commit pushed without running
+# scripts/verify-content.sh --fix. The deploy builds only refs/heads/main, so gate exactly the
+# sha(s) being pushed there — NOT HEAD, because `git push origin <sha>:main` pushes a sha that is
+# not this worktree's HEAD. The gate runs the same fast derived --check steps CI runs, no
+# zola/browser/tests (~40s each). See scripts/check-derived-currency.sh.
+zero=0000000000000000000000000000000000000000
+if [ -f scripts/check-derived-currency.sh ]; then
+  gated=""
+  while read -r _localref localsha remoteref _remotesha; do
+    [ "$remoteref" = "refs/heads/main" ] || continue   # only main reaches the deploy
+    [ "$localsha" = "$zero" ] && continue              # a delete pushes no tree
+    case " $gated " in *" $localsha "*) continue ;; esac  # once per distinct sha
+    gated="$gated $localsha"
+    bash scripts/check-derived-currency.sh "$localsha" || exit $?
+  done <<EOF
+$refs
+EOF
+  # No ref info (stdin empty — e.g. a manual run): fall back to the checked-out commit.
+  if [ -z "${refs//[$' \t\n']/}" ] && git rev-parse --verify -q HEAD >/dev/null 2>&1; then
+    bash scripts/check-derived-currency.sh HEAD || exit $?
+  fi
+fi

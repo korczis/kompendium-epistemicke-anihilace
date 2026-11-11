@@ -26,6 +26,8 @@ const FIXED = [
   { path: 'mapa/', painted: 1, text: '[x-text="stats"]', note: 'Mapa knihy (cytoscape)' },
   { path: 'stav/', painted: 5, count: ['#stav-kpi > *', 8], note: 'Stav knihy (ECharts)' },
   { path: 'matice/', painted: 1, note: 'matice případů a technik (ECharts)' },
+  { path: 'osy/', painted: 1, note: 'osy knihy: publikum × pilíř (ECharts)' },
+  { path: 'osy/?publikum=klinik&pilir=rozpoznani', painted: 1, count: ['[data-osy-seznam] a[href]', 1], note: 'osy knihy: výběr z adresy vypíše stránky průniku' },
   { path: 'galerie/', painted: 3, note: 'Galerie (p5)' },
   { path: 'kompendium/techniques/', painted: 1, note: 'průzkumník technik' },
   { path: 'kompendium/historical-cases/', painted: 1, note: 'časová osa historických případů' },

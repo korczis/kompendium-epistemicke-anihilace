@@ -188,7 +188,9 @@ async function checkLinks() {
       if (res.status >= 400 || res.status === 0) fail(`${res.status} ${url} (odkaz z ${from})`);
     }
   }
-  await Promise.all(Array.from({ length: 16 }, worker));
+  // Z disku souběh nevadí; přes síť nejvýš 4 požadavky naráz (16 souběžných HEAD shodilo Node,
+  // undici assert(!this.paused); upozornila session 2e).
+  await Promise.all(Array.from({ length: process.env.SITE_DIR ? 16 : 4 }, worker));
   return LINKS.size;
 }
 

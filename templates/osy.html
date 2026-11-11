@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+{%- set doc = page %}
+{% include "partials/header.html" %}
+{#- Osy knihy (static/js/viz/osy.js): průniky publika a pilíře ze static/data/graph.json. Texty
+    rozhraní jsou tady, stránka content/osy.md nese jen hlavičku. -#}
+<div class="px-4 pt-6" data-osy>
+  <div class="grid grid-cols-1 gap-4 xl:grid-cols-3">
+    <section class="rounded-lg bg-white p-4 shadow sm:p-6 xl:col-span-2 dark:bg-gray-800" aria-labelledby="osy-mapa-h">
+      <div class="mb-4 flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+        <h2 id="osy-mapa-h" class="text-xl font-bold leading-none text-gray-900 dark:text-white">Publikum × pilíř</h2>
+        <p class="text-sm text-gray-500 dark:text-gray-400">Číslo v poli je počet stránek průniku.</p>
+      </div>
+      <p id="osy-mapa-d" class="mb-4 text-sm text-gray-500 dark:text-gray-400">Řádky jsou čtenáři, kterým stránka slouží, sloupce její role v obraně: rozpoznání, odlišení, obrana, zotavení, prevence, teorie a kontext. Klepnutím do pole vyberete průnik; totéž jde nastavit výběry vpravo. Adresu s výběrem lze sdílet.</p>
+      <div data-osy-graf tabindex="0" role="img" aria-label="Teplotní mapa počtu stránek podle publika a pilíře; stejné údaje nastavíte výběry vpravo a stránky jsou v seznamu pod nimi" aria-describedby="osy-mapa-d" class="h-96 w-full rounded-lg focus:outline-none focus:ring-4 focus:ring-primary-300 sm:h-[28rem] dark:focus:ring-primary-800"></div>
+    </section>
+    <section class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800" aria-labelledby="osy-vyber-h">
+      <h2 id="osy-vyber-h" class="mb-4 text-xl font-bold leading-none text-gray-900 dark:text-white">Výběr</h2>
+      <div class="space-y-3">
+        <label class="block text-sm">
+          <span class="mb-1 block font-medium text-gray-900 dark:text-white">Publikum</span>
+          <select data-osy-publikum class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white"></select>
+        </label>
+        <label class="block text-sm">
+          <span class="mb-1 block font-medium text-gray-900 dark:text-white">Pilíř</span>
+          <select data-osy-pilir class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white"></select>
+        </label>
+        <button type="button" data-osy-zrusit class="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:focus:ring-gray-700">Zrušit výběr</button>
+      </div>
+      <p data-osy-vyber aria-live="polite" class="mt-4 text-sm font-medium text-gray-900 dark:text-white"></p>
+      <ol data-osy-seznam class="mt-2 max-h-[32rem] divide-y divide-gray-200 overflow-y-auto dark:divide-gray-700"></ol>
+    </section>
+  </div>
+</div>
+{% endblock content %}
+{% block page_scripts %}
+<script src="{{ get_url(path='js/viz/kompendium-viz.js', cachebust=true) }}" defer></script>
+<script src="{{ get_url(path='js/viz/osy.js', cachebust=true) }}" defer></script>
+{% endblock page_scripts %}

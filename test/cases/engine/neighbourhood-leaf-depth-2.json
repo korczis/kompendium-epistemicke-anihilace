@@ -6,6 +6,11 @@
       {
         "from": "glossary/_index.md",
         "kind": "link",
+        "to": "glossary/coercive-control.md"
+      },
+      {
+        "from": "glossary/_index.md",
+        "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
@@ -19,9 +24,29 @@
         "to": "kompendium/_index.md"
       },
       {
-        "from": "glossary/_index.md",
+        "from": "glossary/coercive-control.md",
         "kind": "link",
-        "to": "kompendium/konceptualni-mapa/_index.md"
+        "to": "glossary/epistemicka-anihilace.md"
+      },
+      {
+        "from": "glossary/coercive-control.md",
+        "kind": "link",
+        "to": "glossary/taxonomie-ea.md"
+      },
+      {
+        "from": "glossary/coercive-control.md",
+        "kind": "link",
+        "to": "kompendium/06-klinicke-aplikace/_index.md"
+      },
+      {
+        "from": "glossary/coercive-control.md",
+        "kind": "link",
+        "to": "kompendium/_index.md"
+      },
+      {
+        "from": "glossary/epistemicka-anihilace.md",
+        "kind": "link",
+        "to": "glossary/coercive-control.md"
       },
       {
         "from": "glossary/epistemicka-anihilace.md",
@@ -31,17 +56,7 @@
       {
         "from": "glossary/epistemicka-anihilace.md",
         "kind": "link",
-        "to": "kompendium/01-predmluva/eticke-aspekty.md"
-      },
-      {
-        "from": "glossary/epistemicka-anihilace.md",
-        "kind": "link",
         "to": "kompendium/_index.md"
-      },
-      {
-        "from": "glossary/epistemicka-anihilace.md",
-        "kind": "link",
-        "to": "kompendium/techniques/_index.md"
       },
       {
         "from": "glossary/taxonomie-ea.md",
@@ -51,47 +66,7 @@
       {
         "from": "glossary/taxonomie-ea.md",
         "kind": "link",
-        "to": "kompendium/01-predmluva/eticke-aspekty.md"
-      },
-      {
-        "from": "glossary/taxonomie-ea.md",
-        "kind": "link",
         "to": "kompendium/_index.md"
-      },
-      {
-        "from": "glossary/taxonomie-ea.md",
-        "kind": "link",
-        "to": "kompendium/techniques/_index.md"
-      },
-      {
-        "from": "kompendium/01-predmluva/eticke-aspekty.md",
-        "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "kompendium/01-predmluva/eticke-aspekty.md",
-        "kind": "link",
-        "to": "kompendium/06-klinicke-aplikace/_index.md"
-      },
-      {
-        "from": "kompendium/01-zaklady-manipulace/_index.md",
-        "kind": "link",
-        "to": "glossary/_index.md"
-      },
-      {
-        "from": "kompendium/01-zaklady-manipulace/_index.md",
-        "kind": "link",
-        "to": "kompendium/_index.md"
-      },
-      {
-        "from": "kompendium/01-zaklady-manipulace/_index.md",
-        "kind": "link",
-        "to": "kompendium/konceptualni-mapa/_index.md"
-      },
-      {
-        "from": "kompendium/01-zaklady-manipulace/_index.md",
-        "kind": "link",
-        "to": "kompendium/section-bridges/_index.md"
       },
       {
         "from": "kompendium/06-klinicke-aplikace/_index.md",
@@ -101,12 +76,22 @@
       {
         "from": "kompendium/06-klinicke-aplikace/_index.md",
         "kind": "link",
-        "to": "kompendium/_index.md"
+        "to": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"
       },
       {
         "from": "kompendium/06-klinicke-aplikace/_index.md",
         "kind": "link",
-        "to": "kompendium/techniques/_index.md"
+        "to": "kompendium/_index.md"
+      },
+      {
+        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+        "kind": "link",
+        "to": "glossary/coercive-control.md"
+      },
+      {
+        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+        "kind": "link",
+        "to": "glossary/epistemicka-anihilace.md"
       },
       {
         "from": "kompendium/_index.md",
@@ -121,147 +106,115 @@
       {
         "from": "kompendium/_index.md",
         "kind": "link",
-        "to": "kompendium/section-bridges/_index.md"
+        "to": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"
       },
       {
-        "from": "kompendium/_index.md",
-        "kind": "link",
-        "to": "kompendium/techniques/_index.md"
-      },
-      {
-        "from": "kompendium/konceptualni-mapa/_index.md",
+        "from": "mapa.md",
         "kind": "link",
         "to": "glossary/_index.md"
       },
       {
-        "from": "kompendium/konceptualni-mapa/_index.md",
-        "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "kompendium/konceptualni-mapa/_index.md",
-        "kind": "link",
-        "to": "kompendium/01-zaklady-manipulace/_index.md"
-      },
-      {
-        "from": "kompendium/konceptualni-mapa/_index.md",
-        "kind": "link",
-        "to": "kompendium/06-klinicke-aplikace/_index.md"
-      },
-      {
-        "from": "kompendium/konceptualni-mapa/_index.md",
+        "from": "mapa.md",
         "kind": "link",
         "to": "kompendium/_index.md"
       },
       {
-        "from": "kompendium/konceptualni-mapa/_index.md",
+        "from": "mapa.md",
         "kind": "link",
-        "to": "kompendium/section-bridges/_index.md"
+        "to": "matice.md"
       },
       {
-        "from": "kompendium/konceptualni-mapa/_index.md",
+        "from": "mapa.md",
         "kind": "link",
-        "to": "kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md"
+        "to": "osy.md"
       },
       {
-        "from": "kompendium/konceptualni-mapa/_index.md",
+        "from": "mapa.md",
         "kind": "link",
-        "to": "kompendium/techniques/_index.md"
+        "to": "stav.md"
       },
       {
-        "from": "kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md",
-        "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md",
-        "kind": "link",
-        "to": "kompendium/01-predmluva/eticke-aspekty.md"
-      },
-      {
-        "from": "kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md",
-        "kind": "link",
-        "to": "kompendium/06-klinicke-aplikace/_index.md"
-      },
-      {
-        "from": "kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md",
-        "kind": "link",
-        "to": "kompendium/section-bridges/_index.md"
-      },
-      {
-        "from": "kompendium/techniques/_index.md",
-        "kind": "link",
-        "to": "glossary/_index.md"
-      },
-      {
-        "from": "kompendium/techniques/_index.md",
-        "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "kompendium/techniques/_index.md",
+        "from": "matice.md",
         "kind": "link",
         "to": "glossary/taxonomie-ea.md"
       },
       {
-        "from": "kompendium/techniques/_index.md",
+        "from": "matice.md",
         "kind": "link",
-        "to": "kompendium/06-klinicke-aplikace/_index.md"
+        "to": "mapa.md"
       },
       {
-        "from": "kompendium/techniques/_index.md",
+        "from": "matice.md",
+        "kind": "link",
+        "to": "stav.md"
+      },
+      {
+        "from": "osy.md",
         "kind": "link",
         "to": "kompendium/_index.md"
       },
       {
-        "from": "kompendium/techniques/_index.md",
+        "from": "osy.md",
         "kind": "link",
-        "to": "kompendium/section-bridges/_index.md"
+        "to": "mapa.md"
+      },
+      {
+        "from": "osy.md",
+        "kind": "link",
+        "to": "matice.md"
+      },
+      {
+        "from": "osy.md",
+        "kind": "link",
+        "to": "stav.md"
+      },
+      {
+        "from": "stav.md",
+        "kind": "link",
+        "to": "kompendium/_index.md"
+      },
+      {
+        "from": "stav.md",
+        "kind": "link",
+        "to": "mapa.md"
       }
     ],
     "limit": 10,
     "nodes": [
       {
-        "class": "kompendium/section-bridges",
+        "class": "root",
         "distance": 0,
-        "in": 5,
-        "path": "kompendium/section-bridges/_index.md",
-        "title": "Section Bridges — propojení sekcí kompendia"
+        "in": 1,
+        "path": "osy.md",
+        "title": "Osy knihy"
       },
       {
         "class": "kompendium",
         "distance": 1,
-        "in": 85,
+        "in": 86,
         "path": "kompendium/_index.md",
         "title": "Kompendium epistemické a kognitivní anihilace"
       },
       {
-        "class": "kompendium/techniques",
-        "distance": 1,
-        "in": 43,
-        "path": "kompendium/techniques/_index.md",
-        "title": "Techniques — detailní per-technique články"
-      },
-      {
-        "class": "kompendium/01-zaklady-manipulace",
+        "class": "root",
         "distance": 1,
         "in": 6,
-        "path": "kompendium/01-zaklady-manipulace/_index.md",
-        "title": "Základy manipulace"
+        "path": "mapa.md",
+        "title": "Mapa knihy"
       },
       {
-        "class": "kompendium/konceptualni-mapa",
+        "class": "root",
         "distance": 1,
         "in": 4,
-        "path": "kompendium/konceptualni-mapa/_index.md",
-        "title": "Konceptuální mapa epistemické anihilace"
+        "path": "stav.md",
+        "title": "Stav knihy"
       },
       {
-        "class": "kompendium/section-bridges",
+        "class": "root",
         "distance": 1,
-        "in": 4,
-        "path": "kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md",
-        "title": "Most: Předmluva → Úvod"
+        "in": 2,
+        "path": "matice.md",
+        "title": "Případy × techniky"
       },
       {
         "class": "glossary",
@@ -292,24 +245,31 @@
         "title": "Glosář"
       },
       {
-        "class": "kompendium/01-predmluva",
+        "class": "kompendium/06-klinicke-aplikace",
         "distance": 2,
-        "in": 299,
-        "path": "kompendium/01-predmluva/eticke-aspekty.md",
-        "title": "1.3 Etické aspekty a upozornění"
+        "in": 290,
+        "path": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+        "title": "6.1 Diagnostické indikátory a markery EA"
+      },
+      {
+        "class": "glossary",
+        "distance": 2,
+        "in": 283,
+        "path": "glossary/coercive-control.md",
+        "title": "Coercive control (donucující kontrola)"
       }
     ],
     "ok": true,
     "op": "neighbourhood",
-    "path": "kompendium/section-bridges/_index.md",
+    "path": "osy.md",
     "schema": "kompendium-engine/v1",
-    "total": 285,
+    "total": 119,
     "truncated": true
   },
   "input": {
     "depth": 2,
     "limit": 10,
     "op": "neighbourhood",
-    "path": "kompendium/section-bridges/_index.md"
+    "path": "osy.md"
   }
 }

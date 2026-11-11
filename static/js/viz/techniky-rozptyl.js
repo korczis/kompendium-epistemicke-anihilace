@@ -13,7 +13,7 @@
   var RISK_ALIASES = { 'kritická': 'critical', 'kriticka': 'critical' };
 
   function fold(s) {
-    return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    return window.KompendiumJadro.normalise(String(s || ''));
   }
 
   function readJson(id, fallback) {

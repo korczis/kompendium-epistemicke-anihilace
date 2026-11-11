@@ -56,25 +56,23 @@ Identifikace kontraindikací je integrální součástí každého iniciálního
 
 ## Implementační protokol
 
-Standardní implementace techniky probíhá v následujících strukturovaných krocích:
+Vlastní literatura přístupu popisuje jeho skladbu následujícími komponentami:
 
 (1) Trauma-sensitive psychoedukace mindfulness. (2) Body scan s explicitním 'window of tolerance' framingem. (3) Sitting meditation s krátkými intervaly. (4) Mindful movement (yoga). (5) RAIN technika (Recognize, Allow, Investigate, Nurture). (6) Mindfulness v každodenním životě.
 
-Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
+Výčet je popisem toho, z čeho se přístup skládá, nikoli pokynem k provedení: o indikaci, sledu a ukončení rozhoduje kvalifikovaný klinik ve supervizi a záznam zůstává součástí zdravotnické dokumentace, do níž má dotčený člověk přístup ([etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)).
 
 ## Trvání a frekvence
 
-**Typická délka:** 8-12 sezení 90-120 min skupinového formátu nebo individuální.
-
-Frekvence sezení a celková délka intervence jsou závislé na komplexitě klinického obrazu, komorbiditách a individuální responsivitě. V populacích s komplexním C-PTSD je třeba počítat s prolongovaným průběhem, zatímco u single-incident traumat lze očekávat rychlejší progression.
+Délka a frekvence nejsou vlastností techniky, ale rozhodnutím v jednotlivém případě: závisejí na klinickém obrazu, komorbiditách a na tom, co dotčený člověk unese. Pro komplexní traumatizaci popisuje literatura delší a fázovanou trajektorii než pro jednorázovou událost (Herman, 1992). Kniha proto žádný počet sezení ani interval neuvádí — kvantifikace patří do manuálu použitého přístupu a do supervize, nikoli do taxonomie.
 
 ## Hodnotící kritéria
 
-Klinická efektivita techniky je posuzována podle následujících outcome metrik:
+Klinické sledování průběhu se v literatuře přístupu opírá o následující domény a nástroje:
 
 MAAS (Mindful Attention Awareness) zlepšení, FFMQ (Five Facet Mindfulness) změna, snížení rumination.
 
-Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence. Klinicky významná změna je definována jako Cohenovo d ≥ 0.5 nebo redukce primárního skóru o ≥ 30%.
+Opakovaná administrace standardizovaných nástrojů poskytuje podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence. Prahy klinicky významné změny stanoví manuál použitého nástroje; jediné obecně publikované kritérium, které tato kniha přebírá, je reliable change index nad 1,96 a výsledný skór v rozsahu jedné SD netraumatizované normy (Jacobson a Truax, 1991).
 
 ## Adaptace pro specifické EA kategorie
 
@@ -82,7 +80,7 @@ Technika vyžaduje specifické adaptace v závislosti na primární EA-doméně,
 
 EA-5 epistemické: zaměření na decentering od epistemických zkreslení. [EA-6.4.7](@/kompendium/techniques/ea-6-4-7-policejni-trauma-protokol.md) policejní: krátké micro-praxe pro on-duty kontext. [EA-6.4.8](@/kompendium/techniques/ea-6-4-8-zdravotnici-burnout-protokol.md) zdravotníci: anti-burnout adaptace.
 
-Tyto adaptace nejsou ornamentální — odrážejí substantivní rozdíly v fenomenologii a strukturálních charakteristikách jednotlivých EA-domén a jsou klíčové pro klinickou účinnost intervence v cílové populaci.
+Tyto adaptace nejsou ornamentální. Kniha je zaznamenává proto, že se s nimi mění rizikový profil, nikoli jako doporučení.
 
 ## Iatrogenní rizika
 
@@ -94,153 +92,136 @@ Předcházení iatrogenním poškozením je integrální součástí klinické e
 
 ## Klinické pozadí
 
-Technika **EA-6.2.7** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu [polyvagální teorie](@/glossary/polyvagalni-teorie.md) (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje kauzální intervence redukující EA-symptomatologii s měřitelným outcome.
+Technika **EA-6.2.7** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu [polyvagální teorie](@/glossary/polyvagalni-teorie.md) (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia je technika vedena jako intervence zaměřená na epistemicko-afektivní složku traumatu; o jejím účinku v jednotlivém případě rozhoduje klinické posouzení, nikoli tato stránka.
 
 **Klinické zacílení**: [evidence-based](@/glossary/evidence-based.md) psychoterapeutické intervence pro EA-trauma se sekundární komorbiditou (úzkostné poruchy, depresivní poruchy, somatizace, disociativní spektrum). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**DSM-5-TR / ICD-11 mapování**: technika je primárně indikována pro diagnózy odpovídající F43.1 PTSD (ICD-11 6B40), F33 Recurrent depressive disorder (ICD-11 6A71), F41 Anxiety disorders (ICD-11 6B00-05), F45 Somatoform disorders (ICD-11 6C20-21). V rámci ICD-11 6B41 Complex PTSD (CPTSD) představuje technika klíčovou intervenční komponentu pro tři jádrové domény CPTSD: dysregulace afektu, negativní sebepojetí a relační poruchy. Diferenciální diagnostika musí explicitně vyloučit primární psychotické spektra (F20-F29 / 6A2X), bipolární poruchy (F31 / 6A6X) a organické afektivní poruchy (F06.3X / 6E62).
-
-**Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
+**Trauma spektrum kontext**: klinická literatura odlišuje jednorázovou akutní traumatizaci od opakované relační expozice v dětství a dospívání; rozlišení obou typů zavedla Terr (1991) a pro druhý z nich je popsána zdlouhavější, fázovaná cesta zotavení (Herman, 1992). Kde se rozdíl přehlíží, bývá následkem zhoršení místo zlepšení; přehled doložených případů, kdy terapeutická intervence poškodila, shrnuje Lilienfeld (2007). Jaká úprava z toho v jednotlivém případě vyplývá, nerozhoduje tato kniha, ale indikující klinik ve supervizi.
 
 **Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních evidence-based přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
-
-## Evidence base
-
-Empirická opora techniky se opírá o tři primární evidenční pilíře: (a) randomizované kontrolované studie (RCT) s validovanými outcome metrikami, (b) meta-analytické syntézy efektivity intervencí pro EA-trauma spektra, (c) longitudinální observační studie sledující trajektorie subjektů 2-10 let po dokončení intervence.
-
-(1) **Foa, E. B., et al. (2018)** — RCT, n=215, *Journal of Consulting and Clinical Psychology*. Klíčový nález: Cohenovo d = 0.92 pro symptomatickou redukci PCL-5 (intervenční vs. wait-list kontrola), NNT = 2.4.
-
-(2) **Resick, P. A., et al. (2017)** — RCT, n=164, *JAMA Psychiatry*. Klíčový nález: g = 0.84 pro PCL-5, retence efektu v 1-letém follow-up g = 0.71.
-
-(3) **Cloitre, M., et al. (2019)** — Multi-center trial, n=302, *Lancet Psychiatry*. Klíčový nález: d = 1.12 pro ITQ Disturbances in Self-Organization, ICD-11 CPTSD specific outcome.
-
-**Synthesa důkazů**: agregovaná evidence pro intervence z této kategorie ukazuje robustní efekt velikosti d ≈ 0.7-1.1 pro primární trauma symptomatologii (PCL-5, CAPS-5), s nižším ale konzistentním efektem d ≈ 0.4-0.6 pro sekundární komorbidní depresivní a úzkostnou symptomatologii. Number Needed to Treat (NNT) se pohybuje typicky v rozmezí 2-4, což odpovídá vysoce účinným intervencím v psychiatrické praxi (srovnání: SSRI u MDD typicky NNT 6-9).
-
-**Limitace evidenční báze**: dostupná literatura má dokumentované metodologické limitace — (i) převaha studií na západní populacích (WEIRD bias), (ii) krátké follow-up rámce (typicky 3-12 měsíců, vzácně >2 roky), (iii) výběrové bias směrem k populacím s vysokou compliance, (iv) heterogenita v operacionalizaci EA-trauma napříč studiemi. Aplikace techniky v české klinické praxi proto vyžaduje kritickou adaptaci a průběžné monitorování individuálního outcome subjektu.
-
-**Recommendation grade**: dle GRADE methodology dosahuje evidenční báze úrovně **B (moderate-quality)** — konzistentní efekt napříč studiemi, ale heterogenita designů a nedostatek replikací v non-WEIRD populacích.
-
-## Algoritmický rozhodovací strom
-
-Klinické rozhodování o aplikaci techniky **EA-6.2.7** sleduje strukturovaný algoritmus s explicitními rozhodovacími uzly a kvantifikovanými prahovými hodnotami:
-
-**Uzel 1 — Indikační audit (vstupní)**:
-
-- IF PCL-5 ≥ 33 AND ITQ DSO ≥ klinický práh AND absence psychotické symptomatologie → POKRAČUJ k Uzel 2
-- ELIF PCL-5 < 33 AND symptomy < 1 měsíc → ZVAŽ watchful waiting + krizová podpora
-- ELIF aktivní psychotická symptomatologie OR akutní suicidalita → STABILIZACE PRIORITNĚ, technika **kontraindikována**
-
-**Uzel 2 — Stabilizační prerekvizity**:
-
-- IF DERS celkový skór > 120 AND chybí stabilizační dovednosti → ZAŘAĎ pre-protokol DBT distress tolerance modul (8-12 sezení)
-- IF DES-II > 30 AND aktivní disociativní fragmentace → ZAŘAĎ disociativní stabilizační protokol PŘED expozičními komponentami
-- ELSE → POKRAČUJ k Uzel 3
-
-**Uzel 3 — Modulární stratifikace**:
-
-- IF Type I trauma (single-incident) → standardní protokol 12-16 sezení
-- IF Type II trauma (chronic relational) → rozšířený protokol 24-36 sezení s posílenou stabilizační fází
-- IF aktivní externí ohrožení (DV, kult, koercivní vztah) → BEZPEČNOSTNÍ PLAN PRIORITNĚ, technika odložena do bezpečné distance
-
-**Uzel 4 — Průběžné re-evaluation**:
-
-- KAŽDÉ 4. sezení: PCL-5 + CGI-S + terapeutická aliance (WAI-SR)
-- IF zhoršení > 20% baseline OR aliance < 20 percentil → SUPERVIZE + modifikace protokolu
-- IF redukce ≥ 30% AND funkcionální zlepšení → POKRAČUJ do konsolidační fáze
-
-**Uzel 5 — Terminace**:
-
-- Klinicky významná redukce (Cohenovo d ≥ 0.5 pre-post) AND udržení po 3 měsíce AND obnova funkce → ŘÁDNÁ TERMINACE s booster sessions plánem
-
-## Neuropsychologické markery
-
-Aplikace techniky je provázena charakteristickými neurokognitivními změnami, které lze objektivizovat standardním neuropsychologickým testováním. Dokumentované markery slouží jako objektivní outcome měření paralelní k [self-report](@/glossary/self-report.md) instrumentům:
-
-**Pozornostní funkce**: pre-intervenční obraz typicky vykazuje narušení selektivní pozornosti (Stroop interference + 1.5 SD nad normou), sníženou vigilanční kapacitu (CPT-3 commission errors > 70 percentil) a afektivní bias v emoční Stroop úloze (latence pro trauma-related stimuli). Post-intervenčně dokumentována normalizace o 0.6-1.0 SD.
-
-**Exekutivní funkce**: trauma-related populace vykazují sníženou kognitivní flexibilitu (WCST perseverative errors), deficity v pracovní paměti (n-back 2-back accuracy) a impulzivitu v rozhodovacích úlohách (Iowa Gambling Task). Post-intervenční zlepšení korelace s redukcí PCL-5 (r = 0.42-0.58).
-
-**Paměťové funkce**: charakteristické fragmentární kódování traumatic memory (CVLT-3 free recall pro emocionální materiál), deficity v autobiografické specificitě (AMT — Autobiographical Memory Test), over-general recall bias. Mereologická rekonstrukce vede k progresivní normalizaci specificity.
-
-**Sociálně-kognitivní markery**: pre-intervenčně narušená [teorie mysli](@/glossary/theory-of-mind.md) (Reading the Mind in the Eyes Test pod 25 percentilem), hyper-vigilance vůči sociálním ohrožením, deficit v emoční identifikaci.
-
-**Doporučená neuropsychologická baterie**: Stroop, CPT-3, WCST, n-back, CVLT-3, AMT, RMET, Iowa Gambling Task. Cena/přínos analýza ukazuje, že full baseline + post-baterie je indikována u L2 výzkumných protokolů; v rutinní klinice postačuje screening-úroveň (Stroop + AMT + CVLT-3).
 
 ## Vulnerabilní podpopulace
 
 Aplikace techniky **EA-6.2.7** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), zkrácená sezení (30-45 min vs. 60-90 min standard), vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), kratší sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
 **Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
 
 **Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci (atypická antipsychotika), úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise (≥ 90 dní), poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+**Komorbidní substance use disorders**: popsanou sekvencí je primární léčba užívání do funkční remise a teprve poté trauma-fokusovaná práce; paralelní integrované přístupy jsou dokumentovanou alternativou tam, kde primární abstinence není dosažitelná.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training 12-24 týdnů) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze s tréninkem dovedností předchází expozičním komponentám. Riziko regresivní idealizace a devalvace v terapeutickém vztahu činí ze supervize podmínku, nikoli doplněk.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence do 6 měsíců post-partum.
+**Gravidita a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; popsána je přednost stabilizačních a sensorimotorických intervencí.
 
 ## Intervenční variace
 
-Klinický kontext **EA-6.2.7** připouští následující dokumentované adaptace pro specifické setting a populace, vždy se zachováním jádra evidence-based protokolu:
+Klinický kontext připouští dokumentované adaptace pro různá prostředí a populace. Kniha je zaznamenává proto, že se s každou z nich mění rizikový profil, nikoli aby některou doporučovala; volba zůstává indikačním rozhodnutím klinika ve supervizi ([jak používat](@/kompendium/01-predmluva/jak-pouzivat.md)).
 
-**Telehealth varianta**: COVID-19 pandemie urychlila adopci video-mediovaných verzí. Meta-analýza (Hilty et al., 2022) dokumentuje srovnatelnou efektivitu (d = 0.71 vs. 0.78 face-to-face), s výjimkou pacientů s aktivní disociativní symptomatologií, kde face-to-face setting zachovává klinickou výhodu (regulace prostřednictvím kotvícího fyzického přítomnosti terapeuta). Praktické modifikace: technické rituály (kvalita připojení), explicitní bezpečnostní plán pro fyzické nedostupnosti, rozšířená dokumentace.
+**Video-mediovaná varianta**: rozšířila se v souvislosti s pandemií covidu-19. U aktivní disociativní symptomatologie zůstává fyzická přítomnost druhého člověka klinicky významná, protože sama nese regulační funkci (Porges, 2011). Rozdíl se týká dostupnosti pomoci při destabilizaci a rozsahu dokumentace.
 
-**Skupinový formát**: 4-8 členů, 12-16 sezení, doplňkové individuální moduly. Efektivita d = 0.62 (vs. 0.78 individuální); kompenzována ekonomickou efektivitou a peer-support komponentou. Kontraindikace: aktivní psychotická symptomatologie, závažná interpersonální agresivita, nestabilní disociativní obraz.
+**Skupinový formát**: nese komponentu vzájemné podpory a zároveň jiný rizikový profil než práce v páru — kontraindikací je aktivní psychotická symptomatologie, závažná interpersonální agresivita a nestabilní disociativní obraz.
 
-**Krátká intervence (8-12 sezení)**: pro selected populace s Type I traumatem, vysokou compliance a dostupnou support sítí. Compressed protocol s denními sezeními po 1-2 týdny (Foa et al., 2018) ukazuje noninferioritu standardní 12-16týdenní variantě.
+**Krizově modifikovaná varianta**: redukuje expoziční složku ve prospěch stabilizace. Že stabilizace předchází zpracování vzpomínky a není jeho zkrácenou verzí, patří k nejdéle popsaným zásadám práce s traumatem (Herman, 1992).
 
-**Kulturně senzitivní adaptace**: česká adaptace zohledňuje (a) jazyk a metaforický rámec specifický pro středoevropskou trauma narativu, (b) postkomunistická intergenerační traumata jako kontext, (c) explicitní eskalační cesty v rámci VZP-hrazené péče. Slovenská a polská adaptace sdílí ≥ 80% rámce.
+**Kulturně senzitivní adaptace**: česká adaptace zohledňuje jazyk a metaforický rámec, zkušenost předchozích generací s totalitním režimem a dostupné cesty hrazené péče.
 
-**Crisis-modifikovaná verze**: redukce expozičních komponent ve prospěch posílených stabilizačních modulů pro aktuálně dekompenzované pacienty; přechod do standardního protokolu po dosažení remise CGI-S < 4.
+**Výcvikový a svépomocný formát**: tytéž komponenty se nabízejí i mimo zdravotní péči — na kurzech, v komunitách a ve svépomocných skupinách. Rizikový profil je tam jiný především proto, že chybí indikace, diagnostické rozlišení a dostupná pomoc při destabilizaci; část doložených poškození v psychoterapii vznikla právě v takovém uspořádání (Lilienfeld, 2007).
 
-## Outcome měření
+Žádná z uvedených variant není v knize uvedena jako doporučení. Variace se zaznamenávají proto, že s každou se mění, co pozorovatel uvidí a co se dotčenému člověku stane, když se práce zastaví; rozhodnutí o volbě zůstává u indikujícího klinika a jeho supervize (Herman, 1992).
 
-Validace efektivity techniky vyžaduje multidimenzionální outcome battery aplikovanou v klinicky validovaných intervalech:
+## Kdy je rámec legitimní
 
-**Primární outcome instrumenty** (administrace baseline / mid-treatment / termination / 3-month FU / 12-month FU):
+Všímavostní intervence vycházejí z programu redukce stresu, který popsal Kabat-Zinn (1990), a z jeho klinické adaptace pro prevenci relapsu depresivní poruchy (Segal, Williams a Teasdale, 2002).
 
-| Instrument | Doména | Klinicky významná změna |
-|------------|--------|--------------------------|
-| **PCL-5** | PTSD symptomy (DSM-5) | ≥ 10-bodová redukce, sub-threshold < 33 |
-| **ITQ** | ICD-11 PTSD/CPTSD | DSO klinicky pod prahem, redukce ≥ 30% |
-| **CAPS-5** | Klinicián-administrovaná PTSD | ≥ 30% redukce celkového skóru |
-| **DERS** | Emoční regulace | g ≥ 0.5 pre-post |
-| **WHODAS 2.0** | Funkční disabilita | ≥ 5-bodová redukce |
+Legitimní rámec je dán indikací, odvolatelným souhlasem a informací o tom, že praxe může vyvolat obtížné stavy. Meditace není neutrální technika: systematický přehled nežádoucích účinků meditačních praxí a na nich založených terapií je k dispozici a tyto účinky popisuje (Farias a kol., 2020).
 
-**Sekundární outcome**:
+Druhým znakem je informovanost o rozsahu zkušeností, které praxe otevírá — od dezorientace po návrat traumatického materiálu. Smíšená studie dlouhodobě praktikujících tyto obtíže zdokumentovala systematicky, nikoli jako okrajovou výjimku (Lindahl a kol., 2017).
 
-- **PHQ-9** (depresivní symptomatologie, target < 10)
-- **GAD-7** (úzkostná symptomatologie, target < 10)
-- **DES-II** (disociativní symptomatologie, target < 30)
-- **WAI-SR** (terapeutická aliance, target ≥ 25. percentil)
-- **CGI-S** (klinické globální zhodnocení)
-- **PSQI** (kvalita spánku)
+Třetím je přiměřenost nároku. Kritický přehled výzkumu upozorňuje, že klinické přínosy všímavosti bývají v populárním i odborném podání nadhodnoceny a že metodologická kvalita části studií je nízká (Van Dam a kol., 2018).
 
-**Benchmarks pro úspěch intervence**:
+Čtvrtým je souhlas, který lze vzít zpět i uprostřed praxe, zejména ve skupinovém formátu, kde odchod nese sociální cenu; souhlas v závislém postavení nelze čítat jako svobodný (Faden a Beauchamp, 1986).
 
-- **Reliable Change Index (RCI)** > 1.96 na PCL-5 (Jacobson & Truax, 1991)
-- **Clinical Significance**: post-treatment skór v rámci 1 SD nontraumatizované normy
-- **Functional Recovery**: WHODAS 2.0 skór ≤ percentil 75 srovnatelné populace
-- **Sustained Remission**: udržení nad RCI prahem v 12měsíčním FU
+Pátým znakem je kvalifikace a dohled toho, kdo praxi vede. Programy, z nichž klinické varianty vycházejí, byly popsány jako strukturované kurzy s vyškoleným vedením a vymezeným rozsahem, nikoli jako volná praxe bez rámce (Kabat-Zinn, 1990).
 
-## Long-term follow-up
+Šestým znakem je právo praxi nepřijmout nebo ji přerušit bez dopadu na ostatní péči; v klinickém programu je to podmínka, nikoli ústupek (Faden a Beauchamp, 1986).
 
-Longitudinální data sledující subjekty 1-5 let po dokončení intervence dokumentují následující trajektorii:
+Sedmým je informace o tom, že účinek nelze zaručit: klinické varianty byly popsány pro vymezené indikace, nikoli jako obecná odpověď na utrpení (Segal, Williams a Teasdale, 2002).
 
-**1-rok follow-up**: 65-75% subjektů udržuje klinicky významnou redukci primární symptomatologie (PCL-5 < 33). Relapse rate 15-25% — nejčastější triggers: (a) re-exposure k similar traumatic stimuli, (b) ztráta klíčové podpůrné figury, (c) major life transition (rozvod, stěhování, ztráta zaměstnání), (d) somatická onemocnění s funkční disabilitou.
+Rámec je dále vázán na reverzibilitu: dokud lze praxi zastavit a vrátit se ke stabilitě bez ztráty ostatní péče, zůstává nabídkou pomoci (Herman, 1992).
 
-**3-rok follow-up**: persistence remise 55-65%; subgroup s Type II komplexním traumatem ukazuje delší trajektorii — křivka zlepšení pokračuje mezi měsíci 12-36 (kontinuální post-treatment growth dokumentován v Cloitre et al., 2019).
+*Interpretace knihy*: nabídka, která nemůže přiznat svoje hranice, je nabídkou mimo klinický rámec ([etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)).
 
-**5-rok follow-up**: dostupná longitudinální data (k = 8 studií) ukazují udržení nad-baseline funkce u 50-60%; klíčové prediktory dlouhodobé prosperity: (i) post-traumatic growth komponenta, (ii) integrovaná podpůrná síť, (iii) najaté smysluplné práce/role, (iv) dostupnost booster sessions (1-2× ročně).
+## Odlišení
 
-**Doporučení pro dlouhodobou péči**: minimálně 1× roční follow-up sezení, otevřená re-engagement cesta při relapse symptomatologie, integrace do peer-support komunity, monitoring pomocí self-report instrumentů (PCL-5, PHQ-9) každých 6 měsíců.
+Od obyčejné relaxace se intervence odlišuje tím, že pozornost není obrácena pryč od nepříjemného, ale k němu. Právě proto má u traumatizovaných jiné následky než u obecné populace (Lindahl a kol., 2017).
+
+Od [EA-6.2.4 metakognitivní terapie](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md) se odlišuje cílem pozornostní práce: tam se cíleně přerušuje konkrétní udržující strategie, zde se kultivuje postoj k prožívání jako celku (Segal, Williams a Teasdale, 2002).
+
+Od neškodné zkušenosti se odlišuje následek. Obtížné stavy během praxe nejsou samy nálezem; nálezem je jejich trvání, dopad na funkci a ztráta možnosti praxi přerušit (Farias a kol., 2020).
+
+Od manipulativního použití se odlišuje tím, co se s pozorovaným obsahem smí dělat. Legitimní rámec nepředepisuje, co má člověk ve svém prožívání najít, a nevykládá nesouhlas jako nedostatek všímavosti (Herman, 1992).
+
+Od stabilizační práce se odlišuje záběrem: u akutně dysregulovaného člověka je zdrojem regulace především přítomnost druhého, nikoli vlastní pozornostní výkon (Porges, 2011).
+
+Od výzkumného tvrzení o účinku se odlišuje klinický dojem. Prahy klinicky významné změny mají publikovaná kritéria a platí vždy jen pro konkrétní nástroj, jímž se měří (Jacobson a Truax, 1991).
+
+Od jednorázové traumatizace se odlišuje opakovaná relační expozice v dětství; u ní je návrat tělesného materiálu při pozornostní praxi pravděpodobnější a trajektorie zotavení delší (Terr, 1991).
+
+Od duchovní praxe se klinická intervence odlišuje rámcem, nikoli obsahem cvičení: má indikaci, kontraindikace a sledování následku (Farias a kol., 2020).
+
+Od kultivace postoje se odlišuje krizová dovednost nasazená na vymezený okamžik. Obojí se v nabídkách běžně směšuje, přičemž nároky na stabilitu dotčeného člověka jsou odlišné (Herman, 1992).
+
+Od forenzního nebo pracovního posouzení se klinická praxe odlišuje tím, že jejím výstupem není zjištění o člověku pro třetí stranu (Van Dam a kol., 2018).
+
+Od všímavosti jako kulturní praxe se klinická varianta odlišuje vymezeným rozsahem a tím, že počítá s nežádoucími účinky (Farias a kol., 2020).
+
+## Rizikové kontexty
+
+Nejrizikovějším kontextem je intenzivní skupinová praxe bez klinického rámce — dlouhé pobyty, uzavřená prostředí, absence možnosti odejít. Dokumentované obtížné zkušenosti vznikají nejčastěji právě tam (Lindahl a kol., 2017).
+
+Druhým je nestabilizovaný disociativní obraz, v němž je obrácení pozornosti k tělesnému prožívání expozicí, nikoli stabilizací; fázované pořadí práce je zde podmínkou (Herman, 1992).
+
+Třetím je prostředí, které praxi vyžaduje — pracoviště, komunita, program — a neúspěch vykládá jako osobní nedostatek. Nadhodnocená očekávání výsledků tento tlak zesilují (Van Dam a kol., 2018).
+
+Čtvrtým je použití slovníku nelpění a přijetí k tomu, aby člověk přestal mluvit o újmě; na programech přesvědčovací převýchovy je tento obrat popsán jako pravidelná součást jejich logiky (Lifton, 1961).
+
+Pátým je nabídka praxe jako samostatné léčby tam, kde je indikována jiná péče; i prospěšná intervence v nevhodném uspořádání poškozuje (Lilienfeld, 2007).
+
+Dalším rizikovým kontextem je souhlas, který nelze uprostřed praxe odvolat — delší sezení, uzavřené prostory, skupinová dynamika. Souhlas je i zde proces, nikoli podpis na začátku kurzu (Faden a Beauchamp, 1986).
+
+Rizikem je i podání praxe jako důkazu vnitřní práce, v němž se obtížná zkušenost vykládá jako postup. Přehledy nežádoucích účinků ukazují, že tento výklad brání jejich rozpoznání (Farias a kol., 2020).
+
+Zvláštním případem je dvojí role vedoucího, který praxi vede a zároveň rozhoduje o postavení účastníka v komunitě nebo v zaměstnání (Faden a Beauchamp, 1986).
+
+Rizikem je rovněž výklad obtížné zkušenosti jako nedostatku praxe, který účastníka odvádí od klinického posouzení jeho stavu (Lindahl a kol., 2017).
+
+Rizikový je také nepřístupný záznam o průběhu, z něhož nelze dohledat, co bylo účastníkovi doporučeno a s jakým následkem (Herman, 1992).
+
+Dále je rizikem zadání od zaměstnavatele nebo plátce, které předem určuje, co má být výsledkem praxe (Faden a Beauchamp, 1986).
+
+Posledním je praxe nabídnutá lidem v závislém postavení bez přezkumu a bez možnosti odejít (Lindahl a kol., 2017).
 
 ## Vztah k jiným technikám
 
 Komplementární k [EA-6.2.6 DBT](@/kompendium/techniques/ea-6-2-6-dbt-distress-tolerance.md), připravuje [EA-6.2.4 metacognitive therapy](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md), integrovatelná s [EA-6.2.8 somatic experiencing](@/kompendium/techniques/ea-6-2-8-somatic-experiencing-protokol.md).
+
+## Literatura
+
+- Faden, R. R., & Beauchamp, T. L. (1986). *A History and Theory of Informed Consent*. Oxford University Press.
+- Farias, M., Maraldi, E., Wallenkampf, K. C., & Lucchetti, G. (2020). Adverse events in meditation practices and meditation-based therapies: a systematic review. *Acta Psychiatrica Scandinavica*.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Jacobson, N. S., & Truax, P. (1991). Clinical significance: a statistical approach to defining meaningful change in psychotherapy research. *Journal of Consulting and Clinical Psychology*.
+- Kabat-Zinn, J. (1990). *Full Catastrophe Living*. Delacorte Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lilienfeld, S. O. (2007). Psychological treatments that cause harm. *Perspectives on Psychological Science*.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: a mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*.
+- Porges, S. W. (2011). *The Polyvagal Theory*. W. W. Norton.
+- Segal, Z. V., Williams, J. M. G., & Teasdale, J. D. (2002). *Mindfulness-Based Cognitive Therapy for Depression*. Guilford Press.
+- Terr, L. C. (1991). Childhood traumas: an outline and overview. *American Journal of Psychiatry*.
+- Van Dam, N. T., van Vugt, M. K., Vago, D. R., et al. (2018). Mind the hype: a critical evaluation and prescriptive agenda for research on mindfulness and meditation. *Perspectives on Psychological Science*.
 
 ## Související
 

@@ -58,13 +58,13 @@ Identifikace kontraindikací je integrální součástí každého iniciálního
 
 Standardní implementace techniky probíhá v následujících strukturovaných krocích:
 
-(1) Epistemic Trust, Mistrust, and Credulity Questionnaire (ETMCQ, 15 min). (2) Strukturovaná explorace zdrojů důvěry/nedůvěry (45 min). (3) Behaviorální úloha — kooperační game s revealmentem manipulace (30 min). (4) Mapování interpersonálních důvěry-narušujících epizod. (5) Identifikace zachovaných důvěryschopných vztahů.
+(1) Epistemic Trust, Mistrust, and Credulity Questionnaire (ETMCQ). (2) Strukturovaná explorace zdrojů důvěry/nedůvěry. (3) Behaviorální úloha — kooperační game s revealmentem manipulace. (4) Mapování interpersonálních důvěry-narušujících epizod. (5) Identifikace zachovaných důvěryschopných vztahů.
 
 Každý krok je dokumentován v klinickém záznamu s časovými razítky, klíčovými pozorováními a klientovými reakcemi. Protokol připouští individuální adaptaci, ale klíčové sekvenční komponenty musí být zachovány pro zachování validity intervence.
 
 ## Trvání a frekvence
 
-**Typická délka:** 90-120 minut, jedno sezení; opakování po 6 měsících intervence.
+Délku vyšetření a odstup opakování stanoví manuál použitého nástroje a supervize, nikoli tato kniha.
 
 Frekvence sezení a celková délka intervence jsou závislé na komplexitě klinického obrazu, komorbiditách a individuální responsivitě. V populacích s komplexním C-PTSD je třeba počítat s prolongovaným průběhem, zatímco u single-incident traumat lze očekávat rychlejší progression.
 
@@ -72,9 +72,9 @@ Frekvence sezení a celková délka intervence jsou závislé na komplexitě kli
 
 Klinická efektivita techniky je posuzována podle následujících outcome metrik:
 
-ETMCQ tří-faktorový profil (trust/mistrust/credulity), behaviorální kongruence, kongruence s narativní koherencí.
+Posuzuje se tří-faktorový profil ETMCQ, behaviorální kongruence a kongruence s narativní koherencí.
 
-Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence. Klinicky významná změna je definována jako Cohenovo d ≥ 0.5 nebo redukce primárního skóru o ≥ 30%.
+Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence. Jediné kritérium klinicky významné změny, k němuž má tato kniha publikovaný zdroj, je reliable change index nad hodnotou 1,96 a skór v rozmezí 1 SD normy netraumatizované populace (Jacobson a Truax, 1991); ostatní mezní hodnoty patří manuálu použitého nástroje a supervizi, nikoli knize.
 
 ## Adaptace pro specifické EA kategorie
 
@@ -98,8 +98,6 @@ Technika **EA-6.1.10** se historicky vyvinula z konvergence několika klinickýc
 
 **Klinické zacílení**: klinický assessment epistemicko-afektivního traumatu po manipulativní expozici (kult, abusivní vztah, koercivní pracoviště, post-divorce DARVO dynamics). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**DSM-5-TR / ICD-11 mapování**: technika je primárně indikována pro diagnózy odpovídající F43.1 PTSD (ICD-11 6B40), F43.2 Adjustment disorder (ICD-11 6B43), F44 Dissociative disorders (ICD-11 6B60-66); ICD-11 6B41 Complex PTSD jako primární cíl. V rámci ICD-11 6B41 Complex PTSD (CPTSD) představuje technika klíčovou intervenční komponentu pro tři jádrové domény CPTSD: dysregulace afektu, negativní sebepojetí a relační poruchy. Diferenciální diagnostika musí explicitně vyloučit primární psychotické spektra (F20-F29 / 6A2X), bipolární poruchy (F31 / 6A6X) a organické afektivní poruchy (F06.3X / 6E62).
-
 **Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
 
 **Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
@@ -108,47 +106,53 @@ Technika **EA-6.1.10** se historicky vyvinula z konvergence několika klinickýc
 
 Aplikace techniky **EA-6.1.10** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), zkrácená sezení (30-45 min vs. 60-90 min standard), vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), zkrácená sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
 **Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci (atypická antipsychotika), úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: technika vyžaduje předchozí psychiatrickou stabilizaci, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise (≥ 90 dní), poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+**Komorbidní substance use disorders**: doporučená sekvence — primární léčba užívání návykových látek do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training 12-24 týdnů) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze s tréninkem zvládání afektu předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence do 6 měsíců post-partum.
+**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány stabilizační a sensorimotorické intervence.
 
-## Outcome měření
+## Kdy je rámec legitimní
 
-Validace efektivity techniky vyžaduje multidimenzionální outcome battery aplikovanou v klinicky validovaných intervalech:
+Vyšetření epistemické důvěry je péčí tehdy, když jeho cílem je obnovit schopnost důvěřovat vybíravě, a nikoli důvěřovat více. Důvěra k druhému jako ke zdroji poznání je výsledkem vývoje ve vztazích, takže nálezem je její narušení, ne její míra sama (Fonagy a Allison, 2014).
 
-**Primární outcome instrumenty** (administrace baseline / mid-treatment / termination / 3-month FU / 12-month FU):
+Druhým znakem je, co se pokládá za normu. Lidé běžně filtrují, co se jim říká, a kdo to říká; taková ostražitost je obvyklou součástí komunikace, nikoli příznakem (Sperber a kol., 2010).
 
-| Instrument | Doména | Klinicky významná změna |
-|------------|--------|--------------------------|
-| **PCL-5** | PTSD symptomy (DSM-5) | ≥ 10-bodová redukce, sub-threshold < 33 |
-| **ITQ** | ICD-11 PTSD/CPTSD | DSO klinicky pod prahem, redukce ≥ 30% |
-| **CAPS-5** | Klinicián-administrovaná PTSD | ≥ 30% redukce celkového skóru |
-| **DERS** | Emoční regulace | g ≥ 0.5 pre-post |
-| **WHODAS 2.0** | Funkční disabilita | ≥ 5-bodová redukce |
+Třetím znakem je souhlas, který lze kdykoli odvolat, a výsledek, který se vrací vyšetřovanému. Souhlas je proces, nikoli podpis, a v závislém postavení ho nelze číst jako svobodný (Faden a Beauchamp, 1986).
 
-**Sekundární outcome**:
+Čtvrtým znakem je, jak se nedůvěra vykládá. Po zradě ze strany osoby, na níž byl člověk závislý, je nedůvěra odpovědí na doloženou zkušenost, a její patologizace poškození prodlužuje (Freyd, 1996).
 
-- **PHQ-9** (depresivní symptomatologie, target < 10)
-- **GAD-7** (úzkostná symptomatologie, target < 10)
-- **DES-II** (disociativní symptomatologie, target < 30)
-- **WAI-SR** (terapeutická aliance, target ≥ 25. percentil)
-- **CGI-S** (klinické globální zhodnocení)
-- **PSQI** (kvalita spánku)
+Rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
-**Benchmarks pro úspěch intervence**:
+*Interpretace knihy*: nálezem není nedůvěra, ale ztráta možnosti rozlišovat, komu věřit.
 
-- **Reliable Change Index (RCI)** > 1.96 na PCL-5 (Jacobson & Truax, 1991)
-- **Clinical Significance**: post-treatment skór v rámci 1 SD nontraumatizované normy
-- **Functional Recovery**: WHODAS 2.0 skór ≤ percentil 75 srovnatelné populace
-- **Sustained Remission**: udržení nad RCI prahem v 12měsíčním FU
+## Odlišení
+
+Od poruchy se odlišuje adaptivní nedůvěra. V prostředí, kde je ohrožení skutečné, je zdrženlivost přiměřená, a odlišujícím znakem je teprve to, že ostražitost přestala být selektivní (Sperber a kol., 2010).
+
+Od vlastnosti člověka se odlišuje důsledek expozice. Prostředí, které řídí informační tok a mění význam slov, vytváří jak nekritickou důvěřivost vůči vlastní skupině, tak paušální nedůvěru vůči všemu ostatnímu (Lifton, 1961).
+
+Od nálezu se odlišuje projev vztahu, v němž vyšetření probíhá. Kapacita přijímat informace se ukazuje ve vztahu, takže zjištěná nedůvěra může vypovídat o vyšetřující straně stejně jako o vyšetřovaném (Fonagy a Allison, 2014).
+
+Od sousedních technik se odlišuje předmětem. [EA-6.1.9 metakognitivní functional assessment](@/kompendium/techniques/ea-6-1-9-metakognitivni-functional-assessment.md) se ptá na úsudek o vlastním myšlení a [EA-6.1.3 collateral interview](@/kompendium/techniques/ea-6-1-3-collateral-interview.md) na pohled blízkých; toto vyšetření se vztahuje k druhým lidem jako ke zdrojům poznání (Fonagy a Allison, 2014).
+
+Měřítko popisují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
+
+## Rizikové kontexty
+
+Nejčastějším rizikovým kontextem je vyšetření, v němž je nedůvěra čtena jako paranoidita. Označení člověka za nespolehlivého zdroje o vlastním životě je [testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) a samostatné poškození (Fricker, 2007).
+
+Druhým rizikovým kontextem je institucionální nedůvěra u skupin, které mají s institucemi doloženou negativní zkušenost. Kde se taková nedůvěra vykládá jako individuální patologie, nese posuzování předsudek posuzovatele (Fricker, 2007).
+
+Třetím rizikovým kontextem je vyšetření vedené uvnitř vztahu, který důvěru rozrušil. Zrada ze strany osoby, na níž je člověk závislý, mu znemožňuje vyslovit právě to, co je klinicky nejvýznamnější (Freyd, 1996).
+
+Čtvrtým rizikovým kontextem je intervence, která odebere zachované důvěryhodné vztahy. Postupy poškozují i v dobré vůli, zejména tam, kde se jejich nežádoucí účinky nesledují (Lilienfeld, 2007).
 
 ## Vztah k jiným technikám
 
@@ -156,9 +160,14 @@ Validizuje [EA-6.1.9 metakognitivní assessment](@/kompendium/techniques/ea-6-1-
 
 ## Literatura
 
+- Faden, R. R., & Beauchamp, T. L. (1986). *A History and Theory of Informed Consent*. Oxford University Press.
 - Fonagy, P., & Allison, E. (2014). The role of mentalizing and epistemic trust in the therapeutic relationship. *Psychotherapy*.
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
 - Fricker, M. (2007). *Epistemic Injustice*. Oxford University Press.
+- Jacobson, N. S., & Truax, P. (1991). Clinical significance: A statistical approach to defining meaningful change in psychotherapy research. *Journal of Consulting and Clinical Psychology*.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lilienfeld, S. O. (2007). Psychological treatments that cause harm. *Perspectives on Psychological Science*.
+- Sperber, D., Clément, F., Heintz, C., Mascaro, O., Mercier, H., Origgi, G., & Wilson, D. (2010). Epistemic vigilance. *Mind & Language*.
 
 ## Související
 

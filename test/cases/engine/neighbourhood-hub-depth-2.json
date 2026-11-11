@@ -219,6 +219,13 @@
         "title": "Epistemická anihilace"
       },
       {
+        "class": "kompendium/01-predmluva",
+        "distance": 1,
+        "in": 356,
+        "path": "kompendium/01-predmluva/eticke-aspekty.md",
+        "title": "1.3 Etické aspekty a upozornění"
+      },
+      {
         "class": "kompendium/06-klinicke-aplikace",
         "distance": 1,
         "in": 328,
@@ -238,13 +245,6 @@
         "in": 319,
         "path": "glossary/taxonomie-ea.md",
         "title": "Taxonomie EA"
-      },
-      {
-        "class": "kompendium/01-predmluva",
-        "distance": 1,
-        "in": 311,
-        "path": "kompendium/01-predmluva/eticke-aspekty.md",
-        "title": "1.3 Etické aspekty a upozornění"
       },
       {
         "class": "kompendium/06-klinicke-aplikace",

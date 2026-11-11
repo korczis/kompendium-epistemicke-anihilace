@@ -64,7 +64,7 @@ Každý krok je dokumentován v klinickém záznamu s časovými razítky, klí�
 
 ## Trvání a frekvence
 
-**Typická délka:** Variabilní; akutní intervence dny-týdny.
+**Typická délka:** variabilní; délku akutní fáze určuje klinický obraz a supervize, nikoli norma stanovená touto knihou.
 
 Frekvence sezení a celková délka intervence jsou závislé na komplexitě klinického obrazu, komorbiditách a individuální responsivitě. V populacích s komplexním C-PTSD je třeba počítat s prolongovaným průběhem, zatímco u single-incident traumat lze očekávat rychlejší progression.
 
@@ -74,7 +74,7 @@ Klinická efektivita techniky je posuzována podle následujících outcome metr
 
 DES-II redukce, functional restoration.
 
-Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence. Klinicky významná změna je definována jako Cohenovo d ≥ 0.5 nebo redukce primárního skóru o ≥ 30%.
+Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence.
 
 ## Adaptace pro specifické EA kategorie
 
@@ -98,8 +98,6 @@ Technika **EA-6.5.4** se historicky vyvinula z konvergence několika klinických
 
 **Klinické zacílení**: akutní a vysokointenzivní klinické setting (ER, akutní krize, inpatient, partial hospitalization, day program, residential) pro pacienty s aktivní EA-symptomatologií vyžadující stabilizaci. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**DSM-5-TR / ICD-11 mapování**: technika je primárně indikována pro diagnózy odpovídající F43.0 Acute stress reaction (ICD-11 6B42), F43.1 PTSD, F23 Acute psychotic disorders (ICD-11 6A23), F44 Dissociative disorders, F32.3 Severe depressive episode with psychotic symptoms. V rámci ICD-11 6B41 Complex PTSD (CPTSD) představuje technika klíčovou intervenční komponentu pro tři jádrové domény CPTSD: dysregulace afektu, negativní sebepojetí a relační poruchy. Diferenciální diagnostika musí explicitně vyloučit primární psychotické spektra (F20-F29 / 6A2X), bipolární poruchy (F31 / 6A6X) a organické afektivní poruchy (F06.3X / 6E62).
-
 **Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
 
 **Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
@@ -108,47 +106,41 @@ Technika **EA-6.5.4** se historicky vyvinula z konvergence několika klinických
 
 Aplikace techniky **EA-6.5.4** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), zkrácená sezení (30-45 min vs. 60-90 min standard), vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), kratší sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
 **Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci (atypická antipsychotika), úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci vedenou psychiatrem, úzkou spolupráci s ním, redukci konfrontačních elementů a posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise (≥ 90 dní), poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training 12-24 týdnů) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence do 6 měsíců post-partum.
+**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence.
 
-## Outcome měření
+## Kdy je rámec legitimní
 
-Validace efektivity techniky vyžaduje multidimenzionální outcome battery aplikovanou v klinicky validovaných intervalech:
+Akutní disociativní stav je stavem, v němž je souhlas nejméně spolehlivý, a proto nejvíc chráněný. Posouzení, rozhodnutí o úrovni péče i jakákoli další práce patří akutní klinické péči a její supervizi; měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) (van der Kolk, 2014).
 
-**Primární outcome instrumenty** (administrace baseline / mid-treatment / termination / 3-month FU / 12-month FU):
+Druhým znakem je trpělivost s časem. Disociace je způsob, jímž člověk přežil, ne chyba, kterou je třeba odstranit; tlak na rychlou integraci v akutní fázi je popsaným zdrojem zhoršení (Putnam, 1989).
 
-| Instrument | Doména | Klinicky významná změna |
-|------------|--------|--------------------------|
-| **PCL-5** | PTSD symptomy (DSM-5) | ≥ 10-bodová redukce, sub-threshold < 33 |
-| **ITQ** | ICD-11 PTSD/CPTSD | DSO klinicky pod prahem, redukce ≥ 30% |
-| **CAPS-5** | Klinicián-administrovaná PTSD | ≥ 30% redukce celkového skóru |
-| **DERS** | Emoční regulace | g ≥ 0.5 pre-post |
-| **WHODAS 2.0** | Funkční disabilita | ≥ 5-bodová redukce |
+Třetím znakem je dokumentace, kterou člověk může vidět. Tam, kde zůstane záznam o tom, co bylo navrženo a proč, může se k vlastnímu příběhu vrátit sám; právě obnovení vlastního vyprávění je měřítkem zotavení, ne hladkost výsledného textu (Herman, 1992).
 
-**Sekundární outcome**:
+## Odlišení
 
-- **PHQ-9** (depresivní symptomatologie, target < 10)
-- **GAD-7** (úzkostná symptomatologie, target < 10)
-- **DES-II** (disociativní symptomatologie, target < 30)
-- **WAI-SR** (terapeutická aliance, target ≥ 25. percentil)
-- **CGI-S** (klinické globální zhodnocení)
-- **PSQI** (kvalita spánku)
+Od běžné nepřítomnosti myšlenkami se akutní disociativní stav odlišuje důsledky, ne intenzitou. Zasnění, únava nebo pohlcení činností jsou obvyklé a nejsou příznakem; dotazník disociace sám o sobě diagnózu nestanoví a jeho kvantifikace patří do jeho vlastního manuálu a do supervize (Bernstein a Putnam, 1986).
 
-**Benchmarks pro úspěch intervence**:
+Od sousední techniky — [EA-6.5.3 psychotic-spektrum protokol](@/kompendium/techniques/ea-6-5-3-psychotic-spektrum-protokol.md) — se tento rámec liší tím, co se rozpadá: zde kontinuita vědomí, paměti a pocitu vlastního já, tam vztah k realitě a původ obsahu přesvědčení (van der Kolk, 2014).
 
-- **Reliable Change Index (RCI)** > 1.96 na PCL-5 (Jacobson & Truax, 1991)
-- **Clinical Significance**: post-treatment skór v rámci 1 SD nontraumatizované normy
-- **Functional Recovery**: WHODAS 2.0 skór ≤ percentil 75 srovnatelné populace
-- **Sustained Remission**: udržení nad RCI prahem v 12měsíčním FU
+Od vzorce, který kniha popisuje, se legitimní práce odlišuje tím, komu patří výsledná verze minulosti. Péče vrací člověku autorství jeho vlastního příběhu; vzorec je přesouvá na někoho jiného (Herman, 1992).
+
+## Rizikové kontexty
+
+Nejrizikovějším kontextem je prostředí, které přerušení kontinuity vyvolává a pak je samo vykládá. Tam, kde je člověku opakovaně popřeno, co si pamatuje, přestává být paměť vodítkem a jediným zdrojem verze se stává okolí (Herman, 1992).
+
+Druhým kontextem je zájem o obsah. Akutní stav přitahuje pozornost k výpovědi, kterou by člověk v jiném stavu nedal; zacházení s takovou výpovědí jako s důkazem nebo jako s materiálem k přesvědčování je zneužitím (Putnam, 1989).
+
+Třetím kontextem je prostředí, které z disociace činí identitu. Program, pracoviště nebo skupina, které člověku nabídnou roli pacienta jako trvalé místo, komplikují totéž, co slibují léčit (van der Kolk, 2014).
 
 ## Vztah k jiným technikám
 
@@ -157,6 +149,7 @@ Kompatibilní s [EA-6.1.8 disociativním spektrum](@/kompendium/techniques/ea-6-
 ## Literatura
 
 - Bernstein, E. M., & Putnam, F. W. (1986). Development, reliability, and validity of a dissociation scale. *Journal of Nervous and Mental Disease*.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Putnam, F. W. (1989). *Diagnosis and Treatment of Multiple Personality Disorder*. Guilford Press.
 - van der Kolk, B. A. (2014). *The Body Keeps the Score*. Viking.
 

@@ -62,3 +62,29 @@ Odpověď vlastníka doslovně: **„Strip them too (Recommended)“**.
 Decision Engine a Nabla jsou artefakty platformy podle tohoto ADR: odstraní se 5 oddílů
 „Vztah k Prismatic Decision Engine“ a obě stránky; jejich adresy přesměrují (Zola `aliases`)
 na kapitolu, do které patří. Gate odmítne i tyto nadpisy.
+
+## Amendment 2026-11-11 (2): hesla glosáře, která jsou pojmy platformy
+
+Po odstranění 286 oddílů zbyly v knize celá hesla glosáře, která jsou sama pojmy platformy, a
+zmínky v textu. Otázka vlastníkovi (AskUserQuestion, session
+`5d49a595-d035-4bbe-b04a-d12695922860`, 2026-11-11), doslovně:
+
+> „After removing the 286 "Vztah k Prismatic…" sections (ADR 0007), the public book still has
+> whole glossary entries that are themselves concepts of your private platform, e.g.
+> glossary/nabla-infinity, nabla-axioms, decision-core, supreme-commander, no-mercy-no-doubts,
+> signal-plurality, hawkeye, risk-score, adapter-pattern, bounded-context. In prose overall:
+> "Prismatic" 932 mentions in 182 files, "Decision Engine" 476 in 339, "NABLA" 799 in 365.
+> Should the public book carry these platform-concept glossary entries and mentions?“
+
+Nabídnuté možnosti: „Remove platform-only entries (Recommended)“ (hesla, která existují jen
+jako pojmy platformy, pryč s přesměrováním; jména platformy v textu nahradit neutrálním
+zněním; obecné pojmy, které platforma také používá — OSINT, red team, risk score, bounded
+context — zůstanou bez odkazů na platformu), „Remove all mentions too“, „Keep them“.
+Odpověď vlastníka doslovně: **„Remove platform-only entries (Recommended)“**.
+
+Hesla, která existují jen jako pojmy platformy (např. Nabla Infinity, axiomy Nabla, Decision
+Core, Supreme Commander, No Mercy No Doubts), se odstraní a jejich adresy přesměrují na
+nejbližší obecné heslo nebo na glosář. Obecná hesla zůstanou a přepíšou se bez odkazů na
+platformu. Jména Prismatic, Decision Engine a Nabla v textu nahradí neutrální znění. Seznam
+hesel „jen platforma“ versus „obecný pojem“ sestaví vlastník obsahu a předá ho k revizi před
+odstraněním.

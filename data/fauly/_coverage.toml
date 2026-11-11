@@ -1,0 +1,177 @@
+# Pokrytí standardních přehledů klamů (pravidlo project.content-catalogs). Každý [[term]] je
+# název, který uvádí standardní přehled oboru (díla v data/sources.toml), a vede buď na heslo
+# katalogu (`entry`, slug kteréhokoli katalogu, i kanonické heslo), nebo nese důvod, proč heslo
+# nemá (`excluded`, aspoň 40 znaků). scripts/catalogs.py --check odmítne název bez hesla i bez
+# důvodu, neznámé heslo nebo dílo mimo bibliografii; tabulku pokrytí na rozcestníku katalogu a
+# pole `coverage` v exportu odvozuje engine. Přehled se rozšiřuje přidáním dalších názvů, které
+# dílo prokazatelně uvádí – nikdy ne názvy, které dílo neobsahuje.
+#
+# Hamblin 1970 vykládá Aristotelových třináct sofistických vyvrácení (O sofistických důkazech)
+# i Lockovy argumenty „ad“; Copi, Cohen a McMahon 2014 je učebnicový přehled neformálních klamů
+# (relevance, vadná indukce, předpoklad, dvojznačnost) a pravidel sylogismu a hypotetických
+# úsudků.
+
+# --- Aristotelova vyvrácení závislá na řeči (in dictione) ------------------------------------
+
+[[term]]
+name = "Ekvivokace (equivocation)"
+sources = ["hamblin-1970", "copi-cohen-mcmahon-2014"]
+entry = "ekvivokace"
+
+[[term]]
+name = "Amfibolie (amphiboly)"
+sources = ["hamblin-1970", "copi-cohen-mcmahon-2014"]
+entry = "amfibolie"
+
+[[term]]
+name = "Spojení a složení (combination, composition)"
+sources = ["hamblin-1970", "copi-cohen-mcmahon-2014"]
+entry = "klam-skladani"
+
+[[term]]
+name = "Rozdělení (division)"
+sources = ["hamblin-1970", "copi-cohen-mcmahon-2014"]
+entry = "klam-deleni"
+
+[[term]]
+name = "Přízvuk (accent)"
+sources = ["hamblin-1970", "copi-cohen-mcmahon-2014"]
+entry = "klam-duraznu"
+
+[[term]]
+name = "Tvar výrazu (form of expression, figura dictionis)"
+sources = ["hamblin-1970"]
+excluded = "Aristotelův klam stojí na řecké tvarosloví (rod, slovní druh, kategorie podle koncovky); mimo řečtinu nemá samostatný protějšek a jeho moderní příbuzné pokrývají hesla ekvivokace a reifikace."
+
+# --- Aristotelova vyvrácení nezávislá na řeči (extra dictionem) ------------------------------
+
+[[term]]
+name = "Nahodilost (accident)"
+sources = ["hamblin-1970", "copi-cohen-mcmahon-2014"]
+entry = "prilis-siroke-zobecneni"
+
+[[term]]
+name = "Secundum quid (ukvapené zobecnění, hasty generalization)"
+sources = ["hamblin-1970", "copi-cohen-mcmahon-2014"]
+entry = "ukvapene-zobecneni"
+
+[[term]]
+name = "Ignoratio elenchi (minutí se tématem, missing the point)"
+sources = ["hamblin-1970", "copi-cohen-mcmahon-2014"]
+entry = "irelevantni-zaver"
+
+[[term]]
+name = "Petitio principii (begging the question)"
+sources = ["hamblin-1970", "copi-cohen-mcmahon-2014"]
+entry = "kruhovy-argument"
+
+[[term]]
+name = "Důsledek (consequent, affirming the consequent)"
+sources = ["hamblin-1970", "copi-cohen-mcmahon-2014"]
+entry = "potvrzeni-dusledku"
+
+[[term]]
+name = "Non causa pro causa (Aristotelovo pojetí)"
+sources = ["hamblin-1970"]
+excluded = "U Aristotela jde o úzký případ: v důkazu sporem se za příčinu absurdity vydá premisa, která ji nezpůsobila. Moderní rodinu chybného přisouzení příčiny pokrývají hesla post hoc, cum hoc a klam jediné příčiny."
+
+[[term]]
+name = "Mnoho otázek (many questions, complex question)"
+sources = ["hamblin-1970", "copi-cohen-mcmahon-2014"]
+entry = "slozena-otazka"
+
+# --- Lockovy argumenty „ad“ ------------------------------------------------------------------
+
+[[term]]
+name = "Argumentum ad verecundiam (nepatřičná autorita)"
+sources = ["hamblin-1970", "copi-cohen-mcmahon-2014"]
+entry = "odvolani-na-autoritu"
+
+[[term]]
+name = "Argumentum ad ignorantiam (argument z nevědomosti)"
+sources = ["hamblin-1970", "copi-cohen-mcmahon-2014"]
+entry = "odvolani-na-nevedomost"
+
+[[term]]
+name = "Argumentum ad hominem (útok na osobu)"
+sources = ["hamblin-1970", "copi-cohen-mcmahon-2014"]
+entry = "ad-hominem"
+
+[[term]]
+name = "Argumentum ad judicium"
+sources = ["hamblin-1970"]
+excluded = "Locke jím označuje řádný argument z důkazu, který staví proti třem klamným argumentům „ad“; sám klamem není, a proto v katalogu klamů nemá heslo."
+
+# --- Copi, Cohen a McMahon: klamy relevance, vadné indukce a předpokladu ----------------------
+
+[[term]]
+name = "Odvolání na dav (appeal to the populace, ad populum)"
+sources = ["copi-cohen-mcmahon-2014"]
+entry = "ad-populum"
+
+[[term]]
+name = "Odvolání na emoce (appeal to emotion)"
+sources = ["copi-cohen-mcmahon-2014"]
+entry = "odvolani-na-emoce"
+
+[[term]]
+name = "Falešná stopa (red herring)"
+sources = ["copi-cohen-mcmahon-2014"]
+entry = "cerveny-sled"
+
+[[term]]
+name = "Slaměný panák (straw man)"
+sources = ["copi-cohen-mcmahon-2014"]
+entry = "slameny-panak"
+
+[[term]]
+name = "Odvolání na sílu (appeal to force, ad baculum)"
+sources = ["copi-cohen-mcmahon-2014"]
+entry = "odvolani-na-silu"
+
+[[term]]
+name = "Falešná příčina (false cause, post hoc)"
+sources = ["copi-cohen-mcmahon-2014"]
+entry = "post-hoc"
+
+# --- Copi, Cohen a McMahon: pravidla sylogismu a hypotetické úsudky --------------------------
+
+[[term]]
+name = "Popření předchůdce (denying the antecedent)"
+sources = ["copi-cohen-mcmahon-2014"]
+entry = "popreni-predchudce"
+
+[[term]]
+name = "Klam čtyř termínů (four terms)"
+sources = ["copi-cohen-mcmahon-2014"]
+entry = "ctyri-terminy"
+
+[[term]]
+name = "Nerozložený střední termín (undistributed middle)"
+sources = ["copi-cohen-mcmahon-2014"]
+entry = "nerozlozeny-stredni-termin"
+
+[[term]]
+name = "Nedovolený větší termín (illicit major)"
+sources = ["copi-cohen-mcmahon-2014"]
+entry = "nedovoleny-vetsi-termin"
+
+[[term]]
+name = "Nedovolený menší termín (illicit minor)"
+sources = ["copi-cohen-mcmahon-2014"]
+entry = "nedovoleny-mensi-termin"
+
+[[term]]
+name = "Záporné premisy (exclusive premises)"
+sources = ["copi-cohen-mcmahon-2014"]
+entry = "vylucujici-premisy"
+
+[[term]]
+name = "Kladný závěr ze záporné premisy (affirmative conclusion from a negative premise)"
+sources = ["copi-cohen-mcmahon-2014"]
+entry = "kladny-zaver-ze-zaporne-premisy"
+
+[[term]]
+name = "Existenční klam (existential fallacy)"
+sources = ["copi-cohen-mcmahon-2014"]
+entry = "existencni-klam"

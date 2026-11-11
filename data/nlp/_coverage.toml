@@ -1,0 +1,141 @@
+# Pokrytí standardních přehledů NLP (pravidlo project.content-catalogs). Každý [[term]] je
+# název, který uvádí zakládající text NLP (díla v data/sources.toml), a vede buď na heslo
+# katalogu (`entry`), nebo nese důvod, proč heslo nemá (`excluded`, aspoň 40 znaků).
+# scripts/catalogs.py --check odmítne název bez hesla i bez důvodu, neznámé heslo nebo dílo mimo
+# bibliografii; tabulku pokrytí a pole `coverage` v exportu odvozuje engine. Přehled se
+# rozšiřuje přidáním dalších názvů, které dílo prokazatelně uvádí.
+#
+# Bandler a Grinder 1975 zavádí Meta-model (vypuštění, zobecnění, zkreslení a sémantické
+# poruchy), Bandler a Grinder 1975b vzorce hypnotického jazyka Miltona Ericksona a Satir 1972
+# pět komunikačních postojů pod stresem.
+
+# --- Meta-model (Bandler a Grinder 1975) -----------------------------------------------------
+
+[[term]]
+name = "Prosté vypuštění (simple deletion)"
+sources = ["bandler-grinder-1975"]
+entry = "prosta-delece"
+
+[[term]]
+name = "Srovnávací vypuštění (comparative deletion)"
+sources = ["bandler-grinder-1975"]
+entry = "srovnavaci-delece"
+
+[[term]]
+name = "Chybějící referenční index (lack of referential index)"
+sources = ["bandler-grinder-1975", "bandler-grinder-1975b"]
+entry = "nespecifikovany-referencni-index"
+
+[[term]]
+name = "Nespecifikované sloveso (unspecified verb)"
+sources = ["bandler-grinder-1975"]
+entry = "nespecifikovane-sloveso"
+
+[[term]]
+name = "Nominalizace (nominalization)"
+sources = ["bandler-grinder-1975", "bandler-grinder-1975b"]
+entry = "nominalizace"
+
+[[term]]
+name = "Univerzální kvantifikátor (universal quantifier)"
+sources = ["bandler-grinder-1975"]
+entry = "univerzalni-kvantifikator"
+
+[[term]]
+name = "Modální operátor nutnosti (modal operator of necessity)"
+sources = ["bandler-grinder-1975"]
+entry = "modalni-operator-nutnosti"
+
+[[term]]
+name = "Modální operátor možnosti (modal operator of possibility)"
+sources = ["bandler-grinder-1975"]
+entry = "modalni-operator-moznosti"
+
+[[term]]
+name = "Presupozice (presupposition)"
+sources = ["bandler-grinder-1975", "bandler-grinder-1975b"]
+entry = "presupozice-v-meta-modelu"
+
+[[term]]
+name = "Čtení myšlenek (mind reading)"
+sources = ["bandler-grinder-1975"]
+entry = "cteni-myslenek"
+
+[[term]]
+name = "Příčina a následek (cause and effect)"
+sources = ["bandler-grinder-1975"]
+entry = "pricina-a-nasledek"
+
+[[term]]
+name = "Ztracený performativ (lost performative)"
+sources = ["bandler-grinder-1975"]
+entry = "ztraceny-performativ"
+
+# --- Vzorce hypnotického jazyka (Bandler a Grinder 1975b) -----------------------------------
+
+[[term]]
+name = "Fonologická dvojznačnost (phonological ambiguity)"
+sources = ["bandler-grinder-1975b"]
+entry = "fonologicka-dvojznacnost"
+
+[[term]]
+name = "Syntaktická dvojznačnost (syntactic ambiguity)"
+sources = ["bandler-grinder-1975b"]
+entry = "syntakticka-dvojznacnost"
+
+[[term]]
+name = "Rozsahová dvojznačnost (scope ambiguity)"
+sources = ["bandler-grinder-1975b"]
+entry = "rozsahova-dvojznacnost"
+
+[[term]]
+name = "Interpunkční dvojznačnost (punctuation ambiguity)"
+sources = ["bandler-grinder-1975b"]
+entry = "interpunkcni-dvojznacnost"
+
+[[term]]
+name = "Vložené příkazy (embedded commands)"
+sources = ["bandler-grinder-1975b"]
+entry = "vlozene-prikazy"
+
+[[term]]
+name = "Analogové značení (analogue marking)"
+sources = ["bandler-grinder-1975b"]
+entry = "analogove-znaceni"
+
+[[term]]
+name = "Konverzační postuláty (conversational postulates)"
+sources = ["bandler-grinder-1975b"]
+entry = "konverzacni-postulaty"
+
+[[term]]
+name = "Porušení selekčních omezení (selectional restriction violation)"
+sources = ["bandler-grinder-1975b"]
+entry = "poruseni-selekcnich-omezeni"
+
+# --- Komunikační postoje pod stresem (Satir 1972) --------------------------------------------
+
+[[term]]
+name = "Smiřovatel (placater)"
+sources = ["satir-1972"]
+entry = "smirovatel"
+
+[[term]]
+name = "Obviňovatel (blamer)"
+sources = ["satir-1972"]
+entry = "obvinovatel"
+
+[[term]]
+name = "Počítač (computer, super-reasonable)"
+sources = ["satir-1972"]
+entry = "pocitac"
+
+[[term]]
+name = "Rozptylovač (distracter)"
+sources = ["satir-1972"]
+entry = "rozptylovac"
+
+[[term]]
+name = "Vyrovnaný (leveler)"
+sources = ["satir-1972"]
+entry = "vyrovnany"

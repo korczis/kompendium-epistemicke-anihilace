@@ -1,5 +1,210 @@
 {
  "catalog": "nlp",
+ "coverage": [
+  {
+   "entry": "prosta-delece",
+   "excluded": "",
+   "name": "Prosté vypuštění (simple deletion)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "srovnavaci-delece",
+   "excluded": "",
+   "name": "Srovnávací vypuštění (comparative deletion)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "nespecifikovany-referencni-index",
+   "excluded": "",
+   "name": "Chybějící referenční index (lack of referential index)",
+   "sources": [
+    "bandler-grinder-1975",
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "nespecifikovane-sloveso",
+   "excluded": "",
+   "name": "Nespecifikované sloveso (unspecified verb)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "nominalizace",
+   "excluded": "",
+   "name": "Nominalizace (nominalization)",
+   "sources": [
+    "bandler-grinder-1975",
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "univerzalni-kvantifikator",
+   "excluded": "",
+   "name": "Univerzální kvantifikátor (universal quantifier)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "modalni-operator-nutnosti",
+   "excluded": "",
+   "name": "Modální operátor nutnosti (modal operator of necessity)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "modalni-operator-moznosti",
+   "excluded": "",
+   "name": "Modální operátor možnosti (modal operator of possibility)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "presupozice-v-meta-modelu",
+   "excluded": "",
+   "name": "Presupozice (presupposition)",
+   "sources": [
+    "bandler-grinder-1975",
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "cteni-myslenek",
+   "excluded": "",
+   "name": "Čtení myšlenek (mind reading)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "pricina-a-nasledek",
+   "excluded": "",
+   "name": "Příčina a následek (cause and effect)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "ztraceny-performativ",
+   "excluded": "",
+   "name": "Ztracený performativ (lost performative)",
+   "sources": [
+    "bandler-grinder-1975"
+   ]
+  },
+  {
+   "entry": "fonologicka-dvojznacnost",
+   "excluded": "",
+   "name": "Fonologická dvojznačnost (phonological ambiguity)",
+   "sources": [
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "syntakticka-dvojznacnost",
+   "excluded": "",
+   "name": "Syntaktická dvojznačnost (syntactic ambiguity)",
+   "sources": [
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "rozsahova-dvojznacnost",
+   "excluded": "",
+   "name": "Rozsahová dvojznačnost (scope ambiguity)",
+   "sources": [
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "interpunkcni-dvojznacnost",
+   "excluded": "",
+   "name": "Interpunkční dvojznačnost (punctuation ambiguity)",
+   "sources": [
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "vlozene-prikazy",
+   "excluded": "",
+   "name": "Vložené příkazy (embedded commands)",
+   "sources": [
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "analogove-znaceni",
+   "excluded": "",
+   "name": "Analogové značení (analogue marking)",
+   "sources": [
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "konverzacni-postulaty",
+   "excluded": "",
+   "name": "Konverzační postuláty (conversational postulates)",
+   "sources": [
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "poruseni-selekcnich-omezeni",
+   "excluded": "",
+   "name": "Porušení selekčních omezení (selectional restriction violation)",
+   "sources": [
+    "bandler-grinder-1975b"
+   ]
+  },
+  {
+   "entry": "smirovatel",
+   "excluded": "",
+   "name": "Smiřovatel (placater)",
+   "sources": [
+    "satir-1972"
+   ]
+  },
+  {
+   "entry": "obvinovatel",
+   "excluded": "",
+   "name": "Obviňovatel (blamer)",
+   "sources": [
+    "satir-1972"
+   ]
+  },
+  {
+   "entry": "pocitac",
+   "excluded": "",
+   "name": "Počítač (computer, super-reasonable)",
+   "sources": [
+    "satir-1972"
+   ]
+  },
+  {
+   "entry": "rozptylovac",
+   "excluded": "",
+   "name": "Rozptylovač (distracter)",
+   "sources": [
+    "satir-1972"
+   ]
+  },
+  {
+   "entry": "vyrovnany",
+   "excluded": "",
+   "name": "Vyrovnaný (leveler)",
+   "sources": [
+    "satir-1972"
+   ]
+  }
+ ],
  "edges": [
   {
    "from": "mapa-neni-uzemi",

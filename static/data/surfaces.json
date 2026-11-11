@@ -2136,10 +2136,10 @@
     "static/data/viz-deps.json"
    ],
    "generic_views": {
-    "viz/okoli": 139
+    "viz/okoli": 140
    },
    "libraries": [],
-   "pages": 149,
+   "pages": 150,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -2208,13 +2208,13 @@
    ],
    "status": "covered",
    "templates": {
-    "kompendium/page.html": 139,
+    "kompendium/page.html": 140,
     "kompendium/section.html": 10
    },
    "views": {
     "mermaid": 9,
     "viz/katalog": 10,
-    "viz/katalog-ilustrace": 149
+    "viz/katalog-ilustrace": 150
    }
   },
   "kompendium/case-studies": {

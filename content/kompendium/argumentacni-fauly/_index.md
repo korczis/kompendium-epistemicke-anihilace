@@ -17,7 +17,10 @@ schema_type = "DefinedTermSet"
 catalog = "fauly"
 catalog_schema = 1
 catalog_export = "data/fauly-katalog.json"
-catalog_size = 145
+catalog_size = 146
+catalog_families = 9
+catalog_type_counts = { formal = 14, informal = 86, tactic = 22, concept = 24 }
+catalog_coverage = { terms = 31, entries = 28, excluded = 3 }
 catalog_sources = ["cook-lewandowsky-ecker-2017", "copi-cohen-mcmahon-2014", "damer-2009", "gigerenzer-2002", "hahn-oaksford-2007", "hamblin-1970", "johnson-blair-1977", "kunda-1990", "mercier-sperber-2011", "moore-1903", "nickerson-1998", "popper-1959", "roozenbeek-2022", "tindale-2007", "toulmin-1958", "tversky-kahneman-1974", "walton-1995", "walton-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 +++
 
@@ -149,7 +152,7 @@ knihy stojí, popisují [metodologické poznámky](@/kompendium/02-uvod/metodolo
 
 | Kód | Rodina | Anglicky | Hesel |
 |-----|--------|----------|-------|
-| `AF-01` | [Formální klamy](@/kompendium/argumentacni-fauly/formalni/_index.md) | Formal fallacies | 14 |
+| `AF-01` | [Formální klamy](@/kompendium/argumentacni-fauly/formalni/_index.md) | Formal fallacies | 15 |
 | `AF-02` | [Klamy relevance](@/kompendium/argumentacni-fauly/relevance/_index.md) | Fallacies of relevance | 28 |
 | `AF-03` | [Klamy předpokladu](@/kompendium/argumentacni-fauly/predpoklady-argumentu/_index.md) | Fallacies of presumption | 20 |
 | `AF-04` | [Kauzální klamy](@/kompendium/argumentacni-fauly/kauzalni/_index.md) | Causal fallacies | 9 |
@@ -159,7 +162,45 @@ knihy stojí, popisují [metodologické poznámky](@/kompendium/02-uvod/metodolo
 | `AF-08` | [Klamy hodnot, přírody a vědy](@/kompendium/argumentacni-fauly/hodnoty-a-veda/_index.md) | Fallacies of value, nature and science | 9 |
 | `AF-09` | [Principy kritické diskuse a teorie argumentace](@/kompendium/argumentacni-fauly/teorie-argumentace/_index.md) | Rules of critical discussion and argumentation theory | 20 |
 
-Katalog má 145 hesel: 13 × formální klam, 86 × neformální klam, 24 × pojem a princip, 22 × rétorická taktika. 6 z nich má v knize jinou kanonickou stránku a katalog na ni odkazuje. Čísla odvozuje scripts/catalogs.py z katalogu při každém sestavení.
+Katalog má 146 hesel: 14 × formální klam, 86 × neformální klam, 24 × pojem a princip, 22 × rétorická taktika. 6 z nich má v knize jinou kanonickou stránku a katalog na ni odkazuje. Čísla odvozuje scripts/catalogs.py z katalogu při každém sestavení.
+
+## Pokrytí standardních přehledů
+
+Katalog porovnává svá hesla s názvy, které uvádějí standardní přehledy oboru: 31 názvů, z nich 28 má heslo a 3 je odůvodněně mimo katalog. Tabulku odvozuje scripts/catalogs.py ze souboru pokrytí a brána odmítne název, který nemá heslo ani důvod.
+
+| Název v přehledu | Přehled | Heslo katalogu |
+|---|---|---|
+| Amfibolie (amphiboly) | Hamblin 1970; Copi, Cohen a McMahon 2014 | [Amfibolie](@/kompendium/argumentacni-fauly/jazykove-klamy/amfibolie.md) |
+| Argumentum ad hominem (útok na osobu) | Hamblin 1970; Copi, Cohen a McMahon 2014 | [Útok na osobu](@/kompendium/argumentacni-fauly/relevance/ad-hominem.md) |
+| Argumentum ad ignorantiam (argument z nevědomosti) | Hamblin 1970; Copi, Cohen a McMahon 2014 | [Odvolání na nevědomost](@/kompendium/argumentacni-fauly/relevance/odvolani-na-nevedomost.md) |
+| Argumentum ad judicium | Hamblin 1970 | mimo katalog: Locke jím označuje řádný argument z důkazu, který staví proti třem klamným argumentům „ad“; sám klamem není, a proto v katalogu klamů nemá heslo. |
+| Argumentum ad verecundiam (nepatřičná autorita) | Hamblin 1970; Copi, Cohen a McMahon 2014 | [Odvolání na nepatřičnou autoritu](@/kompendium/argumentacni-fauly/relevance/odvolani-na-autoritu.md) |
+| Důsledek (consequent, affirming the consequent) | Hamblin 1970; Copi, Cohen a McMahon 2014 | [Potvrzení důsledku](@/kompendium/argumentacni-fauly/formalni/potvrzeni-dusledku.md) |
+| Ekvivokace (equivocation) | Hamblin 1970; Copi, Cohen a McMahon 2014 | [Ekvivokace](@/kompendium/argumentacni-fauly/jazykove-klamy/ekvivokace.md) |
+| Existenční klam (existential fallacy) | Copi, Cohen a McMahon 2014 | [Existenční klam](@/kompendium/argumentacni-fauly/formalni/existencni-klam.md) |
+| Falešná příčina (false cause, post hoc) | Copi, Cohen a McMahon 2014 | [Po tom, tedy kvůli tomu](@/kompendium/argumentacni-fauly/kauzalni/post-hoc.md) |
+| Falešná stopa (red herring) | Copi, Cohen a McMahon 2014 | [Červený sleď](@/kompendium/argumentacni-fauly/relevance/cerveny-sled.md) |
+| Ignoratio elenchi (minutí se tématem, missing the point) | Hamblin 1970; Copi, Cohen a McMahon 2014 | [Irelevantní závěr](@/kompendium/argumentacni-fauly/relevance/irelevantni-zaver.md) |
+| Kladný závěr ze záporné premisy (affirmative conclusion from a negative premise) | Copi, Cohen a McMahon 2014 | [Kladný závěr ze záporné premisy](@/kompendium/argumentacni-fauly/formalni/kladny-zaver-ze-zaporne-premisy.md) |
+| Klam čtyř termínů (four terms) | Copi, Cohen a McMahon 2014 | [Čtyři termíny](@/kompendium/argumentacni-fauly/formalni/ctyri-terminy.md) |
+| Mnoho otázek (many questions, complex question) | Hamblin 1970; Copi, Cohen a McMahon 2014 | [Složená otázka](@/kompendium/argumentacni-fauly/predpoklady-argumentu/slozena-otazka.md) |
+| Nahodilost (accident) | Hamblin 1970; Copi, Cohen a McMahon 2014 | [Příliš široké zobecnění](@/kompendium/argumentacni-fauly/predpoklady-argumentu/prilis-siroke-zobecneni.md) |
+| Nedovolený menší termín (illicit minor) | Copi, Cohen a McMahon 2014 | [Nedovolený menší termín](@/kompendium/argumentacni-fauly/formalni/nedovoleny-mensi-termin.md) |
+| Nedovolený větší termín (illicit major) | Copi, Cohen a McMahon 2014 | [Nedovolený větší termín](@/kompendium/argumentacni-fauly/formalni/nedovoleny-vetsi-termin.md) |
+| Nerozložený střední termín (undistributed middle) | Copi, Cohen a McMahon 2014 | [Nerozložený střední termín](@/kompendium/argumentacni-fauly/formalni/nerozlozeny-stredni-termin.md) |
+| Non causa pro causa (Aristotelovo pojetí) | Hamblin 1970 | mimo katalog: U Aristotela jde o úzký případ: v důkazu sporem se za příčinu absurdity vydá premisa, která ji nezpůsobila. Moderní rodinu chybného přisouzení příčiny pokrývají hesla post hoc, cum hoc a klam jediné příčiny. |
+| Odvolání na dav (appeal to the populace, ad populum) | Copi, Cohen a McMahon 2014 | [Odvolání na většinu](@/kompendium/argumentacni-fauly/relevance/ad-populum.md) |
+| Odvolání na emoce (appeal to emotion) | Copi, Cohen a McMahon 2014 | [Odvolání na emoce](@/kompendium/argumentacni-fauly/relevance/odvolani-na-emoce.md) |
+| Odvolání na sílu (appeal to force, ad baculum) | Copi, Cohen a McMahon 2014 | [Odvolání na sílu](@/kompendium/argumentacni-fauly/relevance/odvolani-na-silu.md) |
+| Petitio principii (begging the question) | Hamblin 1970; Copi, Cohen a McMahon 2014 | [Kruhový argument](@/glossary/cirkularni-argumentace.md) |
+| Popření předchůdce (denying the antecedent) | Copi, Cohen a McMahon 2014 | [Popření předchůdce](@/kompendium/argumentacni-fauly/formalni/popreni-predchudce.md) |
+| Přízvuk (accent) | Hamblin 1970; Copi, Cohen a McMahon 2014 | [Klam důrazu](@/kompendium/argumentacni-fauly/jazykove-klamy/klam-duraznu.md) |
+| Rozdělení (division) | Hamblin 1970; Copi, Cohen a McMahon 2014 | [Klam dělení](@/kompendium/argumentacni-fauly/jazykove-klamy/klam-deleni.md) |
+| Secundum quid (ukvapené zobecnění, hasty generalization) | Hamblin 1970; Copi, Cohen a McMahon 2014 | [Ukvapené zobecnění](@/kompendium/argumentacni-fauly/predpoklady-argumentu/ukvapene-zobecneni.md) |
+| Slaměný panák (straw man) | Copi, Cohen a McMahon 2014 | [Slaměný panák](@/kompendium/argumentacni-fauly/relevance/slameny-panak.md) |
+| Spojení a složení (combination, composition) | Hamblin 1970; Copi, Cohen a McMahon 2014 | [Klam skládání](@/kompendium/argumentacni-fauly/jazykove-klamy/klam-skladani.md) |
+| Tvar výrazu (form of expression, figura dictionis) | Hamblin 1970 | mimo katalog: Aristotelův klam stojí na řecké tvarosloví (rod, slovní druh, kategorie podle koncovky); mimo řečtinu nemá samostatný protějšek a jeho moderní příbuzné pokrývají hesla ekvivokace a reifikace. |
+| Záporné premisy (exclusive premises) | Copi, Cohen a McMahon 2014 | [Vylučující premisy](@/kompendium/argumentacni-fauly/formalni/vylucujici-premisy.md) |
 
 <!-- kompendium:katalog-vazby:end -->
 

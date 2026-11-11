@@ -1,5 +1,269 @@
 {
  "catalog": "fauly",
+ "coverage": [
+  {
+   "entry": "ekvivokace",
+   "excluded": "",
+   "name": "Ekvivokace (equivocation)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "amfibolie",
+   "excluded": "",
+   "name": "Amfibolie (amphiboly)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "klam-skladani",
+   "excluded": "",
+   "name": "Spojení a složení (combination, composition)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "klam-deleni",
+   "excluded": "",
+   "name": "Rozdělení (division)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "klam-duraznu",
+   "excluded": "",
+   "name": "Přízvuk (accent)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Aristotelův klam stojí na řecké tvarosloví (rod, slovní druh, kategorie podle koncovky); mimo řečtinu nemá samostatný protějšek a jeho moderní příbuzné pokrývají hesla ekvivokace a reifikace.",
+   "name": "Tvar výrazu (form of expression, figura dictionis)",
+   "sources": [
+    "hamblin-1970"
+   ]
+  },
+  {
+   "entry": "prilis-siroke-zobecneni",
+   "excluded": "",
+   "name": "Nahodilost (accident)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "ukvapene-zobecneni",
+   "excluded": "",
+   "name": "Secundum quid (ukvapené zobecnění, hasty generalization)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "irelevantni-zaver",
+   "excluded": "",
+   "name": "Ignoratio elenchi (minutí se tématem, missing the point)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "kruhovy-argument",
+   "excluded": "",
+   "name": "Petitio principii (begging the question)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "potvrzeni-dusledku",
+   "excluded": "",
+   "name": "Důsledek (consequent, affirming the consequent)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "U Aristotela jde o úzký případ: v důkazu sporem se za příčinu absurdity vydá premisa, která ji nezpůsobila. Moderní rodinu chybného přisouzení příčiny pokrývají hesla post hoc, cum hoc a klam jediné příčiny.",
+   "name": "Non causa pro causa (Aristotelovo pojetí)",
+   "sources": [
+    "hamblin-1970"
+   ]
+  },
+  {
+   "entry": "slozena-otazka",
+   "excluded": "",
+   "name": "Mnoho otázek (many questions, complex question)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "odvolani-na-autoritu",
+   "excluded": "",
+   "name": "Argumentum ad verecundiam (nepatřičná autorita)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "odvolani-na-nevedomost",
+   "excluded": "",
+   "name": "Argumentum ad ignorantiam (argument z nevědomosti)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "ad-hominem",
+   "excluded": "",
+   "name": "Argumentum ad hominem (útok na osobu)",
+   "sources": [
+    "hamblin-1970",
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "",
+   "excluded": "Locke jím označuje řádný argument z důkazu, který staví proti třem klamným argumentům „ad“; sám klamem není, a proto v katalogu klamů nemá heslo.",
+   "name": "Argumentum ad judicium",
+   "sources": [
+    "hamblin-1970"
+   ]
+  },
+  {
+   "entry": "ad-populum",
+   "excluded": "",
+   "name": "Odvolání na dav (appeal to the populace, ad populum)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "odvolani-na-emoce",
+   "excluded": "",
+   "name": "Odvolání na emoce (appeal to emotion)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "cerveny-sled",
+   "excluded": "",
+   "name": "Falešná stopa (red herring)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "slameny-panak",
+   "excluded": "",
+   "name": "Slaměný panák (straw man)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "odvolani-na-silu",
+   "excluded": "",
+   "name": "Odvolání na sílu (appeal to force, ad baculum)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "post-hoc",
+   "excluded": "",
+   "name": "Falešná příčina (false cause, post hoc)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "popreni-predchudce",
+   "excluded": "",
+   "name": "Popření předchůdce (denying the antecedent)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "ctyri-terminy",
+   "excluded": "",
+   "name": "Klam čtyř termínů (four terms)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "nerozlozeny-stredni-termin",
+   "excluded": "",
+   "name": "Nerozložený střední termín (undistributed middle)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "nedovoleny-vetsi-termin",
+   "excluded": "",
+   "name": "Nedovolený větší termín (illicit major)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "nedovoleny-mensi-termin",
+   "excluded": "",
+   "name": "Nedovolený menší termín (illicit minor)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "vylucujici-premisy",
+   "excluded": "",
+   "name": "Záporné premisy (exclusive premises)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "kladny-zaver-ze-zaporne-premisy",
+   "excluded": "",
+   "name": "Kladný závěr ze záporné premisy (affirmative conclusion from a negative premise)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  },
+  {
+   "entry": "existencni-klam",
+   "excluded": "",
+   "name": "Existenční klam (existential fallacy)",
+   "sources": [
+    "copi-cohen-mcmahon-2014"
+   ]
+  }
+ ],
  "edges": [
   {
    "from": "formalni-klam",
@@ -1004,6 +1268,76 @@
   {
    "from": "klam-klamu",
    "to": "kompendium/techniques/ea-1-3-3-tematicka-diverze.md",
+   "type": "prose"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "formalni-klam",
+   "type": "broader"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "vylucujici-premisy",
+   "type": "related"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "existencni-klam",
+   "type": "related"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "nerozlozeny-stredni-termin",
+   "type": "related"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "nedovoleny-vetsi-termin",
+   "type": "related"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "odvolani-na-nevedomost",
+   "type": "related"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "kompendium/forensic-legal/_index.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "kompendium/03-zakladni-kategorie/kapitola-1.md",
+   "type": "kompendium"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "kompendium/01-predmluva/jak-pouzivat.md",
+   "type": "prose"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "kompendium/argumentacni-fauly/formalni/vylucujici-premisy.md",
+   "type": "prose"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "kompendium/argumentacni-fauly/relevance/odvolani-na-nevedomost.md",
+   "type": "prose"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md",
+   "type": "prose"
+  },
+  {
+   "from": "kladny-zaver-ze-zaporne-premisy",
+   "to": "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
    "type": "prose"
   },
   {
@@ -10187,7 +10521,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Formální klamy",
    "id": "AF-01.01",
    "keywords": [
@@ -10226,7 +10560,8 @@
     "zamena-kvantifikatoru",
     "klam-modalniho-rozsahu",
     "klam-maskovaneho-muze",
-    "klam-klamu"
+    "klam-klamu",
+    "kladny-zaver-ze-zaporne-premisy"
    ],
    "next": "potvrzeni-dusledku",
    "own": true,
@@ -10340,7 +10675,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Formální klamy",
    "id": "AF-01.02",
    "keywords": [
@@ -10466,7 +10801,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Formální klamy",
    "id": "AF-01.03",
    "keywords": [
@@ -10590,7 +10925,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Formální klamy",
    "id": "AF-01.04",
    "keywords": [
@@ -10630,6 +10965,7 @@
     "nedovoleny-mensi-termin",
     "ctyri-terminy",
     "vylucujici-premisy",
+    "kladny-zaver-ze-zaporne-premisy",
     "vina-asociaci",
     "komplexni-ekvivalence"
    ],
@@ -10716,7 +11052,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Formální klamy",
    "id": "AF-01.05",
    "keywords": [
@@ -10750,7 +11086,8 @@
     "popreni-predchudce",
     "nerozlozeny-stredni-termin",
     "nedovoleny-mensi-termin",
-    "vylucujici-premisy"
+    "vylucujici-premisy",
+    "kladny-zaver-ze-zaporne-premisy"
    ],
    "related_declared": [
     "nedovoleny-mensi-termin",
@@ -10832,7 +11169,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Formální klamy",
    "id": "AF-01.06",
    "keywords": [
@@ -10957,7 +11294,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Formální klamy",
    "id": "AF-01.07",
    "keywords": [
@@ -11077,7 +11414,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Formální klamy",
    "id": "AF-01.08",
    "keywords": [
@@ -11111,6 +11448,7 @@
     "ctyri-terminy",
     "vylucujici-premisy",
     "zamena-kvantifikatoru",
+    "kladny-zaver-ze-zaporne-premisy",
     "existencni-presupozice"
    ],
    "related_declared": [
@@ -11188,7 +11526,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Formální klamy",
    "id": "AF-01.09",
    "keywords": [
@@ -11299,7 +11637,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Formální klamy",
    "id": "AF-01.10",
    "keywords": [
@@ -11333,6 +11671,7 @@
     "nedovoleny-vetsi-termin",
     "ctyri-terminy",
     "existencni-klam",
+    "kladny-zaver-ze-zaporne-premisy",
     "odvolani-na-nevedomost"
    ],
    "related_declared": [
@@ -11408,7 +11747,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Formální klamy",
    "id": "AF-01.11",
    "keywords": [
@@ -11525,7 +11864,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Formální klamy",
    "id": "AF-01.12",
    "keywords": [
@@ -11636,7 +11975,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Formální klamy",
    "id": "AF-01.13",
    "keywords": [
@@ -11748,7 +12087,7 @@
    "family": "formalni",
    "family_code": "01",
    "family_en": "Formal fallacies",
-   "family_size": 14,
+   "family_size": 15,
    "family_title": "Formální klamy",
    "id": "AF-01.14",
    "keywords": [
@@ -11775,7 +12114,7 @@
     "kompendium/techniques/ea-1-3-3-tematicka-diverze.md"
    ],
    "narrower": [],
-   "next": "",
+   "next": "kladny-zaver-ze-zaporne-premisy",
    "own": true,
    "part": "formalni.b",
    "path": "content/kompendium/argumentacni-fauly/formalni/klam-klamu.md",
@@ -11848,6 +12187,119 @@
    "use": "dvoji",
    "use_cs": "chyba i taktika",
    "words": 1270
+  },
+  {
+   "aliases": [
+    "klam kladného závěru",
+    "kladný závěr ze záporu"
+   ],
+   "ancestors": [
+    "formalni-klam"
+   ],
+   "broader": "formalni-klam",
+   "canonical": "",
+   "citations": 17,
+   "cs": "Kladný závěr ze záporné premisy",
+   "data": "data/fauly/formalni.b.toml",
+   "depth": 1,
+   "description": "Formální klam sylogismu, který ze záporné premisy vyvozuje kladný závěr: proč záporné zjištění nic nepřisuzuje, kde se chyba skrývá v protokolech a jak ji poznat.",
+   "en": "Affirmative conclusion from a negative premise",
+   "family": "formalni",
+   "family_code": "01",
+   "family_en": "Formal fallacies",
+   "family_size": 15,
+   "family_title": "Formální klamy",
+   "id": "AF-01.15",
+   "keywords": [
+    "Kladný závěr ze záporné premisy",
+    "Affirmative conclusion from a negative premise",
+    "klam kladného závěru",
+    "kladný závěr ze záporu",
+    "Formální klamy",
+    "Argumentační fauly"
+   ],
+   "kompendium": [
+    "kompendium/forensic-legal/_index.md",
+    "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+    "kompendium/03-zakladni-kategorie/kapitola-1.md"
+   ],
+   "links_prose": [
+    "kompendium/01-predmluva/jak-pouzivat.md",
+    "kompendium/argumentacni-fauly/formalni/vylucujici-premisy.md",
+    "kompendium/argumentacni-fauly/relevance/odvolani-na-nevedomost.md",
+    "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md",
+    "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md"
+   ],
+   "narrower": [],
+   "next": "",
+   "own": true,
+   "part": "formalni.b",
+   "path": "content/kompendium/argumentacni-fauly/formalni/kladny-zaver-ze-zaporne-premisy.md",
+   "position": 15,
+   "prev": "klam-klamu",
+   "reading_minutes": 6,
+   "related": [
+    "nerozlozeny-stredni-termin",
+    "nedovoleny-vetsi-termin",
+    "existencni-klam",
+    "vylucujici-premisy",
+    "odvolani-na-nevedomost"
+   ],
+   "related_declared": [
+    "vylucujici-premisy",
+    "existencni-klam",
+    "nerozlozeny-stredni-termin",
+    "nedovoleny-vetsi-termin",
+    "odvolani-na-nevedomost"
+   ],
+   "review": "agent",
+   "risk": "nizke",
+   "risk_cs": "nízké",
+   "schema": 1,
+   "sections": [
+    "Definice",
+    "Původ a souvislosti",
+    "Struktura argumentu",
+    "Detekční znaky",
+    "Odlišení od platné argumentace",
+    "Stav poznání",
+    "Obrana a odpověď"
+   ],
+   "slug": "kladny-zaver-ze-zaporne-premisy",
+   "sources": [
+    "copi-cohen-mcmahon-2014",
+    "hamblin-1970",
+    "johnson-blair-1977",
+    "kahneman-2011",
+    "mercier-sperber-2011",
+    "stanovich-west-2000",
+    "toulmin-1958",
+    "whately-1826",
+    "eemeren-grootendorst-1992",
+    "eemeren-grootendorst-2004"
+   ],
+   "sources_critical": [
+    "kahneman-2011",
+    "mercier-sperber-2011",
+    "stanovich-west-2000"
+   ],
+   "sources_primary": [
+    "copi-cohen-mcmahon-2014",
+    "hamblin-1970",
+    "johnson-blair-1977",
+    "toulmin-1958",
+    "eemeren-grootendorst-1992",
+    "eemeren-grootendorst-2004"
+   ],
+   "sources_roots": [
+    "whately-1826"
+   ],
+   "type": "formal",
+   "type_cs": "formální klam",
+   "url": "kompendium/argumentacni-fauly/formalni/kladny-zaver-ze-zaporne-premisy/",
+   "use": "chyba",
+   "use_cs": "převážně chyba uvažování",
+   "words": 1184
   },
   {
    "aliases": [
@@ -14500,6 +14952,7 @@
     "vylucujici-premisy",
     "klam-maskovaneho-muze",
     "klam-klamu",
+    "kladny-zaver-ze-zaporne-premisy",
     "nefalzifikovatelnost",
     "presun-dukazniho-bremene",
     "argument-z-neuveritelnosti",
@@ -26567,7 +27020,8 @@
     "zamena-kvantifikatoru",
     "klam-modalniho-rozsahu",
     "klam-maskovaneho-muze",
-    "klam-klamu"
+    "klam-klamu",
+    "kladny-zaver-ze-zaporne-premisy"
    ],
    "slug": "formalni",
    "title": "Formální klamy",

@@ -20,8 +20,8 @@ catalog_export = "data/fauly-katalog.json"
 catalog_family = "formalni"
 catalog_code = "01"
 catalog_en = "Formal fallacies"
-catalog_size = 14
-catalog_members = ["formalni-klam", "potvrzeni-dusledku", "popreni-predchudce", "nerozlozeny-stredni-termin", "nedovoleny-vetsi-termin", "nedovoleny-mensi-termin", "ctyri-terminy", "existencni-klam", "potvrzeni-disjunktu", "vylucujici-premisy", "zamena-kvantifikatoru", "klam-modalniho-rozsahu", "klam-maskovaneho-muze", "klam-klamu"]
+catalog_size = 15
+catalog_members = ["formalni-klam", "potvrzeni-dusledku", "popreni-predchudce", "nerozlozeny-stredni-termin", "nedovoleny-vetsi-termin", "nedovoleny-mensi-termin", "ctyri-terminy", "existencni-klam", "potvrzeni-disjunktu", "vylucujici-premisy", "zamena-kvantifikatoru", "klam-modalniho-rozsahu", "klam-maskovaneho-muze", "klam-klamu", "kladny-zaver-ze-zaporne-premisy"]
 catalog_types = ["concept", "formal"]
 catalog_sources = ["cook-lewandowsky-ecker-2017", "copi-cohen-mcmahon-2014", "grice-1975", "hahn-oaksford-2007", "hamblin-1970", "johnson-blair-1977", "kahneman-2011", "mercier-sperber-2011", "mill-1843", "nickerson-1998", "stanovich-west-2000", "whately-1826", "eemeren-grootendorst-2004"]
 +++
@@ -176,6 +176,7 @@ popisuje strukturu klamu vedle platného úsudku, který se mu podobá.
 | `AF-01.12` | [Klam modálního rozsahu](@/kompendium/argumentacni-fauly/formalni/klam-modalniho-rozsahu.md) | Modal scope fallacy | formální klam | chyba i taktika | střední |
 | `AF-01.13` | [Klam maskovaného muže](@/kompendium/argumentacni-fauly/formalni/klam-maskovaneho-muze.md) | Masked-man fallacy | formální klam | převážně chyba uvažování | střední |
 | `AF-01.14` | [Klam klamu](@/kompendium/argumentacni-fauly/formalni/klam-klamu.md) | Argument from fallacy | formální klam | chyba i taktika | střední |
+| `AF-01.15` | [Kladný závěr ze záporné premisy](@/kompendium/argumentacni-fauly/formalni/kladny-zaver-ze-zaporne-premisy.md) | Affirmative conclusion from a negative premise | formální klam | převážně chyba uvažování | nízké |
 
 ## Mapa rodiny
 
@@ -199,6 +200,7 @@ flowchart LR
   n12["Klam modálního rozsahu"]
   n13["Klam maskovaného muže"]
   n14["Klam klamu"]
+  n15["Kladný závěr ze záporné premisy"]
   F --> n1
   n1 --> n2
   n1 --> n3
@@ -213,6 +215,7 @@ flowchart LR
   n1 --> n12
   n1 --> n13
   n1 --> n14
+  n1 --> n15
   click n1 "@/kompendium/argumentacni-fauly/formalni/formalni-klam.md"
   click n2 "@/kompendium/argumentacni-fauly/formalni/potvrzeni-dusledku.md"
   click n3 "@/kompendium/argumentacni-fauly/formalni/popreni-predchudce.md"
@@ -227,6 +230,7 @@ flowchart LR
   click n12 "@/kompendium/argumentacni-fauly/formalni/klam-modalniho-rozsahu.md"
   click n13 "@/kompendium/argumentacni-fauly/formalni/klam-maskovaneho-muze.md"
   click n14 "@/kompendium/argumentacni-fauly/formalni/klam-klamu.md"
+  click n15 "@/kompendium/argumentacni-fauly/formalni/kladny-zaver-ze-zaporne-premisy.md"
 ```
 
 <!-- kompendium:katalog-vazby:end -->

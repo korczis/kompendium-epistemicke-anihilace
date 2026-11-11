@@ -1934,7 +1934,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Copeland, M. E. (1997). *Wellness Recovery Action Plan*. Peach Press.  
   <small>Citováno: [Akutní protokol: Rozpoznání hrozícího relapsu po epistemické anihilaci](@/kompendium/emergency-protocols/33-relapse-recognition.md)</small>
 - Copi, I. M., Cohen, C., & McMahon, K. (2014). *Introduction to Logic* (14. vyd.). Harlow: Pearson.  
-  <small>Citováno: [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md), [Argument z mlčení](@/kompendium/argumentacni-fauly/dialekticke-taktiky/argument-z-mlceni.md), [Bulverismus](@/kompendium/argumentacni-fauly/dialekticke-taktiky/bulverismus.md) a 66 dalších</small>
+  <small>Citováno: [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md), [Argument z mlčení](@/kompendium/argumentacni-fauly/dialekticke-taktiky/argument-z-mlceni.md), [Bulverismus](@/kompendium/argumentacni-fauly/dialekticke-taktiky/bulverismus.md) a 67 dalších</small>
 - Corrigan, P. W., a Watson, A. C. (2002). Understanding the Impact of Stigma on People with Mental Illness. *World Psychiatry*, 1(1), 16–20.  
   <small>Citováno: [Komunitní reintegrace](@/kompendium/prevention-resilience/27-community-reintegration-prevention.md)</small>
 - Corrigan, P. W., & Watson, A. C. (2002). Understanding the impact of stigma on people with mental illness. *World Psychiatry*, 1(1).  
@@ -3969,7 +3969,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Hamberger, L. K., Larsen, S. E., & Lehrner, A. (2017). Coercive Control in Intimate  
   <small>Citováno: [EA-8.1.4 Měření coercive control (škály a dotazníky)](@/kompendium/techniques/ea-8-1-4-coercive-control-scale.md), [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md)</small>
 - Hamblin, C. L. (1970). *Fallacies*. London: Methuen.  
-  <small>Citováno: [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md), [Rétorické a dialogické taktiky](@/kompendium/argumentacni-fauly/dialekticke-taktiky/_index.md), [Argument opakováním](@/kompendium/argumentacni-fauly/dialekticke-taktiky/argument-opakovanim.md) a 51 dalších</small>
+  <small>Citováno: [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md), [Rétorické a dialogické taktiky](@/kompendium/argumentacni-fauly/dialekticke-taktiky/_index.md), [Argument opakováním](@/kompendium/argumentacni-fauly/dialekticke-taktiky/argument-opakovanim.md) a 52 dalších</small>
 - Hamblin, C. L. (1970). *Fallacies*. Methuen.  
   <small>Citováno: [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md), [Detekční signatura: Motte and bailey](@/kompendium/detection-signatures/motte-bailey.md), [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) a 2 dalších</small>
 - Hamilton, J. P., Farmer, M., Fogelman, P., & Gotlib, I. H. (2015). *Depressive rumination, the default-mode network, and the dark matter of clinical neuroscience*. Biological Psychiatry.  
@@ -4817,7 +4817,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Johnson, M. P. (2008). *A Typology of Domestic Violence*. Northeastern University Press.  
   <small>Citováno: [EA-8.2.5 Starkův rámec coercive control](@/kompendium/techniques/ea-8-2-5-stark-coercive-control.md)</small>
 - Johnson, R. H., & Blair, J. A. (1977). *Logical Self-Defense*. Toronto: McGraw-Hill Ryerson.  
-  <small>Citováno: [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md), [Formální klamy](@/kompendium/argumentacni-fauly/formalni/_index.md), [Formální klam](@/kompendium/argumentacni-fauly/formalni/formalni-klam.md) a 18 dalších</small>
+  <small>Citováno: [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md), [Formální klamy](@/kompendium/argumentacni-fauly/formalni/_index.md), [Formální klam](@/kompendium/argumentacni-fauly/formalni/formalni-klam.md) a 19 dalších</small>
 - Johnson, S., La Porta, R., Lopez-de-Silanes, F., & Shleifer, A. (2000). Tunneling. *American Economic Review*, 90(2), 22–27.  
   <small>Citováno: [Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md)</small>
 - Johnson, S. M. (2004). *The Practice of Emotionally Focused Couple Therapy: Creating Connection* (2nd ed.). Brunner-Routledge.  
@@ -4888,7 +4888,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.  
   <small>Citováno: [Heuristika](@/glossary/heuristika.md), [Paralysis by analysis (paralýza analýzou)](@/glossary/paralysis-by-analysis.md), [System 1 / System 2](@/glossary/system-1-system-2.md) a 28 dalších</small>
 - Kahneman, D. (2011). *Thinking, Fast and Slow.* New York: Farrar, Straus and Giroux.  
-  <small>Citováno: [Konfirmační bias](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md), [Argument opakováním](@/kompendium/argumentacni-fauly/dialekticke-taktiky/argument-opakovanim.md), [Myšlenkově ukončující klišé](@/kompendium/argumentacni-fauly/dialekticke-taktiky/myslenkove-ukoncujici-klise.md) a 164 dalších</small>
+  <small>Citováno: [Konfirmační bias](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md), [Argument opakováním](@/kompendium/argumentacni-fauly/dialekticke-taktiky/argument-opakovanim.md), [Myšlenkově ukončující klišé](@/kompendium/argumentacni-fauly/dialekticke-taktiky/myslenkove-ukoncujici-klise.md) a 165 dalších</small>
 - **Kahneman, D.** (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus & Giroux. — [System 1 / System 2](@/glossary/system-1-system-2.md), dostupnostní [heuristika](@/glossary/heuristika.md), kotvení.  
   <small>Citováno: [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)</small>
 - Kahneman, D. a Klein, G. (2009). Conditions for intuitive expertise: A failure to disagree. *American Psychologist*, 64(6).  
@@ -6524,7 +6524,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Mercier, H., & Sperber, D. (2011). Why do humans reason? Arguments for an argumentative theory. *Behavioral and Brain Sciences*, 34.  
   <small>Citováno: [Intelektuální brutalita](@/glossary/intelektualni-brutalita.md)</small>
 - Mercier, H., & Sperber, D. (2011). Why do humans reason? Arguments for an argumentative theory. *Behavioral and Brain Sciences*, 34(2), 57–74.  
-  <small>Citováno: [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md), [Bulverismus](@/kompendium/argumentacni-fauly/dialekticke-taktiky/bulverismus.md), [Personalizace sporu](@/kompendium/argumentacni-fauly/dialekticke-taktiky/personalizace-sporu.md) a 38 dalších</small>
+  <small>Citováno: [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md), [Bulverismus](@/kompendium/argumentacni-fauly/dialekticke-taktiky/bulverismus.md), [Personalizace sporu](@/kompendium/argumentacni-fauly/dialekticke-taktiky/personalizace-sporu.md) a 39 dalších</small>
 - Merckelbach, H., Dandachi-FitzGerald, B., van Helvoort, D., Jelicic, M., & Otgaar, H. (2019). When patients overreport symptoms: More than just malingering. *Current Directions in Psychological Science*.  
   <small>Citováno: [Detekce simulace](@/kompendium/forensic-legal/4-malingering-detection.md)</small>
 - Merker, B. (2007). *Consciousness without a cerebral cortex: A challenge for neuroscience and medicine*. Behavioral and Brain Sciences.  
@@ -8984,7 +8984,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Stanovich, K. E., & West, R. F. (2000). Individual Differences in Reasoning.  
   <small>Citováno: [EA-7.3.1 Kahneman: Systém 1 a 2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md)</small>
 - Stanovich, K. E., & West, R. F. (2000). Individual differences in reasoning: Implications for the rationality debate? *Behavioral and Brain Sciences*, 23(5), 645–665.  
-  <small>Citováno: [System 1 / System 2](@/glossary/system-1-system-2.md), [Formální klamy](@/kompendium/argumentacni-fauly/formalni/_index.md), [Existenční klam](@/kompendium/argumentacni-fauly/formalni/existencni-klam.md) a 18 dalších</small>
+  <small>Citováno: [System 1 / System 2](@/glossary/system-1-system-2.md), [Formální klamy](@/kompendium/argumentacni-fauly/formalni/_index.md), [Existenční klam](@/kompendium/argumentacni-fauly/formalni/existencni-klam.md) a 19 dalších</small>
 - Stanton, G. H. (1998). *The Eight Stages of Genocide*. Yale Program in Genocide Studies.  
   <small>Citováno: [Prevence genocidy — EA](@/kompendium/international/30-genocide-prevention-EA/index.md)</small>
 - Stapel, D. (2012). *Ontsporing*. Prometheus.  
@@ -9455,7 +9455,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Toulmin, S. E. (1958). *The Uses of Argument*.  
   <small>Citováno: [Toulminův model argumentace](@/glossary/toulmin-model.md)</small>
 - Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press.  
-  <small>Citováno: [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md), [Formální klam](@/kompendium/argumentacni-fauly/formalni/formalni-klam.md), [Nedovolený větší termín](@/kompendium/argumentacni-fauly/formalni/nedovoleny-vetsi-termin.md) a 26 dalších</small>
+  <small>Citováno: [Argumentační fauly](@/kompendium/argumentacni-fauly/_index.md), [Formální klam](@/kompendium/argumentacni-fauly/formalni/formalni-klam.md), [Kladný závěr ze záporné premisy](@/kompendium/argumentacni-fauly/formalni/kladny-zaver-ze-zaporne-premisy.md) a 27 dalších</small>
 - Toulmin, S. E. (1958). *The Uses of Argument*. Cambridge University Press.  
   <small>Citováno: [Gish Gallop (Gishův cval)](@/glossary/gish-gallop.md), [7.23 Brandom: Inferenciální sémantika a normativita](@/kompendium/07-teoreticke-reflexe/brandom-inferential-semantics.md), [Důkazní řetěz a narativ](@/kompendium/forensic-legal/34-chain-evidence-narrative.md)</small>
 - Tourangeau, R., Rips, L. J., Rasinski, K. (2000). *The Psychology of Survey Response.*  
@@ -9934,7 +9934,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Wexler, D. B., & Winick, B. J. (1996). *Law in a Therapeutic Key: Developments in Therapeutic Jurisprudence*. Carolina Academic Press.  
   <small>Citováno: [Prohlášení o dopadu](@/kompendium/forensic-legal/26-impact-statement.md)</small>
 - Whately, R. (1826). *Elements of Logic*. London: J. Mawman.  
-  <small>Citováno: [Formální klamy](@/kompendium/argumentacni-fauly/formalni/_index.md), [Čtyři termíny](@/kompendium/argumentacni-fauly/formalni/ctyri-terminy.md), [Existenční klam](@/kompendium/argumentacni-fauly/formalni/existencni-klam.md) a 16 dalších</small>
+  <small>Citováno: [Formální klamy](@/kompendium/argumentacni-fauly/formalni/_index.md), [Čtyři termíny](@/kompendium/argumentacni-fauly/formalni/ctyri-terminy.md), [Existenční klam](@/kompendium/argumentacni-fauly/formalni/existencni-klam.md) a 17 dalších</small>
 - Wheatcroft, J. M., Wagstaff, G. F., & Kebbell, M. R. (2004). The influence of courtroom questioning style on actual and perceived eyewitness confidence and accuracy. *Legal and Criminological Psychology*, 9(1).  
   <small>Citováno: [Příprava svědka v kontextu EA](@/kompendium/forensic-legal/8-witness-prep-EA.md)</small>
 - Wheeler, M. (2011). *Mind in life or life in mind? Making sense of deep continuity*. Journal of Consciousness Studies.  

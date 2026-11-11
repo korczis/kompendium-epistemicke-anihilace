@@ -90,4 +90,15 @@ if ! grep -q "glossary/odstranena-stranka.md' does not exist" <<<"$out"; then
   echo "a removed book page was not reported by name:"; echo "$out" | tail -3; exit 1
 fi
 
+# Coverage of the standard references: a name with neither an entry nor a reason is refused,
+# and so is a reason too short to say why (data/<dir>/_coverage.toml).
+git -C "$root" archive "$(git -C "$root" write-tree)" -- data | tar -x -C "$work"
+printf '\n[[term]]\nname = "Vymyšlený klam bez hesla"\nsources = ["hamblin-1970"]\n' >> data/fauly/_coverage.toml
+if out=$(python3 scripts/catalogs.py --check 2>&1); then echo "gate passed despite an unmapped name"; exit 1; fi
+grep -q "Vymyšlený klam bez hesla: needs exactly one of" <<<"$out" || { echo "unmapped name not reported"; echo "$out" | tail -3; exit 1; }
+git -C "$root" archive "$(git -C "$root" write-tree)" -- data | tar -x -C "$work"
+printf '\n[[term]]\nname = "Krátký důvod"\nsources = ["hamblin-1970"]\nexcluded = "nehodí se"\n' >> data/nlp/_coverage.toml
+if out=$(python3 scripts/catalogs.py --check 2>&1); then echo "gate passed despite a reason too short"; exit 1; fi
+grep -q "at least 40 characters" <<<"$out" || { echo "short reason not reported"; echo "$out" | tail -3; exit 1; }
+
 echo "catalogs: gate holds and catches every seeded defect"

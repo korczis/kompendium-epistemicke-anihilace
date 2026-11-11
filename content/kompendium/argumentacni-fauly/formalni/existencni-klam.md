@@ -35,7 +35,7 @@ catalog_broader = "formalni-klam"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["formalni-klam"]
-catalog_related = ["nedovoleny-mensi-termin", "ctyri-terminy", "vylucujici-premisy", "zamena-kvantifikatoru", "existencni-presupozice"]
+catalog_related = ["nedovoleny-mensi-termin", "ctyri-terminy", "vylucujici-premisy", "zamena-kvantifikatoru", "kladny-zaver-ze-zaporne-premisy", "existencni-presupozice"]
 catalog_related_declared = ["vylucujici-premisy", "nedovoleny-mensi-termin", "ctyri-terminy", "existencni-presupozice", "zamena-kvantifikatoru"]
 catalog_kompendium = ["kompendium/03-zakladni-kategorie/kapitola-1.md", "kompendium/forensic-legal/_index.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/03-zakladni-kategorie/kapitola-1.md", "kompen
 catalog_prev = "ctyri-terminy"
 catalog_next = "potvrzeni-disjunktu"
 catalog_position = 8
-catalog_family_size = 14
+catalog_family_size = 15
 catalog_sources = ["copi-cohen-mcmahon-2014", "hamblin-1970", "kahneman-2011", "kunda-1990", "levinson-1983", "lifton-1961", "stanovich-west-2000", "whately-1826", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "hamblin-1970", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["levinson-1983", "whately-1826"]
@@ -239,6 +239,7 @@ pravidlo?“, ztrácí sklon tiše doplňovat premisu, kterou mu nikdo nedoloži
 - [Čtyři termíny](@/kompendium/argumentacni-fauly/formalni/ctyri-terminy.md) – příbuzné heslo (Formální klamy, Four terms)
 - [Vylučující premisy](@/kompendium/argumentacni-fauly/formalni/vylucujici-premisy.md) – příbuzné heslo (Formální klamy, Exclusive premises)
 - [Záměna kvantifikátorů](@/kompendium/argumentacni-fauly/formalni/zamena-kvantifikatoru.md) – příbuzné heslo (Formální klamy, Quantifier shift)
+- [Kladný závěr ze záporné premisy](@/kompendium/argumentacni-fauly/formalni/kladny-zaver-ze-zaporne-premisy.md) – příbuzné heslo (Formální klamy, Affirmative conclusion from a negative premise)
 - [Existenční presupozice](@/kompendium/nlp-vzorce/presupozice/existencni-presupozice.md) – příbuzné heslo (NLP vzorce: Jazykové presupozice, Existential presupposition)
 
 **V kompendiu**

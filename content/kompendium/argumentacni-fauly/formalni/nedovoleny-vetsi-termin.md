@@ -35,7 +35,7 @@ catalog_broader = "formalni-klam"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["formalni-klam"]
-catalog_related = ["popreni-predchudce", "nerozlozeny-stredni-termin", "nedovoleny-mensi-termin", "vylucujici-premisy"]
+catalog_related = ["popreni-predchudce", "nerozlozeny-stredni-termin", "nedovoleny-mensi-termin", "vylucujici-premisy", "kladny-zaver-ze-zaporne-premisy"]
 catalog_related_declared = ["nedovoleny-mensi-termin", "nerozlozeny-stredni-termin", "popreni-predchudce", "vylucujici-premisy"]
 catalog_kompendium = ["kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "k
 catalog_prev = "nerozlozeny-stredni-termin"
 catalog_next = "nedovoleny-mensi-termin"
 catalog_position = 5
-catalog_family_size = 14
+catalog_family_size = 15
 catalog_sources = ["copi-cohen-mcmahon-2014", "damer-2009", "govier-2010", "grice-1975", "johnson-blair-1977", "kahneman-2011", "mercier-sperber-2011", "stanovich-west-2000", "toulmin-1958", "walton-2008", "whately-1826", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "govier-2010", "johnson-blair-1977", "toulmin-1958", "walton-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["grice-1975", "whately-1826"]
@@ -212,6 +212,7 @@ Grootendorst 2004).
 - [Nerozložený střední termín](@/kompendium/argumentacni-fauly/formalni/nerozlozeny-stredni-termin.md) – příbuzné heslo (Formální klamy, Undistributed middle)
 - [Nedovolený menší termín](@/kompendium/argumentacni-fauly/formalni/nedovoleny-mensi-termin.md) – příbuzné heslo (Formální klamy, Illicit minor)
 - [Vylučující premisy](@/kompendium/argumentacni-fauly/formalni/vylucujici-premisy.md) – příbuzné heslo (Formální klamy, Exclusive premises)
+- [Kladný závěr ze záporné premisy](@/kompendium/argumentacni-fauly/formalni/kladny-zaver-ze-zaporne-premisy.md) – příbuzné heslo (Formální klamy, Affirmative conclusion from a negative premise)
 
 **V kompendiu**
 

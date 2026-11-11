@@ -18,6 +18,9 @@ catalog = "nlp"
 catalog_schema = 1
 catalog_export = "data/nlp-katalog.json"
 catalog_size = 414
+catalog_families = 22
+catalog_type_counts = { pattern = 263, principle = 22, concept = 129 }
+catalog_coverage = { terms = 25, entries = 25, excluded = 0 }
 catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bateson-1972", "cialdini-2009", "dilts-1999", "druckman-swets-1988", "erickson-rossi-rossi-1976", "grice-1975", "heap-1988", "korzybski-1933", "mcguire-1964", "norcross-2006", "passmore-rowson-2019", "petty-cacioppo-1986", "satir-1972", "sharpley-1984", "sharpley-1987", "singer-lalich-1995", "sturt-2012", "tosey-mathison-2009", "vaknin-2008", "wiseman-2012", "witkowski-2010", "van-der-linden-2023"]
 +++
 
@@ -177,6 +180,38 @@ zdrojů celé knihy. Závazky, které z toho pro práci se zdroji plynou, shrnuj
 | `NLP-22` | [Kritické hodnocení NLP](@/kompendium/nlp-vzorce/kriticke-hodnoceni/_index.md) | Critical appraisal of NLP | 14 |
 
 Katalog má 414 hesel: 129 × pojem, 22 × princip, 263 × vzorec. 1 z nich má v knize jinou kanonickou stránku a katalog na ni odkazuje. Čísla odvozuje scripts/catalogs.py z katalogu při každém sestavení.
+
+## Pokrytí standardních přehledů
+
+Katalog porovnává svá hesla s názvy, které uvádějí standardní přehledy oboru: 25 názvů, z nich 25 má heslo a 0 je odůvodněně mimo katalog. Tabulku odvozuje scripts/catalogs.py ze souboru pokrytí a brána odmítne název, který nemá heslo ani důvod.
+
+| Název v přehledu | Přehled | Heslo katalogu |
+|---|---|---|
+| Analogové značení (analogue marking) | Bandler a Grinder 1975b | [Analogové značení](@/kompendium/nlp-vzorce/milton-model/analogove-znaceni.md) |
+| Chybějící referenční index (lack of referential index) | Bandler a Grinder 1975; Bandler a Grinder 1975b | [Nespecifikovaný referenční index](@/kompendium/nlp-vzorce/meta-model/nespecifikovany-referencni-index.md) |
+| Fonologická dvojznačnost (phonological ambiguity) | Bandler a Grinder 1975b | [Fonologická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/fonologicka-dvojznacnost.md) |
+| Interpunkční dvojznačnost (punctuation ambiguity) | Bandler a Grinder 1975b | [Interpunkční dvojznačnost](@/kompendium/nlp-vzorce/milton-model/interpunkcni-dvojznacnost.md) |
+| Konverzační postuláty (conversational postulates) | Bandler a Grinder 1975b | [Konverzační postuláty](@/kompendium/nlp-vzorce/milton-model/konverzacni-postulaty.md) |
+| Modální operátor možnosti (modal operator of possibility) | Bandler a Grinder 1975 | [Modální operátor možnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-moznosti.md) |
+| Modální operátor nutnosti (modal operator of necessity) | Bandler a Grinder 1975 | [Modální operátor nutnosti](@/kompendium/nlp-vzorce/meta-model/modalni-operator-nutnosti.md) |
+| Nespecifikované sloveso (unspecified verb) | Bandler a Grinder 1975 | [Nespecifikované sloveso](@/kompendium/nlp-vzorce/meta-model/nespecifikovane-sloveso.md) |
+| Nominalizace (nominalization) | Bandler a Grinder 1975; Bandler a Grinder 1975b | [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) |
+| Obviňovatel (blamer) | Satir 1972 | [Obviňovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/obvinovatel.md) |
+| Porušení selekčních omezení (selectional restriction violation) | Bandler a Grinder 1975b | [Porušení selekčních omezení v Milton-modelu](@/kompendium/nlp-vzorce/milton-model/poruseni-selekcnich-omezeni.md) |
+| Počítač (computer, super-reasonable) | Satir 1972 | [Počítač](@/kompendium/nlp-vzorce/jazykove-vzorce/pocitac.md) |
+| Presupozice (presupposition) | Bandler a Grinder 1975; Bandler a Grinder 1975b | [Presupozice v meta-modelu](@/kompendium/nlp-vzorce/meta-model/presupozice-v-meta-modelu.md) |
+| Prosté vypuštění (simple deletion) | Bandler a Grinder 1975 | [Prosté vypuštění](@/kompendium/nlp-vzorce/meta-model/prosta-delece.md) |
+| Příčina a následek (cause and effect) | Bandler a Grinder 1975 | [Příčina a následek](@/kompendium/nlp-vzorce/meta-model/pricina-a-nasledek.md) |
+| Rozptylovač (distracter) | Satir 1972 | [Rozptylovač](@/kompendium/nlp-vzorce/jazykove-vzorce/rozptylovac.md) |
+| Rozsahová dvojznačnost (scope ambiguity) | Bandler a Grinder 1975b | [Rozsahová dvojznačnost](@/kompendium/nlp-vzorce/milton-model/rozsahova-dvojznacnost.md) |
+| Smiřovatel (placater) | Satir 1972 | [Usmiřovatel](@/kompendium/nlp-vzorce/jazykove-vzorce/smirovatel.md) |
+| Srovnávací vypuštění (comparative deletion) | Bandler a Grinder 1975 | [Srovnávací vypuštění](@/kompendium/nlp-vzorce/meta-model/srovnavaci-delece.md) |
+| Syntaktická dvojznačnost (syntactic ambiguity) | Bandler a Grinder 1975b | [Syntaktická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/syntakticka-dvojznacnost.md) |
+| Univerzální kvantifikátor (universal quantifier) | Bandler a Grinder 1975 | [Univerzální kvantifikátor](@/kompendium/nlp-vzorce/meta-model/univerzalni-kvantifikator.md) |
+| Vložené příkazy (embedded commands) | Bandler a Grinder 1975b | [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) |
+| Vyrovnaný (leveler) | Satir 1972 | [Vyrovnaný](@/kompendium/nlp-vzorce/jazykove-vzorce/vyrovnany.md) |
+| Ztracený performativ (lost performative) | Bandler a Grinder 1975 | [Ztracený performativ](@/kompendium/nlp-vzorce/meta-model/ztraceny-performativ.md) |
+| Čtení myšlenek (mind reading) | Bandler a Grinder 1975 | [Čtení myšlenek](@/kompendium/nlp-vzorce/meta-model/cteni-myslenek.md) |
 
 <!-- kompendium:katalog-vazby:end -->
 

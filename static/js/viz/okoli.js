@@ -21,7 +21,8 @@
   // 1 seřazení podle příchozích odkazů a cesty; hrany drží směr odkazu.
   function render(el) {
     var path = el.getAttribute('data-okoli');
-    V.graph().then(function (G) {
+    Promise.all([V.graph(), J.ready()]).then(function (all) {
+      var G = all[0];
       var res = engineOf(G).run({ op: 'neighbourhood', path: path, depth: 1, limit: LIMIT });
       if (!res.ok) {
         if (res.error.code === 'unknown_path') {

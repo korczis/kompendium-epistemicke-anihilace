@@ -12,11 +12,17 @@
 //   jadro.run({ op: 'neighbourhood', path: 'glossary/gaslighting.md', depth: 2 });
 //
 // Čisté: žádné I/O, žádná výjimka; chybný požadavek i chybná data vrátí objekt chyby.
+//
+// The same engine in WebAssembly (crates/kompendium-engine, loader viz/jadro-wasm.js): create
+// uses it once the module is loaded and passed the loader's contract check (in a browser the
+// global KompendiumJadroWasm, in Node useWasm(require('./jadro-wasm.js'))). Otherwise, and for
+// a request the module cannot take, this JS engine answers. <html data-engine="wasm|js">
+// names the one that does.
 (function (root, factory) {
   'use strict';
-  if (typeof module === 'object' && module.exports) module.exports = factory();
-  else root.KompendiumJadro = factory();
-})(typeof self !== 'undefined' ? self : this, function () {
+  if (typeof module === 'object' && module.exports) module.exports = factory({});
+  else root.KompendiumJadro = factory(root);
+})(typeof self !== 'undefined' ? self : this, function (root) {
   'use strict';
 
   var SCHEMA = 'kompendium-engine/v1';
@@ -152,7 +158,50 @@
     return null;
   }
 
+  var wasmApi = null;
+
+  function wasm() {
+    return wasmApi || root.KompendiumJadroWasm || null;
+  }
+
+  function mark(kind) {
+    if (typeof document !== 'undefined' && document.documentElement) {
+      document.documentElement.dataset.engine = kind;
+    }
+  }
+
+  // The wasm engine when it is ready, else the JS engine (createJs).
   function create(search, graph) {
+    var W = wasm();
+    var fast = null;
+    try {
+      fast = W && W.ready() ? W.create(search, graph) : null;
+    } catch (e) {
+      fast = null;
+    }
+    if (!fast) {
+      mark('js');
+      return createJs(search, graph);
+    }
+    var slow = null;
+    mark('wasm');
+    return {
+      engine: 'wasm', normalise: normalise, tokens: tokens, eaCode: eaCode,
+      run: function (request) {
+        var out = null;
+        try {
+          out = fast.run(request);
+        } catch (e) {
+          out = null;
+        }
+        if (out) return out;
+        if (!slow) slow = createJs(search, graph);
+        return slow.run(request);
+      },
+    };
+  }
+
+  function createJs(search, graph) {
     var problem = checkData(search, graph);
     var nodes;
     var byPath;
@@ -317,8 +366,21 @@
       return op === 'search' ? runSearch(request) : runNeighbourhood(request);
     }
 
-    return { run: run, normalise: normalise, tokens: tokens, eaCode: eaCode };
+    return { engine: 'js', run: run, normalise: normalise, tokens: tokens, eaCode: eaCode };
   }
 
-  return { SCHEMA: SCHEMA, create: create, normalise: normalise, tokens: tokens, eaCode: eaCode };
+  // Settles once the wasm module has loaded or failed (at most READY_WAIT ms), so a caller that
+  // creates its engine after ready() gets the wasm engine whenever the module is usable. Without
+  // the wait, data that arrived before the module pinned the page to the JS engine.
+  var READY_WAIT = 3000;
+  function ready() {
+    var W = wasm();
+    var p = W && typeof W.loading === 'function' ? W.loading() : null;
+    if (!p) return Promise.resolve();
+    return Promise.race([p.then(function () {}, function () {}),
+      new Promise(function (done) { setTimeout(done, READY_WAIT); })]);
+  }
+
+  return { SCHEMA: SCHEMA, create: create, createJs: createJs, ready: ready, normalise: normalise,
+    tokens: tokens, eaCode: eaCode, useWasm: function (api) { wasmApi = api || null; } };
 });

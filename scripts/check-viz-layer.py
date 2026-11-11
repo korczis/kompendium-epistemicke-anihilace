@@ -62,7 +62,8 @@ RULES = [
     ("own text folding (use KompendiumJadro.normalise or KompendiumVrstva.slug)",
      r"\.normalize\(\s*['\"]NFK?D['\"]\s*\)", {"viz/jadro.js", "viz/vrstva.js"}),
     ("own data fetch (read through KompendiumVrstva.kniha, KompendiumViz or the engine)",
-     r"\bfetch\s*\(", {"kompendium/kniha.js", "viz/kompendium-viz.js", "site.js", "viz/paleta.js"}),
+     r"\bfetch\s*\(", {"kompendium/kniha.js", "viz/kompendium-viz.js", "site.js", "viz/paleta.js",
+      "viz/jadro-wasm.js"}),
 ]
 
 

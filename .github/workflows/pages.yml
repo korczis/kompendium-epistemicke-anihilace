@@ -122,9 +122,32 @@ jobs:
       - name: Smoke test
         run: |
           set -e
-          for path in "" kompendium/ kompendium/01-predmluva/ kompendium/techniques/ glossary/ references/ about/ tags/ galerie/ mapa/ stav/ search_index.cs.json data/graph.json data/metrics.json data/search.json data/nav.json data/terms.json data/viz-deps.json css/app.css js/site.js js/viz/kompendium-viz.js js/vendor/flowbite.min.js js/vendor/cytoscape.min.js js/vendor/echarts.min.js js/vendor/alpine.min.js img/og.png; do
+          for path in "" kompendium/ kompendium/01-predmluva/ kompendium/techniques/ glossary/ references/ about/ tags/ galerie/ mapa/ stav/ search_index.cs.json data/graph.json data/metrics.json data/search.json data/nav.json data/terms.json data/viz-deps.json css/app.css js/site.js js/viz/kompendium-viz.js js/viz/jadro.js js/viz/jadro-wasm.js wasm/kompendium_engine.wasm js/vendor/flowbite.min.js js/vendor/cytoscape.min.js js/vendor/echarts.min.js js/vendor/alpine.min.js img/og.png; do
             code="$(curl -s -o /dev/null -w '%{http_code}' "${BASE_URL}${path}")"
             echo "$code ${BASE_URL}${path}"
             test "$code" = 200
           done
           curl -fsS "${BASE_URL}" | grep -q 'Kompendium epistemické a kognitivní anihilace'
+      # The engine that answered the header search is the wasm build (ADR 0011): a page that
+      # silently fell back to the JS engine (module missing, failed contract check, MIME) fails
+      # here, not in a reader's browser. Browser only, no system packages (as in ci.yml).
+      - name: Header search answers through the wasm engine
+        run: |
+          set -e
+          mkdir -p "$RUNNER_TEMP/pw" && cd "$RUNNER_TEMP/pw"
+          npm install --no-save --silent playwright-core@1.63.0
+          npx playwright-core install chromium
+          node -e "
+          const { chromium } = require('playwright-core');
+          (async () => {
+            const b = await chromium.launch();
+            const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+            await p.goto(process.env.BASE_URL + 'glossary/', { waitUntil: 'load' });
+            await p.locator('[data-search-input]:visible').first().fill('gas');
+            await p.waitForFunction(() => document.documentElement.dataset.engine, null, { timeout: 20000 });
+            const engine = await p.evaluate(() => document.documentElement.dataset.engine);
+            await b.close();
+            if (engine !== 'wasm') { console.error('engine=' + engine + ' (expected wasm)'); process.exit(1); }
+            console.log('engine=wasm');
+          })().catch((e) => { console.error(e.message); process.exit(1); });
+          "

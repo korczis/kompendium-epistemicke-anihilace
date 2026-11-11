@@ -119,7 +119,7 @@
       });
     }
     dataPromise = Promise.all([fetchJson(body.getAttribute('data-search-index'), 'Rejstřík hledání'),
-      fetchJson(body.getAttribute('data-graph'), 'Graf knihy')]).then(function (res) {
+      fetchJson(body.getAttribute('data-graph'), 'Graf knihy'), J.ready()]).then(function (res) {
       var data = res[0];
       var engine = J.create(data, res[1]);
       var f = {};

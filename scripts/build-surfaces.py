@@ -76,7 +76,8 @@ GENERIC_VIEWS = {
 # neighbourhood engine (kompendium-engine/v1), kompendium-viz.js for
 # ECharts/cytoscape, kniha.js for Chart.js): not a view of a page. A view's canvas made through
 # the layer still counts, under the view's own script.
-NOT_VIEWS = {"viz/paleta", "viz/kompendium-viz", "viz/vrstva", "viz/jadro", "kompendium/kniha"}
+NOT_VIEWS = {"viz/paleta", "viz/kompendium-viz", "viz/vrstva", "viz/jadro", "viz/jadro-wasm",
+             "kompendium/kniha"}
 # A scenario that paints nothing covers only the view its interaction or Mermaid check names.
 INTERACT_VIEWS = {"kostka": "viz/kostka", "faseta": "viz/glosar", "rejstrik": "viz/rejstrik"}
 RENDER_CHECKS = ("painted", "count", "counts", "text")

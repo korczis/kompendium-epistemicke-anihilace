@@ -35,7 +35,8 @@ BEGIN = "<!-- kompendium:readme-oddily:begin -->"
 END = "<!-- kompendium:readme-oddily:end -->"
 NUMBERED = re.compile(r"^kompendium/\d\d-")
 
-# (icon, label, target content path, sections counted: list of graph section ids, or a regex)
+# (icon, label, target content path, sections counted: list of graph section ids, or a regex).
+# Katalogy sem nepatří: jejich řádky se odvozují z data/catalogs.toml (render()).
 ROWS = [
     ("📖", "Kapitoly", "kompendium/_index.md", NUMBERED),
     ("🧬", "Katalog technik", "kompendium/techniques/_index.md", ["kompendium/techniques"]),
@@ -45,7 +46,6 @@ ROWS = [
      ["kompendium/self-defense-guides", "kompendium/organizational-defense",
       "kompendium/prevention-resilience", "kompendium/recovery-protocols",
       "kompendium/emergency-protocols"]),
-    ("🗣️", "NLP vzorce", "kompendium/nlp-vzorce/_index.md", ["kompendium/nlp-vzorce"]),
     ("🔤", "Glosář", "glossary/_index.md", ["glossary"]),
     ("📊", "Vizualizace", "kompendium/visualizations/_index.md", None),
     ("🕸️", "Mapa knihy", "mapa.md", None),
@@ -99,13 +99,25 @@ def render():
         if not node["path"].endswith("_index.md"):
             sections[node["section"]] = sections.get(node["section"], 0) + 1
 
+    rows = list(ROWS)
+    # Katalogy (NLP vzorce, argumentační fauly, …) nejsou v ROWS: každý blok [[catalog]] v
+    # data/catalogs.toml dá vlastní řádek za obsahovými oddíly, takže nový katalog se v README
+    # objeví bez zásahu sem (project.content-catalogs).
+    catalogs = ROOT / "data" / "catalogs.toml"
+    if catalogs.exists():
+        declared = tomllib.loads(catalogs.read_text(encoding="utf-8")).get("catalog", [])
+        at = next(i for i, r in enumerate(rows) if r[2] == "glossary/_index.md")
+        for c in sorted(declared, key=lambda c: c.get("weight", 0)):
+            rows.insert(at, (c.get("icon", "📚"), c["title"], c["section"] + "/_index.md", [c["section"]]))
+            at += 1
+
     lines = [BEGIN,
              "<!-- Odvozuje scripts/build-readme.py z obsahu a static/data/; "
              "needitovat ručně. -->",
              "",
              "| | Oddíl | Obsah | Stránek |",
              "|:-:|---|---|--:|"]
-    for icon, label, target, counted in ROWS:
+    for icon, label, target, counted in rows:
         path = CONTENT / target
         if not path.exists():
             continue

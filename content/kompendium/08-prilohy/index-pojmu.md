@@ -95,11 +95,6 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 | **Fenomenologie** | Phenomenology [=] | [Bibliografie §II](@/kompendium/08-prilohy/bibliografie.md) | Husserlova metoda zkoumání struktur vědomí. |
 | **[Fúze horizontů](@/glossary/fuze-horizontu.md)** | Fusion of horizons [=] | [Bibliografie §II](@/kompendium/08-prilohy/bibliografie.md) | Gadamerův pojem: hermeneutické setkání. |
 
-## G
-
-| CS termín | EN ekvivalent | Lokace | Glosa |
-|-----------|---------------|--------|-------|
-
 ## H
 
 | CS termín | EN ekvivalent | Lokace | Glosa |

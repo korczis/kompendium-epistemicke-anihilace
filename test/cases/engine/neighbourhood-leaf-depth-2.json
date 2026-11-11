@@ -19,6 +19,11 @@
         "to": "glossary/taxonomie-ea.md"
       },
       {
+        "from": "glossary/_index.md",
+        "kind": "link",
+        "to": "kompendium/_index.md"
+      },
+      {
         "from": "glossary/epistemicka-anihilace.md",
         "kind": "link",
         "to": "glossary/nabla-infinity.md"
@@ -31,7 +36,7 @@
       {
         "from": "glossary/epistemicka-anihilace.md",
         "kind": "link",
-        "to": "kompendium/techniques/_index.md"
+        "to": "kompendium/_index.md"
       },
       {
         "from": "glossary/nabla-infinity.md",
@@ -51,7 +56,7 @@
       {
         "from": "glossary/taxonomie-ea.md",
         "kind": "link",
-        "to": "kompendium/techniques/_index.md"
+        "to": "kompendium/_index.md"
       },
       {
         "from": "kompendium/06-klinicke-aplikace/_index.md",
@@ -61,67 +66,57 @@
       {
         "from": "kompendium/06-klinicke-aplikace/_index.md",
         "kind": "link",
-        "to": "kompendium/techniques/_index.md"
+        "to": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"
       },
       {
-        "from": "kompendium/case-studies/_index.md",
+        "from": "kompendium/06-klinicke-aplikace/_index.md",
         "kind": "link",
-        "to": "kompendium/06-klinicke-aplikace/_index.md"
+        "to": "kompendium/_index.md"
       },
       {
-        "from": "kompendium/case-studies/_index.md",
-        "kind": "link",
-        "to": "kompendium/historical-cases/_index.md"
-      },
-      {
-        "from": "kompendium/case-studies/_index.md",
-        "kind": "link",
-        "to": "kompendium/techniques/_index.md"
-      },
-      {
-        "from": "kompendium/historical-cases/_index.md",
-        "kind": "link",
-        "to": "kompendium/techniques/_index.md"
-      },
-      {
-        "from": "kompendium/techniques/_index.md",
-        "kind": "link",
-        "to": "glossary/_index.md"
-      },
-      {
-        "from": "kompendium/techniques/_index.md",
+        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
         "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
-        "from": "kompendium/techniques/_index.md",
+        "from": "kompendium/_index.md",
         "kind": "link",
-        "to": "glossary/taxonomie-ea.md"
+        "to": "glossary/epistemicka-anihilace.md"
       },
       {
-        "from": "kompendium/techniques/_index.md",
+        "from": "kompendium/_index.md",
+        "kind": "link",
+        "to": "glossary/nabla-infinity.md"
+      },
+      {
+        "from": "kompendium/_index.md",
         "kind": "link",
         "to": "kompendium/06-klinicke-aplikace/_index.md"
       },
       {
-        "from": "kompendium/techniques/_index.md",
+        "from": "kompendium/_index.md",
         "kind": "link",
-        "to": "kompendium/case-studies/_index.md"
-      },
-      {
-        "from": "kompendium/techniques/_index.md",
-        "kind": "link",
-        "to": "kompendium/historical-cases/_index.md"
+        "to": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"
       },
       {
         "from": "mapa.md",
         "kind": "link",
         "to": "glossary/_index.md"
+      },
+      {
+        "from": "mapa.md",
+        "kind": "link",
+        "to": "kompendium/_index.md"
       },
       {
         "from": "mapa.md",
         "kind": "link",
         "to": "matice.md"
+      },
+      {
+        "from": "mapa.md",
+        "kind": "link",
+        "to": "osy.md"
       },
       {
         "from": "mapa.md",
@@ -132,21 +127,6 @@
         "from": "matice.md",
         "kind": "link",
         "to": "glossary/taxonomie-ea.md"
-      },
-      {
-        "from": "matice.md",
-        "kind": "link",
-        "to": "kompendium/case-studies/_index.md"
-      },
-      {
-        "from": "matice.md",
-        "kind": "link",
-        "to": "kompendium/historical-cases/_index.md"
-      },
-      {
-        "from": "matice.md",
-        "kind": "link",
-        "to": "kompendium/techniques/_index.md"
       },
       {
         "from": "matice.md",
@@ -157,6 +137,31 @@
         "from": "matice.md",
         "kind": "link",
         "to": "stav.md"
+      },
+      {
+        "from": "osy.md",
+        "kind": "link",
+        "to": "kompendium/_index.md"
+      },
+      {
+        "from": "osy.md",
+        "kind": "link",
+        "to": "mapa.md"
+      },
+      {
+        "from": "osy.md",
+        "kind": "link",
+        "to": "matice.md"
+      },
+      {
+        "from": "osy.md",
+        "kind": "link",
+        "to": "stav.md"
+      },
+      {
+        "from": "stav.md",
+        "kind": "link",
+        "to": "kompendium/_index.md"
       },
       {
         "from": "stav.md",
@@ -170,50 +175,36 @@
         "class": "root",
         "distance": 0,
         "in": 1,
-        "path": "matice.md",
-        "title": "Případy × techniky"
+        "path": "osy.md",
+        "title": "Osy knihy"
       },
       {
-        "class": "glossary",
+        "class": "kompendium",
         "distance": 1,
-        "in": 375,
-        "path": "glossary/taxonomie-ea.md",
-        "title": "Taxonomie EA"
-      },
-      {
-        "class": "kompendium/case-studies",
-        "distance": 1,
-        "in": 55,
-        "path": "kompendium/case-studies/_index.md",
-        "title": "Případové studie – anonymizované kompozity"
-      },
-      {
-        "class": "kompendium/techniques",
-        "distance": 1,
-        "in": 44,
-        "path": "kompendium/techniques/_index.md",
-        "title": "Techniques — detailní per-technique články"
-      },
-      {
-        "class": "kompendium/historical-cases",
-        "distance": 1,
-        "in": 18,
-        "path": "kompendium/historical-cases/_index.md",
-        "title": "Historické případy"
+        "in": 88,
+        "path": "kompendium/_index.md",
+        "title": "Kompendium epistemické a kognitivní anihilace"
       },
       {
         "class": "root",
         "distance": 1,
-        "in": 5,
+        "in": 6,
         "path": "mapa.md",
         "title": "Mapa knihy"
       },
       {
         "class": "root",
         "distance": 1,
-        "in": 3,
+        "in": 4,
         "path": "stav.md",
         "title": "Stav knihy"
+      },
+      {
+        "class": "root",
+        "distance": 1,
+        "in": 2,
+        "path": "matice.md",
+        "title": "Případy × techniky"
       },
       {
         "class": "glossary",
@@ -221,6 +212,13 @@
         "in": 603,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
+      },
+      {
+        "class": "glossary",
+        "distance": 2,
+        "in": 375,
+        "path": "glossary/taxonomie-ea.md",
+        "title": "Taxonomie EA"
       },
       {
         "class": "glossary",
@@ -242,19 +240,26 @@
         "in": 328,
         "path": "glossary/_index.md",
         "title": "Glosář"
+      },
+      {
+        "class": "kompendium/06-klinicke-aplikace",
+        "distance": 2,
+        "in": 294,
+        "path": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+        "title": "6.1 Diagnostické indikátory a markery EA"
       }
     ],
     "ok": true,
     "op": "neighbourhood",
-    "path": "matice.md",
+    "path": "osy.md",
     "schema": "kompendium-engine/v1",
-    "total": 548,
+    "total": 124,
     "truncated": true
   },
   "input": {
     "depth": 2,
     "limit": 10,
     "op": "neighbourhood",
-    "path": "matice.md"
+    "path": "osy.md"
   }
 }

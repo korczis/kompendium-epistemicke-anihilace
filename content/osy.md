@@ -11,3 +11,10 @@ tags = ["kompendium", "informacni-architektura", "navigace"]
 toc = false
 +++
 
+## Související
+
+- [Mapa knihy](@/mapa.md): síť odkazů mezi všemi stránkami.
+- [Případy × techniky](@/matice.md): které techniky se opakují napříč kazuistikami a historickými
+  případy.
+- [Stav knihy](@/stav.md): rozsah a provázanost knihy v číslech a grafech.
+- [Obsah kompendia](@/kompendium/_index.md): kapitoly a kolekce knihy.

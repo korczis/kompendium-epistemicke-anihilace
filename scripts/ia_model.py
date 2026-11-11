@@ -614,11 +614,17 @@ def figure_lines(prose: str) -> set:
     Real per-technique data is never byte-identical across pages; a line that is tells the
     caller it is template filler, whatever its wording. Compared verbatim apart from the
     surrounding whitespace, so a page that edits its own numbers drops out of the group.
+    A figure inside a cross-reference link — a case-study title such as "... po 12 letech" —
+    is a reference, not an asserted statistic, so link constructs are removed before the test;
+    a number stated in the row's own prose outside any link still counts.
     """
     found = set()
     for line in prose.splitlines():
         text = line.strip()
-        if len(text) < 12 or not FIGURE_ROW.match(text) or TABLE_SEP.match(text):
+        if not FIGURE_ROW.match(text) or TABLE_SEP.match(text):
+            continue
+        text = LINK_TEXT.sub("", text).strip()
+        if len(text) < 12:
             continue
         if FIGURE.search(PARAGRAPH_SIGN.sub(" ", text) if "§" in text else text):
             found.add(text)

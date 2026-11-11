@@ -70,4 +70,25 @@ listed
 hasnt case19-a
 has case19-b; has case19-c; has case19-d
 
+# A figure inside a cross-reference link is a reference, not an asserted statistic: the same
+# linked case-study title (whose only "figure" is "po 12 letech" in its label) on 3 technique
+# pages is NOT template filler. The identical figure stated in the row's own prose outside any
+# link still is — the fix must not blind the gate to that.
+reflink='- [Zotavení po kultu po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md) – dlouhodobý průběh.'
+prose='- Odstup po 12 letech, Cohenovo d = 0.92 v prospektivní kohortě.'
+for n in case19-e case19-f case19-g; do
+  page "$d" "$n" <<PAGE
+$reflink
+PAGE
+done
+listed
+hasnt case19-e; hasnt case19-f; hasnt case19-g   # figure lives only inside the cross-reference link
+for n in case19-e case19-f case19-g; do
+  page "$d" "$n" <<PAGE
+$prose
+PAGE
+done
+listed
+has case19-e; has case19-f; has case19-g         # same figure in the row's own prose is filler
+
 echo "template figures: identical numbers on 3+ technique pages are refused, unique ones are not"

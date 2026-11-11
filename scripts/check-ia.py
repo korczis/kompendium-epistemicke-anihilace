@@ -77,7 +77,10 @@ Requirements (id: what is checked):
                    filler: effect sizes, n, NNT, instrument cut-offs, session counts, detection
                    thresholds and recovery horizons were all pasted across unrelated techniques
                    (ADR 0006). A figure a page edits for itself leaves the group and passes.
-                   NEVER baselined; the worklist is keyed figure:<n>
+                   NEVER baselined. Not a worklist: `--list template-figure` names the pages
+                   that carry an identical line (a line to delete, not a page to write). A
+                   figure inside a cross-reference link does not count — only one in the row's
+                   own prose.
   platform-section no "Vztah k/ke <Prismatic component>" heading (Prismatic, Decision Engine,
                    NABLA/Nabla, ∇∞): the owner decided the book does not import from the Prismatic
                    platform (ADR 0007, 2026-11-11), so these integration sections — and the two

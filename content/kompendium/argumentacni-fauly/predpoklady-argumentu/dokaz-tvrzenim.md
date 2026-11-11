@@ -41,9 +41,9 @@ catalog_kompendium = ["kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni
 catalog_canonical = ""
 catalog_links_prose = ["glossary/cirkularni-argumentace.md", "kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene.md", "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md"]
 catalog_prev = "klam-utopenych-nakladu"
-catalog_next = ""
+catalog_next = "falesna-analogie"
 catalog_position = 20
-catalog_family_size = 20
+catalog_family_size = 23
 catalog_sources = ["govier-2010", "hasher-1977", "johnson-blair-1977", "langer-1978", "lifton-1961", "paul-matthews-2016", "petty-cacioppo-1986", "roozenbeek-2022", "toulmin-1958", "eemeren-grootendorst-1992"]
 catalog_sources_primary = ["govier-2010", "johnson-blair-1977", "toulmin-1958", "eemeren-grootendorst-1992"]
 catalog_sources_roots = []
@@ -230,5 +230,6 @@ projevem uvažování, ne nedůvěry.
 **V katalogu**
 
 - [Klam utopených nákladů](@/kompendium/argumentacni-fauly/predpoklady-argumentu/klam-utopenych-nakladu.md) – předchozí heslo rodiny
+- [Falešná analogie](@/kompendium/argumentacni-fauly/predpoklady-argumentu/falesna-analogie.md) – další heslo rodiny
 
 <!-- kompendium:katalog-vazby:end -->

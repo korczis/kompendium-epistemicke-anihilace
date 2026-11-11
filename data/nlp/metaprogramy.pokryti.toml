@@ -1,0 +1,37 @@
+# Rodina NLP-17: Metaprogramy, část pokryti (NLP-17.24).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Pořadí záznamů je pořadí
+# identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-17.24"
+slug = "zmena-metaprogramu"
+type = "pattern"
+cs = "Změna metaprogramů"
+en = "Changing meta-programs"
+aliases = ["přeprogramování metaprogramů", "změna třídicích vzorců", "meta-program change"]
+use = "dvoji"
+risk = "stredni"
+broader = "metaprogramy-pojem"
+related = ["k-cili-a-od-problemu", "vnitrni-a-vnejsi-reference", "metaprogramy-v-naboru", "terapie-casove-osy", "metaprogramy-v-marketingu", "nlp-v-koucinku"]
+kompendium = [
+  "kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md",
+  "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md",
+  "kompendium/organizational-defense/_index.md",
+  "kompendium/03-zakladni-kategorie/biasy/_index.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Tvůj profil ukázal vnitřní referenci, a to je v našem týmu problém. Do konce zkušební doby si ten metaprogram přenastav, jinak to spolu nepůjde."
+context = "Vedoucí týmu po firemním workshopu NLP hodnotí nového zaměstnance, který se ptá na důvody rozhodnutí."
+benign = false
+marker = "Sporný typologický profil se bere jako fakt, z vlastního úsudku se dělá porucha a „změna metaprogramu“ je zastřený požadavek na poslušnost pod hrozbou ztráty místa."
+response = "Žádat hodnocení podle konkrétní práce a ne podle typologie bez ověřené platnosti, ptát se, jaké chování se přesně očekává, a ponechat si právo na vlastní úsudek."
+
+[[pattern.trainer]]
+utterance = "Všiml jsem si, že v plánech vidím hlavně rizika a málo cíle. Rád bych se naučil u některých projektů začít tím, čeho chci dosáhnout, a uvidím, jestli mi to pomůže."
+context = "Inženýr popisuje kolegovi, co si odnesl z knihy o pracovních stylech."
+benign = true
+marker = "Mluvčí sám pojmenovává svůj zvyk a sám si volí, co chce vyzkoušet; změnu chápe jako pokus, ne jako přepis osobnosti."
+response = "Jde o neškodné užití: typologie slouží jako podnět k sebereflexi, změnu chování zvolil mluvčí a její přínos si ověří vlastní zkušeností."

@@ -35,7 +35,7 @@ catalog_broader = "milton-model"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["milton-model"]
-catalog_related = ["vyhybava-slova", "chunking", "transderivacni-hledani", "meta-model", "prosta-delece", "milton-model", "truismy", "syntakticka-dvojznacnost", "cteni-myslenek-milton", "nominalizace-milton", "nespecifikovana-slovesa-milton", "nespecifikovany-index-milton", "srovnavaci-delece-milton", "konfuzni-technika", "otevrena-sugesce", "obecne-a-specificke", "chunking-nahoru", "rozptylovac", "slovni-baliky", "nlp-v-politicke-reci", "guru-efekt", "hypnoticky-jazyk-online"]
+catalog_related = ["vyhybava-slova", "vagnost", "chunking", "transderivacni-hledani", "meta-model", "prosta-delece", "milton-model", "truismy", "syntakticka-dvojznacnost", "cteni-myslenek-milton", "nominalizace-milton", "nespecifikovana-slovesa-milton", "nespecifikovany-index-milton", "srovnavaci-delece-milton", "konfuzni-technika", "otevrena-sugesce", "obecne-a-specificke", "chunking-nahoru", "rozptylovac", "slovni-baliky", "nlp-v-politicke-reci", "guru-efekt", "hypnoticky-jazyk-online"]
 catalog_related_declared = ["nominalizace-milton", "nespecifikovana-slovesa-milton", "nespecifikovany-index-milton", "meta-model", "slovni-baliky", "otevrena-sugesce"]
 catalog_kompendium = ["kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md", "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/detection-signatures/1-linguistic-jargon-density.md"]
 catalog_canonical = ""
@@ -234,6 +234,7 @@ vlastního výkladu zkušenosti je jádrem zotavení z dlouhodobé kontroly (Her
 **Příbuzná hesla**
 
 - [Vyhýbavá slova](@/kompendium/argumentacni-fauly/jazykove-klamy/vyhybava-slova.md) – příbuzné heslo (Argumentační fauly: Klamy jazyka a dvojznačnosti, Weasel words)
+- [Zneužití vágnosti](@/kompendium/argumentacni-fauly/jazykove-klamy/vagnost.md) – příbuzné heslo (Argumentační fauly: Klamy jazyka a dvojznačnosti, Vagueness (misuse of a vague expression))
 - [Chunking](@/kompendium/nlp-vzorce/zakladni-pojmy/chunking.md) – příbuzné heslo (Základní pojmy NLP, Chunking)
 - [Transderivační hledání](@/kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md) – příbuzné heslo (Základní pojmy NLP, Transderivational search)
 - [Meta-model](@/kompendium/nlp-vzorce/meta-model/meta-model.md) – příbuzné heslo (Meta-model, Meta Model)

@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = ["zavadejici-zivost"]
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["nedovoleny-mensi-termin", "vina-asociaci", "prilis-siroke-zobecneni", "vyber-tresnicek", "zkresleni-preziti", "zkresleny-vyber", "zakon-malych-cisel", "klam-skladani", "vybirani-podivinu", "jeden-studie", "odvolani-na-anekdotu", "pravidlo-argumentacniho-schematu", "toulminuv-model", "univerzalni-kvantifikator"]
+catalog_related = ["nedovoleny-mensi-termin", "vina-asociaci", "prilis-siroke-zobecneni", "vyber-tresnicek", "falesna-analogie", "zkresleni-preziti", "zkresleny-vyber", "zakon-malych-cisel", "klam-skladani", "vybirani-podivinu", "jeden-studie", "odvolani-na-anekdotu", "pravidlo-argumentacniho-schematu", "toulminuv-model", "univerzalni-kvantifikator"]
 catalog_related_declared = ["prilis-siroke-zobecneni", "zakon-malych-cisel", "zkresleny-vyber", "odvolani-na-anekdotu", "univerzalni-kvantifikator", "vyber-tresnicek"]
 catalog_kompendium = ["kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/argumentacni-fauly/predpoklady-argumentu/pril
 catalog_prev = "zvlastni-vyjimka"
 catalog_next = "prilis-siroke-zobecneni"
 catalog_position = 7
-catalog_family_size = 20
+catalog_family_size = 23
 catalog_sources = ["damer-2009", "gilovich-1991", "hahn-oaksford-2007", "johnson-blair-1977", "kahneman-2011", "lifton-1961", "mill-1843", "popper-1959", "toulmin-1958", "tversky-kahneman-1971", "tversky-kahneman-1974", "walton-reed-macagno-2008", "eemeren-grootendorst-1992"]
 catalog_sources_primary = ["damer-2009", "johnson-blair-1977", "toulmin-1958", "walton-reed-macagno-2008", "eemeren-grootendorst-1992"]
 catalog_sources_roots = ["mill-1843", "popper-1959"]
@@ -229,6 +229,7 @@ snáze v úsudcích druhých než ve vlastních (Kahneman 2011).
 - [Vina asociací](@/kompendium/argumentacni-fauly/relevance/vina-asociaci.md) – příbuzné heslo (Klamy relevance, Guilt by association)
 - [Příliš široké zobecnění](@/kompendium/argumentacni-fauly/predpoklady-argumentu/prilis-siroke-zobecneni.md) – příbuzné heslo (Klamy předpokladu, Sweeping generalisation)
 - [Výběr třešniček](@/kompendium/argumentacni-fauly/predpoklady-argumentu/vyber-tresnicek.md) – příbuzné heslo (Klamy předpokladu, Cherry picking)
+- [Falešná analogie](@/kompendium/argumentacni-fauly/predpoklady-argumentu/falesna-analogie.md) – příbuzné heslo (Klamy předpokladu, False analogy)
 - [Zkreslení přežitím](@/kompendium/argumentacni-fauly/statisticke/zkresleni-preziti.md) – příbuzné heslo (Statistické a pravděpodobnostní klamy, Survivorship bias)
 - [Zkreslený výběr](@/kompendium/argumentacni-fauly/statisticke/zkresleny-vyber.md) – příbuzné heslo (Statistické a pravděpodobnostní klamy, Sampling bias)
 - [Zákon malých čísel](@/kompendium/argumentacni-fauly/statisticke/zakon-malych-cisel.md) – příbuzné heslo (Statistické a pravděpodobnostní klamy, Law of small numbers)

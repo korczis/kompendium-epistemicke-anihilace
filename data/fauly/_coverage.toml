@@ -1,17 +1,4 @@
-# Pokrytí standardních přehledů klamů (pravidlo project.content-catalogs). Každý [[term]] je
-# název, který uvádí standardní přehled oboru (díla v data/sources.toml), a vede buď na heslo
-# katalogu (`entry`, slug kteréhokoli katalogu, i kanonické heslo), nebo nese důvod, proč heslo
-# nemá (`excluded`, aspoň 40 znaků). scripts/catalogs.py --check odmítne název bez hesla i bez
-# důvodu, neznámé heslo nebo dílo mimo bibliografii; tabulku pokrytí na rozcestníku katalogu a
-# pole `coverage` v exportu odvozuje engine. Přehled se rozšiřuje přidáním dalších názvů, které
-# dílo prokazatelně uvádí – nikdy ne názvy, které dílo neobsahuje.
-#
-# Hamblin 1970 vykládá Aristotelových třináct sofistických vyvrácení (O sofistických důkazech)
-# i Lockovy argumenty „ad“; Copi, Cohen a McMahon 2014 je učebnicový přehled neformálních klamů
-# (relevance, vadná indukce, předpoklad, dvojznačnost) a pravidel sylogismu a hypotetických
-# úsudků.
-
-# --- Aristotelova vyvrácení závislá na řeči (in dictione) ------------------------------------
+# Pokrytí standardních přehledů klamů (pravidlo project.content-catalogs). Každý
 
 [[term]]
 name = "Ekvivokace (equivocation)"
@@ -42,8 +29,6 @@ entry = "klam-duraznu"
 name = "Tvar výrazu (form of expression, figura dictionis)"
 sources = ["hamblin-1970"]
 excluded = "Aristotelův klam stojí na řecké tvarosloví (rod, slovní druh, kategorie podle koncovky); mimo řečtinu nemá samostatný protějšek a jeho moderní příbuzné pokrývají hesla ekvivokace a reifikace."
-
-# --- Aristotelova vyvrácení nezávislá na řeči (extra dictionem) ------------------------------
 
 [[term]]
 name = "Nahodilost (accident)"
@@ -80,8 +65,6 @@ name = "Mnoho otázek (many questions, complex question)"
 sources = ["hamblin-1970", "copi-cohen-mcmahon-2014"]
 entry = "slozena-otazka"
 
-# --- Lockovy argumenty „ad“ ------------------------------------------------------------------
-
 [[term]]
 name = "Argumentum ad verecundiam (nepatřičná autorita)"
 sources = ["hamblin-1970", "copi-cohen-mcmahon-2014"]
@@ -101,8 +84,6 @@ entry = "ad-hominem"
 name = "Argumentum ad judicium"
 sources = ["hamblin-1970"]
 excluded = "Locke jím označuje řádný argument z důkazu, který staví proti třem klamným argumentům „ad“; sám klamem není, a proto v katalogu klamů nemá heslo."
-
-# --- Copi, Cohen a McMahon: klamy relevance, vadné indukce a předpokladu ----------------------
 
 [[term]]
 name = "Odvolání na dav (appeal to the populace, ad populum)"
@@ -133,8 +114,6 @@ entry = "odvolani-na-silu"
 name = "Falešná příčina (false cause, post hoc)"
 sources = ["copi-cohen-mcmahon-2014"]
 entry = "post-hoc"
-
-# --- Copi, Cohen a McMahon: pravidla sylogismu a hypotetické úsudky --------------------------
 
 [[term]]
 name = "Popření předchůdce (denying the antecedent)"
@@ -175,3 +154,328 @@ entry = "kladny-zaver-ze-zaporne-premisy"
 name = "Existenční klam (existential fallacy)"
 sources = ["copi-cohen-mcmahon-2014"]
 entry = "existencni-klam"
+
+[[term]]
+name = "Irrelevant Conclusion (2.6)"
+sources = ["tindale-2007"]
+entry = "irelevantni-zaver"
+
+[[term]]
+name = "Fallacies of Distribution (3.2)"
+sources = ["tindale-2007"]
+excluded = "Umbrella heading over the syllogism rules already covered (undistributed middle, illicit major and minor)"
+
+[[term]]
+name = "Vagueness (4.4)"
+sources = ["tindale-2007"]
+entry = "vagnost"
+
+[[term]]
+name = "Argumentum Ad Misericordiam (6.4)"
+sources = ["tindale-2007"]
+entry = "odvolani-na-soucit"
+
+[[term]]
+name = "Fallacy of Insufficient Statistics (8.5)"
+sources = ["tindale-2007"]
+entry = "ukvapene-zobecneni"
+
+[[term]]
+name = "Fallacy of Biased Statistics (8.6)"
+sources = ["tindale-2007"]
+entry = "zkresleny-vyber"
+
+[[term]]
+name = "Measurement Errors (8.7)"
+sources = ["tindale-2007"]
+excluded = "Methodological error in data, not a pattern of argument"
+
+[[term]]
+name = "The Argument from Consequences (9.4)"
+sources = ["tindale-2007"]
+entry = "odvolani-na-dusledky"
+
+[[term]]
+name = "The Fallacy of the Slippery Slope (9.5)"
+sources = ["tindale-2007"]
+entry = "kluzky-svah"
+
+[[term]]
+name = "False Analogy (10.2)"
+sources = ["tindale-2007"]
+entry = "falesna-analogie"
+
+[[term]]
+name = "Fallacious Appeal to Precedent (10.3)"
+sources = ["tindale-2007"]
+entry = "odvolani-na-precedent"
+
+[[term]]
+name = "Two Wrongs by Analogy (10.4)"
+sources = ["tindale-2007"]
+entry = "dve-kriva-jedno-pravo"
+
+[[term]]
+name = "Fallacies of Simple Inspection, or a priori Fallacies (III)"
+sources = ["mill-1843"]
+excluded = "Millovo souhrnné záhlaví třídy klamů a priori, nikoli jednotlivý klam; jeho jednotlivé případy pokrývají jiná hesla katalogu"
+
+[[term]]
+name = "\"what is inconceivable must be false\" (III §3)"
+sources = ["mill-1843"]
+entry = "argument-z-neuveritelnosti"
+
+[[term]]
+name = "Ascribing objective existence to abstractions (III §4)"
+sources = ["mill-1843"]
+entry = "reifikace"
+
+[[term]]
+name = "Fallacy of the Sufficient Reason (III §5)"
+sources = ["mill-1843"]
+excluded = "Metaphysical a priori reasoning, not a pattern of everyday argument"
+
+[[term]]
+name = "Differences in nature correspond to distinctions in language (III §6)"
+sources = ["mill-1843"]
+excluded = "A prejudice about classification; nearest reifikace"
+
+[[term]]
+name = "A phenomenon cannot have more than one cause (III §7)"
+sources = ["mill-1843"]
+entry = "jedina-pricina"
+
+[[term]]
+name = "Mal-observation (IV §5)"
+sources = ["mill-1843"]
+excluded = "Chyba vnímání a pozorování, nikoli chyba úsudku z premis; katalog klamů argumentace ji proto nevede jako heslo"
+
+[[term]]
+name = "Fallacy of mistaking empirical for causal laws (V §4)"
+sources = ["mill-1843"]
+entry = "korelace-a-kauzalita"
+
+[[term]]
+name = "Fallacy of False Analogies (V §6)"
+sources = ["mill-1843"]
+entry = "falesna-analogie"
+
+[[term]]
+name = "Fallacies in the conversion … of propositions (VI §2)"
+sources = ["mill-1843"]
+entry = "nedovolena-konverze"
+
+[[term]]
+name = "Fallacy of changing the premisses (VI §4)"
+sources = ["mill-1843"]
+excluded = "Mill's term for shifting premises mid-argument; nearest posouvani-branek"
+
+[[term]]
+name = "Fallacy of Ambiguous Terms (VII §1)"
+sources = ["mill-1843"]
+entry = "ekvivokace"
+
+[[term]]
+name = "The Wisdom of our Ancestors, or Chinese Argument, ad verecundiam (I.2)"
+sources = ["bentham-1824"]
+entry = "odvolani-na-starobylost"
+
+[[term]]
+name = "Fallacy of irrevocable Laws (I.3.1)"
+sources = ["bentham-1824"]
+excluded = "A political-procedural argument about legislation"
+
+[[term]]
+name = "Fallacy of Vows or promissory Oaths (I.3.2)"
+sources = ["bentham-1824"]
+excluded = "Benthamův klam parlamentní a politické debaty (odklad, obstrukce, obhajoba privilegií), vázaný na politickou proceduru; katalog obecných klamů argumentace ho jako samostatné heslo nevede"
+
+[[term]]
+name = "The Self-trumpeter's Fallacy (I.5.2)"
+sources = ["bentham-1824"]
+excluded = "A politician's self-praise; no general counterpart"
+
+[[term]]
+name = "Laudatory Personalities, ad amicitiam (I.6)"
+sources = ["bentham-1824"]
+excluded = "An inverted ad hominem; too narrow for an entry"
+
+[[term]]
+name = "Vituperative Personalities, ad odium (II.1)"
+sources = ["bentham-1824"]
+entry = "ad-hominem"
+
+[[term]]
+name = "Imputation of suspicious connections, noscitur ex sociis (II.1.5)"
+sources = ["bentham-1824"]
+entry = "vina-asociaci"
+
+[[term]]
+name = "Official Malefactor's Screen, \"Attack us, you attack Government\" (II.4)"
+sources = ["bentham-1824"]
+excluded = "Political shielding by identification with the state"
+
+[[term]]
+name = "Accusation-scarer's Device (II.5)"
+sources = ["bentham-1824"]
+excluded = "Deterring accusations by threatening the accuser with infamy"
+
+[[term]]
+name = "The Quietist, or \"No Complaint\" (III.1)"
+sources = ["bentham-1824"]
+excluded = "Benthamův klam parlamentní a politické debaty (odklad, obstrukce, obhajoba privilegií), vázaný na politickou proceduru; katalog obecných klamů argumentace ho jako samostatné heslo nevede"
+
+[[term]]
+name = "Fallacy of False-consolation (III.2)"
+sources = ["bentham-1824"]
+entry = "falesna-utecha"
+
+[[term]]
+name = "Procrastinator's Argument (III.3)"
+sources = ["bentham-1824"]
+excluded = "Benthamův klam parlamentní a politické debaty (odklad, obstrukce, obhajoba privilegií), vázaný na politickou proceduru; katalog obecných klamů argumentace ho jako samostatné heslo nevede"
+
+[[term]]
+name = "Snail's-pace Argument (III.4)"
+sources = ["bentham-1824"]
+excluded = "Benthamův klam parlamentní a politické debaty (odklad, obstrukce, obhajoba privilegií), vázaný na politickou proceduru; katalog obecných klamů argumentace ho jako samostatné heslo nevede"
+
+[[term]]
+name = "Fallacy of artful Diversion (III.5)"
+sources = ["bentham-1824"]
+entry = "cerveny-sled"
+
+[[term]]
+name = "Question-begging Appellatives (IV.1)"
+sources = ["bentham-1824"]
+entry = "nabity-jazyk"
+
+[[term]]
+name = "Vague Generalities (IV.3)"
+sources = ["bentham-1824"]
+entry = "vagnost"
+
+[[term]]
+name = "Sham Distinctions (IV.6)"
+sources = ["bentham-1824"]
+entry = "rozliseni-bez-rozdilu"
+
+[[term]]
+name = "Popular Corruption, ad superbiam (IV.7)"
+sources = ["bentham-1824"]
+excluded = "Benthamův klam parlamentní a politické debaty (odklad, obstrukce, obhajoba privilegií), vázaný na politickou proceduru; katalog obecných klamů argumentace ho jako samostatné heslo nevede"
+
+[[term]]
+name = "Anti-rational Fallacies, incl. \"Good in theory, bad in practice\" (IV.9)"
+sources = ["bentham-1824"]
+excluded = "Political; the closest general pattern is not in the catalogue"
+
+[[term]]
+name = "Paradoxical Assertion (IV.10)"
+sources = ["bentham-1824"]
+excluded = "Benthamův klam parlamentní a politické debaty (odklad, obstrukce, obhajoba privilegií), vázaný na politickou proceduru; katalog obecných klamů argumentace ho jako samostatné heslo nevede"
+
+[[term]]
+name = "Non-causa pro causâ: Cause and Obstacle confounded (IV.11)"
+sources = ["bentham-1824"]
+excluded = "A narrow case of false cause, like Aristotle's non causa (already excluded)"
+
+[[term]]
+name = "Partiality-preacher's Argument, \"From the abuse argue not against the use\" (IV.12)"
+sources = ["bentham-1824"]
+excluded = "Benthamův klam parlamentní a politické debaty (odklad, obstrukce, obhajoba privilegií), vázaný na politickou proceduru; katalog obecných klamů argumentace ho jako samostatné heslo nevede"
+
+[[term]]
+name = "The End justifies the Means (IV.13)"
+sources = ["bentham-1824"]
+excluded = "An ethical maxim, not an argument pattern"
+
+[[term]]
+name = "4 Appeals to emotion"
+sources = ["walton-2008"]
+entry = "odvolani-na-emoce"
+
+[[term]]
+name = "6 Personal attack in argumentation"
+sources = ["walton-2008"]
+entry = "ad-hominem"
+
+[[term]]
+name = "7 Appeals to authority"
+sources = ["walton-2008"]
+entry = "odvolani-na-autoritu"
+
+[[term]]
+name = "8 Inductive errors, bias, and fallacies"
+sources = ["walton-2008"]
+excluded = "Souhrnná kapitola o induktivních chybách; jednotlivé klamy, které obsahuje, pokrývají hesla ukvapené zobecnění, zkreslený výběr a další"
+
+[[term]]
+name = "Naturalistic fallacy"
+sources = ["moore-1903"]
+entry = "naturalisticky-klam"
+
+[[term]]
+name = "Conjunction fallacy"
+sources = ["tversky-kahneman-1983"]
+entry = "klam-konjunkce"
+
+[[term]]
+name = "Law of small numbers"
+sources = ["tversky-kahneman-1971"]
+entry = "zakon-malych-cisel"
+
+[[term]]
+name = "Hot hand (misperception of random sequences)"
+sources = ["gilovich-vallone-tversky-1985"]
+entry = "horka-ruka"
+
+[[term]]
+name = "Sunk cost"
+sources = ["arkes-blumer-1985"]
+entry = "klam-utopenych-nakladu"
+
+[[term]]
+name = "The prosecutor's fallacy"
+sources = ["thompson-schumann-1987"]
+entry = "klam-zalobce"
+
+[[term]]
+name = "The defense attorney's fallacy"
+sources = ["thompson-schumann-1987"]
+entry = "klam-obhajce"
+
+[[term]]
+name = "Incoherence"
+sources = ["roozenbeek-2022"]
+entry = "nekonzistence"
+
+[[term]]
+name = "False dichotomies"
+sources = ["roozenbeek-2022"]
+entry = "falesne-dilema"
+
+[[term]]
+name = "Scapegoating"
+sources = ["roozenbeek-2022"]
+excluded = "Propagandistická technika hledání obětního beránka, nikoli forma chybného úsudku z premis; katalog klamů argumentace ji proto nevede jako heslo"
+
+[[term]]
+name = "Ad hominem attacks"
+sources = ["roozenbeek-2022"]
+entry = "ad-hominem"
+
+[[term]]
+name = "False balance"
+sources = ["cook-lewandowsky-ecker-2017"]
+entry = "falesna-vyvazenost"
+
+[[term]]
+name = "Balance as bias"
+sources = ["boykoff-boykoff-2004"]
+entry = "falesna-vyvazenost"
+
+[[term]]
+name = "Firehose of Falsehood"
+sources = ["paul-matthews-2016"]
+entry = "palba-nepravd"

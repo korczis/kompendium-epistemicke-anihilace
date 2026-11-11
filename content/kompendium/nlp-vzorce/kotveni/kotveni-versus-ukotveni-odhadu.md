@@ -41,9 +41,9 @@ catalog_kompendium = ["kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "k
 catalog_canonical = ""
 catalog_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "kompendium/nlp-vzorce/kotveni/kotveni.md", "kompendium/nlp-vzorce/kriticke-hodnoceni/jak-cist-tvrzeni-nlp.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md", "kompendium/techniques/ea-7-3-1-kahneman-system12.md", "kompendium/techniques/ea-7-3-2-tversky-heuristics.md"]
 catalog_prev = "kotveni-v-kontrolujicich-vztazich"
-catalog_next = ""
+catalog_next = "skryte-kotveni"
 catalog_position = 19
-catalog_family_size = 19
+catalog_family_size = 20
 catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "druckman-swets-1988", "gilovich-1991", "kahneman-2011", "pavlov-1927", "roderique-davies-2009", "tversky-kahneman-1974", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1979"]
 catalog_sources_roots = ["pavlov-1927"]
@@ -239,5 +239,6 @@ druhý.
 **V katalogu**
 
 - [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – předchozí heslo rodiny
+- [Skryté kotvení](@/kompendium/nlp-vzorce/kotveni/skryte-kotveni.md) – další heslo rodiny
 
 <!-- kompendium:katalog-vazby:end -->

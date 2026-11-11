@@ -2136,10 +2136,10 @@
     "static/data/viz-deps.json"
    ],
    "generic_views": {
-    "viz/okoli": 140
+    "viz/okoli": 147
    },
    "libraries": [],
-   "pages": 150,
+   "pages": 157,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -2208,13 +2208,13 @@
    ],
    "status": "covered",
    "templates": {
-    "kompendium/page.html": 140,
+    "kompendium/page.html": 147,
     "kompendium/section.html": 10
    },
    "views": {
     "mermaid": 9,
     "viz/katalog": 10,
-    "viz/katalog-ilustrace": 150
+    "viz/katalog-ilustrace": 157
    }
   },
   "kompendium/case-studies": {
@@ -3279,10 +3279,10 @@
     "static/data/viz-deps.json"
    ],
    "generic_views": {
-    "viz/okoli": 413
+    "viz/okoli": 420
    },
    "libraries": [],
-   "pages": 436,
+   "pages": 443,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -3363,13 +3363,13 @@
    ],
    "status": "covered",
    "templates": {
-    "kompendium/page.html": 413,
+    "kompendium/page.html": 420,
     "kompendium/section.html": 23
    },
    "views": {
     "mermaid": 22,
     "viz/katalog": 23,
-    "viz/katalog-ilustrace": 436
+    "viz/katalog-ilustrace": 443
    }
   },
   "kompendium/organizational-defense": {

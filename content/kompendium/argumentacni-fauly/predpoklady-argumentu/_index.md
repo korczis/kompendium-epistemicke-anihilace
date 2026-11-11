@@ -20,8 +20,8 @@ catalog_export = "data/fauly-katalog.json"
 catalog_family = "predpoklady-argumentu"
 catalog_code = "03"
 catalog_en = "Fallacies of presumption"
-catalog_size = 20
-catalog_members = ["kruhovy-argument", "sugestivni-otazka", "falesne-dilema", "slozena-otazka", "zadny-pravy-skot", "zvlastni-vyjimka", "ukvapene-zobecneni", "prilis-siroke-zobecneni", "vyber-tresnicek", "falesna-ekvivalence", "zamlceni-dukazu", "falesny-kompromis", "nefalzifikovatelnost", "posouvani-branek", "presun-dukazniho-bremene", "nirvana-klam", "argument-z-neuveritelnosti", "kluzky-svah", "klam-utopenych-nakladu", "dokaz-tvrzenim"]
+catalog_size = 23
+catalog_members = ["kruhovy-argument", "sugestivni-otazka", "falesne-dilema", "slozena-otazka", "zadny-pravy-skot", "zvlastni-vyjimka", "ukvapene-zobecneni", "prilis-siroke-zobecneni", "vyber-tresnicek", "falesna-ekvivalence", "zamlceni-dukazu", "falesny-kompromis", "nefalzifikovatelnost", "posouvani-branek", "presun-dukazniho-bremene", "nirvana-klam", "argument-z-neuveritelnosti", "kluzky-svah", "klam-utopenych-nakladu", "dokaz-tvrzenim", "falesna-analogie", "odvolani-na-precedent", "nekonzistence"]
 catalog_types = ["informal", "tactic"]
 catalog_sources = ["cook-lewandowsky-ecker-2017", "copi-cohen-mcmahon-2014", "damer-2009", "hahn-oaksford-2007", "hamblin-1970", "johnson-blair-1977", "nickerson-1998", "popper-1959", "roozenbeek-2022", "tversky-kahneman-1974", "walton-1995", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 +++
@@ -184,6 +184,9 @@ s neškodným kontrastem, který ukazuje platné užití téhož tvaru.
 | `AF-03.18` | [Kluzký svah](@/kompendium/argumentacni-fauly/predpoklady-argumentu/kluzky-svah.md) | Slippery slope | neformální klam | chyba i taktika | střední |
 | `AF-03.19` | [Klam utopených nákladů](@/kompendium/argumentacni-fauly/predpoklady-argumentu/klam-utopenych-nakladu.md) | Sunk cost fallacy | neformální klam | chyba i taktika | vysoké |
 | `AF-03.20` | [Důkaz tvrzením](@/kompendium/argumentacni-fauly/predpoklady-argumentu/dokaz-tvrzenim.md) | Proof by assertion | rétorická taktika | převážně záměrná taktika | střední |
+| `AF-03.21` | [Falešná analogie](@/kompendium/argumentacni-fauly/predpoklady-argumentu/falesna-analogie.md) | False analogy | neformální klam | chyba i taktika | střední |
+| `AF-03.22` | [Klamné odvolání na precedent](@/kompendium/argumentacni-fauly/predpoklady-argumentu/odvolani-na-precedent.md) | Fallacious appeal to precedent | neformální klam | chyba i taktika | střední |
+| `AF-03.23` | [Nekonzistence](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nekonzistence.md) | Inconsistency | neformální klam | chyba i taktika | střední |
 
 ## Mapa rodiny
 
@@ -213,6 +216,9 @@ flowchart LR
   n18["Kluzký svah"]
   n19["Klam utopených nákladů"]
   n20["Důkaz tvrzením"]
+  n21["Falešná analogie"]
+  n22["Klamné odvolání na precedent"]
+  n23["Nekonzistence"]
   F --> n1
   F --> n2
   F --> n3
@@ -233,6 +239,9 @@ flowchart LR
   F --> n18
   F --> n19
   F --> n20
+  F --> n21
+  n21 --> n22
+  F --> n23
   click n1 "@/glossary/cirkularni-argumentace.md"
   click n2 "@/kompendium/argumentacni-fauly/predpoklady-argumentu/sugestivni-otazka.md"
   click n3 "@/kompendium/techniques/ea-1-2-1-falesne-dilema.md"
@@ -253,6 +262,9 @@ flowchart LR
   click n18 "@/kompendium/argumentacni-fauly/predpoklady-argumentu/kluzky-svah.md"
   click n19 "@/kompendium/argumentacni-fauly/predpoklady-argumentu/klam-utopenych-nakladu.md"
   click n20 "@/kompendium/argumentacni-fauly/predpoklady-argumentu/dokaz-tvrzenim.md"
+  click n21 "@/kompendium/argumentacni-fauly/predpoklady-argumentu/falesna-analogie.md"
+  click n22 "@/kompendium/argumentacni-fauly/predpoklady-argumentu/odvolani-na-precedent.md"
+  click n23 "@/kompendium/argumentacni-fauly/predpoklady-argumentu/nekonzistence.md"
 ```
 
 <!-- kompendium:katalog-vazby:end -->

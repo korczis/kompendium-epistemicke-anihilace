@@ -35,7 +35,7 @@ catalog_broader = "metaprogramy-pojem"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["metaprogramy-pojem"]
-catalog_related = ["metaprogramy-pojem", "kriteria", "kanal-presvedceni", "ja-a-druzi", "struktura-pravidel", "metaprogramy-v-naboru", "nlp-v-sektach", "guru-efekt"]
+catalog_related = ["metaprogramy-pojem", "kriteria", "kanal-presvedceni", "ja-a-druzi", "struktura-pravidel", "metaprogramy-v-naboru", "zmena-metaprogramu", "nlp-v-sektach", "guru-efekt"]
 catalog_related_declared = ["guru-efekt", "kriteria", "kanal-presvedceni", "ja-a-druzi", "nlp-v-sektach"]
 catalog_kompendium = ["kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", 
 catalog_prev = "k-cili-a-od-problemu"
 catalog_next = "moznosti-a-postupy"
 catalog_position = 2
-catalog_family_size = 23
+catalog_family_size = 24
 catalog_sources = ["charvet-1997", "cialdini-2009", "druckman-swets-1988", "hall-bodenhamer-1997", "hassan-1988", "herman-1992", "lifton-1961", "oconnor-seymour-1990", "rogers-1951", "sharpley-1987", "singer-lalich-1995", "witkowski-2010"]
 catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997", "oconnor-seymour-1990"]
 catalog_sources_roots = []
@@ -223,6 +223,7 @@ Lalich 1995).
 - [Já a druzí](@/kompendium/nlp-vzorce/metaprogramy/ja-a-druzi.md) – příbuzné heslo (Metaprogramy, Self and other)
 - [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – příbuzné heslo (Metaprogramy, Rule structure)
 - [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – příbuzné heslo (Metaprogramy, Meta-programs in recruitment and management)
+- [Změna metaprogramů](@/kompendium/nlp-vzorce/metaprogramy/zmena-metaprogramu.md) – příbuzné heslo (Metaprogramy, Changing meta-programs)
 - [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in cults)
 - [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)
 

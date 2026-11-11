@@ -35,7 +35,7 @@ catalog_broader = "kotveni"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["kotveni"]
-catalog_related = ["stohovani-kotev", "auditivni-kotvy", "kotvy-v-prezentaci", "raport-se-skupinou", "nlp-v-sektach", "guru-efekt", "velke-seminare"]
+catalog_related = ["stohovani-kotev", "auditivni-kotvy", "kotvy-v-prezentaci", "skryte-kotveni", "raport-se-skupinou", "nlp-v-sektach", "guru-efekt", "velke-seminare"]
 catalog_related_declared = ["raport-se-skupinou", "velke-seminare", "guru-efekt", "nlp-v-sektach", "kotvy-v-prezentaci", "auditivni-kotvy"]
 catalog_kompendium = ["kompendium/05-kolektivni-rozmer/_index.md", "kompendium/techniques/ea-8-2-3-singer-six-conditions.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md", "kompendium/case-studies/06-cult-recovery-12-let.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/05-kolektivni-rozmer/_index.md", "kompendium/
 catalog_prev = "testovani-kotvy"
 catalog_next = "kotvy-v-reklame"
 catalog_position = 15
-catalog_family_size = 19
+catalog_family_size = 20
 catalog_sources = ["bandler-grinder-1979", "chartrand-bargh-1999", "cialdini-2009", "hassan-1988", "lifton-1961", "mcguire-1964", "oconnor-seymour-1990", "pavlov-1927", "singer-lalich-1995", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1979", "oconnor-seymour-1990"]
 catalog_sources_roots = ["pavlov-1927"]
@@ -232,6 +232,7 @@ například terapeuta se zkušeností s následky pobytu v manipulativních skup
 - [Vrstvení kotev](@/kompendium/nlp-vzorce/kotveni/stohovani-kotev.md) – příbuzné heslo (Kotvení, Stacking anchors)
 - [Auditivní a tonální kotvy](@/kompendium/nlp-vzorce/kotveni/auditivni-kotvy.md) – příbuzné heslo (Kotvení, Auditory and tonal anchors)
 - [Kotvy v prezentaci a vystoupení](@/kompendium/nlp-vzorce/kotveni/kotvy-v-prezentaci.md) – příbuzné heslo (Kotvení, Anchors in presentations)
+- [Skryté kotvení](@/kompendium/nlp-vzorce/kotveni/skryte-kotveni.md) – příbuzné heslo (Kotvení, Covert anchoring)
 - [Raport se skupinou](@/kompendium/nlp-vzorce/raport-a-kalibrace/raport-se-skupinou.md) – příbuzné heslo (Raport a kalibrace, Group rapport)
 - [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in cults)
 - [Efekt guru na seminářích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/guru-efekt.md) – příbuzné heslo (Vliv a zneužití NLP, Guru effect in seminars)

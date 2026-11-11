@@ -35,7 +35,7 @@ catalog_broader = "formalni-klam"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["formalni-klam"]
-catalog_related = ["formalni-klam", "popreni-predchudce", "nerozlozeny-stredni-termin", "post-hoc", "zanedbani-zakladni-miry", "klam-zalobce", "pravidlo-platnosti", "argumentacni-schemata", "pricina-a-nasledek"]
+catalog_related = ["formalni-klam", "popreni-predchudce", "nerozlozeny-stredni-termin", "nedovolena-konverze", "post-hoc", "zanedbani-zakladni-miry", "klam-zalobce", "pravidlo-platnosti", "argumentacni-schemata", "pricina-a-nasledek"]
 catalog_related_declared = ["popreni-predchudce", "klam-zalobce", "zanedbani-zakladni-miry", "post-hoc", "pricina-a-nasledek", "argumentacni-schemata"]
 catalog_kompendium = ["kompendium/forensic-legal/_index.md", "kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/argumentacni-fauly/formalni/popreni-predchudc
 catalog_prev = "formalni-klam"
 catalog_next = "popreni-predchudce"
 catalog_position = 2
-catalog_family_size = 15
+catalog_family_size = 16
 catalog_sources = ["copi-cohen-mcmahon-2014", "damer-2009", "gigerenzer-2002", "grice-1975", "hahn-oaksford-2007", "hamblin-1970", "nickerson-1998", "popper-1959", "thompson-schumann-1987", "tversky-kahneman-1974", "vrij-2008", "walton-reed-macagno-2008", "wiseman-2012", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "hamblin-1970", "walton-reed-macagno-2008", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["grice-1975", "popper-1959"]
@@ -231,6 +231,7 @@ věcným důkazům (van Eemeren a Grootendorst 2004).
 - [Formální klam](@/kompendium/argumentacni-fauly/formalni/formalni-klam.md) – příbuzné heslo (Formální klamy, Formal fallacy)
 - [Popření předchůdce](@/kompendium/argumentacni-fauly/formalni/popreni-predchudce.md) – příbuzné heslo (Formální klamy, Denying the antecedent)
 - [Nerozložený střední termín](@/kompendium/argumentacni-fauly/formalni/nerozlozeny-stredni-termin.md) – příbuzné heslo (Formální klamy, Undistributed middle)
+- [Nedovolená konverze](@/kompendium/argumentacni-fauly/formalni/nedovolena-konverze.md) – příbuzné heslo (Formální klamy, Illicit conversion)
 - [Po tom, tedy kvůli tomu](@/kompendium/argumentacni-fauly/kauzalni/post-hoc.md) – příbuzné heslo (Kauzální klamy, Post hoc ergo propter hoc)
 - [Zanedbání základní míry](@/kompendium/argumentacni-fauly/statisticke/zanedbani-zakladni-miry.md) – příbuzné heslo (Statistické a pravděpodobnostní klamy, Base-rate neglect)
 - [Klam žalobce](@/kompendium/argumentacni-fauly/statisticke/klam-zalobce.md) – příbuzné heslo (Statistické a pravděpodobnostní klamy, Prosecutor's fallacy)

@@ -32,7 +32,7 @@ catalog_use_cs = "výkladový pojem"
 catalog_risk = "nizke"
 catalog_risk_cs = "nízké"
 catalog_broader = ""
-catalog_narrower = ["potvrzeni-dusledku", "popreni-predchudce", "nerozlozeny-stredni-termin", "nedovoleny-vetsi-termin", "nedovoleny-mensi-termin", "ctyri-terminy", "existencni-klam", "potvrzeni-disjunktu", "vylucujici-premisy", "zamena-kvantifikatoru", "klam-modalniho-rozsahu", "klam-maskovaneho-muze", "klam-klamu", "kladny-zaver-ze-zaporne-premisy"]
+catalog_narrower = ["potvrzeni-dusledku", "popreni-predchudce", "nerozlozeny-stredni-termin", "nedovoleny-vetsi-termin", "nedovoleny-mensi-termin", "ctyri-terminy", "existencni-klam", "potvrzeni-disjunktu", "vylucujici-premisy", "zamena-kvantifikatoru", "klam-modalniho-rozsahu", "klam-maskovaneho-muze", "klam-klamu", "kladny-zaver-ze-zaporne-premisy", "nedovolena-konverze"]
 catalog_depth = 0
 catalog_ancestors = []
 catalog_related = ["potvrzeni-dusledku", "nerozlozeny-stredni-termin", "ctyri-terminy", "klam-klamu", "pravidlo-platnosti", "som-protipriklad"]
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/07-teoreticke-reflexe/kognitivni-vedy.md", "k
 catalog_prev = ""
 catalog_next = "potvrzeni-dusledku"
 catalog_position = 1
-catalog_family_size = 15
+catalog_family_size = 16
 catalog_sources = ["cook-lewandowsky-ecker-2017", "copi-cohen-mcmahon-2014", "damer-2009", "govier-2010", "hahn-oaksford-2007", "hamblin-1970", "johnson-blair-1977", "kahneman-2011", "mercier-sperber-2011", "mill-1843", "nickerson-1998", "stanovich-west-2000", "tindale-2007", "toulmin-1958", "walton-2008", "walton-reed-macagno-2008", "whately-1826", "woods-walton-1989", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "govier-2010", "hamblin-1970", "johnson-blair-1977", "tindale-2007", "toulmin-1958", "walton-2008", "walton-reed-macagno-2008", "woods-walton-1989", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["mill-1843", "whately-1826"]
@@ -265,6 +265,7 @@ výrokové úsudky, slouží k ověření v klidu, když je na posouzení čas (
 - [Klam maskovaného muže](@/kompendium/argumentacni-fauly/formalni/klam-maskovaneho-muze.md) – zvláštní případ tohoto hesla
 - [Klam klamu](@/kompendium/argumentacni-fauly/formalni/klam-klamu.md) – zvláštní případ tohoto hesla
 - [Kladný závěr ze záporné premisy](@/kompendium/argumentacni-fauly/formalni/kladny-zaver-ze-zaporne-premisy.md) – zvláštní případ tohoto hesla
+- [Nedovolená konverze](@/kompendium/argumentacni-fauly/formalni/nedovolena-konverze.md) – zvláštní případ tohoto hesla
 
 **Příbuzná hesla**
 

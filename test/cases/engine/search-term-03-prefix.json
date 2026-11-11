@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 298,
+        "in": 299,
         "kind": "Pojem",
         "path": "glossary/coercive-control.md",
         "tier": 4,
@@ -25,7 +25,7 @@
       },
       {
         "code": "EA-8.2.5",
-        "in": 42,
+        "in": 43,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
         "tier": 5,

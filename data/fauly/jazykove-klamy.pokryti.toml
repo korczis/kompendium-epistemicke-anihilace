@@ -1,0 +1,74 @@
+# Rodina AF-06: Klamy jazyka a dvojznačnosti, část pokryti (AF-06.14 až AF-06.15).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Pořadí záznamů je pořadí
+# identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "AF-06.14"
+slug = "vagnost"
+type = "informal"
+cs = "Zneužití vágnosti"
+en = "Vagueness (misuse of a vague expression)"
+aliases = ["zneužití vágního výrazu", "vágní obecnosti", "klam neurčitosti"]
+use = "dvoji"
+risk = "stredni"
+broader = ""
+related = ["ekvivokace", "vyhybava-slova", "umyslna-vagnost", "pravidlo-uzivani-jazyka", "nefalzifikovatelnost", "rozliseni-bez-rozdilu"]
+kompendium = [
+  "kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md",
+  "kompendium/detection-signatures/8-linguistic-semantic-erosion.md",
+  "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Náš program prokazatelně zlepšuje kvalitu života seniorů. Kdo tvrdí opak, ať nám ukáže jediného účastníka, kterému se život ničím nezlepšil."
+context = "Zástupce soukromé agentury obhajuje na zasedání obce žádost o dotaci pro svůj program."
+benign = false
+marker = "Výraz „kvalita života“ není vymezen žádným měřítkem, takže tvrzení o zlepšení nelze ověřit ani vyvrátit; každá drobná změna se dá vydávat za doklad."
+response = "Zeptat se, čím agentura kvalitu života měří, jaké hodnoty byly před programem a po něm a ve srovnání s jakou skupinou; bez toho tvrzení o účinku nic nedokládá."
+
+[[pattern.trainer]]
+utterance = "Pro tuto zprávu počítáme jako zlepšení kvality života nárůst skóre dotazníku o alespoň pět bodů po šesti měsících; tohoto prahu dosáhlo 41 ze 120 účastníků."
+context = "Hodnotící zpráva téhož programu, kterou zadala obec."
+benign = true
+marker = "Vágní pojem je pro účel zprávy zpřesněn ohlášenou definicí a výsledek je uveden v číslech, která lze zkontrolovat a kritizovat."
+response = "Legitimní zacházení s vágním pojmem: zpřesnění je výslovné, práh lze zpochybnit a výsledek lze přepočítat při jiné hranici."
+
+[[pattern.trainer]]
+utterance = "Slíbil jste, že přijdete brzy. Přišel jste v sedm a dvě minuty, tedy ne brzy, takže jste slib porušil a nemáte nárok na odměnu za večer."
+context = "Pořadatel spolkového večera odmítá zaplatit dobrovolníkovi, který přišel dvě minuty po začátku příprav."
+benign = false
+marker = "Neurčitému slovu „brzy“ se dodatečně přiřadí přesná hranice, kterou nikdo předem nestanovil, a z jejího překročení se vyvozuje porušení dohody."
+response = "Připomenout, že výraz žádnou přesnou hranici neměl, a zeptat se, zda dvě minuty v dané situaci něčemu skutečně uškodily; posouzení patří k tomu, co strany rozumně mínily."
+
+[[pattern]]
+id = "AF-06.15"
+slug = "rozliseni-bez-rozdilu"
+type = "informal"
+cs = "Rozlišení bez rozdílu"
+en = "Distinction without a difference"
+aliases = ["zdánlivé rozlišení", "falešné rozlišení", "slovní rozlišení"]
+use = "vliv"
+risk = "stredni"
+broader = ""
+related = ["vagnost", "eufemismus-a-dysfemismus", "presvedcovaci-definice", "zvlastni-vyjimka", "ekvivokace", "pravidlo-uzivani-jazyka"]
+kompendium = [
+  "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md",
+  "kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Nikoho jsme nepropustili. Jen jsme dvaceti zaměstnancům nenabídli prodloužení smlouvy, takže o žádném snižování stavů nemůže být řeč."
+context = "Mluvčí firmy odpovídá novinářce na dotaz, zda podnik po ztrátové sezóně snižuje počet zaměstnanců."
+benign = false
+marker = "Rozdíl mezi „propuštěním“ a „neprodloužením smlouvy“ je vydáván za podstatný, ale pro otázku po snižování stavů nic nemění: dvacet lidí v podniku dál nepracuje."
+response = "Uznat, že právní forma ukončení se liší, a vrátit se k otázce samé: kolik lidí podnik po sezóně zaměstnává a proč jich je méně."
+
+[[pattern.trainer]]
+utterance = "Odstupné se liší: zaměstnanec propuštěný pro nadbytečnost má zákonný nárok na odstupné, kdežto u smlouvy na dobu určitou, která uplynula, tento nárok nevzniká."
+context = "Pracovní právnička vysvětluje odborové organizaci rozdíl mezi oběma způsoby skončení pracovního poměru."
+benign = true
+marker = "Rozlišení je spojeno s konkrétním odlišným důsledkem, který lze ověřit v předpisu, a nepoužívá se k popření skutečnosti, že lidé o práci přišli."
+response = "Legitimní rozlišení: uvádí, v čem se oba případy skutečně liší a pro jakou otázku je rozdíl podstatný."

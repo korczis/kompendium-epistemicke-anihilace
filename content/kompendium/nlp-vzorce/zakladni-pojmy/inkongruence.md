@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = ["sekvencni-inkongruence", "simultanni-inkongruence"]
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["kongruence", "integrace-casti", "sekvencni-inkongruence", "simultanni-inkongruence", "stepeni-ja-v-manipulaci", "detekce-lzi-v-nlp", "kategorie-satirove", "smirovatel", "obvinovatel", "rozptylovac"]
+catalog_related = ["kongruence", "obsah-a-vztah", "integrace-casti", "sekvencni-inkongruence", "simultanni-inkongruence", "stepeni-ja-v-manipulaci", "detekce-lzi-v-nlp", "kategorie-satirove", "smirovatel", "obvinovatel", "rozptylovac"]
 catalog_related_declared = ["kongruence", "sekvencni-inkongruence", "simultanni-inkongruence", "integrace-casti", "detekce-lzi-v-nlp"]
 catalog_kompendium = ["kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md", "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md", "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/06-klinicke-aplikace/diagnosticke-indikatory.
 catalog_prev = "kongruence"
 catalog_next = "ekologicka-kontrola"
 catalog_position = 26
-catalog_family_size = 42
+catalog_family_size = 45
 catalog_sources = ["bandler-grinder-1982", "bateson-1956", "grinder-bandler-1976", "heap-1988", "herman-1992", "miller-rollnick-2013", "satir-1972", "vrij-2008", "watzlawick-1967", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1982", "grinder-bandler-1976"]
 catalog_sources_roots = ["bateson-1956", "satir-1972", "watzlawick-1967"]
@@ -127,6 +127,7 @@ Základní obranou je trvat na platnosti výslovného sdělení. Pokud někdo vy
 **Příbuzná hesla**
 
 - [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzné heslo (Základní pojmy NLP, Congruence)
+- [Obsahová a vztahová rovina sdělení](@/kompendium/nlp-vzorce/zakladni-pojmy/obsah-a-vztah.md) – příbuzné heslo (Základní pojmy NLP, Content and relationship aspects)
 - [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzné heslo (Práce s částmi, Parts integration)
 - [Sekvenční inkongruence](@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md) – příbuzné heslo (Práce s částmi, Sequential incongruence)
 - [Simultánní inkongruence](@/kompendium/nlp-vzorce/integrace-casti/simultanni-inkongruence.md) – příbuzné heslo (Práce s částmi, Simultaneous incongruence)

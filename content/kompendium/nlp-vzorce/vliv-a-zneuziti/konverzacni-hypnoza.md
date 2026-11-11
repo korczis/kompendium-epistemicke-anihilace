@@ -35,7 +35,7 @@ catalog_broader = "ericksonovska-hypnoza"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["ericksonovska-hypnoza"]
-catalog_related = ["komunikace-vedoma-a-nevedoma", "trans-pojem", "milton-model", "vlozene-prikazy", "ericksonovska-hypnoza", "utilizace", "indukce-podanim-ruky", "technika-prolozeni", "krizove-zrcadleni", "sladeni-dechu", "sladeni-hlasu-a-tempa", "nlp-v-sektach", "hypnoticky-jazyk-online", "rozpoznani-nlp-praktiky"]
+catalog_related = ["komunikace-vedoma-a-nevedoma", "trans-pojem", "milton-model", "vlozene-prikazy", "ericksonovska-hypnoza", "utilizace", "indukce-podanim-ruky", "technika-prolozeni", "skryte-kotveni", "krizove-zrcadleni", "sladeni-dechu", "sladeni-hlasu-a-tempa", "nlp-v-sektach", "hypnoticky-jazyk-online", "rozpoznani-nlp-praktiky"]
 catalog_related_declared = ["milton-model", "vlozene-prikazy", "utilizace", "hypnoticky-jazyk-online", "rozpoznani-nlp-praktiky", "trans-pojem"]
 catalog_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/06-obrana/_index.md"]
 catalog_canonical = ""
@@ -241,6 +241,7 @@ anihilaci](@/kompendium/06-obrana/_index.md).
 - [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzné heslo (Ericksonovská hypnóza, Utilisation)
 - [Indukce podáním ruky](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/indukce-podanim-ruky.md) – příbuzné heslo (Ericksonovská hypnóza, Handshake induction)
 - [Technika proložení](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/technika-prolozeni.md) – příbuzné heslo (Ericksonovská hypnóza, Interspersal technique)
+- [Skryté kotvení](@/kompendium/nlp-vzorce/kotveni/skryte-kotveni.md) – příbuzné heslo (Kotvení, Covert anchoring)
 - [Křížové zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/krizove-zrcadleni.md) – příbuzné heslo (Raport a kalibrace, Cross-over mirroring)
 - [Sladění dechu](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-dechu.md) – příbuzné heslo (Raport a kalibrace, Breathing matching)
 - [Sladění hlasu a tempa](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hlasu-a-tempa.md) – příbuzné heslo (Raport a kalibrace, Voice and tempo matching)

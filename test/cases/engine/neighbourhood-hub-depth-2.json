@@ -242,9 +242,16 @@
       {
         "class": "kompendium/01-predmluva",
         "distance": 1,
-        "in": 309,
+        "in": 310,
         "path": "kompendium/01-predmluva/eticke-aspekty.md",
         "title": "1.3 Etické aspekty a upozornění"
+      },
+      {
+        "class": "glossary",
+        "distance": 1,
+        "in": 299,
+        "path": "glossary/coercive-control.md",
+        "title": "Coercive control (donucující kontrola)"
       },
       {
         "class": "kompendium/06-klinicke-aplikace",
@@ -256,14 +263,7 @@
       {
         "class": "glossary",
         "distance": 1,
-        "in": 298,
-        "path": "glossary/coercive-control.md",
-        "title": "Coercive control (donucující kontrola)"
-      },
-      {
-        "class": "glossary",
-        "distance": 1,
-        "in": 274,
+        "in": 275,
         "path": "glossary/disociace.md",
         "title": "Disociace"
       },
@@ -293,7 +293,7 @@
     "op": "neighbourhood",
     "path": "glossary/epistemicka-anihilace.md",
     "schema": "kompendium-engine/v1",
-    "total": 2284,
+    "total": 2296,
     "truncated": true
   },
   "input": {

@@ -35,7 +35,7 @@ catalog_broader = "ad-hominem"
 catalog_narrower = ["whataboutism"]
 catalog_depth = 1
 catalog_ancestors = ["ad-hominem"]
-catalog_related = ["ad-hominem", "okolnostni-ad-hominem", "whataboutism", "dve-kriva-jedno-pravo", "zvlastni-vyjimka", "personalizace-sporu", "pravidlo-svobody", "som-aplikace-na-sebe"]
+catalog_related = ["ad-hominem", "okolnostni-ad-hominem", "whataboutism", "dve-kriva-jedno-pravo", "zvlastni-vyjimka", "nekonzistence", "personalizace-sporu", "pravidlo-svobody", "interpunkce-komunikace", "som-aplikace-na-sebe"]
 catalog_related_declared = ["dve-kriva-jedno-pravo", "whataboutism", "okolnostni-ad-hominem", "ad-hominem", "som-aplikace-na-sebe"]
 catalog_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "komp
 catalog_prev = "okolnostni-ad-hominem"
 catalog_next = "genetic-klam"
 catalog_position = 3
-catalog_family_size = 28
+catalog_family_size = 29
 catalog_sources = ["copi-cohen-mcmahon-2014", "damer-2009", "festinger-1957", "hamblin-1970", "kunda-1990", "mercier-sperber-2011", "miller-rollnick-2013", "tindale-2007", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "watzlawick-1967", "whately-1826", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "hamblin-1970", "tindale-2007", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["watzlawick-1967", "whately-1826"]
@@ -236,8 +236,10 @@ whataboutismu ho často ještě prodlužuje.
 - [Whataboutism](@/kompendium/argumentacni-fauly/relevance/whataboutism.md) – příbuzné heslo (Klamy relevance, Whataboutism)
 - [Dvě křivdy dávají právo](@/kompendium/argumentacni-fauly/relevance/dve-kriva-jedno-pravo.md) – příbuzné heslo (Klamy relevance, Two wrongs make a right)
 - [Zvláštní výjimka](@/kompendium/argumentacni-fauly/predpoklady-argumentu/zvlastni-vyjimka.md) – příbuzné heslo (Klamy předpokladu, Special pleading)
+- [Nekonzistence](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nekonzistence.md) – příbuzné heslo (Klamy předpokladu, Inconsistency)
 - [Personalizace sporu](@/kompendium/argumentacni-fauly/dialekticke-taktiky/personalizace-sporu.md) – příbuzné heslo (Rétorické a dialogické taktiky, Personalising the dispute)
 - [Pravidlo svobody](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-svobody.md) – příbuzné heslo (Principy kritické diskuse a teorie argumentace, Freedom rule)
+- [Interpunkce komunikačního sledu](@/kompendium/nlp-vzorce/zakladni-pojmy/interpunkce-komunikace.md) – příbuzné heslo (NLP vzorce: Základní pojmy NLP, Punctuation of the communicational sequence)
 - [Aplikace na sebe](@/kompendium/nlp-vzorce/sleight-of-mouth/som-aplikace-na-sebe.md) – příbuzné heslo (NLP vzorce: Sleight of Mouth, Apply to self)
 
 **V kompendiu**

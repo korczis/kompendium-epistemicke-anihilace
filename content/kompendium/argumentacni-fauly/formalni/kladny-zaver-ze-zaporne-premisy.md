@@ -41,9 +41,9 @@ catalog_kompendium = ["kompendium/forensic-legal/_index.md", "kompendium/techniq
 catalog_canonical = ""
 catalog_links_prose = ["kompendium/01-predmluva/jak-pouzivat.md", "kompendium/argumentacni-fauly/formalni/vylucujici-premisy.md", "kompendium/argumentacni-fauly/relevance/odvolani-na-nevedomost.md", "kompendium/argumentacni-fauly/teorie-argumentace/pragma-dialektika.md", "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md"]
 catalog_prev = "klam-klamu"
-catalog_next = ""
+catalog_next = "nedovolena-konverze"
 catalog_position = 15
-catalog_family_size = 15
+catalog_family_size = 16
 catalog_sources = ["copi-cohen-mcmahon-2014", "hamblin-1970", "johnson-blair-1977", "kahneman-2011", "mercier-sperber-2011", "stanovich-west-2000", "toulmin-1958", "whately-1826", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "hamblin-1970", "johnson-blair-1977", "toulmin-1958", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["whately-1826"]
@@ -234,5 +234,6 @@ knihy popsaný v [jak používat kompendium](@/kompendium/01-predmluva/jak-pouzi
 **V katalogu**
 
 - [Klam klamu](@/kompendium/argumentacni-fauly/formalni/klam-klamu.md) – předchozí heslo rodiny
+- [Nedovolená konverze](@/kompendium/argumentacni-fauly/formalni/nedovolena-konverze.md) – další heslo rodiny
 
 <!-- kompendium:katalog-vazby:end -->

@@ -39,7 +39,7 @@ catalog_related = ["odvolani-na-autoritu", "ukvapene-zobecneni", "falesna-ekviva
 catalog_related_declared = ["argumentacni-schemata", "odvolani-na-autoritu", "ukvapene-zobecneni", "post-hoc", "kluzky-svah", "falesna-ekvivalence"]
 catalog_kompendium = ["kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-1-3-credentialing-attack.md"]
 catalog_canonical = ""
-catalog_links_prose = ["kompendium/argumentacni-fauly/kauzalni/post-hoc.md", "kompendium/argumentacni-fauly/predpoklady-argumentu/kluzky-svah.md", "kompendium/argumentacni-fauly/predpoklady-argumentu/ukvapene-zobecneni.md", "kompendium/argumentacni-fauly/relevance/ad-populum.md", "kompendium/argumentacni-fauly/relevance/anonymni-autorita.md", "kompendium/argumentacni-fauly/relevance/odvolani-na-autoritu.md", "kompendium/argumentacni-fauly/relevance/odvolani-na-dusledky.md", "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md", "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-1-3-credentialing-attack.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md"]
+catalog_links_prose = ["kompendium/argumentacni-fauly/kauzalni/post-hoc.md", "kompendium/argumentacni-fauly/predpoklady-argumentu/falesna-analogie.md", "kompendium/argumentacni-fauly/predpoklady-argumentu/kluzky-svah.md", "kompendium/argumentacni-fauly/predpoklady-argumentu/ukvapene-zobecneni.md", "kompendium/argumentacni-fauly/relevance/ad-populum.md", "kompendium/argumentacni-fauly/relevance/anonymni-autorita.md", "kompendium/argumentacni-fauly/relevance/odvolani-na-autoritu.md", "kompendium/argumentacni-fauly/relevance/odvolani-na-dusledky.md", "kompendium/argumentacni-fauly/teorie-argumentace/argumentacni-schemata.md", "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md", "kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md", "kompendium/techniques/ea-2-1-3-credentialing-attack.md", "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md"]
 catalog_prev = "pravidlo-vychodiska"
 catalog_next = "pravidlo-platnosti"
 catalog_position = 7
@@ -111,7 +111,7 @@ kdy se za znak správnosti vydává výrok někoho, kdo v dané věci není odbo
 pravdivosti vydává to, že tvrzení mnoho lidí přijímá. Patří sem i
 [ukvapené zobecnění](@/kompendium/argumentacni-fauly/predpoklady-argumentu/ukvapene-zobecneni.md),
 kdy se z malého nebo nereprezentativního vzorku usuzuje na celek. U argumentace srovnáním je
-typickou chybou nepřípadná analogie, kdy se srovnávají případy, které se v podstatném ohledu liší;
+typickou chybou [nepřípadná analogie](@/kompendium/argumentacni-fauly/predpoklady-argumentu/falesna-analogie.md), kdy se srovnávají případy, které se v podstatném ohledu liší;
 příbuzný vzorec popisuje [falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md).
 U kauzální argumentace patří k typickým chybám usuzování
 [po tom, tedy kvůli tomu](@/kompendium/argumentacni-fauly/kauzalni/post-hoc.md), dále

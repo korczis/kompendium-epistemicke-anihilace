@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["potvrzeni-dusledku", "klam-konjunkce", "klam-zalobce", "klam-obhajce", "zavadejici-zivost", "relativni-a-absolutni-riziko", "odvolani-na-anekdotu", "bayesovske-pojeti-klamu"]
+catalog_related = ["potvrzeni-dusledku", "nedovolena-konverze", "klam-konjunkce", "klam-zalobce", "klam-obhajce", "zavadejici-zivost", "relativni-a-absolutni-riziko", "odvolani-na-anekdotu", "bayesovske-pojeti-klamu"]
 catalog_related_declared = ["klam-zalobce", "klam-konjunkce", "relativni-a-absolutni-riziko", "zavadejici-zivost", "bayesovske-pojeti-klamu", "odvolani-na-anekdotu"]
 catalog_kompendium = ["kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md", "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md"]
 catalog_canonical = ""
@@ -221,6 +221,7 @@ na které znak sedí také, a přitom hledanou vlastnost nemají.
 **Příbuzná hesla**
 
 - [Potvrzení důsledku](@/kompendium/argumentacni-fauly/formalni/potvrzeni-dusledku.md) – příbuzné heslo (Formální klamy, Affirming the consequent)
+- [Nedovolená konverze](@/kompendium/argumentacni-fauly/formalni/nedovolena-konverze.md) – příbuzné heslo (Formální klamy, Illicit conversion)
 - [Klam konjunkce](@/kompendium/argumentacni-fauly/statisticke/klam-konjunkce.md) – příbuzné heslo (Statistické a pravděpodobnostní klamy, Conjunction fallacy)
 - [Klam žalobce](@/kompendium/argumentacni-fauly/statisticke/klam-zalobce.md) – příbuzné heslo (Statistické a pravděpodobnostní klamy, Prosecutor's fallacy)
 - [Klam obhájce](@/kompendium/argumentacni-fauly/statisticke/klam-obhajce.md) – příbuzné heslo (Statistické a pravděpodobnostní klamy, Defence attorney's fallacy)

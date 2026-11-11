@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["zadny-pravy-skot", "zvlastni-vyjimka", "nefalzifikovatelnost", "presun-dukazniho-bremene", "nirvana-klam", "mcnamaruv-klam", "motte-and-bailey", "sealioning", "odvedeni-k-procedure", "pravidlo-uzavreni", "motivovane-uvazovani"]
+catalog_related = ["zadny-pravy-skot", "zvlastni-vyjimka", "nefalzifikovatelnost", "presun-dukazniho-bremene", "nirvana-klam", "nekonzistence", "mcnamaruv-klam", "motte-and-bailey", "sealioning", "odvedeni-k-procedure", "pravidlo-uzavreni", "motivovane-uvazovani"]
 catalog_related_declared = ["nefalzifikovatelnost", "zadny-pravy-skot", "zvlastni-vyjimka", "presun-dukazniho-bremene", "sealioning"]
 catalog_kompendium = ["kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/techniques/ea-2-1-10-credentials-rekonfigurace.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/argumentacni-fauly/predpoklady-argumentu/nefa
 catalog_prev = "nefalzifikovatelnost"
 catalog_next = "presun-dukazniho-bremene"
 catalog_position = 14
-catalog_family_size = 20
+catalog_family_size = 23
 catalog_sources = ["hamblin-1970", "kunda-1990", "mercier-sperber-2011", "nickerson-1998", "popper-1959", "stark-2007", "walton-2008", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["hamblin-1970", "walton-2008", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["popper-1959"]
@@ -217,6 +217,7 @@ nekonečné žádosti o další doklady slouží k vyčerpání protistrany.
 - [Nefalzifikovatelné tvrzení](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nefalzifikovatelnost.md) – příbuzné heslo (Klamy předpokladu, Unfalsifiability)
 - [Přesun důkazního břemene](@/kompendium/argumentacni-fauly/predpoklady-argumentu/presun-dukazniho-bremene.md) – příbuzné heslo (Klamy předpokladu, Shifting the burden of proof)
 - [Klam nirvány](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nirvana-klam.md) – příbuzné heslo (Klamy předpokladu, Nirvana fallacy)
+- [Nekonzistence](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nekonzistence.md) – příbuzné heslo (Klamy předpokladu, Inconsistency)
 - [McNamarův klam](@/kompendium/argumentacni-fauly/statisticke/mcnamaruv-klam.md) – příbuzné heslo (Statistické a pravděpodobnostní klamy, McNamara fallacy)
 - [Motte-and-bailey](@/glossary/motte-and-bailey.md) – příbuzné heslo (Rétorické a dialogické taktiky, Motte-and-bailey)
 - [Sealioning](@/glossary/sealioning.md) – příbuzné heslo (Rétorické a dialogické taktiky, Sealioning)

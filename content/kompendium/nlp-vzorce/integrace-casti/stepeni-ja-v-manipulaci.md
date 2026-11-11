@@ -35,15 +35,15 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["inkongruence", "integrace-casti", "sekvencni-inkongruence", "muzeum-starych-presvedceni", "presvedceni-o-identite", "nlp-v-sektach", "obrana-proti-vlivovym-vzorcum"]
+catalog_related = ["inkongruence", "integrace-casti", "sekvencni-inkongruence", "vytvoreni-nove-casti", "muzeum-starych-presvedceni", "presvedceni-o-identite", "nlp-v-sektach", "obrana-proti-vlivovym-vzorcum"]
 catalog_related_declared = ["integrace-casti", "nlp-v-sektach", "inkongruence", "sekvencni-inkongruence", "obrana-proti-vlivovym-vzorcum"]
 catalog_kompendium = ["kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md", "kompendium/techniques/ea-6-4-2-post-cult-protokol.md", "kompendium/case-studies/10-sektarske-vychazeni.md"]
 catalog_canonical = ""
 catalog_links_prose = ["kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md", "kompendium/case-studies/10-sektarske-vychazeni.md", "kompendium/nlp-vzorce/integrace-casti/_index.md", "kompendium/nlp-vzorce/integrace-casti/integrace-casti.md", "kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md", "kompendium/techniques/ea-6-4-2-post-cult-protokol.md", "kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md", "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md"]
 catalog_prev = "integrace-polarit"
-catalog_next = ""
+catalog_next = "vytvoreni-nove-casti"
 catalog_position = 9
-catalog_family_size = 9
+catalog_family_size = 10
 catalog_sources = ["hassan-1988", "herman-1992", "lifton-1961", "singer-lalich-1995", "witkowski-2010"]
 catalog_sources_primary = []
 catalog_sources_roots = []
@@ -122,6 +122,7 @@ Obrana začíná u jazyka. Pokud se pochybnosti, kritika nebo touha odejít opak
 - [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – příbuzné heslo (Základní pojmy NLP, Incongruence)
 - [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzné heslo (Práce s částmi, Parts integration)
 - [Sekvenční inkongruence](@/kompendium/nlp-vzorce/integrace-casti/sekvencni-inkongruence.md) – příbuzné heslo (Práce s částmi, Sequential incongruence)
+- [Vytvoření nové části](@/kompendium/nlp-vzorce/integrace-casti/vytvoreni-nove-casti.md) – příbuzné heslo (Práce s částmi, Creating a new part)
 - [Muzeum starých přesvědčení](@/kompendium/nlp-vzorce/presvedceni/muzeum-starych-presvedceni.md) – příbuzné heslo (Přesvědčení, Museum of old beliefs)
 - [Přesvědčení o identitě](@/kompendium/nlp-vzorce/presvedceni/presvedceni-o-identite.md) – příbuzné heslo (Přesvědčení, Beliefs about identity)
 - [NLP v sektách a kultovních skupinách](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-sektach.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in cults)
@@ -137,5 +138,6 @@ Obrana začíná u jazyka. Pokud se pochybnosti, kritika nebo touha odejít opak
 **V katalogu**
 
 - [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) – předchozí heslo rodiny
+- [Vytvoření nové části](@/kompendium/nlp-vzorce/integrace-casti/vytvoreni-nove-casti.md) – další heslo rodiny
 
 <!-- kompendium:katalog-vazby:end -->

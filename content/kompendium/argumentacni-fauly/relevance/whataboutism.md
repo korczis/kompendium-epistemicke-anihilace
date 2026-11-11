@@ -35,7 +35,7 @@ catalog_broader = "tu-quoque"
 catalog_narrower = []
 catalog_depth = 2
 catalog_ancestors = ["tu-quoque", "ad-hominem"]
-catalog_related = ["tu-quoque", "cerveny-sled", "dve-kriva-jedno-pravo", "irelevantni-zaver", "falesna-ekvivalence", "pravidlo-relevance", "som-aplikace-na-sebe"]
+catalog_related = ["tu-quoque", "cerveny-sled", "dve-kriva-jedno-pravo", "irelevantni-zaver", "falesna-utecha", "falesna-ekvivalence", "pravidlo-relevance", "som-aplikace-na-sebe"]
 catalog_related_declared = ["dve-kriva-jedno-pravo", "cerveny-sled", "falesna-ekvivalence", "irelevantni-zaver", "som-aplikace-na-sebe"]
 catalog_kompendium = ["kompendium/techniques/ea-1-3-3-tematicka-diverze.md", "kompendium/07-teoreticke-reflexe/politicka-ea.md", "kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/07-teoreticke-reflexe/politicka-ea.md", "komp
 catalog_prev = "slameny-panak"
 catalog_next = "odvolani-na-nevedomost"
 catalog_position = 21
-catalog_family_size = 28
+catalog_family_size = 29
 catalog_sources = ["bentham-1824", "cook-lewandowsky-ecker-2017", "copi-cohen-mcmahon-2014", "govier-2010", "kunda-1990", "mercier-sperber-2011", "walton-1995", "walton-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "govier-2010", "walton-1995", "walton-2008", "eemeren-grootendorst-1992", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["bentham-1824"]
@@ -221,6 +221,7 @@ pojmenování struktury je tentýž (Cook, Lewandowsky a Ecker 2017).
 - [Červený sleď](@/kompendium/argumentacni-fauly/relevance/cerveny-sled.md) – příbuzné heslo (Klamy relevance, Red herring)
 - [Dvě křivdy dávají právo](@/kompendium/argumentacni-fauly/relevance/dve-kriva-jedno-pravo.md) – příbuzné heslo (Klamy relevance, Two wrongs make a right)
 - [Irelevantní závěr](@/kompendium/argumentacni-fauly/relevance/irelevantni-zaver.md) – příbuzné heslo (Klamy relevance, Ignoratio elenchi)
+- [Falešná útěcha (relativní nedostatek)](@/kompendium/argumentacni-fauly/relevance/falesna-utecha.md) – příbuzné heslo (Klamy relevance, False consolation (relative privation))
 - [Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) – příbuzné heslo (Klamy předpokladu, False equivalence)
 - [Pravidlo relevance](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-relevance.md) – příbuzné heslo (Principy kritické diskuse a teorie argumentace, Relevance rule)
 - [Aplikace na sebe](@/kompendium/nlp-vzorce/sleight-of-mouth/som-aplikace-na-sebe.md) – příbuzné heslo (NLP vzorce: Sleight of Mouth, Apply to self)

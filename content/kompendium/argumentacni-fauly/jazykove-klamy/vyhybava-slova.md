@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["anonymni-autorita", "nefalzifikovatelnost", "jen-se-ptam", "pravidlo-nevyslovene-premisy", "pravidlo-uzivani-jazyka", "nespecifikovany-referencni-index", "ztraceny-performativ", "umyslna-vagnost"]
+catalog_related = ["anonymni-autorita", "nefalzifikovatelnost", "vagnost", "jen-se-ptam", "pravidlo-nevyslovene-premisy", "pravidlo-uzivani-jazyka", "nespecifikovany-referencni-index", "ztraceny-performativ", "umyslna-vagnost"]
 catalog_related_declared = ["anonymni-autorita", "ztraceny-performativ", "nespecifikovany-referencni-index", "umyslna-vagnost", "nefalzifikovatelnost", "jen-se-ptam"]
 catalog_kompendium = ["kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/argumentacni-fauly/dialekticke-taktiky/jen-se
 catalog_prev = "nabity-jazyk"
 catalog_next = "eufemismus-a-dysfemismus"
 catalog_position = 10
-catalog_family_size = 13
+catalog_family_size = 15
 catalog_sources = ["bentham-1824", "cook-lewandowsky-ecker-2017", "damer-2009", "gigerenzer-2002", "grice-1975", "langer-1978", "levinson-1983", "petty-cacioppo-1986", "popper-1959", "eemeren-grootendorst-2004"]
 catalog_sources_primary = ["damer-2009", "eemeren-grootendorst-2004"]
 catalog_sources_roots = ["bentham-1824", "grice-1975", "levinson-1983", "popper-1959"]
@@ -224,6 +224,7 @@ doslovnému znění (van Eemeren a Grootendorst 2004).
 
 - [Anonymní autorita](@/kompendium/argumentacni-fauly/relevance/anonymni-autorita.md) – příbuzné heslo (Klamy relevance, Appeal to anonymous authority)
 - [Nefalzifikovatelné tvrzení](@/kompendium/argumentacni-fauly/predpoklady-argumentu/nefalzifikovatelnost.md) – příbuzné heslo (Klamy předpokladu, Unfalsifiability)
+- [Zneužití vágnosti](@/kompendium/argumentacni-fauly/jazykove-klamy/vagnost.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Vagueness (misuse of a vague expression))
 - [„Jen se ptám“](@/kompendium/argumentacni-fauly/dialekticke-taktiky/jen-se-ptam.md) – příbuzné heslo (Rétorické a dialogické taktiky, Just asking questions)
 - [Pravidlo nevyslovené premisy](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-nevyslovene-premisy.md) – příbuzné heslo (Principy kritické diskuse a teorie argumentace, Unexpressed-premise rule)
 - [Pravidlo užívání jazyka](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-uzivani-jazyka.md) – příbuzné heslo (Principy kritické diskuse a teorie argumentace, Usage rule)

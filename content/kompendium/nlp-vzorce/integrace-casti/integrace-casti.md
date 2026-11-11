@@ -32,7 +32,7 @@ catalog_use_cs = "převážně terapeutické"
 catalog_risk = "stredni"
 catalog_risk_cs = "střední"
 catalog_broader = ""
-catalog_narrower = ["vizualni-squash", "jadrova-transformace", "vyjednavani-casti", "integrace-polarit"]
+catalog_narrower = ["vizualni-squash", "jadrova-transformace", "vyjednavani-casti", "integrace-polarit", "vytvoreni-nove-casti"]
 catalog_depth = 0
 catalog_ancestors = []
 catalog_related = ["inkongruence", "ekologicka-kontrola", "sestikrokovy-reframing", "vizualni-squash", "vyjednavani-casti", "elicitace-pozitivniho-zameru", "stepeni-ja-v-manipulaci", "ekologie-cile"]
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/06-klinicke-aplikace/diferencialni-diagnostik
 catalog_prev = ""
 catalog_next = "vizualni-squash"
 catalog_position = 1
-catalog_family_size = 9
+catalog_family_size = 10
 catalog_sources = ["bandler-grinder-1982", "festinger-1957", "grinder-bandler-1976", "herman-1992", "lifton-1961", "lilienfeld-2015", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "perls-1969", "satir-1972", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1982", "grinder-bandler-1976", "oconnor-seymour-1990"]
 catalog_sources_roots = ["perls-1969", "satir-1972"]
@@ -130,6 +130,7 @@ Základní obranou je vrátit si autorství vlastních částí. Pokud někdo ji
 - [Jádrová transformace](@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md) – zvláštní případ tohoto hesla
 - [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – zvláštní případ tohoto hesla
 - [Integrace polarit](@/kompendium/nlp-vzorce/integrace-casti/integrace-polarit.md) – zvláštní případ tohoto hesla
+- [Vytvoření nové části](@/kompendium/nlp-vzorce/integrace-casti/vytvoreni-nove-casti.md) – zvláštní případ tohoto hesla
 
 **Příbuzná hesla**
 

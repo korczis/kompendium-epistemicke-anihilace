@@ -1,0 +1,43 @@
+# Rodina AF-01: Formální klamy, část pokrytí (heslo AF-01.16) – názvy ze standardních přehledů
+# oboru, které katalog dosud neměl. Pravidlo project.content-catalogs; schéma v scripts/catalogs.py.
+# Identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "AF-01.16"
+slug = "nedovolena-konverze"
+type = "formal"
+cs = "Nedovolená konverze"
+en = "Illicit conversion"
+aliases = ["chybná konverze", "neplatné obrácení soudu"]
+use = "dvoji"
+risk = "stredni"
+broader = "formalni-klam"
+related = ["potvrzeni-dusledku", "existencni-klam", "nedovoleny-vetsi-termin", "klam-zalobce", "zanedbani-zakladni-miry"]
+kompendium = [
+  "kompendium/forensic-legal/_index.md",
+  "kompendium/techniques/ea-7-3-2-tversky-heuristics.md",
+  "kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md",
+  "kompendium/07-teoreticke-reflexe/politicka-ea.md",
+]
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Všichni podvodníci, které jsme letos odhalili, platili v hotovosti. Kdo u nás platí v hotovosti, je tedy podvodník a jeho účet zablokujeme."
+context = "Bezpečnostní analytik banky navrhuje nové pravidlo pro blokování účtů."
+benign = false
+marker = "Z věty „všichni podvodníci platili hotově“ se dělá věta „všichni, kdo platí hotově, jsou podvodníci“; obrácený soud z výchozího neplyne a většina plátců v hotovosti může být bezúhonná."
+response = "Zeptat se na druhý směr: kolik lidí, kteří platí v hotovosti, podvodníky není. Bez tohoto podílu znak pachatele neidentifikuje."
+
+[[pattern.trainer]]
+utterance = "Někteří schválení léčebné postupy nejsou bezpečné, to přiznávají i úřady. Z toho plyne, že některé bezpečné postupy nejsou schválené, takže schválení nic neznamená."
+context = "Příspěvek v diskusi o alternativní léčbě."
+benign = false
+marker = "Částečně záporný soud „některá A nejsou B“ se obrací na „některá B nejsou A“, což logika nedovoluje; a i kdyby obrácený soud platil, závěr o bezcennosti schválení z něj neplyne."
+response = "Upozornit, že částečně záporný soud nelze obrátit, a ptát se po přímém dokladu bezpečnosti neschválených postupů místo odvozování z obrácené věty."
+
+[[pattern.trainer]]
+utterance = "Žádný ze vzorků odebraných v úterý nebyl kontaminovaný. Žádný kontaminovaný vzorek tedy nepochází z úterního odběru."
+context = "Laborantka shrnuje výsledky kontroly pro vedoucí směny."
+benign = true
+marker = "Obrací se obecně záporný soud; u tohoto druhu soudu je obrácení platné, protože vylučuje průnik obou tříd v obou směrech."
+response = "Jde o dovolenou konverzi: z premisy závěr plyne. Diskutovat lze jen o tom, zda byly testovány všechny úterní vzorky."

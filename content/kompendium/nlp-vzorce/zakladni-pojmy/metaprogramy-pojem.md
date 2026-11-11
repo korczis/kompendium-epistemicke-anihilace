@@ -32,7 +32,7 @@ catalog_use_cs = "převážně vlivové"
 catalog_risk = "stredni"
 catalog_risk_cs = "střední"
 catalog_broader = ""
-catalog_narrower = ["k-cili-a-od-problemu", "vnitrni-a-vnejsi-reference", "moznosti-a-postupy", "obecne-a-specificke", "shoda-a-rozdil", "proaktivni-a-reaktivni", "kriteria", "kanal-presvedceni", "rezim-presvedceni", "ja-a-druzi", "reakce-na-stres", "pracovni-styl", "lide-a-veci", "struktura-pravidel", "casova-orientace", "emocni-zvladani", "hodnoty-pri-koupi", "odpovednost", "duvera", "filozoficky-smer", "adaptace", "metaprogramy-v-naboru", "metaprogramy-v-marketingu"]
+catalog_narrower = ["k-cili-a-od-problemu", "vnitrni-a-vnejsi-reference", "moznosti-a-postupy", "obecne-a-specificke", "shoda-a-rozdil", "proaktivni-a-reaktivni", "kriteria", "kanal-presvedceni", "rezim-presvedceni", "ja-a-druzi", "reakce-na-stres", "pracovni-styl", "lide-a-veci", "struktura-pravidel", "casova-orientace", "emocni-zvladani", "hodnoty-pri-koupi", "odpovednost", "duvera", "filozoficky-smer", "adaptace", "metaprogramy-v-naboru", "metaprogramy-v-marketingu", "zmena-metaprogramu"]
 catalog_depth = 0
 catalog_ancestors = []
 catalog_related = ["preferovany-reprezentacni-system", "v-case-a-mimo-cas", "k-cili-a-od-problemu", "vnitrni-a-vnejsi-reference", "metaprogramy-v-naboru", "metaprogramy-v-marketingu"]
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/03-zakladni-kategorie/biasy/_index.md", "komp
 catalog_prev = "casova-osa-pojem"
 catalog_next = "kotva-pojem"
 catalog_position = 31
-catalog_family_size = 42
+catalog_family_size = 45
 catalog_sources = ["charvet-1997", "cialdini-2009", "gilovich-1991", "hall-bodenhamer-1997", "james-woodsmall-1988", "passmore-rowson-2019", "petty-cacioppo-1986", "witkowski-2010"]
 catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997", "james-woodsmall-1988"]
 catalog_sources_roots = []
@@ -142,6 +142,7 @@ Základní obranou je posuzovat nabídku podle obsahu, ne podle toho, jak přesn
 - [Usuzování a vnímání](@/kompendium/nlp-vzorce/metaprogramy/adaptace.md) – zvláštní případ tohoto hesla
 - [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – zvláštní případ tohoto hesla
 - [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – zvláštní případ tohoto hesla
+- [Změna metaprogramů](@/kompendium/nlp-vzorce/metaprogramy/zmena-metaprogramu.md) – zvláštní případ tohoto hesla
 
 **Příbuzná hesla**
 

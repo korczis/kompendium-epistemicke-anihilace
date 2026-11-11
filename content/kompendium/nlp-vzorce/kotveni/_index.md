@@ -20,8 +20,8 @@ catalog_export = "data/nlp-katalog.json"
 catalog_family = "kotveni"
 catalog_code = "09"
 catalog_en = "Anchoring"
-catalog_size = 19
-catalog_members = ["kotveni", "samokotveni", "retezeni-kotev", "kolaps-kotev", "stohovani-kotev", "prostorove-kotveni", "kruh-excelence", "posuvna-kotva", "auditivni-kotvy", "vizualni-kotvy", "kinesteticke-kotvy", "kotvy-v-prezentaci", "prenos-zdroje", "testovani-kotvy", "kotveni-ve-skupine", "kotvy-v-reklame", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "kotveni-versus-ukotveni-odhadu"]
+catalog_size = 20
+catalog_members = ["kotveni", "samokotveni", "retezeni-kotev", "kolaps-kotev", "stohovani-kotev", "prostorove-kotveni", "kruh-excelence", "posuvna-kotva", "auditivni-kotvy", "vizualni-kotvy", "kinesteticke-kotvy", "kotvy-v-prezentaci", "prenos-zdroje", "testovani-kotvy", "kotveni-ve-skupine", "kotvy-v-reklame", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "kotveni-versus-ukotveni-odhadu", "skryte-kotveni"]
 catalog_types = ["concept", "pattern"]
 catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-1980", "druckman-swets-1988", "herman-1992", "lankton-1980", "oconnor-seymour-1990", "passmore-rowson-2019", "pavlov-1927", "singer-lalich-1995", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "wolpe-1958"]
 +++
@@ -189,6 +189,7 @@ reakce chápe jako připomínky minulé zkušenosti a pracuje s nimi postupně v
 | `NLP-09.17` | [Nechtěné kotvy a spouštěče](@/kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md) | Unintended anchors and triggers | vzorec | terapeutické i vlivové | střední |
 | `NLP-09.18` | [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) | Anchoring in controlling relationships | vzorec | převážně vlivové | vysoké |
 | `NLP-09.19` | [Kotvení v NLP a efekt ukotvení](@/kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md) | NLP anchoring versus the anchoring heuristic | pojem | výkladový pojem | nízké |
+| `NLP-09.20` | [Skryté kotvení](@/kompendium/nlp-vzorce/kotveni/skryte-kotveni.md) | Covert anchoring | vzorec | převážně vlivové | vysoké |
 
 ## Mapa rodiny
 
@@ -217,6 +218,7 @@ flowchart LR
   n17["Nechtěné kotvy a spouštěče"]
   n18["Kotvení v kontrolujících vztazích"]
   n19["Kotvení v NLP a efekt ukotvení"]
+  n20["Skryté kotvení"]
   F --> n1
   n1 --> n2
   n1 --> n3
@@ -236,6 +238,7 @@ flowchart LR
   n1 --> n17
   n1 --> n18
   F --> n19
+  n1 --> n20
   click n1 "@/kompendium/nlp-vzorce/kotveni/kotveni.md"
   click n2 "@/kompendium/nlp-vzorce/kotveni/samokotveni.md"
   click n3 "@/kompendium/nlp-vzorce/kotveni/retezeni-kotev.md"
@@ -255,6 +258,7 @@ flowchart LR
   click n17 "@/kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md"
   click n18 "@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md"
   click n19 "@/kompendium/nlp-vzorce/kotveni/kotveni-versus-ukotveni-odhadu.md"
+  click n20 "@/kompendium/nlp-vzorce/kotveni/skryte-kotveni.md"
 ```
 
 <!-- kompendium:katalog-vazby:end -->

@@ -32,7 +32,7 @@ catalog_use_cs = "terapeutické i vlivové"
 catalog_risk = "stredni"
 catalog_risk_cs = "střední"
 catalog_broader = ""
-catalog_narrower = ["samokotveni", "retezeni-kotev", "kolaps-kotev", "stohovani-kotev", "prostorove-kotveni", "posuvna-kotva", "auditivni-kotvy", "vizualni-kotvy", "kinesteticke-kotvy", "kotvy-v-prezentaci", "prenos-zdroje", "testovani-kotvy", "kotveni-ve-skupine", "kotvy-v-reklame", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich"]
+catalog_narrower = ["samokotveni", "retezeni-kotev", "kolaps-kotev", "stohovani-kotev", "prostorove-kotveni", "posuvna-kotva", "auditivni-kotvy", "vizualni-kotvy", "kinesteticke-kotvy", "kotvy-v-prezentaci", "prenos-zdroje", "testovani-kotvy", "kotveni-ve-skupine", "kotvy-v-reklame", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "skryte-kotveni"]
 catalog_depth = 0
 catalog_ancestors = []
 catalog_related = ["kalibrace", "stav", "zdrojovy-stav", "kotva-pojem", "posthypnoticka-sugesce", "kinesteticke-kotvy", "testovani-kotvy", "nechtene-kotvy", "kotveni-v-kontrolujicich-vztazich", "kotveni-versus-ukotveni-odhadu", "swish", "zmena-osobni-historie", "instalace-strategie", "zdroje-cile"]
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/nlp-vzorce/kotveni/kolaps-kotev.md", "kompend
 catalog_prev = ""
 catalog_next = "samokotveni"
 catalog_position = 1
-catalog_family_size = 19
+catalog_family_size = 20
 catalog_sources = ["bandler-grinder-1979", "cialdini-2009", "dilts-1980", "herman-1992", "lankton-1980", "oconnor-seymour-1990", "pavlov-1927", "sturt-2012", "tosey-mathison-2009", "witkowski-2010", "wolpe-1958"]
 catalog_sources_primary = ["bandler-grinder-1979", "dilts-1980", "lankton-1980", "oconnor-seymour-1990"]
 catalog_sources_roots = ["pavlov-1927"]
@@ -245,6 +245,7 @@ ponechat spojení i jeho spouštění v klientových rukou.
 - [Kotvy v reklamě a značkách](@/kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md) – zvláštní případ tohoto hesla
 - [Nechtěné kotvy a spouštěče](@/kompendium/nlp-vzorce/kotveni/nechtene-kotvy.md) – zvláštní případ tohoto hesla
 - [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – zvláštní případ tohoto hesla
+- [Skryté kotvení](@/kompendium/nlp-vzorce/kotveni/skryte-kotveni.md) – zvláštní případ tohoto hesla
 
 **Příbuzná hesla**
 

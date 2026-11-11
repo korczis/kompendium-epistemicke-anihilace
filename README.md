@@ -51,7 +51,7 @@ zotavení**.
 | 🧬 | [**Katalog technik**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/techniques/) | Hloubkové samostatné články pro jednotlivé techniky epistemické anihilace | 502 |
 | 🗂️ | [**Případy**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/historical-cases/) | Doložené historické případy epistemických útoků – totalitní režimy, kulty, dezinformační kampaně a selhání vědy a medicíny – s mechanismy, dopady a poučením; dále Případové studie – anonymizované kompozity | 120 |
 | 🛡️ | [**Obrana**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/self-defense-guides/) | Praktické návody sebeobrany napříč pěti pilíři – kognitivní, emocionální, sociální, informační hygiena a ochrana identity; dále Organizační obrana, Prevence a rezilience, Longitudinální rekonstruktivní protokoly, Akutní intervenční protokoly | 200 |
-| 🗣️ | [**NLP vzorce**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/nlp-vzorce/) | Katalog více než 400 vzorců, principů a pojmů neurolingvistického programování: struktura, detekční znaky, stav důkazů a obrana, každé heslo na vlastní stránce | 413 |
+| 🗣️ | [**NLP vzorce**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/nlp-vzorce/) | Katalog více než 400 vzorců, principů a pojmů neurolingvistického programování: struktura, detekční znaky, stav důkazů a obrana, každé heslo na vlastní stránce | 420 |
 | 🔤 | [**Glosář**](https://korczis.github.io/kompendium-epistemicke-anihilace/glossary/) | Terminologický rejstřík Kompendia: pojmy epistemické anihilace, kliniky, filozofie a manipulace | 276 |
 | 📊 | [**Vizualizace**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/visualizations/) | Klikatelné grafy taxonomie EA odvozené z odkazů a katalogu knihy: rodiny technik, úrovně rizika, sítě vazeb, fáze zotavení, protokoly a didaktické simulace |  |
 | 🕸️ | [**Mapa knihy**](https://korczis.github.io/kompendium-epistemicke-anihilace/mapa/) | Interaktivní graf všech stránek kompendia a odkazů mezi nimi: oddíly, štítky a okolí každé stránky |  |
@@ -60,7 +60,7 @@ zotavení**.
 | 🎨 | [**Galerie**](https://korczis.github.io/kompendium-epistemicke-anihilace/galerie/) | Generativní grafika kompendia v p5.js: rozpad sítě pojmů, eroze paměti a rekonstituce |  |
 | 📚 | [**Reference**](https://korczis.github.io/kompendium-epistemicke-anihilace/references/) | Literatura citovaná v kompendiu: každá položka jednou, s odkazy na stránky, které ji citují |  |
 
-Web má celkem 2 393 stránek včetně rozcestníků, přibližně 3 388 tisíc slov, 46 553 vnitřních odkazů a 5 104 citovaných pramenů. Úvodní stránka webu a [Stav knihy](https://korczis.github.io/kompendium-epistemicke-anihilace/stav/) je počítají při každém sestavení.
+Web má celkem 2 407 stránek včetně rozcestníků, přibližně 3 417 tisíc slov, 47 007 vnitřních odkazů a 5 104 citovaných pramenů. Úvodní stránka webu a [Stav knihy](https://korczis.github.io/kompendium-epistemicke-anihilace/stav/) je počítají při každém sestavení.
 <!-- kompendium:readme-oddily:end -->
 
 ## Mapa a stav knihy

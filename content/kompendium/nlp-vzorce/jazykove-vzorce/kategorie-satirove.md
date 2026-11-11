@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = ["smirovatel", "obvinovatel", "pocitac", "rozptylovac", "vyrovnany"]
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["raport", "percepcni-pozice-pojem", "kongruence", "inkongruence", "koreny-nlp"]
+catalog_related = ["raport", "percepcni-pozice-pojem", "kongruence", "inkongruence", "obsah-a-vztah", "koreny-nlp"]
 catalog_related_declared = ["koreny-nlp", "kongruence", "inkongruence", "raport", "percepcni-pozice-pojem"]
 catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md"]
 catalog_canonical = ""
@@ -142,6 +142,7 @@ V terapii se s postoji pracuje tak, že člověk znovu získává přístup k to
 - [Percepční pozice](@/kompendium/nlp-vzorce/zakladni-pojmy/percepcni-pozice-pojem.md) – příbuzné heslo (Základní pojmy NLP, Perceptual positions (concept))
 - [Kongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/kongruence.md) – příbuzné heslo (Základní pojmy NLP, Congruence)
 - [Inkongruence](@/kompendium/nlp-vzorce/zakladni-pojmy/inkongruence.md) – příbuzné heslo (Základní pojmy NLP, Incongruence)
+- [Obsahová a vztahová rovina sdělení](@/kompendium/nlp-vzorce/zakladni-pojmy/obsah-a-vztah.md) – příbuzné heslo (Základní pojmy NLP, Content and relationship aspects)
 - [Kořeny NLP: Satirová, Perls, Erickson](@/kompendium/nlp-vzorce/kriticke-hodnoceni/koreny-nlp.md) – příbuzné heslo (Kritické hodnocení NLP, Roots of NLP: Satir, Perls, Erickson)
 
 **V kompendiu**

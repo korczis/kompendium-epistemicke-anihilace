@@ -35,7 +35,7 @@ catalog_broader = "milton-model"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["milton-model"]
-catalog_related = ["amfibolie", "vlozene-prikazy", "analogove-znaceni", "fonologicka-dvojznacnost", "syntakticka-dvojznacnost", "rozsahova-dvojznacnost", "konfuzni-technika", "preruseni-vzorce"]
+catalog_related = ["amfibolie", "interpunkce-komunikace", "vlozene-prikazy", "analogove-znaceni", "fonologicka-dvojznacnost", "syntakticka-dvojznacnost", "rozsahova-dvojznacnost", "konfuzni-technika", "preruseni-vzorce"]
 catalog_related_declared = ["fonologicka-dvojznacnost", "syntakticka-dvojznacnost", "vlozene-prikazy", "analogove-znaceni", "konfuzni-technika", "preruseni-vzorce"]
 catalog_kompendium = ["kompendium/techniques/ea-1-4-1-prosodicka-dominance.md", "kompendium/techniques/ea-1-1-2-informacni-pretizeni.md"]
 catalog_canonical = ""
@@ -230,6 +230,7 @@ je postupný (Hassan 1988).
 **Příbuzná hesla**
 
 - [Amfibolie](@/kompendium/argumentacni-fauly/jazykove-klamy/amfibolie.md) – příbuzné heslo (Argumentační fauly: Klamy jazyka a dvojznačnosti, Amphiboly)
+- [Interpunkce komunikačního sledu](@/kompendium/nlp-vzorce/zakladni-pojmy/interpunkce-komunikace.md) – příbuzné heslo (Základní pojmy NLP, Punctuation of the communicational sequence)
 - [Vložené příkazy](@/kompendium/nlp-vzorce/milton-model/vlozene-prikazy.md) – příbuzné heslo (Milton-model, Embedded commands)
 - [Analogové značení](@/kompendium/nlp-vzorce/milton-model/analogove-znaceni.md) – příbuzné heslo (Milton-model, Analogue marking)
 - [Fonologická dvojznačnost](@/kompendium/nlp-vzorce/milton-model/fonologicka-dvojznacnost.md) – příbuzné heslo (Milton-model, Phonological ambiguity)

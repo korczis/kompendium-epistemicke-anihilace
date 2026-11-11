@@ -35,7 +35,7 @@ catalog_broader = ""
 catalog_narrower = []
 catalog_depth = 0
 catalog_ancestors = []
-catalog_related = ["odvolani-na-strach", "odvolani-na-dusledky", "kontrola-tonu", "personalizace-sporu", "pravidlo-svobody"]
+catalog_related = ["odvolani-na-strach", "odvolani-na-dusledky", "kontrola-tonu", "personalizace-sporu", "pravidlo-svobody", "symetricka-a-komplementarni-interakce"]
 catalog_related_declared = ["odvolani-na-strach", "odvolani-na-dusledky", "pravidlo-svobody", "personalizace-sporu", "kontrola-tonu"]
 catalog_kompendium = ["kompendium/techniques/ea-8-2-5-stark-coercive-control.md", "kompendium/techniques/ea-2-2-5-recommendation-coercion.md", "kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/argumentacni-fauly/relevance/odvolani-na-stra
 catalog_prev = "odvolani-na-soucit"
 catalog_next = "odvolani-na-prirozenost"
 catalog_position = 16
-catalog_family_size = 28
+catalog_family_size = 29
 catalog_sources = ["copi-cohen-mcmahon-2014", "damer-2009", "festinger-1957", "govier-2010", "hamblin-1970", "herman-1992", "lifton-1961", "singer-lalich-1995", "stark-2007", "walton-2008", "walton-reed-macagno-2008", "watzlawick-1967", "eemeren-grootendorst-1992"]
 catalog_sources_primary = ["copi-cohen-mcmahon-2014", "damer-2009", "govier-2010", "hamblin-1970", "walton-2008", "walton-reed-macagno-2008", "eemeren-grootendorst-1992"]
 catalog_sources_roots = ["watzlawick-1967"]
@@ -230,6 +230,7 @@ oprávněný a že jeho cena nevypovídá o jeho správnosti.
 - [Kontrola tónu](@/kompendium/argumentacni-fauly/relevance/kontrola-tonu.md) – příbuzné heslo (Klamy relevance, Tone policing)
 - [Personalizace sporu](@/kompendium/argumentacni-fauly/dialekticke-taktiky/personalizace-sporu.md) – příbuzné heslo (Rétorické a dialogické taktiky, Personalising the dispute)
 - [Pravidlo svobody](@/kompendium/argumentacni-fauly/teorie-argumentace/pravidlo-svobody.md) – příbuzné heslo (Principy kritické diskuse a teorie argumentace, Freedom rule)
+- [Symetrická a komplementární interakce](@/kompendium/nlp-vzorce/zakladni-pojmy/symetricka-a-komplementarni-interakce.md) – příbuzné heslo (NLP vzorce: Základní pojmy NLP, Symmetrical and complementary interaction)
 
 **V kompendiu**
 

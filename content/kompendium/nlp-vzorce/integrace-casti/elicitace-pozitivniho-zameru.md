@@ -35,7 +35,7 @@ catalog_broader = "pozitivni-zamer-chovani"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["pozitivni-zamer-chovani"]
-catalog_related = ["pozitivni-zamer-chovani", "som-zamer", "sestikrokovy-reframing", "zmena-kriticke-sebeprezentace", "integrace-casti", "jadrova-transformace", "vyjednavani-casti", "manipulativni-reframing-ve-vztazich"]
+catalog_related = ["pozitivni-zamer-chovani", "som-zamer", "sestikrokovy-reframing", "zmena-kriticke-sebeprezentace", "integrace-casti", "jadrova-transformace", "vyjednavani-casti", "vytvoreni-nove-casti", "manipulativni-reframing-ve-vztazich"]
 catalog_related_declared = ["sestikrokovy-reframing", "jadrova-transformace", "vyjednavani-casti", "som-zamer", "manipulativni-reframing-ve-vztazich"]
 catalog_kompendium = ["kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md", "kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/nlp-vzorce/integrace-casti/jadrova-transforma
 catalog_prev = "simultanni-inkongruence"
 catalog_next = "integrace-polarit"
 catalog_position = 7
-catalog_family_size = 9
+catalog_family_size = 10
 catalog_sources = ["bandler-grinder-1982", "dilts-1999", "haley-1973", "herman-1992", "oconnor-seymour-1990", "rogers-1951", "sharpley-1987", "stark-2007", "sturt-2012", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sources_primary = ["bandler-grinder-1982", "dilts-1999", "oconnor-seymour-1990"]
 catalog_sources_roots = ["haley-1973"]
@@ -134,6 +134,7 @@ Základní obranou je oddělit záměr od dopadu. I kdyby chování druhého sku
 - [Integrace částí](@/kompendium/nlp-vzorce/integrace-casti/integrace-casti.md) – příbuzné heslo (Práce s částmi, Parts integration)
 - [Jádrová transformace](@/kompendium/nlp-vzorce/integrace-casti/jadrova-transformace.md) – příbuzné heslo (Práce s částmi, Core transformation)
 - [Vyjednávání mezi částmi](@/kompendium/nlp-vzorce/integrace-casti/vyjednavani-casti.md) – příbuzné heslo (Práce s částmi, Parts negotiation)
+- [Vytvoření nové části](@/kompendium/nlp-vzorce/integrace-casti/vytvoreni-nove-casti.md) – příbuzné heslo (Práce s částmi, Creating a new part)
 - [Manipulativní reframing v blízkých vztazích](@/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md) – příbuzné heslo (Vliv a zneužití NLP, Manipulative reframing in close relationships)
 
 **V kompendiu**

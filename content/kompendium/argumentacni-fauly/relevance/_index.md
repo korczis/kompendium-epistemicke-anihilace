@@ -20,8 +20,8 @@ catalog_export = "data/fauly-katalog.json"
 catalog_family = "relevance"
 catalog_code = "02"
 catalog_en = "Fallacies of relevance"
-catalog_size = 28
-catalog_members = ["ad-hominem", "okolnostni-ad-hominem", "tu-quoque", "genetic-klam", "otraveni-studny", "vina-asociaci", "odvolani-na-autoritu", "anonymni-autorita", "ad-populum", "rozjety-vlak", "odvolani-na-tradici", "odvolani-na-novost", "odvolani-na-emoce", "odvolani-na-strach", "odvolani-na-soucit", "odvolani-na-silu", "odvolani-na-prirozenost", "odvolani-na-dusledky", "cerveny-sled", "slameny-panak", "whataboutism", "odvolani-na-nevedomost", "lichotka", "odvolani-na-bohatstvi", "chronologicky-snobismus", "dve-kriva-jedno-pravo", "kontrola-tonu", "irelevantni-zaver"]
+catalog_size = 29
+catalog_members = ["ad-hominem", "okolnostni-ad-hominem", "tu-quoque", "genetic-klam", "otraveni-studny", "vina-asociaci", "odvolani-na-autoritu", "anonymni-autorita", "ad-populum", "rozjety-vlak", "odvolani-na-tradici", "odvolani-na-novost", "odvolani-na-emoce", "odvolani-na-strach", "odvolani-na-soucit", "odvolani-na-silu", "odvolani-na-prirozenost", "odvolani-na-dusledky", "cerveny-sled", "slameny-panak", "whataboutism", "odvolani-na-nevedomost", "lichotka", "odvolani-na-bohatstvi", "chronologicky-snobismus", "dve-kriva-jedno-pravo", "kontrola-tonu", "irelevantni-zaver", "falesna-utecha"]
 catalog_types = ["informal", "tactic"]
 catalog_sources = ["bentham-1824", "cialdini-2009", "cook-lewandowsky-ecker-2017", "copi-cohen-mcmahon-2014", "damer-2009", "hahn-oaksford-2007", "hamblin-1970", "johnson-blair-1977", "kahneman-2011", "kunda-1990", "mercier-sperber-2011", "paul-matthews-2016", "petty-cacioppo-1986", "roozenbeek-2022", "walton-1995", "walton-2008", "walton-reed-macagno-2008", "whately-1826", "eemeren-grootendorst-1992"]
 +++
@@ -216,6 +216,7 @@ většího celku.
 | `AF-02.26` | [Dvě křivdy dávají právo](@/kompendium/argumentacni-fauly/relevance/dve-kriva-jedno-pravo.md) | Two wrongs make a right | neformální klam | chyba i taktika | střední |
 | `AF-02.27` | [Kontrola tónu](@/kompendium/argumentacni-fauly/relevance/kontrola-tonu.md) | Tone policing | rétorická taktika | převážně záměrná taktika | střední |
 | `AF-02.28` | [Irelevantní závěr](@/kompendium/argumentacni-fauly/relevance/irelevantni-zaver.md) | Ignoratio elenchi | neformální klam | chyba i taktika | střední |
+| `AF-02.29` | [Falešná útěcha (relativní nedostatek)](@/kompendium/argumentacni-fauly/relevance/falesna-utecha.md) | False consolation (relative privation) | neformální klam | chyba i taktika | střední |
 
 ## Mapa rodiny
 
@@ -253,6 +254,7 @@ flowchart LR
   n26["Dvě křivdy dávají právo"]
   n27["Kontrola tónu"]
   n28["Irelevantní závěr"]
+  n29["Falešná útěcha (relativní nedostatek)"]
   F --> n1
   n1 --> n2
   n1 --> n3
@@ -281,6 +283,7 @@ flowchart LR
   F --> n26
   F --> n27
   F --> n28
+  F --> n29
   click n1 "@/kompendium/argumentacni-fauly/relevance/ad-hominem.md"
   click n2 "@/kompendium/argumentacni-fauly/relevance/okolnostni-ad-hominem.md"
   click n3 "@/kompendium/argumentacni-fauly/relevance/tu-quoque.md"
@@ -309,6 +312,7 @@ flowchart LR
   click n26 "@/kompendium/argumentacni-fauly/relevance/dve-kriva-jedno-pravo.md"
   click n27 "@/kompendium/argumentacni-fauly/relevance/kontrola-tonu.md"
   click n28 "@/kompendium/argumentacni-fauly/relevance/irelevantni-zaver.md"
+  click n29 "@/kompendium/argumentacni-fauly/relevance/falesna-utecha.md"
 ```
 
 <!-- kompendium:katalog-vazby:end -->

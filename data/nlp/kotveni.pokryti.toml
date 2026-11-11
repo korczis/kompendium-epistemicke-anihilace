@@ -1,0 +1,37 @@
+# Rodina NLP-09: Kotvení, část pokryti (NLP-09.20).
+# Pravidlo project.content-catalogs; schéma v scripts/catalogs.py. Pořadí záznamů je pořadí
+# identifikátorů; identifikátor se po zveřejnění nemění.
+
+[[pattern]]
+id = "NLP-09.20"
+slug = "skryte-kotveni"
+type = "pattern"
+cs = "Skryté kotvení"
+en = "Covert anchoring"
+aliases = ["covert anchoring", "nepozorované kotvení", "kotvení bez vědomí"]
+use = "vliv"
+risk = "vysoke"
+broader = "kotveni"
+related = ["kotveni-v-kontrolujicich-vztazich", "nechtene-kotvy", "kotvy-v-reklame", "kotveni-ve-skupine", "raport-jako-nastroj-vlivu", "konverzacni-hypnoza"]
+kompendium = [
+  "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md",
+  "kompendium/techniques/ea-4-2-6-consent-withdrawal.md",
+  "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
+  "kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md",
+]
+vaknin = "inferred"
+review = "agent"
+
+[[pattern.trainer]]
+utterance = "Vzpomínáte, jak skvěle jste se cítila, když jste mi vyprávěla o té cestě k moři? Přesně tak se budete cítit s touhle smlouvou. Tady stačí podepsat."
+context = "Obchodník s investičními produkty při schůzce s klientkou; během rozhovoru se jí pokaždé, když mluvila o něčem příjemném, lehce dotkl ramene a stejně se jí dotkne i teď."
+benign = false
+marker = "Dotek se opakovaně a bez vědomí klientky spojoval s jejím příjemným stavem a nyní se použije ve chvíli rozhodnutí, aby nahradil věcné posouzení smlouvy."
+response = "Dát si mezi pocit a podpis čas a vzdálenost, smlouvu číst o samotě a posuzovat podle čísel, a opakovaný dotek nebo gesto v klíčové chvíli brát jako důvod ke zpomalení."
+
+[[pattern.trainer]]
+utterance = "Než začneme, řeknu vám, že na konci každého cvičení zazvoní tenhle zvonek. Kdyby vám to bylo nepříjemné, můžeme ho klidně vynechat."
+context = "Lektorka relaxačního kurzu vysvětluje skupině průběh lekce."
+benign = true
+marker = "Signál se ohlašuje předem, jeho účel je vysvětlen a účastníci ho mohou odmítnout; nic se nespojuje se stavem bez jejich vědomí."
+response = "Jde o neškodné užití: otevřeně dohodnutý signál, o kterém všichni vědí a který mohou změnit; chybí skrytost i cíl ovlivnit rozhodnutí."

@@ -35,7 +35,7 @@ catalog_broader = "sleight-of-mouth"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["sleight-of-mouth"]
-catalog_related = ["som-zamer", "som-jiny-vysledek", "uroven-presvedceni-a-hodnot", "retezeni-presvedceni", "kriteria", "sladeni-hodnot"]
+catalog_related = ["som-zamer", "som-jiny-vysledek", "uroven-presvedceni-a-hodnot", "retezeni-presvedceni", "zmena-hodnot", "kriteria", "sladeni-hodnot"]
 catalog_related_declared = ["kriteria", "sladeni-hodnot", "uroven-presvedceni-a-hodnot", "som-jiny-vysledek", "som-zamer"]
 catalog_kompendium = ["kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/techniques/ea-5-3-11-axiologicka-inverze.md"]
 catalog_canonical = ""
@@ -133,6 +133,7 @@ Nejúčinnější obranou je oddělit hodnotu od rozhodnutí. Lze souhlasit, že
 - [Jiný výsledek](@/kompendium/nlp-vzorce/sleight-of-mouth/som-jiny-vysledek.md) – příbuzné heslo (Sleight of Mouth, Another outcome)
 - [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – příbuzné heslo (Logické úrovně a percepční pozice, Beliefs and values level)
 - [Řetězení přesvědčení](@/kompendium/nlp-vzorce/presvedceni/retezeni-presvedceni.md) – příbuzné heslo (Přesvědčení, Belief chaining)
+- [Změna hodnot](@/kompendium/nlp-vzorce/presvedceni/zmena-hodnot.md) – příbuzné heslo (Přesvědčení, Changing values)
 - [Kritéria](@/kompendium/nlp-vzorce/metaprogramy/kriteria.md) – příbuzné heslo (Metaprogramy, Criteria)
 - [Sladění hodnot](@/kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.md) – příbuzné heslo (Raport a kalibrace, Value matching)
 

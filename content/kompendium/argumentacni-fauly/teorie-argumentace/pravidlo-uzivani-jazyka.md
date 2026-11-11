@@ -35,7 +35,7 @@ catalog_broader = "pragma-dialektika"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["pragma-dialektika"]
-catalog_related = ["ekvivokace", "amfibolie", "presvedcovaci-definice", "vyhybava-slova", "nominalizace", "neuro-zargon"]
+catalog_related = ["ekvivokace", "amfibolie", "presvedcovaci-definice", "vyhybava-slova", "vagnost", "rozliseni-bez-rozdilu", "nominalizace", "neuro-zargon"]
 catalog_related_declared = ["ekvivokace", "amfibolie", "vyhybava-slova", "presvedcovaci-definice", "nominalizace", "neuro-zargon"]
 catalog_kompendium = ["kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md", "kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md", "philosophy/epistemic-integrity.md"]
 catalog_canonical = ""
@@ -220,6 +220,8 @@ výklad a ověří si ho otázkou, místo aby zvolil výklad, který se nejsnáz
 - [Amfibolie](@/kompendium/argumentacni-fauly/jazykove-klamy/amfibolie.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Amphiboly)
 - [Přesvědčovací definice](@/kompendium/argumentacni-fauly/jazykove-klamy/presvedcovaci-definice.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Persuasive definition)
 - [Vyhýbavá slova](@/kompendium/argumentacni-fauly/jazykove-klamy/vyhybava-slova.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Weasel words)
+- [Zneužití vágnosti](@/kompendium/argumentacni-fauly/jazykove-klamy/vagnost.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Vagueness (misuse of a vague expression))
+- [Rozlišení bez rozdílu](@/kompendium/argumentacni-fauly/jazykove-klamy/rozliseni-bez-rozdilu.md) – příbuzné heslo (Klamy jazyka a dvojznačnosti, Distinction without a difference)
 - [Nominalizace](@/kompendium/nlp-vzorce/meta-model/nominalizace.md) – příbuzné heslo (NLP vzorce: Meta-model, Nominalisation)
 - [Neurožargon](@/kompendium/nlp-vzorce/vliv-a-zneuziti/neuro-zargon.md) – příbuzné heslo (NLP vzorce: Vliv a zneužití NLP, Neuro-jargon)
 

@@ -35,7 +35,7 @@ catalog_broader = "metaprogramy-pojem"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["metaprogramy-pojem"]
-catalog_related = ["metaprogramy-pojem", "motivacni-strategie", "proaktivni-a-reaktivni", "casova-orientace", "filozoficky-smer", "metaprogramy-v-marketingu", "pozitivni-formulace-cile", "od-problemu-k-vysledku"]
+catalog_related = ["metaprogramy-pojem", "motivacni-strategie", "proaktivni-a-reaktivni", "casova-orientace", "filozoficky-smer", "metaprogramy-v-marketingu", "zmena-metaprogramu", "pozitivni-formulace-cile", "od-problemu-k-vysledku"]
 catalog_related_declared = ["pozitivni-formulace-cile", "od-problemu-k-vysledku", "motivacni-strategie", "metaprogramy-v-marketingu", "proaktivni-a-reaktivni"]
 catalog_kompendium = ["kompendium/techniques/ea-7-3-2-tversky-heuristics.md", "kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md", "kompendium/03-zakladni-kategorie/biasy/_index.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulac
 catalog_prev = ""
 catalog_next = "vnitrni-a-vnejsi-reference"
 catalog_position = 1
-catalog_family_size = 23
+catalog_family_size = 24
 catalog_sources = ["charvet-1997", "cialdini-2009", "hall-bodenhamer-1997", "herman-1992", "kahneman-2011", "mcguire-1964", "miller-galanter-pribram-1960", "miller-rollnick-2013", "oconnor-seymour-1990", "passmore-rowson-2019", "tosey-mathison-2009", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997", "oconnor-seymour-1990"]
 catalog_sources_roots = ["miller-galanter-pribram-1960"]
@@ -221,6 +221,7 @@ nad vlastním životem (Herman 1992). Souvislost s laděním reklamních sdělen
 - [Časová orientace](@/kompendium/nlp-vzorce/metaprogramy/casova-orientace.md) – příbuzné heslo (Metaprogramy, Time orientation)
 - [Proč a jak](@/kompendium/nlp-vzorce/metaprogramy/filozoficky-smer.md) – příbuzné heslo (Metaprogramy, Philosophical direction)
 - [Metaprogramy v marketingu](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-marketingu.md) – příbuzné heslo (Metaprogramy, Meta-programs in marketing)
+- [Změna metaprogramů](@/kompendium/nlp-vzorce/metaprogramy/zmena-metaprogramu.md) – příbuzné heslo (Metaprogramy, Changing meta-programs)
 - [Kladná formulace cíle](@/kompendium/nlp-vzorce/cile-a-vysledky/pozitivni-formulace-cile.md) – příbuzné heslo (Cíle a výsledky, Stated in the positive)
 - [Od problému k výsledku](@/kompendium/nlp-vzorce/cile-a-vysledky/od-problemu-k-vysledku.md) – příbuzné heslo (Cíle a výsledky, Problem to outcome)
 

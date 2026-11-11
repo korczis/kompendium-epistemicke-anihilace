@@ -20,8 +20,8 @@ catalog_export = "data/nlp-katalog.json"
 catalog_family = "zakladni-pojmy"
 catalog_code = "02"
 catalog_en = "Core NLP concepts"
-catalog_size = 42
-catalog_members = ["reprezentacni-systemy", "vizualni-system", "auditivni-system", "kinesteticky-system", "olfaktorni-a-gustatorni-system", "auditivne-digitalni-system", "vedouci-system", "preferovany-reprezentacni-system", "predikaty", "ocni-pristupove-signaly", "synestezie", "submodality-pojem", "kalibrace", "smyslova-ostrost", "raport", "stav", "zdrojovy-stav", "strategie-pojem", "tote-model", "logicke-urovne-pojem", "percepcni-pozice-pojem", "meta-pozice", "asociace", "disociace", "kongruence", "inkongruence", "ekologicka-kontrola", "ramec-pojem", "chunking", "casova-osa-pojem", "metaprogramy-pojem", "kotva-pojem", "vypousteni", "zkreslovani", "zobecnovani", "hluboka-a-povrchova-struktura", "modelovani-pojem", "vnitrni-dialog", "uptime-a-downtime", "trans-pojem", "transderivacni-hledani", "pacing-a-leading-pojem"]
+catalog_size = 45
+catalog_members = ["reprezentacni-systemy", "vizualni-system", "auditivni-system", "kinesteticky-system", "olfaktorni-a-gustatorni-system", "auditivne-digitalni-system", "vedouci-system", "preferovany-reprezentacni-system", "predikaty", "ocni-pristupove-signaly", "synestezie", "submodality-pojem", "kalibrace", "smyslova-ostrost", "raport", "stav", "zdrojovy-stav", "strategie-pojem", "tote-model", "logicke-urovne-pojem", "percepcni-pozice-pojem", "meta-pozice", "asociace", "disociace", "kongruence", "inkongruence", "ekologicka-kontrola", "ramec-pojem", "chunking", "casova-osa-pojem", "metaprogramy-pojem", "kotva-pojem", "vypousteni", "zkreslovani", "zobecnovani", "hluboka-a-povrchova-struktura", "modelovani-pojem", "vnitrni-dialog", "uptime-a-downtime", "trans-pojem", "transderivacni-hledani", "pacing-a-leading-pojem", "obsah-a-vztah", "interpunkce-komunikace", "symetricka-a-komplementarni-interakce"]
 catalog_types = ["concept"]
 catalog_sources = ["bandler-grinder-1975", "bandler-grinder-1975b", "bandler-grinder-1979", "bateson-1972", "chartrand-bargh-1999", "chomsky-1965", "cialdini-2009", "dilts-delozier-2000", "dilts-1980", "druckman-swets-1988", "grinder-bandler-1976", "heap-1988", "loftus-palmer-1974", "miller-galanter-pribram-1960", "norcross-2006", "oconnor-seymour-1990", "perls-1969", "roderique-davies-2009", "rogers-1951", "satir-1972", "sharpley-1984", "sharpley-1987", "sturt-2012", "tosey-mathison-2009", "tversky-kahneman-1974", "wiseman-2012", "witkowski-2010"]
 +++
@@ -197,6 +197,9 @@ kapitole o [kognitivních vědách](@/kompendium/07-teoreticke-reflexe/kognitivn
 | `NLP-02.40` | [Trans](@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md) | Trance (concept) | pojem | terapeutické i vlivové | vysoké |
 | `NLP-02.41` | [Transderivační hledání](@/kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md) | Transderivational search | pojem | terapeutické i vlivové | střední |
 | `NLP-02.42` | [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) | Pacing and leading (concept) | pojem | terapeutické i vlivové | vysoké |
+| `NLP-02.43` | [Obsahová a vztahová rovina sdělení](@/kompendium/nlp-vzorce/zakladni-pojmy/obsah-a-vztah.md) | Content and relationship aspects | pojem | terapeutické i vlivové | střední |
+| `NLP-02.44` | [Interpunkce komunikačního sledu](@/kompendium/nlp-vzorce/zakladni-pojmy/interpunkce-komunikace.md) | Punctuation of the communicational sequence | pojem | terapeutické i vlivové | střední |
+| `NLP-02.45` | [Symetrická a komplementární interakce](@/kompendium/nlp-vzorce/zakladni-pojmy/symetricka-a-komplementarni-interakce.md) | Symmetrical and complementary interaction | pojem | terapeutické i vlivové | vysoké |
 
 ## Mapa rodiny
 
@@ -248,6 +251,9 @@ flowchart LR
   n40["Trans"]
   n41["Transderivační hledání"]
   n42["Pacing a leading"]
+  n43["Obsahová a vztahová rovina sdělení"]
+  n44["Interpunkce komunikačního sledu"]
+  n45["Symetrická a komplementární interakce"]
   F --> n1
   n1 --> n2
   n1 --> n3
@@ -290,6 +296,9 @@ flowchart LR
   F --> n40
   F --> n41
   F --> n42
+  F --> n43
+  F --> n44
+  F --> n45
   click n1 "@/kompendium/nlp-vzorce/zakladni-pojmy/reprezentacni-systemy.md"
   click n2 "@/kompendium/nlp-vzorce/zakladni-pojmy/vizualni-system.md"
   click n3 "@/kompendium/nlp-vzorce/zakladni-pojmy/auditivni-system.md"
@@ -332,6 +341,9 @@ flowchart LR
   click n40 "@/kompendium/nlp-vzorce/zakladni-pojmy/trans-pojem.md"
   click n41 "@/kompendium/nlp-vzorce/zakladni-pojmy/transderivacni-hledani.md"
   click n42 "@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md"
+  click n43 "@/kompendium/nlp-vzorce/zakladni-pojmy/obsah-a-vztah.md"
+  click n44 "@/kompendium/nlp-vzorce/zakladni-pojmy/interpunkce-komunikace.md"
+  click n45 "@/kompendium/nlp-vzorce/zakladni-pojmy/symetricka-a-komplementarni-interakce.md"
 ```
 
 <!-- kompendium:katalog-vazby:end -->

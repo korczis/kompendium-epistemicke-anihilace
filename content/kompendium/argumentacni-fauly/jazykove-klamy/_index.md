@@ -20,8 +20,8 @@ catalog_export = "data/fauly-katalog.json"
 catalog_family = "jazykove-klamy"
 catalog_code = "06"
 catalog_en = "Fallacies of language and ambiguity"
-catalog_size = 13
-catalog_members = ["ekvivokace", "amfibolie", "klam-duraznu", "klam-skladani", "klam-deleni", "reifikace", "etymologicky-klam", "presvedcovaci-definice", "nabity-jazyk", "vyhybava-slova", "eufemismus-a-dysfemismus", "vytrzeni-z-kontextu", "definicni-klam"]
+catalog_size = 15
+catalog_members = ["ekvivokace", "amfibolie", "klam-duraznu", "klam-skladani", "klam-deleni", "reifikace", "etymologicky-klam", "presvedcovaci-definice", "nabity-jazyk", "vyhybava-slova", "eufemismus-a-dysfemismus", "vytrzeni-z-kontextu", "definicni-klam", "vagnost", "rozliseni-bez-rozdilu"]
 catalog_types = ["informal", "tactic"]
 catalog_sources = ["bandler-grinder-1975b", "bentham-1824", "copi-cohen-mcmahon-2014", "damer-2009", "grice-1975", "hahn-oaksford-2007", "hamblin-1970", "lakoff-johnson-1980", "loftus-palmer-1974", "mill-1843", "robinson-1950", "roozenbeek-2022", "tversky-kahneman-1981", "walton-1995", "eemeren-grootendorst-1992"]
 +++
@@ -175,6 +175,8 @@ důvodech, a umět to klidně a věcně pojmenovat.
 | `AF-06.11` | [Eufemismus a dysfemismus](@/kompendium/argumentacni-fauly/jazykove-klamy/eufemismus-a-dysfemismus.md) | Euphemism and dysphemism | rétorická taktika | převážně záměrná taktika | vysoké |
 | `AF-06.12` | [Vytržení z kontextu](@/kompendium/argumentacni-fauly/jazykove-klamy/vytrzeni-z-kontextu.md) | Quoting out of context | rétorická taktika | převážně záměrná taktika | vysoké |
 | `AF-06.13` | [Definiční klam](@/kompendium/argumentacni-fauly/jazykove-klamy/definicni-klam.md) | Definist fallacy | neformální klam | chyba i taktika | nízké |
+| `AF-06.14` | [Zneužití vágnosti](@/kompendium/argumentacni-fauly/jazykove-klamy/vagnost.md) | Vagueness (misuse of a vague expression) | neformální klam | chyba i taktika | střední |
+| `AF-06.15` | [Rozlišení bez rozdílu](@/kompendium/argumentacni-fauly/jazykove-klamy/rozliseni-bez-rozdilu.md) | Distinction without a difference | neformální klam | převážně záměrná taktika | střední |
 
 ## Mapa rodiny
 
@@ -197,6 +199,8 @@ flowchart LR
   n11["Eufemismus a dysfemismus"]
   n12["Vytržení z kontextu"]
   n13["Definiční klam"]
+  n14["Zneužití vágnosti"]
+  n15["Rozlišení bez rozdílu"]
   F --> n1
   F --> n2
   F --> n3
@@ -210,6 +214,8 @@ flowchart LR
   F --> n11
   n3 --> n12
   F --> n13
+  F --> n14
+  F --> n15
   click n1 "@/kompendium/argumentacni-fauly/jazykove-klamy/ekvivokace.md"
   click n2 "@/kompendium/argumentacni-fauly/jazykove-klamy/amfibolie.md"
   click n3 "@/kompendium/argumentacni-fauly/jazykove-klamy/klam-duraznu.md"
@@ -223,6 +229,8 @@ flowchart LR
   click n11 "@/kompendium/argumentacni-fauly/jazykove-klamy/eufemismus-a-dysfemismus.md"
   click n12 "@/kompendium/argumentacni-fauly/jazykove-klamy/vytrzeni-z-kontextu.md"
   click n13 "@/kompendium/argumentacni-fauly/jazykove-klamy/definicni-klam.md"
+  click n14 "@/kompendium/argumentacni-fauly/jazykove-klamy/vagnost.md"
+  click n15 "@/kompendium/argumentacni-fauly/jazykove-klamy/rozliseni-bez-rozdilu.md"
 ```
 
 <!-- kompendium:katalog-vazby:end -->

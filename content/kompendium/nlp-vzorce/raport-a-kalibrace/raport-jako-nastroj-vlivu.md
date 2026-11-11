@@ -35,7 +35,7 @@ catalog_broader = "raport"
 catalog_narrower = ["pseudoempatie"]
 catalog_depth = 1
 catalog_ancestors = ["raport"]
-catalog_related = ["lichotka", "vyznam-komunikace-je-reakce", "zakon-pozadovane-variety", "odpor-jako-nedostatek-raportu", "raport", "pacing-a-leading-pojem", "utilizace", "kotveni-v-kontrolujicich-vztazich", "druha-pozice", "duvera", "zrcadleni", "pacing-a-leading", "vedeni-v-raportu", "sladeni-hodnot", "pseudoempatie", "nlp-v-prodeji", "nlp-v-komunite-svadeni", "falesne-zrcadleni-v-podvodech", "obrana-proti-vlivovym-vzorcum"]
+catalog_related = ["lichotka", "vyznam-komunikace-je-reakce", "zakon-pozadovane-variety", "odpor-jako-nedostatek-raportu", "raport", "pacing-a-leading-pojem", "utilizace", "kotveni-v-kontrolujicich-vztazich", "skryte-kotveni", "druha-pozice", "duvera", "zrcadleni", "pacing-a-leading", "vedeni-v-raportu", "sladeni-hodnot", "pseudoempatie", "nlp-v-prodeji", "nlp-v-komunite-svadeni", "falesne-zrcadleni-v-podvodech", "obrana-proti-vlivovym-vzorcum"]
 catalog_related_declared = ["raport", "nlp-v-prodeji", "falesne-zrcadleni-v-podvodech", "pseudoempatie", "obrana-proti-vlivovym-vzorcum", "vedeni-v-raportu"]
 catalog_kompendium = ["kompendium/techniques/ea-8-2-4-hassan-cult-criteria.md", "kompendium/techniques/ea-8-1-1-bite-model-detail.md", "kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md"]
 catalog_canonical = ""
@@ -237,6 +237,7 @@ z opatrnosti stala trvalá nedůvěra ke všem.
 - [Pacing a leading](@/kompendium/nlp-vzorce/zakladni-pojmy/pacing-a-leading-pojem.md) – příbuzné heslo (Základní pojmy NLP, Pacing and leading (concept))
 - [Utilizace](@/kompendium/nlp-vzorce/ericksonovska-hypnoza/utilizace.md) – příbuzné heslo (Ericksonovská hypnóza, Utilisation)
 - [Kotvení v kontrolujících vztazích](@/kompendium/nlp-vzorce/kotveni/kotveni-v-kontrolujicich-vztazich.md) – příbuzné heslo (Kotvení, Anchoring in controlling relationships)
+- [Skryté kotvení](@/kompendium/nlp-vzorce/kotveni/skryte-kotveni.md) – příbuzné heslo (Kotvení, Covert anchoring)
 - [Druhá pozice](@/kompendium/nlp-vzorce/urovne-a-pozice/druha-pozice.md) – příbuzné heslo (Logické úrovně a percepční pozice, Second position)
 - [Důvěra](@/kompendium/nlp-vzorce/metaprogramy/duvera.md) – příbuzné heslo (Metaprogramy, Trust)
 - [Zrcadlení](@/kompendium/nlp-vzorce/raport-a-kalibrace/zrcadleni.md) – příbuzné heslo (Raport a kalibrace, Mirroring)

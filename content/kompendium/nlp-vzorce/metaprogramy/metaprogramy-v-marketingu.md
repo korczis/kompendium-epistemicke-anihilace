@@ -35,15 +35,15 @@ catalog_broader = "metaprogramy-pojem"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["metaprogramy-pojem"]
-catalog_related = ["metaprogramy-pojem", "presupozice-v-reklame", "kotvy-v-reklame", "submodality-v-reklame", "utilizace-strategie", "k-cili-a-od-problemu", "shoda-a-rozdil", "hodnoty-pri-koupi", "shoda-predikatu", "nlp-v-prodeji", "nlp-v-reklame"]
+catalog_related = ["metaprogramy-pojem", "presupozice-v-reklame", "kotvy-v-reklame", "submodality-v-reklame", "utilizace-strategie", "k-cili-a-od-problemu", "shoda-a-rozdil", "hodnoty-pri-koupi", "zmena-metaprogramu", "shoda-predikatu", "nlp-v-prodeji", "nlp-v-reklame"]
 catalog_related_declared = ["nlp-v-reklame", "hodnoty-pri-koupi", "k-cili-a-od-problemu", "presupozice-v-reklame", "kotvy-v-reklame", "nlp-v-prodeji"]
 catalog_kompendium = ["kompendium/techniques/ea-9-3-3-feed-personalization-bias.md", "kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md", "kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md"]
 catalog_canonical = ""
 catalog_links_prose = ["kompendium/nlp-vzorce/kotveni/kotvy-v-reklame.md", "kompendium/nlp-vzorce/presupozice/presupozice-v-reklame.md", "kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md", "kompendium/nlp-vzorce/zakladni-pojmy/metaprogramy-pojem.md", "kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md", "kompendium/techniques/ea-9-3-3-feed-personalization-bias.md", "kompendium/techniques/ea-9-5-3-emotional-meme-engineering.md"]
 catalog_prev = "metaprogramy-v-naboru"
-catalog_next = ""
+catalog_next = "zmena-metaprogramu"
 catalog_position = 23
-catalog_family_size = 23
+catalog_family_size = 24
 catalog_sources = ["charvet-1997", "cialdini-2009", "druckman-swets-1988", "hall-bodenhamer-1997", "kahneman-2011", "mcguire-1964", "petty-cacioppo-1986", "tversky-kahneman-1981", "witkowski-2010", "van-der-linden-2023"]
 catalog_sources_primary = ["charvet-1997", "hall-bodenhamer-1997"]
 catalog_sources_roots = []
@@ -233,6 +233,7 @@ aby jej obešlo.
 - [K cíli a od problému](@/kompendium/nlp-vzorce/metaprogramy/k-cili-a-od-problemu.md) – příbuzné heslo (Metaprogramy, Toward and away from)
 - [Shoda a rozdíl](@/kompendium/nlp-vzorce/metaprogramy/shoda-a-rozdil.md) – příbuzné heslo (Metaprogramy, Sameness and difference)
 - [Hodnoty při koupi](@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md) – příbuzné heslo (Metaprogramy, Value buying)
+- [Změna metaprogramů](@/kompendium/nlp-vzorce/metaprogramy/zmena-metaprogramu.md) – příbuzné heslo (Metaprogramy, Changing meta-programs)
 - [Shoda predikátů](@/kompendium/nlp-vzorce/raport-a-kalibrace/shoda-predikatu.md) – příbuzné heslo (Raport a kalibrace, Predicate matching)
 - [NLP v prodeji](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-prodeji.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in sales)
 - [NLP v reklamě](@/kompendium/nlp-vzorce/vliv-a-zneuziti/nlp-v-reklame.md) – příbuzné heslo (Vliv a zneužití NLP, NLP in advertising)
@@ -246,5 +247,6 @@ aby jej obešlo.
 **V katalogu**
 
 - [Metaprogramy v náboru a řízení](@/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md) – předchozí heslo rodiny
+- [Změna metaprogramů](@/kompendium/nlp-vzorce/metaprogramy/zmena-metaprogramu.md) – další heslo rodiny
 
 <!-- kompendium:katalog-vazby:end -->

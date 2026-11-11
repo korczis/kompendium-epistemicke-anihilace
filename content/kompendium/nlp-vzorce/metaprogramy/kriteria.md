@@ -35,7 +35,7 @@ catalog_broader = "metaprogramy-pojem"
 catalog_narrower = []
 catalog_depth = 1
 catalog_ancestors = ["metaprogramy-pojem"]
-catalog_related = ["som-hierarchie-kriterii", "uroven-presvedceni-a-hodnot", "vnitrni-a-vnejsi-reference", "struktura-pravidel", "hodnoty-pri-koupi", "sladeni-hodnot", "dukazni-procedura", "slovni-baliky"]
+catalog_related = ["som-hierarchie-kriterii", "uroven-presvedceni-a-hodnot", "zmena-hodnot", "vnitrni-a-vnejsi-reference", "struktura-pravidel", "hodnoty-pri-koupi", "sladeni-hodnot", "dukazni-procedura", "slovni-baliky"]
 catalog_related_declared = ["som-hierarchie-kriterii", "sladeni-hodnot", "slovni-baliky", "uroven-presvedceni-a-hodnot", "vnitrni-a-vnejsi-reference"]
 catalog_kompendium = ["kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md", "kompendium/techniques/ea-2-5-9-identity-uncertainty-cult.md", "kompendium/case-studies/61-corporate-leadership-cult.md"]
 catalog_canonical = ""
@@ -43,7 +43,7 @@ catalog_links_prose = ["kompendium/nlp-vzorce/raport-a-kalibrace/sladeni-hodnot.
 catalog_prev = "proaktivni-a-reaktivni"
 catalog_next = "kanal-presvedceni"
 catalog_position = 7
-catalog_family_size = 23
+catalog_family_size = 24
 catalog_sources = ["chartrand-bargh-1999", "charvet-1997", "cialdini-2009", "dilts-1999", "hassan-1988", "herman-1992", "james-woodsmall-1988", "lifton-1961", "miller-rollnick-2013", "passmore-rowson-2019", "tosey-mathison-2009", "witkowski-2010"]
 catalog_sources_primary = ["charvet-1997", "dilts-1999", "james-woodsmall-1988"]
 catalog_sources_roots = []
@@ -214,6 +214,7 @@ sladění hodnot v rozhovoru rozvádí stránka o [sladění hodnot](@/kompendiu
 
 - [Hierarchie kritérií](@/kompendium/nlp-vzorce/sleight-of-mouth/som-hierarchie-kriterii.md) – příbuzné heslo (Sleight of Mouth, Hierarchy of criteria)
 - [Úroveň přesvědčení a hodnot](@/kompendium/nlp-vzorce/urovne-a-pozice/uroven-presvedceni-a-hodnot.md) – příbuzné heslo (Logické úrovně a percepční pozice, Beliefs and values level)
+- [Změna hodnot](@/kompendium/nlp-vzorce/presvedceni/zmena-hodnot.md) – příbuzné heslo (Přesvědčení, Changing values)
 - [Vnitřní a vnější referenční rámec](@/kompendium/nlp-vzorce/metaprogramy/vnitrni-a-vnejsi-reference.md) – příbuzné heslo (Metaprogramy, Internal and external reference)
 - [Struktura pravidel](@/kompendium/nlp-vzorce/metaprogramy/struktura-pravidel.md) – příbuzné heslo (Metaprogramy, Rule structure)
 - [Hodnoty při koupi](@/kompendium/nlp-vzorce/metaprogramy/hodnoty-pri-koupi.md) – příbuzné heslo (Metaprogramy, Value buying)

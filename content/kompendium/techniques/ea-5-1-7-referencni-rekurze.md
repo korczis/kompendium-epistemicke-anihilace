@@ -179,14 +179,6 @@ Intervence: Operační rekonstrukce — definice obou pojmů přes pozorovateln�
 - **Autentický hermeneutický kruh** — *otevřený*, napojený na externí evidenci, umožňuje pragmatické závěry.
 - **Sokratovská aporia** — produktivní zastavení, které **vede** k novému tázání, nikoli paralyzuje.
 
-## Vztah k Prismatic platformě
-
-Referenční rekurze má v Prismatic platformě tři hlavní defenzivní mapování:
-
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) cycle detector** — provenance graf každého epistemického tvrzení je analyzován na uzavřené cykly; podezřelé struktury jsou flagovány a vyžadují externí kotvu.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} terminační guard** — každé rozhodovací okno má pevný *decision deadline*; po jeho překročení systém vynucuje pragmatický kompromis a zaznamenává jej do kalibrační historie.
-- **[Color Teams](@/glossary/color-teams.md) cross-paradigm review** — sporná rozhodnutí jsou rutinně konzultována s týmy operujícími mimo původní pojmový aparát, čímž se snižuje pravděpodobnost uvíznutí v lokálním cyklu.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)

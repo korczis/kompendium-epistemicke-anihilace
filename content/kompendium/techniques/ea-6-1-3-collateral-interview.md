@@ -246,15 +246,6 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 
 Triangulizuje [EA-6.1.1 strukturální rozhovor](@/kompendium/techniques/ea-6-1-1-screening-strukturalni-rozhovor.md), validuje [EA-6.1.2 self-report](@/kompendium/techniques/ea-6-1-2-self-report-instrument.md), připravuje [EA-6.3.8 relační restauraci](@/kompendium/techniques/ea-6-3-8-relacni-restaurace.md).
 
-## Vztah k Prismatic platformě
-
-Technika je integrována do širšího ekosystému platformy Prismatic prostřednictvím:
-
-- **Prismatic Nabla** — epistemický engine umožňuje kvantifikaci epistemicko-afektivního poškození jako vstup do klinického assessmentu a výstup z monitoring intervence
-- **[Decision Engine](@/glossary/decision-engine.md)** — kalibrace klinického rozhodování o indikaci/modifikaci/ukončení techniky s explicitními Brierův skór metrikami
-- **OSINT toolbox** — pre-klinické forenzní DD klientů s anamnézou expozice manipulativním systémům, validizace anamnestických údajů
-- **Akademie** — interaktivní vzdělávací moduly pro klinickou populaci a peer-support komunity
-
 ## Související
 
 ### Sesterské techniky (6.1 Diagnostické techniky)

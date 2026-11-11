@@ -61,11 +61,6 @@
       {
         "from": "kompendium/06-klinicke-aplikace/_index.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
-        "kind": "link",
         "to": "kompendium/techniques/_index.md"
       },
       {
@@ -181,7 +176,7 @@
       {
         "class": "glossary",
         "distance": 1,
-        "in": 376,
+        "in": 375,
         "path": "glossary/taxonomie-ea.md",
         "title": "Taxonomie EA"
       },
@@ -223,23 +218,16 @@
       {
         "class": "glossary",
         "distance": 2,
-        "in": 605,
+        "in": 603,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
       },
       {
         "class": "glossary",
         "distance": 2,
-        "in": 380,
+        "in": 344,
         "path": "glossary/nabla-infinity.md",
         "title": "NABLA Infinity (∇∞)"
-      },
-      {
-        "class": "glossary",
-        "distance": 2,
-        "in": 329,
-        "path": "glossary/_index.md",
-        "title": "Glosář"
       },
       {
         "class": "kompendium/06-klinicke-aplikace",
@@ -247,13 +235,20 @@
         "in": 329,
         "path": "kompendium/06-klinicke-aplikace/_index.md",
         "title": "06. Klinické aplikace a diagnostika"
+      },
+      {
+        "class": "glossary",
+        "distance": 2,
+        "in": 328,
+        "path": "glossary/_index.md",
+        "title": "Glosář"
       }
     ],
     "ok": true,
     "op": "neighbourhood",
     "path": "matice.md",
     "schema": "kompendium-engine/v1",
-    "total": 549,
+    "total": 548,
     "truncated": true
   },
   "input": {

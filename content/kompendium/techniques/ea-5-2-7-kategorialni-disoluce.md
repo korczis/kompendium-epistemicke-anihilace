@@ -162,12 +162,6 @@ Intervence: 36 měsíců rekategorizační práce, vyžadující **odloučení o
 
 - **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-konvergentni-meta-singularita)** — terminální stav podtřídy 5.2, v němž se sbíhají dílčí poškození [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) až [EA-5.2.29](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md).
 
-## Vztah k Prismatic platformě
-
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** vynucuje **typovou kategoriálnost** každého epistemického aktu — disoluce by byla zachycena jako typová chyba.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** vyžaduje **kategorialně definovaný kontext** rozhodnutí; bez kategorialní organizace systém odmítá generovat výstup.
-- **OSINT framework** strukturálně rozlišuje **kvantitativní** od **kvalitativní** evidence, a tedy nemůže být zasažen kategoriální disolucí.
-
 ## Literatura
 
 - Blankenburg, W. (1971). *Der Verlust der natürlichen Selbstverständlichkeit*. Stuttgart: Enke.

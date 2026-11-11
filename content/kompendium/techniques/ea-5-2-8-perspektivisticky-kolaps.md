@@ -155,12 +155,6 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
 - **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-konvergentni-meta-singularita)** — terminální stav podtřídy 5.2, v němž se sbíhají dílčí poškození [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) až [EA-5.2.29](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md).
 - **[EA-5.2.20 Apperceptivní rozklad](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-20-apperceptivni-rozklad)** — rozpad transcendentální jednoty apercepce.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** vyžaduje **explicitní stanovisko** rozhodovatele s perspektivním ukotvením; aperspektivismus by byl zachycen jako **chybějící input**.
-- **OSINT framework** strukturálně rozlišuje **vlastní pozorování** od **pozorování zdroje** — perspektivnost je vynucená.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) provenance** vyžaduje **autorství** každého epistemického aktu; absence perspektivy by byla typová chyba.
-
 ## Literatura
 
 - Britton, W. B. (2019). Can mindfulness be too much of a good thing? *Current Opinion in Psychology*, 28, 159–165.

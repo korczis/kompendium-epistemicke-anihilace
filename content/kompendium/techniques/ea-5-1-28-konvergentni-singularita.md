@@ -158,12 +158,6 @@ Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signa
 
 - **Hluboká integrace zkušenosti** — autentická integrace zachovává **schopnost dekonstrukce**; singularita ji **eliminuje**.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} topology check** — kalibrační logika detekuje rozhodovací řady s **monotónní strukturou** (všechna rozhodnutí konvergující ke stejnému doporučení) jako červenou vlajku.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) divergence guarantee** — epistemický pipeline má strukturálně vynucené **multiple competing hypotheses**; konvergence k jedné hypotéze bez ortogonální evidence je flagována.
-- **[Color Teams](@/glossary/color-teams.md) red-team adversariality** — institucionální devil's advocacy proti monotonizaci.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 5 — Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md)

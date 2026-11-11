@@ -151,12 +151,6 @@ Online komunita sdílí „synchronicity“ události — ekonomické zprávy, g
 - **Kolektivní pseudo-totalitní rámce** — celé hnutí operuje v holografické redukci.
 - **Pseudo-vědecké instituce** — „univerzity“ a „akademie“ institucionalizující rámec.
 
-## Vztah k Prismatic platformě
-
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemic monitor flaguje claims s univerzální applicability bez doménové specifikace.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — vyžaduje **specifická falsifikační kritéria** pro každé rozhodnutí; rámce typu „vše je projev X“ jsou strukturálně odmítnuty.
-- **{{ <cross_link path="/osint/toolbox" text="OSINT framework" /> }}** — vyžaduje **konkrétní zdrojovou evidenci** pro každý claim, eliminuje pseudo-totalitní generalizace.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md)

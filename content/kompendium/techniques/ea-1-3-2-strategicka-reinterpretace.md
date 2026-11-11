@@ -208,12 +208,6 @@ Intervence: Pre-registered outcome criteria; structured clinical decision rules.
 - **Legitimní hermeneutická revize** — strukturálně podobná, ale **explicitně** dokumentovaná a podpořená externí evidencí.
 - **Lakatos progressive shift** — některé teoretické revize jsou legitimní; distinkce na úrovni externí podpory a transparency.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) audit log** — explicitní záznam **každé** interpretace evidence; reinterpretace je **strukturálně** dokumentována a flagged.
-- **NABLA Infinity provenance tracking** — každé tvrzení má **temporal lineage** s explicit interpretation rules; změny jsou auditovatelné.
-- **OSINT investigation framework** — pre-registered hypotheses s explicit interpretation principles před každou investigation.
-
 ## Literatura
 
 - Festinger, L., Riecken, H. W., & Schachter, S. (1956). *When Prophecy Fails: A Social and Psychological Study of a Modern Group That Predicted the Destruction of the World*. University of Minnesota Press.

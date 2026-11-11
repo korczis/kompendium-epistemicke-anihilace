@@ -157,12 +157,6 @@ Klient absolvoval sérii ayahuasca seancí s „shamanem“ bez klinické superv
 - **Kolektivní epistemická singularita** — celá komunita ztrácí diferenciační kapacitu.
 - **Sektářská konsolidace** — institucionalizace anihilačního rámce.
 
-## Vztah k Prismatic platformě
-
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemický monitor explicitně modeluje *unfalsifiable interpretive frames* jako kategorii rizika.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — kalibrační logika penalizuje rozhodnutí, jejichž odůvodnění není redukovatelné na falsifikovatelná tvrzení.
-- **[Color Teams](@/glossary/color-teams.md)** — [Red Team](@/glossary/red-team.md) scénáře explicitně zahrnují kvazi-mystické vektory v hodnocení společenské manipulace.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md)

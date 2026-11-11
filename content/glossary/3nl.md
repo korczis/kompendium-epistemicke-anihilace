@@ -46,7 +46,7 @@ které stejnou zkratku vykládá jako tři vnořené řídicí smyčky (mise, ep
 hesla popisují architekturu platformy z různých úhlů. Pro Kompendium je 3NL kontextem
 platformy, z níž kniha vzešla; kapitoly [Teoretické
 základy](@/kompendium/02-uvod/teoreticke-zaklady.md) a [Vztah k
-NABLA](@/kompendium/02-uvod/vztah-k-nabla.md) na něj odkazují, když vysvětlují, jak je
+NABLA](@/kompendium/02-uvod/_index.md) na něj odkazují, když vysvětlují, jak je
 [taxonomie EA](@/glossary/taxonomie-ea.md) zapojena do epistemického procesu platformy.
 
 ## Přehled
@@ -293,7 +293,7 @@ osvědčila v architektuře úložiště platformy s více adaptéry.
 
 - [Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md) – kde se kniha odvolává na
   architekturu platformy.
-- [Vztah k NABLA](@/kompendium/02-uvod/vztah-k-nabla.md) – jak je taxonomie EA zapojena do
+- [Vztah k NABLA](@/kompendium/02-uvod/_index.md) – jak je taxonomie EA zapojena do
   epistemického procesu platformy.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->

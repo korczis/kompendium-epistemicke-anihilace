@@ -179,15 +179,6 @@ Aktivista po 3 letech v intenzivním rámci reportoval, že nedokáže rozlišit
 
 - **Buddhistická šúnjatá / non-dualismus** — strukturovaná, formálně artikulovaná negace **substanciální** kategorie, která **udržuje** funkční rozlišení v praxi. Kategorická transgrese je naopak **strukturální deficit** bez funkční obnovy.
 
-## Vztah k Prismatic platformě
-
-Kategorická transgrese je strukturálním motivem pro několik defenzivních mechanismů Prismatic:
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} ontological audit** — rozhodovací logika vyžaduje, aby vstupní data byla explicitně klasifikována (fakt / hypotéza / hodnocení / narativ). Klasifikační konfuze je flagována jako epistemická červená vlajka.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) provenance + ontological tagging** — provenance tracking sleduje, **odkud** zkušenost / informace pochází (vlastní vjem, převzatý narativ, model output, historický záznam) a explicitně tag pro detekci memory blending.
-- **[Color Teams](@/glossary/color-teams.md) ontologická forenzika** — [Red Team](@/glossary/red-team.md) explicitně testuje, zda argumentace odolá auditu kategoriální stability vstupů.
-- **OSINT framework's source ontology** — všechny zdroje jsou explicitně klasifikovány (primary / secondary / interpretive / narrative); platforma ne směšuje narativní a faktická tvrzení.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)

@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 605,
+        "in": 603,
         "kind": "Pojem",
         "path": "glossary/epistemicka-anihilace.md",
         "tier": 4,
@@ -95,7 +95,7 @@
       },
       {
         "code": null,
-        "in": 43,
+        "in": 40,
         "kind": "Pojem",
         "path": "glossary/epistemic-pipeline.md",
         "tier": 4,
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "Epi",
     "schema": "kompendium-engine/v1",
-    "total": 408
+    "total": 407
   },
   "input": {
     "op": "search",

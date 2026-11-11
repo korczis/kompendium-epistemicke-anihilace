@@ -159,12 +159,6 @@ Intervence: editoriální intervence, povinný **stylistický** rámec, redukce 
 - **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — pojmová aporie přenesena na meta-kognitivní úroveň.
 - **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-konvergentni-meta-singularita)** — terminální stav podtřídy 5.2, v němž se sbíhají dílčí poškození [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) až [EA-5.2.29](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md).
 
-## Vztah k Prismatic platformě
-
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** vyžaduje **explicitně typované pojmy** v každém epistemickém aktu — aporie by byla zachycena jako typová chyba.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** vyžaduje **konkrétní formulaci** rozhodovaných pojmů; aporetická paralyzace by zablokovala vstup.
-- **OSINT framework** strukturálně vyžaduje **operacionalizované** pojmy (entity, atribut, relace), které musí být **funkčně použitelné**.
-
 ## Literatura
 
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.

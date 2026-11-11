@@ -29,9 +29,6 @@
  "bold:adaptivni": [
   "bold-candidate"
  ],
- "bold:akademie": [
-  "bold-candidate"
- ],
  "bold:akceptuje": [
   "bold-candidate"
  ],
@@ -69,9 +66,6 @@
   "bold-candidate"
  ],
  "bold:co-hledas": [
-  "bold-candidate"
- ],
- "bold:confidence-calibration": [
   "bold-candidate"
  ],
  "bold:continuous-adjustment": [
@@ -299,9 +293,6 @@
  "bold:kazda": [
   "bold-candidate"
  ],
- "bold:kazde": [
-  "bold-candidate"
- ],
  "bold:kazdy": [
   "bold-candidate"
  ],
@@ -434,9 +425,6 @@
  "bold:musi": [
   "bold-candidate"
  ],
- "bold:nabla-infinity-provenance-tracking": [
-  "bold-candidate"
- ],
  "bold:navrat": [
   "bold-candidate"
  ],
@@ -473,9 +461,6 @@
  "bold:nez-prejdes-ke-konkretnim-kategoriim": [
   "bold-candidate"
  ],
- "bold:nezavisle": [
-  "bold-candidate"
- ],
  "bold:nezavislost-zdroju": [
   "bold-candidate"
  ],
@@ -485,13 +470,7 @@
  "bold:noeticko-noematicka-korelace": [
   "bold-candidate"
  ],
- "bold:observation": [
-  "bold-candidate"
- ],
  "bold:odchod-a-rekonstrukce": [
-  "bold-candidate"
- ],
- "bold:odkud": [
   "bold-candidate"
  ],
  "bold:odliseni": [
@@ -510,12 +489,6 @@
   "bold-candidate"
  ],
  "bold:opravneni": [
-  "bold-candidate"
- ],
- "bold:osint-framework": [
-  "bold-candidate"
- ],
- "bold:osint-toolbox": [
   "bold-candidate"
  ],
  "bold:osobni-signaly": [
@@ -596,9 +569,6 @@
  "bold:presnost": [
   "bold-candidate"
  ],
- "bold:presvedceni": [
-  "bold-candidate"
- ],
  "bold:prevence": [
   "bold-candidate"
  ],
@@ -615,9 +585,6 @@
   "bold-candidate"
  ],
  "bold:pripravenost": [
-  "bold-candidate"
- ],
- "bold:prismatic-nabla": [
   "bold-candidate"
  ],
  "bold:pristupova-uroven": [
@@ -660,9 +627,6 @@
   "bold-candidate"
  ],
  "bold:psqi": [
-  "bold-candidate"
- ],
- "bold:puvodni": [
   "bold-candidate"
  ],
  "bold:quality-assurance": [
@@ -758,9 +722,6 @@
  "bold:soucasne": [
   "bold-candidate"
  ],
- "bold:source-diversity-check": [
-  "bold-candidate"
- ],
  "bold:souvisejici": [
   "bold-candidate"
  ],
@@ -779,9 +740,6 @@
  "bold:stratifikace-meta-urovni": [
   "bold-candidate"
  ],
- "bold:stratifikovanymi": [
-  "bold-candidate"
- ],
  "bold:strukturalne": [
   "bold-candidate"
  ],
@@ -798,9 +756,6 @@
   "bold-candidate"
  ],
  "bold:strukturalni-podminky": [
-  "bold-candidate"
- ],
- "bold:strukturalnim-motivem": [
   "bold-candidate"
  ],
  "bold:strukturne-izomorfni": [
@@ -861,9 +816,6 @@
   "bold-candidate"
  ],
  "bold:udrzuje": [
-  "bold-candidate"
- ],
- "bold:unknown-valid": [
   "bold-candidate"
  ],
  "bold:uplna-epistemicka-singularita": [
@@ -2066,8 +2018,7 @@
  ],
  "content/kompendium/02-uvod/historicky-kontext.md": [
   "bullets",
-  "citations",
-  "bold-term"
+  "citations"
  ],
  "content/kompendium/02-uvod/metodologicke-poznamky.md": [
   "bullets",
@@ -2078,15 +2029,6 @@
   "bullets",
   "citations",
   "bold-term"
- ],
- "content/kompendium/02-uvod/vztah-k-decision-engine.md": [
-  "bullets",
-  "citations",
-  "bold-term"
- ],
- "content/kompendium/02-uvod/vztah-k-nabla.md": [
-  "bullets",
-  "citations"
  ],
  "content/kompendium/03-manipulacni-vzorce/_index.md": [
   "detail",
@@ -4490,8 +4432,7 @@
   "detail",
   "weak-link",
   "bullets",
-  "citations",
-  "bold-term"
+  "citations"
  ],
  "content/kompendium/techniques/ea-2-1-3-credentialing-attack.md": [
   "bullets",
@@ -4783,43 +4724,69 @@
   "bullets"
  ],
  "content/kompendium/techniques/ea-3-2-7-individual-supervision.md": [
-  "bullets"
+  "bullets",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-3-2-8-peer-consultation.md": [
-  "bullets"
+  "bullets",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-3-2-9-iatrogenic-risk-assessment.md": [
-  "bullets"
+  "bullets",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md": [
-  "bullets"
+  "bullets",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-3-3-10-funding-model-ethics.md": [
-  "bullets"
+  "bullets",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-3-3-2-irb-protocol-design.md": [
-  "bullets"
+  "bullets",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-3-3-3-curriculum-architecture.md": [
-  "bullets"
+  "bullets",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-3-3-4-evaluation-metrics.md": [
-  "bullets"
+  "bullets",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-3-3-5-certification-pipeline.md": [
-  "bullets"
+  "bullets",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-3-3-6-relapse-prevention-program.md": [
-  "bullets"
+  "bullets",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-3-3-7-alumni-network.md": [
-  "bullets"
+  "bullets",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-3-3-8-research-translation-pipeline.md": [
-  "bullets"
+  "bullets",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-3-3-9-cross-institutional-collaboration.md": [
-  "bullets"
+  "bullets",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-4-1-1-foundation-stage.md": [
   "bullets"
@@ -4843,7 +4810,9 @@
   "bullets"
  ],
  "content/kompendium/techniques/ea-4-1-7-termination-criteria.md": [
-  "bullets"
+  "bullets",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-4-1-8-supervisor-rotation.md": [
   "bullets"
@@ -4859,7 +4828,9 @@
   "bold-term"
  ],
  "content/kompendium/techniques/ea-4-2-1-pre-engagement-screening.md": [
-  "bullets"
+  "bullets",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-4-2-10-emergency-extraction.md": [
   "bullets"
@@ -5003,8 +4974,7 @@
  ],
  "content/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md": [
   "bullets",
-  "citations",
-  "bold-term"
+  "citations"
  ],
  "content/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md": [
   "bullets",
@@ -5012,8 +4982,7 @@
  ],
  "content/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md": [
   "bullets",
-  "citations",
-  "bold-term"
+  "citations"
  ],
  "content/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md": [
   "bullets",
@@ -5228,8 +5197,7 @@
  ],
  "content/kompendium/techniques/ea-5-2-3-noumenalni-redukce.md": [
   "bullets",
-  "citations",
-  "bold-term"
+  "citations"
  ],
  "content/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita.md": [
   "detail",
@@ -5433,11 +5401,15 @@
  ],
  "content/kompendium/techniques/ea-5-4-11-richardova-paradox-zneuziti.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-12-grellingova-paradox-aplikace.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-13-heterolog-self-aplikace.md": [
   "bullets",
@@ -5461,11 +5433,15 @@
  ],
  "content/kompendium/techniques/ea-5-4-18-circular-justification-trap.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-19-self-undermining-claim.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-2-russell-typ-violace.md": [
   "bullets",
@@ -5473,11 +5449,15 @@
  ],
  "content/kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-21-semanticka-vzpoury.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-22-logicka-paradox-eskalace.md": [
   "bullets",
@@ -5485,23 +5465,33 @@
  ],
  "content/kompendium/techniques/ea-5-4-23-modalni-paradox-aplikace.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-25-soritska-paradox-zneuziti.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-26-heap-paradox-eskalace.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-27-ship-of-theseus-aplikace.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-28-trolley-paradox-iterace.md": [
   "bullets",
@@ -5517,19 +5507,27 @@
  ],
  "content/kompendium/techniques/ea-5-4-30-paradox-volby-totalni.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-31-paradox-vsemocnosti.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-32-paradox-tolerance.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-33-paradox-svobody.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-34-paradox-pravdy-prizemni.md": [
   "bullets",
@@ -5537,19 +5535,27 @@
  ],
  "content/kompendium/techniques/ea-5-4-35-surprize-test-paradox.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-36-unexpected-hanging.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-37-paradox-prediktivni.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-38-self-defeating-prediction.md": [
   "bullets",
-  "citations"
+  "citations",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-4-39-tachyon-anti-causality.md": [
   "bullets",
@@ -5711,7 +5717,9 @@
  "content/kompendium/techniques/ea-5-5-19-ultradian-rozklad.md": [
   "bullets",
   "citations",
-  "bold-term"
+  "bold-term",
+  "detail",
+  "weak-link"
  ],
  "content/kompendium/techniques/ea-5-5-2-somato-fenomenologicka-disrupce.md": [
   "bullets",

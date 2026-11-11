@@ -79,16 +79,6 @@ Přílohy jsou organizovány podle **funkční vrstvy**, nikoliv podle obsahu:
 └─────────────────────────────────────────────┘
 ```
 
-## Vztah k platformě Prismatic
-
-Přílohy nejsou izolované — jsou **operativně propojeny** s běžícími systémy:
-
-- **[Glossary](@/glossary/_index.md)** → [Index pojmů](@/kompendium/08-prilohy/index-pojmu.md) deriváuje termíny z hlavního platformového glosáře a recipročně do něj přispívá.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** → [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) poskytují signály pro kalibraci důvěry.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** → [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) mapuje techniky na úrovně L0–L13.
-- **[Color Teams](@/glossary/color-teams.md)** → [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) definuje hranice [Red Team](@/glossary/red-team.md) adversariální simulace.
-- **[3NL architektura](@/glossary/three-nested-loops.md)** → [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) sjednocuje [doctrine](@/glossary/doctrine.md) zkratky napříč platformou.
-
 ## Konvence používání
 
 ### Kdy číst přílohy

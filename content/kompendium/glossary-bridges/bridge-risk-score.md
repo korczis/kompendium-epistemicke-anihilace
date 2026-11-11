@@ -41,7 +41,7 @@ Jeho hodnota závisí na tom, zda je kalibrované – zda skóre 0,8 skutečně 
 a zda je jasné, z čeho vzniklo. Na platformě se skóre opírá o princip [Signal Plurality](@/glossary/signal-plurality.md)
 a rozhodování o něm probíhá v [Decision Engine](@/glossary/decision-engine.md), jehož kalibraci popisuje
 stránka [Decision Engine a kalibrace](@/kompendium/aiad-integration/decision-engine-ea-calibration.md).
-Souvislost s knihou rozvádí kapitola [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md).
+Souvislost s knihou rozvádí kapitola [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md).
 
 ## Analogie, kterou kniha činí
 
@@ -150,7 +150,7 @@ manipulace bez rizika, že se stane nálepkou, a jak zabránit tomu, aby se jeho
 
 **Kniha**
 
-- [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md) – souvislost s knihou.
+- [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md) – souvislost s knihou.
 - [6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) – kombinace znaků místo jediného čísla.
 - [Epistemická kalibrace](@/kompendium/detection-signatures/epistemicka-kalibrace.md) – kalibrace úsudku.
 - [Posuzování věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md) – skóre v řízení.

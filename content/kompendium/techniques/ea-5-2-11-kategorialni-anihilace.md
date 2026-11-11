@@ -120,12 +120,6 @@ Buddhistická šúnyatá je rovněž odlišitelná — autentická praxe **neni�
 - **[EA-5.1.* Ontologické rozpouštění](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — paralelní destrukce na ontologické rovině.
 - **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — eskalační následek ztráty kategoriální struktury.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) kauzální audit** — explicitní validace kauzálních modelů detekuje anihilaci kategorie kauzality.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) strukturální axiomy** — epistemická provenience vyžaduje funkční kategoriální aparát.
-- **OSINT entitní reifikace** — strukturní práce s entitami obnovuje kategoriální fungování v praxi.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)

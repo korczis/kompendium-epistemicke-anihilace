@@ -211,12 +211,6 @@ Intervence: Regulatory framework — required cooldown periods, mandatory off-si
 - **Legitimní spatial communication** — distinkce na úrovni intencionality a synchronizace s rétorickými cíli.
 - **Cultural variation** — proxemická norma se liší kulturně; manipulace je definovaná **odchylkou** od kulturní normy v specifických rétorických bodech.
 
-## Vztah k Prismatic platformě
-
-- **OSINT investigator training** — strukturální training v detekci proxemických signálů manipulativních interactions.
-- **Decision-making protocols** — klíčová rozhodnutí Prismatic platformy preferují **written-first** protocols, snížící vliv proxemiky.
-- **Investigation interview protocols** — explicit guidelines pro proxemicky neutral setups.
-
 ## Literatura
 
 - Hall, E. T. (1966). *The Hidden Dimension*. Doubleday.

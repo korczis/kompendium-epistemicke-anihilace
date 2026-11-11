@@ -65,7 +65,7 @@ s [epistemickou pokorou](@/glossary/epistemicka-pokora.md).
 ## Kde se pojem v knize vyskytuje
 
 Strukturní mapování [taxonomie EA](@/glossary/taxonomie-ea.md) na úrovně procesu, které NABLA řídí, vysvětluje kapitola
-[Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md); jak axiomy chrání platformu
+[Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/_index.md); jak axiomy chrání platformu
 před technikami EA a proč pracují s nejistotou místo se lží, stránka
 [NABLA Infinity a EA](@/kompendium/aiad-integration/nabla-infinity-ea-pipeline.md). Filozofické zázemí
 přibližuje kapitola [Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md).
@@ -167,7 +167,7 @@ k tomu, aby ověřování přenechali stroji; kniha tento problém rozebírá u 
 
 **Kniha**
 
-- [Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) – mapování taxonomie na rámec.
+- [Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/_index.md) – mapování taxonomie na rámec.
 - [NABLA Infinity a EA](@/kompendium/aiad-integration/nabla-infinity-ea-pipeline.md) – axiomy jako obrana.
 - [EA-1.3.4 Indukovaná pochybnost](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md) – zneužití nejistoty.
 - [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) – axiomy jako zvyk.

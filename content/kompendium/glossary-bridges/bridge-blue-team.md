@@ -66,7 +66,7 @@ simuluje v izolovaném prostředí, je popsán na stránce [Red Team a EA](@/kom
 a tým, který nálezy obou stran propojuje a uzavírá, na stránce
 [Purple Team a EA](@/kompendium/aiad-integration/purple-team-ea-synthesis.md). Celkový rámec
 adversariálního testování taxonomie vysvětluje kapitola
-[Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md).
+[Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md).
 
 Lidskou podobu obrany rozvádějí [Detekční signatury EA technik](@/kompendium/detection-signatures/_index.md),
 návod [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) a v

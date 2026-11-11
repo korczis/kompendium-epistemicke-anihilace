@@ -14,10 +14,10 @@ toc = false
 
 # Most: Decision Engine platformy → Kompendium
 
-> **Z:** platformový [Decision Engine](@/glossary/decision-engine.md) → **Do:** [Kompendium](@/kompendium/_index.md), zejména [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)
+> **Z:** platformový [Decision Engine](@/glossary/decision-engine.md) → **Do:** [Kompendium](@/kompendium/_index.md), zejména [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md)
 > **Druh mostu:** mezi softwarovým prostředím, z něhož kniha vzešla, a obsahem knihy.
 
-Kniha vznikla v prostředí Prismatic Platform, softwarové platformy pro rozhodovací podporu, [zpravodajství z otevřených zdrojů](@/glossary/osint.md) a prověrky protistran. Jednou z jejích ústředních součástí je rozhodovací engine (*Decision Engine*): podle popisu v kapitole [Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md) je to deterministický proces o deseti krocích, který převádí strukturovaný vstup – texty, aktéry, důkazy – na rozhodnutelný výstup s vyjádřenou mírou důvěry, soupeřícími hypotézami a vysvětlitelnou stopou uvažování. Tento most ukazuje, jak se principy enginu vztahují k obsahu knihy, proč je pro čtenáře – kliniky, vyšetřovatele, právníky – užitečné o nich vědět, a kde je hranice mezi strojovým postupem a lidským úsudkem, kterým se kniha zabývá.
+Kniha vznikla v prostředí Prismatic Platform, softwarové platformy pro rozhodovací podporu, [zpravodajství z otevřených zdrojů](@/glossary/osint.md) a prověrky protistran. Jednou z jejích ústředních součástí je rozhodovací engine (*Decision Engine*): podle popisu v kapitole [Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md) je to deterministický proces o deseti krocích, který převádí strukturovaný vstup – texty, aktéry, důkazy – na rozhodnutelný výstup s vyjádřenou mírou důvěry, soupeřícími hypotézami a vysvětlitelnou stopou uvažování. Tento most ukazuje, jak se principy enginu vztahují k obsahu knihy, proč je pro čtenáře – kliniky, vyšetřovatele, právníky – užitečné o nich vědět, a kde je hranice mezi strojovým postupem a lidským úsudkem, kterým se kniha zabývá.
 
 ## Co pokrývá platformová strana
 
@@ -31,7 +31,7 @@ Kniha popisuje techniky, které narušují lidský úsudek – mezi nimi [selekt
 
 Mechanismy enginu jsou strojovou podobou zásad, které se v psychologii úsudku a ve zpravodajské analýze rozvíjejí desítky let. Kalibrace – shoda mezi vyjádřenou jistotou a skutečnou četností správných odpovědí – se měří od poloviny 20. století; Brierovo skóre, které engine podle knihy sleduje, navrhl Brier (1950) pro hodnocení pravděpodobnostních předpovědí počasí. Tetlock (2005) ukázal, že experti v politických předpovědích bývají špatně kalibrovaní a že lépe obstojí ti, kdo pracují s více soupeřícími vysvětleními. Analýza soupeřících hypotéz, kterou ve zpravodajství popsal Heuer (1999), staví na stejném principu jako krok tvorby hypotéz v enginu: místo hledání důkazů pro oblíbenou hypotézu se hledají důkazy, které by jednotlivé hypotézy vyvrátily. Pro čtenáře knihy je tato souvislost cenná, protože ukazuje, že obrany, které kniha doporučuje lidem, nejsou intuitivní rady, ale ověřené postupy, které lze dokonce formalizovat.
 
-Druhým důvodem je **zrcadlení útoků a obran**. Kapitola [2.7](@/kompendium/02-uvod/vztah-k-decision-engine.md) výslovně páruje mechanismy enginu s technikami taxonomie: pluralita a nezávislost zdrojů je obranou proti selektivní expozici a iluzorní pluralitě, soupeřící hypotézy s kritérii vyvrácení obranou proti imunizaci, auditní stopa obranou proti tematické diverzi, která rozhodnutí odvádí od jeho důvodů. Čtenář, který toto párování zná, umí položit stejné otázky i lidskému rozhodování: Kolik nezávislých zdrojů tvrzení skutečně má? Co by hypotézu vyvrátilo? Lze dohledat, proč bylo rozhodnuto právě takto?
+Druhým důvodem je **zrcadlení útoků a obran**. Kapitola [2.7](@/kompendium/02-uvod/_index.md) výslovně páruje mechanismy enginu s technikami taxonomie: pluralita a nezávislost zdrojů je obranou proti selektivní expozici a iluzorní pluralitě, soupeřící hypotézy s kritérii vyvrácení obranou proti imunizaci, auditní stopa obranou proti tematické diverzi, která rozhodnutí odvádí od jeho důvodů. Čtenář, který toto párování zná, umí položit stejné otázky i lidskému rozhodování: Kolik nezávislých zdrojů tvrzení skutečně má? Co by hypotézu vyvrátilo? Lze dohledat, proč bylo rozhodnuto právě takto?
 
 Třetím důvodem je **varování před falešnou jistotou**. Engine odděluje nejistotu z nedostatku dat od nejistoty, kterou žádná další data neodstraní. Lidé vystavení manipulaci obě nejistoty často slévají – buď přijmou falešnou jistotu, nebo upadnou do paralýzy, protože „nic není jisté“. Kniha popisuje obojí jako cíle technik a engine ukazuje, jak vypadá zdravá alternativa: jistota vyjádřená číslem, které se mění s důkazy, a otevřeně přiznané „nevím“.
 
@@ -83,7 +83,7 @@ Most se opírá o popis enginu v kapitole 2.7 a v glosáři; podrobnosti impleme
 
 **Kniha**
 
-- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md) – výchozí kapitola mostu.
+- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md) – výchozí kapitola mostu.
 - [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) – lidský protějšek kalibrace.
 - [EA × Due Diligence: kalibrace](@/kompendium/cross-domain/11-ea-dd-decision-engine-calibration.md) – praxe prověrek.
 

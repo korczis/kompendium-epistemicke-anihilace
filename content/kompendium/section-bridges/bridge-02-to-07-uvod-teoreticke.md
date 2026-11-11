@@ -44,7 +44,7 @@ Třetí důvod je výzkumný. Kdo chce s pojmy knihy pracovat odborně – psát
 | [Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md) | [Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md) | Prohloubení: Foucault, Adorno, Sloterdijk a Habermas jako čtyři pohledy na moc a poznání. |
 | [Historický kontext](@/kompendium/02-uvod/historicky-kontext.md) | [Politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md) | Od historického přehledu k analýze totalitních režimů, propagandy a populismu. |
 | [Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md) | [Otevřené otázky](@/kompendium/07-teoreticke-reflexe/otevrene-otazky.md) | Validační kritéria se střetnou s tím, co zatím ověřit nelze. |
-| [Vztah k NABLA](@/kompendium/02-uvod/vztah-k-nabla.md) | [Computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md) | Formalizace epistemických operací a její meze. |
+| [Vztah k NABLA](@/kompendium/02-uvod/_index.md) | [Computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md) | Formalizace epistemických operací a její meze. |
 
 ## Příklad průchodu mostem
 

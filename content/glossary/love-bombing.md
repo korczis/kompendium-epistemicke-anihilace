@@ -14,7 +14,7 @@ related_terms = [
   "trauma-bonding",
   "coercive-control",
   "high-control-group",
-  "secure-attachment",
+  "secure-attachment"
 ]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"

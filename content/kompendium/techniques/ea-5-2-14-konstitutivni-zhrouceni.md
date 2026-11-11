@@ -117,12 +117,6 @@ Konstitutivní zhroucení je odlišitelné od:
 
 - **[EA-5.1.* Ontologické rozpouštění](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — paralelní destrukce na ontologické rovině.
 
-## Vztah k Prismatic platformě
-
-- **[Entity Resolution](@/glossary/entity-resolution.md)** — explicitní entitní identita napříč zdroji obnovuje konstitutivní syntézu.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) referenční stabilita** — epistemická provenience vyžaduje stabilní reference.
-- **OSINT cross-source matching** — strukturní práce s identitou napříč zdroji kompenzuje fragmentaci.
-
 ## Literatura
 
 - Blankenburg, W. (1971). *Der Verlust der natürlichen Selbstverständlichkeit*. Stuttgart: Enke.

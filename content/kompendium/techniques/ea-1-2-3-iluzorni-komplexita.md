@@ -205,12 +205,6 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
 - **EA-1.2.1 Falešné dilema** — strukturálně **inverzní** (FD redukuje skutečně komplexní problém; IK inflouje skutečně jednoduchý).
 - **EA-1.2.2 Falešná ekvivalence** — sourozenecká: FE inflouje **paritu pozic**, IK inflouje **náročnost problému**.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) factor hierarchization** — explicitní strukturální obrana: každé rozhodnutí ukládá **factor hierarchy** s kvantifikovanými kausálními vazbami.
-- **NABLA Infinity confidence calibration** — pokud kandidátní decision suspenduje úsudek navzdory robustní evidenci, system flagguje anomálii.
-- **OSINT investigation closure protocols** — strukturální deadlines proti infinite-regress investigation.
-
 ## Literatura
 
 - Michaels, D. (2008). *Doubt Is Their Product: How Industry's Assault on Science Threatens Your Health*. Oxford University Press.

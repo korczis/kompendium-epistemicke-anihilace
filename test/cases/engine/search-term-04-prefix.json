@@ -5,23 +5,13 @@
     "hits": [
       {
         "code": null,
-        "in": 306,
+        "in": 294,
         "kind": "Pojem",
         "path": "glossary/color-teams.md",
         "tier": 4,
         "title": "Color Teams (barevné týmy)",
         "url": "/glossary/color-teams/",
         "why": "title_prefix"
-      },
-      {
-        "code": null,
-        "in": 29,
-        "kind": "Kapitola",
-        "path": "kompendium/02-uvod/vztah-k-decision-engine.md",
-        "tier": 5,
-        "title": "2.7 Vztah ke Decision Engine a Color Teams",
-        "url": "/kompendium/02-uvod/vztah-k-decision-engine/",
-        "why": "title_word"
       },
       {
         "code": "EA-2.3.2",
@@ -95,22 +85,12 @@
       },
       {
         "code": null,
-        "in": 79,
+        "in": 43,
         "kind": "Pojem",
         "path": "glossary/blue-team.md",
         "tier": 6,
         "title": "Blue Team",
         "url": "/glossary/blue-team/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 53,
-        "kind": "Pojem",
-        "path": "glossary/black-team.md",
-        "tier": 6,
-        "title": "Black Team",
-        "url": "/glossary/black-team/",
         "why": "description"
       },
       {
@@ -122,6 +102,26 @@
         "title": "Replikační krize (replication crisis)",
         "url": "/glossary/replication-crisis/",
         "why": "description"
+      },
+      {
+        "code": null,
+        "in": 35,
+        "kind": "Kapitola",
+        "path": "kompendium/01-predmluva/vztah-k-platforme.md",
+        "tier": 6,
+        "title": "1.6 Vztah ke Prismatic Platformě",
+        "url": "/kompendium/01-predmluva/vztah-k-platforme/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 15,
+        "kind": "Pojem",
+        "path": "glossary/black-team.md",
+        "tier": 6,
+        "title": "Black Team",
+        "url": "/glossary/black-team/",
+        "why": "description"
       }
     ],
     "limit": 12,
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "Col",
     "schema": "kompendium-engine/v1",
-    "total": 14
+    "total": 13
   },
   "input": {
     "op": "search",

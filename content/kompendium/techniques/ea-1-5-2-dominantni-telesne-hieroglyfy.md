@@ -206,13 +206,6 @@ Intervence: Klinické protokoly — written treatment options requirement, manda
 - **Legitimní confident communication** — distinkce na úrovni modulace s epistemickou robustností.
 - **Cultural variation** — body language norms se liší kulturně; manipulace defined by deviation from cultural norm v specifických rétorických bodech.
 
-## Vztah k Prismatic platformě
-
-- **Source weighting in OSINT/[Decision Engine](@/glossary/decision-engine.md)** — explicitní strukturální obrana: kvalita zdroje není měřena charisma, ale dokumentovanou track record + methodological standards.
-- **Written-first decision protocol** — klíčová rozhodnutí Prismatic platformy must mít written justification předem.
-- **OSINT investigator training** — explicit training v detekci kinesic manipulation patterns.
-- **Color Teams [Black Team](@/glossary/black-team.md)** — explicit threat modeling pro charismatic adversarial scenarios.
-
 ## Literatura
 
 - Ekman, P., & Friesen, W. V. (1969). The repertoire of nonverbal behavior: Categories, origins, usage, and coding. *Semiotica*, 1(1).

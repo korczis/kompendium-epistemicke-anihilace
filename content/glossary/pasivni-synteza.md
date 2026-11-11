@@ -14,7 +14,7 @@ related_terms = [
   "predreflexivni-vedomi",
   "vnitrni-casovost",
   "gestalt-shift",
-  "lebenswelt",
+  "lebenswelt"
 ]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"

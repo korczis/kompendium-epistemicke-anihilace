@@ -120,12 +120,6 @@ Syntetická paralýza je odlišitelná od:
 
 - **[EA-1.3.* Manipulace s evidencí](@/kompendium/01-zaklady-manipulace/_index.md)** — nižší varianta exploitace soudnosti.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) generalizace** — strukturní vynucování syntetických závěrů z evidence.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) bayesovský axiom** — epistemická provenience pracuje s graduální syntézou.
-- **OSINT pattern recognition** — strukturní syntéza napříč zdroji obnovuje kompetenci.
-
 ## Literatura
 
 - Hume, D. (1748). *An Enquiry Concerning Human Understanding*. London: Millar.

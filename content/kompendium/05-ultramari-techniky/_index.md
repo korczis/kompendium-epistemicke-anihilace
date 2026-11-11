@@ -129,16 +129,6 @@ Materiály L3–L4 jsou distribuovány restriktivně. Cílová populace — kval
 
 Každá ultramární technika v Sekci 05 je párována s **rekonstruktivním protokolem** v [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md). Dokumentace není ukončena destrukcí — je strukturálně orientována k rekonstrukci. Žádná z 150 technik není popsána bez korespondujícího návrhu klinické odpovědi.
 
-## Vztah k platformě Prismatic
-
-Sekce 05 je vědecký fundament pro tři operační moduly platformy:
-
-- **[NABLA Infinity (∇∞)](@/glossary/nabla-infinity.md)** — epistemický engine, který využívá taxonomii EA-5 jako **detekční slovník** pro identifikaci ultramárních technik v reálném čase v korpusech textu, dialogu a rozhodovacích procesech. Každá z 150 technik má korespondující detektor.
-- **[Color Teams](@/glossary/color-teams.md)** — multidisciplinární adversariální týmy (Red, Blue, Purple), které simulují aplikaci ultramárních technik v kontrolovaném IRB prostředí pro účely tréninku detektorů a klinické přípravy.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — rozhodovací subsystém, který používá detekční výstupy z taxonomie EA-5 jako vstup do hodnocení epistemické důvěryhodnosti zdrojů (parametr `epistemic_integrity`).
-
-Detailní specifikace integrace viz [Vývojářský portál](https://prismatic-reality-com.github.io/prismatic-promo/developers/) → NABLA Infinity dokumentace.
-
 ## Pedagogická sekvence
 
 Doporučené pořadí studia pro nově přijaté výzkumníky úrovně L3:

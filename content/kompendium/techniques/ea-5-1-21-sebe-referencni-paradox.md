@@ -160,12 +160,6 @@ Komunita aplikovala paradoxní strukturu: *„Že nás kritizuješ, dokazuje, ja
 - **Trvalá epistemická paralýza** — subjekt opouští racionální analýzu jako celek.
 - **Závislost na „transcendentním“ učiteli** — pouze on „rozumí paradoxu“.
 
-## Vztah k Prismatic platformě
-
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemic monitor explicitně modeluje **typové úrovně tvrzení** a flaguje sebe-referenční konstrukce, které mísí objektovou úroveň a metaúroveň.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — vyžaduje **formálně artikulovaná falsifikační kritéria**; paradoxní formulace („jakákoli evidence potvrzuje rámec“) jsou strukturálně odmítnuty.
-- **[Logic Prolog](@/glossary/logic-prolog.md)** — logické moduly platformy stojí na Prologu, který je netypovaný a sebereferenčním paradoxům sám nebrání; ochranu dává teprve návrh pravidel, například oddělení objektového jazyka a metajazyka po vzoru Tarského nebo Russellovy teorie typů. Paralela s technikou je tedy v rozlišení úrovní, ne v automatické eliminaci paradoxu.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md)

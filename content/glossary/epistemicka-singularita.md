@@ -14,7 +14,7 @@ related_terms = [
   "epistemicky-monismus",
   "hermeneuticky-outsourcing",
   "epistemicka-anihilace",
-  "falsifikovatelnost",
+  "falsifikovatelnost"
 ]
 author = "Tomáš Korcak (korczis)"
 date_created = "2026-05-03"

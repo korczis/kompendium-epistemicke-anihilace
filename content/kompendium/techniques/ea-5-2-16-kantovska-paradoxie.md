@@ -118,12 +118,6 @@ Kantovská paradoxie je odlišitelná od:
 
 - **[EA-1.3.* Manipulace s evidencí](@/kompendium/01-zaklady-manipulace/_index.md)** — nižší varianta exploitace racionální struktury.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) forced choice** — strukturní vynucování rozhodnutí blokuje paralýzu.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) konfidenční intervaly** — epistemická provenience pracuje s gradovanou jistotou, nikoli s binární paralýzou.
-- **OSINT verdict requirement** — investigace musí ukončit rozhodnutím (proceed/abort/escalate).
-
 ## Literatura
 
 - Festinger, L., Riecken, H. W. & Schachter, S. (1956). *When Prophecy Fails*. Minneapolis: University of Minnesota Press.

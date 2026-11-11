@@ -158,14 +158,6 @@ Soudce se hrdě prezentoval jako „epistemicky pokorný“, odkládal rozsudky 
 
 - **Metodická skepse** (Descartes) — strukturálně podobná, ale **časově ohraničená** s návratem k operacionalitě (cogito jako Archimedovský bod).
 
-## Vztah k Prismatic platformě
-
-Inferenční paralýza je strukturálním motivem pro několik defenzivních mechanismů Prismatic:
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** explicitně staví **operační rozhodnutí v omezeném čase** s konfidenčními intervaly — neumožňuje paralýzu pod jménem „epistemické pokory“.
-- **Calibration loop** trénuje rozhodovatele na **operační rychlost** s následným feedbackem, čímž odstraňuje paralyzér.
-- **NABLA Infinity** rozlišuje mezi **L1 logickou** a **L2 metakognitivní** vrstvou a zabraňuje, aby L2 trvale dominovala nad L1.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)

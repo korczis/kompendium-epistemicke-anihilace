@@ -160,12 +160,6 @@ PhD studentka po dlouhodobém vystavení radikální variantě postmoderní teor
 - **Legitimní filosofická skepse** — drží metodologii a vede k rekonstrukci, nikoli k závislosti.
 - **Autentická krize** — mobilizuje k rekonstrukci vlastními silami, nedemobilizuje vůči korektivu.
 
-## Vztah k Prismatic platformě
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} foundational source check** — kalibrace explicitně vyžaduje **více nezávislých** základen pro vysokou důvěru, čímž strukturálně bloku­je zdrojovou epistemologii.
-- **NABLA Infinity grounding map** — udržuje seznam epistemických základen, na nichž každé tvrzení v pipeline stojí; rovnoměrná destabilizace více základen je flagována.
-- **Color Teams adversarial validation** — [Red Team](@/glossary/red-team.md) operuje s explicitním protokolem testujícím odolnost klíčových rozhodnutí vůči vakuačním tlakům.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)

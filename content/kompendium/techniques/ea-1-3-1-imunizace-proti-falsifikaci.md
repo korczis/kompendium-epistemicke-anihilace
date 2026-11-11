@@ -210,12 +210,6 @@ Intervence: Strukturální požadavek na pre-registered outcome criteria; advers
 - **Lakatosian protective belt** — strukturálně podobné, ale **progressive** (generuje nové predikce). Distinkce na úrovni Lakatosova testu.
 - **Skutečná teoretická revize** — odpovídá kontradiktorní evidence **explicitními modifikacemi** core thesis, **ne** ad hoc auxiliáriemi.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) hypothesis registry** — explicitně ukládá **pre-registered falsifikační kritéria** pro každou hypotézu; reaktivní modifikace jsou **flagged**.
-- **NABLA Infinity Lakatosian audit** — pravidelná evaluace progresivních vs. degenerativních shiftů v dlouhodobých investigation pipelines.
-- **Color Teams [Red Team](@/glossary/red-team.md) protocol** — explicitní mandát hledat **falsifikační scénáře** pro core platformové hypotézy.
-
 ## Literatura
 
 - Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.

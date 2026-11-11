@@ -156,11 +156,6 @@
       {
         "from": "kompendium/06-klinicke-aplikace/_index.md",
         "kind": "link",
-        "to": "glossary/color-teams.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
-        "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
@@ -171,22 +166,12 @@
       {
         "from": "kompendium/06-klinicke-aplikace/_index.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/_index.md",
-        "kind": "link",
         "to": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"
       },
       {
         "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
         "kind": "link",
         "to": "glossary/coercive-control.md"
-      },
-      {
-        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
-        "kind": "link",
-        "to": "glossary/color-teams.md"
       },
       {
         "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
@@ -239,30 +224,23 @@
       {
         "class": "glossary",
         "distance": 0,
-        "in": 605,
+        "in": 603,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
       },
       {
         "class": "glossary",
         "distance": 1,
-        "in": 380,
-        "path": "glossary/nabla-infinity.md",
-        "title": "NABLA Infinity (∇∞)"
-      },
-      {
-        "class": "glossary",
-        "distance": 1,
-        "in": 376,
+        "in": 375,
         "path": "glossary/taxonomie-ea.md",
         "title": "Taxonomie EA"
       },
       {
         "class": "glossary",
         "distance": 1,
-        "in": 329,
-        "path": "glossary/_index.md",
-        "title": "Glosář"
+        "in": 344,
+        "path": "glossary/nabla-infinity.md",
+        "title": "NABLA Infinity (∇∞)"
       },
       {
         "class": "kompendium/06-klinicke-aplikace",
@@ -274,9 +252,9 @@
       {
         "class": "glossary",
         "distance": 1,
-        "in": 306,
-        "path": "glossary/color-teams.md",
-        "title": "Color Teams (barevné týmy)"
+        "in": 328,
+        "path": "glossary/_index.md",
+        "title": "Glosář"
       },
       {
         "class": "kompendium/01-predmluva",
@@ -284,6 +262,13 @@
         "in": 302,
         "path": "kompendium/01-predmluva/eticke-aspekty.md",
         "title": "1.3 Etické aspekty a upozornění"
+      },
+      {
+        "class": "glossary",
+        "distance": 1,
+        "in": 294,
+        "path": "glossary/color-teams.md",
+        "title": "Color Teams (barevné týmy)"
       },
       {
         "class": "kompendium/06-klinicke-aplikace",
@@ -318,7 +303,7 @@
     "op": "neighbourhood",
     "path": "glossary/epistemicka-anihilace.md",
     "schema": "kompendium-engine/v1",
-    "total": 1904,
+    "total": 1902,
     "truncated": true
   },
   "input": {

@@ -5,115 +5,85 @@
     "hits": [
       {
         "code": null,
-        "in": 376,
+        "in": 344,
         "kind": "Pojem",
-        "path": "glossary/taxonomie-ea.md",
+        "path": "glossary/nabla-infinity.md",
         "tier": 2,
-        "title": "Taxonomie EA",
-        "url": "/glossary/taxonomie-ea/",
+        "title": "NABLA Infinity (∇∞)",
+        "url": "/glossary/nabla-infinity/",
         "why": "exact_title"
-      },
-      {
-        "code": null,
-        "in": 3,
-        "kind": "Most",
-        "path": "kompendium/glossary-bridges/bridge-taxonomie-ea.md",
-        "tier": 5,
-        "title": "Bridge: Taxonomie EA",
-        "url": "/kompendium/glossary-bridges/bridge-taxonomie-ea/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 38,
-        "kind": "Pojem",
-        "path": "glossary/edukativni-implementace.md",
-        "tier": 6,
-        "title": "Edukativní implementace",
-        "url": "/glossary/edukativni-implementace/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 29,
-        "kind": "Kapitola",
-        "path": "kompendium/02-uvod/vztah-k-decision-engine.md",
-        "tier": 6,
-        "title": "2.7 Vztah ke Decision Engine a Color Teams",
-        "url": "/kompendium/02-uvod/vztah-k-decision-engine/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 27,
-        "kind": "Kapitola",
-        "path": "kompendium/02-uvod/vztah-k-nabla.md",
-        "tier": 6,
-        "title": "2.6 Vztah ke Prismatic NABLA Infinity (∇∞)",
-        "url": "/kompendium/02-uvod/vztah-k-nabla/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 24,
-        "kind": "Kapitola",
-        "path": "kompendium/02-uvod/filosoficky-ramec.md",
-        "tier": 6,
-        "title": "2.5 Filosofický rámec: epistemologie, fenomenologie, hermeneutika",
-        "url": "/kompendium/02-uvod/filosoficky-ramec/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 21,
-        "kind": "Kapitola",
-        "path": "kompendium/08-prilohy/klasifikace.md",
-        "tier": 6,
-        "title": "Klasifikační schéma a taxonomie — meta-úroveň",
-        "url": "/kompendium/08-prilohy/klasifikace/",
-        "why": "description"
       },
       {
         "code": null,
         "in": 14,
         "kind": "Kapitola",
-        "path": "kompendium/visualizations/_index.md",
-        "tier": 6,
-        "title": "Interaktivní vizualizace",
-        "url": "/kompendium/visualizations/",
-        "why": "description"
+        "path": "kompendium/aiad-integration/nabla-infinity-ea-pipeline.md",
+        "tier": 5,
+        "title": "NABLA Infinity a detekce technik EA",
+        "url": "/kompendium/aiad-integration/nabla-infinity-ea-pipeline/",
+        "why": "title_word"
       },
       {
         "code": null,
-        "in": 10,
-        "kind": "Kapitola",
-        "path": "kompendium/puvodni-taxonomie/_index.md",
-        "tier": 6,
-        "title": "Původní taxonomie (2025)",
-        "url": "/kompendium/puvodni-taxonomie/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 4,
+        "in": 6,
         "kind": "Most",
-        "path": "kompendium/glossary-bridges/bridge-kompendium-ea.md",
+        "path": "kompendium/glossary-bridges/bridge-nabla-infinity.md",
+        "tier": 5,
+        "title": "Bridge: NABLA Infinity (∇∞)",
+        "url": "/kompendium/glossary-bridges/bridge-nabla-infinity/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 3,
+        "kind": "Kapitola",
+        "path": "kompendium/section-bridges/bridge-platform-nabla-to-kompendium.md",
+        "tier": 5,
+        "title": "Most: NABLA Infinity platformy → Kompendium",
+        "url": "/kompendium/section-bridges/bridge-platform-nabla-to-kompendium/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 70,
+        "kind": "Pojem",
+        "path": "glossary/signal-plurality.md",
         "tier": 6,
-        "title": "Bridge: Kompendium EA",
-        "url": "/kompendium/glossary-bridges/bridge-kompendium-ea/",
+        "title": "Signal plurality (pluralita signálů)",
+        "url": "/glossary/signal-plurality/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 35,
+        "kind": "Kapitola",
+        "path": "kompendium/01-predmluva/vztah-k-platforme.md",
+        "tier": 6,
+        "title": "1.6 Vztah ke Prismatic Platformě",
+        "url": "/kompendium/01-predmluva/vztah-k-platforme/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 22,
+        "kind": "Kapitola",
+        "path": "kompendium/07-teoreticke-reflexe/computational-epistemology.md",
+        "tier": 6,
+        "title": "7.6 Computational epistemology a NABLA",
+        "url": "/kompendium/07-teoreticke-reflexe/computational-epistemology/",
         "why": "description"
       }
     ],
     "limit": 12,
-    "normalised": "taxonomie ea",
+    "normalised": "nabla infinity (∇∞)",
     "ok": true,
     "op": "search",
-    "query": "Taxonomie EA",
+    "query": "NABLA Infinity (∇∞)",
     "schema": "kompendium-engine/v1",
-    "total": 10
+    "total": 7
   },
   "input": {
     "op": "search",
-    "query": "Taxonomie EA"
+    "query": "NABLA Infinity (∇∞)"
   }
 }

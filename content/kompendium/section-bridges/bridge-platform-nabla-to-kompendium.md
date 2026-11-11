@@ -14,14 +14,14 @@ toc = false
 
 # Most: NABLA Infinity platformy → Kompendium
 
-> **Z:** platformový rámec [NABLA Infinity](@/glossary/nabla-infinity.md) → **Do:** [Kompendium](@/kompendium/_index.md), zejména [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
+> **Z:** platformový rámec [NABLA Infinity](@/glossary/nabla-infinity.md) → **Do:** [Kompendium](@/kompendium/_index.md), zejména [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md)
 > **Druh mostu:** mezi epistemickým rámcem softwarové platformy a obrannou logikou knihy.
 
 NABLA Infinity (∇∞) je epistemický rámec Prismatic Platform, z níž kniha vzešla. Podle hesla glosáře definuje sedm axiomů, které musí splnit každý agent, proces a rozhodnutí platformy: pět se vynucuje tvrdě (porušení zastaví operaci), dva měkce (porušení vede k varování a šetření). Axiomy se uplatňují v [epistemickém procesu](@/glossary/epistemic-pipeline.md) o šestnácti úrovních, ověřují se v [QEVE](@/glossary/qeve.md) a propouštějí přes [Trinity Gate](@/glossary/trinity-gate.md). Kniha k rámci přistupuje jako k inženýrské formulaci zásad, které doporučuje lidem: neopírat přesvědčení o jediný zdroj, nezahazovat rozpory, připustit „nevím“. Tento most ukazuje, které axiomy odpovídají kterým obranám knihy, proč je užitečné o rámci vědět i pro čtenáře bez technického zájmu a kde se lidské a strojové poznávání liší.
 
 ## Co pokrývá platformová strana
 
-Sedm axiomů NABLA, jak je uvádí heslo [Axiomy NABLA](@/glossary/nabla-axioms.md), zní: **[pluralita signálů](@/glossary/signal-plurality.md)** (žádné přesvědčení bez nejméně dvou nezávislých signálů), **zachování rozporu** (protichůdné důkazy se nezahazují, ale reprezentují), **[informativní absence](@/glossary/nabla-axioms.md)** (chybějící údaj je také informace), **[časový rozpad](@/glossary/nabla-axioms.md)** (důkazy stárnou), **[platnost neznáma](@/glossary/nabla-axioms.md)** („nevím“ je přípustný výsledek), **nezávislost zdrojů** (zdroje se společným původem se počítají jako jeden) a **[povinná provenience](@/glossary/nabla-axioms.md)** (každé tvrzení musí být dohledatelné ke zdroji). Kapitola [2.6](@/kompendium/02-uvod/vztah-k-nabla.md) popisuje šestnáctiúrovňový proces od příjmu surových signálů po integrované vědění a páruje axiomy s technikami taxonomie, proti nimž chrání. Glosář nabízí také [most: NABLA Infinity](@/kompendium/glossary-bridges/bridge-nabla-infinity.md) a oddíl 07 stránku [computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md), která rámec zasazuje do formální epistemologie.
+Sedm axiomů NABLA, jak je uvádí heslo [Axiomy NABLA](@/glossary/nabla-axioms.md), zní: **[pluralita signálů](@/glossary/signal-plurality.md)** (žádné přesvědčení bez nejméně dvou nezávislých signálů), **zachování rozporu** (protichůdné důkazy se nezahazují, ale reprezentují), **[informativní absence](@/glossary/nabla-axioms.md)** (chybějící údaj je také informace), **[časový rozpad](@/glossary/nabla-axioms.md)** (důkazy stárnou), **[platnost neznáma](@/glossary/nabla-axioms.md)** („nevím“ je přípustný výsledek), **nezávislost zdrojů** (zdroje se společným původem se počítají jako jeden) a **[povinná provenience](@/glossary/nabla-axioms.md)** (každé tvrzení musí být dohledatelné ke zdroji). Kapitola [2.6](@/kompendium/02-uvod/_index.md) popisuje šestnáctiúrovňový proces od příjmu surových signálů po integrované vědění a páruje axiomy s technikami taxonomie, proti nimž chrání. Glosář nabízí také [most: NABLA Infinity](@/kompendium/glossary-bridges/bridge-nabla-infinity.md) a oddíl 07 stránku [computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md), která rámec zasazuje do formální epistemologie.
 
 ## Co pokrývá Kompendium
 
@@ -85,7 +85,7 @@ Most se opírá o popis rámce v glosáři a v kapitole 2.6; údaje o provozu pl
 
 **Kniha**
 
-- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) – výchozí kapitola mostu.
+- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md) – výchozí kapitola mostu.
 - [Computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md) – teoretické zasazení.
 - [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – lidská podoba plurality signálů.
 

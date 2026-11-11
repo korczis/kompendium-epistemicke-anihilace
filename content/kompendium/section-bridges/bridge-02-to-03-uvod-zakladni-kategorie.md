@@ -48,7 +48,7 @@ Třetí důvod je metodický. [Metodologické poznámky](@/kompendium/02-uvod/me
 | [Historický kontext](@/kompendium/02-uvod/historicky-kontext.md) | [Kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | Historické vzorce delegitimizace se promítnou do současných scénářů. |
 | [Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md) | [Metakognice](@/kompendium/03-zakladni-kategorie/metakognice.md), [zneužití teorie mysli](@/kompendium/03-zakladni-kategorie/tom-exploitation.md) | Psychologický rámec se zúží na schopnosti, na které techniky míří. |
 | [Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md) | [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md), [hermeneutika](@/kompendium/03-zakladni-kategorie/hermeneutika.md), [Lebenswelt](@/kompendium/03-zakladni-kategorie/lebenswelt.md) | Filosofické pojmy dostanou úlohu v rozboru konkrétních technik. |
-| [Vztah k Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md) | [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) | Požadavek falsifikačních kritérií se ukáže jako obrana proti imunizačním technikám. |
+| [Vztah k Decision Engine](@/kompendium/02-uvod/_index.md) | [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) | Požadavek falsifikačních kritérií se ukáže jako obrana proti imunizačním technikám. |
 
 ## Příklad průchodu mostem
 

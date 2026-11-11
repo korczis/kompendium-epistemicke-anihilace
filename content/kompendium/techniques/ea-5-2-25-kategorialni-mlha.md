@@ -118,12 +118,6 @@ Kategoriální mlha je odlišitelná od:
 
 - **[EA-1.* Pojmová manipulace](@/kompendium/01-zaklady-manipulace/_index.md)** — nižší varianty.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) binární verdict** — strukturní vynucování ostrých rozhodnutí.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) distinktivní axiom** — epistemická provenience vyžaduje ostré distinkce.
-- **OSINT typed entities** — strukturní typování entit obnovuje distinktivnost.
-
 ## Literatura
 
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.

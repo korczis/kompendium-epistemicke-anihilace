@@ -182,14 +182,6 @@ Intervence: Cílená rekonstituce mimo-právního etického slovníku skrze čte
 - **Sofistikace teorie** — *přidává* vazby a integrační rozlišnost; fragmentace *odebírá*.
 - **[Pluralismus](@/glossary/pluralismus.md)** — uchovává funkční integraci uvnitř každého paradigmatu; fragmentace destruuje integraci uvnitř původního.
 
-## Vztah k Prismatic platformě
-
-Konceptuální fragmentace má v Prismatic platformě tři hlavní defenzivní mapování:
-
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) integration check** — provenance graf každé komplexní úvahy je analyzován na **strukturální propojenost**; izolované, nepropojené uzly jsou flagovány jako podezření na fragmentaci.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} holistic gate** — komplexní rozhodnutí vyžaduje doložení **funkční** integrace, nikoli pouze inventáře komponent.
-- **[Color Teams](@/glossary/color-teams.md) cross-paradigm review** — *[Red Team](@/glossary/red-team.md)* explicitně testuje, zda rozhodovací aparát neutrpěl fragmentačním tlakem konkrétního paradigmatu.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)

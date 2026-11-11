@@ -14,7 +14,7 @@ related_terms = [
   "trauma-bonding",
   "theory-of-mind",
   "secure-attachment",
-  "coercive-control",
+  "coercive-control"
 ]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"

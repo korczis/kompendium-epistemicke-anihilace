@@ -166,14 +166,6 @@ Kruh praktikující „vědomí čistého vědomí“. Adepti po letech reportov
 - **Zenový kóan** — paradoxní jazyk, ale **explicitně pragmatický**, ne informační
 - **Apofatická teologie** — užívá negativní jazyk se vědomím vlastní limitace, ne s nárokem na hloubkové vhledy
 
-## Vztah k Prismatic platformě
-
-Tautologická imploze je strukturálním motivem pro několik defenzivních mechanismů Prismatic:
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** vyžaduje **explicitní falsifikační podmínky** a **měřitelné predikce** — tautologické teze nejsou přijatelné jako podklad rozhodování.
-- **NABLA Infinity provenance** dohledává **observační konsekvence** každé propozice — tautologie selhávají na nulové stopě.
-- **Glossary discipline** — definice ve slovníku jsou kontrolovány na **ne-cirkulárnost** a **operacionalitu**.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)

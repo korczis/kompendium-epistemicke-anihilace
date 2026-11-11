@@ -28,7 +28,7 @@ KALIBRACE**.
 Pojem patří do kontextu platformy, z níž kniha vzešla. Pro Kompendium je důležitý jako
 technické jádro [Decision Engine](@/glossary/decision-engine.md), na který se hesla knihy
 odvolávají, když popisují, jak má být důvěra ve zdroje kalibrována s ohledem na
-manipulaci (viz kapitola [Vztah k Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)).
+manipulaci (viz kapitola [Vztah k Decision Engine](@/kompendium/02-uvod/_index.md)).
 
 ## Původ a kontext pojmu
 
@@ -239,7 +239,7 @@ Třetí mezí je riziko falešné objektivity: číslo s desetinnou čárkou pů
 
 **Kompendium**
 
-- [Vztah k Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md) – jak kniha
+- [Vztah k Decision Engine](@/kompendium/02-uvod/_index.md) – jak kniha
   s rozhodovacím enginem souvisí.
 - [Decision Engine: kalibrace EA](@/kompendium/aiad-integration/decision-engine-ea-calibration.md)
   – kalibrace důvěry s ohledem na manipulaci.

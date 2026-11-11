@@ -20,19 +20,19 @@ risks_text = "Kniha o tom, jak lze poznávání poškodit, nese rizika pro čten
 risks_more = "Podrobně"
 risks_actions = [
   { path = "kompendium/01-predmluva/neni-pro-kazdeho/_index.md", label = "Proč tato kniha není pro každého" },
-  { path = "kompendium/01-predmluva/eticke-aspekty.md", label = "Etické aspekty" },
+  { path = "kompendium/01-predmluva/eticke-aspekty.md", label = "Etické aspekty" }
 ]
 intro_actions = [
   { path = "kompendium/_index.md", label = "Obsah kompendia" },
-  { path = "kompendium/01-predmluva/_index.md", label = "Předmluva" },
+  { path = "kompendium/01-predmluva/_index.md", label = "Předmluva" }
 ]
 carousel_actions = [
   { path = "kompendium/techniques/_index.md", label = "Katalog technik" },
-  { path = "kompendium/_index.md", label = "Všechny oddíly" },
+  { path = "kompendium/_index.md", label = "Všechny oddíly" }
 ]
 explore_actions = [
   { path = "mapa.md", label = "Mapa knihy" },
-  { path = "glossary/_index.md", label = "Glosář" },
+  { path = "glossary/_index.md", label = "Glosář" }
 ]
 intro_kicker = "Úvod do knihy"
 intro_title = "Co kniha je a jak ji číst"
@@ -43,7 +43,7 @@ steps = [
   "kompendium/01-predmluva/jak-pouzivat.md",
   "kompendium/02-uvod/_index.md",
   "kompendium/techniques/_index.md",
-  "glossary/_index.md",
+  "glossary/_index.md"
 ]
 carousel_title = "Rodiny technik a vybrané oddíly"
 carousel_text = "Každá karta vede na svou stránku; počty stránek se počítají při každém sestavení webu."
@@ -64,7 +64,7 @@ carousel_sections = [
   "kompendium/case-studies/_index.md",
   "kompendium/historical-cases/_index.md",
   "kompendium/emergency-protocols/_index.md",
-  "glossary/_index.md",
+  "glossary/_index.md"
 ]
 explore_title = "Prozkoumat knihu"
 explore_text = "Plocha každého pole odpovídá počtu stránek rodiny nebo oddílu. Pole grafu i položky seznamu vedou na příslušnou stránku."

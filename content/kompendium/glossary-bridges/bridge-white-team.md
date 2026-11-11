@@ -64,7 +64,7 @@ Doložit, které z nich člověk má, je stejně podstatné jako popsat, co mu b
 
 Jak bílý tým platformy dokládá, že systém skutečně drží, a proč „nenalezeno“ neznamená „doloženo“
 v Dijkstrově (1972) smyslu, popisuje stránka [White Team a EA](@/kompendium/aiad-integration/white-team-ea-verification.md). Celou
-soustavu týmů přibližuje stránka [Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md)
+soustavu týmů přibližuje stránka [Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md)
 a stránky jednotlivých týmů, například [Red Team a EA](@/kompendium/aiad-integration/red-team-ea-detection.md)
 a [Purple Team a EA](@/kompendium/aiad-integration/purple-team-ea-synthesis.md).
 

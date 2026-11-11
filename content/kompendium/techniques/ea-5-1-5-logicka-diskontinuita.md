@@ -162,15 +162,6 @@ Klient po 18 měsících intenzivního programu spontánně přijímal výroky t
 
 - **Parakonzistentní logiky** — formální, vědomé akceptace lokálních rozporů s **explicitními** strukturami pro jejich kontrolu. Logická diskontinuita je naopak **strukturální deficit** bez kontrolních mechanismů.
 
-## Vztah k Prismatic platformě
-
-Logická diskontinuita je strukturálním motivem pro několik defenzivních mechanismů Prismatic:
-
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} inferential trace** — každé rozhodnutí má dohledatelný řetězec premis, inferencí a závěru. Diskontinuované řetězce jsou flagovány jako epistemicky nestabilní.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) compositional consistency** — provenance tracking sleduje, zda jsou výsledky jednotlivých kroků kompozičně koherentní s celkovým závěrem; lokální validita ne implikuje globální validitu.
-- **[Color Teams](@/glossary/color-teams.md) compositional adversarial test** — [Red Team](@/glossary/red-team.md) explicitně testuje, zda argumentace odolá kompozici dílčích kroků pod adversariální kritikou.
-- **Strukturovaný formát pro kritická rozhodnutí** — platformové kritické rozhodnutí vyžaduje explicitní strukturu (premisy / inference / závěr), nikoli narativní formu, která maskuje diskontinuity.
-
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)

@@ -118,12 +118,6 @@ Meta-fenomenální redukce je odlišitelná od:
 
 - **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — eskalační následek.
 
-## Vztah k Prismatic platformě
-
-- **[Decision Engine](@/glossary/decision-engine.md) forced postoj** — strukturní vynucování konkrétního postoje.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) finitistický axiom** — epistemická provenience vylučuje nekonečnou rekurzi.
-- **OSINT lebensweltová evidence** — strukturní práce s žitým světem obnovuje fungování.
-
 ## Literatura
 
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.

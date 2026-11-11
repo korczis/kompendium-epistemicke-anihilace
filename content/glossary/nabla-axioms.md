@@ -62,7 +62,7 @@ Pro Kompendium jsou axiomy důležité jako zrcadlo: popisují epistemickou hygi
 techniky epistemické anihilace u člověka systematicky rozkládají – izolace od zdrojů ruší
 pluralitu, [gaslighting](@/glossary/gaslighting.md) pohřbívá rozpory a přepisování minulosti
 ničí provenienci. Vztah knihy k platformě popisuje kapitola
-[2.6 Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md).
+[2.6 Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/_index.md).
 
 ## Přehled
 
@@ -733,7 +733,7 @@ Jde o analogii, ne o diagnostický nástroj; klinické posouzení patří do kap
 
 **Kniha**
 
-- [2.6 Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) – jak se
+- [2.6 Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/_index.md) – jak se
   rámec platformy promítá do [taxonomie EA](@/glossary/taxonomie-ea.md).
 - [NABLA Infinity a detekce EA](@/kompendium/aiad-integration/nabla-infinity-ea-pipeline.md) –
   pipeline, která axiomy uplatňuje na signály epistemického útoku.

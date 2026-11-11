@@ -124,12 +124,6 @@ Husserlovská redukce — perverze je odlišitelná od:
 
 - **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — eskalační následek derealizace.
 
-## Vztah k Prismatic platformě
-
-- **OSINT direct evidence requirement** — strukturní práce s přímou evidencí brání permanentní redukci.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) Lebensweltový axiom** — epistemická provenience operuje v praktickém světě.
-- **[Decision Engine](@/glossary/decision-engine.md) actionable verdict** — vynucování praktického jednání kompenzuje paralýzu.
-
 ## Literatura
 
 - Blankenburg, W. (1971). *Der Verlust der natürlichen Selbstverständlichkeit*. Stuttgart: Enke.

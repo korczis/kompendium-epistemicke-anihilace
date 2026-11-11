@@ -113,16 +113,6 @@ Druhým rizikovým kontextem je skupina, v níž je odchylka jednotlivce čtena 
 | [EA 2 1 1 EXPERTNI DISINFLATION](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) | Stránka ze stejného okruhu knihy. |
 | [EA 5 1 3 REFLEXIVNI PARADOXIE](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md) | Stránka ze stejného okruhu knihy. |
 
-## Vztah k Prismatic platformě
-
-[Color Teams Black Team](@/glossary/color-teams.md) — [Black Team](@/glossary/black-team.md) je dedikovaná detekční jednotka pro markery terminálních protokolů.
-
-[NABLA Infinity](@/glossary/nabla-infinity.md) — epistemický pipeline obsahuje invarianty, které identifikují strukturální vzorce odpovídající této technice v textových a behaviorálních datech.
-
-{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — provenance ledger poskytuje auditní stopu, která činí pozdější detekci a forenzní rekonstrukci proveditelnou.
-
-[Compliance framework](@/glossary/compliance-framework.md) — interní compliance zachycuje pokusy o aplikaci technik mimo supervizní rámec a eskaluje je k etickému přezkumu.
-
 ## Literatura
 
 - Edmondson, A. (1999). Psychological safety and learning behavior in work teams. *Administrative Science Quarterly*.

@@ -36,7 +36,7 @@ nárok je legitimní. Právě tato asymetrie je z hlediska knihy podstatná: sku
 pacienti s nízkou kapacitou, menšiny, drobní dodavatelé) bývají první, kdo škodlivý vzorec
 zaznamená, a poslední, koho organizace slyší.
 
-Z oblasti veřejné správy pochází „žebřík participace“, který navrhla Sherry Arnstein (1969),,
+Z oblasti veřejné správy pochází „žebřík participace“, který navrhla Sherry Arnstein (1969),
 který odlišuje skutečné sdílení rozhodování od manipulace a terapie, jak nazvala nejnižší
 příčky, a od pouhého informování a konzultace bez vlivu. Fung (2006) místo jednorozměrného
 žebříku navrhl trojrozměrný prostor: kdo se účastní, jak spolu účastníci komunikují a jakou
@@ -180,7 +180,7 @@ Dalšími signály jsou poradní orgán, jehož složení se léta nemění nebo
 vedení, a organizace, která se o problému dozvídá z médií dřív než z vlastních kanálů. Nulový
 podíl připomínek, které vedly ke změně, je měřitelný ukazatel, že konzultace slouží jen jako
 kulisa. Rostoucí počet odchodů zákazníků, rodičů nebo dárců bez předchozích stížností může
-znamenat, jak naznačuje Hirschman (1970),, že hlas byl vyčerpán a zbyl jen odchod.
+znamenat, jak naznačuje Hirschman (1970),  že hlas byl vyčerpán a zbyl jen odchod.
 
 ## Meze a otevřené otázky
 

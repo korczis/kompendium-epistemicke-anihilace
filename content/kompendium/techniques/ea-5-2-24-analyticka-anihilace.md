@@ -120,12 +120,6 @@ Analytická anihilace je odlišitelná od:
 
 - **[EA-1.* Pojmová manipulace](@/kompendium/01-zaklady-manipulace/_index.md)** — nižší varianty.
 
-## Vztah k Prismatic platformě
-
-- **Glossary explicitní definice** — strukturní práce s definicemi obnovuje kompetenci.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md) definicní axiom** — epistemická provenience vyžaduje stabilní definice.
-- **[Decision Engine](@/glossary/decision-engine.md) pojmová precizace** — strukturní vynucování explicitních termínů.
-
 ## Literatura
 
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.

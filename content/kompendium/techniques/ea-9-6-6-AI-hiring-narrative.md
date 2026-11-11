@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.6 Algoritmická governance
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -69,6 +68,8 @@ Zkušená účetní po padesátce podá třicet žádostí přes portály s auto
 ## 9. Meze a otevřené otázky
 
 Lidský nábor je také zaujatý; automatizace nemusí být horší, pokud je dobře navržena a kontrolována. Otázkou je transparentnost a možnost zpochybnění. Otevřené zůstává, jak auditovat nástroje, jejichž dodavatelé odmítají zveřejnit fungování.
+
+Meze doložení patří na tuto stránku výslovně. Případ, o němž informovala agentura Reuters (Dastin, 2018), je nástroj opuštěný ve fázi vývoje; dokládá, že taková selhání vznikají, ne jak hodnotí nástroje skutečně nasazené v praxi – o těch je veřejně známo velmi málo, protože jejich dodavatelé fungování nezveřejňují. Barocas a Selbst (2016) vysvětlili, proč nerovný dopad může vzniknout bez jakéhokoli záměru a i tehdy, když chráněný údaj v datech vůbec není; námitka „pohlaví jsme z vstupů odstranili“ proto není odpovědí. Buolamwini a Gebru (2018) měřily rozdíly chybovosti v klasifikaci obrazu, nikoli v predikci pracovního výkonu; přenesení jejich závěru na analýzu videopohovoru je *interpretace knihy*.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

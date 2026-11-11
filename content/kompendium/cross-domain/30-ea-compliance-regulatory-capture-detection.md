@@ -5,7 +5,7 @@ weight = 300
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "compliance"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["25-ea-compliance-nis2-integrity", "14-ea-dd-narrative-warfare", "9-ea-dd-investigation-bias", "26-ea-compliance-zkb-epistemic-integrity"]

@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.2 Generativní média
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -73,6 +72,8 @@ Rozpoznat malou úpravu ve videu je technicky náročné a vyžaduje originál; 
 Zůstává také otázkou, jak informovat veřejnost o manipulacích, aniž by se upravená verze dál šířila; srovnání obou verzí může nechtěně zvýšit dosah té nepravé.
 
 Další otevřenou otázkou je dlouhodobá archivace originálů, bez níž nebude možné ani po letech doložit, jak záznam vypadal.
+
+Nález nesrovnalosti v záznamu neříká, co na původním místě bylo. Forenzní posouzení doloží, že úsek byl zpracován, ale sporný detail nerekonstruuje: z toho, že nápis na transparentu nese stopy úpravy, neplyne, jaký nápis tam stál, ani že tam nějaký byl. Obě strany sporu proto z téhož nálezu často vyvozují víc, než obsahuje. Druhou mezí je rozsah: dílčí úprava neznehodnocuje celý záznam, a vyřadit jako nespolehlivé vše, co s ní souvisí, je stejná chyba jako přijmout vše. Chesney a Citron (2019) upozorňují, že právě této záměny využívá „dividenda lháře“ – jediná doložená úprava se předkládá jako důvod nevěřit ničemu.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

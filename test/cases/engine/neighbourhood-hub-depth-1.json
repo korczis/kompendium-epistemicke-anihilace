@@ -11,7 +11,7 @@
       {
         "from": "glossary/_index.md",
         "kind": "link",
-        "to": "glossary/color-teams.md"
+        "to": "glossary/delegitimizace.md"
       },
       {
         "from": "glossary/_index.md",
@@ -26,7 +26,7 @@
       {
         "from": "glossary/_index.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
+        "to": "glossary/gaslighting.md"
       },
       {
         "from": "glossary/_index.md",
@@ -36,12 +36,12 @@
       {
         "from": "glossary/coercive-control.md",
         "kind": "link",
-        "to": "glossary/color-teams.md"
+        "to": "glossary/epistemicka-anihilace.md"
       },
       {
         "from": "glossary/coercive-control.md",
         "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
+        "to": "glossary/gaslighting.md"
       },
       {
         "from": "glossary/coercive-control.md",
@@ -54,9 +54,24 @@
         "to": "kompendium/06-klinicke-aplikace/_index.md"
       },
       {
-        "from": "glossary/color-teams.md",
+        "from": "glossary/delegitimizace.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
+        "to": "glossary/coercive-control.md"
+      },
+      {
+        "from": "glossary/delegitimizace.md",
+        "kind": "link",
+        "to": "glossary/epistemicka-anihilace.md"
+      },
+      {
+        "from": "glossary/delegitimizace.md",
+        "kind": "link",
+        "to": "glossary/gaslighting.md"
+      },
+      {
+        "from": "glossary/delegitimizace.md",
+        "kind": "link",
+        "to": "glossary/taxonomie-ea.md"
       },
       {
         "from": "glossary/disociace.md",
@@ -71,12 +86,12 @@
       {
         "from": "glossary/epistemicka-anihilace.md",
         "kind": "link",
-        "to": "glossary/color-teams.md"
+        "to": "glossary/delegitimizace.md"
       },
       {
         "from": "glossary/epistemicka-anihilace.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
+        "to": "glossary/gaslighting.md"
       },
       {
         "from": "glossary/epistemicka-anihilace.md",
@@ -89,14 +104,24 @@
         "to": "kompendium/01-predmluva/eticke-aspekty.md"
       },
       {
-        "from": "glossary/nabla-infinity.md",
+        "from": "glossary/gaslighting.md",
+        "kind": "link",
+        "to": "glossary/coercive-control.md"
+      },
+      {
+        "from": "glossary/gaslighting.md",
+        "kind": "link",
+        "to": "glossary/delegitimizace.md"
+      },
+      {
+        "from": "glossary/gaslighting.md",
         "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
-        "from": "glossary/nabla-infinity.md",
+        "from": "glossary/gaslighting.md",
         "kind": "link",
-        "to": "glossary/taxonomie-ea.md"
+        "to": "kompendium/01-predmluva/eticke-aspekty.md"
       },
       {
         "from": "glossary/taxonomie-ea.md",
@@ -107,11 +132,6 @@
         "from": "glossary/taxonomie-ea.md",
         "kind": "link",
         "to": "kompendium/01-predmluva/eticke-aspekty.md"
-      },
-      {
-        "from": "kompendium/01-predmluva/eticke-aspekty.md",
-        "kind": "link",
-        "to": "glossary/color-teams.md"
       },
       {
         "from": "kompendium/01-predmluva/eticke-aspekty.md",
@@ -126,7 +146,17 @@
       {
         "from": "kompendium/06-klinicke-aplikace/_index.md",
         "kind": "link",
+        "to": "glossary/delegitimizace.md"
+      },
+      {
+        "from": "kompendium/06-klinicke-aplikace/_index.md",
+        "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
+      },
+      {
+        "from": "kompendium/06-klinicke-aplikace/_index.md",
+        "kind": "link",
+        "to": "glossary/gaslighting.md"
       },
       {
         "from": "kompendium/06-klinicke-aplikace/_index.md",
@@ -144,9 +174,14 @@
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
+        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+        "kind": "link",
+        "to": "glossary/gaslighting.md"
+      },
+      {
         "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
         "kind": "link",
-        "to": "glossary/color-teams.md"
+        "to": "glossary/delegitimizace.md"
       },
       {
         "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
@@ -156,7 +191,7 @@
       {
         "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
+        "to": "glossary/gaslighting.md"
       },
       {
         "from": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
@@ -179,86 +214,86 @@
       {
         "class": "glossary",
         "distance": 0,
-        "in": 604,
+        "in": 602,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
       },
       {
         "class": "glossary",
         "distance": 1,
-        "in": 375,
+        "in": 368,
         "path": "glossary/taxonomie-ea.md",
         "title": "Taxonomie EA"
       },
       {
-        "class": "glossary",
-        "distance": 1,
-        "in": 344,
-        "path": "glossary/nabla-infinity.md",
-        "title": "NABLA Infinity (∇∞)"
-      },
-      {
         "class": "kompendium/06-klinicke-aplikace",
         "distance": 1,
-        "in": 329,
+        "in": 328,
         "path": "kompendium/06-klinicke-aplikace/_index.md",
         "title": "06. Klinické aplikace a diagnostika"
       },
       {
         "class": "glossary",
         "distance": 1,
-        "in": 328,
+        "in": 325,
         "path": "glossary/_index.md",
         "title": "Glosář"
       },
       {
         "class": "kompendium/01-predmluva",
         "distance": 1,
-        "in": 312,
+        "in": 309,
         "path": "kompendium/01-predmluva/eticke-aspekty.md",
         "title": "1.3 Etické aspekty a upozornění"
       },
       {
-        "class": "glossary",
-        "distance": 1,
-        "in": 303,
-        "path": "glossary/coercive-control.md",
-        "title": "Coercive control (donucující kontrola)"
-      },
-      {
         "class": "kompendium/06-klinicke-aplikace",
         "distance": 1,
-        "in": 303,
+        "in": 299,
         "path": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
         "title": "6.1 Diagnostické indikátory a markery EA"
       },
       {
         "class": "glossary",
         "distance": 1,
-        "in": 294,
-        "path": "glossary/color-teams.md",
-        "title": "Color Teams (barevné týmy)"
+        "in": 298,
+        "path": "glossary/coercive-control.md",
+        "title": "Coercive control (donucující kontrola)"
+      },
+      {
+        "class": "glossary",
+        "distance": 1,
+        "in": 274,
+        "path": "glossary/disociace.md",
+        "title": "Disociace"
       },
       {
         "class": "kompendium/06-klinicke-aplikace",
         "distance": 1,
-        "in": 277,
+        "in": 271,
         "path": "kompendium/06-klinicke-aplikace/supervizni-ramce.md",
         "title": "6.6 Supervizní rámce v klinické praxi EA"
       },
       {
         "class": "glossary",
         "distance": 1,
-        "in": 276,
-        "path": "glossary/disociace.md",
-        "title": "Disociace"
+        "in": 269,
+        "path": "glossary/gaslighting.md",
+        "title": "Gaslighting"
+      },
+      {
+        "class": "glossary",
+        "distance": 1,
+        "in": 265,
+        "path": "glossary/delegitimizace.md",
+        "title": "Delegitimizace"
       }
     ],
     "ok": true,
     "op": "neighbourhood",
     "path": "glossary/epistemicka-anihilace.md",
     "schema": "kompendium-engine/v1",
-    "total": 619,
+    "total": 613,
     "truncated": true
   },
   "input": {

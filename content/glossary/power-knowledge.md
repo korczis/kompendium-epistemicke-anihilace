@@ -100,11 +100,6 @@ Konkrétně:
 
 ## Význam pro Kompendium
 
-- Rámec [Color Teams](@/glossary/color-teams.md) chápe samotnou platformu jako aparát
-  moci-vědění a podle toho ji audituje: které hlasy [Decision
-  Engine](@/glossary/decision-engine.md) zvýhodňuje? Čí kalibrace důvěry se stává
-  autoritativní? Závazky platformy k otevřenému zdrojovému kódu, auditovatelnosti
-  a vícejazyčnosti jsou výslovnými protitahy vůči moci-vědění.
 - Samo české Kompendium je intervencí moci-vědění: tím, že vytváří **odbornou taxonomii
   v češtině**, posouvá režim pravdy, v němž mohou česky mluvící přeživší pojmenovat svou
   zkušenost.
@@ -161,7 +156,7 @@ Konkrétně:
 **Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

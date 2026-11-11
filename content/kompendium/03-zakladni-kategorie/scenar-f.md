@@ -334,7 +334,7 @@ Plné zotavení do předútočného stavu **není typicky možné**. Realistick�
 ### Předmluva
 - [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md)
 - [Etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)
-- [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md)
+- [Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md)
 
 ### Související techniky (cross-link)
 - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
@@ -358,11 +358,8 @@ Plné zotavení do předútočného stavu **není typicky možné**. Realistick�
 - [Epistemická komunita](@/glossary/epistemicka-komunita.md)
 - [Epistemická alienace](@/glossary/epistemicka-alienace.md)
 - [Anihilační fenomény](@/glossary/anihilacni-fenomeny.md)
-- [NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Color Teams](@/glossary/color-teams.md)
 
 ### Platforma
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## Kritický krok

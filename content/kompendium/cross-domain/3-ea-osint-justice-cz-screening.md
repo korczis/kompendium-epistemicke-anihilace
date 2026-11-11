@@ -5,7 +5,7 @@ weight = 30
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "osint"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["2-ea-osint-czech-ares-validation", "4-ea-osint-sanctions-list-bias", "27-ea-compliance-gdpr-narrative-protection", "15-ea-dd-evidence-quality-assessment"]

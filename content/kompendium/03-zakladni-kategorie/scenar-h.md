@@ -326,7 +326,7 @@ Cca 50–60 % případů dosahuje **plné funkční rekonstrukce**. Další 30�
 ### Předmluva
 - [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md)
 - [Etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)
-- [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md)
+- [Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md)
 
 ### Související techniky (cross-link)
 - [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)
@@ -352,11 +352,8 @@ Cca 50–60 % případů dosahuje **plné funkční rekonstrukce**. Další 30�
 - [Anihilační fenomény](@/glossary/anihilacni-fenomeny.md)
 
 ### Platforma
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-- {{ <cross_link path="/hub/dd/decisions/calibration/" text="Calibration Dashboard" /> }}
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
-- [Glossary: Color Teams](@/glossary/color-teams.md)
 
 ## Kritický krok
 

@@ -113,7 +113,6 @@ Každý section bridge článek obsahuje:
 | Mikro-vrstva (200–400 slov) | Mezo-vrstva (400–600 slov) |
 | Definiční ukotvení | Strukturální navigace |
 | Reciprocita: pojem ↔ definice | Reciprocita: kapitola ↔ kapitola |
-| Driver: NCLB [doctrine](@/glossary/doctrine.md) | Driver: čtenářská orientace |
 
 Obě vrstvy jsou **komplementární** — glossary bridges drží přesnost na úrovni pojmu, section bridges drží orientaci na úrovni knihy.
 

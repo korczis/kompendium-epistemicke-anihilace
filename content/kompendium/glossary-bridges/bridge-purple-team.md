@@ -9,7 +9,7 @@ categories = ["academic", "reference"]
 
 [extra]
 category = "kompendium-bridge"
-related_terms = ["purple-team", "red-team", "blue-team", "color-teams", "white-team", "betrayal-trauma"]
+related_terms = ["purple-team", "red-team", "blue-team", "betrayal-trauma"]
 glossary_target = "purple-team"
 toc = false
 +++
@@ -25,14 +25,12 @@ toc = false
 [Purple Team](@/glossary/purple-team.md) (fialový tým) je v kybernetické bezpečnosti funkce, která
 propojuje útočný [Red Team](@/glossary/red-team.md) a obranný [Blue Team](@/glossary/blue-team.md).
 Vznikla z poznání, že oba týmy pracující izolovaně si nepředávají poznatky: nálezy útoku se ztrácejí
-a obrana zůstává netestovaná proti známým útokům. Na platformě, z níž Kompendium vzešlo, je fialový
-tým trvalou syntetickou vrstvou v rámci [barevných týmů](@/glossary/color-teams.md): mapuje nálezy
-útoku na obranné schopnosti a jako jediný má pravomoc převést nález do stavu „uzavřeno“. Podmínkou
-uzavření je doložená náprava, nikoli pouhé vzetí na vědomí; platforma k tomu sleduje „antimetriky“,
-které odhalují falešné uzavírání.
+a obrana zůstává netestovaná proti známým útokům. Fialový tým je trvalou syntetickou vrstvou mezi
+nimi: mapuje nálezy útoku na obranné schopnosti a nález smí převést do stavu „uzavřeno“ teprve
+tehdy, je-li náprava doložena, nikoli pouze vzata na vědomí.
 
-Heslo patří do kontextu platformy. Kniha ho zařazuje mezi mosty kvůli zásadě, kterou z něj přebírá
-pro lidské instituce: **„uzavřít“ smí jen ten, kdo ověřil nápravu**.
+Kniha heslo zařazuje mezi mosty kvůli zásadě, kterou z něj přebírá pro lidské instituce:
+**„uzavřít“ smí jen ten, kdo ověřil nápravu**.
 
 ## Uzavření očima knihy
 
@@ -57,12 +55,6 @@ přestane zvažovat alternativy. Fialový tým je technickou ochranou proti stej
 
 ## Kde se pojem v knize vyskytuje
 
-Jak fialový tým platformy propojuje nálezy obou stran a proč má výhradní pravomoc uzavírat, popisuje
-stránka [Purple Team a EA](@/kompendium/aiad-integration/purple-team-ea-synthesis.md). Strany, mezi nimiž
-zprostředkuje, přibližují stránky [Red Team a EA](@/kompendium/aiad-integration/red-team-ea-detection.md)
-a [Blue Team a EA](@/kompendium/aiad-integration/blue-team-ea-defense.md); celkový rámec kapitola
-[Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md).
-
 Lidskou obdobu – uzavírání stížností a incidentů až po ověřené nápravě – rozebírají kapitoly organizační
 obrany [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md),
 [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md),
@@ -77,8 +69,7 @@ Falešné uzavření se pozná podle toho, že stav „vyřízeno“ nastal bez 
 znaky jsou formulace „věc byla projednána“ bez uvedení výsledku, uzavření po rozhovoru jen s jednou
 stranou, uzavření, protože stěžovatel „přestal komunikovat“, a opakování téhož problému po krátké době.
 Strathern (1997) upozornila, že jakmile se měřítko stane cílem, přestává měřit: instituce hodnocená
-počtem vyřízených stížností má sklon je vyřizovat, ne řešit. Platforma proto sleduje antimetriky – ukazatele,
-které by odhalily, že uzavírání předbíhá nápravu.
+počtem vyřízených stížností má sklon je vyřizovat, ne řešit.
 
 ### Obrana
 
@@ -116,9 +107,8 @@ opatření vůči oznamovatelům.
 
 ## Odlišení od příbuzných pojmů
 
-Purple Team je třeba odlišit od [White Teamu](@/glossary/white-team.md): bílý tým formálně dokládá, že
-systém drží, fialový propojuje konkrétní útočné nálezy s obranou a rozhoduje o jejich uzavření. Od
-manažera, který „uzavírá tikety“, se liší tím, že uzavření je podmíněno ověřením. Od auditu se liší
+Purple Team je třeba odlišit od manažera, který „uzavírá tikety“: uzavření je podmíněno ověřením
+nápravy, ne vyřízením záznamu. Od auditu se liší
 průběžností: neposuzuje stav jednou za čas, ale každý nález v jeho životním cyklu.
 
 ## Časté omyly
@@ -143,6 +133,16 @@ nápravu tam, kde výsledek nelze přímo měřit – změnu kultury nebo chová
 po uzavření sledovat, zda se problém nevrátil. Druhou otázkou je, kdo ověřuje ověřovatele, když
 fialový tým sám selže.
 
+Rozpoznání formálního uzavření navíc neprokazuje zlý úmysl ani zakrývání: týž vzorec vzniká
+z přetížení, z nejasné odpovědnosti a z toho, že se měřítko stalo cílem (Strathern, 1997). Z
+uzavření bez doloženého výsledku rovněž neplyne, že původní stížnost byla oprávněná — obě otázky se
+posuzují odděleně a jejich záměna poškodí jednu či druhou stranu.
+
+*Interpretace knihy*: analogie má mez i v tom, co se vlastně ověřuje. Croskerry (2003) mluví o
+předčasném uzavření diagnostické úvahy, kde je ověřujícím hlediskem klinický stav; u stížnosti je
+jím chování lidí v čase, a ověření je proto pomalejší a nikdy úplné. Druhá smyčka učení (Argyris &
+Schön, 1978) u institucí tedy znamená spíš trvalý dohled než jednorázové potvrzení.
+
 ## Literatura
 
 - Argyris, C., & Schön, D. A. (1978). *Organizational Learning: A Theory of Action Perspective*. Addison-Wesley.
@@ -163,14 +163,12 @@ fialový tým sám selže.
 
 **Kniha**
 
-- [Purple Team a EA](@/kompendium/aiad-integration/purple-team-ea-synthesis.md) – uzavírání nálezů na platformě.
 - [Riziko obětování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md) – přesun odpovědnosti při uzavírání.
 - [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md) – stížnost jako nález.
 - [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md) – učení ve dvou smyčkách.
 
 **Sesterské mosty**
 
-- [Bridge: Color Teams](@/kompendium/glossary-bridges/bridge-color-teams.md) – soustava týmů.
 - [Bridge: Blue Team](@/kompendium/glossary-bridges/bridge-blue-team.md) – obrana.
 - [Bridge: Betrayal trauma](@/kompendium/glossary-bridges/bridge-betrayal-trauma.md) – institucionální zrada.
 

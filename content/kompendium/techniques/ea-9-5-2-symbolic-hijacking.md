@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.5 Memetická válka
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -71,6 +70,8 @@ Postavička z oblíbeného dětského seriálu se během roku objevuje v desítk
 Hranice mezi únosem a legitimní reinterpretací je sporná; symboly vždy žijí v konfliktu výkladů. Otevřenou otázkou je, kdy se má instituce symbolu vzdát a kdy o něj bojovat, a jak se vyhnout tomu, aby obrana symbolu únos ještě zesílila.
 
 Výzkum sémiotiky online symbolů je převážně kvalitativní a opírá se o případové studie; srovnávací data o tom, jak rychle a za jakých podmínek se význam symbolu mění, chybějí.
+
+Stojí za to říct, co rozpoznaný únos nedokládá o lidech, kteří symbol nyní užívají: velká část z nich jeho posunutý význam nezná a převzala ho jako samozřejmost prostředí, v němž se pohybuje. Obvinění jednotlivce z podílu na únosu proto vyžaduje jiné důkazy než doložený posun významu. Barthes (1957) ukázal, že význam symbolu vzniká druhotným označováním – mýtem, který se k předmětu přidá a vydává se za jeho přirozenou vlastnost; právě proto lze symbol přenastavit, aniž by se na něm samém cokoli změnilo. Jeho rámec je ovšem analytický: vysvětluje, jak posun funguje, ale neříká nic o tom, za jakých podmínek se povede ani jak dlouho vydrží.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

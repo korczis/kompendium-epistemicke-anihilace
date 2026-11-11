@@ -128,9 +128,7 @@ dezinformací na populaci](@/kompendium/population-health/04-disinformation-popu
 
 Z modelu plyne i pravidlo pro vážení dokladů: váhu má nezávislost zdrojů, ne jejich počet,
 protože velké množství tvrzení z jedné koordinované sítě je jediným zdrojem (Paul a Matthews,
-2016). Architektonickou podobu tohoto pravidla popisují hesla [NABLA
-Infinity](@/glossary/nabla-infinity.md) a [decision engine](@/glossary/decision-engine.md);
-širší rámec dávají [info-ops](@/glossary/info-ops.md) a [epistemic
+2016). Širší rámec dávají [info-ops](@/glossary/info-ops.md) a [epistemic
 security](@/glossary/epistemic-security.md).
 
 ## Obrana a zotavení

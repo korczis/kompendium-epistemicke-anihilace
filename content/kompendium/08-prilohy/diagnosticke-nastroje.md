@@ -257,12 +257,6 @@ Pro standardizované klinické nebo výzkumné posouzení doporučujeme následu
 - [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) — dimenze (akutní/chronický, reverzibilní/ireverzibilní) měřené instrumenty.
 - [Rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) — EA kódy mapované na diagnostické indikátory.
 
-## Platformový kontext
-
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — DES-II/IES-R skóre lze integrovat jako negativní signály pro kalibraci důvěry.
-- [Color Teams](@/glossary/color-teams.md) — [Blue Team](@/glossary/blue-team.md) využívá tyto instrumenty pro defenzivní detekci.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) — disociativní výsledky DES-II mapují na L4–L6 narušení [epistemic pipeline](@/glossary/epistemic-pipeline.md).
-
 ## Kritický krok
 
 **Tato příloha je referenční nástroj** — není k četbě od začátku do konce.

@@ -47,9 +47,7 @@ a [Pro koho je určeno](@/kompendium/01-predmluva/pro-koho-je-urceno.md).
 
 **4. Ověřitelnost.** Kniha necituje nic, co neexistuje, a neuvádí čísla, paragrafy ani
 historická fakta, která nejsou jistá. Kde jistota chybí, je myšlenka popsána bez citace
-a označena jako interpretace. V platformě, z níž kniha vzešla, má tato norma podobu pilíře
-[NCLB](@/kompendium/glossary-bridges/bridge-nclb/_index.md): žádné tvrzení bez doložitelného
-zdroje.
+a označena jako interpretace. Žádné tvrzení nezůstává bez doložitelného zdroje.
 
 **5. Péče o čtenáře i o popisované.** Kazuistiky jsou anonymizované kompozity; žádný detail
 nesmí vést k identifikaci osoby. Text počítá s tím, že ho čtou i lidé, kteří podobnou
@@ -119,8 +117,6 @@ jisté od hypotetického a uznává, že zkušenost člověka může být správ
 - [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md)
   – úrovně L0–L4 a jejich smysl.
 - [Dual use](@/kompendium/08-prilohy/dual-use.md) – proč kniha vynechává operační detail.
-- [Bridge: NCLB](@/kompendium/glossary-bridges/bridge-nclb/_index.md) – ověřitelnost tvrzení
-  jako pracovní princip.
 
 **Doktrína jako jev**
 

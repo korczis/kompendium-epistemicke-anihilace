@@ -5,135 +5,95 @@
     "hits": [
       {
         "code": null,
-        "in": 344,
+        "in": 298,
         "kind": "Pojem",
-        "path": "glossary/nabla-infinity.md",
+        "path": "glossary/coercive-control.md",
         "tier": 4,
-        "title": "NABLA Infinity (∇∞)",
-        "url": "/glossary/nabla-infinity/",
+        "title": "Coercive control (donucující kontrola)",
+        "url": "/glossary/coercive-control/",
         "why": "title_prefix"
       },
       {
         "code": null,
-        "in": 14,
+        "in": 48,
         "kind": "Kapitola",
-        "path": "kompendium/aiad-integration/nabla-infinity-ea-pipeline.md",
-        "tier": 4,
-        "title": "NABLA Infinity a detekce technik EA",
-        "url": "/kompendium/aiad-integration/nabla-infinity-ea-pipeline/",
-        "why": "title_prefix"
-      },
-      {
-        "code": null,
-        "in": 14,
-        "kind": "Kapitola",
-        "path": "kompendium/argumentacni-fauly/jazykove-klamy/nabity-jazyk.md",
-        "tier": 4,
-        "title": "Nabitý jazyk",
-        "url": "/kompendium/argumentacni-fauly/jazykove-klamy/nabity-jazyk/",
-        "why": "title_prefix"
-      },
-      {
-        "code": null,
-        "in": 14,
-        "kind": "Kapitola",
-        "path": "kompendium/forensic-legal/48-religious-exemption-EA.md",
-        "tier": 4,
-        "title": "Náboženské výjimky",
-        "url": "/kompendium/forensic-legal/48-religious-exemption-ea/",
-        "why": "title_prefix"
-      },
-      {
-        "code": null,
-        "in": 14,
-        "kind": "Kapitola",
-        "path": "kompendium/international/17-religious-minority-EA/index.md",
-        "tier": 4,
-        "title": "Náboženské menšiny — EA",
-        "url": "/kompendium/international/17-religious-minority-ea/",
-        "why": "title_prefix"
-      },
-      {
-        "code": null,
-        "in": 31,
-        "kind": "Pojem",
-        "path": "glossary/nabla-axioms.md",
+        "path": "kompendium/forensic-legal/12-coercive-control-law.md",
         "tier": 5,
-        "title": "Axiomy NABLA",
-        "url": "/glossary/nabla-axioms/",
+        "title": "Právní úprava coercive control",
+        "url": "/kompendium/forensic-legal/12-coercive-control-law/",
         "why": "title_word"
       },
       {
-        "code": null,
-        "in": 23,
-        "kind": "Kapitola",
-        "path": "kompendium/07-teoreticke-reflexe/computational-epistemology.md",
+        "code": "EA-8.2.5",
+        "in": 42,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
         "tier": 5,
-        "title": "7.6 Computational epistemology a NABLA",
-        "url": "/kompendium/07-teoreticke-reflexe/computational-epistemology/",
+        "title": "EA-8.2.5 Starkův rámec coercive control",
+        "url": "/kompendium/techniques/ea-8-2-5-stark-coercive-control/",
         "why": "title_word"
       },
       {
-        "code": null,
-        "in": 22,
-        "kind": "Kapitola",
-        "path": "kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky.md",
+        "code": "EA-8.1.4",
+        "in": 16,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-8-1-4-coercive-control-scale.md",
         "tier": 5,
-        "title": "Hodnotově nabitá slova",
-        "url": "/kompendium/nlp-vzorce/jazykove-vzorce/slovni-baliky/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 14,
-        "kind": "Kapitola",
-        "path": "kompendium/educational-scenarios/18-cult-recruitment.md",
-        "tier": 5,
-        "title": "Vzdělávací scénář: Náborové techniky kultu",
-        "url": "/kompendium/educational-scenarios/18-cult-recruitment/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 13,
-        "kind": "Kazuistika",
-        "path": "kompendium/case-studies/26-religiozni-fanatismus-exit.md",
-        "tier": 5,
-        "title": "Případ 26: Odchod z vysoce kontrolujícího náboženského společenství",
-        "url": "/kompendium/case-studies/26-religiozni-fanatismus-exit/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 13,
-        "kind": "Kazuistika",
-        "path": "kompendium/case-studies/49-religious-leadership.md",
-        "tier": 5,
-        "title": "Případ 49: Duchovní totalizace pod autoritou náboženského vedoucího",
-        "url": "/kompendium/case-studies/49-religious-leadership/",
+        "title": "EA-8.1.4 Měření coercive control (škály a dotazníky)",
+        "url": "/kompendium/techniques/ea-8-1-4-coercive-control-scale/",
         "why": "title_word"
       },
       {
         "code": null,
         "in": 10,
-        "kind": "Kapitola",
-        "path": "kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru.md",
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-coercive-control.md",
         "tier": 5,
-        "title": "Metaprogramy v náboru a řízení",
-        "url": "/kompendium/nlp-vzorce/metaprogramy/metaprogramy-v-naboru/",
+        "title": "Bridge: Coercive control (donucující kontrola)",
+        "url": "/kompendium/glossary-bridges/bridge-coercive-control/",
         "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 15,
+        "kind": "Kapitola",
+        "path": "kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md",
+        "tier": 6,
+        "title": "Manipulativní reframing v blízkých vztazích",
+        "url": "/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich/",
+        "why": "description"
+      },
+      {
+        "code": "EA-8.3.1",
+        "in": 8,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-8-3-1-foundational-readings.md",
+        "tier": 6,
+        "title": "EA-8.3.1 Základní literatura",
+        "url": "/kompendium/techniques/ea-8-3-1-foundational-readings/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 6,
+        "kind": "Kapitola",
+        "path": "kompendium/international/27-australian-law-EA/index.md",
+        "tier": 6,
+        "title": "Austrálie — EA právní rámec",
+        "url": "/kompendium/international/27-australian-law-ea/",
+        "why": "description"
       }
     ],
     "limit": 12,
-    "normalised": "nab",
+    "normalised": "coe",
     "ok": true,
     "op": "search",
-    "query": "NAB",
+    "query": "Coe",
     "schema": "kompendium-engine/v1",
-    "total": 60
+    "total": 8
   },
   "input": {
     "op": "search",
-    "query": "NAB"
+    "query": "Coe"
   }
 }

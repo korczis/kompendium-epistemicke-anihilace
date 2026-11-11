@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.2 Generativní média
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -69,6 +68,8 @@ Dva dny před komunálními volbami se objeví video, v němž kandidátka údaj
 ## 9. Meze a otevřené otázky
 
 Technické znaky deepfaků se s vývojem modelů ztrácejí a detekční nástroje mají omezenou spolehlivost; žádný nástroj nedává jistotu. Proto roste význam původu záznamu a kontextu oproti analýze obrazu samého. Otevřenou otázkou je, jak chránit autenticitu pravých záznamů před „dividendou lháře“.
+
+Výrok detekčního nástroje není výrokem o pravosti. Nástroj hlásí, že záznam nese nebo nenese stopy typické pro generované video, a oba výsledky zůstávají pravděpodobnostní: pravý záznam po opakovaném překódování a kompresi může být označen chybně a dobře provedený podvrh projde. Pro právní posouzení z toho plyne, že nález otázku původu nahrazuje, nikoli zodpovídá. Druhou mezí je přiřazení: ani doložený deepfake neukazuje, kdo jej vyrobil, a zobrazená osoba často nemá nikoho, na koho ukázat. Vaccari a Chadwick (2020) navíc zjistili, že účinkem nemusí být přesvědčení, ale nejistota – tu samo vyvrácení nesnímá a poškozená osoba s ní žije dál.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

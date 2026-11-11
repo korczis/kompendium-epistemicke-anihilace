@@ -151,15 +151,6 @@ Tyto zranitelnosti **nejsou alternativou** k tradiční taxonomii, ale **infrast
 - **Watermarking generativních výstupů** — Povinné označování AI-generovaných obsahů.
 - **Sektorová odpovědnost** — Mediální gramotnost ve školství, novinářské fact-checking infrastruktury.
 
-### Architektonická úroveň
-
-[NABLA Infinity](@/glossary/nabla-infinity.md) jako platformní implementace adresuje řadu z těchto zranitelností strukturně:
-
-- **Provenance Mandatory (Axiom 7)** — Brání source amnesia syntetických médií.
-- **Time Decay (Axiom 4)** — Brání evergreen-recyklaci zastaralých dezinformací.
-- **Contradiction Preservation (Axiom 2)** — Brání tichou rezolúci kontradikcí směrem k preferované verzi.
-- **[Color Teams](@/glossary/color-teams.md)** — Adversariální testování proti deepfake a AI-generated obsah.
-
 ## Limitace optimismu
 
 Žádná z výše zmíněných obran neřeší **infrastrukturní asymetrii** digitálního věku: defenzivní opatření operují v individuální nebo institucionální časové škále (měsíce až roky); ofenzivní kapacity operují v **algoritmické** škále (milisekundy). Tato asymetrie je **strukturní**, nikoli kontingentní; nelze ji uzavřít čistě technologickými prostředky.
@@ -170,13 +161,11 @@ Realistická pozice tedy vyžaduje **akceptaci permanentní zranitelnosti** komb
 
 - [7.1 Filozofické tradice](@/kompendium/07-teoreticke-reflexe/filozoficke-tradice/_index.md)
 - [7.2 Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
-- [7.3 Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [7.6 Computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
 - [7.4 Politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
 - [7.5 Otevřené výzkumné otázky](@/kompendium/07-teoreticke-reflexe/otevrene-otazky.md)
 - [Sekce 07 — Teoretické reflexe (úvod)](@/kompendium/07-teoreticke-reflexe/_index.md)
 - [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
-- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md)
-- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 - [Sekce 04 — Klinika](@/kompendium/04-klinika/_index.md)
 - [Sekce 05 — Kolektivní rozměr](@/kompendium/05-kolektivni-rozmer/_index.md)
@@ -201,9 +190,6 @@ Realistická pozice tedy vyžaduje **akceptaci permanentní zranitelnosti** komb
 - [Glosář: Gaslighting](@/glossary/gaslighting.md)
 - [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
 - [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Glosář: Color Teams](@/glossary/color-teams.md)
-- [Glosář: Decision Core](@/glossary/decision-core.md)
 
 ## Kritický krok
 

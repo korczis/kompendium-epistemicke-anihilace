@@ -5,7 +5,7 @@ weight = 140
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "due-diligence"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["7-ea-osint-narrative-injection", "12-ea-dd-counterparty-manipulation", "22-ea-security-incident-response-narrative", "16-ea-dd-confirmation-bias-prevention"]

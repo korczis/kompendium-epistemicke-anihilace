@@ -9,7 +9,7 @@ tags = ["glossary", "epistemic", "kompendium", "manipulace"]
 
 [extra]
 category = "epistemic"
-related_terms = ["kognitivni-anihilace", "taxonomie-ea", "metakognitivni-destrukce", "epistemicka-alienace", "nabla-infinity", "epistemic-pipeline"]
+related_terms = ["kognitivni-anihilace", "taxonomie-ea", "metakognitivni-destrukce", "epistemicka-alienace"]
 author = "Tomáš Korcak (korczis)"
 date_created = "2026-04-25"
 date_modified = "2026-11-10"
@@ -89,9 +89,7 @@ Eticky stojí celé heslo v obranném rámci, který stanoví [Etické aspekty](
 
 ## Význam pro Kompendium
 
-Na platformě Prismatic, z níž kniha vzešla, slouží epistemická anihilace jako model hrozby. [Decision Engine](@/glossary/decision-engine.md) považuje známky epistemické manipulace za negativní signály důvěry při kalibraci: rozhodnutí založené na vstupech ze zkaženého epistemického procesu je samo epistemicky podezřelé, i když je formálně konzistentní (viz [vztah k Decision Engine](@/kompendium/02-uvod/_index.md)). Rámec [Color Teams](@/glossary/color-teams.md) zahrnuje simulace [Red Team](@/glossary/red-team.md), které testují odolnost platformy vůči nepřátelským scénářům převzatým z taxonomie. Obě vrstvy uplatňují zásadu, že laik i systém mají váhu svědectví posuzovat podle nezávislosti a dosavadní spolehlivosti zdrojů (Goldman 2001).
-
-Epistemická pipeline [NABLA Infinity](@/glossary/nabla-infinity.md) zavádí strukturní obrany odpovídající neutralizačním strategiím Kompendia: kontrolu rozmanitosti zdrojů jako obranu proti EA-1.1.1, výslovné sledování [falsifikovatelnosti](@/glossary/falsifikovatelnost.md) jako obranu proti EA-1.3.1 a audit původu informací jako obranu proti [EA-1.3.3 Tematické diverzi](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md). Každá z nich převádí do softwaru zásadu, že shoda zdrojů, které jsou na sobě závislé, nemá váhu více nezávislých svědků (Goldman 2001).
+Neutralizační strategie Kompendia odpovídají jednotlivým řadám taxonomie: kontrola rozmanitosti zdrojů jako obrana proti EA-1.1.1, výslovné sledování [falsifikovatelnosti](@/glossary/falsifikovatelnost.md) jako obrana proti EA-1.3.1 a audit původu informací jako obrana proti [EA-1.3.3 Tematické diverzi](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md). Všechny vycházejí ze zásady, že shoda zdrojů, které jsou na sobě závislé, nemá váhu více nezávislých svědků, a že svědectví je třeba vážit podle nezávislosti a dosavadní spolehlivosti zdroje (Goldman 2001).
 
 Pro čtenáře knihy je to pojem, od kterého se odvíjí vše ostatní: každá technika, kazuistika i protokol popisuje jednu cestu, jak se k anihilaci dochází, jak ji rozpoznat, nebo jak se z ní vrátit. Kompendium je publikováno jako samostatná příručka s podrobným rozborem každé techniky v sekci [techniky](@/kompendium/techniques/_index.md). Dílčí trajektorie popisují příbuzná hesla, například [gaslighting](@/glossary/gaslighting.md) jako vztahová podoba, kterou filozofie rozebírá jako útok na postavení druhého jako samostatného posuzovatele (Abramson 2014).
 
@@ -142,13 +140,6 @@ Druhou otevřenou otázkou je inflace pojmu. Silné jméno svádí k tomu, aby s
 - [Kognitivní depersonalizace](@/glossary/kognitivni-depersonalizace.md) – ztráta pocitu autorství vlastních úsudků.
 - [Delegitimizace](@/glossary/delegitimizace.md) – vyřazování zdrojů a postupů jako strukturní předpoklad.
 - [Taxonomie EA](@/glossary/taxonomie-ea.md) – klasifikační systém v notaci `EA-X.Y.Z-α`.
-
-**Platforma**
-
-- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec platformy.
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – šestnáctiúrovňová architektura epistemického usuzování.
-
-**Kniha**
 
 - [Definice](@/kompendium/02-uvod/definice.md) – úplný výklad pojmu v úvodu.
 - [Etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) – obranný rámec, v němž je pojem vymezen.

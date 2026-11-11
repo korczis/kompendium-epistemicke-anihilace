@@ -156,8 +156,8 @@ takové povinnosti vykládat, zůstává předmětem sporu.
 
 Typologie je klasifikační pomůcka, nikoli diagnóza: nepoví, jak obsah působí na konkrétního
 člověka, a sama nerozhodne spor o úmysl (Altay, Berriche a Acerbi, 2023). Totéž platí pro její
-automatizaci ve výpočetních systémech, jakým je [NABLA Infinity](@/glossary/nabla-infinity.md)
-nebo modely z kapitoly [7.6 Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md): strojová klasifikace může
+automatizaci ve výpočetních systémech, jimž se věnuje kapitola [7.6 Computational
+epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md): strojová klasifikace může
 posloužit jako hypotéza, kterou je třeba vystavit pokusu o
 [falsifikaci](@/glossary/falsifikace.md), ne jako verdikt. Kompendium ji proto
 používá k popisu informačního prostředí, nikoli k hodnocení osob, a je si vědomo rizika, že
@@ -201,7 +201,6 @@ populaci](@/kompendium/population-health/04-disinformation-population-impact.md)
 - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) – pravdivé informace vybrané ke škodě.
 - [Deepfake](@/glossary/deepfake.md) – manipulovaný audiovizuální obsah.
 - [Doxing](@/glossary/doxing.md) – zveřejnění soukromých údajů jako malinformace.
-- [Color Teams](@/glossary/color-teams.md) – simulace protivníka v obranné praxi.
 
 **Obrana a prevence**
 

@@ -76,4 +76,18 @@ p.write_text(re.sub(r"benign = true", "benign = false", t, count=1), encoding="u
 PY
 expect_fail "a trainer without a benign contrast"
 
+# A book page the entry links (`kompendium`) that no longer exists (a page removed on main) is
+# reported by name, not a crash of the engine (2026-11-11: glossary/addiction-recovery.md).
+python3 - <<'PY'
+import pathlib, re
+p = pathlib.Path("data/nlp/predpoklady.toml")
+t = p.read_text(encoding="utf-8")
+p.write_text(re.sub(r"kompendium = \[", 'kompendium = [\n  "glossary/odstranena-stranka.md",', t, count=1),
+             encoding="utf-8")
+PY
+if out=$(python3 scripts/catalogs.py --check 2>&1); then echo "gate passed despite a removed book page"; exit 1; fi
+if ! grep -q "glossary/odstranena-stranka.md' does not exist" <<<"$out"; then
+  echo "a removed book page was not reported by name:"; echo "$out" | tail -3; exit 1
+fi
+
 echo "catalogs: gate holds and catches every seeded defect"

@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.6 Algoritmická governance
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -69,6 +68,8 @@ Samoživitelka s nepravidelnými příjmy z brigád dostane oznámení o zastave
 ## 9. Meze a otevřené otázky
 
 Kontrola zneužívání dávek je legitimní; problémem je způsob a nastavení. Otevřenou otázkou je, jak vyvážit efektivitu kontroly s právem na důstojné zacházení a jak zajistit, aby úspora na kontrole nebyla vykoupena škodou na nejzranitelnějších.
+
+Doložené případy, o něž se tato stránka opírá, jsou zjištění vyšetřovacích orgánů o konkrétních programech v konkrétních zemích; neopravňují k závěru, že každá automatizace v sociálním zabezpečení skončí stejně. Rozlišujícím znakem není automatizace sama, ale pořadí, v němž systém žádá důkaz: zásah přichází první a vysvětlení se připouští až po něm. Eubanks (2018) na americkém materiálu ukazuje, že automatizované posuzování nároku se soustřeďuje právě na nejchudší domácnosti a že se postiženým jeví jako administrativní potíž, nikoli jako sankce – a proto se proti němu obtížně brání a obtížně se o něm mluví. *Interpretace knihy*: právě proto se škoda v sociálních systémech sčítá tišeji než v justici, kde má rozhodnutí adresáta, formu a lhůtu, na kterou lze odpovědět.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

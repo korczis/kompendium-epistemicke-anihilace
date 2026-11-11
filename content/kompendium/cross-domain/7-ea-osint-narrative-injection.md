@@ -5,7 +5,7 @@ weight = 70
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "osint"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["1-ea-osint-source-credibility", "8-ea-osint-cross-source-triangulation", "14-ea-dd-narrative-warfare", "5-ea-osint-social-media-manipulation"]

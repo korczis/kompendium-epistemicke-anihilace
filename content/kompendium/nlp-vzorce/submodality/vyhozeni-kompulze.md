@@ -37,9 +37,9 @@ catalog_depth = 0
 catalog_ancestors = []
 catalog_related = ["kriticke-submodality", "mapovani-napric", "swish", "od-libosti-k-nechuti", "prahovy-vzorec"]
 catalog_related_declared = ["kriticke-submodality", "prahovy-vzorec", "od-libosti-k-nechuti", "swish", "mapovani-napric"]
-catalog_kompendium = ["glossary/addiction-recovery.md", "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/critical-perspectives/_index.md"]
+catalog_kompendium = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/critical-perspectives/_index.md"]
 catalog_canonical = ""
-catalog_links_prose = ["glossary/addiction-recovery.md", "kompendium/nlp-vzorce/submodality/kriticke-submodality.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
+catalog_links_prose = ["kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md", "kompendium/nlp-vzorce/submodality/kriticke-submodality.md", "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"]
 catalog_prev = "auditivni-swish"
 catalog_next = "vzorec-godiva"
 catalog_position = 11
@@ -193,8 +193,8 @@ je změřil a zda poskytovatel spolupracuje s lékařem; systematický přehled 
 dostatek takových dokladů nenašel (Sturt a kol. 2012). Pokud poskytovatel odrazuje od medikace
 nebo od adiktologické péče, je to důvod spolupráci ukončit. U alkoholu a některých léků může
 být náhlé přerušení užívání zdravotně nebezpečné, a proto rozhodnutí o odvykání patří do rukou
-lékaře. Kompendium shrnuje principy epistemické bdělosti při zotavení ze závislostí v hesle
-[Addiction Recovery](@/glossary/addiction-recovery.md).
+lékaře. Jak se doložené terapeutické přístupy liší od nabídek bez dokladů, popisuje kapitola
+[terapeutické přístupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md).
 
 Pro zotavení po neúspěšné intervenci je důležité odmítnout výklad, že recidiva je osobní
 selhání nebo důkaz nedostatečné spolupráce. Relaps je u závislostí běžnou součástí průběhu a
@@ -239,7 +239,6 @@ dokladem trvalé změny.
 
 **V kompendiu**
 
-- [Addiction Recovery (princip epistemické bdělosti)](@/glossary/addiction-recovery.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [Kritické perspektivy – meze rámce epistemické anihilace](@/kompendium/critical-perspectives/_index.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 

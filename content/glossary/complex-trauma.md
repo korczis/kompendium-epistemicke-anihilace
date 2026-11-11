@@ -85,22 +85,19 @@ závisí.
 
 ## Význam pro Kompendium
 
-Na platformě, z níž kniha vzešla, je komplexní trauma **diagnosticky ústřední** v kontextu
-prověrek ([due diligence](@/glossary/due-diligence.md)) a personálního screeningu tam, kde jde o historii dlouhodobého
+Komplexní trauma je pro knihu **diagnosticky ústřední** tam, kde jde o historii dlouhodobého
 vlivu. U lidí s plně vyjádřeným obrazem C-PTSD – zejména s okruhem poruch sebeorganizace –
 se předpokládá, že pocházejí z prostředí, v němž působily procesy na úrovni epistemické
 anihilace, i když samotné prostředí nelze přímo prošetřit. Klinický obraz sám je
 důkazem o prostředí – jako hypotéza, nikoli jako závěr.
 
-Důsledky na úrovni platformy:
+Důsledky:
 
-1. při zjištění znaků komplexního traumatu jsou výslovně vyžadovány cesty klinického
-   doporučení – platforma se nesmí stát náhradou léčby;
-2. výpovědi osob se znaky komplexního traumatu procházejí zvláštní kalibrační úpravou, která
-   zohledňuje typické zkreslení vybavování životopisných vzpomínek a sebehodnocení
-   (viz [Hodnocení věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md));
-3. [Decision Engine](@/glossary/decision-engine.md) bere konzistentní podpisy komplexního
-   traumatu jako sbíhavý důkaz podporující hypotézy o dlouhodobém koercivním prostředí.
+1. při zjištění znaků komplexního traumatu platí výslovný požadavek cesty klinického
+   doporučení – rozpoznání vzorce nesmí nahradit léčbu;
+2. výpovědi osob se znaky komplexního traumatu je třeba vážit se zřetelem k typickému
+   zkreslení vybavování životopisných vzpomínek a sebehodnocení (viz [Hodnocení
+   věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md)).
 
 ## Interaktivní model: kumulace v doménách
 

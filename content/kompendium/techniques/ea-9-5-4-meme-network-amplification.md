@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.5 Memetická válka
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -71,6 +70,8 @@ Síť pěti stránek s memy o počítačových hrách sleduje statisíce mladýc
 Správci stránek mají právo na vlastní politické názory; problémem je skrytost, placenost a koordinace, ne názor. Otevřenou otázkou je, jak zajistit transparentnost vlastnictví stránek bez ohrožení anonymity běžných tvůrců.
 
 Chybí také systematická data o tom, jak často se vlastnictví velkých zábavních stránek mění a jak často po změně následuje politický obsah; dostupné poznatky pocházejí z jednotlivých novinářských a výzkumných případů. Kniha proto vzorec popisuje jako opakovaně doložený, ne jako změřený.
+
+Z povahy vzorce plyne, kde je uložen důkaz: rozhodující není jediný příspěvek, ale změna skladby obsahu stránky v čase. Posoudit ho proto nelze z jednoho snímku obrazovky, nýbrž jen z archivu stránky, a tam, kde byly starší příspěvky odstraněny, zůstává podezření nedoložitelné. Phillips (2015) ukazuje, že subkulturní humor a hlavní mediální provoz jsou propletené a že obsah takových stránek nelze čistě rozdělit na zábavu a sdělení; vážnost a žert tu existují zároveň a správce se může dovolat obojího. *Interpretace knihy*: proto je u těchto stránek plodnější otázka po vlastnictví a penězích než po výkladu jednotlivého memu.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

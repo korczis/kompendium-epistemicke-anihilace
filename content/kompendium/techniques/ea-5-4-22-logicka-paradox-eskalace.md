@@ -91,6 +91,18 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Rozpoznání této stavby neprokazuje, že druhá strana klasické paradoxy zná nebo že je užívá se
+záměrem. Priest (1994) připomíná, že paradoxy [sebereference](@/glossary/self-reference.md) mají společnou formální stavbu, kterou
+lze reprodukovat i bez jakéhokoli povědomí o ní. Nedokazuje ani chybu na straně zasaženého člověka:
+Curryho odvození (Curry, 1942) je v systémech s pravidlem kontrakce platné, a stáze před takovou
+úlohou tedy není projevem nekompetence.
+
+Od semináře, v němž se tytéž paradoxy probírají, se vzorec odlišuje adresátem zpochybnění: ve výuce
+je zpochybňován předpoklad úlohy, zde řešitel sám. Od [implantace nekonečného regresu](@/kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md)
+jej odlišuje místo tlaku — tam zůstává nedostupné zastavení řetězu důvodů, zde obstojnost jediného
+soudu. Prostředí, které takto vzniklou nejistotu uzavírá nabídkou jednoho vykladače, popsal Lifton
+(1961).
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |
@@ -169,15 +181,10 @@ Klíčové pojmové kotvy techniky: **Yablo paradox, Curry paradox, hierarchie p
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
-
 ---
 
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/korczis-prismatic-platform)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

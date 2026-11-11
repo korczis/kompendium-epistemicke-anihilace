@@ -78,7 +78,6 @@ podpis tohoto jevu popisují detekční signatury [hustoty
 žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md)
 a [nefalsifikovatelných tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md).
 
-**Doktrína nad člověkem** (*[doctrine](@/glossary/doctrine.md) over person*) vyžaduje, aby vlastní zkušenost člověka
 ustoupila doktríně: kde se s ní rozchází, je chybná zkušenost, ne doktrína (Lifton, 1961).
 **Rozhodování o existenci** (*dispensing of existence*) je nárok skupiny rozhodnout, kdo má
 právo na existenci a kdo je „ztracený“; nečlenové a odpadlíci jsou méněcenní a vztahy

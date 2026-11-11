@@ -81,9 +81,9 @@ Akademičtí pracovníci odpovědní za výuku pokročilých témat, kteří moh
 - Selekce obsahu podle pedagogické nezbytnosti, nikoli komplexnosti
 - Periodické posouzení zralosti a etické připravenosti studentů
 
-### 5. Specializovaní bezpečnostní analytici a Color Teams
+### 5. Specializovaní bezpečnostní analytici
 
-Operátoři [Color Teams](@/glossary/color-teams.md) Prismatic platformy a analogických bezpečnostních struktur, jejichž profesní rolí je defenzivní detekce a neutralizace epistemicky manipulativních operací. Tato kategorie byla doplněna do primární skupiny v reakci na rostoucí potřebu specializované obrany proti dezinformačním a vlivovým operacím.
+Analytici bezpečnostních struktur, jejichž profesní rolí je defenzivní detekce a neutralizace epistemicky manipulativních operací. Tato kategorie byla doplněna do primární skupiny v reakci na rostoucí potřebu specializované obrany proti dezinformačním a vlivovým operacím.
 
 ## Speciální kategorie s omezeným přístupem
 
@@ -152,18 +152,21 @@ Striktní omezení **nejsou motivována akademickým elitářstvím**, ale hlubo
 
 V souladu s fundamentálním principem **primum non nocere** je nezbytné zajistit, že toto poznání bude využito výhradně k **ochraně** kognitivní integrity a autonomie jednotlivců, nikoli k jejich podkopání.
 
+## Meze tohoto vymezení
+
+Tato kapitola popisuje, komu je text určen, nikoli komu je technicky dostupný. Formulovaná kritéria jsou normativním návrhem autora, nikoli standardem přijatým profesními komorami nebo etickými komisemi, a žádná z uvedených kvalifikací se při čtení neprověřuje; *interpretace knihy* je, že vymezení adresáta má především funkci rámce čtení – říká, s jakou odpovědností a v jaké supervizi text obstojí. Z vyjmenovaných skupin tedy neplyne ani oprávnění, ani jeho nedostatek: čtenář mimo okruh adresátů neporušuje žádné pravidlo, zůstává však bez rámce, který kapitola považuje za podmínku odpovědného užití. Uvedené délky školení a periodicita rekvalifikace jsou příklady obvyklé institucionální praxe, ne závazná norma.
+
 ## Související
 
 - [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md)
 - [Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md)
 - [Jak používat toto kompendium](@/kompendium/01-predmluva/jak-pouzivat.md)
 - [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md)
-- [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md)
+- [Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md)
 - [Definice epistemické a kognitivní anihilace](@/kompendium/02-uvod/definice.md)
 - [Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
-- [Glossary: Color Teams](@/glossary/color-teams.md)
 - [Glossary: Epistemická reintegrace](@/glossary/epistemicka-reintegrace.md)
 
 ## Kritický krok

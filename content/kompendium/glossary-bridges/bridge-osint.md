@@ -9,7 +9,7 @@ categories = ["academic", "reference"]
 
 [extra]
 category = "kompendium-bridge"
-related_terms = ["osint", "entity-resolution", "intelligence-fusion", "doxing", "due-diligence", "easm"]
+related_terms = ["osint", "entity-resolution", "intelligence-fusion", "doxing", "due-diligence"]
 glossary_target = "osint"
 toc = false
 +++
@@ -31,9 +31,8 @@ V posledních letech se OSINT rozšířil i mimo státní zpravodajství: Higgin
 nezávislých badatelů z veřejně dostupných fotografií, videí a dat dokázala ověřit události, které
 oficiální zdroje popíraly.
 
-Na platformě, z níž Kompendium vzešlo, tvoří OSINT jeden z hlavních subsystémů. Kniha ho popisuje
-**výhradně jako obranný a zákonný nástroj**: k ověřování tvrzení, k rozpoznání koordinovaných kampaní
-a k ochraně lidí, nikoli k vyhledávání a sledování jednotlivců.
+Kniha OSINT popisuje **výhradně jako obranný a zákonný nástroj**: k ověřování tvrzení,
+k rozpoznání koordinovaných kampaní a k ochraně lidí, nikoli k vyhledávání a sledování jednotlivců.
 
 ## OSINT očima knihy
 
@@ -71,9 +70,7 @@ neleží v nástrojích, ale v tom, zda postup připouští, že se hypotéza uk
 
 ## Kde se pojem v knize vyskytuje
 
-Jak agent platformy shromažďuje a váží veřejné zdroje a rozpoznává ozvěnové komory a otrávené zdroje,
-popisuje stránka [OSINT a EA](@/kompendium/aiad-integration/osint-ea-source-validation.md). Řada
-mezioborových kapitol se OSINT věnuje podrobně: [Source Credibility under Epistemic Attack](@/kompendium/cross-domain/1-ea-osint-source-credibility.md),
+Řada mezioborových kapitol se OSINT věnuje podrobně: [Source Credibility under Epistemic Attack](@/kompendium/cross-domain/1-ea-osint-source-credibility.md),
 [ARES Validation pod EA Lens](@/kompendium/cross-domain/2-ea-osint-czech-ares-validation.md),
 [Sociální sítě jako EA bojiště](@/kompendium/cross-domain/5-ea-osint-social-media-manipulation.md),
 [Narrative Injection Attacks](@/kompendium/cross-domain/7-ea-osint-narrative-injection.md),
@@ -124,10 +121,9 @@ výzkumu nevstoupily dobrovolně.
 
 ## Odlišení od příbuzných pojmů
 
-OSINT je třeba odlišit od [EASM](@/glossary/easm.md), které uplatňuje podobné metody na vlastní
-organizaci, a od [fúze zpravodajství](@/glossary/intelligence-fusion.md), která slučuje zdroje libovolného
-druhu. Od [sjednocování entit](@/glossary/entity-resolution.md) se liší tím, že sjednocování je jedním
-z kroků analýzy, OSINT celý cyklus. Od doxingu se OSINT liší účelem, přiměřeností a respektem k právům
+OSINT je třeba odlišit od [fúze zpravodajství](@/glossary/intelligence-fusion.md), která slučuje zdroje
+libovolného druhu. Od [sjednocování entit](@/glossary/entity-resolution.md) se liší tím, že
+sjednocování je jedním z kroků analýzy, OSINT celý cyklus. Od doxingu se OSINT liší účelem, přiměřeností a respektem k právům
 dotčených osob, nikoli technikou; proto kniha klade důraz na pravidla.
 
 ## Časté omyly
@@ -173,7 +169,6 @@ bude stále těžší odlišit autentický záznam od syntetického – kniha tu
 
 **Kniha**
 
-- [OSINT a EA](@/kompendium/aiad-integration/osint-ea-source-validation.md) – vážení veřejných zdrojů na platformě.
 - [Narrative Injection Attacks](@/kompendium/cross-domain/7-ea-osint-narrative-injection.md) – otrávené zdroje.
 - [Confirmation Bias v DD procesu](@/kompendium/cross-domain/9-ea-dd-investigation-bias.md) – zaujatost vyšetřovatele.
 - [Dual Use](@/kompendium/08-prilohy/dual-use.md) – etika otevřených zdrojů.
@@ -182,7 +177,6 @@ bude stále těžší odlišit autentický záznam od syntetického – kniha tu
 
 - [Bridge: Entity Resolution](@/kompendium/glossary-bridges/bridge-entity-resolution.md) – sjednocování záznamů.
 - [Bridge: Intelligence fusion](@/kompendium/glossary-bridges/bridge-intelligence-fusion.md) – fúze zdrojů.
-- [Bridge: Censys](@/kompendium/glossary-bridges/bridge-censys.md) – technický otevřený zdroj.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

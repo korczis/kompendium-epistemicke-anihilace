@@ -31,8 +31,8 @@ formulovali pravděpodobnostně: dvojice záznamů se zařadí jako shoda, nesho
 revizi podle toho, jak silně shodné a neshodné rysy svědčí pro jednu či druhou možnost. Ještě dříve
 Newcombe a spolupracovníci (1959) ukázali automatické propojování záznamů o narozeních a sňatcích.
 
-Na platformě, z níž Kompendium vzešlo, je sjednocování entit součástí subsystému prověrek
-([due diligence](@/glossary/due-diligence.md)). Heslo patří do kontextu platformy; kniha ho zařazuje mezi
+Sjednocování entit je technickým základem prověrek protistran
+([due diligence](@/glossary/due-diligence.md)). Kniha ho zařazuje mezi
 mosty kvůli jeho etické stránce, která přímo souvisí s ochranou lidí před epistemickou újmou.
 
 ## Sjednocování entit očima knihy
@@ -59,10 +59,8 @@ popisuje v technice [EA-2.3.8 Epistemický doxxing](@/kompendium/techniques/ea-2
 
 ## Kde se pojem v knize vyskytuje
 
-Vážení zdrojů při prověrkách a sestavování matice rozporů popisuje stránka
-[DD Engine a EA](@/kompendium/aiad-integration/dd-engine-ea-source-weighting.md); porovnávání údajů
-českých veřejných rejstříků s dalšími zdroji stránka [Czech ARES a EA](@/kompendium/aiad-integration/czech-ares-ea-screening.md)
-a kapitola [ARES Validation pod EA Lens](@/kompendium/cross-domain/2-ea-osint-czech-ares-validation.md).
+Porovnávání údajů českých veřejných rejstříků s dalšími zdroji rozebírá kapitola
+[ARES Validation pod EA Lens](@/kompendium/cross-domain/2-ea-osint-czech-ares-validation.md).
 Riziko chybné shody jmen při sankčních prověrkách rozebírá kapitola
 [Sankční seznamy a atribuční bias](@/kompendium/cross-domain/4-ea-osint-sanctions-list-bias.md) a skrývání
 skutečných vlastníků za řetězci entit kapitola [UBO Disinformation Patterns](@/kompendium/cross-domain/13-ea-dd-beneficial-ownership-disinformation.md).
@@ -162,7 +160,6 @@ ověřený vzorek, a ten v praxi často chybí.
 
 - [EA-2.3.8 Epistemický doxxing](@/kompendium/techniques/ea-2-3-8-doxxing-epistemicky.md) – agregace údajů jako technika.
 - [Pomluva v EA kontextu](@/kompendium/forensic-legal/14-defamation-EA.md) – právní obrana při chybném přiřazení.
-- [DD Engine a EA](@/kompendium/aiad-integration/dd-engine-ea-source-weighting.md) – vážení zdrojů v prověrkách.
 - [Sankční seznamy a atribuční bias](@/kompendium/cross-domain/4-ea-osint-sanctions-list-bias.md) – chybné shody jmen.
 
 **Sesterské mosty**

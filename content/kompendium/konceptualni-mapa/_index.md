@@ -52,12 +52,10 @@ graph TD
     KLI --> KLI1[Diagnostické markery]
     KLI --> KLI2[Recovery protocols]
     KLI --> KLI3[Vulnerabilní populace]
-    TECH --> TECH1[NABLA Infinity]
-    TECH --> TECH2[Color Teams]
     TECH --> TECH3[Detection signatures]
 ```
 
-Detailní per-pojmové články najdete v [Glossary](@/glossary/_index.md). Most-pojmy (např. [bridge-aiad](@/kompendium/glossary-bridges/bridge-aiad.md), [bridge-3nl](@/kompendium/glossary-bridges/bridge-3nl.md)) propojují kompendium s technickou platformou Prismatic.
+Detailní per-pojmové články najdete v [Glossary](@/glossary/_index.md).
 
 ## Taxonomický pohled
 
@@ -109,12 +107,7 @@ Most-pojmy (bridge concepts) jsou termíny, které leží na rozhraní dvou nebo
 
 | Most-pojem | Domény, které propojuje |
 |------------|--------------------------|
-| [Bridge: AIAD](@/kompendium/glossary-bridges/bridge-aiad.md) | Klinika ↔ technologie (AI-augmented detekce) |
-| [Bridge: 3NL](@/kompendium/glossary-bridges/bridge-3nl.md) | Architektura ↔ epistemologie |
-| [Bridge: NM-ND](@/kompendium/glossary-bridges/bridge-nm-nd.md) | Doktrína ↔ klinická praxe |
-| [Bridge: NCLB](@/kompendium/glossary-bridges/bridge-nclb/_index.md) | Quality enforcement ↔ klinická evidence |
 | [Bridge: Agent](@/kompendium/glossary-bridges/bridge-agent.md) | Sociologie ↔ multi-agent systémy |
-| [Bridge: Adapter pattern](@/kompendium/glossary-bridges/bridge-adapter-pattern.md) | Technická architektura ↔ klinická intervenční logika |
 
 ## Sekční mosty
 

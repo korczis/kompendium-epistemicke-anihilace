@@ -93,8 +93,6 @@ Každá stránka má stejnou kostru: definici, popis toho, co signatura indikuje
 
 **Pozor na zneužití detekce.** Signatury mohou být samy použity jako nálepky proti nepohodlným lidem nebo proti oprávněné kritice. Fricker (2007) ukázala, jak předsudek o mluvčím snižuje váhu jeho svědectví; detekce, která by se takovým předsudkem řídila, by epistemickou nespravedlnost sama vytvářela. Kritické ohledy shrnují [riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md) a [EA jako mocenský nástroj](@/kompendium/critical-perspectives/18-EA-as-power-tool.md).
 
-Signatury slouží také jako vstup pro rozhodovací modely platformy, z níž kniha vzešla (viz [Decision Engine](@/glossary/decision-engine.md)); ani tam však nenahrazují odborný úsudek.
-
 ## Literatura
 
 - Biderman, A. D. (1957). Communist attempts to elicit false confessions from Air Force prisoners of war. *Bulletin of the New York Academy of Medicine*, 33(9), 616–625.

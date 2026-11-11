@@ -17,10 +17,10 @@
     "static/data/viz-deps.json"
    ],
    "generic_views": {
-    "viz/okoli": 326
+    "viz/okoli": 276
    },
    "libraries": [],
-   "pages": 327,
+   "pages": 277,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -104,15 +104,13 @@
    ],
    "status": "covered",
    "templates": {
-    "glossary/detail.html": 326,
+    "glossary/detail.html": 276,
     "glossary/list.html": 1
    },
    "views": {
     "chart-inline": 1,
-    "mermaid": 1,
     "viz/glosar": 1,
-    "viz/kontext": 326,
-    "viz/teorie-pojmy": 1
+    "viz/kontext": 276
    }
   },
   "kompendium": {
@@ -215,9 +213,7 @@
    }
   },
   "kompendium/01-predmluva": {
-   "components": [
-    "cross_link"
-   ],
+   "components": [],
    "covered_views": [
     "viz/teorie-pojmy"
    ],
@@ -633,7 +629,6 @@
   },
   "kompendium/03-zakladni-kategorie": {
    "components": [
-    "cross_link",
     "viz_script"
    ],
    "covered_views": [
@@ -956,7 +951,6 @@
   },
   "kompendium/04-terminalni-protokoly": {
    "components": [
-    "cross_link",
     "viz_script"
    ],
    "covered_views": [
@@ -1420,9 +1414,7 @@
    }
   },
   "kompendium/05-ultramari-techniky": {
-   "components": [
-    "cross_link"
-   ],
+   "components": [],
    "covered_views": [
     "viz/oddil-prehled"
    ],
@@ -1665,7 +1657,6 @@
   },
   "kompendium/06-klinicke-aplikace": {
    "components": [
-    "cross_link",
     "viz_script"
    ],
    "covered_views": [
@@ -2030,9 +2021,7 @@
    }
   },
   "kompendium/08-prilohy": {
-   "components": [
-    "cross_link"
-   ],
+   "components": [],
    "covered_views": [
     "viz/rejstrik",
     "viz/teorie-pojmy"
@@ -2131,98 +2120,6 @@
     "viz/oddil-prehled": 1,
     "viz/rejstrik": 1,
     "viz/teorie-pojmy": 8
-   }
-  },
-  "kompendium/aiad-integration": {
-   "components": [],
-   "covered_views": [
-    "viz/oddil-prehled"
-   ],
-   "data": [
-    "static/data/graph.json",
-    "static/data/nav.json",
-    "static/data/pokracovat.json",
-    "static/data/terms.json",
-    "static/data/viz-deps.json"
-   ],
-   "generic_views": {
-    "viz/oddil": 1,
-    "viz/okoli": 25
-   },
-   "libraries": [],
-   "pages": 26,
-   "partials": [
-    "partials/connections.html",
-    "partials/explorer-glossary.html",
-    "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
-    "partials/explorer-techniques.html",
-    "partials/footer.html",
-    "partials/header.html",
-    "partials/index-pojmu.html",
-    "partials/katalog-heslo.html",
-    "partials/nav.html",
-    "partials/page-context.html",
-    "partials/pager.html",
-    "partials/paleta.html",
-    "partials/pohled-graf.html",
-    "partials/pohled-stranky.html",
-    "partials/pokracovat.html",
-    "partials/section-overview.html",
-    "partials/sidebar.html",
-    "partials/sidebar_pages.html",
-    "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
-   ],
-   "scenarios": [
-    {
-     "covers": [
-      "viz/oddil-prehled"
-     ],
-     "note": "třída kompendium/aiad-integration: pohled oddil-prehled",
-     "origin": "derived",
-     "page": "kompendium/aiad-integration/_index.md",
-     "painted": 1,
-     "path": "kompendium/aiad-integration/"
-    }
-   ],
-   "scripts": [
-    "js/p5/grafika.js",
-    "js/site.js",
-    "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
-    "js/vendor/flowbite.min.js",
-    "js/vendor/mermaid-11.min.js",
-    "js/vendor/p5-1.7.0.min.js",
-    "js/vendor/three-0.160.min.js",
-    "js/viz/casova-osa.js",
-    "js/viz/glosar.js",
-    "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
-    "js/viz/kompendium-viz.js",
-    "js/viz/kontext.js",
-    "js/viz/kostka.js",
-    "js/viz/oddil-prehled.js",
-    "js/viz/oddil.js",
-    "js/viz/okoli.js",
-    "js/viz/paleta.js",
-    "js/viz/rejstrik.js",
-    "js/viz/technika.js",
-    "js/viz/techniky-rozptyl.js",
-    "js/viz/techniky.js",
-    "js/viz/vrstva.js"
-   ],
-   "status": "covered",
-   "templates": {
-    "kompendium/page.html": 25,
-    "section.html": 1
-   },
-   "views": {
-    "viz/oddil-prehled": 1
    }
   },
   "kompendium/argumentacni-fauly": {
@@ -3031,10 +2928,10 @@
    ],
    "generic_views": {
     "viz/oddil": 1,
-    "viz/okoli": 108
+    "viz/okoli": 74
    },
    "libraries": [],
-   "pages": 110,
+   "pages": 75,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -3102,8 +2999,8 @@
    ],
    "status": "covered",
    "templates": {
-    "kompendium/page.html": 108,
-    "section.html": 2
+    "kompendium/page.html": 74,
+    "section.html": 1
    },
    "views": {
     "viz/oddil-prehled": 1
@@ -4133,10 +4030,10 @@
    ],
    "generic_views": {
     "viz/oddil": 1,
-    "viz/okoli": 30
+    "viz/okoli": 28
    },
    "libraries": [],
-   "pages": 31,
+   "pages": 29,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -4204,7 +4101,7 @@
    ],
    "status": "covered",
    "templates": {
-    "kompendium/page.html": 30,
+    "kompendium/page.html": 28,
     "section.html": 1
    },
    "views": {
@@ -4304,9 +4201,7 @@
    }
   },
   "kompendium/techniques": {
-   "components": [
-    "cross_link"
-   ],
+   "components": [],
    "covered_views": [
     "viz/kontext",
     "viz/technika",
@@ -4449,7 +4344,6 @@
     "kompendium/forensic-evidence-flow",
     "kompendium/glossary-network-2d",
     "kompendium/historical-cases-timeline",
-    "kompendium/nabla-pipeline-viz",
     "kompendium/phenomenology-timeline-chart",
     "kompendium/protocol-decision-tree",
     "kompendium/recovery-network-3d",
@@ -4500,7 +4394,6 @@
       "kompendium/forensic-evidence-flow",
       "kompendium/glossary-network-2d",
       "kompendium/historical-cases-timeline",
-      "kompendium/nabla-pipeline-viz",
       "kompendium/phenomenology-timeline-chart",
       "kompendium/protocol-decision-tree",
       "kompendium/recovery-network-3d",
@@ -4527,7 +4420,6 @@
     "js/kompendium/forensic-evidence-flow.js",
     "js/kompendium/glossary-network-2d.js",
     "js/kompendium/historical-cases-timeline.js",
-    "js/kompendium/nabla-pipeline-viz.js",
     "js/kompendium/phenomenology-timeline-chart.js",
     "js/kompendium/protocol-decision-tree.js",
     "js/kompendium/recovery-network-3d.js",
@@ -4572,7 +4464,6 @@
     "kompendium/forensic-evidence-flow": 1,
     "kompendium/glossary-network-2d": 1,
     "kompendium/historical-cases-timeline": 1,
-    "kompendium/nabla-pipeline-viz": 1,
     "kompendium/phenomenology-timeline-chart": 1,
     "kompendium/protocol-decision-tree": 1,
     "kompendium/recovery-network-3d": 1,

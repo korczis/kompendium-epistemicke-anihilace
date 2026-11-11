@@ -58,9 +58,9 @@ protokoly.
 
 ## Původ a kontext
 
-Rámec vznikl jako model hrozby a slovník pro epistemické obrany platformy Prismatic a postupně
-se rozrostl v samostatnou knihu; vztah k platformě popisuje kapitola [Vztah
-k platformě](@/kompendium/01-predmluva/vztah-k-platforme.md). Odbornou oporu si bere ze čtyř
+Rámec vznikl jako model hrozby a slovník pro epistemické obrany ve vývojovém kontextu, z něhož
+kniha vzešla, a postupně se rozrostl v samostatnou knihu; ten původ popisuje kapitola [Odkud
+kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md). Odbornou oporu si bere ze čtyř
 starších linií, z nichž přejímá své pojmy: z výzkumu reformy myšlení (Lifton, 1961),
 z psychotraumatologie (Herman, 1992), z rámce koercivní kontroly (Stark, 2007) a ze sociální
 epistemologie (Fricker, 2007).
@@ -138,20 +138,13 @@ druhotnou újmou.
 
 ## Význam pro Kompendium
 
-Pro platformu, z níž kniha vzešla, plní rámec tři role. Je zdrojem modelu hrozby: [Decision
-Engine](@/glossary/decision-engine.md), [NABLA Infinity](@/glossary/nabla-infinity.md) i [Color
-Teams](@/glossary/color-teams.md) čerpají scénáře z taxonomie, a strukturní obrany platformy –
-rozmanitost zdrojů, falzifikační klauzule, neměnné záznamy, kalibrační smyčky – odpovídají
-konkrétním rodinám technik. Že právě tyto obrany odpovídají právě těmto technikám, je
-*interpretace knihy*; doložena je obecnější teze, že odstranění vnějšího srovnání je jádrem
-kontroly prostředí (Lifton, 1961).
-
-Dále je rámec zdrojem slovníku: tento glosář z něj odvozuje pojmy a drží jednotný vzor
-vzájemných odkazů, takže čtenář může přejít od hesla k výkladu v kapitole. Reprezentativní
-hesla taxonomie jsou [delegitimizace](@/glossary/delegitimizace.md) a [metakognitivní
-destrukce](@/glossary/metakognitivni-destrukce.md). Konečně je rámec provozní příručkou pro
-kliniky a výzkumníky, kteří potřebují určit, která rodina technik v daném případě působí a jaké
-obrany jsou indikovány; i zde platí pořadí stabilizace před obsahem (Herman, 1992).
+Rámec plní v knize dvě role. Je zdrojem slovníku: tento glosář z něj odvozuje pojmy a drží
+jednotný vzor vzájemných odkazů, takže čtenář může přejít od hesla k výkladu v kapitole.
+Reprezentativní hesla taxonomie jsou [delegitimizace](@/glossary/delegitimizace.md)
+a [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md). Druhou rolí je provozní
+příručka pro kliniky a výzkumníky, kteří potřebují určit, která rodina technik v daném případě
+působí a jaké obrany jsou indikovány; i zde platí pořadí stabilizace před obsahem
+(Herman, 1992).
 
 ## Jak knihu používat a meze rámce
 

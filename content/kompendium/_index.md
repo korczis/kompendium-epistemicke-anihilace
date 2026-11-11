@@ -72,7 +72,6 @@ Kompendium je určeno **výhradně** pro:
 | **13** | [Section Bridges](@/kompendium/section-bridges/_index.md) | ✓ 30 můstků | Cross-link můstky mezi sekcemi kompendia (1↔3, 2↔4, atd.) |
 | **14** | [Recovery Protocols](@/kompendium/recovery-protocols/_index.md) | ✓ 30 protokolů | Strukturované postupy zotavení po expozici technikám |
 | **15** | [Emergency Protocols](@/kompendium/emergency-protocols/_index.md) | ✓ 40 protokolů | Akutní intervenční postupy pro krizové situace |
-| **16** | [AIAD Integration](@/kompendium/aiad-integration/_index.md) | ✓ 25 integračních článků | Propojení kompendia s AIAD agenty a [doctrine](@/glossary/doctrine.md) pillars |
 | **17** | [Cross-Domain](@/kompendium/cross-domain/_index.md) | ✓ 30 cross-doménových | OSINT/DD/HR/forenzní/legal aplikace technik |
 | **18** | [Educational Scenarios](@/kompendium/educational-scenarios/_index.md) | ✓ 30 scénářů | Edukativní výukové scénáře pro tréninky |
 | **19** | [Historical Cases](@/kompendium/historical-cases/_index.md) | ✓ 40 historických | Historické případy aplikace technik (sekta, totalitní režimy, [propaganda](@/glossary/propaganda.md)) |
@@ -186,7 +185,6 @@ Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–8 + Ph
 - [Filozofie platformy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - [Boundary Ethics](@/philosophy/boundary-ethics.md)
 - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
-- [NABLA Infinity Framework](@/glossary/nabla-infinity.md)
 - [Glossary: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 ---

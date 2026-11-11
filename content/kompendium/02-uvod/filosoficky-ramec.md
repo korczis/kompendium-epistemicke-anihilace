@@ -178,8 +178,6 @@ Tyto závazky nejsou apriori prokázány — jsou **regulativními východisky**
 - [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
 - [Glosář: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
 - [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
-- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Glosář: Color Teams](@/glossary/color-teams.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 

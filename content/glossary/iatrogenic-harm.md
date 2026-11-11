@@ -160,12 +160,9 @@ samotného pak kritická perspektiva [Iatrogenní
 přesah](@/kompendium/critical-perspectives/11-iatrogenic-overreach.md) ukazuje, že i samo
 používání pojmů knihy může působit újmu nálepkováním (Lilienfeld, 2007).
 
-Na platformě, z níž kniha vzešla, ukazuje [Decision Engine](@/glossary/decision-engine.md)
-klinikovi ukazatele diferenciální diagnózy místo předčasného upnutí k jediné hypotéze a
-protokoly [Blue Teamu](@/glossary/blue-team.md) v rámci [Color
-Teams](@/glossary/color-teams.md) zahrnují audit rizika u vlastních obran: i technické opatření
-proti manipulaci může mít nežádoucí účinek, například závislost na vnějším ověřování. Obojí
-vychází z požadavku sledovat nežádoucí účinky jako samostatný výstup (Barlow, 2010).
+Audit rizika patří i k vlastním obranám: i opatření proti manipulaci může mít nežádoucí
+účinek, například závislost na vnějším ověřování. Nežádoucí účinky je proto třeba sledovat
+jako samostatný výstup (Barlow, 2010).
 
 ## Obrana a zotavení
 

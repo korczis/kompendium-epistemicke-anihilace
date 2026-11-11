@@ -60,8 +60,6 @@ Na úrovni jednotlivce se tentýž vzorec objevuje jako vštípený radikální 
 
 Kapitola [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) chápe Lyotarda spolu se [simulakry](@/glossary/simulacra.md) a [différance](@/glossary/differance.md) jako **postmoderní teoretický pilíř** a staví postmoderní diagnózu do páru s Habermasovou [komunikativní racionalitou](@/glossary/communicative-rationality.md) jako normativní odpovědí: otázkou není, zda bránit konkrétní metanarativ, ale jak bez něj udržet podmínky [legitimního diskurzu](@/glossary/ideal-speech-situation.md).
 
-Na platformě Prismatic, z níž kniha vzešla, [Decision Engine](@/glossary/decision-engine.md) záměrně nepracuje pod žádným jednotlivým metanarativem: sleduje **výslovné kalibrační metriky** (Brierovo skóre, ECE), které lze uplatnit napříč narativními rámci, a závislost na rámci zviditelňuje, místo aby ji skrýval.
-
 Samo Kompendium tím, že záměrně vytváří **odbornou taxonomii v češtině** ukotvenou v mezioborové vědecké literatuře, provádí jakousi **legitimizaci po metanarativech**: neodvolává se na velké vyprávění, ale nabízí se k ověření v několika místních jazykových hrách (klinické, filozofické, výpočetní).
 
 ## Obrana a zotavení

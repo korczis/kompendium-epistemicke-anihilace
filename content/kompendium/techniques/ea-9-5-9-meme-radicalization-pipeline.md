@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.5 Memetická válka
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -71,6 +70,8 @@ Memetická radikalizace může vést k izolaci, konfliktům v rodině, nenávist
 Většina lidí, kteří se s provokativními memy setkají, se neradikalizuje; vzorec popisuje cestu, ne nevyhnutelný osud. Výzkum toho, jaký podíl na radikalizaci mají memy, komunity a algoritmy, není uzavřen. Kniha proto zdůrazňuje rizikové faktory (izolace, hledání identity) spíše než obsah samotný.
 
 Data jsou navíc vázána na konkrétní platformy a období.
+
+Doklady mají jinou povahu než metafora, která vzorec pojmenovává. Ribeiro a kolektiv (2020) zkoumali přesuny uživatelů mezi komunitami na jedné videoplatformě pomocí komentářů a doložili pohyb k vyhraněnějším kanálům; to je souhrnný posun v chování skupin, ne průchod jednoho člověka. Slovo „potrubí“ přitom svádí k představě pásu, který nese každého, kdo na něj vstoupí, zatímco doložený obraz je spíš postupný výběr, v němž část lidí v každém kroku odpadá. Tajfel a Turner (1979) dodávají mechanismus příslušnosti ke skupině, ne předpověď pro jednotlivce. Praktický důsledek pro rodiče a učitele je nepříjemný: ironie činí obvyklou otázku, zda tomu dotyčný věří, nezodpověditelnou, a posuzovat lze proto spíš izolaci a změnu okruhu přátel.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

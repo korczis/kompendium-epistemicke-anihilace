@@ -53,7 +53,7 @@ Na úrovni člověka:
 
 ## Mechanismus
 
-Na platformě Prismatic, z níž kniha vzešla, slouží hyperrealita jako **teoretický horizont** pro porozumění mezní podobě epistemické anihilace: nejde o zničení konkrétního přesvědčení, ale o zničení samotné *možnosti podloženého odkazu*. Deepfaky vytvářejí hyperreálné podmínky téměř mechanicky: otázka „stalo se to?“ se stává strukturálně nerozhodnutelnou. Palba lží ([Firehose of Falsehood](@/glossary/firehose-of-falsehood.md)), [Info-Ops](@/glossary/info-ops.md) a algoritmické zesilování popisují provozní cesty, jimiž se hyperreálné podmínky záměrně vytvářejí. Hyperrealita je tak **vnější teoretickou mezí** Kompendia: stavem, k němuž se techniky EA uplatňované ve velkém měřítku asymptoticky blíží a vůči němuž musí být navrženy strukturní epistemické obrany.
+Ve vývojovém kontextu, z něhož kniha vzešla, slouží hyperrealita jako **teoretický horizont** pro porozumění mezní podobě epistemické anihilace: nejde o zničení konkrétního přesvědčení, ale o zničení samotné *možnosti podloženého odkazu*. Deepfaky vytvářejí hyperreálné podmínky téměř mechanicky: otázka „stalo se to?“ se stává strukturálně nerozhodnutelnou. Palba lží ([Firehose of Falsehood](@/glossary/firehose-of-falsehood.md)), [Info-Ops](@/glossary/info-ops.md) a algoritmické zesilování popisují provozní cesty, jimiž se hyperreálné podmínky záměrně vytvářejí. Hyperrealita je tak **vnější teoretickou mezí** Kompendia: stavem, k němuž se techniky EA uplatňované ve velkém měřítku asymptoticky blíží a vůči němuž musí být navrženy strukturní epistemické obrany.
 
 ## Odlišení
 
@@ -65,8 +65,6 @@ Na platformě Prismatic, z níž kniha vzešla, slouží hyperrealita jako **teo
 ## Význam pro Kompendium
 
 - Kapitola [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) se s Baudrillardovým rámcem výslovně vyrovnává při výkladu toho, co nazývá **ontologickou anihilací** – mezního případu za hranicí běžné EA, kdy se rozpouští nejen individuální poznání, ale i sdílená kotva skutečnosti.
-- [Decision Engine](@/glossary/decision-engine.md) se nepokouší hyperrealitu *vyřešit* – to by bylo filozoficky nesoudržné –, ale udržuje **řetězce ukotvené v původu**, které zachovávají dohledatelnost odkazu, i když se okolní proudy obsahu stávají hyperreálnými. Rozhodnutí opřené o zdrojové dokumenty podepsané standardem C2PA si uchovává kotvu skutečnosti, kterou čistá agregace nemá.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) považuje původ za axiom: tvrzení bez ověřitelného původu nemohou dosáhnout vysoké jistoty, ať jsou jakkoli věrohodná.
 - [Narrative Identity](@/glossary/narrative-identity.md) patří k lidským schopnostem, které hyperreálné podmínky ohrožují nejpříměji: když okolní svět ztratí referenční soudržnost, vyprávění o sobě ztrácí svět, vůči němuž se konstituuje.
 
 ## Obrana a zotavení

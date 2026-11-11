@@ -32,7 +32,7 @@ navrhl „intenzivnější formát“ a nakonec skupinu vlastních klientů, kte
 
 Klíčové je, že terapeutický výklad přestal být **nabídkou** a stal se **povinným rámcem**: co
 klientka zažívala, platilo teprve tehdy, když to terapeut potvrdil. Lifton (1961) označil za
-nadřazení doktríny nad člověkem (*[doctrine](@/glossary/doctrine.md) over person*) situaci, kdy zkušenost jednotlivce
+nadřazení doktríny nad člověkem (*doctrine over person*) situaci, kdy zkušenost jednotlivce
 platí jen tehdy, odpovídá-li výkladu, a kompozit ukazuje tentýž vzorec v jediném terapeutickém
 vztahu. Tím se terapie převrátila ve svůj opak: místo obnovy úsudku jej nahradila.
 

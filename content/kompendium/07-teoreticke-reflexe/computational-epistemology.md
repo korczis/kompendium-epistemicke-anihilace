@@ -1,11 +1,11 @@
 +++
-title = "7.6 Computational epistemology a NABLA"
-description = "Computational epistemology jako disciplína — formalizace epistemických operací, Floridiho informační etika, NABLA Infinity 16-úrovňový pipeline mapovaný na epistemické operace."
+title = "7.6 Computational epistemology"
+description = "Computational epistemology jako disciplína — formalizace epistemických operací a Floridiho informační etika."
 weight = 6
 insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["kompendium", "teoreticke-reflexe", "computational-epistemology", "nabla", "floridi", "epistemic-pipeline"]
+tags = ["kompendium", "teoreticke-reflexe", "computational-epistemology", "floridi"]
 categories = ["academic", "theory", "computational"]
 
 [extra]
@@ -14,11 +14,9 @@ section_icon = "🪐"
 toc = true
 +++
 
-# 7.6 Computational epistemology a NABLA
+# 7.6 Computational epistemology
 
 **Computational epistemology** je interdisciplinární doména na rozhraní filosofie, kognitivních věd a informatiky. Její ústřední otázkou je: lze epistemické operace — akvizici, integraci, justifikaci, revizi a aplikaci poznání — formalizovat natolik, aby byly **algoritmicky implementovatelné**? A pokud ano, jaké jsou epistemologické důsledky takové implementace?
-
-Tato kapitola představuje [NABLA Infinity](@/glossary/nabla-infinity.md) — 16-úrovňový epistemický pipeline platformy Prismatic — jako konkrétní computational-epistemologickou architekturu. Každá úroveň implementuje specifickou epistemickou operaci a zároveň poskytuje **strukturní obranu** proti odpovídající zranitelnosti popsané v taxonomii [epistemické anihilace](@/glossary/epistemicka-anihilace.md).
 
 ## Co je computational epistemology
 
@@ -46,88 +44,25 @@ Floridi rozlišuje čtyři úrovně informačních patologií:
 
 Anti-information odpovídá nejhlubší vrstvě epistemické anihilace v terminologii kompendia — destrukci epistemických dispozic, jež umožňují kalibrovaně vyhodnocovat informace.
 
-## NABLA Infinity — 16-úrovňový epistemický pipeline
+## Formální modely poznání a jeho změny
 
-[NABLA Infinity](@/glossary/nabla-infinity.md) (∇∞) je epistemická architektura Prismatic platformy, jež implementuje 16 sekvenčních a re-entrantních úrovní epistemického zpracování. Pipeline je organizován hierarchicky: nižší úrovně (L0–L4) zpracovávají senzorické a percepční signály, střední (L5–L9) realizují konceptuální a inferenční operace, vyšší (L10–L13) provádějí meta-kognitivní reflexi, a nejvyšší dvě úrovně (Meta a Consciousness) integrují celý systém.
+Nejlépe rozpracovanou částí oboru nejsou architektury systémů, ale formální modely epistemických stavů a jejich změn. Hintikka (1962) ukázal, že výrazy „ví, že“ a „věří, že“ lze zapsat jako modální operátory a že z volby relace dosažitelnosti mezi možnými světy vyplývají silné a leckdy nevítané důsledky — především logická všemohoucnost, totiž předpoklad, že kdo zná premisy, zná i všechny jejich důsledky. Právě nesouměřitelnost tohoto předpokladu se skutečným lidským poznáním je jedním z trvalých témat oboru: formalizace zviditelňuje, co model o poznávajícím mlčky předpokládá.
 
-### Mapování úrovní na epistemické operace
+Druhou linii tvoří teorie revize přesvědčení. Alchourrón, Gärdenfors a Makinson (1985) formulovali postuláty pro operace expanze, kontrakce a revize souboru přesvědčení: nová informace má být přijata, výsledek má zůstat konzistentní a změna má být co nejmenší. Model tím činí výslovnou otázku, která je pro kompendium ústřední — co se stane, je-li revize vynucována zvenčí a „co nejmenší změna“ se soustavně počítá na úkor téhož jádra přesvědčení. *Interpretace knihy*: techniky popsané v oddílech 01–05 proto nelze vyčerpat jako dodávání nepravdivých informací; zasahují do samotné operace, jíž poznávající informace začleňuje.
 
-| Úroveň | Název | Epistemická operace | EA zranitelnost |
-|--------|-------|---------------------|-----------------|
-| **L0** | Sensory Input | Akvizice surových dat | [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) selektivní expozice |
-| **L1** | Signal Filtering | Pre-procesní filtrace | [EA-1.1.2](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) prahový gating |
-| **L2** | Pattern Detection | Rozpoznání primitivních vzorců | [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) vzorová slepota |
-| **L3** | Feature Extraction | Extrakce relevantních příznaků | EA-1.1.4 příznaková redukce |
-| **L4** | Perceptual Binding | Integrace do percepčního celku | EA-1.1.5 percepční fragmentace |
-| **L5** | Categorization | Kategorizace do typů | [EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) kategoriální zploštění |
-| **L6** | Concept Formation | Formace konceptuálních struktur | [EA-1.2.2](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) konceptuální mystifikace |
-| **L7** | Propositional Encoding | Kódování propozičních obsahů | [EA-1.2.3](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) propoziční inverze |
-| **L8** | Inference | Inferenční operace | [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) imunizace proti falsifikaci |
-| **L9** | Justification | Justifikační procedury | [EA-1.3.2](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) kruhové ospravedlnění |
-| **L10** | Belief Update | Bayesovský update věr | [EA-1.3.4](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md) update blokace |
-| **L11** | Coherence Checking | Kontrola koherence | [EA-1.4.1](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) kontradikce-tolerance |
-| **L12** | Provenance Tracking | Sledování původu | [EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) zdrojová amnézie |
-| **L13** | Confidence Calibration | Kalibrace důvěry | [EA-2.1.1](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) [konfirmační bias](@/glossary/konfirmacni-bias.md) |
-| **L14 (Meta)** | Meta-Reflection | [Metakognitivní](@/glossary/metakognice.md) reflexe | EA-2.2 [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) |
-| **L15 (Consciousness)** | Integrative Awareness | Integrativní vědomí | EA-3 [ontologická anihilace](@/glossary/ontologicka-anihilace.md) |
+Třetí linií je formální teorie učení. Gold (1967) zavedl pojem identifikace v limitě: metoda je úspěšná, ustálí-li se po konečném počtu kroků na správné hypotéze, i když není znám okamžik, kdy se tak stalo. Kelly (1996) z tohoto východiska rozvinul program, v němž se místo otázky „je toto přesvědčení oprávněné?“ klade otázka „směřuje tato metoda spolehlivě k pravdě, a za jakých podmínek?“. Posun od oprávnění jednotlivého přesvědčení k vlastnostem metody je pro obranu proti epistemické anihilaci podstatný: poznávající, jemuž byly rozvráceny metody, může mít nadále mnoho pravdivých přesvědčení, a přesto být bez obrany.
 
-### Detailní rozbor klíčových úrovní
+Čtvrtou linií je výpočetní sociální epistemologie, která simuluje šíření a prověřování poznatků v populaci. Hegselmann a Krause (2002) modelovali dynamiku mínění s omezenou důvěrou — každý aktér přejímá jen od těch, jejichž postoj není příliš vzdálený — a ukázali, jak z jediného pravidla vyrůstá buď shoda, nebo stabilní rozpad na oddělené skupiny. Zollman (2010) na modelech vědeckých komunit doložil, že přechodná různost přesvědčení může zvyšovat pravděpodobnost, že komunita nakonec najde lepší hypotézu, protože brání předčasnému sjednocení na první slibné možnosti. Oba výsledky mají obrannou čitelnost: zúžení okruhu zdrojů i tlak na rychlou jednomyslnost jsou v těchto modelech podmínkami horšího kolektivního poznání.
 
-**L0–L4 (Senzoricko-percepční vrstva)** — Tyto úrovně implementují **akvizici** v terminologii [taxonomie EA](@/glossary/taxonomie-ea.md). Manipulátor často útočí již zde: selektivní expozice (EA-1.1.1) operuje na L0 (kontrola toho, co se vůbec dostane jako vstup); informační přetížení operuje na L1 (saturace prahových filtrů); pattern-priming operuje na L2 (instrumentalizace předem aktivovaných vzorců).
+Jak se takové modely hodnotí, naznačuje už Thagard (1988): výpočetní model vědeckého usuzování
+posuzoval podle toho, zda reprodukuje doložené epizody z dějin vědy. Kritérium má svou cenu i svou
+slabinu — nutí model vystavit se historickému materiálu, ale odměňuje ty modely, jež se podobají
+případům už vybraným jako poučné. Goldmanův reliabilismus (Goldman 1986) nabízí k témuž problému
+jiné východisko: hodnotit ne jednotlivý výsledek, nýbrž spolehlivost procesu, jímž byl získán.
 
-NABLA obrana: **strukturální source diversity** vynucená na L0 (povinné multi-source vstupy s automatickou detekcí asymetrie); **adaptive thresholding** na L1 (dynamické filtrace odolné proti zaplavení); **adversariální pattern auditing** na L2 (Color Team [red team](@/glossary/red-team.md) dotazování implicitních vzorců).
+### Co formalizace nedokazuje
 
-**L5–L7 (Konceptuálně-propoziční vrstva)** — Implementují **integraci**. Kategoriální zploštění (EA-1.2.1) deformuje L5 redukcí jemných distinkcí na hrubé dichotomie. Konceptuální mystifikace (EA-1.2.2) na L6 zavádí pseudo-koncepty, jež formálně připomínají obvyklé pojmy, ale jsou definičně prázdné nebo strategicky vágní.
-
-NABLA obrana: **explicit category schemas** s vynucenou granularitou; **concept provenance ledger** dokumentující každý nově zaváděný koncept včetně definice, zdroje, a kritérií aplikace.
-
-**L8–L9 (Inferenčně-justifikační vrstva)** — Realizují **evaluaci** a **justifikaci**. Imunizace proti [falsifikaci](@/glossary/falsifikace.md) (EA-1.3.1) atakuje L8 přidáváním ad hoc auxiliárních hypotéz, jež neutralizují kontradiktorní evidenci ([Lakatos](@/glossary/lakatos-vyzkumny-program.md)). Kruhové ospravedlnění (EA-1.3.2) na L9 cirkuluje justifikační řetězec uzavřeně.
-
-NABLA obrana: **[falsifiability](@/glossary/falsifikovatelnost.md) mandate** — každá hypotéza musí mít explicitně formulované falsifikační kritérium; **dependency graph** justifikačních řetězců s automatickou detekcí cyklů.
-
-**L10–L11 (Aktualizačně-koherenční vrstva)** — Implementují **revizi**. Update blokace (EA-1.3.4) brání L10 v reagování na kontradiktorní evidenci. Kontradikce-tolerance (EA-1.4.1) ponechává inkompatibilní propozice koexistovat bez tlaku na rozřešení.
-
-NABLA Axiom 2 (**Contradiction Preservation**) — protiintuitivně, NABLA neelimuje detekované kontradikce, ale **uchovává je jako strukturní informaci** a vyžaduje jejich explicitní reflexi. Toto je obrana proti subtle technique strategické rezolúce kontradikcí v manipulátorův prospěch.
-
-**L12 (Provenance Tracking)** — NABLA Axiom 7 (**Provenance Mandatory**) — žádná informace nemůže existovat v systému bez dokumentovaného původu. Tento axiom je strukturní obranou proti **zdrojové amnézii** — fenoménu, kdy subjekt si pamatuje informaci, ale ztrácí přístup k jejímu zdroji, čímž ztrácí schopnost re-evaluovat její důvěryhodnost.
-
-**L13 (Confidence Calibration)** — Implementuje explicitní reprezentaci **epistemické nejistoty**. Surovou Bayesovskou pravděpodobnost rozšiřuje o decompozici na *aleatoric* (irreducibilní stochasticita) a *epistemic* (redukovatelná neznalostí) komponenty. Manipulátor často exploituje subjektovu **neschopnost rozlišit mezi vysokou subjektivní jistotou a vysokou objektivní pravděpodobností** — L13 vynucuje kalibrační re-anchoring.
-
-**L14 (Meta) a L15 (Consciousness)** — Nejvyšší úrovně realizují **rekurzivní sebevědomí** systému. L14 monitoruje výstupy předchozích úrovní a hledá meta-vzorce (např. systematickou bias jedné kategorie). L15 integruje do **narativního self** systému — kontinuální identitní struktury, jež je nositelem epistemických závazků v čase.
-
-### Tři axiomatické principy
-
-NABLA architektura je strukturována sedmi axiomy. Pro účely této kapitoly jsou klíčové tři:
-
-**Axiom 2: Contradiction Preservation** — Detekované kontradikce nelze tiše rezolvovat; musí být zaznamenány a reflektovány.
-
-**Axiom 4: Time Decay** — Důvěryhodnost informace je funkcí jejího stáří. Stará data automaticky ztrácejí *precision weighting* v aktivní inferenci, čímž jsou systémově chráněna proti zneužití zastaralých zdrojů jako „evergreen evidence“.
-
-**Axiom 7: Provenance Mandatory** — Každá informace v systému musí mít dohledatelný původ. Tento axiom realizuje princip **epistemické audit-ability**.
-
-## Three-Nested-Loops architektura
-
-[NABLA](@/glossary/nabla-infinity.md) operuje v rámci [3NL](@/glossary/3nl.md) (Three-Nested-Loops) architektury — paralelně běžící Logické (L1), Neurální (L2) a Lingvistické (L3) smyčky:
-
-| Smyčka | Funkce | Charakteristika |
-|--------|--------|-----------------|
-| **L1 Logic** | Symbolická inference | Diskrétní, formálně verifikovatelná, audit-able |
-| **L2 Neural** | Statistické pattern matching | Distribuční, robustní vůči šumu, méně transparentní |
-| **L3 Linguistic** | Sémantická interpretace | Kontextuální, hermeneuticky orientovaná |
-
-Tři smyčky implementují **explanační pluralitu** zmíněnou v sekci 2.3: žádný individuální výpočetní paradigmat nepokrývá plnou škálu epistemických operací. Kombinace zajišťuje **epistemickou robustnost** — zranitelnost specifická pro jednu smyčku je kompenzována druhými.
-
-## Computational epistemology a kolektivní poznání
-
-NABLA není koncipovaná jako izolovaný individuální agent, ale jako **distribuovaná epistemická infrastruktura**. Kolektivní rozměr realizuje skrze [Color Teams](@/glossary/color-teams.md) — adversariální týmy specializované na různé typy epistemických zranitelností:
-
-- **Red Team** — Atakuje epistemické fortifikace; testuje robustnost proti technikám popsaným v taxonomii EA.
-- **[Blue Team](@/glossary/blue-team.md)** — Brání epistemickou integritu; implementuje strukturní obrany.
-- **Green Team** — Zkoumá [hermeneutickou](@/glossary/hermeneutika.md) flexibilitu; alternativní interpretační rámce.
-- **[Purple Team](@/glossary/purple-team.md)** — Integrace red+blue; meta-úroveň testování.
-- **Yellow Team** — [Fenomenologická](@/glossary/fenomenologie.md) reflexe; analýza subjektivní zkušenosti operátorů.
-
-Color Teams operacionalizují **adversariální falsifikaci** v [Lakatošovsko-popperovském](@/glossary/lakatos-vyzkumny-program.md) duchu: hypotézy nejsou pouze pasivně testovány, ale aktivně atakovány.
+Žádný z uvedených modelů není důkazem o lidském poznávání. Model dává přesný závěr o svých vlastních předpokladech; o skutečném poznávajícím mluví jen natolik, nakolik tyto předpoklady platí, a to je otázka empirická, nikoli formální. Z toho, že lze epistemickou operaci zapsat algoritmicky, nevyplývá, že ji poznávající takto provádí, ani že by ji tak provádět měl: implementovatelnost není normou. Stejně tak výsledek simulace není nálezem o společnosti, nýbrž důsledkem zvoleného pravidla aktualizace, a s ním se mění. *Interpretace knihy*: hodnota těchto modelů pro kompendium je diagnostická — pojmenovávají, které články poznávacího procesu lze vůbec odděleně zasáhnout, a tím ukazují, kam se při obraně dívat; nenahrazují ani klinický nález, ani filosofický argument.
 
 ## Limitace a otevřené otázky
 
@@ -136,15 +71,23 @@ Computational epistemology není ucelenou disciplínou; je rozvíjejícím se pr
 1. **Mechanizace versus normativita** — Lze formalizovat *všechny* epistemické operace? Některé (např. [hermeneutické](@/glossary/hermeneutika.md) interpretace, [fenomenologická](@/glossary/fenomenologie.md) redukce) se stavějí na odpor formalizaci.
 2. **Adversariální zranitelnost** — Každá computational implementace zavádí *nové* zranitelnosti (model poisoning, prompt injection, jailbreak), jež nejsou redukovatelné na lidské epistemické zranitelnosti.
 3. **Sociálně-epistemická vrstva** — Kolektivní poznání zahrnuje normativní strukturu (komunita, autorita, tradice), jež není algoritmicky redukovatelná.
-4. **[Dual-use poznání](@/glossary/dual-use-poznani.md)** — Stejné formalismy, jež umožňují obranu proti EA, lze využít k její optimalizaci. NABLA jako defensivní architektura má svého útočného zrcadlového dvojníka.
+4. **[Dual-use poznání](@/glossary/dual-use-poznani.md)** — Stejné formalismy, jež umožňují obranu proti EA, lze využít k její optimalizaci: každá defensivní architektura má svého útočného zrcadlového dvojníka.
 
 Kompendium otevřeně přiznává tuto **dual-use** povahu: formalizace nuancí epistemické anihilace je nezbytná pro obranu, ale poskytuje útočníkovi přesnou mapu zranitelností. Etická odpovědnost je proto neredukovatelná na technickou implementaci.
 
-## Vztah k taxonomii kompendia
+## Literatura
 
-NABLA Infinity není pouhou ilustrací computational epistemology — je **strukturně izomorfní** s taxonomií EA. Každá úroveň pipeline koresponduje s konkrétní vrstvou možných útoků; každý axiom adresuje specifickou strukturní zranitelnost. Tato izomorfie je **konstruktivní validací** taxonomie: pokud lze epistemické operace formalizovat na 16 úrovní, a každé úrovni přiřadit specifickou útokovou techniku, potom taxonomie není akademickou klasifikací, ale **operacionalizovatelným inženýrským rámcem**.
-
-Souběžně tato izomorfie odhaluje **gradient kategorií** v taxonomii: nejnižší úrovně (L0–L4) korespondují s [EA kategorií 1](@/kompendium/03-zakladni-kategorie/_index.md) (epistemická), střední (L5–L13) s [kategorií 2](@/kompendium/03-zakladni-kategorie/_index.md) (kognitivní), nejvyšší (L14–L15) s [kategorií 3](@/kompendium/03-zakladni-kategorie/_index.md) ([ontologická](@/glossary/ontologicka-anihilace.md)).
+- Alchourrón, C. E., Gärdenfors, P., & Makinson, D. (1985). On the logic of theory change: Partial meet contraction and revision functions. *The Journal of Symbolic Logic*.
+- Floridi, L. (2011). *The Philosophy of Information*. Oxford University Press.
+- Gold, E. M. (1967). Language identification in the limit. *Information and Control*.
+- Goldman, A. I. (1986). *Epistemology and Cognition*. Harvard University Press.
+- Hegselmann, R., & Krause, U. (2002). Opinion dynamics and bounded confidence: Models, analysis and simulation. *Journal of Artificial Societies and Social Simulation*.
+- Hintikka, J. (1962). *Knowledge and Belief: An Introduction to the Logic of the Two Notions*. Cornell University Press.
+- Kelly, K. T. (1996). *The Logic of Reliable Inquiry*. Oxford University Press.
+- Pearl, J. (2000). *Causality: Models, Reasoning, and Inference*. Cambridge University Press.
+- Pearl, J., & Mackenzie, D. (2018). *The Book of Why: The New Science of Cause and Effect*. Basic Books.
+- Thagard, P. (1988). *Computational Philosophy of Science*. MIT Press.
+- Zollman, K. J. S. (2010). The epistemic benefit of transient diversity. *Erkenntnis*.
 
 ## Související
 
@@ -155,17 +98,10 @@ Souběžně tato izomorfie odhaluje **gradient kategorií** v taxonomii: nejniž
 - [7.5 Otevřené výzkumné otázky](@/kompendium/07-teoreticke-reflexe/otevrene-otazky.md)
 - [Sekce 07 — Teoretické reflexe (úvod)](@/kompendium/07-teoreticke-reflexe/_index.md)
 - [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
-- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md)
-- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 - [Sekce 04 — Klinika](@/kompendium/04-klinika/_index.md)
 - [Sekce 05 — Kolektivní rozměr](@/kompendium/05-kolektivni-rozmer/_index.md)
 - [Sekce 06 — Intervence a obrana](@/kompendium/06-intervence-a-obrana/_index.md)
-- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Glosář: Epistemic Pipeline](@/glossary/epistemic-pipeline.md)
-- [Glosář: 3NL](@/glossary/3nl.md)
-- [Glosář: Color Teams](@/glossary/color-teams.md)
-- [Glosář: Decision Core](@/glossary/decision-core.md)
 - [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
 - [Glosář: Kognitivní bias](@/glossary/kognitivni-bias.md)

@@ -4,7 +4,7 @@ weight = 29
 description = "Automatizované prověřování osob a subjektů proti sankčním seznamům EU, USA, Spojeného království a OSN s neostrým porovnáváním a slučováním entit."
 
 [taxonomies]
-tags = ["glossary", "compliance", "osint", "due-diligence", "prismatic"]
+tags = ["glossary", "compliance", "osint", "due-diligence"]
 
 [extra]
 category = "osint"
@@ -259,132 +259,6 @@ defmodule PrismaticIntel.SanctionsScreening.ListManager do
 end
 ```
 
-## Implementace v Prismatic Platform
-
-Prismatic Platform implementuje sankční prověrku jako součást pipeline fúze zpravodajských
-informací a pro paralelní kontrolu více seznamů využívá model souběžnosti Elixiru:
-
-```elixir
-defmodule PrismaticIntel.SanctionsScreening do
-  @moduledoc """
-  Multi-list sanctions screening with fuzzy matching and entity resolution.
-  Checks entities against EU, OFAC, OFSI, and UN sanctions lists in parallel
-  using Task.async_stream for bounded concurrency. Results are deduplicated
-  through entity resolution and classified by risk level.
-  """
-
-  alias PrismaticIntel.SanctionsScreening.{
-    ListManager,
-    FuzzyMatcher,
-    EntityResolver,
-    NameNormalizer
-  }
-
-  @type screening_result :: %{
-    entity: String.t(),
-    matches: list(match()),
-    risk_level: :clear | :potential_match | :confirmed_match,
-    confidence: float(),
-    lists_checked: list(atom()),
-    checked_at: DateTime.t(),
-    screening_id: String.t()
-  }
-
-  @type match :: %{
-    list: atom(),
-    entry_id: String.t(),
-    matched_name: String.t(),
-    similarity_score: float(),
-    match_algorithm: atom(),
-    sanctions_programs: list(String.t()),
-    entry_type: :individual | :entity | :vessel | :aircraft
-  }
-
-  @lists [:eu_consolidated, :ofac_sdn, :ofsi, :un_consolidated]
-
-  @spec screen_entity(String.t(), keyword()) :: {:ok, screening_result()} | {:error, term()}
-  def screen_entity(entity_name, opts \\ []) do
-    threshold = Keyword.get(opts, :threshold, 0.85)
-    lists = Keyword.get(opts, :lists, @lists)
-
-    with {:ok, normalized_names} <- NameNormalizer.normalize(entity_name) do
-      tasks =
-        Enum.map(lists, fn list ->
-          Task.async(fn ->
-            entries = ListManager.get_entries(list)
-            Enum.flat_map(normalized_names, fn name ->
-              FuzzyMatcher.find_matches(name, entries, threshold)
-            end)
-          end)
-        end)
-
-      raw_matches =
-        tasks
-        |> Task.await_many(30_000)
-        |> List.flatten()
-
-      resolved_matches = EntityResolver.deduplicate(raw_matches)
-
-      result = %{
-        entity: entity_name,
-        matches: resolved_matches,
-        risk_level: classify_risk(resolved_matches),
-        confidence: calculate_confidence(resolved_matches),
-        lists_checked: lists,
-        checked_at: DateTime.utc_now(),
-        screening_id: generate_screening_id()
-      }
-
-      {:ok, result}
-    end
-  end
-
-  @spec screen_batch(list(String.t()), keyword()) :: {:ok, list(screening_result())} | {:error, term()}
-  def screen_batch(entity_names, opts \\ []) do
-    results =
-      entity_names
-      |> Task.async_stream(&screen_entity(&1, opts), max_concurrency: 10, timeout: 60_000)
-      |> Enum.map(fn {:ok, result} -> result end)
-
-    {:ok, results}
-  end
-
-  defp classify_risk([]), do: :clear
-  defp classify_risk(matches) do
-    max_score = matches |> Enum.map(& &1.similarity_score) |> Enum.max()
-    cond do
-      max_score >= 0.95 -> :confirmed_match
-      max_score >= 0.85 -> :potential_match
-      true -> :clear
-    end
-  end
-
-  defp calculate_confidence(matches) do
-    case matches do
-      [] -> 1.0
-      _ -> matches |> Enum.map(& &1.similarity_score) |> Enum.max()
-    end
-  end
-
-  defp generate_screening_id do
-    "scr_" <> Base.encode16(:crypto.strong_rand_bytes(8), case: :lower)
-  end
-end
-```
-
-## Napojení na komponenty platformy
-
-Výsledky prověrek vstupují do několika navazujících systémů:
-
-| Komponenta | Integrace | Účel |
-|-----------|------------|---------|
-| [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) | míra rizika ovlivňuje skóre | sankční expozice zhoršuje hodnocení organizace |
-| [EASM](@/glossary/easm.md) | prověrka dodavatelského řetězce | odhaluje sankcionované subjekty v sítích dodavatelů |
-| soulad s [NIS2](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/) | riziko dodavatelského řetězce | NIS2 vyžaduje posouzení bezpečnosti dodavatelského řetězce |
-| [Intelligence Fusion](@/glossary/intelligence-fusion.md) | korelace více zdrojů | výsledky prověrek se korelují s dalšími daty OSINT |
-| [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) | dokumentace souladu | všechna rozhodnutí z prověrek se zaznamenávají s úplnou auditní stopou |
-| [SIEM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/siem/) | bezpečnostní události | výsledky prověrek se vysílají jako bezpečnostní telemetrie |
-
 ## Srovnání s alternativami
 
 | Přístup | Pokrytí | Rychlost | Přesnost | Náklady |
@@ -478,7 +352,6 @@ end
 - [OSINT](@/glossary/osint.md) – metodika přístupu k veřejným sankčním datům.
 - [Intelligence Fusion](@/glossary/intelligence-fusion.md) – korelace výsledků prověrek z více
   zdrojů.
-- [EASM](@/glossary/easm.md) – kontext útočné plochy, který výsledky obohacuje.
 - [Entity Resolution](@/glossary/entity-resolution.md) – technologie deduplikace, na níž stojí
   přesnost prověrky.
 - [Compliance Framework](@/glossary/compliance-framework.md) – regulatorní požadavky, z nichž
@@ -501,7 +374,6 @@ end
 
 - [EA × OSINT: Sankční seznamy a atribuční bias](@/kompendium/cross-domain/4-ea-osint-sanctions-list-bias.md) –
   zkreslení při práci se sankčními daty.
-- [Compliance Agent a detekce EA](@/kompendium/aiad-integration/compliance-ea-regulatory-screening.md) –
   regulatorní prověrka v detekci EA.
 
 ---
@@ -511,7 +383,7 @@ end
 **Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

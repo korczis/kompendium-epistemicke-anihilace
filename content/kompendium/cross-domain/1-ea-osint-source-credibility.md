@@ -5,7 +5,7 @@ weight = 10
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "osint"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["8-ea-osint-cross-source-triangulation", "7-ea-osint-narrative-injection", "10-ea-dd-source-weighting", "15-ea-dd-evidence-quality-assessment"]
@@ -23,7 +23,6 @@ spolehlivý zdroj od zdroje, který jen spolehlivě vypadá.
 
 Tato stránka popisuje, jak hodnocení důvěryhodnosti zdrojů v OSINT a navazujících
 disciplínách ([due diligence](@/glossary/due-diligence.md), bezpečnost, žurnalistika) obstojí v prostředí s manipulací.
-Kontext platformy, z níž kniha vzešla, popisuje stránka [OSINT Agent & EA detection](@/kompendium/aiad-integration/osint-ea-source-validation.md).
 
 ## Doména a problém
 

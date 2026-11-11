@@ -5,7 +5,7 @@ weight = 280
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "compliance"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["29-ea-compliance-kyc-narrative-validation", "13-ea-dd-beneficial-ownership-disinformation", "4-ea-osint-sanctions-list-bias", "11-ea-dd-decision-engine-calibration"]

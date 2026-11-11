@@ -106,7 +106,7 @@ Tento profil vysvětluje, proč se konceptuální dekonstrukce v destruktivních
 
 ## Detekce v dokumentech a komunikačních vzorcích
 
-Z perspektivy {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} a [Color Teams](@/glossary/color-teams.md) je relevantní otázka: jak detekovat probíhající nebo ukončenou konceptuální dekonstrukci v textových materiálech, transkriptech komunikace, edukativních curriculech?
+Relevantní otázka zní: jak detekovat probíhající nebo ukončenou konceptuální dekonstrukci v textových materiálech, transkriptech komunikace, edukativních curriculech?
 
 Šest detekčních heuristik:
 
@@ -141,7 +141,6 @@ Studium konceptuální dekonstrukce je metodologicky obtížnější než studiu
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
 - Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
-- Platforma: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} · [NABLA Infinity](@/glossary/nabla-infinity.md) · [Color Teams](@/glossary/color-teams.md)
 
 ## Kritický krok
 

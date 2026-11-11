@@ -157,10 +157,6 @@ Tyto instituce jsou primárním cílem politické EA: jejich [delegitimizace](@/
 | **Public service media** | Mandát neziskové, edukačně orientované žurnalistiky |
 | **Academic freedom** | Ochrana akademie před politickou intervencí |
 
-### Strukturní obrana skrze NABLA
-
-Z perspektivy [NABLA Infinity](@/glossary/nabla-infinity.md) jsou politické EA zvláště relevantním aplikačním doménou — kde [Color Teams](@/glossary/color-teams.md) operují jako institucionální adversariální struktura, jež **systematicky atakuje** epistemické fortifikace, aby identifikovala zranitelnosti **dříve než reálný útočník**. Tato disciplína — adversariální falsifikace v Lakatos/Popper duchu — je strukturně izomorfní s funkcí parlamentní opozice nebo kvalitní žurnalistické kritiky v demokratickém systému.
-
 ## Limitace a etické otázky
 
 Politická EA je doménou, kde [dual-use](@/glossary/dual-use-poznani.md) povaha taxonomie kompendia je nejvíce zřetelná. Stejné techniky lze využít:
@@ -176,13 +172,11 @@ Hranice mezi těmito aplikacemi není daná samotnou taxonomií; vyžaduje **exp
 
 - [7.1 Filozofické tradice](@/kompendium/07-teoreticke-reflexe/filozoficke-tradice/_index.md)
 - [7.2 Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
-- [7.3 Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [7.6 Computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
 - [7.4 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
 - [7.5 Otevřené výzkumné otázky](@/kompendium/07-teoreticke-reflexe/otevrene-otazky.md)
 - [Sekce 07 — Teoretické reflexe (úvod)](@/kompendium/07-teoreticke-reflexe/_index.md)
 - [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
-- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md)
-- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 - [Sekce 04 — Klinika](@/kompendium/04-klinika/_index.md)
 - [Sekce 05 — Kolektivní rozměr](@/kompendium/05-kolektivni-rozmer/_index.md)
@@ -207,9 +201,6 @@ Hranice mezi těmito aplikacemi není daná samotnou taxonomií; vyžaduje **exp
 - [Glosář: Gaslighting](@/glossary/gaslighting.md)
 - [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
 - [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Glosář: Color Teams](@/glossary/color-teams.md)
-- [Glosář: Decision Core](@/glossary/decision-core.md)
 
 ## Kritický krok
 

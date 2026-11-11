@@ -109,16 +109,15 @@ výzkumných programů podle toho, zda předpovídají nové skutečnosti, nebo 
 zachraňují jádro (Lakatos, 1970); viz [Lakatosův výzkumný
 program](@/glossary/lakatos-vyzkumny-program.md).
 
-## Rámec knihy a platformy
+## Rámec knihy
 
-Na platformě, z níž kniha vzešla, je hermeneutický požadavek převeden do jednoho pravidla:
-výklad je samostatná operace, oddělená od příjmu dat, a více výkladů téhož materiálu zůstává
-dostupných s vlastním původem a zdůvodněním, takže nový výklad se zaznamená, a ne potichu
-přepíše ([Decision Engine](@/glossary/decision-engine.md), [NABLA
-Infinity](@/glossary/nabla-infinity.md)). Důvod je přesně ten, který popisuje teorie konfliktu
-interpretací: bez uchované historie čtení nelze rozpoznat, že se čtení změnilo (Ricoeur, 1969).
+Hermeneutický požadavek stojí na tom, že výklad je samostatná operace, oddělená od příjmu
+dat: více výkladů téhož materiálu zůstává dostupných s vlastním původem a zdůvodněním, takže
+nový výklad se zaznamená, a ne potichu přepíše. Důvod je přesně ten, který popisuje teorie
+konfliktu interpretací: bez uchované historie čtení nelze rozpoznat, že se čtení změnilo
+(Ricoeur, 1969).
 
-V knize slouží hermeneutika témuž účelu, jen bez techniky: dává klinikovi a zasaženému
+V knize z toho plyne, že hermeneutika dává klinikovi a zasaženému
 kritéria, podle nichž lze nový výklad vlastní minulosti posoudit, místo aby se přijal nebo
 odmítl naslepo (Gadamer, 1960). Podrobný rozbor techniky je na stránce [EA-1.3.2 Strategická
 reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md).
@@ -186,10 +185,7 @@ rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
 - [Hermeneutický reset](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md) – střednědobý protokol zotavení.
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – nadřazený model hrozby.
 
-**Platforma**
-
 - [Blue Team](@/glossary/blue-team.md) – cvičení nepřátelské reinterpretace proti auditní stopě.
-- [Color Teams](@/glossary/color-teams.md) – rámec, do něhož taková cvičení patří.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

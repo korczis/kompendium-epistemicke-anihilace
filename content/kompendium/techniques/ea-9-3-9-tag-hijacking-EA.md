@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.3 Sociální platformy
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -117,6 +116,8 @@ Prevence stojí na vlastních ověřených kanálech institucí a kampaní, na z
 Výzkum krizové komunikace na sociálních sítích ukazuje, že hashtagy se v krizích stávají společnou infrastrukturou, přes niž lidé sdílejí praktické informace, a že do této infrastruktury vstupují pověsti a strategické operace (Starbird, Arif a Wilson 2019). Únos tagu tuto infrastrukturu zahlcuje a mění. Marwick a Lewis (2017) popsali, jak skupiny s politickými cíli využívají trendující témata k získání pozornosti, kterou by jejich obsah sám nezískal.
 
 Dlouhodobé zneužívání značky mění i její význam; Shifman (2014) ukazuje, že online symboly a formáty jsou otevřené přepisu a že jejich význam určuje kolektivní používání. Proto může krátkodobý únos tagu přejít v trvalý posun významu, jak ho popisuje [EA-9.5.2](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md).
+
+Únos značky se pozná podle rozporu mezi tím, k čemu tag odkazuje, a tím, o čem je obsah – ne podle toho, že obsah s tématem nesouhlasí; nesouhlas pod sdíleným tagem patří k jeho funkci. Nejobtížnějším případem je krizový tag, kde zředění škodí i bez záměru a kde se spam od únosu nerozliší účinkem, nýbrž jen tím, zda se za obsahem skrývá narativ. Od únosu symbolu se vzorec odlišuje časovou vazbou: tag je připoután k příležitosti a s koncem trendu pozbývá tahu, zatímco symbol je připoután k identitě. Marwick a Lewis (2017) doložili, že manipulující skupiny takové sdílené adresy vybírají podle pozornosti, která se na nich už nashromáždila.
 
 ## Souvislosti pro praxi
 

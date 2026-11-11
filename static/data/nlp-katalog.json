@@ -15218,11 +15218,6 @@
   },
   {
    "from": "vyhozeni-kompulze",
-   "to": "glossary/addiction-recovery.md",
-   "type": "kompendium"
-  },
-  {
-   "from": "vyhozeni-kompulze",
    "to": "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
    "type": "kompendium"
   },
@@ -15233,7 +15228,7 @@
   },
   {
    "from": "vyhozeni-kompulze",
-   "to": "glossary/addiction-recovery.md",
+   "to": "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
    "type": "prose"
   },
   {
@@ -56487,12 +56482,11 @@
     "NLP vzorce"
    ],
    "kompendium": [
-    "glossary/addiction-recovery.md",
     "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
     "kompendium/critical-perspectives/_index.md"
    ],
    "links_prose": [
-    "glossary/addiction-recovery.md",
+    "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
     "kompendium/nlp-vzorce/submodality/kriticke-submodality.md",
     "kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md"
    ],
@@ -56574,7 +56568,7 @@
    "url": "kompendium/nlp-vzorce/submodality/vyhozeni-kompulze/",
    "use": "terapie",
    "use_cs": "převážně terapeutické",
-   "words": 1285
+   "words": 1286
   },
   {
    "aliases": [

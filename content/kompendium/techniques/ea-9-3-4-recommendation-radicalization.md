@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.3 Sociální platformy
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -73,6 +72,8 @@ Pro školy a sociální služby je radikalizace i otázkou bezpečnosti spoluž�
 Role algoritmů v radikalizaci je předmětem výzkumného sporu: některé studie nacházejí výrazný posun doporučení k extrému, jiné zdůrazňují aktivní vyhledávání uživatelů. Pravděpodobně se kombinují oba faktory. Kniha proto vzorec popisuje jako interakci systému a osobní zranitelnosti.
 
 Další otevřenou otázkou je, jak hodnotit účinnost prevence, protože úspěch se projevuje tím, co se nestalo. Programy odchodu a preventivní projekty proto často dokládají výsledky jen kvalitativně a kniha jejich účinnost nekvantifikuje.
+
+Nalezený gradient ve sledovaném obsahu neznamená, že člověk je radikalizovaný, a už vůbec ne, že je nebezpečný. Posuzovat změnu názorů a posuzovat riziko násilí jsou dvě různé úlohy s různými nástroji; většina lidí, kteří se k extrémnímu obsahu dostanou, se k násilí nikdy nepřiblíží a část ho sleduje ze zvědavosti, z odporu nebo profesně. Z dat o doporučeních navíc nelze odečíst, co uživatel hledal sám – Ribeiro et al. (2020) proto o migraci mluví jako o pozorované dráze, ne o příčině. Rodičům a školám z toho plyne praktická mez: historie prohlížení je podnět k rozhovoru, ne diagnóza ani sama o sobě důvod k hlášení.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

@@ -35,7 +35,7 @@
       },
       {
         "code": "EA-5.1.16",
-        "in": 34,
+        "in": 33,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-16-inferencni-paralyza.md",
         "tier": 4,
@@ -115,7 +115,7 @@
       },
       {
         "code": "EA-5.1.11",
-        "in": 13,
+        "in": 12,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-11-modalni-dezorientace.md",
         "tier": 4,

@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 
-Rámec stanoví [doktrína platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+Rámec stanoví [doktrinální rámec knihy](@/kompendium/02-doktrinalni-ramec/_index.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ## Struktura vzorce
 
@@ -99,6 +99,10 @@ Rizikovým kontextem je následná péče, kterou poskytuje tentýž, kdo expozi
 
 Druhým rizikovým kontextem je povinná skupinová forma. Plošně podaná podpora po zátěži nemá doloženou preventivní účinnost a u části lidí je spojena s horším výsledkem (Rose a kol., 2002).
 
+## Co znaky reintegrace neurčují
+
+Vazba na původní okruh sama ukazatelem nezdařené reintegrace není. Kontakt s lidmi, kteří prošli týmž, bývá tím, co návrat umožňuje, a Mead, Hilton a Curtis (2001) jej popisují jako vztah vzájemné podpory, nikoli jako setrvání v závislosti; nálezem je až nedostupnost čehokoli mimo tento okruh. Ze zjištěného rozporu mezi popisem člověka a popisem blízkých také neplyne, kdo z nich vidí věc správně – odstup může pocházet od obou stran a blízcí mívají vlastní zájem na tom, aby byl návrat už hotový. A z obtížného návratu neplyne, že chyběla následná péče: Rose a kol. (2002) doložili, že plošně podaná podpora prospěch nezaručuje.
+
 ## Vztah k jiným technikám
 
 | Stránka | Vztah |
@@ -148,11 +152,6 @@ Druhým rizikovým kontextem je povinná skupinová forma. Plošně podaná podp
 - **Forward-references**:
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - [Color Teams](@/glossary/color-teams.md)
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [Compliance framework](@/glossary/compliance-framework.md)
 
 ## Co ověřit před čtením
 

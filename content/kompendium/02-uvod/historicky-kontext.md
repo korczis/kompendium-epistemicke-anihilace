@@ -127,7 +127,6 @@ Frankfurtská škola (Adorno, Horkheimer), Hannah Arendtová (*Origins of Totali
 
 #### Brainwashing, thought reform a programovaná indoktrinace
 
-- **Liftonovy studie programované indoktrinace** (*[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*, 1961) — analýza čínské „myšlenkové reformy". Liftonových **8 kritérií** ([milieu control](@/glossary/milieu-control.md), mystical manipulation, demand for purity, confession, sacred science, [loading the language](@/glossary/loading-the-language.md), [doctrine](@/glossary/doctrine.md) over person, dispensing of existence) zůstávají referenčním rámcem.
 - **Scheinova analýza „vymývání mozku"** (1961) — třífázový model: *unfreezing → changing → refreezing*. Dodnes fundamentální konceptuální rámec.
 - **Sargantův výzkum náboženské konverze** (*Battle for the Mind*, 1957) identifikoval fyziologické mechanismy epistemické vulnerability: spánková deprivace, emoční přetížení, indukovaná disociace.
 
@@ -230,7 +229,7 @@ Digitální transformace přinesla **strukturálně novou** vrstvu epistemickýc
 Vznikající fenomén **algoritmicky generované epistemické distorze** prostřednictvím LLM, deepfakes a synthetic media. Tato vrstva přidává kvalitativně nové výzvy — vůbec poprvé v dějinách poznání mohou být epistemické artefakty produkovány v měřítku a kvalitě, jež znemožňuje individuální verifikaci.
 
 #### Epistemic security
-Vznikající **interdisciplinární pole** integrující epistemologii, kognitivní vědy, kybernetickou bezpečnost a politickou teorii. Tato taxonomie kompendia se hlásí k tomuto poli jako **plnohodnotné komponentě**. Prismatic Platform sám představuje **operační implementaci** [epistemic security](@/glossary/epistemic-security.md) principů ve formě [NABLA Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md) a [Decision Engine](@/glossary/decision-core.md).
+Vznikající **interdisciplinární pole** integrující epistemologii, kognitivní vědy, kybernetickou bezpečnost a politickou teorii. Tato taxonomie kompendia se hlásí k tomuto poli jako **plnohodnotné komponentě** (viz [epistemic security](@/glossary/epistemic-security.md)).
 
 ---
 
@@ -309,14 +308,9 @@ Současný taxonomický systém je kulminací této trajektorie — zároveň v�
 - [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
 - [2.4 Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)
 - [2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md)
-- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/_index.md)
-- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/_index.md)
 - [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
 - [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
-- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Glosář: Color Teams](@/glossary/color-teams.md)
-- [Glosář: 3NL](@/glossary/3nl.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ## Kritický krok

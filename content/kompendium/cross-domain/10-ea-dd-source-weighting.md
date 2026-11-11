@@ -5,7 +5,7 @@ weight = 100
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "due-diligence"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["1-ea-osint-source-credibility", "8-ea-osint-cross-source-triangulation", "11-ea-dd-decision-engine-calibration", "15-ea-dd-evidence-quality-assessment"]
@@ -53,7 +53,7 @@ další rozhodnutí – obdoba toho, co kniha u jednotlivce popisuje jako [modif
 V osobních vztazích se manipulace vah projevuje tím, že člověk přestává věřit vlastním
 smyslům a spoléhá výhradně na výklad druhé osoby. V organizacích tím, že se ustálí jeden
 „spolehlivý“ zdroj – konzultant, databáze, interní expert –, jehož výroky se nepřezkoumávají.
-Obojí je ztráta [signálové plurality](@/glossary/signal-plurality.md).
+V obou případech se ztrácí oprava z nezávislého zdroje, kterou kniha popisuje jako [fúzi zpravodajství](@/glossary/intelligence-fusion.md).
 
 ## Rozpoznávací znaky
 
@@ -145,12 +145,10 @@ je, jak vést analytiky k tomu, aby váhy zdůvodňovali bez toho, aby z nich vz
 - [Kalibrace rozhodovacího systému](@/kompendium/cross-domain/11-ea-dd-decision-engine-calibration.md) – zpětná kontrola odhadů.
 - [Hodnocení kvality důkazů](@/kompendium/cross-domain/15-ea-dd-evidence-quality-assessment.md) – síla doložení.
 
-**Techniky a kontext platformy**
+**Techniky**
 
 - [EA-2.1.1 Expertní disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) – snižování váhy expertů.
-- [DD Engine & EA detection](@/kompendium/aiad-integration/dd-engine-ea-source-weighting.md) – vážení zdrojů v platformě.
 
 **Sebeobrana a pojmy**
 
 - [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) – osobní dovednost.
-- [Signal plurality](@/glossary/signal-plurality.md) – různorodost zdrojů.

@@ -8,7 +8,7 @@ tags = ["glossary", "kompendium", "philosophy", "epistemologie"]
 
 [extra]
 category = "philosophy"
-related_terms = ["epistemicky-monismus", "epistemicka-monokultura", "signal-plurality", "meta-epistemologie", "epistemicka-pokora", "redukcionismus"]
+related_terms = ["epistemicky-monismus", "epistemicka-monokultura", "meta-epistemologie", "epistemicka-pokora", "redukcionismus"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
@@ -58,7 +58,7 @@ Oba vzorce mají společný výsledek: ztrátu schopnosti samostatně vážit pe
 
 ## Význam pro Kompendium
 
-Pluralismus je jedním z hlavních cílů obnovy. Návod [Pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md) i [diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md) ho budují prakticky; pojem [pluralita signálů](@/glossary/signal-plurality.md) přenáší stejný princip do analýzy zdrojů. Vzdělávací scénáře [rozpoznání paradigmatu](@/kompendium/educational-scenarios/10-paradigm-recognition.md) a [řešení rozporů](@/kompendium/educational-scenarios/8-contradiction-resolution.md) nacvičují rozlišení mezi oprávněnou pluralitou a falešnou ekvivalencí. Kritická perspektiva [teoretický imperialismus](@/kompendium/critical-perspectives/8-theoretical-imperialism.md) připomíná, že i samotný rámec Kompendia se musí podrobit pluralitní kontrole.
+Pluralismus je jedním z hlavních cílů obnovy. Návod [Pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md) i [diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md) ho budují prakticky; pojem [fúze zpravodajství](@/glossary/intelligence-fusion.md) přenáší stejný princip do analýzy zdrojů. Vzdělávací scénáře [rozpoznání paradigmatu](@/kompendium/educational-scenarios/10-paradigm-recognition.md) a [řešení rozporů](@/kompendium/educational-scenarios/8-contradiction-resolution.md) nacvičují rozlišení mezi oprávněnou pluralitou a falešnou ekvivalencí. Kritická perspektiva [teoretický imperialismus](@/kompendium/critical-perspectives/8-theoretical-imperialism.md) připomíná, že i samotný rámec Kompendia se musí podrobit pluralitní kontrole.
 
 ## Obrana a zotavení
 

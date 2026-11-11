@@ -9,7 +9,7 @@ categories = ["academic", "reference"]
 
 [extra]
 category = "kompendium-bridge"
-related_terms = ["blue-team", "color-teams", "red-team", "purple-team", "signal-plurality", "epistemic-security"]
+related_terms = ["blue-team", "red-team", "purple-team", "epistemic-security"]
 glossary_target = "blue-team"
 toc = false
 +++
@@ -22,19 +22,16 @@ toc = false
 
 ## Pojem
 
-[Blue Team](@/glossary/blue-team.md) je obranný tým v rámci [barevných týmů](@/glossary/color-teams.md)
-platformy, z níž Kompendium vzešlo. V tradiční kybernetické bezpečnosti brání modrý tým sítě a systémy
-proti útokům, které simuluje [Red Team](@/glossary/red-team.md). Na platformě je jeho předmětem
-**epistemická integrita**: tým složený ze specializovaných agentů dbá na to, aby přesvědčení platformy
-byla dobře doložena, signály nebyly poškozeny a uvažování se neodchylovalo od ověřeného výchozího stavu.
-Místo jednotlivých výstrah vytváří strukturované důkazní záznamy a opírá se o axiomy rámce
-[NABLA Infinity](@/glossary/nabla-infinity.md).
+[Blue Team](@/glossary/blue-team.md) (modrý tým) je obranný tým: v tradiční kybernetické bezpečnosti
+brání sítě a systémy proti útokům, které simuluje [Red Team](@/glossary/red-team.md). Místo
+jednotlivých výstrah vytváří strukturované důkazní záznamy a srovnává stav systému s ověřeným
+výchozím stavem.
 
 Rozlišení „modré“ a „červené“ strany pochází z vojenských válečných her a do bezpečnostní praxe se
 přeneslo jako metoda, při níž obránci čelí řízenému protivníkovi. Zenko (2015) popsal dějiny a meze
 této praxe a zdůraznil, že hodnota cvičení stojí na tom, zda se obránci z nálezů skutečně poučí.
-Heslo patří do kontextu platformy; kniha ho zařazuje mezi mosty, protože zásady modrého týmu jsou
-strojovou obdobou obrany, kterou doporučuje lidem.
+Kniha heslo zařazuje mezi mosty, protože zásady modrého týmu jsou strojovou obdobou obrany, kterou
+doporučuje lidem.
 
 ## Epistemická obrana očima knihy
 
@@ -43,7 +40,7 @@ v metodě analýzy konkurenčních hypotéz ukázal, že důkaz má hodnotu podl
 hypotézami, ne podle toho, kolikrát je opakován; tvrzení potvrzené pěti kanály, které čerpají z jednoho
 zdroje, je stále tvrzením jednoho zdroje. Kniha tuto zásadu uplatňuje v návodu
 [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) a v pojmu
-[plurality signálů](@/glossary/signal-plurality.md).
+[fúze zpravodajství](@/glossary/intelligence-fusion.md).
 
 Druhou zásadou je **zachování rozporů**. Systém, který rozpory potlačuje, aby dospěl k jednoznačnému
 závěru, ztrácí právě informaci, která by odhalila manipulaci. Wohlstetter (1962) v analýze útoku na
@@ -59,14 +56,6 @@ postupným posouváním toho, co člověk považuje za normální – viz detek�
 [Posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md).
 
 ## Kde se pojem v knize vyskytuje
-
-Jak modrý tým platformy brání epistemickou integritu a co z toho plyne pro čtenáře, popisuje stránka
-[Blue Team a EA](@/kompendium/aiad-integration/blue-team-ea-defense.md). Jeho protějšek, který útoky
-simuluje v izolovaném prostředí, je popsán na stránce [Red Team a EA](@/kompendium/aiad-integration/red-team-ea-detection.md),
-a tým, který nálezy obou stran propojuje a uzavírá, na stránce
-[Purple Team a EA](@/kompendium/aiad-integration/purple-team-ea-synthesis.md). Celkový rámec
-adversariálního testování taxonomie vysvětluje kapitola
-[Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md).
 
 Lidskou podobu obrany rozvádějí [Detekční signatury EA technik](@/kompendium/detection-signatures/_index.md),
 návod [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) a v
@@ -111,18 +100,27 @@ výslovně a k jejich přezkumu využít supervizi – viz
 [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) a kritickou kapitolu
 [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md).
 
+## Co srovnání s výchozím stavem nedokazuje
+
+Zjištění, že se něco posunulo, není zjištěním, že to někdo posunul. Nejzřetelněji to ukazuje případ,
+z něhož tento most čerpá: u Challengeru podle Vaughanové (1996) nestál proti organizaci žádný
+protivník, a norma se přesto posouvala celé roky. Zachovaný rozpor i odchylka od výchozího stavu
+říkají, co se změnilo a kdy; o příčině, a tím méně o záměru, nerozhodují. Praktický důsledek je
+pro čtenáře tento: dalším krokem po rozpoznání posunu je hledání alternativních vysvětlení, ne
+hledání pachatele. *Interpretace knihy*: obrácený postup je nejčastější cesta, jak se z obrany
+stane podezíravost.
+
 ## Odlišení od příbuzných pojmů
 
 Blue Team je třeba odlišit od [Purple Teamu](@/glossary/purple-team.md): modrý tým brání a dokládá,
-fialový propojuje nálezy útoku a obrany a rozhoduje o uzavření. Od [White Teamu](@/glossary/white-team.md)
-se liší tím, že nedokazuje formální správnost systému, ale udržuje jeho důkazní základnu v provozu.
-V lidské analogii je třeba odlišit obranu od podezíravosti: modrý tým neodmítá nové informace, ale
-ověřuje je; nedůvěra ke všemu je stejně nekalibrovaná jako důvěra ke všemu.
+fialový propojuje nálezy útoku a obrany a rozhoduje o uzavření. V lidské analogii je třeba odlišit
+obranu od podezíravosti: modrý tým neodmítá nové informace, ale ověřuje je; nedůvěra ke všemu
+je stejně nekalibrovaná jako důvěra ke všemu.
 
 ## Časté omyly
 
 Prvním omylem je měřit obranu počtem výstrah. Množství výstrah zahlcuje a vede k jejich ignorování;
-kniha i platforma dávají přednost méně, ale doloženým nálezům. Druhým omylem je domněnka, že obrana
+kniha dává přednost méně, ale doloženým nálezům. Druhým omylem je domněnka, že obrana
 musí vždy dospět k jednoznačnému závěru; zachovaný rozpor je legitimním výsledkem. Třetím omylem je
 přenášet logiku „útočník a obránce“ doslova na mezilidské vztahy: kniha analogii používá ke čtení
 epistemických vzorců, ne k tomu, aby z blízkých lidí dělala nepřátele.
@@ -156,22 +154,17 @@ vedení bere jako formalitu; obdobně selže osobní obrana, která se stane rit
 **Glosář**
 
 - [Blue Team](@/glossary/blue-team.md) – technické heslo, které most propojuje.
-- [Color Teams](@/glossary/color-teams.md) – soustava barevných týmů.
 - [Red Team](@/glossary/red-team.md) – řízený protivník, proti němuž se obrana testuje.
-- [Signal Plurality](@/glossary/signal-plurality.md) – zásada nezávislých zdrojů.
 
 **Kniha**
 
-- [Blue Team a EA](@/kompendium/aiad-integration/blue-team-ea-defense.md) – obrana epistemické integrity na platformě.
-- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – lidská obdoba plurality signálů.
+- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – ověřování z nezávislých zdrojů.
 - [Sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md) – pomalý posun pod prahem pozornosti.
 - [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) – sledování vlastního uvažování.
 
 **Sesterské mosty**
 
-- [Bridge: Color Teams](@/kompendium/glossary-bridges/bridge-color-teams.md) – celý systém týmů.
 - [Bridge: Purple Team](@/kompendium/glossary-bridges/bridge-purple-team.md) – syntéza a uzavírání nálezů.
-- [Bridge: White Team](@/kompendium/glossary-bridges/bridge-white-team.md) – konstruktivní ověřování.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

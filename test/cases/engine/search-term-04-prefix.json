@@ -5,95 +5,135 @@
     "hits": [
       {
         "code": null,
-        "in": 303,
+        "in": 274,
         "kind": "Pojem",
-        "path": "glossary/coercive-control.md",
+        "path": "glossary/disociace.md",
         "tier": 4,
-        "title": "Coercive control (donucující kontrola)",
-        "url": "/glossary/coercive-control/",
+        "title": "Disociace",
+        "url": "/glossary/disociace/",
         "why": "title_prefix"
       },
       {
         "code": null,
-        "in": 49,
-        "kind": "Kapitola",
-        "path": "kompendium/forensic-legal/12-coercive-control-law.md",
-        "tier": 5,
-        "title": "Právní úprava coercive control",
-        "url": "/kompendium/forensic-legal/12-coercive-control-law/",
-        "why": "title_word"
-      },
-      {
-        "code": "EA-8.2.5",
-        "in": 42,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-8-2-5-stark-coercive-control.md",
-        "tier": 5,
-        "title": "EA-8.2.5 Starkův rámec coercive control",
-        "url": "/kompendium/techniques/ea-8-2-5-stark-coercive-control/",
-        "why": "title_word"
-      },
-      {
-        "code": "EA-8.1.4",
-        "in": 16,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-8-1-4-coercive-control-scale.md",
-        "tier": 5,
-        "title": "EA-8.1.4 Měření coercive control (škály a dotazníky)",
-        "url": "/kompendium/techniques/ea-8-1-4-coercive-control-scale/",
-        "why": "title_word"
+        "in": 25,
+        "kind": "Pojem",
+        "path": "glossary/dissociativni-amnezie.md",
+        "tier": 4,
+        "title": "Disociativní amnézie",
+        "url": "/glossary/dissociativni-amnezie/",
+        "why": "title_prefix"
       },
       {
         "code": null,
-        "in": 12,
-        "kind": "Most",
-        "path": "kompendium/glossary-bridges/bridge-coercive-control.md",
-        "tier": 5,
-        "title": "Bridge: Coercive control (donucující kontrola)",
-        "url": "/kompendium/glossary-bridges/bridge-coercive-control/",
-        "why": "title_word"
+        "in": 23,
+        "kind": "Kapitola",
+        "path": "kompendium/forensic-legal/3-dissociation-forensic.md",
+        "tier": 4,
+        "title": "Disociace ve forenzní praxi",
+        "url": "/kompendium/forensic-legal/3-dissociation-forensic/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 21,
+        "kind": "Kapitola",
+        "path": "kompendium/forensic-legal/6-trauma-disclosure.md",
+        "tier": 4,
+        "title": "Disclosure traumatu",
+        "url": "/kompendium/forensic-legal/6-trauma-disclosure/",
+        "why": "title_prefix"
       },
       {
         "code": null,
         "in": 15,
         "kind": "Kapitola",
-        "path": "kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich.md",
-        "tier": 6,
-        "title": "Manipulativní reframing v blízkých vztazích",
-        "url": "/kompendium/nlp-vzorce/vliv-a-zneuziti/manipulativni-reframing-ve-vztazich/",
-        "why": "description"
-      },
-      {
-        "code": "EA-8.3.1",
-        "in": 8,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-8-3-1-foundational-readings.md",
-        "tier": 6,
-        "title": "EA-8.3.1 Základní literatura",
-        "url": "/kompendium/techniques/ea-8-3-1-foundational-readings/",
-        "why": "description"
+        "path": "kompendium/nlp-vzorce/disociace-a-trauma/_index.md",
+        "tier": 4,
+        "title": "Disociace, fobie a trauma",
+        "url": "/kompendium/nlp-vzorce/disociace-a-trauma/",
+        "why": "title_prefix"
       },
       {
         "code": null,
-        "in": 6,
+        "in": 9,
+        "kind": "Pojem",
+        "path": "glossary/diskursivni-formace.md",
+        "tier": 4,
+        "title": "Diskursivní formace",
+        "url": "/glossary/diskursivni-formace/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 8,
         "kind": "Kapitola",
-        "path": "kompendium/international/27-australian-law-EA/index.md",
-        "tier": 6,
-        "title": "Austrálie — EA právní rámec",
-        "url": "/kompendium/international/27-australian-law-ea/",
-        "why": "description"
+        "path": "kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie.md",
+        "tier": 4,
+        "title": "Disneyova strategie",
+        "url": "/kompendium/nlp-vzorce/urovne-a-pozice/disneyova-strategie/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 8,
+        "kind": "Kapitola",
+        "path": "kompendium/research-methodology/discourse-analysis-EA.md",
+        "tier": 4,
+        "title": "Diskurzivní analýza",
+        "url": "/kompendium/research-methodology/discourse-analysis-ea/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 7,
+        "kind": "Pojem",
+        "path": "glossary/discard.md",
+        "tier": 4,
+        "title": "Discard (fáze odvržení)",
+        "url": "/glossary/discard/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 5,
+        "kind": "Pojem",
+        "path": "glossary/diskurzivni-anihilace.md",
+        "tier": 4,
+        "title": "Diskurzivní anihilace",
+        "url": "/glossary/diskurzivni-anihilace/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 177,
+        "kind": "Kapitola",
+        "path": "kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md",
+        "tier": 5,
+        "title": "6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy",
+        "url": "/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/",
+        "why": "title_word"
+      },
+      {
+        "code": "EA-2.1.1",
+        "in": 51,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-2-1-1-expertni-disinflation.md",
+        "tier": 5,
+        "title": "EA-2.1.1 Expertní disinflace",
+        "url": "/kompendium/techniques/ea-2-1-1-expertni-disinflation/",
+        "why": "title_word"
       }
     ],
     "limit": 12,
-    "normalised": "coe",
+    "normalised": "dis",
     "ok": true,
     "op": "search",
-    "query": "Coe",
+    "query": "Dis",
     "schema": "kompendium-engine/v1",
-    "total": 8
+    "total": 110
   },
   "input": {
     "op": "search",
-    "query": "Coe"
+    "query": "Dis"
   }
 }

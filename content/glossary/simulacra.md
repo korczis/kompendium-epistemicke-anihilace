@@ -109,10 +109,6 @@ Konkrétně:
 - Kapitola [7. Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) chápe Baudrillarda
   jako diagnostický aparát pro **pozdní stadia** prostředí EA, v nichž moderní obrany založené na
   korespondenci nestačí.
-- Výslovné **sledování provenience** a **audit rozmanitosti zdrojů** v [Decision
-  Engine](@/glossary/decision-engine.md) jsou protisimulakrální architektonické závazky:
-  odmítají pracovat jen s vnitřní soudržností a vyžadují ukotvení ve vnějších kontrolách reality
-  (viz [Axiomy NABLA](@/glossary/nabla-axioms.md)).
 - Klinické aplikace v oddílu [06. Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
   popisují intervence určené k novému ukotvení pacientů, kteří dlouho žili v simulakrálních
   prostředích třetího nebo čtvrtého stupně.
@@ -158,7 +154,7 @@ kurace](@/kompendium/recovery-protocols/acute-information-curation.md) a
 **Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

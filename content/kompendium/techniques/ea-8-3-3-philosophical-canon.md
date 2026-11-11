@@ -124,7 +124,7 @@ Literaturu informační války**; empirickou protiváhu tvoří
 **Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Propagační web](https://korczis.github.io/prismatic-promo) | [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Kompendium](@/kompendium/_index.md)
+- [Propagační web](https://korczis.github.io/prismatic-promo) | [Kompendium](@/kompendium/_index.md)
 
 *Příloha rámce EA | EA-8.3.3 | Verze 1.0*
 

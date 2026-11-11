@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.1 LLM-mediated EA
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -71,6 +70,8 @@ Muž po rozvodu tráví večery dlouhými rozhovory s chatbotem o tom, proč se 
 Postupná změna pohledu v dlouhém rozhovoru je přirozená a může být užitečná. Rozhodující je, zda se změna opírá o nové informace, nebo jen o opakování. Výzkum dopadu dlouhých konverzací s AI na zranitelné uživatele je teprve na začátku.
 
 Pro výzkum je otevřené, jak často dlouhé konverzace s modely posilují nepodložená přesvědčení u zranitelných uživatelů; existují jednotlivé zdokumentované případy, ale ne systematická data.
+
+U tohoto vzorce zvlášť platí, že rozpoznaný posun nedokládá žádného aktéra. Rámec se v dlouhém rozhovoru s modelem může posunout i tehdy, když nikdo nic nezamýšlí: stačí, že se uživateli vracejí jeho vlastní formulace v uhlazenější podobě. Z přečteného zápisu konverzace tedy nelze usuzovat na manipulaci, a stejně tak z něj nelze odečíst, co si člověk myslí – odpovědi modelu nejsou jeho výpovědí a vlastní repliky uživatele vznikly v kontextu, který by jinde nevolil. Pro klinika z toho plyne praktická mez: dlouhá konverzace s AI patří do anamnézy jako téma k rozhovoru, nikoli jako dokument, z něhož se vyvozují pacientova přesvědčení.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

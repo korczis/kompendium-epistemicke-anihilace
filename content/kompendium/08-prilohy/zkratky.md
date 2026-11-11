@@ -1,6 +1,6 @@
 +++
 title = "Zkratky a notace"
-description = "Konsolidovaný rejstřík všech zkratek a notačních konvencí používaných v kompendiu — EA, KA, NABLA, NMND, NWB, FLLM a dalších doctrine zkratek platformy Prismatic, plus per-section notační konvence."
+description = "Konsolidovaný rejstřík všech zkratek a notačních konvencí používaných v kompendiu — doménové akronymy, klinické a institucionální zkratky a per-section notační konvence."
 weight = 7
 sort_by = "weight"
 
@@ -20,7 +20,7 @@ status = "complete"
 
 # Zkratky a notace
 
-> **Konsolidovaný rejstřík všech zkratek a notačních konvencí** používaných v kompendiu a v širším platformovém ekosystému Prismatic. Sjednocuje akronymy doménové (EA, KA), platformové (NMND, NWB, FLLM, ZERO, SEAL atd.) a notační konvence per-section.
+> **Konsolidovaný rejstřík všech zkratek a notačních konvencí** používaných v kompendiu. Sjednocuje doménové akronymy (EA, KA), klinické a institucionální zkratky a notační konvence per-section.
 
 ## 1. Doménové akronymy
 
@@ -87,46 +87,7 @@ Plná specifikace v [Klasifikačním schématu](@/kompendium/08-prilohy/klasifik
 | **COI** | Conflict of Interest | Disclosure |
 | **DSMB** | Data Safety Monitoring Board | Monitoring rizikových studií |
 
-## 5. Platformové doctrine zkratky (Prismatic)
-
-Kompendium vzniklo v prostředí platformy Prismatic, jejíž vývoj se řídí **[doktrínou](@/glossary/doctrine.md) o osmnácti pilířích** (stav v době zápisu). Zkratky uvedené níže jsou **zkratkami platformy**, ne knihy samotné, ale objevují se v odkazech a poznámkách řady stránek.
-
-| Zkratka | Plný název | Doména |
-|---------|------------|--------|
-| **3NL** | [Three-Nested-Loops](@/glossary/three-nested-loops.md) (L1+L2+L3) | architektura |
-| **NMND** | [No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md) | disciplína provedení |
-| **NWB** | [No Way Back](@/glossary/nwb.md) | trvalost řešení |
-| **FLLM** | [Flowbite LLM](@/glossary/fllm.md) (čistota stylů) | uživatelské rozhraní |
-| **M5M** | [Max 5 Minutes](@/glossary/m5m.md) | granulární práce |
-| **NCLB** | [No Claim Left Behind](@/glossary/nclb.md) | doložitelnost tvrzení |
-| **TACH** | [Total Assurance Comprehensive Hardened](@/glossary/tach.md) | testování |
-| **ZERO** | [Zero Error Runtime Operations](@/glossary/zero.md) | běhová bezpečnost |
-| **PERF** | Performance Engineering Runtime Fence | výkon |
-| **SEAL** | [Security Enforcement Absolute Lock](@/glossary/seal.md) | bezpečnost |
-| **DEPS** | Dependency Engineering Protection Standard | závislosti |
-| **DOCS** | Documentation Omnipresent Comprehensive Standard | dokumentace |
-| **OTEL** | Observability Telemetry Enforcement Layer | telemetrie |
-| **GITL** | [GitLab Integration & Traceability Linkage](@/glossary/gitl.md) | dohledatelnost změn |
-| **KNOW** | [Knowledge Coverage](@/glossary/know.md) | pokrytí glosářem |
-| **RDME** | README v každé aplikaci | čistota repozitáře |
-| **NLLB** | No Link Left Behind | funkčnost odkazů |
-| **HYGIENE** | Repository hygiene | čistota repozitáře |
-
-Pilíře popisují, jak se vyvíjí software platformy; do taxonomie epistemické anihilace nepatří. Kniha je uvádí ze dvou důvodů. Zaprvé se na ně odvolává řada stránek, které vznikly v prostředí platformy, a čtenář bez této tabulky by jejich poznámky nerozluštil. Zadruhé kniha některé pilíře převzala jako redakční zásady: z NCLB požadavek, aby žádné tvrzení nezůstalo bez ověřitelné opory, z NWB a NMND požadavek úplnosti stránek a z NLLB a KNOW požadavek, aby každý odkaz vedl na existující stránku a každý pojem měl heslo. Počet pilířů se mezi verzemi platformy měnil, a údaj „18“ je proto třeba číst jako stav v době zápisu. Výklad každého pilíře, jeho mezí a vztahu ke knize podává heslo [Doctrine](@/glossary/doctrine.md) a hesla jednotlivých pilířů odkázaná v tabulce.
-
-## 6. Platformové kapacity
-
-| Zkratka | Plný název | Funkce |
-|---------|------------|--------|
-| **NABLA** | NABLA Infinity (∇∞) | Epistemic framework L0–L13 → [Glossary](@/glossary/nabla-infinity.md) |
-| **AIAD** | AI-Augmented Development | standard definic agentů → [Glosář](@/glossary/aiad.md) |
-| **DD** | [Due Diligence](@/glossary/due-diligence.md) | Modul pro investigativní práci → {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} |
-| **OSINT** | Open Source Intelligence | Adapter framework |
-| **EASM** | External Attack Surface Management | Perimeter modul |
-| **SEADF** | Self-Evolving Autonomous Development Framework | Evolution |
-| **MCP** | Model Context Protocol | Tool exposure |
-
-## 7. Per-section notační konvence
+## 5. Per-section notační konvence
 
 ### Sekce 01 — Předmluva
 
@@ -186,7 +147,7 @@ Filozofická notace bez specifických zkratek; využívá tradiční citační k
 | **κ** | Cohenova kappa (inter-rater agreement) |
 | **k-anonymity** | Datová pseudonymizace |
 
-## 8. Citační konvence
+## 6. Citační konvence
 
 Kompendium používá **modifikovaný APA 7. styl**:
 
@@ -197,7 +158,20 @@ Kompendium používá **modifikovaný APA 7. styl**:
 
 Od listopadu 2026 platí pro odborné stránky knihy přísnější podoba této konvence. Každý podstatný odstavec se opírá o odkaz v podobě autor–rok, například (Herman 1992), na dílo, o jehož existenci a obsahu není pochyb, a stránka končí oddílem **Literatura** před oddílem **Související**. Kde jistý zdroj chybí, odstavec zůstává bez citace a myšlenka se uvádí jako výklad autora; vymyšlený nebo nejistý odkaz je vždy horší než žádný. Výčty se používají jen tam, kde jde o skutečný výčet – kroky protokolu, kontakty krizových služeb, seznamy odkazů –, ostatní obsah se píše souvislým textem. Citovanou literaturu ze všech stránek shromažďuje generovaný [přehled literatury](@/references.md).
 
-## 9. URL konvence
+### 6.1 Sigla filosofických klasiků
+
+U děl, která se citují po desetiletí v různých vydáních a překladech, se v odborné literatuře užívají ustálená sigla: odkazuje se na místo v samotném textu, ne na stránku jedné edice, takže údaj zůstává ověřitelný napříč vydáními a jazyky. Kompendium tuto zvyklost přejímá u autorů, jimž věnuje samostatné stránky oddílu 07.
+
+| Sigla | Dílo | Způsob odkazu |
+|---|---|---|
+| TLP | Wittgenstein, *Tractatus logico-philosophicus* | číslo teze (TLP 5.6) |
+| PU (angl. PI) | Wittgenstein, *Philosophische Untersuchungen* | číslo paragrafu (PU § 201) |
+| ÜG | Wittgenstein, *Über Gewissheit* | číslo poznámky (ÜG § 115) |
+| KrV | Kant, *Kritik der reinen Vernunft* | paginace prvního a druhého vydání (KrV A 51 / B 75) |
+
+Pravidlo je jediné: sigla se při prvním výskytu na stránce uvede v plném znění a oddíl Literatura doplní vydání, z něhož se cituje. Zkratka, jejíž rozpis čtenář na téže stránce nenajde, je chybou stránky, nikoli nedostatkem čtenáře.
+
+## 7. URL konvence
 
 | Pattern | Použití |
 |---------|---------|
@@ -206,9 +180,8 @@ Od listopadu 2026 platí pro odborné stránky knihy přísnější podoba této
 | `/kompendium/08-prilohy/<slug>/` | Přílohy sekce 08 |
 | `/glossary/<slug>/` | Glosářové heslo |
 | `/philosophy/<slug>/` | Filozofická vrstva |
-| `/hub/dd/decisions/` | [Decision Engine](@/glossary/decision-engine.md) |
 
-## 10. Status značky
+## 8. Status značky
 
 | Značka | Význam |
 |--------|--------|
@@ -216,6 +189,18 @@ Od listopadu 2026 platí pro odborné stránky knihy přísnější podoba této
 | `⏳ příprava` | Práce v rozpracovanosti |
 | `🔒 omezený` | Vyžaduje úroveň přístupu L2+ |
 | `⚠️ rizikový` | Obsahuje materiál vyšší citlivosti |
+
+## 9. Zkratka jako nástroj a jako riziko
+
+Rejstřík zkratek není jen pomůcka k rychlému dohledání. Zkratka je zhuštěný pojem, a tím se stává dvojznačným nástrojem: usnadňuje práci těm, kdo její rozpis znají, a současně vytváří hranici mezi nimi a ostatními. Lifton (1961) popsal „zatížený jazyk“ (*[loading the language](@/glossary/loading-the-language.md)*) jako jeden ze znaků myšlenkové reformy: skupina si vytvoří vlastní heslový slovník, jímž nahradí složité skutečnosti krátkými výrazy, a dosáhne tím dvojího — hovor je rychlejší, ale myšlení chudší, protože hesla již obsahují hotové hodnocení. Orwell (1949) tvrdí v doslovu o zásadách newspeaku totéž o složených zkratkách: stažením názvu do jediného slova se odřízne okruh představ, které by plný tvar vyvolal.
+
+Z toho plyne pravidlo, jímž se tato příloha řídí: každá zkratka má v knize uveden plný tvar i místo, kde se pojem zavádí, a kompendium neužívá zkratku, kterou by si čtenář nemohl rozepsat. Zkratky vlastní taxonomie (EA, KA, OA, MD) jsou proto vázány na glosářová hesla, nikoli pouze na tabulku v oddílu 1, a klinické zkratky v oddílu 3 na nástroje, u nichž je uveden autor a rok (například Cohenova κ podle Cohena (1960) nebo model BITE podle Hassana (1988)). Rejstřík má přitom i vlastní mez: o významu zkratky nerozhoduje tabulka, nýbrž obor, v němž je
+zkratka užita. Táž tři písmena znamenají v různých oborech různé věci — zkratka CPT označuje
+v péči o trauma terapii zpracováním poznatků, v americkém zdravotním účtování však nomenklaturu
+výkonů, a zkratka DES se vyskytuje jak u dotazníku disociativních zkušeností, tak u látky, s níž
+nemá nic společného. Proto k rozpisu klinických zkratek v oddílu 3 patří i obor užití
+a u nástrojů odkaz na stránku, kde jsou popsány v kontextu; bez oboru je rozpis neúplný. *Interpretace knihy*: znakem uzavřené skupiny
+není mnoho zkratek, nýbrž zkratky, jejichž rozpis se od členů neočekává — kdo užívá slovo, jehož plný tvar nezná, přijal kus výkladu, který neprověřil.
 
 ## Vazby na další přílohy
 
@@ -225,15 +210,7 @@ Od listopadu 2026 platí pro odborné stránky knihy přísnější podoba této
 - [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) — klinické zkratky v kontextu.
 - [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — institucionální zkratky.
 - [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) — meta-úroveň notace.
-
-## Platformový kontext
-
-- [Doctrine](@/glossary/doctrine.md) — výklad pilířů doktríny a jejich zkratek.
 - [Glosář](@/glossary/_index.md) — všechny domain zkratky mají glosářová hesla.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) — epistemic framework.
-- [3NL](@/glossary/three-nested-loops.md) — architektura platformy.
-- [Color Teams](@/glossary/color-teams.md) — Red/Blue/Purple/Green týmy.
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — operativní použití DD zkratky.
 
 ## Kritický krok
 
@@ -248,6 +225,14 @@ Místo lineární četby:
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
 > otevři přílohu.
 
+## Literatura
+
+- Cohen, J. (1960). A coefficient of agreement for nominal scales. *Educational and Psychological Measurement*.
+- Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. W. W. Norton.
+- Orwell, G. (1949). *Nineteen Eighty-Four*. Secker & Warburg.
+
 ## Související
 
 **Přílohy knihy**
@@ -258,10 +243,7 @@ Místo lineární četby:
 
 **Platformní zkratky**
 
-- [Doctrine](@/glossary/doctrine.md) – soustava pilířů, z níž pocházejí zkratky oddílu 5.
-- [Doktrína NM/ND](@/glossary/nm-nd.md) – zastřešující zásada pilířů.
-- [NCLB](@/glossary/nclb.md) – pilíř, který kniha přebírá jako zásadu doložitelnosti.
-- [1.6 Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) – proč se platformní zkratky v knize objevují.
+- [1.6 Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md) – odkud se v knize vzal technický slovník.
 
 **Doménové pojmy**
 

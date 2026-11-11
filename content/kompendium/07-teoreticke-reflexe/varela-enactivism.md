@@ -192,8 +192,6 @@ legitimní a kdy už je manipulací; právě tuto otázku klade filozofie [epist
 - [Embodied cognition](@/glossary/embodied-cognition.md) – kognice jako vtělené jednání.
 - [Epistemic bubble](@/glossary/epistemic-bubble.md) – zúžené informační prostředí.
 - [Fenomenologie](@/glossary/fenomenologie.md) – metoda popisu zkušenosti z první osoby.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) – architektura udržující dynamické hypotézy, analogie jen metaforická.
-- [3NL](@/glossary/3nl.md) – vrstvená architektura platformy.
 
 **Zotavení**
 

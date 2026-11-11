@@ -328,35 +328,6 @@ Etika hranic se zabývá i otázkou, kdy lze hranice legitimně zpochybnit.
 - **Nesouhlas:** přehlížení hranic kvůli filozofickému nesouhlasu.
 - **Nedbalost:** neúmyslné porušení hranic z nepozornosti.
 
-## Začlenění do filozofie platformy
-
-### Soulad s NO MERCY, NO DOUBTS
-
-Základní [doktrína](@/glossary/doctrine.md) platformy,
-[NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md), je v souladu s etikou hranic:
-
-- **NO MERCY:** nulová tolerance k porušení hranic chrání integritu.
-- **NO DOUBTS:** jasné hranice odstraňují nejednoznačnost v rozhodování.
-
-### Slučitelnost s NABLA Infinity
-
-Epistemický rámec [NABLA Infinity](@/glossary/nabla-infinity.md) podporuje etiku hranic
-prostřednictvím:
-
-- **Povinné provenience:** každé překročení hranice musí být dohledatelné.
-- **[Plurality signálů](@/glossary/signal-plurality.md):** dodržení hranic potvrzuje více
-  signálů.
-- **Časového úbytku:** oprávnění překročit hranici mají výslovné časové meze.
-- **Uchování rozporů:** svolení i omezení se zachovávají současně.
-
-### Začlenění do Trinity Gate
-
-Rozhodnutí týkající se hranic procházejí [Trinity Gate](@/glossary/trinity-gate.md):
-
-1. **Strukturální konzistence:** struktura hranic tvoří platný logický rámec.
-2. **Logická konzistence:** svolení a omezení se řídí logickými pravidly.
-3. **Formální nutnost:** vymáhání hranic potvrzují matematické důkazy.
-
 ## Praktické uplatnění
 
 ### Pro tvůrce softwaru
@@ -467,15 +438,12 @@ které chrání význam, umožňují tvořivost a pěstují autentickou komunitu
 
 **Pojmy platformy**
 
-- [No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md) – doktrinální zásada, s níž je
-  etika hranic v souladu.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) – provenience a časový úbytek oprávnění.
 - [Compliance Framework](@/glossary/compliance-framework.md) – jak se hranice promítají do
   správy organizace.
 
 **Kniha**
 
-- [1.6 Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) – proč
+- [1.6 Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md) – proč
   kniha nese filozofii platformy.
 - [Hermeneutická eroze](@/glossary/hermeneuticka-eroze.md) – lidská obdoba sémantického
   driftu, jak ji popisuje taxonomie.

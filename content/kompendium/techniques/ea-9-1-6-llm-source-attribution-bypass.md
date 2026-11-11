@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.1 LLM-mediated EA
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -71,6 +70,16 @@ Do připomínkového řízení dorazí obsáhlé stanovisko s dvaceti odkazy na 
 Smyšlené citace nevznikají jen s AI – lidé je vytvářeli i dříve. Novinkou je jejich množství a formální dokonalost. Otevřenou otázkou je, jak sladit ověřování citací s kapacitou recenzentů a úřadů.
 
 Pro výzkum zůstává otevřené, jak často se smyšlené citace dostávají do recenzovaných publikací a do právních podání; dostupné jsou zatím jednotlivé zdokumentované případy, nikoli systematická data. Kniha proto neuvádí odhady a doporučuje ověřovat citace jako běžnou součást posuzování.
+
+Nalezení neexistující citace samo neprokazuje, že autor textu lhal, ani že je jeho teze nepravdivá:
+smyšlený odkaz může provázet tvrzení, které je samostatně doložitelné odjinud. Ji et al. (2023)
+řadí tento jev mezi chyby generování, tedy mezi vlastnosti nástroje; o úmyslu toho, kdo nástroj
+použil, z něj nelze usoudit nic.
+
+*Interpretace knihy*: rozlišující otázkou není počet vadných odkazů, nýbrž co se stane po
+upozornění — zda následuje oprava, nebo další neověřitelný odkaz. Wineburg a McGrew (2019)
+ukazují, že i poučený čtenář posuzuje zdroj podle vzhledu, takže vady odkazů se neobjeví dřív, než
+je někdo cíleně hledá.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

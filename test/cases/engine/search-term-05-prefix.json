@@ -5,135 +5,135 @@
     "hits": [
       {
         "code": null,
-        "in": 294,
+        "in": 269,
         "kind": "Pojem",
-        "path": "glossary/color-teams.md",
+        "path": "glossary/gaslighting.md",
         "tier": 4,
-        "title": "Color Teams (barevné týmy)",
-        "url": "/glossary/color-teams/",
+        "title": "Gaslighting",
+        "url": "/glossary/gaslighting/",
         "why": "title_prefix"
       },
       {
-        "code": "EA-2.3.2",
-        "in": 34,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-2-3-2-context-collapse.md",
+        "code": null,
+        "in": 65,
+        "kind": "Detekce",
+        "path": "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
         "tier": 5,
-        "title": "EA-2.3.2 Kolaps kontextu (context collapse)",
-        "url": "/kompendium/techniques/ea-2-3-2-context-collapse/",
+        "title": "Detekční signatura: Gaslighting vzorec",
+        "url": "/kompendium/detection-signatures/12-behavioral-gaslighting-pattern/",
         "why": "title_word"
       },
       {
-        "code": "EA-6.1.3",
+        "code": null,
+        "in": 33,
+        "kind": "Kazuistika",
+        "path": "kompendium/case-studies/08-gaslighting-partnersky.md",
+        "tier": 5,
+        "title": "Případ 08: Partnerský gaslighting",
+        "url": "/kompendium/case-studies/08-gaslighting-partnersky/",
+        "why": "title_word"
+      },
+      {
+        "code": "EA-4.1",
+        "in": 20,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-4-1-gaslighting.md",
+        "tier": 5,
+        "title": "EA-4.1 Gaslighting",
+        "url": "/kompendium/techniques/ea-4-1-gaslighting/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
         "in": 17,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-6-1-3-collateral-interview.md",
+        "kind": "Kazuistika",
+        "path": "kompendium/case-studies/03-pedagogicke-gaslighting.md",
         "tier": 5,
-        "title": "EA-6.1.3 Collateral interview (rozhovor s blízkými)",
-        "url": "/kompendium/techniques/ea-6-1-3-collateral-interview/",
+        "title": "Případ 03: Pedagogické gaslighting",
+        "url": "/kompendium/case-studies/03-pedagogicke-gaslighting/",
         "why": "title_word"
       },
       {
         "code": null,
-        "in": 15,
-        "kind": "Pojem",
-        "path": "glossary/metanarrative-collapse.md",
-        "tier": 5,
-        "title": "Metanarrative collapse (rozpad velkých vyprávění)",
-        "url": "/glossary/metanarrative-collapse/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 9,
-        "kind": "Pojem",
-        "path": "glossary/integrative-collapse.md",
-        "tier": 5,
-        "title": "Integrative collapse (integrativní kolaps)",
-        "url": "/glossary/integrative-collapse/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 6,
-        "kind": "Most",
-        "path": "kompendium/glossary-bridges/bridge-color-teams.md",
-        "tier": 5,
-        "title": "Bridge: Color Teams (barevné týmy)",
-        "url": "/kompendium/glossary-bridges/bridge-color-teams/",
-        "why": "title_word"
-      },
-      {
-        "code": "EA-9.5.8",
-        "in": 6,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-9-5-8-meme-context-collapse.md",
-        "tier": 5,
-        "title": "EA-9.5.8 Meme Context Collapse",
-        "url": "/kompendium/techniques/ea-9-5-8-meme-context-collapse/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 2,
-        "kind": "Most",
-        "path": "kompendium/glossary-bridges/bridge-metanarrative-collapse.md",
-        "tier": 5,
-        "title": "Bridge: Metanarrative collapse (rozpad velkých vyprávění)",
-        "url": "/kompendium/glossary-bridges/bridge-metanarrative-collapse/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 43,
-        "kind": "Pojem",
-        "path": "glossary/blue-team.md",
-        "tier": 6,
-        "title": "Blue Team",
-        "url": "/glossary/blue-team/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 40,
-        "kind": "Pojem",
-        "path": "glossary/replication-crisis.md",
-        "tier": 6,
-        "title": "Replikační krize (replication crisis)",
-        "url": "/glossary/replication-crisis/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 35,
+        "in": 14,
         "kind": "Kapitola",
-        "path": "kompendium/01-predmluva/vztah-k-platforme.md",
+        "path": "kompendium/educational-scenarios/19-gaslighting-pattern.md",
+        "tier": 5,
+        "title": "Vzdělávací scénář: Vzorec gaslightingu",
+        "url": "/kompendium/educational-scenarios/19-gaslighting-pattern/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 13,
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-gaslighting.md",
+        "tier": 5,
+        "title": "Bridge: Gaslighting",
+        "url": "/kompendium/glossary-bridges/bridge-gaslighting/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 4,
+        "kind": "Pojem",
+        "path": "glossary/intelektualni-gaslighting.md",
+        "tier": 5,
+        "title": "Intelektuální gaslighting",
+        "url": "/glossary/intelektualni-gaslighting/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 100,
+        "kind": "Pojem",
+        "path": "glossary/reality-testing.md",
         "tier": 6,
-        "title": "1.6 Vztah ke Prismatic Platformě",
-        "url": "/kompendium/01-predmluva/vztah-k-platforme/",
+        "title": "Testování reality (reality testing)",
+        "url": "/glossary/reality-testing/",
         "why": "description"
       },
       {
         "code": null,
-        "in": 15,
-        "kind": "Pojem",
-        "path": "glossary/black-team.md",
+        "in": 60,
+        "kind": "Sebeobrana",
+        "path": "kompendium/self-defense-guides/1-metacognitive-monitoring.md",
         "tier": 6,
-        "title": "Black Team",
-        "url": "/glossary/black-team/",
+        "title": "Sebe-obrana: Metakognitivní monitoring",
+        "url": "/kompendium/self-defense-guides/1-metacognitive-monitoring/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 29,
+        "kind": "Krizový protokol",
+        "path": "kompendium/emergency-protocols/7-acute-cognitive-paralysis.md",
+        "tier": 6,
+        "title": "Akutní protokol: Akutní kognitivní paralýza",
+        "url": "/kompendium/emergency-protocols/7-acute-cognitive-paralysis/",
+        "why": "description"
+      },
+      {
+        "code": "EA-6.1.7",
+        "in": 18,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-6-1-7-trauma-history-protokol.md",
+        "tier": 6,
+        "title": "EA-6.1.7 Trauma history protokol",
+        "url": "/kompendium/techniques/ea-6-1-7-trauma-history-protokol/",
         "why": "description"
       }
     ],
     "limit": 12,
-    "normalised": "col",
+    "normalised": "gas",
     "ok": true,
     "op": "search",
-    "query": "Col",
+    "query": "Gas",
     "schema": "kompendium-engine/v1",
-    "total": 13
+    "total": 14
   },
   "input": {
     "op": "search",
-    "query": "Col"
+    "query": "Gas"
   }
 }

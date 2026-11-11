@@ -84,7 +84,7 @@ dokázat, ale rámec, v němž se cokoli dokazuje.
 
 Druhou složkou je mocenská nerovnost. V semináři, kde vyučující hodnotí a doktorand je na něm
 závislý, je obtížné hru ukončit nebo odmítnout její pravidla. Lifton (1961) popsal v uzavřených
-prostředích nadřazení doktríny nad zkušenost člověka (*[doctrine](@/glossary/doctrine.md) over person*): když se prožitek
+prostředích nadřazení doktríny nad zkušenost člověka (*doctrine over person*): když se prožitek
 s doktrínou neshoduje, chyba se hledá v člověku. Technikou, která má s tímto vzorcem společné
 jádro, je [EA-5.4.17 Implantace nekonečného
 regresu](@/kompendium/techniques/ea-5-4-17-infinit-regres-implantace.md).

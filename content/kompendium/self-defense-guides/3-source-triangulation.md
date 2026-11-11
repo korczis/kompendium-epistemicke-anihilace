@@ -110,7 +110,6 @@ Nezaměňujte počet zdrojů za nezávislost – deset přeposlaných kopií je 
 
 **Pojmy**
 
-- [Signal Plurality](@/glossary/signal-plurality.md) – proč je mnohost nezávislých signálů ochranou.
 - [Epistemicka Monokultura](@/glossary/epistemicka-monokultura.md) – stav, kdy všechny zdroje myslí stejně.
 
 **Výuka a prevence**

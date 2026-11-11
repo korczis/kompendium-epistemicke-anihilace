@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.4 Bot networks
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -53,6 +52,8 @@ Komentáře slouží čtenářům jako ukazatel reakce veřejnosti; mnozí čtou
 ## 5. Odlišení
 
 *Spontánní reakce*: rozmanité komentáře, osobní zkušenosti, reakce na obsah, rostoucí postupně. *Organizovaná, ale transparentní občanská akce*: lidé pod vlastními jmény a se svým názorem. *[EA-9.4.9 Bot Narrative Injection](@/kompendium/techniques/ea-9-4-9-bot-narrative-injection.md)*: cílí na první komentáře a rámec diskuse, ne na záplavu.
+
+Obě podoby vzorce se navíc poznávají jinak: přehlušení se projeví objemem soustředěným na jediný terč, zatímco zdánlivý konsenzus objemem vybočovat nemusí a pozná se spíš jednotností hodnocení, v níž chybí obvyklý rozptyl nesouhlasu. Nepřátelská diskuse pod článkem proto sama o sobě koordinaci nedokládá; srovnávat je třeba s jinými vlákny téhož média a téhož tématu. Phillips (2015) současně upozorňuje, že motivy účastníků takových vln jsou různorodé – od zadání přes zábavu až po skutečné rozhořčení –, takže z koordinované vlny nelze zpětně odvozovat společné přesvědčení těch, kdo se do ní zapojili. Pro redakci to znamená chránit autora, a přitom neobviňovat jednotlivé komentující.
 
 ## 6. Dopad a rámec
 

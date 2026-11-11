@@ -98,7 +98,7 @@ Příloh y sledují **verzi celého kompendia**. Změny v hlavním textu (nové 
 - **Hlavní taxonomie** → [Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) → [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) → [Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Aplikace** → [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) → [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
 - **Per-technique** → [Techniques index](@/kompendium/techniques/_index.md)
-- **Platformový kontext** → [Hub kompendia](@/kompendium/_index.md) → [Glossary](@/glossary/_index.md) → [Philosophy](@/philosophy/_index.md)
+- **Napříč knihou** → [Hub kompendia](@/kompendium/_index.md) → [Glossary](@/glossary/_index.md) → [Philosophy](@/philosophy/_index.md)
 
 ## Kritický krok
 

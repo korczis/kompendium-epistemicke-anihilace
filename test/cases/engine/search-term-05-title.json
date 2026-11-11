@@ -5,35 +5,135 @@
     "hits": [
       {
         "code": null,
-        "in": 294,
+        "in": 269,
         "kind": "Pojem",
-        "path": "glossary/color-teams.md",
+        "path": "glossary/gaslighting.md",
         "tier": 2,
-        "title": "Color Teams (barevné týmy)",
-        "url": "/glossary/color-teams/",
+        "title": "Gaslighting",
+        "url": "/glossary/gaslighting/",
         "why": "exact_title"
       },
       {
         "code": null,
-        "in": 6,
-        "kind": "Most",
-        "path": "kompendium/glossary-bridges/bridge-color-teams.md",
+        "in": 65,
+        "kind": "Detekce",
+        "path": "kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md",
         "tier": 5,
-        "title": "Bridge: Color Teams (barevné týmy)",
-        "url": "/kompendium/glossary-bridges/bridge-color-teams/",
+        "title": "Detekční signatura: Gaslighting vzorec",
+        "url": "/kompendium/detection-signatures/12-behavioral-gaslighting-pattern/",
         "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 33,
+        "kind": "Kazuistika",
+        "path": "kompendium/case-studies/08-gaslighting-partnersky.md",
+        "tier": 5,
+        "title": "Případ 08: Partnerský gaslighting",
+        "url": "/kompendium/case-studies/08-gaslighting-partnersky/",
+        "why": "title_word"
+      },
+      {
+        "code": "EA-4.1",
+        "in": 20,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-4-1-gaslighting.md",
+        "tier": 5,
+        "title": "EA-4.1 Gaslighting",
+        "url": "/kompendium/techniques/ea-4-1-gaslighting/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 17,
+        "kind": "Kazuistika",
+        "path": "kompendium/case-studies/03-pedagogicke-gaslighting.md",
+        "tier": 5,
+        "title": "Případ 03: Pedagogické gaslighting",
+        "url": "/kompendium/case-studies/03-pedagogicke-gaslighting/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 14,
+        "kind": "Kapitola",
+        "path": "kompendium/educational-scenarios/19-gaslighting-pattern.md",
+        "tier": 5,
+        "title": "Vzdělávací scénář: Vzorec gaslightingu",
+        "url": "/kompendium/educational-scenarios/19-gaslighting-pattern/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 13,
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-gaslighting.md",
+        "tier": 5,
+        "title": "Bridge: Gaslighting",
+        "url": "/kompendium/glossary-bridges/bridge-gaslighting/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 4,
+        "kind": "Pojem",
+        "path": "glossary/intelektualni-gaslighting.md",
+        "tier": 5,
+        "title": "Intelektuální gaslighting",
+        "url": "/glossary/intelektualni-gaslighting/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 100,
+        "kind": "Pojem",
+        "path": "glossary/reality-testing.md",
+        "tier": 6,
+        "title": "Testování reality (reality testing)",
+        "url": "/glossary/reality-testing/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 60,
+        "kind": "Sebeobrana",
+        "path": "kompendium/self-defense-guides/1-metacognitive-monitoring.md",
+        "tier": 6,
+        "title": "Sebe-obrana: Metakognitivní monitoring",
+        "url": "/kompendium/self-defense-guides/1-metacognitive-monitoring/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 29,
+        "kind": "Krizový protokol",
+        "path": "kompendium/emergency-protocols/7-acute-cognitive-paralysis.md",
+        "tier": 6,
+        "title": "Akutní protokol: Akutní kognitivní paralýza",
+        "url": "/kompendium/emergency-protocols/7-acute-cognitive-paralysis/",
+        "why": "description"
+      },
+      {
+        "code": "EA-6.1.7",
+        "in": 18,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-6-1-7-trauma-history-protokol.md",
+        "tier": 6,
+        "title": "EA-6.1.7 Trauma history protokol",
+        "url": "/kompendium/techniques/ea-6-1-7-trauma-history-protokol/",
+        "why": "description"
       }
     ],
     "limit": 12,
-    "normalised": "color teams (barevne tymy)",
+    "normalised": "gaslighting",
     "ok": true,
     "op": "search",
-    "query": "Color Teams (barevné týmy)",
+    "query": "Gaslighting",
     "schema": "kompendium-engine/v1",
-    "total": 2
+    "total": 14
   },
   "input": {
     "op": "search",
-    "query": "Color Teams (barevné týmy)"
+    "query": "Gaslighting"
   }
 }

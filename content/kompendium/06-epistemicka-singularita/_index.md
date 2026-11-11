@@ -16,8 +16,8 @@ vyústit nejhlubší formy [epistemické anihilace](@/glossary/epistemicka-anihi
 poznávání člověka se zhroutí do **jediného výkladového rámce**, který vysvětluje vše,
 nepřipouští alternativu ani jako hypotézu a každý protidůkaz pohltí jako potvrzení.
 Heslo [epistemická singularita](@/glossary/epistemicka-singularita.md) v glosáři ho
-popisuje jako opak [plurality signálů](@/glossary/signal-plurality.md) – stavu, kdy se
-úsudek opírá o více nezávislých zdrojů a soupeřících hypotéz.
+popisuje jako opak stavu, kdy se úsudek opírá o [více nezávislých
+zdrojů](@/glossary/intelligence-fusion.md) a soupeřících hypotéz.
 
 Pojem má v knize dvě vrstvy. Technickou tvoří řada EA-5.1, jíž je věnována
 [kapitola 6 sekce 05](@/kompendium/05-ultramari-techniky/kapitola-6.md) (rozcestníky

@@ -561,7 +561,9 @@ def entry_page(ctx: dict, e: dict, prose: str, description: str) -> str:
             where = r["fam"]["title"] if r["catalog"] is cat else f"{r['catalog'].title}: {r['fam']['title']}"
             lines.append(f"- [{r['cs']}]({link(r['path'])}) – příbuzné heslo ({where}, {r['en']})")
     lines += ["", "**V kompendiu**", ""]
-    for path in e["kompendium"]:
+    # A path that no longer exists is reported by validate_edges ("does not exist") and fails the
+    # gate; the page is still rendered without it instead of the engine crashing on the title.
+    for path in (p for p in e["kompendium"] if p in ctx["titles"]):
         lines.append(f"- [{ctx['titles'][path]}]({link(path)}) – stránka knihy, na které se "
                      "toto heslo projevuje nebo s ní souvisí")
     siblings = fam["entries"]

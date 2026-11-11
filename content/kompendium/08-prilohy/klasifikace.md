@@ -204,22 +204,7 @@ Mapování BITE → EA viz [Diagnostika §1](@/kompendium/08-prilohy/diagnostick
 | Confession | `EA-3.2.1` |
 | Sacred Science | [`EA-1.3.1`](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) |
 | [Loading the Language](@/glossary/loading-the-language.md) | [`EA-1.1.3`](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), `EA-5.1.5` |
-| [Doctrine](@/glossary/doctrine.md) over Person | Kap. 4 protokoly |
 | Dispensing of Existence | Kap. 4 + 5 finální fáze |
-
-### 5.5 NABLA Infinity (∇∞) L0–L13
-
-Mapování EA technik na úrovně [epistemic pipeline](@/glossary/epistemic-pipeline.md) NABLA Infinity:
-
-| EA kapitola | NABLA L0–L13 |
-|-------------|--------------|
-| Kap. 1 (Akademické) | L0–L3 (data, syntax, sémantika) |
-| Kap. 2 (Delegitimizační) | L3–L5 (sémantika, kontext, autorita) |
-| Kap. 3 (Edukativní) | L5–L8 (kontext, narativ, identita) |
-| Kap. 4 (Terminální) | L8–L11 (identita, paradigm, axiom) |
-| Kap. 5 (Ultramární) | L11–L13 (axiom, transcendence, anihilace) |
-
-> Plný popis NABLA Infinity v [Glossary](@/glossary/nabla-infinity.md).
 
 ## 6. Principy konzistence
 
@@ -249,7 +234,21 @@ Inter-rater agreement (Cohenova κ) na úrovni X je **> 0.95** v platných taxon
 
 Aktuální verze taxonomie: **v1.0.0** (kanonický stav 2026-04-25).
 
-## 8. Vazby na další přílohy
+## 8. Co klasifikace nedokazuje
+
+Kód EA-X.Y.Z je rozhodnutí o popisu, nikoli diagnóza, a tím méně nález o konkrétním člověku.
+Z toho plynou tři omezení. Za prvé: míra shody mezi posuzovateli, na niž se odvolávají oddíly 4
+a 6, je ukazatelem konzistence, ne správnosti; Cohen (1960) ji zavedl jako korekci shody
+očekávatelné náhodou, a dva posuzovatelé školení týmž schématem se mohou shodnout i tam, kde je
+schéma chybné. Za druhé: zařazení jednání pod kód nevypovídá o záměru toho, kdo je vykonal —
+dimenze z oddílu 2 popisují strukturu a dopad, nikoli pohnutku. Za třetí: klasifikace lidí
+a jejich zkušeností působí zpětně na své předměty; Hacking (1995) tento jev nazval smyčkovým
+efektem lidských druhů — pojmenovaní lidé se k pojmu vztahují, přejímají jej nebo se mu brání,
+a tím mění právě to, co měl pojem popisovat. *Interpretace knihy*: proto se kód v klinickém
+i právním kontextu uvádí jako nástroj popisu, s nímž dotčený člověk může nesouhlasit, a nikdy
+jako údaj o jeho osobě.
+
+## 9. Vazby na další přílohy
 
 - [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární literatura k taxonomické metodě.
 - [Rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) — operativní výstup tohoto schématu.
@@ -257,14 +256,7 @@ Aktuální verze taxonomie: **v1.0.0** (kanonický stav 2026-04-25).
 - [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) — instrumenty operacionalizující dimenze.
 - [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — etické předpoklady taxonomie.
 - [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) — formální notační konvence.
-
-## 9. Platformový kontext
-
 - [Glosář](@/glossary/_index.md) — kanonizace termínů recipročně s touto taxonomií.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) — L0–L13 mapování (sekce 5.5).
-- [Color Teams](@/glossary/color-teams.md) — Red Team scénáře využívají dimenzionální osy.
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — kalibrace důvěry využívá EA klasifikační prostor jako feature space.
-- [3NL architektura](@/glossary/three-nested-loops.md) — dimenze strukturální/obsahová mapuje na L1/L3 rozdělení.
 
 ## Kritický krok
 
@@ -278,6 +270,13 @@ Místo lineární četby:
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
 > otevři přílohu.
+
+## Literatura
+
+- Cohen, J. (1960). A coefficient of agreement for nominal scales. *Educational and Psychological Measurement*.
+- Hacking, I. (1995). The looping effects of human kinds. In D. Sperber, D. Premack, & A. J. Premack (Eds.), *Causal Cognition: A Multidisciplinary Debate*. Clarendon Press.
+- Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. W. W. Norton.
 
 ## Související
 
@@ -305,4 +304,4 @@ Místo lineární četby:
 **Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Techniky](@/kompendium/techniques/_index.md) | [Glosář](@/glossary/_index.md) | [Filozofie](@/philosophy/_index.md) | [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Techniky](@/kompendium/techniques/_index.md) | [Glosář](@/glossary/_index.md) | [Filozofie](@/philosophy/_index.md)

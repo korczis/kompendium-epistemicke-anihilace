@@ -9,7 +9,7 @@ tags = ["glossary", "epistemic", "ethics", "policy", "kompendium"]
 
 [extra]
 category = "epistemic"
-related_terms = ["kompendium-ea", "epistemicka-anihilace", "taxonomie-ea", "delegitimizace", "metakognitivni-destrukce", "color-teams"]
+related_terms = ["kompendium-ea", "epistemicka-anihilace", "taxonomie-ea", "delegitimizace", "metakognitivni-destrukce"]
 author = "Tomáš Korcak (korczis)"
 date_created = "2026-04-25"
 date_modified = "2026-11-10"
@@ -149,20 +149,11 @@ i třetích osob, jimž by výsledky mohly uškodit. Praktické náležitosti po
 
 ## Význam pro Kompendium
 
-Na platformě, z níž kniha vzešla, se úvahy o dvojím užití v době zápisu uplatňovaly
-výslovným odstupňováním přístupu a auditem: přehledová [taxonomie EA](@/glossary/taxonomie-ea.md)
-a materiál k rozpoznání byly otevřené (přehled Kompendia a [glosář](@/glossary/_index.md)), podrobné rozbory jednotlivých technik v sekci
-[Techniky](@/kompendium/techniques/_index.md) vyžadovaly ověřený přístup a uvedení
-profesního kontextu (srov. National Research Council, 2004). Ve veřejném vydání jsou tyto
-stránky psány na úrovni rozpoznání.
-
-Operace Red Teamu v rámci [Color Teams](@/glossary/color-teams.md), které z podstaty věci
-simulují techniky EA proti cílům uvnitř platformy, probíhaly pod auditem a jen
-s prověřenými operátory a knihovny jejich scénářů se veřejně nepublikují; jde o obdobu
-koordinovaného zveřejňování zranitelností (ISO/IEC 29147, 2018). [Decision
-Engine](@/glossary/decision-engine.md) a [NABLA Infinity](@/glossary/nabla-infinity.md)
-zaznamenávaly, kdy úvaha o EA ovlivnila rozhodnutí, aby pozdější přezkum mohl odlišit
-obranné využití od útočného.
+Kompendium uplatňuje úvahy o dvojím užití odstupňováním podrobnosti: přehledová [taxonomie
+EA](@/glossary/taxonomie-ea.md) a materiál k rozpoznání jsou otevřené (přehled Kompendia
+a [glosář](@/glossary/_index.md)) a podrobné rozbory jednotlivých technik v sekci
+[Techniky](@/kompendium/techniques/_index.md) jsou ve veřejném vydání psány na úrovni
+rozpoznání, ne provedení (srov. National Research Council, 2004).
 
 ## Obrana a zotavení
 
@@ -208,7 +199,6 @@ k mlčení, ale za důvod k průběžné revizi vlastní praxe.
 - [Kompendium EA](@/glossary/kompendium-ea.md) – samo Kompendium, navržené v tomto rámci.
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – model hrozby, jehož studium problém dvojího užití vyvolává.
 - [Taxonomie EA](@/glossary/taxonomie-ea.md) – odstupňovaná struktura taxonomie.
-- [Color Teams](@/glossary/color-teams.md) – provozní prostředí dvojího užití.
 - [Delegitimizace](@/glossary/delegitimizace.md) – slovník na úrovni rozpoznání.
 - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – přísně kontrolovaná třída technik.
 - [Informed consent](@/glossary/informed-consent.md) – etika výzkumu, jejíž je dual-use částí.

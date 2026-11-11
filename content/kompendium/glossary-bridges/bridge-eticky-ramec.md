@@ -135,7 +135,7 @@ umožnit blízkým účastníka poznat.
 
 ## Vztah k platformě
 
-Na platformě Prismatic, z níž kniha vzešla, odpovídá etickému rámci soubor doktrinálních pravidel
+Ve vývojovém kontextu, z něhož kniha vzešla, odpovídá etickému rámci soubor doktrinálních pravidel
 popsaný v kapitole [Doktrinální rámec](@/kompendium/02-doktrinalni-ramec/_index.md). Kniha z nich
 přebírá zásadu, že nástroje analýzy slouží ochraně, a doplňuje ji o klinickou a výzkumnou etiku; jazyk
 „nulové tolerance“ vůči lidem z platformy nepřebírá, protože doklady o politikách nulové tolerance

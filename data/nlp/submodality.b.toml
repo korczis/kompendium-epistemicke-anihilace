@@ -13,7 +13,6 @@ risk = "stredni"
 broader = ""
 related = ["kriticke-submodality", "prahovy-vzorec", "od-libosti-k-nechuti", "swish", "mapovani-napric"]
 kompendium = [
-  "glossary/addiction-recovery.md",
   "kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md",
   "kompendium/critical-perspectives/_index.md",
 ]

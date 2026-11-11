@@ -1,10 +1,4 @@
 {#- Content components (Zola 0.23 / Tera 2). They replace the platform's shortcodes. -#}
-
-{#- Dříve odkaz do soukromé aplikace platformy: do veřejného HTML psal její jméno a interní cestu
-    (title, data-cross-link). Podle ADR 0007 a project.public-copy-scrubbed vypíše jen text;
-    argumenty path a title se nepoužijí. Komponenta zmizí, až ji obsah přestane volat. -#}
-{% component cross_link(path, text, title="") %}{{ text }}{% endcomponent cross_link %}
-
 {#- Flowbite alert. -#}
 {% component callout(type="info", title="") %}
 {%- if type == "warning" -%}{%- set tone = "text-yellow-800 border-yellow-300 bg-yellow-50 dark:bg-gray-800 dark:text-yellow-300 dark:border-yellow-800" -%}{%- set label = "Pozor" -%}

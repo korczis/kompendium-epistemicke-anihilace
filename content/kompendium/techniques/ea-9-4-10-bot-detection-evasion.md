@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.4 Bot networks
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -75,6 +74,8 @@ Jakákoli detailní metodika detekce se stává návodem k jejímu obejití; zve
 Otevřená zůstává i otázka, jak hodnotit výzkum, který boty detekuje veřejně dostupnými nástroji, jejichž chybovost je známá jen přibližně.
 
 Kniha to považuje za zásadní.
+
+Z povahy závodu plyne i mez tvrzení této stránky: že zveřejněné rozpoznávací znaky ztrácejí platnost, je úsudek ze struktury sporu, ne změřený úbytek jejich spolehlivosti. Katalog signálů, který sestavili Ferrara a kolektiv (2016), je snímkem jednoho období a jedné generace nástrojů; kniha ho proto uvádí jako doklad toho, na čem detekce stála, nikoli toho, na čem stojí dnes. Druhá mez je etická. Fricker (2007) popisuje [testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) jako odepření důvěryhodnosti, která mluvčímu patří; nálepka „bot“ je jejím čistým případem, protože nárok na důkaz vlastního lidství nemůže zasažený splnit žádným sdělením. Důkazní břemeno proto leží na tom, kdo obvinění vznáší, a doložené musí být vztahy mezi účty, nikoli nápadnost jednoho z nich.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

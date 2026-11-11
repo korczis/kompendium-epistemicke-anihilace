@@ -78,7 +78,6 @@ Kompendium nabízí několik komplementárních navigačních nástrojů, které
 | **Per-technique články** | [techniques](@/kompendium/techniques/_index.md) — hloubkové samostatné stránky pro každou techniku EA-X.Y.Z |
 | **Glosář** | [glossary](@/glossary/_index.md) — abecední seznam s definicemi a odkazy na relevantní sekce |
 | **Scénářové spinout články** | [Scénář F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md) — detailní rozpracování |
-| **Platformová integrace** | {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} pro empirické testování taxonomických hypotéz |
 
 ### Doporučené navigační postupy
 
@@ -101,7 +100,6 @@ V závislosti na účelu a kontextu využití kompendia jsou doporučeny násled
 3. Konzultace **anonymizovaných případových studií** s podobným symptomatickým obrazem
 4. Aplikace diagnostických algoritmů ze [Sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)
 5. **Triangulace** s kolegy — interdiskvalifikace mylné diagnózy
-6. Dokumentace diagnostické úvahy podle struktury [Decision Engine](@/glossary/decision-engine.md)
 
 ### Pro výzkumné účely
 
@@ -110,7 +108,6 @@ V závislosti na účelu a kontextu využití kompendia jsou doporučeny násled
 3. Analýza vztahů mezi zkoumanými fenomény pomocí konceptuálních map
 4. Bibliografické odkazy pro hlubší ponor do specifických aspektů
 5. **Etická preregistrace** výzkumného protokolu před zahájením
-6. Využití {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} jako empirického nástroje pro testování hypotéz
 
 ### Pro pedagogické účely
 
@@ -125,9 +122,7 @@ V závislosti na účelu a kontextu využití kompendia jsou doporučeny násled
 
 1. Důkladné porozumění detekčním markerům jednotlivých fenoménů
 2. Studium scénářových sekvencí ([F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md))
-3. Operacionalizace markerů do detekčních pravidel pro {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-4. Pravidelná aktualizace detekčních heuristik podle nových případů
-5. Koordinace s [Color Teams](@/glossary/color-teams.md) skrze institucionální kanály
+3. Pravidelná aktualizace detekčních heuristik podle nových případů
 
 ## Terminologický aparát a notační konvence
 
@@ -358,14 +353,13 @@ Kompendium epistemické a [kognitivní anihilace](@/glossary/kognitivni-anihilac
 - [Pro koho je určeno](@/kompendium/01-predmluva/pro-koho-je-urceno.md)
 - [Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md)
 - [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md)
-- [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md)
+- [Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md)
 - [Definice epistemické a kognitivní anihilace](@/kompendium/02-uvod/definice.md)
 - [Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)
 - [Sekce 03: Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Techniques index](@/kompendium/techniques/_index.md)
 - [Glossary](@/glossary/_index.md)
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 
 ## Kritický krok
 

@@ -11,11 +11,6 @@
       {
         "from": "glossary/_index.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
-      },
-      {
-        "from": "glossary/_index.md",
-        "kind": "link",
         "to": "glossary/taxonomie-ea.md"
       },
       {
@@ -26,27 +21,12 @@
       {
         "from": "glossary/epistemicka-anihilace.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
-      },
-      {
-        "from": "glossary/epistemicka-anihilace.md",
-        "kind": "link",
         "to": "glossary/taxonomie-ea.md"
       },
       {
         "from": "glossary/epistemicka-anihilace.md",
         "kind": "link",
         "to": "kompendium/_index.md"
-      },
-      {
-        "from": "glossary/nabla-infinity.md",
-        "kind": "link",
-        "to": "glossary/epistemicka-anihilace.md"
-      },
-      {
-        "from": "glossary/nabla-infinity.md",
-        "kind": "link",
-        "to": "glossary/taxonomie-ea.md"
       },
       {
         "from": "glossary/taxonomie-ea.md",
@@ -66,22 +46,32 @@
       {
         "from": "kompendium/06-klinicke-aplikace/_index.md",
         "kind": "link",
+        "to": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"
+      },
+      {
+        "from": "kompendium/06-klinicke-aplikace/_index.md",
+        "kind": "link",
         "to": "kompendium/_index.md"
       },
       {
-        "from": "kompendium/_index.md",
+        "from": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
         "kind": "link",
         "to": "glossary/epistemicka-anihilace.md"
       },
       {
         "from": "kompendium/_index.md",
         "kind": "link",
-        "to": "glossary/nabla-infinity.md"
+        "to": "glossary/epistemicka-anihilace.md"
       },
       {
         "from": "kompendium/_index.md",
         "kind": "link",
         "to": "kompendium/06-klinicke-aplikace/_index.md"
+      },
+      {
+        "from": "kompendium/_index.md",
+        "kind": "link",
+        "to": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md"
       },
       {
         "from": "kompendium/_index.md",
@@ -176,7 +166,7 @@
       {
         "class": "kompendium",
         "distance": 1,
-        "in": 90,
+        "in": 88,
         "path": "kompendium/_index.md",
         "title": "Kompendium epistemické a kognitivní anihilace"
       },
@@ -204,7 +194,7 @@
       {
         "class": "glossary",
         "distance": 2,
-        "in": 604,
+        "in": 602,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
       },
@@ -218,37 +208,37 @@
       {
         "class": "glossary",
         "distance": 2,
-        "in": 375,
+        "in": 368,
         "path": "glossary/taxonomie-ea.md",
         "title": "Taxonomie EA"
       },
       {
-        "class": "glossary",
-        "distance": 2,
-        "in": 344,
-        "path": "glossary/nabla-infinity.md",
-        "title": "NABLA Infinity (∇∞)"
-      },
-      {
         "class": "kompendium/06-klinicke-aplikace",
         "distance": 2,
-        "in": 329,
+        "in": 328,
         "path": "kompendium/06-klinicke-aplikace/_index.md",
         "title": "06. Klinické aplikace a diagnostika"
       },
       {
         "class": "glossary",
         "distance": 2,
-        "in": 328,
+        "in": 325,
         "path": "glossary/_index.md",
         "title": "Glosář"
+      },
+      {
+        "class": "kompendium/06-klinicke-aplikace",
+        "distance": 2,
+        "in": 299,
+        "path": "kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md",
+        "title": "6.1 Diagnostické indikátory a markery EA"
       }
     ],
     "ok": true,
     "op": "neighbourhood",
     "path": "osy.md",
     "schema": "kompendium-engine/v1",
-    "total": 126,
+    "total": 121,
     "truncated": true
   },
   "input": {

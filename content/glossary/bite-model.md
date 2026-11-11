@@ -126,12 +126,9 @@ a osa kontroly emocí afektivním vektorům, jimiž se zabývají [Klinické
 aplikace](@/kompendium/06-klinicke-aplikace/_index.md). Toto přiřazení je *interpretace knihy*;
 Hassanův rámec sám žádnou taxonomii technik neobsahuje (Hassan a Shah, 2019).
 
-Na platformě, z níž kniha vzešla, označuje fáze hodnocení zdrojů v [Decision
-Engine](@/glossary/decision-engine.md) vstupy z prostředí s vysokým skóre kontroly jako
-podezřelé co do původu a snižuje jejich váhu; [Color Teams](@/glossary/color-teams.md) užívají
-kontrolní seznamy čtyř os při cvičeních, jimiž modelují struktury protivníkových skupin. Oba
-postupy vycházejí z toho, že prostředí s řízenou informací systematicky zkresluje, co se z něj
-dozvíme (Lifton, 1961).
+Při hodnocení zdrojů má vysoké skóre kontroly v prostředí, z něhož výpověď pochází, snižovat
+její váhu: prostředí s řízenou informací systematicky zkresluje, co se z něj dozvíme
+(Lifton, 1961).
 
 ## Obrana a zotavení
 

@@ -243,7 +243,6 @@ duševním zdraví.
 
 **Obnova**
 
-- [Addiction recovery](@/glossary/addiction-recovery.md) – zotavení ze závislosti jako
   dlouhodobý proces.
 - [Subakutní axiologická restaurace](@/kompendium/recovery-protocols/subacute-axiological-restoration.md) –
   obnova vlastních hodnot po morálním zranění.

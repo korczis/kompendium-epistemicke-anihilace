@@ -60,7 +60,7 @@ Podstatným strukturním rysem je, že třetí pravda (*niródha*) není triviá
 
 ## Význam pro Kompendium
 
-Na platformě Prismatic, z níž kniha vzešla, se na strukturu čtyř pravd neodkazuje jako na náboženský obsah, ale jako na **srovnávací diagnostický rámec** v kapitole [Rámce zotavení](@/kompendium/recovery-protocols/ramce.md) – vedle aristotelské *eudaimonie*, stoické *prosoché* a terapeutických schémat KBT a ACT. Srovnání napříč tradicemi má konkrétní účel: určit **invariantní rysy** každého důvěryhodného rámce zotavení z epistemické újmy.
+Kniha se na strukturu čtyř pravd neodkazuje jako na náboženský obsah, ale jako na **srovnávací diagnostický rámec** v kapitole [Rámce zotavení](@/kompendium/recovery-protocols/ramce.md) – vedle aristotelské *eudaimonie*, stoické *prosoché* a terapeutických schémat KBT a ACT. Srovnání napříč tradicemi má konkrétní účel: určit **invariantní rysy** každého důvěryhodného rámce zotavení z epistemické újmy.
 
 Napříč všemi tradicemi se objevují tři invarianty:
 
@@ -68,9 +68,7 @@ Napříč všemi tradicemi se objevují tři invarianty:
 2. **příčinná etiologie** – určit mechanismus, ne jen příznak;
 3. **specifikace cesty** – protokol zotavení musí být vyjmenovatelný, opakovatelný a falzifikovatelný.
 
-Logika sledování zotavení v [Decision Engine](@/glossary/decision-engine.md) vynucuje všechny tři: „plán zotavení“ bez vyjmenovaných kroků neprojde validací.
-
-Složka *anattá* (nepřítomnost já) buddhistické epistemologie do platformy **začleněna není** – nese metafyzické závazky, které s diagnostickou otázkou nesouvisejí. Platforma i kniha se omezují na strukturní kostru.
+Složka *anattá* (nepřítomnost já) buddhistické epistemologie do rámce knihy **začleněna není** – nese metafyzické závazky, které s diagnostickou otázkou nesouvisejí. Kniha se omezuje na strukturní kostru.
 
 ## Obrana a zotavení
 

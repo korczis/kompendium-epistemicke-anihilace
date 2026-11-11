@@ -59,7 +59,7 @@ Student se během intenzivního víkendového semináře „náhle prozře“: c
 
 ## Mechanismus
 
-Na platformě Prismatic, z níž kniha vzešla, je navozený gestaltový přesmyk v [taxonomii Kompendia](@/glossary/taxonomie-ea.md) zařazen jako **EA-5.1.26** v rodině *paradigmatické migrace*. Technika využívá povahy „vše, nebo nic“, kterou gestaltová restrukturace má: jakmile nový rámec „zapadne“, každá předchozí vzpomínka a každé pozorování se v něm *zpětně přeloží*. Dokumentace: [EA-5.1.26](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md) a [EA-5.1.26 Trans-paradigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md); na úrovni předpojmového vnímání souvisí s [EA-5.5.4 Gestalt disrupce](@/kompendium/techniques/ea-5-5-4-gestalt-disrupce.md).
+V [taxonomii Kompendia](@/glossary/taxonomie-ea.md) je navozený gestaltový přesmyk zařazen jako **EA-5.1.26** v rodině *paradigmatické migrace*. Technika využívá povahy „vše, nebo nic“, kterou gestaltová restrukturace má: jakmile nový rámec „zapadne“, každá předchozí vzpomínka a každé pozorování se v něm *zpětně přeloží*. Dokumentace: [EA-5.1.26](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md) a [EA-5.1.26 Trans-paradigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md); na úrovni předpojmového vnímání souvisí s [EA-5.5.4 Gestalt disrupce](@/kompendium/techniques/ea-5-5-4-gestalt-disrupce.md).
 
 EA-5.1.26 od legitimní opravy paradigmatu odlišuje **původ nového rámce**: legitimní přesmyky vycházejí z vlastního rozpoznávání vzorců nad nashromážděnými doklady; zneužité přesmyky jsou *zasety zvenčí* a člověk je veden k tomu, aby je „objevil“. Pocit vlastního objevu je přitom silnou ochranou rámce – co jsem objevil sám, nehodlám se vzdát.
 
@@ -73,7 +73,7 @@ EA-5.1.26 od legitimní opravy paradigmatu odlišuje **původ nového rámce**: 
 
 ## Význam pro Kompendium
 
-[Decision Engine](@/glossary/decision-engine.md) platformy považuje zprávy o nedávné dramatické reorganizaci pohledu na svět za **kalibrační upozornění**: kalibrační pohled na jistotu označí subjekty, jejichž deklarovaná jistota prudce vzrostla v několika nesouvisejících oblastech současně – strukturní signatura navozeného, nikoli organického přesmyku.
+Zpráva o nedávné dramatické reorganizaci pohledu na svět je **kalibračním upozorněním**: prudký vzestup deklarované jistoty v několika nesouvisejících oblastech současně je strukturní signaturou navozeného, nikoli organického přesmyku.
 
 Pro čtenáře knihy je pojem užitečný dvojím způsobem. Vysvětluje rychlost některých konverzí do uzavřených skupin. A připomíná, že i **zotavení** bývá přesmykem: chvíle, kdy člověk „prohlédne“, je skutečná a cenná. Proto Kompendium nežádá podezíravost vůči každému vhledu, ale zkoumání jeho původu. Výuku nabízí scénář [Rozpoznání paradigmatu](@/kompendium/educational-scenarios/10-paradigm-recognition.md).
 

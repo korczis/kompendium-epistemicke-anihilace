@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.4 Bot networks
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -117,6 +116,8 @@ Pro diváky přímých přenosů je užitečné vědět, že první komentáře 
 Výzkum ukotvení ukazuje, že první informace silně ovlivňuje další úsudek, i když je zjevně náhodná (Tversky a Kahneman 1974). První reakce na událost proto působí nepoměrně: nabízejí výklad v době, kdy chybí fakta, a pozdější informace se k nim vztahují. Entman (1993) popsal, jak rámec určuje, které aspekty události jsou zdůrazněny a jak jsou hodnoceny; automatizované okamžité reakce soutěží právě o tento rámec.
 
 Ferrara et al. (2016) upozornili, že boti mohou ovlivnit průběh debat tím, že reagují rychleji a ve větším objemu než lidé. Benkler, Faris a Roberts (2018) doložili, že zpravodajská média přebírají „reakce sítí“ jako zprávu, a tím jim dodávají legitimitu. Kniha z toho vyvozuje, že obrana stojí především na médiích a institucích, které první vlnu reakcí nepovažují za hlas veřejnosti.
+
+Nosným znakem tohoto vzorce není rychlost samotná, ale to, že reakce odpovídá na otázku, kterou událost ještě nestihla vyvolat: obsahuje výklad, obviněného nebo souvislost, jež v době vzniku nebyly veřejně známé. Jde o pozorovaný znak, nikoli o postup. Opora v literatuře je přitom nepřímá. Entman (1993) vyjasnil pojem rámce a jeho roli ve výběru relevantních informací, Tversky a Kahneman (1974) ukázali ukotvení u odhadů v nejistotě – obojí v podmínkách vzdálených proudu reakcí v reálném čase. Že se první reakce v síti chová jako ukotvení pozdějšího výkladu, je proto *interpretace knihy*: platí jako výklad mechanismu, ne jako změřená velikost účinku.
 
 ## Souvislosti pro praxi
 

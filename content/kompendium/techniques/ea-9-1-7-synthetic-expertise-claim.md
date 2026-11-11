@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.1 LLM-mediated EA
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -71,6 +70,8 @@ Konzultant bez praxe v oboru během několika měsíců publikuje desítky odbor
 Hranice mezi asistovaným psaním a předstíranou odborností je otázkou míry a poctivosti. Strojová detekce generovaného textu dává falešně pozitivní výsledky a může poškodit skutečné autory – zejména ty, kdo nepíší v rodném jazyce. Spolehlivější je ověřovat práci a kompetenci, ne text.
 
 Pro výzkum je otevřené, jak se mění důvěra veřejnosti v odborníky v prostředí, kde odborně znějící text může vytvořit kdokoli; je možné, že poroste důvěra v instituce, které odbornost ověřují, ale také, že poroste paušální nedůvěra ke všem expertům. Kniha obě možnosti uvádí jako otevřené.
+
+Z padělaného signálu odbornosti neplyne, že je obsah nesprávný. Text sepsaný modelem pro autora, který oboru nerozumí, může být věcně v pořádku, a odmítnout tvrzení kvůli tomu, jak vzniklo, je týž postup naruby: i tam se hodnotí znak místo věci. Opačný závěr platí také – kdo doložené výsledky nemá, nemusí být nekompetentní, jen je jinde na začátku, a Goldman (2001) svá kritéria formuluje jako pomoc laikovi při volbě mezi experty, ne jako test pravdivosti tvrzení. Mezí stránky je proto rozsah jejího nároku: popisuje, kdy přestává platit vazba mezi znakem a schopností, a neříká, čí tvrzení je pravdivé.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

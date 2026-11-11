@@ -89,9 +89,6 @@ Obranná síla epoché podle tohoto výkladu spočívá v tom, že je výslovná
 pravidly: vkládá mezi prožitek a jeho výklad mezeru, v níž se výklad sám může stát
 předmětem zkoumání (Depraz et al., 2003). Odpovídající dovednost, totiž oddělit *co* zpráva
 tvrdí od toho, *jak* se podává, je právě tím, co deskriptivní metoda cvičí (Giorgi, 2009).
-Na platformě, z níž kniha vzešla, nese tuto zásadu epistemická pipeline [NABLA
-Infinity](@/glossary/nabla-infinity.md), která rozdíl mezi tvrzením a podáním sleduje
-výslovně – i to je *interpretace knihy*, nikoli fenomenologický nález (Zahavi, 2019).
 
 ## Odlišení
 
@@ -192,7 +189,6 @@ tvrzení o skutečnosti (Gallagher a Zahavi, 2008).
 
 **Kniha a platforma**
 
-- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec s architektonickou epoché.
 - [EA-5.2.17 Perverze husserlovské redukce](@/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze.md) – zneužitá podoba.
 - [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – teoretické základy.
 - [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) – klinická obdoba popisu.

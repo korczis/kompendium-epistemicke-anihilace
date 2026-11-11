@@ -73,7 +73,7 @@ lidí, kteří prožívají průlom, je pro jednotlivce silným signálem, jak m
 Životopis byl podle [EA-5.3.2 Autobiografická dekonstrukce](@/kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md)
 redukován na „raketu“ a vlastní povahové rysy podle
 [EA-5.3.21 Transpozice charakteru](@/kompendium/techniques/ea-5-3-21-character-transposition.md)
-nahrazeny normativním profilem absolventa. Lifton (1961) popsal nadřazení doktríny nad člověkem (*[doctrine](@/glossary/doctrine.md) over
+nahrazeny normativním profilem absolventa. Lifton (1961) popsal nadřazení doktríny nad člověkem (*doctrine over
 person*), při němž se osobní minulost přetváří tak, aby odpovídala výkladu skupiny.
 
 Formát naplňuje několik kritérií [myšlenkové reformy](@/kompendium/techniques/ea-8-2-2-lifton-thought-reform-criteria.md),

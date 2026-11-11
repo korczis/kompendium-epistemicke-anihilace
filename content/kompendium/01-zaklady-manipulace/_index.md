@@ -64,14 +64,6 @@ graph TD
 
 Detailní rozpracování každé osy najdete v [Předmluvě](@/kompendium/01-predmluva/_index.md). Bez aktivního přijetí těchto principů nemá další čtení smysl — výsledkem by byla kuchařka, ne nauka.
 
-## Doktrinální kotvy platformy Prismatic
-
-Tato sekce je integrována s doktrinálním aparátem [platformy Prismatic](@/_index.md):
-
-- **[NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md)** — Aplikováno na rovinu výzkumu znamená: žádné hypotézy bez evidence, žádné placeholder definice, žádné hand-waving u rizikových technik. Každý nárok musí mít zdroj nebo explicitní označení jako klinickou hypotézu.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** — Sedm axiomů kalibruje, jak se v kompendiu zachází s důkazy: [signal plurality](@/glossary/signal-plurality.md) (více nezávislých zdrojů na technikové úrovni), contradiction preservation (zachování kompetitivních interpretací), provenance mandatory (každá tvrzená klinická studie musí mít citaci).
-- **[Color Teams](@/glossary/color-teams.md)** — Sekce 03 a 04 fungují primárně jako materiál pro [Red Team](@/glossary/red-team.md) (adversariální simulace v sandboxu) a [Blue Team](@/glossary/blue-team.md) (defenzivní detekce v reálných operacích). [Black Team](@/glossary/black-team.md) izolovaně modeluje terminální protokoly bez síťového přístupu.
-
 ## Doporučené pořadí čtení
 
 Pro **nového čtenáře** doporučujeme následující sekvenci, která respektuje princip graduální expozice:

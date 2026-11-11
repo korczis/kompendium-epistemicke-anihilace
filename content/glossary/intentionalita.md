@@ -132,14 +132,10 @@ nerozhoduje spor mezi těmito pozicemi (Dennett, 1987).
 
 ## Význam pro Kompendium
 
-V modelu hrozby platformy, z níž kniha vzešla, slouží rozklad na předmět, modus a horizont
-jako slovník pro třídění vzorců [epistemické anihilace](@/glossary/epistemicka-anihilace.md).
-[NABLA Infinity](@/glossary/nabla-infinity.md) označuje signály intencionálními metadaty
-a [Decision Engine](@/glossary/decision-engine.md) snižuje jistotu navazujících výstupů tam,
-kde nápadně převažuje komunikace posouvající pozadí nad výslovným obsahem; auditní záznam obě
-vrstvy odděluje. Užitečnost tohoto rozlišení je *interpretace knihy* opřená o husserlovský
-rozdíl mezi tematizovaným a spolu-daným (Husserl, 1936); architekturu popisuje [epistemic
-pipeline](@/glossary/epistemic-pipeline.md).
+Rozklad na předmět, modus a horizont slouží knize jako slovník pro třídění vzorců
+[epistemické anihilace](@/glossary/epistemicka-anihilace.md). Užitečnost tohoto rozlišení je
+*interpretace knihy* opřená o husserlovský rozdíl mezi tematizovaným a spolu-daným
+(Husserl, 1936).
 
 Pro klinika je rozklad praktický, protože pomáhá určit, co bylo zasaženo, a tedy co obnovovat:
 pozornost, jistotu modů, nebo samozřejmosti pozadí (Husserl, 1913).
@@ -184,7 +180,6 @@ samozřejmostí heslo [epoché](@/glossary/epoche.md).
 - [Metakognice](@/glossary/metakognice.md) – akt zaměřený na jiný akt.
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – nadřazený rámec knihy.
 - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – kognitivní korelát.
-- [Epistemic pipeline](@/glossary/epistemic-pipeline.md) – epistemická architektura platformy.
 
 **Kniha**
 

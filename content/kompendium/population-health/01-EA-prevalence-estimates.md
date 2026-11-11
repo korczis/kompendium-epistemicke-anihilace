@@ -105,7 +105,7 @@ blízkými ([betrayal trauma](@/glossary/betrayal-trauma.md)), jejíž dopad na 
 Freydová (1996). Strukturálně zvyšuje riziko vysoká koncentrace autority v uzavřeném prostředí
 bez kontrolních mechanismů, kterou Stark (2007) popisuje jako jádro kontrolních vztahů.
 
-Protektivně naopak působí [pluralita signálů](@/glossary/signal-plurality.md) – lidé a zdroje,
+Protektivně naopak působí [více nezávislých zdrojů](@/glossary/intelligence-fusion.md) – lidé,
 kteří vidí situaci zvenku – a stabilní zázemí, které Herman (1992) klade do středu odolnosti
 i zotavení: [bezpečná vazba](@/glossary/secure-attachment.md), soudržná
 [narativní identita](@/glossary/narativni-identita.md),

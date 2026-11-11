@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.1 LLM-mediated EA
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -71,6 +70,8 @@ Na fóru se šíří série snímků, na nichž několik chatbotů „připoušt
 Hranice mezi legitimním testováním a zneužitím není vždy ostrá; rozhoduje transparentnost a účel. Nevíme dost o tom, jak publikum hodnotí výstupy modelů jako „svědectví“ a zda vysvětlení vynuceného výstupu účinně snižuje jeho přesvědčivost.
 
 Kniha záměrně nepopisuje konkrétní postupy obcházení pravidel; pro obranu stačí rozpoznat, že výstup vznikl pod tlakem zadání, a vědět, jak si vyžádat jeho kontext.
+
+Vynucený výstup neříká nic o tom, co model „si myslí“, a to ani v opačném směru: z toho, že odpověď vznikla pod tlakem zadání, neplyne, že obsažené tvrzení je nepravdivé. Kaskáda ruší jeho doloženost, ne jeho obsah, a kdo ji vyvrací poukazem na způsob vzniku, odpovídá na jinou otázku, než jakou čtenář položil. Druhou mezí je úsudek o lidech: ten, kdo citát přeposlal, obvykle celé zadání neviděl a jeho šíření nedokládá zlý úmysl. Bender et al. (2021) připomínají, že přisuzování komunikačního záměru plynulému textu je běžný rys čtení – u šiřitelů tedy nejde o výjimečnou chybu, nýbrž o očekávaný stav.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

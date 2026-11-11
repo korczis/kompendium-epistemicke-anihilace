@@ -168,9 +168,6 @@ Sofistikovaný manipulační útok operuje **napříč všemi třemi úrovněmi 
 - [Glosář: Gaslighting](@/glossary/gaslighting.md)
 - [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
 - [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Glosář: Color Teams](@/glossary/color-teams.md)
-- [Glosář: Decision Core](@/glossary/decision-core.md)
 
 ## Kritický krok
 

@@ -229,7 +229,6 @@ obecně o flexibilní práci.
 
 **Pojmy a obnova**
 
-- [Addiction recovery](@/glossary/addiction-recovery.md) – zotavení ze závislosti jako
   dlouhodobý proces.
 - [Narativní identita](@/glossary/narativni-identita.md) – životní příběh, který týdenní rytmus
   rozbil.

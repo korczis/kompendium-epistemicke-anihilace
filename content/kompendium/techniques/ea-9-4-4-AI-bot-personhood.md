@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.4 Bot networks
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -75,6 +74,8 @@ Spolehlivé rozpoznání botů řízených jazykovými modely zatím neexistuje 
 Kniha neuvádí odhady počtu botů řízených jazykovými modely, protože spolehlivá měření zatím neexistují.
 
 Otevřenou otázkou je i to, jak se změní důvěra v online komunikaci, až budou boti s personou běžní, a zda lidé začnou ověřovat identitu protějšku jako samozřejmost.
+
+Starší detekční literatura k tomuto vzorci dosahuje jen částečně: Ferrara a kolektiv (2016) stavěli signály rozpoznání na opakování, šablonovitosti a časování, tedy právě na vlastnostech, které persona řízená jazykovým modelem nevykazuje. Zjištění o dřívějších botech proto nelze přenášet jako odhad spolehlivosti dnešní detekce. Zároveň platí opatrnost v opačném směru: z toho, že účet působí jako člověk, nevyplývá nic o tom, jak propracovaný je systém za ním. Weizenbaum (1976) popsal, že uživatelé přisuzovali porozumění i velmi jednoduchému programu; sklon připisovat protějšku vnitřní život je vlastností lidské konverzace, nikoli důkazem o schopnostech stroje. Dojem z persony tedy vypovídá víc o našich konverzačních návycích než o technologii, která ji provozuje.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

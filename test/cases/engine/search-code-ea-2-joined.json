@@ -1,39 +1,39 @@
 {
   "category": "code",
   "expected": {
-    "code": "EA-2.1.9",
+    "code": "EA-2.3.4",
     "hits": [
       {
-        "code": "EA-2.1.9",
-        "in": 60,
+        "code": "EA-2.3.4",
+        "in": 52,
         "kind": "Technika",
-        "path": "kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md",
+        "path": "kompendium/techniques/ea-2-3-4-mob-coordination.md",
         "tier": 1,
-        "title": "EA-2.1.9 Vytváření pseudokonsenzu",
-        "url": "/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni/",
+        "title": "EA-2.3.4 Koordinace davu (mob coordination)",
+        "url": "/kompendium/techniques/ea-2-3-4-mob-coordination/",
         "why": "exact_code"
       },
       {
-        "code": "EA-2.1.9",
-        "in": 7,
+        "code": "EA-2.3.4",
+        "in": 8,
         "kind": "Kapitola",
-        "path": "kompendium/quick-reference/qr-ea-2-1-9.md",
+        "path": "kompendium/quick-reference/qr-ea-2-3-4.md",
         "tier": 1,
-        "title": "Rychlá karta EA-2.1.9: Vytváření pseudokonsenzu",
-        "url": "/kompendium/quick-reference/qr-ea-2-1-9/",
+        "title": "Rychlá karta EA-2.3.4: Koordinace davu",
+        "url": "/kompendium/quick-reference/qr-ea-2-3-4/",
         "why": "exact_code"
       }
     ],
     "limit": 12,
-    "normalised": "ea-2.1.9",
+    "normalised": "ea-2.3.4",
     "ok": true,
     "op": "search",
-    "query": "EA2.1.9",
+    "query": "EA2.3.4",
     "schema": "kompendium-engine/v1",
     "total": 2
   },
   "input": {
     "op": "search",
-    "query": "EA2.1.9"
+    "query": "EA2.3.4"
   }
 }

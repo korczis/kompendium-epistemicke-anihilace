@@ -9,7 +9,7 @@ categories = ["academic", "reference"]
 
 [extra]
 category = "kompendium-bridge"
-related_terms = ["risk-score", "decision-engine", "signal-plurality", "individual-risk-map", "bridge-threshold", "bridge-qdp"]
+related_terms = ["risk-score", "individual-risk-map", "bridge-threshold"]
 glossary_target = "risk-score"
 toc = false
 +++
@@ -22,8 +22,8 @@ toc = false
 
 ## Pojem
 
-[Rizikové skóre](@/glossary/risk-score.md) je na platformě Prismatic, z níž kniha vzešla, číselná
-hodnota, která kvantifikuje bezpečnostní riziko konkrétního aktiva, zjištění nebo zranitelnosti –
+[Rizikové skóre](@/glossary/risk-score.md) je číselná hodnota, která kvantifikuje bezpečnostní
+riziko konkrétního aktiva, zjištění nebo zranitelnosti –
 otevřeného portu, chybně nastavené služby, prošlého certifikátu. Heslo glosáře zdůrazňuje dvě vlastnosti:
 každé skóre nese **míru důvěry**, která vyjadřuje, jak jisté je posouzení, a **řetězec důkazů**, který ho
 spojuje s konkrétními pozorovatelnými daty. Skóre jednotlivých položek se pak skládají do souhrnného
@@ -38,10 +38,8 @@ forenzní praxi.
 
 V bezpečnosti informačních systémů slouží skóre k určení priorit: kterou zranitelnost opravit dřív.
 Jeho hodnota závisí na tom, zda je kalibrované – zda skóre 0,8 skutečně odpovídá vyššímu riziku než 0,4 –
-a zda je jasné, z čeho vzniklo. Na platformě se skóre opírá o princip [Signal Plurality](@/glossary/signal-plurality.md)
-a rozhodování o něm probíhá v [Decision Engine](@/glossary/decision-engine.md), jehož kalibraci popisuje
-stránka [Decision Engine a kalibrace](@/kompendium/aiad-integration/decision-engine-ea-calibration.md).
-Souvislost s knihou rozvádí kapitola [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md).
+a zda je jasné, z čeho vzniklo. Spolehlivost skóre stojí na tom, že se opírá o navzájem nezávislé
+zdroje – viz [fúze zpravodajství](@/glossary/intelligence-fusion.md).
 
 ## Analogie, kterou kniha činí
 
@@ -53,7 +51,7 @@ MacArthurova studie násilí po propuštění z psychiatrické hospitalizace vy�
 více rizikových modelů a výsledek vyjadřovat jako pravděpodobnostní pásmo, nikoli jako verdikt (Monahan a
 kol. 2001).
 
-Kniha z toho vyvozuje dvě zásady, které odpovídají vlastnostem rizikového skóre platformy. Za prvé, skóre
+Kniha z toho vyvozuje dvě zásady, které odpovídají vlastnostem rizikového skóre. Za prvé, skóre
 musí nést **míru jistoty**: výsledek dotazníku o manipulaci není „pozitivní“ či „negativní“, ale je
 pravděpodobnostním údajem s chybou. Za druhé, skóre musí mít **řetězec důkazů**: musí být zřejmé, z jakých
 pozorování vzniklo, aby je mohl kdokoli přezkoumat. Kahneman, Sibony a Sunstein (2021) navíc ukázali, že
@@ -66,7 +64,6 @@ V klinické části kniha pracuje se skóry v kapitolách [6.1 Diagnostické ind
 a u [EA-6.1.1 Strukturovaného screeningového rozhovoru](@/kompendium/techniques/ea-6-1-1-screening-strukturalni-rozhovor.md).
 Hodnocení důvěryhodnosti v řízení rozebírá [Posuzování věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md);
 kalibraci úsudku popisuje detekční stránka [Epistemická kalibrace](@/kompendium/detection-signatures/epistemicka-kalibrace.md).
-Platformní souvislosti nabízí [Perimeter a útočná plocha](@/kompendium/aiad-integration/perimeter-ea-attack-surface.md).
 Na skóre navazuje rozhodnutí podle prahu, které rozebírá [Bridge: Práh (threshold)](@/kompendium/glossary-bridges/bridge-threshold.md).
 
 ## Od pojmu k praxi
@@ -145,12 +142,9 @@ manipulace bez rizika, že se stane nálepkou, a jak zabránit tomu, aby se jeho
 **Glosář**
 
 - [Risk Score](@/glossary/risk-score.md) – heslo, které tento most propojuje s knihou.
-- [Decision Engine](@/glossary/decision-engine.md) – kde se skóre převádí na rozhodnutí.
-- [Signal Plurality](@/glossary/signal-plurality.md) – skóre z více nezávislých signálů.
 
 **Kniha**
 
-- [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md) – souvislost s knihou.
 - [6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) – kombinace znaků místo jediného čísla.
 - [Epistemická kalibrace](@/kompendium/detection-signatures/epistemicka-kalibrace.md) – kalibrace úsudku.
 - [Posuzování věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md) – skóre v řízení.
@@ -158,8 +152,6 @@ manipulace bez rizika, že se stane nálepkou, a jak zabránit tomu, aby se jeho
 **Sesterské mosty**
 
 - [Bridge: Práh (threshold)](@/kompendium/glossary-bridges/bridge-threshold.md) – rozhodnutí podle skóre.
-- [Bridge: QDP](@/kompendium/glossary-bridges/bridge-qdp.md) – meze jednoho čísla.
-- [Bridge: HAWKEYE](@/kompendium/glossary-bridges/bridge-hawkeye.md) – více signálů a odstupňovaná reakce.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

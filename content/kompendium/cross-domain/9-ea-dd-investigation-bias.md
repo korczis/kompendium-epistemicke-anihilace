@@ -5,7 +5,7 @@ weight = 90
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "due-diligence"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["16-ea-dd-confirmation-bias-prevention", "10-ea-dd-source-weighting", "15-ea-dd-evidence-quality-assessment", "12-ea-dd-counterparty-manipulation"]
@@ -148,7 +148,6 @@ která má na výsledku zájem.
 
 - [Konfirmační bias](@/glossary/konfirmacni-bias.md) – heslo glosáře.
 - [Kognitivní bias](@/glossary/kognitivni-bias.md) – obecný rámec.
-- [DD Engine & EA detection](@/kompendium/aiad-integration/dd-engine-ea-source-weighting.md) – automatizovaná podpora prověrek.
 
 **Sebeobrana a organizace**
 

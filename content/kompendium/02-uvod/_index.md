@@ -8,8 +8,7 @@ template = "section.html"
 # (owner decision, 2026-11-11: do not import; strip). Old bookmarks resolve to this chapter.
 aliases = [
     "/kompendium/02-uvod/vztah-k-decision-engine/",
-    "/kompendium/02-uvod/vztah-k-nabla/",
-]
+    "/kompendium/02-uvod/vztah-k-nabla/"]
 
 [extra]
 tags = ["kompendium", "uvod", "definice", "teorie", "epistemologie"]
@@ -45,8 +44,6 @@ Miranda Fricker k tomu dodává sociální rozměr: poznání neprobíhá v izol
 | 2.3 | [Teoretické základy a konceptuální rámec](@/kompendium/02-uvod/teoreticke-zaklady.md) | Epistemologie, kognitivní psychologie, filozofie mysli |
 | 2.4 | [Metodologické poznámky k taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md) | Klasifikační kritéria, validační principy |
 | 2.5 | [Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md) | Epistemologie, fenomenologie, [hermeneutika](@/glossary/hermeneutika.md) |
-| 2.6 | [Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/_index.md) | Mapování taxonomie na vrstvy zpracování |
-| 2.7 | [Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/_index.md) | Kalibrace důvěry a adversariální testování |
 
 Kdo má na úvod málo času, začne kapitolou **2.0**, která celý model shrnuje na jedné stránce. Kapitola **2.1** je referenčním bodem pro celou knihu: definuje pojmy, jejich znaky a stupně. Kapitola **2.2** sleduje, jak se o podobných jevech uvažovalo od studia propagandy a myšlenkové reformy po digitální prostředí, a kapitola **2.3** spojuje poznatky epistemologie a kognitivní psychologie do jednoho rámce. Kapitola **2.4** vysvětluje, podle čeho se techniky třídí a jak se nová technika do taxonomie přidává; navazuje na ni příloha [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md). Kapitola **2.5** podává filozofické zázemí podrobněji, než je v úvodu nutné, a kapitoly **2.6** a **2.7** ukazují, jak se taxonomie převádí do technických systémů platformy, z níž kniha vzešla.
 

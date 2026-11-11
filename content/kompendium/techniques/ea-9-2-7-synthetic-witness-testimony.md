@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.2 Generativní média
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -73,6 +72,8 @@ Ne každý anonymní svědek je smyšlený; přílišná podezíravost může um
 Výzkum spolehlivosti digitálních svědectví je teprve v začátcích a nabízí spíše případové studie než srovnávací data. Kniha proto neuvádí, jak často jsou svědectví v krizích smyšlená, a zdůrazňuje postup ověření, který je užitečný bez ohledu na četnost. Otevřené zůstává i to, jak zacházet se svědectvími z oblastí, kde je ověření nemožné, například z uzavřených zemí nebo válečných zón.
 
 Další otázkou je, jak mají redakce pracovat se svědectvími, která nelze ověřit, ale jejichž nezveřejnění by mohlo umlčet skutečné oběti; kniha doporučuje zveřejňovat jen s jasným označením míry ověření a s ochranou identity.
+
+Neověřitelnost svědectví není známkou jeho smyšlenosti. Skutečný svědek v krizi bývá nedostupný, mluví z místa bez spojení, odmítá jméno kvůli odplatě nebo svou výpověď opakuje nepřesně; všechny tyto znaky má i fabrikát, a žádný z nich sám nerozhoduje. Nerozhoduje ani bohatost detailu nebo emoční náboj – Wells a Olson (2003) připomínají, že přesvědčivost výpovědi souvisí s její přesností jen omezeně, takže z působivosti nelze usuzovat v žádném směru. Praktická mez je proto v tom, co se smí napsat: redakce může doložit, zda identitu svědka ověřila, nikoli zda svědek existuje, a tyto dva výroky nejsou totožné.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

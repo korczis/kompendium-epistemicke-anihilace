@@ -9,7 +9,7 @@ categories = ["academic", "reference"]
 
 [extra]
 category = "kompendium-bridge"
-related_terms = ["intelligence-fusion", "osint", "entity-resolution", "signal-plurality", "cirkularni-argumentace", "konfirmacni-bias"]
+related_terms = ["intelligence-fusion", "osint", "entity-resolution", "cirkularni-argumentace", "konfirmacni-bias"]
 glossary_target = "intelligence-fusion"
 toc = false
 +++
@@ -30,7 +30,7 @@ zdrojů, sleduje původ informací a výslovně zachází s protichůdnými sign
 problému – slučování dat z více senzorů – systematizovali Hall a Llinas (1997); analytickou stránku,
 tedy jak s takto sloučenými informacemi zachází lidský úsudek, rozebral Heuer (1999).
 
-Heslo patří do kontextu platformy, z níž Kompendium vzešlo, a do zpravodajské a bezpečnostní praxe.
+Heslo patří do zpravodajské a bezpečnostní praxe.
 Kniha ho zařazuje mezi mosty proto, že princip fúze – potvrzení je silné jen tehdy, když jsou zdroje
 skutečně nezávislé – je jádrem obrany proti řadě technik, které vytvářejí zdání konsenzu.
 
@@ -70,8 +70,6 @@ Metodiku nezávislého potvrzení v rámci [taxonomie EA](@/glossary/taxonomie-e
 [Cross-Source Triangulation v EA Frameworku](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md);
 ověřování zdrojů zpravodajství o hrozbách kapitola [Threat Intel Source Validation](@/kompendium/cross-domain/24-ea-security-threat-intelligence-validation.md)
 a stupňování kvality dokladů kapitola [Evidence Quality Tiering](@/kompendium/cross-domain/15-ea-dd-evidence-quality-assessment.md).
-Matici rozporů při prověrkách protistran popisuje stránka
-[DD Engine a EA](@/kompendium/aiad-integration/dd-engine-ea-source-weighting.md).
 
 Lidskou obdobu fúze najde čtenář v návodech [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)
 a [Rutina cross-source](@/kompendium/self-defense-guides/36-cross-source-routine.md); forenzní obdobu
@@ -162,7 +160,6 @@ nejistotu přizná, musí zároveň nabídnout oporu, jinak ji vyplní někdo ji
 - [Intelligence fusion](@/glossary/intelligence-fusion.md) – heslo, které most propojuje.
 - [Kruhová argumentace](@/glossary/cirkularni-argumentace.md) – logická obdoba kruhového hlášení.
 - [Konfirmační bias](@/glossary/konfirmacni-bias.md) – sklon hodnotit doklady podle předem zvolené hypotézy.
-- [Signal Plurality](@/glossary/signal-plurality.md) – zásada nezávislých zdrojů.
 
 **Kniha**
 
@@ -175,7 +172,6 @@ nejistotu přizná, musí zároveň nabídnout oporu, jinak ji vyplní někdo ji
 
 - [Bridge: OSINT](@/kompendium/glossary-bridges/bridge-osint.md) – otevřené zdroje.
 - [Bridge: Entity Resolution](@/kompendium/glossary-bridges/bridge-entity-resolution.md) – určení entity před fúzí.
-- [Bridge: Decision Engine](@/kompendium/glossary-bridges/bridge-decision-engine.md) – slučování signálů do rozhodnutí.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

@@ -9,7 +9,7 @@ tags = ["glossary", "cognitive", "kognitivni-vedy", "epistemic", "neurovedy", "k
 
 [extra]
 category = "epistemic"
-related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "metakognitivni-destrukce", "nabla-infinity", "epistemic-pipeline"]
+related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "metakognitivni-destrukce"]
 author = "Tomáš Korcak (korczis)"
 date_created = "2026-04-25"
 date_modified = "2026-11-10"
@@ -100,16 +100,6 @@ aparát**. Jde o interpretační model, ne o prokázaný neurální popis konkr�
 - **Od bayesovské racionality jako normy** – PP je popis fungování, ne norma správného
   uvažování; mozek může „optimálně“ minimalizovat chybu i v deformovaném prostředí.
 
-## Význam pro Kompendium
-
-- Epistemická pipeline [NABLA Infinity](@/glossary/nabla-infinity.md) implementuje obrany
-  vědomé si PP: výslovné sledování apriorních očekávání, audit přesnosti a odhalování
-  patologicky imunních stavů přesvědčení (viz šestnáctiúrovňovou [Epistemic
-  Pipeline](@/glossary/epistemic-pipeline.md)).
-- Kalibrační smyčka [Decision Engine](@/glossary/decision-engine.md) je sama systémem řízení
-  přesnosti – Brierovo skóre a ECE (očekávaná kalibrační chyba) měří, jak dobře apriorní
-  odhady platformy sledují realitu, a zajišťují tak odpovědnost v duchu PP.
-
 ## Obrana a zotavení
 
 V jazyce PP má zotavení dva směry: **obnovit přesnost vlastních signálů** (tělesné ukotvení,
@@ -137,8 +127,6 @@ ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md) a s pra
 - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – protějšek na úrovni procesů.
 - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – poškození reflexivní
   přesnosti.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec platformy.
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – šestnáctiúrovňová architektura
   uvažování.
 - [Embodied Cognition](@/glossary/embodied-cognition.md) – vtělené pojetí, s nímž PP úzce
   souvisí.
@@ -162,7 +150,7 @@ ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md) a s pra
 **Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

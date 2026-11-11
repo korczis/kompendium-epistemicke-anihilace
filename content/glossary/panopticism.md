@@ -113,10 +113,7 @@ není potřeba, protože hodnoticí pohled byl pohlcen do vlastního reflexivní
 (Foucault, 1975). Oddíl [03. Základní
 kategorie](@/kompendium/03-zakladni-kategorie/_index.md) chápe panoptickou strukturu jako
 jednu z kategoriálních podmínek, za nichž se vzorce mezilidského působení škálují na masový
-účinek, a rámec [Color Teams](@/glossary/color-teams.md) včetně simulací [Red
-Teamu](@/glossary/red-team.md) zahrnuje otázku, zda by vlastní infrastruktura
-pozorovatelnosti nemohla být obrácena proti uživatelům – i to je *interpretace knihy*
-(Zuboff, 2019).
+účinek.
 
 ## Odlišení
 

@@ -85,13 +85,12 @@ určení). Bez znalosti výchozí četnosti se snadno podlehne klamu prokurátor
 pravděpodobnosti shody při nevině s pravděpodobností neviny při shodě.
 
 Vzor také musí pocházet z nezávislých pozorování: deset záznamů z téhož zdroje není deset
-opakování (srov. [Signal Plurality](@/glossary/signal-plurality.md) a [Entity
+opakování (srov. [fúze zpravodajství](@/glossary/intelligence-fusion.md) a [Entity
 Resolution](@/glossary/entity-resolution.md)).
 
 ## Odlišení
 
-- **Od [detekce anomálií](https://prismatic-reality-com.github.io/prismatic-promo/glossary/anomaly-detection/)** –
-  inverzní přístup: hledá odchylku od vzoru, ne shodu s ním.
+- **Od detekce anomálií** – inverzní přístup: hledá odchylku od vzoru, ne shodu s ním.
 - **Od jednotlivé stopy** – jediný otisk je identifikační stopa; vzorovým důkazem v širším
   smyslu se stává opakovaná konfigurace.
 - **Od narativní soudržnosti** – přesvědčivý příběh, který „do sebe zapadá“, není vzorový
@@ -136,27 +135,10 @@ potvrzení](@/kompendium/forensic-legal/37-third-party-corroboration.md)).
 
 ## Související
 
-**Pojmy**
-
 - [Expert Witness](@/glossary/expert-witness.md) – znalec, bez něhož vzorový důkaz u soudu
   neobstojí.
 - [Chain of Custody](@/glossary/chain-of-custody.md) – integrita důkazu od zajištění po soud.
-- [Due Diligence](@/glossary/due-diligence.md) – hlavní oblast užití v platformě.
-- [Signal Plurality](@/glossary/signal-plurality.md) – nezávislost pozorování, z nichž vzor
-  vzniká.
-
-**Hesla platformy mimo tuto knihu**
-
-- [Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence/),
-  [Verifiable Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/verifiable-evidence/) –
-  nadřazená kategorie a standard kvality.
-- [Pattern Matching](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pattern-matching/),
-  [Behaviour Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/behaviour-pattern/),
-  [Statistical Detection](https://prismatic-reality-com.github.io/prismatic-promo/glossary/statistical-detection/) –
-  technický mechanismus, behaviorální podmnožina a kvantitativní rámec hodnocení.
-
-**Kniha**
-
+- [Due Diligence](@/glossary/due-diligence.md) – hlavní oblast užití vzorových důkazů.
 - [Pattern důkaz](@/kompendium/forensic-legal/38-pattern-evidence.md) – forenzní kapitola
   o vzorových důkazech v kauzách EA.
 - [Rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md) –

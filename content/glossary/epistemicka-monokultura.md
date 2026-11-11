@@ -8,7 +8,7 @@ tags = ["glossary", "kompendium", "psychology", "epistemic", "social"]
 
 [extra]
 category = "epistemic"
-related_terms = ["epistemicky-monismus", "epistemic-bubble", "signal-plurality", "epistemicka-komunita", "epistemicka-singularita", "pluralismus"]
+related_terms = ["epistemicky-monismus", "epistemic-bubble", "intelligence-fusion", "epistemicka-komunita", "epistemicka-singularita", "pluralismus"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
@@ -56,8 +56,8 @@ skupina potlačí námitky ve prospěch zdání shody a dospěje k rozhodnutí, 
 k informacím vzniká obdobný stav popsaný jako „ochromená epistemologie“ (Sunstein a Vermeule,
 2009).
 
-V knize má pojem technický protějšek v principu [signal
-plurality](@/glossary/signal-plurality.md), podle něhož má přesvědčení vzniknout až ze dvou
+V knize má pojem technický protějšek v požadavku [plurality
+signálů](@/glossary/intelligence-fusion.md), podle něhož má přesvědčení vzniknout až ze dvou
 nezávislých signálů; epistemická monokultura je jeho přesným opakem (*interpretace knihy*),
 což odpovídá argumentu o nezbytnosti nezávislé kritiky (Longino, 1990).
 
@@ -203,7 +203,6 @@ idealizované sítě, ne pro měřené informační trhy (Zollman, 2010). Tuto o
 
 - [Epistemický monismus](@/glossary/epistemicky-monismus.md) – individuální postoj jediného měřítka.
 - [Epistemic bubble](@/glossary/epistemic-bubble.md) – prostředí bez protihlasů.
-- [Signal plurality](@/glossary/signal-plurality.md) – princip nezávislých signálů jako protiváha.
 - [Epistemická singularita](@/glossary/epistemicka-singularita.md) – stav, do kterého monokultura může přerůst.
 
 **Kolektivní rovina**

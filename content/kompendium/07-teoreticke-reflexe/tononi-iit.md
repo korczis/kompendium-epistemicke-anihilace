@@ -126,9 +126,7 @@ rozebírá tentýž problém z hlediska porozumění.
 Za druhé klinické využití PCI a funkčního zobrazování připomíná, že nepřítomnost výpovědi není
 nepřítomností prožitku (Owen a kol., 2006). Pro kompendium je to argument pro [epistemickou
 pokoru](@/glossary/epistemicka-pokora.md) vůči lidem, kteří o svém stavu nemohou nebo nedokážou
-vypovídat, a varování před tím, aby se z mlčení dělal závěr; klinické souvislosti rozvádí [Sekce 06 – Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md). Analogie s „integrací“ ve
-vrstvené architektuře platformy, kterou popisuje heslo [NABLA Infinity](@/glossary/nabla-infinity.md),
-nebo s prací souběžných [barevných týmů](@/glossary/color-teams.md) je pouze metaforou, nikoli aplikací IIT (srov. Tononi a Koch, 2015).
+vypovídat, a varování před tím, aby se z mlčení dělal závěr; klinické souvislosti rozvádí [Sekce 06 – Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md).
 
 ## Meze a otevřené otázky
 
@@ -176,5 +174,3 @@ víc, než unese.
 - [Disociace](@/glossary/disociace.md) – klinický pojem integrace, který nelze ztotožnit s Φ.
 - [Category mistake](@/glossary/category-mistake.md) – riziko záměny pojmů mezi obory.
 - [Epistemická pokora](@/glossary/epistemicka-pokora.md) – vůči lidem, kteří nemohou vypovídat.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) – architektura, u níž je „integrace“ jen metaforou.
-- [3NL](@/glossary/3nl.md) – vrstvená architektura platformy.

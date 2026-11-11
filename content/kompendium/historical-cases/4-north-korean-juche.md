@@ -132,9 +132,9 @@ v informační blokádě (Lankov, 2013).
 
 ## Poučení pro detekci a obranu dnes
 
-Pluralita nezávislých zdrojů (*signal plurality*) je nejzákladnější epistemickou pojistkou; severokorejský
+Pluralita nezávislých zdrojů je nejzákladnější epistemickou pojistkou; severokorejský
 případ ukazuje, co se stane, když chybí úplně (Hassig a Oh, 2009). Pojem rozvádí heslo
-[signal plurality](@/glossary/signal-plurality.md) a detekční signatura
+[fúze zpravodajství](@/glossary/intelligence-fusion.md) a detekční signatura
 [monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md), která
 popisuje tentýž vzorec v menším měřítku, například v uzavřené skupině nebo v informačním prostředí
 jednotlivce.

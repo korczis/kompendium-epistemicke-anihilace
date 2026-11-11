@@ -154,7 +154,6 @@ Klíčové otázky:
 - **AI safety/AI alignment** — Integrace EA insights do AI alignment research.
 - **Adversariální ML** — Strukturní analogie mezi adversariální ML a klasickou EA.
 - **Human-AI interaction studies** — Empirické studie EA-zranitelností v human-AI interakci.
-- **Hybridní obranné architektury** — Vývoj architektur (jako [NABLA](@/glossary/nabla-infinity.md)) explicitně designed pro hybridní lidské-AI epistemické prostředí.
 
 ## Metodologické výzvy
 
@@ -234,9 +233,6 @@ Otevřenost výzkumných otázek **není slabostí** kompendia, ale jeho **struk
 - [Glosář: Gaslighting](@/glossary/gaslighting.md)
 - [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
 - [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Glosář: Color Teams](@/glossary/color-teams.md)
-- [Glosář: Decision Core](@/glossary/decision-core.md)
 
 ## Kritický krok
 

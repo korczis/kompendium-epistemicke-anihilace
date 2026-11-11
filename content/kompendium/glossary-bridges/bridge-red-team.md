@@ -9,7 +9,7 @@ categories = ["academic", "reference"]
 
 [extra]
 category = "kompendium-bridge"
-related_terms = ["red-team", "blue-team", "purple-team", "color-teams", "bridge-black-team", "bridge-gray-team"]
+related_terms = ["red-team", "blue-team", "purple-team", "bridge-gaslighting"]
 glossary_target = "red-team"
 toc = false
 +++
@@ -22,12 +22,11 @@ toc = false
 
 ## Pojem
 
-[Red Team](@/glossary/red-team.md) (červený tým) je v architektuře [barevných týmů](@/glossary/color-teams.md)
-platformy Prismatic, z níž kniha vzešla, jednotka, která simuluje útoky s cílem odhalit zranitelnosti
-systémů, procesů a epistemické obrany. Pojem pochází z vojenských cvičení, v nichž vyhrazená „červená“
-síla hrála protivníka proti bránícím se „modrým“, a stal se základem kybernetické bezpečnosti. Platforma
-ho podle hesla glosáře rozšiřuje na **epistemickou bezpečnost**: cílem útoku není jen síť, ale integrita
-znalostních systémů, postupů uvažování a rozhodování. Výsledky červeného týmu přebírá
+[Red Team](@/glossary/red-team.md) (červený tým) je jednotka, která simuluje útoky s cílem odhalit
+zranitelnosti systémů, procesů a epistemické obrany. Pojem pochází z vojenských cvičení, v nichž
+vyhrazená „červená“ síla hrála protivníka proti bránícím se „modrým“, a stal se základem
+kybernetické bezpečnosti. Heslo glosáře ho rozšiřuje na **epistemickou bezpečnost**: cílem útoku
+není jen síť, ale integrita znalostních systémů, postupů uvažování a rozhodování. Výsledky červeného týmu přebírá
 [Blue Team](@/glossary/blue-team.md), který staví obranu, a [Purple Team](@/glossary/purple-team.md),
 který obě strany propojuje.
 
@@ -45,9 +44,9 @@ a analýzy z pohledu protivníka součástí strukturovaných analytických meto
 2010), které mají čelit kognitivním zkreslením analytika. Janis (1982) doporučoval obdobná opatření
 jako ochranu proti skupinovému myšlení.
 
-Podstatné je, že červený tým pracuje **s povolením a v hranicích**. Heslo glosáře popisuje, že eskalační
-stráž [šedého týmu](@/glossary/gray-team.md) může zastavit kteroukoli operaci, která by se rozšiřovala
-mimo hranice testování, a že tým nesmí normalizovat stále agresivnější vzorce útoku.
+Podstatné je, že červený tým pracuje **s povolením a v hranicích**: předem je dáno, kdy se operace
+zastaví, pokud by se rozšiřovala mimo rámec testování, a tým nesmí normalizovat stále agresivnější
+vzorce útoku.
 
 ## Analogie, kterou kniha činí
 
@@ -70,11 +69,8 @@ postup; viz [1.3 Etické aspekty a upozornění](@/kompendium/01-predmluva/etick
 
 ## Kde se pojem v knize vyskytuje
 
-Platformní použití popisuje stránka [Red Team a detekce EA](@/kompendium/aiad-integration/red-team-ea-detection.md),
-navazující obranu [Blue Team a obrana](@/kompendium/aiad-integration/blue-team-ea-defense.md) a syntézu
-[Purple Team a syntéza](@/kompendium/aiad-integration/purple-team-ea-synthesis.md). Lidskou obdobu
-„červeného týmu“ v analytické práci – soustavné zpochybňování vlastní hypotézy – popisují stránky
-[EA × Due Diligence: Prevence systémového konfirmačního zkreslení](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md)
+Lidskou obdobu „červeného týmu“ v analytické práci – soustavné zpochybňování vlastní hypotézy –
+popisují stránky [EA × Due Diligence: Prevence systémového konfirmačního zkreslení](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md)
 a [EA × Security: Atribuce](@/kompendium/cross-domain/23-ea-security-attribution-bias.md). Výukovou
 podobu simulace – nácvik rozpoznání v chráněném prostředí – nabízejí [vzdělávací scénáře](@/kompendium/educational-scenarios/_index.md).
 
@@ -118,6 +114,18 @@ hodnota stojí na tom, že pracuje s povolením a pro obránce. Druhým omylem j
 přenášet do lidských vztahů logiku „testování odolnosti“ – u lidí bez souhlasu se taková praxe stává
 sama formou manipulace.
 
+## Co simulace nedokazuje
+
+Výsledek červeného týmu je tvrzení o testu, nikoli o protivníkovi. Nenalezení slabiny nedokazuje,
+že slabina není; dokazuje jen, že ji tento tým v tomto rozsahu a v tomto čase nenašel. Úspěšný
+simulovaný útok naopak nedokazuje, že by se o něj skutečný protivník pokusil: simulující tým má
+povolení, čas i znalost prostředí, které útočník mít nemusí, a volba cesty závisí na jeho záměru
+a možnostech. V lidské analogii z toho plyne nejdůležitější omezení: rozpoznat u někoho vzorec
+odpovídající některému z pěti primitiv nedokazuje, že tak jednal záměrně — táž struktura vzniká
+i z nedbalosti, z přejatého zvyku nebo z vlastní nejistoty toho, kdo mluví. *Interpretace knihy*:
+rozpoznání vzorce a tvrzení o záměru jsou dvě různá tvrzení s různými důkazními nároky a kniha
+je drží odděleně.
+
 ## Příklad (anonymizovaný kompozit)
 
 Analytický tým připravuje posudek o tom, zda kampaň na sociálních sítích proti místní neziskové
@@ -151,15 +159,12 @@ tím, že primitiva popisuje na úrovni struktury, a otevřeně přiznává, že
 
 **Kniha**
 
-- [Red Team a detekce EA](@/kompendium/aiad-integration/red-team-ea-detection.md) – použití v kontextu EA.
 - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) – lidská obdoba únosu výraznosti.
 - [EA-4.1.7 Kritéria ukončení](@/kompendium/techniques/ea-4-1-7-termination-criteria.md) – hranice simulací s lidmi.
 - [Falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) – vlastní „červený tým“.
 
 **Sesterské mosty**
 
-- [Bridge: Black Team](@/kompendium/glossary-bridges/bridge-black-team.md) – abstraktní modelování hrozeb.
-- [Bridge: Gray Team](@/kompendium/glossary-bridges/bridge-gray-team.md) – mezery a drift.
 - [Bridge: Gaslighting](@/kompendium/glossary-bridges/bridge-gaslighting.md) – lidská obdoba zkreslení pravdy.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->

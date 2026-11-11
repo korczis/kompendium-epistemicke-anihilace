@@ -62,8 +62,6 @@ Kompendium používá diagnózu Adorna a Horkheimera k vysvětlení strukturníh
 
 Kapitola [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) staví diagnózu frankfurtské školy do páru s Habermasovou komunikativní racionalitou jako s normativním protitahem: komunikativní racionalita je současným dědicem pokusu frankfurtského projektu znovu získat neinstrumentální podobu rozumu. Kritérium, jak takový rozum v diskurzu poznat, podává [ideální řečová situace](@/glossary/ideal-speech-situation.md).
 
-Na platformě Prismatic, z níž kniha vzešla, sleduje [Decision Engine](@/glossary/decision-engine.md) výslovně, **které cíle se optimalizují**, vedle toho, **jak dobře se optimalizují** – návrhové rozhodnutí poučené Habermasem i Adornem, které odmítá považovat samotné kritérium optimalizace za vyňaté z auditu. Rámec [Color Teams](@/glossary/color-teams.md) zahrnuje scénáře [Red Team](@/glossary/red-team.md), v nichž se vlastní optimalizační mechanismy platformy stávají nepřátelskými vůči epistemickým zájmům uživatelů – samovolné zkažení instrumentálním rozumem je testováno jako model hrozby.
-
 Pro klinika a organizační praxi z toho plyne prostá otázka, kterou lze položit každému systému, skupině i vztahu: **kdo stanovil cíl a kdo jej smí zpochybnit?** Organizace, v nichž je cíl nezpochybnitelný a lidé jsou jen prostředky, popisují kazuistiky [korporátní kult](@/kompendium/case-studies/11-corporate-cult.md) a [startupový kult](@/kompendium/case-studies/36-startup-cult-exit.md).
 
 ## Obrana a zotavení

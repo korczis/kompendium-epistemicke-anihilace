@@ -103,13 +103,10 @@ upozorňují na riziko epistemické monokultury, které zásah přináší.
 
 Na platformě, z níž kniha vzešla:
 
-- protokoly Blue Teamu v rámci [Color Teams](@/glossary/color-teams.md) hodnotí návrhy na
   deplatforming podle pěti kritérií: (1) specifičnost škody, (2) vratnost zásahu,
   (3) obecnost precedentu, (4) přiměřenost řádného procesu, (5) sledování po zásahu;
-- [Decision Engine](@/glossary/decision-engine.md) považuje aktéry nedávno zasažené
   deplatformingem za **nejednoznačné co do původu**: jejich pozdější výstup může být
   skutečně problematický, nebo zkreslený přesunem do prostředí s nižší moderací;
-- [NABLA Infinity](@/glossary/nabla-infinity.md) při kontrole rozmanitosti zdrojů výslovně
   vylučuje stav, kdy by se pracovalo jen se „schválenými“ zdroji: model, který uvažuje jen
   nad nimi, nesplňuje invariant rozmanitosti;
 - hesla [Info-Ops](@/glossary/info-ops.md) a [Firehose of

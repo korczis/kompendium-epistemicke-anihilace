@@ -69,10 +69,7 @@ Pro kompendium to znamená:
 
 V *Negative Dialektik* (1966) Adorno formuluje princip **non-identity**: skutečnost je vždy **více než** koncept, jenž ji uchopuje. Pravda spočívá v zachování napětí mezi konceptem a nekonceptuálním reziduem, nikoli v jejich syntéze.
 
-Pro EA to má **dva důsledky**:
-
-1. **Cherry-picking jako falešná identita.** Manipulativní technika cherry-pickingu (selektivní expozice, [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)) je strukturálně **uzávěrkou non-identity** — předstírá, že vybraná evidence **identicky** reprezentuje celou situaci. Adornovská perspektiva odhaluje tuto operaci jako **epistemicky a eticky** problematickou.
-2. **NABLA Axiom 2 — Contradiction Preservation.** Architektonická volba [NABLA Infinity](@/glossary/nabla-infinity.md) zachovat protichůdné evidence místo jejich předčasné syntézy přímo implementuje adornovský princip non-identity v algoritmické formě.
+Pro EA to má důsledek v **cherry-pickingu jako falešné identitě**: manipulativní technika cherry-pickingu (selektivní expozice, [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)) je strukturálně **uzávěrkou non-identity** — předstírá, že vybraná evidence **identicky** reprezentuje celou situaci. Adornovská perspektiva odhaluje tuto operaci jako **epistemicky a eticky** problematickou.
 
 ### 2.3 Kulturní průmysl a masová epistemika
 
@@ -101,7 +98,6 @@ Pro kompendium EA má sférická perspektiva **zásadní význam**:
 
 - **Epistemická anihilace** není primárně útokem na izolovaný kognitivní mechanismus — je **prolomením imunologické sféry**, v níž subjekt myslí, cítí a poznává.
 - **Sférický útok** je v něčem fundamentálnější než **kognitivní útok**: oslabuje **podmínky možnosti** epistemického fungování.
-- Tato perspektiva strukturálně rezonuje s [3NL architekturou](@/glossary/3nl.md) Prismatic platformy: L1 (Logic), L2 (Neural), L3 (Linguistic) tvoří **vrstvené sférické imunizace** kognitivního systému.
 
 ### 3.2 Mikrosféry, makrosféry a globalizace
 
@@ -150,15 +146,11 @@ Toto rozlišení poskytuje kompendiu **normativní kritérium** pro odlišení *
 
 Habermasova **ideální komunikační situace** (ISC) — kontrafaktická konstelace, v níž jsou všichni účastníci rovnoprávní, nemají žádné systematické komunikační deformace a jediné, co rozhoduje, je síla lepšího argumentu — slouží jako **normativní horizont**, vůči němuž lze měřit reálné komunikační situace.
 
-Pro EA to má **dvojí význam**:
-
-1. **Diagnostické**: techniky EA jsou systematickými **deformacemi** ISC. Konkrétně:
+Pro EA to má **diagnostický význam**: techniky EA jsou systematickými **deformacemi** ISC. Konkrétně:
    - **Prosodická dominance** porušuje symetrickou distribuci řečových aktů
    - **Tematická diverze** porušuje princip orientace na porozumění
    - **Imunizace proti falsifikaci** porušuje ochotu k revizi
    - **Terminologická mystifikace** porušuje princip transparentnosti
-
-2. **Architektonické**: **[Color Teams](@/glossary/color-teams.md)** v Prismatic platformě **algoritmicky implementují** strukturu ISC — [Red Team](@/glossary/red-team.md), [Blue Team](@/glossary/blue-team.md) a [Purple Team](@/glossary/purple-team.md) systematicky generují adversariální argumenty, vyžadují symetrickou pozornost a tlačí na falsifikabilitu hypotéz.
 
 ### 4.3 Diskursivní etika
 
@@ -194,9 +186,9 @@ Habermasovo rozlišení **[lebenswelt](@/glossary/lebenswelt.md)** (světa živo
 Žádný z těchto rámců sám o sobě **nestačí** pro pokrytí fenoménů EA. Kompendium proto aplikuje **principu explanační plurality** a integruje:
 
 - **Foucault** → strukturální dimenze EA, dispozitivní analýza, multidimenzionální klasifikace
-- **Adorno** → kritická reflexe instrumentálního využití klasifikace samé, princip Contradiction Preservation
-- **Sloterdijk** → sférická perspektiva epistemické rezilience, vrstvené imunologie (3NL)
-- **Habermas** → normativní kritérium odlišení manipulace od legitimní argumentace, architektura Color Teams
+- **Adorno** → kritická reflexe instrumentálního využití klasifikace samé, princip non-identity
+- **Sloterdijk** → sférická perspektiva epistemické rezilience, vrstvené imunologie
+- **Habermas** → normativní kritérium odlišení manipulace od legitimní argumentace
 
 Tato integrace **není** synkretickým eklekticismem — je výsledkem **systematické komparace** silných a slabých stránek každého rámce vůči empirickému předmětu (taxonomicky popsaným technikám EA).
 
@@ -230,10 +222,6 @@ Filosofický rámec kompendia **není** uzavřený. Otevřené teoretické body,
 - [Glosář: Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md)
 - [Glosář: Dual-use poznání](@/glossary/dual-use-poznani.md)
 - [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
-- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Glosář: Color Teams](@/glossary/color-teams.md)
-- [Glosář: Decision Core](@/glossary/decision-core.md)
-- [Glosář: 3NL](@/glossary/3nl.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 

@@ -91,7 +91,7 @@ poruchy (American Psychiatric Association, 2013). Diferenciální rozvahu popisu
 
 Kontext EA zahrnuje, kdo látky zajišťuje, zda je pacient na dodavateli závislý a zda skupina
 „terapeuticky“ užívá psychoaktivní látky bez lékařského dohledu. Lifton (1961) popsal v prostředí
-totální kontroly nadřazení doktríny nad člověka ([doctrine](@/glossary/doctrine.md) over person), kdy vlastní prožitek platí
+totální kontroly nadřazení doktríny nad člověka (doctrine over person), kdy vlastní prožitek platí
 jen tehdy, odpovídá-li výkladu skupiny; podle výkladu této knihy skupina, která látky podává v
 rituálu, zároveň určuje, jak má člověk to, co prožil, chápat.
 
@@ -139,7 +139,6 @@ Svépomocné skupiny, například Anonymní alkoholici nebo SMART Recovery, moho
 přehled podpořil účinnost Anonymních alkoholiků a programů dvanácti kroků (Kelly, Humphreys a
 Ferri, 2020). U člověka po EA je však namístě citlivost: skupina, která by vyžadovala bezvýhradnou
 poslušnost autoritě, by mu mohla připomínat prostředí, z něhož odešel. Navazuje
-[addiction recovery](@/glossary/addiction-recovery.md),
 [dlouhodobá prevence relapsu](@/kompendium/recovery-protocols/longterm-relapse-prevention.md) a
 [emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md).
 
@@ -235,7 +234,6 @@ porozuměním funkci látky, jak ji popisuje hypotéza sebemedikace (Khantzian, 
 
 **Pojmy a populační rámec**
 
-- [Addiction recovery](@/glossary/addiction-recovery.md) – zotavení ze závislosti.
 - [Populační komorbidity EA](@/kompendium/population-health/09-comorbidity-population.md) –
   souběh závislosti a EA.
 - [Trauma bonding](@/glossary/trauma-bonding.md) – závislost na vztahu i na látce.

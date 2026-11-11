@@ -5,7 +5,7 @@ weight = 20
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "osint"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["3-ea-osint-justice-cz-screening", "13-ea-dd-beneficial-ownership-disinformation", "1-ea-osint-source-credibility", "29-ea-compliance-kyc-narrative-validation"]
@@ -20,8 +20,7 @@ proto je ARES i místem, kde se snadno zaměňuje **úřední záznam** za **ov�
 dokládá, co bylo zapsáno a kdy; nedokládá, že zapsané odpovídá skutečnosti.
 
 Tato stránka popisuje, jak s registrovými daty pracovat tak, aby sloužila k poznání, a ne
-k vytváření falešné jistoty. Kontext platformy, z níž kniha vzešla, popisuje stránka
-[Czech ARES Agent & EA detection](@/kompendium/aiad-integration/czech-ares-ea-screening.md).
+k vytváření falešné jistoty.
 
 ## Doména a problém
 
@@ -148,7 +147,6 @@ a lidi se jmény, která sdílejí s jinými.
 
 **Kontext platformy a pojmy**
 
-- [Czech ARES Agent & EA detection](@/kompendium/aiad-integration/czech-ares-ea-screening.md) – automatizovaná prověrka.
 - [Entity resolution](@/glossary/entity-resolution.md) – párování záznamů.
 - [Due diligence](@/glossary/due-diligence.md) – rámec prověrky.
 

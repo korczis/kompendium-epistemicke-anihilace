@@ -66,7 +66,7 @@ Ve druhém a třetím roce přišla eskalace. Profesor určoval estetiku i pří
 sexualizovaný kontakt, který rámoval jako součást „umělecké zkušenosti“. Mezi třetím a pátým
 rokem se vzorec konsolidoval: estetická doktrína stála nad osobní autonomií, síť galerií
 blokovala jiné platformy a kritika ze strany žáků znamenala konec kariéry. Lifton (1961) tento
-rys nazývá „doktrína nad osobou“ (*[doctrine](@/glossary/doctrine.md) over person*): zkušenost, která s doktrínou nesouhlasí,
+rys nazývá „doktrína nad osobou“ (*doctrine over person*): zkušenost, která s doktrínou nesouhlasí,
 se přeloží tak, aby souhlasila.
 
 Detekce přišla v proměnlivém okamžiku, když spolužačka veřejně popsala vlastní zneužití a

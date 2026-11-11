@@ -162,7 +162,6 @@ pořadí fází univerzální, nebo se liší podle typu poškození a podle oso
 - [Bridge: Metakognitivní destrukce](@/kompendium/glossary-bridges/bridge-metakognitivni-destrukce.md) – poškození, na které postup odpovídá.
 - [Bridge: Narrative identity](@/kompendium/glossary-bridges/bridge-narrative-identity.md) – cíl závěrečné fáze.
 - [Bridge: Iatrogenic harm](@/kompendium/glossary-bridges/bridge-iatrogenic-harm.md) – riziko předčasného výkladu.
-- [Bridge: 3NL](@/kompendium/glossary-bridges/bridge-3nl.md) – úrovně, na nichž zásah působí.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

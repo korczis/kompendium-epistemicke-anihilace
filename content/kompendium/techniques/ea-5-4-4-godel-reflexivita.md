@@ -111,6 +111,7 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 3. **Externí epistemický audit** — důvěryhodný kolega s metalogickou výbavou prochází se subjektem konkrétní paradoxy a explicitně demonstruje úniky.
 4. **Fenomenologická redukce** — návrat k přímému zakoušení **bez** auto-predikace; meditační praxe orientovaná na ne-reflexivní pozornost.
 5. **Specifická intervence**: přijetí omezené konzistence místo úplnosti; rozlišení dokazatelnosti a pravdivosti.
+6. **Požadavek na konkrétní formální systém** — Gödelovy věty platí jen o dostatečně silných formálních systémech aritmetiky, nikoli o běžném uvažování, přirozeném jazyce či o člověku. Obrana spočívá v tom, že subjekt po útočníkovi žádá, aby přesně určil, o jakém formálním systému hovoří; mimo matematiku se tato žádost zpravidla nenaplní a zdánlivý paradox se rozpadne. Franzén (2005) ukazuje, že naprostá většina odkazů na Gödela mimo logiku je právě tímto neoprávněným zobecněním.
 
 ### Institucionální
 
@@ -170,15 +171,10 @@ Klíčové pojmové kotvy techniky: **Gödelova věta, neúplnost, fixace bodu**
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
-
 ---
 
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/korczis-prismatic-platform)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

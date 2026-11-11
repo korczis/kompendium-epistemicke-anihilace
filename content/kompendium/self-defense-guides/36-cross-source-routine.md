@@ -113,7 +113,6 @@ Rutina zpomaluje a v dynamických situacích nemusí být vždy možná; rozliš
 **Signatury a pojmy**
 
 - [Detekční signatura: Cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md) – zdroje, které se citují navzájem.
-- [Signal Plurality](@/glossary/signal-plurality.md) – mnohost nezávislých signálů.
 
 **Teorie a výuka**
 

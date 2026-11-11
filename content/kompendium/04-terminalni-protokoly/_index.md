@@ -102,7 +102,6 @@ Vzhledem k potenciální nebezpečnosti poznatků o terminálních protokolech j
 | **L1** | Obecná povědomost | Existence a obecné charakteristiky terminálních protokolů | Veřejnost, novinářská komunita, vzdělávací sektor |
 | **L2** | Analytické porozumění | Konceptuální analýza mechanismů a dynamik bez implementačních detailů | Akademičtí výzkumníci, klinici, bezpečnostní analytici |
 | **L3** | Strukturální znalost | Detailní porozumění strukturálním aspektům a organizačním principům specifických protokolů | Specializovaní vyšetřovatelé, forenzní týmy |
-| **L4** | Implementační expertise | Znalosti nezbytné pro detekci, prevenci a neutralizaci terminálních protokolů | Specializovaní klinici, kontraintelligence, [Color Teams](@/glossary/color-teams.md) |
 | **L5** | Rekonstrukční kapacita | Kompletní poznatky umožňující potenciální rekonstrukci protokolů | Striktně limitovaný přístup; pouze ověřená pracoviště |
 
 **Přístup k materiálům této sekce odpovídá úrovni L2.** Materiály úrovně L3 a vyšší jsou dostupné pouze prostřednictvím autorizovaných kanálů a institucionálních partnerství.
@@ -146,7 +145,6 @@ Pro empirické studium terminálních protokolů je vhodné využívat simulativ
 Důležitým nástrojem je formální konceptuální modelování:
 
 - **Strukturální analýza** — Identifikace klíčových komponent a jejich vztahů.
-- **Dynamické modelování** — Analýza temporálních a procesních aspektů protokolů; integrace s [NABLA Infinity](@/glossary/nabla-infinity.md) framework pro formální reprezentaci epistemických trajektorií.
 - **Kauzální mapování** — Rekonstrukce kauzálních mechanismů a jejich interakcí.
 - **Analogické rezonování** — Využití analogií s lépe pochopenými systémy pro iluminaci komplexních dynamik.
 
@@ -169,8 +167,6 @@ Přístup k této části kompendia implicitně znamená souhlas s etickými pri
 - [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
 - [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
 - [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
-- [Glosář: Color Teams](@/glossary/color-teams.md)
-- [NABLA Infinity Framework](@/glossary/nabla-infinity.md)
 - [Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
 

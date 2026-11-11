@@ -192,9 +192,6 @@ Intervence: Operační rekonstrukce — definice obou pojmů přes pozorovateln�
   - [Anankastický režim](@/glossary/anankasticky-rezim.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Forward-refs**:
   - [Kapitola 4 — Operační principy](@/kompendium/04-operacni-principy/_index.md)
   - [Kapitola 6 — Epistemická singularita](@/kompendium/06-epistemicka-singularita/_index.md)
@@ -223,4 +220,4 @@ Před prací s touto stránkou si čtenář ověří:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

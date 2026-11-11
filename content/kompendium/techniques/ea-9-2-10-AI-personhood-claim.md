@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.2 Generativní média
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -71,6 +70,8 @@ Profil „bezpečnostní analytičky“ s profesionálním portrétem a výborn�
 Generované portréty jsou čím dál dokonalejší a vizuální znaky přestávají stačit; spolehlivější je ověřování životopisu a kontaktu mimo platformu. Otevřené zůstává, jak chránit legitimní anonymitu (whistlebloweři, ohrožení aktivisté) a zároveň omezit syntetické persony.
 
 Rozsah používání syntetických person ve vlivových operacích je známý hlavně ze zpráv platforem o odstraněných sítích a z novinářských odhalení; systematická data chybějí a kniha proto neuvádí odhady jejich počtu.
+
+Znaky, které stránka uvádí, popisují nepravděpodobnost identity, nikoli její neexistenci. Skuteční lidé mívají řídký profil, generický portrét a žádné společné kontakty – noví v oboru, lidé po návratu z izolace, oběti domácího násilí, které starou stopu smazaly. Označit konkrétní profil za syntetickou personu je proto obvinění, které unese jen ověření mimo platformu, ne dojem z fotografie; Nightingale a Farid (2022) ukázali, že vizuální úsudek selhává v obou směrech. A z odhalené persony neplyne, kdo ji vedl: postava je nástroj, který může sloužit státní operaci, podvodníkovi i firmě shánějící kontakty, a připsat ji aktérovi vyžaduje jiné doklady než samu nepravost identity.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

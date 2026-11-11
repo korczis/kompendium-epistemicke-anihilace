@@ -91,6 +91,16 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní práce** s paradoxem zachovává distincí mezi *zkoumaným paradoxem* a *zkoumajícím subjektem*; subjekt vychází obohacen o pojmovou jemnost.
 - **Manipulační aplikace** ruší tuto distincí; subjekt je s paradoxem *identifikován* a vychází z procesu evaluačně paralyzován.
 
+Rozpoznání série dilemat nedokazuje, že se zasažený člověk v mravním soudu mýlí. Thomsonovy varianty
+(Thomson, 1976) ukazují, že nesourodé intuice jsou běžným východiskem etiky, nikoli jejím selháním,
+a nemožnost své stanovisko odůvodnit není sama známkou poškození: Haidt (2001) ji pozoroval u lidí
+mimo jakýkoli nátlak.
+
+Od seminární práce s úlohou se vzorec odlišuje tím, čím série končí. Foot (1967) ji zavedla proto,
+aby se dalo pojmenovat rozlišující kritérium — zamýšlený následek proti předvídanému; ve vzorci
+série nekončí kritériem, nýbrž diskreditací soudu toho, kdo odpovídá. Od [eskalace logických paradoxů](@/kompendium/techniques/ea-5-4-22-logicka-paradox-eskalace.md)
+ji odlišuje zasažená oblast: tam forma posuzování vůbec, zde mravní soud.
+
 ## Rizikové kontexty
 
 | Kontext | Manifestace |
@@ -168,15 +178,10 @@ Klíčové pojmové kotvy techniky: **trolley problem, etický partikularismus, 
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
-
 ---
 
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/korczis-prismatic-platform)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

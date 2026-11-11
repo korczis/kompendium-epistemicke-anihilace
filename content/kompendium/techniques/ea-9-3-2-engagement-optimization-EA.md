@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.3 Sociální platformy
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -71,6 +70,14 @@ Stránka s názvem připomínajícím místní komunitu sdílí denně několik 
 ## 9. Meze a otevřené otázky
 
 Ne každý emočně silný obsah je manipulace; emoce jsou legitimní součástí informace o tom, co je důležité. Otevřené zůstává, jak měřit kvalitu obsahu tak, aby to platformy mohly použít bez cenzury.
+
+Rozhořčení v textu neprokazuje, že byl text na rozhořčení laděn: morálně-emoční výrazy provázejí i
+věcné zprávy o skutečné křivdě (Brady et al. 2017). Rozpoznání vzorce také neříká nic o cíli
+autora; výdělečný i ideologický motiv vedou ke stejnému povrchu a stránka mezi nimi nerozhoduje.
+
+*Interpretace knihy*: ani vlastní reakce není dokladem manipulace. Pennycook a Rand (2019)
+připisují náchylnost spíš nedostatku reflexe než postoji, takže z toho, že člověk příspěvek sdílel,
+neplyne nic o jeho přesvědčení — a výtka adresovaná jemu míjí popsaný mechanismus.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

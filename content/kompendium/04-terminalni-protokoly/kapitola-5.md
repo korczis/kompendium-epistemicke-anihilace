@@ -296,8 +296,6 @@ Standardní auditní log musí zachycovat:
 - Pro jaký účel
 - Pod jakou autorizací
 
-Integrace s platformovým {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} umožňuje formální [evidence-based](@/glossary/evidence-based.md) hodnocení governance compliance.
-
 ## 7. Long-term follow-up
 
 Reintegrační fáze nekončí ukončením aktivního programu. Long-term follow-up je integrální součástí.
@@ -398,9 +396,6 @@ Každý adverse event musí vést k **strukturované integraci poznatků** do pr
 
 Robustní bezpečnostní protokoly nejsou pouze procedurálním ukotvením, ale vyžadují integraci s platformovou infrastrukturou:
 
-- **[Color Teams](@/glossary/color-teams.md)** — Strukturovaná vícebarevná evaluace rizikového profilu ([red team](@/glossary/red-team.md) adversarial probing, [blue team](@/glossary/blue-team.md) defensive analysis, [purple team](@/glossary/purple-team.md) integration); aplikovatelná na review protokolů před implementací.
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — Evidence-based formální hodnocení rozhodnutí včetně calibration tracking (Brier score, ECE) pro evaluaci kvality klinických a operačních rozhodnutí.
-- **[NABLA Infinity Framework](@/glossary/nabla-infinity.md)** — Formální reprezentace epistemických trajektorií subjektů; podporuje detekci subtilních epistemických změn, které by jinak unikly standardnímu screeningu.
 - **[Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)** — Filozofický rámec, který informuje cílový stav reintegrace (zachování či rekonstituce epistemické autonomie).
 - **[Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)** — Etický rámec definující obligace výzkumníka vůči subjektovi.
 
@@ -432,11 +427,8 @@ Návaznost: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/
 - [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
 - [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - [Glosář: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
-- [Glosář: Color Teams](@/glossary/color-teams.md) — strukturovaná multi-perspektivní evaluace
-- [NABLA Infinity Framework](@/glossary/nabla-infinity.md) — formální epistemická reprezentace
 - [Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — evidence-based hodnocení rozhodnutí
 
 ## Kritický krok
 

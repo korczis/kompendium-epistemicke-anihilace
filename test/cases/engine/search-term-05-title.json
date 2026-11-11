@@ -5,35 +5,105 @@
     "hits": [
       {
         "code": null,
-        "in": 288,
+        "in": 263,
         "kind": "Pojem",
-        "path": "glossary/coercive-control.md",
+        "path": "glossary/delegitimizace.md",
         "tier": 2,
-        "title": "Coercive control (donucující kontrola)",
-        "url": "/glossary/coercive-control/",
+        "title": "Delegitimizace",
+        "url": "/glossary/delegitimizace/",
         "why": "exact_title"
       },
       {
         "code": null,
-        "in": 12,
-        "kind": "Most",
-        "path": "kompendium/glossary-bridges/bridge-coercive-control.md",
+        "in": 9,
+        "kind": "Kapitola",
+        "path": "kompendium/03-zakladni-kategorie/delegitimizace.md",
+        "tier": 4,
+        "title": "Delegitimizace – odnětí epistemického postavení",
+        "url": "/kompendium/03-zakladni-kategorie/delegitimizace/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 170,
+        "kind": "Kapitola",
+        "path": "kompendium/03-zakladni-kategorie/kapitola-2.md",
         "tier": 5,
-        "title": "Bridge: Coercive control (donucující kontrola)",
-        "url": "/kompendium/glossary-bridges/bridge-coercive-control/",
+        "title": "3.2 Scénáře epistemické delegitimizace",
+        "url": "/kompendium/03-zakladni-kategorie/kapitola-2/",
         "why": "title_word"
+      },
+      {
+        "code": "EA-3.2.F",
+        "in": 37,
+        "kind": "Kapitola",
+        "path": "kompendium/03-zakladni-kategorie/scenar-f.md",
+        "tier": 5,
+        "title": "3.2.F Scénář F: Kolektivní epistemická delegitimizace",
+        "url": "/kompendium/03-zakladni-kategorie/scenar-f/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 6,
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-delegitimizace.md",
+        "tier": 5,
+        "title": "Bridge: Delegitimizace",
+        "url": "/kompendium/glossary-bridges/bridge-delegitimizace/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 15,
+        "kind": "Pojem",
+        "path": "glossary/metanarrative-collapse.md",
+        "tier": 6,
+        "title": "Metanarrative collapse (rozpad velkých vyprávění)",
+        "url": "/glossary/metanarrative-collapse/",
+        "why": "description"
+      },
+      {
+        "code": "EA-2.3.7",
+        "in": 11,
+        "kind": "Technika",
+        "path": "kompendium/techniques/ea-2-3-7-deepfake-personalni.md",
+        "tier": 6,
+        "title": "EA-2.3.7 Personální deepfake",
+        "url": "/kompendium/techniques/ea-2-3-7-deepfake-personalni/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 7,
+        "kind": "Kapitola",
+        "path": "kompendium/05-kolektivni-rozmer/_index.md",
+        "tier": 6,
+        "title": "Kolektivní rozměr",
+        "url": "/kompendium/05-kolektivni-rozmer/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 5,
+        "kind": "Kapitola",
+        "path": "kompendium/07-populacni/_index.md",
+        "tier": 6,
+        "title": "Populační rovina",
+        "url": "/kompendium/07-populacni/",
+        "why": "description"
       }
     ],
     "limit": 12,
-    "normalised": "coercive control (donucujici kontrola)",
+    "normalised": "delegitimizace",
     "ok": true,
     "op": "search",
-    "query": "Coercive control (donucující kontrola)",
+    "query": "Delegitimizace",
     "schema": "kompendium-engine/v1",
-    "total": 2
+    "total": 9
   },
   "input": {
     "op": "search",
-    "query": "Coercive control (donucující kontrola)"
+    "query": "Delegitimizace"
   }
 }

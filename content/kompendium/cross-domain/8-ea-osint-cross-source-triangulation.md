@@ -5,7 +5,7 @@ weight = 80
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "osint"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["1-ea-osint-source-credibility", "7-ea-osint-narrative-injection", "10-ea-dd-source-weighting", "15-ea-dd-evidence-quality-assessment"]
@@ -48,8 +48,9 @@ pravděpodobnost pravdy.
 
 Druhým průnikem je [epistemická monokultura](@/glossary/epistemicka-monokultura.md):
 pokud všechny zdroje pocházejí z jednoho ekosystému – jednoho jazyka, jedné politické
-orientace, jedné sítě médií –, sdílejí i jeho slepá místa. [Signal plurality](@/glossary/signal-plurality.md),
-tedy různorodost signálů s odlišnými zdroji chyb, je proti tomu hlavní ochranou.
+orientace, jedné sítě médií –, sdílejí i jeho slepá místa. Různorodost signálů s odlišnými
+zdroji chyb, kterou kniha popisuje jako [fúzi zpravodajství](@/glossary/intelligence-fusion.md),
+je proti tomu hlavní ochranou.
 
 Třetím průnikem je psychologie potvrzení. Lidé vnímají opakovanou informaci jako
 pravdivější – tento efekt iluzorní pravdy popsali Hasher, Goldstein a Toppino (1977)
@@ -160,5 +161,4 @@ mít skrytě společný původ.
 
 **Pojmy**
 
-- [Signal plurality](@/glossary/signal-plurality.md) – různorodost signálů.
 - [Epistemická monokultura](@/glossary/epistemicka-monokultura.md) – společná slepá místa.

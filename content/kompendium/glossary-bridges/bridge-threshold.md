@@ -8,7 +8,7 @@ tags = ["glossary-bridge", "kompendium", "cross-link", "diagnostika"]
 
 [extra]
 category = "kompendium-bridge"
-related_terms = ["risk-score", "bridge-kontraindikace", "bridge-readiness", "decision-engine", "pattern-evidence", "bridge-risk-score"]
+related_terms = ["risk-score", "bridge-kontraindikace", "bridge-readiness", "pattern-evidence", "bridge-risk-score"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
@@ -71,8 +71,8 @@ a kdy nezačínat nebo přerušit ([Bridge: Kontraindikace](@/kompendium/glossar
 
 Jednotlivý znak práh nepřekračuje. Rozhoduje kombinace znaků, jejich opakování v čase a vazba na
 prostředí. Tato zásada odpovídá logice více nezávislých signálů, kterou kniha popisuje u
-[Bridge: HAWKEYE](@/kompendium/glossary-bridges/bridge-hawkeye.md): náhodný šum se v různých kanálech
-neopakuje, skutečný vzorec ano.
+[Bridge: Fúze zpravodajství](@/kompendium/glossary-bridges/bridge-intelligence-fusion.md): náhodný
+šum se v různých kanálech neopakuje, skutečný vzorec ano.
 
 ### Asymetrie podle závažnosti
 
@@ -103,13 +103,6 @@ závěr – je stanoven právem a liší se podle druhu řízení; klinický pr�
 nenahrazuje a nemá se s ním zaměňovat. Swets, Dawes a Monahan (2000) zdůrazňují, že tytéž údaje mohou
 vést k různým rozhodnutím podle toho, k čemu rozhodnutí slouží, a že právě proto je třeba účel prahu
 vždy uvést. Klinik, který překročí práh pro ochranné opatření, tím neříká, že se manipulace „prokázala“.
-
-## Vztah k platformě
-
-Na platformě Prismatic, z níž kniha vzešla, se prahy používají při převodu signálů na skóre rizika a
-doporučení v rozhodovacím modulu; viz [Decision Engine](@/glossary/decision-engine.md) a
-[Bridge: Risk score](@/kompendium/glossary-bridges/bridge-risk-score.md). V knize mají prahy stejnou
-logiku, ale vždy podléhají klinickému nebo právnímu úsudku člověka.
 
 ## Časté omyly
 

@@ -9,7 +9,7 @@ categories = ["academic", "reference"]
 
 [extra]
 category = "kompendium-bridge"
-related_terms = ["epistemic-security", "epistemic-bubble", "dual-use-poznani", "nabla-infinity", "bridge-info-ops", "bridge-propaganda"]
+related_terms = ["epistemic-security", "epistemic-bubble", "dual-use-poznani", "bridge-info-ops", "bridge-propaganda"]
 glossary_target = "epistemic-security"
 toc = false
 +++
@@ -65,11 +65,6 @@ Historické případy ukazují oba typy hrozeb – záměrnou kampaň v
 cílené vytváření pochybností v [Manipulaci tabákovým průmyslem](@/kompendium/historical-cases/25-tobacco-doubt.md).
 Organizační a regulační stránku popisují [EA × Security: Enterprise disinformation defense](@/kompendium/cross-domain/19-ea-security-disinformation-defense.md)
 a [EA × Compliance: NIS2 – pilíř integrity informací](@/kompendium/cross-domain/25-ea-compliance-nis2-integrity.md).
-
-Na platformě, z níž kniha vzešla, je epistemická bezpečnost organizujícím rámcem, který spojuje
-[NABLA Infinity](@/glossary/nabla-infinity.md), [Epistemic Pipeline](@/glossary/epistemic-pipeline.md)
-a [barevné týmy](@/glossary/color-teams.md); kniha z toho přebírá důraz na měření strukturních vlastností informačního prostředí,
-nikoli na posuzování obsahu jednotlivých tvrzení.
 
 ## Od pojmu k praxi
 
@@ -135,6 +130,8 @@ nástroj kontroly, a jak chránit kolektivní poznávání před záměrnými ú
 svoboda projevu. S tím souvisí problém [dvojího užití](@/kompendium/glossary-bridges/bridge-dual-use-poznani.md):
 poznání o tom, jak se dá společnost epistemicky oslabit, je samo citlivé.
 
+Druhou mezí je to, co z pojmu neplyne. Označit jev za hrozbu epistemické bezpečnosti neříká, že je nepravdivý, ani že za ním stojí nepřátelský aktér: týmž rámcem se popisuje záměrná kampaň, informační přetížení i nezamýšlené selhání institucí, a Seger a kol. (2020) tyto zdroje výslovně oddělují právě proto, že vyžadují různou odpověď. Z pojmu také neplyne, kdo má zasáhnout; úsudek o ohrožení procesů poznávání je popis stavu, ne mandát k jednání. Rozlišení mezi oslabením epistemické bezpečnosti a legitimním sporem o fakta navíc nelze provést zevnitř sporu samého – kdo rámec používá proti vlastní opozici, mění pojem v nástroj.
+
 ## Literatura
 
 - Arendt, H. (1951). *The Origins of Totalitarianism*. Harcourt, Brace.
@@ -150,8 +147,6 @@ poznání o tom, jak se dá společnost epistemicky oslabit, je samo citlivé.
 **Glosář**
 
 - [Epistemic security](@/glossary/epistemic-security.md) – heslo, které tento most propojuje s knihou.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický proces platformy.
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – strukturní obrany platformy.
 
 **Kniha**
 

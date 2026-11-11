@@ -5,7 +5,7 @@ weight = 240
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "security"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["23-ea-security-attribution-bias", "1-ea-osint-source-credibility", "8-ea-osint-cross-source-triangulation", "21-ea-security-supply-chain-narrative"]
@@ -88,10 +88,7 @@ nepočítala vícekrát. Třetím je **ověření proti vlastním datům** a **t
 před nasazením blokací (zejména u indikátorů vedoucích na sdílenou infrastrukturu). Čtvrtým
 je **stárnutí indikátorů** – automatické vyřazování po určité době, pokud nejsou znovu
 potvrzeny. Pátým je **zaměření na postupy** (TTP) spíše než na jednotlivé indikátory. Šestým
-je **zpětná vazba** zdrojům: co se potvrdilo a co ne. Kontext platformy, z níž kniha vzešla,
-popisuje [Perimeter Agent & EA detection](@/kompendium/aiad-integration/perimeter-ea-attack-surface.md)
-a nástroje jako [GreyNoise](@/glossary/greynoise.md), který pomáhá odlišit cílený provoz
-od plošného skenování internetu.
+je **zpětná vazba** zdrojům: co se potvrdilo a co ne.
 
 ## Lidský rozměr a zotavení
 
@@ -132,6 +129,19 @@ Otevřenou otázkou je, jak budovat sdílecí komunity, které jsou důvěryhodn
 otrávení a dostupné i menším organizacím, a jak měřit skutečnou hodnotu zpravodajství
 místo jeho objemu.
 
+Rozpoznání těchto znaků neprokazuje, že je zpráva nepravdivá, ani že dodavatel jednal nepoctivě.
+Shoda více zpráv může vzniknout z jedné analýzy i tehdy, když je ta analýza správná, a nerovnoměrná
+viditelnost dodavatele je vlastností jeho pozice, nikoli známkou úmyslného zkreslení. Indikátor
+vedoucí na legitimní službu bývá častěji chybou sběru než podstrčením, a protože platnost
+technických indikátorů je krátká (Bianco, 2013), nemusí být nález po několika dnech vůbec
+opakovatelný; rozlišit obojí lze až podle toho, zda se chyba opakuje a zda ji zdroj po upozornění
+opraví.
+
+*Interpretace knihy*: hodnocení zdroje a hodnocení informace je třeba držet odděleně i tehdy, když
+se zpráva potvrdí. Rámce popisující postup útočníka (Hutchins, Cloppert a Amin 2011) proto nelze
+čtení zprávy nahradit — říkají, kam tvrzení patří, ne zda je doloženo; nároky na dohledatelnost
+stanoví [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
+
 ## Literatura
 
 - Bianco, D. J. (2013). *The Pyramid of Pain.*
@@ -152,9 +162,7 @@ místo jeho objemu.
 **Signatury, techniky a kontext platformy**
 
 - [Cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md) – zprávy citující zprávy.
-- [Perimeter Agent & EA detection](@/kompendium/aiad-integration/perimeter-ea-attack-surface.md) – útočný povrch.
 
 **Pojmy**
 
 - [Intelligence fusion](@/glossary/intelligence-fusion.md) – spojování zpravodajských zdrojů.
-- [GreyNoise](@/glossary/greynoise.md) – odlišení plošného šumu.

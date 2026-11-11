@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.4 Bot networks
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -111,6 +110,8 @@ Pomáhá i vzdělávání o tom, jak se dosah vyrábí.
 Ferrara et al. (2016) popsali vzestup sociálních botů, kteří napodobují lidské chování a mohou ovlivnit vnímání popularity i průběh debat, a upozornili, že jejich odlišení od lidí je obtížné a stále obtížnější. Woolley a Howard (2018) v mezinárodní srovnávací studii doložili, že automatizované účty jsou součástí „výpočetní propagandy“ politických aktérů v řadě zemí. Vosoughi, Roy a Aral (2018) přitom ukázali, že k šíření nepravdivých zpráv přispívají především lidé; boti nejčastěji fungují jako startovací motor, který obsah dostane k lidskému publiku.
 
 Mechanismus, který boti zneužívají, popsal Cialdini (2001) jako sociální důkaz: v nejistotě usuzujeme podle toho, co dělají druzí. Počet sdílení a reakcí je sociálním důkazem v číselné podobě, a proto jeho padělání působí i na lidi, kteří obsah sami nečtou. Kniha z toho vyvozuje, že obrana nemůže stát jen na odhalování botů, ale i na tom, že lidé přestanou čísla reakcí číst jako důkaz.
+
+Vysoké rané zapojení samo nedokládá, že obsah dál šířili boti. Vosoughi, Roy a Aral (2018) v analýze šíření zpráv zjistili, že nepravdivé zprávy se dostaly dál a rychleji než pravdivé, a že po odstranění automatizovaných účtů z dat tento rozdíl zůstal; rozhodující podíl proto připsali lidem. Pro tuto stránku z toho plyne důležité omezení: botové zesílení vysvětluje, co se dostane lidem do dohledu, ne proč se to rozhodnou šířit dál. *Interpretace knihy*: vysvětlení „to byli boti“ je proto zároveň úlevné a zavádějící, protože zbavuje odpovědnosti ty, bez nichž by obsah zůstal bez dosahu.
 
 ## Souvislosti pro praxi
 

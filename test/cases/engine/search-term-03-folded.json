@@ -5,85 +5,35 @@
     "hits": [
       {
         "code": null,
-        "in": 344,
+        "in": 283,
         "kind": "Pojem",
-        "path": "glossary/nabla-infinity.md",
+        "path": "glossary/coercive-control.md",
         "tier": 2,
-        "title": "NABLA Infinity (∇∞)",
-        "url": "/glossary/nabla-infinity/",
+        "title": "Coercive control (donucující kontrola)",
+        "url": "/glossary/coercive-control/",
         "why": "exact_title"
       },
       {
         "code": null,
-        "in": 14,
-        "kind": "Kapitola",
-        "path": "kompendium/aiad-integration/nabla-infinity-ea-pipeline.md",
-        "tier": 5,
-        "title": "NABLA Infinity a detekce technik EA",
-        "url": "/kompendium/aiad-integration/nabla-infinity-ea-pipeline/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 6,
+        "in": 10,
         "kind": "Most",
-        "path": "kompendium/glossary-bridges/bridge-nabla-infinity.md",
+        "path": "kompendium/glossary-bridges/bridge-coercive-control.md",
         "tier": 5,
-        "title": "Bridge: NABLA Infinity (∇∞)",
-        "url": "/kompendium/glossary-bridges/bridge-nabla-infinity/",
+        "title": "Bridge: Coercive control (donucující kontrola)",
+        "url": "/kompendium/glossary-bridges/bridge-coercive-control/",
         "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 3,
-        "kind": "Kapitola",
-        "path": "kompendium/section-bridges/bridge-platform-nabla-to-kompendium.md",
-        "tier": 5,
-        "title": "Most: NABLA Infinity platformy → Kompendium",
-        "url": "/kompendium/section-bridges/bridge-platform-nabla-to-kompendium/",
-        "why": "title_word"
-      },
-      {
-        "code": null,
-        "in": 70,
-        "kind": "Pojem",
-        "path": "glossary/signal-plurality.md",
-        "tier": 6,
-        "title": "Signal plurality (pluralita signálů)",
-        "url": "/glossary/signal-plurality/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 35,
-        "kind": "Kapitola",
-        "path": "kompendium/01-predmluva/vztah-k-platforme.md",
-        "tier": 6,
-        "title": "1.6 Vztah ke Prismatic Platformě",
-        "url": "/kompendium/01-predmluva/vztah-k-platforme/",
-        "why": "description"
-      },
-      {
-        "code": null,
-        "in": 22,
-        "kind": "Kapitola",
-        "path": "kompendium/07-teoreticke-reflexe/computational-epistemology.md",
-        "tier": 6,
-        "title": "7.6 Computational epistemology a NABLA",
-        "url": "/kompendium/07-teoreticke-reflexe/computational-epistemology/",
-        "why": "description"
       }
     ],
     "limit": 12,
-    "normalised": "nabla infinity (∇∞)",
+    "normalised": "coercive control (donucujici kontrola)",
     "ok": true,
     "op": "search",
-    "query": "nabla infinity (∇∞)",
+    "query": "coercive control (donucujici kontrola)",
     "schema": "kompendium-engine/v1",
-    "total": 7
+    "total": 2
   },
   "input": {
     "op": "search",
-    "query": "nabla infinity (∇∞)"
+    "query": "coercive control (donucujici kontrola)"
   }
 }

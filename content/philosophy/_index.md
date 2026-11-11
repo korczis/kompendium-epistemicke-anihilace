@@ -1,6 +1,6 @@
 +++
 title = "Filozofické základy a filozofie licencování"
-description = "Filozofické základy platformy Prismatic, z níž kniha vzešla: intelektuální suverenita, epistemická integrita, etika hranic a licence GHL."
+description = "Filozofické základy vývojového kontextu, z něhož kniha vzešla: intelektuální suverenita, epistemická integrita, etika hranic a licence GHL."
 weight = 5
 sort_by = "weight"
 template = "philosophy/list.html"
@@ -45,8 +45,8 @@ date_updated = "2026-02-23"
 date_modified = "2026-02-23"
 +++
 
-> **Vztah ke knize.** Tento oddíl patří do kontextu [platformy Prismatic](@/kompendium/01-predmluva/vztah-k-platforme.md),
-> z níž Kompendium vzešlo, a není součástí obranné taxonomie. Pro čtenáře knihy je důležitý
+> **Vztah ke knize.** Tento oddíl patří do vývojového kontextu, z něhož Kompendium vzešlo (viz
+> [Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md)), a není součástí obranné taxonomie. Pro čtenáře knihy je důležitý
 > proto, že obsah knihy je vydán pod licencí General Honest License (GHL) v1.0: eseje tohoto
 > oddílu vysvětlují myšlenkové východisko licence, pod kterou se kniha šíří.
 
@@ -273,36 +273,6 @@ Rámec GHL má širší důsledky pro to, jak chápeme software ve vztahu k pozn
 3. **Hranice umožňují svobodu:** omezení vytvářejí prostor pro autentické vyjádření.
 4. **Rituály vytvářejí vztahy:** ceremoniální užívání buduje hlubší vazby.
 
-## Začlenění do filozofie platformy
-
-### Soulad s NO MERCY, NO DOUBTS
-
-Základní [doktrína](@/glossary/doctrine.md) platformy **[NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md)**
-(bez slitování, bez pochybností) je s filozofií GHL v plném souladu:
-
-- **NO MERCY:** nulová tolerance k neoprávněnému užití nebo sémantickému zkreslení.
-- **NO DOUBTS:** jasné hranice a výslovné požadavky odstraňují nejednoznačnost.
-
-### Slučitelnost s epistemickým rámcem
-
-Epistemický rámec **[NABLA Infinity](@/glossary/nabla-infinity.md)** podporuje principy GHL
-prostřednictvím:
-
-- **[Plurality signálů](@/glossary/signal-plurality.md)** (*signal plurality*): správnost
-  invokace potvrzuje více zdrojů.
-- **Uchování rozporů:** zachováno je svolení i omezení.
-- **Povinné provenience:** každé užití musí být dohledatelné k autorizovanému udělení.
-- **Časového úbytku:** oprávnění mají výslovné časové hranice.
-
-### Validace Trinity Gate
-
-Všechna rozhodnutí týkající se GHL procházejí [Trinity Gate](@/glossary/trinity-gate.md)
-platformy:
-
-1. **Strukturální konzistence:** struktura licence tvoří platný logický rámec.
-2. **Logická konzistence:** oprávnění a omezení se řídí logickými pravidly.
-3. **Formální nutnost:** mechanismy vymáhání potvrzují matematické důkazy.
-
 ## Praktické uplatnění
 
 ### Pro vývojáře
@@ -413,15 +383,8 @@ který ztělesňuje General Honest License v1.0.*
 
 **Kniha a platforma**
 
-- [1.6 Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) – jak
+- [1.6 Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md) – jak
   je kniha propojena s platformou, z níž tento oddíl pochází.
 - [1.3 Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md) – etický
   rámec samotné knihy, odlišný od licenční filozofie.
 - [O projektu](@/about.md) – autor, licence a vznik Kompendia.
-
-**Pojmy platformy**
-
-- [Doctrine](@/glossary/doctrine.md) – soustava pilířů, z nichž vychází NO MERCY, NO DOUBTS.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec, s nímž je GHL
-  slučitelná.
-- [Trinity Gate](@/glossary/trinity-gate.md) – validační brána rozhodnutí o licenci.

@@ -9,7 +9,7 @@ categories = ["academic", "reference"]
 
 [extra]
 category = "kompendium-bridge"
-related_terms = ["dual-use-poznani", "epistemic-security", "black-team", "kompendium-ea", "bridge-black-team", "bridge-epistemic-security"]
+related_terms = ["dual-use-poznani", "epistemic-security", "kompendium-ea", "bridge-epistemic-security"]
 glossary_target = "dual-use-poznani"
 toc = false
 +++
@@ -56,14 +56,13 @@ odhalovat podvody, mohou usnadnit jejich páchání. Kompendium přenáší tuto
 První pojistkou je **úroveň popisu**. Techniky jsou ve sbírce [Techniky](@/kompendium/techniques/_index.md)
 popsány jako vzorce, které vidí pozorovatel: strukturou, znaky, odlišením od neškodných jevů,
 obranou a zotavením. Vynechává se všechno, co by sloužilo jen tomu, kdo by chtěl vzorec použít –
-pořadí kroků, formulace, způsoby, jak se vyhnout odhalení. Tato zásada odpovídá logice
-[černého týmu](@/kompendium/glossary-bridges/bridge-black-team.md) platformy, z níž kniha vzešla,
-který pracuje jen s abstraktními modely hrozeb.
+pořadí kroků, formulace, způsoby, jak se vyhnout odhalení. Popis zůstává na úrovni abstraktního
+modelu hrozby.
 
 Druhou pojistkou je **adresát**. Kapitola [1.2 Pro koho je určeno](@/kompendium/01-predmluva/pro-koho-je-urceno.md)
 vymezuje čtenáře jako kvalifikované odborníky a zasažené, kteří hledají porozumění, a kapitola
 [1.5 Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md)
-popisuje, jak se na platformě dříve odstupňoval přístup k podrobnějším rozborům. Ve veřejném
+popisuje, jak se odstupňuje přístup k podrobnějším rozborům. Ve veřejném
 vydání jsou všechny stránky psány na úrovni rozpoznání.
 
 Třetí pojistkou je **přezkum a etický rámec**. Zásady shrnují kapitoly
@@ -89,8 +88,7 @@ Dual-use poznání neznamená, že by každé poznání o manipulaci bylo nebezp
 o tom, že vzorec existuje a jak se projevuje, je jednou z nejúčinnějších ochran: lidé, kteří
 manipulaci umějí pojmenovat, jsou vůči ní odolnější. Proto kniha odmítá „bezpečnost
 mlčením“ i plošné utajování. Zároveň se dvojí užití netýká jen textů: nástroje, které chrání,
-například systémy sledování chování na webu, mohou v jiných rukou sloužit dohledu nad lidmi, jak
-připomíná [Bridge: HAWKEYE](@/kompendium/glossary-bridges/bridge-hawkeye.md).
+například systémy sledování chování na webu, mohou v jiných rukou sloužit dohledu nad lidmi.
 
 ### Obrana a rámec pro profesionály
 
@@ -148,7 +146,6 @@ spoléhá na přezkum a zpětnou vazbu odborných čtenářů.
 **Glosář**
 
 - [Dual-use poznání](@/glossary/dual-use-poznani.md) – heslo, které tento most propojuje s knihou.
-- [Black Team](@/glossary/black-team.md) – modelování hrozeb jen na abstraktní úrovni.
 
 **Kniha**
 
@@ -159,9 +156,7 @@ spoléhá na přezkum a zpětnou vazbu odborných čtenářů.
 
 **Sesterské mosty**
 
-- [Bridge: Black Team](@/kompendium/glossary-bridges/bridge-black-team.md) – abstraktní model hrozby.
 - [Bridge: Epistemic security](@/kompendium/glossary-bridges/bridge-epistemic-security.md) – makrorámec knihy.
-- [Bridge: HAWKEYE](@/kompendium/glossary-bridges/bridge-hawkeye.md) – dvojí užití nástrojů sledování.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

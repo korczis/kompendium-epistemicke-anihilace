@@ -136,12 +136,9 @@ teprve na ní se staví práce s přesvědčeními, jak to doporučuje literatur
 (Levine, 1997). Rámec podávají [protokoly
 zotavení](@/kompendium/recovery-protocols/_index.md).
 
-Na platformě, z níž kniha vzešla, se údaje o tělesné dysregulaci posuzované osoby berou
-v [Decision Engine](@/glossary/decision-engine.md) jako okolnost snižující váhu jejích
-deklarovaných přesvědčení pro dané rozhodnutí. Jde o *interpretaci knihy*; opřít ji lze
-o doklad, že tělesný stav spoluurčuje hodnocení situace (Craig, 2002), ne o tvrzení, že
-z tělesného stavu lze obsah přesvědčení odvodit (Mahon a Caramazza, 2008). Reflexivní vrstvu
-k tomu doplňuje [metakognice](@/glossary/metakognice.md) a rozměr první osoby
+Tělesný stav spoluurčuje hodnocení situace (Craig, 2002), z tělesného stavu však nelze obsah
+přesvědčení odvodit (Mahon a Caramazza, 2008). Reflexivní vrstvu k tomu doplňuje
+[metakognice](@/glossary/metakognice.md) a rozměr první osoby
 [intencionalita](@/glossary/intentionalita.md).
 
 ## Obrana a zotavení

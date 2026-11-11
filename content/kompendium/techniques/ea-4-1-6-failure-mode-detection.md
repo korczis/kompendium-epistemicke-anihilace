@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 
-Rámec stanoví [doktrína platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+Rámec stanoví [doktrinální rámec knihy](@/kompendium/02-doktrinalni-ramec/_index.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ## Struktura vzorce
 
@@ -92,6 +92,16 @@ Detekce vyžaduje diferenciální diagnózu vůči primárním psychiatrickým s
 Od neškodných jevů se vzorec odlišuje tím, co po něm zůstává. Náročný výcvik, otřesná zkušenost i hluboká změna hodnot samy o sobě nic neznamenají; poznávacím znakem je ztráta schopnosti vlastní zkušenost zpochybnit a vyprávět ji jinak než jediným předepsaným způsobem (Herman, 1992).
 
 Druhým rozlišovacím hlediskem je dohledatelnost. Legitimní rámec po sobě nechává zápis: kdo posoudil poměr přínosu a rizika, co bylo sporné a za jakých podmínek se mělo zastavit. Kde takový zápis chybí, nelze o supervidovaném protokolu mluvit bez ohledu na to, jak se prostředí samo popisuje (Belmont Report, 1979).
+
+Rozpoznání posunutého prahu neprokazuje, že k poškození došlo, ani že někdo jednal se zlým úmyslem.
+Vaughan (1996) popisuje normalizaci odchylky jako výsledek běžných organizačních tlaků, v nichž
+každé jednotlivé rozhodnutí vypadalo obhajitelně; nález proto nevypovídá o povaze jednotlivce,
+nýbrž o stavu systému.
+
+Stejně tak nepřítomnost hlášení není dokladem bezpečného provozu — ochota ohlásit chybu je
+vlastností prostředí a její nedostatek se dá snadno zaměnit za jeho kvalitu (Edmondson, 1999).
+Posouzení, zda konkrétní intervence poškodila, zůstává úlohou nezávislého přezkumu, nikoli čtenáře
+této stránky (Emanuel, Wendler a Grady, 2000).
 
 ## Rizikové kontexty
 
@@ -149,11 +159,6 @@ Druhým rizikovým kontextem je skupina, v níž je odchylka jednotlivce čtena 
 - **Forward-references**:
   - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - [Color Teams](@/glossary/color-teams.md)
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [Compliance framework](@/glossary/compliance-framework.md)
 
 ## Co ověřit před čtením
 

@@ -20,7 +20,7 @@ keywords = ["expert witness", "expert testimony", "Daubert standard", "Frye stan
 key_takeaway = "Unlike fact witnesses, who may testify only to what they perceived, expert witnesses are permitted to offer opinions — but only after the court accepts both their qualifications and the reliability of the methodology underlying those opinions. Failed methodology audits (Daubert challenges) are the most common reason expert testimony is excluded."
 see_also = ["pattern-evidence", "forensic-interview", "chain-of-custody"]
 image = "/images/sections/glossary.png"
-image_alt = "Expert Witness - Prismatic Platform"
+image_alt = "Expert Witness"
 +++
 
 ## Definice
@@ -68,7 +68,7 @@ Znalecký posudek má v řízení zvláštní epistemickou váhu: přenáší od
 
 V případech EA – [coercive control](@/glossary/coercive-control.md), [undue influence](@/glossary/undue-influence.md), sektářské skupiny, rodinné spory – je znalec často jediným, kdo může soudu vysvětlit, proč oběť neodešla, proč vypovídá nesouvisle nebo proč „souhlasila“. Kompendium tuto roli podrobně rozebírá v [znalci v případech EA](@/kompendium/forensic-legal/21-expert-witness-EA.md), navazuje [posuzováním věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md), [hodnocením sugestibility](@/kompendium/forensic-legal/5-suggestibility-assessment.md) a [vzdělávání soudců](@/kompendium/forensic-legal/29-judicial-education.md). Kritické perspektivy připomínají [riziko falešně pozitivních závěrů](@/kompendium/critical-perspectives/5-false-positive-risk.md) a [přesah rámce](@/kompendium/critical-perspectives/3-framework-overreach.md): znalec nesmí „diagnostikovat EA“ tam, kde metoda nestačí.
 
-Na platformě Prismatic, z níž kniha vzešla, vystupují experti ve sporech z fúzí a akvizic (oceňování, znalecké posudky účetních podvodů), v kybernetických případech (forenzní analýza, atribuce útoků), v insolvenčních řízeních (vyhodnocení vzorců transakcí) a ve zprávách [due diligence](@/glossary/due-diligence.md), kde je zapotřebí stanovisko s nezávislou autoritou. Při zakázkách due diligence se nezávislí experti objednávají pro účetní oblast (forenzní účetní pro posouzení kvality zisku, *QoE*), oceňování (stanoviska k reálné tržní hodnotě, *FMV*), technickou oblast (revize bezpečnostní architektury) a lidský kapitál (posouzení organizace). Kritéria výběru mají zahrnovat nejen kvalifikaci, ale i soudní historii experta – publikovanou metodiku, dřívější uznání soudem a případná vyloučení podle *Daubert*.
+Ve vývojovém kontextu, z něhož kniha vzešla, vystupují experti ve sporech z fúzí a akvizic (oceňování, znalecké posudky účetních podvodů), v kybernetických případech (forenzní analýza, atribuce útoků), v insolvenčních řízeních (vyhodnocení vzorců transakcí) a ve zprávách [due diligence](@/glossary/due-diligence.md), kde je zapotřebí stanovisko s nezávislou autoritou. Při zakázkách due diligence se nezávislí experti objednávají pro účetní oblast (forenzní účetní pro posouzení kvality zisku, *QoE*), oceňování (stanoviska k reálné tržní hodnotě, *FMV*), technickou oblast (revize bezpečnostní architektury) a lidský kapitál (posouzení organizace). Kritéria výběru mají zahrnovat nejen kvalifikaci, ale i soudní historii experta – publikovanou metodiku, dřívější uznání soudem a případná vyloučení podle *Daubert*.
 
 V práci [OSINT](@/glossary/osint.md) a ve zpravodajské analýze z principu znalecké autority plyne struktura zprávy: závěry mají být přiřazeny jmenovaným analytikům, jejichž kvalifikaci lze posoudit, metody mají být zdokumentovány a nejistota kvantifikována, ne skryta za nepřipsaná tvrzení. Týmy compliance mají uchovat řetězec od surových dat přes znalecký názor, aby byl možný pozdější audit nebo výpověď; viz [chain of custody](@/glossary/chain-of-custody.md).
 
@@ -104,4 +104,3 @@ V práci [OSINT](@/glossary/osint.md) a ve zpravodajské analýze z principu zna
 
 - [Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence/) – obecná kategorie, kterou znalecká výpověď vykládá.
 - [Verifiable Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/verifiable-evidence/) – standard, který mají znalecké názory podpírat.
-- [Evidence Over Opinion](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence-over-opinion/) – doktrína platformy omezující znaleckou praxi.

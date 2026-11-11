@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.4 Bot networks
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -117,6 +116,8 @@ Pro veřejnost je užitečný zvyk dohledat původní zdroj, kdykoli se tvrzení
 Výzkum informačních operací ukazuje, že obsah se šíří přes ekosystémy platforem a médií, v nichž se jednotlivé kanály navzájem posilují (Benkler, Faris a Roberts 2018). Starbird, Arif a Wilson (2019) popsali, že strategické operace využívají přechody mezi platformami a že každá platforma vidí jen svou část, což ztěžuje odhalení. Ferrara et al. (2016) upozornili, že boti mohou napodobovat lidské chování na více platformách současně.
 
 Goldman (2001) vysvětlil, proč výskyt v různých prostředích působí přesvědčivě: zdá se, že jde o nezávislé zdroje. Kaskáda tuto heuristiku zneužívá stejně jako cirkulární citace. Wardle a Derakhshan (2017) proto doporučují sledovat cestu sdělení, nejen jeho obsah – u kaskád je cesta nejsilnějším důkazem koordinace.
+
+Kaskádu neidentifikuje objem, ale směr odkazování: každý krok se dovolává kroku předchozího („už se o tom mluví na…“), takže vzniká řetěz sebepotvrzení, který přirozené přelévání obsahu nemá – tam lidé odkazují na původní zdroj, ne na předchozí přenos. Starbird, Arif a Wilson (2019) přitom doložili, že se do takových řetězů zapojují skuteční uživatelé, a hranici přenosu proto nelze vést podle účtů. Meze důkazů jsou dané metodou: rekonstrukce kaskády vyžaduje data z několika platforem současně, a zveřejněné případy jsou právě ty, kde se podařilo získat záznamy alespoň jedné z nich. Soubor publikovaných případů je tedy výběrem podle dostupnosti dat, nikoli vzorkem výskytu.
 
 ## Souvislosti pro praxi
 

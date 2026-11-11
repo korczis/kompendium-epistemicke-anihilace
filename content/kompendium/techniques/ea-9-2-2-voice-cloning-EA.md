@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.2 Generativní média
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -71,6 +70,8 @@ Starší žena přijme hovor, v němž hlas jejího vnuka vzlyká, že způsobil
 Detekce syntetického hlasu je technicky obtížná a v reálném hovoru téměř nemožná; spolehlivá je jen procedurální obrana (zavolat zpět, heslo). Otevřenou otázkou je hodnota zvukových nahrávek jako důkazu v době, kdy lze hlas věrohodně napodobit.
 
 Statistiky podvodů se syntetickým hlasem zatím nejsou spolehlivě oddělené od jiných telefonních podvodů, a kniha proto neuvádí čísla.
+
+Rozpoznání vzorce neznamená, že známý hlas v telefonu je napodobený. Naprostá většina tísňových hovorů je skutečná a plošná nedůvěra k telefonátům blízkých má vlastní cenu: senior, který přestane věřit vnukovi, je izolovanější, ne bezpečnější. Obrana popsaná výše proto nestojí na podezření, ale na postupu, který funguje stejně v obou případech – zavolat zpět na známé číslo skutečnou pomoc nezdrží a podvod zastaví. Ze samotného hovoru také nelze usuzovat na pachatele: vzorek hlasu bývá veřejně dostupný a jeho použití nijak nenaznačuje, že by do věci byl zapojen někdo z okolí. A dojem „poznal jsem ten hlas“ není důkazem identity ani v jednom směru.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

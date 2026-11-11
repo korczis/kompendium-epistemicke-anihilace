@@ -5,7 +5,7 @@ weight = 60
 
 [taxonomies]
 tags = ["kompendium", "cross-domain", "osint"]
-categories = ["academic", "platform-integration"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["5-ea-osint-social-media-manipulation", "7-ea-osint-narrative-injection", "11-ea-dd-decision-engine-calibration", "19-ea-security-disinformation-defense"]

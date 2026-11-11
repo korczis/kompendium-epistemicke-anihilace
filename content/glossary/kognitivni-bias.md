@@ -58,12 +58,7 @@ Diagnostickým principem Kompendia je, že **každý jednotlivý bias lze tréno
 
 ## Význam pro Kompendium
 
-Na platformě Prismatic, z níž kniha vzešla, je kognitivní bias převeden na **vstup kvality rozhodnutí**, ne jen na signál na úrovni obsahu:
-
-- [Decision Engine](@/glossary/decision-engine.md) výslovně sleduje podmínky rozhodování relevantní pro biasy (časový tlak, rozmanitost zdrojů, předchozí závazek, emoční zátěž) a začleňuje je do kalibrace. Přesvědčení zastávané s jistotou, které vzniklo v podmínkách silného zkreslení, se v pipeline jistoty automaticky snižuje.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) vede **metriky rozmanitosti podle zdrojů**, které včas odhalí vznik ozvěnové komory – dřív, než konfirmační bias promění úzké rozložení vstupů ve stabilní přesvědčení.
-- Simulace [Blue Team](@/glossary/blue-team.md) v rámci [Color Teams](@/glossary/color-teams.md) zahrnují scénáře zneužití biasů převzaté z taxonomie Kompendia a ověřují, že kontroly na úrovni platformy (fronty revizí, zviditelnění nesouhlasu, kalibrační poplachy) tyto vzorce zachytí.
-- Architektura [3NL](@/glossary/3nl.md) (logika + neurální vrstva + lingvistika) je navržena právě tak, aby bias aktivní v jedné vrstvě (např. rámování v lingvistické vrstvě) kontrolovaly ostatní (formální platnost v logické vrstvě, odchylky vzorců v neurální vrstvě).
+Ve vývojovém kontextu, z něhož kniha vzešla, je kognitivní bias převeden na **vstup kvality rozhodnutí**, ne jen na signál na úrovni obsahu:
 
 ## Obrana a zotavení
 

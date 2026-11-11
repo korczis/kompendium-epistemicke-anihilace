@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.4 Bot networks
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -75,6 +74,8 @@ Stylometrická podobnost není důkaz – lidé ze stejného prostředí píší
 Kniha neuvádí, jak rozšířené jsou loutkové účty v diskusích; spolehlivá data chybějí a odhady se liší podle prostředí. Výzkum se opírá převážně o případové studie a o technické analýzy jednotlivých komunit.
 
 Otevřené je také, jak loutky rozpoznat v malých komunitách, kde chybějí data pro srovnání.
+
+Od širšího koordinovaného neautentického chování se tento vzorec liší i tím, co je vůbec třeba dokázat. Tvrzení o loutkové síti je atribuční: říká, že za řadou identit stojí jeden operátor, a vyžaduje tedy důkazy spojující identity s osobou – podstatně vyšší nárok než doložení samotné koordinace. Goldman (2001) formuloval, že počet souhlasných svědectví zvyšuje jejich váhu jen tehdy, jsou-li zdroje navzájem nezávislé. Loutková síť míří přesně na tuto podmínku: nezneužívá naivitu čtenáře, nýbrž legitimní epistemické pravidlo, podle něhož se čtenář rozumně řídí. Z toho plyne i obrana – neptat se, kolik hlasů něco tvrdí, ale zda jsou na sobě nezávislé.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

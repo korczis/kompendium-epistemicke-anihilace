@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.3 Sociální platformy
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -79,6 +78,16 @@ Otevřená zůstává i otázka, jak rychle mají platformy zasahovat u obsahu, 
 Pro výzkum je důležitý přístup k datům o nahlašování, který by umožnil odlišit kampaně od spontánních reakcí.
 
 Bez nich zůstává posouzení nepřímé.
+
+Velký počet nahlášení neprokazuje koordinaci: shluk stížností vzniká i tím, že si příspěvku
+v krátké době nezávisle všimne mnoho lidí, a nahlašování je pro platformy běžným zdrojem podnětů
+(Gillespie, 2018). Rozpoznání kampaně zároveň neprokazuje nezávadnost
+nahlášeného obsahu; posouzení obsahu je samostatná otázka a oba závěry nelze zaměňovat.
+
+*Interpretace knihy*: pozorovatel zvenčí nemá data o nahlašování, a jeho úsudek proto zůstává
+nepřímý. Marwick a Lewis (2017) dokládají, že koordinované obtěžování je u některých skupin
+vědomou strategií, z čehož ale neplyne, že jí je každá vlna stížností; Phillips (2015) tutéž
+kulturu popisuje jako vnitřně nesourodou.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

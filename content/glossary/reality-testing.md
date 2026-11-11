@@ -190,12 +190,6 @@ rozebírá [kritika medikalizace](@/kompendium/critical-perspectives/1-medicaliz
 - [Disociace](@/glossary/disociace.md) – stav, který je třeba odlišit.
 - [Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) – asymetrie v tom, komu se věří.
 
-**Platforma**
-
-- [Trinity Gate](@/glossary/trinity-gate.md) – technická obdoba brány ověření tvrzení.
-- [Signal plurality](@/glossary/signal-plurality.md) – princip více nezávislých signálů.
-- [Epistemic pipeline](@/glossary/epistemic-pipeline.md) – vrstvené ověřování tvrzení.
-
 **Případy a praxe**
 
 - [Východoněmecký Zersetzung](@/kompendium/historical-cases/5-east-german-zersetzung.md) – doložené systematické podkopávání.

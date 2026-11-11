@@ -17,7 +17,7 @@ date_modified = "2026-11-10"
 ## Definice
 
 **Epistemická stáze** (z řec. *stasis*, „stání, zastavení“) je stav, v němž se zastaví
-celý [epistemický proces](@/glossary/epistemic-pipeline.md) – nejen učení z nové zkušenosti, ale i tázání, vážení důvodů
+celý epistemický proces – nejen učení z nové zkušenosti, ale i tázání, vážení důvodů
 a rozhodování. Pozice, mezi nimiž by šlo volit, **stále existují a jsou rozlišitelné**,
 ale žádnou nelze přijmout ani odmítnout. Každé tvrzení je zablokováno protitvrzením, každé
 rozhodnutí podmínkou, kterou nelze splnit. Výsledkem je klid, který není klidem, ale

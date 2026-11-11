@@ -279,18 +279,29 @@ Detailní sankční rámec odpovídá kategorizaci v [Etických aspektech](@/kom
 - Zápis do mezinárodního registru porušení
 - Veřejné odsouzení etické komise
 
+## Co klasifikace nezaručuje
+
+Úroveň přístupu je tvrzení o prokázané způsobilosti a o přijatých závazcích, nikoli o tom, jak bude
+poznání použito. Prerekvizity a supervizi lze doložit, záměr nikoli, a úroveň proto nevypovídá o
+bezúhonnosti svého držitele. Nižší úroveň rovněž neznamená menší odbornost — znamená jiný poměr mezi
+potřebou a rizikem, jehož měřítko stanoví
+[etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
+
+Druhou mezí je vymahatelnost. Ochrana oznamovatele, na níž tato kapitola staví mimoinstitucionální
+kanál, není vlastností kompendia, nýbrž práva: v českém prostředí ji zakládá zákon č. 171/2023 Sb.,
+o ochraně oznamovatelů, který provádí směrnici (EU) 2019/1937. Sankce uvedené výše takovou oporu
+nemají — jsou závazkem komunity a jejich účinek končí tam, kde končí dobrovolná účast v ní.
+
 ## Související
 
 - [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md)
 - [Pro koho je určeno](@/kompendium/01-predmluva/pro-koho-je-urceno.md)
 - [Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md)
 - [Jak používat toto kompendium](@/kompendium/01-predmluva/jak-pouzivat.md)
-- [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md)
+- [Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md)
 - [Sekce 04: Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
 - [Sekce 05: Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
-- [Glossary: Color Teams](@/glossary/color-teams.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 
 ## Kritický krok
 

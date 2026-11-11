@@ -86,7 +86,7 @@ a Jablensky připomínají, že užitečnost kategorie pro praxi a její validit
 druhu jsou dvě různé otázky (Kendell a Jablensky, 2003); taxonomie knihy si nárokuje
 především to první.
 
-## Pět praktických cílů taxonomie
+## Čtyři praktické cíle taxonomie
 
 ### 1. Identifikace subtilních forem epistemického traumatu
 
@@ -133,17 +133,6 @@ a jasnými pravidly publikace. Bez explicitního etického rámce hrozí, že sa
 poznatků poslouží jako návod, což je obecný problém poznání dvojího užití (National
 Research Council, 2004); jak jej kniha řeší, popisuje heslo [Dual-use
 poznání](@/glossary/dual-use-poznani.md).
-
-### 5. Ověřování skrze platformové nástroje
-
-Kompendium vzniklo ve [strukturálním
-propojení](@/kompendium/01-predmluva/vztah-k-platforme.md) s **Prismatic Platformou**,
-která měla v době vzniku poskytovat empirický kontext pro testování taxonomických hypotéz:
-[Decision Engine](@/glossary/decision-engine.md) implementoval mechanismy detekce
-manipulace, [NABLA Infinity](@/glossary/nabla-infinity.md) modelovala epistemickou strukturu
-argumentů a [Color Teams](@/glossary/color-teams.md) operacionalizovaly bezpečnostní
-protokoly. Takové propojení je slibem ověřitelnosti, nikoli ověřením samým; kategorie
-taxonomie mají hodnotu jen potud, pokud se v praxi osvědčí (Kendell a Jablensky, 2003).
 
 ## Defenzivní imperativ
 
@@ -264,7 +253,7 @@ bez opory může obrátit proti čtenáři samému (Beauchamp a Childress, 2019)
 - [Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md) – etický rámec, z něhož účel vychází.
 - [Jak používat toto kompendium](@/kompendium/01-predmluva/jak-pouzivat.md) – cesty knihou podle profese.
 - [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md) – úrovně citlivosti materiálu.
-- [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) – prostředí, v němž kniha vznikla.
+- [Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md) – prostředí, v němž kniha vznikla.
 
 **Úvod**
 

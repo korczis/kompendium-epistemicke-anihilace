@@ -26,7 +26,7 @@ hlavně v prevenci sexuálního násilí na univerzitách a v prevenci šikany. 
 útoků je svědek mimořádně důležitý: protože útok cíleně oslabuje schopnost zasaženého
 rozpoznat realitu, bývá vnější perspektiva jedním z mála zdrojů, které ji mohou obnovit, neboť
 zotavení z traumatu probíhá ve vztahu a vyžaduje svědka, který potvrdí skutečnost prožitého
-(Herman, 1992; [signal plurality](@/glossary/signal-plurality.md)). Cílem tréninku není udělat
+(Herman, 1992). Cílem tréninku není udělat
 z lidí terapeuty ani „zachránce“, ale naučit je všimnout si vzorců (izolace, změna jazyka,
 náhlé finanční závazky, ztráta kontaktu), udržet vztah i tehdy, když zasažený odmítá nebo
 obhajuje osobu či skupinu, která ho kontroluje, nabídnout vlastní pohled bez nátlaku a vědět,

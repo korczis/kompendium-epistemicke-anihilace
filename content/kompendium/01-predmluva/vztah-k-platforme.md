@@ -1,12 +1,13 @@
 +++
-title = "1.6 Vztah ke Prismatic Platformě"
-description = "Strukturální propojení kompendia s Prismatic Platformou — Decision Engine, OSINT framework, NABLA Infinity, Color Teams. Bidirectional feedback loop mezi taxonomií a empirickou validací."
+title = "1.6 Odkud kniha pochází"
+aliases = ["/kompendium/aiad-integration/", "/kompendium/aiad-integration/archer-supreme-ea-orchestration/", "/kompendium/aiad-integration/autoevolve-ea-pattern-evolution/", "/kompendium/aiad-integration/autoheal-ea-regression-repair/", "/kompendium/aiad-integration/black-team-ea-modeling/", "/kompendium/aiad-integration/blue-team-ea-defense/", "/kompendium/aiad-integration/compliance-ea-regulatory-screening/", "/kompendium/aiad-integration/czech-ares-ea-screening/", "/kompendium/aiad-integration/dd-engine-ea-source-weighting/", "/kompendium/aiad-integration/decision-engine-ea-calibration/", "/kompendium/aiad-integration/epistemic-pipeline-ea-detection/", "/kompendium/aiad-integration/gray-team-ea-edge-cases/", "/kompendium/aiad-integration/hawkeye-ea-visitor-intelligence/", "/kompendium/aiad-integration/nabla-infinity-ea-pipeline/", "/kompendium/aiad-integration/operational-execution-ea-deployment/", "/kompendium/aiad-integration/osint-ea-source-validation/", "/kompendium/aiad-integration/perimeter-ea-attack-surface/", "/kompendium/aiad-integration/purple-team-ea-synthesis/", "/kompendium/aiad-integration/qeve-ea-quality-validation/", "/kompendium/aiad-integration/quality-monitor-ea-tracking/", "/kompendium/aiad-integration/red-team-ea-detection/", "/kompendium/aiad-integration/strategic-command-ea-coordination/", "/kompendium/aiad-integration/supreme-commander-ea-strategy/", "/kompendium/aiad-integration/tactical-execution-ea-operations/", "/kompendium/aiad-integration/trinity-gate-ea-verification/", "/kompendium/aiad-integration/white-team-ea-verification/", "/kompendium/section-bridges/bridge-platform-decision-engine-to-kompendium/", "/kompendium/section-bridges/bridge-platform-nabla-to-kompendium/"]
+description = "Kniha vznikla uvnitř softwarového projektu. Co z toho plyne pro její slovník, pro její návyky a pro to, čemu v ní čtenář nemá věřit bez dalšího důkazu."
 weight = 6
 insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["kompendium", "predmluva", "platforma", "decision-engine", "nabla-infinity", "color-teams", "osint", "empiricka-validace"]
-categories = ["academic", "platform-integration"]
+tags = ["kompendium", "predmluva", "puvod", "metodologie", "omezeni"]
+categories = ["academic"]
 
 [extra]
 related_terms = ["pro-koho-je-urceno", "ucel-kompendia", "jak-pouzivat"]
@@ -14,261 +15,143 @@ section_icon = "🔗"
 toc = true
 +++
 
-# 1.6 Vztah ke Prismatic Platformě
-
-Kompendium není uzavřeným textovým artefaktem oddělitelným od kontextu jeho vzniku. Je **strukturálně propojeno** s [Prismatic Platformou](@/_index.md) — soustavou nástrojů a systémů, která poskytuje empirický kontext pro testování, validaci a evoluci taxonomických tvrzení. Tato kapitola popisuje toto propojení, jeho motivaci, operační implementaci a důsledky pro práci s kompendiem.
-
-## Motivace pro platformovou integraci
-
-Klasické psychiatrické a kognitivně-vědecké taxonomie trpí dvěma chronickými problémy:
-
-1. **Empirická paralýza** — taxonomická tvrzení jsou zřídka systematicky testována proti datům; revize probíhají v dlouhých cyklech (DSM-IV → DSM-5 zabralo 13 let).
-2. **Praktická izolace** — taxonomie zůstávají referenčními manuály bez přímé operační aplikace v reálném čase.
-
-Kompendium **explicitně odmítá** tento klasický model a místo toho přijímá architekturu **živé taxonomie** — taxonomie, která:
-
-- Je permanentně testována proti reálným datům
-- Generuje predikce verifikovatelné platformovými nástroji
-- Eviduje deviation reports automaticky
-- Cykluje revizemi v týdenních až měsíčních intervalech
-
-Tato architektura je **fundamentální inovací** ve vztahu k tradičnímu modelu vědecké taxonomie a vyžaduje odpovídající integrační infrastrukturu.
-
-## Přehled platformových komponent
-
-| Komponenta | Funkce vzhledem ke kompendiu |
-|------------|------------------------------|
-| **[Decision Engine](@/glossary/decision-engine.md)** | Empirické testování indikátorů manipulace |
-| **NABLA Infinity** | Modelování epistemické struktury argumentů |
-| **OSINT Framework** | Sběr dat z reálných manipulativních operací |
-| **Color Teams** | Operacionalizace bezpečnostních protokolů |
-| **PrismaticDD** | [Due diligence](@/glossary/due-diligence.md) aplikace taxonomie |
-| **Mycelial Intelligence** | Distribuovaná detekce vzorců napříč případy |
-| **Audit Log** | Materializace etického dohledu |
-
-## Decision Engine
-
-{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} je centrálním empirickým nástrojem pro testování taxonomických tvrzení.
-
-### Strukturální propojení
-
-Decision Engine implementuje **6-stupňovou pipeline**, která přímo odpovídá analytickým krokům doporučeným kompendiem:
-
-1. **Normalize** — normalizace vstupních dat (analogie k explicitní artikulaci epistemického profilu)
-2. **Signals** — extrakce manipulačních signálů (přímá implementace EA detekčních markerů)
-3. **Sources** — analýza zdrojové diverzity (princip [epistemické triangulace](@/kompendium/01-predmluva/jak-pouzivat.md))
-4. **Anomalies** — detekce anomálií (operacionalizace fenomenologických signatur)
-5. **Score** — kalkulace risk skóre (kvantifikace rizika manipulace)
-6. **Hypotheses** — generování alternativních hypotéz (princip diferenciální diagnostiky)
-
-Každý EA-kód v kompendiu má odpovídající **detekční pravidlo** v Decision Engine. Při zpracování argumentu nebo komunikačního artefaktu engine:
-
-- Identifikuje pravděpodobně přítomné techniky
-- Kalkuluje konfidenční skóre pro každou
-- Loguje detekce do audit logu
-- Generuje doporučení defenzivních protiopatření
-
-### Empirická validace
-
-Detekce z Decision Engine slouží jako **empirický feed-back** pro taxonomii:
-
-- **False positive analýza** — pokud detekční pravidlo systematicky generuje false positives, signalizuje to potřebu rafinovat definici techniky
-- **False negative analýza** — pokud techniku rozpoznají experti, ale ne engine, indikuje to mezery v operacionalizaci
-- **Inter-rater reliability** — porovnání detekcí mezi experty a engine kvantifikuje kvalitu taxonomie
-
-Tato data jsou agregována do kvartálních **Taxonomy Health Reports**, které informují revize jednotlivých EA-kódů.
-
-### Confidence calibration
-
-Decision Engine implementuje {{ <cross_link path="/hub/dd/decisions/calibration" text="calibration loop" /> }}, který explicitně počítá s indikátory epistemické manipulace jako negativními signály pro confidence score. Toto napojení je důsledkem [etického principu](@/kompendium/01-predmluva/eticke-aspekty.md) — rozhodnutí přijatá pod vlivem manipulace by neměla být kvalifikována jako vysoce konfidenční bez explicitní verifikace.
-
-## NABLA Infinity (∇∞)
-
-[NABLA Infinity](@/glossary/nabla-infinity.md) je **epistemický engine** modelující strukturu argumentů na úrovni axiomů, inferencí a meta-inferencí.
-
-### Vztah k taxonomii
-
-NABLA Infinity formalizuje to, co kompendium popisuje narativně:
-
-- **Axiomatická vrstva** — explicitní reprezentace epistemických předpokladů
-- **Inferenční pravidla** — formální zachycení argumentačních kroků
-- **Meta-inference** — reprezentace argumentů o argumentech (úroveň, na které operuje [epistemická anihilace](@/glossary/epistemicka-anihilace.md))
-
-Mnoho technik kompendia **nelze adekvátně popsat** bez meta-inferenčního aparátu. Příklad: technika [imunizace proti falsifikaci (EA-1.3.1)](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) operuje na meta-úrovni — modifikuje pravidla, podle kterých se hodnotí evidence, nikoli evidenci samotnou. NABLA Infinity poskytuje formalismus pro exaktní zachycení tohoto rozdílu.
-
-### Empirická aplikace
-
-NABLA Infinity zpracovává:
-
-- Argumenty z politických debat
-- Vědecké publikace v kontroverzních oborech
-- Marketingové a propagandistické artefakty
-- Soudní spisy (s respektováním právních omezení)
-
-Výstupem je strukturovaný popis argumentu, který kompendium využívá k **operacionalizaci diferenciální diagnostiky** mezi legitimní intelektuální výměnou a manipulativní operací.
-
-## OSINT Framework
-
-[OSINT framework](https://prismatic-reality-com.github.io/prismatic-promo/osint/) Prismatic Platformy poskytuje **128+ self-registering adapterů** pro sběr veřejně dostupných dat z různých zdrojů.
-
-### Role ve vztahu ke kompendiu
-
-OSINT framework slouží třem účelům:
-
-1. **Data pro testování taxonomie** — reálné případy manipulativních operací
-2. **Detekce probíhajících operací** — real-time monitoring suspectní aktivity
-3. **Forenzní analýza** — rekonstrukce historie manipulativních kampaní
-
-Specificky relevantní OSINT moduly:
-
-- **Czech OSINT** (47 adaptérů) — sběr dat z českého informačního prostoru pro místní case studies
-- **Global OSINT** — mezinárodní kontext, srovnávací analýza
-- **Sanctions intelligence** — detekce aktérů spojených s vlivovými operacemi
-- **Czech legal** — soudní rozhodnutí relevantní pro forenzní psychiatrii
-
-### Přínos pro taxonomii
-
-OSINT data umožňují **kalibraci taxonomických tvrzení** proti empirické realitě. Každý scénář v kompendiu (např. [Scénář F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)) je validován proti databázi reálných operací. Pokud taxonomický popis systematicky neodpovídá empirickým případům, je revidován.
-
-## Color Teams
-
-[Color Teams](@/glossary/color-teams.md) jsou operační skupiny implementující systematické bezpečnostní protokoly:
-
-| Team | Funkce | Vztah ke kompendiu |
-|------|--------|---------------------|
-| **[Red Team](@/glossary/red-team.md)** | Adversariální testování | Aplikuje techniky kompendia v kontrolovaném prostředí |
-| **[Blue Team](@/glossary/blue-team.md)** | Defenzivní operace | Detekuje a neutralizuje útoky podle kompendia |
-| **[Purple Team](@/glossary/purple-team.md)** | Integrace Red+Blue | Iterativní zlepšování detekce |
-| **Yellow Team** | Vývoj nástrojů | Implementuje detekční pravidla |
-| **Green Team** | Compliance + audit | Validuje etické dodržování |
-
-### Operacionalizace defensivních protokolů
-
-Color Teams **operacionalizují** preventivní a intervenční strategie z kompendia. Každá strategie (např. „epistemická triangulace“) má konkrétní implementaci v podobě:
-
-- Operačního playbook pro Blue Team
-- Detekčních pravidel pro Yellow Team
-- Auditních kontrol pro Green Team
-
-Tato operacionalizace převádí abstraktní doporučení kompendia do **executable security operations**.
-
-### Bidirectional feedback
-
-Color Teams reportují **každý detekovaný incident** zpět ke kompendiu skrze formalizovaný proces:
-
-1. Incident detection → strukturovaný report
-2. Triáž → klasifikace podle EA-kódů
-3. Pattern analysis → identifikace nových subtypů nebo variant
-4. Taxonomy revision → návrh aktualizace
-5. Peer review → schválení revizí
-
-Tento cyklus zajišťuje, že taxonomie **nezaostává za empirickou realitou**.
-
-## PrismaticDD (Due Diligence)
-
-{{ <cross_link path="/hub/dd/" text="PrismaticDD" /> }} aplikuje taxonomii v kontextu **due diligence operací** — typicky v M&A transakcích, regulatorní compliance a forenzní investigaci.
-
-### Aplikační doména
-
-DD aplikace taxonomie zahrnuje:
-
-- Detekci manipulativní rétoriky v korporátních prezentacích
-- Identifikaci „narrative inconsistencies“ mezi různými zdroji
-- Verifikaci tvrzení proti veřejně dostupným důkazům
-- Forenzní analýzu komunikačních vzorců
-
-Tato doména poskytuje kompendiu **velmi specifické empirické výzvy** — pravděpodobnost a sázky manipulace jsou vyšší než v běžných sociálních interakcích, takže taxonomie je testována v adversariálním prostředí.
-
-## Mycelial Intelligence
-
-Mycelial Intelligence je **distribuovaný systém detekce vzorců** napříč případy a doménami. Funguje jako „imunitní systém“ platformy:
-
-- Identifikuje vzorce, které se opakují napříč zdánlivě nesouvisejícími případy
-- Detekuje koordinované operace skrze cross-reference
-- Navrhuje nové taxonomické kategorie pro recurrentní vzorce, které stávající kódy nepokrývají
-
-Pro kompendium tato vrstva poskytuje **automatickou detekci** mezer v současné taxonomii.
-
-## Audit Log
-
-Každá interakce s kompendiem skrze platformu je logována. Audit log slouží:
-
-- Bezpečnostnímu monitoringu (analýza anomálního chování)
-- Etickému dohledu (compliance s [bezpečnostní klasifikací](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md))
-- Vědecké dokumentaci (historie využití taxonomie)
-- Forenzní rekonstrukci (v případě incidentu)
-
-## Bidirectional Feedback Loop
-
-Centrální charakteristika integrace je **bidirectional feedback loop**:
-
-```
-Kompendium → Decision Engine: detekční pravidla
-Decision Engine → Kompendium: empirická validace
-Kompendium → Color Teams: defenzivní protokoly
-Color Teams → Kompendium: incident reports
-Kompendium → OSINT: vyhledávací heuristiky
-OSINT → Kompendium: případové studie
-Kompendium → NABLA: argumentační vzorce
-NABLA → Kompendium: formalizace technik
-```
-
-Tento cyklus znamená, že **kompendium se učí** z empirické zkušenosti platformy a platforma **se zlepšuje** z theoretické práce kompendia. Žádná z těchto komponent není autonomní — vzájemná závislost je explicitním záměrem.
-
-## Důsledky pro uživatele
-
-Platformová integrace má pro uživatele kompendia konkrétní důsledky:
-
-1. **Vyšší aktuálnost** — taxonomie je periodicky aktualizována na základě reálných dat (každý kvartál minor revize, každý rok major revize)
-2. **Operační uplatnitelnost** — abstraktní popisy jsou doplněny konkrétními detekčními nástroji
-3. **Verifikovatelnost** — taxonomická tvrzení mohou být přímo testována uživatelem
-4. **Komunitní přispívání** — uživatelé s odpovídajícím oprávněním mohou přispívat k evoluci taxonomie
-
-## Etické důsledky
-
-Platformová integrace také vytváří specifické **etické závazky**:
-
-- **Audit consent** — uživatel souhlasí s logováním pro účely etického dohledu
-- **Sdílení anonymizovaných dat** — výzkumníci jsou povinni přispívat k empirické bázi (anonymizovaně)
-- **Zodpovědnost za detekční pravidla** — uživatelé navrhující pravidla nesou zodpovědnost za jejich kvalitu
-- **Transparentnost ofenzivního výzkumu** — Red Team aktivity musí být transparentně reportovány
-
-## Limitace integrace
-
-Platformová integrace **není** všespasitelnou. Specifické limitace:
-
-1. **Závislost na infrastruktuře** — výpadek platformy paralyzuje validační cyklus
-2. **Riziko cargo-kult empirismu** — kvantifikované metriky neznamenají automaticky validní taxonomii
-3. **Cultural bias** — platforma je primárně testována v českém a anglo-saském kontextu
-4. **Time lag** — empirická validace má inherent latenci
-
-Tyto limitace jsou explicitně reportovány v každém Taxonomy Health Report.
+# 1.6 Odkud kniha pochází
+
+Kompendium nevzniklo v akademickém ústavu ani na klinice. Vzniklo ve vývojovém kontextu, z něhož
+kniha vzešla — uvnitř softwarového projektu, jehož předmětem bylo rozhodování pod nejistotou a
+práce s nespolehlivými zdroji. Tato kapitola neříká, co ten projekt byl ani jak fungoval; to do
+knihy o epistemické a kognitivní anihilaci nepatří a bylo z ní odstraněno. Říká jen to, co z onoho
+původu plyne pro text, který čtenář drží, protože původ textu je součást jeho epistemického
+profilu: kdo něco napsal a za jakým účelem, patří k důkazní hodnotě toho, co napsal.
+
+## Co původ s knihou udělal
+
+První a nejviditelnější stopa je slovník. Řada hesel glosáře nese jména, která do psychologie
+ani filozofie nepatří, protože vznikla při popisu softwarových a bezpečnostních praktik:
+[OSINT](@/glossary/osint.md), [fúze zpravodajství](@/glossary/intelligence-fusion.md),
+[rizikové skóre](@/glossary/risk-score.md), [sjednocování entit](@/glossary/entity-resolution.md),
+[rámec souladu](@/glossary/compliance-framework.md). Tyto pojmy v knize zůstávají, protože samy
+o sobě obecné jsou a text je používá. Hesla, která existovala jen jako pojmy onoho projektu,
+v knize nezůstala — jejich adresy vedou na nejbližší obecné heslo nebo do glosáře.
+
+Druhá stopa je **návyk psát o poznání jako o procesu, který lze ověřovat průběžně.** Odtud
+pochází důraz, který kniha klade na nezávislost zdrojů, na uchování rozporu místo jeho rychlého
+vyřešení a na rozlišení mezi tvrzením a jeho oporou. Tyto zásady kniha zastává a dokládá u
+příslušných hesel; že k nim autor přišel při stavbě softwaru, není argument pro ani proti nim.
+
+Třetí stopa je **nedůvěra k taxonomii, která se nerevidovala.** Klasické diagnostické manuály se
+mění v dlouhých cyklech: mezi čtvrtým a pátým vydáním diagnostického manuálu uplynulo devatenáct
+let (American Psychiatric Association, 1994; American Psychiatric Association, 2013). Kniha z toho
+nevyvozuje, že je lepší; vyvozuje, že její vlastní kategorie jsou revidovatelné a že má smysl
+psát je tak, aby se revidovat daly. Jak se s nimi pracuje, popisuje kapitola
+[Jak kompendium používat](@/kompendium/01-predmluva/jak-pouzivat.md).
+
+## Co z původu neplyne, i když to dřívější verze této kapitoly tvrdila
+
+Starší podoba této kapitoly tvrdila, že taxonomie knihy je „živá“: že je permanentně testována
+proti reálným datům, že generuje verifikovatelné predikce, že odchylky se evidují automaticky a
+že revize probíhají v týdenních až měsíčních cyklech. **Žádné z těchto tvrzení kniha nedokládá a
+nedrží je.** Byla to popis zamýšlené vlastnosti nástroje, ne vlastnost textu, a s odstraněním
+popisu toho nástroje zmizela i jeho opora. Kniha je referenční text. Nic v ní není průběžně
+validováno proti datům pacientů ani klientů, a kdyby bylo, čtenář by o tom musel dostat doklad,
+ne ujištění.
+
+Stejně tak z původu neplyne, že by kategorie knihy byly empiricky potvrzené. Jejich status popisuje
+heslo [taxonomie EA](@/glossary/taxonomie-ea.md): jsou to popisné rodiny, nikoli diagnostické
+jednotky, nejsou škálou závažnosti ani frekvence a netvrdí o nikom úmysl. Původ ve technickém
+projektu tomu nepřidává váhu žádnou.
+
+## Čemu v knize nemá čtenář věřit bez dalšího důkazu
+
+Z původu plyne několik konkrétních rizik, a je poctivější je pojmenovat než je zamlčet
+(*interpretace knihy*).
+
+**Čísla, která vypadala jako měření.** Vývojové prostředí produkuje metriky, a dřívější verze
+textu nesly údaje — prahy, skóre, podíly —, které žádný zdroj neměl. Postupné revize je
+odstraňovaly; kde takový údaj v textu ještě je a není u něj zdroj, je to chyba, nikoli výsledek.
+Souvisí s tím [replikační krize](@/glossary/replication-crisis.md): kniha z ní bere především
+pravidlo, že nereprodukovaný údaj není fakt.
+
+**Technický slovník tam, kde má být klinický.** Kde text mluví o člověku jazykem vhodným pro
+systém, čte se to jako větší jistota, než jaká existuje. Taková místa kniha opravuje, ne
+obhajuje.
+
+**Dvojí užití.** Kniha popisuje rozpoznatelnou strukturu útoků na poznání a popisuje ji proto, aby
+je čtenář poznal. Totéž porozumění je použitelné i opačně, což je problém, který kniha nemá
+vyřešený a pojmenovává ho v hesle [dual-use poznání](@/glossary/dual-use-poznani.md). Z původu
+v projektu, který rozhodoval o lidech a organizacích, je toto riziko bližší, ne vzdálenější.
+
+## Proč kapitola zůstává
+
+Odstranit ji by bylo snazší. Zůstává proto, že kniha jinde trvá na tom, že epistemický profil
+tvrzení zahrnuje jeho zdroj, a bylo by nekonzistentní uplatňovat to na cizí tvrzení a na vlastní
+ne. Čtenář má právo vědět, že text, který ho učí nedůvěřovat jedinému zdroji, vznikl v jediném
+kontextu, a že ten kontext zanechal v textu stopy, které autor nemusí vidět celé.
+
+Jméno onoho projektu v knize není, a to je záměr, ne opomenutí: pro čtenáře je bez užitku a
+odkazoval by na neveřejný systém. Co má význam, je ta vlastnost, kterou pojmenovává tato kapitola
+— že kniha má původ, a tedy i jeho zkreslení.
+
+## Proč je původ textu součástí jeho důkazní hodnoty
+
+Posuzovat tvrzení bez ohledu na to, odkud přišlo, zní jako ctnost, ale v praxi to nejde. Čtenář
+nemá přístup k datům, z nichž text vznikl; má přístup k textu a k tomu, co o sobě text prozradí.
+Proto je původ součástí toho, co lze o tvrzení zjistit: ne jako argument proti němu, ale jako
+informace o tom, jaké chyby jsou v něm pravděpodobné. Kniha tuto zásadu uplatňuje na materiál,
+který popisuje — u hesla [testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md)
+i tam, kde váží spolehlivost zdrojů —, a bylo by nekonzistentní vyjmout z ní sebe samu
+(*interpretace knihy*).
+
+Z původu v technickém projektu plynou tři pravděpodobné chyby, a každá je v knize dohledatelná.
+První je **přesnost tam, kde není**: software vyžaduje jednoznačné hodnoty, a text psaný v takovém
+prostředí má tendenci uvádět čísla i tam, kde zdroj neexistuje. Druhá je **mechanistický výklad
+člověka**: popis, který se hodí pro systém, přenesený na osobu, tvrdí o ní víc, než kolik je
+doloženo. Třetí je **přeceňování architektury**: sklon věřit, že dobře rozvržená kategorizace je
+tím i empiricky platná. Žádná z nich není hypotetická; všechny tři se v dřívějších verzích textu
+vyskytovaly a byly opravovány.
+
+## Čím kniha není a co z toho plyne pro revizi
+
+Kuhn (1962) popsal, že vědecké rámce se nemění hromaděním dílčích poznatků, ale přestavbou toho,
+co se vůbec počítá za otázku a za doklad. Z toho kniha nevyvozuje, že její kategorie jsou
+předběžné jen formálně: vyvozuje, že revidovatelnost musí být zapsaná ve způsobu, jakým jsou
+kategorie napsané — každá rodina pojmenovaná tak, aby šlo říct, co by ji vyvrátilo, a každé heslo
+oddělující doloženou část od vlastní interpretace. Kde to text nedělá, je to vada, ne styl.
+
+Klasické diagnostické manuály revidují v dlouhých cyklech: mezi čtvrtým a pátým vydáním
+diagnostického manuálu (American Psychiatric Association, 1994; American Psychiatric
+Association, 2013) uplynulo devatenáct let, a to
+při podstatně větším aparátu, než má tato kniha. Kompendium z toho nevyvozuje svou převahu —
+dlouhý cyklus manuálu je důsledkem nároků na konsenzus, které kniha nemá. Vyvozuje jen, že text
+bez institucionální kontroly potřebuje vlastní zábrany, a popisuje je v kapitole
+[Jak kompendium používat](@/kompendium/01-predmluva/jak-pouzivat.md) a v hesle
+[epistemická bezpečnost](@/glossary/epistemic-security.md).
+
+## Literatura
+
+- American Psychiatric Association (1994). *Diagnostic and Statistical Manual of Mental
+  Disorders* (4. vyd.). Washington, DC: APA.
+- American Psychiatric Association (2013). *Diagnostic and Statistical Manual of Mental
+  Disorders* (5. vyd.). Arlington, VA: APA.
+- Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. Chicago: University of Chicago
+  Press.
 
 ## Související
 
+**Rámec knihy**
+
+- [Pro koho je kompendium určeno](@/kompendium/01-predmluva/pro-koho-je-urceno.md)
 - [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md)
-- [Pro koho je určeno](@/kompendium/01-predmluva/pro-koho-je-urceno.md)
-- [Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md)
-- [Jak používat toto kompendium](@/kompendium/01-predmluva/jak-pouzivat.md)
-- [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md)
-- [Definice epistemické a kognitivní anihilace](@/kompendium/02-uvod/definice.md)
-- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Sekce 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-- {{ <cross_link path="/hub/dd/decisions/calibration/" text="Calibration Dashboard" /> }}
-- {{ <cross_link path="/hub/dd/" text="PrismaticDD" /> }}
-- [OSINT Framework](https://prismatic-reality-com.github.io/prismatic-promo/osint/)
-- [Glossary: NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Glossary: Color Teams](@/glossary/color-teams.md)
-- [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-- [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
+- [Jak kompendium používat](@/kompendium/01-predmluva/jak-pouzivat.md)
 
-## Kritický krok
+**Status kategorií**
 
-**Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj
-souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi
-[etickým aspektům](@/kompendium/01-predmluva/eticke-aspekty.md), a víš, **kdy
-materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní rámec).
+- [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- [Replikační krize](@/glossary/replication-crisis.md)
+- [Falsifikace](@/glossary/falsifikace.md)
 
-> **Mandatorní akce**: vrať se na tuto stránku až poté, co tyto tři body
-> projdeš. Bez nich kompendium operuje mimo svůj zamýšlený etický rámec.
+**Etika a rizika**
+
+- [Dual-use poznání](@/glossary/dual-use-poznani.md)
+- [Epistemická bezpečnost](@/glossary/epistemic-security.md)
+- [Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md)

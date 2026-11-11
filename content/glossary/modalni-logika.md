@@ -8,7 +8,7 @@ tags = ["glossary", "kompendium", "philosophy", "epistemic", "mathematics"]
 
 [extra]
 category = "philosophy"
-related_terms = ["logicka-koherence", "inference", "logic-prolog", "trinity-gate", "tautologie", "self-reference"]
+related_terms = ["logicka-koherence", "inference", "logic-prolog", "tautologie", "self-reference"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
@@ -44,9 +44,7 @@ ve všech světech dostupných z daného světa, a možný, platí-li aspoň v j
 von Wright** položil základy deontické logiky („Deontic Logic“, 1951), **Jaakko Hintikka**
 logiky epistemické (*Knowledge and Belief*, 1962) a **Arthur Prior** logiky temporální.
 
-V Prismatic Platform, z níž Kompendium vzešlo, se formální logika uplatňuje při ověřování
-tvrzení ([Trinity Gate](@/glossary/trinity-gate.md), [Logic Prolog](@/glossary/logic-prolog.md));
-pro knihu je podstatná především její schopnost zpřesnit, co přesně kdo tvrdí.
+Pro knihu je na modální logice podstatná především schopnost zpřesnit, co přesně kdo tvrdí.
 
 ## Jak se projevuje
 
@@ -143,8 +141,7 @@ modality, poprvé viděl, že tvrzení zesilovalo samo, bez důvodů.
 - [EA-5.4.23 Aplikace modálního paradoxu](@/kompendium/techniques/ea-5-4-23-modalni-paradox-aplikace.md)
   – nesplnitelné požadavky.
 
-**Platforma a ověřování**
+**Ověřování tvrzení**
 
-- [Trinity Gate](@/glossary/trinity-gate.md) – formální ověřování tvrzení v Prismatic Platform.
 - [Sebe-obrana: Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md)
   – praktické ověření, co je skutečně doloženo.

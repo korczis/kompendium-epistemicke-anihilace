@@ -102,9 +102,8 @@ plochou, na niž manipulace dosedá, a obranou nemůže být „méně ToM“, p
 duševních stavů není možná spolupráce vůbec (Apperly, 2011). *Interpretace knihy*: řešením
 je ToM s **výslovným předpokladem o pravděpodobnosti manipulace v daném prostředí**, tedy
 nikoli nedůvěra k osobám, ale kalibrace podle kontextu; v knize ji popisuje signatura
-[tom-kalibrace](@/kompendium/detection-signatures/tom-kalibrace.md) a v rozhodovacím rámci
-[Decision Engine](@/glossary/decision-engine.md) se uplatňuje v kontextech s vysokou sázkou,
-například při [due diligence](@/glossary/due-diligence.md). Takový předpoklad je pomůckou
+[tom-kalibrace](@/kompendium/detection-signatures/tom-kalibrace.md); uplatňuje se v kontextech
+s vysokou sázkou, například při [due diligence](@/glossary/due-diligence.md). Takový předpoklad je pomůckou
 pro rozvržení pozornosti a zdrojů, ne podkladem k podezírání konkrétních lidí (Dennett,
 1987).
 

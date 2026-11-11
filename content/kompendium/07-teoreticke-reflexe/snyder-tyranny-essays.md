@@ -194,7 +194,6 @@ Otevřenou otázkou zůstává, nakolik individuální ctnosti dokáží vyváž
 - [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) – propaganda objemem a rozporem.
 - [LTI (Lingua Tertii Imperii)](@/glossary/lti-lingua-tertii-imperii.md) – Klempererova analýza jazyka nacismu.
 - [Delegitimizace](@/glossary/delegitimizace.md) – útok na instituce a jejich důvěryhodnost.
-- [Color Teams](@/glossary/color-teams.md) – simulace protivníka jako preventivní nástroj.
 
 **Obrana a zotavení**
 

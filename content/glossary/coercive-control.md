@@ -160,14 +160,9 @@ diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
 Coercive control dokládá, že **soustavná manipulace nepotřebuje formální organizační
 strukturu**: jediný pachatel může v soukromí dvojice zavést režim podobný totalitnímu
 (Stark, 2007). Pro posuzování výpovědí z toho plyne, že svědectví lidí z takových vztahů
-může závažnost spíše podhodnocovat, protože se oběť kontrole dlouhodobě přizpůsobuje;
-na platformě, z níž kniha vzešla, proto [Decision Engine](@/glossary/decision-engine.md)
-v době zápisu označoval takové informace jako vyžadující zvýšenou kontrolu původu.
+může závažnost spíše podhodnocovat, protože se oběť kontrole dlouhodobě přizpůsobuje.
 Nedůvěra k oběti může naopak sama působit jako druhá vlna poškození, jak ukazuje heslo
 [Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) (Fricker, 2007).
-Protokoly [Blue Teamu](@/glossary/blue-team.md) v rámci [Color Teams](@/glossary/color-teams.md) v době zápisu
-zahrnovaly screening donucující kontroly při modelování aktérů, kteří jednají
-prostřednictvím jiných osob, například zneužitých rodinných příslušníků nebo partnerů.
 
 ## Obrana a zotavení
 

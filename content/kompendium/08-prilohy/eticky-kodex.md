@@ -67,7 +67,6 @@ Tento kodex operacionalizuje cestu mezi těmito riziky. Není to seznam pravidel
 
 **Operacionalizace**:
 
-- **Zákaz indukčních experimentů** mimo přísně kontrolované adversariální simulace ([Color Teams](@/glossary/color-teams.md)) s placebo-kontrolou a okamžitou debrífáží.
 - Pokud je deception nezbytný (vzácné, vyžaduje IRB schválení): **debriefing** musí být úplný, okamžitý, a doprovázený nabídkou klinické podpory.
 
 ### 4. Transparentní limitace
@@ -208,6 +207,20 @@ Tento kodex je **kompatibilní s** a **rozšiřuje** následující rámce:
 - **GDPR** (EU 2016/679) — pro datovou ochranu
 - **Etické směrnice ČR** (Český národní etický komitét)
 
+## Co kodex nezaručuje
+
+Dodržení dvanácti bodů neprokazuje, že konkrétní výzkum neublížil: kodex posuzuje postup, nikoli
+výsledek, a schválení komisí je dokladem o procesu, ne o dopadu na účastníka. Stejně tak nelze
+informovaný souhlas považovat za vyřízený tím, že byl podepsán — poškození, jímž se tento výzkum
+zabývá, zasahuje právě schopnost souhlas udělit, a tato mez je součástí rámce, který popisují
+[etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
+
+Druhou mezí je asymetrie adresáta. Kodex váže výzkumníka, nikoli toho, kdo by poznání zneužil, a
+riziko zneužití proto neodstraňuje; rozhoduje jen o tom, co a v jaké podobě se zveřejní. Defenzivní
+orientace publikace tedy není stylistickou volbou, nýbrž jediným místem, kde kodex na toto riziko
+skutečně dosáhne — rozsah takové volby vymezují
+[metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
+
 ## Vazby na další přílohy
 
 - [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární prameny pro etické rámce.
@@ -215,11 +228,8 @@ Tento kodex je **kompatibilní s** a **rozšiřuje** následující rámce:
 - [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) — dimenze rizika ovlivňující IRB klasifikaci.
 - [Rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) — úrovně přístupu (L1–L4) a etické předpoklady per kapitola.
 
-## Platformový kontext
+## Filozofický základ
 
-- [Color Teams](@/glossary/color-teams.md) — [Red Team](@/glossary/red-team.md) adversariální simulace operuje pod tímto kodexem.
-- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — kalibrace důvěry respektuje epistemické autonomie.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) — L11–L13 [epistemic pipeline](@/glossary/epistemic-pipeline.md) implementuje epistemic integrity.
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md) — filozofický základ tohoto kodexu.
 
 ## Kritický krok

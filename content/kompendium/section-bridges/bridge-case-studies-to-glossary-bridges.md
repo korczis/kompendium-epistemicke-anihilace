@@ -65,7 +65,7 @@ Druhým omylem je **hledat v mostu glosáře „správné“ zařazení případ
 
 Třetím omylem je **zobecňovat z jednoho případu**. Most je navržen tak, aby vedl zpět k dalším případům; teprve srovnání odhalí, co je pro vzorec podstatné.
 
-Čtvrtým omylem je **přehlížet platformové mosty**. Některé mosty glosáře se týkají pojmů z prostředí Prismatic Platform; v souvislosti s případy jsou užitečné jen tam, kde vysvětlují obecný princip, například triangulaci zdrojů.
+Čtvrtým omylem je **přehlížet mosty mezi oddíly**. Některé mosty glosáře se týkají pojmů z prostředí Prismatic Platform; v souvislosti s případy jsou užitečné jen tam, kde vysvětlují obecný princip, například triangulaci zdrojů.
 
 ## Meze a otevřené otázky
 

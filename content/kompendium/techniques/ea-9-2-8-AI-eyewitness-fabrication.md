@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.2 Generativní média
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -73,6 +72,15 @@ Ověřovací metody (geolokace, chronolokace) jsou účinné, ale vyžadují ča
 Kniha neuvádí čísla o četnosti fabrikovaných událostí, protože spolehlivá srovnávací data chybějí; dostupné jsou hlavně případové analýzy ověřovacích týmů a výzkumných skupin. Otevřené zůstává i to, jak se změní práce zpravodajů, až bude generování videa běžné a levné.
 
 Otevřená zůstává i otázka mezinárodní spolupráce, protože fabrikace často vznikají mimo jurisdikci země, které se týkají.
+
+Rozpoznání fabrikace neprokazuje, kdo ji vyrobil ani proč; přiřazení původu je samostatná úloha a
+potřebuje jiné doklady než samotný obraz. Nejistota o pravosti záběru také není dokladem, že je
+záběr falešný — Vaccari a Chadwick (2020) upozorňují, že škoda vzniká právě z této nejistoty,
+nikoli až z přesvědčení o nepravdě.
+
+*Interpretace knihy*: obrácený omyl je stejně vážný. Prohlásit svědectví skutečného člověka za
+fabrikaci je důsledkem téhož vzorce, který Chesney a Citron (2019) popsali jako plošnou ztrátu
+důvěryhodnosti záznamu; posouzení proto patří ověřovacím postupům, ne první domněnce.
 
 ## 10. Pohled zevnitř a práce s postiženým
 

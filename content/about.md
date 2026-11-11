@@ -45,10 +45,11 @@ historií** commitů:
 Přehled linií a postup hledání popisuje
 [`archive/README.md`](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/archive/README.md).
 
-Odkazy na stránky, které do knihy nepatří (vývojářský portál, akademie, architektura platformy),
+Odkazy na stránky, které do knihy nepatří (architektura platformy a dřívější veřejné vydání knihy),
 vedou na původní veřejný web
 [prismatic-reality-com.github.io/prismatic-promo](https://prismatic-reality-com.github.io/prismatic-promo/).
-Odkazy na interní aplikaci platformy jsou ponechány jako text se značkou.
+Odkaz na vývojářský portál byl z patiček odstraněn (rozhodnutí vlastníka, ADR 0007). Kniha už
+nikde neodkazuje na interní aplikaci platformy.
 
 ## Jak je web sestaven
 

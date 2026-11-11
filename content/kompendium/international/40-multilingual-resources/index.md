@@ -198,5 +198,4 @@ nástrojů a jazyků a jejich výsledky rychle zastarávají s vývojem technolo
 
 - [Epistemická injustice](@/glossary/epistemicka-injustice.md) – nedostupnost informací
   v jazyce oběti jako forma nespravedlnosti.
-- [Signal plurality](@/glossary/signal-plurality.md) – proč ověřovat z více nezávislých
   zdrojů.

@@ -93,10 +93,9 @@ omezením.
 
 ## Význam pro Kompendium
 
-[Decision Engine](@/glossary/decision-engine.md) platformy považuje zprávy o vzorcové neschopnosti
-v kontextech opakované interakce za kalibrační signál: kalibrační přehled označuje osoby, které
-uvádějí trvalou mezeru mezi přisuzovanou kompetencí a předváděným výkonem v blízkých vztazích nebo
-v hierarchických pracovních kontextech. V knize pojem vysvětluje část kazuistik partnerského
+Zprávy o vzorcové neschopnosti v kontextech opakované interakce jsou kalibračním signálem:
+ukazují trvalou mezeru mezi přisuzovanou kompetencí a předváděným výkonem v blízkých vztazích
+nebo v hierarchických pracovních kontextech. V knize pojem vysvětluje část kazuistik partnerského
 a pracovního vyčerpání a souvisí se zásadou, že epistemická škoda nemusí vzniknout lží, ale
 i soustavným „nedokážu“.
 
@@ -147,7 +146,7 @@ Prakticky:
 **Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

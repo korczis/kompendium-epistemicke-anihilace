@@ -54,8 +54,6 @@ Strukturu výchozího stavu a výzvy může narušit i zneužití povinnosti zd�
 
 Třetí interpretace navazuje na Frickerovou. [Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) znamená, že mluvčímu je kvůli předsudku přiznána menší důvěryhodnost; v Brandomově jazyce mu není přiznáno oprávnění, které by jinému za stejných okolností náleželo, a jeho svědectví nemohou ostatní převzít (Fricker, 2007). Kniha tento posun pokládá za jeden z mechanismů, jimiž se z člověka postupně stává ten, komu se nevěří, a to i ve vlastních očích.
 
-V rámci platformy, z níž kniha vzešla, se Brandomova myšlenka zviditelnění závazků promítá do požadavku, aby rozhodovací záznam ([Decision Core](@/glossary/decision-core.md)) uchovával inferenční řetězec a aby rozpory zachycené v systému [NABLA Infinity](@/glossary/nabla-infinity.md) byly řešeny výslovně, nikoli tichým přepsáním. Jde o aplikaci inspirovanou Brandomem, nikoli o jeho vlastní návrh (Brandom, 1994).
-
 ## Rozpoznání, obrana a klinický rámec
 
 Z inferencialistické perspektivy jsou rozpoznávacími znaky manipulace v rozhovoru opakovaná nejistota, co člověk vlastně řekl, neochota protistrany vyslovit, k čemu se zavazuje, a výzvy ke zdůvodnění, které se nikdy neuspokojí. Je třeba je odlišit od běžných nedorozumění, od rozdílných jazykových zvyklostí a od legitimní kritiky, která se ptá po důvodech, protože jim chce porozumět (Brandom, 2000; Walton, 2008).
@@ -105,5 +103,3 @@ Otevřené zůstává, zda lze Brandomovu teorii, vytvořenou pro idealizovaný 
 - [Komunikativní racionalita](@/glossary/communicative-rationality.md) – Habermasův protějšek pragmatiky.
 
 **Platforma**
-
-- [Decision Core](@/glossary/decision-core.md) – záznam inferenčního řetězce rozhodnutí.

@@ -492,8 +492,6 @@ Taxonomie **není** dokončený artefakt — je **živý systém**. Klíčové o
 - [Glosář: Taxonomie EA](@/glossary/taxonomie-ea.md)
 - [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
-- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Glosář: Epistemic Pipeline](@/glossary/epistemic-pipeline.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 
 ## Kritický krok

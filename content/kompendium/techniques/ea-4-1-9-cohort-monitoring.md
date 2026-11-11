@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 Stránka slouží rozpoznání vzorce, nikoli jeho provedení.
 
-Rámec stanoví [doktrína platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+Rámec stanoví [doktrinální rámec knihy](@/kompendium/02-doktrinalni-ramec/_index.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ## Struktura vzorce
 

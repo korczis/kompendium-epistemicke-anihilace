@@ -58,8 +58,6 @@ Logika „části před celkem“ platí i obráceně: obnovené části samy ne
 - Přístup minimalizuje [iatrogenní újmu](@/glossary/iatrogenic-harm.md) tím, že odkládá výkladovou práci, dokud není obnovena hodnoticí schopnost.
 - Cílí na [narativní identitu](@/glossary/narrative-identity.md) až po obnově částí, z nichž se hodnocení vyprávění skládá.
 - Řeší [metakognitivní destrukci](@/glossary/metakognitivni-destrukce.md) přímo ve fázi 2 obnovou metakognitivního monitoringu jako samostatné funkční schopnosti.
-- Na platformě Prismatic, z níž kniha vzešla, odpovídá stejné logice [Decision Engine](@/glossary/decision-engine.md): hodnocení zdrojů, sledování falzifikovatelnosti a kontrola původu jsou implementovány jako samostatné části, než se spojí do složeného skóre jistoty. Architektonický vzor vychází ze stejného poznatku: z narušených částí nevznikne spolehlivý celek.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) obdobně vynucuje integritu částí (původ podle zdroje, falzifikovatelnost podle tvrzení) před integrací celku (souhrnná jistota).
 
 Mereologická rekonstrukce je **charakteristickým konstruktivním přínosem** Kompendia: nejen popisem poškození, ale strukturovanou cestou k obnově, která respektuje specifickou architekturu újmy navozené EA. Jako každý nový přístup potřebuje empirické ověření; kniha jej předkládá jako klinicky zdůvodněný rámec, ne jako ověřenou léčebnou metodu.
 

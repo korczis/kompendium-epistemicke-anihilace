@@ -4,7 +4,7 @@ description = "Jak platforma Prismatic uchovává význam, pravdivost a integrit
 weight = 25
 
 [taxonomies]
-tags = ["philosophy", "epistemology", "integrity", "ghl", "nabla"]
+tags = ["philosophy", "epistemology", "integrity", "ghl"]
 
 [extra]
 # Taxonomies moved to extra section for section files
@@ -35,13 +35,11 @@ last_enhanced = "2026-02-23"
 
 # Cross-references
 related_articles = ["ghl-framework", "intellectual-sovereignty", "ceremonial-computing", "boundary-ethics"]
-glossary_terms = ["epistemic-integrity", "meaning-preservation", "nabla-infinity", "trinity-gate"]
-see_also = ["capabilities", "about/author", "glossary/nabla-infinity"]
+glossary_terms = ["epistemic-integrity", "meaning-preservation"]
+see_also = ["capabilities", "about/author"]
 
 # Category-specific metadata
 philosophy_level = "foundational"
-epistemic_framework = "NABLA Infinity"
-verification_model = "Trinity Gate"
 date_created = "2026-02-23"
 date_updated = "2026-02-23"
 date_modified = "2026-02-23"
@@ -60,10 +58,6 @@ a provenienci poznání** napříč časem, kontextem a výkladem. V platformě 
 projevuje jako přísný rámec, který zajišťuje, aby si informace udržela zamýšlený význam od
 vzniku až po užití, aby se rozpory uchovávaly, a ne potlačovaly, a aby každé tvrzení šlo
 vystopovat k jeho důkazním základům.
-
-Tato filozofie se propojuje s epistemickým rámcem [NABLA Infinity](@/glossary/nabla-infinity.md),
-s ověřovacím systémem [Trinity Gate](@/glossary/trinity-gate.md) a s licencí General Honest
-License a dohromady tvoří ucelený přístup k integritě poznání v softwarových systémech.
 
 ## Krize významu v softwaru
 
@@ -150,8 +144,7 @@ Druhý princip vyžaduje, aby se rozpory uchovávaly, a ne předčasně řešily
 #### Závislost na konzistenci
 
 Lidské poznávání má silnou potřebu rozpory odstraňovat, i když to vyžaduje zahodit platné
-důkazy. Na tento sklon odpovídá [doktrína](@/glossary/doctrine.md) uchování rozporů
-platformy Prismatic:
+důkazy. Na tento sklon odpovídá zásada uchování rozporů:
 
 - **Obě strany zachovány:** protichůdné signály se uchovávají současně.
 - **Žádné předčasné rozhodnutí:** rozpory se neřeší, dokud není dost důkazů.
@@ -190,29 +183,6 @@ Každý závěr musí být se svými premisami spojen výslovným uvažováním:
 - **Šíření nejistoty:** nejistota se řetězci šíří správně.
 - **Alternativní cesty:** konkurenční řetězce uvažování se uchovávají.
 
-#### Body ověření
-
-```yaml
-verification_framework:
-  trinity_gate:
-    structural_consistency:
-      description: "Belief network forms valid directed acyclic graph"
-      enforcement: "mandatory"
-
-    logical_consistency:
-      description: "Propositions follow logical rules without contradiction"
-      enforcement: "mandatory"
-
-    formal_necessity:
-      description: "Claims proven through formal systems (modal logic, Lean4)"
-      enforcement: "mandatory_for_critical"
-```
-
-Strukturální konzistence (síť přesvědčení tvoří platný orientovaný acyklický graf) a logická
-konzistence (výroky se bez rozporu řídí logickými pravidly) jsou povinné vždy; formální
-nutnost (tvrzení dokázaná formálními systémy, např. modální logikou nebo v Lean4) je povinná
-u kritických tvrzení.
-
 ### 4. Časové vědomí
 
 Čtvrtý princip uznává, že význam existuje v čase a musí být chráněn i přes časové hranice.
@@ -234,84 +204,6 @@ Minulé stavy musí být možné uchovat a odlišit od současných:
 - **Sledování oprav:** jasná dokumentace chyb a jejich oprav.
 - **Uchování kontextu:** historický kontext se uchovává spolu s historickými přesvědčeními.
 - **Žádný revizionismus:** minulé chyby se přiznávají, neopravují se potichu.
-
-## Začlenění NABLA Infinity
-
-### Sedm nezpochybnitelných axiomů
-
-Epistemickou integritu v platformě Prismatic vynucuje sedm
-[axiomů NABLA](@/glossary/nabla-axioms.md):
-
-| Axiom | Popis | Vynucení |
-|-------|-------|----------|
-| **[Pluralita signálů](@/glossary/signal-plurality.md)** (*Signal Plurality*) | Pro každé přesvědčení nejméně 2 signály | TVRDÉ – blokuje, dokud není splněno |
-| **Uchování rozporů** (*Contradiction Preservation*) | Obě strany zachovány, nikdy zahozeny | TVRDÉ – blokuje, dokud není potvrzeno |
-| **Informativní absence** (*Absence Informative*) | Chybějící signály se evidují jako data | MĚKKÉ – zapisují se varování |
-| **Časový úbytek** (*Time Decay*) | Povinné časové značky u všech přesvědčení | TVRDÉ – blokuje, dokud nejsou doplněny |
-| **Platné „nevím“** (*Unknown Valid*) | „Nevím“ je legitimní odpověď | TVRDÉ – blokuje, dokud není přiznána nejistota |
-| **Nezávislost zdrojů** (*Source Independence*) | Nezávislé zdroje mají vyšší váhu | MĚKKÉ – vyžaduje posouzení zkreslení |
-| **Povinná provenience** (*Provenance Mandatory*) | Každé přesvědčení musí být dohledatelné | TVRDÉ – blokuje, dokud není doplněna |
-
-### Protokol vynucování
-
-```yaml
-enforcement_levels:
-  E1:
-    trigger: "Single axiom soft violation"
-    response: "Warning + correction request"
-    authority: "Agent"
-
-  E2:
-    trigger: "Single axiom hard violation"
-    response: "BLOCK + rejection"
-    authority: "System"
-
-  E3:
-    trigger: "Trinity Gate failure"
-    response: "HALT + review required"
-    authority: "Supreme"
-
-  E4:
-    trigger: "Multiple axiom violations"
-    response: "Investigation + audit"
-    authority: "Cosmic"
-```
-
-Úroveň E1 (měkké porušení jednoho axiomu) vede k varování a žádosti o opravu a rozhoduje
-o ní agent; E2 (tvrdé porušení jednoho axiomu) vede k zablokování a odmítnutí na úrovni
-systému; E3 (selhání Trinity Gate) k zastavení s povinnou revizí na úrovni „Supreme“; E4
-(porušení více axiomů) k šetření a auditu na úrovni „Cosmic“.
-
-### Trinity Gate
-
-Všechna významná tvrzení musejí projít třemi nezávislými ověřovacími branami.
-
-#### Brána 1: Strukturální konzistence
-
-Síť přesvědčení musí tvořit platný orientovaný acyklický graf (DAG):
-
-- žádné kruhové závislosti mezi přesvědčeními,
-- všechna přesvědčení jsou spojena s důkazními základy,
-- žádná osiřelá tvrzení bez podpůrných důkazů,
-- topologie sítě potvrzuje logickou strukturu.
-
-#### Brána 2: Logická konzistence
-
-Výroky se musejí řídit logickými pravidly:
-
-- žádné vnitřní rozpory v přijatém souboru přesvědčení,
-- pravidla vyvozování jsou správně použita,
-- logika kvantifikátorů je správně strukturována,
-- modální tvrzení jsou správně kvalifikována.
-
-#### Brána 3: Formální nutnost
-
-Kritická tvrzení vyžadují formální matematický důkaz:
-
-- důkazy vět v Lean4 pro strukturální tvrzení,
-- důkazy v modální logice pro tvrzení o nutnosti,
-- statistické ověření pro empirická tvrzení,
-- kryptografické důkazy pro tvrzení o integritě.
 
 ## Epistemická integrita v praxi
 
@@ -450,8 +342,7 @@ Rozšíření principů epistemické integrity mimo software:
 
 Ve světě zprostředkovaném informacemi není epistemická integrita volitelná. Jak softwarové
 systémy stále víc zprostředkovávají náš vztah k poznání, stává se uchování významu
-**základní etickou povinností**. Závazek platformy Prismatic k epistemické integritě –
-prostřednictvím axiomů NABLA Infinity, ověřování v Trinity Gate a ochranných mechanismů GHL –
+**základní etickou povinností**. Závazek platformy Prismatic k epistemické integritě
 představuje ucelený přístup k této povinnosti.
 
 ### Výzva k epistemické odpovědnosti
@@ -486,12 +377,6 @@ informacích.
   hranice, které uchování významu zajišťují.
 - [Intelektuální suverenita a autorská nezávislost](@/philosophy/intellectual-sovereignty.md)
   – autor jako epistemická autorita nad dílem.
-
-**Pojmy platformy**
-
-- [NABLA Axioms](@/glossary/nabla-axioms.md) – úplné znění sedmi axiomů z tabulky.
-- [Signal Plurality](@/glossary/signal-plurality.md) – axiom dvou nezávislých signálů.
-- [Trinity Gate](@/glossary/trinity-gate.md) – tři ověřovací brány významných tvrzení.
 
 **Kniha**
 

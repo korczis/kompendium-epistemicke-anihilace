@@ -93,7 +93,7 @@ obtížný, protože mimo skupinu je podle doktríny „tma“.
 
 Stav je mimořádně odolný vůči vnější korekci, protože doktrína předem vysvětluje každý
 protiargument jako projev „jeskyně“. Lifton (1961) označil tento rys jako nadřazenost
-doktríny nad osobou (*[doctrine](@/glossary/doctrine.md) over person*): kde se zkušenost člověka a doktrína
+doktríny nad osobou (*doctrine over person*): kde se zkušenost člověka a doktrína
 rozcházejí, chybuje vždy zkušenost. Lalichová (2004) popsala, jak členové skupin uvnitř
 takového rámce jednají racionálně – jejich volby jsou „ohraničené“ (*[bounded choice](@/glossary/bounded-choice.md)*),
 protože alternativy byly předem vyloučeny jako iluze. Z hlediska obrany to znamená, že

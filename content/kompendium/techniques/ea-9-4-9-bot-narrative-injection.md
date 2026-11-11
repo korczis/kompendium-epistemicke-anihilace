@@ -32,7 +32,6 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
 **Subkategorie:** 9.4 Bot networks
 **Doména:** Digitální / AI-mediated EA
 **Risk level:** Moderate-High
-**[Doctrine](@/glossary/doctrine.md) alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
 
 ## 2. Definice
 
@@ -117,6 +116,8 @@ Pro výuku je užitečné porovnat diskusi pod tímtéž příspěvkem s koment�
 Efekt ukotvení popsali Tversky a Kahneman (1974): první informace ovlivňuje odhad a úsudek i tehdy, když je náhodná. Nejvýše řazený komentář funguje jako kotva pro čtení příspěvku. Entman (1993) definoval rámování jako zdůraznění určitých aspektů skutečnosti tak, aby se prosadila určitá definice problému a hodnocení; vložený komentář dělá přesně to, aniž by byl rozpoznán jako tvrzení. Lakoff a Johnson (1980) ukázali, že rámce se skrývají v běžných výrazech a metaforách, a proto působí, i když je čtenář nevnímá.
 
 Ferrara et al. (2016) upozornili, že boti mohou ovlivnit diskuse nejen obsahem, ale i manipulací se signály popularity, jako jsou hlasy a sdílení. Kombinace obou – první komentář a jeho umělé zesílení – vytváří zdání, že „většina“ čte příspěvek určitým způsobem. Kniha z toho vyvozuje, že obrana stojí na řazení odolném vůči koordinaci a na čtenářích, kteří se nejdřív seznámí s obsahem.
+
+Vložený rámec se nepozná podle toho, že lže, ale podle toho, že mění otázku: pod příspěvkem o rozhodnutí se nejvýše řazený komentář netýká rozhodnutí, nýbrž motivů toho, kdo je oznámil. Právě proto nefunguje obvyklá obrana faktickou opravou – opravovat není co. Opora v literatuře je zde analogická, ne přímá: Tversky a Kahneman (1974) zkoumali ukotvení u číselných odhadů v nejistotě, zatímco zde jde o ukotvení výkladu textu. Že nejvýše řazený komentář působí jako kotva, je proto výklad mechanismu, nikoli prokázaný přenos jejich výsledku. *Interpretace knihy*: podstatná není pozice komentáře, ale to, že ji čtenář čte jako souhrn mínění ostatních.
 
 ## Souvislosti pro praxi
 

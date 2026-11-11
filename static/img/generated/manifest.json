@@ -29,8 +29,8 @@
   },
   "og-glossary.png": {
    "height": 630,
-   "sha256": "bebf6db1d47895b0a0c6182f63e0767cb151383e251cb9dcf186ac814105007c",
-   "source_sha256": "9cb5fb932480966ee36bf326188a13a9db7426b114fc915d689742ff1d226b55",
+   "sha256": "29abf60df2b5c519540b53348c2c476ede5f6fb647c60a0a0439b14d3f3f3222",
+   "source_sha256": "a11fdf0af25dd51d49ee0d95d4a62fe8b906dc7b0699de1e1940ced6980a1ad1",
    "width": 1200
   },
   "og-kompendium-01-predmluva.png": {
@@ -159,12 +159,6 @@
    "source_sha256": "a95ecce24ea41b184f13a09ab4e616e53996d9a4e1d20d30e8c85f4365032a33",
    "width": 1200
   },
-  "og-kompendium-aiad-integration.png": {
-   "height": 630,
-   "sha256": "0e50c79aa844f91af8bdc9c9b1fe95fe0c43f9a89dde9edcbac206fed0ccb7c7",
-   "source_sha256": "1f8c83e421bec6d3f5a680790f72dd9a44356dd61ac8a54493eaa4561382f6cb",
-   "width": 1200
-  },
   "og-kompendium-case-studies.png": {
    "height": 630,
    "sha256": "9aaea930a629a4a3ac56c55e5e36118899370c386f58dfb1b890a26fc7c9a03b",
@@ -209,8 +203,8 @@
   },
   "og-kompendium-glossary-bridges.png": {
    "height": 630,
-   "sha256": "e325873f5ad901a06145f5a7cfa3e1e3478b568a927a058c982bf67a61f9b26f",
-   "source_sha256": "5865e4f1cdee4b0af43eb8a133496756bbae22eeae5faa9b7790356c77815072",
+   "sha256": "fe5d5259d21aa01166b4b2d53f3cbadb4e15652455f2b37edab15668835bab62",
+   "source_sha256": "a8d73367663665b39332ef6ae00009bfab53112180b1c318d7f4c4160b6d4dd4",
    "width": 1200
   },
   "og-kompendium-historical-cases.png": {
@@ -275,8 +269,8 @@
   },
   "og-kompendium-section-bridges.png": {
    "height": 630,
-   "sha256": "70d35f147b86ecf98e099dc5c5e3e5838e4e3423b667fc7e443f1da8fedbf3ef",
-   "source_sha256": "256b7c61e9b79dcec21aed74b508e9e8eb1a4c794d071938e5203adabeda24d0",
+   "sha256": "4533d8f0f489f1da1f796aed8ed7caf30de82042f053fe7f15ea32792d7917ba",
+   "source_sha256": "d1b681e5c05a7bab8987687ded3d98c3a03b05f875cecfb55f828568de454ddc",
    "width": 1200
   },
   "og-kompendium-self-defense-guides.png": {
@@ -299,8 +293,8 @@
   },
   "og-kompendium.png": {
    "height": 630,
-   "sha256": "78d961392e5c1a933ae68b9fce673fb3844366a3286651ed151587fe60a0719d",
-   "source_sha256": "a82938a41f07ef341378045403fb82df1b252af9f659dc7ea336457ecebd8d07",
+   "sha256": "3b728b65046cba995b7f868d722edb4dc26f8d03861f94b9fdf25a78a6976996",
+   "source_sha256": "22b81c9a9d63b6c9ecd0a2fceef8ddbeb989648bf9fffdac598ff1cf61103006",
    "width": 1200
   },
   "og-philosophy.png": {
@@ -310,7 +304,7 @@
    "width": 1200
   },
   "section-glossary.svg": {
-   "sha256": "22e48887dbd6df79a816746c634b839ef9b97bd05fa33e664f304b0326db9dd7"
+   "sha256": "915c39d38dfda320e2beb719a4bec00622cd558e61167f1954329d1c48c61f47"
   },
   "section-kompendium-01-predmluva.svg": {
    "sha256": "d21995e8c121099c39fef0c36f1910d87343d718c585db28169b1f1986a772a4"
@@ -375,9 +369,6 @@
   "section-kompendium-08-prilohy.svg": {
    "sha256": "89f425d8a011e1dc9ee03ace3afa822f45b04bed289f8a92480ccac476a0fe66"
   },
-  "section-kompendium-aiad-integration.svg": {
-   "sha256": "89e90ee3280938cedfde2d54e7360a0af31f6001007dca9b2767c76965423045"
-  },
   "section-kompendium-case-studies.svg": {
    "sha256": "62c09121cf2c1260161e72dab91857170d77b87306f94758d6b3b557ea40def1"
   },
@@ -400,7 +391,7 @@
    "sha256": "e15197790fece1851c467f0675cb72e1b8db8ea2c54fc61a37f2c9fe43191087"
   },
   "section-kompendium-glossary-bridges.svg": {
-   "sha256": "d7b22dc634dbde855c48364c41d04b599bf91119b2e12054f12f4b86719cdb5c"
+   "sha256": "1574060bc8ce5b5a4ec6eaa2244de1e8e6816f27fbd93b189b66af0f488d8fe1"
   },
   "section-kompendium-historical-cases.svg": {
    "sha256": "8214b1ba64ef5801e35c8ebebff0c2a775b2d2662d0ebe71bf1f15f23cd45b79"
@@ -433,7 +424,7 @@
    "sha256": "157d5782822c30ec0e2865f03aa2c374b0cef9bfa238f2c37e415593ec657a85"
   },
   "section-kompendium-section-bridges.svg": {
-   "sha256": "05a67d0ccdb9cf37a788db5d0a1cc8794a1d1549c8e693c0e309f131c9f18b01"
+   "sha256": "0e954afeb75e68a58d2dac3efd3787d7904379fa0f993a6df6914a345683c97e"
   },
   "section-kompendium-self-defense-guides.svg": {
    "sha256": "39a5f0782f5dfe6cc9cd859de9e24bd0119a7d873173a27ef397f753a1ae33e3"
@@ -445,7 +436,7 @@
    "sha256": "7cd757b434f79d93ff190d7cbfa0ca8674801010963f0c75a96d06a0b0bf249a"
   },
   "section-kompendium.svg": {
-   "sha256": "fbc8ea34b91325ce82006c625913892502ee32d8113948787fdea4967d45cb4a"
+   "sha256": "c28c84a4b851f5a6778bc2ea8fa6d34d60b448d9472358634d8fa3e24f1f7437"
   },
   "section-philosophy.svg": {
    "sha256": "dc474292cf3cbb149c0b0f003661040c977973cac75f46dde6b5159b9cbfddae"

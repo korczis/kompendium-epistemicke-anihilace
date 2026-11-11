@@ -120,6 +120,10 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 | **Klinické rámce paradoxologie** | Terapeutická práce s paradoxy vyžaduje kvalifikaci v metalogice |
 | **Whistleblower kanály** | Anonymní hlášení manipulativní paradoxizace v akademickém a klinickém prostředí |
 
+## Co stránka nedokazuje
+
+Teze, že potvrzení tvrzení závisí na celku teorie, patří do epistemologie vědy a Duhem (1906) i Quine (1951) ji formulovali o vědeckých soustavách, nikoli o lidské mysli. Přenos na sebezakoušení je *interpretace knihy* a literatura mu neposkytuje jednoznačnou oporu: Fodor (1983) proti holistickému obrazu postavil tvrzení, že část kognitivních systémů je modulární, tedy že se vstupy zpracovávají relativně nezávisle na zbytku přesvědčení. Pro čtenáře z toho plyne mez: dojem, že „každá část mě je definována všemi ostatními a nemá vnějšek“, je zkušenost, kterou stránka popisuje, ne doložená vlastnost mysli – a terapeuticky je podstatné právě to, že vnějšek existuje.
+
 ## Vztah k jiným technikám
 
 ### Často se kombinuje s
@@ -170,15 +174,10 @@ Klíčové pojmové kotvy techniky: **[holismus](@/glossary/holismus.md) význam
 - **Forward-references**:
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Související platformové koncepty**:
-  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-  - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - [Color Teams](@/glossary/color-teams.md)
-
 ---
 
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/korczis-prismatic-platform)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md)

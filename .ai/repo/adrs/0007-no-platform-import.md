@@ -113,3 +113,61 @@ all 18“. Odpověď vlastníka doslovně: **„Keep only book-relevant ones (Re
 Měřítko je, zda heslo potřebuje text knihy (odkazy na heslo z obsahu a jeho role v obranném
 rámci), ne zda je pojem obecný. Seznam „ponechat / odstranit“ pro těchto 17 hesel sestaví
 vlastník glosáře podle počtu a povahy odkazů z obsahu a předá k revizi spolu s ostatními.
+
+## Amendment 2026-11-11 (4): celé stránky o platformě, mosty a kapitola 1.6
+
+Po doplňcích 2 a 3 zbylo v knize asi 29 celých stránek o integraci platformy. Odpovědi vlastníka
+k nim padly ve dvou session a ke kapitole 1.6 si odporovaly; vlastník rozpor rozhodl.
+
+Otázka A (AskUserQuestion, session `5d49a595-d035-4bbe-b04a-d12695922860`, 2026-11-11), doslovně:
+
+> „Beyond the sections and glossary entries already being removed under your platform decision
+> (ADR 0007), the public book still has about 29 whole pages about integrating your private
+> platform: the 26-page section content/kompendium/aiad-integration/ ("AIAD integrace a detekce
+> technik EA": NABLA pipeline, QEVE validation, AIAD agents; it includes
+> black-team-ea-modeling.md, whose fate you were asked about earlier), the page
+> 01-predmluva/vztah-k-platforme.md ("1.6 Vztah ke Prismatic Platformě"), and 2 section bridges
+> from the Decision Engine and NABLA to the book. What should happen to them?“
+
+Možnosti: „Remove all, with redirects (Recommended)“, „Keep, rewrite without platform“, „Remove
+all except detection“. Odpověď doslovně: **„Remove all, with redirects (Recommended)“**.
+
+Otázky B a C (AskUserQuestion, session `62aaa969-db73-4419-aeb1-23bc36e05c88`, 2026-11-11; znění
+a odpovědi předala ta session doslovně):
+
+> B: „Oddíl content/kompendium/aiad-integration/ (26 stránek pojmenovaných po artefaktech
+> platformy) má 48 odkazů v textu na hesla, která se podle doplňků 2 a 3 mažou, a 87 souborů
+> odkazuje do něj. Bez rozhodnutí o něm nemůže být build zelený. Co s ním?“
+
+Možnosti: „Odstranit celý oddíl (doporučeno)“, „Ponechat, přepsat bez názvů“, „Ponechat i hesla,
+která potřebuje“. Odpověď doslovně: **„Odstranit celý oddíl (doporučeno)“**.
+
+> C: „Kapitola 01-predmluva/vztah-k-platforme.md (1.6 Vztah ke Prismatic Platformě) říká, že
+> kniha není oddělitelná od kontextu svého vzniku. To je poctivé tvrzení o původu, ale jmenuje
+> platformu. Co s ní?“
+
+Možnosti: „Přepsat bez jména platformy (doporučeno)“, „Odstranit kapitolu“, „Ponechat beze
+změny“. Odpověď doslovně: **„Přepsat bez jména platformy (doporučeno)“**.
+
+Rozpor A × C ke kapitole 1.6, otázka D (AskUserQuestion, session
+`5d49a595-d035-4bbe-b04a-d12695922860`, 2026-11-11), doslovně:
+
+> „Two of your answers today conflict on one page, 01-predmluva/vztah-k-platforme.md ("1.6 Vztah
+> ke Prismatic Platformě"; it says the book cannot be separated from the context it came from).
+> In my question you chose "Remove all, with redirects" for the platform pages including this
+> one; in 2e's question you chose "Přepsat bez jména platformy" for it. Which holds?“
+
+Možnosti: „Rewrite without the name (Recommended)“, „Remove it“. Odpověď doslovně:
+**„Rewrite without the name (Recommended)“**.
+
+Platí tedy:
+
+- Oddíl `aiad-integration/` (26 stránek, včetně `black-team-ea-modeling.md`) a dva mosty
+  `section-bridges/bridge-platform-decision-engine-to-kompendium.md` a
+  `bridge-platform-nabla-to-kompendium.md` se odstraní s přesměrováním na nejbližší kapitolu.
+- Kapitola 1.6 zůstane a přepíše se bez jména platformy a jejích součástí; tvrzení o původu
+  knihy zůstane.
+- Mosty glosáře (`glossary-bridges/`), jejichž jediným předmětem je heslo odstraněné podle
+  doplňků 2 a 3 (34 stránek), jdou s hesly; bez hesla nemají co propojit a jejich odkazy by
+  rozbily build. Přesměrují na kapitolu, na kterou most ukazoval, jinak na glosář.
+- Gate `platform-section` chytí i číslovaný nadpis („# 1.6 Vztah ke Prismatic…“).

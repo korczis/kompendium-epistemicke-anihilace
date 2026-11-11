@@ -185,7 +185,7 @@ Intervence: Manuální **deduplikace** zdrojů, přihlášení k **antagonistick
 
 ### Eskaluje do
 
-- **EA-1.6.2 Vzorec „Epistemický trojský kůň“** — z filtrovaného korpusu lze vybrat validní materiál jako **vehikulum** pro vpašování problematických prvků.
+- **[EA-1.6.2 Vzorec „Epistemický trojský kůň“](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)** — z filtrovaného korpusu lze vybrat validní materiál jako **vehikulum** pro vpašování problematických prvků.
 - **Kolektivní epistemická [delegitimizace](@/glossary/delegitimizace.md)** ([Scénář F v Kapitole 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — selektivní expozice na úrovni komunity vytváří **strukturální zranitelnost** pro další manipulaci.
 
 ### Alternativy / podobné, ale **distinktivní**

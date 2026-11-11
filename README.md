@@ -48,7 +48,7 @@ zotavení**.
 | | Oddíl | Obsah | Stránek |
 |:-:|---|---|--:|
 | 📖 | [**Kapitoly**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/) | 9 číslovaných kapitol od „01. Předmluva“ po „08. Přílohy“ | 139 |
-| 🧬 | [**Katalog technik**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/techniques/) | Hloubkové samostatné články pro jednotlivé techniky epistemické anihilace | 502 |
+| 🧬 | [**Katalog technik**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/techniques/) | Hloubkové samostatné články pro jednotlivé techniky epistemické anihilace | 503 |
 | 🗂️ | [**Případy**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/historical-cases/) | Doložené historické případy epistemických útoků – totalitní režimy, kulty, dezinformační kampaně a selhání vědy a medicíny – s mechanismy, dopady a poučením; dále Případové studie – anonymizované kompozity | 120 |
 | 🛡️ | [**Obrana**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/self-defense-guides/) | Praktické návody sebeobrany napříč pěti pilíři – kognitivní, emocionální, sociální, informační hygiena a ochrana identity; dále Organizační obrana, Prevence a rezilience, Longitudinální rekonstruktivní protokoly, Akutní intervenční protokoly | 200 |
 | 🔤 | [**Glosář**](https://korczis.github.io/kompendium-epistemicke-anihilace/glossary/) | Terminologický rejstřík Kompendia: pojmy epistemické anihilace, kliniky, filozofie a manipulace | 276 |
@@ -59,7 +59,7 @@ zotavení**.
 | 🎨 | [**Galerie**](https://korczis.github.io/kompendium-epistemicke-anihilace/galerie/) | Generativní grafika kompendia v p5.js: rozpad sítě pojmů, eroze paměti a rekonstituce |  |
 | 📚 | [**Reference**](https://korczis.github.io/kompendium-epistemicke-anihilace/references/) | Literatura citovaná v kompendiu: každá položka jednou, s odkazy na stránky, které ji citují |  |
 
-Web má celkem 1 807 stránek včetně rozcestníků, přibližně 2 388 tisíc slov, 36 872 vnitřních odkazů a 5 033 citovaných pramenů. Úvodní stránka webu a [Stav knihy](https://korczis.github.io/kompendium-epistemicke-anihilace/stav/) je počítají při každém sestavení.
+Web má celkem 1 808 stránek včetně rozcestníků, přibližně 2 390 tisíc slov, 36 901 vnitřních odkazů a 5 043 citovaných pramenů. Úvodní stránka webu a [Stav knihy](https://korczis.github.io/kompendium-epistemicke-anihilace/stav/) je počítají při každém sestavení.
 <!-- kompendium:readme-oddily:end -->
 
 ## Mapa a stav knihy

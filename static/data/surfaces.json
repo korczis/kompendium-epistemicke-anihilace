@@ -3848,10 +3848,10 @@
     "static/data/viz-deps.json"
    ],
    "generic_views": {
-    "viz/okoli": 502
+    "viz/okoli": 503
    },
    "libraries": [],
-   "pages": 503,
+   "pages": 504,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
@@ -3949,12 +3949,12 @@
    ],
    "status": "covered",
    "templates": {
-    "kompendium/page.html": 502,
+    "kompendium/page.html": 503,
     "section.html": 1
    },
    "views": {
-    "viz/kontext": 502,
-    "viz/technika": 502,
+    "viz/kontext": 503,
+    "viz/technika": 503,
     "viz/techniky": 1,
     "viz/techniky-rozptyl": 1
    }

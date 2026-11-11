@@ -196,7 +196,7 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
 
 ### Eskaluje do
 
-- **EA-1.6.2 Vzorec „Epistemický trojský kůň“** — iluzorní komplexita poskytuje fasádu sofistikace pro vpašování problematických prvků.
+- **[EA-1.6.2 Vzorec „Epistemický trojský kůň“](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)** — iluzorní komplexita poskytuje fasádu sofistikace pro vpašování problematických prvků.
 - **Strukturální [delegitimizace](@/glossary/delegitimizace.md) pole** ([Scénář F](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — kolektivní iluzorní komplexita odbourává epistemickou autoritu konsensuálních závěrů.
 
 ### Hraniční / podobné

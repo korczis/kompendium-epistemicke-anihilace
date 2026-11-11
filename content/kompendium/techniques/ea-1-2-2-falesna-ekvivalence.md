@@ -178,7 +178,7 @@ Intervence: Procedurální reforma — pre-decision meta-evaluation kvalitativn�
 
 ### Eskaluje do
 
-- **EA-1.6.2 Vzorec „Epistemický trojský kůň“** — falešná ekvivalence je vehicle pro „vpašování“ marginal pozice do mainstream diskurzu.
+- **[EA-1.6.2 Vzorec „Epistemický trojský kůň“](@/kompendium/techniques/ea-1-6-2-vzorec-epistemicky-trojsky-kun.md)** — falešná ekvivalence je vehicle pro „vpašování“ marginal pozice do mainstream diskurzu.
 - **Kolektivní epistemická [delegitimizace](@/glossary/delegitimizace.md)** ([Scénář F](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — falešná ekvivalence v měřítku komunity vede k ztrátě kalibrace vůči expertnímu konsensu.
 
 ### Hraniční / podobné

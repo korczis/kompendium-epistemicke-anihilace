@@ -35,7 +35,7 @@
       },
       {
         "code": null,
-        "in": 129,
+        "in": 130,
         "kind": "Pojem",
         "path": "glossary/epistemicka-injustice.md",
         "tier": 4,
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "Epi",
     "schema": "kompendium-engine/v1",
-    "total": 389
+    "total": 390
   },
   "input": {
     "op": "search",

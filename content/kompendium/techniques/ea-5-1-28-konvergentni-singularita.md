@@ -151,8 +151,11 @@ Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signa
 
 ### Eskaluje do
 
-- **EA-5.1.31+ Definitivní epistemická uzávěra** (sekce 6) — terminální stav, v němž subjekt ztrácí samotnou kapacitu rozpoznat existenci jiných atraktorů.
-- **Anankastický režim](@/glossary/anankasticky-rezim.md)** — kompulzivní reprodukce atraktoru i v situacích, kde je zjevně nevhodný.
+- **[Epistemická singularita](@/glossary/epistemicka-singularita.md)** — terminální stav, v němž
+  subjekt ztrácí samotnou kapacitu rozpoznat existenci jiných atraktorů; jako výsledný stav, nikoli
+  jako další technika řady, ho popisuje
+  [Kapitola 6](@/kompendium/06-epistemicka-singularita/_index.md).
+- **[Anankastický režim](@/glossary/anankasticky-rezim.md)** — kompulzivní reprodukce atraktoru i v situacích, kde je zjevně nevhodný.
 
 ### Alternativy / podobné, ale **distinktivní**
 

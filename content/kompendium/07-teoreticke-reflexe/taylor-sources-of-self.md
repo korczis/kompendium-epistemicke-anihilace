@@ -63,7 +63,7 @@ racionálně obhájit jako zisk v porozumění, nikoli jen jako změnu vkusu. K 
 **princip nejlepšího výkladu** (*best account*): morální pojmy, bez nichž nedokážeme
 srozumitelně popsat vlastní život, nemáme důvod škrtat jen proto, že se nevejdou do
 naturalistické ontologie. Vztah takových pojmů k formálním modelům poznání rozebírá kapitola
-[7.6 Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md).
+[7.6 Computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md).
 
 Taylor také zdůrazňuje narativní povahu identity. Protože se orientujeme vzhledem k dobru,
 chápeme svůj život jako příběh, který se k dobru přibližuje nebo od něj vzdaluje, a navazuje

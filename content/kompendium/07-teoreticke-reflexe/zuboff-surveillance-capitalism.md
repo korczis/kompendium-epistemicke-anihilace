@@ -186,7 +186,7 @@ autonomie s touto otázkou podle výkladu kompendia nepracuje.
 **Teoretické reflexe**
 
 - [7.59 Floridi: Čtvrtá revoluce a infosféra](@/kompendium/07-teoreticke-reflexe/floridi-fourth-revolution.md) – filozofie informačního prostředí.
-- [7.6 Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md) – výpočetní modely poznání.
+- [7.6 Computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md) – výpočetní modely poznání.
 - [7.7 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) – algoritmy a generativní modely.
 - [7.41 Clark: Rozšířená mysl a kognitivní artefakty](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md) – technologie jako součást mysli.
 - [7.49 Clark: Natural-Born Cyborgs](@/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs.md) – hluboká integrace s technologiemi.

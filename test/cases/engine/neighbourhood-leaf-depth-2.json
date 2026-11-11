@@ -191,7 +191,7 @@
       {
         "class": "kompendium",
         "distance": 1,
-        "in": 86,
+        "in": 87,
         "path": "kompendium/_index.md",
         "title": "Kompendium epistemické a kognitivní anihilace"
       },
@@ -219,7 +219,7 @@
       {
         "class": "glossary",
         "distance": 2,
-        "in": 601,
+        "in": 602,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
       },

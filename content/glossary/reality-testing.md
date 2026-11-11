@@ -11,10 +11,7 @@ category = "psychology"
 related_terms = [
   "gaslighting",
   "konsenzualni-realita",
-  "epistemicke-zakladny",
-  "trinity-gate",
-  "epistemic-pipeline",
-  "signal-plurality"
+  "epistemicke-zakladny"
 ]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"

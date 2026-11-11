@@ -8,7 +8,7 @@ tags = ["glossary", "kompendium", "psychology", "epistemic", "social"]
 
 [extra]
 category = "epistemic"
-related_terms = ["epistemicka-bezdomovost", "epistemicka-monokultura", "epistemic-bubble", "pluralismus", "signal-plurality", "high-control-group"]
+related_terms = ["epistemicka-bezdomovost", "epistemicka-monokultura", "epistemic-bubble", "pluralismus", "high-control-group"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"

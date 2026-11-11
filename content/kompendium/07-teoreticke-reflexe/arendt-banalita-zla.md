@@ -115,4 +115,4 @@ Otevřené zůstává, jak dalece lze Arendtovou diagnózu z poloviny dvacátéh
 **Praxe**
 
 - [6. Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) – obnova úsudku v terapii.
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md) – etický rámec epistemické integrity.
+- [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md) – etický rámec epistemické integrity.

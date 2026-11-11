@@ -98,13 +98,6 @@ Každý section bridge článek obsahuje:
 | [Visualizations → Klinika](bridge-visualizations-to-clinical/) | vizualizace ↔ klinický artefakt |
 | [Glossary Bridges → Filozofie](bridge-glossary-bridges-to-philosophy/) | naming ↔ power act |
 
-### F. Platforma ↔ Kompendium (2)
-
-| Bridge | Z → Do | Typ |
-|---|---|---|
-| [Decision Engine → Kompendium](bridge-platform-decision-engine-to-kompendium/) | technický substrát ↔ doménový obsah |
-| [Nabla∞ → Kompendium](bridge-platform-nabla-to-kompendium/) | epistemický framework ↔ EA epistemologie |
-
 ## Vztah ke glossary bridges
 
 | Glossary bridges | Section bridges |

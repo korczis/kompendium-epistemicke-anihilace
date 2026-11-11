@@ -146,7 +146,7 @@ Longino poskytuje kompendiu **strukturální** kritérium pro identifikaci patol
 
 Longino kriticky revidoval pojem **hodnotové neutrality** vědy. Argumentuje, že **neutralita** je nedosažitelná — všechny vědecké rámce nutně vtělují **hodnotové předpoklady**. Klíčem není neutralita, ale **transparentnost** těchto předpokladů a **otevřenost** ke kritice.
 
-Pro kompendium EA to má fundamentální důsledek: **kompendium samotné** vtěluje hodnotové předpoklady (závazek k epistemické integritě, k autonomii subjektu, k otevřené komunikaci). Tyto předpoklady jsou **explicitně deklarovány** ([2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md), [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)) — nikoli skryté pod fasádou „neutrality“.
+Pro kompendium EA to má fundamentální důsledek: **kompendium samotné** vtěluje hodnotové předpoklady (závazek k epistemické integritě, k autonomii subjektu, k otevřené komunikaci). Tyto předpoklady jsou **explicitně deklarovány** ([2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md), [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)) — nikoli skryté pod fasádou „neutrality“.
 
 ## 4. Elizabeth Anderson — demokratická epistemologie
 
@@ -226,7 +226,7 @@ Sociálně-epistemologické rámce jsou v kompendiu integrovány **napříč**:
 - [Glosář: Gaslighting](@/glossary/gaslighting.md)
 - [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+- [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
 
 ## Kritický krok
 

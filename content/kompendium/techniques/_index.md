@@ -305,7 +305,7 @@ EA-7.\* a EA-8.\* materiály jsou primárně publikovány jako narativní člán
 | **Fáze 17** | Per-technique EA-3.\* ([edukativní implementace](@/glossary/edukativni-implementace.md)) | ✓ 30/30 |
 | **Fáze 18** | Per-technique EA-4.\* (terminální protokoly) | ✓ 40/40 |
 | **Fáze 19** | Per-technique EA-6.\* (pokročilé klinické techniky) | ✓ 50/50 |
-| **Fáze 20** | Section/Recovery/Emergency/AIAD/Cross-Domain/Educational/Historical/Detection podknihovny | ✓ 257 publikováno |
+| **Fáze 20** | Section/Recovery/Emergency/Cross-Domain/Educational/Historical/Detection podknihovny | ✓ 257 publikováno |
 | **Fáze 21** | EA-7.\* + EA-8.\* per-technique adaptace narativních článků | ⏳ plánováno |
 
 ## Související

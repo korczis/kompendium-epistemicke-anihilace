@@ -114,7 +114,7 @@ Pro **klinika začínajícího** s kompendiem doporučujeme následující sekve
 - [Sekce 04: Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) — komplexní destrukční sekvence
 - [Techniques index](@/kompendium/techniques/_index.md) — per-technique katalog
 - [Glossary: Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+- [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
 
 ## Kritický krok
 

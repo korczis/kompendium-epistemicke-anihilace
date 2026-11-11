@@ -202,7 +202,7 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 - [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární prameny pro klíčové termíny.
 - [Rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) — EA kódy odpovídající jednotlivým termínům.
 - [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) — metodologie kanonizace termínů.
-- [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) — formální notační konvence (EA, KA, NABLA, NMND aj.).
+- [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) — formální notační konvence (EA, KA, NMND aj.).
 
 ## Kam odkazy vedou
 

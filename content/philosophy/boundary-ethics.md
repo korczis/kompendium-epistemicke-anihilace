@@ -1,14 +1,14 @@
 +++
-title = "Etika hranic a filozofie ochrany"
-description = "Morální imperativ technických, právních a pojmových hranic ve vývoji softwaru: jak omezení chrání sémantickou integritu a autorský záměr."
+title = "Etika popisu újmy"
+description = "Komu je kniha určena, co odmítá napsat a proč popis rozpoznatelného vzorce není jeho výukou — a jakou cenu toto pravidlo čtenáře stojí."
 weight = 20
 
 [taxonomies]
-tags = ["philosophy", "ethics", "boundaries", "ghl", "sovereignty"]
+tags = ["philosophy", "ethics", "boundaries", "ghl", "dual-use"]
 
 [extra]
 # Taxonomies moved to extra section for section files
-keywords = ["boundary ethics", "protection philosophy", "semantic integrity", "technical boundaries", "legal boundaries", "conceptual boundaries", "software protection"]
+keywords = ["etika popisu újmy", "dual-use poznání", "obranný rámec", "informační riziko", "etika publikování", "rozpoznání versus provedení", "hranice textu"]
 categories = ["foundations"]
 
 # Core metadata
@@ -19,433 +19,227 @@ color = "emerald"
 
 # SEO & Social
 image = "/images/philosophy/boundary-ethics.png"
-image_alt = "Etika hranic a filozofie ochrany softwaru"
+image_alt = "Etika popisu újmy — co kniha odmítá napsat"
 og_type = "article"
 twitter_card = "summary_large_image"
 
 # Academic metadata
 academic_tier = "foundational"
 citation_style = "IEEE"
-doi_placeholder = "10.prismatic/philosophy/boundary-ethics"
 peer_reviewed = false
 
 # Content classification
 content_version = "1.0.0"
-last_enhanced = "2026-02-23"
+last_enhanced = "2026-11-11"
 
 # Cross-references
-related_articles = ["ghl-framework", "intellectual-sovereignty", "ceremonial-computing", "epistemic-integrity"]
-glossary_terms = ["boundary-ethics", "semantic-integrity", "ghl-license", "meaning-preservation"]
-see_also = ["capabilities", "about/author", "glossary/ghl-license"]
+related_articles = ["ghl-framework", "intellectual-sovereignty", "epistemic-integrity", "dual-use-poznani"]
+glossary_terms = ["dual-use-poznani", "epistemic-security", "hermeneuticky-outsourcing"]
+see_also = ["about", "kompendium/01-predmluva/eticke-aspekty", "glossary/dual-use-poznani"]
 
 # Category-specific metadata
 philosophy_level = "foundational"
 sovereignty_model = "authorial"
 license_framework = "GHL v1.0"
 date_created = "2026-02-23"
-date_updated = "2026-02-23"
-date_modified = "2026-02-23"
+date_updated = "2026-11-11"
+date_modified = "2026-11-11"
 +++
 
-> **Vztah ke knize.** Esej patří do [filozofických základů](@/philosophy/_index.md) platformy
-> Prismatic, z níž Kompendium vzešlo, a vysvětluje licenční rámec GHL, pod nímž je kniha
-> vydána. S obrannou taxonomií knihy sdílí slovník (hranice, význam, integrita), ale mluví
-> o softwaru a autorském díle, ne o lidské psychice: hranice v klinickém smyslu popisuje
-> například heslo [Coercive Control](@/glossary/coercive-control.md).
+> **Co tato stránka je.** Není to licenční doložka ani návod ke čtení, nýbrž pravidlo, podle
+> něhož je kniha napsána: text popisuje mechanismy újmy na úrovni struktury a odmítá je
+> popsat na úrovni provedení. Pravidlo platí pro každou stránku knihy a tato stránka uvádí
+> jeho důvod i jeho cenu.
 
 ## Abstrakt
 
-Etika hranic je filozofický závazek, podle něhož **omezení nejsou překážky, ale podmínky**
-autentického tvůrčího vyjádření. Ve vývoji softwaru slouží hranice jako nezbytná ochrana
-sémantické integrity, autorského záměru a uchování významu. Tato filozofie zpochybňuje
-převládající předpoklad, že otevřenost a neomezený přístup jsou samy o sobě dobré, a tvrdí
-naopak, že teprve dobře vymezené meze vytvářejí podmínky pro skutečnou tvorbu hodnoty.
-
-Rámec zahrnuje čtyři oblasti hranic: **technické hranice** (kryptografická omezení, výpočetní
-omezení, síťová omezení), **právní hranice** (licenční omezení, zákazy užití, mechanismy
-vymáhání), **pojmové hranice** (ochrana sémantické integrity, protokoly uchování významu)
-a **časové hranice** (ochrana před posmrtným zkreslením nebo nepravdivým výkladem).
-
-## Paradox hranic
-
-### Svoboda skrze omezení
-
-Jedním z nejméně intuitivních poznatků etiky hranic je, že **omezení vytvářejí svobodu**.
-Malířské plátno má okraje. Sonet má čtrnáct veršů. Hudební stupnice má dané intervaly.
-Hranice v žádném z těchto případů vyjádření neomezuje, ale *umožňuje* je, protože dává
-strukturu, v níž může tvořivost vzkvétat.
-
-Software má tutéž vlastnost. Bez hranic se stává beztvarým, bezúčelným a nakonec
-bezvýznamným. Hranice není nepřítelem tvůrčího vyjádření, ale jeho nezbytnou podmínkou.
-
-### Klam neohraničenosti
-
-Současná softwarová kultura se řídí tím, co bychom mohli nazvat **klamem neohraničenosti** –
-předpokladem, že odstranění omezení vždy zvyšuje hodnotu. Projevuje se jako:
-
-1. **Nadšení pro permisivní licence:** přesvědčení, že méně omezení vždy znamená lepší
-   výsledky.
-2. **Kultura forků:** předpoklad, že kdokoli má mít možnost dílo upravit a dál šířit bez
-   omezení.
-3. **Přístupový maximalismus:** přesvědčení, že víc přístupu vždy přináší víc hodnoty.
-4. **Rovnostářství úprav:** přesvědčení, že všechny navržené změny jsou stejně legitimní.
-
-Tyto předpoklady, jakkoli jsou míněny dobře, vedou k **sémantické entropii** – postupnému
-úpadku významu neomezenými úpravami a dalším šířením.
-
-## Čtyři oblasti etiky hranic
-
-### 1. Technické hranice
-
-Technické hranice jsou nejhmatatelnější formou ochrany; uplatňují se kódem, kryptografií
-a architekturou systému.
-
-#### Kryptografická omezení
-
-```yaml
-cryptographic_boundaries:
-  purpose: "Ensure authorized invocation only"
-  mechanisms:
-    - digital_signatures: "Oath verification"
-    - access_tokens: "Permission-based access"
-    - audit_trails: "Immutable usage logging"
-  philosophy: "Technology serves sovereignty"
-```
-
-Kryptografické hranice zajišťují, že invokace softwaru zůstává v autorizovaných mezích.
-Převádějí abstraktní právní oprávnění do konkrétní technické skutečnosti.
-
-#### Výpočetní omezení
-
-Výpočetní hranice vymezují přijatelný rozsah užívání softwaru:
-
-- **Limity zdrojů:** nejvyšší výpočetní výkon, přidělení paměti, spotřeba úložiště.
-- **Rozsah běhu:** povolená běhová prostředí a platformy.
-- **Limity integrace:** autorizované integrace a rozšíření třetích stran.
-- **Hranice škálování:** nejvyšší rozsah nasazení a užívání.
-
-#### Síťová omezení
-
-Síťové hranice chrání před neoprávněným šířením a spouštěním:
-
-- **Geografická omezení:** řízení přístupu s ohledem na jurisdikci.
-- **Řízení distribuce:** autorizované kanály šíření softwaru.
-- **Komunikační limity:** povolené síťové interakce a datové toky.
-- **Požadavky na izolaci:** povinné oddělení od neautorizovaných systémů.
-
-### 2. Právní hranice
-
-Právní hranice převádějí filozofické principy do vymahatelných práv a povinností.
-
-#### Právní rámec GHL
-
-[General Honest License](https://prismatic-reality-com.github.io/prismatic-promo/philosophy/ghl-framework/)
-stanoví právní hranice prostřednictvím:
-
-- **Výchozího zákazu:** každé užití vyžaduje výslovné oprávnění.
-- **Omezení rozsahu:** každé udělení přesně určuje povolené užití.
-- **Časových mezí:** oprávnění mají stanovený začátek a konec.
-- **Práva odvolání:** autor si ponechává absolutní pravomoc svolení odejmout.
-
-#### Mechanismy vymáhání
-
-Právní hranice potřebují vymáhání, aby si zachovaly integritu:
-
-```yaml
-enforcement_framework:
-  graduated_response:
-    - level_1: "Warning and correction request"
-    - level_2: "Temporary permission suspension"
-    - level_3: "Permanent revocation"
-    - level_4: "Oathbreaker registry listing"
-
-  monitoring:
-    - semantic_drift_detection: "automated"
-    - usage_compliance: "quarterly_review"
-    - community_reporting: "continuous"
-```
-
-Odstupňovaná odpověď tedy postupuje od upozornění s žádostí o nápravu přes dočasné
-pozastavení oprávnění a trvalé odvolání až po zápis do rejstříku porušitelů přísahy;
-dohled zahrnuje automatickou detekci sémantického driftu, čtvrtletní kontrolu dodržování
-podmínek a průběžná hlášení z komunity.
-
-#### Jurisdikční hlediska
-
-Právní hranice musejí počítat se složitostí více jurisdikcí:
-
-- **Primární jurisdikce:** Česká republika (bydliště autora).
-- **Mezinárodní uznání:** rámec pro přeshraniční vymáhání.
-- **Kulturní adaptace:** ceremoniální požadavky přizpůsobené místním právním tradicím.
-- **Harmonizace:** soulad s existujícími rámci duševního vlastnictví.
-
-### 3. Pojmové hranice
-
-Pojmové hranice chrání nejzranitelnější stránku softwaru: jeho **význam**.
-
-#### Ochrana sémantické integrity
-
-Software nese význam přesahující jeho funkční chování. Název funkce, architektonický vzor
-i struktura komentářů – to vše sděluje autorův záměr. Pojmové hranice chrání tuto
-sémantickou vrstvu:
-
-- **Interpretační autorita:** poslední slovo autora o zamýšleném významu.
-- **Kontrola úprav:** omezení změn, které mění sémantický obsah.
-- **Meze odvozených děl:** hranice pro díla, která by mohla zkreslit původní záměr.
-- **Uchování kontextu:** požadavky na zachování správného kontextu v citacích a odkazech.
-
-#### Protokoly uchování významu
-
-```yaml
-meaning_preservation:
-  core_principles:
-    - "Original intent must be discoverable"
-    - "Modifications must be clearly marked"
-    - "Author interpretation supersedes user interpretation"
-    - "Context cannot be stripped from content"
-
-  violation_detection:
-    - semantic_analysis: "automated comparison with original"
-    - community_review: "periodic meaning validation"
-    - author_consultation: "dispute resolution"
-```
-
-Základní principy protokolu zní: původní záměr musí být dohledatelný, úpravy musejí být
-zřetelně označeny, autorův výklad má přednost před výkladem uživatele a kontext nelze od
-obsahu oddělit. Porušení odhaluje automatické srovnání s originálem, pravidelné komunitní
-ověřování významu a konzultace s autorem při sporu.
-
-#### Problém sémantického driftu
-
-Bez pojmových hranic trpí software **sémantickým driftem** – postupným zkreslováním
-původního významu po sobě jdoucími úpravami:
-
-```
-Original Meaning (T0) → Community Interpretation (T1) → Fork Modifications (T2) → Semantic Corruption (T3)
-```
-
-(Původní význam v čase T0 → výklad komunity v T1 → úpravy ve forku v T2 → sémantické
-zkreslení v T3.)
-
-Každý krok přináší nové předpoklady, priority a výklady, které mohou být v rozporu
-s původním autorovým záměrem. Pojmové hranice tento cyklus driftu přerušují tím, že pro
-změny nesoucí význam vyžadují výslovné oprávnění. Strukturálně příbuzný jev na úrovni
-lidského porozumění popisuje kniha jako
-[hermeneutickou erozi](@/glossary/hermeneuticka-eroze.md).
-
-### 4. Časové hranice
-
-Časové hranice řeší zvláštní úkol: chránit význam napříč časem.
-
-#### Posmrtná ochrana
-
-Rámec GHL obsahuje ustanovení o ochraně významu softwaru i po autorově smrti:
-
-- **Určení nástupce:** jmenované osoby oprávněné rozhodovat o suverenitě.
-- **Svěřenské struktury pro uchování:** právní struktury pro dlouhodobou ochranu významu.
-- **Zmrazení verzí:** mechanismy, které konkrétní verze uzamknou proti úpravám.
-- **Dokumentace odkazu:** úplné záznamy autorského záměru.
-
-#### Suverenita verzí
-
-Různé verze softwaru mohou nést různá oprávnění a různou ochranu:
-
-```yaml
-version_sovereignty:
-  v1_0:
-    status: "frozen"
-    modifications: "prohibited"
-    usage: "restricted_to_existing_grants"
-
-  v2_0:
-    status: "active"
-    modifications: "requires_explicit_grant"
-    usage: "standard_ceremonial_process"
-
-  development:
-    status: "unreleased"
-    modifications: "author_only"
-    usage: "internal_testing_only"
-```
-
-Verze 1.0 je tedy zmrazená, bez možnosti úprav a s užitím omezeným na existující udělení;
-verze 2.0 je aktivní, úpravy vyžadují výslovné udělení a užití se řídí standardním
-ceremoniálním postupem; vývojová verze je nevydaná, upravovat ji smí jen autor a slouží jen
-k internímu testování.
-
-#### Časový úbytek oprávnění
-
-Oprávnění udělená podle GHL mají výslovné časové meze:
-
-- **Doba udělení:** stanovená v dokumentu o oprávnění.
-- **Požadavky na obnovení:** postup prodloužení oprávnění, jehož platnost skončila.
-- **Automatický zánik:** bez aktivního obnovení oprávnění zaniká.
-- **Ustanovení pro dlouholeté členy:** zvláštní pravidla pro dlouholeté členy komunity.
-
-## Filozofické základy
-
-### Hranice jako etické imperativy
-
-Etika hranic není jen praktická; představuje **morální závazek** k několika principům.
-
-#### Úcta k tvůrčímu dílu
-
-Hranice vyjadřují úctu k intelektuální investici, kterou tvorba softwaru vyžaduje. Stejně
-jako respektujeme hranice obrazu (nepřemalováváme dílo jiného umělce), měli bychom
-respektovat i hranice softwaru.
-
-#### Ochrana zranitelného významu
-
-Význam na rozdíl od kódu nelze zkompilovat ani otestovat. Existuje v prostoru mezi autorem
-a uživatelem, vydán napospas zkreslení, nepravdivému výkladu a úpadku. Hranice tento
-zranitelný význam chrání.
-
-#### Autentický vztah
-
-Hranice vytvářejí podmínky pro autentický vztah mezi tvůrci a uživateli. Bez hranic se vztah
-zvrhává ve vykořisťování. S hranicemi se může stát skutečným partnerstvím.
-
-#### Udržitelná tvorba
-
-Neomezené vytěžování tvůrčího díla vede k vyhoření, opuštění a úpadku. Hranice vytvářejí
-udržitelné podmínky pro trvalou tvůrčí investici.
-
-### Etika překračování hranic
-
-Etika hranic se zabývá i otázkou, kdy lze hranice legitimně zpochybnit.
-
-#### Legitimní zpochybnění hranic
-
-- **Oprava chyb:** když hranice chrání faktické chyby.
-- **Bezpečnost:** když hranice brání nezbytnému zlepšení bezpečnosti.
-- **Zákonné požadavky:** když jsou vnější právní povinnosti s hranicemi v rozporu.
-- **Souhlas autora:** když autor se změnou hranic souhlasí.
-
-#### Nelegitimní porušení hranic
-
-- **Pohodlí:** porušení hranic kvůli pohodlí uživatele.
-- **Obchodní zájem:** porušení hranic kvůli zisku.
-- **Nesouhlas:** přehlížení hranic kvůli filozofickému nesouhlasu.
-- **Nedbalost:** neúmyslné porušení hranic z nepozornosti.
-
-## Praktické uplatnění
-
-### Pro tvůrce softwaru
-
-Etika hranic dává tvůrcům:
-
-- **Jasný rámec:** systematický přístup k vymezení hranic.
-- **Nástroje vymáhání:** technické a právní mechanismy ochrany hranic.
-- **Komunitní model:** ceremoniální dodržování pravidel vytváří uctivé komunity uživatelů.
-- **Udržitelnou praxi:** hranice umožňují dlouhodobou tvůrčí investici.
-
-### Pro organizace
-
-Organizace získávají:
-
-- **Snížení rizik:** jasné hranice snižují právní a technická rizika.
-- **Zajištění kvality:** ohraničené užívání brání úpadku.
-- **Model partnerství:** ceremoniální dodržování pravidel buduje autentické vztahy.
-- **[Rámec souladu](@/glossary/compliance-framework.md):** jasné požadavky
-  zjednodušují správu.
-
-### Pro ekosystém
-
-Širší ekosystém získává:
-
-- **Rozmanitost:** alternativní modely k neomezenému přístupu.
-- **Udržitelnost:** modely založené na hranicích podporují dlouhodobou tvorbu.
-- **Úctu:** uznání tvůrčí investice a autorského záměru.
-- **Kvalitu:** ohraničené systémy si v čase udržují vyšší kvalitu.
-
-## Výzvy a odpovědi
-
-### Časté námitky
-
-#### „Hranice omezují inovace“
-
-**Odpověď:** Hranice inovace usměrňují, neomezují. Nejtvořivější práce v kterékoli oblasti
-vzniká uvnitř omezení, ne v jejich nepřítomnosti.
-
-#### „Hranice vytvářejí sila“
-
-**Odpověď:** Hranice vytvářejí definovaná rozhraní, ne sila. Dobře navržené hranice umožňují
-interoperabilitu a zároveň chrání integritu.
-
-#### „Hranice jsou elitářské“
-
-**Odpověď:** Hranice chrání práva tvůrců bez ohledu na jejich postavení. Jsou v principu
-rovnostářské, i když se jejich účinky podle kontextu liší.
-
-### Úskalí provedení
-
-- **Vymezení přiměřených hranic:** příliš úzké omezují legitimní užití, příliš široké
-  neposkytují dostatečnou ochranu.
-- **Náklady vymáhání:** dohled nad hranicemi a jejich vymáhání vyžaduje trvalou investici.
-- **Kulturní odpor:** kultura otevřeného softwaru se může modelům založeným na hranicích
-  bránit.
-- **Právní složitost:** přeshraniční vymáhání porušení hranic zůstává obtížné.
-
-## Směry dalšího vývoje
-
-### Adaptivní hranice
-
-Další vývoj počítá s hranicemi, které se přizpůsobují kontextu:
-
-- **Oprávnění citlivá na kontext:** hranice, které se mění podle kontextu užití.
-- **Limity kalibrované komunitou:** hranice utvářené zpětnou vazbou komunity.
-- **Přístup podle výkonu:** oprávnění, která se rozšiřují podle historie dodržování.
-- **Vývojové hranice:** meze, které se vyvíjejí s dospíváním softwaru.
-
-### Technické inovace
-
-- **Hranice v chytrých kontraktech:** automatické vymáhání hranic na blockchainu.
-- **Dohled s pomocí AI:** strojové učení pro detekci sémantického driftu.
-- **Distribuované vymáhání:** sítě ověřování hranic mezi rovnými uzly (*peer-to-peer*).
-- **Formální verifikace:** matematický důkaz úplnosti hranic.
-
-## Závěr
-
-### Morální argument pro hranice
-
-Etika hranic tvrdí, že omezení nejsou jen praktické nezbytnosti, ale **morální imperativy**.
-V době neomezeného přístupu a bezmyšlenkovité spotřeby uchovávají hranice podmínky nezbytné
-pro autentické tvůrčí vyjádření, smysluplné vztahy a udržitelný vývoj.
-
-General Honest License tuto filozofii ztělesňuje tím, že stanoví jasné, vymahatelné hranice,
-které chrání autorský záměr a zároveň umožňují vědomé zapojení. Tyto hranice svobodu
-neomezují, ale vytvářejí strukturovaný prostor, v němž může skutečná svoboda vzkvétat.
-
-### Pozvání k ohraničené tvořivosti
-
-Etika hranic zve tvůrce i uživatele, aby přijali omezení jako podmínky, a ne jako překážky.
-Tvůrcům hranice dávají ochranu a udržitelnost. Uživatelům vytvářejí podmínky pro autentické
-zapojení a smysluplný vztah k tvůrčím dílům.
-
-Budoucnost softwaru nespočívá v odstranění všech hranic, ale v promyšleném návrhu hranic,
-které chrání význam, umožňují tvořivost a pěstují autentickou komunitu.
+Kniha popisuje, jak se lidem ničí schopnost vědět, čemu věřit. Takový text nese odpovědnost,
+kterou nelze přenést na čtenáře: literatura o poznání dvojího užití ukazuje, že tentýž
+poznatek současně slouží obraně a snižuje překážky ke škodě, takže jej nelze „vyčistit“ bez
+ztráty užitku (Miller a Selgelid, 2007). Etika hranic zde proto neznamená právní ani
+technické omezení, ale mez vedenou textem samotným — rozhodnutí, co se ještě napíše a co už
+ne.
+
+Důvod, proč mez nevede k mlčení, je asymetrie obou užití. Obranné využití poznatku vyžaduje
+sdílené porozumění mezi tím, kdo chrání, a tím, kdo je chráněn, zatímco útočné využití je
+jednostranné a z utajení těží; obranný případ proto strukturálně mluví pro otevřenost na
+úrovni rozpoznání (srov. Miller a Selgelid, 2007).
+
+Mez má tři části, které tato stránka probírá odděleně: komu je kniha určena, co odmítá
+napsat a proč je popis rozpoznatelného vzorce něčím jiným než jeho výukou. Rozhodování
+o citlivém poznání nelze vyřešit plošným zákazem ani plošným zveřejněním; doporučeným
+postupem je vícestupňové posouzení jednotlivých pasáží (National Research Council, 2004).
+
+## Komu je kniha určena
+
+Prvním adresátem je člověk, který zažil něco, pro co nemá jméno. Fricker popisuje
+hermeneutickou nespravedlnost jako stav, v němž člověku chybějí sdílené pojmy pro vlastní
+zkušenost, takže ji nedokáže pojmenovat ani sdělit druhým (Fricker, 2007). Kniha je psána
+tak, aby z ní šel odnést pojem, ne postup.
+
+Druhým adresátem je klinik, vyšetřovatel nebo bezpečnostní pracovník, který potřebuje
+rozpoznat vzorec, s nímž pracuje profesně. Herman na materiálu obětí dlouhodobého násilí
+ukazuje, že pojmenování vzorce je součástí léčby, protože dává zkušenosti strukturu, kterou
+lze sdělit a ověřit (Herman, 1992). Pro tohoto čtenáře je kniha přesnější, než by snesl
+populární výklad, a to je její hlavní riziko.
+
+Třetím adresátem je čtenář, který knize nevěří. Longino argumentuje, že objektivita tvrzení
+nespočívá v postoji autora, nýbrž v tom, nakolik je tvrzení vystaveno kritice, která je může
+opravit (Longino, 1990). Tato stránka je psána pro takového čtenáře: uvádí pravidlo i to, co
+kvůli němu v knize chybí, aby šlo posoudit, zda je obranný rámec dodržen.
+
+Komu kniha určena není, lze poznat podle posunu zájmu: od rozpoznání k provedení, tedy
+k otázkám po účinnosti, po výběru cíle nebo po zakrytí stop. Právě tento posun literatura
+o dvojím užití označuje za znak zneužití materiálu, protože obranný čtenář tyto odpovědi
+nepotřebuje (Miller a Selgelid, 2007). Čtenáře, který knihu otevřel kvůli vlastnímu stavu,
+odkazuje kniha jinam, než na vlastní taxonomii — na
+[etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a na odbornou pomoc; závazek
+nepůsobit újmu je přitom silnější než závazek být užitečný (Beauchamp a Childress, 2019).
+
+## Co kniha odmítá napsat
+
+Kniha odmítá operační sekvence, scénáře promluv, dávkování, kritéria výběru cíle a postupy
+zakrývání stop. Takové podrobnosti jsou přesně tím, co vícestupňové posouzení řadí mezi
+materiál „vzbuzující obavy“, u něhož je přístup odstupňovaný, nikoli veřejný (National
+Research Council, 2004). Úrovně, s nimiž kniha pracuje, popisuje
+[bezpečnostní klasifikace](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md).
+
+Odmítnutí je zacíleno, ne plošné. Bostrom rozlišuje mezi rizikem, které nese sama idea,
+a rizikem, které nese hotová předloha k provedení, a upozorňuje, že i pouhé upření pozornosti
+na slabé místo je samostatný typ informačního rizika (Bostrom, 2011). Kniha se vzdává
+předlohy; riziko upřené pozornosti nese dál a tvrdit o sobě něco jiného by bylo nepřesné.
+
+Obdobnou logiku časování a podrobnosti zná bezpečnostní praxe: kdo najde zranitelnost,
+oznámí ji nejprve tomu, kdo ji může opravit, a veřejně ji popíše až po přiměřené lhůtě;
+postup normalizuje mezinárodní norma pro zveřejňování zranitelností (ISO, 2018). Kniha
+z této praxe přebírá zdrženlivost v podrobnosti, nikoli mlčení o existenci problému.
+
+Co odmítnuto není, je stejně určité: jméno vzorce, jeho struktura, jeho typické následky
+a znaky, podle nichž jej lze rozpoznat zvenčí. Starkův popis donucující kontroly ukazuje,
+že právě přechod od výčtu jednotlivých incidentů k popisu vzorce umožnil rozpoznat újmu,
+která v jednotlivostech vypadala jako nevinná (Stark, 2007).
+
+## Proč popis vzorce není jeho výukou
+
+Rozdíl, na němž pravidlo stojí, je rozdílem mezi věděním, že něco je, a věděním, jak se to
+dělá. Ryle ukazuje, že schopnost nějakou věc provést není souborem tvrzení o ní a nelze ji
+z popisu odvodit, protože se získává výcvikem a opravovanou praxí (Ryle, 1949). Popis
+struktury proto neuděluje dovednost — ale neznamená to, že je neškodný.
+
+Tento rozdíl je sporný a kniha na něm nestojí sama. Stanley a Williamson proti Rylovi
+argumentují, že vědění, jak něco dělat, je zvláštním případem vědění, že něco platí, takže
+mezi popisem a dovedností není propast, kterou Ryle předpokládá (Stanley a Williamson, 2001).
+Přijme-li se jejich stanovisko, je obranný rámec jen otázkou míry, ne druhu — a kniha pak
+musí obhájit každou jednotlivou pasáž, nikoli celý žánr.
+
+Hranice mezi oběma rejstříky není dána tématem, nýbrž pasáží. Posouzení, které doporučuje
+Finkova zpráva, se vztahuje ke konkrétnímu experimentu a jeho popisu, nikoli k celé
+disciplíně (National Research Council, 2004). Kniha proto neposuzuje, zda se o technice smí
+psát, ale kolik se o ní smí napsat, a dělá to u každé stránky zvlášť.
+
+Obranný žánr má přitom precedens. Cialdini popisuje techniky vynucování souhlasu a oslovuje
+čtenáře jako jejich cíl, který se má naučit odmítnout, nikoli jako budoucího uživatele
+(Cialdini, 1984). Tento způsob adresování je v knize zachován i tam, kde je popisovaný
+mechanismus závažnější.
+
+Proti utajení mluví i starší zkušenost bezpečnostní vědy: bezpečnost nemůže stát na tom, že
+protivník mechanismus nezná, protože mechanismy se učí pozorováním a napodobováním
+(Kerckhoffs, 1883). Anderson tento princip rozšiřuje na systémy, u nichž utajení návrhu
+oslabuje obránce víc než útočníka, protože obránce potřebuje mechanismus pochopit, aby jej
+odrazil (Anderson, 2008). Techniky
+[epistemické anihilace](@/glossary/epistemicka-anihilace.md) se tomuto popisu blíží: šíří
+se nápodobou bez ohledu na to, zda o nich někdo píše.
+
+## Cena pravidla
+
+Pravidlo má cenu a nese ji čtenář. Kdo chce vědět, jak se něco dělá, to v knize nenajde,
+a nenajde to ani v odkazech, protože kniha odstupňovaný materiál nezveřejňuje (National
+Research Council, 2004). Je to ztráta úmyslná, nikoli nedostatek, který by někdo později
+doplnil.
+
+Cenu platí i text sám. Zamlčení metodických podrobností je v rozporu s požadavkem na úplné
+hlášení výsledků a činí tvrzení obtížněji ověřitelným, což je známé napětí celé debaty
+o dvojím užití (Miller a Selgelid, 2007). Kniha je proto v některých pasážích méně
+přesvědčivá, než by být mohla, a tam, kde se to děje, to říká.
+
+Cenu platí také obránce, který nácvik potřebuje. Odstupňovaný přístup předpokládá instituci,
+která žadatele posoudí a jeho přístup zaznamená (National Research Council, 2004); statický
+veřejný text takovou institucí není, a proto kniha výcvikový materiál neposkytuje nikomu,
+ani tomu, kdo by na něj měl nárok.
+
+Opačná cena je stejně skutečná a kniha si ji připisuje. Kdo zadrží i slovník rozpoznání,
+nechá ohrožené bez kategorií, jimiž by poznali, co se jim děje; nepublikovat materiál na
+úrovni rozpoznání má tedy také svou etickou cenu (Fricker, 2007). Mez je proto vedena mezi
+rozpoznáním a provedením, ne mezi mlčením a řečí.
+
+Žádná z těchto úvah problém neřeší. Strukturální dilema dvojího užití zůstává otevřené
+i poté, co je rozhodnuto o jednotlivé pasáži, protože rozhodnutí snižuje riziko na jedné
+straně a užitek na druhé (Miller a Selgelid, 2007). Kniha vede tomuto nevyřešenému problému
+vlastní heslo [dual-use poznání](@/glossary/dual-use-poznani.md) a podrobný rozbor nese
+příloha [dvojí použitelnost poznání](@/kompendium/08-prilohy/dual-use.md).
+
+## Kde pravidlo nestačí
+
+Pravidlo nechrání před přivlastněním slovníku. Freyd popisuje vzorec, v němž ten, kdo
+působí újmu, popře ji, zaútočí na toho, kdo ji pojmenoval, a obrátí role oběti a pachatele
+(Freyd, 1997). Obranná terminologie je pro takový obrat použitelná a kniha tomu zabránit
+nedokáže.
+
+Pravidlo také nerozhoduje, zda popis na úrovni vzorce prospěje víc, než uškodí. Starkův
+popis donucující kontroly jako vzorce, a ne jako série jednotlivých incidentů, posloužil
+rozpoznání i právní praxi, ale týž popis dává jméno i tomu, kdo jej uplatňuje (Stark, 2007).
+Kniha se pro tuto sázku rozhodla s vědomím, že ji nelze vyhrát předem.
+
+Vymáhání pravidla stojí a padá s textem, ne se čtenářem. Kniha nemá nad svými čtenáři žádnou
+pravomoc, a proto má jen dva nástroje: odstupňovanou podrobnost a výslovné odmítnutí; závazky,
+které z toho plynou pro uživatele, shrnuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
+Jak se taková mez vztahuje k tomu, co kniha tvrdí o vlastním poznání, rozebírá
+[epistemická integrita](@/philosophy/epistemic-integrity.md).
+
+## Literatura
+
+- Anderson, R. (2008). *Security Engineering: A Guide to Building Dependable Distributed Systems* (2. vyd.). Wiley.
+- Beauchamp, T. L., & Childress, J. F. (2019). *Principles of Biomedical Ethics* (8. vyd.). Oxford University Press.
+- Bostrom, N. (2011). *Information hazards: A typology of potential harms from knowledge*. Review of Contemporary Philosophy.
+- Cialdini, R. B. (1984). *Influence: The Psychology of Persuasion*. Harper & Row.
+- Freyd, J. J. (1997). *Violations of power, adaptive blindness and betrayal trauma theory*. Feminism & Psychology.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- ISO/IEC 29147 (2018). *Information technology – Security techniques – Vulnerability disclosure*. International Organization for Standardization.
+- Kerckhoffs, A. (1883). *La cryptographie militaire*. Journal des sciences militaires.
+- Longino, H. E. (1990). *Science as Social Knowledge: Values and Objectivity in Scientific Inquiry*. Princeton University Press.
+- Miller, S., & Selgelid, M. J. (2007). *Ethical and philosophical consideration of the dual-use dilemma in the biological sciences*. Science and Engineering Ethics.
+- National Research Council (2004). *Biotechnology Research in an Age of Terrorism*. National Academies Press.
+- Ryle, G. (1949). *The Concept of Mind*. Hutchinson.
+- Stanley, J., & Williamson, T. (2001). *Knowing how*. The Journal of Philosophy.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 
-**Eseje tohoto oddílu**
+**Oddíl**
 
-- [Filozofické základy a filozofie licencování](@/philosophy/_index.md) – přehled rámce GHL,
-  do něhož etika hranic patří jako čtvrtý princip.
-- [Intelektuální suverenita a autorská nezávislost](@/philosophy/intellectual-sovereignty.md)
-  – právo, které hranice chrání.
-- [Epistemická integrita a uchování významu](@/philosophy/epistemic-integrity.md) – pojmové
-  a časové hranice z hlediska významu.
+- [Tři závazky knihy](@/philosophy/_index.md) – kam toto pravidlo patří mezi závazky knihy.
+- [Interpretační autorita čtenáře](@/philosophy/intellectual-sovereignty.md) – právo, které
+  obranné čtení předpokládá.
+- [Epistemická integrita](@/philosophy/epistemic-integrity.md) – standard, který kniha
+  uplatňuje na vlastní tvrzení.
 
-**Pojmy platformy**
+**Etika a klasifikace knihy**
 
-- [Compliance Framework](@/glossary/compliance-framework.md) – jak se hranice promítají do
-  správy organizace.
+- [1.3 Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md) – závazný
+  etický rámec práce s taxonomií.
+- [Bezpečnostní klasifikace](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md) – úrovně
+  citlivosti, podle nichž se podrobnost odstupňuje.
+- [K čemu kniha neslouží](@/kompendium/01-predmluva/neni-pro-kazdeho/k-cemu-neslouzi.md) –
+  proč kniha popisuje strukturu, a ne postup.
+- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) – závazky, které čtenář přijímá.
+- [Dvojí použitelnost poznání o manipulaci](@/kompendium/08-prilohy/dual-use.md) – etika
+  publikace podrobně.
 
-**Kniha**
+**Pojmy**
 
-- [1.6 Odkud kniha pochází](@/kompendium/01-predmluva/vztah-k-platforme.md) – proč
-  kniha nese filozofii platformy.
-- [Hermeneutická eroze](@/glossary/hermeneuticka-eroze.md) – lidská obdoba sémantického
-  driftu, jak ji popisuje taxonomie.
-- [Coercive Control](@/glossary/coercive-control.md) – hranice v klinickém smyslu: jak jejich
-  systematické porušování poškozuje člověka.
+- [Dual-use poznání](@/glossary/dual-use-poznani.md) – nevyřešený problém, který kniha pouze
+  spravuje.
+- [Epistemic security](@/glossary/epistemic-security.md) – obor, do něhož obranný rámec patří.
+- [Hermeneutický outsourcing](@/glossary/hermeneuticky-outsourcing.md) – co se stane, když
+  pojmy pro vlastní zkušenost dodává někdo jiný.

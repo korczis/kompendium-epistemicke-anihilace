@@ -93,7 +93,7 @@ Logické programování slouží knize jako **analytický nástroj**, ne jako ob
 zviditelnit strukturu argumentů, které se v manipulaci objevují: kruhy, regresy, skryté
 premisy a sebe-referenční konstrukce popisované v technice [EA-5.1.21 Sebe-referenční paradox](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md)
 a v protokolech [paradoxální metaanihilace](@/kompendium/05-ultramari-techniky/kapitola-9.md).
-Souvisí také s kapitolou [Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md),
+Souvisí také s kapitolou [7.6 Computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md),
 která rozebírá vztah formálních metod a epistemologie.
 
 ## Obrana a zotavení
@@ -132,5 +132,5 @@ praktická pravidla:
 **Techniky a teorie**
 
 - [EA-5.1.21 Sebe-referenční paradox](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md) – technika, u které je heslo uvedeno.
-- [Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md) – formální metody v epistemologii.
+- [7.6 Computational epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md) – formální metody v epistemologii.
 - [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md) – struktury, které formalizace pomáhá rozebrat.

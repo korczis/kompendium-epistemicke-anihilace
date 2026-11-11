@@ -102,4 +102,4 @@ Otevřené zůstává, jak měřit dopad datových prázdných míst na skutečn
 
 **Praxe**
 
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md) – etický rámec epistemické integrity.
+- [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md) – etický rámec epistemické integrity.

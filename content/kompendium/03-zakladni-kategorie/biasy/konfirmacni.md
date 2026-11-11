@@ -8,7 +8,7 @@ tags = ["kompendium", "cognitive", "psychology", "manipulace"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["konfirmacni-bias", "kognitivni-bias", "epistemic-bubble", "falsifikovatelnost", "epistemicka-monokultura", "signal-plurality"]
+related_terms = ["konfirmacni-bias", "kognitivni-bias", "epistemic-bubble", "falsifikovatelnost", "epistemicka-monokultura"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"

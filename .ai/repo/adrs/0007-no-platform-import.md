@@ -171,3 +171,22 @@ Platí tedy:
   doplňků 2 a 3 (34 stránek), jdou s hesly; bez hesla nemají co propojit a jejich odkazy by
   rozbily build. Přesměrují na kapitolu, na kterou most ukazoval, jinak na glosář.
 - Gate `platform-section` chytí i číslovaný nadpis („# 1.6 Vztah ke Prismatic…“).
+
+## Amendment 2026-11-11 (5): odkazy na veřejný web platformy v patičkách
+
+Otázka vlastníkovi (AskUserQuestion, session `5d49a595-d035-4bbe-b04a-d12695922860`,
+2026-11-11), doslovně:
+
+> „About 305 public Kompendium pages have a footer linking your public Prismatic promo site
+> (prismatic-reality-com.github.io/prismatic-promo), including a "Developer Portal" item.
+> content/about.md documents this as deliberate (pages that don't belong in the book link to the
+> original public web), and the references cite that site as the book's earlier public edition.
+> These are public links, not internal paths. After the platform removals (ADR 0007), what should
+> happen to them?“
+
+Možnosti: „Drop Developer Portal only (Recommended)“, „Drop all promo-site links“, „Keep all“.
+Odpověď doslovně: **„Drop Developer Portal only (Recommended)“**.
+
+Odkazy na dřívější veřejné vydání knihy zůstávají jako doložený původ. Položka „Developer
+Portal“ zmizí ze všech patiček a `content/about.md` se upraví tak, aby popisoval, co web
+skutečně dělá.

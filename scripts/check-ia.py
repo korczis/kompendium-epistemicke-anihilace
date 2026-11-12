@@ -80,7 +80,14 @@ Requirements (id: what is checked):
   howto            no operational playbook: a page carries no "Operační modus/postup/sekvence"
                    section (steps or phases for performing a technique on a person); the
                    defensive frame describes recognition and defence, not execution. NEVER
-                   baselined; a "z hlediska supervize" reframing is a playbook too
+                   baselined; a "z hlediska supervize" reframing is a playbook too. Also refuses
+                   the 04 terminal-protocol playbook shapes (ADR 0010 amendment): the applier
+                   checklist "před aplikací … protokol … ověř:", the "### Úroveň E1…4" escalation
+                   ladder, the "### Vrstva N" build-order sequence and a "… criteria" heading. It
+                   keys on the applier CONTENT, NOT the "## Kritický krok" heading: the same
+                   heading is a book-wide "key takeaway" and a reader recognition exercise in
+                   03/08 (opposite intent), so a heading match would wrongly flag ~53 pages. Do
+                   not re-add the heading match.
   technique-name   a heading that opens with a code ("#### EA-5.2.29 Name") names the technique
                    that the catalogue page with that code names (its title without the code):
                    a chapter must not describe a different technique under a catalogue code
@@ -263,6 +270,20 @@ HOWTO_APPLIER = re.compile(r"před\s+aplikac[ií]\s+\S+\s+techniky", re.I)
 HOWTO_STEP = re.compile(r"^#{2,6}\s+Krok[\s:0-9]", re.M | re.I)
 # "Krok N" also hides inside a differential table cell, out of a heading's reach.
 HOWTO_STEP_CELL = re.compile(r"^\s*\|.*\bKrok\s*\d", re.M | re.I)
+# Structural playbook shapes the step/heading checks above miss (ADR 0010 amendment, the 04
+# reframe): an applier "Kritický krok" checklist, an "Úroveň E1…E4" escalation ladder, a
+# "Vrstva N" build-order sequence, a "Fáze N" phase table and an "… criteria" heading. Headings
+# only, judged in prose (front matter is not prose), so a slug or link bearing the word is not hit.
+PLAYBOOK_SHAPE = re.compile(
+    r"^#{2,6}\s+(?:Úroveň\s+E\s*\d"
+    r"|Vrstva\s+(?:\d+|[A-Z])\b"
+    r"|\S.*\bcriteria\b)", re.M | re.I)
+# The applier checklist the 04 terminal protocols carry (under a "## Kritický krok" heading):
+# "před aplikací … protokolu … ověř: 1. 2. 3.". It is keyed on this applier CONTENT, not on the
+# heading — the same "Kritický krok" heading in 03/08 is a reader recognition exercise ("vyber
+# techniku, projdi Detekční markery") and is book-wide, so a heading match would flag 53 pages
+# outside 04. This tolerates the prose line wrap between "aplikací" and "protokol".
+PLAYBOOK_APPLIER = re.compile(r"před\s+aplikac[ií][\s\S]{0,60}?\bprotokol", re.I)
 # A drug dose or dose range: a number and a dose unit. A bibliography (a work's title, e.g.
 # "Mediator 150 mg") is skipped by section, so only a dosing claim in prose is caught.
 DRUG_DOSE = re.compile(r"\d[\d.,]*\s*(?:[–-]|až)?\s*\d*\s*(?:mg|µg|μg|mcg|IU)\b", re.I)
@@ -479,6 +500,8 @@ def analyse(pages: list) -> dict:
         prose = FENCE.sub("", body)
         technique = page["path"].startswith("kompendium/techniques/")
         page["howto"] = bool(HOWTO_HEADING.search(prose) or HOWTO_APPLIER.search(prose)
+                             or (page["path"].startswith("kompendium/")
+                                 and (PLAYBOOK_SHAPE.search(prose) or PLAYBOOK_APPLIER.search(prose)))
                              or (technique and (HOWTO_STEP.search(prose) or HOWTO_STEP_CELL.search(prose))))
         page["drug_dose"] = has_drug_dose(prose)
         page["clinical_figures"] = clinical_figures(prose) if page["path"].startswith("kompendium/") else []

@@ -169,15 +169,9 @@ Pro klienty po EA mohou být **specializované skupiny** cenné — peer-validac
 
 **Kontraindikace**: Klienti s aktivní psychotickou symptomatikou, s rizikem suicidality bez stabilizace, s vysokým rizikem reinscenace skupinové dynamiky.
 
-## Farmakoterapie
+## Medikace a rozhodnutí lékaře
 
-Farmakoterapie u EA je **adjuvantní**, nikoli kauzální. Pro samotnou EA žádná farmakoterapie neexistuje; indikaci, volbu a dávkování určují komorbidní diagnózy podle platných doporučených postupů a předepisující lékař, ne tato kniha. Přehled níže jen ukazuje, s jakými komorbiditami se klinik u této populace setká:
-
-- **SSRI/SNRI** — komorbidní depresivní porucha, GAD;
-- **Prazosin** — noční můry u PTSD složky;
-- **Atypická antipsychotika v nízkých dávkách** — pouze při výrazné disociaci nebo akutní dekompenzaci;
-- **Trazodon, hydroxyzin** — krátkodobá podpora spánku;
-- **Benzodiazepiny** — opatrně a krátkodobě, riziko závislosti je u této populace zvýšené.
+Pro samotnou EA neexistuje léčba, kterou by bylo možné předepsat. Kompendium proto nevyjmenovává možnosti, které předepisuje lékař, a neuvádí k nim ani indikace, ani dávkování: indikace, volba a průběžné přehodnocení patří ošetřujícímu lékaři, který rozhoduje podle komorbidních diagnóz a platných doporučených postupů. Kniha k tomuto rozhodnutí nemá postavení a nenahrazuje je ani výčtem, ani obecnějším doporučením. Klinik, který vede psychoterapeutickou část, s lékařem komunikuje a sleduje, jak se jeho rozhodnutí projevuje v průběhu [protokolu epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md), samo rozhodnutí však nepřebírá.
 
 > **Etické upozornění**: U klientů po EA hrozí **specifické riziko** pasivního přijetí medikace bez reflexe. Lékař musí explicitně podporovat klientovu epistemickou autonomii ve vztahu k léčbě.
 

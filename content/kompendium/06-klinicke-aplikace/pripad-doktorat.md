@@ -103,7 +103,7 @@ Terapie prošla čtyřmi obdobími. Po krizové stabilizaci s hospitalizací a m
 
 | Fáze | Intervence | Cíl | EA reference |
 |------|-----------|-----|--------------|
-| Krize | Antidepresivní medikace + hospitalizace | Stabilizace afektivní symptomatiky | nespecifická |
+| Krize | Psychiatrická péče + hospitalizace | Stabilizace afektivní symptomatiky | nespecifická |
 | Krize | Krizový kontrakt + bezpečnostní plán | Redukce suicidálního rizika | nespecifická |
 | Mapování | Strukturovaný "salami audit" | Rekonstrukce skutečného vývoje tématu | Salami |
 | Mapování | "Trojan extrakce" — auditované odlišení autorství | Identifikace vlastního přínosu | Trojan |

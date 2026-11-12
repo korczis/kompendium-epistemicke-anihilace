@@ -187,8 +187,8 @@ terapeutické jádro širšího léčebného plánu, který proběhl v pěti fá
 modelu, který formulovala Herman (1992): nejprve bezpečí, potom vzpomínání a truchlení, nakonec
 obnova spojení s druhými.
 
-**Fáze 1 – Stabilizace (měsíce 1–3):** pracovní neschopnost, obnova spánku a farmakoterapie (SSRI)
-jako adjuvans. Cílem nebyl návrat do práce, ale obnova základní autonomní funkce (viz
+**Fáze 1 – Stabilizace (měsíce 1–3):** pracovní neschopnost a obnova spánku; o další léčbě
+rozhodoval ošetřující lékař. Cílem nebyl návrat do práce, ale obnova základní autonomní funkce (viz
 [akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md)). Van
 Dongen a kol. (2003) ukazují, proč obnova spánku musí předcházet hodnocení kognice: zhoršení z
 chronického nedostatku spánku se kumuluje a samo napodobuje psychopatologii.

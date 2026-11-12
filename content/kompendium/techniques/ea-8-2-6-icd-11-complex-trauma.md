@@ -154,8 +154,8 @@ fyzicky trestány a veřejně ponižovány. Odešel ve dvaceti, vystudoval a pra
 opakovaně se mu rozpadají vztahy, při kritice v práci „zamrzne“ a o sobě mluví jako
 o „vadném“. Noční můry a náhlé návaly strachu má od dětství. Psychiatr nejprve uvažuje
 o depresi, ITQ však ukáže jádro PTSD i výrazné poruchy sebeorganizace. Diagnóza C-PTSD
-změní plán léčby: místo samotných antidepresiv nastoupí postupná terapie se stabilizací
-a prací se sebepojetím. Muž popisuje, že jméno pro jeho potíže mu ulevilo – „konečně to
+změní plán léčby: místo péče vedené jen podle jednotlivých symptomů nastoupí
+postupná terapie se stabilizací a prací se sebepojetím. Muž popisuje, že jméno pro jeho potíže mu ulevilo – „konečně to
 není moje vada, ale následek“.
 
 ## Meze a otevřené otázky

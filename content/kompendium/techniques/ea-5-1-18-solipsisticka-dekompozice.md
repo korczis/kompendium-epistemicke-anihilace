@@ -122,7 +122,7 @@ Přijmi **konsekvenční** závazky — péče o dítě, povinnost vůči pacien
 
 #### 5. Externí klinická intervence
 
-Pokud se objeví derealizace nebo depersonalizace, **konzultuj psychiatra**. Solipsistická dekompozice často přechází v klinický syndrom, který vyžaduje farmakoterapii a psychoterapii.
+Pokud se objeví derealizace nebo depersonalizace, je na místě psychiatrické vyšetření. Solipsistická dekompozice přechází v klinický syndrom, který vyžaduje odbornou péči; o jejím složení rozhoduje ošetřující lékař společně s dotčeným člověkem, nikoli tato stránka.
 
 #### 6. Wittgensteinova praktická terapie
 
@@ -136,7 +136,7 @@ G. E. Moore: *„Zde je ruka. Zde je druhá ruka. Tedy existují vnější objek
 
 | Strategie | Implementace |
 |-----------|--------------|
-| **Klinická intervence** | Psychiatrie + psychoterapie + farmakoterapie pro derealizační syndromy |
+| **Klinická intervence** | Psychiatrie + psychoterapie pro derealizační syndromy |
 | **Akademická hygiena** | PhD programy ve filozofii s povinným **operačním** kontaktem (klinika, právo, věda) |
 | **Vztahová terapie** | Reintegrace do komunity, blízké vztahy |
 | **Konsekvenční angažmá** | Pracovní role s reálnými dopady na druhé |
@@ -146,7 +146,7 @@ G. E. Moore: *„Zde je ruka. Zde je druhá ruka. Tedy existují vnější objek
 
 ### Případ 1 — PhD ve filozofii vědomí
 
-Doktorand 5 let pracoval na disertaci o „iluzornosti vnějšího světa“. Postupně se izoloval, přestal se stýkat s rodinou, derealizace se projevila po 4 letech. Klinická intervence: psychiatrické vyšetření, antidepresivum + psychoterapie + návrat k těleseně-zakořeněné praxi (lezení). Dokončení disertace bylo **přepsáno** do akademické formy bez prožitkové investice.
+Doktorand 5 let pracoval na disertaci o „iluzornosti vnějšího světa“. Postupně se izoloval, přestal se stýkat s rodinou, derealizace se projevila po 4 letech. Klinická intervence: psychiatrické vyšetření, psychoterapie a návrat k tělesně-zakořeněné praxi (lezení); o dalším postupu léčby rozhodoval ošetřující lékař. Dokončení disertace bylo **přepsáno** do akademické formy bez prožitkové investice.
 
 ### Případ 2 — Online radikalizace
 

@@ -60,7 +60,7 @@ Identifikace kontraindikací je integrální součástí každého iniciálního
 
 Vlastní literatura přístupu popisuje jeho skladbu následujícími komponentami:
 
-(1) Komprehensivní farmakologická anamnéza. (2) Diferenciální diagnostika cílových symptomů. (3) Volba léčiva podle klinického profilu. (4) Titrace s monitoringem ADR. (5) Pravidelné re-assessment efektu. (6) Plán deprescribingu.
+(1) Komprehensivní farmakologická anamnéza. (2) Diferenciální diagnostika cílových symptomů. (3) Pravidelné přehodnocení efektu. (4) Plán ukončování.
 
 Výčet je popisem toho, z čeho se přístup skládá, nikoli pokynem k provedení: o indikaci, sledu a ukončení rozhoduje kvalifikovaný klinik ve supervizi a záznam zůstává součástí zdravotnické dokumentace, do níž má dotčený člověk přístup ([etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)).
 
@@ -88,7 +88,7 @@ Tyto adaptace nejsou ornamentální. Kniha je zaznamenává proto, že se s nimi
 
 Aplikace techniky nese následující potenciální iatrogenní rizika:
 
-Závislost na benzodiazepinech, sexuální dysfunkce při SSRI, suicidální ideace u mladších klientů, paradoxní emoční flattening znemožňující psychoterapii.
+Závislost na předepsaném léčivu, nežádoucí účinky posuzované předepisujícím lékařem, suicidální ideace u mladších klientů, paradoxní emoční flattening znemožňující psychoterapii.
 
 Předcházení iatrogenním poškozením je integrální součástí klinické etiky. Klíčové strategie zahrnují: (1) řádnou indikační rozvahu s explicitními kontraindikacemi, (2) průběžný monitoring symptomatologie a terapeutické aliance, (3) kapacitu pro krizovou intervenci v případě destabilizace, (4) supervizi a peer-konzultace v komplexních případech.
 

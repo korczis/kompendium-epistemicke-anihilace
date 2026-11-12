@@ -53,3 +53,33 @@ Z toho plyne:
   pre-push branou; dosavadní nálezy se snižují s každým řezem a strop se snižuje při slučování.
 - `test/cases/24_clinical_figure.sh` dokládá, že brána údaj bez citace odmítne, s citací přijme
   a v bibliografii neměří.
+
+## Doplněk 1 (2026-11-12): všechny nálezy check-ia, plán záznamu
+
+Vlastník pokyn zopakoval doslovně („do th rewrite, cleanup / fix all findings clan way, preennt
+it in future“). Integrace ho čte jako všechny otevřené nálezy `scripts/check-ia.py`, změřené na
+`efb081ca`: citations 1164, bullets 1052, bold-candidate 296, detail 223, weak-link 223,
+bold-term 126, template-figure 103, citation-unresolved 43, bibliography 29, related 2.
+Každá třída je už v baseline, která smí jen klesat; cílem je nula a přechod mezi požadavky,
+které se nikdy nezapisují do baseline. Jedna třída, jeden vlastník:
+
+- **bold-term**: nástroj `link-terms.py --bold` existoval, ale žádná brána ho nespouštěla.
+  Teď běží ve `verify-content --fix`, pre-push, `verify-all` i CI; 126 → 0, nikdy do baseline.
+- **citation-unresolved, bibliography, related**: integrační session; zdroj jen jistě
+  existující dílo, jinak se tvrzení přeformuluje nebo odstraní.
+- **template-figure, clinical-figure**: řezy vlákna obsahu a integrace (viz výše), cíl 0.
+- **bullets**: vlákno obsahu 2e mimo `glossary/`; skutečný výčet souřadných položek zůstává
+  seznamem a hlásí se jako změřená výjimka.
+- **bold-candidate a bullets v `glossary/`**: vlákno katalogů; dávky ze schváleného
+  klasifikačního seznamu (zrušit tučné písmo, štítek, alias existujícího hesla v
+  `extra.aliases`, nové heslo jen se skutečným pramenem, nikdy pahýl).
+- **detail, weak-link**: vlákno bran f3 nejdřív měří a dělí na opravitelné nástrojem a na psaní.
+- **citations**: nezačne nikdo, dokud (a) brána fabricated-citation není na main a nulová,
+  (b) každá přidaná citace se hlásí po odstavcích i s tvrzením, které má doložit, a (c) se
+  postupuje malými změřenými dávkami. Přípustné opravy: skutečný pramen, o kterém je pisatel
+  jistý; odkaz na vlastní rámec knihy (nejvýš tři na stránku); přeformulování na interpretaci
+  knihy; **vypuštění tvrzení**. Vymyšlená citace nikdy. Odůvodnění: rozbor knihy už našel
+  5 vymyšlených a 7 chybně připsaných citací; vlna s kvótou citací je přesně tvar, který je plodí.
+- Bránu se ověřuje jejími vlastními vzory, nikdy ručním grepem: řádkový grep vlákna obsahu
+  prohlásil oddíl 04 za čistý, vzory brány howto (tolerantní k zalomení řádku) našly dva
+  zbývající nálezy.

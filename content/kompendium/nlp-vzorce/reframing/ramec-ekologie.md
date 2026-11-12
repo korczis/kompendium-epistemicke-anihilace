@@ -235,7 +235,7 @@ pro tuto fázi věnuje u [práce s lidmi po odchodu ze skupiny](@/kompendium/tec
 **V kompendiu**
 
 - [EA-4.2.6 Consent withdrawal](@/kompendium/techniques/ea-4-2-6-consent-withdrawal.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
-- [EA-8.1.10 Posouzení schopnosti rozhodovat (Appelbaum a Grisso)](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.1.10 Posouzení schopnosti rozhodovat](@/kompendium/techniques/ea-8-1-10-decision-making-capacity-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [EA-6.4.2 Post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**

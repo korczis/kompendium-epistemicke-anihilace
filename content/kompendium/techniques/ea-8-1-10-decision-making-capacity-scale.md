@@ -1,5 +1,5 @@
 +++
-title = "EA-8.1.10 Posouzení schopnosti rozhodovat (Appelbaum a Grisso)"
+title = "EA-8.1.10 Posouzení schopnosti rozhodovat"
 description = "Čtyři schopnosti rozhodování – porozumění, ocenění, uvažování, volba – a nástroje MacCAT. Jak odlišit nezpůsobilost od nepřípustného vlivu a chránit autonomii."
 weight = 820
 insert_anchor_links = "right"
@@ -19,7 +19,7 @@ access_level = "L1"
 parent_chapter = "/kompendium/08-prilohy/"
 +++
 
-# EA-8.1.10 Posouzení schopnosti rozhodovat (Appelbaum a Grisso)
+# EA-8.1.10 Posouzení schopnosti rozhodovat
 
 | Pole | Hodnota |
 |------|---------|

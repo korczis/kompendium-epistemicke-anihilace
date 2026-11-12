@@ -254,7 +254,7 @@ hlasy.
 
 - [EA-9.1.7 Synthetic Expertise Claim](@/kompendium/techniques/ea-9-1-7-synthetic-expertise-claim.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
-- [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost (Fonagy, Allison)](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [7.3 Sociální epistemologie EA — Goldman, Fricker, Longino, Anderson](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**

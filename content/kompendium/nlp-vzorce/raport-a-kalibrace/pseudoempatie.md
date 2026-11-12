@@ -242,7 +242,7 @@ navazovat vztahy jako závěrečnou fázi zotavení po traumatu, které narušil
 
 - [EA-2.2.7 Pěstování citového dluhu](@/kompendium/techniques/ea-2-2-7-emotional-debt-cultivation.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
-- [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost (Fonagy, Allison)](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**
 

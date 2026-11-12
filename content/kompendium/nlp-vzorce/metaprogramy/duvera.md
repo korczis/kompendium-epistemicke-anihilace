@@ -228,7 +228,7 @@ nahradit porozuměním, že podvod byl navržen tak, aby obešel běžné mechan
 
 **V kompendiu**
 
-- [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost (Fonagy, Allison)](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
+- [EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 - [EA-6.1.10 Epistemická trust assessment](@/kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md) – stránka knihy, na které se toto heslo projevuje nebo s ní souvisí
 
 **V katalogu**

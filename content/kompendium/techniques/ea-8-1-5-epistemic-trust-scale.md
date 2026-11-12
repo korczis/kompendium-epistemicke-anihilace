@@ -1,5 +1,5 @@
 +++
-title = "EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost (Fonagy, Allison)"
+title = "EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost"
 description = "Epistemická důvěra jako ochota přijmout poznání od druhých a její poruchy – nedůvěra a důvěřivost. Měření dotazníkem ETMCQ, význam pro manipulaci, obranu a léčbu."
 weight = 815
 insert_anchor_links = "right"
@@ -19,7 +19,7 @@ access_level = "L1"
 parent_chapter = "/kompendium/08-prilohy/"
 +++
 
-# EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost (Fonagy, Allison)
+# EA-8.1.5 Epistemická důvěra, nedůvěra a důvěřivost
 
 | Pole | Hodnota |
 |------|---------|

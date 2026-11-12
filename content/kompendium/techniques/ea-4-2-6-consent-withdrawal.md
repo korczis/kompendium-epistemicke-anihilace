@@ -62,18 +62,16 @@ Zasažený člověk referuje, že si odchod „nemohl dovolit“, a popisuje to 
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Okolnosti, které vylučují expozici
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Kompendium u odvolání souhlasu nevypisuje žádný výčet oprávněných užití a nenabízí kontext, v němž by expozice tohoto druhu byla přípustná; o přípustnosti rozhodují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md), nikoli tato stránka. Níže uvedené okolnosti jsou důvody, pro které expozice nepřichází v úvahu.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Okolnost | Proč vylučuje |
+|----------|---------------|
+| Akutní psychiatrická krize, suicidální ideace nebo dekompenzovaná komorbidita | V krizi není odvolání souhlasu svobodným úkonem: subjekt nemá kapacitu uplatnit právo, na němž celá záruka stojí |
+| Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení | Odstoupení by znamenalo ztrátu opory; cena odchodu ruší samu možnost odejít |
+| Mocenská asymetrie vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora) | Souhlas daný v závislém vztahu nelze bez sankce vzít zpět, a tím přestává být souhlasem |
+| Komerční, kompetitivní nebo politické cíle protokolu | Zájem zadavatele na pokračování stojí v přímém rozporu s právem subjektu kdykoli skončit |
 
 ## Klinické markery (neúmyslná manifestace)
 

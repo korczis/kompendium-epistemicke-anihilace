@@ -62,18 +62,16 @@ Zasažený člověk referuje, že „neví, kde začít“, když má o sobě ml
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Co expozici vylučuje bez výjimky
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Rozklad narativní struktury kompendium nikde neopravňuje a neuvádí prostředí, v němž by byl na místě; zda je něco takového vůbec přípustné, rozhodují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md), a ne tato stránka. Uvedeny jsou proto jedině okolnosti vylučující.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Vylučující okolnost | Proč vylučuje |
+|---------------------|---------------|
+| Akutní krize, suicidální ideace nebo dekompenzovaná psychiatrická komorbidita | Vyprávěcí linie je v krizi nosnou oporou a její rozklad odstraňuje právě to, co stav drží pohromadě |
+| Absence blízkých osob mimo prostředí expozice | Blízcí lidé jsou vnějšími svědky životního příběhu; bez nich nemá rozebraný narativ odkud být obnoven |
+| Operátor má nad subjektem pracovní, ekonomickou nebo klientskou moc | Náhradní linii pak dodává ten, kdo má nad subjektem moc, a výsledný příběh je jeho, nikoli subjektův |
+| Politický, komerční nebo kompetitivní zájem zadavatele | Zájem na určitém vyznění příběhu je neslučitelný s tím, aby jeho autorem zůstal subjekt |
 
 ## Klinické markery (neúmyslná manifestace)
 

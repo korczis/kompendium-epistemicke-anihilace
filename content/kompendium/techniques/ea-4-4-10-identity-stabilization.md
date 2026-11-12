@@ -62,18 +62,16 @@ Zasažený člověk referuje, že „je s každým někdo jiný“, a tuto zkuš
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Co expozici vylučuje
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Stabilizace identity je obnovovací cíl, a kompendium proto nevyjmenovává kontexty, v nichž by předcházející dekonstrukce sebepojetí byla přípustná. Zda je vůbec obhajitelná, neřeší tato stránka, nýbrž [jak kompendium používat](@/kompendium/01-predmluva/jak-pouzivat.md) a etická část knihy. Dále jsou uvedeny okolnosti, které expozici vylučují, a u každé důvod.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Okolnost | Čím vylučuje |
+|---------------------|---------------|
+| Akutní krize, suicidální ideace, nekompenzovaná psychiatrická komorbidita | Sebepojetí nemá z čeho čerpat stabilitu; re-validační body nejsou náhradou akutní péče |
+| Subjekt bez nosných vztahů nebo v sociálně závislém postavení | Identita se udržuje ve vztazích, a ty tu nejsou k dispozici |
+| Subjekt podřízený operátorovi (zaměstnanecký vztah, klientství v privátní praxi bez druhého supervizora) | Nabídnutá role pochází od toho, kdo rozhoduje o postavení subjektu, a nelze ji odmítnout |
+| Protokol s komerčním, kompetitivním nebo politickým zájmem | Stabilizovalo by se to sebepojetí, které je k užitku zadavateli, ne subjektu |
 
 ## Klinické markery (neúmyslná manifestace)
 

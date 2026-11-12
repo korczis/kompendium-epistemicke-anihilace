@@ -62,18 +62,16 @@ Zasažený člověk referuje, že si souvislost sám nespojil, protože mezi kon
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Okolnosti, za nichž expozice nepřichází v úvahu
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Kompendium neuvádí, kdy je dlouhodobé sledování po terminálním protokolu přípustné, protože výčet přípustných užití by byl pokynem k zahájení expozice, jejíž opožděné následky tato stránka pouze popisuje. Zda je něco takového vůbec připustitelné, rozhodují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md), nikoli tento přehled. Zůstávají okolnosti, za nichž je expozice vyloučena, a důvod každé z nich.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Vylučující okolnost | Proč vylučuje |
+|---------------------|---------------|
+| Akutní psychiatrická krize, suicidální ideace nebo dekompenzovaná komorbidita | Stav vyžaduje akutní péči; sledování ji nenahrazuje a každý odklad péče sám působí škodu |
+| Chybějící podpůrná síť nebo závislé sociální postavení subjektu | Mezi kontrolními setkáními není nikdo, kdo by opožděné zhoršení zachytil a pojmenoval |
+| Mocenská asymetrie mezi subjektem a operátorem (zaměstnanec, podřízený, klient bez druhého supervizora) | Souhlas se sledováním nelze odvolat bez následků, a tím přestává být souhlasem |
+| Komerční, kompetitivní nebo politický cíl protokolu | Zájem zadavatele na výsledku je v rozporu s účelem sledování, totiž zachytit poškození |
 
 ## Klinické markery (neúmyslná manifestace)
 

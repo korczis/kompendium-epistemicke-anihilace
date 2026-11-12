@@ -62,18 +62,16 @@ Zasažený člověk referuje, že „teprve teď rozumí svému životu“. Klin
 | **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
-## Indikace a kontraindikace
+## Okolnosti, které přeznačení vylučují
 
-### Legitimní indikace (vzácné, výhradně supervidovaný kontext)
-- Profesní příprava operativních složek pro extrémně náročné prostředí pod doložitelnou jurisdikcí.
-- Klinická intervence u striktně vymezených diagnóz, kde benefit prokazatelně převažuje riziko.
-- Forenzní rekonstrukce s explicitním soudním mandátem a etickým dohledem.
+Oprávněné užití biografického přeznačení tato stránka nevymezuje, protože kompendium žádné nevypočítává; hranice přípustnosti stanoví [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) nezávisle na tom, co o vzorci říká tento článek. Následuje výhradně přehled vylučujících okolností.
 
-### Absolutní kontraindikace
-- Akutní psychiatrická krize, suicidální ideace, dekompenzovaná komorbidita.
-- Nedostatečná podpůrná síť subjektu nebo závislé sociální postavení.
-- Subjekt v mocenské asymetrii vůči operátorovi (zaměstnanec, podřízený, klient v privátní praxi bez druhého supervizora).
-- Komerční, kompetitivní nebo politické cíle protokolu.
+| Vylučující okolnost | Proč vylučuje |
+|---------------------|---------------|
+| Suicidální ideace nebo dekompenzovaný psychiatrický stav | Přeznačení uzlových událostí zasahuje do výkladu, který subjekt v takovém stavu potřebuje ke zvládnutí přítomnosti |
+| Závislé sociální postavení a chybějící podpora mimo prostředí | Lidé, kteří k dřívějšímu výkladu minulosti patřili, jsou jediným doložením toho, jak se věci staly |
+| Subjekt je podřízeným, zaměstnancem nebo klientem bez nezávislého dohledu | Nový výklad vlastního života pak pochází od strany, jejíž verzi nelze bez následků odmítnout |
+| Komerční zadání nebo politický zájem na výkladu | Zadání určuje dopředu, jak má minulost vyznít, a činí z rekontextualizace přepis ve prospěch zadavatele |
 
 ## Klinické markery (neúmyslná manifestace)
 

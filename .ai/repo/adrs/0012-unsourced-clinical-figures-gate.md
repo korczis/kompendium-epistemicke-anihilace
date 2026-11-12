@@ -100,3 +100,9 @@ práce je stránka: 914 stránek mimo `glossary/` (14 588 položek seznamů), `g
 katalogů. Detail/weak-link (223 stránek, totožné seznamy): práh 1100 slov platí i pro glosář
 (pokyn vlastníka: každý markdown aspoň 2 × A4); vlákno bran f3 dodá seznam podle chybějících
 slov, psaní nesou vlastníci stránek.
+- Nález „šablona opakovaná na 60 stránkách“ se před naplánováním přeměří. Rozpor v názvech
+  subkategorií EA-5.2 a EA-5.4 nebyl v 60 stránkách, ale v rejstříku
+  `05-ultramari-techniky/_index.md`, který odporoval vlastní tabulce kapitol. Oprava rejstříku
+  (2 řádky) místo 120 úprav front matter a tabulek, protože záměr vlastníka je vidět v tabulce
+  kapitol; kdyby vlastník chtěl strukturní názvy odlišné od operačních režimů, opraví se to
+  opačným směrem.

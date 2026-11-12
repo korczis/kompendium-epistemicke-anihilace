@@ -50,7 +50,7 @@ Nepříznivý průběh se pozná podle toho, že skupina ztvrdne: neshoda z ní 
 
 ## Cílová populace
 
-Kohorty 6–12 trainees; absolvované programy formující alumni komunity.
+Kohorty natolik malé, aby se účastníci navzájem znali jménem i prací; absolvované programy formující alumni komunity.
 
 Edukativní cíl není **změna chování** v behaviorálním smyslu, ale **kultivace kompetencí** umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
 
@@ -67,8 +67,7 @@ Konkrétní implementace vyžaduje:
 1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
 2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
-5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
 Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
 
@@ -76,10 +75,10 @@ Implementace je **iterativní** — každý cyklus generuje data informující �
 
 | Kritérium | Měřítko |
 |-----------|---------|
-| Network density | >70 % účastníků má >=3 aktivní vazby |
+| Network density | většina účastníků má funkční vazbu na několik dalších, nikoli jen na lektora |
 | Help-seeking events | Reálné využití v krizích (ne jen formalita) |
 | Triangulation accuracy | Komunita správně identifikuje manipulace v test-cases |
-| Longevity | >50 % vazeb přetrvává >2 roky
+| Longevity | část vazeb přetrvává i po skončení programu, bez jeho organizační podpory |
 
 Evaluace integruje **kvantitativní** (validované instrumenty) i **kvalitativní** (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
 
@@ -95,6 +94,18 @@ Specificky:
 - **Nedostatek institucionální infrastruktury** — bez adekvátní podpory technika selhává a může poškozovat.
 - **Kulturně necitlivá implementace** — technika musí být adaptována pro local context, nikoli mechanicky importována.
 - **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
+
+## Co existence komunity nedokládá
+
+Hustá síť vazeb dokládá, že se lidé scházejí; nedokládá, že dohromady rozpoznají více než každý sám. Soudržnost a správnost jsou dvě různé vlastnosti skupiny: společenství může být bezpečné a přitom shodně vedle, a shoda pak jeho omyl utvrdí (Janis, 1972). Příslušnost ke komunitě nevypovídá o jednotlivém členovi — schopnost skupiny přijít na to, co jeden z nich neviděl, nelze převést na jeho osobní způsobilost, a doklad členství není dokladem rozpoznávání. Nedokládá se jí ani to, že člen dostane oporu, až ji bude potřebovat: ochota požádat o pomoc je něco jiného než existence někoho, kdo ji podá. A konečně nedokládá vlastní trvalost; živost vazeb v době společného programu nevypovídá o tom, co zůstane, až skončí vnější důvod se scházet (Wenger, 1998).
+
+## Odlišení od blízkých technik
+
+Od [peer konzultace](@/kompendium/techniques/ea-3-2-8-peer-consultation.md) se formace komunity liší tím, že nemá případ: konzultace je vázaná na konkrétní otázku, má roli, hranice a konec, zdejší praxe naopak buduje vazbu, která je k dispozici dřív, než se otázka objeví. Od [debriefingového protokolu](@/kompendium/techniques/ea-3-1-9-debriefing-protocol.md) ji odlišuje, že nereaguje na událost. Od obvyklé studijní kohorty se odlišuje svým ukazatelem úspěchu: běžná kohorta se po absolutoriu rozchází a nikdo to nepovažuje za selhání, zde je naopak sledovaným znakem právě to, co přetrvá bez vyučujícího a bez instituce (Lave a Wenger, 1991).
+
+## Odkud tvrzení pocházejí
+
+Že podmínkou učení ve skupině je možnost přiznat omyl bez ztráty postavení, je Edmondsonův nález (Edmondson, 1999). Posun od okrajové k plné účasti jako vlastní mechanismus učení popsali Lave a Wenger (1991), přetrvání společenství bez původního vedení Wenger (1998). Tvrzení, že vzájemná validace může zesílit sdílené slepé skvrny, má oporu v Janisově rozboru skupinového rozhodování (Janis, 1972). *Interpretace knihy* je teprve přenos na zdejší předmět: žádná z těchto prací nezkoumala skupinu, jejímž tématem je cílené podrývání úsudku jejích vlastních členů. Odtud plyne i to, proč se tato praxe nepovažuje za sebeosvědčující — pohled zvenčí komunity k ní patří, protože to, co skupina přehlíží, v ní samé vidět není.
 
 ## Vztah k jiným technikám
 
@@ -124,6 +135,7 @@ Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
 ## Literatura
 
 - Edmondson, A. (1999). Psychological safety and learning behavior in work teams. *Administrative Science Quarterly*, 44(2).
+- Janis, I. L. (1972). *Victims of Groupthink: A Psychological Study of Foreign-Policy Decisions and Fiascoes*. Houghton Mifflin.
 - Lave, J., & Wenger, E. (1991). *Situated Learning: Legitimate Peripheral Participation*. Cambridge University Press.
 - Wenger, E. (1998). *Communities of Practice: Learning, Meaning, and Identity*. Cambridge University Press.
 

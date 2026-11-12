@@ -72,7 +72,7 @@ Co může vidět vnější pozorovatel:
 
 ### Individuální
 
-1. Strukturovaná retrospektiva morálních principů s 10+ letým horizontem
+1. Strukturovaná retrospektiva morálních principů, vedená dost daleko do minulosti, aby zahrnula období před inverzí
 2. Externí etická konzultace s důvěryhodnou nezávislou autoritou
 3. Terapie zaměřená na rozlišení autentické morální evoluce vs. implantovaná inverze
 
@@ -155,17 +155,18 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - **Bezpečí jako primární cíl** (Herman, 1992; SAMHSA, 2014): před jakoukoliv konfrontační intervencí musí být obnoveno fyzické a vztahové bezpečí. Předčasná konfrontace s manipulátorem nebo s implantovaným narativem retraumatizuje.
 - **Tělová stabilizace před narativní rekonstrukcí** (van der Kolk, 2014; Levine, *Somatic Experiencing*): bottom-up přístupy (somatické intervence, polyvagal-informed práce) předcházejí top-down narativní práci. Pokus rekonstruovat narativ bez tělové báze vede k retraumatizaci a/nebo dissociaci.
 - **Externí archivace** kontinuity self: deníky, fotografie, korespondence, výpovědi nezávislých svědků pre-manipulační fáze fungují jako odolný záznam, ke kterému se subjekt může vracet.
-- **Pomalá temporalita**: rekonstrukční terapeutický rámec u této kategorie technik typicky vyžaduje 12–36 měsíců strukturované práce; akcelerace zhoršuje prognózu.
 - **Supervize terapeuta**: sekundární traumatizace terapeuta a riziko parallel process (terapeut nevědomě reprodukuje manipulační dynamiku) vyžadují pravidelnou supervizní podporu.
 - **Zákaz konfrontačních a regresních technik** v rané fázi: pre-konsolidační self je příliš zranitelný pro hypnoidní, regresní nebo psychedelicky-asistované intervence.
+
+Obnova morální orientace předpokládá, že postižený unese stud a vinu za jednání, k němuž se pod obrácenými osami odhodlal, a tyto afekty jsou v koncentrované podobě nesnesitelné. Práce proto postupuje tak, jak roste jeho schopnost nést vlastní odpovědnost; požadavek rychlého morálního sebeodsouzení vede buď ke zhroucení, nebo k návratu k obrácenému rámci jako k obraně.
 
 ## Cross-linky expandované
 
 - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - [Subkategorie 5.3 Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-ea-5-3)
 - [EA-5.1 Epistemická singularita](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-1)
-- [EA-5.2 Onto-singulární mechanismy](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-2)
-- [EA-5.4 Konvergenční techniky](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-4)
+- [EA-5.2 Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-2)
+- [EA-5.4 Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-4)
 - [EA-5.5 Transkonceptuální mechanismy](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-5)
 - [EA-1.6 Charizmatické vedení](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/01-zakladni-techniky/#subkategorie-1-6)
 - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)

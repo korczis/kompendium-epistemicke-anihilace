@@ -36,7 +36,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 ## Definice
 
-**Drill kompoziční analýzy** je technika dekompozice komplexních real-world manipulativních epizod na **konstitutivní techniky EA-1.* + scénáře EA-2.***. Studenti se učí rozeznat, že většina reálných epizod je kombinací 3–7 elementárních technik — nikoli monolitické 'manipulace'.
+**Drill kompoziční analýzy** je technika dekompozice komplexních real-world manipulativních epizod na **konstitutivní techniky EA-1.* + scénáře EA-2.***. Studenti se učí rozeznat, že většina reálných epizod je kombinací několika elementárních technik — nikoli monolitické 'manipulace'.
 
 ## Struktura vzorce
 
@@ -47,6 +47,8 @@ Retrospektivně se v dobře vedené praxi dá rozlišit sled, v němž se znaky 
 Nepříznivý průběh se pozná podle toho, že se rozbor mění v přiřazování kódů. Ericsson, Krampe a Tesch-Römer (1993) zdůrazňují, že bez pravdivé zpětné vazby upevňuje opakování i chybné třídění — a nálepka přiřazená bez opory je sama epistemickou škodou.
 
 *Interpretace knihy*: rozlišujícím znakem je zacházení s neshodou mezi rozbory. Kde je neshoda považována za chybu jednoho z analytiků, mizí z výcviku to podstatné; kde je považována za údaj o obtížnosti případu, zůstává rozbor opravitelný (Chi, Feltovich a Glaser, 1981).
+
+U této stránky je vhodné přiznat, jak málo z uvedeného je o rozkladu manipulativních epizod, a jak mnoho o odbornosti vůbec. Poznatek, že způsob třídění materiálu rozlišuje odborníka od začátečníka, získali Chi, Feltovich a Glaser (1981) na fyzikálních úlohách; požadavek pravdivé zpětné vazby, bez níž opakování upevňuje i chybné třídění, formulovali Ericsson, Krampe a Tesch-Römer (1993) pro nácvik dovedností obecně; význam rozboru sporných případů popsal Klein (1998) u praktiků rozhodujících v čase. Že totéž platí pro rozklad epizod epistemické anihilace, je *interpretace knihy*. Opírá se o jediný předpoklad, totiž že i zde jde o třídění podle rysů, které o povaze případu rozhodují — a tento předpoklad kniha nedokazuje, nýbrž jej vyslovuje a nechává otevřený.
 
 ## Cílová populace
 
@@ -67,7 +69,7 @@ Konkrétní implementace vyžaduje:
 1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
 2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
+4. Rozbory nerevidují jen jejich autoři — na analytickou práci se dívá i někdo, kdo se na původním rozboru nepodílel, protože jinak se neshoda nemá kde ukázat.
 5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
 Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
@@ -83,6 +85,8 @@ Implementace je **iterativní** — každý cyklus generuje data informující �
 
 Evaluace integruje **kvantitativní** (validované instrumenty) i **kvalitativní** (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
 
+Shoda mezi analytiky nedokládá, že je rozklad správný. Může znamenat také to, že se analytici učili z téhož kurikula a sdílejí jeho schéma: Chi, Feltovich a Glaser (1981) vztahují způsob třídění k uspořádání znalostí u třídícího, takže souhlasný rozbor je nejprve údajem o společném výcviku a teprve potom o materiálu. Dále nedokládá nic o epizodě samé — rozbor pracuje se záznamem, a záznam není epizodou; chybí v něm vše, co nebylo zapsáno, a zapsáno bývá to, co už někomu připadalo významné. Nejméně ze všeho pojmenování složek dokládá něco o lidech v epizodě: určená technika je popisem tvaru jednání, nikoli zjištěním o záměru toho, kdo jednal, a ani opakovaný výskyt téhož tvaru u jedné osoby tento krok neopravňuje. A konečně, zdatnost v rozkladu po čase nedokládá rozpoznání v čase: Klein (1998) popisuje rozhodování praktiků za nedostatku informací a pod tlakem, tedy přesně za podmínek, které drill záměrně odstraňuje, aby se dal rozbor vůbec vést.
+
 ## Rizika a kontraindikace
 
 **Kdy techniku NEPOUŽÍVAT nebo modifikovat:**
@@ -97,6 +101,8 @@ Specificky:
 - **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
 
 ## Vztah k jiným technikám
+
+Od [EA-3.1.6 Recognition trénink](@/kompendium/techniques/ea-3-1-6-recognition-training.md) se drill liší předmětem: recognition pracuje s rozpoznáním jednoho vzorce, kdežto zde je na prvním místě skladba — že epizoda je složená a že na pořadí složek záleží. Od [EA-3.1.7 Neutralizační praktikum](@/kompendium/techniques/ea-3-1-7-neutralization-practicum.md) jej odděluje to, kde se zastavuje: praktikum se ptá, co dělat, drill končí u výkladu a odpověď nechává mimo sebe. Proti běžnému vyučovacímu případu je rozdíl v tom, co se děje s nejednoznačností: učební případ bývá připraven tak, aby měl správné řešení, zatímco zde je rozdíl mezi dvěma rozbory sám údajem, s nímž se dál pracuje.
 
 ### Sourozenecké techniky (3.1 Kurikulární techniky)
 

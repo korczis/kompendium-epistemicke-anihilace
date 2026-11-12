@@ -67,8 +67,7 @@ Konkrétní implementace vyžaduje:
 1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
 2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
-5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+4. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
 Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
 
@@ -95,6 +94,18 @@ Specificky:
 - **Nedostatek institucionální infrastruktury** — bez adekvátní podpory technika selhává a může poškozovat.
 - **Kulturně necitlivá implementace** — technika musí být adaptována pro local context, nikoli mechanicky importována.
 - **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
+
+## Co zvládnuté praktikum nedokládá
+
+Zdařilý výkon v simulaci dokládá výkon v simulaci. Účastník po celou dobu ví, že situace skončí, že má svolení odejít a že protihráč je herec bez moci nad jeho zaměstnáním, pobytem či dětmi — a právě tato trojí jistota je v reálné asymetrii nepřítomná. Nedokládá se tím ani přenos na blízké vztahy: schopnost držet věcnou linii proti cizímu člověku nevypovídá o téže schopnosti vůči někomu, komu účastník věří a jehož úsudek dosud bral jako svůj (Barnett a Ceci, 2002). O trvalosti nabyté dovednosti praktikum nevypovídá vůbec, protože ji měří v době, kdy byla právě nacvičena. A nejmenší váhu má to, co z praktika bývá nejvíc patrné — pohotovost odpovědi; rychlá replika je slučitelná s tím, že účastník nerozpoznal, co se dělo (Ericsson, Krampe a Tesch-Römer, 1993).
+
+## Odlišení od blízkých technik
+
+Od [recognition tréninku](@/kompendium/techniques/ea-3-1-6-recognition-training.md) se praktikum liší tím, co se po účastníkovi žádá: rozpoznávání končí pojmenováním, zde se k pojmenování připojuje vlastní odpověď, a tím i možnost chybovat způsobem, který druhého zraní. Od [debriefingového protokolu](@/kompendium/techniques/ea-3-1-9-debriefing-protocol.md) se odlišuje tím, že debriefing následuje, zatímco praktikum zátěž vytváří; proto je jeho součástí někdo, kdo za uzavření odpovídá. Od obvyklé komunikační role-play v profesním výcviku je odlišuje její zadání: běžné cvičení je navrženo tak, aby účastník uspěl, zdejší praktikum ponechává nerozhodnutý bod nerozhodnutý, protože snesitelnost nejistoty je právě to, co se sleduje.
+
+## Odkud tvrzení pocházejí
+
+Myšlenka, že odolnost vůči přesvědčování vzniká předchozím setkáním s oslabenou podobou argumentu, je McGuirova (McGuire, 1964); její doložení na klamné argumentaci v současném informačním prostředí je prací van der Lindena a kolegů (2017). Že opakování bez pravdivé zpětné vazby upevní rutinu místo dovednosti, pochází od Ericssona, Krampeho a Tesch-Römera (1993); omezení přenosu nacvičeného do odlišného prostředí zmapovali Barnett a Ceci (2002). *Interpretace knihy* je obranné čtení celku — že totiž rozlišujícím znakem je role účastníka, a tedy že se tato praxe nevede bez dohledu někoho mimo nacvičovanou dvojici.
 
 ## Vztah k jiným technikám
 
@@ -123,6 +134,7 @@ Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
 
 ## Literatura
 
+- Barnett, S. M., & Ceci, S. J. (2002). When and where do we apply what we learn? A taxonomy for far transfer. *Psychological Bulletin*, 128(4).
 - Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). The role of deliberate practice in the acquisition of expert performance. *Psychological Review*, 100(3).
 - McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology*, Vol. 1. Academic Press.
 - van der Linden, S., Leiserowitz, A., Rosenthal, S., & Maibach, E. (2017). Inoculating the public against misinformation about climate change. *Global Challenges*, 1(2).

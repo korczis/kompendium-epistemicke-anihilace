@@ -48,6 +48,8 @@ Nepříznivý průběh se pozná podle toho, že opora nezmizí. Učící se vyk
 
 *Interpretace knihy*: rozlišujícím znakem je, kde končí závislost. Dobrá opora pracuje na vlastním zrušení; kde se mění v trvalou potřebu vedoucího, vzniká epistemická závislost — totiž vztah, který tato kniha jinde popisuje jako podmínku zranitelnosti (Collins, Brown a Newman, 1989).
 
+Stojí za to oddělit, co na této stránce pochází z literatury a co je čtením knihy. Metaforu lešení i požadavek, aby se opora odebírala, zavedli do odborné rozpravy Wood, Bruner a Ross (1976); rozdíl mezi samostatným a podpořeným výkonem je pojmem Vygotského (1978) a sled předvedení, spoluúčasti a ubývající opory popisují Collins, Brown a Newman (1989) jako kognitivní učňovství. Co v žádném z těchto zdrojů není, je výklad trvající opory jako epistemické závislosti; ten je *interpretace knihy* a opírá se pouze o tvar citovaných tvrzení — opora, která se nevrací zpět k učícímu se, nezanechává jen nedokončenou výuku, nýbrž vztah, v němž je přítomnost druhého podmínkou toho, aby učící se vůbec považoval svůj úsudek za platný.
+
 ## Cílová populace
 
 Trainees v supervizovaných tréninkových programech; klinici v re-trainingu po identifikované kompetenční mezeře.
@@ -67,7 +69,7 @@ Konkrétní implementace vyžaduje:
 1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
 2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
 3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
+4. Pohled zvenčí na odebírání opory — úsudek, že opora může ubrat, nezůstává na tom, kdo ji sám poskytuje; vstupuje do něj i někdo, kdo k učícímu se není ve vztahu mentora.
 5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
 
 Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
@@ -83,6 +85,8 @@ Implementace je **iterativní** — každý cyklus generuje data informující �
 
 Evaluace integruje **kvantitativní** (validované instrumenty) i **kvalitativní** (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
 
+Žádné z uvedených kritérií nedokládá kompetenci učícího se mimo prostředí, v němž byla opora odebírána. Rozdíl mezi podpořeným a samostatným výkonem je údajem o jedné situaci a o jednom pozorovateli; Vygotsky (1978) jej zavedl jako popis okamžiku učení, nikoli jako trvalou vlastnost člověka, a zvládnutý úkol bez opory neříká nic o úkolu, který se mu nepodobá. Stejně tak doložené fading nedokládá nic o mentorovi: to, že učící se obstál, může znamenat, že opora byla odebírána dobře, ale i to, že nebyla nikdy potřebná, a obě možnosti vypadají ve výsledku totožně. Opačný závěr je rovněž nedostupný — regrese po odebrání opory sama neukazuje na nedostatek na straně učícího se, protože ukazuje jen na to, že opora nesla více, než bylo zjevné, dokud byla přítomna. Nedoložitelná zůstává i vlastní zkušenost podpory: učící se, který prošel vrstvením zkušenosti, tím nezískává schopnost vrstvit ji druhému, neboť rozhodování o oporách je jiná dovednost než práce v nich.
+
 ## Rizika a kontraindikace
 
 **Kdy techniku NEPOUŽÍVAT nebo modifikovat:**
@@ -97,6 +101,8 @@ Specificky:
 - **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
 
 ## Vztah k jiným technikám
+
+Od [EA-3.1.1 Graduální expozice design](@/kompendium/techniques/ea-3-1-1-graduated-exposure-design.md) se tato technika liší tím, co se v ní proměňuje: expozice odstupňovává náročnost materiálu, zatímco scaffolding mění míru opory a úloha přitom může zůstat táž. Od [EA-3.1.3 Metakognitivní kultivace](@/kompendium/techniques/ea-3-1-3-metacognitive-cultivation.md) ji odděluje umístění pozorovaného — kultivace obrací pozornost k vlastnímu myšlení, kdežto zde je předmětem pozorování to, co učící se dostává zvenčí a co mu lze odebrat. Proti běžnému vyučovacímu případu je rozdíl v tom, jak se nahlíží přítomnost pomoci: v obvyklé výuce je učebnice, vzorové řešení nebo konzultace trvale k dispozici a nikdo to nepovažuje za nedostatek, zatímco v této technice je právě trvalá dostupnost opory tím nálezem, podle něhož se pozná, že práce neskončila.
 
 ### Sourozenecké techniky (3.1 Kurikulární techniky)
 

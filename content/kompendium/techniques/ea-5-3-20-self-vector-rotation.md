@@ -72,7 +72,7 @@ Co může vidět vnější pozorovatel:
 
 ### Individuální
 
-1. Strukturovaná hodnotová retrospektiva s 5-10 letým horizontem
+1. Strukturovaná hodnotová retrospektiva sahající před období, v němž k rotaci došlo
 2. Triangulace s dlouholetými svědky
 3. Terapeutická práce na rozlišení autentické evoluce vs. induced rotace
 
@@ -155,17 +155,18 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - **Bezpečí jako primární cíl** (Herman, 1992; SAMHSA, 2014): před jakoukoliv konfrontační intervencí musí být obnoveno fyzické a vztahové bezpečí. Předčasná konfrontace s manipulátorem nebo s implantovaným narativem retraumatizuje.
 - **Tělová stabilizace před narativní rekonstrukcí** (van der Kolk, 2014; Levine, *Somatic Experiencing*): bottom-up přístupy (somatické intervence, polyvagal-informed práce) předcházejí top-down narativní práci. Pokus rekonstruovat narativ bez tělové báze vede k retraumatizaci a/nebo dissociaci.
 - **Externí archivace** kontinuity self: deníky, fotografie, korespondence, výpovědi nezávislých svědků pre-manipulační fáze fungují jako odolný záznam, ke kterému se subjekt může vracet.
-- **Pomalá temporalita**: rekonstrukční terapeutický rámec u této kategorie technik typicky vyžaduje 12–36 měsíců strukturované práce; akcelerace zhoršuje prognózu.
 - **Supervize terapeuta**: sekundární traumatizace terapeuta a riziko parallel process (terapeut nevědomě reprodukuje manipulační dynamiku) vyžadují pravidelnou supervizní podporu.
 - **Zákaz konfrontačních a regresních technik** v rané fázi: pre-konsolidační self je příliš zranitelný pro hypnoidní, regresní nebo psychedelicky-asistované intervence.
+
+Práce zde postupuje pomalu především proto, že chybí bod, k němuž by se dalo vrátit: posun hodnot nemá vlastní datum ani vlastní důvod a je nutné jej rekonstruovat z vnějších záznamů a svědectví, trpělivě a položku po položce. Vnucené tempo tuto rekonstrukci znehodnocuje — pod tlakem na rychlou odpověď, kým vlastně je, přijme subjekt další hotový směr, a právě přijetí hotového směru je to, co technika využívá.
 
 ## Cross-linky expandované
 
 - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - [Subkategorie 5.3 Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-ea-5-3)
 - [EA-5.1 Epistemická singularita](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-1)
-- [EA-5.2 Onto-singulární mechanismy](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-2)
-- [EA-5.4 Konvergenční techniky](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-4)
+- [EA-5.2 Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-2)
+- [EA-5.4 Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-4)
 - [EA-5.5 Transkonceptuální mechanismy](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-5)
 - [EA-1.6 Charizmatické vedení](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/01-zakladni-techniky/#subkategorie-1-6)
 - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)

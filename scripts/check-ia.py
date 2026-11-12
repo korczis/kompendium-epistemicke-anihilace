@@ -64,7 +64,10 @@ Requirements (id: what is checked):
   authority-without-source  no name-dropped authority: a parenthetical group of 2+ surnames with no
                    year on the line, pasted byte-identical on 3+ pages ("(Vondráček, Mečíř, …)").
                    A real citation carries a year and resolves in Literatura; this does neither and
-                   every citation gate misses it (ADR 0014). NEVER baselined
+                   every citation gate misses it (ADR 0014). A name the book GENUINELY DISCUSSES
+                   (used lowercased in prose, e.g. Russell, Wittgenstein) is exempt — a pasted
+                   paragraph about it is duplicate-passage's domain — so a 0 here means no fabricated
+                   name-drop, not no cited thinker. NEVER baselined
   clinical-figure  no unsourced clinical specific: a duration range in hours, days, weeks, months
                    or sessions, a share of sessions/patients/clients, a success/relapse rate, a
                    numeric threshold on a clinical score (HRV, HR, DES, PCL, BDI, PHQ, GAD …), a

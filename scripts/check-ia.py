@@ -57,12 +57,15 @@ Requirements (id: what is checked):
   drug-dose        no medical dosing: a drug dose or dose range (N mg, N–M mg, mg/den, µg, IU …)
                    in prose outside code and bibliographies. A public book must not recommend
                    doses (same as the emergency protocols). NEVER baselined
-  clinical-figure  no unsourced clinical specific: a duration range in days, weeks, months or
-                   sessions, a share of sessions/patients/clients, a success/relapse rate, a
-                   numeric threshold on a clinical score (HRV, HR, DES, PCL, BDI, PHQ, GAD …) or a
-                   session dose stands in a paragraph, list item or table row that carries an
-                   author-year citation or a statute; a reader could take it as an instruction
-                   (ADR 0010). NEVER baselined
+  clinical-figure  no unsourced clinical specific: a duration range in hours, days, weeks, months
+                   or sessions, a share of sessions/patients/clients, a success/relapse rate, a
+                   numeric threshold on a clinical score (HRV, HR, DES, PCL, BDI, PHQ, GAD …), a
+                   session count, a minimum dose ("minimum 100h", "alespoň 6 sezení") or a count
+                   range of techniques/trainees/participants stands in a paragraph, list item or
+                   table row that carries an author-year citation or a statute; a reader could take
+                   it as an instruction (ADR 0010, 0012). Not judged yet: numeric acceptance
+                   criteria in tables (κ > 0.7, ≥ 85 %, "do 30 min"), a separate wave. NEVER
+                   baselined
   howto            no operational playbook: a page carries no "Operační modus/postup/sekvence"
                    section (steps or phases for performing a technique on a person); the
                    defensive frame describes recognition and defence, not execution. NEVER
@@ -135,7 +138,7 @@ NEVER_BASELINED = {"placeholder", "technique-page", "howto", "drug-dose", "templ
 # `--list <rule>`); they are fixed in content, not accepted. Until then the gate fails only when
 # the count grows. The number may only go down, and the entry goes when it reaches 0.
 PENDING_ZERO = {"placeholder": 0, "technique-page": 0, "howto": 0, "drug-dose": 0,
-                "clinical-figure": 118,
+                "clinical-figure": 123,
                 "template-figure": 103, "platform-section": 0, "relative-link": 0,
                 "platform-label": 0, "platform-frontmatter": 0, "philosophy-frame": 0}  # 0 → never baselined
 BOLD_CANDIDATE_PAGES = 3  # a bold phrase on this many pages is a term and needs its own page
@@ -255,7 +258,9 @@ CLINICAL_FIGURE = re.compile(
     r"|účastník\w*|respondent\w*|populace|obětí|přeživších)"
     r"|(?:úspěšnost\w*|remis\w*|relaps\w*|recidiv\w*|zlepšení|drop-?out)\D{0,30}\d+(?:[,.]\d+)?\s*%"
     r"|\b" + _SCORE + r"\s*(?:skóre\s*)?(?:[<>≥≤]=?|nad|pod|>\s*=)\s*\d+"
-    r"|\b\d+\s*(?:[–-]\s*\d+\s*)?(?:sezení|sessions)\b", re.I)
+    r"|\b\d+\s*(?:[–-]\s*\d+\s*)?(?:sezení|sessions)\b"
+    r"|(?:minim(?:um|álně)|alespoň|nejméně|min\.)\s*\d+(?:[,.]\d+)?\s*(?:h\b|hod\w*|sezen\w*|session\w*|týd\w*|měsíc\w*|dn[ůíy]\w*)"
+    r"|\b\d+\s*[–-]\s*\d+\s*(?:elementárních\s+|různých\s+)?(?:technik\w*|trainee\w*|účastník\w*|klient\w*|pacient\w*)", re.I)
 BIBLIO_HEADING = re.compile(r"^#{1,3}\s+(?:Literatura|Bibliografie|Reference|Zdroje|Prameny)\b", re.I)
 # A "Vztah k/ke <Prismatic component>" heading ties the book to the Prismatic platform. ADR 0007
 # (owner, 2026-11-11: do not import; strip) removed every such section and the pages that were
